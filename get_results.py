@@ -31,7 +31,7 @@ def get_result_algs(algs : list, algs_names: list, vectorizer, vectorizer_name: 
 
 def get_result(alg: str, alg_name:str, vectorizer, vectorizer_name: str, df: pd.DataFrame, data_frame_name: str, scores: dict):
 
-    X_train, X_test, y_train, y_test = train_test_split(df["text"], df["label"], shuffle= True, test_size = 0.3)
+    X_train, X_test, y_train, y_test = train_test_split(df["text"], df["label"], shuffle= True, test_size = 0.3, random_state = 42)
     vectorizer.fit(X_train)
 
 
@@ -51,14 +51,12 @@ def get_result(alg: str, alg_name:str, vectorizer, vectorizer_name: str, df: pd.
     scores["vectorizer"].append(vectorizer_name)
 
     scores_decimals = 4
-
     scores["accuracy"].append(round(accuracy_score(y_test, y_predict), scores_decimals))
     scores["precision"].append(round(precision_score(y_test, y_predict, pos_label="fake"), scores_decimals))
     scores["recall"].append(round(recall_score(y_test, y_predict, pos_label="fake"), scores_decimals))
     scores["f1"].append(round(f1_score(y_test, y_predict, pos_label="fake"), scores_decimals))
 
     time_decimals = 2
-
     scores["train_time"].append(round(end_train_time - start_train_time, time_decimals))	
     scores["predict_time"].append(round(end_predict_time - start_predict_time, time_decimals))
  
