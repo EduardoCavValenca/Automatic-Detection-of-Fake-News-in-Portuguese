@@ -89,10 +89,13 @@ def create_csv():
 
     # Save the dataframe to a csv file
     df.to_csv('news.csv', index=False)
-            
+
+
+def main():
+    readCreateFiles()       
 
 if __name__ == "__main__":
-    readCreateFiles()
+    main()
    
     
 

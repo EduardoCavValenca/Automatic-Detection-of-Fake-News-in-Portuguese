@@ -61,8 +61,11 @@ def get_result(alg: str, alg_name:str, vectorizer, vectorizer_name: str, df: pd.
     scores["predict_time"].append(round(end_predict_time - start_predict_time, time_decimals))
  
 
-if __name__ == "__main__":
+def main():
     pass
+
+if __name__ == "__main__":
+    main()
     
     
    
