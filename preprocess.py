@@ -46,6 +46,9 @@ def removeStopWords(text):
     text = ' '.join([word for word in text.split() if word not in stopwords])
     # remove extra spaces 
     text = re.sub(r' +', ' ', text)
+    text = re.sub('[\n]+', ' ', text)
+    text = re.sub(r'[\r]+', ' ', text)
+    text = re.sub(r'[\t]+', ' ', text)
 
     return text
 
@@ -72,10 +75,10 @@ def create_csv():
     newsDict = {}
     for folder in ['fake', 'true']:
         newsDict[folder] = {}
-        for file in os.listdir('pre_normalized/' + folder):
-            with open('pre_normalized/' + folder + '/' + file, 'r', encoding='utf-8') as f:
+        for file in os.listdir('data/text_files/custom_dataset/' + folder):
+            with open('data/text_files/custom_dataset/' + folder + '/' + file, 'r', encoding='utf-8') as f:
                 text = f.read()
-                newsDict[folder][file[:-4]] = (text, folder)
+                newsDict[folder][file[:-4]] = (processText(text), folder)
 
     # Read the files and create a dataframe for each folder
     true_df = pd.DataFrame.from_dict(newsDict["true"], orient='index', columns=['text', 'label'])
@@ -88,11 +91,11 @@ def create_csv():
     df = df.sort_values(by=['label']).reset_index(drop=True)
 
     # Save the dataframe to a csv file
-    df.to_csv('news.csv', index=False)
+    df.to_csv('data/csvs/news_validation.csv', index=False)
 
 
 def main():
-    readCreateFiles()       
+    create_csv()       
 
 if __name__ == "__main__":
     main()
