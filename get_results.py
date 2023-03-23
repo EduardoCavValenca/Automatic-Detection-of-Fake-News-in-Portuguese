@@ -51,8 +51,8 @@ def get_result(alg: str, alg_name:str, vectorizer, vectorizer_name: str, df: pd.
     end_predict_time = perf_counter_ns()
 
     y_validate = alg.predict(X_validate)
-    # print(alg_name, vectorizer_name, data_frame_name)
-    # print(y_validate)
+    print(alg_name, vectorizer_name, data_frame_name)
+    print(y_validate)
 
     scores["algorithm"].append(alg_name)
     scores["dataset"].append(data_frame_name)
