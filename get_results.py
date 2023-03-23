@@ -34,13 +34,12 @@ def get_result(alg: str, alg_name:str, vectorizer, vectorizer_name: str, df: pd.
 
     X_train, X_test, y_train, y_test = train_test_split(df["text"], df["label"], shuffle= True, test_size = 0.3, random_state = 42)
     vectorizer.fit(X_train)
-
-    X_validate = news_validation_df["text"]
-    Y_validate = news_validation_df["label"]
-
+    
     X_train = vectorizer.transform(X_train).toarray()
     X_test = vectorizer.transform(X_test).toarray()
 
+    X_validate = news_validation_df["text"]
+    Y_validate = news_validation_df["label"]
     X_validate = vectorizer.transform(X_validate).toarray()
     
     start_train_time = perf_counter_ns()
