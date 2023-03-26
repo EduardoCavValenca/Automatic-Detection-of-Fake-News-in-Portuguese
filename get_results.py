@@ -60,9 +60,9 @@ def get_result(alg: str, alg_name:str, vectorizer, vectorizer_name: str, df: pd.
 
     scores_decimals = 4
     scores["accuracy"].append(round(accuracy_score(y_test, y_predict), scores_decimals))
-    scores["precision"].append(round(precision_score(y_test, y_predict, pos_label="fake"), scores_decimals))
-    scores["recall"].append(round(recall_score(y_test, y_predict, pos_label="fake"), scores_decimals))
-    scores["f1"].append(round(f1_score(y_test, y_predict, pos_label="fake"), scores_decimals))
+    scores["precision"].append(round(precision_score(y_test, y_predict, pos_label="fake", zero_division=0), scores_decimals))
+    scores["recall"].append(round(recall_score(y_test, y_predict, pos_label="fake", zero_division=0), scores_decimals))
+    scores["f1"].append(round(f1_score(y_test, y_predict, pos_label="fake", zero_division=0), scores_decimals))
     scores["validation_accuracy"].append(round(accuracy_score(Y_validate, y_validate), scores_decimals))
 
     time_decimals = 2

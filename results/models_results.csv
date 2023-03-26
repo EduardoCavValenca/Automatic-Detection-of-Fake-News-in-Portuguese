@@ -77,3 +77,9 @@ SVC,pre_processed,CountVectorizer,0.9583,0.9569,0.9604,0.9587,0.5,435.41,307.2
 SVC,pre_normalized,TfidfVectorizer_normalized,0.9037,0.9111,0.896,0.9035,0.9167,1531.28,1095.53
 SVC,pre_normalized,TfidfVectorizer_idf,0.9028,0.9102,0.8951,0.9026,0.8333,1673.35,1292.31
 SVC,pre_normalized,CountVectorizer,0.9,0.8999,0.9016,0.9007,0.9167,1299.56,1114.37
+MLP,pre_processed,TfidfVectorizer_normalized,0.9537,0.9669,0.9402,0.9534,0.7143,811.87,2.1
+MLP,pre_processed,TfidfVectorizer_idf,0.9449,0.9636,0.9255,0.9442,0.6429,1023.63,2.4
+MLP,pre_processed,CountVectorizer,0.9185,0.8825,0.9669,0.9227,0.5,464.54,2.58
+MLP,pre_normalized,TfidfVectorizer_normalized,0.9088,0.9198,0.897,0.9082,0.9286,557.87,0.82
+MLP,pre_normalized,TfidfVectorizer_idf,0.9042,0.9167,0.8905,0.9034,0.9286,541.9,0.99
+MLP,pre_normalized,CountVectorizer,0.9028,0.9117,0.8933,0.9024,0.9286,439.78,1.18
