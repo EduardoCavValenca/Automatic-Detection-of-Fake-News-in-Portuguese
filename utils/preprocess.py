@@ -2,12 +2,12 @@ import os
 import re
 import pandas as pd
 
-from nltk.corpus import stopwords as nltk_stopwords
-stopwords = nltk_stopwords.words('portuguese')
-#Nao inclui nessa, nesta ... etc
-
+#Caso nao tenha instalado rode as seguinte duas linhas
 # import nltk
 # nltk.download('stopwords')
+
+#Caso ja esteja instalado
+from nltk.corpus import stopwords as nltk_stopwords
 
 def removeSpecialChars(text):
     # Remove all non alphanumeric characters (keep spaces and letters with accents)
@@ -32,6 +32,10 @@ def lowerCase(text):
     return text
 
 def removeStopWords(text):
+
+    stopwords = nltk_stopwords.words('portuguese')
+    #Nao inclui nessa, nesta ... etc
+
     # remove stopwords  
     text = ' '.join([word for word in text.split() if word not in stopwords])
     # remove extra spaces 
@@ -65,8 +69,8 @@ def create_csv():
     newsDict = {}
     for folder in ['fake', 'true']:
         newsDict[folder] = {}
-        for file in os.listdir('data/text_files/covid_dataset/' + folder):
-            with open('data/text_files/covid_dataset/' + folder + '/' + file, 'r', encoding='utf-8') as f:
+        for file in os.listdir('../data/text_files/covid_dataset/' + folder):
+            with open('../data/text_files/covid_dataset/' + folder + '/' + file, 'r', encoding='utf-8') as f:
                 text = f.read()
                 newsDict[folder][file[:-4]] = (processText(text), folder)
 
@@ -81,7 +85,7 @@ def create_csv():
     df = df.sort_values(by=['label']).reset_index(drop=True)
 
     # Save the dataframe to a csv file
-    df.to_csv('data/csvs/covid.csv', index=False)
+    df.to_csv('../data/csvs/covid.csv', index=False)
 
 
 def main():
