@@ -6,9 +6,15 @@ warnings.filterwarnings('ignore')
 def get_measures_from_graph(G):
 
     # Centrality
-    betweenness = nx.betweenness_centrality(G)
+    betweenness = nx.betweenness_centrality(G) 
     closeness = nx.closeness_centrality(G)
-    eigenvector = nx.eigenvector_centrality_numpy(G, max_iter=1000, tol=1e-05)
+
+    try: 
+        eigenvector = nx.eigenvector_centrality_numpy(G, max_iter=1000, tol=1e-05)
+    except: 
+        print('Eigenvector centrality failed')
+        eigenvector = 0
+
     katz = nx.katz_centrality_numpy(G)
     pagerank = nx.pagerank(G)
     hubs,authorities = nx.hits(G, max_iter=1000)
@@ -21,7 +27,6 @@ def get_measures_from_graph(G):
 
     #Other
     density = nx.density(G)
-
 
     measures = {
     'betweenness': betweenness,

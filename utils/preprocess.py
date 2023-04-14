@@ -69,8 +69,8 @@ def create_csv():
     newsDict = {}
     for folder in ['fake', 'true']:
         newsDict[folder] = {}
-        for file in os.listdir('../data/text_files/covid_dataset/' + folder):
-            with open('../data/text_files/covid_dataset/' + folder + '/' + file, 'r', encoding='utf-8') as f:
+        for file in os.listdir('./data/text_files/pre_normalized/' + folder):
+            with open('./data/text_files/pre_normalized/' + folder + '/' + file, 'r', encoding='utf-8') as f:
                 text = f.read()
                 newsDict[folder][file[:-4]] = (processText(text), folder)
 
@@ -85,7 +85,7 @@ def create_csv():
     df = df.sort_values(by=['label']).reset_index(drop=True)
 
     # Save the dataframe to a csv file
-    df.to_csv('../data/csvs/covid.csv', index=False)
+    df.to_csv('./data/csvs/pre_normalized_with_stopwords.csv', index=False)
 
 
 def main():
