@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente oab manda recado comunistas foro paulo presidente nacional ordem advogados brasil oab claudio lamachia falou ontem 29 brasil brasil pode conviver tipo atitude atenta contra democracia brasil pode aceitar tipo gente atrasa pais atribuir impeachment golpe desrespeito constituicao federal republica brasil desrespeito supremo tribunal federal poucos dias regulamentou processamento impeachment disse lamachia
+1	presidente	presidente	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	oab	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:14
+3	manda	mandar	VERB	VERB	_	52	ccomp	_	TokenRange=15:20
+4	recado	_	NOUN	NOUN	_	3	obj	_	TokenRange=21:27
+5	comunistas	comunista	NOUN	NOUN	_	4	flat	_	TokenRange=28:38
+6	foro	foro	NOUN	NOUN	_	4	appos	_	TokenRange=39:43
+7	paulo	_	NOUN	NOUN	_	8	amod	_	TokenRange=44:49
+8	presidente	presidente	NOUN	NOUN	_	4	appos	_	TokenRange=50:60
+9	nacional	nacional	ADJ	ADJ	_	8	amod	_	TokenRange=61:69
+10	ordem	ordem	NOUN	NOUN	_	8	appos	_	TokenRange=70:75
+11	advogados	advogado	NOUN	NOUN	_	10	amod	_	TokenRange=76:85
+12	brasil	brasil	ADJ	ADJ	_	10	amod	_	TokenRange=86:92
+13	oab	_	NOUN	NOUN	_	10	appos	_	TokenRange=93:96
+14	claudio	claudio	NOUN	NOUN	_	13	flat	_	TokenRange=97:104
+15	lamachia	_	NOUN	NOUN	_	13	flat	_	TokenRange=105:113
+16	falou	falar	VERB	VERB	_	3	parataxis	_	TokenRange=114:119
+17	ontem	ontem	ADV	ADV	_	16	advmod	_	TokenRange=120:125
+18	29	_	NUM	NUM	NumType=Card	16	obj	_	TokenRange=126:128
+19	brasil	brasil	NOUN	NOUN	_	22	nsubj	_	TokenRange=129:135
+20	brasil	brasil	NOUN	NOUN	_	22	nsubj	_	TokenRange=136:142
+21	pode	_	AUX	AUX	_	22	aux	_	TokenRange=143:147
+22	conviver	conviver	VERB	VERB	_	16	ccomp	_	TokenRange=148:156
+23	tipo	tipo	NOUN	NOUN	_	22	obj	_	TokenRange=157:161
+24	atitude	atitude	NOUN	NOUN	_	23	flat	_	TokenRange=162:169
+25	atenta	atento	ADJ	ADJ	_	23	amod	_	TokenRange=170:176
+26	contra	_	ADP	ADP	_	27	case	_	TokenRange=177:183
+27	democracia	democracia	NOUN	NOUN	_	23	nmod	_	TokenRange=184:194
+28	brasil	brasil	ADJ	ADJ	_	30	amod	_	TokenRange=195:201
+29	pode	_	AUX	AUX	_	30	aux	_	TokenRange=202:206
+30	aceitar	aceitar	VERB	VERB	_	22	parataxis	_	TokenRange=207:214
+31	tipo	tipo	NOUN	NOUN	_	30	obj	_	TokenRange=215:219
+32	gente	gente	NOUN	NOUN	_	31	appos	_	TokenRange=220:225
+33	atrasa	atraso	ADJ	ADJ	_	32	amod	_	TokenRange=226:232
+34	pais	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=233:237
+35	atribuir	atribuir	VERB	VERB	_	30	ccomp	_	TokenRange=238:246
+36	impeachment	impeachment	NOUN	NOUN	_	35	obj	_	TokenRange=247:258
+37	golpe	golpe	NOUN	NOUN	_	35	nsubj	_	TokenRange=259:264
+38	desrespeito	desrespeito	ADJ	ADJ	_	39	amod	_	TokenRange=265:276
+39	constituicao	constituicao	NOUN	NOUN	_	36	appos	_	TokenRange=277:289
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=290:297
+41	republica	_	NOUN	NOUN	_	39	amod	_	TokenRange=298:307
+42	brasil	brasil	ADJ	ADJ	_	45	amod	_	TokenRange=308:314
+43	desrespeito	desrespeito	ADJ	ADJ	_	45	amod	_	TokenRange=315:326
+44	supremo	supremo	ADJ	ADJ	_	45	amod	_	TokenRange=327:334
+45	tribunal	tribunal	NOUN	NOUN	_	39	appos	_	TokenRange=335:343
+46	federal	federal	ADJ	ADJ	_	45	amod	_	TokenRange=344:351
+47	poucos	_	DET	DET	_	48	det	_	TokenRange=352:358
+48	dias	dia	NOUN	NOUN	_	49	nmod	_	TokenRange=359:363
+49	regulamentou	regulamentar	VERB	VERB	_	52	parataxis	_	TokenRange=364:376
+50	processamento	processamento	NOUN	NOUN	_	49	obj	_	TokenRange=377:390
+51	impeachment	impeachment	ADJ	ADJ	_	50	amod	_	TokenRange=391:402
+52	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=403:408
+53	lamachia	lamachia	NOUN	NOUN	_	52	nsubj	_	SpaceAfter=No|TokenRange=409:417
+

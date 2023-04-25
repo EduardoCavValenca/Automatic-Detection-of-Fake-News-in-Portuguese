@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = multidao acompanha missa 7 dia vitimas tragedia 19 mortos mar grande cerimonia comecou volta 18h30 matriz paroquia sagrado coracao jesus localizada ilha vera cruz vestidos branco amigos familiares vitimas tragedia deixou menos 19 pessoas mortas apos barco virar baia todosossantos lotaram matriz paroquia sagrado coracao jesus mar grande municipio vera cruz noite desta quartafeira 30 missa 7 dia vitimas igreja ficou tao cheia muitas pessoas assistir missa lado alem 19 mortes confirmadas adolescente 12 lancha segue desaparecida cerimonia
+1	multidao	multidao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	acompanha	acompanhar	VERB	VERB	_	0	root	_	TokenRange=9:18
+3	missa	missa	NOUN	NOUN	_	2	nmod	_	TokenRange=19:24
+4	7	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=25:26
+5	dia	dia	NOUN	NOUN	_	3	nmod	_	TokenRange=27:30
+6	vitimas	vitima	ADJ	ADJ	_	5	amod	_	TokenRange=31:38
+7	tragedia	tragedia	NOUN	NOUN	_	3	appos	_	TokenRange=39:47
+8	19	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=48:50
+9	mortos	morto	NOUN	NOUN	_	7	appos	_	TokenRange=51:57
+10	mar	mar	NOUN	NOUN	_	9	appos	_	TokenRange=58:61
+11	grande	grande	ADJ	ADJ	_	12	amod	_	TokenRange=62:68
+12	cerimonia	cerimonia	NOUN	NOUN	_	13	nsubj	_	TokenRange=69:78
+13	comecou	comecar	VERB	VERB	_	2	parataxis	_	TokenRange=79:86
+14	volta	volta	NOUN	NOUN	_	13	nmod	_	TokenRange=87:92
+15	18h30	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=93:98
+16	matriz	matriz	NOUN	NOUN	_	13	nsubj	_	TokenRange=99:105
+17	paroquia	paroquia	NOUN	NOUN	_	16	appos	_	TokenRange=106:114
+18	sagrado	sagrado	ADJ	ADJ	_	19	amod	_	TokenRange=115:122
+19	coracao	coracao	NOUN	NOUN	_	16	appos	_	TokenRange=123:130
+20	jesus	jesus	NOUN	NOUN	_	19	flat	_	TokenRange=131:136
+21	localizada	localizado	ADJ	ADJ	_	22	amod	_	TokenRange=137:147
+22	ilha	ilha	NOUN	NOUN	_	16	appos	_	TokenRange=148:152
+23	vera	_	ADJ	ADJ	_	24	amod	_	TokenRange=153:157
+24	cruz	cruz	NOUN	NOUN	_	22	appos	_	TokenRange=158:162
+25	vestidos	vestido	NOUN	NOUN	_	22	appos	_	TokenRange=163:171
+26	branco	branco	ADJ	ADJ	_	27	amod	_	TokenRange=172:178
+27	amigos	amigo	NOUN	NOUN	_	31	nsubj	_	TokenRange=179:185
+28	familiares	familiar	ADJ	ADJ	_	27	amod	_	TokenRange=186:196
+29	vitimas	vitimo	ADJ	ADJ	_	27	amod	_	TokenRange=197:204
+30	tragedia	tragedia	NOUN	NOUN	_	27	appos	_	TokenRange=205:213
+31	deixou	deixar	VERB	VERB	_	2	parataxis	_	TokenRange=214:220
+32	menos	menos	ADV	ADV	_	33	advmod	_	TokenRange=221:226
+33	19	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=227:229
+34	pessoas	pessoa	NOUN	NOUN	_	31	obj	_	TokenRange=230:237
+35	mortas	morto	ADJ	ADJ	_	34	amod	_	TokenRange=238:244
+36	apos	_	ADP	ADP	_	37	case	_	TokenRange=245:249
+37	barco	barco	NOUN	NOUN	_	31	nmod	_	TokenRange=250:255
+38	virar	virar	AUX	AUX	_	39	cop	_	TokenRange=256:261
+39	baia	baia	NOUN	NOUN	_	41	nsubj	_	TokenRange=262:266
+40	todosossantos	_	NOUN	NOUN	_	39	amod	_	TokenRange=267:280
+41	lotaram	lotar	VERB	VERB	_	31	parataxis	_	TokenRange=281:288
+42	matriz	matriz	NOUN	NOUN	_	41	obj	_	TokenRange=289:295
+43	paroquia	paroquia	NOUN	NOUN	_	42	flat	_	TokenRange=296:304
+44	sagrado	sagrado	ADJ	ADJ	_	45	amod	_	TokenRange=305:312
+45	coracao	coracao	NOUN	NOUN	_	42	appos	_	TokenRange=313:320
+46	jesus	jesus	ADJ	NOUN	_	45	amod	_	TokenRange=321:326
+47	mar	mar	NOUN	NOUN	_	41	nmod	_	TokenRange=327:330
+48	grande	grande	ADJ	ADJ	_	45	amod	_	TokenRange=331:337
+49	municipio	municipio	NOUN	NOUN	_	41	parataxis	_	TokenRange=338:347
+50	vera	_	ADJ	ADJ	_	51	amod	_	TokenRange=348:352
+51	cruz	cruz	NOUN	NOUN	_	49	nmod	_	TokenRange=353:357
+52	noite	noite	NOUN	NOUN	_	41	obj	_	TokenRange=358:363
+53	desta	_	ADP	ADP	_	54	case	_	TokenRange=364:369
+54	quartafeira	quartafeira	NOUN	NOUN	_	52	nmod	_	TokenRange=370:381
+55	30	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=382:384
+56	missa	missa	NOUN	NOUN	_	61	nsubj	_	TokenRange=385:390
+57	7	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=391:392
+58	dia	dia	NOUN	NOUN	_	61	nsubj	_	TokenRange=393:396
+59	vitimas	vitimo	ADJ	ADJ	_	58	amod	_	TokenRange=397:404
+60	igreja	igreja	NOUN	NOUN	_	61	nsubj	_	TokenRange=405:411
+61	ficou	ficar	VERB	VERB	_	2	parataxis	_	TokenRange=412:417
+62	tao	tao	ADV	ADV	_	63	advmod	_	TokenRange=418:421
+63	cheia	cheio	ADJ	ADJ	_	61	xcomp	_	TokenRange=422:427
+64	muitas	_	DET	DET	_	65	det	_	TokenRange=428:434
+65	pessoas	pessoa	NOUN	NOUN	_	66	nsubj	_	TokenRange=435:442
+66	assistir	assistir	VERB	VERB	_	61	csubj	_	TokenRange=443:451
+67	missa	missa	NOUN	NOUN	_	66	obj	_	TokenRange=452:457
+68	lado	lado	NOUN	NOUN	_	67	appos	_	TokenRange=458:462
+69	alem	alem	ADV	ADV	_	68	flat	_	TokenRange=463:467
+70	19	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=468:470
+71	mortes	morte	NOUN	NOUN	_	67	appos	_	TokenRange=471:477
+72	confirmadas	confirmar	VERB	VERB	_	71	acl	_	TokenRange=478:489
+73	adolescente	adolescente	ADJ	ADJ	_	71	amod	_	TokenRange=490:501
+74	12	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=502:504
+75	lancha	lancha	NOUN	NOUN	_	76	nsubj	_	TokenRange=505:511
+76	segue	_	VERB	VERB	_	61	parataxis	_	TokenRange=512:517
+77	desaparecida	desaparecido	ADJ	ADJ	_	78	amod	_	TokenRange=518:530
+78	cerimonia	cerimonia	NOUN	NOUN	_	76	nsubj	_	SpaceAfter=No|TokenRange=531:540
+

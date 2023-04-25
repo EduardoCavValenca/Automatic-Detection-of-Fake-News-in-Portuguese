@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = viu jacare apreendido br nova recontagem foragidos deputados pedem ajuda temer
+1	viu	ver	VERB	VERB	_	0	root	_	TokenRange=0:3
+2	jacare	jacare	NOUN	NOUN	_	1	obj	_	TokenRange=4:10
+3	apreendido	apreendido	ADJ	ADJ	_	2	amod	_	TokenRange=11:21
+4	br	br	ADV	NOUN	_	6	case	_	TokenRange=22:24
+5	nova	novo	ADJ	ADJ	_	6	amod	_	TokenRange=25:29
+6	recontagem	recontagem	NOUN	NOUN	_	3	nmod	_	TokenRange=30:40
+7	foragidos	foragido	ADJ	ADJ	_	8	amod	_	TokenRange=41:50
+8	deputados	deputado	NOUN	NOUN	_	9	nsubj	_	TokenRange=51:60
+9	pedem	pedir	VERB	VERB	_	1	parataxis	_	TokenRange=61:66
+10	ajuda	ajuda	NOUN	NOUN	_	9	obj	_	TokenRange=67:72
+11	temer	temer	NOUN	NOUN	_	10	flat	_	SpaceAfter=No|TokenRange=73:78
+

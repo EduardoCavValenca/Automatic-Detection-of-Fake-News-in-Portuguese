@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = encontro geracoes sincrotron marca transicao novo acelerador particulas segunda materia serie g1 sobre 30 anos lnls mostra programas treinamento formar nova geracao cientistas vai operar avancada luz sincrotron mundo neste mes julho laboratorio nacional luz sincrotron lnls recebeu primeira vez 100 estudantes professores pesquisadores todo pais escola brasileira sincrotron objetivo realizar todos anos duas semanas cursos palestras formar novos usuarios sirius novo acelerador particulas sendo construido
+1	encontro	encontro	VERB	VERB	_	17	parataxis	_	TokenRange=0:8
+2	geracoes	geracoe	NOUN	NOUN	_	1	obj	_	TokenRange=9:17
+3	sincrotron	_	NOUN	NOUN	_	2	appos	_	TokenRange=18:28
+4	marca	marca	NOUN	NOUN	_	2	appos	_	TokenRange=29:34
+5	transicao	transicao	ADJ	ADJ	_	7	amod	_	TokenRange=35:44
+6	novo	novo	ADJ	ADJ	_	7	amod	_	TokenRange=45:49
+7	acelerador	acelerador	NOUN	NOUN	_	2	appos	_	TokenRange=50:60
+8	particulas	particula	ADJ	ADJ	_	7	amod	_	TokenRange=61:71
+9	segunda	segundo	ADJ	ADJ	_	10	amod	_	TokenRange=72:79
+10	materia	materia	NOUN	NOUN	_	7	appos	_	TokenRange=80:87
+11	serie	_	NOUN	NOUN	_	17	parataxis	_	TokenRange=88:93
+12	g1	_	NUM	NUM	NumType=Card	11	appos	_	TokenRange=94:96
+13	sobre	_	ADP	ADP	_	15	case	_	TokenRange=97:102
+14	30	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=103:105
+15	anos	ano	NOUN	NOUN	_	11	nmod	_	TokenRange=106:110
+16	lnls	_	NOUN	NOUN	_	15	amod	_	TokenRange=111:115
+17	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=116:122
+18	programas	programa	NOUN	NOUN	_	17	obj	_	TokenRange=123:132
+19	treinamento	treinamento	NOUN	NOUN	_	18	flat	_	TokenRange=133:144
+20	formar	formar	VERB	VERB	_	18	acl:inf	_	TokenRange=145:151
+21	nova	novo	ADJ	ADJ	_	22	amod	_	TokenRange=152:156
+22	geracao	geracao	NOUN	NOUN	_	20	obj	_	TokenRange=157:164
+23	cientistas	cientista	NOUN	NOUN	_	22	amod	_	TokenRange=165:175
+24	vai	ir	AUX	AUX	_	25	aux	_	TokenRange=176:179
+25	operar	operar	VERB	VERB	_	17	parataxis	_	TokenRange=180:186
+26	avancada	avancado	ADJ	ADJ	_	27	amod	_	TokenRange=187:195
+27	luz	luz	NOUN	NOUN	_	25	obj	_	TokenRange=196:199
+28	sincrotron	_	NOUN	NOUN	_	27	amod	_	TokenRange=200:210
+29	mundo	mundo	NOUN	NOUN	_	27	appos	_	TokenRange=211:216
+30	neste	_	ADP	ADP	_	31	case	_	TokenRange=217:222
+31	mes	mes	NOUN	NOUN	_	25	nmod	_	TokenRange=223:226
+32	julho	_	PROPN	PNOUN	_	33	amod	_	TokenRange=227:232
+33	laboratorio	laboratorio	NOUN	NOUN	_	25	nsubj	_	TokenRange=233:244
+34	nacional	nacional	ADJ	ADJ	_	33	amod	_	TokenRange=245:253
+35	luz	luz	NOUN	NOUN	_	33	appos	_	TokenRange=254:257
+36	sincrotron	_	ADJ	ADJ	_	35	amod	_	TokenRange=258:268
+37	lnls	_	NOUN	NOUN	_	35	appos	_	TokenRange=269:273
+38	recebeu	receber	VERB	VERB	_	17	parataxis	_	TokenRange=274:281
+39	primeira	primeiro	ADJ	ADJ	_	40	amod	_	TokenRange=282:290
+40	vez	vez	NOUN	NOUN	_	38	nmod	_	TokenRange=291:294
+41	100	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=295:298
+42	estudantes	estudante	NOUN	NOUN	_	38	obj	_	TokenRange=299:309
+43	professores	professor	NOUN	NOUN	_	38	obj	_	TokenRange=310:321
+44	pesquisadores	pesquisador	ADJ	ADJ	_	43	amod	_	TokenRange=322:335
+45	todo	_	DET	DET	_	46	det	_	TokenRange=336:340
+46	pais	_	NOUN	NOUN	_	47	nmod	_	TokenRange=341:345
+47	escola	escola	NOUN	NOUN	_	38	parataxis	_	TokenRange=346:352
+48	brasileira	brasileiro	ADJ	ADJ	_	47	amod	_	TokenRange=353:363
+49	sincrotron	_	NOUN	NOUN	_	47	appos	_	TokenRange=364:374
+50	objetivo	objetivo	NOUN	NOUN	_	47	flat	_	TokenRange=375:383
+51	realizar	realizar	VERB	VERB	_	47	acl:inf	_	TokenRange=384:392
+52	todos	_	DET	DET	_	53	det	_	TokenRange=393:398
+53	anos	ano	NOUN	NOUN	_	51	nmod	_	TokenRange=399:403
+54	duas	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=404:408
+55	semanas	semana	NOUN	NOUN	_	51	nmod	_	TokenRange=409:416
+56	cursos	curso	NOUN	NOUN	_	51	nsubj	_	TokenRange=417:423
+57	palestras	palestra	ADJ	ADJ	_	56	amod	_	TokenRange=424:433
+58	formar	formar	VERB	VERB	_	51	ccomp	_	TokenRange=434:440
+59	novos	novo	ADJ	ADJ	_	60	amod	_	TokenRange=441:446
+60	usuarios	usuario	NOUN	NOUN	_	58	obj	_	TokenRange=447:455
+61	sirius	_	ADJ	ADJ	_	63	amod	_	TokenRange=456:462
+62	novo	novo	ADJ	ADJ	_	63	amod	_	TokenRange=463:467
+63	acelerador	acelerador	NOUN	NOUN	_	58	nsubj	_	TokenRange=468:478
+64	particulas	particula	NOUN	NOUN	_	63	amod	_	TokenRange=479:489
+65	sendo	ser	AUX	AUX	_	66	aux:pass	_	TokenRange=490:495
+66	construido	construir	VERB	VERB	_	63	acl	_	SpaceAfter=No|TokenRange=496:506
+

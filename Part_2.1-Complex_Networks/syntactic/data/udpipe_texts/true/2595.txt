@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pgr denuncia renan calheiros romero juca valdir raupp sarney garibaldi alves denuncia enviada janot stf ambito lava jato todos acusados inquerito apura renan deputado pmdb receberam propina oriunda contratos transpetro procuradorgeral republica rodrigo janot denunciou nesta sextafeira 25 supremo tribunal federal stf quatro senadores pmdb dois exsenadores partido tres pessoas ambito operacao lava jato denunciados crimes atribuidos leia abaixo versoes denunciados todos acusados inquerito apurava inicialmente renan calheiros deputado anibal gomes pmdbce receberam propina oirunda contratos transpetro renan calheiros denunciado lava jato ainda
+1	pgr	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=0:3
+2	denuncia	_	NOUN	NOUN	_	1	appos	_	TokenRange=4:12
+3	renan	_	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	calheiros	calheiro	NOUN	NOUN	_	3	flat	_	TokenRange=19:28
+5	romero	romero	NOUN	NOUN	_	3	appos	_	TokenRange=29:35
+6	juca	juca	NOUN	NOUN	_	3	flat	_	TokenRange=36:40
+7	valdir	valdir	NOUN	NOUN	_	3	appos	_	TokenRange=41:47
+8	raupp	_	NOUN	NOUN	_	7	flat	_	TokenRange=48:53
+9	sarney	sarney	NOUN	NOUN	_	7	appos	_	TokenRange=54:60
+10	garibaldi	garibaldi	NOUN	NOUN	_	7	flat	_	TokenRange=61:70
+11	alves	_	ADJ	ADJ	_	12	amod	_	TokenRange=71:76
+12	denuncia	_	NOUN	NOUN	_	2	appos	_	TokenRange=77:85
+13	enviada	enviar	VERB	VERB	_	12	acl	_	TokenRange=86:93
+14	janot	_	NOUN	NOUN	_	13	obj	_	TokenRange=94:99
+15	stf	_	NOUN	NOUN	_	14	flat	_	TokenRange=100:103
+16	ambito	ambito	NOUN	NOUN	_	17	flat	_	TokenRange=104:110
+17	lava	lava	VERB	VERB	_	14	appos	_	TokenRange=111:115
+18	jato	jato	NOUN	NOUN	_	17	obj	_	TokenRange=116:120
+19	todos	_	DET	PRON	_	20	det	_	TokenRange=121:126
+20	acusados	acusado	VERB	VERB	_	17	acl	_	TokenRange=127:135
+21	inquerito	inquerito	NOUN	NOUN	_	20	amod	_	TokenRange=136:145
+22	apura	apurar	VERB	VERB	_	20	acl:relcl	_	TokenRange=146:151
+23	renan	_	NOUN	NOUN	_	24	amod	_	TokenRange=152:157
+24	deputado	deputado	NOUN	NOUN	_	22	nsubj	_	TokenRange=158:166
+25	pmdb	_	PROPN	PNOUN	_	24	flat	_	TokenRange=167:171
+26	receberam	receber	VERB	VERB	_	0	root	_	TokenRange=172:181
+27	propina	propina	NOUN	NOUN	_	26	obj	_	TokenRange=182:189
+28	oriunda	oriundo	ADJ	ADJ	_	27	amod	_	TokenRange=190:197
+29	contratos	contrato	NOUN	NOUN	_	26	nsubj	_	TokenRange=198:207
+30	transpetro	transpetro	ADJ	ADJ	_	29	amod	_	TokenRange=208:218
+31	procuradorgeral	procuradorgeral	ADJ	ADJ	_	29	amod	_	TokenRange=219:234
+32	republica	republico	ADJ	ADJ	_	29	amod	_	TokenRange=235:244
+33	rodrigo	_	NOUN	NOUN	_	29	appos	_	TokenRange=245:252
+34	janot	_	NOUN	NOUN	_	33	flat	_	TokenRange=253:258
+35	denunciou	denunciar	VERB	VERB	_	26	parataxis	_	TokenRange=259:268
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=269:274
+37	sextafeira	sextafeira	NOUN	NOUN	_	35	nmod	_	TokenRange=275:285
+38	25	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=286:288
+39	supremo	supremo	ADJ	ADJ	_	40	amod	_	TokenRange=289:296
+40	tribunal	tribunal	NOUN	NOUN	_	35	obj	_	TokenRange=297:305
+41	federal	federal	ADJ	ADJ	_	40	amod	_	TokenRange=306:313
+42	stf	_	NOUN	NOUN	_	40	case	_	TokenRange=314:317
+43	quatro	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=318:324
+44	senadores	senador	NOUN	NOUN	_	35	nsubj	_	TokenRange=325:334
+45	pmdb	_	NOUN	NOUN	_	44	appos	_	TokenRange=335:339
+46	dois	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=340:344
+47	exsenadores	exsenador	NOUN	NOUN	_	44	appos	_	TokenRange=345:356
+48	partido	partido	NOUN	NOUN	_	44	appos	_	TokenRange=357:364
+49	tres	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=365:369
+50	pessoas	pessoa	NOUN	NOUN	_	44	appos	_	TokenRange=370:377
+51	ambito	ambito	NOUN	NOUN	_	44	appos	_	TokenRange=378:384
+52	operacao	operacao	NOUN	NOUN	_	51	appos	_	TokenRange=385:393
+53	lava	lava	NOUN	NOUN	_	44	appos	_	TokenRange=394:398
+54	jato	jato	NOUN	NOUN	_	53	flat	_	TokenRange=399:403
+55	denunciados	denunciar	VERB	VERB	_	56	acl	_	TokenRange=404:415
+56	crimes	crime	NOUN	NOUN	_	53	obj	_	TokenRange=416:422
+57	atribuidos	_	ADJ	ADJ	_	56	acl	_	TokenRange=423:433
+58	leia	ler	VERB	VERB	_	35	parataxis	_	TokenRange=434:438
+59	abaixo	abaixo	ADV	ADV	_	58	advmod	_	TokenRange=439:445
+60	versoes	versoe	NOUN	NOUN	_	58	obj	_	TokenRange=446:453
+61	denunciados	denunciar	VERB	VERB	_	60	acl	_	TokenRange=454:465
+62	todos	_	PRON	PRON	_	63	nsubj	_	TokenRange=466:471
+63	acusados	acusar	VERB	VERB	_	65	acl	_	TokenRange=472:480
+64	inquerito	inquerito	NOUN	NOUN	_	63	nsubj	_	TokenRange=481:490
+65	apurava	apurar	VERB	VERB	_	60	acl:relcl	_	TokenRange=491:498
+66	inicialmente	inicialmente	ADV	ADV	_	65	advmod	_	TokenRange=499:511
+67	renan	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=512:517
+68	calheiros	calheiro	NOUN	NOUN	_	67	flat	_	TokenRange=518:527
+69	deputado	deputado	NOUN	NOUN	_	67	appos	_	TokenRange=528:536
+70	anibal	anibal	ADJ	ADJ	_	69	amod	_	TokenRange=537:543
+71	gomes	gome	NOUN	NOUN	_	69	flat	_	TokenRange=544:549
+72	pmdbce	_	NOUN	NOUN	_	67	flat	_	TokenRange=550:556
+73	receberam	receber	VERB	VERB	_	58	parataxis	_	TokenRange=557:566
+74	propina	propina	NOUN	NOUN	_	73	obj	_	TokenRange=567:574
+75	oirunda	oirundo	ADJ	ADJ	_	76	amod	_	TokenRange=575:582
+76	contratos	contrato	NOUN	NOUN	_	73	obj	_	TokenRange=583:592
+77	transpetro	transpetro	ADJ	ADJ	_	76	amod	_	TokenRange=593:603
+78	renan	renan	NOUN	NOUN	_	76	appos	_	TokenRange=604:609
+79	calheiros	calheiro	NOUN	NOUN	_	78	flat	_	TokenRange=610:619
+80	denunciado	denunciar	VERB	VERB	_	76	acl	_	TokenRange=620:630
+81	lava	lavar	VERB	VERB	_	73	parataxis	_	TokenRange=631:635
+82	jato	jato	NOUN	NOUN	_	81	obj	_	TokenRange=636:640
+83	ainda	ainda	ADV	ADV	_	81	advmod	_	SpaceAfter=No|TokenRange=641:646
+

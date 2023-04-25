@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quebracabeca lava jato completa lula chefao podera ver sol nascer quadrado vez site antagonista sai vanguarda noticia divulga exclusividade destemido corajoso jornalista diogo mainardi continua ardua luta provar povo brasileiro pt passa faccao criminosa
+1	quebracabeca	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:12
+2	lava	lavar	VERB	VERB	_	0	root	_	TokenRange=13:17
+3	jato	jato	NOUN	NOUN	_	2	obj	_	TokenRange=18:22
+4	completa	completo	ADJ	ADJ	_	3	amod	_	TokenRange=23:31
+5	lula	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=32:36
+6	chefao	chefao	NOUN	NOUN	_	8	nsubj	_	TokenRange=37:43
+7	podera	_	AUX	AUX	_	8	aux	_	TokenRange=44:50
+8	ver	ver	VERB	VERB	_	3	acl:relcl	_	TokenRange=51:54
+9	sol	sol	NOUN	NOUN	_	8	obj	_	TokenRange=55:58
+10	nascer	nascer	VERB	VERB	_	9	acl:inf	_	TokenRange=59:65
+11	quadrado	quadrado	NOUN	NOUN	_	10	obj	_	TokenRange=66:74
+12	vez	vez	NOUN	NOUN	_	10	nmod	_	TokenRange=75:78
+13	site	site	NOUN	NOUN	_	11	appos	_	TokenRange=79:83
+14	antagonista	antagonista	NOUN	NOUN	_	13	amod	_	TokenRange=84:95
+15	sai	sair	VERB	VERB	_	2	parataxis	_	TokenRange=96:99
+16	vanguarda	vanguarda	NOUN	NOUN	_	15	obj	_	TokenRange=100:109
+17	noticia	noticia	NOUN	NOUN	_	18	nsubj	_	TokenRange=110:117
+18	divulga	divulgar	VERB	VERB	_	15	ccomp	_	TokenRange=118:125
+19	exclusividade	exclusividade	NOUN	NOUN	_	18	obj	_	TokenRange=126:139
+20	destemido	destemido	ADJ	ADJ	_	22	amod	_	TokenRange=140:149
+21	corajoso	corajoso	ADJ	ADJ	_	22	amod	_	TokenRange=150:158
+22	jornalista	jornalista	NOUN	NOUN	_	18	nsubj	_	TokenRange=159:169
+23	diogo	diogo	NOUN	NOUN	_	22	appos	_	TokenRange=170:175
+24	mainardi	_	NOUN	NOUN	_	22	flat	_	TokenRange=176:184
+25	continua	continuar	VERB	VERB	_	32	ccomp	_	TokenRange=185:193
+26	ardua	arduo	ADJ	ADJ	_	27	amod	_	TokenRange=194:199
+27	luta	luta	NOUN	NOUN	_	32	nsubj	_	TokenRange=200:204
+28	provar	provar	VERB	VERB	_	22	acl:relcl	_	TokenRange=205:211
+29	povo	povo	NOUN	NOUN	_	28	obj	_	TokenRange=212:216
+30	brasileiro	brasileiro	ADJ	ADJ	_	29	amod	_	TokenRange=217:227
+31	pt	_	ADV	NOUN	_	32	nsubj	_	TokenRange=228:230
+32	passa	passar	VERB	VERB	_	18	conj	_	TokenRange=231:236
+33	faccao	faccao	NOUN	NOUN	_	32	obj	_	TokenRange=237:243
+34	criminosa	criminoso	ADJ	ADJ	_	33	amod	_	SpaceAfter=No|TokenRange=244:253
+

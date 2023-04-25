@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jovem mora irlanda mostra brasileiros qualidade vida gabhy silva brasileira vive irlanda queria fazer comparacao evitar assista video abaixo
+1	jovem	jovem	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	mora	mora	NOUN	NOUN	_	4	nsubj	_	TokenRange=6:10
+3	irlanda	irlando	NOUN	NOUN	_	2	appos	_	TokenRange=11:18
+4	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=19:25
+5	brasileiros	brasileiro	NOUN	NOUN	_	4	obj	_	TokenRange=26:37
+6	qualidade	qualidade	NOUN	NOUN	_	4	obj	_	TokenRange=38:47
+7	vida	vida	NOUN	NOUN	_	4	obj	_	TokenRange=48:52
+8	gabhy	_	NOUN	NOUN	_	7	appos	_	TokenRange=53:58
+9	silva	silva	NOUN	NOUN	_	8	flat	_	TokenRange=59:64
+10	brasileira	brasileiro	ADJ	ADJ	_	8	amod	_	TokenRange=65:75
+11	vive	_	VERB	VERB	_	4	parataxis	_	TokenRange=76:80
+12	irlanda	irlanda	NOUN	NOUN	_	11	obj	_	TokenRange=81:88
+13	queria	querer	VERB	VERB	_	4	parataxis	_	TokenRange=89:95
+14	fazer	fazer	VERB	VERB	_	13	xcomp	_	TokenRange=96:101
+15	comparacao	comparacao	NOUN	NOUN	_	14	obj	_	TokenRange=102:112
+16	evitar	evitar	VERB	VERB	_	15	acl:inf	_	TokenRange=113:119
+17	assista	assistir	VERB	VERB	_	13	conj	_	TokenRange=120:127
+18	video	video	NOUN	NOUN	_	17	obj	_	TokenRange=128:133
+19	abaixo	abaixo	ADV	ADV	_	17	advmod	_	SpaceAfter=No|TokenRange=134:140
+

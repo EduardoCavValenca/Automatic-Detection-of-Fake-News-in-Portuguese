@@ -1,0 +1,33 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer vira piada noticiario mundial recebe apelido presidente poltergeist motivo conseguia dormir disse coisas estranhas pessima energia local diario brasil acha fantasma lavajato perseguindo presidente
+1	temer	temer	NOUN	NOUN	_	21	nsubj	_	TokenRange=0:5
+2	vira	_	AUX	AUX	_	3	cop	_	TokenRange=6:10
+3	piada	piada	NOUN	NOUN	_	1	obj	_	TokenRange=11:16
+4	noticiario	noticiario	NOUN	NOUN	_	3	appos	_	TokenRange=17:27
+5	mundial	mundial	ADJ	ADJ	_	4	amod	_	TokenRange=28:35
+6	recebe	receber	VERB	VERB	_	3	acl:relcl	_	TokenRange=36:42
+7	apelido	apelido	NOUN	NOUN	_	6	obj	_	TokenRange=43:50
+8	presidente	presidente	NOUN	NOUN	_	7	flat	_	TokenRange=51:61
+9	poltergeist	poltergeist	ADJ	ADJ	_	11	amod	_	TokenRange=62:73
+10	motivo	motivo	NOUN	NOUN	_	11	nsubj	_	TokenRange=74:80
+11	conseguia	conseguir	VERB	VERB	_	6	conj	_	TokenRange=81:90
+12	dormir	dormir	VERB	VERB	_	11	xcomp	_	TokenRange=91:97
+13	disse	dizer	VERB	VERB	_	12	parataxis	_	TokenRange=98:103
+14	coisas	coisa	NOUN	NOUN	_	13	nsubj	_	TokenRange=104:110
+15	estranhas	estranho	ADJ	ADJ	_	14	amod	_	TokenRange=111:120
+16	pessima	pessimo	ADJ	ADJ	_	17	amod	_	TokenRange=121:128
+17	energia	energia	NOUN	NOUN	_	14	appos	_	TokenRange=129:136
+18	local	local	ADJ	ADJ	_	17	amod	_	TokenRange=137:142
+19	diario	diario	NOUN	NOUN	_	17	appos	_	TokenRange=143:149
+20	brasil	brasil	ADJ	ADJ	_	19	amod	_	TokenRange=150:156
+21	acha	achar	VERB	VERB	_	0	root	_	TokenRange=157:161
+22	fantasma	fantasma	NOUN	NOUN	_	21	obj	_	TokenRange=162:170
+23	lavajato	lavajato	NOUN	NOUN	_	22	flat	_	TokenRange=171:179
+24	perseguindo	perseguir	VERB	VERB	_	22	acl	_	TokenRange=180:191
+25	presidente	presidente	NOUN	NOUN	_	24	obj	_	SpaceAfter=No|TokenRange=192:202
+

@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sendo usado bode expiatorio diz academico cambridge pivo escandalo facebook rede social afirma kogan violou politicas site facebook perdeu valor mercado convocado dar explicacoes autoridades pesquisador universidade cambridge aleksandr kogan criou aplicativo permitiu coletar dados 50 milhoes usuarios facebook usados empresa cambridge analytica afirmou bbc servindo bode expiatorio duas empresas psicologo diz completou 2014 trabalho cambridge analytica embora nome relacao alguma universidade
+1	sendo	ser	AUX	AUX	_	2	aux:pass	_	TokenRange=0:5
+2	usado	usar	VERB	VERB	_	5	acl	_	TokenRange=6:11
+3	bode	bode	NOUN	NOUN	_	2	nsubj:pass	_	TokenRange=12:16
+4	expiatorio	expiatorio	ADJ	ADJ	_	3	amod	_	TokenRange=17:27
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=28:31
+6	academico	academico	NOUN	NOUN	_	5	obj	_	TokenRange=32:41
+7	cambridge	cambridge	NOUN	NOUN	_	6	appos	_	TokenRange=42:51
+8	pivo	pivo	ADJ	ADJ	_	9	amod	_	TokenRange=52:56
+9	escandalo	escandalo	NOUN	NOUN	_	6	appos	_	TokenRange=57:66
+10	facebook	_	PROPN	PNOUN	_	9	appos	_	TokenRange=67:75
+11	rede	rede	NOUN	NOUN	_	9	appos	_	TokenRange=76:80
+12	social	social	ADJ	ADJ	_	11	amod	_	TokenRange=81:87
+13	afirma	afirmar	VERB	VERB	_	5	parataxis	_	TokenRange=88:94
+14	kogan	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=95:100
+15	violou	violar	VERB	VERB	_	13	ccomp	_	TokenRange=101:107
+16	politicas	_	NOUN	NOUN	_	15	obj	_	TokenRange=108:117
+17	site	site	NOUN	NOUN	_	15	nsubj	_	TokenRange=118:122
+18	facebook	_	PROPN	PNOUN	_	20	appos	_	TokenRange=123:131
+19	perdeu	perder	VERB	VERB	_	15	conj	_	TokenRange=132:138
+20	valor	valor	NOUN	NOUN	_	19	obj	_	TokenRange=139:144
+21	mercado	mercado	NOUN	NOUN	_	20	flat	_	TokenRange=145:152
+22	convocado	_	VERB	VERB	_	20	acl	_	TokenRange=153:162
+23	dar	dar	VERB	VERB	_	19	xcomp	_	TokenRange=163:166
+24	explicacoes	explicacoe	NOUN	NOUN	_	23	obj	_	TokenRange=167:178
+25	autoridades	autoridade	NOUN	NOUN	_	23	obj	_	TokenRange=179:190
+26	pesquisador	pesquisador	NOUN	NOUN	_	25	appos	_	TokenRange=191:202
+27	universidade	universidade	NOUN	NOUN	_	25	appos	_	TokenRange=203:215
+28	cambridge	cambridge	ADJ	ADJ	_	27	amod	_	TokenRange=216:225
+29	aleksandr	_	NOUN	VERB	_	25	appos	_	TokenRange=226:235
+30	kogan	_	NOUN	NOUN	_	29	flat	_	TokenRange=236:241
+31	criou	criar	VERB	VERB	_	25	acl:relcl	_	TokenRange=242:247
+32	aplicativo	aplicativo	NOUN	NOUN	_	31	obj	_	TokenRange=248:258
+33	permitiu	permitir	VERB	VERB	_	31	parataxis	_	TokenRange=259:267
+34	coletar	coletar	VERB	VERB	_	33	xcomp	_	TokenRange=268:275
+35	dados	dado	NOUN	NOUN	_	34	obj	_	TokenRange=276:281
+36	50	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=282:284
+37	milhoes	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=285:292
+38	usuarios	usuario	NOUN	NOUN	_	34	obj	_	TokenRange=293:301
+39	facebook	_	PROPN	PNOUN	_	38	appos	_	TokenRange=302:310
+40	usados	usado	ADJ	ADJ	_	41	amod	_	TokenRange=311:317
+41	empresa	empresa	NOUN	NOUN	_	44	nsubj	_	TokenRange=318:325
+42	cambridge	cambridge	NOUN	NOUN	_	41	appos	_	TokenRange=326:335
+43	analytica	analytico	ADJ	ADJ	_	42	amod	_	TokenRange=336:345
+44	afirmou	afirmar	VERB	VERB	_	33	parataxis	_	TokenRange=346:353
+45	bbc	bbc	NOUN	NOUN	_	44	obj	_	TokenRange=354:357
+46	servindo	servir	VERB	VERB	_	45	acl	_	TokenRange=358:366
+47	bode	bode	NOUN	NOUN	_	46	obj	_	TokenRange=367:371
+48	expiatorio	expiatorio	ADJ	ADJ	_	47	amod	_	TokenRange=372:382
+49	duas	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=383:387
+50	empresas	empresa	NOUN	NOUN	_	53	nsubj	_	TokenRange=388:396
+51	psicologo	psicologo	NOUN	NOUN	_	50	amod	_	TokenRange=397:406
+52	diz	dizer	VERB	VERB	_	44	parataxis	_	TokenRange=407:410
+53	completou	completar	VERB	VERB	_	52	ccomp	_	TokenRange=411:420
+54	2014	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=421:425
+55	trabalho	trabalho	NOUN	NOUN	_	53	obj	_	TokenRange=426:434
+56	cambridge	cambridge	NOUN	NOUN	_	55	appos	_	TokenRange=435:444
+57	analytica	analytico	ADJ	ADJ	_	56	amod	_	TokenRange=445:454
+58	embora	_	CCONJ	CONJ	_	60	mark	_	TokenRange=455:461
+59	nome	nome	NOUN	NOUN	_	60	nsubj	_	TokenRange=462:466
+60	relacao	_	VERB	VERB	_	53	advcl	_	TokenRange=467:474
+61	alguma	_	DET	DET	_	62	det	_	TokenRange=475:481
+62	universidade	universidade	NOUN	NOUN	_	60	obj	_	SpaceAfter=No|TokenRange=482:494
+

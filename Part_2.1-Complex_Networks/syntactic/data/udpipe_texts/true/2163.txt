@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = relator conclui voto sobre recurso lula contra condenacao lava jato lula condenado juiz sergio moro 1 instancia recorreu tribunal regional federal porto alegre processo passa agora revisor data ir julgamento desembargador joao pedro gebran neto tribunal regional federal 4 regiao trf4 porto alegre concluiu voto relator recurso expresidente luiz inacio lula silva contra condenacao primeira instancia processo lava jato envolve triplex guaruja sp entanto ainda data julgamento la conteudo voto relator sigiloso fica disponivel somente desembargadores 8 turma
+1	relator	relator	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	conclui	concluir	VERB	VERB	_	0	root	_	TokenRange=8:15
+3	voto	voto	NOUN	NOUN	_	2	obj	_	TokenRange=16:20
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=21:26
+5	recurso	recurso	NOUN	NOUN	_	3	nmod	_	TokenRange=27:34
+6	lula	lulo	ADJ	ADJ	_	5	amod	_	TokenRange=35:39
+7	contra	_	ADP	ADP	_	8	case	_	TokenRange=40:46
+8	condenacao	condenacao	NOUN	NOUN	_	2	nmod	_	TokenRange=47:57
+9	lava	lava	NOUN	NOUN	_	8	appos	_	TokenRange=58:62
+10	jato	jato	NOUN	NOUN	_	9	flat	_	TokenRange=63:67
+11	lula	_	NOUN	NOUN	_	13	flat	_	TokenRange=68:72
+12	condenado	condenar	ADJ	ADJ	_	13	acl	_	TokenRange=73:82
+13	juiz	juiz	NOUN	NOUN	_	8	appos	_	TokenRange=83:87
+14	sergio	sergio	NOUN	NOUN	_	13	amod	_	TokenRange=88:94
+15	moro	moro	NOUN	NOUN	_	13	flat	_	TokenRange=95:99
+16	1	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=100:101
+17	instancia	instancia	NOUN	NOUN	_	13	appos	_	TokenRange=102:111
+18	recorreu	recorrer	VERB	VERB	_	2	parataxis	_	TokenRange=112:120
+19	tribunal	tribunal	NOUN	NOUN	_	18	obj	_	TokenRange=121:129
+20	regional	regional	ADJ	ADJ	_	19	amod	_	TokenRange=130:138
+21	federal	federal	ADJ	ADJ	_	19	amod	_	TokenRange=139:146
+22	porto	porto	NOUN	NOUN	_	19	appos	_	TokenRange=147:152
+23	alegre	alegre	ADJ	ADJ	_	22	amod	_	TokenRange=153:159
+24	processo	processo	NOUN	NOUN	_	25	nsubj	_	TokenRange=160:168
+25	passa	passar	VERB	VERB	_	18	parataxis	_	TokenRange=169:174
+26	agora	agora	ADV	ADV	_	25	advmod	_	TokenRange=175:180
+27	revisor	revisor	NOUN	NOUN	_	25	xcomp	_	TokenRange=181:188
+28	data	data	NOUN	NOUN	_	25	nsubj	_	TokenRange=189:193
+29	ir	_	AUX	AUX	_	30	amod	_	TokenRange=194:196
+30	julgamento	julgamento	NOUN	NOUN	_	28	appos	_	TokenRange=197:207
+31	desembargador	desembargador	NOUN	NOUN	_	28	appos	_	TokenRange=208:221
+32	joao	joao	NOUN	NOUN	_	28	appos	_	TokenRange=222:226
+33	pedro	pedro	NOUN	NOUN	_	32	flat	_	TokenRange=227:232
+34	gebran	_	NOUN	NOUN	_	32	flat	_	TokenRange=233:239
+35	neto	neto	ADJ	ADJ	_	36	amod	_	TokenRange=240:244
+36	tribunal	tribunal	NOUN	NOUN	_	32	appos	_	TokenRange=245:253
+37	regional	regional	ADJ	ADJ	_	36	amod	_	TokenRange=254:262
+38	federal	federal	ADJ	ADJ	_	36	amod	_	TokenRange=263:270
+39	4	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=271:272
+40	regiao	regiao	NOUN	NOUN	_	36	appos	_	TokenRange=273:279
+41	trf4	_	NOUN	NOUN	_	40	appos	_	TokenRange=280:284
+42	porto	_	NOUN	NOUN	_	40	appos	_	TokenRange=285:290
+43	alegre	alegre	ADJ	ADJ	_	42	amod	_	TokenRange=291:297
+44	concluiu	concluir	VERB	VERB	_	2	parataxis	_	TokenRange=298:306
+45	voto	voto	NOUN	NOUN	_	44	obj	_	TokenRange=307:311
+46	relator	relator	ADJ	ADJ	_	47	amod	_	TokenRange=312:319
+47	recurso	recurso	NOUN	NOUN	_	45	appos	_	TokenRange=320:327
+48	expresidente	expresidente	NOUN	NOUN	_	47	amod	_	TokenRange=328:340
+49	luiz	luiz	ADJ	ADJ	_	47	appos	_	TokenRange=341:345
+50	inacio	_	NOUN	NOUN	_	49	flat	_	TokenRange=346:352
+51	lula	_	NOUN	NOUN	_	49	flat	_	TokenRange=353:357
+52	silva	silva	NOUN	NOUN	_	49	flat	_	TokenRange=358:363
+53	contra	_	ADP	ADP	_	54	case	_	TokenRange=364:370
+54	condenacao	condenacao	NOUN	NOUN	_	44	nmod	_	TokenRange=371:381
+55	primeira	primeiro	ADJ	ADJ	_	56	amod	_	TokenRange=382:390
+56	instancia	instancia	NOUN	NOUN	_	44	nsubj	_	TokenRange=391:400
+57	processo	processo	NOUN	NOUN	_	60	nsubj	_	TokenRange=401:409
+58	lava	lava	NOUN	NOUN	_	57	appos	_	TokenRange=410:414
+59	jato	jato	NOUN	NOUN	_	58	flat	_	TokenRange=415:419
+60	envolve	envolver	VERB	VERB	_	44	parataxis	_	TokenRange=420:427
+61	triplex	_	NOUN	NOUN	_	60	obj	_	TokenRange=428:435
+62	guaruja	guaruja	NOUN	NOUN	_	61	flat	_	TokenRange=436:443
+63	sp	_	ADV	NOUN	_	62	amod	_	TokenRange=444:446
+64	entanto	entanto	ADV	ADV	_	66	advmod	_	TokenRange=447:454
+65	ainda	ainda	ADV	ADV	_	66	advmod	_	TokenRange=455:460
+66	data	datar	VERB	VERB	_	60	conj	_	TokenRange=461:465
+67	julgamento	julgamento	NOUN	NOUN	_	66	obj	_	TokenRange=466:476
+68	la	_	DET	DET	_	69	det	_	TokenRange=477:479
+69	conteudo	conteudo	NOUN	NOUN	_	73	nsubj	_	TokenRange=480:488
+70	voto	voto	NOUN	NOUN	_	69	flat	_	TokenRange=489:493
+71	relator	relator	NOUN	NOUN	_	69	appos	_	TokenRange=494:501
+72	sigiloso	sigiloso	ADJ	ADJ	_	69	amod	_	TokenRange=502:510
+73	fica	ficar	VERB	VERB	_	44	parataxis	_	TokenRange=511:515
+74	disponivel	disponivel	ADJ	ADJ	_	73	xcomp	_	TokenRange=516:526
+75	somente	somente	ADV	ADV	_	76	advmod	_	TokenRange=527:534
+76	desembargadores	desembargador	NOUN	NOUN	_	73	nsubj	_	TokenRange=535:550
+77	8	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=551:552
+78	turma	turma	NOUN	NOUN	_	76	appos	_	SpaceAfter=No|TokenRange=553:558
+

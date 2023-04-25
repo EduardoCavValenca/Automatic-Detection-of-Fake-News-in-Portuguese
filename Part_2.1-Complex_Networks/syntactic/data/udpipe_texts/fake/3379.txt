@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciro gomes tira sarro carta temer enviou dilma video bomba redes sociais provavel candidato presidencial eleicoes 2018 exministro ciro gomes disse vicepresidente michel temer tenta eximir responsabilidades criticou alianca feita presidente dilma rousseff turma ramo esculhambacao pmdb
+1	ciro	ciro	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	gomes	gome	NOUN	NOUN	_	1	flat	_	TokenRange=5:10
+3	tira	tirar	VERB	VERB	_	0	root	_	TokenRange=11:15
+4	sarro	sarro	NOUN	NOUN	_	3	obj	_	TokenRange=16:21
+5	carta	carta	NOUN	NOUN	_	4	appos	_	TokenRange=22:27
+6	temer	temer	NOUN	NOUN	_	5	flat	_	TokenRange=28:33
+7	enviou	enviar	VERB	VERB	_	3	parataxis	_	TokenRange=34:40
+8	dilma	dilma	NOUN	NOUN	_	7	obj	_	TokenRange=41:46
+9	video	video	NOUN	NOUN	_	7	obj	_	TokenRange=47:52
+10	bomba	bomba	NOUN	NOUN	_	9	flat	_	TokenRange=53:58
+11	redes	rede	NOUN	NOUN	_	9	appos	_	TokenRange=59:64
+12	sociais	social	ADJ	ADJ	_	11	amod	_	TokenRange=65:72
+13	provavel	provavel	ADJ	ADJ	_	14	amod	_	TokenRange=73:81
+14	candidato	candidato	NOUN	NOUN	_	7	nsubj	_	TokenRange=82:91
+15	presidencial	presidencial	ADJ	ADJ	_	14	amod	_	TokenRange=92:104
+16	eleicoes	eleicoe	NOUN	NOUN	_	14	appos	_	TokenRange=105:113
+17	2018	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=114:118
+18	exministro	exministro	NOUN	NOUN	_	21	nsubj	_	TokenRange=119:129
+19	ciro	_	NOUN	NOUN	_	18	appos	_	TokenRange=130:134
+20	gomes	gome	NOUN	NOUN	_	19	flat	_	TokenRange=135:140
+21	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=141:146
+22	vicepresidente	vicepresidente	NOUN	NOUN	_	21	obj	_	TokenRange=147:161
+23	michel	michel	ADJ	ADJ	_	24	amod	_	TokenRange=162:168
+24	temer	temer	NOUN	NOUN	_	22	appos	_	TokenRange=169:174
+25	tenta	tentar	VERB	VERB	_	21	ccomp	_	TokenRange=175:180
+26	eximir	eximir	VERB	VERB	_	25	xcomp	_	TokenRange=181:187
+27	responsabilidades	responsabilidade	NOUN	NOUN	_	26	obj	_	TokenRange=188:205
+28	criticou	criticar	VERB	VERB	_	25	parataxis	_	TokenRange=206:214
+29	alianca	alianca	NOUN	NOUN	_	28	obj	_	TokenRange=215:222
+30	feita	feito	ADJ	ADJ	_	29	amod	_	TokenRange=223:228
+31	presidente	presidente	NOUN	NOUN	_	29	appos	_	TokenRange=229:239
+32	dilma	dilma	ADJ	ADJ	_	31	appos	_	TokenRange=240:245
+33	rousseff	rousseff	NOUN	NOUN	_	29	appos	_	TokenRange=246:254
+34	turma	turma	NOUN	NOUN	_	28	parataxis	_	TokenRange=255:260
+35	ramo	ramo	NOUN	NOUN	_	34	flat	_	TokenRange=261:265
+36	esculhambacao	esculhambacao	NOUN	NOUN	_	34	appos	_	TokenRange=266:279
+37	pmdb	_	NOUN	NOUN	_	34	appos	_	SpaceAfter=No|TokenRange=280:284
+

@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rio 2016 americana exemplo patriotismo diz remarei atraves mer ti america megan kalmoe remadora time olimpico eua demonstrou patriota dar orgulho terra natal kalmoe tentou acalmar compatriotas amenizou noticias ruins sobre olimpiadas rio materia publicada ontem 26 the guardian remadora disse preciso parar tentar estragar jogos preocupados lugar vou tranquilizar remarei atraves mer ti america
+1	rio	rio	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:3
+2	2016	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=4:8
+3	americana	americano	ADJ	ADJ	_	4	amod	_	TokenRange=9:18
+4	exemplo	exemplo	NOUN	NOUN	_	1	appos	_	TokenRange=19:26
+5	patriotismo	patriotismo	NOUN	NOUN	_	4	amod	_	TokenRange=27:38
+6	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=39:42
+7	remarei	remarar	VERB	VERB	_	6	xcomp	_	TokenRange=43:50
+8	atraves	_	ADV	ADV	_	7	advmod	_	TokenRange=51:58
+9	mer	_	ADP	ADP	_	11	case	_	TokenRange=59:62
+10	ti	_	DET	DET	_	11	det	_	TokenRange=63:65
+11	america	_	NOUN	NOUN	_	8	nmod	_	TokenRange=66:73
+12	megan	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=74:79
+13	kalmoe	_	NOUN	NOUN	_	12	flat	_	TokenRange=80:86
+14	remadora	remador	ADJ	ADJ	_	15	amod	_	TokenRange=87:95
+15	time	time	NOUN	NOUN	_	12	appos	_	TokenRange=96:100
+16	olimpico	olimpico	ADJ	ADJ	_	15	amod	_	TokenRange=101:109
+17	eua	_	PRON	PRON	_	18	nsubj	_	TokenRange=110:113
+18	demonstrou	demonstrar	VERB	VERB	_	6	parataxis	_	TokenRange=114:124
+19	patriota	patriota	NOUN	NOUN	_	18	obj	_	TokenRange=125:133
+20	dar	dar	VERB	VERB	_	18	ccomp	_	TokenRange=134:137
+21	orgulho	orgulho	NOUN	NOUN	_	20	obj	_	TokenRange=138:145
+22	terra	terra	NOUN	NOUN	_	20	nmod	_	TokenRange=146:151
+23	natal	natal	ADJ	ADJ	_	22	amod	_	TokenRange=152:157
+24	kalmoe	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=158:164
+25	tentou	tentar	VERB	VERB	_	18	parataxis	_	TokenRange=165:171
+26	acalmar	acalmar	VERB	VERB	_	25	xcomp	_	TokenRange=172:179
+27	compatriotas	compatriota	NOUN	NOUN	_	26	obj	_	TokenRange=180:192
+28	amenizou	amenizar	VERB	VERB	_	7	conj	_	TokenRange=193:201
+29	noticias	noticia	NOUN	NOUN	_	28	obj	_	TokenRange=202:210
+30	ruins	ruim	ADJ	ADJ	_	29	amod	_	TokenRange=211:216
+31	sobre	_	ADP	ADP	_	32	case	_	TokenRange=217:222
+32	olimpiadas	_	NOUN	NOUN	_	29	nmod	_	TokenRange=223:233
+33	rio	_	NOUN	NOUN	_	32	appos	_	TokenRange=234:237
+34	materia	materia	NOUN	NOUN	_	32	appos	_	TokenRange=238:245
+35	publicada	publicar	VERB	VERB	_	34	acl	_	TokenRange=246:255
+36	ontem	ontem	ADV	ADV	_	35	advmod	_	TokenRange=256:261
+37	26	_	NUM	NUM	NumType=Card	36	nmod	_	TokenRange=262:264
+38	the	_	DET	DET	_	39	det	_	TokenRange=265:268
+39	guardian	guardian	NOUN	NOUN	_	41	nsubj	_	TokenRange=269:277
+40	remadora	remador	NOUN	NOUN	_	39	appos	_	TokenRange=278:286
+41	disse	dizer	VERB	VERB	_	6	parataxis	_	TokenRange=287:292
+42	preciso	preciso	ADJ	ADJ	_	41	xcomp	_	TokenRange=293:300
+43	parar	parar	VERB	VERB	_	41	ccomp	_	TokenRange=301:306
+44	tentar	tentar	VERB	VERB	_	43	xcomp	_	TokenRange=307:313
+45	estragar	estragar	VERB	VERB	_	44	xcomp	_	TokenRange=314:322
+46	jogos	jogo	NOUN	NOUN	_	45	obj	_	TokenRange=323:328
+47	preocupados	preocupado	ADJ	ADJ	_	46	amod	_	TokenRange=329:340
+48	lugar	lugar	NOUN	NOUN	_	50	nsubj	_	TokenRange=341:346
+49	vou	ir	AUX	AUX	_	50	aux	_	TokenRange=347:350
+50	tranquilizar	tranquilizar	VERB	VERB	_	44	conj	_	TokenRange=351:363
+51	remarei	remarar	VERB	VERB	_	50	xcomp	_	TokenRange=364:371
+52	atraves	atrave	ADV	ADV	_	51	advmod	_	TokenRange=372:379
+53	mer	_	ADP	ADP	_	55	case	_	TokenRange=380:383
+54	ti	_	DET	DET	_	55	det	_	TokenRange=384:386
+55	america	_	NOUN	NOUN	_	52	nmod	_	SpaceAfter=No|TokenRange=387:394
+

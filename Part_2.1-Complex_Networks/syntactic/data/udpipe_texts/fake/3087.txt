@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video dilma obstruindo justica deve presa menos delcidio cadeia dilma deve presa imediatamente assim aconteceu senador delcidio amaral flagrada pf tentando obstruir justica leia internauta disponibilizou video globo news confira
+1	video	video	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	obstruindo	obstruir	VERB	VERB	_	1	acl	_	TokenRange=12:22
+4	justica	_	NOUN	NOUN	_	3	obj	_	TokenRange=23:30
+5	deve	dever	AUX	AUX	_	6	aux	_	TokenRange=31:35
+6	presa	_	VERB	VERB	_	0	root	_	TokenRange=36:41
+7	menos	_	DET	DET	_	8	det	_	TokenRange=42:47
+8	delcidio	delcidio	NOUN	NOUN	_	6	nsubj	_	TokenRange=48:56
+9	cadeia	cadeia	NOUN	NOUN	_	8	appos	_	TokenRange=57:63
+10	dilma	dilma	NOUN	NOUN	_	12	nsubj:pass	_	TokenRange=64:69
+11	deve	dever	AUX	AUX	_	12	aux	_	TokenRange=70:74
+12	presa	_	VERB	VERB	_	8	acl:relcl	_	TokenRange=75:80
+13	imediatamente	imediatamente	ADV	ADV	_	15	advmod	_	TokenRange=81:94
+14	assim	assim	ADV	ADV	_	15	advmod	_	TokenRange=95:100
+15	aconteceu	acontecer	VERB	VERB	_	12	advcl	_	TokenRange=101:110
+16	senador	senador	NOUN	NOUN	_	15	nsubj	_	TokenRange=111:118
+17	delcidio	delcidio	ADJ	ADJ	_	16	amod	_	TokenRange=119:127
+18	amaral	amaral	ADJ	ADJ	_	16	amod	_	TokenRange=128:134
+19	flagrada	flagrado	ADJ	ADJ	_	16	amod	_	TokenRange=135:143
+20	pf	_	NOUN	NOUN	_	16	appos	_	TokenRange=144:146
+21	tentando	tentar	VERB	VERB	_	16	acl	_	TokenRange=147:155
+22	obstruir	obstruir	VERB	VERB	_	21	xcomp	_	TokenRange=156:164
+23	justica	_	NOUN	NOUN	_	22	obj	_	TokenRange=165:172
+24	leia	leia	NOUN	NOUN	_	26	nsubj	_	TokenRange=173:177
+25	internauta	internauta	NOUN	NOUN	_	24	flat	_	TokenRange=178:188
+26	disponibilizou	disponibilizar	VERB	VERB	_	15	parataxis	_	TokenRange=189:203
+27	video	video	NOUN	NOUN	_	30	obj	_	TokenRange=204:209
+28	globo	globo	NOUN	ADJ	_	27	amod	_	TokenRange=210:215
+29	news	_	NOUN	NOUN	_	27	flat	_	TokenRange=216:220
+30	confira	conferir	VERB	VERB	_	26	parataxis	_	SpaceAfter=No|TokenRange=221:228
+

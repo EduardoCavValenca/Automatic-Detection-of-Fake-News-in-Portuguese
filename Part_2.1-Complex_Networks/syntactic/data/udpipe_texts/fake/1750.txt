@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = anota ai michel juiz alerta proximo acidente pavoroso podera ocorrer tocantins juiz 2 vara criminal execucao penal tocantins fez alerta risco rebeliao presidio barra grota norte estado informou estadao
+1	anota	anotar	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	ai	_	ADP	PRT	_	1	dep	_	TokenRange=6:8
+3	michel	_	ADJ	ADJ	_	4	amod	_	TokenRange=9:15
+4	juiz	juiz	NOUN	NOUN	_	1	obj	_	TokenRange=16:20
+5	alerta	alerta	NOUN	NOUN	_	4	amod	_	TokenRange=21:27
+6	proximo	proximo	ADJ	ADJ	_	7	amod	_	TokenRange=28:35
+7	acidente	acidente	NOUN	NOUN	_	10	nsubj	_	TokenRange=36:44
+8	pavoroso	pavoroso	ADJ	ADJ	_	7	amod	_	TokenRange=45:53
+9	podera	_	AUX	AUX	_	10	aux	_	TokenRange=54:60
+10	ocorrer	ocorrer	VERB	VERB	_	1	ccomp	_	TokenRange=61:68
+11	tocantins	tocantim	ADJ	ADJ	_	10	nsubj	_	TokenRange=69:78
+12	juiz	juiz	NOUN	NOUN	_	10	nsubj	_	TokenRange=79:83
+13	2	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=84:85
+14	vara	vara	NOUN	NOUN	_	12	appos	_	TokenRange=86:90
+15	criminal	criminal	ADJ	ADJ	_	16	amod	_	TokenRange=91:99
+16	execucao	execucao	NOUN	NOUN	_	12	appos	_	TokenRange=100:108
+17	penal	penal	ADJ	ADJ	_	16	amod	_	TokenRange=109:114
+18	tocantins	tocantim	NOUN	NOUN	_	16	amod	_	TokenRange=115:124
+19	fez	fazer	VERB	VERB	_	10	parataxis	_	TokenRange=125:128
+20	alerta	alerta	NOUN	NOUN	_	19	obj	_	TokenRange=129:135
+21	risco	risco	NOUN	NOUN	_	20	flat	_	TokenRange=136:141
+22	rebeliao	rebeliao	NOUN	NOUN	_	20	amod	_	TokenRange=142:150
+23	presidio	presidio	NOUN	NOUN	_	20	appos	_	TokenRange=151:159
+24	barra	barra	NOUN	NOUN	_	23	appos	_	TokenRange=160:165
+25	grota	grota	ADJ	ADJ	_	24	amod	_	TokenRange=166:171
+26	norte	norte	ADJ	ADJ	_	27	amod	_	TokenRange=172:177
+27	estado	estado	NOUN	NOUN	_	24	appos	_	TokenRange=178:184
+28	informou	informar	VERB	VERB	_	1	parataxis	_	TokenRange=185:193
+29	estadao	estadao	NOUN	NOUN	_	28	obj	_	SpaceAfter=No|TokenRange=194:201
+

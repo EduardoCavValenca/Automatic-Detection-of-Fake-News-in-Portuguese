@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = malas geddel dinheiro contado pf ultrapassa r 40 milhoes policia federal contabilizou r 40 milhoes dinheiro apreendido varias malas caixas apartamento salvador fortuna estaria ligada exministro geddel vieira lima pmdb valor divulgado cerca 20 minutos pf segundo informacoes oficiais total dinheiro encontrado malas geddel tao grande contagem notas podera estender toda madrugada amanha exministro investigado suspeitas pertencer esquema liberacao creditos cef troca liberacao recursos recebia propinas detalhe pf usando maquinas contadoras dinheiro
+1	malas	mala	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	geddel	_	ADJ	NOUN	_	1	amod	_	TokenRange=6:12
+3	dinheiro	dinheiro	NOUN	NOUN	_	1	appos	_	TokenRange=13:21
+4	contado	contar	VERB	VERB	_	1	acl	_	TokenRange=22:29
+5	pf	_	NOUN	NOUN	_	4	obj	_	TokenRange=30:32
+6	ultrapassa	ultrapassar	VERB	VERB	_	0	root	_	TokenRange=33:43
+7	r	r	NOUN	NOUN	_	6	obj	_	TokenRange=44:45
+8	40	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=46:48
+9	milhoes	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=49:56
+10	policia	policia	NOUN	NOUN	_	6	nsubj	_	TokenRange=57:64
+11	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=65:72
+12	contabilizou	contabilizar	VERB	VERB	_	6	parataxis	_	TokenRange=73:85
+13	r	r	NOUN	NOUN	_	12	obj	_	TokenRange=86:87
+14	40	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=88:90
+15	milhoes	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=91:98
+16	dinheiro	dinheiro	NOUN	NOUN	_	12	obj	_	TokenRange=99:107
+17	apreendido	apreendido	ADJ	ADJ	_	16	acl	_	TokenRange=108:118
+18	varias	_	DET	DET	_	20	det	_	TokenRange=119:125
+19	malas	mala	ADJ	ADJ	_	20	amod	_	TokenRange=126:131
+20	caixas	caixa	NOUN	NOUN	_	12	nsubj	_	TokenRange=132:138
+21	apartamento	apartamento	NOUN	NOUN	_	20	appos	_	TokenRange=139:150
+22	salvador	salvador	ADJ	ADJ	_	20	amod	_	TokenRange=151:159
+23	fortuna	fortuna	NOUN	NOUN	_	26	nsubj	_	TokenRange=160:167
+24	estaria	estar	AUX	AUX	_	26	cop	_	TokenRange=168:175
+25	ligada	ligado	ADJ	ADJ	_	26	amod	_	TokenRange=176:182
+26	exministro	exministro	NOUN	NOUN	_	6	parataxis	_	TokenRange=183:193
+27	geddel	_	NOUN	NOUN	_	26	flat	_	TokenRange=194:200
+28	vieira	vieira	NOUN	NOUN	_	26	appos	_	TokenRange=201:207
+29	lima	lima	ADJ	ADJ	_	28	flat	_	TokenRange=208:212
+30	pmdb	_	NOUN	NOUN	_	31	appos	_	TokenRange=213:217
+31	valor	valor	NOUN	NOUN	_	26	appos	_	TokenRange=218:223
+32	divulgado	divulgar	VERB	VERB	_	31	acl	_	TokenRange=224:233
+33	cerca	cerca	ADV	ADV	_	34	advmod	_	TokenRange=234:239
+34	20	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=240:242
+35	minutos	minuto	NOUN	NOUN	_	32	nmod	_	TokenRange=243:250
+36	pf	_	NOUN	NOUN	_	35	appos	_	TokenRange=251:253
+37	segundo	_	ADP	ADP	_	38	case	_	TokenRange=254:261
+38	informacoes	informacoe	NOUN	NOUN	_	50	nmod	_	TokenRange=262:273
+39	oficiais	oficial	ADJ	ADJ	_	38	amod	_	TokenRange=274:282
+40	total	total	ADJ	ADJ	_	41	amod	_	TokenRange=283:288
+41	dinheiro	dinheiro	NOUN	NOUN	_	38	appos	_	TokenRange=289:297
+42	encontrado	encontrar	VERB	VERB	_	41	acl	_	TokenRange=298:308
+43	malas	mala	NOUN	NOUN	_	42	obj	_	TokenRange=309:314
+44	geddel	_	NOUN	NOUN	_	43	flat	_	TokenRange=315:321
+45	tao	tao	ADV	ADV	_	46	advmod	_	TokenRange=322:325
+46	grande	grande	ADJ	ADJ	_	47	amod	_	TokenRange=326:332
+47	contagem	contagem	NOUN	NOUN	_	50	nsubj	_	TokenRange=333:341
+48	notas	nota	NOUN	NOUN	_	50	nsubj	_	TokenRange=342:347
+49	podera	_	AUX	AUX	_	50	aux	_	TokenRange=348:354
+50	estender	estender	VERB	VERB	_	6	parataxis	_	TokenRange=355:363
+51	toda	_	DET	DET	_	52	det	_	TokenRange=364:368
+52	madrugada	madrugada	NOUN	NOUN	_	50	obj	_	TokenRange=369:378
+53	amanha	amanha	ADP	ADP	_	50	mark	_	TokenRange=379:385
+54	exministro	exministro	NOUN	NOUN	_	50	nsubj	_	TokenRange=386:396
+55	investigado	investigar	VERB	VERB	_	54	acl	_	TokenRange=397:408
+56	suspeitas	_	NOUN	NOUN	_	57	obj	_	TokenRange=409:418
+57	pertencer	pertencer	VERB	VERB	_	54	acl:inf	_	TokenRange=419:428
+58	esquema	esquema	NOUN	NOUN	_	57	obj	_	TokenRange=429:436
+59	liberacao	_	ADJ	ADJ	_	58	amod	_	TokenRange=437:446
+60	creditos	credito	NOUN	NOUN	_	58	appos	_	TokenRange=447:455
+61	cef	_	X	ADJ	_	62	flat	_	TokenRange=456:459
+62	troca	_	NOUN	NOUN	_	58	appos	_	TokenRange=460:465
+63	liberacao	liberacao	ADJ	ADJ	_	62	amod	_	TokenRange=466:475
+64	recursos	recurso	NOUN	NOUN	_	62	appos	_	TokenRange=476:484
+65	recebia	receber	VERB	VERB	_	50	parataxis	_	TokenRange=485:492
+66	propinas	propina	NOUN	NOUN	_	65	obj	_	TokenRange=493:501
+67	detalhe	detalhe	NOUN	NOUN	_	66	appos	_	TokenRange=502:509
+68	pf	_	NOUN	NOUN	_	67	flat	_	TokenRange=510:512
+69	usando	usar	VERB	VERB	_	65	acl	_	TokenRange=513:519
+70	maquinas	_	NOUN	NOUN	_	69	obj	_	TokenRange=520:528
+71	contadoras	contador	ADJ	ADJ	_	70	amod	_	TokenRange=529:539
+72	dinheiro	dinheiro	NOUN	NOUN	_	70	appos	_	SpaceAfter=No|TokenRange=540:548
+

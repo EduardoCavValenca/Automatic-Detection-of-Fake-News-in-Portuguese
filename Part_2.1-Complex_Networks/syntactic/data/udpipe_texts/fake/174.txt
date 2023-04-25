@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = negao whatsapp faz homem levar tiro boca marido ciumento negao whatsapp duvida brincadeiras compartilhadas aplicativo entanto levou desfecho violento causa compartilhamento imagem afrodescendente mulher casada preparador fisico wallace pessanha fugiu apos atirar boca vizinho durante briga bairro terra vermelha vila velha neste domingo 6 confusao aconteceu montagem unindo meme internet esposa vitima publicada rede social pai wallace disse vai apresentar policia quartafeira 9 advogado vizinho richard vieira borges 27 anos continua internado aguardando cirurgia perdeu alguns dentes
+1	negao	_	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	whatsapp	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=6:14
+3	faz	fazer	VERB	VERB	_	30	ccomp	_	TokenRange=15:18
+4	homem	homem	NOUN	NOUN	_	3	obj	_	TokenRange=19:24
+5	levar	levar	VERB	VERB	_	3	ccomp	_	TokenRange=25:30
+6	tiro	tiro	NOUN	NOUN	_	5	obj	_	TokenRange=31:35
+7	boca	boca	NOUN	NOUN	_	6	flat	_	TokenRange=36:40
+8	marido	marido	NOUN	NOUN	_	6	appos	_	TokenRange=41:47
+9	ciumento	ciumento	NOUN	NOUN	_	6	appos	_	TokenRange=48:56
+10	negao	_	ADJ	ADJ	_	11	amod	_	TokenRange=57:62
+11	whatsapp	_	NOUN	NOUN	_	13	appos	_	TokenRange=63:71
+12	duvida	duvido	VERB	ADJ	_	13	amod	_	TokenRange=72:78
+13	brincadeiras	brincadeira	NOUN	NOUN	_	3	obj	_	TokenRange=79:91
+14	compartilhadas	compartilhar	VERB	VERB	_	13	acl	_	TokenRange=92:106
+15	aplicativo	aplicativo	NOUN	NOUN	_	14	nsubj	_	TokenRange=107:117
+16	entanto	entanto	ADV	ADV	_	17	advmod	_	TokenRange=118:125
+17	levou	levar	VERB	VERB	_	3	conj	_	TokenRange=126:131
+18	desfecho	desfecho	NOUN	NOUN	_	17	obj	_	TokenRange=132:140
+19	violento	violento	ADJ	ADJ	_	18	amod	_	TokenRange=141:149
+20	causa	causa	NOUN	NOUN	_	18	appos	_	TokenRange=150:155
+21	compartilhamento	compartilhamento	NOUN	NOUN	_	18	appos	_	TokenRange=156:172
+22	imagem	imagem	NOUN	NOUN	_	18	appos	_	TokenRange=173:179
+23	afrodescendente	afrodescendente	ADJ	ADJ	_	24	amod	_	TokenRange=180:195
+24	mulher	mulher	NOUN	NOUN	_	21	appos	_	TokenRange=196:202
+25	casada	casado	ADJ	ADJ	_	24	amod	_	TokenRange=203:209
+26	preparador	preparador	NOUN	NOUN	_	24	appos	_	TokenRange=210:220
+27	fisico	fisico	ADJ	ADJ	_	26	amod	_	TokenRange=221:227
+28	wallace	wallace	NOUN	NOUN	_	24	appos	_	TokenRange=228:235
+29	pessanha	pessanha	NOUN	NOUN	_	26	flat	_	TokenRange=236:244
+30	fugiu	fugir	VERB	VERB	_	0	root	_	TokenRange=245:250
+31	apos	_	ADP	ADP	_	32	mark	_	TokenRange=251:255
+32	atirar	atirar	VERB	VERB	_	30	advcl	_	TokenRange=256:262
+33	boca	boca	NOUN	NOUN	_	32	obj	_	TokenRange=263:267
+34	vizinho	vizinho	ADJ	ADJ	_	33	amod	_	TokenRange=268:275
+35	durante	_	ADP	ADP	_	36	case	_	TokenRange=276:283
+36	briga	briga	NOUN	NOUN	_	30	nmod	_	TokenRange=284:289
+37	bairro	bairro	NOUN	NOUN	_	36	appos	_	TokenRange=290:296
+38	terra	terra	NOUN	NOUN	_	36	appos	_	TokenRange=297:302
+39	vermelha	vermelho	ADJ	ADJ	_	38	amod	_	TokenRange=303:311
+40	vila	vila	NOUN	NOUN	_	36	appos	_	TokenRange=312:316
+41	velha	velho	ADJ	ADJ	_	40	amod	_	TokenRange=317:322
+42	neste	_	ADP	ADP	_	43	case	_	TokenRange=323:328
+43	domingo	_	PROPN	PNOUN	_	46	nmod	_	TokenRange=329:336
+44	6	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=337:338
+45	confusao	confusao	NOUN	NOUN	_	46	nsubj	_	TokenRange=339:347
+46	aconteceu	acontecer	VERB	VERB	_	30	parataxis	_	TokenRange=348:357
+47	montagem	montagem	NOUN	NOUN	_	46	nsubj	_	TokenRange=358:366
+48	unindo	unir	VERB	VERB	_	47	acl	_	TokenRange=367:373
+49	meme	meme	NOUN	NOUN	_	48	obj	_	TokenRange=374:378
+50	internet	_	NOUN	NOUN	_	49	appos	_	TokenRange=379:387
+51	esposa	esposo	NOUN	NOUN	_	49	flat	_	TokenRange=388:394
+52	vitima	vitima	NOUN	NOUN	_	49	appos	_	TokenRange=395:401
+53	publicada	publicar	VERB	ADJ	_	54	acl	_	TokenRange=402:411
+54	rede	rede	NOUN	NOUN	_	46	nsubj	_	TokenRange=412:416
+55	social	social	ADJ	ADJ	_	54	amod	_	TokenRange=417:423
+56	pai	pai	NOUN	NOUN	_	58	nsubj	_	TokenRange=424:427
+57	wallace	wallace	NOUN	NOUN	_	56	flat	_	TokenRange=428:435
+58	disse	dizer	VERB	VERB	_	46	parataxis	_	TokenRange=436:441
+59	vai	ir	AUX	AUX	_	60	aux	_	TokenRange=442:445
+60	apresentar	apresentar	VERB	VERB	_	58	ccomp	_	TokenRange=446:456
+61	policia	policia	NOUN	NOUN	_	60	obj	_	TokenRange=457:464
+62	quartafeira	_	NOUN	NOUN	_	61	appos	_	TokenRange=465:476
+63	9	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=477:478
+64	advogado	advogado	NOUN	NOUN	_	61	appos	_	TokenRange=479:487
+65	vizinho	vizinho	ADJ	ADJ	_	64	amod	_	TokenRange=488:495
+66	richard	_	NOUN	NOUN	_	64	appos	_	TokenRange=496:503
+67	vieira	vieira	NOUN	NOUN	_	66	flat	_	TokenRange=504:510
+68	borges	borge	ADJ	ADJ	_	66	flat	_	TokenRange=511:517
+69	27	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=518:520
+70	anos	ano	NOUN	NOUN	_	66	appos	_	TokenRange=521:525
+71	continua	continuar	VERB	VERB	_	60	parataxis	_	TokenRange=526:534
+72	internado	internado	ADJ	ADJ	_	71	xcomp	_	TokenRange=535:544
+73	aguardando	aguardar	VERB	VERB	_	71	acl	_	TokenRange=545:555
+74	cirurgia	cirurgia	NOUN	NOUN	_	73	obj	_	TokenRange=556:564
+75	perdeu	perder	VERB	VERB	_	71	parataxis	_	TokenRange=565:571
+76	alguns	_	DET	DET	_	77	det	_	TokenRange=572:578
+77	dentes	dente	NOUN	NOUN	_	75	obj	_	SpaceAfter=No|TokenRange=579:585
+

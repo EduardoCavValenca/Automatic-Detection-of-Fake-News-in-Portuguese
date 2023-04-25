@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = novela mexicana ganha versao brasileira primeiro trabalho leonor correa novelista carinha anjo estreia nesta segunda 21 sbt apos quase seis anos consecutivos preenchidos quatro novelas serie 1350 capitulos escritos iris abravanel cede espaco outro autor dramaturgia sbt leonor correa 32 anos tv atuava diretora artistica apresentadora assina roteiro carinha anjo primeira novela autoria trama adaptacao sucesso tv mexicana carita angel produzida ano 2000 versao original exibida
+1	novela	novela	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	mexicana	mexicano	ADJ	ADJ	_	1	amod	_	TokenRange=7:15
+3	ganha	ganhar	VERB	VERB	_	0	root	_	TokenRange=16:21
+4	versao	versao	NOUN	NOUN	_	3	obj	_	TokenRange=22:28
+5	brasileira	brasileiro	ADJ	ADJ	_	4	amod	_	TokenRange=29:39
+6	primeiro	primeiro	ADJ	ADJ	_	7	amod	_	TokenRange=40:48
+7	trabalho	trabalho	NOUN	NOUN	_	3	obj	_	TokenRange=49:57
+8	leonor	leonor	ADJ	ADJ	_	7	amod	_	TokenRange=58:64
+9	correa	_	NOUN	NOUN	_	1	appos	_	TokenRange=65:71
+10	novelista	novelista	NOUN	NOUN	_	1	appos	_	TokenRange=72:81
+11	carinha	_	NOUN	NOUN	_	1	appos	_	TokenRange=82:89
+12	anjo	anjo	NOUN	NOUN	_	11	flat	_	TokenRange=90:94
+13	estreia	estrear	VERB	VERB	_	3	parataxis	_	TokenRange=95:102
+14	nesta	_	ADP	ADP	_	15	case	_	TokenRange=103:108
+15	segunda	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=109:116
+16	21	_	NUM	NUM	NumType=Card	13	nmod	_	TokenRange=117:119
+17	sbt	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=120:123
+18	apos	_	ADP	ADP	_	21	case	_	TokenRange=124:128
+19	quase	quase	ADV	ADV	_	20	advmod	_	TokenRange=129:134
+20	seis	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=135:139
+21	anos	ano	NOUN	NOUN	_	13	nmod	_	TokenRange=140:144
+22	consecutivos	consecutivo	ADJ	ADJ	_	21	amod	_	TokenRange=145:157
+23	preenchidos	preencher	VERB	VERB	_	21	acl	_	TokenRange=158:169
+24	quatro	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=170:176
+25	novelas	novela	NOUN	NOUN	_	23	nsubj	_	TokenRange=177:184
+26	serie	_	NOUN	NOUN	_	25	appos	_	TokenRange=185:190
+27	1350	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=191:195
+28	capitulos	capitulo	NOUN	NOUN	_	25	appos	_	TokenRange=196:205
+29	escritos	escrever	VERB	VERB	_	28	acl	_	TokenRange=206:214
+30	iris	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=215:219
+31	abravanel	_	NOUN	NOUN	_	30	flat	_	TokenRange=220:229
+32	cede	ceder	VERB	VERB	_	3	parataxis	_	TokenRange=230:234
+33	espaco	espaco	NOUN	NOUN	_	32	obj	_	TokenRange=235:241
+34	outro	_	DET	DET	_	35	det	_	TokenRange=242:247
+35	autor	autor	NOUN	NOUN	_	32	obj	_	TokenRange=248:253
+36	dramaturgia	dramaturgia	NOUN	NOUN	_	35	appos	_	TokenRange=254:265
+37	sbt	_	NOUN	NOUN	_	38	flat	_	TokenRange=266:269
+38	leonor	leonor	NOUN	NOUN	_	35	appos	_	TokenRange=270:276
+39	correa	_	NOUN	NOUN	_	38	flat	_	TokenRange=277:283
+40	32	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=284:286
+41	anos	ano	NOUN	NOUN	_	38	appos	_	TokenRange=287:291
+42	tv	tv	NOUN	NOUN	_	32	nsubj	_	TokenRange=292:294
+43	atuava	atuar	ADJ	ADJ	_	44	cop	_	TokenRange=295:301
+44	diretora	diretor	NOUN	NOUN	_	32	conj	_	TokenRange=302:310
+45	artistica	artistico	ADJ	ADJ	_	44	amod	_	TokenRange=311:320
+46	apresentadora	apresentador	NOUN	NOUN	_	44	amod	_	TokenRange=321:334
+47	assina	assino	ADJ	ADJ	_	44	amod	_	TokenRange=335:341
+48	roteiro	roteiro	NOUN	NOUN	_	44	appos	_	TokenRange=342:349
+49	carinha	_	NOUN	NOUN	_	52	appos	_	TokenRange=350:357
+50	anjo	anjo	NOUN	NOUN	_	49	flat	_	TokenRange=358:362
+51	primeira	primeiro	ADJ	ADJ	_	52	amod	_	TokenRange=363:371
+52	novela	novela	NOUN	NOUN	_	44	appos	_	TokenRange=372:378
+53	autoria	autoria	NOUN	NOUN	_	52	flat	_	TokenRange=379:386
+54	trama	trama	NOUN	NOUN	_	52	appos	_	TokenRange=387:392
+55	adaptacao	adaptacao	ADJ	ADJ	_	52	amod	_	TokenRange=393:402
+56	sucesso	sucesso	NOUN	NOUN	_	52	appos	_	TokenRange=403:410
+57	tv	tv	NOUN	NOUN	_	56	appos	_	TokenRange=411:413
+58	mexicana	mexicano	ADJ	ADJ	_	59	amod	_	TokenRange=414:422
+59	carita	carita	NOUN	NOUN	_	56	appos	_	TokenRange=423:429
+60	angel	angel	ADJ	NOUN	_	59	flat	_	TokenRange=430:435
+61	produzida	produzir	VERB	VERB	_	56	acl	_	TokenRange=436:445
+62	ano	ano	NOUN	NOUN	_	66	nmod	_	TokenRange=446:449
+63	2000	_	NUM	NUM	NumType=Card	62	nmod	_	TokenRange=450:454
+64	versao	versao	NOUN	NOUN	_	61	obj	_	TokenRange=455:461
+65	original	original	ADJ	ADJ	_	64	amod	_	TokenRange=462:470
+66	exibida	exibir	VERB	VERB	_	64	acl	_	SpaceAfter=No|TokenRange=471:478
+

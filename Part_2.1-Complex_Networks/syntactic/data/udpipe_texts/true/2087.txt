@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa lula apresenta recibos pagamento alugueis imovel investigado lava jato expresidente acusado receber apartamento propina odebrecht advogados disseram possuem recibos originais pediram audiencia juiz sergio moro entregalos advogados expresidente luiz inacio lula silva apresentaram justica federal nesta quartafeira 11 outros seis recibos 2011 referentes pagamentos aluguel apartamento vizinho lula bernardo campo sp imovel alvo processo relacionado operacao lava jato defesa expresidente afirmou possui originais recibos pediu juiz sergio moro responsavel lava jato primeira instancia audiencia formal
+1	defesa	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	lula	lulo	NOUN	NOUN	_	1	flat	_	TokenRange=7:11
+3	apresenta	apresentar	VERB	VERB	_	0	root	_	TokenRange=12:21
+4	recibos	recibo	NOUN	NOUN	_	3	obj	_	TokenRange=22:29
+5	pagamento	pagamento	NOUN	NOUN	_	4	appos	_	TokenRange=30:39
+6	alugueis	aluguel	NOUN	NOUN	_	5	amod	_	TokenRange=40:48
+7	imovel	imovel	ADJ	ADJ	_	5	amod	_	TokenRange=49:55
+8	investigado	investigado	ADJ	ADJ	_	1	amod	_	TokenRange=56:67
+9	lava	lava	NOUN	NOUN	_	3	nsubj	_	TokenRange=68:72
+10	jato	jato	NOUN	NOUN	_	9	flat	_	TokenRange=73:77
+11	expresidente	expresidente	NOUN	NOUN	_	9	appos	_	TokenRange=78:90
+12	acusado	acusar	VERB	VERB	_	9	acl	_	TokenRange=91:98
+13	receber	receber	VERB	VERB	_	12	xcomp	_	TokenRange=99:106
+14	apartamento	apartamento	NOUN	NOUN	_	13	obj	_	TokenRange=107:118
+15	propina	propino	ADJ	ADJ	_	14	amod	_	TokenRange=119:126
+16	odebrecht	_	ADJ	ADJ	_	17	amod	_	TokenRange=127:136
+17	advogados	advogado	NOUN	NOUN	_	18	nsubj	_	TokenRange=137:146
+18	disseram	dizer	VERB	VERB	_	3	conj	_	TokenRange=147:155
+19	possuem	possuir	VERB	VERB	_	18	xcomp	_	TokenRange=156:163
+20	recibos	recibo	NOUN	NOUN	_	19	obj	_	TokenRange=164:171
+21	originais	original	ADJ	ADJ	_	20	amod	_	TokenRange=172:181
+22	pediram	pedir	VERB	VERB	_	20	acl:relcl	_	TokenRange=182:189
+23	audiencia	_	NOUN	NOUN	_	22	obj	_	TokenRange=190:199
+24	juiz	juiz	NOUN	NOUN	_	23	appos	_	TokenRange=200:204
+25	sergio	sergio	ADJ	ADJ	_	24	amod	_	TokenRange=205:211
+26	moro	moro	NOUN	NOUN	_	24	flat	_	TokenRange=212:216
+27	entregalos	entregalo	ADJ	ADJ	_	28	amod	_	TokenRange=217:227
+28	advogados	advogado	NOUN	NOUN	_	22	nsubj	_	TokenRange=228:237
+29	expresidente	expresidente	ADJ	ADJ	_	28	amod	_	TokenRange=238:250
+30	luiz	luiz	ADJ	ADJ	_	28	appos	_	TokenRange=251:255
+31	inacio	_	NOUN	NOUN	_	30	flat	_	TokenRange=256:262
+32	lula	_	NOUN	NOUN	_	30	flat	_	TokenRange=263:267
+33	silva	silva	ADJ	ADJ	_	30	flat	_	TokenRange=268:273
+34	apresentaram	apresentar	VERB	VERB	_	3	conj	_	TokenRange=274:286
+35	justica	_	NOUN	NOUN	_	34	obj	_	TokenRange=287:294
+36	federal	federal	ADJ	ADJ	_	35	amod	_	TokenRange=295:302
+37	nesta	_	ADP	ADP	_	38	case	_	TokenRange=303:308
+38	quartafeira	_	NOUN	NOUN	_	34	nmod	_	TokenRange=309:320
+39	11	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=321:323
+40	outros	_	DET	DET	_	42	det	_	TokenRange=324:330
+41	seis	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=331:335
+42	recibos	recibo	NOUN	NOUN	_	34	obj	_	TokenRange=336:343
+43	2011	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=344:348
+44	referentes	referente	ADJ	ADJ	_	42	amod	_	TokenRange=349:359
+45	pagamentos	pagamento	NOUN	NOUN	_	42	appos	_	TokenRange=360:370
+46	aluguel	aluguel	ADJ	ADJ	_	45	amod	_	TokenRange=371:378
+47	apartamento	apartamento	NOUN	NOUN	_	45	appos	_	TokenRange=379:390
+48	vizinho	vizinho	ADJ	ADJ	_	47	amod	_	TokenRange=391:398
+49	lula	lula	NOUN	NOUN	_	47	appos	_	TokenRange=399:403
+50	bernardo	bernardo	NOUN	NOUN	_	47	appos	_	TokenRange=404:412
+51	campo	campo	NOUN	NOUN	_	50	flat	_	TokenRange=413:418
+52	sp	_	NOUN	NOUN	_	50	amod	_	TokenRange=419:421
+53	imovel	imovel	ADJ	ADJ	_	42	amod	_	TokenRange=422:428
+54	alvo	alvo	ADJ	ADJ	_	55	amod	_	TokenRange=429:433
+55	processo	processo	NOUN	NOUN	_	53	appos	_	TokenRange=434:442
+56	relacionado	relacionado	ADJ	ADJ	_	55	amod	_	TokenRange=443:454
+57	operacao	operacao	ADJ	ADJ	_	55	amod	_	TokenRange=455:463
+58	lava	lava	NOUN	NOUN	_	55	appos	_	TokenRange=464:468
+59	jato	jato	ADJ	NOUN	_	58	amod	_	TokenRange=469:473
+60	defesa	_	NOUN	NOUN	_	62	nsubj	_	TokenRange=474:480
+61	expresidente	expresidente	NOUN	NOUN	_	58	amod	_	TokenRange=481:493
+62	afirmou	afirmar	VERB	VERB	_	55	acl:relcl	_	TokenRange=494:501
+63	possui	possuir	VERB	VERB	_	62	xcomp	_	TokenRange=502:508
+64	originais	original	ADJ	ADJ	_	65	amod	_	TokenRange=509:518
+65	recibos	recibo	NOUN	NOUN	_	63	obj	_	TokenRange=519:526
+66	pediu	pedir	VERB	VERB	_	62	conj	_	TokenRange=527:532
+67	juiz	juiz	NOUN	NOUN	_	66	obj	_	TokenRange=533:537
+68	sergio	sergio	ADJ	ADJ	_	67	amod	_	TokenRange=538:544
+69	moro	moro	NOUN	NOUN	_	67	flat	_	TokenRange=545:549
+70	responsavel	responsavel	ADJ	ADJ	_	67	amod	_	TokenRange=550:561
+71	lava	lava	NOUN	NOUN	_	67	appos	_	TokenRange=562:566
+72	jato	jato	NOUN	NOUN	_	71	flat	_	TokenRange=567:571
+73	primeira	primeiro	ADJ	ADJ	_	74	amod	_	TokenRange=572:580
+74	instancia	instancia	NOUN	NOUN	_	71	appos	_	TokenRange=581:590
+75	audiencia	audiencia	NOUN	NOUN	_	66	obj	_	TokenRange=591:600
+76	formal	formal	ADJ	ADJ	_	75	amod	_	SpaceAfter=No|TokenRange=601:607
+

@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = barroso gilmar mendes trabalha mentira vive destilando odio imagine seguinte cena duas criancas 5 serie brigando pra chamar atencao professora bateboca ministros luiz roberto barroso gilmar mendes aconteceu durante acao sobre extincao tribunal contas municipios ceara tarde hoje 26 claro torcemos sempre mocinhos ganharem briga caso ministro barroso barroso rj prendemos gente solta gilmar mendes vossa excelencia chegou aqui soltou jose dirceu barroso mentira vossa excelencia normalmente trabalha verdade tomando tempo plenario destilar odio resto acompanha video abaixo
+1	barroso	barroso	NOUN	NOUN	_	76	nsubj	_	TokenRange=0:7
+2	gilmar	gilmar	NOUN	NOUN	_	1	appos	_	TokenRange=8:14
+3	mendes	_	NOUN	NOUN	_	2	amod	_	TokenRange=15:21
+4	trabalha	trabalhar	VERB	VERB	_	1	acl:relcl	_	TokenRange=22:30
+5	mentira	mentira	NOUN	NOUN	_	4	obj	_	TokenRange=31:38
+6	vive	_	AUX	AUX	_	7	aux	_	TokenRange=39:43
+7	destilando	destilar	VERB	VERB	_	1	acl	_	TokenRange=44:54
+8	odio	odio	NOUN	NOUN	_	7	obj	_	TokenRange=55:59
+9	imagine	imaginar	VERB	VERB	_	7	parataxis	_	TokenRange=60:67
+10	seguinte	seguinte	ADJ	ADJ	_	11	amod	_	TokenRange=68:76
+11	cena	cena	NOUN	NOUN	_	9	obj	_	TokenRange=77:81
+12	duas	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=82:86
+13	criancas	crianca	NOUN	NOUN	_	11	appos	_	TokenRange=87:95
+14	5	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=96:97
+15	serie	_	NOUN	NOUN	_	13	appos	_	TokenRange=98:103
+16	brigando	brigar	VERB	VERB	_	13	acl	_	TokenRange=104:112
+17	pra	_	ADP	ADP	_	18	mark	_	TokenRange=113:116
+18	chamar	chamar	VERB	VERB	_	16	advcl	_	TokenRange=117:123
+19	atencao	atencao	NOUN	NOUN	_	18	obj	_	TokenRange=124:131
+20	professora	professor	NOUN	NOUN	_	18	nsubj	_	TokenRange=132:142
+21	bateboca	_	NOUN	NOUN	_	20	appos	_	TokenRange=143:151
+22	ministros	ministro	NOUN	NOUN	_	20	appos	_	TokenRange=152:161
+23	luiz	luiz	NOUN	NOUN	_	22	appos	_	TokenRange=162:166
+24	roberto	roberto	ADJ	ADJ	_	23	flat	_	TokenRange=167:174
+25	barroso	barroso	ADJ	ADJ	_	26	amod	_	TokenRange=175:182
+26	gilmar	gilmar	NOUN	NOUN	_	22	appos	_	TokenRange=183:189
+27	mendes	_	ADJ	NOUN	_	26	amod	_	TokenRange=190:196
+28	aconteceu	acontecer	VERB	VERB	_	7	parataxis	_	TokenRange=197:206
+29	durante	_	ADP	ADP	_	30	case	_	TokenRange=207:214
+30	acao	acao	NOUN	NOUN	_	28	nmod	_	TokenRange=215:219
+31	sobre	_	ADP	ADP	_	32	case	_	TokenRange=220:225
+32	extincao	extincao	NOUN	NOUN	_	30	nmod	_	TokenRange=226:234
+33	tribunal	tribunal	NOUN	NOUN	_	32	appos	_	TokenRange=235:243
+34	contas	conta	NOUN	NOUN	_	33	flat	_	TokenRange=244:250
+35	municipios	municipio	NOUN	NOUN	_	33	amod	_	TokenRange=251:261
+36	ceara	ceara	ADJ	NOUN	_	37	amod	_	TokenRange=262:267
+37	tarde	tarde	NOUN	NOUN	_	28	nsubj	_	TokenRange=268:273
+38	hoje	hoje	ADV	ADV	_	41	advmod	_	TokenRange=274:278
+39	26	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=279:281
+40	claro	claro	NOUN	NOUN	_	41	nsubj	_	TokenRange=282:287
+41	torcemos	torcer	VERB	VERB	_	28	parataxis	_	TokenRange=288:296
+42	sempre	sempre	ADV	ADV	_	41	advmod	_	TokenRange=297:303
+43	mocinhos	_	NOUN	NOUN	_	41	obj	_	TokenRange=304:312
+44	ganharem	ganhar	VERB	VERB	_	41	ccomp	_	TokenRange=313:321
+45	briga	briga	NOUN	NOUN	_	44	obj	_	TokenRange=322:327
+46	caso	caso	NOUN	NOUN	_	47	cc	_	TokenRange=328:332
+47	ministro	ministro	NOUN	NOUN	_	51	nsubj	_	TokenRange=333:341
+48	barroso	barroso	ADJ	ADJ	_	47	amod	_	TokenRange=342:349
+49	barroso	barroso	ADJ	ADJ	_	47	amod	_	TokenRange=350:357
+50	rj	_	ADV	ADV	_	47	advmod	_	TokenRange=358:360
+51	prendemos	prender	VERB	VERB	_	41	parataxis	_	TokenRange=361:370
+52	gente	gente	NOUN	NOUN	_	51	obj	_	TokenRange=371:376
+53	solta	solto	ADJ	ADJ	_	52	amod	_	TokenRange=377:382
+54	gilmar	gilmar	NOUN	NOUN	_	51	nsubj	_	TokenRange=383:389
+55	mendes	_	NOUN	NOUN	_	54	flat	_	TokenRange=390:396
+56	vossa	_	DET	DET	_	57	det:poss	_	TokenRange=397:402
+57	excelencia	excelencia	NOUN	NOUN	_	58	nsubj	_	TokenRange=403:413
+58	chegou	chegar	VERB	VERB	_	51	ccomp	_	TokenRange=414:420
+59	aqui	aqui	ADV	ADV	_	60	advmod	_	TokenRange=421:425
+60	soltou	soltar	VERB	VERB	_	58	ccomp	_	TokenRange=426:432
+61	jose	jose	NOUN	NOUN	_	60	nsubj	_	TokenRange=433:437
+62	dirceu	_	NOUN	NOUN	_	61	flat	_	TokenRange=438:444
+63	barroso	barroso	ADJ	ADJ	_	64	amod	_	TokenRange=445:452
+64	mentira	mentira	NOUN	NOUN	_	58	nsubj	_	TokenRange=453:460
+65	vossa	_	DET	DET	_	66	det:poss	_	TokenRange=461:466
+66	excelencia	excelencia	NOUN	NOUN	_	64	appos	_	TokenRange=467:477
+67	normalmente	normalmente	ADV	ADV	_	68	advmod	_	TokenRange=478:489
+68	trabalha	trabalhar	VERB	VERB	_	51	parataxis	_	TokenRange=490:498
+69	verdade	verdade	NOUN	NOUN	_	68	obj	_	TokenRange=499:506
+70	tomando	tomar	VERB	VERB	_	68	acl	_	TokenRange=507:514
+71	tempo	tempo	NOUN	NOUN	_	70	obj	_	TokenRange=515:520
+72	plenario	plenario	ADJ	ADJ	_	71	amod	_	TokenRange=521:529
+73	destilar	destilar	VERB	VERB	_	70	ccomp	_	TokenRange=530:538
+74	odio	odio	NOUN	NOUN	_	73	obj	_	TokenRange=539:543
+75	resto	resto	NOUN	NOUN	_	73	obj	_	TokenRange=544:549
+76	acompanha	acompanhar	VERB	VERB	_	0	root	_	TokenRange=550:559
+77	video	video	NOUN	NOUN	_	76	obj	_	TokenRange=560:565
+78	abaixo	abaixo	ADV	ADV	_	76	advmod	_	SpaceAfter=No|TokenRange=566:572
+

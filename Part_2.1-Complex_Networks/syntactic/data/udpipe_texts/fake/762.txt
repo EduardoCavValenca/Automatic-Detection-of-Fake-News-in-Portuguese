@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = coreia ignora todas advertencias internacionais dispara outro missil contra japao japao emitiu alerta emergencia missil voou sobre ilha norte coreia sul autoridades militares eua ainda analisando lancamento definir icbm nuclear reporter cbs mike dinow relatou residentes japoneses deslocados abrigos ataque aereo alarmes disparados emissora japonesa nhk acabou dizer norte parece disparado missil direcao regiao nordeste japao missil sobrevoou hokkaido volta 7 manha dia 15 horario local 1900h dia 14 horario brasilia informacoes seguir
+1	coreia	coreia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	ignora	ignorar	VERB	VERB	_	0	root	_	TokenRange=7:13
+3	todas	_	DET	DET	_	4	det	_	TokenRange=14:19
+4	advertencias	advertencia	NOUN	NOUN	_	2	obj	_	TokenRange=20:32
+5	internacionais	internacional	ADJ	ADJ	_	4	amod	_	TokenRange=33:47
+6	dispara	disparar	VERB	VERB	_	2	ccomp	_	TokenRange=48:55
+7	outro	_	DET	DET	_	8	det	_	TokenRange=56:61
+8	missil	missil	NOUN	NOUN	_	6	obj	_	TokenRange=62:68
+9	contra	_	ADP	ADP	_	10	case	_	TokenRange=69:75
+10	japao	japao	NOUN	NOUN	_	6	nmod	_	TokenRange=76:81
+11	japao	japao	ADJ	ADJ	_	12	amod	_	TokenRange=82:87
+12	emitiu	emitir	VERB	VERB	_	2	conj	_	TokenRange=88:94
+13	alerta	alerta	NOUN	NOUN	_	12	obj	_	TokenRange=95:101
+14	emergencia	emergencia	ADJ	ADJ	_	13	amod	_	TokenRange=102:112
+15	missil	missil	NOUN	NOUN	_	16	nsubj	_	TokenRange=113:119
+16	voou	voar	VERB	VERB	_	2	conj	_	TokenRange=120:124
+17	sobre	_	ADP	ADP	_	18	case	_	TokenRange=125:130
+18	ilha	ilha	NOUN	NOUN	_	16	nmod	_	TokenRange=131:135
+19	norte	norte	ADJ	ADJ	_	20	amod	_	TokenRange=136:141
+20	coreia	coreia	NOUN	NOUN	_	18	appos	_	TokenRange=142:148
+21	sul	sul	ADJ	ADJ	_	20	amod	_	TokenRange=149:152
+22	autoridades	autoridade	NOUN	NOUN	_	16	nsubj	_	TokenRange=153:164
+23	militares	militar	ADJ	ADJ	_	22	amod	_	TokenRange=165:174
+24	eua	_	PRON	PRON	_	22	appos	_	TokenRange=175:178
+25	ainda	ainda	ADV	ADV	_	26	advmod	_	TokenRange=179:184
+26	analisando	analisar	VERB	VERB	_	22	acl	_	TokenRange=185:195
+27	lancamento	lancamento	NOUN	NOUN	_	26	obj	_	TokenRange=196:206
+28	definir	definir	VERB	VERB	_	27	acl:inf	_	TokenRange=207:214
+29	icbm	icbm	NOUN	NOUN	_	28	obj	_	TokenRange=215:219
+30	nuclear	nuclear	ADJ	ADJ	_	29	amod	_	TokenRange=220:227
+31	reporter	reporter	NOUN	NOUN	_	29	appos	_	TokenRange=228:236
+32	cbs	_	NOUN	NOUN	_	31	appos	_	TokenRange=237:240
+33	mike	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=241:245
+34	dinow	_	NOUN	NOUN	_	33	flat	_	TokenRange=246:251
+35	relatou	relatar	VERB	VERB	_	26	conj	_	TokenRange=252:259
+36	residentes	residente	NOUN	NOUN	_	35	obj	_	TokenRange=260:270
+37	japoneses	japonês	ADJ	ADJ	_	36	amod	_	TokenRange=271:280
+38	deslocados	deslocado	ADJ	ADJ	_	36	amod	_	TokenRange=281:291
+39	abrigos	abrigo	ADJ	ADJ	_	40	amod	_	TokenRange=292:299
+40	ataque	ataque	NOUN	NOUN	_	36	appos	_	TokenRange=300:306
+41	aereo	aereo	ADJ	ADJ	_	40	amod	_	TokenRange=307:312
+42	alarmes	alarme	NOUN	NOUN	_	40	appos	_	TokenRange=313:320
+43	disparados	disparado	ADJ	ADJ	_	44	amod	_	TokenRange=321:331
+44	emissora	_	NOUN	NOUN	_	40	appos	_	TokenRange=332:340
+45	japonesa	japonês	ADJ	ADJ	_	44	amod	_	TokenRange=341:349
+46	nhk	_	PROPN	PNOUN	_	48	nsubj	_	TokenRange=350:353
+47	acabou	acabar	AUX	AUX	_	48	aux	_	TokenRange=354:360
+48	dizer	dizer	VERB	VERB	_	35	parataxis	_	TokenRange=361:366
+49	norte	norte	NOUN	NOUN	_	50	nsubj	_	TokenRange=367:372
+50	parece	parecer	VERB	VERB	_	48	ccomp	_	TokenRange=373:379
+51	disparado	disparado	ADJ	ADJ	_	52	amod	_	TokenRange=380:389
+52	missil	missil	NOUN	NOUN	_	50	nsubj	_	TokenRange=390:396
+53	direcao	direcao	NOUN	NOUN	_	50	parataxis	_	TokenRange=397:404
+54	regiao	regiao	NOUN	NOUN	_	50	nmod	_	TokenRange=405:411
+55	nordeste	nordeste	ADJ	ADJ	_	54	amod	_	TokenRange=412:420
+56	japao	japao	ADJ	ADJ	_	57	amod	_	TokenRange=421:426
+57	missil	missil	NOUN	NOUN	_	58	nsubj	_	TokenRange=427:433
+58	sobrevoou	sobrevoar	VERB	VERB	_	2	conj	_	TokenRange=434:443
+59	hokkaido	_	NOUN	NOUN	_	58	obj	_	TokenRange=444:452
+60	volta	volta	NOUN	NOUN	_	58	nmod	_	TokenRange=453:458
+61	7	_	NUM	NUM	NumType=Card	60	appos	_	TokenRange=459:460
+62	manha	manha	NOUN	NOUN	_	60	appos	_	TokenRange=461:466
+63	dia	dia	NOUN	NOUN	_	58	nmod	_	TokenRange=467:470
+64	15	_	NUM	NUM	NumType=Card	63	appos	_	TokenRange=471:473
+65	horario	horario	NOUN	NOUN	_	58	parataxis	_	TokenRange=474:481
+66	local	local	ADJ	ADJ	_	65	amod	_	TokenRange=482:487
+67	1900h	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=488:493
+68	dia	dia	NOUN	NOUN	_	65	nmod	_	TokenRange=494:497
+69	14	_	NUM	NUM	NumType=Card	68	nmod	_	TokenRange=498:500
+70	horario	horario	NOUN	NOUN	_	65	appos	_	TokenRange=501:508
+71	brasilia	brasilia	ADJ	ADJ	_	70	flat	_	TokenRange=509:517
+72	informacoes	informacoe	NOUN	NOUN	_	73	nsubj	_	TokenRange=518:529
+73	seguir	seguir	VERB	VERB	_	70	acl:relcl	_	SpaceAfter=No|TokenRange=530:536
+

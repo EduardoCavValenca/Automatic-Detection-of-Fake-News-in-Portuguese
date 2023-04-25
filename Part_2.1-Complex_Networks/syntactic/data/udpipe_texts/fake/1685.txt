@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nome ministro teori zavascki lista passageiros aviao caiu paraty agora tarde canal globo news acabou informar nome teori zavascki ministro stf constava lista passageiros aviao stf confirmou teori estaria passageiros embarcariam aeronave informado ministro chegou embarcar voo g1 informou aviao saiu paulo destino angra reis rj confirmado
+1	nome	nome	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:4
+2	ministro	ministro	NOUN	NOUN	_	1	flat	_	TokenRange=5:13
+3	teori	_	NOUN	NOUN	_	1	appos	_	TokenRange=14:19
+4	zavascki	_	NOUN	NOUN	_	1	appos	_	TokenRange=20:28
+5	lista	lista	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+6	passageiros	passageiro	NOUN	NOUN	_	5	flat	_	TokenRange=35:46
+7	aviao	aviao	NOUN	NOUN	_	5	flat	_	TokenRange=47:52
+8	caiu	cair	VERB	VERB	_	0	root	_	TokenRange=53:57
+9	paraty	_	NOUN	NOUN	_	8	nmod	_	TokenRange=58:64
+10	agora	agora	ADV	ADV	_	8	advmod	_	TokenRange=65:70
+11	tarde	tarde	ADV	ADV	_	8	advmod	_	TokenRange=71:76
+12	canal	canal	NOUN	NOUN	_	16	nsubj	_	TokenRange=77:82
+13	globo	globo	ADJ	ADJ	_	12	amod	_	TokenRange=83:88
+14	news	_	NOUN	NOUN	_	12	appos	_	TokenRange=89:93
+15	acabou	acabar	AUX	AUX	_	16	aux	_	TokenRange=94:100
+16	informar	informar	VERB	VERB	_	8	parataxis	_	TokenRange=101:109
+17	nome	nome	NOUN	NOUN	_	16	obj	_	TokenRange=110:114
+18	teori	_	NOUN	NOUN	_	17	appos	_	TokenRange=115:120
+19	zavascki	_	NOUN	NOUN	_	17	appos	_	TokenRange=121:129
+20	ministro	ministro	NOUN	NOUN	_	17	appos	_	TokenRange=130:138
+21	stf	_	NOUN	NOUN	_	20	appos	_	TokenRange=139:142
+22	constava	constar	VERB	VERB	_	1	acl:relcl	_	TokenRange=143:151
+23	lista	lista	NOUN	NOUN	_	22	obj	_	TokenRange=152:157
+24	passageiros	passageiro	NOUN	NOUN	_	23	amod	_	TokenRange=158:169
+25	aviao	aviao	NOUN	NOUN	_	27	nsubj	_	TokenRange=170:175
+26	stf	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=176:179
+27	confirmou	confirmar	VERB	VERB	_	23	acl:relcl	_	TokenRange=180:189
+28	teori	teori	NOUN	NOUN	_	27	obj	_	TokenRange=190:195
+29	estaria	estar	VERB	VERB	_	31	aux	_	TokenRange=196:203
+30	passageiros	passageiro	NOUN	NOUN	_	31	nsubj	_	TokenRange=204:215
+31	embarcariam	embarcar	VERB	VERB	_	27	ccomp	_	TokenRange=216:227
+32	aeronave	aeronave	NOUN	NOUN	_	31	obj	_	TokenRange=228:236
+33	informado	informar	ADJ	ADJ	_	32	amod	_	TokenRange=237:246
+34	ministro	ministro	NOUN	NOUN	_	35	nsubj	_	TokenRange=247:255
+35	chegou	chegar	VERB	VERB	_	31	aux	_	TokenRange=256:262
+36	embarcar	embarcar	VERB	VERB	_	35	xcomp	_	TokenRange=263:271
+37	voo	voo	NOUN	NOUN	_	36	obj	_	TokenRange=272:275
+38	g1	_	NUM	NUM	_	39	nsubj	_	TokenRange=276:278
+39	informou	informar	VERB	VERB	_	8	parataxis	_	TokenRange=279:287
+40	aviao	aviao	NOUN	NOUN	_	41	nsubj	_	TokenRange=288:293
+41	saiu	sair	VERB	VERB	_	39	ccomp	_	TokenRange=294:298
+42	paulo	_	NOUN	NOUN	_	41	nmod	_	TokenRange=299:304
+43	destino	destino	NOUN	NOUN	_	41	obj	_	TokenRange=305:312
+44	angra	angra	NOUN	NOUN	_	47	nmod	_	TokenRange=313:318
+45	reis	rei	NOUN	NOUN	_	44	flat	_	TokenRange=319:323
+46	rj	_	ADV	ADV	_	47	advmod	_	TokenRange=324:326
+47	confirmado	confirmar	VERB	VERB	_	39	conj	_	SpaceAfter=No|TokenRange=327:337
+

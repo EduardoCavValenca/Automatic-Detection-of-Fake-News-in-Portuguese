@@ -1,0 +1,21 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bovespa fecha alta nesta quinta exterior calmo fechar quartafeira 28 relativa estabilidade indicador
+1	bovespa	bovespa	NOUN	NOUN	_	0	root	_	TokenRange=0:7
+2	fecha	fecha	NOUN	NOUN	_	1	appos	_	TokenRange=8:13
+3	alta	alto	ADJ	ADJ	_	2	amod	_	TokenRange=14:18
+4	nesta	_	ADP	ADP	_	5	case	_	TokenRange=19:24
+5	quinta	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=25:31
+6	exterior	exterior	ADJ	ADJ	_	5	amod	_	TokenRange=32:40
+7	calmo	calmo	NOUN	NOUN	_	8	nsubj	_	TokenRange=41:46
+8	fechar	fechar	VERB	VERB	_	1	nmod	_	TokenRange=47:53
+9	quartafeira	_	NOUN	NOUN	_	8	obj	_	TokenRange=54:65
+10	28	_	NUM	NUM	NumType=Card	9	appos	_	TokenRange=66:68
+11	relativa	relativo	ADJ	ADJ	_	12	amod	_	TokenRange=69:77
+12	estabilidade	estabilidade	NOUN	NOUN	_	8	obj	_	TokenRange=78:90
+13	indicador	indicador	ADJ	ADJ	_	12	amod	_	SpaceAfter=No|TokenRange=91:100
+

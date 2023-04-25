@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = homem ateia fogo proprio corpo frente palacio planalto corpo bombeiros df socorreu manha hoje 10 homem 80 corpo queimado segundo informacoes correio braziliense homem ainda identificado frente palacio planalto ateado fogo contra proprio corpo testemunhas disseram tudo aconteceu rapido cidadao transportado hospital regional asa norte pm ainda apurando motivo levado homem cometer ato
+1	homem	homem	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:5
+2	ateia	ateio	ADJ	ADJ	_	1	amod	_	TokenRange=6:11
+3	fogo	fogo	NOUN	NOUN	_	1	appos	_	TokenRange=12:16
+4	proprio	proprio	ADJ	ADJ	_	5	amod	_	TokenRange=17:24
+5	corpo	corpo	NOUN	NOUN	_	1	appos	_	TokenRange=25:30
+6	frente	frente	NOUN	NOUN	_	5	appos	_	TokenRange=31:37
+7	palacio	palacio	NOUN	NOUN	_	6	nmod	_	TokenRange=38:45
+8	planalto	planalto	ADJ	ADJ	_	7	amod	_	TokenRange=46:54
+9	corpo	corpo	NOUN	NOUN	_	1	appos	_	TokenRange=55:60
+10	bombeiros	bombeiro	NOUN	NOUN	_	9	flat	_	TokenRange=61:70
+11	df	_	NOUN	NOUN	_	9	appos	_	TokenRange=71:73
+12	socorreu	socorrer	VERB	VERB	_	0	root	_	TokenRange=74:82
+13	manha	manha	NOUN	NOUN	_	12	obj	_	TokenRange=83:88
+14	hoje	hoje	ADV	ADV	_	12	advmod	_	TokenRange=89:93
+15	10	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=94:96
+16	homem	homem	NOUN	NOUN	_	12	obj	_	TokenRange=97:102
+17	80	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=103:105
+18	corpo	corpo	NOUN	NOUN	_	16	appos	_	TokenRange=106:111
+19	queimado	queimar	VERB	VERB	_	18	acl	_	TokenRange=112:120
+20	segundo	_	ADP	ADP	_	21	case	_	TokenRange=121:128
+21	informacoes	informacoe	NOUN	NOUN	_	19	nmod	_	TokenRange=129:140
+22	correio	correio	NOUN	NOUN	_	21	appos	_	TokenRange=141:148
+23	braziliense	braziliense	ADJ	ADJ	_	22	amod	_	TokenRange=149:160
+24	homem	homem	NOUN	NOUN	_	21	appos	_	TokenRange=161:166
+25	ainda	ainda	ADV	ADV	_	26	advmod	_	TokenRange=167:172
+26	identificado	identificar	VERB	VERB	_	24	acl	_	TokenRange=173:185
+27	frente	frente	NOUN	NOUN	_	26	nmod	_	TokenRange=186:192
+28	palacio	palacio	NOUN	NOUN	_	27	appos	_	TokenRange=193:200
+29	planalto	planalto	ADJ	ADJ	_	28	amod	_	TokenRange=201:209
+30	ateado	atear	VERB	VERB	_	28	acl	_	TokenRange=210:216
+31	fogo	fogo	NOUN	NOUN	_	30	nsubj	_	TokenRange=217:221
+32	contra	_	ADP	ADP	_	34	case	_	TokenRange=222:228
+33	proprio	proprio	ADJ	ADJ	_	34	amod	_	TokenRange=229:236
+34	corpo	corpo	NOUN	NOUN	_	31	nmod	_	TokenRange=237:242
+35	testemunhas	testemunha	NOUN	NOUN	_	36	nsubj	_	TokenRange=243:254
+36	disseram	dizer	VERB	VERB	_	12	parataxis	_	TokenRange=255:263
+37	tudo	_	PRON	PRON	_	38	nsubj	_	TokenRange=264:268
+38	aconteceu	acontecer	VERB	VERB	_	36	ccomp	_	TokenRange=269:278
+39	rapido	rapido	ADJ	ADJ	_	38	advmod	_	TokenRange=279:285
+40	cidadao	cidadao	NOUN	NOUN	_	38	nsubj	_	TokenRange=286:293
+41	transportado	transportar	VERB	VERB	_	42	acl	_	TokenRange=294:306
+42	hospital	hospital	NOUN	NOUN	_	40	appos	_	TokenRange=307:315
+43	regional	regional	ADJ	ADJ	_	42	amod	_	TokenRange=316:324
+44	asa	asa	NOUN	NOUN	_	42	appos	_	TokenRange=325:328
+45	norte	norte	ADJ	ADJ	_	44	amod	_	TokenRange=329:334
+46	pm	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=335:337
+47	ainda	ainda	ADV	ADV	_	48	advmod	_	TokenRange=338:343
+48	apurando	apurar	VERB	VERB	_	38	acl	_	TokenRange=344:352
+49	motivo	motivo	NOUN	NOUN	_	48	obj	_	TokenRange=353:359
+50	levado	levar	VERB	VERB	_	49	acl	_	TokenRange=360:366
+51	homem	homem	NOUN	NOUN	_	52	nsubj	_	TokenRange=367:372
+52	cometer	cometer	VERB	VERB	_	48	ccomp	_	TokenRange=373:380
+53	ato	ato	NOUN	NOUN	_	52	obj	_	SpaceAfter=No|TokenRange=381:384
+

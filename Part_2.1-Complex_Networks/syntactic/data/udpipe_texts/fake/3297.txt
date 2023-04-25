@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma convida pablo escobar compor conselhao governo governo acredita ator importante trabalho sociedade pode contribuir propostas pais dilma decidiu ressucitar conselhao cuja ultima reuniao sido primeiro semestre 2014 dica vice michel temer convidados empresarios personalidades abilio diniz luiza trajano neurocientista petista miguel exoesqueleto nicolelis portal g1 confirmou informa ator aceitado convite
+1	dilma	dilma	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	convida	convidar	VERB	VERB	_	47	ccomp	_	TokenRange=6:13
+3	pablo	pablo	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	escobar	escobar	NOUN	NOUN	_	3	flat	_	TokenRange=20:27
+5	compor	compor	VERB	VERB	_	2	xcomp	_	TokenRange=28:34
+6	conselhao	conselhao	NOUN	NOUN	_	5	obj	_	TokenRange=35:44
+7	governo	governo	NOUN	NOUN	_	6	amod	_	TokenRange=45:52
+8	governo	governo	NOUN	NOUN	_	9	nsubj	_	TokenRange=53:60
+9	acredita	acreditar	VERB	VERB	_	2	conj	_	TokenRange=61:69
+10	ator	ator	NOUN	NOUN	_	9	obj	_	TokenRange=70:74
+11	importante	importante	ADJ	ADJ	_	12	amod	_	TokenRange=75:85
+12	trabalho	trabalho	NOUN	NOUN	_	9	nsubj	_	TokenRange=86:94
+13	sociedade	sociedade	NOUN	NOUN	_	12	amod	_	TokenRange=95:104
+14	pode	_	AUX	AUX	_	15	aux	_	TokenRange=105:109
+15	contribuir	contribuir	VERB	VERB	_	2	conj	_	TokenRange=110:120
+16	propostas	_	NOUN	NOUN	_	15	obj	_	TokenRange=121:130
+17	pais	_	ADJ	ADJ	_	16	amod	_	TokenRange=131:135
+18	dilma	dilma	NOUN	NOUN	_	19	nsubj	_	TokenRange=136:141
+19	decidiu	decidir	VERB	VERB	_	2	conj	_	TokenRange=142:149
+20	ressucitar	ressucitar	VERB	VERB	_	19	xcomp	_	TokenRange=150:160
+21	conselhao	conselhao	NOUN	NOUN	_	20	obj	_	TokenRange=161:170
+22	cuja	_	DET	DET	_	24	det	_	TokenRange=171:175
+23	ultima	_	ADJ	ADJ	_	24	amod	_	TokenRange=176:182
+24	reuniao	reuniao	NOUN	NOUN	_	27	nsubj	_	TokenRange=183:190
+25	sido	ser	AUX	AUX	_	27	cop	_	TokenRange=191:195
+26	primeiro	primeiro	ADJ	ADJ	_	27	amod	_	TokenRange=196:204
+27	semestre	semestre	NOUN	NOUN	_	21	acl:relcl	_	TokenRange=205:213
+28	2014	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=214:218
+29	dica	dica	NOUN	NOUN	_	27	parataxis	_	TokenRange=219:223
+30	vice	vice	NOUN	NOUN	_	29	obj	_	TokenRange=224:228
+31	michel	michel	ADJ	NOUN	_	30	appos	_	TokenRange=229:235
+32	temer	temer	NOUN	NOUN	_	30	flat	_	TokenRange=236:241
+33	convidados	convidado	ADJ	NOUN	_	30	amod	_	TokenRange=242:252
+34	empresarios	empresario	NOUN	NOUN	_	33	amod	_	TokenRange=253:264
+35	personalidades	personalidade	NOUN	NOUN	_	33	appos	_	TokenRange=265:279
+36	abilio	abilio	NOUN	NOUN	_	35	appos	_	TokenRange=280:286
+37	diniz	diniz	NOUN	NOUN	_	36	flat	_	TokenRange=287:292
+38	luiza	_	NOUN	NOUN	_	36	flat	_	TokenRange=293:298
+39	trajano	trajano	NOUN	NOUN	_	36	flat	_	TokenRange=299:306
+40	neurocientista	neurocientista	ADJ	ADJ	_	38	amod	_	TokenRange=307:321
+41	petista	petista	NOUN	NOUN	_	36	amod	_	TokenRange=322:329
+42	miguel	miguel	ADJ	ADJ	_	43	amod	_	TokenRange=330:336
+43	exoesqueleto	exoesqueleto	NOUN	NOUN	_	41	amod	_	TokenRange=337:349
+44	nicolelis	_	NOUN	NOUN	_	43	amod	_	TokenRange=350:359
+45	portal	portal	NOUN	NOUN	_	43	appos	_	TokenRange=360:366
+46	g1	_	PROPN	PNOUN	_	45	appos	_	TokenRange=367:369
+47	confirmou	confirmar	VERB	VERB	_	0	root	_	TokenRange=370:379
+48	informa	informa	NOUN	NOUN	_	47	obj	_	TokenRange=380:387
+49	ator	ator	NOUN	NOUN	_	48	flat	_	TokenRange=388:392
+50	aceitado	aceitar	VERB	VERB	_	48	acl	_	TokenRange=393:401
+51	convite	convite	NOUN	NOUN	_	50	obj	_	SpaceAfter=No|TokenRange=402:409
+

@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = camara deputados oito expresidentes citados lavajato alem rodrigo maia atual presidente casa povo outros 7 expresidentes casa aparecem citacoes lava jato eduardo cunha pmdbrj 2015 2016 henrique eduardo alves pmdbrn 2013 2014 marco maia ptrs 2011 2012 michel temer pmdb 2009 2010 aldo rebelo pcdobam 2005 2007 aecio neves psdbmg 2001 2002 luis eduardo magalhaesdemba falecido 1995 1997
+1	camara	camara	NOUN	NOUN	_	18	parataxis	_	TokenRange=0:6
+2	deputados	deputado	NOUN	NOUN	_	1	flat	_	TokenRange=7:16
+3	oito	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=17:21
+4	expresidentes	expresidente	NOUN	NOUN	_	1	appos	_	TokenRange=22:35
+5	citados	citar	VERB	VERB	_	4	acl	_	TokenRange=36:43
+6	lavajato	_	NOUN	NOUN	_	5	xcomp	_	TokenRange=44:52
+7	alem	alem	ADV	ADV	_	5	advmod	_	TokenRange=53:57
+8	rodrigo	_	X	NOUN	_	6	appos	_	TokenRange=58:65
+9	maia	maia	NOUN	NOUN	_	8	flat	_	TokenRange=66:70
+10	atual	atual	ADJ	ADJ	_	11	amod	_	TokenRange=71:76
+11	presidente	presidente	NOUN	NOUN	_	5	obj	_	TokenRange=77:87
+12	casa	casa	NOUN	NOUN	_	11	appos	_	TokenRange=88:92
+13	povo	povo	ADJ	ADJ	_	12	amod	_	TokenRange=93:97
+14	outros	_	DET	DET	_	16	det	_	TokenRange=98:104
+15	7	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=105:106
+16	expresidentes	expresidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=107:120
+17	casa	casa	NOUN	NOUN	_	16	appos	_	TokenRange=121:125
+18	aparecem	aparecer	VERB	VERB	_	0	root	_	TokenRange=126:134
+19	citacoes	citacoe	NOUN	NOUN	_	18	obj	_	TokenRange=135:143
+20	lava	_	NOUN	NOUN	_	18	parataxis	_	TokenRange=144:148
+21	jato	jato	NOUN	NOUN	_	20	flat	_	TokenRange=149:153
+22	eduardo	_	PROPN	NOUN	_	20	appos	_	TokenRange=154:161
+23	cunha	_	PROPN	PNOUN	_	22	flat	_	TokenRange=162:167
+24	pmdbrj	_	NOUN	NOUN	_	22	flat	_	TokenRange=168:174
+25	2015	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=175:179
+26	2016	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=180:184
+27	henrique	henrique	NOUN	NOUN	_	20	appos	_	TokenRange=185:193
+28	eduardo	eduardo	NOUN	NOUN	_	27	flat	_	TokenRange=194:201
+29	alves	_	NOUN	NOUN	_	27	flat	_	TokenRange=202:207
+30	pmdbrn	_	NOUN	NOUN	_	27	appos	_	TokenRange=208:214
+31	2013	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=215:219
+32	2014	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=220:224
+33	marco	marco	NOUN	NOUN	_	27	appos	_	TokenRange=225:230
+34	maia	maia	NOUN	NOUN	_	33	flat	_	TokenRange=231:235
+35	ptrs	_	NOUN	NOUN	_	33	appos	_	TokenRange=236:240
+36	2011	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=241:245
+37	2012	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=246:250
+38	michel	michel	ADJ	ADJ	_	39	amod	_	TokenRange=251:257
+39	temer	temer	NOUN	NOUN	_	33	appos	_	TokenRange=258:263
+40	pmdb	_	NOUN	NOUN	_	39	appos	_	TokenRange=264:268
+41	2009	_	NUM	NUM	NumType=Card	40	nmod	_	TokenRange=269:273
+42	2010	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=274:278
+43	aldo	aldo	NOUN	NOUN	_	39	appos	_	TokenRange=279:283
+44	rebelo	rebelo	ADJ	NOUN	_	43	flat	_	TokenRange=284:290
+45	pcdobam	_	NOUN	NOUN	_	43	appos	_	TokenRange=291:298
+46	2005	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=299:303
+47	2007	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=304:308
+48	aecio	_	NOUN	NOUN	_	43	appos	_	TokenRange=309:314
+49	neves	_	ADJ	ADJ	_	48	flat	_	TokenRange=315:320
+50	psdbmg	_	NOUN	NOUN	_	48	flat	_	TokenRange=321:327
+51	2001	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=328:332
+52	2002	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=333:337
+53	luis	_	NOUN	NOUN	_	48	appos	_	TokenRange=338:342
+54	eduardo	eduardo	ADJ	ADJ	_	53	flat	_	TokenRange=343:350
+55	magalhaesdemba	_	PROPN	PNOUN	_	53	flat	_	TokenRange=351:365
+56	falecido	falecer	VERB	VERB	_	53	acl	_	TokenRange=366:374
+57	1995	_	NUM	NUM	NumType=Card	56	nmod	_	TokenRange=375:379
+58	1997	_	NUM	NUM	NumType=Card	56	nmod	_	SpaceAfter=No|TokenRange=380:384
+

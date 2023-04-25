@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = the economist governo trump tao ruim pinta presidente parece louco eleito deve avaliado realmente fez agora mal quase ano donald trump presidencia eua beliscar encontrar sentido tudo fogo furia livro michael wolff sobre mexericos casa branca lider mundo livre
+1	the	_	DET	DET	_	2	det	_	TokenRange=0:3
+2	economist	economist	NOUN	NOUN	_	9	nsubj	_	TokenRange=4:13
+3	governo	governo	NOUN	NOUN	_	2	appos	_	TokenRange=14:21
+4	trump	trump	ADJ	ADJ	_	3	amod	_	TokenRange=22:27
+5	tao	tao	ADV	ADV	_	6	advmod	_	TokenRange=28:31
+6	ruim	ruim	ADJ	ADJ	_	3	amod	_	TokenRange=32:36
+7	pinta	_	ADJ	ADJ	_	8	amod	_	TokenRange=37:42
+8	presidente	presidente	NOUN	NOUN	_	9	nsubj	_	TokenRange=43:53
+9	parece	parecer	VERB	VERB	_	0	root	_	TokenRange=54:60
+10	louco	louco	ADJ	ADJ	_	11	amod	_	TokenRange=61:66
+11	eleito	eleito	NOUN	NOUN	_	9	xcomp	_	TokenRange=67:73
+12	deve	dever	AUX	AUX	_	13	aux	_	TokenRange=74:78
+13	avaliado	avaliar	VERB	VERB	_	9	conj	_	TokenRange=79:87
+14	realmente	realmente	ADV	ADV	_	15	advmod	_	TokenRange=88:97
+15	fez	fazer	VERB	VERB	_	13	conj	_	TokenRange=98:101
+16	agora	agora	ADV	ADV	_	15	advmod	_	TokenRange=102:107
+17	mal	mal	ADV	ADV	_	15	advmod	_	TokenRange=108:111
+18	quase	quase	ADV	ADV	_	19	advmod	_	TokenRange=112:117
+19	ano	ano	NOUN	NOUN	_	15	nmod	_	TokenRange=118:121
+20	donald	_	ADJ	ADJ	_	19	amod	_	TokenRange=122:128
+21	trump	_	NOUN	NOUN	_	20	flat	_	TokenRange=129:134
+22	presidencia	presidencia	NOUN	NOUN	_	20	flat	_	TokenRange=135:146
+23	eua	_	PRON	PRON	_	24	nsubj	_	TokenRange=147:150
+24	beliscar	beliscar	VERB	VERB	_	22	acl:relcl	_	TokenRange=151:159
+25	encontrar	encontrar	VERB	VERB	_	24	xcomp	_	TokenRange=160:169
+26	sentido	sentido	NOUN	NOUN	_	25	obj	_	TokenRange=170:177
+27	tudo	_	PRON	PRON	_	28	det	_	TokenRange=178:182
+28	fogo	fogo	NOUN	NOUN	_	26	appos	_	TokenRange=183:187
+29	furia	furia	ADJ	ADJ	_	28	amod	_	TokenRange=188:193
+30	livro	livro	NOUN	NOUN	_	15	nsubj	_	TokenRange=194:199
+31	michael	_	NOUN	NOUN	_	30	appos	_	TokenRange=200:207
+32	wolff	_	X	NOUN	_	31	flat	_	TokenRange=208:213
+33	sobre	_	ADP	ADP	_	35	case	_	TokenRange=214:219
+34	mexericos	mexerico	NOUN	NOUN	_	35	nmod	_	TokenRange=220:229
+35	casa	casa	NOUN	NOUN	_	30	nmod	_	TokenRange=230:234
+36	branca	branco	ADJ	ADJ	_	35	amod	_	TokenRange=235:241
+37	lider	lider	ADJ	ADJ	_	35	amod	_	TokenRange=242:247
+38	mundo	mundo	NOUN	NOUN	_	30	appos	_	TokenRange=248:253
+39	livre	livre	ADJ	ADJ	_	38	amod	_	SpaceAfter=No|TokenRange=254:259
+

@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dois pesos duas medidas nesta semana levy fidelix multado pratica discriminacao homofobica devera pagar r 25000 feito declaracoes homofobicas durante debate eleicoes 2014 aparelho excretor reproduz disse fidelix pode pai familia avo ficar aqui escorado porque medo perder voto disse fidelix agora ouca abaixo lula disse campanha 2001 dialogo lula pergunta pelotas cidade polo ne exportadora viado
+1	dois	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:4
+2	pesos	peso	NOUN	NOUN	_	14	nsubj	_	TokenRange=5:10
+3	duas	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=11:15
+4	medidas	medida	NOUN	NOUN	_	14	nsubj	_	TokenRange=16:23
+5	nesta	_	ADP	ADP	_	6	case	_	TokenRange=24:29
+6	semana	semana	NOUN	NOUN	_	14	nmod	_	TokenRange=30:36
+7	levy	levy	NOUN	NOUN	_	14	nsubj	_	TokenRange=37:41
+8	fidelix	_	NOUN	NOUN	_	7	flat	_	TokenRange=42:49
+9	multado	multar	VERB	VERB	_	7	acl	_	TokenRange=50:57
+10	pratica	_	ADJ	ADJ	_	11	amod	_	TokenRange=58:65
+11	discriminacao	discriminacao	NOUN	NOUN	_	9	obj	_	TokenRange=66:79
+12	homofobica	homofobico	ADJ	ADJ	_	11	amod	_	TokenRange=80:90
+13	devera	dever	AUX	AUX	_	14	aux	_	TokenRange=91:97
+14	pagar	pagar	VERB	VERB	_	0	root	_	TokenRange=98:103
+15	r	r	NOUN	NOUN	_	14	obj	_	TokenRange=104:105
+16	25000	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=106:111
+17	feito	_	VERB	VERB	_	14	acl	_	TokenRange=112:117
+18	declaracoes	declaracoe	NOUN	NOUN	_	17	obj	_	TokenRange=118:129
+19	homofobicas	homofobico	ADJ	ADJ	_	18	amod	_	TokenRange=130:141
+20	durante	_	ADP	ADP	_	21	case	_	TokenRange=142:149
+21	debate	debate	NOUN	NOUN	_	14	nmod	_	TokenRange=150:156
+22	eleicoes	eleicoe	NOUN	NOUN	_	21	appos	_	TokenRange=157:165
+23	2014	_	NUM	NUM	NumType=Card	24	nmod	_	TokenRange=166:170
+24	aparelho	aparelho	NOUN	NOUN	_	21	appos	_	TokenRange=171:179
+25	excretor	excretor	ADJ	ADJ	_	24	amod	_	TokenRange=180:188
+26	reproduz	reproduzir	NOUN	NOUN	_	24	appos	_	TokenRange=189:197
+27	disse	dizer	VERB	VERB	_	14	parataxis	_	TokenRange=198:203
+28	fidelix	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=204:211
+29	pode	_	AUX	AUX	_	30	aux	_	TokenRange=212:216
+30	pai	pai	NOUN	NOUN	_	27	ccomp	_	TokenRange=217:220
+31	familia	familia	NOUN	NOUN	_	30	flat	_	TokenRange=221:228
+32	avo	avo	NOUN	NOUN	_	30	flat	_	TokenRange=229:232
+33	ficar	ficar	VERB	VERB	_	30	acl:relcl	_	TokenRange=233:238
+34	aqui	aqui	ADV	ADV	_	35	advmod	_	TokenRange=239:243
+35	escorado	escorado	ADJ	ADJ	_	33	xcomp	_	TokenRange=244:252
+36	porque	_	CCONJ	CONJ	_	37	mark	_	TokenRange=253:259
+37	medo	medo	VERB	NOUN	_	33	advcl	_	TokenRange=260:264
+38	perder	perder	VERB	VERB	_	37	xcomp	_	TokenRange=265:271
+39	voto	voto	NOUN	NOUN	_	38	obj	_	TokenRange=272:276
+40	disse	dizer	VERB	VERB	_	33	parataxis	_	TokenRange=277:282
+41	fidelix	fidelix	NOUN	NOUN	_	40	nsubj	_	TokenRange=283:290
+42	agora	agora	ADV	ADV	_	43	advmod	_	TokenRange=291:296
+43	ouca	oucar	VERB	VERB	_	40	ccomp	_	TokenRange=297:301
+44	abaixo	abaixo	ADV	ADV	_	43	advmod	_	TokenRange=302:308
+45	lula	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=309:313
+46	disse	dizer	VERB	VERB	_	40	ccomp	_	TokenRange=314:319
+47	campanha	campanha	NOUN	NOUN	_	46	obj	_	TokenRange=320:328
+48	2001	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=329:333
+49	dialogo	dialogo	NOUN	NOUN	_	47	appos	_	TokenRange=334:341
+50	lula	lula	NOUN	NOUN	_	47	appos	_	TokenRange=342:346
+51	pergunta	perguntar	VERB	VERB	_	46	parataxis	_	TokenRange=347:355
+52	pelotas	pelota	NOUN	NOUN	_	51	obj	_	TokenRange=356:363
+53	cidade	cidade	NOUN	NOUN	_	51	obj	_	TokenRange=364:370
+54	polo	polo	NOUN	NOUN	_	53	flat	_	TokenRange=371:375
+55	ne	_	CCONJ	CONJ	_	56	cc	_	TokenRange=376:378
+56	exportadora	exportador	NOUN	NOUN	_	53	conj	_	TokenRange=379:390
+57	viado	viar	VERB	VERB	_	56	acl	_	SpaceAfter=No|TokenRange=391:396
+

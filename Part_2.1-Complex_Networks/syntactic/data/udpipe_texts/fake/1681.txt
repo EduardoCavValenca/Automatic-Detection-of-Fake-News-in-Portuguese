@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = redes sociais joaquim barbosa cobrou investigacoes sobre morte teori noite ontem 19 joaquim barbosa emitiu opiniao sobre tragico acidente aereo vitimou ministro teori zavascki relator lavajato abre aspas precisa acontecer definitivamente conscientizarmos sendo governados criminosos confirmado crime hora min carmen lucia pedir intervencao fecha aspas leia
+1	redes	rede	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	sociais	social	ADJ	ADJ	_	1	amod	_	TokenRange=6:13
+3	joaquim	joaquim	NOUN	NOUN	_	5	nsubj	_	TokenRange=14:21
+4	barbosa	barboso	NOUN	NOUN	_	3	flat	_	TokenRange=22:29
+5	cobrou	cobrar	VERB	VERB	_	0	root	_	TokenRange=30:36
+6	investigacoes	investigacoe	NOUN	NOUN	_	5	obj	_	TokenRange=37:50
+7	sobre	_	ADP	ADP	_	8	case	_	TokenRange=51:56
+8	morte	morte	NOUN	NOUN	_	6	nmod	_	TokenRange=57:62
+9	teori	_	NOUN	NOUN	_	8	appos	_	TokenRange=63:68
+10	noite	noite	NOUN	NOUN	_	8	appos	_	TokenRange=69:74
+11	ontem	ontem	ADV	ADV	_	15	advmod	_	TokenRange=75:80
+12	19	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=81:83
+13	joaquim	joaquim	NOUN	NOUN	_	15	nsubj	_	TokenRange=84:91
+14	barbosa	barbosa	NOUN	NOUN	_	13	flat	_	TokenRange=92:99
+15	emitiu	emitir	VERB	VERB	_	5	parataxis	_	TokenRange=100:106
+16	opiniao	opiniao	NOUN	NOUN	_	15	obj	_	TokenRange=107:114
+17	sobre	_	ADP	ADP	_	19	case	_	TokenRange=115:120
+18	tragico	tragico	ADJ	ADJ	_	19	amod	_	TokenRange=121:128
+19	acidente	acidente	NOUN	NOUN	_	16	nmod	_	TokenRange=129:137
+20	aereo	aereo	ADJ	ADJ	_	19	amod	_	TokenRange=138:143
+21	vitimou	vitimar	VERB	VERB	_	15	parataxis	_	TokenRange=144:151
+22	ministro	ministro	NOUN	NOUN	_	21	nsubj	_	TokenRange=152:160
+23	teori	_	NOUN	NOUN	_	22	appos	_	TokenRange=161:166
+24	zavascki	_	NOUN	NOUN	_	22	appos	_	TokenRange=167:175
+25	relator	relator	NOUN	NOUN	_	22	appos	_	TokenRange=176:183
+26	lavajato	lavajato	NOUN	NOUN	_	27	nsubj	_	TokenRange=184:192
+27	abre	abrir	VERB	VERB	_	21	parataxis	_	TokenRange=193:197
+28	aspas	aspa	NOUN	NOUN	_	27	nsubj	_	TokenRange=198:203
+29	precisa	precisar	VERB	VERB	_	5	parataxis	_	TokenRange=204:211
+30	acontecer	acontecer	VERB	VERB	_	29	xcomp	_	TokenRange=212:221
+31	definitivamente	definitivamente	ADV	ADV	_	30	advmod	_	TokenRange=222:237
+32	conscientizarmos	conscientizar	VERB	VERB	_	30	ccomp	_	TokenRange=238:254
+33	sendo	ser	AUX	AUX	_	34	aux:pass	_	TokenRange=255:260
+34	governados	governar	VERB	VERB	_	32	xcomp	_	TokenRange=261:271
+35	criminosos	criminoso	NOUN	NOUN	_	34	nsubj:pass	_	TokenRange=272:282
+36	confirmado	confirmar	VERB	VERB	_	35	acl	_	TokenRange=283:293
+37	crime	crime	NOUN	NOUN	_	34	nsubj:pass	_	TokenRange=294:299
+38	hora	hora	NOUN	NOUN	_	42	nsubj	_	TokenRange=300:304
+39	min	_	NUM	NUM	_	38	appos	_	TokenRange=305:308
+40	carmen	carmen	NOUN	NOUN	_	42	nsubj	_	TokenRange=309:315
+41	lucia	_	ADJ	ADJ	_	40	flat	_	TokenRange=316:321
+42	pedir	pedir	VERB	VERB	_	29	conj	_	TokenRange=322:327
+43	intervencao	intervencao	NOUN	NOUN	_	46	obj	_	TokenRange=328:339
+44	fecha	fecho	ADJ	ADJ	_	43	amod	_	TokenRange=340:345
+45	aspas	aspas	NOUN	NOUN	_	46	nsubj	_	TokenRange=346:351
+46	leia	ler	VERB	VERB	_	42	parataxis	_	SpaceAfter=No|TokenRange=352:356
+

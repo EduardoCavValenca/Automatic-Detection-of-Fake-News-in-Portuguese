@@ -1,0 +1,25 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = hospital base transforma rio preto referencia medica pais ano complexo faz quase 650 mil atendimentos ainda hospital
+1	hospital	hospital	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:8
+2	base	base	NOUN	NOUN	_	1	flat	_	TokenRange=9:13
+3	transforma	transformar	VERB	VERB	_	1	acl	_	TokenRange=14:24
+4	rio	rio	NOUN	NOUN	_	1	appos	_	TokenRange=25:28
+5	preto	preto	ADJ	ADJ	_	4	amod	_	TokenRange=29:34
+6	referencia	referencia	NOUN	NOUN	_	1	appos	_	TokenRange=35:45
+7	medica	medico	ADJ	ADJ	_	6	amod	_	TokenRange=46:52
+8	pais	_	NOUN	NOUN	_	9	amod	_	TokenRange=53:57
+9	ano	ano	NOUN	NOUN	_	6	nmod	_	TokenRange=58:61
+10	complexo	complexo	ADJ	ADJ	_	9	amod	_	TokenRange=62:70
+11	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=71:74
+12	quase	quase	ADV	ADV	_	14	advmod	_	TokenRange=75:80
+13	650	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=81:84
+14	mil	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=85:88
+15	atendimentos	atendimento	NOUN	NOUN	_	11	obj	_	TokenRange=89:101
+16	ainda	ainda	ADV	ADV	_	17	advmod	_	TokenRange=102:107
+17	hospital	hospital	NOUN	NOUN	_	11	obj	_	SpaceAfter=No|TokenRange=108:116
+

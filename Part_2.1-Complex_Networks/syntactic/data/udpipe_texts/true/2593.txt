@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = intervencao federal rj 1 desde constituicao 1988 entao forcas armadas atuavam conjunto governo estadual embora forcas armadas atuado diversos estados ultimos anos intervencao federal seguranca publica rio janeiro anunciada nesta sextafeira 16 primeira desde promulgacao constituicao 1988 ferramenta utilizada operacoes deste tipo garantia lei ordem glo menos invasiva autonomia politica administrativa localidade configurada parceria ocorreu
+1	intervencao	intervencao	NOUN	NOUN	_	11	parataxis	_	TokenRange=0:11
+2	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=12:19
+3	rj	_	NOUN	NOUN	_	1	appos	_	TokenRange=20:22
+4	1	_	NUM	NUM	NumType=Card	3	appos	_	TokenRange=23:24
+5	desde	_	ADP	ADP	_	6	case	_	TokenRange=25:30
+6	constituicao	constituicao	NOUN	NOUN	_	1	nmod	_	TokenRange=31:43
+7	1988	_	NUM	NUM	NumType=Card	6	nmod	_	TokenRange=44:48
+8	entao	entao	ADV	ADV	_	9	advmod	_	TokenRange=49:54
+9	forcas	forca	NOUN	NOUN	_	11	nsubj	_	TokenRange=55:61
+10	armadas	armado	ADJ	ADJ	_	9	amod	_	TokenRange=62:69
+11	atuavam	atuar	VERB	VERB	_	0	root	_	TokenRange=70:77
+12	conjunto	conjunto	ADJ	ADJ	_	11	xcomp	_	TokenRange=78:86
+13	governo	governo	NOUN	NOUN	_	11	obj	_	TokenRange=87:94
+14	estadual	estadual	ADJ	ADJ	_	13	amod	_	TokenRange=95:103
+15	embora	_	CCONJ	CONJ	_	18	mark	_	TokenRange=104:110
+16	forcas	forca	NOUN	NOUN	_	18	nsubj	_	TokenRange=111:117
+17	armadas	armado	ADJ	ADJ	_	16	amod	_	TokenRange=118:125
+18	atuado	atuar	VERB	VERB	_	11	advcl	_	TokenRange=126:132
+19	diversos	_	DET	DET	_	20	det	_	TokenRange=133:141
+20	estados	estado	NOUN	NOUN	_	18	obj	_	TokenRange=142:149
+21	ultimos	ultimo	ADJ	ADJ	_	22	amod	_	TokenRange=150:157
+22	anos	ano	NOUN	NOUN	_	18	nmod	_	TokenRange=158:162
+23	intervencao	intervencao	NOUN	NOUN	_	18	obj	_	TokenRange=163:174
+24	federal	federal	ADJ	ADJ	_	23	amod	_	TokenRange=175:182
+25	seguranca	_	NOUN	NOUN	_	23	appos	_	TokenRange=183:192
+26	publica	publico	ADJ	ADJ	_	23	amod	_	TokenRange=193:200
+27	rio	_	NOUN	NOUN	_	23	appos	_	TokenRange=201:204
+28	janeiro	_	PROPN	PNOUN	_	27	flat	_	TokenRange=205:212
+29	anunciada	anunciar	VERB	VERB	_	23	acl	_	TokenRange=213:222
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=223:228
+31	sextafeira	sextafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=229:239
+32	16	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=240:242
+33	primeira	primeiro	ADJ	ADJ	_	31	amod	_	TokenRange=243:251
+34	desde	_	ADP	ADP	_	35	case	_	TokenRange=252:257
+35	promulgacao	promulgacao	NOUN	NOUN	_	29	nmod	_	TokenRange=258:269
+36	constituicao	constituicao	NOUN	NOUN	_	35	appos	_	TokenRange=270:282
+37	1988	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=283:287
+38	ferramenta	ferramenta	NOUN	NOUN	_	35	appos	_	TokenRange=288:298
+39	utilizada	utilizar	VERB	VERB	_	38	acl	_	TokenRange=299:308
+40	operacoes	_	NOUN	NOUN	_	39	obj	_	TokenRange=309:318
+41	deste	_	ADP	ADP	_	42	case	_	TokenRange=319:324
+42	tipo	tipo	NOUN	NOUN	_	40	nmod	_	TokenRange=325:329
+43	garantia	garantia	NOUN	NOUN	_	42	appos	_	TokenRange=330:338
+44	lei	lei	NOUN	NOUN	_	43	amod	_	TokenRange=339:342
+45	ordem	ordem	NOUN	NOUN	_	40	appos	_	TokenRange=343:348
+46	glo	_	ADJ	NOUN	_	45	flat	_	TokenRange=349:352
+47	menos	menos	ADV	ADV	_	48	advmod	_	TokenRange=353:358
+48	invasiva	invasivo	ADJ	ADJ	_	49	amod	_	TokenRange=359:367
+49	autonomia	autonomia	NOUN	NOUN	_	40	appos	_	TokenRange=368:377
+50	politica	politico	ADJ	ADJ	_	49	amod	_	TokenRange=378:386
+51	administrativa	administrativo	ADJ	ADJ	_	49	amod	_	TokenRange=387:401
+52	localidade	localidade	NOUN	NOUN	_	49	appos	_	TokenRange=402:412
+53	configurada	configurar	ADJ	ADJ	_	54	amod	_	TokenRange=413:424
+54	parceria	parceria	NOUN	NOUN	_	52	appos	_	TokenRange=425:433
+55	ocorreu	ocorrer	VERB	VERB	_	11	parataxis	_	SpaceAfter=No|TokenRange=434:441
+

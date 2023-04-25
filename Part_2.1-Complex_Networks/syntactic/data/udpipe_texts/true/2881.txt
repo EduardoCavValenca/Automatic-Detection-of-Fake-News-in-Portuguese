@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = invisivel radar drone fecha congonhas causa transtorno passageiros presenca equipamento alterou horario menos 41 voos aparelhos aeroportos conseguem identificalo paulo presenca drone proximo pista pouso aeronaves fechou duas horas aeroporto congonhas zona sul paulo noite domingo afetando 41 voos deixando saguao lotado passageiros policia federal pf abriu inquerito identificar pilotava equipamento pode sobrevoar menos 9 km distancia aeroportos especialistas apontam dificuldades fiscalizacao pf vai investigar drone parou congonhas drone avistado dois pilotos pousariam congonhas volta 20h15 junto cabeceira fica lado avenida pedro bueno jabaquara causa risco acidente controle
+1	invisivel	invisivel	ADJ	ADJ	_	2	amod	_	TokenRange=0:9
+2	radar	radar	NOUN	NOUN	_	11	nsubj	_	TokenRange=10:15
+3	drone	drone	NOUN	NOUN	_	2	appos	_	TokenRange=16:21
+4	fecha	_	VERB	VERB	_	2	acl:relcl	_	TokenRange=22:27
+5	congonhas	congonha	NOUN	NOUN	_	4	obj	_	TokenRange=28:37
+6	causa	causa	NOUN	NOUN	_	7	case	_	TokenRange=38:43
+7	transtorno	transtorno	NOUN	NOUN	_	4	obj	_	TokenRange=44:54
+8	passageiros	passageiro	NOUN	NOUN	_	7	flat	_	TokenRange=55:66
+9	presenca	presencar	VERB	VERB	_	2	appos	_	TokenRange=67:75
+10	equipamento	equipamento	NOUN	NOUN	_	2	appos	_	TokenRange=76:87
+11	alterou	alterar	VERB	VERB	_	0	root	_	TokenRange=88:95
+12	horario	horario	NOUN	NOUN	_	11	obj	_	TokenRange=96:103
+13	menos	menos	ADV	ADV	_	14	advmod	_	TokenRange=104:109
+14	41	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=110:112
+15	voos	voo	NOUN	NOUN	_	18	nsubj	_	TokenRange=113:117
+16	aparelhos	aparelho	NOUN	NOUN	_	15	appos	_	TokenRange=118:127
+17	aeroportos	aeroporto	NOUN	ADJ	_	16	amod	_	TokenRange=128:138
+18	conseguem	conseguir	VERB	VERB	_	2	acl:relcl	_	TokenRange=139:148
+19	identificalo	identificalo	NOUN	NOUN	_	18	obj	_	TokenRange=149:161
+20	paulo	paulo	NOUN	NOUN	_	27	obj	_	TokenRange=162:167
+21	presenca	presenca	NOUN	NOUN	_	27	nsubj	_	TokenRange=168:176
+22	drone	drone	NOUN	NOUN	_	21	appos	_	TokenRange=177:182
+23	proximo	proximo	ADJ	ADJ	_	24	amod	_	TokenRange=183:190
+24	pista	pista	NOUN	NOUN	_	22	appos	_	TokenRange=191:196
+25	pouso	pouso	NOUN	NOUN	_	24	amod	_	TokenRange=197:202
+26	aeronaves	aeronave	NOUN	NOUN	_	27	nsubj	_	TokenRange=203:212
+27	fechou	fechar	VERB	VERB	_	11	conj	_	TokenRange=213:219
+28	duas	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=220:224
+29	horas	hora	NOUN	NOUN	_	27	nmod	_	TokenRange=225:230
+30	aeroporto	aeroporto	NOUN	NOUN	_	27	parataxis	_	TokenRange=231:240
+31	congonhas	congonho	ADJ	ADJ	_	30	amod	_	TokenRange=241:250
+32	zona	zona	NOUN	NOUN	_	30	appos	_	TokenRange=251:255
+33	sul	sul	ADJ	ADJ	_	32	amod	_	TokenRange=256:259
+34	paulo	_	ADJ	ADJ	_	35	appos	_	TokenRange=260:265
+35	noite	noite	NOUN	NOUN	_	27	nmod	_	TokenRange=266:271
+36	domingo	_	PROPN	PNOUN	_	35	appos	_	TokenRange=272:279
+37	afetando	afetar	VERB	VERB	_	35	acl	_	TokenRange=280:288
+38	41	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=289:291
+39	voos	voo	NOUN	NOUN	_	37	obj	_	TokenRange=292:296
+40	deixando	deixar	VERB	VERB	_	37	acl	_	TokenRange=297:305
+41	saguao	_	NOUN	NOUN	_	40	obj	_	TokenRange=306:312
+42	lotado	lotado	ADJ	ADJ	_	43	amod	_	TokenRange=313:319
+43	passageiros	passageiro	NOUN	NOUN	_	40	nsubj	_	TokenRange=320:331
+44	policia	policia	NOUN	NOUN	_	40	nsubj	_	TokenRange=332:339
+45	federal	federal	ADJ	ADJ	_	44	amod	_	TokenRange=340:347
+46	pf	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=348:350
+47	abriu	abrir	VERB	VERB	_	11	parataxis	_	TokenRange=351:356
+48	inquerito	inquerito	NOUN	NOUN	_	47	obj	_	TokenRange=357:366
+49	identificar	identificar	VERB	VERB	_	48	acl:inf	_	TokenRange=367:378
+50	pilotava	pilotar	VERB	VERB	_	49	ccomp	_	TokenRange=379:387
+51	equipamento	equipamento	NOUN	NOUN	_	50	obj	_	TokenRange=388:399
+52	pode	_	AUX	AUX	_	53	aux	_	TokenRange=400:404
+53	sobrevoar	sobrevoar	VERB	VERB	_	50	ccomp	_	TokenRange=405:414
+54	menos	menos	ADV	ADV	_	55	advmod	_	TokenRange=415:420
+55	9	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=421:422
+56	km	km	NOUN	NOUN	_	53	obj	_	TokenRange=423:425
+57	distancia	distanciar	VERB	VERB	_	53	parataxis	_	TokenRange=426:435
+58	aeroportos	aeroporto	NOUN	NOUN	_	60	nsubj	_	TokenRange=436:446
+59	especialistas	especialista	ADJ	ADJ	_	58	amod	_	TokenRange=447:460
+60	apontam	apontar	VERB	VERB	_	47	parataxis	_	TokenRange=461:468
+61	dificuldades	dificuldade	NOUN	NOUN	_	60	obj	_	TokenRange=469:481
+62	fiscalizacao	fiscalizacao	ADJ	ADJ	_	61	amod	_	TokenRange=482:494
+63	pf	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=495:497
+64	vai	ir	AUX	AUX	_	65	aux	_	TokenRange=498:501
+65	investigar	investigar	VERB	VERB	_	61	acl:relcl	_	TokenRange=502:512
+66	drone	drone	NOUN	NOUN	_	65	obj	_	TokenRange=513:518
+67	parou	parar	VERB	VERB	_	65	ccomp	_	TokenRange=519:524
+68	congonhas	congonha	NOUN	NOUN	_	67	obj	_	TokenRange=525:534
+69	drone	drone	NOUN	NOUN	_	67	nsubj	_	TokenRange=535:540
+70	avistado	avistar	VERB	VERB	_	69	acl	_	TokenRange=541:549
+71	dois	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=550:554
+72	pilotos	piloto	NOUN	NOUN	_	73	nsubj	_	TokenRange=555:562
+73	pousariam	pousar	VERB	VERB	_	67	parataxis	_	TokenRange=563:572
+74	congonhas	congonha	NOUN	NOUN	_	73	obj	_	TokenRange=573:582
+75	volta	volta	NOUN	NOUN	_	73	nmod	_	TokenRange=583:588
+76	20h15	_	NUM	NUM	NumType=Card	75	appos	_	TokenRange=589:594
+77	junto	junto	ADV	ADV	_	73	advmod	_	TokenRange=595:600
+78	cabeceira	_	NOUN	NOUN	_	80	nsubj	_	TokenRange=601:610
+79	fica	ficar	VERB	AUX	_	80	cop	_	TokenRange=611:615
+80	lado	lado	NOUN	NOUN	_	85	nsubj	_	TokenRange=616:620
+81	avenida	avenida	NOUN	NOUN	_	85	nsubj	_	TokenRange=621:628
+82	pedro	pedro	NOUN	NOUN	_	81	appos	_	TokenRange=629:634
+83	bueno	bueno	ADJ	ADJ	_	82	amod	_	TokenRange=635:640
+84	jabaquara	_	NOUN	NOUN	_	85	nsubj	_	TokenRange=641:650
+85	causa	causar	VERB	VERB	_	73	parataxis	_	TokenRange=651:656
+86	risco	risco	NOUN	NOUN	_	85	obj	_	TokenRange=657:662
+87	acidente	acidente	NOUN	NOUN	_	85	obj	_	TokenRange=663:671
+88	controle	_	NOUN	NOUN	_	87	flat	_	SpaceAfter=No|TokenRange=672:680
+

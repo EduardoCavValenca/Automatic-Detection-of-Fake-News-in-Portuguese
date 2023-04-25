@@ -1,0 +1,25 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = carater homem 3 atos video quais caracteristicas basicas tornar presidente republica assista video abaixo tire proprias conclusoes
+1	carater	carater	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:7
+2	homem	homem	NOUN	NOUN	_	1	flat	_	TokenRange=8:13
+3	3	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=14:15
+4	atos	ato	NOUN	NOUN	_	1	appos	_	TokenRange=16:20
+5	video	_	VERB	VERB	_	1	appos	_	TokenRange=21:26
+6	quais	_	DET	DET	_	7	det	_	TokenRange=27:32
+7	caracteristicas	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=33:48
+8	basicas	basico	ADJ	ADJ	_	7	amod	_	TokenRange=49:56
+9	tornar	tornar	VERB	AUX	_	7	acl:relcl	_	TokenRange=57:63
+10	presidente	presidente	NOUN	NOUN	_	9	obj	_	TokenRange=64:74
+11	republica	republico	ADJ	ADJ	_	10	amod	_	TokenRange=75:84
+12	assista	assistir	VERB	VERB	_	5	ccomp	_	TokenRange=85:92
+13	video	video	NOUN	NOUN	_	12	obj	_	TokenRange=93:98
+14	abaixo	abaixo	ADV	ADV	_	15	advmod	_	TokenRange=99:105
+15	tire	tirar	VERB	VERB	_	0	root	_	TokenRange=106:110
+16	proprias	proprio	ADJ	ADJ	_	17	amod	_	TokenRange=111:119
+17	conclusoes	conclusoe	NOUN	NOUN	_	15	obj	_	SpaceAfter=No|TokenRange=120:130
+

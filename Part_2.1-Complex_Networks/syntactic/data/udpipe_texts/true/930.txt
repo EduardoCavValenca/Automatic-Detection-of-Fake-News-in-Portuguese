@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 100 mototaxistas autuados bloquearem estrada lagoabarra manifestacao protesto paz rocinha objetivo despistar forcas seguranca diz policia civil 100 mototaxistas participaram protesto estrada lagoabarra liga
+1	100	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:3
+2	mototaxistas	mototaxista	NOUN	NOUN	_	4	nsubj	_	TokenRange=4:16
+3	autuados	autuar	VERB	VERB	_	2	acl	_	TokenRange=17:25
+4	bloquearem	bloquear	VERB	VERB	_	15	ccomp	_	TokenRange=26:36
+5	estrada	estrada	NOUN	NOUN	_	4	obj	_	TokenRange=37:44
+6	lagoabarra	lagoabarra	NOUN	NOUN	_	5	appos	_	TokenRange=45:55
+7	manifestacao	manifestacao	ADJ	ADJ	_	5	amod	_	TokenRange=56:68
+8	protesto	protesto	NOUN	NOUN	_	4	obj	_	TokenRange=69:77
+9	paz	paz	NOUN	NOUN	_	8	appos	_	TokenRange=78:81
+10	rocinha	_	NOUN	NOUN	_	8	flat	_	TokenRange=82:89
+11	objetivo	objetivo	NOUN	NOUN	_	8	appos	_	TokenRange=90:98
+12	despistar	despistar	VERB	VERB	_	11	acl:inf	_	TokenRange=99:108
+13	forcas	forca	NOUN	NOUN	_	12	obj	_	TokenRange=109:115
+14	seguranca	_	NOUN	NOUN	_	13	amod	_	TokenRange=116:125
+15	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=126:129
+16	policia	policia	NOUN	NOUN	_	15	obj	_	TokenRange=130:137
+17	civil	civil	ADJ	ADJ	_	16	amod	_	TokenRange=138:143
+18	100	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=144:147
+19	mototaxistas	mototaxista	NOUN	NOUN	_	20	nsubj	_	TokenRange=148:160
+20	participaram	participar	VERB	VERB	_	15	ccomp	_	TokenRange=161:173
+21	protesto	protesto	NOUN	NOUN	_	20	obj	_	TokenRange=174:182
+22	estrada	estrada	NOUN	NOUN	_	24	nsubj	_	TokenRange=183:190
+23	lagoabarra	lagoabarra	NOUN	NOUN	_	22	flat	_	TokenRange=191:201
+24	liga	ligar	VERB	VERB	_	15	parataxis	_	SpaceAfter=No|TokenRange=202:206
+

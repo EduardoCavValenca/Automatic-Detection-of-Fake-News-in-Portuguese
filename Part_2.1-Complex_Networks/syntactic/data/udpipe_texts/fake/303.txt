@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reinaldo azevedo futuro ministro stf militares coerentes corajosos desses ultimos tempos mandou recado ironico temer atraves redes sociais general brigada paulo chagas compartilhou texto colega profissao gen augusto heleno
+1	reinaldo	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:8
+2	azevedo	azevedo	ADJ	ADJ	_	4	amod	_	TokenRange=9:16
+3	futuro	futuro	ADJ	ADJ	_	4	amod	_	TokenRange=17:23
+4	ministro	ministro	NOUN	NOUN	_	1	appos	_	TokenRange=24:32
+5	stf	_	NOUN	NOUN	_	4	appos	_	TokenRange=33:36
+6	militares	militar	NOUN	NOUN	_	4	appos	_	TokenRange=37:46
+7	coerentes	coerente	ADJ	ADJ	_	6	amod	_	TokenRange=47:56
+8	corajosos	corajoso	ADJ	ADJ	_	6	amod	_	TokenRange=57:66
+9	desses	_	ADP	ADP	_	11	case	_	TokenRange=67:73
+10	ultimos	ultimo	ADJ	ADJ	_	11	amod	_	TokenRange=74:81
+11	tempos	tempo	NOUN	NOUN	_	4	nmod	_	TokenRange=82:88
+12	mandou	mandar	VERB	VERB	_	0	root	_	TokenRange=89:95
+13	recado	recado	NOUN	NOUN	_	12	obj	_	TokenRange=96:102
+14	ironico	ironico	ADJ	ADJ	_	13	amod	_	TokenRange=103:110
+15	temer	temer	VERB	VERB	_	12	xcomp	_	TokenRange=111:116
+16	atraves	_	ADP	ADP	_	17	case	_	TokenRange=117:124
+17	redes	rede	NOUN	NOUN	_	15	nmod	_	TokenRange=125:130
+18	sociais	social	ADJ	ADJ	_	17	amod	_	TokenRange=131:138
+19	general	general	NOUN	NOUN	_	23	nsubj	_	TokenRange=139:146
+20	brigada	brigada	NOUN	NOUN	_	19	flat	_	TokenRange=147:154
+21	paulo	_	NOUN	NOUN	_	19	appos	_	TokenRange=155:160
+22	chagas	chaga	NOUN	NOUN	_	21	flat	_	TokenRange=161:167
+23	compartilhou	compartilhar	VERB	VERB	_	12	parataxis	_	TokenRange=168:180
+24	texto	texto	NOUN	NOUN	_	23	obj	_	TokenRange=181:186
+25	colega	colega	NOUN	NOUN	_	24	appos	_	TokenRange=187:193
+26	profissao	profissao	ADJ	ADJ	_	25	amod	_	TokenRange=194:203
+27	gen	gen	NOUN	NOUN	_	24	appos	_	TokenRange=204:207
+28	augusto	_	NOUN	NOUN	_	27	appos	_	TokenRange=208:215
+29	heleno	heleno	NOUN	NOUN	_	28	flat	_	SpaceAfter=No|TokenRange=216:222
+

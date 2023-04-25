@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidenta pt confrontada aeroporto oi querida pronta presa mulher perguntou senadora petista gleisi hoffmann ptpr preparada presa parlamentar lulista dilmista gostou questionamento irritou chamou segurancas retirar moca local gleisi viu marido paulo bernardo preso acusado comandar esquema desviou r 100 milhoes funcionarios publicos velhinhos aposentados senadora re corrupcao denunciada nada menos 7 delatores lava jato parabens patriota corajosa confrontou arrogancia gleisi
+1	presidenta	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:10
+2	pt	_	NOUN	NOUN	_	1	flat	_	TokenRange=11:13
+3	confrontada	confrontar	VERB	VERB	_	1	acl	_	TokenRange=14:25
+4	aeroporto	aeroporto	NOUN	NOUN	_	1	appos	_	TokenRange=26:35
+5	oi	_	AUX	AUX	_	8	cop	_	TokenRange=36:38
+6	querida	querido	ADJ	ADJ	_	8	amod	_	TokenRange=39:46
+7	pronta	pronto	ADJ	ADJ	_	8	amod	_	TokenRange=47:53
+8	presa	_	NOUN	NOUN	_	1	appos	_	TokenRange=54:59
+9	mulher	mulher	NOUN	NOUN	_	8	flat	_	TokenRange=60:66
+10	perguntou	perguntar	VERB	VERB	_	0	root	_	TokenRange=67:76
+11	senadora	senador	NOUN	NOUN	_	10	obj	_	TokenRange=77:85
+12	petista	petista	ADJ	ADJ	_	11	amod	_	TokenRange=86:93
+13	gleisi	_	NOUN	NOUN	_	11	appos	_	TokenRange=94:100
+14	hoffmann	_	NOUN	NOUN	_	13	flat	_	TokenRange=101:109
+15	ptpr	ptpr	NOUN	NOUN	_	17	appos	_	TokenRange=110:114
+16	preparada	preparado	ADJ	ADJ	_	17	amod	_	TokenRange=115:124
+17	presa	_	NOUN	NOUN	_	11	appos	_	TokenRange=125:130
+18	parlamentar	parlamentar	ADJ	ADJ	_	17	amod	_	TokenRange=131:142
+19	lulista	lulista	ADJ	ADJ	_	17	amod	_	TokenRange=143:150
+20	dilmista	dilmista	ADJ	ADJ	_	17	amod	_	TokenRange=151:159
+21	gostou	gostar	VERB	VERB	_	17	acl:relcl	_	TokenRange=160:166
+22	questionamento	questionamento	NOUN	NOUN	_	21	obj	_	TokenRange=167:181
+23	irritou	_	ADJ	ADJ	_	24	nsubj	_	TokenRange=182:189
+24	chamou	chamar	VERB	VERB	_	21	ccomp	_	TokenRange=190:196
+25	segurancas	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=197:207
+26	retirar	retirar	VERB	VERB	_	24	ccomp	_	TokenRange=208:215
+27	moca	moca	NOUN	NOUN	_	26	obj	_	TokenRange=216:220
+28	local	local	ADJ	ADJ	_	27	amod	_	TokenRange=221:226
+29	gleisi	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=227:233
+30	viu	ver	VERB	VERB	_	27	acl:relcl	_	TokenRange=234:237
+31	marido	marido	NOUN	NOUN	_	30	obj	_	TokenRange=238:244
+32	paulo	paulo	NOUN	NOUN	_	31	appos	_	TokenRange=245:250
+33	bernardo	bernardo	NOUN	NOUN	_	32	flat	_	TokenRange=251:259
+34	preso	_	VERB	VERB	_	31	acl	_	TokenRange=260:265
+35	acusado	acusar	VERB	VERB	_	31	acl	_	TokenRange=266:273
+36	comandar	comandar	VERB	VERB	_	35	xcomp	_	TokenRange=274:282
+37	esquema	esquema	NOUN	NOUN	_	36	obj	_	TokenRange=283:290
+38	desviou	desviar	VERB	VERB	_	31	acl:relcl	_	TokenRange=291:298
+39	r	r	NOUN	NOUN	_	38	obj	_	TokenRange=299:300
+40	100	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=301:304
+41	milhoes	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=305:312
+42	funcionarios	funcionario	NOUN	NOUN	_	38	obj	_	TokenRange=313:325
+43	publicos	publico	ADJ	ADJ	_	42	amod	_	TokenRange=326:334
+44	velhinhos	velhinho	ADJ	ADJ	_	42	amod	_	TokenRange=335:344
+45	aposentados	aposentado	ADJ	ADJ	_	42	amod	_	TokenRange=345:356
+46	senadora	senador	NOUN	NOUN	_	42	appos	_	TokenRange=357:365
+47	re	_	NOUN	NOUN	_	46	appos	_	TokenRange=366:368
+48	corrupcao	corrupcao	NOUN	NOUN	_	46	appos	_	TokenRange=369:378
+49	denunciada	denunciado	VERB	VERB	_	48	acl	_	TokenRange=379:389
+50	nada	_	PRON	PRON	_	51	advmod	_	TokenRange=390:394
+51	menos	menos	ADV	ADV	_	52	advmod	_	TokenRange=395:400
+52	7	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=401:402
+53	delatores	delator	NOUN	NOUN	_	54	nsubj	_	TokenRange=403:412
+54	lava	lavar	VERB	VERB	_	48	acl:relcl	_	TokenRange=413:417
+55	jato	jato	NOUN	NOUN	_	54	obj	_	TokenRange=418:422
+56	parabens	parabem	ADJ	ADJ	_	55	amod	_	TokenRange=423:431
+57	patriota	patriota	ADJ	NOUN	_	55	amod	_	TokenRange=432:440
+58	corajosa	corajoso	ADJ	ADJ	_	57	amod	_	TokenRange=441:449
+59	confrontou	confrontar	VERB	VERB	_	38	parataxis	_	TokenRange=450:460
+60	arrogancia	arrogancia	NOUN	NOUN	_	59	obj	_	TokenRange=461:471
+61	gleisi	_	NOUN	NOUN	_	60	appos	_	SpaceAfter=No|TokenRange=472:478
+

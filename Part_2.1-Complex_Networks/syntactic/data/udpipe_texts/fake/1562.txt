@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = medo altura chuck norris bahia instala tela protecao pula garantir servico medo testar resistencia tela bem ai opcao chamar chuck norris bahia apos concluir servico casa clientes homem faz impensavel video postado redes sociais simplesmente pega embalo pula direcao sacada agarra tela balanca provar qualidade servico equipamento coragem
+1	medo	medo	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:4
+2	altura	altura	NOUN	NOUN	_	1	flat	_	TokenRange=5:11
+3	chuck	chuck	NOUN	NOUN	_	1	appos	_	TokenRange=12:17
+4	norris	_	NOUN	NOUN	_	3	flat	_	TokenRange=18:24
+5	bahia	bahia	NOUN	NOUN	_	3	flat	_	TokenRange=25:30
+6	instala	instalar	VERB	VERB	_	0	root	_	TokenRange=31:38
+7	tela	tela	NOUN	NOUN	_	6	obj	_	TokenRange=39:43
+8	protecao	protecao	NOUN	NOUN	_	6	obj	_	TokenRange=44:52
+9	pula	_	NOUN	NOUN	_	8	flat	_	TokenRange=53:57
+10	garantir	garantir	VERB	VERB	_	6	ccomp	_	TokenRange=58:66
+11	servico	servico	NOUN	NOUN	_	10	obj	_	TokenRange=67:74
+12	medo	medo	NOUN	NOUN	_	13	obj	_	TokenRange=75:79
+13	testar	testar	VERB	VERB	_	1	acl:relcl	_	TokenRange=80:86
+14	resistencia	resistencia	NOUN	NOUN	_	13	obj	_	TokenRange=87:98
+15	tela	tela	NOUN	NOUN	_	14	flat	_	TokenRange=99:103
+16	bem	bem	ADV	ADV	_	18	advmod	_	TokenRange=104:107
+17	ai	_	ADP	ADP	_	18	case	_	TokenRange=108:110
+18	opcao	opcao	NOUN	NOUN	_	14	appos	_	TokenRange=111:116
+19	chamar	chamar	VERB	VERB	_	6	parataxis	_	TokenRange=117:123
+20	chuck	chuck	NOUN	NOUN	_	19	obj	_	TokenRange=124:129
+21	norris	_	NOUN	NOUN	_	20	flat	_	TokenRange=130:136
+22	bahia	bahia	NOUN	NOUN	_	20	flat	_	TokenRange=137:142
+23	apos	_	ADP	ADP	_	24	mark	_	TokenRange=143:147
+24	concluir	concluir	VERB	VERB	_	19	advcl	_	TokenRange=148:156
+25	servico	servico	NOUN	NOUN	_	24	obj	_	TokenRange=157:164
+26	casa	casa	NOUN	NOUN	_	25	appos	_	TokenRange=165:169
+27	clientes	cliente	NOUN	NOUN	_	26	flat	_	TokenRange=170:178
+28	homem	homem	NOUN	NOUN	_	26	flat	_	TokenRange=179:184
+29	faz	fazer	VERB	VERB	_	6	parataxis	_	TokenRange=185:188
+30	impensavel	impensavel	ADJ	ADJ	_	31	amod	_	TokenRange=189:199
+31	video	video	NOUN	NOUN	_	29	obj	_	TokenRange=200:205
+32	postado	postar	VERB	VERB	_	31	acl	_	TokenRange=206:213
+33	redes	rede	NOUN	NOUN	_	29	nsubj	_	TokenRange=214:219
+34	sociais	social	ADJ	ADJ	_	33	amod	_	TokenRange=220:227
+35	simplesmente	simplesmente	ADV	ADV	_	36	advmod	_	TokenRange=228:240
+36	pega	pegar	VERB	VERB	_	29	parataxis	_	TokenRange=241:245
+37	embalo	embalo	NOUN	NOUN	_	36	obj	_	TokenRange=246:252
+38	pula	_	NOUN	NOUN	_	37	amod	_	TokenRange=253:257
+39	direcao	direcao	NOUN	NOUN	_	36	nsubj	_	TokenRange=258:265
+40	sacada	sacado	ADJ	ADJ	_	39	amod	_	TokenRange=266:272
+41	agarra	agarrar	VERB	VERB	_	36	conj	_	TokenRange=273:279
+42	tela	tela	NOUN	NOUN	_	41	obj	_	TokenRange=280:284
+43	balanca	_	NOUN	NOUN	_	42	flat	_	TokenRange=285:292
+44	provar	provar	VERB	VERB	_	41	ccomp	_	TokenRange=293:299
+45	qualidade	qualidade	NOUN	NOUN	_	44	obj	_	TokenRange=300:309
+46	servico	servico	ADJ	ADJ	_	47	amod	_	TokenRange=310:317
+47	equipamento	equipamento	NOUN	NOUN	_	44	obj	_	TokenRange=318:329
+48	coragem	coragem	NOUN	NOUN	_	47	appos	_	SpaceAfter=No|TokenRange=330:337
+

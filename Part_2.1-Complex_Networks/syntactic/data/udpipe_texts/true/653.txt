@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = calibres armas usadas atirador las vegas feitos guerra caca dizem especialistas segundo especialistas policia militar exercito brasileiro sons cadencia rajadas disparos deixaram menos 59 mortos indicam uso armas automaticas armas semiautomaticas sofreram adaptacoes aumentar potencial destrutivo videos registraram ataque las vegas noite deste domingo 1 indicam calibres armas disparadas atirador feitas possivelmente dois tipos atividade caca animais selvagens guerras afirmam especialistas ouvidos g1 considerando sons registrados
+1	calibres	calibre	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:8
+2	armas	arma	NOUN	NOUN	_	1	appos	_	TokenRange=9:14
+3	usadas	usar	VERB	VERB	_	1	acl	_	TokenRange=15:21
+4	atirador	atirador	NOUN	NOUN	_	3	nmod	_	TokenRange=22:30
+5	las	_	DET	DET	_	6	det	_	TokenRange=31:34
+6	vegas	vega	NOUN	NOUN	_	4	nmod	_	TokenRange=35:40
+7	feitos	fazer	VERB	VERB	_	8	acl	_	TokenRange=41:47
+8	guerra	guerra	NOUN	NOUN	_	3	obj	_	TokenRange=48:54
+9	caca	caca	NOUN	NOUN	_	8	flat	_	TokenRange=55:59
+10	dizem	dizer	VERB	VERB	_	0	root	_	TokenRange=60:65
+11	especialistas	especialista	NOUN	NOUN	_	10	obj	_	TokenRange=66:79
+12	segundo	_	ADP	ADP	_	13	case	_	TokenRange=80:87
+13	especialistas	especialista	NOUN	NOUN	_	10	nmod	_	TokenRange=88:101
+14	policia	policia	NOUN	NOUN	_	13	appos	_	TokenRange=102:109
+15	militar	militar	ADJ	ADJ	_	14	amod	_	TokenRange=110:117
+16	exercito	exercito	NOUN	NOUN	_	14	appos	_	TokenRange=118:126
+17	brasileiro	brasileiro	ADJ	ADJ	_	16	amod	_	TokenRange=127:137
+18	sons	som	NOUN	NOUN	_	14	appos	_	TokenRange=138:142
+19	cadencia	cadencia	NOUN	NOUN	_	18	appos	_	TokenRange=143:151
+20	rajadas	rajado	ADJ	ADJ	_	18	amod	_	TokenRange=152:159
+21	disparos	disparo	NOUN	NOUN	_	22	nsubj	_	TokenRange=160:168
+22	deixaram	deixar	VERB	VERB	_	18	acl:relcl	_	TokenRange=169:177
+23	menos	menos	ADV	ADV	_	24	advmod	_	TokenRange=178:183
+24	59	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=184:186
+25	mortos	morto	NOUN	NOUN	_	22	obj	_	TokenRange=187:193
+26	indicam	indicar	VERB	VERB	_	22	parataxis	_	TokenRange=194:201
+27	uso	uso	NOUN	NOUN	_	26	obj	_	TokenRange=202:205
+28	armas	arma	NOUN	NOUN	_	27	appos	_	TokenRange=206:211
+29	automaticas	automatico	ADJ	ADJ	_	28	amod	_	TokenRange=212:223
+30	armas	arma	NOUN	NOUN	_	32	nsubj	_	TokenRange=224:229
+31	semiautomaticas	semiautomatico	ADJ	ADJ	_	30	amod	_	TokenRange=230:245
+32	sofreram	sofrer	VERB	VERB	_	27	acl:relcl	_	TokenRange=246:254
+33	adaptacoes	_	NOUN	NOUN	_	32	obj	_	TokenRange=255:265
+34	aumentar	aumentar	VERB	VERB	_	27	acl:inf	_	TokenRange=266:274
+35	potencial	potencial	NOUN	NOUN	_	34	obj	_	TokenRange=275:284
+36	destrutivo	destrutivo	ADJ	ADJ	_	35	amod	_	TokenRange=285:295
+37	videos	video	NOUN	NOUN	_	38	nsubj	_	TokenRange=296:302
+38	registraram	registrar	VERB	VERB	_	10	parataxis	_	TokenRange=303:314
+39	ataque	ataque	NOUN	NOUN	_	38	obj	_	TokenRange=315:321
+40	las	_	DET	DET	_	41	det	_	TokenRange=322:325
+41	vegas	vega	NOUN	NOUN	_	38	nmod	_	TokenRange=326:331
+42	noite	noite	NOUN	NOUN	_	39	appos	_	TokenRange=332:337
+43	deste	_	ADP	ADP	_	44	case	_	TokenRange=338:343
+44	domingo	_	PROPN	PNOUN	_	42	nmod	_	TokenRange=344:351
+45	1	_	NUM	NUM	NumType=Card	44	appos	_	TokenRange=352:353
+46	indicam	indicar	VERB	VERB	_	39	acl:relcl	_	TokenRange=354:361
+47	calibres	calibre	NOUN	NOUN	_	46	obj	_	TokenRange=362:370
+48	armas	arma	NOUN	NOUN	_	47	appos	_	TokenRange=371:376
+49	disparadas	disparar	VERB	VERB	_	48	acl	_	TokenRange=377:387
+50	atirador	atirador	NOUN	NOUN	_	48	appos	_	TokenRange=388:396
+51	feitas	_	VERB	VERB	_	48	acl	_	TokenRange=397:403
+52	possivelmente	possivelmente	ADV	ADV	_	51	advmod	_	TokenRange=404:417
+53	dois	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=418:422
+54	tipos	tipo	NOUN	NOUN	_	51	nsubj	_	TokenRange=423:428
+55	atividade	atividade	NOUN	NOUN	_	54	appos	_	TokenRange=429:438
+56	caca	caca	NOUN	NOUN	_	55	appos	_	TokenRange=439:443
+57	animais	animal	NOUN	NOUN	_	55	appos	_	TokenRange=444:451
+58	selvagens	selvagem	ADJ	ADJ	_	57	amod	_	TokenRange=452:461
+59	guerras	guerra	NOUN	NOUN	_	55	appos	_	TokenRange=462:469
+60	afirmam	afirmar	VERB	VERB	_	10	parataxis	_	TokenRange=470:477
+61	especialistas	especialista	NOUN	NOUN	_	60	obj	_	TokenRange=478:491
+62	ouvidos	ouvido	ADJ	ADJ	_	61	acl	_	TokenRange=492:499
+63	g1	_	NOUN	NOUN	_	60	nsubj	_	TokenRange=500:502
+64	considerando	considerar	VERB	VERB	_	60	acl	_	TokenRange=503:515
+65	sons	som	NOUN	NOUN	_	64	obj	_	TokenRange=516:520
+66	registrados	registrar	VERB	VERB	_	65	acl	_	SpaceAfter=No|TokenRange=521:532
+

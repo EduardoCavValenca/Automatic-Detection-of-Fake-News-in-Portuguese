@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula arrepende eleito dilma diz sarney novas gravacoes feitas sergio machado expresidente peemedebista afirma lula contou sobre arrependimento novas gravacoes feitas sergio machado expresidente jose sarney diz expresidente luiz inacio lula silva arrependeu escolhido presidente afastada dilma rousseff sucessora audios divulgados
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	arrepende	arrepender	VERB	VERB	_	0	root	_	TokenRange=5:14
+3	eleito	eleito	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+4	dilma	_	NOUN	NOUN	_	3	appos	_	TokenRange=22:27
+5	diz	dizer	NOUN	NOUN	_	3	appos	_	TokenRange=28:31
+6	sarney	sarney	NOUN	NOUN	_	5	flat	_	TokenRange=32:38
+7	novas	novo	ADJ	ADJ	_	8	amod	_	TokenRange=39:44
+8	gravacoes	_	NOUN	NOUN	_	2	obj	_	TokenRange=45:54
+9	feitas	_	VERB	VERB	_	8	acl	_	TokenRange=55:61
+10	sergio	sergio	NOUN	NOUN	_	9	nmod	_	TokenRange=62:68
+11	machado	machado	ADJ	NOUN	_	10	amod	_	TokenRange=69:76
+12	expresidente	expresidente	NOUN	NOUN	_	14	nsubj	_	TokenRange=77:89
+13	peemedebista	_	ADJ	ADJ	_	12	amod	_	TokenRange=90:102
+14	afirma	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=103:109
+15	lula	lula	NOUN	NOUN	_	14	obj	_	TokenRange=110:114
+16	contou	contar	VERB	VERB	_	14	ccomp	_	TokenRange=115:121
+17	sobre	_	ADP	ADP	_	18	case	_	TokenRange=122:127
+18	arrependimento	arrependimento	NOUN	NOUN	_	16	nmod	_	TokenRange=128:142
+19	novas	novo	ADJ	ADJ	_	20	amod	_	TokenRange=143:148
+20	gravacoes	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=149:158
+21	feitas	_	VERB	VERB	_	20	acl	_	TokenRange=159:165
+22	sergio	sergio	NOUN	NOUN	_	21	nmod	_	TokenRange=166:172
+23	machado	machado	ADJ	ADJ	_	22	amod	_	TokenRange=173:180
+24	expresidente	expresidente	NOUN	NOUN	_	27	nsubj	_	TokenRange=181:193
+25	jose	jose	NOUN	NOUN	_	24	appos	_	TokenRange=194:198
+26	sarney	_	NOUN	NOUN	_	25	flat	_	TokenRange=199:205
+27	diz	dizer	VERB	VERB	_	20	acl:relcl	_	TokenRange=206:209
+28	expresidente	expresidente	NOUN	NOUN	_	27	obj	_	TokenRange=210:222
+29	luiz	luiz	ADJ	ADJ	_	28	appos	_	TokenRange=223:227
+30	inacio	_	NOUN	NOUN	_	28	amod	_	TokenRange=228:234
+31	lula	_	NOUN	NOUN	_	28	appos	_	TokenRange=235:239
+32	silva	silva	NOUN	NOUN	_	29	flat	_	TokenRange=240:245
+33	arrependeu	arrepender	VERB	VERB	_	16	conj	_	TokenRange=246:256
+34	escolhido	escolher	ADJ	ADJ	_	35	amod	_	TokenRange=257:266
+35	presidente	presidente	NOUN	NOUN	_	33	obj	_	TokenRange=267:277
+36	afastada	afastado	ADJ	ADJ	_	35	amod	_	TokenRange=278:286
+37	dilma	dilma	ADJ	ADJ	_	40	amod	_	TokenRange=287:292
+38	rousseff	rousseff	ADJ	ADJ	_	35	amod	_	TokenRange=293:301
+39	sucessora	sucessor	ADJ	ADJ	_	40	amod	_	TokenRange=302:311
+40	audios	audio	NOUN	NOUN	_	33	obj	_	TokenRange=312:318
+41	divulgados	divulgar	VERB	VERB	_	40	acl	_	SpaceAfter=No|TokenRange=319:329
+

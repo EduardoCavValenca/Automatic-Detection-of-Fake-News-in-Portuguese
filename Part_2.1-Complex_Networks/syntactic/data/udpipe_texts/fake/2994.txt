@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogado citado lavajato morre brasilia citado lavajato movimentacoes financeiras suspeitas advogado paulo roberto baeta neves morreu noite ontem 1/4 brasilia via g1 causa morte ainda confirmada 2015 stf autorizou quebra sigilo bancario advogado transacoes bancarias feitas 2008 2011 inquerito envolve presidente senado renan calheiros pmdbal apura destino deposito r 5 7 milhoes recebido escritorio baeta neves 2008 paulo roberto costa afirmou depoimento lavajato valor poderia relacionado propina paga parlamentares sindicato praticos profissionais orientam navios atracados portos jurista 78 anos
+1	advogado	advogado	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:8
+2	citado	citar	VERB	VERB	_	1	acl	_	TokenRange=9:15
+3	lavajato	lavajato	NOUN	NOUN	_	2	obj	_	TokenRange=16:24
+4	morre	morrer	VERB	VERB	_	1	acl:relcl	_	TokenRange=25:30
+5	brasilia	brasilia	NOUN	NOUN	_	4	obj	_	TokenRange=31:39
+6	citado	citar	VERB	VERB	_	1	acl	_	TokenRange=40:46
+7	lavajato	lavajato	NOUN	NOUN	_	6	xcomp	_	TokenRange=47:55
+8	movimentacoes	_	NOUN	NOUN	_	7	appos	_	TokenRange=56:69
+9	financeiras	financeiro	ADJ	ADJ	_	8	amod	_	TokenRange=70:81
+10	suspeitas	suspeito	ADJ	ADJ	_	11	amod	_	TokenRange=82:91
+11	advogado	advogado	NOUN	NOUN	_	16	nsubj	_	TokenRange=92:100
+12	paulo	paulo	NOUN	NOUN	_	11	appos	_	TokenRange=101:106
+13	roberto	roberto	NOUN	NOUN	_	12	flat	_	TokenRange=107:114
+14	baeta	baeta	NOUN	NOUN	_	12	flat	_	TokenRange=115:120
+15	neves	neve	NOUN	NOUN	_	12	flat	_	TokenRange=121:126
+16	morreu	morrer	VERB	VERB	_	0	root	_	TokenRange=127:133
+17	noite	noite	NOUN	NOUN	_	16	nmod	_	TokenRange=134:139
+18	ontem	ontem	ADV	ADV	_	16	advmod	_	TokenRange=140:145
+19	1/4	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=146:149
+20	brasilia	brasilia	NOUN	NOUN	_	18	appos	_	TokenRange=150:158
+21	via	_	ADP	ADP	_	22	case	_	TokenRange=159:162
+22	g1	_	NOUN	NOUN	_	16	nmod	_	TokenRange=163:165
+23	causa	causa	NOUN	NOUN	_	16	obj	_	TokenRange=166:171
+24	morte	morte	NOUN	NOUN	_	23	flat	_	TokenRange=172:177
+25	ainda	ainda	ADV	ADV	_	26	advmod	_	TokenRange=178:183
+26	confirmada	confirmar	VERB	VERB	_	23	acl	_	TokenRange=184:194
+27	2015	_	NUM	NUM	NumType=Card	26	nsubj:pass	_	TokenRange=195:199
+28	stf	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=200:203
+29	autorizou	autorizar	VERB	VERB	_	16	parataxis	_	TokenRange=204:213
+30	quebra	quebra	ADJ	DET	_	31	amod	_	TokenRange=214:220
+31	sigilo	sigilo	NOUN	NOUN	_	29	obj	_	TokenRange=221:227
+32	bancario	bancario	ADJ	ADJ	_	31	amod	_	TokenRange=228:236
+33	advogado	advogado	NOUN	NOUN	_	31	appos	_	TokenRange=237:245
+34	transacoes	transacoe	NOUN	NOUN	_	29	obj	_	TokenRange=246:256
+35	bancarias	bancario	ADJ	ADJ	_	34	amod	_	TokenRange=257:266
+36	feitas	_	VERB	VERB	_	34	acl	_	TokenRange=267:273
+37	2008	_	NUM	NUM	NumType=Card	36	nmod	_	TokenRange=274:278
+38	2011	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=279:283
+39	inquerito	inquerito	NOUN	NOUN	_	40	nsubj	_	TokenRange=284:293
+40	envolve	envolver	VERB	VERB	_	34	acl:relcl	_	TokenRange=294:301
+41	presidente	presidente	NOUN	NOUN	_	40	obj	_	TokenRange=302:312
+42	senado	senado	ADJ	ADJ	_	41	amod	_	TokenRange=313:319
+43	renan	renan	NOUN	NOUN	_	40	nsubj	_	TokenRange=320:325
+44	calheiros	calheiro	NOUN	NOUN	_	43	flat	_	TokenRange=326:335
+45	pmdbal	_	ADJ	ADJ	_	43	amod	_	TokenRange=336:342
+46	apura	apurar	VERB	VERB	_	40	parataxis	_	TokenRange=343:348
+47	destino	destino	NOUN	NOUN	_	46	obj	_	TokenRange=349:356
+48	deposito	deposito	NOUN	NOUN	_	47	appos	_	TokenRange=357:365
+49	r	r	NOUN	NOUN	_	48	appos	_	TokenRange=366:367
+50	5	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=368:369
+51	7	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=370:371
+52	milhoes	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=372:379
+53	recebido	receber	VERB	VERB	_	47	acl	_	TokenRange=380:388
+54	escritorio	escritorio	NOUN	NOUN	_	53	obj	_	TokenRange=389:399
+55	baeta	baeta	NOUN	NOUN	_	54	appos	_	TokenRange=400:405
+56	neves	neve	NOUN	NOUN	_	55	flat	_	TokenRange=406:411
+57	2008	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=412:416
+58	paulo	paulo	NOUN	NOUN	_	61	nsubj	_	TokenRange=417:422
+59	roberto	roberto	NOUN	NOUN	_	58	flat	_	TokenRange=423:430
+60	costa	costa	NOUN	NOUN	_	58	flat	_	TokenRange=431:436
+61	afirmou	afirmar	VERB	VERB	_	16	parataxis	_	TokenRange=437:444
+62	depoimento	depoimento	NOUN	NOUN	_	61	obj	_	TokenRange=445:455
+63	lavajato	lavajato	ADJ	ADJ	_	62	amod	_	TokenRange=456:464
+64	valor	valor	NOUN	NOUN	_	62	appos	_	TokenRange=465:470
+65	poderia	poder	AUX	AUX	_	66	aux	_	TokenRange=471:478
+66	relacionado	relacionar	ADJ	ADJ	_	62	acl	_	TokenRange=479:490
+67	propina	propina	NOUN	NOUN	_	66	obj	_	TokenRange=491:498
+68	paga	paga	NOUN	NOUN	_	67	flat	_	TokenRange=499:503
+69	parlamentares	parlamentar	NOUN	NOUN	_	67	amod	_	TokenRange=504:517
+70	sindicato	sindicato	NOUN	NOUN	_	67	appos	_	TokenRange=518:527
+71	praticos	pratico	ADJ	ADJ	_	70	amod	_	TokenRange=528:536
+72	profissionais	profissional	ADJ	ADJ	_	70	amod	_	TokenRange=537:550
+73	orientam	orientar	VERB	VERB	_	67	acl:relcl	_	TokenRange=551:559
+74	navios	navio	NOUN	NOUN	_	73	obj	_	TokenRange=560:566
+75	atracados	atracado	ADJ	ADJ	_	74	amod	_	TokenRange=567:576
+76	portos	porto	NOUN	NOUN	_	74	amod	_	TokenRange=577:583
+77	jurista	jurista	ADJ	ADJ	_	79	amod	_	TokenRange=584:591
+78	78	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=592:594
+79	anos	ano	NOUN	NOUN	_	73	nmod	_	SpaceAfter=No|TokenRange=595:599
+

@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = corpo dom paulo sepultado nesta sexta cripta catedral arcebispo emerito internado broncopneumonia desde 28 novembro 50 anos bispado atuacao importante combate repressao ditadura militar corpo cardeal dom paulo evaristo arns arcebispo emerito arquidiocese
+1	corpo	corpo	NOUN	NOUN	_	31	nsubj	_	TokenRange=0:5
+2	dom	dom	NOUN	NOUN	_	1	appos	_	TokenRange=6:9
+3	paulo	paulo	NOUN	NOUN	_	2	flat	_	TokenRange=10:15
+4	sepultado	sepultar	VERB	VERB	_	1	acl	_	TokenRange=16:25
+5	nesta	_	ADP	ADP	_	7	case	_	TokenRange=26:31
+6	sexta	_	ADJ	ADJ	_	7	amod	_	TokenRange=32:37
+7	cripta	cripta	NOUN	NOUN	_	4	nmod	_	TokenRange=38:44
+8	catedral	catedral	ADJ	ADJ	_	7	amod	_	TokenRange=45:53
+9	arcebispo	arcebispo	NOUN	NOUN	_	7	appos	_	TokenRange=54:63
+10	emerito	emerito	ADJ	ADJ	_	9	amod	_	TokenRange=64:71
+11	internado	internado	ADJ	ADJ	_	9	amod	_	TokenRange=72:81
+12	broncopneumonia	_	NOUN	NOUN	_	9	appos	_	TokenRange=82:97
+13	desde	_	ADP	ADP	_	14	case	_	TokenRange=98:103
+14	28	_	NUM	NUM	NumType=Card	9	nmod	_	TokenRange=104:106
+15	novembro	_	PROPN	PNOUN	_	14	flat	_	TokenRange=107:115
+16	50	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=116:118
+17	anos	ano	NOUN	NOUN	_	14	appos	_	TokenRange=119:123
+18	bispado	bispado	ADJ	ADJ	_	17	amod	_	TokenRange=124:131
+19	atuacao	atuacao	NOUN	NOUN	_	18	appos	_	TokenRange=132:139
+20	importante	importante	ADJ	ADJ	_	19	amod	_	TokenRange=140:150
+21	combate	combate	NOUN	NOUN	_	19	appos	_	TokenRange=151:158
+22	repressao	repressao	NOUN	NOUN	_	21	obj	_	TokenRange=159:168
+23	ditadura	ditadura	NOUN	NOUN	_	22	flat	_	TokenRange=169:177
+24	militar	militar	ADJ	ADJ	_	23	amod	_	TokenRange=178:185
+25	corpo	corpo	NOUN	NOUN	_	21	appos	_	TokenRange=186:191
+26	cardeal	cardeal	NOUN	NOUN	_	25	flat	_	TokenRange=192:199
+27	dom	_	PROPN	PNOUN	_	25	appos	_	TokenRange=200:203
+28	paulo	_	PROPN	PNOUN	_	27	flat	_	TokenRange=204:209
+29	evaristo	evaristo	ADJ	ADJ	_	27	flat	_	TokenRange=210:218
+30	arns	_	NOUN	NOUN	_	27	flat	_	TokenRange=219:223
+31	arcebispo	arcebispo	NOUN	NOUN	_	0	root	_	TokenRange=224:233
+32	emerito	emerito	ADJ	ADJ	_	33	amod	_	TokenRange=234:241
+33	arquidiocese	arquidiocese	NOUN	NOUN	_	31	appos	_	SpaceAfter=No|TokenRange=242:254
+

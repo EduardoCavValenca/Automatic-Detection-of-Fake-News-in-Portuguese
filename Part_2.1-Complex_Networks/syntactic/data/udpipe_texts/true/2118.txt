@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = artistas sudao sul fazem musica pintam muros campanha fim conflito pais crise humanitaria completa 6 anos independencia neste domingo 9 cansados tudo acontecendo diz fundadores grupo sudao sul chega seis anos independencia completados neste domingo 9 piores crises humanitarias mundo pais onde conflito armado etnias domina quatro anos milhares pessoas famintas nasceu coletivo jovens artistas procura disseminar mensagens igualdade reconciliacao ana taban
+1	artistas	artista	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	sudao	sudao	ADJ	ADJ	_	1	amod	_	TokenRange=9:14
+3	sul	sul	ADJ	ADJ	_	1	amod	_	TokenRange=15:18
+4	fazem	fazer	VERB	VERB	_	24	ccomp	_	TokenRange=19:24
+5	musica	_	NOUN	NOUN	_	4	obj	_	TokenRange=25:31
+6	pintam	pintar	VERB	VERB	_	4	parataxis	_	TokenRange=32:38
+7	muros	muro	NOUN	NOUN	_	6	obj	_	TokenRange=39:44
+8	campanha	campanha	NOUN	NOUN	_	4	obj	_	TokenRange=45:53
+9	fim	fim	NOUN	NOUN	_	8	appos	_	TokenRange=54:57
+10	conflito	conflito	NOUN	NOUN	_	8	appos	_	TokenRange=58:66
+11	pais	_	ADJ	ADJ	_	12	amod	_	TokenRange=67:71
+12	crise	crise	NOUN	NOUN	_	8	appos	_	TokenRange=72:77
+13	humanitaria	humanitario	ADJ	ADJ	_	12	amod	_	TokenRange=78:89
+14	completa	completo	ADJ	ADJ	_	12	amod	_	TokenRange=90:98
+15	6	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=99:100
+16	anos	ano	NOUN	NOUN	_	12	appos	_	TokenRange=101:105
+17	independencia	_	PROPN	PNOUN	_	16	appos	_	TokenRange=106:119
+18	neste	_	ADP	ADP	_	19	case	_	TokenRange=120:125
+19	domingo	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=126:133
+20	9	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=134:135
+21	cansados	cansado	ADJ	ADJ	_	16	amod	_	TokenRange=136:144
+22	tudo	_	PRON	PRON	_	23	nsubj	_	TokenRange=145:149
+23	acontecendo	acontecer	VERB	VERB	_	21	acl	_	TokenRange=150:161
+24	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=162:165
+25	fundadores	fundador	NOUN	NOUN	_	24	nsubj	_	TokenRange=166:176
+26	grupo	grupo	NOUN	NOUN	_	29	nsubj	_	TokenRange=177:182
+27	sudao	sudao	NOUN	NOUN	_	26	amod	_	TokenRange=183:188
+28	sul	sul	ADJ	ADJ	_	26	amod	_	TokenRange=189:192
+29	chega	chegar	VERB	VERB	_	24	parataxis	_	TokenRange=193:198
+30	seis	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=199:203
+31	anos	ano	NOUN	NOUN	_	29	nmod	_	TokenRange=204:208
+32	independencia	_	NOUN	NOUN	_	31	appos	_	TokenRange=209:222
+33	completados	completar	VERB	VERB	_	38	acl	_	TokenRange=223:234
+34	neste	_	ADP	ADP	_	35	case	_	TokenRange=235:240
+35	domingo	_	PROPN	PNOUN	_	33	nmod	_	TokenRange=241:248
+36	9	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=249:250
+37	piores	pior	ADJ	ADJ	_	38	amod	_	TokenRange=251:257
+38	crises	crise	NOUN	NOUN	_	29	nsubj	_	TokenRange=258:264
+39	humanitarias	humanitario	ADJ	ADJ	_	38	amod	_	TokenRange=265:277
+40	mundo	mundo	NOUN	NOUN	_	38	appos	_	TokenRange=278:283
+41	pais	_	NOUN	NOUN	_	40	appos	_	TokenRange=284:288
+42	onde	onde	ADV	ADV	_	43	advmod	_	TokenRange=289:293
+43	conflito	conflito	NOUN	NOUN	_	46	nsubj	_	TokenRange=294:302
+44	armado	armado	ADJ	ADJ	_	43	amod	_	TokenRange=303:309
+45	etnias	etnia	NOUN	NOUN	_	46	nsubj	_	TokenRange=310:316
+46	domina	dominar	VERB	VERB	_	40	acl:relcl	_	TokenRange=317:323
+47	quatro	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=324:330
+48	anos	ano	NOUN	NOUN	_	46	nmod	_	TokenRange=331:335
+49	milhares	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=336:344
+50	pessoas	pessoa	NOUN	NOUN	_	46	obj	_	TokenRange=345:352
+51	famintas	faminto	ADJ	ADJ	_	50	amod	_	TokenRange=353:361
+52	nasceu	nascer	VERB	VERB	_	40	acl:relcl	_	TokenRange=362:368
+53	coletivo	coletivo	NOUN	NOUN	_	52	obj	_	TokenRange=369:377
+54	jovens	jovem	ADJ	ADJ	_	55	amod	_	TokenRange=378:384
+55	artistas	artista	NOUN	NOUN	_	52	nsubj	_	TokenRange=385:393
+56	procura	procurar	VERB	VERB	_	52	parataxis	_	TokenRange=394:401
+57	disseminar	disseminar	VERB	VERB	_	56	xcomp	_	TokenRange=402:412
+58	mensagens	mensagem	NOUN	NOUN	_	57	obj	_	TokenRange=413:422
+59	igualdade	igualdade	ADJ	ADJ	_	58	amod	_	TokenRange=423:432
+60	reconciliacao	reconciliacao	ADJ	ADJ	_	58	amod	_	TokenRange=433:446
+61	ana	_	NOUN	NOUN	_	57	obj	_	TokenRange=447:450
+62	taban	_	NOUN	NOUN	_	61	flat	_	SpaceAfter=No|TokenRange=451:456
+

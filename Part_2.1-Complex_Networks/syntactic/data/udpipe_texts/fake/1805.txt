@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = expresidente andrade gutierrez confirma diante ameacas paguei propina chapa dilma/temer expresidente andrade gutierrez confirmou pagou propina disfarcada doacao oficial campanha presidencial 2014 detalhe valor pago chapa dilma/temer otavio azevedo disse empresa doaria r 10 milhoes campanha dilma 2014 porem dobrar valor diante ameacas edinho silva exministro dilma giles azevedo exassessor dilma doacao acordo depoente servia manter status quo contratos governo traduzindo caso doasse correria risco perder contratos governo federal desse total r 15 milhoes oriundos propina obras usina belo monte
+1	expresidente	expresidente	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:12
+2	andrade	andrade	NOUN	NOUN	_	1	appos	_	TokenRange=13:20
+3	gutierrez	gutierrez	NOUN	NOUN	_	1	flat	_	TokenRange=21:30
+4	confirma	confirmar	VERB	VERB	_	0	root	_	TokenRange=31:39
+5	diante	diante	ADV	ADV	_	6	advmod	_	TokenRange=40:46
+6	ameacas	ameaca	NOUN	NOUN	_	4	obj	_	TokenRange=47:54
+7	paguei	pagar	VERB	VERB	_	4	parataxis	_	TokenRange=55:61
+8	propina	propina	NOUN	NOUN	_	7	obj	_	TokenRange=62:69
+9	chapa	chapa	NOUN	NOUN	_	8	appos	_	TokenRange=70:75
+10	dilma/temer	dilma/temer	ADJ	ADJ	_	11	amod	_	TokenRange=76:87
+11	expresidente	expresidente	NOUN	NOUN	_	9	appos	_	TokenRange=88:100
+12	andrade	andrade	NOUN	NOUN	_	11	appos	_	TokenRange=101:108
+13	gutierrez	gutierrez	NOUN	NOUN	_	11	flat	_	TokenRange=109:118
+14	confirmou	confirmar	VERB	VERB	_	4	conj	_	TokenRange=119:128
+15	pagou	pagar	VERB	VERB	_	14	xcomp	_	TokenRange=129:134
+16	propina	propina	NOUN	NOUN	_	15	obj	_	TokenRange=135:142
+17	disfarcada	disfarcado	ADJ	ADJ	_	16	amod	_	TokenRange=143:153
+18	doacao	doacao	NOUN	NOUN	_	16	appos	_	TokenRange=154:160
+19	oficial	oficial	ADJ	ADJ	_	20	amod	_	TokenRange=161:168
+20	campanha	campanha	NOUN	NOUN	_	18	appos	_	TokenRange=169:177
+21	presidencial	presidencial	ADJ	ADJ	_	20	amod	_	TokenRange=178:190
+22	2014	_	NUM	NUM	NumType=Card	20	nmod	_	TokenRange=191:195
+23	detalhe	detalhar	VERB	VERB	_	4	parataxis	_	TokenRange=196:203
+24	valor	valor	NOUN	NOUN	_	23	obj	_	TokenRange=204:209
+25	pago	pagar	VERB	VERB	_	24	acl	_	TokenRange=210:214
+26	chapa	chapa	NOUN	NOUN	_	25	obj	_	TokenRange=215:220
+27	dilma/temer	dilma/temer	NOUN	NOUN	_	26	amod	_	TokenRange=221:232
+28	otavio	otavio	NOUN	NOUN	_	26	appos	_	TokenRange=233:239
+29	azevedo	_	ADJ	NOUN	_	28	flat	_	TokenRange=240:247
+30	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=248:253
+31	empresa	empresa	NOUN	NOUN	_	30	obj	_	TokenRange=254:261
+32	doaria	doar	VERB	VERB	_	30	ccomp	_	TokenRange=262:268
+33	r	r	NOUN	NOUN	_	32	obj	_	TokenRange=269:270
+34	10	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=271:273
+35	milhoes	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=274:281
+36	campanha	campanha	NOUN	NOUN	_	32	obj	_	TokenRange=282:290
+37	dilma	dilma	NOUN	NOUN	_	36	amod	_	TokenRange=291:296
+38	2014	_	NUM	NUM	NumType=Card	36	nmod	_	TokenRange=297:301
+39	porem	_	AUX	AUX	_	40	aux	_	TokenRange=302:307
+40	dobrar	dobrar	VERB	VERB	_	32	conj	_	TokenRange=308:314
+41	valor	valor	NOUN	NOUN	_	40	obj	_	TokenRange=315:320
+42	diante	_	ADV	ADV	_	43	advmod	_	TokenRange=321:327
+43	ameacas	ameaca	NOUN	NOUN	_	40	nmod	_	TokenRange=328:335
+44	edinho	_	PROPN	PNOUN	_	40	nsubj	_	TokenRange=336:342
+45	silva	silva	ADJ	NOUN	_	46	flat	_	TokenRange=343:348
+46	exministro	exministro	NOUN	NOUN	_	40	nsubj	_	TokenRange=349:359
+47	dilma	_	ADJ	ADJ	_	46	flat	_	TokenRange=360:365
+48	giles	_	NOUN	NOUN	_	46	appos	_	TokenRange=366:371
+49	azevedo	_	ADJ	ADJ	_	50	amod	_	TokenRange=372:379
+50	exassessor	exassessor	NOUN	NOUN	_	46	appos	_	TokenRange=380:390
+51	dilma	dilma	NOUN	NOUN	_	50	flat	_	TokenRange=391:396
+52	doacao	_	ADJ	ADJ	_	53	amod	_	TokenRange=397:403
+53	acordo	acordo	NOUN	NOUN	_	40	obj	_	TokenRange=404:410
+54	depoente	depoente	ADJ	ADJ	_	53	amod	_	TokenRange=411:419
+55	servia	servir	VERB	VERB	_	53	acl:relcl	_	TokenRange=420:426
+56	manter	manter	VERB	VERB	_	55	xcomp	_	TokenRange=427:433
+57	status	status	NOUN	NOUN	_	56	obj	_	TokenRange=434:440
+58	quo	_	PRON	DET	_	57	flat	_	TokenRange=441:444
+59	contratos	contrato	NOUN	NOUN	_	56	obj	_	TokenRange=445:454
+60	governo	governo	NOUN	NOUN	_	59	appos	_	TokenRange=455:462
+61	traduzindo	traduzir	VERB	VERB	_	59	acl	_	TokenRange=463:473
+62	caso	_	CCONJ	CONJ	_	63	mark	_	TokenRange=474:478
+63	doasse	doar	VERB	VERB	_	61	advcl	_	TokenRange=479:485
+64	correria	correr	VERB	VERB	_	63	xcomp	_	TokenRange=486:494
+65	risco	risco	NOUN	NOUN	_	64	nsubj	_	TokenRange=495:500
+66	perder	perder	VERB	VERB	_	64	csubj	_	TokenRange=501:507
+67	contratos	contrato	NOUN	NOUN	_	66	obj	_	TokenRange=508:517
+68	governo	governo	NOUN	NOUN	_	67	amod	_	TokenRange=518:525
+69	federal	federal	ADJ	ADJ	_	68	amod	_	TokenRange=526:533
+70	desse	_	ADP	ADP	_	71	case	_	TokenRange=534:539
+71	total	total	NOUN	NOUN	_	68	nmod	_	TokenRange=540:545
+72	r	r	NOUN	NOUN	_	71	appos	_	TokenRange=546:547
+73	15	_	NUM	NUM	NumType=Card	74	nummod	_	TokenRange=548:550
+74	milhoes	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=551:558
+75	oriundos	oriundo	ADJ	ADJ	_	72	amod	_	TokenRange=559:567
+76	propina	propino	VERB	VERB	_	64	parataxis	_	TokenRange=568:575
+77	obras	obra	NOUN	NOUN	_	76	obj	_	TokenRange=576:581
+78	usina	usinar	VERB	VERB	_	77	appos	_	TokenRange=582:587
+79	belo	belo	ADJ	ADJ	_	80	amod	_	TokenRange=588:592
+80	monte	monte	NOUN	NOUN	_	78	obj	_	SpaceAfter=No|TokenRange=593:598
+

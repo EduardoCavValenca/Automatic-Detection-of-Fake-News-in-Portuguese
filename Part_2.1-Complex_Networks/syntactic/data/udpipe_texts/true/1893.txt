@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = morte brutal universitario assalto choca moradores franca totalmente desnecessario joao victor barcelos 19 anos baleado cabeca apos rendido namorada carro policia civil instaurou inquerito latrocinio busca suspeitos parentes amigos universitario joao victor barcelos 19 anos morto quartafeira 3 durante assalto franca sp enterraram jovem revoltados brutalidade
+1	morte	morte	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	brutal	brutal	ADJ	ADJ	_	1	amod	_	TokenRange=6:12
+3	universitario	universitario	NOUN	NOUN	_	1	appos	_	TokenRange=13:26
+4	assalto	assalto	NOUN	NOUN	_	1	appos	_	TokenRange=27:34
+5	choca	chocar	VERB	VERB	_	0	root	_	TokenRange=35:40
+6	moradores	morador	NOUN	NOUN	_	5	obj	_	TokenRange=41:50
+7	franca	franco	ADJ	ADJ	_	6	amod	_	TokenRange=51:57
+8	totalmente	totalmente	ADV	ADV	_	9	advmod	_	TokenRange=58:68
+9	desnecessario	desnecessario	ADJ	ADJ	_	6	amod	_	TokenRange=69:82
+10	joao	joao	NOUN	NOUN	_	11	appos	_	TokenRange=83:87
+11	victor	_	NOUN	NOUN	_	6	appos	_	TokenRange=88:94
+12	barcelos	barcelo	ADJ	ADJ	_	11	flat	_	TokenRange=95:103
+13	19	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=104:106
+14	anos	ano	NOUN	NOUN	_	11	appos	_	TokenRange=107:111
+15	baleado	balear	VERB	VERB	_	11	acl	_	TokenRange=112:119
+16	cabeca	cabeca	NOUN	NOUN	_	15	nmod	_	TokenRange=120:126
+17	apos	_	ADP	ADP	_	18	case	_	TokenRange=127:131
+18	rendido	rendido	NOUN	NOUN	_	16	nmod	_	TokenRange=132:139
+19	namorada	_	NOUN	NOUN	_	16	amod	_	TokenRange=140:148
+20	carro	carro	NOUN	NOUN	_	19	appos	_	TokenRange=149:154
+21	policia	policia	NOUN	NOUN	_	20	appos	_	TokenRange=155:162
+22	civil	civil	ADJ	ADJ	_	21	amod	_	TokenRange=163:168
+23	instaurou	instaurar	VERB	VERB	_	5	parataxis	_	TokenRange=169:178
+24	inquerito	inquerito	NOUN	NOUN	_	23	obj	_	TokenRange=179:188
+25	latrocinio	_	NOUN	NOUN	_	24	amod	_	TokenRange=189:199
+26	busca	busca	NOUN	NOUN	_	23	parataxis	_	TokenRange=200:205
+27	suspeitos	suspeito	ADJ	NOUN	_	29	amod	_	TokenRange=206:215
+28	parentes	parente	ADJ	ADJ	_	29	amod	_	TokenRange=216:224
+29	amigos	amigo	NOUN	NOUN	_	26	appos	_	TokenRange=225:231
+30	universitario	universitario	ADJ	ADJ	_	29	amod	_	TokenRange=232:245
+31	joao	joao	NOUN	NOUN	_	29	appos	_	TokenRange=246:250
+32	victor	victor	NOUN	NOUN	_	29	appos	_	TokenRange=251:257
+33	barcelos	barcelo	ADJ	ADJ	_	32	flat	_	TokenRange=258:266
+34	19	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=267:269
+35	anos	ano	NOUN	NOUN	_	32	appos	_	TokenRange=270:274
+36	morto	morto	ADJ	ADJ	_	37	amod	_	TokenRange=275:280
+37	quartafeira	quartafeira	NOUN	NOUN	_	43	parataxis	_	TokenRange=281:292
+38	3	_	NUM	NUM	NumType=Card	37	appos	_	TokenRange=293:294
+39	durante	_	ADP	ADP	_	40	case	_	TokenRange=295:302
+40	assalto	assalto	NOUN	NOUN	_	43	nmod	_	TokenRange=303:310
+41	franca	franco	ADJ	ADJ	_	40	amod	_	TokenRange=311:317
+42	sp	_	ADJ	ADJ	_	40	amod	_	TokenRange=318:320
+43	enterraram	enterrar	VERB	VERB	_	23	parataxis	_	TokenRange=321:331
+44	jovem	jovem	NOUN	NOUN	_	46	amod	_	TokenRange=332:337
+45	revoltados	revoltado	ADJ	ADJ	_	46	amod	_	TokenRange=338:348
+46	brutalidade	brutalidade	NOUN	NOUN	_	43	obj	_	SpaceAfter=No|TokenRange=349:360
+

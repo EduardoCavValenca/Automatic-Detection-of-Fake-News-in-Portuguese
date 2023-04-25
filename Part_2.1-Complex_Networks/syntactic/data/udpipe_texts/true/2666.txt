@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = documento pediu prisao presidente senado renan calheiros pmdbal senador romero juca pmdbrr tornozeleira eletronica expresidente jose sarney pmdbap 23 maio procuradorgeral republica rodrigo janot afirmou acordao barrar operacao lava jato graves atentados vistos contra funcionamento instituicoes brasileiras pedido janot base delacao premiada expresidente
+1	documento	documento	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	pediu	pedir	VERB	VERB	_	0	root	_	TokenRange=10:15
+3	prisao	prisao	NOUN	NOUN	_	2	obj	_	TokenRange=16:22
+4	presidente	presidente	NOUN	NOUN	_	3	appos	_	TokenRange=23:33
+5	senado	senado	ADJ	ADJ	_	4	amod	_	TokenRange=34:40
+6	renan	renan	NOUN	NOUN	_	4	appos	_	TokenRange=41:46
+7	calheiros	calheiro	NOUN	NOUN	_	4	amod	_	TokenRange=47:56
+8	pmdbal	pmdbal	ADJ	ADJ	_	9	amod	_	TokenRange=57:63
+9	senador	senador	NOUN	NOUN	_	4	appos	_	TokenRange=64:71
+10	romero	romero	NOUN	NOUN	_	9	appos	_	TokenRange=72:78
+11	juca	juca	ADJ	ADJ	_	9	amod	_	TokenRange=79:83
+12	pmdbrr	_	ADJ	NOUN	_	9	amod	_	TokenRange=84:90
+13	tornozeleira	_	NOUN	NOUN	_	9	appos	_	TokenRange=91:103
+14	eletronica	eletronico	ADJ	ADJ	_	13	amod	_	TokenRange=104:114
+15	expresidente	expresidente	NOUN	NOUN	_	13	appos	_	TokenRange=115:127
+16	jose	_	NOUN	NOUN	_	15	appos	_	TokenRange=128:132
+17	sarney	_	NOUN	NOUN	_	16	flat	_	TokenRange=133:139
+18	pmdbap	_	NOUN	NOUN	_	16	flat	_	TokenRange=140:146
+19	23	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=147:149
+20	maio	_	PROPN	PNOUN	_	16	appos	_	TokenRange=150:154
+21	procuradorgeral	procuradorgeral	ADJ	ADJ	_	20	amod	_	TokenRange=155:170
+22	republica	republico	ADJ	ADJ	_	20	amod	_	TokenRange=171:180
+23	rodrigo	_	PROPN	PNOUN	_	25	nsubj	_	TokenRange=181:188
+24	janot	_	PROPN	PNOUN	_	23	flat	_	TokenRange=189:194
+25	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=195:202
+26	acordao	acordao	VERB	VERB	_	25	xcomp	_	TokenRange=203:210
+27	barrar	barrar	VERB	VERB	_	26	xcomp	_	TokenRange=211:217
+28	operacao	operacao	NOUN	NOUN	_	27	obj	_	TokenRange=218:226
+29	lava	lava	NOUN	NOUN	_	28	flat	_	TokenRange=227:231
+30	jato	jato	ADJ	NOUN	_	29	flat	_	TokenRange=232:236
+31	graves	grave	ADJ	ADJ	_	32	amod	_	TokenRange=237:243
+32	atentados	atentado	NOUN	NOUN	_	27	obj	_	TokenRange=244:253
+33	vistos	ver	VERB	VERB	_	32	acl	_	TokenRange=254:260
+34	contra	_	ADP	ADP	_	35	case	_	TokenRange=261:267
+35	funcionamento	funcionamento	NOUN	NOUN	_	33	nmod	_	TokenRange=268:281
+36	instituicoes	instituicoe	NOUN	NOUN	_	33	nsubj	_	TokenRange=282:294
+37	brasileiras	brasileiro	ADJ	ADJ	_	36	amod	_	TokenRange=295:306
+38	pedido	pedir	VERB	VERB	_	32	acl	_	TokenRange=307:313
+39	janot	_	NOUN	NOUN	_	38	obj	_	TokenRange=314:319
+40	base	base	NOUN	NOUN	_	38	obj	_	TokenRange=320:324
+41	delacao	delacao	NOUN	NOUN	_	43	flat	_	TokenRange=325:332
+42	premiada	premiar	ADJ	ADJ	_	43	amod	_	TokenRange=333:341
+43	expresidente	expresidente	NOUN	NOUN	_	40	appos	_	SpaceAfter=No|TokenRange=342:354
+

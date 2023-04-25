@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reynaldo gianecchini ricardo tozzi apresentam guardas taj adaptacao brasileira espetaculo americano rajiv joseph chega festival curitiba dias 7 8 abril
+1	reynaldo	reynaldo	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	gianecchini	_	NOUN	NOUN	_	1	flat	_	TokenRange=9:20
+3	ricardo	ricardo	NOUN	NOUN	_	1	appos	_	TokenRange=21:28
+4	tozzi	_	NOUN	NOUN	_	3	flat	_	TokenRange=29:34
+5	apresentam	apresentar	VERB	VERB	_	0	root	_	TokenRange=35:45
+6	guardas	guarda	NOUN	NOUN	_	5	obj	_	TokenRange=46:53
+7	taj	_	NOUN	NOUN	_	6	appos	_	TokenRange=54:57
+8	adaptacao	adaptacao	NOUN	NOUN	_	6	appos	_	TokenRange=58:67
+9	brasileira	brasileiro	ADJ	ADJ	_	8	amod	_	TokenRange=68:78
+10	espetaculo	espetaculo	NOUN	NOUN	_	8	appos	_	TokenRange=79:89
+11	americano	americano	ADJ	ADJ	_	10	amod	_	TokenRange=90:99
+12	rajiv	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=100:105
+13	joseph	_	NOUN	NOUN	_	12	flat	_	TokenRange=106:112
+14	chega	chegar	VERB	VERB	_	5	parataxis	_	TokenRange=113:118
+15	festival	festival	NOUN	NOUN	_	14	obj	_	TokenRange=119:127
+16	curitiba	curitiba	ADJ	ADJ	_	15	amod	_	TokenRange=128:136
+17	dias	dia	NOUN	NOUN	_	15	nmod	_	TokenRange=137:141
+18	7	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=142:143
+19	8	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=144:145
+20	abril	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No|TokenRange=146:151
+

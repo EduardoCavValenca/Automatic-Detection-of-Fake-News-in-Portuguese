@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornalista tv record revela portador sindrome machadojoseph doenca degenerativa conhecido jornalista tv record arnaldo duran revelou ontem 20 portador doenca degenerativa duran sofre sindrome machadojoseph doenca degenerativa faz portador doenca perca capacidade motora poucos video postado rede social contou diagnosticado pouco ano fevereiro 2015 contagiosa rara desconhecida preconceito disse sindrome cura duran disse procurou ajuda espiritual tentar diminuir efeitos doenca desde 2010 frequento instituicao promove fe emotiva religiosa ajudado bastante narrou jornalista
+1	jornalista	jornalista	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	tv	_	DET	DET	_	3	det	_	TokenRange=11:13
+3	record	record	NOUN	NOUN	_	1	appos	_	TokenRange=14:20
+4	revela	revelar	VERB	VERB	_	71	ccomp	_	TokenRange=21:27
+5	portador	portador	NOUN	NOUN	_	4	obj	_	TokenRange=28:36
+6	sindrome	sindrome	NOUN	NOUN	_	4	obj	_	TokenRange=37:45
+7	machadojoseph	_	NOUN	NOUN	_	6	amod	_	TokenRange=46:59
+8	doenca	doenca	NOUN	NOUN	_	6	appos	_	TokenRange=60:66
+9	degenerativa	degenerativo	ADJ	ADJ	_	8	amod	_	TokenRange=67:79
+10	conhecido	conhecer	VERB	VERB	_	11	acl	_	TokenRange=80:89
+11	jornalista	jornalista	NOUN	NOUN	_	4	nsubj	_	TokenRange=90:100
+12	tv	_	DET	DET	_	11	appos	_	TokenRange=101:103
+13	record	record	NOUN	NOUN	_	11	appos	_	TokenRange=104:110
+14	arnaldo	arnaldo	NOUN	NOUN	_	11	appos	_	TokenRange=111:118
+15	duran	_	ADJ	ADJ	_	14	amod	_	TokenRange=119:124
+16	revelou	revelar	VERB	VERB	_	4	parataxis	_	TokenRange=125:132
+17	ontem	ontem	ADV	ADV	_	16	advmod	_	TokenRange=133:138
+18	20	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=139:141
+19	portador	portador	NOUN	NOUN	_	16	obj	_	TokenRange=142:150
+20	doenca	doenca	NOUN	NOUN	_	19	appos	_	TokenRange=151:157
+21	degenerativa	degenerativo	ADJ	ADJ	_	20	amod	_	TokenRange=158:170
+22	duran	_	ADJ	ADJ	_	20	amod	_	TokenRange=171:176
+23	sofre	sofrer	VERB	VERB	_	16	ccomp	_	TokenRange=177:182
+24	sindrome	sindrome	NOUN	NOUN	_	23	obj	_	TokenRange=183:191
+25	machadojoseph	_	NOUN	NOUN	_	24	amod	_	TokenRange=192:205
+26	doenca	doenca	NOUN	NOUN	_	23	nsubj	_	TokenRange=206:212
+27	degenerativa	degenerativo	ADJ	ADJ	_	26	amod	_	TokenRange=213:225
+28	faz	fazer	VERB	VERB	_	24	acl:relcl	_	TokenRange=226:229
+29	portador	portador	NOUN	NOUN	_	28	obj	_	TokenRange=230:238
+30	doenca	doenca	NOUN	NOUN	_	28	nsubj	_	TokenRange=239:245
+31	perca	perca	NOUN	NOUN	_	32	amod	_	TokenRange=246:251
+32	capacidade	capacidade	NOUN	NOUN	_	28	obj	_	TokenRange=252:262
+33	motora	motor	ADJ	ADJ	_	32	amod	_	TokenRange=263:269
+34	poucos	_	DET	DET	_	35	det	_	TokenRange=270:276
+35	video	video	NOUN	NOUN	_	28	nsubj	_	TokenRange=277:282
+36	postado	postar	VERB	VERB	_	35	acl	_	TokenRange=283:290
+37	rede	rede	NOUN	NOUN	_	36	nsubj	_	TokenRange=291:295
+38	social	social	ADJ	ADJ	_	37	amod	_	TokenRange=296:302
+39	contou	contar	AUX	AUX	_	40	aux	_	TokenRange=303:309
+40	diagnosticado	diagnosticar	VERB	VERB	_	4	conj	_	TokenRange=310:323
+41	pouco	_	DET	DET	_	42	det	_	TokenRange=324:329
+42	ano	ano	NOUN	NOUN	_	40	nmod	_	TokenRange=330:333
+43	fevereiro	_	PROPN	PNOUN	_	42	appos	_	TokenRange=334:343
+44	2015	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=344:348
+45	contagiosa	contagioso	ADJ	ADJ	_	43	amod	_	TokenRange=349:359
+46	rara	rara	ADJ	ADJ	_	45	amod	_	TokenRange=360:364
+47	desconhecida	desconhecer	ADJ	ADJ	_	48	amod	_	TokenRange=365:377
+48	preconceito	preconceito	NOUN	NOUN	_	49	nsubj	_	TokenRange=378:389
+49	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=390:395
+50	sindrome	sindrome	NOUN	NOUN	_	49	obj	_	TokenRange=396:404
+51	cura	cura	NOUN	NOUN	_	50	appos	_	TokenRange=405:409
+52	duran	_	ADJ	ADJ	_	51	amod	_	TokenRange=410:415
+53	disse	dizer	VERB	VERB	_	49	parataxis	_	TokenRange=416:421
+54	procurou	procurar	VERB	VERB	_	53	xcomp	_	TokenRange=422:430
+55	ajuda	ajuda	NOUN	NOUN	_	54	obj	_	TokenRange=431:436
+56	espiritual	espiritual	ADJ	ADJ	_	55	amod	_	TokenRange=437:447
+57	tentar	tentar	VERB	VERB	_	55	acl:inf	_	TokenRange=448:454
+58	diminuir	diminuir	VERB	VERB	_	57	xcomp	_	TokenRange=455:463
+59	efeitos	efeito	NOUN	NOUN	_	58	obj	_	TokenRange=464:471
+60	doenca	doenca	NOUN	NOUN	_	59	amod	_	TokenRange=472:478
+61	desde	_	ADP	ADP	_	62	case	_	TokenRange=479:484
+62	2010	_	NUM	NUM	NumType=Card	65	nmod	_	TokenRange=485:489
+63	frequento	frequento	ADJ	ADJ	_	65	xcomp	_	TokenRange=490:499
+64	instituicao	instituicao	NOUN	NOUN	_	65	nsubj	_	TokenRange=500:511
+65	promove	promover	VERB	VERB	_	57	conj	_	TokenRange=512:519
+66	fe	fe	NOUN	NOUN	_	65	obj	_	TokenRange=520:522
+67	emotiva	emotivo	ADJ	ADJ	_	66	amod	_	TokenRange=523:530
+68	religiosa	religioso	ADJ	ADJ	_	66	amod	_	TokenRange=531:540
+69	ajudado	ajudar	VERB	VERB	_	66	acl	_	TokenRange=541:548
+70	bastante	bastante	ADV	ADV	_	71	advmod	_	TokenRange=549:557
+71	narrou	narrar	VERB	VERB	_	0	root	_	TokenRange=558:564
+72	jornalista	jornalista	NOUN	NOUN	_	71	nsubj	_	SpaceAfter=No|TokenRange=565:575
+

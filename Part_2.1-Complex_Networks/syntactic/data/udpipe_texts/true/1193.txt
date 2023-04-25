@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula diz intervencao forma temer pegar nicho bolsonaro presidente rebate expresidente afirma medida pirotecnia presidente republica busca reeleicao intervencao federal seguranca publica rio janeiro pirotecnia criada governo presidente michel temer tentar reelegelo acusou nesta quartafeira 21 expresidente luiz inacio lula silva entrevista radio itatiaia belo horizonte lider petista afirmou ainda descarta aliancas mdb estados vez partido federacao grupos regionais
+1	lula	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=5:8
+3	intervencao	intervencao	NOUN	NOUN	_	2	obj	_	TokenRange=9:20
+4	forma	forma	NOUN	NOUN	_	2	nsubj	_	TokenRange=21:26
+5	temer	temer	NOUN	NOUN	_	6	nsubj	_	TokenRange=27:32
+6	pegar	pegar	VERB	VERB	_	4	acl:relcl	_	TokenRange=33:38
+7	nicho	_	NOUN	NOUN	_	6	obj	_	TokenRange=39:44
+8	bolsonaro	bolsonaro	ADJ	ADJ	_	7	amod	_	TokenRange=45:54
+9	presidente	presidente	NOUN	NOUN	_	6	obj	_	TokenRange=55:65
+10	rebate	rebate	NOUN	NOUN	_	9	flat	_	TokenRange=66:72
+11	expresidente	expresidente	NOUN	NOUN	_	9	appos	_	TokenRange=73:85
+12	afirma	afirmar	VERB	VERB	_	2	conj	_	TokenRange=86:92
+13	medida	medida	NOUN	NOUN	_	12	obj	_	TokenRange=93:99
+14	pirotecnia	pirotecnia	ADJ	ADJ	_	13	amod	_	TokenRange=100:110
+15	presidente	presidente	NOUN	NOUN	_	12	nsubj	_	TokenRange=111:121
+16	republica	republico	ADJ	ADJ	_	15	amod	_	TokenRange=122:131
+17	busca	buscar	VERB	VERB	_	13	acl:relcl	_	TokenRange=132:137
+18	reeleicao	reeleicao	NOUN	NOUN	_	17	obj	_	TokenRange=138:147
+19	intervencao	intervencao	NOUN	NOUN	_	18	appos	_	TokenRange=148:159
+20	federal	federal	ADJ	ADJ	_	19	amod	_	TokenRange=160:167
+21	seguranca	_	NOUN	NOUN	_	19	appos	_	TokenRange=168:177
+22	publica	publico	ADJ	ADJ	_	21	amod	_	TokenRange=178:185
+23	rio	_	NOUN	NOUN	_	21	appos	_	TokenRange=186:189
+24	janeiro	_	PROPN	PNOUN	_	23	appos	_	TokenRange=190:197
+25	pirotecnia	pirotecnia	NOUN	NOUN	_	17	nsubj	_	TokenRange=198:208
+26	criada	criado	ADJ	ADJ	_	25	amod	_	TokenRange=209:215
+27	governo	governo	NOUN	NOUN	_	31	nsubj	_	TokenRange=216:223
+28	presidente	presidente	NOUN	NOUN	_	31	nsubj	_	TokenRange=224:234
+29	michel	michel	ADJ	ADJ	_	31	amod	_	TokenRange=235:241
+30	temer	temer	NOUN	NOUN	_	31	nsubj	_	TokenRange=242:247
+31	tentar	tentar	VERB	VERB	_	25	acl:relcl	_	TokenRange=248:254
+32	reelegelo	reelegelo	NOUN	NOUN	_	31	obj	_	TokenRange=255:264
+33	acusou	acusar	VERB	VERB	_	2	parataxis	_	TokenRange=265:271
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=272:277
+35	quartafeira	_	NOUN	NOUN	_	33	nmod	_	TokenRange=278:289
+36	21	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=290:292
+37	expresidente	expresidente	NOUN	NOUN	_	35	appos	_	TokenRange=293:305
+38	luiz	luiz	ADJ	ADJ	_	37	appos	_	TokenRange=306:310
+39	inacio	_	NOUN	NOUN	_	37	appos	_	TokenRange=311:317
+40	lula	_	NOUN	NOUN	_	38	flat	_	TokenRange=318:322
+41	silva	silva	ADJ	ADJ	_	39	flat	_	TokenRange=323:328
+42	entrevista	entrevista	NOUN	NOUN	_	33	obj	_	TokenRange=329:339
+43	radio	radio	NOUN	NOUN	_	42	appos	_	TokenRange=340:345
+44	itatiaia	itatiaia	ADJ	ADJ	_	43	flat	_	TokenRange=346:354
+45	belo	belo	ADJ	ADJ	_	47	amod	_	TokenRange=355:359
+46	horizonte	horizonte	ADJ	ADJ	_	47	amod	_	TokenRange=360:369
+47	lider	lider	NOUN	NOUN	_	49	nsubj	_	TokenRange=370:375
+48	petista	petista	ADJ	ADJ	_	47	amod	_	TokenRange=376:383
+49	afirmou	afirmar	VERB	VERB	_	42	acl:relcl	_	TokenRange=384:391
+50	ainda	ainda	ADV	ADV	_	49	advmod	_	TokenRange=392:397
+51	descarta	descartar	VERB	VERB	_	49	ccomp	_	TokenRange=398:406
+52	aliancas	alianca	NOUN	NOUN	_	51	obj	_	TokenRange=407:415
+53	mdb	_	X	PNOUN	_	52	appos	_	TokenRange=416:419
+54	estados	estado	NOUN	NOUN	_	52	appos	_	TokenRange=420:427
+55	vez	vez	NOUN	NOUN	_	54	flat	_	TokenRange=428:431
+56	partido	partido	NOUN	NOUN	_	53	conj	_	TokenRange=432:439
+57	federacao	federacao	ADJ	ADJ	_	58	amod	_	TokenRange=440:449
+58	grupos	grupo	NOUN	NOUN	_	52	appos	_	TokenRange=450:456
+59	regionais	regional	ADJ	ADJ	_	58	amod	_	SpaceAfter=No|TokenRange=457:466
+

@@ -1,0 +1,23 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro vamos abrir arquivos dilma vamos mostrar assaltos assassinatos participou plenario camara bolsonaro irritou disse
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	vamos	ir	AUX	AUX	_	3	aux	_	TokenRange=10:15
+3	abrir	abrir	VERB	VERB	_	15	ccomp	_	TokenRange=16:21
+4	arquivos	arquivo	NOUN	NOUN	_	3	obj	_	TokenRange=22:30
+5	dilma	dilma	ADJ	NOUN	_	7	nsubj	_	TokenRange=31:36
+6	vamos	ir	AUX	AUX	_	7	aux	_	TokenRange=37:42
+7	mostrar	mostrar	VERB	VERB	_	3	ccomp	_	TokenRange=43:50
+8	assaltos	assalto	NOUN	NOUN	_	7	obj	_	TokenRange=51:59
+9	assassinatos	assassinato	ADJ	ADJ	_	8	amod	_	TokenRange=60:72
+10	participou	participar	VERB	VERB	_	3	parataxis	_	TokenRange=73:83
+11	plenario	plenario	NOUN	NOUN	_	10	obj	_	TokenRange=84:92
+12	camara	camara	ADJ	ADJ	_	14	nsubj	_	TokenRange=93:99
+13	bolsonaro	bolsonaro	NOUN	NOUN	_	14	nsubj	_	TokenRange=100:109
+14	irritou	irritar	VERB	VERB	_	15	ccomp	_	TokenRange=110:117
+15	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=118:123
+

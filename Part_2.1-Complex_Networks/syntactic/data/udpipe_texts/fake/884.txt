@@ -1,0 +1,25 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = kim jongun prova lunatico amo paz nenhum americano saira vivo daqui afirmacao divulgada agencia estatal noticias kcna
+1	kim	kim	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:3
+2	jongun	_	NOUN	NOUN	_	1	flat	_	TokenRange=4:10
+3	prova	prova	NOUN	NOUN	_	1	appos	_	TokenRange=11:16
+4	lunatico	lunatico	ADJ	ADJ	_	3	amod	_	TokenRange=17:25
+5	amo	_	ADP	ADP	_	6	case	_	TokenRange=26:29
+6	paz	paz	NOUN	NOUN	_	3	nmod	_	TokenRange=30:33
+7	nenhum	_	DET	DET	_	8	det	_	TokenRange=34:40
+8	americano	americano	NOUN	NOUN	_	9	nsubj	_	TokenRange=41:50
+9	saira	_	VERB	VERB	_	0	root	_	TokenRange=51:56
+10	vivo	vivo	ADJ	ADJ	_	9	xcomp	_	TokenRange=57:61
+11	daqui	_	ADP	ADP	_	12	case	_	TokenRange=62:67
+12	afirmacao	afirmacao	NOUN	NOUN	_	9	nmod	_	TokenRange=68:77
+13	divulgada	divulgar	VERB	ADJ	_	12	acl	_	TokenRange=78:87
+14	agencia	agencia	NOUN	NOUN	_	9	parataxis	_	TokenRange=88:95
+15	estatal	estatal	ADJ	ADJ	_	14	amod	_	TokenRange=96:103
+16	noticias	noticia	NOUN	NOUN	_	14	appos	_	TokenRange=104:112
+17	kcna	kcna	NOUN	NOUN	_	14	appos	_	SpaceAfter=No|TokenRange=113:117
+

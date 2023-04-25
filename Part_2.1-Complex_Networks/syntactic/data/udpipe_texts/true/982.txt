@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasilia dentro carro silencio profundo costume sente raiva candidato presidente aecio neves psdb cabeca zunindo atrasado debate presidenciaveis sbt dia 1 setembro avistou congestionamento quilometrico acidente caminhao bloqueado estrada veiculo cruzaria simbolico corrida contra tempo angustia sentir paralisado jamanta caminho pareceu aecio representacao momento politico vivia pouco 30 dias eleicao tucano 20 pontos atras principais adversarias dilma rousseff pt marina silva psb entretanto reviravolta tucano chega eleicao competitivo brigando voto voto candidata
+1	brasilia	brasilia	NOUN	NOUN	_	23	parataxis	_	TokenRange=0:8
+2	dentro	dentro	ADV	ADV	_	3	advmod	_	TokenRange=9:15
+3	carro	carro	NOUN	NOUN	_	1	appos	_	TokenRange=16:21
+4	silencio	silencio	ADJ	ADJ	_	3	amod	_	TokenRange=22:30
+5	profundo	profundo	ADJ	ADJ	_	3	amod	_	TokenRange=31:39
+6	costume	costume	NOUN	NOUN	_	3	appos	_	TokenRange=40:47
+7	sente	_	VERB	VERB	_	8	case	_	TokenRange=48:53
+8	raiva	raiva	NOUN	NOUN	_	23	nmod	_	TokenRange=54:59
+9	candidato	candidato	NOUN	NOUN	_	8	appos	_	TokenRange=60:69
+10	presidente	presidente	NOUN	NOUN	_	8	appos	_	TokenRange=70:80
+11	aecio	_	NOUN	NOUN	_	8	appos	_	TokenRange=81:86
+12	neves	_	NOUN	NOUN	_	11	flat	_	TokenRange=87:92
+13	psdb	_	NOUN	NOUN	_	11	flat	_	TokenRange=93:97
+14	cabeca	cabeca	NOUN	NOUN	_	11	flat	_	TokenRange=98:104
+15	zunindo	zunir	VERB	VERB	_	1	acl	_	TokenRange=105:112
+16	atrasado	atrasado	ADJ	ADJ	_	15	xcomp	_	TokenRange=113:121
+17	debate	debate	NOUN	NOUN	_	15	obj	_	TokenRange=122:128
+18	presidenciaveis	_	ADJ	ADJ	_	17	amod	_	TokenRange=129:144
+19	sbt	_	NOUN	NOUN	_	17	appos	_	TokenRange=145:148
+20	dia	dia	NOUN	NOUN	_	23	nmod	_	TokenRange=149:152
+21	1	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=153:154
+22	setembro	_	PROPN	PNOUN	_	20	appos	_	TokenRange=155:163
+23	avistou	avistar	VERB	VERB	_	0	root	_	TokenRange=164:171
+24	congestionamento	congestionamento	NOUN	NOUN	_	23	obj	_	TokenRange=172:188
+25	quilometrico	quilometrico	ADJ	ADJ	_	24	amod	_	TokenRange=189:201
+26	acidente	acidente	NOUN	NOUN	_	24	appos	_	TokenRange=202:210
+27	caminhao	caminhao	NOUN	NOUN	_	26	appos	_	TokenRange=211:219
+28	bloqueado	bloqueado	ADJ	ADJ	_	29	amod	_	TokenRange=220:229
+29	estrada	estrada	NOUN	NOUN	_	26	appos	_	TokenRange=230:237
+30	veiculo	veiculo	NOUN	NOUN	_	29	amod	_	TokenRange=238:245
+31	cruzaria	cruzaria	NOUN	NOUN	_	29	appos	_	TokenRange=246:254
+32	simbolico	simbolico	ADJ	ADJ	_	31	amod	_	TokenRange=255:264
+33	corrida	corrida	NOUN	NOUN	_	29	appos	_	TokenRange=265:272
+34	contra	_	ADP	ADP	_	35	case	_	TokenRange=273:279
+35	tempo	tempo	NOUN	NOUN	_	33	nmod	_	TokenRange=280:285
+36	angustia	angustia	NOUN	NOUN	_	35	appos	_	TokenRange=286:294
+37	sentir	sentir	VERB	VERB	_	23	parataxis	_	TokenRange=295:301
+38	paralisado	paralisado	ADJ	ADJ	_	37	xcomp	_	TokenRange=302:312
+39	jamanta	jamanta	NOUN	NOUN	_	37	nsubj	_	TokenRange=313:320
+40	caminho	caminho	NOUN	NOUN	_	37	nsubj	_	TokenRange=321:328
+41	pareceu	parecer	VERB	VERB	_	40	acl:relcl	_	TokenRange=329:336
+42	aecio	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=337:342
+43	representacao	representacao	ADJ	ADJ	_	44	amod	_	TokenRange=343:356
+44	momento	momento	NOUN	NOUN	_	46	nsubj	_	TokenRange=357:364
+45	politico	politico	ADJ	ADJ	_	44	amod	_	TokenRange=365:373
+46	vivia	viver	VERB	VERB	_	23	parataxis	_	TokenRange=374:379
+47	pouco	pouco	ADV	ADV	_	48	advmod	_	TokenRange=380:385
+48	30	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=386:388
+49	dias	dia	NOUN	NOUN	_	46	nmod	_	TokenRange=389:393
+50	eleicao	eleicao	NOUN	NOUN	_	46	obj	_	TokenRange=394:401
+51	tucano	tucano	NOUN	NOUN	_	50	amod	_	TokenRange=402:408
+52	20	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=409:411
+53	pontos	ponto	NOUN	NOUN	_	46	nmod	_	TokenRange=412:418
+54	atras	atras	ADV	ADV	_	56	advmod	_	TokenRange=419:424
+55	principais	principal	ADJ	ADJ	_	56	amod	_	TokenRange=425:435
+56	adversarias	adversaria	NOUN	NOUN	_	46	nsubj	_	TokenRange=436:447
+57	dilma	dilma	NOUN	NOUN	_	56	appos	_	TokenRange=448:453
+58	rousseff	rousseff	NOUN	NOUN	_	57	flat	_	TokenRange=454:462
+59	pt	_	NOUN	NOUN	_	56	appos	_	TokenRange=463:465
+60	marina	_	NOUN	NOUN	_	57	appos	_	TokenRange=466:472
+61	silva	silva	NOUN	NOUN	_	60	flat	_	TokenRange=473:478
+62	psb	_	PROPN	PNOUN	_	66	nsubj	_	TokenRange=479:482
+63	entretanto	entretanto	ADV	ADV	_	64	advmod	_	TokenRange=483:493
+64	reviravolta	reviravolta	NOUN	NOUN	_	66	nsubj	_	TokenRange=494:505
+65	tucano	tucano	ADJ	ADJ	_	64	amod	_	TokenRange=506:512
+66	chega	chegar	VERB	VERB	_	23	conj	_	TokenRange=513:518
+67	eleicao	eleicao	NOUN	NOUN	_	66	obj	_	TokenRange=519:526
+68	competitivo	competitivo	ADJ	ADJ	_	67	amod	_	TokenRange=527:538
+69	brigando	brigar	VERB	VERB	_	66	acl	_	TokenRange=539:547
+70	voto	voto	NOUN	NOUN	_	69	obj	_	TokenRange=548:552
+71	voto	voto	NOUN	NOUN	_	70	appos	_	TokenRange=553:557
+72	candidata	candidato	ADJ	ADJ	_	71	amod	_	SpaceAfter=No|TokenRange=558:567
+

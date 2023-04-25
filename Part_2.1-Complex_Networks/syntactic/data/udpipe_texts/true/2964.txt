@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = base delacao funaro dilma reitera pedido stf anular impeachment doleiro disse depoimento repassou r 1 milhao eduardo cunha peemedebista comprasse votos contra petista pgr manifestou contra pedido expresidente dilma rousseff reiterou pedido apresentado ano passado supremo tribunal federal stf anular processo impeachment devolver mandato nova manifestacao defesa cita depoimento doleiro lucio funaro disse repassou r 1 milhao expresidente camara eduardo cunha pmdbrj comprasse votos favoraveis destituicao petista veja video acima depoimento prestado delacao premiada veio tona semana passada nele funaro operador
+1	base	base	NOUN	NOUN	_	75	nsubj	_	TokenRange=0:4
+2	delacao	delacao	ADJ	ADJ	_	1	amod	_	TokenRange=5:12
+3	funaro	funaro	ADJ	ADJ	_	1	amod	_	TokenRange=13:19
+4	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=20:25
+5	reitera	reiterar	VERB	VERB	_	1	acl:relcl	_	TokenRange=26:33
+6	pedido	pedido	NOUN	NOUN	_	5	obj	_	TokenRange=34:40
+7	stf	_	ADJ	ADJ	_	8	nsubj	_	TokenRange=41:44
+8	anular	anular	VERB	VERB	_	1	acl:relcl	_	TokenRange=45:51
+9	impeachment	impeachment	NOUN	NOUN	_	8	obj	_	TokenRange=52:63
+10	doleiro	doleiro	NOUN	NOUN	_	11	nsubj	_	TokenRange=64:71
+11	disse	dizer	VERB	VERB	_	5	conj	_	TokenRange=72:77
+12	depoimento	depoimento	NOUN	NOUN	_	11	obj	_	TokenRange=78:88
+13	repassou	repassar	VERB	VERB	_	12	acl:relcl	_	TokenRange=89:97
+14	r	r	NOUN	NOUN	_	13	obj	_	TokenRange=98:99
+15	1	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=100:101
+16	milhao	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=102:108
+17	eduardo	eduardo	NOUN	NOUN	_	13	nsubj	_	TokenRange=109:116
+18	cunha	cunha	NOUN	NOUN	_	17	flat	_	TokenRange=117:122
+19	peemedebista	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=123:135
+20	comprasse	comprar	VERB	VERB	_	13	conj	_	TokenRange=136:145
+21	votos	voto	NOUN	NOUN	_	20	obj	_	TokenRange=146:151
+22	contra	_	ADP	ADP	_	23	case	_	TokenRange=152:158
+23	petista	petista	NOUN	NOUN	_	21	nmod	_	TokenRange=159:166
+24	pgr	_	NOUN	NOUN	_	23	appos	_	TokenRange=167:170
+25	manifestou	manifestar	VERB	VERB	_	20	conj	_	TokenRange=171:181
+26	contra	_	ADP	ADP	_	27	case	_	TokenRange=182:188
+27	pedido	pedido	NOUN	NOUN	_	25	nmod	_	TokenRange=189:195
+28	expresidente	expresidente	NOUN	NOUN	_	27	amod	_	TokenRange=196:208
+29	dilma	dilma	NOUN	NOUN	_	27	amod	_	TokenRange=209:214
+30	rousseff	rousseff	NOUN	NOUN	_	37	appos	_	TokenRange=215:223
+31	reiterou	reiterar	VERB	VERB	_	27	acl:relcl	_	TokenRange=224:232
+32	pedido	pedido	NOUN	NOUN	_	31	obj	_	TokenRange=233:239
+33	apresentado	apresentar	VERB	VERB	_	32	acl	_	TokenRange=240:251
+34	ano	ano	NOUN	NOUN	_	33	nmod	_	TokenRange=252:255
+35	passado	passado	ADJ	ADJ	_	34	amod	_	TokenRange=256:263
+36	supremo	supremo	ADJ	ADJ	_	37	amod	_	TokenRange=264:271
+37	tribunal	tribunal	NOUN	NOUN	_	31	nsubj	_	TokenRange=272:280
+38	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=281:288
+39	stf	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=289:292
+40	anular	anular	VERB	VERB	_	31	ccomp	_	TokenRange=293:299
+41	processo	processo	NOUN	NOUN	_	40	obj	_	TokenRange=300:308
+42	impeachment	impeachment	ADJ	NOUN	_	41	amod	_	TokenRange=309:320
+43	devolver	devolver	VERB	VERB	_	41	acl:inf	_	TokenRange=321:329
+44	mandato	mandato	NOUN	NOUN	_	43	obj	_	TokenRange=330:337
+45	nova	novo	ADJ	ADJ	_	46	amod	_	TokenRange=338:342
+46	manifestacao	manifestacao	NOUN	NOUN	_	43	obj	_	TokenRange=343:355
+47	defesa	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=356:362
+48	cita	citar	VERB	VERB	_	5	parataxis	_	TokenRange=363:367
+49	depoimento	depoimento	NOUN	NOUN	_	48	obj	_	TokenRange=368:378
+50	doleiro	doleiro	ADJ	ADJ	_	49	amod	_	TokenRange=379:386
+51	lucio	lucio	NOUN	NOUN	_	49	appos	_	TokenRange=387:392
+52	funaro	funaro	NOUN	NOUN	_	51	flat	_	TokenRange=393:399
+53	disse	dizer	VERB	VERB	_	49	acl:relcl	_	TokenRange=400:405
+54	repassou	repassar	VERB	VERB	_	53	ccomp	_	TokenRange=406:414
+55	r	r	NOUN	NOUN	_	54	obj	_	TokenRange=415:416
+56	1	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=417:418
+57	milhao	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=419:425
+58	expresidente	expresidente	NOUN	NOUN	_	54	nsubj	_	TokenRange=426:438
+59	camara	camara	ADJ	ADJ	_	58	amod	_	TokenRange=439:445
+60	eduardo	eduardo	NOUN	NOUN	_	58	appos	_	TokenRange=446:453
+61	cunha	cunha	NOUN	NOUN	_	60	flat	_	TokenRange=454:459
+62	pmdbrj	_	NOUN	NOUN	_	60	flat	_	TokenRange=460:466
+63	comprasse	comprar	VERB	VERB	_	54	parataxis	_	TokenRange=467:476
+64	votos	voto	NOUN	NOUN	_	63	obj	_	TokenRange=477:482
+65	favoraveis	favoravel	ADJ	ADJ	_	64	amod	_	TokenRange=483:493
+66	destituicao	destituicao	ADJ	ADJ	_	67	amod	_	TokenRange=494:505
+67	petista	petista	NOUN	NOUN	_	64	appos	_	TokenRange=506:513
+68	veja	ver	VERB	VERB	_	63	parataxis	_	TokenRange=514:518
+69	video	video	NOUN	NOUN	_	68	obj	_	TokenRange=519:524
+70	acima	acima	ADV	ADV	_	71	advmod	_	TokenRange=525:530
+71	depoimento	depoimento	NOUN	NOUN	_	75	nsubj	_	TokenRange=531:541
+72	prestado	prestar	VERB	VERB	_	71	acl	_	TokenRange=542:550
+73	delacao	delacao	NOUN	NOUN	_	72	obj	_	TokenRange=551:558
+74	premiada	premiado	ADJ	ADJ	_	71	amod	_	TokenRange=559:567
+75	veio	_	VERB	VERB	_	0	root	_	TokenRange=568:572
+76	tona	tono	ADJ	ADJ	_	77	amod	_	TokenRange=573:577
+77	semana	semana	NOUN	NOUN	_	75	nmod	_	TokenRange=578:584
+78	passada	passado	ADJ	ADJ	_	77	amod	_	TokenRange=585:592
+79	nele	_	X	ADPPRON	_	81	case	_	TokenRange=593:597
+80	funaro	funaro	ADJ	NOUN	_	77	nmod	_	TokenRange=598:604
+81	operador	operador	NOUN	NOUN	_	77	appos	_	SpaceAfter=No|TokenRange=605:613
+

@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula diz doria quer projetar custas faz dever casa sp usando jaqueta capitalista cbf daquelas custam quase mil reais expresidente tenta vez tirar foco lavajato questionado preocupado novos nomes leiase joao doria despontam disputa presidencial 2018 petista demonstrou cinismo arrogancia vez sinceramente acho desagradavel falar pessoa sequer conhecida brasil pessoa sequer fazendo dever cidade paulo tempos vem provocando projetar disputa nacional lula razao coisa doria tao conhecido assim lavajato
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=5:8
+3	doria	doria	NOUN	NOUN	_	2	obj	_	TokenRange=9:14
+4	quer	querer	VERB	VERB	_	2	ccomp	_	TokenRange=15:19
+5	projetar	projetar	VERB	VERB	_	4	xcomp	_	TokenRange=20:28
+6	custas	custa	NOUN	NOUN	_	5	obj	_	TokenRange=29:35
+7	faz	fazer	VERB	VERB	_	2	conj	_	TokenRange=36:39
+8	dever	dever	VERB	VERB	_	7	xcomp	_	TokenRange=40:45
+9	casa	casa	NOUN	NOUN	_	8	obj	_	TokenRange=46:50
+10	sp	_	NOUN	NOUN	_	9	flat	_	TokenRange=51:53
+11	usando	usar	VERB	VERB	_	9	acl	_	TokenRange=54:60
+12	jaqueta	jaqueta	NOUN	NOUN	_	11	obj	_	TokenRange=61:68
+13	capitalista	capitalista	ADJ	ADJ	_	12	amod	_	TokenRange=69:80
+14	cbf	_	NOUN	NOUN	_	12	appos	_	TokenRange=81:84
+15	daquelas	_	X	ADPPRON	_	16	nmod	_	TokenRange=85:93
+16	custam	custar	VERB	VERB	_	12	acl:relcl	_	TokenRange=94:100
+17	quase	quase	ADV	ADV	_	18	advmod	_	TokenRange=101:106
+18	mil	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=107:110
+19	reais	real	NOUN	NOUN	_	16	nsubj	_	TokenRange=111:116
+20	expresidente	expresidente	NOUN	NOUN	_	19	flat	_	TokenRange=117:129
+21	tenta	_	VERB	VERB	_	23	aux	_	TokenRange=130:135
+22	vez	vez	NOUN	NOUN	_	23	nmod	_	TokenRange=136:139
+23	tirar	tirar	VERB	VERB	_	16	conj	_	TokenRange=140:145
+24	foco	foco	NOUN	NOUN	_	23	obj	_	TokenRange=146:150
+25	lavajato	lavajato	NOUN	NOUN	_	24	appos	_	TokenRange=151:159
+26	questionado	questionar	VERB	VERB	_	29	acl	_	TokenRange=160:171
+27	preocupado	preocupado	ADJ	ADJ	_	29	amod	_	TokenRange=172:182
+28	novos	novo	ADJ	ADJ	_	29	amod	_	TokenRange=183:188
+29	nomes	nome	NOUN	NOUN	_	33	nsubj	_	TokenRange=189:194
+30	leiase	leiase	ADJ	ADJ	_	29	appos	_	TokenRange=195:201
+31	joao	joao	NOUN	NOUN	_	33	nsubj	_	TokenRange=202:206
+32	doria	doria	NOUN	NOUN	_	31	flat	_	TokenRange=207:212
+33	despontam	despontar	VERB	VERB	_	2	parataxis	_	TokenRange=213:222
+34	disputa	disputa	NOUN	NOUN	_	33	obj	_	TokenRange=223:230
+35	presidencial	presidencial	ADJ	ADJ	_	34	amod	_	TokenRange=231:243
+36	2018	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=244:248
+37	petista	petista	NOUN	NOUN	_	38	nsubj	_	TokenRange=249:256
+38	demonstrou	demonstrar	VERB	VERB	_	33	parataxis	_	TokenRange=257:267
+39	cinismo	cinismo	NOUN	NOUN	_	38	obj	_	TokenRange=268:275
+40	arrogancia	arrogancia	NOUN	NOUN	_	43	mark	_	TokenRange=276:286
+41	vez	vez	NOUN	NOUN	_	43	nmod	_	TokenRange=287:290
+42	sinceramente	sinceramente	ADV	ADV	_	43	advmod	_	TokenRange=291:303
+43	acho	achar	VERB	VERB	_	38	ccomp	_	TokenRange=304:308
+44	desagradavel	desagradavel	ADJ	ADJ	_	43	xcomp	_	TokenRange=309:321
+45	falar	falar	VERB	VERB	_	43	ccomp	_	TokenRange=322:327
+46	pessoa	pessoa	NOUN	NOUN	_	45	obj	_	TokenRange=328:334
+47	sequer	sequer	ADV	ADV	_	48	advmod	_	TokenRange=335:341
+48	conhecida	conhecido	ADJ	ADJ	_	46	amod	_	TokenRange=342:351
+49	brasil	brasil	ADJ	ADJ	_	50	amod	_	TokenRange=352:358
+50	pessoa	pessoa	NOUN	NOUN	_	58	nsubj	_	TokenRange=359:365
+51	sequer	sequer	ADV	ADV	_	52	advmod	_	TokenRange=366:372
+52	fazendo	fazer	VERB	VERB	_	50	acl	_	TokenRange=373:380
+53	dever	dever	NOUN	NOUN	_	52	obj	_	TokenRange=381:386
+54	cidade	cidade	NOUN	NOUN	_	52	obj	_	TokenRange=387:393
+55	paulo	paulo	ADJ	ADJ	_	54	amod	_	TokenRange=394:399
+56	tempos	tempo	NOUN	NOUN	_	58	nsubj	_	TokenRange=400:406
+57	vem	vir	AUX	AUX	_	58	aux	_	TokenRange=407:410
+58	provocando	provocar	VERB	VERB	_	43	conj	_	TokenRange=411:421
+59	projetar	projetar	VERB	VERB	_	58	xcomp	_	TokenRange=422:430
+60	disputa	disputa	NOUN	NOUN	_	59	obj	_	TokenRange=431:438
+61	nacional	nacional	ADJ	ADJ	_	60	amod	_	TokenRange=439:447
+62	lula	lula	NOUN	NOUN	_	64	amod	_	TokenRange=448:452
+63	razao	razao	ADJ	ADJ	_	64	amod	_	TokenRange=453:458
+64	coisa	coisa	NOUN	NOUN	_	67	nsubj	_	TokenRange=459:464
+65	doria	doria	ADJ	ADJ	_	64	amod	_	TokenRange=465:470
+66	tao	tao	ADV	ADV	_	67	advmod	_	TokenRange=471:474
+67	conhecido	conhecido	ADJ	ADJ	_	58	xcomp	_	TokenRange=475:484
+68	assim	assim	ADV	ADV	_	69	advmod	_	TokenRange=485:490
+69	lavajato	lavajato	VERB	VERB	_	67	xcomp	_	SpaceAfter=No|TokenRange=491:499
+

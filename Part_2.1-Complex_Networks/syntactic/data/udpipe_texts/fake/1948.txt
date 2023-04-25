@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sergio moro pede 80 novas vagas cadeias curitiba todo disponibilizadas 80 novas vagas praticamente galeria inteira complexo medico penal pinhais cmp regiao metropolitana curitiba sendo usada presos lava jato despacho juiz galeria preparada dias 21 25 deste mes funcionarios complexo pinhais organizando mutirao atender ordem moro final ultimo mes 11 presos condenados lavajato ocupando local partir dezembro 94 pessoas total tudo indica curitiba vai ficar cheia politicos ladroes comemorando natal atras grades forca moro brasil contigo
+1	sergio	sergio	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	moro	moro	NOUN	NOUN	_	1	flat	_	TokenRange=7:11
+3	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=12:16
+4	80	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=17:19
+5	novas	novo	ADJ	ADJ	_	6	amod	_	TokenRange=20:25
+6	vagas	vaga	NOUN	NOUN	_	3	obj	_	TokenRange=26:31
+7	cadeias	cadeia	NOUN	NOUN	_	3	obj	_	TokenRange=32:39
+8	curitiba	curitiba	ADJ	ADJ	_	7	amod	_	TokenRange=40:48
+9	todo	todo	ADJ	ADJ	_	10	advmod	_	TokenRange=49:53
+10	disponibilizadas	disponibilizar	VERB	VERB	_	7	acl	_	TokenRange=54:70
+11	80	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=71:73
+12	novas	novo	ADJ	ADJ	_	13	amod	_	TokenRange=74:79
+13	vagas	vaga	NOUN	NOUN	_	3	obj	_	TokenRange=80:85
+14	praticamente	praticamente	ADV	ADV	_	15	advmod	_	TokenRange=86:98
+15	galeria	galeria	NOUN	NOUN	_	13	appos	_	TokenRange=99:106
+16	inteira	inteiro	ADJ	ADJ	_	15	amod	_	TokenRange=107:114
+17	complexo	complexo	ADJ	ADJ	_	18	amod	_	TokenRange=115:123
+18	medico	medico	NOUN	NOUN	_	15	appos	_	TokenRange=124:130
+19	penal	penal	ADJ	ADJ	_	18	amod	_	TokenRange=131:136
+20	pinhais	_	ADJ	ADJ	_	18	amod	_	TokenRange=137:144
+21	cmp	_	ADP	NOUN	_	22	case	_	TokenRange=145:148
+22	regiao	regiao	NOUN	NOUN	_	15	appos	_	TokenRange=149:155
+23	metropolitana	metropolitano	ADJ	ADJ	_	22	amod	_	TokenRange=156:169
+24	curitiba	curitiba	NOUN	NOUN	_	22	appos	_	TokenRange=170:178
+25	sendo	ser	AUX	AUX	_	26	aux:pass	_	TokenRange=179:184
+26	usada	usar	VERB	VERB	_	22	acl	_	TokenRange=185:190
+27	presos	preso	NOUN	NOUN	_	26	nsubj:pass	_	TokenRange=191:197
+28	lava	lavar	VERB	VERB	_	13	appos	_	TokenRange=198:202
+29	jato	jato	NOUN	NOUN	_	28	obj	_	TokenRange=203:207
+30	despacho	despacho	NOUN	NOUN	_	28	appos	_	TokenRange=208:216
+31	juiz	juiz	NOUN	NOUN	_	30	flat	_	TokenRange=217:221
+32	galeria	galeria	NOUN	NOUN	_	28	appos	_	TokenRange=222:229
+33	preparada	preparar	ADJ	ADJ	_	34	acl	_	TokenRange=230:239
+34	dias	dia	NOUN	NOUN	_	28	nmod	_	TokenRange=240:244
+35	21	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=245:247
+36	25	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=248:250
+37	deste	_	ADP	ADP	_	38	case	_	TokenRange=251:256
+38	mes	mes	NOUN	NOUN	_	36	nmod	_	TokenRange=257:260
+39	funcionarios	funcionario	NOUN	NOUN	_	28	obj	_	TokenRange=261:273
+40	complexo	complexo	ADJ	ADJ	_	39	appos	_	TokenRange=274:282
+41	pinhais	_	NOUN	NOUN	_	40	amod	_	TokenRange=283:290
+42	organizando	organizar	VERB	VERB	_	39	acl	_	TokenRange=291:302
+43	mutirao	mutirao	NOUN	NOUN	_	42	obj	_	TokenRange=303:310
+44	atender	atender	VERB	VERB	_	42	ccomp	_	TokenRange=311:318
+45	ordem	ordem	NOUN	NOUN	_	44	obj	_	TokenRange=319:324
+46	moro	moro	NOUN	NOUN	_	45	flat	_	TokenRange=325:329
+47	final	final	ADJ	ADJ	_	49	amod	_	TokenRange=330:335
+48	ultimo	_	ADJ	ADJ	_	49	amod	_	TokenRange=336:342
+49	mes	mes	NOUN	NOUN	_	45	appos	_	TokenRange=343:346
+50	11	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=347:349
+51	presos	preso	NOUN	NOUN	_	44	nsubj	_	TokenRange=350:356
+52	condenados	condenar	VERB	VERB	_	51	acl	_	TokenRange=357:367
+53	lavajato	lavajato	NOUN	NOUN	_	52	obj	_	TokenRange=368:376
+54	ocupando	ocupar	VERB	VERB	_	52	acl	_	TokenRange=377:385
+55	local	local	NOUN	NOUN	_	54	obj	_	TokenRange=386:391
+56	partir	partir	VERB	VERB	_	54	parataxis	_	TokenRange=392:398
+57	dezembro	_	PROPN	PNOUN	_	56	nmod	_	TokenRange=399:407
+58	94	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=408:410
+59	pessoas	pessoa	NOUN	NOUN	_	56	nsubj	_	TokenRange=411:418
+60	total	total	ADJ	ADJ	_	59	amod	_	TokenRange=419:424
+61	tudo	_	PRON	PRON	_	62	nsubj	_	TokenRange=425:429
+62	indica	indicar	VERB	VERB	_	59	acl:relcl	_	TokenRange=430:436
+63	curitiba	curitiba	NOUN	NOUN	_	62	obj	_	TokenRange=437:445
+64	vai	ir	AUX	AUX	_	65	aux	_	TokenRange=446:449
+65	ficar	ficar	VERB	VERB	_	62	ccomp	_	TokenRange=450:455
+66	cheia	cheio	ADJ	ADJ	_	65	xcomp	_	TokenRange=456:461
+67	politicos	politico	ADJ	ADJ	_	68	amod	_	TokenRange=462:471
+68	ladroes	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=472:479
+69	comemorando	comemorar	VERB	VERB	_	65	acl	_	TokenRange=480:491
+70	natal	_	NOUN	NOUN	_	69	obj	_	TokenRange=492:497
+71	atras	_	ADV	ADV	_	72	advmod	_	TokenRange=498:503
+72	grades	grade	NOUN	NOUN	_	73	nmod	_	TokenRange=504:510
+73	forca	forca	NOUN	NOUN	_	69	obj	_	TokenRange=511:516
+74	moro	moro	ADJ	ADJ	_	73	amod	_	TokenRange=517:521
+75	brasil	brasil	NOUN	NOUN	_	73	appos	_	TokenRange=522:528
+76	contigo	_	ADJ	ADJ	_	73	amod	_	SpaceAfter=No|TokenRange=529:536
+

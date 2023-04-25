@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja mortos tragedia creche norte mg sete criancas professora 43 anos autor crime morreram damiao soares santos ateou fogo proprio corpo alunos creche gente inocente sete criancas professora proprio autor crime morreram quintafeira 5 incendio criminoso ocorrido centro municipal educacao infantil gente inocente damiao soares santos trabalhava vigia noturno local desde 2008 jogou alcool criancas nele seguida ateou fogo nesta sextafeira 6 41 pessoas seguiam internadas hospitais janauba montes claros belo horizonte acordo informacoes
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	mortos	morto	NOUN	NOUN	_	1	obj	_	TokenRange=5:11
+3	tragedia	tragedia	NOUN	NOUN	_	1	obj	_	TokenRange=12:20
+4	creche	creche	NOUN	NOUN	_	3	appos	_	TokenRange=21:27
+5	norte	norte	ADJ	ADJ	_	4	amod	_	TokenRange=28:33
+6	mg	_	NOUN	NOUN	_	4	appos	_	TokenRange=34:36
+7	sete	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=37:41
+8	criancas	crianca	NOUN	NOUN	_	14	nsubj	_	TokenRange=42:50
+9	professora	professor	NOUN	NOUN	_	8	appos	_	TokenRange=51:61
+10	43	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=62:64
+11	anos	ano	NOUN	NOUN	_	8	appos	_	TokenRange=65:69
+12	autor	autor	NOUN	NOUN	_	14	nsubj	_	TokenRange=70:75
+13	crime	crime	NOUN	NOUN	_	12	flat	_	TokenRange=76:81
+14	morreram	morrer	VERB	VERB	_	1	parataxis	_	TokenRange=82:90
+15	damiao	damiao	NOUN	NOUN	_	14	obj	_	TokenRange=91:97
+16	soares	_	NOUN	NOUN	_	15	flat	_	TokenRange=98:104
+17	santos	santo	NOUN	NOUN	_	15	amod	_	TokenRange=105:111
+18	ateou	atear	VERB	VERB	_	1	parataxis	_	TokenRange=112:117
+19	fogo	fogo	NOUN	NOUN	_	18	obj	_	TokenRange=118:122
+20	proprio	proprio	ADJ	ADJ	_	19	amod	_	TokenRange=123:130
+21	corpo	corpo	NOUN	NOUN	_	18	obj	_	TokenRange=131:136
+22	alunos	aluno	NOUN	NOUN	_	18	nsubj	_	TokenRange=137:143
+23	creche	creche	NOUN	NOUN	_	22	appos	_	TokenRange=144:150
+24	gente	gente	NOUN	NOUN	_	22	appos	_	TokenRange=151:156
+25	inocente	inocente	ADJ	ADJ	_	24	amod	_	TokenRange=157:165
+26	sete	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=166:170
+27	criancas	crianca	NOUN	NOUN	_	32	nsubj	_	TokenRange=171:179
+28	professora	professor	NOUN	NOUN	_	27	appos	_	TokenRange=180:190
+29	proprio	proprio	ADJ	ADJ	_	30	amod	_	TokenRange=191:198
+30	autor	autor	NOUN	NOUN	_	28	appos	_	TokenRange=199:204
+31	crime	crime	NOUN	NOUN	_	30	flat	_	TokenRange=205:210
+32	morreram	morrer	VERB	VERB	_	1	parataxis	_	TokenRange=211:219
+33	quintafeira	quintafeira	NOUN	NOUN	_	32	obj	_	TokenRange=220:231
+34	5	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=232:233
+35	incendio	incendio	NOUN	NOUN	_	32	nsubj	_	TokenRange=234:242
+36	criminoso	criminoso	ADJ	ADJ	_	35	amod	_	TokenRange=243:252
+37	ocorrido	ocorrer	VERB	VERB	_	38	acl	_	TokenRange=253:261
+38	centro	centro	NOUN	NOUN	_	32	nsubj	_	TokenRange=262:268
+39	municipal	municipal	ADJ	ADJ	_	38	amod	_	TokenRange=269:278
+40	educacao	educacao	NOUN	NOUN	_	38	appos	_	TokenRange=279:287
+41	infantil	infantil	ADJ	ADJ	_	38	amod	_	TokenRange=288:296
+42	gente	gente	NOUN	NOUN	_	47	nsubj	_	TokenRange=297:302
+43	inocente	inocente	ADJ	ADJ	_	42	amod	_	TokenRange=303:311
+44	damiao	damiao	NOUN	NOUN	_	42	appos	_	TokenRange=312:318
+45	soares	_	NOUN	NOUN	_	44	flat	_	TokenRange=319:325
+46	santos	santo	ADJ	ADJ	_	44	amod	_	TokenRange=326:332
+47	trabalhava	trabalhar	VERB	VERB	_	1	parataxis	_	TokenRange=333:343
+48	vigia	vigia	NOUN	NOUN	_	47	obj	_	TokenRange=344:349
+49	noturno	noturno	ADJ	ADJ	_	48	amod	_	TokenRange=350:357
+50	local	local	ADJ	ADJ	_	48	amod	_	TokenRange=358:363
+51	desde	_	ADP	ADP	_	52	case	_	TokenRange=364:369
+52	2008	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=370:374
+53	jogou	jogar	VERB	VERB	_	47	parataxis	_	TokenRange=375:380
+54	alcool	alcool	NOUN	NOUN	_	53	obj	_	TokenRange=381:387
+55	criancas	crianca	NOUN	NOUN	_	58	nsubj	_	TokenRange=388:396
+56	nele	_	ADP	ADP	_	57	case	_	TokenRange=397:401
+57	seguida	_	NOUN	NOUN	_	55	nmod	_	TokenRange=402:409
+58	ateou	atear	VERB	VERB	_	53	parataxis	_	TokenRange=410:415
+59	fogo	fogo	NOUN	NOUN	_	58	obj	_	TokenRange=416:420
+60	nesta	_	ADP	ADP	_	61	case	_	TokenRange=421:426
+61	sextafeira	sextafeira	NOUN	NOUN	_	58	nmod	_	TokenRange=427:437
+62	6	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=438:439
+63	41	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=440:442
+64	pessoas	pessoa	NOUN	NOUN	_	65	nsubj	_	TokenRange=443:450
+65	seguiam	seguir	VERB	VERB	_	47	parataxis	_	TokenRange=451:458
+66	internadas	internado	ADJ	ADJ	_	65	xcomp	_	TokenRange=459:469
+67	hospitais	hospital	NOUN	NOUN	_	65	nsubj	_	TokenRange=470:479
+68	janauba	janauba	ADJ	ADJ	_	67	amod	_	TokenRange=480:487
+69	montes	monte	NOUN	NOUN	_	67	appos	_	TokenRange=488:494
+70	claros	claro	ADJ	ADJ	_	69	amod	_	TokenRange=495:501
+71	belo	belo	ADJ	ADJ	_	72	amod	_	TokenRange=502:506
+72	horizonte	horizonte	NOUN	NOUN	_	69	amod	_	TokenRange=507:516
+73	acordo	acordo	ADJ	ADJ	_	65	xcomp	_	TokenRange=517:523
+74	informacoes	informacoe	NOUN	NOUN	_	65	obj	_	SpaceAfter=No|TokenRange=524:535
+

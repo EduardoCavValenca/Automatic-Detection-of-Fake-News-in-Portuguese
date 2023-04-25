@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vivo datena diz marcelo resende faz jornalismo estelionatario datena band mandou indireta quer dizer direta vivo rival marcelo rezende cidade alerta record durante transmissao manifestacao regiao metropolitana paulo ocorrida ontem 02 jose luiz datena irritou descobriu concorrente transmitia imagens manifestacao vivo verdade gravadas aqui mente minto nunca informacao nenhuma emissora local vivo dizendo vivo mentindo fazendo jornalismo estelionatario disse
+1	vivo	vivo	ADJ	ADJ	_	3	amod	_	TokenRange=0:4
+2	datena	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=5:11
+3	diz	dizer	VERB	VERB	_	59	ccomp	_	TokenRange=12:15
+4	marcelo	marcelo	NOUN	NOUN	_	3	obj	_	TokenRange=16:23
+5	resende	resende	NOUN	NOUN	_	4	flat	_	TokenRange=24:31
+6	faz	fazer	VERB	VERB	_	3	ccomp	_	TokenRange=32:35
+7	jornalismo	jornalismo	NOUN	NOUN	_	6	obj	_	TokenRange=36:46
+8	estelionatario	estelionatario	NOUN	NOUN	_	7	flat	_	TokenRange=47:61
+9	datena	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=62:68
+10	band	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=69:73
+11	mandou	mandar	VERB	VERB	_	3	conj	_	TokenRange=74:80
+12	indireta	indireto	NOUN	NOUN	_	11	obj	_	TokenRange=81:89
+13	quer	quer	CCONJ	NOUN	_	14	cc	_	TokenRange=90:94
+14	dizer	dizer	VERB	VERB	_	11	xcomp	_	TokenRange=95:100
+15	direta	direto	ADJ	ADJ	_	14	amod	_	TokenRange=101:107
+16	vivo	vivo	NOUN	NOUN	_	14	obj	_	TokenRange=108:112
+17	rival	rival	ADJ	ADJ	_	16	amod	_	TokenRange=113:118
+18	marcelo	marcelo	NOUN	NOUN	_	16	appos	_	TokenRange=119:126
+19	rezende	rezende	NOUN	NOUN	_	18	flat	_	TokenRange=127:134
+20	cidade	cidade	NOUN	NOUN	_	18	appos	_	TokenRange=135:141
+21	alerta	alerta	ADJ	ADJ	_	20	amod	_	TokenRange=142:148
+22	record	_	NOUN	NOUN	_	20	appos	_	TokenRange=149:155
+23	durante	_	ADP	ADP	_	24	case	_	TokenRange=156:163
+24	transmissao	transmissao	NOUN	NOUN	_	14	nmod	_	TokenRange=164:175
+25	manifestacao	manifestacao	ADJ	ADJ	_	26	amod	_	TokenRange=176:188
+26	regiao	regiao	NOUN	NOUN	_	24	appos	_	TokenRange=189:195
+27	metropolitana	metropolitano	ADJ	ADJ	_	26	amod	_	TokenRange=196:209
+28	paulo	paulo	NOUN	NOUN	_	26	appos	_	TokenRange=210:215
+29	ocorrida	ocorrer	VERB	VERB	_	26	acl	_	TokenRange=216:224
+30	ontem	ontem	ADV	ADV	_	29	advmod	_	TokenRange=225:230
+31	02	_	NUM	NUM	NumType=Card	32	appos	_	TokenRange=231:233
+32	jose	jose	NOUN	NOUN	_	29	nsubj	_	TokenRange=234:238
+33	luiz	luiz	NOUN	NOUN	_	32	flat	_	TokenRange=239:243
+34	datena	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=244:250
+35	irritou	irritar	VERB	VERB	_	32	acl:relcl	_	TokenRange=251:258
+36	descobriu	descobrir	VERB	VERB	_	35	ccomp	_	TokenRange=259:268
+37	concorrente	concorrente	NOUN	NOUN	_	38	nsubj	_	TokenRange=269:280
+38	transmitia	transmitir	VERB	VERB	_	36	ccomp	_	TokenRange=281:291
+39	imagens	imagem	NOUN	NOUN	_	38	obj	_	TokenRange=292:299
+40	manifestacao	manifestacao	NOUN	NOUN	_	39	amod	_	TokenRange=300:312
+41	vivo	vivo	ADJ	ADJ	_	42	amod	_	TokenRange=313:317
+42	verdade	verdade	NOUN	NOUN	_	39	appos	_	TokenRange=318:325
+43	gravadas	gravado	ADJ	ADJ	_	42	amod	_	TokenRange=326:334
+44	aqui	aqui	ADV	ADV	_	48	advmod	_	TokenRange=335:339
+45	mente	mente	ADV	ADV	_	48	advmod	_	TokenRange=340:345
+46	minto	_	PRON	PRON	_	48	nsubj	_	TokenRange=346:351
+47	nunca	nunca	ADV	ADV	_	48	advmod	_	TokenRange=352:357
+48	informacao	informacao	VERB	VERB	_	42	acl:relcl	_	TokenRange=358:368
+49	nenhuma	_	DET	DET	_	50	det	_	TokenRange=369:376
+50	emissora	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=377:385
+51	local	local	ADJ	ADJ	_	50	amod	_	TokenRange=386:391
+52	vivo	vivo	ADJ	ADJ	_	50	amod	_	TokenRange=392:396
+53	dizendo	dizer	VERB	VERB	_	50	acl	_	TokenRange=397:404
+54	vivo	vivo	NOUN	NOUN	_	53	obj	_	TokenRange=405:409
+55	mentindo	mentir	VERB	VERB	_	50	acl	_	TokenRange=410:418
+56	fazendo	fazer	VERB	VERB	_	53	acl	_	TokenRange=419:426
+57	jornalismo	jornalismo	NOUN	NOUN	_	56	obj	_	TokenRange=427:437
+58	estelionatario	estelionatario	NOUN	NOUN	_	59	nsubj	_	TokenRange=438:452
+59	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=453:458
+

@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = primeira entrevista alan ruschel emociona brasil chega doer gente forca garoto lateral alan ruschel sobreviventes voo chapecoense concedeu manha hoje 17 primeira entrevista coletiva desde tragedia comoveu mundo ultimo dia 29 vestindo uniforme chapecoense emocionado jogador conseguiu conter forca ruschel brasil dor dor
+1	primeira	primeiro	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	entrevista	entrevista	NOUN	NOUN	_	18	nsubj	_	TokenRange=9:19
+3	alan	_	NOUN	NOUN	_	2	appos	_	TokenRange=20:24
+4	ruschel	_	NOUN	NOUN	_	3	flat	_	TokenRange=25:32
+5	emociona	emociono	NOUN	NOUN	_	3	appos	_	TokenRange=33:41
+6	brasil	brasil	NOUN	NOUN	_	3	flat	_	TokenRange=42:48
+7	chega	chegar	VERB	VERB	_	8	aux	_	TokenRange=49:54
+8	doer	doer	VERB	VERB	_	18	ccomp	_	TokenRange=55:59
+9	gente	gente	NOUN	NOUN	_	8	obj	_	TokenRange=60:65
+10	forca	forca	NOUN	NOUN	_	9	appos	_	TokenRange=66:71
+11	garoto	garoto	NOUN	NOUN	_	10	amod	_	TokenRange=72:78
+12	lateral	lateral	ADJ	ADJ	_	10	amod	_	TokenRange=79:86
+13	alan	_	NOUN	NOUN	_	11	appos	_	TokenRange=87:91
+14	ruschel	_	NOUN	NOUN	_	13	flat	_	TokenRange=92:99
+15	sobreviventes	sobrevivente	ADJ	ADJ	_	16	amod	_	TokenRange=100:113
+16	voo	voo	NOUN	NOUN	_	13	appos	_	TokenRange=114:117
+17	chapecoense	chapecoense	ADJ	ADJ	_	16	amod	_	TokenRange=118:129
+18	concedeu	conceder	VERB	VERB	_	0	root	_	TokenRange=130:138
+19	manha	manha	NOUN	NOUN	_	18	obj	_	TokenRange=139:144
+20	hoje	hoje	ADV	ADV	_	18	advmod	_	TokenRange=145:149
+21	17	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=150:152
+22	primeira	primeiro	ADJ	ADJ	_	23	amod	_	TokenRange=153:161
+23	entrevista	entrevista	NOUN	NOUN	_	18	nsubj	_	TokenRange=162:172
+24	coletiva	coletivo	ADJ	ADJ	_	23	amod	_	TokenRange=173:181
+25	desde	_	ADP	ADP	_	26	case	_	TokenRange=182:187
+26	tragedia	tragedia	NOUN	NOUN	_	27	nmod	_	TokenRange=188:196
+27	comoveu	comover	VERB	VERB	_	18	parataxis	_	TokenRange=197:204
+28	mundo	mundo	NOUN	NOUN	_	27	obj	_	TokenRange=205:210
+29	ultimo	_	ADJ	ADJ	_	30	amod	_	TokenRange=211:217
+30	dia	dia	NOUN	NOUN	_	27	nmod	_	TokenRange=218:221
+31	29	_	NUM	NUM	NumType=Card	30	appos	_	TokenRange=222:224
+32	vestindo	vestir	VERB	VERB	_	27	acl	_	TokenRange=225:233
+33	uniforme	uniforme	NOUN	NOUN	_	32	obj	_	TokenRange=234:242
+34	chapecoense	chapecoense	ADJ	ADJ	_	36	amod	_	TokenRange=243:254
+35	emocionado	emocionado	ADJ	ADJ	_	36	amod	_	TokenRange=255:265
+36	jogador	jogador	NOUN	NOUN	_	37	nsubj	_	TokenRange=266:273
+37	conseguiu	conseguir	VERB	VERB	_	27	parataxis	_	TokenRange=274:283
+38	conter	conter	VERB	VERB	_	37	xcomp	_	TokenRange=284:290
+39	forca	forca	NOUN	NOUN	_	38	obj	_	TokenRange=291:296
+40	ruschel	ruschel	ADJ	ADJ	_	39	amod	_	TokenRange=297:304
+41	brasil	brasil	NOUN	NOUN	_	39	amod	_	TokenRange=305:311
+42	dor	dor	NOUN	NOUN	_	38	nmod	_	TokenRange=312:315
+43	dor	dor	NOUN	NOUN	_	42	flat	_	SpaceAfter=No|TokenRange=316:319
+

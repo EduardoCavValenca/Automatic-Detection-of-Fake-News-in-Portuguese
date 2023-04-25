@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja medidas anunciadas governo incentivar economia objetivo ampliar oferta credito reduzir custo empresas desburocratizar comercio exterior governo federal anunciou nesta quintafeira 15 pacote medidas microeconomicas reduzir custos empresas aliviar dividas pessoas fisicas juridicas reduzir burocracia comercio exterior ministro fazenda henrique meirelles disse pacote
+1	veja	ver	VERB	VERB	_	42	ccomp	_	TokenRange=0:4
+2	medidas	medida	NOUN	NOUN	_	1	obj	_	TokenRange=5:12
+3	anunciadas	anunciar	ADJ	ADJ	_	2	acl	_	TokenRange=13:23
+4	governo	governo	NOUN	NOUN	_	5	nsubj	_	TokenRange=24:31
+5	incentivar	incentivar	VERB	VERB	_	2	acl:inf	_	TokenRange=32:42
+6	economia	economia	NOUN	NOUN	_	5	obj	_	TokenRange=43:51
+7	objetivo	objetivo	NOUN	NOUN	_	6	flat	_	TokenRange=52:60
+8	ampliar	ampliar	VERB	VERB	_	6	acl:inf	_	TokenRange=61:68
+9	oferta	oferta	NOUN	NOUN	_	8	obj	_	TokenRange=69:75
+10	credito	credito	NOUN	NOUN	_	9	flat	_	TokenRange=76:83
+11	reduzir	reduzir	VERB	VERB	_	8	ccomp	_	TokenRange=84:91
+12	custo	custo	NOUN	NOUN	_	11	obj	_	TokenRange=92:97
+13	empresas	empresa	NOUN	NOUN	_	14	obj	_	TokenRange=98:106
+14	desburocratizar	desburocratizar	VERB	VERB	_	12	acl:inf	_	TokenRange=107:122
+15	comercio	comercio	NOUN	NOUN	_	14	obj	_	TokenRange=123:131
+16	exterior	exterior	ADJ	ADJ	_	15	amod	_	TokenRange=132:140
+17	governo	governo	NOUN	NOUN	_	19	nsubj	_	TokenRange=141:148
+18	federal	federal	ADJ	ADJ	_	17	amod	_	TokenRange=149:156
+19	anunciou	anunciar	VERB	VERB	_	1	parataxis	_	TokenRange=157:165
+20	nesta	_	ADP	ADP	_	21	case	_	TokenRange=166:171
+21	quintafeira	quintafeira	NOUN	NOUN	_	19	nmod	_	TokenRange=172:183
+22	15	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=184:186
+23	pacote	pacote	NOUN	NOUN	_	19	obj	_	TokenRange=187:193
+24	medidas	medida	NOUN	NOUN	_	19	nsubj	_	TokenRange=194:201
+25	microeconomicas	microeconomico	ADJ	ADJ	_	24	amod	_	TokenRange=202:217
+26	reduzir	reduzir	VERB	VERB	_	24	acl:relcl	_	TokenRange=218:225
+27	custos	custo	NOUN	NOUN	_	26	obj	_	TokenRange=226:232
+28	empresas	empresa	NOUN	NOUN	_	27	flat	_	TokenRange=233:241
+29	aliviar	aliviar	VERB	VERB	_	24	acl:relcl	_	TokenRange=242:249
+30	dividas	divida	NOUN	NOUN	_	29	obj	_	TokenRange=250:257
+31	pessoas	pessoa	NOUN	NOUN	_	30	appos	_	TokenRange=258:265
+32	fisicas	fisico	ADJ	ADJ	_	31	amod	_	TokenRange=266:273
+33	juridicas	juridico	ADJ	ADJ	_	31	amod	_	TokenRange=274:283
+34	reduzir	reduzir	VERB	VERB	_	29	ccomp	_	TokenRange=284:291
+35	burocracia	burocracia	NOUN	NOUN	_	34	obj	_	TokenRange=292:302
+36	comercio	_	NOUN	NOUN	_	35	appos	_	TokenRange=303:311
+37	exterior	exterior	ADJ	ADJ	_	36	amod	_	TokenRange=312:320
+38	ministro	ministro	NOUN	NOUN	_	42	nsubj	_	TokenRange=321:329
+39	fazenda	fazenda	NOUN	NOUN	_	38	flat	_	TokenRange=330:337
+40	henrique	henrique	NOUN	NOUN	_	38	appos	_	TokenRange=338:346
+41	meirelles	_	NOUN	NOUN	_	40	flat	_	TokenRange=347:356
+42	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=357:362
+43	pacote	pacote	NOUN	NOUN	_	42	obj	_	SpaceAfter=No|TokenRange=363:369
+

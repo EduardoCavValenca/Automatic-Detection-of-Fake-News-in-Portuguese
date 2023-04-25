@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = medidas envolvem servidores publicos dificeis aprovar diz rodrigo maia deputado afirma agenda medidas provisorias importantes orcamento 2018 temas dificeis exigem base governo organizada brasilia presidente camara deputados rodrigo maia demrj disse entrevista exclusiva estadao/broadcast medidas ajuste fiscal 2018 atingem servidores adiamento reajustes aumento aliquota previdenciaria funcionalismo temas dificeis serem aprovados ocorre diante capacidade mobilizacao
+1	medidas	medida	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:7
+2	envolvem	envolver	VERB	VERB	_	1	acl	_	TokenRange=8:16
+3	servidores	servidor	NOUN	NOUN	_	2	obj	_	TokenRange=17:27
+4	publicos	publico	ADJ	ADJ	_	3	amod	_	TokenRange=28:36
+5	dificeis	dificil	ADJ	ADJ	_	3	amod	_	TokenRange=37:45
+6	aprovar	aprovar	VERB	VERB	_	2	xcomp	_	TokenRange=46:53
+7	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=54:57
+8	rodrigo	_	NOUN	NOUN	_	11	obj	_	TokenRange=58:65
+9	maia	_	NOUN	NOUN	_	8	flat	_	TokenRange=66:70
+10	deputado	deputado	NOUN	NOUN	_	11	nsubj	_	TokenRange=71:79
+11	afirma	afirmar	VERB	VERB	_	7	parataxis	_	TokenRange=80:86
+12	agenda	agenda	NOUN	NOUN	_	11	obj	_	TokenRange=87:93
+13	medidas	medida	NOUN	NOUN	_	12	appos	_	TokenRange=94:101
+14	provisorias	provisorio	ADJ	ADJ	_	13	amod	_	TokenRange=102:113
+15	importantes	importante	ADJ	ADJ	_	13	amod	_	TokenRange=114:125
+16	orcamento	orcamento	NOUN	NOUN	_	11	obj	_	TokenRange=126:135
+17	2018	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=136:140
+18	temas	tema	NOUN	NOUN	_	20	nsubj	_	TokenRange=141:146
+19	dificeis	dificil	ADJ	ADJ	_	18	amod	_	TokenRange=147:155
+20	exigem	exigir	VERB	VERB	_	16	acl:relcl	_	TokenRange=156:162
+21	base	base	NOUN	NOUN	_	20	obj	_	TokenRange=163:167
+22	governo	governo	NOUN	NOUN	_	21	appos	_	TokenRange=168:175
+23	organizada	organizado	ADJ	ADJ	_	21	amod	_	TokenRange=176:186
+24	brasilia	brasilia	NOUN	NOUN	_	25	appos	_	TokenRange=187:195
+25	presidente	presidente	NOUN	NOUN	_	20	nsubj	_	TokenRange=196:206
+26	camara	camara	ADJ	ADJ	_	27	amod	_	TokenRange=207:213
+27	deputados	deputado	NOUN	NOUN	_	25	appos	_	TokenRange=214:223
+28	rodrigo	_	NOUN	NOUN	_	25	appos	_	TokenRange=224:231
+29	maia	maia	NOUN	NOUN	_	28	flat	_	TokenRange=232:236
+30	demrj	_	NOUN	NOUN	_	28	flat	_	TokenRange=237:242
+31	disse	dizer	VERB	VERB	_	20	parataxis	_	TokenRange=243:248
+32	entrevista	entrevista	NOUN	NOUN	_	31	obj	_	TokenRange=249:259
+33	exclusiva	exclusivo	ADJ	ADJ	_	32	amod	_	TokenRange=260:269
+34	estadao/broadcast	_	NOUN	NOUN	_	32	appos	_	TokenRange=270:287
+35	medidas	medida	NOUN	NOUN	_	31	nsubj	_	TokenRange=288:295
+36	ajuste	ajustar	NOUN	NOUN	_	35	appos	_	TokenRange=296:302
+37	fiscal	fiscal	ADJ	ADJ	_	36	amod	_	TokenRange=303:309
+38	2018	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=310:314
+39	atingem	atingir	VERB	VERB	_	35	acl:relcl	_	TokenRange=315:322
+40	servidores	servidor	NOUN	NOUN	_	39	obj	_	TokenRange=323:333
+41	adiamento	adiamento	NOUN	NOUN	_	39	obj	_	TokenRange=334:343
+42	reajustes	reajuste	ADJ	ADJ	_	43	amod	_	TokenRange=344:353
+43	aumento	aumento	NOUN	NOUN	_	41	appos	_	TokenRange=354:361
+44	aliquota	aliquoto	NOUN	NOUN	_	43	amod	_	TokenRange=362:370
+45	previdenciaria	_	ADJ	ADJ	_	43	amod	_	TokenRange=371:385
+46	funcionalismo	funcionalismo	ADJ	ADJ	_	47	amod	_	TokenRange=386:399
+47	temas	tema	NOUN	NOUN	_	51	nsubj	_	TokenRange=400:405
+48	dificeis	dificil	ADJ	ADJ	_	47	amod	_	TokenRange=406:414
+49	serem	ser	AUX	AUX	_	50	aux:pass	_	TokenRange=415:420
+50	aprovados	aprovar	VERB	VERB	_	47	acl:inf	_	TokenRange=421:430
+51	ocorre	ocorrer	VERB	VERB	_	31	parataxis	_	TokenRange=431:437
+52	diante	diante	ADV	ADV	_	51	advmod	_	TokenRange=438:444
+53	capacidade	capacidade	NOUN	NOUN	_	51	nsubj	_	TokenRange=445:455
+54	mobilizacao	mobilizacao	ADJ	ADJ	_	53	amod	_	SpaceAfter=No|TokenRange=456:467
+

@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = paris vive momentos panico seis escolas evacuadas ameacas bomba escolas secundarias evacuadas paris agora pouco seis instituicoes receberam ameacas bomba via telefone via diario lisboa esquadroes antibomba vasculham escolar nesse momento jornal lexpress informou momento nada encontrado grupos especializados autoridades franca disseram trata alarme serio ontem wall street jornal publicou europol fez comunicado mundial informando estado islamico pode estar planejando ataques massa europa
+1	paris	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	vive	_	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	momentos	momento	NOUN	NOUN	_	2	obj	_	TokenRange=11:19
+4	panico	panico	ADJ	ADJ	_	3	amod	_	TokenRange=20:26
+5	seis	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=27:31
+6	escolas	escola	NOUN	NOUN	_	2	nsubj	_	TokenRange=32:39
+7	evacuadas	evacuado	ADJ	ADJ	_	6	amod	_	TokenRange=40:49
+8	ameacas	ameaca	NOUN	NOUN	_	6	amod	_	TokenRange=50:57
+9	bomba	bomba	NOUN	NOUN	_	10	amod	_	TokenRange=58:63
+10	escolas	escola	NOUN	NOUN	_	6	appos	_	TokenRange=64:71
+11	secundarias	secundario	ADJ	ADJ	_	10	amod	_	TokenRange=72:83
+12	evacuadas	evacuado	ADJ	ADJ	_	10	amod	_	TokenRange=84:93
+13	paris	_	NOUN	NOUN	_	10	appos	_	TokenRange=94:99
+14	agora	agora	ADV	ADV	_	18	advmod	_	TokenRange=100:105
+15	pouco	pouco	ADV	ADV	_	16	advmod	_	TokenRange=106:111
+16	seis	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=112:116
+17	instituicoes	instituicoe	NOUN	NOUN	_	18	nsubj	_	TokenRange=117:129
+18	receberam	receber	VERB	VERB	_	2	parataxis	_	TokenRange=130:139
+19	ameacas	ameaca	NOUN	NOUN	_	18	obj	_	TokenRange=140:147
+20	bomba	bomba	NOUN	NOUN	_	19	appos	_	TokenRange=148:153
+21	via	_	ADP	ADP	_	22	case	_	TokenRange=154:157
+22	telefone	telefone	NOUN	NOUN	_	18	nmod	_	TokenRange=158:166
+23	via	_	ADP	ADP	_	24	case	_	TokenRange=167:170
+24	diario	diario	NOUN	NOUN	_	22	nmod	_	TokenRange=171:177
+25	lisboa	lisboa	ADJ	ADJ	_	24	amod	_	TokenRange=178:184
+26	esquadroes	esquadroe	NOUN	NOUN	_	28	nsubj	_	TokenRange=185:195
+27	antibomba	antibomba	ADJ	NOUN	_	26	amod	_	TokenRange=196:205
+28	vasculham	vasculhar	VERB	VERB	_	18	parataxis	_	TokenRange=206:215
+29	escolar	escolar	NOUN	NOUN	_	28	obj	_	TokenRange=216:223
+30	nesse	_	ADP	ADP	_	31	case	_	TokenRange=224:229
+31	momento	momento	NOUN	NOUN	_	28	nmod	_	TokenRange=230:237
+32	jornal	jornal	NOUN	NOUN	_	28	nsubj	_	TokenRange=238:244
+33	lexpress	lexpress	NOUN	NOUN	_	32	amod	_	TokenRange=245:253
+34	informou	informar	VERB	VERB	_	18	parataxis	_	TokenRange=254:262
+35	momento	momento	NOUN	NOUN	_	34	obj	_	TokenRange=263:270
+36	nada	_	PRON	PRON	_	37	advmod	_	TokenRange=271:275
+37	encontrado	encontrar	VERB	VERB	_	35	acl	_	TokenRange=276:286
+38	grupos	grupo	NOUN	NOUN	_	37	nsubj	_	TokenRange=287:293
+39	especializados	especializado	ADJ	ADJ	_	38	amod	_	TokenRange=294:308
+40	autoridades	autoridade	NOUN	NOUN	_	42	nsubj	_	TokenRange=309:320
+41	franca	franco	ADJ	ADJ	_	40	amod	_	TokenRange=321:327
+42	disseram	dizer	VERB	VERB	_	18	parataxis	_	TokenRange=328:336
+43	trata	trata	NOUN	NOUN	_	42	obj	_	TokenRange=337:342
+44	alarme	alarme	NOUN	NOUN	_	43	appos	_	TokenRange=343:349
+45	serio	serio	ADJ	ADJ	_	44	amod	_	TokenRange=350:355
+46	ontem	ontem	ADV	ADV	_	50	advmod	_	TokenRange=356:361
+47	wall	_	NOUN	NOUN	_	49	amod	_	TokenRange=362:366
+48	street	_	NOUN	NOUN	_	47	flat	_	TokenRange=367:373
+49	jornal	jornal	NOUN	NOUN	_	50	nsubj	_	TokenRange=374:380
+50	publicou	publicar	VERB	VERB	_	42	parataxis	_	TokenRange=381:389
+51	europol	europol	NOUN	NOUN	_	50	obj	_	TokenRange=390:397
+52	fez	fazer	VERB	VERB	_	50	ccomp	_	TokenRange=398:401
+53	comunicado	comunicado	NOUN	NOUN	_	52	obj	_	TokenRange=402:412
+54	mundial	mundial	ADJ	ADJ	_	53	amod	_	TokenRange=413:420
+55	informando	informar	VERB	VERB	_	53	acl	_	TokenRange=421:431
+56	estado	estado	NOUN	NOUN	_	55	obj	_	TokenRange=432:438
+57	islamico	islamico	ADJ	ADJ	_	56	amod	_	TokenRange=439:447
+58	pode	_	AUX	AUX	_	60	aux	_	TokenRange=448:452
+59	estar	estar	AUX	AUX	_	60	aux	_	TokenRange=453:458
+60	planejando	planejar	VERB	VERB	_	50	parataxis	_	TokenRange=459:469
+61	ataques	ataque	NOUN	NOUN	_	60	obj	_	TokenRange=470:477
+62	massa	massa	NOUN	NOUN	_	61	nmod	_	TokenRange=478:483
+63	europa	_	NOUN	NOUN	_	62	flat	_	SpaceAfter=No|TokenRange=484:490
+

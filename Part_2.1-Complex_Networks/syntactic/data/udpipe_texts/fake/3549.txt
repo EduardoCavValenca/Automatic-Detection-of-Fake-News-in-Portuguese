@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = boechat sobre visita tardia dilma mariana/mg totalmente desorientada tragedia mariana considerada maior desastre ambiental mg 500 pessoas ficaram desabrigadas distritos atingidos lama dilma chegou local quase semana apos desastre deixou menos oito mortos 20 desaparecidos praticamente acabou distrito bento rodrigues tomado lama jornalista ricardo boechat fez comentario acido sobre fato presidente republica demora sete dias comparecer cenario tragedia perdas vidas humanas destruicao ambiental incalculavel fato presidente totalmente desorientada sobre fazer diante pais governa confira video
+1	boechat	_	NOUN	NOUN	_	0	root	_	TokenRange=0:7
+2	sobre	_	ADP	ADP	_	3	case	_	TokenRange=8:13
+3	visita	visita	NOUN	NOUN	_	1	nmod	_	TokenRange=14:20
+4	tardia	tardio	ADJ	ADJ	_	3	amod	_	TokenRange=21:27
+5	dilma	dilma	NOUN	NOUN	_	3	appos	_	TokenRange=28:33
+6	mariana/mg	_	NOUN	NOUN	_	3	appos	_	TokenRange=34:44
+7	totalmente	totalmente	ADV	ADV	_	8	advmod	_	TokenRange=45:55
+8	desorientada	desorientado	ADJ	ADJ	_	9	amod	_	TokenRange=56:68
+9	tragedia	tragedia	NOUN	NOUN	_	3	appos	_	TokenRange=69:77
+10	mariana	mariano	ADJ	ADJ	_	9	amod	_	TokenRange=78:85
+11	considerada	considerar	AUX	AUX	_	13	cop	_	TokenRange=86:97
+12	maior	maior	ADJ	ADJ	_	13	amod	_	TokenRange=98:103
+13	desastre	desastre	NOUN	NOUN	_	9	acl	_	TokenRange=104:112
+14	ambiental	ambiental	ADJ	ADJ	_	13	amod	_	TokenRange=113:122
+15	mg	_	NOUN	NOUN	_	13	advmod	_	TokenRange=123:125
+16	500	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=126:129
+17	pessoas	pessoa	NOUN	NOUN	_	18	nsubj	_	TokenRange=130:137
+18	ficaram	ficar	VERB	VERB	_	3	acl:relcl	_	TokenRange=138:145
+19	desabrigadas	desabrigado	ADJ	ADJ	_	18	xcomp	_	TokenRange=146:158
+20	distritos	distrito	NOUN	NOUN	_	18	nsubj	_	TokenRange=159:168
+21	atingidos	atingir	ADJ	ADJ	_	20	amod	_	TokenRange=169:178
+22	lama	lama	NOUN	NOUN	_	24	nsubj	_	TokenRange=179:183
+23	dilma	_	NOUN	NOUN	_	22	flat	_	TokenRange=184:189
+24	chegou	chegar	VERB	VERB	_	20	acl:relcl	_	TokenRange=190:196
+25	local	local	ADJ	ADJ	_	24	xcomp	_	TokenRange=197:202
+26	quase	quase	ADV	ADV	_	27	advmod	_	TokenRange=203:208
+27	semana	semana	NOUN	NOUN	_	24	nmod	_	TokenRange=209:215
+28	apos	_	ADP	ADP	_	29	case	_	TokenRange=216:220
+29	desastre	desastre	NOUN	NOUN	_	30	nmod	_	TokenRange=221:229
+30	deixou	deixar	VERB	VERB	_	18	conj	_	TokenRange=230:236
+31	menos	menos	ADV	ADV	_	32	advmod	_	TokenRange=237:242
+32	oito	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=243:247
+33	mortos	morto	NOUN	NOUN	_	30	obj	_	TokenRange=248:254
+34	20	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=255:257
+35	desaparecidos	desaparecido	ADJ	ADJ	_	33	amod	_	TokenRange=258:271
+36	praticamente	praticamente	ADV	ADV	_	37	advmod	_	TokenRange=272:284
+37	acabou	acabar	VERB	VERB	_	30	conj	_	TokenRange=285:291
+38	distrito	distrito	NOUN	NOUN	_	37	nsubj	_	TokenRange=292:300
+39	bento	bento	NOUN	NOUN	_	38	appos	_	TokenRange=301:306
+40	rodrigues	rodrigue	NOUN	NOUN	_	39	flat	_	TokenRange=307:316
+41	tomado	tomar	VERB	VERB	_	42	acl	_	TokenRange=317:323
+42	lama	lama	NOUN	NOUN	_	37	nsubj	_	TokenRange=324:328
+43	jornalista	jornalista	NOUN	NOUN	_	42	amod	_	TokenRange=329:339
+44	ricardo	ricardo	NOUN	NOUN	_	42	appos	_	TokenRange=340:347
+45	boechat	_	NOUN	NOUN	_	44	flat	_	TokenRange=348:355
+46	fez	fazer	VERB	VERB	_	18	parataxis	_	TokenRange=356:359
+47	comentario	comentario	NOUN	NOUN	_	46	obj	_	TokenRange=360:370
+48	acido	acido	ADJ	ADJ	_	47	amod	_	TokenRange=371:376
+49	sobre	_	ADP	ADP	_	50	case	_	TokenRange=377:382
+50	fato	fato	NOUN	NOUN	_	46	nmod	_	TokenRange=383:387
+51	presidente	presidente	NOUN	NOUN	_	50	appos	_	TokenRange=388:398
+52	republica	republico	ADJ	ADJ	_	51	amod	_	TokenRange=399:408
+53	demora	demorar	VERB	VERB	_	46	ccomp	_	TokenRange=409:415
+54	sete	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=416:420
+55	dias	dia	NOUN	NOUN	_	53	nmod	_	TokenRange=421:425
+56	comparecer	comparecer	VERB	VERB	_	53	ccomp	_	TokenRange=426:436
+57	cenario	cenario	NOUN	NOUN	_	56	obj	_	TokenRange=437:444
+58	tragedia	tragedia	NOUN	NOUN	_	57	flat	_	TokenRange=445:453
+59	perdas	perdo	ADJ	ADJ	_	60	amod	_	TokenRange=454:460
+60	vidas	vida	NOUN	NOUN	_	57	appos	_	TokenRange=461:466
+61	humanas	humano	ADJ	ADJ	_	60	amod	_	TokenRange=467:474
+62	destruicao	destruicao	NOUN	NOUN	_	60	amod	_	TokenRange=475:485
+63	ambiental	ambiental	ADJ	ADJ	_	60	amod	_	TokenRange=486:495
+64	incalculavel	incalculavel	ADJ	ADJ	_	65	amod	_	TokenRange=496:508
+65	fato	fato	NOUN	NOUN	_	60	amod	_	TokenRange=509:513
+66	presidente	presidente	NOUN	NOUN	_	60	appos	_	TokenRange=514:524
+67	totalmente	totalmente	ADV	ADV	_	68	advmod	_	TokenRange=525:535
+68	desorientada	desorientado	ADJ	ADJ	_	66	amod	_	TokenRange=536:548
+69	sobre	_	ADP	ADP	_	70	mark	_	TokenRange=549:554
+70	fazer	fazer	VERB	VERB	_	66	nmod	_	TokenRange=555:560
+71	diante	diante	ADV	ADV	_	70	advmod	_	TokenRange=561:567
+72	pais	_	NOUN	NOUN	_	74	nsubj	_	TokenRange=568:572
+73	governa	governar	VERB	VERB	_	74	ccomp	_	TokenRange=573:580
+74	confira	conferir	VERB	VERB	_	46	parataxis	_	TokenRange=581:588
+75	video	video	NOUN	NOUN	_	74	obj	_	SpaceAfter=No|TokenRange=589:594
+

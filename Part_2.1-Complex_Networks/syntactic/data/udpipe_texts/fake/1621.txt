@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delacao odebrecht aponta 200 politicos incluindo peixoes informacoes reveladas globo apontam acordo colaboracao premiada odebrecht prestes homologado inclui 130 politicos favorecidos diretos desvios dinheiro publico varios casos propina efetuada pagamento dividas campanha famoso caixa 2 deputados federais senadores exministros ministros governadores exgovernadores lista sendo investigada investigadores confirmam lista foca apenas doacoes ilegais grupo cobradores propinas delatados constam politicos pmdb pt pp psdb somente 2015 odebrecht faturou r 130 bilhoes negocios brasil exterior vai faltar cadeia pra tanto bandido
+1	delacao	delacao	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	odebrecht	_	PROPN	PNOUN	_	1	appos	_	TokenRange=8:17
+3	aponta	apontar	VERB	VERB	_	0	root	_	TokenRange=18:24
+4	200	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=25:28
+5	politicos	politico	NOUN	NOUN	_	3	obj	_	TokenRange=29:38
+6	incluindo	incluir	VERB	VERB	_	1	acl	_	TokenRange=39:48
+7	peixoes	peixoe	NOUN	NOUN	_	6	obj	_	TokenRange=49:56
+8	informacoes	informacoe	NOUN	NOUN	_	7	appos	_	TokenRange=57:68
+9	reveladas	revelado	ADJ	ADJ	_	8	amod	_	TokenRange=69:78
+10	globo	globo	NOUN	NOUN	_	1	amod	_	TokenRange=79:84
+11	apontam	apontar	VERB	VERB	_	3	parataxis	_	TokenRange=85:92
+12	acordo	acordo	NOUN	NOUN	_	11	obj	_	TokenRange=93:99
+13	colaboracao	colaboracao	ADJ	ADJ	_	12	amod	_	TokenRange=100:111
+14	premiada	premiado	ADJ	ADJ	_	12	amod	_	TokenRange=112:120
+15	odebrecht	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=121:130
+16	prestes	_	NOUN	NOUN	_	15	flat	_	TokenRange=131:138
+17	homologado	homologado	ADJ	ADJ	_	15	amod	_	TokenRange=139:149
+18	inclui	incluir	VERB	VERB	_	3	parataxis	_	TokenRange=150:156
+19	130	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=157:160
+20	politicos	politico	NOUN	NOUN	_	18	obj	_	TokenRange=161:170
+21	favorecidos	favorecido	ADJ	ADJ	_	20	amod	_	TokenRange=171:182
+22	diretos	direto	ADJ	ADJ	_	23	amod	_	TokenRange=183:190
+23	desvios	desvio	NOUN	NOUN	_	20	appos	_	TokenRange=191:198
+24	dinheiro	dinheiro	NOUN	NOUN	_	23	appos	_	TokenRange=199:207
+25	publico	_	ADJ	ADJ	_	24	amod	_	TokenRange=208:215
+26	varios	_	DET	DET	_	27	det	_	TokenRange=216:222
+27	casos	caso	NOUN	NOUN	_	18	obj	_	TokenRange=223:228
+28	propina	propina	NOUN	NOUN	_	27	appos	_	TokenRange=229:236
+29	efetuada	efetuar	VERB	VERB	_	27	acl	_	TokenRange=237:245
+30	pagamento	pagamento	NOUN	NOUN	_	27	appos	_	TokenRange=246:255
+31	dividas	divida	NOUN	NOUN	_	30	amod	_	TokenRange=256:263
+32	campanha	campanha	NOUN	NOUN	_	27	appos	_	TokenRange=264:272
+33	famoso	famoso	ADJ	ADJ	_	32	amod	_	TokenRange=273:279
+34	caixa	caixa	NOUN	NOUN	_	32	appos	_	TokenRange=280:285
+35	2	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=286:287
+36	deputados	deputado	NOUN	NOUN	_	32	appos	_	TokenRange=288:297
+37	federais	federal	ADJ	ADJ	_	36	amod	_	TokenRange=298:306
+38	senadores	senador	NOUN	NOUN	_	36	amod	_	TokenRange=307:316
+39	exministros	exministro	NOUN	NOUN	_	36	appos	_	TokenRange=317:328
+40	ministros	ministro	NOUN	NOUN	_	39	amod	_	TokenRange=329:338
+41	governadores	governador	ADJ	ADJ	_	39	amod	_	TokenRange=339:351
+42	exgovernadores	exgovernador	ADJ	ADJ	_	43	amod	_	TokenRange=352:366
+43	lista	lista	NOUN	NOUN	_	47	nsubj	_	TokenRange=367:372
+44	sendo	ser	AUX	AUX	_	45	aux:pass	_	TokenRange=373:378
+45	investigada	investigar	VERB	VERB	_	43	acl	_	TokenRange=379:390
+46	investigadores	investigador	NOUN	NOUN	_	45	nsubj:pass	_	TokenRange=391:405
+47	confirmam	confirmar	VERB	VERB	_	3	parataxis	_	TokenRange=406:415
+48	lista	lista	NOUN	NOUN	_	47	obj	_	TokenRange=416:421
+49	foca	_	ADJ	ADJ	_	48	amod	_	TokenRange=422:426
+50	apenas	apenas	ADV	ADV	_	51	advmod	_	TokenRange=427:433
+51	doacoes	doacoe	NOUN	NOUN	_	48	appos	_	TokenRange=434:441
+52	ilegais	ilegal	ADJ	ADJ	_	51	amod	_	TokenRange=442:449
+53	grupo	grupo	NOUN	NOUN	_	51	appos	_	TokenRange=450:455
+54	cobradores	cobrador	ADJ	ADJ	_	55	amod	_	TokenRange=456:466
+55	propinas	propina	NOUN	NOUN	_	51	appos	_	TokenRange=467:475
+56	delatados	delatar	VERB	VERB	_	55	acl	_	TokenRange=476:485
+57	constam	constar	VERB	VERB	_	47	parataxis	_	TokenRange=486:493
+58	politicos	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=494:503
+59	pmdb	_	NOUN	NOUN	_	58	appos	_	TokenRange=504:508
+60	pt	_	NOUN	NOUN	_	59	flat	_	TokenRange=509:511
+61	pp	_	NOUN	NOUN	_	59	flat	_	TokenRange=512:514
+62	psdb	_	NOUN	NOUN	_	59	flat	_	TokenRange=515:519
+63	somente	somente	ADV	ADV	_	64	advmod	_	TokenRange=520:527
+64	2015	_	NUM	NUM	NumType=Card	66	nmod	_	TokenRange=528:532
+65	odebrecht	_	NOUN	NOUN	_	66	nsubj	_	TokenRange=533:542
+66	faturou	faturar	VERB	VERB	_	58	acl:relcl	_	TokenRange=543:550
+67	r	r	NOUN	NOUN	_	74	obj	_	TokenRange=551:552
+68	130	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=553:556
+69	bilhoes	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=557:564
+70	negocios	negocio	NOUN	NOUN	_	66	obj	_	TokenRange=565:573
+71	brasil	brasil	NOUN	NOUN	_	74	nmod	_	TokenRange=574:580
+72	exterior	exterior	ADJ	ADJ	_	71	amod	_	TokenRange=581:589
+73	vai	ir	AUX	AUX	_	74	aux	_	TokenRange=590:593
+74	faltar	faltar	VERB	VERB	_	57	parataxis	_	TokenRange=594:600
+75	cadeia	cadeia	NOUN	NOUN	_	74	obj	_	TokenRange=601:607
+76	pra	_	ADP	ADP	_	78	case	_	TokenRange=608:611
+77	tanto	_	DET	DET	_	78	det	_	TokenRange=612:617
+78	bandido	bandido	NOUN	NOUN	_	74	nmod	_	SpaceAfter=No|TokenRange=618:625
+

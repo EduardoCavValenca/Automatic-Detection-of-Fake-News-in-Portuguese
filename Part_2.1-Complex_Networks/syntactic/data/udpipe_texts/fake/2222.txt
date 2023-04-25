@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = medica 42 anos casada pivo separacao bonner fatima bernardes apos anunciarem rompimento relacao 26 anos atraves redes sociais william bonner fatima bernardes continuam assuntos comentados internet acordo site veja rio brigas conjugais responsaveis licenca tirada fatima programa encontro apresentadora chegou apresentar alguns programas revelando expressoes abatimento tristeza varios sites chegaram anunciar suposta jornalista tv globo causa separacao dupla amigos casal revelaram veja neste fim semana medica pivo brigas bonner fatima materia informou dra casada 42 anos 10 menos bonner
+1	medica	medico	NOUN	NOUN	_	23	parataxis	_	TokenRange=0:6
+2	42	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=7:9
+3	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=10:14
+4	casada	casado	ADJ	ADJ	_	3	amod	_	TokenRange=15:21
+5	pivo	pivo	NOUN	NOUN	_	1	appos	_	TokenRange=22:26
+6	separacao	separacao	NOUN	NOUN	_	5	flat	_	TokenRange=27:36
+7	bonner	bonner	NOUN	NOUN	_	5	flat	_	TokenRange=37:43
+8	fatima	_	NOUN	NOUN	_	9	amod	_	TokenRange=44:50
+9	bernardes	bernarde	NOUN	NOUN	_	5	flat	_	TokenRange=51:60
+10	apos	_	ADP	ADP	_	11	mark	_	TokenRange=61:65
+11	anunciarem	anunciar	VERB	VERB	_	23	advcl	_	TokenRange=66:76
+12	rompimento	rompimento	NOUN	NOUN	_	11	obj	_	TokenRange=77:87
+13	relacao	relacao	NOUN	NOUN	_	12	appos	_	TokenRange=88:95
+14	26	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=96:98
+15	anos	ano	NOUN	NOUN	_	12	appos	_	TokenRange=99:103
+16	atraves	_	ADP	ADP	_	17	case	_	TokenRange=104:111
+17	redes	rede	NOUN	NOUN	_	11	nmod	_	TokenRange=112:117
+18	sociais	social	ADJ	ADJ	_	17	amod	_	TokenRange=118:125
+19	william	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=126:133
+20	bonner	bonner	NOUN	NOUN	_	19	flat	_	TokenRange=134:140
+21	fatima	_	ADJ	NOUN	_	22	amod	_	TokenRange=141:147
+22	bernardes	bernarde	NOUN	NOUN	_	19	appos	_	TokenRange=148:157
+23	continuam	continuar	VERB	VERB	_	0	root	_	TokenRange=158:167
+24	assuntos	assunto	NOUN	NOUN	_	23	obj	_	TokenRange=168:176
+25	comentados	comentado	ADJ	ADJ	_	24	amod	_	TokenRange=177:187
+26	internet	_	PROPN	PNOUN	_	24	appos	_	TokenRange=188:196
+27	acordo	acordo	NOUN	NOUN	_	24	appos	_	TokenRange=197:203
+28	site	site	NOUN	NOUN	_	27	flat	_	TokenRange=204:208
+29	veja	veja	NOUN	NOUN	_	27	appos	_	TokenRange=209:213
+30	rio	_	NOUN	NOUN	_	29	appos	_	TokenRange=214:217
+31	brigas	briga	NOUN	NOUN	_	27	appos	_	TokenRange=218:224
+32	conjugais	conjugal	ADJ	ADJ	_	31	amod	_	TokenRange=225:234
+33	responsaveis	responsavel	ADJ	ADJ	_	31	amod	_	TokenRange=235:247
+34	licenca	licenca	NOUN	NOUN	_	31	appos	_	TokenRange=248:255
+35	tirada	_	ADJ	ADJ	_	34	amod	_	TokenRange=256:262
+36	fatima	fatimo	ADJ	ADJ	_	37	amod	_	TokenRange=263:269
+37	programa	programa	NOUN	NOUN	_	41	nsubj	_	TokenRange=270:278
+38	encontro	encontro	NOUN	NOUN	_	37	appos	_	TokenRange=279:287
+39	apresentadora	apresentador	NOUN	NOUN	_	37	flat	_	TokenRange=288:301
+40	chegou	chegar	AUX	AUX	_	41	aux	_	TokenRange=302:308
+41	apresentar	apresentar	VERB	VERB	_	23	parataxis	_	TokenRange=309:319
+42	alguns	_	DET	DET	_	43	det	_	TokenRange=320:326
+43	programas	programa	NOUN	NOUN	_	41	obj	_	TokenRange=327:336
+44	revelando	revelar	VERB	VERB	_	41	acl	_	TokenRange=337:346
+45	expressoes	expressoe	NOUN	NOUN	_	44	obj	_	TokenRange=347:357
+46	abatimento	abatimento	NOUN	NOUN	_	45	appos	_	TokenRange=358:368
+47	tristeza	tristeza	NOUN	NOUN	_	46	flat	_	TokenRange=369:377
+48	varios	_	DET	DET	_	49	det	_	TokenRange=378:384
+49	sites	site	NOUN	NOUN	_	41	nsubj	_	TokenRange=385:390
+50	chegaram	chegar	AUX	AUX	_	51	aux	_	TokenRange=391:399
+51	anunciar	anunciar	VERB	VERB	_	23	parataxis	_	TokenRange=400:408
+52	suposta	suposto	ADJ	ADJ	_	53	amod	_	TokenRange=409:416
+53	jornalista	jornalista	NOUN	NOUN	_	51	obj	_	TokenRange=417:427
+54	tv	_	NOUN	NOUN	_	53	appos	_	TokenRange=428:430
+55	globo	globo	NOUN	NOUN	_	54	flat	_	TokenRange=431:436
+56	causa	causa	NOUN	NOUN	_	53	appos	_	TokenRange=437:442
+57	separacao	separacao	ADJ	ADJ	_	56	amod	_	TokenRange=443:452
+58	dupla	duplo	ADJ	ADJ	_	59	amod	_	TokenRange=453:458
+59	amigos	amigo	NOUN	NOUN	_	61	nsubj	_	TokenRange=459:465
+60	casal	casal	NOUN	NOUN	_	59	flat	_	TokenRange=466:471
+61	revelaram	revelar	VERB	VERB	_	51	parataxis	_	TokenRange=472:481
+62	veja	veja	NOUN	NOUN	_	61	obj	_	TokenRange=482:486
+63	neste	_	ADP	ADP	_	64	case	_	TokenRange=487:492
+64	fim	fim	NOUN	NOUN	_	61	nmod	_	TokenRange=493:496
+65	semana	semana	NOUN	NOUN	_	64	flat	_	TokenRange=497:503
+66	medica	medico	ADJ	ADJ	_	64	amod	_	TokenRange=504:510
+67	pivo	pivo	ADJ	ADJ	_	68	amod	_	TokenRange=511:515
+68	brigas	briga	NOUN	NOUN	_	72	nsubj	_	TokenRange=516:522
+69	bonner	bonner	ADJ	ADJ	_	68	amod	_	TokenRange=523:529
+70	fatima	_	ADJ	ADJ	_	71	amod	_	TokenRange=530:536
+71	materia	materia	NOUN	NOUN	_	68	appos	_	TokenRange=537:544
+72	informou	informar	VERB	VERB	_	51	parataxis	_	TokenRange=545:553
+73	dra	dra	NOUN	NOUN	_	72	obj	_	TokenRange=554:557
+74	casada	casado	ADJ	ADJ	_	73	flat	_	TokenRange=558:564
+75	42	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=565:567
+76	anos	ano	NOUN	NOUN	_	73	appos	_	TokenRange=568:572
+77	10	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=573:575
+78	menos	menos	ADV	ADV	_	79	advmod	_	TokenRange=576:581
+79	bonner	bonner	NOUN	NOUN	_	72	ccomp	_	SpaceAfter=No|TokenRange=582:588
+

@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ninguem ouviu nada abertura rio 2016 falou durante 10 segundos vaiado durante 10 segundos vaia presidente interino filtro globo confira momento vaia michel temer abertura jogos olimpicos video publicado site jornal la repubblica italia parte final cerimonia anunciado temer comecou apos maravilhoso espetaculo declaro abertos jogos olimpicos rio celebrando 31 olimpiada moderna
+1	ninguem	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:7
+2	ouviu	ouvir	VERB	VERB	_	0	root	_	TokenRange=8:13
+3	nada	_	PRON	PRON	_	2	obj	_	TokenRange=14:18
+4	abertura	abertura	NOUN	NOUN	_	2	obj	_	TokenRange=19:27
+5	rio	rio	NOUN	NOUN	_	4	appos	_	TokenRange=28:31
+6	2016	_	NUM	NUM	NumType=Card	5	nmod	_	TokenRange=32:36
+7	falou	falar	VERB	VERB	_	2	parataxis	_	TokenRange=37:42
+8	durante	_	ADP	ADP	_	10	case	_	TokenRange=43:50
+9	10	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=51:53
+10	segundos	segundo	NOUN	NOUN	_	7	nmod	_	TokenRange=54:62
+11	vaiado	vaiado	NOUN	NOUN	_	10	appos	_	TokenRange=63:69
+12	durante	_	ADP	ADP	_	14	case	_	TokenRange=70:77
+13	10	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=78:80
+14	segundos	segundo	NOUN	NOUN	_	11	nmod	_	TokenRange=81:89
+15	vaia	_	AUX	AUX	_	16	case	_	TokenRange=90:94
+16	presidente	presidente	NOUN	NOUN	_	2	obj	_	TokenRange=95:105
+17	interino	interino	ADJ	ADJ	_	16	amod	_	TokenRange=106:114
+18	filtro	filtro	NOUN	NOUN	_	16	appos	_	TokenRange=115:121
+19	globo	globo	NOUN	NOUN	_	18	flat	_	TokenRange=122:127
+20	confira	conferir	VERB	VERB	_	16	acl:relcl	_	TokenRange=128:135
+21	momento	momento	NOUN	NOUN	_	20	obj	_	TokenRange=136:143
+22	vaia	_	NOUN	NOUN	_	16	appos	_	TokenRange=144:148
+23	michel	michel	ADJ	NOUN	_	24	amod	_	TokenRange=149:155
+24	temer	temer	NOUN	NOUN	_	22	appos	_	TokenRange=156:161
+25	abertura	abertura	NOUN	NOUN	_	16	appos	_	TokenRange=162:170
+26	jogos	jogo	NOUN	NOUN	_	25	appos	_	TokenRange=171:176
+27	olimpicos	olimpico	ADJ	ADJ	_	26	amod	_	TokenRange=177:186
+28	video	video	NOUN	NOUN	_	40	nsubj	_	TokenRange=187:192
+29	publicado	publicar	VERB	VERB	_	30	acl	_	TokenRange=193:202
+30	site	site	NOUN	NOUN	_	40	nsubj	_	TokenRange=203:207
+31	jornal	jornal	NOUN	NOUN	_	30	appos	_	TokenRange=208:214
+32	la	_	DET	DET	_	33	det	_	TokenRange=215:217
+33	repubblica	_	NOUN	NOUN	_	30	appos	_	TokenRange=218:228
+34	italia	italio	ADJ	ADJ	_	35	amod	_	TokenRange=229:235
+35	parte	parte	NOUN	NOUN	_	30	appos	_	TokenRange=236:241
+36	final	final	ADJ	ADJ	_	35	amod	_	TokenRange=242:247
+37	cerimonia	cerimonia	NOUN	NOUN	_	40	nsubj	_	TokenRange=248:257
+38	anunciado	anunciar	ADJ	ADJ	_	37	acl	_	TokenRange=258:267
+39	temer	temer	NOUN	NOUN	_	37	appos	_	TokenRange=268:273
+40	comecou	comecar	VERB	VERB	_	2	parataxis	_	TokenRange=274:281
+41	apos	_	ADP	ADP	_	43	case	_	TokenRange=282:286
+42	maravilhoso	maravilhoso	ADJ	ADJ	_	43	amod	_	TokenRange=287:298
+43	espetaculo	espetaculo	NOUN	NOUN	_	40	nmod	_	TokenRange=299:309
+44	declaro	declaro	NOUN	NOUN	_	43	case	_	TokenRange=310:317
+45	abertos	aberto	ADJ	ADJ	_	46	amod	_	TokenRange=318:325
+46	jogos	jogo	NOUN	NOUN	_	40	nmod	_	TokenRange=326:331
+47	olimpicos	olimpico	ADJ	ADJ	_	46	amod	_	TokenRange=332:341
+48	rio	rio	NOUN	NOUN	_	46	appos	_	TokenRange=342:345
+49	celebrando	celebrar	VERB	VERB	_	40	acl	_	TokenRange=346:356
+50	31	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=357:359
+51	olimpiada	olimpiada	NOUN	NOUN	_	49	obj	_	TokenRange=360:369
+52	moderna	moderno	ADJ	ADJ	_	51	amod	_	SpaceAfter=No|TokenRange=370:377
+

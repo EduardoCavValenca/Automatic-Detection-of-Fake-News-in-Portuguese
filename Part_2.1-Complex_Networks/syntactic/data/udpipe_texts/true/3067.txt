@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dissidencia base governo alcanca 20 votacao reforma trabalhista 415 deputados partidos base aliada governo michel temer 86 votaram contra projeto aprovado camara altera legislacao trabalhista considerado prioritario governo michel temer projeto reforma trabalhista indice votos contrarios 20 deputados partidos base
+1	dissidencia	dissidencia	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:11
+2	base	base	NOUN	NOUN	_	1	flat	_	TokenRange=12:16
+3	governo	governo	NOUN	NOUN	_	1	appos	_	TokenRange=17:24
+4	alcanca	alcancar	VERB	VERB	_	0	root	_	TokenRange=25:32
+5	20	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=33:35
+6	votacao	_	NOUN	NOUN	_	4	obj	_	TokenRange=36:43
+7	reforma	reforma	NOUN	NOUN	_	4	obj	_	TokenRange=44:51
+8	trabalhista	trabalhista	ADJ	ADJ	_	7	amod	_	TokenRange=52:63
+9	415	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=64:67
+10	deputados	deputado	NOUN	NOUN	_	4	obj	_	TokenRange=68:77
+11	partidos	partido	NOUN	NOUN	_	10	amod	_	TokenRange=78:86
+12	base	base	NOUN	NOUN	_	10	amod	_	TokenRange=87:91
+13	aliada	aliado	ADJ	ADJ	_	14	amod	_	TokenRange=92:98
+14	governo	governo	NOUN	NOUN	_	10	appos	_	TokenRange=99:106
+15	michel	_	ADJ	ADJ	_	16	amod	_	TokenRange=107:113
+16	temer	temer	NOUN	NOUN	_	14	appos	_	TokenRange=114:119
+17	86	_	NUM	NUM	NumType=Card	18	nsubj	_	TokenRange=120:122
+18	votaram	votar	VERB	VERB	_	4	conj	_	TokenRange=123:130
+19	contra	_	ADP	ADP	_	20	case	_	TokenRange=131:137
+20	projeto	projeto	NOUN	NOUN	_	18	nmod	_	TokenRange=138:145
+21	aprovado	aprovar	ADJ	ADJ	_	20	amod	_	TokenRange=146:154
+22	camara	camara	NOUN	NOUN	_	23	nsubj	_	TokenRange=155:161
+23	altera	alterar	VERB	VERB	_	4	conj	_	TokenRange=162:168
+24	legislacao	legislacao	NOUN	NOUN	_	23	obj	_	TokenRange=169:179
+25	trabalhista	trabalhista	ADJ	ADJ	_	24	amod	_	TokenRange=180:191
+26	considerado	considerar	VERB	VERB	_	24	acl	_	TokenRange=192:203
+27	prioritario	prioritario	ADJ	ADJ	_	28	amod	_	TokenRange=204:215
+28	governo	governo	NOUN	NOUN	_	23	nsubj	_	TokenRange=216:223
+29	michel	michel	ADJ	ADJ	_	28	amod	_	TokenRange=224:230
+30	temer	temer	NOUN	NOUN	_	28	appos	_	TokenRange=231:236
+31	projeto	projeto	NOUN	NOUN	_	28	appos	_	TokenRange=237:244
+32	reforma	reforma	NOUN	NOUN	_	28	appos	_	TokenRange=245:252
+33	trabalhista	trabalhista	ADJ	ADJ	_	31	amod	_	TokenRange=253:264
+34	indice	indicar	VERB	VERB	_	4	parataxis	_	TokenRange=265:271
+35	votos	voto	NOUN	NOUN	_	34	obj	_	TokenRange=272:277
+36	contrarios	contrario	ADJ	ADJ	_	35	amod	_	TokenRange=278:288
+37	20	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=289:291
+38	deputados	deputado	NOUN	NOUN	_	34	nsubj	_	TokenRange=292:301
+39	partidos	partido	NOUN	NOUN	_	38	appos	_	TokenRange=302:310
+40	base	base	NOUN	NOUN	_	38	flat	_	SpaceAfter=No|TokenRange=311:315
+

@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bandidos atacam viatura sargento famoso brasil ultima segundafeira 20 equipe rotam parana comandada sargento fahur atacada bandidos fortemente armados sargento fahur certamente policiais ativa famosos pais conhecido tratar bandido bandido apos intensa troca tiros suspeitos fugiram localizados segundo policia individuos fazem parte quadrilha especializada roubos ouca depoimento sargento
+1	bandidos	bandido	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	atacam	atacar	VERB	VERB	_	0	root	_	TokenRange=9:15
+3	viatura	viatura	NOUN	NOUN	_	2	obj	_	TokenRange=16:23
+4	sargento	sargento	NOUN	NOUN	_	3	appos	_	TokenRange=24:32
+5	famoso	famoso	ADJ	ADJ	_	4	amod	_	TokenRange=33:39
+6	brasil	brasil	NOUN	NOUN	_	4	amod	_	TokenRange=40:46
+7	ultima	_	ADJ	ADJ	_	8	amod	_	TokenRange=47:53
+8	segundafeira	_	NOUN	NOUN	_	4	appos	_	TokenRange=54:66
+9	20	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=67:69
+10	equipe	equipe	NOUN	NOUN	_	11	nsubj	_	TokenRange=70:76
+11	rotam	rotar	VERB	VERB	_	2	parataxis	_	TokenRange=77:82
+12	parana	parana	NOUN	NOUN	_	11	obj	_	TokenRange=83:89
+13	comandada	comandar	VERB	VERB	_	14	acl	_	TokenRange=90:99
+14	sargento	sargento	NOUN	NOUN	_	11	nsubj	_	TokenRange=100:108
+15	fahur	_	NOUN	NOUN	_	14	flat	_	TokenRange=109:114
+16	atacada	atacar	VERB	VERB	_	17	acl	_	TokenRange=115:122
+17	bandidos	bandido	NOUN	NOUN	_	14	appos	_	TokenRange=123:131
+18	fortemente	fortemente	ADV	ADV	_	19	advmod	_	TokenRange=132:142
+19	armados	armado	ADJ	ADJ	_	17	amod	_	TokenRange=143:150
+20	sargento	sargento	NOUN	NOUN	_	17	appos	_	TokenRange=151:159
+21	fahur	_	NOUN	NOUN	_	20	flat	_	TokenRange=160:165
+22	certamente	certamente	ADV	ADV	_	23	advmod	_	TokenRange=166:176
+23	policiais	policial	NOUN	NOUN	_	36	nsubj	_	TokenRange=177:186
+24	ativa	ativo	ADJ	ADJ	_	23	amod	_	TokenRange=187:192
+25	famosos	famoso	ADJ	ADJ	_	23	amod	_	TokenRange=193:200
+26	pais	_	NOUN	NOUN	_	23	appos	_	TokenRange=201:205
+27	conhecido	conhecido	ADJ	ADJ	_	23	amod	_	TokenRange=206:215
+28	tratar	tratar	VERB	VERB	_	23	acl	_	TokenRange=216:222
+29	bandido	bandido	NOUN	NOUN	_	28	obj	_	TokenRange=223:230
+30	bandido	bandido	ADJ	ADJ	_	29	amod	_	TokenRange=231:238
+31	apos	_	ADP	ADP	_	33	case	_	TokenRange=239:243
+32	intensa	intenso	ADJ	ADJ	_	33	amod	_	TokenRange=244:251
+33	troca	_	NOUN	NOUN	_	28	nmod	_	TokenRange=252:257
+34	tiros	tiro	NOUN	NOUN	_	36	nsubj	_	TokenRange=258:263
+35	suspeitos	suspeito	ADJ	NOUN	_	34	amod	_	TokenRange=264:273
+36	fugiram	fugir	VERB	VERB	_	2	parataxis	_	TokenRange=274:281
+37	localizados	localizar	VERB	VERB	_	36	acl	_	TokenRange=282:293
+38	segundo	_	ADP	ADP	_	39	case	_	TokenRange=294:301
+39	policia	policia	NOUN	NOUN	_	41	nmod	_	TokenRange=302:309
+40	individuos	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=310:320
+41	fazem	fazer	VERB	VERB	_	36	parataxis	_	TokenRange=321:326
+42	parte	parte	NOUN	NOUN	_	41	obj	_	TokenRange=327:332
+43	quadrilha	quadrilha	NOUN	NOUN	_	42	appos	_	TokenRange=333:342
+44	especializada	especializado	ADJ	ADJ	_	43	amod	_	TokenRange=343:356
+45	roubos	roubo	NOUN	NOUN	_	47	appos	_	TokenRange=357:363
+46	ouca	_	DET	DET	_	47	det	_	TokenRange=364:368
+47	depoimento	depoimento	NOUN	NOUN	_	41	parataxis	_	TokenRange=369:379
+48	sargento	sargento	NOUN	NOUN	_	47	appos	_	SpaceAfter=No|TokenRange=380:388
+

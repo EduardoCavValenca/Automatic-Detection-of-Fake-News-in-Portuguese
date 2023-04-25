@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = depoimento sergio moro leo pinheiro destroi lula dilma executivo oas conta detalhes ajudou interferir cpi petrobras evitar governos petistas lula dilma prejudicados leo pinheiro relata todas cpis criadas governo petista programadas acabarem nada executivo ainda diz lavajato petrobras ainda rumo roubalheira continuaria todo vapor 21 minutos 30 segundos video podemos entender acordo depoimento leo politicos criam cpis epoca eleicao simplesmente arrecadar recursos campanhas funcao principal cpi investigar
+1	depoimento	depoimento	NOUN	NOUN	_	36	nsubj	_	TokenRange=0:10
+2	sergio	sergio	ADJ	ADJ	_	1	amod	_	TokenRange=11:17
+3	moro	moro	NOUN	NOUN	_	1	flat	_	TokenRange=18:22
+4	leo	_	PROPN	PNOUN	_	6	nsubj	_	TokenRange=23:26
+5	pinheiro	pinheiro	NOUN	NOUN	_	1	appos	_	TokenRange=27:35
+6	destroi	destroir	VERB	VERB	_	1	acl:relcl	_	TokenRange=36:43
+7	lula	lula	NOUN	NOUN	_	6	obj	_	TokenRange=44:48
+8	dilma	dilma	NOUN	NOUN	_	7	flat	_	TokenRange=49:54
+9	executivo	executivo	ADJ	ADJ	_	7	amod	_	TokenRange=55:64
+10	oas	_	CCONJ	NOUN	_	11	nsubj	_	TokenRange=65:68
+11	conta	contar	VERB	VERB	_	6	conj	_	TokenRange=69:74
+12	detalhes	detalhe	NOUN	NOUN	_	11	obj	_	TokenRange=75:83
+13	ajudou	ajudar	VERB	VERB	_	1	acl:relcl	_	TokenRange=84:90
+14	interferir	interferir	VERB	VERB	_	13	xcomp	_	TokenRange=91:101
+15	cpi	cpi	NOUN	NOUN	_	14	obj	_	TokenRange=102:105
+16	petrobras	petrobra	NOUN	NOUN	_	15	flat	_	TokenRange=106:115
+17	evitar	evitar	VERB	VERB	_	15	acl:relcl	_	TokenRange=116:122
+18	governos	governo	NOUN	NOUN	_	17	obj	_	TokenRange=123:131
+19	petistas	petista	ADJ	ADJ	_	18	amod	_	TokenRange=132:140
+20	lula	lula	NOUN	NOUN	_	18	appos	_	TokenRange=141:145
+21	dilma	dilma	NOUN	NOUN	_	20	flat	_	TokenRange=146:151
+22	prejudicados	prejudicado	ADJ	ADJ	_	20	amod	_	TokenRange=152:164
+23	leo	_	PRON	PRON	_	25	nsubj	_	TokenRange=165:168
+24	pinheiro	pinheiro	NOUN	NOUN	_	23	flat	_	TokenRange=169:177
+25	relata	relatar	VERB	VERB	_	13	conj	_	TokenRange=178:184
+26	todas	_	DET	DET	_	27	det	_	TokenRange=185:190
+27	cpis	cpi	NOUN	NOUN	_	25	obj	_	TokenRange=191:195
+28	criadas	criar	VERB	VERB	_	27	acl	_	TokenRange=196:203
+29	governo	governo	NOUN	NOUN	_	28	nsubj	_	TokenRange=204:211
+30	petista	petista	ADJ	ADJ	_	29	amod	_	TokenRange=212:219
+31	programadas	programado	ADJ	ADJ	_	29	amod	_	TokenRange=220:231
+32	acabarem	acabar	VERB	VERB	_	27	acl:inf	_	TokenRange=232:240
+33	nada	_	PRON	PRON	_	32	obj	_	TokenRange=241:245
+34	executivo	executivo	ADJ	ADJ	_	29	amod	_	TokenRange=246:255
+35	ainda	ainda	ADV	ADV	_	36	advmod	_	TokenRange=256:261
+36	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=262:265
+37	lavajato	lavajato	NOUN	NOUN	_	36	obj	_	TokenRange=266:274
+38	petrobras	petrobra	NOUN	NOUN	_	37	flat	_	TokenRange=275:284
+39	ainda	ainda	ADV	ADV	_	42	advmod	_	TokenRange=285:290
+40	rumo	rumo	NOUN	NOUN	_	42	mark	_	TokenRange=291:295
+41	roubalheira	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=296:307
+42	continuaria	continuar	VERB	VERB	_	36	advcl	_	TokenRange=308:319
+43	todo	_	DET	DET	_	44	det	_	TokenRange=320:324
+44	vapor	vapor	NOUN	NOUN	_	42	nsubj	_	TokenRange=325:330
+45	21	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=331:333
+46	minutos	minuto	NOUN	NOUN	_	42	nmod	_	TokenRange=334:341
+47	30	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=342:344
+48	segundos	segundo	NOUN	NOUN	_	49	amod	_	TokenRange=345:353
+49	video	video	NOUN	NOUN	_	51	nsubj	_	TokenRange=354:359
+50	podemos	_	AUX	AUX	_	51	aux	_	TokenRange=360:367
+51	entender	entender	VERB	VERB	_	36	parataxis	_	TokenRange=368:376
+52	acordo	acordo	NOUN	NOUN	_	51	obj	_	TokenRange=377:383
+53	depoimento	depoimento	NOUN	NOUN	_	52	appos	_	TokenRange=384:394
+54	leo	leo	ADJ	ADJ	_	56	nsubj	_	TokenRange=395:398
+55	politicos	politico	NOUN	NOUN	_	56	nsubj	_	TokenRange=399:408
+56	criam	_	VERB	VERB	_	52	acl:relcl	_	TokenRange=409:414
+57	cpis	_	NOUN	NOUN	_	56	obj	_	TokenRange=415:419
+58	epoca	epoca	NOUN	NOUN	_	56	nsubj	_	TokenRange=420:425
+59	eleicao	eleicao	NOUN	NOUN	_	56	nsubj	_	TokenRange=426:433
+60	simplesmente	simplesmente	ADV	ADV	_	61	advmod	_	TokenRange=434:446
+61	arrecadar	arrecadar	VERB	VERB	_	56	xcomp	_	TokenRange=447:456
+62	recursos	recurso	NOUN	NOUN	_	67	obj	_	TokenRange=457:465
+63	campanhas	campanha	ADJ	NOUN	_	62	amod	_	TokenRange=466:475
+64	funcao	funcao	NOUN	NOUN	_	61	obj	_	TokenRange=476:482
+65	principal	principal	ADJ	ADJ	_	64	amod	_	TokenRange=483:492
+66	cpi	cpi	NOUN	NOUN	_	67	nsubj	_	TokenRange=493:496
+67	investigar	investigar	VERB	VERB	_	64	csubj	_	SpaceAfter=No|TokenRange=497:507
+

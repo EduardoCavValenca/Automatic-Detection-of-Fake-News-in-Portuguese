@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mostra celebra cinema luis bunuel iconoclasta surrealistas diretor subverteu fundamentos tradicao familia propriedade evento sesc pinheiros confira videos autobiografia escrita parceria roteirista jeanclaude carriere ultimo suspiro luis bunuel ratifica odio informacao afirma morto gostaria erguerse cada dez anos tumba caminhar banca comprar jornais pediria nada jornais debaixo braco livido esbarrando muros retornaria cemiterio leria desastres mundo antes tornar
+1	mostra	mostra	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	celebra	celebrar	VERB	VERB	_	0	root	_	TokenRange=7:14
+3	cinema	cinema	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+4	luis	_	ADJ	ADJ	_	3	amod	_	TokenRange=22:26
+5	bunuel	bunuel	ADJ	ADJ	_	3	amod	_	TokenRange=27:33
+6	iconoclasta	iconoclasta	ADJ	ADJ	_	3	amod	_	TokenRange=34:45
+7	surrealistas	surrealista	ADJ	ADJ	_	6	amod	_	TokenRange=46:58
+8	diretor	diretor	NOUN	NOUN	_	6	amod	_	TokenRange=59:66
+9	subverteu	subverter	VERB	VERB	_	6	acl:relcl	_	TokenRange=67:76
+10	fundamentos	fundamento	NOUN	NOUN	_	9	obj	_	TokenRange=77:88
+11	tradicao	tradicao	NOUN	NOUN	_	10	amod	_	TokenRange=89:97
+12	familia	familia	NOUN	NOUN	_	10	appos	_	TokenRange=98:105
+13	propriedade	propriedade	NOUN	NOUN	_	10	appos	_	TokenRange=106:117
+14	evento	evento	NOUN	NOUN	_	13	appos	_	TokenRange=118:124
+15	sesc	_	NOUN	NOUN	_	18	appos	_	TokenRange=125:129
+16	pinheiros	pinheiro	NOUN	NOUN	_	15	flat	_	TokenRange=130:139
+17	confira	conferir	VERB	VERB	_	3	acl:relcl	_	TokenRange=140:147
+18	videos	video	NOUN	NOUN	_	17	obj	_	TokenRange=148:154
+19	autobiografia	autobiografia	NOUN	NOUN	_	18	flat	_	TokenRange=155:168
+20	escrita	escrever	VERB	VERB	_	18	acl	_	TokenRange=169:176
+21	parceria	parceria	NOUN	NOUN	_	18	appos	_	TokenRange=177:185
+22	roteirista	roteirista	ADJ	ADJ	_	21	amod	_	TokenRange=186:196
+23	jeanclaude	jeanclaude	NOUN	NOUN	_	21	appos	_	TokenRange=197:207
+24	carriere	_	NOUN	NOUN	_	21	appos	_	TokenRange=208:216
+25	ultimo	_	ADJ	ADJ	_	26	amod	_	TokenRange=217:223
+26	suspiro	suspiro	NOUN	NOUN	_	21	appos	_	TokenRange=224:231
+27	luis	_	NOUN	NOUN	_	26	appos	_	TokenRange=232:236
+28	bunuel	bunuel	NOUN	NOUN	_	26	amod	_	TokenRange=237:243
+29	ratifica	ratificar	VERB	VERB	_	26	acl:relcl	_	TokenRange=244:252
+30	odio	odio	NOUN	NOUN	_	29	obj	_	TokenRange=253:257
+31	informacao	informacao	ADJ	ADJ	_	30	amod	_	TokenRange=258:268
+32	afirma	afirmar	VERB	VERB	_	17	parataxis	_	TokenRange=269:275
+33	morto	morto	NOUN	NOUN	_	32	xcomp	_	TokenRange=276:281
+34	gostaria	gostar	VERB	VERB	_	32	ccomp	_	TokenRange=282:290
+35	erguerse	erguerse	VERB	VERB	_	34	xcomp	_	TokenRange=291:299
+36	cada	_	DET	DET	_	38	det	_	TokenRange=300:304
+37	dez	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=305:308
+38	anos	ano	NOUN	NOUN	_	34	nmod	_	TokenRange=309:313
+39	tumba	tumba	NOUN	NOUN	_	34	nsubj	_	TokenRange=314:319
+40	caminhar	caminhar	VERB	VERB	_	34	csubj	_	TokenRange=320:328
+41	banca	banca	NOUN	NOUN	_	42	obj	_	TokenRange=329:334
+42	comprar	comprar	VERB	VERB	_	39	acl:inf	_	TokenRange=335:342
+43	jornais	jornal	NOUN	NOUN	_	42	obj	_	TokenRange=343:350
+44	pediria	pedir	VERB	VERB	_	40	ccomp	_	TokenRange=351:358
+45	nada	_	PRON	PRON	_	44	obj	_	TokenRange=359:363
+46	jornais	jornal	NOUN	NOUN	_	44	nsubj	_	TokenRange=364:371
+47	debaixo	debaixo	ADV	ADV	_	48	advmod	_	TokenRange=372:379
+48	braco	braco	NOUN	NOUN	_	46	appos	_	TokenRange=380:385
+49	livido	livido	ADJ	ADJ	_	48	amod	_	TokenRange=386:392
+50	esbarrando	esbarrar	VERB	VERB	_	48	acl	_	TokenRange=393:403
+51	muros	muro	NOUN	NOUN	_	50	obj	_	TokenRange=404:409
+52	retornaria	retornar	VERB	VERB	_	44	conj	_	TokenRange=410:420
+53	cemiterio	cemiterio	NOUN	NOUN	_	54	obj	_	TokenRange=421:430
+54	leria	ler	VERB	VERB	_	44	conj	_	TokenRange=431:436
+55	desastres	_	NOUN	NOUN	_	54	obj	_	TokenRange=437:446
+56	mundo	mundo	NOUN	NOUN	_	58	obj	_	TokenRange=447:452
+57	antes	antes	ADV	ADV	_	58	advmod	_	TokenRange=453:458
+58	tornar	tornar	VERB	VERB	_	54	ccomp	_	SpaceAfter=No|TokenRange=459:465
+

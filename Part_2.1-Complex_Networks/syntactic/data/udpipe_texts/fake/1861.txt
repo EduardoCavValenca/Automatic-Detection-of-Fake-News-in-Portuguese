@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lima duarte lula imbecil dilma nunca preparada governar preparada conduzir futuro melhor sabe feliz outro canto ator lima duarte juntamente jovem tome movimento ruas gravou video onde opiniao sobre situacao pais passando lima destacou
+1	lima	lima	NOUN	NOUN	_	34	nsubj	_	TokenRange=0:4
+2	duarte	_	ADJ	NOUN	_	1	flat	_	TokenRange=5:11
+3	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=12:16
+4	imbecil	imbecil	ADJ	ADJ	_	3	amod	_	TokenRange=17:24
+5	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=25:30
+6	nunca	nunca	ADV	ADV	_	7	advmod	_	TokenRange=31:36
+7	preparada	preparado	ADJ	ADJ	_	5	acl	_	TokenRange=37:46
+8	governar	governar	VERB	VERB	_	5	acl:inf	_	TokenRange=47:55
+9	preparada	preparado	ADJ	ADJ	_	8	xcomp	_	TokenRange=56:65
+10	conduzir	conduzir	VERB	VERB	_	8	ccomp	_	TokenRange=66:74
+11	futuro	futuro	NOUN	NOUN	_	10	obj	_	TokenRange=75:81
+12	melhor	melhor	ADJ	ADV	_	11	amod	_	TokenRange=82:88
+13	sabe	saber	VERB	VERB	_	0	root	_	TokenRange=89:93
+14	feliz	feliz	ADJ	ADJ	_	13	xcomp	_	TokenRange=94:99
+15	outro	_	DET	DET	_	16	det	_	TokenRange=100:105
+16	canto	canto	NOUN	NOUN	_	13	obj	_	TokenRange=106:111
+17	ator	ator	NOUN	NOUN	_	16	appos	_	TokenRange=112:116
+18	lima	lima	NOUN	NOUN	_	16	appos	_	TokenRange=117:121
+19	duarte	duarte	NOUN	NOUN	_	18	flat	_	TokenRange=122:128
+20	juntamente	juntamente	ADV	ADV	_	21	advmod	_	TokenRange=129:139
+21	jovem	jovem	ADJ	ADJ	_	22	amod	_	TokenRange=140:145
+22	tome	tome	NOUN	NOUN	_	16	appos	_	TokenRange=146:150
+23	movimento	movimento	NOUN	NOUN	_	22	appos	_	TokenRange=151:160
+24	ruas	rua	NOUN	NOUN	_	23	flat	_	TokenRange=161:165
+25	gravou	gravar	VERB	VERB	_	13	parataxis	_	TokenRange=166:172
+26	video	video	NOUN	NOUN	_	25	obj	_	TokenRange=173:178
+27	onde	onde	ADV	ADV	_	28	advmod	_	TokenRange=179:183
+28	opiniao	opiniao	NOUN	NOUN	_	26	acl:relcl	_	TokenRange=184:191
+29	sobre	_	ADP	ADP	_	30	case	_	TokenRange=192:197
+30	situacao	situacao	NOUN	NOUN	_	28	nmod	_	TokenRange=198:206
+31	pais	_	NOUN	NOUN	_	30	flat	_	TokenRange=207:211
+32	passando	passar	VERB	VERB	_	30	acl	_	TokenRange=212:220
+33	lima	lima	NOUN	NOUN	_	34	obj	_	TokenRange=221:225
+34	destacou	destacar	VERB	VERB	_	26	acl:relcl	_	SpaceAfter=No|TokenRange=226:234
+

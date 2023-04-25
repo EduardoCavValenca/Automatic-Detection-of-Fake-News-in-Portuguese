@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acao tse oficial justica notifica temer dilma escapou hoje tse pretendia notificar dilma rousseff hoje acao eleitoral aime 761 pode cassar mandato chapa oficial justica conseguiu encontrar vicepresidente michel temer entregou notificacao politico presidenta dilma rousseff encontrada palacio planalto passou tarde congresso amanha escapa
+1	acao	acao	NOUN	NOUN	_	44	nsubj	_	TokenRange=0:4
+2	tse	_	NOUN	NOUN	_	1	appos	_	TokenRange=5:8
+3	oficial	oficial	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+4	justica	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=17:24
+5	notifica	notificar	VERB	VERB	_	1	acl:relcl	_	TokenRange=25:33
+6	temer	temer	NOUN	NOUN	_	5	obj	_	TokenRange=34:39
+7	dilma	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=40:45
+8	escapou	escapar	VERB	VERB	_	1	acl:relcl	_	TokenRange=46:53
+9	hoje	hoje	ADV	ADV	_	11	advmod	_	TokenRange=54:58
+10	tse	_	PRON	PRON	_	11	nsubj	_	TokenRange=59:62
+11	pretendia	pretender	VERB	VERB	_	5	conj	_	TokenRange=63:72
+12	notificar	notificar	VERB	VERB	_	11	xcomp	_	TokenRange=73:82
+13	dilma	dilma	NOUN	NOUN	_	12	obj	_	TokenRange=83:88
+14	rousseff	rousseff	NOUN	NOUN	_	13	flat	_	TokenRange=89:97
+15	hoje	hoje	ADV	ADV	_	11	advmod	_	TokenRange=98:102
+16	acao	acao	NOUN	NOUN	_	12	obj	_	TokenRange=103:107
+17	eleitoral	eleitoral	ADJ	ADJ	_	16	amod	_	TokenRange=108:117
+18	aime	aime	NOUN	NOUN	_	21	nsubj	_	TokenRange=118:122
+19	761	_	NUM	NUM	NumType=Card	23	appos	_	TokenRange=123:126
+20	pode	_	AUX	AUX	_	21	aux	_	TokenRange=127:131
+21	cassar	cassar	VERB	VERB	_	16	acl:relcl	_	TokenRange=132:138
+22	mandato	mandato	NOUN	NOUN	_	21	obj	_	TokenRange=139:146
+23	chapa	chapa	NOUN	NOUN	_	21	nsubj	_	TokenRange=147:152
+24	oficial	oficial	ADJ	ADJ	_	23	amod	_	TokenRange=153:160
+25	justica	justico	ADJ	ADJ	_	23	amod	_	TokenRange=161:168
+26	conseguiu	conseguir	VERB	VERB	_	21	conj	_	TokenRange=169:178
+27	encontrar	encontrar	VERB	VERB	_	26	xcomp	_	TokenRange=179:188
+28	vicepresidente	vicepresidente	NOUN	NOUN	_	27	obj	_	TokenRange=189:203
+29	michel	michel	ADJ	ADJ	_	30	amod	_	TokenRange=204:210
+30	temer	temer	NOUN	NOUN	_	28	appos	_	TokenRange=211:216
+31	entregou	entregar	VERB	VERB	_	21	parataxis	_	TokenRange=217:225
+32	notificacao	notificacao	NOUN	NOUN	_	31	obj	_	TokenRange=226:237
+33	politico	politico	ADJ	ADJ	_	32	amod	_	TokenRange=238:246
+34	presidenta	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=247:257
+35	dilma	dilma	NOUN	NOUN	_	34	appos	_	TokenRange=258:263
+36	rousseff	rousseff	NOUN	NOUN	_	35	flat	_	TokenRange=264:272
+37	encontrada	encontrar	VERB	VERB	_	38	acl	_	TokenRange=273:283
+38	palacio	palacio	NOUN	NOUN	_	44	nsubj	_	TokenRange=284:291
+39	planalto	planalto	ADJ	ADJ	_	38	amod	_	TokenRange=292:300
+40	passou	passar	VERB	VERB	_	0	root	_	TokenRange=301:307
+41	tarde	tarde	ADV	ADV	_	44	advmod	_	TokenRange=308:313
+42	congresso	congresso	NOUN	NOUN	_	44	obj	_	TokenRange=314:323
+43	amanha	amanha	ADV	ADV	_	44	nsubj	_	TokenRange=324:330
+44	escapa	escapar	VERB	VERB	_	40	conj	_	SpaceAfter=No|TokenRange=331:337
+

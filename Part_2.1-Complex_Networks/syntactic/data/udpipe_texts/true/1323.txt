@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procuradora pede lula chamada querida durante depoimento apos pedido expresidente passou chamar representante mpf doutora moro afirma lula nenhuma intencao negativa utilizar termo pede usalo procuradora republica isabel cristina groba vieira participou segundo depoimento expresidente luiz inacio lula silva reu juiz sergio moro nesta quartafeira 13 justica federal curitiba incomodou
+1	procuradora	procurador	NOUN	NOUN	_	50	nsubj	_	TokenRange=0:11
+2	pede	pede	NOUN	NOUN	_	1	appos	_	TokenRange=12:16
+3	lula	_	NOUN	NOUN	_	1	flat	_	TokenRange=17:21
+4	chamada	chamar	VERB	VERB	_	1	acl	_	TokenRange=22:29
+5	querida	querido	ADJ	ADJ	_	4	xcomp	_	TokenRange=30:37
+6	durante	_	ADP	ADP	_	7	case	_	TokenRange=38:45
+7	depoimento	depoimento	NOUN	NOUN	_	4	nmod	_	TokenRange=46:56
+8	apos	_	ADP	ADP	_	9	case	_	TokenRange=57:61
+9	pedido	pedido	NOUN	NOUN	_	12	nmod	_	TokenRange=62:68
+10	expresidente	expresidente	NOUN	NOUN	_	9	amod	_	TokenRange=69:81
+11	passou	passar	AUX	AUX	_	12	aux	_	TokenRange=82:88
+12	chamar	chamar	VERB	VERB	_	1	acl:relcl	_	TokenRange=89:95
+13	representante	representante	NOUN	NOUN	_	12	obj	_	TokenRange=96:109
+14	mpf	_	NOUN	NOUN	_	13	appos	_	TokenRange=110:113
+15	doutora	doutor	NOUN	NOUN	_	17	nsubj	_	TokenRange=114:121
+16	moro	moro	NOUN	NOUN	_	15	flat	_	TokenRange=122:126
+17	afirma	afirmar	VERB	VERB	_	12	parataxis	_	TokenRange=127:133
+18	lula	lula	NOUN	NOUN	_	17	obj	_	TokenRange=134:138
+19	nenhuma	_	DET	DET	_	20	det	_	TokenRange=139:146
+20	intencao	intencao	NOUN	NOUN	_	17	obj	_	TokenRange=147:155
+21	negativa	negativo	ADJ	ADJ	_	20	amod	_	TokenRange=156:164
+22	utilizar	utilizar	VERB	VERB	_	17	ccomp	_	TokenRange=165:173
+23	termo	termo	NOUN	NOUN	_	22	obj	_	TokenRange=174:179
+24	pede	pede	NOUN	NOUN	_	23	appos	_	TokenRange=180:184
+25	usalo	usalo	NOUN	NOUN	_	23	appos	_	TokenRange=185:190
+26	procuradora	procurador	NOUN	NOUN	_	23	appos	_	TokenRange=191:202
+27	republica	republico	ADJ	ADJ	_	26	amod	_	TokenRange=203:212
+28	isabel	isabel	NOUN	NOUN	_	26	appos	_	TokenRange=213:219
+29	cristina	cristino	ADJ	ADJ	_	28	amod	_	TokenRange=220:228
+30	groba	groba	NOUN	NOUN	_	28	appos	_	TokenRange=229:234
+31	vieira	vieira	NOUN	NOUN	_	30	flat	_	TokenRange=235:241
+32	participou	participar	VERB	VERB	_	12	conj	_	TokenRange=242:252
+33	segundo	_	ADP	ADP	_	34	case	_	TokenRange=253:260
+34	depoimento	depoimento	NOUN	NOUN	_	32	nmod	_	TokenRange=261:271
+35	expresidente	expresidente	NOUN	NOUN	_	34	amod	_	TokenRange=272:284
+36	luiz	luiz	NOUN	NOUN	_	34	appos	_	TokenRange=285:289
+37	inacio	_	NOUN	NOUN	_	36	flat	_	TokenRange=290:296
+38	lula	_	NOUN	NOUN	_	36	flat	_	TokenRange=297:301
+39	silva	silva	NOUN	NOUN	_	36	flat	_	TokenRange=302:307
+40	reu	_	VERB	VERB	_	12	conj	_	TokenRange=308:311
+41	juiz	juiz	NOUN	NOUN	_	50	obj	_	TokenRange=312:316
+42	sergio	_	NOUN	NOUN	_	41	appos	_	TokenRange=317:323
+43	moro	moro	NOUN	NOUN	_	41	flat	_	TokenRange=324:328
+44	nesta	_	ADP	ADP	_	45	case	_	TokenRange=329:334
+45	quartafeira	quartafeira	NOUN	NOUN	_	50	nmod	_	TokenRange=335:346
+46	13	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=347:349
+47	justica	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=350:357
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=358:365
+49	curitiba	curitiba	NOUN	NOUN	_	50	nsubj	_	TokenRange=366:374
+50	incomodou	incomodar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=375:384
+

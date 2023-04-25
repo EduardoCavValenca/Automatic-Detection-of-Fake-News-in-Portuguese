@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tse ouve sp testemunhas acao sobre chapa dilmatemer dezembro policia federal realizou diligencias tres fornecedoras campanha entao candidatos tribunal superior eleitoral tse ouviu nesta quartafeira 8 cinco testemunhas processo investiga irregularidades chapa dilmatemer durante campanha presidencial 2014 audiencias marcadas ocorrer tribunal regional eleitoral tre paulo centro segundo informou colunista andreia sadi nesta quarta depoimentos desdobramento operacao policia federal realizou dezembro
+1	tse	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:3
+2	ouve	ouvir	VERB	VERB	_	0	root	_	TokenRange=4:8
+3	sp	_	X	NOUN	_	4	case	_	TokenRange=9:11
+4	testemunhas	testemunha	NOUN	NOUN	_	2	obj	_	TokenRange=12:23
+5	acao	acao	NOUN	NOUN	_	2	appos	_	TokenRange=24:28
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=29:34
+7	chapa	chapa	NOUN	NOUN	_	5	nmod	_	TokenRange=35:40
+8	dilmatemer	dilmatemer	NOUN	NOUN	_	7	flat	_	TokenRange=41:51
+9	dezembro	_	PROPN	PNOUN	_	12	nsubj	_	TokenRange=52:60
+10	policia	policia	NOUN	NOUN	_	12	nsubj	_	TokenRange=61:68
+11	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=69:76
+12	realizou	realizar	VERB	VERB	_	2	parataxis	_	TokenRange=77:85
+13	diligencias	diligencia	NOUN	NOUN	_	12	obj	_	TokenRange=86:97
+14	tres	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=98:102
+15	fornecedoras	fornecedor	NOUN	NOUN	_	12	obj	_	TokenRange=103:115
+16	campanha	campanha	NOUN	NOUN	_	12	obj	_	TokenRange=116:124
+17	entao	entao	ADV	ADV	_	18	advmod	_	TokenRange=125:130
+18	candidatos	candidato	NOUN	NOUN	_	16	appos	_	TokenRange=131:141
+19	tribunal	tribunal	NOUN	NOUN	_	16	appos	_	TokenRange=142:150
+20	superior	superior	ADJ	ADJ	_	19	amod	_	TokenRange=151:159
+21	eleitoral	eleitoral	ADJ	ADJ	_	19	amod	_	TokenRange=160:169
+22	tse	_	PRON	PRON	_	23	nsubj	_	TokenRange=170:173
+23	ouviu	ouvir	VERB	VERB	_	12	parataxis	_	TokenRange=174:179
+24	nesta	_	ADP	ADP	_	25	case	_	TokenRange=180:185
+25	quartafeira	_	NOUN	NOUN	_	23	nmod	_	TokenRange=186:197
+26	8	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=198:199
+27	cinco	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=200:205
+28	testemunhas	testemunha	NOUN	NOUN	_	23	obj	_	TokenRange=206:217
+29	processo	processo	NOUN	NOUN	_	28	amod	_	TokenRange=218:226
+30	investiga	investigar	VERB	VERB	_	23	parataxis	_	TokenRange=227:236
+31	irregularidades	irregularidade	NOUN	NOUN	_	30	obj	_	TokenRange=237:252
+32	chapa	chapa	NOUN	NOUN	_	31	appos	_	TokenRange=253:258
+33	dilmatemer	dilmatemer	NOUN	NOUN	_	32	flat	_	TokenRange=259:269
+34	durante	_	ADP	ADP	_	35	case	_	TokenRange=270:277
+35	campanha	campanha	NOUN	NOUN	_	30	nmod	_	TokenRange=278:286
+36	presidencial	presidencial	ADJ	ADJ	_	35	amod	_	TokenRange=287:299
+37	2014	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=300:304
+38	audiencias	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=305:315
+39	marcadas	marcar	VERB	VERB	_	38	acl	_	TokenRange=316:324
+40	ocorrer	ocorrer	VERB	VERB	_	39	xcomp	_	TokenRange=325:332
+41	tribunal	tribunal	NOUN	NOUN	_	40	obj	_	TokenRange=333:341
+42	regional	regional	ADJ	ADJ	_	41	amod	_	TokenRange=342:350
+43	eleitoral	eleitoral	ADJ	ADJ	_	41	amod	_	TokenRange=351:360
+44	tre	_	ADJ	NOUN	_	45	case	_	TokenRange=361:364
+45	paulo	paulo	NOUN	NOUN	_	41	nmod	_	TokenRange=365:370
+46	centro	centro	NOUN	NOUN	_	45	flat	_	TokenRange=371:377
+47	segundo	_	CCONJ	CONJ	_	48	mark	_	TokenRange=378:385
+48	informou	informar	VERB	VERB	_	12	advcl	_	TokenRange=386:394
+49	colunista	colunista	NOUN	NOUN	_	48	obj	_	TokenRange=395:404
+50	andreia	andreia	NOUN	NOUN	_	49	appos	_	TokenRange=405:412
+51	sadi	_	NOUN	NOUN	_	50	flat	_	TokenRange=413:417
+52	nesta	_	ADP	ADP	_	54	case	_	TokenRange=418:423
+53	quarta	_	ADJ	ADJ	_	54	amod	_	TokenRange=424:430
+54	depoimentos	depoimento	NOUN	NOUN	_	48	nmod	_	TokenRange=431:442
+55	desdobramento	desdobramento	NOUN	NOUN	_	54	appos	_	TokenRange=443:456
+56	operacao	operacao	ADJ	ADJ	_	57	amod	_	TokenRange=457:465
+57	policia	policia	NOUN	NOUN	_	59	nsubj	_	TokenRange=466:473
+58	federal	federal	ADJ	ADJ	_	57	amod	_	TokenRange=474:481
+59	realizou	realizar	VERB	VERB	_	48	parataxis	_	TokenRange=482:490
+60	dezembro	_	PROPN	PNOUN	_	59	obj	_	SpaceAfter=No|TokenRange=491:499
+

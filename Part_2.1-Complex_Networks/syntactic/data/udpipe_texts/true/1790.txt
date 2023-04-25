@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = semana votacao denuncia temer diz desafios vitalizam presidente deu declaracao nesta terca 25 durante cerimonia posse novo ministro cultura segundo acredite pode ficar combalido perturbado dificuldades presidente michel temer afirmou nesta tercafeira 25 semana antes camara analisar denuncia corrupcao passiva apresentada procuradoria geral republica pgr embora acredite pode ficar combalido
+1	semana	semana	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:6
+2	votacao	votacao	NOUN	NOUN	_	5	nsubj	_	TokenRange=7:14
+3	denuncia	_	NOUN	ADJ	_	2	amod	_	TokenRange=15:23
+4	temer	temer	NOUN	NOUN	_	5	nsubj	_	TokenRange=24:29
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=30:33
+6	desafios	desafio	NOUN	NOUN	_	5	obj	_	TokenRange=34:42
+7	vitalizam	vitalizar	VERB	VERB	_	5	ccomp	_	TokenRange=43:52
+8	presidente	presidente	NOUN	NOUN	_	9	nsubj	_	TokenRange=53:63
+9	deu	dar	VERB	VERB	_	5	parataxis	_	TokenRange=64:67
+10	declaracao	declaracao	NOUN	NOUN	_	9	obj	_	TokenRange=68:78
+11	nesta	_	ADP	ADP	_	12	case	_	TokenRange=79:84
+12	terca	terca	NOUN	NOUN	_	9	nmod	_	TokenRange=85:90
+13	25	_	NUM	NUM	NumType=Card	12	nmod	_	TokenRange=91:93
+14	durante	_	ADP	ADP	_	15	case	_	TokenRange=94:101
+15	cerimonia	cerimonia	NOUN	NOUN	_	9	nmod	_	TokenRange=102:111
+16	posse	posse	NOUN	NOUN	_	15	flat	_	TokenRange=112:117
+17	novo	novo	ADJ	ADJ	_	18	amod	_	TokenRange=118:122
+18	ministro	ministro	NOUN	NOUN	_	15	appos	_	TokenRange=123:131
+19	cultura	cultura	NOUN	NOUN	_	18	flat	_	TokenRange=132:139
+20	segundo	_	ADP	ADP	_	24	mark	_	TokenRange=140:147
+21	acredite	acredite	NOUN	NOUN	_	24	nsubj	_	TokenRange=148:156
+22	pode	_	AUX	AUX	_	24	aux	_	TokenRange=157:161
+23	ficar	ficar	AUX	AUX	_	24	cop	_	TokenRange=162:167
+24	combalido	combalido	ADJ	ADJ	_	5	advcl	_	TokenRange=168:177
+25	perturbado	perturbado	ADJ	ADJ	_	26	amod	_	TokenRange=178:188
+26	dificuldades	dificuldade	NOUN	NOUN	_	30	nsubj	_	TokenRange=189:201
+27	presidente	presidente	NOUN	NOUN	_	26	appos	_	TokenRange=202:212
+28	michel	michel	ADJ	ADJ	_	29	amod	_	TokenRange=213:219
+29	temer	temer	NOUN	NOUN	_	27	appos	_	TokenRange=220:225
+30	afirmou	afirmar	VERB	VERB	_	5	parataxis	_	TokenRange=226:233
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=234:239
+32	tercafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=240:250
+33	25	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=251:253
+34	semana	semana	NOUN	NOUN	_	35	nmod	_	TokenRange=254:260
+35	antes	antes	ADV	ADV	_	37	advmod	_	TokenRange=261:266
+36	camara	camara	NOUN	NOUN	_	37	nsubj	_	TokenRange=267:273
+37	analisar	analisar	VERB	VERB	_	30	ccomp	_	TokenRange=274:282
+38	denuncia	denuncia	NOUN	NOUN	_	37	obj	_	TokenRange=283:291
+39	corrupcao	corrupcao	NOUN	NOUN	_	38	amod	_	TokenRange=292:301
+40	passiva	passivo	ADJ	ADJ	_	38	amod	_	TokenRange=302:309
+41	apresentada	apresentar	VERB	VERB	_	38	acl	_	TokenRange=310:321
+42	procuradoria	procuradoria	NOUN	NOUN	_	41	obj	_	TokenRange=322:334
+43	geral	geral	ADJ	ADJ	_	42	amod	_	TokenRange=335:340
+44	republica	republico	ADJ	ADJ	_	42	amod	_	TokenRange=341:350
+45	pgr	_	NOUN	NOUN	_	42	appos	_	TokenRange=351:354
+46	embora	_	CCONJ	CONJ	_	50	mark	_	TokenRange=355:361
+47	acredite	acreditar	NOUN	NOUN	_	50	nsubj	_	TokenRange=362:370
+48	pode	_	AUX	AUX	_	50	aux	_	TokenRange=371:375
+49	ficar	ficar	AUX	AUX	_	50	aux	_	TokenRange=376:381
+50	combalido	combalido	VERB	VERB	_	37	advcl	_	SpaceAfter=No|TokenRange=382:391
+

@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = virou bagunca todo mundo quer beneficio dilma delcidio recorre stf recuperar direitos balburdia criada fatiamento impeachment criando avalanche recursos supremo exsenador petista delcidio amaral recorreu agora pouco stf cassacao anulada defesa delcidio quer processo volte comissao constituicao justica senado exparlamentar direitos politicos devolvidos exsenador mandato cassado maio/2016 inelegivel menos enquanto oito anos advogado argumentou possivel estado democratico direito valham dois pesos duas medidas delcidio cassado mandato perda direitos politicos dada isonomia tratamento impeachment expresidente
+1	virou	virar	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	bagunca	bagunca	NOUN	NOUN	_	1	obj	_	TokenRange=6:13
+3	todo	_	DET	DET	_	4	det	_	TokenRange=14:18
+4	mundo	mundo	NOUN	NOUN	_	1	nsubj	_	TokenRange=19:24
+5	quer	_	VERB	VERB	_	9	cc	_	TokenRange=25:29
+6	beneficio	beneficio	NOUN	NOUN	_	1	obj	_	TokenRange=30:39
+7	dilma	_	ADJ	ADJ	_	8	amod	_	TokenRange=40:45
+8	delcidio	delcidio	NOUN	NOUN	_	9	nsubj	_	TokenRange=46:54
+9	recorre	recorrer	VERB	VERB	_	1	conj	_	TokenRange=55:62
+10	stf	_	NOUN	NOUN	_	11	obj	_	TokenRange=63:66
+11	recuperar	recuperar	VERB	VERB	_	9	ccomp	_	TokenRange=67:76
+12	direitos	direito	NOUN	NOUN	_	11	obj	_	TokenRange=77:85
+13	balburdia	balburdia	NOUN	NOUN	_	12	flat	_	TokenRange=86:95
+14	criada	criar	VERB	VERB	_	12	acl	_	TokenRange=96:102
+15	fatiamento	fatiamento	NOUN	NOUN	_	14	obj	_	TokenRange=103:113
+16	impeachment	impeachment	NOUN	NOUN	_	15	flat	_	TokenRange=114:125
+17	criando	criar	VERB	VERB	_	15	acl	_	TokenRange=126:133
+18	avalanche	avalanche	NOUN	NOUN	_	17	obj	_	TokenRange=134:143
+19	recursos	recurso	NOUN	NOUN	_	17	obj	_	TokenRange=144:152
+20	supremo	supremo	ADJ	ADJ	_	19	amod	_	TokenRange=153:160
+21	exsenador	exsenador	NOUN	NOUN	_	19	appos	_	TokenRange=161:170
+22	petista	petista	ADJ	NOUN	_	19	amod	_	TokenRange=171:178
+23	delcidio	delcidio	NOUN	NOUN	_	21	appos	_	TokenRange=179:187
+24	amaral	amaral	ADJ	ADJ	_	21	amod	_	TokenRange=188:194
+25	recorreu	recorrer	VERB	VERB	_	1	parataxis	_	TokenRange=195:203
+26	agora	agora	ADV	ADV	_	25	advmod	_	TokenRange=204:209
+27	pouco	pouco	ADV	ADV	_	25	advmod	_	TokenRange=210:215
+28	stf	_	NOUN	NOUN	_	25	nmod	_	TokenRange=216:219
+29	cassacao	cassacao	NOUN	NOUN	_	28	flat	_	TokenRange=220:228
+30	anulada	anulado	ADJ	ADJ	_	31	amod	_	TokenRange=229:236
+31	defesa	_	NOUN	NOUN	_	28	appos	_	TokenRange=237:243
+32	delcidio	delcidio	ADJ	ADJ	_	31	amod	_	TokenRange=244:252
+33	quer	_	CCONJ	CONJ	_	34	cc	_	TokenRange=253:257
+34	processo	processo	NOUN	NOUN	_	31	conj	_	TokenRange=258:266
+35	volte	volte	ADJ	ADJ	_	36	amod	_	TokenRange=267:272
+36	comissao	comissao	NOUN	NOUN	_	25	nsubj	_	TokenRange=273:281
+37	constituicao	constituicao	ADJ	ADJ	_	36	amod	_	TokenRange=282:294
+38	justica	justico	ADJ	ADJ	_	39	amod	_	TokenRange=295:302
+39	senado	senado	NOUN	NOUN	_	25	nsubj	_	TokenRange=303:309
+40	exparlamentar	exparlamentar	ADJ	ADJ	_	39	amod	_	TokenRange=310:323
+41	direitos	direito	NOUN	NOUN	_	39	appos	_	TokenRange=324:332
+42	politicos	politico	ADJ	ADJ	_	41	amod	_	TokenRange=333:342
+43	devolvidos	devolver	VERB	VERB	_	41	acl	_	TokenRange=343:353
+44	exsenador	exsenador	NOUN	NOUN	_	39	amod	_	TokenRange=354:363
+45	mandato	mandato	NOUN	NOUN	_	39	appos	_	TokenRange=364:371
+46	cassado	cassado	ADJ	ADJ	_	45	amod	_	TokenRange=372:379
+47	maio/2016	_	NUM	NUM	_	45	appos	_	TokenRange=380:389
+48	inelegivel	inelegivel	ADJ	ADJ	_	45	amod	_	TokenRange=390:400
+49	menos	menos	ADV	ADV	_	54	advmod	_	TokenRange=401:406
+50	enquanto	_	CCONJ	CONJ	_	52	case	_	TokenRange=407:415
+51	oito	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=416:420
+52	anos	ano	NOUN	NOUN	_	54	nmod	_	TokenRange=421:425
+53	advogado	advogado	NOUN	NOUN	_	54	nsubj	_	TokenRange=426:434
+54	argumentou	argumentar	VERB	VERB	_	1	conj	_	TokenRange=435:445
+55	possivel	_	ADJ	ADJ	_	56	amod	_	TokenRange=446:454
+56	estado	estado	NOUN	NOUN	_	54	obj	_	TokenRange=455:461
+57	democratico	democratico	ADJ	ADJ	_	56	amod	_	TokenRange=462:473
+58	direito	direito	NOUN	NOUN	_	56	amod	_	TokenRange=474:481
+59	valham	valhar	VERB	VERB	_	54	parataxis	_	TokenRange=482:488
+60	dois	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=489:493
+61	pesos	peso	NOUN	NOUN	_	59	obj	_	TokenRange=494:499
+62	duas	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=500:504
+63	medidas	medida	NOUN	NOUN	_	59	nsubj	_	TokenRange=505:512
+64	delcidio	delcidio	ADJ	ADJ	_	63	amod	_	TokenRange=513:521
+65	cassado	cassado	ADJ	ADJ	_	63	amod	_	TokenRange=522:529
+66	mandato	mandato	NOUN	NOUN	_	63	appos	_	TokenRange=530:537
+67	perda	perda	NOUN	NOUN	_	63	acl:relcl	_	TokenRange=538:543
+68	direitos	direito	NOUN	NOUN	_	67	obj	_	TokenRange=544:552
+69	politicos	politico	ADJ	ADJ	_	68	amod	_	TokenRange=553:562
+70	dada	dar	VERB	ADJ	_	71	amod	_	TokenRange=563:567
+71	isonomia	isonomia	NOUN	NOUN	_	67	nmod	_	TokenRange=568:576
+72	tratamento	tratamento	NOUN	NOUN	_	67	appos	_	TokenRange=577:587
+73	impeachment	impeachment	ADJ	ADJ	_	74	flat	_	TokenRange=588:599
+74	expresidente	expresidente	NOUN	NOUN	_	72	appos	_	SpaceAfter=No|TokenRange=600:612
+

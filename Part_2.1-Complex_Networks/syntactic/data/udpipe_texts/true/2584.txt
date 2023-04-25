@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eletricista diz juiz lembra acidente causou morte porteiro rotatoria goiania videos mostraram jardel francisco seguia alta velocidade atingiu veiculo vitima eletricista jardel francisco lima ribeiro 26 anos dirigia carro atravessou rotatoria matou porteiro carlos antonio rocha 45 anos disse audiencia nesta segundafeira 18 lembra acidente vitima fiat palio atingido chevrolet montana outro condutor videos registraram momento acidente causa traumatismo lembro nada disseram antes discussao pai sai casa contou
+1	eletricista	eletricista	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=12:15
+3	juiz	juiz	NOUN	NOUN	_	2	obj	_	TokenRange=16:20
+4	lembra	lembra	NOUN	NOUN	_	5	amod	_	TokenRange=21:27
+5	acidente	acidente	NOUN	NOUN	_	6	nsubj	_	TokenRange=28:36
+6	causou	causar	VERB	VERB	_	2	parataxis	_	TokenRange=37:43
+7	morte	morte	NOUN	NOUN	_	6	obj	_	TokenRange=44:49
+8	porteiro	porteiro	ADJ	NOUN	_	7	amod	_	TokenRange=50:58
+9	rotatoria	rotatoria	NOUN	NOUN	_	7	appos	_	TokenRange=59:68
+10	goiania	goiania	ADJ	ADJ	_	12	nsubj	_	TokenRange=69:76
+11	videos	video	NOUN	NOUN	_	12	nsubj	_	TokenRange=77:83
+12	mostraram	mostrar	VERB	VERB	_	2	conj	_	TokenRange=84:93
+13	jardel	jardel	NOUN	NOUN	_	12	obj	_	TokenRange=94:100
+14	francisco	francisco	NOUN	NOUN	_	13	flat	_	TokenRange=101:110
+15	seguia	seguir	VERB	VERB	_	13	acl:relcl	_	TokenRange=111:117
+16	alta	alto	ADJ	ADJ	_	17	amod	_	TokenRange=118:122
+17	velocidade	velocidade	NOUN	NOUN	_	15	obj	_	TokenRange=123:133
+18	atingiu	atingir	VERB	VERB	_	15	parataxis	_	TokenRange=134:141
+19	veiculo	veiculo	NOUN	NOUN	_	18	obj	_	TokenRange=142:149
+20	vitima	_	ADJ	ADJ	_	19	amod	_	TokenRange=150:156
+21	eletricista	eletricista	NOUN	NOUN	_	28	nsubj	_	TokenRange=157:168
+22	jardel	jardel	NOUN	NOUN	_	21	appos	_	TokenRange=169:175
+23	francisco	francisco	NOUN	NOUN	_	22	flat	_	TokenRange=176:185
+24	lima	lima	NOUN	NOUN	_	22	flat	_	TokenRange=186:190
+25	ribeiro	ribeiro	ADJ	ADJ	_	22	amod	_	TokenRange=191:198
+26	26	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=199:201
+27	anos	ano	NOUN	NOUN	_	28	nsubj	_	TokenRange=202:206
+28	dirigia	dirigir	VERB	VERB	_	18	conj	_	TokenRange=207:214
+29	carro	carro	NOUN	NOUN	_	28	obj	_	TokenRange=215:220
+30	atravessou	atravessar	VERB	VERB	_	28	parataxis	_	TokenRange=221:231
+31	rotatoria	rotatoria	NOUN	NOUN	_	30	obj	_	TokenRange=232:241
+32	matou	matar	VERB	VERB	_	28	parataxis	_	TokenRange=242:247
+33	porteiro	porteiro	NOUN	NOUN	_	32	nsubj	_	TokenRange=248:256
+34	carlos	carlo	NOUN	NOUN	_	33	appos	_	TokenRange=257:263
+35	antonio	antonio	ADJ	ADJ	_	34	flat	_	TokenRange=264:271
+36	rocha	rocha	NOUN	NOUN	_	34	flat	_	TokenRange=272:277
+37	45	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=278:280
+38	anos	ano	NOUN	NOUN	_	39	nsubj	_	TokenRange=281:285
+39	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=286:291
+40	audiencia	audiencia	NOUN	NOUN	_	39	obj	_	TokenRange=292:301
+41	nesta	_	ADP	ADP	_	42	case	_	TokenRange=302:307
+42	segundafeira	_	NOUN	NOUN	_	39	nmod	_	TokenRange=308:320
+43	18	_	NUM	NUM	NumType=Card	44	nsubj	_	TokenRange=321:323
+44	lembra	lembrar	VERB	VERB	_	39	parataxis	_	TokenRange=324:330
+45	acidente	acidente	NOUN	NOUN	_	44	obj	_	TokenRange=331:339
+46	vitima	_	ADJ	ADJ	_	47	amod	_	TokenRange=340:346
+47	fiat	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=347:351
+48	palio	_	NOUN	NOUN	_	47	flat	_	TokenRange=352:357
+49	atingido	atingir	VERB	VERB	_	47	acl	_	TokenRange=358:366
+50	chevrolet	_	NOUN	NOUN	_	49	obj	_	TokenRange=367:376
+51	montana	montano	NOUN	NOUN	_	50	flat	_	TokenRange=377:384
+52	outro	_	DET	DET	_	53	det	_	TokenRange=385:390
+53	condutor	condutor	NOUN	NOUN	_	55	nsubj	_	TokenRange=391:399
+54	videos	video	NOUN	NOUN	_	53	amod	_	TokenRange=400:406
+55	registraram	registrar	VERB	VERB	_	39	parataxis	_	TokenRange=407:418
+56	momento	momento	NOUN	NOUN	_	55	obj	_	TokenRange=419:426
+57	acidente	acidente	NOUN	NOUN	_	56	flat	_	TokenRange=427:435
+58	causa	causa	NOUN	NOUN	_	56	appos	_	TokenRange=436:441
+59	traumatismo	traumatismo	NOUN	NOUN	_	56	flat	_	TokenRange=442:453
+60	lembro	lembro	NOUN	NOUN	_	59	amod	_	TokenRange=454:460
+61	nada	_	PRON	PRON	_	62	obj	_	TokenRange=461:465
+62	disseram	dizer	VERB	VERB	_	56	acl:relcl	_	TokenRange=466:474
+63	antes	antes	ADV	ADV	_	68	advmod	_	TokenRange=475:480
+64	discussao	discussao	NOUN	NOUN	_	68	obj	_	TokenRange=481:490
+65	pai	pai	NOUN	NOUN	_	66	nsubj	_	TokenRange=491:494
+66	sai	sair	VERB	VERB	_	62	ccomp	_	TokenRange=495:498
+67	casa	casa	NOUN	NOUN	_	68	obj	_	TokenRange=499:503
+68	contou	contar	VERB	VERB	_	62	parataxis	_	SpaceAfter=No|TokenRange=504:510
+

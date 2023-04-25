@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa luciano huck informou tse reitera candidato pleito deste ano afirmacao consta processo apresentador acusado pt promovido eventual candidatura planalto programa faustao tv globo defesa rebate ponto ponto acusacao menciona presenca presidente michel temer programas sbt fim defender imagem governo reforma previdencia exemplo vedado tratar politica emissoras tv pode
+1	defesa	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	luciano	luciano	NOUN	NOUN	_	1	appos	_	TokenRange=7:14
+3	huck	_	NOUN	NOUN	_	1	flat	_	TokenRange=15:19
+4	informou	informar	VERB	VERB	_	0	root	_	TokenRange=20:28
+5	tse	_	NOUN	NOUN	_	6	obj	_	TokenRange=29:32
+6	reitera	reiterar	VERB	VERB	_	4	ccomp	_	TokenRange=33:40
+7	candidato	candidato	NOUN	NOUN	_	6	obj	_	TokenRange=41:50
+8	pleito	pleito	NOUN	NOUN	_	7	amod	_	TokenRange=51:57
+9	deste	_	ADP	ADP	_	10	case	_	TokenRange=58:63
+10	ano	ano	NOUN	NOUN	_	7	nmod	_	TokenRange=64:67
+11	afirmacao	afirmacao	NOUN	NOUN	_	6	obj	_	TokenRange=68:77
+12	consta	consta	ADJ	ADJ	_	13	amod	_	TokenRange=78:84
+13	processo	processo	NOUN	NOUN	_	6	nsubj	_	TokenRange=85:93
+14	apresentador	apresentador	NOUN	NOUN	_	13	flat	_	TokenRange=94:106
+15	acusado	acusar	VERB	VERB	_	13	acl	_	TokenRange=107:114
+16	pt	_	NOUN	NOUN	_	15	obj	_	TokenRange=115:117
+17	promovido	promover	VERB	VERB	_	19	acl	_	TokenRange=118:127
+18	eventual	eventual	ADJ	ADJ	_	19	amod	_	TokenRange=128:136
+19	candidatura	candidatura	NOUN	NOUN	_	15	obj	_	TokenRange=137:148
+20	planalto	planalto	ADJ	ADJ	_	19	amod	_	TokenRange=149:157
+21	programa	programa	NOUN	NOUN	_	19	appos	_	TokenRange=158:166
+22	faustao	faustao	ADJ	ADJ	_	21	amod	_	TokenRange=167:174
+23	tv	tv	NOUN	NOUN	_	26	appos	_	TokenRange=175:177
+24	globo	globo	NOUN	NOUN	_	21	appos	_	TokenRange=178:183
+25	defesa	_	NOUN	NOUN	_	26	appos	_	TokenRange=184:190
+26	rebate	rebate	NOUN	NOUN	_	19	appos	_	TokenRange=191:197
+27	ponto	ponto	NOUN	NOUN	_	26	appos	_	TokenRange=198:203
+28	ponto	ponto	NOUN	NOUN	_	27	flat	_	TokenRange=204:209
+29	acusacao	acusacao	NOUN	NOUN	_	27	flat	_	TokenRange=210:218
+30	menciona	menciono	ADJ	ADJ	_	26	flat	_	TokenRange=219:227
+31	presenca	presenca	NOUN	NOUN	_	26	flat	_	TokenRange=228:236
+32	presidente	presidente	NOUN	NOUN	_	31	appos	_	TokenRange=237:247
+33	michel	michel	ADJ	ADJ	_	34	amod	_	TokenRange=248:254
+34	temer	temer	NOUN	NOUN	_	32	flat	_	TokenRange=255:260
+35	programas	programa	NOUN	NOUN	_	31	appos	_	TokenRange=261:270
+36	sbt	_	NOUN	NOUN	_	35	appos	_	TokenRange=271:274
+37	fim	fim	NOUN	NOUN	_	38	nsubj	_	TokenRange=275:278
+38	defender	defender	VERB	VERB	_	35	acl:relcl	_	TokenRange=279:287
+39	imagem	imagem	NOUN	NOUN	_	38	obj	_	TokenRange=288:294
+40	governo	governo	NOUN	NOUN	_	39	flat	_	TokenRange=295:302
+41	reforma	reforma	NOUN	NOUN	_	38	obj	_	TokenRange=303:310
+42	previdencia	_	NOUN	NOUN	_	41	flat	_	TokenRange=311:322
+43	exemplo	exemplo	NOUN	NOUN	_	41	appos	_	TokenRange=323:330
+44	vedado	vedado	ADJ	ADJ	_	43	amod	_	TokenRange=331:337
+45	tratar	tratar	VERB	VERB	_	41	acl:inf	_	TokenRange=338:344
+46	politica	_	NOUN	NOUN	_	45	obj	_	TokenRange=345:353
+47	emissoras	_	ADJ	ADJ	_	45	obj	_	TokenRange=354:363
+48	tv	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=364:366
+49	pode	_	AUX	AUX	_	45	aux	_	SpaceAfter=No|TokenRange=367:371
+

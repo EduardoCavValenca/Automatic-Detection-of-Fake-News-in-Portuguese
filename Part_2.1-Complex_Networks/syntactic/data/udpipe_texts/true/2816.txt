@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 11 outubro 2017 boa noite aqui principais noticias terminar dia beminformado sessao bastante tumultuada marcada bastante discordancia sobre conteudo final stf decidiu 6 5 tribunal pode impor medidas cautelares parlamentares impossibilitem exercicio regular mandato fica cargo cada casa legislativa aplicar decisao votacao durou 12 horas interrupcoes encerrada tensa discussao resultado hoje stf podera beneficiar exemplo caso senador aecio neves psdbmg
+1	quartafeira	quartafeira	NOUN	NOUN	_	23	parataxis	_	TokenRange=0:11
+2	11	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:14
+3	outubro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:22
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=23:27
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=28:31
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=32:37
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=38:42
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=43:53
+9	noticias	_	NOUN	NOUN	_	6	appos	_	TokenRange=54:62
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=63:71
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=72:75
+12	beminformado	beminformado	ADJ	ADJ	_	13	amod	_	TokenRange=76:88
+13	sessao	sessao	NOUN	NOUN	_	10	obj	_	TokenRange=89:95
+14	bastante	bastante	ADV	ADV	_	15	advmod	_	TokenRange=96:104
+15	tumultuada	tumultuado	ADJ	ADJ	_	13	amod	_	TokenRange=105:115
+16	marcada	marcar	VERB	VERB	_	13	acl	_	TokenRange=116:123
+17	bastante	_	DET	DET	_	18	det	_	TokenRange=124:132
+18	discordancia	discordancia	NOUN	NOUN	_	16	obj	_	TokenRange=133:145
+19	sobre	_	ADP	ADP	_	20	case	_	TokenRange=146:151
+20	conteudo	conteudo	NOUN	NOUN	_	18	nmod	_	TokenRange=152:160
+21	final	final	ADJ	ADJ	_	20	amod	_	TokenRange=161:166
+22	stf	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=167:170
+23	decidiu	decidir	VERB	VERB	_	0	root	_	TokenRange=171:178
+24	6	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=179:180
+25	5	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=181:182
+26	tribunal	tribunal	NOUN	NOUN	_	23	obj	_	TokenRange=183:191
+27	pode	_	AUX	AUX	_	28	aux	_	TokenRange=192:196
+28	impor	impor	VERB	VERB	_	23	ccomp	_	TokenRange=197:202
+29	medidas	medida	NOUN	NOUN	_	28	obj	_	TokenRange=203:210
+30	cautelares	cautelar	ADJ	ADJ	_	29	amod	_	TokenRange=211:221
+31	parlamentares	parlamentar	ADJ	ADJ	_	29	amod	_	TokenRange=222:235
+32	impossibilitem	impossibilitar	VERB	VERB	_	28	ccomp	_	TokenRange=236:250
+33	exercicio	exercicio	NOUN	NOUN	_	32	obj	_	TokenRange=251:260
+34	regular	regular	ADJ	ADJ	_	33	amod	_	TokenRange=261:268
+35	mandato	mandato	NOUN	NOUN	_	36	nsubj	_	TokenRange=269:276
+36	fica	ficar	VERB	VERB	_	32	conj	_	TokenRange=277:281
+37	cargo	cargo	ADJ	ADJ	_	36	xcomp	_	TokenRange=282:287
+38	cada	_	DET	DET	_	39	det	_	TokenRange=288:292
+39	casa	casa	NOUN	NOUN	_	36	nsubj	_	TokenRange=293:297
+40	legislativa	legislativo	ADJ	ADJ	_	39	amod	_	TokenRange=298:309
+41	aplicar	aplicar	VERB	VERB	_	36	csubj	_	TokenRange=310:317
+42	decisao	decisao	NOUN	NOUN	_	41	obj	_	TokenRange=318:325
+43	votacao	votacao	NOUN	NOUN	_	42	amod	_	TokenRange=326:333
+44	durou	durar	VERB	VERB	_	41	parataxis	_	TokenRange=334:339
+45	12	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=340:342
+46	horas	hora	NOUN	NOUN	_	44	nmod	_	TokenRange=343:348
+47	interrupcoes	interrupcoe	NOUN	NOUN	_	44	nsubj	_	TokenRange=349:361
+48	encerrada	encerrado	ADJ	ADJ	_	44	xcomp	_	TokenRange=362:371
+49	tensa	tenso	ADJ	ADJ	_	50	amod	_	TokenRange=372:377
+50	discussao	discussao	NOUN	NOUN	_	44	nsubj	_	TokenRange=378:387
+51	resultado	resultado	NOUN	NOUN	_	55	nsubj	_	TokenRange=388:397
+52	hoje	hoje	ADV	ADV	_	55	advmod	_	TokenRange=398:402
+53	stf	_	NOUN	PNOUN	_	55	nsubj	_	TokenRange=403:406
+54	podera	poder	AUX	AUX	_	55	aux	_	TokenRange=407:413
+55	beneficiar	beneficiar	VERB	VERB	_	44	parataxis	_	TokenRange=414:424
+56	exemplo	exemplo	NOUN	NOUN	_	55	obj	_	TokenRange=425:432
+57	caso	caso	CCONJ	CONJ	_	58	case	_	TokenRange=433:437
+58	senador	senador	NOUN	NOUN	_	55	nmod	_	TokenRange=438:445
+59	aecio	_	NOUN	NOUN	_	58	appos	_	TokenRange=446:451
+60	neves	neve	ADJ	ADJ	_	61	flat	_	TokenRange=452:457
+61	psdbmg	_	NOUN	NOUN	_	58	appos	_	SpaceAfter=No|TokenRange=458:464
+

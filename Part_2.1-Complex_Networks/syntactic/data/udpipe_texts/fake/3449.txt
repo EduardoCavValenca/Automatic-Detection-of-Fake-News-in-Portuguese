@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cunha reprovou 27 pedidos impeachment petralhada calou agora falam golpe cunha rejeitado 27 pedidos impeachment ontem 02 acatou rejeitou outros quatro eduardo cunha partiu ataque pessoal acusou dilma rousseff tentar barganhar aliado deputado andre moura pscse acordo cunha caso cpmf aprovada apoio tres deputados pt evitar andamento processo cassacao barganha sendo tramada ministro jaques wagner presidente dilma deputado andre moura coletiva hoje manha cunha fez questao destacar varias vezes presidente mentiu nacao queria barganhar cpmf aceitei disse presidente camara negociacao barganha acho engracado governo habituado barganhar comigo participo negociacao
+1	cunha	_	PROPN	PNOUN	_	2	nsubj	_	TokenRange=0:5
+2	reprovou	reprovar	VERB	VERB	_	0	root	_	TokenRange=6:14
+3	27	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=15:17
+4	pedidos	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=18:25
+5	impeachment	impeachment	NOUN	NOUN	_	4	amod	_	TokenRange=26:37
+6	petralhada	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=38:48
+7	calou	calar	VERB	VERB	_	2	conj	_	TokenRange=49:54
+8	agora	agora	ADV	ADV	_	9	advmod	_	TokenRange=55:60
+9	falam	_	VERB	VERB	_	2	conj	_	TokenRange=61:66
+10	golpe	golpe	NOUN	NOUN	_	9	nsubj	_	TokenRange=67:72
+11	cunha	_	PRON	NOUN	_	12	nsubj	_	TokenRange=73:78
+12	rejeitado	rejeitar	VERB	VERB	_	10	acl	_	TokenRange=79:88
+13	27	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=89:91
+14	pedidos	pedido	NOUN	NOUN	_	12	obj	_	TokenRange=92:99
+15	impeachment	impeachment	NOUN	NOUN	_	14	appos	_	TokenRange=100:111
+16	ontem	ontem	ADV	ADV	_	19	advmod	_	TokenRange=112:117
+17	02	_	NUM	NUM	NumType=Card	14	appos	_	TokenRange=118:120
+18	acatou	acatar	VERB	VERB	_	19	ccomp	_	TokenRange=121:127
+19	rejeitou	rejeitar	VERB	VERB	_	2	conj	_	TokenRange=128:136
+20	outros	_	DET	DET	_	22	det	_	TokenRange=137:143
+21	quatro	_	NUM	NUM	NumType=Card	19	obj	_	TokenRange=144:150
+22	eduardo	eduardo	NOUN	NOUN	_	19	nsubj	_	TokenRange=151:158
+23	cunha	_	NOUN	NOUN	_	25	flat	_	TokenRange=159:164
+24	partiu	partir	VERB	VERB	_	22	acl:relcl	_	TokenRange=165:171
+25	ataque	ataque	NOUN	NOUN	_	24	obj	_	TokenRange=172:178
+26	pessoal	pessoal	ADJ	ADJ	_	25	amod	_	TokenRange=179:186
+27	acusou	acusar	VERB	VERB	_	19	parataxis	_	TokenRange=187:193
+28	dilma	_	NOUN	NOUN	_	27	obj	_	TokenRange=194:199
+29	rousseff	_	NOUN	NOUN	_	28	flat	_	TokenRange=200:208
+30	tentar	tentar	VERB	VERB	_	27	ccomp	_	TokenRange=209:215
+31	barganhar	barganhar	NOUN	NOUN	_	30	obj	_	TokenRange=216:225
+32	aliado	aliado	NOUN	NOUN	_	30	obj	_	TokenRange=226:232
+33	deputado	deputado	NOUN	NOUN	_	32	appos	_	TokenRange=233:241
+34	andre	andre	NOUN	NOUN	_	33	appos	_	TokenRange=242:247
+35	moura	mouro	NOUN	NOUN	_	34	flat	_	TokenRange=248:253
+36	pscse	_	NOUN	NOUN	_	32	appos	_	TokenRange=254:259
+37	acordo	acordo	NOUN	NOUN	_	27	obj	_	TokenRange=260:266
+38	cunha	_	DET	DET	_	39	det	_	TokenRange=267:272
+39	caso	caso	NOUN	NOUN	_	37	appos	_	TokenRange=273:277
+40	cpmf	_	NOUN	NOUN	_	39	flat	_	TokenRange=278:282
+41	aprovada	aprovar	VERB	VERB	_	39	acl	_	TokenRange=283:291
+42	apoio	apoio	NOUN	NOUN	_	41	obj	_	TokenRange=292:297
+43	tres	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=298:302
+44	deputados	deputado	NOUN	NOUN	_	42	appos	_	TokenRange=303:312
+45	pt	_	ADP	ADP	_	46	nsubj	_	TokenRange=313:315
+46	evitar	evitar	VERB	VERB	_	42	acl:relcl	_	TokenRange=316:322
+47	andamento	andamento	NOUN	NOUN	_	46	obj	_	TokenRange=323:332
+48	processo	processo	NOUN	NOUN	_	47	appos	_	TokenRange=333:341
+49	cassacao	cassacao	NOUN	NOUN	_	53	amod	_	TokenRange=342:350
+50	barganha	barganha	NOUN	NOUN	_	53	nsubj:pass	_	TokenRange=351:359
+51	sendo	ser	AUX	AUX	_	53	aux:pass	_	TokenRange=360:365
+52	tramada	tramar	VERB	VERB	_	53	acl	_	TokenRange=366:373
+53	ministro	ministro	NOUN	NOUN	_	46	nsubj	_	TokenRange=374:382
+54	jaques	jaque	NOUN	NOUN	_	53	amod	_	TokenRange=383:389
+55	wagner	wagner	NOUN	NOUN	_	53	flat	_	TokenRange=390:396
+56	presidente	presidente	NOUN	NOUN	_	53	appos	_	TokenRange=397:407
+57	dilma	dilma	ADJ	ADJ	_	58	amod	_	TokenRange=408:413
+58	deputado	deputado	NOUN	NOUN	_	53	appos	_	TokenRange=414:422
+59	andre	andre	NOUN	NOUN	_	58	appos	_	TokenRange=423:428
+60	moura	mouro	NOUN	NOUN	_	58	flat	_	TokenRange=429:434
+61	coletiva	coletiva	NOUN	NOUN	_	58	appos	_	TokenRange=435:443
+62	hoje	hoje	ADV	ADV	_	65	advmod	_	TokenRange=444:448
+63	manha	manha	NOUN	NOUN	_	65	nsubj	_	TokenRange=449:454
+64	cunha	cunha	PROPN	NOUN	_	63	flat	_	TokenRange=455:460
+65	fez	fazer	VERB	VERB	_	2	parataxis	_	TokenRange=461:464
+66	questao	questao	NOUN	NOUN	_	65	obj	_	TokenRange=465:472
+67	destacar	destacar	VERB	VERB	_	65	ccomp	_	TokenRange=473:481
+68	varias	_	DET	DET	_	69	det	_	TokenRange=482:488
+69	vezes	vez	NOUN	NOUN	_	67	nmod	_	TokenRange=489:494
+70	presidente	presidente	NOUN	NOUN	_	71	nsubj	_	TokenRange=495:505
+71	mentiu	mentir	VERB	VERB	_	67	ccomp	_	TokenRange=506:512
+72	nacao	nacao	NOUN	NOUN	_	73	nsubj	_	TokenRange=513:518
+73	queria	querer	VERB	VERB	_	71	ccomp	_	TokenRange=519:525
+74	barganhar	barganhar	VERB	VERB	_	73	xcomp	_	TokenRange=526:535
+75	cpmf	_	PRON	PRON	_	73	nsubj	_	TokenRange=536:540
+76	aceitei	aceitar	VERB	VERB	_	73	ccomp	_	TokenRange=541:548
+77	disse	dizer	VERB	VERB	_	73	conj	_	TokenRange=549:554
+78	presidente	presidente	NOUN	NOUN	_	77	nsubj	_	TokenRange=555:565
+79	camara	camara	NOUN	NOUN	_	78	appos	_	TokenRange=566:572
+80	negociacao	negociacao	NOUN	NOUN	_	78	flat	_	TokenRange=573:583
+81	barganha	barganha	NOUN	NOUN	_	82	nsubj	_	TokenRange=584:592
+82	acho	achar	VERB	VERB	_	77	parataxis	_	TokenRange=593:597
+83	engracado	engracado	ADJ	ADJ	_	82	xcomp	_	TokenRange=598:607
+84	governo	governo	NOUN	NOUN	_	82	nsubj	_	TokenRange=608:615
+85	habituado	habituado	ADJ	ADJ	_	84	amod	_	TokenRange=616:625
+86	barganhar	barganhar	VERB	VERB	_	82	xcomp	_	TokenRange=626:635
+87	comigo	_	X	ADPPRON	_	88	nmod	_	TokenRange=636:642
+88	participo	participo	VERB	VERB	_	82	conj	_	TokenRange=643:652
+89	negociacao	negociacao	NOUN	NOUN	_	88	obj	_	SpaceAfter=No|TokenRange=653:663
+

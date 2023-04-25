@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dez pessoas presas durante operacao contra invasores terras mt segundo policia civil familia liderava invasoes amedrontava donos terras colaboradores jauru pontes lacerda dez armas 157 municoes apreendidas dez suspeitos presos durante operacao deflagrada domingo 18 policias civil militar jauru pontes lacerda 463 km 483 km cuiaba respectivamente contra bando armado invadia terras regiao acordo policia durante operacao apreendidas 10 armas fogo revolveres espingardas 157 municoes todo cumpridos seis mandados prisao
+1	dez	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:3
+2	pessoas	pessoa	NOUN	NOUN	_	14	nsubj	_	TokenRange=4:11
+3	presas	_	VERB	VERB	_	2	acl	_	TokenRange=12:18
+4	durante	_	ADP	ADP	_	5	case	_	TokenRange=19:26
+5	operacao	operacao	NOUN	NOUN	_	3	nmod	_	TokenRange=27:35
+6	contra	_	ADP	ADP	_	7	case	_	TokenRange=36:42
+7	invasores	invasor	NOUN	NOUN	_	5	nmod	_	TokenRange=43:52
+8	terras	terra	NOUN	NOUN	_	7	appos	_	TokenRange=53:59
+9	mt	_	NOUN	NOUN	_	14	dep	_	TokenRange=60:62
+10	segundo	_	ADJ	ADJ	_	11	case	_	TokenRange=63:70
+11	policia	policia	NOUN	NOUN	_	14	nsubj	_	TokenRange=71:78
+12	civil	civil	ADJ	ADJ	_	11	amod	_	TokenRange=79:84
+13	familia	familia	NOUN	NOUN	_	11	appos	_	TokenRange=85:92
+14	liderava	liderar	VERB	VERB	_	0	root	_	TokenRange=93:101
+15	invasoes	invasoe	NOUN	NOUN	_	14	obj	_	TokenRange=102:110
+16	amedrontava	amedrontar	VERB	VERB	_	14	parataxis	_	TokenRange=111:122
+17	donos	dono	NOUN	NOUN	_	16	obj	_	TokenRange=123:128
+18	terras	terra	NOUN	NOUN	_	17	flat	_	TokenRange=129:135
+19	colaboradores	colaborador	ADJ	ADJ	_	17	amod	_	TokenRange=136:149
+20	jauru	jauru	NOUN	NOUN	_	16	parataxis	_	TokenRange=150:155
+21	pontes	ponte	NOUN	NOUN	_	20	appos	_	TokenRange=156:162
+22	lacerda	lacerda	ADJ	ADJ	_	21	amod	_	TokenRange=163:170
+23	dez	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=171:174
+24	armas	arma	NOUN	NOUN	_	16	obj	_	TokenRange=175:180
+25	157	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=181:184
+26	municoes	_	NOUN	NOUN	_	24	appos	_	TokenRange=185:193
+27	apreendidas	apreender	VERB	VERB	_	24	acl	_	TokenRange=194:205
+28	dez	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=206:209
+29	suspeitos	suspeito	NOUN	NOUN	_	24	appos	_	TokenRange=210:219
+30	presos	prender	VERB	VERB	_	29	acl	_	TokenRange=220:226
+31	durante	_	ADP	ADP	_	32	case	_	TokenRange=227:234
+32	operacao	operacao	NOUN	NOUN	_	30	nmod	_	TokenRange=235:243
+33	deflagrada	deflagrado	ADJ	ADJ	_	32	amod	_	TokenRange=244:254
+34	domingo	_	PROPN	PNOUN	_	32	appos	_	TokenRange=255:262
+35	18	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=263:265
+36	policias	policia	NOUN	NOUN	_	30	nsubj	_	TokenRange=266:274
+37	civil	civil	ADJ	ADJ	_	36	amod	_	TokenRange=275:280
+38	militar	militar	ADJ	ADJ	_	36	amod	_	TokenRange=281:288
+39	jauru	_	NOUN	NOUN	_	36	appos	_	TokenRange=289:294
+40	pontes	ponte	NOUN	NOUN	_	36	appos	_	TokenRange=295:301
+41	lacerda	lacerdo	ADJ	ADJ	_	36	amod	_	TokenRange=302:309
+42	463	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=310:313
+43	km	km	NOUN	NOUN	_	36	appos	_	TokenRange=314:316
+44	483	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=317:320
+45	km	km	NOUN	NOUN	_	43	appos	_	TokenRange=321:323
+46	cuiaba	cuiaba	NOUN	NOUN	_	45	appos	_	TokenRange=324:330
+47	respectivamente	respectivamente	ADV	ADV	_	51	advmod	_	TokenRange=331:346
+48	contra	_	ADP	ADP	_	49	case	_	TokenRange=347:353
+49	bando	bando	NOUN	NOUN	_	51	nmod	_	TokenRange=354:359
+50	armado	armado	ADJ	ADJ	_	49	amod	_	TokenRange=360:366
+51	invadia	invadir	VERB	VERB	_	14	parataxis	_	TokenRange=367:374
+52	terras	terra	NOUN	NOUN	_	51	obj	_	TokenRange=375:381
+53	regiao	regiao	NOUN	NOUN	_	52	appos	_	TokenRange=382:388
+54	acordo	acordo	NOUN	NOUN	_	52	amod	_	TokenRange=389:395
+55	policia	policia	NOUN	NOUN	_	52	appos	_	TokenRange=396:403
+56	durante	_	ADP	ADP	_	57	case	_	TokenRange=404:411
+57	operacao	operacao	NOUN	NOUN	_	51	nmod	_	TokenRange=412:420
+58	apreendidas	apreender	VERB	VERB	_	57	acl	_	TokenRange=421:432
+59	10	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=433:435
+60	armas	arma	NOUN	NOUN	_	57	appos	_	TokenRange=436:441
+61	fogo	fogo	NOUN	NOUN	_	60	appos	_	TokenRange=442:446
+62	revolveres	revolver	NOUN	NOUN	_	60	flat	_	TokenRange=447:457
+63	espingardas	espingarda	NOUN	NOUN	_	60	flat	_	TokenRange=458:469
+64	157	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=470:473
+65	municoes	municoe	NOUN	NOUN	_	60	appos	_	TokenRange=474:482
+66	todo	todo	ADJ	ADJ	_	67	advmod	_	TokenRange=483:487
+67	cumpridos	cumprir	VERB	VERB	_	65	acl	_	TokenRange=488:497
+68	seis	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=498:502
+69	mandados	mandado	NOUN	NOUN	_	67	nsubj	_	TokenRange=503:511
+70	prisao	prisao	ADJ	ADJ	_	69	amod	_	SpaceAfter=No|TokenRange=512:518
+

@@ -1,0 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos video redes sociais vicelider governo defende cristiane brasil gente deputada apareceu gravacao barco acompanhada homens camisa defendendo acusacoes trabalhistas darcisio perondi disse video muda disposicao nomeala deputado darcisio perondi pmdbrs vicelideres
+1	apos	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	video	video	NOUN	NOUN	_	7	nmod	_	TokenRange=5:10
+3	redes	rede	NOUN	NOUN	_	7	nsubj	_	TokenRange=11:16
+4	sociais	social	ADJ	ADJ	_	3	amod	_	TokenRange=17:24
+5	vicelider	vicelider	NOUN	NOUN	_	7	nsubj	_	TokenRange=25:34
+6	governo	governo	NOUN	NOUN	_	7	nsubj	_	TokenRange=35:42
+7	defende	defender	VERB	VERB	_	0	root	_	TokenRange=43:50
+8	cristiane	cristiane	NOUN	NOUN	_	7	obj	_	TokenRange=51:60
+9	brasil	brasil	ADJ	ADJ	_	8	amod	_	TokenRange=61:67
+10	gente	gente	NOUN	NOUN	_	12	nsubj	_	TokenRange=68:73
+11	deputada	deputado	ADJ	ADJ	_	10	amod	_	TokenRange=74:82
+12	apareceu	aparecer	VERB	VERB	_	7	conj	_	TokenRange=83:91
+13	gravacao	gravacao	NOUN	NOUN	_	12	obj	_	TokenRange=92:100
+14	barco	barco	NOUN	NOUN	_	13	flat	_	TokenRange=101:106
+15	acompanhada	acompanhar	VERB	VERB	_	13	acl	_	TokenRange=107:118
+16	homens	homem	NOUN	NOUN	_	15	nsubj	_	TokenRange=119:125
+17	camisa	camisa	NOUN	NOUN	_	16	flat	_	TokenRange=126:132
+18	defendendo	defender	VERB	VERB	_	16	acl	_	TokenRange=133:143
+19	acusacoes	acusacoe	NOUN	NOUN	_	18	obj	_	TokenRange=144:153
+20	trabalhistas	trabalhista	ADJ	ADJ	_	19	amod	_	TokenRange=154:166
+21	darcisio	darcisio	NOUN	NOUN	_	19	appos	_	TokenRange=167:175
+22	perondi	perondi	NOUN	NOUN	_	21	flat	_	TokenRange=176:183
+23	disse	dizer	VERB	VERB	_	7	parataxis	_	TokenRange=184:189
+24	video	video	NOUN	NOUN	_	23	obj	_	TokenRange=190:195
+25	muda	mudo	ADJ	ADJ	_	26	amod	_	TokenRange=196:200
+26	disposicao	disposicao	NOUN	NOUN	_	24	appos	_	TokenRange=201:211
+27	nomeala	nomealar	VERB	VERB	_	28	acl:relcl	_	TokenRange=212:219
+28	deputado	deputado	NOUN	NOUN	_	23	obj	_	TokenRange=220:228
+29	darcisio	darcisio	ADJ	ADJ	_	28	amod	_	TokenRange=229:237
+30	perondi	perondi	ADJ	ADJ	_	28	appos	_	TokenRange=238:245
+31	pmdbrs	_	NOUN	NOUN	_	28	appos	_	TokenRange=246:252
+32	vicelideres	_	NOUN	NOUN	_	31	flat	_	SpaceAfter=No|TokenRange=253:264
+

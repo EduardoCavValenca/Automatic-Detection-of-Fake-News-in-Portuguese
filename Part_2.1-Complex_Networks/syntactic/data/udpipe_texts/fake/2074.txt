@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caiu mascara numero desempregados pais recorde atinge 23 milhoes pessoas pt chutado presidencia ibge repensando logica levantamento desemprego pais durante ultimos anos numeros mascarados governo dilma usou maquina marketing governamental esconder dados reais crise pais numeros divulgados ontem ibge assustam 22 7 milhoes pessoas idade produtiva trabalho trabalham menos poderiam confira materia record
+1	caiu	cair	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	mascara	mascar	NOUN	NOUN	_	1	obj	_	TokenRange=5:12
+3	numero	numero	NOUN	NOUN	_	1	nsubj	_	TokenRange=13:19
+4	desempregados	desempregado	ADJ	ADJ	_	3	amod	_	TokenRange=20:33
+5	pais	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=34:38
+6	recorde	recorde	NOUN	NOUN	_	7	nsubj	_	TokenRange=39:46
+7	atinge	atingir	VERB	VERB	_	1	parataxis	_	TokenRange=47:53
+8	23	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=54:56
+9	milhoes	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=57:64
+10	pessoas	pessoa	NOUN	NOUN	_	7	obj	_	TokenRange=65:72
+11	pt	_	NOUN	NOUN	_	13	appos	_	TokenRange=73:75
+12	chutado	chutar	VERB	VERB	_	7	xcomp	_	TokenRange=76:83
+13	presidencia	presidencia	NOUN	NOUN	_	7	obj	_	TokenRange=84:95
+14	ibge	ibge	NOUN	NOUN	_	13	appos	_	TokenRange=96:100
+15	repensando	repensar	VERB	VERB	_	13	acl	_	TokenRange=101:111
+16	logica	_	ADJ	ADJ	_	17	amod	_	TokenRange=112:118
+17	levantamento	levantamento	NOUN	NOUN	_	15	obj	_	TokenRange=119:131
+18	desemprego	desemprego	NOUN	NOUN	_	17	appos	_	TokenRange=132:142
+19	pais	_	NOUN	NOUN	_	17	appos	_	TokenRange=143:147
+20	durante	_	ADP	ADP	_	22	case	_	TokenRange=148:155
+21	ultimos	_	ADJ	ADJ	_	22	amod	_	TokenRange=156:163
+22	anos	ano	NOUN	NOUN	_	15	nmod	_	TokenRange=164:168
+23	numeros	numero	NOUN	NOUN	_	27	nsubj	_	TokenRange=169:176
+24	mascarados	mascarado	ADJ	ADJ	_	23	amod	_	TokenRange=177:187
+25	governo	governo	NOUN	NOUN	_	27	nsubj	_	TokenRange=188:195
+26	dilma	dilma	ADJ	ADJ	_	25	amod	_	TokenRange=196:201
+27	usou	usar	VERB	VERB	_	1	parataxis	_	TokenRange=202:206
+28	maquina	_	NOUN	NOUN	_	27	obj	_	TokenRange=207:214
+29	marketing	marketing	NOUN	NOUN	_	28	flat	_	TokenRange=215:224
+30	governamental	governamental	ADJ	ADJ	_	28	amod	_	TokenRange=225:238
+31	esconder	esconder	VERB	VERB	_	27	ccomp	_	TokenRange=239:247
+32	dados	dado	NOUN	NOUN	_	31	obj	_	TokenRange=248:253
+33	reais	real	ADJ	ADJ	_	32	amod	_	TokenRange=254:259
+34	crise	crise	NOUN	NOUN	_	31	obj	_	TokenRange=260:265
+35	pais	_	NOUN	NOUN	_	34	appos	_	TokenRange=266:270
+36	numeros	numero	NOUN	NOUN	_	34	appos	_	TokenRange=271:278
+37	divulgados	divulgar	VERB	VERB	_	36	acl	_	TokenRange=279:289
+38	ontem	ontem	ADV	ADV	_	37	advmod	_	TokenRange=290:295
+39	ibge	_	PRON	PRON	_	40	nsubj	_	TokenRange=296:300
+40	assustam	assustar	VERB	VERB	_	31	parataxis	_	TokenRange=301:309
+41	22	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=310:312
+42	7	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=313:314
+43	milhoes	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=315:322
+44	pessoas	pessoa	NOUN	NOUN	_	40	obj	_	TokenRange=323:330
+45	idade	idade	NOUN	NOUN	_	40	nsubj	_	TokenRange=331:336
+46	produtiva	produtivo	ADJ	ADJ	_	45	amod	_	TokenRange=337:346
+47	trabalho	trabalho	NOUN	NOUN	_	45	amod	_	TokenRange=347:355
+48	trabalham	trabalhar	VERB	VERB	_	45	acl:relcl	_	TokenRange=356:365
+49	menos	menos	ADV	ADV	_	51	advmod	_	TokenRange=366:371
+50	poderiam	poder	AUX	AUX	_	51	aux	_	TokenRange=372:380
+51	confira	conferir	VERB	VERB	_	40	conj	_	TokenRange=381:388
+52	materia	materia	NOUN	NOUN	_	51	obj	_	TokenRange=389:396
+53	record	record	NOUN	NOUN	_	52	flat	_	SpaceAfter=No|TokenRange=397:403
+

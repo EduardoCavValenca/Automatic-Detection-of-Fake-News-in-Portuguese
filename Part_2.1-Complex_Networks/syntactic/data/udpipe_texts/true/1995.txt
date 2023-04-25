@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = juiz aceita denuncia lula vira reu zelotes corrupcao passiva expresidente acusado editar mp favorecer empresas setor automotivo troca propina viraram reus gilberto carvalho outros 5 defesa lula nega acusacao juiz vallisney oliveira 10 vara federal brasilia aceitou denuncia nesta tercafeira 19 contra expresidente luiz inacio lula silva corrupcao passiva operacao zelotes decisao petista tornou reu setima vez acoes penais denuncia ministerio publico federal distrito federal mpfdf afirma lula editou medida provisoria favorecer empresas setor automotivo troca
+1	juiz	juiz	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	aceita	aceitar	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	denuncia	_	NOUN	NOUN	_	2	obj	_	TokenRange=12:20
+4	lula	_	NOUN	NOUN	_	6	flat	_	TokenRange=21:25
+5	vira	_	VERB	VERB	_	2	ccomp	_	TokenRange=26:30
+6	reu	reu	NOUN	NOUN	_	2	obj	_	TokenRange=31:34
+7	zelotes	zelote	NOUN	NOUN	_	6	flat	_	TokenRange=35:42
+8	corrupcao	corrupcao	NOUN	NOUN	_	6	appos	_	TokenRange=43:52
+9	passiva	passivo	ADJ	ADJ	_	8	amod	_	TokenRange=53:60
+10	expresidente	expresidente	NOUN	NOUN	_	11	nsubj	_	TokenRange=61:73
+11	acusado	acusar	VERB	VERB	_	8	acl	_	TokenRange=74:81
+12	editar	editar	VERB	VERB	_	11	xcomp	_	TokenRange=82:88
+13	mp	_	NOUN	NOUN	_	12	obj	_	TokenRange=89:91
+14	favorecer	favorecer	VERB	VERB	_	12	ccomp	_	TokenRange=92:101
+15	empresas	empresa	NOUN	NOUN	_	14	obj	_	TokenRange=102:110
+16	setor	setor	NOUN	NOUN	_	15	appos	_	TokenRange=111:116
+17	automotivo	automotivo	ADJ	ADJ	_	16	amod	_	TokenRange=117:127
+18	troca	_	NOUN	NOUN	_	14	obj	_	TokenRange=128:133
+19	propina	propino	NOUN	NOUN	_	18	flat	_	TokenRange=134:141
+20	viraram	virar	VERB	VERB	_	2	parataxis	_	TokenRange=142:149
+21	reus	reu	NOUN	NOUN	_	20	obj	_	TokenRange=150:154
+22	gilberto	gilberto	NOUN	NOUN	_	21	appos	_	TokenRange=155:163
+23	carvalho	carvalho	NOUN	NOUN	_	21	flat	_	TokenRange=164:172
+24	outros	_	DET	DET	_	26	det	_	TokenRange=173:179
+25	5	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=180:181
+26	defesa	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=182:188
+27	lula	lula	NOUN	NOUN	_	26	appos	_	TokenRange=189:193
+28	nega	negar	VERB	VERB	_	20	parataxis	_	TokenRange=194:198
+29	acusacao	acusacao	NOUN	NOUN	_	28	obj	_	TokenRange=199:207
+30	juiz	juiz	NOUN	NOUN	_	28	obj	_	TokenRange=208:212
+31	vallisney	_	NOUN	NOUN	_	30	appos	_	TokenRange=213:222
+32	oliveira	oliveira	ADJ	ADJ	_	30	amod	_	TokenRange=223:231
+33	10	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=232:234
+34	vara	vara	NOUN	NOUN	_	28	nsubj	_	TokenRange=235:239
+35	federal	federal	ADJ	ADJ	_	34	amod	_	TokenRange=240:247
+36	brasilia	brasilia	NOUN	NOUN	_	34	appos	_	TokenRange=248:256
+37	aceitou	aceitar	VERB	VERB	_	28	parataxis	_	TokenRange=257:264
+38	denuncia	denuncia	NOUN	NOUN	_	37	obj	_	TokenRange=265:273
+39	nesta	_	ADP	ADP	_	40	case	_	TokenRange=274:279
+40	tercafeira	tercafeira	NOUN	NOUN	_	37	nmod	_	TokenRange=280:290
+41	19	_	NUM	NUM	NumType=Card	40	appos	_	TokenRange=291:293
+42	contra	_	ADP	ADP	_	43	case	_	TokenRange=294:300
+43	expresidente	expresidente	NOUN	NOUN	_	40	nmod	_	TokenRange=301:313
+44	luiz	luiz	ADJ	ADJ	_	43	amod	_	TokenRange=314:318
+45	inacio	_	NOUN	NOUN	_	43	appos	_	TokenRange=319:325
+46	lula	_	NOUN	NOUN	_	45	flat	_	TokenRange=326:330
+47	silva	silva	NOUN	NOUN	_	45	flat	_	TokenRange=331:336
+48	corrupcao	corrupcao	NOUN	NOUN	_	37	obj	_	TokenRange=337:346
+49	passiva	passivo	ADJ	ADJ	_	48	amod	_	TokenRange=347:354
+50	operacao	operacao	NOUN	NOUN	_	37	nsubj	_	TokenRange=355:363
+51	zelotes	zelote	NOUN	NOUN	_	50	flat	_	TokenRange=364:371
+52	decisao	decisao	NOUN	NOUN	_	50	appos	_	TokenRange=372:379
+53	petista	petista	NOUN	NOUN	_	52	flat	_	TokenRange=380:387
+54	tornou	tornar	AUX	AUX	_	55	cop	_	TokenRange=388:394
+55	reu	reu	NOUN	NOUN	_	2	parataxis	_	TokenRange=395:398
+56	setima	setimo	ADJ	ADJ	_	57	amod	_	TokenRange=399:405
+57	vez	vez	NOUN	NOUN	_	55	nmod	_	TokenRange=406:409
+58	acoes	acoe	NOUN	NOUN	_	67	obj	_	TokenRange=410:415
+59	penais	penal	ADJ	ADJ	_	58	amod	_	TokenRange=416:422
+60	denuncia	denuncia	NOUN	NOUN	_	67	nsubj	_	TokenRange=423:431
+61	ministerio	ministerio	NOUN	NOUN	_	67	nsubj	_	TokenRange=432:442
+62	publico	_	ADJ	ADJ	_	61	amod	_	TokenRange=443:450
+63	federal	federal	ADJ	ADJ	_	61	amod	_	TokenRange=451:458
+64	distrito	distrito	NOUN	NOUN	_	61	appos	_	TokenRange=459:467
+65	federal	federal	ADJ	ADJ	_	64	amod	_	TokenRange=468:475
+66	mpfdf	_	NOUN	NOUN	_	61	appos	_	TokenRange=476:481
+67	afirma	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=482:488
+68	lula	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=489:493
+69	editou	editar	VERB	VERB	_	67	ccomp	_	TokenRange=494:500
+70	medida	medida	NOUN	NOUN	_	69	obj	_	TokenRange=501:507
+71	provisoria	provisorio	ADJ	ADJ	_	70	amod	_	TokenRange=508:518
+72	favorecer	favorecer	VERB	VERB	_	69	ccomp	_	TokenRange=519:528
+73	empresas	empresa	NOUN	NOUN	_	72	obj	_	TokenRange=529:537
+74	setor	setor	NOUN	NOUN	_	73	appos	_	TokenRange=538:543
+75	automotivo	automotivo	ADJ	ADJ	_	74	amod	_	TokenRange=544:554
+76	troca	_	NOUN	NOUN	_	69	obj	_	SpaceAfter=No|TokenRange=555:560
+

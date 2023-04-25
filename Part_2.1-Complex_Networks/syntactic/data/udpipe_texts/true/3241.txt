@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos relator ministros devem comecar votar nesta quinta julgamento tse corte retomou nesta semana julgamento acao psdb pede cassacao chapa formada dilma temer abuso poder politico economico eleicao 2014 tribunal superior eleitoral tse retomara manha desta quintafeira 8 julgamento chapa dilmatemer apos relator acao herman benjamin concluir voto demais
+1	apos	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	relator	relator	NOUN	NOUN	_	5	nmod	_	TokenRange=5:12
+3	ministros	ministro	NOUN	NOUN	_	5	nsubj	_	TokenRange=13:22
+4	devem	_	AUX	AUX	_	5	aux	_	TokenRange=23:28
+5	comecar	comecar	VERB	VERB	_	0	root	_	TokenRange=29:36
+6	votar	votar	VERB	VERB	_	5	xcomp	_	TokenRange=37:42
+7	nesta	_	ADP	ADP	_	9	case	_	TokenRange=43:48
+8	quinta	_	ADJ	ADJ	_	9	amod	_	TokenRange=49:55
+9	julgamento	julgamento	NOUN	NOUN	_	6	nmod	_	TokenRange=56:66
+10	tse	_	DET	DET	_	11	det	_	TokenRange=67:70
+11	corte	corte	NOUN	NOUN	_	12	nsubj	_	TokenRange=71:76
+12	retomou	retomar	VERB	VERB	_	6	ccomp	_	TokenRange=77:84
+13	nesta	_	ADP	ADP	_	14	case	_	TokenRange=85:90
+14	semana	semana	NOUN	NOUN	_	12	nmod	_	TokenRange=91:97
+15	julgamento	julgamento	NOUN	NOUN	_	12	obj	_	TokenRange=98:108
+16	acao	acao	NOUN	NOUN	_	18	nsubj	_	TokenRange=109:113
+17	psdb	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=114:118
+18	pede	pedir	VERB	VERB	_	12	parataxis	_	TokenRange=119:123
+19	cassacao	cassacao	NOUN	NOUN	_	18	obj	_	TokenRange=124:132
+20	chapa	chapa	NOUN	NOUN	_	18	obj	_	TokenRange=133:138
+21	formada	formar	VERB	VERB	_	20	acl	_	TokenRange=139:146
+22	dilma	dilma	NOUN	NOUN	_	18	nsubj	_	TokenRange=147:152
+23	temer	temer	NOUN	NOUN	_	20	flat	_	TokenRange=153:158
+24	abuso	abuso	ADJ	ADJ	_	25	amod	_	TokenRange=159:164
+25	poder	poder	NOUN	NOUN	_	18	obj	_	TokenRange=165:170
+26	politico	politico	ADJ	ADJ	_	25	amod	_	TokenRange=171:179
+27	economico	economico	ADJ	ADJ	_	25	amod	_	TokenRange=180:189
+28	eleicao	eleicao	NOUN	NOUN	_	25	appos	_	TokenRange=190:197
+29	2014	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=198:202
+30	tribunal	tribunal	NOUN	NOUN	_	34	nsubj	_	TokenRange=203:211
+31	superior	superior	ADJ	ADJ	_	30	amod	_	TokenRange=212:220
+32	eleitoral	eleitoral	ADJ	ADJ	_	30	amod	_	TokenRange=221:230
+33	tse	_	PRON	PRON	_	30	appos	_	TokenRange=231:234
+34	retomara	retomar	VERB	VERB	_	5	conj	_	TokenRange=235:243
+35	manha	manha	NOUN	NOUN	_	34	obj	_	TokenRange=244:249
+36	desta	_	ADP	ADP	_	37	case	_	TokenRange=250:255
+37	quintafeira	quintafeira	NOUN	NOUN	_	35	nmod	_	TokenRange=256:267
+38	8	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=268:269
+39	julgamento	julgamento	NOUN	NOUN	_	35	appos	_	TokenRange=270:280
+40	chapa	chapa	NOUN	NOUN	_	34	parataxis	_	TokenRange=281:286
+41	dilmatemer	dilmatemer	NOUN	NOUN	_	40	flat	_	TokenRange=287:297
+42	apos	_	ADP	ADP	_	43	case	_	TokenRange=298:302
+43	relator	relator	NOUN	NOUN	_	47	nmod	_	TokenRange=303:310
+44	acao	acao	NOUN	NOUN	_	43	flat	_	TokenRange=311:315
+45	herman	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=316:322
+46	benjamin	_	PROPN	PNOUN	_	45	flat	_	TokenRange=323:331
+47	concluir	concluir	VERB	VERB	_	34	parataxis	_	TokenRange=332:340
+48	voto	voto	NOUN	NOUN	_	47	obj	_	TokenRange=341:345
+49	demais	demais	ADV	ADV	_	47	advmod	_	SpaceAfter=No|TokenRange=346:352
+

@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = entenda julgamento chapa dilmatemer tse tribunal eleitoral comecara analisar terca 4 acao apresentada psdb pede cassacao chapa encabecada pt pmdb tse reservou quatro sessoes julgamento julgar primeiro pedido cassacao chapa presidencial tribunal superior eleitoral tse montou megaestrutura reservou previamente quatro sessoes analisar acao pode culminar afastamento michel temer presidencia perda direitos politicos dilma rousseff entenda principais pontos julgamento acao apresentada 2014 psdb partido derrotado 2 turno eleicoes presidenciais tucanos acusaram chapa dilmatemer abuso poder politico economico
+1	entenda	entender	VERB	VERB	_	0	root	_	TokenRange=0:7
+2	julgamento	julgamento	NOUN	NOUN	_	1	obj	_	TokenRange=8:18
+3	chapa	chapa	NOUN	NOUN	_	1	nsubj	_	TokenRange=19:24
+4	dilmatemer	dilmatemer	NOUN	NOUN	_	3	flat	_	TokenRange=25:35
+5	tse	_	DET	DET	_	6	det	_	TokenRange=36:39
+6	tribunal	tribunal	NOUN	NOUN	_	9	nsubj	_	TokenRange=40:48
+7	eleitoral	eleitoral	ADJ	ADJ	_	6	amod	_	TokenRange=49:58
+8	comecara	_	AUX	AUX	_	9	aux	_	TokenRange=59:67
+9	analisar	analisar	VERB	VERB	_	1	ccomp	_	TokenRange=68:76
+10	terca	terca	ADV	ADV	_	11	advmod	_	TokenRange=77:82
+11	4	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=83:84
+12	acao	acao	NOUN	NOUN	_	9	obj	_	TokenRange=85:89
+13	apresentada	apresentar	VERB	VERB	_	12	acl	_	TokenRange=90:101
+14	psdb	_	PROPN	NOUN	_	15	nsubj	_	TokenRange=102:106
+15	pede	pedir	VERB	VERB	_	9	parataxis	_	TokenRange=107:111
+16	cassacao	cassacao	NOUN	NOUN	_	15	obj	_	TokenRange=112:120
+17	chapa	chapa	NOUN	NOUN	_	15	obj	_	TokenRange=121:126
+18	encabecada	encabecado	ADJ	ADJ	_	17	amod	_	TokenRange=127:137
+19	pt	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=138:140
+20	pmdb	_	NOUN	NOUN	_	17	appos	_	TokenRange=141:145
+21	tse	_	PRON	PRON	_	22	nsubj	_	TokenRange=146:149
+22	reservou	reservar	VERB	VERB	_	15	conj	_	TokenRange=150:158
+23	quatro	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=159:165
+24	sessoes	sessoe	NOUN	NOUN	_	22	obj	_	TokenRange=166:173
+25	julgamento	julgamento	NOUN	NOUN	_	22	nsubj	_	TokenRange=174:184
+26	julgar	julgar	VERB	VERB	_	22	ccomp	_	TokenRange=185:191
+27	primeiro	primeiro	ADJ	ADJ	_	28	amod	_	TokenRange=192:200
+28	pedido	pedido	NOUN	NOUN	_	22	obj	_	TokenRange=201:207
+29	cassacao	cassacao	ADJ	ADJ	_	30	amod	_	TokenRange=208:216
+30	chapa	chapa	NOUN	NOUN	_	22	nsubj	_	TokenRange=217:222
+31	presidencial	presidencial	ADJ	ADJ	_	30	amod	_	TokenRange=223:235
+32	tribunal	tribunal	NOUN	NOUN	_	30	appos	_	TokenRange=236:244
+33	superior	superior	ADJ	ADJ	_	30	amod	_	TokenRange=245:253
+34	eleitoral	eleitoral	ADJ	ADJ	_	30	amod	_	TokenRange=254:263
+35	tse	_	PRON	PRON	_	36	nsubj	_	TokenRange=264:267
+36	montou	montar	VERB	VERB	_	30	acl:relcl	_	TokenRange=268:274
+37	megaestrutura	megaestrutura	NOUN	NOUN	_	36	obj	_	TokenRange=275:288
+38	reservou	reservar	VERB	VERB	_	36	parataxis	_	TokenRange=289:297
+39	previamente	previamente	ADV	ADV	_	38	advmod	_	TokenRange=298:309
+40	quatro	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=310:316
+41	sessoes	sessoe	NOUN	NOUN	_	36	obj	_	TokenRange=317:324
+42	analisar	analisar	VERB	VERB	_	36	ccomp	_	TokenRange=325:333
+43	acao	acao	NOUN	NOUN	_	45	obj	_	TokenRange=334:338
+44	pode	_	AUX	AUX	_	45	aux	_	TokenRange=339:343
+45	culminar	culminar	VERB	VERB	_	42	ccomp	_	TokenRange=344:352
+46	afastamento	afastamento	NOUN	NOUN	_	45	obj	_	TokenRange=353:364
+47	michel	michel	ADJ	ADJ	_	46	amod	_	TokenRange=365:371
+48	temer	temer	NOUN	NOUN	_	46	flat	_	TokenRange=372:377
+49	presidencia	presidencia	NOUN	NOUN	_	46	appos	_	TokenRange=378:389
+50	perda	perda	NOUN	NOUN	_	51	amod	_	TokenRange=390:395
+51	direitos	direito	NOUN	NOUN	_	45	nsubj	_	TokenRange=396:404
+52	politicos	politico	ADJ	ADJ	_	51	amod	_	TokenRange=405:414
+53	dilma	dilma	NOUN	NOUN	_	51	amod	_	TokenRange=415:420
+54	rousseff	rousseff	NOUN	NOUN	_	53	flat	_	TokenRange=421:429
+55	entenda	entender	VERB	VERB	_	1	parataxis	_	TokenRange=430:437
+56	principais	principal	ADJ	ADJ	_	57	amod	_	TokenRange=438:448
+57	pontos	ponto	NOUN	NOUN	_	55	obj	_	TokenRange=449:455
+58	julgamento	julgamento	NOUN	NOUN	_	57	appos	_	TokenRange=456:466
+59	acao	acao	NOUN	NOUN	_	57	appos	_	TokenRange=467:471
+60	apresentada	apresentar	VERB	VERB	_	59	acl	_	TokenRange=472:483
+61	2014	_	NUM	NUM	NumType=Card	60	nmod	_	TokenRange=484:488
+62	psdb	psdb	NOUN	NOUN	_	70	nsubj	_	TokenRange=489:493
+63	partido	partido	NOUN	NOUN	_	62	appos	_	TokenRange=494:501
+64	derrotado	derrotar	VERB	ADJ	_	67	acl	_	TokenRange=502:511
+65	2	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=512:513
+66	turno	turno	NOUN	NOUN	_	62	appos	_	TokenRange=514:519
+67	eleicoes	eleicoe	NOUN	NOUN	_	70	nsubj	_	TokenRange=520:528
+68	presidenciais	presidencial	ADJ	ADJ	_	67	amod	_	TokenRange=529:542
+69	tucanos	tucano	ADJ	ADJ	_	67	amod	_	TokenRange=543:550
+70	acusaram	acusar	VERB	VERB	_	55	parataxis	_	TokenRange=551:559
+71	chapa	chapa	NOUN	NOUN	_	70	obj	_	TokenRange=560:565
+72	dilmatemer	dilmatemer	ADJ	ADJ	_	71	amod	_	TokenRange=566:576
+73	abuso	abuso	ADJ	ADJ	_	74	amod	_	TokenRange=577:582
+74	poder	poder	NOUN	NOUN	_	70	obj	_	TokenRange=583:588
+75	politico	politico	ADJ	ADJ	_	74	amod	_	TokenRange=589:597
+76	economico	economico	ADJ	ADJ	_	74	amod	_	SpaceAfter=No|TokenRange=598:607
+

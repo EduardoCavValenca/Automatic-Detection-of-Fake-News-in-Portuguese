@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 11 maio bom dia aqui principais noticias comecar dia beminformado expresidente lula falou quase 5 horas juiz sergio moro disse nunca dono interesse comprar triplex guaruja negou orientado expresidente oas destruir provas afirmou sabia desvios petrobras alem disso ironizou powerpoint usado procurador deltan dallagnol denuncialo reclamou vitima cacada juridica pediu moro devolva tablets netos apreendidos pf juiz disse qualquer desavenca pessoal lula julgado base provas assista videos
+1	quintafeira	quintafeira	NOUN	NOUN	_	14	parataxis	_	TokenRange=0:11
+2	11	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=12:14
+3	maio	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:19
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=20:23
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=24:27
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=28:32
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=33:43
+8	noticias	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=44:52
+9	comecar	comecar	VERB	VERB	_	14	ccomp	_	TokenRange=53:60
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=61:64
+11	beminformado	beminformado	ADJ	ADJ	_	12	amod	_	TokenRange=65:77
+12	expresidente	expresidente	NOUN	NOUN	_	9	nsubj	_	TokenRange=78:90
+13	lula	_	NOUN	NOUN	_	12	flat	_	TokenRange=91:95
+14	falou	falar	VERB	VERB	_	0	root	_	TokenRange=96:101
+15	quase	quase	ADV	ADV	_	16	advmod	_	TokenRange=102:107
+16	5	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=108:109
+17	horas	hora	NOUN	NOUN	_	14	nmod	_	TokenRange=110:115
+18	juiz	juiz	NOUN	NOUN	_	14	nsubj	_	TokenRange=116:120
+19	sergio	sergio	NOUN	NOUN	_	18	appos	_	TokenRange=121:127
+20	moro	moro	NOUN	NOUN	_	18	appos	_	TokenRange=128:132
+21	disse	dizer	VERB	VERB	_	14	parataxis	_	TokenRange=133:138
+22	nunca	nunca	ADV	ADV	_	21	advmod	_	TokenRange=139:144
+23	dono	dono	NOUN	NOUN	_	21	obj	_	TokenRange=145:149
+24	interesse	interesse	NOUN	NOUN	_	23	obj	_	TokenRange=150:159
+25	comprar	comprar	VERB	VERB	_	24	acl:inf	_	TokenRange=160:167
+26	triplex	_	NOUN	NOUN	_	25	obj	_	TokenRange=168:175
+27	guaruja	guaruja	NOUN	NOUN	_	28	nsubj	_	TokenRange=176:183
+28	negou	negar	VERB	VERB	_	21	conj	_	TokenRange=184:189
+29	orientado	orientado	ADJ	ADJ	_	28	xcomp	_	TokenRange=190:199
+30	expresidente	expresidente	NOUN	NOUN	_	28	nsubj	_	TokenRange=200:212
+31	oas	_	CCONJ	CONJ	_	32	cc	_	TokenRange=213:216
+32	destruir	destruir	VERB	VERB	_	28	ccomp	_	TokenRange=217:225
+33	provas	prova	NOUN	NOUN	_	32	obj	_	TokenRange=226:232
+34	afirmou	afirmar	VERB	VERB	_	28	parataxis	_	TokenRange=233:240
+35	sabia	saber	VERB	VERB	_	34	xcomp	_	TokenRange=241:246
+36	desvios	desvio	NOUN	NOUN	_	35	obj	_	TokenRange=247:254
+37	petrobras	petrobra	ADJ	ADJ	_	36	amod	_	TokenRange=255:264
+38	alem	alem	ADV	ADV	_	40	advmod	_	TokenRange=265:269
+39	disso	_	X	ADPPRON	_	38	fixed	_	TokenRange=270:275
+40	ironizou	ironizar	VERB	VERB	_	35	parataxis	_	TokenRange=276:284
+41	powerpoint	powerpoint	NOUN	NOUN	_	40	obj	_	TokenRange=285:295
+42	usado	usar	VERB	VERB	_	41	acl	_	TokenRange=296:301
+43	procurador	procurador	NOUN	NOUN	_	42	nsubj	_	TokenRange=302:312
+44	deltan	_	NOUN	NOUN	_	43	appos	_	TokenRange=313:319
+45	dallagnol	dallagnol	ADJ	ADJ	_	43	amod	_	TokenRange=320:329
+46	denuncialo	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=330:340
+47	reclamou	reclamar	VERB	VERB	_	43	acl:relcl	_	TokenRange=341:349
+48	vitima	_	NOUN	NOUN	_	47	obj	_	TokenRange=350:356
+49	cacada	cacada	NOUN	NOUN	_	47	obj	_	TokenRange=357:363
+50	juridica	juridico	ADJ	ADJ	_	49	amod	_	TokenRange=364:372
+51	pediu	pedir	VERB	VERB	_	47	conj	_	TokenRange=373:378
+52	moro	moro	NOUN	NOUN	_	51	obj	_	TokenRange=379:383
+53	devolva	devolver	VERB	VERB	_	51	ccomp	_	TokenRange=384:391
+54	tablets	_	NOUN	NOUN	_	53	obj	_	TokenRange=392:399
+55	netos	neto	ADJ	ADJ	_	54	amod	_	TokenRange=400:405
+56	apreendidos	apreender	VERB	VERB	_	54	acl	_	TokenRange=406:417
+57	pf	_	ADV	NOUN	_	59	advmod	_	TokenRange=418:420
+58	juiz	juiz	NOUN	NOUN	_	59	nsubj	_	TokenRange=421:425
+59	disse	dizer	VERB	VERB	_	51	parataxis	_	TokenRange=426:431
+60	qualquer	_	DET	DET	_	61	det	_	TokenRange=432:440
+61	desavenca	desavenca	NOUN	NOUN	_	59	obj	_	TokenRange=441:450
+62	pessoal	pessoal	ADJ	ADJ	_	61	amod	_	TokenRange=451:458
+63	lula	lula	NOUN	NOUN	_	67	nsubj	_	TokenRange=459:463
+64	julgado	julgar	VERB	VERB	_	61	acl	_	TokenRange=464:471
+65	base	base	NOUN	NOUN	_	64	obj	_	TokenRange=472:476
+66	provas	prova	NOUN	NOUN	_	65	flat	_	TokenRange=477:483
+67	assista	assistir	VERB	VERB	_	59	parataxis	_	TokenRange=484:491
+68	videos	video	NOUN	NOUN	_	67	obj	_	SpaceAfter=No|TokenRange=492:498
+

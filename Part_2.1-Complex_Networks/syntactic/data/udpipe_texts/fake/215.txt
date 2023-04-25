@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo vai aumentar salario servidores publicos reajuste michel temer aprovou medida provisoria leis trazem reajuste servidores publicos remuneracao servidores acontecera escalas ano 2017 2019 abrange todos servidores publicos caso servidores educacao saude reajuste concedido 20 25 2019 sendo assim abrangendo cargos comissionados efetivos aumento implicara 38bilhoes cofres publicos periodo
+1	governo	governo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	vai	ir	AUX	AUX	_	3	aux	_	TokenRange=8:11
+3	aumentar	aumentar	VERB	VERB	_	0	root	_	TokenRange=12:20
+4	salario	salario	NOUN	NOUN	_	3	obj	_	TokenRange=21:28
+5	servidores	servidor	NOUN	NOUN	_	3	obj	_	TokenRange=29:39
+6	publicos	publico	ADJ	ADJ	_	5	amod	_	TokenRange=40:48
+7	reajuste	reajuste	ADJ	NOUN	_	3	obj	_	TokenRange=49:57
+8	michel	michel	ADJ	ADJ	_	9	amod	_	TokenRange=58:64
+9	temer	temer	NOUN	NOUN	_	10	nsubj	_	TokenRange=65:70
+10	aprovou	aprovar	VERB	VERB	_	3	parataxis	_	TokenRange=71:78
+11	medida	medida	NOUN	NOUN	_	10	obj	_	TokenRange=79:85
+12	provisoria	provisorio	ADJ	ADJ	_	11	amod	_	TokenRange=86:96
+13	leis	lei	NOUN	NOUN	_	14	nsubj	_	TokenRange=97:101
+14	trazem	trazer	VERB	VERB	_	3	parataxis	_	TokenRange=102:108
+15	reajuste	reajuste	NOUN	NOUN	_	14	obj	_	TokenRange=109:117
+16	servidores	servidor	NOUN	NOUN	_	15	appos	_	TokenRange=118:128
+17	publicos	publico	ADJ	ADJ	_	16	amod	_	TokenRange=129:137
+18	remuneracao	remuneracao	ADJ	ADJ	_	19	amod	_	TokenRange=138:149
+19	servidores	servidor	NOUN	NOUN	_	14	nsubj	_	TokenRange=150:160
+20	acontecera	acontecer	VERB	VERB	_	3	parataxis	_	TokenRange=161:171
+21	escalas	escala	NOUN	NOUN	_	20	nsubj	_	TokenRange=172:179
+22	ano	ano	NOUN	NOUN	_	25	nmod	_	TokenRange=180:183
+23	2017	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=184:188
+24	2019	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=189:193
+25	abrange	abranger	VERB	VERB	_	20	parataxis	_	TokenRange=194:201
+26	todos	_	DET	DET	_	27	det	_	TokenRange=202:207
+27	servidores	servidor	NOUN	NOUN	_	25	obj	_	TokenRange=208:218
+28	publicos	publico	ADJ	ADJ	_	27	amod	_	TokenRange=219:227
+29	caso	_	CCONJ	CONJ	_	30	case	_	TokenRange=228:232
+30	servidores	servidor	NOUN	NOUN	_	25	nmod	_	TokenRange=233:243
+31	educacao	educacao	ADJ	ADJ	_	30	amod	_	TokenRange=244:252
+32	saude	saude	NOUN	NOUN	_	30	appos	_	TokenRange=253:258
+33	reajuste	reajuste	NOUN	NOUN	_	25	parataxis	_	TokenRange=259:267
+34	concedido	conceder	VERB	VERB	_	33	acl	_	TokenRange=268:277
+35	20	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=278:280
+36	25	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=281:283
+37	2019	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=284:288
+38	sendo	ser	AUX	AUX	_	40	aux:pass	_	TokenRange=289:294
+39	assim	assim	ADV	ADV	_	40	advmod	_	TokenRange=295:300
+40	abrangendo	abranger	VERB	VERB	_	25	acl	_	TokenRange=301:311
+41	cargos	cargo	NOUN	NOUN	_	40	obj	_	TokenRange=312:318
+42	comissionados	comissionado	ADJ	ADJ	_	41	amod	_	TokenRange=319:332
+43	efetivos	efetivo	ADJ	ADJ	_	41	amod	_	TokenRange=333:341
+44	aumento	aumento	NOUN	NOUN	_	45	nsubj	_	TokenRange=342:349
+45	implicara	implicar	VERB	VERB	_	33	parataxis	_	TokenRange=350:359
+46	38bilhoes	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=360:369
+47	cofres	cofre	NOUN	NOUN	_	45	obj	_	TokenRange=370:376
+48	publicos	publico	ADJ	ADJ	_	47	amod	_	TokenRange=377:385
+49	periodo	periodo	NOUN	NOUN	_	47	amod	_	SpaceAfter=No|TokenRange=386:393
+

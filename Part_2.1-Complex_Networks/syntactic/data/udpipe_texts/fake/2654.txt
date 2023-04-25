@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa lula quer atropelar decisao ministro zavascki expresidente medo sergio moro defesa lula entrou recurso stf hoje 15 investigacoes contra fiquem supremo remetidas juiz federal sergio moro carissimos advogados petista dizem preciso haver sistematizacao procedimentos contra lula trocando miudos pedem lula investigado dois lugares diferentes defesa pede decisao tomada relator lava jato stf teori zavascki autorizou envio investigacoes parana submetida analise plenario supremo
+1	defesa	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	lula	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:11
+3	quer	querer	VERB	VERB	_	0	root	_	TokenRange=12:16
+4	atropelar	atropelar	VERB	VERB	_	3	xcomp	_	TokenRange=17:26
+5	decisao	decisao	NOUN	NOUN	_	4	obj	_	TokenRange=27:34
+6	ministro	ministro	NOUN	NOUN	_	5	appos	_	TokenRange=35:43
+7	zavascki	_	NOUN	NOUN	_	6	appos	_	TokenRange=44:52
+8	expresidente	expresidente	NOUN	NOUN	_	6	appos	_	TokenRange=53:65
+9	medo	medo	NOUN	NOUN	_	8	amod	_	TokenRange=66:70
+10	sergio	sergio	NOUN	NOUN	_	8	appos	_	TokenRange=71:77
+11	moro	moro	NOUN	NOUN	_	10	flat	_	TokenRange=78:82
+12	defesa	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=83:89
+13	lula	lula	NOUN	NOUN	_	12	flat	_	TokenRange=90:94
+14	entrou	entrar	VERB	VERB	_	3	parataxis	_	TokenRange=95:101
+15	recurso	recurso	NOUN	NOUN	_	14	obj	_	TokenRange=102:109
+16	stf	_	ADP	ADP	_	17	mark	_	TokenRange=110:113
+17	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=114:118
+18	15	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=119:121
+19	investigacoes	investigacoe	NOUN	NOUN	_	14	obj	_	TokenRange=122:135
+20	contra	_	ADP	ADP	_	21	mark	_	TokenRange=136:142
+21	fiquem	ficar	VERB	VERB	_	19	nmod	_	TokenRange=143:149
+22	supremo	supremo	ADJ	ADJ	_	21	amod	_	TokenRange=150:157
+23	remetidas	remetido	ADJ	ADJ	_	24	amod	_	TokenRange=158:167
+24	juiz	juiz	NOUN	NOUN	_	14	nsubj	_	TokenRange=168:172
+25	federal	federal	ADJ	ADJ	_	24	amod	_	TokenRange=173:180
+26	sergio	sergio	NOUN	NOUN	_	24	appos	_	TokenRange=181:187
+27	moro	moro	NOUN	NOUN	_	24	flat	_	TokenRange=188:192
+28	carissimos	carissimo	ADJ	ADJ	_	29	amod	_	TokenRange=193:203
+29	advogados	advogado	NOUN	NOUN	_	24	appos	_	TokenRange=204:213
+30	petista	petista	ADJ	ADJ	_	29	amod	_	TokenRange=214:221
+31	dizem	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=222:227
+32	preciso	preciso	ADJ	ADJ	_	31	xcomp	_	TokenRange=228:235
+33	haver	haver	VERB	VERB	_	31	ccomp	_	TokenRange=236:241
+34	sistematizacao	_	ADJ	ADJ	_	35	amod	_	TokenRange=242:256
+35	procedimentos	procedimento	NOUN	NOUN	_	33	obj	_	TokenRange=257:270
+36	contra	_	ADP	ADP	_	37	case	_	TokenRange=271:277
+37	lula	lula	NOUN	NOUN	_	35	nmod	_	TokenRange=278:282
+38	trocando	trocar	VERB	VERB	_	33	acl	_	TokenRange=283:291
+39	miudos	miudo	NOUN	NOUN	_	38	obj	_	TokenRange=292:298
+40	pedem	pedir	VERB	VERB	_	38	ccomp	_	TokenRange=299:304
+41	lula	lula	NOUN	NOUN	_	40	nsubj	_	TokenRange=305:309
+42	investigado	investigar	VERB	VERB	_	41	acl	_	TokenRange=310:321
+43	dois	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=322:326
+44	lugares	lugar	NOUN	NOUN	_	42	obj	_	TokenRange=327:334
+45	diferentes	diferente	ADJ	ADJ	_	44	amod	_	TokenRange=335:345
+46	defesa	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=346:352
+47	pede	pedir	VERB	VERB	_	31	parataxis	_	TokenRange=353:357
+48	decisao	decisao	NOUN	NOUN	_	47	obj	_	TokenRange=358:365
+49	tomada	tomar	ADJ	ADJ	_	48	amod	_	TokenRange=366:372
+50	relator	relator	NOUN	NOUN	_	47	nsubj	_	TokenRange=373:380
+51	lava	lava	NOUN	NOUN	_	48	appos	_	TokenRange=381:385
+52	jato	jato	NOUN	NOUN	_	51	flat	_	TokenRange=386:390
+53	stf	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=391:394
+54	teori	teori	NOUN	NOUN	_	56	nsubj	_	TokenRange=395:400
+55	zavascki	_	PROPN	PNOUN	_	54	flat	_	TokenRange=401:409
+56	autorizou	autorizar	VERB	VERB	_	47	parataxis	_	TokenRange=410:419
+57	envio	envio	NOUN	NOUN	_	56	obj	_	TokenRange=420:425
+58	investigacoes	investigacoe	NOUN	NOUN	_	57	flat	_	TokenRange=426:439
+59	parana	parana	NOUN	NOUN	_	61	amod	_	TokenRange=440:446
+60	submetida	submeter	VERB	VERB	_	61	acl	_	TokenRange=447:456
+61	analise	analise	NOUN	NOUN	_	56	obj	_	TokenRange=457:464
+62	plenario	plenario	NOUN	NOUN	_	61	appos	_	TokenRange=465:473
+63	supremo	supremo	ADJ	ADJ	_	61	amod	_	SpaceAfter=No|TokenRange=474:481
+

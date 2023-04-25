@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = parana presos explodem muro penitenciaria fogem fuga aconteceu durante madrugada hoje 15 detentos abriram buraco muros penitenciaria estadual piraquara i regiao metropolitana curitiba apos explosao vinte tres detentos fugiram dois mortos durante fuga equipes pm pf usam helicoptero tentar localizar fugitivos depen parana departamento penitenciario informou grupo bandidos criou tumulto desviar atencao policia agentes penitenciarios outro lado presidio grupo diferente explodiu muros complexo lado luiz alberto cartaxo moura delegadodiretor depen informou presidio opera dentro capacidade 640 presos
+1	parana	parana	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	presos	preso	NOUN	NOUN	_	3	nsubj	_	TokenRange=7:13
+3	explodem	exploder	VERB	VERB	_	0	root	_	TokenRange=14:22
+4	muro	muro	NOUN	NOUN	_	3	obj	_	TokenRange=23:27
+5	penitenciaria	penitenciaria	NOUN	NOUN	_	4	amod	_	TokenRange=28:41
+6	fogem	_	NOUN	NOUN	_	7	amod	_	TokenRange=42:47
+7	fuga	fuga	NOUN	NOUN	_	4	appos	_	TokenRange=48:52
+8	aconteceu	acontecer	VERB	VERB	_	3	parataxis	_	TokenRange=53:62
+9	durante	_	ADP	ADP	_	10	case	_	TokenRange=63:70
+10	madrugada	madrugada	NOUN	NOUN	_	8	nmod	_	TokenRange=71:80
+11	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=81:85
+12	15	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=86:88
+13	detentos	detento	NOUN	NOUN	_	14	nsubj	_	TokenRange=89:97
+14	abriram	abrir	VERB	VERB	_	3	parataxis	_	TokenRange=98:105
+15	buraco	buraco	NOUN	NOUN	_	14	obj	_	TokenRange=106:112
+16	muros	muro	NOUN	NOUN	_	15	flat	_	TokenRange=113:118
+17	penitenciaria	penitenciaria	NOUN	NOUN	_	15	appos	_	TokenRange=119:132
+18	estadual	estadual	ADJ	ADJ	_	17	amod	_	TokenRange=133:141
+19	piraquara	piraquar	NOUN	NOUN	_	17	appos	_	TokenRange=142:151
+20	i	_	ADJ	ADJ	_	21	amod	_	TokenRange=152:153
+21	regiao	regiao	NOUN	NOUN	_	19	conj	_	TokenRange=154:160
+22	metropolitana	metropolitano	ADJ	ADJ	_	21	amod	_	TokenRange=161:174
+23	curitiba	curitiba	NOUN	NOUN	_	21	appos	_	TokenRange=175:183
+24	apos	_	ADP	ADP	_	25	case	_	TokenRange=184:188
+25	explosao	explosao	NOUN	NOUN	_	29	nmod	_	TokenRange=189:197
+26	vinte	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=198:203
+27	tres	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=204:208
+28	detentos	detento	NOUN	NOUN	_	29	nsubj	_	TokenRange=209:217
+29	fugiram	fugir	VERB	VERB	_	14	conj	_	TokenRange=218:225
+30	dois	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=226:230
+31	mortos	morto	NOUN	NOUN	_	29	obj	_	TokenRange=231:237
+32	durante	_	ADP	ADP	_	33	case	_	TokenRange=238:245
+33	fuga	fuga	NOUN	NOUN	_	29	nmod	_	TokenRange=246:250
+34	equipes	equipe	NOUN	NOUN	_	29	nsubj	_	TokenRange=251:258
+35	pm	_	ADP	ADP	_	37	nsubj	_	TokenRange=259:261
+36	pf	_	NOUN	NOUN	_	34	appos	_	TokenRange=262:264
+37	usam	usar	VERB	VERB	_	34	acl:relcl	_	TokenRange=265:269
+38	helicoptero	helicoptero	NOUN	NOUN	_	37	obj	_	TokenRange=270:281
+39	tentar	tentar	VERB	VERB	_	37	ccomp	_	TokenRange=282:288
+40	localizar	localizar	VERB	VERB	_	39	xcomp	_	TokenRange=289:298
+41	fugitivos	fugitivo	NOUN	NOUN	_	40	obj	_	TokenRange=299:308
+42	depen	_	NOUN	NOUN	_	41	appos	_	TokenRange=309:314
+43	parana	parana	ADJ	NOUN	_	44	amod	_	TokenRange=315:321
+44	departamento	departamento	NOUN	NOUN	_	37	nsubj	_	TokenRange=322:334
+45	penitenciario	penitenciario	ADJ	ADJ	_	44	amod	_	TokenRange=335:348
+46	informou	informar	VERB	VERB	_	37	parataxis	_	TokenRange=349:357
+47	grupo	grupo	NOUN	NOUN	_	46	obj	_	TokenRange=358:363
+48	bandidos	bandido	NOUN	NOUN	_	47	amod	_	TokenRange=364:372
+49	criou	criar	VERB	VERB	_	46	parataxis	_	TokenRange=373:378
+50	tumulto	tumulto	NOUN	NOUN	_	49	obj	_	TokenRange=379:386
+51	desviar	desviar	VERB	VERB	_	47	acl:inf	_	TokenRange=387:394
+52	atencao	atencao	NOUN	NOUN	_	51	obj	_	TokenRange=395:402
+53	policia	policia	NOUN	NOUN	_	49	dep	_	TokenRange=403:410
+54	agentes	agente	NOUN	NOUN	_	46	nsubj	_	TokenRange=411:418
+55	penitenciarios	penitenciario	ADJ	ADJ	_	54	amod	_	TokenRange=419:433
+56	outro	_	DET	DET	_	57	det	_	TokenRange=434:439
+57	lado	lado	NOUN	NOUN	_	61	nsubj	_	TokenRange=440:444
+58	presidio	presidio	NOUN	NOUN	_	57	appos	_	TokenRange=445:453
+59	grupo	grupo	NOUN	NOUN	_	57	appos	_	TokenRange=454:459
+60	diferente	diferente	ADJ	ADJ	_	59	amod	_	TokenRange=460:469
+61	explodiu	explodir	VERB	VERB	_	46	parataxis	_	TokenRange=470:478
+62	muros	_	NOUN	NOUN	_	61	obj	_	TokenRange=479:484
+63	complexo	complexo	ADJ	ADJ	_	64	amod	_	TokenRange=485:493
+64	lado	lado	NOUN	NOUN	_	61	obj	_	TokenRange=494:498
+65	luiz	luiz	NOUN	NOUN	_	64	appos	_	TokenRange=499:503
+66	alberto	alberto	NOUN	NOUN	_	65	flat	_	TokenRange=504:511
+67	cartaxo	cartaxo	NOUN	NOUN	_	65	flat	_	TokenRange=512:519
+68	moura	mouro	ADJ	ADJ	_	65	amod	_	TokenRange=520:525
+69	delegadodiretor	delegadodiretor	ADJ	NOUN	_	65	amod	_	TokenRange=526:541
+70	depen	_	NOUN	NOUN	_	69	flat	_	TokenRange=542:547
+71	informou	informar	VERB	VERB	_	61	parataxis	_	TokenRange=548:556
+72	presidio	presidio	NOUN	NOUN	_	71	obj	_	TokenRange=557:565
+73	opera	operar	VERB	VERB	_	71	ccomp	_	TokenRange=566:571
+74	dentro	dentro	ADV	ADV	_	73	advmod	_	TokenRange=572:578
+75	capacidade	capacidade	NOUN	NOUN	_	73	obj	_	TokenRange=579:589
+76	640	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=590:593
+77	presos	preso	NOUN	NOUN	_	75	appos	_	SpaceAfter=No|TokenRange=594:600
+

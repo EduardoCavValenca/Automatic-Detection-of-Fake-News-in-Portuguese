@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = primeiro ultimo discurso camara tiririca diz sair decepcionado sete anos deputado federal palhaco tiririca prsp fez nesta quartafeira 6 primeiro ultimo discurso tribuna camara poucos deputados plenario inicio desta tarde pararam junto servidores munidos celulares acompanhar oito minutos fala tiririca afirmou estar deixando politica decepcionado cabeca erguida subo nesta tribuna primeira vez ultima vez morte porque abandonando vida publica disse tiririca anunciado entrevista folha disputaria nova eleicao saindo triste caramba saindo chateado chateado
+1	primeiro	primeiro	ADJ	ADJ	_	3	amod	_	TokenRange=0:8
+2	ultimo	_	ADJ	ADJ	_	3	amod	_	TokenRange=9:15
+3	discurso	discurso	NOUN	NOUN	_	6	nsubj	_	TokenRange=16:24
+4	camara	camara	NOUN	NOUN	_	3	appos	_	TokenRange=25:31
+5	tiririca	_	NOUN	NOUN	_	3	appos	_	TokenRange=32:40
+6	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=41:44
+7	sair	sair	VERB	VERB	_	6	xcomp	_	TokenRange=45:49
+8	decepcionado	decepcionado	ADJ	ADJ	_	7	xcomp	_	TokenRange=50:62
+9	sete	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=63:67
+10	anos	ano	NOUN	NOUN	_	7	obj	_	TokenRange=68:72
+11	deputado	deputado	NOUN	NOUN	_	10	appos	_	TokenRange=73:81
+12	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=82:89
+13	palhaco	palhaco	NOUN	NOUN	_	11	amod	_	TokenRange=90:97
+14	tiririca	tiririco	ADJ	ADJ	_	15	amod	_	TokenRange=98:106
+15	prsp	_	NOUN	NOUN	_	11	appos	_	TokenRange=107:111
+16	fez	fazer	VERB	VERB	_	6	parataxis	_	TokenRange=112:115
+17	nesta	_	ADP	ADP	_	18	case	_	TokenRange=116:121
+18	quartafeira	_	NOUN	NOUN	_	16	nmod	_	TokenRange=122:133
+19	6	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=134:135
+20	primeiro	primeiro	ADJ	ADJ	_	22	amod	_	TokenRange=136:144
+21	ultimo	_	ADJ	ADJ	_	22	amod	_	TokenRange=145:151
+22	discurso	discurso	NOUN	NOUN	_	16	obj	_	TokenRange=152:160
+23	tribuna	tribuna	NOUN	NOUN	_	22	appos	_	TokenRange=161:168
+24	camara	camara	NOUN	NOUN	_	23	flat	_	TokenRange=169:175
+25	poucos	_	DET	DET	_	26	det	_	TokenRange=176:182
+26	deputados	deputado	NOUN	NOUN	_	16	nsubj	_	TokenRange=183:192
+27	plenario	plenario	ADJ	ADJ	_	26	amod	_	TokenRange=193:201
+28	inicio	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=202:208
+29	desta	_	ADP	ADP	_	30	case	_	TokenRange=209:214
+30	tarde	tarde	NOUN	NOUN	_	28	nmod	_	TokenRange=215:220
+31	pararam	parar	VERB	VERB	_	6	parataxis	_	TokenRange=221:228
+32	junto	junto	ADV	ADV	_	31	advmod	_	TokenRange=229:234
+33	servidores	servidor	NOUN	NOUN	_	31	nsubj	_	TokenRange=235:245
+34	munidos	munido	ADJ	ADJ	_	33	amod	_	TokenRange=246:253
+35	celulares	_	NOUN	NOUN	_	33	amod	_	TokenRange=254:263
+36	acompanhar	acompanhar	VERB	VERB	_	31	parataxis	_	TokenRange=264:274
+37	oito	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=275:279
+38	minutos	minuto	NOUN	NOUN	_	36	nmod	_	TokenRange=280:287
+39	fala	_	VERB	VERB	_	31	parataxis	_	TokenRange=288:292
+40	tiririca	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=293:301
+41	afirmou	afirmar	VERB	VERB	_	39	parataxis	_	TokenRange=302:309
+42	estar	estar	AUX	AUX	_	43	aux	_	TokenRange=310:315
+43	deixando	deixar	VERB	VERB	_	41	xcomp	_	TokenRange=316:324
+44	politica	_	NOUN	NOUN	_	43	obj	_	TokenRange=325:333
+45	decepcionado	decepcionado	ADJ	ADJ	_	46	amod	_	TokenRange=334:346
+46	cabeca	cabeca	NOUN	NOUN	_	43	obj	_	TokenRange=347:353
+47	erguida	erguido	ADJ	ADJ	_	46	amod	_	TokenRange=354:361
+48	subo	subo	NOUN	NOUN	_	43	parataxis	_	TokenRange=362:366
+49	nesta	_	ADP	ADP	_	50	case	_	TokenRange=367:372
+50	tribuna	tribuna	NOUN	NOUN	_	48	nmod	_	TokenRange=373:380
+51	primeira	primeiro	ADJ	ADJ	_	52	amod	_	TokenRange=381:389
+52	vez	vez	NOUN	NOUN	_	50	nmod	_	TokenRange=390:393
+53	ultima	_	ADJ	ADJ	_	52	amod	_	TokenRange=394:400
+54	vez	vez	NOUN	NOUN	_	55	nmod	_	TokenRange=401:404
+55	morte	morte	NOUN	NOUN	_	41	parataxis	_	TokenRange=405:410
+56	porque	_	CCONJ	CONJ	_	57	mark	_	TokenRange=411:417
+57	abandonando	abandonar	VERB	VERB	_	55	advcl	_	TokenRange=418:429
+58	vida	vida	NOUN	NOUN	_	57	obj	_	TokenRange=430:434
+59	publica	publico	ADJ	ADJ	_	58	amod	_	TokenRange=435:442
+60	disse	dizer	VERB	VERB	_	41	parataxis	_	TokenRange=443:448
+61	tiririca	tiririca	NOUN	NOUN	_	60	nsubj	_	TokenRange=449:457
+62	anunciado	anunciado	ADJ	ADJ	_	63	amod	_	TokenRange=458:467
+63	entrevista	entrevista	NOUN	NOUN	_	65	nsubj	_	TokenRange=468:478
+64	folha	folha	ADJ	ADJ	_	63	amod	_	TokenRange=479:484
+65	disputaria	disputar	VERB	VERB	_	60	ccomp	_	TokenRange=485:495
+66	nova	novo	ADJ	ADJ	_	67	amod	_	TokenRange=496:500
+67	eleicao	eleicao	NOUN	NOUN	_	65	obj	_	TokenRange=501:508
+68	saindo	sair	VERB	VERB	_	65	acl	_	TokenRange=509:515
+69	triste	triste	ADJ	ADJ	_	68	xcomp	_	TokenRange=516:522
+70	caramba	caramba	NOUN	NOUN	_	71	nsubj	_	TokenRange=523:530
+71	saindo	sair	VERB	VERB	_	65	acl	_	TokenRange=531:537
+72	chateado	chateado	ADJ	ADJ	_	73	advmod	_	TokenRange=538:546
+73	chateado	chateado	ADJ	ADJ	_	71	xcomp	_	SpaceAfter=No|TokenRange=547:555
+

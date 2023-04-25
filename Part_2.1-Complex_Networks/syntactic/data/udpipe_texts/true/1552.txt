@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 20 agosto 2012 representantes nove empreiteiras consorcio construtor belo monte informados flavio barra executivo lider grupo andrade gutierrez propina acertada obra pt mdb equivalente 1 valor recebido contrato usina maior hidreletrica 100 brasileira totalmente concluida deveria 01 faturas direcionadas professor antonio delfim netto principal conselheiro economico expresidente luiz inacio lula silva revela detalhes depoimento inedito delator odebrecht aparece operacao buena fortuna 49 fase lava jato curitiba deflagrada nesta sextafeira 9
+1	20	_	NUM	NUM	NumType=Card	2	nmod	_	TokenRange=0:2
+2	agosto	_	PROPN	PNOUN	_	4	nmod	_	TokenRange=3:9
+3	2012	_	NUM	NUM	NumType=Card	2	nmod	_	TokenRange=10:14
+4	representantes	representante	NOUN	NOUN	_	36	nsubj	_	TokenRange=15:29
+5	nove	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=30:34
+6	empreiteiras	empreiteiro	NOUN	NOUN	_	4	appos	_	TokenRange=35:47
+7	consorcio	consorcio	NOUN	NOUN	_	6	amod	_	TokenRange=48:57
+8	construtor	_	NOUN	NOUN	_	6	appos	_	TokenRange=58:68
+9	belo	belo	ADJ	ADJ	_	10	amod	_	TokenRange=69:73
+10	monte	monte	NOUN	NOUN	_	7	appos	_	TokenRange=74:79
+11	informados	informado	ADJ	ADJ	_	6	amod	_	TokenRange=80:90
+12	flavio	_	NOUN	NOUN	_	4	appos	_	TokenRange=91:97
+13	barra	barra	NOUN	NOUN	_	12	flat	_	TokenRange=98:103
+14	executivo	executivo	ADJ	ADJ	_	21	amod	_	TokenRange=104:113
+15	lider	lider	NOUN	NOUN	_	6	appos	_	TokenRange=114:119
+16	grupo	grupo	NOUN	NOUN	_	6	appos	_	TokenRange=120:125
+17	andrade	andrade	NOUN	NOUN	_	16	appos	_	TokenRange=126:133
+18	gutierrez	gutierrez	NOUN	NOUN	_	16	flat	_	TokenRange=134:143
+19	propina	propina	NOUN	NOUN	_	4	appos	_	TokenRange=144:151
+20	acertada	acertado	ADJ	ADJ	_	21	amod	_	TokenRange=152:160
+21	obra	obra	NOUN	NOUN	_	19	appos	_	TokenRange=161:165
+22	pt	_	NOUN	NOUN	_	21	appos	_	TokenRange=166:168
+23	mdb	_	NOUN	NOUN	_	21	flat	_	TokenRange=169:172
+24	equivalente	equivalente	ADJ	ADJ	_	21	amod	_	TokenRange=173:184
+25	1	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=185:186
+26	valor	valor	NOUN	NOUN	_	21	appos	_	TokenRange=187:192
+27	recebido	receber	VERB	VERB	_	26	acl	_	TokenRange=193:201
+28	contrato	contrato	NOUN	NOUN	_	27	obj	_	TokenRange=202:210
+29	usina	usina	NOUN	NOUN	_	28	appos	_	TokenRange=211:216
+30	maior	maior	ADJ	ADJ	_	31	amod	_	TokenRange=217:222
+31	hidreletrica	_	NOUN	NOUN	_	29	appos	_	TokenRange=223:235
+32	100	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=236:239
+33	brasileira	brasileiro	ADJ	ADJ	_	31	amod	_	TokenRange=240:250
+34	totalmente	totalmente	ADV	ADV	_	35	advmod	_	TokenRange=251:261
+35	concluida	concluir	VERB	VERB	_	31	acl	_	TokenRange=262:271
+36	deveria	dever	VERB	VERB	_	0	root	_	TokenRange=272:279
+37	01	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=280:282
+38	faturas	fatura	NOUN	NOUN	_	36	obj	_	TokenRange=283:290
+39	direcionadas	direcionar	ADJ	ADJ	_	38	amod	_	TokenRange=291:303
+40	professor	professor	NOUN	NOUN	_	38	appos	_	TokenRange=304:313
+41	antonio	antonio	NOUN	NOUN	_	40	appos	_	TokenRange=314:321
+42	delfim	_	NOUN	NOUN	_	41	flat	_	TokenRange=322:328
+43	netto	netto	ADJ	ADJ	_	45	amod	_	TokenRange=329:334
+44	principal	principal	ADJ	ADJ	_	45	amod	_	TokenRange=335:344
+45	conselheiro	conselheiro	NOUN	NOUN	_	40	appos	_	TokenRange=345:356
+46	economico	economico	ADJ	ADJ	_	45	amod	_	TokenRange=357:366
+47	expresidente	expresidente	NOUN	NOUN	_	45	appos	_	TokenRange=367:379
+48	luiz	luiz	NOUN	NOUN	_	45	appos	_	TokenRange=380:384
+49	inacio	_	NOUN	NOUN	_	48	flat	_	TokenRange=385:391
+50	lula	lula	ADJ	ADJ	_	48	flat	_	TokenRange=392:396
+51	silva	silva	ADJ	ADJ	_	48	flat	_	TokenRange=397:402
+52	revela	revelar	VERB	VERB	_	36	parataxis	_	TokenRange=403:409
+53	detalhes	detalhe	NOUN	NOUN	_	52	obj	_	TokenRange=410:418
+54	depoimento	depoimento	NOUN	NOUN	_	53	appos	_	TokenRange=419:429
+55	inedito	inedito	ADJ	ADJ	_	54	amod	_	TokenRange=430:437
+56	delator	delator	NOUN	NOUN	_	54	appos	_	TokenRange=438:445
+57	odebrecht	_	NOUN	NOUN	_	56	flat	_	TokenRange=446:455
+58	aparece	aparecer	VERB	VERB	_	52	parataxis	_	TokenRange=456:463
+59	operacao	operacao	NOUN	NOUN	_	58	nsubj	_	TokenRange=464:472
+60	buena	bueno	ADJ	ADJ	_	61	amod	_	TokenRange=473:478
+61	fortuna	fortuna	NOUN	NOUN	_	59	appos	_	TokenRange=479:486
+62	49	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=487:489
+63	fase	fase	NOUN	NOUN	_	59	appos	_	TokenRange=490:494
+64	lava	lava	NOUN	NOUN	_	63	appos	_	TokenRange=495:499
+65	jato	jato	NOUN	NOUN	_	64	flat	_	TokenRange=500:504
+66	curitiba	curitiba	NOUN	NOUN	_	64	flat	_	TokenRange=505:513
+67	deflagrada	deflagrar	VERB	VERB	_	63	acl	_	TokenRange=514:524
+68	nesta	_	ADP	ADP	_	69	case	_	TokenRange=525:530
+69	sextafeira	sextafeira	NOUN	NOUN	_	67	nmod	_	TokenRange=531:541
+70	9	_	NUM	NUM	NumType=Card	69	appos	_	SpaceAfter=No|TokenRange=542:543
+

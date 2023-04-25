@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = forcatarefa operacao lava jato parana afirmou juiz federal sergio moro margem duvida recibos apresentados defesa expresidente lula comprovar pagamento aluguel apartamento 121 edificio hill house bernardo campos sp ideologicamente falsos ministerio publico federal parana entrou incidente falsidade apurar autenticidade documentos apresentados defesa expresidente cobra recibos originais varias versoes laranja lula juiz lava jato manda hospital entregar registro visitas glaucos presidencia pagou r 190 mil aluguel apartamento atribuido lula margem duvida recibos juntados defesa luiz inacio
+1	forcatarefa	forcatarefa	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:11
+2	operacao	operacao	NOUN	NOUN	_	1	appos	_	TokenRange=12:20
+3	lava	lava	NOUN	NOUN	_	1	appos	_	TokenRange=21:25
+4	jato	jato	NOUN	NOUN	_	3	flat	_	TokenRange=26:30
+5	parana	parana	NOUN	NOUN	_	3	flat	_	TokenRange=31:37
+6	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=38:45
+7	juiz	juiz	NOUN	NOUN	_	6	obj	_	TokenRange=46:50
+8	federal	federal	ADJ	ADJ	_	7	amod	_	TokenRange=51:58
+9	sergio	sergio	NOUN	NOUN	_	7	appos	_	TokenRange=59:65
+10	moro	moro	NOUN	NOUN	_	7	amod	_	TokenRange=66:70
+11	margem	margem	NOUN	NOUN	_	7	appos	_	TokenRange=71:77
+12	duvida	duvido	ADJ	ADJ	_	13	amod	_	TokenRange=78:84
+13	recibos	recibo	NOUN	NOUN	_	6	obj	_	TokenRange=85:92
+14	apresentados	apresentar	VERB	VERB	_	13	acl	_	TokenRange=93:105
+15	defesa	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=106:112
+16	expresidente	expresidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=113:125
+17	lula	_	ADJ	NOUN	_	16	flat	_	TokenRange=126:130
+18	comprovar	comprovar	VERB	VERB	_	6	parataxis	_	TokenRange=131:140
+19	pagamento	pagamento	NOUN	NOUN	_	18	obj	_	TokenRange=141:150
+20	aluguel	aluguel	ADJ	ADJ	_	19	amod	_	TokenRange=151:158
+21	apartamento	apartamento	NOUN	NOUN	_	19	appos	_	TokenRange=159:170
+22	121	_	NUM	NUM	NumType=Card	23	appos	_	TokenRange=171:174
+23	edificio	edificio	NOUN	NOUN	_	19	appos	_	TokenRange=175:183
+24	hill	_	NOUN	NOUN	_	23	appos	_	TokenRange=184:188
+25	house	house	NOUN	NOUN	_	23	flat	_	TokenRange=189:194
+26	bernardo	bernardo	NOUN	NOUN	_	23	appos	_	TokenRange=195:203
+27	campos	campo	NOUN	NOUN	_	26	flat	_	TokenRange=204:210
+28	sp	_	ADJ	ADJ	_	31	amod	_	TokenRange=211:213
+29	ideologicamente	ideologicamente	ADV	ADV	_	30	advmod	_	TokenRange=214:229
+30	falsos	falso	ADJ	ADJ	_	31	amod	_	TokenRange=230:236
+31	ministerio	ministerio	NOUN	NOUN	_	35	nsubj	_	TokenRange=237:247
+32	publico	_	ADJ	ADJ	_	31	amod	_	TokenRange=248:255
+33	federal	federal	ADJ	ADJ	_	31	amod	_	TokenRange=256:263
+34	parana	parana	NOUN	NOUN	_	31	amod	_	TokenRange=264:270
+35	entrou	entrar	VERB	VERB	_	6	parataxis	_	TokenRange=271:277
+36	incidente	incidente	NOUN	NOUN	_	35	obj	_	TokenRange=278:287
+37	falsidade	falsidade	NOUN	NOUN	_	35	obj	_	TokenRange=288:297
+38	apurar	apurar	VERB	VERB	_	35	ccomp	_	TokenRange=298:304
+39	autenticidade	autenticidade	NOUN	NOUN	_	38	obj	_	TokenRange=305:318
+40	documentos	documento	NOUN	NOUN	_	39	appos	_	TokenRange=319:329
+41	apresentados	apresentar	VERB	VERB	_	40	acl	_	TokenRange=330:342
+42	defesa	_	NOUN	NOUN	_	43	case	_	TokenRange=343:349
+43	expresidente	expresidente	NOUN	NOUN	_	41	nmod	_	TokenRange=350:362
+44	cobra	cobra	ADJ	NOUN	_	43	flat	_	TokenRange=363:368
+45	recibos	recibo	NOUN	NOUN	_	38	obj	_	TokenRange=369:376
+46	originais	original	ADJ	ADJ	_	45	amod	_	TokenRange=377:386
+47	varias	_	DET	DET	_	48	det	_	TokenRange=387:393
+48	versoes	versoe	NOUN	NOUN	_	35	nsubj	_	TokenRange=394:401
+49	laranja	_	NOUN	NOUN	_	48	appos	_	TokenRange=402:409
+50	lula	_	ADJ	ADJ	_	51	amod	_	TokenRange=410:414
+51	juiz	juiz	NOUN	NOUN	_	49	appos	_	TokenRange=415:419
+52	lava	lava	NOUN	NOUN	_	51	appos	_	TokenRange=420:424
+53	jato	jato	NOUN	NOUN	_	51	flat	_	TokenRange=425:429
+54	manda	manda	NOUN	NOUN	_	51	conj	_	TokenRange=430:435
+55	hospital	hospital	NOUN	NOUN	_	54	obj	_	TokenRange=436:444
+56	entregar	entregar	VERB	VERB	_	51	conj	_	TokenRange=445:453
+57	registro	registro	NOUN	NOUN	_	56	obj	_	TokenRange=454:462
+58	visitas	visita	NOUN	NOUN	_	57	appos	_	TokenRange=463:470
+59	glaucos	glauco	ADJ	ADJ	_	58	amod	_	TokenRange=471:478
+60	presidencia	presidencia	NOUN	NOUN	_	58	amod	_	TokenRange=479:490
+61	pagou	pagar	VERB	VERB	_	6	parataxis	_	TokenRange=491:496
+62	r	r	NOUN	NOUN	_	61	obj	_	TokenRange=497:498
+63	190	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=499:502
+64	mil	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=503:506
+65	aluguel	aluguel	NOUN	NOUN	_	61	obj	_	TokenRange=507:514
+66	apartamento	apartamento	NOUN	NOUN	_	65	flat	_	TokenRange=515:526
+67	atribuido	atribuir	VERB	VERB	_	65	acl	_	TokenRange=527:536
+68	lula	_	ADJ	ADJ	_	67	xcomp	_	TokenRange=537:541
+69	margem	margem	NOUN	NOUN	_	61	parataxis	_	TokenRange=542:548
+70	duvida	duvido	ADJ	ADJ	_	71	amod	_	TokenRange=549:555
+71	recibos	recibo	NOUN	NOUN	_	69	appos	_	TokenRange=556:563
+72	juntados	juntado	ADJ	ADJ	_	71	amod	_	TokenRange=564:572
+73	defesa	_	NOUN	NOUN	_	74	appos	_	TokenRange=573:579
+74	luiz	luiz	NOUN	NOUN	_	61	parataxis	_	TokenRange=580:584
+75	inacio	_	NOUN	NOUN	_	74	flat	_	SpaceAfter=No|TokenRange=585:591
+

@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria manda recado lula justica feita primeira 5 condenacoes apos divulgacao sentenca condenatoria lula prefeito paulo usou redes sociais mandar recado doria disse justica feita defendeu lula certamente condenado segunda instancia petistas lulistas dilmistas esquerdistas pensam podem roubar mentir usurpar enganar povo brasileiro olha ai deu primeira cinco condenacoes disse prefeito
+1	doria	doria	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	manda	mandar	VERB	VERB	_	50	ccomp	_	TokenRange=6:11
+3	recado	recado	NOUN	NOUN	_	2	obj	_	TokenRange=12:18
+4	lula	_	ADJ	ADJ	_	3	amod	_	TokenRange=19:23
+5	justica	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=24:31
+6	feita	_	VERB	VERB	_	5	acl	_	TokenRange=32:37
+7	primeira	primeiro	ADJ	ADJ	_	9	amod	_	TokenRange=38:46
+8	5	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=47:48
+9	condenacoes	condenacoe	NOUN	NOUN	_	6	nsubj	_	TokenRange=49:60
+10	apos	_	ADP	ADP	_	11	mark	_	TokenRange=61:65
+11	divulgacao	divulgacao	VERB	VERB	_	2	advcl	_	TokenRange=66:76
+12	sentenca	_	NOUN	NOUN	_	11	obj	_	TokenRange=77:85
+13	condenatoria	condenatorio	ADJ	ADJ	_	12	amod	_	TokenRange=86:98
+14	lula	lula	NOUN	NOUN	_	17	nsubj	_	TokenRange=99:103
+15	prefeito	prefeito	NOUN	NOUN	_	17	nsubj	_	TokenRange=104:112
+16	paulo	paulo	NOUN	NOUN	_	15	flat	_	TokenRange=113:118
+17	usou	usar	VERB	VERB	_	12	acl:relcl	_	TokenRange=119:123
+18	redes	rede	NOUN	NOUN	_	17	obj	_	TokenRange=124:129
+19	sociais	social	ADJ	ADJ	_	18	amod	_	TokenRange=130:137
+20	mandar	mandar	VERB	VERB	_	17	xcomp	_	TokenRange=138:144
+21	recado	recado	NOUN	NOUN	_	20	obj	_	TokenRange=145:151
+22	doria	doria	NOUN	NOUN	_	18	flat	_	TokenRange=152:157
+23	disse	dizer	VERB	VERB	_	17	conj	_	TokenRange=158:163
+24	justica	_	NOUN	NOUN	_	23	obj	_	TokenRange=164:171
+25	feita	_	ADJ	ADJ	_	24	amod	_	TokenRange=172:177
+26	defendeu	defender	VERB	VERB	_	23	ccomp	_	TokenRange=178:186
+27	lula	lula	NOUN	NOUN	_	26	obj	_	TokenRange=187:191
+28	certamente	certamente	ADV	ADV	_	29	advmod	_	TokenRange=192:202
+29	condenado	condenar	VERB	ADJ	_	32	acl	_	TokenRange=203:212
+30	segunda	segundo	ADJ	ADJ	_	31	amod	_	TokenRange=213:220
+31	instancia	instancia	NOUN	NOUN	_	26	nsubj	_	TokenRange=221:230
+32	petistas	petista	NOUN	NOUN	_	26	nsubj	_	TokenRange=231:239
+33	lulistas	lulista	ADJ	ADJ	_	32	amod	_	TokenRange=240:248
+34	dilmistas	dilmista	ADJ	ADJ	_	32	amod	_	TokenRange=249:258
+35	esquerdistas	esquerdista	ADJ	ADJ	_	32	amod	_	TokenRange=259:271
+36	pensam	pensar	VERB	VERB	_	32	acl:relcl	_	TokenRange=272:278
+37	podem	_	AUX	AUX	_	38	aux	_	TokenRange=279:284
+38	roubar	roubar	VERB	VERB	_	36	ccomp	_	TokenRange=285:291
+39	mentir	mentir	VERB	VERB	_	38	xcomp	_	TokenRange=292:298
+40	usurpar	usurpar	VERB	VERB	_	38	xcomp	_	TokenRange=299:306
+41	enganar	enganar	VERB	VERB	_	40	xcomp	_	TokenRange=307:314
+42	povo	povo	NOUN	NOUN	_	41	obj	_	TokenRange=315:319
+43	brasileiro	brasileiro	ADJ	ADJ	_	42	amod	_	TokenRange=320:330
+44	olha	olha	NOUN	NOUN	_	46	nsubj	_	TokenRange=331:335
+45	ai	ai	ADV	ADV	_	46	advmod	_	TokenRange=336:338
+46	deu	dar	VERB	VERB	_	50	ccomp	_	TokenRange=339:342
+47	primeira	primeiro	ADJ	ADJ	_	48	amod	_	TokenRange=343:351
+48	cinco	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=352:357
+49	condenacoes	condenacoe	NOUN	NOUN	_	46	obj	_	TokenRange=358:369
+50	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=370:375
+51	prefeito	prefeito	NOUN	NOUN	_	50	obj	_	SpaceAfter=No|TokenRange=376:384
+

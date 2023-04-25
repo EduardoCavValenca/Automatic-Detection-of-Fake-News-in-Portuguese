@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = homem ganha premio viver pastando bode jornalista caiu gargalhada vivo thomas thwaltes recebeu premio ig nobel satira premio nobel criar proteses extensao membros viver alguns dias colina companhia cabras canal noticias ctv news maiores respeitados canada tentou abordar materia sobre homembode tres ancoras telejornal conseguiram dar noticia cairam gargalhada maralee caruso primeira crise riso partir dai zoeira vivo confira
+1	homem	homem	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	ganha	ganhar	VERB	VERB	_	0	root	_	TokenRange=6:11
+3	premio	premio	NOUN	NOUN	_	2	obj	_	TokenRange=12:18
+4	viver	viver	NOUN	NOUN	_	3	amod	_	TokenRange=19:24
+5	pastando	pastar	VERB	VERB	_	2	acl	_	TokenRange=25:33
+6	bode	bode	NOUN	NOUN	_	5	obj	_	TokenRange=34:38
+7	jornalista	jornalista	NOUN	NOUN	_	6	flat	_	TokenRange=39:49
+8	caiu	cair	VERB	VERB	_	7	appos	_	TokenRange=50:54
+9	gargalhada	gargalhada	NOUN	NOUN	_	8	obj	_	TokenRange=55:65
+10	vivo	vivo	ADJ	ADJ	_	9	amod	_	TokenRange=66:70
+11	thomas	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=71:77
+12	thwaltes	_	NOUN	NOUN	_	11	flat	_	TokenRange=78:86
+13	recebeu	receber	VERB	VERB	_	2	parataxis	_	TokenRange=87:94
+14	premio	premio	NOUN	NOUN	_	13	obj	_	TokenRange=95:101
+15	ig	_	NOUN	NOUN	_	14	appos	_	TokenRange=102:104
+16	nobel	nobel	NOUN	NOUN	_	14	flat	_	TokenRange=105:110
+17	satira	_	NOUN	NOUN	_	18	amod	_	TokenRange=111:117
+18	premio	premio	NOUN	NOUN	_	13	obj	_	TokenRange=118:124
+19	nobel	nobel	NOUN	NOUN	_	18	flat	_	TokenRange=125:130
+20	criar	criar	VERB	VERB	_	13	ccomp	_	TokenRange=131:136
+21	proteses	protese	NOUN	NOUN	_	20	obj	_	TokenRange=137:145
+22	extensao	extensao	ADJ	ADJ	_	21	amod	_	TokenRange=146:154
+23	membros	membro	NOUN	NOUN	_	24	nsubj	_	TokenRange=155:162
+24	viver	viver	VERB	VERB	_	21	acl:relcl	_	TokenRange=163:168
+25	alguns	_	DET	DET	_	26	det	_	TokenRange=169:175
+26	dias	dia	NOUN	NOUN	_	24	nmod	_	TokenRange=176:180
+27	colina	colina	NOUN	NOUN	_	26	appos	_	TokenRange=181:187
+28	companhia	companhia	NOUN	NOUN	_	26	appos	_	TokenRange=188:197
+29	cabras	cabra	ADJ	ADJ	_	28	amod	_	TokenRange=198:204
+30	canal	canal	NOUN	NOUN	_	28	appos	_	TokenRange=205:210
+31	noticias	_	NOUN	NOUN	_	30	flat	_	TokenRange=211:219
+32	ctv	_	PROPN	PNOUN	_	30	appos	_	TokenRange=220:223
+33	news	_	NOUN	NOUN	_	30	appos	_	TokenRange=224:228
+34	maiores	maior	ADJ	ADJ	_	36	amod	_	TokenRange=229:236
+35	respeitados	respeitado	ADJ	ADJ	_	36	amod	_	TokenRange=237:248
+36	canada	canada	NOUN	NOUN	_	37	nsubj	_	TokenRange=249:255
+37	tentou	tentar	VERB	VERB	_	2	parataxis	_	TokenRange=256:262
+38	abordar	abordar	VERB	VERB	_	37	xcomp	_	TokenRange=263:270
+39	materia	materia	NOUN	NOUN	_	38	obj	_	TokenRange=271:278
+40	sobre	_	ADP	ADP	_	41	case	_	TokenRange=279:284
+41	homembode	homembode	NOUN	NOUN	_	39	nmod	_	TokenRange=285:294
+42	tres	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=295:299
+43	ancoras	ancora	NOUN	NOUN	_	45	nsubj	_	TokenRange=300:307
+44	telejornal	telejornal	ADJ	ADJ	_	43	amod	_	TokenRange=308:318
+45	conseguiram	conseguir	VERB	VERB	_	41	acl:relcl	_	TokenRange=319:330
+46	dar	dar	VERB	VERB	_	45	xcomp	_	TokenRange=331:334
+47	noticia	noticia	NOUN	NOUN	_	46	obj	_	TokenRange=335:342
+48	cairam	_	AUX	VERB	_	45	parataxis	_	TokenRange=343:349
+49	gargalhada	gargalhada	NOUN	NOUN	_	45	nsubj	_	TokenRange=350:360
+50	maralee	_	NOUN	NOUN	_	49	appos	_	TokenRange=361:368
+51	caruso	caruso	NOUN	NOUN	_	50	flat	_	TokenRange=369:375
+52	primeira	primeiro	ADJ	ADJ	_	53	amod	_	TokenRange=376:384
+53	crise	crise	NOUN	NOUN	_	50	appos	_	TokenRange=385:390
+54	riso	riso	ADJ	ADJ	_	55	amod	_	TokenRange=391:395
+55	partir	partir	VERB	VERB	_	59	csubj	_	TokenRange=396:402
+56	dai	_	ADP	ADP	_	57	case	_	TokenRange=403:406
+57	zoeira	zoeira	NOUN	NOUN	_	55	nmod	_	TokenRange=407:413
+58	vivo	vivo	ADJ	ADJ	_	57	amod	_	TokenRange=414:418
+59	confira	conferir	VERB	VERB	_	37	parataxis	_	SpaceAfter=No|TokenRange=419:426
+

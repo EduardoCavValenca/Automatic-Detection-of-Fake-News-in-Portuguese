@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = imigrantes ateiam fogo centro refugiados porque nutella comer edificio ficou completamente destruido incendio causou prejuizo estimado 10 milhoes euros dois homens argelino marroquino detidos centro dusseldorf alemanha acusados terem ateado fogo local vinte seis pessoas ficaram feridas jornal alemao bild revelou grupo refugiados irritou ficou sabendo refeicoes centro canceladas devido ramada data muculmanos comem durante dia manifestantes gritavam nutella chocolate informou jornal chefe distrito cruz vermelha alema relatou imigrantes incendiaram local porque raiva diario brasil informacoes daily mail
+1	imigrantes	imigrante	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	ateiam	atear	VERB	VERB	_	0	root	_	TokenRange=11:17
+3	fogo	fogo	NOUN	NOUN	_	2	obj	_	TokenRange=18:22
+4	centro	centro	NOUN	NOUN	_	2	obj	_	TokenRange=23:29
+5	refugiados	refugiado	ADJ	ADJ	_	4	amod	_	TokenRange=30:40
+6	porque	_	CCONJ	CONJ	_	8	mark	_	TokenRange=41:47
+7	nutella	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=48:55
+8	comer	comer	VERB	VERB	_	2	advcl	_	TokenRange=56:61
+9	edificio	edificio	NOUN	NOUN	_	8	obj	_	TokenRange=62:70
+10	ficou	ficar	VERB	VERB	_	2	parataxis	_	TokenRange=71:76
+11	completamente	completamente	ADV	ADV	_	12	advmod	_	TokenRange=77:90
+12	destruido	destruido	ADJ	ADJ	_	10	xcomp	_	TokenRange=91:100
+13	incendio	incendio	NOUN	NOUN	_	14	nsubj	_	TokenRange=101:109
+14	causou	causar	VERB	VERB	_	2	conj	_	TokenRange=110:116
+15	prejuizo	prejuizo	NOUN	NOUN	_	14	obj	_	TokenRange=117:125
+16	estimado	estimar	VERB	ADJ	_	15	acl	_	TokenRange=126:134
+17	10	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=135:137
+18	milhoes	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=138:145
+19	euros	euro	NOUN	NOUN	_	14	nsubj	_	TokenRange=146:151
+20	dois	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=152:156
+21	homens	homem	NOUN	NOUN	_	14	nsubj	_	TokenRange=157:163
+22	argelino	argelino	ADJ	ADJ	_	21	amod	_	TokenRange=164:172
+23	marroquino	marroquino	ADJ	ADJ	_	21	amod	_	TokenRange=173:183
+24	detidos	deter	VERB	VERB	_	21	acl	_	TokenRange=184:191
+25	centro	centro	NOUN	NOUN	_	24	nsubj	_	TokenRange=192:198
+26	dusseldorf	dusseldor	ADJ	ADJ	_	25	amod	_	TokenRange=199:209
+27	alemanha	alemanha	NOUN	NOUN	_	25	appos	_	TokenRange=210:218
+28	acusados	acusar	VERB	VERB	_	21	acl	_	TokenRange=219:227
+29	terem	ter	AUX	AUX	_	30	aux	_	TokenRange=228:233
+30	ateado	atear	VERB	VERB	_	28	xcomp	_	TokenRange=234:240
+31	fogo	fogo	NOUN	NOUN	_	30	obj	_	TokenRange=241:245
+32	local	local	ADJ	ADJ	_	31	amod	_	TokenRange=246:251
+33	vinte	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=252:257
+34	seis	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=258:262
+35	pessoas	pessoa	NOUN	NOUN	_	36	nsubj	_	TokenRange=263:270
+36	ficaram	ficar	VERB	VERB	_	30	parataxis	_	TokenRange=271:278
+37	feridas	ferido	ADJ	ADJ	_	36	xcomp	_	TokenRange=279:286
+38	jornal	jornal	NOUN	NOUN	_	36	nsubj	_	TokenRange=287:293
+39	alemao	alemao	ADJ	ADJ	_	38	amod	_	TokenRange=294:300
+40	bild	_	ADJ	ADJ	_	38	amod	_	TokenRange=301:305
+41	revelou	revelar	VERB	VERB	_	36	parataxis	_	TokenRange=306:313
+42	grupo	grupo	NOUN	NOUN	_	46	obj	_	TokenRange=314:319
+43	refugiados	refugiado	ADJ	ADJ	_	42	amod	_	TokenRange=320:330
+44	irritou	irritar	VERB	VERB	_	42	amod	_	TokenRange=331:338
+45	ficou	ficar	AUX	AUX	_	46	aux	_	TokenRange=339:344
+46	sabendo	saber	VERB	VERB	_	41	ccomp	_	TokenRange=345:352
+47	refeicoes	refeicoe	NOUN	NOUN	_	46	obj	_	TokenRange=353:362
+48	centro	centro	NOUN	NOUN	_	47	flat	_	TokenRange=363:369
+49	canceladas	cancelar	VERB	VERB	_	47	acl	_	TokenRange=370:380
+50	devido	dever	VERB	VERB	_	54	mark	_	TokenRange=381:387
+51	ramada	_	ADJ	ADJ	_	50	fixed	_	TokenRange=388:394
+52	data	data	NOUN	NOUN	_	54	nsubj	_	TokenRange=395:399
+53	muculmanos	muculmano	NOUN	NOUN	_	52	amod	_	TokenRange=400:410
+54	comem	comer	VERB	VERB	_	46	advcl	_	TokenRange=411:416
+55	durante	_	ADP	ADP	_	56	case	_	TokenRange=417:424
+56	dia	dia	NOUN	NOUN	_	54	nmod	_	TokenRange=425:428
+57	manifestantes	manifestante	NOUN	NOUN	_	58	nsubj	_	TokenRange=429:442
+58	gritavam	gritar	VERB	VERB	_	54	conj	_	TokenRange=443:451
+59	nutella	_	NOUN	NOUN	_	58	obj	_	TokenRange=452:459
+60	chocolate	chocolate	NOUN	NOUN	_	59	flat	_	TokenRange=460:469
+61	informou	informar	VERB	VERB	_	54	parataxis	_	TokenRange=470:478
+62	jornal	jornal	NOUN	NOUN	_	61	nsubj	_	TokenRange=479:485
+63	chefe	chefe	NOUN	NOUN	_	62	flat	_	TokenRange=486:491
+64	distrito	distrito	NOUN	NOUN	_	62	amod	_	TokenRange=492:500
+65	cruz	cruz	NOUN	NOUN	_	62	appos	_	TokenRange=501:505
+66	vermelha	vermelho	ADJ	ADJ	_	65	amod	_	TokenRange=506:514
+67	alema	alema	ADJ	ADJ	_	65	amod	_	TokenRange=515:520
+68	relatou	relatar	VERB	VERB	_	61	parataxis	_	TokenRange=521:528
+69	imigrantes	imigrante	NOUN	NOUN	_	70	obj	_	TokenRange=529:539
+70	incendiaram	incendiar	VERB	VERB	_	68	ccomp	_	TokenRange=540:551
+71	local	local	NOUN	NOUN	_	70	obj	_	TokenRange=552:557
+72	porque	_	CCONJ	CONJ	_	73	mark	_	TokenRange=558:564
+73	raiva	raivar	VERB	VERB	_	68	advcl	_	TokenRange=565:570
+74	diario	diario	NOUN	NOUN	_	73	obj	_	TokenRange=571:577
+75	brasil	brasil	ADJ	ADJ	_	74	amod	_	TokenRange=578:584
+76	informacoes	informacoe	NOUN	NOUN	_	73	nsubj	_	TokenRange=585:596
+77	daily	_	ADJ	ADJ	_	78	amod	_	TokenRange=597:602
+78	mail	mail	NOUN	NOUN	_	74	appos	_	SpaceAfter=No|TokenRange=603:607
+

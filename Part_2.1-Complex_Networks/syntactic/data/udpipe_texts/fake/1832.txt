@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = colunista globo diz delatores odebrecht sofrendo ameacas morte apos primeira bomba lancada exexecutivo odebrecht claudio melo filho envolvendo 51 politicos 11 partidos ameacas comecaram acontecer longa lista diversos politicos envolvidos recebimento propinas respectivos apelidos valores recebidos divulgada toda rede pf cuidar protecao desses delatores comecarao sumir
+1	colunista	colunista	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	globo	globo	NOUN	NOUN	_	1	amod	_	TokenRange=10:15
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=16:19
+4	delatores	delator	NOUN	NOUN	_	3	obj	_	TokenRange=20:29
+5	odebrecht	_	NOUN	NOUN	_	4	appos	_	TokenRange=30:39
+6	sofrendo	sofrer	VERB	VERB	_	4	acl	_	TokenRange=40:48
+7	ameacas	ameaca	NOUN	NOUN	_	6	obj	_	TokenRange=49:56
+8	morte	morte	NOUN	NOUN	_	7	appos	_	TokenRange=57:62
+9	apos	_	ADP	ADP	_	11	case	_	TokenRange=63:67
+10	primeira	primeiro	ADJ	ADJ	_	11	amod	_	TokenRange=68:76
+11	bomba	bomba	NOUN	NOUN	_	6	nmod	_	TokenRange=77:82
+12	lancada	lancar	VERB	VERB	_	11	acl	_	TokenRange=83:90
+13	exexecutivo	exexecutivo	ADJ	ADJ	_	11	amod	_	TokenRange=91:102
+14	odebrecht	_	NOUN	NOUN	_	11	appos	_	TokenRange=103:112
+15	claudio	claudio	NOUN	NOUN	_	14	appos	_	TokenRange=113:120
+16	melo	melo	ADJ	ADJ	_	14	flat	_	TokenRange=121:125
+17	filho	filho	NOUN	NOUN	_	15	flat	_	TokenRange=126:131
+18	envolvendo	envolver	VERB	VERB	_	14	acl	_	TokenRange=132:142
+19	51	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=143:145
+20	politicos	politico	NOUN	NOUN	_	18	obj	_	TokenRange=146:155
+21	11	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=156:158
+22	partidos	partido	NOUN	NOUN	_	18	nsubj	_	TokenRange=159:167
+23	ameacas	ameaca	ADJ	ADJ	_	22	amod	_	TokenRange=168:175
+24	comecaram	comecar	AUX	AUX	_	25	aux	_	TokenRange=176:185
+25	acontecer	acontecer	VERB	VERB	_	3	parataxis	_	TokenRange=186:195
+26	longa	longo	ADJ	ADJ	_	27	amod	_	TokenRange=196:201
+27	lista	lista	NOUN	NOUN	_	25	nsubj	_	TokenRange=202:207
+28	diversos	_	DET	DET	_	29	det	_	TokenRange=208:216
+29	politicos	politico	NOUN	NOUN	_	25	nsubj	_	TokenRange=217:226
+30	envolvidos	envolver	VERB	VERB	_	29	acl	_	TokenRange=227:237
+31	recebimento	recebimento	NOUN	NOUN	_	30	nsubj	_	TokenRange=238:249
+32	propinas	propina	NOUN	NOUN	_	31	appos	_	TokenRange=250:258
+33	respectivos	respectivo	ADJ	ADJ	_	35	amod	_	TokenRange=259:270
+34	apelidos	apelido	ADJ	NOUN	_	35	amod	_	TokenRange=271:279
+35	valores	_	NOUN	NOUN	_	31	appos	_	TokenRange=280:287
+36	recebidos	receber	VERB	VERB	_	35	acl	_	TokenRange=288:297
+37	divulgada	divulgar	VERB	VERB	_	35	acl	_	TokenRange=298:307
+38	toda	_	DET	DET	_	39	det	_	TokenRange=308:312
+39	rede	rede	NOUN	NOUN	_	37	nsubj	_	TokenRange=313:317
+40	pf	_	NOUN	NOUN	_	39	appos	_	TokenRange=318:320
+41	cuidar	cuidar	VERB	VERB	_	39	acl:inf	_	TokenRange=321:327
+42	protecao	protecao	NOUN	NOUN	_	41	obj	_	TokenRange=328:336
+43	desses	_	ADP	ADP	_	44	case	_	TokenRange=337:343
+44	delatores	delator	NOUN	NOUN	_	42	nmod	_	TokenRange=344:353
+45	comecarao	comecar	VERB	VERB	_	25	parataxis	_	TokenRange=354:363
+46	sumir	sumir	VERB	VERB	_	45	xcomp	_	SpaceAfter=No|TokenRange=364:369
+

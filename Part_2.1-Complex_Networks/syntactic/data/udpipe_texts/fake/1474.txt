@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = peixe grande lista janot enviada stf 16 nomes confirmados confira 320 pedidos inqueritos enviados stf 83 contra parlamentares ministros citados pgr expresidente luiz inacio lula silva pt dilma rousseff pt aparecem 211 casos distribuidos instancias comuns foro citados rodrigo maia demrj presidente camara senadores aparecem pedidos abertura inqueritos aecio neves psdb/mg jose serra psdb/sp eunicio oliveira pmdbce senador atual presidente senado romero juca pmdb/rr renan calheiros pmdb/al edison lobao pmdb/ma ministros eliseu padilha moreira franco aloysio nunes gilberto kassab bruno araujo figuram denuncias janot exministros
+1	peixe	peixe	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:5
+2	grande	grande	ADJ	ADJ	_	3	amod	_	TokenRange=6:12
+3	lista	lista	NOUN	NOUN	_	10	nsubj	_	TokenRange=13:18
+4	janot	_	NOUN	NOUN	_	3	appos	_	TokenRange=19:24
+5	enviada	enviar	VERB	VERB	_	3	acl	_	TokenRange=25:32
+6	stf	_	NOUN	NOUN	_	5	obj	_	TokenRange=33:36
+7	16	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=37:39
+8	nomes	nome	NOUN	NOUN	_	5	obj	_	TokenRange=40:45
+9	confirmados	confirmar	VERB	VERB	_	8	acl	_	TokenRange=46:57
+10	confira	conferir	VERB	VERB	_	0	root	_	TokenRange=58:65
+11	320	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=66:69
+12	pedidos	pedido	NOUN	NOUN	_	10	obj	_	TokenRange=70:77
+13	inqueritos	inquerito	ADJ	ADJ	_	12	amod	_	TokenRange=78:88
+14	enviados	enviar	VERB	VERB	_	12	acl	_	TokenRange=89:97
+15	stf	_	NOUN	NOUN	_	14	nmod	_	TokenRange=98:101
+16	83	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=102:104
+17	contra	_	ADP	ADP	_	18	case	_	TokenRange=105:111
+18	parlamentares	parlamentar	NOUN	NOUN	_	15	nmod	_	TokenRange=112:125
+19	ministros	ministro	NOUN	NOUN	_	18	appos	_	TokenRange=126:135
+20	citados	citar	VERB	VERB	_	19	acl	_	TokenRange=136:143
+21	pgr	_	NOUN	NOUN	_	19	appos	_	TokenRange=144:147
+22	expresidente	expresidente	NOUN	NOUN	_	19	appos	_	TokenRange=148:160
+23	luiz	luiz	NOUN	NOUN	_	22	appos	_	TokenRange=161:165
+24	inacio	_	NOUN	NOUN	_	22	appos	_	TokenRange=166:172
+25	lula	_	NOUN	NOUN	_	23	flat	_	TokenRange=173:177
+26	silva	silva	ADJ	NOUN	_	24	flat	_	TokenRange=178:183
+27	pt	pt	NOUN	NOUN	_	28	appos	_	TokenRange=184:186
+28	dilma	dilma	NOUN	NOUN	_	31	nsubj	_	TokenRange=187:192
+29	rousseff	rousseff	NOUN	NOUN	_	28	flat	_	TokenRange=193:201
+30	pt	_	NOUN	NOUN	_	28	flat	_	TokenRange=202:204
+31	aparecem	aparecer	VERB	VERB	_	10	parataxis	_	TokenRange=205:213
+32	211	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=214:217
+33	casos	caso	NOUN	NOUN	_	31	nsubj	_	TokenRange=218:223
+34	distribuidos	distribuir	VERB	VERB	_	33	acl	_	TokenRange=224:236
+35	instancias	instancia	NOUN	NOUN	_	31	nsubj	_	TokenRange=237:247
+36	comuns	comum	ADJ	ADJ	_	35	amod	_	TokenRange=248:254
+37	foro	foro	NOUN	NOUN	_	38	advmod	_	TokenRange=255:259
+38	citados	citar	VERB	VERB	_	33	acl	_	TokenRange=260:267
+39	rodrigo	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=268:275
+40	maia	maia	NOUN	NOUN	_	39	flat	_	TokenRange=276:280
+41	demrj	_	NOUN	NOUN	_	42	amod	_	TokenRange=281:286
+42	presidente	presidente	NOUN	NOUN	_	39	appos	_	TokenRange=287:297
+43	camara	camara	ADJ	ADJ	_	42	amod	_	TokenRange=298:304
+44	senadores	senador	NOUN	NOUN	_	42	amod	_	TokenRange=305:314
+45	aparecem	aparecer	VERB	VERB	_	10	parataxis	_	TokenRange=315:323
+46	pedidos	pedido	NOUN	NOUN	_	45	obj	_	TokenRange=324:331
+47	abertura	abertura	NOUN	NOUN	_	46	appos	_	TokenRange=332:340
+48	inqueritos	inquerito	ADJ	NOUN	_	47	amod	_	TokenRange=341:351
+49	aecio	aecio	NOUN	NOUN	_	47	appos	_	TokenRange=352:357
+50	neves	neve	NOUN	NOUN	_	49	flat	_	TokenRange=358:363
+51	psdb/mg	_	NOUN	NOUN	_	49	flat	_	TokenRange=364:371
+52	jose	jose	NOUN	NOUN	_	49	appos	_	TokenRange=372:376
+53	serra	_	PROPN	PNOUN	_	52	flat	_	TokenRange=377:382
+54	psdb/sp	_	NOUN	NOUN	_	52	flat	_	TokenRange=383:390
+55	eunicio	_	NOUN	NOUN	_	49	flat	_	TokenRange=391:398
+56	oliveira	oliveira	ADJ	ADJ	_	52	flat	_	TokenRange=399:407
+57	pmdbce	_	NOUN	NOUN	_	52	flat	_	TokenRange=408:414
+58	senador	senador	NOUN	NOUN	_	49	appos	_	TokenRange=415:422
+59	atual	atual	ADJ	ADJ	_	60	amod	_	TokenRange=423:428
+60	presidente	presidente	NOUN	NOUN	_	47	appos	_	TokenRange=429:439
+61	senado	senado	ADJ	ADJ	_	60	amod	_	TokenRange=440:446
+62	romero	romero	NOUN	NOUN	_	60	appos	_	TokenRange=447:453
+63	juca	juca	NOUN	NOUN	_	62	flat	_	TokenRange=454:458
+64	pmdb/rr	_	NOUN	NOUN	_	62	appos	_	TokenRange=459:466
+65	renan	_	NOUN	NOUN	_	62	appos	_	TokenRange=467:472
+66	calheiros	calheiro	NOUN	NOUN	_	62	flat	_	TokenRange=473:482
+67	pmdb/al	pmdb/al	ADJ	ADJ	_	68	amod	_	TokenRange=483:490
+68	edison	_	NOUN	NOUN	_	62	appos	_	TokenRange=491:497
+69	lobao	_	NOUN	NOUN	_	68	flat	_	TokenRange=498:503
+70	pmdb/ma	_	PROPN	PNOUN	_	68	flat	_	TokenRange=504:511
+71	ministros	ministro	NOUN	NOUN	_	68	flat	_	TokenRange=512:521
+72	eliseu	_	NOUN	NOUN	_	71	appos	_	TokenRange=522:528
+73	padilha	_	NOUN	NOUN	_	72	flat	_	TokenRange=529:536
+74	moreira	_	NOUN	NOUN	_	72	flat	_	TokenRange=537:544
+75	franco	franco	ADJ	ADJ	_	76	flat	_	TokenRange=545:551
+76	aloysio	_	NOUN	NOUN	_	72	appos	_	TokenRange=552:559
+77	nunes	_	NOUN	NOUN	_	76	flat	_	TokenRange=560:565
+78	gilberto	gilberto	ADJ	ADJ	_	76	flat	_	TokenRange=566:574
+79	kassab	_	X	NOUN	_	76	flat	_	TokenRange=575:581
+80	bruno	bruno	NOUN	NOUN	_	76	flat	_	TokenRange=582:587
+81	araujo	araujo	ADJ	NOUN	_	80	flat	_	TokenRange=588:594
+82	figuram	figurar	VERB	VERB	_	45	parataxis	_	TokenRange=595:602
+83	denuncias	_	NOUN	NOUN	_	82	obj	_	TokenRange=603:612
+84	janot	_	NOUN	NOUN	_	83	appos	_	TokenRange=613:618
+85	exministros	exministro	NOUN	NOUN	_	84	flat	_	SpaceAfter=No|TokenRange=619:630
+

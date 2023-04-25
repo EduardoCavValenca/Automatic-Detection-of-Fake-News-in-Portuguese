@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria anuncia saida soninha secretaria assistencia desenvolvimento social sp vereadora eleita pps vai voltar camara municipal segundo prefeito soninha perfil dar forca maior pasta prefeito joao doria psdb anunciou nesta segundafeira 17 saida soninha francine pps cargo secretaria assistencia
+1	doria	doria	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	anuncia	anunciar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	saida	_	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	soninha	_	ADJ	ADJ	_	3	amod	_	TokenRange=20:27
+5	secretaria	secretaria	NOUN	NOUN	_	3	appos	_	TokenRange=28:38
+6	assistencia	_	NOUN	NOUN	_	5	flat	_	TokenRange=39:50
+7	desenvolvimento	desenvolvimento	NOUN	NOUN	_	5	flat	_	TokenRange=51:66
+8	social	social	ADJ	ADJ	_	7	amod	_	TokenRange=67:73
+9	sp	_	CCONJ	CONJ	_	10	det	_	TokenRange=74:76
+10	vereadora	vereador	NOUN	NOUN	_	15	nsubj	_	TokenRange=77:86
+11	eleita	eleger	VERB	ADJ	_	10	acl	_	TokenRange=87:93
+12	pps	_	NOUN	NOUN	_	10	appos	_	TokenRange=94:97
+13	vai	ir	AUX	AUX	_	15	aux	_	TokenRange=98:101
+14	voltar	voltar	AUX	AUX	_	15	cop	_	TokenRange=102:108
+15	camara	camara	NOUN	NOUN	_	2	parataxis	_	TokenRange=109:115
+16	municipal	municipal	ADJ	ADJ	_	15	amod	_	TokenRange=116:125
+17	segundo	segundo	ADJ	ADJ	_	18	amod	_	TokenRange=126:133
+18	prefeito	prefeito	NOUN	NOUN	_	15	nmod	_	TokenRange=134:142
+19	soninha	_	ADJ	ADJ	_	20	amod	_	TokenRange=143:150
+20	perfil	perfil	NOUN	NOUN	_	15	nsubj	_	TokenRange=151:157
+21	dar	dar	VERB	VERB	_	20	acl:inf	_	TokenRange=158:161
+22	forca	forca	NOUN	NOUN	_	21	obj	_	TokenRange=162:167
+23	maior	maior	ADJ	ADJ	_	22	amod	_	TokenRange=168:173
+24	pasta	pasta	NOUN	NOUN	_	22	appos	_	TokenRange=174:179
+25	prefeito	prefeito	NOUN	NOUN	_	24	appos	_	TokenRange=180:188
+26	joao	joao	NOUN	NOUN	_	25	appos	_	TokenRange=189:193
+27	doria	doria	NOUN	NOUN	_	26	flat	_	TokenRange=194:199
+28	psdb	_	PROPN	PNOUN	_	26	appos	_	TokenRange=200:204
+29	anunciou	anunciar	VERB	VERB	_	2	parataxis	_	TokenRange=205:213
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=214:219
+31	segundafeira	_	NOUN	NOUN	_	29	nmod	_	TokenRange=220:232
+32	17	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=233:235
+33	saida	saida	NOUN	NOUN	_	29	obj	_	TokenRange=236:241
+34	soninha	_	NOUN	NOUN	_	33	appos	_	TokenRange=242:249
+35	francine	francine	NOUN	NOUN	_	33	appos	_	TokenRange=250:258
+36	pps	_	NOUN	NOUN	_	35	flat	_	TokenRange=259:262
+37	cargo	cargo	NOUN	NOUN	_	35	flat	_	TokenRange=263:268
+38	secretaria	secretaria	NOUN	NOUN	_	33	appos	_	TokenRange=269:279
+39	assistencia	_	NOUN	NOUN	_	38	flat	_	SpaceAfter=No|TokenRange=280:291
+

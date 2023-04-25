@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = misterio sobre identidade militar autorizado fazer cavalinho lider coreia norte acreditase oficial patente intermediaria papel importante teste motor foguete ocorrido ultimo fim semana teste motor foguete coreia norte ultimo fim semana seguido usual
+1	misterio	misterio	NOUN	NOUN	_	0	root	_	TokenRange=0:8
+2	sobre	_	ADP	ADP	_	3	case	_	TokenRange=9:14
+3	identidade	identidade	NOUN	NOUN	_	1	nmod	_	TokenRange=15:25
+4	militar	militar	ADJ	ADJ	_	3	amod	_	TokenRange=26:33
+5	autorizado	autorizado	ADJ	ADJ	_	3	amod	_	TokenRange=34:44
+6	fazer	fazer	VERB	VERB	_	3	acl	_	TokenRange=45:50
+7	cavalinho	cavalinho	NOUN	NOUN	_	6	obj	_	TokenRange=51:60
+8	lider	lider	ADJ	ADJ	_	7	amod	_	TokenRange=61:66
+9	coreia	coreia	NOUN	NOUN	_	7	appos	_	TokenRange=67:73
+10	norte	norte	ADJ	ADJ	_	9	amod	_	TokenRange=74:79
+11	acreditase	acreditase	NOUN	NOUN	_	9	appos	_	TokenRange=80:90
+12	oficial	oficial	ADJ	ADJ	_	13	amod	_	TokenRange=91:98
+13	patente	patente	NOUN	NOUN	_	11	appos	_	TokenRange=99:106
+14	intermediaria	intermediario	ADJ	ADJ	_	13	amod	_	TokenRange=107:120
+15	papel	papel	NOUN	NOUN	_	13	appos	_	TokenRange=121:126
+16	importante	importante	ADJ	ADJ	_	15	amod	_	TokenRange=127:137
+17	teste	teste	NOUN	NOUN	_	13	appos	_	TokenRange=138:143
+18	motor	motor	NOUN	NOUN	_	17	flat	_	TokenRange=144:149
+19	foguete	foguete	NOUN	NOUN	_	17	flat	_	TokenRange=150:157
+20	ocorrido	ocorrer	VERB	VERB	_	17	acl	_	TokenRange=158:166
+21	ultimo	_	ADJ	ADJ	_	22	amod	_	TokenRange=167:173
+22	fim	fim	NOUN	NOUN	_	20	nmod	_	TokenRange=174:177
+23	semana	semana	NOUN	NOUN	_	22	flat	_	TokenRange=178:184
+24	teste	teste	NOUN	NOUN	_	17	appos	_	TokenRange=185:190
+25	motor	motor	NOUN	NOUN	_	24	appos	_	TokenRange=191:196
+26	foguete	foguete	NOUN	NOUN	_	25	flat	_	TokenRange=197:204
+27	coreia	coreia	NOUN	NOUN	_	24	appos	_	TokenRange=205:211
+28	norte	norte	ADJ	ADJ	_	30	amod	_	TokenRange=212:217
+29	ultimo	_	ADJ	ADJ	_	30	amod	_	TokenRange=218:224
+30	fim	fim	NOUN	NOUN	_	24	appos	_	TokenRange=225:228
+31	semana	semana	NOUN	NOUN	_	30	flat	_	TokenRange=229:235
+32	seguido	seguido	ADJ	ADJ	_	30	amod	_	TokenRange=236:243
+33	usual	usual	ADJ	ADJ	_	30	amod	_	SpaceAfter=No|TokenRange=244:249
+

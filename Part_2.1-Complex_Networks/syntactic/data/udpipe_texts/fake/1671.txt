@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = campanha santiago sucesso meta r 8 milhoes alcancada 10 dias durante mes janeiro apostolo ungido alcancou duas metas pessoais igrejas chamadas templos voltaram lotacao consideravel vaquinha pagar mes despesas canal tv ultrapassou meta estipulada apos atacado facadas fiel desequilibrado ultimo dia 08 valdemiro gravou video pedindo ajuda discipulos religioso lancou desafio 8 mil pessoas doassem 1000 reais casa segundo jornalista ricardo feltrin uol meta alcancada superada estimase igreja mundial 300 mil fieis espalhados 20 paises
+1	campanha	campanha	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:8
+2	santiago	santiago	ADJ	ADJ	_	1	amod	_	TokenRange=9:17
+3	sucesso	sucesso	NOUN	NOUN	_	1	appos	_	TokenRange=18:25
+4	meta	meta	NOUN	NOUN	_	1	appos	_	TokenRange=26:30
+5	r	r	NOUN	NOUN	_	4	flat	_	TokenRange=31:32
+6	8	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=33:34
+7	milhoes	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=35:42
+8	alcancada	alcancar	VERB	VERB	_	1	acl	_	TokenRange=43:52
+9	10	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=53:55
+10	dias	dia	NOUN	NOUN	_	8	obj	_	TokenRange=56:60
+11	durante	_	ADP	ADP	_	12	case	_	TokenRange=61:68
+12	mes	_	NOUN	NOUN	_	8	nmod	_	TokenRange=69:72
+13	janeiro	_	PROPN	PNOUN	_	12	appos	_	TokenRange=73:80
+14	apostolo	apostolo	NOUN	NOUN	_	13	appos	_	TokenRange=81:89
+15	ungido	ungido	ADJ	ADJ	_	14	amod	_	TokenRange=90:96
+16	alcancou	alcancar	VERB	VERB	_	0	root	_	TokenRange=97:105
+17	duas	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=106:110
+18	metas	meta	NOUN	NOUN	_	16	obj	_	TokenRange=111:116
+19	pessoais	pessoal	ADJ	ADJ	_	18	amod	_	TokenRange=117:125
+20	igrejas	igreja	NOUN	NOUN	_	16	nsubj	_	TokenRange=126:133
+21	chamadas	chamar	ADJ	ADJ	_	22	acl	_	TokenRange=134:142
+22	templos	templo	NOUN	NOUN	_	20	appos	_	TokenRange=143:150
+23	voltaram	voltar	VERB	VERB	_	1	acl:relcl	_	TokenRange=151:159
+24	lotacao	lotacao	NOUN	NOUN	_	16	obj	_	TokenRange=160:167
+25	consideravel	consideravel	ADJ	ADJ	_	24	amod	_	TokenRange=168:180
+26	vaquinha	_	ADJ	NOUN	_	27	nsubj	_	TokenRange=181:189
+27	pagar	pagar	VERB	VERB	_	24	acl:inf	_	TokenRange=190:195
+28	mes	_	DET	DET	_	29	det	_	TokenRange=196:199
+29	despesas	despesa	NOUN	NOUN	_	27	obj	_	TokenRange=200:208
+30	canal	canal	NOUN	NOUN	_	29	appos	_	TokenRange=209:214
+31	tv	tv	NOUN	NOUN	_	30	flat	_	TokenRange=215:217
+32	ultrapassou	ultrapassar	VERB	VERB	_	27	ccomp	_	TokenRange=218:229
+33	meta	meta	NOUN	NOUN	_	32	obj	_	TokenRange=230:234
+34	estipulada	estipular	VERB	VERB	_	33	acl	_	TokenRange=235:245
+35	apos	_	CCONJ	CONJ	_	36	mark	_	TokenRange=246:250
+36	atacado	atacar	VERB	VERB	_	32	advcl	_	TokenRange=251:258
+37	facadas	facada	NOUN	NOUN	_	36	nsubj	_	TokenRange=259:266
+38	fiel	fiel	ADJ	ADJ	_	37	amod	_	TokenRange=267:271
+39	desequilibrado	desequilibrado	ADJ	ADJ	_	37	amod	_	TokenRange=272:286
+40	ultimo	_	ADJ	ADJ	_	41	amod	_	TokenRange=287:293
+41	dia	dia	NOUN	NOUN	_	44	nsubj	_	TokenRange=294:297
+42	08	_	NUM	NUM	NumType=Card	41	nmod	_	TokenRange=298:300
+43	valdemiro	valdemiro	NOUN	NOUN	_	44	nsubj	_	TokenRange=301:310
+44	gravou	gravar	VERB	VERB	_	16	parataxis	_	TokenRange=311:317
+45	video	video	NOUN	NOUN	_	44	obj	_	TokenRange=318:323
+46	pedindo	pedir	VERB	VERB	_	45	acl	_	TokenRange=324:331
+47	ajuda	ajuda	NOUN	NOUN	_	46	obj	_	TokenRange=332:337
+48	discipulos	discipulo	NOUN	NOUN	_	47	amod	_	TokenRange=338:348
+49	religioso	religioso	ADJ	ADJ	_	47	amod	_	TokenRange=349:358
+50	lancou	lancar	VERB	VERB	_	16	parataxis	_	TokenRange=359:365
+51	desafio	desafio	NOUN	NOUN	_	50	obj	_	TokenRange=366:373
+52	8	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=374:375
+53	mil	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=376:379
+54	pessoas	pessoa	NOUN	NOUN	_	55	nsubj	_	TokenRange=380:387
+55	doassem	doar	VERB	VERB	_	50	ccomp	_	TokenRange=388:395
+56	1000	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=396:400
+57	reais	real	NOUN	NOUN	_	55	obj	_	TokenRange=401:406
+58	casa	casa	NOUN	NOUN	_	55	obj	_	TokenRange=407:411
+59	segundo	_	ADP	ADP	_	60	case	_	TokenRange=412:419
+60	jornalista	jornalista	NOUN	NOUN	_	55	nmod	_	TokenRange=420:430
+61	ricardo	ricardo	NOUN	NOUN	_	60	appos	_	TokenRange=431:438
+62	feltrin	_	NOUN	NOUN	_	61	flat	_	TokenRange=439:446
+63	uol	_	DET	DET	_	64	det	_	TokenRange=447:450
+64	meta	meta	NOUN	NOUN	_	55	nsubj	_	TokenRange=451:455
+65	alcancada	alcancado	ADJ	ADJ	_	64	amod	_	TokenRange=456:465
+66	superada	superar	VERB	ADJ	_	64	acl	_	TokenRange=466:474
+67	estimase	estimaser	VERB	VERB	_	64	parataxis	_	TokenRange=475:483
+68	igreja	igreja	NOUN	NOUN	_	67	obj	_	TokenRange=484:490
+69	mundial	mundial	ADJ	ADJ	_	68	amod	_	TokenRange=491:498
+70	300	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=499:502
+71	mil	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=503:506
+72	fieis	_	NOUN	NOUN	_	68	appos	_	TokenRange=507:512
+73	espalhados	espalhar	VERB	VERB	_	72	acl	_	TokenRange=513:523
+74	20	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=524:526
+75	paises	paise	NOUN	NOUN	_	73	nmod	_	SpaceAfter=No|TokenRange=527:533
+

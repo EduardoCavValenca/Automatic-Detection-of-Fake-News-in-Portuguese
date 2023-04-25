@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro lula covarde medo ir luta assunto pt bolsonaro poupa palavras rasga verbo discurso recente deputado jair bolsonaro chamou lula covarde disse expresidente possui exercito mortadelas povo reagiu comecou cantar coro lula cachaceiro devolve dinheiro confira
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:9
+2	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=10:14
+3	covarde	_	NOUN	NOUN	_	2	flat	_	TokenRange=15:22
+4	medo	medo	NOUN	NOUN	_	2	appos	_	TokenRange=23:27
+5	ir	ir	AUX	AUX	_	6	cop	_	TokenRange=28:30
+6	luta	luta	NOUN	NOUN	_	2	acl:relcl	_	TokenRange=31:35
+7	assunto	assunto	NOUN	NOUN	_	6	appos	_	TokenRange=36:43
+8	pt	_	NOUN	NOUN	_	6	appos	_	TokenRange=44:46
+9	bolsonaro	bolsonaro	NOUN	NOUN	_	8	flat	_	TokenRange=47:56
+10	poupa	_	ADJ	ADJ	_	11	amod	_	TokenRange=57:62
+11	palavras	palavra	NOUN	NOUN	_	8	appos	_	TokenRange=63:71
+12	rasga	rasgar	VERB	VERB	_	0	root	_	TokenRange=72:77
+13	verbo	verbo	ADJ	ADJ	_	12	xcomp	_	TokenRange=78:83
+14	discurso	discurso	NOUN	NOUN	_	12	obj	_	TokenRange=84:92
+15	recente	recente	ADJ	ADJ	_	14	amod	_	TokenRange=93:100
+16	deputado	deputado	NOUN	NOUN	_	12	nsubj	_	TokenRange=101:109
+17	jair	jair	NOUN	NOUN	_	16	appos	_	TokenRange=110:114
+18	bolsonaro	bolsonaro	ADJ	ADJ	_	16	amod	_	TokenRange=115:124
+19	chamou	chamar	VERB	VERB	_	14	acl:relcl	_	TokenRange=125:131
+20	lula	lula	NOUN	NOUN	_	19	obj	_	TokenRange=132:136
+21	covarde	covarde	NOUN	NOUN	_	22	nsubj	_	TokenRange=137:144
+22	disse	dizer	VERB	VERB	_	19	conj	_	TokenRange=145:150
+23	expresidente	expresidente	NOUN	NOUN	_	24	nsubj	_	TokenRange=151:163
+24	possui	possuir	VERB	VERB	_	22	ccomp	_	TokenRange=164:170
+25	exercito	exercito	NOUN	NOUN	_	24	obj	_	TokenRange=171:179
+26	mortadelas	_	ADJ	ADJ	_	25	amod	_	TokenRange=180:190
+27	povo	povo	NOUN	NOUN	_	28	nsubj	_	TokenRange=191:195
+28	reagiu	reagir	VERB	VERB	_	25	acl:relcl	_	TokenRange=196:202
+29	comecou	comecar	AUX	AUX	_	28	aux	_	TokenRange=203:210
+30	cantar	cantar	VERB	VERB	_	28	xcomp	_	TokenRange=211:217
+31	coro	coro	NOUN	NOUN	_	30	obj	_	TokenRange=218:222
+32	lula	lula	ADJ	ADJ	_	34	nsubj	_	TokenRange=223:227
+33	cachaceiro	cachaceiro	NOUN	NOUN	_	34	nsubj	_	TokenRange=228:238
+34	devolve	devolver	VERB	VERB	_	30	conj	_	TokenRange=239:246
+35	dinheiro	dinheiro	NOUN	NOUN	_	36	obj	_	TokenRange=247:255
+36	confira	conferir	VERB	VERB	_	34	conj	_	SpaceAfter=No|TokenRange=256:263
+

@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nelson xavier morre 75 anos uberlandia ator morreu apos complicacoes doenca pulmonar ficou conhecido novelas irmaos coragem alem pecas filmes chico xavier ator nelson xavier morreu 75 anos madrugada desta quartafeira 10 uberlandia minas gerais tereza villela xavier filha ator usou pagina facebook falar perda pai lamento informar possa interessar pai nelson xavier faleceu noite uberlandia corpo transferido celebrado cremado rio janeiro cemiterio ainda determinado agradeco desde mensagens apoio virou
+1	nelson	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	xavier	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=14:19
+4	75	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=20:22
+5	anos	ano	NOUN	NOUN	_	3	obj	_	TokenRange=23:27
+6	uberlandia	uberlandia	NOUN	NOUN	_	3	nsubj	_	TokenRange=28:38
+7	ator	ator	NOUN	NOUN	_	1	flat	_	TokenRange=39:43
+8	morreu	morrer	VERB	VERB	_	3	parataxis	_	TokenRange=44:50
+9	apos	_	ADP	ADP	_	10	case	_	TokenRange=51:55
+10	complicacoes	complicacoe	NOUN	NOUN	_	8	nmod	_	TokenRange=56:68
+11	doenca	doenca	NOUN	NOUN	_	8	nsubj	_	TokenRange=69:75
+12	pulmonar	pulmonar	ADJ	ADJ	_	11	amod	_	TokenRange=76:84
+13	ficou	ficar	AUX	AUX	_	3	conj	_	TokenRange=85:90
+14	conhecido	conhecido	ADJ	ADJ	_	3	xcomp	_	TokenRange=91:100
+15	novelas	_	NOUN	NOUN	_	8	nmod	_	TokenRange=101:108
+16	irmaos	irmao	ADJ	NOUN	_	19	amod	_	TokenRange=109:115
+17	coragem	coragem	NOUN	NOUN	_	15	appos	_	TokenRange=116:123
+18	alem	_	ADV	ADV	_	19	advmod	_	TokenRange=124:128
+19	pecas	_	NOUN	NOUN	_	15	appos	_	TokenRange=129:134
+20	filmes	filme	NOUN	NOUN	_	26	nsubj	_	TokenRange=135:141
+21	chico	chico	NOUN	NOUN	_	26	nsubj	_	TokenRange=142:147
+22	xavier	_	NOUN	NOUN	_	21	flat	_	TokenRange=148:154
+23	ator	ator	NOUN	NOUN	_	21	appos	_	TokenRange=155:159
+24	nelson	_	PROPN	PNOUN	_	23	appos	_	TokenRange=160:166
+25	xavier	_	PROPN	PNOUN	_	24	flat	_	TokenRange=167:173
+26	morreu	morrer	VERB	VERB	_	3	parataxis	_	TokenRange=174:180
+27	75	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=181:183
+28	anos	ano	NOUN	NOUN	_	26	nmod	_	TokenRange=184:188
+29	madrugada	madrugada	NOUN	NOUN	_	26	obj	_	TokenRange=189:198
+30	desta	_	ADP	ADP	_	31	case	_	TokenRange=199:204
+31	quartafeira	quartafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=205:216
+32	10	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=217:219
+33	uberlandia	uberlandia	NOUN	NOUN	_	31	appos	_	TokenRange=220:230
+34	minas	mina	NOUN	NOUN	_	33	appos	_	TokenRange=231:236
+35	gerais	geral	ADJ	ADJ	_	33	amod	_	TokenRange=237:243
+36	tereza	tereza	NOUN	NOUN	_	41	nsubj	_	TokenRange=244:250
+37	villela	_	NOUN	NOUN	_	36	flat	_	TokenRange=251:258
+38	xavier	_	NOUN	NOUN	_	36	appos	_	TokenRange=259:265
+39	filha	filho	NOUN	NOUN	_	36	appos	_	TokenRange=266:271
+40	ator	ator	NOUN	NOUN	_	39	flat	_	TokenRange=272:276
+41	usou	usar	VERB	VERB	_	26	parataxis	_	TokenRange=277:281
+42	pagina	pagina	NOUN	NOUN	_	41	obj	_	TokenRange=282:288
+43	facebook	_	PROPN	PNOUN	_	42	appos	_	TokenRange=289:297
+44	falar	falar	VERB	VERB	_	41	ccomp	_	TokenRange=298:303
+45	perda	perda	NOUN	NOUN	_	44	obj	_	TokenRange=304:309
+46	pai	pai	NOUN	NOUN	_	45	flat	_	TokenRange=310:313
+47	lamento	lamento	NOUN	NOUN	_	44	nsubj	_	TokenRange=314:321
+48	informar	informar	VERB	VERB	_	45	acl:relcl	_	TokenRange=322:330
+49	possa	_	AUX	AUX	_	50	aux	_	TokenRange=331:336
+50	interessar	interessar	VERB	VERB	_	48	ccomp	_	TokenRange=337:347
+51	pai	pai	NOUN	NOUN	_	50	obj	_	TokenRange=348:351
+52	nelson	_	PROPN	PNOUN	_	51	appos	_	TokenRange=352:358
+53	xavier	_	PROPN	NOUN	_	52	flat	_	TokenRange=359:365
+54	faleceu	falecer	VERB	VERB	_	3	conj	_	TokenRange=366:373
+55	noite	noite	NOUN	NOUN	_	54	nmod	_	TokenRange=374:379
+56	uberlandia	uberlandia	ADJ	ADJ	_	55	amod	_	TokenRange=380:390
+57	corpo	corpo	NOUN	NOUN	_	55	appos	_	TokenRange=391:396
+58	transferido	transferir	VERB	VERB	_	57	acl	_	TokenRange=397:408
+59	celebrado	celebrar	VERB	VERB	_	57	acl	_	TokenRange=409:418
+60	cremado	cremado	ADJ	ADJ	_	57	amod	_	TokenRange=419:426
+61	rio	rio	NOUN	NOUN	_	59	nmod	_	TokenRange=427:430
+62	janeiro	_	PROPN	PNOUN	_	61	flat	_	TokenRange=431:438
+63	cemiterio	cemiterio	NOUN	NOUN	_	61	flat	_	TokenRange=439:448
+64	ainda	ainda	ADV	ADV	_	65	advmod	_	TokenRange=449:454
+65	determinado	determinar	VERB	VERB	_	63	acl	_	TokenRange=455:466
+66	agradeco	agradeco	NOUN	NOUN	_	65	nsubj	_	TokenRange=467:475
+67	desde	_	ADP	ADP	_	68	case	_	TokenRange=476:481
+68	mensagens	mensagem	NOUN	NOUN	_	65	nmod	_	TokenRange=482:491
+69	apoio	apoio	NOUN	NOUN	_	68	flat	_	TokenRange=492:497
+70	virou	virar	VERB	VERB	_	68	cop	_	SpaceAfter=No|TokenRange=498:503
+

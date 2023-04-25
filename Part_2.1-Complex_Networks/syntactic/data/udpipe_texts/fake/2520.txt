@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fhc internado devera passar cirurgia cardiaca antagonista informou exclusividade fernando henrique cardoso hospitalizado devera submeter cirurgia emergencia colocacao marcapasso maiores detalhes sobre estado saude expresidente g1 confirmou fernando henrique cardoso colocara marcapasso hospital paulo disse lider tucano passa bem novas atualizacoes qualquer minuto
+1	fhc	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:3
+2	internado	internado	ADJ	ADJ	_	1	amod	_	TokenRange=4:13
+3	devera	_	AUX	AUX	_	4	aux	_	TokenRange=14:20
+4	passar	passar	VERB	VERB	_	8	ccomp	_	TokenRange=21:27
+5	cirurgia	cirurgia	NOUN	NOUN	_	4	obj	_	TokenRange=28:36
+6	cardiaca	cardiaco	ADJ	ADJ	_	5	amod	_	TokenRange=37:45
+7	antagonista	antagonista	ADJ	ADJ	_	5	amod	_	TokenRange=46:57
+8	informou	informar	VERB	VERB	_	0	root	_	TokenRange=58:66
+9	exclusividade	exclusividade	NOUN	NOUN	_	8	obj	_	TokenRange=67:80
+10	fernando	fernando	ADJ	NOUN	_	15	nsubj	_	TokenRange=81:89
+11	henrique	henrique	NOUN	NOUN	_	15	nsubj	_	TokenRange=90:98
+12	cardoso	cardoso	ADJ	ADJ	_	11	amod	_	TokenRange=99:106
+13	hospitalizado	hospitalizado	ADJ	ADJ	_	11	amod	_	TokenRange=107:120
+14	devera	_	AUX	AUX	_	15	aux	_	TokenRange=121:127
+15	submeter	submeter	VERB	VERB	_	8	ccomp	_	TokenRange=128:136
+16	cirurgia	cirurgia	NOUN	NOUN	_	15	obj	_	TokenRange=137:145
+17	emergencia	emergencia	NOUN	NOUN	_	16	appos	_	TokenRange=146:156
+18	colocacao	_	NOUN	NOUN	_	16	flat	_	TokenRange=157:166
+19	marcapasso	marcapasso	NOUN	NOUN	_	16	amod	_	TokenRange=167:177
+20	maiores	maior	ADJ	ADJ	_	21	amod	_	TokenRange=178:185
+21	detalhes	detalhe	NOUN	NOUN	_	15	nsubj	_	TokenRange=186:194
+22	sobre	_	ADP	ADP	_	23	case	_	TokenRange=195:200
+23	estado	estado	NOUN	NOUN	_	21	nmod	_	TokenRange=201:207
+24	saude	saude	ADJ	NOUN	_	23	amod	_	TokenRange=208:213
+25	expresidente	expresidente	NOUN	NOUN	_	23	appos	_	TokenRange=214:226
+26	g1	_	PROPN	PNOUN	_	25	appos	_	TokenRange=227:229
+27	confirmou	confirmar	VERB	VERB	_	23	acl:relcl	_	TokenRange=230:239
+28	fernando	fernando	NOUN	NOUN	_	31	nsubj	_	TokenRange=240:248
+29	henrique	henrique	NOUN	NOUN	_	28	flat	_	TokenRange=249:257
+30	cardoso	cardoso	ADJ	ADJ	_	28	amod	_	TokenRange=258:265
+31	colocara	colocar	VERB	VERB	_	27	ccomp	_	TokenRange=266:274
+32	marcapasso	marcapasso	NOUN	NOUN	_	31	obj	_	TokenRange=275:285
+33	hospital	hospital	ADJ	ADJ	_	32	amod	_	TokenRange=286:294
+34	paulo	paulo	NOUN	NOUN	_	35	nsubj	_	TokenRange=295:300
+35	disse	dizer	VERB	VERB	_	27	parataxis	_	TokenRange=301:306
+36	lider	lider	NOUN	NOUN	_	38	nsubj	_	TokenRange=307:312
+37	tucano	tucano	ADJ	ADJ	_	36	amod	_	TokenRange=313:319
+38	passa	passar	VERB	VERB	_	27	ccomp	_	TokenRange=320:325
+39	bem	bem	ADV	ADV	_	38	advmod	_	TokenRange=326:329
+40	novas	novo	ADJ	ADJ	_	41	amod	_	TokenRange=330:335
+41	atualizacoes	_	NOUN	NOUN	_	38	obj	_	TokenRange=336:348
+42	qualquer	_	DET	DET	_	43	det	_	TokenRange=349:357
+43	minuto	minuto	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No|TokenRange=358:364
+

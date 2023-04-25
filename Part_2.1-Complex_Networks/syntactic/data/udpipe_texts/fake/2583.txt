@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = esquema roubou dinheiro velhinhos aposentados bancou campanha gleisi 2010 antagonista informou exclusividade pois senadora casa ta caindo caindo desabando planilhas obtidas policia federal computador advogado guilherme goncalves indicam alem despesas pessoais paulo bernardo gleisi hoffmann esquema propina consist lesou velhinhos aposentados bancou campanha petista senado 2010 segundo pf 20 liquido pago consist escritorio guilherme goncalves repassado mensalmente eleitoral
+1	esquema	esquema	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	roubou	roubar	VERB	VERB	_	0	root	_	TokenRange=8:14
+3	dinheiro	dinheiro	NOUN	NOUN	_	2	obj	_	TokenRange=15:23
+4	velhinhos	velhinho	NOUN	NOUN	_	3	amod	_	TokenRange=24:33
+5	aposentados	aposentado	ADJ	ADJ	_	4	amod	_	TokenRange=34:45
+6	bancou	bancar	VERB	VERB	_	2	parataxis	_	TokenRange=46:52
+7	campanha	campanha	NOUN	NOUN	_	2	obj	_	TokenRange=53:61
+8	gleisi	_	NOUN	NOUN	_	7	appos	_	TokenRange=62:68
+9	2010	_	NUM	NUM	NumType=Card	7	nmod	_	TokenRange=69:73
+10	antagonista	antagonista	NOUN	NOUN	_	2	nsubj	_	TokenRange=74:85
+11	informou	informar	VERB	VERB	_	2	parataxis	_	TokenRange=86:94
+12	exclusividade	exclusividade	NOUN	NOUN	_	11	obj	_	TokenRange=95:108
+13	pois	_	CCONJ	CONJ	_	19	mark	_	TokenRange=109:113
+14	senadora	senador	NOUN	NOUN	_	19	nsubj	_	TokenRange=114:122
+15	casa	casa	NOUN	NOUN	_	14	appos	_	TokenRange=123:127
+16	ta	_	AUX	AUX	_	19	aux	_	TokenRange=128:130
+17	caindo	cair	AUX	AUX	_	19	aux	_	TokenRange=131:137
+18	caindo	cair	AUX	AUX	_	19	aux	_	TokenRange=138:144
+19	desabando	desabar	VERB	VERB	_	11	advcl	_	TokenRange=145:154
+20	planilhas	planilha	NOUN	NOUN	_	19	obj	_	TokenRange=155:164
+21	obtidas	obter	VERB	VERB	_	20	acl	_	TokenRange=165:172
+22	policia	policia	NOUN	NOUN	_	19	nsubj	_	TokenRange=173:180
+23	federal	federal	ADJ	ADJ	_	22	amod	_	TokenRange=181:188
+24	computador	computador	NOUN	NOUN	_	28	nsubj	_	TokenRange=189:199
+25	advogado	advogado	NOUN	NOUN	_	24	appos	_	TokenRange=200:208
+26	guilherme	guilherme	NOUN	NOUN	_	25	amod	_	TokenRange=209:218
+27	goncalves	goncalve	ADJ	ADJ	_	25	amod	_	TokenRange=219:228
+28	indicam	indicar	VERB	VERB	_	2	parataxis	_	TokenRange=229:236
+29	alem	alem	ADV	ADV	_	28	advmod	_	TokenRange=237:241
+30	despesas	despesa	NOUN	NOUN	_	28	obj	_	TokenRange=242:250
+31	pessoais	pessoal	ADJ	ADJ	_	30	amod	_	TokenRange=251:259
+32	paulo	paulo	NOUN	NOUN	_	30	appos	_	TokenRange=260:265
+33	bernardo	bernardo	NOUN	NOUN	_	30	appos	_	TokenRange=266:274
+34	gleisi	_	NOUN	NOUN	_	33	flat	_	TokenRange=275:281
+35	hoffmann	hoffmann	ADJ	ADJ	_	36	amod	_	TokenRange=282:290
+36	esquema	esquema	NOUN	NOUN	_	39	nsubj	_	TokenRange=291:298
+37	propina	propino	ADJ	ADJ	_	36	amod	_	TokenRange=299:306
+38	consist	_	ADJ	ADJ	_	36	amod	_	TokenRange=307:314
+39	lesou	lesar	VERB	VERB	_	28	conj	_	TokenRange=315:320
+40	velhinhos	velhinho	NOUN	NOUN	_	39	obj	_	TokenRange=321:330
+41	aposentados	aposentado	ADJ	ADJ	_	40	amod	_	TokenRange=331:342
+42	bancou	bancar	VERB	VERB	_	40	appos	_	TokenRange=343:349
+43	campanha	campanha	NOUN	NOUN	_	42	obj	_	TokenRange=350:358
+44	petista	petista	ADJ	ADJ	_	43	amod	_	TokenRange=359:366
+45	senado	senado	NOUN	NOUN	_	43	appos	_	TokenRange=367:373
+46	2010	_	NUM	NUM	NumType=Card	45	nmod	_	TokenRange=374:378
+47	segundo	_	ADP	ADP	_	48	case	_	TokenRange=379:386
+48	pf	pf	NOUN	NOUN	_	39	nmod	_	TokenRange=387:389
+49	20	_	NUM	NUM	NumType=Card	48	appos	_	TokenRange=390:392
+50	liquido	liquido	NOUN	NOUN	_	48	appos	_	TokenRange=393:400
+51	pago	pagar	VERB	VERB	_	48	acl	_	TokenRange=401:405
+52	consist	_	NOUN	NOUN	_	51	obj	_	TokenRange=406:413
+53	escritorio	escritorio	NOUN	NOUN	_	52	flat	_	TokenRange=414:424
+54	guilherme	guilherme	NOUN	NOUN	_	53	appos	_	TokenRange=425:434
+55	goncalves	_	ADJ	ADJ	_	54	amod	_	TokenRange=435:444
+56	repassado	repassado	ADJ	ADJ	_	51	xcomp	_	TokenRange=445:454
+57	mensalmente	mensalmente	ADV	ADV	_	58	advmod	_	TokenRange=455:466
+58	eleitoral	eleitoral	ADJ	ADJ	_	56	amod	_	SpaceAfter=No|TokenRange=467:476
+

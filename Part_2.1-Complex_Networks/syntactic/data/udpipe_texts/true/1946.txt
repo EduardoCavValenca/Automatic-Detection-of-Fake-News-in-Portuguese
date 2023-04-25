@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = honolulu brasil corre risco perder oportunidades acesso recursos geneticos melhoria agropecuaria biodiversidade investigada busca novos farmacos defender casos biopirataria ratificar acordo internacional ajudou construir prognostico feito brasileiro braulio dias secretario executivo convencao diversidade biologica cdb nacoes unidas sobre
+1	honolulu	honolulu	VERB	VERB	_	23	nsubj	_	TokenRange=0:8
+2	brasil	brasil	NOUN	NOUN	_	1	obj	_	TokenRange=9:15
+3	corre	correr	VERB	VERB	_	1	ccomp	_	TokenRange=16:21
+4	risco	risco	NOUN	NOUN	_	3	obj	_	TokenRange=22:27
+5	perder	perder	VERB	VERB	_	3	ccomp	_	TokenRange=28:34
+6	oportunidades	oportunidade	NOUN	NOUN	_	5	obj	_	TokenRange=35:48
+7	acesso	acesso	NOUN	NOUN	_	6	appos	_	TokenRange=49:55
+8	recursos	recurso	NOUN	NOUN	_	7	appos	_	TokenRange=56:64
+9	geneticos	genetico	ADJ	ADJ	_	8	amod	_	TokenRange=65:74
+10	melhoria	melhoria	NOUN	NOUN	_	7	appos	_	TokenRange=75:83
+11	agropecuaria	agropecuaria	ADJ	ADJ	_	10	amod	_	TokenRange=84:96
+12	biodiversidade	biodiversidade	NOUN	NOUN	_	10	appos	_	TokenRange=97:111
+13	investigada	investigado	ADJ	ADJ	_	12	amod	_	TokenRange=112:123
+14	busca	buscar	NOUN	NOUN	_	3	parataxis	_	TokenRange=124:129
+15	novos	novo	ADJ	ADJ	_	16	amod	_	TokenRange=130:135
+16	farmacos	farmaco	NOUN	NOUN	_	14	nsubj	_	TokenRange=136:144
+17	defender	defender	VERB	VERB	_	14	ccomp	_	TokenRange=145:153
+18	casos	caso	NOUN	NOUN	_	17	obj	_	TokenRange=154:159
+19	biopirataria	_	ADJ	NOUN	_	18	amod	_	TokenRange=160:172
+20	ratificar	ratificar	VERB	VERB	_	14	ccomp	_	TokenRange=173:182
+21	acordo	acordo	NOUN	NOUN	_	20	obj	_	TokenRange=183:189
+22	internacional	internacional	ADJ	ADJ	_	21	amod	_	TokenRange=190:203
+23	ajudou	ajudar	VERB	VERB	_	0	root	_	TokenRange=204:210
+24	construir	construir	VERB	VERB	_	23	xcomp	_	TokenRange=211:220
+25	prognostico	prognostico	NOUN	NOUN	_	24	obj	_	TokenRange=221:232
+26	feito	_	NOUN	NOUN	_	24	obj	_	TokenRange=233:238
+27	brasileiro	brasileiro	ADJ	ADJ	_	26	amod	_	TokenRange=239:249
+28	braulio	braulio	ADJ	ADJ	_	26	amod	_	TokenRange=250:257
+29	dias	dia	NOUN	NOUN	_	26	nmod	_	TokenRange=258:262
+30	secretario	secretario	NOUN	NOUN	_	26	appos	_	TokenRange=263:273
+31	executivo	executivo	ADJ	ADJ	_	30	amod	_	TokenRange=274:283
+32	convencao	convencao	ADJ	ADJ	_	33	amod	_	TokenRange=284:293
+33	diversidade	diversidade	NOUN	NOUN	_	36	appos	_	TokenRange=294:305
+34	biologica	biologico	ADJ	ADJ	_	33	amod	_	TokenRange=306:315
+35	cdb	_	AUX	VERB	_	36	appos	_	TokenRange=316:319
+36	nacoes	_	NOUN	NOUN	_	23	parataxis	_	TokenRange=320:326
+37	unidas	unido	ADJ	ADJ	_	36	amod	_	TokenRange=327:333
+38	sobre	_	ADP	ADP	_	36	case	_	SpaceAfter=No|TokenRange=334:339
+

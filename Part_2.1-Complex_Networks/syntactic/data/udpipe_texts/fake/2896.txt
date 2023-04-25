@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lista compras dilma adenosina lidocaina midazolam quetiapina amoxicilina situacao economica pais frangalhos jeito saude alta cupula governo federal esvaindo site contas abertas noticiou secretaria administracao presidencia republica reservou r 3 6 mil compra diversos tipos medicamentos 50 ampolas adenosina usado taquicardia 10 frascos lidocaina anestesico 100 ampolas midazolam usado sedacao insonia 120 comprimidos quetiapina antipsicotico 280 comprimidos amoxicilina antibiotico bacterias 1 2 mil ampolas agua destilada entupindo remedios humja pra imaginar
+1	lista	lista	NOUN	NOUN	_	23	parataxis	_	TokenRange=0:5
+2	compras	compra	NOUN	NOUN	_	1	appos	_	TokenRange=6:13
+3	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=14:19
+4	adenosina	_	NOUN	NOUN	_	1	appos	_	TokenRange=20:29
+5	lidocaina	_	NOUN	NOUN	_	4	flat	_	TokenRange=30:39
+6	midazolam	_	NOUN	NOUN	_	4	appos	_	TokenRange=40:49
+7	quetiapina	_	NOUN	NOUN	_	4	appos	_	TokenRange=50:60
+8	amoxicilina	_	NOUN	NOUN	_	4	amod	_	TokenRange=61:72
+9	situacao	_	NOUN	NOUN	_	4	appos	_	TokenRange=73:81
+10	economica	economico	ADJ	ADJ	_	9	amod	_	TokenRange=82:91
+11	pais	_	NOUN	NOUN	_	4	appos	_	TokenRange=92:96
+12	frangalhos	_	ADJ	NOUN	_	9	amod	_	TokenRange=97:107
+13	jeito	_	NOUN	NOUN	_	1	appos	_	TokenRange=108:113
+14	saude	saude	NOUN	NOUN	_	13	flat	_	TokenRange=114:119
+15	alta	alto	ADJ	ADJ	_	16	amod	_	TokenRange=120:124
+16	cupula	cupula	NOUN	NOUN	_	13	appos	_	TokenRange=125:131
+17	governo	governo	NOUN	NOUN	_	16	appos	_	TokenRange=132:139
+18	federal	federal	ADJ	ADJ	_	17	amod	_	TokenRange=140:147
+19	esvaindo	esvair	VERB	VERB	_	17	acl	_	TokenRange=148:156
+20	site	site	NOUN	NOUN	_	19	obj	_	TokenRange=157:161
+21	contas	conta	NOUN	NOUN	_	20	flat	_	TokenRange=162:168
+22	abertas	aberto	ADJ	ADJ	_	21	amod	_	TokenRange=169:176
+23	noticiou	noticiar	VERB	VERB	_	0	root	_	TokenRange=177:185
+24	secretaria	secretaria	NOUN	NOUN	_	23	obj	_	TokenRange=186:196
+25	administracao	administracao	ADJ	ADJ	_	24	amod	_	TokenRange=197:210
+26	presidencia	presidencia	NOUN	NOUN	_	24	appos	_	TokenRange=211:222
+27	republica	republico	ADJ	ADJ	_	24	amod	_	TokenRange=223:232
+28	reservou	reservar	VERB	VERB	_	23	parataxis	_	TokenRange=233:241
+29	r	r	NOUN	NOUN	_	28	obj	_	TokenRange=242:243
+30	3	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=244:245
+31	6	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=246:247
+32	mil	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=248:251
+33	compra	compra	NOUN	NOUN	_	28	ccomp	_	TokenRange=252:258
+34	diversos	_	DET	DET	_	35	det	_	TokenRange=259:267
+35	tipos	tipo	NOUN	NOUN	_	28	obj	_	TokenRange=268:273
+36	medicamentos	medicamento	ADJ	ADJ	_	35	amod	_	TokenRange=274:286
+37	50	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=287:289
+38	ampolas	ampola	NOUN	NOUN	_	33	nsubj	_	TokenRange=290:297
+39	adenosina	_	NOUN	NOUN	_	38	appos	_	TokenRange=298:307
+40	usado	usar	VERB	VERB	_	38	acl	_	TokenRange=308:313
+41	taquicardia	taquicardia	NOUN	NOUN	_	40	obj	_	TokenRange=314:325
+42	10	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=326:328
+43	frascos	frasco	NOUN	NOUN	_	40	obj	_	TokenRange=329:336
+44	lidocaina	lidocaina	NOUN	NOUN	_	43	appos	_	TokenRange=337:346
+45	anestesico	anestesico	ADJ	ADJ	_	43	amod	_	TokenRange=347:357
+46	100	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=358:361
+47	ampolas	ampola	NOUN	NOUN	_	43	appos	_	TokenRange=362:369
+48	midazolam	_	NOUN	NOUN	_	47	appos	_	TokenRange=370:379
+49	usado	usar	VERB	VERB	_	47	acl	_	TokenRange=380:385
+50	sedacao	sedacao	NOUN	NOUN	_	49	obj	_	TokenRange=386:393
+51	insonia	_	NOUN	NOUN	_	50	flat	_	TokenRange=394:401
+52	120	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=402:405
+53	comprimidos	comprimido	ADJ	ADJ	_	54	amod	_	TokenRange=406:417
+54	quetiapina	quetiapina	NOUN	NOUN	_	50	appos	_	TokenRange=418:428
+55	antipsicotico	_	ADJ	ADJ	_	54	amod	_	TokenRange=429:442
+56	280	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=443:446
+57	comprimidos	comprimido	NOUN	NOUN	_	54	amod	_	TokenRange=447:458
+58	amoxicilina	amoxicilina	NOUN	NOUN	_	54	appos	_	TokenRange=459:470
+59	antibiotico	_	ADJ	ADJ	_	58	amod	_	TokenRange=471:482
+60	bacterias	bacteria	NOUN	NOUN	_	58	appos	_	TokenRange=483:492
+61	1	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=493:494
+62	2	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=495:496
+63	mil	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=497:500
+64	ampolas	ampola	NOUN	NOUN	_	54	appos	_	TokenRange=501:508
+65	agua	agua	NOUN	NOUN	_	64	appos	_	TokenRange=509:513
+66	destilada	destilado	ADJ	ADJ	_	65	amod	_	TokenRange=514:523
+67	entupindo	entupir	VERB	VERB	_	64	acl	_	TokenRange=524:533
+68	remedios	remedio	NOUN	NOUN	_	71	obj	_	TokenRange=534:542
+69	humja	_	ADJ	ADJ	_	68	appos	_	TokenRange=543:548
+70	pra	_	ADP	ADP	_	71	mark	_	TokenRange=549:552
+71	imaginar	imaginar	VERB	VERB	_	67	advcl	_	SpaceAfter=No|TokenRange=553:561
+

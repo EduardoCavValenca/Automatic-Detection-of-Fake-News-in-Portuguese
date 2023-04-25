@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = povo nocao falcatruas sacanagens cbf diz romario entrevista estado baixinho fala sobre livro bastidores cpi futebol caso olho bola outro cartola crime organizado futebol brasileiro novo livro romario publicado editora planeta revelar ultima frase obra necessariamente sinonimo spoiler paz guerra funciono melhor escreve baixinho capitulo final guerra senador atualmente cbf 239 paginas exjogador traz bastidores cpi futebol tramitou senado 2015 2016 parte ataque contra cbf revelacoes atuacao presidente cpi romario publica documentos obtidos durante trabalhos comissao cbf chegou
+1	povo	povo	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:4
+2	nocao	nocao	NOUN	NOUN	_	1	flat	_	TokenRange=5:10
+3	falcatruas	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:21
+4	sacanagens	sacanagem	NOUN	NOUN	_	1	flat	_	TokenRange=22:32
+5	cbf	_	NOUN	NOUN	_	1	appos	_	TokenRange=33:36
+6	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=37:40
+7	romario	romario	NOUN	NOUN	_	6	obj	_	TokenRange=41:48
+8	entrevista	entrevista	NOUN	NOUN	_	6	obj	_	TokenRange=49:59
+9	estado	estado	NOUN	NOUN	_	13	appos	_	TokenRange=60:66
+10	baixinho	baixo	ADJ	ADJ	_	9	amod	_	TokenRange=67:75
+11	fala	_	VERB	VERB	_	6	parataxis	_	TokenRange=76:80
+12	sobre	_	ADP	ADP	_	13	case	_	TokenRange=81:86
+13	livro	livro	NOUN	NOUN	_	11	nmod	_	TokenRange=87:92
+14	bastidores	bastidor	ADJ	ADJ	_	13	amod	_	TokenRange=93:103
+15	cpi	_	ADJ	NOUN	_	16	case	_	TokenRange=104:107
+16	futebol	futebol	NOUN	NOUN	_	13	appos	_	TokenRange=108:115
+17	caso	caso	NOUN	NOUN	_	18	flat	_	TokenRange=116:120
+18	olho	olho	NOUN	NOUN	_	13	appos	_	TokenRange=121:125
+19	bola	bola	NOUN	NOUN	_	18	flat	_	TokenRange=126:130
+20	outro	_	DET	DET	_	21	det	_	TokenRange=131:136
+21	cartola	cartola	NOUN	NOUN	_	18	appos	_	TokenRange=137:144
+22	crime	crime	NOUN	NOUN	_	21	appos	_	TokenRange=145:150
+23	organizado	organizado	ADJ	ADJ	_	24	amod	_	TokenRange=151:161
+24	futebol	futebol	NOUN	NOUN	_	21	appos	_	TokenRange=162:169
+25	brasileiro	brasileiro	ADJ	ADJ	_	27	amod	_	TokenRange=170:180
+26	novo	novo	ADJ	ADJ	_	27	amod	_	TokenRange=181:185
+27	livro	livro	NOUN	NOUN	_	21	appos	_	TokenRange=186:191
+28	romario	romario	NOUN	NOUN	_	27	appos	_	TokenRange=192:199
+29	publicado	publicar	VERB	VERB	_	27	acl	_	TokenRange=200:209
+30	editora	_	NOUN	NOUN	_	27	appos	_	TokenRange=210:217
+31	planeta	planeta	NOUN	NOUN	_	30	flat	_	TokenRange=218:225
+32	revelar	revelar	VERB	VERB	_	21	parataxis	_	TokenRange=226:233
+33	ultima	_	ADJ	ADJ	_	34	amod	_	TokenRange=234:240
+34	frase	frase	NOUN	NOUN	_	32	obj	_	TokenRange=241:246
+35	obra	obra	NOUN	NOUN	_	34	appos	_	TokenRange=247:251
+36	necessariamente	necessariamente	ADV	ADV	_	37	advmod	_	TokenRange=252:267
+37	sinonimo	sinonimo	ADJ	ADJ	_	35	amod	_	TokenRange=268:276
+38	spoiler	spoiler	ADJ	ADJ	_	39	amod	_	TokenRange=277:284
+39	paz	paz	NOUN	NOUN	_	35	appos	_	TokenRange=285:288
+40	guerra	guerra	NOUN	NOUN	_	35	appos	_	TokenRange=289:295
+41	funciono	funciono	ADJ	ADJ	_	40	amod	_	TokenRange=296:304
+42	melhor	melhor	ADV	ADV	_	43	advmod	_	TokenRange=305:311
+43	escreve	escrever	VERB	VERB	_	6	parataxis	_	TokenRange=312:319
+44	baixinho	baixo	NOUN	NOUN	_	45	amod	_	TokenRange=320:328
+45	capitulo	capitulo	NOUN	NOUN	_	43	obj	_	TokenRange=329:337
+46	final	final	ADJ	ADJ	_	45	amod	_	TokenRange=338:343
+47	guerra	guerra	NOUN	NOUN	_	45	appos	_	TokenRange=344:350
+48	senador	senador	NOUN	NOUN	_	45	appos	_	TokenRange=351:358
+49	atualmente	atualmente	ADV	ADV	_	43	advmod	_	TokenRange=359:369
+50	cbf	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=370:373
+51	239	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=374:377
+52	paginas	pagina	NOUN	NOUN	_	54	nsubj	_	TokenRange=378:385
+53	exjogador	exjogador	NOUN	NOUN	_	52	amod	_	TokenRange=386:395
+54	traz	trazer	VERB	VERB	_	43	parataxis	_	TokenRange=396:400
+55	bastidores	bastidor	NOUN	NOUN	_	54	obj	_	TokenRange=401:411
+56	cpi	_	ADJ	ADJ	_	57	amod	_	TokenRange=412:415
+57	futebol	futebol	NOUN	NOUN	_	58	nsubj	_	TokenRange=416:423
+58	tramitou	tramitar	VERB	VERB	_	54	parataxis	_	TokenRange=424:432
+59	senado	senado	NOUN	NOUN	_	58	obj	_	TokenRange=433:439
+60	2015	_	NUM	NUM	NumType=Card	59	nmod	_	TokenRange=440:444
+61	2016	_	NUM	NUM	NumType=Card	58	nmod	_	TokenRange=445:449
+62	parte	parte	NOUN	NOUN	_	71	nsubj	_	TokenRange=450:455
+63	ataque	ataque	NOUN	NOUN	_	62	appos	_	TokenRange=456:462
+64	contra	_	ADP	ADP	_	65	case	_	TokenRange=463:469
+65	cbf	_	NOUN	NOUN	_	63	nmod	_	TokenRange=470:473
+66	revelacoes	revelacoe	NOUN	NOUN	_	65	flat	_	TokenRange=474:484
+67	atuacao	atuacao	ADJ	ADJ	_	68	amod	_	TokenRange=485:492
+68	presidente	presidente	NOUN	NOUN	_	63	appos	_	TokenRange=493:503
+69	cpi	cpi	ADJ	ADJ	_	68	amod	_	TokenRange=504:507
+70	romario	romario	NOUN	NOUN	_	68	appos	_	TokenRange=508:515
+71	publica	publicar	VERB	VERB	_	54	parataxis	_	TokenRange=516:523
+72	documentos	documento	NOUN	NOUN	_	71	obj	_	TokenRange=524:534
+73	obtidos	obter	VERB	VERB	_	72	acl	_	TokenRange=535:542
+74	durante	_	ADP	ADP	_	75	case	_	TokenRange=543:550
+75	trabalhos	trabalho	NOUN	NOUN	_	73	nmod	_	TokenRange=551:560
+76	comissao	comissao	NOUN	NOUN	_	78	nsubj	_	TokenRange=561:569
+77	cbf	cbf	NOUN	NOUN	_	76	flat	_	TokenRange=570:573
+78	chegou	chegar	VERB	VERB	_	71	parataxis	_	SpaceAfter=No|TokenRange=574:580
+

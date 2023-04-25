@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = expolicial acusado liderar grupo exterminio vai juri popular morte dona casa 14 anos julgamento ricardo jose guimaraes acontece nesta quartafeira 21 ribeirao preto condenado 72 anos duas mortes 1996 reu responde assassinato jovem jardim independencia acusado liderar grupo exterminio decadas 1990 2000 expolicial civil ricardo jose guimaraes vai juri popular nesta quartafeira 21 assassinato dona casa 14 anos ribeirao preto sp crime marco 2004 tatiana
+1	expolicial	expolicial	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:10
+2	acusado	acusar	VERB	VERB	_	1	acl	_	TokenRange=11:18
+3	liderar	liderar	VERB	VERB	_	2	xcomp	_	TokenRange=19:26
+4	grupo	grupo	NOUN	NOUN	_	3	obj	_	TokenRange=27:32
+5	exterminio	exterminio	ADJ	ADJ	_	4	amod	_	TokenRange=33:43
+6	vai	ir	AUX	AUX	_	7	cop	_	TokenRange=44:47
+7	juri	juri	NOUN	NOUN	_	0	root	_	TokenRange=48:52
+8	popular	popular	ADJ	ADJ	_	7	amod	_	TokenRange=53:60
+9	morte	morte	NOUN	NOUN	_	18	obj	_	TokenRange=61:66
+10	dona	_	NOUN	NOUN	_	13	amod	_	TokenRange=67:71
+11	casa	casa	NOUN	NOUN	_	10	flat	_	TokenRange=72:76
+12	14	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=77:79
+13	anos	ano	NOUN	NOUN	_	9	appos	_	TokenRange=80:84
+14	julgamento	julgamento	NOUN	NOUN	_	18	nsubj	_	TokenRange=85:95
+15	ricardo	ricardo	ADJ	ADJ	_	14	appos	_	TokenRange=96:103
+16	jose	jose	NOUN	NOUN	_	15	flat	_	TokenRange=104:108
+17	guimaraes	guimarae	NOUN	NOUN	_	15	flat	_	TokenRange=109:118
+18	acontece	acontecer	VERB	VERB	_	7	parataxis	_	TokenRange=119:127
+19	nesta	_	ADP	ADP	_	20	case	_	TokenRange=128:133
+20	quartafeira	_	NOUN	NOUN	_	18	nmod	_	TokenRange=134:145
+21	21	_	NUM	NUM	NumType=Card	20	appos	_	TokenRange=146:148
+22	ribeirao	ribeirao	NOUN	NOUN	_	18	nmod	_	TokenRange=149:157
+23	preto	preto	ADJ	ADJ	_	22	amod	_	TokenRange=158:163
+24	condenado	condenar	VERB	VERB	_	18	acl	_	TokenRange=164:173
+25	72	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=174:176
+26	anos	ano	NOUN	NOUN	_	24	obj	_	TokenRange=177:181
+27	duas	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=182:186
+28	mortes	morte	NOUN	NOUN	_	24	obj	_	TokenRange=187:193
+29	1996	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=194:198
+30	reu	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=199:202
+31	responde	responder	VERB	VERB	_	18	parataxis	_	TokenRange=203:211
+32	assassinato	assassinato	NOUN	NOUN	_	31	obj	_	TokenRange=212:223
+33	jovem	jovem	ADJ	ADJ	_	34	amod	_	TokenRange=224:229
+34	jardim	jardim	NOUN	NOUN	_	32	appos	_	TokenRange=230:236
+35	independencia	_	PROPN	PNOUN	_	34	flat	_	TokenRange=237:250
+36	acusado	acusar	VERB	VERB	_	32	acl	_	TokenRange=251:258
+37	liderar	liderar	VERB	VERB	_	36	xcomp	_	TokenRange=259:266
+38	grupo	grupo	NOUN	NOUN	_	37	obj	_	TokenRange=267:272
+39	exterminio	exterminio	ADJ	ADJ	_	38	amod	_	TokenRange=273:283
+40	decadas	_	NOUN	NOUN	_	37	nmod	_	TokenRange=284:291
+41	1990	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=292:296
+42	2000	_	NUM	NUM	NumType=Card	40	nmod	_	TokenRange=297:301
+43	expolicial	expolicial	NOUN	NOUN	_	49	nsubj	_	TokenRange=302:312
+44	civil	civil	ADJ	ADJ	_	43	amod	_	TokenRange=313:318
+45	ricardo	ricardo	NOUN	NOUN	_	49	nsubj	_	TokenRange=319:326
+46	jose	jose	NOUN	NOUN	_	45	flat	_	TokenRange=327:331
+47	guimaraes	guimaraes	ADJ	ADJ	_	45	flat	_	TokenRange=332:341
+48	vai	ir	AUX	AUX	_	49	cop	_	TokenRange=342:345
+49	juri	juri	NOUN	NOUN	_	36	parataxis	_	TokenRange=346:350
+50	popular	popular	ADJ	ADJ	_	49	amod	_	TokenRange=351:358
+51	nesta	_	ADP	ADP	_	52	case	_	TokenRange=359:364
+52	quartafeira	quartafeira	NOUN	NOUN	_	49	nmod	_	TokenRange=365:376
+53	21	_	NUM	NUM	NumType=Card	52	appos	_	TokenRange=377:379
+54	assassinato	assassinato	NOUN	NOUN	_	49	appos	_	TokenRange=380:391
+55	dona	_	NOUN	NOUN	_	54	appos	_	TokenRange=392:396
+56	casa	casa	NOUN	NOUN	_	55	flat	_	TokenRange=397:401
+57	14	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=402:404
+58	anos	ano	NOUN	NOUN	_	55	appos	_	TokenRange=405:409
+59	ribeirao	ribeirao	NOUN	NOUN	_	54	appos	_	TokenRange=410:418
+60	preto	preto	ADJ	ADJ	_	59	amod	_	TokenRange=419:424
+61	sp	_	ADJ	ADJ	_	62	amod	_	TokenRange=425:427
+62	crime	crime	NOUN	NOUN	_	59	appos	_	TokenRange=428:433
+63	marco	marco	NOUN	NOUN	_	62	appos	_	TokenRange=434:439
+64	2004	_	NUM	NUM	NumType=Card	62	nmod	_	TokenRange=440:444
+65	tatiana	tatiana	NOUN	NOUN	_	59	appos	_	SpaceAfter=No|TokenRange=445:452
+

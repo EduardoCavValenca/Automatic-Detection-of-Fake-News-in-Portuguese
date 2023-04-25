@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ataque caravana lula investigado disparo arma fogo dano diz delegado caso ocorreu terca 27 parana delegado responsavel caso negou afirmacao adjunto sobre tentativa homicidio participacao dois suspeitos delegado policia civil helder lauria disse nesta quartafeira 28 investiga ataque caravana expresidente luiz inacio lula silva pt parana disparo arma fogo dano provocado terca delegado adjunto laranjeiras sul fabiano oliveira chegou dizer caso sendo investigado tentativa homicidio
+1	ataque	ataque	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:6
+2	caravana	caravana	ADJ	ADJ	_	1	amod	_	TokenRange=7:15
+3	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=16:20
+4	investigado	investigar	VERB	VERB	_	1	acl	_	TokenRange=21:32
+5	disparo	disparo	NOUN	NOUN	_	4	obj	_	TokenRange=33:40
+6	arma	arma	NOUN	NOUN	_	5	appos	_	TokenRange=41:45
+7	fogo	fogo	NOUN	NOUN	_	6	flat	_	TokenRange=46:50
+8	dano	dano	NOUN	NOUN	_	6	flat	_	TokenRange=51:55
+9	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=56:59
+10	delegado	delegado	NOUN	NOUN	_	9	obj	_	TokenRange=60:68
+11	caso	caso	NOUN	NOUN	_	12	nsubj	_	TokenRange=69:73
+12	ocorreu	ocorrer	VERB	VERB	_	9	ccomp	_	TokenRange=74:81
+13	terca	terca	NOUN	NOUN	_	12	nmod	_	TokenRange=82:87
+14	27	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=88:90
+15	parana	parana	ADJ	NOUN	_	16	amod	_	TokenRange=91:97
+16	delegado	delegado	NOUN	NOUN	_	12	nsubj	_	TokenRange=98:106
+17	responsavel	responsavel	ADJ	ADJ	_	16	amod	_	TokenRange=107:118
+18	caso	caso	NOUN	NOUN	_	19	nsubj	_	TokenRange=119:123
+19	negou	negar	VERB	VERB	_	12	conj	_	TokenRange=124:129
+20	afirmacao	afirmacao	NOUN	NOUN	_	19	obj	_	TokenRange=130:139
+21	adjunto	adjunto	ADJ	ADJ	_	20	amod	_	TokenRange=140:147
+22	sobre	_	ADP	ADP	_	23	case	_	TokenRange=148:153
+23	tentativa	_	NOUN	NOUN	_	20	nmod	_	TokenRange=154:163
+24	homicidio	homicidio	ADJ	ADJ	_	23	amod	_	TokenRange=164:173
+25	participacao	participacao	NOUN	NOUN	_	23	appos	_	TokenRange=174:186
+26	dois	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=187:191
+27	suspeitos	suspeito	NOUN	NOUN	_	25	nsubj	_	TokenRange=192:201
+28	delegado	delegado	NOUN	NOUN	_	27	appos	_	TokenRange=202:210
+29	policia	policia	NOUN	NOUN	_	27	appos	_	TokenRange=211:218
+30	civil	civil	ADJ	ADJ	_	29	amod	_	TokenRange=219:224
+31	helder	helder	NOUN	NOUN	_	33	nsubj	_	TokenRange=225:231
+32	lauria	lauria	NOUN	NOUN	_	31	flat	_	TokenRange=232:238
+33	disse	dizer	VERB	VERB	_	9	parataxis	_	TokenRange=239:244
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=245:250
+35	quartafeira	_	NOUN	NOUN	_	33	nmod	_	TokenRange=251:262
+36	28	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=263:265
+37	investiga	investigar	VERB	VERB	_	33	ccomp	_	TokenRange=266:275
+38	ataque	ataque	NOUN	NOUN	_	37	obj	_	TokenRange=276:282
+39	caravana	caravana	ADJ	ADJ	_	38	amod	_	TokenRange=283:291
+40	expresidente	expresidente	NOUN	NOUN	_	38	appos	_	TokenRange=292:304
+41	luiz	luiz	NOUN	NOUN	_	38	appos	_	TokenRange=305:309
+42	inacio	_	NOUN	NOUN	_	41	flat	_	TokenRange=310:316
+43	lula	_	NOUN	NOUN	_	41	flat	_	TokenRange=317:321
+44	silva	silva	NOUN	NOUN	_	41	flat	_	TokenRange=322:327
+45	pt	_	NOUN	NOUN	_	46	case	_	TokenRange=328:330
+46	parana	parana	NOUN	NOUN	_	47	appos	_	TokenRange=331:337
+47	disparo	disparo	NOUN	NOUN	_	37	obj	_	TokenRange=338:345
+48	arma	arma	NOUN	NOUN	_	47	appos	_	TokenRange=346:350
+49	fogo	fogo	NOUN	NOUN	_	48	flat	_	TokenRange=351:355
+50	dano	dano	NOUN	NOUN	_	48	flat	_	TokenRange=356:360
+51	provocado	provocar	VERB	VERB	_	47	acl	_	TokenRange=361:370
+52	terca	terca	NOUN	NOUN	_	60	advmod	_	TokenRange=371:376
+53	delegado	delegado	NOUN	NOUN	_	60	nsubj	_	TokenRange=377:385
+54	adjunto	adjunto	ADJ	ADJ	_	53	amod	_	TokenRange=386:393
+55	laranjeiras	laranjeiro	NOUN	NOUN	_	53	amod	_	TokenRange=394:405
+56	sul	sul	ADJ	ADJ	_	53	amod	_	TokenRange=406:409
+57	fabiano	fabiano	ADJ	NOUN	_	53	appos	_	TokenRange=410:417
+58	oliveira	oliveira	ADJ	ADJ	_	57	amod	_	TokenRange=418:426
+59	chegou	chegar	AUX	AUX	_	60	aux	_	TokenRange=427:433
+60	dizer	dizer	VERB	VERB	_	9	parataxis	_	TokenRange=434:439
+61	caso	caso	NOUN	NOUN	_	60	obj	_	TokenRange=440:444
+62	sendo	ser	AUX	AUX	_	64	aux:pass	_	TokenRange=445:450
+63	investigado	investigar	VERB	VERB	_	64	acl	_	TokenRange=451:462
+64	tentativa	_	NOUN	NOUN	_	60	acl	_	TokenRange=463:472
+65	homicidio	homicidio	ADJ	ADJ	_	64	amod	_	SpaceAfter=No|TokenRange=473:482
+

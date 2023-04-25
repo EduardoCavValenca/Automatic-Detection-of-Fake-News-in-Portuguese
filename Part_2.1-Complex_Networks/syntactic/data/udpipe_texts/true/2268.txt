@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = agenda cultural g1 lista opcoes lazer durante final semana salvador opcoes shows teatro exposicoes programacao infantil diversos eventos culturais programados ocorrer neste fim semana salvador regiao metropolitana g1 listou opcoes musica teatro exposicoes outros marcados
+1	agenda	agenda	NOUN	NOUN	_	29	nsubj	_	TokenRange=0:6
+2	cultural	cultural	ADJ	ADJ	_	1	amod	_	TokenRange=7:15
+3	g1	_	NOUN	NOUN	_	1	appos	_	TokenRange=16:18
+4	lista	lista	VERB	VERB	_	1	parataxis	_	TokenRange=19:24
+5	opcoes	opcoe	NOUN	NOUN	_	4	obj	_	TokenRange=25:31
+6	lazer	lazer	NOUN	NOUN	_	5	appos	_	TokenRange=32:37
+7	durante	_	ADP	ADP	_	9	case	_	TokenRange=38:45
+8	final	final	ADJ	ADJ	_	9	amod	_	TokenRange=46:51
+9	semana	semana	NOUN	NOUN	_	4	nmod	_	TokenRange=52:58
+10	salvador	_	ADJ	NOUN	_	11	appos	_	TokenRange=59:67
+11	opcoes	_	NOUN	NOUN	_	1	appos	_	TokenRange=68:74
+12	shows	show	NOUN	NOUN	_	11	flat	_	TokenRange=75:80
+13	teatro	teatro	NOUN	NOUN	_	12	flat	_	TokenRange=81:87
+14	exposicoes	_	NOUN	NOUN	_	15	amod	_	TokenRange=88:98
+15	programacao	programacao	NOUN	NOUN	_	11	appos	_	TokenRange=99:110
+16	infantil	infantil	ADJ	ADJ	_	15	amod	_	TokenRange=111:119
+17	diversos	_	DET	DET	_	18	det	_	TokenRange=120:128
+18	eventos	evento	NOUN	NOUN	_	11	nsubj	_	TokenRange=129:136
+19	culturais	cultural	ADJ	ADJ	_	18	amod	_	TokenRange=137:146
+20	programados	programar	VERB	VERB	_	18	acl	_	TokenRange=147:158
+21	ocorrer	ocorrer	VERB	VERB	_	18	acl	_	TokenRange=159:166
+22	neste	_	ADP	ADP	_	23	case	_	TokenRange=167:172
+23	fim	fim	NOUN	NOUN	_	21	nmod	_	TokenRange=173:176
+24	semana	semana	NOUN	NOUN	_	23	nmod	_	TokenRange=177:183
+25	salvador	salvador	NOUN	NOUN	_	26	appos	_	TokenRange=184:192
+26	regiao	regiao	NOUN	NOUN	_	21	appos	_	TokenRange=193:199
+27	metropolitana	metropolitano	ADJ	ADJ	_	26	amod	_	TokenRange=200:213
+28	g1	_	PROPN	NUM	_	26	appos	_	TokenRange=214:216
+29	listou	listar	VERB	VERB	_	0	root	_	TokenRange=217:223
+30	opcoes	_	NOUN	NOUN	_	29	obj	_	TokenRange=224:230
+31	musica	_	ADJ	NOUN	_	30	amod	_	TokenRange=231:237
+32	teatro	teatro	NOUN	NOUN	_	30	flat	_	TokenRange=238:244
+33	exposicoes	_	NOUN	NOUN	_	30	amod	_	TokenRange=245:255
+34	outros	_	DET	DET	_	35	det	_	TokenRange=256:262
+35	marcados	marcado	NOUN	NOUN	_	29	obj	_	SpaceAfter=No|TokenRange=263:271
+

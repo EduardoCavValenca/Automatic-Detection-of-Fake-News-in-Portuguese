@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quanto acusam subo pesquisas diz lula expresidente luiz inacio lula silva declarou neste sabado 27 videoconferencia reuniao fao organizacao nacoes unidas alimentacao agricultura esforcos impedir candidatura presidencia apenas tornam forte querem candidato porque quanto acusam quanto perseguem subo pesquisas declarou lula discurso transmitido congresso sobre luta contra fome fao adis abeba etiopia lula deveria participado lula condenado ultima quarta 24 trf4 tribunal regional federal 4 regiao 12 anos mes prisao chamado caso triplex guaruja sp viajaria nesta sexta etiopia participar evento fao sobre
+1	quanto	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:6
+2	acusam	acusar	VERB	VERB	_	5	ccomp	_	TokenRange=7:13
+3	subo	_	DET	DET	_	4	det	_	TokenRange=14:18
+4	pesquisas	pesquisa	NOUN	NOUN	_	2	obj	_	TokenRange=19:28
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=29:32
+6	lula	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=33:37
+7	expresidente	expresidente	NOUN	NOUN	_	5	nsubj	_	TokenRange=38:50
+8	luiz	luiz	ADJ	ADJ	_	7	amod	_	TokenRange=51:55
+9	inacio	_	NOUN	NOUN	_	7	appos	_	TokenRange=56:62
+10	lula	_	NOUN	NOUN	_	7	appos	_	TokenRange=63:67
+11	silva	silva	NOUN	NOUN	_	8	flat	_	TokenRange=68:73
+12	declarou	declarar	VERB	VERB	_	5	parataxis	_	TokenRange=74:82
+13	neste	_	ADP	ADP	_	14	case	_	TokenRange=83:88
+14	sabado	_	PROPN	PNOUN	_	12	nmod	_	TokenRange=89:95
+15	27	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=96:98
+16	videoconferencia	_	NOUN	NOUN	_	12	obj	_	TokenRange=99:115
+17	reuniao	reuniao	NOUN	NOUN	_	16	appos	_	TokenRange=116:123
+18	fao	fao	ADJ	ADJ	_	17	amod	_	TokenRange=124:127
+19	organizacao	_	ADJ	ADJ	_	20	amod	_	TokenRange=128:139
+20	nacoes	_	NOUN	NOUN	_	17	appos	_	TokenRange=140:146
+21	unidas	unido	ADJ	ADJ	_	20	amod	_	TokenRange=147:153
+22	alimentacao	alimentacao	ADJ	ADJ	_	20	amod	_	TokenRange=154:165
+23	agricultura	agricultura	NOUN	NOUN	_	20	appos	_	TokenRange=166:177
+24	esforcos	esforco	NOUN	NOUN	_	20	appos	_	TokenRange=178:186
+25	impedir	impedir	VERB	VERB	_	17	acl:inf	_	TokenRange=187:194
+26	candidatura	candidatura	NOUN	NOUN	_	25	obj	_	TokenRange=195:206
+27	presidencia	presidencia	NOUN	NOUN	_	26	appos	_	TokenRange=207:218
+28	apenas	apenas	ADV	ADV	_	29	advmod	_	TokenRange=219:225
+29	tornam	tornar	VERB	VERB	_	25	parataxis	_	TokenRange=226:232
+30	forte	forte	ADJ	ADJ	_	29	xcomp	_	TokenRange=233:238
+31	querem	querer	VERB	VERB	_	29	parataxis	_	TokenRange=239:245
+32	candidato	candidato	NOUN	NOUN	_	31	obj	_	TokenRange=246:255
+33	porque	_	CCONJ	CONJ	_	35	mark	_	TokenRange=256:262
+34	quanto	_	PRON	PRON	_	35	nsubj	_	TokenRange=263:269
+35	acusam	acusar	VERB	VERB	_	31	advcl	_	TokenRange=270:276
+36	quanto	_	PRON	PRON	_	37	obj	_	TokenRange=277:283
+37	perseguem	perseguir	VERB	VERB	_	35	ccomp	_	TokenRange=284:293
+38	subo	_	DET	DET	_	39	det	_	TokenRange=294:298
+39	pesquisas	pesquisa	NOUN	NOUN	_	37	nsubj	_	TokenRange=299:308
+40	declarou	declarar	VERB	VERB	_	31	parataxis	_	TokenRange=309:317
+41	lula	_	NOUN	NOUN	_	40	obj	_	TokenRange=318:322
+42	discurso	discurso	NOUN	NOUN	_	40	nsubj	_	TokenRange=323:331
+43	transmitido	transmitir	VERB	VERB	_	42	acl	_	TokenRange=332:343
+44	congresso	congresso	NOUN	NOUN	_	42	appos	_	TokenRange=344:353
+45	sobre	_	ADP	ADP	_	46	case	_	TokenRange=354:359
+46	luta	luta	NOUN	NOUN	_	44	nmod	_	TokenRange=360:364
+47	contra	_	ADP	ADP	_	48	case	_	TokenRange=365:371
+48	fome	fome	NOUN	NOUN	_	46	nmod	_	TokenRange=372:376
+49	fao	fao	NOUN	NOUN	_	46	appos	_	TokenRange=377:380
+50	adis	_	NOUN	NOUN	_	51	nmod	_	TokenRange=381:385
+51	abeba	abeba	ADJ	ADJ	_	46	amod	_	TokenRange=386:391
+52	etiopia	etiopia	NOUN	NOUN	_	55	nsubj	_	TokenRange=392:399
+53	lula	_	NOUN	NOUN	_	55	nsubj	_	TokenRange=400:404
+54	deveria	dever	AUX	AUX	_	55	aux	_	TokenRange=405:412
+55	participado	participar	VERB	VERB	_	40	conj	_	TokenRange=413:424
+56	lula	lula	NOUN	NOUN	_	55	nsubj	_	TokenRange=425:429
+57	condenado	condenar	VERB	VERB	_	55	acl	_	TokenRange=430:439
+58	ultima	_	ADJ	ADJ	_	59	amod	_	TokenRange=440:446
+59	quarta	_	PROPN	PNOUN	_	57	nmod	_	TokenRange=447:453
+60	24	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=454:456
+61	trf4	_	NUM	NUM	_	62	nummod	_	TokenRange=457:461
+62	tribunal	tribunal	NOUN	NOUN	_	57	nsubj	_	TokenRange=462:470
+63	regional	regional	ADJ	ADJ	_	62	amod	_	TokenRange=471:479
+64	federal	federal	ADJ	ADJ	_	62	amod	_	TokenRange=480:487
+65	4	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=488:489
+66	regiao	regiao	NOUN	NOUN	_	62	appos	_	TokenRange=490:496
+67	12	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=497:499
+68	anos	ano	NOUN	NOUN	_	62	appos	_	TokenRange=500:504
+69	mes	_	ADP	ADP	_	70	case	_	TokenRange=505:508
+70	prisao	prisao	NOUN	NOUN	_	62	appos	_	TokenRange=509:515
+71	chamado	chamado	ADJ	ADJ	_	72	amod	_	TokenRange=516:523
+72	caso	caso	NOUN	NOUN	_	70	appos	_	TokenRange=524:528
+73	triplex	_	NOUN	NOUN	_	72	appos	_	TokenRange=529:536
+74	guaruja	guaruja	NOUN	NOUN	_	72	appos	_	TokenRange=537:544
+75	sp	_	X	X	_	74	flat	_	TokenRange=545:547
+76	viajaria	viajar	VERB	VERB	_	55	parataxis	_	TokenRange=548:556
+77	nesta	_	ADP	ADP	_	79	case	_	TokenRange=557:562
+78	sexta	_	PROPN	PNOUN	_	79	amod	_	TokenRange=563:568
+79	etiopia	etiopia	NOUN	NOUN	_	76	nmod	_	TokenRange=569:576
+80	participar	participar	VERB	VERB	_	76	xcomp	_	TokenRange=577:587
+81	evento	evento	NOUN	NOUN	_	80	obj	_	TokenRange=588:594
+82	fao	fao	ADJ	ADJ	_	81	amod	_	TokenRange=595:598
+83	sobre	_	ADP	ADP	_	80	mark	_	SpaceAfter=No|TokenRange=599:604
+

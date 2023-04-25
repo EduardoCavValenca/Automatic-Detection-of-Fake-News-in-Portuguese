@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = agentes forca nacional deixam roraima ano apos massacre 33 detentos presidio saida ocorre quatro dias fuga quase 100 detentos penitenciaria agricola monte cristo mesma unidade onde 33 brutalmente mortos 2017 agentes forca nacional seguranca deixando roraima nessa tercafeira 23 saida tropa ocorre ano apos massacre 33 detentos penitenciaria agricola monte
+1	agentes	agente	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	forca	forca	NOUN	NOUN	_	1	appos	_	TokenRange=8:13
+3	nacional	nacional	ADJ	ADJ	_	1	amod	_	TokenRange=14:22
+4	deixam	deixar	VERB	VERB	_	0	root	_	TokenRange=23:29
+5	roraima	roraima	NOUN	NOUN	_	4	obj	_	TokenRange=30:37
+6	ano	ano	NOUN	NOUN	_	4	nmod	_	TokenRange=38:41
+7	apos	_	ADP	ADP	_	8	case	_	TokenRange=42:46
+8	massacre	massacre	NOUN	NOUN	_	6	nmod	_	TokenRange=47:55
+9	33	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=56:58
+10	detentos	detento	NOUN	NOUN	_	4	obj	_	TokenRange=59:67
+11	presidio	presidio	NOUN	NOUN	_	13	nsubj	_	TokenRange=68:76
+12	saida	_	NOUN	NOUN	_	11	flat	_	TokenRange=77:82
+13	ocorre	ocorrer	VERB	VERB	_	4	parataxis	_	TokenRange=83:89
+14	quatro	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=90:96
+15	dias	dia	NOUN	NOUN	_	13	nmod	_	TokenRange=97:101
+16	fuga	fuga	NOUN	NOUN	_	13	parataxis	_	TokenRange=102:106
+17	quase	quase	ADV	ADV	_	18	advmod	_	TokenRange=107:112
+18	100	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=113:116
+19	detentos	detento	NOUN	NOUN	_	16	appos	_	TokenRange=117:125
+20	penitenciaria	penitenciaria	NOUN	NOUN	_	19	appos	_	TokenRange=126:139
+21	agricola	_	ADJ	ADJ	_	20	amod	_	TokenRange=140:148
+22	monte	monte	NOUN	NOUN	_	20	appos	_	TokenRange=149:154
+23	cristo	cristo	ADJ	ADJ	_	22	flat	_	TokenRange=155:161
+24	mesma	mesmo	ADJ	ADJ	_	25	amod	_	TokenRange=162:167
+25	unidade	unidade	NOUN	NOUN	_	16	appos	_	TokenRange=168:175
+26	onde	onde	ADV	ADV	_	29	advmod	_	TokenRange=176:180
+27	33	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=181:183
+28	brutalmente	brutalmente	ADV	ADV	_	29	advmod	_	TokenRange=184:195
+29	mortos	morto	NOUN	NOUN	_	25	acl	_	TokenRange=196:202
+30	2017	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=203:207
+31	agentes	agente	NOUN	NOUN	_	42	nsubj	_	TokenRange=208:215
+32	forca	forca	NOUN	NOUN	_	31	appos	_	TokenRange=216:221
+33	nacional	nacional	ADJ	ADJ	_	31	amod	_	TokenRange=222:230
+34	seguranca	_	NOUN	NOUN	_	31	amod	_	TokenRange=231:240
+35	deixando	deixar	VERB	VERB	_	31	acl	_	TokenRange=241:249
+36	roraima	roraima	NOUN	NOUN	_	35	obj	_	TokenRange=250:257
+37	nessa	_	ADP	ADP	_	38	case	_	TokenRange=258:263
+38	tercafeira	tercafeira	NOUN	NOUN	_	35	nmod	_	TokenRange=264:274
+39	23	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=275:277
+40	saida	_	NOUN	NOUN	_	38	appos	_	TokenRange=278:283
+41	tropa	tropa	NOUN	NOUN	_	40	appos	_	TokenRange=284:289
+42	ocorre	ocorrer	VERB	VERB	_	25	acl:relcl	_	TokenRange=290:296
+43	ano	ano	NOUN	NOUN	_	42	nmod	_	TokenRange=297:300
+44	apos	_	ADP	ADP	_	45	case	_	TokenRange=301:305
+45	massacre	massacre	NOUN	NOUN	_	43	nmod	_	TokenRange=306:314
+46	33	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=315:317
+47	detentos	detento	NOUN	NOUN	_	43	appos	_	TokenRange=318:326
+48	penitenciaria	penitenciaria	NOUN	NOUN	_	42	parataxis	_	TokenRange=327:340
+49	agricola	_	ADJ	ADJ	_	48	amod	_	TokenRange=341:349
+50	monte	monte	NOUN	NOUN	_	48	appos	_	SpaceAfter=No|TokenRange=350:355
+

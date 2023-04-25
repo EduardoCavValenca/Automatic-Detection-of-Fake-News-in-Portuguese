@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exdeputado candido vaccarezza indiciado corrupcao policia federal investigado desde 2015 lava jato segundo ministerio publico federal mpf favorecer empresas estrangeiras contratos petrobras troca propina exdeputado federal candido vaccarezza indiciado policia federal pf corrupcao operacao lava jato nesta segundafeira 26 chegou preso 44 fase operacao chamada operacao abate agosto ano passado solto apos pagar fianca r 15 milhao vaccarezza investigado desde 2015 segundo ministerio publico federal mpf favorecer empresas estrangeiras contratos
+1	exdeputado	exdeputado	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:10
+2	candido	candido	NOUN	NOUN	_	1	amod	_	TokenRange=11:18
+3	vaccarezza	vaccarezza	NOUN	NOUN	_	1	flat	_	TokenRange=19:29
+4	indiciado	indiciar	VERB	VERB	_	1	acl	_	TokenRange=30:39
+5	corrupcao	corrupcao	NOUN	NOUN	_	4	amod	_	TokenRange=40:49
+6	policia	policia	NOUN	NOUN	_	1	appos	_	TokenRange=50:57
+7	federal	federal	ADJ	ADJ	_	6	amod	_	TokenRange=58:65
+8	investigado	investigar	VERB	VERB	_	1	acl	_	TokenRange=66:77
+9	desde	_	ADP	ADP	_	10	case	_	TokenRange=78:83
+10	2015	_	NUM	NUM	NumType=Card	8	nmod	_	TokenRange=84:88
+11	lava	lar	VERB	VERB	_	0	root	_	TokenRange=89:93
+12	jato	jato	NOUN	NOUN	_	11	obj	_	TokenRange=94:98
+13	segundo	_	ADP	ADP	_	14	case	_	TokenRange=99:106
+14	ministerio	ministerio	NOUN	NOUN	_	11	nmod	_	TokenRange=107:117
+15	publico	_	ADJ	ADJ	_	14	amod	_	TokenRange=118:125
+16	federal	federal	ADJ	ADJ	_	14	amod	_	TokenRange=126:133
+17	mpf	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=134:137
+18	favorecer	favorecer	VERB	VERB	_	14	acl:relcl	_	TokenRange=138:147
+19	empresas	empresa	NOUN	NOUN	_	18	obj	_	TokenRange=148:156
+20	estrangeiras	estrangeiro	ADJ	ADJ	_	19	amod	_	TokenRange=157:169
+21	contratos	contrato	NOUN	NOUN	_	18	obj	_	TokenRange=170:179
+22	petrobras	petrobra	NOUN	NOUN	_	21	amod	_	TokenRange=180:189
+23	troca	_	NOUN	NOUN	_	21	appos	_	TokenRange=190:195
+24	propina	propina	NOUN	NOUN	_	23	flat	_	TokenRange=196:203
+25	exdeputado	exdeputado	NOUN	NOUN	_	24	appos	_	TokenRange=204:214
+26	federal	federal	ADJ	ADJ	_	25	amod	_	TokenRange=215:222
+27	candido	candido	NOUN	NOUN	_	24	appos	_	TokenRange=223:230
+28	vaccarezza	vaccarezza	NOUN	NOUN	_	25	appos	_	TokenRange=231:241
+29	indiciado	indiciar	ADJ	ADJ	_	30	cop	_	TokenRange=242:251
+30	policia	policia	NOUN	NOUN	_	23	appos	_	TokenRange=252:259
+31	federal	federal	ADJ	ADJ	_	30	amod	_	TokenRange=260:267
+32	pf	_	X	NOUN	_	30	appos	_	TokenRange=268:270
+33	corrupcao	corrupcao	NOUN	NOUN	_	30	appos	_	TokenRange=271:280
+34	operacao	operacao	NOUN	NOUN	_	33	appos	_	TokenRange=281:289
+35	lava	lava	NOUN	NOUN	_	33	appos	_	TokenRange=290:294
+36	jato	jato	NOUN	NOUN	_	35	flat	_	TokenRange=295:299
+37	nesta	_	ADP	ADP	_	38	case	_	TokenRange=300:305
+38	segundafeira	_	NOUN	NOUN	_	40	nmod	_	TokenRange=306:318
+39	26	_	NUM	NUM	NumType=Card	38	appos	_	TokenRange=319:321
+40	chegou	chegar	VERB	VERB	_	11	parataxis	_	TokenRange=322:328
+41	preso	preso	ADJ	ADJ	_	40	xcomp	_	TokenRange=329:334
+42	44	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=335:337
+43	fase	fase	NOUN	NOUN	_	40	nmod	_	TokenRange=338:342
+44	operacao	operacao	NOUN	NOUN	_	40	nsubj	_	TokenRange=343:351
+45	chamada	chamar	VERB	AUX	_	46	cop	_	TokenRange=352:359
+46	operacao	operacao	NOUN	NOUN	_	44	acl	_	TokenRange=360:368
+47	abate	abate	NOUN	NOUN	_	46	flat	_	TokenRange=369:374
+48	agosto	_	PROPN	PNOUN	_	49	appos	_	TokenRange=375:381
+49	ano	ano	NOUN	NOUN	_	44	nmod	_	TokenRange=382:385
+50	passado	passado	ADJ	ADJ	_	49	amod	_	TokenRange=386:393
+51	solto	solto	ADJ	ADJ	_	40	xcomp	_	TokenRange=394:399
+52	apos	_	ADP	ADP	_	53	mark	_	TokenRange=400:404
+53	pagar	pagar	VERB	VERB	_	51	nmod	_	TokenRange=405:410
+54	fianca	fianca	NOUN	NOUN	_	53	obj	_	TokenRange=411:417
+55	r	r	NOUN	NOUN	_	54	flat	_	TokenRange=418:419
+56	15	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=420:422
+57	milhao	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=423:429
+58	vaccarezza	vaccarezza	NOUN	NOUN	_	53	obj	_	TokenRange=430:440
+59	investigado	investigar	VERB	VERB	_	58	acl	_	TokenRange=441:452
+60	desde	_	ADP	ADP	_	61	case	_	TokenRange=453:458
+61	2015	_	NUM	NUM	NumType=Card	59	nmod	_	TokenRange=459:463
+62	segundo	_	ADP	ADP	_	63	case	_	TokenRange=464:471
+63	ministerio	ministerio	NOUN	NOUN	_	59	nmod	_	TokenRange=472:482
+64	publico	publico	ADJ	ADJ	_	63	amod	_	TokenRange=483:490
+65	federal	federal	ADJ	ADJ	_	63	amod	_	TokenRange=491:498
+66	mpf	_	NOUN	NOUN	_	63	appos	_	TokenRange=499:502
+67	favorecer	favorecer	VERB	VERB	_	59	xcomp	_	TokenRange=503:512
+68	empresas	empresa	NOUN	NOUN	_	67	obj	_	TokenRange=513:521
+69	estrangeiras	estrangeiro	ADJ	ADJ	_	70	amod	_	TokenRange=522:534
+70	contratos	contrato	NOUN	NOUN	_	68	appos	_	SpaceAfter=No|TokenRange=535:544
+

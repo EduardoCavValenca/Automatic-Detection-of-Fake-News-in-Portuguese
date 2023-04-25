@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dizer ultimo dia desta semana naufragios porto moz bahia todos santos denunciam incuria desidia indiferenca estado brasileiro incapaz cuidar nacao explora cobrando impostos escorchantes amigo salvador desmentiu comunicados capitania portos vigilancia prova morreram 2300 pessoas naufragios embarcacoes ultimos dez anos 39 quais incidentes nada acidentais quarta quintafeiras ncautos pregam volta regime militar marinha tres foras armadas consegue prevenir naufragios fiscalizando embarcacoes pode impedir nau brasil afunde inocentes sabem nada comentario jornal eldorado radio eldorado fm 1073 sextafeira 25 agosto 2017 7h30m ouvir clique aqui seguida play ouvir
+1	dizer	dizer	VERB	VERB	_	27	ccomp	_	TokenRange=0:5
+2	ultimo	_	ADJ	ADJ	_	3	amod	_	TokenRange=6:12
+3	dia	dia	NOUN	NOUN	_	1	obj	_	TokenRange=13:16
+4	desta	_	ADP	ADP	_	5	case	_	TokenRange=17:22
+5	semana	semana	NOUN	NOUN	_	3	nmod	_	TokenRange=23:29
+6	naufragios	naufragio	NOUN	NOUN	_	3	appos	_	TokenRange=30:40
+7	porto	_	NOUN	NOUN	_	6	appos	_	TokenRange=41:46
+8	moz	moz	NOUN	NOUN	_	7	flat	_	TokenRange=47:50
+9	bahia	bahia	NOUN	NOUN	_	7	flat	_	TokenRange=51:56
+10	todos	_	DET	DET	_	11	det	_	TokenRange=57:62
+11	santos	santo	NOUN	NOUN	_	12	nsubj	_	TokenRange=63:69
+12	denunciam	denunciar	VERB	VERB	_	1	parataxis	_	TokenRange=70:79
+13	incuria	incuria	NOUN	NOUN	_	12	obj	_	TokenRange=80:87
+14	desidia	desidia	NOUN	NOUN	_	12	obj	_	TokenRange=88:95
+15	indiferenca	indiferenco	ADJ	ADJ	_	16	amod	_	TokenRange=96:107
+16	estado	estado	NOUN	NOUN	_	12	nsubj	_	TokenRange=108:114
+17	brasileiro	brasileiro	ADJ	ADJ	_	16	amod	_	TokenRange=115:125
+18	incapaz	incapaz	ADJ	ADJ	_	16	amod	_	TokenRange=126:133
+19	cuidar	cuidar	VERB	VERB	_	16	acl:inf	_	TokenRange=134:140
+20	nacao	_	NOUN	NOUN	_	19	obj	_	TokenRange=141:146
+21	explora	explorar	VERB	VERB	_	19	parataxis	_	TokenRange=147:154
+22	cobrando	cobrar	VERB	VERB	_	21	acl	_	TokenRange=155:163
+23	impostos	imposto	NOUN	NOUN	_	22	obj	_	TokenRange=164:172
+24	escorchantes	escorchante	ADJ	ADJ	_	23	amod	_	TokenRange=173:185
+25	amigo	amigo	NOUN	NOUN	_	27	nsubj	_	TokenRange=186:191
+26	salvador	salvador	NOUN	NOUN	_	25	amod	_	TokenRange=192:200
+27	desmentiu	desmentir	VERB	VERB	_	0	root	_	TokenRange=201:210
+28	comunicados	comunicado	NOUN	NOUN	_	27	obj	_	TokenRange=211:222
+29	capitania	capitania	NOUN	NOUN	_	28	appos	_	TokenRange=223:232
+30	portos	porto	ADJ	ADJ	_	31	amod	_	TokenRange=233:239
+31	vigilancia	vigilancia	NOUN	NOUN	_	28	appos	_	TokenRange=240:250
+32	prova	prova	NOUN	NOUN	_	31	flat	_	TokenRange=251:256
+33	morreram	morrer	VERB	VERB	_	27	parataxis	_	TokenRange=257:265
+34	2300	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=266:270
+35	pessoas	pessoa	NOUN	NOUN	_	33	nsubj	_	TokenRange=271:278
+36	naufragios	naufragio	NOUN	NOUN	_	35	appos	_	TokenRange=279:289
+37	embarcacoes	embarcacoe	ADJ	ADJ	_	35	amod	_	TokenRange=290:301
+38	ultimos	ultimo	ADJ	ADJ	_	40	amod	_	TokenRange=302:309
+39	dez	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=310:313
+40	anos	ano	NOUN	NOUN	_	36	appos	_	TokenRange=314:318
+41	39	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=319:321
+42	quais	_	PRON	PRON	_	43	det	_	TokenRange=322:327
+43	incidentes	incidente	NOUN	NOUN	_	33	nsubj	_	TokenRange=328:338
+44	nada	_	PRON	PRON	_	45	advmod	_	TokenRange=339:343
+45	acidentais	acidental	ADJ	ADJ	_	43	amod	_	TokenRange=344:354
+46	quarta	_	ADJ	ADJ	_	47	amod	_	TokenRange=355:361
+47	quintafeiras	quintafeira	NOUN	NOUN	_	49	nsubj	_	TokenRange=362:374
+48	ncautos	ncauto	NOUN	NOUN	_	47	amod	_	TokenRange=375:382
+49	pregam	pregar	VERB	VERB	_	43	acl:relcl	_	TokenRange=383:389
+50	volta	volta	NOUN	NOUN	_	49	obj	_	TokenRange=390:395
+51	regime	regime	NOUN	NOUN	_	49	nsubj	_	TokenRange=396:402
+52	militar	militar	ADJ	ADJ	_	51	amod	_	TokenRange=403:410
+53	marinha	_	NOUN	NOUN	_	51	appos	_	TokenRange=411:418
+54	tres	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=419:423
+55	foras	fora	NOUN	NOUN	_	53	appos	_	TokenRange=424:429
+56	armadas	armado	ADJ	ADJ	_	55	amod	_	TokenRange=430:437
+57	consegue	conseguir	VERB	VERB	_	49	parataxis	_	TokenRange=438:446
+58	prevenir	prevenir	VERB	VERB	_	57	xcomp	_	TokenRange=447:455
+59	naufragios	naufragio	NOUN	NOUN	_	58	obj	_	TokenRange=456:466
+60	fiscalizando	fiscalizar	VERB	VERB	_	59	acl	_	TokenRange=467:479
+61	embarcacoes	embarcacoe	NOUN	NOUN	_	60	obj	_	TokenRange=480:491
+62	pode	_	AUX	AUX	_	63	aux	_	TokenRange=492:496
+63	impedir	impedir	VERB	VERB	_	49	conj	_	TokenRange=497:504
+64	nau	_	NOUN	NOUN	_	63	nsubj	_	TokenRange=505:508
+65	brasil	brasil	NOUN	NOUN	_	64	flat	_	TokenRange=509:515
+66	afunde	_	ADV	ADV	_	63	advmod	_	TokenRange=516:522
+67	inocentes	inocente	NOUN	NOUN	_	68	nsubj	_	TokenRange=523:532
+68	sabem	saber	VERB	VERB	_	63	parataxis	_	TokenRange=533:538
+69	nada	_	PRON	PRON	_	68	obj	_	TokenRange=539:543
+70	comentario	comentario	NOUN	NOUN	_	68	obj	_	TokenRange=544:554
+71	jornal	jornal	NOUN	NOUN	_	68	obj	_	TokenRange=555:561
+72	eldorado	eldorado	ADJ	ADJ	_	71	amod	_	TokenRange=562:570
+73	radio	radio	NOUN	NOUN	_	71	appos	_	TokenRange=571:576
+74	eldorado	eldorado	ADJ	ADJ	_	73	amod	_	TokenRange=577:585
+75	fm	_	NOUN	NOUN	_	68	parataxis	_	TokenRange=586:588
+76	1073	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=589:593
+77	sextafeira	sextafeira	NOUN	NOUN	_	68	nsubj	_	TokenRange=594:604
+78	25	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=605:607
+79	agosto	_	PROPN	PNOUN	_	77	nmod	_	TokenRange=608:614
+80	2017	_	NUM	NUM	NumType=Card	79	nmod	_	TokenRange=615:619
+81	7h30m	_	NUM	NUM	_	87	nsubj	_	TokenRange=620:625
+82	ouvir	ouvir	VERB	VERB	_	83	parataxis	_	TokenRange=626:631
+83	clique	clicar	VERB	VERB	_	68	parataxis	_	TokenRange=632:638
+84	aqui	aqui	ADV	ADV	_	85	advmod	_	TokenRange=639:643
+85	seguida	seguido	ADJ	ADJ	_	83	amod	_	TokenRange=644:651
+86	play	_	NOUN	NOUN	_	87	obj	_	TokenRange=652:656
+87	ouvir	ouvir	VERB	VERB	_	83	conj	_	SpaceAfter=No|TokenRange=657:662
+

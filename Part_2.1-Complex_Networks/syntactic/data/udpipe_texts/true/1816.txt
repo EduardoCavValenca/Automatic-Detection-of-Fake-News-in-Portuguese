@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lobista alexandre paes santos aps preso envolvimento suposto esquema compra medidas provisorias governo federal arrolou expresidente luiz inacio lula silva depor testemunha defesa justica intimacao petista 11 pessoas autorizada juiz vallisney souza oliveira 10 vara federal brasilia conduz acao penal sobre caso investigado operacao zelotes oitivas marcadas fim deste mes
+1	lobista	lobista	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:7
+2	alexandre	alexandre	NOUN	NOUN	_	1	appos	_	TokenRange=8:17
+3	paes	_	NOUN	NOUN	_	2	flat	_	TokenRange=18:22
+4	santos	santo	NOUN	NOUN	_	2	flat	_	TokenRange=23:29
+5	aps	_	NOUN	NOUN	_	1	appos	_	TokenRange=30:33
+6	preso	_	VERB	VERB	_	1	acl	_	TokenRange=34:39
+7	envolvimento	envolvimento	NOUN	NOUN	_	1	appos	_	TokenRange=40:52
+8	suposto	suposto	ADJ	ADJ	_	9	amod	_	TokenRange=53:60
+9	esquema	esquema	NOUN	NOUN	_	1	appos	_	TokenRange=61:68
+10	compra	comprar	VERB	VERB	_	1	parataxis	_	TokenRange=69:75
+11	medidas	medida	NOUN	NOUN	_	10	obj	_	TokenRange=76:83
+12	provisorias	provisorio	ADJ	ADJ	_	11	amod	_	TokenRange=84:95
+13	governo	governo	NOUN	NOUN	_	15	nsubj	_	TokenRange=96:103
+14	federal	federal	ADJ	ADJ	_	13	amod	_	TokenRange=104:111
+15	arrolou	arrolar	VERB	VERB	_	0	root	_	TokenRange=112:119
+16	expresidente	expresidente	NOUN	NOUN	_	15	obj	_	TokenRange=120:132
+17	luiz	luiz	ADJ	ADJ	_	16	appos	_	TokenRange=133:137
+18	inacio	_	NOUN	NOUN	_	16	appos	_	TokenRange=138:144
+19	lula	_	NOUN	NOUN	_	18	flat	_	TokenRange=145:149
+20	silva	silva	NOUN	NOUN	_	18	flat	_	TokenRange=150:155
+21	depor	depor	VERB	VERB	_	15	xcomp	_	TokenRange=156:161
+22	testemunha	testemunha	NOUN	NOUN	_	21	obj	_	TokenRange=162:172
+23	defesa	_	NOUN	NOUN	_	22	appos	_	TokenRange=173:179
+24	justica	justico	ADJ	ADJ	_	23	amod	_	TokenRange=180:187
+25	intimacao	intimacao	ADJ	ADJ	_	23	amod	_	TokenRange=188:197
+26	petista	petista	NOUN	NOUN	_	21	obj	_	TokenRange=198:205
+27	11	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=206:208
+28	pessoas	pessoa	NOUN	NOUN	_	26	appos	_	TokenRange=209:216
+29	autorizada	autorizado	ADJ	ADJ	_	30	amod	_	TokenRange=217:227
+30	juiz	juiz	NOUN	NOUN	_	26	appos	_	TokenRange=228:232
+31	vallisney	_	NOUN	NOUN	_	30	appos	_	TokenRange=233:242
+32	souza	_	NOUN	NOUN	_	31	flat	_	TokenRange=243:248
+33	oliveira	oliveira	ADJ	ADJ	_	31	flat	_	TokenRange=249:257
+34	10	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=258:260
+35	vara	vara	NOUN	NOUN	_	30	appos	_	TokenRange=261:265
+36	federal	federal	ADJ	ADJ	_	35	amod	_	TokenRange=266:273
+37	brasilia	brasilia	NOUN	NOUN	_	35	appos	_	TokenRange=274:282
+38	conduz	conduzir	VERB	VERB	_	15	parataxis	_	TokenRange=283:289
+39	acao	acao	NOUN	NOUN	_	38	obj	_	TokenRange=290:294
+40	penal	penal	ADJ	ADJ	_	39	amod	_	TokenRange=295:300
+41	sobre	_	ADP	ADP	_	42	case	_	TokenRange=301:306
+42	caso	caso	NOUN	NOUN	_	39	nmod	_	TokenRange=307:311
+43	investigado	investigar	VERB	VERB	_	42	acl	_	TokenRange=312:323
+44	operacao	operacao	ADJ	ADJ	_	42	amod	_	TokenRange=324:332
+45	zelotes	zelote	NOUN	NOUN	_	42	appos	_	TokenRange=333:340
+46	oitivas	_	NOUN	NOUN	_	42	appos	_	TokenRange=341:348
+47	marcadas	marcar	VERB	VERB	_	46	acl	_	TokenRange=349:357
+48	fim	fim	NOUN	NOUN	_	47	obj	_	TokenRange=358:361
+49	deste	_	ADP	ADP	_	50	case	_	TokenRange=362:367
+50	mes	mes	NOUN	NOUN	_	48	nmod	_	SpaceAfter=No|TokenRange=368:371
+

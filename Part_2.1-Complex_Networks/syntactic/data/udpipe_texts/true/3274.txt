@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = atentado nova york oitavo atropelamento 2017 barcelona londres paris registraram casos tipo atentado nova york nesta tercafeira 31 oitavo autores usaram atropelamento forma atingir vitimas 2017 segundo policia americana oito pessoas morreram dez ficaram feridas motorista caminhao invadiu ciclovia atropelou antes ainda ano pessoas atropeladas ataques edmonton canada barcelona paris estocolmo londres apenas capital inglesa tres ataques tipo 2016 atentados semelhantes acontecido berlim alemanha nice franca veja seguir casos atentados atropelamentos desde ano passado veiculo invadiu ciclovia caminho
+1	atentado	atentado	NOUN	NOUN	_	10	parataxis	_	TokenRange=0:8
+2	nova	novo	ADJ	ADJ	_	1	amod	_	TokenRange=9:13
+3	york	_	PROPN	PNOUN	_	1	amod	_	TokenRange=14:18
+4	oitavo	_	ADJ	ADJ	_	5	amod	_	TokenRange=19:25
+5	atropelamento	atropelamento	NOUN	NOUN	_	1	appos	_	TokenRange=26:39
+6	2017	_	NUM	NUM	NumType=Card	5	appos	_	TokenRange=40:44
+7	barcelona	barcelono	NOUN	NOUN	_	1	appos	_	TokenRange=45:54
+8	londres	londr	ADJ	ADJ	_	5	amod	_	TokenRange=55:62
+9	paris	_	NOUN	NOUN	_	7	amod	_	TokenRange=63:68
+10	registraram	registrar	VERB	VERB	_	0	root	_	TokenRange=69:80
+11	casos	caso	NOUN	NOUN	_	10	obj	_	TokenRange=81:86
+12	tipo	tipo	NOUN	NOUN	_	11	appos	_	TokenRange=87:91
+13	atentado	atentado	NOUN	NOUN	_	12	appos	_	TokenRange=92:100
+14	nova	novo	ADJ	ADJ	_	15	amod	_	TokenRange=101:105
+15	york	_	PROPN	PNOUN	_	13	appos	_	TokenRange=106:110
+16	nesta	_	ADP	ADP	_	17	case	_	TokenRange=111:116
+17	tercafeira	_	NOUN	NOUN	_	21	nmod	_	TokenRange=117:127
+18	31	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=128:130
+19	oitavo	_	ADJ	ADJ	_	20	nummod	_	TokenRange=131:137
+20	autores	autor	NOUN	NOUN	_	21	nsubj	_	TokenRange=138:145
+21	usaram	usar	VERB	VERB	_	10	parataxis	_	TokenRange=146:152
+22	atropelamento	atropelamento	NOUN	NOUN	_	21	obj	_	TokenRange=153:166
+23	forma	forma	NOUN	NOUN	_	24	mark	_	TokenRange=167:172
+24	atingir	atingir	VERB	VERB	_	21	advcl	_	TokenRange=173:180
+25	vitimas	_	NOUN	NOUN	_	24	obj	_	TokenRange=181:188
+26	2017	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=189:193
+27	segundo	_	ADP	ADP	_	28	case	_	TokenRange=194:201
+28	policia	policia	NOUN	NOUN	_	21	nmod	_	TokenRange=202:209
+29	americana	americano	ADJ	ADJ	_	28	amod	_	TokenRange=210:219
+30	oito	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=220:224
+31	pessoas	pessoa	NOUN	NOUN	_	32	nsubj	_	TokenRange=225:232
+32	morreram	morrer	VERB	VERB	_	28	acl:relcl	_	TokenRange=233:241
+33	dez	_	NUM	NUM	NumType=Card	34	nsubj	_	TokenRange=242:245
+34	ficaram	ficar	VERB	VERB	_	32	ccomp	_	TokenRange=246:253
+35	feridas	ferido	ADJ	ADJ	_	34	xcomp	_	TokenRange=254:261
+36	motorista	motorista	ADJ	ADJ	_	34	nsubj	_	TokenRange=262:271
+37	caminhao	caminhao	NOUN	NOUN	_	38	nsubj	_	TokenRange=272:280
+38	invadiu	invadir	VERB	VERB	_	34	csubj	_	TokenRange=281:288
+39	ciclovia	ciclovia	NOUN	NOUN	_	38	obj	_	TokenRange=289:297
+40	atropelou	atropelar	VERB	VERB	_	38	parataxis	_	TokenRange=298:307
+41	antes	antes	ADV	ADV	_	40	advmod	_	TokenRange=308:313
+42	ainda	ainda	ADV	ADV	_	43	advmod	_	TokenRange=314:319
+43	ano	ano	NOUN	NOUN	_	41	nmod	_	TokenRange=320:323
+44	pessoas	pessoa	NOUN	NOUN	_	40	obj	_	TokenRange=324:331
+45	atropeladas	atropelado	ADJ	ADJ	_	44	amod	_	TokenRange=332:343
+46	ataques	ataque	NOUN	NOUN	_	40	nsubj	_	TokenRange=344:351
+47	edmonton	edmonton	NOUN	NOUN	_	46	appos	_	TokenRange=352:360
+48	canada	canada	ADJ	ADJ	_	47	amod	_	TokenRange=361:367
+49	barcelona	barcelono	NOUN	NOUN	_	47	appos	_	TokenRange=368:377
+50	paris	_	NOUN	NOUN	_	47	appos	_	TokenRange=378:383
+51	estocolmo	estocolmo	NOUN	NOUN	_	48	conj	_	TokenRange=384:393
+52	londres	londr	ADJ	ADJ	_	51	amod	_	TokenRange=394:401
+53	apenas	apenas	ADV	ADV	_	54	advmod	_	TokenRange=402:408
+54	capital	capital	NOUN	NOUN	_	47	conj	_	TokenRange=409:416
+55	inglesa	inglês	ADJ	ADJ	_	54	amod	_	TokenRange=417:424
+56	tres	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=425:429
+57	ataques	ataque	NOUN	NOUN	_	67	nsubj	_	TokenRange=430:437
+58	tipo	tipo	NOUN	NOUN	_	57	appos	_	TokenRange=438:442
+59	2016	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=443:447
+60	atentados	atentado	NOUN	NOUN	_	57	appos	_	TokenRange=448:457
+61	semelhantes	semelhante	ADJ	ADJ	_	60	amod	_	TokenRange=458:469
+62	acontecido	acontecer	VERB	VERB	_	57	acl	_	TokenRange=470:480
+63	berlim	berlim	NOUN	NOUN	_	62	nmod	_	TokenRange=481:487
+64	alemanha	alemanha	NOUN	NOUN	_	62	nmod	_	TokenRange=488:496
+65	nice	nice	NOUN	NOUN	_	64	appos	_	TokenRange=497:501
+66	franca	franco	ADJ	ADJ	_	64	amod	_	TokenRange=502:508
+67	veja	ver	VERB	VERB	_	10	parataxis	_	TokenRange=509:513
+68	seguir	seguir	VERB	VERB	_	67	xcomp	_	TokenRange=514:520
+69	casos	caso	NOUN	NOUN	_	68	obj	_	TokenRange=521:526
+70	atentados	atentado	ADJ	ADJ	_	69	amod	_	TokenRange=527:536
+71	atropelamentos	atropelamento	NOUN	NOUN	_	69	appos	_	TokenRange=537:551
+72	desde	_	ADP	ADP	_	73	case	_	TokenRange=552:557
+73	ano	ano	NOUN	NOUN	_	76	nmod	_	TokenRange=558:561
+74	passado	passado	ADJ	ADJ	_	73	amod	_	TokenRange=562:569
+75	veiculo	veiculo	NOUN	NOUN	_	76	nsubj	_	TokenRange=570:577
+76	invadiu	invadir	VERB	VERB	_	67	parataxis	_	TokenRange=578:585
+77	ciclovia	ciclovia	NOUN	NOUN	_	76	obj	_	TokenRange=586:594
+78	caminho	caminho	NOUN	NOUN	_	76	obj	_	SpaceAfter=No|TokenRange=595:602
+

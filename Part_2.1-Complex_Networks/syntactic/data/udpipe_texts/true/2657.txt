@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alegacoes finais tse dilma nega irregularidades campanha 2014 corte eleitoral julgara abuso poder politico economico reeleicao dilma rousseff michel temer petista refuta tese separacao chapa pede temer expresidente dilma rousseff negou alegacoes finais apresentadas tribunal superior eleitoral tse sextafeira 24 acusacoes campanha presidencial 2014 financiada recursos origem ilicita reeleita entao vicepresidente michel temer petista refuta tese separacao chapa julgamento tse apura desde 2015 pedido psdb campanha cometeu abuso poder politico economico recebeu dinheiro propina
+1	alegacoes	alegacoe	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:9
+2	finais	final	ADJ	ADJ	_	1	amod	_	TokenRange=10:16
+3	tse	_	PRON	PRON	_	5	nsubj	_	TokenRange=17:20
+4	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=21:26
+5	nega	negar	VERB	VERB	_	0	root	_	TokenRange=27:31
+6	irregularidades	irregularidade	NOUN	NOUN	_	5	obj	_	TokenRange=32:47
+7	campanha	campanha	NOUN	NOUN	_	5	nmod	_	TokenRange=48:56
+8	2014	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=57:61
+9	corte	corte	NOUN	NOUN	_	5	nsubj	_	TokenRange=62:67
+10	eleitoral	eleitoral	ADJ	ADJ	_	9	amod	_	TokenRange=68:77
+11	julgara	julgar	VERB	VERB	_	5	parataxis	_	TokenRange=78:85
+12	abuso	abuso	ADJ	ADJ	_	13	amod	_	TokenRange=86:91
+13	poder	poder	NOUN	NOUN	_	11	obj	_	TokenRange=92:97
+14	politico	politico	ADJ	ADJ	_	13	amod	_	TokenRange=98:106
+15	economico	economico	ADJ	ADJ	_	13	amod	_	TokenRange=107:116
+16	reeleicao	reeleicao	NOUN	NOUN	_	13	appos	_	TokenRange=117:126
+17	dilma	dilma	NOUN	NOUN	_	22	nsubj	_	TokenRange=127:132
+18	rousseff	rousseff	NOUN	NOUN	_	17	flat	_	TokenRange=133:141
+19	michel	_	DET	DET	_	20	amod	_	TokenRange=142:148
+20	temer	temer	NOUN	NOUN	_	17	appos	_	TokenRange=149:154
+21	petista	petista	NOUN	NOUN	_	20	amod	_	TokenRange=155:162
+22	refuta	refutar	VERB	VERB	_	5	parataxis	_	TokenRange=163:169
+23	tese	tese	NOUN	NOUN	_	22	obj	_	TokenRange=170:174
+24	separacao	separacao	ADJ	ADJ	_	23	amod	_	TokenRange=175:184
+25	chapa	chapa	NOUN	NOUN	_	26	nsubj	_	TokenRange=185:190
+26	pede	pedir	VERB	VERB	_	22	parataxis	_	TokenRange=191:195
+27	temer	temer	NOUN	NOUN	_	26	obj	_	TokenRange=196:201
+28	expresidente	expresidente	NOUN	NOUN	_	26	nsubj	_	TokenRange=202:214
+29	dilma	dilma	NOUN	NOUN	_	28	appos	_	TokenRange=215:220
+30	rousseff	rousseff	NOUN	NOUN	_	28	flat	_	TokenRange=221:229
+31	negou	negar	VERB	VERB	_	26	ccomp	_	TokenRange=230:235
+32	alegacoes	alegacoe	NOUN	NOUN	_	31	obj	_	TokenRange=236:245
+33	finais	final	ADJ	ADJ	_	32	amod	_	TokenRange=246:252
+34	apresentadas	apresentar	VERB	VERB	_	32	acl	_	TokenRange=253:265
+35	tribunal	tribunal	NOUN	NOUN	_	34	nmod	_	TokenRange=266:274
+36	superior	superior	ADJ	ADJ	_	35	amod	_	TokenRange=275:283
+37	eleitoral	eleitoral	ADJ	ADJ	_	35	amod	_	TokenRange=284:293
+38	tse	_	PRON	PRON	_	42	appos	_	TokenRange=294:297
+39	sextafeira	_	NOUN	NOUN	_	42	appos	_	TokenRange=298:308
+40	24	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=309:311
+41	acusacoes	acusacoe	NOUN	NOUN	_	42	appos	_	TokenRange=312:321
+42	campanha	campanha	NOUN	NOUN	_	31	nsubj	_	TokenRange=322:330
+43	presidencial	presidencial	ADJ	ADJ	_	42	amod	_	TokenRange=331:343
+44	2014	_	NUM	NUM	NumType=Card	42	nmod	_	TokenRange=344:348
+45	financiada	financiado	ADJ	ADJ	_	42	amod	_	TokenRange=349:359
+46	recursos	recurso	NOUN	NOUN	_	42	appos	_	TokenRange=360:368
+47	origem	origem	NOUN	NOUN	_	42	appos	_	TokenRange=369:375
+48	ilicita	ilicito	ADJ	ADJ	_	47	amod	_	TokenRange=376:383
+49	reeleita	reeleitar	VERB	VERB	_	47	acl	_	TokenRange=384:392
+50	entao	entao	ADV	ADV	_	51	advmod	_	TokenRange=393:398
+51	vicepresidente	vicepresidente	NOUN	NOUN	_	55	nsubj	_	TokenRange=399:413
+52	michel	_	ADJ	ADJ	_	53	amod	_	TokenRange=414:420
+53	temer	temer	NOUN	NOUN	_	51	appos	_	TokenRange=421:426
+54	petista	petista	NOUN	NOUN	_	51	amod	_	TokenRange=427:434
+55	refuta	refutar	VERB	VERB	_	5	parataxis	_	TokenRange=435:441
+56	tese	tese	NOUN	NOUN	_	55	obj	_	TokenRange=442:446
+57	separacao	separacao	ADJ	ADJ	_	56	amod	_	TokenRange=447:456
+58	chapa	chapa	NOUN	NOUN	_	56	appos	_	TokenRange=457:462
+59	julgamento	julgamento	NOUN	NOUN	_	56	appos	_	TokenRange=463:473
+60	tse	_	PRON	PRON	_	61	nsubj	_	TokenRange=474:477
+61	apura	apurar	VERB	VERB	_	55	parataxis	_	TokenRange=478:483
+62	desde	_	ADP	ADP	_	63	case	_	TokenRange=484:489
+63	2015	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=490:494
+64	pedido	pedido	NOUN	NOUN	_	72	nsubj	_	TokenRange=495:501
+65	psdb	_	NOUN	NOUN	_	64	appos	_	TokenRange=502:506
+66	campanha	campanha	NOUN	NOUN	_	67	nsubj	_	TokenRange=507:515
+67	cometeu	cometer	VERB	VERB	_	64	acl:relcl	_	TokenRange=516:523
+68	abuso	abuso	ADJ	ADJ	_	69	amod	_	TokenRange=524:529
+69	poder	poder	NOUN	NOUN	_	67	obj	_	TokenRange=530:535
+70	politico	politico	ADJ	ADJ	_	69	amod	_	TokenRange=536:544
+71	economico	economico	ADJ	ADJ	_	69	amod	_	TokenRange=545:554
+72	recebeu	receber	VERB	VERB	_	61	conj	_	TokenRange=555:562
+73	dinheiro	dinheiro	NOUN	NOUN	_	72	obj	_	TokenRange=563:571
+74	propina	propino	ADJ	ADJ	_	73	amod	_	SpaceAfter=No|TokenRange=572:579
+

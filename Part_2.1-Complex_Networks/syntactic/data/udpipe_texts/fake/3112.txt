@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = coreia norte lanca dois misseis japao entra estado alerta coreia norte lancou hoje 10 dois misseis curto alcance litoral leste pais acordo ministerio defesa seul pais anunciou nesta quinta desfazendo todos acordos coreia sul projetos intercambio comercial vai liquidar ativos sulcoreanos deixados tras territorio norte coreia norte grande estoque misseis curto alcance desenvolvendo misseis longo alcance intercontinentais misseis disparados nesta quintafeira percorreram distancia 500 km cair mar cidade wonsan especialistas apontam misseis serie sovietica scud japao apresentou protesto junto embaixada coreia norte pequim segundo agencia noticias japonesa kyodo
+1	coreia	coreia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	norte	norte	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	lanca	lancar	VERB	VERB	_	0	root	_	TokenRange=13:18
+4	dois	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=19:23
+5	misseis	missil	NOUN	NOUN	_	3	obj	_	TokenRange=24:31
+6	japao	japao	NOUN	NOUN	_	5	amod	_	TokenRange=32:37
+7	entra	entrar	VERB	VERB	_	3	parataxis	_	TokenRange=38:43
+8	estado	estado	NOUN	NOUN	_	3	obj	_	TokenRange=44:50
+9	alerta	alerto	ADJ	ADJ	_	8	amod	_	TokenRange=51:57
+10	coreia	coreia	NOUN	NOUN	_	27	nsubj	_	TokenRange=58:64
+11	norte	norte	ADJ	ADJ	_	10	amod	_	TokenRange=65:70
+12	lancou	lancar	VERB	VERB	_	3	parataxis	_	TokenRange=71:77
+13	hoje	hoje	ADV	ADV	_	12	advmod	_	TokenRange=78:82
+14	10	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=83:85
+15	dois	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=86:90
+16	misseis	missil	NOUN	NOUN	_	12	obj	_	TokenRange=91:98
+17	curto	curto	ADJ	ADJ	_	18	amod	_	TokenRange=99:104
+18	alcance	alcance	NOUN	NOUN	_	16	appos	_	TokenRange=105:112
+19	litoral	litoral	ADJ	ADJ	_	16	amod	_	TokenRange=113:120
+20	leste	leste	ADJ	ADJ	_	18	amod	_	TokenRange=121:126
+21	pais	_	NOUN	NOUN	_	22	amod	_	TokenRange=127:131
+22	acordo	acordo	NOUN	NOUN	_	16	appos	_	TokenRange=132:138
+23	ministerio	ministerio	ADJ	ADJ	_	22	amod	_	TokenRange=139:149
+24	defesa	_	NOUN	NOUN	_	22	appos	_	TokenRange=150:156
+25	seul	_	DET	DET	_	26	det:poss	_	TokenRange=157:161
+26	pais	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=162:166
+27	anunciou	anunciar	VERB	VERB	_	3	parataxis	_	TokenRange=167:175
+28	nesta	_	ADP	ADP	_	29	case	_	TokenRange=176:181
+29	quinta	_	PROPN	PNOUN	_	27	nmod	_	TokenRange=182:188
+30	desfazendo	desfazer	VERB	VERB	_	27	acl	_	TokenRange=189:199
+31	todos	_	DET	DET	_	32	det	_	TokenRange=200:205
+32	acordos	acordo	NOUN	NOUN	_	30	obj	_	TokenRange=206:213
+33	coreia	coreia	NOUN	NOUN	_	32	appos	_	TokenRange=214:220
+34	sul	sul	ADJ	ADJ	_	33	amod	_	TokenRange=221:224
+35	projetos	projeto	NOUN	NOUN	_	39	nsubj	_	TokenRange=225:233
+36	intercambio	intercambio	NOUN	NOUN	_	33	appos	_	TokenRange=234:245
+37	comercial	comercial	ADJ	ADJ	_	36	amod	_	TokenRange=246:255
+38	vai	ir	AUX	AUX	_	39	aux	_	TokenRange=256:259
+39	liquidar	liquidar	VERB	VERB	_	3	parataxis	_	TokenRange=260:268
+40	ativos	ativo	NOUN	NOUN	_	39	obj	_	TokenRange=269:275
+41	sulcoreanos	sulcoreano	ADJ	ADJ	_	40	amod	_	TokenRange=276:287
+42	deixados	deixar	VERB	VERB	_	40	acl	_	TokenRange=288:296
+43	tras	_	ADP	ADP	_	44	case	_	TokenRange=297:301
+44	territorio	territorio	NOUN	NOUN	_	42	nmod	_	TokenRange=302:312
+45	norte	norte	ADJ	ADJ	_	44	amod	_	TokenRange=313:318
+46	coreia	coreia	NOUN	NOUN	_	39	nsubj	_	TokenRange=319:325
+47	norte	norte	ADJ	ADJ	_	49	amod	_	TokenRange=326:331
+48	grande	grande	ADJ	ADJ	_	49	amod	_	TokenRange=332:338
+49	estoque	estoque	NOUN	NOUN	_	39	nsubj	_	TokenRange=339:346
+50	misseis	missil	NOUN	NOUN	_	49	appos	_	TokenRange=347:354
+51	curto	curto	ADJ	ADJ	_	52	amod	_	TokenRange=355:360
+52	alcance	alcance	NOUN	NOUN	_	50	appos	_	TokenRange=361:368
+53	desenvolvendo	desenvolver	VERB	VERB	_	49	acl	_	TokenRange=369:382
+54	misseis	missil	NOUN	NOUN	_	53	obj	_	TokenRange=383:390
+55	longo	longo	ADJ	ADJ	_	56	amod	_	TokenRange=391:396
+56	alcance	alcance	NOUN	NOUN	_	54	appos	_	TokenRange=397:404
+57	intercontinentais	intercontinental	ADJ	ADJ	_	58	amod	_	TokenRange=405:422
+58	misseis	missil	NOUN	NOUN	_	54	appos	_	TokenRange=423:430
+59	disparados	disparar	VERB	VERB	_	58	acl	_	TokenRange=431:441
+60	nesta	_	ADP	ADP	_	61	case	_	TokenRange=442:447
+61	quintafeira	quintafeira	NOUN	NOUN	_	62	nmod	_	TokenRange=448:459
+62	percorreram	percorrer	VERB	VERB	_	3	parataxis	_	TokenRange=460:471
+63	distancia	distancia	NOUN	NOUN	_	62	obj	_	TokenRange=472:481
+64	500	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=482:485
+65	km	km	NOUN	NOUN	_	66	nsubj	_	TokenRange=486:488
+66	cair	cair	VERB	VERB	_	62	ccomp	_	TokenRange=489:493
+67	mar	mar	NOUN	NOUN	_	66	obj	_	TokenRange=494:497
+68	cidade	cidade	NOUN	NOUN	_	66	obj	_	TokenRange=498:504
+69	wonsan	_	ADJ	ADJ	_	68	amod	_	TokenRange=505:511
+70	especialistas	especialista	NOUN	NOUN	_	71	nsubj	_	TokenRange=512:525
+71	apontam	apontar	VERB	VERB	_	62	parataxis	_	TokenRange=526:533
+72	misseis	missil	NOUN	NOUN	_	71	obj	_	TokenRange=534:541
+73	serie	_	NOUN	NOUN	_	72	appos	_	TokenRange=542:547
+74	sovietica	sovietico	ADJ	ADJ	_	73	amod	_	TokenRange=548:557
+75	scud	_	PROPN	PNOUN	_	72	appos	_	TokenRange=558:562
+76	japao	japao	NOUN	NOUN	_	75	flat	_	TokenRange=563:568
+77	apresentou	apresentar	VERB	VERB	_	71	parataxis	_	TokenRange=569:579
+78	protesto	protesto	NOUN	NOUN	_	77	obj	_	TokenRange=580:588
+79	junto	junto	ADV	ADV	_	77	advmod	_	TokenRange=589:594
+80	embaixada	embaixada	NOUN	NOUN	_	78	amod	_	TokenRange=595:604
+81	coreia	coreia	NOUN	NOUN	_	80	appos	_	TokenRange=605:611
+82	norte	norte	ADJ	ADJ	_	81	amod	_	TokenRange=612:617
+83	pequim	pequim	VERB	VERB	_	77	parataxis	_	TokenRange=618:624
+84	segundo	_	ADP	ADP	_	85	case	_	TokenRange=625:632
+85	agencia	agencia	NOUN	NOUN	_	77	nmod	_	TokenRange=633:640
+86	noticias	noticia	NOUN	NOUN	_	85	flat	_	TokenRange=641:649
+87	japonesa	japonês	ADJ	ADJ	_	85	amod	_	TokenRange=650:658
+88	kyodo	_	PROPN	PNOUN	_	85	appos	_	SpaceAfter=No|TokenRange=659:664
+

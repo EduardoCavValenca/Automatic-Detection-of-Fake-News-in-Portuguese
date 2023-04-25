@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sologamia cada vez pessoas casando consigo mesmas muitas pessoas decidem casar consigo mesmas cerimonias trajes proprios bolo padrinhos quais celebram outras coisas amorproprio empresas ramo casamentos tentam ajustar nova moda verao 2000 artista gabrielle penabaz nova york decidiu dar
+1	sologamia	sologamia	NOUN	NOUN	_	38	nsubj	_	TokenRange=0:9
+2	cada	_	DET	DET	_	3	det	_	TokenRange=10:14
+3	vez	vez	NOUN	NOUN	_	1	nmod	_	TokenRange=15:18
+4	pessoas	pessoa	NOUN	NOUN	_	1	appos	_	TokenRange=19:26
+5	casando	casar	VERB	VERB	_	4	acl	_	TokenRange=27:34
+6	consigo	_	X	ADPPRON	_	5	nmod	_	TokenRange=35:42
+7	mesmas	mesmo	ADJ	ADJ	_	6	amod	_	TokenRange=43:49
+8	muitas	_	DET	DET	_	9	det	_	TokenRange=50:56
+9	pessoas	pessoa	NOUN	NOUN	_	10	nsubj	_	TokenRange=57:64
+10	decidem	decidir	VERB	VERB	_	1	acl:relcl	_	TokenRange=65:72
+11	casar	casar	VERB	VERB	_	10	xcomp	_	TokenRange=73:78
+12	consigo	_	ADP	ADP	_	11	nmod	_	TokenRange=79:86
+13	mesmas	mesmo	ADJ	ADJ	_	14	amod	_	TokenRange=87:93
+14	cerimonias	cerimonia	NOUN	NOUN	_	11	nmod	_	TokenRange=94:104
+15	trajes	traje	NOUN	NOUN	_	14	appos	_	TokenRange=105:111
+16	proprios	proprio	ADJ	ADJ	_	15	amod	_	TokenRange=112:120
+17	bolo	bolo	NOUN	NOUN	_	14	appos	_	TokenRange=121:125
+18	padrinhos	_	NOUN	NOUN	_	15	appos	_	TokenRange=126:135
+19	quais	_	PRON	PRON	_	20	nsubj	_	TokenRange=136:141
+20	celebram	celebrar	VERB	VERB	_	18	acl:relcl	_	TokenRange=142:150
+21	outras	_	DET	DET	_	22	det	_	TokenRange=151:157
+22	coisas	coisa	NOUN	NOUN	_	20	obj	_	TokenRange=158:164
+23	amorproprio	amorproprio	ADJ	ADJ	_	24	amod	_	TokenRange=165:176
+24	empresas	empresa	NOUN	NOUN	_	20	obj	_	TokenRange=177:185
+25	ramo	ramo	NOUN	NOUN	_	24	appos	_	TokenRange=186:190
+26	casamentos	casamento	NOUN	NOUN	_	24	appos	_	TokenRange=191:201
+27	tentam	tentar	VERB	VERB	_	1	acl:relcl	_	TokenRange=202:208
+28	ajustar	ajustar	VERB	VERB	_	27	xcomp	_	TokenRange=209:216
+29	nova	novo	ADJ	ADJ	_	30	amod	_	TokenRange=217:221
+30	moda	moda	NOUN	NOUN	_	28	obj	_	TokenRange=222:226
+31	verao	verao	NOUN	NOUN	_	28	nmod	_	TokenRange=227:232
+32	2000	_	NUM	NUM	NumType=Card	31	nmod	_	TokenRange=233:237
+33	artista	artista	NOUN	NOUN	_	38	nsubj	_	TokenRange=238:245
+34	gabrielle	_	NOUN	NOUN	_	33	appos	_	TokenRange=246:255
+35	penabaz	_	NOUN	NOUN	_	34	flat	_	TokenRange=256:263
+36	nova	novo	ADJ	ADJ	_	37	amod	_	TokenRange=264:268
+37	york	_	PROPN	PNOUN	_	34	appos	_	TokenRange=269:273
+38	decidiu	decidir	VERB	VERB	_	0	root	_	TokenRange=274:281
+39	dar	dar	VERB	VERB	_	38	xcomp	_	SpaceAfter=No|TokenRange=282:285
+

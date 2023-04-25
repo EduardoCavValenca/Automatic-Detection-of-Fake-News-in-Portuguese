@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ladrao rouba igreja evangelica assaltado sair delegacia reclamou violencia pais ultimo domingo 23 rapaz 18 anos resolveu assaltar igreja evangelica bandido entrou igreja roubou celular duas pessoas saiu correndo cruzar esquina azarado assaltado dois homens deram sova policia chegou local crime porque acionada vitimas igreja primeiro ladrao preso flagrante outros dois conseguiram fugir portal tribuna ceara informou chegar delegacia ladrao passou vitima inconformado reclamou violencia sofrida quis registrar boletim ocorrencia contra outros ladroes caso aconteceu cidade sobral interior ceara
+1	ladrao	ladrao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	rouba	roubar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	igreja	igreja	NOUN	NOUN	_	2	obj	_	TokenRange=13:19
+4	evangelica	evangelico	ADJ	ADJ	_	3	amod	_	TokenRange=20:30
+5	assaltado	_	ADJ	ADJ	_	6	nsubj	_	TokenRange=31:40
+6	sair	sair	VERB	VERB	_	3	acl	_	TokenRange=41:45
+7	delegacia	delegacia	NOUN	NOUN	_	6	obj	_	TokenRange=46:55
+8	reclamou	reclamar	VERB	VERB	_	2	parataxis	_	TokenRange=56:64
+9	violencia	violencia	NOUN	NOUN	_	8	obj	_	TokenRange=65:74
+10	pais	_	NOUN	NOUN	_	9	flat	_	TokenRange=75:79
+11	ultimo	_	ADJ	ADJ	_	12	amod	_	TokenRange=80:86
+12	domingo	_	PROPN	PNOUN	_	8	nsubj	_	TokenRange=87:94
+13	23	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=95:97
+14	rapaz	rapaz	NOUN	NOUN	_	17	nsubj	_	TokenRange=98:103
+15	18	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=104:106
+16	anos	ano	NOUN	NOUN	_	17	nsubj	_	TokenRange=107:111
+17	resolveu	resolver	VERB	VERB	_	2	parataxis	_	TokenRange=112:120
+18	assaltar	assaltar	VERB	VERB	_	17	xcomp	_	TokenRange=121:129
+19	igreja	igreja	NOUN	NOUN	_	18	obj	_	TokenRange=130:136
+20	evangelica	evangelico	ADJ	ADJ	_	19	amod	_	TokenRange=137:147
+21	bandido	bandido	NOUN	NOUN	_	19	amod	_	TokenRange=148:155
+22	entrou	entrar	VERB	VERB	_	19	acl:relcl	_	TokenRange=156:162
+23	igreja	igreja	NOUN	NOUN	_	24	obj	_	TokenRange=163:169
+24	roubou	roubar	VERB	VERB	_	22	conj	_	TokenRange=170:176
+25	celular	_	NOUN	NOUN	_	24	obj	_	TokenRange=177:184
+26	duas	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=185:189
+27	pessoas	pessoa	NOUN	NOUN	_	24	nsubj	_	TokenRange=190:197
+28	saiu	sair	VERB	VERB	_	24	conj	_	TokenRange=198:202
+29	correndo	correr	VERB	VERB	_	28	acl	_	TokenRange=203:211
+30	cruzar	cruzar	VERB	VERB	_	29	xcomp	_	TokenRange=212:218
+31	esquina	esquina	NOUN	NOUN	_	30	obj	_	TokenRange=219:226
+32	azarado	azarado	ADJ	ADJ	_	31	amod	_	TokenRange=227:234
+33	assaltado	_	ADJ	ADJ	_	31	amod	_	TokenRange=235:244
+34	dois	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=245:249
+35	homens	homem	NOUN	NOUN	_	36	nsubj	_	TokenRange=250:256
+36	deram	dar	VERB	VERB	_	30	conj	_	TokenRange=257:262
+37	sova	sovo	ADJ	ADJ	_	39	xcomp	_	TokenRange=263:267
+38	policia	policia	NOUN	NOUN	_	39	nsubj	_	TokenRange=268:275
+39	chegou	chegar	VERB	VERB	_	36	conj	_	TokenRange=276:282
+40	local	local	ADJ	ADJ	_	39	xcomp	_	TokenRange=283:288
+41	crime	crime	NOUN	NOUN	_	39	nsubj	_	TokenRange=289:294
+42	porque	_	CCONJ	CONJ	_	43	mark	_	TokenRange=295:301
+43	acionada	acionar	VERB	VERB	_	39	advcl	_	TokenRange=302:310
+44	vitimas	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=311:318
+45	igreja	igreja	NOUN	NOUN	_	44	appos	_	TokenRange=319:325
+46	primeiro	primeiro	ADJ	ADJ	_	47	amod	_	TokenRange=326:334
+47	ladrao	ladrao	NOUN	NOUN	_	52	nsubj	_	TokenRange=335:341
+48	preso	_	VERB	VERB	_	47	acl	_	TokenRange=342:347
+49	flagrante	flagrante	ADJ	ADJ	_	47	amod	_	TokenRange=348:357
+50	outros	_	DET	DET	_	51	det	_	TokenRange=358:364
+51	dois	_	NUM	NUM	NumType=Card	52	nsubj	_	TokenRange=365:369
+52	conseguiram	conseguir	VERB	VERB	_	36	conj	_	TokenRange=370:381
+53	fugir	fugir	VERB	VERB	_	52	xcomp	_	TokenRange=382:387
+54	portal	portal	NOUN	NOUN	_	53	obj	_	TokenRange=388:394
+55	tribuna	tribuna	NOUN	NOUN	_	54	appos	_	TokenRange=395:402
+56	ceara	ceara	ADJ	ADJ	_	57	nsubj	_	TokenRange=403:408
+57	informou	informar	VERB	VERB	_	54	acl:relcl	_	TokenRange=409:417
+58	chegar	chegar	VERB	VERB	_	57	xcomp	_	TokenRange=418:424
+59	delegacia	delegacia	NOUN	NOUN	_	58	obj	_	TokenRange=425:434
+60	ladrao	ladrao	NOUN	NOUN	_	59	amod	_	TokenRange=435:441
+61	passou	passar	VERB	VERB	_	58	ccomp	_	TokenRange=442:448
+62	vitima	vitima	NOUN	NOUN	_	61	obj	_	TokenRange=449:455
+63	inconformado	inconformado	ADJ	ADJ	_	62	amod	_	TokenRange=456:468
+64	reclamou	reclamar	VERB	VERB	_	61	parataxis	_	TokenRange=469:477
+65	violencia	violencia	NOUN	NOUN	_	64	obj	_	TokenRange=478:487
+66	sofrida	sofrer	ADJ	ADJ	_	65	amod	_	TokenRange=488:495
+67	quis	querer	VERB	VERB	_	64	parataxis	_	TokenRange=496:500
+68	registrar	registrar	VERB	VERB	_	67	xcomp	_	TokenRange=501:510
+69	boletim	boletim	NOUN	NOUN	_	68	obj	_	TokenRange=511:518
+70	ocorrencia	ocorrencia	NOUN	NOUN	_	68	obj	_	TokenRange=519:529
+71	contra	_	ADP	ADP	_	73	case	_	TokenRange=530:536
+72	outros	_	DET	DET	_	73	det	_	TokenRange=537:543
+73	ladroes	ladroe	NOUN	NOUN	_	70	nmod	_	TokenRange=544:551
+74	caso	caso	NOUN	NOUN	_	75	nsubj	_	TokenRange=552:556
+75	aconteceu	acontecer	VERB	VERB	_	64	parataxis	_	TokenRange=557:566
+76	cidade	cidade	NOUN	NOUN	_	75	nsubj	_	TokenRange=567:573
+77	sobral	sobral	ADJ	ADJ	_	76	amod	_	TokenRange=574:580
+78	interior	interior	NOUN	NOUN	_	76	appos	_	TokenRange=581:589
+79	ceara	ceara	NOUN	NOUN	_	76	appos	_	SpaceAfter=No|TokenRange=590:595
+

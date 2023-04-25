@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aedes faz parto cair aborto avancar pernambuco numero oficial nascimentos reducao 26 1 ano maformacao preocupa maes recife receio ver filhos nascerem complicacoes provocadas arboviroses dengue chikungunya zika provocado dois fenomenos casais mulheres vivem pernambuco destaque recife regiao metropolitana diminuicao gestacoes planejadas aumento numero abortos apos identificacao maformacoes doencas neurologicas fetos acordo secretaria estadual saude estatisticas oficiais sobre tema bastidores maternidades publicas privadas assunto chamado atencao medicos outros profissionais saude ideia dimensao preocupacao mulheres
+1	aedes	aede	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	parto	parto	NOUN	NOUN	_	2	obj	_	TokenRange=10:15
+4	cair	cair	VERB	VERB	_	2	ccomp	_	TokenRange=16:20
+5	aborto	aborto	NOUN	NOUN	_	4	obj	_	TokenRange=21:27
+6	avancar	avancar	VERB	VERB	_	4	ccomp	_	TokenRange=28:35
+7	pernambuco	pernambuco	NOUN	NOUN	_	6	obj	_	TokenRange=36:46
+8	numero	numero	NOUN	NOUN	_	6	appos	_	TokenRange=47:53
+9	oficial	oficial	ADJ	ADJ	_	8	amod	_	TokenRange=54:61
+10	nascimentos	nascimento	NOUN	NOUN	_	8	appos	_	TokenRange=62:73
+11	reducao	reducao	ADJ	ADJ	_	8	amod	_	TokenRange=74:81
+12	26	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=82:84
+13	1	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=85:86
+14	ano	ano	NOUN	NOUN	_	11	appos	_	TokenRange=87:90
+15	maformacao	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=91:101
+16	preocupa	preocupar	VERB	VERB	_	2	parataxis	_	TokenRange=102:110
+17	maes	_	NOUN	NOUN	_	16	obj	_	TokenRange=111:115
+18	recife	recife	NOUN	NOUN	_	17	appos	_	TokenRange=116:122
+19	receio	_	NOUN	NOUN	_	17	flat	_	TokenRange=123:129
+20	ver	ver	VERB	VERB	_	16	ccomp	_	TokenRange=130:133
+21	filhos	filho	NOUN	NOUN	_	20	obj	_	TokenRange=134:140
+22	nascerem	nascer	VERB	VERB	_	20	ccomp	_	TokenRange=141:149
+23	complicacoes	complicacoe	NOUN	NOUN	_	22	obj	_	TokenRange=150:162
+24	provocadas	provocado	ADJ	ADJ	_	23	amod	_	TokenRange=163:173
+25	arboviroses	arbovirose	NOUN	NOUN	_	23	amod	_	TokenRange=174:185
+26	dengue	dengue	NOUN	NOUN	_	22	nsubj	_	TokenRange=186:192
+27	chikungunya	_	NOUN	NOUN	_	26	appos	_	TokenRange=193:204
+28	zika	zika	NOUN	NOUN	_	26	flat	_	TokenRange=205:209
+29	provocado	provocar	VERB	VERB	_	26	acl	_	TokenRange=210:219
+30	dois	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=220:224
+31	fenomenos	fenomeno	NOUN	NOUN	_	29	nsubj	_	TokenRange=225:234
+32	casais	casal	ADJ	ADJ	_	31	amod	_	TokenRange=235:241
+33	mulheres	mulher	NOUN	NOUN	_	31	appos	_	TokenRange=242:250
+34	vivem	_	VERB	VERB	_	2	parataxis	_	TokenRange=251:256
+35	pernambuco	pernambuco	ADV	ADV	_	34	advmod	_	TokenRange=257:267
+36	destaque	destaque	NOUN	NOUN	_	34	obj	_	TokenRange=268:276
+37	recife	recife	ADJ	NOUN	_	36	amod	_	TokenRange=277:283
+38	regiao	regiao	NOUN	NOUN	_	36	appos	_	TokenRange=284:290
+39	metropolitana	metropolitano	ADJ	ADJ	_	38	amod	_	TokenRange=291:304
+40	diminuicao	diminuicao	ADJ	ADJ	_	41	amod	_	TokenRange=305:315
+41	gestacoes	gestacoe	NOUN	NOUN	_	34	nsubj	_	TokenRange=316:325
+42	planejadas	planejado	ADJ	ADJ	_	41	amod	_	TokenRange=326:336
+43	aumento	aumento	NOUN	NOUN	_	41	appos	_	TokenRange=337:344
+44	numero	_	ADJ	ADJ	_	45	amod	_	TokenRange=345:351
+45	abortos	aborto	NOUN	NOUN	_	43	appos	_	TokenRange=352:359
+46	apos	_	ADP	ADP	_	47	case	_	TokenRange=360:364
+47	identificacao	identificacao	NOUN	NOUN	_	43	nmod	_	TokenRange=365:378
+48	maformacoes	_	NOUN	NOUN	_	43	appos	_	TokenRange=379:390
+49	doencas	doenca	NOUN	NOUN	_	48	appos	_	TokenRange=391:398
+50	neurologicas	neurologico	ADJ	ADJ	_	49	amod	_	TokenRange=399:411
+51	fetos	feto	ADJ	ADJ	_	49	amod	_	TokenRange=412:417
+52	acordo	acordo	NOUN	NOUN	_	34	parataxis	_	TokenRange=418:424
+53	secretaria	secretaria	NOUN	NOUN	_	52	appos	_	TokenRange=425:435
+54	estadual	estadual	ADJ	ADJ	_	61	amod	_	TokenRange=436:444
+55	saude	saude	NOUN	NOUN	_	56	appos	_	TokenRange=445:450
+56	estatisticas	_	NOUN	NOUN	_	52	appos	_	TokenRange=451:463
+57	oficiais	oficial	ADJ	ADJ	_	56	amod	_	TokenRange=464:472
+58	sobre	_	ADP	ADP	_	59	case	_	TokenRange=473:478
+59	tema	tema	NOUN	NOUN	_	56	nmod	_	TokenRange=479:483
+60	bastidores	bastidor	ADJ	ADJ	_	59	amod	_	TokenRange=484:494
+61	maternidades	maternidade	NOUN	NOUN	_	56	appos	_	TokenRange=495:507
+62	publicas	publico	ADJ	ADJ	_	61	amod	_	TokenRange=508:516
+63	privadas	privado	ADJ	ADJ	_	61	amod	_	TokenRange=517:525
+64	assunto	assunto	NOUN	NOUN	_	56	appos	_	TokenRange=526:533
+65	chamado	chamar	AUX	AUX	_	66	cop	_	TokenRange=534:541
+66	atencao	atencao	NOUN	NOUN	_	64	acl	_	TokenRange=542:549
+67	medicos	medico	ADJ	ADJ	_	66	amod	_	TokenRange=550:557
+68	outros	_	DET	DET	_	69	det	_	TokenRange=558:564
+69	profissionais	profissional	NOUN	NOUN	_	64	appos	_	TokenRange=565:578
+70	saude	saude	NOUN	NOUN	_	69	appos	_	TokenRange=579:584
+71	ideia	ideia	NOUN	NOUN	_	64	appos	_	TokenRange=585:590
+72	dimensao	dimensao	NOUN	NOUN	_	71	amod	_	TokenRange=591:599
+73	preocupacao	preocupacao	ADJ	ADJ	_	71	amod	_	TokenRange=600:611
+74	mulheres	mulher	NOUN	NOUN	_	71	appos	_	SpaceAfter=No|TokenRange=612:620
+

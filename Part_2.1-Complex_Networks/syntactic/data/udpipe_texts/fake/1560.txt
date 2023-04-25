@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 264 brasileiros acham temer apoia lavajato restante acha quer estancar sangria levantamento feito instituto parana pesquisas todos estados pais 12 15 fevereiro acordo pesquisa 44 entrevistados acham michel temer pmdb contra andamento operacao lava jato 239 disseram temer apoia contra 264 dizem presidente apoia combate corrupcao pais apoia 264 apoia contra 239 contra 443 sabe/ opinou 55
+1	264	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:3
+2	brasileiros	brasileiro	NOUN	NOUN	_	3	nsubj	_	TokenRange=4:15
+3	acham	achar	VERB	VERB	_	0	root	_	TokenRange=16:21
+4	temer	temer	NOUN	NOUN	_	3	obj	_	TokenRange=22:27
+5	apoia	apoiar	VERB	VERB	_	3	ccomp	_	TokenRange=28:33
+6	lavajato	lavajato	NOUN	NOUN	_	5	obj	_	TokenRange=34:42
+7	restante	restante	ADJ	ADJ	_	6	amod	_	TokenRange=43:51
+8	acha	achar	VERB	VERB	_	3	conj	_	TokenRange=52:56
+9	quer	quer	VERB	VERB	_	8	xcomp	_	TokenRange=57:61
+10	estancar	estancar	VERB	VERB	_	9	xcomp	_	TokenRange=62:70
+11	sangria	sangria	NOUN	NOUN	_	10	obj	_	TokenRange=71:78
+12	levantamento	levantamento	NOUN	NOUN	_	11	appos	_	TokenRange=79:91
+13	feito	_	VERB	VERB	_	11	acl	_	TokenRange=92:97
+14	instituto	instituto	NOUN	NOUN	_	10	nmod	_	TokenRange=98:107
+15	parana	parana	ADJ	ADJ	_	14	amod	_	TokenRange=108:114
+16	pesquisas	pesquisa	NOUN	NOUN	_	14	appos	_	TokenRange=115:124
+17	todos	_	DET	DET	_	18	det	_	TokenRange=125:130
+18	estados	estado	NOUN	NOUN	_	13	nsubj	_	TokenRange=131:138
+19	pais	_	NOUN	NOUN	_	18	appos	_	TokenRange=139:143
+20	12	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=144:146
+21	15	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=147:149
+22	fevereiro	_	PROPN	PNOUN	_	20	nmod	_	TokenRange=150:159
+23	acordo	acordo	NOUN	NOUN	_	27	obj	_	TokenRange=160:166
+24	pesquisa	pesquisa	NOUN	NOUN	_	23	flat	_	TokenRange=167:175
+25	44	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=176:178
+26	entrevistados	entrevistado	NOUN	NOUN	_	27	nsubj	_	TokenRange=179:192
+27	acham	achar	VERB	VERB	_	3	parataxis	_	TokenRange=193:198
+28	michel	michel	ADJ	ADJ	_	29	amod	_	TokenRange=199:205
+29	temer	temer	NOUN	NOUN	_	27	obj	_	TokenRange=206:211
+30	pmdb	_	NOUN	NOUN	_	29	appos	_	TokenRange=212:216
+31	contra	_	ADP	ADP	_	32	case	_	TokenRange=217:223
+32	andamento	andamento	NOUN	NOUN	_	27	nmod	_	TokenRange=224:233
+33	operacao	operacao	NOUN	NOUN	_	27	nsubj	_	TokenRange=234:242
+34	lava	lava	NOUN	NOUN	_	33	appos	_	TokenRange=243:247
+35	jato	jato	NOUN	NOUN	_	34	flat	_	TokenRange=248:252
+36	239	_	NUM	NUM	NumType=Card	37	nsubj	_	TokenRange=253:256
+37	disseram	dizer	VERB	VERB	_	27	parataxis	_	TokenRange=257:265
+38	temer	temer	NOUN	NOUN	_	39	nsubj	_	TokenRange=266:271
+39	apoia	apoiar	VERB	VERB	_	37	ccomp	_	TokenRange=272:277
+40	contra	_	ADP	ADP	_	41	case	_	TokenRange=278:284
+41	264	_	NUM	NUM	NumType=Card	39	nmod	_	TokenRange=285:288
+42	dizem	dizer	VERB	VERB	_	39	conj	_	TokenRange=289:294
+43	presidente	presidente	NOUN	NOUN	_	42	obj	_	TokenRange=295:305
+44	apoia	apoiar	VERB	VERB	_	42	ccomp	_	TokenRange=306:311
+45	combate	combate	NOUN	NOUN	_	44	obj	_	TokenRange=312:319
+46	corrupcao	corrupcao	ADJ	ADJ	_	45	amod	_	TokenRange=320:329
+47	pais	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=330:334
+48	apoia	apoiar	VERB	VERB	_	44	parataxis	_	TokenRange=335:340
+49	264	_	NUM	NUM	NumType=Card	50	nsubj	_	TokenRange=341:344
+50	apoia	apoiar	VERB	VERB	_	48	parataxis	_	TokenRange=345:350
+51	contra	_	ADP	ADP	_	52	case	_	TokenRange=351:357
+52	239	_	NUM	NUM	NumType=Card	50	nmod	_	TokenRange=358:361
+53	contra	_	ADP	ADP	_	54	case	_	TokenRange=362:368
+54	443	_	NUM	NUM	NumType=Card	50	nmod	_	TokenRange=369:372
+55	sabe/	sabe/	VERB	VERB	_	56	nsubj	_	TokenRange=373:378
+56	opinou	opinar	VERB	VERB	_	37	parataxis	_	TokenRange=379:385
+57	55	_	NUM	NUM	NumType=Card	56	obj	_	SpaceAfter=No|TokenRange=386:388
+

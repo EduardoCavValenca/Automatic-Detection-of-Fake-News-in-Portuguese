@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma precisara renunciar camara senado maioria aprovar impeachment provavelmente impeachment aprovado senado pmdb ator vital porque hoje partido maior sustentacao desse governo sensacao momento decisao chegar senado afastamento presidente majoritario apenas pmdb conjunto forcas senado declarou senador aecio neves situacao aponta presidente senado senador renan calheiros hoje vinha dando certa seguranca governo conseguira conter aprovacao impeachment impeachment camara deputados comissao camara analisara impeachment dilma rousseff menos 31 votos contrarios governo favor impeachment outros 28 deputados querem enterrar processo contra impeachment 6 indefinidos colegiado 65 membros
+1	dilma	dilma	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	precisara	precisar	VERB	VERB	_	0	root	_	TokenRange=6:15
+3	renunciar	renunciar	VERB	VERB	_	2	xcomp	_	TokenRange=16:25
+4	camara	camara	NOUN	NOUN	_	3	obj	_	TokenRange=26:32
+5	senado	senado	ADJ	ADJ	_	6	amod	_	TokenRange=33:39
+6	maioria	maioria	NOUN	NOUN	_	3	obj	_	TokenRange=40:47
+7	aprovar	aprovar	VERB	VERB	_	3	ccomp	_	TokenRange=48:55
+8	impeachment	impeachment	NOUN	NOUN	_	7	obj	_	TokenRange=56:67
+9	provavelmente	provavelmente	ADV	ADV	_	10	advmod	_	TokenRange=68:81
+10	impeachment	impeachment	NOUN	NOUN	_	7	obj	_	TokenRange=82:93
+11	aprovado	aprovado	ADJ	ADJ	_	12	amod	_	TokenRange=94:102
+12	senado	senado	NOUN	NOUN	_	10	appos	_	TokenRange=103:109
+13	pmdb	_	NOUN	NOUN	_	12	appos	_	TokenRange=110:114
+14	ator	ator	NOUN	NOUN	_	12	appos	_	TokenRange=115:119
+15	vital	vital	ADJ	ADJ	_	14	amod	_	TokenRange=120:125
+16	porque	_	ADP	CONJ	_	18	mark	_	TokenRange=126:132
+17	hoje	hoje	ADV	ADV	_	18	advmod	_	TokenRange=133:137
+18	partido	partido	NOUN	NOUN	_	3	nmod	_	TokenRange=138:145
+19	maior	maior	ADJ	ADJ	_	20	amod	_	TokenRange=146:151
+20	sustentacao	sustentacao	NOUN	NOUN	_	18	appos	_	TokenRange=152:163
+21	desse	_	ADP	ADP	_	22	case	_	TokenRange=164:169
+22	governo	governo	NOUN	NOUN	_	20	nmod	_	TokenRange=170:177
+23	sensacao	_	ADJ	ADJ	_	24	amod	_	TokenRange=178:186
+24	momento	momento	NOUN	NOUN	_	20	appos	_	TokenRange=187:194
+25	decisao	_	NOUN	NOUN	_	24	appos	_	TokenRange=195:202
+26	chegar	chegar	VERB	VERB	_	18	acl:relcl	_	TokenRange=203:209
+27	senado	senado	NOUN	NOUN	_	26	obj	_	TokenRange=210:216
+28	afastamento	afastamento	NOUN	NOUN	_	26	obj	_	TokenRange=217:228
+29	presidente	presidente	NOUN	NOUN	_	28	appos	_	TokenRange=229:239
+30	majoritario	majoritario	ADJ	ADJ	_	29	amod	_	TokenRange=240:251
+31	apenas	apenas	ADV	ADV	_	32	advmod	_	TokenRange=252:258
+32	pmdb	_	NOUN	NOUN	_	29	appos	_	TokenRange=259:263
+33	conjunto	conjunto	NOUN	NOUN	_	32	appos	_	TokenRange=264:272
+34	forcas	forca	NOUN	NOUN	_	32	flat	_	TokenRange=273:279
+35	senado	senado	NOUN	NOUN	_	32	appos	_	TokenRange=280:286
+36	declarou	declarar	VERB	VERB	_	2	parataxis	_	TokenRange=287:295
+37	senador	senador	NOUN	NOUN	_	36	obj	_	TokenRange=296:303
+38	aecio	aecio	NOUN	NOUN	_	37	appos	_	TokenRange=304:309
+39	neves	neve	ADJ	ADJ	_	38	flat	_	TokenRange=310:315
+40	situacao	situacao	NOUN	NOUN	_	41	nsubj	_	TokenRange=316:324
+41	aponta	apontar	VERB	VERB	_	36	parataxis	_	TokenRange=325:331
+42	presidente	presidente	NOUN	NOUN	_	41	obj	_	TokenRange=332:342
+43	senado	senado	ADJ	ADJ	_	42	amod	_	TokenRange=343:349
+44	senador	senador	NOUN	NOUN	_	49	nsubj	_	TokenRange=350:357
+45	renan	_	NOUN	NOUN	_	44	appos	_	TokenRange=358:363
+46	calheiros	calheiro	NOUN	NOUN	_	44	flat	_	TokenRange=364:373
+47	hoje	hoje	ADV	ADV	_	49	advmod	_	TokenRange=374:378
+48	vinha	vir	AUX	AUX	_	49	aux	_	TokenRange=379:384
+49	dando	dar	VERB	VERB	_	41	conj	_	TokenRange=385:390
+50	certa	_	DET	DET	_	51	det	_	TokenRange=391:396
+51	seguranca	seguranca	NOUN	NOUN	_	49	obj	_	TokenRange=397:406
+52	governo	governo	NOUN	NOUN	_	53	nsubj	_	TokenRange=407:414
+53	conseguira	conseguir	VERB	VERB	_	49	conj	_	TokenRange=415:425
+54	conter	conter	VERB	VERB	_	53	xcomp	_	TokenRange=426:432
+55	aprovacao	aprovacao	NOUN	NOUN	_	54	obj	_	TokenRange=433:442
+56	impeachment	impeachment	NOUN	NOUN	_	55	appos	_	TokenRange=443:454
+57	impeachment	impeachment	NOUN	NOUN	_	55	appos	_	TokenRange=455:466
+58	camara	camara	NOUN	NOUN	_	56	appos	_	TokenRange=467:473
+59	deputados	deputado	NOUN	NOUN	_	58	flat	_	TokenRange=474:483
+60	comissao	comissao	NOUN	NOUN	_	62	nsubj	_	TokenRange=484:492
+61	camara	camara	NOUN	NOUN	_	60	amod	_	TokenRange=493:499
+62	analisara	analisar	VERB	VERB	_	49	parataxis	_	TokenRange=500:509
+63	impeachment	impeachment	NOUN	NOUN	_	62	obj	_	TokenRange=510:521
+64	dilma	dilma	NOUN	NOUN	_	63	appos	_	TokenRange=522:527
+65	rousseff	rousseff	NOUN	ADJ	_	64	flat	_	TokenRange=528:536
+66	menos	menos	ADV	ADV	_	67	advmod	_	TokenRange=537:542
+67	31	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=543:545
+68	votos	voto	NOUN	NOUN	_	63	appos	_	TokenRange=546:551
+69	contrarios	contrario	ADJ	ADJ	_	68	amod	_	TokenRange=552:562
+70	governo	governo	NOUN	NOUN	_	68	appos	_	TokenRange=563:570
+71	favor	favor	NOUN	NOUN	_	68	appos	_	TokenRange=571:576
+72	impeachment	impeachment	NOUN	NOUN	_	70	flat	_	TokenRange=577:588
+73	outros	_	DET	DET	_	75	det	_	TokenRange=589:595
+74	28	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=596:598
+75	deputados	deputado	NOUN	NOUN	_	76	nsubj	_	TokenRange=599:608
+76	querem	querer	VERB	VERB	_	62	parataxis	_	TokenRange=609:615
+77	enterrar	enterrar	VERB	VERB	_	76	xcomp	_	TokenRange=616:624
+78	processo	processo	NOUN	NOUN	_	77	obj	_	TokenRange=625:633
+79	contra	_	ADP	ADP	_	80	case	_	TokenRange=634:640
+80	impeachment	impeachment	NOUN	NOUN	_	78	nmod	_	TokenRange=641:652
+81	6	_	NUM	NUM	NumType=Card	85	nummod	_	TokenRange=653:654
+82	indefinidos	indefinido	ADJ	ADJ	_	85	amod	_	TokenRange=655:666
+83	colegiado	_	ADJ	ADJ	_	85	amod	_	TokenRange=667:676
+84	65	_	NUM	NUM	NumType=Card	85	nummod	_	TokenRange=677:679
+85	membros	membro	NOUN	NOUN	_	76	nsubj	_	SpaceAfter=No|TokenRange=680:687
+

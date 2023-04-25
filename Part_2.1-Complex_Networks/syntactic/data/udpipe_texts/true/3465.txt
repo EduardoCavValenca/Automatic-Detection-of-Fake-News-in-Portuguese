@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo conta alta arrecadacao reduzir restricoes orcamentarias 2018 avaliacao analistas arrecadacao papel importante liberar gastos 2018 cenario restricoes devido meta fiscal dificuldades governo aprovar medidas ajuste ano 2018 marcado novamente contencao gastos publicos arrecadacao federal comecou reagir 2017 apos tres anos tombo podera ajudar governo autorizar novas despesas diminuir restricoes prestacao servicos publicos ano eleitoral avaliam analistas ouvidos g1 recentemente governo elevou 2 3 estimativa alta produto interno bruto pib proximo ano segundo
+1	governo	governo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	conta	contar	VERB	VERB	_	0	root	_	TokenRange=8:13
+3	alta	alto	ADJ	ADJ	_	4	amod	_	TokenRange=14:18
+4	arrecadacao	arrecadacao	NOUN	NOUN	_	2	obj	_	TokenRange=19:30
+5	reduzir	reduzir	VERB	VERB	_	2	xcomp	_	TokenRange=31:38
+6	restricoes	restricoe	NOUN	NOUN	_	5	obj	_	TokenRange=39:49
+7	orcamentarias	orcamentario	ADJ	ADJ	_	6	amod	_	TokenRange=50:63
+8	2018	_	NUM	NUM	NumType=Card	9	nsubj	_	TokenRange=64:68
+9	avaliacao	avaliacao	VERB	VERB	_	2	parataxis	_	TokenRange=69:78
+10	analistas	analista	NOUN	NOUN	_	9	obj	_	TokenRange=79:88
+11	arrecadacao	arrecadacao	ADJ	ADJ	_	12	amod	_	TokenRange=89:100
+12	papel	papel	NOUN	NOUN	_	10	appos	_	TokenRange=101:106
+13	importante	importante	ADJ	ADJ	_	12	amod	_	TokenRange=107:117
+14	liberar	liberar	VERB	VERB	_	2	parataxis	_	TokenRange=118:125
+15	gastos	gasto	NOUN	NOUN	_	14	obj	_	TokenRange=126:132
+16	2018	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=133:137
+17	cenario	cenario	NOUN	NOUN	_	15	appos	_	TokenRange=138:145
+18	restricoes	restricoe	NOUN	NOUN	_	17	appos	_	TokenRange=146:156
+19	devido	dever	VERB	VERB	_	20	case	_	TokenRange=157:163
+20	meta	meta	NOUN	NOUN	_	17	nmod	_	TokenRange=164:168
+21	fiscal	fiscal	ADJ	ADJ	_	20	amod	_	TokenRange=169:175
+22	dificuldades	dificuldade	NOUN	NOUN	_	20	appos	_	TokenRange=176:188
+23	governo	governo	NOUN	NOUN	_	22	amod	_	TokenRange=189:196
+24	aprovar	aprovar	VERB	VERB	_	2	parataxis	_	TokenRange=197:204
+25	medidas	medida	NOUN	NOUN	_	24	obj	_	TokenRange=205:212
+26	ajuste	ajustar	VERB	VERB	_	25	appos	_	TokenRange=213:219
+27	ano	ano	NOUN	NOUN	_	24	nmod	_	TokenRange=220:223
+28	2018	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=224:228
+29	marcado	marcar	VERB	VERB	_	27	acl	_	TokenRange=229:236
+30	novamente	novamente	ADV	ADV	_	29	advmod	_	TokenRange=237:246
+31	contencao	contencao	VERB	VERB	_	24	acl	_	TokenRange=247:256
+32	gastos	gasto	NOUN	NOUN	_	31	obj	_	TokenRange=257:263
+33	publicos	publico	ADJ	ADJ	_	32	amod	_	TokenRange=264:272
+34	arrecadacao	arrecadacao	NOUN	NOUN	_	32	appos	_	TokenRange=273:284
+35	federal	federal	ADJ	ADJ	_	34	amod	_	TokenRange=285:292
+36	comecou	comecar	VERB	VERB	_	2	conj	_	TokenRange=293:300
+37	reagir	reagir	VERB	VERB	_	36	xcomp	_	TokenRange=301:307
+38	2017	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=308:312
+39	apos	_	ADP	ADP	_	41	case	_	TokenRange=313:317
+40	tres	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=318:322
+41	anos	ano	NOUN	NOUN	_	44	nmod	_	TokenRange=323:327
+42	tombo	tombo	NOUN	NOUN	_	44	nsubj	_	TokenRange=328:333
+43	podera	_	AUX	AUX	_	44	aux	_	TokenRange=334:340
+44	ajudar	ajudar	VERB	VERB	_	37	ccomp	_	TokenRange=341:347
+45	governo	governo	NOUN	NOUN	_	44	obj	_	TokenRange=348:355
+46	autorizar	autorizar	VERB	VERB	_	44	ccomp	_	TokenRange=356:365
+47	novas	novo	ADJ	ADJ	_	48	amod	_	TokenRange=366:371
+48	despesas	despesa	NOUN	NOUN	_	46	obj	_	TokenRange=372:380
+49	diminuir	diminuir	VERB	VERB	_	46	ccomp	_	TokenRange=381:389
+50	restricoes	_	NOUN	NOUN	_	49	obj	_	TokenRange=390:400
+51	prestacao	prestacao	ADJ	ADJ	_	50	amod	_	TokenRange=401:410
+52	servicos	servico	NOUN	NOUN	_	49	obj	_	TokenRange=411:419
+53	publicos	publico	ADJ	ADJ	_	52	amod	_	TokenRange=420:428
+54	ano	ano	NOUN	NOUN	_	49	nmod	_	TokenRange=429:432
+55	eleitoral	eleitoral	ADJ	ADJ	_	54	amod	_	TokenRange=433:442
+56	avaliam	avaliar	VERB	VERB	_	37	parataxis	_	TokenRange=443:450
+57	analistas	analista	NOUN	NOUN	_	56	nsubj	_	TokenRange=451:460
+58	ouvidos	ouvido	ADJ	ADJ	_	57	amod	_	TokenRange=461:468
+59	g1	_	NOUN	NOUN	_	62	nsubj	_	TokenRange=469:471
+60	recentemente	recentemente	ADV	ADV	_	62	advmod	_	TokenRange=472:484
+61	governo	governo	NOUN	NOUN	_	62	nsubj	_	TokenRange=485:492
+62	elevou	elevar	VERB	VERB	_	56	parataxis	_	TokenRange=493:499
+63	2	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=500:501
+64	3	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=502:503
+65	estimativa	_	NOUN	NOUN	_	62	obj	_	TokenRange=504:514
+66	alta	alto	ADJ	ADJ	_	67	amod	_	TokenRange=515:519
+67	produto	produto	NOUN	NOUN	_	62	obj	_	TokenRange=520:527
+68	interno	interno	ADJ	ADJ	_	67	amod	_	TokenRange=528:535
+69	bruto	bruto	ADJ	ADJ	_	67	amod	_	TokenRange=536:541
+70	pib	_	NOUN	NOUN	_	67	appos	_	TokenRange=542:545
+71	proximo	proximo	ADJ	ADJ	_	72	amod	_	TokenRange=546:553
+72	ano	ano	NOUN	NOUN	_	67	nmod	_	TokenRange=554:557
+73	segundo	_	ADP	ADP	_	67	case	_	SpaceAfter=No|TokenRange=558:565
+

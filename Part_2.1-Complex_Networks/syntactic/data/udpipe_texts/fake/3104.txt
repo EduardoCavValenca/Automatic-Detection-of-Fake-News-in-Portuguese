@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = urgente ministerio publico sp pede prisao preventiva lula outros seis denunciados ministerio publico paulo pediu prisao preventiva expresidente luiz inacio lula silva denunciado lavagem dinheiro falsidade ideologica informacoes site jota tarde desta quintafeira 10 promotor cassio conserino equipe denunciou expresidente mulher filho fabio luiz lula silva evitou informar durante entrevista coletiva pedido sido feito pois bem prisao preventiva requerida objetivo garantir aplicacao lei penal manutencao ordens publica economica
+1	urgente	urgente	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	ministerio	ministerio	NOUN	NOUN	_	5	nsubj	_	TokenRange=8:18
+3	publico	publico	ADJ	ADJ	_	2	amod	_	TokenRange=19:26
+4	sp	_	X	PRON	_	2	appos	_	TokenRange=27:29
+5	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=30:34
+6	prisao	prisao	NOUN	NOUN	_	5	obj	_	TokenRange=35:41
+7	preventiva	preventivo	ADJ	ADJ	_	6	amod	_	TokenRange=42:52
+8	lula	_	NOUN	NOUN	_	6	appos	_	TokenRange=53:57
+9	outros	_	DET	DET	_	10	det	_	TokenRange=58:64
+10	seis	_	NUM	NUM	NumType=Card	5	nsubj	_	TokenRange=65:69
+11	denunciados	denunciar	ADJ	ADJ	_	2	amod	_	TokenRange=70:81
+12	ministerio	ministerio	NOUN	NOUN	_	15	nsubj	_	TokenRange=82:92
+13	publico	publico	ADJ	ADJ	_	12	amod	_	TokenRange=93:100
+14	paulo	paulo	NOUN	NOUN	_	15	nsubj	_	TokenRange=101:106
+15	pediu	pedir	VERB	VERB	_	5	parataxis	_	TokenRange=107:112
+16	prisao	prisao	NOUN	NOUN	_	15	obj	_	TokenRange=113:119
+17	preventiva	preventivo	ADJ	ADJ	_	16	amod	_	TokenRange=120:130
+18	expresidente	expresidente	NOUN	NOUN	_	16	appos	_	TokenRange=131:143
+19	luiz	luiz	NOUN	NOUN	_	16	appos	_	TokenRange=144:148
+20	inacio	_	NOUN	NOUN	_	19	flat	_	TokenRange=149:155
+21	lula	_	NOUN	NOUN	_	19	flat	_	TokenRange=156:160
+22	silva	silva	NOUN	NOUN	_	19	flat	_	TokenRange=161:166
+23	denunciado	denunciar	VERB	VERB	_	15	acl	_	TokenRange=167:177
+24	lavagem	lavagem	NOUN	NOUN	_	23	obj	_	TokenRange=178:185
+25	dinheiro	dinheiro	NOUN	NOUN	_	24	flat	_	TokenRange=186:194
+26	falsidade	falsidade	NOUN	NOUN	_	23	obj	_	TokenRange=195:204
+27	ideologica	ideologico	ADJ	ADJ	_	26	amod	_	TokenRange=205:215
+28	informacoes	informacoe	NOUN	NOUN	_	26	appos	_	TokenRange=216:227
+29	site	site	NOUN	NOUN	_	23	nsubj	_	TokenRange=228:232
+30	jota	jota	NOUN	NOUN	_	29	appos	_	TokenRange=233:237
+31	tarde	tarde	NOUN	NOUN	_	29	appos	_	TokenRange=238:243
+32	desta	_	ADP	ADP	_	33	case	_	TokenRange=244:249
+33	quintafeira	quintafeira	NOUN	NOUN	_	31	nmod	_	TokenRange=250:261
+34	10	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=262:264
+35	promotor	promotor	NOUN	NOUN	_	39	nsubj	_	TokenRange=265:273
+36	cassio	cassio	NOUN	NOUN	_	35	appos	_	TokenRange=274:280
+37	conserino	conserino	ADJ	ADJ	_	35	amod	_	TokenRange=281:290
+38	equipe	equipe	NOUN	NOUN	_	35	appos	_	TokenRange=291:297
+39	denunciou	denunciar	VERB	VERB	_	5	parataxis	_	TokenRange=298:307
+40	expresidente	expresidente	NOUN	NOUN	_	39	obj	_	TokenRange=308:320
+41	mulher	mulher	NOUN	NOUN	_	40	appos	_	TokenRange=321:327
+42	filho	filho	NOUN	NOUN	_	41	flat	_	TokenRange=328:333
+43	fabio	fabio	NOUN	NOUN	_	40	appos	_	TokenRange=334:339
+44	luiz	luiz	NOUN	NOUN	_	43	flat	_	TokenRange=340:344
+45	lula	lula	ADJ	NOUN	_	43	flat	_	TokenRange=345:349
+46	silva	silva	NOUN	NOUN	_	43	flat	_	TokenRange=350:355
+47	evitou	evitar	VERB	VERB	_	5	conj	_	TokenRange=356:362
+48	informar	informar	VERB	VERB	_	47	xcomp	_	TokenRange=363:371
+49	durante	_	ADP	ADP	_	50	case	_	TokenRange=372:379
+50	entrevista	entrevista	NOUN	NOUN	_	48	nmod	_	TokenRange=380:390
+51	coletiva	coletivo	ADJ	ADJ	_	50	amod	_	TokenRange=391:399
+52	pedido	pedido	NOUN	NOUN	_	50	appos	_	TokenRange=400:406
+53	sido	ser	AUX	AUX	_	54	aux:pass	_	TokenRange=407:411
+54	feito	_	VERB	VERB	_	50	acl	_	TokenRange=412:417
+55	pois	_	CCONJ	CONJ	_	57	mark	_	TokenRange=418:422
+56	bem	bem	ADV	ADV	_	57	advmod	_	TokenRange=423:426
+57	prisao	prisao	NOUN	NOUN	_	54	nsubj:pass	_	TokenRange=427:433
+58	preventiva	preventivo	ADJ	ADJ	_	57	amod	_	TokenRange=434:444
+59	requerida	requerer	VERB	VERB	_	57	acl	_	TokenRange=445:454
+60	objetivo	objetivo	NOUN	NOUN	_	57	nsubj	_	TokenRange=455:463
+61	garantir	garantir	VERB	VERB	_	57	csubj	_	TokenRange=464:472
+62	aplicacao	aplicacao	ADJ	ADJ	_	63	amod	_	TokenRange=473:482
+63	lei	lei	NOUN	NOUN	_	61	obj	_	TokenRange=483:486
+64	penal	penal	ADJ	ADJ	_	63	amod	_	TokenRange=487:492
+65	manutencao	manutencao	VERB	VERB	_	66	amod	_	TokenRange=493:503
+66	ordens	ordem	NOUN	NOUN	_	61	obj	_	TokenRange=504:510
+67	publica	publico	ADJ	ADJ	_	66	amod	_	TokenRange=511:518
+68	economica	economico	ADJ	ADJ	_	66	amod	_	SpaceAfter=No|TokenRange=519:528
+

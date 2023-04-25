@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilmarvore dilma compara arvore diz sofrendo ataque fungos dilma diz instabilidade juridica pais lembrala todo processo impeachment amparado leis crivo supremo tribunal federal dilma insiste dizer base juridica afastada explica derrubasse arvore derruba arvore sofresse ataque fungos parasitas
+1	dilmarvore	dilmarvore	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	dilma	_	NOUN	NOUN	_	1	flat	_	TokenRange=11:16
+3	compara	comparar	VERB	VERB	_	0	root	_	TokenRange=17:24
+4	arvore	arvore	NOUN	NOUN	_	3	obj	_	TokenRange=25:31
+5	diz	dizer	AUX	AUX	_	3	aux	_	TokenRange=32:35
+6	sofrendo	sofrer	VERB	VERB	_	3	acl	_	TokenRange=36:44
+7	ataque	ataque	NOUN	NOUN	_	6	obj	_	TokenRange=45:51
+8	fungos	fungo	ADJ	ADJ	_	7	amod	_	TokenRange=52:58
+9	dilma	dilma	NOUN	NOUN	_	10	nsubj	_	TokenRange=59:64
+10	diz	dizer	VERB	VERB	_	7	acl:relcl	_	TokenRange=65:68
+11	instabilidade	instabilidade	NOUN	NOUN	_	10	obj	_	TokenRange=69:82
+12	juridica	juridico	ADJ	ADJ	_	11	amod	_	TokenRange=83:91
+13	pais	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=92:96
+14	lembrala	lembralar	VERB	VERB	_	10	ccomp	_	TokenRange=97:105
+15	todo	_	DET	DET	_	16	det	_	TokenRange=106:110
+16	processo	processo	NOUN	NOUN	_	14	obj	_	TokenRange=111:119
+17	impeachment	impeachment	NOUN	NOUN	_	16	appos	_	TokenRange=120:131
+18	amparado	amparado	VERB	VERB	_	16	acl	_	TokenRange=132:140
+19	leis	lei	NOUN	NOUN	_	18	nsubj	_	TokenRange=141:145
+20	crivo	crivo	ADJ	ADJ	_	19	amod	_	TokenRange=146:151
+21	supremo	supremo	ADJ	ADJ	_	22	amod	_	TokenRange=152:159
+22	tribunal	tribunal	NOUN	NOUN	_	19	appos	_	TokenRange=160:168
+23	federal	federal	ADJ	ADJ	_	22	amod	_	TokenRange=169:176
+24	dilma	dilma	NOUN	NOUN	_	25	nsubj	_	TokenRange=177:182
+25	insiste	insistir	VERB	VERB	_	3	parataxis	_	TokenRange=183:190
+26	dizer	dizer	VERB	VERB	_	25	xcomp	_	TokenRange=191:196
+27	base	base	NOUN	NOUN	_	26	obj	_	TokenRange=197:201
+28	juridica	juridico	ADJ	ADJ	_	27	amod	_	TokenRange=202:210
+29	afastada	afastar	VERB	VERB	_	27	acl	_	TokenRange=211:219
+30	explica	explicar	VERB	VERB	_	25	parataxis	_	TokenRange=220:227
+31	derrubasse	derrubasse	NOUN	NOUN	_	30	obj	_	TokenRange=228:238
+32	arvore	arvore	NOUN	NOUN	_	35	nsubj	_	TokenRange=239:245
+33	derruba	derrubo	ADJ	ADJ	_	32	amod	_	TokenRange=246:253
+34	arvore	arvore	NOUN	NOUN	_	32	appos	_	TokenRange=254:260
+35	sofresse	sofrer	VERB	VERB	_	30	ccomp	_	TokenRange=261:269
+36	ataque	ataque	NOUN	NOUN	_	35	obj	_	TokenRange=270:276
+37	fungos	fungo	ADJ	ADJ	_	36	amod	_	TokenRange=277:283
+38	parasitas	parasito	ADJ	ADJ	_	36	amod	_	SpaceAfter=No|TokenRange=284:293
+

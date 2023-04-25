@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos paulo betti propor vaquinha ajudar dilma ator otavio augusto entra pareo infelicidade paulo betti propor brasileiros fizessem vaquinha tapar rombo fiscal governo dilma leia aqui fez colega profissao ator global otavio augusto entrasse jogo proposta pouco sensata inteligente
+1	apos	_	CCONJ	CONJ	_	4	mark	_	TokenRange=0:4
+2	paulo	_	DET	DET	_	4	nsubj	_	TokenRange=5:10
+3	betti	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=11:16
+4	propor	propor	VERB	VERB	_	11	advcl	_	TokenRange=17:23
+5	vaquinha	_	NOUN	NOUN	_	4	obj	_	TokenRange=24:32
+6	ajudar	ajudar	VERB	VERB	_	4	ccomp	_	TokenRange=33:39
+7	dilma	_	NOUN	NOUN	_	6	obj	_	TokenRange=40:45
+8	ator	ator	NOUN	NOUN	_	6	obj	_	TokenRange=46:50
+9	otavio	otavio	NOUN	NOUN	_	8	appos	_	TokenRange=51:57
+10	augusto	_	NOUN	NOUN	_	9	flat	_	TokenRange=58:65
+11	entra	entrar	VERB	VERB	_	0	root	_	TokenRange=66:71
+12	pareo	pareo	ADJ	NOUN	_	11	xcomp	_	TokenRange=72:77
+13	infelicidade	infelicidade	NOUN	NOUN	_	11	nsubj	_	TokenRange=78:90
+14	paulo	paulo	ADJ	NOUN	_	16	nsubj	_	TokenRange=91:96
+15	betti	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=97:102
+16	propor	propor	VERB	VERB	_	13	acl:relcl	_	TokenRange=103:109
+17	brasileiros	brasileiro	NOUN	NOUN	_	16	obj	_	TokenRange=110:121
+18	fizessem	fazer	VERB	VERB	_	16	ccomp	_	TokenRange=122:130
+19	vaquinha	_	NOUN	NOUN	_	18	obj	_	TokenRange=131:139
+20	tapar	tapar	VERB	VERB	_	18	ccomp	_	TokenRange=140:145
+21	rombo	rombo	NOUN	NOUN	_	20	obj	_	TokenRange=146:151
+22	fiscal	fiscal	ADJ	ADJ	_	21	amod	_	TokenRange=152:158
+23	governo	governo	NOUN	NOUN	_	20	nsubj	_	TokenRange=159:166
+24	dilma	dilma	NOUN	NOUN	_	23	appos	_	TokenRange=167:172
+25	leia	ler	VERB	VERB	_	23	acl:relcl	_	TokenRange=173:177
+26	aqui	aqui	ADV	ADV	_	27	advmod	_	TokenRange=178:182
+27	fez	fazer	VERB	VERB	_	18	parataxis	_	TokenRange=183:186
+28	colega	colega	NOUN	NOUN	_	27	obj	_	TokenRange=187:193
+29	profissao	profissao	ADJ	ADJ	_	28	amod	_	TokenRange=194:203
+30	ator	ator	NOUN	NOUN	_	28	appos	_	TokenRange=204:208
+31	global	global	ADJ	ADJ	_	30	amod	_	TokenRange=209:215
+32	otavio	otavio	NOUN	NOUN	_	30	appos	_	TokenRange=216:222
+33	augusto	augusto	NOUN	NOUN	_	32	flat	_	TokenRange=223:230
+34	entrasse	entrar	VERB	VERB	_	27	parataxis	_	TokenRange=231:239
+35	jogo	jogo	NOUN	NOUN	_	34	obj	_	TokenRange=240:244
+36	proposta	_	ADJ	ADJ	_	35	amod	_	TokenRange=245:253
+37	pouco	pouco	ADV	ADV	_	38	advmod	_	TokenRange=254:259
+38	sensata	sensato	ADJ	ADJ	_	36	amod	_	TokenRange=260:267
+39	inteligente	inteligente	ADJ	ADJ	_	38	amod	_	SpaceAfter=No|TokenRange=268:279
+

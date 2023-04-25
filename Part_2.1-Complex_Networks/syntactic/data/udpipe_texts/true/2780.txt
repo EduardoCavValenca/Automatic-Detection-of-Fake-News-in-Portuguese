@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fim contrato estado deixa alunos necessidades especiais cuidadores franca sp responsaveis afirmam souberam ausencia profissionais segundafeira 19 diretoria regional diz casos sendo avaliados estudantes percam aulas dona casa marilia gondim mello levou filha 13 anos autismo escola franca sp nesta segundafeira 19 levou pra casa cedo porque cuidadora responsavel estudante sido dispensada ninguem colocado lugar mae sabe fazer jovem continuar frequentando aulas consegue fazer nada sozinha tudo comando comando cuidadora
+1	fim	fim	NOUN	NOUN	_	20	nsubj	_	TokenRange=0:3
+2	contrato	contrato	NOUN	NOUN	_	1	appos	_	TokenRange=4:12
+3	estado	estado	NOUN	NOUN	_	2	flat	_	TokenRange=13:19
+4	deixa	deixar	VERB	VERB	_	0	root	_	TokenRange=20:25
+5	alunos	aluno	NOUN	NOUN	_	4	obj	_	TokenRange=26:32
+6	necessidades	necessidade	NOUN	NOUN	_	4	obj	_	TokenRange=33:45
+7	especiais	especial	ADJ	ADJ	_	6	amod	_	TokenRange=46:55
+8	cuidadores	cuidador	NOUN	NOUN	_	20	nsubj	_	TokenRange=56:66
+9	franca	franco	ADJ	ADJ	_	8	amod	_	TokenRange=67:73
+10	sp	_	ADJ	ADJ	_	18	amod	_	TokenRange=74:76
+11	responsaveis	responsavel	ADJ	ADJ	_	8	amod	_	TokenRange=77:89
+12	afirmam	afirmar	VERB	VERB	_	1	acl:relcl	_	TokenRange=90:97
+13	souberam	saber	VERB	VERB	_	12	ccomp	_	TokenRange=98:106
+14	ausencia	ausencia	NOUN	NOUN	_	13	obj	_	TokenRange=107:115
+15	profissionais	profissional	NOUN	NOUN	_	14	amod	_	TokenRange=116:129
+16	segundafeira	_	NOUN	NOUN	_	14	appos	_	TokenRange=130:142
+17	19	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=143:145
+18	diretoria	diretoria	NOUN	NOUN	_	20	nsubj	_	TokenRange=146:155
+19	regional	regional	ADJ	ADJ	_	18	amod	_	TokenRange=156:164
+20	diz	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=165:168
+21	casos	caso	NOUN	NOUN	_	20	obj	_	TokenRange=169:174
+22	sendo	ser	AUX	AUX	_	23	aux:pass	_	TokenRange=175:180
+23	avaliados	avaliar	VERB	VERB	_	21	acl	_	TokenRange=181:190
+24	estudantes	estudante	NOUN	NOUN	_	25	nsubj	_	TokenRange=191:201
+25	percam	percar	VERB	VERB	_	21	acl:relcl	_	TokenRange=202:208
+26	aulas	aula	NOUN	NOUN	_	25	obj	_	TokenRange=209:214
+27	dona	_	ADJ	ADJ	_	28	amod	_	TokenRange=215:219
+28	casa	casa	NOUN	NOUN	_	25	nsubj	_	TokenRange=220:224
+29	marilia	marilia	NOUN	NOUN	_	28	appos	_	TokenRange=225:232
+30	gondim	_	NOUN	NOUN	_	29	flat	_	TokenRange=233:239
+31	mello	mello	ADJ	NOUN	_	29	flat	_	TokenRange=240:245
+32	levou	levar	VERB	VERB	_	25	conj	_	TokenRange=246:251
+33	filha	filho	NOUN	NOUN	_	32	obj	_	TokenRange=252:257
+34	13	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=258:260
+35	anos	ano	NOUN	NOUN	_	32	obj	_	TokenRange=261:265
+36	autismo	autismo	NOUN	NOUN	_	32	obj	_	TokenRange=266:273
+37	escola	escola	NOUN	NOUN	_	32	nsubj	_	TokenRange=274:280
+38	franca	franco	ADJ	ADJ	_	37	amod	_	TokenRange=281:287
+39	sp	_	ADJ	ADJ	_	37	amod	_	TokenRange=288:290
+40	nesta	_	ADP	ADP	_	41	case	_	TokenRange=291:296
+41	segundafeira	segundafeira	NOUN	NOUN	_	32	nmod	_	TokenRange=297:309
+42	19	_	NUM	NUM	NumType=Card	41	appos	_	TokenRange=310:312
+43	levou	levar	VERB	VERB	_	20	parataxis	_	TokenRange=313:318
+44	pra	_	ADP	ADP	_	45	case	_	TokenRange=319:322
+45	casa	casa	NOUN	NOUN	_	43	nmod	_	TokenRange=323:327
+46	cedo	cedo	ADV	ADV	_	43	advmod	_	TokenRange=328:332
+47	porque	_	CCONJ	CONJ	_	52	mark	_	TokenRange=333:339
+48	cuidadora	cuidador	NOUN	NOUN	_	52	nsubj:pass	_	TokenRange=340:349
+49	responsavel	responsavel	ADJ	ADJ	_	48	amod	_	TokenRange=350:361
+50	estudante	estudante	NOUN	NOUN	_	48	appos	_	TokenRange=362:371
+51	sido	ser	AUX	AUX	_	52	aux:pass	_	TokenRange=372:376
+52	dispensada	dispensar	VERB	VERB	_	43	advcl	_	TokenRange=377:387
+53	ninguem	_	PRON	PRON	_	52	nsubj:pass	_	TokenRange=388:395
+54	colocado	colocar	VERB	VERB	_	48	acl	_	TokenRange=396:404
+55	lugar	lugar	NOUN	NOUN	_	54	obj	_	TokenRange=405:410
+56	mae	mae	NOUN	NOUN	_	57	nsubj	_	TokenRange=411:414
+57	sabe	saber	VERB	VERB	_	43	parataxis	_	TokenRange=415:419
+58	fazer	fazer	VERB	VERB	_	57	xcomp	_	TokenRange=420:425
+59	jovem	jovem	NOUN	NOUN	_	61	obj	_	TokenRange=426:431
+60	continuar	continuar	AUX	AUX	_	61	aux	_	TokenRange=432:441
+61	frequentando	frequentar	VERB	VERB	_	58	ccomp	_	TokenRange=442:454
+62	aulas	aula	NOUN	NOUN	_	61	obj	_	TokenRange=455:460
+63	consegue	conseguir	VERB	VERB	_	57	ccomp	_	TokenRange=461:469
+64	fazer	fazer	VERB	VERB	_	63	xcomp	_	TokenRange=470:475
+65	nada	_	PRON	PRON	_	64	obj	_	TokenRange=476:480
+66	sozinha	só	ADJ	ADJ	_	65	amod	_	TokenRange=481:488
+67	tudo	_	PRON	PRON	_	68	nsubj	_	TokenRange=489:493
+68	comando	comandar	NOUN	NOUN	_	63	parataxis	_	TokenRange=494:501
+69	comando	comando	NOUN	NOUN	_	68	appos	_	TokenRange=502:509
+70	cuidadora	cuidador	NOUN	NOUN	_	69	flat	_	SpaceAfter=No|TokenRange=510:519
+

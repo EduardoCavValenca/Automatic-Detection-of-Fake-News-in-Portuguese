@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado celso jacob flagrado biscoito queijo dentro cueca retornar presidio episodio aconteceu ultimo domingo voltava papuda apos saida fim semana exprefeito tres rios preso falsificacao documento publico dispensa licitacao deputado federal celso jacob pmdbrj flagrado dois pacotes biscoito queijo provolone escondidos dentro cueca retornar centro detencao provisoria papuda distrito federal
+1	deputado	deputado	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:8
+2	celso	celso	ADJ	ADJ	_	1	appos	_	TokenRange=9:14
+3	jacob	_	NOUN	NOUN	_	1	flat	_	TokenRange=15:20
+4	flagrado	flagrar	VERB	VERB	_	1	acl	_	TokenRange=21:29
+5	biscoito	biscoito	NOUN	NOUN	_	4	obj	_	TokenRange=30:38
+6	queijo	queijo	NOUN	NOUN	_	5	appos	_	TokenRange=39:45
+7	dentro	dentro	ADV	ADV	_	9	advmod	_	TokenRange=46:52
+8	cueca	cueca	NOUN	NOUN	_	6	appos	_	TokenRange=53:58
+9	retornar	retornar	VERB	VERB	_	4	parataxis	_	TokenRange=59:67
+10	presidio	presidio	NOUN	NOUN	_	9	obj	_	TokenRange=68:76
+11	episodio	episodio	NOUN	NOUN	_	10	amod	_	TokenRange=77:85
+12	aconteceu	acontecer	VERB	VERB	_	15	parataxis	_	TokenRange=86:95
+13	ultimo	_	ADJ	ADJ	_	14	amod	_	TokenRange=96:102
+14	domingo	_	PROPN	PNOUN	_	15	nsubj	_	TokenRange=103:110
+15	voltava	voltar	VERB	VERB	_	0	root	_	TokenRange=111:118
+16	papuda	papuda	NOUN	NOUN	_	15	obj	_	TokenRange=119:125
+17	apos	_	ADP	ADP	_	18	case	_	TokenRange=126:130
+18	saida	saida	NOUN	NOUN	_	15	nmod	_	TokenRange=131:136
+19	fim	fim	NOUN	NOUN	_	18	nmod	_	TokenRange=137:140
+20	semana	semana	NOUN	NOUN	_	19	flat	_	TokenRange=141:147
+21	exprefeito	exprefeito	NOUN	NOUN	_	15	nsubj	_	TokenRange=148:158
+22	tres	_	NUM	NUM	_	23	nummod	_	TokenRange=159:163
+23	rios	rio	NOUN	NOUN	_	21	appos	_	TokenRange=164:168
+24	preso	_	VERB	VERB	_	21	acl	_	TokenRange=169:174
+25	falsificacao	falsificacao	ADJ	ADJ	_	26	amod	_	TokenRange=175:187
+26	documento	documento	NOUN	NOUN	_	24	obj	_	TokenRange=188:197
+27	publico	publico	ADJ	ADJ	_	26	amod	_	TokenRange=198:205
+28	dispensa	dispensar	VERB	VERB	_	30	amod	_	TokenRange=206:214
+29	licitacao	licitacao	ADJ	ADJ	_	30	amod	_	TokenRange=215:224
+30	deputado	deputado	NOUN	NOUN	_	35	nsubj	_	TokenRange=225:233
+31	federal	federal	ADJ	ADJ	_	30	amod	_	TokenRange=234:241
+32	celso	_	ADJ	NOUN	_	30	appos	_	TokenRange=242:247
+33	jacob	_	PROPN	PNOUN	_	32	flat	_	TokenRange=248:253
+34	pmdbrj	_	NOUN	NOUN	_	32	flat	_	TokenRange=254:260
+35	flagrado	flagrar	VERB	VERB	_	15	parataxis	_	TokenRange=261:269
+36	dois	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=270:274
+37	pacotes	pacote	NOUN	NOUN	_	35	obj	_	TokenRange=275:282
+38	biscoito	biscoito	ADJ	ADJ	_	39	amod	_	TokenRange=283:291
+39	queijo	queijo	NOUN	NOUN	_	35	nsubj	_	TokenRange=292:298
+40	provolone	_	NOUN	NOUN	_	39	amod	_	TokenRange=299:308
+41	escondidos	esconder	VERB	VERB	_	39	acl	_	TokenRange=309:319
+42	dentro	dentro	ADV	ADV	_	43	advmod	_	TokenRange=320:326
+43	cueca	cueca	ADJ	NOUN	_	41	amod	_	TokenRange=327:332
+44	retornar	retornar	VERB	VERB	_	39	acl	_	TokenRange=333:341
+45	centro	centro	NOUN	NOUN	_	44	obj	_	TokenRange=342:348
+46	detencao	detencao	NOUN	NOUN	_	45	appos	_	TokenRange=349:357
+47	provisoria	provisorio	ADJ	ADJ	_	46	amod	_	TokenRange=358:368
+48	papuda	papuda	ADJ	NOUN	_	49	amod	_	TokenRange=369:375
+49	distrito	distrito	NOUN	NOUN	_	44	obj	_	TokenRange=376:384
+50	federal	federal	ADJ	ADJ	_	49	amod	_	SpaceAfter=No|TokenRange=385:392
+

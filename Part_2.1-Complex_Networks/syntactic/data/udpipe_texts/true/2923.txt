@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = investigacao pf aponta campanha sandoval usou jatinho recolher propina exdiretor igeprev disse pressionado eduardo siqueira campos fazer operacoes beneficiar governo sandoval policia federal encontrou indicios jatinho usado membros campanha sandoval cardoso sd governador 2014 recolher propina informacao relatorio operacao naum investiga desvios aplicacoes instituto gestao previdenciaria tocantins igeprev g1 acesso inquerito cita depoimentos documentos apresentados exdiretor instituto servidor informou
+1	investigacao	investigacao	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:12
+2	pf	_	NOUN	NOUN	_	1	flat	_	TokenRange=13:15
+3	aponta	apontar	VERB	VERB	_	59	ccomp	_	TokenRange=16:22
+4	campanha	campanha	NOUN	NOUN	_	3	obj	_	TokenRange=23:31
+5	sandoval	sandoval	ADJ	ADJ	_	4	amod	_	TokenRange=32:40
+6	usou	usar	VERB	VERB	_	3	ccomp	_	TokenRange=41:45
+7	jatinho	jatinho	NOUN	NOUN	_	6	obj	_	TokenRange=46:53
+8	recolher	recolher	VERB	VERB	_	6	ccomp	_	TokenRange=54:62
+9	propina	propina	NOUN	NOUN	_	8	obj	_	TokenRange=63:70
+10	exdiretor	exdiretor	ADJ	ADJ	_	9	amod	_	TokenRange=71:80
+11	igeprev	_	NOUN	NOUN	_	50	amod	_	TokenRange=81:88
+12	disse	dizer	VERB	VERB	_	3	conj	_	TokenRange=89:94
+13	pressionado	pressionar	VERB	VERB	_	12	xcomp	_	TokenRange=95:106
+14	eduardo	eduardo	NOUN	NOUN	_	24	nsubj	_	TokenRange=107:114
+15	siqueira	siqueira	NOUN	NOUN	_	14	flat	_	TokenRange=115:123
+16	campos	campo	NOUN	NOUN	_	14	flat	_	TokenRange=124:130
+17	fazer	fazer	VERB	VERB	_	14	acl:inf	_	TokenRange=131:136
+18	operacoes	operacoe	NOUN	NOUN	_	17	obj	_	TokenRange=137:146
+19	beneficiar	beneficiar	VERB	VERB	_	18	acl:inf	_	TokenRange=147:157
+20	governo	governo	NOUN	NOUN	_	17	obj	_	TokenRange=158:165
+21	sandoval	sandoval	ADJ	ADJ	_	20	amod	_	TokenRange=166:174
+22	policia	policia	NOUN	NOUN	_	24	nsubj	_	TokenRange=175:182
+23	federal	federal	ADJ	ADJ	_	22	amod	_	TokenRange=183:190
+24	encontrou	encontrar	VERB	VERB	_	3	conj	_	TokenRange=191:200
+25	indicios	indicio	NOUN	NOUN	_	24	obj	_	TokenRange=201:209
+26	jatinho	jatinho	NOUN	NOUN	_	25	appos	_	TokenRange=210:217
+27	usado	usar	VERB	VERB	_	25	acl	_	TokenRange=218:223
+28	membros	membro	NOUN	NOUN	_	27	obj	_	TokenRange=224:231
+29	campanha	campanha	NOUN	NOUN	_	25	appos	_	TokenRange=232:240
+30	sandoval	sandoval	ADJ	ADJ	_	29	amod	_	TokenRange=241:249
+31	cardoso	cardoso	ADJ	ADJ	_	29	amod	_	TokenRange=250:257
+32	sd	_	NOUN	NOUN	_	29	appos	_	TokenRange=258:260
+33	governador	governador	NOUN	NOUN	_	29	appos	_	TokenRange=261:271
+34	2014	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=272:276
+35	recolher	recolher	VERB	VERB	_	29	acl:relcl	_	TokenRange=277:285
+36	propina	propina	NOUN	NOUN	_	35	obj	_	TokenRange=286:293
+37	informacao	informacao	ADJ	ADJ	_	36	amod	_	TokenRange=294:304
+38	relatorio	relatorio	NOUN	NOUN	_	36	amod	_	TokenRange=305:314
+39	operacao	operacao	NOUN	NOUN	_	38	appos	_	TokenRange=315:323
+40	naum	_	NOUN	NOUN	_	39	flat	_	TokenRange=324:328
+41	investiga	investigar	VERB	VERB	_	3	parataxis	_	TokenRange=329:338
+42	desvios	desvio	NOUN	NOUN	_	41	obj	_	TokenRange=339:346
+43	aplicacoes	_	ADJ	ADJ	_	42	amod	_	TokenRange=347:357
+44	instituto	instituto	NOUN	NOUN	_	42	appos	_	TokenRange=358:367
+45	gestao	gestao	NOUN	NOUN	_	42	appos	_	TokenRange=368:374
+46	previdenciaria	_	ADJ	ADJ	_	45	amod	_	TokenRange=375:389
+47	tocantins	tocantim	ADJ	ADJ	_	45	amod	_	TokenRange=390:399
+48	igeprev	_	ADJ	ADJ	_	45	amod	_	TokenRange=400:407
+49	g1	_	ADJ	ADJ	_	50	amod	_	TokenRange=408:410
+50	acesso	acesso	NOUN	NOUN	_	45	appos	_	TokenRange=411:417
+51	inquerito	inquerito	ADJ	ADJ	_	50	amod	_	TokenRange=418:427
+52	cita	citar	VERB	VERB	_	41	parataxis	_	TokenRange=428:432
+53	depoimentos	depoimento	NOUN	NOUN	_	52	obj	_	TokenRange=433:444
+54	documentos	documento	NOUN	NOUN	_	53	amod	_	TokenRange=445:455
+55	apresentados	apresentar	VERB	VERB	_	53	acl	_	TokenRange=456:468
+56	exdiretor	exdiretor	ADJ	ADJ	_	55	xcomp	_	TokenRange=469:478
+57	instituto	instituto	NOUN	NOUN	_	55	nsubj	_	TokenRange=479:488
+58	servidor	servidor	NOUN	NOUN	_	57	amod	_	TokenRange=489:497
+59	informou	informar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=498:506
+

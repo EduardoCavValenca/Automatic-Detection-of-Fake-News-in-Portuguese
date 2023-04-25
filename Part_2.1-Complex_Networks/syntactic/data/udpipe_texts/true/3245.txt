@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procurador mpf cita tropa choque lula critica tentativa tornar julgamento politico durante leitura parecer procurador rejeitou alegacoes advogados defesa reus ressaltou provas sobre propriedade triplex procurador ministerio publico federal mpf mauricio gotardo gerum criticou chamou tropa choque sustentacao durante julgamento recurso expresidente luiz inacio lula silva realizado tribunal regional federal 4 regiao trf4 porto alegre nesta quartafeira 24 tropas choque formam parlamento instrumento supressao dialogo imposicao imposicao forca instrumento
+1	procurador	procurador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	mpf	_	NOUN	NOUN	_	1	flat	_	TokenRange=11:14
+3	cita	citar	VERB	VERB	_	0	root	_	TokenRange=15:19
+4	tropa	tropa	NOUN	NOUN	_	3	obj	_	TokenRange=20:25
+5	choque	choque	NOUN	NOUN	_	4	flat	_	TokenRange=26:32
+6	lula	_	NOUN	NOUN	_	4	flat	_	TokenRange=33:37
+7	critica	_	VERB	VERB	_	3	parataxis	_	TokenRange=38:45
+8	tentativa	_	NOUN	NOUN	_	7	obj	_	TokenRange=46:55
+9	tornar	tornar	VERB	VERB	_	8	acl:inf	_	TokenRange=56:62
+10	julgamento	julgamento	NOUN	NOUN	_	9	obj	_	TokenRange=63:73
+11	politico	politico	ADJ	ADJ	_	10	amod	_	TokenRange=74:82
+12	durante	_	ADP	ADP	_	13	case	_	TokenRange=83:90
+13	leitura	leitura	NOUN	NOUN	_	3	nmod	_	TokenRange=91:98
+14	parecer	parecer	NOUN	NOUN	_	16	nsubj	_	TokenRange=99:106
+15	procurador	procurador	NOUN	NOUN	_	16	nsubj	_	TokenRange=107:117
+16	rejeitou	rejeitar	VERB	VERB	_	3	conj	_	TokenRange=118:126
+17	alegacoes	alegacoe	NOUN	NOUN	_	16	obj	_	TokenRange=127:136
+18	advogados	advogado	ADJ	ADJ	_	17	amod	_	TokenRange=137:146
+19	defesa	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=147:153
+20	reus	reu	NOUN	NOUN	_	19	flat	_	TokenRange=154:158
+21	ressaltou	ressaltar	VERB	VERB	_	3	parataxis	_	TokenRange=159:168
+22	provas	prova	NOUN	NOUN	_	21	obj	_	TokenRange=169:175
+23	sobre	_	ADP	ADP	_	24	case	_	TokenRange=176:181
+24	propriedade	propriedade	NOUN	NOUN	_	22	nmod	_	TokenRange=182:193
+25	triplex	_	NOUN	NOUN	_	24	flat	_	TokenRange=194:201
+26	procurador	procurador	NOUN	NOUN	_	24	appos	_	TokenRange=202:212
+27	ministerio	ministerio	NOUN	NOUN	_	24	appos	_	TokenRange=213:223
+28	publico	_	ADJ	ADJ	_	27	amod	_	TokenRange=224:231
+29	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=232:239
+30	mpf	_	NOUN	NOUN	_	27	appos	_	TokenRange=240:243
+31	mauricio	mauricio	NOUN	NOUN	_	30	appos	_	TokenRange=244:252
+32	gotardo	gotardo	NOUN	NOUN	_	30	flat	_	TokenRange=253:260
+33	gerum	gerum	NOUN	NOUN	_	30	flat	_	TokenRange=261:266
+34	criticou	criticar	VERB	VERB	_	27	acl:relcl	_	TokenRange=267:275
+35	chamou	chamar	VERB	VERB	_	34	conj	_	TokenRange=276:282
+36	tropa	tropa	NOUN	NOUN	_	35	obj	_	TokenRange=283:288
+37	choque	choque	NOUN	NOUN	_	36	flat	_	TokenRange=289:295
+38	sustentacao	_	NOUN	NOUN	_	36	flat	_	TokenRange=296:307
+39	durante	_	ADP	ADP	_	40	case	_	TokenRange=308:315
+40	julgamento	julgamento	NOUN	NOUN	_	35	nmod	_	TokenRange=316:326
+41	recurso	recurso	NOUN	NOUN	_	40	appos	_	TokenRange=327:334
+42	expresidente	expresidente	NOUN	NOUN	_	41	amod	_	TokenRange=335:347
+43	luiz	luiz	ADJ	ADJ	_	41	appos	_	TokenRange=348:352
+44	inacio	_	NOUN	NOUN	_	43	flat	_	TokenRange=353:359
+45	lula	_	NOUN	NOUN	_	43	flat	_	TokenRange=360:364
+46	silva	silva	ADJ	ADJ	_	43	flat	_	TokenRange=365:370
+47	realizado	realizar	VERB	VERB	_	48	acl	_	TokenRange=371:380
+48	tribunal	tribunal	NOUN	NOUN	_	35	obj	_	TokenRange=381:389
+49	regional	regional	ADJ	ADJ	_	48	amod	_	TokenRange=390:398
+50	federal	federal	ADJ	ADJ	_	48	amod	_	TokenRange=399:406
+51	4	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=407:408
+52	regiao	regiao	NOUN	NOUN	_	48	appos	_	TokenRange=409:415
+53	trf4	_	NOUN	NOUN	_	52	appos	_	TokenRange=416:420
+54	porto	_	NOUN	NOUN	_	52	appos	_	TokenRange=421:426
+55	alegre	alegre	ADJ	ADJ	_	54	amod	_	TokenRange=427:433
+56	nesta	_	ADP	ADP	_	57	case	_	TokenRange=434:439
+57	quartafeira	_	NOUN	NOUN	_	61	nmod	_	TokenRange=440:451
+58	24	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=452:454
+59	tropas	tropa	NOUN	NOUN	_	61	nsubj	_	TokenRange=455:461
+60	choque	choque	ADJ	ADJ	_	59	amod	_	TokenRange=462:468
+61	formam	formar	VERB	VERB	_	35	parataxis	_	TokenRange=469:475
+62	parlamento	parlamento	NOUN	NOUN	_	61	obj	_	TokenRange=476:486
+63	instrumento	instrumento	ADJ	ADJ	_	62	amod	_	TokenRange=487:498
+64	supressao	supressao	NOUN	NOUN	_	61	obj	_	TokenRange=499:508
+65	dialogo	dialogo	NOUN	NOUN	_	64	amod	_	TokenRange=509:516
+66	imposicao	imposicao	ADJ	ADJ	_	64	amod	_	TokenRange=517:526
+67	imposicao	imposicao	ADJ	ADJ	_	68	amod	_	TokenRange=527:536
+68	forca	forca	NOUN	NOUN	_	64	appos	_	TokenRange=537:542
+69	instrumento	instrumento	ADJ	ADJ	_	68	amod	_	SpaceAfter=No|TokenRange=543:554
+

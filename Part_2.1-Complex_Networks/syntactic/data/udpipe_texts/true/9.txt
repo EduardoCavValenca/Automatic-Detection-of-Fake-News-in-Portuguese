@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = s doleiros acusados lavar dinheiro roubado quadrilha exgovernador sergio cabral vinicius claret conhecido juca bala claudio fernando barbosa tony chegaram rio janeiro tarde desta quintafeira 28 vindos uruguai chegaram voo comercial pousou aeroporto galeao 13h40 extradicao concedida governo uruguaio semana passada escoltados agentes policia federal doleiros chegaram volta 14h45 instituto medico legal zona portuaria juca bala tony fizeram exames seguiram cadeia publica benfica zona
+1	s	_	DET	DET	_	2	det	_	TokenRange=0:1
+2	doleiros	doleiro	NOUN	NOUN	_	20	nsubj	_	TokenRange=2:10
+3	acusados	acusar	VERB	VERB	_	2	acl	_	TokenRange=11:19
+4	lavar	lavar	VERB	VERB	_	3	xcomp	_	TokenRange=20:25
+5	dinheiro	dinheiro	NOUN	NOUN	_	4	obj	_	TokenRange=26:34
+6	roubado	roubar	VERB	VERB	_	2	acl	_	TokenRange=35:42
+7	quadrilha	quadrilha	NOUN	NOUN	_	4	obj	_	TokenRange=43:52
+8	exgovernador	exgovernador	NOUN	NOUN	_	7	amod	_	TokenRange=53:65
+9	sergio	sergio	NOUN	NOUN	_	7	appos	_	TokenRange=66:72
+10	cabral	cabral	ADJ	ADJ	_	11	amod	_	TokenRange=73:79
+11	vinicius	_	NOUN	NOUN	_	2	appos	_	TokenRange=80:88
+12	claret	_	NOUN	NOUN	_	11	flat	_	TokenRange=89:95
+13	conhecido	conhecido	ADJ	ADJ	_	11	amod	_	TokenRange=96:105
+14	juca	juca	NOUN	NOUN	_	11	appos	_	TokenRange=106:110
+15	bala	bala	NOUN	NOUN	_	14	flat	_	TokenRange=111:115
+16	claudio	claudio	NOUN	NOUN	_	14	appos	_	TokenRange=116:123
+17	fernando	fernando	NOUN	NOUN	_	14	appos	_	TokenRange=124:132
+18	barbosa	barboso	ADJ	ADJ	_	17	flat	_	TokenRange=133:140
+19	tony	_	PROPN	PNOUN	_	17	appos	_	TokenRange=141:145
+20	chegaram	chegar	VERB	VERB	_	0	root	_	TokenRange=146:154
+21	rio	rio	NOUN	NOUN	_	20	nmod	_	TokenRange=155:158
+22	janeiro	_	PROPN	PNOUN	_	21	appos	_	TokenRange=159:166
+23	tarde	tarde	NOUN	NOUN	_	20	advmod	_	TokenRange=167:172
+24	desta	_	ADP	ADP	_	25	case	_	TokenRange=173:178
+25	quintafeira	quintafeira	NOUN	NOUN	_	23	nmod	_	TokenRange=179:190
+26	28	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=191:193
+27	vindos	vindo	NOUN	NOUN	_	25	appos	_	TokenRange=194:200
+28	uruguai	uruguai	NOUN	NOUN	_	27	amod	_	TokenRange=201:208
+29	chegaram	chegar	VERB	VERB	_	20	parataxis	_	TokenRange=209:217
+30	voo	voo	NOUN	NOUN	_	29	obj	_	TokenRange=218:221
+31	comercial	comercial	ADJ	ADJ	_	30	amod	_	TokenRange=222:231
+32	pousou	pousar	VERB	VERB	_	20	parataxis	_	TokenRange=232:238
+33	aeroporto	aeroporto	NOUN	NOUN	_	32	obj	_	TokenRange=239:248
+34	galeao	galeao	ADJ	ADJ	_	33	amod	_	TokenRange=249:255
+35	13h40	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=256:261
+36	extradicao	extradicao	NOUN	NOUN	_	32	nsubj	_	TokenRange=262:272
+37	concedida	conceder	VERB	VERB	_	38	acl	_	TokenRange=273:282
+38	governo	governo	NOUN	NOUN	_	36	appos	_	TokenRange=283:290
+39	uruguaio	uruguaio	ADJ	ADJ	_	38	amod	_	TokenRange=291:299
+40	semana	semana	NOUN	NOUN	_	38	appos	_	TokenRange=300:306
+41	passada	passado	ADJ	ADJ	_	40	amod	_	TokenRange=307:314
+42	escoltados	escoltado	ADJ	ADJ	_	43	amod	_	TokenRange=315:325
+43	agentes	agente	NOUN	NOUN	_	47	nsubj	_	TokenRange=326:333
+44	policia	policia	NOUN	NOUN	_	43	appos	_	TokenRange=334:341
+45	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=342:349
+46	doleiros	doleiro	NOUN	NOUN	_	43	appos	_	TokenRange=350:358
+47	chegaram	chegar	VERB	VERB	_	20	parataxis	_	TokenRange=359:367
+48	volta	volta	NOUN	NOUN	_	47	nmod	_	TokenRange=368:373
+49	14h45	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=374:379
+50	instituto	instituto	NOUN	NOUN	_	47	nsubj	_	TokenRange=380:389
+51	medico	medico	ADJ	ADJ	_	50	amod	_	TokenRange=390:396
+52	legal	legal	ADJ	ADJ	_	50	amod	_	TokenRange=397:402
+53	zona	zona	NOUN	NOUN	_	50	appos	_	TokenRange=403:407
+54	portuaria	portuaria	ADJ	ADJ	_	53	amod	_	TokenRange=408:417
+55	juca	juca	ADJ	NOUN	_	53	appos	_	TokenRange=418:422
+56	bala	bala	NOUN	NOUN	_	55	flat	_	TokenRange=423:427
+57	tony	tony	NOUN	NOUN	_	55	flat	_	TokenRange=428:432
+58	fizeram	fazer	VERB	VERB	_	47	parataxis	_	TokenRange=433:440
+59	exames	exame	NOUN	NOUN	_	58	obj	_	TokenRange=441:447
+60	seguiram	seguir	VERB	VERB	_	47	parataxis	_	TokenRange=448:456
+61	cadeia	cadeia	NOUN	NOUN	_	60	obj	_	TokenRange=457:463
+62	publica	publico	ADJ	ADJ	_	61	amod	_	TokenRange=464:471
+63	benfica	benfico	ADJ	ADJ	_	64	amod	_	TokenRange=472:479
+64	zona	zona	NOUN	NOUN	_	61	appos	_	SpaceAfter=No|TokenRange=480:484
+

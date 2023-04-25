@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa entrega alegacoes finais pede absolvicao claudia cruz mulher expresidente camara deputados eduardo cunha acusada lavagem dinheiro evasao divisas defesa claudia cruz mulher expresidente camara deputador eduardo cunha protocolou alegacoes finais processo acusada lavagem dinheiro evasao divisas operacao lava jato advogados pedem absolvicao documento protocolado site justica federal parana sextafeira 12 ministerio publico federal mpf pede claudia pague reparacao danos materiais morais causados us 106165000 valor mantido re
+1	defesa	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	entrega	entregar	VERB	VERB	_	0	root	_	TokenRange=7:14
+3	alegacoes	alegacoe	NOUN	NOUN	_	2	obj	_	TokenRange=15:24
+4	finais	final	ADJ	ADJ	_	3	amod	_	TokenRange=25:31
+5	pede	pedir	NOUN	NOUN	_	2	parataxis	_	TokenRange=32:36
+6	absolvicao	_	NOUN	NOUN	_	2	obj	_	TokenRange=37:47
+7	claudia	claudia	NOUN	NOUN	_	6	appos	_	TokenRange=48:55
+8	cruz	_	NOUN	NOUN	_	7	flat	_	TokenRange=56:60
+9	mulher	mulher	NOUN	NOUN	_	7	flat	_	TokenRange=61:67
+10	expresidente	expresidente	NOUN	NOUN	_	6	appos	_	TokenRange=68:80
+11	camara	camara	ADJ	ADJ	_	12	amod	_	TokenRange=81:87
+12	deputados	deputado	NOUN	NOUN	_	10	appos	_	TokenRange=88:97
+13	eduardo	eduardo	NOUN	NOUN	_	12	appos	_	TokenRange=98:105
+14	cunha	_	NOUN	NOUN	_	13	flat	_	TokenRange=106:111
+15	acusada	acusar	VERB	VERB	_	12	acl	_	TokenRange=112:119
+16	lavagem	lavagem	NOUN	NOUN	_	15	obj	_	TokenRange=120:127
+17	dinheiro	dinheiro	NOUN	NOUN	_	16	flat	_	TokenRange=128:136
+18	evasao	_	VERB	NOUN	_	19	case	_	TokenRange=137:143
+19	divisas	divisa	NOUN	NOUN	_	16	appos	_	TokenRange=144:151
+20	defesa	_	NOUN	NOUN	_	19	appos	_	TokenRange=152:158
+21	claudia	claudia	NOUN	NOUN	_	19	appos	_	TokenRange=159:166
+22	cruz	_	NOUN	NOUN	_	21	flat	_	TokenRange=167:171
+23	mulher	mulher	NOUN	NOUN	_	21	flat	_	TokenRange=172:178
+24	expresidente	expresidente	NOUN	NOUN	_	21	appos	_	TokenRange=179:191
+25	camara	camara	NOUN	NOUN	_	21	appos	_	TokenRange=192:198
+26	deputador	deputador	NOUN	NOUN	_	21	appos	_	TokenRange=199:208
+27	eduardo	_	NOUN	NOUN	_	26	appos	_	TokenRange=209:216
+28	cunha	_	PROPN	PNOUN	_	27	flat	_	TokenRange=217:222
+29	protocolou	protocolar	VERB	VERB	_	2	parataxis	_	TokenRange=223:233
+30	alegacoes	alegacoe	NOUN	NOUN	_	29	obj	_	TokenRange=234:243
+31	finais	final	ADJ	ADJ	_	30	amod	_	TokenRange=244:250
+32	processo	processo	NOUN	NOUN	_	30	appos	_	TokenRange=251:259
+33	acusada	acusar	VERB	VERB	_	30	acl	_	TokenRange=260:267
+34	lavagem	lavagem	NOUN	NOUN	_	33	obj	_	TokenRange=268:275
+35	dinheiro	dinheiro	NOUN	NOUN	_	34	flat	_	TokenRange=276:284
+36	evasao	_	VERB	VERB	_	34	case	_	TokenRange=285:291
+37	divisas	divisa	NOUN	NOUN	_	36	obj	_	TokenRange=292:299
+38	operacao	operacao	ADJ	NOUN	_	39	appos	_	TokenRange=300:308
+39	lava	lava	NOUN	NOUN	_	36	appos	_	TokenRange=309:313
+40	jato	jato	NOUN	NOUN	_	39	flat	_	TokenRange=314:318
+41	advogados	advogado	NOUN	NOUN	_	42	nsubj	_	TokenRange=319:328
+42	pedem	pedir	VERB	VERB	_	29	parataxis	_	TokenRange=329:334
+43	absolvicao	_	ADJ	ADJ	_	44	amod	_	TokenRange=335:345
+44	documento	documento	NOUN	NOUN	_	42	obj	_	TokenRange=346:355
+45	protocolado	protocolado	ADJ	ADJ	_	44	amod	_	TokenRange=356:367
+46	site	site	NOUN	NOUN	_	44	appos	_	TokenRange=368:372
+47	justica	_	NOUN	NOUN	_	44	appos	_	TokenRange=373:380
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=381:388
+49	parana	parana	ADJ	ADJ	_	47	amod	_	TokenRange=389:395
+50	sextafeira	sextafeira	NOUN	NOUN	_	47	appos	_	TokenRange=396:406
+51	12	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=407:409
+52	ministerio	ministerio	NOUN	NOUN	_	50	appos	_	TokenRange=410:420
+53	publico	publico	ADJ	ADJ	_	52	amod	_	TokenRange=421:428
+54	federal	federal	ADJ	ADJ	_	52	amod	_	TokenRange=429:436
+55	mpf	_	NOUN	NOUN	_	52	appos	_	TokenRange=437:440
+56	pede	pedir	VERB	VERB	_	42	parataxis	_	TokenRange=441:445
+57	claudia	claudia	NOUN	NOUN	_	56	obj	_	TokenRange=446:453
+58	pague	_	NOUN	NOUN	_	56	obj	_	TokenRange=454:459
+59	reparacao	reparacao	ADJ	ADJ	_	60	amod	_	TokenRange=460:469
+60	danos	dano	NOUN	NOUN	_	56	obj	_	TokenRange=470:475
+61	materiais	material	ADJ	ADJ	_	60	amod	_	TokenRange=476:485
+62	morais	moral	ADJ	ADJ	_	60	amod	_	TokenRange=486:492
+63	causados	causar	VERB	VERB	_	60	acl	_	TokenRange=493:501
+64	us	_	DET	DET	_	63	nsubj	_	TokenRange=502:504
+65	106165000	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=505:514
+66	valor	valor	NOUN	NOUN	_	63	obj	_	TokenRange=515:520
+67	mantido	manter	VERB	VERB	_	66	acl	_	TokenRange=521:528
+68	re	_	X	X	_	63	obj	_	SpaceAfter=No|TokenRange=529:531
+

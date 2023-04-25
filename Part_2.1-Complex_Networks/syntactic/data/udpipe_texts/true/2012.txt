@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = homem baleado perto escola agiotas trocava cheque branco exprefeito ms salem pereira vieira 36 anos surpreendido manha desta sextafeira 2 suspeitos carro atiraram fugiram homem 36 anos estado gravissimo santa casa ferido varios disparos perto escola bairro guanandi regiao sul campo grande manha desta sextafeira 2 agiota salem pereira vieira trocou cheques branco dinheiro exprefeito capital sulmatogrossense gilmar olarte partido durante campanha 2012 segundo assessoria hospital atingido cinco tiros torax raspao braco vitima ala vermelha santa casa disparos ocorreram
+1	homem	homem	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	baleado	balear	VERB	VERB	_	1	acl	_	TokenRange=6:13
+3	perto	perto	ADV	ADV	_	4	advmod	_	TokenRange=14:19
+4	escola	escola	NOUN	NOUN	_	2	nmod	_	TokenRange=20:26
+5	agiotas	agiota	NOUN	NOUN	_	4	flat	_	TokenRange=27:34
+6	trocava	trocar	VERB	VERB	_	0	root	_	TokenRange=35:42
+7	cheque	cheque	NOUN	NOUN	_	6	obj	_	TokenRange=43:49
+8	branco	branco	ADJ	ADJ	_	7	amod	_	TokenRange=50:56
+9	exprefeito	exprefeito	NOUN	NOUN	_	7	appos	_	TokenRange=57:67
+10	ms	_	NOUN	NOUN	_	7	appos	_	TokenRange=68:70
+11	salem	_	NOUN	NOUN	_	7	appos	_	TokenRange=71:76
+12	pereira	_	NOUN	NOUN	_	11	flat	_	TokenRange=77:84
+13	vieira	vieira	NOUN	NOUN	_	11	flat	_	TokenRange=85:91
+14	36	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=92:94
+15	anos	ano	NOUN	NOUN	_	7	appos	_	TokenRange=95:99
+16	surpreendido	surpreender	VERB	VERB	_	15	acl	_	TokenRange=100:112
+17	manha	manha	NOUN	NOUN	_	16	nsubj	_	TokenRange=113:118
+18	desta	_	ADP	ADP	_	19	case	_	TokenRange=119:124
+19	sextafeira	sextafeira	NOUN	NOUN	_	17	nmod	_	TokenRange=125:135
+20	2	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=136:137
+21	suspeitos	suspeito	NOUN	NOUN	_	19	appos	_	TokenRange=138:147
+22	carro	carro	NOUN	NOUN	_	21	appos	_	TokenRange=148:153
+23	atiraram	atirar	VERB	VERB	_	6	parataxis	_	TokenRange=154:162
+24	fugiram	fugir	VERB	VERB	_	23	xcomp	_	TokenRange=163:170
+25	homem	homem	NOUN	NOUN	_	24	nsubj	_	TokenRange=171:176
+26	36	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=177:179
+27	anos	ano	NOUN	NOUN	_	25	appos	_	TokenRange=180:184
+28	estado	estado	NOUN	NOUN	_	25	appos	_	TokenRange=185:191
+29	gravissimo	gravissimo	ADJ	ADJ	_	28	amod	_	TokenRange=192:202
+30	santa	santo	ADJ	ADJ	_	31	amod	_	TokenRange=203:208
+31	casa	casa	NOUN	NOUN	_	28	appos	_	TokenRange=209:213
+32	ferido	ferido	ADJ	ADJ	_	31	amod	_	TokenRange=214:220
+33	varios	_	DET	DET	_	34	det	_	TokenRange=221:227
+34	disparos	disparo	NOUN	NOUN	_	32	nsubj	_	TokenRange=228:236
+35	perto	perto	ADV	ADV	_	36	case	_	TokenRange=237:242
+36	escola	escola	NOUN	NOUN	_	34	nmod	_	TokenRange=243:249
+37	bairro	bairro	NOUN	NOUN	_	36	flat	_	TokenRange=250:256
+38	guanandi	_	NOUN	NOUN	_	36	appos	_	TokenRange=257:265
+39	regiao	regiao	NOUN	NOUN	_	36	appos	_	TokenRange=266:272
+40	sul	sul	ADJ	ADJ	_	39	amod	_	TokenRange=273:276
+41	campo	campo	NOUN	NOUN	_	39	appos	_	TokenRange=277:282
+42	grande	grande	ADJ	ADJ	_	41	amod	_	TokenRange=283:289
+43	manha	manha	NOUN	NOUN	_	51	nsubj	_	TokenRange=290:295
+44	desta	_	ADP	ADP	_	45	case	_	TokenRange=296:301
+45	sextafeira	sextafeira	NOUN	NOUN	_	43	nmod	_	TokenRange=302:312
+46	2	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=313:314
+47	agiota	agiota	NOUN	NOUN	_	51	nsubj	_	TokenRange=315:321
+48	salem	_	NOUN	NOUN	_	47	appos	_	TokenRange=322:327
+49	pereira	_	NOUN	NOUN	_	48	flat	_	TokenRange=328:335
+50	vieira	vieira	NOUN	NOUN	_	48	flat	_	TokenRange=336:342
+51	trocou	trocar	VERB	VERB	_	6	conj	_	TokenRange=343:349
+52	cheques	cheque	NOUN	NOUN	_	51	obj	_	TokenRange=350:357
+53	branco	branco	ADJ	ADJ	_	52	amod	_	TokenRange=358:364
+54	dinheiro	dinheiro	NOUN	NOUN	_	52	appos	_	TokenRange=365:373
+55	exprefeito	exprefeito	NOUN	NOUN	_	52	appos	_	TokenRange=374:384
+56	capital	capital	NOUN	NOUN	_	55	flat	_	TokenRange=385:392
+57	sulmatogrossense	_	ADJ	ADJ	_	55	amod	_	TokenRange=393:409
+58	gilmar	gilmar	NOUN	NOUN	_	55	appos	_	TokenRange=410:416
+59	olarte	olarte	ADJ	ADJ	_	58	amod	_	TokenRange=417:423
+60	partido	partido	NOUN	NOUN	_	58	appos	_	TokenRange=424:431
+61	durante	_	ADP	ADP	_	62	case	_	TokenRange=432:439
+62	campanha	campanha	NOUN	NOUN	_	79	nmod	_	TokenRange=440:448
+63	2012	_	NUM	NUM	NumType=Card	62	nmod	_	TokenRange=449:453
+64	segundo	_	ADP	ADP	_	65	case	_	TokenRange=454:461
+65	assessoria	assessoria	NOUN	NOUN	_	79	nmod	_	TokenRange=462:472
+66	hospital	hospital	NOUN	NOUN	_	65	flat	_	TokenRange=473:481
+67	atingido	atingir	VERB	VERB	_	65	acl	_	TokenRange=482:490
+68	cinco	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=491:496
+69	tiros	tiro	NOUN	NOUN	_	67	obj	_	TokenRange=497:502
+70	torax	torax	NOUN	NOUN	_	69	appos	_	TokenRange=503:508
+71	raspao	raspao	NOUN	NOUN	_	69	appos	_	TokenRange=509:515
+72	braco	braco	NOUN	NOUN	_	74	flat	_	TokenRange=516:521
+73	vitima	_	ADJ	ADJ	_	74	amod	_	TokenRange=522:528
+74	ala	ala	NOUN	NOUN	_	69	appos	_	TokenRange=529:532
+75	vermelha	vermelho	ADJ	ADJ	_	74	amod	_	TokenRange=533:541
+76	santa	santo	ADJ	ADJ	_	77	amod	_	TokenRange=542:547
+77	casa	casa	NOUN	NOUN	_	79	nsubj	_	TokenRange=548:552
+78	disparos	disparo	NOUN	NOUN	_	79	nsubj	_	TokenRange=553:561
+79	ocorreram	ocorrer	VERB	VERB	_	6	parataxis	_	SpaceAfter=No|TokenRange=562:571
+

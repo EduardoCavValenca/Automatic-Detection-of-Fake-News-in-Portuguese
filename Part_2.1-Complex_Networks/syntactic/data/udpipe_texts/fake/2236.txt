@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joaquim barbosa impeachment patetico discurso temer patetico ainda expresidente supremo tribunal federal joaquim barbosa publicou twitter acompanhou espetaculo patetico impeachment barbosa disse entrevista presidente michel temer ainda patetica todo processo si homem acredita respeito fato presidente enganase publicou barbosa
+1	joaquim	joaquim	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:7
+2	barbosa	barboso	ADJ	ADJ	_	1	amod	_	TokenRange=8:15
+3	impeachment	impeachment	NOUN	NOUN	_	1	appos	_	TokenRange=16:27
+4	patetico	patetico	ADJ	ADJ	_	5	amod	_	TokenRange=28:36
+5	discurso	discurso	NOUN	NOUN	_	1	appos	_	TokenRange=37:45
+6	temer	temer	NOUN	NOUN	_	5	appos	_	TokenRange=46:51
+7	patetico	patetico	ADJ	ADJ	_	5	amod	_	TokenRange=52:60
+8	ainda	ainda	ADV	ADV	_	9	advmod	_	TokenRange=61:66
+9	expresidente	expresidente	NOUN	NOUN	_	5	amod	_	TokenRange=67:79
+10	supremo	supremo	ADJ	ADJ	_	11	amod	_	TokenRange=80:87
+11	tribunal	tribunal	NOUN	NOUN	_	9	appos	_	TokenRange=88:96
+12	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=97:104
+13	joaquim	joaquim	NOUN	NOUN	_	15	nsubj	_	TokenRange=105:112
+14	barbosa	_	NOUN	NOUN	_	13	flat	_	TokenRange=113:120
+15	publicou	publicar	VERB	VERB	_	0	root	_	TokenRange=121:129
+16	twitter	_	PROPN	PNOUN	_	15	obj	_	TokenRange=130:137
+17	acompanhou	acompanhar	VERB	VERB	_	15	parataxis	_	TokenRange=138:148
+18	espetaculo	espetaculo	NOUN	NOUN	_	17	obj	_	TokenRange=149:159
+19	patetico	patetico	ADJ	ADJ	_	18	amod	_	TokenRange=160:168
+20	impeachment	impeachment	NOUN	NOUN	_	18	appos	_	TokenRange=169:180
+21	barbosa	barboso	ADJ	ADJ	_	20	amod	_	TokenRange=181:188
+22	disse	dizer	VERB	VERB	_	15	parataxis	_	TokenRange=189:194
+23	entrevista	entrevista	NOUN	NOUN	_	22	obj	_	TokenRange=195:205
+24	presidente	presidente	NOUN	NOUN	_	23	appos	_	TokenRange=206:216
+25	michel	michel	ADJ	ADJ	_	26	amod	_	TokenRange=217:223
+26	temer	temer	NOUN	NOUN	_	23	appos	_	TokenRange=224:229
+27	ainda	ainda	ADV	ADV	_	28	advmod	_	TokenRange=230:235
+28	patetica	patetico	ADJ	ADJ	_	23	amod	_	TokenRange=236:244
+29	todo	_	DET	DET	_	30	det	_	TokenRange=245:249
+30	processo	processo	NOUN	NOUN	_	33	obj	_	TokenRange=250:258
+31	si	_	DET	DET	_	32	det	_	TokenRange=259:261
+32	homem	homem	NOUN	NOUN	_	33	nsubj	_	TokenRange=262:267
+33	acredita	acreditar	VERB	VERB	_	22	parataxis	_	TokenRange=268:276
+34	respeito	respeito	NOUN	NOUN	_	33	obj	_	TokenRange=277:285
+35	fato	fato	NOUN	NOUN	_	33	obj	_	TokenRange=286:290
+36	presidente	presidente	NOUN	NOUN	_	38	nsubj	_	TokenRange=291:301
+37	enganase	enganase	NOUN	NOUN	_	38	nsubj	_	TokenRange=302:310
+38	publicou	publicar	VERB	VERB	_	33	parataxis	_	TokenRange=311:319
+39	barbosa	barboso	NOUN	NOUN	_	38	obj	_	SpaceAfter=No|TokenRange=320:327
+

@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deslavado continua pedindo votos nessas ereicoes municipais importante iscure bem pessoa lula realmente surpreendente merece trofeu oleo peroba todas acusacoes pesam sobre petista ainda continua achando alguma influencia mundo politico luiz inacio questao justica sim psiquiatria
+1	deslavado	deslavado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	continua	continuar	AUX	AUX	_	3	aux	_	TokenRange=10:18
+3	pedindo	pedir	VERB	VERB	_	0	root	_	TokenRange=19:26
+4	votos	voto	NOUN	NOUN	_	3	obj	_	TokenRange=27:32
+5	nessas	_	ADP	ADP	_	6	case	_	TokenRange=33:39
+6	ereicoes	ereicoe	NOUN	NOUN	_	3	nmod	_	TokenRange=40:48
+7	municipais	municipal	ADJ	ADJ	_	6	amod	_	TokenRange=49:59
+8	importante	importante	ADJ	ADJ	_	6	amod	_	TokenRange=60:70
+9	iscure	iscure	NOUN	NOUN	_	3	nsubj	_	TokenRange=71:77
+10	bem	bem	ADV	ADV	_	11	advmod	_	TokenRange=78:81
+11	pessoa	pessoa	NOUN	NOUN	_	9	appos	_	TokenRange=82:88
+12	lula	_	NOUN	NOUN	_	11	appos	_	TokenRange=89:93
+13	realmente	realmente	ADV	ADV	_	14	advmod	_	TokenRange=94:103
+14	surpreendente	surpreendente	ADJ	ADJ	_	11	amod	_	TokenRange=104:117
+15	merece	merecer	VERB	VERB	_	3	parataxis	_	TokenRange=118:124
+16	trofeu	trofeu	NOUN	NOUN	_	15	obj	_	TokenRange=125:131
+17	oleo	oleo	NOUN	NOUN	_	16	flat	_	TokenRange=132:136
+18	peroba	peroba	NOUN	NOUN	_	16	flat	_	TokenRange=137:143
+19	todas	_	DET	DET	_	20	det	_	TokenRange=144:149
+20	acusacoes	acusacoe	NOUN	NOUN	_	21	nsubj	_	TokenRange=150:159
+21	pesam	pesar	VERB	VERB	_	15	parataxis	_	TokenRange=160:165
+22	sobre	_	ADP	ADP	_	23	case	_	TokenRange=166:171
+23	petista	petista	NOUN	NOUN	_	21	nmod	_	TokenRange=172:179
+24	ainda	ainda	ADV	ADV	_	26	advmod	_	TokenRange=180:185
+25	continua	continuar	AUX	AUX	_	26	aux	_	TokenRange=186:194
+26	achando	achar	VERB	VERB	_	21	conj	_	TokenRange=195:202
+27	alguma	_	DET	DET	_	28	det	_	TokenRange=203:209
+28	influencia	influencia	NOUN	NOUN	_	26	obj	_	TokenRange=210:220
+29	mundo	mundo	NOUN	NOUN	_	26	nmod	_	TokenRange=221:226
+30	politico	politico	ADJ	ADJ	_	29	amod	_	TokenRange=227:235
+31	luiz	luiz	NOUN	NOUN	_	29	appos	_	TokenRange=236:240
+32	inacio	_	NOUN	NOUN	_	31	flat	_	TokenRange=241:247
+33	questao	questao	NOUN	NOUN	_	29	appos	_	TokenRange=248:255
+34	justica	_	NOUN	NOUN	_	36	appos	_	TokenRange=256:263
+35	sim	sim	ADV	ADV	_	36	advmod	_	TokenRange=264:267
+36	psiquiatria	psiquiatria	NOUN	NOUN	_	33	appos	_	SpaceAfter=No|TokenRange=268:279
+

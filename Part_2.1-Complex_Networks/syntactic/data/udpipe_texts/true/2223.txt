@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer vaiado rio apos falar sobre melhoras economia pais durante pronunciamento espectadores levantou placa dizeres temer golpista eleicoes gerais presidente michel temer vaiado manha desta quartafeira 9 fim pronunciamento durante solenidade abertura 36 edicao encontro nacional comercio exterior centro rio janeiro durante pronunciamento espectadores levantou placa dizeres temer golpista eleicoes gerais sendo seguido outros plateia fim discurso presidente vaiado ouviu gritos temer vaias partiu wenny campos 22 anos
+1	temer	temer	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:5
+2	vaiado	vaiar	VERB	VERB	_	13	acl	_	TokenRange=6:12
+3	rio	rio	NOUN	NOUN	_	2	obj	_	TokenRange=13:16
+4	apos	_	ADP	ADP	_	5	mark	_	TokenRange=17:21
+5	falar	falar	VERB	VERB	_	2	advcl	_	TokenRange=22:27
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=28:33
+7	melhoras	melhora	NOUN	NOUN	_	5	nmod	_	TokenRange=34:42
+8	economia	economia	NOUN	NOUN	_	5	nmod	_	TokenRange=43:51
+9	pais	_	NOUN	NOUN	_	8	flat	_	TokenRange=52:56
+10	durante	_	ADP	ADP	_	11	case	_	TokenRange=57:64
+11	pronunciamento	pronunciamento	NOUN	NOUN	_	2	nmod	_	TokenRange=65:79
+12	espectadores	espectador	NOUN	NOUN	_	11	amod	_	TokenRange=80:92
+13	levantou	levantar	VERB	VERB	_	0	root	_	TokenRange=93:101
+14	placa	placa	NOUN	NOUN	_	13	obj	_	TokenRange=102:107
+15	dizeres	dizer	NOUN	NOUN	_	14	flat	_	TokenRange=108:115
+16	temer	temer	NOUN	NOUN	_	14	appos	_	TokenRange=116:121
+17	golpista	golpista	ADJ	ADJ	_	18	amod	_	TokenRange=122:130
+18	eleicoes	eleicoe	NOUN	NOUN	_	14	appos	_	TokenRange=131:139
+19	gerais	geral	ADJ	ADJ	_	18	amod	_	TokenRange=140:146
+20	presidente	presidente	NOUN	NOUN	_	18	appos	_	TokenRange=147:157
+21	michel	michel	ADJ	ADJ	_	20	amod	_	TokenRange=158:164
+22	temer	temer	NOUN	NOUN	_	20	appos	_	TokenRange=165:170
+23	vaiado	vaiar	VERB	VERB	_	20	acl	_	TokenRange=171:177
+24	manha	manha	NOUN	NOUN	_	23	nmod	_	TokenRange=178:183
+25	desta	_	ADP	ADP	_	26	case	_	TokenRange=184:189
+26	quartafeira	_	NOUN	NOUN	_	24	nmod	_	TokenRange=190:201
+27	9	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=202:203
+28	fim	fim	NOUN	NOUN	_	24	nmod	_	TokenRange=204:207
+29	pronunciamento	pronunciamento	NOUN	NOUN	_	20	appos	_	TokenRange=208:222
+30	durante	_	ADP	ADP	_	31	case	_	TokenRange=223:230
+31	solenidade	solenidade	NOUN	NOUN	_	29	nmod	_	TokenRange=231:241
+32	abertura	abertura	NOUN	NOUN	_	31	appos	_	TokenRange=242:250
+33	36	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=251:253
+34	edicao	edicao	NOUN	NOUN	_	35	appos	_	TokenRange=254:260
+35	encontro	encontro	NOUN	NOUN	_	31	appos	_	TokenRange=261:269
+36	nacional	nacional	ADJ	ADJ	_	35	amod	_	TokenRange=270:278
+37	comercio	comercio	NOUN	NOUN	_	35	appos	_	TokenRange=279:287
+38	exterior	exterior	ADJ	ADJ	_	37	amod	_	TokenRange=288:296
+39	centro	centro	NOUN	NOUN	_	35	appos	_	TokenRange=297:303
+40	rio	_	PROPN	PNOUN	_	39	appos	_	TokenRange=304:307
+41	janeiro	_	PROPN	PNOUN	_	40	flat	_	TokenRange=308:315
+42	durante	_	ADP	ADP	_	43	case	_	TokenRange=316:323
+43	pronunciamento	pronunciamento	NOUN	NOUN	_	45	nmod	_	TokenRange=324:338
+44	espectadores	espectador	NOUN	NOUN	_	43	amod	_	TokenRange=339:351
+45	levantou	levantar	VERB	VERB	_	13	parataxis	_	TokenRange=352:360
+46	placa	placa	NOUN	NOUN	_	45	obj	_	TokenRange=361:366
+47	dizeres	dizer	NOUN	NOUN	_	46	flat	_	TokenRange=367:374
+48	temer	temer	NOUN	NOUN	_	46	appos	_	TokenRange=375:380
+49	golpista	golpista	ADJ	ADJ	_	48	amod	_	TokenRange=381:389
+50	eleicoes	eleicoe	NOUN	NOUN	_	48	appos	_	TokenRange=390:398
+51	gerais	geral	ADJ	ADJ	_	50	amod	_	TokenRange=399:405
+52	sendo	ser	AUX	AUX	_	53	aux:pass	_	TokenRange=406:411
+53	seguido	seguir	VERB	VERB	_	45	acl	_	TokenRange=412:419
+54	outros	_	DET	DET	_	55	det	_	TokenRange=420:426
+55	plateia	plateia	NOUN	NOUN	_	53	nsubj:pass	_	TokenRange=427:434
+56	fim	fim	NOUN	NOUN	_	55	amod	_	TokenRange=435:438
+57	discurso	discurso	NOUN	NOUN	_	60	nsubj	_	TokenRange=439:447
+58	presidente	presidente	NOUN	NOUN	_	57	appos	_	TokenRange=448:458
+59	vaiado	vaiado	ADJ	ADJ	_	58	amod	_	TokenRange=459:465
+60	ouviu	ouvir	VERB	VERB	_	45	parataxis	_	TokenRange=466:471
+61	gritos	grito	NOUN	NOUN	_	60	obj	_	TokenRange=472:478
+62	temer	temer	ADJ	NOUN	_	64	nsubj	_	TokenRange=479:484
+63	vaias	vaia	NOUN	NOUN	_	64	nsubj	_	TokenRange=485:490
+64	partiu	partir	VERB	VERB	_	60	parataxis	_	TokenRange=491:497
+65	wenny	_	NOUN	NOUN	_	64	obj	_	TokenRange=498:503
+66	campos	campo	NOUN	NOUN	_	65	flat	_	TokenRange=504:510
+67	22	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=511:513
+68	anos	ano	NOUN	NOUN	_	64	nmod	_	SpaceAfter=No|TokenRange=514:518
+

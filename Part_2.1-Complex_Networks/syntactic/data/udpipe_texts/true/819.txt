@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = palocci diz pacto sangue lula odebrecht envolveu propina r 300 milhoes exministro interrogado sergio moro nesta quartafeira 6 curitiba acao investiga empreiteira deu propina terreno imovel expresidente palocci diz lula sabia compra terreno instituto recebeu r 4 milhoes antonio palocci exministro governos lula dilma prestou depoimento nesta quartafeira 6 juiz sergio moro inquerito apura pagamento r 12 milhoes propina odebrecht expresidente luiz inacio lula silva forma
+1	palocci	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	pacto	pacto	NOUN	NOUN	_	2	obj	_	TokenRange=12:17
+4	sangue	sangue	NOUN	NOUN	_	3	flat	_	TokenRange=18:24
+5	lula	lula	NOUN	NOUN	_	7	nsubj	_	TokenRange=25:29
+6	odebrecht	_	PROPN	PNOUN	_	5	flat	_	TokenRange=30:39
+7	envolveu	envolver	VERB	VERB	_	3	acl:relcl	_	TokenRange=40:48
+8	propina	propina	NOUN	NOUN	_	7	obj	_	TokenRange=49:56
+9	r	r	NOUN	NOUN	_	12	flat	_	TokenRange=57:58
+10	300	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=59:62
+11	milhoes	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=63:70
+12	exministro	exministro	NOUN	NOUN	_	7	obj	_	TokenRange=71:81
+13	interrogado	interrogado	ADJ	ADJ	_	12	amod	_	TokenRange=82:93
+14	sergio	sergio	NOUN	NOUN	_	13	appos	_	TokenRange=94:100
+15	moro	moro	NOUN	NOUN	_	14	flat	_	TokenRange=101:105
+16	nesta	_	ADP	ADP	_	17	case	_	TokenRange=106:111
+17	quartafeira	quartafeira	NOUN	NOUN	_	7	nmod	_	TokenRange=112:123
+18	6	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=124:125
+19	curitiba	curitiba	NOUN	NOUN	_	17	appos	_	TokenRange=126:134
+20	acao	acao	NOUN	NOUN	_	23	nsubj	_	TokenRange=135:139
+21	investiga	investigar	VERB	VERB	_	19	acl:relcl	_	TokenRange=140:149
+22	empreiteira	empreiteiro	NOUN	NOUN	_	23	obj	_	TokenRange=150:161
+23	deu	dar	VERB	VERB	_	21	parataxis	_	TokenRange=162:165
+24	propina	propina	NOUN	NOUN	_	23	obj	_	TokenRange=166:173
+25	terreno	terreno	NOUN	NOUN	_	24	flat	_	TokenRange=174:181
+26	imovel	imovel	ADJ	ADJ	_	27	amod	_	TokenRange=182:188
+27	expresidente	expresidente	NOUN	NOUN	_	23	nsubj	_	TokenRange=189:201
+28	palocci	_	NOUN	NOUN	_	27	appos	_	TokenRange=202:209
+29	diz	dizer	VERB	VERB	_	23	parataxis	_	TokenRange=210:213
+30	lula	lula	NOUN	NOUN	_	32	nsubj	_	TokenRange=214:218
+31	sabia	saber	VERB	VERB	_	29	ccomp	_	TokenRange=219:224
+32	compra	comprar	VERB	VERB	_	29	ccomp	_	TokenRange=225:231
+33	terreno	terreno	NOUN	NOUN	_	32	obj	_	TokenRange=232:239
+34	instituto	instituto	NOUN	NOUN	_	32	obj	_	TokenRange=240:249
+35	recebeu	receber	VERB	VERB	_	32	parataxis	_	TokenRange=250:257
+36	r	r	NOUN	NOUN	_	35	obj	_	TokenRange=258:259
+37	4	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=260:261
+38	milhoes	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=262:269
+39	antonio	antonio	NOUN	NOUN	_	35	nsubj	_	TokenRange=270:277
+40	palocci	_	NOUN	NOUN	_	39	appos	_	TokenRange=278:285
+41	exministro	exministro	ADJ	ADJ	_	42	amod	_	TokenRange=286:296
+42	governos	governo	NOUN	NOUN	_	45	nsubj	_	TokenRange=297:305
+43	lula	lula	ADJ	NOUN	_	42	amod	_	TokenRange=306:310
+44	dilma	dilma	NOUN	NOUN	_	43	flat	_	TokenRange=311:316
+45	prestou	prestar	VERB	VERB	_	35	conj	_	TokenRange=317:324
+46	depoimento	depoimento	NOUN	NOUN	_	45	obj	_	TokenRange=325:335
+47	nesta	_	ADP	ADP	_	48	case	_	TokenRange=336:341
+48	quartafeira	quartafeira	NOUN	NOUN	_	45	nmod	_	TokenRange=342:353
+49	6	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=354:355
+50	juiz	juiz	NOUN	NOUN	_	45	nsubj	_	TokenRange=356:360
+51	sergio	sergio	NOUN	NOUN	_	50	appos	_	TokenRange=361:367
+52	moro	moro	NOUN	NOUN	_	51	flat	_	TokenRange=368:372
+53	inquerito	inquerito	NOUN	NOUN	_	50	amod	_	TokenRange=373:382
+54	apura	apurar	VERB	VERB	_	45	parataxis	_	TokenRange=383:388
+55	pagamento	pagamento	NOUN	NOUN	_	54	obj	_	TokenRange=389:398
+56	r	r	NOUN	NOUN	_	59	case	_	TokenRange=399:400
+57	12	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=401:403
+58	milhoes	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=404:411
+59	propina	propina	NOUN	NOUN	_	54	obj	_	TokenRange=412:419
+60	odebrecht	odebrecht	ADJ	ADJ	_	59	amod	_	TokenRange=420:429
+61	expresidente	expresidente	NOUN	NOUN	_	66	nsubj	_	TokenRange=430:442
+62	luiz	luiz	NOUN	NOUN	_	61	appos	_	TokenRange=443:447
+63	inacio	_	NOUN	NOUN	_	62	flat	_	TokenRange=448:454
+64	lula	lula	NOUN	NOUN	_	62	flat	_	TokenRange=455:459
+65	silva	silva	ADJ	ADJ	_	66	flat	_	TokenRange=460:465
+66	forma	forma	NOUN	NOUN	_	2	parataxis	_	SpaceAfter=No|TokenRange=466:471
+

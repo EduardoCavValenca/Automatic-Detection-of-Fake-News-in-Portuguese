@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = christian figueiredo lida ego altos baixos youtube referencia ano vezes mexe psicologico diz youtuber estara rock in rio relembre video momentos vistos christian engane geracao nascida anos 1990 domina youtube repete mesmos erros velho universo celebridades christian figueiredo sabe bem
+1	christian	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	figueiredo	figueiredo	NOUN	NOUN	_	1	amod	_	TokenRange=10:20
+3	lida	_	VERB	VERB	_	0	root	_	TokenRange=21:25
+4	ego	_	NOUN	NOUN	_	3	obj	_	TokenRange=26:29
+5	altos	alto	ADJ	ADJ	_	6	amod	_	TokenRange=30:35
+6	baixos	baixo	NOUN	NOUN	_	3	obj	_	TokenRange=36:42
+7	youtube	_	NOUN	NOUN	_	3	parataxis	_	TokenRange=43:50
+8	referencia	_	NOUN	NOUN	_	3	parataxis	_	TokenRange=51:61
+9	ano	_	NUM	NOUN	_	10	nummod	_	TokenRange=62:65
+10	vezes	vez	NOUN	NOUN	_	3	nmod	_	TokenRange=66:71
+11	mexe	mexe	NOUN	NOUN	_	13	nsubj	_	TokenRange=72:76
+12	psicologico	psicologico	ADJ	ADJ	_	11	amod	_	TokenRange=77:88
+13	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=89:92
+14	youtuber	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=93:101
+15	estara	estar	AUX	AUX	_	16	cop	_	TokenRange=102:108
+16	rock	rock	NOUN	NOUN	_	13	ccomp	_	TokenRange=109:113
+17	in	_	ADP	ADP	_	18	case	_	TokenRange=114:116
+18	rio	_	NOUN	NOUN	_	16	nmod	_	TokenRange=117:120
+19	relembre	relembre	NOUN	NOUN	_	16	appos	_	TokenRange=121:129
+20	video	_	NOUN	NOUN	_	19	appos	_	TokenRange=130:135
+21	momentos	momento	NOUN	NOUN	_	16	nsubj	_	TokenRange=136:144
+22	vistos	visto	ADJ	ADJ	_	21	amod	_	TokenRange=145:151
+23	christian	_	ADJ	NOUN	_	24	nsubj	_	TokenRange=152:161
+24	engane	enganar	VERB	VERB	_	21	acl:relcl	_	TokenRange=162:168
+25	geracao	geracao	NOUN	NOUN	_	24	obj	_	TokenRange=169:176
+26	nascida	nascido	ADJ	ADJ	_	25	amod	_	TokenRange=177:184
+27	anos	ano	NOUN	NOUN	_	24	nmod	_	TokenRange=185:189
+28	1990	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=190:194
+29	domina	dominar	VERB	VERB	_	24	parataxis	_	TokenRange=195:201
+30	youtube	_	PROPN	PNOUN	_	29	nsubj	_	TokenRange=202:209
+31	repete	repetir	VERB	VERB	_	3	parataxis	_	TokenRange=210:216
+32	mesmos	mesmo	ADJ	ADJ	_	33	amod	_	TokenRange=217:223
+33	erros	erro	NOUN	NOUN	_	31	obj	_	TokenRange=224:229
+34	velho	velho	ADJ	ADJ	_	33	amod	_	TokenRange=230:235
+35	universo	universo	NOUN	NOUN	_	33	amod	_	TokenRange=236:244
+36	celebridades	celebridade	NOUN	NOUN	_	39	nsubj	_	TokenRange=245:257
+37	christian	christian	ADJ	ADJ	_	39	nsubj	_	TokenRange=258:267
+38	figueiredo	figueiredo	ADJ	ADJ	_	37	amod	_	TokenRange=268:278
+39	sabe	saber	VERB	VERB	_	29	parataxis	_	TokenRange=279:283
+40	bem	bem	ADV	ADV	_	39	advmod	_	SpaceAfter=No|TokenRange=284:287
+

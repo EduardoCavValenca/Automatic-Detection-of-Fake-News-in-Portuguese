@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula pf bando louco delegado tomar linguagem usada expresidente lula algo assusta bandidos nivel intelectual conversas envolvendo expresidente lula algo impressionante cada 10 palavras lula solta 8 palavroes cidadao desses pode ocupar cargo alto escalao governo conversa telefonica grampeada pf luiz inacio diz senador petista lindbergh farias investigadores pf bando loucos manda delegado federal tomar confira video via dossie pt
+1	lula	lula	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:4
+2	pf	_	NOUN	NOUN	_	1	appos	_	TokenRange=5:7
+3	bando	bando	NOUN	NOUN	_	1	appos	_	TokenRange=8:13
+4	louco	louco	ADJ	ADJ	_	3	amod	_	TokenRange=14:19
+5	delegado	delegado	NOUN	NOUN	_	1	appos	_	TokenRange=20:28
+6	tomar	tomar	VERB	VERB	_	1	acl:relcl	_	TokenRange=29:34
+7	linguagem	linguagem	NOUN	NOUN	_	6	obj	_	TokenRange=35:44
+8	usada	usar	VERB	VERB	_	7	acl	_	TokenRange=45:50
+9	expresidente	expresidente	NOUN	NOUN	_	6	obj	_	TokenRange=51:63
+10	lula	lula	ADJ	ADJ	_	9	amod	_	TokenRange=64:68
+11	algo	_	PRON	PRON	_	12	nsubj	_	TokenRange=69:73
+12	assusta	assustar	VERB	VERB	_	0	root	_	TokenRange=74:81
+13	bandidos	bandido	NOUN	NOUN	_	12	obj	_	TokenRange=82:90
+14	nivel	nivel	NOUN	NOUN	_	13	appos	_	TokenRange=91:96
+15	intelectual	intelectual	ADJ	ADJ	_	14	amod	_	TokenRange=97:108
+16	conversas	_	NOUN	NOUN	_	14	appos	_	TokenRange=109:118
+17	envolvendo	envolver	VERB	VERB	_	16	acl	_	TokenRange=119:129
+18	expresidente	expresidente	NOUN	NOUN	_	17	obj	_	TokenRange=130:142
+19	lula	lula	ADJ	ADJ	_	18	amod	_	TokenRange=143:147
+20	algo	_	PRON	PRON	_	18	appos	_	TokenRange=148:152
+21	impressionante	impressionante	ADJ	ADJ	_	20	amod	_	TokenRange=153:167
+22	cada	_	DET	DET	_	24	det	_	TokenRange=168:172
+23	10	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=173:175
+24	palavras	palavra	NOUN	NOUN	_	26	nsubj	_	TokenRange=176:184
+25	lula	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=185:189
+26	solta	soltar	VERB	VERB	_	12	parataxis	_	TokenRange=190:195
+27	8	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=196:197
+28	palavroes	palavroe	NOUN	NOUN	_	26	obj	_	TokenRange=198:207
+29	cidadao	cidadao	NOUN	NOUN	_	28	appos	_	TokenRange=208:215
+30	desses	_	X	ADPPRON	_	29	nmod	_	TokenRange=216:222
+31	pode	_	AUX	AUX	_	32	aux	_	TokenRange=223:227
+32	ocupar	ocupar	VERB	VERB	_	26	parataxis	_	TokenRange=228:234
+33	cargo	cargo	NOUN	NOUN	_	32	obj	_	TokenRange=235:240
+34	alto	alto	ADJ	ADJ	_	35	amod	_	TokenRange=241:245
+35	escalao	escalao	NOUN	NOUN	_	32	obj	_	TokenRange=246:253
+36	governo	governo	NOUN	NOUN	_	35	flat	_	TokenRange=254:261
+37	conversa	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=262:270
+38	telefonica	telefonico	ADJ	ADJ	_	37	amod	_	TokenRange=271:281
+39	grampeada	_	NOUN	NOUN	_	37	appos	_	TokenRange=282:291
+40	pf	_	NOUN	NOUN	_	37	appos	_	TokenRange=292:294
+41	luiz	luiz	NOUN	NOUN	_	39	appos	_	TokenRange=295:299
+42	inacio	_	NOUN	NOUN	_	41	flat	_	TokenRange=300:306
+43	diz	dizer	VERB	VERB	_	26	parataxis	_	TokenRange=307:310
+44	senador	senador	NOUN	NOUN	_	43	obj	_	TokenRange=311:318
+45	petista	petista	ADJ	ADJ	_	44	amod	_	TokenRange=319:326
+46	lindbergh	_	NOUN	NOUN	_	44	appos	_	TokenRange=327:336
+47	farias	_	ADJ	NOUN	_	46	amod	_	TokenRange=337:343
+48	investigadores	investigador	NOUN	NOUN	_	52	nsubj	_	TokenRange=344:358
+49	pf	_	X	X	_	50	appos	_	TokenRange=359:361
+50	bando	bando	NOUN	NOUN	_	48	appos	_	TokenRange=362:367
+51	loucos	louco	ADJ	ADJ	_	50	amod	_	TokenRange=368:374
+52	manda	mandar	VERB	VERB	_	43	parataxis	_	TokenRange=375:380
+53	delegado	delegado	NOUN	NOUN	_	52	obj	_	TokenRange=381:389
+54	federal	federal	ADJ	ADJ	_	53	amod	_	TokenRange=390:397
+55	tomar	tomar	VERB	VERB	_	52	ccomp	_	TokenRange=398:403
+56	confira	conferir	VERB	VERB	_	55	ccomp	_	TokenRange=404:411
+57	video	video	NOUN	NOUN	_	56	obj	_	TokenRange=412:417
+58	via	_	ADP	ADP	_	59	case	_	TokenRange=418:421
+59	dossie	_	X	NOUN	_	56	nmod	_	TokenRange=422:428
+60	pt	_	X	X	_	59	flat	_	SpaceAfter=No|TokenRange=429:431
+

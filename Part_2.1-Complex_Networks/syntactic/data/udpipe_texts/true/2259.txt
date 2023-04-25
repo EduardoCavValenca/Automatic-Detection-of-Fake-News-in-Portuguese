@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = negocios tras wellness nova moda agita mercado alimentacao conceito wellness inclui variedade coisas desde comer legumes verduras outro extremo excluindo certos grupos comida adotando estilo vida completamente diferente industria perda peso nova estrela wellness busca termo significa bemestar portugues instagram revela numero impressionante 15315754 posts mercado wellness explodindo
+1	negocios	negocio	NOUN	NOUN	_	41	nsubj	_	TokenRange=0:8
+2	tras	_	ADP	DET	_	1	case	_	TokenRange=9:13
+3	wellness	_	NOUN	NOUN	_	1	amod	_	TokenRange=14:22
+4	nova	novo	ADJ	ADJ	_	5	amod	_	TokenRange=23:27
+5	moda	moda	NOUN	NOUN	_	1	appos	_	TokenRange=28:32
+6	agita	agitar	VERB	VERB	_	1	acl:relcl	_	TokenRange=33:38
+7	mercado	mercado	NOUN	NOUN	_	6	obj	_	TokenRange=39:46
+8	alimentacao	alimentacao	ADJ	ADJ	_	7	amod	_	TokenRange=47:58
+9	conceito	conceito	NOUN	NOUN	_	1	appos	_	TokenRange=59:67
+10	wellness	_	NOUN	NOUN	_	9	flat	_	TokenRange=68:76
+11	inclui	incluir	VERB	VERB	_	1	acl:relcl	_	TokenRange=77:83
+12	variedade	variedade	NOUN	NOUN	_	11	obj	_	TokenRange=84:93
+13	coisas	coisa	NOUN	NOUN	_	12	amod	_	TokenRange=94:100
+14	desde	_	ADP	ADP	_	15	mark	_	TokenRange=101:106
+15	comer	comer	VERB	VERB	_	11	advcl	_	TokenRange=107:112
+16	legumes	legume	NOUN	NOUN	_	15	obj	_	TokenRange=113:120
+17	verduras	verdura	ADJ	ADJ	_	16	amod	_	TokenRange=121:129
+18	outro	_	DET	DET	_	19	det	_	TokenRange=130:135
+19	extremo	extremo	NOUN	NOUN	_	16	appos	_	TokenRange=136:143
+20	excluindo	excluir	VERB	VERB	_	15	acl	_	TokenRange=144:153
+21	certos	_	DET	DET	_	22	det	_	TokenRange=154:160
+22	grupos	grupo	NOUN	NOUN	_	20	obj	_	TokenRange=161:167
+23	comida	comida	NOUN	NOUN	_	22	appos	_	TokenRange=168:174
+24	adotando	adotar	VERB	VERB	_	23	acl	_	TokenRange=175:183
+25	estilo	estilo	NOUN	NOUN	_	24	obj	_	TokenRange=184:190
+26	vida	vida	NOUN	NOUN	_	25	appos	_	TokenRange=191:195
+27	completamente	completamente	ADV	ADV	_	28	advmod	_	TokenRange=196:209
+28	diferente	diferente	ADJ	ADJ	_	26	amod	_	TokenRange=210:219
+29	industria	industria	NOUN	NOUN	_	26	appos	_	TokenRange=220:229
+30	perda	perda	NOUN	NOUN	_	29	flat	_	TokenRange=230:235
+31	peso	peso	NOUN	NOUN	_	29	appos	_	TokenRange=236:240
+32	nova	novo	ADJ	ADJ	_	33	amod	_	TokenRange=241:245
+33	estrela	estrela	NOUN	NOUN	_	35	nsubj	_	TokenRange=246:253
+34	wellness	_	NOUN	NOUN	_	33	appos	_	TokenRange=254:262
+35	busca	buscar	VERB	VERB	_	29	conj	_	TokenRange=263:268
+36	termo	termo	NOUN	NOUN	_	35	obj	_	TokenRange=269:274
+37	significa	significar	VERB	VERB	_	35	parataxis	_	TokenRange=275:284
+38	bemestar	bemestar	VERB	VERB	_	37	xcomp	_	TokenRange=285:293
+39	portugues	_	NOUN	NOUN	_	38	obj	_	TokenRange=294:303
+40	instagram	instagram	NOUN	NOUN	_	42	appos	_	TokenRange=304:313
+41	revela	revelar	VERB	VERB	_	0	root	_	TokenRange=314:320
+42	numero	numero	NOUN	NOUN	_	41	obj	_	TokenRange=321:327
+43	impressionante	impressionante	ADJ	ADJ	_	42	amod	_	TokenRange=328:342
+44	15315754	_	NUM	NUM	NumType=Card	42	appos	_	TokenRange=343:351
+45	posts	_	VERB	VERB	_	41	parataxis	_	TokenRange=352:357
+46	mercado	mercado	NOUN	NOUN	_	41	obj	_	TokenRange=358:365
+47	wellness	_	NOUN	NOUN	_	46	flat	_	TokenRange=366:374
+48	explodindo	explodir	VERB	VERB	_	45	acl	_	SpaceAfter=No|TokenRange=375:385
+

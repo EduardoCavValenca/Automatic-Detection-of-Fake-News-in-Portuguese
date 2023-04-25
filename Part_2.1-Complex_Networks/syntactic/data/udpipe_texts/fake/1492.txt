@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reportagem causou prisao dois reporteres venezuela sob falsa acusacao terrorismo ultimo mes dois reporteres tv record presos venezuela sob acusacao terrorismo leandro stoliar gilson fred oliveira pais comunista fim investigar denuncias corrupcao envolvendo financiamentos bndes favorecia construtoras brasileiras especial odebrecht obras brasil america latina ambos ficaram 36 horas sob custodia policia local liberados sob forte escolta policial gritos terroristas la patria la nacion confira video abaixo motivo causou prisao profissionais
+1	reportagem	reportagem	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	causou	causar	VERB	VERB	_	0	root	_	TokenRange=11:17
+3	prisao	prisao	NOUN	NOUN	_	2	obj	_	TokenRange=18:24
+4	dois	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=25:29
+5	reporteres	reporter	NOUN	NOUN	_	2	obj	_	TokenRange=30:40
+6	venezuela	_	ADJ	ADJ	_	5	amod	_	TokenRange=41:50
+7	sob	_	ADP	ADP	_	9	case	_	TokenRange=51:54
+8	falsa	falso	ADJ	ADJ	_	9	amod	_	TokenRange=55:60
+9	acusacao	acusacao	NOUN	NOUN	_	2	nmod	_	TokenRange=61:69
+10	terrorismo	terrorismo	ADJ	ADJ	_	9	amod	_	TokenRange=70:80
+11	ultimo	_	ADJ	ADJ	_	12	amod	_	TokenRange=81:87
+12	mes	_	NOUN	NOUN	_	9	appos	_	TokenRange=88:91
+13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=92:96
+14	reporteres	reporter	NOUN	NOUN	_	2	nsubj	_	TokenRange=97:107
+15	tv	_	NOUN	NOUN	_	14	appos	_	TokenRange=108:110
+16	record	_	NOUN	NOUN	_	14	appos	_	TokenRange=111:117
+17	presos	preso	NOUN	NOUN	_	14	appos	_	TokenRange=118:124
+18	venezuela	_	ADJ	NOUN	_	17	amod	_	TokenRange=125:134
+19	sob	_	ADP	ADP	_	20	case	_	TokenRange=135:138
+20	acusacao	acusacao	NOUN	NOUN	_	17	nmod	_	TokenRange=139:147
+21	terrorismo	terrorismo	NOUN	NOUN	_	20	amod	_	TokenRange=148:158
+22	leandro	leandro	NOUN	NOUN	_	20	appos	_	TokenRange=159:166
+23	stoliar	stoliar	NOUN	NOUN	_	22	flat	_	TokenRange=167:174
+24	gilson	_	NOUN	NOUN	_	22	appos	_	TokenRange=175:181
+25	fred	_	NOUN	NOUN	_	22	appos	_	TokenRange=182:186
+26	oliveira	_	NOUN	NOUN	_	25	flat	_	TokenRange=187:195
+27	pais	_	NOUN	NOUN	_	24	appos	_	TokenRange=196:200
+28	comunista	comunista	ADJ	ADJ	_	27	amod	_	TokenRange=201:210
+29	fim	fim	NOUN	NOUN	_	30	nsubj	_	TokenRange=211:214
+30	investigar	investigar	VERB	VERB	_	2	parataxis	_	TokenRange=215:225
+31	denuncias	_	NOUN	NOUN	_	30	obj	_	TokenRange=226:235
+32	corrupcao	corrupcao	ADJ	NOUN	_	31	amod	_	TokenRange=236:245
+33	envolvendo	envolver	VERB	VERB	_	31	acl	_	TokenRange=246:256
+34	financiamentos	financiamento	NOUN	NOUN	_	33	obj	_	TokenRange=257:271
+35	bndes	bnde	NOUN	NOUN	_	34	amod	_	TokenRange=272:277
+36	favorecia	favorecer	VERB	VERB	_	2	parataxis	_	TokenRange=278:287
+37	construtoras	construtor	NOUN	NOUN	_	36	obj	_	TokenRange=288:300
+38	brasileiras	brasileiro	ADJ	ADJ	_	37	amod	_	TokenRange=301:312
+39	especial	especial	ADJ	ADJ	_	37	amod	_	TokenRange=313:321
+40	odebrecht	_	NOUN	NOUN	_	37	appos	_	TokenRange=322:331
+41	obras	obra	NOUN	NOUN	_	37	appos	_	TokenRange=332:337
+42	brasil	brasil	ADJ	ADJ	_	41	amod	_	TokenRange=338:344
+43	america	america	NOUN	NOUN	_	41	appos	_	TokenRange=345:352
+44	latina	latino	ADJ	ADJ	_	43	amod	_	TokenRange=353:359
+45	ambos	_	PRON	PRON	_	46	nsubj	_	TokenRange=360:365
+46	ficaram	ficar	VERB	VERB	_	2	parataxis	_	TokenRange=366:373
+47	36	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=374:376
+48	horas	hora	NOUN	NOUN	_	46	nmod	_	TokenRange=377:382
+49	sob	_	ADP	ADP	_	50	case	_	TokenRange=383:386
+50	custodia	custodia	NOUN	NOUN	_	46	nmod	_	TokenRange=387:395
+51	policia	policia	NOUN	NOUN	_	46	nsubj	_	TokenRange=396:403
+52	local	local	ADJ	ADJ	_	51	amod	_	TokenRange=404:409
+53	liberados	liberar	VERB	VERB	_	51	acl	_	TokenRange=410:419
+54	sob	_	ADP	ADP	_	56	case	_	TokenRange=420:423
+55	forte	forte	ADJ	ADJ	_	56	amod	_	TokenRange=424:429
+56	escolta	escolta	NOUN	NOUN	_	53	nmod	_	TokenRange=430:437
+57	policial	policial	ADJ	ADJ	_	56	amod	_	TokenRange=438:446
+58	gritos	grito	NOUN	NOUN	_	56	appos	_	TokenRange=447:453
+59	terroristas	terrorista	ADJ	ADJ	_	58	amod	_	TokenRange=454:465
+60	la	_	DET	DET	_	61	det	_	TokenRange=466:468
+61	patria	patria	NOUN	NOUN	_	64	nsubj	_	TokenRange=469:475
+62	la	_	DET	DET	_	63	det	_	TokenRange=476:478
+63	nacion	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=479:485
+64	confira	conferir	VERB	VERB	_	46	parataxis	_	TokenRange=486:493
+65	video	video	NOUN	NOUN	_	64	obj	_	TokenRange=494:499
+66	abaixo	abaixo	ADV	ADV	_	68	advmod	_	TokenRange=500:506
+67	motivo	motivo	NOUN	NOUN	_	68	nsubj	_	TokenRange=507:513
+68	causou	causar	VERB	VERB	_	64	parataxis	_	TokenRange=514:520
+69	prisao	prisao	NOUN	NOUN	_	68	obj	_	TokenRange=521:527
+70	profissionais	profissional	ADJ	ADJ	_	69	amod	_	SpaceAfter=No|TokenRange=528:541
+

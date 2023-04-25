@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 4 setembro bom dia aqui principais noticias comecar dia beminformado impunidade regra 127 denuncias assedio metro trens paulo apenas registrada estupro todos outros casos ocorridos 1 semestre abusadores liberados vitimas veem incrivel possa parecer diante dilema violencia contra mulher resposta esbarra interpretacao juridica definir estupro importunacao caso evidente ganhou novo capitulo
+1	segundafeira	segundafeira	NOUN	NOUN	_	32	parataxis	_	TokenRange=0:12
+2	4	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=13:14
+3	setembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:23
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=24:27
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=28:31
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=32:36
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=37:47
+8	noticias	_	NOUN	NOUN	_	1	appos	_	TokenRange=48:56
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=57:64
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=65:68
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=69:81
+12	impunidade	impunidade	NOUN	NOUN	_	9	obj	_	TokenRange=82:92
+13	regra	regra	NOUN	NOUN	_	12	appos	_	TokenRange=93:98
+14	127	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=99:102
+15	denuncias	_	NOUN	NOUN	_	13	appos	_	TokenRange=103:112
+16	assedio	assedio	NOUN	NOUN	_	15	appos	_	TokenRange=113:120
+17	metro	metro	NOUN	NOUN	_	16	appos	_	TokenRange=121:126
+18	trens	_	NOUN	NOUN	_	17	flat	_	TokenRange=127:132
+19	paulo	paulo	NOUN	NOUN	_	17	flat	_	TokenRange=133:138
+20	apenas	apenas	ADV	ADV	_	21	advmod	_	TokenRange=139:145
+21	registrada	registrar	VERB	VERB	_	17	acl	_	TokenRange=146:156
+22	estupro	estupro	NOUN	NOUN	_	16	appos	_	TokenRange=157:164
+23	todos	_	DET	DET	_	25	det	_	TokenRange=165:170
+24	outros	_	DET	DET	_	25	det	_	TokenRange=171:177
+25	casos	caso	NOUN	NOUN	_	16	appos	_	TokenRange=178:183
+26	ocorridos	ocorrer	VERB	VERB	_	25	acl	_	TokenRange=184:193
+27	1	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=194:195
+28	semestre	semestre	NOUN	NOUN	_	26	nmod	_	TokenRange=196:204
+29	abusadores	abusador	NOUN	NOUN	_	25	appos	_	TokenRange=205:215
+30	liberados	liberado	ADJ	ADJ	_	29	amod	_	TokenRange=216:225
+31	vitimas	_	NOUN	NOUN	_	29	amod	_	TokenRange=226:233
+32	veem	ver	VERB	VERB	_	0	root	_	TokenRange=234:238
+33	incrivel	incrivel	ADJ	ADJ	_	32	xcomp	_	TokenRange=239:247
+34	possa	_	AUX	AUX	_	35	aux	_	TokenRange=248:253
+35	parecer	parecer	VERB	VERB	_	32	ccomp	_	TokenRange=254:261
+36	diante	diante	ADV	ADV	_	35	advmod	_	TokenRange=262:268
+37	dilema	dilema	ADJ	ADJ	_	35	xcomp	_	TokenRange=269:275
+38	violencia	violencia	NOUN	NOUN	_	35	nsubj	_	TokenRange=276:285
+39	contra	_	ADP	ADP	_	40	case	_	TokenRange=286:292
+40	mulher	mulher	NOUN	NOUN	_	38	nmod	_	TokenRange=293:299
+41	resposta	resposta	NOUN	NOUN	_	38	appos	_	TokenRange=300:308
+42	esbarra	esbarrar	VERB	VERB	_	41	acl:relcl	_	TokenRange=309:316
+43	interpretacao	interpretacao	NOUN	NOUN	_	42	obj	_	TokenRange=317:330
+44	juridica	juridico	ADJ	ADJ	_	43	amod	_	TokenRange=331:339
+45	definir	definir	VERB	VERB	_	43	acl:inf	_	TokenRange=340:347
+46	estupro	estupro	NOUN	NOUN	_	45	obj	_	TokenRange=348:355
+47	importunacao	importunacao	ADJ	ADJ	_	48	amod	_	TokenRange=356:368
+48	caso	caso	NOUN	NOUN	_	50	nsubj	_	TokenRange=369:373
+49	evidente	evidente	ADJ	ADJ	_	48	amod	_	TokenRange=374:382
+50	ganhou	ganhar	VERB	VERB	_	35	parataxis	_	TokenRange=383:389
+51	novo	novo	ADJ	ADJ	_	52	amod	_	TokenRange=390:394
+52	capitulo	capitulo	NOUN	NOUN	_	50	obj	_	SpaceAfter=No|TokenRange=395:403
+

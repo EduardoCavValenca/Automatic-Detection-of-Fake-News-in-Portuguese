@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente stf autoriza retomada delacoes odebrecht ministra carmen lucia presidente stf autorizou retomada delacoes odebrecht ambito operacao lava jato
+1	presidente	presidente	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	stf	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:14
+3	autoriza	autorizar	VERB	VERB	_	0	root	_	TokenRange=15:23
+4	retomada	retomado	ADJ	ADJ	_	5	amod	_	TokenRange=24:32
+5	delacoes	delacoe	NOUN	NOUN	_	3	obj	_	TokenRange=33:41
+6	odebrecht	_	ADJ	ADJ	_	5	amod	_	TokenRange=42:51
+7	ministra	_	NOUN	NOUN	_	5	appos	_	TokenRange=52:60
+8	carmen	_	NOUN	NOUN	_	7	appos	_	TokenRange=61:67
+9	lucia	lucia	ADJ	ADJ	_	8	flat	_	TokenRange=68:73
+10	presidente	presidente	NOUN	NOUN	_	7	appos	_	TokenRange=74:84
+11	stf	_	PROPN	PNOUN	_	10	appos	_	TokenRange=85:88
+12	autorizou	autorizar	VERB	VERB	_	3	conj	_	TokenRange=89:98
+13	retomada	retomado	ADJ	ADJ	_	14	amod	_	TokenRange=99:107
+14	delacoes	delacoe	NOUN	NOUN	_	12	obj	_	TokenRange=108:116
+15	odebrecht	_	PROPN	PNOUN	_	14	appos	_	TokenRange=117:126
+16	ambito	ambito	ADJ	ADJ	_	17	advmod	_	TokenRange=127:133
+17	operacao	operacao	NOUN	NOUN	_	14	appos	_	TokenRange=134:142
+18	lava	lava	NOUN	NOUN	_	17	appos	_	TokenRange=143:147
+19	jato	jato	NOUN	NOUN	_	18	flat	_	SpaceAfter=No|TokenRange=148:152
+

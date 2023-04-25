@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = baixou dilma homem apoiar reforma previdencia pouco tempo homem vivera 140 anos ahhh agora sim ta explicado senhor presidento falado antes populacao apoiado vosmice desde inicio reforma previdencia paulo temer declarou pagamento pensoes aposentadorias gera deficit extraordinario algumas decadas provavel humano viva 140 anos fazer reforma previdencia porque evidente dados geram deficit extraordinario periodo homem vivia 60 65 anos hoje vive 80 anos daqui pouco vivera 140 anos entao preciso fazer reformulacoes permanentes sistema previdenciario
+1	baixou	baixar	VERB	VERB	_	0	root	_	TokenRange=0:6
+2	dilma	_	NOUN	NOUN	_	1	obj	_	TokenRange=7:12
+3	homem	homem	NOUN	NOUN	_	4	obj	_	TokenRange=13:18
+4	apoiar	apoiar	VERB	VERB	_	1	ccomp	_	TokenRange=19:25
+5	reforma	reforma	NOUN	NOUN	_	4	obj	_	TokenRange=26:33
+6	previdencia	previdencia	ADJ	ADJ	_	5	amod	_	TokenRange=34:45
+7	pouco	_	DET	DET	_	8	det	_	TokenRange=46:51
+8	tempo	tempo	NOUN	NOUN	_	10	nsubj	_	TokenRange=52:57
+9	homem	homem	NOUN	NOUN	_	8	appos	_	TokenRange=58:63
+10	vivera	_	VERB	VERB	_	1	parataxis	_	TokenRange=64:70
+11	140	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=71:74
+12	anos	ano	NOUN	NOUN	_	10	nmod	_	TokenRange=75:79
+13	ahhh	_	NOUN	NOUN	_	10	dep	_	TokenRange=80:84
+14	agora	agora	ADV	ADV	_	17	advmod	_	TokenRange=85:90
+15	sim	sim	ADV	ADV	_	17	advmod	_	TokenRange=91:94
+16	ta	_	AUX	AUX	_	17	aux	_	TokenRange=95:97
+17	explicado	explicar	VERB	VERB	_	1	conj	_	TokenRange=98:107
+18	senhor	senhor	NOUN	NOUN	_	17	nsubj	_	TokenRange=108:114
+19	presidento	presidento	NOUN	NOUN	_	18	flat	_	TokenRange=115:125
+20	falado	falar	VERB	VERB	_	18	acl	_	TokenRange=126:132
+21	antes	antes	ADV	ADV	_	20	advmod	_	TokenRange=133:138
+22	populacao	populacao	NOUN	NOUN	_	20	nsubj	_	TokenRange=139:148
+23	apoiado	apoiar	VERB	VERB	_	22	acl	_	TokenRange=149:156
+24	vosmice	_	VERB	VERB	_	23	obj	_	TokenRange=157:164
+25	desde	_	ADP	ADP	_	27	case	_	TokenRange=165:170
+26	inicio	_	ADJ	ADJ	_	27	amod	_	TokenRange=171:177
+27	reforma	reforma	NOUN	NOUN	_	31	nmod	_	TokenRange=178:185
+28	previdencia	previdencia	ADJ	ADJ	_	27	amod	_	TokenRange=186:197
+29	paulo	paulo	NOUN	NOUN	_	31	nsubj	_	TokenRange=198:203
+30	temer	temer	NOUN	NOUN	_	29	flat	_	TokenRange=204:209
+31	declarou	declarar	VERB	VERB	_	10	conj	_	TokenRange=210:218
+32	pagamento	pagamento	NOUN	NOUN	_	31	obj	_	TokenRange=219:228
+33	pensoes	penso	ADJ	ADJ	_	32	amod	_	TokenRange=229:236
+34	aposentadorias	aposentadoria	NOUN	NOUN	_	32	flat	_	TokenRange=237:251
+35	gera	gerar	VERB	VERB	_	31	conj	_	TokenRange=252:256
+36	deficit	deficit	NOUN	NOUN	_	35	obj	_	TokenRange=257:264
+37	extraordinario	extraordinario	ADJ	ADJ	_	36	amod	_	TokenRange=265:279
+38	algumas	_	DET	DET	_	39	det	_	TokenRange=280:287
+39	decadas	decada	NOUN	NOUN	_	35	nsubj	_	TokenRange=288:295
+40	provavel	provavel	ADJ	ADJ	_	39	amod	_	TokenRange=296:304
+41	humano	humano	ADJ	ADJ	_	39	amod	_	TokenRange=305:311
+42	viva	_	VERB	VERB	_	39	acl:relcl	_	TokenRange=312:316
+43	140	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=317:320
+44	anos	ano	NOUN	NOUN	_	45	nmod	_	TokenRange=321:325
+45	fazer	fazer	VERB	VERB	_	35	ccomp	_	TokenRange=326:331
+46	reforma	reforma	NOUN	NOUN	_	45	obj	_	TokenRange=332:339
+47	previdencia	previdencia	ADJ	ADJ	_	46	amod	_	TokenRange=340:351
+48	porque	_	CCONJ	CONJ	_	51	mark	_	TokenRange=352:358
+49	evidente	evidente	ADJ	ADJ	_	50	amod	_	TokenRange=359:367
+50	dados	dado	NOUN	NOUN	_	51	nsubj	_	TokenRange=368:373
+51	geram	gerar	VERB	VERB	_	45	advcl	_	TokenRange=374:379
+52	deficit	deficit	NOUN	NOUN	_	51	obj	_	TokenRange=380:387
+53	extraordinario	extraordinario	ADJ	ADJ	_	52	amod	_	TokenRange=388:402
+54	periodo	periodo	ADJ	NOUN	_	52	amod	_	TokenRange=403:410
+55	homem	homem	NOUN	NOUN	_	56	nsubj	_	TokenRange=411:416
+56	vivia	viver	VERB	VERB	_	52	acl:relcl	_	TokenRange=417:422
+57	60	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=423:425
+58	65	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=426:428
+59	anos	ano	NOUN	NOUN	_	56	obj	_	TokenRange=429:433
+60	hoje	hoje	ADV	ADV	_	61	advmod	_	TokenRange=434:438
+61	vive	_	VERB	VERB	_	56	parataxis	_	TokenRange=439:443
+62	80	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=444:446
+63	anos	ano	NOUN	NOUN	_	61	nmod	_	TokenRange=447:451
+64	daqui	_	ADP	ADP	_	66	mark	_	TokenRange=452:457
+65	pouco	pouco	ADV	ADV	_	66	advmod	_	TokenRange=458:463
+66	vivera	viver	VERB	VERB	_	61	conj	_	TokenRange=464:470
+67	140	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=471:474
+68	anos	ano	NOUN	NOUN	_	66	nmod	_	TokenRange=475:479
+69	entao	entao	ADV	ADV	_	70	advmod	_	TokenRange=480:485
+70	preciso	preciso	ADJ	ADJ	_	66	xcomp	_	TokenRange=486:493
+71	fazer	fazer	VERB	VERB	_	70	csubj	_	TokenRange=494:499
+72	reformulacoes	reformulacoe	NOUN	NOUN	_	71	obj	_	TokenRange=500:513
+73	permanentes	permanente	ADJ	ADJ	_	74	amod	_	TokenRange=514:525
+74	sistema	sistema	NOUN	NOUN	_	71	obj	_	TokenRange=526:533
+75	previdenciario	previdenciario	ADJ	ADJ	_	74	amod	_	SpaceAfter=No|TokenRange=534:548
+

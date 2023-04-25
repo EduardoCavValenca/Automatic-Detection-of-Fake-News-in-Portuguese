@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dona marisa fica fluxo cerebral familia autoriza doar orgaos possivel morte cerebral podera constatada manha sexta familia lula silva agradece todas manifestacoes carinho solidariedade diz post facebook hospital siriolibanes divulgou boletim medico nesta quintafeira 2 informa dona marisa leticia 66 anos mulher expresidente republica luiz inacio lula silva ficou fluxo cerebral familia autorizou doacao orgaos segundo post publicado
+1	dona	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	marisa	_	NOUN	NOUN	_	1	flat	_	TokenRange=5:11
+3	fica	ficar	VERB	VERB	_	0	root	_	TokenRange=12:16
+4	fluxo	fluxo	NOUN	NOUN	_	3	obj	_	TokenRange=17:22
+5	cerebral	cerebral	ADJ	ADJ	_	4	amod	_	TokenRange=23:31
+6	familia	familia	NOUN	NOUN	_	7	nsubj	_	TokenRange=32:39
+7	autoriza	autorizar	VERB	VERB	_	3	conj	_	TokenRange=40:48
+8	doar	doar	VERB	VERB	_	7	xcomp	_	TokenRange=49:53
+9	orgaos	orgao	NOUN	NOUN	_	8	obj	_	TokenRange=54:60
+10	possivel	possivel	ADJ	ADJ	_	11	amod	_	TokenRange=61:69
+11	morte	morte	NOUN	NOUN	_	7	nsubj	_	TokenRange=70:75
+12	cerebral	cerebral	ADJ	ADJ	_	11	amod	_	TokenRange=76:84
+13	podera	_	AUX	AUX	_	14	aux	_	TokenRange=85:91
+14	constatada	constatar	VERB	VERB	_	3	conj	_	TokenRange=92:102
+15	manha	manha	NOUN	NOUN	_	20	nsubj	_	TokenRange=103:108
+16	sexta	_	ADJ	ADJ	_	17	amod	_	TokenRange=109:114
+17	familia	familia	NOUN	NOUN	_	20	nsubj	_	TokenRange=115:122
+18	lula	lula	ADJ	ADJ	_	17	amod	_	TokenRange=123:127
+19	silva	silva	NOUN	NOUN	_	17	flat	_	TokenRange=128:133
+20	agradece	agradecer	VERB	VERB	_	14	conj	_	TokenRange=134:142
+21	todas	_	DET	DET	_	22	det	_	TokenRange=143:148
+22	manifestacoes	manifestacoe	NOUN	NOUN	_	20	obj	_	TokenRange=149:162
+23	carinho	carinho	ADJ	NOUN	_	22	appos	_	TokenRange=163:170
+24	solidariedade	solidariedade	NOUN	NOUN	_	25	nsubj	_	TokenRange=171:184
+25	diz	dizer	VERB	VERB	_	20	parataxis	_	TokenRange=185:188
+26	post	_	NOUN	NOUN	_	20	obj	_	TokenRange=189:193
+27	facebook	_	X	NOUN	_	26	flat	_	TokenRange=194:202
+28	hospital	hospital	NOUN	NOUN	_	26	flat	_	TokenRange=203:211
+29	siriolibanes	siriolibane	NOUN	NOUN	_	28	flat	_	TokenRange=212:224
+30	divulgou	divulgar	VERB	VERB	_	26	acl:relcl	_	TokenRange=225:233
+31	boletim	boletim	NOUN	NOUN	_	30	obj	_	TokenRange=234:241
+32	medico	medico	ADJ	ADJ	_	31	amod	_	TokenRange=242:248
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=249:254
+34	quintafeira	quintafeira	NOUN	NOUN	_	30	nmod	_	TokenRange=255:266
+35	2	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=267:268
+36	informa	informar	VERB	VERB	_	30	parataxis	_	TokenRange=269:276
+37	dona	_	NOUN	NOUN	_	36	obj	_	TokenRange=277:281
+38	marisa	_	NOUN	NOUN	_	37	flat	_	TokenRange=282:288
+39	leticia	leticia	NOUN	NOUN	_	37	flat	_	TokenRange=289:296
+40	66	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=297:299
+41	anos	ano	NOUN	NOUN	_	37	appos	_	TokenRange=300:304
+42	mulher	mulher	NOUN	NOUN	_	37	appos	_	TokenRange=305:311
+43	expresidente	expresidente	NOUN	NOUN	_	37	appos	_	TokenRange=312:324
+44	republica	republico	ADJ	ADJ	_	43	amod	_	TokenRange=325:334
+45	luiz	luiz	NOUN	NOUN	_	43	appos	_	TokenRange=335:339
+46	inacio	_	NOUN	NOUN	_	45	flat	_	TokenRange=340:346
+47	lula	_	ADJ	ADJ	_	45	flat	_	TokenRange=347:351
+48	silva	silva	ADJ	ADJ	_	45	flat	_	TokenRange=352:357
+49	ficou	ficar	VERB	VERB	_	36	parataxis	_	TokenRange=358:363
+50	fluxo	fluxo	NOUN	NOUN	_	49	xcomp	_	TokenRange=364:369
+51	cerebral	cerebral	ADJ	ADJ	_	50	amod	_	TokenRange=370:378
+52	familia	familia	NOUN	NOUN	_	53	nsubj	_	TokenRange=379:386
+53	autorizou	autorizar	VERB	VERB	_	36	conj	_	TokenRange=387:396
+54	doacao	_	NOUN	NOUN	_	53	obj	_	TokenRange=397:403
+55	orgaos	orgao	NOUN	NOUN	_	53	obj	_	TokenRange=404:410
+56	segundo	_	ADP	ADP	_	57	case	_	TokenRange=411:418
+57	post	post	NOUN	NOUN	_	53	nmod	_	TokenRange=419:423
+58	publicado	publicar	VERB	VERB	_	57	acl	_	SpaceAfter=No|TokenRange=424:433
+

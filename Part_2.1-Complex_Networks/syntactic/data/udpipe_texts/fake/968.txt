@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = impressionante garotinha 4 anos fala 7 idiomas fluentemente bella devyatkina pequena russa apenas quatro aninhos encantando mundo bella fala idioma nativo russo outras seis linguas frances arabe alemao ingles espanhol chines pequena prodigio participou show talentos tv russa chamado amazing people chocou jurados disse vejo acabei ver sinto estupido responde perfeitamente varias perguntas feitas diferentes idiomas algo natural pensa simplesmente reage impressionante
+1	impressionante	impressionante	ADJ	ADJ	_	2	amod	_	TokenRange=0:14
+2	garotinha	garoto	NOUN	NOUN	_	5	nsubj	_	TokenRange=15:24
+3	4	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=25:26
+4	anos	ano	NOUN	NOUN	_	2	appos	_	TokenRange=27:31
+5	fala	_	VERB	VERB	_	0	root	_	TokenRange=32:36
+6	7	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=37:38
+7	idiomas	idioma	NOUN	NOUN	_	5	obj	_	TokenRange=39:46
+8	fluentemente	fluentemente	ADV	ADV	_	9	advmod	_	TokenRange=47:59
+9	bella	bello	NOUN	NOUN	_	7	amod	_	TokenRange=60:65
+10	devyatkina	devyatkino	ADJ	ADJ	_	9	amod	_	TokenRange=66:76
+11	pequena	pequeno	ADJ	ADJ	_	12	amod	_	TokenRange=77:84
+12	russa	russo	NOUN	NOUN	_	9	amod	_	TokenRange=85:90
+13	apenas	apenas	ADV	ADV	_	14	advmod	_	TokenRange=91:97
+14	quatro	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=98:104
+15	aninhos	aninho	NOUN	NOUN	_	9	appos	_	TokenRange=105:112
+16	encantando	encantar	VERB	VERB	_	15	acl	_	TokenRange=113:123
+17	mundo	mundo	NOUN	NOUN	_	16	obj	_	TokenRange=124:129
+18	bella	_	ADJ	ADJ	_	17	appos	_	TokenRange=130:135
+19	fala	_	VERB	VERB	_	5	parataxis	_	TokenRange=136:140
+20	idioma	idioma	NOUN	NOUN	_	19	obj	_	TokenRange=141:147
+21	nativo	nativo	ADJ	ADJ	_	20	amod	_	TokenRange=148:154
+22	russo	russo	ADJ	ADJ	_	20	amod	_	TokenRange=155:160
+23	outras	_	DET	DET	_	25	det	_	TokenRange=161:167
+24	seis	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=168:172
+25	linguas	lingua	NOUN	NOUN	_	19	nsubj	_	TokenRange=173:180
+26	frances	france	ADJ	ADJ	_	25	amod	_	TokenRange=181:188
+27	arabe	arabe	NOUN	NOUN	_	25	appos	_	TokenRange=189:194
+28	alemao	alemao	NOUN	NOUN	_	25	appos	_	TokenRange=195:201
+29	ingles	ingle	ADJ	ADJ	_	28	amod	_	TokenRange=202:208
+30	espanhol	espanhol	ADJ	ADJ	_	28	amod	_	TokenRange=209:217
+31	chines	chine	ADJ	ADJ	_	28	amod	_	TokenRange=218:224
+32	pequena	pequeno	ADJ	ADJ	_	33	amod	_	TokenRange=225:232
+33	prodigio	prodigio	NOUN	NOUN	_	34	nsubj	_	TokenRange=233:241
+34	participou	participar	VERB	VERB	_	5	parataxis	_	TokenRange=242:252
+35	show	show	NOUN	NOUN	_	34	obj	_	TokenRange=253:257
+36	talentos	talento	ADJ	ADJ	_	35	amod	_	TokenRange=258:266
+37	tv	tv	NOUN	NOUN	_	35	appos	_	TokenRange=267:269
+38	russa	russo	ADJ	ADJ	_	37	amod	_	TokenRange=270:275
+39	chamado	chamar	VERB	VERB	_	41	acl	_	TokenRange=276:283
+40	amazing	_	ADJ	ADJ	_	41	amod	_	TokenRange=284:291
+41	people	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=292:298
+42	chocou	chocar	VERB	VERB	_	34	parataxis	_	TokenRange=299:305
+43	jurados	jurado	NOUN	NOUN	_	42	nsubj	_	TokenRange=306:313
+44	disse	dizer	VERB	VERB	_	42	parataxis	_	TokenRange=314:319
+45	vejo	vejo	NOUN	NOUN	_	42	mark	_	TokenRange=320:324
+46	acabei	acabar	VERB	VERB	_	44	ccomp	_	TokenRange=325:331
+47	ver	ver	VERB	VERB	_	46	xcomp	_	TokenRange=332:335
+48	sinto	sentir	VERB	VERB	_	47	ccomp	_	TokenRange=336:341
+49	estupido	estupido	ADJ	ADJ	_	48	xcomp	_	TokenRange=342:350
+50	responde	responder	VERB	VERB	_	46	conj	_	TokenRange=351:359
+51	perfeitamente	perfeitamente	ADV	ADV	_	50	advmod	_	TokenRange=360:373
+52	varias	_	DET	DET	_	53	det	_	TokenRange=374:380
+53	perguntas	pergunta	NOUN	NOUN	_	50	nsubj	_	TokenRange=381:390
+54	feitas	_	VERB	VERB	_	53	acl	_	TokenRange=391:397
+55	diferentes	_	DET	DET	_	56	det	_	TokenRange=398:408
+56	idiomas	idioma	NOUN	NOUN	_	54	nsubj	_	TokenRange=409:416
+57	algo	_	PRON	PRON	_	56	appos	_	TokenRange=417:421
+58	natural	natural	ADJ	ADJ	_	57	amod	_	TokenRange=422:429
+59	pensa	pensar	VERB	VERB	_	61	parataxis	_	TokenRange=430:435
+60	simplesmente	simplesmente	ADV	ADV	_	61	advmod	_	TokenRange=436:448
+61	reage	reagir	VERB	VERB	_	44	ccomp	_	TokenRange=449:454
+62	impressionante	impressionante	ADV	ADV	_	61	advmod	_	SpaceAfter=No|TokenRange=455:469
+

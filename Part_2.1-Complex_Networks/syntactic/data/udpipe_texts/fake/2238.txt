@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = crime petista assassinato lingua portuguesa senadora vanessa graziotin integrante bancada chupeta ficou tao brava desaprendeu falar corretamente possivel querem levar palacio planalto alguem obteu votos referindo michel temer concordamos vanessa temer obteu votos temer obteve votos
+1	crime	crime	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:5
+2	petista	petista	NOUN	NOUN	_	1	flat	_	TokenRange=6:13
+3	assassinato	assassinato	NOUN	NOUN	_	1	appos	_	TokenRange=14:25
+4	lingua	lingua	NOUN	NOUN	_	1	appos	_	TokenRange=26:32
+5	portuguesa	português	ADJ	ADJ	_	4	amod	_	TokenRange=33:43
+6	senadora	senador	NOUN	NOUN	_	1	appos	_	TokenRange=44:52
+7	vanessa	_	NOUN	NOUN	_	1	appos	_	TokenRange=53:60
+8	graziotin	_	NOUN	NOUN	_	7	flat	_	TokenRange=61:70
+9	integrante	_	ADJ	ADJ	_	10	amod	_	TokenRange=71:81
+10	bancada	bancada	NOUN	NOUN	_	1	appos	_	TokenRange=82:89
+11	chupeta	_	ADJ	ADJ	_	10	amod	_	TokenRange=90:97
+12	ficou	ficar	VERB	VERB	_	0	root	_	TokenRange=98:103
+13	tao	tao	ADV	ADV	_	14	advmod	_	TokenRange=104:107
+14	brava	bravo	ADJ	ADJ	_	12	xcomp	_	TokenRange=108:113
+15	desaprendeu	desaprender	VERB	VERB	_	12	parataxis	_	TokenRange=114:125
+16	falar	falar	VERB	VERB	_	15	xcomp	_	TokenRange=126:131
+17	corretamente	corretamente	ADV	ADV	_	18	advmod	_	TokenRange=132:144
+18	possivel	_	ADJ	ADJ	_	16	xcomp	_	TokenRange=145:153
+19	querem	querer	VERB	VERB	_	15	ccomp	_	TokenRange=154:160
+20	levar	levar	VERB	VERB	_	19	xcomp	_	TokenRange=161:166
+21	palacio	palacio	NOUN	NOUN	_	20	obj	_	TokenRange=167:174
+22	planalto	planalto	ADJ	ADJ	_	21	amod	_	TokenRange=175:183
+23	alguem	_	PRON	PRON	_	24	nsubj	_	TokenRange=184:190
+24	obteu	obter	VERB	VERB	_	21	acl:relcl	_	TokenRange=191:196
+25	votos	voto	NOUN	NOUN	_	24	obj	_	TokenRange=197:202
+26	referindo	referir	VERB	VERB	_	24	acl	_	TokenRange=203:212
+27	michel	_	ADJ	ADJ	_	28	amod	_	TokenRange=213:219
+28	temer	temer	NOUN	NOUN	_	26	obj	_	TokenRange=220:225
+29	concordamos	concordar	VERB	VERB	_	26	ccomp	_	TokenRange=226:237
+30	vanessa	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=238:245
+31	temer	temer	NOUN	NOUN	_	30	flat	_	TokenRange=246:251
+32	obteu	obter	VERB	VERB	_	29	ccomp	_	TokenRange=252:257
+33	votos	voto	NOUN	NOUN	_	35	obj	_	TokenRange=258:263
+34	temer	temer	NOUN	NOUN	_	36	flat	_	TokenRange=264:269
+35	obteve	obter	VERB	VERB	_	29	ccomp	_	TokenRange=270:276
+36	votos	voto	NOUN	NOUN	_	35	obj	_	SpaceAfter=No|TokenRange=277:282
+

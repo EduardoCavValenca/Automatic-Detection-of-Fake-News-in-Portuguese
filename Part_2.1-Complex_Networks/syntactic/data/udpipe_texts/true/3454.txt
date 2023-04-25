@@ -1,0 +1,36 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = menina 16 anos motivou campanha web passa cirurgia volta coma leslye coelho mora boituva internada 15 dias familia faz campanha pagar despesas ultrapassam r 100 mil adolescente leslye
+1	menina	menino	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	16	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=7:9
+3	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=10:14
+4	motivou	motivar	VERB	VERB	_	0	root	_	TokenRange=15:22
+5	campanha	campanha	NOUN	NOUN	_	4	obj	_	TokenRange=23:31
+6	web	_	NOUN	NOUN	_	5	appos	_	TokenRange=32:35
+7	passa	passar	VERB	VERB	_	4	parataxis	_	TokenRange=36:41
+8	cirurgia	cirurgia	NOUN	NOUN	_	7	obj	_	TokenRange=42:50
+9	volta	volta	NOUN	NOUN	_	8	appos	_	TokenRange=51:56
+10	coma	_	ADP	ADP	_	11	case	_	TokenRange=57:61
+11	leslye	_	NOUN	NOUN	_	9	nmod	_	TokenRange=62:68
+12	coelho	coelho	NOUN	NOUN	_	11	flat	_	TokenRange=69:75
+13	mora	mora	NOUN	NOUN	_	11	flat	_	TokenRange=76:80
+14	boituva	boituva	NOUN	NOUN	_	13	flat	_	TokenRange=81:88
+15	internada	internado	ADJ	ADJ	_	13	amod	_	TokenRange=89:98
+16	15	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=99:101
+17	dias	dia	NOUN	NOUN	_	19	nmod	_	TokenRange=102:106
+18	familia	familia	NOUN	NOUN	_	17	appos	_	TokenRange=107:114
+19	faz	fazer	VERB	VERB	_	4	parataxis	_	TokenRange=115:118
+20	campanha	campanha	NOUN	NOUN	_	19	obj	_	TokenRange=119:127
+21	pagar	pagar	VERB	VERB	_	20	acl:inf	_	TokenRange=128:133
+22	despesas	despesa	NOUN	NOUN	_	21	obj	_	TokenRange=134:142
+23	ultrapassam	ultrapassar	VERB	VERB	_	22	acl:relcl	_	TokenRange=143:154
+24	r	r	NOUN	NOUN	_	23	obj	_	TokenRange=155:156
+25	100	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=157:160
+26	mil	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=161:164
+27	adolescente	adolescente	NOUN	NOUN	_	23	obj	_	TokenRange=165:176
+28	leslye	_	NOUN	NOUN	_	27	appos	_	SpaceAfter=No|TokenRange=177:183
+

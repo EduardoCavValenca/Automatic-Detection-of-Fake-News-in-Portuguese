@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sextafeira 10 novembro 2017 boa noite aqui principais noticias terminar dia beminformado nova lei trabalhista entra vigor amanha governo ainda vai enviar congresso ajustes legislacao quais g1 globonews acesso geral principais mudancas nova legislacao versam sobre autorizacao acordos coletivos sobreponham sobre lei temas jornada trabalho banco horas intervalo intrajornada hoje 19 estados protestos contra alteracoes pontos ferias jornada trabalho banco horas home office remuneracao
+1	sextafeira	sextafeira	NOUN	NOUN	_	16	parataxis	_	TokenRange=0:10
+2	10	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=11:13
+3	novembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:22
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=23:27
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=28:31
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=32:37
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=38:42
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=43:53
+9	noticias	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=54:62
+10	terminar	terminar	VERB	VERB	_	6	parataxis	_	TokenRange=63:71
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=72:75
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=76:88
+13	nova	novo	ADJ	ADJ	_	14	amod	_	TokenRange=89:93
+14	lei	lei	NOUN	NOUN	_	10	nsubj	_	TokenRange=94:97
+15	trabalhista	trabalhista	ADJ	ADJ	_	14	amod	_	TokenRange=98:109
+16	entra	entrar	VERB	VERB	_	0	root	_	TokenRange=110:115
+17	vigor	vigor	NOUN	NOUN	_	16	obj	_	TokenRange=116:121
+18	amanha	amanha	ADV	ADV	_	19	amod	_	TokenRange=122:128
+19	governo	governo	NOUN	NOUN	_	22	nsubj	_	TokenRange=129:136
+20	ainda	ainda	ADV	ADV	_	22	advmod	_	TokenRange=137:142
+21	vai	ir	AUX	AUX	_	22	aux	_	TokenRange=143:146
+22	enviar	enviar	VERB	VERB	_	16	parataxis	_	TokenRange=147:153
+23	congresso	congresso	NOUN	NOUN	_	22	obj	_	TokenRange=154:163
+24	ajustes	ajuste	NOUN	NOUN	_	23	appos	_	TokenRange=164:171
+25	legislacao	legislacao	NOUN	NOUN	_	24	amod	_	TokenRange=172:182
+26	quais	_	PRON	PRON	_	27	det	_	TokenRange=183:188
+27	g1	_	NOUN	NOUN	_	22	nmod	_	TokenRange=189:191
+28	globonews	_	NOUN	NOUN	_	29	amod	_	TokenRange=192:201
+29	acesso	acesso	NOUN	NOUN	_	22	nsubj	_	TokenRange=202:208
+30	geral	geral	ADJ	ADJ	_	29	amod	_	TokenRange=209:214
+31	principais	principal	ADJ	ADJ	_	32	amod	_	TokenRange=215:225
+32	mudancas	mudanca	NOUN	NOUN	_	35	nsubj	_	TokenRange=226:234
+33	nova	novo	ADJ	ADJ	_	32	amod	_	TokenRange=235:239
+34	legislacao	legislacao	NOUN	NOUN	_	32	appos	_	TokenRange=240:250
+35	versam	versar	VERB	VERB	_	22	parataxis	_	TokenRange=251:257
+36	sobre	_	ADP	ADP	_	37	case	_	TokenRange=258:263
+37	autorizacao	autorizacao	NOUN	NOUN	_	35	nmod	_	TokenRange=264:275
+38	acordos	acordo	NOUN	NOUN	_	35	nsubj	_	TokenRange=276:283
+39	coletivos	coletivo	ADJ	ADJ	_	38	amod	_	TokenRange=284:293
+40	sobreponham	sobreponhar	VERB	VERB	_	35	parataxis	_	TokenRange=294:305
+41	sobre	_	ADP	ADP	_	42	case	_	TokenRange=306:311
+42	lei	lei	NOUN	NOUN	_	40	nmod	_	TokenRange=312:315
+43	temas	tema	NOUN	NOUN	_	40	obj	_	TokenRange=316:321
+44	jornada	jornada	NOUN	NOUN	_	43	appos	_	TokenRange=322:329
+45	trabalho	trabalho	NOUN	NOUN	_	44	flat	_	TokenRange=330:338
+46	banco	banco	NOUN	NOUN	_	44	appos	_	TokenRange=339:344
+47	horas	hora	NOUN	NOUN	_	46	flat	_	TokenRange=345:350
+48	intervalo	intervalo	NOUN	NOUN	_	44	appos	_	TokenRange=351:360
+49	intrajornada	intrajornado	ADJ	ADJ	_	48	amod	_	TokenRange=361:373
+50	hoje	hoje	ADV	ADV	_	48	advmod	_	TokenRange=374:378
+51	19	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=379:381
+52	estados	estado	NOUN	NOUN	_	48	appos	_	TokenRange=382:389
+53	protestos	protesto	NOUN	NOUN	_	52	amod	_	TokenRange=390:399
+54	contra	_	ADP	ADP	_	55	case	_	TokenRange=400:406
+55	alteracoes	alteracoe	NOUN	NOUN	_	53	nmod	_	TokenRange=407:417
+56	pontos	ponto	NOUN	NOUN	_	55	appos	_	TokenRange=418:424
+57	ferias	ferio	ADJ	ADJ	_	56	amod	_	TokenRange=425:431
+58	jornada	jornada	NOUN	NOUN	_	55	appos	_	TokenRange=432:439
+59	trabalho	trabalho	NOUN	NOUN	_	58	flat	_	TokenRange=440:448
+60	banco	banco	NOUN	NOUN	_	58	appos	_	TokenRange=449:454
+61	horas	hora	NOUN	NOUN	_	60	flat	_	TokenRange=455:460
+62	home	home	NOUN	NOUN	_	58	appos	_	TokenRange=461:465
+63	office	_	NOUN	NOUN	_	60	flat	_	TokenRange=466:472
+64	remuneracao	remuneracao	NOUN	NOUN	_	63	appos	_	SpaceAfter=No|TokenRange=473:484
+

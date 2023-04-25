@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = complexo serie rjtv revela sonhos perdidos alemao 26 mil mortes violentas 15 anos documentario cinco capitulos mostra imagens ineditas ocupacao numeros chocantes flagrantes abandono infografico g1 mostra crimes antes ocupacao durante dois meses reporter bette lucchese cinegrafistas piero caputo junior alves mergulharam realidade complexos alemao penha zona norte rio vida dificil medo constante desejo paz
+1	complexo	complexo	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	serie	serie	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:14
+3	rjtv	rjtv	NOUN	NOUN	_	2	appos	_	TokenRange=15:19
+4	revela	revelar	VERB	VERB	_	0	root	_	TokenRange=20:26
+5	sonhos	sonho	NOUN	NOUN	_	4	obj	_	TokenRange=27:33
+6	perdidos	perdido	ADJ	ADJ	_	5	amod	_	TokenRange=34:42
+7	alemao	alemao	ADJ	ADJ	_	10	amod	_	TokenRange=43:49
+8	26	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=50:52
+9	mil	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=53:56
+10	mortes	morte	NOUN	NOUN	_	5	appos	_	TokenRange=57:63
+11	violentas	violento	ADJ	ADJ	_	10	amod	_	TokenRange=64:73
+12	15	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=74:76
+13	anos	ano	NOUN	NOUN	_	10	appos	_	TokenRange=77:81
+14	documentario	documentario	NOUN	NOUN	_	10	appos	_	TokenRange=82:94
+15	cinco	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=95:100
+16	capitulos	capitulo	NOUN	NOUN	_	17	nsubj	_	TokenRange=101:110
+17	mostra	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=111:117
+18	imagens	imagem	NOUN	NOUN	_	17	obj	_	TokenRange=118:125
+19	ineditas	inedito	ADJ	ADJ	_	18	amod	_	TokenRange=126:134
+20	ocupacao	ocupacao	ADJ	ADJ	_	24	amod	_	TokenRange=135:143
+21	numeros	_	ADJ	ADJ	_	24	amod	_	TokenRange=144:151
+22	chocantes	chocante	NOUN	NOUN	_	24	amod	_	TokenRange=152:161
+23	flagrantes	flagrante	ADJ	ADJ	_	24	amod	_	TokenRange=162:172
+24	abandono	abandono	NOUN	NOUN	_	18	appos	_	TokenRange=173:181
+25	infografico	infografico	ADJ	ADJ	_	24	amod	_	TokenRange=182:193
+26	g1	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=194:196
+27	mostra	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=197:203
+28	crimes	crime	NOUN	NOUN	_	27	obj	_	TokenRange=204:210
+29	antes	antes	ADV	ADV	_	30	advmod	_	TokenRange=211:216
+30	ocupacao	ocupacao	NOUN	NOUN	_	28	appos	_	TokenRange=217:225
+31	durante	_	ADP	ADP	_	33	case	_	TokenRange=226:233
+32	dois	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=234:238
+33	meses	mês	NOUN	NOUN	_	27	nmod	_	TokenRange=239:244
+34	reporter	reporter	NOUN	NOUN	_	27	parataxis	_	TokenRange=245:253
+35	bette	bette	NOUN	NOUN	_	34	appos	_	TokenRange=254:259
+36	lucchese	_	NOUN	NOUN	_	35	flat	_	TokenRange=260:268
+37	cinegrafistas	cinegrafista	NOUN	NOUN	_	35	flat	_	TokenRange=269:282
+38	piero	piero	NOUN	NOUN	_	37	appos	_	TokenRange=283:288
+39	caputo	caputo	NOUN	NOUN	_	38	flat	_	TokenRange=289:295
+40	junior	junior	ADJ	ADJ	_	38	amod	_	TokenRange=296:302
+41	alves	alves	NOUN	NOUN	_	38	flat	_	TokenRange=303:308
+42	mergulharam	mergulhar	VERB	VERB	_	27	parataxis	_	TokenRange=309:320
+43	realidade	realidade	NOUN	NOUN	_	42	obj	_	TokenRange=321:330
+44	complexos	complexo	ADJ	ADJ	_	43	amod	_	TokenRange=331:340
+45	alemao	alemao	ADJ	ADJ	_	47	amod	_	TokenRange=341:347
+46	penha	penho	ADJ	ADJ	_	47	amod	_	TokenRange=348:353
+47	zona	zona	NOUN	NOUN	_	43	appos	_	TokenRange=354:358
+48	norte	norte	ADJ	ADJ	_	47	amod	_	TokenRange=359:364
+49	rio	rio	ADJ	ADJ	_	50	amod	_	TokenRange=365:368
+50	vida	vida	NOUN	NOUN	_	47	appos	_	TokenRange=369:373
+51	dificil	dificil	ADJ	ADJ	_	52	amod	_	TokenRange=374:381
+52	medo	medo	NOUN	NOUN	_	47	appos	_	TokenRange=382:386
+53	constante	constante	ADJ	ADJ	_	52	amod	_	TokenRange=387:396
+54	desejo	desejo	VERB	VERB	_	43	appos	_	TokenRange=397:403
+55	paz	paz	NOUN	NOUN	_	54	obj	_	SpaceAfter=No|TokenRange=404:407
+

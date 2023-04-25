@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mae colmeia detenta gravida filha 1 ano aguarda sentenca 4 meses jovem diz estar esperancosa recente decisao stf todo 19 mulheres presas df gestantes amamentam filha josiele santos sofreu desmame abrupto menos 2 anos idade colo mae quase quatro meses crianca precisou reconhecer avo lacos maternos josiele levada penitenciaria feminina distrito federal colmeia 8 novembro 2017 conseguiu despedir menina carceragem recebeu confirmacao
+1	mae	mae	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:3
+2	colmeia	colmeia	NOUN	NOUN	_	1	flat	_	TokenRange=4:11
+3	detenta	detentar	VERB	VERB	_	0	root	_	TokenRange=12:19
+4	gravida	_	ADJ	ADJ	_	3	xcomp	_	TokenRange=20:27
+5	filha	filho	NOUN	NOUN	_	3	obj	_	TokenRange=28:33
+6	1	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=34:35
+7	ano	ano	NOUN	NOUN	_	3	nmod	_	TokenRange=36:39
+8	aguarda	_	ADJ	ADJ	_	9	amod	_	TokenRange=40:47
+9	sentenca	_	NOUN	NOUN	_	3	obj	_	TokenRange=48:56
+10	4	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=57:58
+11	meses	mês	NOUN	NOUN	_	3	nsubj	_	TokenRange=59:64
+12	jovem	jovem	ADJ	ADJ	_	11	amod	_	TokenRange=65:70
+13	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=71:74
+14	estar	estar	VERB	VERB	_	13	xcomp	_	TokenRange=75:80
+15	esperancosa	esperancoso	ADJ	ADJ	_	14	xcomp	_	TokenRange=81:92
+16	recente	recente	ADJ	ADJ	_	17	amod	_	TokenRange=93:100
+17	decisao	decisao	NOUN	NOUN	_	14	nsubj	_	TokenRange=101:108
+18	stf	_	NOUN	NOUN	_	17	appos	_	TokenRange=109:112
+19	todo	_	DET	DET	_	21	det	_	TokenRange=113:117
+20	19	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=118:120
+21	mulheres	mulher	NOUN	NOUN	_	25	nsubj	_	TokenRange=121:129
+22	presas	preso	ADJ	ADJ	_	21	amod	_	TokenRange=130:136
+23	df	_	ADP	ADP	_	25	mark	_	TokenRange=137:139
+24	gestantes	gestante	NOUN	NOUN	_	25	nsubj	_	TokenRange=140:149
+25	amamentam	amamentar	VERB	VERB	_	3	parataxis	_	TokenRange=150:159
+26	filha	filho	NOUN	NOUN	_	25	obj	_	TokenRange=160:165
+27	josiele	_	PROPN	PNOUN	_	25	nsubj	_	TokenRange=166:173
+28	santos	santo	NOUN	NOUN	_	27	flat	_	TokenRange=174:180
+29	sofreu	sofrer	VERB	VERB	_	25	parataxis	_	TokenRange=181:187
+30	desmame	desmame	NOUN	NOUN	_	29	obj	_	TokenRange=188:195
+31	abrupto	abrupto	ADJ	ADJ	_	30	amod	_	TokenRange=196:203
+32	menos	menos	ADV	ADV	_	33	advmod	_	TokenRange=204:209
+33	2	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=210:211
+34	anos	ano	NOUN	NOUN	_	29	nsubj	_	TokenRange=212:216
+35	idade	idade	NOUN	NOUN	_	29	nsubj	_	TokenRange=217:222
+36	colo	colo	NOUN	NOUN	_	35	appos	_	TokenRange=223:227
+37	mae	mae	NOUN	NOUN	_	36	flat	_	TokenRange=228:231
+38	quase	quase	ADV	ADV	_	39	advmod	_	TokenRange=232:237
+39	quatro	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=238:244
+40	meses	mês	NOUN	NOUN	_	35	appos	_	TokenRange=245:250
+41	crianca	crianco	ADJ	ADJ	_	40	amod	_	TokenRange=251:258
+42	precisou	precisar	VERB	VERB	_	3	parataxis	_	TokenRange=259:267
+43	reconhecer	reconhecer	VERB	VERB	_	42	xcomp	_	TokenRange=268:278
+44	avo	avo	NOUN	NOUN	_	43	obj	_	TokenRange=279:282
+45	lacos	laco	NOUN	NOUN	_	44	appos	_	TokenRange=283:288
+46	maternos	materno	ADJ	ADJ	_	45	amod	_	TokenRange=289:297
+47	josiele	josiele	NOUN	NOUN	_	49	appos	_	TokenRange=298:305
+48	levada	levar	VERB	ADJ	_	49	acl	_	TokenRange=306:312
+49	penitenciaria	penitenciaria	NOUN	NOUN	_	45	appos	_	TokenRange=313:326
+50	feminina	feminino	ADJ	ADJ	_	49	amod	_	TokenRange=327:335
+51	distrito	distrito	NOUN	NOUN	_	49	appos	_	TokenRange=336:344
+52	federal	federal	ADJ	ADJ	_	49	amod	_	TokenRange=345:352
+53	colmeia	colmeia	NOUN	NOUN	_	57	nsubj	_	TokenRange=353:360
+54	8	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=361:362
+55	novembro	_	PROPN	PNOUN	_	57	nmod	_	TokenRange=363:371
+56	2017	_	NUM	NUM	NumType=Card	55	nmod	_	TokenRange=372:376
+57	conseguiu	conseguir	VERB	VERB	_	3	parataxis	_	TokenRange=377:386
+58	despedir	despedir	VERB	VERB	_	57	xcomp	_	TokenRange=387:395
+59	menina	menino	NOUN	NOUN	_	58	obj	_	TokenRange=396:402
+60	carceragem	carceragem	NOUN	NOUN	_	58	obj	_	TokenRange=403:413
+61	recebeu	receber	VERB	VERB	_	57	parataxis	_	TokenRange=414:421
+62	confirmacao	confirmacao	NOUN	NOUN	_	61	obj	_	SpaceAfter=No|TokenRange=422:433
+

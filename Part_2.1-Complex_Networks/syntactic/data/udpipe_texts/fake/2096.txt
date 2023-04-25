@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = urgente palocci pode fortuna bilionaria escondida banco americano lava jato recebeu informacao exministro petista antonio palocci us 348 milhoes depositados conta miami brasil encontrados r 61 milhoes contas bancarias acusado ninharia grande bolada ainda vir cerca r 1 1 bilhao estaria escondido terras norte americanas antagonista informou postagem exclusiva investigacoes poderao chegar eua pt criou banco particular terra tio sam presidido antonio palocci caso informacao confirmada palocci corre risco deportado julgado estados unidos
+1	urgente	urgente	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	palocci	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=8:15
+3	pode	_	AUX	AUX	_	4	cop	_	TokenRange=16:20
+4	fortuna	fortuna	NOUN	NOUN	_	0	root	_	TokenRange=21:28
+5	bilionaria	bilionario	ADJ	ADJ	_	4	amod	_	TokenRange=29:39
+6	escondida	esconder	VERB	ADJ	_	4	amod	_	TokenRange=40:49
+7	banco	banco	NOUN	NOUN	_	4	appos	_	TokenRange=50:55
+8	americano	americano	ADJ	ADJ	_	7	amod	_	TokenRange=56:65
+9	lava	lava	NOUN	NOUN	_	4	appos	_	TokenRange=66:70
+10	jato	jato	NOUN	NOUN	_	9	flat	_	TokenRange=71:75
+11	recebeu	receber	VERB	VERB	_	4	parataxis	_	TokenRange=76:83
+12	informacao	informacao	NOUN	NOUN	_	11	obj	_	TokenRange=84:94
+13	exministro	exministro	ADJ	ADJ	_	12	amod	_	TokenRange=95:105
+14	petista	petista	NOUN	NOUN	_	12	appos	_	TokenRange=106:113
+15	antonio	antonio	ADJ	NOUN	_	14	appos	_	TokenRange=114:121
+16	palocci	_	NOUN	NOUN	_	15	flat	_	TokenRange=122:129
+17	us	_	DET	DET	_	19	det	_	TokenRange=130:132
+18	348	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=133:136
+19	milhoes	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=137:144
+20	depositados	depositado	ADJ	ADJ	_	14	acl	_	TokenRange=145:156
+21	conta	conta	NOUN	NOUN	_	20	appos	_	TokenRange=157:162
+22	miami	_	NOUN	NOUN	_	21	flat	_	TokenRange=163:168
+23	brasil	brasil	NOUN	NOUN	_	21	flat	_	TokenRange=169:175
+24	encontrados	encontrar	VERB	VERB	_	21	acl	_	TokenRange=176:187
+25	r	r	NOUN	NOUN	_	24	nsubj	_	TokenRange=188:189
+26	61	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=190:192
+27	milhoes	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=193:200
+28	contas	conta	NOUN	NOUN	_	24	nsubj	_	TokenRange=201:207
+29	bancarias	bancario	ADJ	ADJ	_	28	amod	_	TokenRange=208:217
+30	acusado	acusar	VERB	VERB	_	28	acl	_	TokenRange=218:225
+31	ninharia	_	NOUN	NOUN	_	30	obj	_	TokenRange=226:234
+32	grande	grande	ADJ	ADJ	_	33	amod	_	TokenRange=235:241
+33	bolada	bolada	NOUN	NOUN	_	31	appos	_	TokenRange=242:248
+34	ainda	ainda	ADV	ADV	_	35	advmod	_	TokenRange=249:254
+35	vir	_	VERB	VERB	_	28	acl:relcl	_	TokenRange=255:258
+36	cerca	cerca	ADV	ADV	_	40	advmod	_	TokenRange=259:264
+37	r	r	NOUN	NOUN	_	41	nsubj	_	TokenRange=265:266
+38	1	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=267:268
+39	1	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=269:270
+40	bilhao	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=271:277
+41	estaria	estar	VERB	VERB	_	35	parataxis	_	TokenRange=278:285
+42	escondido	escondido	ADJ	ADJ	_	41	xcomp	_	TokenRange=286:295
+43	terras	terra	NOUN	NOUN	_	41	nsubj	_	TokenRange=296:302
+44	norte	norte	ADJ	ADJ	_	40	amod	_	TokenRange=303:308
+45	americanas	americano	ADJ	ADJ	_	43	amod	_	TokenRange=309:319
+46	antagonista	antagonista	ADJ	ADJ	_	43	amod	_	TokenRange=320:331
+47	informou	informar	VERB	VERB	_	41	parataxis	_	TokenRange=332:340
+48	postagem	postagem	NOUN	NOUN	_	47	obj	_	TokenRange=341:349
+49	exclusiva	exclusivo	ADJ	ADJ	_	48	amod	_	TokenRange=350:359
+50	investigacoes	investigacoe	NOUN	NOUN	_	52	nsubj	_	TokenRange=360:373
+51	poderao	poder	AUX	AUX	_	52	aux	_	TokenRange=374:381
+52	chegar	chegar	VERB	VERB	_	48	acl:relcl	_	TokenRange=382:388
+53	eua	_	PRON	DET	_	55	nsubj	_	TokenRange=389:392
+54	pt	_	PROPN	PNOUN	_	55	nsubj	_	TokenRange=393:395
+55	criou	criar	VERB	VERB	_	52	ccomp	_	TokenRange=396:401
+56	banco	banco	NOUN	NOUN	_	55	obj	_	TokenRange=402:407
+57	particular	particular	ADJ	ADJ	_	56	amod	_	TokenRange=408:418
+58	terra	terra	NOUN	NOUN	_	56	appos	_	TokenRange=419:424
+59	tio	_	NOUN	NOUN	_	56	appos	_	TokenRange=425:428
+60	sam	_	NOUN	NOUN	_	59	flat	_	TokenRange=429:432
+61	presidido	presidir	VERB	VERB	_	56	acl	_	TokenRange=433:442
+62	antonio	antonio	NOUN	NOUN	_	61	nsubj	_	TokenRange=443:450
+63	palocci	_	NOUN	NOUN	_	62	flat	_	TokenRange=451:458
+64	caso	_	CCONJ	CONJ	_	65	case	_	TokenRange=459:463
+65	informacao	informacao	NOUN	NOUN	_	68	nmod	_	TokenRange=464:474
+66	confirmada	confirmado	ADJ	ADJ	_	65	amod	_	TokenRange=475:485
+67	palocci	_	NOUN	NOUN	_	65	amod	_	TokenRange=486:493
+68	corre	correr	VERB	VERB	_	55	conj	_	TokenRange=494:499
+69	risco	risco	NOUN	NOUN	_	68	obj	_	TokenRange=500:505
+70	deportado	deportado	ADJ	ADJ	_	69	amod	_	TokenRange=506:515
+71	julgado	julgar	VERB	VERB	_	69	acl	_	TokenRange=516:523
+72	estados	estado	NOUN	NOUN	_	71	nmod	_	TokenRange=524:531
+73	unidos	unido	ADJ	ADJ	_	72	amod	_	SpaceAfter=No|TokenRange=532:538
+

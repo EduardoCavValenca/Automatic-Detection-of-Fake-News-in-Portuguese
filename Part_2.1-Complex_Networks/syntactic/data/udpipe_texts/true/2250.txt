@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = familia kaka faz campanha juntar dinheiro passagens eua hospedagem durante tratamento mobilizacao garantiu r 280 mil pagar cirurgia pode fazer menino conseguir andar agora pais correm contra tempo reta final acoes apos arrecadar r 280 mil pagar cirurgia carlos eduardo capucho maia 9 anos conhecido kaka familia menino faz mobilizacao juntar dinheiro passagens aereas hospedagem durante periodo tratamento feito estados unidos procedimento
+1	familia	familia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	kaka	_	NOUN	NOUN	_	1	flat	_	TokenRange=8:12
+3	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=13:16
+4	campanha	campanha	NOUN	NOUN	_	3	obj	_	TokenRange=17:25
+5	juntar	juntar	VERB	VERB	_	3	ccomp	_	TokenRange=26:32
+6	dinheiro	dinheiro	NOUN	NOUN	_	5	obj	_	TokenRange=33:41
+7	passagens	passagem	NOUN	NOUN	_	5	obj	_	TokenRange=42:51
+8	eua	_	DET	DET	_	9	det	_	TokenRange=52:55
+9	hospedagem	hospedagem	NOUN	NOUN	_	3	nsubj	_	TokenRange=56:66
+10	durante	_	ADP	ADP	_	11	case	_	TokenRange=67:74
+11	tratamento	tratamento	NOUN	NOUN	_	13	nmod	_	TokenRange=75:85
+12	mobilizacao	mobilizacao	ADJ	ADJ	_	11	amod	_	TokenRange=86:97
+13	garantiu	garantir	VERB	VERB	_	3	conj	_	TokenRange=98:106
+14	r	r	NOUN	NOUN	_	13	obj	_	TokenRange=107:108
+15	280	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=109:112
+16	mil	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=113:116
+17	pagar	pagar	VERB	VERB	_	13	ccomp	_	TokenRange=117:122
+18	cirurgia	cirurgia	NOUN	NOUN	_	17	obj	_	TokenRange=123:131
+19	pode	_	AUX	AUX	_	20	aux	_	TokenRange=132:136
+20	fazer	fazer	VERB	VERB	_	13	ccomp	_	TokenRange=137:142
+21	menino	menino	NOUN	NOUN	_	20	obj	_	TokenRange=143:149
+22	conseguir	conseguir	VERB	VERB	_	20	ccomp	_	TokenRange=150:159
+23	andar	andar	VERB	VERB	_	22	xcomp	_	TokenRange=160:165
+24	agora	agora	ADV	ADV	_	23	advmod	_	TokenRange=166:171
+25	pais	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=172:176
+26	correm	correr	VERB	VERB	_	23	conj	_	TokenRange=177:183
+27	contra	_	ADP	ADP	_	28	case	_	TokenRange=184:190
+28	tempo	tempo	NOUN	NOUN	_	26	nmod	_	TokenRange=191:196
+29	reta	reta	ADJ	ADJ	_	28	amod	_	TokenRange=197:201
+30	final	final	ADJ	ADJ	_	28	amod	_	TokenRange=202:207
+31	acoes	acoe	NOUN	NOUN	_	26	nsubj	_	TokenRange=208:213
+32	apos	_	ADP	ADP	_	33	mark	_	TokenRange=214:218
+33	arrecadar	arrecadar	VERB	VERB	_	31	nmod	_	TokenRange=219:228
+34	r	r	NOUN	NOUN	_	33	obj	_	TokenRange=229:230
+35	280	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=231:234
+36	mil	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=235:238
+37	pagar	pagar	VERB	VERB	_	33	ccomp	_	TokenRange=239:244
+38	cirurgia	cirurgia	NOUN	NOUN	_	37	obj	_	TokenRange=245:253
+39	carlos	carlo	NOUN	NOUN	_	38	appos	_	TokenRange=254:260
+40	eduardo	eduardo	NOUN	NOUN	_	39	flat	_	TokenRange=261:268
+41	capucho	capucho	NOUN	NOUN	_	39	flat	_	TokenRange=269:276
+42	maia	maia	ADJ	ADJ	_	41	flat	_	TokenRange=277:281
+43	9	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=282:283
+44	anos	ano	NOUN	NOUN	_	39	appos	_	TokenRange=284:288
+45	conhecido	conhecido	ADJ	ADJ	_	44	amod	_	TokenRange=289:298
+46	kaka	kaka	NOUN	NOUN	_	49	nsubj	_	TokenRange=299:303
+47	familia	familia	NOUN	NOUN	_	49	nsubj	_	TokenRange=304:311
+48	menino	menino	ADJ	NOUN	_	47	amod	_	TokenRange=312:318
+49	faz	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=319:322
+50	mobilizacao	_	NOUN	NOUN	_	49	obj	_	TokenRange=323:334
+51	juntar	juntar	VERB	VERB	_	49	xcomp	_	TokenRange=335:341
+52	dinheiro	dinheiro	NOUN	NOUN	_	51	obj	_	TokenRange=342:350
+53	passagens	passagem	NOUN	NOUN	_	51	obj	_	TokenRange=351:360
+54	aereas	aereo	ADJ	ADJ	_	53	amod	_	TokenRange=361:367
+55	hospedagem	hospedagem	NOUN	NOUN	_	51	obj	_	TokenRange=368:378
+56	durante	_	ADP	ADP	_	57	case	_	TokenRange=379:386
+57	periodo	periodo	NOUN	NOUN	_	55	nmod	_	TokenRange=387:394
+58	tratamento	tratamento	NOUN	NOUN	_	57	flat	_	TokenRange=395:405
+59	feito	_	VERB	VERB	_	62	acl	_	TokenRange=406:411
+60	estados	estado	NOUN	NOUN	_	59	obj	_	TokenRange=412:419
+61	unidos	unido	ADJ	ADJ	_	60	amod	_	TokenRange=420:426
+62	procedimento	procedimento	NOUN	NOUN	_	57	appos	_	SpaceAfter=No|TokenRange=427:439
+

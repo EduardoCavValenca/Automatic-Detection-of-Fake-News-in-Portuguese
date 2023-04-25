@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = siria mergulha nova onda violencia alerta onu cerca 600 mil pessoas estariam vivendo estado sitio enquanto numero refugiados conflito passa 5 milhoes aponta relatorio comissao inquerito nacoes unidas genebra acordo eua russia sobre destino presidente bashar assad guerra civil siria volta intensificar atingindo 5 milhoes refugiados deixando 600 mil civis sitiados beira fome resultado novo relatorio produzido brasileiro paulo sergio pinheiro presidente comissao inquerito onu sobre crimes siria denuncia escalada precedentes violencia guerra dura cinco anos desde marco vemos retomada intensa combates ataques desproporcionais indiscriminados contra
+1	siria	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:5
+2	mergulha	mergulha	NOUN	NOUN	_	13	parataxis	_	TokenRange=6:14
+3	nova	novo	ADJ	ADJ	_	4	amod	_	TokenRange=15:19
+4	onda	onda	NOUN	NOUN	_	2	appos	_	TokenRange=20:24
+5	violencia	violencia	NOUN	NOUN	_	2	appos	_	TokenRange=25:34
+6	alerta	alerta	NOUN	NOUN	_	4	appos	_	TokenRange=35:41
+7	onu	onu	NOUN	NOUN	_	6	amod	_	TokenRange=42:45
+8	cerca	cerca	ADV	ADV	_	10	advmod	_	TokenRange=46:51
+9	600	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=52:55
+10	mil	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=56:59
+11	pessoas	pessoa	NOUN	NOUN	_	13	nsubj	_	TokenRange=60:67
+12	estariam	estar	AUX	AUX	_	13	aux	_	TokenRange=68:76
+13	vivendo	viver	VERB	VERB	_	0	root	_	TokenRange=77:84
+14	estado	estado	NOUN	NOUN	_	13	obj	_	TokenRange=85:91
+15	sitio	sitio	NOUN	NOUN	_	14	flat	_	TokenRange=92:97
+16	enquanto	_	CCONJ	CONJ	_	20	mark	_	TokenRange=98:106
+17	numero	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=107:113
+18	refugiados	refugiado	NOUN	NOUN	_	17	appos	_	TokenRange=114:124
+19	conflito	conflito	NOUN	NOUN	_	17	amod	_	TokenRange=125:133
+20	passa	passar	VERB	VERB	_	13	advcl	_	TokenRange=134:139
+21	5	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=140:141
+22	milhoes	_	NUM	NUM	NumType=Card	20	obj	_	TokenRange=142:149
+23	aponta	apontar	VERB	VERB	_	13	parataxis	_	TokenRange=150:156
+24	relatorio	relatorio	NOUN	NOUN	_	23	obj	_	TokenRange=157:166
+25	comissao	comissao	NOUN	NOUN	_	24	appos	_	TokenRange=167:175
+26	inquerito	inquerito	ADJ	ADJ	_	27	amod	_	TokenRange=176:185
+27	nacoes	_	NOUN	NOUN	_	24	appos	_	TokenRange=186:192
+28	unidas	unido	ADJ	ADJ	_	27	amod	_	TokenRange=193:199
+29	genebra	genebra	NOUN	NOUN	_	30	appos	_	TokenRange=200:207
+30	acordo	acordo	NOUN	NOUN	_	24	appos	_	TokenRange=208:214
+31	eua	_	DET	DET	_	32	det	_	TokenRange=215:218
+32	russia	russia	NOUN	NOUN	_	30	appos	_	TokenRange=219:225
+33	sobre	_	ADP	ADP	_	34	case	_	TokenRange=226:231
+34	destino	destino	NOUN	NOUN	_	30	nmod	_	TokenRange=232:239
+35	presidente	presidente	NOUN	NOUN	_	34	appos	_	TokenRange=240:250
+36	bashar	bashar	NOUN	NOUN	_	35	appos	_	TokenRange=251:257
+37	assad	_	ADJ	ADJ	_	38	amod	_	TokenRange=258:263
+38	guerra	guerra	NOUN	NOUN	_	30	appos	_	TokenRange=264:270
+39	civil	civil	ADJ	ADJ	_	38	amod	_	TokenRange=271:276
+40	siria	_	ADJ	NOUN	_	38	amod	_	TokenRange=277:282
+41	volta	voltar	AUX	AUX	_	42	aux	_	TokenRange=283:288
+42	intensificar	intensificar	VERB	VERB	_	13	parataxis	_	TokenRange=289:301
+43	atingindo	atingir	VERB	VERB	_	42	acl	_	TokenRange=302:311
+44	5	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=312:313
+45	milhoes	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=314:321
+46	refugiados	refugiado	NOUN	NOUN	_	43	obj	_	TokenRange=322:332
+47	deixando	deixar	VERB	VERB	_	46	acl	_	TokenRange=333:341
+48	600	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=342:345
+49	mil	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=346:349
+50	civis	civil	NOUN	NOUN	_	47	obj	_	TokenRange=350:355
+51	sitiados	sitiado	ADJ	ADJ	_	50	amod	_	TokenRange=356:364
+52	beira	beira	ADJ	NOUN	_	53	case	_	TokenRange=365:370
+53	fome	fome	NOUN	NOUN	_	47	nmod	_	TokenRange=371:375
+54	resultado	resultado	NOUN	NOUN	_	43	nsubj	_	TokenRange=376:385
+55	novo	novo	ADJ	ADJ	_	56	amod	_	TokenRange=386:390
+56	relatorio	relatorio	NOUN	NOUN	_	54	appos	_	TokenRange=391:400
+57	produzido	produzido	ADJ	ADJ	_	56	amod	_	TokenRange=401:410
+58	brasileiro	brasileiro	ADJ	ADJ	_	56	amod	_	TokenRange=411:421
+59	paulo	paulo	NOUN	NOUN	_	56	appos	_	TokenRange=422:427
+60	sergio	sergio	NOUN	NOUN	_	56	appos	_	TokenRange=428:434
+61	pinheiro	pinheiro	ADJ	ADJ	_	60	amod	_	TokenRange=435:443
+62	presidente	presidente	NOUN	NOUN	_	56	appos	_	TokenRange=444:454
+63	comissao	comissao	NOUN	NOUN	_	62	appos	_	TokenRange=455:463
+64	inquerito	inquerito	ADJ	ADJ	_	63	amod	_	TokenRange=464:473
+65	onu	onu	ADJ	ADJ	_	63	appos	_	TokenRange=474:477
+66	sobre	_	ADP	ADP	_	67	case	_	TokenRange=478:483
+67	crimes	crime	NOUN	NOUN	_	63	nmod	_	TokenRange=484:490
+68	siria	sirio	ADJ	ADJ	_	67	amod	_	TokenRange=491:496
+69	denuncia	denuncia	NOUN	NOUN	_	79	nsubj	_	TokenRange=497:505
+70	escalada	escalada	NOUN	NOUN	_	69	appos	_	TokenRange=506:514
+71	precedentes	precedente	ADJ	ADJ	_	70	amod	_	TokenRange=515:526
+72	violencia	violencia	NOUN	NOUN	_	69	amod	_	TokenRange=527:536
+73	guerra	guerra	NOUN	NOUN	_	69	appos	_	TokenRange=537:543
+74	dura	durar	VERB	VERB	_	69	acl:relcl	_	TokenRange=544:548
+75	cinco	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=549:554
+76	anos	ano	NOUN	NOUN	_	74	nmod	_	TokenRange=555:559
+77	desde	_	ADP	ADP	_	78	case	_	TokenRange=560:565
+78	marco	marco	PROPN	PNOUN	_	74	nmod	_	TokenRange=566:571
+79	vemos	ver	VERB	VERB	_	13	parataxis	_	TokenRange=572:577
+80	retomada	retomada	ADJ	ADJ	_	79	obj	_	TokenRange=578:586
+81	intensa	intenso	ADJ	ADJ	_	82	amod	_	TokenRange=587:594
+82	combates	combate	NOUN	NOUN	_	79	obj	_	TokenRange=595:603
+83	ataques	ataque	NOUN	NOUN	_	79	nsubj	_	TokenRange=604:611
+84	desproporcionais	desproporcional	ADJ	ADJ	_	83	amod	_	TokenRange=612:628
+85	indiscriminados	indiscriminado	ADJ	ADJ	_	83	amod	_	TokenRange=629:644
+86	contra	_	ADP	ADP	_	78	case	_	SpaceAfter=No|TokenRange=645:651
+

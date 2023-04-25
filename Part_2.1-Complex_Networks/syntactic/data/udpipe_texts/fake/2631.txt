@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = assim protegem mulheres portal ig demite jornalista sofreu assedio cantor biel reporter 21 anos chegou denunciar cantor 1 delegacia mulher paulo assedio jornalista nome revelado portal ig jovem denunciou cantor biel assedio sexual durante entrevista demitida ontem 17 portal ig jornalista fernando oliveira divulgou informacao corte varios funcionarios ig hoje demissao reporter portal prometeu proteger conversa jornalista biel testemunhada outras pessoas acompanhavam entrevista apos divulgacao demissao internautas mostraram indignados descaso empresa noticia tornou comentadas redes sociais
+1	assim	assim	ADV	ADV	_	2	advmod	_	TokenRange=0:5
+2	protegem	proteger	VERB	VERB	_	0	root	_	TokenRange=6:14
+3	mulheres	mulher	NOUN	NOUN	_	2	obj	_	TokenRange=15:23
+4	portal	portal	NOUN	NOUN	_	3	appos	_	TokenRange=24:30
+5	ig	_	NOUN	NOUN	_	4	appos	_	TokenRange=31:33
+6	demite	_	ADJ	NOUN	_	7	amod	_	TokenRange=34:40
+7	jornalista	jornalista	NOUN	NOUN	_	4	conj	_	TokenRange=41:51
+8	sofreu	sofrer	VERB	VERB	_	2	parataxis	_	TokenRange=52:58
+9	assedio	assedio	NOUN	NOUN	_	8	obj	_	TokenRange=59:66
+10	cantor	cantor	NOUN	NOUN	_	9	appos	_	TokenRange=67:73
+11	biel	biel	NOUN	NOUN	_	10	amod	_	TokenRange=74:78
+12	reporter	reporter	NOUN	NOUN	_	9	appos	_	TokenRange=79:87
+13	21	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=88:90
+14	anos	ano	NOUN	NOUN	_	16	nsubj	_	TokenRange=91:95
+15	chegou	chegar	AUX	AUX	_	16	aux	_	TokenRange=96:102
+16	denunciar	denunciar	VERB	VERB	_	2	parataxis	_	TokenRange=103:112
+17	cantor	cantor	NOUN	NOUN	_	16	obj	_	TokenRange=113:119
+18	1	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=120:121
+19	delegacia	delegacia	NOUN	NOUN	_	16	obj	_	TokenRange=122:131
+20	mulher	mulher	NOUN	NOUN	_	19	appos	_	TokenRange=132:138
+21	paulo	paulo	NOUN	NOUN	_	19	appos	_	TokenRange=139:144
+22	assedio	assedio	NOUN	NOUN	_	19	appos	_	TokenRange=145:152
+23	jornalista	jornalista	NOUN	NOUN	_	22	flat	_	TokenRange=153:163
+24	nome	nome	NOUN	NOUN	_	22	appos	_	TokenRange=164:168
+25	revelado	revelar	VERB	VERB	_	24	acl	_	TokenRange=169:177
+26	portal	portal	NOUN	NOUN	_	29	nsubj	_	TokenRange=178:184
+27	ig	_	NOUN	NOUN	_	26	appos	_	TokenRange=185:187
+28	jovem	jovem	ADJ	ADJ	_	27	amod	_	TokenRange=188:193
+29	denunciou	denunciar	VERB	VERB	_	2	parataxis	_	TokenRange=194:203
+30	cantor	cantor	NOUN	NOUN	_	29	obj	_	TokenRange=204:210
+31	biel	biel	ADJ	ADJ	_	30	amod	_	TokenRange=211:215
+32	assedio	assedio	NOUN	NOUN	_	30	appos	_	TokenRange=216:223
+33	sexual	sexual	ADJ	ADJ	_	32	amod	_	TokenRange=224:230
+34	durante	_	ADP	ADP	_	35	case	_	TokenRange=231:238
+35	entrevista	entrevista	NOUN	NOUN	_	32	nmod	_	TokenRange=239:249
+36	demitida	demitir	VERB	VERB	_	35	acl	_	TokenRange=250:258
+37	ontem	ontem	ADV	ADV	_	36	advmod	_	TokenRange=259:264
+38	17	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=265:267
+39	portal	portal	NOUN	NOUN	_	44	nsubj	_	TokenRange=268:274
+40	ig	_	NOUN	NOUN	_	39	appos	_	TokenRange=275:277
+41	jornalista	jornalista	NOUN	NOUN	_	39	flat	_	TokenRange=278:288
+42	fernando	_	PROPN	PNOUN	_	39	appos	_	TokenRange=289:297
+43	oliveira	_	PROPN	PNOUN	_	42	flat	_	TokenRange=298:306
+44	divulgou	divulgar	VERB	VERB	_	29	parataxis	_	TokenRange=307:315
+45	informacao	informacao	NOUN	NOUN	_	44	obj	_	TokenRange=316:326
+46	corte	corte	NOUN	NOUN	_	45	flat	_	TokenRange=327:332
+47	varios	_	DET	DET	_	48	det	_	TokenRange=333:339
+48	funcionarios	funcionario	NOUN	NOUN	_	44	nsubj	_	TokenRange=340:352
+49	ig	_	NOUN	NOUN	_	48	appos	_	TokenRange=353:355
+50	hoje	hoje	ADV	ADV	_	54	advmod	_	TokenRange=356:360
+51	demissao	demissao	NOUN	NOUN	_	49	appos	_	TokenRange=361:369
+52	reporter	reporter	NOUN	NOUN	_	54	nsubj	_	TokenRange=370:378
+53	portal	portal	NOUN	NOUN	_	52	amod	_	TokenRange=379:385
+54	prometeu	prometer	VERB	VERB	_	44	parataxis	_	TokenRange=386:394
+55	proteger	proteger	VERB	VERB	_	54	xcomp	_	TokenRange=395:403
+56	conversa	_	NOUN	NOUN	_	55	obj	_	TokenRange=404:412
+57	jornalista	jornalista	NOUN	NOUN	_	56	appos	_	TokenRange=413:423
+58	biel	biel	NOUN	NOUN	_	57	flat	_	TokenRange=424:428
+59	testemunhada	testemunhar	VERB	VERB	_	57	acl	_	TokenRange=429:441
+60	outras	_	DET	DET	_	61	det	_	TokenRange=442:448
+61	pessoas	pessoa	NOUN	NOUN	_	62	nsubj	_	TokenRange=449:456
+62	acompanhavam	acompanhar	VERB	VERB	_	54	parataxis	_	TokenRange=457:469
+63	entrevista	entrevista	NOUN	NOUN	_	62	obj	_	TokenRange=470:480
+64	apos	_	ADP	ADP	_	65	case	_	TokenRange=481:485
+65	divulgacao	divulgacao	NOUN	NOUN	_	68	nmod	_	TokenRange=486:496
+66	demissao	demissao	ADJ	ADJ	_	67	amod	_	TokenRange=497:505
+67	internautas	internauta	NOUN	NOUN	_	68	nsubj	_	TokenRange=506:517
+68	mostraram	mostrar	VERB	VERB	_	54	conj	_	TokenRange=518:527
+69	indignados	indignado	ADJ	ADJ	_	68	xcomp	_	TokenRange=528:538
+70	descaso	descaso	ADJ	ADJ	_	71	amod	_	TokenRange=539:546
+71	empresa	empresa	NOUN	NOUN	_	68	obj	_	TokenRange=547:554
+72	noticia	noticia	NOUN	NOUN	_	71	appos	_	TokenRange=555:562
+73	tornou	tornar	AUX	AUX	_	74	aux:pass	_	TokenRange=563:569
+74	comentadas	comentar	VERB	VERB	_	68	parataxis	_	TokenRange=570:580
+75	redes	rede	NOUN	NOUN	_	74	nsubj	_	TokenRange=581:586
+76	sociais	social	ADJ	ADJ	_	75	amod	_	SpaceAfter=No|TokenRange=587:594
+

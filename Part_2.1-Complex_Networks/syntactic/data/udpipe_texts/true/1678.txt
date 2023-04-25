@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aviao cai perto moscou deixa 71 mortos voo saiu capital russa ia orsk divisa cazaquistao acidente ocorreu pouco decolagem sobreviventes aviao 71 passageiros companhia aerea saratov caiu regiao moscou neste domingo 11 sobreviventes acordo promotoria transportes russia tratase desastre voo comercial maior numero mortos desde queda aviao chapecoense novembro 2016 veja historico abaixo voo decolou 14h21 9h21 brasilia aeroporto domodedovo capital russa destino
+1	aviao	aviao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	cai	cair	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	perto	perto	ADV	ADV	_	2	advmod	_	TokenRange=10:15
+4	moscou	_	NOUN	NOUN	_	2	nmod	_	TokenRange=16:22
+5	deixa	deixar	VERB	VERB	_	2	conj	_	TokenRange=23:28
+6	71	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=29:31
+7	mortos	morto	NOUN	NOUN	_	2	obj	_	TokenRange=32:38
+8	voo	voo	NOUN	NOUN	_	9	nsubj	_	TokenRange=39:42
+9	saiu	sair	VERB	VERB	_	2	conj	_	TokenRange=43:47
+10	capital	capital	NOUN	NOUN	_	9	nmod	_	TokenRange=48:55
+11	russa	russo	ADJ	ADJ	_	10	amod	_	TokenRange=56:61
+12	ia	_	NOUN	NOUN	_	9	appos	_	TokenRange=62:64
+13	orsk	_	NOUN	NOUN	_	12	flat	_	TokenRange=65:69
+14	divisa	divisa	NOUN	NOUN	_	9	appos	_	TokenRange=70:76
+15	cazaquistao	_	NOUN	NOUN	_	14	flat	_	TokenRange=77:88
+16	acidente	acidente	NOUN	NOUN	_	14	amod	_	TokenRange=89:97
+17	ocorreu	ocorrer	VERB	VERB	_	14	parataxis	_	TokenRange=98:105
+18	pouco	_	DET	DET	_	19	det	_	TokenRange=106:111
+19	decolagem	decolagem	NOUN	NOUN	_	17	nsubj	_	TokenRange=112:121
+20	sobreviventes	sobrevivente	ADJ	ADJ	_	19	amod	_	TokenRange=122:135
+21	aviao	aviao	NOUN	NOUN	_	27	nsubj	_	TokenRange=136:141
+22	71	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=142:144
+23	passageiros	passageiro	NOUN	NOUN	_	21	appos	_	TokenRange=145:156
+24	companhia	companhia	NOUN	NOUN	_	21	appos	_	TokenRange=157:166
+25	aerea	aereo	ADJ	ADJ	_	24	amod	_	TokenRange=167:172
+26	saratov	saratov	NOUN	NOUN	_	24	appos	_	TokenRange=173:180
+27	caiu	cair	VERB	VERB	_	2	conj	_	TokenRange=181:185
+28	regiao	regiao	NOUN	NOUN	_	27	obj	_	TokenRange=186:192
+29	moscou	moscar	NOUN	VERB	_	28	appos	_	TokenRange=193:199
+30	neste	_	ADP	ADP	_	31	case	_	TokenRange=200:205
+31	domingo	_	PROPN	PNOUN	_	27	nmod	_	TokenRange=206:213
+32	11	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=214:216
+33	sobreviventes	sobrevivente	NOUN	NOUN	_	27	nsubj	_	TokenRange=217:230
+34	acordo	acordo	NOUN	NOUN	_	27	nsubj	_	TokenRange=231:237
+35	promotoria	promotoria	NOUN	NOUN	_	34	appos	_	TokenRange=238:248
+36	transportes	transporte	NOUN	NOUN	_	34	flat	_	TokenRange=249:260
+37	russia	russia	NOUN	NOUN	_	34	appos	_	TokenRange=261:267
+38	tratase	tratar	VERB	VERB	_	27	parataxis	_	TokenRange=268:275
+39	desastre	desastre	NOUN	NOUN	_	38	obj	_	TokenRange=276:284
+40	voo	voo	NOUN	NOUN	_	39	appos	_	TokenRange=285:288
+41	comercial	comercial	ADJ	ADJ	_	43	amod	_	TokenRange=289:298
+42	maior	maior	ADJ	ADJ	_	43	amod	_	TokenRange=299:304
+43	numero	numero	NOUN	NOUN	_	39	appos	_	TokenRange=305:311
+44	mortos	morto	ADJ	ADJ	_	43	amod	_	TokenRange=312:318
+45	desde	_	ADP	ADP	_	46	case	_	TokenRange=319:324
+46	queda	queda	NOUN	NOUN	_	43	nmod	_	TokenRange=325:330
+47	aviao	aviao	NOUN	NOUN	_	46	appos	_	TokenRange=331:336
+48	chapecoense	chapecoense	ADJ	ADJ	_	47	amod	_	TokenRange=337:348
+49	novembro	_	PROPN	PNOUN	_	47	nmod	_	TokenRange=349:357
+50	2016	_	NUM	NUM	NumType=Card	49	nmod	_	TokenRange=358:362
+51	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=363:367
+52	historico	historico	NOUN	NOUN	_	51	obj	_	TokenRange=368:377
+53	abaixo	abaixo	ADV	ADV	_	55	advmod	_	TokenRange=378:384
+54	voo	voo	NOUN	NOUN	_	55	nsubj	_	TokenRange=385:388
+55	decolou	decolar	VERB	VERB	_	51	parataxis	_	TokenRange=389:396
+56	14h21	_	NUM	NUM	NumType=Card	55	nmod	_	TokenRange=397:402
+57	9h21	_	NUM	NUM	NumType=Card	55	nmod	_	TokenRange=403:407
+58	brasilia	brasilia	NOUN	NOUN	_	59	nmod	_	TokenRange=408:416
+59	aeroporto	aeroporto	NOUN	NOUN	_	55	parataxis	_	TokenRange=417:426
+60	domodedovo	domodedovo	ADJ	ADJ	_	61	amod	_	TokenRange=427:437
+61	capital	capital	NOUN	NOUN	_	59	appos	_	TokenRange=438:445
+62	russa	russo	ADJ	ADJ	_	61	amod	_	TokenRange=446:451
+63	destino	destino	NOUN	NOUN	_	59	appos	_	SpaceAfter=No|TokenRange=452:459
+

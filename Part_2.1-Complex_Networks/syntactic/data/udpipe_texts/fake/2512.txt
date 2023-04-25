@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sindrome respiratoria mers provoca panico coreia sul unico paciente infectou 82 pessoas sindrome espalhouse 82 pessoas tres dias partir unico paciente atendido paciente questao regressava viagem paises golfo arabia saudita sindrome respiratoria mers provocada variante coronavirus provoca infeccao pulmoes afetados apresentam febre tosse dificuldades respiratorias aproximadamente 30 40 pacientes infectados morrem acordo informacao oms organizacao mundial saude coreia sul confirmou 186 casos desde 2015 sendo 36 letais
+1	sindrome	sindrome	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	respiratoria	respiratorio	ADJ	ADJ	_	1	amod	_	TokenRange=9:21
+3	mers	_	NOUN	NOUN	_	1	appos	_	TokenRange=22:26
+4	provoca	provocar	VERB	VERB	_	0	root	_	TokenRange=27:34
+5	panico	panico	NOUN	NOUN	_	4	obj	_	TokenRange=35:41
+6	coreia	coreia	NOUN	NOUN	_	10	obj	_	TokenRange=42:48
+7	sul	sul	ADJ	ADJ	_	6	amod	_	TokenRange=49:52
+8	unico	unico	ADJ	ADJ	_	9	amod	_	TokenRange=53:58
+9	paciente	paciente	NOUN	NOUN	_	10	nsubj	_	TokenRange=59:67
+10	infectou	infectar	VERB	VERB	_	4	parataxis	_	TokenRange=68:76
+11	82	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=77:79
+12	pessoas	pessoa	NOUN	NOUN	_	10	obj	_	TokenRange=80:87
+13	sindrome	sindrome	NOUN	NOUN	_	10	obj	_	TokenRange=88:96
+14	espalhouse	espalhouse	NOUN	NOUN	_	13	flat	_	TokenRange=97:107
+15	82	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=108:110
+16	pessoas	pessoa	NOUN	NOUN	_	10	nsubj	_	TokenRange=111:118
+17	tres	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=119:123
+18	dias	dia	NOUN	NOUN	_	19	nmod	_	TokenRange=124:128
+19	partir	partir	VERB	VERB	_	10	parataxis	_	TokenRange=129:135
+20	unico	unico	ADJ	ADJ	_	21	amod	_	TokenRange=136:141
+21	paciente	paciente	NOUN	NOUN	_	19	nsubj	_	TokenRange=142:150
+22	atendido	atender	VERB	VERB	_	21	acl	_	TokenRange=151:159
+23	paciente	paciente	NOUN	NOUN	_	22	obj	_	TokenRange=160:168
+24	questao	questao	NOUN	NOUN	_	25	nsubj	_	TokenRange=169:176
+25	regressava	regressar	VERB	VERB	_	10	parataxis	_	TokenRange=177:187
+26	viagem	viagem	NOUN	NOUN	_	25	obj	_	TokenRange=188:194
+27	paises	paise	NOUN	NOUN	_	26	appos	_	TokenRange=195:201
+28	golfo	golfo	ADJ	NOUN	_	27	amod	_	TokenRange=202:207
+29	arabia	arabia	NOUN	NOUN	_	27	appos	_	TokenRange=208:214
+30	saudita	saudito	ADJ	ADJ	_	29	amod	_	TokenRange=215:222
+31	sindrome	sindrome	NOUN	NOUN	_	25	nsubj	_	TokenRange=223:231
+32	respiratoria	respiratorio	ADJ	ADJ	_	31	amod	_	TokenRange=232:244
+33	mers	_	NOUN	NOUN	_	31	appos	_	TokenRange=245:249
+34	provocada	provocar	VERB	VERB	_	31	acl	_	TokenRange=250:259
+35	variante	variante	NOUN	NOUN	_	31	appos	_	TokenRange=260:268
+36	coronavirus	_	NOUN	NOUN	_	35	flat	_	TokenRange=269:280
+37	provoca	provocar	VERB	VERB	_	31	acl:relcl	_	TokenRange=281:288
+38	infeccao	infeccao	NOUN	NOUN	_	37	obj	_	TokenRange=289:297
+39	pulmoes	_	NOUN	NOUN	_	38	amod	_	TokenRange=298:305
+40	afetados	afetar	VERB	VERB	_	38	acl	_	TokenRange=306:314
+41	apresentam	apresentar	VERB	VERB	_	4	parataxis	_	TokenRange=315:325
+42	febre	febre	NOUN	NOUN	_	41	obj	_	TokenRange=326:331
+43	tosse	_	ADJ	ADJ	_	44	amod	_	TokenRange=332:337
+44	dificuldades	dificuldade	NOUN	NOUN	_	41	obj	_	TokenRange=338:350
+45	respiratorias	respiratorio	ADJ	ADJ	_	44	amod	_	TokenRange=351:364
+46	aproximadamente	aproximadamente	ADV	ADV	_	48	advmod	_	TokenRange=365:380
+47	30	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=381:383
+48	40	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=384:386
+49	pacientes	paciente	NOUN	NOUN	_	41	nsubj	_	TokenRange=387:396
+50	infectados	infectar	VERB	VERB	_	49	acl	_	TokenRange=397:407
+51	morrem	morrer	VERB	VERB	_	41	parataxis	_	TokenRange=408:414
+52	acordo	acordo	NOUN	NOUN	_	41	obj	_	TokenRange=415:421
+53	informacao	informacao	NOUN	NOUN	_	52	appos	_	TokenRange=422:432
+54	oms	_	DET	DET	_	55	det	_	TokenRange=433:436
+55	organizacao	organizacao	NOUN	NOUN	_	60	nsubj	_	TokenRange=437:448
+56	mundial	mundial	ADJ	ADJ	_	55	amod	_	TokenRange=449:456
+57	saude	saude	NOUN	NOUN	_	55	amod	_	TokenRange=457:462
+58	coreia	coreia	NOUN	NOUN	_	60	nsubj	_	TokenRange=463:469
+59	sul	sul	ADJ	ADJ	_	55	amod	_	TokenRange=470:473
+60	confirmou	confirmar	VERB	VERB	_	41	parataxis	_	TokenRange=474:483
+61	186	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=484:487
+62	casos	caso	NOUN	NOUN	_	60	obj	_	TokenRange=488:493
+63	desde	_	ADP	ADP	_	64	case	_	TokenRange=494:499
+64	2015	_	NUM	NUM	NumType=Card	60	nmod	_	TokenRange=500:504
+65	sendo	ser	VERB	VERB	_	60	acl	_	TokenRange=505:510
+66	36	_	NUM	NUM	NumType=Card	67	nsubj	_	TokenRange=511:513
+67	letais	letal	ADJ	ADJ	_	65	xcomp	_	SpaceAfter=No|TokenRange=514:520
+

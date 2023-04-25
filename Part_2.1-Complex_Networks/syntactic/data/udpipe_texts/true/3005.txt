@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marina diz vai decidir disputa eleicao carnaval exministra afirma momento fecha ciclo reflexoes durante evento paulo exsenadora marina silva rede sustentabilidadeac afirmou nesta tarde segundafeira 27 paulo decidira antes carnaval 13 fevereiro candidata presidente marina disse momento fecha ciclo reflexoes tomar decisao participou evento promovido revista veja sextafeira 24 declarou palmas ainda analisava valia pena disputar eleicao 2018 sabendo provaveis concorrentes tempo dinheiro estrutura campanha
+1	marina	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=7:10
+3	vai	ir	AUX	AUX	_	4	aux	_	TokenRange=11:14
+4	decidir	decidir	VERB	VERB	_	2	ccomp	_	TokenRange=15:22
+5	disputa	disputa	NOUN	NOUN	_	4	obj	_	TokenRange=23:30
+6	eleicao	eleicao	NOUN	NOUN	_	4	obj	_	TokenRange=31:38
+7	carnaval	carnaval	NOUN	NOUN	_	5	appos	_	TokenRange=39:47
+8	exministra	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=48:58
+9	afirma	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=59:65
+10	momento	momento	NOUN	NOUN	_	9	obj	_	TokenRange=66:73
+11	fecha	fecha	ADJ	ADJ	_	10	amod	_	TokenRange=74:79
+12	ciclo	ciclo	NOUN	NOUN	_	10	appos	_	TokenRange=80:85
+13	reflexoes	_	NOUN	NOUN	_	12	amod	_	TokenRange=86:95
+14	durante	_	ADP	ADP	_	15	case	_	TokenRange=96:103
+15	evento	evento	NOUN	NOUN	_	9	nmod	_	TokenRange=104:110
+16	paulo	paulo	NOUN	NOUN	_	15	appos	_	TokenRange=111:116
+17	exsenadora	exsenador	NOUN	NOUN	_	15	appos	_	TokenRange=117:127
+18	marina	_	NOUN	NOUN	_	17	appos	_	TokenRange=128:134
+19	silva	silvo	NOUN	NOUN	_	18	flat	_	TokenRange=135:140
+20	rede	rede	NOUN	NOUN	_	17	appos	_	TokenRange=141:145
+21	sustentabilidadeac	_	NOUN	NOUN	_	20	flat	_	TokenRange=146:164
+22	afirmou	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=165:172
+23	nesta	_	ADP	ADP	_	24	case	_	TokenRange=173:178
+24	tarde	tarde	NOUN	NOUN	_	22	nmod	_	TokenRange=179:184
+25	segundafeira	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=185:197
+26	27	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=198:200
+27	paulo	paulo	NOUN	NOUN	_	28	nsubj	_	TokenRange=201:206
+28	decidira	decidir	VERB	VERB	_	22	parataxis	_	TokenRange=207:215
+29	antes	antes	ADV	ADV	_	28	advmod	_	TokenRange=216:221
+30	carnaval	carnaval	NOUN	NOUN	_	28	nmod	_	TokenRange=222:230
+31	13	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=231:233
+32	fevereiro	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=234:243
+33	candidata	candidato	NOUN	NOUN	_	28	nsubj	_	TokenRange=244:253
+34	presidente	presidente	NOUN	NOUN	_	33	appos	_	TokenRange=254:264
+35	marina	_	NOUN	NOUN	_	33	appos	_	TokenRange=265:271
+36	disse	dizer	VERB	VERB	_	28	parataxis	_	TokenRange=272:277
+37	momento	momento	NOUN	NOUN	_	36	obj	_	TokenRange=278:285
+38	fecha	fecho	ADJ	ADJ	_	37	amod	_	TokenRange=286:291
+39	ciclo	ciclo	NOUN	NOUN	_	36	nsubj	_	TokenRange=292:297
+40	reflexoes	_	NOUN	NOUN	_	39	amod	_	TokenRange=298:307
+41	tomar	tomar	VERB	VERB	_	39	acl:relcl	_	TokenRange=308:313
+42	decisao	decisao	NOUN	NOUN	_	41	obj	_	TokenRange=314:321
+43	participou	participar	VERB	VERB	_	41	parataxis	_	TokenRange=322:332
+44	evento	evento	NOUN	NOUN	_	43	obj	_	TokenRange=333:339
+45	promovido	promovido	ADJ	ADJ	_	44	amod	_	TokenRange=340:349
+46	revista	revista	NOUN	NOUN	_	44	appos	_	TokenRange=350:357
+47	veja	veja	NOUN	NOUN	_	46	appos	_	TokenRange=358:362
+48	sextafeira	sextafeira	NOUN	NOUN	_	50	nsubj	_	TokenRange=363:373
+49	24	_	NUM	NUM	NumType=Card	48	appos	_	TokenRange=374:376
+50	declarou	declarar	VERB	VERB	_	43	parataxis	_	TokenRange=377:385
+51	palmas	_	NOUN	NOUN	_	50	obj	_	TokenRange=386:392
+52	ainda	ainda	ADV	ADV	_	53	advmod	_	TokenRange=393:398
+53	analisava	analisar	VERB	VERB	_	36	ccomp	_	TokenRange=399:408
+54	valia	valio	ADJ	ADJ	_	55	amod	_	TokenRange=409:414
+55	pena	_	NOUN	NOUN	_	53	obj	_	TokenRange=415:419
+56	disputar	disputar	VERB	VERB	_	55	acl:inf	_	TokenRange=420:428
+57	eleicao	eleicao	NOUN	NOUN	_	56	obj	_	TokenRange=429:436
+58	2018	_	NUM	NUM	NumType=Card	57	nmod	_	TokenRange=437:441
+59	sabendo	saber	VERB	VERB	_	53	acl	_	TokenRange=442:449
+60	provaveis	provavel	ADJ	ADJ	_	61	amod	_	TokenRange=450:459
+61	concorrentes	concorrente	NOUN	NOUN	_	59	obj	_	TokenRange=460:472
+62	tempo	tempo	NOUN	NOUN	_	59	nmod	_	TokenRange=473:478
+63	dinheiro	dinheiro	NOUN	NOUN	_	62	flat	_	TokenRange=479:487
+64	estrutura	estrutura	NOUN	NOUN	_	62	appos	_	TokenRange=488:497
+65	campanha	campanha	NOUN	NOUN	_	62	flat	_	SpaceAfter=No|TokenRange=498:506
+

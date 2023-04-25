@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mendes cassacao direitos dilma algo bizarro erraram beaba direito constitucional presidente tse ministro suprema corte gilmar mendes disse hoje votacao fatiada impeachment dilma bizarro mendes afirmou votacao passa prova 9 jardim infancia direito constitucional resultado julgamento impeachment dilma abre precedente podera repercutir negativamente cassacoes mandatos deputados senadores vereadores fez senado dvs destaque votacao separado minimo bizarro disse ministro jornalistas
+1	mendes	_	NOUN	NOUN	_	2	appos	_	TokenRange=0:6
+2	cassacao	cassacao	NOUN	NOUN	_	57	nsubj	_	TokenRange=7:15
+3	direitos	direito	NOUN	NOUN	_	2	appos	_	TokenRange=16:24
+4	dilma	_	NOUN	NOUN	_	2	amod	_	TokenRange=25:30
+5	algo	_	PRON	PRON	_	2	appos	_	TokenRange=31:35
+6	bizarro	bizarro	NOUN	NOUN	_	5	amod	_	TokenRange=36:43
+7	erraram	errar	VERB	VERB	_	2	acl:relcl	_	TokenRange=44:51
+8	beaba	beaba	NOUN	NOUN	_	7	obj	_	TokenRange=52:57
+9	direito	direito	NOUN	NOUN	_	7	obj	_	TokenRange=58:65
+10	constitucional	constitucional	ADJ	ADJ	_	9	amod	_	TokenRange=66:80
+11	presidente	presidente	NOUN	NOUN	_	7	nsubj	_	TokenRange=81:91
+12	tse	_	NOUN	NOUN	_	13	appos	_	TokenRange=92:95
+13	ministro	ministro	NOUN	NOUN	_	11	appos	_	TokenRange=96:104
+14	suprema	supremo	ADJ	ADJ	_	13	amod	_	TokenRange=105:112
+15	corte	corte	NOUN	NOUN	_	13	appos	_	TokenRange=113:118
+16	gilmar	gilmar	NOUN	NOUN	_	13	appos	_	TokenRange=119:125
+17	mendes	_	NOUN	NOUN	_	16	flat	_	TokenRange=126:132
+18	disse	dizer	VERB	VERB	_	7	parataxis	_	TokenRange=133:138
+19	hoje	hoje	ADV	ADV	_	18	advmod	_	TokenRange=139:143
+20	votacao	votacao	NOUN	NOUN	_	18	obj	_	TokenRange=144:151
+21	fatiada	fatiado	ADJ	ADJ	_	20	amod	_	TokenRange=152:159
+22	impeachment	impeachment	NOUN	NOUN	_	26	nsubj	_	TokenRange=160:171
+23	dilma	dilma	NOUN	NOUN	_	22	appos	_	TokenRange=172:177
+24	bizarro	bizarro	NOUN	NOUN	_	22	appos	_	TokenRange=178:185
+25	mendes	_	NOUN	NOUN	_	23	amod	_	TokenRange=186:192
+26	afirmou	afirmar	VERB	VERB	_	18	parataxis	_	TokenRange=193:200
+27	votacao	votacao	NOUN	NOUN	_	26	obj	_	TokenRange=201:208
+28	passa	passar	VERB	VERB	_	26	parataxis	_	TokenRange=209:214
+29	prova	prova	NOUN	NOUN	_	28	obj	_	TokenRange=215:220
+30	9	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=221:222
+31	jardim	jardim	NOUN	NOUN	_	28	nsubj	_	TokenRange=223:229
+32	infancia	infancia	NOUN	NOUN	_	31	flat	_	TokenRange=230:238
+33	direito	direito	NOUN	NOUN	_	28	nsubj	_	TokenRange=239:246
+34	constitucional	constitucional	ADJ	ADJ	_	33	amod	_	TokenRange=247:261
+35	resultado	resultado	NOUN	NOUN	_	33	appos	_	TokenRange=262:271
+36	julgamento	julgamento	NOUN	NOUN	_	35	flat	_	TokenRange=272:282
+37	impeachment	impeachment	NOUN	NOUN	_	35	amod	_	TokenRange=283:294
+38	dilma	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=295:300
+39	abre	abrir	VERB	VERB	_	35	acl:relcl	_	TokenRange=301:305
+40	precedente	precedente	NOUN	NOUN	_	39	obj	_	TokenRange=306:316
+41	podera	_	AUX	AUX	_	42	aux	_	TokenRange=317:323
+42	repercutir	repercutir	VERB	VERB	_	39	conj	_	TokenRange=324:334
+43	negativamente	negativamente	ADV	ADV	_	42	advmod	_	TokenRange=335:348
+44	cassacoes	cassacoe	ADJ	NOUN	_	42	obj	_	TokenRange=349:358
+45	mandatos	mandato	NOUN	NOUN	_	42	obj	_	TokenRange=359:367
+46	deputados	deputado	ADJ	ADJ	_	45	amod	_	TokenRange=368:377
+47	senadores	senador	ADJ	ADJ	_	48	amod	_	TokenRange=378:387
+48	vereadores	vereador	NOUN	NOUN	_	45	amod	_	TokenRange=388:398
+49	fez	fazer	VERB	VERB	_	42	parataxis	_	TokenRange=399:402
+50	senado	senado	NOUN	NOUN	_	49	obj	_	TokenRange=403:409
+51	dvs	_	ADP	ADP	_	52	case	_	TokenRange=410:413
+52	destaque	destaque	NOUN	NOUN	_	50	nmod	_	TokenRange=414:422
+53	votacao	votacao	NOUN	NOUN	_	49	nsubj	_	TokenRange=423:430
+54	separado	separado	ADJ	ADJ	_	53	amod	_	TokenRange=431:439
+55	minimo	minimo	ADJ	ADJ	_	53	amod	_	TokenRange=440:446
+56	bizarro	bizarro	NOUN	NOUN	_	53	appos	_	TokenRange=447:454
+57	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=455:460
+58	ministro	ministro	NOUN	NOUN	_	57	obj	_	TokenRange=461:469
+59	jornalistas	jornalista	ADJ	ADJ	_	58	amod	_	SpaceAfter=No|TokenRange=470:481
+

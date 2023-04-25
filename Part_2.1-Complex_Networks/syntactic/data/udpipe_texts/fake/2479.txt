@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = faca parte senado disponibiliza link brasileiros votarem fim foro privilegiado site senado federal abriu consulta publica sobre pec 10/2013 visa alterar artigos 102 105 108 125 constituicao federal espaco ecidadania portal permite qualquer cidadao acesso internet possa participar dar voto objetivo emenda acabar prerrogativa foro privilegiado politicos exercicio casos crimes comuns consulta publica quer verificar apoio popular projeto lei emenda autor pec senador alvaro dias partido verde votar favor contra pec devera clicar aqui
+1	faca	facar	VERB	VERB	_	4	parataxis	_	TokenRange=0:4
+2	parte	parte	NOUN	NOUN	_	1	obj	_	TokenRange=5:10
+3	senado	senado	NOUN	NOUN	_	1	nsubj	_	TokenRange=11:17
+4	disponibiliza	disponibilizar	VERB	VERB	_	0	root	_	TokenRange=18:31
+5	link	link	NOUN	NOUN	_	4	obj	_	TokenRange=32:36
+6	brasileiros	brasileiro	ADJ	ADJ	_	5	amod	_	TokenRange=37:48
+7	votarem	votar	VERB	VERB	_	5	acl:inf	_	TokenRange=49:56
+8	fim	fim	NOUN	NOUN	_	7	obj	_	TokenRange=57:60
+9	foro	foro	NOUN	NOUN	_	14	advmod	_	TokenRange=61:65
+10	privilegiado	privilegiado	ADJ	ADJ	_	11	amod	_	TokenRange=66:78
+11	site	site	NOUN	NOUN	_	14	nsubj	_	TokenRange=79:83
+12	senado	senado	NOUN	NOUN	_	11	appos	_	TokenRange=84:90
+13	federal	federal	ADJ	ADJ	_	12	amod	_	TokenRange=91:98
+14	abriu	abrir	VERB	VERB	_	4	parataxis	_	TokenRange=99:104
+15	consulta	consulta	NOUN	NOUN	_	14	obj	_	TokenRange=105:113
+16	publica	publico	ADJ	ADJ	_	15	amod	_	TokenRange=114:121
+17	sobre	_	ADP	ADP	_	18	case	_	TokenRange=122:127
+18	pec	pec	NOUN	NOUN	_	15	nmod	_	TokenRange=128:131
+19	10/2013	_	NUM	NUM	NumType=Card	18	appos	_	TokenRange=132:139
+20	visa	visar	VERB	VERB	_	18	acl:relcl	_	TokenRange=140:144
+21	alterar	alterar	VERB	VERB	_	20	xcomp	_	TokenRange=145:152
+22	artigos	artigo	NOUN	NOUN	_	21	obj	_	TokenRange=153:160
+23	102	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=161:164
+24	105	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=165:168
+25	108	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=169:172
+26	125	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=173:176
+27	constituicao	constituicao	NOUN	NOUN	_	22	appos	_	TokenRange=177:189
+28	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=190:197
+29	espaco	espaco	NOUN	NOUN	_	27	appos	_	TokenRange=198:204
+30	ecidadania	ecidadania	NOUN	NOUN	_	29	flat	_	TokenRange=205:215
+31	portal	portal	NOUN	NOUN	_	29	appos	_	TokenRange=216:222
+32	permite	permitir	VERB	VERB	_	14	parataxis	_	TokenRange=223:230
+33	qualquer	_	DET	DET	_	35	det	_	TokenRange=231:239
+34	cidadao	cidadao	NOUN	NOUN	_	38	nsubj	_	TokenRange=240:247
+35	acesso	acesso	NOUN	NOUN	_	38	nsubj	_	TokenRange=248:254
+36	internet	_	PROPN	PNOUN	_	35	amod	_	TokenRange=255:263
+37	possa	_	AUX	AUX	_	38	aux	_	TokenRange=264:269
+38	participar	participar	VERB	VERB	_	32	ccomp	_	TokenRange=270:280
+39	dar	dar	VERB	VERB	_	38	xcomp	_	TokenRange=281:284
+40	voto	voto	NOUN	NOUN	_	39	obj	_	TokenRange=285:289
+41	objetivo	objetivo	NOUN	NOUN	_	40	amod	_	TokenRange=290:298
+42	emenda	emenda	NOUN	NOUN	_	43	nsubj	_	TokenRange=299:305
+43	acabar	acabar	VERB	VERB	_	40	acl:relcl	_	TokenRange=306:312
+44	prerrogativa	prerrogativa	NOUN	NOUN	_	43	obj	_	TokenRange=313:325
+45	foro	foro	NOUN	NOUN	_	40	appos	_	TokenRange=326:330
+46	privilegiado	privilegiado	ADJ	ADJ	_	45	amod	_	TokenRange=331:343
+47	politicos	politico	ADJ	ADJ	_	45	amod	_	TokenRange=344:353
+48	exercicio	exercicio	NOUN	NOUN	_	45	appos	_	TokenRange=354:363
+49	casos	caso	NOUN	NOUN	_	48	flat	_	TokenRange=364:369
+50	crimes	crime	NOUN	NOUN	_	48	appos	_	TokenRange=370:376
+51	comuns	comum	ADJ	ADJ	_	50	amod	_	TokenRange=377:383
+52	consulta	consulta	NOUN	NOUN	_	32	nsubj	_	TokenRange=384:392
+53	publica	publico	ADJ	ADJ	_	52	amod	_	TokenRange=393:400
+54	quer	querer	VERB	VERB	_	52	conj	_	TokenRange=401:405
+55	verificar	verificar	VERB	VERB	_	54	xcomp	_	TokenRange=406:415
+56	apoio	apoio	NOUN	NOUN	_	55	obj	_	TokenRange=416:421
+57	popular	popular	ADJ	ADJ	_	56	amod	_	TokenRange=422:429
+58	projeto	projeto	NOUN	NOUN	_	56	appos	_	TokenRange=430:437
+59	lei	lei	NOUN	NOUN	_	56	flat	_	TokenRange=438:441
+60	emenda	emenda	NOUN	NOUN	_	56	appos	_	TokenRange=442:448
+61	autor	autor	NOUN	NOUN	_	56	appos	_	TokenRange=449:454
+62	pec	_	NOUN	NOUN	_	61	flat	_	TokenRange=455:458
+63	senador	senador	NOUN	NOUN	_	73	nsubj	_	TokenRange=459:466
+64	alvaro	alvaro	ADJ	ADJ	_	63	appos	_	TokenRange=467:473
+65	dias	dia	NOUN	NOUN	_	66	flat	_	TokenRange=474:478
+66	partido	partido	NOUN	NOUN	_	68	nsubj	_	TokenRange=479:486
+67	verde	verde	ADJ	ADJ	_	66	amod	_	TokenRange=487:492
+68	votar	votar	VERB	VERB	_	73	csubj	_	TokenRange=493:498
+69	favor	favor	NOUN	NOUN	_	68	obj	_	TokenRange=499:504
+70	contra	_	ADP	ADP	_	71	case	_	TokenRange=505:511
+71	pec	pec	NOUN	NOUN	_	69	nmod	_	TokenRange=512:515
+72	devera	dever	AUX	AUX	_	73	aux	_	TokenRange=516:522
+73	clicar	clicar	VERB	VERB	_	54	parataxis	_	TokenRange=523:529
+74	aqui	aqui	ADV	ADV	_	73	advmod	_	SpaceAfter=No|TokenRange=530:534
+

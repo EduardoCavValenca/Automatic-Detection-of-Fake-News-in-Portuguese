@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma temer brasil podera plebiscito realizacao eleicao presidencial walter pinheiro senador expt sugere plebiscito sobre possibilidade eleicoes presidenciais ainda neste ano plebiscito podera realizado ainda primeiro turno eleicoes municipais 2016 acordo pec tse responsavel convocacao regulamentacao plebiscito eleitor devera responder sim pergunta devem realizadas imediato novas eleicoes cargos presidente vicepresidente republica aprovado novas eleicoes presidenciais deveriam realizadas trinta dias apos proclamacao resultado plebiscito pec preve ainda mandato eleitos valeria 31 dezembro 2018
+1	dilma	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	temer	temer	NOUN	NOUN	_	1	flat	_	TokenRange=6:11
+3	brasil	brasil	NOUN	NOUN	_	1	flat	_	TokenRange=12:18
+4	podera	_	AUX	AUX	_	5	cop	_	TokenRange=19:25
+5	plebiscito	plebiscito	NOUN	NOUN	_	0	root	_	TokenRange=26:36
+6	realizacao	_	VERB	VERB	_	5	acl	_	TokenRange=37:47
+7	eleicao	eleicao	NOUN	NOUN	_	6	obj	_	TokenRange=48:55
+8	presidencial	presidencial	ADJ	ADJ	_	7	amod	_	TokenRange=56:68
+9	walter	walter	NOUN	NOUN	_	5	appos	_	TokenRange=69:75
+10	pinheiro	pinheiro	NOUN	NOUN	_	9	flat	_	TokenRange=76:84
+11	senador	senador	NOUN	NOUN	_	9	appos	_	TokenRange=85:92
+12	expt	_	NOUN	NOUN	_	11	flat	_	TokenRange=93:97
+13	sugere	sugerir	VERB	VERB	_	5	conj	_	TokenRange=98:104
+14	plebiscito	plebiscito	NOUN	NOUN	_	13	obj	_	TokenRange=105:115
+15	sobre	_	ADP	ADP	_	16	case	_	TokenRange=116:121
+16	possibilidade	possibilidade	NOUN	NOUN	_	14	nmod	_	TokenRange=122:135
+17	eleicoes	eleicoe	NOUN	NOUN	_	16	amod	_	TokenRange=136:144
+18	presidenciais	presidencial	ADJ	ADJ	_	16	amod	_	TokenRange=145:158
+19	ainda	ainda	ADV	ADV	_	21	advmod	_	TokenRange=159:164
+20	neste	_	ADP	ADP	_	21	case	_	TokenRange=165:170
+21	ano	ano	NOUN	NOUN	_	24	nmod	_	TokenRange=171:174
+22	plebiscito	plebiscito	NOUN	NOUN	_	21	amod	_	TokenRange=175:185
+23	podera	_	AUX	AUX	_	24	aux	_	TokenRange=186:192
+24	realizado	realizar	VERB	VERB	_	13	parataxis	_	TokenRange=193:202
+25	ainda	ainda	ADV	ADV	_	24	advmod	_	TokenRange=203:208
+26	primeiro	primeiro	ADJ	ADJ	_	27	amod	_	TokenRange=209:217
+27	turno	turno	NOUN	NOUN	_	24	nmod	_	TokenRange=218:223
+28	eleicoes	eleicoe	NOUN	NOUN	_	24	nsubj:pass	_	TokenRange=224:232
+29	municipais	municipal	ADJ	ADJ	_	28	amod	_	TokenRange=233:243
+30	2016	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=244:248
+31	acordo	acordo	NOUN	NOUN	_	24	nsubj:pass	_	TokenRange=249:255
+32	pec	_	NOUN	NOUN	_	31	appos	_	TokenRange=256:259
+33	tse	_	NOUN	NOUN	_	31	appos	_	TokenRange=260:263
+34	responsavel	responsavel	ADJ	ADJ	_	35	amod	_	TokenRange=264:275
+35	convocacao	_	NOUN	NOUN	_	31	appos	_	TokenRange=276:286
+36	regulamentacao	regulamentacao	ADJ	ADJ	_	35	amod	_	TokenRange=287:301
+37	plebiscito	plebiscito	ADJ	ADJ	_	35	amod	_	TokenRange=302:312
+38	eleitor	eleitor	NOUN	NOUN	_	40	nsubj	_	TokenRange=313:320
+39	devera	dever	AUX	AUX	_	40	aux	_	TokenRange=321:327
+40	responder	responder	VERB	VERB	_	24	conj	_	TokenRange=328:337
+41	sim	sim	ADV	ADV	_	40	advmod	_	TokenRange=338:341
+42	pergunta	pergunta	NOUN	NOUN	_	40	nsubj	_	TokenRange=342:350
+43	devem	_	AUX	AUX	_	44	aux	_	TokenRange=351:356
+44	realizadas	realizar	VERB	VERB	_	40	ccomp	_	TokenRange=357:367
+45	imediato	imediato	ADV	ADV	_	44	advmod	_	TokenRange=368:376
+46	novas	novo	ADJ	ADJ	_	47	amod	_	TokenRange=377:382
+47	eleicoes	eleicoe	NOUN	NOUN	_	44	nsubj	_	TokenRange=383:391
+48	cargos	cargo	NOUN	NOUN	_	47	amod	_	TokenRange=392:398
+49	presidente	presidente	NOUN	NOUN	_	47	appos	_	TokenRange=399:409
+50	vicepresidente	vicepresidente	NOUN	NOUN	_	49	flat	_	TokenRange=410:424
+51	republica	republico	ADJ	ADJ	_	49	amod	_	TokenRange=425:434
+52	aprovado	aprovar	VERB	VERB	_	54	acl	_	TokenRange=435:443
+53	novas	novo	ADJ	ADJ	_	54	amod	_	TokenRange=444:449
+54	eleicoes	eleicoe	NOUN	NOUN	_	57	nsubj:pass	_	TokenRange=450:458
+55	presidenciais	presidencial	ADJ	ADJ	_	54	amod	_	TokenRange=459:472
+56	deveriam	dever	AUX	AUX	_	57	aux	_	TokenRange=473:481
+57	realizadas	realizar	VERB	VERB	_	44	conj	_	TokenRange=482:492
+58	trinta	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=493:499
+59	dias	dia	NOUN	NOUN	_	57	nmod	_	TokenRange=500:504
+60	apos	_	ADP	ADP	_	62	case	_	TokenRange=505:509
+61	proclamacao	proclamacao	ADJ	ADJ	_	62	amod	_	TokenRange=510:521
+62	resultado	resultado	NOUN	NOUN	_	57	nmod	_	TokenRange=522:531
+63	plebiscito	plebiscito	ADJ	ADJ	_	62	amod	_	TokenRange=532:542
+64	pec	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=543:546
+65	preve	prever	VERB	VERB	_	40	parataxis	_	TokenRange=547:552
+66	ainda	ainda	ADV	ADV	_	65	advmod	_	TokenRange=553:558
+67	mandato	mandato	NOUN	NOUN	_	65	obj	_	TokenRange=559:566
+68	eleitos	eleito	NOUN	NOUN	_	67	amod	_	TokenRange=567:574
+69	valeria	valeria	VERB	NOUN	_	65	nmod	_	TokenRange=575:582
+70	31	_	NUM	NUM	NumType=Card	69	nmod	_	TokenRange=583:585
+71	dezembro	_	PROPN	PNOUN	_	69	nmod	_	TokenRange=586:594
+72	2018	_	NUM	NUM	NumType=Card	71	nmod	_	SpaceAfter=No|TokenRange=595:599
+

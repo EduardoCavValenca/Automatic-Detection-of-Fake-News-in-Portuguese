@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = destaque filme vida johnny massaro protagonista nova novela deus salve rei ator ator ator teatro tv cinema quero ator diz jovem meninote fez sucesso novela floribella cresceu hoje 25 anos johnny massaro lembra carinho epoca estreou tv 2005 trama teen band orgulha caminho percorreu carreira la agora trajetoria construida passo passo atropelos
+1	destaque	destaque	NOUN	NOUN	_	20	nsubj	_	TokenRange=0:8
+2	filme	filme	NOUN	NOUN	_	1	amod	_	TokenRange=9:14
+3	vida	vida	NOUN	NOUN	_	1	appos	_	TokenRange=15:19
+4	johnny	johnny	NOUN	NOUN	_	1	appos	_	TokenRange=20:26
+5	massaro	massaro	NOUN	NOUN	_	4	flat	_	TokenRange=27:34
+6	protagonista	protagonista	NOUN	NOUN	_	4	appos	_	TokenRange=35:47
+7	nova	novo	ADJ	ADJ	_	8	amod	_	TokenRange=48:52
+8	novela	novela	NOUN	NOUN	_	4	appos	_	TokenRange=53:59
+9	deus	_	NOUN	NOUN	_	11	appos	_	TokenRange=60:64
+10	salve	_	AUX	AUX	_	11	cop	_	TokenRange=65:70
+11	rei	rei	NOUN	NOUN	_	1	appos	_	TokenRange=71:74
+12	ator	ator	NOUN	NOUN	_	11	appos	_	TokenRange=75:79
+13	ator	ator	NOUN	NOUN	_	11	appos	_	TokenRange=80:84
+14	ator	ator	NOUN	NOUN	_	11	appos	_	TokenRange=85:89
+15	teatro	teatro	NOUN	NOUN	_	11	appos	_	TokenRange=90:96
+16	tv	_	NOUN	NOUN	_	17	det	_	TokenRange=97:99
+17	cinema	cinema	NOUN	NOUN	_	15	appos	_	TokenRange=100:106
+18	quero	querer	VERB	VERB	_	20	parataxis	_	TokenRange=107:112
+19	ator	ator	NOUN	NOUN	_	18	obj	_	TokenRange=113:117
+20	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=118:121
+21	jovem	jovem	ADJ	ADJ	_	22	amod	_	TokenRange=122:127
+22	meninote	meninote	NOUN	NOUN	_	20	nsubj	_	TokenRange=128:136
+23	fez	fazer	VERB	VERB	_	20	parataxis	_	TokenRange=137:140
+24	sucesso	sucesso	NOUN	NOUN	_	23	obj	_	TokenRange=141:148
+25	novela	novela	NOUN	NOUN	_	24	appos	_	TokenRange=149:155
+26	floribella	_	NOUN	NOUN	_	25	appos	_	TokenRange=156:166
+27	cresceu	crescer	VERB	VERB	_	20	parataxis	_	TokenRange=167:174
+28	hoje	hoje	ADV	ADV	_	27	advmod	_	TokenRange=175:179
+29	25	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=180:182
+30	anos	ano	NOUN	NOUN	_	27	nsubj	_	TokenRange=183:187
+31	johnny	johnny	NOUN	NOUN	_	33	nsubj	_	TokenRange=188:194
+32	massaro	massaro	NOUN	NOUN	_	31	flat	_	TokenRange=195:202
+33	lembra	lembrar	VERB	VERB	_	27	parataxis	_	TokenRange=203:209
+34	carinho	carinho	NOUN	NOUN	_	33	obj	_	TokenRange=210:217
+35	epoca	epoca	NOUN	NOUN	_	36	nsubj	_	TokenRange=218:223
+36	estreou	estrear	VERB	VERB	_	33	parataxis	_	TokenRange=224:231
+37	tv	_	ADP	ADP	_	36	nmod	_	TokenRange=232:234
+38	2005	_	NUM	NUM	NumType=Card	36	nmod	_	TokenRange=235:239
+39	trama	trama	NOUN	NOUN	_	36	nsubj	_	TokenRange=240:245
+40	teen	_	NOUN	NOUN	_	41	amod	_	TokenRange=246:250
+41	band	_	NOUN	NOUN	_	39	appos	_	TokenRange=251:255
+42	orgulha	orgulha	NOUN	NOUN	_	41	flat	_	TokenRange=256:263
+43	caminho	caminho	NOUN	NOUN	_	40	flat	_	TokenRange=264:271
+44	percorreu	percorrer	VERB	VERB	_	36	parataxis	_	TokenRange=272:281
+45	carreira	_	NOUN	NOUN	_	44	obj	_	TokenRange=282:290
+46	la	_	PRON	PRON	_	48	det	_	TokenRange=291:293
+47	agora	agora	ADV	ADV	_	44	advmod	_	TokenRange=294:299
+48	trajetoria	trajetoria	NOUN	NOUN	_	44	obj	_	TokenRange=300:310
+49	construida	construir	VERB	VERB	_	48	acl	_	TokenRange=311:321
+50	passo	passo	NOUN	NOUN	_	48	appos	_	TokenRange=322:327
+51	passo	passo	NOUN	NOUN	_	50	flat	_	TokenRange=328:333
+52	atropelos	atropelo	NOUN	NOUN	_	50	flat	_	SpaceAfter=No|TokenRange=334:343
+

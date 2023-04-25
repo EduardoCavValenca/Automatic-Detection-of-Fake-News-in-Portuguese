@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dialogo empresario joesley batista grupo jbs senador aecio neves psdbmg afirmou presidente michel temer amarela conversa ocorrido dia 24 marco hotel paulo transcrito decisao ministro edson fachin supremo tribunal federal stf autorizou nesta quintafeira 18 deflagracao operacao patmos desdobramento
+1	dialogo	dialogo	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:7
+2	empresario	empresario	NOUN	NOUN	_	1	appos	_	TokenRange=8:18
+3	joesley	_	NOUN	NOUN	_	1	appos	_	TokenRange=19:26
+4	batista	batista	ADJ	ADJ	_	5	amod	_	TokenRange=27:34
+5	grupo	grupo	NOUN	NOUN	_	1	appos	_	TokenRange=35:40
+6	jbs	_	ADJ	NOUN	_	5	appos	_	TokenRange=41:44
+7	senador	senador	NOUN	NOUN	_	1	appos	_	TokenRange=45:52
+8	aecio	_	NOUN	NOUN	_	7	appos	_	TokenRange=53:58
+9	neves	_	ADJ	ADJ	_	8	flat	_	TokenRange=59:64
+10	psdbmg	_	PROPN	PNOUN	_	7	appos	_	TokenRange=65:71
+11	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=72:79
+12	presidente	presidente	NOUN	NOUN	_	11	obj	_	TokenRange=80:90
+13	michel	michel	ADJ	ADJ	_	12	amod	_	TokenRange=91:97
+14	temer	temer	NOUN	NOUN	_	12	amod	_	TokenRange=98:103
+15	amarela	amarelo	ADJ	ADJ	_	16	amod	_	TokenRange=104:111
+16	conversa	_	NOUN	NOUN	_	12	appos	_	TokenRange=112:120
+17	ocorrido	ocorrer	VERB	VERB	_	16	acl	_	TokenRange=121:129
+18	dia	dia	NOUN	NOUN	_	17	nmod	_	TokenRange=130:133
+19	24	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=134:136
+20	marco	marco	NOUN	NOUN	_	18	nmod	_	TokenRange=137:142
+21	hotel	hotel	NOUN	NOUN	_	18	appos	_	TokenRange=143:148
+22	paulo	paulo	NOUN	NOUN	_	21	flat	_	TokenRange=149:154
+23	transcrito	transcrito	ADJ	ADJ	_	21	amod	_	TokenRange=155:165
+24	decisao	decisao	NOUN	NOUN	_	21	appos	_	TokenRange=166:173
+25	ministro	ministro	NOUN	NOUN	_	24	flat	_	TokenRange=174:182
+26	edson	_	NOUN	NOUN	_	25	appos	_	TokenRange=183:188
+27	fachin	_	NOUN	NOUN	_	26	flat	_	TokenRange=189:195
+28	supremo	supremo	ADJ	ADJ	_	29	amod	_	TokenRange=196:203
+29	tribunal	tribunal	NOUN	NOUN	_	25	appos	_	TokenRange=204:212
+30	federal	federal	ADJ	ADJ	_	29	amod	_	TokenRange=213:220
+31	stf	_	PROPN	PNOUN	_	29	appos	_	TokenRange=221:224
+32	autorizou	autorizar	VERB	VERB	_	11	parataxis	_	TokenRange=225:234
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=235:240
+34	quintafeira	quintafeira	NOUN	NOUN	_	32	nmod	_	TokenRange=241:252
+35	18	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=253:255
+36	deflagracao	deflagracao	NOUN	NOUN	_	32	obj	_	TokenRange=256:267
+37	operacao	operacao	NOUN	NOUN	_	32	obj	_	TokenRange=268:276
+38	patmos	_	NOUN	NOUN	_	37	flat	_	TokenRange=277:283
+39	desdobramento	desdobramento	NOUN	NOUN	_	37	flat	_	SpaceAfter=No|TokenRange=284:297
+

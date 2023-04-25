@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan calheiros rebate jornalista publicou nota recebeu ilegalmente durante 6 anos renan calheiros divulgou resposta rebater noticia publicada jornalista claudio humberto delator preso pedro correa alem desesperado desmemoriado fez campanha recursos falecido paulo cesar farias colunista claudio humberto ainda vivo carlinhos cachoeira conforme informacao propria cpi congresso colunista recebeu ilegalmente durante 6 anos outros governo estado alagoas atenciosamente
+1	renan	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	calheiros	calheiro	NOUN	NOUN	_	1	flat	_	TokenRange=6:15
+3	rebate	rebate	NOUN	NOUN	_	1	appos	_	TokenRange=16:22
+4	jornalista	jornalista	NOUN	NOUN	_	1	flat	_	TokenRange=23:33
+5	publicou	publicar	VERB	VERB	_	0	root	_	TokenRange=34:42
+6	nota	nota	NOUN	NOUN	_	5	obj	_	TokenRange=43:47
+7	recebeu	receber	VERB	VERB	_	5	ccomp	_	TokenRange=48:55
+8	ilegalmente	ilegalmente	ADV	ADV	_	7	advmod	_	TokenRange=56:67
+9	durante	_	ADP	ADP	_	11	case	_	TokenRange=68:75
+10	6	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=76:77
+11	anos	ano	NOUN	NOUN	_	7	nmod	_	TokenRange=78:82
+12	renan	renan	NOUN	NOUN	_	14	nsubj	_	TokenRange=83:88
+13	calheiros	calheiro	NOUN	NOUN	_	14	nsubj	_	TokenRange=89:98
+14	divulgou	divulgar	VERB	VERB	_	5	conj	_	TokenRange=99:107
+15	resposta	resposta	NOUN	NOUN	_	14	obj	_	TokenRange=108:116
+16	rebater	rebater	NOUN	NOUN	_	15	amod	_	TokenRange=117:124
+17	noticia	noticia	NOUN	NOUN	_	15	appos	_	TokenRange=125:132
+18	publicada	publicar	VERB	ADJ	_	17	acl	_	TokenRange=133:142
+19	jornalista	jornalista	NOUN	NOUN	_	17	appos	_	TokenRange=143:153
+20	claudio	claudio	NOUN	NOUN	_	19	appos	_	TokenRange=154:161
+21	humberto	humberto	NOUN	NOUN	_	20	flat	_	TokenRange=162:170
+22	delator	delator	NOUN	NOUN	_	20	flat	_	TokenRange=171:178
+23	preso	_	ADJ	ADJ	_	19	amod	_	TokenRange=179:184
+24	pedro	pedro	NOUN	NOUN	_	19	appos	_	TokenRange=185:190
+25	correa	correa	NOUN	NOUN	_	24	flat	_	TokenRange=191:197
+26	alem	alem	NOUN	NOUN	_	24	advmod	_	TokenRange=198:202
+27	desesperado	desesperado	ADJ	ADJ	_	24	amod	_	TokenRange=203:214
+28	desmemoriado	_	ADJ	ADJ	_	26	amod	_	TokenRange=215:227
+29	fez	fazer	VERB	VERB	_	5	parataxis	_	TokenRange=228:231
+30	campanha	campanha	NOUN	NOUN	_	29	obj	_	TokenRange=232:240
+31	recursos	recurso	NOUN	NOUN	_	30	appos	_	TokenRange=241:249
+32	falecido	falecido	ADJ	ADJ	_	30	amod	_	TokenRange=250:258
+33	paulo	_	NOUN	NOUN	_	30	appos	_	TokenRange=259:264
+34	cesar	cesar	NOUN	NOUN	_	33	flat	_	TokenRange=265:270
+35	farias	faria	NOUN	NOUN	_	33	flat	_	TokenRange=271:277
+36	colunista	colunista	ADJ	ADJ	_	30	amod	_	TokenRange=278:287
+37	claudio	claudio	NOUN	NOUN	_	30	appos	_	TokenRange=288:295
+38	humberto	humberto	NOUN	NOUN	_	37	flat	_	TokenRange=296:304
+39	ainda	ainda	ADV	ADV	_	40	advmod	_	TokenRange=305:310
+40	vivo	vivo	ADJ	ADJ	_	37	amod	_	TokenRange=311:315
+41	carlinhos	_	NOUN	NOUN	_	29	obj	_	TokenRange=316:325
+42	cachoeira	cachoeira	NOUN	NOUN	_	41	flat	_	TokenRange=326:335
+43	conforme	_	ADP	ADP	_	44	case	_	TokenRange=336:344
+44	informacao	informacao	NOUN	NOUN	_	49	nmod	_	TokenRange=345:355
+45	propria	proprio	ADJ	ADJ	_	44	amod	_	TokenRange=356:363
+46	cpi	_	ADP	DET	_	47	case	_	TokenRange=364:367
+47	congresso	congresso	NOUN	NOUN	_	49	nsubj	_	TokenRange=368:377
+48	colunista	colunista	ADJ	ADJ	_	47	amod	_	TokenRange=378:387
+49	recebeu	receber	VERB	VERB	_	5	parataxis	_	TokenRange=388:395
+50	ilegalmente	ilegalmente	ADV	ADV	_	49	advmod	_	TokenRange=396:407
+51	durante	_	ADP	ADP	_	53	case	_	TokenRange=408:415
+52	6	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=416:417
+53	anos	ano	NOUN	NOUN	_	49	nmod	_	TokenRange=418:422
+54	outros	_	DET	DET	_	55	det	_	TokenRange=423:429
+55	governo	governo	NOUN	NOUN	_	49	obj	_	TokenRange=430:437
+56	estado	estado	NOUN	NOUN	_	49	nmod	_	TokenRange=438:444
+57	alagoas	alagoa	ADJ	ADJ	_	56	amod	_	TokenRange=445:452
+58	atenciosamente	atenciosamente	ADV	ADV	_	49	advmod	_	SpaceAfter=No|TokenRange=453:467
+

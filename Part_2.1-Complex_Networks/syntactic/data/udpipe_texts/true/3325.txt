@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estudo mangueira 6 arvores salas aula 400 mil criancas mocambique falta cronica salas aula carteiras faz criancas estudarem embaixo arvores sentadas chao chove aulas pequeno arvoredo escola primaria samora machel mocambique formado cajueiros mangueiras mafurreiras arvores tipicas sul africa acacias ali dar frutas flores servir espaco brincadeiras recostados troncos quadrosnegros sob copas chao areia sentadas cerca mil criancas camisas azulclaro calcas azulescuro uniforme escolar salasarvore salassombra veja video aqui terceira classe funciona debaixo dessa arvore linda fim vai dar fruta gostosa serve sala afirma
+1	estudo	estudo	NOUN	NOUN	_	67	parataxis	_	TokenRange=0:6
+2	mangueira	mangueira	NOUN	NOUN	_	1	flat	_	TokenRange=7:16
+3	6	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=17:18
+4	arvores	arvor	NOUN	NOUN	_	1	appos	_	TokenRange=19:26
+5	salas	sala	NOUN	NOUN	_	1	appos	_	TokenRange=27:32
+6	aula	aula	NOUN	NOUN	_	1	appos	_	TokenRange=33:37
+7	400	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=38:41
+8	mil	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=42:45
+9	criancas	crianca	NOUN	NOUN	_	6	appos	_	TokenRange=46:54
+10	mocambique	_	NOUN	NOUN	_	11	case	_	TokenRange=55:65
+11	falta	_	NOUN	NOUN	_	1	appos	_	TokenRange=66:71
+12	cronica	cronico	ADJ	ADJ	_	11	amod	_	TokenRange=72:79
+13	salas	sala	NOUN	NOUN	_	14	appos	_	TokenRange=80:85
+14	aula	aula	NOUN	NOUN	_	1	appos	_	TokenRange=86:90
+15	carteiras	_	NOUN	NOUN	_	14	obj	_	TokenRange=91:100
+16	faz	fazer	VERB	VERB	_	1	acl:relcl	_	TokenRange=101:104
+17	criancas	crianca	NOUN	NOUN	_	16	obj	_	TokenRange=105:113
+18	estudarem	estudar	VERB	VERB	_	16	ccomp	_	TokenRange=114:123
+19	embaixo	embaixo	ADV	ADV	_	18	advmod	_	TokenRange=124:131
+20	arvores	arvor	NOUN	NOUN	_	18	obj	_	TokenRange=132:139
+21	sentadas	sentado	ADJ	ADJ	_	20	amod	_	TokenRange=140:148
+22	chao	chao	NOUN	NOUN	_	20	appos	_	TokenRange=149:153
+23	chove	_	NOUN	NOUN	_	20	flat	_	TokenRange=154:159
+24	aulas	aula	NOUN	NOUN	_	20	appos	_	TokenRange=160:165
+25	pequeno	pequeno	ADJ	ADJ	_	26	amod	_	TokenRange=166:173
+26	arvoredo	arvoredo	NOUN	NOUN	_	24	appos	_	TokenRange=174:182
+27	escola	escola	NOUN	NOUN	_	26	appos	_	TokenRange=183:189
+28	primaria	primaria	ADJ	ADJ	_	27	amod	_	TokenRange=190:198
+29	samora	samora	NOUN	NOUN	_	27	appos	_	TokenRange=199:205
+30	machel	_	NOUN	NOUN	_	27	flat	_	TokenRange=206:212
+31	mocambique	_	NOUN	NOUN	_	29	flat	_	TokenRange=213:223
+32	formado	formar	VERB	VERB	_	33	acl	_	TokenRange=224:231
+33	cajueiros	cajueiro	NOUN	NOUN	_	29	appos	_	TokenRange=232:241
+34	mangueiras	mangueira	NOUN	NOUN	_	33	appos	_	TokenRange=242:252
+35	mafurreiras	_	ADJ	ADJ	_	36	amod	_	TokenRange=253:264
+36	arvores	arvor	NOUN	NOUN	_	33	appos	_	TokenRange=265:272
+37	tipicas	tipico	ADJ	ADJ	_	36	amod	_	TokenRange=273:280
+38	sul	sul	ADJ	ADJ	_	39	amod	_	TokenRange=281:284
+39	africa	africo	ADJ	ADJ	_	36	amod	_	TokenRange=285:291
+40	acacias	acacia	NOUN	NOUN	_	42	obj	_	TokenRange=292:299
+41	ali	ali	ADV	ADV	_	42	advmod	_	TokenRange=300:303
+42	dar	dar	VERB	VERB	_	33	acl:relcl	_	TokenRange=304:307
+43	frutas	fruta	NOUN	NOUN	_	42	obj	_	TokenRange=308:314
+44	flores	flor	NOUN	NOUN	_	43	amod	_	TokenRange=315:321
+45	servir	servir	VERB	VERB	_	40	acl:inf	_	TokenRange=322:328
+46	espaco	espaco	NOUN	NOUN	_	45	obj	_	TokenRange=329:335
+47	brincadeiras	brincadeira	NOUN	NOUN	_	43	appos	_	TokenRange=336:348
+48	recostados	recostar	VERB	VERB	_	43	acl	_	TokenRange=349:359
+49	troncos	tronco	NOUN	NOUN	_	45	obj	_	TokenRange=360:367
+50	quadrosnegros	_	NOUN	NOUN	_	45	obj	_	TokenRange=368:381
+51	sob	_	ADP	ADP	_	52	case	_	TokenRange=382:385
+52	copas	copa	NOUN	NOUN	_	50	nmod	_	TokenRange=386:391
+53	chao	_	NOUN	NOUN	_	52	appos	_	TokenRange=392:396
+54	areia	areia	NOUN	NOUN	_	53	flat	_	TokenRange=397:402
+55	sentadas	sentado	ADJ	ADJ	_	59	amod	_	TokenRange=403:411
+56	cerca	cerca	ADV	ADV	_	57	advmod	_	TokenRange=412:417
+57	mil	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=418:421
+58	criancas	crianca	NOUN	NOUN	_	53	appos	_	TokenRange=422:430
+59	camisas	camisa	NOUN	NOUN	_	58	appos	_	TokenRange=431:438
+60	azulclaro	_	ADJ	ADJ	_	59	amod	_	TokenRange=439:448
+61	calcas	_	NOUN	NOUN	_	59	appos	_	TokenRange=449:455
+62	azulescuro	azulescuro	ADJ	ADJ	_	61	amod	_	TokenRange=456:466
+63	uniforme	uniforme	NOUN	NOUN	_	59	appos	_	TokenRange=467:475
+64	escolar	escolar	ADJ	ADJ	_	63	amod	_	TokenRange=476:483
+65	salasarvore	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=484:495
+66	salassombra	_	NOUN	NOUN	_	65	flat	_	TokenRange=496:507
+67	veja	ver	VERB	VERB	_	0	root	_	TokenRange=508:512
+68	video	video	NOUN	NOUN	_	67	obj	_	TokenRange=513:518
+69	aqui	aqui	ADV	ADV	_	72	advmod	_	TokenRange=519:523
+70	terceira	_	ADJ	ADJ	_	71	amod	_	TokenRange=524:532
+71	classe	classe	NOUN	NOUN	_	72	nsubj	_	TokenRange=533:539
+72	funciona	funcionar	VERB	VERB	_	68	acl:relcl	_	TokenRange=540:548
+73	debaixo	debaixo	ADV	ADV	_	72	advmod	_	TokenRange=549:556
+74	dessa	_	ADP	ADP	_	75	case	_	TokenRange=557:562
+75	arvore	arvore	NOUN	NOUN	_	73	nmod	_	TokenRange=563:569
+76	linda	lindo	ADJ	ADJ	_	75	amod	_	TokenRange=570:575
+77	fim	fim	NOUN	NOUN	_	79	nsubj	_	TokenRange=576:579
+78	vai	ir	AUX	AUX	_	79	aux	_	TokenRange=580:583
+79	dar	dar	VERB	VERB	_	72	conj	_	TokenRange=584:587
+80	fruta	fruta	NOUN	NOUN	_	79	obj	_	TokenRange=588:593
+81	gostosa	gostoso	ADJ	ADJ	_	80	amod	_	TokenRange=594:601
+82	serve	servir	VERB	VERB	_	67	parataxis	_	TokenRange=602:607
+83	sala	sala	NOUN	NOUN	_	82	obj	_	TokenRange=608:612
+84	afirma	afirmar	VERB	VERB	_	82	parataxis	_	SpaceAfter=No|TokenRange=613:619
+

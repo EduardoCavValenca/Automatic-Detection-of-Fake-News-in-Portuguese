@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministerio publico pede bloqueio r 24 milhoes expresidente lula filho luis claudio pedido refere acao dentro operacao zelotes lula filho reus defesa expresidente diz base juridica pedido bloqueio ministerio publico federal brasilia pediu justica bloqueio r 24 milhoes bens valores expresidente luiz inacio lula silva filho cacula luis claudio valor bloqueio solicitado pra lula r 214 milhoes filho luis claudio
+1	ministerio	ministerio	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	publico	publico	ADJ	ADJ	_	1	amod	_	TokenRange=11:18
+3	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=19:23
+4	bloqueio	bloqueio	NOUN	NOUN	_	3	obj	_	TokenRange=24:32
+5	r	r	NOUN	NOUN	_	8	flat	_	TokenRange=33:34
+6	24	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=35:37
+7	milhoes	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=38:45
+8	expresidente	expresidente	NOUN	NOUN	_	4	appos	_	TokenRange=46:58
+9	lula	lula	NOUN	NOUN	_	8	appos	_	TokenRange=59:63
+10	filho	filho	NOUN	NOUN	_	8	appos	_	TokenRange=64:69
+11	luis	_	NOUN	NOUN	_	8	appos	_	TokenRange=70:74
+12	claudio	claudio	ADJ	ADJ	_	11	flat	_	TokenRange=75:82
+13	pedido	pedido	NOUN	NOUN	_	14	appos	_	TokenRange=83:89
+14	refere	referir	NOUN	NOUN	_	3	parataxis	_	TokenRange=90:96
+15	acao	acao	NOUN	NOUN	_	14	flat	_	TokenRange=97:101
+16	dentro	dentro	ADV	ADV	_	14	advmod	_	TokenRange=102:108
+17	operacao	operacao	NOUN	NOUN	_	18	appos	_	TokenRange=109:117
+18	zelotes	zelote	NOUN	NOUN	_	14	appos	_	TokenRange=118:125
+19	lula	_	NOUN	NOUN	_	18	appos	_	TokenRange=126:130
+20	filho	filho	NOUN	NOUN	_	19	flat	_	TokenRange=131:136
+21	reus	reu	ADJ	ADJ	_	22	amod	_	TokenRange=137:141
+22	defesa	_	NOUN	NOUN	_	19	appos	_	TokenRange=142:148
+23	expresidente	expresidente	NOUN	NOUN	_	22	amod	_	TokenRange=149:161
+24	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=162:165
+25	base	base	NOUN	NOUN	_	24	obj	_	TokenRange=166:170
+26	juridica	juridico	ADJ	ADJ	_	25	amod	_	TokenRange=171:179
+27	pedido	pedido	NOUN	NOUN	_	24	parataxis	_	TokenRange=180:186
+28	bloqueio	bloqueio	NOUN	NOUN	_	24	nsubj	_	TokenRange=187:195
+29	ministerio	ministerio	NOUN	NOUN	_	28	appos	_	TokenRange=196:206
+30	publico	publico	ADJ	ADJ	_	29	amod	_	TokenRange=207:214
+31	federal	federal	ADJ	ADJ	_	29	amod	_	TokenRange=215:222
+32	brasilia	brasilia	ADJ	ADJ	_	29	amod	_	TokenRange=223:231
+33	pediu	pedir	VERB	VERB	_	3	parataxis	_	TokenRange=232:237
+34	justica	_	NOUN	NOUN	_	33	obj	_	TokenRange=238:245
+35	bloqueio	bloqueio	NOUN	NOUN	_	33	obj	_	TokenRange=246:254
+36	r	r	NOUN	NOUN	_	39	flat	_	TokenRange=255:256
+37	24	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=257:259
+38	milhoes	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=260:267
+39	bens	bem	NOUN	NOUN	_	35	appos	_	TokenRange=268:272
+40	valores	_	NOUN	NOUN	_	39	amod	_	TokenRange=273:280
+41	expresidente	expresidente	NOUN	NOUN	_	39	appos	_	TokenRange=281:293
+42	luiz	luiz	ADJ	NOUN	_	39	appos	_	TokenRange=294:298
+43	inacio	_	NOUN	NOUN	_	42	flat	_	TokenRange=299:305
+44	lula	_	NOUN	NOUN	_	42	flat	_	TokenRange=306:310
+45	silva	silva	NOUN	NOUN	_	42	flat	_	TokenRange=311:316
+46	filho	filho	ADJ	ADJ	_	42	amod	_	TokenRange=317:322
+47	cacula	cacular	VERB	VERB	_	33	parataxis	_	TokenRange=323:329
+48	luis	_	NOUN	NOUN	_	47	obj	_	TokenRange=330:334
+49	claudio	claudio	ADJ	ADJ	_	48	flat	_	TokenRange=335:342
+50	valor	valor	NOUN	NOUN	_	47	obj	_	TokenRange=343:348
+51	bloqueio	bloqueio	NOUN	NOUN	_	47	obj	_	TokenRange=349:357
+52	solicitado	solicitar	VERB	VERB	_	51	acl	_	TokenRange=358:368
+53	pra	_	ADP	ADP	_	54	case	_	TokenRange=369:372
+54	lula	_	NOUN	NOUN	_	52	nmod	_	TokenRange=373:377
+55	r	r	NOUN	NOUN	_	58	case	_	TokenRange=378:379
+56	214	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=380:383
+57	milhoes	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=384:391
+58	filho	filho	NOUN	NOUN	_	52	nmod	_	TokenRange=392:397
+59	luis	_	NOUN	NOUN	_	58	appos	_	TokenRange=398:402
+60	claudio	claudio	NOUN	NOUN	_	59	flat	_	SpaceAfter=No|TokenRange=403:410
+

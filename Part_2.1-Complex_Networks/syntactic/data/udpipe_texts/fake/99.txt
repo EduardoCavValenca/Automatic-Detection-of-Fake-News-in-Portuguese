@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caiu mascara prof villa jovem pan video mostra professor marco antonio villa comentarista jovem pan verdadeiro farsante debate bolsonaro farsa precisa revelada estudio jornal manha recebeu nesta tercafeira 23 deputado jair bolsonaro pscrj debate jornalista marco antonio villa sobre situacao pais inves debater professor desfilou argumentos farsantes cairam terra apos divulgacao deste video
+1	caiu	cair	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	mascara	mascar	NOUN	NOUN	_	1	obj	_	TokenRange=5:12
+3	prof	_	NOUN	NOUN	_	2	appos	_	TokenRange=13:17
+4	villa	_	NOUN	NOUN	_	3	flat	_	TokenRange=18:23
+5	jovem	jovem	NOUN	NOUN	_	2	amod	_	TokenRange=24:29
+6	pan	_	NOUN	NOUN	_	3	flat	_	TokenRange=30:33
+7	video	video	NOUN	NOUN	_	8	nsubj	_	TokenRange=34:39
+8	mostra	mostrar	VERB	VERB	_	1	parataxis	_	TokenRange=40:46
+9	professor	professor	NOUN	NOUN	_	8	obj	_	TokenRange=47:56
+10	marco	marco	NOUN	NOUN	_	9	appos	_	TokenRange=57:62
+11	antonio	antonio	NOUN	NOUN	_	10	flat	_	TokenRange=63:70
+12	villa	_	NOUN	NOUN	_	10	flat	_	TokenRange=71:76
+13	comentarista	comentarista	NOUN	NOUN	_	9	appos	_	TokenRange=77:89
+14	jovem	jovem	ADJ	ADJ	_	9	amod	_	TokenRange=90:95
+15	pan	_	NOUN	NOUN	_	13	appos	_	TokenRange=96:99
+16	verdadeiro	verdadeiro	ADJ	ADJ	_	17	amod	_	TokenRange=100:110
+17	farsante	farsante	NOUN	NOUN	_	13	appos	_	TokenRange=111:119
+18	debate	debate	NOUN	NOUN	_	17	appos	_	TokenRange=120:126
+19	bolsonaro	bolsonaro	ADJ	ADJ	_	20	amod	_	TokenRange=127:136
+20	farsa	farsa	NOUN	NOUN	_	18	appos	_	TokenRange=137:142
+21	precisa	preciso	ADJ	ADJ	_	20	amod	_	TokenRange=143:150
+22	revelada	revelar	VERB	VERB	_	23	acl	_	TokenRange=151:159
+23	estudio	estudio	NOUN	NOUN	_	26	nsubj	_	TokenRange=160:167
+24	jornal	jornal	NOUN	NOUN	_	23	appos	_	TokenRange=168:174
+25	manha	manha	NOUN	NOUN	_	23	appos	_	TokenRange=175:180
+26	recebeu	receber	VERB	VERB	_	1	parataxis	_	TokenRange=181:188
+27	nesta	_	ADP	ADP	_	28	case	_	TokenRange=189:194
+28	tercafeira	_	NOUN	NOUN	_	26	nmod	_	TokenRange=195:205
+29	23	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=206:208
+30	deputado	deputado	NOUN	NOUN	_	26	obj	_	TokenRange=209:217
+31	jair	jair	NOUN	NOUN	_	30	appos	_	TokenRange=218:222
+32	bolsonaro	bolsonaro	ADJ	ADJ	_	30	amod	_	TokenRange=223:232
+33	pscrj	_	NOUN	NOUN	_	30	appos	_	TokenRange=233:238
+34	debate	debate	NOUN	NOUN	_	26	nsubj	_	TokenRange=239:245
+35	jornalista	jornalista	NOUN	NOUN	_	34	appos	_	TokenRange=246:256
+36	marco	marco	NOUN	NOUN	_	34	appos	_	TokenRange=257:262
+37	antonio	_	PROPN	NOUN	_	36	flat	_	TokenRange=263:270
+38	villa	_	NOUN	NOUN	_	36	flat	_	TokenRange=271:276
+39	sobre	_	ADP	ADP	_	40	case	_	TokenRange=277:282
+40	situacao	situacao	NOUN	NOUN	_	34	nmod	_	TokenRange=283:291
+41	pais	_	NOUN	NOUN	_	40	appos	_	TokenRange=292:296
+42	inves	_	ADJ	ADJ	_	41	amod	_	TokenRange=297:302
+43	debater	debater	VERB	VERB	_	40	acl:relcl	_	TokenRange=303:310
+44	professor	professor	NOUN	NOUN	_	43	obj	_	TokenRange=311:320
+45	desfilou	desfilar	VERB	VERB	_	1	conj	_	TokenRange=321:329
+46	argumentos	argumento	NOUN	NOUN	_	45	obj	_	TokenRange=330:340
+47	farsantes	farsante	NOUN	NOUN	_	46	amod	_	TokenRange=341:350
+48	cairam	cair	VERB	VERB	_	1	parataxis	_	TokenRange=351:357
+49	terra	terra	NOUN	NOUN	_	48	obj	_	TokenRange=358:363
+50	apos	_	ADP	ADP	_	51	case	_	TokenRange=364:368
+51	divulgacao	divulgacao	NOUN	NOUN	_	48	nmod	_	TokenRange=369:379
+52	deste	_	ADP	ADP	_	53	case	_	TokenRange=380:385
+53	video	video	NOUN	NOUN	_	51	nmod	_	SpaceAfter=No|TokenRange=386:391
+

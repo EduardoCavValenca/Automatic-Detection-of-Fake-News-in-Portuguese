@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = coreia norte divulga video simulando ataque casa branca lider nortecoreano kim jonun demonstrado verdadeira obsessao eua midia oficial coreia norte kcna divulgou hoje 27 video simulando ataques foguetes casa branca portaavioes americano filme mostra missil descendo direto washington apos explosao surge imensa bola fogo outra simulacao coreia mostra navio guerra eua sendo alvo misseis balistico
+1	coreia	coreia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	norte	norte	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	divulga	divulgar	VERB	VERB	_	0	root	_	TokenRange=13:20
+4	video	video	NOUN	NOUN	_	3	obj	_	TokenRange=21:26
+5	simulando	simular	VERB	VERB	_	4	acl	_	TokenRange=27:36
+6	ataque	ataque	NOUN	NOUN	_	5	obj	_	TokenRange=37:43
+7	casa	casa	NOUN	NOUN	_	6	amod	_	TokenRange=44:48
+8	branca	branco	ADJ	ADJ	_	6	amod	_	TokenRange=49:55
+9	lider	lider	NOUN	NOUN	_	3	nsubj	_	TokenRange=56:61
+10	nortecoreano	nortecoreano	ADJ	ADJ	_	9	amod	_	TokenRange=62:74
+11	kim	_	NOUN	NOUN	_	9	appos	_	TokenRange=75:78
+12	jonun	_	NOUN	NOUN	_	11	flat	_	TokenRange=79:84
+13	demonstrado	demonstrar	VERB	VERB	_	3	acl	_	TokenRange=85:96
+14	verdadeira	verdadeiro	ADJ	ADJ	_	15	amod	_	TokenRange=97:107
+15	obsessao	obsessao	NOUN	NOUN	_	13	obj	_	TokenRange=108:116
+16	eua	_	DET	DET	_	17	det	_	TokenRange=117:120
+17	midia	midia	NOUN	NOUN	_	22	nsubj	_	TokenRange=121:126
+18	oficial	oficial	ADJ	ADJ	_	17	amod	_	TokenRange=127:134
+19	coreia	coreia	NOUN	NOUN	_	17	appos	_	TokenRange=135:141
+20	norte	norte	ADJ	ADJ	_	17	amod	_	TokenRange=142:147
+21	kcna	kcna	NOUN	NOUN	_	17	appos	_	TokenRange=148:152
+22	divulgou	divulgar	VERB	VERB	_	3	parataxis	_	TokenRange=153:161
+23	hoje	hoje	ADV	ADV	_	22	advmod	_	TokenRange=162:166
+24	27	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=167:169
+25	video	video	NOUN	NOUN	_	22	obj	_	TokenRange=170:175
+26	simulando	simular	VERB	VERB	_	25	acl	_	TokenRange=176:185
+27	ataques	ataque	NOUN	NOUN	_	26	obj	_	TokenRange=186:193
+28	foguetes	foguete	ADJ	ADJ	_	27	amod	_	TokenRange=194:202
+29	casa	casa	NOUN	NOUN	_	27	appos	_	TokenRange=203:207
+30	branca	branco	ADJ	ADJ	_	29	amod	_	TokenRange=208:214
+31	portaavioes	_	NOUN	NOUN	_	27	appos	_	TokenRange=215:226
+32	americano	americano	ADJ	ADJ	_	31	amod	_	TokenRange=227:236
+33	filme	filme	NOUN	NOUN	_	34	nsubj	_	TokenRange=237:242
+34	mostra	mostrar	VERB	VERB	_	22	parataxis	_	TokenRange=243:249
+35	missil	missil	NOUN	NOUN	_	34	obj	_	TokenRange=250:256
+36	descendo	descer	VERB	VERB	_	35	acl	_	TokenRange=257:265
+37	direto	direto	ADV	ADV	_	36	advmod	_	TokenRange=266:272
+38	washington	_	NOUN	NOUN	_	36	obj	_	TokenRange=273:283
+39	apos	_	ADP	ADP	_	40	case	_	TokenRange=284:288
+40	explosao	explosao	NOUN	NOUN	_	36	nmod	_	TokenRange=289:297
+41	surge	surgir	VERB	VERB	_	36	conj	_	TokenRange=298:303
+42	imensa	imenso	ADJ	ADJ	_	43	amod	_	TokenRange=304:310
+43	bola	bola	NOUN	NOUN	_	41	nsubj	_	TokenRange=311:315
+44	fogo	fogo	NOUN	NOUN	_	43	flat	_	TokenRange=316:320
+45	outra	_	DET	DET	_	46	det	_	TokenRange=321:326
+46	simulacao	simulacao	NOUN	NOUN	_	48	nsubj	_	TokenRange=327:336
+47	coreia	coreia	NOUN	NOUN	_	46	amod	_	TokenRange=337:343
+48	mostra	mostrar	VERB	VERB	_	34	parataxis	_	TokenRange=344:350
+49	navio	navio	NOUN	NOUN	_	48	obj	_	TokenRange=351:356
+50	guerra	guerra	NOUN	NOUN	_	49	flat	_	TokenRange=357:363
+51	eua	_	PRON	PRON	_	54	nsubj	_	TokenRange=364:367
+52	sendo	ser	AUX	AUX	_	54	cop	_	TokenRange=368:373
+53	alvo	alvo	ADJ	ADJ	_	54	amod	_	TokenRange=374:378
+54	misseis	missil	NOUN	NOUN	_	49	appos	_	TokenRange=379:386
+55	balistico	balistico	ADJ	ADJ	_	54	amod	_	SpaceAfter=No|TokenRange=387:396
+

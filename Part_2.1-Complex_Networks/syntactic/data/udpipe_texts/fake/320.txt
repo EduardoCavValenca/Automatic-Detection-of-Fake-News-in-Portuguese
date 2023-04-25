@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maldito foro privilegiado cada 100 acoes chegam supremo apenas 1 resulta condenacao dados colhidos fundacao getulio vargas rj mostram 5 anos somente 6 decisoes tomadas stf prejudicaram investigados pesquisa mostrou dado impressionante menos 1 reus deputados senadores ministros condenados periodo pesquisado 2011/2016 404 acoes penais quais somente 3 resultaram condenacoes total acoes 682 prescreveram transferidas outras instancias numero inqueritos nesse periodo chegou 987 quais 57 tornaram acoes 379 prescreveram foro privilegiado banido pais continuaremos enxugando gelo
+1	maldito	maldito	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	foro	foro	NOUN	NOUN	_	7	nsubj	_	TokenRange=8:12
+3	privilegiado	privilegiado	ADJ	ADJ	_	2	amod	_	TokenRange=13:25
+4	cada	_	DET	DET	_	6	det	_	TokenRange=26:30
+5	100	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=31:34
+6	acoes	acoe	NOUN	NOUN	_	7	nsubj	_	TokenRange=35:40
+7	chegam	chegar	VERB	VERB	_	0	root	_	TokenRange=41:47
+8	supremo	supremo	ADJ	ADJ	_	7	xcomp	_	TokenRange=48:55
+9	apenas	apenas	ADV	ADV	_	10	advmod	_	TokenRange=56:62
+10	1	_	NUM	NUM	NumType=Card	19	nsubj	_	TokenRange=63:64
+11	resulta	resultar	VERB	VERB	_	7	parataxis	_	TokenRange=65:72
+12	condenacao	_	NOUN	NOUN	_	11	obj	_	TokenRange=73:83
+13	dados	dado	NOUN	NOUN	_	19	nsubj	_	TokenRange=84:89
+14	colhidos	colher	VERB	VERB	_	13	acl	_	TokenRange=90:98
+15	fundacao	fundacao	NOUN	NOUN	_	14	nsubj	_	TokenRange=99:107
+16	getulio	getulio	NOUN	NOUN	_	15	appos	_	TokenRange=108:115
+17	vargas	vargo	ADJ	ADJ	_	16	amod	_	TokenRange=116:122
+18	rj	rj	ADV	ADV	_	16	advmod	_	TokenRange=123:125
+19	mostram	mostrar	VERB	VERB	_	7	parataxis	_	TokenRange=126:133
+20	5	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=134:135
+21	anos	ano	NOUN	NOUN	_	19	obj	_	TokenRange=136:140
+22	somente	somente	ADV	ADV	_	23	advmod	_	TokenRange=141:148
+23	6	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=149:150
+24	decisoes	decisoe	NOUN	NOUN	_	19	nsubj	_	TokenRange=151:159
+25	tomadas	tomar	VERB	VERB	_	24	acl	_	TokenRange=160:167
+26	stf	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=168:171
+27	prejudicaram	prejudicar	VERB	VERB	_	19	conj	_	TokenRange=172:184
+28	investigados	investigado	ADJ	NOUN	_	27	obj	_	TokenRange=185:197
+29	pesquisa	pesquisa	NOUN	NOUN	_	27	nsubj	_	TokenRange=198:206
+30	mostrou	mostrar	VERB	VERB	_	7	conj	_	TokenRange=207:214
+31	dado	dado	NOUN	NOUN	_	30	obj	_	TokenRange=215:219
+32	impressionante	impressionante	ADJ	ADJ	_	31	amod	_	TokenRange=220:234
+33	menos	menos	ADV	ADV	_	34	advmod	_	TokenRange=235:240
+34	1	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=241:242
+35	reus	reu	NOUN	NOUN	_	30	nsubj	_	TokenRange=243:247
+36	deputados	deputado	NOUN	NOUN	_	30	nsubj	_	TokenRange=248:257
+37	senadores	senador	ADJ	ADJ	_	36	amod	_	TokenRange=258:267
+38	ministros	ministro	NOUN	NOUN	_	36	appos	_	TokenRange=268:277
+39	condenados	condenar	VERB	VERB	_	36	acl	_	TokenRange=278:288
+40	periodo	periodo	NOUN	NOUN	_	39	obj	_	TokenRange=289:296
+41	pesquisado	pesquisado	ADJ	ADJ	_	40	amod	_	TokenRange=297:307
+42	2011/2016	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=308:317
+43	404	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=318:321
+44	acoes	acoe	NOUN	NOUN	_	30	nsubj	_	TokenRange=322:327
+45	penais	penal	ADJ	ADJ	_	44	amod	_	TokenRange=328:334
+46	quais	_	PRON	PRON	_	49	nsubj	_	TokenRange=335:340
+47	somente	somente	ADV	ADV	_	48	advmod	_	TokenRange=341:348
+48	3	_	NUM	NUM	NumType=Card	49	nsubj	_	TokenRange=349:350
+49	resultaram	resultar	VERB	VERB	_	44	acl:relcl	_	TokenRange=351:361
+50	condenacoes	_	NOUN	NOUN	_	49	obj	_	TokenRange=362:373
+51	total	total	ADJ	ADJ	_	52	amod	_	TokenRange=374:379
+52	acoes	acoe	NOUN	NOUN	_	49	nsubj	_	TokenRange=380:385
+53	682	_	NUM	NUM	NumType=Card	52	appos	_	TokenRange=386:389
+54	prescreveram	prescrever	VERB	VERB	_	44	acl:relcl	_	TokenRange=390:402
+55	transferidas	transferido	ADJ	ADJ	_	54	xcomp	_	TokenRange=403:415
+56	outras	_	DET	DET	_	57	det	_	TokenRange=416:422
+57	instancias	instancia	NOUN	NOUN	_	54	nsubj	_	TokenRange=423:433
+58	numero	_	ADJ	ADJ	_	59	amod	_	TokenRange=434:440
+59	inqueritos	inquerito	NOUN	NOUN	_	62	nsubj	_	TokenRange=441:451
+60	nesse	_	ADP	ADP	_	61	case	_	TokenRange=452:457
+61	periodo	periodo	NOUN	NOUN	_	62	nmod	_	TokenRange=458:465
+62	chegou	chegar	VERB	VERB	_	44	acl:relcl	_	TokenRange=466:472
+63	987	_	NUM	NUM	NumType=Card	62	nsubj	_	TokenRange=473:476
+64	quais	_	PRON	PRON	_	66	nsubj	_	TokenRange=477:482
+65	57	_	NUM	NUM	NumType=Card	66	nsubj	_	TokenRange=483:485
+66	tornaram	tornar	VERB	VERB	_	63	acl:relcl	_	TokenRange=486:494
+67	acoes	acoe	NOUN	NOUN	_	66	obj	_	TokenRange=495:500
+68	379	_	NUM	NUM	NumType=Card	67	appos	_	TokenRange=501:504
+69	prescreveram	prescrever	VERB	VERB	_	63	acl:relcl	_	TokenRange=505:517
+70	foro	foro	NOUN	NOUN	_	69	obj	_	TokenRange=518:522
+71	privilegiado	privilegiado	ADJ	ADJ	_	70	amod	_	TokenRange=523:535
+72	banido	banido	VERB	ADJ	_	70	acl	_	TokenRange=536:542
+73	pais	_	NOUN	NOUN	_	75	nsubj	_	TokenRange=543:547
+74	continuaremos	continuar	AUX	AUX	_	75	aux	_	TokenRange=548:561
+75	enxugando	enxugar	VERB	VERB	_	62	conj	_	TokenRange=562:571
+76	gelo	gelo	NOUN	NOUN	_	75	obj	_	SpaceAfter=No|TokenRange=572:576
+

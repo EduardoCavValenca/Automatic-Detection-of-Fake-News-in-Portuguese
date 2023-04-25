@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcelo resende fala sobre cancer drogas aplicam parecem vao matar apresentador usou perfil redes sociais mandar mensagem brasil durante sete dias decidi fazer retiro espiritual deus apenas oracoes leitura textos sagrados reflexoes sobre vida fiz jejum porque drogas aplicam parecem vao matar salvar orando firme certeza curado
+1	marcelo	marcelo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	resende	resende	NOUN	NOUN	_	1	flat	_	TokenRange=8:15
+3	fala	_	VERB	VERB	_	0	root	_	TokenRange=16:20
+4	sobre	_	ADP	ADP	_	5	mark	_	TokenRange=21:26
+5	cancer	cancer	VERB	VERB	_	3	nmod	_	TokenRange=27:33
+6	drogas	droga	NOUN	NOUN	_	5	obj	_	TokenRange=34:40
+7	aplicam	aplicar	VERB	VERB	_	6	acl	_	TokenRange=41:48
+8	parecem	parecer	VERB	VERB	_	5	ccomp	_	TokenRange=49:56
+9	vao	_	ADP	ADP	_	10	mark	_	TokenRange=57:60
+10	matar	matar	VERB	VERB	_	8	xcomp	_	TokenRange=61:66
+11	apresentador	apresentador	NOUN	NOUN	_	10	obj	_	TokenRange=67:79
+12	usou	usar	VERB	VERB	_	6	acl:relcl	_	TokenRange=80:84
+13	perfil	perfil	NOUN	NOUN	_	12	obj	_	TokenRange=85:91
+14	redes	rede	NOUN	NOUN	_	12	obj	_	TokenRange=92:97
+15	sociais	social	ADJ	ADJ	_	14	amod	_	TokenRange=98:105
+16	mandar	mandar	VERB	VERB	_	12	ccomp	_	TokenRange=106:112
+17	mensagem	mensagem	NOUN	NOUN	_	16	obj	_	TokenRange=113:121
+18	brasil	brasil	ADJ	ADJ	_	17	amod	_	TokenRange=122:128
+19	durante	_	ADP	ADP	_	21	case	_	TokenRange=129:136
+20	sete	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=137:141
+21	dias	dia	NOUN	NOUN	_	16	nmod	_	TokenRange=142:146
+22	decidi	decidir	VERB	VERB	_	3	conj	_	TokenRange=147:153
+23	fazer	fazer	VERB	VERB	_	22	xcomp	_	TokenRange=154:159
+24	retiro	retiro	NOUN	NOUN	_	23	obj	_	TokenRange=160:166
+25	espiritual	espiritual	ADJ	ADJ	_	24	amod	_	TokenRange=167:177
+26	deus	_	NOUN	NOUN	_	24	nmod	_	TokenRange=178:182
+27	apenas	apenas	ADV	ADV	_	28	advmod	_	TokenRange=183:189
+28	oracoes	oracoe	NOUN	NOUN	_	24	appos	_	TokenRange=190:197
+29	leitura	leitura	NOUN	NOUN	_	28	appos	_	TokenRange=198:205
+30	textos	texto	NOUN	NOUN	_	28	appos	_	TokenRange=206:212
+31	sagrados	sagrado	ADJ	ADJ	_	30	amod	_	TokenRange=213:221
+32	reflexoes	reflexoe	NOUN	NOUN	_	28	appos	_	TokenRange=222:231
+33	sobre	_	ADP	ADP	_	34	case	_	TokenRange=232:237
+34	vida	vida	NOUN	NOUN	_	32	nmod	_	TokenRange=238:242
+35	fiz	fazer	VERB	VERB	_	22	parataxis	_	TokenRange=243:246
+36	jejum	jejum	NOUN	NOUN	_	35	obj	_	TokenRange=247:252
+37	porque	_	CCONJ	CONJ	_	39	mark	_	TokenRange=253:259
+38	drogas	droga	NOUN	NOUN	_	39	nsubj	_	TokenRange=260:266
+39	aplicam	aplicar	VERB	VERB	_	35	advcl	_	TokenRange=267:274
+40	parecem	parecer	VERB	VERB	_	39	aux	_	TokenRange=275:282
+41	vao	_	AUX	AUX	_	42	aux	_	TokenRange=283:286
+42	matar	matar	VERB	VERB	_	40	xcomp	_	TokenRange=287:292
+43	salvar	salvar	VERB	VERB	_	40	xcomp	_	TokenRange=293:299
+44	orando	orar	VERB	VERB	_	43	acl	_	TokenRange=300:306
+45	firme	firme	ADJ	ADJ	_	46	amod	_	TokenRange=307:312
+46	certeza	certeza	NOUN	NOUN	_	44	obj	_	TokenRange=313:320
+47	curado	curado	ADJ	ADJ	_	46	amod	_	SpaceAfter=No|TokenRange=321:327
+

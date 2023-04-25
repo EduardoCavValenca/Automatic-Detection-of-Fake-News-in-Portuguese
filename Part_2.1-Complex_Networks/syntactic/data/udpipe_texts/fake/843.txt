@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = papa francisco diz biblia historia fracasso deus discurso feito papa francisco confundindo cabeca cristaos declaracao feita durante ultima visita pontifice estados unidos abaixo transcricao discurso jorge mario bergoglio papa sempre carrego comigo duas coisas rosario rezar coisa parece estranha biblia historia fracasso deus disse papa apontando biblia duas coisas faco melhor posso gracas duas coisas perco esperanca encerrou tire proprias conclusoes
+1	papa	papa	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	francisco	francisco	NOUN	NOUN	_	1	flat	_	TokenRange=5:14
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=15:18
+4	biblia	biblia	NOUN	NOUN	_	3	obj	_	TokenRange=19:25
+5	historia	historia	NOUN	NOUN	_	3	obj	_	TokenRange=26:34
+6	fracasso	fracasso	NOUN	NOUN	_	5	amod	_	TokenRange=35:43
+7	deus	_	DET	DET	_	8	det	_	TokenRange=44:48
+8	discurso	discurso	NOUN	NOUN	_	3	obj	_	TokenRange=49:57
+9	feito	_	VERB	VERB	_	8	acl	_	TokenRange=58:63
+10	papa	papa	NOUN	NOUN	_	9	obj	_	TokenRange=64:68
+11	francisco	francisco	NOUN	NOUN	_	10	flat	_	TokenRange=69:78
+12	confundindo	confundir	VERB	VERB	_	8	acl	_	TokenRange=79:90
+13	cabeca	cabeca	NOUN	NOUN	_	12	obj	_	TokenRange=91:97
+14	cristaos	cristao	ADJ	ADJ	_	13	amod	_	TokenRange=98:106
+15	declaracao	declaracao	NOUN	NOUN	_	8	appos	_	TokenRange=107:117
+16	feita	_	VERB	VERB	_	15	acl	_	TokenRange=118:123
+17	durante	_	ADP	ADP	_	19	case	_	TokenRange=124:131
+18	ultima	_	ADJ	ADJ	_	19	amod	_	TokenRange=132:138
+19	visita	visita	NOUN	NOUN	_	16	nmod	_	TokenRange=139:145
+20	pontifice	pontifice	ADJ	ADJ	_	19	amod	_	TokenRange=146:155
+21	estados	estado	NOUN	NOUN	_	19	appos	_	TokenRange=156:163
+22	unidos	unido	ADJ	ADJ	_	21	amod	_	TokenRange=164:170
+23	abaixo	abaixo	ADV	ADV	_	24	advmod	_	TokenRange=171:177
+24	transcricao	transcricao	ADJ	ADJ	_	15	amod	_	TokenRange=178:189
+25	discurso	discurso	NOUN	NOUN	_	24	appos	_	TokenRange=190:198
+26	jorge	jorge	NOUN	NOUN	_	25	appos	_	TokenRange=199:204
+27	mario	mario	NOUN	NOUN	_	26	flat	_	TokenRange=205:210
+28	bergoglio	bergoglio	NOUN	NOUN	_	26	flat	_	TokenRange=211:220
+29	papa	papa	NOUN	NOUN	_	31	nsubj	_	TokenRange=221:225
+30	sempre	sempre	ADV	ADV	_	31	advmod	_	TokenRange=226:232
+31	carrego	carregar	VERB	VERB	_	25	acl:relcl	_	TokenRange=233:240
+32	comigo	_	ADP	ADP	_	34	case	_	TokenRange=241:247
+33	duas	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=248:252
+34	coisas	coisa	NOUN	NOUN	_	31	nmod	_	TokenRange=253:259
+35	rosario	rosario	NOUN	NOUN	_	31	nsubj	_	TokenRange=260:267
+36	rezar	rezar	VERB	VERB	_	31	ccomp	_	TokenRange=268:273
+37	coisa	coisa	NOUN	NOUN	_	36	obj	_	TokenRange=274:279
+38	parece	parecer	VERB	VERB	_	31	parataxis	_	TokenRange=280:286
+39	estranha	estranho	ADJ	ADJ	_	38	xcomp	_	TokenRange=287:295
+40	biblia	biblia	NOUN	NOUN	_	38	nsubj	_	TokenRange=296:302
+41	historia	historia	NOUN	NOUN	_	38	nsubj	_	TokenRange=303:311
+42	fracasso	fracasso	ADJ	ADJ	_	41	amod	_	TokenRange=312:320
+43	deus	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=321:325
+44	disse	dizer	VERB	VERB	_	38	parataxis	_	TokenRange=326:331
+45	papa	papa	NOUN	NOUN	_	44	obj	_	TokenRange=332:336
+46	apontando	apontar	VERB	VERB	_	44	acl	_	TokenRange=337:346
+47	biblia	biblia	NOUN	NOUN	_	46	obj	_	TokenRange=347:353
+48	duas	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=354:358
+49	coisas	coisa	NOUN	NOUN	_	50	nsubj	_	TokenRange=359:365
+50	faco	facar	VERB	VERB	_	44	parataxis	_	TokenRange=366:370
+51	melhor	melhor	ADV	ADV	_	50	advmod	_	TokenRange=371:377
+52	posso	_	X	AUX	_	50	aux	_	TokenRange=378:383
+53	gracas	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=384:390
+54	duas	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=391:395
+55	coisas	coisa	NOUN	NOUN	_	50	nsubj	_	TokenRange=396:402
+56	perco	perco	ADV	ADV	_	58	advmod	_	TokenRange=403:408
+57	esperanca	esperanca	NOUN	NOUN	_	58	nsubj	_	TokenRange=409:418
+58	encerrou	encerrar	VERB	VERB	_	50	parataxis	_	TokenRange=419:427
+59	tire	_	VERB	VERB	_	58	ccomp	_	TokenRange=428:432
+60	proprias	proprio	ADJ	ADJ	_	61	amod	_	TokenRange=433:441
+61	conclusoes	conclusoe	NOUN	NOUN	_	59	obj	_	SpaceAfter=No|TokenRange=442:452
+

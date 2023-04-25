@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = volta brasil temer discute ministros novas gravacoes delatores fatos acabaram mostrando razao disse temer segundo relato ministro eliseu padilha referia exprocurador acordo gravacoes negociado jbs apos chegar brasilia volta 5h50 viagem china presidente michel temer conversou
+1	volta	volta	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	brasil	brasil	ADJ	ADJ	_	1	amod	_	TokenRange=6:12
+3	temer	temer	NOUN	NOUN	_	1	appos	_	TokenRange=13:18
+4	discute	discutir	VERB	VERB	_	0	root	_	TokenRange=19:26
+5	ministros	ministro	NOUN	NOUN	_	4	obj	_	TokenRange=27:36
+6	novas	novo	ADJ	ADJ	_	7	amod	_	TokenRange=37:42
+7	gravacoes	gravaco	NOUN	NOUN	_	4	obj	_	TokenRange=43:52
+8	delatores	delator	ADJ	ADJ	_	9	amod	_	TokenRange=53:62
+9	fatos	fato	NOUN	NOUN	_	7	appos	_	TokenRange=63:68
+10	acabaram	acabar	AUX	AUX	_	11	aux	_	TokenRange=69:77
+11	mostrando	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=78:87
+12	razao	razao	NOUN	NOUN	_	11	obj	_	TokenRange=88:93
+13	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=94:99
+14	temer	temer	NOUN	NOUN	_	36	obj	_	TokenRange=100:105
+15	segundo	_	ADP	ADP	_	16	case	_	TokenRange=106:113
+16	relato	relato	NOUN	NOUN	_	36	nmod	_	TokenRange=114:120
+17	ministro	ministro	NOUN	NOUN	_	16	flat	_	TokenRange=121:129
+18	eliseu	eliseu	NOUN	NOUN	_	20	nsubj	_	TokenRange=130:136
+19	padilha	padilha	NOUN	NOUN	_	18	flat	_	TokenRange=137:144
+20	referia	referir	VERB	VERB	_	16	acl:relcl	_	TokenRange=145:152
+21	exprocurador	exprocurador	NOUN	NOUN	_	20	obj	_	TokenRange=153:165
+22	acordo	acordo	NOUN	NOUN	_	20	obj	_	TokenRange=166:172
+23	gravacoes	_	NOUN	NOUN	_	22	flat	_	TokenRange=173:182
+24	negociado	negociar	VERB	VERB	_	22	acl	_	TokenRange=183:192
+25	jbs	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=193:196
+26	apos	_	ADP	ADP	_	27	mark	_	TokenRange=197:201
+27	chegar	chegar	VERB	VERB	_	24	advcl	_	TokenRange=202:208
+28	brasilia	brasilia	NOUN	NOUN	_	27	obj	_	TokenRange=209:217
+29	volta	volta	NOUN	NOUN	_	27	nmod	_	TokenRange=218:223
+30	5h50	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=224:228
+31	viagem	viagem	NOUN	NOUN	_	27	nmod	_	TokenRange=229:235
+32	china	chino	ADJ	ADJ	_	31	amod	_	TokenRange=236:241
+33	presidente	presidente	NOUN	NOUN	_	36	nsubj	_	TokenRange=242:252
+34	michel	michel	ADJ	ADJ	_	35	amod	_	TokenRange=253:259
+35	temer	temer	NOUN	NOUN	_	33	appos	_	TokenRange=260:265
+36	conversou	conversar	VERB	VERB	_	13	parataxis	_	SpaceAfter=No|TokenRange=266:275
+

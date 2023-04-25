@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tribunal nega recurso uniao posse cristiane brasil suspensa vicepresidente tribunal regional federal 2 regiao guilherme couto castro manteve nesta tercafeira 9 decisao suspende posse deputada cristiane brasil ptbrj ministra trabalho juiz negou recurso agu advocaciageral uniao tentava derrubar liminar realizar posse deputada liminar impede posse deferida noite desta segundafeira 8 juiz leonardo costa couceiro 4 vara federal niteroi castro
+1	tribunal	tribunal	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=9:13
+3	recurso	recurso	NOUN	NOUN	_	2	obj	_	TokenRange=14:21
+4	uniao	uniao	ADJ	ADJ	_	5	amod	_	TokenRange=22:27
+5	posse	posse	NOUN	NOUN	_	2	nsubj	_	TokenRange=28:33
+6	cristiane	cristiane	ADJ	ADJ	_	5	amod	_	TokenRange=34:43
+7	brasil	brasil	ADJ	ADJ	_	5	amod	_	TokenRange=44:50
+8	suspensa	suspender	ADJ	ADJ	_	5	amod	_	TokenRange=51:59
+9	vicepresidente	vicepresidente	NOUN	NOUN	_	5	appos	_	TokenRange=60:74
+10	tribunal	tribunal	NOUN	NOUN	_	9	appos	_	TokenRange=75:83
+11	regional	regional	ADJ	ADJ	_	10	amod	_	TokenRange=84:92
+12	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=93:100
+13	2	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=101:102
+14	regiao	regiao	NOUN	NOUN	_	10	appos	_	TokenRange=103:109
+15	guilherme	guilherme	NOUN	NOUN	_	14	appos	_	TokenRange=110:119
+16	couto	couto	NOUN	NOUN	_	14	appos	_	TokenRange=120:125
+17	castro	castro	NOUN	NOUN	_	15	flat	_	TokenRange=126:132
+18	manteve	manter	VERB	VERB	_	2	conj	_	TokenRange=133:140
+19	nesta	_	ADP	ADP	_	20	case	_	TokenRange=141:146
+20	tercafeira	tercafeira	NOUN	NOUN	_	18	nmod	_	TokenRange=147:157
+21	9	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=158:159
+22	decisao	decisao	NOUN	NOUN	_	23	nsubj	_	TokenRange=160:167
+23	suspende	suspender	VERB	VERB	_	18	parataxis	_	TokenRange=168:176
+24	posse	posse	NOUN	NOUN	_	23	obj	_	TokenRange=177:182
+25	deputada	deputado	NOUN	NOUN	_	24	amod	_	TokenRange=183:191
+26	cristiane	_	NOUN	NOUN	_	24	appos	_	TokenRange=192:201
+27	brasil	brasil	ADJ	ADJ	_	26	amod	_	TokenRange=202:208
+28	ptbrj	_	NOUN	NOUN	_	26	appos	_	TokenRange=209:214
+29	ministra	_	NOUN	NOUN	_	28	flat	_	TokenRange=215:223
+30	trabalho	trabalho	NOUN	NOUN	_	28	flat	_	TokenRange=224:232
+31	juiz	juiz	NOUN	NOUN	_	32	nsubj	_	TokenRange=233:237
+32	negou	negar	VERB	VERB	_	2	conj	_	TokenRange=238:243
+33	recurso	recurso	NOUN	NOUN	_	32	obj	_	TokenRange=244:251
+34	agu	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=252:255
+35	advocaciageral	advocaciageral	ADJ	ADJ	_	33	amod	_	TokenRange=256:270
+36	uniao	uniao	NOUN	NOUN	_	37	nsubj	_	TokenRange=271:276
+37	tentava	tentar	VERB	VERB	_	33	acl:relcl	_	TokenRange=277:284
+38	derrubar	derrubar	VERB	VERB	_	37	xcomp	_	TokenRange=285:293
+39	liminar	liminar	NOUN	NOUN	_	38	obj	_	TokenRange=294:301
+40	realizar	realizar	VERB	VERB	_	37	xcomp	_	TokenRange=302:310
+41	posse	posse	NOUN	NOUN	_	40	obj	_	TokenRange=311:316
+42	deputada	deputado	NOUN	NOUN	_	41	amod	_	TokenRange=317:325
+43	liminar	liminar	ADJ	ADJ	_	41	amod	_	TokenRange=326:333
+44	impede	impedir	VERB	VERB	_	37	conj	_	TokenRange=334:340
+45	posse	posse	NOUN	NOUN	_	44	obj	_	TokenRange=341:346
+46	deferida	deferido	ADJ	ADJ	_	45	amod	_	TokenRange=347:355
+47	noite	noite	NOUN	NOUN	_	44	nsubj	_	TokenRange=356:361
+48	desta	_	ADP	ADP	_	49	case	_	TokenRange=362:367
+49	segundafeira	segundafeira	NOUN	NOUN	_	47	nmod	_	TokenRange=368:380
+50	8	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=381:382
+51	juiz	juiz	NOUN	NOUN	_	44	nsubj	_	TokenRange=383:387
+52	leonardo	leonardo	NOUN	NOUN	_	51	appos	_	TokenRange=388:396
+53	costa	costa	NOUN	NOUN	_	52	flat	_	TokenRange=397:402
+54	couceiro	couceiro	NOUN	NOUN	_	52	flat	_	TokenRange=403:411
+55	4	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=412:413
+56	vara	vara	NOUN	NOUN	_	51	appos	_	TokenRange=414:418
+57	federal	federal	ADJ	ADJ	_	56	amod	_	TokenRange=419:426
+58	niteroi	niteroi	NOUN	NOUN	_	51	appos	_	TokenRange=427:434
+59	castro	castro	NOUN	NOUN	_	58	flat	_	SpaceAfter=No|TokenRange=435:441
+

@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula elogiando geddel 2010 melhor ministro pais 500 anos palavras senhor expresidente ministro geddel hoje ministerio integracao portanto responsavel defesa civil falo medo errar duvido historia 500 anos deste pais calamidades resposta tao imediata disse lula
+1	lula	lula	NOUN	NOUN	_	35	nsubj	_	TokenRange=0:4
+2	elogiando	elogiar	VERB	VERB	_	1	acl	_	TokenRange=5:14
+3	geddel	geddel	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+4	2010	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=22:26
+5	melhor	melhor	ADJ	ADJ	_	6	amod	_	TokenRange=27:33
+6	ministro	ministro	NOUN	NOUN	_	3	appos	_	TokenRange=34:42
+7	pais	_	NOUN	NOUN	_	6	flat	_	TokenRange=43:47
+8	500	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=48:51
+9	anos	ano	NOUN	NOUN	_	6	appos	_	TokenRange=52:56
+10	palavras	palavra	NOUN	NOUN	_	6	appos	_	TokenRange=57:65
+11	senhor	senhor	NOUN	NOUN	_	10	appos	_	TokenRange=66:72
+12	expresidente	expresidente	NOUN	NOUN	_	10	amod	_	TokenRange=73:85
+13	ministro	ministro	NOUN	NOUN	_	10	appos	_	TokenRange=86:94
+14	geddel	_	NOUN	NOUN	_	13	appos	_	TokenRange=95:101
+15	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=102:106
+16	ministerio	ministerio	NOUN	NOUN	_	10	appos	_	TokenRange=107:117
+17	integracao	integracao	ADJ	ADJ	_	16	amod	_	TokenRange=118:128
+18	portanto	_	ADV	ADV	_	19	cc	_	TokenRange=129:137
+19	responsavel	responsavel	ADJ	ADJ	_	16	amod	_	TokenRange=138:149
+20	defesa	_	NOUN	NOUN	_	16	appos	_	TokenRange=150:156
+21	civil	civil	ADJ	ADJ	_	20	amod	_	TokenRange=157:162
+22	falo	_	VERB	VERB	_	16	parataxis	_	TokenRange=163:167
+23	medo	medo	NOUN	NOUN	_	22	obj	_	TokenRange=168:172
+24	errar	errar	VERB	VERB	_	23	acl:inf	_	TokenRange=173:178
+25	duvido	duvido	ADJ	ADJ	_	24	xcomp	_	TokenRange=179:185
+26	historia	historia	NOUN	NOUN	_	24	obj	_	TokenRange=186:194
+27	500	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=195:198
+28	anos	ano	NOUN	NOUN	_	24	nsubj	_	TokenRange=199:203
+29	deste	_	ADP	ADP	_	30	case	_	TokenRange=204:209
+30	pais	_	NOUN	NOUN	_	28	nmod	_	TokenRange=210:214
+31	calamidades	calamidade	NOUN	NOUN	_	30	amod	_	TokenRange=215:226
+32	resposta	resposta	NOUN	NOUN	_	35	nsubj	_	TokenRange=227:235
+33	tao	tao	ADV	ADV	_	34	advmod	_	TokenRange=236:239
+34	imediata	imediato	ADJ	ADJ	_	32	amod	_	TokenRange=240:248
+35	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=249:254
+36	lula	lula	NOUN	NOUN	_	35	nsubj	_	SpaceAfter=No|TokenRange=255:259
+

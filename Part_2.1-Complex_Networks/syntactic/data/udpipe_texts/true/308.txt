@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exprocuradores republica dizem lula interferiu trabalho pgr audiencia realizada nesta quarta 14 sergio moro advogado lula discutiram antonio fernando barros silva souza claudio lemos fonteles exprocuradoresgerais republica disseram expresidente republica luiz inacio lula silva pt interferiu trabalho procuradoriageral republica pgr dois prestaram depoimento justica federal parana manha desta quartafeira 14 videoconferencia brasilia df arrolados testemunhas defesa lula reu nesta acao penal operacao lava jato nunca nenhum momento qualquer pedido direto indiretamente sobre atividades
+1	exprocuradores	exprocurador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:14
+2	republica	republico	ADJ	ADJ	_	1	amod	_	TokenRange=15:24
+3	dizem	dizer	VERB	VERB	_	0	root	_	TokenRange=25:30
+4	lula	_	NOUN	NOUN	_	3	obj	_	TokenRange=31:35
+5	interferiu	interferir	VERB	VERB	_	3	ccomp	_	TokenRange=36:46
+6	trabalho	trabalho	NOUN	NOUN	_	5	obj	_	TokenRange=47:55
+7	pgr	_	ADJ	NOUN	_	8	amod	_	TokenRange=56:59
+8	audiencia	audiencia	NOUN	NOUN	_	5	nsubj	_	TokenRange=60:69
+9	realizada	realizar	VERB	VERB	_	8	acl	_	TokenRange=70:79
+10	nesta	_	ADP	ADP	_	11	case	_	TokenRange=80:85
+11	quarta	_	PROPN	PNOUN	_	9	nmod	_	TokenRange=86:92
+12	14	_	NUM	NUM	NumType=Card	13	nmod	_	TokenRange=93:95
+13	sergio	sergio	NOUN	NOUN	_	17	nsubj	_	TokenRange=96:102
+14	moro	moro	ADJ	NOUN	_	15	amod	_	TokenRange=103:107
+15	advogado	advogado	NOUN	NOUN	_	13	appos	_	TokenRange=108:116
+16	lula	lula	ADJ	ADJ	_	15	amod	_	TokenRange=117:121
+17	discutiram	discutir	VERB	VERB	_	3	parataxis	_	TokenRange=122:132
+18	antonio	antonio	NOUN	NOUN	_	17	obj	_	TokenRange=133:140
+19	fernando	fernando	NOUN	NOUN	_	18	appos	_	TokenRange=141:149
+20	barros	barro	NOUN	NOUN	_	18	flat	_	TokenRange=150:156
+21	silva	silva	NOUN	NOUN	_	18	flat	_	TokenRange=157:162
+22	souza	souza	NOUN	NOUN	_	18	appos	_	TokenRange=163:168
+23	claudio	claudio	NOUN	NOUN	_	18	appos	_	TokenRange=169:176
+24	lemos	lemo	NOUN	NOUN	_	23	flat	_	TokenRange=177:182
+25	fonteles	_	NOUN	NOUN	_	23	appos	_	TokenRange=183:191
+26	exprocuradoresgerais	_	ADJ	ADJ	_	25	amod	_	TokenRange=192:212
+27	republica	republico	ADJ	ADJ	_	25	amod	_	TokenRange=213:222
+28	disseram	dizer	VERB	VERB	_	17	conj	_	TokenRange=223:231
+29	expresidente	expresidente	NOUN	NOUN	_	28	obj	_	TokenRange=232:244
+30	republica	republico	ADJ	ADJ	_	29	amod	_	TokenRange=245:254
+31	luiz	luiz	NOUN	NOUN	_	29	appos	_	TokenRange=255:259
+32	inacio	_	NOUN	NOUN	_	31	flat	_	TokenRange=260:266
+33	lula	_	NOUN	NOUN	_	31	flat	_	TokenRange=267:271
+34	silva	silva	NOUN	NOUN	_	31	flat	_	TokenRange=272:277
+35	pt	_	PROPN	PNOUN	_	36	nsubj	_	TokenRange=278:280
+36	interferiu	interferir	VERB	VERB	_	28	parataxis	_	TokenRange=281:291
+37	trabalho	trabalho	NOUN	NOUN	_	36	obj	_	TokenRange=292:300
+38	procuradoriageral	procuradoriageral	ADJ	ADJ	_	37	amod	_	TokenRange=301:318
+39	republica	republico	ADJ	ADJ	_	37	amod	_	TokenRange=319:328
+40	pgr	pgr	NOUN	NOUN	_	42	nsubj	_	TokenRange=329:332
+41	dois	_	NUM	NUM	NumType=Card	42	nsubj	_	TokenRange=333:337
+42	prestaram	prestar	VERB	VERB	_	36	conj	_	TokenRange=338:347
+43	depoimento	depoimento	NOUN	NOUN	_	42	obj	_	TokenRange=348:358
+44	justica	_	ADJ	ADJ	_	43	amod	_	TokenRange=359:366
+45	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=367:374
+46	parana	parana	ADJ	ADJ	_	47	amod	_	TokenRange=375:381
+47	manha	manha	NOUN	NOUN	_	42	nmod	_	TokenRange=382:387
+48	desta	_	ADP	ADP	_	49	case	_	TokenRange=388:393
+49	quartafeira	quartafeira	NOUN	NOUN	_	47	nmod	_	TokenRange=394:405
+50	14	_	NUM	NUM	NumType=Card	49	appos	_	TokenRange=406:408
+51	videoconferencia	videoconferencia	NOUN	NOUN	_	49	appos	_	TokenRange=409:425
+52	brasilia	brasilia	NOUN	NOUN	_	51	appos	_	TokenRange=426:434
+53	df	_	ADJ	ADJ	_	52	flat	_	TokenRange=435:437
+54	arrolados	arrolado	ADJ	ADJ	_	55	amod	_	TokenRange=438:447
+55	testemunhas	testemunha	NOUN	NOUN	_	58	nsubj	_	TokenRange=448:459
+56	defesa	_	NOUN	NOUN	_	55	amod	_	TokenRange=460:466
+57	lula	_	NOUN	NOUN	_	58	nsubj	_	TokenRange=467:471
+58	reu	_	VERB	VERB	_	3	parataxis	_	TokenRange=472:475
+59	nesta	_	ADP	ADP	_	60	case	_	TokenRange=476:481
+60	acao	acao	NOUN	NOUN	_	58	nmod	_	TokenRange=482:486
+61	penal	penal	ADJ	ADJ	_	60	amod	_	TokenRange=487:492
+62	operacao	operacao	NOUN	NOUN	_	60	appos	_	TokenRange=493:501
+63	lava	lava	NOUN	NOUN	_	60	flat	_	TokenRange=502:506
+64	jato	jato	NOUN	NOUN	_	60	appos	_	TokenRange=507:511
+65	nunca	nunca	ADV	ADV	_	58	advmod	_	TokenRange=512:517
+66	nenhum	_	DET	DET	_	67	det	_	TokenRange=518:524
+67	momento	momento	NOUN	NOUN	_	58	obj	_	TokenRange=525:532
+68	qualquer	_	DET	DET	_	69	det	_	TokenRange=533:541
+69	pedido	pedido	NOUN	NOUN	_	58	obj	_	TokenRange=542:548
+70	direto	direto	ADJ	ADJ	_	69	amod	_	TokenRange=549:555
+71	indiretamente	indiretamente	ADV	ADV	_	73	advmod	_	TokenRange=556:569
+72	sobre	_	ADP	ADP	_	73	case	_	TokenRange=570:575
+73	atividades	atividade	NOUN	NOUN	_	69	nmod	_	SpaceAfter=No|TokenRange=576:586
+

@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa eike nega supostas exigencias entregar encontra exterior razoes trabalho advogados empresario eike batista negaram exigindo quaisquer condicoes entregar justica desde decretada prisao preventiva eike realizou todos esforcos retornar breve tempo possivel pais diz nota milionario alvo mandado prisao preventiva expedido hoje 26 segunda fase calicute pf suspeito participar esquema corrupcao lavagem dinheiro escondido cerca us 100 milhoes exterior defesa informou exbilionario nova york participando reunioes negocios fonte luisa bustamante veja
+1	defesa	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	eike	_	PRON	PRON	_	1	appos	_	TokenRange=7:11
+3	nega	negar	VERB	VERB	_	0	root	_	TokenRange=12:16
+4	supostas	suposto	ADJ	ADJ	_	5	amod	_	TokenRange=17:25
+5	exigencias	_	NOUN	NOUN	_	3	obj	_	TokenRange=26:36
+6	entregar	entregar	VERB	VERB	_	3	xcomp	_	TokenRange=37:45
+7	encontra	encontra	NOUN	NOUN	_	6	obj	_	TokenRange=46:54
+8	exterior	exterior	ADJ	ADJ	_	7	amod	_	TokenRange=55:63
+9	razoes	razoe	NOUN	NOUN	_	6	obj	_	TokenRange=64:70
+10	trabalho	trabalho	NOUN	NOUN	_	9	flat	_	TokenRange=71:79
+11	advogados	advogado	NOUN	NOUN	_	16	nsubj	_	TokenRange=80:89
+12	empresario	empresario	NOUN	NOUN	_	11	amod	_	TokenRange=90:100
+13	eike	_	NOUN	NOUN	_	11	appos	_	TokenRange=101:105
+14	batista	batista	ADJ	ADJ	_	13	amod	_	TokenRange=106:113
+15	negaram	negar	AUX	AUX	_	16	aux	_	TokenRange=114:121
+16	exigindo	exigir	VERB	VERB	_	3	conj	_	TokenRange=122:130
+17	quaisquer	_	DET	DET	_	18	det	_	TokenRange=131:140
+18	condicoes	_	NOUN	NOUN	_	16	obj	_	TokenRange=141:150
+19	entregar	entregar	VERB	VERB	_	16	ccomp	_	TokenRange=151:159
+20	justica	_	NOUN	NOUN	_	19	obj	_	TokenRange=160:167
+21	desde	_	ADP	ADP	_	23	case	_	TokenRange=168:173
+22	decretada	decretado	ADJ	ADJ	_	23	amod	_	TokenRange=174:183
+23	prisao	prisao	NOUN	NOUN	_	19	nmod	_	TokenRange=184:190
+24	preventiva	preventivo	ADJ	ADJ	_	23	amod	_	TokenRange=191:201
+25	eike	_	PRON	PRON	_	26	nsubj	_	TokenRange=202:206
+26	realizou	realizar	VERB	VERB	_	23	acl:relcl	_	TokenRange=207:215
+27	todos	_	DET	DET	_	28	det	_	TokenRange=216:221
+28	esforcos	esforco	NOUN	NOUN	_	26	obj	_	TokenRange=222:230
+29	retornar	retornar	VERB	VERB	_	26	ccomp	_	TokenRange=231:239
+30	breve	breve	ADJ	ADJ	_	31	amod	_	TokenRange=240:245
+31	tempo	tempo	NOUN	NOUN	_	29	obj	_	TokenRange=246:251
+32	possivel	possivel	ADJ	ADJ	_	31	amod	_	TokenRange=252:260
+33	pais	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=261:265
+34	diz	dizer	VERB	VERB	_	3	conj	_	TokenRange=266:269
+35	nota	nota	NOUN	NOUN	_	34	obj	_	TokenRange=270:274
+36	milionario	milionario	ADJ	ADJ	_	35	amod	_	TokenRange=275:285
+37	alvo	alvo	NOUN	NOUN	_	35	flat	_	TokenRange=286:290
+38	mandado	mandar	VERB	VERB	_	35	acl	_	TokenRange=291:298
+39	prisao	prisao	NOUN	NOUN	_	38	obj	_	TokenRange=299:305
+40	preventiva	preventivo	ADJ	ADJ	_	39	amod	_	TokenRange=306:316
+41	expedido	expedir	VERB	VERB	_	39	acl	_	TokenRange=317:325
+42	hoje	hoje	ADV	ADV	_	41	advmod	_	TokenRange=326:330
+43	26	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=331:333
+44	segunda	segundo	ADJ	ADJ	_	45	amod	_	TokenRange=334:341
+45	fase	fase	NOUN	NOUN	_	41	nsubj	_	TokenRange=342:346
+46	calicute	calicute	NOUN	NOUN	_	34	nsubj	_	TokenRange=347:355
+47	pf	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=356:358
+48	suspeito	suspeito	ADJ	ADJ	_	46	amod	_	TokenRange=359:367
+49	participar	participar	VERB	VERB	_	46	acl:inf	_	TokenRange=368:378
+50	esquema	esquema	NOUN	NOUN	_	49	obj	_	TokenRange=379:386
+51	corrupcao	corrupcao	ADJ	ADJ	_	50	amod	_	TokenRange=387:396
+52	lavagem	lavagem	NOUN	NOUN	_	50	appos	_	TokenRange=397:404
+53	dinheiro	dinheiro	NOUN	NOUN	_	52	flat	_	TokenRange=405:413
+54	escondido	esconder	VERB	VERB	_	52	acl	_	TokenRange=414:423
+55	cerca	cerca	ADV	ADV	_	58	advmod	_	TokenRange=424:429
+56	us	_	DET	DET	_	58	det	_	TokenRange=430:432
+57	100	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=433:436
+58	milhoes	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=437:444
+59	exterior	exterior	ADJ	ADJ	_	60	amod	_	TokenRange=445:453
+60	defesa	_	NOUN	NOUN	_	61	nsubj	_	TokenRange=454:460
+61	informou	informar	VERB	VERB	_	3	parataxis	_	TokenRange=461:469
+62	exbilionario	exbilionario	NOUN	NOUN	_	61	obj	_	TokenRange=470:482
+63	nova	novo	ADJ	ADJ	_	64	amod	_	TokenRange=483:487
+64	york	_	NOUN	NOUN	_	62	appos	_	TokenRange=488:492
+65	participando	participar	VERB	VERB	_	62	acl	_	TokenRange=493:505
+66	reunioes	reunioe	NOUN	NOUN	_	65	obj	_	TokenRange=506:514
+67	negocios	negocio	ADJ	ADJ	_	66	amod	_	TokenRange=515:523
+68	fonte	fonte	NOUN	NOUN	_	71	obj	_	TokenRange=524:529
+69	luisa	luisa	NOUN	NOUN	_	68	appos	_	TokenRange=530:535
+70	bustamante	bustamante	ADJ	ADJ	_	71	advmod	_	TokenRange=536:546
+71	veja	ver	VERB	VERB	_	61	parataxis	_	SpaceAfter=No|TokenRange=547:551
+

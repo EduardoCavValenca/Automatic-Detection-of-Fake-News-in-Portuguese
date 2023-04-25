@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = padre suspenso diocese apos caso extorsao video sexo morte pm paroco igreja matao sp extorquido homem relacao homossexual sargento morto tentava fazer flagrante crime segunda 19 diocese carlos sp suspendeu nesta quintafeira 22 padre edson mauricio responsavel paroquia santo
+1	padre	padre	NOUN	NOUN	_	30	parataxis	_	TokenRange=0:5
+2	suspenso	suspenso	ADJ	ADJ	_	1	amod	_	TokenRange=6:14
+3	diocese	diocese	NOUN	NOUN	_	1	appos	_	TokenRange=15:22
+4	apos	_	ADP	ADP	_	5	case	_	TokenRange=23:27
+5	caso	caso	NOUN	NOUN	_	3	nmod	_	TokenRange=28:32
+6	extorsao	extorsao	ADJ	ADJ	_	5	amod	_	TokenRange=33:41
+7	video	video	NOUN	NOUN	_	1	appos	_	TokenRange=42:47
+8	sexo	sexo	NOUN	NOUN	_	7	appos	_	TokenRange=48:52
+9	morte	morte	NOUN	NOUN	_	8	flat	_	TokenRange=53:58
+10	pm	_	ADP	ADP	_	11	case	_	TokenRange=59:61
+11	paroco	paroco	NOUN	NOUN	_	1	conj	_	TokenRange=62:68
+12	igreja	igreja	NOUN	NOUN	_	11	appos	_	TokenRange=69:75
+13	matao	_	NOUN	NOUN	_	11	appos	_	TokenRange=76:81
+14	sp	_	NOUN	NOUN	_	11	amod	_	TokenRange=82:84
+15	extorquido	_	VERB	VERB	_	11	acl	_	TokenRange=85:95
+16	homem	homem	NOUN	NOUN	_	17	appos	_	TokenRange=96:101
+17	relacao	relacao	NOUN	NOUN	_	11	appos	_	TokenRange=102:109
+18	homossexual	homossexual	ADJ	ADJ	_	17	amod	_	TokenRange=110:121
+19	sargento	sargento	NOUN	NOUN	_	17	appos	_	TokenRange=122:130
+20	morto	_	ADJ	ADJ	_	19	amod	_	TokenRange=131:136
+21	tentava	tentar	VERB	VERB	_	30	parataxis	_	TokenRange=137:144
+22	fazer	fazer	VERB	VERB	_	21	xcomp	_	TokenRange=145:150
+23	flagrante	flagrante	ADJ	ADJ	_	24	amod	_	TokenRange=151:160
+24	crime	crime	NOUN	NOUN	_	22	obj	_	TokenRange=161:166
+25	segunda	segundo	ADJ	ADJ	_	24	amod	_	TokenRange=167:174
+26	19	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=175:177
+27	diocese	diocese	NOUN	NOUN	_	30	nsubj	_	TokenRange=178:185
+28	carlos	_	NOUN	NOUN	_	27	appos	_	TokenRange=186:192
+29	sp	_	ADJ	ADJ	_	27	amod	_	TokenRange=193:195
+30	suspendeu	suspender	VERB	VERB	_	0	root	_	TokenRange=196:205
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=206:211
+32	quintafeira	quintafeira	NOUN	NOUN	_	30	nmod	_	TokenRange=212:223
+33	22	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=224:226
+34	padre	padre	NOUN	NOUN	_	30	obj	_	TokenRange=227:232
+35	edson	_	NOUN	NOUN	_	34	appos	_	TokenRange=233:238
+36	mauricio	_	ADJ	NOUN	_	35	flat	_	TokenRange=239:247
+37	responsavel	responsavel	ADJ	ADJ	_	34	amod	_	TokenRange=248:259
+38	paroquia	paroquia	NOUN	NOUN	_	34	appos	_	TokenRange=260:268
+39	santo	santo	ADJ	ADJ	_	38	amod	_	SpaceAfter=No|TokenRange=269:274
+

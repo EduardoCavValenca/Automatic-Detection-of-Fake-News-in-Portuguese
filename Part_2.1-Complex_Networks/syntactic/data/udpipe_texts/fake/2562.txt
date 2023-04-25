@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vaquinha virtual dona dilma conseguiu arrecadar r 170 mil 10 horas vaquinha virtual organizada duas amigas dilma arrecadou r 170 mil pouco 10 horas objetivo custear viagens petista brasil afora 2300 pessoas doaram ajudar campanha meta vaquinha juntar r 500 mil dilma conseguiu pouco 34 meta vai dobrar meta coitada dilma logo pt coloca mao nessa grana desvia tudo caso queira ajudar dona dilma segue endereco vaca link
+1	vaquinha	vaquinha	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	virtual	virtual	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+3	dona	_	NOUN	NOUN	_	1	appos	_	TokenRange=17:21
+4	dilma	_	PROPN	PNOUN	_	3	flat	_	TokenRange=22:27
+5	conseguiu	conseguir	VERB	VERB	_	0	root	_	TokenRange=28:37
+6	arrecadar	arrecadar	VERB	VERB	_	5	xcomp	_	TokenRange=38:47
+7	r	r	NOUN	NOUN	_	6	obj	_	TokenRange=48:49
+8	170	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=50:53
+9	mil	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=54:57
+10	10	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=58:60
+11	horas	hora	NOUN	NOUN	_	6	obj	_	TokenRange=61:66
+12	vaquinha	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=67:75
+13	virtual	virtual	ADJ	ADJ	_	12	amod	_	TokenRange=76:83
+14	organizada	organizar	VERB	VERB	_	12	acl	_	TokenRange=84:94
+15	duas	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=95:99
+16	amigas	amigo	NOUN	NOUN	_	18	nsubj	_	TokenRange=100:106
+17	dilma	dilma	NOUN	NOUN	_	16	appos	_	TokenRange=107:112
+18	arrecadou	arrecadar	VERB	VERB	_	12	acl:relcl	_	TokenRange=113:122
+19	r	r	NOUN	NOUN	_	18	obj	_	TokenRange=123:124
+20	170	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=125:128
+21	mil	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=129:132
+22	pouco	pouco	ADV	ADV	_	21	advmod	_	TokenRange=133:138
+23	10	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=139:141
+24	horas	hora	NOUN	NOUN	_	18	nmod	_	TokenRange=142:147
+25	objetivo	objetivo	NOUN	NOUN	_	18	nsubj	_	TokenRange=148:156
+26	custear	custear	VERB	VERB	_	25	acl:inf	_	TokenRange=157:164
+27	viagens	viagem	NOUN	NOUN	_	26	obj	_	TokenRange=165:172
+28	petista	petista	NOUN	NOUN	_	27	appos	_	TokenRange=173:180
+29	brasil	brasil	NOUN	NOUN	_	28	flat	_	TokenRange=181:187
+30	afora	afora	ADV	ADV	_	33	advmod	_	TokenRange=188:193
+31	2300	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=194:198
+32	pessoas	pessoa	NOUN	NOUN	_	33	nsubj	_	TokenRange=199:206
+33	doaram	doar	VERB	VERB	_	18	parataxis	_	TokenRange=207:213
+34	ajudar	ajudar	VERB	VERB	_	33	xcomp	_	TokenRange=214:220
+35	campanha	campanha	NOUN	NOUN	_	34	obj	_	TokenRange=221:229
+36	meta	meta	NOUN	NOUN	_	35	flat	_	TokenRange=230:234
+37	vaquinha	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=235:243
+38	juntar	juntar	VERB	VERB	_	35	acl:relcl	_	TokenRange=244:250
+39	r	r	NOUN	NOUN	_	38	obj	_	TokenRange=251:252
+40	500	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=253:256
+41	mil	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=257:260
+42	dilma	dilma	NOUN	NOUN	_	43	nsubj	_	TokenRange=261:266
+43	conseguiu	conseguir	VERB	VERB	_	38	conj	_	TokenRange=267:276
+44	pouco	pouco	ADV	ADV	_	41	advmod	_	TokenRange=277:282
+45	34	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=283:285
+46	meta	meta	NOUN	NOUN	_	43	obj	_	TokenRange=286:290
+47	vai	ir	AUX	AUX	_	48	aux	_	TokenRange=291:294
+48	dobrar	dobrar	VERB	VERB	_	33	conj	_	TokenRange=295:301
+49	meta	meta	NOUN	NOUN	_	48	obj	_	TokenRange=302:306
+50	coitada	coitado	ADJ	ADJ	_	49	amod	_	TokenRange=307:314
+51	dilma	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=315:320
+52	logo	logo	ADV	ADV	_	54	advmod	_	TokenRange=321:325
+53	pt	_	PRON	PRON	_	54	nsubj	_	TokenRange=326:328
+54	coloca	colocar	VERB	VERB	_	49	acl:relcl	_	TokenRange=329:335
+55	mao	mao	NOUN	NOUN	_	54	obj	_	TokenRange=336:339
+56	nessa	_	ADP	ADP	_	57	case	_	TokenRange=340:345
+57	grana	grana	NOUN	NOUN	_	54	nmod	_	TokenRange=346:351
+58	desvia	desviar	VERB	VERB	_	54	conj	_	TokenRange=352:358
+59	tudo	_	PRON	PRON	_	61	obj	_	TokenRange=359:363
+60	caso	_	CCONJ	CONJ	_	61	nsubj	_	TokenRange=364:368
+61	queira	querer	VERB	VERB	_	58	ccomp	_	TokenRange=369:375
+62	ajudar	ajudar	VERB	VERB	_	61	xcomp	_	TokenRange=376:382
+63	dona	_	NOUN	NOUN	_	62	obj	_	TokenRange=383:387
+64	dilma	_	NOUN	NOUN	_	63	flat	_	TokenRange=388:393
+65	segue	_	VERB	VERB	_	48	parataxis	_	TokenRange=394:399
+66	endereco	endereco	NOUN	NOUN	_	65	obj	_	TokenRange=400:408
+67	vaca	_	NOUN	NOUN	_	65	obj	_	TokenRange=409:413
+68	link	_	NOUN	NOUN	_	67	flat	_	SpaceAfter=No|TokenRange=414:418
+

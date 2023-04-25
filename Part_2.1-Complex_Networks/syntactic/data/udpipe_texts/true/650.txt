@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = camara aprova criacao fundo recursos publicos bancar campanha eleitoral deputados rejeitaram
+1	camara	camara	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:6
+2	aprova	aprovar	VERB	VERB	_	11	ccomp	_	TokenRange=7:13
+3	criacao	criacao	NOUN	NOUN	_	11	obj	_	TokenRange=14:21
+4	fundo	fundo	ADJ	ADJ	_	5	amod	_	TokenRange=22:27
+5	recursos	recurso	NOUN	NOUN	_	3	appos	_	TokenRange=28:36
+6	publicos	publico	ADJ	ADJ	_	5	amod	_	TokenRange=37:45
+7	bancar	bancar	VERB	VERB	_	11	xcomp	_	TokenRange=46:52
+8	campanha	campanha	NOUN	NOUN	_	11	obj	_	TokenRange=53:61
+9	eleitoral	eleitoral	ADJ	ADJ	_	8	amod	_	TokenRange=62:71
+10	deputados	deputado	NOUN	NOUN	_	11	nsubj	_	TokenRange=72:81
+11	rejeitaram	rejeitar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=82:92
+

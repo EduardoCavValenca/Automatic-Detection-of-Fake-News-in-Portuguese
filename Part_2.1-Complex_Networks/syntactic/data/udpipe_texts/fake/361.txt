@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = viuva nelson xavier relata recebeu sinal apos morte ator viuva ator nelson xavier disse passou momento sobrenatural noite ator faleceu 10/05/17 via negromonte casada 28 anos xavier declarou jornal extra acendi vela fiz oracao libertou paraiso mande sinal atriz contou questao segundos vela explodiu disse amor lembre medo passe disso relatou artista faleceu 75 anos decorrencia complicacoes pulmonares decorrentes cancer
+1	viuva	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	nelson	_	NOUN	NOUN	_	1	appos	_	TokenRange=6:12
+3	xavier	_	NOUN	NOUN	_	2	flat	_	TokenRange=13:19
+4	relata	relatar	VERB	VERB	_	1	acl:relcl	_	TokenRange=20:26
+5	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=27:34
+6	sinal	sinal	NOUN	NOUN	_	5	obj	_	TokenRange=35:40
+7	apos	_	ADP	ADP	_	8	case	_	TokenRange=41:45
+8	morte	morte	NOUN	NOUN	_	5	nmod	_	TokenRange=46:51
+9	ator	ator	NOUN	NOUN	_	5	nsubj	_	TokenRange=52:56
+10	viuva	viuvo	ADJ	ADJ	_	11	amod	_	TokenRange=57:62
+11	ator	ator	NOUN	NOUN	_	9	appos	_	TokenRange=63:67
+12	nelson	_	NOUN	NOUN	_	11	appos	_	TokenRange=68:74
+13	xavier	_	NOUN	NOUN	_	12	flat	_	TokenRange=75:81
+14	disse	dizer	VERB	VERB	_	5	conj	_	TokenRange=82:87
+15	passou	passar	VERB	VERB	_	14	ccomp	_	TokenRange=88:94
+16	momento	momento	NOUN	NOUN	_	15	obj	_	TokenRange=95:102
+17	sobrenatural	sobrenatural	ADJ	ADJ	_	16	amod	_	TokenRange=103:115
+18	noite	noite	NOUN	NOUN	_	16	appos	_	TokenRange=116:121
+19	ator	ator	NOUN	NOUN	_	18	flat	_	TokenRange=122:126
+20	faleceu	falecer	VERB	VERB	_	16	acl:relcl	_	TokenRange=127:134
+21	10/05/17	_	NUM	NUM	NumType=Card	20	nmod	_	TokenRange=135:143
+22	via	_	NOUN	NOUN	_	20	nmod	_	TokenRange=144:147
+23	negromonte	negromonte	NOUN	NOUN	_	22	flat	_	TokenRange=148:158
+24	casada	casado	ADJ	ADJ	_	22	amod	_	TokenRange=159:165
+25	28	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=166:168
+26	anos	ano	NOUN	NOUN	_	20	nsubj	_	TokenRange=169:173
+27	xavier	xavier	PROPN	PNOUN	_	28	nsubj	_	TokenRange=174:180
+28	declarou	declarar	VERB	VERB	_	20	parataxis	_	TokenRange=181:189
+29	jornal	jornal	NOUN	NOUN	_	28	obj	_	TokenRange=190:196
+30	extra	extra	ADJ	ADJ	_	29	amod	_	TokenRange=197:202
+31	acendi	acender	VERB	VERB	_	28	ccomp	_	TokenRange=203:209
+32	vela	vela	NOUN	NOUN	_	33	nsubj	_	TokenRange=210:214
+33	fiz	fazer	VERB	VERB	_	31	ccomp	_	TokenRange=215:218
+34	oracao	oracao	NOUN	NOUN	_	33	obj	_	TokenRange=219:225
+35	libertou	libertar	VERB	VERB	_	33	parataxis	_	TokenRange=226:234
+36	paraiso	paraiso	NOUN	NOUN	_	35	obj	_	TokenRange=235:242
+37	mande	mande	ADJ	ADJ	_	40	advmod	_	TokenRange=243:248
+38	sinal	sinal	NOUN	NOUN	_	40	obj	_	TokenRange=249:254
+39	atriz	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=255:260
+40	contou	contar	VERB	VERB	_	35	conj	_	TokenRange=261:267
+41	questao	questao	NOUN	NOUN	_	40	obj	_	TokenRange=268:275
+42	segundos	segundo	ADJ	ADJ	_	41	amod	_	TokenRange=276:284
+43	vela	vela	NOUN	NOUN	_	40	nsubj	_	TokenRange=285:289
+44	explodiu	explodir	VERB	VERB	_	41	acl:relcl	_	TokenRange=290:298
+45	disse	dizer	VERB	VERB	_	40	conj	_	TokenRange=299:304
+46	amor	amor	NOUN	NOUN	_	45	obj	_	TokenRange=305:309
+47	lembre	lembre	VERB	VERB	_	46	amod	_	TokenRange=310:316
+48	medo	medo	NOUN	NOUN	_	49	flat	_	TokenRange=317:321
+49	passe	passe	NOUN	NOUN	_	46	appos	_	TokenRange=322:327
+50	disso	_	X	ADPPRON	_	49	nmod	_	TokenRange=328:333
+51	relatou	relatar	VERB	VERB	_	49	acl:relcl	_	TokenRange=334:341
+52	artista	artista	NOUN	NOUN	_	53	nsubj	_	TokenRange=342:349
+53	faleceu	falecer	VERB	VERB	_	51	parataxis	_	TokenRange=350:357
+54	75	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=358:360
+55	anos	ano	NOUN	NOUN	_	53	nmod	_	TokenRange=361:365
+56	decorrencia	decorrenciar	VERB	VERB	_	53	parataxis	_	TokenRange=366:377
+57	complicacoes	_	NOUN	NOUN	_	56	obj	_	TokenRange=378:390
+58	pulmonares	pulmonar	ADJ	ADJ	_	57	amod	_	TokenRange=391:401
+59	decorrentes	decorrente	ADJ	ADJ	_	57	amod	_	TokenRange=402:413
+60	cancer	cancer	VERB	VERB	_	57	appos	_	SpaceAfter=No|TokenRange=414:420
+

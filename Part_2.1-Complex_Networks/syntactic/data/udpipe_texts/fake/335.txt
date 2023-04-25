@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mortadela dinheiro manifestacoes favor lula comecam fracassar rs policia militar porto alegre preparou receber 3 5 mil manifestantes vermelhinhos marcha favor expresidente lula sendo fracasso imagens circulam internet momento pra notar apoiadores condenado preferiram ficar casa familias publico estimado apareceu ruas capital gaucha durante dia hoje ultrapassou 500 gatos pingados crise kit mortadela bonus 50 reais petista sobreviva bom qualquer jeito desejamos boa sorte desembargadores trf4
+1	mortadela	mortadela	NOUN	NOUN	_	40	nsubj	_	TokenRange=0:9
+2	dinheiro	dinheiro	NOUN	NOUN	_	1	flat	_	TokenRange=10:18
+3	manifestacoes	manifestacoe	NOUN	NOUN	_	1	appos	_	TokenRange=19:32
+4	favor	favor	ADJ	ADJ	_	3	amod	_	TokenRange=33:38
+5	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=39:43
+6	comecam	comecer	AUX	VERB	_	7	aux	_	TokenRange=44:51
+7	fracassar	fracassar	VERB	VERB	_	1	acl:relcl	_	TokenRange=52:61
+8	rs	_	NOUN	NOUN	_	7	mark	_	TokenRange=62:64
+9	policia	policia	NOUN	NOUN	_	7	nsubj	_	TokenRange=65:72
+10	militar	militar	ADJ	ADJ	_	9	amod	_	TokenRange=73:80
+11	porto	porto	NOUN	NOUN	_	9	appos	_	TokenRange=81:86
+12	alegre	alegre	ADJ	ADJ	_	9	amod	_	TokenRange=87:93
+13	preparou	preparar	VERB	VERB	_	7	conj	_	TokenRange=94:102
+14	receber	receber	VERB	VERB	_	13	xcomp	_	TokenRange=103:110
+15	3	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=111:112
+16	5	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=113:114
+17	mil	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=115:118
+18	manifestantes	manifestante	NOUN	NOUN	_	14	obj	_	TokenRange=119:132
+19	vermelhinhos	vermelhinho	ADJ	ADJ	_	18	amod	_	TokenRange=133:145
+20	marcha	marcha	NOUN	NOUN	_	13	nsubj	_	TokenRange=146:152
+21	favor	favor	ADJ	ADJ	_	20	amod	_	TokenRange=153:158
+22	expresidente	expresidente	NOUN	NOUN	_	20	appos	_	TokenRange=159:171
+23	lula	lula	ADJ	ADJ	_	22	amod	_	TokenRange=172:176
+24	sendo	ser	AUX	AUX	_	27	aux	_	TokenRange=177:182
+25	fracasso	fracasso	ADJ	ADJ	_	20	amod	_	TokenRange=183:191
+26	imagens	imagem	NOUN	NOUN	_	27	nsubj	_	TokenRange=192:199
+27	circulam	circular	VERB	VERB	_	20	acl:relcl	_	TokenRange=200:208
+28	internet	_	ADJ	ADJ	_	27	xcomp	_	TokenRange=209:217
+29	momento	momento	NOUN	NOUN	_	27	obj	_	TokenRange=218:225
+30	pra	_	ADP	ADP	_	31	mark	_	TokenRange=226:229
+31	notar	notar	VERB	VERB	_	29	nmod	_	TokenRange=230:235
+32	apoiadores	_	NOUN	NOUN	_	31	obj	_	TokenRange=236:246
+33	condenado	condenado	ADJ	ADJ	_	32	amod	_	TokenRange=247:256
+34	preferiram	preferir	VERB	VERB	_	27	parataxis	_	TokenRange=257:267
+35	ficar	ficar	VERB	VERB	_	34	xcomp	_	TokenRange=268:273
+36	casa	casa	NOUN	NOUN	_	35	obj	_	TokenRange=274:278
+37	familias	familia	NOUN	NOUN	_	36	flat	_	TokenRange=279:287
+38	publico	_	ADJ	NOUN	_	36	amod	_	TokenRange=288:295
+39	estimado	estimar	VERB	VERB	_	36	acl	_	TokenRange=296:304
+40	apareceu	aparecer	VERB	VERB	_	0	root	_	TokenRange=305:313
+41	ruas	rua	NOUN	NOUN	_	40	obj	_	TokenRange=314:318
+42	capital	capital	NOUN	NOUN	_	41	appos	_	TokenRange=319:326
+43	gaucha	gaucho	ADJ	ADJ	_	42	amod	_	TokenRange=327:333
+44	durante	_	ADP	ADP	_	45	case	_	TokenRange=334:341
+45	dia	dia	NOUN	NOUN	_	47	nmod	_	TokenRange=342:345
+46	hoje	hoje	ADV	ADV	_	47	advmod	_	TokenRange=346:350
+47	ultrapassou	ultrapassar	VERB	VERB	_	40	parataxis	_	TokenRange=351:362
+48	500	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=363:366
+49	gatos	gato	NOUN	NOUN	_	47	obj	_	TokenRange=367:372
+50	pingados	pingado	ADJ	ADJ	_	49	amod	_	TokenRange=373:381
+51	crise	crise	NOUN	NOUN	_	49	appos	_	TokenRange=382:387
+52	kit	_	NOUN	NOUN	_	49	appos	_	TokenRange=388:391
+53	mortadela	_	NOUN	NOUN	_	49	appos	_	TokenRange=392:401
+54	bonus	_	NOUN	NOUN	_	56	amod	_	TokenRange=402:407
+55	50	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=408:410
+56	reais	real	NOUN	NOUN	_	58	nsubj	_	TokenRange=411:416
+57	petista	petista	NOUN	NOUN	_	58	nsubj	_	TokenRange=417:424
+58	sobreviva	sobrevivar	VERB	VERB	_	47	parataxis	_	TokenRange=425:434
+59	bom	bom	ADJ	ADJ	_	62	xcomp	_	TokenRange=435:438
+60	qualquer	_	DET	DET	_	61	det	_	TokenRange=439:447
+61	jeito	jeito	NOUN	NOUN	_	62	nmod	_	TokenRange=448:453
+62	desejamos	desejar	VERB	VERB	_	47	parataxis	_	TokenRange=454:463
+63	boa	bom	ADJ	ADJ	_	64	amod	_	TokenRange=464:467
+64	sorte	sorte	NOUN	NOUN	_	62	obj	_	TokenRange=468:473
+65	desembargadores	desembargador	NOUN	NOUN	_	62	obj	_	TokenRange=474:489
+66	trf4	_	NOUN	NOUN	_	65	appos	_	SpaceAfter=No|TokenRange=490:494
+

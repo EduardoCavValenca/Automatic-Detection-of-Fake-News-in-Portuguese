@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = poscinzas huck deve fazer reunioes proximos dias especialistas marketing politico pesquisas qualitativas enquanto perscruta terreno adota discurso publico candidato nada fim carnaval luciano huck comecara poucos colocar rua bloco precampanha presidencial apresentador tv aproveitou folia manter conversas estafe pretende contar tornar publicas intencoes politicas ora vai construindo time responsavel
+1	poscinzas	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:9
+2	huck	_	PROPN	PNOUN	_	4	nsubj	_	TokenRange=10:14
+3	deve	dever	AUX	AUX	_	4	aux	_	TokenRange=15:19
+4	fazer	fazer	VERB	VERB	_	0	root	_	TokenRange=20:25
+5	reunioes	reunioe	NOUN	NOUN	_	4	obj	_	TokenRange=26:34
+6	proximos	proximo	ADJ	ADJ	_	7	amod	_	TokenRange=35:43
+7	dias	dia	NOUN	NOUN	_	4	nmod	_	TokenRange=44:48
+8	especialistas	especialista	NOUN	NOUN	_	4	nsubj	_	TokenRange=49:62
+9	marketing	marketing	NOUN	NOUN	_	5	appos	_	TokenRange=63:72
+10	politico	politico	ADJ	ADJ	_	9	amod	_	TokenRange=73:81
+11	pesquisas	pesquisa	NOUN	NOUN	_	4	obj	_	TokenRange=82:91
+12	qualitativas	qualitativo	ADJ	ADJ	_	11	amod	_	TokenRange=92:104
+13	enquanto	_	CCONJ	CONJ	_	14	mark	_	TokenRange=105:113
+14	perscruta	perscrutar	VERB	VERB	_	16	advcl	_	TokenRange=114:123
+15	terreno	terreno	NOUN	NOUN	_	14	obj	_	TokenRange=124:131
+16	adota	adotar	VERB	VERB	_	4	parataxis	_	TokenRange=132:137
+17	discurso	discurso	NOUN	NOUN	_	16	obj	_	TokenRange=138:146
+18	publico	publico	ADJ	ADJ	_	17	amod	_	TokenRange=147:154
+19	candidato	candidato	NOUN	NOUN	_	17	appos	_	TokenRange=155:164
+20	nada	_	DET	DET	_	21	det	_	TokenRange=165:169
+21	fim	fim	NOUN	NOUN	_	16	nsubj	_	TokenRange=170:173
+22	carnaval	carnaval	NOUN	NOUN	_	21	flat	_	TokenRange=174:182
+23	luciano	luciano	NOUN	NOUN	_	25	nsubj	_	TokenRange=183:190
+24	huck	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=191:195
+25	comecara	comecar	VERB	VERB	_	21	acl:relcl	_	TokenRange=196:204
+26	poucos	_	PRON	PRON	_	27	nsubj	_	TokenRange=205:211
+27	colocar	colocar	VERB	VERB	_	25	ccomp	_	TokenRange=212:219
+28	rua	rua	NOUN	NOUN	_	27	obj	_	TokenRange=220:223
+29	bloco	bloco	ADJ	ADJ	_	30	amod	_	TokenRange=224:229
+30	precampanha	precampanha	NOUN	NOUN	_	27	nsubj	_	TokenRange=230:241
+31	presidencial	presidencial	ADJ	ADJ	_	30	amod	_	TokenRange=242:254
+32	apresentador	apresentador	NOUN	NOUN	_	34	nsubj	_	TokenRange=255:267
+33	tv	_	NOUN	NOUN	_	32	amod	_	TokenRange=268:270
+34	aproveitou	aproveitar	VERB	VERB	_	25	parataxis	_	TokenRange=271:281
+35	folia	_	NOUN	NOUN	_	34	obj	_	TokenRange=282:287
+36	manter	manter	VERB	VERB	_	34	ccomp	_	TokenRange=288:294
+37	conversas	_	NOUN	NOUN	_	36	obj	_	TokenRange=295:304
+38	estafe	estafe	NOUN	NOUN	_	37	appos	_	TokenRange=305:311
+39	pretende	pretender	VERB	VERB	_	34	parataxis	_	TokenRange=312:320
+40	contar	contar	VERB	VERB	_	39	xcomp	_	TokenRange=321:327
+41	tornar	tornar	VERB	VERB	_	40	xcomp	_	TokenRange=328:334
+42	publicas	publico	ADJ	ADJ	_	41	xcomp	_	TokenRange=335:343
+43	intencoes	_	NOUN	NOUN	_	41	obj	_	TokenRange=344:353
+44	politicas	politico	ADJ	ADJ	_	43	amod	_	TokenRange=354:363
+45	ora	ora	ADV	ADV	_	47	advmod	_	TokenRange=364:367
+46	vai	ir	AUX	AUX	_	47	aux	_	TokenRange=368:371
+47	construindo	construir	VERB	VERB	_	39	conj	_	TokenRange=372:383
+48	time	time	NOUN	NOUN	_	47	obj	_	TokenRange=384:388
+49	responsavel	responsavel	ADJ	ADJ	_	48	amod	_	SpaceAfter=No|TokenRange=389:400
+

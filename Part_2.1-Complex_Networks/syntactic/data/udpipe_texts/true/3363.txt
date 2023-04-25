@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ano n presos provisorios cai prisoes pais seguem 70 acima capacidade levantamento g1 mostra 344 presos brasil provisorios 2017 376 deficit vagas sistema penitenciario chega 279 mil numero proporcao presos provisorios diminuiram ano pais prisoes continuam superlotadas quase 70 acima capacidade mostra levantamento g1 dentro monitor violencia feito base dados atualizados 26 estados distrito federal monitor violencia resultado parceria g1 nucleo estudos violencia nev usp forum brasileiro seguranca publica janeiro 2017
+1	ano	ano	NOUN	NOUN	_	5	nmod	_	TokenRange=0:3
+2	n	_	NOUN	NOUN	_	1	appos	_	TokenRange=4:5
+3	presos	preso	NOUN	NOUN	_	1	appos	_	TokenRange=6:12
+4	provisorios	provisorio	ADJ	ADJ	_	3	amod	_	TokenRange=13:24
+5	cai	cair	VERB	VERB	_	0	root	_	TokenRange=25:28
+6	prisoes	_	NOUN	NOUN	_	5	obj	_	TokenRange=29:36
+7	pais	_	ADJ	ADJ	_	6	amod	_	TokenRange=37:41
+8	seguem	_	VERB	VERB	_	5	parataxis	_	TokenRange=42:48
+9	70	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=49:51
+10	acima	acima	ADV	ADV	_	8	advmod	_	TokenRange=52:57
+11	capacidade	capacidade	NOUN	NOUN	_	8	obj	_	TokenRange=58:68
+12	levantamento	levantamento	NOUN	NOUN	_	11	appos	_	TokenRange=69:81
+13	g1	_	ADJ	ADJ	_	23	amod	_	TokenRange=82:84
+14	mostra	mostrar	VERB	VERB	_	5	parataxis	_	TokenRange=85:91
+15	344	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=92:95
+16	presos	preso	NOUN	NOUN	_	14	obj	_	TokenRange=96:102
+17	brasil	brasil	NOUN	NOUN	_	16	appos	_	TokenRange=103:109
+18	provisorios	provisorio	ADJ	ADJ	_	16	amod	_	TokenRange=110:121
+19	2017	_	NUM	NUM	NumType=Card	16	appos	_	TokenRange=122:126
+20	376	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=127:130
+21	deficit	deficit	NOUN	NOUN	_	16	appos	_	TokenRange=131:138
+22	vagas	vaga	NOUN	NOUN	_	21	amod	_	TokenRange=139:144
+23	sistema	sistema	NOUN	NOUN	_	21	appos	_	TokenRange=145:152
+24	penitenciario	penitenciario	ADJ	ADJ	_	23	amod	_	TokenRange=153:166
+25	chega	chegar	VERB	VERB	_	14	parataxis	_	TokenRange=167:172
+26	279	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=173:176
+27	mil	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=177:180
+28	numero	numero	NOUN	NOUN	_	25	nsubj	_	TokenRange=181:187
+29	proporcao	proporcao	NOUN	NOUN	_	28	amod	_	TokenRange=188:197
+30	presos	preso	NOUN	NOUN	_	25	nsubj	_	TokenRange=198:204
+31	provisorios	provisorio	ADJ	ADJ	_	30	amod	_	TokenRange=205:216
+32	diminuiram	diminuir	VERB	VERB	_	14	parataxis	_	TokenRange=217:227
+33	ano	ano	NOUN	NOUN	_	32	nmod	_	TokenRange=228:231
+34	pais	_	ADJ	ADJ	_	33	amod	_	TokenRange=232:236
+35	prisoes	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=237:244
+36	continuam	continuar	VERB	VERB	_	14	parataxis	_	TokenRange=245:254
+37	superlotadas	superlotado	ADJ	ADJ	_	36	xcomp	_	TokenRange=255:267
+38	quase	quase	ADV	ADV	_	39	advmod	_	TokenRange=268:273
+39	70	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=274:276
+40	acima	acima	ADV	ADV	_	36	advmod	_	TokenRange=277:282
+41	capacidade	capacidade	NOUN	NOUN	_	36	nsubj	_	TokenRange=283:293
+42	mostra	mostrar	VERB	VERB	_	36	parataxis	_	TokenRange=294:300
+43	levantamento	levantamento	NOUN	NOUN	_	42	obj	_	TokenRange=301:313
+44	g1	_	NUM	NUM	_	43	appos	_	TokenRange=314:316
+45	dentro	dentro	ADV	ADV	_	42	advmod	_	TokenRange=317:323
+46	monitor	_	NOUN	NOUN	_	43	appos	_	TokenRange=324:331
+47	violencia	violencia	NOUN	NOUN	_	46	flat	_	TokenRange=332:341
+48	feito	_	VERB	VERB	_	43	acl	_	TokenRange=342:347
+49	base	base	NOUN	NOUN	_	48	obj	_	TokenRange=348:352
+50	dados	dado	NOUN	NOUN	_	46	appos	_	TokenRange=353:358
+51	atualizados	atualizado	ADJ	ADJ	_	50	amod	_	TokenRange=359:370
+52	26	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=371:373
+53	estados	estado	NOUN	NOUN	_	50	appos	_	TokenRange=374:381
+54	distrito	distrito	NOUN	NOUN	_	53	appos	_	TokenRange=382:390
+55	federal	federal	ADJ	ADJ	_	54	amod	_	TokenRange=391:398
+56	monitor	_	NOUN	NOUN	_	53	appos	_	TokenRange=399:406
+57	violencia	violencia	NOUN	NOUN	_	56	flat	_	TokenRange=407:416
+58	resultado	resultado	NOUN	NOUN	_	53	appos	_	TokenRange=417:426
+59	parceria	parceria	NOUN	NOUN	_	56	appos	_	TokenRange=427:435
+60	g1	_	NOUN	NOUN	_	59	appos	_	TokenRange=436:438
+61	nucleo	_	NOUN	NOUN	_	56	appos	_	TokenRange=439:445
+62	estudos	estudo	NOUN	NOUN	_	56	appos	_	TokenRange=446:453
+63	violencia	violencia	NOUN	NOUN	_	62	flat	_	TokenRange=454:463
+64	nev	_	X	NOUN	_	65	cc	_	TokenRange=464:467
+65	usp	_	NOUN	NOUN	_	56	conj	_	TokenRange=468:471
+66	forum	forum	NOUN	NOUN	_	65	appos	_	TokenRange=472:477
+67	brasileiro	brasileiro	ADJ	ADJ	_	66	amod	_	TokenRange=478:488
+68	seguranca	_	NOUN	NOUN	_	66	amod	_	TokenRange=489:498
+69	publica	publico	ADJ	ADJ	_	66	amod	_	TokenRange=499:506
+70	janeiro	_	PROPN	PNOUN	_	66	appos	_	TokenRange=507:514
+71	2017	_	NUM	NUM	NumType=Card	70	nmod	_	SpaceAfter=No|TokenRange=515:519
+

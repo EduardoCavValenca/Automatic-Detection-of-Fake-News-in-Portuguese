@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan compara temer dunga renan calheiros cutucou presidente michel temer vez senador acha brasileiro cara idiota concedeu entrevista dizendo governo deve mudar desse jeito parece selecao dunga renan disse querer algo estilo tite novo treinador selecao precisamos chegar porto seguro comparacao absurda politico fez dunga roubou dinheiro publico
+1	renan	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	compara	comparar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	temer	temer	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	dunga	_	NOUN	NOUN	_	2	dep	_	TokenRange=20:25
+5	renan	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=26:31
+6	calheiros	calheiro	NOUN	NOUN	_	5	flat	_	TokenRange=32:41
+7	cutucou	cutucar	VERB	VERB	_	2	conj	_	TokenRange=42:49
+8	presidente	presidente	NOUN	NOUN	_	7	obj	_	TokenRange=50:60
+9	michel	michel	ADJ	ADJ	_	10	amod	_	TokenRange=61:67
+10	temer	temer	NOUN	NOUN	_	13	nsubj	_	TokenRange=68:73
+11	vez	vez	NOUN	NOUN	_	12	amod	_	TokenRange=74:77
+12	senador	senador	NOUN	NOUN	_	13	nsubj	_	TokenRange=78:85
+13	acha	achar	VERB	VERB	_	2	conj	_	TokenRange=86:90
+14	brasileiro	brasileiro	ADJ	ADJ	_	13	xcomp	_	TokenRange=91:101
+15	cara	cara	NOUN	NOUN	_	13	nsubj	_	TokenRange=102:106
+16	idiota	idiota	ADJ	ADJ	_	15	amod	_	TokenRange=107:113
+17	concedeu	conceder	VERB	VERB	_	13	parataxis	_	TokenRange=114:122
+18	entrevista	entrevista	NOUN	NOUN	_	17	obj	_	TokenRange=123:133
+19	dizendo	dizer	VERB	VERB	_	18	acl	_	TokenRange=134:141
+20	governo	governo	NOUN	NOUN	_	22	obj	_	TokenRange=142:149
+21	deve	dever	AUX	AUX	_	22	aux	_	TokenRange=150:154
+22	mudar	mudar	VERB	VERB	_	19	ccomp	_	TokenRange=155:160
+23	desse	_	ADP	ADP	_	24	case	_	TokenRange=161:166
+24	jeito	jeito	NOUN	NOUN	_	22	nmod	_	TokenRange=167:172
+25	parece	parecer	VERB	VERB	_	17	parataxis	_	TokenRange=173:179
+26	selecao	selecao	NOUN	NOUN	_	25	nsubj	_	TokenRange=180:187
+27	dunga	dungo	ADJ	ADJ	_	29	nsubj	_	TokenRange=188:193
+28	renan	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=194:199
+29	disse	dizer	VERB	VERB	_	25	parataxis	_	TokenRange=200:205
+30	querer	querer	VERB	VERB	_	29	xcomp	_	TokenRange=206:212
+31	algo	_	DET	DET	_	32	det	_	TokenRange=213:217
+32	estilo	estilo	NOUN	NOUN	_	30	obj	_	TokenRange=218:224
+33	tite	_	CCONJ	CONJ	_	37	nsubj	_	TokenRange=225:229
+34	novo	novo	ADJ	ADJ	_	35	amod	_	TokenRange=230:234
+35	treinador	treinador	NOUN	NOUN	_	37	nsubj	_	TokenRange=235:244
+36	selecao	selecao	ADJ	ADJ	_	35	amod	_	TokenRange=245:252
+37	precisamos	precisar	VERB	VERB	_	29	conj	_	TokenRange=253:263
+38	chegar	chegar	VERB	VERB	_	37	xcomp	_	TokenRange=264:270
+39	porto	porto	NOUN	NOUN	_	38	nmod	_	TokenRange=271:276
+40	seguro	seguro	ADJ	ADJ	_	39	amod	_	TokenRange=277:283
+41	comparacao	comparacao	NOUN	NOUN	_	46	nsubj	_	TokenRange=284:294
+42	absurda	absurdo	ADJ	ADJ	_	41	amod	_	TokenRange=295:302
+43	politico	politico	NOUN	NOUN	_	41	amod	_	TokenRange=303:311
+44	fez	fazer	VERB	VERB	_	46	conj	_	TokenRange=312:315
+45	dunga	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=316:321
+46	roubou	roubar	VERB	VERB	_	37	conj	_	TokenRange=322:328
+47	dinheiro	dinheiro	NOUN	NOUN	_	46	obj	_	TokenRange=329:337
+48	publico	_	ADJ	ADJ	_	47	amod	_	SpaceAfter=No|TokenRange=338:345
+

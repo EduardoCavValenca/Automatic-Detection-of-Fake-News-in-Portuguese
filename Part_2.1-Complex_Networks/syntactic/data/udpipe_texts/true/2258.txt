@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = zuckerberg diz facebook vai atuar garantir integridade eleicao brasil fundador facebook lamentou escandalo envolvendo dados vazados disse rede social vai trabalhar impedir interferencia proximas eleicoes india brasil apos admitir facebook errou escandalo dados coletados empresa trabalhou campanha donald trump presidencia eua mark zuckerberg disse noite desta quartafeira 21 entrevista rede americana cnn testemunhara congresso coisa certa fazer comentou ainda
+1	zuckerberg	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	diz	dizer	VERB	VERB	_	58	ccomp	_	TokenRange=11:14
+3	facebook	_	PROPN	PNOUN	_	5	obj	_	TokenRange=15:23
+4	vai	ir	AUX	AUX	_	5	aux	_	TokenRange=24:27
+5	atuar	atuar	VERB	VERB	_	2	ccomp	_	TokenRange=28:33
+6	garantir	garantir	VERB	VERB	_	5	xcomp	_	TokenRange=34:42
+7	integridade	integridade	NOUN	NOUN	_	6	obj	_	TokenRange=43:54
+8	eleicao	eleicao	NOUN	NOUN	_	7	appos	_	TokenRange=55:62
+9	brasil	brasil	ADJ	ADJ	_	10	amod	_	TokenRange=63:69
+10	fundador	fundador	NOUN	NOUN	_	8	amod	_	TokenRange=70:78
+11	facebook	_	PROPN	PNOUN	_	10	appos	_	TokenRange=79:87
+12	lamentou	lamentar	VERB	VERB	_	2	conj	_	TokenRange=88:96
+13	escandalo	escandalo	NOUN	NOUN	_	12	obj	_	TokenRange=97:106
+14	envolvendo	envolver	VERB	VERB	_	13	acl	_	TokenRange=107:117
+15	dados	dado	NOUN	NOUN	_	14	obj	_	TokenRange=118:123
+16	vazados	vazado	ADJ	ADJ	_	15	amod	_	TokenRange=124:131
+17	disse	dizer	VERB	VERB	_	12	parataxis	_	TokenRange=132:137
+18	rede	rede	NOUN	NOUN	_	17	nsubj	_	TokenRange=138:142
+19	social	social	ADJ	ADJ	_	18	amod	_	TokenRange=143:149
+20	vai	ir	AUX	AUX	_	21	aux	_	TokenRange=150:153
+21	trabalhar	trabalhar	VERB	VERB	_	17	ccomp	_	TokenRange=154:163
+22	impedir	impedir	VERB	VERB	_	21	xcomp	_	TokenRange=164:171
+23	interferencia	_	NOUN	NOUN	_	22	obj	_	TokenRange=172:185
+24	proximas	proximo	ADJ	ADJ	_	25	amod	_	TokenRange=186:194
+25	eleicoes	eleicoe	NOUN	NOUN	_	22	obj	_	TokenRange=195:203
+26	india	india	NOUN	NOUN	_	25	appos	_	TokenRange=204:209
+27	brasil	brasil	NOUN	NOUN	_	26	flat	_	TokenRange=210:216
+28	apos	_	ADP	ADP	_	29	mark	_	TokenRange=217:221
+29	admitir	admitir	VERB	VERB	_	31	advcl	_	TokenRange=222:229
+30	facebook	_	PROPN	PNOUN	_	29	obj	_	TokenRange=230:238
+31	errou	errar	VERB	VERB	_	21	conj	_	TokenRange=239:244
+32	escandalo	escandalo	NOUN	NOUN	_	31	obj	_	TokenRange=245:254
+33	dados	dado	NOUN	NOUN	_	32	appos	_	TokenRange=255:260
+34	coletados	coletar	VERB	VERB	_	33	acl	_	TokenRange=261:270
+35	empresa	empresa	NOUN	NOUN	_	33	appos	_	TokenRange=271:278
+36	trabalhou	trabalhar	VERB	VERB	_	33	acl:relcl	_	TokenRange=279:288
+37	campanha	campanha	NOUN	NOUN	_	36	obj	_	TokenRange=289:297
+38	donald	_	NOUN	NOUN	_	37	appos	_	TokenRange=298:304
+39	trump	_	NOUN	NOUN	_	38	flat	_	TokenRange=305:310
+40	presidencia	presidencia	NOUN	NOUN	_	37	appos	_	TokenRange=311:322
+41	eua	_	DET	DET	_	42	det	_	TokenRange=323:326
+42	mark	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=327:331
+43	zuckerberg	_	NOUN	NOUN	_	42	flat	_	TokenRange=332:342
+44	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=343:348
+45	noite	noite	NOUN	NOUN	_	44	obj	_	TokenRange=349:354
+46	desta	_	ADP	ADP	_	47	case	_	TokenRange=355:360
+47	quartafeira	quartafeira	NOUN	NOUN	_	45	nmod	_	TokenRange=361:372
+48	21	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=373:375
+49	entrevista	entrevista	NOUN	NOUN	_	47	appos	_	TokenRange=376:386
+50	rede	rede	NOUN	NOUN	_	47	appos	_	TokenRange=387:391
+51	americana	americano	ADJ	ADJ	_	50	amod	_	TokenRange=392:401
+52	cnn	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=402:405
+53	testemunhara	testemunhar	VERB	VERB	_	44	parataxis	_	TokenRange=406:418
+54	congresso	congresso	NOUN	NOUN	_	53	obj	_	TokenRange=419:428
+55	coisa	coisa	NOUN	NOUN	_	54	appos	_	TokenRange=429:434
+56	certa	certo	ADJ	ADJ	_	55	amod	_	TokenRange=435:440
+57	fazer	fazer	VERB	VERB	_	53	xcomp	_	TokenRange=441:446
+58	comentou	comentar	VERB	VERB	_	0	root	_	TokenRange=447:455
+59	ainda	ainda	ADV	ADV	_	58	advmod	_	SpaceAfter=No|TokenRange=456:461
+

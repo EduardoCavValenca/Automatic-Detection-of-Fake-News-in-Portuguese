@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = anatel deveria proteger consumidor faz quebrada r 14 00 caixa agencia reguladora caixa misera quantia r 14 00 segundo apurou revista exame agencia ponto parar primeiro setor sofrer colapso financeiro call center agencia responsavel atendimento consumidores insatisfeitos durante olimpiadas 2016 prevista equipe tecnicos anatel fazer monitoramento fiscalizacao tecnica servicos telecomunicacoes essenciais servicos seguranca publica transmissoes tv olimpiadas correm risco transformar fiasco televisivo agencia deve pagamentos contas servicos telecomunicacoes proprias empresas regula ministerio ciencia tecnologia inovacoes comunicacoes ainda pronunciou sobre assunto
+1	anatel	anatel	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	deveria	dever	AUX	AUX	_	3	aux	_	TokenRange=7:14
+3	proteger	proteger	VERB	VERB	_	78	ccomp	_	TokenRange=15:23
+4	consumidor	consumidor	NOUN	NOUN	_	3	obj	_	TokenRange=24:34
+5	faz	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=35:38
+6	quebrada	_	NOUN	NOUN	_	5	obj	_	TokenRange=39:47
+7	r	r	NOUN	NOUN	_	5	punct	_	TokenRange=48:49
+8	14	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=50:52
+9	00	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=53:55
+10	caixa	caixa	NOUN	NOUN	_	3	appos	_	TokenRange=56:61
+11	agencia	agencia	NOUN	NOUN	_	10	appos	_	TokenRange=62:69
+12	reguladora	regulador	ADJ	ADJ	_	11	amod	_	TokenRange=70:80
+13	caixa	caixa	NOUN	NOUN	_	11	appos	_	TokenRange=81:86
+14	misera	_	NOUN	NOUN	_	13	amod	_	TokenRange=87:93
+15	quantia	quantia	NOUN	NOUN	_	13	appos	_	TokenRange=94:101
+16	r	r	NOUN	NOUN	_	15	appos	_	TokenRange=102:103
+17	14	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=104:106
+18	00	_	NUM	NUM	NumType=Card	16	appos	_	TokenRange=107:109
+19	segundo	_	CCONJ	CONJ	_	20	mark	_	TokenRange=110:117
+20	apurou	apurar	VERB	VERB	_	3	advcl	_	TokenRange=118:124
+21	revista	revista	NOUN	NOUN	_	20	obj	_	TokenRange=125:132
+22	exame	exame	NOUN	NOUN	_	21	appos	_	TokenRange=133:138
+23	agencia	agencia	NOUN	NOUN	_	20	nsubj	_	TokenRange=139:146
+24	ponto	ponto	NOUN	NOUN	_	23	appos	_	TokenRange=147:152
+25	parar	parar	VERB	VERB	_	23	acl:relcl	_	TokenRange=153:158
+26	primeiro	primeiro	ADJ	ADJ	_	27	amod	_	TokenRange=159:167
+27	setor	setor	NOUN	NOUN	_	25	obj	_	TokenRange=168:173
+28	sofrer	sofrer	VERB	VERB	_	23	acl:inf	_	TokenRange=174:180
+29	colapso	colapso	NOUN	NOUN	_	28	obj	_	TokenRange=181:188
+30	financeiro	financeiro	ADJ	ADJ	_	29	amod	_	TokenRange=189:199
+31	call	_	NOUN	NOUN	_	29	appos	_	TokenRange=200:204
+32	center	_	NOUN	NOUN	_	31	flat	_	TokenRange=205:211
+33	agencia	agencia	NOUN	NOUN	_	28	obj	_	TokenRange=212:219
+34	responsavel	responsavel	ADJ	ADJ	_	33	amod	_	TokenRange=220:231
+35	atendimento	atendimento	NOUN	NOUN	_	33	appos	_	TokenRange=232:243
+36	consumidores	consumidor	ADJ	ADJ	_	35	amod	_	TokenRange=244:256
+37	insatisfeitos	insatisfeito	ADJ	ADJ	_	35	amod	_	TokenRange=257:270
+38	durante	_	ADP	ADP	_	39	case	_	TokenRange=271:278
+39	olimpiadas	olimpiada	NOUN	NOUN	_	28	nmod	_	TokenRange=279:289
+40	2016	_	NUM	NUM	NumType=Card	39	nmod	_	TokenRange=290:294
+41	prevista	previsto	ADJ	ADJ	_	42	amod	_	TokenRange=295:303
+42	equipe	equipe	NOUN	NOUN	_	78	nsubj	_	TokenRange=304:310
+43	tecnicos	tecnico	ADJ	ADJ	_	42	amod	_	TokenRange=311:319
+44	anatel	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=320:326
+45	fazer	fazer	VERB	VERB	_	42	acl:relcl	_	TokenRange=327:332
+46	monitoramento	monitoramento	NOUN	NOUN	_	45	obj	_	TokenRange=333:346
+47	fiscalizacao	fiscalizacao	NOUN	NOUN	_	46	amod	_	TokenRange=347:359
+48	tecnica	tecnico	ADJ	ADJ	_	47	amod	_	TokenRange=360:367
+49	servicos	servico	ADJ	ADJ	_	50	amod	_	TokenRange=368:376
+50	telecomunicacoes	_	NOUN	NOUN	_	46	appos	_	TokenRange=377:393
+51	essenciais	essencial	ADJ	ADJ	_	50	amod	_	TokenRange=394:404
+52	servicos	servico	ADJ	ADJ	_	50	amod	_	TokenRange=405:413
+53	seguranca	_	NOUN	NOUN	_	50	appos	_	TokenRange=414:423
+54	publica	publico	ADJ	ADJ	_	53	amod	_	TokenRange=424:431
+55	transmissoes	transmissoe	NOUN	NOUN	_	58	nsubj	_	TokenRange=432:444
+56	tv	_	NOUN	NOUN	_	55	appos	_	TokenRange=445:447
+57	olimpiadas	_	NOUN	NOUN	_	55	appos	_	TokenRange=448:458
+58	correm	correr	VERB	VERB	_	45	parataxis	_	TokenRange=459:465
+59	risco	risco	NOUN	NOUN	_	58	obj	_	TokenRange=466:471
+60	transformar	transformar	VERB	VERB	_	58	ccomp	_	TokenRange=472:483
+61	fiasco	fiasco	NOUN	NOUN	_	60	obj	_	TokenRange=484:490
+62	televisivo	televisivo	ADJ	ADJ	_	61	amod	_	TokenRange=491:501
+63	agencia	agencia	NOUN	NOUN	_	58	nsubj	_	TokenRange=502:509
+64	deve	dever	AUX	AUX	_	65	case	_	TokenRange=510:514
+65	pagamentos	pagamento	NOUN	NOUN	_	58	nsubj	_	TokenRange=515:525
+66	contas	conta	NOUN	NOUN	_	65	appos	_	TokenRange=526:532
+67	servicos	servico	ADJ	ADJ	_	65	amod	_	TokenRange=533:541
+68	telecomunicacoes	_	NOUN	NOUN	_	65	appos	_	TokenRange=542:558
+69	proprias	proprio	ADJ	ADJ	_	70	amod	_	TokenRange=559:567
+70	empresas	empresa	NOUN	NOUN	_	65	appos	_	TokenRange=568:576
+71	regula	regular	VERB	VERB	_	78	parataxis	_	TokenRange=577:583
+72	ministerio	ministerio	NOUN	NOUN	_	71	obj	_	TokenRange=584:594
+73	ciencia	ciencia	NOUN	NOUN	_	72	appos	_	TokenRange=595:602
+74	tecnologia	tecnologia	NOUN	NOUN	_	73	flat	_	TokenRange=603:613
+75	inovacoes	_	NOUN	NOUN	_	72	amod	_	TokenRange=614:623
+76	comunicacoes	comunicacoe	NOUN	NOUN	_	78	obj	_	TokenRange=624:636
+77	ainda	ainda	ADV	ADV	_	78	advmod	_	TokenRange=637:642
+78	pronunciou	pronunciar	VERB	VERB	_	0	root	_	TokenRange=643:653
+79	sobre	_	ADP	ADP	_	80	case	_	TokenRange=654:659
+80	assunto	assunto	NOUN	NOUN	_	78	nmod	_	SpaceAfter=No|TokenRange=660:667
+

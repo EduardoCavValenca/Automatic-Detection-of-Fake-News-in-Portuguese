@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = operacao pegadores quinta fase operacao sermao peixes deflagrada nesta quintafeira 16 encontrou 400 funcionarios fantasmas folha salarial rede publica saude maranhao investigacao aponta fantasmas apadrinhados politicos incluidos folha pagamentos hospitais estaduais prestassem qualquer tipo servico segundo investigadores fraudes prolongaram 2017 governo flavio dino pc b informou secretaria estado saude totalmente disposicao ajudar total esclarecimento fatos sorveteria virou servicos medicos fraude milionaria saude maranhao diz pf pegadores mira desvios recursos publicos federais meio fraudes
+1	operacao	operacao	NOUN	NOUN	_	12	parataxis	_	TokenRange=0:8
+2	pegadores	pegador	ADJ	ADJ	_	1	amod	_	TokenRange=9:18
+3	quinta	_	ADJ	ADJ	_	4	amod	_	TokenRange=19:25
+4	fase	fase	NOUN	NOUN	_	1	appos	_	TokenRange=26:30
+5	operacao	operacao	NOUN	NOUN	_	1	appos	_	TokenRange=31:39
+6	sermao	_	NOUN	NOUN	_	5	flat	_	TokenRange=40:46
+7	peixes	peixe	NOUN	NOUN	_	1	appos	_	TokenRange=47:53
+8	deflagrada	deflagrado	ADJ	ADJ	_	7	amod	_	TokenRange=54:64
+9	nesta	_	ADP	ADP	_	10	case	_	TokenRange=65:70
+10	quintafeira	quintafeira	NOUN	NOUN	_	12	nmod	_	TokenRange=71:82
+11	16	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=83:85
+12	encontrou	encontrar	VERB	VERB	_	0	root	_	TokenRange=86:95
+13	400	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=96:99
+14	funcionarios	funcionario	NOUN	NOUN	_	12	obj	_	TokenRange=100:112
+15	fantasmas	fantasma	ADJ	ADJ	_	14	amod	_	TokenRange=113:122
+16	folha	folha	NOUN	NOUN	_	12	obj	_	TokenRange=123:128
+17	salarial	salarial	ADJ	ADJ	_	16	amod	_	TokenRange=129:137
+18	rede	rede	NOUN	NOUN	_	12	obj	_	TokenRange=138:142
+19	publica	publico	ADJ	ADJ	_	18	amod	_	TokenRange=143:150
+20	saude	saude	NOUN	NOUN	_	23	nsubj	_	TokenRange=151:156
+21	maranhao	maranhao	ADJ	ADJ	_	20	amod	_	TokenRange=157:165
+22	investigacao	investigacao	NOUN	NOUN	_	20	amod	_	TokenRange=166:178
+23	aponta	apontar	VERB	VERB	_	12	parataxis	_	TokenRange=179:185
+24	fantasmas	fantasma	NOUN	NOUN	_	23	obj	_	TokenRange=186:195
+25	apadrinhados	_	ADJ	ADJ	_	24	amod	_	TokenRange=196:208
+26	politicos	politico	ADJ	ADJ	_	24	amod	_	TokenRange=209:218
+27	incluidos	incluir	VERB	VERB	_	24	acl	_	TokenRange=219:228
+28	folha	folha	NOUN	NOUN	_	27	obj	_	TokenRange=229:234
+29	pagamentos	pagamento	NOUN	NOUN	_	32	nsubj	_	TokenRange=235:245
+30	hospitais	hospital	NOUN	NOUN	_	29	flat	_	TokenRange=246:255
+31	estaduais	estadual	ADJ	ADJ	_	30	amod	_	TokenRange=256:265
+32	prestassem	prestar	VERB	VERB	_	24	acl:relcl	_	TokenRange=266:276
+33	qualquer	_	DET	DET	_	34	det	_	TokenRange=277:285
+34	tipo	tipo	NOUN	NOUN	_	32	obj	_	TokenRange=286:290
+35	servico	servico	NOUN	NOUN	_	34	flat	_	TokenRange=291:298
+36	segundo	_	ADP	ADP	_	37	case	_	TokenRange=299:306
+37	investigadores	investigador	NOUN	NOUN	_	32	nmod	_	TokenRange=307:321
+38	fraudes	fraude	NOUN	NOUN	_	39	nsubj	_	TokenRange=322:329
+39	prolongaram	prolongar	VERB	VERB	_	32	parataxis	_	TokenRange=330:341
+40	2017	_	NUM	NUM	NumType=Card	39	nmod	_	TokenRange=342:346
+41	governo	governo	NOUN	NOUN	_	39	nsubj	_	TokenRange=347:354
+42	flavio	flavio	ADJ	ADJ	_	41	appos	_	TokenRange=355:361
+43	dino	dino	NOUN	NOUN	_	41	flat	_	TokenRange=362:366
+44	pc	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=367:369
+45	b	_	X	X	_	44	flat	_	TokenRange=370:371
+46	informou	informar	VERB	VERB	_	12	parataxis	_	TokenRange=372:380
+47	secretaria	secretaria	NOUN	NOUN	_	46	obj	_	TokenRange=381:391
+48	estado	estado	NOUN	NOUN	_	47	flat	_	TokenRange=392:398
+49	saude	saude	NOUN	NOUN	_	47	flat	_	TokenRange=399:404
+50	totalmente	totalmente	ADV	ADV	_	51	advmod	_	TokenRange=405:415
+51	disposicao	disposicao	NOUN	NOUN	_	47	amod	_	TokenRange=416:426
+52	ajudar	ajudar	VERB	VERB	_	47	acl:inf	_	TokenRange=427:433
+53	total	total	ADJ	ADJ	_	54	amod	_	TokenRange=434:439
+54	esclarecimento	esclarecimento	NOUN	NOUN	_	52	obj	_	TokenRange=440:454
+55	fatos	fato	NOUN	NOUN	_	52	obj	_	TokenRange=455:460
+56	sorveteria	sorveteria	NOUN	NOUN	_	58	appos	_	TokenRange=461:471
+57	virou	virar	AUX	AUX	_	58	cop	_	TokenRange=472:477
+58	servicos	servico	NOUN	NOUN	_	52	obj	_	TokenRange=478:486
+59	medicos	medico	ADJ	ADJ	_	58	amod	_	TokenRange=487:494
+60	fraude	fraude	NOUN	NOUN	_	58	appos	_	TokenRange=495:501
+61	milionaria	milionario	ADJ	ADJ	_	60	amod	_	TokenRange=502:512
+62	saude	saude	NOUN	NOUN	_	64	nsubj	_	TokenRange=513:518
+63	maranhao	maranhao	ADJ	ADJ	_	62	amod	_	TokenRange=519:527
+64	diz	dizer	VERB	VERB	_	60	acl:relcl	_	TokenRange=528:531
+65	pf	_	NOUN	NOUN	_	64	obj	_	TokenRange=532:534
+66	pegadores	pegador	NOUN	NOUN	_	65	flat	_	TokenRange=535:544
+67	mira	_	VERB	VERB	_	64	ccomp	_	TokenRange=545:549
+68	desvios	desvio	NOUN	NOUN	_	73	amod	_	TokenRange=550:557
+69	recursos	recurso	NOUN	NOUN	_	73	appos	_	TokenRange=558:566
+70	publicos	publico	ADJ	ADJ	_	69	amod	_	TokenRange=567:575
+71	federais	federal	ADJ	ADJ	_	69	amod	_	TokenRange=576:584
+72	meio	meio	ADJ	ADJ	_	73	amod	_	TokenRange=585:589
+73	fraudes	fraude	NOUN	NOUN	_	67	obj	_	SpaceAfter=No|TokenRange=590:597
+

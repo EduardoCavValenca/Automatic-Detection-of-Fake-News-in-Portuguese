@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caminhoneiros dao ultimato dilma queremos acordo saia governo iremos parar pais mesmos caminhoneiros organizaram mega paralisacao categoria fevereiro 2015 tentam articular nova mobilizacao proxima segundafeira 09 grupo pede saida presidente dilma alega governo cumpriu acordos feitos categoria epoca reivindicacoes atendidas agora queremos negociar aceitaremos acordo queremos renuncia presidente afirmou organizador manifestacao ivar luiz schmidt ivar responsaveis responsavel liderar paralisacao fevereiro afetou distribuicao combustivel pais fez preco gasolina chegasse cinco reais litro algumas cidades noticia ultima hora 8/11 1945 noticia ultima hora 7/11 2208 leia leia
+1	caminhoneiros	caminhoneiro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:13
+2	dao	_	VERB	VERB	_	76	acl	_	TokenRange=14:17
+3	ultimato	ultimato	NOUN	NOUN	_	2	obj	_	TokenRange=18:26
+4	dilma	dilma	NOUN	NOUN	_	5	nsubj	_	TokenRange=27:32
+5	queremos	querer	VERB	VERB	_	2	ccomp	_	TokenRange=33:41
+6	acordo	acordo	NOUN	NOUN	_	5	obj	_	TokenRange=42:48
+7	saia	_	VERB	VERB	_	10	mark	_	TokenRange=49:53
+8	governo	governo	NOUN	NOUN	_	10	nsubj	_	TokenRange=54:61
+9	iremos	_	AUX	AUX	_	10	aux	_	TokenRange=62:68
+10	parar	parar	VERB	VERB	_	2	ccomp	_	TokenRange=69:74
+11	pais	_	NOUN	NOUN	_	10	obj	_	TokenRange=75:79
+12	mesmos	mesmo	ADJ	ADJ	_	13	amod	_	TokenRange=80:86
+13	caminhoneiros	caminhoneiro	NOUN	NOUN	_	14	nsubj	_	TokenRange=87:100
+14	organizaram	organizar	VERB	VERB	_	10	ccomp	_	TokenRange=101:112
+15	mega	mego	ADJ	ADJ	_	16	amod	_	TokenRange=113:117
+16	paralisacao	_	NOUN	NOUN	_	14	obj	_	TokenRange=118:129
+17	categoria	categoria	NOUN	NOUN	_	14	obj	_	TokenRange=130:139
+18	fevereiro	_	PROPN	PNOUN	_	20	nsubj	_	TokenRange=140:149
+19	2015	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=150:154
+20	tentam	tentar	VERB	VERB	_	14	parataxis	_	TokenRange=155:161
+21	articular	articular	VERB	VERB	_	20	xcomp	_	TokenRange=162:171
+22	nova	novo	ADJ	ADJ	_	23	amod	_	TokenRange=172:176
+23	mobilizacao	mobilizacao	NOUN	NOUN	_	21	obj	_	TokenRange=177:188
+24	proxima	proximo	ADJ	ADJ	_	25	amod	_	TokenRange=189:196
+25	segundafeira	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=197:209
+26	09	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=210:212
+27	grupo	grupo	NOUN	NOUN	_	28	nsubj	_	TokenRange=213:218
+28	pede	pedir	VERB	VERB	_	20	parataxis	_	TokenRange=219:223
+29	saida	_	NOUN	NOUN	_	28	obj	_	TokenRange=224:229
+30	presidente	presidente	NOUN	NOUN	_	28	nsubj	_	TokenRange=230:240
+31	dilma	dilma	NOUN	NOUN	_	30	appos	_	TokenRange=241:246
+32	alega	alegar	VERB	VERB	_	28	parataxis	_	TokenRange=247:252
+33	governo	governo	NOUN	NOUN	_	34	nsubj	_	TokenRange=253:260
+34	cumpriu	cumprir	VERB	VERB	_	20	parataxis	_	TokenRange=261:268
+35	acordos	acordo	NOUN	NOUN	_	34	obj	_	TokenRange=269:276
+36	feitos	fazer	ADJ	ADJ	_	35	amod	_	TokenRange=277:283
+37	categoria	categoria	NOUN	NOUN	_	34	nsubj	_	TokenRange=284:293
+38	epoca	epoca	NOUN	NOUN	_	39	appos	_	TokenRange=294:299
+39	reivindicacoes	reivindicacoe	NOUN	NOUN	_	34	nsubj	_	TokenRange=300:314
+40	atendidas	atender	VERB	VERB	_	39	acl	_	TokenRange=315:324
+41	agora	agora	ADV	ADV	_	42	advmod	_	TokenRange=325:330
+42	queremos	querer	VERB	VERB	_	39	acl:relcl	_	TokenRange=331:339
+43	negociar	negociar	VERB	VERB	_	42	xcomp	_	TokenRange=340:348
+44	aceitaremos	aceitar	VERB	VERB	_	43	ccomp	_	TokenRange=349:360
+45	acordo	acordo	NOUN	NOUN	_	44	obj	_	TokenRange=361:367
+46	queremos	querer	VERB	VERB	_	44	ccomp	_	TokenRange=368:376
+47	renuncia	renuncia	NOUN	NOUN	_	46	obj	_	TokenRange=377:385
+48	presidente	presidente	NOUN	NOUN	_	49	nsubj	_	TokenRange=386:396
+49	afirmou	afirmar	VERB	VERB	_	46	conj	_	TokenRange=397:404
+50	organizador	organizador	NOUN	NOUN	_	49	obj	_	TokenRange=405:416
+51	manifestacao	manifestacao	NOUN	NOUN	_	50	amod	_	TokenRange=417:429
+52	ivar	ivar	NOUN	NOUN	_	50	appos	_	TokenRange=430:434
+53	luiz	luiz	NOUN	NOUN	_	52	flat	_	TokenRange=435:439
+54	schmidt	_	NOUN	NOUN	_	53	flat	_	TokenRange=440:447
+55	ivar	ivar	NOUN	NOUN	_	49	nsubj	_	TokenRange=448:452
+56	responsaveis	responsavel	NOUN	NOUN	_	55	amod	_	TokenRange=453:465
+57	responsavel	responsavel	ADJ	ADJ	_	56	amod	_	TokenRange=466:477
+58	liderar	liderar	VERB	VERB	_	55	ccomp	_	TokenRange=478:485
+59	paralisacao	paralisacao	NOUN	NOUN	_	58	obj	_	TokenRange=486:497
+60	fevereiro	_	PROPN	PNOUN	_	59	appos	_	TokenRange=498:507
+61	afetou	afetar	VERB	VERB	_	49	parataxis	_	TokenRange=508:514
+62	distribuicao	distribuicao	NOUN	NOUN	_	61	obj	_	TokenRange=515:527
+63	combustivel	combustivel	ADJ	ADJ	_	62	amod	_	TokenRange=528:539
+64	pais	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=540:544
+65	fez	fazer	VERB	VERB	_	61	parataxis	_	TokenRange=545:548
+66	preco	preco	NOUN	NOUN	_	65	obj	_	TokenRange=549:554
+67	gasolina	gasolina	NOUN	NOUN	_	66	flat	_	TokenRange=555:563
+68	chegasse	chegar	VERB	VERB	_	66	acl:relcl	_	TokenRange=564:572
+69	cinco	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=573:578
+70	reais	real	NOUN	NOUN	_	68	nmod	_	TokenRange=579:584
+71	litro	litro	ADJ	ADJ	_	70	amod	_	TokenRange=585:590
+72	algumas	_	DET	DET	_	73	det	_	TokenRange=591:598
+73	cidades	cidade	NOUN	NOUN	_	68	nsubj	_	TokenRange=599:606
+74	noticia	noticia	NOUN	NOUN	_	84	parataxis	_	TokenRange=607:614
+75	ultima	_	ADJ	ADJ	_	76	amod	_	TokenRange=615:621
+76	hora	hora	NOUN	NOUN	_	84	nsubj	_	TokenRange=622:626
+77	8/11	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=627:631
+78	1945	_	NUM	NUM	NumType=Card	76	nmod	_	TokenRange=632:636
+79	noticia	noticiar	VERB	VERB	_	84	parataxis	_	TokenRange=637:644
+80	ultima	_	ADJ	ADJ	_	81	amod	_	TokenRange=645:651
+81	hora	hora	NOUN	NOUN	_	84	nsubj	_	TokenRange=652:656
+82	7/11	_	NUM	NUM	NumType=Card	83	nummod	_	TokenRange=657:661
+83	2208	_	NUM	NUM	NumType=Card	81	appos	_	TokenRange=662:666
+84	leia	ler	VERB	VERB	_	0	root	_	TokenRange=667:671
+85	leia	leia	NOUN	NOUN	_	84	obj	_	SpaceAfter=No|TokenRange=672:676
+

@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cenario exercicios aereos controle fronteira venezuela manobras ver situacao tensao longa fronteira 2 mil km venezuela onde entra fluxo crescente imigrantes venezuelanos esquadrao escorpiao ala 7 forca aerea boa vista realizando semana exercicio treinamento todos pilotos grupo combate etapa final curso formacao lideres aviacao caca bordo a29 super tucano embraer atuando cenario tatico bem definido oficiais cumprem missoes elaboradas ataque vigilancia fundamentalmente ver situacao tensao longa fronteira
+1	cenario	cenario	NOUN	NOUN	_	57	nsubj	_	TokenRange=0:7
+2	exercicios	exercicio	NOUN	NOUN	_	1	appos	_	TokenRange=8:18
+3	aereos	aereo	ADJ	ADJ	_	2	amod	_	TokenRange=19:25
+4	controle	_	NOUN	NOUN	_	2	appos	_	TokenRange=26:34
+5	fronteira	_	NOUN	NOUN	_	4	flat	_	TokenRange=35:44
+6	venezuela	_	ADJ	ADJ	_	7	amod	_	TokenRange=45:54
+7	manobras	_	NOUN	NOUN	_	2	appos	_	TokenRange=55:63
+8	ver	ver	VERB	VERB	_	57	parataxis	_	TokenRange=64:67
+9	situacao	_	NOUN	NOUN	_	8	obj	_	TokenRange=68:76
+10	tensao	tensao	NOUN	NOUN	_	9	appos	_	TokenRange=77:83
+11	longa	longo	ADJ	ADJ	_	12	amod	_	TokenRange=84:89
+12	fronteira	_	NOUN	NOUN	_	9	appos	_	TokenRange=90:99
+13	2	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=100:101
+14	mil	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=102:105
+15	km	km	NOUN	NOUN	_	9	appos	_	TokenRange=106:108
+16	venezuela	_	ADJ	ADJ	_	15	amod	_	TokenRange=109:118
+17	onde	onde	ADV	ADV	_	18	advmod	_	TokenRange=119:123
+18	entra	entrar	VERB	VERB	_	15	acl:relcl	_	TokenRange=124:129
+19	fluxo	fluxo	NOUN	NOUN	_	18	nsubj	_	TokenRange=130:135
+20	crescente	crescente	ADJ	ADJ	_	19	amod	_	TokenRange=136:145
+21	imigrantes	imigrante	NOUN	NOUN	_	19	amod	_	TokenRange=146:156
+22	venezuelanos	venezuelano	ADJ	ADJ	_	19	amod	_	TokenRange=157:169
+23	esquadrao	esquadrao	NOUN	NOUN	_	19	appos	_	TokenRange=170:179
+24	escorpiao	escorpiao	ADJ	ADJ	_	23	amod	_	TokenRange=180:189
+25	ala	ala	NOUN	NOUN	_	23	appos	_	TokenRange=190:193
+26	7	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=194:195
+27	forca	forca	NOUN	NOUN	_	25	appos	_	TokenRange=196:201
+28	aerea	aereo	ADJ	ADJ	_	27	amod	_	TokenRange=202:207
+29	boa	bom	ADJ	ADJ	_	30	amod	_	TokenRange=208:211
+30	vista	vista	NOUN	NOUN	_	25	appos	_	TokenRange=212:217
+31	realizando	realizar	VERB	VERB	_	23	acl	_	TokenRange=218:228
+32	semana	semana	NOUN	NOUN	_	31	obj	_	TokenRange=229:235
+33	exercicio	exercicio	NOUN	NOUN	_	32	appos	_	TokenRange=236:245
+34	treinamento	treinamento	NOUN	NOUN	_	33	flat	_	TokenRange=246:257
+35	todos	_	DET	DET	_	36	det	_	TokenRange=258:263
+36	pilotos	piloto	NOUN	NOUN	_	31	obj	_	TokenRange=264:271
+37	grupo	grupo	NOUN	NOUN	_	36	appos	_	TokenRange=272:277
+38	combate	combate	NOUN	NOUN	_	37	flat	_	TokenRange=278:285
+39	etapa	etapa	NOUN	NOUN	_	36	appos	_	TokenRange=286:291
+40	final	final	ADJ	ADJ	_	39	amod	_	TokenRange=292:297
+41	curso	curso	NOUN	NOUN	_	39	appos	_	TokenRange=298:303
+42	formacao	formacao	NOUN	NOUN	_	41	appos	_	TokenRange=304:312
+43	lideres	lider	NOUN	NOUN	_	42	flat	_	TokenRange=313:320
+44	aviacao	aviacao	NOUN	NOUN	_	45	appos	_	TokenRange=321:328
+45	caca	caca	NOUN	NOUN	_	42	appos	_	TokenRange=329:333
+46	bordo	bordo	NOUN	NOUN	_	45	flat	_	TokenRange=334:339
+47	a29	_	NUM	NOUN	_	45	appos	_	TokenRange=340:343
+48	super	super	ADJ	ADJ	_	49	amod	_	TokenRange=344:349
+49	tucano	tucano	NOUN	NOUN	_	45	appos	_	TokenRange=350:356
+50	embraer	embraer	NOUN	NOUN	_	49	flat	_	TokenRange=357:364
+51	atuando	atuar	VERB	VERB	_	45	acl	_	TokenRange=365:372
+52	cenario	cenario	NOUN	NOUN	_	51	obj	_	TokenRange=373:380
+53	tatico	tatico	ADJ	ADJ	_	52	amod	_	TokenRange=381:387
+54	bem	bem	ADV	ADV	_	55	advmod	_	TokenRange=388:391
+55	definido	definido	ADJ	ADJ	_	52	amod	_	TokenRange=392:400
+56	oficiais	oficial	ADJ	ADJ	_	52	amod	_	TokenRange=401:409
+57	cumprem	cumprir	VERB	VERB	_	0	root	_	TokenRange=410:417
+58	missoes	missoe	NOUN	NOUN	_	57	obj	_	TokenRange=418:425
+59	elaboradas	elaborado	ADJ	ADJ	_	58	amod	_	TokenRange=426:436
+60	ataque	ataque	NOUN	NOUN	_	58	appos	_	TokenRange=437:443
+61	vigilancia	_	NOUN	NOUN	_	60	flat	_	TokenRange=444:454
+62	fundamentalmente	fundamentalmente	ADV	ADV	_	63	advmod	_	TokenRange=455:471
+63	ver	ver	VERB	VERB	_	57	parataxis	_	TokenRange=472:475
+64	situacao	_	NOUN	NOUN	_	63	obj	_	TokenRange=476:484
+65	tensao	tensao	NOUN	NOUN	_	67	amod	_	TokenRange=485:491
+66	longa	longo	ADJ	ADJ	_	67	amod	_	TokenRange=492:497
+67	fronteira	_	NOUN	NOUN	_	64	appos	_	SpaceAfter=No|TokenRange=498:507
+

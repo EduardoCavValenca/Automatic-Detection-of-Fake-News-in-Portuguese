@@ -1,0 +1,36 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = comandante dragoes independencia convoca populacao ocupar brasilia dia 15/11 ouca atencao 4 minutos video dever espera brasilia esplanada ministerios proximo dia 15 novembro encontraremos la brasil acima tudo
+1	comandante	comandante	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	dragoes	dragoe	NOUN	NOUN	_	1	flat	_	TokenRange=11:18
+3	independencia	_	PROPN	PNOUN	_	1	appos	_	TokenRange=19:32
+4	convoca	convocar	VERB	VERB	_	0	root	_	TokenRange=33:40
+5	populacao	populacao	NOUN	NOUN	_	4	obj	_	TokenRange=41:50
+6	ocupar	ocupar	VERB	VERB	_	4	ccomp	_	TokenRange=51:57
+7	brasilia	brasilia	NOUN	NOUN	_	6	obj	_	TokenRange=58:66
+8	dia	dia	NOUN	NOUN	_	6	nmod	_	TokenRange=67:70
+9	15/11	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=71:76
+10	ouca	_	DET	DET	_	4	parataxis	_	TokenRange=77:81
+11	atencao	atencao	NOUN	NOUN	_	10	obj	_	TokenRange=82:89
+12	4	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=90:91
+13	minutos	minuto	NOUN	NOUN	_	16	nmod	_	TokenRange=92:99
+14	video	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=100:105
+15	dever	dever	AUX	AUX	_	16	aux	_	TokenRange=106:111
+16	espera	esperar	VERB	VERB	_	4	parataxis	_	TokenRange=112:118
+17	brasilia	brasilia	NOUN	NOUN	_	16	obj	_	TokenRange=119:127
+18	esplanada	esplanado	ADJ	ADJ	_	17	amod	_	TokenRange=128:137
+19	ministerios	ministerio	NOUN	NOUN	_	17	appos	_	TokenRange=138:149
+20	proximo	proximo	ADJ	ADJ	_	21	amod	_	TokenRange=150:157
+21	dia	dia	NOUN	NOUN	_	24	nmod	_	TokenRange=158:161
+22	15	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=162:164
+23	novembro	_	PROPN	PNOUN	_	21	nmod	_	TokenRange=165:173
+24	encontraremos	encontrar	VERB	VERB	_	4	parataxis	_	TokenRange=174:187
+25	la	_	DET	DET	_	26	det	_	TokenRange=188:190
+26	brasil	brasil	NOUN	NOUN	_	24	obj	_	TokenRange=191:197
+27	acima	acima	ADV	ADV	_	28	advmod	_	TokenRange=198:203
+28	tudo	_	PRON	PRON	_	26	appos	_	SpaceAfter=No|TokenRange=204:208
+

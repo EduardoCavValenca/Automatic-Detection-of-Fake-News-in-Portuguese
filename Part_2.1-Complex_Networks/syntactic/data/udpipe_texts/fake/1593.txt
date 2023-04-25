@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = feminista descontrolada invade palestra sergio moro eua durante palestra universidade columbia nova york juiz sergio moro interrompido feminista descontrolada antes comecar falar moca comecou berrar fundo teatro juiz cruzou bracos esperou desabafo maluca disse ok suficiente plateia aplaudir juiz lava jato segurancas retiraram feminazi local
+1	feminista	feminista	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	descontrolada	descontrolado	ADJ	ADJ	_	1	amod	_	TokenRange=10:23
+3	invade	_	VERB	VERB	_	0	root	_	TokenRange=24:30
+4	palestra	palestra	NOUN	NOUN	_	3	obj	_	TokenRange=31:39
+5	sergio	sergio	NOUN	NOUN	_	4	appos	_	TokenRange=40:46
+6	moro	moro	NOUN	NOUN	_	4	flat	_	TokenRange=47:51
+7	eua	_	PRON	PRON	_	4	appos	_	TokenRange=52:55
+8	durante	_	ADP	ADP	_	9	case	_	TokenRange=56:63
+9	palestra	palestra	NOUN	NOUN	_	3	nmod	_	TokenRange=64:72
+10	universidade	universidade	NOUN	NOUN	_	9	appos	_	TokenRange=73:85
+11	columbia	columbio	ADJ	ADJ	_	10	amod	_	TokenRange=86:94
+12	nova	novo	ADJ	ADJ	_	14	amod	_	TokenRange=95:99
+13	york	_	ADJ	NOUN	_	14	amod	_	TokenRange=100:104
+14	juiz	juiz	NOUN	NOUN	_	10	appos	_	TokenRange=105:109
+15	sergio	_	NOUN	NOUN	_	14	amod	_	TokenRange=110:116
+16	moro	moro	NOUN	NOUN	_	14	flat	_	TokenRange=117:121
+17	interrompido	interrompido	ADJ	ADJ	_	18	amod	_	TokenRange=122:134
+18	feminista	feminista	NOUN	NOUN	_	14	appos	_	TokenRange=135:144
+19	descontrolada	descontrolado	ADJ	ADJ	_	18	amod	_	TokenRange=145:158
+20	antes	antes	ADV	ADV	_	21	mark	_	TokenRange=159:164
+21	comecar	comecar	VERB	VERB	_	18	acl	_	TokenRange=165:172
+22	falar	falar	VERB	VERB	_	21	xcomp	_	TokenRange=173:178
+23	moca	moca	NOUN	NOUN	_	22	obj	_	TokenRange=179:183
+24	comecou	comecar	VERB	VERB	_	22	ccomp	_	TokenRange=184:191
+25	berrar	berrar	VERB	VERB	_	24	xcomp	_	TokenRange=192:198
+26	fundo	fundo	ADV	ADV	_	29	advmod	_	TokenRange=199:204
+27	teatro	teatro	NOUN	NOUN	_	29	nsubj	_	TokenRange=205:211
+28	juiz	juiz	NOUN	NOUN	_	27	amod	_	TokenRange=212:216
+29	cruzou	cruzar	VERB	VERB	_	25	ccomp	_	TokenRange=217:223
+30	bracos	braco	NOUN	NOUN	_	29	obj	_	TokenRange=224:230
+31	esperou	esperar	VERB	VERB	_	29	parataxis	_	TokenRange=231:238
+32	desabafo	desabafo	NOUN	NOUN	_	31	obj	_	TokenRange=239:247
+33	maluca	_	NOUN	NOUN	_	32	amod	_	TokenRange=248:254
+34	disse	dizer	VERB	VERB	_	29	parataxis	_	TokenRange=255:260
+35	ok	_	NOUN	NOUN	_	34	obj	_	TokenRange=261:263
+36	suficiente	suficiente	ADJ	ADJ	_	37	amod	_	TokenRange=264:274
+37	plateia	plateia	NOUN	NOUN	_	43	nsubj	_	TokenRange=275:282
+38	aplaudir	aplaudir	VERB	VERB	_	37	acl:inf	_	TokenRange=283:291
+39	juiz	juiz	NOUN	NOUN	_	38	obj	_	TokenRange=292:296
+40	lava	lavar	VERB	VERB	_	38	ccomp	_	TokenRange=297:301
+41	jato	jato	NOUN	NOUN	_	43	obj	_	TokenRange=302:306
+42	segurancas	_	NOUN	NOUN	_	44	appos	_	TokenRange=307:317
+43	retiraram	retirar	VERB	VERB	_	34	ccomp	_	TokenRange=318:327
+44	feminazi	_	NOUN	NOUN	_	43	obj	_	TokenRange=328:336
+45	local	local	ADJ	ADJ	_	44	amod	_	SpaceAfter=No|TokenRange=337:342
+

@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jovem fa greys anatomy preso passar medico sc video disse formado area assistir 12 temporadas serie medica favorita seguranca encontrou prontuarios carimbos jaleco estetoscopio florianopolis josias farias junior 19 anos preso flagrante nesta tercafeira noite 30 apos passar medico hospital unimed litoral balneario camboriu santa catarinaem video publicado youtube abril ano passado josias disse formou medicina assistindo 12 temporadas serie televisao greys anatomy ainda conta serie favorita segurancas hospital desconfiaram josias mentindo mostrar credenciais medico cooperado chamaram entao policia soldados pm atenderam ocorrencia encontraram jovem prontuarios carimbos medicos
+1	jovem	jovem	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	fa	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=6:8
+3	greys	_	NOUN	NOUN	_	2	flat	_	TokenRange=9:14
+4	anatomy	_	NOUN	NOUN	_	2	flat	_	TokenRange=15:22
+5	preso	_	VERB	VERB	_	2	acl	_	TokenRange=23:28
+6	passar	passar	VERB	VERB	_	5	xcomp	_	TokenRange=29:35
+7	medico	medico	NOUN	NOUN	_	6	obj	_	TokenRange=36:42
+8	sc	_	X	X	_	7	flat	_	TokenRange=43:45
+9	video	_	NOUN	NOUN	_	2	appos	_	TokenRange=46:51
+10	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=52:57
+11	formado	formado	ADJ	ADJ	_	10	xcomp	_	TokenRange=58:65
+12	area	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=66:70
+13	assistir	assistir	VERB	VERB	_	2	acl:relcl	_	TokenRange=71:79
+14	12	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=80:82
+15	temporadas	temporada	NOUN	NOUN	_	13	obj	_	TokenRange=83:93
+16	serie	serie	NOUN	NOUN	_	20	nsubj	_	TokenRange=94:99
+17	medica	medico	ADJ	ADJ	_	16	amod	_	TokenRange=100:106
+18	favorita	favorito	ADJ	ADJ	_	16	amod	_	TokenRange=107:115
+19	seguranca	_	NOUN	NOUN	_	16	appos	_	TokenRange=116:125
+20	encontrou	encontrar	VERB	VERB	_	10	parataxis	_	TokenRange=126:135
+21	prontuarios	prontuario	NOUN	NOUN	_	20	obj	_	TokenRange=136:147
+22	carimbos	carimbo	NOUN	NOUN	_	21	flat	_	TokenRange=148:156
+23	jaleco	jaleco	ADJ	NOUN	_	21	amod	_	TokenRange=157:163
+24	estetoscopio	estetoscopio	NOUN	NOUN	_	21	appos	_	TokenRange=164:176
+25	florianopolis	_	ADJ	ADJ	_	26	amod	_	TokenRange=177:190
+26	josias	_	NOUN	NOUN	_	24	appos	_	TokenRange=191:197
+27	farias	faria	NOUN	NOUN	_	26	flat	_	TokenRange=198:204
+28	junior	junior	ADJ	ADJ	_	26	amod	_	TokenRange=205:211
+29	19	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=212:214
+30	anos	ano	NOUN	NOUN	_	26	appos	_	TokenRange=215:219
+31	preso	_	VERB	VERB	_	30	acl	_	TokenRange=220:225
+32	flagrante	flagrante	ADJ	ADJ	_	31	xcomp	_	TokenRange=226:235
+33	nesta	_	ADP	ADP	_	35	case	_	TokenRange=236:241
+34	tercafeira	_	ADJ	ADJ	_	31	nmod	_	TokenRange=242:252
+35	noite	noite	NOUN	NOUN	_	31	nmod	_	TokenRange=253:258
+36	30	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=259:261
+37	apos	_	ADP	ADP	_	38	mark	_	TokenRange=262:266
+38	passar	passar	VERB	VERB	_	35	nmod	_	TokenRange=267:273
+39	medico	medico	NOUN	NOUN	_	38	obj	_	TokenRange=274:280
+40	hospital	hospital	NOUN	NOUN	_	39	appos	_	TokenRange=281:289
+41	unimed	_	NOUN	NOUN	_	40	appos	_	TokenRange=290:296
+42	litoral	litoral	ADJ	ADJ	_	40	amod	_	TokenRange=297:304
+43	balneario	balneario	NOUN	NOUN	_	40	amod	_	TokenRange=305:314
+44	camboriu	camboriu	NOUN	NOUN	_	40	appos	_	TokenRange=315:323
+45	santa	santo	ADJ	ADJ	_	46	amod	_	TokenRange=324:329
+46	catarinaem	_	NOUN	NOUN	_	44	appos	_	TokenRange=330:340
+47	video	video	NOUN	NOUN	_	46	appos	_	TokenRange=341:346
+48	publicado	publicar	VERB	VERB	_	47	acl	_	TokenRange=347:356
+49	youtube	_	PROPN	PNOUN	_	48	nmod	_	TokenRange=357:364
+50	abril	_	PROPN	PNOUN	_	51	amod	_	TokenRange=365:370
+51	ano	ano	NOUN	NOUN	_	48	nmod	_	TokenRange=371:374
+52	passado	passado	ADJ	ADJ	_	51	amod	_	TokenRange=375:382
+53	josias	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=383:389
+54	disse	dizer	VERB	VERB	_	20	parataxis	_	TokenRange=390:395
+55	formou	formar	VERB	VERB	_	54	ccomp	_	TokenRange=396:402
+56	medicina	medicina	NOUN	NOUN	_	55	obj	_	TokenRange=403:411
+57	assistindo	assistir	VERB	VERB	_	56	acl	_	TokenRange=412:422
+58	12	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=423:425
+59	temporadas	temporada	NOUN	NOUN	_	57	obj	_	TokenRange=426:436
+60	serie	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=437:442
+61	televisao	televisao	NOUN	NOUN	_	60	appos	_	TokenRange=443:452
+62	greys	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=453:458
+63	anatomy	_	NOUN	NOUN	_	62	flat	_	TokenRange=459:466
+64	ainda	ainda	ADV	ADV	_	65	advmod	_	TokenRange=467:472
+65	conta	contar	VERB	VERB	_	60	acl:relcl	_	TokenRange=473:478
+66	serie	serie	NOUN	NOUN	_	65	nsubj	_	TokenRange=479:484
+67	favorita	favorito	ADJ	ADJ	_	66	amod	_	TokenRange=485:493
+68	segurancas	_	NOUN	NOUN	_	66	amod	_	TokenRange=494:504
+69	hospital	hospital	NOUN	NOUN	_	66	appos	_	TokenRange=505:513
+70	desconfiaram	desconfiar	VERB	VERB	_	65	parataxis	_	TokenRange=514:526
+71	josias	_	NOUN	NOUN	_	70	obj	_	TokenRange=527:533
+72	mentindo	mentir	VERB	VERB	_	66	acl	_	TokenRange=534:542
+73	mostrar	mostrar	VERB	VERB	_	72	xcomp	_	TokenRange=543:550
+74	credenciais	credencial	NOUN	NOUN	_	73	obj	_	TokenRange=551:562
+75	medico	medico	NOUN	NOUN	_	74	appos	_	TokenRange=563:569
+76	cooperado	cooperado	ADJ	ADJ	_	75	amod	_	TokenRange=570:579
+77	chamaram	chamar	VERB	VERB	_	73	parataxis	_	TokenRange=580:588
+78	entao	entao	ADV	ADV	_	77	advmod	_	TokenRange=589:594
+79	policia	policia	NOUN	NOUN	_	77	nsubj	_	TokenRange=595:602
+80	soldados	soldado	NOUN	NOUN	_	82	nsubj	_	TokenRange=603:611
+81	pm	_	PRON	PRON	_	82	nsubj	_	TokenRange=612:614
+82	atenderam	atender	VERB	VERB	_	77	conj	_	TokenRange=615:624
+83	ocorrencia	ocorrencia	NOUN	NOUN	_	82	obj	_	TokenRange=625:635
+84	encontraram	encontrar	VERB	VERB	_	77	ccomp	_	TokenRange=636:647
+85	jovem	jovem	ADJ	ADJ	_	87	amod	_	TokenRange=648:653
+86	prontuarios	prontuario	NOUN	NOUN	_	87	amod	_	TokenRange=654:665
+87	carimbos	carimbo	NOUN	NOUN	_	84	obj	_	TokenRange=666:674
+88	medicos	medico	ADJ	ADJ	_	87	amod	_	SpaceAfter=No|TokenRange=675:682
+

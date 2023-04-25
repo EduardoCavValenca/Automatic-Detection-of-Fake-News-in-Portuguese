@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = datena manda recado rede globo oportunistasquero explodam caras apoiam ditadura vem querer encher saco porque uns oportunistas caramba nunca volto passar perto dessa emissora quero explodam vejo alguem vendo globo casa chuto televisao
+1	datena	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	manda	mandar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	recado	recado	NOUN	NOUN	_	2	obj	_	TokenRange=13:19
+4	rede	rede	NOUN	NOUN	_	2	nsubj	_	TokenRange=20:24
+5	globo	globo	ADJ	ADJ	_	4	amod	_	TokenRange=25:30
+6	oportunistasquero	_	NOUN	NOUN	_	4	appos	_	TokenRange=31:48
+7	explodam	explodar	VERB	VERB	_	2	conj	_	TokenRange=49:57
+8	caras	cara	NOUN	NOUN	_	9	nsubj	_	TokenRange=58:63
+9	apoiam	apoiar	VERB	VERB	_	7	ccomp	_	TokenRange=64:70
+10	ditadura	ditadura	NOUN	NOUN	_	9	obj	_	TokenRange=71:79
+11	vem	vir	AUX	AUX	_	12	aux	_	TokenRange=80:83
+12	querer	querer	VERB	VERB	_	2	parataxis	_	TokenRange=84:90
+13	encher	encher	VERB	VERB	_	12	xcomp	_	TokenRange=91:97
+14	saco	saco	NOUN	NOUN	_	13	obj	_	TokenRange=98:102
+15	porque	_	CCONJ	CONJ	_	20	mark	_	TokenRange=103:109
+16	uns	_	DET	DET	_	17	det	_	TokenRange=110:113
+17	oportunistas	oportunista	NOUN	NOUN	_	20	nsubj	_	TokenRange=114:126
+18	caramba	carambar	VERB	VERB	_	20	nsubj	_	TokenRange=127:134
+19	nunca	nunca	ADV	ADV	_	20	advmod	_	TokenRange=135:140
+20	volto	voltar	VERB	VERB	_	12	advcl	_	TokenRange=141:146
+21	passar	passar	VERB	VERB	_	20	xcomp	_	TokenRange=147:153
+22	perto	perto	ADV	ADV	_	21	advmod	_	TokenRange=154:159
+23	dessa	_	ADP	ADP	_	24	case	_	TokenRange=160:165
+24	emissora	_	NOUN	NOUN	_	22	nmod	_	TokenRange=166:174
+25	quero	querer	VERB	VERB	_	21	conj	_	TokenRange=175:180
+26	explodam	explodar	VERB	VERB	_	25	obj	_	TokenRange=181:189
+27	vejo	ver	VERB	VERB	_	25	parataxis	_	TokenRange=190:194
+28	alguem	_	NOUN	NOUN	_	27	obj	_	TokenRange=195:201
+29	vendo	_	VERB	VERB	_	27	acl	_	TokenRange=202:207
+30	globo	globo	NOUN	NOUN	_	29	obj	_	TokenRange=208:213
+31	casa	casa	NOUN	NOUN	_	29	obj	_	TokenRange=214:218
+32	chuto	chuto	ADJ	ADJ	_	33	amod	_	TokenRange=219:224
+33	televisao	televisao	NOUN	NOUN	_	31	flat	_	SpaceAfter=No|TokenRange=225:234
+

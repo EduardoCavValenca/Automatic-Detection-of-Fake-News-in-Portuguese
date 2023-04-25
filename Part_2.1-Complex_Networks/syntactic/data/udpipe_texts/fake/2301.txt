@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma ponto eletronico expresidenta ira senado fazer defesa dilma rousseff ira senado proximo dia 29 fazer propria defesa confirmacao publicada folha s paulo confirmada jornal globo presidente afastada disse preocupada interrupcoes questionamentos agressivos oposicao vai falar durante 30 minutos ninguem merece situacoes normais estresse dilma lastima tenta comunicar durante 6 anos pais assistiu varios discursos dilma resultado tragedia verbal organizacao ideias fala desconexa incompreensivel logica sabemos marqueteiro joao santana deixou cadeia curitiba duvida paira ar vai usar ponto eletronico
+1	dilma	_	ADJ	NOUN	_	2	amod	_	TokenRange=0:5
+2	ponto	ponto	NOUN	NOUN	_	29	nsubj	_	TokenRange=6:11
+3	eletronico	eletronico	ADJ	ADJ	_	2	amod	_	TokenRange=12:22
+4	expresidenta	_	NOUN	NOUN	_	2	appos	_	TokenRange=23:35
+5	ira	_	AUX	AUX	_	6	cop	_	TokenRange=36:39
+6	senado	senado	NOUN	NOUN	_	2	appos	_	TokenRange=40:46
+7	fazer	fazer	VERB	VERB	_	2	acl:relcl	_	TokenRange=47:52
+8	defesa	_	NOUN	NOUN	_	7	obj	_	TokenRange=53:59
+9	dilma	dilma	NOUN	NOUN	_	12	appos	_	TokenRange=60:65
+10	rousseff	rousseff	NOUN	NOUN	_	9	flat	_	TokenRange=66:74
+11	ira	_	AUX	AUX	_	12	cop	_	TokenRange=75:78
+12	senado	senado	NOUN	NOUN	_	2	appos	_	TokenRange=79:85
+13	proximo	proximo	ADJ	ADJ	_	14	amod	_	TokenRange=86:93
+14	dia	dia	NOUN	NOUN	_	12	nmod	_	TokenRange=94:97
+15	29	_	NUM	NUM	NumType=Card	14	appos	_	TokenRange=98:100
+16	fazer	fazer	VERB	VERB	_	7	parataxis	_	TokenRange=101:106
+17	propria	proprio	ADJ	ADJ	_	18	amod	_	TokenRange=107:114
+18	defesa	_	NOUN	NOUN	_	16	obj	_	TokenRange=115:121
+19	confirmacao	_	NOUN	NOUN	_	18	appos	_	TokenRange=122:133
+20	publicada	publicar	VERB	VERB	_	18	acl	_	TokenRange=134:143
+21	folha	folha	NOUN	NOUN	_	20	nsubj	_	TokenRange=144:149
+22	s	_	ADP	NOUN	_	21	appos	_	TokenRange=150:151
+23	paulo	paulo	NOUN	NOUN	_	21	flat	_	TokenRange=152:157
+24	confirmada	confirmar	ADJ	ADJ	_	25	acl	_	TokenRange=158:168
+25	jornal	jornal	NOUN	NOUN	_	29	nsubj	_	TokenRange=169:175
+26	globo	globo	ADJ	ADJ	_	27	amod	_	TokenRange=176:181
+27	presidente	presidente	NOUN	NOUN	_	25	appos	_	TokenRange=182:192
+28	afastada	afastado	ADJ	ADJ	_	27	amod	_	TokenRange=193:201
+29	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=202:207
+30	preocupada	preocupado	ADJ	ADJ	_	29	xcomp	_	TokenRange=208:218
+31	interrupcoes	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=219:231
+32	questionamentos	questionamento	NOUN	NOUN	_	29	nsubj	_	TokenRange=232:247
+33	agressivos	agressivo	ADJ	ADJ	_	32	amod	_	TokenRange=248:258
+34	oposicao	_	ADJ	ADJ	_	32	amod	_	TokenRange=259:267
+35	vai	ir	AUX	AUX	_	36	aux	_	TokenRange=268:271
+36	falar	falar	VERB	VERB	_	32	acl:relcl	_	TokenRange=272:277
+37	durante	_	ADP	ADP	_	39	case	_	TokenRange=278:285
+38	30	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=286:288
+39	minutos	minuto	NOUN	NOUN	_	36	nmod	_	TokenRange=289:296
+40	ninguem	_	PRON	PRON	_	41	nsubj	_	TokenRange=297:304
+41	merece	merecer	VERB	VERB	_	36	conj	_	TokenRange=305:311
+42	situacoes	_	NOUN	NOUN	_	41	obj	_	TokenRange=312:321
+43	normais	normal	ADJ	ADJ	_	42	amod	_	TokenRange=322:329
+44	estresse	estresse	NOUN	NOUN	_	41	nsubj	_	TokenRange=330:338
+45	dilma	dilma	NOUN	NOUN	_	47	nsubj	_	TokenRange=339:344
+46	lastima	_	ADJ	ADJ	_	45	amod	_	TokenRange=345:352
+47	tenta	tentar	VERB	VERB	_	44	acl:relcl	_	TokenRange=353:358
+48	comunicar	comunicar	VERB	VERB	_	47	xcomp	_	TokenRange=359:368
+49	durante	_	ADP	ADP	_	51	case	_	TokenRange=369:376
+50	6	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=377:378
+51	anos	ano	NOUN	NOUN	_	48	nmod	_	TokenRange=379:383
+52	pais	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=384:388
+53	assistiu	assistir	VERB	VERB	_	47	conj	_	TokenRange=389:397
+54	varios	_	DET	DET	_	55	det	_	TokenRange=398:404
+55	discursos	discurso	NOUN	NOUN	_	53	obj	_	TokenRange=405:414
+56	dilma	dilma	ADJ	ADJ	_	55	amod	_	TokenRange=415:420
+57	resultado	resultado	NOUN	NOUN	_	55	appos	_	TokenRange=421:430
+58	tragedia	tragedia	NOUN	NOUN	_	55	appos	_	TokenRange=431:439
+59	verbal	verbal	ADJ	ADJ	_	58	amod	_	TokenRange=440:446
+60	organizacao	organizacao	NOUN	NOUN	_	58	amod	_	TokenRange=447:458
+61	ideias	ideia	NOUN	NOUN	_	62	nsubj	_	TokenRange=459:465
+62	fala	_	VERB	VERB	_	53	parataxis	_	TokenRange=466:470
+63	desconexa	desconexo	NOUN	NOUN	_	62	obj	_	TokenRange=471:480
+64	incompreensivel	_	ADJ	ADJ	_	63	amod	_	TokenRange=481:496
+65	logica	_	NOUN	NOUN	_	62	nsubj	_	TokenRange=497:503
+66	sabemos	saber	VERB	VERB	_	62	parataxis	_	TokenRange=504:511
+67	marqueteiro	marqueteiro	NOUN	NOUN	_	66	obj	_	TokenRange=512:523
+68	joao	joao	ADJ	ADJ	_	67	amod	_	TokenRange=524:528
+69	santana	santana	ADJ	ADJ	_	68	flat	_	TokenRange=529:536
+70	deixou	deixar	VERB	VERB	_	66	parataxis	_	TokenRange=537:543
+71	cadeia	cadeia	NOUN	NOUN	_	70	obj	_	TokenRange=544:550
+72	curitiba	curitiba	ADJ	ADJ	_	71	amod	_	TokenRange=551:559
+73	duvida	duvida	NOUN	NOUN	_	77	nsubj	_	TokenRange=560:566
+74	paira	_	VERB	VERB	_	75	case	_	TokenRange=567:572
+75	ar	ar	NOUN	NOUN	_	77	nsubj	_	TokenRange=573:575
+76	vai	ir	AUX	AUX	_	77	aux	_	TokenRange=576:579
+77	usar	usar	VERB	VERB	_	53	conj	_	TokenRange=580:584
+78	ponto	ponto	NOUN	NOUN	_	77	obj	_	TokenRange=585:590
+79	eletronico	eletronico	ADJ	ADJ	_	78	amod	_	SpaceAfter=No|TokenRange=591:601
+

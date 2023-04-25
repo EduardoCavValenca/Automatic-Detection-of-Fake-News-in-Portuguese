@@ -1,0 +1,39 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputados trocam elogios durante comissao caloteirovagabundo assista video parlamentares arlindo chinaglia ptsp arthur maia sdba trocaram farpas comissao previdencia chinaglia chamou maia caloteiro vagabundo retrucado vagabundo disse petista parabens deputados representam
+1	deputados	deputado	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	trocam	trocar	VERB	VERB	_	0	root	_	TokenRange=10:16
+3	elogios	elogio	NOUN	NOUN	_	2	obj	_	TokenRange=17:24
+4	durante	_	ADP	ADP	_	5	case	_	TokenRange=25:32
+5	comissao	comissao	NOUN	NOUN	_	2	nmod	_	TokenRange=33:41
+6	caloteirovagabundo	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=42:60
+7	assista	assistir	VERB	VERB	_	2	advcl	_	TokenRange=61:68
+8	video	video	NOUN	NOUN	_	7	obj	_	TokenRange=69:74
+9	parlamentares	parlamentar	ADJ	ADJ	_	8	amod	_	TokenRange=75:88
+10	arlindo	arlindo	NOUN	NOUN	_	7	nsubj	_	TokenRange=89:96
+11	chinaglia	chinaglia	NOUN	NOUN	_	10	appos	_	TokenRange=97:106
+12	ptsp	_	NOUN	NOUN	_	10	appos	_	TokenRange=107:111
+13	arthur	arthur	NOUN	NOUN	_	12	appos	_	TokenRange=112:118
+14	maia	maia	NOUN	NOUN	_	13	flat	_	TokenRange=119:123
+15	sdba	_	NOUN	NOUN	_	12	appos	_	TokenRange=124:128
+16	trocaram	trocar	VERB	VERB	_	2	conj	_	TokenRange=129:137
+17	farpas	farpa	NOUN	NOUN	_	16	obj	_	TokenRange=138:144
+18	comissao	comissao	NOUN	NOUN	_	16	nsubj	_	TokenRange=145:153
+19	previdencia	_	NOUN	NOUN	_	18	amod	_	TokenRange=154:165
+20	chinaglia	chinaglia	NOUN	NOUN	_	21	nsubj	_	TokenRange=166:175
+21	chamou	chamar	VERB	VERB	_	16	parataxis	_	TokenRange=176:182
+22	maia	maia	NOUN	NOUN	_	21	obj	_	TokenRange=183:187
+23	caloteiro	caloteiro	NOUN	NOUN	_	21	obj	_	TokenRange=188:197
+24	vagabundo	vagabundo	NOUN	NOUN	_	23	appos	_	TokenRange=198:207
+25	retrucado	retrucado	ADJ	ADJ	_	24	amod	_	TokenRange=208:217
+26	vagabundo	vagabundo	NOUN	NOUN	_	27	nsubj	_	TokenRange=218:227
+27	disse	dizer	VERB	VERB	_	21	parataxis	_	TokenRange=228:233
+28	petista	petista	NOUN	NOUN	_	31	obj	_	TokenRange=234:241
+29	parabens	parabem	ADJ	ADJ	_	30	amod	_	TokenRange=242:250
+30	deputados	deputado	NOUN	NOUN	_	31	nsubj	_	TokenRange=251:260
+31	representam	representar	VERB	VERB	_	27	ccomp	_	SpaceAfter=No|TokenRange=261:272
+

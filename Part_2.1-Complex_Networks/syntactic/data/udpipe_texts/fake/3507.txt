@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sede jornal estado s paulo recebe ameaca bomba policia esvazia predio sede jornal estado s paulo bairro limao zona norte paulo esvaziada apos pessoa identificou ligar local afirmar duas bombas predio ainda sabe informacao anonima verdadeira supostos explosivos estaria radio estadao outro estadao conteudo policia caminho local deve fazer varredura predio r7 embora ainda informacoes oficiais esquadrao antibombas chamado vasculhar redacao momento sete carros bombeiros local
+1	sede	sede	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:4
+2	jornal	jornal	NOUN	NOUN	_	1	appos	_	TokenRange=5:11
+3	estado	estado	ADJ	ADJ	_	2	amod	_	TokenRange=12:18
+4	s	_	NOUN	NOUN	_	5	case	_	TokenRange=19:20
+5	paulo	paulo	NOUN	NOUN	_	2	appos	_	TokenRange=21:26
+6	recebe	receber	VERB	VERB	_	0	root	_	TokenRange=27:33
+7	ameaca	ameaca	NOUN	NOUN	_	6	obj	_	TokenRange=34:40
+8	bomba	bomba	NOUN	NOUN	_	7	flat	_	TokenRange=41:46
+9	policia	policia	NOUN	NOUN	_	6	obj	_	TokenRange=47:54
+10	esvazia	_	NOUN	NOUN	_	11	appos	_	TokenRange=55:62
+11	predio	predio	NOUN	NOUN	_	6	obj	_	TokenRange=63:69
+12	sede	sede	NOUN	NOUN	_	11	flat	_	TokenRange=70:74
+13	jornal	jornal	NOUN	NOUN	_	11	appos	_	TokenRange=75:81
+14	estado	estado	NOUN	NOUN	_	13	amod	_	TokenRange=82:88
+15	s	_	ADJ	DET	_	16	case	_	TokenRange=89:90
+16	paulo	paulo	NOUN	NOUN	_	13	appos	_	TokenRange=91:96
+17	bairro	bairro	NOUN	NOUN	_	11	appos	_	TokenRange=97:103
+18	limao	limao	ADJ	ADJ	_	19	amod	_	TokenRange=104:109
+19	zona	zona	NOUN	NOUN	_	17	appos	_	TokenRange=110:114
+20	norte	norte	ADJ	ADJ	_	19	amod	_	TokenRange=115:120
+21	paulo	paulo	NOUN	NOUN	_	19	appos	_	TokenRange=121:126
+22	esvaziada	esvaziar	VERB	VERB	_	19	acl	_	TokenRange=127:136
+23	apos	_	ADP	ADP	_	25	mark	_	TokenRange=137:141
+24	pessoa	pessoa	NOUN	NOUN	_	25	nsubj	_	TokenRange=142:148
+25	identificou	identificar	VERB	VERB	_	22	advcl	_	TokenRange=149:160
+26	ligar	ligar	VERB	VERB	_	25	xcomp	_	TokenRange=161:166
+27	local	local	NOUN	NOUN	_	26	obj	_	TokenRange=167:172
+28	afirmar	afirmar	VERB	VERB	_	26	ccomp	_	TokenRange=173:180
+29	duas	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=181:185
+30	bombas	bomba	NOUN	NOUN	_	28	obj	_	TokenRange=186:192
+31	predio	predio	NOUN	NOUN	_	30	appos	_	TokenRange=193:199
+32	ainda	ainda	ADV	ADV	_	33	advmod	_	TokenRange=200:205
+33	sabe	saber	VERB	VERB	_	25	parataxis	_	TokenRange=206:210
+34	informacao	informacao	NOUN	NOUN	_	33	obj	_	TokenRange=211:221
+35	anonima	anonimo	ADJ	ADJ	_	34	amod	_	TokenRange=222:229
+36	verdadeira	verdadeiro	ADJ	ADJ	_	34	amod	_	TokenRange=230:240
+37	supostos	suposto	ADJ	ADJ	_	38	amod	_	TokenRange=241:249
+38	explosivos	explosivo	NOUN	NOUN	_	40	nsubj	_	TokenRange=250:260
+39	estaria	estar	AUX	AUX	_	40	cop	_	TokenRange=261:268
+40	radio	radio	NOUN	NOUN	_	33	parataxis	_	TokenRange=269:274
+41	estadao	estadao	NOUN	NOUN	_	40	flat	_	TokenRange=275:282
+42	outro	_	DET	DET	_	43	det	_	TokenRange=283:288
+43	estadao	estadao	NOUN	NOUN	_	40	appos	_	TokenRange=289:296
+44	conteudo	_	NOUN	NOUN	_	40	appos	_	TokenRange=297:305
+45	policia	policia	NOUN	NOUN	_	49	nsubj	_	TokenRange=306:313
+46	caminho	caminho	NOUN	NOUN	_	49	nsubj	_	TokenRange=314:321
+47	local	local	ADJ	ADJ	_	46	amod	_	TokenRange=322:327
+48	deve	dever	AUX	AUX	_	49	aux	_	TokenRange=328:332
+49	fazer	fazer	VERB	VERB	_	40	conj	_	TokenRange=333:338
+50	varredura	varredura	NOUN	NOUN	_	49	obj	_	TokenRange=339:348
+51	predio	predio	NOUN	NOUN	_	50	appos	_	TokenRange=349:355
+52	r7	_	NUM	NUM	NumType=Card	51	appos	_	TokenRange=356:358
+53	embora	_	CCONJ	CONJ	_	55	cc	_	TokenRange=359:365
+54	ainda	ainda	ADV	ADV	_	55	advmod	_	TokenRange=366:371
+55	informacoes	informacoe	NOUN	NOUN	_	49	conj	_	TokenRange=372:383
+56	oficiais	oficial	ADJ	ADJ	_	55	amod	_	TokenRange=384:392
+57	esquadrao	esquadrao	NOUN	NOUN	_	55	appos	_	TokenRange=393:402
+58	antibombas	antibomba	ADJ	ADJ	_	57	amod	_	TokenRange=403:413
+59	chamado	chamar	VERB	VERB	_	55	acl	_	TokenRange=414:421
+60	vasculhar	vasculhar	VERB	VERB	_	57	acl	_	TokenRange=422:431
+61	redacao	redacao	NOUN	NOUN	_	60	obj	_	TokenRange=432:439
+62	momento	momento	NOUN	NOUN	_	61	appos	_	TokenRange=440:447
+63	sete	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=448:452
+64	carros	carro	NOUN	NOUN	_	61	appos	_	TokenRange=453:459
+65	bombeiros	bombeiro	NOUN	NOUN	_	64	flat	_	TokenRange=460:469
+66	local	local	ADJ	ADJ	_	64	amod	_	SpaceAfter=No|TokenRange=470:475
+

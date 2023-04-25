@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2 turma supremo tribunal federal bemvinda inovacao jurisprudencial concedeu habeas corpus coletivo nome todas mulheres presas gravidas maes criancas 12 anos idade tal decisao estende adolescentes situacao semelhante sistema socioeducativo mulheres sob custodia pessoas deficiencia alem inovacao meio utilizado habeas corpus coletivo merito si decisao aplaudimos alcance decisao aplica todas maes salvo casos crimes
+1	2	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:1
+2	turma	turma	NOUN	NOUN	_	9	nsubj	_	TokenRange=2:7
+3	supremo	supremo	ADJ	ADJ	_	4	amod	_	TokenRange=8:15
+4	tribunal	tribunal	NOUN	NOUN	_	2	appos	_	TokenRange=16:24
+5	federal	federal	ADJ	ADJ	_	4	amod	_	TokenRange=25:32
+6	bemvinda	bemvindo	ADJ	ADJ	_	7	amod	_	TokenRange=33:41
+7	inovacao	inovacao	NOUN	NOUN	_	2	appos	_	TokenRange=42:50
+8	jurisprudencial	jurisprudencial	ADJ	ADJ	_	7	amod	_	TokenRange=51:66
+9	concedeu	conceder	VERB	VERB	_	0	root	_	TokenRange=67:75
+10	habeas	habeas	NOUN	NOUN	_	9	obj	_	TokenRange=76:82
+11	corpus	corpus	NOUN	NOUN	_	10	flat	_	TokenRange=83:89
+12	coletivo	coletivo	ADJ	ADJ	_	10	amod	_	TokenRange=90:98
+13	nome	nome	NOUN	NOUN	_	10	appos	_	TokenRange=99:103
+14	todas	_	DET	DET	_	15	det	_	TokenRange=104:109
+15	mulheres	mulher	NOUN	NOUN	_	25	nsubj	_	TokenRange=110:118
+16	presas	_	ADJ	ADJ	_	15	amod	_	TokenRange=119:125
+17	gravidas	gravido	ADJ	ADJ	_	15	amod	_	TokenRange=126:134
+18	maes	mae	NOUN	NOUN	_	15	appos	_	TokenRange=135:139
+19	criancas	crianca	NOUN	NOUN	_	18	appos	_	TokenRange=140:148
+20	12	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=149:151
+21	anos	ano	NOUN	NOUN	_	18	appos	_	TokenRange=152:156
+22	idade	idade	NOUN	NOUN	_	21	flat	_	TokenRange=157:162
+23	tal	_	DET	DET	_	24	det	_	TokenRange=163:166
+24	decisao	decisao	NOUN	NOUN	_	25	nsubj	_	TokenRange=167:174
+25	estende	estender	VERB	VERB	_	9	parataxis	_	TokenRange=175:182
+26	adolescentes	adolescente	NOUN	NOUN	_	25	obj	_	TokenRange=183:195
+27	situacao	situacao	NOUN	NOUN	_	25	obj	_	TokenRange=196:204
+28	semelhante	semelhante	ADJ	ADJ	_	29	amod	_	TokenRange=205:215
+29	sistema	sistema	NOUN	NOUN	_	25	obj	_	TokenRange=216:223
+30	socioeducativo	socioeducativo	ADJ	ADJ	_	29	amod	_	TokenRange=224:238
+31	mulheres	mulher	NOUN	NOUN	_	29	appos	_	TokenRange=239:247
+32	sob	_	ADP	ADP	_	33	case	_	TokenRange=248:251
+33	custodia	custodia	NOUN	NOUN	_	31	nmod	_	TokenRange=252:260
+34	pessoas	pessoa	NOUN	NOUN	_	25	nsubj	_	TokenRange=261:268
+35	deficiencia	deficiencio	ADJ	ADJ	_	34	amod	_	TokenRange=269:280
+36	alem	_	ADV	ADV	_	37	advmod	_	TokenRange=281:285
+37	inovacao	inovacao	ADJ	ADJ	_	34	amod	_	TokenRange=286:294
+38	meio	meio	NOUN	NOUN	_	37	advmod	_	TokenRange=295:299
+39	utilizado	utilizado	ADJ	ADJ	_	40	amod	_	TokenRange=300:309
+40	habeas	habeas	NOUN	NOUN	_	37	appos	_	TokenRange=310:316
+41	corpus	corpus	NOUN	NOUN	_	40	flat	_	TokenRange=317:323
+42	coletivo	coletivo	ADJ	ADJ	_	40	amod	_	TokenRange=324:332
+43	merito	merito	NOUN	NOUN	_	40	appos	_	TokenRange=333:339
+44	si	_	DET	DET	_	45	det:poss	_	TokenRange=340:342
+45	decisao	decisao	NOUN	NOUN	_	46	obj	_	TokenRange=343:350
+46	aplaudimos	aplaudir	VERB	VERB	_	9	parataxis	_	TokenRange=351:361
+47	alcance	alcance	ADJ	ADJ	_	48	amod	_	TokenRange=362:369
+48	decisao	decisao	NOUN	NOUN	_	49	obj	_	TokenRange=370:377
+49	aplica	aplicar	VERB	VERB	_	46	parataxis	_	TokenRange=378:384
+50	todas	_	DET	DET	_	51	det	_	TokenRange=385:390
+51	maes	mae	NOUN	NOUN	_	49	obj	_	TokenRange=391:395
+52	salvo	_	ADP	ADP	_	53	case	_	TokenRange=396:401
+53	casos	caso	NOUN	NOUN	_	49	nmod	_	TokenRange=402:407
+54	crimes	crime	NOUN	NOUN	_	53	amod	_	SpaceAfter=No|TokenRange=408:414
+

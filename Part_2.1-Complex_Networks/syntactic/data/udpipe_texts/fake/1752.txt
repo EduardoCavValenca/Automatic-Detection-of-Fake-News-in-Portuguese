@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = grupo praticou atentado israel hoje 08 recebeu doacao r 25 milhoes durante governo lula caminhao avancou manha hoje 08 contra grupo soldados jerusalem estrela davi vermelha especie cruz vermelha israel informou menos 4 pessoas morreram 15 ficaram feridas grupo hamas atraves portavoz abdullatif qanou assumiu autoria ataque disse ato heroico dinheiro publico dinheiro brasileiros financiar terror dinheiro deveria usado saneamento basico saude educacaoseguranca infraestrutura combate microcefaliaetc site planalto diario oficial uniao dou aporte financeiro enviado partir criacao lei 12292 2010 veja lei site pl analto http
+1	grupo	grupo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	praticou	praticar	VERB	VERB	_	0	root	_	TokenRange=6:14
+3	atentado	atentado	NOUN	NOUN	_	2	obj	_	TokenRange=15:23
+4	israel	israel	ADJ	ADJ	_	3	amod	_	TokenRange=24:30
+5	hoje	hoje	ADV	ADV	_	7	advmod	_	TokenRange=31:35
+6	08	_	NUM	NUM	NumType=Card	5	nmod	_	TokenRange=36:38
+7	recebeu	receber	VERB	VERB	_	2	parataxis	_	TokenRange=39:46
+8	doacao	doacao	NOUN	NOUN	_	7	obj	_	TokenRange=47:53
+9	r	r	NOUN	NOUN	_	8	flat	_	TokenRange=54:55
+10	25	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=56:58
+11	milhoes	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=59:66
+12	durante	_	ADP	ADP	_	13	case	_	TokenRange=67:74
+13	governo	governo	NOUN	NOUN	_	7	nmod	_	TokenRange=75:82
+14	lula	lula	ADJ	ADJ	_	13	amod	_	TokenRange=83:87
+15	caminhao	caminhao	NOUN	NOUN	_	16	nsubj	_	TokenRange=88:96
+16	avancou	avancar	VERB	VERB	_	13	acl:relcl	_	TokenRange=97:104
+17	manha	manha	NOUN	NOUN	_	16	obj	_	TokenRange=105:110
+18	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=111:115
+19	08	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=116:118
+20	contra	_	ADP	ADP	_	21	case	_	TokenRange=119:125
+21	grupo	grupo	NOUN	NOUN	_	16	nmod	_	TokenRange=126:131
+22	soldados	soldado	ADJ	ADJ	_	21	amod	_	TokenRange=132:140
+23	jerusalem	_	ADJ	ADJ	_	21	amod	_	TokenRange=141:150
+24	estrela	estrela	NOUN	NOUN	_	21	appos	_	TokenRange=151:158
+25	davi	davi	NOUN	NOUN	_	24	appos	_	TokenRange=159:163
+26	vermelha	vermelho	ADJ	ADJ	_	24	amod	_	TokenRange=164:172
+27	especie	especie	NOUN	NOUN	_	24	appos	_	TokenRange=173:180
+28	cruz	cruz	NOUN	NOUN	_	24	appos	_	TokenRange=181:185
+29	vermelha	vermelho	ADJ	ADJ	_	28	amod	_	TokenRange=186:194
+30	israel	israel	ADJ	ADJ	_	28	amod	_	TokenRange=195:201
+31	informou	informar	VERB	VERB	_	2	conj	_	TokenRange=202:210
+32	menos	menos	ADV	ADV	_	33	advmod	_	TokenRange=211:216
+33	4	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=217:218
+34	pessoas	pessoa	NOUN	NOUN	_	35	nsubj	_	TokenRange=219:226
+35	morreram	morrer	VERB	VERB	_	31	ccomp	_	TokenRange=227:235
+36	15	_	NUM	NUM	NumType=Card	37	nsubj	_	TokenRange=236:238
+37	ficaram	ficar	VERB	VERB	_	35	ccomp	_	TokenRange=239:246
+38	feridas	ferido	ADJ	ADJ	_	37	xcomp	_	TokenRange=247:254
+39	grupo	grupo	NOUN	NOUN	_	35	nsubj	_	TokenRange=255:260
+40	hamas	_	NOUN	NOUN	_	39	appos	_	TokenRange=261:266
+41	atraves	atrave	ADV	ADV	_	42	advmod	_	TokenRange=267:274
+42	portavoz	portavoz	NOUN	NOUN	_	45	nsubj	_	TokenRange=275:283
+43	abdullatif	_	NOUN	NOUN	_	42	appos	_	TokenRange=284:294
+44	qanou	_	NOUN	NOUN	_	42	flat	_	TokenRange=295:300
+45	assumiu	assumir	VERB	VERB	_	39	acl:relcl	_	TokenRange=301:308
+46	autoria	autoria	NOUN	NOUN	_	45	obj	_	TokenRange=309:316
+47	ataque	ataque	NOUN	NOUN	_	49	flat	_	TokenRange=317:323
+48	disse	dizer	VERB	VERB	_	45	parataxis	_	TokenRange=324:329
+49	ato	ato	NOUN	NOUN	_	48	obj	_	TokenRange=330:333
+50	heroico	heroico	ADJ	ADJ	_	51	amod	_	TokenRange=334:341
+51	dinheiro	dinheiro	NOUN	NOUN	_	48	nsubj	_	TokenRange=342:350
+52	publico	publico	ADJ	ADJ	_	51	amod	_	TokenRange=351:358
+53	dinheiro	dinheiro	NOUN	NOUN	_	45	nsubj	_	TokenRange=359:367
+54	brasileiros	brasileiro	ADJ	ADJ	_	51	amod	_	TokenRange=368:379
+55	financiar	financiar	VERB	VERB	_	37	csubj	_	TokenRange=380:389
+56	terror	terror	NOUN	NOUN	_	55	obj	_	TokenRange=390:396
+57	dinheiro	dinheiro	NOUN	NOUN	_	56	flat	_	TokenRange=397:405
+58	deveria	dever	AUX	AUX	_	59	aux	_	TokenRange=406:413
+59	usado	usar	VERB	VERB	_	45	ccomp	_	TokenRange=414:419
+60	saneamento	saneamento	NOUN	NOUN	_	59	obj	_	TokenRange=420:430
+61	basico	basico	ADJ	ADJ	_	60	amod	_	TokenRange=431:437
+62	saude	saude	NOUN	NOUN	_	60	appos	_	TokenRange=438:443
+63	educacaoseguranca	_	NOUN	NOUN	_	60	appos	_	TokenRange=444:461
+64	infraestrutura	infraestrutura	NOUN	NOUN	_	60	appos	_	TokenRange=462:476
+65	combate	combate	NOUN	NOUN	_	60	appos	_	TokenRange=477:484
+66	microcefaliaetc	_	ADJ	ADJ	_	67	amod	_	TokenRange=485:500
+67	site	site	NOUN	NOUN	_	63	appos	_	TokenRange=501:505
+68	planalto	planalto	ADJ	ADJ	_	69	amod	_	TokenRange=506:514
+69	diario	diario	NOUN	NOUN	_	67	appos	_	TokenRange=515:521
+70	oficial	oficial	ADJ	ADJ	_	69	amod	_	TokenRange=522:529
+71	uniao	uniao	NOUN	NOUN	_	69	appos	_	TokenRange=530:535
+72	dou	_	ADP	ADP	_	73	case	_	TokenRange=536:539
+73	aporte	aporte	NOUN	NOUN	_	71	nmod	_	TokenRange=540:546
+74	financeiro	financeiro	ADJ	ADJ	_	73	amod	_	TokenRange=547:557
+75	enviado	enviar	VERB	VERB	_	73	acl	_	TokenRange=558:565
+76	partir	partir	VERB	VERB	_	75	xcomp	_	TokenRange=566:572
+77	criacao	criacao	NOUN	NOUN	_	76	obj	_	TokenRange=573:580
+78	lei	lei	NOUN	NOUN	_	77	appos	_	TokenRange=581:584
+79	12292	_	NUM	NUM	NumType=Card	78	appos	_	TokenRange=585:590
+80	2010	_	NUM	NUM	NumType=Card	78	nmod	_	TokenRange=591:595
+81	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=596:600
+82	lei	lei	NOUN	NOUN	_	81	obj	_	TokenRange=601:604
+83	site	site	NOUN	NOUN	_	82	appos	_	TokenRange=605:609
+84	pl	_	X	X	_	83	appos	_	TokenRange=610:612
+85	analto	_	NOUN	NOUN	_	84	flat	_	TokenRange=613:619
+86	http	_	X	X	_	81	advmod	_	SpaceAfter=No|TokenRange=620:624
+

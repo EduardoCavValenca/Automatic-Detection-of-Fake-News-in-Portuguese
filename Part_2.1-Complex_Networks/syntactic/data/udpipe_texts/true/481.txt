@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alema cuida faz homenagem tumulo selaron cemiterio rio maren viajou 45 vezes brasil desde 2013 malas 32 kg cheias azulejos fazer homenagem ceramista conheceu artista 2011 quer terminar trabalho ainda ano paisagem funebre acinzentada cemiterio joao batista botafogo zona sul rio ganhou cores vibrantes desde alema maren gelsman 50 anos comecou resgatar memoria arte ceramista chileno jorge selaron cuida memoria artista famoso criado escadaria azulejos lapa decorando escadaria tumulo selaron azulejos coloridos arte semelhante fazia centro cidade trabalho alema
+1	alema	alema	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	cuida	cuido	ADJ	ADJ	_	1	amod	_	TokenRange=6:11
+3	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=12:15
+4	homenagem	homenagem	NOUN	NOUN	_	3	obj	_	TokenRange=16:25
+5	tumulo	tumulo	NOUN	NOUN	_	10	nmod	_	TokenRange=26:32
+6	selaron	_	NOUN	NOUN	_	5	flat	_	TokenRange=33:40
+7	cemiterio	cemiterio	NOUN	NOUN	_	5	appos	_	TokenRange=41:50
+8	rio	rio	NOUN	NOUN	_	5	appos	_	TokenRange=51:54
+9	maren	_	NOUN	NOUN	_	5	flat	_	TokenRange=55:60
+10	viajou	viajar	VERB	VERB	_	3	parataxis	_	TokenRange=61:67
+11	45	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=68:70
+12	vezes	vez	NOUN	NOUN	_	10	nmod	_	TokenRange=71:76
+13	brasil	brasil	NOUN	NOUN	_	10	obj	_	TokenRange=77:83
+14	desde	_	ADP	ADP	_	15	case	_	TokenRange=84:89
+15	2013	_	NUM	NUM	NumType=Card	10	nmod	_	TokenRange=90:94
+16	malas	malo	ADJ	ADJ	_	18	amod	_	TokenRange=95:100
+17	32	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=101:103
+18	kg	kg	NOUN	NOUN	_	10	nsubj	_	TokenRange=104:106
+19	cheias	cheio	ADJ	ADJ	_	18	amod	_	TokenRange=107:113
+20	azulejos	azulejo	NOUN	NOUN	_	21	nsubj	_	TokenRange=114:122
+21	fazer	fazer	VERB	VERB	_	18	acl:relcl	_	TokenRange=123:128
+22	homenagem	homenagem	NOUN	NOUN	_	21	obj	_	TokenRange=129:138
+23	ceramista	ceramista	ADJ	ADJ	_	22	amod	_	TokenRange=139:148
+24	conheceu	conhecer	VERB	VERB	_	10	parataxis	_	TokenRange=149:157
+25	artista	artista	NOUN	NOUN	_	24	obj	_	TokenRange=158:165
+26	2011	_	NUM	NUM	NumType=Card	24	nsubj	_	TokenRange=166:170
+27	quer	querer	VERB	VERB	_	24	parataxis	_	TokenRange=171:175
+28	terminar	terminar	VERB	VERB	_	27	xcomp	_	TokenRange=176:184
+29	trabalho	trabalho	NOUN	NOUN	_	28	obj	_	TokenRange=185:193
+30	ainda	ainda	ADV	ADV	_	31	advmod	_	TokenRange=194:199
+31	ano	ano	NOUN	NOUN	_	28	nmod	_	TokenRange=200:203
+32	paisagem	paisagem	NOUN	NOUN	_	28	obj	_	TokenRange=204:212
+33	funebre	funebre	ADJ	ADJ	_	32	amod	_	TokenRange=213:220
+34	acinzentada	acinzentado	ADJ	ADJ	_	35	amod	_	TokenRange=221:232
+35	cemiterio	cemiterio	NOUN	NOUN	_	32	appos	_	TokenRange=233:242
+36	joao	joao	NOUN	NOUN	_	35	appos	_	TokenRange=243:247
+37	batista	batista	ADJ	ADJ	_	35	amod	_	TokenRange=248:255
+38	botafogo	botafogo	ADJ	ADJ	_	39	amod	_	TokenRange=256:264
+39	zona	zona	NOUN	NOUN	_	42	nsubj	_	TokenRange=265:269
+40	sul	sul	ADJ	ADJ	_	39	amod	_	TokenRange=270:273
+41	rio	rio	NOUN	NOUN	_	39	appos	_	TokenRange=274:277
+42	ganhou	ganhar	VERB	VERB	_	3	parataxis	_	TokenRange=278:284
+43	cores	cor	NOUN	NOUN	_	42	obj	_	TokenRange=285:290
+44	vibrantes	vibrante	ADJ	ADJ	_	43	amod	_	TokenRange=291:300
+45	desde	_	ADP	ADP	_	46	case	_	TokenRange=301:306
+46	alema	alema	NOUN	NOUN	_	42	nmod	_	TokenRange=307:312
+47	maren	_	NOUN	NOUN	_	46	appos	_	TokenRange=313:318
+48	gelsman	_	NOUN	NOUN	_	47	flat	_	TokenRange=319:326
+49	50	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=327:329
+50	anos	ano	NOUN	NOUN	_	52	nsubj	_	TokenRange=330:334
+51	comecou	comecar	AUX	AUX	_	52	aux	_	TokenRange=335:342
+52	resgatar	resgatar	VERB	VERB	_	42	ccomp	_	TokenRange=343:351
+53	memoria	memoria	NOUN	NOUN	_	52	obj	_	TokenRange=352:359
+54	arte	arte	NOUN	NOUN	_	53	appos	_	TokenRange=360:364
+55	ceramista	ceramista	ADJ	NOUN	_	54	amod	_	TokenRange=365:374
+56	chileno	chileno	ADJ	ADJ	_	54	amod	_	TokenRange=375:382
+57	jorge	jorge	NOUN	NOUN	_	54	appos	_	TokenRange=383:388
+58	selaron	_	NOUN	NOUN	_	57	appos	_	TokenRange=389:396
+59	cuida	_	ADJ	ADJ	_	60	amod	_	TokenRange=397:402
+60	memoria	memoria	NOUN	NOUN	_	57	appos	_	TokenRange=403:410
+61	artista	artista	NOUN	NOUN	_	60	flat	_	TokenRange=411:418
+62	famoso	famoso	ADJ	ADJ	_	60	amod	_	TokenRange=419:425
+63	criado	criado	ADJ	ADJ	_	60	amod	_	TokenRange=426:432
+64	escadaria	escadaria	NOUN	NOUN	_	60	appos	_	TokenRange=433:442
+65	azulejos	azulejo	NOUN	NOUN	_	64	amod	_	TokenRange=443:451
+66	lapa	lapa	NOUN	NOUN	_	64	flat	_	TokenRange=452:456
+67	decorando	decorar	VERB	VERB	_	64	acl	_	TokenRange=457:466
+68	escadaria	escadaria	NOUN	NOUN	_	67	obj	_	TokenRange=467:476
+69	tumulo	tumulo	NOUN	NOUN	_	67	nsubj	_	TokenRange=477:483
+70	selaron	_	NOUN	NOUN	_	69	flat	_	TokenRange=484:491
+71	azulejos	azulejo	NOUN	NOUN	_	69	appos	_	TokenRange=492:500
+72	coloridos	colorido	ADJ	ADJ	_	73	amod	_	TokenRange=501:510
+73	arte	arte	NOUN	NOUN	_	69	appos	_	TokenRange=511:515
+74	semelhante	semelhante	ADJ	ADJ	_	73	amod	_	TokenRange=516:526
+75	fazia	fazer	VERB	VERB	_	42	parataxis	_	TokenRange=527:532
+76	centro	centro	NOUN	NOUN	_	75	obj	_	TokenRange=533:539
+77	cidade	cidade	NOUN	NOUN	_	76	flat	_	TokenRange=540:546
+78	trabalho	trabalho	NOUN	NOUN	_	76	appos	_	TokenRange=547:555
+79	alema	alema	ADJ	ADJ	_	78	amod	_	SpaceAfter=No|TokenRange=556:561
+

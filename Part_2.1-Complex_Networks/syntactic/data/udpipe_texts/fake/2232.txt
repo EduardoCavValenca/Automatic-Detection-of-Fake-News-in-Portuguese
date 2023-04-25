@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer muda tom conversa orienta ministros aceitem provocacoes reajam bateu levou primeira reuniao ministerial presidente michel temer mudou tom discurso presidente disse aceitara equipe governo chamados golpistas fiquem quietos aqui governo acao amigos disse golpista derruba constituicao nunca quisemos ruptura lei maxima brasil bradou temer
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	muda	mudar	VERB	VERB	_	43	acl:relcl	_	TokenRange=6:10
+3	tom	tom	NOUN	NOUN	_	2	obj	_	TokenRange=11:14
+4	conversa	_	NOUN	NOUN	_	2	obj	_	TokenRange=15:23
+5	orienta	_	NOUN	NOUN	_	7	mark	_	TokenRange=24:31
+6	ministros	ministro	NOUN	NOUN	_	7	nsubj	_	TokenRange=32:41
+7	aceitem	aceitar	VERB	VERB	_	2	conj	_	TokenRange=42:49
+8	provocacoes	provocacoe	NOUN	NOUN	_	7	obj	_	TokenRange=50:61
+9	reajam	reajar	VERB	VERB	_	7	parataxis	_	TokenRange=62:68
+10	bateu	bater	NOUN	NOUN	_	9	nsubj	_	TokenRange=69:74
+11	levou	levar	VERB	VERB	_	2	conj	_	TokenRange=75:80
+12	primeira	primeiro	ADJ	ADJ	_	13	amod	_	TokenRange=81:89
+13	reuniao	reuniao	NOUN	NOUN	_	11	obj	_	TokenRange=90:97
+14	ministerial	ministerial	ADJ	ADJ	_	13	amod	_	TokenRange=98:109
+15	presidente	presidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=110:120
+16	michel	michel	ADJ	ADJ	_	17	amod	_	TokenRange=121:127
+17	temer	temer	NOUN	NOUN	_	18	nsubj	_	TokenRange=128:133
+18	mudou	mudar	VERB	VERB	_	13	acl:relcl	_	TokenRange=134:139
+19	tom	tom	NOUN	NOUN	_	18	obj	_	TokenRange=140:143
+20	discurso	discurso	NOUN	NOUN	_	18	obj	_	TokenRange=144:152
+21	presidente	presidente	NOUN	NOUN	_	20	appos	_	TokenRange=153:163
+22	disse	dizer	VERB	VERB	_	11	parataxis	_	TokenRange=164:169
+23	aceitara	aceitar	VERB	VERB	_	22	xcomp	_	TokenRange=170:178
+24	equipe	equipe	NOUN	NOUN	_	23	obj	_	TokenRange=179:185
+25	governo	governo	NOUN	NOUN	_	24	flat	_	TokenRange=186:193
+26	chamados	chamado	ADJ	ADJ	_	28	xcomp	_	TokenRange=194:202
+27	golpistas	golpista	NOUN	NOUN	_	28	nsubj	_	TokenRange=203:212
+28	fiquem	ficar	VERB	VERB	_	24	acl:relcl	_	TokenRange=213:219
+29	quietos	quieto	ADJ	ADJ	_	28	xcomp	_	TokenRange=220:227
+30	aqui	aqui	ADV	ADV	_	34	advmod	_	TokenRange=228:232
+31	governo	governo	NOUN	NOUN	_	28	nsubj	_	TokenRange=233:240
+32	acao	acao	NOUN	NOUN	_	31	amod	_	TokenRange=241:245
+33	amigos	amigo	NOUN	NOUN	_	34	nsubj	_	TokenRange=246:252
+34	disse	dizer	VERB	VERB	_	28	conj	_	TokenRange=253:258
+35	golpista	golpista	NOUN	NOUN	_	34	obj	_	TokenRange=259:267
+36	derruba	derrubo	ADJ	ADJ	_	35	amod	_	TokenRange=268:275
+37	constituicao	constituicao	NOUN	NOUN	_	36	nsubj	_	TokenRange=276:288
+38	nunca	nunca	ADV	ADV	_	39	advmod	_	TokenRange=289:294
+39	quisemos	qerer	VERB	VERB	_	37	acl:relcl	_	TokenRange=295:303
+40	ruptura	ruptura	NOUN	NOUN	_	39	obj	_	TokenRange=304:311
+41	lei	lei	NOUN	NOUN	_	40	appos	_	TokenRange=312:315
+42	maxima	maximo	ADJ	ADJ	_	41	amod	_	TokenRange=316:322
+43	brasil	brasil	NOUN	NOUN	_	44	nsubj	_	TokenRange=323:329
+44	bradou	bradar	VERB	VERB	_	0	root	_	TokenRange=330:336
+45	temer	temer	NOUN	NOUN	_	44	obj	_	SpaceAfter=No|TokenRange=337:342
+

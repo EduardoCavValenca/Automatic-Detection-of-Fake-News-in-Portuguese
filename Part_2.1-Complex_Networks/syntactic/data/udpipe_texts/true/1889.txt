@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = relator reforma previdencia diz negociacoes votar pec melhor momento arthur maia disse 290 310 deputados favoraveis pec necessarios menos 308 votos aprovar texto camara temer ofereceu cafe lideres aliados nesta quarta relator reforma previdencia social camara deputado arthur maia ppsba afirmou nesta quartafeira 6 negociacoes votar emenda constitucional melhor momento deputado conversou jornalistas apos deixar cafe
+1	relator	relator	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	reforma	reforma	NOUN	NOUN	_	1	appos	_	TokenRange=8:15
+3	previdencia	previdencia	NOUN	NOUN	_	1	flat	_	TokenRange=16:27
+4	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=28:31
+5	negociacoes	negociacoe	NOUN	NOUN	_	4	obj	_	TokenRange=32:43
+6	votar	votar	VERB	VERB	_	4	ccomp	_	TokenRange=44:49
+7	pec	_	NOUN	NOUN	_	6	obj	_	TokenRange=50:53
+8	melhor	melhor	ADJ	ADJ	_	9	amod	_	TokenRange=54:60
+9	momento	momento	NOUN	NOUN	_	12	nsubj	_	TokenRange=61:68
+10	arthur	_	PROPN	PNOUN	_	12	nsubj	_	TokenRange=69:75
+11	maia	maia	NOUN	NOUN	_	10	flat	_	TokenRange=76:80
+12	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=81:86
+13	290	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=87:90
+14	310	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=91:94
+15	deputados	deputado	NOUN	NOUN	_	12	obj	_	TokenRange=95:104
+16	favoraveis	favoravel	ADJ	ADJ	_	15	amod	_	TokenRange=105:115
+17	pec	_	NOUN	NOUN	_	15	appos	_	TokenRange=116:119
+18	necessarios	necessario	ADJ	ADJ	_	17	amod	_	TokenRange=120:131
+19	menos	menos	ADV	ADV	_	20	advmod	_	TokenRange=132:137
+20	308	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=138:141
+21	votos	voto	NOUN	NOUN	_	22	nsubj	_	TokenRange=142:147
+22	aprovar	aprovar	VERB	VERB	_	15	acl:relcl	_	TokenRange=148:155
+23	texto	texto	NOUN	NOUN	_	22	obj	_	TokenRange=156:161
+24	camara	camara	NOUN	NOUN	_	23	flat	_	TokenRange=162:168
+25	temer	temer	NOUN	NOUN	_	26	nsubj	_	TokenRange=169:174
+26	ofereceu	oferecer	VERB	VERB	_	15	acl:relcl	_	TokenRange=175:183
+27	cafe	cafe	NOUN	NOUN	_	26	obj	_	TokenRange=184:188
+28	lideres	lider	NOUN	NOUN	_	26	obj	_	TokenRange=189:196
+29	aliados	aliado	ADJ	ADJ	_	28	amod	_	TokenRange=197:204
+30	nesta	_	ADP	ADP	_	32	case	_	TokenRange=205:210
+31	quarta	_	ADJ	ADJ	_	32	amod	_	TokenRange=211:217
+32	relator	relator	NOUN	NOUN	_	26	nmod	_	TokenRange=218:225
+33	reforma	reforma	NOUN	NOUN	_	32	appos	_	TokenRange=226:233
+34	previdencia	previdencia	NOUN	NOUN	_	33	flat	_	TokenRange=234:245
+35	social	social	ADJ	ADJ	_	34	amod	_	TokenRange=246:252
+36	camara	camara	NOUN	NOUN	_	37	appos	_	TokenRange=253:259
+37	deputado	deputado	NOUN	NOUN	_	41	nsubj	_	TokenRange=260:268
+38	arthur	_	NOUN	NOUN	_	37	appos	_	TokenRange=269:275
+39	maia	maia	NOUN	NOUN	_	38	flat	_	TokenRange=276:280
+40	ppsba	_	NOUN	NOUN	_	37	flat	_	TokenRange=281:286
+41	afirmou	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=287:294
+42	nesta	_	ADP	ADP	_	43	case	_	TokenRange=295:300
+43	quartafeira	_	NOUN	NOUN	_	41	nmod	_	TokenRange=301:312
+44	6	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=313:314
+45	negociacoes	negociacoe	NOUN	NOUN	_	46	nsubj	_	TokenRange=315:326
+46	votar	votar	VERB	VERB	_	41	ccomp	_	TokenRange=327:332
+47	emenda	emenda	NOUN	NOUN	_	46	obj	_	TokenRange=333:339
+48	constitucional	constitucional	ADJ	ADJ	_	47	amod	_	TokenRange=340:354
+49	melhor	melhor	ADJ	ADJ	_	50	amod	_	TokenRange=355:361
+50	momento	momento	NOUN	NOUN	_	52	nsubj	_	TokenRange=362:369
+51	deputado	deputado	NOUN	NOUN	_	50	appos	_	TokenRange=370:378
+52	conversou	conversar	VERB	VERB	_	41	parataxis	_	TokenRange=379:388
+53	jornalistas	jornalista	NOUN	NOUN	_	52	obj	_	TokenRange=389:400
+54	apos	_	ADP	ADP	_	55	mark	_	TokenRange=401:405
+55	deixar	deixar	VERB	VERB	_	52	advcl	_	TokenRange=406:412
+56	cafe	cafe	NOUN	NOUN	_	55	obj	_	SpaceAfter=No|TokenRange=413:417
+

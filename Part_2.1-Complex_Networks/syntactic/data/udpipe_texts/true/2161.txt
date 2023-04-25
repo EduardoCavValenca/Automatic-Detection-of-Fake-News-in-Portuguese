@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = luiz fernando teixeira especial estado humberto pellegrini assumiu cargo sindico condominio jardim paulista dois anos sabia funcionava burocracia permitir reforma apartamento 2014 associacao brasileira normas tecnicas abnt baixado norma nbr 16280 estabelece requisitos controle processos projetos execucao seguranca edificacoes norma criada atender demanda mercado identificada tempo profissionais porem trabalhada discutida publicada apenas apos incidencia acidentes edificacoes condominios vieram publico
+1	luiz	luiz	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:4
+2	fernando	fernando	NOUN	NOUN	_	1	flat	_	TokenRange=5:13
+3	teixeira	_	NOUN	NOUN	_	1	flat	_	TokenRange=14:22
+4	especial	especial	ADJ	ADJ	_	5	amod	_	TokenRange=23:31
+5	estado	estado	NOUN	NOUN	_	1	appos	_	TokenRange=32:38
+6	humberto	humberto	ADJ	ADJ	_	5	amod	_	TokenRange=39:47
+7	pellegrini	_	NOUN	NOUN	_	1	flat	_	TokenRange=48:58
+8	assumiu	assumir	VERB	VERB	_	0	root	_	TokenRange=59:66
+9	cargo	cargo	NOUN	NOUN	_	8	obj	_	TokenRange=67:72
+10	sindico	sindico	ADJ	ADJ	_	9	amod	_	TokenRange=73:80
+11	condominio	condominio	NOUN	NOUN	_	8	obj	_	TokenRange=81:91
+12	jardim	jardim	NOUN	NOUN	_	11	appos	_	TokenRange=92:98
+13	paulista	paulista	ADJ	ADJ	_	12	amod	_	TokenRange=99:107
+14	dois	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=108:112
+15	anos	ano	NOUN	NOUN	_	8	nmod	_	TokenRange=113:117
+16	sabia	saber	VERB	VERB	_	17	parataxis	_	TokenRange=118:123
+17	funcionava	funcionar	VERB	VERB	_	8	parataxis	_	TokenRange=124:134
+18	burocracia	burocracia	NOUN	NOUN	_	17	obj	_	TokenRange=135:145
+19	permitir	permitir	VERB	VERB	_	17	csubj	_	TokenRange=146:154
+20	reforma	reforma	NOUN	NOUN	_	19	obj	_	TokenRange=155:162
+21	apartamento	apartamento	NOUN	NOUN	_	20	appos	_	TokenRange=163:174
+22	2014	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=175:179
+23	associacao	associacao	NOUN	NOUN	_	19	appos	_	TokenRange=180:190
+24	brasileira	brasileiro	ADJ	ADJ	_	25	amod	_	TokenRange=191:201
+25	normas	norma	NOUN	NOUN	_	23	appos	_	TokenRange=202:208
+26	tecnicas	tecnico	ADJ	ADJ	_	25	amod	_	TokenRange=209:217
+27	abnt	_	ADV	ADV	_	29	advmod	_	TokenRange=218:222
+28	baixado	baixado	ADJ	ADJ	_	29	amod	_	TokenRange=223:230
+29	norma	norma	NOUN	NOUN	_	17	nsubj	_	TokenRange=231:236
+30	nbr	_	NOUN	NOUN	_	29	appos	_	TokenRange=237:240
+31	16280	_	NUM	NUM	NumType=Card	29	appos	_	TokenRange=241:246
+32	estabelece	estabelecer	VERB	VERB	_	29	acl:relcl	_	TokenRange=247:257
+33	requisitos	requisito	NOUN	NOUN	_	32	obj	_	TokenRange=258:268
+34	controle	_	NOUN	NOUN	_	33	amod	_	TokenRange=269:277
+35	processos	processo	NOUN	NOUN	_	33	appos	_	TokenRange=278:287
+36	projetos	projeto	NOUN	NOUN	_	35	flat	_	TokenRange=288:296
+37	execucao	execucao	VERB	VERB	_	35	amod	_	TokenRange=297:305
+38	seguranca	_	NOUN	NOUN	_	37	obj	_	TokenRange=306:315
+39	edificacoes	edificacoe	ADJ	ADJ	_	38	amod	_	TokenRange=316:327
+40	norma	norma	NOUN	NOUN	_	32	nsubj	_	TokenRange=328:333
+41	criada	criar	VERB	VERB	_	40	acl	_	TokenRange=334:340
+42	atender	atender	VERB	VERB	_	40	acl	_	TokenRange=341:348
+43	demanda	demanda	NOUN	NOUN	_	42	obj	_	TokenRange=349:356
+44	mercado	mercado	NOUN	NOUN	_	43	appos	_	TokenRange=357:364
+45	identificada	identificar	VERB	ADJ	_	46	acl	_	TokenRange=365:377
+46	tempo	tempo	NOUN	NOUN	_	42	obj	_	TokenRange=378:383
+47	profissionais	profissional	ADJ	ADJ	_	46	amod	_	TokenRange=384:397
+48	porem	_	ADV	ADV	_	49	advmod	_	TokenRange=398:403
+49	trabalhada	trabalhar	VERB	VERB	_	40	acl	_	TokenRange=404:414
+50	discutida	discutir	VERB	VERB	_	49	acl	_	TokenRange=415:424
+51	publicada	publicar	VERB	VERB	_	49	acl	_	TokenRange=425:434
+52	apenas	apenas	ADV	ADV	_	54	advmod	_	TokenRange=435:441
+53	apos	_	ADP	ADP	_	54	case	_	TokenRange=442:446
+54	incidencia	incidencia	NOUN	NOUN	_	51	nmod	_	TokenRange=447:457
+55	acidentes	acidente	NOUN	NOUN	_	51	nsubj:pass	_	TokenRange=458:467
+56	edificacoes	edificacoe	ADJ	ADJ	_	55	amod	_	TokenRange=468:479
+57	condominios	condominio	NOUN	NOUN	_	58	nsubj	_	TokenRange=480:491
+58	vieram	vir	VERB	VERB	_	49	conj	_	TokenRange=492:498
+59	publico	_	ADJ	ADJ	_	58	xcomp	_	SpaceAfter=No|TokenRange=499:506
+

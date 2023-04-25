@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sete integrantes conselho governo sobre politica penitenciaria renunciam 16 conselho politica criminal penitenciaria sete divergiram medidas contra crise carceraria grupo ora despede identificavase gestao anterior disse governo sete 16 integrantes conselho nacional politica criminal penitenciaria apresentaram nesta quartafeira 25 carta renuncia coletiva orgao carater consultivo ligado ministerio justica carta integrantes apontaram serie divergencias medidas adotadas titular pasta alexandre moraes diante crise carceraria desde inicio ano rebelioes presidios
+1	sete	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=0:4
+2	integrantes	_	NOUN	NOUN	_	3	amod	_	TokenRange=5:16
+3	conselho	conselho	NOUN	NOUN	_	8	nsubj	_	TokenRange=17:25
+4	governo	governo	NOUN	NOUN	_	3	flat	_	TokenRange=26:33
+5	sobre	_	ADP	ADP	_	6	case	_	TokenRange=34:39
+6	politica	_	NOUN	NOUN	_	3	nmod	_	TokenRange=40:48
+7	penitenciaria	penitenciario	ADJ	ADJ	_	6	amod	_	TokenRange=49:62
+8	renunciam	renunciar	VERB	VERB	_	0	root	_	TokenRange=63:72
+9	16	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=73:75
+10	conselho	conselho	NOUN	NOUN	_	8	obj	_	TokenRange=76:84
+11	politica	_	ADJ	ADJ	_	10	amod	_	TokenRange=85:93
+12	criminal	criminal	ADJ	ADJ	_	10	amod	_	TokenRange=94:102
+13	penitenciaria	penitenciaria	NOUN	NOUN	_	10	amod	_	TokenRange=103:116
+14	sete	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=117:121
+15	divergiram	divergir	VERB	VERB	_	8	parataxis	_	TokenRange=122:132
+16	medidas	medida	NOUN	NOUN	_	15	obj	_	TokenRange=133:140
+17	contra	_	ADP	ADP	_	18	case	_	TokenRange=141:147
+18	crise	crise	NOUN	NOUN	_	16	nmod	_	TokenRange=148:153
+19	carceraria	carceraria	ADJ	ADJ	_	18	amod	_	TokenRange=154:164
+20	grupo	grupo	NOUN	NOUN	_	15	nsubj	_	TokenRange=165:170
+21	ora	ora	ADV	ADV	_	22	advmod	_	TokenRange=171:174
+22	despede	despeder	VERB	VERB	_	20	acl:relcl	_	TokenRange=175:182
+23	identificavase	_	NOUN	NOUN	_	22	obj	_	TokenRange=183:197
+24	gestao	gestao	NOUN	NOUN	_	22	obj	_	TokenRange=198:204
+25	anterior	anterior	ADJ	ADJ	_	24	amod	_	TokenRange=205:213
+26	disse	dizer	VERB	VERB	_	15	parataxis	_	TokenRange=214:219
+27	governo	governo	NOUN	NOUN	_	26	obj	_	TokenRange=220:227
+28	sete	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=228:232
+29	16	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=233:235
+30	integrantes	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=236:247
+31	conselho	conselho	NOUN	NOUN	_	36	nsubj	_	TokenRange=248:256
+32	nacional	nacional	ADJ	ADJ	_	31	amod	_	TokenRange=257:265
+33	politica	_	ADJ	ADJ	_	31	amod	_	TokenRange=266:274
+34	criminal	criminal	ADJ	ADJ	_	31	amod	_	TokenRange=275:283
+35	penitenciaria	penitenciaria	ADJ	ADJ	_	31	amod	_	TokenRange=284:297
+36	apresentaram	apresentar	VERB	VERB	_	26	ccomp	_	TokenRange=298:310
+37	nesta	_	ADP	ADP	_	38	case	_	TokenRange=311:316
+38	quartafeira	_	NOUN	NOUN	_	36	nmod	_	TokenRange=317:328
+39	25	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=329:331
+40	carta	carta	NOUN	NOUN	_	38	appos	_	TokenRange=332:337
+41	renuncia	renuncia	NOUN	NOUN	_	36	obj	_	TokenRange=338:346
+42	coletiva	coletivo	ADJ	ADJ	_	41	amod	_	TokenRange=347:355
+43	orgao	orgao	NOUN	NOUN	_	41	appos	_	TokenRange=356:361
+44	carater	carater	NOUN	NOUN	_	41	appos	_	TokenRange=362:369
+45	consultivo	consultivo	ADJ	ADJ	_	44	amod	_	TokenRange=370:380
+46	ligado	ligado	ADJ	ADJ	_	44	amod	_	TokenRange=381:387
+47	ministerio	ministerio	NOUN	NOUN	_	44	appos	_	TokenRange=388:398
+48	justica	justico	ADJ	ADJ	_	47	amod	_	TokenRange=399:406
+49	carta	carta	NOUN	NOUN	_	51	nsubj	_	TokenRange=407:412
+50	integrantes	_	ADJ	ADJ	_	49	amod	_	TokenRange=413:424
+51	apontaram	apontar	VERB	VERB	_	36	parataxis	_	TokenRange=425:434
+52	serie	_	NOUN	NOUN	_	53	amod	_	TokenRange=435:440
+53	divergencias	divergencia	NOUN	NOUN	_	51	obj	_	TokenRange=441:453
+54	medidas	medida	NOUN	NOUN	_	51	obj	_	TokenRange=454:461
+55	adotadas	adotar	VERB	VERB	_	54	acl	_	TokenRange=462:470
+56	titular	titular	ADJ	ADJ	_	57	amod	_	TokenRange=471:478
+57	pasta	pasta	NOUN	NOUN	_	55	obj	_	TokenRange=479:484
+58	alexandre	alexandre	NOUN	NOUN	_	57	appos	_	TokenRange=485:494
+59	moraes	_	NOUN	NOUN	_	58	flat	_	TokenRange=495:501
+60	diante	diante	ADV	ADV	_	61	advmod	_	TokenRange=502:508
+61	crise	crise	NOUN	NOUN	_	55	nmod	_	TokenRange=509:514
+62	carceraria	carceraria	ADJ	ADJ	_	61	amod	_	TokenRange=515:525
+63	desde	_	ADP	ADP	_	65	case	_	TokenRange=526:531
+64	inicio	_	ADJ	ADJ	_	65	amod	_	TokenRange=532:538
+65	ano	ano	NOUN	NOUN	_	61	nmod	_	TokenRange=539:542
+66	rebelioes	rebelioe	NOUN	NOUN	_	51	obj	_	TokenRange=543:552
+67	presidios	presidio	NOUN	NOUN	_	66	amod	_	SpaceAfter=No|TokenRange=553:562
+

@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 17 maio 2017 boa noite aqui principais noticias terminar dia beminformado bomba estourou aviso segundo reportagem colunista lauro jardim jornal globo dono frigorifico jbs gravou temer dando aval comprar silencio eduardo cunha operacao lava jato entregou audio delacao procuradoriageral republica pgr grande abalo terremoto poliico pais vive ultimos anos manter viu diz michel temer gravacao marco empresario joesley batista dono jbs informa presidente pagando exdeputado
+1	quartafeira	quartafeira	NOUN	NOUN	_	14	parataxis	_	TokenRange=0:11
+2	17	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=12:14
+3	maio	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:19
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=20:24
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=25:28
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=35:39
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=40:50
+9	noticias	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=51:59
+10	terminar	terminar	VERB	VERB	_	6	acl:relcl	_	TokenRange=60:68
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=69:72
+12	beminformado	beminformado	ADJ	ADJ	_	9	amod	_	TokenRange=73:85
+13	bomba	bomba	NOUN	NOUN	_	10	nsubj	_	TokenRange=86:91
+14	estourou	estourar	VERB	VERB	_	0	root	_	TokenRange=92:100
+15	aviso	aviso	NOUN	NOUN	_	14	obj	_	TokenRange=101:106
+16	segundo	_	ADP	ADP	_	17	case	_	TokenRange=107:114
+17	reportagem	reportagem	NOUN	NOUN	_	14	nmod	_	TokenRange=115:125
+18	colunista	colunista	ADJ	ADJ	_	17	amod	_	TokenRange=126:135
+19	lauro	lauro	NOUN	NOUN	_	17	appos	_	TokenRange=136:141
+20	jardim	jardim	NOUN	NOUN	_	19	flat	_	TokenRange=142:148
+21	jornal	jornal	NOUN	NOUN	_	19	appos	_	TokenRange=149:155
+22	globo	globo	NOUN	NOUN	_	21	flat	_	TokenRange=156:161
+23	dono	dono	NOUN	NOUN	_	21	appos	_	TokenRange=162:166
+24	frigorifico	frigorifico	ADJ	ADJ	_	23	amod	_	TokenRange=167:178
+25	jbs	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=179:182
+26	gravou	gravar	VERB	VERB	_	14	parataxis	_	TokenRange=183:189
+27	temer	temer	NOUN	NOUN	_	26	obj	_	TokenRange=190:195
+28	dando	dar	VERB	VERB	_	26	acl	_	TokenRange=196:201
+29	aval	aval	NOUN	NOUN	_	28	obj	_	TokenRange=202:206
+30	comprar	comprar	VERB	VERB	_	28	ccomp	_	TokenRange=207:214
+31	silencio	silencio	NOUN	NOUN	_	30	obj	_	TokenRange=215:223
+32	eduardo	eduardo	NOUN	NOUN	_	30	nmod	_	TokenRange=224:231
+33	cunha	_	NOUN	NOUN	_	34	flat	_	TokenRange=232:237
+34	operacao	operacao	NOUN	NOUN	_	37	nsubj	_	TokenRange=238:246
+35	lava	lava	NOUN	NOUN	_	34	flat	_	TokenRange=247:251
+36	jato	jato	NOUN	NOUN	_	34	flat	_	TokenRange=252:256
+37	entregou	entregar	VERB	VERB	_	26	parataxis	_	TokenRange=257:265
+38	audio	audio	NOUN	NOUN	_	37	obj	_	TokenRange=266:271
+39	delacao	_	NOUN	NOUN	_	38	appos	_	TokenRange=272:279
+40	procuradoriageral	procuradoriageral	NOUN	NOUN	_	38	appos	_	TokenRange=280:297
+41	republica	republico	ADJ	ADJ	_	38	amod	_	TokenRange=298:307
+42	pgr	_	NOUN	NOUN	_	44	case	_	TokenRange=308:311
+43	grande	grande	ADJ	ADJ	_	44	amod	_	TokenRange=312:318
+44	abalo	abalo	NOUN	NOUN	_	37	nsubj	_	TokenRange=319:324
+45	terremoto	terremoto	NOUN	NOUN	_	44	appos	_	TokenRange=325:334
+46	poliico	poliico	ADJ	ADJ	_	45	amod	_	TokenRange=335:342
+47	pais	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=343:347
+48	vive	_	VERB	VERB	_	37	parataxis	_	TokenRange=348:352
+49	ultimos	_	ADJ	ADJ	_	50	amod	_	TokenRange=353:360
+50	anos	ano	NOUN	NOUN	_	48	obj	_	TokenRange=361:365
+51	manter	manter	VERB	VERB	_	48	ccomp	_	TokenRange=366:372
+52	viu	viu	ADJ	ADJ	_	51	xcomp	_	TokenRange=373:376
+53	diz	dizer	VERB	VERB	_	48	parataxis	_	TokenRange=377:380
+54	michel	michel	ADJ	ADJ	_	55	amod	_	TokenRange=381:387
+55	temer	temer	NOUN	NOUN	_	53	nsubj	_	TokenRange=388:393
+56	gravacao	gravacao	NOUN	NOUN	_	55	appos	_	TokenRange=394:402
+57	marco	marco	NOUN	NOUN	_	56	appos	_	TokenRange=403:408
+58	empresario	empresario	NOUN	NOUN	_	57	flat	_	TokenRange=409:419
+59	joesley	_	NOUN	NOUN	_	56	appos	_	TokenRange=420:427
+60	batista	batista	ADJ	ADJ	_	59	flat	_	TokenRange=428:435
+61	dono	dono	NOUN	NOUN	_	59	flat	_	TokenRange=436:440
+62	jbs	_	PROPN	PNOUN	_	59	appos	_	TokenRange=441:444
+63	informa	informar	VERB	VERB	_	53	parataxis	_	TokenRange=445:452
+64	presidente	presidente	NOUN	NOUN	_	63	obj	_	TokenRange=453:463
+65	pagando	pagar	VERB	VERB	_	63	acl	_	TokenRange=464:471
+66	exdeputado	exdeputado	NOUN	NOUN	_	65	obj	_	SpaceAfter=No|TokenRange=472:482
+

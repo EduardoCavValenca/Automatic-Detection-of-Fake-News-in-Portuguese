@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer diz cogita transferencia controle embraer outra empresa nesta quinta 21 embraer boeing confirmaram comunicado conjunto negociando fusao menor cogitacao transferir controle outra empresa disse presidente presidente michel temer disse nesta sextafeira 22 durante cafe manha jornalistas palacio alvorada capital estrangeiro bemvindo embraer governo cogita transferir controle empresa brasileira fabricante aeronaves nesta quintafeira 21 embraer norteamericana boeing divulgaram comunicado conjunto informaram discutindo fusao informacao revelada jornal wall street journal segundo boeing estaria negociando
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	cogita	cogita	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	transferencia	_	NOUN	NOUN	_	2	obj	_	TokenRange=17:30
+5	controle	_	NOUN	NOUN	_	4	flat	_	TokenRange=31:39
+6	embraer	embraer	NOUN	NOUN	_	4	flat	_	TokenRange=40:47
+7	outra	_	DET	DET	_	8	det	_	TokenRange=48:53
+8	empresa	empresa	NOUN	NOUN	_	4	appos	_	TokenRange=54:61
+9	nesta	_	ADP	ADP	_	12	case	_	TokenRange=62:67
+10	quinta	_	PROPN	PNOUN	_	14	nmod	_	TokenRange=68:74
+11	21	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=75:77
+12	embraer	embraer	NOUN	NOUN	_	14	nsubj	_	TokenRange=78:85
+13	boeing	boeing	NOUN	NOUN	_	12	flat	_	TokenRange=86:92
+14	confirmaram	confirmar	VERB	VERB	_	2	conj	_	TokenRange=93:104
+15	comunicado	comunicado	NOUN	NOUN	_	14	obj	_	TokenRange=105:115
+16	conjunto	conjunto	ADJ	ADJ	_	15	amod	_	TokenRange=116:124
+17	negociando	negociar	VERB	VERB	_	15	acl	_	TokenRange=125:135
+18	fusao	fusao	NOUN	NOUN	_	17	obj	_	TokenRange=136:141
+19	menor	menor	ADJ	ADJ	_	18	amod	_	TokenRange=142:147
+20	cogitacao	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=148:157
+21	transferir	transferir	VERB	VERB	_	17	ccomp	_	TokenRange=158:168
+22	controle	_	NOUN	NOUN	_	21	obj	_	TokenRange=169:177
+23	outra	_	DET	DET	_	24	det	_	TokenRange=178:183
+24	empresa	empresa	NOUN	NOUN	_	21	nsubj	_	TokenRange=184:191
+25	disse	dizer	VERB	VERB	_	17	parataxis	_	TokenRange=192:197
+26	presidente	presidente	NOUN	NOUN	_	30	nsubj	_	TokenRange=198:208
+27	presidente	presidente	NOUN	NOUN	_	26	appos	_	TokenRange=209:219
+28	michel	michel	ADJ	ADJ	_	29	amod	_	TokenRange=220:226
+29	temer	temer	NOUN	NOUN	_	26	appos	_	TokenRange=227:232
+30	disse	dizer	VERB	VERB	_	25	ccomp	_	TokenRange=233:238
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=239:244
+32	sextafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=245:255
+33	22	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=256:258
+34	durante	_	ADP	ADP	_	35	case	_	TokenRange=259:266
+35	cafe	cafe	NOUN	NOUN	_	30	nmod	_	TokenRange=267:271
+36	manha	manha	NOUN	NOUN	_	35	flat	_	TokenRange=272:277
+37	jornalistas	jornalista	NOUN	NOUN	_	35	amod	_	TokenRange=278:289
+38	palacio	palacio	NOUN	NOUN	_	35	appos	_	TokenRange=290:297
+39	alvorada	alvorado	ADJ	ADJ	_	38	amod	_	TokenRange=298:306
+40	capital	capital	NOUN	NOUN	_	38	appos	_	TokenRange=307:314
+41	estrangeiro	estrangeiro	ADJ	ADJ	_	40	amod	_	TokenRange=315:326
+42	bemvindo	bemvir	VERB	VERB	_	45	acl	_	TokenRange=327:335
+43	embraer	embraer	NOUN	NOUN	_	42	obj	_	TokenRange=336:343
+44	governo	governo	NOUN	NOUN	_	45	nsubj	_	TokenRange=344:351
+45	cogita	cogitar	VERB	VERB	_	38	acl:relcl	_	TokenRange=352:358
+46	transferir	transferir	VERB	VERB	_	45	xcomp	_	TokenRange=359:369
+47	controle	_	NOUN	NOUN	_	46	obj	_	TokenRange=370:378
+48	empresa	empresa	NOUN	NOUN	_	47	appos	_	TokenRange=379:386
+49	brasileira	brasileiro	ADJ	ADJ	_	48	amod	_	TokenRange=387:397
+50	fabricante	fabricante	NOUN	NOUN	_	48	amod	_	TokenRange=398:408
+51	aeronaves	aeronave	NOUN	NOUN	_	48	appos	_	TokenRange=409:418
+52	nesta	_	ADP	ADP	_	53	case	_	TokenRange=419:424
+53	quintafeira	quintafeira	NOUN	NOUN	_	58	nmod	_	TokenRange=425:436
+54	21	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=437:439
+55	embraer	embraer	NOUN	NOUN	_	53	appos	_	TokenRange=440:447
+56	norteamericana	norteamericano	ADJ	ADJ	_	55	amod	_	TokenRange=448:462
+57	boeing	boeing	NOUN	NOUN	_	55	amod	_	TokenRange=463:469
+58	divulgaram	divulgar	VERB	VERB	_	2	conj	_	TokenRange=470:480
+59	comunicado	comunicado	NOUN	NOUN	_	58	obj	_	TokenRange=481:491
+60	conjunto	conjunto	ADJ	ADJ	_	59	amod	_	TokenRange=492:500
+61	informaram	informar	VERB	VERB	_	58	parataxis	_	TokenRange=501:511
+62	discutindo	discutir	VERB	VERB	_	58	acl	_	TokenRange=512:522
+63	fusao	fusao	NOUN	NOUN	_	62	obj	_	TokenRange=523:528
+64	informacao	informacao	NOUN	NOUN	_	63	appos	_	TokenRange=529:539
+65	revelada	revelado	ADJ	ADJ	_	64	amod	_	TokenRange=540:548
+66	jornal	jornal	NOUN	NOUN	_	73	nsubj	_	TokenRange=549:555
+67	wall	_	NOUN	NOUN	_	66	appos	_	TokenRange=556:560
+68	street	_	NOUN	NOUN	_	67	flat	_	TokenRange=561:567
+69	journal	journal	ADJ	ADJ	_	67	amod	_	TokenRange=568:575
+70	segundo	_	ADP	ADP	_	71	case	_	TokenRange=576:583
+71	boeing	boeing	NOUN	NOUN	_	73	nmod	_	TokenRange=584:590
+72	estaria	estar	AUX	AUX	_	73	aux	_	TokenRange=591:598
+73	negociando	negociar	VERB	VERB	_	62	conj	_	SpaceAfter=No|TokenRange=599:609
+

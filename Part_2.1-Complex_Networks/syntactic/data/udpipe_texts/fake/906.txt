@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = poeta calou 513 deputados desgraca demais pais preciso sangue jorrar lanca acordo site oficial orgao camara deputados criada constituicao 1824 objetivo elaborar legislacao imperio resolver duvidas sobre sucessao coroa fixar despesas publicas repartir contribuicoes outras passaramse pouco 190 anos discurso surpreendente aconteceu 2015 poeta antonio marinho fazer homenagem expresidenciavel eduardo campos calou todos 513 parlamentares
+1	poeta	poeta	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	calou	calar	VERB	VERB	_	0	root	_	TokenRange=6:11
+3	513	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=12:15
+4	deputados	deputado	NOUN	NOUN	_	2	obj	_	TokenRange=16:25
+5	desgraca	desgracar	VERB	VERB	_	2	parataxis	_	TokenRange=26:34
+6	demais	_	DET	DET	_	7	det	_	TokenRange=35:41
+7	pais	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=42:46
+8	preciso	preciso	ADJ	ADJ	_	7	amod	_	TokenRange=47:54
+9	sangue	sangue	NOUN	NOUN	_	10	nsubj	_	TokenRange=55:61
+10	jorrar	jorrar	VERB	VERB	_	7	acl:relcl	_	TokenRange=62:68
+11	lanca	lancar	VERB	VERB	_	10	xcomp	_	TokenRange=69:74
+12	acordo	acordo	NOUN	NOUN	_	11	obj	_	TokenRange=75:81
+13	site	site	NOUN	NOUN	_	12	appos	_	TokenRange=82:86
+14	oficial	oficial	ADJ	ADJ	_	13	amod	_	TokenRange=87:94
+15	orgao	orgao	NOUN	NOUN	_	12	appos	_	TokenRange=95:100
+16	camara	camara	NOUN	NOUN	_	15	appos	_	TokenRange=101:107
+17	deputados	deputado	NOUN	NOUN	_	15	flat	_	TokenRange=108:117
+18	criada	criar	ADJ	ADJ	_	19	acl	_	TokenRange=118:124
+19	constituicao	constituicao	NOUN	NOUN	_	15	appos	_	TokenRange=125:137
+20	1824	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=138:142
+21	objetivo	objetivo	NOUN	NOUN	_	19	appos	_	TokenRange=143:151
+22	elaborar	elaborar	VERB	VERB	_	21	acl:inf	_	TokenRange=152:160
+23	legislacao	legislacao	NOUN	NOUN	_	22	obj	_	TokenRange=161:171
+24	imperio	imperio	ADJ	ADJ	_	23	amod	_	TokenRange=172:179
+25	resolver	resolver	VERB	VERB	_	21	acl:inf	_	TokenRange=180:188
+26	duvidas	duvida	NOUN	NOUN	_	25	obj	_	TokenRange=189:196
+27	sobre	_	ADP	ADP	_	30	mark	_	TokenRange=197:202
+28	sucessao	sucessao	NOUN	NOUN	_	30	nmod	_	TokenRange=203:211
+29	coroa	coroa	NOUN	NOUN	_	30	nsubj	_	TokenRange=212:217
+30	fixar	fixar	VERB	VERB	_	26	nmod	_	TokenRange=218:223
+31	despesas	despesa	NOUN	NOUN	_	30	obj	_	TokenRange=224:232
+32	publicas	publico	ADJ	ADJ	_	31	amod	_	TokenRange=233:241
+33	repartir	repartir	VERB	VERB	_	30	ccomp	_	TokenRange=242:250
+34	contribuicoes	contribuicoe	NOUN	NOUN	_	33	obj	_	TokenRange=251:264
+35	outras	_	PRON	PRON	_	36	nsubj	_	TokenRange=265:271
+36	passaramse	passarar	VERB	VERB	_	30	parataxis	_	TokenRange=272:282
+37	pouco	pouco	ADV	ADV	_	38	advmod	_	TokenRange=283:288
+38	190	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=289:292
+39	anos	ano	NOUN	NOUN	_	36	nmod	_	TokenRange=293:297
+40	discurso	discurso	NOUN	NOUN	_	36	obj	_	TokenRange=298:306
+41	surpreendente	surpreendente	ADJ	ADJ	_	40	amod	_	TokenRange=307:320
+42	aconteceu	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=321:330
+43	2015	_	NUM	NUM	NumType=Card	42	nmod	_	TokenRange=331:335
+44	poeta	poeta	NOUN	NOUN	_	42	nsubj	_	TokenRange=336:341
+45	antonio	antonio	NOUN	NOUN	_	44	appos	_	TokenRange=342:349
+46	marinho	marinho	ADJ	ADJ	_	44	flat	_	TokenRange=350:357
+47	fazer	fazer	VERB	VERB	_	44	acl:relcl	_	TokenRange=358:363
+48	homenagem	homenagem	NOUN	NOUN	_	47	obj	_	TokenRange=364:373
+49	expresidenciavel	expresidenciavel	ADJ	ADJ	_	48	amod	_	TokenRange=374:390
+50	eduardo	eduardo	NOUN	NOUN	_	48	appos	_	TokenRange=391:398
+51	campos	campo	NOUN	NOUN	_	50	flat	_	TokenRange=399:405
+52	calou	calar	VERB	VERB	_	48	acl:relcl	_	TokenRange=406:411
+53	todos	_	DET	DET	_	55	det	_	TokenRange=412:417
+54	513	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=418:421
+55	parlamentares	parlamentar	NOUN	NOUN	_	52	obj	_	SpaceAfter=No|TokenRange=422:435
+

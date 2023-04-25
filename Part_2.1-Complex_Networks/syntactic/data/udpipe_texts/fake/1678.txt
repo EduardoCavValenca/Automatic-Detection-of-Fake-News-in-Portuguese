@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acredite quiser aeronave transportava ministro stf possuia caixa preta informacao passada veja atraves assessoria imprensa forca aerea brasileira aeronave modelo king air c90gt fabricante hawker beechcraft modelo 2007 acordo especialistas aviao praticamente novo king air c90gt considerado aeronave segura confiavel piloto luis guilherme andrade dono escola aviacao disse aviao seguro consegue voar motor oito acidentes registrados tipo aeronave desde 2010 resultando onze mortes leia
+1	acredite	acreditar	VERB	VERB	_	0	root	_	TokenRange=0:8
+2	quiser	querer	VERB	VERB	_	1	xcomp	_	TokenRange=9:15
+3	aeronave	aeronave	NOUN	NOUN	_	2	obj	_	TokenRange=16:24
+4	transportava	transportar	VERB	VERB	_	1	ccomp	_	TokenRange=25:37
+5	ministro	ministro	NOUN	NOUN	_	4	obj	_	TokenRange=38:46
+6	stf	_	NOUN	NOUN	_	5	flat	_	TokenRange=47:50
+7	possuia	possuir	VERB	VERB	_	1	parataxis	_	TokenRange=51:58
+8	caixa	caixa	NOUN	NOUN	_	7	obj	_	TokenRange=59:64
+9	preta	preto	ADJ	ADJ	_	8	amod	_	TokenRange=65:70
+10	informacao	informacao	NOUN	NOUN	_	7	obj	_	TokenRange=71:81
+11	passada	passado	ADJ	ADJ	_	10	amod	_	TokenRange=82:89
+12	veja	ver	VERB	VERB	_	1	parataxis	_	TokenRange=90:94
+13	atraves	atrave	ADV	ADV	_	12	advmod	_	TokenRange=95:102
+14	assessoria	assessoria	NOUN	NOUN	_	12	obj	_	TokenRange=103:113
+15	imprensa	imprensa	NOUN	NOUN	_	14	amod	_	TokenRange=114:122
+16	forca	forca	NOUN	NOUN	_	14	appos	_	TokenRange=123:128
+17	aerea	aereo	ADJ	ADJ	_	14	amod	_	TokenRange=129:134
+18	brasileira	brasileiro	ADJ	ADJ	_	14	amod	_	TokenRange=135:145
+19	aeronave	aeronave	NOUN	NOUN	_	14	appos	_	TokenRange=146:154
+20	modelo	modelo	NOUN	NOUN	_	19	appos	_	TokenRange=155:161
+21	king	_	NOUN	NOUN	_	20	appos	_	TokenRange=162:166
+22	air	_	NOUN	NOUN	_	20	flat	_	TokenRange=167:170
+23	c90gt	_	NOUN	NOUN	_	24	appos	_	TokenRange=171:176
+24	fabricante	fabricante	NOUN	NOUN	_	20	appos	_	TokenRange=177:187
+25	hawker	_	NOUN	NOUN	_	24	appos	_	TokenRange=188:194
+26	beechcraft	_	NOUN	NOUN	_	25	flat	_	TokenRange=195:205
+27	modelo	modelo	NOUN	NOUN	_	25	appos	_	TokenRange=206:212
+28	2007	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=213:217
+29	acordo	acordo	NOUN	NOUN	_	19	appos	_	TokenRange=218:224
+30	especialistas	especialista	ADJ	ADJ	_	29	amod	_	TokenRange=225:238
+31	aviao	aviao	NOUN	NOUN	_	29	appos	_	TokenRange=239:244
+32	praticamente	praticamente	ADV	ADV	_	33	advmod	_	TokenRange=245:257
+33	novo	novo	ADJ	ADJ	_	34	amod	_	TokenRange=258:262
+34	king	_	NOUN	NOUN	_	31	appos	_	TokenRange=263:267
+35	air	_	NOUN	NOUN	_	34	flat	_	TokenRange=268:271
+36	c90gt	_	NOUN	NOUN	_	34	flat	_	TokenRange=272:277
+37	considerado	considerar	AUX	AUX	_	38	cop	_	TokenRange=278:289
+38	aeronave	aeronave	NOUN	NOUN	_	34	acl	_	TokenRange=290:298
+39	segura	seguro	ADJ	ADJ	_	38	amod	_	TokenRange=299:305
+40	confiavel	confiavel	ADJ	ADJ	_	41	amod	_	TokenRange=306:315
+41	piloto	piloto	NOUN	NOUN	_	38	appos	_	TokenRange=316:322
+42	luis	_	NOUN	NOUN	_	41	appos	_	TokenRange=323:327
+43	guilherme	guilherme	NOUN	NOUN	_	42	flat	_	TokenRange=328:337
+44	andrade	andrade	NOUN	NOUN	_	42	flat	_	TokenRange=338:345
+45	dono	dono	NOUN	NOUN	_	41	appos	_	TokenRange=346:350
+46	escola	escola	NOUN	NOUN	_	45	appos	_	TokenRange=351:357
+47	aviacao	aviacao	NOUN	NOUN	_	46	flat	_	TokenRange=358:365
+48	disse	dizer	VERB	VERB	_	1	parataxis	_	TokenRange=366:371
+49	aviao	aviao	NOUN	NOUN	_	48	obj	_	TokenRange=372:377
+50	seguro	seguro	ADJ	ADJ	_	49	amod	_	TokenRange=378:384
+51	consegue	conseguir	VERB	VERB	_	48	ccomp	_	TokenRange=385:393
+52	voar	voar	VERB	VERB	_	51	xcomp	_	TokenRange=394:398
+53	motor	motor	VERB	VERB	_	52	obj	_	TokenRange=399:404
+54	oito	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=405:409
+55	acidentes	acidente	NOUN	NOUN	_	52	obj	_	TokenRange=410:419
+56	registrados	registrar	VERB	VERB	_	55	acl	_	TokenRange=420:431
+57	tipo	tipo	NOUN	NOUN	_	56	obj	_	TokenRange=432:436
+58	aeronave	aeronave	NOUN	NOUN	_	57	flat	_	TokenRange=437:445
+59	desde	_	ADP	ADP	_	60	case	_	TokenRange=446:451
+60	2010	_	NUM	NUM	NumType=Card	56	nmod	_	TokenRange=452:456
+61	resultando	resultar	VERB	VERB	_	51	acl	_	TokenRange=457:467
+62	onze	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=468:472
+63	mortes	morte	NOUN	NOUN	_	61	obj	_	TokenRange=473:479
+64	leia	ler	VERB	VERB	_	61	xcomp	_	SpaceAfter=No|TokenRange=480:484
+

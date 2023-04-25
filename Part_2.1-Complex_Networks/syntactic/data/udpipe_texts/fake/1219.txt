@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joesley palavras temer enganou brasileiros fugiu eua criminoso passou nenhum dia cadeia preso punido jeito cometeu crime perfeito 238 min especulou contra moeda nacional antes entregar gravacao comprou 1 bilhao dolares 300 min lucrou milhoes milhoes dolares menos 24 horas 400 min senhor dois ultimos governos emprestimos bilionarios bndes prejudicou brasil enganou brasileiros agora mora eua 408 min quebraram brasil ficaram ricos 633 min conhecido falastrao exagerado 1018 min montagem criar flagrante enquanto criminosos fugiam exterior absoluta seguranca 1045 min
+1	joesley	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=0:7
+2	palavras	palavra	NOUN	NOUN	_	4	nsubj	_	TokenRange=8:16
+3	temer	temer	NOUN	NOUN	_	2	appos	_	TokenRange=17:22
+4	enganou	enganar	VERB	VERB	_	1	acl:relcl	_	TokenRange=23:30
+5	brasileiros	brasileiro	NOUN	NOUN	_	4	obj	_	TokenRange=31:42
+6	fugiu	fugir	VERB	VERB	_	4	ccomp	_	TokenRange=43:48
+7	eua	_	DET	DET	_	8	det	_	TokenRange=49:52
+8	criminoso	criminoso	NOUN	NOUN	_	9	nsubj	_	TokenRange=53:62
+9	passou	passar	VERB	VERB	_	4	conj	_	TokenRange=63:69
+10	nenhum	_	DET	DET	_	11	det	_	TokenRange=70:76
+11	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=77:80
+12	cadeia	cadeia	NOUN	NOUN	_	9	obj	_	TokenRange=81:87
+13	preso	preso	ADJ	ADJ	_	12	amod	_	TokenRange=88:93
+14	punido	punir	ADJ	ADJ	_	16	xcomp	_	TokenRange=94:100
+15	jeito	jeito	NOUN	NOUN	_	16	nsubj	_	TokenRange=101:106
+16	cometeu	cometer	VERB	VERB	_	4	conj	_	TokenRange=107:114
+17	crime	crime	NOUN	NOUN	_	16	obj	_	TokenRange=115:120
+18	perfeito	perfeito	ADJ	ADJ	_	17	amod	_	TokenRange=121:129
+19	238	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=130:133
+20	min	_	NUM	NUM	NumType=Card	21	nsubj	_	TokenRange=134:137
+21	especulou	especular	VERB	VERB	_	6	conj	_	TokenRange=138:147
+22	contra	_	ADP	ADP	_	23	case	_	TokenRange=148:154
+23	moeda	moeda	NOUN	NOUN	_	21	nmod	_	TokenRange=155:160
+24	nacional	nacional	ADJ	ADJ	_	23	amod	_	TokenRange=161:169
+25	antes	antes	ADV	ADV	_	26	advmod	_	TokenRange=170:175
+26	entregar	entregar	VERB	VERB	_	21	advcl	_	TokenRange=176:184
+27	gravacao	gravacao	NOUN	NOUN	_	26	obj	_	TokenRange=185:193
+28	comprou	comprar	VERB	VERB	_	0	root	_	TokenRange=194:201
+29	1	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=202:203
+30	bilhao	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=204:210
+31	dolares	dolar	NOUN	NOUN	_	28	obj	_	TokenRange=211:218
+32	300	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=219:222
+33	min	_	NUM	NUM	NumType=Card	34	nsubj	_	TokenRange=223:226
+34	lucrou	lucrar	VERB	VERB	_	28	parataxis	_	TokenRange=227:233
+35	milhoes	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=234:241
+36	milhoes	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=242:249
+37	dolares	dolar	NOUN	NOUN	_	34	obj	_	TokenRange=250:257
+38	menos	menos	ADV	ADV	_	36	advmod	_	TokenRange=258:263
+39	24	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=264:266
+40	horas	hora	NOUN	NOUN	_	34	nmod	_	TokenRange=267:272
+41	400	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=273:276
+42	min	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=277:280
+43	senhor	senhor	NOUN	NOUN	_	34	nsubj	_	TokenRange=281:287
+44	dois	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=288:292
+45	ultimos	_	ADJ	ADJ	_	46	amod	_	TokenRange=293:300
+46	governos	governo	NOUN	NOUN	_	50	nsubj	_	TokenRange=301:309
+47	emprestimos	emprestimo	NOUN	NOUN	_	46	appos	_	TokenRange=310:321
+48	bilionarios	bilionario	ADJ	ADJ	_	46	amod	_	TokenRange=322:333
+49	bndes	bndes	NOUN	NOUN	_	50	nsubj	_	TokenRange=334:339
+50	prejudicou	prejudicar	VERB	VERB	_	34	parataxis	_	TokenRange=340:350
+51	brasil	brasil	NOUN	NOUN	_	50	obj	_	TokenRange=351:357
+52	enganou	enganar	VERB	VERB	_	50	ccomp	_	TokenRange=358:365
+53	brasileiros	brasileiro	NOUN	NOUN	_	52	obj	_	TokenRange=366:377
+54	agora	agora	ADV	ADV	_	55	advmod	_	TokenRange=378:383
+55	mora	morar	VERB	VERB	_	50	conj	_	TokenRange=384:388
+56	eua	_	PRON	PRON	_	55	nsubj	_	TokenRange=389:392
+57	408	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=393:396
+58	min	_	NUM	NUM	NumType=Card	59	nsubj	_	TokenRange=397:400
+59	quebraram	quebrar	VERB	VERB	_	50	ccomp	_	TokenRange=401:410
+60	brasil	brasil	NOUN	NOUN	_	59	obj	_	TokenRange=411:417
+61	ficaram	ficar	VERB	VERB	_	59	ccomp	_	TokenRange=418:425
+62	ricos	rico	ADJ	ADJ	_	61	xcomp	_	TokenRange=426:431
+63	633	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=432:435
+64	min	_	NUM	NUM	NumType=Card	61	nsubj	_	TokenRange=436:439
+65	conhecido	conhecido	ADJ	ADJ	_	66	amod	_	TokenRange=440:449
+66	falastrao	falastrao	NOUN	NOUN	_	61	nsubj	_	TokenRange=450:459
+67	exagerado	exagerado	ADJ	ADJ	_	66	amod	_	TokenRange=460:469
+68	1018	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=470:474
+69	min	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=475:478
+70	montagem	montagem	NOUN	NOUN	_	61	nsubj	_	TokenRange=479:487
+71	criar	criar	VERB	VERB	_	70	acl:inf	_	TokenRange=488:493
+72	flagrante	flagrante	NOUN	NOUN	_	71	obj	_	TokenRange=494:503
+73	enquanto	_	CCONJ	CONJ	_	75	mark	_	TokenRange=504:512
+74	criminosos	criminoso	NOUN	NOUN	_	75	nsubj	_	TokenRange=513:523
+75	fugiam	fugir	VERB	VERB	_	71	advcl	_	TokenRange=524:530
+76	exterior	exterior	ADJ	ADJ	_	75	xcomp	_	TokenRange=531:539
+77	absoluta	absoluto	ADJ	ADJ	_	78	amod	_	TokenRange=540:548
+78	seguranca	_	NOUN	NOUN	_	75	obj	_	TokenRange=549:558
+79	1045	_	NUM	NUM	NumType=Card	80	nummod	_	TokenRange=559:563
+80	min	_	NUM	NUM	NumType=Card	75	nmod	_	SpaceAfter=No|TokenRange=564:567
+

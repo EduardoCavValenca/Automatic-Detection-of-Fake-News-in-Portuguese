@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciro gomes apoiando dilma nada disso vejam fala sobre lula dilma pt lula fez campanha golpista chamada fhc disse exministro ciro gomes entrevista jornalista kennedy alencar ciro gomes detona pt chama vicepresidente michel temer chefe quadrilha diz jose serra candidato ideal assumir pais confira
+1	ciro	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:4
+2	gomes	gome	NOUN	NOUN	_	1	flat	_	TokenRange=5:10
+3	apoiando	apoiar	VERB	VERB	_	1	acl	_	TokenRange=11:19
+4	dilma	dilma	NOUN	NOUN	_	3	obj	_	TokenRange=20:25
+5	nada	_	PRON	PRON	_	3	obj	_	TokenRange=26:30
+6	disso	_	X	ADPPRON	_	5	nmod	_	TokenRange=31:36
+7	vejam	vejar	VERB	VERB	_	8	acl:relcl	_	TokenRange=37:42
+8	fala	_	VERB	VERB	_	0	root	_	TokenRange=43:47
+9	sobre	_	ADP	ADP	_	10	case	_	TokenRange=48:53
+10	lula	lula	NOUN	NOUN	_	8	nmod	_	TokenRange=54:58
+11	dilma	dilma	NOUN	NOUN	_	10	flat	_	TokenRange=59:64
+12	pt	_	CCONJ	CONJ	_	14	mark	_	TokenRange=65:67
+13	lula	lula	NOUN	NOUN	_	14	nsubj	_	TokenRange=68:72
+14	fez	fazer	VERB	VERB	_	10	acl:relcl	_	TokenRange=73:76
+15	campanha	campanha	NOUN	NOUN	_	14	obj	_	TokenRange=77:85
+16	golpista	golpista	ADJ	ADJ	_	15	amod	_	TokenRange=86:94
+17	chamada	chamar	VERB	VERB	_	18	acl	_	TokenRange=95:102
+18	fhc	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=103:106
+19	disse	dizer	VERB	VERB	_	14	parataxis	_	TokenRange=107:112
+20	exministro	exministro	NOUN	NOUN	_	19	obj	_	TokenRange=113:123
+21	ciro	ciro	NOUN	NOUN	_	20	appos	_	TokenRange=124:128
+22	gomes	gome	NOUN	NOUN	_	21	flat	_	TokenRange=129:134
+23	entrevista	entrevista	NOUN	NOUN	_	19	nsubj	_	TokenRange=135:145
+24	jornalista	jornalista	NOUN	NOUN	_	23	appos	_	TokenRange=146:156
+25	kennedy	_	NOUN	NOUN	_	24	appos	_	TokenRange=157:164
+26	alencar	alencar	NOUN	NOUN	_	24	appos	_	TokenRange=165:172
+27	ciro	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=173:177
+28	gomes	gome	NOUN	NOUN	_	29	nsubj	_	TokenRange=178:183
+29	detona	detonar	VERB	VERB	_	24	acl:relcl	_	TokenRange=184:190
+30	pt	_	NOUN	NOUN	_	31	obj	_	TokenRange=191:193
+31	chama	chamar	VERB	VERB	_	29	ccomp	_	TokenRange=194:199
+32	vicepresidente	vicepresidente	NOUN	NOUN	_	31	obj	_	TokenRange=200:214
+33	michel	michel	ADJ	ADJ	_	32	amod	_	TokenRange=215:221
+34	temer	temer	NOUN	NOUN	_	32	appos	_	TokenRange=222:227
+35	chefe	chefe	NOUN	NOUN	_	32	appos	_	TokenRange=228:233
+36	quadrilha	quadrilha	NOUN	NOUN	_	35	appos	_	TokenRange=234:243
+37	diz	dizer	VERB	VERB	_	19	parataxis	_	TokenRange=244:247
+38	jose	jose	NOUN	NOUN	_	44	nsubj	_	TokenRange=248:252
+39	serra	_	PROPN	PNOUN	_	38	flat	_	TokenRange=253:258
+40	candidato	candidato	NOUN	NOUN	_	44	nsubj	_	TokenRange=259:268
+41	ideal	ideal	ADJ	ADJ	_	40	amod	_	TokenRange=269:274
+42	assumir	assumir	VERB	VERB	_	40	acl:inf	_	TokenRange=275:282
+43	pais	_	NOUN	NOUN	_	42	obj	_	TokenRange=283:287
+44	confira	conferir	VERB	VERB	_	37	ccomp	_	SpaceAfter=No|TokenRange=288:295
+

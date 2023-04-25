@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gilberto barros irrita deputados brasileiros uns cretinos uns enganadores uns vagabundos assim todo brasileiro saco cheio politicos apresentador gilberto barros expressou indignacao atraves redes sociais brasileiro gosta politicos disse barros absurdo vergonhoso uns cretinos uns vagabundos completou confira abaixo trecho materia publicada site congresso foco gilberto barros refere 2015 menos 4 513 integrantes casa presentes todos dias comparecimento exigido chamada sessao deliberativa 19 parlamentares marcaram presenca todos 125 dias previstas votacoes 11 calouros casa veteranos presentes plenario tres nenhuma falta mandato anterior manato sdes tiririca prsp lincoln portela prmg
+1	gilberto	gilberto	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	barros	barro	NOUN	NOUN	_	1	flat	_	TokenRange=9:15
+3	irrita	irritar	VERB	VERB	_	0	root	_	TokenRange=16:22
+4	deputados	deputado	NOUN	NOUN	_	3	obj	_	TokenRange=23:32
+5	brasileiros	brasileiro	ADJ	ADJ	_	4	amod	_	TokenRange=33:44
+6	uns	_	DET	DET	_	7	det	_	TokenRange=45:48
+7	cretinos	cretino	NOUN	NOUN	_	4	appos	_	TokenRange=49:57
+8	uns	_	DET	DET	_	9	det	_	TokenRange=58:61
+9	enganadores	enganador	NOUN	NOUN	_	4	appos	_	TokenRange=62:73
+10	uns	_	DET	DET	_	11	det	_	TokenRange=74:77
+11	vagabundos	vagabundo	NOUN	NOUN	_	3	nsubj	_	TokenRange=78:88
+12	assim	assim	ADV	ADV	_	14	advmod	_	TokenRange=89:94
+13	todo	_	DET	DET	_	14	det	_	TokenRange=95:99
+14	brasileiro	brasileiro	NOUN	NOUN	_	15	nsubj	_	TokenRange=100:110
+15	saco	sacar	VERB	VERB	_	11	appos	_	TokenRange=111:115
+16	cheio	cheio	ADJ	ADJ	_	15	amod	_	TokenRange=116:121
+17	politicos	politico	ADJ	NOUN	_	18	amod	_	TokenRange=122:131
+18	apresentador	apresentador	NOUN	NOUN	_	15	nsubj	_	TokenRange=132:144
+19	gilberto	gilberto	ADJ	ADJ	_	20	amod	_	TokenRange=145:153
+20	barros	barro	NOUN	NOUN	_	18	appos	_	TokenRange=154:160
+21	expressou	expressar	VERB	VERB	_	3	parataxis	_	TokenRange=161:170
+22	indignacao	indignacao	NOUN	NOUN	_	21	obj	_	TokenRange=171:181
+23	atraves	_	ADV	ADP	_	24	case	_	TokenRange=182:189
+24	redes	rede	NOUN	NOUN	_	21	nmod	_	TokenRange=190:195
+25	sociais	social	ADJ	ADJ	_	24	amod	_	TokenRange=196:203
+26	brasileiro	brasileiro	ADJ	ADJ	_	24	amod	_	TokenRange=204:214
+27	gosta	gostar	VERB	VERB	_	24	acl:relcl	_	TokenRange=215:220
+28	politicos	politico	NOUN	NOUN	_	27	obj	_	TokenRange=221:230
+29	disse	dizer	VERB	VERB	_	27	parataxis	_	TokenRange=231:236
+30	barros	barro	NOUN	NOUN	_	29	obj	_	TokenRange=237:243
+31	absurdo	absurdo	ADJ	ADJ	_	30	amod	_	TokenRange=244:251
+32	vergonhoso	vergonhoso	ADJ	ADJ	_	30	amod	_	TokenRange=252:262
+33	uns	_	DET	DET	_	34	det	_	TokenRange=263:266
+34	cretinos	cretino	NOUN	NOUN	_	37	nsubj	_	TokenRange=267:275
+35	uns	_	DET	DET	_	36	det	_	TokenRange=276:279
+36	vagabundos	vagabundo	NOUN	NOUN	_	37	nsubj	_	TokenRange=280:290
+37	completou	completar	VERB	VERB	_	29	parataxis	_	TokenRange=291:300
+38	confira	conferir	VERB	VERB	_	37	parataxis	_	TokenRange=301:308
+39	abaixo	abaixo	ADV	ADV	_	38	advmod	_	TokenRange=309:315
+40	trecho	trecho	NOUN	NOUN	_	38	obj	_	TokenRange=316:322
+41	materia	materia	NOUN	NOUN	_	38	appos	_	TokenRange=323:330
+42	publicada	publicar	VERB	VERB	_	41	acl	_	TokenRange=331:340
+43	site	site	NOUN	NOUN	_	42	nmod	_	TokenRange=341:345
+44	congresso	congresso	NOUN	NOUN	_	43	flat	_	TokenRange=346:355
+45	foco	foco	ADJ	NOUN	_	43	amod	_	TokenRange=356:360
+46	gilberto	gilberto	ADJ	ADJ	_	47	amod	_	TokenRange=361:369
+47	barros	barro	NOUN	NOUN	_	43	appos	_	TokenRange=370:376
+48	refere	referir	VERB	VERB	_	3	parataxis	_	TokenRange=377:383
+49	2015	_	NUM	NUM	NumType=Card	48	nmod	_	TokenRange=384:388
+50	menos	menos	ADV	ADV	_	52	advmod	_	TokenRange=389:394
+51	4	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=395:396
+52	513	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=397:400
+53	integrantes	_	NOUN	NOUN	_	48	obj	_	TokenRange=401:412
+54	casa	casa	NOUN	NOUN	_	53	appos	_	TokenRange=413:417
+55	presentes	presente	ADJ	ADJ	_	54	amod	_	TokenRange=418:427
+56	todos	_	DET	DET	_	57	det	_	TokenRange=428:433
+57	dias	dia	NOUN	NOUN	_	54	nmod	_	TokenRange=434:438
+58	comparecimento	comparecimento	NOUN	NOUN	_	54	appos	_	TokenRange=439:453
+59	exigido	exigir	VERB	VERB	_	61	acl	_	TokenRange=454:461
+60	chamada	chamar	ADJ	ADJ	_	61	amod	_	TokenRange=462:469
+61	sessao	sessao	NOUN	NOUN	_	58	appos	_	TokenRange=470:476
+62	deliberativa	deliberativo	ADJ	ADJ	_	61	amod	_	TokenRange=477:489
+63	19	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=490:492
+64	parlamentares	parlamentar	NOUN	NOUN	_	65	nsubj	_	TokenRange=493:506
+65	marcaram	marcar	VERB	VERB	_	53	acl:relcl	_	TokenRange=507:515
+66	presenca	presenca	NOUN	NOUN	_	65	obj	_	TokenRange=516:524
+67	todos	_	DET	DET	_	69	det	_	TokenRange=525:530
+68	125	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=531:534
+69	dias	dia	NOUN	NOUN	_	65	nmod	_	TokenRange=535:539
+70	previstas	previsto	ADJ	ADJ	_	69	amod	_	TokenRange=540:549
+71	votacoes	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=550:558
+72	11	_	NUM	NUM	NumType=Card	73	nummod	_	TokenRange=559:561
+73	calouros	calouro	NOUN	NOUN	_	74	appos	_	TokenRange=562:570
+74	casa	casa	NOUN	NOUN	_	65	nsubj	_	TokenRange=571:575
+75	veteranos	veterano	ADJ	ADJ	_	74	amod	_	TokenRange=576:585
+76	presentes	presente	ADJ	ADJ	_	74	amod	_	TokenRange=586:595
+77	plenario	plenario	NOUN	NOUN	_	74	appos	_	TokenRange=596:604
+78	tres	_	NUM	NUM	_	80	nummod	_	TokenRange=605:609
+79	nenhuma	_	DET	DET	_	80	det	_	TokenRange=610:617
+80	falta	_	NOUN	NOUN	_	74	appos	_	TokenRange=618:623
+81	mandato	mandato	NOUN	NOUN	_	80	appos	_	TokenRange=624:631
+82	anterior	anterior	ADJ	ADJ	_	81	amod	_	TokenRange=632:640
+83	manato	manato	NOUN	NOUN	_	81	appos	_	TokenRange=641:647
+84	sdes	_	X	NOUN	_	86	flat	_	TokenRange=648:652
+85	tiririca	tiririco	ADJ	ADJ	_	86	amod	_	TokenRange=653:661
+86	prsp	_	NOUN	NOUN	_	81	appos	_	TokenRange=662:666
+87	lincoln	_	NOUN	NOUN	_	86	flat	_	TokenRange=667:674
+88	portela	portela	ADJ	ADJ	_	89	flat	_	TokenRange=675:682
+89	prmg	_	X	X	_	86	flat	_	SpaceAfter=No|TokenRange=683:687
+

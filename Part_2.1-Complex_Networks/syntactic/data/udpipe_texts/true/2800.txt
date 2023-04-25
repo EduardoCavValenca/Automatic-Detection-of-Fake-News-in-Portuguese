@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 23 senadores investigados lava jato ficam foro privilegiado elegerem 2018 foro senadores perderiam prerrogativa serem julgados somente supremo poderiam passar esfera juiz sergio moro responsavel lava jato primeira instancia vinte tres senadores alvos operacao lava jato desdobramentos investigacao ficarao chamado foro privilegiado elegerem 2018 numero parlamentares nessas condicoes quase metade 54 senadores cujos mandatos terminam neste ano foro prerrogativa funcao chamado foro privilegiado direito
+1	23	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:2
+2	senadores	senador	NOUN	NOUN	_	6	nsubj	_	TokenRange=3:12
+3	investigados	investigar	VERB	VERB	_	2	acl	_	TokenRange=13:25
+4	lava	lava	VERB	VERB	_	6	nsubj	_	TokenRange=26:30
+5	jato	jato	NOUN	NOUN	_	6	nsubj	_	TokenRange=31:35
+6	ficam	ficar	VERB	VERB	_	0	root	_	TokenRange=36:41
+7	foro	foro	NOUN	NOUN	_	6	xcomp	_	TokenRange=42:46
+8	privilegiado	privilegiado	ADJ	ADJ	_	7	amod	_	TokenRange=47:59
+9	elegerem	eleger	VERB	VERB	_	6	csubj	_	TokenRange=60:68
+10	2018	_	NUM	NUM	NumType=Card	9	nmod	_	TokenRange=69:73
+11	foro	foro	NOUN	NOUN	_	13	nsubj	_	TokenRange=74:78
+12	senadores	senador	NOUN	NOUN	_	11	amod	_	TokenRange=79:88
+13	perderiam	perder	VERB	VERB	_	6	parataxis	_	TokenRange=89:98
+14	prerrogativa	prerrogativa	NOUN	NOUN	_	13	obj	_	TokenRange=99:111
+15	serem	ser	AUX	AUX	_	16	aux:pass	_	TokenRange=112:117
+16	julgados	julgar	VERB	VERB	_	14	acl:inf	_	TokenRange=118:126
+17	somente	somente	ADV	ADV	_	20	advmod	_	TokenRange=127:134
+18	supremo	supremo	ADJ	ADJ	_	20	nsubj	_	TokenRange=135:142
+19	poderiam	poder	AUX	AUX	_	20	aux	_	TokenRange=143:151
+20	passar	passar	VERB	VERB	_	13	advcl	_	TokenRange=152:158
+21	esfera	esfera	NOUN	NOUN	_	20	obj	_	TokenRange=159:165
+22	juiz	juiz	NOUN	NOUN	_	21	appos	_	TokenRange=166:170
+23	sergio	_	NOUN	NOUN	_	22	amod	_	TokenRange=171:177
+24	moro	moro	NOUN	NOUN	_	22	flat	_	TokenRange=178:182
+25	responsavel	responsavel	ADJ	ADJ	_	22	amod	_	TokenRange=183:194
+26	lava	lava	VERB	NOUN	_	20	parataxis	_	TokenRange=195:199
+27	jato	jato	NOUN	NOUN	_	26	flat	_	TokenRange=200:204
+28	primeira	primeiro	ADJ	ADJ	_	29	amod	_	TokenRange=205:213
+29	instancia	instancia	NOUN	NOUN	_	26	appos	_	TokenRange=214:223
+30	vinte	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=224:229
+31	tres	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=230:234
+32	senadores	senador	NOUN	NOUN	_	20	nsubj	_	TokenRange=235:244
+33	alvos	alvo	ADJ	ADJ	_	32	amod	_	TokenRange=245:250
+34	operacao	operacao	NOUN	NOUN	_	32	appos	_	TokenRange=251:259
+35	lava	lava	NOUN	NOUN	_	32	appos	_	TokenRange=260:264
+36	jato	jato	NOUN	NOUN	_	35	flat	_	TokenRange=265:269
+37	desdobramentos	desdobramento	NOUN	NOUN	_	35	appos	_	TokenRange=270:284
+38	investigacao	investigacao	ADJ	ADJ	_	37	amod	_	TokenRange=285:297
+39	ficarao	ficar	AUX	AUX	_	41	cop	_	TokenRange=298:305
+40	chamado	chamado	ADJ	AUX	_	41	cop	_	TokenRange=306:313
+41	foro	foro	NOUN	NOUN	_	6	conj	_	TokenRange=314:318
+42	privilegiado	privilegiado	ADJ	ADJ	_	41	amod	_	TokenRange=319:331
+43	elegerem	eleger	VERB	VERB	_	41	csubj	_	TokenRange=332:340
+44	2018	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=341:345
+45	numero	numero	NOUN	NOUN	_	43	obj	_	TokenRange=346:352
+46	parlamentares	parlamentar	ADJ	ADJ	_	45	amod	_	TokenRange=353:366
+47	nessas	_	ADP	ADP	_	48	case	_	TokenRange=367:373
+48	condicoes	condicoe	NOUN	NOUN	_	43	nmod	_	TokenRange=374:383
+49	quase	quase	ADV	ADV	_	50	advmod	_	TokenRange=384:389
+50	metade	metade	NOUN	NOUN	_	45	appos	_	TokenRange=390:396
+51	54	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=397:399
+52	senadores	senador	NOUN	NOUN	_	43	nsubj	_	TokenRange=400:409
+53	cujos	_	DET	DET	_	54	det	_	TokenRange=410:415
+54	mandatos	mandato	NOUN	NOUN	_	55	nsubj	_	TokenRange=416:424
+55	terminam	terminar	VERB	VERB	_	52	acl:relcl	_	TokenRange=425:433
+56	neste	_	ADP	ADP	_	57	case	_	TokenRange=434:439
+57	ano	ano	NOUN	NOUN	_	55	nmod	_	TokenRange=440:443
+58	foro	foro	NOUN	NOUN	_	55	obj	_	TokenRange=444:448
+59	prerrogativa	prerrogativa	ADJ	ADJ	_	58	amod	_	TokenRange=449:461
+60	funcao	funcao	NOUN	NOUN	_	58	appos	_	TokenRange=462:468
+61	chamado	chamar	AUX	AUX	_	62	cop	_	TokenRange=469:476
+62	foro	foro	NOUN	NOUN	_	58	acl	_	TokenRange=477:481
+63	privilegiado	privilegiado	ADJ	ADJ	_	62	amod	_	TokenRange=482:494
+64	direito	direito	ADJ	ADJ	_	62	amod	_	SpaceAfter=No|TokenRange=495:502
+

@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = europa envia ajuda ilhas afetadas irma franca reino unido holanda antigas potencias coloniais despacham avioes navios caribe numero mortos furacao chega 10 san juan franca reino unido holanda comecaram nesta sextafeira 7 enviar carater urgencia ajuda humanitaria equipes resgate diversas ilhas caribe furacao irma deixou rastro destruicao menos dez mortos regiao navios avioes decolaram comida agua remedios alguns territorios europeus excolonias caribenhas entra ilhas
+1	europa	europa	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	envia	enviar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	ajuda	ajuda	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	ilhas	ilha	NOUN	NOUN	_	2	obj	_	TokenRange=19:24
+5	afetadas	afetar	VERB	ADJ	_	4	acl	_	TokenRange=25:33
+6	irma	irma	NOUN	NOUN	_	2	appos	_	TokenRange=34:38
+7	franca	franco	ADJ	ADJ	_	6	amod	_	TokenRange=39:45
+8	reino	reino	NOUN	NOUN	_	6	appos	_	TokenRange=46:51
+9	unido	unido	ADJ	ADJ	_	8	amod	_	TokenRange=52:57
+10	holanda	holanda	ADJ	ADJ	_	6	amod	_	TokenRange=58:65
+11	antigas	antigo	ADJ	ADJ	_	12	amod	_	TokenRange=66:73
+12	potencias	potencia	NOUN	NOUN	_	14	nsubj	_	TokenRange=74:83
+13	coloniais	colonial	ADJ	ADJ	_	12	amod	_	TokenRange=84:93
+14	despacham	despachar	VERB	VERB	_	2	parataxis	_	TokenRange=94:103
+15	avioes	avioe	NOUN	NOUN	_	14	obj	_	TokenRange=104:110
+16	navios	navio	NOUN	NOUN	_	15	appos	_	TokenRange=111:117
+17	caribe	caribe	NOUN	NOUN	_	16	amod	_	TokenRange=118:124
+18	numero	_	NOUN	NOUN	_	19	appos	_	TokenRange=125:131
+19	mortos	morto	NOUN	NOUN	_	16	appos	_	TokenRange=132:138
+20	furacao	furacao	NOUN	NOUN	_	21	nsubj	_	TokenRange=139:146
+21	chega	chegar	VERB	VERB	_	14	parataxis	_	TokenRange=147:152
+22	10	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=153:155
+23	san	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=156:159
+24	juan	_	NOUN	NOUN	_	23	flat	_	TokenRange=160:164
+25	franca	franco	ADJ	ADJ	_	23	amod	_	TokenRange=165:171
+26	reino	reino	NOUN	NOUN	_	23	appos	_	TokenRange=172:177
+27	unido	unido	ADJ	ADJ	_	26	amod	_	TokenRange=178:183
+28	holanda	holanda	ADJ	ADJ	_	26	amod	_	TokenRange=184:191
+29	comecaram	comecar	VERB	VERB	_	2	parataxis	_	TokenRange=192:201
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=202:207
+31	sextafeira	_	NOUN	NOUN	_	29	nmod	_	TokenRange=208:218
+32	7	_	NUM	NUM	NumType=Card	31	nmod	_	TokenRange=219:220
+33	enviar	enviar	VERB	VERB	_	29	ccomp	_	TokenRange=221:227
+34	carater	carater	NOUN	NOUN	_	33	obj	_	TokenRange=228:235
+35	urgencia	urgencia	NOUN	NOUN	_	34	amod	_	TokenRange=236:244
+36	ajuda	ajuda	NOUN	NOUN	_	33	obj	_	TokenRange=245:250
+37	humanitaria	humanitario	ADJ	ADJ	_	36	amod	_	TokenRange=251:262
+38	equipes	equipe	NOUN	NOUN	_	45	nsubj	_	TokenRange=263:270
+39	resgate	resgate	VERB	VERB	_	38	appos	_	TokenRange=271:278
+40	diversas	_	DET	DET	_	41	det	_	TokenRange=279:287
+41	ilhas	ilha	NOUN	NOUN	_	39	obj	_	TokenRange=288:293
+42	caribe	caribe	ADJ	ADJ	_	41	amod	_	TokenRange=294:300
+43	furacao	furacao	NOUN	NOUN	_	45	nsubj	_	TokenRange=301:308
+44	irma	irma	NOUN	NOUN	_	43	appos	_	TokenRange=309:313
+45	deixou	deixar	VERB	VERB	_	29	parataxis	_	TokenRange=314:320
+46	rastro	rastro	NOUN	NOUN	_	45	obj	_	TokenRange=321:327
+47	destruicao	destruicao	ADJ	ADJ	_	46	amod	_	TokenRange=328:338
+48	menos	menos	ADV	ADV	_	49	advmod	_	TokenRange=339:344
+49	dez	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=345:348
+50	mortos	morto	NOUN	NOUN	_	45	nsubj	_	TokenRange=349:355
+51	regiao	regiao	NOUN	NOUN	_	50	amod	_	TokenRange=356:362
+52	navios	navio	NOUN	NOUN	_	54	nsubj	_	TokenRange=363:369
+53	avioes	avioe	ADJ	ADJ	_	52	amod	_	TokenRange=370:376
+54	decolaram	decolar	VERB	VERB	_	45	parataxis	_	TokenRange=377:386
+55	comida	comida	NOUN	NOUN	_	54	obj	_	TokenRange=387:393
+56	agua	_	NOUN	NOUN	_	55	appos	_	TokenRange=394:398
+57	remedios	remedio	ADJ	ADJ	_	59	amod	_	TokenRange=399:407
+58	alguns	_	DET	DET	_	59	det	_	TokenRange=408:414
+59	territorios	territorio	NOUN	NOUN	_	63	nsubj	_	TokenRange=415:426
+60	europeus	europeu	ADJ	ADJ	_	59	amod	_	TokenRange=427:435
+61	excolonias	excolonia	ADJ	ADJ	_	59	amod	_	TokenRange=436:446
+62	caribenhas	caribenha	ADJ	ADJ	_	59	amod	_	TokenRange=447:457
+63	entra	entrar	VERB	VERB	_	45	parataxis	_	TokenRange=458:463
+64	ilhas	ilha	NOUN	NOUN	_	63	obj	_	SpaceAfter=No|TokenRange=464:469
+

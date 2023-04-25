@@ -1,0 +1,15 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = malafaia comemora prisao eduardo cunha fevereiro 2015
+1	malafaia	malafaia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	comemora	comemorar	VERB	VERB	_	0	root	_	TokenRange=9:17
+3	prisao	prisao	NOUN	NOUN	_	2	obj	_	TokenRange=18:24
+4	eduardo	_	PROPN	PNOUN	_	3	appos	_	TokenRange=25:32
+5	cunha	_	PROPN	PNOUN	_	4	flat	_	TokenRange=33:38
+6	fevereiro	_	PROPN	PNOUN	_	3	nmod	_	TokenRange=39:48
+7	2015	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No|TokenRange=49:53
+

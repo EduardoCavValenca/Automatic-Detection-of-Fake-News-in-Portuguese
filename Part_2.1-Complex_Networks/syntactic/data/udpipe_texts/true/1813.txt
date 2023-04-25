@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 23 marco 2017 boa noite aqui principais noticias terminar dia beminformado apos camara aprovar projeto permite terceirizacao irrestrita trabalhadores presidente senado eunicio oliveira pmdbce disse casa precisa atualizar proposta aprovada deputados projeto aprovado enviado congresso 1998 camara desde 2002 outro projeto teor enviado senado 2015 eunicio quer analisar complementar lei aprovada programa g1 tirou duvidas sobre projeto entenda afeta trabalhadores empresario marcelo odebrecht disse tse expresidente dilma rousseff sabia todas doacoes feitas caixa 2 empresa campanha petista reeleicao declaracao dada depoimento inicio marco executivo preso falou
+1	quintafeira	quintafeira	NOUN	NOUN	_	26	parataxis	_	TokenRange=0:11
+2	23	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=12:14
+3	marco	marco	NOUN	NOUN	_	1	nmod	_	TokenRange=15:20
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=21:25
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=26:29
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+7	aqui	aqui	ADV	ADV	_	26	advmod	_	TokenRange=36:40
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=41:51
+9	noticias	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=52:60
+10	terminar	terminar	VERB	VERB	_	26	ccomp	_	TokenRange=61:69
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=70:73
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=74:86
+13	apos	_	ADP	ADP	_	15	mark	_	TokenRange=87:91
+14	camara	camara	NOUN	NOUN	_	15	nsubj	_	TokenRange=92:98
+15	aprovar	aprovar	VERB	VERB	_	10	advcl	_	TokenRange=99:106
+16	projeto	projeto	NOUN	NOUN	_	15	obj	_	TokenRange=107:114
+17	permite	permitir	VERB	VERB	_	16	acl:relcl	_	TokenRange=115:122
+18	terceirizacao	_	NOUN	NOUN	_	17	obj	_	TokenRange=123:136
+19	irrestrita	_	ADJ	ADJ	_	20	amod	_	TokenRange=137:147
+20	trabalhadores	trabalhador	NOUN	NOUN	_	17	obj	_	TokenRange=148:161
+21	presidente	presidente	NOUN	NOUN	_	17	nsubj	_	TokenRange=162:172
+22	senado	senado	ADJ	ADJ	_	21	amod	_	TokenRange=173:179
+23	eunicio	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=180:187
+24	oliveira	_	ADJ	ADJ	_	23	flat	_	TokenRange=188:196
+25	pmdbce	_	NOUN	NOUN	_	23	flat	_	TokenRange=197:203
+26	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=204:209
+27	casa	casa	NOUN	NOUN	_	26	obj	_	TokenRange=210:214
+28	precisa	preciso	ADJ	ADJ	_	27	amod	_	TokenRange=215:222
+29	atualizar	atualizar	VERB	VERB	_	28	xcomp	_	TokenRange=223:232
+30	proposta	_	NOUN	NOUN	_	29	obj	_	TokenRange=233:241
+31	aprovada	aprovar	VERB	VERB	_	30	acl	_	TokenRange=242:250
+32	deputados	deputado	NOUN	NOUN	_	30	appos	_	TokenRange=251:260
+33	projeto	projeto	NOUN	NOUN	_	30	appos	_	TokenRange=261:268
+34	aprovado	aprovar	ADJ	ADJ	_	33	amod	_	TokenRange=269:277
+35	enviado	enviar	VERB	VERB	_	30	acl	_	TokenRange=278:285
+36	congresso	congresso	NOUN	NOUN	_	35	obj	_	TokenRange=286:295
+37	1998	_	NUM	NUM	NumType=Card	36	appos	_	TokenRange=296:300
+38	camara	camara	NOUN	NOUN	_	36	appos	_	TokenRange=301:307
+39	desde	_	ADP	ADP	_	40	case	_	TokenRange=308:313
+40	2002	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=314:318
+41	outro	_	DET	DET	_	42	det	_	TokenRange=319:324
+42	projeto	projeto	NOUN	NOUN	_	35	nsubj	_	TokenRange=325:332
+43	teor	teor	NOUN	NOUN	_	42	flat	_	TokenRange=333:337
+44	enviado	enviar	VERB	VERB	_	42	acl	_	TokenRange=338:345
+45	senado	senado	NOUN	NOUN	_	42	appos	_	TokenRange=346:352
+46	2015	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=353:357
+47	eunicio	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=358:365
+48	quer	querer	VERB	VERB	_	42	acl:relcl	_	TokenRange=366:370
+49	analisar	analisar	VERB	VERB	_	48	xcomp	_	TokenRange=371:379
+50	complementar	complementar	ADJ	ADJ	_	49	xcomp	_	TokenRange=380:392
+51	lei	lei	NOUN	NOUN	_	49	obj	_	TokenRange=393:396
+52	aprovada	aprovar	VERB	VERB	_	51	acl	_	TokenRange=397:405
+53	programa	programa	NOUN	NOUN	_	48	nsubj	_	TokenRange=406:414
+54	g1	_	PROPN	PNOUN	_	53	appos	_	TokenRange=415:417
+55	tirou	tirar	VERB	VERB	_	49	parataxis	_	TokenRange=418:423
+56	duvidas	duvida	NOUN	NOUN	_	55	obj	_	TokenRange=424:431
+57	sobre	_	ADP	ADP	_	58	case	_	TokenRange=432:437
+58	projeto	projeto	NOUN	NOUN	_	56	nmod	_	TokenRange=438:445
+59	entenda	_	ADJ	ADJ	_	58	amod	_	TokenRange=446:453
+60	afeta	afetar	VERB	VERB	_	58	acl:relcl	_	TokenRange=454:459
+61	trabalhadores	trabalhador	NOUN	NOUN	_	60	obj	_	TokenRange=460:473
+62	empresario	empresario	ADJ	ADJ	_	61	amod	_	TokenRange=474:484
+63	marcelo	marcelo	NOUN	NOUN	_	60	nsubj	_	TokenRange=485:492
+64	odebrecht	_	NOUN	NOUN	_	63	flat	_	TokenRange=493:502
+65	disse	dizer	VERB	VERB	_	60	parataxis	_	TokenRange=503:508
+66	tse	tse	CCONJ	CONJ	_	70	mark	_	TokenRange=509:512
+67	expresidente	expresidente	NOUN	NOUN	_	70	nsubj	_	TokenRange=513:525
+68	dilma	dilma	ADJ	ADJ	_	67	amod	_	TokenRange=526:531
+69	rousseff	rousseff	NOUN	NOUN	_	67	amod	_	TokenRange=532:540
+70	sabia	saber	VERB	VERB	_	65	ccomp	_	TokenRange=541:546
+71	todas	_	DET	DET	_	72	det	_	TokenRange=547:552
+72	doacoes	doacoe	NOUN	NOUN	_	70	obj	_	TokenRange=553:560
+73	feitas	_	VERB	VERB	_	72	acl	_	TokenRange=561:567
+74	caixa	caixa	NOUN	NOUN	_	73	nmod	_	TokenRange=568:573
+75	2	_	NUM	NUM	NumType=Card	74	appos	_	TokenRange=574:575
+76	empresa	empresa	NOUN	NOUN	_	74	appos	_	TokenRange=576:583
+77	campanha	campanha	NOUN	NOUN	_	72	appos	_	TokenRange=584:592
+78	petista	petista	ADJ	ADJ	_	77	amod	_	TokenRange=593:600
+79	reeleicao	reeleicao	NOUN	NOUN	_	77	appos	_	TokenRange=601:610
+80	declaracao	declaracao	NOUN	NOUN	_	77	appos	_	TokenRange=611:621
+81	dada	dado	ADJ	ADJ	_	80	amod	_	TokenRange=622:626
+82	depoimento	depoimento	NOUN	NOUN	_	77	appos	_	TokenRange=627:637
+83	inicio	_	ADJ	ADJ	_	84	amod	_	TokenRange=638:644
+84	marco	marco	NOUN	NOUN	_	82	appos	_	TokenRange=645:650
+85	executivo	executivo	ADJ	ADJ	_	84	amod	_	TokenRange=651:660
+86	preso	preso	ADJ	ADJ	_	87	xcomp	_	TokenRange=661:666
+87	falou	falar	VERB	VERB	_	65	parataxis	_	SpaceAfter=No|TokenRange=667:672
+

@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = magno malta tranquiliza nacao impeachment continua vamos dar baixa carteira dilma ato presidente interino diria uterino camara orientacao eduardo cunha alguem precisa ensinar rapaz respeito interno deve haver casa disse senador plenario soberano impeachment decisao soberana certamente stf ira derrubar decisao mandar rapaz respeitar dr soberano regimento interno camara
+1	magno	magno	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	malta	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=6:11
+3	tranquiliza	_	ADJ	ADJ	_	2	amod	_	TokenRange=12:23
+4	nacao	_	NOUN	NOUN	_	2	appos	_	TokenRange=24:29
+5	impeachment	impeachment	NOUN	NOUN	_	4	flat	_	TokenRange=30:41
+6	continua	continuar	ADJ	ADJ	_	8	aux	_	TokenRange=42:50
+7	vamos	ir	AUX	AUX	_	8	aux	_	TokenRange=51:56
+8	dar	dar	VERB	VERB	_	0	root	_	TokenRange=57:60
+9	baixa	baixo	ADJ	ADJ	_	10	amod	_	TokenRange=61:66
+10	carteira	_	NOUN	NOUN	_	8	obj	_	TokenRange=67:75
+11	dilma	dilma	ADJ	ADJ	_	10	amod	_	TokenRange=76:81
+12	ato	ato	NOUN	NOUN	_	10	appos	_	TokenRange=82:85
+13	presidente	presidente	NOUN	NOUN	_	10	appos	_	TokenRange=86:96
+14	interino	interino	ADJ	ADJ	_	13	amod	_	TokenRange=97:105
+15	diria	diria	NOUN	NOUN	_	10	appos	_	TokenRange=106:111
+16	uterino	uterino	ADJ	ADJ	_	15	amod	_	TokenRange=112:119
+17	camara	camara	NOUN	NOUN	_	15	appos	_	TokenRange=120:126
+18	orientacao	_	ADJ	ADJ	_	17	amod	_	TokenRange=127:137
+19	eduardo	eduardo	NOUN	NOUN	_	17	appos	_	TokenRange=138:145
+20	cunha	cunha	NOUN	NOUN	_	19	flat	_	TokenRange=146:151
+21	alguem	_	PRON	PRON	_	22	nsubj	_	TokenRange=152:158
+22	precisa	precisar	VERB	VERB	_	15	acl:relcl	_	TokenRange=159:166
+23	ensinar	ensinar	VERB	VERB	_	22	xcomp	_	TokenRange=167:174
+24	rapaz	rapaz	NOUN	NOUN	_	23	obj	_	TokenRange=175:180
+25	respeito	respeito	NOUN	NOUN	_	23	obj	_	TokenRange=181:189
+26	interno	interno	ADJ	ADJ	_	25	amod	_	TokenRange=190:197
+27	deve	dever	AUX	AUX	_	28	aux	_	TokenRange=198:202
+28	haver	haver	VERB	VERB	_	22	ccomp	_	TokenRange=203:208
+29	casa	casa	NOUN	NOUN	_	28	obj	_	TokenRange=209:213
+30	disse	dizer	VERB	VERB	_	8	parataxis	_	TokenRange=214:219
+31	senador	senador	NOUN	NOUN	_	30	nsubj	_	TokenRange=220:227
+32	plenario	plenario	ADJ	ADJ	_	31	amod	_	TokenRange=228:236
+33	soberano	soberano	ADJ	ADJ	_	31	amod	_	TokenRange=237:245
+34	impeachment	impeachment	NOUN	NOUN	_	31	amod	_	TokenRange=246:257
+35	decisao	decisao	NOUN	NOUN	_	31	appos	_	TokenRange=258:265
+36	soberana	soberano	ADJ	ADJ	_	35	amod	_	TokenRange=266:274
+37	certamente	certamente	ADV	ADV	_	40	advmod	_	TokenRange=275:285
+38	stf	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=286:289
+39	ira	_	AUX	AUX	_	40	aux	_	TokenRange=290:293
+40	derrubar	derrubar	VERB	VERB	_	30	ccomp	_	TokenRange=294:302
+41	decisao	decisao	NOUN	NOUN	_	40	obj	_	TokenRange=303:310
+42	mandar	mandar	VERB	VERB	_	40	ccomp	_	TokenRange=311:317
+43	rapaz	rapaz	NOUN	NOUN	_	42	obj	_	TokenRange=318:323
+44	respeitar	respeitar	VERB	VERB	_	42	ccomp	_	TokenRange=324:333
+45	dr	dr	NOUN	NOUN	_	44	obj	_	TokenRange=334:336
+46	soberano	soberano	ADJ	ADJ	_	47	amod	_	TokenRange=337:345
+47	regimento	regimento	NOUN	NOUN	_	44	obj	_	TokenRange=346:355
+48	interno	interno	ADJ	ADJ	_	47	amod	_	TokenRange=356:363
+49	camara	camara	NOUN	NOUN	_	47	appos	_	SpaceAfter=No|TokenRange=364:370
+

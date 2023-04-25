@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cala boca galvao narrador bbc irrita diz vivo falando calar ultima tercafeira 09 galvao narrou provas natacao rio 2016 antes comecarem provas gritos galvao tantos narrador bbc assustou disse calar boca durante largada disse profissional desculpem todo mundo quieto largada falando completou video bruno cassali twitter
+1	cala	_	VERB	VERB	_	42	nsubj	_	TokenRange=0:4
+2	boca	boca	NOUN	NOUN	_	1	flat	_	TokenRange=5:9
+3	galvao	galvao	ADJ	ADJ	_	4	amod	_	TokenRange=10:16
+4	narrador	narrador	NOUN	NOUN	_	1	appos	_	TokenRange=17:25
+5	bbc	bbc	NOUN	NOUN	_	7	nsubj	_	TokenRange=26:29
+6	irrita	_	NOUN	NOUN	_	4	amod	_	TokenRange=30:36
+7	diz	dizer	VERB	VERB	_	1	conj	_	TokenRange=37:40
+8	vivo	vivo	ADJ	ADJ	_	7	xcomp	_	TokenRange=41:45
+9	falando	falar	VERB	VERB	_	7	acl	_	TokenRange=46:53
+10	calar	calar	VERB	VERB	_	9	xcomp	_	TokenRange=54:59
+11	ultima	_	ADJ	ADJ	_	12	amod	_	TokenRange=60:66
+12	tercafeira	_	NOUN	NOUN	_	10	obj	_	TokenRange=67:77
+13	09	_	NUM	NUM	NumType=Card	12	appos	_	TokenRange=78:80
+14	galvao	galvao	NOUN	NOUN	_	15	nsubj	_	TokenRange=81:87
+15	narrou	narrar	VERB	VERB	_	1	conj	_	TokenRange=88:94
+16	provas	prova	NOUN	NOUN	_	15	obj	_	TokenRange=95:101
+17	natacao	natacao	ADJ	ADJ	_	16	amod	_	TokenRange=102:109
+18	rio	_	NOUN	NOUN	_	16	appos	_	TokenRange=110:113
+19	2016	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=114:118
+20	antes	antes	ADV	ADV	_	21	mark	_	TokenRange=119:124
+21	comecarem	comecar	VERB	VERB	_	15	advcl	_	TokenRange=125:134
+22	provas	prova	NOUN	NOUN	_	21	obj	_	TokenRange=135:141
+23	gritos	grito	ADJ	ADJ	_	22	amod	_	TokenRange=142:148
+24	galvao	galvao	ADJ	NOUN	_	22	appos	_	TokenRange=149:155
+25	tantos	_	DET	DET	_	26	det	_	TokenRange=156:162
+26	narrador	narrador	NOUN	NOUN	_	28	nsubj	_	TokenRange=163:171
+27	bbc	bbc	NOUN	NOUN	_	26	amod	_	TokenRange=172:175
+28	assustou	assustar	VERB	VERB	_	22	acl:relcl	_	TokenRange=176:184
+29	disse	dizer	VERB	VERB	_	28	parataxis	_	TokenRange=185:190
+30	calar	calar	VERB	VERB	_	29	ccomp	_	TokenRange=191:196
+31	boca	boca	NOUN	NOUN	_	30	obj	_	TokenRange=197:201
+32	durante	_	ADP	ADP	_	33	case	_	TokenRange=202:209
+33	largada	largada	NOUN	NOUN	_	34	nmod	_	TokenRange=210:217
+34	disse	dizer	VERB	VERB	_	29	ccomp	_	TokenRange=218:223
+35	profissional	profissional	NOUN	NOUN	_	36	nsubj	_	TokenRange=224:236
+36	desculpem	desculpar	VERB	VERB	_	34	ccomp	_	TokenRange=237:246
+37	todo	_	DET	DET	_	38	det	_	TokenRange=247:251
+38	mundo	mundo	NOUN	NOUN	_	36	obj	_	TokenRange=252:257
+39	quieto	quieto	ADJ	ADJ	_	38	amod	_	TokenRange=258:264
+40	largada	largar	VERB	VERB	_	36	acl	_	TokenRange=265:272
+41	falando	falar	VERB	VERB	_	36	acl	_	TokenRange=273:280
+42	completou	completar	VERB	VERB	_	0	root	_	TokenRange=281:290
+43	video	video	NOUN	NOUN	_	42	obj	_	TokenRange=291:296
+44	bruno	bruno	NOUN	NOUN	_	43	appos	_	TokenRange=297:302
+45	cassali	_	NOUN	NOUN	_	43	flat	_	TokenRange=303:310
+46	twitter	_	PROPN	PNOUN	_	43	appos	_	SpaceAfter=No|TokenRange=311:318
+

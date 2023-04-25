@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video mostra promotor prendendo prefeito alcanca 20 milhoes visualizacoes redes sociais episodio ocorreu 2012 porem geracao whatsapp fazendo video bombar redes carregamento ilegal madeira propriedade senhor prefeito cidade iaciara/go apreendido saber apreensao prefeito local onde caminhao levou casa tomar conhecimento promotor douglas chegury prefeitura bater papinho chefe executivo local apos bateboca prefeito preso flagrante algemado praca publica desobediencia veja aconteceu
+1	video	video	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	mostra	mostrar	VERB	VERB	_	60	ccomp	_	TokenRange=6:12
+3	promotor	promotor	NOUN	NOUN	_	2	obj	_	TokenRange=13:21
+4	prendendo	prender	VERB	VERB	_	3	acl	_	TokenRange=22:31
+5	prefeito	prefeito	NOUN	NOUN	_	4	obj	_	TokenRange=32:40
+6	alcanca	_	VERB	VERB	_	2	ccomp	_	TokenRange=41:48
+7	20	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=49:51
+8	milhoes	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=52:59
+9	visualizacoes	_	NOUN	NOUN	_	6	obj	_	TokenRange=60:73
+10	redes	rede	NOUN	NOUN	_	9	appos	_	TokenRange=74:79
+11	sociais	social	ADJ	ADJ	_	10	amod	_	TokenRange=80:87
+12	episodio	episodio	NOUN	NOUN	_	13	nsubj	_	TokenRange=88:96
+13	ocorreu	ocorrer	VERB	VERB	_	2	parataxis	_	TokenRange=97:104
+14	2012	_	NUM	NUM	NumType=Card	13	nmod	_	TokenRange=105:109
+15	porem	_	ADP	ADP	_	13	nmod	_	TokenRange=110:115
+16	geracao	geracao	NOUN	NOUN	_	13	nmod	_	TokenRange=116:123
+17	whatsapp	_	NOUN	NOUN	_	16	flat	_	TokenRange=124:132
+18	fazendo	fazer	VERB	VERB	_	13	acl	_	TokenRange=133:140
+19	video	video	NOUN	NOUN	_	18	obj	_	TokenRange=141:146
+20	bombar	bombar	VERB	VERB	_	18	ccomp	_	TokenRange=147:153
+21	redes	rede	NOUN	NOUN	_	20	obj	_	TokenRange=154:159
+22	carregamento	carregamento	NOUN	NOUN	_	21	appos	_	TokenRange=160:172
+23	ilegal	ilegal	ADJ	ADJ	_	22	amod	_	TokenRange=173:179
+24	madeira	madeira	NOUN	NOUN	_	22	appos	_	TokenRange=180:187
+25	propriedade	propriedade	NOUN	NOUN	_	22	appos	_	TokenRange=188:199
+26	senhor	senhor	NOUN	NOUN	_	25	flat	_	TokenRange=200:206
+27	prefeito	prefeito	NOUN	NOUN	_	22	appos	_	TokenRange=207:215
+28	cidade	cidade	NOUN	NOUN	_	25	appos	_	TokenRange=216:222
+29	iaciara/go	iaciara/go	NOUN	NOUN	_	28	amod	_	TokenRange=223:233
+30	apreendido	apreender	ADJ	ADJ	_	28	amod	_	TokenRange=234:244
+31	saber	saber	VERB	VERB	_	2	parataxis	_	TokenRange=245:250
+32	apreensao	apreensao	NOUN	NOUN	_	31	obj	_	TokenRange=251:260
+33	prefeito	prefeito	NOUN	NOUN	_	31	obj	_	TokenRange=261:269
+34	local	local	ADJ	ADJ	_	33	amod	_	TokenRange=270:275
+35	onde	onde	ADV	ADV	_	37	advmod	_	TokenRange=276:280
+36	caminhao	caminhao	NOUN	NOUN	_	37	nsubj	_	TokenRange=281:289
+37	levou	levar	VERB	VERB	_	33	acl:relcl	_	TokenRange=290:295
+38	casa	casa	NOUN	NOUN	_	37	obj	_	TokenRange=296:300
+39	tomar	tomar	VERB	VERB	_	37	ccomp	_	TokenRange=301:306
+40	conhecimento	conhecimento	NOUN	NOUN	_	39	obj	_	TokenRange=307:319
+41	promotor	promotor	NOUN	NOUN	_	40	appos	_	TokenRange=320:328
+42	douglas	_	X	NOUN	_	40	appos	_	TokenRange=329:336
+43	chegury	_	NOUN	NOUN	_	41	flat	_	TokenRange=337:344
+44	prefeitura	prefeitura	NOUN	NOUN	_	45	nsubj	_	TokenRange=345:355
+45	bater	bater	VERB	VERB	_	39	ccomp	_	TokenRange=356:361
+46	papinho	papinho	NOUN	NOUN	_	45	obj	_	TokenRange=362:369
+47	chefe	chefe	NOUN	NOUN	_	45	obj	_	TokenRange=370:375
+48	executivo	executivo	ADJ	ADJ	_	47	amod	_	TokenRange=376:385
+49	local	local	ADJ	ADJ	_	47	amod	_	TokenRange=386:391
+50	apos	_	ADP	ADP	_	51	case	_	TokenRange=392:396
+51	bateboca	_	NOUN	NOUN	_	45	nmod	_	TokenRange=397:405
+52	prefeito	prefeito	NOUN	NOUN	_	51	flat	_	TokenRange=406:414
+53	preso	preso	ADJ	ADJ	_	52	amod	_	TokenRange=415:420
+54	flagrante	flagrante	ADJ	ADJ	_	56	amod	_	TokenRange=421:430
+55	algemado	algemado	ADJ	ADJ	_	56	amod	_	TokenRange=431:439
+56	praca	praca	NOUN	NOUN	_	60	nsubj	_	TokenRange=440:445
+57	publica	publico	ADJ	ADJ	_	56	amod	_	TokenRange=446:453
+58	desobediencia	desobediencia	NOUN	NOUN	_	60	nsubj	_	TokenRange=454:467
+59	veja	ver	VERB	VERB	_	60	ccomp	_	TokenRange=468:472
+60	aconteceu	acontecer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=473:482
+

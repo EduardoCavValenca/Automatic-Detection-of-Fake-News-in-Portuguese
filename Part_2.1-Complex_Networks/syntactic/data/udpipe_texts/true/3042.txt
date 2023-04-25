@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = psdb governista tenta saida negociada ministros tucanos proximos presidente michel temer buscam manter portas abertas possivel alianca pmdb 2018 brasilia empenhados salvar alianca pmdb eleicoes 2018 tucanos integram ala jaburu composta frequentadores residencia oficial presidente michel temer combinaram palacio planalto script desembarque estrategia articulada diluir saida psdb coligacao parecer governo reboque tucanos pmdb entra disputa ministerio cidades auxiliares temer afirmam dependendo forma psdb descasar pode haver porta aberta dobradinha 2018 alegam entanto preciso saber psdb sobrevivera convencao 9
+1	psdb	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	governista	governista	ADJ	ADJ	_	1	amod	_	TokenRange=5:15
+3	tenta	tentar	VERB	VERB	_	0	root	_	TokenRange=16:21
+4	saida	_	NOUN	NOUN	_	3	obj	_	TokenRange=22:27
+5	negociada	negociar	ADJ	ADJ	_	3	xcomp	_	TokenRange=28:37
+6	ministros	ministro	NOUN	NOUN	_	3	nsubj	_	TokenRange=38:47
+7	tucanos	tucano	ADJ	ADJ	_	6	amod	_	TokenRange=48:55
+8	proximos	proximo	ADJ	ADJ	_	6	amod	_	TokenRange=56:64
+9	presidente	presidente	NOUN	NOUN	_	12	nsubj	_	TokenRange=65:75
+10	michel	michel	ADJ	ADJ	_	11	amod	_	TokenRange=76:82
+11	temer	temer	NOUN	NOUN	_	9	appos	_	TokenRange=83:88
+12	buscam	buscar	VERB	VERB	_	3	parataxis	_	TokenRange=89:95
+13	manter	manter	VERB	VERB	_	12	xcomp	_	TokenRange=96:102
+14	portas	porta	NOUN	NOUN	_	13	obj	_	TokenRange=103:109
+15	abertas	aberto	ADJ	ADJ	_	14	amod	_	TokenRange=110:117
+16	possivel	possivel	ADJ	ADJ	_	17	amod	_	TokenRange=118:126
+17	alianca	alianca	NOUN	NOUN	_	12	nsubj	_	TokenRange=127:134
+18	pmdb	_	NOUN	NOUN	_	17	appos	_	TokenRange=135:139
+19	2018	_	NUM	NUM	NumType=Card	20	appos	_	TokenRange=140:144
+20	brasilia	brasilia	NOUN	NOUN	_	17	appos	_	TokenRange=145:153
+21	empenhados	empenhado	ADJ	ADJ	_	20	amod	_	TokenRange=154:164
+22	salvar	salvar	VERB	VERB	_	12	xcomp	_	TokenRange=165:171
+23	alianca	alianca	NOUN	NOUN	_	22	obj	_	TokenRange=172:179
+24	pmdb	_	NOUN	NOUN	_	23	appos	_	TokenRange=180:184
+25	eleicoes	eleicoe	NOUN	NOUN	_	23	appos	_	TokenRange=185:193
+26	2018	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=194:198
+27	tucanos	tucano	NOUN	NOUN	_	12	nsubj	_	TokenRange=199:206
+28	integram	integrar	VERB	VERB	_	6	acl:relcl	_	TokenRange=207:215
+29	ala	ala	NOUN	NOUN	_	28	obj	_	TokenRange=216:219
+30	jaburu	_	NOUN	NOUN	_	29	flat	_	TokenRange=220:226
+31	composta	compor	VERB	VERB	_	32	acl	_	TokenRange=227:235
+32	frequentadores	frequentador	NOUN	NOUN	_	28	nsubj	_	TokenRange=236:250
+33	residencia	residencia	NOUN	NOUN	_	32	appos	_	TokenRange=251:261
+34	oficial	oficial	ADJ	ADJ	_	33	amod	_	TokenRange=262:269
+35	presidente	presidente	NOUN	NOUN	_	38	nsubj	_	TokenRange=270:280
+36	michel	_	ADJ	ADJ	_	37	amod	_	TokenRange=281:287
+37	temer	temer	NOUN	NOUN	_	35	appos	_	TokenRange=288:293
+38	combinaram	combinar	VERB	VERB	_	3	parataxis	_	TokenRange=294:304
+39	palacio	palacio	NOUN	NOUN	_	38	obj	_	TokenRange=305:312
+40	planalto	planalto	ADJ	ADJ	_	39	amod	_	TokenRange=313:321
+41	script	_	NOUN	NOUN	_	39	appos	_	TokenRange=322:328
+42	desembarque	desembarque	NOUN	NOUN	_	39	appos	_	TokenRange=329:340
+43	estrategia	estrategia	NOUN	NOUN	_	38	nsubj	_	TokenRange=341:351
+44	articulada	articulado	ADJ	ADJ	_	43	amod	_	TokenRange=352:362
+45	diluir	diluir	VERB	VERB	_	38	parataxis	_	TokenRange=363:369
+46	saida	_	NOUN	NOUN	_	45	obj	_	TokenRange=370:375
+47	psdb	_	NOUN	NOUN	_	46	appos	_	TokenRange=376:380
+48	coligacao	coligacao	NOUN	NOUN	_	47	flat	_	TokenRange=381:390
+49	parecer	parecer	ADJ	ADJ	_	48	amod	_	TokenRange=391:398
+50	governo	governo	NOUN	NOUN	_	47	flat	_	TokenRange=399:406
+51	reboque	reboque	VERB	VERB	_	47	acl:relcl	_	TokenRange=407:414
+52	tucanos	tucano	NOUN	NOUN	_	54	nsubj	_	TokenRange=415:422
+53	pmdb	_	NOUN	NOUN	_	52	flat	_	TokenRange=423:427
+54	entra	entrar	VERB	VERB	_	51	parataxis	_	TokenRange=428:433
+55	disputa	disputa	NOUN	NOUN	_	54	obj	_	TokenRange=434:441
+56	ministerio	ministerio	NOUN	NOUN	_	55	flat	_	TokenRange=442:452
+57	cidades	cidade	NOUN	NOUN	_	54	nsubj	_	TokenRange=453:460
+58	auxiliares	auxiliar	ADJ	ADJ	_	57	amod	_	TokenRange=461:471
+59	temer	temer	NOUN	NOUN	_	57	appos	_	TokenRange=472:477
+60	afirmam	afirmar	VERB	VERB	_	54	parataxis	_	TokenRange=478:485
+61	dependendo	depender	VERB	VERB	_	60	acl	_	TokenRange=486:496
+62	forma	forma	NOUN	NOUN	_	61	obj	_	TokenRange=497:502
+63	psdb	_	PROPN	PNOUN	_	66	nsubj	_	TokenRange=503:507
+64	descasar	descasar	VERB	VERB	_	63	acl:inf	_	TokenRange=508:516
+65	pode	_	AUX	AUX	_	66	aux	_	TokenRange=517:521
+66	haver	haver	VERB	VERB	_	61	ccomp	_	TokenRange=522:527
+67	porta	porta	NOUN	NOUN	_	66	obj	_	TokenRange=528:533
+68	aberta	aberto	ADJ	ADJ	_	67	amod	_	TokenRange=534:540
+69	dobradinha	_	NOUN	NOUN	_	66	parataxis	_	TokenRange=541:551
+70	2018	_	NUM	NUM	NumType=Card	69	nmod	_	TokenRange=552:556
+71	alegam	alegar	VERB	VERB	_	60	parataxis	_	TokenRange=557:563
+72	entanto	entanto	ADV	ADV	_	71	advmod	_	TokenRange=564:571
+73	preciso	preciso	ADJ	ADJ	_	71	xcomp	_	TokenRange=572:579
+74	saber	saber	VERB	VERB	_	71	csubj	_	TokenRange=580:585
+75	psdb	_	PROPN	PNOUN	_	74	obj	_	TokenRange=586:590
+76	sobrevivera	_	VERB	VERB	_	74	ccomp	_	TokenRange=591:602
+77	convencao	convencao	NOUN	NOUN	_	76	obj	_	TokenRange=603:612
+78	9	_	NUM	NUM	NumType=Card	77	appos	_	SpaceAfter=No|TokenRange=613:614
+

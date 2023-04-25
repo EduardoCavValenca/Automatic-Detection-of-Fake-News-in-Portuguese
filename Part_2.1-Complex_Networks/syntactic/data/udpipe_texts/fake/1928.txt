@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = justica espanha quer prisao fim carreira neymar queixa feita fundo brasileiro dis podera destruir carreira atacante neymar fundo dono quarenta cento direitos jogador apresentou acusacoes contra neymar josep maria bartomeu sandro rosell atual expresidente barcelona promotoria espanhola pede dois anos prisao pagamento multa valor 35 milhoes reais alem inabilitacao exercicio funcoes futebol informou jornal marca solicitado dois anos prisao pai empresario neymar ano mae nadine ambos crime corrupcao caso imprensa espanhola apelidou neymar 2 refere quantia fundo investimento dis direito receber transferencia jogador
+1	justica	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	espanha	espanho	ADJ	ADJ	_	1	amod	_	TokenRange=8:15
+3	quer	querer	VERB	VERB	_	0	root	_	TokenRange=16:20
+4	prisao	prisao	NOUN	NOUN	_	3	obj	_	TokenRange=21:27
+5	fim	fim	NOUN	NOUN	_	4	flat	_	TokenRange=28:31
+6	carreira	_	NOUN	NOUN	_	4	appos	_	TokenRange=32:40
+7	neymar	neymar	ADJ	ADJ	_	8	amod	_	TokenRange=41:47
+8	queixa	queixa	NOUN	NOUN	_	4	appos	_	TokenRange=48:54
+9	feita	_	VERB	VERB	_	10	acl	_	TokenRange=55:60
+10	fundo	fundo	NOUN	NOUN	_	38	nsubj	_	TokenRange=61:66
+11	brasileiro	brasileiro	ADJ	ADJ	_	10	amod	_	TokenRange=67:77
+12	dis	_	PRON	PRON	_	14	nsubj	_	TokenRange=78:81
+13	podera	_	AUX	AUX	_	14	aux	_	TokenRange=82:88
+14	destruir	destruir	VERB	VERB	_	1	acl:relcl	_	TokenRange=89:97
+15	carreira	_	NOUN	NOUN	_	14	obj	_	TokenRange=98:106
+16	atacante	atacante	ADJ	ADJ	_	15	amod	_	TokenRange=107:115
+17	neymar	neymar	NOUN	NOUN	_	15	appos	_	TokenRange=116:122
+18	fundo	fundo	NOUN	NOUN	_	15	appos	_	TokenRange=123:128
+19	dono	dono	ADJ	ADJ	_	22	amod	_	TokenRange=129:133
+20	quarenta	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=134:142
+21	cento	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=143:148
+22	direitos	direito	NOUN	NOUN	_	18	appos	_	TokenRange=149:157
+23	jogador	jogador	NOUN	NOUN	_	22	amod	_	TokenRange=158:165
+24	apresentou	apresentar	VERB	VERB	_	3	parataxis	_	TokenRange=166:176
+25	acusacoes	acusacoe	NOUN	NOUN	_	24	obj	_	TokenRange=177:186
+26	contra	_	ADP	ADP	_	27	case	_	TokenRange=187:193
+27	neymar	neymar	NOUN	NOUN	_	25	nmod	_	TokenRange=194:200
+28	josep	josep	NOUN	NOUN	_	27	appos	_	TokenRange=201:206
+29	maria	maria	NOUN	NOUN	_	28	flat	_	TokenRange=207:212
+30	bartomeu	bartomeu	NOUN	NOUN	_	28	flat	_	TokenRange=213:221
+31	sandro	sandro	NOUN	NOUN	_	28	appos	_	TokenRange=222:228
+32	rosell	_	NOUN	NOUN	_	31	flat	_	TokenRange=229:235
+33	atual	atual	ADJ	ADJ	_	34	amod	_	TokenRange=236:241
+34	expresidente	expresidente	NOUN	NOUN	_	28	appos	_	TokenRange=242:254
+35	barcelona	barcelono	ADJ	ADJ	_	34	amod	_	TokenRange=255:264
+36	promotoria	promotoria	NOUN	NOUN	_	34	appos	_	TokenRange=265:275
+37	espanhola	espanhol	ADJ	ADJ	_	34	amod	_	TokenRange=276:285
+38	pede	pedir	VERB	VERB	_	3	parataxis	_	TokenRange=286:290
+39	dois	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=291:295
+40	anos	ano	NOUN	NOUN	_	38	nmod	_	TokenRange=296:300
+41	prisao	prisao	NOUN	NOUN	_	38	xcomp	_	TokenRange=301:307
+42	pagamento	pagamento	NOUN	NOUN	_	41	appos	_	TokenRange=308:317
+43	multa	multa	NOUN	NOUN	_	42	flat	_	TokenRange=318:323
+44	valor	valor	NOUN	NOUN	_	42	appos	_	TokenRange=324:329
+45	35	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=330:332
+46	milhoes	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=333:340
+47	reais	real	ADJ	ADJ	_	44	amod	_	TokenRange=341:346
+48	alem	alem	ADV	ADV	_	50	case	_	TokenRange=347:351
+49	inabilitacao	inabilitacao	ADJ	ADJ	_	50	amod	_	TokenRange=352:364
+50	exercicio	exercicio	NOUN	NOUN	_	53	nsubj	_	TokenRange=365:374
+51	funcoes	funcoe	ADJ	ADJ	_	50	amod	_	TokenRange=375:382
+52	futebol	futebol	NOUN	NOUN	_	50	appos	_	TokenRange=383:390
+53	informou	informar	VERB	VERB	_	38	parataxis	_	TokenRange=391:399
+54	jornal	jornal	NOUN	NOUN	_	53	obj	_	TokenRange=400:406
+55	marca	marca	NOUN	NOUN	_	54	flat	_	TokenRange=407:412
+56	solicitado	solicitar	VERB	VERB	_	54	acl	_	TokenRange=413:423
+57	dois	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=424:428
+58	anos	ano	NOUN	NOUN	_	56	nmod	_	TokenRange=429:433
+59	prisao	prisao	ADJ	ADJ	_	54	amod	_	TokenRange=434:440
+60	pai	pai	NOUN	NOUN	_	56	nmod	_	TokenRange=441:444
+61	empresario	empresario	NOUN	NOUN	_	60	flat	_	TokenRange=445:455
+62	neymar	neymar	NOUN	NOUN	_	63	appos	_	TokenRange=456:462
+63	ano	ano	NOUN	NOUN	_	60	appos	_	TokenRange=463:466
+64	mae	mae	NOUN	NOUN	_	63	flat	_	TokenRange=467:470
+65	nadine	_	NOUN	NOUN	_	63	flat	_	TokenRange=471:477
+66	ambos	_	DET	DET	_	67	det	_	TokenRange=478:483
+67	crime	crime	NOUN	NOUN	_	53	obj	_	TokenRange=484:489
+68	corrupcao	corrupcao	ADJ	ADJ	_	67	amod	_	TokenRange=490:499
+69	caso	caso	NOUN	NOUN	_	70	amod	_	TokenRange=500:504
+70	imprensa	imprensa	NOUN	NOUN	_	72	nsubj	_	TokenRange=505:513
+71	espanhola	espanhol	ADJ	ADJ	_	70	amod	_	TokenRange=514:523
+72	apelidou	apelidar	VERB	VERB	_	67	acl:relcl	_	TokenRange=524:532
+73	neymar	neymar	NOUN	NOUN	_	72	obj	_	TokenRange=533:539
+74	2	_	NUM	NUM	NumType=Card	73	appos	_	TokenRange=540:541
+75	refere	referir	VERB	VERB	_	67	acl:relcl	_	TokenRange=542:548
+76	quantia	quantia	NOUN	NOUN	_	75	obj	_	TokenRange=549:556
+77	fundo	fundo	ADJ	ADJ	_	76	amod	_	TokenRange=557:562
+78	investimento	investimento	NOUN	NOUN	_	76	appos	_	TokenRange=563:575
+79	dis	_	ADP	ADP	_	80	case	_	TokenRange=576:579
+80	direito	direito	NOUN	NOUN	_	78	nmod	_	TokenRange=580:587
+81	receber	receber	VERB	VERB	_	75	xcomp	_	TokenRange=588:595
+82	transferencia	transferencia	NOUN	NOUN	_	81	obj	_	TokenRange=596:609
+83	jogador	jogador	NOUN	NOUN	_	82	flat	_	SpaceAfter=No|TokenRange=610:617
+

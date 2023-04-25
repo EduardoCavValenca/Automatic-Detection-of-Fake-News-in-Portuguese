@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caes atacam matam cachorro passeava dono fortaleza video advogado mordido mao ficou hematomas cachorros grande porte passeavam coleira atacaram caminhada matinal faz parte rotina advogado rubens feitosa 59 interrompida 11 marco ataque caes grande porte contra
+1	caes	cae	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	atacam	atacar	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	matam	matar	VERB	VERB	_	2	xcomp	_	TokenRange=12:17
+4	cachorro	cachorro	NOUN	NOUN	_	3	obj	_	TokenRange=18:26
+5	passeava	passear	VERB	VERB	_	3	conj	_	TokenRange=27:35
+6	dono	dono	NOUN	NOUN	_	5	obj	_	TokenRange=36:40
+7	fortaleza	fortaleza	NOUN	NOUN	_	5	obj	_	TokenRange=41:50
+8	video	video	NOUN	NOUN	_	5	nsubj	_	TokenRange=51:56
+9	advogado	advogado	NOUN	NOUN	_	8	appos	_	TokenRange=57:65
+10	mordido	mordido	ADJ	ADJ	_	9	amod	_	TokenRange=66:73
+11	mao	mao	NOUN	NOUN	_	12	nsubj	_	TokenRange=74:77
+12	ficou	ficar	VERB	VERB	_	9	acl:relcl	_	TokenRange=78:83
+13	hematomas	hematomo	ADJ	ADJ	_	14	amod	_	TokenRange=84:93
+14	cachorros	cachorro	NOUN	NOUN	_	17	nsubj	_	TokenRange=94:103
+15	grande	grande	ADJ	ADJ	_	16	amod	_	TokenRange=104:110
+16	porte	porte	NOUN	NOUN	_	14	appos	_	TokenRange=111:116
+17	passeavam	passear	VERB	VERB	_	12	parataxis	_	TokenRange=117:126
+18	coleira	_	NOUN	NOUN	_	17	obj	_	TokenRange=127:134
+19	atacaram	atacar	VERB	VERB	_	17	parataxis	_	TokenRange=135:143
+20	caminhada	caminhada	NOUN	NOUN	_	19	obj	_	TokenRange=144:153
+21	matinal	matinal	ADJ	ADJ	_	20	amod	_	TokenRange=154:161
+22	faz	fazer	VERB	VERB	_	19	parataxis	_	TokenRange=162:165
+23	parte	parte	NOUN	NOUN	_	22	obj	_	TokenRange=166:171
+24	rotina	rotina	NOUN	NOUN	_	23	flat	_	TokenRange=172:178
+25	advogado	advogado	NOUN	NOUN	_	23	appos	_	TokenRange=179:187
+26	rubens	rubem	NOUN	NOUN	_	25	appos	_	TokenRange=188:194
+27	feitosa	feitoso	ADJ	ADJ	_	26	amod	_	TokenRange=195:202
+28	59	_	NUM	NUM	NumType=Card	26	appos	_	TokenRange=203:205
+29	interrompida	interromper	VERB	VERB	_	32	acl	_	TokenRange=206:218
+30	11	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=219:221
+31	marco	marco	NOUN	NOUN	_	29	nmod	_	TokenRange=222:227
+32	ataque	ataque	NOUN	NOUN	_	22	obj	_	TokenRange=228:234
+33	caes	_	ADJ	ADJ	_	35	amod	_	TokenRange=235:239
+34	grande	grande	ADJ	ADJ	_	35	amod	_	TokenRange=240:246
+35	porte	porte	NOUN	NOUN	_	32	appos	_	TokenRange=247:252
+36	contra	_	ADP	ADP	_	31	case	_	SpaceAfter=No|TokenRange=253:259
+

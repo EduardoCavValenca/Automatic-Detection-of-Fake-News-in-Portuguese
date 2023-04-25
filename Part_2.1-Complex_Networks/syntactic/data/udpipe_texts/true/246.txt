@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = efesa lula reitera pedido expresidente ouvido julgamento apelacao trf4 solicitacao referente caso triplex lula condenado primeira instancia julgamento apelacao acontecera dia 24 janeiro porto alegre defesa luiz inacio lula silva protocolou peticao reiterando pedido expresidente ouvido tribunal regional federal 4 regiao trf4 antes dia 24 janeiro dia recurso segunda instancia lula julgado corte primeira instancia expresidente condenado
+1	efesa	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	lula	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:10
+3	reitera	reiterar	VERB	VERB	_	0	root	_	TokenRange=11:18
+4	pedido	pedido	NOUN	NOUN	_	3	obj	_	TokenRange=19:25
+5	expresidente	expresidente	ADJ	ADJ	_	4	amod	_	TokenRange=26:38
+6	ouvido	ouvido	ADJ	ADJ	_	4	amod	_	TokenRange=39:45
+7	julgamento	julgamento	NOUN	NOUN	_	4	appos	_	TokenRange=46:56
+8	apelacao	apelacao	ADJ	ADJ	_	7	amod	_	TokenRange=57:65
+9	trf4	_	NOUN	NOUN	_	7	appos	_	TokenRange=66:70
+10	solicitacao	solicitacao	NOUN	NOUN	_	7	appos	_	TokenRange=71:82
+11	referente	referente	ADJ	ADJ	_	12	amod	_	TokenRange=83:92
+12	caso	caso	NOUN	NOUN	_	7	appos	_	TokenRange=93:97
+13	triplex	_	NOUN	NOUN	_	12	appos	_	TokenRange=98:105
+14	lula	_	NOUN	NOUN	_	12	flat	_	TokenRange=106:110
+15	condenado	condenar	VERB	VERB	_	12	acl	_	TokenRange=111:120
+16	primeira	primeiro	ADJ	ADJ	_	17	amod	_	TokenRange=121:129
+17	instancia	instancia	NOUN	NOUN	_	20	nsubj	_	TokenRange=130:139
+18	julgamento	julgamento	NOUN	NOUN	_	20	nsubj	_	TokenRange=140:150
+19	apelacao	apelacao	ADJ	ADJ	_	18	amod	_	TokenRange=151:159
+20	acontecera	acontecer	VERB	VERB	_	3	parataxis	_	TokenRange=160:170
+21	dia	dia	NOUN	NOUN	_	20	nmod	_	TokenRange=171:174
+22	24	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=175:177
+23	janeiro	_	PROPN	PNOUN	_	21	nmod	_	TokenRange=178:185
+24	porto	_	NOUN	NOUN	_	23	appos	_	TokenRange=186:191
+25	alegre	alegre	ADJ	ADJ	_	26	amod	_	TokenRange=192:198
+26	defesa	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=199:205
+27	luiz	luiz	ADJ	ADJ	_	26	appos	_	TokenRange=206:210
+28	inacio	_	NOUN	NOUN	_	26	appos	_	TokenRange=211:217
+29	lula	_	NOUN	NOUN	_	28	flat	_	TokenRange=218:222
+30	silva	silva	NOUN	NOUN	_	28	flat	_	TokenRange=223:228
+31	protocolou	protocolar	VERB	VERB	_	3	parataxis	_	TokenRange=229:239
+32	peticao	peticao	NOUN	NOUN	_	31	obj	_	TokenRange=240:247
+33	reiterando	reiterar	VERB	VERB	_	31	acl	_	TokenRange=248:258
+34	pedido	pedido	NOUN	NOUN	_	33	obj	_	TokenRange=259:265
+35	expresidente	expresidente	ADJ	ADJ	_	34	amod	_	TokenRange=266:278
+36	ouvido	ouvido	ADJ	ADJ	_	34	amod	_	TokenRange=279:285
+37	tribunal	tribunal	NOUN	NOUN	_	34	appos	_	TokenRange=286:294
+38	regional	regional	ADJ	ADJ	_	37	amod	_	TokenRange=295:303
+39	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=304:311
+40	4	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=312:313
+41	regiao	regiao	NOUN	NOUN	_	37	appos	_	TokenRange=314:320
+42	trf4	_	NOUN	NOUN	_	37	appos	_	TokenRange=321:325
+43	antes	antes	ADV	ADV	_	44	advmod	_	TokenRange=326:331
+44	dia	dia	NOUN	NOUN	_	33	nmod	_	TokenRange=332:335
+45	24	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=336:338
+46	janeiro	_	PROPN	PNOUN	_	44	nmod	_	TokenRange=339:346
+47	dia	dia	NOUN	NOUN	_	44	appos	_	TokenRange=347:350
+48	recurso	recurso	NOUN	NOUN	_	44	appos	_	TokenRange=351:358
+49	segunda	segundo	ADJ	ADJ	_	50	amod	_	TokenRange=359:366
+50	instancia	instancia	NOUN	NOUN	_	44	appos	_	TokenRange=367:376
+51	lula	_	PROPN	PNOUN	_	52	nsubj	_	TokenRange=377:381
+52	julgado	julgar	VERB	VERB	_	48	acl	_	TokenRange=382:389
+53	corte	corte	NOUN	NOUN	_	57	obj	_	TokenRange=390:395
+54	primeira	primeiro	ADJ	ADJ	_	55	amod	_	TokenRange=396:404
+55	instancia	instancia	NOUN	NOUN	_	57	obj	_	TokenRange=405:414
+56	expresidente	expresidente	NOUN	NOUN	_	52	obj	_	TokenRange=415:427
+57	condenado	condenar	VERB	VERB	_	56	acl	_	SpaceAfter=No|TokenRange=428:437
+

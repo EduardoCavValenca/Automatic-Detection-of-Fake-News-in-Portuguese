@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = meio seculo legado politico cultural 1968 permanece vivo ano revolucoes varios paises provocou mudanca comportamental profunda primeira pergunta feita cinquentenario 1968 megaefemeride caira vazio esgotado significado historico veremos 2018 especial aproximar mes maio afinal maio 1968 paris bem mal emblema tudo ano representa historia recente 1968 problema comecar datacao sustente 68 comecou 1967 deixa razao muita coisa tanto plano politico artistico fermentava ano anterior conhecido ano rebelde excelencia ano terminou chamou jornalista zuenir ventura livro bestseller dedicado 68 completou 20 anos 1988 maio 68 continua bem fita
+1	meio	meio	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	seculo	seculo	NOUN	NOUN	_	23	nsubj	_	TokenRange=5:11
+3	legado	legado	NOUN	NOUN	_	2	appos	_	TokenRange=12:18
+4	politico	politico	ADJ	ADJ	_	3	amod	_	TokenRange=19:27
+5	cultural	cultural	ADJ	ADJ	_	3	amod	_	TokenRange=28:36
+6	1968	_	NUM	NUM	NumType=Card	3	appos	_	TokenRange=37:41
+7	permanece	permanecer	VERB	VERB	_	3	acl:relcl	_	TokenRange=42:51
+8	vivo	vivo	ADJ	ADJ	_	7	xcomp	_	TokenRange=52:56
+9	ano	ano	NOUN	NOUN	_	7	nmod	_	TokenRange=57:60
+10	revolucoes	revolucoe	ADJ	ADJ	_	9	amod	_	TokenRange=61:71
+11	varios	_	DET	DET	_	12	det	_	TokenRange=72:78
+12	paises	paise	NOUN	NOUN	_	7	nsubj	_	TokenRange=79:85
+13	provocou	provocar	VERB	VERB	_	2	acl:relcl	_	TokenRange=86:94
+14	mudanca	mudanca	NOUN	NOUN	_	13	obj	_	TokenRange=95:102
+15	comportamental	comportamental	ADJ	ADJ	_	14	amod	_	TokenRange=103:117
+16	profunda	profundo	ADJ	ADJ	_	14	amod	_	TokenRange=118:126
+17	primeira	primeiro	ADJ	ADJ	_	18	amod	_	TokenRange=127:135
+18	pergunta	pergunta	NOUN	NOUN	_	13	nsubj	_	TokenRange=136:144
+19	feita	_	VERB	VERB	_	18	acl	_	TokenRange=145:150
+20	cinquentenario	cinquentenario	NOUN	NOUN	_	19	nmod	_	TokenRange=151:165
+21	1968	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=166:170
+22	megaefemeride	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=171:184
+23	caira	_	VERB	VERB	_	0	root	_	TokenRange=185:190
+24	vazio	vazio	ADJ	NOUN	_	23	xcomp	_	TokenRange=191:196
+25	esgotado	esgotado	ADJ	ADJ	_	26	amod	_	TokenRange=197:205
+26	significado	significado	NOUN	NOUN	_	23	nsubj	_	TokenRange=206:217
+27	historico	historico	ADJ	ADJ	_	26	amod	_	TokenRange=218:227
+28	veremos	ver	VERB	VERB	_	23	parataxis	_	TokenRange=228:235
+29	2018	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=236:240
+30	especial	especial	ADJ	ADJ	_	29	amod	_	TokenRange=241:249
+31	aproximar	aproximar	VERB	VERB	_	28	ccomp	_	TokenRange=250:259
+32	mes	_	NOUN	NOUN	_	31	nmod	_	TokenRange=260:263
+33	maio	_	PROPN	PNOUN	_	32	appos	_	TokenRange=264:268
+34	afinal	afinal	ADV	ADV	_	31	advmod	_	TokenRange=269:275
+35	maio	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=276:280
+36	1968	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=281:285
+37	paris	_	NOUN	NOUN	_	35	appos	_	TokenRange=286:291
+38	bem	bem	ADV	ADV	_	39	advmod	_	TokenRange=292:295
+39	mal	mal	ADV	ADV	_	40	advmod	_	TokenRange=296:299
+40	emblema	emblema	NOUN	NOUN	_	28	obj	_	TokenRange=300:307
+41	tudo	_	DET	DET	_	42	det	_	TokenRange=308:312
+42	ano	ano	NOUN	NOUN	_	43	nsubj	_	TokenRange=313:316
+43	representa	representar	VERB	VERB	_	28	parataxis	_	TokenRange=317:327
+44	historia	historia	NOUN	NOUN	_	43	obj	_	TokenRange=328:336
+45	recente	recente	ADJ	ADJ	_	44	amod	_	TokenRange=337:344
+46	1968	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=345:349
+47	problema	problema	NOUN	NOUN	_	43	nsubj	_	TokenRange=350:358
+48	comecar	comecar	VERB	VERB	_	44	acl:relcl	_	TokenRange=359:366
+49	datacao	datacao	NOUN	NOUN	_	48	obj	_	TokenRange=367:374
+50	sustente	sustente	ADJ	ADJ	_	49	amod	_	TokenRange=375:383
+51	68	_	NUM	NUM	NumType=Card	52	nsubj	_	TokenRange=384:386
+52	comecou	comecar	VERB	VERB	_	49	acl:relcl	_	TokenRange=387:394
+53	1967	_	NUM	NUM	NumType=Card	52	nmod	_	TokenRange=395:399
+54	deixa	deixar	VERB	VERB	_	55	case	_	TokenRange=400:405
+55	razao	razao	NOUN	NOUN	_	52	obj	_	TokenRange=406:411
+56	muita	_	DET	DET	_	57	det	_	TokenRange=412:417
+57	coisa	coisa	NOUN	NOUN	_	43	nsubj	_	TokenRange=418:423
+58	tanto	_	DET	DET	_	59	det	_	TokenRange=424:429
+59	plano	plano	NOUN	NOUN	_	62	nsubj	_	TokenRange=430:435
+60	politico	politico	ADJ	ADJ	_	59	amod	_	TokenRange=436:444
+61	artistico	artistico	ADJ	ADJ	_	59	amod	_	TokenRange=445:454
+62	fermentava	fermentar	VERB	VERB	_	49	acl:relcl	_	TokenRange=455:465
+63	ano	ano	NOUN	NOUN	_	62	nmod	_	TokenRange=466:469
+64	anterior	anterior	ADJ	ADJ	_	63	amod	_	TokenRange=470:478
+65	conhecido	conhecido	ADJ	ADJ	_	66	amod	_	TokenRange=479:488
+66	ano	ano	NOUN	NOUN	_	63	appos	_	TokenRange=489:492
+67	rebelde	rebelde	ADJ	ADJ	_	66	amod	_	TokenRange=493:500
+68	excelencia	excelencio	ADJ	ADJ	_	69	amod	_	TokenRange=501:511
+69	ano	ano	NOUN	NOUN	_	71	nsubj	_	TokenRange=512:515
+70	terminou	terminar	VERB	VERB	_	69	acl:relcl	_	TokenRange=516:524
+71	chamou	chamar	VERB	VERB	_	62	parataxis	_	TokenRange=525:531
+72	jornalista	jornalista	NOUN	NOUN	_	71	obj	_	TokenRange=532:542
+73	zuenir	zuenir	NOUN	NOUN	_	72	appos	_	TokenRange=543:549
+74	ventura	ventura	NOUN	NOUN	_	73	flat	_	TokenRange=550:557
+75	livro	livro	NOUN	NOUN	_	72	appos	_	TokenRange=558:563
+76	bestseller	bestseller	ADJ	ADJ	_	75	amod	_	TokenRange=564:574
+77	dedicado	dedicar	VERB	VERB	_	75	acl	_	TokenRange=575:583
+78	68	_	NUM	NUM	NumType=Card	77	nsubj	_	TokenRange=584:586
+79	completou	completar	VERB	VERB	_	75	acl:relcl	_	TokenRange=587:596
+80	20	_	NUM	NUM	NumType=Card	81	nummod	_	TokenRange=597:599
+81	anos	ano	NOUN	NOUN	_	79	nmod	_	TokenRange=600:604
+82	1988	_	NUM	NUM	NumType=Card	79	nmod	_	TokenRange=605:609
+83	maio	_	PROPN	PNOUN	_	85	nsubj	_	TokenRange=610:614
+84	68	_	NUM	NUM	NumType=Card	83	appos	_	TokenRange=615:617
+85	continua	continuar	VERB	VERB	_	79	parataxis	_	TokenRange=618:626
+86	bem	bem	ADV	ADV	_	87	advmod	_	TokenRange=627:630
+87	fita	fito	ADJ	ADJ	_	85	xcomp	_	SpaceAfter=No|TokenRange=631:635
+

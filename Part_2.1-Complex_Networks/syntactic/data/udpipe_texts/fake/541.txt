@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caduquice desrespeito lula faz piada estupida compara deus durante depoimento realizado manha realizado brasilia lula questionado juiz 10 vara federal sobre amigo pecuarista jose carlos bumlai magistrado queria saber bumlai usou nome expresidente obter facilidades juntos petrobras resposta lula acreditem quiser juiz senhor soubesse quanta gente usa nome vao pessoas ler biblia usar tanto nome vao lula acha deus
+1	caduquice	caduquice	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:9
+2	desrespeito	desrespeito	ADJ	NOUN	_	1	amod	_	TokenRange=10:21
+3	lula	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=22:26
+4	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=27:30
+5	piada	piada	NOUN	NOUN	_	4	obj	_	TokenRange=31:36
+6	estupida	estupido	ADJ	ADJ	_	5	amod	_	TokenRange=37:45
+7	compara	comparar	VERB	VERB	_	4	conj	_	TokenRange=46:53
+8	deus	deu	NOUN	NOUN	_	7	obj	_	TokenRange=54:58
+9	durante	_	ADP	ADP	_	10	case	_	TokenRange=59:66
+10	depoimento	depoimento	NOUN	NOUN	_	7	nmod	_	TokenRange=67:77
+11	realizado	realizar	VERB	VERB	_	10	acl	_	TokenRange=78:87
+12	manha	manha	NOUN	NOUN	_	11	nsubj	_	TokenRange=88:93
+13	realizado	realizar	VERB	VERB	_	12	acl	_	TokenRange=94:103
+14	brasilia	brasilia	NOUN	NOUN	_	13	nsubj	_	TokenRange=104:112
+15	lula	lula	NOUN	NOUN	_	28	nsubj	_	TokenRange=113:117
+16	questionado	questionar	VERB	VERB	_	28	acl	_	TokenRange=118:129
+17	juiz	juiz	NOUN	NOUN	_	16	nsubj	_	TokenRange=130:134
+18	10	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=135:137
+19	vara	vara	NOUN	NOUN	_	17	appos	_	TokenRange=138:142
+20	federal	federal	ADJ	ADJ	_	19	amod	_	TokenRange=143:150
+21	sobre	_	ADP	ADP	_	22	case	_	TokenRange=151:156
+22	amigo	amigo	NOUN	NOUN	_	17	nmod	_	TokenRange=157:162
+23	pecuarista	pecuarista	ADJ	ADJ	_	22	amod	_	TokenRange=163:173
+24	jose	jose	NOUN	NOUN	_	22	appos	_	TokenRange=174:178
+25	carlos	carlo	NOUN	NOUN	_	24	flat	_	TokenRange=179:185
+26	bumlai	bumlai	ADJ	ADJ	_	24	amod	_	TokenRange=186:192
+27	magistrado	magistrado	NOUN	NOUN	_	24	amod	_	TokenRange=193:203
+28	queria	querer	VERB	VERB	_	4	parataxis	_	TokenRange=204:210
+29	saber	saber	VERB	VERB	_	28	xcomp	_	TokenRange=211:216
+30	bumlai	bumlai	NOUN	NOUN	_	31	nsubj	_	TokenRange=217:223
+31	usou	usar	VERB	VERB	_	29	ccomp	_	TokenRange=224:228
+32	nome	nome	NOUN	NOUN	_	31	obj	_	TokenRange=229:233
+33	expresidente	expresidente	NOUN	NOUN	_	32	flat	_	TokenRange=234:246
+34	obter	obter	VERB	VERB	_	31	ccomp	_	TokenRange=247:252
+35	facilidades	facilidade	NOUN	NOUN	_	34	obj	_	TokenRange=253:264
+36	juntos	junto	ADJ	ADJ	_	35	amod	_	TokenRange=265:271
+37	petrobras	_	NOUN	NOUN	_	38	amod	_	TokenRange=272:281
+38	resposta	resposta	NOUN	NOUN	_	40	nsubj	_	TokenRange=282:290
+39	lula	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=291:295
+40	acreditem	acreditar	VERB	VERB	_	28	parataxis	_	TokenRange=296:305
+41	quiser	querer	VERB	VERB	_	40	xcomp	_	TokenRange=306:312
+42	juiz	juiz	NOUN	NOUN	_	41	obj	_	TokenRange=313:317
+43	senhor	senhor	NOUN	NOUN	_	42	flat	_	TokenRange=318:324
+44	soubesse	saber	VERB	VERB	_	42	acl:relcl	_	TokenRange=325:333
+45	quanta	_	DET	DET	_	46	det	_	TokenRange=334:340
+46	gente	gente	NOUN	NOUN	_	47	nsubj	_	TokenRange=341:346
+47	usa	usar	VERB	VERB	_	44	ccomp	_	TokenRange=347:350
+48	nome	nome	NOUN	NOUN	_	47	obj	_	TokenRange=351:355
+49	vao	_	ADP	ADP	_	51	mark	_	TokenRange=356:359
+50	pessoas	pessoa	NOUN	NOUN	_	47	nsubj	_	TokenRange=360:367
+51	ler	ler	VERB	VERB	_	47	ccomp	_	TokenRange=368:371
+52	biblia	biblia	NOUN	NOUN	_	51	obj	_	TokenRange=372:378
+53	usar	usar	VERB	VERB	_	51	ccomp	_	TokenRange=379:383
+54	tanto	_	DET	DET	_	55	det	_	TokenRange=384:389
+55	nome	nome	NOUN	NOUN	_	53	obj	_	TokenRange=390:394
+56	vao	vao	ADJ	ADJ	_	58	advmod	_	TokenRange=395:398
+57	lula	_	NOUN	NOUN	_	58	nsubj	_	TokenRange=399:403
+58	acha	achar	VERB	VERB	_	47	conj	_	TokenRange=404:408
+59	deus	deus	NOUN	NOUN	_	58	obj	_	SpaceAfter=No|TokenRange=409:413
+

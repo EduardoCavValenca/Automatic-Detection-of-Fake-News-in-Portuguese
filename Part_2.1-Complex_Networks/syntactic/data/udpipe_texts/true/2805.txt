@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delator diz delcidio recebeu r 500 mil fazer reclamacao claudio melo filho exvicepresidente relacoes institucionais odebrecht disse depoimento planilha indica repasse 2012 exsenador fechou acordo delacao g1 buscava contato exexecutivo odebrecht claudio melo filho afirmou depoimento consta sistema empreiteira repasse r 500 mil 2012 delcidio amaral ms apos entao senador fazer reclamacao assista video acima partir 5 minutos melo filho exvicepresidente relacoes institucionais odebrecht fez afirmacao prestar depoimento ministerio publico acordo
+1	delator	delator	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	delcidio	delcidio	NOUN	NOUN	_	2	obj	_	TokenRange=12:20
+4	recebeu	receber	VERB	VERB	_	2	ccomp	_	TokenRange=21:28
+5	r	r	NOUN	NOUN	_	4	obj	_	TokenRange=29:30
+6	500	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=31:34
+7	mil	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=35:38
+8	fazer	fazer	VERB	VERB	_	4	ccomp	_	TokenRange=39:44
+9	reclamacao	reclamacao	NOUN	NOUN	_	8	obj	_	TokenRange=45:55
+10	claudio	claudio	NOUN	NOUN	_	8	nsubj	_	TokenRange=56:63
+11	melo	melo	NOUN	NOUN	_	10	appos	_	TokenRange=64:68
+12	filho	filho	NOUN	NOUN	_	10	flat	_	TokenRange=69:74
+13	exvicepresidente	exvicepresidente	ADJ	ADJ	_	14	amod	_	TokenRange=75:91
+14	relacoes	relacoe	NOUN	NOUN	_	10	appos	_	TokenRange=92:100
+15	institucionais	institucional	ADJ	ADJ	_	14	amod	_	TokenRange=101:115
+16	odebrecht	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=116:125
+17	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=126:131
+18	depoimento	depoimento	NOUN	NOUN	_	17	obj	_	TokenRange=132:142
+19	planilha	planilha	NOUN	NOUN	_	18	flat	_	TokenRange=143:151
+20	indica	indicar	VERB	VERB	_	18	acl:relcl	_	TokenRange=152:158
+21	repasse	repasse	NOUN	NOUN	_	20	obj	_	TokenRange=159:166
+22	2012	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=167:171
+23	exsenador	exsenador	NOUN	NOUN	_	24	nsubj	_	TokenRange=172:181
+24	fechou	fechar	VERB	VERB	_	21	acl:relcl	_	TokenRange=182:188
+25	acordo	acordo	NOUN	NOUN	_	24	obj	_	TokenRange=189:195
+26	delacao	_	ADJ	ADJ	_	25	amod	_	TokenRange=196:203
+27	g1	_	PRON	NOUN	_	28	nsubj	_	TokenRange=204:206
+28	buscava	buscar	VERB	VERB	_	24	parataxis	_	TokenRange=207:214
+29	contato	contato	NOUN	NOUN	_	28	obj	_	TokenRange=215:222
+30	exexecutivo	exexecutivo	ADJ	ADJ	_	29	amod	_	TokenRange=223:234
+31	odebrecht	odebrecht	NOUN	NOUN	_	29	appos	_	TokenRange=235:244
+32	claudio	claudio	NOUN	NOUN	_	28	nsubj	_	TokenRange=245:252
+33	melo	melo	ADJ	NOUN	_	32	flat	_	TokenRange=253:257
+34	filho	filho	NOUN	NOUN	_	32	flat	_	TokenRange=258:263
+35	afirmou	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=264:271
+36	depoimento	depoimento	NOUN	NOUN	_	35	obj	_	TokenRange=272:282
+37	consta	constar	VERB	VERB	_	35	parataxis	_	TokenRange=283:289
+38	sistema	sistema	NOUN	NOUN	_	37	obj	_	TokenRange=290:297
+39	empreiteira	empreiteiro	ADJ	ADJ	_	38	amod	_	TokenRange=298:309
+40	repasse	repasse	NOUN	NOUN	_	37	obj	_	TokenRange=310:317
+41	r	r	NOUN	NOUN	_	40	appos	_	TokenRange=318:319
+42	500	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=320:323
+43	mil	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=324:327
+44	2012	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=328:332
+45	delcidio	delcidio	NOUN	NOUN	_	40	appos	_	TokenRange=333:341
+46	amaral	amaral	ADJ	ADJ	_	45	amod	_	TokenRange=342:348
+47	ms	_	NOUN	NOUN	_	45	appos	_	TokenRange=349:351
+48	apos	_	ADP	ADP	_	51	mark	_	TokenRange=352:356
+49	entao	entao	ADV	ADV	_	50	advmod	_	TokenRange=357:362
+50	senador	senador	NOUN	NOUN	_	51	nsubj	_	TokenRange=363:370
+51	fazer	fazer	VERB	VERB	_	45	acl:relcl	_	TokenRange=371:376
+52	reclamacao	reclamacao	NOUN	NOUN	_	51	obj	_	TokenRange=377:387
+53	assista	assistir	VERB	VERB	_	51	parataxis	_	TokenRange=388:395
+54	video	video	NOUN	NOUN	_	53	obj	_	TokenRange=396:401
+55	acima	acima	ADV	ADV	_	53	advmod	_	TokenRange=402:407
+56	partir	partir	VERB	VERB	_	53	ccomp	_	TokenRange=408:414
+57	5	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=415:416
+58	minutos	minuto	NOUN	NOUN	_	56	nmod	_	TokenRange=417:424
+59	melo	melo	ADJ	ADJ	_	58	amod	_	TokenRange=425:429
+60	filho	filho	NOUN	NOUN	_	58	amod	_	TokenRange=430:435
+61	exvicepresidente	exvicepresidente	ADJ	ADJ	_	62	amod	_	TokenRange=436:452
+62	relacoes	relacoe	NOUN	NOUN	_	60	appos	_	TokenRange=453:461
+63	institucionais	institucional	ADJ	ADJ	_	62	amod	_	TokenRange=462:476
+64	odebrecht	odebrecht	NOUN	NOUN	_	65	nsubj	_	TokenRange=477:486
+65	fez	fazer	VERB	VERB	_	53	parataxis	_	TokenRange=487:490
+66	afirmacao	afirmacao	NOUN	NOUN	_	65	obj	_	TokenRange=491:500
+67	prestar	prestar	VERB	VERB	_	65	ccomp	_	TokenRange=501:508
+68	depoimento	depoimento	NOUN	NOUN	_	67	obj	_	TokenRange=509:519
+69	ministerio	ministerio	NOUN	NOUN	_	71	amod	_	TokenRange=520:530
+70	publico	publico	ADJ	ADJ	_	71	amod	_	TokenRange=531:538
+71	acordo	acordo	NOUN	NOUN	_	67	obj	_	SpaceAfter=No|TokenRange=539:545
+

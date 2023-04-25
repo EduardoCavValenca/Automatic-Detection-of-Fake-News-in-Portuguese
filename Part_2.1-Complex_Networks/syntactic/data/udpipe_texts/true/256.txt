@@ -1,0 +1,113 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = santander cultural realizara duas exposicoes sobre diversidade apos cancelamento queermuseu compromisso firmado junto ministerio publico federal apurou prejuizos liberdade expressao encerramento antecipado mostra artistica caso aconteceu setembro 2017 porto alegre santander cultural realizara duas novas exposicoes sobre temas diferenca diversidade otica direitos humanos acordo termo compromisso firmado instituicao ministerio publico federal rio grande sul mpf/rs medida acontece decorrencia apuracao mpf sobre suspeita prejuizo liberdade expressao artistica encerramento antecipado exposicao queermuseu cartografias diferenca arte brasileira setembro 2017 museu fica centro porto alegre exposicao acusada fazer apologia pedofilia
+1	santander	santander	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	cultural	cultural	ADJ	ADJ	_	1	amod	_	TokenRange=10:18
+3	realizara	realizar	VERB	VERB	_	0	root	_	TokenRange=19:28
+4	duas	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=29:33
+5	exposicoes	exposicoe	NOUN	NOUN	_	3	obj	_	TokenRange=34:44
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=45:50
+7	diversidade	diversidade	NOUN	NOUN	_	5	nmod	_	TokenRange=51:62
+8	apos	_	ADP	ADP	_	9	case	_	TokenRange=63:67
+9	cancelamento	cancelamento	NOUN	NOUN	_	7	nmod	_	TokenRange=68:80
+10	queermuseu	queermuseu	NOUN	VERB	_	9	flat	_	TokenRange=81:91
+11	compromisso	compromisso	NOUN	NOUN	_	3	obj	_	TokenRange=92:103
+12	firmado	firmado	ADJ	ADJ	_	11	acl	_	TokenRange=104:111
+13	junto	junto	ADV	ADV	_	17	advmod	_	TokenRange=112:117
+14	ministerio	ministerio	NOUN	NOUN	_	17	nsubj	_	TokenRange=118:128
+15	publico	_	ADJ	ADJ	_	14	amod	_	TokenRange=129:136
+16	federal	federal	ADJ	ADJ	_	14	amod	_	TokenRange=137:144
+17	apurou	apurar	VERB	VERB	_	3	parataxis	_	TokenRange=145:151
+18	prejuizos	prejuízo	NOUN	NOUN	_	17	obj	_	TokenRange=152:161
+19	liberdade	liberdade	NOUN	NOUN	_	18	appos	_	TokenRange=162:171
+20	expressao	expressao	NOUN	NOUN	_	19	amod	_	TokenRange=172:181
+21	encerramento	encerramento	NOUN	NOUN	_	17	appos	_	TokenRange=182:194
+22	antecipado	antecipado	ADJ	ADJ	_	23	amod	_	TokenRange=195:205
+23	mostra	mostra	NOUN	NOUN	_	17	appos	_	TokenRange=206:212
+24	artistica	artistico	ADJ	ADJ	_	23	amod	_	TokenRange=213:222
+25	caso	caso	NOUN	NOUN	_	26	nsubj	_	TokenRange=223:227
+26	aconteceu	acontecer	VERB	VERB	_	23	acl:relcl	_	TokenRange=228:237
+27	setembro	_	PROPN	PNOUN	_	26	nmod	_	TokenRange=238:246
+28	2017	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=247:251
+29	porto	porto	NOUN	NOUN	_	26	nmod	_	TokenRange=252:257
+30	alegre	alegre	ADJ	ADJ	_	31	amod	_	TokenRange=258:264
+31	santander	santander	NOUN	NOUN	_	33	nsubj	_	TokenRange=265:274
+32	cultural	cultural	ADJ	ADJ	_	31	amod	_	TokenRange=275:283
+33	realizara	realizar	VERB	VERB	_	3	parataxis	_	TokenRange=284:293
+34	duas	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=294:298
+35	novas	novo	ADJ	ADJ	_	36	amod	_	TokenRange=299:304
+36	exposicoes	exposicoe	NOUN	NOUN	_	33	obj	_	TokenRange=305:315
+37	sobre	_	ADP	ADP	_	38	case	_	TokenRange=316:321
+38	temas	tema	NOUN	NOUN	_	36	nmod	_	TokenRange=322:327
+39	diferenca	diferenco	ADJ	ADJ	_	40	amod	_	TokenRange=328:337
+40	diversidade	diversidade	NOUN	NOUN	_	38	appos	_	TokenRange=338:349
+41	otica	otico	ADJ	ADJ	_	40	amod	_	TokenRange=350:355
+42	direitos	direito	NOUN	NOUN	_	40	appos	_	TokenRange=356:364
+43	humanos	humano	ADJ	ADJ	_	42	amod	_	TokenRange=365:372
+44	acordo	acordo	NOUN	NOUN	_	40	appos	_	TokenRange=373:379
+45	termo	termo	NOUN	NOUN	_	42	appos	_	TokenRange=380:385
+46	compromisso	compromisso	NOUN	NOUN	_	44	flat	_	TokenRange=386:397
+47	firmado	firmar	ADJ	VERB	_	49	acl	_	TokenRange=398:405
+48	instituicao	instituicao	ADJ	ADJ	_	49	amod	_	TokenRange=406:417
+49	ministerio	ministerio	NOUN	NOUN	_	44	appos	_	TokenRange=418:428
+50	publico	_	ADJ	ADJ	_	49	amod	_	TokenRange=429:436
+51	federal	federal	ADJ	ADJ	_	49	amod	_	TokenRange=437:444
+52	rio	rio	NOUN	NOUN	_	49	appos	_	TokenRange=445:448
+53	grande	grande	ADJ	ADJ	_	52	amod	_	TokenRange=449:455
+54	sul	sul	ADJ	ADJ	_	52	amod	_	TokenRange=456:459
+55	mpf/rs	_	ADJ	ADJ	_	49	amod	_	TokenRange=460:466
+56	medida	medida	NOUN	NOUN	_	57	nsubj	_	TokenRange=467:473
+57	acontece	acontecer	VERB	VERB	_	3	parataxis	_	TokenRange=474:482
+58	decorrencia	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=483:494
+59	apuracao	apuracao	ADJ	ADJ	_	58	amod	_	TokenRange=495:503
+60	mpf	_	NOUN	NOUN	_	58	flat	_	TokenRange=504:507
+61	sobre	_	ADP	ADP	_	63	case	_	TokenRange=508:513
+62	suspeita	_	ADJ	ADJ	_	63	amod	_	TokenRange=514:522
+63	prejuizo	prejuizo	NOUN	NOUN	_	58	nmod	_	TokenRange=523:531
+64	liberdade	liberdade	NOUN	NOUN	_	63	amod	_	TokenRange=532:541
+65	expressao	expressao	NOUN	NOUN	_	63	appos	_	TokenRange=542:551
+66	artistica	artistico	ADJ	ADJ	_	65	amod	_	TokenRange=552:561
+67	encerramento	encerramento	NOUN	NOUN	_	64	appos	_	TokenRange=562:574
+68	antecipado	antecipado	ADJ	ADJ	_	67	amod	_	TokenRange=575:585
+69	exposicao	exposicao	NOUN	NOUN	_	67	appos	_	TokenRange=586:595
+70	queermuseu	queermuseu	NOUN	NOUN	_	67	appos	_	TokenRange=596:606
+71	cartografias	cartografia	NOUN	NOUN	_	69	appos	_	TokenRange=607:619
+72	diferenca	diferenco	ADJ	ADJ	_	73	amod	_	TokenRange=620:629
+73	arte	arte	NOUN	NOUN	_	67	appos	_	TokenRange=630:634
+74	brasileira	brasileiro	ADJ	ADJ	_	73	amod	_	TokenRange=635:645
+75	setembro	_	PROPN	PNOUN	_	73	appos	_	TokenRange=646:654
+76	2017	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=655:659
+77	museu	museu	NOUN	NOUN	_	82	appos	_	TokenRange=660:665
+78	fica	fica	ADJ	ADJ	_	82	amod	_	TokenRange=666:670
+79	centro	centro	NOUN	NOUN	_	77	amod	_	TokenRange=671:677
+80	porto	porto	NOUN	NOUN	_	82	appos	_	TokenRange=678:683
+81	alegre	alegre	ADJ	ADJ	_	80	amod	_	TokenRange=684:690
+82	exposicao	exposicao	NOUN	NOUN	_	58	appos	_	TokenRange=691:700
+83	acusada	acusar	VERB	VERB	_	82	acl	_	TokenRange=701:708
+84	fazer	fazer	VERB	VERB	_	83	xcomp	_	TokenRange=709:714
+85	apologia	apologia	NOUN	NOUN	_	84	obj	_	TokenRange=715:723
+86	pedofilia	pedofilia	NOUN	NOUN	_	85	amod	_	TokenRange=724:733
+
+# sent_id = 2
+# text = zoofilia ofensas simbolos religiosos motivou fechamento cerca 30 dias antes previsto segundo mpf analisou caso tais
+1	zoofilia	zoofilia	NOUN	NOUN	_	5	nsubj	_	TokenRange=734:742
+2	ofensas	ofensa	NOUN	NOUN	_	1	appos	_	TokenRange=743:750
+3	simbolos	simbolo	NOUN	NOUN	_	1	appos	_	TokenRange=751:759
+4	religiosos	religioso	ADJ	ADJ	_	3	amod	_	TokenRange=760:770
+5	motivou	motivar	VERB	VERB	_	0	root	_	TokenRange=771:778
+6	fechamento	fechamento	NOUN	NOUN	_	5	obj	_	TokenRange=779:789
+7	cerca	cerca	ADV	ADV	_	8	advmod	_	TokenRange=790:795
+8	30	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=796:798
+9	dias	dia	NOUN	NOUN	_	6	nmod	_	TokenRange=799:803
+10	antes	antes	ADV	ADV	_	11	advmod	_	TokenRange=804:809
+11	previsto	prever	VERB	VERB	_	9	acl	_	TokenRange=810:818
+12	segundo	_	ADP	ADP	_	13	case	_	TokenRange=819:826
+13	mpf	_	NOUN	NOUN	_	14	nmod	_	TokenRange=827:830
+14	analisou	analisar	VERB	VERB	_	5	advcl	_	TokenRange=831:839
+15	caso	caso	NOUN	NOUN	_	14	obj	_	TokenRange=840:844
+16	tais	_	PRON	PRON	_	15	det	_	SpaceAfter=No|TokenRange=845:849
+

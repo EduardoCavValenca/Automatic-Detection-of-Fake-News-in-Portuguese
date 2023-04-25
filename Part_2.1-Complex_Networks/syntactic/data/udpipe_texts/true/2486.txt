@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fernando schuler cientista politico professor insper tornam sistema instavel peso debate 2018 relativo porque informacoes conseguem formar hegemonia diz otimista avancos obtidos 2017 faltam dez meses eleicao novo presidente republica clima debate politico permite prever 2018 conturbado redes sociais engalfinham cena publica intolerancia prevalece fake news espalhamse praga nesse cenario cientista politico fernando schuler professor insper faz balanco aponta duas direcoes redes mudaram sempre cara democracia tornam instavel adverte impacto disputa eleitoral vai relativo porque informacao efemera
+1	fernando	fernar	VERB	VERB	_	19	acl	_	TokenRange=0:8
+2	schuler	_	NOUN	NOUN	_	1	flat	_	TokenRange=9:16
+3	cientista	cientista	NOUN	NOUN	_	1	appos	_	TokenRange=17:26
+4	politico	politico	ADJ	ADJ	_	3	amod	_	TokenRange=27:35
+5	professor	professor	NOUN	NOUN	_	1	appos	_	TokenRange=36:45
+6	insper	_	NOUN	NOUN	_	5	flat	_	TokenRange=46:52
+7	tornam	tornar	VERB	VERB	_	1	parataxis	_	TokenRange=53:59
+8	sistema	sistema	NOUN	NOUN	_	7	obj	_	TokenRange=60:67
+9	instavel	instavel	ADJ	ADJ	_	8	amod	_	TokenRange=68:76
+10	peso	peso	NOUN	NOUN	_	7	obj	_	TokenRange=77:81
+11	debate	debate	NOUN	NOUN	_	10	appos	_	TokenRange=82:88
+12	2018	_	NUM	NUM	NumType=Card	11	appos	_	TokenRange=89:93
+13	relativo	relativo	ADJ	ADJ	_	11	amod	_	TokenRange=94:102
+14	porque	_	CCONJ	CONJ	_	16	mark	_	TokenRange=103:109
+15	informacoes	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=110:121
+16	conseguem	conseguir	VERB	VERB	_	7	advcl	_	TokenRange=122:131
+17	formar	formar	VERB	VERB	_	16	xcomp	_	TokenRange=132:138
+18	hegemonia	hegemonia	NOUN	NOUN	_	17	obj	_	TokenRange=139:148
+19	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=149:152
+20	otimista	otimista	ADJ	ADJ	_	21	amod	_	TokenRange=153:161
+21	avancos	avanco	NOUN	NOUN	_	19	nsubj	_	TokenRange=162:169
+22	obtidos	obter	VERB	VERB	_	21	acl	_	TokenRange=170:177
+23	2017	_	NUM	NUM	NumType=Card	22	nmod	_	TokenRange=178:182
+24	faltam	faltar	VERB	VERB	_	21	acl:relcl	_	TokenRange=183:189
+25	dez	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=190:193
+26	meses	mês	NOUN	NOUN	_	24	nsubj	_	TokenRange=194:199
+27	eleicao	eleicao	NOUN	NOUN	_	24	nsubj	_	TokenRange=200:207
+28	novo	novo	ADJ	ADJ	_	29	amod	_	TokenRange=208:212
+29	presidente	presidente	NOUN	NOUN	_	24	nsubj	_	TokenRange=213:223
+30	republica	republico	ADJ	ADJ	_	29	amod	_	TokenRange=224:233
+31	clima	clima	NOUN	NOUN	_	34	nsubj	_	TokenRange=234:239
+32	debate	debate	NOUN	NOUN	_	34	nsubj	_	TokenRange=240:246
+33	politico	politico	ADJ	ADJ	_	32	amod	_	TokenRange=247:255
+34	permite	permitir	VERB	VERB	_	19	parataxis	_	TokenRange=256:263
+35	prever	prever	VERB	VERB	_	34	xcomp	_	TokenRange=264:270
+36	2018	_	NUM	NUM	NumType=Card	35	obj	_	TokenRange=271:275
+37	conturbado	conturbar	VERB	VERB	_	38	acl	_	TokenRange=276:286
+38	redes	rede	NOUN	NOUN	_	34	nsubj	_	TokenRange=287:292
+39	sociais	social	ADJ	ADJ	_	38	amod	_	TokenRange=293:300
+40	engalfinham	engalfinhar	VERB	VERB	_	38	acl:relcl	_	TokenRange=301:312
+41	cena	cena	NOUN	NOUN	_	40	obj	_	TokenRange=313:317
+42	publica	publico	ADJ	ADJ	_	41	amod	_	TokenRange=318:325
+43	intolerancia	intolerancia	NOUN	NOUN	_	44	nsubj	_	TokenRange=326:338
+44	prevalece	prevalecer	VERB	VERB	_	41	acl:relcl	_	TokenRange=339:348
+45	fake	_	NOUN	NOUN	_	44	nmod	_	TokenRange=349:353
+46	news	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=354:358
+47	espalhamse	espalhar	VERB	VERB	_	44	parataxis	_	TokenRange=359:369
+48	praga	praga	NOUN	NOUN	_	47	obj	_	TokenRange=370:375
+49	nesse	_	ADP	ADP	_	50	case	_	TokenRange=376:381
+50	cenario	cenario	NOUN	NOUN	_	47	nmod	_	TokenRange=382:389
+51	cientista	cientista	NOUN	NOUN	_	50	amod	_	TokenRange=390:399
+52	politico	politico	ADJ	ADJ	_	51	amod	_	TokenRange=400:408
+53	fernando	fernando	NOUN	NOUN	_	47	nsubj	_	TokenRange=409:417
+54	schuler	_	NOUN	NOUN	_	53	flat	_	TokenRange=418:425
+55	professor	professor	NOUN	NOUN	_	57	nsubj	_	TokenRange=426:435
+56	insper	insper	NOUN	NOUN	_	53	flat	_	TokenRange=436:442
+57	faz	fazer	VERB	VERB	_	53	acl:relcl	_	TokenRange=443:446
+58	balanco	balanco	NOUN	NOUN	_	57	obj	_	TokenRange=447:454
+59	aponta	apontar	VERB	VERB	_	57	conj	_	TokenRange=455:461
+60	duas	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=462:466
+61	direcoes	direcoe	NOUN	NOUN	_	63	obj	_	TokenRange=467:475
+62	redes	rede	NOUN	NOUN	_	63	nsubj	_	TokenRange=476:481
+63	mudaram	mudar	VERB	VERB	_	57	parataxis	_	TokenRange=482:489
+64	sempre	sempre	ADV	ADV	_	63	advmod	_	TokenRange=490:496
+65	cara	caro	ADJ	ADJ	_	66	amod	_	TokenRange=497:501
+66	democracia	democracia	NOUN	NOUN	_	63	obj	_	TokenRange=502:512
+67	tornam	tornar	VERB	VERB	_	63	ccomp	_	TokenRange=513:519
+68	instavel	instavel	ADJ	ADJ	_	67	xcomp	_	TokenRange=520:528
+69	adverte	advertir	VERB	VERB	_	63	conj	_	TokenRange=529:536
+70	impacto	impacto	NOUN	NOUN	_	69	obj	_	TokenRange=537:544
+71	disputa	disputa	NOUN	NOUN	_	70	appos	_	TokenRange=545:552
+72	eleitoral	eleitoral	ADJ	ADJ	_	71	amod	_	TokenRange=553:562
+73	vai	ir	VERB	VERB	_	63	conj	_	TokenRange=563:566
+74	relativo	relativo	ADJ	ADJ	_	73	xcomp	_	TokenRange=567:575
+75	porque	_	CCONJ	CONJ	_	77	mark	_	TokenRange=576:582
+76	informacao	informacao	NOUN	NOUN	_	77	nsubj	_	TokenRange=583:593
+77	efemera	efemer	ADJ	ADJ	_	73	advcl	_	SpaceAfter=No|TokenRange=594:601
+

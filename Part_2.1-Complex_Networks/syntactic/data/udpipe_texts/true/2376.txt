@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mpf denuncia 5 exdirigentes eletronuclear lavagem r 23 milhoes angra 3 cinco presos preventivamente bangu 8 dois socios vw denunciados desdobramento operacao pripyat forcatarefa lava jato ministerio publico federal mpf denunciou justica nesta quintafeira 23 cinco exdirigentes eletronuclear presos preventivamente bangu 8 dois socios vw refrigeracao crimes lavagem dinheiro obras usina nuclear angra 3 segundo denuncia feita partir apuracoes operacao pripyat forcatarefa lava jato rio fraude soma r 23 milhoes mpf diz denunciados movimentaram dissimularam
+1	mpf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	denuncia	denunciar	VERB	VERB	_	0	root	_	TokenRange=4:12
+3	5	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=13:14
+4	exdirigentes	exdirigente	NOUN	NOUN	_	2	obj	_	TokenRange=15:27
+5	eletronuclear	eletronuclear	ADJ	ADJ	_	4	amod	_	TokenRange=28:41
+6	lavagem	lavagem	NOUN	NOUN	_	4	appos	_	TokenRange=42:49
+7	r	r	NOUN	NOUN	_	6	appos	_	TokenRange=50:51
+8	23	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=52:54
+9	milhoes	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=55:62
+10	angra	angra	NOUN	NOUN	_	6	appos	_	TokenRange=63:68
+11	3	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=69:70
+12	cinco	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=71:76
+13	presos	preso	NOUN	NOUN	_	6	appos	_	TokenRange=77:83
+14	preventivamente	preventivamente	ADV	ADV	_	15	advmod	_	TokenRange=84:99
+15	bangu	_	NOUN	NOUN	_	13	appos	_	TokenRange=100:105
+16	8	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=106:107
+17	dois	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=108:112
+18	socios	socio	NOUN	NOUN	_	13	appos	_	TokenRange=113:119
+19	vw	_	NOUN	NOUN	_	18	appos	_	TokenRange=120:122
+20	denunciados	denunciar	VERB	VERB	_	18	acl	_	TokenRange=123:134
+21	desdobramento	desdobramento	NOUN	NOUN	_	20	obj	_	TokenRange=135:148
+22	operacao	operacao	NOUN	NOUN	_	25	nsubj	_	TokenRange=149:157
+23	pripyat	_	ADJ	ADJ	_	22	amod	_	TokenRange=158:165
+24	forcatarefa	forcatarefa	NOUN	NOUN	_	22	appos	_	TokenRange=166:177
+25	lava	lavar	VERB	VERB	_	21	acl:relcl	_	TokenRange=178:182
+26	jato	jato	NOUN	NOUN	_	25	obj	_	TokenRange=183:187
+27	ministerio	ministerio	NOUN	NOUN	_	25	obj	_	TokenRange=188:198
+28	publico	_	ADJ	ADJ	_	27	amod	_	TokenRange=199:206
+29	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=207:214
+30	mpf	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=215:218
+31	denunciou	denunciar	VERB	VERB	_	2	conj	_	TokenRange=219:228
+32	justica	_	NOUN	NOUN	_	31	obj	_	TokenRange=229:236
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=237:242
+34	quintafeira	quintafeira	NOUN	NOUN	_	31	nmod	_	TokenRange=243:254
+35	23	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=255:257
+36	cinco	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=258:263
+37	exdirigentes	exdirigente	NOUN	NOUN	_	31	nsubj	_	TokenRange=264:276
+38	eletronuclear	eletronuclear	ADJ	ADJ	_	37	amod	_	TokenRange=277:290
+39	presos	preso	NOUN	NOUN	_	37	amod	_	TokenRange=291:297
+40	preventivamente	preventivamente	ADV	ADV	_	41	advmod	_	TokenRange=298:313
+41	bangu	_	NOUN	VERB	_	39	conj	_	TokenRange=314:319
+42	8	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=320:321
+43	dois	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=322:326
+44	socios	socio	NOUN	NOUN	_	37	appos	_	TokenRange=327:333
+45	vw	vw	NOUN	NOUN	_	44	appos	_	TokenRange=334:336
+46	refrigeracao	refrigeracao	ADJ	NOUN	_	44	amod	_	TokenRange=337:349
+47	crimes	crime	NOUN	NOUN	_	44	appos	_	TokenRange=350:356
+48	lavagem	lavagem	NOUN	NOUN	_	44	appos	_	TokenRange=357:364
+49	dinheiro	dinheiro	NOUN	NOUN	_	48	flat	_	TokenRange=365:373
+50	obras	obra	NOUN	NOUN	_	48	appos	_	TokenRange=374:379
+51	usina	usina	NOUN	NOUN	_	48	appos	_	TokenRange=380:385
+52	nuclear	nuclear	ADJ	ADJ	_	51	amod	_	TokenRange=386:393
+53	angra	angra	NOUN	NOUN	_	51	appos	_	TokenRange=394:399
+54	3	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=400:401
+55	segundo	segundo	ADJ	ADJ	_	56	amod	_	TokenRange=402:409
+56	denuncia	denuncia	NOUN	NOUN	_	53	appos	_	TokenRange=410:418
+57	feita	_	VERB	VERB	_	56	acl	_	TokenRange=419:424
+58	partir	partir	VERB	VERB	_	57	xcomp	_	TokenRange=425:431
+59	apuracoes	_	NOUN	NOUN	_	58	obj	_	TokenRange=432:441
+60	operacao	operacao	NOUN	NOUN	_	59	appos	_	TokenRange=442:450
+61	pripyat	_	NOUN	NOUN	_	60	amod	_	TokenRange=451:458
+62	forcatarefa	forcatarefa	NOUN	NOUN	_	60	appos	_	TokenRange=459:470
+63	lava	lavar	VERB	VERB	_	59	acl:relcl	_	TokenRange=471:475
+64	jato	jato	NOUN	NOUN	_	63	obj	_	TokenRange=476:480
+65	rio	rio	ADJ	ADJ	_	63	obj	_	TokenRange=481:484
+66	fraude	fraude	NOUN	NOUN	_	63	obj	_	TokenRange=485:491
+67	soma	soma	NOUN	NOUN	_	63	obj	_	TokenRange=492:496
+68	r	r	NOUN	NOUN	_	67	flat	_	TokenRange=497:498
+69	23	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=499:501
+70	milhoes	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=502:509
+71	mpf	mpf	NOUN	NOUN	_	75	nsubj	_	TokenRange=510:513
+72	diz	dizer	VERB	VERB	_	2	conj	_	TokenRange=514:517
+73	denunciados	denunciado	NOUN	NOUN	_	75	obj	_	TokenRange=518:529
+74	movimentaram	movimentar	VERB	VERB	_	75	ccomp	_	TokenRange=530:542
+75	dissimularam	dissimular	VERB	VERB	_	72	ccomp	_	SpaceAfter=No|TokenRange=543:555
+

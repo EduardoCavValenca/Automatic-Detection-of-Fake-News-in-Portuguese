@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = prefeituras outros orgaos publicos devem r 679 milhoes fgts dividas administracao publica menos 1 total debitos pode cobrado segundo dados fazenda nacional veja lista 20 maiores devedores orgaos publicos demais empregadores administracao publica devem aproximadamente r 679 milhoes fundo garantia tempo servico fgts entanto minoria fazem parte lista devedores fundo maioria dividas empresas privadas aponta levantamento feito g1 dados procuradoria geral fazenda nacional pgfn lista empregadores devem fgts aberta pode consultada neste link pgfn muitos trabalhadores descobriram empregadores
+1	prefeituras	prefeitura	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:11
+2	outros	_	DET	DET	_	3	det	_	TokenRange=12:18
+3	orgaos	orgao	NOUN	NOUN	_	5	nsubj	_	TokenRange=19:25
+4	publicos	publico	ADJ	ADJ	_	3	amod	_	TokenRange=26:34
+5	devem	_	VERB	AUX	_	0	root	_	TokenRange=35:40
+6	r	r	NOUN	NOUN	_	5	obj	_	TokenRange=41:42
+7	679	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=43:46
+8	milhoes	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=47:54
+9	fgts	_	NOUN	NOUN	_	5	obj	_	TokenRange=55:59
+10	dividas	divida	NOUN	NOUN	_	9	appos	_	TokenRange=60:67
+11	administracao	administracao	ADJ	ADJ	_	9	amod	_	TokenRange=68:81
+12	publica	publico	ADJ	ADJ	_	9	amod	_	TokenRange=82:89
+13	menos	menos	ADV	ADV	_	14	advmod	_	TokenRange=90:95
+14	1	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=96:97
+15	total	total	ADJ	ADJ	_	16	amod	_	TokenRange=98:103
+16	debitos	debito	NOUN	NOUN	_	18	nsubj:pass	_	TokenRange=104:111
+17	pode	_	AUX	AUX	_	18	aux	_	TokenRange=112:116
+18	cobrado	cobrar	VERB	VERB	_	9	acl:relcl	_	TokenRange=117:124
+19	segundo	_	ADP	ADP	_	20	case	_	TokenRange=125:132
+20	dados	dado	NOUN	NOUN	_	18	nmod	_	TokenRange=133:138
+21	fazenda	fazenda	NOUN	NOUN	_	20	appos	_	TokenRange=139:146
+22	nacional	nacional	ADJ	ADJ	_	21	amod	_	TokenRange=147:155
+23	veja	ver	VERB	VERB	_	5	parataxis	_	TokenRange=156:160
+24	lista	lista	NOUN	NOUN	_	23	obj	_	TokenRange=161:166
+25	20	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=167:169
+26	maiores	maior	ADJ	ADJ	_	27	amod	_	TokenRange=170:177
+27	devedores	devedor	NOUN	NOUN	_	24	appos	_	TokenRange=178:187
+28	orgaos	orgao	NOUN	NOUN	_	27	appos	_	TokenRange=188:194
+29	publicos	publico	ADJ	ADJ	_	28	amod	_	TokenRange=195:203
+30	demais	_	DET	DET	_	31	det	_	TokenRange=204:210
+31	empregadores	empregador	NOUN	NOUN	_	28	amod	_	TokenRange=211:223
+32	administracao	administracao	ADJ	ADJ	_	31	amod	_	TokenRange=224:237
+33	publica	publico	ADJ	ADJ	_	31	amod	_	TokenRange=238:245
+34	devem	_	VERB	VERB	_	23	parataxis	_	TokenRange=246:251
+35	aproximadamente	aproximadamente	ADV	ADV	_	38	advmod	_	TokenRange=252:267
+36	r	r	NOUN	NOUN	_	34	obj	_	TokenRange=268:269
+37	679	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=270:273
+38	milhoes	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=274:281
+39	fundo	fundo	NOUN	NOUN	_	36	appos	_	TokenRange=282:287
+40	garantia	garantia	NOUN	NOUN	_	39	flat	_	TokenRange=288:296
+41	tempo	tempo	NOUN	NOUN	_	39	appos	_	TokenRange=297:302
+42	servico	servico	ADJ	ADJ	_	41	amod	_	TokenRange=303:310
+43	fgts	_	NOUN	NOUN	_	39	appos	_	TokenRange=311:315
+44	entanto	_	CCONJ	CONJ	_	46	cc	_	TokenRange=316:323
+45	minoria	minoria	NOUN	NOUN	_	46	nsubj	_	TokenRange=324:331
+46	fazem	fazer	VERB	VERB	_	34	conj	_	TokenRange=332:337
+47	parte	parte	NOUN	NOUN	_	46	obj	_	TokenRange=338:343
+48	lista	lista	NOUN	NOUN	_	46	nsubj	_	TokenRange=344:349
+49	devedores	devedor	NOUN	NOUN	_	46	nsubj	_	TokenRange=350:359
+50	fundo	fundo	ADJ	ADJ	_	51	amod	_	TokenRange=360:365
+51	maioria	maioria	NOUN	NOUN	_	49	appos	_	TokenRange=366:373
+52	dividas	divido	ADJ	ADJ	_	53	amod	_	TokenRange=374:381
+53	empresas	empresa	NOUN	NOUN	_	51	appos	_	TokenRange=382:390
+54	privadas	privado	ADJ	ADJ	_	53	amod	_	TokenRange=391:399
+55	aponta	apontar	VERB	VERB	_	5	parataxis	_	TokenRange=400:406
+56	levantamento	levantamento	NOUN	NOUN	_	55	obj	_	TokenRange=407:419
+57	feito	_	VERB	VERB	_	56	acl	_	TokenRange=420:425
+58	g1	_	NUM	NUM	_	59	case	_	TokenRange=426:428
+59	dados	dado	NOUN	NOUN	_	57	nmod	_	TokenRange=429:434
+60	procuradoria	procuradoria	NOUN	NOUN	_	59	appos	_	TokenRange=435:447
+61	geral	geral	ADJ	ADJ	_	59	amod	_	TokenRange=448:453
+62	fazenda	fazenda	NOUN	NOUN	_	59	appos	_	TokenRange=454:461
+63	nacional	nacional	ADJ	ADJ	_	62	amod	_	TokenRange=462:470
+64	pgfn	_	ADJ	ADJ	_	62	appos	_	TokenRange=471:475
+65	lista	lista	NOUN	NOUN	_	62	appos	_	TokenRange=476:481
+66	empregadores	empregador	NOUN	NOUN	_	65	amod	_	TokenRange=482:494
+67	devem	_	VERB	VERB	_	68	acl:relcl	_	TokenRange=495:500
+68	fgts	_	NOUN	NOUN	_	71	obj	_	TokenRange=501:505
+69	aberta	aberto	ADJ	ADJ	_	68	amod	_	TokenRange=506:512
+70	pode	_	AUX	AUX	_	71	aux	_	TokenRange=513:517
+71	consultada	consultar	VERB	VERB	_	55	parataxis	_	TokenRange=518:528
+72	neste	_	ADP	ADP	_	73	case	_	TokenRange=529:534
+73	link	link	NOUN	NOUN	_	71	nmod	_	TokenRange=535:539
+74	pgfn	_	NOUN	NOUN	_	77	obj	_	TokenRange=540:544
+75	muitos	_	DET	DET	_	76	det	_	TokenRange=545:551
+76	trabalhadores	trabalhador	NOUN	NOUN	_	77	nsubj	_	TokenRange=552:565
+77	descobriram	descobrir	VERB	VERB	_	71	parataxis	_	TokenRange=566:577
+78	empregadores	empregador	NOUN	NOUN	_	77	obj	_	SpaceAfter=No|TokenRange=578:590
+

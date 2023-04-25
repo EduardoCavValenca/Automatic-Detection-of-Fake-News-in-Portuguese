@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil aborto democracia legalizar aborto deixar mulheres decidirem sobre corpos questao democracia stf negou liminar rebeca interromper gestacao forma segura viagem colombia falar caso viuse amparada lei local realizou aborto forma legal segura historia rebeca final feliz apesar legislacao brasileira desfecho entretanto centenas milhares mulheres brasileiras segundo ultima pesquisa nacional aborto estimativa 416 mil mulheres interrompido voluntariamente gravidez apenas ano 2014 mulheres fazem amparo lei submetendose metodos profissionais duvidosos ainda parecem opcao melhor seguir
+1	brasil	brasil	ADJ	ADJ	_	14	nsubj	_	TokenRange=0:6
+2	aborto	aborto	NOUN	NOUN	_	14	nsubj	_	TokenRange=7:13
+3	democracia	democracia	NOUN	NOUN	_	4	nsubj	_	TokenRange=14:24
+4	legalizar	legalizar	VERB	VERB	_	14	ccomp	_	TokenRange=25:34
+5	aborto	aborto	NOUN	NOUN	_	4	obj	_	TokenRange=35:41
+6	deixar	deixar	VERB	VERB	_	4	ccomp	_	TokenRange=42:48
+7	mulheres	mulher	NOUN	NOUN	_	6	obj	_	TokenRange=49:57
+8	decidirem	decidir	VERB	VERB	_	6	ccomp	_	TokenRange=58:67
+9	sobre	_	ADP	ADP	_	10	case	_	TokenRange=68:73
+10	corpos	corpo	NOUN	NOUN	_	8	nmod	_	TokenRange=74:80
+11	questao	questao	NOUN	NOUN	_	14	parataxis	_	TokenRange=81:88
+12	democracia	democracia	NOUN	NOUN	_	14	nsubj	_	TokenRange=89:99
+13	stf	_	NOUN	NOUN	_	12	appos	_	TokenRange=100:103
+14	negou	negar	VERB	VERB	_	71	parataxis	_	TokenRange=104:109
+15	liminar	liminar	ADJ	ADJ	_	14	xcomp	_	TokenRange=110:117
+16	rebeca	_	NOUN	NOUN	_	14	obj	_	TokenRange=118:124
+17	interromper	interromper	VERB	VERB	_	16	acl:inf	_	TokenRange=125:136
+18	gestacao	gestacao	NOUN	NOUN	_	19	amod	_	TokenRange=137:145
+19	forma	forma	NOUN	NOUN	_	17	obj	_	TokenRange=146:151
+20	segura	seguro	ADJ	ADJ	_	19	amod	_	TokenRange=152:158
+21	viagem	viagem	NOUN	NOUN	_	17	obj	_	TokenRange=159:165
+22	colombia	_	NOUN	NOUN	_	21	appos	_	TokenRange=166:174
+23	falar	falar	VERB	VERB	_	21	acl:relcl	_	TokenRange=175:180
+24	caso	caso	CCONJ	CONJ	_	25	mark	_	TokenRange=181:185
+25	viuse	viusar	VERB	VERB	_	23	advcl	_	TokenRange=186:191
+26	amparada	amparado	ADJ	ADJ	_	27	amod	_	TokenRange=192:200
+27	lei	lei	NOUN	NOUN	_	25	nsubj	_	TokenRange=201:204
+28	local	local	ADJ	ADJ	_	27	amod	_	TokenRange=205:210
+29	realizou	realizar	VERB	VERB	_	14	parataxis	_	TokenRange=211:219
+30	aborto	aborto	NOUN	NOUN	_	29	obj	_	TokenRange=220:226
+31	forma	forma	NOUN	NOUN	_	29	obj	_	TokenRange=227:232
+32	legal	legal	ADJ	ADJ	_	31	amod	_	TokenRange=233:238
+33	segura	seguro	ADJ	ADJ	_	31	amod	_	TokenRange=239:245
+34	historia	historia	NOUN	NOUN	_	29	nsubj	_	TokenRange=246:254
+35	rebeca	rebeca	NOUN	NOUN	_	34	appos	_	TokenRange=255:261
+36	final	final	NOUN	NOUN	_	35	amod	_	TokenRange=262:267
+37	feliz	feliz	ADJ	ADJ	_	31	amod	_	TokenRange=268:273
+38	apesar	apesar	ADV	ADV	_	39	case	_	TokenRange=274:280
+39	legislacao	legislacao	NOUN	NOUN	_	29	nmod	_	TokenRange=281:291
+40	brasileira	brasileiro	ADJ	ADJ	_	39	amod	_	TokenRange=292:302
+41	desfecho	desfecho	VERB	VERB	_	39	acl	_	TokenRange=303:311
+42	entretanto	entretanto	ADV	ADV	_	44	advmod	_	TokenRange=312:322
+43	centenas	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=323:331
+44	milhares	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=332:340
+45	mulheres	mulher	NOUN	NOUN	_	41	obj	_	TokenRange=341:349
+46	brasileiras	brasileiro	ADJ	ADJ	_	45	amod	_	TokenRange=350:361
+47	segundo	_	ADP	ADP	_	49	case	_	TokenRange=362:369
+48	ultima	_	ADJ	ADJ	_	49	amod	_	TokenRange=370:376
+49	pesquisa	pesquisa	NOUN	NOUN	_	41	nmod	_	TokenRange=377:385
+50	nacional	nacional	ADJ	ADJ	_	49	amod	_	TokenRange=386:394
+51	aborto	aborto	NOUN	NOUN	_	49	appos	_	TokenRange=395:401
+52	estimativa	_	ADJ	ADJ	_	49	amod	_	TokenRange=402:412
+53	416	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=413:416
+54	mil	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=417:420
+55	mulheres	mulher	NOUN	NOUN	_	71	nsubj	_	TokenRange=421:429
+56	interrompido	interromper	VERB	VERB	_	55	acl	_	TokenRange=430:442
+57	voluntariamente	voluntariamente	ADV	ADV	_	58	advmod	_	TokenRange=443:458
+58	gravidez	gravidez	NOUN	NOUN	_	56	obj	_	TokenRange=459:467
+59	apenas	apenas	ADV	ADV	_	60	advmod	_	TokenRange=468:474
+60	ano	ano	NOUN	NOUN	_	63	nmod	_	TokenRange=475:478
+61	2014	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=479:483
+62	mulheres	mulher	NOUN	NOUN	_	63	nsubj	_	TokenRange=484:492
+63	fazem	fazer	VERB	VERB	_	55	acl:relcl	_	TokenRange=493:498
+64	amparo	amparo	NOUN	NOUN	_	63	obj	_	TokenRange=499:505
+65	lei	lei	NOUN	NOUN	_	63	obj	_	TokenRange=506:509
+66	submetendose	_	VERB	VERB	_	63	acl	_	TokenRange=510:522
+67	metodos	metodo	NOUN	NOUN	_	74	obj	_	TokenRange=523:530
+68	profissionais	profissional	ADJ	ADJ	_	67	amod	_	TokenRange=531:544
+69	duvidosos	duvidoso	ADJ	ADJ	_	67	amod	_	TokenRange=545:554
+70	ainda	ainda	ADV	ADV	_	71	advmod	_	TokenRange=555:560
+71	parecem	parecer	VERB	VERB	_	0	root	_	TokenRange=561:568
+72	opcao	opcao	NOUN	NOUN	_	71	obj	_	TokenRange=569:574
+73	melhor	melhor	ADJ	ADJ	_	72	amod	_	TokenRange=575:581
+74	seguir	seguir	VERB	VERB	_	71	csubj	_	SpaceAfter=No|TokenRange=582:588
+

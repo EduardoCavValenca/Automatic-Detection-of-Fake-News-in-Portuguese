@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = giba diz emprestou dinheiro amigos pagar r 90 mil pensao alimenticia facil exjogador volei disse nesta tercafeira 6 exposicao atrapalhando vida criancas carreira emprestar amigos vida facil pra ninguem triste disse exjogador volei giba nesta tercafeira 6 sobre r 90 mil pagou pensao alimenticia dois filhos segundo advogado jose rodrigo sade giba fez dois emprestimos valores r 41 mil r 49 mil exatleta advogados falaram sobre assunto coletiva imprensa nesta manha defesa reforcou
+1	giba	giba	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=5:8
+3	emprestou	emprestar	VERB	VERB	_	2	xcomp	_	TokenRange=9:18
+4	dinheiro	dinheiro	NOUN	NOUN	_	3	obj	_	TokenRange=19:27
+5	amigos	amigo	NOUN	NOUN	_	4	amod	_	TokenRange=28:34
+6	pagar	pagar	VERB	VERB	_	3	ccomp	_	TokenRange=35:40
+7	r	r	NOUN	NOUN	_	10	case	_	TokenRange=41:42
+8	90	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=43:45
+9	mil	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=46:49
+10	pensao	pensao	NOUN	NOUN	_	6	obj	_	TokenRange=50:56
+11	alimenticia	alimenticia	NOUN	NOUN	_	10	amod	_	TokenRange=57:68
+12	facil	facil	ADJ	ADJ	_	10	amod	_	TokenRange=69:74
+13	exjogador	exjogador	NOUN	NOUN	_	10	amod	_	TokenRange=75:84
+14	volei	_	NOUN	NOUN	_	13	flat	_	TokenRange=85:90
+15	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=91:96
+16	nesta	_	ADP	ADP	_	17	case	_	TokenRange=97:102
+17	tercafeira	_	NOUN	NOUN	_	15	nmod	_	TokenRange=103:113
+18	6	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=114:115
+19	exposicao	exposicao	NOUN	NOUN	_	17	appos	_	TokenRange=116:125
+20	atrapalhando	atrapalhar	VERB	VERB	_	19	acl	_	TokenRange=126:138
+21	vida	vida	NOUN	NOUN	_	20	obj	_	TokenRange=139:143
+22	criancas	crianca	ADJ	ADJ	_	21	amod	_	TokenRange=144:152
+23	carreira	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=153:161
+24	emprestar	emprestar	VERB	VERB	_	21	acl:inf	_	TokenRange=162:171
+25	amigos	amigo	NOUN	NOUN	_	24	obj	_	TokenRange=172:178
+26	vida	vida	NOUN	NOUN	_	24	obj	_	TokenRange=179:183
+27	facil	facil	ADJ	ADJ	_	26	amod	_	TokenRange=184:189
+28	pra	_	ADP	ADP	_	29	case	_	TokenRange=190:193
+29	ninguem	_	NOUN	NOUN	_	24	nmod	_	TokenRange=194:201
+30	triste	triste	ADJ	ADJ	_	29	amod	_	TokenRange=202:208
+31	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=209:214
+32	exjogador	exjogador	NOUN	NOUN	_	31	nsubj	_	TokenRange=215:224
+33	volei	_	NOUN	NOUN	_	32	flat	_	TokenRange=225:230
+34	giba	giba	NOUN	NOUN	_	32	appos	_	TokenRange=231:235
+35	nesta	_	ADP	ADP	_	36	case	_	TokenRange=236:241
+36	tercafeira	_	NOUN	NOUN	_	42	nmod	_	TokenRange=242:252
+37	6	_	NUM	NUM	NumType=Card	36	appos	_	TokenRange=253:254
+38	sobre	_	ADP	ADP	_	39	case	_	TokenRange=255:260
+39	r	r	NOUN	NOUN	_	42	nmod	_	TokenRange=261:262
+40	90	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=263:265
+41	mil	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=266:269
+42	pagou	pagar	VERB	VERB	_	3	conj	_	TokenRange=270:275
+43	pensao	pensao	NOUN	NOUN	_	42	obj	_	TokenRange=276:282
+44	alimenticia	alimenticia	ADJ	ADJ	_	43	amod	_	TokenRange=283:294
+45	dois	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=295:299
+46	filhos	filho	NOUN	NOUN	_	42	nsubj	_	TokenRange=300:306
+47	segundo	_	ADP	ADP	_	48	case	_	TokenRange=307:314
+48	advogado	advogado	NOUN	NOUN	_	42	nmod	_	TokenRange=315:323
+49	jose	jose	NOUN	NOUN	_	48	appos	_	TokenRange=324:328
+50	rodrigo	_	NOUN	NOUN	_	49	flat	_	TokenRange=329:336
+51	sade	sade	NOUN	NOUN	_	49	flat	_	TokenRange=337:341
+52	giba	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=342:346
+53	fez	fazer	VERB	VERB	_	2	conj	_	TokenRange=347:350
+54	dois	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=351:355
+55	emprestimos	emprestimo	NOUN	NOUN	_	53	obj	_	TokenRange=356:367
+56	valores	_	NOUN	NOUN	_	55	amod	_	TokenRange=368:375
+57	r	r	NOUN	NOUN	_	59	case	_	TokenRange=376:377
+58	41	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=378:380
+59	mil	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=381:384
+60	r	r	NOUN	NOUN	_	55	appos	_	TokenRange=385:386
+61	49	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=387:389
+62	mil	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=390:393
+63	exatleta	exatleta	ADJ	NOUN	_	64	amod	_	TokenRange=394:402
+64	advogados	advogado	NOUN	NOUN	_	65	nsubj	_	TokenRange=403:412
+65	falaram	falar	VERB	VERB	_	55	acl:relcl	_	TokenRange=413:420
+66	sobre	_	ADP	ADP	_	67	case	_	TokenRange=421:426
+67	assunto	assunto	NOUN	NOUN	_	65	nmod	_	TokenRange=427:434
+68	coletiva	coletivo	ADJ	ADJ	_	67	amod	_	TokenRange=435:443
+69	imprensa	imprensa	NOUN	NOUN	_	73	obj	_	TokenRange=444:452
+70	nesta	_	ADP	ADP	_	73	case	_	TokenRange=453:458
+71	manha	manha	ADJ	ADJ	_	73	nmod	_	TokenRange=459:464
+72	defesa	_	NOUN	NOUN	_	73	nsubj	_	TokenRange=465:471
+73	reforcou	reforcar	VERB	VERB	_	53	parataxis	_	SpaceAfter=No|TokenRange=472:480
+

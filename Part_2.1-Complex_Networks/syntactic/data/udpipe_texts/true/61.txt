@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = suplicy participara programa doria web nesta quinta vereador eduardo suplicy ptsp participara nesta quintafeira 10 20h30 programa olho olho transmitido redes sociais prefeito joao doria psdbsp doria recebeu quadro aliados personalidades cantor lobao apresentador jose luiz datena exjogador basquete oscar cantor roger ultraje rigor jornalista joice hasselman comeco gestao tucano poupou criticas antecessor fernando haddad ptsp ultimos meses passou acusar exprefeito deixar rombo r 7 bilhoes prefeitura haddad nega diz deixou contas cidade ordem suplicy vez vozes criticas doria camara vereadores
+1	suplicy	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	participara	participar	VERB	VERB	_	0	root	_	TokenRange=8:19
+3	programa	programa	NOUN	NOUN	_	2	obj	_	TokenRange=20:28
+4	doria	_	NOUN	NOUN	_	3	appos	_	TokenRange=29:34
+5	web	_	NOUN	NOUN	_	3	appos	_	TokenRange=35:38
+6	nesta	_	ADP	ADP	_	8	case	_	TokenRange=39:44
+7	quinta	_	ADJ	ADJ	_	8	amod	_	TokenRange=45:51
+8	vereador	vereador	NOUN	NOUN	_	2	nmod	_	TokenRange=52:60
+9	eduardo	eduardo	NOUN	NOUN	_	8	appos	_	TokenRange=61:68
+10	suplicy	_	ADJ	ADJ	_	9	amod	_	TokenRange=69:76
+11	ptsp	_	NOUN	NOUN	_	9	appos	_	TokenRange=77:81
+12	participara	participar	VERB	VERB	_	2	parataxis	_	TokenRange=82:93
+13	nesta	_	ADP	ADP	_	14	case	_	TokenRange=94:99
+14	quintafeira	quintafeira	NOUN	NOUN	_	12	nmod	_	TokenRange=100:111
+15	10	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=112:114
+16	20h30	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=115:120
+17	programa	programa	NOUN	NOUN	_	12	obj	_	TokenRange=121:129
+18	olho	olho	NOUN	NOUN	_	17	appos	_	TokenRange=130:134
+19	olho	olho	NOUN	NOUN	_	18	flat	_	TokenRange=135:139
+20	transmitido	transmitir	VERB	VERB	_	17	acl	_	TokenRange=140:151
+21	redes	rede	NOUN	NOUN	_	20	obj	_	TokenRange=152:157
+22	sociais	social	ADJ	ADJ	_	21	amod	_	TokenRange=158:165
+23	prefeito	prefeito	NOUN	NOUN	_	28	nsubj	_	TokenRange=166:174
+24	joao	joao	NOUN	NOUN	_	23	appos	_	TokenRange=175:179
+25	doria	doria	NOUN	NOUN	_	24	flat	_	TokenRange=180:185
+26	psdbsp	_	NOUN	NOUN	_	23	appos	_	TokenRange=186:192
+27	doria	_	NOUN	NOUN	_	26	flat	_	TokenRange=193:198
+28	recebeu	receber	VERB	VERB	_	2	parataxis	_	TokenRange=199:206
+29	quadro	quadro	NOUN	NOUN	_	28	obj	_	TokenRange=207:213
+30	aliados	aliado	ADJ	ADJ	_	29	amod	_	TokenRange=214:221
+31	personalidades	personalidade	NOUN	NOUN	_	28	obj	_	TokenRange=222:236
+32	cantor	cantor	NOUN	NOUN	_	29	appos	_	TokenRange=237:243
+33	lobao	lobao	ADJ	ADJ	_	34	amod	_	TokenRange=244:249
+34	apresentador	apresentador	NOUN	NOUN	_	29	appos	_	TokenRange=250:262
+35	jose	jose	NOUN	NOUN	_	34	appos	_	TokenRange=263:267
+36	luiz	luiz	NOUN	NOUN	_	35	flat	_	TokenRange=268:272
+37	datena	_	NOUN	NOUN	_	35	flat	_	TokenRange=273:279
+38	exjogador	exjogador	NOUN	NOUN	_	34	appos	_	TokenRange=280:289
+39	basquete	basquete	NOUN	NOUN	_	35	flat	_	TokenRange=290:298
+40	oscar	oscar	NOUN	NOUN	_	34	appos	_	TokenRange=299:304
+41	cantor	cantor	NOUN	NOUN	_	40	flat	_	TokenRange=305:311
+42	roger	roger	NOUN	NOUN	_	43	appos	_	TokenRange=312:317
+43	ultraje	ultraje	NOUN	NOUN	_	40	flat	_	TokenRange=318:325
+44	rigor	rigor	ADJ	ADJ	_	43	amod	_	TokenRange=326:331
+45	jornalista	jornalista	NOUN	NOUN	_	43	appos	_	TokenRange=332:342
+46	joice	joice	NOUN	NOUN	_	45	appos	_	TokenRange=343:348
+47	hasselman	_	NOUN	NOUN	_	46	flat	_	TokenRange=349:358
+48	comeco	_	ADJ	ADJ	_	49	amod	_	TokenRange=359:365
+49	gestao	gestao	NOUN	NOUN	_	51	nsubj	_	TokenRange=366:372
+50	tucano	tucano	NOUN	NOUN	_	49	amod	_	TokenRange=373:379
+51	poupou	poupar	VERB	VERB	_	2	parataxis	_	TokenRange=380:386
+52	criticas	_	NOUN	NOUN	_	51	obj	_	TokenRange=387:395
+53	antecessor	antecessor	NOUN	NOUN	_	51	nsubj	_	TokenRange=396:406
+54	fernando	fernando	VERB	VERB	_	52	appos	_	TokenRange=407:415
+55	haddad	_	NOUN	NOUN	_	54	flat	_	TokenRange=416:422
+56	ptsp	_	NOUN	NOUN	_	54	flat	_	TokenRange=423:427
+57	ultimos	_	ADJ	ADJ	_	58	amod	_	TokenRange=428:435
+58	meses	mês	NOUN	NOUN	_	54	appos	_	TokenRange=436:441
+59	passou	passar	AUX	AUX	_	60	aux	_	TokenRange=442:448
+60	acusar	acusar	VERB	VERB	_	51	ccomp	_	TokenRange=449:455
+61	exprefeito	exprefeito	NOUN	NOUN	_	60	obj	_	TokenRange=456:466
+62	deixar	deixar	VERB	VERB	_	60	ccomp	_	TokenRange=467:473
+63	rombo	rombo	NOUN	NOUN	_	62	obj	_	TokenRange=474:479
+64	r	r	NOUN	NOUN	_	63	flat	_	TokenRange=480:481
+65	7	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=482:483
+66	bilhoes	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=484:491
+67	prefeitura	prefeitura	NOUN	NOUN	_	62	nsubj	_	TokenRange=492:502
+68	haddad	_	NOUN	NOUN	_	67	appos	_	TokenRange=503:509
+69	nega	negar	VERB	VERB	_	62	conj	_	TokenRange=510:514
+70	diz	dizer	NOUN	NOUN	_	69	obj	_	TokenRange=515:518
+71	deixou	deixar	VERB	VERB	_	69	parataxis	_	TokenRange=519:525
+72	contas	conta	NOUN	NOUN	_	71	obj	_	TokenRange=526:532
+73	cidade	cidade	NOUN	NOUN	_	72	appos	_	TokenRange=533:539
+74	ordem	ordem	NOUN	NOUN	_	71	parataxis	_	TokenRange=540:545
+75	suplicy	_	ADJ	ADJ	_	74	amod	_	TokenRange=546:553
+76	vez	vez	NOUN	NOUN	_	71	nmod	_	TokenRange=554:557
+77	vozes	voz	NOUN	NOUN	_	76	flat	_	TokenRange=558:563
+78	criticas	_	NOUN	NOUN	_	80	amod	_	TokenRange=564:572
+79	doria	doria	NOUN	NOUN	_	80	appos	_	TokenRange=573:578
+80	camara	camara	NOUN	NOUN	_	71	parataxis	_	TokenRange=579:585
+81	vereadores	vereador	NOUN	NOUN	_	80	flat	_	SpaceAfter=No|TokenRange=586:596
+

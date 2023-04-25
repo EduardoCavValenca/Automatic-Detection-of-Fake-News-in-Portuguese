@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf espera camara enviar informacoes processo lava jato cinco meses policia pediu documentos cpi petrobras diz serem indispensaveis investigar deputado maia negou pedido alegando comissao analisaria caso incompleta policia federal espera cinco meses camara deputados enviar informacoes consideradas sigilosas processo relacionado operacao lava jato setembro ano passado delegado pf bernardo amaral pediu copias documentacao produzida cpi petrobras 2015 documentos argumentou amaral servirao
+1	pf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	espera	esperar	VERB	VERB	_	0	root	_	TokenRange=3:9
+3	camara	camara	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	enviar	enviar	VERB	VERB	_	2	ccomp	_	TokenRange=17:23
+5	informacoes	informacoe	NOUN	NOUN	_	4	obj	_	TokenRange=24:35
+6	processo	processo	NOUN	NOUN	_	5	appos	_	TokenRange=36:44
+7	lava	lava	NOUN	NOUN	_	6	appos	_	TokenRange=45:49
+8	jato	jato	NOUN	NOUN	_	7	flat	_	TokenRange=50:54
+9	cinco	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=55:60
+10	meses	mês	NOUN	NOUN	_	12	nmod	_	TokenRange=61:66
+11	policia	policia	NOUN	NOUN	_	12	nsubj	_	TokenRange=67:74
+12	pediu	pedir	VERB	VERB	_	2	parataxis	_	TokenRange=75:80
+13	documentos	documento	NOUN	NOUN	_	12	obj	_	TokenRange=81:91
+14	cpi	cpi	NOUN	NOUN	_	13	appos	_	TokenRange=92:95
+15	petrobras	petrobra	NOUN	NOUN	_	14	amod	_	TokenRange=96:105
+16	diz	dizer	VERB	VERB	_	12	ccomp	_	TokenRange=106:109
+17	serem	ser	VERB	VERB	_	16	xcomp	_	TokenRange=110:115
+18	indispensaveis	indispensavel	ADJ	ADJ	_	17	xcomp	_	TokenRange=116:130
+19	investigar	investigar	VERB	VERB	_	17	csubj	_	TokenRange=131:141
+20	deputado	deputado	NOUN	NOUN	_	19	obj	_	TokenRange=142:150
+21	maia	maia	NOUN	NOUN	_	20	flat	_	TokenRange=151:155
+22	negou	negar	VERB	VERB	_	17	parataxis	_	TokenRange=156:161
+23	pedido	pedido	NOUN	NOUN	_	22	obj	_	TokenRange=162:168
+24	alegando	alegar	VERB	VERB	_	23	acl	_	TokenRange=169:177
+25	comissao	comissao	NOUN	NOUN	_	24	obj	_	TokenRange=178:186
+26	analisaria	analisario	ADJ	ADJ	_	25	amod	_	TokenRange=187:197
+27	caso	caso	NOUN	NOUN	_	25	appos	_	TokenRange=198:202
+28	incompleta	incompleto	ADJ	ADJ	_	27	amod	_	TokenRange=203:213
+29	policia	policia	NOUN	NOUN	_	31	nsubj	_	TokenRange=214:221
+30	federal	federal	ADJ	ADJ	_	29	amod	_	TokenRange=222:229
+31	espera	esperar	VERB	VERB	_	22	parataxis	_	TokenRange=230:236
+32	cinco	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=237:242
+33	meses	mês	NOUN	NOUN	_	31	nmod	_	TokenRange=243:248
+34	camara	camara	NOUN	NOUN	_	31	parataxis	_	TokenRange=249:255
+35	deputados	deputado	NOUN	NOUN	_	34	nsubj	_	TokenRange=256:265
+36	enviar	enviar	VERB	VERB	_	34	ccomp	_	TokenRange=266:272
+37	informacoes	informacoe	NOUN	NOUN	_	36	obj	_	TokenRange=273:284
+38	consideradas	considerar	VERB	VERB	_	37	acl	_	TokenRange=285:297
+39	sigilosas	sigiloso	ADJ	ADJ	_	40	amod	_	TokenRange=298:307
+40	processo	processo	NOUN	NOUN	_	37	appos	_	TokenRange=308:316
+41	relacionado	relacionado	ADJ	ADJ	_	40	amod	_	TokenRange=317:328
+42	operacao	operacao	NOUN	NOUN	_	40	appos	_	TokenRange=329:337
+43	lava	lava	NOUN	NOUN	_	40	appos	_	TokenRange=338:342
+44	jato	jato	NOUN	NOUN	_	43	flat	_	TokenRange=343:347
+45	setembro	_	PROPN	PNOUN	_	43	appos	_	TokenRange=348:356
+46	ano	ano	NOUN	NOUN	_	43	appos	_	TokenRange=357:360
+47	passado	passado	ADJ	ADJ	_	46	amod	_	TokenRange=361:368
+48	delegado	delegado	NOUN	NOUN	_	52	nsubj	_	TokenRange=369:377
+49	pf	_	NOUN	NOUN	_	48	appos	_	TokenRange=378:380
+50	bernardo	bernardo	NOUN	NOUN	_	48	appos	_	TokenRange=381:389
+51	amaral	amaral	ADJ	ADJ	_	50	amod	_	TokenRange=390:396
+52	pediu	pedir	VERB	VERB	_	2	parataxis	_	TokenRange=397:402
+53	copias	copia	NOUN	NOUN	_	52	obj	_	TokenRange=403:409
+54	documentacao	documentacao	NOUN	NOUN	_	53	amod	_	TokenRange=410:422
+55	produzida	produzir	VERB	VERB	_	53	acl	_	TokenRange=423:432
+56	cpi	cpi	NOUN	NOUN	_	55	nmod	_	TokenRange=433:436
+57	petrobras	petrobra	ADJ	ADJ	_	56	flat	_	TokenRange=437:446
+58	2015	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=447:451
+59	documentos	documento	NOUN	NOUN	_	60	nsubj	_	TokenRange=452:462
+60	argumentou	argumentar	VERB	VERB	_	53	acl:relcl	_	TokenRange=463:473
+61	amaral	amaral	NOUN	NOUN	_	62	obj	_	TokenRange=474:480
+62	servirao	servirao	VERB	VERB	_	60	ccomp	_	SpaceAfter=No|TokenRange=481:489
+

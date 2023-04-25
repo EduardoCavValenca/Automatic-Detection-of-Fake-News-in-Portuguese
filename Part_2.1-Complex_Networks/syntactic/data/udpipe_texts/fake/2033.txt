@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ator globo entra carro pm persegue bandidos roubaram moto pm rio janeiro recuperou hoje 25 moto ator nelson freitas tv globo emocionado ator fez questao agradecer policiais par ticiparam operacao espero video vire referencia todos ajuda policiais brasileiros possam gravar tais agradecimentos farei questao postalos aqui disse
+1	ator	ator	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	globo	globo	NOUN	NOUN	_	1	flat	_	TokenRange=5:10
+3	entra	entrar	VERB	VERB	_	47	ccomp	_	TokenRange=11:16
+4	carro	carro	NOUN	NOUN	_	3	obj	_	TokenRange=17:22
+5	pm	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=23:25
+6	persegue	perseguir	VERB	VERB	_	3	conj	_	TokenRange=26:34
+7	bandidos	bandido	NOUN	NOUN	_	6	obj	_	TokenRange=35:43
+8	roubaram	roubar	VERB	VERB	_	3	conj	_	TokenRange=44:52
+9	moto	moto	NOUN	NOUN	_	8	obj	_	TokenRange=53:57
+10	pm	_	ADP	ADP	_	11	case	_	TokenRange=58:60
+11	rio	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=61:64
+12	janeiro	_	PROPN	PNOUN	_	11	flat	_	TokenRange=65:72
+13	recuperou	recuperar	VERB	VERB	_	3	conj	_	TokenRange=73:82
+14	hoje	hoje	ADV	ADV	_	13	advmod	_	TokenRange=83:87
+15	25	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=88:90
+16	moto	moto	NOUN	NOUN	_	13	obj	_	TokenRange=91:95
+17	ator	ator	NOUN	NOUN	_	16	appos	_	TokenRange=96:100
+18	nelson	_	ADJ	ADJ	_	17	appos	_	TokenRange=101:107
+19	freitas	_	NOUN	NOUN	_	17	flat	_	TokenRange=108:115
+20	tv	_	NOUN	NOUN	_	17	appos	_	TokenRange=116:118
+21	globo	globo	NOUN	NOUN	_	20	flat	_	TokenRange=119:124
+22	emocionado	emocionado	ADJ	ADJ	_	23	amod	_	TokenRange=125:135
+23	ator	ator	NOUN	NOUN	_	24	nsubj	_	TokenRange=136:140
+24	fez	fazer	VERB	VERB	_	13	parataxis	_	TokenRange=141:144
+25	questao	questao	NOUN	NOUN	_	24	obj	_	TokenRange=145:152
+26	agradecer	agradecer	VERB	VERB	_	24	ccomp	_	TokenRange=153:162
+27	policiais	policial	NOUN	NOUN	_	26	obj	_	TokenRange=163:172
+28	par	_	ADP	ADP	_	29	mark	_	TokenRange=173:176
+29	ticiparam	ticipar	VERB	VERB	_	27	nmod	_	TokenRange=177:186
+30	operacao	operacao	NOUN	NOUN	_	29	obj	_	TokenRange=187:195
+31	espero	espero	NOUN	NOUN	_	30	flat	_	TokenRange=196:202
+32	video	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=203:208
+33	vire	_	VERB	VERB	_	30	acl:relcl	_	TokenRange=209:213
+34	referencia	_	NOUN	NOUN	_	33	obj	_	TokenRange=214:224
+35	todos	_	PRON	PRON	_	36	nsubj	_	TokenRange=225:230
+36	ajuda	ajudar	VERB	VERB	_	33	ccomp	_	TokenRange=231:236
+37	policiais	policial	NOUN	NOUN	_	36	obj	_	TokenRange=237:246
+38	brasileiros	brasileiro	ADJ	ADJ	_	37	amod	_	TokenRange=247:258
+39	possam	_	AUX	AUX	_	40	aux	_	TokenRange=259:265
+40	gravar	gravar	VERB	VERB	_	36	ccomp	_	TokenRange=266:272
+41	tais	_	DET	DET	_	42	det	_	TokenRange=273:277
+42	agradecimentos	agradecimento	NOUN	NOUN	_	40	obj	_	TokenRange=278:292
+43	farei	fazer	VERB	VERB	_	40	ccomp	_	TokenRange=293:298
+44	questao	questao	NOUN	NOUN	_	43	obj	_	TokenRange=299:306
+45	postalos	postalo	NOUN	NOUN	_	43	obj	_	TokenRange=307:315
+46	aqui	aqui	ADV	ADV	_	47	advmod	_	TokenRange=316:320
+47	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=321:326
+

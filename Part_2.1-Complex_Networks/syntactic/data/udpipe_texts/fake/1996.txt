@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = projeto lei propoe salario vitalicio r 15 mil vereadores rj inves proibirem reeleicao vereadores querem mamar sempre proposta preve salario vitalicio vereadores cidade rj revoltando internautas projeto autoria vereador peemedebista joao cabral defende qualquer vereador 3 mandatos consecutivos 4 mandatos intercalados aposentem sempre salario r 15 mil cabral alegou questao justica igualdade cerca 35 51 vereadores assinaram favor pl
+1	projeto	projeto	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	lei	lei	NOUN	NOUN	_	1	flat	_	TokenRange=8:11
+3	propoe	propoer	VERB	VERB	_	0	root	_	TokenRange=12:18
+4	salario	salario	NOUN	NOUN	_	3	obj	_	TokenRange=19:26
+5	vitalicio	vitalicio	ADJ	ADJ	_	4	amod	_	TokenRange=27:36
+6	r	r	NOUN	NOUN	_	9	appos	_	TokenRange=37:38
+7	15	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=39:41
+8	mil	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=42:45
+9	vereadores	vereador	NOUN	NOUN	_	3	obj	_	TokenRange=46:56
+10	rj	_	NOUN	NOUN	_	12	mark	_	TokenRange=57:59
+11	inves	_	ADJ	NOUN	_	12	nsubj	_	TokenRange=60:65
+12	proibirem	proibir	VERB	VERB	_	9	acl:relcl	_	TokenRange=66:75
+13	reeleicao	reeleicao	NOUN	NOUN	_	12	obj	_	TokenRange=76:85
+14	vereadores	vereador	NOUN	NOUN	_	12	obj	_	TokenRange=86:96
+15	querem	querer	VERB	VERB	_	3	parataxis	_	TokenRange=97:103
+16	mamar	mamar	VERB	VERB	_	15	xcomp	_	TokenRange=104:109
+17	sempre	sempre	ADV	ADV	_	16	advmod	_	TokenRange=110:116
+18	proposta	_	NOUN	NOUN	_	16	obj	_	TokenRange=117:125
+19	preve	preve	ADJ	ADJ	_	18	amod	_	TokenRange=126:131
+20	salario	salario	NOUN	NOUN	_	18	appos	_	TokenRange=132:139
+21	vitalicio	vitalicio	ADJ	ADJ	_	20	amod	_	TokenRange=140:149
+22	vereadores	vereador	NOUN	NOUN	_	18	appos	_	TokenRange=150:160
+23	cidade	cidade	NOUN	NOUN	_	18	appos	_	TokenRange=161:167
+24	rj	_	ADJ	ADJ	_	23	amod	_	TokenRange=168:170
+25	revoltando	revoltar	VERB	VERB	_	18	acl	_	TokenRange=171:181
+26	internautas	internauta	NOUN	NOUN	_	25	obj	_	TokenRange=182:193
+27	projeto	projeto	NOUN	NOUN	_	26	appos	_	TokenRange=194:201
+28	autoria	autoria	NOUN	NOUN	_	27	flat	_	TokenRange=202:209
+29	vereador	vereador	NOUN	NOUN	_	27	appos	_	TokenRange=210:218
+30	peemedebista	peemedebista	ADJ	ADJ	_	29	amod	_	TokenRange=219:231
+31	joao	joao	NOUN	NOUN	_	33	nsubj	_	TokenRange=232:236
+32	cabral	cabral	ADJ	ADJ	_	31	amod	_	TokenRange=237:243
+33	defende	defender	VERB	VERB	_	3	parataxis	_	TokenRange=244:251
+34	qualquer	_	DET	DET	_	35	det	_	TokenRange=252:260
+35	vereador	vereador	NOUN	NOUN	_	33	obj	_	TokenRange=261:269
+36	3	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=270:271
+37	mandatos	mandato	NOUN	NOUN	_	33	nsubj	_	TokenRange=272:280
+38	consecutivos	consecutivo	ADJ	ADJ	_	37	amod	_	TokenRange=281:293
+39	4	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=294:295
+40	mandatos	mandato	NOUN	NOUN	_	37	appos	_	TokenRange=296:304
+41	intercalados	intercalado	ADJ	ADJ	_	40	amod	_	TokenRange=305:317
+42	aposentem	aposentar	VERB	VERB	_	33	parataxis	_	TokenRange=318:327
+43	sempre	sempre	ADV	ADV	_	42	advmod	_	TokenRange=328:334
+44	salario	salario	NOUN	NOUN	_	42	obj	_	TokenRange=335:342
+45	r	r	NOUN	NOUN	_	44	appos	_	TokenRange=343:344
+46	15	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=345:347
+47	mil	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=348:351
+48	cabral	cabral	NOUN	NOUN	_	49	nsubj	_	TokenRange=352:358
+49	alegou	alegar	VERB	VERB	_	42	parataxis	_	TokenRange=359:365
+50	questao	questao	NOUN	NOUN	_	49	obj	_	TokenRange=366:373
+51	justica	justico	ADJ	ADJ	_	50	amod	_	TokenRange=374:381
+52	igualdade	igualdade	NOUN	NOUN	_	50	amod	_	TokenRange=382:391
+53	cerca	cerca	ADV	ADV	_	55	advmod	_	TokenRange=392:397
+54	35	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=398:400
+55	51	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=401:403
+56	vereadores	vereador	NOUN	NOUN	_	57	nsubj	_	TokenRange=404:414
+57	assinaram	assinar	VERB	VERB	_	44	acl:relcl	_	TokenRange=415:424
+58	favor	favor	NOUN	NOUN	_	57	obj	_	TokenRange=425:430
+59	pl	_	NOUN	NOUN	_	58	flat	_	SpaceAfter=No|TokenRange=431:433
+

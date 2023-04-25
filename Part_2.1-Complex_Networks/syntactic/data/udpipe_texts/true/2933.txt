@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer diz alvo ilacoes provas forjadas video sobre nova denuncia presidente denunciado crimes obstrucao justica organizacao criminosa gravacao temer diz acusacao busca desestabilizar governo presidente michel temer afirmou nesta sextafeira 22 alvo ilacoes provas forjadas comentar nova denuncia oferecida contra procuradoria geral republica temer divulgou video redes sociais falar sobre assunto outro trecho avaliou acusacao busca paralisar brasil desestabilizar
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	alvo	alvo	NOUN	NOUN	_	2	obj	_	TokenRange=10:14
+4	ilacoes	ilacoe	NOUN	NOUN	_	2	obj	_	TokenRange=15:22
+5	provas	prova	NOUN	NOUN	_	2	obj	_	TokenRange=23:29
+6	forjadas	forjado	ADJ	ADJ	_	5	amod	_	TokenRange=30:38
+7	video	video	NOUN	NOUN	_	2	obj	_	TokenRange=39:44
+8	sobre	_	ADP	ADP	_	10	case	_	TokenRange=45:50
+9	nova	novo	ADJ	ADJ	_	10	amod	_	TokenRange=51:55
+10	denuncia	_	NOUN	NOUN	_	7	nmod	_	TokenRange=56:64
+11	presidente	presidente	NOUN	NOUN	_	10	appos	_	TokenRange=65:75
+12	denunciado	denunciar	VERB	VERB	_	10	acl	_	TokenRange=76:86
+13	crimes	crime	NOUN	NOUN	_	12	obj	_	TokenRange=87:93
+14	obstrucao	_	NOUN	NOUN	_	13	amod	_	TokenRange=94:103
+15	justica	_	ADJ	ADJ	_	16	amod	_	TokenRange=104:111
+16	organizacao	organizacao	NOUN	NOUN	_	12	nsubj	_	TokenRange=112:123
+17	criminosa	criminoso	ADJ	ADJ	_	16	amod	_	TokenRange=124:133
+18	gravacao	gravacao	NOUN	NOUN	_	16	appos	_	TokenRange=134:142
+19	temer	temer	NOUN	NOUN	_	16	appos	_	TokenRange=143:148
+20	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=149:152
+21	acusacao	acusacao	NOUN	NOUN	_	20	obj	_	TokenRange=153:161
+22	busca	buscar	VERB	VERB	_	20	ccomp	_	TokenRange=162:167
+23	desestabilizar	desestabilizar	VERB	VERB	_	22	xcomp	_	TokenRange=168:182
+24	governo	governo	NOUN	NOUN	_	23	obj	_	TokenRange=183:190
+25	presidente	presidente	NOUN	NOUN	_	24	amod	_	TokenRange=191:201
+26	michel	michel	ADJ	ADJ	_	27	amod	_	TokenRange=202:208
+27	temer	temer	NOUN	NOUN	_	28	nsubj	_	TokenRange=209:214
+28	afirmou	afirmar	VERB	VERB	_	20	parataxis	_	TokenRange=215:222
+29	nesta	_	ADP	ADP	_	30	case	_	TokenRange=223:228
+30	sextafeira	sextafeira	NOUN	NOUN	_	28	nmod	_	TokenRange=229:239
+31	22	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=240:242
+32	alvo	alvo	NOUN	NOUN	_	28	obj	_	TokenRange=243:247
+33	ilacoes	ilacoe	ADJ	NOUN	_	32	amod	_	TokenRange=248:255
+34	provas	prova	NOUN	NOUN	_	28	nsubj	_	TokenRange=256:262
+35	forjadas	forjado	ADJ	ADJ	_	34	amod	_	TokenRange=263:271
+36	comentar	comentar	VERB	VERB	_	34	acl:inf	_	TokenRange=272:280
+37	nova	novo	ADJ	ADJ	_	38	amod	_	TokenRange=281:285
+38	denuncia	denuncia	NOUN	NOUN	_	36	obj	_	TokenRange=286:294
+39	oferecida	oferecer	VERB	VERB	_	38	acl	_	TokenRange=295:304
+40	contra	_	ADP	ADP	_	41	case	_	TokenRange=305:311
+41	procuradoria	procuradoria	NOUN	NOUN	_	39	nmod	_	TokenRange=312:324
+42	geral	geral	ADJ	ADJ	_	41	amod	_	TokenRange=325:330
+43	republica	republico	ADJ	ADJ	_	41	amod	_	TokenRange=331:340
+44	temer	temer	NOUN	NOUN	_	45	nsubj	_	TokenRange=341:346
+45	divulgou	divulgar	VERB	VERB	_	28	parataxis	_	TokenRange=347:355
+46	video	video	NOUN	NOUN	_	45	obj	_	TokenRange=356:361
+47	redes	rede	NOUN	NOUN	_	46	appos	_	TokenRange=362:367
+48	sociais	social	ADJ	ADJ	_	47	amod	_	TokenRange=368:375
+49	falar	falar	VERB	VERB	_	45	ccomp	_	TokenRange=376:381
+50	sobre	_	ADP	ADP	_	51	case	_	TokenRange=382:387
+51	assunto	assunto	NOUN	NOUN	_	49	nmod	_	TokenRange=388:395
+52	outro	_	DET	DET	_	53	det	_	TokenRange=396:401
+53	trecho	trecho	NOUN	NOUN	_	49	obj	_	TokenRange=402:408
+54	avaliou	avaliar	VERB	VERB	_	45	parataxis	_	TokenRange=409:416
+55	acusacao	acusacao	NOUN	NOUN	_	54	obj	_	TokenRange=417:425
+56	busca	buscar	VERB	VERB	_	54	ccomp	_	TokenRange=426:431
+57	paralisar	paralisar	VERB	VERB	_	56	xcomp	_	TokenRange=432:441
+58	brasil	brasil	NOUN	NOUN	_	59	obj	_	TokenRange=442:448
+59	desestabilizar	desestabilizar	VERB	VERB	_	57	ccomp	_	SpaceAfter=No|TokenRange=449:463
+

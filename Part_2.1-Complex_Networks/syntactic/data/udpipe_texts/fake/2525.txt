@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = juiz determina sigilo sobre emprestimos bndes porto mariel quebrado r 2 2 bilhoes marcelo rebello pinheiro juiz 16 vara federal df proferiu sentenca favoravel exiba documentos referentes emprestimo bndes porto mariel cuba irregularidades devem sobrepor sigilo disse juiz valor benesse bndes porto cubano chega us 682 milhoes ministerio desenvolvimento industria comercio exterior gestao fernando pimentel classificado contrato secreto justificando nele constam informacoes sigilosas decreto contrato faria conhecido 2027 marcelo pinheiro juiz disse existencia indicios irregularidades operacoes financiamento reconstrucao porto mariel sobrepoese dever sigilo sobre contratos
+1	juiz	juiz	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	determina	determinar	VERB	VERB	_	0	root	_	TokenRange=5:14
+3	sigilo	sigilo	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=22:27
+5	emprestimos	emprestimo	NOUN	NOUN	_	3	nmod	_	TokenRange=28:39
+6	bndes	bndes	ADJ	ADJ	_	5	amod	_	TokenRange=40:45
+7	porto	_	NOUN	NOUN	_	5	appos	_	TokenRange=46:51
+8	mariel	mariel	ADJ	ADJ	_	7	amod	_	TokenRange=52:58
+9	quebrado	quebrado	ADJ	ADJ	_	5	acl	_	TokenRange=59:67
+10	r	r	NOUN	NOUN	_	44	obj	_	TokenRange=68:69
+11	2	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=70:71
+12	2	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=72:73
+13	bilhoes	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=74:81
+14	marcelo	marcelo	NOUN	NOUN	_	44	appos	_	TokenRange=82:89
+15	rebello	_	NOUN	NOUN	_	14	appos	_	TokenRange=90:97
+16	pinheiro	pinheiro	ADJ	ADJ	_	14	amod	_	TokenRange=98:106
+17	juiz	juiz	NOUN	NOUN	_	14	appos	_	TokenRange=107:111
+18	16	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=112:114
+19	vara	vara	NOUN	NOUN	_	17	appos	_	TokenRange=115:119
+20	federal	federal	ADJ	ADJ	_	19	amod	_	TokenRange=120:127
+21	df	_	NOUN	NOUN	_	19	appos	_	TokenRange=128:130
+22	proferiu	proferir	VERB	VERB	_	2	parataxis	_	TokenRange=131:139
+23	sentenca	_	NOUN	NOUN	_	22	obj	_	TokenRange=140:148
+24	favoravel	favoravel	ADJ	ADJ	_	23	amod	_	TokenRange=149:158
+25	exiba	_	NOUN	NOUN	_	23	appos	_	TokenRange=159:164
+26	documentos	documento	NOUN	NOUN	_	22	obj	_	TokenRange=165:175
+27	referentes	referente	ADJ	ADJ	_	26	amod	_	TokenRange=176:186
+28	emprestimo	emprestimo	NOUN	NOUN	_	26	appos	_	TokenRange=187:197
+29	bndes	bndes	NOUN	NOUN	_	26	appos	_	TokenRange=198:203
+30	porto	_	NOUN	NOUN	_	29	appos	_	TokenRange=204:209
+31	mariel	mariel	ADJ	ADJ	_	30	amod	_	TokenRange=210:216
+32	cuba	_	DET	DET	_	33	det	_	TokenRange=217:221
+33	irregularidades	irregularidade	NOUN	NOUN	_	22	nsubj	_	TokenRange=222:237
+34	devem	_	AUX	AUX	_	35	aux	_	TokenRange=238:243
+35	sobrepor	sobrepor	VERB	VERB	_	2	parataxis	_	TokenRange=244:252
+36	sigilo	sigilo	NOUN	NOUN	_	35	obj	_	TokenRange=253:259
+37	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=260:265
+38	juiz	juiz	NOUN	NOUN	_	37	nsubj	_	TokenRange=266:270
+39	valor	valor	NOUN	NOUN	_	38	appos	_	TokenRange=271:276
+40	benesse	benesse	ADJ	ADJ	_	39	amod	_	TokenRange=277:284
+41	bndes	bndes	NOUN	NOUN	_	44	nsubj	_	TokenRange=285:290
+42	porto	_	NOUN	NOUN	_	41	appos	_	TokenRange=291:296
+43	cubano	cubano	ADJ	ADJ	_	41	amod	_	TokenRange=297:303
+44	chega	chegar	VERB	VERB	_	38	acl:relcl	_	TokenRange=304:309
+45	us	_	DET	DET	_	47	det	_	TokenRange=310:312
+46	682	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=313:316
+47	milhoes	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=317:324
+48	ministerio	ministerio	NOUN	NOUN	_	44	obj	_	TokenRange=325:335
+49	desenvolvimento	desenvolvimento	NOUN	NOUN	_	48	appos	_	TokenRange=336:351
+50	industria	industrio	ADJ	ADJ	_	49	amod	_	TokenRange=352:361
+51	comercio	comercio	NOUN	NOUN	_	48	appos	_	TokenRange=362:370
+52	exterior	exterior	ADJ	ADJ	_	51	amod	_	TokenRange=371:379
+53	gestao	gestao	NOUN	NOUN	_	44	nsubj	_	TokenRange=380:386
+54	fernando	fernando	NOUN	NOUN	_	53	appos	_	TokenRange=387:395
+55	pimentel	pimentel	ADJ	NOUN	_	54	flat	_	TokenRange=396:404
+56	classificado	classificar	ADJ	ADJ	_	57	acl	_	TokenRange=405:417
+57	contrato	contrato	NOUN	NOUN	_	53	appos	_	TokenRange=418:426
+58	secreto	secreto	ADJ	ADJ	_	57	amod	_	TokenRange=427:434
+59	justificando	justificar	VERB	VERB	_	57	acl	_	TokenRange=435:447
+60	nele	_	X	ADPPRON	_	59	nmod	_	TokenRange=448:452
+61	constam	constar	VERB	VERB	_	2	parataxis	_	TokenRange=453:460
+62	informacoes	informacoe	NOUN	NOUN	_	61	nsubj	_	TokenRange=461:472
+63	sigilosas	sigiloso	ADJ	ADJ	_	62	amod	_	TokenRange=473:482
+64	decreto	decreto	ADJ	ADJ	_	62	amod	_	TokenRange=483:490
+65	contrato	contrato	NOUN	NOUN	_	62	appos	_	TokenRange=491:499
+66	faria	fazer	VERB	VERB	_	62	acl	_	TokenRange=500:505
+67	conhecido	conhecido	ADJ	ADJ	_	66	xcomp	_	TokenRange=506:515
+68	2027	_	NUM	NUM	NumType=Card	69	nmod	_	TokenRange=516:520
+69	marcelo	marcelo	NOUN	NOUN	_	72	nsubj	_	TokenRange=521:528
+70	pinheiro	pinheiro	ADJ	ADJ	_	69	amod	_	TokenRange=529:537
+71	juiz	juiz	NOUN	NOUN	_	69	flat	_	TokenRange=538:542
+72	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=543:548
+73	existencia	_	NOUN	NOUN	_	72	obj	_	TokenRange=549:559
+74	indicios	_	ADJ	ADJ	_	75	amod	_	TokenRange=560:568
+75	irregularidades	irregularidade	NOUN	NOUN	_	72	obj	_	TokenRange=569:584
+76	operacoes	_	ADJ	ADJ	_	75	amod	_	TokenRange=585:594
+77	financiamento	financiamento	NOUN	NOUN	_	75	appos	_	TokenRange=595:608
+78	reconstrucao	reconstrucao	ADJ	ADJ	_	77	amod	_	TokenRange=609:621
+79	porto	porto	NOUN	NOUN	_	77	appos	_	TokenRange=622:627
+80	mariel	mariel	ADJ	ADJ	_	79	amod	_	TokenRange=628:634
+81	sobrepoese	_	VERB	VERB	_	77	conj	_	TokenRange=635:645
+82	dever	dever	VERB	VERB	_	72	ccomp	_	TokenRange=646:651
+83	sigilo	sigilo	NOUN	NOUN	_	82	obj	_	TokenRange=652:658
+84	sobre	_	ADP	ADP	_	85	case	_	TokenRange=659:664
+85	contratos	contrato	NOUN	NOUN	_	83	nmod	_	SpaceAfter=No|TokenRange=665:674
+

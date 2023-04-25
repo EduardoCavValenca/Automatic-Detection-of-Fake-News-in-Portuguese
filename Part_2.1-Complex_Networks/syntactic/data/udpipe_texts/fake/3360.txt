@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = precanditato presidencia 2018 ciro avisa lula especialista trambiques exgovernador exministro governo lula ciro gomes afirmou moral expresidente frouxa moral lula frouxa dilma lula dizia menos assim povo olha vou fazer aqui uns trambiques poder aquietar caras tirar algumas coisa povo percebia logica ciro classificou administracao dilma ruinosa emendou presidente cometeu nenhum crime justifique impedimento direito mudar
+1	precanditato	precanditato	NOUN	NOUN	_	5	parataxis	_	TokenRange=0:12
+2	presidencia	presidencia	NOUN	NOUN	_	1	appos	_	TokenRange=13:24
+3	2018	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=25:29
+4	ciro	ciro	NOUN	NOUN	_	5	nsubj	_	TokenRange=30:34
+5	avisa	avisar	VERB	VERB	_	0	root	_	TokenRange=35:40
+6	lula	_	NOUN	NOUN	_	5	obj	_	TokenRange=41:45
+7	especialista	especialista	NOUN	NOUN	_	6	amod	_	TokenRange=46:58
+8	trambiques	trambique	NOUN	NOUN	_	5	obj	_	TokenRange=59:69
+9	exgovernador	exgovernador	ADJ	ADJ	_	8	amod	_	TokenRange=70:82
+10	exministro	exministro	NOUN	NOUN	_	8	appos	_	TokenRange=83:93
+11	governo	governo	NOUN	NOUN	_	10	flat	_	TokenRange=94:101
+12	lula	lula	ADJ	ADJ	_	10	amod	_	TokenRange=102:106
+13	ciro	ciro	NOUN	NOUN	_	15	nsubj	_	TokenRange=107:111
+14	gomes	gome	NOUN	NOUN	_	13	flat	_	TokenRange=112:117
+15	afirmou	afirmar	VERB	VERB	_	5	parataxis	_	TokenRange=118:125
+16	moral	moral	NOUN	NOUN	_	15	obj	_	TokenRange=126:131
+17	expresidente	expresidente	NOUN	NOUN	_	16	appos	_	TokenRange=132:144
+18	frouxa	frouxo	ADJ	ADJ	_	17	amod	_	TokenRange=145:151
+19	moral	moral	NOUN	NOUN	_	17	amod	_	TokenRange=152:157
+20	lula	lula	NOUN	NOUN	_	17	appos	_	TokenRange=158:162
+21	frouxa	frouxo	ADJ	ADJ	_	20	amod	_	TokenRange=163:169
+22	dilma	dilma	ADJ	NOUN	_	24	nsubj	_	TokenRange=170:175
+23	lula	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=176:180
+24	dizia	dizer	VERB	VERB	_	15	parataxis	_	TokenRange=181:186
+25	menos	menos	ADV	ADV	_	26	advmod	_	TokenRange=187:192
+26	assim	assim	ADV	ADV	_	30	advmod	_	TokenRange=193:198
+27	povo	povo	NOUN	NOUN	_	24	obj	_	TokenRange=199:203
+28	olha	olha	NOUN	NOUN	_	30	nsubj	_	TokenRange=204:208
+29	vou	ir	AUX	AUX	_	30	aux	_	TokenRange=209:212
+30	fazer	fazer	VERB	VERB	_	24	ccomp	_	TokenRange=213:218
+31	aqui	aqui	ADV	ADV	_	30	advmod	_	TokenRange=219:223
+32	uns	_	DET	DET	_	33	det	_	TokenRange=224:227
+33	trambiques	trambique	NOUN	NOUN	_	35	nsubj	_	TokenRange=228:238
+34	poder	poder	AUX	AUX	_	35	aux	_	TokenRange=239:244
+35	aquietar	aquietar	VERB	VERB	_	30	ccomp	_	TokenRange=245:253
+36	caras	cara	NOUN	NOUN	_	35	obj	_	TokenRange=254:259
+37	tirar	tirar	VERB	VERB	_	35	ccomp	_	TokenRange=260:265
+38	algumas	_	DET	DET	_	39	det	_	TokenRange=266:273
+39	coisa	coisa	NOUN	NOUN	_	37	obj	_	TokenRange=274:279
+40	povo	povo	NOUN	NOUN	_	39	amod	_	TokenRange=280:284
+41	percebia	perceber	VERB	VERB	_	30	conj	_	TokenRange=285:293
+42	logica	_	NOUN	NOUN	_	41	obj	_	TokenRange=294:300
+43	ciro	ciro	NOUN	NOUN	_	44	nsubj	_	TokenRange=301:305
+44	classificou	classificar	VERB	VERB	_	41	parataxis	_	TokenRange=306:317
+45	administracao	administracao	NOUN	NOUN	_	44	obj	_	TokenRange=318:331
+46	dilma	dilma	NOUN	NOUN	_	45	appos	_	TokenRange=332:337
+47	ruinosa	ruinoso	ADJ	ADJ	_	45	amod	_	TokenRange=338:345
+48	emendou	emendar	VERB	VERB	_	44	conj	_	TokenRange=346:353
+49	presidente	presidente	NOUN	NOUN	_	50	nsubj	_	TokenRange=354:364
+50	cometeu	cometer	VERB	VERB	_	48	ccomp	_	TokenRange=365:372
+51	nenhum	_	DET	DET	_	52	det	_	TokenRange=373:379
+52	crime	crime	NOUN	NOUN	_	50	obj	_	TokenRange=380:385
+53	justifique	justificar	VERB	VERB	_	50	conj	_	TokenRange=386:396
+54	impedimento	impedimento	NOUN	NOUN	_	53	obj	_	TokenRange=397:408
+55	direito	direito	NOUN	NOUN	_	54	amod	_	TokenRange=409:416
+56	mudar	mudar	VERB	VERB	_	54	acl	_	SpaceAfter=No|TokenRange=417:422
+

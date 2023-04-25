@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tom cavalcante estrela parcas whindersson nunes faz quiz ver conhece youtubers assista g1 propoe desafio veterano faz estreia cinema renovando convivendo galerinha afirma elenco tirullipa bruno luca tom cavalcante ficou famoso 1992 papel cachaceiro joao canabrava escolinha professor raimundo whindersson nunes nascido agora dois estrelam juntos filme parcas acaba entrar cartaz marca estreia veterano cinema elenco comedia quer fazer humor nordestino ofensas ainda tirullipa bruno
+1	tom	tom	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:3
+2	cavalcante	_	ADJ	ADJ	_	1	amod	_	TokenRange=4:14
+3	estrela	estrela	NOUN	NOUN	_	1	appos	_	TokenRange=15:22
+4	parcas	parca	NOUN	NOUN	_	1	flat	_	TokenRange=23:29
+5	whindersson	_	NOUN	NOUN	_	3	appos	_	TokenRange=30:41
+6	nunes	_	NOUN	NOUN	_	5	flat	_	TokenRange=42:47
+7	faz	fazer	VERB	VERB	_	1	acl:relcl	_	TokenRange=48:51
+8	quiz	_	NOUN	NOUN	_	7	obj	_	TokenRange=52:56
+9	ver	ver	VERB	VERB	_	10	ccomp	_	TokenRange=57:60
+10	conhece	conhecer	VERB	VERB	_	7	ccomp	_	TokenRange=61:68
+11	youtubers	_	NOUN	NOUN	_	10	obj	_	TokenRange=69:78
+12	assista	assistir	VERB	VERB	_	0	root	_	TokenRange=79:86
+13	g1	_	PRON	PRON	_	14	nsubj	_	TokenRange=87:89
+14	propoe	propoer	VERB	VERB	_	12	ccomp	_	TokenRange=90:96
+15	desafio	desafio	NOUN	NOUN	_	14	obj	_	TokenRange=97:104
+16	veterano	veterano	ADJ	ADJ	_	15	amod	_	TokenRange=105:113
+17	faz	fazer	VERB	VERB	_	12	parataxis	_	TokenRange=114:117
+18	estreia	estreia	NOUN	NOUN	_	17	obj	_	TokenRange=118:125
+19	cinema	cinema	NOUN	NOUN	_	18	appos	_	TokenRange=126:132
+20	renovando	renovar	VERB	VERB	_	18	acl	_	TokenRange=133:142
+21	convivendo	conviver	VERB	VERB	_	20	acl	_	TokenRange=143:153
+22	galerinha	_	NOUN	NOUN	_	21	obj	_	TokenRange=154:163
+23	afirma	afirmar	VERB	VERB	_	24	appos	_	TokenRange=164:170
+24	elenco	elenco	NOUN	NOUN	_	21	obj	_	TokenRange=171:177
+25	tirullipa	_	NOUN	NOUN	_	24	appos	_	TokenRange=178:187
+26	bruno	bruno	NOUN	NOUN	_	24	appos	_	TokenRange=188:193
+27	luca	_	NOUN	NOUN	_	26	flat	_	TokenRange=194:198
+28	tom	tom	NOUN	NOUN	_	30	nsubj	_	TokenRange=199:202
+29	cavalcante	_	NOUN	NOUN	_	28	flat	_	TokenRange=203:213
+30	ficou	ficar	VERB	VERB	_	24	acl:relcl	_	TokenRange=214:219
+31	famoso	famoso	ADJ	ADJ	_	30	xcomp	_	TokenRange=220:226
+32	1992	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=227:231
+33	papel	papel	NOUN	NOUN	_	30	nmod	_	TokenRange=232:237
+34	cachaceiro	cachaceiro	ADJ	NOUN	_	33	amod	_	TokenRange=238:248
+35	joao	joao	NOUN	NOUN	_	33	appos	_	TokenRange=249:253
+36	canabrava	canabrava	ADJ	NOUN	_	33	amod	_	TokenRange=254:263
+37	escolinha	escolinha	NOUN	NOUN	_	33	appos	_	TokenRange=264:273
+38	professor	professor	NOUN	NOUN	_	33	appos	_	TokenRange=274:283
+39	raimundo	raimundo	NOUN	NOUN	_	38	appos	_	TokenRange=284:292
+40	whindersson	_	NOUN	NOUN	_	38	appos	_	TokenRange=293:304
+41	nunes	_	NOUN	NOUN	_	40	flat	_	TokenRange=305:310
+42	nascido	nascer	VERB	VERB	_	38	acl	_	TokenRange=311:318
+43	agora	agora	ADV	ADV	_	45	advmod	_	TokenRange=319:324
+44	dois	_	NUM	NUM	NumType=Card	45	nsubj	_	TokenRange=325:329
+45	estrelam	estrelar	VERB	VERB	_	38	acl:relcl	_	TokenRange=330:338
+46	juntos	junto	ADJ	ADJ	_	45	xcomp	_	TokenRange=339:345
+47	filme	filme	NOUN	NOUN	_	45	nsubj	_	TokenRange=346:351
+48	parcas	parca	NOUN	NOUN	_	47	flat	_	TokenRange=352:358
+49	acaba	acabar	AUX	AUX	_	50	aux	_	TokenRange=359:364
+50	entrar	entrar	VERB	VERB	_	47	acl:relcl	_	TokenRange=365:371
+51	cartaz	cartaz	NOUN	NOUN	_	50	obj	_	TokenRange=372:378
+52	marca	marca	ADJ	ADJ	_	51	amod	_	TokenRange=379:384
+53	estreia	estreia	NOUN	NOUN	_	50	nsubj	_	TokenRange=385:392
+54	veterano	veterano	ADJ	ADJ	_	55	amod	_	TokenRange=393:401
+55	cinema	cinema	NOUN	NOUN	_	53	amod	_	TokenRange=402:408
+56	elenco	elenco	ADJ	ADJ	_	57	amod	_	TokenRange=409:415
+57	comedia	comedia	NOUN	NOUN	_	58	nsubj	_	TokenRange=416:423
+58	quer	querer	VERB	VERB	_	45	parataxis	_	TokenRange=424:428
+59	fazer	fazer	VERB	VERB	_	58	xcomp	_	TokenRange=429:434
+60	humor	humor	NOUN	NOUN	_	59	obj	_	TokenRange=435:440
+61	nordestino	nordestino	ADJ	ADJ	_	60	amod	_	TokenRange=441:451
+62	ofensas	ofensa	NOUN	NOUN	_	64	appos	_	TokenRange=452:459
+63	ainda	ainda	ADV	ADV	_	64	advmod	_	TokenRange=460:465
+64	tirullipa	_	NOUN	NOUN	_	58	parataxis	_	TokenRange=466:475
+65	bruno	bruno	NOUN	NOUN	_	64	amod	_	SpaceAfter=No|TokenRange=476:481
+

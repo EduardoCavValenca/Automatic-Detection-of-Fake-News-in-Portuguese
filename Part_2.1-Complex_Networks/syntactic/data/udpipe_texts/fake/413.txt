@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exdiretor petrobras conta podres governo pt diz medo morrer coletanea depoimentos exdiretor petrobras paulo roberto costa tirar folego qualquer brasileiro veja algumas frases colhidas depoimentos operacao lavajato 2020 situacao petrobras vai estar caotica tecnicamente falando petrobras empresa quebrada video via tv folha
+1	exdiretor	exdiretor	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	petrobras	petrobra	NOUN	NOUN	_	1	flat	_	TokenRange=10:19
+3	conta	contar	VERB	VERB	_	0	root	_	TokenRange=20:25
+4	podres	podre	ADJ	ADJ	_	5	amod	_	TokenRange=26:32
+5	governo	governo	NOUN	NOUN	_	3	nsubj	_	TokenRange=33:40
+6	pt	_	NOUN	NOUN	_	5	appos	_	TokenRange=41:43
+7	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=44:47
+8	medo	medo	NOUN	NOUN	_	7	obj	_	TokenRange=48:52
+9	morrer	morrer	VERB	VERB	_	7	ccomp	_	TokenRange=53:59
+10	coletanea	coletanea	NOUN	NOUN	_	9	obj	_	TokenRange=60:69
+11	depoimentos	depoimento	NOUN	NOUN	_	10	appos	_	TokenRange=70:81
+12	exdiretor	exdiretor	ADJ	ADJ	_	11	amod	_	TokenRange=82:91
+13	petrobras	petrobra	NOUN	NOUN	_	11	appos	_	TokenRange=92:101
+14	paulo	paulo	NOUN	NOUN	_	11	appos	_	TokenRange=102:107
+15	roberto	roberto	ADJ	NOUN	_	14	flat	_	TokenRange=108:115
+16	costa	_	NOUN	NOUN	_	14	flat	_	TokenRange=116:121
+17	tirar	tirar	VERB	VERB	_	7	conj	_	TokenRange=122:127
+18	folego	folego	NOUN	NOUN	_	17	obj	_	TokenRange=128:134
+19	qualquer	_	DET	DET	_	20	det	_	TokenRange=135:143
+20	brasileiro	brasileiro	NOUN	NOUN	_	17	obj	_	TokenRange=144:154
+21	veja	ver	VERB	VERB	_	7	parataxis	_	TokenRange=155:159
+22	algumas	_	DET	DET	_	23	det	_	TokenRange=160:167
+23	frases	frase	NOUN	NOUN	_	21	obj	_	TokenRange=168:174
+24	colhidas	colher	VERB	VERB	_	23	acl	_	TokenRange=175:183
+25	depoimentos	depoimento	NOUN	NOUN	_	23	appos	_	TokenRange=184:195
+26	operacao	operacao	NOUN	NOUN	_	23	appos	_	TokenRange=196:204
+27	lavajato	lavajato	NOUN	NOUN	_	26	appos	_	TokenRange=205:213
+28	2020	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=214:218
+29	situacao	situacao	NOUN	NOUN	_	32	nsubj	_	TokenRange=219:227
+30	petrobras	petrobra	NOUN	NOUN	_	29	amod	_	TokenRange=228:237
+31	vai	ir	AUX	AUX	_	32	aux	_	TokenRange=238:241
+32	estar	estar	VERB	VERB	_	21	parataxis	_	TokenRange=242:247
+33	caotica	caotico	ADJ	ADJ	_	32	xcomp	_	TokenRange=248:255
+34	tecnicamente	tecnicamente	ADV	ADV	_	35	advmod	_	TokenRange=256:268
+35	falando	falar	VERB	VERB	_	32	acl	_	TokenRange=269:276
+36	petrobras	petrobra	NOUN	NOUN	_	35	obj	_	TokenRange=277:286
+37	empresa	empresa	NOUN	NOUN	_	35	obj	_	TokenRange=287:294
+38	quebrada	quebrado	ADJ	ADJ	_	37	amod	_	TokenRange=295:303
+39	video	video	NOUN	NOUN	_	35	obj	_	TokenRange=304:309
+40	via	_	ADP	ADP	_	41	case	_	TokenRange=310:313
+41	tv	tv	NOUN	NOUN	_	39	nmod	_	TokenRange=314:316
+42	folha	folha	NOUN	NOUN	_	41	appos	_	SpaceAfter=No|TokenRange=317:322
+

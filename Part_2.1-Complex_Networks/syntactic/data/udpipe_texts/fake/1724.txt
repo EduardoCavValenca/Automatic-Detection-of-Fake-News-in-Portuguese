@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = conheca toninho motoboy bruce willis brasileiro escapou ileso acidente cinematografico raramente alguem sairia ileso acidente proporcoes toninho seguia normalmente moto repente carro estacionado decidiu sair vaga choque inevitavel ambos conseguiram evitar colisao motoboy arremessado altura quase 6 metros rodopiou umas 3 vezes ar espere apos batida toninho ainda lancado contra carreta destruiu parte carroceria veiculo hospital motoboy sorrisos impressionante confira imagens circuito cameras captou acidente 2 angulos diferentes imagens enviadas internauta sabemos onde mora bruce willis brasileiro
+1	conheca	conhecar	VERB	VERB	_	0	root	_	TokenRange=0:7
+2	toninho	_	NOUN	NOUN	_	1	obj	_	TokenRange=8:15
+3	motoboy	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=16:23
+4	bruce	bruce	NOUN	NOUN	_	3	amod	_	TokenRange=24:29
+5	willis	_	NOUN	NOUN	_	3	flat	_	TokenRange=30:36
+6	brasileiro	brasileiro	ADJ	ADJ	_	5	amod	_	TokenRange=37:47
+7	escapou	escapar	VERB	VERB	_	1	ccomp	_	TokenRange=48:55
+8	ileso	ileso	ADJ	ADJ	_	9	amod	_	TokenRange=56:61
+9	acidente	acidente	NOUN	NOUN	_	7	obj	_	TokenRange=62:70
+10	cinematografico	cinematografico	ADJ	ADJ	_	9	amod	_	TokenRange=71:86
+11	raramente	raramente	ADV	ADV	_	13	advmod	_	TokenRange=87:96
+12	alguem	_	PRON	PRON	_	13	nsubj	_	TokenRange=97:103
+13	sairia	sair	VERB	VERB	_	1	ccomp	_	TokenRange=104:110
+14	ileso	ileso	ADJ	ADJ	_	13	xcomp	_	TokenRange=111:116
+15	acidente	acidente	NOUN	NOUN	_	13	nsubj	_	TokenRange=117:125
+16	proporcoes	proporcoe	NOUN	NOUN	_	13	nsubj	_	TokenRange=126:136
+17	toninho	_	ADJ	NOUN	_	18	nsubj	_	TokenRange=137:144
+18	seguia	seguir	VERB	VERB	_	13	parataxis	_	TokenRange=145:151
+19	normalmente	normalmente	ADV	ADV	_	18	advmod	_	TokenRange=152:163
+20	moto	moto	NOUN	NOUN	_	18	nsubj	_	TokenRange=164:168
+21	repente	repente	ADJ	ADJ	_	22	amod	_	TokenRange=169:176
+22	carro	carro	NOUN	NOUN	_	24	nsubj	_	TokenRange=177:182
+23	estacionado	estacionado	ADJ	ADJ	_	22	amod	_	TokenRange=183:194
+24	decidiu	decidir	VERB	VERB	_	18	conj	_	TokenRange=195:202
+25	sair	sair	VERB	VERB	_	24	xcomp	_	TokenRange=203:207
+26	vaga	_	NOUN	NOUN	_	27	amod	_	TokenRange=208:212
+27	choque	choque	NOUN	NOUN	_	25	obj	_	TokenRange=213:219
+28	inevitavel	inevitavel	ADJ	ADJ	_	27	amod	_	TokenRange=220:230
+29	ambos	_	PRON	PRON	_	30	nsubj	_	TokenRange=231:236
+30	conseguiram	conseguir	VERB	VERB	_	25	conj	_	TokenRange=237:248
+31	evitar	evitar	VERB	VERB	_	30	xcomp	_	TokenRange=249:255
+32	colisao	colisao	NOUN	NOUN	_	31	obj	_	TokenRange=256:263
+33	motoboy	motoboy	NOUN	NOUN	_	32	appos	_	TokenRange=264:271
+34	arremessado	arremessar	ADJ	ADJ	_	35	amod	_	TokenRange=272:283
+35	altura	altura	NOUN	NOUN	_	33	appos	_	TokenRange=284:290
+36	quase	quase	ADV	ADV	_	37	advmod	_	TokenRange=291:296
+37	6	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=297:298
+38	metros	metro	NOUN	NOUN	_	35	appos	_	TokenRange=299:305
+39	rodopiou	rodopiar	VERB	VERB	_	32	acl:relcl	_	TokenRange=306:314
+40	umas	_	DET	DET	_	42	det	_	TokenRange=315:319
+41	3	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=320:321
+42	vezes	vez	NOUN	NOUN	_	39	nmod	_	TokenRange=322:327
+43	ar	ar	NOUN	NOUN	_	44	nsubj	_	TokenRange=328:330
+44	espere	esperar	VERB	VERB	_	39	ccomp	_	TokenRange=331:337
+45	apos	_	ADP	ADP	_	46	case	_	TokenRange=338:342
+46	batida	_	NOUN	NOUN	_	44	nmod	_	TokenRange=343:349
+47	toninho	_	NOUN	NOUN	_	46	appos	_	TokenRange=350:357
+48	ainda	ainda	ADV	ADV	_	49	advmod	_	TokenRange=358:363
+49	lancado	lancar	VERB	VERB	_	47	acl	_	TokenRange=364:371
+50	contra	_	ADP	ADP	_	51	case	_	TokenRange=372:378
+51	carreta	carreta	NOUN	NOUN	_	49	nmod	_	TokenRange=379:386
+52	destruiu	destruir	VERB	VERB	_	39	parataxis	_	TokenRange=387:395
+53	parte	parte	NOUN	NOUN	_	52	obj	_	TokenRange=396:401
+54	carroceria	carroceria	NOUN	NOUN	_	53	appos	_	TokenRange=402:412
+55	veiculo	veiculo	NOUN	NOUN	_	52	nsubj	_	TokenRange=413:420
+56	hospital	hospital	NOUN	NOUN	_	55	amod	_	TokenRange=421:429
+57	motoboy	_	NOUN	NOUN	_	55	appos	_	TokenRange=430:437
+58	sorrisos	sorriso	NOUN	NOUN	_	55	appos	_	TokenRange=438:446
+59	impressionante	impressionante	ADJ	ADJ	_	58	amod	_	TokenRange=447:461
+60	confira	conferir	VERB	VERB	_	52	parataxis	_	TokenRange=462:469
+61	imagens	imagem	NOUN	NOUN	_	60	obj	_	TokenRange=470:477
+62	circuito	circuito	NOUN	NOUN	_	61	appos	_	TokenRange=478:486
+63	cameras	camera	NOUN	NOUN	_	62	flat	_	TokenRange=487:494
+64	captou	captar	VERB	VERB	_	61	acl:relcl	_	TokenRange=495:501
+65	acidente	acidente	NOUN	NOUN	_	64	obj	_	TokenRange=502:510
+66	2	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=511:512
+67	angulos	angulo	NOUN	NOUN	_	64	obj	_	TokenRange=513:520
+68	diferentes	diferente	ADJ	ADJ	_	67	amod	_	TokenRange=521:531
+69	imagens	imagem	NOUN	NOUN	_	64	nsubj	_	TokenRange=532:539
+70	enviadas	enviar	VERB	VERB	_	69	acl	_	TokenRange=540:548
+71	internauta	internauta	NOUN	NOUN	_	70	obj	_	TokenRange=549:559
+72	sabemos	saber	VERB	VERB	_	52	parataxis	_	TokenRange=560:567
+73	onde	onde	ADV	ADV	_	74	advmod	_	TokenRange=568:572
+74	mora	morar	VERB	VERB	_	72	ccomp	_	TokenRange=573:577
+75	bruce	bruce	NOUN	NOUN	_	76	amod	_	TokenRange=578:583
+76	willis	_	NOUN	NOUN	_	74	nsubj	_	TokenRange=584:590
+77	brasileiro	brasileiro	ADJ	ADJ	_	76	amod	_	SpaceAfter=No|TokenRange=591:601
+

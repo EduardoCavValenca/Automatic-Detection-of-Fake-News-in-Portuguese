@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = filho fatima willian passa bem apos acidente estado saude amigo vinicius carro grave acidente acordo informacoes assessoria globo vinicius bonemer 19 anos filho fatima bernardes william bonner passa bem alta amigo porem transferido hospital santa izabel identificado giuliano costa jovem ainda inspira cuidados estado saude grave vinicius bonemer sofreu acidente carro manha hoje 03 rj106 buzios cabo frio corpo bombeiros atraves 25 bpm informou carro bateu caminhao onibus trevo buzios leo dias jornal dia disse fontes proximas informaram dois amigos passaram reveillon buzios voltavam casa acidentaram
+1	filho	filho	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	fatima	_	NOUN	NOUN	_	1	appos	_	TokenRange=6:12
+3	willian	_	NOUN	NOUN	_	1	flat	_	TokenRange=13:20
+4	passa	passar	VERB	VERB	_	0	root	_	TokenRange=21:26
+5	bem	bem	ADV	ADV	_	4	advmod	_	TokenRange=27:30
+6	apos	_	ADP	ADP	_	7	case	_	TokenRange=31:35
+7	acidente	acidente	NOUN	NOUN	_	4	nmod	_	TokenRange=36:44
+8	estado	estado	NOUN	NOUN	_	7	appos	_	TokenRange=45:51
+9	saude	saude	NOUN	NOUN	_	8	flat	_	TokenRange=52:57
+10	amigo	amigo	NOUN	NOUN	_	8	flat	_	TokenRange=58:63
+11	vinicius	_	ADJ	ADJ	_	12	amod	_	TokenRange=64:72
+12	carro	carro	NOUN	NOUN	_	7	appos	_	TokenRange=73:78
+13	grave	grave	ADJ	ADJ	_	12	amod	_	TokenRange=79:84
+14	acidente	acidente	NOUN	NOUN	_	12	appos	_	TokenRange=85:93
+15	acordo	acordo	NOUN	NOUN	_	4	parataxis	_	TokenRange=94:100
+16	informacoes	_	NOUN	NOUN	_	15	appos	_	TokenRange=101:112
+17	assessoria	assessoria	NOUN	NOUN	_	4	appos	_	TokenRange=113:123
+18	globo	globo	NOUN	NOUN	_	17	flat	_	TokenRange=124:129
+19	vinicius	_	NOUN	NOUN	_	1	appos	_	TokenRange=130:138
+20	bonemer	bonemer	NOUN	NOUN	_	17	appos	_	TokenRange=139:146
+21	19	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=147:149
+22	anos	ano	NOUN	NOUN	_	20	appos	_	TokenRange=150:154
+23	filho	filho	NOUN	NOUN	_	22	appos	_	TokenRange=155:160
+24	fatima	_	NOUN	NOUN	_	23	appos	_	TokenRange=161:167
+25	bernardes	bernarde	NOUN	NOUN	_	23	appos	_	TokenRange=168:177
+26	william	_	NOUN	NOUN	_	23	appos	_	TokenRange=178:185
+27	bonner	_	NOUN	NOUN	_	26	flat	_	TokenRange=186:192
+28	passa	passar	VERB	VERB	_	4	parataxis	_	TokenRange=193:198
+29	bem	bem	ADV	ADV	_	30	advmod	_	TokenRange=199:202
+30	alta	alto	ADJ	ADJ	_	31	amod	_	TokenRange=203:207
+31	amigo	amigo	NOUN	NOUN	_	28	obj	_	TokenRange=208:213
+32	porem	_	AUX	AUX	_	33	mark	_	TokenRange=214:219
+33	transferido	transferir	VERB	VERB	_	28	advcl	_	TokenRange=220:231
+34	hospital	hospital	NOUN	NOUN	_	33	obj	_	TokenRange=232:240
+35	santa	santo	ADJ	ADJ	_	34	amod	_	TokenRange=241:246
+36	izabel	izabel	NOUN	NOUN	_	34	appos	_	TokenRange=247:253
+37	identificado	identificado	VERB	VERB	_	34	acl	_	TokenRange=254:266
+38	giuliano	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=267:275
+39	costa	costa	NOUN	NOUN	_	38	flat	_	TokenRange=276:281
+40	jovem	jovem	ADJ	ADJ	_	38	amod	_	TokenRange=282:287
+41	ainda	ainda	ADV	ADV	_	42	advmod	_	TokenRange=288:293
+42	inspira	inspirar	VERB	VERB	_	4	parataxis	_	TokenRange=294:301
+43	cuidados	cuidado	NOUN	NOUN	_	42	obj	_	TokenRange=302:310
+44	estado	estado	NOUN	NOUN	_	42	nsubj	_	TokenRange=311:317
+45	saude	saude	NOUN	NOUN	_	44	flat	_	TokenRange=318:323
+46	grave	grave	ADJ	ADJ	_	44	amod	_	TokenRange=324:329
+47	vinicius	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=330:338
+48	bonemer	bonemer	NOUN	NOUN	_	47	flat	_	TokenRange=339:346
+49	sofreu	sofrer	VERB	VERB	_	42	parataxis	_	TokenRange=347:353
+50	acidente	acidente	NOUN	NOUN	_	49	obj	_	TokenRange=354:362
+51	carro	carro	NOUN	NOUN	_	50	appos	_	TokenRange=363:368
+52	manha	manha	NOUN	NOUN	_	50	appos	_	TokenRange=369:374
+53	hoje	hoje	ADV	ADV	_	49	advmod	_	TokenRange=375:379
+54	03	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=380:382
+55	rj106	_	NUM	NUM	_	56	nummod	_	TokenRange=383:388
+56	buzios	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=389:395
+57	cabo	cabo	NOUN	NOUN	_	49	appos	_	TokenRange=396:400
+58	frio	frio	ADJ	ADJ	_	57	amod	_	TokenRange=401:405
+59	corpo	corpo	NOUN	NOUN	_	49	nsubj	_	TokenRange=406:411
+60	bombeiros	bombeiro	NOUN	NOUN	_	59	flat	_	TokenRange=412:421
+61	atraves	_	ADV	ADV	_	64	advmod	_	TokenRange=422:429
+62	25	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=430:432
+63	bpm	bpm	NOUN	NOUN	_	64	nsubj	_	TokenRange=433:436
+64	informou	informar	VERB	VERB	_	4	parataxis	_	TokenRange=437:445
+65	carro	carro	NOUN	NOUN	_	66	nsubj	_	TokenRange=446:451
+66	bateu	bater	VERB	VERB	_	64	parataxis	_	TokenRange=452:457
+67	caminhao	caminhao	NOUN	NOUN	_	66	obj	_	TokenRange=458:466
+68	onibus	_	NOUN	NOUN	_	67	appos	_	TokenRange=467:473
+69	trevo	trevo	NOUN	NOUN	_	67	flat	_	TokenRange=474:479
+70	buzios	_	NOUN	NOUN	_	67	appos	_	TokenRange=480:486
+71	leo	_	ADJ	ADJ	_	72	case	_	TokenRange=487:490
+72	dias	dia	NOUN	NOUN	_	66	nmod	_	TokenRange=491:495
+73	jornal	jornal	NOUN	NOUN	_	75	nsubj	_	TokenRange=496:502
+74	dia	dia	NOUN	NOUN	_	75	nsubj	_	TokenRange=503:506
+75	disse	dizer	VERB	VERB	_	64	parataxis	_	TokenRange=507:512
+76	fontes	fonte	NOUN	NOUN	_	86	nsubj	_	TokenRange=513:519
+77	proximas	proximo	ADJ	ADJ	_	76	amod	_	TokenRange=520:528
+78	informaram	informar	VERB	VERB	_	86	parataxis	_	TokenRange=529:539
+79	dois	_	NUM	NUM	NumType=Card	80	nummod	_	TokenRange=540:544
+80	amigos	amigo	NOUN	NOUN	_	81	nsubj	_	TokenRange=545:551
+81	passaram	passar	VERB	VERB	_	86	ccomp	_	TokenRange=552:560
+82	reveillon	_	NOUN	NOUN	_	81	nsubj	_	TokenRange=561:570
+83	buzios	buzio	NOUN	NOUN	_	82	flat	_	TokenRange=571:577
+84	voltavam	voltar	VERB	VERB	_	86	ccomp	_	TokenRange=578:586
+85	casa	casa	NOUN	NOUN	_	86	obj	_	TokenRange=587:591
+86	acidentaram	acidentar	VERB	VERB	_	75	ccomp	_	SpaceAfter=No|TokenRange=592:603
+

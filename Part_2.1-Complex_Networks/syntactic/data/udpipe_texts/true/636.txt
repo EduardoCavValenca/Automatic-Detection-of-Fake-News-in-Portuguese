@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = planeta atlantida 2018 g1 lista destaques segunda noite festival rio grande sul reuniu cerca 74 mil pessoas sexta 2 sabado 3 evento simone simaria rappa anitta luan santana pabllo vittar banda francesa phoenix outros dois dias planeta atlantida reuniu 74 mil pessoas sextafeira
+1	planeta	planeta	NOUN	NOUN	_	13	parataxis	_	TokenRange=0:7
+2	atlantida	atlantido	ADJ	ADJ	_	1	amod	_	TokenRange=8:17
+3	2018	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=18:22
+4	g1	_	NUM	NOUN	_	1	appos	_	TokenRange=23:25
+5	lista	lista	NOUN	NOUN	_	1	appos	_	TokenRange=26:31
+6	destaques	destaque	NOUN	NOUN	_	1	flat	_	TokenRange=32:41
+7	segunda	segundo	ADJ	ADJ	_	8	amod	_	TokenRange=42:49
+8	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=50:55
+9	festival	festival	NOUN	NOUN	_	8	appos	_	TokenRange=56:64
+10	rio	_	NOUN	NOUN	_	9	appos	_	TokenRange=65:68
+11	grande	grande	ADJ	ADJ	_	10	amod	_	TokenRange=69:75
+12	sul	sul	ADJ	ADJ	_	10	amod	_	TokenRange=76:79
+13	reuniu	reunir	VERB	VERB	_	0	root	_	TokenRange=80:86
+14	cerca	cerca	ADV	ADV	_	16	advmod	_	TokenRange=87:92
+15	74	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=93:95
+16	mil	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=96:99
+17	pessoas	pessoa	NOUN	NOUN	_	13	obj	_	TokenRange=100:107
+18	sexta	_	ADJ	ADJ	_	17	appos	_	TokenRange=108:113
+19	2	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=114:115
+20	sabado	sabado	NOUN	NOUN	_	17	appos	_	TokenRange=116:122
+21	3	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=123:124
+22	evento	evento	NOUN	NOUN	_	13	nsubj	_	TokenRange=125:131
+23	simone	simone	NOUN	NOUN	_	22	appos	_	TokenRange=132:138
+24	simaria	simaria	NOUN	NOUN	_	23	flat	_	TokenRange=139:146
+25	rappa	rappa	NOUN	NOUN	_	23	appos	_	TokenRange=147:152
+26	anitta	anitta	NOUN	NOUN	_	25	flat	_	TokenRange=153:159
+27	luan	_	NOUN	NOUN	_	25	appos	_	TokenRange=160:164
+28	santana	_	NOUN	NOUN	_	27	flat	_	TokenRange=165:172
+29	pabllo	_	NOUN	NOUN	_	27	flat	_	TokenRange=173:179
+30	vittar	vittar	VERB	VERB	_	31	acl:relcl	_	TokenRange=180:186
+31	banda	banda	NOUN	NOUN	_	23	appos	_	TokenRange=187:192
+32	francesa	francês	ADJ	ADJ	_	31	amod	_	TokenRange=193:201
+33	phoenix	_	NOUN	NOUN	_	31	appos	_	TokenRange=202:209
+34	outros	_	DET	DET	_	36	det	_	TokenRange=210:216
+35	dois	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=217:221
+36	dias	dia	NOUN	NOUN	_	39	nsubj	_	TokenRange=222:226
+37	planeta	planeta	NOUN	NOUN	_	36	appos	_	TokenRange=227:234
+38	atlantida	atlantido	ADJ	ADJ	_	37	amod	_	TokenRange=235:244
+39	reuniu	reunir	VERB	VERB	_	13	parataxis	_	TokenRange=245:251
+40	74	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=252:254
+41	mil	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=255:258
+42	pessoas	pessoa	NOUN	NOUN	_	39	obj	_	TokenRange=259:266
+43	sextafeira	sextafeira	NOUN	NOUN	_	39	parataxis	_	SpaceAfter=No|TokenRange=267:277
+

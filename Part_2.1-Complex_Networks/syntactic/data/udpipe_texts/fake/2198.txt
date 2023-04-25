@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan lula convidados honra posse nova presidente stf ministra carmem lucia supremo tribunal federal stf compareceu senado federal convidar presidente renan calheiros pmdbal posse presidencia stf proxima segundafeira 12 empossado ministro dias toffoli vicepresidencia supremo carmen indicada supremo 2006 expresidente luiz inacio lula silva renan afirmou dois discutiram reajuste stf tramitacao senado defendeu debate desvinculacao vencimentos ministros supremo teto salarial administracao publica fontes brasilia informaram lula convidado comparecer solenidade escarnio populacao
+1	renan	renan	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	lula	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:10
+3	convidados	convidado	NOUN	NOUN	_	1	appos	_	TokenRange=11:21
+4	honra	honrar	VERB	VERB	_	0	root	_	TokenRange=22:27
+5	posse	posse	NOUN	NOUN	_	4	obj	_	TokenRange=28:33
+6	nova	novo	ADJ	ADJ	_	7	amod	_	TokenRange=34:38
+7	presidente	presidente	NOUN	NOUN	_	4	obj	_	TokenRange=39:49
+8	stf	_	NOUN	NOUN	_	7	appos	_	TokenRange=50:53
+9	ministra	_	NOUN	NOUN	_	7	appos	_	TokenRange=54:62
+10	carmem	carmem	NOUN	NOUN	_	7	appos	_	TokenRange=63:69
+11	lucia	_	NOUN	NOUN	_	10	flat	_	TokenRange=70:75
+12	supremo	supremo	ADJ	ADJ	_	13	amod	_	TokenRange=76:83
+13	tribunal	tribunal	NOUN	NOUN	_	1	appos	_	TokenRange=84:92
+14	federal	federal	ADJ	ADJ	_	13	amod	_	TokenRange=93:100
+15	stf	_	NOUN	NOUN	_	13	appos	_	TokenRange=101:104
+16	compareceu	comparecer	VERB	VERB	_	4	parataxis	_	TokenRange=105:115
+17	senado	senado	NOUN	NOUN	_	16	obj	_	TokenRange=116:122
+18	federal	federal	ADJ	ADJ	_	17	amod	_	TokenRange=123:130
+19	convidar	convidar	VERB	VERB	_	16	ccomp	_	TokenRange=131:139
+20	presidente	presidente	NOUN	NOUN	_	19	obj	_	TokenRange=140:150
+21	renan	_	NOUN	NOUN	_	20	appos	_	TokenRange=151:156
+22	calheiros	calheiro	NOUN	NOUN	_	20	flat	_	TokenRange=157:166
+23	pmdbal	_	ADJ	ADJ	_	24	amod	_	TokenRange=167:173
+24	posse	posse	NOUN	NOUN	_	20	appos	_	TokenRange=174:179
+25	presidencia	presidencia	NOUN	NOUN	_	24	flat	_	TokenRange=180:191
+26	stf	_	NOUN	NOUN	_	28	appos	_	TokenRange=192:195
+27	proxima	proximo	ADJ	ADJ	_	28	amod	_	TokenRange=196:203
+28	segundafeira	_	NOUN	NOUN	_	24	appos	_	TokenRange=204:216
+29	12	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=217:219
+30	empossado	empossado	ADJ	ADJ	_	31	amod	_	TokenRange=220:229
+31	ministro	ministro	NOUN	NOUN	_	24	appos	_	TokenRange=230:238
+32	dias	dia	NOUN	NOUN	_	31	flat	_	TokenRange=239:243
+33	toffoli	_	NOUN	NOUN	_	31	flat	_	TokenRange=244:251
+34	vicepresidencia	vicepresidencia	NOUN	NOUN	_	31	appos	_	TokenRange=252:267
+35	supremo	supremo	ADJ	ADJ	_	31	amod	_	TokenRange=268:275
+36	carmen	_	NOUN	NOUN	_	34	appos	_	TokenRange=276:282
+37	indicada	indicar	VERB	VERB	_	34	acl	_	TokenRange=283:291
+38	supremo	supremo	ADJ	ADJ	_	40	amod	_	TokenRange=292:299
+39	2006	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=300:304
+40	expresidente	expresidente	NOUN	NOUN	_	37	nsubj	_	TokenRange=305:317
+41	luiz	luiz	ADJ	ADJ	_	40	appos	_	TokenRange=318:322
+42	inacio	_	NOUN	NOUN	_	40	appos	_	TokenRange=323:329
+43	lula	_	NOUN	NOUN	_	40	appos	_	TokenRange=330:334
+44	silva	silva	ADJ	ADJ	_	41	flat	_	TokenRange=335:340
+45	renan	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=341:346
+46	afirmou	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=347:354
+47	dois	_	NUM	NUM	NumType=Card	48	nsubj	_	TokenRange=355:359
+48	discutiram	discutir	VERB	VERB	_	46	ccomp	_	TokenRange=360:370
+49	reajuste	reajuste	NOUN	NOUN	_	48	obj	_	TokenRange=371:379
+50	stf	_	NOUN	NOUN	_	49	appos	_	TokenRange=380:383
+51	tramitacao	_	NOUN	NOUN	_	49	appos	_	TokenRange=384:394
+52	senado	senado	NOUN	NOUN	_	51	appos	_	TokenRange=395:401
+53	defendeu	defender	VERB	VERB	_	48	parataxis	_	TokenRange=402:410
+54	debate	debate	NOUN	NOUN	_	53	obj	_	TokenRange=411:417
+55	desvinculacao	desvinculacao	ADJ	ADJ	_	54	amod	_	TokenRange=418:431
+56	vencimentos	vencimento	NOUN	NOUN	_	54	appos	_	TokenRange=432:443
+57	ministros	ministro	NOUN	NOUN	_	54	appos	_	TokenRange=444:453
+58	supremo	supremo	ADJ	ADJ	_	59	amod	_	TokenRange=454:461
+59	teto	teto	NOUN	NOUN	_	54	appos	_	TokenRange=462:466
+60	salarial	salarial	ADJ	ADJ	_	59	amod	_	TokenRange=467:475
+61	administracao	administracao	NOUN	NOUN	_	59	appos	_	TokenRange=476:489
+62	publica	publico	ADJ	ADJ	_	63	amod	_	TokenRange=490:497
+63	fontes	fonte	NOUN	NOUN	_	65	nsubj	_	TokenRange=498:504
+64	brasilia	brasilia	ADJ	ADJ	_	63	amod	_	TokenRange=505:513
+65	informaram	informar	VERB	VERB	_	46	parataxis	_	TokenRange=514:524
+66	lula	lula	NOUN	NOUN	_	65	obj	_	TokenRange=525:529
+67	convidado	convidado	ADJ	ADJ	_	66	amod	_	TokenRange=530:539
+68	comparecer	comparecer	VERB	VERB	_	65	xcomp	_	TokenRange=540:550
+69	solenidade	solenidade	NOUN	NOUN	_	68	obj	_	TokenRange=551:561
+70	escarnio	escarnio	NOUN	NOUN	_	69	amod	_	TokenRange=562:570
+71	populacao	populacao	ADJ	ADJ	_	69	amod	_	SpaceAfter=No|TokenRange=571:580
+

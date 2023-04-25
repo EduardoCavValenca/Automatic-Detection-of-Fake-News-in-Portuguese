@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan coloca urgencia projeto autoriza aumento salario stf escarnio desprezo presidente senado renan calheiros resolveu votar regime urgencia aumento stf crise financeira rombo contas governo senado podera aprovar aumento 16 38 ministros supremo tribunal federal caso aprovado salario ministros passara r 33 7 mil r 36 7 mil texto estabelece partir janeiro 2017 valor passara r 39 2 mil relator ricardo ferraco psdb/es gostou nadinha ideia soltou equivoco absurdo atras outro pais mergulhou nessa crise urgencia projeto desses aumentar teto salario ministros supremo escarnio desprezo realidade povo brasileiro
+1	renan	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	coloca	colocar	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	urgencia	urgencia	NOUN	NOUN	_	2	obj	_	TokenRange=13:21
+4	projeto	projeto	NOUN	NOUN	_	2	nsubj	_	TokenRange=22:29
+5	autoriza	autorizar	VERB	VERB	_	2	parataxis	_	TokenRange=30:38
+6	aumento	aumento	NOUN	NOUN	_	5	obj	_	TokenRange=39:46
+7	salario	salario	NOUN	NOUN	_	6	flat	_	TokenRange=47:54
+8	stf	_	NOUN	NOUN	_	6	appos	_	TokenRange=55:58
+9	escarnio	escarnio	NOUN	NOUN	_	6	appos	_	TokenRange=59:67
+10	desprezo	desprezo	NOUN	NOUN	_	6	appos	_	TokenRange=68:76
+11	presidente	presidente	NOUN	NOUN	_	45	appos	_	TokenRange=77:87
+12	senado	senado	ADJ	ADJ	_	11	amod	_	TokenRange=88:94
+13	renan	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=95:100
+14	calheiros	calheiro	NOUN	NOUN	_	13	flat	_	TokenRange=101:110
+15	resolveu	resolver	VERB	VERB	_	2	parataxis	_	TokenRange=111:119
+16	votar	votar	VERB	VERB	_	15	xcomp	_	TokenRange=120:125
+17	regime	regime	NOUN	NOUN	_	16	obj	_	TokenRange=126:132
+18	urgencia	urgencia	ADJ	ADJ	_	17	amod	_	TokenRange=133:141
+19	aumento	aumento	NOUN	NOUN	_	16	obj	_	TokenRange=142:149
+20	stf	_	ADJ	ADJ	_	21	amod	_	TokenRange=150:153
+21	crise	crise	NOUN	NOUN	_	19	appos	_	TokenRange=154:159
+22	financeira	financeiro	ADJ	ADJ	_	21	amod	_	TokenRange=160:170
+23	rombo	rombo	VERB	VERB	_	21	acl:relcl	_	TokenRange=171:176
+24	contas	conta	NOUN	NOUN	_	23	obj	_	TokenRange=177:183
+25	governo	governo	ADJ	NOUN	_	24	amod	_	TokenRange=184:191
+26	senado	senado	NOUN	NOUN	_	24	appos	_	TokenRange=192:198
+27	podera	poder	AUX	AUX	_	28	aux	_	TokenRange=199:205
+28	aprovar	aprovar	VERB	VERB	_	2	conj	_	TokenRange=206:213
+29	aumento	aumento	NOUN	NOUN	_	28	obj	_	TokenRange=214:221
+30	16	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=222:224
+31	38	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=225:227
+32	ministros	ministro	NOUN	NOUN	_	28	obj	_	TokenRange=228:237
+33	supremo	supremo	ADJ	ADJ	_	34	amod	_	TokenRange=238:245
+34	tribunal	tribunal	NOUN	NOUN	_	29	appos	_	TokenRange=246:254
+35	federal	federal	ADJ	ADJ	_	34	amod	_	TokenRange=255:262
+36	caso	caso	CCONJ	CONJ	_	40	mark	_	TokenRange=263:267
+37	aprovado	aprovar	VERB	VERB	_	40	advcl	_	TokenRange=268:276
+38	salario	salario	NOUN	NOUN	_	37	nsubj	_	TokenRange=277:284
+39	ministros	ministro	NOUN	NOUN	_	38	amod	_	TokenRange=285:294
+40	passara	passar	VERB	VERB	_	28	advcl	_	TokenRange=295:302
+41	r	r	NOUN	NOUN	_	40	obj	_	TokenRange=303:304
+42	33	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=305:307
+43	7	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=308:309
+44	mil	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=310:313
+45	r	r	NOUN	NOUN	_	40	nsubj	_	TokenRange=314:315
+46	36	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=316:318
+47	7	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=319:320
+48	mil	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=321:324
+49	texto	texto	NOUN	NOUN	_	40	nsubj	_	TokenRange=325:330
+50	estabelece	estabelecer	VERB	VERB	_	40	parataxis	_	TokenRange=331:341
+51	partir	partir	VERB	VERB	_	50	xcomp	_	TokenRange=342:348
+52	janeiro	_	PROPN	PNOUN	_	51	nmod	_	TokenRange=349:356
+53	2017	_	NUM	NUM	NumType=Card	52	nmod	_	TokenRange=357:361
+54	valor	valor	NOUN	NOUN	_	55	nsubj	_	TokenRange=362:367
+55	passara	passar	VERB	VERB	_	40	parataxis	_	TokenRange=368:375
+56	r	r	NOUN	NOUN	_	55	obj	_	TokenRange=376:377
+57	39	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=378:380
+58	2	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=381:382
+59	mil	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=383:386
+60	relator	relator	NOUN	NOUN	_	55	nsubj	_	TokenRange=387:394
+61	ricardo	ricardo	NOUN	NOUN	_	60	appos	_	TokenRange=395:402
+62	ferraco	ferraco	NOUN	NOUN	_	60	amod	_	TokenRange=403:410
+63	psdb/es	_	NOUN	NOUN	_	60	appos	_	TokenRange=411:418
+64	gostou	gostar	VERB	VERB	_	60	acl:relcl	_	TokenRange=419:425
+65	nadinha	_	NOUN	NOUN	_	64	obj	_	TokenRange=426:433
+66	ideia	ideia	NOUN	NOUN	_	64	obj	_	TokenRange=434:439
+67	soltou	soltar	VERB	VERB	_	64	ccomp	_	TokenRange=440:446
+68	equivoco	equivoco	NOUN	NOUN	_	67	obj	_	TokenRange=447:455
+69	absurdo	absurdo	ADJ	ADJ	_	68	amod	_	TokenRange=456:463
+70	atras	_	ADV	ADV	_	73	advmod	_	TokenRange=464:469
+71	outro	_	DET	DET	_	72	det	_	TokenRange=470:475
+72	pais	_	NOUN	NOUN	_	73	nsubj	_	TokenRange=476:480
+73	mergulhou	mergulhar	VERB	VERB	_	67	parataxis	_	TokenRange=481:490
+74	nessa	_	ADP	ADP	_	75	case	_	TokenRange=491:496
+75	crise	crise	NOUN	NOUN	_	73	nmod	_	TokenRange=497:502
+76	urgencia	urgencia	ADJ	ADJ	_	75	amod	_	TokenRange=503:511
+77	projeto	projeto	NOUN	NOUN	_	73	nsubj	_	TokenRange=512:519
+78	desses	_	X	ADPPRON	_	79	mark	_	TokenRange=520:526
+79	aumentar	aumentar	VERB	VERB	_	77	nmod	_	TokenRange=527:535
+80	teto	teto	ADJ	ADJ	_	81	amod	_	TokenRange=536:540
+81	salario	salario	NOUN	NOUN	_	79	obj	_	TokenRange=541:548
+82	ministros	ministro	NOUN	NOUN	_	79	obj	_	TokenRange=549:558
+83	supremo	supremo	ADJ	ADJ	_	82	amod	_	TokenRange=559:566
+84	escarnio	escarnio	ADJ	ADJ	_	86	amod	_	TokenRange=567:575
+85	desprezo	desprezo	ADJ	ADJ	_	86	amod	_	TokenRange=576:584
+86	realidade	realidade	NOUN	NOUN	_	79	obj	_	TokenRange=585:594
+87	povo	povo	NOUN	NOUN	_	86	appos	_	TokenRange=595:599
+88	brasileiro	brasileiro	ADJ	ADJ	_	86	amod	_	SpaceAfter=No|TokenRange=600:610
+

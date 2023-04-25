@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 7 marco 2018 boa noite aqui principais noticias terminar dia beminformado amanha dia internacional mulher cenario brasileiras ainda desolador 12 mulheres assassinadas todos dias media pais 4473 homicidios dolosos mulheres 2017 desse total 946 feminicidios assassinato mulher condicao mulher motivado geralmente odio desprezo ultimo dado considerado subnotificado assassinatos mulheres alta 65 relacao 2016 contar fato alguns estados ainda terem fechado dados ano passado pode aumentar ainda estatistica dados expoem apenas preocupante escalada violencia contra mulheres
+1	quartafeira	quartafeira	NOUN	NOUN	_	66	parataxis	_	TokenRange=0:11
+2	7	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:13
+3	marco	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:19
+4	2018	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=20:24
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=25:28
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=35:39
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=40:50
+9	noticias	_	NOUN	NOUN	_	6	appos	_	TokenRange=51:59
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=60:68
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=69:72
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=73:85
+13	amanha	_	ADJ	ADJ	_	14	amod	_	TokenRange=86:92
+14	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=93:96
+15	internacional	internacional	ADJ	ADJ	_	14	amod	_	TokenRange=97:110
+16	mulher	mulher	NOUN	NOUN	_	14	appos	_	TokenRange=111:117
+17	cenario	cenario	NOUN	NOUN	_	14	appos	_	TokenRange=118:125
+18	brasileiras	brasileiro	ADJ	ADJ	_	17	amod	_	TokenRange=126:137
+19	ainda	ainda	ADV	ADV	_	20	advmod	_	TokenRange=138:143
+20	desolador	desolador	ADJ	ADJ	_	17	amod	_	TokenRange=144:153
+21	12	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=154:156
+22	mulheres	mulher	NOUN	NOUN	_	20	nsubj	_	TokenRange=157:165
+23	assassinadas	assassinar	VERB	VERB	_	22	acl	_	TokenRange=166:178
+24	todos	_	DET	DET	_	25	det	_	TokenRange=179:184
+25	dias	dia	NOUN	NOUN	_	23	nmod	_	TokenRange=185:189
+26	media	media	NOUN	NOUN	_	22	appos	_	TokenRange=190:195
+27	pais	_	NOUN	NOUN	_	26	flat	_	TokenRange=196:200
+28	4473	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=201:205
+29	homicidios	homicidio	NOUN	NOUN	_	26	appos	_	TokenRange=206:216
+30	dolosos	doloso	ADJ	ADJ	_	29	amod	_	TokenRange=217:224
+31	mulheres	mulher	NOUN	NOUN	_	29	appos	_	TokenRange=225:233
+32	2017	_	NUM	NUM	NumType=Card	29	appos	_	TokenRange=234:238
+33	desse	_	ADP	ADP	_	34	case	_	TokenRange=239:244
+34	total	total	NOUN	NOUN	_	32	nmod	_	TokenRange=245:250
+35	946	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=251:254
+36	feminicidios	feminicidio	NOUN	NOUN	_	26	appos	_	TokenRange=255:267
+37	assassinato	assassinato	NOUN	NOUN	_	36	appos	_	TokenRange=268:279
+38	mulher	mulher	NOUN	NOUN	_	37	appos	_	TokenRange=280:286
+39	condicao	condicao	NOUN	NOUN	_	36	appos	_	TokenRange=287:295
+40	mulher	mulher	NOUN	NOUN	_	39	flat	_	TokenRange=296:302
+41	motivado	motivado	VERB	VERB	_	38	acl	_	TokenRange=303:311
+42	geralmente	geralmente	ADV	ADV	_	43	advmod	_	TokenRange=312:322
+43	odio	odio	NOUN	NOUN	_	41	obj	_	TokenRange=323:327
+44	desprezo	desprezo	NOUN	NOUN	_	43	amod	_	TokenRange=328:336
+45	ultimo	_	ADJ	ADJ	_	46	amod	_	TokenRange=337:343
+46	dado	dado	NOUN	NOUN	_	43	appos	_	TokenRange=344:348
+47	considerado	considerar	VERB	VERB	_	46	acl	_	TokenRange=349:360
+48	subnotificado	subnotificado	ADJ	ADJ	_	47	xcomp	_	TokenRange=361:374
+49	assassinatos	assassinato	NOUN	NOUN	_	47	nsubj	_	TokenRange=375:387
+50	mulheres	mulher	NOUN	NOUN	_	49	appos	_	TokenRange=388:396
+51	alta	alto	ADJ	ADJ	_	50	amod	_	TokenRange=397:401
+52	65	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=402:404
+53	relacao	relacao	NOUN	NOUN	_	49	appos	_	TokenRange=405:412
+54	2016	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=413:417
+55	contar	contar	VERB	VERB	_	66	parataxis	_	TokenRange=418:424
+56	fato	fato	NOUN	NOUN	_	55	obj	_	TokenRange=425:429
+57	alguns	_	DET	DET	_	58	det	_	TokenRange=430:436
+58	estados	estado	NOUN	NOUN	_	61	nsubj	_	TokenRange=437:444
+59	ainda	ainda	ADV	ADV	_	61	advmod	_	TokenRange=445:450
+60	terem	ter	AUX	AUX	_	61	aux	_	TokenRange=451:456
+61	fechado	fechar	VERB	VERB	_	49	acl:relcl	_	TokenRange=457:464
+62	dados	dado	NOUN	NOUN	_	61	obj	_	TokenRange=465:470
+63	ano	ano	NOUN	NOUN	_	62	nmod	_	TokenRange=471:474
+64	passado	passado	ADJ	ADJ	_	63	amod	_	TokenRange=475:482
+65	pode	_	AUX	AUX	_	66	aux	_	TokenRange=483:487
+66	aumentar	aumentar	VERB	VERB	_	0	root	_	TokenRange=488:496
+67	ainda	ainda	ADV	ADV	_	66	advmod	_	TokenRange=497:502
+68	estatistica	estatistico	ADJ	ADJ	_	66	xcomp	_	TokenRange=503:514
+69	dados	dado	NOUN	NOUN	_	66	nsubj	_	TokenRange=515:520
+70	expoem	expoer	VERB	VERB	_	66	parataxis	_	TokenRange=521:527
+71	apenas	apenas	ADV	ADV	_	72	advmod	_	TokenRange=528:534
+72	preocupante	preocupante	ADJ	ADJ	_	73	amod	_	TokenRange=535:546
+73	escalada	escalada	NOUN	NOUN	_	70	obj	_	TokenRange=547:555
+74	violencia	violencia	NOUN	NOUN	_	73	appos	_	TokenRange=556:565
+75	contra	_	ADP	ADP	_	76	case	_	TokenRange=566:572
+76	mulheres	mulher	NOUN	NOUN	_	74	nmod	_	SpaceAfter=No|TokenRange=573:581
+

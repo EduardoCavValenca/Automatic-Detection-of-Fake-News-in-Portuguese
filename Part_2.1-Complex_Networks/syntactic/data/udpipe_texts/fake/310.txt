@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nova geracao justica pede passagem exibicionismo tudo diferente transmissao vivo julgamento trf4 permitiu publico comparalo julgamentos visto stf postura magistrados raciocinio metodo analise forma comunicar tudo diferente competicao pessoal ideologica elogios reciprocos cada si proprio troca criticas veladas aplausos desnecessarios insinuacoes jogadas ar ainda exibicionismo
+1	nova	novo	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	geracao	geracao	NOUN	NOUN	_	4	nsubj	_	TokenRange=5:12
+3	justica	_	NOUN	NOUN	_	2	amod	_	TokenRange=13:20
+4	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=21:25
+5	passagem	passagem	NOUN	NOUN	_	4	obj	_	TokenRange=26:34
+6	exibicionismo	exibicionismo	ADJ	ADJ	_	5	amod	_	TokenRange=35:48
+7	tudo	_	PRON	PRON	_	8	det	_	TokenRange=49:53
+8	diferente	diferente	ADJ	ADJ	_	9	amod	_	TokenRange=54:63
+9	transmissao	transmissao	NOUN	NOUN	_	4	obj	_	TokenRange=64:75
+10	vivo	vivo	ADJ	ADJ	_	9	amod	_	TokenRange=76:80
+11	julgamento	julgamento	NOUN	NOUN	_	13	nsubj	_	TokenRange=81:91
+12	trf4	_	NOUN	NOUN	_	11	appos	_	TokenRange=92:96
+13	permitiu	permitir	VERB	VERB	_	9	acl:relcl	_	TokenRange=97:105
+14	publico	_	NOUN	NOUN	_	13	obj	_	TokenRange=106:113
+15	comparalo	comparalo	ADJ	ADJ	_	16	amod	_	TokenRange=114:123
+16	julgamentos	julgamento	NOUN	NOUN	_	13	obj	_	TokenRange=124:135
+17	visto	_	VERB	VERB	_	16	acl	_	TokenRange=136:141
+18	stf	_	NOUN	NOUN	_	17	flat	_	TokenRange=142:145
+19	postura	postura	NOUN	NOUN	_	16	appos	_	TokenRange=146:153
+20	magistrados	magistrado	ADJ	ADJ	_	19	amod	_	TokenRange=154:165
+21	raciocinio	raciocinio	ADJ	ADJ	_	19	amod	_	TokenRange=166:176
+22	metodo	metodo	NOUN	NOUN	_	19	appos	_	TokenRange=177:183
+23	analise	analise	ADJ	NOUN	_	22	amod	_	TokenRange=184:191
+24	forma	forma	NOUN	NOUN	_	25	nsubj	_	TokenRange=192:197
+25	comunicar	comunicar	VERB	VERB	_	19	acl:relcl	_	TokenRange=198:207
+26	tudo	_	PRON	PRON	_	28	det	_	TokenRange=208:212
+27	diferente	diferente	ADJ	ADJ	_	28	amod	_	TokenRange=213:222
+28	competicao	competicao	NOUN	NOUN	_	25	obj	_	TokenRange=223:233
+29	pessoal	pessoal	ADJ	ADJ	_	28	amod	_	TokenRange=234:241
+30	ideologica	ideologico	ADJ	ADJ	_	28	amod	_	TokenRange=242:252
+31	elogios	elogio	NOUN	NOUN	_	28	appos	_	TokenRange=253:260
+32	reciprocos	reciproco	ADJ	ADJ	_	28	amod	_	TokenRange=261:271
+33	cada	_	DET	DET	_	34	det	_	TokenRange=272:276
+34	si	_	PRON	PRON	_	36	appos	_	TokenRange=277:279
+35	proprio	proprio	ADJ	ADJ	_	34	amod	_	TokenRange=280:287
+36	troca	_	NOUN	NOUN	_	25	parataxis	_	TokenRange=288:293
+37	criticas	_	NOUN	NOUN	_	36	amod	_	TokenRange=294:302
+38	veladas	velado	ADJ	ADJ	_	39	amod	_	TokenRange=303:310
+39	aplausos	aplauso	NOUN	NOUN	_	36	appos	_	TokenRange=311:319
+40	desnecessarios	desnecessario	ADJ	ADJ	_	39	amod	_	TokenRange=320:334
+41	insinuacoes	insinuacoe	ADJ	ADJ	_	39	amod	_	TokenRange=335:346
+42	jogadas	jogada	ADJ	ADJ	_	36	amod	_	TokenRange=347:354
+43	ar	ar	NOUN	NOUN	_	42	appos	_	TokenRange=355:357
+44	ainda	ainda	ADV	ADV	_	45	advmod	_	TokenRange=358:363
+45	exibicionismo	exibicionismo	NOUN	NOUN	_	43	amod	_	SpaceAfter=No|TokenRange=364:377
+

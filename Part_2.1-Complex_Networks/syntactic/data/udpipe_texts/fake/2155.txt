@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tribunal regional federal 4a regiao nega habeas corpus presidente instituto lula recurso impetrado defesa presidente instituto lula paulo okamotto documento tentava impedir juiz sergio moro acatasse denuncia feita contra joao pedro gebran neto desembargador compreendeu preciso esperar sergio moro aprecie decida sobre denuncia feita mpf advogado okamotto disse vai recorrer decisao okamotto acusado atuar empreiteira oas pagasse despesas aluguel conteineres acervo lula forcatarefa lava jato informou feitos sessenta pagamentos mensais valor r 21 5 mil 2011 2016
+1	tribunal	tribunal	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:8
+2	regional	regional	ADJ	ADJ	_	1	amod	_	TokenRange=9:17
+3	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=18:25
+4	4a	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=26:28
+5	regiao	regiao	NOUN	NOUN	_	1	appos	_	TokenRange=29:35
+6	nega	negar	VERB	VERB	_	0	root	_	TokenRange=36:40
+7	habeas	habeas	NOUN	NOUN	_	6	obj	_	TokenRange=41:47
+8	corpus	corpus	NOUN	NOUN	_	7	flat	_	TokenRange=48:54
+9	presidente	presidente	NOUN	NOUN	_	7	appos	_	TokenRange=55:65
+10	instituto	instituto	NOUN	NOUN	_	7	flat	_	TokenRange=66:75
+11	lula	lula	ADJ	ADJ	_	7	amod	_	TokenRange=76:80
+12	recurso	recurso	NOUN	NOUN	_	1	appos	_	TokenRange=81:88
+13	impetrado	impetrado	ADJ	ADJ	_	12	amod	_	TokenRange=89:98
+14	defesa	_	NOUN	NOUN	_	1	appos	_	TokenRange=99:105
+15	presidente	presidente	NOUN	NOUN	_	14	appos	_	TokenRange=106:116
+16	instituto	instituto	NOUN	NOUN	_	15	flat	_	TokenRange=117:126
+17	lula	lula	ADJ	ADJ	_	15	amod	_	TokenRange=127:131
+18	paulo	paulo	NOUN	NOUN	_	15	appos	_	TokenRange=132:137
+19	okamotto	_	ADJ	ADJ	_	20	amod	_	TokenRange=138:146
+20	documento	documento	NOUN	NOUN	_	21	nsubj	_	TokenRange=147:156
+21	tentava	tentar	VERB	VERB	_	1	acl:relcl	_	TokenRange=157:164
+22	impedir	impedir	VERB	VERB	_	21	xcomp	_	TokenRange=165:172
+23	juiz	juiz	NOUN	NOUN	_	22	obj	_	TokenRange=173:177
+24	sergio	sergio	NOUN	NOUN	_	23	appos	_	TokenRange=178:184
+25	moro	moro	NOUN	NOUN	_	24	flat	_	TokenRange=185:189
+26	acatasse	acatar	VERB	VERB	_	22	ccomp	_	TokenRange=190:198
+27	denuncia	denuncia	NOUN	NOUN	_	26	obj	_	TokenRange=199:207
+28	feita	_	VERB	VERB	_	27	acl	_	TokenRange=208:213
+29	contra	_	ADP	ADP	_	30	case	_	TokenRange=214:220
+30	joao	joao	NOUN	NOUN	_	28	nmod	_	TokenRange=221:225
+31	pedro	pedro	NOUN	NOUN	_	30	flat	_	TokenRange=226:231
+32	gebran	_	NOUN	NOUN	_	30	flat	_	TokenRange=232:238
+33	neto	neto	ADJ	ADJ	_	32	flat	_	TokenRange=239:243
+34	desembargador	desembargador	NOUN	NOUN	_	35	nsubj	_	TokenRange=244:257
+35	compreendeu	compreender	VERB	VERB	_	26	parataxis	_	TokenRange=258:269
+36	preciso	preciso	ADJ	ADJ	_	35	xcomp	_	TokenRange=270:277
+37	esperar	esperar	VERB	VERB	_	35	ccomp	_	TokenRange=278:285
+38	sergio	sergio	NOUN	NOUN	_	37	obj	_	TokenRange=286:292
+39	moro	moro	NOUN	NOUN	_	38	flat	_	TokenRange=293:297
+40	aprecie	apreciar	VERB	VERB	_	35	parataxis	_	TokenRange=298:305
+41	decida	decida	NOUN	NOUN	_	40	obj	_	TokenRange=306:312
+42	sobre	_	ADP	ADP	_	43	case	_	TokenRange=313:318
+43	denuncia	denuncia	NOUN	NOUN	_	41	nmod	_	TokenRange=319:327
+44	feita	_	VERB	VERB	_	43	acl	_	TokenRange=328:333
+45	mpf	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=334:337
+46	advogado	advogado	NOUN	NOUN	_	48	nsubj	_	TokenRange=338:346
+47	okamotto	_	ADJ	NOUN	_	46	flat	_	TokenRange=347:355
+48	disse	dizer	VERB	VERB	_	43	acl:relcl	_	TokenRange=356:361
+49	vai	ir	AUX	AUX	_	50	aux	_	TokenRange=362:365
+50	recorrer	recorrer	VERB	VERB	_	48	ccomp	_	TokenRange=366:374
+51	decisao	decisao	NOUN	NOUN	_	50	obj	_	TokenRange=375:382
+52	okamotto	okamotto	NOUN	NOUN	_	51	appos	_	TokenRange=383:391
+53	acusado	acusar	VERB	VERB	_	51	acl	_	TokenRange=392:399
+54	atuar	atuar	VERB	VERB	_	53	xcomp	_	TokenRange=400:405
+55	empreiteira	empreiteiro	NOUN	NOUN	_	54	obj	_	TokenRange=406:417
+56	oas	_	CCONJ	CONJ	_	57	nsubj	_	TokenRange=418:421
+57	pagasse	pagar	VERB	VERB	_	53	conj	_	TokenRange=422:429
+58	despesas	despesa	NOUN	NOUN	_	57	obj	_	TokenRange=430:438
+59	aluguel	aluguel	ADJ	ADJ	_	58	amod	_	TokenRange=439:446
+60	conteineres	conteiner	NOUN	NOUN	_	58	flat	_	TokenRange=447:458
+61	acervo	acervo	NOUN	NOUN	_	58	appos	_	TokenRange=459:465
+62	lula	lula	NOUN	NOUN	_	61	flat	_	TokenRange=466:470
+63	forcatarefa	forcatarefa	NOUN	NOUN	_	61	flat	_	TokenRange=471:482
+64	lava	lavar	VERB	VERB	_	57	conj	_	TokenRange=483:487
+65	jato	jato	NOUN	NOUN	_	64	obj	_	TokenRange=488:492
+66	informou	informar	VERB	VERB	_	48	conj	_	TokenRange=493:501
+67	feitos	fazer	VERB	VERB	_	66	xcomp	_	TokenRange=502:508
+68	sessenta	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=509:517
+69	pagamentos	pagamento	NOUN	NOUN	_	67	obj	_	TokenRange=518:528
+70	mensais	mensal	ADJ	ADJ	_	69	amod	_	TokenRange=529:536
+71	valor	valor	NOUN	NOUN	_	69	appos	_	TokenRange=537:542
+72	r	r	NOUN	NOUN	_	71	appos	_	TokenRange=543:544
+73	21	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=545:547
+74	5	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=548:549
+75	mil	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=550:553
+76	2011	_	NUM	NUM	NumType=Card	71	nmod	_	TokenRange=554:558
+77	2016	_	NUM	NUM	NumType=Card	76	nmod	_	SpaceAfter=No|TokenRange=559:563
+

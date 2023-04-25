@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente eua donald trump lider coreia norte kim jongun aceitaram reunir discutir programa nuclear pyongyang historico troca farpas apos meses escalada tensoes autoridades fizeram anuncio historico evento quintafeira 8 perguntas surgem apos anuncio encontro trump kim cronologia 70 anos tensao eua coreia norte kim convidou trump discutir questao nuclear americano aceitou dois lideres trocado insultos longo ultimos anos relembre abaixo alguns desses momentos presidente chines pede trump dialogue quanto antes coreia
+1	presidente	presidente	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:10
+2	eua	_	DET	DET	_	1	amod	_	TokenRange=11:14
+3	donald	_	ADJ	ADJ	_	4	amod	_	TokenRange=15:21
+4	trump	_	NOUN	NOUN	_	1	appos	_	TokenRange=22:27
+5	lider	lider	NOUN	NOUN	_	1	appos	_	TokenRange=28:33
+6	coreia	coreia	NOUN	NOUN	_	5	flat	_	TokenRange=34:40
+7	norte	norte	ADJ	ADJ	_	5	amod	_	TokenRange=41:46
+8	kim	_	NOUN	NOUN	_	1	appos	_	TokenRange=47:50
+9	jongun	_	NOUN	NOUN	_	8	flat	_	TokenRange=51:57
+10	aceitaram	aceitar	VERB	VERB	_	0	root	_	TokenRange=58:67
+11	reunir	reunir	VERB	VERB	_	10	xcomp	_	TokenRange=68:74
+12	discutir	discutir	VERB	VERB	_	11	xcomp	_	TokenRange=75:83
+13	programa	programa	NOUN	NOUN	_	12	obj	_	TokenRange=84:92
+14	nuclear	nuclear	ADJ	ADJ	_	13	amod	_	TokenRange=93:100
+15	pyongyang	pyongyang	ADJ	ADJ	_	13	amod	_	TokenRange=101:110
+16	historico	historico	ADJ	ADJ	_	13	amod	_	TokenRange=111:120
+17	troca	_	NOUN	NOUN	_	13	appos	_	TokenRange=121:126
+18	farpas	farpa	NOUN	NOUN	_	17	appos	_	TokenRange=127:133
+19	apos	_	ADP	ADP	_	20	case	_	TokenRange=134:138
+20	meses	mês	NOUN	NOUN	_	17	nmod	_	TokenRange=139:144
+21	escalada	escalar	ADJ	ADJ	_	20	amod	_	TokenRange=145:153
+22	tensoes	tensoe	NOUN	NOUN	_	24	nsubj	_	TokenRange=154:161
+23	autoridades	autoridade	NOUN	NOUN	_	24	nsubj	_	TokenRange=162:173
+24	fizeram	fazer	VERB	VERB	_	10	parataxis	_	TokenRange=174:181
+25	anuncio	anuncio	NOUN	NOUN	_	24	obj	_	TokenRange=182:189
+26	historico	historico	ADJ	ADJ	_	25	amod	_	TokenRange=190:199
+27	evento	evento	NOUN	NOUN	_	25	appos	_	TokenRange=200:206
+28	quintafeira	_	NOUN	NOUN	_	27	appos	_	TokenRange=207:218
+29	8	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=219:220
+30	perguntas	pergunta	NOUN	NOUN	_	31	nsubj	_	TokenRange=221:230
+31	surgem	surgir	VERB	VERB	_	24	parataxis	_	TokenRange=231:237
+32	apos	_	ADP	ADP	_	33	case	_	TokenRange=238:242
+33	anuncio	anuncio	NOUN	NOUN	_	31	nmod	_	TokenRange=243:250
+34	encontro	encontro	NOUN	NOUN	_	31	obj	_	TokenRange=251:259
+35	trump	_	NOUN	NOUN	_	34	appos	_	TokenRange=260:265
+36	kim	_	NOUN	NOUN	_	35	flat	_	TokenRange=266:269
+37	cronologia	cronologia	NOUN	NOUN	_	34	appos	_	TokenRange=270:280
+38	70	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=281:283
+39	anos	ano	NOUN	NOUN	_	37	appos	_	TokenRange=284:288
+40	tensao	tensao	NOUN	NOUN	_	31	nsubj	_	TokenRange=289:295
+41	eua	_	DET	DET	_	42	det	_	TokenRange=296:299
+42	coreia	coreia	NOUN	NOUN	_	45	nsubj	_	TokenRange=300:306
+43	norte	norte	ADJ	ADJ	_	42	amod	_	TokenRange=307:312
+44	kim	_	PROPN	PNOUN	_	42	appos	_	TokenRange=313:316
+45	convidou	convidar	VERB	VERB	_	40	acl:relcl	_	TokenRange=317:325
+46	trump	_	NOUN	NOUN	_	45	obj	_	TokenRange=326:331
+47	discutir	discutir	VERB	VERB	_	45	xcomp	_	TokenRange=332:340
+48	questao	questao	NOUN	NOUN	_	47	obj	_	TokenRange=341:348
+49	nuclear	nuclear	ADJ	ADJ	_	48	amod	_	TokenRange=349:356
+50	americano	americano	ADJ	ADJ	_	48	amod	_	TokenRange=357:366
+51	aceitou	aceitar	VERB	VERB	_	45	conj	_	TokenRange=367:374
+52	dois	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=375:379
+53	lideres	lider	NOUN	NOUN	_	51	obj	_	TokenRange=380:387
+54	trocado	_	VERB	VERB	_	51	parataxis	_	TokenRange=388:395
+55	insultos	insulto	NOUN	NOUN	_	54	obj	_	TokenRange=396:404
+56	longo	longo	ADJ	ADJ	_	58	amod	_	TokenRange=405:410
+57	ultimos	_	ADJ	ADJ	_	58	amod	_	TokenRange=411:418
+58	anos	ano	NOUN	NOUN	_	54	nmod	_	TokenRange=419:423
+59	relembre	relembre	NOUN	NOUN	_	51	parataxis	_	TokenRange=424:432
+60	abaixo	abaixo	ADV	ADV	_	66	advmod	_	TokenRange=433:439
+61	alguns	_	PRON	PRON	_	66	nsubj	_	TokenRange=440:446
+62	desses	_	ADP	ADP	_	63	case	_	TokenRange=447:453
+63	momentos	momento	NOUN	NOUN	_	61	nmod	_	TokenRange=454:462
+64	presidente	presidente	NOUN	NOUN	_	66	nsubj	_	TokenRange=463:473
+65	chines	chine	ADJ	ADJ	_	64	amod	_	TokenRange=474:480
+66	pede	pedir	VERB	VERB	_	51	parataxis	_	TokenRange=481:485
+67	trump	_	NOUN	NOUN	_	66	obj	_	TokenRange=486:491
+68	dialogue	dialogue	NOUN	NOUN	_	66	obj	_	TokenRange=492:500
+69	quanto	_	ADV	ADV	_	70	advmod	_	TokenRange=501:507
+70	antes	antes	ADV	ADV	_	71	advmod	_	TokenRange=508:513
+71	coreia	coreia	VERB	VERB	_	66	parataxis	_	SpaceAfter=No|TokenRange=514:520
+

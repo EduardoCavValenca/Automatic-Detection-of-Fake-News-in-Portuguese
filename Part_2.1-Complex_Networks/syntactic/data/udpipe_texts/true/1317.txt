@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mae vitima feminicidio es faz alerta dia internacional mulher medo falar filha gabriela silva jesus morta 24 anos exnoivo vitima amigo acusados crime dor saudade causadas perda filha transformaram coragem nesta semana dia internacional mulher mae gabriela silva jesus vitima feminicidio espirito santo decidiu alertar outras meninas jovens mulheres sofrendo violencia fisica psicologica falo muita dor coracao necessario
+1	mae	mae	NOUN	NOUN	_	29	nsubj	_	TokenRange=0:3
+2	vitima	_	NOUN	NOUN	_	1	amod	_	TokenRange=4:10
+3	feminicidio	feminicidio	NOUN	NOUN	_	2	flat	_	TokenRange=11:22
+4	es	_	PRON	PRON	_	5	obj	_	TokenRange=23:25
+5	faz	fazer	VERB	VERB	_	2	acl:relcl	_	TokenRange=26:29
+6	alerta	alerta	NOUN	NOUN	_	5	xcomp	_	TokenRange=30:36
+7	dia	dia	NOUN	NOUN	_	5	nmod	_	TokenRange=37:40
+8	internacional	internacional	ADJ	ADJ	_	7	amod	_	TokenRange=41:54
+9	mulher	mulher	NOUN	NOUN	_	11	nsubj	_	TokenRange=55:61
+10	medo	medo	NOUN	NOUN	_	11	nsubj	_	TokenRange=62:66
+11	falar	falar	VERB	VERB	_	5	parataxis	_	TokenRange=67:72
+12	filha	filho	NOUN	NOUN	_	11	obj	_	TokenRange=73:78
+13	gabriela	gabriela	NOUN	NOUN	_	12	appos	_	TokenRange=79:87
+14	silva	silva	NOUN	NOUN	_	13	flat	_	TokenRange=88:93
+15	jesus	jesus	NOUN	NOUN	_	13	flat	_	TokenRange=94:99
+16	morta	morto	ADJ	ADJ	_	12	amod	_	TokenRange=100:105
+17	24	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=106:108
+18	anos	ano	NOUN	NOUN	_	16	nmod	_	TokenRange=109:113
+19	exnoivo	exnoivo	ADJ	ADJ	_	18	amod	_	TokenRange=114:121
+20	vitima	_	NOUN	NOUN	_	12	appos	_	TokenRange=122:128
+21	amigo	amigo	NOUN	NOUN	_	20	appos	_	TokenRange=129:134
+22	acusados	acusar	ADJ	ADJ	_	21	acl	_	TokenRange=135:143
+23	crime	crime	NOUN	NOUN	_	20	appos	_	TokenRange=144:149
+24	dor	dor	NOUN	NOUN	_	23	appos	_	TokenRange=150:153
+25	saudade	saudade	NOUN	NOUN	_	23	flat	_	TokenRange=154:161
+26	causadas	causar	VERB	VERB	_	23	acl	_	TokenRange=162:170
+27	perda	perda	NOUN	NOUN	_	26	nsubj	_	TokenRange=171:176
+28	filha	filho	NOUN	NOUN	_	27	amod	_	TokenRange=177:182
+29	transformaram	transformar	VERB	VERB	_	0	root	_	TokenRange=183:196
+30	coragem	coragem	NOUN	NOUN	_	29	obj	_	TokenRange=197:204
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=205:210
+32	semana	semana	NOUN	NOUN	_	29	nmod	_	TokenRange=211:217
+33	dia	dia	NOUN	NOUN	_	29	nmod	_	TokenRange=218:221
+34	internacional	internacional	ADJ	ADJ	_	33	amod	_	TokenRange=222:235
+35	mulher	mulher	NOUN	NOUN	_	33	appos	_	TokenRange=236:242
+36	mae	mae	NOUN	NOUN	_	33	appos	_	TokenRange=243:246
+37	gabriela	gabriela	NOUN	NOUN	_	35	appos	_	TokenRange=247:255
+38	silva	silva	NOUN	NOUN	_	37	flat	_	TokenRange=256:261
+39	jesus	jesu	ADJ	ADJ	_	37	flat	_	TokenRange=262:267
+40	vitima	vitima	NOUN	NOUN	_	44	nsubj	_	TokenRange=268:274
+41	feminicidio	feminicidio	NOUN	NOUN	_	40	appos	_	TokenRange=275:286
+42	espirito	espirito	ADJ	NOUN	_	41	amod	_	TokenRange=287:295
+43	santo	santo	ADJ	ADJ	_	41	amod	_	TokenRange=296:301
+44	decidiu	decidir	VERB	VERB	_	29	parataxis	_	TokenRange=302:309
+45	alertar	alertar	VERB	VERB	_	44	xcomp	_	TokenRange=310:317
+46	outras	_	DET	DET	_	47	det	_	TokenRange=318:324
+47	meninas	menino	NOUN	NOUN	_	45	obj	_	TokenRange=325:332
+48	jovens	jovem	ADJ	ADJ	_	47	amod	_	TokenRange=333:339
+49	mulheres	mulher	NOUN	NOUN	_	47	appos	_	TokenRange=340:348
+50	sofrendo	sofrer	VERB	VERB	_	47	acl	_	TokenRange=349:357
+51	violencia	violencia	NOUN	NOUN	_	50	obj	_	TokenRange=358:367
+52	fisica	fisico	ADJ	ADJ	_	51	amod	_	TokenRange=368:374
+53	psicologica	psicologico	ADJ	ADJ	_	51	amod	_	TokenRange=375:386
+54	falo	_	VERB	VERB	_	47	acl:relcl	_	TokenRange=387:391
+55	muita	_	DET	DET	_	56	det	_	TokenRange=392:397
+56	dor	dor	NOUN	NOUN	_	54	obj	_	TokenRange=398:401
+57	coracao	coracao	NOUN	NOUN	_	54	obj	_	TokenRange=402:409
+58	necessario	necessario	ADJ	ADJ	_	57	amod	_	SpaceAfter=No|TokenRange=410:420
+

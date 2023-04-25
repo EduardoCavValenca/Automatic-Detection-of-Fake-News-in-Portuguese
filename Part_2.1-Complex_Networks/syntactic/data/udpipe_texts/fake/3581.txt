@@ -1,0 +1,26 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = petista chama caminhoneiros agricultores vagabundos mal cidadao filiado pt causou confusao chamar caminhoneiros agricultores vagabundos enquanto cruzava paralisacao
+1	petista	petista	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	chama	chamar	VERB	VERB	_	0	root	_	TokenRange=8:13
+3	caminhoneiros	caminhoneiro	NOUN	NOUN	_	2	obj	_	TokenRange=14:27
+4	agricultores	agricultor	ADJ	ADJ	_	3	amod	_	TokenRange=28:40
+5	vagabundos	vagabundo	ADJ	ADJ	_	3	amod	_	TokenRange=41:51
+6	mal	mal	ADV	ADV	_	7	advmod	_	TokenRange=52:55
+7	cidadao	cidadao	NOUN	NOUN	_	10	nsubj	_	TokenRange=56:63
+8	filiado	filiado	ADJ	ADJ	_	7	amod	_	TokenRange=64:71
+9	pt	_	ADJ	ADJ	_	7	amod	_	TokenRange=72:74
+10	causou	causar	VERB	VERB	_	2	conj	_	TokenRange=75:81
+11	confusao	confusao	NOUN	NOUN	_	10	obj	_	TokenRange=82:90
+12	chamar	chamar	VERB	VERB	_	10	ccomp	_	TokenRange=91:97
+13	caminhoneiros	caminhoneiro	NOUN	NOUN	_	12	obj	_	TokenRange=98:111
+14	agricultores	agricultor	ADJ	ADJ	_	13	amod	_	TokenRange=112:124
+15	vagabundos	vagabundo	ADJ	ADJ	_	13	amod	_	TokenRange=125:135
+16	enquanto	_	CCONJ	CONJ	_	17	mark	_	TokenRange=136:144
+17	cruzava	cruzar	VERB	VERB	_	10	advcl	_	TokenRange=145:152
+18	paralisacao	paralisacao	NOUN	NOUN	_	17	obj	_	SpaceAfter=No|TokenRange=153:164
+

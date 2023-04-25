@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = audiencia temer governadora roraima pede repactuacao divida estado suely campos presidente residencia oficial palacio alvorada brasilia calcula negociacao divida pode dar folego r 6 milhoes estado governadora roraima suely campos pp reforcou audiencia presidente michel temer nesta sextafeira 23 palacio
+1	audiencia	audiencia	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:9
+2	temer	temer	NOUN	NOUN	_	1	appos	_	TokenRange=10:15
+3	governadora	governador	NOUN	NOUN	_	1	appos	_	TokenRange=16:27
+4	roraima	_	ADJ	ADJ	_	1	amod	_	TokenRange=28:35
+5	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=36:40
+6	repactuacao	repactuacao	NOUN	NOUN	_	5	obj	_	TokenRange=41:52
+7	divida	divido	ADJ	ADJ	_	6	amod	_	TokenRange=53:59
+8	estado	estado	NOUN	NOUN	_	5	obj	_	TokenRange=60:66
+9	suely	_	ADJ	ADJ	_	10	amod	_	TokenRange=67:72
+10	campos	campo	NOUN	NOUN	_	8	appos	_	TokenRange=73:79
+11	presidente	presidente	NOUN	NOUN	_	8	appos	_	TokenRange=80:90
+12	residencia	residencia	NOUN	NOUN	_	11	appos	_	TokenRange=91:101
+13	oficial	oficial	ADJ	ADJ	_	12	amod	_	TokenRange=102:109
+14	palacio	palacio	NOUN	NOUN	_	12	appos	_	TokenRange=110:117
+15	alvorada	alvorada	ADJ	ADJ	_	14	amod	_	TokenRange=118:126
+16	brasilia	brasilia	NOUN	NOUN	_	14	amod	_	TokenRange=127:135
+17	calcula	calcular	VERB	VERB	_	5	parataxis	_	TokenRange=136:143
+18	negociacao	negociacao	NOUN	NOUN	_	17	obj	_	TokenRange=144:154
+19	divida	divido	ADJ	ADJ	_	18	amod	_	TokenRange=155:161
+20	pode	_	AUX	AUX	_	21	aux	_	TokenRange=162:166
+21	dar	dar	VERB	VERB	_	5	parataxis	_	TokenRange=167:170
+22	folego	folego	NOUN	NOUN	_	21	obj	_	TokenRange=171:177
+23	r	r	NOUN	NOUN	_	26	flat	_	TokenRange=178:179
+24	6	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=180:181
+25	milhoes	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=182:189
+26	estado	estado	NOUN	NOUN	_	21	nsubj	_	TokenRange=190:196
+27	governadora	governador	ADJ	ADJ	_	26	amod	_	TokenRange=197:208
+28	roraima	roraima	ADJ	ADJ	_	26	amod	_	TokenRange=209:216
+29	suely	_	ADJ	ADJ	_	30	amod	_	TokenRange=217:222
+30	campos	campo	NOUN	NOUN	_	26	appos	_	TokenRange=223:229
+31	pp	pp	ADJ	ADJ	_	30	amod	_	TokenRange=230:232
+32	reforcou	reforcar	VERB	VERB	_	5	parataxis	_	TokenRange=233:241
+33	audiencia	audiencia	NOUN	NOUN	_	32	obj	_	TokenRange=242:251
+34	presidente	presidente	NOUN	NOUN	_	33	appos	_	TokenRange=252:262
+35	michel	michel	ADJ	ADJ	_	36	amod	_	TokenRange=263:269
+36	temer	temer	NOUN	NOUN	_	34	appos	_	TokenRange=270:275
+37	nesta	_	ADP	ADP	_	38	case	_	TokenRange=276:281
+38	sextafeira	sextafeira	NOUN	NOUN	_	32	nmod	_	TokenRange=282:292
+39	23	_	NUM	NUM	NumType=Card	38	appos	_	TokenRange=293:295
+40	palacio	palacio	NOUN	NOUN	_	38	appos	_	SpaceAfter=No|TokenRange=296:303
+

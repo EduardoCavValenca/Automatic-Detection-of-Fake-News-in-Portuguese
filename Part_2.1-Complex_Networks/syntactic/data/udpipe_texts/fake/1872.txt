@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vivo sergio moro dando aula direito senadores juiz federal sergio moro aula direito senado participa discussao alteracao lei abuso autoridade detalhe senadores petistas sumiram
+1	vivo	vivo	ADJ	ADJ	_	24	xcomp	_	TokenRange=0:4
+2	sergio	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=5:11
+3	moro	moro	NOUN	NOUN	_	2	flat	_	TokenRange=12:16
+4	dando	dar	VERB	VERB	_	2	acl	_	TokenRange=17:22
+5	aula	aula	NOUN	NOUN	_	4	obj	_	TokenRange=23:27
+6	direito	direito	ADJ	ADJ	_	5	amod	_	TokenRange=28:35
+7	senadores	senador	NOUN	NOUN	_	5	appos	_	TokenRange=36:45
+8	juiz	juiz	NOUN	NOUN	_	2	appos	_	TokenRange=46:50
+9	federal	federal	ADJ	ADJ	_	8	amod	_	TokenRange=51:58
+10	sergio	sergio	NOUN	NOUN	_	8	appos	_	TokenRange=59:65
+11	moro	moro	NOUN	NOUN	_	10	flat	_	TokenRange=66:70
+12	aula	aula	NOUN	NOUN	_	24	obj	_	TokenRange=71:75
+13	direito	direito	NOUN	NOUN	_	12	flat	_	TokenRange=76:83
+14	senado	senado	NOUN	NOUN	_	12	appos	_	TokenRange=84:90
+15	participa	_	NOUN	NOUN	_	24	parataxis	_	TokenRange=91:100
+16	discussao	discussao	NOUN	NOUN	_	24	obj	_	TokenRange=101:110
+17	alteracao	alteracao	ADJ	ADJ	_	18	amod	_	TokenRange=111:120
+18	lei	lei	NOUN	NOUN	_	16	appos	_	TokenRange=121:124
+19	abuso	abuso	ADJ	ADJ	_	20	amod	_	TokenRange=125:130
+20	autoridade	autoridade	NOUN	NOUN	_	18	appos	_	TokenRange=131:141
+21	detalhe	detalhe	VERB	VERB	_	24	nsubj	_	TokenRange=142:149
+22	senadores	senador	NOUN	NOUN	_	24	nsubj	_	TokenRange=150:159
+23	petistas	petista	ADJ	ADJ	_	22	amod	_	TokenRange=160:168
+24	sumiram	sumir	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=169:176
+

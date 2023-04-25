@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos crime centro espirita palestrante diz culpados liszt rangel fazia palestra assalto anunciado acao criminosa ocorreu jaboatao grande recife deixou quatro pessoas mortas menos oito feridos poucas horas ocorrer tentativa assalto sede grupo espirita amor proximo geap palestrante liszt rangel fez transmissao vivo rede social comentar crime liszt palestrando momento assalto pedir preces vitimas familias ainda disse deve eleger culpado aconteceu momento desta publicacao video tres mil visualizacoes
+1	apos	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	crime	crime	NOUN	NOUN	_	6	nmod	_	TokenRange=5:10
+3	centro	centro	NOUN	NOUN	_	6	nsubj	_	TokenRange=11:17
+4	espirita	espirito	ADJ	ADJ	_	3	amod	_	TokenRange=18:26
+5	palestrante	palestrante	ADJ	ADJ	_	3	amod	_	TokenRange=27:38
+6	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=39:42
+7	culpados	culpado	ADJ	NOUN	_	6	obj	_	TokenRange=43:51
+8	liszt	liszt	NOUN	NOUN	_	6	nsubj	_	TokenRange=52:57
+9	rangel	rangel	NOUN	NOUN	_	8	amod	_	TokenRange=58:64
+10	fazia	fazer	VERB	VERB	_	6	parataxis	_	TokenRange=65:70
+11	palestra	palestra	NOUN	NOUN	_	10	obj	_	TokenRange=71:79
+12	assalto	assalto	NOUN	NOUN	_	10	obj	_	TokenRange=80:87
+13	anunciado	anunciar	VERB	VERB	_	14	acl	_	TokenRange=88:97
+14	acao	acao	NOUN	NOUN	_	10	nsubj	_	TokenRange=98:102
+15	criminosa	criminoso	ADJ	ADJ	_	14	amod	_	TokenRange=103:112
+16	ocorreu	ocorrer	VERB	VERB	_	6	parataxis	_	TokenRange=113:120
+17	jaboatao	jaboatao	NOUN	NOUN	_	16	nsubj	_	TokenRange=121:129
+18	grande	grande	ADJ	ADJ	_	19	amod	_	TokenRange=130:136
+19	recife	recife	NOUN	NOUN	_	20	nsubj	_	TokenRange=137:143
+20	deixou	deixar	VERB	VERB	_	6	conj	_	TokenRange=144:150
+21	quatro	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=151:157
+22	pessoas	pessoa	NOUN	NOUN	_	20	obj	_	TokenRange=158:165
+23	mortas	morto	ADJ	ADJ	_	22	amod	_	TokenRange=166:172
+24	menos	menos	ADV	ADV	_	25	advmod	_	TokenRange=173:178
+25	oito	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=179:183
+26	feridos	ferido	NOUN	NOUN	_	20	nsubj	_	TokenRange=184:191
+27	poucas	_	DET	DET	_	28	det	_	TokenRange=192:198
+28	horas	hora	NOUN	NOUN	_	29	nmod	_	TokenRange=199:204
+29	ocorrer	ocorrer	VERB	VERB	_	20	parataxis	_	TokenRange=205:212
+30	tentativa	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=213:222
+31	assalto	assalto	NOUN	NOUN	_	29	nsubj	_	TokenRange=223:230
+32	sede	sede	NOUN	NOUN	_	31	appos	_	TokenRange=231:235
+33	grupo	grupo	NOUN	NOUN	_	31	appos	_	TokenRange=236:241
+34	espirita	espirito	ADJ	ADJ	_	33	amod	_	TokenRange=242:250
+35	amor	amor	NOUN	NOUN	_	33	appos	_	TokenRange=251:255
+36	proximo	proximo	ADJ	ADJ	_	35	amod	_	TokenRange=256:263
+37	geap	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=264:268
+38	palestrante	palestrante	ADJ	ADJ	_	39	amod	_	TokenRange=269:280
+39	liszt	liszt	NOUN	NOUN	_	41	nsubj	_	TokenRange=281:286
+40	rangel	rangel	ADJ	ADJ	_	39	amod	_	TokenRange=287:293
+41	fez	fazer	VERB	VERB	_	6	conj	_	TokenRange=294:297
+42	transmissao	transmissao	NOUN	NOUN	_	41	obj	_	TokenRange=298:309
+43	vivo	vivo	ADJ	ADJ	_	42	amod	_	TokenRange=310:314
+44	rede	rede	NOUN	NOUN	_	41	nsubj	_	TokenRange=315:319
+45	social	social	ADJ	ADJ	_	44	amod	_	TokenRange=320:326
+46	comentar	comentar	VERB	VERB	_	41	ccomp	_	TokenRange=327:335
+47	crime	crime	NOUN	NOUN	_	46	obj	_	TokenRange=336:341
+48	liszt	liszt	NOUN	NOUN	_	47	appos	_	TokenRange=342:347
+49	palestrando	palestrar	VERB	VERB	_	47	acl	_	TokenRange=348:359
+50	momento	momento	NOUN	NOUN	_	49	obj	_	TokenRange=360:367
+51	assalto	assalto	NOUN	NOUN	_	50	flat	_	TokenRange=368:375
+52	pedir	pedir	VERB	VERB	_	50	acl:inf	_	TokenRange=376:381
+53	preces	_	NOUN	NOUN	_	52	obj	_	TokenRange=382:388
+54	vitimas	_	ADJ	ADJ	_	53	amod	_	TokenRange=389:396
+55	familias	familia	NOUN	NOUN	_	52	nsubj	_	TokenRange=397:405
+56	ainda	ainda	ADV	ADV	_	57	advmod	_	TokenRange=406:411
+57	disse	dizer	VERB	VERB	_	52	parataxis	_	TokenRange=412:417
+58	deve	dever	AUX	AUX	_	59	aux	_	TokenRange=418:422
+59	eleger	eleger	VERB	VERB	_	57	ccomp	_	TokenRange=423:429
+60	culpado	culpado	NOUN	NOUN	_	59	obj	_	TokenRange=430:437
+61	aconteceu	acontecer	VERB	VERB	_	57	ccomp	_	TokenRange=438:447
+62	momento	momento	NOUN	NOUN	_	61	nsubj	_	TokenRange=448:455
+63	desta	_	ADP	ADP	_	64	case	_	TokenRange=456:461
+64	publicacao	publicacao	NOUN	NOUN	_	62	nmod	_	TokenRange=462:472
+65	video	_	VERB	VERB	_	61	parataxis	_	TokenRange=473:478
+66	tres	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=479:483
+67	mil	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=484:487
+68	visualizacoes	_	NOUN	NOUN	_	65	obj	_	SpaceAfter=No|TokenRange=488:501
+

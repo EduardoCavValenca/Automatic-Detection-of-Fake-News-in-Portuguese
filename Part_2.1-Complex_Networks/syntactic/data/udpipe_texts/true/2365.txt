@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = samu presta contas centrooeste mg conclui necessarios r 36 mi 2018 dados divulgados durante balanco seis meses secretario executivo fala debito estado ses confirma atrasos prestacao contas realizada manha desta quintafeira 7 divinopolis consorcio intermunicipal saude regiao ampliada oeste gerenciamento servicos urgencia emergencia cisurg apresentou trabalhos seis meses servico atendimento movel urgencia samu apontados atrasos repasse verbas parte governo
+1	samu	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	presta	prestar	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	contas	conta	NOUN	NOUN	_	2	obj	_	TokenRange=12:18
+4	centrooeste	_	NOUN	NOUN	_	3	appos	_	TokenRange=19:30
+5	mg	_	NOUN	NOUN	_	4	flat	_	TokenRange=31:33
+6	conclui	concluir	VERB	VERB	_	2	parataxis	_	TokenRange=34:41
+7	necessarios	necessario	NOUN	NOUN	_	6	obj	_	TokenRange=42:53
+8	r	r	NOUN	NOUN	_	6	nmod	_	TokenRange=54:55
+9	36	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=56:58
+10	mi	_	NUM	NUM	_	8	appos	_	TokenRange=59:61
+11	2018	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=62:66
+12	dados	dado	NOUN	NOUN	_	2	obj	_	TokenRange=67:72
+13	divulgados	divulgar	VERB	VERB	_	12	acl	_	TokenRange=73:83
+14	durante	_	ADP	ADP	_	15	case	_	TokenRange=84:91
+15	balanco	_	NOUN	NOUN	_	13	nmod	_	TokenRange=92:99
+16	seis	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=100:104
+17	meses	mês	NOUN	NOUN	_	15	nmod	_	TokenRange=105:110
+18	secretario	secretario	NOUN	NOUN	_	20	nsubj	_	TokenRange=111:121
+19	executivo	executivo	ADJ	ADJ	_	18	amod	_	TokenRange=122:131
+20	fala	_	VERB	VERB	_	2	parataxis	_	TokenRange=132:136
+21	debito	debito	NOUN	NOUN	_	20	obj	_	TokenRange=137:143
+22	estado	estado	NOUN	NOUN	_	21	flat	_	TokenRange=144:150
+23	ses	_	PRON	PRON	_	24	nsubj	_	TokenRange=151:154
+24	confirma	confirmar	VERB	VERB	_	2	conj	_	TokenRange=155:163
+25	atrasos	atraso	NOUN	NOUN	_	24	obj	_	TokenRange=164:171
+26	prestacao	_	ADJ	ADJ	_	25	amod	_	TokenRange=172:181
+27	contas	conta	NOUN	NOUN	_	25	appos	_	TokenRange=182:188
+28	realizada	realizar	VERB	VERB	_	27	acl	_	TokenRange=189:198
+29	manha	manha	NOUN	NOUN	_	28	nmod	_	TokenRange=199:204
+30	desta	_	ADP	ADP	_	31	case	_	TokenRange=205:210
+31	quintafeira	quintafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=211:222
+32	7	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=223:224
+33	divinopolis	divinopolis	ADJ	ADJ	_	34	amod	_	TokenRange=225:236
+34	consorcio	consorcio	NOUN	NOUN	_	31	appos	_	TokenRange=237:246
+35	intermunicipal	intermunicipal	ADJ	ADJ	_	34	amod	_	TokenRange=247:261
+36	saude	saude	NOUN	NOUN	_	34	appos	_	TokenRange=262:267
+37	regiao	regiao	NOUN	NOUN	_	34	appos	_	TokenRange=268:274
+38	ampliada	ampliado	ADJ	ADJ	_	37	amod	_	TokenRange=275:283
+39	oeste	oeste	ADJ	ADJ	_	40	amod	_	TokenRange=284:289
+40	gerenciamento	gerenciamento	NOUN	NOUN	_	45	nsubj	_	TokenRange=290:303
+41	servicos	servico	ADJ	ADJ	_	40	amod	_	TokenRange=304:312
+42	urgencia	urgencia	NOUN	NOUN	_	40	appos	_	TokenRange=313:321
+43	emergencia	emergencia	NOUN	NOUN	_	40	appos	_	TokenRange=322:332
+44	cisurg	_	NOUN	NOUN	_	40	appos	_	TokenRange=333:339
+45	apresentou	apresentar	VERB	VERB	_	2	parataxis	_	TokenRange=340:350
+46	trabalhos	trabalho	NOUN	NOUN	_	45	obj	_	TokenRange=351:360
+47	seis	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=361:365
+48	meses	mês	NOUN	NOUN	_	45	nmod	_	TokenRange=366:371
+49	servico	servico	ADJ	ADJ	_	48	amod	_	TokenRange=372:379
+50	atendimento	atendimento	NOUN	NOUN	_	49	appos	_	TokenRange=380:391
+51	movel	movel	ADJ	ADJ	_	50	amod	_	TokenRange=392:397
+52	urgencia	urgencia	NOUN	NOUN	_	50	amod	_	TokenRange=398:406
+53	samu	_	VERB	VERB	_	56	dep	_	TokenRange=407:411
+54	apontados	apontado	ADJ	ADJ	_	55	amod	_	TokenRange=412:421
+55	atrasos	atraso	NOUN	NOUN	_	56	nsubj	_	TokenRange=422:429
+56	repasse	repar	VERB	VERB	_	45	parataxis	_	TokenRange=430:437
+57	verbas	verba	NOUN	NOUN	_	56	obj	_	TokenRange=438:444
+58	parte	parte	NOUN	NOUN	_	56	obj	_	TokenRange=445:450
+59	governo	governo	NOUN	NOUN	_	58	flat	_	SpaceAfter=No|TokenRange=451:458
+

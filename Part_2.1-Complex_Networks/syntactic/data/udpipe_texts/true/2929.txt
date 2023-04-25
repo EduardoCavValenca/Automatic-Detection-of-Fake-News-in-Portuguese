@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = humor teatro musica veja dicas g1 fim semana folga ribeirao preto sp banda don ramon apresenta milwaukee american bar teatro minaz opera espetaculo gianni schianni fim semana chega regiao ribeirao preto humor teatro destaques pecas sexo vida inteira
+1	humor	humor	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	teatro	teatro	NOUN	NOUN	_	1	flat	_	TokenRange=6:12
+3	musica	_	NOUN	NOUN	_	1	appos	_	TokenRange=13:19
+4	veja	ver	VERB	VERB	_	0	root	_	TokenRange=20:24
+5	dicas	dica	NOUN	NOUN	_	4	obj	_	TokenRange=25:30
+6	g1	_	X	NOUN	_	5	appos	_	TokenRange=31:33
+7	fim	fim	NOUN	NOUN	_	5	appos	_	TokenRange=34:37
+8	semana	semana	NOUN	NOUN	_	7	flat	_	TokenRange=38:44
+9	folga	folga	NOUN	NOUN	_	5	appos	_	TokenRange=45:50
+10	ribeirao	ribeirao	NOUN	NOUN	_	9	appos	_	TokenRange=51:59
+11	preto	preto	ADJ	ADJ	_	9	amod	_	TokenRange=60:65
+12	sp	_	ADJ	ADJ	_	13	amod	_	TokenRange=66:68
+13	banda	banda	NOUN	NOUN	_	16	nsubj	_	TokenRange=69:74
+14	don	_	PROPN	NOUN	_	13	appos	_	TokenRange=75:78
+15	ramon	_	NOUN	NOUN	_	13	flat	_	TokenRange=79:84
+16	apresenta	apresentar	VERB	VERB	_	4	parataxis	_	TokenRange=85:94
+17	milwaukee	milwaukee	NOUN	NOUN	_	16	obj	_	TokenRange=95:104
+18	american	_	ADJ	ADJ	_	19	amod	_	TokenRange=105:113
+19	bar	bar	NOUN	NOUN	_	17	appos	_	TokenRange=114:117
+20	teatro	teatro	NOUN	NOUN	_	17	appos	_	TokenRange=118:124
+21	minaz	minaz	ADJ	ADJ	_	19	amod	_	TokenRange=125:130
+22	opera	opera	NOUN	NOUN	_	17	appos	_	TokenRange=131:136
+23	espetaculo	espetaculo	NOUN	NOUN	_	22	appos	_	TokenRange=137:147
+24	gianni	_	NOUN	NOUN	_	22	appos	_	TokenRange=148:154
+25	schianni	_	NOUN	NOUN	_	24	flat	_	TokenRange=155:163
+26	fim	fim	NOUN	NOUN	_	27	amod	_	TokenRange=164:167
+27	semana	semana	NOUN	NOUN	_	24	nmod	_	TokenRange=168:174
+28	chega	chegar	VERB	VERB	_	16	parataxis	_	TokenRange=175:180
+29	regiao	regiao	NOUN	NOUN	_	28	obj	_	TokenRange=181:187
+30	ribeirao	ribeirao	ADJ	ADJ	_	29	amod	_	TokenRange=188:196
+31	preto	preto	ADJ	ADJ	_	29	amod	_	TokenRange=197:202
+32	humor	humor	NOUN	NOUN	_	29	appos	_	TokenRange=203:208
+33	teatro	teatro	NOUN	NOUN	_	32	flat	_	TokenRange=209:215
+34	destaques	destaque	ADJ	ADJ	_	35	amod	_	TokenRange=216:225
+35	pecas	peca	NOUN	NOUN	_	29	appos	_	TokenRange=226:231
+36	sexo	sexo	NOUN	NOUN	_	35	appos	_	TokenRange=232:236
+37	vida	vida	NOUN	NOUN	_	36	appos	_	TokenRange=237:241
+38	inteira	inteiro	ADJ	ADJ	_	37	amod	_	SpaceAfter=No|TokenRange=242:249
+

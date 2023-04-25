@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = demostenes marconi receberam caixa dois troca saneamento entorno df diz delator odebrecht fernando cunha reis diz cada recebeu r 2 milhoes 2010 2014 governador goias recebeu r 8 milhoes veja videos relatos senador cassado demostenes torres recebeu r 2 milhoes empreiteira odebrecht caixa dois campanha 2010 segundo delacao fernando cunha video assista acima disse politico responsavel apresentar empresa 2010 entao candidato governo goias marconi perillo psdb acordo delacao tucano recebeu
+1	demostenes	demostene	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	marconi	marconi	NOUN	NOUN	_	1	flat	_	TokenRange=11:18
+3	receberam	receber	VERB	VERB	_	0	root	_	TokenRange=19:28
+4	caixa	caixa	NOUN	NOUN	_	3	obj	_	TokenRange=29:34
+5	dois	_	NUM	NUM	NumType=Card	4	appos	_	TokenRange=35:39
+6	troca	_	NOUN	NOUN	_	3	parataxis	_	TokenRange=40:45
+7	saneamento	saneamento	NOUN	NOUN	_	3	obj	_	TokenRange=46:56
+8	entorno	_	ADJ	ADJ	_	7	amod	_	TokenRange=57:64
+9	df	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=65:67
+10	diz	dizer	VERB	VERB	_	3	conj	_	TokenRange=68:71
+11	delator	delator	NOUN	NOUN	_	10	obj	_	TokenRange=72:79
+12	odebrecht	odebrecht	NOUN	NOUN	_	11	flat	_	TokenRange=80:89
+13	fernando	fernando	NOUN	NOUN	_	11	appos	_	TokenRange=90:98
+14	cunha	_	NOUN	NOUN	_	13	flat	_	TokenRange=99:104
+15	reis	rei	NOUN	NOUN	_	13	flat	_	TokenRange=105:109
+16	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=110:113
+17	cada	_	PRON	PRON	_	18	nsubj	_	TokenRange=114:118
+18	recebeu	receber	VERB	VERB	_	16	ccomp	_	TokenRange=119:126
+19	r	r	NOUN	NOUN	_	18	obj	_	TokenRange=127:128
+20	2	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=129:130
+21	milhoes	_	NUM	NUM	NumType=Card	18	obj	_	TokenRange=131:138
+22	2010	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=139:143
+23	2014	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=144:148
+24	governador	governador	NOUN	NOUN	_	26	nsubj	_	TokenRange=149:159
+25	goias	goia	ADJ	ADJ	_	24	amod	_	TokenRange=160:165
+26	recebeu	receber	VERB	VERB	_	18	parataxis	_	TokenRange=166:173
+27	r	r	NOUN	NOUN	_	26	obj	_	TokenRange=174:175
+28	8	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=176:177
+29	milhoes	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=178:185
+30	veja	ver	VERB	VERB	_	26	parataxis	_	TokenRange=186:190
+31	videos	video	NOUN	NOUN	_	30	obj	_	TokenRange=191:197
+32	relatos	relato	NOUN	NOUN	_	31	amod	_	TokenRange=198:205
+33	senador	senador	NOUN	NOUN	_	37	nsubj	_	TokenRange=206:213
+34	cassado	cassado	ADJ	ADJ	_	33	amod	_	TokenRange=214:221
+35	demostenes	demostene	NOUN	NOUN	_	37	nsubj	_	TokenRange=222:232
+36	torres	_	ADJ	ADJ	_	35	amod	_	TokenRange=233:239
+37	recebeu	receber	VERB	VERB	_	31	acl:relcl	_	TokenRange=240:247
+38	r	r	NOUN	NOUN	_	37	obj	_	TokenRange=248:249
+39	2	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=250:251
+40	milhoes	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=252:259
+41	empreiteira	empreiteiro	NOUN	NOUN	_	37	obj	_	TokenRange=260:271
+42	odebrecht	odebrecht	NOUN	NOUN	_	41	appos	_	TokenRange=272:281
+43	caixa	caixa	NOUN	NOUN	_	41	appos	_	TokenRange=282:287
+44	dois	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=288:292
+45	campanha	campanha	NOUN	NOUN	_	37	obj	_	TokenRange=293:301
+46	2010	_	NUM	NUM	NumType=Card	45	nmod	_	TokenRange=302:306
+47	segundo	_	ADP	ADP	_	48	case	_	TokenRange=307:314
+48	delacao	delacao	NOUN	NOUN	_	37	nmod	_	TokenRange=315:322
+49	fernando	fernando	NOUN	NOUN	_	48	appos	_	TokenRange=323:331
+50	cunha	cunha	PROPN	NOUN	_	49	flat	_	TokenRange=332:337
+51	video	video	NOUN	NOUN	_	52	nsubj	_	TokenRange=338:343
+52	assista	assistir	VERB	VERB	_	3	conj	_	TokenRange=344:351
+53	acima	acima	ADV	ADV	_	52	advmod	_	TokenRange=352:357
+54	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=358:363
+55	politico	politico	NOUN	NOUN	_	70	nsubj	_	TokenRange=364:372
+56	responsavel	responsavel	ADJ	ADJ	_	55	amod	_	TokenRange=373:384
+57	apresentar	apresentar	VERB	VERB	_	55	acl:inf	_	TokenRange=385:395
+58	empresa	empresa	NOUN	NOUN	_	57	obj	_	TokenRange=396:403
+59	2010	_	NUM	NUM	NumType=Card	58	nmod	_	TokenRange=404:408
+60	entao	entao	ADV	ADV	_	61	advmod	_	TokenRange=409:414
+61	candidato	candidato	NOUN	NOUN	_	57	obj	_	TokenRange=415:424
+62	governo	governo	NOUN	NOUN	_	61	amod	_	TokenRange=425:432
+63	goias	goia	ADJ	ADJ	_	61	amod	_	TokenRange=433:438
+64	marconi	marconi	NOUN	NOUN	_	61	appos	_	TokenRange=439:446
+65	perillo	perillo	ADJ	ADJ	_	61	amod	_	TokenRange=447:454
+66	psdb	_	X	NOUN	_	70	obj	_	TokenRange=455:459
+67	acordo	acordo	NOUN	NOUN	_	70	obj	_	TokenRange=460:466
+68	delacao	delacao	ADJ	ADJ	_	67	amod	_	TokenRange=467:474
+69	tucano	tucano	NOUN	NOUN	_	67	amod	_	TokenRange=475:481
+70	recebeu	receber	VERB	VERB	_	54	ccomp	_	SpaceAfter=No|TokenRange=482:489
+

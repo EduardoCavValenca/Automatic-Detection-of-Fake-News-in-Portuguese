@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video paula fernandes incorporando pomba gira durante show bomba redes mordida cavalo aguentou chatisse paula fernandes agora bomba redes sociais outro motivo danca esquisita som musica man i feel like woman explodiu redes sociais coreografia pra la bizarra postada fa rendendo variados comentarios
+1	video	video	NOUN	NOUN	_	32	nsubj	_	TokenRange=0:5
+2	paula	paula	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	fernandes	fernande	NOUN	NOUN	_	2	flat	_	TokenRange=12:21
+4	incorporando	incorporar	VERB	VERB	_	1	acl	_	TokenRange=22:34
+5	pomba	pomba	NOUN	NOUN	_	4	obj	_	TokenRange=35:40
+6	gira	_	NOUN	NOUN	_	1	appos	_	TokenRange=41:45
+7	durante	_	ADP	ADP	_	8	case	_	TokenRange=46:53
+8	show	show	NOUN	NOUN	_	4	nmod	_	TokenRange=54:58
+9	bomba	bomba	NOUN	NOUN	_	8	appos	_	TokenRange=59:64
+10	redes	rede	NOUN	NOUN	_	8	appos	_	TokenRange=65:70
+11	mordida	morder	VERB	VERB	_	10	acl	_	TokenRange=71:78
+12	cavalo	cavalo	NOUN	NOUN	_	13	nsubj	_	TokenRange=79:85
+13	aguentou	aguentar	VERB	VERB	_	1	parataxis	_	TokenRange=86:94
+14	chatisse	_	NOUN	NOUN	_	13	obj	_	TokenRange=95:103
+15	paula	_	NOUN	NOUN	_	14	appos	_	TokenRange=104:109
+16	fernandes	fernande	NOUN	NOUN	_	15	flat	_	TokenRange=110:119
+17	agora	agora	ADV	ADV	_	18	advmod	_	TokenRange=120:125
+18	bomba	bomba	NOUN	NOUN	_	15	appos	_	TokenRange=126:131
+19	redes	rede	NOUN	NOUN	_	18	nmod	_	TokenRange=132:137
+20	sociais	social	ADJ	ADJ	_	19	amod	_	TokenRange=138:145
+21	outro	_	DET	DET	_	22	det	_	TokenRange=146:151
+22	motivo	motivo	NOUN	NOUN	_	13	obj	_	TokenRange=152:158
+23	danca	_	NOUN	NOUN	_	22	appos	_	TokenRange=159:164
+24	esquisita	esquisita	NOUN	NOUN	_	23	appos	_	TokenRange=165:174
+25	som	som	ADP	ADP	_	26	case	_	TokenRange=175:178
+26	musica	_	NOUN	NOUN	_	23	nmod	_	TokenRange=179:185
+27	man	_	NOUN	NOUN	_	26	appos	_	TokenRange=186:189
+28	i	_	PROPN	PNOUN	_	29	nsubj	_	TokenRange=190:191
+29	feel	_	AUX	PNOUN	_	26	acl:relcl	_	TokenRange=192:196
+30	like	_	ADV	PNOUN	_	31	advmod	_	TokenRange=197:201
+31	woman	_	NOUN	NOUN	_	29	obj	_	TokenRange=202:207
+32	explodiu	explodir	VERB	VERB	_	0	root	_	TokenRange=208:216
+33	redes	rede	NOUN	NOUN	_	32	obj	_	TokenRange=217:222
+34	sociais	social	ADJ	ADJ	_	33	amod	_	TokenRange=223:230
+35	coreografia	coreografia	NOUN	NOUN	_	32	obj	_	TokenRange=231:242
+36	pra	_	ADP	ADP	_	38	case	_	TokenRange=243:246
+37	la	_	DET	DET	_	38	det	_	TokenRange=247:249
+38	bizarra	bizarra	NOUN	NOUN	_	35	nmod	_	TokenRange=250:257
+39	postada	postar	VERB	VERB	_	35	acl	_	TokenRange=258:265
+40	fa	_	NOUN	NOUN	_	39	obj	_	TokenRange=266:268
+41	rendendo	render	VERB	VERB	_	32	acl	_	TokenRange=269:277
+42	variados	variado	ADJ	ADJ	_	43	amod	_	TokenRange=278:286
+43	comentarios	comentario	NOUN	NOUN	_	41	obj	_	SpaceAfter=No|TokenRange=287:298
+

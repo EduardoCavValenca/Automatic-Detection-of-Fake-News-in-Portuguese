@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = geddel transferido superintendencia pf brasilia presidio papuda exministro preso pf nesta segunda 3 acusado tentar atrapalhar investigacoes operacao cui bono apura corrupcao caixa defesa nega acusacoes exministro geddel vieira lima pmdbba transferido tarde desta tercafeira 4 superintendencia policia federal pf brasilia complexo penitenciario papuda localizada 17 quilometros palacio planalto onde despachava novembro ano passado defesa geddel diz prisao desnecessaria porque faltam provas contra exministro leia detalhes abaixo
+1	geddel	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=0:6
+2	transferido	transferir	VERB	VERB	_	1	acl	_	TokenRange=7:18
+3	superintendencia	superintendencia	NOUN	NOUN	_	2	obj	_	TokenRange=19:35
+4	pf	_	NOUN	NOUN	_	3	flat	_	TokenRange=36:38
+5	brasilia	brasilia	NOUN	NOUN	_	3	amod	_	TokenRange=39:47
+6	presidio	presidio	NOUN	NOUN	_	3	appos	_	TokenRange=48:56
+7	papuda	papudo	ADJ	ADJ	_	6	amod	_	TokenRange=57:63
+8	exministro	exministro	NOUN	NOUN	_	3	appos	_	TokenRange=64:74
+9	preso	_	ADJ	ADJ	_	8	appos	_	TokenRange=75:80
+10	pf	_	NOUN	NOUN	_	9	flat	_	TokenRange=81:83
+11	nesta	_	ADP	ADP	_	13	case	_	TokenRange=84:89
+12	segunda	_	ADJ	ADJ	_	13	amod	_	TokenRange=90:97
+13	3	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=98:99
+14	acusado	acusar	VERB	VERB	_	1	acl	_	TokenRange=100:107
+15	tentar	tentar	VERB	VERB	_	14	xcomp	_	TokenRange=108:114
+16	atrapalhar	atrapalhar	VERB	VERB	_	15	xcomp	_	TokenRange=115:125
+17	investigacoes	investigacoe	NOUN	NOUN	_	16	obj	_	TokenRange=126:139
+18	operacao	operacao	NOUN	NOUN	_	17	appos	_	TokenRange=140:148
+19	cui	_	PRON	PRON	_	21	nsubj	_	TokenRange=149:152
+20	bono	bono	NOUN	NOUN	_	21	nsubj	_	TokenRange=153:157
+21	apura	apurar	VERB	VERB	_	2	conj	_	TokenRange=158:163
+22	corrupcao	corrupcao	NOUN	NOUN	_	21	obj	_	TokenRange=164:173
+23	caixa	caixa	NOUN	NOUN	_	21	obj	_	TokenRange=174:179
+24	defesa	_	NOUN	NOUN	_	23	flat	_	TokenRange=180:186
+25	nega	negar	VERB	VERB	_	21	parataxis	_	TokenRange=187:191
+26	acusacoes	acusacoe	NOUN	NOUN	_	25	obj	_	TokenRange=192:201
+27	exministro	exministro	ADJ	ADJ	_	26	amod	_	TokenRange=202:212
+28	geddel	_	NOUN	NOUN	_	26	appos	_	TokenRange=213:219
+29	vieira	vieira	NOUN	NOUN	_	28	appos	_	TokenRange=220:226
+30	lima	lima	ADJ	ADJ	_	29	amod	_	TokenRange=227:231
+31	pmdbba	_	NOUN	NOUN	_	28	appos	_	TokenRange=232:238
+32	transferido	transferir	VERB	VERB	_	26	acl	_	TokenRange=239:250
+33	tarde	tarde	NOUN	NOUN	_	32	advmod	_	TokenRange=251:256
+34	desta	_	ADP	ADP	_	35	case	_	TokenRange=257:262
+35	tercafeira	tercafeira	NOUN	NOUN	_	33	nmod	_	TokenRange=263:273
+36	4	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=274:275
+37	superintendencia	superintendencia	NOUN	NOUN	_	35	appos	_	TokenRange=276:292
+38	policia	policia	NOUN	NOUN	_	37	appos	_	TokenRange=293:300
+39	federal	federal	ADJ	ADJ	_	38	amod	_	TokenRange=301:308
+40	pf	_	NOUN	NOUN	_	38	appos	_	TokenRange=309:311
+41	brasilia	brasilia	ADJ	ADJ	_	40	flat	_	TokenRange=312:320
+42	complexo	complexo	ADJ	ADJ	_	43	amod	_	TokenRange=321:329
+43	penitenciario	penitenciario	NOUN	NOUN	_	38	appos	_	TokenRange=330:343
+44	papuda	papuda	ADJ	ADJ	_	43	amod	_	TokenRange=344:350
+45	localizada	localizar	VERB	VERB	_	43	acl	_	TokenRange=351:361
+46	17	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=362:364
+47	quilometros	quilometro	NOUN	NOUN	_	45	nmod	_	TokenRange=365:376
+48	palacio	palacio	NOUN	NOUN	_	47	appos	_	TokenRange=377:384
+49	planalto	planalto	ADJ	ADJ	_	48	amod	_	TokenRange=385:393
+50	onde	onde	ADV	ADV	_	51	advmod	_	TokenRange=394:398
+51	despachava	despachar	VERB	VERB	_	48	acl:relcl	_	TokenRange=399:409
+52	novembro	_	PROPN	PNOUN	_	51	obj	_	TokenRange=410:418
+53	ano	ano	NOUN	NOUN	_	51	nmod	_	TokenRange=419:422
+54	passado	passado	ADJ	ADJ	_	53	amod	_	TokenRange=423:430
+55	defesa	_	NOUN	NOUN	_	51	nsubj	_	TokenRange=431:437
+56	geddel	_	NOUN	NOUN	_	55	appos	_	TokenRange=438:444
+57	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=445:448
+58	prisao	prisao	NOUN	NOUN	_	57	obj	_	TokenRange=449:455
+59	desnecessaria	desnecessar	ADJ	ADJ	_	58	amod	_	TokenRange=456:469
+60	porque	_	CCONJ	CONJ	_	61	mark	_	TokenRange=470:476
+61	faltam	faltar	VERB	VERB	_	57	advcl	_	TokenRange=477:483
+62	provas	prova	NOUN	NOUN	_	61	nsubj	_	TokenRange=484:490
+63	contra	_	ADP	ADP	_	64	case	_	TokenRange=491:497
+64	exministro	exministro	NOUN	NOUN	_	62	nmod	_	TokenRange=498:508
+65	leia	ler	VERB	VERB	_	57	parataxis	_	TokenRange=509:513
+66	detalhes	detalhe	NOUN	NOUN	_	65	obj	_	TokenRange=514:522
+67	abaixo	abaixo	ADV	ADV	_	65	advmod	_	SpaceAfter=No|TokenRange=523:529
+

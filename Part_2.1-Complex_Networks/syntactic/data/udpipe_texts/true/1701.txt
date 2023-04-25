@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = especialista tratar pacientes estado terminal medico torna 1 brasileiro premiado internacionalmente andre filipe junqueira santos especializou cuidados paliativos atua area desde 2011 junto equipe cuida qualidade vida pessoas doencas potencialmente fatais especialista tratar pacientes encontram chances recuperar doenca grave medico ribeirao preto sp recebeu honraria maxima profissionais area tornar primeiro brasileiro ganhar premio sociedade americana oncologia clinica estados unidos
+1	especialista	especialista	NOUN	NOUN	_	44	nsubj	_	TokenRange=0:12
+2	tratar	tratar	VERB	VERB	_	1	acl	_	TokenRange=13:19
+3	pacientes	paciente	NOUN	NOUN	_	2	obj	_	TokenRange=20:29
+4	estado	estado	NOUN	NOUN	_	2	appos	_	TokenRange=30:36
+5	terminal	terminal	ADJ	ADJ	_	4	amod	_	TokenRange=37:45
+6	medico	medico	ADJ	ADJ	_	4	amod	_	TokenRange=46:52
+7	torna	torna	NOUN	NOUN	_	2	parataxis	_	TokenRange=53:58
+8	1	_	NUM	NUM	NumType=Card	7	appos	_	TokenRange=59:60
+9	brasileiro	brasileiro	ADJ	ADJ	_	7	amod	_	TokenRange=61:71
+10	premiado	premiado	ADJ	ADJ	_	7	acl	_	TokenRange=72:80
+11	internacionalmente	internacionalmente	ADV	ADV	_	10	advmod	_	TokenRange=81:99
+12	andre	andre	NOUN	NOUN	_	16	nsubj	_	TokenRange=100:105
+13	filipe	filipe	NOUN	NOUN	_	12	flat	_	TokenRange=106:112
+14	junqueira	junqueira	NOUN	NOUN	_	12	flat	_	TokenRange=113:122
+15	santos	santo	NOUN	NOUN	_	14	flat	_	TokenRange=123:129
+16	especializou	especializar	VERB	VERB	_	2	parataxis	_	TokenRange=130:142
+17	cuidados	cuidado	NOUN	NOUN	_	16	obj	_	TokenRange=143:151
+18	paliativos	paliativo	ADJ	ADJ	_	17	amod	_	TokenRange=152:162
+19	atua	_	NOUN	NOUN	_	16	parataxis	_	TokenRange=163:167
+20	area	area	NOUN	NOUN	_	19	flat	_	TokenRange=168:172
+21	desde	_	ADP	ADP	_	22	case	_	TokenRange=173:178
+22	2011	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=179:183
+23	junto	junto	ADV	ADV	_	25	advmod	_	TokenRange=184:189
+24	equipe	equipe	NOUN	NOUN	_	25	nsubj	_	TokenRange=190:196
+25	cuida	_	VERB	VERB	_	19	parataxis	_	TokenRange=197:202
+26	qualidade	qualidade	NOUN	NOUN	_	25	obj	_	TokenRange=203:212
+27	vida	vida	NOUN	NOUN	_	26	flat	_	TokenRange=213:217
+28	pessoas	pessoa	NOUN	NOUN	_	29	amod	_	TokenRange=218:225
+29	doencas	doenca	NOUN	NOUN	_	25	nsubj	_	TokenRange=226:233
+30	potencialmente	potencialmente	ADV	ADV	_	31	advmod	_	TokenRange=234:248
+31	fatais	fatal	ADJ	ADJ	_	29	amod	_	TokenRange=249:255
+32	especialista	especialista	ADJ	ADJ	_	33	nsubj	_	TokenRange=256:268
+33	tratar	tratar	VERB	VERB	_	35	csubj	_	TokenRange=269:275
+34	pacientes	paciente	NOUN	NOUN	_	33	obj	_	TokenRange=276:285
+35	encontram	encontrar	VERB	VERB	_	29	acl:relcl	_	TokenRange=286:295
+36	chances	chance	NOUN	NOUN	_	35	obj	_	TokenRange=296:303
+37	recuperar	recuperar	VERB	VERB	_	36	acl:inf	_	TokenRange=304:313
+38	doenca	doenca	NOUN	NOUN	_	37	obj	_	TokenRange=314:320
+39	grave	grave	ADJ	ADJ	_	38	amod	_	TokenRange=321:326
+40	medico	medico	NOUN	NOUN	_	38	appos	_	TokenRange=327:333
+41	ribeirao	ribeirao	NOUN	NOUN	_	38	appos	_	TokenRange=334:342
+42	preto	preto	ADJ	ADJ	_	41	amod	_	TokenRange=343:348
+43	sp	_	ADJ	ADJ	_	41	amod	_	TokenRange=349:351
+44	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=352:359
+45	honraria	honraria	NOUN	NOUN	_	44	obj	_	TokenRange=360:368
+46	maxima	maxima	ADJ	ADJ	_	45	amod	_	TokenRange=369:375
+47	profissionais	profissional	NOUN	NOUN	_	45	appos	_	TokenRange=376:389
+48	area	area	NOUN	NOUN	_	45	flat	_	TokenRange=390:394
+49	tornar	tornar	AUX	AUX	_	51	cop	_	TokenRange=395:401
+50	primeiro	primeiro	ADJ	ADJ	_	51	amod	_	TokenRange=402:410
+51	brasileiro	brasileiro	NOUN	NOUN	_	45	amod	_	TokenRange=411:421
+52	ganhar	ganhar	VERB	VERB	_	51	csubj	_	TokenRange=422:428
+53	premio	premio	NOUN	NOUN	_	52	obj	_	TokenRange=429:435
+54	sociedade	sociedade	NOUN	NOUN	_	52	obj	_	TokenRange=436:445
+55	americana	americano	ADJ	ADJ	_	54	amod	_	TokenRange=446:455
+56	oncologia	oncologia	NOUN	NOUN	_	54	appos	_	TokenRange=456:465
+57	clinica	clinico	ADJ	ADJ	_	54	amod	_	TokenRange=466:473
+58	estados	estado	NOUN	NOUN	_	54	appos	_	TokenRange=474:481
+59	unidos	unido	ADJ	ADJ	_	58	amod	_	SpaceAfter=No|TokenRange=482:488
+

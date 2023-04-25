@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maior vergonha tv brasileira ultimos tempos apresentadora fala palavrao cabeludo vivo cardozao exadvogado dilma citar jurista tomas turbando gafe vez jornalista maria beltrao ultimo domingo 30 apresentadora programa estudio i canal globo news concentradissima cobertura eleicoes repente participacao inusitada internauta chamou atencao beltrao ler tal participacao feita atraves twitter confira leia
+1	maior	maior	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	vergonha	vergonha	NOUN	NOUN	_	8	nsubj	_	TokenRange=6:14
+3	tv	tv	NOUN	NOUN	_	2	appos	_	TokenRange=15:17
+4	brasileira	brasileiro	ADJ	ADJ	_	3	amod	_	TokenRange=18:28
+5	ultimos	_	ADJ	ADJ	_	6	amod	_	TokenRange=29:36
+6	tempos	tempo	NOUN	NOUN	_	2	appos	_	TokenRange=37:43
+7	apresentadora	apresentador	NOUN	NOUN	_	2	appos	_	TokenRange=44:57
+8	fala	_	VERB	VERB	_	0	root	_	TokenRange=58:62
+9	palavrao	palavrao	NOUN	NOUN	_	8	obj	_	TokenRange=63:71
+10	cabeludo	cabeludo	NOUN	NOUN	_	8	obj	_	TokenRange=72:80
+11	vivo	vivo	ADJ	ADJ	_	10	amod	_	TokenRange=81:85
+12	cardozao	cardozao	NOUN	NOUN	_	13	amod	_	TokenRange=86:94
+13	exadvogado	exadvogado	NOUN	NOUN	_	10	appos	_	TokenRange=95:105
+14	dilma	_	NOUN	NOUN	_	13	amod	_	TokenRange=106:111
+15	citar	citar	VERB	VERB	_	13	acl:relcl	_	TokenRange=112:117
+16	jurista	jurista	NOUN	NOUN	_	15	obj	_	TokenRange=118:125
+17	tomas	_	NOUN	NOUN	_	16	appos	_	TokenRange=126:131
+18	turbando	_	NOUN	NOUN	_	16	appos	_	TokenRange=132:140
+19	gafe	gafe	NOUN	NOUN	_	16	appos	_	TokenRange=141:145
+20	vez	vez	NOUN	NOUN	_	19	flat	_	TokenRange=146:149
+21	jornalista	jornalista	NOUN	NOUN	_	19	appos	_	TokenRange=150:160
+22	maria	_	NOUN	NOUN	_	21	appos	_	TokenRange=161:166
+23	beltrao	beltrao	ADJ	ADJ	_	22	flat	_	TokenRange=167:174
+24	ultimo	_	ADJ	ADJ	_	25	amod	_	TokenRange=175:181
+25	domingo	_	PROPN	PNOUN	_	22	appos	_	TokenRange=182:189
+26	30	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=190:192
+27	apresentadora	apresentador	NOUN	NOUN	_	28	appos	_	TokenRange=193:206
+28	programa	programa	NOUN	NOUN	_	41	nsubj	_	TokenRange=207:215
+29	estudio	estudio	NOUN	NOUN	_	28	appos	_	TokenRange=216:223
+30	i	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=224:225
+31	canal	canal	NOUN	NOUN	_	28	appos	_	TokenRange=226:231
+32	globo	globo	ADJ	NOUN	_	31	amod	_	TokenRange=232:237
+33	news	_	NOUN	NOUN	_	35	appos	_	TokenRange=238:242
+34	concentradissima	concentradissimo	ADJ	ADJ	_	35	amod	_	TokenRange=243:259
+35	cobertura	cobertura	NOUN	NOUN	_	28	appos	_	TokenRange=260:269
+36	eleicoes	eleicoe	NOUN	NOUN	_	35	appos	_	TokenRange=270:278
+37	repente	repente	ADJ	ADJ	_	38	amod	_	TokenRange=279:286
+38	participacao	participacao	NOUN	NOUN	_	35	appos	_	TokenRange=287:299
+39	inusitada	inusitado	ADJ	ADJ	_	38	amod	_	TokenRange=300:309
+40	internauta	internauta	NOUN	NOUN	_	38	amod	_	TokenRange=310:320
+41	chamou	chamar	VERB	VERB	_	8	parataxis	_	TokenRange=321:327
+42	atencao	atencao	NOUN	NOUN	_	41	obj	_	TokenRange=328:335
+43	beltrao	beltrao	ADJ	ADJ	_	42	amod	_	TokenRange=336:343
+44	ler	ler	VERB	VERB	_	41	ccomp	_	TokenRange=344:347
+45	tal	_	DET	DET	_	46	det	_	TokenRange=348:351
+46	participacao	participacao	NOUN	NOUN	_	44	obj	_	TokenRange=352:364
+47	feita	_	VERB	VERB	_	46	acl	_	TokenRange=365:370
+48	atraves	_	ADV	ADV	_	47	advmod	_	TokenRange=371:378
+49	twitter	_	PROPN	PNOUN	_	48	appos	_	TokenRange=379:386
+50	confira	conferir	VERB	VERB	_	41	parataxis	_	TokenRange=387:394
+51	leia	leia	NOUN	NOUN	_	50	obj	_	SpaceAfter=No|TokenRange=395:399
+

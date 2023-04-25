@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senador malta irrita filhos lula parecem rei midas onde tocam vira ouro magno malta pres analisa rapido enriquecimento meninos lula meninos traquinos disse senador malta diz milionarios senador maga empresario blairo maggi tasso jereissati ascensao tao rapida
+1	senador	senador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	malta	malta	NOUN	NOUN	_	1	amod	_	TokenRange=8:13
+3	irrita	irritar	VERB	VERB	_	0	root	_	TokenRange=14:20
+4	filhos	filho	NOUN	NOUN	_	3	obj	_	TokenRange=21:27
+5	lula	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=28:32
+6	parecem	parecer	VERB	VERB	_	1	acl:relcl	_	TokenRange=33:40
+7	rei	rei	NOUN	NOUN	_	6	obj	_	TokenRange=41:44
+8	midas	mida	NOUN	NOUN	_	7	appos	_	TokenRange=45:50
+9	onde	onde	ADV	ADV	_	10	advmod	_	TokenRange=51:55
+10	tocam	tocar	VERB	VERB	_	8	acl:relcl	_	TokenRange=56:61
+11	vira	_	AUX	VERB	_	12	acl:relcl	_	TokenRange=62:66
+12	ouro	ouro	NOUN	NOUN	_	6	obj	_	TokenRange=67:71
+13	magno	magno	ADJ	ADJ	_	12	amod	_	TokenRange=72:77
+14	malta	malta	NOUN	NOUN	_	16	nsubj	_	TokenRange=78:83
+15	pres	_	NOUN	NOUN	_	14	flat	_	TokenRange=84:88
+16	analisa	analisar	VERB	VERB	_	12	acl:relcl	_	TokenRange=89:96
+17	rapido	rapido	ADJ	ADJ	_	16	xcomp	_	TokenRange=97:103
+18	enriquecimento	enriquecimento	NOUN	NOUN	_	16	nsubj	_	TokenRange=104:118
+19	meninos	menino	NOUN	NOUN	_	18	amod	_	TokenRange=119:126
+20	lula	_	NOUN	NOUN	_	18	appos	_	TokenRange=127:131
+21	meninos	menino	NOUN	NOUN	_	18	appos	_	TokenRange=132:139
+22	traquinos	traquino	ADJ	ADJ	_	21	amod	_	TokenRange=140:149
+23	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=150:155
+24	senador	senador	NOUN	NOUN	_	26	nsubj	_	TokenRange=156:163
+25	malta	malta	NOUN	NOUN	_	24	flat	_	TokenRange=164:169
+26	diz	dizer	VERB	VERB	_	23	ccomp	_	TokenRange=170:173
+27	milionarios	milionario	NOUN	NOUN	_	26	obj	_	TokenRange=174:185
+28	senador	senador	NOUN	NOUN	_	27	appos	_	TokenRange=186:193
+29	maga	_	NOUN	NOUN	_	28	flat	_	TokenRange=194:198
+30	empresario	empresario	NOUN	NOUN	_	27	appos	_	TokenRange=199:209
+31	blairo	blairo	NOUN	NOUN	_	32	flat	_	TokenRange=210:216
+32	maggi	_	NOUN	NOUN	_	28	appos	_	TokenRange=217:222
+33	tasso	tasso	NOUN	NOUN	_	32	flat	_	TokenRange=223:228
+34	jereissati	_	NOUN	NOUN	_	32	flat	_	TokenRange=229:239
+35	ascensao	ascensao	NOUN	NOUN	_	26	obj	_	TokenRange=240:248
+36	tao	tao	ADV	ADV	_	37	advmod	_	TokenRange=249:252
+37	rapida	rapido	ADJ	ADJ	_	35	amod	_	SpaceAfter=No|TokenRange=253:259
+

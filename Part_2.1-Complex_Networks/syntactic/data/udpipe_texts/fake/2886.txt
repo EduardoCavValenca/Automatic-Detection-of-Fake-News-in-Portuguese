@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reale junior pt vitima golpe pt tentando dar golpe nunca vi crime tantas digitais disse jurista senado federal hoje28 1905h jurista miguel reale junior deixou senador lindbergh falar vontade lindinho falou falou disse nada reale junior respondeu toda calma sabedoria possivel cometa delito tantas provas evidentes crime responsabilidade punicao forma golpe dilma lula pt tentando dar golpe pais
+1	reale	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:5
+2	junior	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:12
+3	pt	_	CCONJ	CONJ	_	1	flat	_	TokenRange=13:15
+4	vitima	_	NOUN	NOUN	_	1	conj	_	TokenRange=16:22
+5	golpe	golpe	NOUN	NOUN	_	1	appos	_	TokenRange=23:28
+6	pt	_	NOUN	NOUN	_	5	flat	_	TokenRange=29:31
+7	tentando	tentar	VERB	VERB	_	1	acl	_	TokenRange=32:40
+8	dar	dar	VERB	VERB	_	7	xcomp	_	TokenRange=41:44
+9	golpe	golpe	NOUN	NOUN	_	8	obj	_	TokenRange=45:50
+10	nunca	nunca	ADV	ADV	_	11	advmod	_	TokenRange=51:56
+11	vi	_	VERB	VERB	_	0	root	_	TokenRange=57:59
+12	crime	crime	NOUN	NOUN	_	11	obj	_	TokenRange=60:65
+13	tantas	_	DET	DET	_	14	det	_	TokenRange=66:72
+14	digitais	digital	NOUN	NOUN	_	15	nsubj	_	TokenRange=73:81
+15	disse	dizer	VERB	VERB	_	11	parataxis	_	TokenRange=82:87
+16	jurista	jurista	NOUN	NOUN	_	15	obj	_	TokenRange=88:95
+17	senado	senado	NOUN	NOUN	_	16	appos	_	TokenRange=96:102
+18	federal	federal	ADJ	ADJ	_	17	amod	_	TokenRange=103:110
+19	hoje28	hoje28	NOUN	NOUN	_	25	nsubj	_	TokenRange=111:117
+20	1905h	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=118:123
+21	jurista	jurista	NOUN	NOUN	_	25	nsubj	_	TokenRange=124:131
+22	miguel	miguel	ADJ	ADJ	_	21	amod	_	TokenRange=132:138
+23	reale	_	NOUN	NOUN	_	21	appos	_	TokenRange=139:144
+24	junior	junior	ADJ	ADJ	_	21	amod	_	TokenRange=145:151
+25	deixou	deixar	VERB	VERB	_	15	conj	_	TokenRange=152:158
+26	senador	senador	NOUN	NOUN	_	25	obj	_	TokenRange=159:166
+27	lindbergh	_	ADJ	NOUN	_	26	amod	_	TokenRange=167:176
+28	falar	falar	VERB	VERB	_	26	acl:inf	_	TokenRange=177:182
+29	vontade	vontade	NOUN	NOUN	_	28	obj	_	TokenRange=183:190
+30	lindinho	_	ADJ	NOUN	_	31	nsubj	_	TokenRange=191:199
+31	falou	falar	VERB	VERB	_	28	conj	_	TokenRange=200:205
+32	falou	falar	VERB	VERB	_	31	ccomp	_	TokenRange=206:211
+33	disse	dizer	VERB	VERB	_	31	parataxis	_	TokenRange=212:217
+34	nada	_	PRON	PRON	_	37	nsubj	_	TokenRange=218:222
+35	reale	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=223:228
+36	junior	_	ADJ	ADJ	_	35	amod	_	TokenRange=229:235
+37	respondeu	responder	VERB	VERB	_	33	ccomp	_	TokenRange=236:245
+38	toda	_	DET	DET	_	40	det	_	TokenRange=246:250
+39	calma	calmo	ADJ	ADJ	_	40	amod	_	TokenRange=251:256
+40	sabedoria	sabedoria	NOUN	NOUN	_	37	obj	_	TokenRange=257:266
+41	possivel	_	ADJ	ADJ	_	40	amod	_	TokenRange=267:275
+42	cometa	cometar	VERB	VERB	_	37	conj	_	TokenRange=276:282
+43	delito	delito	NOUN	NOUN	_	42	obj	_	TokenRange=283:289
+44	tantas	_	DET	DET	_	45	det	_	TokenRange=290:296
+45	provas	prova	NOUN	NOUN	_	42	obj	_	TokenRange=297:303
+46	evidentes	evidente	ADJ	ADJ	_	45	amod	_	TokenRange=304:313
+47	crime	crime	ADJ	ADJ	_	45	amod	_	TokenRange=314:319
+48	responsabilidade	responsabilidade	NOUN	NOUN	_	45	appos	_	TokenRange=320:336
+49	punicao	punicao	ADJ	ADJ	_	50	amod	_	TokenRange=337:344
+50	forma	forma	NOUN	NOUN	_	45	appos	_	TokenRange=345:350
+51	golpe	golpe	NOUN	NOUN	_	50	flat	_	TokenRange=351:356
+52	dilma	_	NOUN	NOUN	_	50	appos	_	TokenRange=357:362
+53	lula	_	NOUN	NOUN	_	50	appos	_	TokenRange=363:367
+54	pt	_	PROPN	PNOUN	_	53	flat	_	TokenRange=368:370
+55	tentando	tentar	VERB	VERB	_	42	acl	_	TokenRange=371:379
+56	dar	dar	VERB	VERB	_	55	xcomp	_	TokenRange=380:383
+57	golpe	golpe	NOUN	NOUN	_	56	obj	_	TokenRange=384:389
+58	pais	_	NOUN	NOUN	_	57	appos	_	SpaceAfter=No|TokenRange=390:394
+

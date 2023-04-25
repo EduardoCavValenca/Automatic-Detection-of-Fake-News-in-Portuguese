@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = chefe inteligencia pm viajou europa durante carnaval crivella funcoes coronel antonio goulart orientar corporacao planejamento patrulhamento 17110 policiais prometidos folia fracionados longo dias prefeito rio marcelo crivella iria retornar cidade nesta quintafeira 15 viagem fez europa durante carnaval segundo justificou visita continente buscar solucoes inteligencia tecnologia seguranca publica delegacao prefeito nome chamou atencao meio onda violencia tomou ruas rj durante folia coronel policia militar antonio jorge goulart chefe setor
+1	chefe	chefe	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	inteligencia	inteligencia	NOUN	NOUN	_	1	flat	_	TokenRange=6:18
+3	pm	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=19:21
+4	viajou	viajar	VERB	VERB	_	0	root	_	TokenRange=22:28
+5	europa	_	NOUN	NOUN	_	4	obj	_	TokenRange=29:35
+6	durante	_	ADP	ADP	_	7	case	_	TokenRange=36:43
+7	carnaval	carnaval	NOUN	NOUN	_	4	nmod	_	TokenRange=44:52
+8	crivella	_	ADJ	ADJ	_	4	mark	_	TokenRange=53:61
+9	funcoes	funcoe	NOUN	NOUN	_	4	nsubj	_	TokenRange=62:69
+10	coronel	coronel	NOUN	NOUN	_	9	flat	_	TokenRange=70:77
+11	antonio	antonio	NOUN	NOUN	_	9	appos	_	TokenRange=78:85
+12	goulart	_	NOUN	NOUN	_	11	flat	_	TokenRange=86:93
+13	orientar	orientar	VERB	VERB	_	4	parataxis	_	TokenRange=94:102
+14	corporacao	corporacao	NOUN	NOUN	_	13	obj	_	TokenRange=103:113
+15	planejamento	planejamento	NOUN	NOUN	_	14	appos	_	TokenRange=114:126
+16	patrulhamento	patrulhamento	NOUN	NOUN	_	15	flat	_	TokenRange=127:140
+17	17110	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=141:146
+18	policiais	policial	NOUN	NOUN	_	14	appos	_	TokenRange=147:156
+19	prometidos	prometer	VERB	VERB	_	18	acl	_	TokenRange=157:167
+20	folia	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=168:173
+21	fracionados	fracionado	ADJ	ADJ	_	23	amod	_	TokenRange=174:185
+22	longo	longo	ADJ	ADJ	_	23	amod	_	TokenRange=186:191
+23	dias	dia	NOUN	NOUN	_	29	nsubj	_	TokenRange=192:196
+24	prefeito	prefeito	NOUN	NOUN	_	29	nsubj	_	TokenRange=197:205
+25	rio	rio	NOUN	NOUN	_	24	appos	_	TokenRange=206:209
+26	marcelo	marcelo	NOUN	NOUN	_	24	appos	_	TokenRange=210:217
+27	crivella	_	ADJ	NOUN	_	24	flat	_	TokenRange=218:226
+28	iria	_	AUX	AUX	_	29	aux	_	TokenRange=227:231
+29	retornar	retornar	VERB	VERB	_	4	parataxis	_	TokenRange=232:240
+30	cidade	cidade	NOUN	NOUN	_	29	obj	_	TokenRange=241:247
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=248:253
+32	quintafeira	quintafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=254:265
+33	15	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=266:268
+34	viagem	viagem	NOUN	NOUN	_	35	nsubj	_	TokenRange=269:275
+35	fez	fazer	VERB	VERB	_	29	parataxis	_	TokenRange=276:279
+36	europa	_	NOUN	NOUN	_	35	obj	_	TokenRange=280:286
+37	durante	_	ADP	ADP	_	38	case	_	TokenRange=287:294
+38	carnaval	carnaval	NOUN	NOUN	_	35	nmod	_	TokenRange=295:303
+39	segundo	_	CCONJ	CONJ	_	40	mark	_	TokenRange=304:311
+40	justificou	justificar	VERB	VERB	_	35	advcl	_	TokenRange=312:322
+41	visita	visita	NOUN	NOUN	_	40	obj	_	TokenRange=323:329
+42	continente	continente	ADJ	ADJ	_	41	amod	_	TokenRange=330:340
+43	buscar	buscar	VERB	VERB	_	41	acl:inf	_	TokenRange=341:347
+44	solucoes	solucoe	NOUN	NOUN	_	43	obj	_	TokenRange=348:356
+45	inteligencia	inteligencia	NOUN	NOUN	_	44	appos	_	TokenRange=357:369
+46	tecnologia	tecnologia	NOUN	NOUN	_	45	flat	_	TokenRange=370:380
+47	seguranca	_	NOUN	NOUN	_	43	appos	_	TokenRange=381:390
+48	publica	publico	ADJ	ADJ	_	47	amod	_	TokenRange=391:398
+49	delegacao	delegacao	NOUN	NOUN	_	52	nsubj	_	TokenRange=399:408
+50	prefeito	prefeito	NOUN	NOUN	_	52	nsubj	_	TokenRange=409:417
+51	nome	nome	NOUN	NOUN	_	50	flat	_	TokenRange=418:422
+52	chamou	chamar	VERB	VERB	_	43	parataxis	_	TokenRange=423:429
+53	atencao	atencao	NOUN	NOUN	_	52	obj	_	TokenRange=430:437
+54	meio	meio	ADJ	ADJ	_	55	amod	_	TokenRange=438:442
+55	onda	onda	NOUN	NOUN	_	52	obj	_	TokenRange=443:447
+56	violencia	violencia	NOUN	NOUN	_	55	appos	_	TokenRange=448:457
+57	tomou	tomar	VERB	VERB	_	52	parataxis	_	TokenRange=458:463
+58	ruas	rua	NOUN	NOUN	_	57	obj	_	TokenRange=464:468
+59	rj	_	NOUN	NOUN	_	57	advmod	_	TokenRange=469:471
+60	durante	_	ADP	ADP	_	61	case	_	TokenRange=472:479
+61	folia	folia	NOUN	NOUN	_	57	nmod	_	TokenRange=480:485
+62	coronel	coronel	NOUN	NOUN	_	61	amod	_	TokenRange=486:493
+63	policia	policia	NOUN	NOUN	_	68	appos	_	TokenRange=494:501
+64	militar	militar	ADJ	ADJ	_	63	amod	_	TokenRange=502:509
+65	antonio	antonio	ADJ	ADJ	_	63	appos	_	TokenRange=510:517
+66	jorge	jorge	NOUN	NOUN	_	65	flat	_	TokenRange=518:523
+67	goulart	_	ADJ	ADJ	_	65	flat	_	TokenRange=524:531
+68	chefe	chefe	NOUN	NOUN	_	57	parataxis	_	TokenRange=532:537
+69	setor	setor	NOUN	NOUN	_	68	flat	_	SpaceAfter=No|TokenRange=538:543
+

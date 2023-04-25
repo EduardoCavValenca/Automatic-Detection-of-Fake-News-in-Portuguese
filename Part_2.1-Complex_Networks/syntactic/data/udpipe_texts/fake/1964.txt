@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quebraloei apos declarar pais pode falir 2024 presidente gasta r 600 mil roda samba temer declarou folha sp brasil pode quebrar literalmente 2024 caso controle rapidamente gastos publicos resolveu ostentar dinheiro povo festa luxuosa onde gastou praticamente 600 mil reais erario publico celebrar centenario samba grandes prioridades anunciadas michel reduzir deficit estado brasileiro eliminando custos elevados sendo praticados lula dilma retorica temer poupar maximo dinheiro publico porque dignissimo presidente incomoda gastar pequenas fortunas festa comemorativa poucos convidados sei michel pt
+1	quebraloei	quebraloar	VERB	VERB	_	0	root	_	TokenRange=0:10
+2	apos	_	ADP	ADP	_	3	mark	_	TokenRange=11:15
+3	declarar	declarar	VERB	VERB	_	1	advcl	_	TokenRange=16:24
+4	pais	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=25:29
+5	pode	_	AUX	AUX	_	6	aux	_	TokenRange=30:34
+6	falir	falir	VERB	VERB	_	3	ccomp	_	TokenRange=35:40
+7	2024	_	NUM	NUM	NumType=Card	6	nsubj	_	TokenRange=41:45
+8	presidente	presidente	NOUN	NOUN	_	9	nsubj	_	TokenRange=46:56
+9	gasta	gastar	VERB	VERB	_	6	ccomp	_	TokenRange=57:62
+10	r	r	NOUN	NOUN	_	9	obj	_	TokenRange=63:64
+11	600	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=65:68
+12	mil	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=69:72
+13	roda	roda	NOUN	NOUN	_	9	obj	_	TokenRange=73:77
+14	samba	samba	NOUN	NOUN	_	13	flat	_	TokenRange=78:83
+15	temer	temer	NOUN	NOUN	_	13	flat	_	TokenRange=84:89
+16	declarou	declarar	VERB	VERB	_	6	parataxis	_	TokenRange=90:98
+17	folha	folha	NOUN	NOUN	_	16	obj	_	TokenRange=99:104
+18	sp	_	ADJ	ADJ	_	17	amod	_	TokenRange=105:107
+19	brasil	brasil	NOUN	NOUN	_	21	nsubj	_	TokenRange=108:114
+20	pode	_	AUX	AUX	_	21	aux	_	TokenRange=115:119
+21	quebrar	quebrar	VERB	VERB	_	6	parataxis	_	TokenRange=120:127
+22	literalmente	literalmente	ADV	ADV	_	21	advmod	_	TokenRange=128:140
+23	2024	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=141:145
+24	caso	_	CCONJ	CONJ	_	25	mark	_	TokenRange=146:150
+25	controle	_	VERB	VERB	_	21	advcl	_	TokenRange=151:159
+26	rapidamente	rapidamente	ADV	ADV	_	25	advmod	_	TokenRange=160:171
+27	gastos	gasto	NOUN	NOUN	_	25	obj	_	TokenRange=172:178
+28	publicos	publico	ADJ	ADJ	_	27	amod	_	TokenRange=179:187
+29	resolveu	resolver	VERB	VERB	_	21	parataxis	_	TokenRange=188:196
+30	ostentar	ostentar	VERB	VERB	_	29	xcomp	_	TokenRange=197:205
+31	dinheiro	dinheiro	NOUN	NOUN	_	30	obj	_	TokenRange=206:214
+32	povo	povo	ADJ	ADJ	_	33	amod	_	TokenRange=215:219
+33	festa	festa	NOUN	NOUN	_	30	obj	_	TokenRange=220:225
+34	luxuosa	luxuoso	ADJ	ADJ	_	33	amod	_	TokenRange=226:233
+35	onde	onde	ADV	ADV	_	36	advmod	_	TokenRange=234:238
+36	gastou	gastar	VERB	VERB	_	33	acl:relcl	_	TokenRange=239:245
+37	praticamente	praticamente	ADV	ADV	_	39	advmod	_	TokenRange=246:258
+38	600	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=259:262
+39	mil	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=263:266
+40	reais	real	NOUN	NOUN	_	36	obj	_	TokenRange=267:272
+41	erario	erario	NOUN	NOUN	_	36	obj	_	TokenRange=273:279
+42	publico	_	ADJ	ADJ	_	41	amod	_	TokenRange=280:287
+43	celebrar	celebrar	VERB	VERB	_	41	acl:inf	_	TokenRange=288:296
+44	centenario	centenario	NOUN	NOUN	_	43	obj	_	TokenRange=297:307
+45	samba	samba	NOUN	NOUN	_	44	flat	_	TokenRange=308:313
+46	grandes	grande	ADJ	ADJ	_	47	amod	_	TokenRange=314:321
+47	prioridades	prioridade	NOUN	NOUN	_	43	nsubj	_	TokenRange=322:333
+48	anunciadas	anunciar	VERB	VERB	_	47	acl	_	TokenRange=334:344
+49	michel	_	ADJ	ADJ	_	50	nsubj	_	TokenRange=345:351
+50	reduzir	reduzir	VERB	VERB	_	48	ccomp	_	TokenRange=352:359
+51	deficit	deficit	NOUN	NOUN	_	50	obj	_	TokenRange=360:367
+52	estado	estado	NOUN	NOUN	_	50	obj	_	TokenRange=368:374
+53	brasileiro	brasileiro	ADJ	ADJ	_	52	amod	_	TokenRange=375:385
+54	eliminando	eliminar	VERB	VERB	_	50	acl	_	TokenRange=386:396
+55	custos	custo	NOUN	NOUN	_	54	obj	_	TokenRange=397:403
+56	elevados	elevado	ADJ	ADJ	_	55	amod	_	TokenRange=404:412
+57	sendo	ser	AUX	AUX	_	58	aux:pass	_	TokenRange=413:418
+58	praticados	praticar	VERB	VERB	_	55	acl	_	TokenRange=419:429
+59	lula	lula	NOUN	NOUN	_	58	nsubj:pass	_	TokenRange=430:434
+60	dilma	dilma	ADJ	ADJ	_	59	amod	_	TokenRange=435:440
+61	retorica	_	NOUN	NOUN	_	59	flat	_	TokenRange=441:449
+62	temer	temer	VERB	VERB	_	59	appos	_	TokenRange=450:455
+63	poupar	poupar	VERB	VERB	_	62	xcomp	_	TokenRange=456:462
+64	maximo	maximo	ADJ	ADJ	_	65	amod	_	TokenRange=463:469
+65	dinheiro	dinheiro	NOUN	NOUN	_	63	obj	_	TokenRange=470:478
+66	publico	publico	ADJ	ADJ	_	65	amod	_	TokenRange=479:486
+67	porque	_	CCONJ	CONJ	_	70	mark	_	TokenRange=487:493
+68	dignissimo	dignissimo	ADJ	ADJ	_	69	amod	_	TokenRange=494:504
+69	presidente	presidente	NOUN	NOUN	_	70	nsubj	_	TokenRange=505:515
+70	incomoda	incomodar	VERB	VERB	_	78	advcl	_	TokenRange=516:524
+71	gastar	gastar	VERB	VERB	_	70	xcomp	_	TokenRange=525:531
+72	pequenas	pequeno	ADJ	ADJ	_	73	amod	_	TokenRange=532:540
+73	fortunas	fortuna	NOUN	NOUN	_	71	obj	_	TokenRange=541:549
+74	festa	festa	NOUN	NOUN	_	71	obj	_	TokenRange=550:555
+75	comemorativa	comemorativo	ADJ	ADJ	_	74	amod	_	TokenRange=556:568
+76	poucos	_	DET	DET	_	77	det	_	TokenRange=569:575
+77	convidados	convidado	NOUN	NOUN	_	78	nsubj	_	TokenRange=576:586
+78	sei	saber	VERB	VERB	_	63	parataxis	_	TokenRange=587:590
+79	michel	_	PROPN	PNOUN	_	78	obj	_	TokenRange=591:597
+80	pt	_	PROPN	PNOUN	_	78	obj	_	SpaceAfter=No|TokenRange=598:600
+

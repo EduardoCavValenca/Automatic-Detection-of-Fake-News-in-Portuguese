@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = secretaria justica defesa cidadania paulo manteve condenacao presidente prtb levy fidelix multado pratica discriminacao homofobica fidelix devera pagar r 25070 feito declaracoes homofobicas durante debate eleicoes 2014 multa estipulada 1000 ufesps valor ufesp periodo 1 janeiro 31 dezembro 2017 r 2507 denuncia discriminacao homofobica formulada coordenacao politica diversidade
+1	secretaria	secretaria	NOUN	NOUN	_	6	parataxis	_	TokenRange=0:10
+2	justica	justico	ADJ	ADJ	_	1	amod	_	TokenRange=11:18
+3	defesa	_	NOUN	NOUN	_	1	appos	_	TokenRange=19:25
+4	cidadania	cidadania	NOUN	NOUN	_	1	appos	_	TokenRange=26:35
+5	paulo	_	NOUN	NOUN	_	3	flat	_	TokenRange=36:41
+6	manteve	manter	VERB	VERB	_	0	root	_	TokenRange=42:49
+7	condenacao	_	NOUN	NOUN	_	6	obj	_	TokenRange=50:60
+8	presidente	presidente	NOUN	NOUN	_	6	obj	_	TokenRange=61:71
+9	prtb	_	NOUN	NOUN	_	8	appos	_	TokenRange=72:76
+10	levy	levy	NOUN	NOUN	_	8	flat	_	TokenRange=77:81
+11	fidelix	_	NOUN	NOUN	_	8	appos	_	TokenRange=82:89
+12	multado	multar	VERB	VERB	_	8	acl	_	TokenRange=90:97
+13	pratica	_	ADJ	ADJ	_	14	amod	_	TokenRange=98:105
+14	discriminacao	discriminacao	NOUN	NOUN	_	12	obj	_	TokenRange=106:119
+15	homofobica	homofobico	ADJ	ADJ	_	14	amod	_	TokenRange=120:130
+16	fidelix	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=131:138
+17	devera	_	AUX	AUX	_	18	aux	_	TokenRange=139:145
+18	pagar	pagar	VERB	VERB	_	6	parataxis	_	TokenRange=146:151
+19	r	r	NOUN	NOUN	_	18	obj	_	TokenRange=152:153
+20	25070	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=154:159
+21	feito	_	VERB	VERB	_	18	acl	_	TokenRange=160:165
+22	declaracoes	declaracoe	NOUN	NOUN	_	21	obj	_	TokenRange=166:177
+23	homofobicas	homofobico	ADJ	ADJ	_	22	amod	_	TokenRange=178:189
+24	durante	_	ADP	ADP	_	25	case	_	TokenRange=190:197
+25	debate	debate	NOUN	NOUN	_	21	nmod	_	TokenRange=198:204
+26	eleicoes	eleicoe	NOUN	NOUN	_	25	appos	_	TokenRange=205:213
+27	2014	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=214:218
+28	multa	multa	NOUN	NOUN	_	25	appos	_	TokenRange=219:224
+29	estipulada	estipular	VERB	VERB	_	28	acl	_	TokenRange=225:235
+30	1000	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=236:240
+31	ufesps	_	NOUN	NOUN	_	29	nmod	_	TokenRange=241:247
+32	valor	valor	NOUN	NOUN	_	31	appos	_	TokenRange=248:253
+33	ufesp	_	NOUN	NOUN	_	32	flat	_	TokenRange=254:259
+34	periodo	periodo	NOUN	NOUN	_	31	appos	_	TokenRange=260:267
+35	1	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=268:269
+36	janeiro	_	PROPN	PNOUN	_	34	appos	_	TokenRange=270:277
+37	31	_	NUM	NUM	NumType=Card	36	nmod	_	TokenRange=278:280
+38	dezembro	_	PROPN	PNOUN	_	36	nmod	_	TokenRange=281:289
+39	2017	_	NUM	NUM	NumType=Card	38	nmod	_	TokenRange=290:294
+40	r	r	PUNCT	.	_	42	punct	_	TokenRange=295:296
+41	2507	_	NUM	NUM	NumType=Card	42	nsubj	_	TokenRange=297:301
+42	denuncia	denunciar	VERB	VERB	_	6	parataxis	_	TokenRange=302:310
+43	discriminacao	discriminacao	NOUN	NOUN	_	42	obj	_	TokenRange=311:324
+44	homofobica	homofobico	ADJ	ADJ	_	43	amod	_	TokenRange=325:335
+45	formulada	formular	VERB	VERB	_	43	acl	_	TokenRange=336:345
+46	coordenacao	coordenacao	NOUN	NOUN	_	45	obj	_	TokenRange=346:357
+47	politica	politico	ADJ	ADJ	_	48	amod	_	TokenRange=358:366
+48	diversidade	diversidade	NOUN	NOUN	_	46	appos	_	SpaceAfter=No|TokenRange=367:378
+

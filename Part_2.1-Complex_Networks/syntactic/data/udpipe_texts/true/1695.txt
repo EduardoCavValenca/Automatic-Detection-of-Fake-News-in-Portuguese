@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = retrospectiva 2017 casos curiosos ano piaui abalo sismico campanha escolher nome filhotes onca veja aconteceu ano estado 2017 piaui registrou muitos acontecimentos tremor terra ovelha nasceu parecendo porco suspeito furto fugindo policia pelado velorio gato pit bull roubou cena casamento muitos outros casos curiosos g1 listou 30 noticias publicadas janeiro dezembro deste ano chamaram atencao veja abaixo fatos curiosos 2017 piaui prefeito eleito municipio santana piaui 324 km teresina francisco raimundo moura conhecido chico borges ptb 42 anos morreu inicio manha dia 1 janeiro apos
+1	retrospectiva	_	NOUN	NOUN	_	15	parataxis	_	TokenRange=0:13
+2	2017	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=14:18
+3	casos	caso	NOUN	NOUN	_	1	appos	_	TokenRange=19:24
+4	curiosos	curioso	ADJ	ADJ	_	3	amod	_	TokenRange=25:33
+5	ano	ano	NOUN	NOUN	_	3	appos	_	TokenRange=34:37
+6	piaui	_	ADJ	ADJ	_	3	amod	_	TokenRange=38:43
+7	abalo	abalo	NOUN	NOUN	_	3	appos	_	TokenRange=44:49
+8	sismico	sismico	ADJ	ADJ	_	7	amod	_	TokenRange=50:57
+9	campanha	campanha	NOUN	NOUN	_	7	appos	_	TokenRange=58:66
+10	escolher	escolher	VERB	VERB	_	7	acl:relcl	_	TokenRange=67:75
+11	nome	nome	NOUN	NOUN	_	10	obj	_	TokenRange=76:80
+12	filhotes	filhote	NOUN	NOUN	_	11	flat	_	TokenRange=81:89
+13	onca	_	ADV	NOUN	_	15	advmod	_	TokenRange=90:94
+14	veja	ver	NOUN	NOUN	_	15	nsubj	_	TokenRange=95:99
+15	aconteceu	acontecer	VERB	VERB	_	0	root	_	TokenRange=100:109
+16	ano	ano	NOUN	NOUN	_	15	nmod	_	TokenRange=110:113
+17	estado	estado	NOUN	NOUN	_	16	flat	_	TokenRange=114:120
+18	2017	_	NUM	NUM	NumType=Card	16	appos	_	TokenRange=121:125
+19	piaui	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=126:131
+20	registrou	registrar	VERB	VERB	_	15	ccomp	_	TokenRange=132:141
+21	muitos	_	DET	DET	_	22	det	_	TokenRange=142:148
+22	acontecimentos	acontecimento	NOUN	NOUN	_	20	obj	_	TokenRange=149:163
+23	tremor	tremor	NOUN	NOUN	_	22	appos	_	TokenRange=164:170
+24	terra	terra	NOUN	NOUN	_	22	appos	_	TokenRange=171:176
+25	ovelha	ovelha	NOUN	NOUN	_	24	appos	_	TokenRange=177:183
+26	nasceu	nascer	AUX	AUX	_	27	aux	_	TokenRange=184:190
+27	parecendo	parecer	VERB	VERB	_	20	acl	_	TokenRange=191:200
+28	porco	porco	NOUN	NOUN	_	27	obj	_	TokenRange=201:206
+29	suspeito	suspeito	ADJ	ADJ	_	30	amod	_	TokenRange=207:215
+30	furto	furto	NOUN	NOUN	_	27	nsubj	_	TokenRange=216:221
+31	fugindo	fugir	VERB	VERB	_	30	acl	_	TokenRange=222:229
+32	policia	policia	NOUN	NOUN	_	31	nsubj	_	TokenRange=230:237
+33	pelado	pelado	NOUN	NOUN	_	32	appos	_	TokenRange=238:244
+34	velorio	velorio	NOUN	NOUN	_	32	amod	_	TokenRange=245:252
+35	gato	gato	NOUN	NOUN	_	32	appos	_	TokenRange=253:257
+36	pit	_	NOUN	NOUN	_	35	appos	_	TokenRange=258:261
+37	bull	_	NOUN	NOUN	_	36	flat	_	TokenRange=262:266
+38	roubou	roubar	VERB	VERB	_	15	conj	_	TokenRange=267:273
+39	cena	cena	NOUN	NOUN	_	38	obj	_	TokenRange=274:278
+40	casamento	casamento	NOUN	NOUN	_	39	flat	_	TokenRange=279:288
+41	muitos	_	DET	DET	_	43	det	_	TokenRange=289:295
+42	outros	_	DET	DET	_	43	det	_	TokenRange=296:302
+43	casos	caso	NOUN	NOUN	_	38	obj	_	TokenRange=303:308
+44	curiosos	curioso	ADJ	ADJ	_	43	amod	_	TokenRange=309:317
+45	g1	_	PRON	NOUN	_	46	nsubj	_	TokenRange=318:320
+46	listou	listar	VERB	VERB	_	15	parataxis	_	TokenRange=321:327
+47	30	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=328:330
+48	noticias	noticia	NOUN	NOUN	_	46	obj	_	TokenRange=331:339
+49	publicadas	publicar	VERB	VERB	_	48	acl	_	TokenRange=340:350
+50	janeiro	_	PROPN	PNOUN	_	49	nmod	_	TokenRange=351:358
+51	dezembro	_	PROPN	PNOUN	_	50	flat	_	TokenRange=359:367
+52	deste	_	ADP	ADP	_	53	case	_	TokenRange=368:373
+53	ano	ano	NOUN	NOUN	_	50	nmod	_	TokenRange=374:377
+54	chamaram	chamar	VERB	VERB	_	46	parataxis	_	TokenRange=378:386
+55	atencao	atencao	NOUN	NOUN	_	54	obj	_	TokenRange=387:394
+56	veja	ver	VERB	VERB	_	54	parataxis	_	TokenRange=395:399
+57	abaixo	abaixo	ADV	ADV	_	56	advmod	_	TokenRange=400:406
+58	fatos	fato	NOUN	NOUN	_	56	obj	_	TokenRange=407:412
+59	curiosos	curioso	ADJ	ADJ	_	58	amod	_	TokenRange=413:421
+60	2017	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=422:426
+61	piaui	_	NOUN	NOUN	_	58	appos	_	TokenRange=427:432
+62	prefeito	prefeito	NOUN	NOUN	_	58	appos	_	TokenRange=433:441
+63	eleito	eleito	ADJ	ADJ	_	64	amod	_	TokenRange=442:448
+64	municipio	municipio	NOUN	NOUN	_	62	appos	_	TokenRange=449:458
+65	santana	santano	ADJ	ADJ	_	64	amod	_	TokenRange=459:466
+66	piaui	piaui	NOUN	NOUN	_	64	amod	_	TokenRange=467:472
+67	324	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=473:476
+68	km	km	NOUN	NOUN	_	62	appos	_	TokenRange=477:479
+69	teresina	teresino	ADJ	ADJ	_	68	amod	_	TokenRange=480:488
+70	francisco	francisco	NOUN	NOUN	_	68	appos	_	TokenRange=489:498
+71	raimundo	raimundo	ADJ	ADJ	_	70	amod	_	TokenRange=499:507
+72	moura	mouro	NOUN	NOUN	_	70	flat	_	TokenRange=508:513
+73	conhecido	conhecido	ADJ	ADJ	_	70	amod	_	TokenRange=514:523
+74	chico	chico	ADJ	ADJ	_	70	appos	_	TokenRange=524:529
+75	borges	borge	NOUN	NOUN	_	74	flat	_	TokenRange=530:536
+76	ptb	_	NOUN	NOUN	_	74	flat	_	TokenRange=537:540
+77	42	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=541:543
+78	anos	ano	NOUN	NOUN	_	74	appos	_	TokenRange=544:548
+79	morreu	morrer	VERB	VERB	_	46	parataxis	_	TokenRange=549:555
+80	inicio	_	ADJ	NOUN	_	81	amod	_	TokenRange=556:562
+81	manha	manha	NOUN	NOUN	_	79	nmod	_	TokenRange=563:568
+82	dia	dia	NOUN	NOUN	_	79	nmod	_	TokenRange=569:572
+83	1	_	NUM	NUM	NumType=Card	82	nmod	_	TokenRange=573:574
+84	janeiro	_	PROPN	PNOUN	_	85	nmod	_	TokenRange=575:582
+85	apos	apos	ADV	ADV	_	79	advmod	_	SpaceAfter=No|TokenRange=583:587
+

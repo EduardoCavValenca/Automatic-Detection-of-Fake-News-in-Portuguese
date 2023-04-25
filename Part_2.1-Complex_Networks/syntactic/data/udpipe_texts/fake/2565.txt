@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = magno malta lindinho querem taxar grandes fortunas vao taxar amigos 13 anos taxar grandes fortunas vao taxar amigos disse malta senador magno malta ridicularizou proposta lindbergh farias ptrj taxar grandes fortunas mostrando pertencem comparsas pt esquema corrupcao petrobras empreiteiros odebrecht oas queiroz galvao tantos outros confira video abaixo
+1	magno	magno	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	malta	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:11
+3	lindinho	_	NOUN	NOUN	_	1	appos	_	TokenRange=12:20
+4	querem	querer	VERB	VERB	_	0	root	_	TokenRange=21:27
+5	taxar	taxar	VERB	VERB	_	4	xcomp	_	TokenRange=28:33
+6	grandes	grande	ADJ	ADJ	_	7	amod	_	TokenRange=34:41
+7	fortunas	fortuna	NOUN	NOUN	_	5	obj	_	TokenRange=42:50
+8	vao	ir	AUX	AUX	_	9	aux	_	TokenRange=51:54
+9	taxar	taxar	VERB	VERB	_	4	ccomp	_	TokenRange=55:60
+10	amigos	amigo	NOUN	NOUN	_	9	obj	_	TokenRange=61:67
+11	13	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=68:70
+12	anos	ano	NOUN	NOUN	_	13	nsubj	_	TokenRange=71:75
+13	taxar	taxar	VERB	VERB	_	9	ccomp	_	TokenRange=76:81
+14	grandes	grande	ADJ	ADJ	_	15	amod	_	TokenRange=82:89
+15	fortunas	fortuna	NOUN	NOUN	_	13	obj	_	TokenRange=90:98
+16	vao	ir	AUX	AUX	_	17	aux	_	TokenRange=99:102
+17	taxar	taxar	VERB	VERB	_	9	ccomp	_	TokenRange=103:108
+18	amigos	amigo	NOUN	NOUN	_	17	obj	_	TokenRange=109:115
+19	disse	dizer	VERB	VERB	_	17	parataxis	_	TokenRange=116:121
+20	malta	malta	NOUN	NOUN	_	19	obj	_	TokenRange=122:127
+21	senador	senador	NOUN	NOUN	_	24	nsubj	_	TokenRange=128:135
+22	magno	magno	NOUN	NOUN	_	21	appos	_	TokenRange=136:141
+23	malta	_	NOUN	NOUN	_	22	flat	_	TokenRange=142:147
+24	ridicularizou	ridicularizar	VERB	VERB	_	19	ccomp	_	TokenRange=148:161
+25	proposta	_	NOUN	NOUN	_	24	obj	_	TokenRange=162:170
+26	lindbergh	_	NOUN	NOUN	_	25	appos	_	TokenRange=171:180
+27	farias	_	NOUN	NOUN	_	26	flat	_	TokenRange=181:187
+28	ptrj	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=188:192
+29	taxar	taxar	VERB	VERB	_	25	acl:relcl	_	TokenRange=193:198
+30	grandes	grande	ADJ	ADJ	_	31	amod	_	TokenRange=199:206
+31	fortunas	fortuna	NOUN	NOUN	_	29	obj	_	TokenRange=207:215
+32	mostrando	mostrar	VERB	VERB	_	29	acl	_	TokenRange=216:225
+33	pertencem	pertencem	NOUN	NOUN	_	32	obj	_	TokenRange=226:235
+34	comparsas	_	NOUN	NOUN	_	33	appos	_	TokenRange=236:245
+35	pt	_	X	X	_	36	appos	_	TokenRange=246:248
+36	esquema	esquema	NOUN	NOUN	_	33	appos	_	TokenRange=249:256
+37	corrupcao	corrupcao	NOUN	NOUN	_	36	appos	_	TokenRange=257:266
+38	petrobras	petrobra	NOUN	NOUN	_	36	appos	_	TokenRange=267:276
+39	empreiteiros	empreiteiro	NOUN	NOUN	_	40	flat	_	TokenRange=277:289
+40	odebrecht	_	NOUN	NOUN	_	36	appos	_	TokenRange=290:299
+41	oas	_	CCONJ	X	_	42	cc	_	TokenRange=300:303
+42	queiroz	queiroz	NOUN	NOUN	_	40	conj	_	TokenRange=304:311
+43	galvao	galvao	ADJ	ADJ	_	42	amod	_	TokenRange=312:318
+44	tantos	_	DET	DET	_	45	det	_	TokenRange=319:325
+45	outros	_	PRON	PRON	_	46	nsubj	_	TokenRange=326:332
+46	confira	conferir	VERB	VERB	_	24	parataxis	_	TokenRange=333:340
+47	video	video	NOUN	NOUN	_	46	obj	_	TokenRange=341:346
+48	abaixo	abaixo	ADV	ADV	_	46	advmod	_	SpaceAfter=No|TokenRange=347:353
+

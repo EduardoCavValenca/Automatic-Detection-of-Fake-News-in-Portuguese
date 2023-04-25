@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cenipa declara gravador voz king air sofreu avarias justica decreta sigilo investigacoes justica atraves 1 vara federal angra reis decretou hoje 23 sigilo investigacoes sobre queda bimotor transportava ministro teori outras 4 pessoas investigadores estarao recolhendo depoimentos testemunhas queda aviao decorrer desta semana mpf solicitou anac aeronautica documentos relativos manutencao aeronave cenipa orgao cuida investigacoes prevencoes acidentes aereos informou gravador voz aeronave avarias devido contato agua mar parte equipamento armazena apenas dados preservada momento
+1	cenipa	cenipa	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	declara	declarar	VERB	VERB	_	0	root	_	TokenRange=7:14
+3	gravador	gravador	NOUN	NOUN	_	2	obj	_	TokenRange=15:23
+4	voz	voz	NOUN	NOUN	_	2	obj	_	TokenRange=24:27
+5	king	_	NOUN	NOUN	_	6	amod	_	TokenRange=28:32
+6	air	_	NOUN	NOUN	_	3	appos	_	TokenRange=33:36
+7	sofreu	sofrer	VERB	VERB	_	2	ccomp	_	TokenRange=37:43
+8	avarias	avaria	NOUN	NOUN	_	7	obj	_	TokenRange=44:51
+9	justica	justico	ADJ	ADJ	_	8	amod	_	TokenRange=52:59
+10	decreta	decretar	VERB	VERB	_	2	parataxis	_	TokenRange=60:67
+11	sigilo	sigilo	NOUN	NOUN	_	10	obj	_	TokenRange=68:74
+12	investigacoes	investigacoe	NOUN	NOUN	_	11	amod	_	TokenRange=75:88
+13	justica	justico	ADJ	ADJ	_	12	amod	_	TokenRange=89:96
+14	atraves	_	ADV	ADV	_	20	advmod	_	TokenRange=97:104
+15	1	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=105:106
+16	vara	vara	NOUN	NOUN	_	20	nsubj	_	TokenRange=107:111
+17	federal	federal	ADJ	ADJ	_	16	amod	_	TokenRange=112:119
+18	angra	angra	NOUN	NOUN	_	20	nsubj	_	TokenRange=120:125
+19	reis	rei	NOUN	NOUN	_	18	flat	_	TokenRange=126:130
+20	decretou	decretar	VERB	VERB	_	2	parataxis	_	TokenRange=131:139
+21	hoje	hoje	ADV	ADV	_	20	advmod	_	TokenRange=140:144
+22	23	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=145:147
+23	sigilo	sigilo	NOUN	NOUN	_	20	obj	_	TokenRange=148:154
+24	investigacoes	investigacoe	NOUN	NOUN	_	20	obj	_	TokenRange=155:168
+25	sobre	_	ADP	ADP	_	26	case	_	TokenRange=169:174
+26	queda	queda	NOUN	NOUN	_	24	nmod	_	TokenRange=175:180
+27	bimotor	bimotor	ADJ	ADJ	_	26	amod	_	TokenRange=181:188
+28	transportava	transportar	VERB	VERB	_	26	acl:relcl	_	TokenRange=189:201
+29	ministro	ministro	NOUN	NOUN	_	28	obj	_	TokenRange=202:210
+30	teori	teori	NOUN	NOUN	_	29	flat	_	TokenRange=211:216
+31	outras	_	DET	DET	_	33	det	_	TokenRange=217:223
+32	4	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=224:225
+33	pessoas	pessoa	NOUN	NOUN	_	36	nsubj	_	TokenRange=226:233
+34	investigadores	investigador	NOUN	NOUN	_	33	amod	_	TokenRange=234:248
+35	estarao	estar	AUX	AUX	_	36	aux	_	TokenRange=249:256
+36	recolhendo	recolher	VERB	VERB	_	20	parataxis	_	TokenRange=257:267
+37	depoimentos	depoimento	NOUN	NOUN	_	36	obj	_	TokenRange=268:279
+38	testemunhas	testemunha	NOUN	NOUN	_	37	amod	_	TokenRange=280:291
+39	queda	queda	NOUN	NOUN	_	36	nsubj	_	TokenRange=292:297
+40	aviao	aviao	ADJ	ADJ	_	39	amod	_	TokenRange=298:303
+41	decorrer	decorrer	VERB	VERB	_	39	acl	_	TokenRange=304:312
+42	desta	_	ADP	ADP	_	43	case	_	TokenRange=313:318
+43	semana	semana	NOUN	NOUN	_	41	nmod	_	TokenRange=319:325
+44	mpf	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=326:329
+45	solicitou	solicitar	VERB	VERB	_	36	parataxis	_	TokenRange=330:339
+46	anac	anac	NOUN	NOUN	_	45	obj	_	TokenRange=340:344
+47	aeronautica	aeronautico	ADJ	ADJ	_	46	amod	_	TokenRange=345:356
+48	documentos	documento	NOUN	NOUN	_	45	obj	_	TokenRange=357:367
+49	relativos	relativo	ADJ	ADJ	_	48	amod	_	TokenRange=368:377
+50	manutencao	manutencao	ADJ	ADJ	_	51	amod	_	TokenRange=378:388
+51	aeronave	aeronave	NOUN	NOUN	_	48	appos	_	TokenRange=389:397
+52	cenipa	cenipa	NOUN	NOUN	_	51	appos	_	TokenRange=398:404
+53	orgao	orgao	NOUN	NOUN	_	48	appos	_	TokenRange=405:410
+54	cuida	cuidar	VERB	VERB	_	48	acl:relcl	_	TokenRange=411:416
+55	investigacoes	investigacoe	NOUN	NOUN	_	54	obj	_	TokenRange=417:430
+56	prevencoes	prevenco	ADJ	ADJ	_	57	amod	_	TokenRange=431:441
+57	acidentes	acidente	NOUN	NOUN	_	55	appos	_	TokenRange=442:451
+58	aereos	aereo	ADJ	ADJ	_	57	amod	_	TokenRange=452:458
+59	informou	informar	VERB	VERB	_	45	parataxis	_	TokenRange=459:467
+60	gravador	gravador	NOUN	NOUN	_	59	obj	_	TokenRange=468:476
+61	voz	voz	NOUN	NOUN	_	60	flat	_	TokenRange=477:480
+62	aeronave	aeronave	NOUN	NOUN	_	60	appos	_	TokenRange=481:489
+63	avarias	avaria	NOUN	NOUN	_	59	obj	_	TokenRange=490:497
+64	devido	dever	VERB	VERB	_	65	case	_	TokenRange=498:504
+65	contato	contato	NOUN	NOUN	_	63	nmod	_	TokenRange=505:512
+66	agua	agua	NOUN	NOUN	_	65	appos	_	TokenRange=513:517
+67	mar	mar	ADJ	ADJ	_	66	amod	_	TokenRange=518:521
+68	parte	parte	NOUN	NOUN	_	65	conj	_	TokenRange=522:527
+69	equipamento	equipamento	NOUN	NOUN	_	72	appos	_	TokenRange=528:539
+70	armazena	armazeno	ADJ	ADJ	_	69	amod	_	TokenRange=540:548
+71	apenas	apenas	ADV	ADV	_	72	advmod	_	TokenRange=549:555
+72	dados	dado	NOUN	NOUN	_	59	obj	_	TokenRange=556:561
+73	preservada	preservado	ADJ	ADJ	_	72	amod	_	TokenRange=562:572
+74	momento	momento	NOUN	NOUN	_	72	appos	_	SpaceAfter=No|TokenRange=573:580
+

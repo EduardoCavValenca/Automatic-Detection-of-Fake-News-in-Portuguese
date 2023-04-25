@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = atualizado 13h12 marrakesh dados ainda parciais aumento temperatura observado janeiro setembro coloca ano 2016 perto quebrar terceiro recorde consecutivo ano quente registro historico aponta planeta pode estar 12c quente periodo prerevolucao industrial alerta divulgado manha desta segundafeira 14 organizacao meteorologica mundial durante 22 conferencia clima
+1	atualizado	atualizar	VERB	VERB	_	4	acl	_	TokenRange=0:10
+2	13h12	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=11:16
+3	marrakesh	marrakesh	NOUN	NOUN	_	1	nsubj	_	TokenRange=17:26
+4	dados	dado	NOUN	NOUN	_	12	nsubj	_	TokenRange=27:32
+5	ainda	ainda	ADV	ADV	_	6	advmod	_	TokenRange=33:38
+6	parciais	parcial	ADJ	ADJ	_	4	amod	_	TokenRange=39:47
+7	aumento	aumento	NOUN	NOUN	_	4	appos	_	TokenRange=48:55
+8	temperatura	temperatura	NOUN	NOUN	_	7	appos	_	TokenRange=56:67
+9	observado	observar	VERB	VERB	_	7	acl	_	TokenRange=68:77
+10	janeiro	_	PROPN	PNOUN	_	9	nsubj	_	TokenRange=78:85
+11	setembro	_	PROPN	PNOUN	_	10	flat	_	TokenRange=86:94
+12	coloca	colocar	VERB	VERB	_	0	root	_	TokenRange=95:101
+13	ano	ano	NOUN	NOUN	_	12	obj	_	TokenRange=102:105
+14	2016	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=106:110
+15	perto	perto	ADV	ADV	_	16	advmod	_	TokenRange=111:116
+16	quebrar	quebrar	VERB	VERB	_	12	ccomp	_	TokenRange=117:124
+17	terceiro	_	ADJ	ADJ	_	18	amod	_	TokenRange=125:133
+18	recorde	recorde	NOUN	NOUN	_	16	obj	_	TokenRange=134:141
+19	consecutivo	consecutivo	ADJ	ADJ	_	18	amod	_	TokenRange=142:153
+20	ano	ano	NOUN	NOUN	_	18	appos	_	TokenRange=154:157
+21	quente	quente	ADJ	ADJ	_	20	amod	_	TokenRange=158:164
+22	registro	registro	NOUN	NOUN	_	12	nsubj	_	TokenRange=165:173
+23	historico	historico	ADJ	ADJ	_	22	amod	_	TokenRange=174:183
+24	aponta	apontar	VERB	VERB	_	12	parataxis	_	TokenRange=184:190
+25	planeta	planeta	NOUN	NOUN	_	24	obj	_	TokenRange=191:198
+26	pode	_	AUX	AUX	_	30	aux	_	TokenRange=199:203
+27	estar	estar	AUX	VERB	_	30	cop	_	TokenRange=204:209
+28	12c	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=210:213
+29	quente	quente	ADJ	ADJ	_	30	amod	_	TokenRange=214:220
+30	periodo	periodo	NOUN	NOUN	_	24	ccomp	_	TokenRange=221:228
+31	prerevolucao	prerevolucao	ADJ	ADJ	_	30	amod	_	TokenRange=229:241
+32	industrial	industrial	ADJ	ADJ	_	30	amod	_	TokenRange=242:252
+33	alerta	alerta	NOUN	NOUN	_	30	appos	_	TokenRange=253:259
+34	divulgado	divulgar	VERB	VERB	_	30	acl	_	TokenRange=260:269
+35	manha	manha	NOUN	NOUN	_	34	nmod	_	TokenRange=270:275
+36	desta	_	ADP	ADP	_	37	case	_	TokenRange=276:281
+37	segundafeira	_	NOUN	NOUN	_	35	nmod	_	TokenRange=282:294
+38	14	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=295:297
+39	organizacao	organizacao	NOUN	NOUN	_	35	appos	_	TokenRange=298:309
+40	meteorologica	meteorologico	ADJ	ADJ	_	39	amod	_	TokenRange=310:323
+41	mundial	mundial	ADJ	ADJ	_	39	amod	_	TokenRange=324:331
+42	durante	_	ADP	ADP	_	44	case	_	TokenRange=332:339
+43	22	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=340:342
+44	conferencia	conferencia	NOUN	NOUN	_	34	nmod	_	TokenRange=343:354
+45	clima	clima	NOUN	NOUN	_	44	flat	_	SpaceAfter=No|TokenRange=355:360
+

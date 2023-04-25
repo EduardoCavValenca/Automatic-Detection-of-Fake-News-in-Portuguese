@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = melhor morrido ano apos atentado bruxelas testemunhas revelam feridas invisiveis casos menina pensamentos suicidas condutor consegue trabalhar apos perder mulher metro ilustram traumas deixados explosoes aeroporto estacao mataram 32 pessoas ano triplo atentado terrorista aeroporto internacional zaventem estacao maelbeek bruxelas belgica matou 32 pessoas deixou outras 324
+1	melhor	melhor	ADV	ADV	_	2	advmod	_	TokenRange=0:6
+2	morrido	morrer	VERB	VERB	_	8	acl	_	TokenRange=7:14
+3	ano	ano	NOUN	NOUN	_	8	nmod	_	TokenRange=15:18
+4	apos	_	ADP	ADP	_	5	case	_	TokenRange=19:23
+5	atentado	atentado	NOUN	NOUN	_	8	nmod	_	TokenRange=24:32
+6	bruxelas	bruxela	ADJ	ADJ	_	5	amod	_	TokenRange=33:41
+7	testemunhas	testemunha	NOUN	NOUN	_	8	nsubj	_	TokenRange=42:53
+8	revelam	revelar	VERB	VERB	_	0	root	_	TokenRange=54:61
+9	feridas	ferida	NOUN	NOUN	_	8	obj	_	TokenRange=62:69
+10	invisiveis	invisivel	ADJ	ADJ	_	9	amod	_	TokenRange=70:80
+11	casos	caso	NOUN	NOUN	_	8	nsubj	_	TokenRange=81:86
+12	menina	menino	ADJ	ADJ	_	13	amod	_	TokenRange=87:93
+13	pensamentos	pensamento	NOUN	NOUN	_	11	appos	_	TokenRange=94:105
+14	suicidas	suicida	ADJ	ADJ	_	13	amod	_	TokenRange=106:114
+15	condutor	condutor	NOUN	NOUN	_	16	nsubj	_	TokenRange=115:123
+16	consegue	conseguir	VERB	VERB	_	13	acl:relcl	_	TokenRange=124:132
+17	trabalhar	trabalhar	VERB	VERB	_	16	xcomp	_	TokenRange=133:142
+18	apos	_	ADP	ADP	_	19	mark	_	TokenRange=143:147
+19	perder	perder	VERB	VERB	_	17	advcl	_	TokenRange=148:154
+20	mulher	mulher	NOUN	NOUN	_	19	obj	_	TokenRange=155:161
+21	metro	metro	NOUN	NOUN	_	19	nsubj	_	TokenRange=162:167
+22	ilustram	ilustrar	VERB	VERB	_	8	parataxis	_	TokenRange=168:176
+23	traumas	trauma	NOUN	NOUN	_	22	obj	_	TokenRange=177:184
+24	deixados	deixar	VERB	VERB	_	23	acl	_	TokenRange=185:193
+25	explosoes	explosoe	ADJ	ADJ	_	23	amod	_	TokenRange=194:203
+26	aeroporto	aeroporto	NOUN	NOUN	_	22	nsubj	_	TokenRange=204:213
+27	estacao	estacao	NOUN	NOUN	_	26	flat	_	TokenRange=214:221
+28	mataram	matar	VERB	VERB	_	23	acl:relcl	_	TokenRange=222:229
+29	32	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=230:232
+30	pessoas	pessoa	NOUN	NOUN	_	28	obj	_	TokenRange=233:240
+31	ano	ano	NOUN	NOUN	_	28	nmod	_	TokenRange=241:244
+32	triplo	triplo	ADJ	ADJ	_	33	amod	_	TokenRange=245:251
+33	atentado	atentado	NOUN	NOUN	_	28	nsubj	_	TokenRange=252:260
+34	terrorista	terrorista	ADJ	ADJ	_	33	amod	_	TokenRange=261:271
+35	aeroporto	aeroporto	NOUN	NOUN	_	33	appos	_	TokenRange=272:281
+36	internacional	internacional	ADJ	ADJ	_	33	amod	_	TokenRange=282:295
+37	zaventem	_	NOUN	VERB	_	35	amod	_	TokenRange=296:304
+38	estacao	estacao	NOUN	NOUN	_	35	appos	_	TokenRange=305:312
+39	maelbeek	_	NOUN	NOUN	_	38	appos	_	TokenRange=313:321
+40	bruxelas	bruxela	NOUN	NOUN	_	38	flat	_	TokenRange=322:330
+41	belgica	belgico	ADJ	ADJ	_	40	amod	_	TokenRange=331:338
+42	matou	matar	VERB	VERB	_	28	conj	_	TokenRange=339:344
+43	32	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=345:347
+44	pessoas	pessoa	NOUN	NOUN	_	45	obj	_	TokenRange=348:355
+45	deixou	deixar	VERB	VERB	_	42	parataxis	_	TokenRange=356:362
+46	outras	_	DET	DET	_	47	det	_	TokenRange=363:369
+47	324	_	NUM	NUM	NumType=Card	45	obj	_	SpaceAfter=No|TokenRange=370:373
+

@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = medida debate cne pode permitir ensino medio 40 aulas distancia mec disse discordar proposta debate conselho nacional educacao cne especialistas criticam possibilidade mudanca proposta analise conselho nacional educacao cne estuda permitir 40 carga horaria ensino medio possa feita distancia aprovada homologada ministerio educacao mec
+1	medida	medida	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:6
+2	debate	debate	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	cne	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=14:17
+4	pode	_	AUX	AUX	_	5	aux	_	TokenRange=18:22
+5	permitir	permitir	VERB	VERB	_	1	acl:relcl	_	TokenRange=23:31
+6	ensino	ensino	NOUN	NOUN	_	5	obj	_	TokenRange=32:38
+7	medio	medio	ADJ	ADJ	_	6	amod	_	TokenRange=39:44
+8	40	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=45:47
+9	aulas	aula	NOUN	NOUN	_	5	obj	_	TokenRange=48:53
+10	distancia	distancia	VERB	VERB	_	5	parataxis	_	TokenRange=54:63
+11	mec	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=64:67
+12	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=68:73
+13	discordar	discordar	VERB	VERB	_	12	xcomp	_	TokenRange=74:83
+14	proposta	_	NOUN	NOUN	_	13	obj	_	TokenRange=84:92
+15	debate	debate	NOUN	NOUN	_	14	appos	_	TokenRange=93:99
+16	conselho	conselho	NOUN	NOUN	_	14	appos	_	TokenRange=100:108
+17	nacional	nacional	ADJ	ADJ	_	16	amod	_	TokenRange=109:117
+18	educacao	educacao	ADJ	ADJ	_	16	amod	_	TokenRange=118:126
+19	cne	_	CCONJ	CONJ	_	21	nsubj	_	TokenRange=127:130
+20	especialistas	especialista	NOUN	NOUN	_	21	nsubj	_	TokenRange=131:144
+21	criticam	criticar	VERB	VERB	_	12	conj	_	TokenRange=145:153
+22	possibilidade	possibilidade	NOUN	NOUN	_	21	obj	_	TokenRange=154:167
+23	mudanca	mudanca	ADJ	ADJ	_	22	amod	_	TokenRange=168:175
+24	proposta	_	NOUN	NOUN	_	22	appos	_	TokenRange=176:184
+25	analise	analise	NOUN	NOUN	_	22	appos	_	TokenRange=185:192
+26	conselho	conselho	NOUN	NOUN	_	25	appos	_	TokenRange=193:201
+27	nacional	nacional	ADJ	ADJ	_	26	amod	_	TokenRange=202:210
+28	educacao	educacao	ADJ	ADJ	_	26	amod	_	TokenRange=211:219
+29	cne	_	PRON	PRON	_	30	nsubj	_	TokenRange=220:223
+30	estuda	estudar	VERB	VERB	_	21	parataxis	_	TokenRange=224:230
+31	permitir	permitir	VERB	VERB	_	30	xcomp	_	TokenRange=231:239
+32	40	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=240:242
+33	carga	carga	NOUN	NOUN	_	31	obj	_	TokenRange=243:248
+34	horaria	horaria	ADJ	ADJ	_	33	amod	_	TokenRange=249:256
+35	ensino	ensino	NOUN	NOUN	_	38	nsubj:pass	_	TokenRange=257:263
+36	medio	medio	ADJ	ADJ	_	35	amod	_	TokenRange=264:269
+37	possa	_	AUX	AUX	_	38	aux:pass	_	TokenRange=270:275
+38	feita	_	VERB	VERB	_	31	parataxis	_	TokenRange=276:281
+39	distancia	distancia	NOUN	NOUN	_	38	nsubj:pass	_	TokenRange=282:291
+40	aprovada	aprovar	VERB	VERB	_	39	acl	_	TokenRange=292:300
+41	homologada	homologado	ADJ	ADJ	_	39	amod	_	TokenRange=301:311
+42	ministerio	ministerio	NOUN	NOUN	_	39	appos	_	TokenRange=312:322
+43	educacao	educacao	ADJ	ADJ	_	42	amod	_	TokenRange=323:331
+44	mec	_	NOUN	NOUN	_	42	appos	_	SpaceAfter=No|TokenRange=332:335
+

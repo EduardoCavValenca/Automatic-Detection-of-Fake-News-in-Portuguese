@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = magnata doou fortuna us 8 bilhoes segredo ficou quase nada charles feeney fez pagamentos anonimos projetos paises vietna africa sul irlanda fortuna estimada us 8 bilhoes r 25 bilhoes transformou charles feeney homens ricos estados unidos pertence magnata doou montante segredo vida instituicoes redor mundo fiz provar coisa alguma exceto sorte mundo agora lugar melhor porque peguei dinheiro dividi muitas pessoas afirmou feeney entrevista
+1	magnata	magnata	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	doou	doar	VERB	VERB	_	62	ccomp	_	TokenRange=8:12
+3	fortuna	fortuna	NOUN	NOUN	_	2	obj	_	TokenRange=13:20
+4	us	_	DET	DET	_	6	det	_	TokenRange=21:23
+5	8	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=24:25
+6	bilhoes	_	NOUN	NOUN	_	2	obj	_	TokenRange=26:33
+7	segredo	segredo	NOUN	NOUN	_	8	nsubj	_	TokenRange=34:41
+8	ficou	ficar	VERB	VERB	_	2	conj	_	TokenRange=42:47
+9	quase	quase	ADV	ADV	_	10	advmod	_	TokenRange=48:53
+10	nada	_	PRON	PRON	_	8	advmod	_	TokenRange=54:58
+11	charles	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=59:66
+12	feeney	_	PROPN	PNOUN	_	11	flat	_	TokenRange=67:73
+13	fez	fazer	VERB	VERB	_	2	conj	_	TokenRange=74:77
+14	pagamentos	pagamento	NOUN	NOUN	_	13	obj	_	TokenRange=78:88
+15	anonimos	anonimo	ADJ	ADJ	_	14	amod	_	TokenRange=89:97
+16	projetos	projeto	NOUN	NOUN	_	14	appos	_	TokenRange=98:106
+17	paises	paise	NOUN	NOUN	_	14	appos	_	TokenRange=107:113
+18	vietna	vietno	ADJ	ADJ	_	17	amod	_	TokenRange=114:120
+19	africa	_	NOUN	NOUN	_	17	appos	_	TokenRange=121:127
+20	sul	sul	ADJ	ADJ	_	17	amod	_	TokenRange=128:131
+21	irlanda	irlanda	ADJ	ADJ	_	17	amod	_	TokenRange=132:139
+22	fortuna	fortuna	NOUN	NOUN	_	30	nsubj	_	TokenRange=140:147
+23	estimada	estimar	VERB	VERB	_	22	acl	_	TokenRange=148:156
+24	us	_	NOUN	NOUN	_	26	case	_	TokenRange=157:159
+25	8	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=160:161
+26	bilhoes	_	NUM	NUM	NumType=Card	23	nmod	_	TokenRange=162:169
+27	r	r	NOUN	NOUN	_	26	appos	_	TokenRange=170:171
+28	25	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=172:174
+29	bilhoes	_	NOUN	NUM	_	27	nummod	_	TokenRange=175:182
+30	transformou	transformar	VERB	VERB	_	2	conj	_	TokenRange=183:194
+31	charles	_	NOUN	NOUN	_	30	obj	_	TokenRange=195:202
+32	feeney	_	NOUN	NOUN	_	31	flat	_	TokenRange=203:209
+33	homens	homem	NOUN	NOUN	_	31	appos	_	TokenRange=210:216
+34	ricos	rico	ADJ	ADJ	_	33	amod	_	TokenRange=217:222
+35	estados	estado	NOUN	NOUN	_	31	appos	_	TokenRange=223:230
+36	unidos	unido	ADJ	ADJ	_	33	amod	_	TokenRange=231:237
+37	pertence	pertencer	VERB	VERB	_	30	ccomp	_	TokenRange=238:246
+38	magnata	magnata	NOUN	NOUN	_	39	nsubj	_	TokenRange=247:254
+39	doou	doar	VERB	VERB	_	31	acl:relcl	_	TokenRange=255:259
+40	montante	montante	NOUN	NOUN	_	39	obj	_	TokenRange=260:268
+41	segredo	segredo	ADJ	ADJ	_	40	amod	_	TokenRange=269:276
+42	vida	vida	NOUN	NOUN	_	39	obj	_	TokenRange=277:281
+43	instituicoes	instituicoe	NOUN	NOUN	_	42	appos	_	TokenRange=282:294
+44	redor	redor	NOUN	NOUN	_	46	mark	_	TokenRange=295:300
+45	mundo	mundo	NOUN	NOUN	_	46	nsubj	_	TokenRange=301:306
+46	fiz	fazer	VERB	VERB	_	39	parataxis	_	TokenRange=307:310
+47	provar	provar	VERB	VERB	_	46	xcomp	_	TokenRange=311:317
+48	coisa	coisa	NOUN	NOUN	_	47	obj	_	TokenRange=318:323
+49	alguma	_	DET	DET	_	48	det	_	TokenRange=324:330
+50	exceto	_	ADP	ADP	_	51	case	_	TokenRange=331:337
+51	sorte	sorte	NOUN	NOUN	_	47	nmod	_	TokenRange=338:343
+52	mundo	mundo	NOUN	NOUN	_	51	appos	_	TokenRange=344:349
+53	agora	agora	ADV	ADV	_	54	advmod	_	TokenRange=350:355
+54	lugar	lugar	NOUN	NOUN	_	47	obj	_	TokenRange=356:361
+55	melhor	melhor	ADJ	ADJ	_	54	amod	_	TokenRange=362:368
+56	porque	_	CCONJ	CONJ	_	57	mark	_	TokenRange=369:375
+57	peguei	pegar	VERB	VERB	_	46	advcl	_	TokenRange=376:382
+58	dinheiro	dinheiro	NOUN	NOUN	_	57	obj	_	TokenRange=383:391
+59	dividi	dividir	VERB	VERB	_	57	ccomp	_	TokenRange=392:398
+60	muitas	_	DET	DET	_	61	det	_	TokenRange=399:405
+61	pessoas	pessoa	NOUN	NOUN	_	59	obj	_	TokenRange=406:413
+62	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=414:421
+63	feeney	feeney	ADJ	ADJ	_	64	amod	_	TokenRange=422:428
+64	entrevista	entrevista	NOUN	NOUN	_	62	obj	_	SpaceAfter=No|TokenRange=429:439
+

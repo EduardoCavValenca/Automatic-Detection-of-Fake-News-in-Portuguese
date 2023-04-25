@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria quer gcm passe conhecida policia municipal sp mudanca veiculos guardas comeca nesta quarta gradual segundo prefeito prefeitura paulo quer guarda civil metropolitana gcm passe conhecida policia municipal prefeito joao doria psdb anunciou gradualmente partir desta quartafeira 6 todos veiculos corporacao ganharao adesivos nova denominacao novo layout carros gcm apresentado nesta manha sede prefeitura doria
+1	doria	_	NOUN	NOUN	_	12	parataxis	_	TokenRange=0:5
+2	quer	quer	NOUN	NOUN	_	1	flat	_	TokenRange=6:10
+3	gcm	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:14
+4	passe	passe	NOUN	NOUN	_	1	appos	_	TokenRange=15:20
+5	conhecida	conhecido	ADJ	ADJ	_	6	amod	_	TokenRange=21:30
+6	policia	policia	NOUN	NOUN	_	1	appos	_	TokenRange=31:38
+7	municipal	municipal	ADJ	ADJ	_	6	amod	_	TokenRange=39:48
+8	sp	_	CCONJ	CONJ	_	6	appos	_	TokenRange=49:51
+9	mudanca	_	NOUN	NOUN	_	10	amod	_	TokenRange=52:59
+10	veiculos	veiculo	NOUN	NOUN	_	6	appos	_	TokenRange=60:68
+11	guardas	guarda	ADJ	ADJ	_	10	amod	_	TokenRange=69:76
+12	comeca	_	VERB	VERB	_	0	root	_	TokenRange=77:83
+13	nesta	_	ADP	ADP	_	15	case	_	TokenRange=84:89
+14	quarta	_	PROPN	PNOUN	_	12	nmod	_	TokenRange=90:96
+15	gradual	gradual	ADJ	ADJ	_	12	nmod	_	TokenRange=97:104
+16	segundo	_	ADP	ADP	_	17	case	_	TokenRange=105:112
+17	prefeito	prefeito	NOUN	NOUN	_	12	nmod	_	TokenRange=113:121
+18	prefeitura	prefeitura	NOUN	NOUN	_	17	flat	_	TokenRange=122:132
+19	paulo	paulo	NOUN	NOUN	_	17	appos	_	TokenRange=133:138
+20	quer	quer	NOUN	NOUN	_	21	flat	_	TokenRange=139:143
+21	guarda	guarda	NOUN	NOUN	_	17	appos	_	TokenRange=144:150
+22	civil	civil	ADJ	ADJ	_	21	amod	_	TokenRange=151:156
+23	metropolitana	metropolitano	ADJ	ADJ	_	21	amod	_	TokenRange=157:170
+24	gcm	_	NOUN	NOUN	_	27	appos	_	TokenRange=171:174
+25	passe	passar	AUX	AUX	_	27	cop	_	TokenRange=175:180
+26	conhecida	conhecido	ADJ	ADJ	_	27	amod	_	TokenRange=181:190
+27	policia	policia	NOUN	NOUN	_	21	appos	_	TokenRange=191:198
+28	municipal	municipal	ADJ	ADJ	_	27	amod	_	TokenRange=199:208
+29	prefeito	prefeito	NOUN	NOUN	_	27	appos	_	TokenRange=209:217
+30	joao	joao	NOUN	NOUN	_	29	appos	_	TokenRange=218:222
+31	doria	doria	NOUN	NOUN	_	29	flat	_	TokenRange=223:228
+32	psdb	_	PROPN	PNOUN	_	29	appos	_	TokenRange=229:233
+33	anunciou	anunciar	VERB	VERB	_	12	parataxis	_	TokenRange=234:242
+34	gradualmente	gradualmente	ADV	ADV	_	33	advmod	_	TokenRange=243:255
+35	partir	partir	VERB	VERB	_	33	xcomp	_	TokenRange=256:262
+36	desta	_	ADP	ADP	_	37	case	_	TokenRange=263:268
+37	quartafeira	_	NOUN	NOUN	_	35	nmod	_	TokenRange=269:280
+38	6	_	NUM	NUM	NumType=Card	37	appos	_	TokenRange=281:282
+39	todos	_	DET	DET	_	40	det	_	TokenRange=283:288
+40	veiculos	veiculo	NOUN	NOUN	_	42	nsubj	_	TokenRange=289:297
+41	corporacao	corporacao	ADJ	ADJ	_	40	amod	_	TokenRange=298:308
+42	ganharao	ganhar	VERB	VERB	_	33	parataxis	_	TokenRange=309:317
+43	adesivos	adesivo	NOUN	NOUN	_	42	obj	_	TokenRange=318:326
+44	nova	novo	ADJ	ADJ	_	45	amod	_	TokenRange=327:331
+45	denominacao	denominacao	NOUN	NOUN	_	42	obj	_	TokenRange=332:343
+46	novo	novo	ADJ	ADJ	_	47	amod	_	TokenRange=344:348
+47	layout	_	NOUN	NOUN	_	42	obj	_	TokenRange=349:355
+48	carros	carro	NOUN	NOUN	_	47	appos	_	TokenRange=356:362
+49	gcm	_	NOUN	NOUN	_	47	appos	_	TokenRange=363:366
+50	apresentado	apresentar	VERB	VERB	_	42	acl	_	TokenRange=367:378
+51	nesta	_	ADP	ADP	_	52	case	_	TokenRange=379:384
+52	manha	manha	NOUN	NOUN	_	50	nmod	_	TokenRange=385:390
+53	sede	sede	NOUN	NOUN	_	50	obj	_	TokenRange=391:395
+54	prefeitura	prefeitura	NOUN	NOUN	_	53	appos	_	TokenRange=396:406
+55	doria	doria	NOUN	NOUN	_	54	appos	_	SpaceAfter=No|TokenRange=407:412
+

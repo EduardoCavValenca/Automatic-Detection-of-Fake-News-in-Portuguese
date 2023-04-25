@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja principais trechos julgamento recurso lula trf4 porto alegre tres desembargadores julgaram recurso expresidente lula processo triplex segunda instancia sessao aconteceu nesta quartafeira 24 recurso apresentado expresidente luiz inacio lula silva pt processo triplex julgado nesta quartafeira 24 tribunal regional federal 4 regiao trf4 segunda instancia acoes operacao lava jato condenado decisao unanime tres desembargadores aumentaram pena nove 12 anos g1 acompanhou vivo julgamento veja votaram julgamento durou 8 horas 15 minutos alem hora intervalo relator processo joao pedro gebran neto revisor leandro paulsen
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	principais	principal	ADJ	ADJ	_	3	amod	_	TokenRange=5:15
+3	trechos	trecho	NOUN	NOUN	_	1	obj	_	TokenRange=16:23
+4	julgamento	julgamento	NOUN	NOUN	_	3	appos	_	TokenRange=24:34
+5	recurso	recurso	NOUN	NOUN	_	3	appos	_	TokenRange=35:42
+6	lula	lula	NOUN	NOUN	_	5	amod	_	TokenRange=43:47
+7	trf4	_	NOUN	NOUN	_	5	appos	_	TokenRange=48:52
+8	porto	_	NOUN	NOUN	_	7	flat	_	TokenRange=53:58
+9	alegre	alegre	ADJ	ADJ	_	7	amod	_	TokenRange=59:65
+10	tres	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=66:70
+11	desembargadores	desembargador	NOUN	NOUN	_	12	nsubj	_	TokenRange=71:86
+12	julgaram	julgar	VERB	VERB	_	1	parataxis	_	TokenRange=87:95
+13	recurso	recurso	NOUN	NOUN	_	12	obj	_	TokenRange=96:103
+14	expresidente	expresidente	ADJ	ADJ	_	13	amod	_	TokenRange=104:116
+15	lula	lula	ADJ	ADJ	_	13	amod	_	TokenRange=117:121
+16	processo	processo	NOUN	NOUN	_	13	appos	_	TokenRange=122:130
+17	triplex	_	ADJ	ADJ	_	16	amod	_	TokenRange=131:138
+18	segunda	segundo	ADJ	ADJ	_	19	amod	_	TokenRange=139:146
+19	instancia	instancia	NOUN	NOUN	_	16	appos	_	TokenRange=147:156
+20	sessao	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=157:163
+21	aconteceu	acontecer	VERB	VERB	_	16	acl:relcl	_	TokenRange=164:173
+22	nesta	_	ADP	ADP	_	23	case	_	TokenRange=174:179
+23	quartafeira	_	NOUN	NOUN	_	21	nmod	_	TokenRange=180:191
+24	24	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=192:194
+25	recurso	recurso	NOUN	NOUN	_	21	nsubj	_	TokenRange=195:202
+26	apresentado	apresentar	VERB	VERB	_	25	acl	_	TokenRange=203:214
+27	expresidente	expresidente	NOUN	NOUN	_	26	obj	_	TokenRange=215:227
+28	luiz	luiz	ADJ	ADJ	_	27	appos	_	TokenRange=228:232
+29	inacio	_	NOUN	NOUN	_	28	flat	_	TokenRange=233:239
+30	lula	_	NOUN	NOUN	_	28	flat	_	TokenRange=240:244
+31	silva	silva	ADJ	ADJ	_	28	flat	_	TokenRange=245:250
+32	pt	_	ADV	ADV	_	33	appos	_	TokenRange=251:253
+33	processo	processo	NOUN	NOUN	_	21	nsubj	_	TokenRange=254:262
+34	triplex	_	NOUN	NOUN	_	33	flat	_	TokenRange=263:270
+35	julgado	julgar	VERB	VERB	_	33	acl	_	TokenRange=271:278
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=279:284
+37	quartafeira	_	NOUN	NOUN	_	35	nmod	_	TokenRange=285:296
+38	24	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=297:299
+39	tribunal	tribunal	NOUN	NOUN	_	37	appos	_	TokenRange=300:308
+40	regional	regional	ADJ	ADJ	_	39	amod	_	TokenRange=309:317
+41	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=318:325
+42	4	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=326:327
+43	regiao	regiao	NOUN	NOUN	_	39	appos	_	TokenRange=328:334
+44	trf4	_	NOUN	NOUN	_	43	appos	_	TokenRange=335:339
+45	segunda	segundo	ADJ	ADJ	_	46	amod	_	TokenRange=340:347
+46	instancia	instancia	NOUN	NOUN	_	56	parataxis	_	TokenRange=348:357
+47	acoes	acoe	NOUN	NOUN	_	56	nsubj	_	TokenRange=358:363
+48	operacao	operacao	NOUN	NOUN	_	47	appos	_	TokenRange=364:372
+49	lava	lava	NOUN	NOUN	_	48	flat	_	TokenRange=373:377
+50	jato	jato	NOUN	NOUN	_	48	flat	_	TokenRange=378:382
+51	condenado	condenar	VERB	VERB	_	47	acl	_	TokenRange=383:392
+52	decisao	decisao	NOUN	NOUN	_	51	obj	_	TokenRange=393:400
+53	unanime	unanime	ADJ	ADJ	_	52	amod	_	TokenRange=401:408
+54	tres	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=409:413
+55	desembargadores	desembargador	NOUN	NOUN	_	56	nsubj	_	TokenRange=414:429
+56	aumentaram	aumentar	VERB	VERB	_	1	parataxis	_	TokenRange=430:440
+57	pena	_	NOUN	NOUN	_	56	obj	_	TokenRange=441:445
+58	nove	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=446:450
+59	12	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=451:453
+60	anos	ano	NOUN	NOUN	_	56	nmod	_	TokenRange=454:458
+61	g1	_	NOUN	NOUN	_	62	nsubj	_	TokenRange=459:461
+62	acompanhou	acompanhar	VERB	VERB	_	56	parataxis	_	TokenRange=462:472
+63	vivo	vivo	ADJ	ADJ	_	64	amod	_	TokenRange=473:477
+64	julgamento	julgamento	NOUN	NOUN	_	62	obj	_	TokenRange=478:488
+65	veja	veja	NOUN	NOUN	_	64	appos	_	TokenRange=489:493
+66	votaram	votar	VERB	VERB	_	62	parataxis	_	TokenRange=494:501
+67	julgamento	julgamento	NOUN	NOUN	_	66	obj	_	TokenRange=502:512
+68	durou	durar	VERB	VERB	_	62	parataxis	_	TokenRange=513:518
+69	8	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=519:520
+70	horas	hora	NOUN	NOUN	_	68	nmod	_	TokenRange=521:526
+71	15	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=527:529
+72	minutos	minuto	NOUN	NOUN	_	70	nmod	_	TokenRange=530:537
+73	alem	_	ADP	ADP	_	74	case	_	TokenRange=538:542
+74	hora	hora	NOUN	NOUN	_	68	nmod	_	TokenRange=543:547
+75	intervalo	intervalo	NOUN	NOUN	_	74	appos	_	TokenRange=548:557
+76	relator	relator	NOUN	NOUN	_	74	appos	_	TokenRange=558:565
+77	processo	processo	NOUN	NOUN	_	78	flat	_	TokenRange=566:574
+78	joao	joao	NOUN	NOUN	_	82	appos	_	TokenRange=575:579
+79	pedro	pedro	NOUN	NOUN	_	78	flat	_	TokenRange=580:585
+80	gebran	_	NOUN	NOUN	_	78	flat	_	TokenRange=586:592
+81	neto	neto	ADJ	ADJ	_	83	amod	_	TokenRange=593:597
+82	revisor	revisor	NOUN	NOUN	_	68	parataxis	_	TokenRange=598:605
+83	leandro	leandro	NOUN	NOUN	_	82	appos	_	TokenRange=606:613
+84	paulsen	_	NOUN	NOUN	_	83	flat	_	SpaceAfter=No|TokenRange=614:621
+

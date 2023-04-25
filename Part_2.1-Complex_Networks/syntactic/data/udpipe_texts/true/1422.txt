@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 12 marco bom dia aqui principais assuntos comecar dia beminformado preocupacoes seguranca publica continuam pauta congresso camara senado devem voltar discutir propostas contra violencia deu tregua durante final semana fez vitimas ceara rio paulo planalto temer monta arsenal contra duas investigacoes sobre ideia pedir empenho dedicacao aliados
+1	segundafeira	segundafeira	NOUN	NOUN	_	15	parataxis	_	TokenRange=0:12
+2	12	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=13:15
+3	marco	marco	NOUN	NOUN	_	1	nmod	_	TokenRange=16:21
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=22:25
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=26:29
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=30:34
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=35:45
+8	assuntos	assunto	NOUN	NOUN	_	9	nsubj	_	TokenRange=46:54
+9	comecar	comecar	VERB	VERB	_	1	acl:relcl	_	TokenRange=55:62
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=63:66
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=67:79
+12	preocupacoes	_	ADJ	ADJ	_	10	amod	_	TokenRange=80:92
+13	seguranca	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=93:102
+14	publica	publico	ADJ	ADJ	_	13	amod	_	TokenRange=103:110
+15	continuam	continuar	VERB	VERB	_	0	root	_	TokenRange=111:120
+16	pauta	pauta	NOUN	NOUN	_	15	obj	_	TokenRange=121:126
+17	congresso	congresso	NOUN	NOUN	_	16	amod	_	TokenRange=127:136
+18	camara	camara	NOUN	NOUN	_	22	nsubj	_	TokenRange=137:143
+19	senado	senado	NOUN	NOUN	_	18	flat	_	TokenRange=144:150
+20	devem	_	AUX	AUX	_	22	aux	_	TokenRange=151:156
+21	voltar	voltar	AUX	AUX	_	22	aux	_	TokenRange=157:163
+22	discutir	discutir	VERB	VERB	_	15	parataxis	_	TokenRange=164:172
+23	propostas	_	NOUN	NOUN	_	22	obj	_	TokenRange=173:182
+24	contra	_	ADP	ADP	_	25	case	_	TokenRange=183:189
+25	violencia	violencia	NOUN	NOUN	_	23	nmod	_	TokenRange=190:199
+26	deu	dar	VERB	VERB	_	22	parataxis	_	TokenRange=200:203
+27	tregua	tregua	NOUN	NOUN	_	26	obj	_	TokenRange=204:210
+28	durante	_	ADP	ADP	_	30	case	_	TokenRange=211:218
+29	final	final	ADJ	ADJ	_	30	amod	_	TokenRange=219:224
+30	semana	semana	NOUN	NOUN	_	31	nmod	_	TokenRange=225:231
+31	fez	fazer	VERB	VERB	_	26	conj	_	TokenRange=232:235
+32	vitimas	_	NOUN	NOUN	_	31	obj	_	TokenRange=236:243
+33	ceara	ceara	ADJ	ADJ	_	34	amod	_	TokenRange=244:249
+34	rio	rio	NOUN	NOUN	_	31	nsubj	_	TokenRange=250:253
+35	paulo	paulo	ADJ	ADJ	_	34	amod	_	TokenRange=254:259
+36	planalto	planalto	ADJ	ADJ	_	34	amod	_	TokenRange=260:268
+37	temer	temer	NOUN	NOUN	_	34	flat	_	TokenRange=269:274
+38	monta	montar	VERB	VERB	_	31	conj	_	TokenRange=275:280
+39	arsenal	arsenal	NOUN	NOUN	_	38	obj	_	TokenRange=281:288
+40	contra	_	ADP	ADP	_	42	case	_	TokenRange=289:295
+41	duas	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=296:300
+42	investigacoes	investigacoe	NOUN	NOUN	_	38	nmod	_	TokenRange=301:314
+43	sobre	_	ADP	ADP	_	44	case	_	TokenRange=315:320
+44	ideia	ideia	NOUN	NOUN	_	42	nmod	_	TokenRange=321:326
+45	pedir	pedir	VERB	VERB	_	42	nmod	_	TokenRange=327:332
+46	empenho	empenho	NOUN	NOUN	_	45	obj	_	TokenRange=333:340
+47	dedicacao	dedicacao	ADJ	ADJ	_	48	amod	_	TokenRange=341:350
+48	aliados	aliado	NOUN	NOUN	_	45	obj	_	SpaceAfter=No|TokenRange=351:358
+

@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = denuncia contra capez mafia merenda analisada tj proxima semana expresidente assembleia legislativa sp acusado receber r 11 milhao propina usados pagar despesas campanha capez diz investigacao leviana tribunal justica paulo ira analisar proxima semana denuncia contra expresidente alesp assembleia legislativa paulo deputado estadual fernando capez psdb corrupcao passiva lavagem dinheiro mafia merenda segundo ministerio publico
+1	denuncia	denuncia	NOUN	NOUN	_	25	nsubj	_	TokenRange=0:8
+2	contra	_	ADP	ADP	_	3	case	_	TokenRange=9:15
+3	capez	capez	NOUN	NOUN	_	1	nmod	_	TokenRange=16:21
+4	mafia	mafia	NOUN	NOUN	_	1	appos	_	TokenRange=22:27
+5	merenda	merenda	ADJ	ADJ	_	4	amod	_	TokenRange=28:35
+6	analisada	analisar	VERB	VERB	_	1	acl	_	TokenRange=36:45
+7	tj	_	CCONJ	CONJ	_	6	advmod	_	TokenRange=46:48
+8	proxima	proximo	ADJ	ADJ	_	9	amod	_	TokenRange=49:56
+9	semana	semana	NOUN	NOUN	_	6	nmod	_	TokenRange=57:63
+10	expresidente	expresidente	NOUN	NOUN	_	11	amod	_	TokenRange=64:76
+11	assembleia	assembleia	NOUN	NOUN	_	1	appos	_	TokenRange=77:87
+12	legislativa	legislativo	ADJ	ADJ	_	11	amod	_	TokenRange=88:99
+13	sp	_	CCONJ	CONJ	_	14	nsubj	_	TokenRange=100:102
+14	acusado	acusar	VERB	VERB	_	1	acl	_	TokenRange=103:110
+15	receber	receber	VERB	VERB	_	14	xcomp	_	TokenRange=111:118
+16	r	r	NOUN	NOUN	_	15	obj	_	TokenRange=119:120
+17	11	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=121:123
+18	milhao	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=124:130
+19	propina	propina	NOUN	NOUN	_	15	obj	_	TokenRange=131:138
+20	usados	usar	VERB	VERB	_	19	acl	_	TokenRange=139:145
+21	pagar	pagar	VERB	VERB	_	20	xcomp	_	TokenRange=146:151
+22	despesas	despesa	NOUN	NOUN	_	21	obj	_	TokenRange=152:160
+23	campanha	campanha	NOUN	NOUN	_	25	nsubj	_	TokenRange=161:169
+24	capez	capez	NOUN	NOUN	_	23	flat	_	TokenRange=170:175
+25	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=176:179
+26	investigacao	investigacao	NOUN	NOUN	_	25	obj	_	TokenRange=180:192
+27	leviana	leviano	ADJ	ADJ	_	26	amod	_	TokenRange=193:200
+28	tribunal	tribunal	NOUN	NOUN	_	26	appos	_	TokenRange=201:209
+29	justica	justico	ADJ	ADJ	_	28	amod	_	TokenRange=210:217
+30	paulo	paulo	NOUN	NOUN	_	32	nsubj	_	TokenRange=218:223
+31	ira	_	AUX	AUX	_	32	aux	_	TokenRange=224:227
+32	analisar	analisar	VERB	VERB	_	25	parataxis	_	TokenRange=228:236
+33	proxima	proximo	ADJ	ADJ	_	34	amod	_	TokenRange=237:244
+34	semana	semana	NOUN	NOUN	_	32	nmod	_	TokenRange=245:251
+35	denuncia	denuncia	NOUN	NOUN	_	32	obj	_	TokenRange=252:260
+36	contra	_	ADP	ADP	_	37	case	_	TokenRange=261:267
+37	expresidente	expresidente	NOUN	NOUN	_	35	nmod	_	TokenRange=268:280
+38	alesp	_	NOUN	NOUN	_	37	appos	_	TokenRange=281:286
+39	assembleia	assembleia	NOUN	NOUN	_	37	appos	_	TokenRange=287:297
+40	legislativa	legislativo	ADJ	ADJ	_	39	amod	_	TokenRange=298:309
+41	paulo	paulo	ADJ	ADJ	_	42	amod	_	TokenRange=310:315
+42	deputado	deputado	NOUN	NOUN	_	37	appos	_	TokenRange=316:324
+43	estadual	estadual	ADJ	ADJ	_	42	amod	_	TokenRange=325:333
+44	fernando	fernar	VERB	VERB	_	42	appos	_	TokenRange=334:342
+45	capez	capez	NOUN	NOUN	_	44	flat	_	TokenRange=343:348
+46	psdb	_	PROPN	PNOUN	_	49	flat	_	TokenRange=349:353
+47	corrupcao	corrupcao	NOUN	NOUN	_	49	amod	_	TokenRange=354:363
+48	passiva	passivo	ADJ	ADJ	_	49	amod	_	TokenRange=364:371
+49	lavagem	lavagem	NOUN	NOUN	_	44	obj	_	TokenRange=372:379
+50	dinheiro	dinheiro	ADJ	ADJ	_	49	amod	_	TokenRange=380:388
+51	mafia	mafia	NOUN	NOUN	_	49	appos	_	TokenRange=389:394
+52	merenda	merenda	ADJ	ADJ	_	49	amod	_	TokenRange=395:402
+53	segundo	_	ADP	ADP	_	54	case	_	TokenRange=403:410
+54	ministerio	ministerio	NOUN	NOUN	_	52	nmod	_	TokenRange=411:421
+55	publico	_	ADJ	ADJ	_	54	amod	_	SpaceAfter=No|TokenRange=422:429
+

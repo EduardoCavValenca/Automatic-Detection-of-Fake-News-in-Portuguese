@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mpf brasilia denuncia lula filho dois operacao zelotes mpf ve trafico influencia lavagem dinheiro organizacao criminosa esquema beneficiado montadoras empresa sueca instituto lula disse conhecer teor denuncia ministerio publico federal brasilia mpfdf informou nesta sextafeira 9 denunciou justica expresidente republica luiz inacio lula silva filho luiz claudio lula silva crimes trafico influencia lavagem dinheiro organizacao criminosa denuncia apresentada
+1	mpf	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:3
+2	brasilia	brasilia	NOUN	NOUN	_	1	flat	_	TokenRange=4:12
+3	denuncia	denunciar	VERB	VERB	_	0	root	_	TokenRange=13:21
+4	lula	_	NOUN	NOUN	_	3	obj	_	TokenRange=22:26
+5	filho	filho	NOUN	NOUN	_	4	flat	_	TokenRange=27:32
+6	dois	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=33:37
+7	operacao	operacao	NOUN	NOUN	_	3	obj	_	TokenRange=38:46
+8	zelotes	zelote	NOUN	NOUN	_	7	flat	_	TokenRange=47:54
+9	mpf	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=55:58
+10	ve	_	VERB	VERB	_	3	parataxis	_	TokenRange=59:61
+11	trafico	trafico	NOUN	NOUN	_	10	obj	_	TokenRange=62:69
+12	influencia	_	ADJ	ADJ	_	11	amod	_	TokenRange=70:80
+13	lavagem	lavagem	NOUN	NOUN	_	11	appos	_	TokenRange=81:88
+14	dinheiro	dinheiro	NOUN	NOUN	_	13	flat	_	TokenRange=89:97
+15	organizacao	organizacao	NOUN	NOUN	_	11	appos	_	TokenRange=98:109
+16	criminosa	criminoso	ADJ	ADJ	_	17	amod	_	TokenRange=110:119
+17	esquema	esquema	NOUN	NOUN	_	15	appos	_	TokenRange=120:127
+18	beneficiado	beneficiar	VERB	VERB	_	17	acl	_	TokenRange=128:139
+19	montadoras	montador	NOUN	NOUN	_	20	amod	_	TokenRange=140:150
+20	empresa	empresa	NOUN	NOUN	_	17	appos	_	TokenRange=151:158
+21	sueca	sueco	ADJ	ADJ	_	20	amod	_	TokenRange=159:164
+22	instituto	instituto	NOUN	NOUN	_	24	nsubj	_	TokenRange=165:174
+23	lula	_	NOUN	NOUN	_	20	appos	_	TokenRange=175:179
+24	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=180:185
+25	conhecer	conhecer	VERB	VERB	_	24	xcomp	_	TokenRange=186:194
+26	teor	teor	NOUN	NOUN	_	25	obj	_	TokenRange=195:199
+27	denuncia	denuncia	NOUN	NOUN	_	26	flat	_	TokenRange=200:208
+28	ministerio	ministerio	NOUN	NOUN	_	26	appos	_	TokenRange=209:219
+29	publico	_	ADJ	ADJ	_	28	amod	_	TokenRange=220:227
+30	federal	federal	ADJ	ADJ	_	28	amod	_	TokenRange=228:235
+31	brasilia	brasilia	ADJ	ADJ	_	28	amod	_	TokenRange=236:244
+32	mpfdf	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=245:250
+33	informou	informar	VERB	VERB	_	3	conj	_	TokenRange=251:259
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=260:265
+35	sextafeira	sextafeira	NOUN	NOUN	_	33	nmod	_	TokenRange=266:276
+36	9	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=277:278
+37	denunciou	denunciar	VERB	VERB	_	33	ccomp	_	TokenRange=279:288
+38	justica	_	NOUN	NOUN	_	37	obj	_	TokenRange=289:296
+39	expresidente	expresidente	NOUN	NOUN	_	37	obj	_	TokenRange=297:309
+40	republica	republico	ADJ	ADJ	_	39	amod	_	TokenRange=310:319
+41	luiz	luiz	NOUN	NOUN	_	39	appos	_	TokenRange=320:324
+42	inacio	_	NOUN	NOUN	_	41	flat	_	TokenRange=325:331
+43	lula	_	NOUN	NOUN	_	39	flat	_	TokenRange=332:336
+44	silva	silva	NOUN	NOUN	_	41	flat	_	TokenRange=337:342
+45	filho	filho	NOUN	NOUN	_	46	flat	_	TokenRange=343:348
+46	luiz	luiz	NOUN	NOUN	_	39	appos	_	TokenRange=349:353
+47	claudio	claudio	NOUN	NOUN	_	46	flat	_	TokenRange=354:361
+48	lula	_	NOUN	NOUN	_	46	flat	_	TokenRange=362:366
+49	silva	silvo	ADJ	ADJ	_	46	flat	_	TokenRange=367:372
+50	crimes	crime	NOUN	NOUN	_	37	obj	_	TokenRange=373:379
+51	trafico	trafico	NOUN	NOUN	_	50	appos	_	TokenRange=380:387
+52	influencia	_	ADJ	ADJ	_	53	amod	_	TokenRange=388:398
+53	lavagem	lavagem	NOUN	NOUN	_	50	appos	_	TokenRange=399:406
+54	dinheiro	dinheiro	ADJ	ADJ	_	53	amod	_	TokenRange=407:415
+55	organizacao	organizacao	NOUN	NOUN	_	50	appos	_	TokenRange=416:427
+56	criminosa	criminoso	ADJ	ADJ	_	57	amod	_	TokenRange=428:437
+57	denuncia	denuncia	NOUN	NOUN	_	55	appos	_	TokenRange=438:446
+58	apresentada	apresentar	VERB	VERB	_	57	acl	_	SpaceAfter=No|TokenRange=447:458
+

@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tse monta megaestrutura julgamento chapa dilmatemer tribunal comecara analisar terca 4 acao pede cassacao chapa vencedora eleicao 2014 corte reforcou seguranca interna externa instalou teloes disponibilizou uti movel dois anos cinco meses vitoria dilma rousseff michel temer eleicoes presidenciais outubro 2014 tribunal superior eleitoral tse comecara julgar nesta tercafeira 4 acao pede cassacao chapa encabecada pt pmdb entenda julgamento receber grande quantidade pessoas interessadas acompanhar primeiro julgamento
+1	tse	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:3
+2	monta	montar	VERB	VERB	_	0	root	_	TokenRange=4:9
+3	megaestrutura	megaestrutura	NOUN	NOUN	_	2	obj	_	TokenRange=10:23
+4	julgamento	julgamento	NOUN	NOUN	_	2	obj	_	TokenRange=24:34
+5	chapa	chapa	NOUN	NOUN	_	9	nsubj	_	TokenRange=35:40
+6	dilmatemer	_	NOUN	NOUN	_	5	flat	_	TokenRange=41:51
+7	tribunal	tribunal	NOUN	NOUN	_	5	flat	_	TokenRange=52:60
+8	comecara	_	AUX	AUX	_	9	aux	_	TokenRange=61:69
+9	analisar	analisar	VERB	VERB	_	2	ccomp	_	TokenRange=70:78
+10	terca	terca	NOUN	NOUN	_	9	obj	_	TokenRange=79:84
+11	4	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=85:86
+12	acao	acao	NOUN	NOUN	_	9	obj	_	TokenRange=87:91
+13	pede	pedir	VERB	VERB	_	9	parataxis	_	TokenRange=92:96
+14	cassacao	cassacao	NOUN	NOUN	_	13	obj	_	TokenRange=97:105
+15	chapa	chapa	NOUN	NOUN	_	13	nsubj	_	TokenRange=106:111
+16	vencedora	vencedor	ADJ	ADJ	_	15	amod	_	TokenRange=112:121
+17	eleicao	eleicao	NOUN	NOUN	_	20	nsubj	_	TokenRange=122:129
+18	2014	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=130:134
+19	corte	corte	NOUN	NOUN	_	20	nsubj	_	TokenRange=135:140
+20	reforcou	reforcar	VERB	VERB	_	15	acl:relcl	_	TokenRange=141:149
+21	seguranca	_	NOUN	NOUN	_	20	obj	_	TokenRange=150:159
+22	interna	interno	ADJ	ADJ	_	21	amod	_	TokenRange=160:167
+23	externa	externo	ADJ	ADJ	_	21	amod	_	TokenRange=168:175
+24	instalou	instalar	VERB	VERB	_	20	parataxis	_	TokenRange=176:184
+25	teloes	teloe	NOUN	NOUN	_	24	obj	_	TokenRange=185:191
+26	disponibilizou	disponibilizar	VERB	VERB	_	24	parataxis	_	TokenRange=192:206
+27	uti	_	NOUN	NOUN	_	26	obj	_	TokenRange=207:210
+28	movel	movel	ADJ	ADJ	_	27	amod	_	TokenRange=211:216
+29	dois	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=217:221
+30	anos	ano	NOUN	NOUN	_	27	nmod	_	TokenRange=222:226
+31	cinco	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=227:232
+32	meses	mês	NOUN	NOUN	_	27	nmod	_	TokenRange=233:238
+33	vitoria	vitoria	NOUN	NOUN	_	27	appos	_	TokenRange=239:246
+34	dilma	dilma	NOUN	NOUN	_	33	appos	_	TokenRange=247:252
+35	rousseff	rousseff	NOUN	NOUN	_	33	appos	_	TokenRange=253:261
+36	michel	michel	ADJ	ADJ	_	35	amod	_	TokenRange=262:268
+37	temer	temer	NOUN	NOUN	_	35	flat	_	TokenRange=269:274
+38	eleicoes	eleicoe	NOUN	NOUN	_	33	appos	_	TokenRange=275:283
+39	presidenciais	presidencial	ADJ	ADJ	_	38	amod	_	TokenRange=284:297
+40	outubro	_	PROPN	PNOUN	_	38	appos	_	TokenRange=298:305
+41	2014	_	NUM	NUM	NumType=Card	42	nmod	_	TokenRange=306:310
+42	tribunal	tribunal	NOUN	NOUN	_	47	nsubj	_	TokenRange=311:319
+43	superior	superior	ADJ	ADJ	_	42	amod	_	TokenRange=320:328
+44	eleitoral	eleitoral	ADJ	ADJ	_	42	amod	_	TokenRange=329:338
+45	tse	_	PRON	PRON	_	47	nsubj	_	TokenRange=339:342
+46	comecara	comecar	AUX	AUX	_	47	aux	_	TokenRange=343:351
+47	julgar	julgar	VERB	VERB	_	2	parataxis	_	TokenRange=352:358
+48	nesta	_	ADP	ADP	_	49	case	_	TokenRange=359:364
+49	tercafeira	_	NOUN	NOUN	_	47	nmod	_	TokenRange=365:375
+50	4	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=376:377
+51	acao	acao	NOUN	NOUN	_	49	appos	_	TokenRange=378:382
+52	pede	pedir	VERB	VERB	_	47	parataxis	_	TokenRange=383:387
+53	cassacao	cassacao	NOUN	NOUN	_	52	obj	_	TokenRange=388:396
+54	chapa	chapa	NOUN	NOUN	_	52	obj	_	TokenRange=397:402
+55	encabecada	encabecado	ADJ	ADJ	_	54	amod	_	TokenRange=403:413
+56	pt	_	ADJ	ADJ	_	54	amod	_	TokenRange=414:416
+57	pmdb	_	NOUN	NOUN	_	54	appos	_	TokenRange=417:421
+58	entenda	entender	VERB	VERB	_	47	parataxis	_	TokenRange=422:429
+59	julgamento	julgamento	NOUN	NOUN	_	58	obj	_	TokenRange=430:440
+60	receber	receber	VERB	VERB	_	58	ccomp	_	TokenRange=441:448
+61	grande	grande	ADJ	ADJ	_	62	amod	_	TokenRange=449:455
+62	quantidade	quantidade	NOUN	NOUN	_	60	obj	_	TokenRange=456:466
+63	pessoas	pessoa	NOUN	NOUN	_	60	obj	_	TokenRange=467:474
+64	interessadas	interessar	VERB	VERB	_	63	acl	_	TokenRange=475:487
+65	acompanhar	acompanhar	VERB	VERB	_	64	xcomp	_	TokenRange=488:498
+66	primeiro	primeiro	ADJ	ADJ	_	67	amod	_	TokenRange=499:507
+67	julgamento	julgamento	NOUN	NOUN	_	65	obj	_	SpaceAfter=No|TokenRange=508:518
+

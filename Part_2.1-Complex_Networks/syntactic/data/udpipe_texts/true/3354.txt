@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil 86 mil estrangeiros aguardando resposta sobre refugio 14 funcionarios avaliar pedidos ministerio justica aumentou funcionarios processam casos demanda cresceu 2016 2017 enquanto esperam migrantes garantidos direitos acesso saude educacao publicas brasil atualmente 86 mil estrangeiros solicitaram refugio pais aguardam resposta governo comite
+1	brasil	brasil	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:6
+2	86	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=7:9
+3	mil	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=10:13
+4	estrangeiros	estrangeiro	NOUN	NOUN	_	15	nsubj	_	TokenRange=14:26
+5	aguardando	aguardar	VERB	VERB	_	4	acl	_	TokenRange=27:37
+6	resposta	resposta	NOUN	NOUN	_	5	obj	_	TokenRange=38:46
+7	sobre	_	ADP	ADP	_	8	case	_	TokenRange=47:52
+8	refugio	refugio	NOUN	NOUN	_	5	nmod	_	TokenRange=53:60
+9	14	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=61:63
+10	funcionarios	funcionario	NOUN	NOUN	_	11	nsubj	_	TokenRange=64:76
+11	avaliar	avaliar	VERB	VERB	_	4	acl:relcl	_	TokenRange=77:84
+12	pedidos	pedido	NOUN	NOUN	_	11	obj	_	TokenRange=85:92
+13	ministerio	ministerio	NOUN	NOUN	_	12	appos	_	TokenRange=93:103
+14	justica	_	ADJ	ADJ	_	13	amod	_	TokenRange=104:111
+15	aumentou	aumentar	VERB	VERB	_	0	root	_	TokenRange=112:120
+16	funcionarios	funcionario	NOUN	NOUN	_	17	obj	_	TokenRange=121:133
+17	processam	processar	VERB	VERB	_	15	ccomp	_	TokenRange=134:143
+18	casos	caso	NOUN	NOUN	_	17	obj	_	TokenRange=144:149
+19	demanda	demanda	NOUN	NOUN	_	17	nsubj	_	TokenRange=150:157
+20	cresceu	crescer	VERB	VERB	_	15	parataxis	_	TokenRange=158:165
+21	2016	_	NUM	NUM	NumType=Card	20	nmod	_	TokenRange=166:170
+22	2017	_	NUM	NUM	NumType=Card	20	nmod	_	TokenRange=171:175
+23	enquanto	_	CCONJ	CONJ	_	24	mark	_	TokenRange=176:184
+24	esperam	esperar	VERB	VERB	_	20	advcl	_	TokenRange=185:192
+25	migrantes	migrante	NOUN	NOUN	_	24	obj	_	TokenRange=193:202
+26	garantidos	garantido	ADJ	ADJ	_	25	amod	_	TokenRange=203:213
+27	direitos	direito	NOUN	NOUN	_	25	appos	_	TokenRange=214:222
+28	acesso	acesso	NOUN	NOUN	_	25	appos	_	TokenRange=223:229
+29	saude	saude	NOUN	NOUN	_	30	flat	_	TokenRange=230:235
+30	educacao	educacao	NOUN	NOUN	_	28	appos	_	TokenRange=236:244
+31	publicas	publico	ADJ	ADJ	_	30	amod	_	TokenRange=245:253
+32	brasil	brasil	ADJ	ADJ	_	30	amod	_	TokenRange=254:260
+33	atualmente	atualmente	ADV	ADV	_	37	advmod	_	TokenRange=261:271
+34	86	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=272:274
+35	mil	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=275:278
+36	estrangeiros	estrangeiro	NOUN	NOUN	_	37	nsubj	_	TokenRange=279:291
+37	solicitaram	solicitar	VERB	VERB	_	20	parataxis	_	TokenRange=292:303
+38	refugio	refugio	NOUN	NOUN	_	37	obj	_	TokenRange=304:311
+39	pais	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=312:316
+40	aguardam	aguardar	VERB	VERB	_	37	parataxis	_	TokenRange=317:325
+41	resposta	resposta	NOUN	NOUN	_	40	obj	_	TokenRange=326:334
+42	governo	governo	NOUN	NOUN	_	40	obj	_	TokenRange=335:342
+43	comite	comite	NOUN	NOUN	_	41	flat	_	SpaceAfter=No|TokenRange=343:349
+

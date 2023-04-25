@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sobrevivente nazismo tornou campea mundial natacao 90 anos nora ronai fugiu italia rio janeiro jovem comecou competir 69 anos sentia triste cansada ia nadar manha calor rio janeiro nora ronai veste maio prepara cafe pega bolsa sair porta casa caminha 20 minutos pleno sol clube regatas guanabara deixa pertences armario vai direto piscina ali vai nadar 16 mil metros diarios sair agua revigorada rotina comum qualquer atleta bem rara trata pessoa 93 anos assista reportagem video nora encara velhice realidade meio vida repleta desafios leva apenas impeditivo
+1	sobrevivente	sobrevivente	ADJ	ADJ	_	2	amod	_	TokenRange=0:12
+2	nazismo	nazismo	NOUN	NOUN	_	4	nsubj	_	TokenRange=13:20
+3	tornou	tornar	AUX	AUX	_	4	cop	_	TokenRange=21:27
+4	campea	campea	NOUN	NOUN	_	0	root	_	TokenRange=28:34
+5	mundial	mundial	ADJ	ADJ	_	4	amod	_	TokenRange=35:42
+6	natacao	natacao	NOUN	NOUN	_	4	appos	_	TokenRange=43:50
+7	90	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=51:53
+8	anos	ano	NOUN	NOUN	_	4	nsubj	_	TokenRange=54:58
+9	nora	nora	NOUN	NOUN	_	11	nsubj	_	TokenRange=59:63
+10	ronai	_	NOUN	NOUN	_	9	flat	_	TokenRange=64:69
+11	fugiu	fugir	VERB	VERB	_	4	acl:relcl	_	TokenRange=70:75
+12	italia	_	NOUN	NOUN	_	11	obj	_	TokenRange=76:82
+13	rio	_	NOUN	NOUN	_	11	nmod	_	TokenRange=83:86
+14	janeiro	_	PROPN	PNOUN	_	11	nsubj	_	TokenRange=87:94
+15	jovem	jovem	ADJ	ADJ	_	14	amod	_	TokenRange=95:100
+16	comecou	comecar	VERB	VERB	_	4	conj	_	TokenRange=101:108
+17	competir	competir	VERB	VERB	_	16	xcomp	_	TokenRange=109:117
+18	69	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=118:120
+19	anos	ano	NOUN	NOUN	_	17	obj	_	TokenRange=121:125
+20	sentia	sentir	VERB	VERB	_	4	conj	_	TokenRange=126:132
+21	triste	triste	ADJ	ADJ	_	20	xcomp	_	TokenRange=133:139
+22	cansada	cansado	ADJ	ADJ	_	20	xcomp	_	TokenRange=140:147
+23	ia	ir	AUX	AUX	_	24	aux	_	TokenRange=148:150
+24	nadar	nadar	VERB	VERB	_	20	parataxis	_	TokenRange=151:156
+25	manha	manha	NOUN	NOUN	_	24	obj	_	TokenRange=157:162
+26	calor	calor	NOUN	NOUN	_	25	appos	_	TokenRange=163:168
+27	rio	_	NOUN	NOUN	_	25	appos	_	TokenRange=169:172
+28	janeiro	_	PROPN	PNOUN	_	27	appos	_	TokenRange=173:180
+29	nora	nora	NOUN	NOUN	_	33	nsubj	_	TokenRange=181:185
+30	ronai	ronai	NOUN	NOUN	_	29	flat	_	TokenRange=186:191
+31	veste	_	VERB	VERB	_	24	parataxis	_	TokenRange=192:197
+32	maio	_	NOUN	NOUN	_	33	obj	_	TokenRange=198:202
+33	prepara	preparar	VERB	VERB	_	11	conj	_	TokenRange=203:210
+34	cafe	cafe	NOUN	NOUN	_	33	obj	_	TokenRange=211:215
+35	pega	_	VERB	VERB	_	33	ccomp	_	TokenRange=216:220
+36	bolsa	bolsa	NOUN	NOUN	_	33	nsubj	_	TokenRange=221:226
+37	sair	sair	VERB	VERB	_	33	ccomp	_	TokenRange=227:231
+38	porta	porta	NOUN	NOUN	_	37	nmod	_	TokenRange=232:237
+39	casa	casa	NOUN	NOUN	_	37	obj	_	TokenRange=238:242
+40	caminha	caminhar	VERB	VERB	_	33	parataxis	_	TokenRange=243:250
+41	20	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=251:253
+42	minutos	minuto	NOUN	NOUN	_	40	nmod	_	TokenRange=254:261
+43	pleno	pleno	ADJ	ADJ	_	44	amod	_	TokenRange=262:267
+44	sol	sol	NOUN	NOUN	_	40	nsubj	_	TokenRange=268:271
+45	clube	clube	NOUN	NOUN	_	44	appos	_	TokenRange=272:277
+46	regatas	regato	ADJ	ADJ	_	45	amod	_	TokenRange=278:285
+47	guanabara	guanabar	NOUN	NOUN	_	45	amod	_	TokenRange=286:295
+48	deixa	deixar	VERB	VERB	_	51	parataxis	_	TokenRange=296:301
+49	pertences	pertence	NOUN	NOUN	_	51	obj	_	TokenRange=302:311
+50	armario	armario	NOUN	NOUN	_	49	flat	_	TokenRange=312:319
+51	vai	ir	VERB	VERB	_	4	conj	_	TokenRange=320:323
+52	direto	direto	ADV	ADV	_	51	advmod	_	TokenRange=324:330
+53	piscina	piscina	NOUN	NOUN	_	51	nsubj	_	TokenRange=331:338
+54	ali	ali	ADV	ADV	_	56	advmod	_	TokenRange=339:342
+55	vai	ir	AUX	AUX	_	56	aux	_	TokenRange=343:346
+56	nadar	nadar	VERB	VERB	_	51	csubj	_	TokenRange=347:352
+57	16	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=353:355
+58	mil	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=356:359
+59	metros	metro	NOUN	NOUN	_	56	obj	_	TokenRange=360:366
+60	diarios	diario	ADJ	ADJ	_	59	amod	_	TokenRange=367:374
+61	sair	sair	VERB	VERB	_	56	ccomp	_	TokenRange=375:379
+62	agua	agua	NOUN	NOUN	_	61	obj	_	TokenRange=380:384
+63	revigorada	revigorado	ADJ	ADJ	_	62	amod	_	TokenRange=385:395
+64	rotina	rotina	NOUN	NOUN	_	62	appos	_	TokenRange=396:402
+65	comum	comum	ADJ	ADJ	_	64	amod	_	TokenRange=403:408
+66	qualquer	_	DET	DET	_	67	det	_	TokenRange=409:417
+67	atleta	atleta	NOUN	NOUN	_	70	nsubj	_	TokenRange=418:424
+68	bem	bem	ADV	ADV	_	69	advmod	_	TokenRange=425:428
+69	rara	raro	ADJ	ADJ	_	67	amod	_	TokenRange=429:433
+70	trata	tratar	VERB	VERB	_	56	parataxis	_	TokenRange=434:439
+71	pessoa	pessoa	NOUN	NOUN	_	70	obj	_	TokenRange=440:446
+72	93	_	NUM	NUM	NumType=Card	73	nummod	_	TokenRange=447:449
+73	anos	ano	NOUN	NOUN	_	74	nsubj	_	TokenRange=450:454
+74	assista	assistir	VERB	VERB	_	70	parataxis	_	TokenRange=455:462
+75	reportagem	reportagem	NOUN	NOUN	_	74	obj	_	TokenRange=463:473
+76	video	video	NOUN	NOUN	_	75	appos	_	TokenRange=474:479
+77	nora	nora	NOUN	NOUN	_	78	nsubj	_	TokenRange=480:484
+78	encara	encarar	VERB	VERB	_	75	acl:relcl	_	TokenRange=485:491
+79	velhice	velhice	ADJ	ADJ	_	80	amod	_	TokenRange=492:499
+80	realidade	realidade	NOUN	NOUN	_	85	obj	_	TokenRange=500:509
+81	meio	meio	ADJ	ADJ	_	82	amod	_	TokenRange=510:514
+82	vida	vida	NOUN	NOUN	_	80	appos	_	TokenRange=515:519
+83	repleta	repleto	ADJ	ADJ	_	82	amod	_	TokenRange=520:527
+84	desafios	desafio	NOUN	NOUN	_	85	nsubj	_	TokenRange=528:536
+85	leva	levar	VERB	VERB	_	74	parataxis	_	TokenRange=537:541
+86	apenas	apenas	ADV	ADV	_	87	advmod	_	TokenRange=542:548
+87	impeditivo	impeditivo	ADJ	ADJ	_	85	xcomp	_	SpaceAfter=No|TokenRange=549:559
+

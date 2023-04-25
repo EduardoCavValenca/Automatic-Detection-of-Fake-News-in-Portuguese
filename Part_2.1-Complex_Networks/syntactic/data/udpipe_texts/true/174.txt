@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = idoso morre apos baleado durante briga distrito lagamar crime registrado neste domingo 7 bras minas testemunhas contaram autor disparos outro idoso localizado idoso 72 anos morreu apos levar tres tiros durante briga tarde deste domingo 7 distrito bras minas lagamar noroeste minas segundo informacoes policia militar pm testemunhas contaram autor disparos outro idoso ainda acordo pm dois brigando idoso armado faca atingido disparos vitima levada hospital lagamar militares porem resistiu ferimentos suspeito fugiu momento localizado
+1	idoso	idoso	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=6:11
+3	apos	_	ADP	ADP	_	4	mark	_	TokenRange=12:16
+4	baleado	balear	VERB	VERB	_	2	advcl	_	TokenRange=17:24
+5	durante	_	ADP	ADP	_	6	case	_	TokenRange=25:32
+6	briga	briga	NOUN	NOUN	_	2	nmod	_	TokenRange=33:38
+7	distrito	distrito	NOUN	NOUN	_	6	appos	_	TokenRange=39:47
+8	lagamar	lagamar	ADJ	ADJ	_	6	amod	_	TokenRange=48:55
+9	crime	crime	NOUN	NOUN	_	6	appos	_	TokenRange=56:61
+10	registrado	registrar	VERB	VERB	_	9	acl	_	TokenRange=62:72
+11	neste	_	ADP	ADP	_	12	case	_	TokenRange=73:78
+12	domingo	_	PROPN	PNOUN	_	10	nmod	_	TokenRange=79:86
+13	7	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=87:88
+14	bras	bra	NOUN	NOUN	_	12	appos	_	TokenRange=89:93
+15	minas	mino	ADJ	ADJ	_	14	amod	_	TokenRange=94:99
+16	testemunhas	testemunha	NOUN	NOUN	_	17	nsubj	_	TokenRange=100:111
+17	contaram	contar	VERB	VERB	_	2	parataxis	_	TokenRange=112:120
+18	autor	autor	NOUN	NOUN	_	17	obj	_	TokenRange=121:126
+19	disparos	disparo	NOUN	NOUN	_	18	flat	_	TokenRange=127:135
+20	outro	_	DET	DET	_	21	det	_	TokenRange=136:141
+21	idoso	idoso	NOUN	NOUN	_	17	nsubj	_	TokenRange=142:147
+22	localizado	localizar	VERB	VERB	_	21	acl	_	TokenRange=148:158
+23	idoso	idoso	ADJ	ADJ	_	22	amod	_	TokenRange=159:164
+24	72	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=165:167
+25	anos	ano	NOUN	NOUN	_	26	nsubj	_	TokenRange=168:172
+26	morreu	morrer	VERB	VERB	_	21	acl:relcl	_	TokenRange=173:179
+27	apos	_	ADP	ADP	_	28	mark	_	TokenRange=180:184
+28	levar	levar	VERB	VERB	_	26	advcl	_	TokenRange=185:190
+29	tres	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=191:195
+30	tiros	tiro	NOUN	NOUN	_	28	obj	_	TokenRange=196:201
+31	durante	_	ADP	ADP	_	32	case	_	TokenRange=202:209
+32	briga	briga	NOUN	NOUN	_	28	nmod	_	TokenRange=210:215
+33	tarde	tarde	NOUN	NOUN	_	32	appos	_	TokenRange=216:221
+34	deste	_	ADP	ADP	_	35	case	_	TokenRange=222:227
+35	domingo	_	PROPN	PNOUN	_	33	nmod	_	TokenRange=228:235
+36	7	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=236:237
+37	distrito	distrito	NOUN	NOUN	_	35	appos	_	TokenRange=238:246
+38	bras	_	NOUN	NOUN	_	37	appos	_	TokenRange=247:251
+39	minas	mina	NOUN	NOUN	_	37	appos	_	TokenRange=252:257
+40	lagamar	lagamar	NOUN	NOUN	_	37	appos	_	TokenRange=258:265
+41	noroeste	noroeste	ADJ	ADJ	_	37	amod	_	TokenRange=266:274
+42	minas	mina	NOUN	NOUN	_	40	appos	_	TokenRange=275:280
+43	segundo	_	ADP	ADP	_	44	case	_	TokenRange=281:288
+44	informacoes	informacoe	NOUN	NOUN	_	26	nmod	_	TokenRange=289:300
+45	policia	policia	NOUN	NOUN	_	44	appos	_	TokenRange=301:308
+46	militar	militar	ADJ	ADJ	_	45	amod	_	TokenRange=309:316
+47	pm	_	DET	ADP	_	48	det	_	TokenRange=317:319
+48	testemunhas	testemunha	NOUN	NOUN	_	49	nsubj	_	TokenRange=320:331
+49	contaram	contar	VERB	VERB	_	2	parataxis	_	TokenRange=332:340
+50	autor	autor	NOUN	NOUN	_	49	obj	_	TokenRange=341:346
+51	disparos	disparo	NOUN	NOUN	_	50	flat	_	TokenRange=347:355
+52	outro	_	DET	DET	_	53	det	_	TokenRange=356:361
+53	idoso	idoso	NOUN	NOUN	_	49	nsubj	_	TokenRange=362:367
+54	ainda	ainda	ADV	ADV	_	55	advmod	_	TokenRange=368:373
+55	acordo	acordo	NOUN	NOUN	_	53	appos	_	TokenRange=374:380
+56	pm	pm	ADP	ADP	_	58	case	_	TokenRange=381:383
+57	dois	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=384:388
+58	brigando	brigar	NOUN	VERB	_	55	nmod	_	TokenRange=389:397
+59	idoso	idoso	NOUN	NOUN	_	58	obj	_	TokenRange=398:403
+60	armado	armado	ADJ	ADJ	_	59	amod	_	TokenRange=404:410
+61	faca	_	AUX	AUX	_	62	aux	_	TokenRange=411:415
+62	atingido	atingir	VERB	VERB	_	58	acl	_	TokenRange=416:424
+63	disparos	disparo	NOUN	NOUN	_	62	nsubj	_	TokenRange=425:433
+64	vitima	vitima	NOUN	NOUN	_	62	nsubj	_	TokenRange=434:440
+65	levada	levar	ADJ	ADJ	_	66	acl	_	TokenRange=441:447
+66	hospital	hospital	NOUN	NOUN	_	62	nsubj	_	TokenRange=448:456
+67	lagamar	lagamar	NOUN	NOUN	_	66	appos	_	TokenRange=457:464
+68	militares	militar	ADJ	ADJ	_	66	amod	_	TokenRange=465:474
+69	porem	_	ADV	ADV	_	70	mark	_	TokenRange=475:480
+70	resistiu	resistir	VERB	VERB	_	73	conj	_	TokenRange=481:489
+71	ferimentos	ferimento	NOUN	NOUN	_	70	obj	_	TokenRange=490:500
+72	suspeito	suspeito	ADJ	ADJ	_	74	amod	_	TokenRange=501:509
+73	fugiu	fugir	VERB	VERB	_	49	parataxis	_	TokenRange=510:515
+74	momento	momento	NOUN	NOUN	_	73	obj	_	TokenRange=516:523
+75	localizado	localizar	VERB	VERB	_	74	acl	_	SpaceAfter=No|TokenRange=524:534
+

@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula recebe doacao 500 mil apos moro bloquear bens parece piada roberta luchsinger herdeira familia fundadora banco credit suisse lancou movimento apoio financeiro expresidente contas bancarias bloqueados pedido juiz sergio moro bloqueio bens lula moro tenta inviabilizalo tanto politica quanto pessoalmente vou fazer doacao presidente possa usar conforme necessidades afirma roberta
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	recebe	receber	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	doacao	doacao	NOUN	NOUN	_	2	obj	_	TokenRange=12:18
+4	500	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=19:22
+5	mil	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=23:26
+6	apos	_	ADP	ADP	_	8	mark	_	TokenRange=27:31
+7	moro	moro	NOUN	NOUN	_	8	nsubj	_	TokenRange=32:36
+8	bloquear	bloquear	VERB	VERB	_	2	advcl	_	TokenRange=37:45
+9	bens	bem	NOUN	NOUN	_	8	obj	_	TokenRange=46:50
+10	parece	parecer	VERB	VERB	_	2	parataxis	_	TokenRange=51:57
+11	piada	piada	NOUN	NOUN	_	2	obj	_	TokenRange=58:63
+12	roberta	roberto	ADJ	ADJ	_	11	amod	_	TokenRange=64:71
+13	luchsinger	_	NOUN	NOUN	_	11	appos	_	TokenRange=72:82
+14	herdeira	_	NOUN	NOUN	_	13	appos	_	TokenRange=83:91
+15	familia	familia	NOUN	NOUN	_	14	flat	_	TokenRange=92:99
+16	fundadora	fundador	ADJ	ADJ	_	17	amod	_	TokenRange=100:109
+17	banco	banco	NOUN	NOUN	_	14	appos	_	TokenRange=110:115
+18	credit	_	NOUN	NOUN	_	17	flat	_	TokenRange=116:122
+19	suisse	suisse	ADJ	ADJ	_	17	amod	_	TokenRange=123:129
+20	lancou	lancar	VERB	VERB	_	2	parataxis	_	TokenRange=130:136
+21	movimento	movimento	NOUN	NOUN	_	20	obj	_	TokenRange=137:146
+22	apoio	apoio	NOUN	NOUN	_	21	appos	_	TokenRange=147:152
+23	financeiro	financeiro	ADJ	ADJ	_	22	amod	_	TokenRange=153:163
+24	expresidente	expresidente	ADJ	ADJ	_	25	amod	_	TokenRange=164:176
+25	contas	conta	NOUN	NOUN	_	21	appos	_	TokenRange=177:183
+26	bancarias	bancario	ADJ	ADJ	_	25	amod	_	TokenRange=184:193
+27	bloqueados	bloqueado	ADJ	ADJ	_	25	amod	_	TokenRange=194:204
+28	pedido	pedido	NOUN	NOUN	_	25	appos	_	TokenRange=205:211
+29	juiz	juiz	NOUN	NOUN	_	25	appos	_	TokenRange=212:216
+30	sergio	sergio	ADJ	ADJ	_	29	amod	_	TokenRange=217:223
+31	moro	moro	NOUN	NOUN	_	29	appos	_	TokenRange=224:228
+32	bloqueio	bloqueio	NOUN	NOUN	_	29	appos	_	TokenRange=229:237
+33	bens	bem	NOUN	NOUN	_	32	obj	_	TokenRange=238:242
+34	lula	lula	NOUN	NOUN	_	33	appos	_	TokenRange=243:247
+35	moro	moro	NOUN	NOUN	_	34	flat	_	TokenRange=248:252
+36	tenta	tentar	VERB	VERB	_	2	parataxis	_	TokenRange=253:258
+37	inviabilizalo	inviabilizalo	NOUN	NOUN	_	36	obj	_	TokenRange=259:272
+38	tanto	tanto	ADV	ADV	_	39	cc	_	TokenRange=273:278
+39	politica	_	NOUN	NOUN	_	37	conj	_	TokenRange=279:287
+40	quanto	_	CCONJ	CONJ	_	43	cc	_	TokenRange=288:294
+41	pessoalmente	pessoalmente	ADV	ADV	_	43	advmod	_	TokenRange=295:307
+42	vou	ir	AUX	AUX	_	43	aux	_	TokenRange=308:311
+43	fazer	fazer	VERB	VERB	_	36	conj	_	TokenRange=312:317
+44	doacao	doacao	NOUN	NOUN	_	43	obj	_	TokenRange=318:324
+45	presidente	presidente	NOUN	NOUN	_	44	flat	_	TokenRange=325:335
+46	possa	_	AUX	AUX	_	47	aux	_	TokenRange=336:341
+47	usar	usar	VERB	VERB	_	43	ccomp	_	TokenRange=342:346
+48	conforme	_	ADP	ADP	_	49	case	_	TokenRange=347:355
+49	necessidades	necessidade	NOUN	NOUN	_	47	nmod	_	TokenRange=356:368
+50	afirma	afirmar	VERB	VERB	_	36	advcl	_	TokenRange=369:375
+51	roberta	_	NOUN	NOUN	_	50	nsubj	_	SpaceAfter=No|TokenRange=376:383
+

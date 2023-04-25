@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = agora vai organizacao cadastra pessoas promete invadir brasilia 500 mil pessoas pagina facebook chamada ucop brasil cadastrando internautas suposto objetivo ocupar brasilia poucos seguidores cerca 19 mil engajamento pagina rede social avanca passos largos cada vez organizacao mencionada grandes portais noticias atraves formulario cadastrado google docs pagina convida brasileiros ocuparem brasilia necessario enfrentar orgaos seguranca publica brasil passa momento serio limite civilidade selvageria pode romper qualquer momento sociedade deve papel fundamental mudancas serem feitas preciso cuidado segue abaixo parte texto criado organizacao
+1	agora	agora	ADV	ADV	_	3	advmod	_	TokenRange=0:5
+2	vai	ir	AUX	AUX	_	3	cop	_	TokenRange=6:9
+3	organizacao	organizacao	NOUN	NOUN	_	77	nsubj	_	TokenRange=10:21
+4	cadastra	_	DET	DET	_	5	det	_	TokenRange=22:30
+5	pessoas	pessoa	NOUN	NOUN	_	6	nsubj	_	TokenRange=31:38
+6	promete	prometer	VERB	VERB	_	3	acl:relcl	_	TokenRange=39:46
+7	invadir	invadir	VERB	VERB	_	6	xcomp	_	TokenRange=47:54
+8	brasilia	brasilia	NOUN	NOUN	_	7	obj	_	TokenRange=55:63
+9	500	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=64:67
+10	mil	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=68:71
+11	pessoas	pessoa	NOUN	NOUN	_	7	obj	_	TokenRange=72:79
+12	pagina	pagina	NOUN	NOUN	_	3	appos	_	TokenRange=80:86
+13	facebook	_	PROPN	PNOUN	_	12	appos	_	TokenRange=87:95
+14	chamada	chamar	AUX	AUX	_	15	cop	_	TokenRange=96:103
+15	ucop	_	NOUN	NOUN	_	12	appos	_	TokenRange=104:108
+16	brasil	brasil	ADJ	ADJ	_	15	amod	_	TokenRange=109:115
+17	cadastrando	cadastrar	VERB	VERB	_	12	acl	_	TokenRange=116:127
+18	internautas	internauta	NOUN	NOUN	_	17	obj	_	TokenRange=128:139
+19	suposto	suposto	ADJ	ADJ	_	20	amod	_	TokenRange=140:147
+20	objetivo	objetivo	NOUN	NOUN	_	18	appos	_	TokenRange=148:156
+21	ocupar	ocupar	VERB	VERB	_	17	ccomp	_	TokenRange=157:163
+22	brasilia	brasilia	NOUN	NOUN	_	21	obj	_	TokenRange=164:172
+23	poucos	_	DET	DET	_	24	det	_	TokenRange=173:179
+24	seguidores	seguidor	NOUN	NOUN	_	21	obj	_	TokenRange=180:190
+25	cerca	cerca	ADV	ADV	_	27	advmod	_	TokenRange=191:196
+26	19	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=197:199
+27	mil	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=200:203
+28	engajamento	engajamento	NOUN	NOUN	_	21	obj	_	TokenRange=204:215
+29	pagina	pagina	NOUN	NOUN	_	28	amod	_	TokenRange=216:222
+30	rede	rede	NOUN	NOUN	_	28	appos	_	TokenRange=223:227
+31	social	social	ADJ	ADJ	_	30	amod	_	TokenRange=228:234
+32	avanca	_	VERB	VERB	_	28	acl:relcl	_	TokenRange=235:241
+33	passos	passo	NOUN	NOUN	_	32	obj	_	TokenRange=242:248
+34	largos	largo	ADJ	ADJ	_	33	amod	_	TokenRange=249:255
+35	cada	_	DET	DET	_	36	det	_	TokenRange=256:260
+36	vez	vez	NOUN	NOUN	_	32	nmod	_	TokenRange=261:264
+37	organizacao	organizacao	NOUN	NOUN	_	32	appos	_	TokenRange=265:276
+38	mencionada	mencionado	VERB	VERB	_	40	acl	_	TokenRange=277:287
+39	grandes	grande	ADJ	ADJ	_	40	amod	_	TokenRange=288:295
+40	portais	portal	NOUN	NOUN	_	32	nsubj	_	TokenRange=296:303
+41	noticias	noticia	NOUN	NOUN	_	40	amod	_	TokenRange=304:312
+42	atraves	_	NOUN	NOUN	_	43	amod	_	TokenRange=313:320
+43	formulario	formulario	NOUN	NOUN	_	40	appos	_	TokenRange=321:331
+44	cadastrado	cadastrado	ADJ	ADJ	_	43	amod	_	TokenRange=332:342
+45	google	_	NOUN	NOUN	_	43	appos	_	TokenRange=343:349
+46	docs	_	X	X	_	47	det:poss	_	TokenRange=350:354
+47	pagina	pagina	NOUN	NOUN	_	48	nsubj	_	TokenRange=355:361
+48	convida	convidar	VERB	VERB	_	32	parataxis	_	TokenRange=362:369
+49	brasileiros	brasileiro	NOUN	NOUN	_	50	obj	_	TokenRange=370:381
+50	ocuparem	ocupar	VERB	VERB	_	48	xcomp	_	TokenRange=382:390
+51	brasilia	brasilia	NOUN	NOUN	_	50	obj	_	TokenRange=391:399
+52	necessario	necessario	ADJ	ADJ	_	54	amod	_	TokenRange=400:410
+53	enfrentar	enfrentar	VERB	VERB	_	50	ccomp	_	TokenRange=411:420
+54	orgaos	orgao	NOUN	NOUN	_	53	obj	_	TokenRange=421:427
+55	seguranca	_	NOUN	NOUN	_	54	amod	_	TokenRange=428:437
+56	publica	publico	ADJ	ADJ	_	55	amod	_	TokenRange=438:445
+57	brasil	brasil	NOUN	NOUN	_	58	nsubj	_	TokenRange=446:452
+58	passa	passar	VERB	VERB	_	48	parataxis	_	TokenRange=453:458
+59	momento	momento	NOUN	NOUN	_	58	obj	_	TokenRange=459:466
+60	serio	serio	ADJ	ADJ	_	59	amod	_	TokenRange=467:472
+61	limite	limite	ADJ	ADJ	_	62	amod	_	TokenRange=473:479
+62	civilidade	civilidade	NOUN	NOUN	_	58	nsubj	_	TokenRange=480:490
+63	selvageria	selvageria	ADJ	ADJ	_	62	amod	_	TokenRange=491:501
+64	pode	_	AUX	AUX	_	65	aux	_	TokenRange=502:506
+65	romper	romper	VERB	VERB	_	48	ccomp	_	TokenRange=507:513
+66	qualquer	_	DET	DET	_	67	det	_	TokenRange=514:522
+67	momento	momento	NOUN	NOUN	_	65	obj	_	TokenRange=523:530
+68	sociedade	sociedade	NOUN	NOUN	_	65	nsubj	_	TokenRange=531:540
+69	deve	dever	AUX	AUX	_	70	cop	_	TokenRange=541:545
+70	papel	papel	NOUN	NOUN	_	65	obj	_	TokenRange=546:551
+71	fundamental	fundamental	ADJ	ADJ	_	70	amod	_	TokenRange=552:563
+72	mudancas	mudanca	NOUN	NOUN	_	70	nsubj	_	TokenRange=564:572
+73	serem	ser	AUX	AUX	_	74	aux:pass	_	TokenRange=573:578
+74	feitas	_	VERB	VERB	_	72	acl:inf	_	TokenRange=579:585
+75	preciso	preciso	ADJ	ADJ	_	76	amod	_	TokenRange=586:593
+76	cuidado	cuidado	NOUN	NOUN	_	74	nsubj:pass	_	TokenRange=594:601
+77	segue	_	VERB	VERB	_	0	root	_	TokenRange=602:607
+78	abaixo	abaixo	ADV	ADV	_	77	advmod	_	TokenRange=608:614
+79	parte	parte	NOUN	NOUN	_	77	nsubj	_	TokenRange=615:620
+80	texto	texto	NOUN	NOUN	_	79	appos	_	TokenRange=621:626
+81	criado	criar	VERB	VERB	_	80	acl	_	TokenRange=627:633
+82	organizacao	organizacao	NOUN	NOUN	_	81	obj	_	SpaceAfter=No|TokenRange=634:645
+

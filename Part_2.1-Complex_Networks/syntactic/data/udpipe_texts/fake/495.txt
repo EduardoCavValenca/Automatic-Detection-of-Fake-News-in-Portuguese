@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro manda recado duro globo farra dinheiro publico vai acabar durante entrevista camara deputados jair bolsonaro mandou recado curto grosso rede globo televisao continuem fazendo trabalho sujo sabe consigam emplacar lula 2018 darem bem faco parte errei passado santo tipo jornalismo queremos brasil continuou digo ainda hoje 40 audiencia sendo 80 renda globo jornal vem dinheiro governo chegar la vou fazer justica vao perder metade dessa renda
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	manda	mandar	VERB	VERB	_	0	root	_	TokenRange=10:15
+3	recado	recado	NOUN	NOUN	_	2	obj	_	TokenRange=16:22
+4	duro	duro	ADJ	ADJ	_	3	amod	_	TokenRange=23:27
+5	globo	globo	NOUN	NOUN	_	2	nsubj	_	TokenRange=28:33
+6	farra	farra	NOUN	NOUN	_	2	conj	_	TokenRange=34:39
+7	dinheiro	dinheiro	NOUN	NOUN	_	10	obj	_	TokenRange=40:48
+8	publico	_	ADJ	ADJ	_	7	amod	_	TokenRange=49:56
+9	vai	ir	AUX	AUX	_	10	aux	_	TokenRange=57:60
+10	acabar	acabar	VERB	VERB	_	2	conj	_	TokenRange=61:67
+11	durante	_	ADP	ADP	_	12	case	_	TokenRange=68:75
+12	entrevista	entrevista	NOUN	NOUN	_	10	nmod	_	TokenRange=76:86
+13	camara	camara	NOUN	NOUN	_	14	amod	_	TokenRange=87:93
+14	deputados	deputado	NOUN	NOUN	_	12	appos	_	TokenRange=94:103
+15	jair	jair	NOUN	NOUN	_	17	nsubj	_	TokenRange=104:108
+16	bolsonaro	bolsonaro	NOUN	NOUN	_	15	flat	_	TokenRange=109:118
+17	mandou	mandar	VERB	VERB	_	2	conj	_	TokenRange=119:125
+18	recado	recado	NOUN	NOUN	_	17	obj	_	TokenRange=126:132
+19	curto	curto	ADJ	ADJ	_	18	amod	_	TokenRange=133:138
+20	grosso	grosso	ADJ	ADJ	_	21	amod	_	TokenRange=139:145
+21	rede	rede	NOUN	NOUN	_	17	nsubj	_	TokenRange=146:150
+22	globo	globo	ADJ	ADJ	_	21	amod	_	TokenRange=151:156
+23	televisao	televisao	NOUN	NOUN	_	25	nsubj	_	TokenRange=157:166
+24	continuem	continuar	AUX	AUX	_	25	aux	_	TokenRange=167:176
+25	fazendo	fazer	VERB	VERB	_	17	conj	_	TokenRange=177:184
+26	trabalho	trabalho	NOUN	NOUN	_	25	obj	_	TokenRange=185:193
+27	sujo	_	PRON	PRON	_	28	nsubj	_	TokenRange=194:198
+28	sabe	saber	VERB	VERB	_	25	ccomp	_	TokenRange=199:203
+29	consigam	conseguir	VERB	VERB	_	28	ccomp	_	TokenRange=204:212
+30	emplacar	emplacar	VERB	VERB	_	28	xcomp	_	TokenRange=213:221
+31	lula	lula	NOUN	NOUN	_	30	obj	_	TokenRange=222:226
+32	2018	_	NUM	NUM	NumType=Card	33	nsubj	_	TokenRange=227:231
+33	darem	dar	VERB	VERB	_	30	ccomp	_	TokenRange=232:237
+34	bem	bem	ADV	ADV	_	35	advmod	_	TokenRange=238:241
+35	faco	facar	VERB	VERB	_	33	ccomp	_	TokenRange=242:246
+36	parte	parte	NOUN	NOUN	_	35	obj	_	TokenRange=247:252
+37	errei	_	VERB	VERB	_	35	ccomp	_	TokenRange=253:258
+38	passado	passado	ADJ	ADJ	_	37	xcomp	_	TokenRange=259:266
+39	santo	santo	ADJ	ADJ	_	40	amod	_	TokenRange=267:272
+40	tipo	tipo	NOUN	NOUN	_	37	nsubj	_	TokenRange=273:277
+41	jornalismo	jornalismo	NOUN	NOUN	_	40	appos	_	TokenRange=278:288
+42	queremos	querer	VERB	VERB	_	37	parataxis	_	TokenRange=289:297
+43	brasil	brasil	NOUN	NOUN	_	42	obj	_	TokenRange=298:304
+44	continuou	continuar	AUX	AUX	_	45	aux	_	TokenRange=305:314
+45	digo	_	VERB	VERB	_	37	conj	_	TokenRange=315:319
+46	ainda	ainda	ADV	ADV	_	47	advmod	_	TokenRange=320:325
+47	hoje	hoje	ADV	ADV	_	45	advmod	_	TokenRange=326:330
+48	40	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=331:333
+49	audiencia	audiencia	NOUN	NOUN	_	45	nsubj	_	TokenRange=334:343
+50	sendo	ser	AUX	AUX	_	52	cop	_	TokenRange=344:349
+51	80	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=350:352
+52	renda	renda	NOUN	NOUN	_	64	nsubj	_	TokenRange=353:358
+53	globo	globo	NOUN	NOUN	_	52	appos	_	TokenRange=359:364
+54	jornal	jornal	NOUN	NOUN	_	55	nsubj	_	TokenRange=365:371
+55	vem	vir	VERB	VERB	_	52	acl:relcl	_	TokenRange=372:375
+56	dinheiro	dinheiro	NOUN	NOUN	_	55	obj	_	TokenRange=376:384
+57	governo	governo	NOUN	NOUN	_	58	nsubj	_	TokenRange=385:392
+58	chegar	chegar	VERB	VERB	_	55	ccomp	_	TokenRange=393:399
+59	la	_	PRON	PRON	_	61	nsubj	_	TokenRange=400:402
+60	vou	ir	AUX	AUX	_	61	aux	_	TokenRange=403:406
+61	fazer	fazer	VERB	VERB	_	58	ccomp	_	TokenRange=407:412
+62	justica	_	NOUN	NOUN	_	61	obj	_	TokenRange=413:420
+63	vao	ir	AUX	AUX	_	64	aux	_	TokenRange=421:424
+64	perder	perder	VERB	VERB	_	45	parataxis	_	TokenRange=425:431
+65	metade	metade	NOUN	NOUN	_	64	obj	_	TokenRange=432:438
+66	dessa	_	ADP	ADP	_	67	case	_	TokenRange=439:444
+67	renda	renda	NOUN	NOUN	_	65	nmod	_	SpaceAfter=No|TokenRange=445:450
+

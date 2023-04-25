@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja pokemon go causa adolescente video ultrapassou 3 5 milhoes views maiores fenomenos midia ultimos tempos causando especie alucinacao coletiva aplicativo pokemon go ainda data certa chegar brasil deixado muitos brasileiros crises ansiedade desses brasileiros ultrapassou limites ansiedade resolveu mostrar lagrimas mundo video abaixo adolescente acima personagem webserie brasileira chamada anellysando joel vieira interpreta nelly adolescente excentrico
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	pokemon	_	NOUN	NOUN	_	1	obj	_	TokenRange=5:12
+3	go	_	NOUN	NOUN	_	2	appos	_	TokenRange=13:15
+4	causa	causa	NOUN	NOUN	_	2	appos	_	TokenRange=16:21
+5	adolescente	adolescente	ADJ	ADJ	_	4	amod	_	TokenRange=22:33
+6	video	_	NOUN	NOUN	_	4	amod	_	TokenRange=34:39
+7	ultrapassou	ultrapassar	VERB	VERB	_	2	acl:relcl	_	TokenRange=40:51
+8	3	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=52:53
+9	5	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=54:55
+10	milhoes	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=56:63
+11	views	_	NOUN	NOUN	_	7	obj	_	TokenRange=64:69
+12	maiores	maior	ADJ	ADJ	_	11	amod	_	TokenRange=70:77
+13	fenomenos	fenomeno	NOUN	NOUN	_	11	appos	_	TokenRange=78:87
+14	midia	_	NOUN	NOUN	_	11	appos	_	TokenRange=88:93
+15	ultimos	_	ADJ	ADJ	_	16	amod	_	TokenRange=94:101
+16	tempos	tempo	NOUN	NOUN	_	7	nmod	_	TokenRange=102:108
+17	causando	causar	VERB	VERB	_	13	acl	_	TokenRange=109:117
+18	especie	especie	NOUN	NOUN	_	17	obj	_	TokenRange=118:125
+19	alucinacao	alucinacao	NOUN	NOUN	_	18	appos	_	TokenRange=126:136
+20	coletiva	coletivo	ADJ	ADJ	_	19	amod	_	TokenRange=137:145
+21	aplicativo	aplicativo	ADJ	ADJ	_	19	amod	_	TokenRange=146:156
+22	pokemon	_	NOUN	NOUN	_	19	appos	_	TokenRange=157:164
+23	go	_	NOUN	NOUN	_	22	appos	_	TokenRange=165:167
+24	ainda	ainda	ADV	ADV	_	25	advmod	_	TokenRange=168:173
+25	data	data	NOUN	NOUN	_	22	appos	_	TokenRange=174:178
+26	certa	certo	ADJ	ADJ	_	25	amod	_	TokenRange=179:184
+27	chegar	chegar	VERB	VERB	_	25	acl:relcl	_	TokenRange=185:191
+28	brasil	brasil	NOUN	NOUN	_	27	obj	_	TokenRange=192:198
+29	deixado	deixar	VERB	VERB	_	27	acl	_	TokenRange=199:206
+30	muitos	_	DET	DET	_	31	det	_	TokenRange=207:213
+31	brasileiros	brasileiro	NOUN	NOUN	_	27	obj	_	TokenRange=214:225
+32	crises	crise	NOUN	NOUN	_	36	nsubj	_	TokenRange=226:232
+33	ansiedade	ansiedade	NOUN	NOUN	_	36	nsubj	_	TokenRange=233:242
+34	desses	_	ADP	ADP	_	35	case	_	TokenRange=243:249
+35	brasileiros	brasileiro	NOUN	NOUN	_	33	nmod	_	TokenRange=250:261
+36	ultrapassou	ultrapassar	VERB	VERB	_	27	parataxis	_	TokenRange=262:273
+37	limites	limite	NOUN	NOUN	_	36	obj	_	TokenRange=274:281
+38	ansiedade	ansiedade	NOUN	NOUN	_	37	flat	_	TokenRange=282:291
+39	resolveu	resolver	VERB	VERB	_	1	parataxis	_	TokenRange=292:300
+40	mostrar	mostrar	VERB	VERB	_	39	xcomp	_	TokenRange=301:308
+41	lagrimas	_	NOUN	NOUN	_	40	obj	_	TokenRange=309:317
+42	mundo	mundo	NOUN	NOUN	_	41	appos	_	TokenRange=318:323
+43	video	video	NOUN	NOUN	_	42	flat	_	TokenRange=324:329
+44	abaixo	abaixo	ADV	ADV	_	45	advmod	_	TokenRange=330:336
+45	adolescente	adolescente	NOUN	NOUN	_	42	appos	_	TokenRange=337:348
+46	acima	acima	ADV	ADV	_	45	advmod	_	TokenRange=349:354
+47	personagem	personagem	NOUN	NOUN	_	45	appos	_	TokenRange=355:365
+48	webserie	webserie	NOUN	NOUN	_	47	appos	_	TokenRange=366:374
+49	brasileira	brasileiro	ADJ	ADJ	_	48	amod	_	TokenRange=375:385
+50	chamada	chamar	AUX	AUX	_	51	cop	_	TokenRange=386:393
+51	anellysando	anellysar	VERB	VERB	_	48	acl	_	TokenRange=394:405
+52	joel	_	PROPN	PNOUN	_	51	appos	_	TokenRange=406:410
+53	vieira	_	PROPN	PNOUN	_	52	flat	_	TokenRange=411:417
+54	interpreta	interpretar	VERB	VERB	_	39	parataxis	_	TokenRange=418:428
+55	nelly	_	NOUN	NOUN	_	54	obj	_	TokenRange=429:434
+56	adolescente	adolescente	NOUN	NOUN	_	54	obj	_	TokenRange=435:446
+57	excentrico	excentrico	ADJ	ADJ	_	56	amod	_	SpaceAfter=No|TokenRange=447:457
+

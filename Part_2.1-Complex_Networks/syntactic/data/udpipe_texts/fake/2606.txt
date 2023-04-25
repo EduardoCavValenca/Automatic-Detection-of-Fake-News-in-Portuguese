@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moradora bernardo diz pf cidade encontrou lula moradora bernardo campo vizinha expresidente lula informou policia provavelmente atras petista marisa nervosa xingou barulho posso dizer pura verdade acordei 630 hs helicopteros encima predio baita neblina condominio varios moradores indo correndo pro predio lula helicopteros ficaram voando 830 hs entao algo verdade disse moradora neusa gomes atraves redes sociais
+1	moradora	morador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	bernardo	bernardo	NOUN	NOUN	_	1	flat	_	TokenRange=9:17
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=18:21
+4	pf	_	NOUN	NOUN	_	6	obj	_	TokenRange=22:24
+5	cidade	cidade	NOUN	NOUN	_	6	nsubj	_	TokenRange=25:31
+6	encontrou	encontrar	VERB	VERB	_	3	ccomp	_	TokenRange=32:41
+7	lula	lula	NOUN	NOUN	_	6	obj	_	TokenRange=42:46
+8	moradora	morador	NOUN	NOUN	_	7	appos	_	TokenRange=47:55
+9	bernardo	bernardo	NOUN	NOUN	_	7	appos	_	TokenRange=56:64
+10	campo	campo	NOUN	NOUN	_	9	flat	_	TokenRange=65:70
+11	vizinha	vizinho	ADJ	ADJ	_	12	amod	_	TokenRange=71:78
+12	expresidente	expresidente	NOUN	NOUN	_	8	appos	_	TokenRange=79:91
+13	lula	lula	ADJ	ADJ	_	12	amod	_	TokenRange=92:96
+14	informou	informar	VERB	VERB	_	3	parataxis	_	TokenRange=97:105
+15	policia	policia	NOUN	NOUN	_	14	obj	_	TokenRange=106:113
+16	provavelmente	provavelmente	ADV	ADV	_	17	advmod	_	TokenRange=114:127
+17	atras	atras	ADV	ADV	_	14	advmod	_	TokenRange=128:133
+18	petista	petista	NOUN	NOUN	_	14	nsubj	_	TokenRange=134:141
+19	marisa	marisa	NOUN	NOUN	_	18	appos	_	TokenRange=142:148
+20	nervosa	nervoso	ADJ	ADJ	_	19	amod	_	TokenRange=149:156
+21	xingou	xingar	VERB	VERB	_	14	parataxis	_	TokenRange=157:163
+22	barulho	barulho	NOUN	NOUN	_	21	obj	_	TokenRange=164:171
+23	posso	_	AUX	AUX	_	24	aux	_	TokenRange=172:177
+24	dizer	dizer	VERB	VERB	_	21	ccomp	_	TokenRange=178:183
+25	pura	puro	ADJ	ADJ	_	26	amod	_	TokenRange=184:188
+26	verdade	verdade	NOUN	NOUN	_	24	obj	_	TokenRange=189:196
+27	acordei	acordar	VERB	VERB	_	21	ccomp	_	TokenRange=197:204
+28	630	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=205:208
+29	hs	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=209:211
+30	helicopteros	helicoptero	NOUN	NOUN	_	27	nsubj	_	TokenRange=212:224
+31	encima	encimar	VERB	VERB	_	27	ccomp	_	TokenRange=225:231
+32	predio	predio	NOUN	NOUN	_	31	obj	_	TokenRange=232:238
+33	baita	_	NOUN	NOUN	_	32	appos	_	TokenRange=239:244
+34	neblina	neblina	NOUN	NOUN	_	32	flat	_	TokenRange=245:252
+35	condominio	condominio	NOUN	NOUN	_	32	flat	_	TokenRange=253:263
+36	varios	_	DET	DET	_	37	det	_	TokenRange=264:270
+37	moradores	morador	NOUN	NOUN	_	27	nsubj	_	TokenRange=271:280
+38	indo	ir	AUX	AUX	_	39	aux	_	TokenRange=281:285
+39	correndo	correr	VERB	VERB	_	37	acl	_	TokenRange=286:294
+40	pro	_	ADP	ADP	_	41	case	_	TokenRange=295:298
+41	predio	predio	NOUN	NOUN	_	39	nmod	_	TokenRange=299:305
+42	lula	lula	NOUN	NOUN	_	41	flat	_	TokenRange=306:310
+43	helicopteros	helicoptero	NOUN	NOUN	_	45	nsubj	_	TokenRange=311:323
+44	ficaram	ficar	AUX	AUX	_	45	aux	_	TokenRange=324:331
+45	voando	voar	VERB	VERB	_	27	conj	_	TokenRange=332:338
+46	830	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=339:342
+47	hs	h	NOUN	NOUN	_	45	nmod	_	TokenRange=343:345
+48	entao	entao	ADV	ADV	_	51	advmod	_	TokenRange=346:351
+49	algo	_	DET	DET	_	50	det	_	TokenRange=352:356
+50	verdade	verdade	NOUN	NOUN	_	45	nsubj	_	TokenRange=357:364
+51	disse	dizer	VERB	VERB	_	45	parataxis	_	TokenRange=365:370
+52	moradora	morador	NOUN	NOUN	_	51	obj	_	TokenRange=371:379
+53	neusa	neuso	ADJ	ADJ	_	52	amod	_	TokenRange=380:385
+54	gomes	gome	NOUN	NOUN	_	52	flat	_	TokenRange=386:391
+55	atraves	_	ADP	ADP	_	56	case	_	TokenRange=392:399
+56	redes	rede	NOUN	NOUN	_	51	nmod	_	TokenRange=400:405
+57	sociais	social	ADJ	ADJ	_	56	amod	_	SpaceAfter=No|TokenRange=406:413
+

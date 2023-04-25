@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = comerciante perdeu quatro pessoas familia petropolis rj relembra sete anos tragedia 2011 adalberto cabral motta perdeu mae irmao irma tio vale cuiaba imagem esquecer comerciante adalberto cabral motta 59 anos perdeu mae irmao irma tio vale cuiaba relembra sete anos tragedia 2011 serra rio desabafa imagem esquecer exemplos moradores destino alterado desastre climatico chuvas fortes
+1	comerciante	comerciante	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	perdeu	perder	VERB	VERB	_	0	root	_	TokenRange=12:18
+3	quatro	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=19:25
+4	pessoas	pessoa	NOUN	NOUN	_	2	obj	_	TokenRange=26:33
+5	familia	familia	NOUN	NOUN	_	2	nsubj	_	TokenRange=34:41
+6	petropolis	_	NOUN	NOUN	_	5	appos	_	TokenRange=42:52
+7	rj	_	ADJ	NOUN	_	6	amod	_	TokenRange=53:55
+8	relembra	relembrar	VERB	VERB	_	2	conj	_	TokenRange=56:64
+9	sete	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=65:69
+10	anos	ano	NOUN	NOUN	_	8	nmod	_	TokenRange=70:74
+11	tragedia	tragedia	NOUN	NOUN	_	8	obj	_	TokenRange=75:83
+12	2011	_	NUM	NUM	NumType=Card	13	nmod	_	TokenRange=84:88
+13	adalberto	adalberto	NOUN	NOUN	_	8	nsubj	_	TokenRange=89:98
+14	cabral	cabral	ADJ	ADJ	_	13	amod	_	TokenRange=99:105
+15	motta	motta	NOUN	NOUN	_	13	appos	_	TokenRange=106:111
+16	perdeu	perder	VERB	VERB	_	2	parataxis	_	TokenRange=112:118
+17	mae	mae	NOUN	NOUN	_	16	obj	_	TokenRange=119:122
+18	irmao	irmao	NOUN	NOUN	_	16	obj	_	TokenRange=123:128
+19	irma	_	NOUN	NOUN	_	18	flat	_	TokenRange=129:133
+20	tio	tio	NOUN	NOUN	_	18	appos	_	TokenRange=134:137
+21	vale	_	NOUN	NOUN	_	20	flat	_	TokenRange=138:142
+22	cuiaba	cuiabo	ADJ	ADJ	_	23	amod	_	TokenRange=143:149
+23	imagem	imagem	NOUN	NOUN	_	16	nsubj	_	TokenRange=150:156
+24	esquecer	esquecer	VERB	VERB	_	16	ccomp	_	TokenRange=157:165
+25	comerciante	comerciante	NOUN	NOUN	_	24	obj	_	TokenRange=166:177
+26	adalberto	adalberto	NOUN	NOUN	_	25	appos	_	TokenRange=178:187
+27	cabral	cabral	ADJ	ADJ	_	26	amod	_	TokenRange=188:194
+28	motta	motta	NOUN	NOUN	_	26	flat	_	TokenRange=195:200
+29	59	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=201:203
+30	anos	ano	NOUN	NOUN	_	31	nsubj	_	TokenRange=204:208
+31	perdeu	perder	VERB	VERB	_	2	parataxis	_	TokenRange=209:215
+32	mae	mae	NOUN	NOUN	_	31	obj	_	TokenRange=216:219
+33	irmao	irmao	NOUN	NOUN	_	32	flat	_	TokenRange=220:225
+34	irma	_	NOUN	NOUN	_	32	flat	_	TokenRange=226:230
+35	tio	tio	NOUN	NOUN	_	32	appos	_	TokenRange=231:234
+36	vale	_	NOUN	NOUN	_	35	flat	_	TokenRange=235:239
+37	cuiaba	_	NOUN	NOUN	_	35	flat	_	TokenRange=240:246
+38	relembra	relembrar	VERB	VERB	_	31	conj	_	TokenRange=247:255
+39	sete	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=256:260
+40	anos	ano	NOUN	NOUN	_	38	nmod	_	TokenRange=261:265
+41	tragedia	tragedia	NOUN	NOUN	_	38	obj	_	TokenRange=266:274
+42	2011	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=275:279
+43	serra	serra	NOUN	NOUN	_	38	nsubj	_	TokenRange=280:285
+44	rio	_	PROPN	NOUN	_	43	flat	_	TokenRange=286:289
+45	desabafa	_	ADJ	VERB	_	46	amod	_	TokenRange=290:298
+46	imagem	imagem	NOUN	NOUN	_	38	obj	_	TokenRange=299:305
+47	esquecer	esquecer	VERB	VERB	_	46	acl:inf	_	TokenRange=306:314
+48	exemplos	exemplo	NOUN	NOUN	_	47	obj	_	TokenRange=315:323
+49	moradores	morador	NOUN	NOUN	_	48	amod	_	TokenRange=324:333
+50	destino	destino	NOUN	NOUN	_	52	appos	_	TokenRange=334:341
+51	alterado	alterado	ADJ	ADJ	_	52	amod	_	TokenRange=342:350
+52	desastre	desastre	NOUN	NOUN	_	48	appos	_	TokenRange=351:359
+53	climatico	climatico	ADJ	ADJ	_	52	amod	_	TokenRange=360:369
+54	chuvas	chuva	NOUN	NOUN	_	52	appos	_	TokenRange=370:376
+55	fortes	forte	ADJ	ADJ	_	54	amod	_	SpaceAfter=No|TokenRange=377:383
+

@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado federal afirma plenario lula maior ladrao pais chefe organizacao criminosa
+1	deputado	deputado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+3	afirma	afirmar	VERB	VERB	_	0	root	_	TokenRange=17:23
+4	plenario	plenario	NOUN	NOUN	_	3	obj	_	TokenRange=24:32
+5	lula	lula	NOUN	NOUN	_	4	appos	_	TokenRange=33:37
+6	maior	maior	ADJ	ADJ	_	7	amod	_	TokenRange=38:43
+7	ladrao	ladrao	NOUN	NOUN	_	4	appos	_	TokenRange=44:50
+8	pais	_	NOUN	NOUN	_	7	flat	_	TokenRange=51:55
+9	chefe	chefe	NOUN	NOUN	_	7	flat	_	TokenRange=56:61
+10	organizacao	organizacao	NOUN	NOUN	_	7	appos	_	TokenRange=62:73
+11	criminosa	criminoso	ADJ	ADJ	_	10	amod	_	SpaceAfter=No|TokenRange=74:83
+

@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogado lula diz triplex imovel popular triplex casa vida triplex casa vida disse batista servico sitio passou puxadinho corredor quatro quartos doutor nilo batista faz parte equipe vem tentando defender expresidente lula chamou factoides acusacoes lula verdadeiro proprietario triplex altissimo luxo guaruja ainda contado varios beneficios oferecidos construtora odebrecht sitio frequentado familia expresidente defensor lula afirmou apenas triplex casa vida referindo servico sendo simples apenas puxadinho 4 quartos
+1	advogado	advogado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=9:13
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=14:17
+4	triplex	_	NOUN	NOUN	_	3	obj	_	TokenRange=18:25
+5	imovel	imovel	NOUN	NOUN	_	3	obj	_	TokenRange=26:32
+6	popular	popular	ADJ	ADJ	_	5	amod	_	TokenRange=33:40
+7	triplex	_	ADJ	ADJ	_	8	amod	_	TokenRange=41:48
+8	casa	casa	NOUN	NOUN	_	5	appos	_	TokenRange=49:53
+9	vida	vida	NOUN	NOUN	_	8	flat	_	TokenRange=54:58
+10	triplex	_	ADJ	ADJ	_	8	amod	_	TokenRange=59:66
+11	casa	casa	NOUN	NOUN	_	13	nsubj	_	TokenRange=67:71
+12	vida	vida	NOUN	NOUN	_	11	flat	_	TokenRange=72:76
+13	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=77:82
+14	batista	batista	NOUN	NOUN	_	13	obj	_	TokenRange=83:90
+15	servico	servico	NOUN	NOUN	_	16	amod	_	TokenRange=91:98
+16	sitio	sitio	NOUN	NOUN	_	17	nsubj	_	TokenRange=99:104
+17	passou	passar	VERB	VERB	_	18	acl:relcl	_	TokenRange=105:111
+18	puxadinho	puxadinho	NOUN	NOUN	_	25	nsubj	_	TokenRange=112:121
+19	corredor	corredor	NOUN	NOUN	_	18	flat	_	TokenRange=122:130
+20	quatro	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=131:137
+21	quartos	quarto	NOUN	NOUN	_	25	nsubj	_	TokenRange=138:145
+22	doutor	doutor	NOUN	NOUN	_	25	nsubj	_	TokenRange=146:152
+23	nilo	_	NOUN	NOUN	_	22	appos	_	TokenRange=153:157
+24	batista	batista	ADJ	ADJ	_	22	amod	_	TokenRange=158:165
+25	faz	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=166:169
+26	parte	parte	NOUN	NOUN	_	25	obj	_	TokenRange=170:175
+27	equipe	equipe	NOUN	NOUN	_	29	nsubj	_	TokenRange=176:182
+28	vem	vir	AUX	AUX	_	29	aux	_	TokenRange=183:186
+29	tentando	tentar	VERB	VERB	_	25	parataxis	_	TokenRange=187:195
+30	defender	defender	VERB	VERB	_	29	xcomp	_	TokenRange=196:204
+31	expresidente	expresidente	NOUN	NOUN	_	30	obj	_	TokenRange=205:217
+32	lula	lula	ADJ	NOUN	_	31	amod	_	TokenRange=218:222
+33	chamou	chamar	VERB	VERB	_	3	parataxis	_	TokenRange=223:229
+34	factoides	factoide	NOUN	NOUN	_	33	obj	_	TokenRange=230:239
+35	acusacoes	acusacoe	NOUN	NOUN	_	34	amod	_	TokenRange=240:249
+36	lula	lula	ADJ	ADJ	_	38	amod	_	TokenRange=250:254
+37	verdadeiro	verdadeiro	ADJ	ADJ	_	38	amod	_	TokenRange=255:265
+38	proprietario	proprietario	NOUN	NOUN	_	33	nsubj	_	TokenRange=266:278
+39	triplex	_	NOUN	NOUN	_	41	flat	_	TokenRange=279:286
+40	altissimo	altissimo	ADJ	ADJ	_	41	amod	_	TokenRange=287:296
+41	luxo	luxo	NOUN	NOUN	_	38	appos	_	TokenRange=297:301
+42	guaruja	guaruja	NOUN	NOUN	_	41	flat	_	TokenRange=302:309
+43	ainda	ainda	ADV	ADV	_	44	advmod	_	TokenRange=310:315
+44	contado	contar	VERB	VERB	_	41	acl	_	TokenRange=316:323
+45	varios	_	DET	DET	_	46	det	_	TokenRange=324:330
+46	beneficios	beneficio	NOUN	NOUN	_	44	obj	_	TokenRange=331:341
+47	oferecidos	oferecer	VERB	VERB	_	46	acl	_	TokenRange=342:352
+48	construtora	construtor	NOUN	NOUN	_	47	nsubj	_	TokenRange=353:364
+49	odebrecht	_	ADJ	ADJ	_	50	amod	_	TokenRange=365:374
+50	sitio	sitio	NOUN	NOUN	_	47	nsubj	_	TokenRange=375:380
+51	frequentado	frequentado	ADJ	ADJ	_	50	amod	_	TokenRange=381:392
+52	familia	familia	NOUN	NOUN	_	50	amod	_	TokenRange=393:400
+53	expresidente	expresidente	NOUN	NOUN	_	50	amod	_	TokenRange=401:413
+54	defensor	defensor	ADJ	ADJ	_	53	amod	_	TokenRange=414:422
+55	lula	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=423:427
+56	afirmou	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=428:435
+57	apenas	apenas	ADV	ADV	_	56	advmod	_	TokenRange=436:442
+58	triplex	_	ADJ	ADJ	_	59	amod	_	TokenRange=443:450
+59	casa	casa	NOUN	NOUN	_	56	obj	_	TokenRange=451:455
+60	vida	vida	NOUN	NOUN	_	59	flat	_	TokenRange=456:460
+61	referindo	referir	VERB	VERB	_	59	acl	_	TokenRange=461:470
+62	servico	servico	NOUN	NOUN	_	61	obj	_	TokenRange=471:478
+63	sendo	ser	VERB	VERB	_	59	acl	_	TokenRange=479:484
+64	simples	simples	ADJ	ADJ	_	63	xcomp	_	TokenRange=485:492
+65	apenas	apenas	ADV	ADV	_	66	advmod	_	TokenRange=493:499
+66	puxadinho	puxadir	NOUN	VERB	_	63	xcomp	_	TokenRange=500:509
+67	4	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=510:511
+68	quartos	quarto	NOUN	NOUN	_	66	appos	_	SpaceAfter=No|TokenRange=512:519
+

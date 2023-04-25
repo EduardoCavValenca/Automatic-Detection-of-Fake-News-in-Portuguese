@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sucesso fake musicos fraudam numeros streaming usando robos jaba 20 dinheiro truques digitais fraude prejudica musicos numeros verdadeiros g1 investiga mercado plays fala sertanejo admite sucesso inflado youtube numero ve abaixo clipe youtube faixa spotify cada vez importante musicos mundo musica digital menos fisica
+1	sucesso	sucesso	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	fake	_	ADJ	ADJ	_	1	amod	_	TokenRange=8:12
+3	musicos	musico	NOUN	NOUN	_	1	appos	_	TokenRange=13:20
+4	fraudam	fraudar	VERB	VERB	_	0	root	_	TokenRange=21:28
+5	numeros	_	NOUN	NOUN	_	4	obj	_	TokenRange=29:36
+6	streaming	_	NOUN	NOUN	_	5	flat	_	TokenRange=37:46
+7	usando	usar	VERB	VERB	_	1	acl	_	TokenRange=47:53
+8	robos	robo	NOUN	NOUN	_	7	obj	_	TokenRange=54:59
+9	jaba	_	NOUN	NOUN	_	8	flat	_	TokenRange=60:64
+10	20	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=65:67
+11	dinheiro	dinheiro	NOUN	NOUN	_	8	appos	_	TokenRange=68:76
+12	truques	truque	NOUN	NOUN	_	8	appos	_	TokenRange=77:84
+13	digitais	digital	ADJ	ADJ	_	12	amod	_	TokenRange=85:93
+14	fraude	fraude	NOUN	NOUN	_	12	appos	_	TokenRange=94:100
+15	prejudica	prejudico	NOUN	NOUN	_	14	amod	_	TokenRange=101:110
+16	musicos	musico	NOUN	NOUN	_	14	appos	_	TokenRange=111:118
+17	numeros	numero	NOUN	NOUN	_	16	amod	_	TokenRange=119:126
+18	verdadeiros	verdadeiro	ADJ	ADJ	_	16	amod	_	TokenRange=127:138
+19	g1	_	PRON	PRON	_	20	nsubj	_	TokenRange=139:141
+20	investiga	investigar	VERB	VERB	_	4	parataxis	_	TokenRange=142:151
+21	mercado	mercado	NOUN	NOUN	_	20	obj	_	TokenRange=152:159
+22	plays	_	NOUN	NOUN	_	21	flat	_	TokenRange=160:165
+23	fala	_	NOUN	NOUN	_	21	appos	_	TokenRange=166:170
+24	sertanejo	sertanejo	NOUN	NOUN	_	23	flat	_	TokenRange=171:180
+25	admite	admitir	VERB	VERB	_	20	parataxis	_	TokenRange=181:187
+26	sucesso	sucesso	NOUN	NOUN	_	25	obj	_	TokenRange=188:195
+27	inflado	inflado	ADJ	ADJ	_	26	amod	_	TokenRange=196:203
+28	youtube	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=204:211
+29	numero	numero	NOUN	NOUN	_	26	appos	_	TokenRange=212:218
+30	ve	_	VERB	VERB	_	29	acl:relcl	_	TokenRange=219:221
+31	abaixo	abaixo	ADV	ADV	_	30	advmod	_	TokenRange=222:228
+32	clipe	clipe	NOUN	NOUN	_	25	obj	_	TokenRange=229:234
+33	youtube	_	PROPN	PNOUN	_	32	appos	_	TokenRange=235:242
+34	faixa	faixa	NOUN	NOUN	_	32	appos	_	TokenRange=243:248
+35	spotify	_	NOUN	NOUN	_	34	appos	_	TokenRange=249:256
+36	cada	_	DET	DET	_	37	det	_	TokenRange=257:261
+37	vez	vez	NOUN	NOUN	_	44	nmod	_	TokenRange=262:265
+38	importante	importante	ADJ	ADJ	_	37	amod	_	TokenRange=266:276
+39	musicos	musico	NOUN	NOUN	_	32	appos	_	TokenRange=277:284
+40	mundo	mundo	ADJ	ADJ	_	41	amod	_	TokenRange=285:290
+41	musica	_	NOUN	NOUN	_	39	appos	_	TokenRange=291:297
+42	digital	digital	ADJ	ADJ	_	41	amod	_	TokenRange=298:305
+43	menos	menos	ADV	ADV	_	44	advmod	_	TokenRange=306:311
+44	fisica	fisico	ADJ	ADJ	_	41	amod	_	SpaceAfter=No|TokenRange=312:318
+

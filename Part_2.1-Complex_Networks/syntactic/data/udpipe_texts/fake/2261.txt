@@ -1,0 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma arvore parte 2 dilma continua discurso arvore corta arvore democracia machado arvore fungos partir momento tudo possivel tudo passa possivel disse dilma pergunta presidenta arvore vitima desmatamento arvore doente conseguimos entender
+1	dilma	dilma	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	arvore	arvore	NOUN	NOUN	_	1	appos	_	TokenRange=6:12
+3	parte	parte	NOUN	NOUN	_	1	appos	_	TokenRange=13:18
+4	2	_	NUM	NUM	NumType=Card	3	appos	_	TokenRange=19:20
+5	dilma	dilma	NOUN	NOUN	_	1	appos	_	TokenRange=21:26
+6	continua	continuar	VERB	VERB	_	0	root	_	TokenRange=27:35
+7	discurso	discurso	NOUN	NOUN	_	6	obj	_	TokenRange=36:44
+8	arvore	arvore	NOUN	NOUN	_	7	appos	_	TokenRange=45:51
+9	corta	corta	ADJ	ADJ	_	7	amod	_	TokenRange=52:57
+10	arvore	arvore	NOUN	NOUN	_	11	appos	_	TokenRange=58:64
+11	democracia	democracia	NOUN	NOUN	_	7	appos	_	TokenRange=65:75
+12	machado	machado	ADJ	ADJ	_	11	amod	_	TokenRange=76:83
+13	arvore	arvore	NOUN	NOUN	_	11	appos	_	TokenRange=84:90
+14	fungos	fungo	NOUN	NOUN	_	13	appos	_	TokenRange=91:97
+15	partir	partir	VERB	VERB	_	11	acl:relcl	_	TokenRange=98:104
+16	momento	momento	NOUN	NOUN	_	15	obj	_	TokenRange=105:112
+17	tudo	_	PRON	PRON	_	20	nsubj	_	TokenRange=113:117
+18	possivel	_	ADJ	ADJ	_	16	amod	_	TokenRange=118:126
+19	tudo	_	PRON	PRON	_	20	nsubj	_	TokenRange=127:131
+20	passa	passar	VERB	VERB	_	16	acl:relcl	_	TokenRange=132:137
+21	possivel	_	ADJ	ADJ	_	20	xcomp	_	TokenRange=138:146
+22	disse	dizer	VERB	VERB	_	6	parataxis	_	TokenRange=147:152
+23	dilma	dilma	NOUN	NOUN	_	22	obj	_	TokenRange=153:158
+24	pergunta	pergunta	NOUN	NOUN	_	23	flat	_	TokenRange=159:167
+25	presidenta	_	NOUN	NOUN	_	23	flat	_	TokenRange=168:178
+26	arvore	arvore	NOUN	NOUN	_	23	appos	_	TokenRange=179:185
+27	vitima	_	ADJ	ADJ	_	28	amod	_	TokenRange=186:192
+28	desmatamento	desmatamento	NOUN	NOUN	_	26	appos	_	TokenRange=193:205
+29	arvore	arvore	NOUN	NOUN	_	31	nsubj	_	TokenRange=206:212
+30	doente	doente	ADJ	ADJ	_	29	amod	_	TokenRange=213:219
+31	conseguimos	conseguir	VERB	VERB	_	22	parataxis	_	TokenRange=220:231
+32	entender	entender	VERB	VERB	_	31	xcomp	_	SpaceAfter=No|TokenRange=232:240
+

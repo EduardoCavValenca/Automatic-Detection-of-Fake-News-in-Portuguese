@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maria madalena 12 herois tomb raider origem chegam cinemas g1 comenta video fenomeno videogames volta cinemas alicia vikander lara croft acao sobre 11 setembro historia maria madalena destaques tomb raider fenomeno videogames voltara cinemas neste fim semana dessa vez sueca alicia vikander assume papel heroina lara croft angelina jolie inicio anos 2000 cardapio estreias ainda 12 herois acao sobre atentados 11 setembro maria madalena retrata historia discipula jesus cristo pedacos amante
+1	maria	maria	NOUN	NOUN	_	8	parataxis	_	TokenRange=0:5
+2	madalena	madaleno	ADJ	ADJ	_	1	amod	_	TokenRange=6:14
+3	12	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=15:17
+4	herois	_	NOUN	NOUN	_	1	appos	_	TokenRange=18:24
+5	tomb	_	NOUN	NOUN	_	4	appos	_	TokenRange=25:29
+6	raider	_	NOUN	NOUN	_	5	flat	_	TokenRange=30:36
+7	origem	origem	NOUN	NOUN	_	5	flat	_	TokenRange=37:43
+8	chegam	chegar	VERB	VERB	_	0	root	_	TokenRange=44:50
+9	cinemas	cinema	NOUN	NOUN	_	8	obj	_	TokenRange=51:58
+10	g1	_	PRON	PRON	_	11	nsubj	_	TokenRange=59:61
+11	comenta	comentar	VERB	VERB	_	1	acl:relcl	_	TokenRange=62:69
+12	video	video	NOUN	NOUN	_	11	obj	_	TokenRange=70:75
+13	fenomeno	fenomeno	NOUN	NOUN	_	12	amod	_	TokenRange=76:84
+14	videogames	videogame	NOUN	NOUN	_	12	appos	_	TokenRange=85:95
+15	volta	_	VERB	VERB	_	16	cop	_	TokenRange=96:101
+16	cinemas	cinema	NOUN	NOUN	_	11	parataxis	_	TokenRange=102:109
+17	alicia	_	NOUN	NOUN	_	16	appos	_	TokenRange=110:116
+18	vikander	_	NOUN	NOUN	_	17	flat	_	TokenRange=117:125
+19	lara	_	NOUN	NOUN	_	17	appos	_	TokenRange=126:130
+20	croft	_	NOUN	NOUN	_	19	flat	_	TokenRange=131:136
+21	acao	acao	NOUN	NOUN	_	17	appos	_	TokenRange=137:141
+22	sobre	_	ADP	ADP	_	24	case	_	TokenRange=142:147
+23	11	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=148:150
+24	setembro	_	PROPN	PNOUN	_	21	nmod	_	TokenRange=151:159
+25	historia	historia	NOUN	NOUN	_	21	appos	_	TokenRange=160:168
+26	maria	maria	NOUN	NOUN	_	25	appos	_	TokenRange=169:174
+27	madalena	madaleno	ADJ	ADJ	_	26	amod	_	TokenRange=175:183
+28	destaques	destaque	NOUN	NOUN	_	25	appos	_	TokenRange=184:193
+29	tomb	_	NOUN	NOUN	_	28	appos	_	TokenRange=194:198
+30	raider	_	NOUN	NOUN	_	29	flat	_	TokenRange=199:205
+31	fenomeno	fenomeno	NOUN	NOUN	_	28	appos	_	TokenRange=206:214
+32	videogames	videogame	NOUN	NOUN	_	29	flat	_	TokenRange=215:225
+33	voltara	voltar	AUX	VERB	_	34	cop	_	TokenRange=226:233
+34	cinemas	cinema	NOUN	NOUN	_	11	parataxis	_	TokenRange=234:241
+35	neste	_	ADP	ADP	_	36	case	_	TokenRange=242:247
+36	fim	fim	NOUN	NOUN	_	34	nmod	_	TokenRange=248:251
+37	semana	semana	NOUN	NOUN	_	36	nmod	_	TokenRange=252:258
+38	dessa	_	ADP	ADP	_	39	case	_	TokenRange=259:264
+39	vez	vez	NOUN	NOUN	_	43	nmod	_	TokenRange=265:268
+40	sueca	sueco	ADJ	ADJ	_	39	amod	_	TokenRange=269:274
+41	alicia	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=275:281
+42	vikander	_	NOUN	NOUN	_	41	flat	_	TokenRange=282:290
+43	assume	assumir	VERB	VERB	_	11	parataxis	_	TokenRange=291:297
+44	papel	papel	NOUN	NOUN	_	43	obj	_	TokenRange=298:303
+45	heroina	heroino	ADJ	ADJ	_	44	amod	_	TokenRange=304:311
+46	lara	_	NOUN	NOUN	_	44	appos	_	TokenRange=312:316
+47	croft	_	NOUN	NOUN	_	46	flat	_	TokenRange=317:322
+48	angelina	_	NOUN	NOUN	_	44	appos	_	TokenRange=323:331
+49	jolie	_	NOUN	NOUN	_	48	flat	_	TokenRange=332:337
+50	inicio	_	ADP	DET	_	51	case	_	TokenRange=338:344
+51	anos	ano	NOUN	NOUN	_	43	nmod	_	TokenRange=345:349
+52	2000	_	NUM	NUM	NumType=Card	51	nmod	_	TokenRange=350:354
+53	cardapio	cardapio	NOUN	NOUN	_	43	parataxis	_	TokenRange=355:363
+54	estreias	estreia	NOUN	NOUN	_	53	appos	_	TokenRange=364:372
+55	ainda	ainda	ADV	ADV	_	56	advmod	_	TokenRange=373:378
+56	12	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=379:381
+57	herois	herois	NOUN	NOUN	_	65	nsubj	_	TokenRange=382:388
+58	acao	acao	NOUN	NOUN	_	57	appos	_	TokenRange=389:393
+59	sobre	_	ADP	ADP	_	60	case	_	TokenRange=394:399
+60	atentados	atentado	NOUN	NOUN	_	58	nmod	_	TokenRange=400:409
+61	11	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=410:412
+62	setembro	_	PROPN	PNOUN	_	60	appos	_	TokenRange=413:421
+63	maria	maria	NOUN	NOUN	_	57	appos	_	TokenRange=422:427
+64	madalena	madaleno	ADJ	ADJ	_	63	amod	_	TokenRange=428:436
+65	retrata	retratar	VERB	VERB	_	54	acl:relcl	_	TokenRange=437:444
+66	historia	historia	NOUN	NOUN	_	65	obj	_	TokenRange=445:453
+67	discipula	discipular	NOUN	NOUN	_	65	parataxis	_	TokenRange=454:463
+68	jesus	jesus	NOUN	NOUN	_	67	obj	_	TokenRange=464:469
+69	cristo	cristo	ADJ	NOUN	_	70	amod	_	TokenRange=470:476
+70	pedacos	pedaco	NOUN	NOUN	_	67	obj	_	TokenRange=477:484
+71	amante	amante	NOUN	NOUN	_	70	amod	_	SpaceAfter=No|TokenRange=485:491
+

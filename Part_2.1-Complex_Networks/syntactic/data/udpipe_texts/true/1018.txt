@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = novo secretario seguranca rio comandou 3 meses ocupacao mare intervencao baixou mortes moradores relatam receio pesquisa ong mil moradores indicou intervencao avaliacao positiva especialistas criticam ocupacoes permanentes favelas novo secretario seguranca rio janeiro general richard nunes oficiais comandaram ocupacao mare forcas militares durou ano dois meses escolha nunes comunicada governador luiz fernando pezao ultima semana batizada operacao francisco acao tropas complexo 140 mil habitantes realizada 5 abril 2014 30 junho 2015 exercito afirma acao reduziu numero mortes moradores descrevem traumatica
+1	novo	novo	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	secretario	secretario	NOUN	NOUN	_	5	nsubj	_	TokenRange=5:15
+3	seguranca	_	ADJ	ADJ	_	2	amod	_	TokenRange=16:25
+4	rio	_	NOUN	NOUN	_	2	appos	_	TokenRange=26:29
+5	comandou	comandar	VERB	VERB	_	0	root	_	TokenRange=30:38
+6	3	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=39:40
+7	meses	mês	NOUN	NOUN	_	5	obj	_	TokenRange=41:46
+8	ocupacao	ocupacao	NOUN	NOUN	_	5	obj	_	TokenRange=47:55
+9	mare	mare	ADJ	ADJ	_	8	amod	_	TokenRange=56:60
+10	intervencao	intervencao	NOUN	NOUN	_	11	nsubj	_	TokenRange=61:72
+11	baixou	baixar	VERB	VERB	_	5	conj	_	TokenRange=73:79
+12	mortes	morte	NOUN	NOUN	_	11	obj	_	TokenRange=80:86
+13	moradores	morador	ADJ	ADJ	_	12	amod	_	TokenRange=87:96
+14	relatam	relatar	VERB	VERB	_	5	parataxis	_	TokenRange=97:104
+15	receio	receio	NOUN	NOUN	_	14	obj	_	TokenRange=105:111
+16	pesquisa	pesquisa	NOUN	NOUN	_	15	flat	_	TokenRange=112:120
+17	ong	_	CCONJ	CONJ	_	19	det	_	TokenRange=121:124
+18	mil	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=125:128
+19	moradores	morador	NOUN	NOUN	_	20	nsubj	_	TokenRange=129:138
+20	indicou	indicar	VERB	VERB	_	15	acl:relcl	_	TokenRange=139:146
+21	intervencao	intervencao	NOUN	NOUN	_	20	obj	_	TokenRange=147:158
+22	avaliacao	avaliacao	NOUN	NOUN	_	20	obj	_	TokenRange=159:168
+23	positiva	positivo	ADJ	ADJ	_	22	amod	_	TokenRange=169:177
+24	especialistas	especialista	NOUN	NOUN	_	25	nsubj	_	TokenRange=178:191
+25	criticam	criticar	VERB	VERB	_	5	parataxis	_	TokenRange=192:200
+26	ocupacoes	ocupacoe	NOUN	NOUN	_	25	obj	_	TokenRange=201:210
+27	permanentes	permanente	ADJ	ADJ	_	26	amod	_	TokenRange=211:222
+28	favelas	favela	NOUN	NOUN	_	26	appos	_	TokenRange=223:230
+29	novo	novo	ADJ	ADJ	_	30	amod	_	TokenRange=231:235
+30	secretario	secretario	NOUN	NOUN	_	25	nsubj	_	TokenRange=236:246
+31	seguranca	_	ADJ	ADJ	_	30	amod	_	TokenRange=247:256
+32	rio	_	NOUN	NOUN	_	30	appos	_	TokenRange=257:260
+33	janeiro	_	PROPN	PNOUN	_	32	amod	_	TokenRange=261:268
+34	general	general	NOUN	NOUN	_	30	appos	_	TokenRange=269:276
+35	richard	_	NOUN	NOUN	_	30	appos	_	TokenRange=277:284
+36	nunes	_	NOUN	NOUN	_	35	flat	_	TokenRange=285:290
+37	oficiais	oficial	ADJ	NOUN	_	35	amod	_	TokenRange=291:299
+38	comandaram	comandar	VERB	VERB	_	5	parataxis	_	TokenRange=300:310
+39	ocupacao	ocupacao	NOUN	NOUN	_	38	obj	_	TokenRange=311:319
+40	mare	mare	ADJ	ADJ	_	39	amod	_	TokenRange=320:324
+41	forcas	forca	NOUN	NOUN	_	38	nsubj	_	TokenRange=325:331
+42	militares	militar	ADJ	ADJ	_	41	amod	_	TokenRange=332:341
+43	durou	durar	VERB	VERB	_	38	parataxis	_	TokenRange=342:347
+44	ano	ano	NOUN	NOUN	_	43	nmod	_	TokenRange=348:351
+45	dois	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=352:356
+46	meses	mês	NOUN	NOUN	_	43	nmod	_	TokenRange=357:362
+47	escolha	escolha	NOUN	NOUN	_	43	nsubj	_	TokenRange=363:370
+48	nunes	_	NOUN	NOUN	_	47	amod	_	TokenRange=371:376
+49	comunicada	comunicado	NOUN	NOUN	_	47	appos	_	TokenRange=377:387
+50	governador	governador	NOUN	NOUN	_	47	appos	_	TokenRange=388:398
+51	luiz	luiz	NOUN	NOUN	_	47	appos	_	TokenRange=399:403
+52	fernando	fernando	NOUN	NOUN	_	50	flat	_	TokenRange=404:412
+53	pezao	_	NOUN	NOUN	_	51	flat	_	TokenRange=413:418
+54	ultima	_	ADJ	ADJ	_	55	amod	_	TokenRange=419:425
+55	semana	semana	NOUN	NOUN	_	47	appos	_	TokenRange=426:432
+56	batizada	batizado	ADJ	ADJ	_	55	amod	_	TokenRange=433:441
+57	operacao	operacao	NOUN	NOUN	_	55	appos	_	TokenRange=442:450
+58	francisco	francisco	NOUN	NOUN	_	57	flat	_	TokenRange=451:460
+59	acao	acao	NOUN	NOUN	_	57	appos	_	TokenRange=461:465
+60	tropas	tropa	NOUN	NOUN	_	57	appos	_	TokenRange=466:472
+61	complexo	complexo	ADJ	ADJ	_	60	amod	_	TokenRange=473:481
+62	140	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=482:485
+63	mil	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=486:489
+64	habitantes	habitante	NOUN	NOUN	_	60	appos	_	TokenRange=490:500
+65	realizada	realizar	VERB	VERB	_	64	acl	_	TokenRange=501:510
+66	5	_	NUM	NUM	NumType=Card	65	nmod	_	TokenRange=511:512
+67	abril	_	PROPN	PNOUN	_	66	nmod	_	TokenRange=513:518
+68	2014	_	NUM	NUM	NumType=Card	67	nmod	_	TokenRange=519:523
+69	30	_	NUM	NUM	NumType=Card	67	nmod	_	TokenRange=524:526
+70	junho	_	PROPN	PNOUN	_	73	nmod	_	TokenRange=527:532
+71	2015	_	NUM	NUM	NumType=Card	70	nmod	_	TokenRange=533:537
+72	exercito	exercito	NOUN	NOUN	_	73	nsubj	_	TokenRange=538:546
+73	afirma	afirmar	VERB	VERB	_	65	parataxis	_	TokenRange=547:553
+74	acao	acao	NOUN	NOUN	_	73	obj	_	TokenRange=554:558
+75	reduziu	reduzir	VERB	VERB	_	73	ccomp	_	TokenRange=559:566
+76	numero	_	NOUN	NOUN	_	75	obj	_	TokenRange=567:573
+77	mortes	morte	NOUN	NOUN	_	75	obj	_	TokenRange=574:580
+78	moradores	morador	NOUN	NOUN	_	76	amod	_	TokenRange=581:590
+79	descrevem	descrever	VERB	VERB	_	73	parataxis	_	TokenRange=591:600
+80	traumatica	_	NOUN	NOUN	_	79	obj	_	SpaceAfter=No|TokenRange=601:611
+

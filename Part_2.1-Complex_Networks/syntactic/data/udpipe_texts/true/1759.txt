@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quase metade municipios sabem quantas criancas 4 5 anos escola diz levantamento tcu auditoria divulgada neste mes incluiu entrevistas gestores 800 municipios 17 estados secretario tcu metas cumpridas escancaram falhas modelo educacao brasileiro plano nacional educacao pne ultrapassou terco duracao sistemas ensino brasil ainda desenvolveram mecanismos concretos cumprir 20 metas 250 estrategias melhorar educacao pais levantamento feito tribunal contas uniao tcu 800 municipios divulgado neste
+1	quase	quase	ADV	ADV	_	2	advmod	_	TokenRange=0:5
+2	metade	metade	NOUN	NOUN	_	4	nsubj	_	TokenRange=6:12
+3	municipios	municipio	NOUN	NOUN	_	4	nsubj	_	TokenRange=13:23
+4	sabem	saber	VERB	VERB	_	0	root	_	TokenRange=24:29
+5	quantas	_	DET	DET	_	6	det	_	TokenRange=30:37
+6	criancas	crianca	NOUN	NOUN	_	4	obj	_	TokenRange=38:46
+7	4	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=47:48
+8	5	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=49:50
+9	anos	ano	NOUN	NOUN	_	6	appos	_	TokenRange=51:55
+10	escola	escola	NOUN	NOUN	_	11	nsubj	_	TokenRange=56:62
+11	diz	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=63:66
+12	levantamento	levantamento	NOUN	NOUN	_	11	obj	_	TokenRange=67:79
+13	tcu	_	ADJ	ADJ	_	12	amod	_	TokenRange=80:83
+14	auditoria	auditoria	NOUN	NOUN	_	12	appos	_	TokenRange=84:93
+15	divulgada	divulgar	VERB	VERB	_	14	acl	_	TokenRange=94:103
+16	neste	_	ADP	ADP	_	17	case	_	TokenRange=104:109
+17	mes	_	NOUN	NOUN	_	15	nmod	_	TokenRange=110:113
+18	incluiu	incluir	VERB	VERB	_	4	parataxis	_	TokenRange=114:121
+19	entrevistas	entrevista	NOUN	NOUN	_	18	obj	_	TokenRange=122:133
+20	gestores	gestor	ADJ	ADJ	_	19	amod	_	TokenRange=134:142
+21	800	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=143:146
+22	municipios	municipio	NOUN	NOUN	_	19	appos	_	TokenRange=147:157
+23	17	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=158:160
+24	estados	estado	NOUN	NOUN	_	19	appos	_	TokenRange=161:168
+25	secretario	_	NOUN	NOUN	_	24	appos	_	TokenRange=169:179
+26	tcu	_	NOUN	NOUN	_	27	amod	_	TokenRange=180:183
+27	metas	meta	NOUN	NOUN	_	25	appos	_	TokenRange=184:189
+28	cumpridas	cumprir	VERB	VERB	_	27	acl	_	TokenRange=190:199
+29	escancaram	escancar	VERB	VERB	_	19	acl:relcl	_	TokenRange=200:210
+30	falhas	_	NOUN	NOUN	_	29	obj	_	TokenRange=211:217
+31	modelo	modelo	NOUN	NOUN	_	29	nsubj	_	TokenRange=218:224
+32	educacao	educacao	NOUN	NOUN	_	31	appos	_	TokenRange=225:233
+33	brasileiro	brasileiro	ADJ	ADJ	_	34	amod	_	TokenRange=234:244
+34	plano	plano	NOUN	NOUN	_	31	appos	_	TokenRange=245:250
+35	nacional	nacional	ADJ	ADJ	_	34	amod	_	TokenRange=251:259
+36	educacao	educacao	NOUN	NOUN	_	34	amod	_	TokenRange=260:268
+37	pne	_	ADJ	NOUN	_	34	amod	_	TokenRange=269:272
+38	ultrapassou	ultrapassar	VERB	VERB	_	34	acl:relcl	_	TokenRange=273:284
+39	terco	terco	ADV	ADV	_	38	advmod	_	TokenRange=285:290
+40	duracao	duracao	NOUN	NOUN	_	38	obj	_	TokenRange=291:298
+41	sistemas	sistema	NOUN	NOUN	_	38	nsubj	_	TokenRange=299:307
+42	ensino	ensino	NOUN	NOUN	_	41	flat	_	TokenRange=308:314
+43	brasil	brasil	ADJ	ADJ	_	41	amod	_	TokenRange=315:321
+44	ainda	ainda	ADV	ADV	_	45	advmod	_	TokenRange=322:327
+45	desenvolveram	desenvolver	VERB	VERB	_	4	conj	_	TokenRange=328:341
+46	mecanismos	mecanismo	NOUN	NOUN	_	45	obj	_	TokenRange=342:352
+47	concretos	concreto	ADJ	ADJ	_	46	amod	_	TokenRange=353:362
+48	cumprir	cumprir	VERB	VERB	_	45	ccomp	_	TokenRange=363:370
+49	20	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=371:373
+50	metas	meta	NOUN	NOUN	_	48	obj	_	TokenRange=374:379
+51	250	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=380:383
+52	estrategias	estrategia	NOUN	NOUN	_	48	obj	_	TokenRange=384:395
+53	melhorar	melhorar	VERB	VERB	_	46	acl:inf	_	TokenRange=396:404
+54	educacao	educacao	NOUN	NOUN	_	53	obj	_	TokenRange=405:413
+55	pais	_	NOUN	NOUN	_	54	amod	_	TokenRange=414:418
+56	levantamento	levantamento	NOUN	NOUN	_	53	obj	_	TokenRange=419:431
+57	feito	_	VERB	VERB	_	56	acl	_	TokenRange=432:437
+58	tribunal	tribunal	NOUN	NOUN	_	53	obj	_	TokenRange=438:446
+59	contas	conta	NOUN	NOUN	_	58	flat	_	TokenRange=447:453
+60	uniao	uniao	NOUN	NOUN	_	58	appos	_	TokenRange=454:459
+61	tcu	_	NOUN	NOUN	_	58	appos	_	TokenRange=460:463
+62	800	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=464:467
+63	municipios	municipio	NOUN	NOUN	_	58	appos	_	TokenRange=468:478
+64	divulgado	divulgar	VERB	VERB	_	56	acl	_	TokenRange=479:488
+65	neste	_	ADP	ADP	_	17	case	_	SpaceAfter=No|TokenRange=489:494
+

@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro guilherme boulos bandido guilherme boulos lider movimento mtst preso hoje incitacao violencia vamos entrar detalhes boulos tipico petista faz anarquias banca vitima assim lula dilma basta pesquisar passado google dois criminosos insistem dizer inocentes voltando assunto guilherme boulos solto inicio desta noite ouca diz deputado jair bolsonaro sobre jovem anarquista
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:9
+2	guilherme	guilherme	NOUN	NOUN	_	1	appos	_	TokenRange=10:19
+3	boulos	_	NOUN	NOUN	_	2	flat	_	TokenRange=20:26
+4	bandido	bandido	NOUN	NOUN	_	1	appos	_	TokenRange=27:34
+5	guilherme	guilherme	NOUN	NOUN	_	1	appos	_	TokenRange=35:44
+6	boulos	_	NOUN	NOUN	_	5	flat	_	TokenRange=45:51
+7	lider	lider	NOUN	NOUN	_	1	appos	_	TokenRange=52:57
+8	movimento	movimento	NOUN	NOUN	_	2	appos	_	TokenRange=58:67
+9	mtst	_	NOUN	NOUN	_	8	appos	_	TokenRange=68:72
+10	preso	_	VERB	VERB	_	8	acl	_	TokenRange=73:78
+11	hoje	hoje	ADV	ADV	_	10	advmod	_	TokenRange=79:83
+12	incitacao	_	ADJ	ADJ	_	13	amod	_	TokenRange=84:93
+13	violencia	violencia	NOUN	NOUN	_	15	nsubj	_	TokenRange=94:103
+14	vamos	ir	AUX	AUX	_	15	aux	_	TokenRange=104:109
+15	entrar	entrar	VERB	VERB	_	0	root	_	TokenRange=110:116
+16	detalhes	detalhe	NOUN	NOUN	_	15	obj	_	TokenRange=117:125
+17	boulos	_	NOUN	NOUN	_	16	amod	_	TokenRange=126:132
+18	tipico	tipico	ADJ	ADJ	_	19	amod	_	TokenRange=133:139
+19	petista	petista	NOUN	NOUN	_	16	appos	_	TokenRange=140:147
+20	faz	fazer	VERB	VERB	_	15	parataxis	_	TokenRange=148:151
+21	anarquias	anarquia	NOUN	NOUN	_	20	obj	_	TokenRange=152:161
+22	banca	banca	NOUN	NOUN	_	21	appos	_	TokenRange=162:167
+23	vitima	_	NOUN	NOUN	_	22	appos	_	TokenRange=168:174
+24	assim	assim	ADV	ADV	_	25	advmod	_	TokenRange=175:180
+25	lula	lula	NOUN	NOUN	_	20	nsubj	_	TokenRange=181:185
+26	dilma	_	NOUN	NOUN	_	25	flat	_	TokenRange=186:191
+27	basta	_	VERB	VERB	_	25	acl:relcl	_	TokenRange=192:197
+28	pesquisar	pesquisar	VERB	VERB	_	27	csubj	_	TokenRange=198:207
+29	passado	passado	ADJ	ADJ	_	28	xcomp	_	TokenRange=208:215
+30	google	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=216:222
+31	dois	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=223:227
+32	criminosos	criminoso	NOUN	NOUN	_	33	nsubj	_	TokenRange=228:238
+33	insistem	insistir	VERB	VERB	_	15	parataxis	_	TokenRange=239:247
+34	dizer	dizer	VERB	VERB	_	33	xcomp	_	TokenRange=248:253
+35	inocentes	inocente	NOUN	NOUN	_	34	obj	_	TokenRange=254:263
+36	voltando	voltar	VERB	VERB	_	35	acl	_	TokenRange=264:272
+37	assunto	assunto	NOUN	NOUN	_	36	obj	_	TokenRange=273:280
+38	guilherme	guilherme	NOUN	NOUN	_	35	appos	_	TokenRange=281:290
+39	boulos	_	NOUN	NOUN	_	38	flat	_	TokenRange=291:297
+40	solto	solto	ADJ	ADJ	_	41	amod	_	TokenRange=298:303
+41	inicio	_	NOUN	NOUN	_	38	appos	_	TokenRange=304:310
+42	desta	_	ADP	ADP	_	43	case	_	TokenRange=311:316
+43	noite	noite	NOUN	NOUN	_	41	nmod	_	TokenRange=317:322
+44	ouca	_	PRON	PRON	_	45	nsubj	_	TokenRange=323:327
+45	diz	dizer	VERB	VERB	_	33	parataxis	_	TokenRange=328:331
+46	deputado	deputado	NOUN	NOUN	_	45	nsubj	_	TokenRange=332:340
+47	jair	jair	VERB	VERB	_	46	appos	_	TokenRange=341:345
+48	bolsonaro	bolsonaro	NOUN	NOUN	_	47	flat	_	TokenRange=346:355
+49	sobre	_	ADP	ADP	_	51	case	_	TokenRange=356:361
+50	jovem	jovem	ADJ	ADJ	_	51	amod	_	TokenRange=362:367
+51	anarquista	anarquista	NOUN	NOUN	_	47	nmod	_	SpaceAfter=No|TokenRange=368:378
+

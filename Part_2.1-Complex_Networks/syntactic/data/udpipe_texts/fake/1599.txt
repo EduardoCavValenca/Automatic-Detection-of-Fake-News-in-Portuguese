@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = zenvergonha monge preso sul asia milhoes comprimidos metanfetamina monge budista preso ontem 05 myanmar sul asia apos busca mosteiro policia local encontrou 42 milhoes comprimidos metanfetamina myanmar centros concentracao trafico drogas sudeste asiatico tailandia pais vizinho aproximadamente 30 monges abandonar habitos uso drogas ultimos anos onu estima producao consumo drogas sinteticas quadruplicou regiao desde 2012 fonte hindustantimes
+1	zenvergonha	zenvergonha	NOUN	NOUN	_	47	nsubj	_	TokenRange=0:11
+2	monge	monge	NOUN	NOUN	_	1	appos	_	TokenRange=12:17
+3	preso	_	VERB	VERB	_	2	acl	_	TokenRange=18:23
+4	sul	sul	ADJ	ADJ	_	5	amod	_	TokenRange=24:27
+5	asia	_	NOUN	NOUN	_	3	obj	_	TokenRange=28:32
+6	milhoes	_	NOUN	NOUN	_	2	appos	_	TokenRange=33:40
+7	comprimidos	comprimido	ADJ	ADJ	_	9	amod	_	TokenRange=41:52
+8	metanfetamina	metanfetamina	ADJ	ADJ	_	9	amod	_	TokenRange=53:66
+9	monge	monge	NOUN	NOUN	_	2	appos	_	TokenRange=67:72
+10	budista	budista	ADJ	ADJ	_	9	amod	_	TokenRange=73:80
+11	preso	_	VERB	VERB	_	9	acl	_	TokenRange=81:86
+12	ontem	ontem	ADV	ADV	_	11	advmod	_	TokenRange=87:92
+13	05	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=93:95
+14	myanmar	myanmar	NOUN	VERB	_	11	parataxis	_	TokenRange=96:103
+15	sul	sul	ADJ	ADJ	_	16	amod	_	TokenRange=104:107
+16	asia	asia	NOUN	NOUN	_	14	appos	_	TokenRange=108:112
+17	apos	_	ADP	ADP	_	18	case	_	TokenRange=113:117
+18	busca	busca	NOUN	NOUN	_	22	nmod	_	TokenRange=118:123
+19	mosteiro	mosteiro	NOUN	NOUN	_	18	flat	_	TokenRange=124:132
+20	policia	policia	NOUN	NOUN	_	22	nsubj	_	TokenRange=133:140
+21	local	local	ADJ	ADJ	_	20	amod	_	TokenRange=141:146
+22	encontrou	encontrar	VERB	VERB	_	1	parataxis	_	TokenRange=147:156
+23	42	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=157:159
+24	milhoes	_	NUM	NUM	NumType=Card	22	obj	_	TokenRange=160:167
+25	comprimidos	comprimido	ADJ	NOUN	_	24	amod	_	TokenRange=168:179
+26	metanfetamina	metanfetamina	NOUN	NOUN	_	25	appos	_	TokenRange=180:193
+27	myanmar	myanmar	NOUN	NOUN	_	24	amod	_	TokenRange=194:201
+28	centros	centro	NOUN	NOUN	_	25	appos	_	TokenRange=202:209
+29	concentracao	concentracao	ADJ	ADJ	_	28	amod	_	TokenRange=210:222
+30	trafico	trafico	NOUN	NOUN	_	28	appos	_	TokenRange=223:230
+31	drogas	droga	NOUN	NOUN	_	30	obj	_	TokenRange=231:237
+32	sudeste	sudeste	NOUN	NOUN	_	31	appos	_	TokenRange=238:245
+33	asiatico	asiatico	ADJ	ADJ	_	32	amod	_	TokenRange=246:254
+34	tailandia	tailandia	NOUN	NOUN	_	22	parataxis	_	TokenRange=255:264
+35	pais	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=265:269
+36	vizinho	vizinho	ADJ	ADJ	_	35	amod	_	TokenRange=270:277
+37	aproximadamente	aproximadamente	ADV	ADV	_	38	advmod	_	TokenRange=278:293
+38	30	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=294:296
+39	monges	monge	NOUN	NOUN	_	40	nsubj	_	TokenRange=297:303
+40	abandonar	abandonar	VERB	VERB	_	34	parataxis	_	TokenRange=304:313
+41	habitos	habito	NOUN	NOUN	_	40	obj	_	TokenRange=314:321
+42	uso	uso	NOUN	NOUN	_	40	appos	_	TokenRange=322:325
+43	drogas	droga	NOUN	NOUN	_	42	appos	_	TokenRange=326:332
+44	ultimos	_	ADJ	ADJ	_	45	amod	_	TokenRange=333:340
+45	anos	ano	NOUN	NOUN	_	42	nmod	_	TokenRange=341:345
+46	onu	onu	ADJ	ADJ	_	47	nsubj	_	TokenRange=346:349
+47	estima	estimar	VERB	VERB	_	0	root	_	TokenRange=350:356
+48	producao	producao	NOUN	NOUN	_	47	obj	_	TokenRange=357:365
+49	consumo	consumo	NOUN	NOUN	_	48	appos	_	TokenRange=366:373
+50	drogas	droga	NOUN	NOUN	_	48	appos	_	TokenRange=374:380
+51	sinteticas	sintetico	ADJ	ADJ	_	50	amod	_	TokenRange=381:391
+52	quadruplicou	quadruplicar	ADJ	ADJ	_	50	amod	_	TokenRange=392:404
+53	regiao	regiao	NOUN	NOUN	_	47	obj	_	TokenRange=405:411
+54	desde	_	ADP	ADP	_	55	case	_	TokenRange=412:417
+55	2012	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=418:422
+56	fonte	fonte	NOUN	NOUN	_	47	parataxis	_	TokenRange=423:428
+57	hindustantimes	_	NOUN	NOUN	_	56	appos	_	SpaceAfter=No|TokenRange=429:443
+

@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministro justica defende lula diz oposicao usa investigacoes atingir petista jose eduardo cardozo afirma total confianca envolveu permitira alguem proximo envolvesse desmandos alvo criticas dentro pt ministro justica jose eduardo cardozo saiu defesa expresidente luiz inacio lula
+1	ministro	ministro	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	justica	justico	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+3	defende	defender	VERB	VERB	_	0	root	_	TokenRange=17:24
+4	lula	lula	NOUN	NOUN	_	3	obj	_	TokenRange=25:29
+5	diz	dizer	VERB	VERB	_	3	ccomp	_	TokenRange=30:33
+6	oposicao	_	NOUN	NOUN	_	5	obj	_	TokenRange=34:42
+7	usa	usar	VERB	VERB	_	5	ccomp	_	TokenRange=43:46
+8	investigacoes	investigacoe	NOUN	NOUN	_	7	obj	_	TokenRange=47:60
+9	atingir	atingir	VERB	VERB	_	8	acl:inf	_	TokenRange=61:68
+10	petista	petista	NOUN	NOUN	_	9	obj	_	TokenRange=69:76
+11	jose	jose	NOUN	NOUN	_	14	nsubj	_	TokenRange=77:81
+12	eduardo	eduardo	NOUN	NOUN	_	11	flat	_	TokenRange=82:89
+13	cardozo	cardozo	NOUN	NOUN	_	11	flat	_	TokenRange=90:97
+14	afirma	afirmar	VERB	VERB	_	3	conj	_	TokenRange=98:104
+15	total	total	ADJ	ADJ	_	16	amod	_	TokenRange=105:110
+16	confianca	_	NOUN	NOUN	_	14	obj	_	TokenRange=111:120
+17	envolveu	envolver	VERB	VERB	_	14	ccomp	_	TokenRange=121:129
+18	permitira	permitir	VERB	VERB	_	17	xcomp	_	TokenRange=130:139
+19	alguem	_	PRON	PRON	_	21	nsubj	_	TokenRange=140:146
+20	proximo	proximo	ADJ	ADJ	_	19	amod	_	TokenRange=147:154
+21	envolvesse	envolver	VERB	VERB	_	18	ccomp	_	TokenRange=155:165
+22	desmandos	desmando	NOUN	NOUN	_	21	obj	_	TokenRange=166:175
+23	alvo	alvo	NOUN	NOUN	_	22	amod	_	TokenRange=176:180
+24	criticas	_	NOUN	NOUN	_	21	obj	_	TokenRange=181:189
+25	dentro	dentro	ADV	ADV	_	32	advmod	_	TokenRange=190:196
+26	pt	_	X	DET	_	27	appos	_	TokenRange=197:199
+27	ministro	ministro	NOUN	NOUN	_	32	nsubj	_	TokenRange=200:208
+28	justica	justico	ADJ	ADJ	_	27	amod	_	TokenRange=209:216
+29	jose	jose	NOUN	NOUN	_	32	nsubj	_	TokenRange=217:221
+30	eduardo	eduardo	ADJ	NOUN	_	29	flat	_	TokenRange=222:229
+31	cardozo	cardozo	NOUN	NOUN	_	29	flat	_	TokenRange=230:237
+32	saiu	sair	VERB	VERB	_	3	conj	_	TokenRange=238:242
+33	defesa	_	NOUN	NOUN	_	32	obj	_	TokenRange=243:249
+34	expresidente	expresidente	NOUN	NOUN	_	33	amod	_	TokenRange=250:262
+35	luiz	luiz	NOUN	NOUN	_	33	appos	_	TokenRange=263:267
+36	inacio	_	NOUN	NOUN	_	35	flat	_	TokenRange=268:274
+37	lula	_	NOUN	NOUN	_	35	flat	_	SpaceAfter=No|TokenRange=275:279
+

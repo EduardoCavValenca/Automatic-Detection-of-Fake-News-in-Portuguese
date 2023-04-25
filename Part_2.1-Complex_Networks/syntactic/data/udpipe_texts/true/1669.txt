@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fab extrai conteudo gravador voz aviao caiu teori zavascki forca aerea recuperou caixapreta aeronave ultima sexta 20 dia apos acidente paraty rj segundo aeronautica gravador sofreu dano altamente protegido forca aerea brasileira fab extraiu todo conteudo gravador voz aeronave caiu semana passada litoral rio janeiro provocou mortes ministro teori zavascki supremo tribunal federal stf outras quatro pessoas partir agora gravacao registra ultimos 30 minutos voo totalmente preservada passara tratamento retirada ruidos apos etapa analisada peritos aviao caiu ultima quinta 20 paraty rj
+1	fab	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	extrai	extrair	VERB	VERB	_	0	root	_	TokenRange=4:10
+3	conteudo	conteudo	NOUN	NOUN	_	2	obj	_	TokenRange=11:19
+4	gravador	gravador	ADJ	ADJ	_	3	amod	_	TokenRange=20:28
+5	voz	voz	NOUN	NOUN	_	2	nsubj	_	TokenRange=29:32
+6	aviao	aviao	NOUN	NOUN	_	5	amod	_	TokenRange=33:38
+7	caiu	cair	VERB	VERB	_	5	acl:relcl	_	TokenRange=39:43
+8	teori	_	NOUN	NOUN	_	7	appos	_	TokenRange=44:49
+9	zavascki	_	NOUN	NOUN	_	8	flat	_	TokenRange=50:58
+10	forca	forca	NOUN	NOUN	_	8	flat	_	TokenRange=59:64
+11	aerea	aereo	ADJ	ADJ	_	10	amod	_	TokenRange=65:70
+12	recuperou	recuperar	VERB	VERB	_	2	parataxis	_	TokenRange=71:80
+13	caixapreta	_	ADJ	ADJ	_	14	amod	_	TokenRange=81:91
+14	aeronave	aeronave	NOUN	NOUN	_	12	obj	_	TokenRange=92:100
+15	ultima	_	ADJ	ADJ	_	14	amod	_	TokenRange=101:107
+16	sexta	_	PROPN	PNOUN	_	14	amod	_	TokenRange=108:113
+17	20	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=114:116
+18	dia	dia	NOUN	NOUN	_	12	nmod	_	TokenRange=117:120
+19	apos	_	ADP	ADP	_	20	case	_	TokenRange=121:125
+20	acidente	acidente	NOUN	NOUN	_	18	nmod	_	TokenRange=126:134
+21	paraty	_	NOUN	NOUN	_	20	appos	_	TokenRange=135:141
+22	rj	_	NOUN	NOUN	_	21	appos	_	TokenRange=142:144
+23	segundo	_	ADP	ADP	_	24	case	_	TokenRange=145:152
+24	aeronautica	_	NOUN	NOUN	_	26	nmod	_	TokenRange=153:164
+25	gravador	gravador	NOUN	NOUN	_	26	nsubj	_	TokenRange=165:173
+26	sofreu	sofrer	VERB	VERB	_	20	acl:relcl	_	TokenRange=174:180
+27	dano	dano	NOUN	NOUN	_	26	obj	_	TokenRange=181:185
+28	altamente	altamente	ADV	ADV	_	29	advmod	_	TokenRange=186:195
+29	protegido	protegido	ADJ	ADJ	_	27	amod	_	TokenRange=196:205
+30	forca	forca	NOUN	NOUN	_	26	nsubj	_	TokenRange=206:211
+31	aerea	aereo	ADJ	ADJ	_	30	amod	_	TokenRange=212:217
+32	brasileira	brasileiro	ADJ	ADJ	_	30	amod	_	TokenRange=218:228
+33	fab	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=229:232
+34	extraiu	extrair	VERB	VERB	_	2	parataxis	_	TokenRange=233:240
+35	todo	_	DET	DET	_	36	det	_	TokenRange=241:245
+36	conteudo	conteudo	NOUN	NOUN	_	34	obj	_	TokenRange=246:254
+37	gravador	gravador	ADJ	ADJ	_	36	amod	_	TokenRange=255:263
+38	voz	voz	NOUN	NOUN	_	40	nsubj	_	TokenRange=264:267
+39	aeronave	aeronave	NOUN	NOUN	_	38	appos	_	TokenRange=268:276
+40	caiu	cair	VERB	VERB	_	36	acl:relcl	_	TokenRange=277:281
+41	semana	semana	NOUN	NOUN	_	40	nmod	_	TokenRange=282:288
+42	passada	passado	ADJ	ADJ	_	41	amod	_	TokenRange=289:296
+43	litoral	litoral	ADJ	ADJ	_	46	nsubj	_	TokenRange=297:304
+44	rio	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=305:308
+45	janeiro	_	PROPN	PNOUN	_	44	flat	_	TokenRange=309:316
+46	provocou	provocar	VERB	VERB	_	40	parataxis	_	TokenRange=317:325
+47	mortes	morte	NOUN	NOUN	_	46	obj	_	TokenRange=326:332
+48	ministro	ministro	NOUN	NOUN	_	47	appos	_	TokenRange=333:341
+49	teori	_	NOUN	NOUN	_	47	appos	_	TokenRange=342:347
+50	zavascki	_	NOUN	NOUN	_	49	flat	_	TokenRange=348:356
+51	supremo	supremo	ADJ	ADJ	_	52	amod	_	TokenRange=357:364
+52	tribunal	tribunal	NOUN	NOUN	_	47	appos	_	TokenRange=365:373
+53	federal	federal	ADJ	ADJ	_	52	amod	_	TokenRange=374:381
+54	stf	_	NOUN	NOUN	_	52	appos	_	TokenRange=382:385
+55	outras	_	DET	DET	_	57	det	_	TokenRange=386:392
+56	quatro	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=393:399
+57	pessoas	pessoa	NOUN	NOUN	_	58	nsubj	_	TokenRange=400:407
+58	partir	partir	VERB	VERB	_	46	parataxis	_	TokenRange=408:414
+59	agora	agora	ADV	ADV	_	58	advmod	_	TokenRange=415:420
+60	gravacao	gravacao	NOUN	NOUN	_	58	nsubj	_	TokenRange=421:429
+61	registra	registrar	VERB	VERB	_	58	conj	_	TokenRange=430:438
+62	ultimos	_	ADJ	ADJ	_	64	amod	_	TokenRange=439:446
+63	30	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=447:449
+64	minutos	minuto	NOUN	NOUN	_	61	nmod	_	TokenRange=450:457
+65	voo	voo	NOUN	NOUN	_	58	obj	_	TokenRange=458:461
+66	totalmente	totalmente	ADV	ADV	_	67	advmod	_	TokenRange=462:472
+67	preservada	preservado	ADJ	ADJ	_	65	amod	_	TokenRange=473:483
+68	passara	passar	VERB	VERB	_	58	parataxis	_	TokenRange=484:491
+69	tratamento	tratamento	NOUN	NOUN	_	68	obj	_	TokenRange=492:502
+70	retirada	_	ADJ	ADJ	_	69	amod	_	TokenRange=503:511
+71	ruidos	ruido	NOUN	NOUN	_	69	appos	_	TokenRange=512:518
+72	apos	_	ADP	ADP	_	73	case	_	TokenRange=519:523
+73	etapa	etapa	NOUN	NOUN	_	71	nmod	_	TokenRange=524:529
+74	analisada	analisado	ADJ	ADJ	_	73	amod	_	TokenRange=530:539
+75	peritos	perito	NOUN	NOUN	_	77	nsubj	_	TokenRange=540:547
+76	aviao	aviao	ADJ	ADJ	_	75	amod	_	TokenRange=548:553
+77	caiu	cair	VERB	VERB	_	68	parataxis	_	TokenRange=554:558
+78	ultima	_	ADJ	ADJ	_	79	amod	_	TokenRange=559:565
+79	quinta	_	PROPN	PNOUN	_	77	nsubj	_	TokenRange=566:572
+80	20	_	NUM	NUM	NumType=Card	81	nummod	_	TokenRange=573:575
+81	paraty	_	NOUN	NOUN	_	77	nsubj	_	TokenRange=576:582
+82	rj	_	PROPN	.	_	81	flat	_	SpaceAfter=No|TokenRange=583:585
+

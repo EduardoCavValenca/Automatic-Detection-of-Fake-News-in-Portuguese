@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = legado rio 2016 conta obras inacabadas construcoes abandonadas maracana palco cerimonias abertura encerramento olimpiada paralimpiada degradado apenas 47 transbrasil construida apos anos preparacao dinheiro investido alguns legados olimpiada 2016 ficaram promessa mostrou bom dia rio maracana centro atencoes mundo cerimonias abertura encerramento olimpiada paralimpiada degradado
+1	legado	legado	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	rio	rio	NOUN	NOUN	_	1	appos	_	TokenRange=7:10
+3	2016	_	NUM	NUM	NumType=Card	2	appos	_	TokenRange=11:15
+4	conta	contar	VERB	VERB	_	0	root	_	TokenRange=16:21
+5	obras	obra	NOUN	NOUN	_	4	obj	_	TokenRange=22:27
+6	inacabadas	inacabado	ADJ	ADJ	_	5	amod	_	TokenRange=28:38
+7	construcoes	construcoe	NOUN	NOUN	_	5	appos	_	TokenRange=39:50
+8	abandonadas	abandonado	ADJ	ADJ	_	5	amod	_	TokenRange=51:62
+9	maracana	maracana	ADJ	NOUN	_	10	amod	_	TokenRange=63:71
+10	palco	palco	NOUN	NOUN	_	7	appos	_	TokenRange=72:77
+11	cerimonias	cerimonia	ADJ	ADJ	_	12	amod	_	TokenRange=78:88
+12	abertura	abertura	NOUN	NOUN	_	10	appos	_	TokenRange=89:97
+13	encerramento	encerramento	NOUN	NOUN	_	12	flat	_	TokenRange=98:110
+14	olimpiada	olimpiada	ADJ	ADJ	_	12	amod	_	TokenRange=111:120
+15	paralimpiada	_	ADJ	ADJ	_	14	amod	_	TokenRange=121:133
+16	degradado	degradado	ADJ	ADJ	_	14	amod	_	TokenRange=134:143
+17	apenas	apenas	ADV	ADV	_	18	advmod	_	TokenRange=144:150
+18	47	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=151:153
+19	transbrasil	transbrasil	NOUN	NOUN	_	10	appos	_	TokenRange=154:165
+20	construida	construir	VERB	VERB	_	19	acl	_	TokenRange=166:176
+21	apos	_	ADP	ADP	_	22	case	_	TokenRange=177:181
+22	anos	ano	NOUN	NOUN	_	20	nmod	_	TokenRange=182:186
+23	preparacao	_	ADJ	ADJ	_	19	amod	_	TokenRange=187:197
+24	dinheiro	dinheiro	NOUN	NOUN	_	30	nsubj	_	TokenRange=198:206
+25	investido	investir	VERB	VERB	_	24	acl	_	TokenRange=207:216
+26	alguns	_	DET	DET	_	27	det	_	TokenRange=217:223
+27	legados	legado	NOUN	NOUN	_	30	nsubj	_	TokenRange=224:231
+28	olimpiada	_	ADJ	ADJ	_	27	amod	_	TokenRange=232:241
+29	2016	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=242:246
+30	ficaram	ficar	VERB	VERB	_	32	parataxis	_	TokenRange=247:254
+31	promessa	promessa	NOUN	NOUN	_	30	obj	_	TokenRange=255:263
+32	mostrou	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=264:271
+33	bom	bom	ADJ	ADJ	_	34	amod	_	TokenRange=272:275
+34	dia	dia	NOUN	NOUN	_	32	obj	_	TokenRange=276:279
+35	rio	rio	NOUN	NOUN	_	34	appos	_	TokenRange=280:283
+36	maracana	_	ADJ	ADJ	_	37	amod	_	TokenRange=284:292
+37	centro	centro	NOUN	NOUN	_	34	appos	_	TokenRange=293:299
+38	atencoes	_	NOUN	NOUN	_	37	amod	_	TokenRange=300:308
+39	mundo	mundo	NOUN	NOUN	_	37	flat	_	TokenRange=309:314
+40	cerimonias	cerimonia	ADJ	NOUN	_	41	amod	_	TokenRange=315:325
+41	abertura	abertura	NOUN	NOUN	_	37	appos	_	TokenRange=326:334
+42	encerramento	encerramento	NOUN	NOUN	_	41	flat	_	TokenRange=335:347
+43	olimpiada	olimpiado	ADJ	ADJ	_	41	amod	_	TokenRange=348:357
+44	paralimpiada	_	ADJ	ADJ	_	41	amod	_	TokenRange=358:370
+45	degradado	degradado	ADJ	ADJ	_	43	amod	_	SpaceAfter=No|TokenRange=371:380
+

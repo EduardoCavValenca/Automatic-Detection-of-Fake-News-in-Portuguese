@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = assista depoimento lula juiz sergio moro ocorrido tarde hoje 13 video 01 lula prestou depoimento hoje 13 reu juiz sergio moro processo apura propinas supostamente pagas lula empreiteira odebrecht atraves compra apto vizinho residencia petista bernardo campo sp terreno avaliado r 12 milhoes abrigaria instituto lula sp assista abaixo videos oitiva petista diante moro
+1	assista	assistir	VERB	VERB	_	48	ccomp	_	TokenRange=0:7
+2	depoimento	depoimento	NOUN	NOUN	_	1	obj	_	TokenRange=8:18
+3	lula	lulo	ADJ	ADJ	_	4	amod	_	TokenRange=19:23
+4	juiz	juiz	NOUN	NOUN	_	2	appos	_	TokenRange=24:28
+5	sergio	sergio	ADJ	ADJ	_	4	amod	_	TokenRange=29:35
+6	moro	moro	NOUN	NOUN	_	4	flat	_	TokenRange=36:40
+7	ocorrido	ocorrer	VERB	VERB	_	4	acl	_	TokenRange=41:49
+8	tarde	tarde	NOUN	NOUN	_	7	advmod	_	TokenRange=50:55
+9	hoje	hoje	ADV	ADV	_	7	advmod	_	TokenRange=56:60
+10	13	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=61:63
+11	video	video	NOUN	NOUN	_	14	obj	_	TokenRange=64:69
+12	01	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=70:72
+13	lula	lula	NOUN	NOUN	_	14	nsubj	_	TokenRange=73:77
+14	prestou	prestar	VERB	VERB	_	1	parataxis	_	TokenRange=78:85
+15	depoimento	depoimento	NOUN	NOUN	_	14	obj	_	TokenRange=86:96
+16	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=97:101
+17	13	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=102:104
+18	reu	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=105:108
+19	juiz	juiz	NOUN	NOUN	_	14	obj	_	TokenRange=109:113
+20	sergio	sergio	ADJ	ADJ	_	19	amod	_	TokenRange=114:120
+21	moro	moro	NOUN	NOUN	_	19	flat	_	TokenRange=121:125
+22	processo	processo	NOUN	NOUN	_	19	appos	_	TokenRange=126:134
+23	apura	apurar	VERB	VERB	_	14	parataxis	_	TokenRange=135:140
+24	propinas	propina	NOUN	NOUN	_	23	obj	_	TokenRange=141:149
+25	supostamente	supostamente	ADV	ADV	_	26	advmod	_	TokenRange=150:162
+26	pagas	pago	ADJ	ADJ	_	24	amod	_	TokenRange=163:168
+27	lula	_	NOUN	NOUN	_	24	appos	_	TokenRange=169:173
+28	empreiteira	empreiteiro	NOUN	NOUN	_	24	appos	_	TokenRange=174:185
+29	odebrecht	_	NOUN	NOUN	_	28	appos	_	TokenRange=186:195
+30	atraves	_	ADV	ADV	_	31	advmod	_	TokenRange=196:203
+31	compra	compra	NOUN	NOUN	_	28	appos	_	TokenRange=204:210
+32	apto	apto	ADJ	ADJ	_	31	amod	_	TokenRange=211:215
+33	vizinho	vizinho	ADJ	NOUN	_	34	amod	_	TokenRange=216:223
+34	residencia	residencia	NOUN	NOUN	_	28	appos	_	TokenRange=224:234
+35	petista	petista	ADJ	ADJ	_	34	amod	_	TokenRange=235:242
+36	bernardo	bernardo	NOUN	NOUN	_	34	appos	_	TokenRange=243:251
+37	campo	campo	NOUN	NOUN	_	36	flat	_	TokenRange=252:257
+38	sp	_	ADJ	ADJ	_	39	amod	_	TokenRange=258:260
+39	terreno	terreno	NOUN	NOUN	_	34	appos	_	TokenRange=261:268
+40	avaliado	avaliado	ADJ	ADJ	_	39	amod	_	TokenRange=269:277
+41	r	r	NOUN	NOUN	_	44	nsubj	_	TokenRange=278:279
+42	12	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=280:282
+43	milhoes	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=283:290
+44	abrigaria	abrigar	VERB	VERB	_	48	parataxis	_	TokenRange=291:300
+45	instituto	instituto	NOUN	NOUN	_	44	obj	_	TokenRange=301:310
+46	lula	lula	NOUN	NOUN	_	45	appos	_	TokenRange=311:315
+47	sp	_	ADJ	ADJ	_	45	amod	_	TokenRange=316:318
+48	assista	assistir	VERB	VERB	_	0	root	_	TokenRange=319:326
+49	abaixo	abaixo	ADV	ADV	_	48	advmod	_	TokenRange=327:333
+50	videos	video	NOUN	NOUN	_	48	obj	_	TokenRange=334:340
+51	oitiva	oitivo	ADJ	ADJ	_	50	amod	_	TokenRange=341:347
+52	petista	petista	NOUN	NOUN	_	50	appos	_	TokenRange=348:355
+53	diante	diante	ADV	ADV	_	54	advmod	_	TokenRange=356:362
+54	moro	moro	NOUN	NOUN	_	52	appos	_	SpaceAfter=No|TokenRange=363:367
+

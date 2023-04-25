@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procuradorgeral republica rodrigo janot denunciou supremo tribunal federal cupula pmdb senado cinco senadores dois exsenadores supostamente integrarem organizacao criminosa desviado recursos publicos recebido propinas alvo denuncia senadores edison lobao ma jader barbalho pa renan calheiros al romero juca rr valdir raupp ro exsenadores jose sarney ap sergio machado ce janot acusa peemedebistas receberem propina r 864 milhoes causar rombo r 55 bilhoes petrobras r 113 milhoes transpetro 34 denuncia procuradoria ambito operacao lava jato perante supremo informacoes site procuradoriageral republica segundo procuradoria
+1	procuradorgeral	procuradorgeral	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:15
+2	republica	_	ADJ	ADJ	_	1	amod	_	TokenRange=16:25
+3	rodrigo	_	NOUN	NOUN	_	1	appos	_	TokenRange=26:33
+4	janot	_	NOUN	NOUN	_	3	flat	_	TokenRange=34:39
+5	denunciou	denunciar	VERB	VERB	_	0	root	_	TokenRange=40:49
+6	supremo	supremo	ADJ	ADJ	_	7	amod	_	TokenRange=50:57
+7	tribunal	tribunal	NOUN	NOUN	_	5	obj	_	TokenRange=58:66
+8	federal	federal	ADJ	ADJ	_	7	amod	_	TokenRange=67:74
+9	cupula	cupula	NOUN	NOUN	_	5	obj	_	TokenRange=75:81
+10	pmdb	_	NOUN	NOUN	_	9	flat	_	TokenRange=82:86
+11	senado	senado	NOUN	NOUN	_	9	flat	_	TokenRange=87:93
+12	cinco	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=94:99
+13	senadores	senador	NOUN	NOUN	_	5	nsubj	_	TokenRange=100:109
+14	dois	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=110:114
+15	exsenadores	exsenador	NOUN	NOUN	_	17	nsubj	_	TokenRange=115:126
+16	supostamente	supostamente	ADV	ADV	_	17	advmod	_	TokenRange=127:139
+17	integrarem	integrar	VERB	VERB	_	1	acl:relcl	_	TokenRange=140:150
+18	organizacao	organizacao	NOUN	NOUN	_	17	obj	_	TokenRange=151:162
+19	criminosa	criminoso	ADJ	ADJ	_	18	amod	_	TokenRange=163:172
+20	desviado	desviar	VERB	VERB	_	18	acl	_	TokenRange=173:181
+21	recursos	recurso	NOUN	NOUN	_	20	obj	_	TokenRange=182:190
+22	publicos	publico	ADJ	ADJ	_	21	amod	_	TokenRange=191:199
+23	recebido	receber	VERB	VERB	_	17	acl	_	TokenRange=200:208
+24	propinas	propina	NOUN	NOUN	_	23	obj	_	TokenRange=209:217
+25	alvo	alvo	NOUN	NOUN	_	24	flat	_	TokenRange=218:222
+26	denuncia	denunciar	VERB	VERB	_	5	conj	_	TokenRange=223:231
+27	senadores	senador	NOUN	NOUN	_	26	obj	_	TokenRange=232:241
+28	edison	edison	NOUN	NOUN	_	27	appos	_	TokenRange=242:248
+29	lobao	lobao	NOUN	NOUN	_	28	flat	_	TokenRange=249:254
+30	ma	_	CCONJ	CONJ	_	31	cc	_	TokenRange=255:257
+31	jader	jader	NOUN	NOUN	_	28	conj	_	TokenRange=258:263
+32	barbalho	barbalho	NOUN	NOUN	_	31	flat	_	TokenRange=264:272
+33	pa	_	NOUN	NOUN	_	34	case	_	TokenRange=273:275
+34	renan	_	NOUN	NOUN	_	31	nmod	_	TokenRange=276:281
+35	calheiros	calheiro	NOUN	NOUN	_	34	flat	_	TokenRange=282:291
+36	al	_	NOUN	NOUN	_	34	appos	_	TokenRange=292:294
+37	romero	romero	NOUN	NOUN	_	34	flat	_	TokenRange=295:301
+38	juca	juca	NOUN	NOUN	_	34	flat	_	TokenRange=302:306
+39	rr	_	NOUN	NOUN	_	40	flat	_	TokenRange=307:309
+40	valdir	valdir	NOUN	NOUN	_	31	appos	_	TokenRange=310:316
+41	raupp	_	NOUN	NOUN	_	40	flat	_	TokenRange=317:322
+42	ro	_	ADJ	NOUN	_	43	amod	_	TokenRange=323:325
+43	exsenadores	exsenador	NOUN	NOUN	_	40	conj	_	TokenRange=326:337
+44	jose	_	NOUN	NOUN	_	43	appos	_	TokenRange=338:342
+45	sarney	_	NOUN	NOUN	_	44	flat	_	TokenRange=343:349
+46	ap	_	X	X	_	47	flat	_	TokenRange=350:352
+47	sergio	_	NOUN	NOUN	_	44	conj	_	TokenRange=353:359
+48	machado	machado	ADJ	ADJ	_	47	flat	_	TokenRange=360:367
+49	ce	_	CCONJ	CONJ	_	51	nsubj	_	TokenRange=368:370
+50	janot	_	NOUN	NOUN	_	51	nsubj	_	TokenRange=371:376
+51	acusa	acusar	VERB	VERB	_	5	conj	_	TokenRange=377:382
+52	peemedebistas	_	NOUN	NOUN	_	51	obj	_	TokenRange=383:396
+53	receberem	receber	VERB	VERB	_	51	ccomp	_	TokenRange=397:406
+54	propina	propina	NOUN	NOUN	_	53	obj	_	TokenRange=407:414
+55	r	r	NOUN	NOUN	_	54	appos	_	TokenRange=415:416
+56	864	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=417:420
+57	milhoes	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=421:428
+58	causar	causar	VERB	VERB	_	53	ccomp	_	TokenRange=429:435
+59	rombo	rombo	NOUN	NOUN	_	58	obj	_	TokenRange=436:441
+60	r	r	NOUN	NOUN	_	59	flat	_	TokenRange=442:443
+61	55	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=444:446
+62	bilhoes	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=447:454
+63	petrobras	petrobra	NOUN	NOUN	_	59	appos	_	TokenRange=455:464
+64	r	r	NOUN	NOUN	_	63	appos	_	TokenRange=465:466
+65	113	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=467:470
+66	milhoes	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=471:478
+67	transpetro	transpetro	NOUN	NOUN	_	69	appos	_	TokenRange=479:489
+68	34	_	NUM	NUM	NumType=Card	67	appos	_	TokenRange=490:492
+69	denuncia	denunciar	NOUN	NOUN	_	58	parataxis	_	TokenRange=493:501
+70	procuradoria	procuradoria	NOUN	NOUN	_	69	obj	_	TokenRange=502:514
+71	ambito	ambito	NOUN	NOUN	_	70	flat	_	TokenRange=515:521
+72	operacao	operacao	NOUN	NOUN	_	70	appos	_	TokenRange=522:530
+73	lava	lava	NOUN	NOUN	_	70	appos	_	TokenRange=531:535
+74	jato	jato	NOUN	NOUN	_	73	flat	_	TokenRange=536:540
+75	perante	_	ADP	ADP	_	77	case	_	TokenRange=541:548
+76	supremo	supremo	ADJ	ADJ	_	77	amod	_	TokenRange=549:556
+77	informacoes	_	NOUN	NOUN	_	69	nmod	_	TokenRange=557:568
+78	site	site	NOUN	NOUN	_	69	appos	_	TokenRange=569:573
+79	procuradoriageral	procuradoriageral	ADJ	ADJ	_	82	amod	_	TokenRange=574:591
+80	republica	republico	ADJ	ADJ	_	78	amod	_	TokenRange=592:601
+81	segundo	segundo	ADJ	ADJ	_	82	amod	_	TokenRange=602:609
+82	procuradoria	procuradoria	NOUN	NOUN	_	69	appos	_	SpaceAfter=No|TokenRange=610:622
+

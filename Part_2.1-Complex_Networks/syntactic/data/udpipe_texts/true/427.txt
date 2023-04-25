@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bradesco lanca espaco inovacao reune startups grandes empresas veja video inovabra habitat fica paulo criado incentivar desenvolvimento novas tecnologias banco gerar negocios objetivo impulsionar desenvolvimento tecnologias ajudem transformar negocio bradesco inaugurou quartafeira 7 paulo inovabra espaco inovacao compartilhada
+1	bradesco	bradesco	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	lanca	lancar	VERB	VERB	_	30	acl:relcl	_	TokenRange=9:14
+3	espaco	espaco	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+4	inovacao	inovacao	ADJ	ADJ	_	3	amod	_	TokenRange=22:30
+5	reune	_	VERB	VERB	_	2	parataxis	_	TokenRange=31:36
+6	startups	_	NOUN	NOUN	_	5	obj	_	TokenRange=37:45
+7	grandes	grande	ADJ	ADJ	_	8	amod	_	TokenRange=46:53
+8	empresas	empresa	NOUN	NOUN	_	6	appos	_	TokenRange=54:62
+9	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=63:67
+10	video	video	NOUN	NOUN	_	9	obj	_	TokenRange=68:73
+11	inovabra	_	NOUN	NOUN	_	10	appos	_	TokenRange=74:82
+12	habitat	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=83:90
+13	fica	ficar	VERB	VERB	_	10	acl:relcl	_	TokenRange=91:95
+14	paulo	paulo	NOUN	NOUN	_	13	nsubj	_	TokenRange=96:101
+15	criado	criado	ADJ	ADJ	_	14	amod	_	TokenRange=102:108
+16	incentivar	incentivar	VERB	VERB	_	13	ccomp	_	TokenRange=109:119
+17	desenvolvimento	desenvolvimento	NOUN	NOUN	_	16	obj	_	TokenRange=120:135
+18	novas	novo	ADJ	ADJ	_	19	amod	_	TokenRange=136:141
+19	tecnologias	tecnologia	NOUN	NOUN	_	17	appos	_	TokenRange=142:153
+20	banco	banco	NOUN	NOUN	_	21	nsubj	_	TokenRange=154:159
+21	gerar	gerar	VERB	VERB	_	19	acl:relcl	_	TokenRange=160:165
+22	negocios	negocio	NOUN	NOUN	_	21	obj	_	TokenRange=166:174
+23	objetivo	objetivo	NOUN	NOUN	_	22	flat	_	TokenRange=175:183
+24	impulsionar	impulsionar	VERB	VERB	_	22	acl:inf	_	TokenRange=184:195
+25	desenvolvimento	desenvolvimento	NOUN	NOUN	_	24	obj	_	TokenRange=196:211
+26	tecnologias	tecnologia	NOUN	NOUN	_	25	amod	_	TokenRange=212:223
+27	ajudem	ajudar	VERB	VERB	_	21	parataxis	_	TokenRange=224:230
+28	transformar	transformar	VERB	VERB	_	27	xcomp	_	TokenRange=231:242
+29	negocio	negocio	NOUN	NOUN	_	28	obj	_	TokenRange=243:250
+30	bradesco	bradesco	NOUN	NOUN	_	36	appos	_	TokenRange=251:259
+31	inaugurou	inaugurar	VERB	VERB	_	0	root	_	TokenRange=260:269
+32	quartafeira	quartafeira	NOUN	NOUN	_	31	obj	_	TokenRange=270:281
+33	7	_	NUM	NUM	NumType=Card	32	appos	_	TokenRange=282:283
+34	paulo	paulo	NOUN	NOUN	_	32	appos	_	TokenRange=284:289
+35	inovabra	inovabro	ADJ	ADJ	_	36	amod	_	TokenRange=290:298
+36	espaco	espaco	NOUN	NOUN	_	31	obj	_	TokenRange=299:305
+37	inovacao	inovacao	ADJ	ADJ	_	36	amod	_	TokenRange=306:314
+38	compartilhada	compartilhar	VERB	VERB	_	36	acl	_	SpaceAfter=No|TokenRange=315:328
+

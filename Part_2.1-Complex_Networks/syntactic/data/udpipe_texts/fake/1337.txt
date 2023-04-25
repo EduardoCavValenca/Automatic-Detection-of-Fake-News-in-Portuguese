@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = policiais invadem congresso nacional protesto contra reforma previdencia policia x policia sindicalistas invadiram chapelaria local onde senadores deputados entram congresso varios policiais conseguiram passar porta principal entraram confronto policia legislativa protestam contra reforma previdencia imposta governo temer videos abaixo diego amorim
+1	policiais	policial	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	invadem	invadir	VERB	VERB	_	0	root	_	TokenRange=10:17
+3	congresso	congresso	NOUN	NOUN	_	2	obj	_	TokenRange=18:27
+4	nacional	nacional	ADJ	ADJ	_	3	amod	_	TokenRange=28:36
+5	protesto	protesto	NOUN	NOUN	_	2	obj	_	TokenRange=37:45
+6	contra	_	ADP	ADP	_	7	case	_	TokenRange=46:52
+7	reforma	reforma	NOUN	NOUN	_	5	nmod	_	TokenRange=53:60
+8	previdencia	previdencio	ADJ	ADJ	_	7	amod	_	TokenRange=61:72
+9	policia	policia	NOUN	NOUN	_	7	appos	_	TokenRange=73:80
+10	x	_	PUNCT	.	_	11	punct	_	TokenRange=81:82
+11	policia	policia	NOUN	NOUN	_	13	nsubj	_	TokenRange=83:90
+12	sindicalistas	sindicalista	ADJ	ADJ	_	11	amod	_	TokenRange=91:104
+13	invadiram	invadir	VERB	VERB	_	2	conj	_	TokenRange=105:114
+14	chapelaria	chapelaria	NOUN	NOUN	_	13	obj	_	TokenRange=115:125
+15	local	local	ADJ	ADJ	_	14	amod	_	TokenRange=126:131
+16	onde	onde	ADV	ADV	_	19	advmod	_	TokenRange=132:136
+17	senadores	senador	NOUN	NOUN	_	19	nsubj	_	TokenRange=137:146
+18	deputados	deputado	ADJ	ADJ	_	17	amod	_	TokenRange=147:156
+19	entram	entrar	VERB	VERB	_	14	acl:relcl	_	TokenRange=157:163
+20	congresso	congresso	NOUN	NOUN	_	19	obj	_	TokenRange=164:173
+21	varios	_	DET	DET	_	22	det	_	TokenRange=174:180
+22	policiais	policial	NOUN	NOUN	_	23	nsubj	_	TokenRange=181:190
+23	conseguiram	conseguir	VERB	VERB	_	19	conj	_	TokenRange=191:202
+24	passar	passar	VERB	VERB	_	23	xcomp	_	TokenRange=203:209
+25	porta	porta	NOUN	NOUN	_	24	obj	_	TokenRange=210:215
+26	principal	principal	ADJ	ADJ	_	25	amod	_	TokenRange=216:225
+27	entraram	entrar	VERB	VERB	_	23	parataxis	_	TokenRange=226:234
+28	confronto	confronto	NOUN	NOUN	_	27	obj	_	TokenRange=235:244
+29	policia	policia	NOUN	NOUN	_	31	nsubj	_	TokenRange=245:252
+30	legislativa	legislativo	ADJ	ADJ	_	29	amod	_	TokenRange=253:264
+31	protestam	protestar	VERB	VERB	_	27	parataxis	_	TokenRange=265:274
+32	contra	_	ADP	ADP	_	33	case	_	TokenRange=275:281
+33	reforma	reforma	NOUN	NOUN	_	31	nmod	_	TokenRange=282:289
+34	previdencia	previdencia	NOUN	NOUN	_	33	flat	_	TokenRange=290:301
+35	imposta	_	ADJ	ADJ	_	36	amod	_	TokenRange=302:309
+36	governo	governo	NOUN	NOUN	_	33	appos	_	TokenRange=310:317
+37	temer	temer	VERB	VERB	_	31	parataxis	_	TokenRange=318:323
+38	videos	video	NOUN	NOUN	_	37	obj	_	TokenRange=324:330
+39	abaixo	abaixo	ADV	ADV	_	40	advmod	_	TokenRange=331:337
+40	diego	diego	NOUN	NOUN	_	38	appos	_	TokenRange=338:343
+41	amorim	amorim	NOUN	NOUN	_	40	flat	_	SpaceAfter=No|TokenRange=344:350
+

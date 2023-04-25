@@ -1,0 +1,29 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = loira opressora desmascara dilma cunha fala tudo engasgado garganta povo aplausos loira opressora falou muita coisa engasgada garganta brasileiros confira video
+1	loira	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	opressora	opressor	NOUN	NOUN	_	1	amod	_	TokenRange=6:15
+3	desmascara	desmascarar	VERB	VERB	_	0	root	_	TokenRange=16:26
+4	dilma	dilma	NOUN	NOUN	_	3	obj	_	TokenRange=27:32
+5	cunha	_	ADP	ADP	_	6	case	_	TokenRange=33:38
+6	fala	_	NOUN	NOUN	_	4	nmod	_	TokenRange=39:43
+7	tudo	_	PRON	PRON	_	8	nsubj	_	TokenRange=44:48
+8	engasgado	engasgado	ADJ	ADJ	_	6	amod	_	TokenRange=49:58
+9	garganta	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=59:67
+10	povo	povo	NOUN	NOUN	_	9	appos	_	TokenRange=68:72
+11	aplausos	aplauso	ADJ	ADJ	_	12	amod	_	TokenRange=73:81
+12	loira	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=82:87
+13	opressora	opressor	ADJ	ADJ	_	12	amod	_	TokenRange=88:97
+14	falou	falar	VERB	VERB	_	3	conj	_	TokenRange=98:103
+15	muita	_	DET	DET	_	16	det	_	TokenRange=104:109
+16	coisa	coisa	NOUN	NOUN	_	14	obj	_	TokenRange=110:115
+17	engasgada	engasgado	ADJ	ADJ	_	16	amod	_	TokenRange=116:125
+18	garganta	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=126:134
+19	brasileiros	brasileiro	NOUN	NOUN	_	18	amod	_	TokenRange=135:146
+20	confira	conferir	VERB	VERB	_	3	conj	_	TokenRange=147:154
+21	video	video	NOUN	NOUN	_	20	obj	_	SpaceAfter=No|TokenRange=155:160
+

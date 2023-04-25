@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos rebeliao secretario seguranca goias diz faccoes criminosas comandam presidios declaracao dada dois dias apos motim deixar nove mortos aparecida goiania secretario seguranca publica administracao penitenciaria goias ricardo balestreri disse nesta quartafeira 3 presidios comandados faccoes criminosas segundo servidores sistema prisional atuam conter questao possuem instrumentos funcao declaracao dada rebeliao deixou nove mortos colonia agroindustrial regime semiaberto aparecida goiania regiao
+1	apos	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	rebeliao	rebeliao	NOUN	NOUN	_	6	nmod	_	TokenRange=5:13
+3	secretario	secretario	NOUN	NOUN	_	6	nsubj	_	TokenRange=14:24
+4	seguranca	_	ADJ	ADJ	_	3	amod	_	TokenRange=25:34
+5	goias	goia	NOUN	NOUN	_	3	flat	_	TokenRange=35:40
+6	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=41:44
+7	faccoes	faccoe	NOUN	NOUN	_	6	obj	_	TokenRange=45:52
+8	criminosas	criminoso	ADJ	ADJ	_	7	amod	_	TokenRange=53:63
+9	comandam	comandar	VERB	VERB	_	6	ccomp	_	TokenRange=64:72
+10	presidios	presidio	NOUN	NOUN	_	9	obj	_	TokenRange=73:82
+11	declaracao	declaracao	NOUN	NOUN	_	9	parataxis	_	TokenRange=83:93
+12	dada	_	ADJ	ADJ	_	11	amod	_	TokenRange=94:98
+13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=99:103
+14	dias	dia	NOUN	NOUN	_	17	nmod	_	TokenRange=104:108
+15	apos	_	ADP	ADP	_	16	case	_	TokenRange=109:113
+16	motim	motim	NOUN	NOUN	_	17	nsubj	_	TokenRange=114:119
+17	deixar	deixar	VERB	VERB	_	9	advcl	_	TokenRange=120:126
+18	nove	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=127:131
+19	mortos	morto	NOUN	NOUN	_	17	obj	_	TokenRange=132:138
+20	aparecida	aparecido	ADJ	ADJ	_	19	amod	_	TokenRange=139:148
+21	goiania	goiania	NOUN	NOUN	_	17	nsubj	_	TokenRange=149:156
+22	secretario	_	NOUN	NOUN	_	19	appos	_	TokenRange=157:167
+23	seguranca	_	NOUN	NOUN	_	22	appos	_	TokenRange=168:177
+24	publica	publico	ADJ	ADJ	_	25	amod	_	TokenRange=178:185
+25	administracao	administracao	NOUN	NOUN	_	22	appos	_	TokenRange=186:199
+26	penitenciaria	penitenciaria	ADJ	ADJ	_	25	amod	_	TokenRange=200:213
+27	goias	goia	ADJ	ADJ	_	25	amod	_	TokenRange=214:219
+28	ricardo	ricardo	NOUN	NOUN	_	25	appos	_	TokenRange=220:227
+29	balestreri	balestreri	NOUN	NOUN	_	25	appos	_	TokenRange=228:238
+30	disse	dizer	VERB	VERB	_	6	parataxis	_	TokenRange=239:244
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=245:250
+32	quartafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=251:262
+33	3	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=263:264
+34	presidios	presidio	NOUN	NOUN	_	30	obj	_	TokenRange=265:274
+35	comandados	comandar	VERB	VERB	_	34	acl	_	TokenRange=275:285
+36	faccoes	faccoe	NOUN	NOUN	_	35	nsubj	_	TokenRange=286:293
+37	criminosas	criminoso	ADJ	ADJ	_	36	amod	_	TokenRange=294:304
+38	segundo	_	ADP	ADP	_	39	case	_	TokenRange=305:312
+39	servidores	servidor	NOUN	NOUN	_	42	nmod	_	TokenRange=313:323
+40	sistema	sistema	NOUN	NOUN	_	39	appos	_	TokenRange=324:331
+41	prisional	prisional	ADJ	ADJ	_	40	amod	_	TokenRange=332:341
+42	atuam	_	VERB	VERB	_	30	ccomp	_	TokenRange=342:347
+43	conter	conter	VERB	VERB	_	42	xcomp	_	TokenRange=348:354
+44	questao	questao	NOUN	NOUN	_	43	obj	_	TokenRange=355:362
+45	possuem	possuir	VERB	VERB	_	44	acl:relcl	_	TokenRange=363:370
+46	instrumentos	instrumento	NOUN	NOUN	_	45	obj	_	TokenRange=371:383
+47	funcao	funcao	ADJ	ADJ	_	48	amod	_	TokenRange=384:390
+48	declaracao	declaracao	NOUN	NOUN	_	45	nsubj	_	TokenRange=391:401
+49	dada	dado	ADJ	ADJ	_	48	amod	_	TokenRange=402:406
+50	rebeliao	rebeliao	NOUN	NOUN	_	51	nsubj	_	TokenRange=407:415
+51	deixou	deixar	VERB	VERB	_	30	parataxis	_	TokenRange=416:422
+52	nove	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=423:427
+53	mortos	morto	NOUN	NOUN	_	51	obj	_	TokenRange=428:434
+54	colonia	colonia	NOUN	NOUN	_	51	obj	_	TokenRange=435:442
+55	agroindustrial	agroindustrial	ADJ	ADJ	_	56	amod	_	TokenRange=443:457
+56	regime	regime	NOUN	NOUN	_	51	obj	_	TokenRange=458:464
+57	semiaberto	semiaberto	ADJ	ADJ	_	56	amod	_	TokenRange=465:475
+58	aparecida	aparecido	ADJ	ADJ	_	51	xcomp	_	TokenRange=476:485
+59	goiania	goiania	NOUN	NOUN	_	51	parataxis	_	TokenRange=486:493
+60	regiao	regiao	NOUN	NOUN	_	59	flat	_	SpaceAfter=No|TokenRange=494:500
+

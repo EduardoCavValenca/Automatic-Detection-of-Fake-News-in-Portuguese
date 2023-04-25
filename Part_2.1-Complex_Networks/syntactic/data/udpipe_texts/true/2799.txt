@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil fecha 208 mil postos formais trabalho 2017 diz governo terceiro ano consecutivo numero demissoes superou criacao vagas carteira assinada pais apesar negativo resultado melhor desde 2014 economia brasileira fechou ano passado 20832 postos trabalho formais carteira assinada informou nesta sextafeira 26 ministerio trabalho terceiro ano consecutivo
+1	brasil	brasil	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	fecha	fechar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	208	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=13:16
+4	mil	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=17:20
+5	postos	posto	NOUN	NOUN	_	2	obj	_	TokenRange=21:27
+6	formais	formal	ADJ	ADJ	_	5	amod	_	TokenRange=28:35
+7	trabalho	trabalho	NOUN	NOUN	_	5	appos	_	TokenRange=36:44
+8	2017	_	NUM	NUM	NumType=Card	9	nsubj	_	TokenRange=45:49
+9	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=50:53
+10	governo	governo	NOUN	NOUN	_	9	obj	_	TokenRange=54:61
+11	terceiro	_	ADJ	ADJ	_	12	amod	_	TokenRange=62:70
+12	ano	ano	NOUN	NOUN	_	9	nmod	_	TokenRange=71:74
+13	consecutivo	consecutivo	ADJ	ADJ	_	12	amod	_	TokenRange=75:86
+14	numero	_	NOUN	NOUN	_	15	det	_	TokenRange=87:93
+15	demissoes	demissoe	NOUN	NOUN	_	16	nsubj	_	TokenRange=94:103
+16	superou	superar	VERB	VERB	_	2	parataxis	_	TokenRange=104:111
+17	criacao	criacao	NOUN	NOUN	_	16	obj	_	TokenRange=112:119
+18	vagas	vago	ADJ	ADJ	_	17	amod	_	TokenRange=120:125
+19	carteira	_	NOUN	NOUN	_	16	obj	_	TokenRange=126:134
+20	assinada	assinado	ADJ	ADJ	_	19	amod	_	TokenRange=135:143
+21	pais	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=144:148
+22	apesar	apesar	ADV	ADV	_	23	advmod	_	TokenRange=149:155
+23	negativo	negativo	ADJ	ADJ	_	24	amod	_	TokenRange=156:164
+24	resultado	resultado	NOUN	NOUN	_	16	nsubj	_	TokenRange=165:174
+25	melhor	melhor	ADJ	ADJ	_	24	amod	_	TokenRange=175:181
+26	desde	_	ADP	ADP	_	28	case	_	TokenRange=182:187
+27	2014	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=188:192
+28	economia	economia	NOUN	NOUN	_	30	nsubj	_	TokenRange=193:201
+29	brasileira	brasileiro	ADJ	ADJ	_	28	amod	_	TokenRange=202:212
+30	fechou	fechar	VERB	VERB	_	2	conj	_	TokenRange=213:219
+31	ano	ano	NOUN	NOUN	_	30	nmod	_	TokenRange=220:223
+32	passado	passado	ADJ	ADJ	_	31	amod	_	TokenRange=224:231
+33	20832	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=232:237
+34	postos	posto	NOUN	NOUN	_	30	obj	_	TokenRange=238:244
+35	trabalho	trabalho	NOUN	NOUN	_	34	flat	_	TokenRange=245:253
+36	formais	formal	ADJ	ADJ	_	34	amod	_	TokenRange=254:261
+37	carteira	_	NOUN	NOUN	_	34	appos	_	TokenRange=262:270
+38	assinada	assinado	ADJ	ADJ	_	37	amod	_	TokenRange=271:279
+39	informou	informar	VERB	VERB	_	2	parataxis	_	TokenRange=280:288
+40	nesta	_	ADP	ADP	_	41	case	_	TokenRange=289:294
+41	sextafeira	_	NOUN	NOUN	_	39	nmod	_	TokenRange=295:305
+42	26	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=306:308
+43	ministerio	ministerio	NOUN	NOUN	_	39	obj	_	TokenRange=309:319
+44	trabalho	trabalho	NOUN	NOUN	_	43	flat	_	TokenRange=320:328
+45	terceiro	_	ADJ	ADJ	_	46	amod	_	TokenRange=329:337
+46	ano	ano	NOUN	NOUN	_	39	nmod	_	TokenRange=338:341
+47	consecutivo	consecutivo	ADJ	ADJ	_	46	amod	_	SpaceAfter=No|TokenRange=342:353
+

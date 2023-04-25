@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quase 100 mil lojas fechadas 2015 todos shoppings pais desaparecessem ano fechamento lojas varejo brasileiro atingiu 95 4 mil estabelecimentos 2015 informou confederacao nacional comercio bens servicos cnc avaliando setor diante maior crise registrada ultimos 15 anos levantamento evidencia dimensao crise varejo afetou todos setores inclusive grandes teoricamente capacidade enfrentar quadro recessivo alem disso chama atencao porque presente praticamente pais inteiro avalia fabio bentes economista cnc fechamento lojas diretamente associado queda volume vendas provocada desemprego altas precos custos diz entidade
+1	quase	quase	ADV	ADV	_	3	advmod	_	TokenRange=0:5
+2	100	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=6:9
+3	mil	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=10:13
+4	lojas	loja	NOUN	NOUN	_	16	nsubj	_	TokenRange=14:19
+5	fechadas	fechado	ADJ	ADJ	_	4	amod	_	TokenRange=20:28
+6	2015	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=29:33
+7	todos	_	DET	DET	_	8	det	_	TokenRange=34:39
+8	shoppings	shopping	NOUN	NOUN	_	10	nsubj	_	TokenRange=40:49
+9	pais	_	ADJ	ADJ	_	8	amod	_	TokenRange=50:54
+10	desaparecessem	desaparecer	VERB	VERB	_	4	acl:relcl	_	TokenRange=55:69
+11	ano	ano	NOUN	NOUN	_	10	nmod	_	TokenRange=70:73
+12	fechamento	fechamento	NOUN	NOUN	_	11	appos	_	TokenRange=74:84
+13	lojas	loja	NOUN	NOUN	_	10	nsubj	_	TokenRange=85:90
+14	varejo	varejo	NOUN	NOUN	_	13	flat	_	TokenRange=91:97
+15	brasileiro	brasileiro	ADJ	ADJ	_	14	amod	_	TokenRange=98:108
+16	atingiu	atingir	VERB	VERB	_	0	root	_	TokenRange=109:116
+17	95	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=117:119
+18	4	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=120:121
+19	mil	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=122:125
+20	estabelecimentos	estabelecimento	NOUN	NOUN	_	16	obj	_	TokenRange=126:142
+21	2015	_	NUM	NUM	NumType=Card	20	nmod	_	TokenRange=143:147
+22	informou	informar	VERB	VERB	_	16	parataxis	_	TokenRange=148:156
+23	confederacao	confederacao	NOUN	NOUN	_	22	obj	_	TokenRange=157:169
+24	nacional	nacional	ADJ	ADJ	_	23	amod	_	TokenRange=170:178
+25	comercio	_	NOUN	NOUN	_	23	appos	_	TokenRange=179:187
+26	bens	bem	NOUN	NOUN	_	25	flat	_	TokenRange=188:192
+27	servicos	servico	ADJ	ADJ	_	26	amod	_	TokenRange=193:201
+28	cnc	cnc	NOUN	NOUN	_	29	nsubj	_	TokenRange=202:205
+29	avaliando	avaliar	VERB	VERB	_	16	acl	_	TokenRange=206:215
+30	setor	setor	NOUN	NOUN	_	29	obj	_	TokenRange=216:221
+31	diante	diante	ADV	ADV	_	33	advmod	_	TokenRange=222:228
+32	maior	maior	ADJ	ADJ	_	33	amod	_	TokenRange=229:234
+33	crise	crise	NOUN	NOUN	_	30	appos	_	TokenRange=235:240
+34	registrada	registrar	VERB	VERB	_	33	acl	_	TokenRange=241:251
+35	ultimos	_	ADJ	ADJ	_	37	amod	_	TokenRange=252:259
+36	15	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=260:262
+37	anos	ano	NOUN	NOUN	_	34	nmod	_	TokenRange=263:267
+38	levantamento	levantamento	NOUN	NOUN	_	43	nsubj	_	TokenRange=268:280
+39	evidencia	_	NOUN	NOUN	_	38	appos	_	TokenRange=281:290
+40	dimensao	dimensao	ADJ	ADJ	_	41	amod	_	TokenRange=291:299
+41	crise	crise	NOUN	NOUN	_	43	nsubj	_	TokenRange=300:305
+42	varejo	varejo	NOUN	NOUN	_	41	amod	_	TokenRange=306:312
+43	afetou	afetar	VERB	VERB	_	29	conj	_	TokenRange=313:319
+44	todos	_	DET	DET	_	45	det	_	TokenRange=320:325
+45	setores	setor	NOUN	NOUN	_	43	obj	_	TokenRange=326:333
+46	inclusive	inclusive	ADV	ADV	_	47	advmod	_	TokenRange=334:343
+47	grandes	grande	ADJ	ADJ	_	45	amod	_	TokenRange=344:351
+48	teoricamente	teoricamente	ADV	ADV	_	49	advmod	_	TokenRange=352:364
+49	capacidade	capacidade	NOUN	NOUN	_	43	obj	_	TokenRange=365:375
+50	enfrentar	enfrentar	VERB	VERB	_	49	acl:inf	_	TokenRange=376:385
+51	quadro	quadro	NOUN	NOUN	_	50	obj	_	TokenRange=386:392
+52	recessivo	recessivo	ADJ	ADJ	_	51	amod	_	TokenRange=393:402
+53	alem	alem	ADV	ADV	_	55	advmod	_	TokenRange=403:407
+54	disso	_	X	ADPPRON	_	53	nmod	_	TokenRange=408:413
+55	chama	chamar	VERB	VERB	_	43	parataxis	_	TokenRange=414:419
+56	atencao	atencao	NOUN	NOUN	_	55	obj	_	TokenRange=420:427
+57	porque	_	CCONJ	CONJ	_	62	mark	_	TokenRange=428:434
+58	presente	presente	VERB	VERB	_	62	advcl	_	TokenRange=435:443
+59	praticamente	praticamente	ADV	ADV	_	60	advmod	_	TokenRange=444:456
+60	pais	_	NOUN	NOUN	_	58	nsubj	_	TokenRange=457:461
+61	inteiro	inteiro	ADJ	ADJ	_	60	amod	_	TokenRange=462:469
+62	avalia	avaliar	VERB	VERB	_	55	advcl	_	TokenRange=470:476
+63	fabio	fabio	NOUN	NOUN	_	62	obj	_	TokenRange=477:482
+64	bentes	bente	NOUN	NOUN	_	63	flat	_	TokenRange=483:489
+65	economista	economista	ADJ	NOUN	_	63	amod	_	TokenRange=490:500
+66	cnc	_	X	X	_	63	appos	_	TokenRange=501:504
+67	fechamento	fechamento	NOUN	NOUN	_	63	appos	_	TokenRange=505:515
+68	lojas	loja	NOUN	NOUN	_	63	appos	_	TokenRange=516:521
+69	diretamente	diretamente	ADV	ADV	_	70	advmod	_	TokenRange=522:533
+70	associado	associar	ADJ	ADJ	_	68	amod	_	TokenRange=534:543
+71	queda	queda	NOUN	NOUN	_	67	appos	_	TokenRange=544:549
+72	volume	volume	NOUN	NOUN	_	71	flat	_	TokenRange=550:556
+73	vendas	venda	NOUN	NOUN	_	71	appos	_	TokenRange=557:563
+74	provocada	provocar	VERB	VERB	_	73	acl	_	TokenRange=564:573
+75	desemprego	desemprego	NOUN	NOUN	_	74	obj	_	TokenRange=574:584
+76	altas	alto	ADJ	ADJ	_	78	amod	_	TokenRange=585:590
+77	precos	preco	ADJ	ADJ	_	78	amod	_	TokenRange=591:597
+78	custos	custo	NOUN	NOUN	_	74	nsubj	_	TokenRange=598:604
+79	diz	dizer	VERB	VERB	_	55	parataxis	_	TokenRange=605:608
+80	entidade	entidade	NOUN	NOUN	_	79	obj	_	SpaceAfter=No|TokenRange=609:617
+

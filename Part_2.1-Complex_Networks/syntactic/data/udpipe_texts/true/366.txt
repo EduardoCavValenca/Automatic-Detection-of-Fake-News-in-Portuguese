@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alto indice assaltos levou correios restringirem entregarem produtos quase terco cidade paulo afeta vida cerca 45 milhoes pessoas problemas distribuicao metade distritos capital 57 96 existentes principalmente periferia onde restricao chega 9996 ruas itaim paulista zona leste dados integram levantamento inedito feito folha base sistema informacoes correios reportagem analisou situacao entrega
+1	alto	alto	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	indice	indice	NOUN	NOUN	_	49	nsubj	_	TokenRange=5:11
+3	assaltos	assalto	NOUN	NOUN	_	2	appos	_	TokenRange=12:20
+4	levou	levar	VERB	VERB	_	2	acl:relcl	_	TokenRange=21:26
+5	correios	correio	NOUN	NOUN	_	4	obj	_	TokenRange=27:35
+6	restringirem	restringir	VERB	VERB	_	4	ccomp	_	TokenRange=36:48
+7	entregarem	entregar	VERB	VERB	_	6	xcomp	_	TokenRange=49:59
+8	produtos	produto	NOUN	NOUN	_	7	obj	_	TokenRange=60:68
+9	quase	quase	ADV	ADV	_	10	advmod	_	TokenRange=69:74
+10	terco	terco	ADJ	ADJ	_	11	amod	_	TokenRange=75:80
+11	cidade	cidade	NOUN	NOUN	_	4	obj	_	TokenRange=81:87
+12	paulo	paulo	ADJ	ADJ	_	11	amod	_	TokenRange=88:93
+13	afeta	afetar	VERB	VERB	_	4	parataxis	_	TokenRange=94:99
+14	vida	vida	NOUN	NOUN	_	13	obj	_	TokenRange=100:104
+15	cerca	cerca	ADV	ADV	_	17	advmod	_	TokenRange=105:110
+16	45	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=111:113
+17	milhoes	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=114:121
+18	pessoas	pessoa	NOUN	NOUN	_	14	appos	_	TokenRange=122:129
+19	problemas	problema	NOUN	NOUN	_	18	appos	_	TokenRange=130:139
+20	distribuicao	distribuicao	ADJ	ADJ	_	21	amod	_	TokenRange=140:152
+21	metade	metade	NOUN	NOUN	_	18	appos	_	TokenRange=153:159
+22	distritos	distrito	NOUN	NOUN	_	21	appos	_	TokenRange=160:169
+23	capital	capital	NOUN	NOUN	_	21	amod	_	TokenRange=170:177
+24	57	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=178:180
+25	96	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=181:183
+26	existentes	existente	ADJ	ADJ	_	21	amod	_	TokenRange=184:194
+27	principalmente	principalmente	ADV	ADV	_	28	advmod	_	TokenRange=195:209
+28	periferia	periferia	NOUN	NOUN	_	26	appos	_	TokenRange=210:219
+29	onde	onde	ADV	ADV	_	31	advmod	_	TokenRange=220:224
+30	restricao	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=225:234
+31	chega	chegar	VERB	VERB	_	28	acl:relcl	_	TokenRange=235:240
+32	9996	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=241:245
+33	ruas	rua	NOUN	NOUN	_	31	nsubj	_	TokenRange=246:250
+34	itaim	itaim	NOUN	NOUN	_	33	appos	_	TokenRange=251:256
+35	paulista	paulista	ADJ	ADJ	_	36	amod	_	TokenRange=257:265
+36	zona	zona	NOUN	NOUN	_	31	nsubj	_	TokenRange=266:270
+37	leste	leste	ADJ	ADJ	_	36	amod	_	TokenRange=271:276
+38	dados	dado	NOUN	NOUN	_	39	nsubj	_	TokenRange=277:282
+39	integram	integrar	VERB	VERB	_	28	acl:relcl	_	TokenRange=283:291
+40	levantamento	levantamento	NOUN	NOUN	_	39	obj	_	TokenRange=292:304
+41	inedito	inedito	ADJ	ADJ	_	40	amod	_	TokenRange=305:312
+42	feito	_	VERB	VERB	_	40	acl	_	TokenRange=313:318
+43	folha	folha	NOUN	NOUN	_	42	obj	_	TokenRange=319:324
+44	base	base	NOUN	NOUN	_	43	flat	_	TokenRange=325:329
+45	sistema	sistema	ADJ	ADJ	_	43	amod	_	TokenRange=330:337
+46	informacoes	informacoe	NOUN	NOUN	_	43	appos	_	TokenRange=338:349
+47	correios	correio	ADJ	ADJ	_	48	amod	_	TokenRange=350:358
+48	reportagem	reportagem	NOUN	NOUN	_	46	appos	_	TokenRange=359:369
+49	analisou	analisar	VERB	VERB	_	0	root	_	TokenRange=370:378
+50	situacao	situacao	NOUN	NOUN	_	49	obj	_	TokenRange=379:387
+51	entrega	entrega	NOUN	NOUN	_	50	flat	_	SpaceAfter=No|TokenRange=388:395
+

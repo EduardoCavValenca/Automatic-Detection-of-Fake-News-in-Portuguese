@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = milhares protestam russia apos incendio matou 41 criancas manifestantes acusam autoridades negligencia esconder real dimensao desastre ocorrido shopping siberia investigacoes apontam alarme desativado saidas emergencia bloqueadas meio rumores autoridades ocultado numero real vitimas fatais incendio shopping cidade kemerovo siberia luto populacao mistura protestos contra responsaveis centro comercial governo politicos milhares russos protestaram nesta tercafeira 27 praca central kemerovo culpando autoridades morte menos 64 pessoas incendio 41 criancas segundo informou agencia russa interfax incendio ocorrido ultimo domingo destruiu shopping zimnyaya vishnia lugar destino popular
+1	milhares	_	NUM	NUM	NumType=Card	2	nsubj	_	TokenRange=0:8
+2	protestam	protestar	VERB	VERB	_	0	root	_	TokenRange=9:18
+3	russia	russia	NOUN	NOUN	_	2	obj	_	TokenRange=19:25
+4	apos	_	ADP	ADP	_	5	case	_	TokenRange=26:30
+5	incendio	incendio	NOUN	NOUN	_	6	nsubj	_	TokenRange=31:39
+6	matou	matar	VERB	VERB	_	2	advcl	_	TokenRange=40:45
+7	41	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=46:48
+8	criancas	crianca	NOUN	NOUN	_	6	obj	_	TokenRange=49:57
+9	manifestantes	manifestante	ADJ	ADJ	_	8	amod	_	TokenRange=58:71
+10	acusam	acusar	VERB	VERB	_	2	parataxis	_	TokenRange=72:78
+11	autoridades	autoridade	NOUN	NOUN	_	10	obj	_	TokenRange=79:90
+12	negligencia	negligencia	NOUN	NOUN	_	11	amod	_	TokenRange=91:102
+13	esconder	esconder	VERB	VERB	_	2	ccomp	_	TokenRange=103:111
+14	real	real	ADJ	ADJ	_	15	amod	_	TokenRange=112:116
+15	dimensao	dimensao	NOUN	NOUN	_	13	obj	_	TokenRange=117:125
+16	desastre	desastre	NOUN	NOUN	_	13	obj	_	TokenRange=126:134
+17	ocorrido	ocorrer	VERB	VERB	_	16	acl	_	TokenRange=135:143
+18	shopping	shopping	NOUN	NOUN	_	21	nsubj	_	TokenRange=144:152
+19	siberia	siberia	NOUN	NOUN	_	18	flat	_	TokenRange=153:160
+20	investigacoes	investigacoe	NOUN	NOUN	_	18	appos	_	TokenRange=161:174
+21	apontam	apontar	VERB	VERB	_	2	parataxis	_	TokenRange=175:182
+22	alarme	alarme	NOUN	NOUN	_	21	obj	_	TokenRange=183:189
+23	desativado	desativado	ADJ	ADJ	_	22	amod	_	TokenRange=190:200
+24	saidas	saida	NOUN	NOUN	_	22	appos	_	TokenRange=201:207
+25	emergencia	emergencia	NOUN	NOUN	_	24	appos	_	TokenRange=208:218
+26	bloqueadas	bloquear	VERB	VERB	_	24	acl	_	TokenRange=219:229
+27	meio	meio	ADJ	ADJ	_	28	amod	_	TokenRange=230:234
+28	rumores	rumor	NOUN	NOUN	_	26	nsubj	_	TokenRange=235:242
+29	autoridades	autoridade	NOUN	NOUN	_	28	appos	_	TokenRange=243:254
+30	ocultado	ocultar	VERB	VERB	_	28	acl	_	TokenRange=255:263
+31	numero	numero	NOUN	NOUN	_	30	nsubj	_	TokenRange=264:270
+32	real	real	ADJ	ADJ	_	31	amod	_	TokenRange=271:275
+33	vitimas	vitima	NOUN	NOUN	_	31	appos	_	TokenRange=276:283
+34	fatais	fatal	ADJ	ADJ	_	33	amod	_	TokenRange=284:290
+35	incendio	incendio	NOUN	NOUN	_	33	appos	_	TokenRange=291:299
+36	shopping	shopping	NOUN	NOUN	_	35	appos	_	TokenRange=300:308
+37	cidade	cidade	NOUN	NOUN	_	35	appos	_	TokenRange=309:315
+38	kemerovo	kemerovo	ADJ	ADJ	_	37	amod	_	TokenRange=316:324
+39	siberia	siberia	NOUN	NOUN	_	35	appos	_	TokenRange=325:332
+40	luto	luto	NOUN	NOUN	_	52	nsubj	_	TokenRange=333:337
+41	populacao	populacao	NOUN	NOUN	_	40	amod	_	TokenRange=338:347
+42	mistura	misturar	VERB	VERB	_	52	parataxis	_	TokenRange=348:355
+43	protestos	protesto	NOUN	NOUN	_	42	obj	_	TokenRange=356:365
+44	contra	_	ADP	ADP	_	45	case	_	TokenRange=366:372
+45	responsaveis	responsavel	NOUN	NOUN	_	46	nmod	_	TokenRange=373:385
+46	centro	centro	NOUN	NOUN	_	43	nmod	_	TokenRange=386:392
+47	comercial	comercial	ADJ	ADJ	_	46	amod	_	TokenRange=393:402
+48	governo	governo	NOUN	NOUN	_	46	appos	_	TokenRange=403:410
+49	politicos	politico	ADJ	ADJ	_	46	amod	_	TokenRange=411:420
+50	milhares	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=421:429
+51	russos	russo	NOUN	NOUN	_	52	nsubj	_	TokenRange=430:436
+52	protestaram	protestar	VERB	VERB	_	2	parataxis	_	TokenRange=437:448
+53	nesta	_	ADP	ADP	_	54	case	_	TokenRange=449:454
+54	tercafeira	_	NOUN	NOUN	_	52	nmod	_	TokenRange=455:465
+55	27	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=466:468
+56	praca	praca	NOUN	NOUN	_	54	appos	_	TokenRange=469:474
+57	central	central	ADJ	ADJ	_	56	amod	_	TokenRange=475:482
+58	kemerovo	kemerovo	ADJ	ADJ	_	56	amod	_	TokenRange=483:491
+59	culpando	culpar	VERB	VERB	_	52	acl	_	TokenRange=492:500
+60	autoridades	autoridade	NOUN	NOUN	_	59	obj	_	TokenRange=501:512
+61	morte	morte	NOUN	NOUN	_	60	appos	_	TokenRange=513:518
+62	menos	menos	ADV	ADV	_	63	advmod	_	TokenRange=519:524
+63	64	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=525:527
+64	pessoas	pessoa	NOUN	NOUN	_	61	appos	_	TokenRange=528:535
+65	incendio	incendio	NOUN	NOUN	_	64	appos	_	TokenRange=536:544
+66	41	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=545:547
+67	criancas	crianca	NOUN	NOUN	_	65	appos	_	TokenRange=548:556
+68	segundo	_	CCONJ	CONJ	_	69	mark	_	TokenRange=557:564
+69	informou	informar	VERB	VERB	_	52	advcl	_	TokenRange=565:573
+70	agencia	agencia	NOUN	NOUN	_	69	nsubj	_	TokenRange=574:581
+71	russa	russo	ADJ	ADJ	_	70	amod	_	TokenRange=582:587
+72	interfax	_	NOUN	NOUN	_	70	appos	_	TokenRange=588:596
+73	incendio	incendio	NOUN	NOUN	_	77	nsubj	_	TokenRange=597:605
+74	ocorrido	ocorrer	VERB	VERB	_	73	acl	_	TokenRange=606:614
+75	ultimo	ultimo	ADJ	ADJ	_	76	amod	_	TokenRange=615:621
+76	domingo	domingo	PROPN	PNOUN	_	73	appos	_	TokenRange=622:629
+77	destruiu	destruir	VERB	VERB	_	70	acl:relcl	_	TokenRange=630:638
+78	shopping	shopping	NOUN	NOUN	_	77	obj	_	TokenRange=639:647
+79	zimnyaya	_	NOUN	NOUN	_	78	flat	_	TokenRange=648:656
+80	vishnia	_	ADJ	ADJ	_	81	amod	_	TokenRange=657:664
+81	lugar	lugar	NOUN	NOUN	_	77	obj	_	TokenRange=665:670
+82	destino	destino	NOUN	NOUN	_	81	appos	_	TokenRange=671:678
+83	popular	popular	ADJ	ADJ	_	81	amod	_	SpaceAfter=No|TokenRange=679:686
+

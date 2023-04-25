@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = valdemiro santiago sofre tentativa homicidio durante culto valdemiro santiago chefao igreja mundial poder deus sofreu atentado manha hoje tentativa homicidio aconteceu durante culto igrejas localizada bras zona sul paulo pessoa identificada deu duas facadas pescoco apostolo ataque aconteceu perto 8h manha pregacao sendo transmitida vivo santiago hospitalizado passou cirurgia levou cerca 20 pontos lado esposa bispa francileia valdemiro divulgou video hospital disse perdoa criminoso acabado ouvir milagre testemunho alguem entrou deu facada pescoco perdoo pessoa fez carece perdao leia
+1	valdemiro	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	santiago	santiago	NOUN	NOUN	_	1	flat	_	TokenRange=10:18
+3	sofre	sofrer	VERB	VERB	_	0	root	_	TokenRange=19:24
+4	tentativa	_	NOUN	NOUN	_	3	obj	_	TokenRange=25:34
+5	homicidio	homicidio	NOUN	NOUN	_	4	amod	_	TokenRange=35:44
+6	durante	_	ADP	ADP	_	7	case	_	TokenRange=45:52
+7	culto	culto	NOUN	NOUN	_	3	nmod	_	TokenRange=53:58
+8	valdemiro	_	NOUN	NOUN	_	7	appos	_	TokenRange=59:68
+9	santiago	santiago	NOUN	NOUN	_	8	flat	_	TokenRange=69:77
+10	chefao	chefao	VERB	VERB	_	11	acl:relcl	_	TokenRange=78:84
+11	igreja	igreja	NOUN	NOUN	_	3	obj	_	TokenRange=85:91
+12	mundial	mundial	ADJ	ADJ	_	11	amod	_	TokenRange=92:99
+13	poder	poder	NOUN	NOUN	_	11	appos	_	TokenRange=100:105
+14	deus	deu	NOUN	NOUN	_	13	flat	_	TokenRange=106:110
+15	sofreu	sofrer	VERB	VERB	_	3	parataxis	_	TokenRange=111:117
+16	atentado	atentado	NOUN	NOUN	_	15	obj	_	TokenRange=118:126
+17	manha	manha	NOUN	NOUN	_	16	appos	_	TokenRange=127:132
+18	hoje	hoje	ADV	ADV	_	21	advmod	_	TokenRange=133:137
+19	tentativa	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=138:147
+20	homicidio	homicidio	NOUN	NOUN	_	19	flat	_	TokenRange=148:157
+21	aconteceu	acontecer	VERB	VERB	_	3	parataxis	_	TokenRange=158:167
+22	durante	_	ADP	ADP	_	23	case	_	TokenRange=168:175
+23	culto	culto	NOUN	NOUN	_	21	nmod	_	TokenRange=176:181
+24	igrejas	igreja	NOUN	NOUN	_	21	nsubj	_	TokenRange=182:189
+25	localizada	localizado	ADJ	ADJ	_	24	acl	_	TokenRange=190:200
+26	bras	bra	NOUN	NOUN	_	27	amod	_	TokenRange=201:205
+27	zona	zona	NOUN	NOUN	_	24	appos	_	TokenRange=206:210
+28	sul	sul	ADJ	ADJ	_	27	amod	_	TokenRange=211:214
+29	paulo	paulo	NOUN	NOUN	_	30	det	_	TokenRange=215:220
+30	pessoa	pessoa	NOUN	NOUN	_	32	nsubj	_	TokenRange=221:227
+31	identificada	identificado	ADJ	ADJ	_	30	amod	_	TokenRange=228:240
+32	deu	dar	VERB	VERB	_	21	parataxis	_	TokenRange=241:244
+33	duas	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=245:249
+34	facadas	facada	NOUN	NOUN	_	32	obj	_	TokenRange=250:257
+35	pescoco	pescoco	NOUN	NOUN	_	34	appos	_	TokenRange=258:265
+36	apostolo	apostolo	NOUN	NOUN	_	35	flat	_	TokenRange=266:274
+37	ataque	ataque	NOUN	NOUN	_	35	appos	_	TokenRange=275:281
+38	aconteceu	acontecer	VERB	VERB	_	32	parataxis	_	TokenRange=282:291
+39	perto	perto	ADV	ADV	_	38	advmod	_	TokenRange=292:297
+40	8h	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=298:300
+41	manha	manha	NOUN	NOUN	_	38	nsubj	_	TokenRange=301:306
+42	pregacao	pregacao	NOUN	NOUN	_	38	nsubj	_	TokenRange=307:315
+43	sendo	ser	AUX	AUX	_	44	aux:pass	_	TokenRange=316:321
+44	transmitida	transmitir	VERB	VERB	_	38	acl	_	TokenRange=322:333
+45	vivo	vivo	ADJ	ADJ	_	44	xcomp	_	TokenRange=334:338
+46	santiago	santiago	NOUN	NOUN	_	44	nsubj:pass	_	TokenRange=339:347
+47	hospitalizado	hospitalizado	ADJ	ADJ	_	46	amod	_	TokenRange=348:361
+48	passou	passar	VERB	VERB	_	44	conj	_	TokenRange=362:368
+49	cirurgia	cirurgia	NOUN	NOUN	_	50	nsubj	_	TokenRange=369:377
+50	levou	levar	VERB	VERB	_	48	conj	_	TokenRange=378:383
+51	cerca	cerca	ADV	ADV	_	52	advmod	_	TokenRange=384:389
+52	20	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=390:392
+53	pontos	ponto	NOUN	NOUN	_	50	obj	_	TokenRange=393:399
+54	lado	lado	NOUN	NOUN	_	50	nsubj	_	TokenRange=400:404
+55	esposa	esposo	NOUN	NOUN	_	54	flat	_	TokenRange=405:411
+56	bispa	bispa	NOUN	NOUN	_	54	appos	_	TokenRange=412:417
+57	francileia	francileia	NOUN	NOUN	_	56	flat	_	TokenRange=418:428
+58	valdemiro	_	NOUN	NOUN	_	56	flat	_	TokenRange=429:438
+59	divulgou	divulgar	VERB	VERB	_	50	conj	_	TokenRange=439:447
+60	video	video	NOUN	NOUN	_	59	obj	_	TokenRange=448:453
+61	hospital	hospital	ADJ	ADJ	_	60	amod	_	TokenRange=454:462
+62	disse	dizer	VERB	VERB	_	59	parataxis	_	TokenRange=463:468
+63	perdoa	perdoa	NOUN	NOUN	_	62	obj	_	TokenRange=469:475
+64	criminoso	criminoso	ADJ	ADJ	_	63	amod	_	TokenRange=476:485
+65	acabado	acabar	ADJ	ADJ	_	66	aux	_	TokenRange=486:493
+66	ouvir	ouvir	VERB	VERB	_	63	acl	_	TokenRange=494:499
+67	milagre	milagre	NOUN	NOUN	_	66	obj	_	TokenRange=500:507
+68	testemunho	testemunho	NOUN	NOUN	_	67	appos	_	TokenRange=508:518
+69	alguem	_	PRON	PRON	_	70	nsubj	_	TokenRange=519:525
+70	entrou	entrar	VERB	VERB	_	71	aux	_	TokenRange=526:532
+71	deu	dar	VERB	VERB	_	66	conj	_	TokenRange=533:536
+72	facada	facada	NOUN	NOUN	_	71	obj	_	TokenRange=537:543
+73	pescoco	pescoco	NOUN	NOUN	_	72	appos	_	TokenRange=544:551
+74	perdoo	perdoo	ADJ	ADJ	_	75	amod	_	TokenRange=552:558
+75	pessoa	pessoa	NOUN	NOUN	_	76	nsubj	_	TokenRange=559:565
+76	fez	fazer	VERB	VERB	_	71	conj	_	TokenRange=566:569
+77	carece	carecer	VERB	VERB	_	76	ccomp	_	TokenRange=570:576
+78	perdao	perdao	NOUN	NOUN	_	77	obj	_	TokenRange=577:583
+79	leia	leia	ADJ	ADJ	_	78	amod	_	SpaceAfter=No|TokenRange=584:588
+

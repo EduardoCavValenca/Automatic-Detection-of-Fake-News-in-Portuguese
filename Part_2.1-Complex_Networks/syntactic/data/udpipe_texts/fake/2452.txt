@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dona magazine luiza leva tombo tocha olimpica interior sp acidente aconteceu agora noite 19/07 trajano conduzia fogo olimpico correndo apos minuto percurso sentiu cansada tentar retomar ritmo resistiu caiu chao empresaria ajudada agentes forca nacional recompos completou percurso 200 metros
+1	dona	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	magazine	_	NOUN	NOUN	_	1	flat	_	TokenRange=5:13
+3	luiza	_	NOUN	NOUN	_	1	appos	_	TokenRange=14:19
+4	leva	levar	VERB	VERB	_	0	root	_	TokenRange=20:24
+5	tombo	tombo	NOUN	NOUN	_	4	obj	_	TokenRange=25:30
+6	tocha	tocha	NOUN	NOUN	_	4	obj	_	TokenRange=31:36
+7	olimpica	olimpico	ADJ	ADJ	_	6	amod	_	TokenRange=37:45
+8	interior	interior	NOUN	NOUN	_	4	obj	_	TokenRange=46:54
+9	sp	_	CCONJ	CONJ	_	10	case	_	TokenRange=55:57
+10	acidente	acidente	NOUN	NOUN	_	11	nsubj	_	TokenRange=58:66
+11	aconteceu	acontecer	VERB	VERB	_	4	parataxis	_	TokenRange=67:76
+12	agora	agora	ADV	ADV	_	11	advmod	_	TokenRange=77:82
+13	noite	noite	NOUN	NOUN	_	11	nsubj	_	TokenRange=83:88
+14	19/07	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=89:94
+15	trajano	trajano	NOUN	NOUN	_	16	nsubj	_	TokenRange=95:102
+16	conduzia	conduzir	VERB	VERB	_	13	acl:relcl	_	TokenRange=103:111
+17	fogo	fogo	NOUN	NOUN	_	16	obj	_	TokenRange=112:116
+18	olimpico	olimpico	ADJ	ADJ	_	17	amod	_	TokenRange=117:125
+19	correndo	correr	VERB	VERB	_	16	acl	_	TokenRange=126:134
+20	apos	_	ADP	ADP	_	21	case	_	TokenRange=135:139
+21	minuto	minuto	NOUN	NOUN	_	19	nmod	_	TokenRange=140:146
+22	percurso	percurso	NOUN	NOUN	_	21	flat	_	TokenRange=147:155
+23	sentiu	sentir	VERB	VERB	_	16	parataxis	_	TokenRange=156:162
+24	cansada	cansado	ADJ	ADJ	_	23	xcomp	_	TokenRange=163:170
+25	tentar	tentar	VERB	VERB	_	23	csubj	_	TokenRange=171:177
+26	retomar	retomar	VERB	VERB	_	25	xcomp	_	TokenRange=178:185
+27	ritmo	ritmo	NOUN	NOUN	_	26	obj	_	TokenRange=186:191
+28	resistiu	resistir	VERB	VERB	_	27	acl:relcl	_	TokenRange=192:200
+29	caiu	cair	VERB	VERB	_	28	parataxis	_	TokenRange=201:205
+30	chao	chao	NOUN	NOUN	_	29	nsubj	_	TokenRange=206:210
+31	empresaria	empresaria	NOUN	NOUN	_	30	flat	_	TokenRange=211:221
+32	ajudada	ajudado	ADJ	ADJ	_	34	amod	_	TokenRange=222:229
+33	agentes	agente	ADJ	NOUN	_	34	amod	_	TokenRange=230:237
+34	forca	forca	NOUN	NOUN	_	30	appos	_	TokenRange=238:243
+35	nacional	nacional	ADJ	ADJ	_	34	amod	_	TokenRange=244:252
+36	recompos	recompo	ADJ	ADJ	_	34	amod	_	TokenRange=253:261
+37	completou	completar	VERB	VERB	_	23	conj	_	TokenRange=262:271
+38	percurso	percurso	NOUN	NOUN	_	37	obj	_	TokenRange=272:280
+39	200	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=281:284
+40	metros	metro	NOUN	NOUN	_	37	obj	_	SpaceAfter=No|TokenRange=285:291
+

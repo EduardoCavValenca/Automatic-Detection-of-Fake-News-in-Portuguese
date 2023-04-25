@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = familia consegue comprar protese crianca campo grande nasceu problema perna reportagem essencial alavancar ainda rifa familia isis deve andar sozinha partir 2018 apos dois anos vivendo ma formacao perna direita isis vitoria alves deve comecar andar sozinha ganhar protese familia conseguiu comprar
+1	familia	familia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	consegue	conseguir	VERB	VERB	_	0	root	_	TokenRange=8:16
+3	comprar	comprar	VERB	VERB	_	2	xcomp	_	TokenRange=17:24
+4	protese	protese	NOUN	NOUN	_	3	obj	_	TokenRange=25:32
+5	crianca	crianco	ADJ	ADJ	_	4	amod	_	TokenRange=33:40
+6	campo	campo	NOUN	NOUN	_	8	nsubj	_	TokenRange=41:46
+7	grande	grande	ADJ	ADJ	_	6	amod	_	TokenRange=47:53
+8	nasceu	nascer	VERB	VERB	_	2	parataxis	_	TokenRange=54:60
+9	problema	problema	NOUN	NOUN	_	8	obj	_	TokenRange=61:69
+10	perna	perna	ADJ	ADJ	_	9	amod	_	TokenRange=70:75
+11	reportagem	reportagem	NOUN	NOUN	_	9	appos	_	TokenRange=76:86
+12	essencial	essencial	ADJ	ADJ	_	11	amod	_	TokenRange=87:96
+13	alavancar	_	VERB	VERB	_	9	acl:relcl	_	TokenRange=97:106
+14	ainda	ainda	ADV	ADV	_	15	advmod	_	TokenRange=107:112
+15	rifa	rifo	ADJ	NOUN	_	13	xcomp	_	TokenRange=113:117
+16	familia	familia	NOUN	NOUN	_	19	nsubj	_	TokenRange=118:125
+17	isis	_	PRON	PRON	_	19	nsubj	_	TokenRange=126:130
+18	deve	dever	AUX	AUX	_	19	aux	_	TokenRange=131:135
+19	andar	andar	VERB	VERB	_	13	conj	_	TokenRange=136:141
+20	sozinha	só	ADJ	ADJ	_	19	xcomp	_	TokenRange=142:149
+21	partir	partir	VERB	VERB	_	19	advcl	_	TokenRange=150:156
+22	2018	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=157:161
+23	apos	_	VERB	VERB	_	26	mark	_	TokenRange=162:166
+24	dois	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=167:171
+25	anos	ano	NOUN	NOUN	_	26	nmod	_	TokenRange=172:176
+26	vivendo	viver	VERB	VERB	_	19	acl	_	TokenRange=177:184
+27	ma	_	DET	DET	_	28	det	_	TokenRange=185:187
+28	formacao	formacao	NOUN	NOUN	_	26	obj	_	TokenRange=188:196
+29	perna	perna	NOUN	NOUN	_	28	appos	_	TokenRange=197:202
+30	direita	direito	ADJ	ADJ	_	29	amod	_	TokenRange=203:210
+31	isis	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=211:215
+32	vitoria	vitoria	NOUN	NOUN	_	31	appos	_	TokenRange=216:223
+33	alves	alves	ADJ	ADJ	_	32	amod	_	TokenRange=224:229
+34	deve	dever	AUX	AUX	_	35	aux	_	TokenRange=230:234
+35	comecar	comecar	VERB	VERB	_	26	conj	_	TokenRange=235:242
+36	andar	andar	VERB	VERB	_	35	xcomp	_	TokenRange=243:248
+37	sozinha	só	ADJ	ADJ	_	36	xcomp	_	TokenRange=249:256
+38	ganhar	ganhar	VERB	VERB	_	36	csubj	_	TokenRange=257:263
+39	protese	protese	NOUN	NOUN	_	42	obj	_	TokenRange=264:271
+40	familia	familia	NOUN	NOUN	_	41	nsubj	_	TokenRange=272:279
+41	conseguiu	conseguir	VERB	VERB	_	26	conj	_	TokenRange=280:289
+42	comprar	comprar	VERB	VERB	_	41	xcomp	_	SpaceAfter=No|TokenRange=290:297
+

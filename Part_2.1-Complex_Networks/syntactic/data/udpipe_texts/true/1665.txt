@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = demora sus complica tratamento contra cancer rede publica dificuldade diagnostico precoce doenca reduziria indice mortalidade rede privada gargalo bem menor diferencas tratamento cancer podem depender apenas aspectos especificos doenca variacoes pacientes tempo espera consultas especialistas facilidade realizacao exames diagnostico precoce disponibilidade tratamentos modernos iguais redes publica privada pai analista sistemas monica xavier fonseca 45 anos fazia acompanhamento paulo mudar extrema mg apos seis meses espera
+1	demora	demorar	NOUN	NOUN	_	0	root	_	TokenRange=0:6
+2	sus	_	NOUN	DET	_	4	det:poss	_	TokenRange=7:10
+3	complica	complico	ADJ	ADJ	_	4	amod	_	TokenRange=11:19
+4	tratamento	tratamento	NOUN	NOUN	_	1	appos	_	TokenRange=20:30
+5	contra	_	ADP	ADP	_	6	case	_	TokenRange=31:37
+6	cancer	cancer	NOUN	NOUN	_	4	nmod	_	TokenRange=38:44
+7	rede	rede	NOUN	NOUN	_	4	appos	_	TokenRange=45:49
+8	publica	publico	ADJ	ADJ	_	7	amod	_	TokenRange=50:57
+9	dificuldade	dificuldade	NOUN	NOUN	_	1	appos	_	TokenRange=58:69
+10	diagnostico	diagnostico	ADJ	ADJ	_	9	amod	_	TokenRange=70:81
+11	precoce	precoce	ADJ	ADJ	_	9	amod	_	TokenRange=82:89
+12	doenca	doenca	NOUN	NOUN	_	9	amod	_	TokenRange=90:96
+13	reduziria	reduzir	VERB	VERB	_	1	parataxis	_	TokenRange=97:106
+14	indice	indice	NOUN	NOUN	_	13	obj	_	TokenRange=107:113
+15	mortalidade	mortalidade	NOUN	NOUN	_	14	flat	_	TokenRange=114:125
+16	rede	rede	NOUN	NOUN	_	14	appos	_	TokenRange=126:130
+17	privada	privado	ADJ	ADJ	_	16	amod	_	TokenRange=131:138
+18	gargalo	gargalo	NOUN	NOUN	_	13	obj	_	TokenRange=139:146
+19	bem	bem	ADV	ADV	_	20	advmod	_	TokenRange=147:150
+20	menor	menor	ADJ	ADJ	_	18	amod	_	TokenRange=151:156
+21	diferencas	_	DET	NOUN	_	22	det	_	TokenRange=157:167
+22	tratamento	tratamento	NOUN	NOUN	_	25	nsubj	_	TokenRange=168:178
+23	cancer	cancer	NOUN	NOUN	_	22	flat	_	TokenRange=179:185
+24	podem	_	AUX	AUX	_	25	aux	_	TokenRange=186:191
+25	depender	depender	VERB	VERB	_	1	parataxis	_	TokenRange=192:200
+26	apenas	apenas	ADV	ADV	_	25	advmod	_	TokenRange=201:207
+27	aspectos	aspecto	NOUN	NOUN	_	25	obj	_	TokenRange=208:216
+28	especificos	especifico	ADJ	ADJ	_	27	amod	_	TokenRange=217:228
+29	doenca	doenca	NOUN	NOUN	_	27	appos	_	TokenRange=229:235
+30	variacoes	variacoe	NOUN	NOUN	_	27	appos	_	TokenRange=236:245
+31	pacientes	paciente	ADJ	ADJ	_	30	amod	_	TokenRange=246:255
+32	tempo	tempo	NOUN	NOUN	_	27	appos	_	TokenRange=256:261
+33	espera	esperar	VERB	VERB	_	30	acl:relcl	_	TokenRange=262:268
+34	consultas	consulta	NOUN	NOUN	_	25	parataxis	_	TokenRange=269:278
+35	especialistas	especialista	ADJ	ADJ	_	34	amod	_	TokenRange=279:292
+36	facilidade	facilidade	NOUN	NOUN	_	34	appos	_	TokenRange=293:303
+37	realizacao	realizacao	ADJ	ADJ	_	38	amod	_	TokenRange=304:314
+38	exames	exame	NOUN	NOUN	_	36	appos	_	TokenRange=315:321
+39	diagnostico	diagnostico	ADJ	ADJ	_	38	amod	_	TokenRange=322:333
+40	precoce	precoce	ADJ	ADJ	_	38	amod	_	TokenRange=334:341
+41	disponibilidade	disponibilidade	NOUN	NOUN	_	42	appos	_	TokenRange=342:357
+42	tratamentos	tratamento	NOUN	NOUN	_	56	nsubj	_	TokenRange=358:369
+43	modernos	moderno	ADJ	ADJ	_	42	amod	_	TokenRange=370:378
+44	iguais	igual	ADJ	ADJ	_	42	amod	_	TokenRange=379:385
+45	redes	rede	NOUN	NOUN	_	42	appos	_	TokenRange=386:391
+46	publica	publico	ADJ	ADJ	_	45	amod	_	TokenRange=392:399
+47	privada	privado	ADJ	ADJ	_	45	amod	_	TokenRange=400:407
+48	pai	pai	NOUN	NOUN	_	45	appos	_	TokenRange=408:411
+49	analista	analista	ADJ	ADJ	_	45	amod	_	TokenRange=412:420
+50	sistemas	sistema	NOUN	NOUN	_	45	appos	_	TokenRange=421:429
+51	monica	_	NOUN	NOUN	_	48	appos	_	TokenRange=430:436
+52	xavier	_	NOUN	NOUN	_	51	flat	_	TokenRange=437:443
+53	fonseca	_	ADJ	ADJ	_	51	flat	_	TokenRange=444:451
+54	45	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=452:454
+55	anos	ano	NOUN	NOUN	_	51	nmod	_	TokenRange=455:459
+56	fazia	fazer	VERB	VERB	_	25	parataxis	_	TokenRange=460:465
+57	acompanhamento	acompanhamento	NOUN	NOUN	_	56	obj	_	TokenRange=466:480
+58	paulo	paulo	NOUN	NOUN	_	57	flat	_	TokenRange=481:486
+59	mudar	mudar	VERB	VERB	_	56	ccomp	_	TokenRange=487:492
+60	extrema	extremo	ADJ	ADJ	_	61	amod	_	TokenRange=493:500
+61	mg	_	NOUN	NOUN	_	59	obj	_	TokenRange=501:503
+62	apos	_	ADP	ADP	_	65	mark	_	TokenRange=504:508
+63	seis	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=509:513
+64	meses	mês	NOUN	NOUN	_	65	nmod	_	TokenRange=514:519
+65	espera	esperar	VERB	VERB	_	56	advcl	_	SpaceAfter=No|TokenRange=520:526
+

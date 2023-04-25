@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gilmar mendes suspende depoimento aecio neves policia federal ministro stf atendeu pedido senador acesso depoimentos anteriores pgr pede depoimento desde inicio inquerito maio 2016 ministro gilmar mendes supremo tribunal federal stf suspendeu depoimento prestado nesta quartafeira 26 senador presidente psdb aecio neves policia federal decisao assinada nesta tercafeira 25 ministro atendeu pedido parlamentar queria falar apos acesso depoimentos outras testemunhas ouvidas caso nota advogado aecio alberto toron disse depoimento remarcado proxima semana
+1	gilmar	gilmar	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	mendes	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	suspende	suspender	VERB	VERB	_	0	root	_	TokenRange=14:22
+4	depoimento	depoimento	NOUN	NOUN	_	3	obj	_	TokenRange=23:33
+5	aecio	aecio	NOUN	NOUN	_	4	appos	_	TokenRange=34:39
+6	neves	_	NOUN	NOUN	_	5	flat	_	TokenRange=40:45
+7	policia	policia	NOUN	NOUN	_	3	obj	_	TokenRange=46:53
+8	federal	federal	ADJ	ADJ	_	7	amod	_	TokenRange=54:61
+9	ministro	ministro	NOUN	NOUN	_	3	nsubj	_	TokenRange=62:70
+10	stf	_	NOUN	NOUN	_	9	flat	_	TokenRange=71:74
+11	atendeu	atender	VERB	VERB	_	3	parataxis	_	TokenRange=75:82
+12	pedido	pedido	NOUN	NOUN	_	11	obj	_	TokenRange=83:89
+13	senador	senador	NOUN	NOUN	_	12	flat	_	TokenRange=90:97
+14	acesso	acesso	NOUN	NOUN	_	11	obj	_	TokenRange=98:104
+15	depoimentos	depoimento	NOUN	NOUN	_	14	appos	_	TokenRange=105:116
+16	anteriores	anterior	ADJ	ADJ	_	15	amod	_	TokenRange=117:127
+17	pgr	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=128:131
+18	pede	pedir	VERB	VERB	_	3	parataxis	_	TokenRange=132:136
+19	depoimento	depoimento	NOUN	NOUN	_	18	obj	_	TokenRange=137:147
+20	desde	_	ADP	ADP	_	21	case	_	TokenRange=148:153
+21	inicio	_	NOUN	NOUN	_	18	nmod	_	TokenRange=154:160
+22	inquerito	inquerito	ADJ	ADJ	_	21	amod	_	TokenRange=161:170
+23	maio	_	PROPN	PNOUN	_	21	nmod	_	TokenRange=171:175
+24	2016	_	NUM	NUM	NumType=Card	23	nmod	_	TokenRange=176:180
+25	ministro	ministro	NOUN	NOUN	_	18	nsubj	_	TokenRange=181:189
+26	gilmar	gilmar	NOUN	NOUN	_	25	appos	_	TokenRange=190:196
+27	mendes	mende	ADJ	ADJ	_	29	amod	_	TokenRange=197:203
+28	supremo	supremo	ADJ	ADJ	_	29	amod	_	TokenRange=204:211
+29	tribunal	tribunal	NOUN	NOUN	_	32	nsubj	_	TokenRange=212:220
+30	federal	federal	ADJ	ADJ	_	29	amod	_	TokenRange=221:228
+31	stf	_	NOUN	NOUN	_	29	appos	_	TokenRange=229:232
+32	suspendeu	suspender	VERB	VERB	_	18	parataxis	_	TokenRange=233:242
+33	depoimento	depoimento	NOUN	NOUN	_	32	obj	_	TokenRange=243:253
+34	prestado	prestar	VERB	VERB	_	33	acl	_	TokenRange=254:262
+35	nesta	_	ADP	ADP	_	36	case	_	TokenRange=263:268
+36	quartafeira	_	NOUN	NOUN	_	34	nmod	_	TokenRange=269:280
+37	26	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=281:283
+38	senador	senador	NOUN	NOUN	_	34	nsubj	_	TokenRange=284:291
+39	presidente	presidente	NOUN	NOUN	_	38	appos	_	TokenRange=292:302
+40	psdb	_	NOUN	NOUN	_	38	appos	_	TokenRange=303:307
+41	aecio	aecio	NOUN	NOUN	_	38	appos	_	TokenRange=308:313
+42	neves	neve	ADJ	NOUN	_	41	flat	_	TokenRange=314:319
+43	policia	policia	NOUN	NOUN	_	38	appos	_	TokenRange=320:327
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=328:335
+45	decisao	decisao	NOUN	NOUN	_	32	obj	_	TokenRange=336:343
+46	assinada	assinado	ADJ	ADJ	_	45	acl	_	TokenRange=344:352
+47	nesta	_	ADP	ADP	_	48	case	_	TokenRange=353:358
+48	tercafeira	_	NOUN	NOUN	_	51	nmod	_	TokenRange=359:369
+49	25	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=370:372
+50	ministro	ministro	NOUN	NOUN	_	51	nsubj	_	TokenRange=373:381
+51	atendeu	atender	VERB	VERB	_	45	acl:relcl	_	TokenRange=382:389
+52	pedido	pedido	NOUN	NOUN	_	51	obj	_	TokenRange=390:396
+53	parlamentar	parlamentar	ADJ	ADJ	_	52	amod	_	TokenRange=397:408
+54	queria	querer	VERB	VERB	_	32	parataxis	_	TokenRange=409:415
+55	falar	falar	VERB	VERB	_	54	xcomp	_	TokenRange=416:421
+56	apos	_	ADP	ADP	_	57	case	_	TokenRange=422:426
+57	acesso	acesso	NOUN	NOUN	_	55	nmod	_	TokenRange=427:433
+58	depoimentos	depoimento	NOUN	NOUN	_	57	flat	_	TokenRange=434:445
+59	outras	_	DET	DET	_	60	det	_	TokenRange=446:452
+60	testemunhas	testemunha	NOUN	NOUN	_	55	obj	_	TokenRange=453:464
+61	ouvidas	ouvir	VERB	VERB	_	60	acl	_	TokenRange=465:472
+62	caso	_	ADP	ADP	_	68	mark	_	TokenRange=473:477
+63	nota	nota	NOUN	NOUN	_	68	nmod	_	TokenRange=478:482
+64	advogado	advogado	NOUN	NOUN	_	63	appos	_	TokenRange=483:491
+65	aecio	_	NOUN	NOUN	_	64	appos	_	TokenRange=492:497
+66	alberto	alberto	ADJ	ADJ	_	65	flat	_	TokenRange=498:505
+67	toron	_	NOUN	NOUN	_	65	flat	_	TokenRange=506:511
+68	disse	dizer	VERB	VERB	_	54	conj	_	TokenRange=512:517
+69	depoimento	depoimento	NOUN	NOUN	_	68	obj	_	TokenRange=518:528
+70	remarcado	remarcar	VERB	VERB	_	69	acl	_	TokenRange=529:538
+71	proxima	proximo	ADJ	ADJ	_	72	amod	_	TokenRange=539:546
+72	semana	semana	NOUN	NOUN	_	70	nmod	_	SpaceAfter=No|TokenRange=547:553
+

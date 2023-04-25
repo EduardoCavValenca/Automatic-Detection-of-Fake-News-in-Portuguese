@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = amigo temer 40 anos yunes cansou decidiu contar tudo usado mula jose yunes amigo peito michel temer exassessor presidencia delatou ministro acordo materia folha/sp yunes afirmou eliseu padilha usou mula pediu recebesse pacote escritorio 2014 amigao temer ainda disse remetente tal pacote doleiro lucio funaro operador eduardo cunha ainda acordo folha pacote continha dinheiro vivo odebrecht destinado pmdb yunes contou bolada acertada durante jantar proprio temer
+1	amigo	amigo	NOUN	NOUN	_	60	nsubj	_	TokenRange=0:5
+2	temer	temer	NOUN	NOUN	_	1	flat	_	TokenRange=6:11
+3	40	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=12:14
+4	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=15:19
+5	yunes	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=20:25
+6	cansou	cansar	AUX	AUX	_	7	aux	_	TokenRange=26:32
+7	decidiu	decidir	VERB	VERB	_	1	acl:relcl	_	TokenRange=33:40
+8	contar	contar	VERB	VERB	_	7	xcomp	_	TokenRange=41:47
+9	tudo	_	PRON	PRON	_	10	obj	_	TokenRange=48:52
+10	usado	usar	VERB	VERB	_	8	acl	_	TokenRange=53:58
+11	mula	mula	NOUN	NOUN	_	8	obj	_	TokenRange=59:63
+12	jose	_	NOUN	NOUN	_	11	appos	_	TokenRange=64:68
+13	yunes	_	NOUN	NOUN	_	14	flat	_	TokenRange=69:74
+14	amigo	amigo	NOUN	NOUN	_	12	appos	_	TokenRange=75:80
+15	peito	_	NOUN	NOUN	_	14	flat	_	TokenRange=81:86
+16	michel	_	ADJ	ADJ	_	17	amod	_	TokenRange=87:93
+17	temer	temer	NOUN	NOUN	_	14	appos	_	TokenRange=94:99
+18	exassessor	exassessor	NOUN	NOUN	_	17	amod	_	TokenRange=100:110
+19	presidencia	presidencia	NOUN	NOUN	_	17	flat	_	TokenRange=111:122
+20	delatou	delatar	VERB	VERB	_	7	parataxis	_	TokenRange=123:130
+21	ministro	ministro	NOUN	NOUN	_	20	obj	_	TokenRange=131:139
+22	acordo	acordo	NOUN	NOUN	_	21	appos	_	TokenRange=140:146
+23	materia	materia	NOUN	NOUN	_	21	appos	_	TokenRange=147:154
+24	folha/sp	_	ADJ	ADJ	_	23	amod	_	TokenRange=155:163
+25	yunes	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=164:169
+26	afirmou	afirmar	VERB	VERB	_	21	acl:relcl	_	TokenRange=170:177
+27	eliseu	eliseu	NOUN	NOUN	_	29	obj	_	TokenRange=178:184
+28	padilha	padilha	NOUN	NOUN	_	27	flat	_	TokenRange=185:192
+29	usou	usar	VERB	VERB	_	26	ccomp	_	TokenRange=193:197
+30	mula	mula	NOUN	NOUN	_	29	obj	_	TokenRange=198:202
+31	pediu	pedir	VERB	VERB	_	29	parataxis	_	TokenRange=203:208
+32	recebesse	receber	VERB	VERB	_	29	xcomp	_	TokenRange=209:218
+33	pacote	pacote	NOUN	NOUN	_	32	obj	_	TokenRange=219:225
+34	escritorio	escritorio	NOUN	NOUN	_	33	appos	_	TokenRange=226:236
+35	2014	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=237:241
+36	amigao	amigao	NOUN	NOUN	_	34	appos	_	TokenRange=242:248
+37	temer	temer	NOUN	NOUN	_	36	appos	_	TokenRange=249:254
+38	ainda	ainda	ADV	ADV	_	39	advmod	_	TokenRange=255:260
+39	disse	dizer	VERB	VERB	_	26	conj	_	TokenRange=261:266
+40	remetente	remetente	ADV	ADV	_	39	advmod	_	TokenRange=267:276
+41	tal	_	DET	DET	_	42	det	_	TokenRange=277:280
+42	pacote	pacote	NOUN	NOUN	_	39	obj	_	TokenRange=281:287
+43	doleiro	doleiro	ADJ	ADJ	_	42	amod	_	TokenRange=288:295
+44	lucio	lucio	NOUN	NOUN	_	42	appos	_	TokenRange=296:301
+45	funaro	funaro	ADJ	ADJ	_	44	amod	_	TokenRange=302:308
+46	operador	operador	NOUN	NOUN	_	42	appos	_	TokenRange=309:317
+47	eduardo	eduardo	NOUN	NOUN	_	46	appos	_	TokenRange=318:325
+48	cunha	cunha	NOUN	NOUN	_	47	flat	_	TokenRange=326:331
+49	ainda	ainda	ADV	ADV	_	50	advmod	_	TokenRange=332:337
+50	acordo	acordo	NOUN	NOUN	_	39	nsubj	_	TokenRange=338:344
+51	folha	folha	ADJ	ADJ	_	52	amod	_	TokenRange=345:350
+52	pacote	pacote	NOUN	NOUN	_	50	appos	_	TokenRange=351:357
+53	continha	conter	VERB	VERB	_	50	acl:relcl	_	TokenRange=358:366
+54	dinheiro	dinheiro	NOUN	NOUN	_	53	obj	_	TokenRange=367:375
+55	vivo	vivo	ADJ	ADJ	_	54	amod	_	TokenRange=376:380
+56	odebrecht	odebrecht	NOUN	NOUN	_	60	nsubj	_	TokenRange=381:390
+57	destinado	destinar	VERB	VERB	_	56	acl	_	TokenRange=391:400
+58	pmdb	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=401:405
+59	yunes	_	ADJ	NOUN	_	58	flat	_	TokenRange=406:411
+60	contou	contar	VERB	VERB	_	0	root	_	TokenRange=412:418
+61	bolada	bolada	NOUN	NOUN	_	60	obj	_	TokenRange=419:425
+62	acertada	acertado	ADJ	ADJ	_	61	amod	_	TokenRange=426:434
+63	durante	_	ADP	ADP	_	64	case	_	TokenRange=435:442
+64	jantar	jantar	NOUN	NOUN	_	60	nmod	_	TokenRange=443:449
+65	proprio	proprio	ADJ	ADJ	_	66	amod	_	TokenRange=450:457
+66	temer	temer	NOUN	NOUN	_	64	appos	_	SpaceAfter=No|TokenRange=458:463
+

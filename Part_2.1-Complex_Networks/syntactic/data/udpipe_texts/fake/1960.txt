@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = urgente quebrapau plenario camara agora povo cansou invadiu brasilia waldir maranhao vicepresidente camara deputados comandava trabalhos suspender sessao manifestantes segurancas entraram confronto tv camara suspendeu transmissao vivo plenario camara ocupado intervencionistas pedindo ajuda exercito brasileiro porta principal acesso plenario quebrada gritos viva sergio moro entoados jornalistas sendo retirados local
+1	urgente	urgente	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	quebrapau	quebrapau	VERB	VERB	_	0	root	_	TokenRange=8:17
+3	plenario	plenario	NOUN	NOUN	_	2	obj	_	TokenRange=18:26
+4	camara	camara	NOUN	NOUN	_	2	appos	_	TokenRange=27:33
+5	agora	agora	ADV	ADV	_	8	advmod	_	TokenRange=34:39
+6	povo	povo	NOUN	NOUN	_	8	nsubj	_	TokenRange=40:44
+7	cansou	cansar	AUX	AUX	_	8	aux	_	TokenRange=45:51
+8	invadiu	invadir	VERB	VERB	_	2	acl:relcl	_	TokenRange=52:59
+9	brasilia	brasilia	NOUN	NOUN	_	8	obj	_	TokenRange=60:68
+10	waldir	waldir	NOUN	NOUN	_	8	nsubj	_	TokenRange=69:75
+11	maranhao	maranhao	NOUN	NOUN	_	10	flat	_	TokenRange=76:84
+12	vicepresidente	vicepresidente	NOUN	NOUN	_	15	nsubj	_	TokenRange=85:99
+13	camara	camara	NOUN	NOUN	_	12	appos	_	TokenRange=100:106
+14	deputados	deputado	NOUN	NOUN	_	12	flat	_	TokenRange=107:116
+15	comandava	comandar	VERB	VERB	_	8	parataxis	_	TokenRange=117:126
+16	trabalhos	trabalho	NOUN	NOUN	_	15	obj	_	TokenRange=127:136
+17	suspender	suspender	VERB	VERB	_	15	ccomp	_	TokenRange=137:146
+18	sessao	sessao	NOUN	NOUN	_	17	obj	_	TokenRange=147:153
+19	manifestantes	manifestante	NOUN	NOUN	_	18	amod	_	TokenRange=154:167
+20	segurancas	_	NOUN	NOUN	_	19	amod	_	TokenRange=168:178
+21	entraram	entrar	VERB	VERB	_	15	parataxis	_	TokenRange=179:187
+22	confronto	confronto	NOUN	NOUN	_	21	obj	_	TokenRange=188:197
+23	tv	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=198:200
+24	camara	camara	NOUN	NOUN	_	25	nsubj	_	TokenRange=201:207
+25	suspendeu	suspender	VERB	VERB	_	2	conj	_	TokenRange=208:217
+26	transmissao	transmissao	NOUN	NOUN	_	25	obj	_	TokenRange=218:229
+27	vivo	vivo	ADJ	ADJ	_	26	amod	_	TokenRange=230:234
+28	plenario	plenario	ADJ	ADJ	_	26	amod	_	TokenRange=235:243
+29	camara	camara	NOUN	NOUN	_	26	appos	_	TokenRange=244:250
+30	ocupado	ocupado	ADJ	ADJ	_	29	amod	_	TokenRange=251:258
+31	intervencionistas	intervencionista	NOUN	NOUN	_	29	appos	_	TokenRange=259:276
+32	pedindo	pedir	VERB	VERB	_	29	acl	_	TokenRange=277:284
+33	ajuda	ajuda	NOUN	NOUN	_	32	obj	_	TokenRange=285:290
+34	exercito	exercito	NOUN	NOUN	_	33	amod	_	TokenRange=291:299
+35	brasileiro	brasileiro	ADJ	ADJ	_	36	amod	_	TokenRange=300:310
+36	porta	porta	NOUN	NOUN	_	33	appos	_	TokenRange=311:316
+37	principal	principal	ADJ	ADJ	_	38	amod	_	TokenRange=317:326
+38	acesso	acesso	NOUN	NOUN	_	32	obj	_	TokenRange=327:333
+39	plenario	plenario	ADJ	ADJ	_	38	amod	_	TokenRange=334:342
+40	quebrada	quebrado	ADJ	ADJ	_	41	amod	_	TokenRange=343:351
+41	gritos	grito	NOUN	NOUN	_	38	appos	_	TokenRange=352:358
+42	viva	vivo	ADJ	ADJ	_	41	amod	_	TokenRange=359:363
+43	sergio	sergio	NOUN	NOUN	_	41	appos	_	TokenRange=364:370
+44	moro	moro	NOUN	NOUN	_	43	flat	_	TokenRange=371:375
+45	entoados	entoado	ADJ	ADJ	_	46	amod	_	TokenRange=376:384
+46	jornalistas	jornalista	NOUN	NOUN	_	48	nsubj:pass	_	TokenRange=385:396
+47	sendo	ser	AUX	AUX	_	48	aux:pass	_	TokenRange=397:402
+48	retirados	retirar	VERB	VERB	_	41	acl	_	TokenRange=403:412
+49	local	local	NOUN	NOUN	_	48	xcomp	_	SpaceAfter=No|TokenRange=413:418
+

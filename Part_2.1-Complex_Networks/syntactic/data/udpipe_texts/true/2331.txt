@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estudante agredido protesto melhora corre risco morrer diz boletim medico apesar quadro estavel mateus silva 33 anos segue internado estado grave pm afastou capitao bateu manifestante cassetete estudante mateus ferreira silva 33 anos agredido durante protesto goiania apresentou melhora clinica sedado corre risco morrer conforme boletim medico divulgado hospital urgencias goiania hugo final manha desta tercafeira 2 apesar estavel quadro segue grave mateus
+1	estudante	estudante	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:9
+2	agredido	agredido	ADJ	ADJ	_	1	amod	_	TokenRange=10:18
+3	protesto	protesto	NOUN	NOUN	_	2	nsubj	_	TokenRange=19:27
+4	melhora	melhora	NOUN	NOUN	_	3	flat	_	TokenRange=28:35
+5	corre	_	NOUN	NOUN	_	3	appos	_	TokenRange=36:41
+6	risco	risco	NOUN	NOUN	_	5	flat	_	TokenRange=42:47
+7	morrer	morrer	VERB	VERB	_	3	acl:relcl	_	TokenRange=48:54
+8	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=55:58
+9	boletim	boletim	NOUN	NOUN	_	8	obj	_	TokenRange=59:66
+10	medico	medico	ADJ	ADJ	_	9	amod	_	TokenRange=67:73
+11	apesar	apesar	ADV	ADV	_	12	case	_	TokenRange=74:80
+12	quadro	quadro	NOUN	NOUN	_	18	nmod	_	TokenRange=81:87
+13	estavel	estavel	ADJ	ADJ	_	12	amod	_	TokenRange=88:95
+14	mateus	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=96:102
+15	silva	silva	NOUN	NOUN	_	14	flat	_	TokenRange=103:108
+16	33	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=109:111
+17	anos	ano	NOUN	NOUN	_	18	nsubj	_	TokenRange=112:116
+18	segue	_	VERB	VERB	_	8	parataxis	_	TokenRange=117:122
+19	internado	internado	ADJ	ADJ	_	18	xcomp	_	TokenRange=123:132
+20	estado	estado	NOUN	NOUN	_	18	nmod	_	TokenRange=133:139
+21	grave	grave	ADJ	ADJ	_	20	amod	_	TokenRange=140:145
+22	pm	_	CCONJ	CONJ	_	23	mark	_	TokenRange=146:148
+23	afastou	afastar	VERB	VERB	_	18	conj	_	TokenRange=149:156
+24	capitao	capitao	NOUN	NOUN	_	23	obj	_	TokenRange=157:164
+25	bateu	bateu	NOUN	NOUN	_	24	flat	_	TokenRange=165:170
+26	manifestante	manifestante	ADJ	ADJ	_	24	amod	_	TokenRange=171:183
+27	cassetete	cassetete	NOUN	NOUN	_	23	nsubj	_	TokenRange=184:193
+28	estudante	estudante	NOUN	NOUN	_	27	appos	_	TokenRange=194:203
+29	mateus	mateus	NOUN	NOUN	_	27	appos	_	TokenRange=204:210
+30	ferreira	_	ADJ	ADJ	_	29	amod	_	TokenRange=211:219
+31	silva	silva	NOUN	NOUN	_	29	flat	_	TokenRange=220:225
+32	33	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=226:228
+33	anos	ano	NOUN	NOUN	_	34	nmod	_	TokenRange=229:233
+34	agredido	agredido	ADJ	ADJ	_	27	amod	_	TokenRange=234:242
+35	durante	_	ADP	ADP	_	36	case	_	TokenRange=243:250
+36	protesto	protesto	NOUN	NOUN	_	38	nmod	_	TokenRange=251:259
+37	goiania	goiania	ADJ	ADJ	_	36	amod	_	TokenRange=260:267
+38	apresentou	apresentar	VERB	VERB	_	8	conj	_	TokenRange=268:278
+39	melhora	melhora	NOUN	NOUN	_	38	obj	_	TokenRange=279:286
+40	clinica	clinico	ADJ	ADJ	_	39	amod	_	TokenRange=287:294
+41	sedado	_	NOUN	NOUN	_	39	amod	_	TokenRange=295:301
+42	corre	corre	NOUN	NOUN	_	44	nsubj	_	TokenRange=302:307
+43	risco	risco	NOUN	NOUN	_	42	flat	_	TokenRange=308:313
+44	morrer	morrer	VERB	VERB	_	39	acl	_	TokenRange=314:320
+45	conforme	_	ADP	ADP	_	46	case	_	TokenRange=321:329
+46	boletim	boletim	NOUN	NOUN	_	44	nmod	_	TokenRange=330:337
+47	medico	medico	ADJ	ADJ	_	46	amod	_	TokenRange=338:344
+48	divulgado	divulgar	VERB	VERB	_	46	acl	_	TokenRange=345:354
+49	hospital	hospital	NOUN	NOUN	_	46	appos	_	TokenRange=355:363
+50	urgencias	urgencia	ADJ	ADJ	_	49	amod	_	TokenRange=364:373
+51	goiania	goiania	ADJ	ADJ	_	49	amod	_	TokenRange=374:381
+52	hugo	hugo	NOUN	NOUN	_	49	appos	_	TokenRange=382:386
+53	final	final	ADJ	ADJ	_	49	amod	_	TokenRange=387:392
+54	manha	manha	NOUN	NOUN	_	49	appos	_	TokenRange=393:398
+55	desta	_	ADP	ADP	_	56	case	_	TokenRange=399:404
+56	tercafeira	tercafeira	NOUN	NOUN	_	54	nmod	_	TokenRange=405:415
+57	2	_	NUM	NUM	NumType=Card	56	appos	_	TokenRange=416:417
+58	apesar	apesar	ADV	ADV	_	59	advmod	_	TokenRange=418:424
+59	estavel	estavel	ADJ	ADJ	_	60	amod	_	TokenRange=425:432
+60	quadro	quadro	NOUN	NOUN	_	61	nsubj	_	TokenRange=433:439
+61	segue	_	VERB	VERB	_	8	parataxis	_	TokenRange=440:445
+62	grave	grave	ADJ	ADJ	_	61	xcomp	_	TokenRange=446:451
+63	mateus	_	NOUN	NOUN	_	61	nsubj	_	SpaceAfter=No|TokenRange=452:458
+

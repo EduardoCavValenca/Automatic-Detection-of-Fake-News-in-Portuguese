@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = manifestantes participam atos recife favor contra expresidente lula vigilia apoio lula aconteceu centro capital ato pede condenacao petista julgamento quarta 24 ocorreu zona sul cidade capital pernambucana recebeu noite desta terca 23 atos apoio contra expresidente luiz inacio lula silva pt recurso apresentado processo triplex julgado quarta 24 tribunal regional federal 4 regiao trf4
+1	manifestantes	manifestante	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:13
+2	participam	participar	VERB	VERB	_	0	root	_	TokenRange=14:24
+3	atos	ato	NOUN	NOUN	_	2	obj	_	TokenRange=25:29
+4	recife	recife	NOUN	NOUN	_	3	appos	_	TokenRange=30:36
+5	favor	favor	NOUN	NOUN	_	3	appos	_	TokenRange=37:42
+6	contra	_	ADP	ADP	_	7	case	_	TokenRange=43:49
+7	expresidente	expresidente	NOUN	NOUN	_	5	nmod	_	TokenRange=50:62
+8	lula	lula	ADJ	ADJ	_	7	flat	_	TokenRange=63:67
+9	vigilia	vigilia	NOUN	NOUN	_	10	amod	_	TokenRange=68:75
+10	apoio	apoio	NOUN	NOUN	_	12	nsubj	_	TokenRange=76:81
+11	lula	lula	NOUN	NOUN	_	10	flat	_	TokenRange=82:86
+12	aconteceu	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=87:96
+13	centro	centro	NOUN	NOUN	_	12	nsubj	_	TokenRange=97:103
+14	capital	capital	ADJ	ADJ	_	13	amod	_	TokenRange=104:111
+15	ato	ato	NOUN	NOUN	_	16	nsubj	_	TokenRange=112:115
+16	pede	pedir	VERB	VERB	_	12	parataxis	_	TokenRange=116:120
+17	condenacao	condenacao	NOUN	NOUN	_	16	obj	_	TokenRange=121:131
+18	petista	petista	ADJ	ADJ	_	17	amod	_	TokenRange=132:139
+19	julgamento	julgamento	NOUN	NOUN	_	16	nsubj	_	TokenRange=140:150
+20	quarta	_	ADJ	ADJ	_	19	amod	_	TokenRange=151:157
+21	24	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=158:160
+22	ocorreu	ocorrer	VERB	VERB	_	17	acl:relcl	_	TokenRange=161:168
+23	zona	zona	NOUN	NOUN	_	22	nsubj	_	TokenRange=169:173
+24	sul	sul	ADJ	ADJ	_	25	amod	_	TokenRange=174:177
+25	cidade	cidade	NOUN	NOUN	_	22	nsubj	_	TokenRange=178:184
+26	capital	capital	ADJ	ADJ	_	25	amod	_	TokenRange=185:192
+27	pernambucana	pernambucano	ADJ	ADJ	_	25	amod	_	TokenRange=193:205
+28	recebeu	receber	VERB	VERB	_	2	conj	_	TokenRange=206:213
+29	noite	noite	NOUN	NOUN	_	28	obj	_	TokenRange=214:219
+30	desta	_	ADP	ADP	_	31	case	_	TokenRange=220:225
+31	terca	terca	NOUN	NOUN	_	29	nmod	_	TokenRange=226:231
+32	23	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=232:234
+33	atos	ato	NOUN	NOUN	_	29	appos	_	TokenRange=235:239
+34	apoio	apoio	NOUN	NOUN	_	33	appos	_	TokenRange=240:245
+35	contra	_	ADP	ADP	_	36	case	_	TokenRange=246:252
+36	expresidente	expresidente	NOUN	NOUN	_	34	nmod	_	TokenRange=253:265
+37	luiz	luiz	ADJ	ADJ	_	36	appos	_	TokenRange=266:270
+38	inacio	_	NOUN	NOUN	_	37	flat	_	TokenRange=271:277
+39	lula	_	NOUN	NOUN	_	37	flat	_	TokenRange=278:282
+40	silva	silva	NOUN	NOUN	_	37	flat	_	TokenRange=283:288
+41	pt	_	ADP	ADP	_	42	advmod	_	TokenRange=289:291
+42	recurso	recurso	NOUN	NOUN	_	28	obj	_	TokenRange=292:299
+43	apresentado	apresentar	VERB	VERB	_	42	acl	_	TokenRange=300:311
+44	processo	processo	NOUN	NOUN	_	43	obj	_	TokenRange=312:320
+45	triplex	_	NOUN	NOUN	_	44	amod	_	TokenRange=321:328
+46	julgado	julgar	VERB	VERB	_	44	acl	_	TokenRange=329:336
+47	quarta	_	ADJ	ADJ	_	48	amod	_	TokenRange=337:343
+48	24	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=344:346
+49	tribunal	tribunal	NOUN	NOUN	_	46	nmod	_	TokenRange=347:355
+50	regional	regional	ADJ	ADJ	_	49	amod	_	TokenRange=356:364
+51	federal	federal	ADJ	ADJ	_	49	amod	_	TokenRange=365:372
+52	4	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=373:374
+53	regiao	regiao	NOUN	NOUN	_	49	appos	_	TokenRange=375:381
+54	trf4	_	NUM	NUM	_	53	appos	_	SpaceAfter=No|TokenRange=382:386
+

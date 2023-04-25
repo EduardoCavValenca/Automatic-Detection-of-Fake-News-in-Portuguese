@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = luz estadio maracana cortada divida r 3 milhoes empresa responsavel abastecimento energia rio confirmou informacao globonews abastecimento energia eletrica estadio maracana zona norte rio cortado manha desta quintafeira 26 falta pagamento acordo globonews 5 meses atraso total r 3 milhoes divida setembro outubro comite rio 2016 ainda responsavel gestao estadio
+1	luz	luz	NOUN	NOUN	_	14	nsubj	_	TokenRange=0:3
+2	estadio	estadio	NOUN	NOUN	_	1	appos	_	TokenRange=4:11
+3	maracana	maracana	ADJ	ADJ	_	2	amod	_	TokenRange=12:20
+4	cortada	cortado	ADJ	ADJ	_	2	amod	_	TokenRange=21:28
+5	divida	dividir	VERB	VERB	_	1	acl	_	TokenRange=29:35
+6	r	r	NOUN	NOUN	_	5	nmod	_	TokenRange=36:37
+7	3	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=38:39
+8	milhoes	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=40:47
+9	empresa	empresa	NOUN	NOUN	_	5	obj	_	TokenRange=48:55
+10	responsavel	responsavel	ADJ	ADJ	_	9	amod	_	TokenRange=56:67
+11	abastecimento	abastecimento	NOUN	NOUN	_	9	appos	_	TokenRange=68:81
+12	energia	energia	NOUN	NOUN	_	11	flat	_	TokenRange=82:89
+13	rio	_	NOUN	NOUN	_	11	appos	_	TokenRange=90:93
+14	confirmou	confirmar	VERB	VERB	_	0	root	_	TokenRange=94:103
+15	informacao	informacao	NOUN	NOUN	_	14	obj	_	TokenRange=104:114
+16	globonews	_	ADJ	ADJ	_	15	amod	_	TokenRange=115:124
+17	abastecimento	abastecimento	NOUN	NOUN	_	15	appos	_	TokenRange=125:138
+18	energia	energia	NOUN	NOUN	_	17	appos	_	TokenRange=139:146
+19	eletrica	eletrico	ADJ	ADJ	_	18	amod	_	TokenRange=147:155
+20	estadio	estadio	NOUN	NOUN	_	17	appos	_	TokenRange=156:163
+21	maracana	maracana	ADJ	ADJ	_	22	amod	_	TokenRange=164:172
+22	zona	zona	NOUN	NOUN	_	17	appos	_	TokenRange=173:177
+23	norte	norte	ADJ	ADJ	_	22	amod	_	TokenRange=178:183
+24	rio	rio	NOUN	NOUN	_	22	appos	_	TokenRange=184:187
+25	cortado	cortado	ADJ	ADJ	_	22	amod	_	TokenRange=188:195
+26	manha	manha	NOUN	NOUN	_	22	appos	_	TokenRange=196:201
+27	desta	_	ADP	ADP	_	28	case	_	TokenRange=202:207
+28	quintafeira	quintafeira	NOUN	NOUN	_	26	nmod	_	TokenRange=208:219
+29	26	_	NUM	NUM	NumType=Card	28	appos	_	TokenRange=220:222
+30	falta	_	VERB	VERB	_	14	parataxis	_	TokenRange=223:228
+31	pagamento	pagamento	NOUN	NOUN	_	30	obj	_	TokenRange=229:238
+32	acordo	acordo	NOUN	NOUN	_	31	flat	_	TokenRange=239:245
+33	globonews	_	ADJ	NOUN	_	36	amod	_	TokenRange=246:255
+34	5	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=256:257
+35	meses	mês	NOUN	NOUN	_	36	nmod	_	TokenRange=258:263
+36	atraso	atraso	NOUN	NOUN	_	30	parataxis	_	TokenRange=264:270
+37	total	total	ADJ	ADJ	_	36	amod	_	TokenRange=271:276
+38	r	r	NOUN	NOUN	_	36	appos	_	TokenRange=277:278
+39	3	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=279:280
+40	milhoes	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=281:288
+41	divida	dividir	VERB	VERB	_	36	parataxis	_	TokenRange=289:295
+42	setembro	_	PROPN	PNOUN	_	41	nmod	_	TokenRange=296:304
+43	outubro	_	PROPN	PNOUN	_	42	flat	_	TokenRange=305:312
+44	comite	comite	NOUN	NOUN	_	41	parataxis	_	TokenRange=313:319
+45	rio	_	NOUN	NOUN	_	44	appos	_	TokenRange=320:323
+46	2016	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=324:328
+47	ainda	ainda	ADV	ADV	_	48	advmod	_	TokenRange=329:334
+48	responsavel	responsavel	ADJ	ADJ	_	44	amod	_	TokenRange=335:346
+49	gestao	gestao	NOUN	NOUN	_	48	nsubj	_	TokenRange=347:353
+50	estadio	estadio	NOUN	NOUN	_	49	flat	_	SpaceAfter=No|TokenRange=354:361
+

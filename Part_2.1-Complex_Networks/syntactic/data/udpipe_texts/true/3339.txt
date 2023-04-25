@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministro diz vai torcer mulheres peguem zika antes idade fertil comentario marcelo castro feito falar sobre projetos desenvolvimento vacina contra virus brasilia ministro saude marcelo castro cometeu gafe nesta quartafeira 13 afirmar tom brincadeira torceria mulheres contaminem zika antes idade fertil comentario feito falar sobre projetos desenvolvimento vacina contra virus chegou brasil ano passado circula 20 estados relacionado surto nascimento bebes microcefalia ministro
+1	ministro	ministro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=9:12
+3	vai	ir	AUX	AUX	_	4	aux	_	TokenRange=13:16
+4	torcer	torcer	VERB	VERB	_	2	ccomp	_	TokenRange=17:23
+5	mulheres	mulher	NOUN	NOUN	_	4	obj	_	TokenRange=24:32
+6	peguem	_	VERB	VERB	_	4	parataxis	_	TokenRange=33:39
+7	zika	zika	NOUN	NOUN	_	6	obj	_	TokenRange=40:44
+8	antes	antes	ADV	ADV	_	9	advmod	_	TokenRange=45:50
+9	idade	idade	NOUN	NOUN	_	4	appos	_	TokenRange=51:56
+10	fertil	fertil	ADJ	ADJ	_	9	amod	_	TokenRange=57:63
+11	comentario	comentario	NOUN	NOUN	_	2	nsubj	_	TokenRange=64:74
+12	marcelo	marcelo	NOUN	NOUN	_	11	appos	_	TokenRange=75:82
+13	castro	castro	NOUN	NOUN	_	12	flat	_	TokenRange=83:89
+14	feito	_	VERB	VERB	_	11	acl	_	TokenRange=90:95
+15	falar	falar	VERB	VERB	_	14	xcomp	_	TokenRange=96:101
+16	sobre	_	ADP	ADP	_	17	case	_	TokenRange=102:107
+17	projetos	projeto	NOUN	NOUN	_	15	nmod	_	TokenRange=108:116
+18	desenvolvimento	desenvolvimento	NOUN	NOUN	_	17	appos	_	TokenRange=117:132
+19	vacina	vacina	NOUN	NOUN	_	17	flat	_	TokenRange=133:139
+20	contra	_	ADP	ADP	_	21	case	_	TokenRange=140:146
+21	virus	_	NOUN	NOUN	_	18	nmod	_	TokenRange=147:152
+22	brasilia	brasilia	ADJ	NOUN	_	21	appos	_	TokenRange=153:161
+23	ministro	ministro	NOUN	NOUN	_	27	nsubj	_	TokenRange=162:170
+24	saude	saude	NOUN	NOUN	_	23	appos	_	TokenRange=171:176
+25	marcelo	marcelo	NOUN	NOUN	_	23	appos	_	TokenRange=177:184
+26	castro	castro	NOUN	NOUN	_	25	flat	_	TokenRange=185:191
+27	cometeu	cometer	VERB	VERB	_	2	conj	_	TokenRange=192:199
+28	gafe	gafe	NOUN	NOUN	_	27	obj	_	TokenRange=200:204
+29	nesta	_	ADP	ADP	_	30	case	_	TokenRange=205:210
+30	quartafeira	quartafeira	NOUN	NOUN	_	27	nmod	_	TokenRange=211:222
+31	13	_	NUM	NUM	NumType=Card	30	appos	_	TokenRange=223:225
+32	afirmar	afirmar	VERB	VERB	_	27	csubj	_	TokenRange=226:233
+33	tom	tom	NOUN	NOUN	_	32	obj	_	TokenRange=234:237
+34	brincadeira	brincadeira	NOUN	NOUN	_	33	flat	_	TokenRange=238:249
+35	torceria	torcer	VERB	VERB	_	33	acl:relcl	_	TokenRange=250:258
+36	mulheres	mulher	NOUN	NOUN	_	35	obj	_	TokenRange=259:267
+37	contaminem	contaminar	VERB	VERB	_	35	parataxis	_	TokenRange=268:278
+38	zika	zika	NOUN	NOUN	_	37	obj	_	TokenRange=279:283
+39	antes	antes	ADV	ADV	_	40	advmod	_	TokenRange=284:289
+40	idade	idade	NOUN	NOUN	_	37	appos	_	TokenRange=290:295
+41	fertil	fertil	ADJ	ADJ	_	40	amod	_	TokenRange=296:302
+42	comentario	comentario	NOUN	NOUN	_	37	nsubj	_	TokenRange=303:313
+43	feito	_	VERB	VERB	_	42	appos	_	TokenRange=314:319
+44	falar	falar	VERB	VERB	_	42	acl	_	TokenRange=320:325
+45	sobre	_	ADP	ADP	_	46	case	_	TokenRange=326:331
+46	projetos	projeto	NOUN	NOUN	_	44	nmod	_	TokenRange=332:340
+47	desenvolvimento	desenvolvimento	ADJ	ADJ	_	46	amod	_	TokenRange=341:356
+48	vacina	vacina	NOUN	NOUN	_	46	flat	_	TokenRange=357:363
+49	contra	_	ADP	ADP	_	50	case	_	TokenRange=364:370
+50	virus	viru	NOUN	NOUN	_	46	nmod	_	TokenRange=371:376
+51	chegou	chegar	VERB	VERB	_	46	acl:relcl	_	TokenRange=377:383
+52	brasil	brasil	ADJ	ADJ	_	53	amod	_	TokenRange=384:390
+53	ano	ano	NOUN	NOUN	_	51	nmod	_	TokenRange=391:394
+54	passado	passado	ADJ	ADJ	_	53	amod	_	TokenRange=395:402
+55	circula	circular	VERB	VERB	_	2	parataxis	_	TokenRange=403:410
+56	20	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=411:413
+57	estados	estado	NOUN	NOUN	_	55	nsubj	_	TokenRange=414:421
+58	relacionado	relacionado	ADJ	ADJ	_	57	amod	_	TokenRange=422:433
+59	surto	surto	ADJ	ADJ	_	60	amod	_	TokenRange=434:439
+60	nascimento	nascimento	NOUN	NOUN	_	55	nsubj	_	TokenRange=440:450
+61	bebes	bebe	NOUN	NOUN	_	60	appos	_	TokenRange=451:456
+62	microcefalia	microcefalia	NOUN	NOUN	_	60	flat	_	TokenRange=457:469
+63	ministro	ministro	NOUN	NOUN	_	55	obj	_	SpaceAfter=No|TokenRange=470:478
+

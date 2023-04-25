@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ultimas palavras steve jobs chocaram mundo homem riqueza tao grande chocou mundo ultimas palavras cheguei topo sucesso negocios olhos outros vida sido simbolo sucesso
+1	ultimas	_	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	palavras	palavra	NOUN	NOUN	_	5	nsubj	_	TokenRange=8:16
+3	steve	_	NOUN	NOUN	_	2	appos	_	TokenRange=17:22
+4	jobs	_	NOUN	NOUN	_	2	flat	_	TokenRange=23:27
+5	chocaram	chocar	VERB	VERB	_	0	root	_	TokenRange=28:36
+6	mundo	mundo	NOUN	NOUN	_	5	obj	_	TokenRange=37:42
+7	homem	homem	NOUN	NOUN	_	6	appos	_	TokenRange=43:48
+8	riqueza	riqueza	NOUN	NOUN	_	6	appos	_	TokenRange=49:56
+9	tao	tao	ADV	ADV	_	10	advmod	_	TokenRange=57:60
+10	grande	grande	ADJ	ADJ	_	8	amod	_	TokenRange=61:67
+11	chocou	chocar	VERB	VERB	_	5	conj	_	TokenRange=68:74
+12	mundo	mundo	NOUN	NOUN	_	11	obj	_	TokenRange=75:80
+13	ultimas	_	ADJ	ADJ	_	14	amod	_	TokenRange=81:88
+14	palavras	palavra	NOUN	NOUN	_	15	nsubj	_	TokenRange=89:97
+15	cheguei	chegar	VERB	VERB	_	11	parataxis	_	TokenRange=98:105
+16	topo	topo	ADJ	ADJ	_	17	amod	_	TokenRange=106:110
+17	sucesso	sucesso	NOUN	NOUN	_	15	obj	_	TokenRange=111:118
+18	negocios	negocio	NOUN	NOUN	_	17	appos	_	TokenRange=119:127
+19	olhos	olho	NOUN	NOUN	_	17	appos	_	TokenRange=128:133
+20	outros	_	DET	DET	_	21	det	_	TokenRange=134:140
+21	vida	vida	NOUN	NOUN	_	23	nsubj	_	TokenRange=141:145
+22	sido	ser	AUX	AUX	_	24	cop	_	TokenRange=146:150
+23	simbolo	simbolo	ADJ	ADJ	_	5	parataxis	_	TokenRange=151:158
+24	sucesso	sucesso	NOUN	NOUN	_	23	flat	_	SpaceAfter=No|TokenRange=159:166
+

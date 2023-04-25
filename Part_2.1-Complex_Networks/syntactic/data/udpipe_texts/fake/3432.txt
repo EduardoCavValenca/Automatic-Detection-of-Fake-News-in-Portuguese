@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nunca antes historia desse pais vice deu pe traseiro presidente carta temer escreve passou primeiro mandato dilma vice decorativo perdeu todo protagonismo politico passado chamado resolver votacoes pmdb crises politicas
+1	nunca	nunca	ADV	ADV	_	2	advmod	_	TokenRange=0:5
+2	antes	antes	ADV	ADV	_	7	advmod	_	TokenRange=6:11
+3	historia	historia	NOUN	NOUN	_	7	nsubj	_	TokenRange=12:20
+4	desse	_	ADP	ADP	_	5	case	_	TokenRange=21:26
+5	pais	_	NOUN	NOUN	_	3	nmod	_	TokenRange=27:31
+6	vice	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=32:36
+7	deu	dar	VERB	VERB	_	0	root	_	TokenRange=37:40
+8	pe	_	NOUN	NOUN	_	9	case	_	TokenRange=41:43
+9	traseiro	traseiro	ADJ	ADJ	_	7	obj	_	TokenRange=44:52
+10	presidente	presidente	NOUN	NOUN	_	7	obj	_	TokenRange=53:63
+11	carta	carta	NOUN	NOUN	_	10	appos	_	TokenRange=64:69
+12	temer	temer	NOUN	NOUN	_	11	flat	_	TokenRange=70:75
+13	escreve	escrever	VERB	VERB	_	7	parataxis	_	TokenRange=76:83
+14	passou	passar	VERB	VERB	_	13	ccomp	_	TokenRange=84:90
+15	primeiro	primeiro	ADJ	ADJ	_	16	amod	_	TokenRange=91:99
+16	mandato	mandato	NOUN	NOUN	_	20	obj	_	TokenRange=100:107
+17	dilma	dilma	ADJ	ADJ	_	18	amod	_	TokenRange=108:113
+18	vice	vice	NOUN	NOUN	_	20	nsubj	_	TokenRange=114:118
+19	decorativo	decorativo	ADJ	ADJ	_	18	amod	_	TokenRange=119:129
+20	perdeu	perder	VERB	VERB	_	7	conj	_	TokenRange=130:136
+21	todo	_	DET	DET	_	22	det	_	TokenRange=137:141
+22	protagonismo	protagonismo	NOUN	NOUN	_	20	obj	_	TokenRange=142:154
+23	politico	politico	ADJ	ADJ	_	22	amod	_	TokenRange=155:163
+24	passado	passado	ADJ	ADJ	_	22	amod	_	TokenRange=164:171
+25	chamado	chamado	ADJ	ADJ	_	22	amod	_	TokenRange=172:179
+26	resolver	resolver	VERB	VERB	_	22	acl:inf	_	TokenRange=180:188
+27	votacoes	votacoe	NOUN	NOUN	_	26	obj	_	TokenRange=189:197
+28	pmdb	_	X	ADP	_	29	case	_	TokenRange=198:202
+29	crises	crise	NOUN	NOUN	_	27	appos	_	TokenRange=203:209
+30	politicas	politico	ADJ	ADJ	_	29	amod	_	SpaceAfter=No|TokenRange=210:219
+

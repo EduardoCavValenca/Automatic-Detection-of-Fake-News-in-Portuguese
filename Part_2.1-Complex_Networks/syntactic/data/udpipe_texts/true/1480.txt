@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = colombo quebra silencio entrevista sobre delacoes odebrecht nenhum momento pedimos ajuda caixa 2 governador sc citado exexecutivos empreiteira falou jornalistas brasilia nesta tercafeira 18 governador santa catarina raimundo colombo psd rompeu silencio quase semana apos divulgacao conteudo delacoes exexecutivos odebrecht ministerio publico federal depoimentos delatores afirmam governador pedido dinheiro caixa 2 campanha outros politicos santa catarina citados videos
+1	colombo	colombo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	quebra	quebrar	VERB	VERB	_	0	root	_	TokenRange=8:14
+3	silencio	silencio	NOUN	NOUN	_	2	obj	_	TokenRange=15:23
+4	entrevista	entrevista	NOUN	NOUN	_	2	obj	_	TokenRange=24:34
+5	sobre	_	ADP	ADP	_	6	case	_	TokenRange=35:40
+6	delacoes	delacoe	NOUN	NOUN	_	4	nmod	_	TokenRange=41:49
+7	odebrecht	_	NOUN	NOUN	_	6	flat	_	TokenRange=50:59
+8	nenhum	_	DET	DET	_	9	det	_	TokenRange=60:66
+9	momento	momento	NOUN	NOUN	_	10	nsubj	_	TokenRange=67:74
+10	pedimos	pedir	VERB	VERB	_	2	parataxis	_	TokenRange=75:82
+11	ajuda	ajuda	NOUN	NOUN	_	10	obj	_	TokenRange=83:88
+12	caixa	caixa	NOUN	NOUN	_	11	appos	_	TokenRange=89:94
+13	2	_	NUM	NUM	NumType=Card	12	appos	_	TokenRange=95:96
+14	governador	governador	NOUN	NOUN	_	10	nsubj	_	TokenRange=97:107
+15	sc	_	X	PRON	_	14	appos	_	TokenRange=108:110
+16	citado	citar	VERB	VERB	_	14	acl	_	TokenRange=111:117
+17	exexecutivos	exexecutivo	ADJ	ADJ	_	14	amod	_	TokenRange=118:130
+18	empreiteira	empreiteiro	NOUN	NOUN	_	19	nsubj	_	TokenRange=131:142
+19	falou	falar	VERB	VERB	_	10	parataxis	_	TokenRange=143:148
+20	jornalistas	jornalista	NOUN	NOUN	_	19	nsubj	_	TokenRange=149:160
+21	brasilia	brasilia	NOUN	NOUN	_	20	appos	_	TokenRange=161:169
+22	nesta	_	ADP	ADP	_	23	case	_	TokenRange=170:175
+23	tercafeira	tercafeira	NOUN	NOUN	_	19	nmod	_	TokenRange=176:186
+24	18	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=187:189
+25	governador	governador	NOUN	NOUN	_	23	appos	_	TokenRange=190:200
+26	santa	santo	ADJ	ADJ	_	25	amod	_	TokenRange=201:206
+27	catarina	catarino	NOUN	NOUN	_	25	amod	_	TokenRange=207:215
+28	raimundo	raimundo	NOUN	NOUN	_	25	appos	_	TokenRange=216:224
+29	colombo	colombo	NOUN	NOUN	_	28	flat	_	TokenRange=225:232
+30	psd	_	NOUN	NOUN	_	28	flat	_	TokenRange=233:236
+31	rompeu	romper	VERB	VERB	_	2	parataxis	_	TokenRange=237:243
+32	silencio	silencio	NOUN	NOUN	_	31	obj	_	TokenRange=244:252
+33	quase	quase	ADV	ADV	_	34	advmod	_	TokenRange=253:258
+34	semana	semana	NOUN	NOUN	_	31	nmod	_	TokenRange=259:265
+35	apos	_	ADP	ADP	_	36	case	_	TokenRange=266:270
+36	divulgacao	divulgacao	NOUN	NOUN	_	31	nmod	_	TokenRange=271:281
+37	conteudo	conteudo	NOUN	NOUN	_	36	appos	_	TokenRange=282:290
+38	delacoes	delacoe	NOUN	NOUN	_	36	appos	_	TokenRange=291:299
+39	exexecutivos	exexecutivo	ADJ	ADJ	_	41	amod	_	TokenRange=300:312
+40	odebrecht	_	ADJ	ADJ	_	41	amod	_	TokenRange=313:322
+41	ministerio	ministerio	NOUN	NOUN	_	38	appos	_	TokenRange=323:333
+42	publico	_	ADJ	ADJ	_	41	amod	_	TokenRange=334:341
+43	federal	federal	ADJ	ADJ	_	41	amod	_	TokenRange=342:349
+44	depoimentos	depoimento	NOUN	NOUN	_	46	nsubj	_	TokenRange=350:361
+45	delatores	delator	NOUN	NOUN	_	44	amod	_	TokenRange=362:371
+46	afirmam	afirmar	VERB	VERB	_	31	parataxis	_	TokenRange=372:379
+47	governador	governador	NOUN	NOUN	_	46	obj	_	TokenRange=380:390
+48	pedido	pedido	VERB	VERB	_	47	acl	_	TokenRange=391:397
+49	dinheiro	dinheiro	NOUN	NOUN	_	48	obj	_	TokenRange=398:406
+50	caixa	caixa	NOUN	NOUN	_	48	appos	_	TokenRange=407:412
+51	2	_	NUM	NUM	NumType=Card	50	appos	_	TokenRange=413:414
+52	campanha	campanha	NOUN	NOUN	_	48	obj	_	TokenRange=415:423
+53	outros	_	DET	DET	_	54	det	_	TokenRange=424:430
+54	politicos	politico	NOUN	NOUN	_	52	appos	_	TokenRange=431:440
+55	santa	santo	ADJ	ADJ	_	58	amod	_	TokenRange=441:446
+56	catarina	catarino	ADJ	ADJ	_	54	amod	_	TokenRange=447:455
+57	citados	citar	VERB	VERB	_	58	acl	_	TokenRange=456:463
+58	videos	video	NOUN	NOUN	_	46	obj	_	SpaceAfter=No|TokenRange=464:470
+

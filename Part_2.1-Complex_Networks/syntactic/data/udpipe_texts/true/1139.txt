@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = luiz fux vota cassacao chapa dilmatemer ministro quinto votar acompanhando relator herman benjamin voto fux napoleao nunes admar gonzaga tarcisio neto votado absolvicao chapa ministro tribunal superior eleitoral tse luiz fux votou nesta sextafeira 9 cassacao chapa formada 2014 expresidente dilma rousseff presidente michel temer assista vivo julgamento quarto votar julgamento acao investiga campanha 2014 primeiro acompanhar voto relator herman benjamin condenacao ministro concluiu inconteste configuracao plutocratizacao processo politico eleicoes 2014
+1	luiz	luiz	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	fux	_	NOUN	NOUN	_	1	flat	_	TokenRange=5:8
+3	vota	votar	VERB	VERB	_	0	root	_	TokenRange=9:13
+4	cassacao	cassacao	NOUN	NOUN	_	3	obj	_	TokenRange=14:22
+5	chapa	chapa	NOUN	NOUN	_	3	obj	_	TokenRange=23:28
+6	dilmatemer	dilmatemer	NOUN	NOUN	_	5	flat	_	TokenRange=29:39
+7	ministro	ministro	NOUN	NOUN	_	5	flat	_	TokenRange=40:48
+8	quinto	_	ADJ	ADJ	_	9	amod	_	TokenRange=49:55
+9	votar	votar	NOUN	NOUN	_	1	appos	_	TokenRange=56:61
+10	acompanhando	acompanhar	VERB	VERB	_	9	acl	_	TokenRange=62:74
+11	relator	relator	NOUN	NOUN	_	10	obj	_	TokenRange=75:82
+12	herman	_	NOUN	NOUN	_	11	appos	_	TokenRange=83:89
+13	benjamin	_	PROPN	PNOUN	_	12	flat	_	TokenRange=90:98
+14	voto	voto	NOUN	NOUN	_	11	appos	_	TokenRange=99:103
+15	fux	_	NOUN	NOUN	_	14	appos	_	TokenRange=104:107
+16	napoleao	_	NOUN	NOUN	_	14	appos	_	TokenRange=108:116
+17	nunes	_	NOUN	NOUN	_	16	flat	_	TokenRange=117:122
+18	admar	admar	NOUN	NOUN	_	14	appos	_	TokenRange=123:128
+19	gonzaga	_	NOUN	NOUN	_	18	flat	_	TokenRange=129:136
+20	tarcisio	_	NOUN	NOUN	_	16	appos	_	TokenRange=137:145
+21	neto	neto	NOUN	NOUN	_	20	flat	_	TokenRange=146:150
+22	votado	votado	VERB	VERB	_	24	amod	_	TokenRange=151:157
+23	absolvicao	_	ADJ	ADJ	_	24	amod	_	TokenRange=158:168
+24	chapa	chapa	NOUN	NOUN	_	32	nsubj	_	TokenRange=169:174
+25	ministro	ministro	NOUN	NOUN	_	24	amod	_	TokenRange=175:183
+26	tribunal	tribunal	NOUN	NOUN	_	24	appos	_	TokenRange=184:192
+27	superior	superior	ADJ	ADJ	_	26	amod	_	TokenRange=193:201
+28	eleitoral	eleitoral	ADJ	ADJ	_	26	amod	_	TokenRange=202:211
+29	tse	_	NOUN	NOUN	_	24	appos	_	TokenRange=212:215
+30	luiz	luiz	NOUN	NOUN	_	32	nsubj	_	TokenRange=216:220
+31	fux	_	NOUN	NOUN	_	30	flat	_	TokenRange=221:224
+32	votou	votar	VERB	VERB	_	3	parataxis	_	TokenRange=225:230
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=231:236
+34	sextafeira	sextafeira	NOUN	NOUN	_	32	nmod	_	TokenRange=237:247
+35	9	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=248:249
+36	cassacao	cassacao	NOUN	NOUN	_	34	appos	_	TokenRange=250:258
+37	chapa	chapa	NOUN	NOUN	_	32	nsubj	_	TokenRange=259:264
+38	formada	formar	VERB	VERB	_	37	acl	_	TokenRange=265:272
+39	2014	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=273:277
+40	expresidente	expresidente	NOUN	NOUN	_	32	nsubj	_	TokenRange=278:290
+41	dilma	dilma	ADJ	ADJ	_	40	amod	_	TokenRange=291:296
+42	rousseff	rousseff	ADJ	ADJ	_	40	amod	_	TokenRange=297:305
+43	presidente	presidente	NOUN	NOUN	_	46	nsubj	_	TokenRange=306:316
+44	michel	michel	ADJ	ADJ	_	43	appos	_	TokenRange=317:323
+45	temer	temer	NOUN	NOUN	_	43	appos	_	TokenRange=324:329
+46	assista	assistir	VERB	VERB	_	3	parataxis	_	TokenRange=330:337
+47	vivo	vivo	ADJ	ADJ	_	46	xcomp	_	TokenRange=338:342
+48	julgamento	julgamento	NOUN	NOUN	_	46	obj	_	TokenRange=343:353
+49	quarto	_	ADJ	ADJ	_	50	amod	_	TokenRange=354:360
+50	votar	votar	VERB	VERB	_	46	advcl	_	TokenRange=361:366
+51	julgamento	julgamento	NOUN	NOUN	_	50	obj	_	TokenRange=367:377
+52	acao	acao	NOUN	NOUN	_	51	appos	_	TokenRange=378:382
+53	investiga	investigo	ADJ	ADJ	_	54	amod	_	TokenRange=383:392
+54	campanha	campanha	NOUN	NOUN	_	50	obj	_	TokenRange=393:401
+55	2014	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=402:406
+56	primeiro	primeiro	ADJ	ADJ	_	57	amod	_	TokenRange=407:415
+57	acompanhar	acompanhar	VERB	VERB	_	54	acl:relcl	_	TokenRange=416:426
+58	voto	voto	NOUN	NOUN	_	57	obj	_	TokenRange=427:431
+59	relator	relator	NOUN	NOUN	_	58	appos	_	TokenRange=432:439
+60	herman	_	NOUN	NOUN	_	58	appos	_	TokenRange=440:446
+61	benjamin	_	NOUN	NOUN	_	60	flat	_	TokenRange=447:455
+62	condenacao	_	ADJ	ADJ	_	63	amod	_	TokenRange=456:466
+63	ministro	ministro	NOUN	NOUN	_	64	nsubj	_	TokenRange=467:475
+64	concluiu	concluir	VERB	VERB	_	3	parataxis	_	TokenRange=476:484
+65	inconteste	inconteste	ADJ	ADJ	_	68	amod	_	TokenRange=485:495
+66	configuracao	configuracao	ADJ	ADJ	_	64	obj	_	TokenRange=496:508
+67	plutocratizacao	_	ADJ	ADJ	_	68	amod	_	TokenRange=509:524
+68	processo	processo	NOUN	NOUN	_	64	obj	_	TokenRange=525:533
+69	politico	politico	ADJ	ADJ	_	68	amod	_	TokenRange=534:542
+70	eleicoes	eleicoe	NOUN	NOUN	_	64	nmod	_	TokenRange=543:551
+71	2014	_	NUM	NUM	NumType=Card	70	nmod	_	SpaceAfter=No|TokenRange=552:556
+

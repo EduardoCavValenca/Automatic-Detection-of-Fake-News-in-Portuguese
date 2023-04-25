@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acabou lula condenado unanimidade segunda instancia victor laus encerrou voto seguiu gebran neto leandro paulsen julgamento recurso lula 3 desembargadores aumentaram pena determinada juiz sergio moro passa 9 anos meio 12 anos 1 mes prisao inicio cumprimento regime fechado petista condenado crimes corrupcao lavagem dinheiro caso apartamento guaruja decisao unanime diminui possibilidade recursos expresidente podera ir cadeia questao meses
+1	acabou	acabar	VERB	VERB	_	0	root	_	TokenRange=0:6
+2	lula	lula	NOUN	NOUN	_	1	nsubj	_	TokenRange=7:11
+3	condenado	condenar	VERB	VERB	_	1	xcomp	_	TokenRange=12:21
+4	unanimidade	unanimidade	NOUN	NOUN	_	1	obj	_	TokenRange=22:33
+5	segunda	segundo	ADJ	ADJ	_	6	amod	_	TokenRange=34:41
+6	instancia	instancia	NOUN	NOUN	_	1	nsubj	_	TokenRange=42:51
+7	victor	victor	NOUN	NOUN	_	9	nsubj	_	TokenRange=52:58
+8	laus	_	NOUN	NOUN	_	7	flat	_	TokenRange=59:63
+9	encerrou	encerrar	VERB	VERB	_	1	parataxis	_	TokenRange=64:72
+10	voto	voto	NOUN	NOUN	_	9	obj	_	TokenRange=73:77
+11	seguiu	_	NOUN	NOUN	_	10	appos	_	TokenRange=78:84
+12	gebran	_	NOUN	NOUN	_	9	obj	_	TokenRange=85:91
+13	neto	neto	NOUN	NOUN	_	12	flat	_	TokenRange=92:96
+14	leandro	leandro	NOUN	NOUN	_	12	appos	_	TokenRange=97:104
+15	paulsen	_	ADJ	ADJ	_	14	flat	_	TokenRange=105:112
+16	julgamento	julgamento	NOUN	NOUN	_	14	appos	_	TokenRange=113:123
+17	recurso	recurso	NOUN	NOUN	_	21	nsubj	_	TokenRange=124:131
+18	lula	lula	NOUN	NOUN	_	17	flat	_	TokenRange=132:136
+19	3	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=137:138
+20	desembargadores	desembargador	NOUN	NOUN	_	21	nsubj	_	TokenRange=139:154
+21	aumentaram	aumentar	VERB	VERB	_	1	parataxis	_	TokenRange=155:165
+22	pena	_	NOUN	NOUN	_	21	obj	_	TokenRange=166:170
+23	determinada	determinado	ADJ	ADJ	_	22	amod	_	TokenRange=171:182
+24	juiz	juiz	NOUN	NOUN	_	21	nsubj	_	TokenRange=183:187
+25	sergio	sergio	ADJ	ADJ	_	24	appos	_	TokenRange=188:194
+26	moro	moro	NOUN	NOUN	_	24	flat	_	TokenRange=195:199
+27	passa	passar	VERB	VERB	_	21	parataxis	_	TokenRange=200:205
+28	9	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=206:207
+29	anos	ano	NOUN	NOUN	_	27	nmod	_	TokenRange=208:212
+30	meio	meio	NOUN	NOUN	_	32	advmod	_	TokenRange=213:217
+31	12	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=218:220
+32	anos	ano	NOUN	NOUN	_	27	nmod	_	TokenRange=221:225
+33	1	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=226:227
+34	mes	me	NOUN	NOUN	_	27	nmod	_	TokenRange=228:231
+35	prisao	prisao	NOUN	NOUN	_	27	obj	_	TokenRange=232:238
+36	inicio	_	ADJ	ADJ	_	37	amod	_	TokenRange=239:245
+37	cumprimento	cumprimento	NOUN	NOUN	_	35	nmod	_	TokenRange=246:257
+38	regime	regime	NOUN	NOUN	_	37	flat	_	TokenRange=258:264
+39	fechado	fechado	ADJ	ADJ	_	40	amod	_	TokenRange=265:272
+40	petista	petista	NOUN	NOUN	_	37	appos	_	TokenRange=273:280
+41	condenado	condenar	VERB	VERB	_	40	acl	_	TokenRange=281:290
+42	crimes	crime	NOUN	NOUN	_	41	obj	_	TokenRange=291:297
+43	corrupcao	corrupcao	ADJ	ADJ	_	44	amod	_	TokenRange=298:307
+44	lavagem	lavagem	NOUN	NOUN	_	41	obj	_	TokenRange=308:315
+45	dinheiro	dinheiro	NOUN	NOUN	_	44	flat	_	TokenRange=316:324
+46	caso	caso	NOUN	NOUN	_	51	mark	_	TokenRange=325:329
+47	apartamento	apartamento	NOUN	NOUN	_	51	nsubj	_	TokenRange=330:341
+48	guaruja	guaruja	NOUN	NOUN	_	49	amod	_	TokenRange=342:349
+49	decisao	decisao	NOUN	NOUN	_	51	nsubj	_	TokenRange=350:357
+50	unanime	unanime	ADJ	ADJ	_	49	amod	_	TokenRange=358:365
+51	diminui	diminuir	VERB	VERB	_	27	parataxis	_	TokenRange=366:373
+52	possibilidade	possibilidade	NOUN	NOUN	_	51	obj	_	TokenRange=374:387
+53	recursos	recurso	ADJ	ADJ	_	52	amod	_	TokenRange=388:396
+54	expresidente	expresidente	NOUN	NOUN	_	56	nsubj	_	TokenRange=397:409
+55	podera	poder	AUX	AUX	_	56	aux	_	TokenRange=410:416
+56	ir	ir	VERB	VERB	_	51	parataxis	_	TokenRange=417:419
+57	cadeia	cadeia	NOUN	NOUN	_	56	obj	_	TokenRange=420:426
+58	questao	questao	VERB	VERB	_	59	case	_	TokenRange=427:434
+59	meses	mês	NOUN	NOUN	_	56	nmod	_	SpaceAfter=No|TokenRange=435:440
+

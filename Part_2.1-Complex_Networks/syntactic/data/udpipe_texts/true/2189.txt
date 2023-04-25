@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = auditor cloves costa oliveira receita federal alvo operacao baixo augusta deflagrada nesta segundafeira 11 tentou maquiar patrimonio apos delacao jbs tornado publica maio fiscal suspeito beneficiario esquema propina r 160 milhoes agilizar liberacao creditos tributarios r 2 bilhoes fisco jbs fiscal chegou vender ferrari noticia venda ferrari pouco tempo tratase auditor exatamente conta monitoramento feito receita federal desfazendo patrimonio afirmou procuradora republica anamara osorio silva ministerio publico federal paulo segundo delegado policia federal alberto ferreira neto auditor fez maquiagem patrimonio delegado apontou auditor pegou emprestimo r 500 mil
+1	auditor	auditor	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:7
+2	cloves	_	NOUN	NOUN	_	1	amod	_	TokenRange=8:14
+3	costa	_	NOUN	NOUN	_	1	appos	_	TokenRange=15:20
+4	oliveira	oliveira	ADJ	ADJ	_	5	amod	_	TokenRange=21:29
+5	receita	receita	NOUN	NOUN	_	1	appos	_	TokenRange=30:37
+6	federal	federal	ADJ	ADJ	_	5	amod	_	TokenRange=38:45
+7	alvo	alvo	NOUN	NOUN	_	1	appos	_	TokenRange=46:50
+8	operacao	operacao	NOUN	NOUN	_	1	appos	_	TokenRange=51:59
+9	baixo	baixo	ADJ	ADJ	_	8	amod	_	TokenRange=60:65
+10	augusta	_	NOUN	NOUN	_	8	appos	_	TokenRange=66:73
+11	deflagrada	deflagrado	ADJ	ADJ	_	8	amod	_	TokenRange=74:84
+12	nesta	_	ADP	ADP	_	13	case	_	TokenRange=85:90
+13	segundafeira	_	NOUN	NOUN	_	11	nmod	_	TokenRange=91:103
+14	11	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=104:106
+15	tentou	tentar	VERB	VERB	_	0	root	_	TokenRange=107:113
+16	maquiar	maquiar	VERB	VERB	_	15	xcomp	_	TokenRange=114:121
+17	patrimonio	patrimonio	NOUN	NOUN	_	16	obj	_	TokenRange=122:132
+18	apos	_	ADP	ADP	_	19	case	_	TokenRange=133:137
+19	delacao	delacao	NOUN	NOUN	_	16	nmod	_	TokenRange=138:145
+20	jbs	_	NOUN	NOUN	_	19	appos	_	TokenRange=146:149
+21	tornado	tornado	NOUN	NOUN	_	23	amod	_	TokenRange=150:157
+22	publica	publico	ADJ	ADJ	_	23	amod	_	TokenRange=158:165
+23	maio	_	NOUN	NOUN	_	1	appos	_	TokenRange=166:170
+24	fiscal	fiscal	ADJ	ADJ	_	23	amod	_	TokenRange=171:177
+25	suspeito	suspeito	ADJ	ADJ	_	23	amod	_	TokenRange=178:186
+26	beneficiario	beneficiario	ADJ	ADJ	_	23	amod	_	TokenRange=187:199
+27	esquema	esquema	NOUN	NOUN	_	23	appos	_	TokenRange=200:207
+28	propina	propino	ADJ	ADJ	_	27	amod	_	TokenRange=208:215
+29	r	r	NOUN	NOUN	_	27	appos	_	TokenRange=216:217
+30	160	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=218:221
+31	milhoes	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=222:229
+32	agilizar	agilizar	VERB	VERB	_	15	parataxis	_	TokenRange=230:238
+33	liberacao	liberacao	NOUN	NOUN	_	32	obj	_	TokenRange=239:248
+34	creditos	credito	NOUN	NOUN	_	32	obj	_	TokenRange=249:257
+35	tributarios	tributario	ADJ	ADJ	_	34	amod	_	TokenRange=258:269
+36	r	r	NOUN	NOUN	_	32	mark	_	TokenRange=270:271
+37	2	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=272:273
+38	bilhoes	_	NOUN	NOUN	_	34	nummod	_	TokenRange=274:281
+39	fisco	fisco	NOUN	NOUN	_	32	obj	_	TokenRange=282:287
+40	jbs	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=288:291
+41	fiscal	fiscal	ADJ	ADJ	_	40	amod	_	TokenRange=292:298
+42	chegou	chegar	AUX	AUX	_	43	aux	_	TokenRange=299:305
+43	vender	vender	VERB	VERB	_	32	parataxis	_	TokenRange=306:312
+44	ferrari	ferrar	NOUN	NOUN	_	43	obj	_	TokenRange=313:320
+45	noticia	noticia	NOUN	NOUN	_	34	appos	_	TokenRange=321:328
+46	venda	venda	NOUN	NOUN	_	43	obj	_	TokenRange=329:334
+47	ferrari	ferrar	NOUN	NOUN	_	46	flat	_	TokenRange=335:342
+48	pouco	_	DET	DET	_	49	det	_	TokenRange=343:348
+49	tempo	tempo	NOUN	NOUN	_	50	nsubj	_	TokenRange=349:354
+50	tratase	_	VERB	VERB	_	53	parataxis	_	TokenRange=355:362
+51	auditor	auditor	NOUN	NOUN	_	50	obj	_	TokenRange=363:370
+52	exatamente	exatamente	ADV	ADV	_	53	advmod	_	TokenRange=371:381
+53	conta	contar	VERB	VERB	_	15	parataxis	_	TokenRange=382:387
+54	monitoramento	monitoramento	NOUN	NOUN	_	53	obj	_	TokenRange=388:401
+55	feito	_	VERB	VERB	_	54	acl	_	TokenRange=402:407
+56	receita	receita	NOUN	NOUN	_	55	obj	_	TokenRange=408:415
+57	federal	federal	ADJ	ADJ	_	56	amod	_	TokenRange=416:423
+58	desfazendo	desfazer	VERB	VERB	_	56	acl	_	TokenRange=424:434
+59	patrimonio	patrimonio	NOUN	NOUN	_	58	obj	_	TokenRange=435:445
+60	afirmou	afirmar	VERB	VERB	_	15	parataxis	_	TokenRange=446:453
+61	procuradora	procurador	NOUN	NOUN	_	60	nsubj	_	TokenRange=454:465
+62	republica	republico	ADJ	ADJ	_	61	amod	_	TokenRange=466:475
+63	anamara	_	NOUN	NOUN	_	61	appos	_	TokenRange=476:483
+64	osorio	_	NOUN	NOUN	_	63	flat	_	TokenRange=484:490
+65	silva	silva	ADJ	ADJ	_	63	flat	_	TokenRange=491:496
+66	ministerio	ministerio	NOUN	NOUN	_	61	appos	_	TokenRange=497:507
+67	publico	_	ADJ	ADJ	_	66	amod	_	TokenRange=508:515
+68	federal	federal	ADJ	ADJ	_	66	amod	_	TokenRange=516:523
+69	paulo	_	NOUN	NOUN	_	66	appos	_	TokenRange=524:529
+70	segundo	segundo	ADJ	ADJ	_	71	amod	_	TokenRange=530:537
+71	delegado	delegado	NOUN	NOUN	_	78	nsubj	_	TokenRange=538:546
+72	policia	policia	NOUN	NOUN	_	71	appos	_	TokenRange=547:554
+73	federal	federal	ADJ	ADJ	_	72	amod	_	TokenRange=555:562
+74	alberto	alberto	NOUN	NOUN	_	71	appos	_	TokenRange=563:570
+75	ferreira	_	NOUN	NOUN	_	74	flat	_	TokenRange=571:579
+76	neto	neto	ADJ	ADJ	_	74	amod	_	TokenRange=580:584
+77	auditor	auditor	NOUN	NOUN	_	78	nsubj	_	TokenRange=585:592
+78	fez	fazer	VERB	VERB	_	60	conj	_	TokenRange=593:596
+79	maquiagem	maquiagem	NOUN	NOUN	_	78	obj	_	TokenRange=597:606
+80	patrimonio	patrimonio	ADJ	ADJ	_	79	amod	_	TokenRange=607:617
+81	delegado	delegado	NOUN	NOUN	_	79	amod	_	TokenRange=618:626
+82	apontou	apontar	VERB	VERB	_	78	conj	_	TokenRange=627:634
+83	auditor	auditor	NOUN	NOUN	_	84	obj	_	TokenRange=635:642
+84	pegou	pegar	VERB	VERB	_	82	ccomp	_	TokenRange=643:648
+85	emprestimo	emprestimo	NOUN	NOUN	_	84	obj	_	TokenRange=649:659
+86	r	r	NOUN	NOUN	_	85	flat	_	TokenRange=660:661
+87	500	_	NUM	NUM	NumType=Card	88	nummod	_	TokenRange=662:665
+88	mil	_	NUM	NUM	NumType=Card	85	nummod	_	SpaceAfter=No|TokenRange=666:669
+

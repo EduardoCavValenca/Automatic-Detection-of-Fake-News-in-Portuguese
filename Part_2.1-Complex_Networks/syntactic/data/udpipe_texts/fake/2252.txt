@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cade lula pf chega reforcar seguranca senado expresidente pinote ditado deve teme combina expresidente petista alguns agentes policia federal chegaram senado simplesmente reforcar seguranca plenario durante sessao impeachment evitar futuros desentendimentos e/ou agressoes parlamentares lula ficou pouco inquieto abandonou sessao avisar companheiros ali calma lula ainda chegou hora
+1	cade	cade	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=5:9
+3	pf	_	NOUN	NOUN	_	1	appos	_	TokenRange=10:12
+4	chega	chegar	VERB	VERB	_	0	root	_	TokenRange=13:18
+5	reforcar	reforcar	VERB	VERB	_	4	xcomp	_	TokenRange=19:27
+6	seguranca	_	NOUN	NOUN	_	5	obj	_	TokenRange=28:37
+7	senado	senado	NOUN	NOUN	_	8	amod	_	TokenRange=38:44
+8	expresidente	expresidente	NOUN	NOUN	_	12	nsubj	_	TokenRange=45:57
+9	pinote	pinote	NOUN	NOUN	_	8	flat	_	TokenRange=58:64
+10	ditado	ditado	ADJ	ADJ	_	12	amod	_	TokenRange=65:71
+11	deve	dever	AUX	AUX	_	12	aux	_	TokenRange=72:76
+12	teme	temer	VERB	VERB	_	5	conj	_	TokenRange=77:81
+13	combina	combinar	VERB	VERB	_	12	ccomp	_	TokenRange=82:89
+14	expresidente	expresidente	NOUN	NOUN	_	13	obj	_	TokenRange=90:102
+15	petista	petista	ADJ	ADJ	_	14	amod	_	TokenRange=103:110
+16	alguns	_	DET	DET	_	17	det	_	TokenRange=111:117
+17	agentes	agente	NOUN	NOUN	_	20	nsubj	_	TokenRange=118:125
+18	policia	policia	NOUN	NOUN	_	17	appos	_	TokenRange=126:133
+19	federal	federal	ADJ	ADJ	_	17	amod	_	TokenRange=134:141
+20	chegaram	chegar	VERB	VERB	_	12	aux	_	TokenRange=142:150
+21	senado	senado	NOUN	NOUN	_	20	obj	_	TokenRange=151:157
+22	simplesmente	simplesmente	ADV	ADV	_	23	advmod	_	TokenRange=158:170
+23	reforcar	reforcar	VERB	VERB	_	20	xcomp	_	TokenRange=171:179
+24	seguranca	_	NOUN	NOUN	_	23	obj	_	TokenRange=180:189
+25	plenario	plenario	ADJ	ADJ	_	24	amod	_	TokenRange=190:198
+26	durante	_	ADP	ADP	_	27	case	_	TokenRange=199:206
+27	sessao	sessao	NOUN	NOUN	_	29	nmod	_	TokenRange=207:213
+28	impeachment	impeachment	NOUN	NOUN	_	29	nmod	_	TokenRange=214:225
+29	evitar	evitar	VERB	VERB	_	23	advcl	_	TokenRange=226:232
+30	futuros	futuro	ADJ	ADJ	_	31	amod	_	TokenRange=233:240
+31	desentendimentos	desentendimento	NOUN	NOUN	_	29	obj	_	TokenRange=241:257
+32	e/ou	e/ou	CCONJ	CONJ	_	33	cc	_	TokenRange=258:262
+33	agressoes	agressoe	NOUN	NOUN	_	31	conj	_	TokenRange=263:272
+34	parlamentares	parlamentar	ADJ	ADJ	_	33	amod	_	TokenRange=273:286
+35	lula	_	PRON	NOUN	_	36	nsubj	_	TokenRange=287:291
+36	ficou	ficar	VERB	VERB	_	29	conj	_	TokenRange=292:297
+37	pouco	pouco	ADV	ADV	_	38	advmod	_	TokenRange=298:303
+38	inquieto	inquieto	ADJ	ADJ	_	36	xcomp	_	TokenRange=304:312
+39	abandonou	abandonar	VERB	VERB	_	36	csubj	_	TokenRange=313:322
+40	sessao	sessao	NOUN	NOUN	_	39	obj	_	TokenRange=323:329
+41	avisar	avisar	VERB	VERB	_	39	ccomp	_	TokenRange=330:336
+42	companheiros	companheiro	NOUN	NOUN	_	41	obj	_	TokenRange=337:349
+43	ali	ali	ADV	ADV	_	44	advmod	_	TokenRange=350:353
+44	calma	calmo	ADJ	ADJ	_	42	amod	_	TokenRange=354:359
+45	lula	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=360:364
+46	ainda	ainda	ADV	ADV	_	47	advmod	_	TokenRange=365:370
+47	chegou	chegar	VERB	VERB	_	36	conj	_	TokenRange=371:377
+48	hora	hora	ADV	ADV	_	47	advmod	_	SpaceAfter=No|TokenRange=378:382
+

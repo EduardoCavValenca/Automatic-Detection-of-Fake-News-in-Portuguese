@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tropa rua porque sensacao seguranca voltou diz interventor general walter braga netto disse pode comparar indices criminalidade 2018 periodo 2017 rio interventor federal seguranca rio general walter braga netto negou nesta quartafeira 28 intervencao
+1	tropa	tropa	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:5
+2	rua	rua	NOUN	NOUN	_	1	flat	_	TokenRange=6:9
+3	porque	_	CCONJ	CONJ	_	7	mark	_	TokenRange=10:16
+4	sensacao	sensacao	NOUN	NOUN	_	7	nsubj	_	TokenRange=17:25
+5	seguranca	_	NOUN	NOUN	_	4	flat	_	TokenRange=26:35
+6	voltou	voltar	AUX	AUX	_	7	advcl	_	TokenRange=36:42
+7	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=43:46
+8	interventor	interventor	NOUN	NOUN	_	7	nsubj	_	TokenRange=47:58
+9	general	general	ADJ	ADJ	_	8	amod	_	TokenRange=59:66
+10	walter	_	NOUN	NOUN	_	8	appos	_	TokenRange=67:73
+11	braga	braga	NOUN	NOUN	_	10	flat	_	TokenRange=74:79
+12	netto	netto	NOUN	NOUN	_	10	flat	_	TokenRange=80:85
+13	disse	dizer	VERB	VERB	_	7	conj	_	TokenRange=86:91
+14	pode	_	AUX	AUX	_	15	aux	_	TokenRange=92:96
+15	comparar	comparar	VERB	VERB	_	13	ccomp	_	TokenRange=97:105
+16	indices	_	NOUN	NOUN	_	15	obj	_	TokenRange=106:113
+17	criminalidade	criminalidade	NOUN	NOUN	_	16	flat	_	TokenRange=114:127
+18	2018	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=128:132
+19	periodo	periodo	NOUN	NOUN	_	16	appos	_	TokenRange=133:140
+20	2017	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=141:145
+21	rio	rio	NOUN	NOUN	_	19	appos	_	TokenRange=146:149
+22	interventor	interventor	NOUN	NOUN	_	19	appos	_	TokenRange=150:161
+23	federal	federal	ADJ	ADJ	_	22	amod	_	TokenRange=162:169
+24	seguranca	_	NOUN	NOUN	_	22	appos	_	TokenRange=170:179
+25	rio	rio	ADJ	ADJ	_	22	amod	_	TokenRange=180:183
+26	general	general	ADJ	ADJ	_	22	amod	_	TokenRange=184:191
+27	walter	_	NOUN	NOUN	_	26	appos	_	TokenRange=192:198
+28	braga	braga	NOUN	NOUN	_	27	flat	_	TokenRange=199:204
+29	netto	netto	ADJ	ADJ	_	27	flat	_	TokenRange=205:210
+30	negou	negar	VERB	VERB	_	7	parataxis	_	TokenRange=211:216
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=217:222
+32	quartafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=223:234
+33	28	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=235:237
+34	intervencao	intervencao	NOUN	NOUN	_	32	appos	_	SpaceAfter=No|TokenRange=238:249
+

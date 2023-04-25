@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = preso lava jato bendine diz encontrou dono odebrecht local oculto expresidente petrobras dois operadores financeiros presos 42 fase operacao prestaram depoimento pf nesta segundafeira 31 expresidente petrobras banco brasil aldemir bendine alvos 42 fase lava jato disse depoimento policia federal pf encontrou emilio odebrecht dono grupo odebrecht local oculto bendine relatou encontrou andre gustavo outro alvo 42 etapa operacao fernando reis exexecutivo
+1	preso	_	VERB	VERB	_	5	acl	_	TokenRange=0:5
+2	lava	lava	NOUN	NOUN	_	1	nsubj	_	TokenRange=6:10
+3	jato	jato	NOUN	NOUN	_	2	flat	_	TokenRange=11:15
+4	bendine	bendine	NOUN	NOUN	_	5	nsubj	_	TokenRange=16:23
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=24:27
+6	encontrou	encontrar	VERB	VERB	_	5	xcomp	_	TokenRange=28:37
+7	dono	dono	NOUN	NOUN	_	6	obj	_	TokenRange=38:42
+8	odebrecht	odebrecht	NOUN	NOUN	_	7	flat	_	TokenRange=43:52
+9	local	local	ADJ	ADJ	_	7	amod	_	TokenRange=53:58
+10	oculto	oculto	ADJ	ADJ	_	7	amod	_	TokenRange=59:65
+11	expresidente	expresidente	NOUN	NOUN	_	7	appos	_	TokenRange=66:78
+12	petrobras	petrobra	NOUN	NOUN	_	14	amod	_	TokenRange=79:88
+13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=89:93
+14	operadores	operador	NOUN	NOUN	_	11	appos	_	TokenRange=94:104
+15	financeiros	financeiro	ADJ	ADJ	_	14	amod	_	TokenRange=105:116
+16	presos	preso	ADJ	ADJ	_	14	amod	_	TokenRange=117:123
+17	42	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=124:126
+18	fase	fase	NOUN	NOUN	_	20	nsubj	_	TokenRange=127:131
+19	operacao	operacao	NOUN	NOUN	_	18	appos	_	TokenRange=132:140
+20	prestaram	prestar	VERB	VERB	_	14	acl:relcl	_	TokenRange=141:150
+21	depoimento	depoimento	NOUN	NOUN	_	20	obj	_	TokenRange=151:161
+22	pf	_	NOUN	NOUN	_	21	appos	_	TokenRange=162:164
+23	nesta	_	ADP	ADP	_	24	case	_	TokenRange=165:170
+24	segundafeira	_	NOUN	NOUN	_	20	nmod	_	TokenRange=171:183
+25	31	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=184:186
+26	expresidente	expresidente	NOUN	NOUN	_	24	appos	_	TokenRange=187:199
+27	petrobras	petrobra	ADJ	ADJ	_	26	amod	_	TokenRange=200:209
+28	banco	banco	NOUN	NOUN	_	26	appos	_	TokenRange=210:215
+29	brasil	brasil	ADJ	ADJ	_	26	amod	_	TokenRange=216:222
+30	aldemir	aldemir	NOUN	NOUN	_	26	appos	_	TokenRange=223:230
+31	bendine	bendine	NOUN	NOUN	_	30	flat	_	TokenRange=231:238
+32	alvos	alvo	NOUN	NOUN	_	30	appos	_	TokenRange=239:244
+33	42	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=245:247
+34	fase	fase	NOUN	NOUN	_	37	nsubj	_	TokenRange=248:252
+35	lava	lava	VERB	VERB	_	34	appos	_	TokenRange=253:257
+36	jato	jato	NOUN	NOUN	_	35	flat	_	TokenRange=258:262
+37	disse	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=263:268
+38	depoimento	depoimento	NOUN	NOUN	_	37	obj	_	TokenRange=269:279
+39	policia	policia	NOUN	NOUN	_	37	nsubj	_	TokenRange=280:287
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=288:295
+41	pf	_	NOUN	NOUN	_	39	amod	_	TokenRange=296:298
+42	encontrou	encontrar	VERB	VERB	_	37	parataxis	_	TokenRange=299:308
+43	emilio	emilio	NOUN	NOUN	_	42	obj	_	TokenRange=309:315
+44	odebrecht	_	NOUN	NOUN	_	43	flat	_	TokenRange=316:325
+45	dono	dono	ADJ	ADJ	_	46	amod	_	TokenRange=326:330
+46	grupo	grupo	NOUN	NOUN	_	43	appos	_	TokenRange=331:336
+47	odebrecht	_	NOUN	NOUN	_	46	appos	_	TokenRange=337:346
+48	local	local	ADJ	ADJ	_	47	amod	_	TokenRange=347:352
+49	oculto	oculto	ADJ	ADJ	_	46	amod	_	TokenRange=353:359
+50	bendine	bendine	NOUN	NOUN	_	51	nsubj	_	TokenRange=360:367
+51	relatou	relatar	VERB	VERB	_	42	conj	_	TokenRange=368:375
+52	encontrou	encontrar	VERB	VERB	_	51	xcomp	_	TokenRange=376:385
+53	andre	andre	NOUN	NOUN	_	52	obj	_	TokenRange=386:391
+54	gustavo	gustavo	NOUN	NOUN	_	53	flat	_	TokenRange=392:399
+55	outro	_	DET	DET	_	56	det	_	TokenRange=400:405
+56	alvo	alvo	NOUN	NOUN	_	52	obj	_	TokenRange=406:410
+57	42	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=411:413
+58	etapa	etapa	NOUN	NOUN	_	52	obj	_	TokenRange=414:419
+59	operacao	operacao	NOUN	NOUN	_	58	appos	_	TokenRange=420:428
+60	fernando	fernando	NOUN	NOUN	_	58	appos	_	TokenRange=429:437
+61	reis	reis	NOUN	NOUN	_	60	flat	_	TokenRange=438:442
+62	exexecutivo	exexecutivo	ADJ	ADJ	_	60	amod	_	SpaceAfter=No|TokenRange=443:454
+

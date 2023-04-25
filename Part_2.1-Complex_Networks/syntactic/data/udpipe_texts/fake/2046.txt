@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = crime renan autorizou compra equipamentos eletronicos obstruir trabalho policia federal senado autorizacao presidente renan calheiros gastou r 400 mil adquirir maletas antigrampo equipamentos eletronicos comprados uso policia legislativa intuito captar escutas ambientais grampos telefonicos compra autorizada renan ilegal uso maletas antigrampo objetivo principal rastrear equipamentos eletronicos instalados policia federal devidamente autorizados justica crime obstrucao justica assim lula renan ir pra cadeia
+1	crime	crime	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	renan	_	ADJ	ADJ	_	1	amod	_	TokenRange=6:11
+3	autorizou	autorizar	VERB	VERB	_	0	root	_	TokenRange=12:21
+4	compra	compra	NOUN	NOUN	_	3	obj	_	TokenRange=22:28
+5	equipamentos	equipamento	NOUN	NOUN	_	4	appos	_	TokenRange=29:41
+6	eletronicos	eletronico	ADJ	ADJ	_	5	amod	_	TokenRange=42:53
+7	obstruir	obstruir	VERB	VERB	_	4	acl	_	TokenRange=54:62
+8	trabalho	trabalho	NOUN	NOUN	_	7	obj	_	TokenRange=63:71
+9	policia	policia	NOUN	NOUN	_	4	appos	_	TokenRange=72:79
+10	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=80:87
+11	senado	senado	NOUN	NOUN	_	9	appos	_	TokenRange=88:94
+12	autorizacao	autorizacao	ADJ	ADJ	_	13	amod	_	TokenRange=95:106
+13	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=107:117
+14	renan	renan	ADJ	ADJ	_	13	amod	_	TokenRange=118:123
+15	calheiros	calheiro	NOUN	NOUN	_	13	amod	_	TokenRange=124:133
+16	gastou	gastar	VERB	VERB	_	3	parataxis	_	TokenRange=134:140
+17	r	r	NOUN	NOUN	_	16	obj	_	TokenRange=141:142
+18	400	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=143:146
+19	mil	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=147:150
+20	adquirir	adquirir	VERB	VERB	_	16	ccomp	_	TokenRange=151:159
+21	maletas	maleta	NOUN	NOUN	_	20	obj	_	TokenRange=160:167
+22	antigrampo	antigrampo	NOUN	NOUN	_	21	amod	_	TokenRange=168:178
+23	equipamentos	equipamento	NOUN	NOUN	_	21	appos	_	TokenRange=179:191
+24	eletronicos	eletronico	ADJ	ADJ	_	23	amod	_	TokenRange=192:203
+25	comprados	comprar	VERB	VERB	_	23	acl	_	TokenRange=204:213
+26	uso	uso	NOUN	NOUN	_	23	amod	_	TokenRange=214:217
+27	policia	policia	NOUN	NOUN	_	23	appos	_	TokenRange=218:225
+28	legislativa	legislativo	ADJ	ADJ	_	27	amod	_	TokenRange=226:237
+29	intuito	intuito	ADJ	ADJ	_	30	mark	_	TokenRange=238:245
+30	captar	captar	VERB	VERB	_	3	parataxis	_	TokenRange=246:252
+31	escutas	escuta	NOUN	NOUN	_	30	obj	_	TokenRange=253:260
+32	ambientais	ambiental	ADJ	ADJ	_	31	amod	_	TokenRange=261:271
+33	grampos	grampo	NOUN	NOUN	_	31	appos	_	TokenRange=272:279
+34	telefonicos	telefonico	ADJ	ADJ	_	33	amod	_	TokenRange=280:291
+35	compra	compra	NOUN	NOUN	_	30	obj	_	TokenRange=292:298
+36	autorizada	autorizado	ADJ	ADJ	_	35	amod	_	TokenRange=299:309
+37	renan	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=310:315
+38	ilegal	ilegal	ADJ	ADJ	_	37	amod	_	TokenRange=316:322
+39	uso	usar	VERB	VERB	_	35	parataxis	_	TokenRange=323:326
+40	maletas	maleta	NOUN	NOUN	_	39	obj	_	TokenRange=327:334
+41	antigrampo	antigrampo	ADJ	ADJ	_	40	amod	_	TokenRange=335:345
+42	objetivo	objetivo	NOUN	NOUN	_	39	obj	_	TokenRange=346:354
+43	principal	principal	ADJ	ADJ	_	42	amod	_	TokenRange=355:364
+44	rastrear	rastrear	VERB	VERB	_	42	acl:inf	_	TokenRange=365:373
+45	equipamentos	equipamento	NOUN	NOUN	_	44	obj	_	TokenRange=374:386
+46	eletronicos	eletronico	ADJ	ADJ	_	45	amod	_	TokenRange=387:398
+47	instalados	instalado	ADJ	ADJ	_	45	amod	_	TokenRange=399:409
+48	policia	policia	NOUN	NOUN	_	45	appos	_	TokenRange=410:417
+49	federal	federal	ADJ	ADJ	_	48	amod	_	TokenRange=418:425
+50	devidamente	devidamente	ADV	ADV	_	51	advmod	_	TokenRange=426:437
+51	autorizados	autorizado	ADJ	ADJ	_	48	amod	_	TokenRange=438:449
+52	justica	justico	ADJ	ADJ	_	53	amod	_	TokenRange=450:457
+53	crime	crime	NOUN	NOUN	_	48	appos	_	TokenRange=458:463
+54	obstrucao	obstrucao	ADJ	ADJ	_	53	amod	_	TokenRange=464:473
+55	justica	justico	ADJ	ADJ	_	53	amod	_	TokenRange=474:481
+56	assim	assim	ADV	ADV	_	59	advmod	_	TokenRange=482:487
+57	lula	lula	NOUN	NOUN	_	59	nsubj	_	TokenRange=488:492
+58	renan	_	ADJ	NOUN	_	57	flat	_	TokenRange=493:498
+59	ir	ir	VERB	VERB	_	44	parataxis	_	TokenRange=499:501
+60	pra	_	ADP	ADP	_	61	case	_	TokenRange=502:505
+61	cadeia	cadeia	NOUN	NOUN	_	59	nmod	_	SpaceAfter=No|TokenRange=506:512
+

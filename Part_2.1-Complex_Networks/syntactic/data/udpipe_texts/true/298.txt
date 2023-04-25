@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pmdb ataca trama tirar temer poder citar delatores exprocuradorgeral rodrigo janot presidente diz propaganda partidaria verdade libertadora brasilia serie filmes gravados propaganda partidaria pmdb comecarao veiculados partir noite desta quintafeira 16 partido escolheu atacar trama supostamente armada tirar presidente michel temer poder alem menos 11 videos 30 segundos estarao insercoes diarias partido trara mote trama vencida programa dia 28 dez minutos duracao insercoes comecam
+1	pmdb	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	ataca	atacar	VERB	VERB	_	13	ccomp	_	TokenRange=5:10
+3	trama	trama	NOUN	NOUN	_	2	obj	_	TokenRange=11:16
+4	tirar	tirar	VERB	VERB	_	2	ccomp	_	TokenRange=17:22
+5	temer	temer	NOUN	NOUN	_	4	obj	_	TokenRange=23:28
+6	poder	poder	AUX	AUX	_	7	aux	_	TokenRange=29:34
+7	citar	citar	VERB	VERB	_	2	ccomp	_	TokenRange=35:40
+8	delatores	delator	NOUN	NOUN	_	7	obj	_	TokenRange=41:50
+9	exprocuradorgeral	exprocuradorgeral	ADJ	ADJ	_	8	amod	_	TokenRange=51:68
+10	rodrigo	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=69:76
+11	janot	_	NOUN	NOUN	_	10	flat	_	TokenRange=77:82
+12	presidente	presidente	NOUN	NOUN	_	13	nsubj	_	TokenRange=83:93
+13	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=94:97
+14	propaganda	propaganda	NOUN	NOUN	_	13	obj	_	TokenRange=98:108
+15	partidaria	partidar	ADJ	ADJ	_	14	amod	_	TokenRange=109:119
+16	verdade	verdade	NOUN	NOUN	_	13	obj	_	TokenRange=120:127
+17	libertadora	libertador	ADJ	ADJ	_	16	amod	_	TokenRange=128:139
+18	brasilia	brasilia	NOUN	NOUN	_	16	appos	_	TokenRange=140:148
+19	serie	_	NOUN	NOUN	_	20	nummod	_	TokenRange=149:154
+20	filmes	filme	NOUN	NOUN	_	14	appos	_	TokenRange=155:161
+21	gravados	gravado	ADJ	ADJ	_	22	amod	_	TokenRange=162:170
+22	propaganda	propaganda	NOUN	NOUN	_	20	appos	_	TokenRange=171:181
+23	partidaria	partidar	ADJ	ADJ	_	22	amod	_	TokenRange=182:192
+24	pmdb	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=193:197
+25	comecarao	comecar	VERB	VERB	_	20	acl:relcl	_	TokenRange=198:207
+26	veiculados	veiculado	ADJ	ADJ	_	25	xcomp	_	TokenRange=208:218
+27	partir	partir	VERB	VERB	_	25	csubj	_	TokenRange=219:225
+28	noite	noite	NOUN	NOUN	_	27	obj	_	TokenRange=226:231
+29	desta	_	ADP	ADP	_	30	case	_	TokenRange=232:237
+30	quintafeira	quintafeira	NOUN	NOUN	_	28	nmod	_	TokenRange=238:249
+31	16	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=250:252
+32	partido	partido	NOUN	NOUN	_	33	nsubj	_	TokenRange=253:260
+33	escolheu	escolher	VERB	VERB	_	20	acl:relcl	_	TokenRange=261:269
+34	atacar	atacar	VERB	VERB	_	33	xcomp	_	TokenRange=270:276
+35	trama	trama	NOUN	NOUN	_	34	obj	_	TokenRange=277:282
+36	supostamente	supostamente	ADV	ADV	_	37	advmod	_	TokenRange=283:295
+37	armada	armado	ADJ	ADJ	_	35	amod	_	TokenRange=296:302
+38	tirar	tirar	VERB	VERB	_	33	csubj	_	TokenRange=303:308
+39	presidente	presidente	NOUN	NOUN	_	38	obj	_	TokenRange=309:319
+40	michel	michel	ADJ	ADJ	_	41	amod	_	TokenRange=320:326
+41	temer	temer	NOUN	NOUN	_	38	nsubj	_	TokenRange=327:332
+42	poder	poder	VERB	VERB	_	39	acl:relcl	_	TokenRange=333:338
+43	alem	alem	ADV	ADV	_	44	advmod	_	TokenRange=339:343
+44	menos	menos	ADV	ADV	_	45	advmod	_	TokenRange=344:349
+45	11	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=350:352
+46	videos	video	NOUN	NOUN	_	42	obj	_	TokenRange=353:359
+47	30	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=360:362
+48	segundos	segundo	NOUN	NOUN	_	49	nsubj	_	TokenRange=363:371
+49	estarao	estar	VERB	VERB	_	13	parataxis	_	TokenRange=372:379
+50	insercoes	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=380:389
+51	diarias	diario	ADJ	ADJ	_	50	amod	_	TokenRange=390:397
+52	partido	partido	NOUN	NOUN	_	50	appos	_	TokenRange=398:405
+53	trara	_	VERB	VERB	_	50	case	_	TokenRange=406:411
+54	mote	mote	NOUN	NOUN	_	50	nmod	_	TokenRange=412:416
+55	trama	trama	NOUN	NOUN	_	50	appos	_	TokenRange=417:422
+56	vencida	vencido	ADJ	ADJ	_	55	amod	_	TokenRange=423:430
+57	programa	programa	NOUN	NOUN	_	64	nsubj	_	TokenRange=431:439
+58	dia	dia	NOUN	NOUN	_	57	nmod	_	TokenRange=440:443
+59	28	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=444:446
+60	dez	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=447:450
+61	minutos	minuto	NOUN	NOUN	_	58	nmod	_	TokenRange=451:458
+62	duracao	duracao	ADJ	ADJ	_	63	amod	_	TokenRange=459:466
+63	insercoes	insercoe	NOUN	NOUN	_	64	nsubj	_	TokenRange=467:476
+64	comecam	comecer	VERB	VERB	_	49	parataxis	_	SpaceAfter=No|TokenRange=477:484
+

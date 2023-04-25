@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2x0 desembargador vota condenacao lula pede prisao reu desembargador leandro paulsen acompanhou voto relator magistrado seguiu integralmente voto gebran neto ainda manifestou favoravel execucao imediata pena apos termino recursos 2 instancia prisao condenado luiz inacio lula silva 12 anos 1 mes reclusao regime inicialmente fechado 280 diasmulta razao unitaria 5 salarios min vigentes tempo ultimo fato criminoso
+1	2x0	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:3
+2	desembargador	desembargador	NOUN	NOUN	_	3	nsubj	_	TokenRange=4:17
+3	vota	votar	VERB	VERB	_	0	root	_	TokenRange=18:22
+4	condenacao	_	NOUN	NOUN	_	3	obj	_	TokenRange=23:33
+5	lula	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=34:38
+6	pede	pedir	VERB	VERB	_	3	conj	_	TokenRange=39:43
+7	prisao	prisao	NOUN	NOUN	_	6	obj	_	TokenRange=44:50
+8	reu	_	ADJ	ADJ	_	9	amod	_	TokenRange=51:54
+9	desembargador	desembargador	NOUN	NOUN	_	6	nsubj	_	TokenRange=55:68
+10	leandro	leandro	NOUN	NOUN	_	9	appos	_	TokenRange=69:76
+11	paulsen	_	NOUN	NOUN	_	9	flat	_	TokenRange=77:84
+12	acompanhou	acompanhar	VERB	VERB	_	3	conj	_	TokenRange=85:95
+13	voto	voto	NOUN	NOUN	_	12	obj	_	TokenRange=96:100
+14	relator	relator	NOUN	NOUN	_	13	appos	_	TokenRange=101:108
+15	magistrado	magistrado	ADJ	ADJ	_	14	amod	_	TokenRange=109:119
+16	seguiu	seguir	VERB	VERB	_	12	parataxis	_	TokenRange=120:126
+17	integralmente	integralmente	ADV	ADV	_	16	advmod	_	TokenRange=127:140
+18	voto	voto	NOUN	NOUN	_	16	obj	_	TokenRange=141:145
+19	gebran	_	NOUN	NOUN	_	18	appos	_	TokenRange=146:152
+20	neto	neto	NOUN	NOUN	_	19	flat	_	TokenRange=153:157
+21	ainda	ainda	ADV	ADV	_	22	advmod	_	TokenRange=158:163
+22	manifestou	manifestar	VERB	VERB	_	16	parataxis	_	TokenRange=164:174
+23	favoravel	favoravel	ADJ	ADJ	_	24	amod	_	TokenRange=175:184
+24	execucao	execucao	NOUN	NOUN	_	22	obj	_	TokenRange=185:193
+25	imediata	imediato	ADJ	ADJ	_	26	amod	_	TokenRange=194:202
+26	pena	_	NOUN	NOUN	_	22	obj	_	TokenRange=203:207
+27	apos	_	ADP	ADP	_	28	mark	_	TokenRange=208:212
+28	termino	termino	VERB	VERB	_	22	nmod	_	TokenRange=213:220
+29	recursos	recurso	NOUN	NOUN	_	28	nmod	_	TokenRange=221:229
+30	2	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=230:231
+31	instancia	instancia	NOUN	NOUN	_	22	parataxis	_	TokenRange=232:241
+32	prisao	prisao	NOUN	NOUN	_	22	nsubj	_	TokenRange=242:248
+33	condenado	condenar	VERB	VERB	_	32	acl	_	TokenRange=249:258
+34	luiz	luiz	NOUN	NOUN	_	33	obj	_	TokenRange=259:263
+35	inacio	_	NOUN	NOUN	_	34	flat	_	TokenRange=264:270
+36	lula	lula	NOUN	NOUN	_	34	flat	_	TokenRange=271:275
+37	silva	silva	NOUN	ADJ	_	35	flat	_	TokenRange=276:281
+38	12	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=282:284
+39	anos	ano	NOUN	NOUN	_	33	nmod	_	TokenRange=285:289
+40	1	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=290:291
+41	mes	mes	NOUN	NOUN	_	42	nmod	_	TokenRange=292:295
+42	reclusao	reclusao	ADJ	ADJ	_	22	xcomp	_	TokenRange=296:304
+43	regime	regime	NOUN	NOUN	_	42	nsubj	_	TokenRange=305:311
+44	inicialmente	inicialmente	ADV	ADV	_	45	advmod	_	TokenRange=312:324
+45	fechado	fechar	VERB	VERB	_	43	acl	_	TokenRange=325:332
+46	280	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=333:336
+47	diasmulta	diasmulta	ADJ	NOUN	_	48	amod	_	TokenRange=337:346
+48	razao	razao	NOUN	NOUN	_	42	obj	_	TokenRange=347:352
+49	unitaria	unitario	ADJ	ADJ	_	48	amod	_	TokenRange=353:361
+50	5	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=362:363
+51	salarios	salario	NOUN	NOUN	_	48	appos	_	TokenRange=364:372
+52	min	_	NUM	ADJ	_	51	amod	_	TokenRange=373:376
+53	vigentes	vigente	ADJ	ADJ	_	51	amod	_	TokenRange=377:385
+54	tempo	tempo	NOUN	NOUN	_	51	appos	_	TokenRange=386:391
+55	ultimo	ultimo	ADJ	ADJ	_	56	amod	_	TokenRange=392:398
+56	fato	fato	NOUN	NOUN	_	48	appos	_	TokenRange=399:403
+57	criminoso	criminoso	ADJ	ADJ	_	56	amod	_	SpaceAfter=No|TokenRange=404:413
+

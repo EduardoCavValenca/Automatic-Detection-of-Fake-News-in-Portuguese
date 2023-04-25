@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 9 vezes publicidade falhou entender mulheres pleno seculo 21 jane walker propagandas desvalorizam corpo feminino conheca sete pecas atrairam saraivada criticas obviamente objetivo crescimento movimento feminista ultimas decadas passou despercebido industria publicidade ultimos 25 anos marqueteiros aperfeicoaram conceito femvertising palavra formada juncao dois termos ingles feminist feminista advertising propaganda tratase pratica usar retorica movimento defende igualdade direitos homens mulheres vender produtos servicos outra definicao femvertising
+1	9	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:1
+2	vezes	vez	NOUN	NOUN	_	4	nmod	_	TokenRange=2:7
+3	publicidade	publicidade	NOUN	NOUN	_	4	nsubj	_	TokenRange=8:19
+4	falhou	falhar	VERB	VERB	_	0	root	_	TokenRange=20:26
+5	entender	entender	VERB	VERB	_	4	xcomp	_	TokenRange=27:35
+6	mulheres	mulher	NOUN	NOUN	_	5	obj	_	TokenRange=36:44
+7	pleno	pleno	ADJ	ADJ	_	8	amod	_	TokenRange=45:50
+8	seculo	seculo	NOUN	NOUN	_	5	nmod	_	TokenRange=51:57
+9	21	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=58:60
+10	jane	jane	NOUN	NOUN	_	4	nsubj	_	TokenRange=61:65
+11	walker	_	NOUN	NOUN	_	10	flat	_	TokenRange=66:72
+12	propagandas	propaganda	NOUN	NOUN	_	13	nsubj	_	TokenRange=73:84
+13	desvalorizam	desvalorizar	VERB	VERB	_	4	parataxis	_	TokenRange=85:97
+14	corpo	corpo	NOUN	NOUN	_	13	obj	_	TokenRange=98:103
+15	feminino	feminino	ADJ	ADJ	_	14	amod	_	TokenRange=104:112
+16	conheca	conhecar	VERB	VERB	_	4	parataxis	_	TokenRange=113:120
+17	sete	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=121:125
+18	pecas	peca	NOUN	NOUN	_	16	obj	_	TokenRange=126:131
+19	atrairam	atrair	VERB	VERB	_	16	parataxis	_	TokenRange=132:140
+20	saraivada	saraivado	ADJ	ADJ	_	19	xcomp	_	TokenRange=141:150
+21	criticas	_	NOUN	NOUN	_	19	obj	_	TokenRange=151:159
+22	obviamente	obviamente	ADV	ADV	_	23	advmod	_	TokenRange=160:170
+23	objetivo	objetivo	ADJ	ADJ	_	21	amod	_	TokenRange=171:179
+24	crescimento	crescimento	NOUN	NOUN	_	21	appos	_	TokenRange=180:191
+25	movimento	movimento	NOUN	NOUN	_	24	appos	_	TokenRange=192:201
+26	feminista	feminista	ADJ	ADJ	_	25	amod	_	TokenRange=202:211
+27	ultimas	_	ADJ	ADJ	_	28	amod	_	TokenRange=212:219
+28	decadas	decada	NOUN	NOUN	_	25	appos	_	TokenRange=220:227
+29	passou	passar	AUX	AUX	_	31	cop	_	TokenRange=228:234
+30	despercebido	despercebido	ADJ	ADJ	_	31	amod	_	TokenRange=235:247
+31	industria	industria	NOUN	NOUN	_	25	appos	_	TokenRange=248:257
+32	publicidade	publicidade	NOUN	NOUN	_	31	flat	_	TokenRange=258:269
+33	ultimos	ultimo	ADJ	ADJ	_	35	amod	_	TokenRange=270:277
+34	25	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=278:280
+35	anos	ano	NOUN	NOUN	_	37	nsubj	_	TokenRange=281:285
+36	marqueteiros	marqueteiro	NOUN	NOUN	_	37	nsubj	_	TokenRange=286:298
+37	aperfeicoaram	aperfeicoar	VERB	VERB	_	31	acl:relcl	_	TokenRange=299:312
+38	conceito	conceito	NOUN	NOUN	_	37	obj	_	TokenRange=313:321
+39	femvertising	_	ADJ	ADJ	_	38	amod	_	TokenRange=322:334
+40	palavra	palavra	NOUN	NOUN	_	38	appos	_	TokenRange=335:342
+41	formada	formar	VERB	VERB	_	40	acl	_	TokenRange=343:350
+42	juncao	juncao	NOUN	NOUN	_	40	amod	_	TokenRange=351:357
+43	dois	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=358:362
+44	termos	termo	NOUN	NOUN	_	37	obj	_	TokenRange=363:369
+45	ingles	ingle	ADJ	ADJ	_	44	amod	_	TokenRange=370:376
+46	feminist	feminist	ADJ	ADJ	_	47	amod	_	TokenRange=377:385
+47	feminista	feminista	NOUN	NOUN	_	44	amod	_	TokenRange=386:395
+48	advertising	_	ADJ	NOUN	_	47	amod	_	TokenRange=396:407
+49	propaganda	propaganda	NOUN	NOUN	_	47	appos	_	TokenRange=408:418
+50	tratase	_	NOUN	NOUN	_	49	appos	_	TokenRange=419:426
+51	pratica	pratico	ADJ	ADJ	_	49	amod	_	TokenRange=427:434
+52	usar	usar	VERB	VERB	_	49	acl:inf	_	TokenRange=435:439
+53	retorica	_	NOUN	NOUN	_	52	obj	_	TokenRange=440:448
+54	movimento	movimento	NOUN	NOUN	_	55	nsubj	_	TokenRange=449:458
+55	defende	defender	VERB	VERB	_	49	acl:relcl	_	TokenRange=459:466
+56	igualdade	igualdade	NOUN	NOUN	_	55	obj	_	TokenRange=467:476
+57	direitos	direito	NOUN	NOUN	_	55	obj	_	TokenRange=477:485
+58	homens	homem	NOUN	NOUN	_	57	appos	_	TokenRange=486:492
+59	mulheres	mulher	NOUN	NOUN	_	58	flat	_	TokenRange=493:501
+60	vender	vender	VERB	VERB	_	55	ccomp	_	TokenRange=502:508
+61	produtos	produto	NOUN	NOUN	_	60	obj	_	TokenRange=509:517
+62	servicos	servico	ADJ	ADJ	_	61	amod	_	TokenRange=518:526
+63	outra	_	DET	DET	_	64	det	_	TokenRange=527:532
+64	definicao	definicao	NOUN	NOUN	_	55	obj	_	TokenRange=533:542
+65	femvertising	_	NOUN	NOUN	_	64	appos	_	SpaceAfter=No|TokenRange=543:555
+

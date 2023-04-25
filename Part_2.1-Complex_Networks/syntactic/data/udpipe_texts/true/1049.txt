@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer comete gafe video diz governo feito voltar desemprego presidente divulgou video twitter sobre viagem g20 afirma pude fazer relato fazendo brasil gerando inflacao baixa fazendo voltar desemprego viagem alemanha presidente michel temer cometeu gafe divulgar nesta sextafeira 7 twitter video afirma governo feito voltar desemprego temer pais participar cupula g20 grupo reune 20 principais economias
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	comete	cometer	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	gafe	gafe	NOUN	NOUN	_	2	obj	_	TokenRange=13:17
+4	video	video	NOUN	NOUN	_	3	appos	_	TokenRange=18:23
+5	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=24:27
+6	governo	governo	NOUN	NOUN	_	2	obj	_	TokenRange=28:35
+7	feito	_	NOUN	NOUN	_	6	appos	_	TokenRange=36:41
+8	voltar	voltar	VERB	VERB	_	6	acl:inf	_	TokenRange=42:48
+9	desemprego	desemprego	NOUN	NOUN	_	8	obj	_	TokenRange=49:59
+10	presidente	presidente	NOUN	NOUN	_	11	nsubj	_	TokenRange=60:70
+11	divulgou	divulgar	VERB	VERB	_	2	parataxis	_	TokenRange=71:79
+12	video	video	NOUN	NOUN	_	11	obj	_	TokenRange=80:85
+13	twitter	_	PROPN	PNOUN	_	12	appos	_	TokenRange=86:93
+14	sobre	_	ADP	ADP	_	15	case	_	TokenRange=94:99
+15	viagem	viagem	NOUN	NOUN	_	12	nmod	_	TokenRange=100:106
+16	g20	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=107:110
+17	afirma	afirmar	VERB	VERB	_	5	ccomp	_	TokenRange=111:117
+18	pude	poder	AUX	AUX	_	19	aux	_	TokenRange=118:122
+19	fazer	fazer	VERB	VERB	_	17	xcomp	_	TokenRange=123:128
+20	relato	relato	NOUN	NOUN	_	19	obj	_	TokenRange=129:135
+21	fazendo	fazer	VERB	VERB	_	19	acl	_	TokenRange=136:143
+22	brasil	brasil	NOUN	NOUN	_	21	obj	_	TokenRange=144:150
+23	gerando	gerar	VERB	VERB	_	19	acl	_	TokenRange=151:158
+24	inflacao	inflacao	NOUN	NOUN	_	23	obj	_	TokenRange=159:167
+25	baixa	baixo	ADJ	ADJ	_	24	amod	_	TokenRange=168:173
+26	fazendo	fazer	VERB	VERB	_	34	acl	_	TokenRange=174:181
+27	voltar	voltar	VERB	VERB	_	26	xcomp	_	TokenRange=182:188
+28	desemprego	desemprego	NOUN	NOUN	_	27	obj	_	TokenRange=189:199
+29	viagem	viagem	NOUN	NOUN	_	27	obj	_	TokenRange=200:206
+30	alemanha	alemanho	ADJ	ADJ	_	31	amod	_	TokenRange=207:215
+31	presidente	presidente	NOUN	NOUN	_	34	nsubj	_	TokenRange=216:226
+32	michel	michel	ADJ	ADJ	_	31	amod	_	TokenRange=227:233
+33	temer	temer	NOUN	NOUN	_	31	appos	_	TokenRange=234:239
+34	cometeu	cometer	VERB	VERB	_	5	conj	_	TokenRange=240:247
+35	gafe	gafe	NOUN	NOUN	_	34	obj	_	TokenRange=248:252
+36	divulgar	divulgar	VERB	VERB	_	35	acl:inf	_	TokenRange=253:261
+37	nesta	_	ADP	ADP	_	38	case	_	TokenRange=262:267
+38	sextafeira	sextafeira	NOUN	NOUN	_	36	nmod	_	TokenRange=268:278
+39	7	_	NUM	NUM	NumType=Card	38	appos	_	TokenRange=279:280
+40	twitter	_	PROPN	PNOUN	_	42	nsubj	_	TokenRange=281:288
+41	video	video	NOUN	NOUN	_	42	nsubj	_	TokenRange=289:294
+42	afirma	afirmar	VERB	VERB	_	34	parataxis	_	TokenRange=295:301
+43	governo	governo	NOUN	NOUN	_	42	obj	_	TokenRange=302:309
+44	feito	_	VERB	VERB	_	43	acl	_	TokenRange=310:315
+45	voltar	voltar	VERB	VERB	_	43	acl:inf	_	TokenRange=316:322
+46	desemprego	desemprego	NOUN	NOUN	_	45	obj	_	TokenRange=323:333
+47	temer	temer	VERB	VERB	_	49	ccomp	_	TokenRange=334:339
+48	pais	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=340:344
+49	participar	participar	VERB	VERB	_	43	acl:inf	_	TokenRange=345:355
+50	cupula	cupula	NOUN	NOUN	_	49	obj	_	TokenRange=356:362
+51	g20	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=363:366
+52	grupo	grupo	NOUN	NOUN	_	49	nsubj	_	TokenRange=367:372
+53	reune	reunar	VERB	VERB	_	42	parataxis	_	TokenRange=373:378
+54	20	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=379:381
+55	principais	principal	ADJ	ADJ	_	56	amod	_	TokenRange=382:392
+56	economias	economia	NOUN	NOUN	_	53	obj	_	SpaceAfter=No|TokenRange=393:402
+

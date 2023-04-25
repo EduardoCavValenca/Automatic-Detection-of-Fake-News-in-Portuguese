@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = justica denunciado lavagem dinheiro corrupcao passiva pgr quer perda funcao publica senador procuradoria geral republica atraves rodrigo janot denunciou renan conhecido alcunha justica stf somente operacao lavajato senador alvo oito inqueritos primeira muitas denuncias virao justica denunciado lavagem dinheiro corrupcao passiva pgr pede perda funcao publica calheiros deputado anibal gomes pmdb/ce alem devolucao dinheiro propina valor atualizado somente nesta denuncia totaliza 1 6 milhao reais vale ressaltar justica ainda reu ministros stf precisam aceitar denuncia abrir acao penal
+1	justica	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:7
+2	denunciado	denunciar	VERB	VERB	_	1	acl	_	TokenRange=8:18
+3	lavagem	lavagem	NOUN	NOUN	_	2	obj	_	TokenRange=19:26
+4	dinheiro	dinheiro	NOUN	NOUN	_	3	amod	_	TokenRange=27:35
+5	corrupcao	corrupcao	NOUN	NOUN	_	3	appos	_	TokenRange=36:45
+6	passiva	passivo	ADJ	ADJ	_	3	amod	_	TokenRange=46:53
+7	pgr	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=54:57
+8	quer	querer	VERB	VERB	_	0	root	_	TokenRange=58:62
+9	perda	perda	NOUN	NOUN	_	8	obj	_	TokenRange=63:68
+10	funcao	funcao	ADJ	ADJ	_	9	amod	_	TokenRange=69:75
+11	publica	publico	ADJ	ADJ	_	9	amod	_	TokenRange=76:83
+12	senador	senador	NOUN	NOUN	_	8	obj	_	TokenRange=84:91
+13	procuradoria	procuradoria	NOUN	NOUN	_	12	appos	_	TokenRange=92:104
+14	geral	geral	ADJ	ADJ	_	9	amod	_	TokenRange=105:110
+15	republica	_	ADJ	ADJ	_	12	amod	_	TokenRange=111:120
+16	atraves	atrave	NOUN	NOUN	_	12	amod	_	TokenRange=121:128
+17	rodrigo	_	NOUN	NOUN	_	12	appos	_	TokenRange=129:136
+18	janot	_	NOUN	NOUN	_	17	flat	_	TokenRange=137:142
+19	denunciou	denunciar	VERB	VERB	_	8	parataxis	_	TokenRange=143:152
+20	renan	_	NOUN	NOUN	_	19	obj	_	TokenRange=153:158
+21	conhecido	conhecido	ADJ	ADJ	_	22	amod	_	TokenRange=159:168
+22	alcunha	alcunha	NOUN	NOUN	_	20	appos	_	TokenRange=169:176
+23	justica	justico	ADJ	ADJ	_	22	amod	_	TokenRange=177:184
+24	stf	_	NOUN	NOUN	_	26	appos	_	TokenRange=185:188
+25	somente	somente	ADV	ADV	_	26	advmod	_	TokenRange=189:196
+26	operacao	operacao	NOUN	NOUN	_	22	appos	_	TokenRange=197:205
+27	lavajato	lavajato	ADJ	NOUN	_	26	amod	_	TokenRange=206:214
+28	senador	senador	NOUN	NOUN	_	26	appos	_	TokenRange=215:222
+29	alvo	alvo	ADJ	ADJ	_	26	flat	_	TokenRange=223:227
+30	oito	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=228:232
+31	inqueritos	inquerito	NOUN	NOUN	_	26	appos	_	TokenRange=233:243
+32	primeira	primeiro	ADJ	ADJ	_	34	amod	_	TokenRange=244:252
+33	muitas	_	DET	DET	_	34	det	_	TokenRange=253:259
+34	denuncias	_	NOUN	NOUN	_	28	appos	_	TokenRange=260:269
+35	virao	_	ADJ	ADJ	_	36	amod	_	TokenRange=270:275
+36	justica	_	NOUN	NOUN	_	34	appos	_	TokenRange=276:283
+37	denunciado	denunciar	VERB	VERB	_	38	acl	_	TokenRange=284:294
+38	lavagem	lavagem	NOUN	NOUN	_	43	nsubj	_	TokenRange=295:302
+39	dinheiro	dinheiro	NOUN	NOUN	_	38	amod	_	TokenRange=303:311
+40	corrupcao	corrupcao	NOUN	NOUN	_	38	appos	_	TokenRange=312:321
+41	passiva	passivo	ADJ	ADJ	_	40	amod	_	TokenRange=322:329
+42	pgr	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=330:333
+43	pede	pedir	VERB	VERB	_	8	parataxis	_	TokenRange=334:338
+44	perda	perda	NOUN	NOUN	_	43	obj	_	TokenRange=339:344
+45	funcao	funcao	ADJ	ADJ	_	44	amod	_	TokenRange=345:351
+46	publica	publico	ADJ	ADJ	_	44	amod	_	TokenRange=352:359
+47	calheiros	calheiro	NOUN	NOUN	_	44	amod	_	TokenRange=360:369
+48	deputado	deputado	NOUN	NOUN	_	44	appos	_	TokenRange=370:378
+49	anibal	anibal	ADJ	ADJ	_	48	amod	_	TokenRange=379:385
+50	gomes	gome	NOUN	NOUN	_	48	flat	_	TokenRange=386:391
+51	pmdb/ce	_	NOUN	NOUN	_	48	appos	_	TokenRange=392:399
+52	alem	alem	NOUN	NOUN	_	48	appos	_	TokenRange=400:404
+53	devolucao	_	ADJ	ADJ	_	54	amod	_	TokenRange=405:414
+54	dinheiro	dinheiro	NOUN	NOUN	_	52	flat	_	TokenRange=415:423
+55	propina	propino	ADJ	ADJ	_	56	amod	_	TokenRange=424:431
+56	valor	valor	NOUN	NOUN	_	48	appos	_	TokenRange=432:437
+57	atualizado	atualizado	ADJ	ADJ	_	56	amod	_	TokenRange=438:448
+58	somente	somente	ADV	ADV	_	60	advmod	_	TokenRange=449:456
+59	nesta	_	ADP	ADP	_	60	case	_	TokenRange=457:462
+60	denuncia	denuncia	NOUN	NOUN	_	61	nmod	_	TokenRange=463:471
+61	totaliza	totalizar	VERB	VERB	_	19	parataxis	_	TokenRange=472:480
+62	1	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=481:482
+63	6	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=483:484
+64	milhao	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=485:491
+65	reais	real	NOUN	NOUN	_	61	obj	_	TokenRange=492:497
+66	vale	_	VERB	VERB	_	61	parataxis	_	TokenRange=498:502
+67	ressaltar	ressaltar	VERB	VERB	_	66	csubj	_	TokenRange=503:512
+68	justica	_	NOUN	NOUN	_	67	obj	_	TokenRange=513:520
+69	ainda	ainda	ADV	ADV	_	70	advmod	_	TokenRange=521:526
+70	reu	_	VERB	VERB	_	67	ccomp	_	TokenRange=527:530
+71	ministros	ministro	NOUN	NOUN	_	70	obj	_	TokenRange=531:540
+72	stf	_	NOUN	NOUN	_	71	appos	_	TokenRange=541:544
+73	precisam	precisar	VERB	VERB	_	61	parataxis	_	TokenRange=545:553
+74	aceitar	aceitar	VERB	VERB	_	73	xcomp	_	TokenRange=554:561
+75	denuncia	denuncia	NOUN	NOUN	_	74	obj	_	TokenRange=562:570
+76	abrir	abrir	VERB	VERB	_	74	ccomp	_	TokenRange=571:576
+77	acao	acao	NOUN	NOUN	_	76	obj	_	TokenRange=577:581
+78	penal	penal	ADJ	ADJ	_	77	amod	_	SpaceAfter=No|TokenRange=582:587
+

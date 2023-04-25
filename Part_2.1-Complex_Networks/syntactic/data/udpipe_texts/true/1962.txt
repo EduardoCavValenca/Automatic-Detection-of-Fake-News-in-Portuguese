@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mp faz nova pericia constata interferencia gravacao imagens dia suposta agressao garotinho peritos identificaram tres cameras presidio desligadas imagem congelada exgovernador disse vai processar estado ministerio publico estadual fez nova pericia sistema cameras cadeia
+1	mp	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=3:6
+3	nova	novo	ADJ	ADJ	_	4	amod	_	TokenRange=7:11
+4	pericia	pericia	NOUN	NOUN	_	2	obj	_	TokenRange=12:19
+5	constata	constatar	VERB	VERB	_	2	parataxis	_	TokenRange=20:28
+6	interferencia	_	NOUN	NOUN	_	5	obj	_	TokenRange=29:42
+7	gravacao	gravacao	NOUN	NOUN	_	6	appos	_	TokenRange=43:51
+8	imagens	imagem	NOUN	NOUN	_	6	appos	_	TokenRange=52:59
+9	dia	dia	NOUN	NOUN	_	6	appos	_	TokenRange=60:63
+10	suposta	suposto	ADJ	ADJ	_	11	amod	_	TokenRange=64:71
+11	agressao	agressao	NOUN	NOUN	_	9	appos	_	TokenRange=72:80
+12	garotinho	garoto	ADJ	ADJ	_	11	amod	_	TokenRange=81:90
+13	peritos	perito	NOUN	NOUN	_	14	nsubj	_	TokenRange=91:98
+14	identificaram	identificar	VERB	VERB	_	2	parataxis	_	TokenRange=99:112
+15	tres	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=113:117
+16	cameras	camera	NOUN	NOUN	_	14	obj	_	TokenRange=118:125
+17	presidio	presidio	NOUN	NOUN	_	16	appos	_	TokenRange=126:134
+18	desligadas	desligado	ADJ	ADJ	_	19	amod	_	TokenRange=135:145
+19	imagem	imagem	NOUN	NOUN	_	14	nsubj	_	TokenRange=146:152
+20	congelada	congelado	ADJ	ADJ	_	19	amod	_	TokenRange=153:162
+21	exgovernador	exgovernador	NOUN	NOUN	_	22	nsubj	_	TokenRange=163:175
+22	disse	dizer	VERB	VERB	_	19	acl:relcl	_	TokenRange=176:181
+23	vai	ir	AUX	AUX	_	24	aux	_	TokenRange=182:185
+24	processar	processar	VERB	VERB	_	22	ccomp	_	TokenRange=186:195
+25	estado	estado	NOUN	NOUN	_	24	obj	_	TokenRange=196:202
+26	ministerio	ministerio	ADJ	ADJ	_	25	amod	_	TokenRange=203:213
+27	publico	publico	ADJ	ADJ	_	26	amod	_	TokenRange=214:221
+28	estadual	estadual	ADJ	ADJ	_	26	amod	_	TokenRange=222:230
+29	fez	fazer	VERB	VERB	_	24	parataxis	_	TokenRange=231:234
+30	nova	novo	ADJ	ADJ	_	31	amod	_	TokenRange=235:239
+31	pericia	pericia	NOUN	NOUN	_	29	obj	_	TokenRange=240:247
+32	sistema	sistema	NOUN	NOUN	_	29	obj	_	TokenRange=248:255
+33	cameras	camera	NOUN	NOUN	_	32	appos	_	TokenRange=256:263
+34	cadeia	cadeia	NOUN	NOUN	_	32	appos	_	SpaceAfter=No|TokenRange=264:270
+

@@ -1,0 +1,23 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasileiro mora eua compara miami rio janeiro texto viraliza obrigado furacao irma obrigado irma obrigadoirma
+1	brasileiro	brasileiro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	mora	morar	VERB	VERB	_	0	root	_	TokenRange=11:15
+3	eua	_	PRON	PRON	_	4	nsubj	_	TokenRange=16:19
+4	compara	comparar	VERB	VERB	_	2	ccomp	_	TokenRange=20:27
+5	miami	_	NOUN	NOUN	_	4	obj	_	TokenRange=28:33
+6	rio	rio	NOUN	NOUN	_	5	appos	_	TokenRange=34:37
+7	janeiro	_	PROPN	PNOUN	_	5	amod	_	TokenRange=38:45
+8	texto	texto	NOUN	NOUN	_	4	nsubj	_	TokenRange=46:51
+9	viraliza	_	ADJ	ADJ	_	8	amod	_	TokenRange=52:60
+10	obrigado	obrigado	ADJ	ADJ	_	8	amod	_	TokenRange=61:69
+11	furacao	furacao	ADJ	ADJ	_	8	amod	_	TokenRange=70:77
+12	irma	_	NOUN	NOUN	_	14	amod	_	TokenRange=78:82
+13	obrigado	obrigado	ADJ	ADJ	_	14	amod	_	TokenRange=83:91
+14	irma	irma	NOUN	NOUN	_	2	parataxis	_	TokenRange=92:96
+15	obrigadoirma	obrigadoirmo	ADJ	ADJ	_	14	amod	_	SpaceAfter=No|TokenRange=97:109
+

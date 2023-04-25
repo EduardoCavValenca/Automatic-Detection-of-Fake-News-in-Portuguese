@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer anuncia ministerios nesta tarde confira nomes equipe economica henrique meirelles assume ministerio fazenda economistachefe itau ilan goldfajn vai banco central brasilia ministerio governo michel temer anunciado tarde desta quintafeira 12 pronunciamento palacio planalto assinou notificacao senado presidente republica exercicio confira abaixo principais nomes equipe economica fazenda incorpora previdencia henrique meirelles psd/sp carreira destaque sistema financeiro meirelles chegou presidente internacional bankboston vida publica presidente banco central 2003 2010 agora quase cinco anos meio afastado governo meirelles volta assumir economia brasileira pior
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	anuncia	anunciar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	ministerios	ministerio	NOUN	NOUN	_	2	obj	_	TokenRange=14:25
+4	nesta	_	ADP	ADP	_	5	case	_	TokenRange=26:31
+5	tarde	tarde	NOUN	NOUN	_	2	nmod	_	TokenRange=32:37
+6	confira	conferir	VERB	VERB	_	2	advcl	_	TokenRange=38:45
+7	nomes	nome	NOUN	NOUN	_	2	obj	_	TokenRange=46:51
+8	equipe	equipe	NOUN	NOUN	_	7	appos	_	TokenRange=52:58
+9	economica	economico	ADJ	ADJ	_	8	amod	_	TokenRange=59:68
+10	henrique	henrique	NOUN	NOUN	_	12	nsubj	_	TokenRange=69:77
+11	meirelles	_	NOUN	NOUN	_	10	flat	_	TokenRange=78:87
+12	assume	assumir	VERB	VERB	_	2	parataxis	_	TokenRange=88:94
+13	ministerio	ministerio	NOUN	NOUN	_	12	obj	_	TokenRange=95:105
+14	fazenda	fazenda	NOUN	NOUN	_	13	flat	_	TokenRange=106:113
+15	economistachefe	economistachefe	NOUN	NOUN	_	13	appos	_	TokenRange=114:129
+16	itau	_	NOUN	NOUN	_	13	appos	_	TokenRange=130:134
+17	ilan	_	NOUN	NOUN	_	20	appos	_	TokenRange=135:139
+18	goldfajn	_	NOUN	NOUN	_	17	flat	_	TokenRange=140:148
+19	vai	ir	AUX	AUX	_	20	cop	_	TokenRange=149:152
+20	banco	banco	NOUN	NOUN	_	12	parataxis	_	TokenRange=153:158
+21	central	central	ADJ	ADJ	_	20	amod	_	TokenRange=159:166
+22	brasilia	brasilia	NOUN	NOUN	_	20	amod	_	TokenRange=167:175
+23	ministerio	ministerio	NOUN	NOUN	_	20	appos	_	TokenRange=176:186
+24	governo	governo	NOUN	NOUN	_	20	flat	_	TokenRange=187:194
+25	michel	michel	ADJ	ADJ	_	26	amod	_	TokenRange=195:201
+26	temer	temer	NOUN	NOUN	_	23	appos	_	TokenRange=202:207
+27	anunciado	anunciar	VERB	VERB	_	20	acl	_	TokenRange=208:217
+28	tarde	tarde	NOUN	NOUN	_	27	obj	_	TokenRange=218:223
+29	desta	_	ADP	ADP	_	30	case	_	TokenRange=224:229
+30	quintafeira	quintafeira	NOUN	NOUN	_	28	nmod	_	TokenRange=230:241
+31	12	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=242:244
+32	pronunciamento	pronunciamento	NOUN	NOUN	_	27	nsubj	_	TokenRange=245:259
+33	palacio	palacio	NOUN	NOUN	_	32	appos	_	TokenRange=260:267
+34	planalto	planalto	ADJ	ADJ	_	32	amod	_	TokenRange=268:276
+35	assinou	assinar	VERB	VERB	_	2	parataxis	_	TokenRange=277:284
+36	notificacao	notificacao	NOUN	NOUN	_	35	obj	_	TokenRange=285:296
+37	senado	senado	ADJ	ADJ	_	38	amod	_	TokenRange=297:303
+38	presidente	presidente	NOUN	NOUN	_	35	nsubj	_	TokenRange=304:314
+39	republica	republico	ADJ	ADJ	_	38	amod	_	TokenRange=315:324
+40	exercicio	exercicio	NOUN	NOUN	_	38	appos	_	TokenRange=325:334
+41	confira	conferir	VERB	VERB	_	2	parataxis	_	TokenRange=335:342
+42	abaixo	abaixo	ADV	ADV	_	41	advmod	_	TokenRange=343:349
+43	principais	principal	ADJ	ADJ	_	44	amod	_	TokenRange=350:360
+44	nomes	nome	NOUN	NOUN	_	41	nsubj	_	TokenRange=361:366
+45	equipe	equipe	NOUN	NOUN	_	41	nsubj	_	TokenRange=367:373
+46	economica	economico	ADJ	ADJ	_	45	amod	_	TokenRange=374:383
+47	fazenda	fazenda	NOUN	NOUN	_	45	appos	_	TokenRange=384:391
+48	incorpora	incorporar	VERB	VERB	_	41	parataxis	_	TokenRange=392:401
+49	previdencia	previdencia	NOUN	NOUN	_	48	obj	_	TokenRange=402:413
+50	henrique	henrique	NOUN	NOUN	_	49	appos	_	TokenRange=414:422
+51	meirelles	_	NOUN	NOUN	_	50	flat	_	TokenRange=423:432
+52	psd/sp	_	ADJ	ADJ	_	53	amod	_	TokenRange=433:439
+53	carreira	_	NOUN	NOUN	_	50	appos	_	TokenRange=440:448
+54	destaque	destaque	NOUN	NOUN	_	59	appos	_	TokenRange=449:457
+55	sistema	sistema	NOUN	NOUN	_	54	appos	_	TokenRange=458:465
+56	financeiro	financeiro	ADJ	ADJ	_	55	amod	_	TokenRange=466:476
+57	meirelles	_	ADJ	ADJ	_	55	amod	_	TokenRange=477:486
+58	chegou	chegar	VERB	VERB	_	48	parataxis	_	TokenRange=487:493
+59	presidente	presidente	NOUN	NOUN	_	58	obj	_	TokenRange=494:504
+60	internacional	internacional	ADJ	ADJ	_	59	amod	_	TokenRange=505:518
+61	bankboston	_	X	NOUN	_	59	appos	_	TokenRange=519:529
+62	vida	vida	NOUN	NOUN	_	59	appos	_	TokenRange=530:534
+63	publica	publico	ADJ	ADJ	_	62	amod	_	TokenRange=535:542
+64	presidente	presidente	NOUN	NOUN	_	59	amod	_	TokenRange=543:553
+65	banco	banco	NOUN	NOUN	_	59	appos	_	TokenRange=554:559
+66	central	central	ADJ	ADJ	_	65	amod	_	TokenRange=560:567
+67	2003	_	NUM	NUM	NumType=Card	65	nmod	_	TokenRange=568:572
+68	2010	_	NUM	NUM	NumType=Card	65	nmod	_	TokenRange=573:577
+69	agora	agora	ADV	ADV	_	78	advmod	_	TokenRange=578:583
+70	quase	quase	ADV	ADV	_	71	advmod	_	TokenRange=584:589
+71	cinco	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=590:595
+72	anos	ano	NOUN	NOUN	_	78	nmod	_	TokenRange=596:600
+73	meio	meio	ADV	ADV	_	74	advmod	_	TokenRange=601:605
+74	afastado	afastado	ADJ	ADJ	_	72	amod	_	TokenRange=606:614
+75	governo	governo	NOUN	NOUN	_	78	nsubj	_	TokenRange=615:622
+76	meirelles	_	ADJ	ADJ	_	75	amod	_	TokenRange=623:632
+77	volta	voltar	AUX	AUX	_	78	aux	_	TokenRange=633:638
+78	assumir	assumir	VERB	VERB	_	59	conj	_	TokenRange=639:646
+79	economia	economia	NOUN	NOUN	_	78	obj	_	TokenRange=647:655
+80	brasileira	brasileiro	ADJ	ADJ	_	79	amod	_	TokenRange=656:666
+81	pior	pior	ADJ	ADJ	_	79	amod	_	SpaceAfter=No|TokenRange=667:671
+

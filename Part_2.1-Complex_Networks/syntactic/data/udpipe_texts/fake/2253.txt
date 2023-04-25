@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = impeachment tv senado flagra maos parlamentar segurando saquinho branco suspeito algum tipo mandinga balinha algum remedinho durante transmissao defesa dilma rousseff sessao impeachment cameras transmissao tv senado flagraram ato dando falar redes sociais polemica gira torno saquinho suspeito flagrado mao parlamentar video publicado proximo 17 horas confira abaixo 18 segundos
+1	impeachment	impeachment	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:11
+2	tv	_	DET	DET	_	3	det	_	TokenRange=12:14
+3	senado	senado	NOUN	NOUN	_	1	appos	_	TokenRange=15:21
+4	flagra	flagrar	VERB	VERB	_	0	root	_	TokenRange=22:28
+5	maos	mao	NOUN	NOUN	_	4	obj	_	TokenRange=29:33
+6	parlamentar	parlamentar	ADJ	ADJ	_	5	amod	_	TokenRange=34:45
+7	segurando	segurar	VERB	VERB	_	4	acl	_	TokenRange=46:55
+8	saquinho	saquinho	NOUN	NOUN	_	7	obj	_	TokenRange=56:64
+9	branco	branco	ADJ	ADJ	_	8	amod	_	TokenRange=65:71
+10	suspeito	suspeito	ADJ	ADJ	_	8	amod	_	TokenRange=72:80
+11	algum	_	DET	DET	_	12	det	_	TokenRange=81:86
+12	tipo	tipo	NOUN	NOUN	_	8	appos	_	TokenRange=87:91
+13	mandinga	mandinga	NOUN	NOUN	_	12	appos	_	TokenRange=92:100
+14	balinha	_	NOUN	NOUN	_	12	appos	_	TokenRange=101:108
+15	algum	_	DET	DET	_	16	det	_	TokenRange=109:114
+16	remedinho	remedinho	NOUN	NOUN	_	14	appos	_	TokenRange=115:124
+17	durante	_	ADP	ADP	_	18	case	_	TokenRange=125:132
+18	transmissao	transmissao	NOUN	NOUN	_	7	nmod	_	TokenRange=133:144
+19	defesa	_	NOUN	NOUN	_	18	appos	_	TokenRange=145:151
+20	dilma	dilma	NOUN	NOUN	_	18	appos	_	TokenRange=152:157
+21	rousseff	rousseff	NOUN	NOUN	_	20	flat	_	TokenRange=158:166
+22	sessao	_	NOUN	NOUN	_	23	appos	_	TokenRange=167:173
+23	impeachment	impeachment	NOUN	NOUN	_	20	appos	_	TokenRange=174:185
+24	cameras	camero	ADJ	ADJ	_	23	amod	_	TokenRange=186:193
+25	transmissao	transmissao	NOUN	NOUN	_	28	nsubj	_	TokenRange=194:205
+26	tv	_	ADJ	NOUN	_	27	amod	_	TokenRange=206:208
+27	senado	senado	NOUN	NOUN	_	25	appos	_	TokenRange=209:215
+28	flagraram	flagrar	VERB	VERB	_	4	parataxis	_	TokenRange=216:225
+29	ato	ato	NOUN	NOUN	_	28	obj	_	TokenRange=226:229
+30	dando	dar	VERB	VERB	_	29	acl	_	TokenRange=230:235
+31	falar	falar	VERB	VERB	_	30	xcomp	_	TokenRange=236:241
+32	redes	rede	NOUN	NOUN	_	31	obj	_	TokenRange=242:247
+33	sociais	social	ADJ	ADJ	_	32	amod	_	TokenRange=248:255
+34	polemica	polemico	ADJ	ADJ	_	32	amod	_	TokenRange=256:264
+35	gira	_	NOUN	NOUN	_	28	parataxis	_	TokenRange=265:269
+36	torno	torno	NOUN	NOUN	_	35	amod	_	TokenRange=270:275
+37	saquinho	saquinho	NOUN	NOUN	_	35	appos	_	TokenRange=276:284
+38	suspeito	suspeito	ADJ	ADJ	_	37	amod	_	TokenRange=285:293
+39	flagrado	flagrado	ADJ	ADJ	_	40	amod	_	TokenRange=294:302
+40	mao	mao	NOUN	NOUN	_	37	appos	_	TokenRange=303:306
+41	parlamentar	parlamentar	ADJ	ADJ	_	40	amod	_	TokenRange=307:318
+42	video	video	NOUN	NOUN	_	37	appos	_	TokenRange=319:324
+43	publicado	publicar	VERB	VERB	_	42	acl	_	TokenRange=325:334
+44	proximo	proximo	ADV	ADV	_	45	advmod	_	TokenRange=335:342
+45	17	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=343:345
+46	horas	hora	NOUN	NOUN	_	43	nmod	_	TokenRange=346:351
+47	confira	conferir	VERB	VERB	_	28	parataxis	_	TokenRange=352:359
+48	abaixo	abaixo	ADV	ADV	_	45	advmod	_	TokenRange=360:366
+49	18	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=367:369
+50	segundos	segundo	NOUN	NOUN	_	47	nmod	_	SpaceAfter=No|TokenRange=370:378
+

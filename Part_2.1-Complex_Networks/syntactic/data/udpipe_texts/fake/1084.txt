@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video funcionaria filma ator descontrolado dentro hospital vamos julgar ator porque trata claramente caso dependencia quimica iremos apenas relatar ocorrido terceiro video circula redes sociais mostra fabio assuncao agredindo verbalmente funcionarios hospital cidade arcoverde pernambuco ator sido levado pm acalmar animos provavelmente medicado repare senhora pede assuncao parar gritaria pai 87 anos hospitalizado aqui olha fazendo
+1	video	video	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:5
+2	funcionaria	funcionaria	NOUN	NOUN	_	1	appos	_	TokenRange=6:17
+3	filma	filmar	VERB	VERB	_	1	acl	_	TokenRange=18:23
+4	ator	ator	NOUN	NOUN	_	3	obj	_	TokenRange=24:28
+5	descontrolado	descontrolado	ADJ	ADJ	_	4	amod	_	TokenRange=29:42
+6	dentro	dentro	ADV	ADV	_	9	advmod	_	TokenRange=43:49
+7	hospital	hospital	NOUN	NOUN	_	5	nsubj	_	TokenRange=50:58
+8	vamos	ir	AUX	AUX	_	9	aux	_	TokenRange=59:64
+9	julgar	julgar	VERB	VERB	_	0	root	_	TokenRange=65:71
+10	ator	ator	NOUN	NOUN	_	9	obj	_	TokenRange=72:76
+11	porque	_	CCONJ	CONJ	_	12	mark	_	TokenRange=77:83
+12	trata	tratar	VERB	VERB	_	9	advcl	_	TokenRange=84:89
+13	claramente	claramente	ADV	ADV	_	12	advmod	_	TokenRange=90:100
+14	caso	_	CCONJ	CONJ	_	12	mark	_	TokenRange=101:105
+15	dependencia	dependencia	NOUN	NOUN	_	19	nsubj	_	TokenRange=106:117
+16	quimica	quimico	ADJ	ADJ	_	15	amod	_	TokenRange=118:125
+17	iremos	_	AUX	AUX	_	19	aux	_	TokenRange=126:132
+18	apenas	apenas	ADV	ADV	_	19	advmod	_	TokenRange=133:139
+19	relatar	relatar	VERB	VERB	_	9	advcl	_	TokenRange=140:147
+20	ocorrido	ocorrer	VERB	VERB	_	19	acl	_	TokenRange=148:156
+21	terceiro	_	ADJ	ADJ	_	22	amod	_	TokenRange=157:165
+22	video	video	NOUN	NOUN	_	19	nsubj	_	TokenRange=166:171
+23	circula	circular	VERB	VERB	_	19	parataxis	_	TokenRange=172:179
+24	redes	rede	NOUN	NOUN	_	23	nsubj	_	TokenRange=180:185
+25	sociais	social	ADJ	ADJ	_	24	amod	_	TokenRange=186:193
+26	mostra	mostrar	VERB	VERB	_	23	parataxis	_	TokenRange=194:200
+27	fabio	fabio	NOUN	NOUN	_	26	nsubj	_	TokenRange=201:206
+28	assuncao	assuncao	ADJ	NOUN	_	27	flat	_	TokenRange=207:215
+29	agredindo	agredir	VERB	VERB	_	27	acl	_	TokenRange=216:225
+30	verbalmente	verbalmente	ADV	ADV	_	29	advmod	_	TokenRange=226:237
+31	funcionarios	funcionario	NOUN	NOUN	_	29	obj	_	TokenRange=238:250
+32	hospital	hospital	NOUN	NOUN	_	31	flat	_	TokenRange=251:259
+33	cidade	cidade	NOUN	NOUN	_	31	appos	_	TokenRange=260:266
+34	arcoverde	arcoverde	ADJ	ADJ	_	33	amod	_	TokenRange=267:276
+35	pernambuco	pernambuco	ADJ	ADJ	_	33	amod	_	TokenRange=277:287
+36	ator	ator	NOUN	NOUN	_	38	nsubj:pass	_	TokenRange=288:292
+37	sido	ser	AUX	AUX	_	38	aux:pass	_	TokenRange=293:297
+38	levado	levar	VERB	VERB	_	31	acl	_	TokenRange=298:304
+39	pm	_	ADP	ADP	_	40	mark	_	TokenRange=305:307
+40	acalmar	acalmar	VERB	VERB	_	38	nmod	_	TokenRange=308:315
+41	animos	animo	NOUN	NOUN	_	40	obj	_	TokenRange=316:322
+42	provavelmente	provavelmente	ADV	ADV	_	43	advmod	_	TokenRange=323:336
+43	medicado	medicar	VERB	VERB	_	41	acl	_	TokenRange=337:345
+44	repare	_	VERB	VERB	_	40	nsubj	_	TokenRange=346:352
+45	senhora	senhor	NOUN	NOUN	_	56	nsubj	_	TokenRange=353:360
+46	pede	pedir	VERB	VERB	_	44	ccomp	_	TokenRange=361:365
+47	assuncao	assuncao	NOUN	NOUN	_	48	nsubj	_	TokenRange=366:374
+48	parar	parar	VERB	VERB	_	46	ccomp	_	TokenRange=375:380
+49	gritaria	gritaria	NOUN	NOUN	_	48	obj	_	TokenRange=381:389
+50	pai	pai	NOUN	NOUN	_	49	appos	_	TokenRange=390:393
+51	87	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=394:396
+52	anos	ano	NOUN	NOUN	_	49	nmod	_	TokenRange=397:401
+53	hospitalizado	hospitalizado	ADJ	ADJ	_	56	xcomp	_	TokenRange=402:415
+54	aqui	aqui	ADV	ADV	_	56	advmod	_	TokenRange=416:420
+55	olha	olhar	AUX	AUX	_	56	aux	_	TokenRange=421:425
+56	fazendo	fazer	VERB	VERB	_	46	conj	_	SpaceAfter=No|TokenRange=426:433
+

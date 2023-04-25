@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = terceira guerra russia assusta mundo faz simulacao guerra 40 milhoes civis oportunidade preparar coordenar forcas ofensivas defensivas pais mundo segue havendo muitas ameacas desafios disse portavoz presidente wladmir putin
+1	terceira	_	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	guerra	guerra	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:15
+3	russia	russia	ADJ	ADJ	_	2	amod	_	TokenRange=16:22
+4	assusta	assustar	VERB	VERB	_	25	ccomp	_	TokenRange=23:30
+5	mundo	mundo	NOUN	NOUN	_	6	nsubj	_	TokenRange=31:36
+6	faz	fazer	VERB	VERB	_	4	ccomp	_	TokenRange=37:40
+7	simulacao	simulacao	NOUN	NOUN	_	6	obj	_	TokenRange=41:50
+8	guerra	guerra	NOUN	NOUN	_	6	obj	_	TokenRange=51:57
+9	40	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=58:60
+10	milhoes	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=61:68
+11	civis	civil	NOUN	NOUN	_	8	amod	_	TokenRange=69:74
+12	oportunidade	oportunidade	NOUN	NOUN	_	8	appos	_	TokenRange=75:87
+13	preparar	preparar	VERB	VERB	_	12	acl:inf	_	TokenRange=88:96
+14	coordenar	coordenar	VERB	VERB	_	13	xcomp	_	TokenRange=97:106
+15	forcas	forca	NOUN	NOUN	_	14	obj	_	TokenRange=107:113
+16	ofensivas	ofensivo	ADJ	ADJ	_	15	amod	_	TokenRange=114:123
+17	defensivas	defensivo	ADJ	ADJ	_	15	amod	_	TokenRange=124:134
+18	pais	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=135:139
+19	mundo	mundo	NOUN	NOUN	_	21	nsubj	_	TokenRange=140:145
+20	segue	_	AUX	AUX	_	21	aux	_	TokenRange=146:151
+21	havendo	haver	VERB	VERB	_	13	conj	_	TokenRange=152:159
+22	muitas	_	DET	DET	_	24	det	_	TokenRange=160:166
+23	ameacas	ameaca	NOUN	NOUN	_	21	obj	_	TokenRange=167:174
+24	desafios	desafio	NOUN	NOUN	_	21	obj	_	TokenRange=175:183
+25	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=184:189
+26	portavoz	portavoz	NOUN	NOUN	_	25	nsubj	_	TokenRange=190:198
+27	presidente	presidente	NOUN	NOUN	_	26	flat	_	TokenRange=199:209
+28	wladmir	_	NOUN	NOUN	_	26	appos	_	TokenRange=210:217
+29	putin	_	NOUN	NOUN	_	28	flat	_	SpaceAfter=No|TokenRange=218:223
+

@@ -1,0 +1,17 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = site divulga 15 maiores salarios atores globais navegue setas
+1	site	site	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	divulga	divulgar	VERB	VERB	_	0	root	_	TokenRange=5:12
+3	15	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=13:15
+4	maiores	maior	ADJ	ADJ	_	5	amod	_	TokenRange=16:23
+5	salarios	salario	NOUN	NOUN	_	2	obj	_	TokenRange=24:32
+6	atores	ator	NOUN	NOUN	_	5	amod	_	TokenRange=33:39
+7	globais	global	ADJ	ADJ	_	6	amod	_	TokenRange=40:47
+8	navegue	navegar	VERB	VERB	_	2	parataxis	_	TokenRange=48:55
+9	setas	_	NOUN	NOUN	_	8	obj	_	SpaceAfter=No|TokenRange=56:61
+

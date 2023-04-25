@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pai pobres faz exames rotina hospital rico luiz inacio lula silva pai pobres fez exames manha hoje 23 hospital privado siriolibanes resultados normais considerados normais acordo boletim medico divulgado hospital lula realizou exames fisicos ressonancia nuclear magnetica petct nasofibrolaringoscopia equipes coordenadas medicos roberto kalil filho artur katz 2011 lula cancer laringe ee tratado profissionais sirio libanes
+1	pai	pai	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:3
+2	pobres	pobre	ADJ	ADJ	_	1	amod	_	TokenRange=4:10
+3	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=11:14
+4	exames	exame	NOUN	NOUN	_	3	obj	_	TokenRange=15:21
+5	rotina	rotina	NOUN	NOUN	_	4	amod	_	TokenRange=22:28
+6	hospital	hospital	NOUN	NOUN	_	4	appos	_	TokenRange=29:37
+7	rico	rico	ADJ	ADJ	_	6	amod	_	TokenRange=38:42
+8	luiz	luiz	NOUN	NOUN	_	6	appos	_	TokenRange=43:47
+9	inacio	_	NOUN	NOUN	_	8	flat	_	TokenRange=48:54
+10	lula	_	NOUN	NOUN	_	8	flat	_	TokenRange=55:59
+11	silva	silva	NOUN	NOUN	_	8	flat	_	TokenRange=60:65
+12	pai	pai	NOUN	NOUN	_	14	nsubj	_	TokenRange=66:69
+13	pobres	pobre	NOUN	NOUN	_	12	amod	_	TokenRange=70:76
+14	fez	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=77:80
+15	exames	exame	NOUN	NOUN	_	14	obj	_	TokenRange=81:87
+16	manha	manha	NOUN	NOUN	_	15	appos	_	TokenRange=88:93
+17	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=94:98
+18	23	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=99:101
+19	hospital	hospital	NOUN	NOUN	_	14	obj	_	TokenRange=102:110
+20	privado	privado	ADJ	ADJ	_	19	amod	_	TokenRange=111:118
+21	siriolibanes	siriolibane	ADJ	ADJ	_	19	amod	_	TokenRange=119:131
+22	resultados	resultado	NOUN	NOUN	_	14	nsubj	_	TokenRange=132:142
+23	normais	normal	ADJ	ADJ	_	22	amod	_	TokenRange=143:150
+24	considerados	considerar	VERB	VERB	_	22	acl	_	TokenRange=151:163
+25	normais	normal	ADJ	ADJ	_	24	xcomp	_	TokenRange=164:171
+26	acordo	acordo	NOUN	NOUN	_	32	nsubj	_	TokenRange=172:178
+27	boletim	boletim	NOUN	NOUN	_	32	nsubj	_	TokenRange=179:186
+28	medico	medico	ADJ	ADJ	_	27	amod	_	TokenRange=187:193
+29	divulgado	divulgado	ADJ	ADJ	_	30	amod	_	TokenRange=194:203
+30	hospital	hospital	NOUN	NOUN	_	27	appos	_	TokenRange=204:212
+31	lula	lula	ADJ	ADJ	_	30	amod	_	TokenRange=213:217
+32	realizou	realizar	VERB	VERB	_	3	parataxis	_	TokenRange=218:226
+33	exames	exame	NOUN	NOUN	_	32	obj	_	TokenRange=227:233
+34	fisicos	fisico	ADJ	ADJ	_	33	amod	_	TokenRange=234:241
+35	ressonancia	ressonancia	NOUN	NOUN	_	33	appos	_	TokenRange=242:253
+36	nuclear	nuclear	ADJ	ADJ	_	35	amod	_	TokenRange=254:261
+37	magnetica	magnetico	ADJ	ADJ	_	35	amod	_	TokenRange=262:271
+38	petct	_	NOUN	NOUN	_	35	appos	_	TokenRange=272:277
+39	nasofibrolaringoscopia	_	NOUN	NOUN	_	38	flat	_	TokenRange=278:300
+40	equipes	equipe	NOUN	NOUN	_	32	nsubj	_	TokenRange=301:308
+41	coordenadas	_	NOUN	NOUN	_	40	appos	_	TokenRange=309:320
+42	medicos	medico	ADJ	ADJ	_	41	amod	_	TokenRange=321:328
+43	roberto	roberto	NOUN	NOUN	_	40	appos	_	TokenRange=329:336
+44	kalil	_	NOUN	NOUN	_	43	flat	_	TokenRange=337:342
+45	filho	filho	NOUN	NOUN	_	43	flat	_	TokenRange=343:348
+46	artur	artur	NOUN	NOUN	_	43	appos	_	TokenRange=349:354
+47	katz	_	NOUN	NOUN	_	46	flat	_	TokenRange=355:359
+48	2011	_	NUM	NUM	NumType=Card	46	appos	_	TokenRange=360:364
+49	lula	_	NOUN	NOUN	_	50	appos	_	TokenRange=365:369
+50	cancer	cancer	VERB	NOUN	_	32	parataxis	_	TokenRange=370:376
+51	laringe	laringe	NOUN	NOUN	_	50	obj	_	TokenRange=377:384
+52	ee	_	CCONJ	X	_	53	cc	_	TokenRange=385:387
+53	tratado	tratado	NOUN	NOUN	_	50	conj	_	TokenRange=388:395
+54	profissionais	profissional	ADJ	ADJ	_	53	amod	_	TokenRange=396:409
+55	sirio	sirio	ADJ	ADJ	_	56	amod	_	TokenRange=410:415
+56	libanes	libane	ADJ	ADJ	_	53	amod	_	SpaceAfter=No|TokenRange=416:423
+

@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tercafeira 3 outubro 2017 boa noite aqui principais noticias terminar dia beminformado dia massacre las vegas muitas perguntas sobre ato violencia brutal sobre multidao permanecem resposta poucos detalhes emergiram sobre atirador aposentado rico conseguem estabelecer retrato alguem cometeria maior ataque tiros historia eua brasil temer aecio preparam batalhas terreno politico juridico parlamentares pulpito senado discursar grande maioria contra decisao supremo afastar tucano aecio neves mandato visto ingerencia judiciario questoes senado casa final resolveu adiar dia 17 outubro votacao sobre afastamento aecio presidente michel temer receberia hoje 50 deputados todos
+1	tercafeira	tercafeira	NOUN	NOUN	_	25	parataxis	_	TokenRange=0:10
+2	3	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=11:12
+3	outubro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=13:20
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=21:25
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=26:29
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+7	aqui	aqui	ADV	ADV	_	25	advmod	_	TokenRange=36:40
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=41:51
+9	noticias	_	NOUN	NOUN	_	6	appos	_	TokenRange=52:60
+10	terminar	terminar	VERB	VERB	_	6	parataxis	_	TokenRange=61:69
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=70:73
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=74:86
+13	dia	dia	NOUN	NOUN	_	10	appos	_	TokenRange=87:90
+14	massacre	massacre	NOUN	NOUN	_	13	appos	_	TokenRange=91:99
+15	las	_	DET	DET	_	16	det	_	TokenRange=100:103
+16	vegas	vega	NOUN	NOUN	_	14	nmod	_	TokenRange=104:109
+17	muitas	_	DET	DET	_	18	det	_	TokenRange=110:116
+18	perguntas	pergunta	NOUN	NOUN	_	25	nsubj	_	TokenRange=117:126
+19	sobre	_	ADP	ADP	_	20	case	_	TokenRange=127:132
+20	ato	ato	NOUN	NOUN	_	18	nmod	_	TokenRange=133:136
+21	violencia	violencia	NOUN	NOUN	_	20	appos	_	TokenRange=137:146
+22	brutal	brutal	ADJ	ADJ	_	21	amod	_	TokenRange=147:153
+23	sobre	_	ADP	ADP	_	24	case	_	TokenRange=154:159
+24	multidao	multidao	NOUN	NOUN	_	20	nmod	_	TokenRange=160:168
+25	permanecem	permanecer	VERB	VERB	_	0	root	_	TokenRange=169:179
+26	resposta	resposta	NOUN	NOUN	_	25	obj	_	TokenRange=180:188
+27	poucos	_	DET	DET	_	28	det	_	TokenRange=189:195
+28	detalhes	detalhe	NOUN	NOUN	_	29	nsubj	_	TokenRange=196:204
+29	emergiram	emergir	VERB	VERB	_	25	parataxis	_	TokenRange=205:214
+30	sobre	_	ADP	ADP	_	31	case	_	TokenRange=215:220
+31	atirador	atirador	NOUN	NOUN	_	29	nmod	_	TokenRange=221:229
+32	aposentado	aposentado	ADJ	ADJ	_	31	amod	_	TokenRange=230:240
+33	rico	rico	ADJ	ADJ	_	31	amod	_	TokenRange=241:245
+34	conseguem	conseguir	VERB	VERB	_	29	ccomp	_	TokenRange=246:255
+35	estabelecer	estabelecer	VERB	VERB	_	34	xcomp	_	TokenRange=256:267
+36	retrato	retrato	NOUN	NOUN	_	35	obj	_	TokenRange=268:275
+37	alguem	_	PRON	PRON	_	38	nsubj	_	TokenRange=276:282
+38	cometeria	cometer	VERB	VERB	_	35	ccomp	_	TokenRange=283:292
+39	maior	maior	ADJ	ADJ	_	40	amod	_	TokenRange=293:298
+40	ataque	ataque	NOUN	NOUN	_	38	obj	_	TokenRange=299:305
+41	tiros	tiro	NOUN	NOUN	_	40	appos	_	TokenRange=306:311
+42	historia	historia	NOUN	NOUN	_	40	appos	_	TokenRange=312:320
+43	eua	_	DET	DET	_	40	appos	_	TokenRange=321:324
+44	brasil	brasil	ADJ	NOUN	_	45	amod	_	TokenRange=325:331
+45	temer	temer	NOUN	NOUN	_	47	nsubj	_	TokenRange=332:337
+46	aecio	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=338:343
+47	preparam	preparar	VERB	VERB	_	25	parataxis	_	TokenRange=344:352
+48	batalhas	batalha	NOUN	NOUN	_	47	obj	_	TokenRange=353:361
+49	terreno	terreno	NOUN	NOUN	_	48	appos	_	TokenRange=362:369
+50	politico	politico	ADJ	ADJ	_	49	amod	_	TokenRange=370:378
+51	juridico	juridico	ADJ	ADJ	_	49	amod	_	TokenRange=379:387
+52	parlamentares	parlamentar	ADJ	ADJ	_	49	amod	_	TokenRange=388:401
+53	pulpito	pulpito	ADJ	ADJ	_	49	amod	_	TokenRange=402:409
+54	senado	senado	NOUN	NOUN	_	55	nsubj	_	TokenRange=410:416
+55	discursar	discursar	VERB	VERB	_	48	acl:relcl	_	TokenRange=417:426
+56	grande	grande	ADJ	ADJ	_	57	amod	_	TokenRange=427:433
+57	maioria	maioria	NOUN	NOUN	_	55	obj	_	TokenRange=434:441
+58	contra	_	ADP	ADP	_	59	case	_	TokenRange=442:448
+59	decisao	decisao	NOUN	NOUN	_	55	nmod	_	TokenRange=449:456
+60	supremo	supremo	ADJ	ADJ	_	59	amod	_	TokenRange=457:464
+61	afastar	afastar	VERB	VERB	_	55	advcl	_	TokenRange=465:472
+62	tucano	tucano	NOUN	NOUN	_	61	obj	_	TokenRange=473:479
+63	aecio	_	NOUN	NOUN	_	62	appos	_	TokenRange=480:485
+64	neves	neve	ADJ	ADJ	_	63	amod	_	TokenRange=486:491
+65	mandato	mandato	NOUN	NOUN	_	61	obj	_	TokenRange=492:499
+66	visto	_	VERB	VERB	_	65	acl	_	TokenRange=500:505
+67	ingerencia	ingerencia	NOUN	NOUN	_	61	obj	_	TokenRange=506:516
+68	judiciario	judiciario	ADJ	ADJ	_	67	amod	_	TokenRange=517:527
+69	questoes	questoe	NOUN	NOUN	_	67	appos	_	TokenRange=528:536
+70	senado	senado	ADJ	ADJ	_	71	amod	_	TokenRange=537:543
+71	casa	casa	NOUN	NOUN	_	73	nsubj	_	TokenRange=544:548
+72	final	final	ADJ	ADJ	_	71	amod	_	TokenRange=549:554
+73	resolveu	resolver	VERB	VERB	_	55	parataxis	_	TokenRange=555:563
+74	adiar	adiar	VERB	VERB	_	73	xcomp	_	TokenRange=564:569
+75	dia	dia	NOUN	NOUN	_	74	nmod	_	TokenRange=570:573
+76	17	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=574:576
+77	outubro	_	PROPN	PNOUN	_	75	nmod	_	TokenRange=577:584
+78	votacao	votacao	NOUN	NOUN	_	85	appos	_	TokenRange=585:592
+79	sobre	_	ADP	ADP	_	80	case	_	TokenRange=593:598
+80	afastamento	afastamento	NOUN	NOUN	_	78	nmod	_	TokenRange=599:610
+81	aecio	_	ADJ	ADJ	_	80	appos	_	TokenRange=611:616
+82	presidente	presidente	NOUN	NOUN	_	80	appos	_	TokenRange=617:627
+83	michel	michel	ADJ	ADJ	_	84	amod	_	TokenRange=628:634
+84	temer	temer	NOUN	NOUN	_	82	appos	_	TokenRange=635:640
+85	receberia	receber	VERB	VERB	_	73	parataxis	_	TokenRange=641:650
+86	hoje	hoje	ADV	ADV	_	85	advmod	_	TokenRange=651:655
+87	50	_	NUM	NUM	NumType=Card	88	nummod	_	TokenRange=656:658
+88	deputados	deputado	NOUN	NOUN	_	85	obj	_	TokenRange=659:668
+89	todos	_	DET	DET	_	88	det	_	SpaceAfter=No|TokenRange=669:674
+

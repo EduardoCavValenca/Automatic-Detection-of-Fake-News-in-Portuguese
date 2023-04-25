@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = atriz marilia pera deixou heranca avaliada r 40 milhoes marilia pera 72 anos deixou testamento milionario atriz faleceu dezembro 2015 decorrencia cancer pulmao patrimonio marilia imoveis bens avaliado r 40 milhoes desses imoveis cobertura duplex lagoa zona sul rio avaliado r 9 milhoes segundo jornal extra atriz deixou beneficiarios marido tres filhos irma cada filho ficara 25 heranca 25 restantes divididos bruno faria marido artista irma ariz sandra pera
+1	atriz	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	marilia	marilia	NOUN	NOUN	_	1	appos	_	TokenRange=6:13
+3	pera	_	NOUN	NOUN	_	2	flat	_	TokenRange=14:18
+4	deixou	deixar	VERB	VERB	_	0	root	_	TokenRange=19:25
+5	heranca	_	NOUN	NOUN	_	4	obj	_	TokenRange=26:33
+6	avaliada	avaliado	ADJ	ADJ	_	4	xcomp	_	TokenRange=34:42
+7	r	r	NOUN	NOUN	_	9	case	_	TokenRange=43:44
+8	40	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=45:47
+9	milhoes	_	NUM	NUM	NumType=Card	6	nmod	_	TokenRange=48:55
+10	marilia	marilia	NOUN	NOUN	_	14	nsubj	_	TokenRange=56:63
+11	pera	_	ADJ	ADJ	_	10	flat	_	TokenRange=64:68
+12	72	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=69:71
+13	anos	ano	NOUN	NOUN	_	14	nsubj	_	TokenRange=72:76
+14	deixou	deixar	VERB	VERB	_	4	parataxis	_	TokenRange=77:83
+15	testamento	testamento	NOUN	NOUN	_	14	obj	_	TokenRange=84:94
+16	milionario	milionario	ADJ	ADJ	_	15	amod	_	TokenRange=95:105
+17	atriz	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=106:111
+18	faleceu	falecer	VERB	VERB	_	4	parataxis	_	TokenRange=112:119
+19	dezembro	_	PROPN	PNOUN	_	18	nmod	_	TokenRange=120:128
+20	2015	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=129:133
+21	decorrencia	decorrenciar	VERB	VERB	_	18	parataxis	_	TokenRange=134:145
+22	cancer	cancer	NOUN	NOUN	_	21	obj	_	TokenRange=146:152
+23	pulmao	pulmao	ADJ	ADJ	_	22	amod	_	TokenRange=153:159
+24	patrimonio	patrimonio	NOUN	NOUN	_	22	appos	_	TokenRange=160:170
+25	marilia	marilia	NOUN	NOUN	_	22	appos	_	TokenRange=171:178
+26	imoveis	imovel	ADJ	ADJ	_	27	amod	_	TokenRange=179:186
+27	bens	bem	NOUN	NOUN	_	25	appos	_	TokenRange=187:191
+28	avaliado	avaliar	VERB	VERB	_	27	acl	_	TokenRange=192:200
+29	r	r	NOUN	NOUN	_	28	punct	_	TokenRange=201:202
+30	40	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=203:205
+31	milhoes	_	NUM	NUM	NumType=Card	28	obj	_	TokenRange=206:213
+32	desses	_	ADP	ADP	_	33	case	_	TokenRange=214:220
+33	imoveis	imovel	NOUN	NOUN	_	28	nmod	_	TokenRange=221:228
+34	cobertura	cobertura	NOUN	NOUN	_	33	appos	_	TokenRange=229:238
+35	duplex	_	NOUN	NOUN	_	34	amod	_	TokenRange=239:245
+36	lagoa	lagoa	NOUN	NOUN	_	34	appos	_	TokenRange=246:251
+37	zona	zona	NOUN	NOUN	_	34	appos	_	TokenRange=252:256
+38	sul	sul	ADJ	ADJ	_	37	amod	_	TokenRange=257:260
+39	rio	rio	NOUN	NOUN	_	37	appos	_	TokenRange=261:264
+40	avaliado	avaliar	VERB	VERB	_	4	acl	_	TokenRange=265:273
+41	r	r	NOUN	NOUN	_	40	nmod	_	TokenRange=274:275
+42	9	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=276:277
+43	milhoes	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=278:285
+44	segundo	_	ADP	ADP	_	45	case	_	TokenRange=286:293
+45	jornal	jornal	NOUN	NOUN	_	48	nmod	_	TokenRange=294:300
+46	extra	extra	ADJ	ADJ	_	45	amod	_	TokenRange=301:306
+47	atriz	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=307:312
+48	deixou	deixar	VERB	VERB	_	4	parataxis	_	TokenRange=313:319
+49	beneficiarios	beneficiario	NOUN	NOUN	_	48	obj	_	TokenRange=320:333
+50	marido	marido	NOUN	NOUN	_	49	flat	_	TokenRange=334:340
+51	tres	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=341:345
+52	filhos	filho	NOUN	NOUN	_	48	obj	_	TokenRange=346:352
+53	irma	irma	NOUN	ADJ	_	52	appos	_	TokenRange=353:357
+54	cada	_	DET	DET	_	55	det	_	TokenRange=358:362
+55	filho	filho	NOUN	NOUN	_	56	nsubj	_	TokenRange=363:368
+56	ficara	ficar	VERB	VERB	_	48	parataxis	_	TokenRange=369:375
+57	25	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=376:378
+58	heranca	_	NOUN	NOUN	_	56	obj	_	TokenRange=379:386
+59	25	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=387:389
+60	restantes	restante	ADJ	ADJ	_	58	amod	_	TokenRange=390:399
+61	divididos	dividido	ADJ	ADJ	_	56	xcomp	_	TokenRange=400:409
+62	bruno	bruno	NOUN	NOUN	_	56	nsubj	_	TokenRange=410:415
+63	faria	faria	NOUN	NOUN	_	62	flat	_	TokenRange=416:421
+64	marido	marido	NOUN	NOUN	_	62	flat	_	TokenRange=422:428
+65	artista	artista	NOUN	NOUN	_	62	flat	_	TokenRange=429:436
+66	irma	_	NOUN	NOUN	_	62	appos	_	TokenRange=437:441
+67	ariz	_	NOUN	NOUN	_	66	flat	_	TokenRange=442:446
+68	sandra	_	PROPN	PNOUN	_	66	appos	_	TokenRange=447:453
+69	pera	_	PROPN	NOUN	_	68	flat	_	SpaceAfter=No|TokenRange=454:458
+

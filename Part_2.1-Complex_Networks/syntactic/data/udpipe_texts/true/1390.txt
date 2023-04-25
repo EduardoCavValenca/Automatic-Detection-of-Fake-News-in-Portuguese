@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = honestino guimaraes costa silva cupula tj julgara nome ponte df grupo questiona mudanca feita 2015 constitucional enquanto honestino continua placa impasse sobre nome segunda ponte lago sul brasilia parar maos conselho especial tribunal justica distrito federal cupula justica local 21 desembargadores vao decidir homenageado monumento expresidente costa silva marechal anos chumbo ditadura militar honestino guimaraes estudante perseguido regime desaparecido 1972 estrutura passou chamar ponte honestino guimaraes agosto 2015 lei proposta deputado distrital ricardo vale pt aprovada camara legislativa sancionada rodrigo rollemberg
+1	honestino	honestino	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:9
+2	guimaraes	guimaraes	NOUN	NOUN	_	1	flat	_	TokenRange=10:19
+3	costa	_	NOUN	NOUN	_	5	case	_	TokenRange=20:25
+4	silva	silvo	ADJ	NOUN	_	1	nmod	_	TokenRange=26:31
+5	cupula	cupula	NOUN	NOUN	_	1	appos	_	TokenRange=32:38
+6	tj	_	NOUN	NOUN	_	5	appos	_	TokenRange=39:41
+7	julgara	julgar	VERB	VERB	_	0	root	_	TokenRange=42:49
+8	nome	nome	NOUN	NOUN	_	7	obj	_	TokenRange=50:54
+9	ponte	ponte	NOUN	NOUN	_	8	appos	_	TokenRange=55:60
+10	df	_	NOUN	NOUN	_	9	flat	_	TokenRange=61:63
+11	grupo	grupo	NOUN	NOUN	_	9	appos	_	TokenRange=64:69
+12	questiona	questionar	VERB	VERB	_	7	parataxis	_	TokenRange=70:79
+13	mudanca	mudanca	NOUN	NOUN	_	12	obj	_	TokenRange=80:87
+14	feita	_	VERB	VERB	_	13	acl	_	TokenRange=88:93
+15	2015	_	NUM	NUM	NumType=Card	12	nmod	_	TokenRange=94:98
+16	constitucional	constitucional	ADJ	ADJ	_	15	amod	_	TokenRange=99:113
+17	enquanto	_	CCONJ	CONJ	_	19	mark	_	TokenRange=114:122
+18	honestino	honestino	NOUN	NOUN	_	19	nsubj	_	TokenRange=123:132
+19	continua	continuar	VERB	VERB	_	7	advcl	_	TokenRange=133:141
+20	placa	_	NOUN	NOUN	_	19	obj	_	TokenRange=142:147
+21	impasse	impasse	NOUN	NOUN	_	20	appos	_	TokenRange=148:155
+22	sobre	_	ADP	ADP	_	23	case	_	TokenRange=156:161
+23	nome	nome	NOUN	NOUN	_	21	nmod	_	TokenRange=162:166
+24	segunda	segundo	ADJ	ADJ	_	25	amod	_	TokenRange=167:174
+25	ponte	ponte	NOUN	NOUN	_	23	appos	_	TokenRange=175:180
+26	lago	lago	NOUN	NOUN	_	25	appos	_	TokenRange=181:185
+27	sul	sul	ADJ	ADJ	_	25	amod	_	TokenRange=186:189
+28	brasilia	_	NOUN	NOUN	_	25	appos	_	TokenRange=190:198
+29	parar	parar	VERB	VERB	_	7	parataxis	_	TokenRange=199:204
+30	maos	mao	NOUN	NOUN	_	29	obj	_	TokenRange=205:209
+31	conselho	conselho	NOUN	NOUN	_	29	nsubj	_	TokenRange=210:218
+32	especial	especial	ADJ	ADJ	_	31	amod	_	TokenRange=219:227
+33	tribunal	tribunal	NOUN	NOUN	_	31	appos	_	TokenRange=228:236
+34	justica	justico	ADJ	ADJ	_	31	amod	_	TokenRange=237:244
+35	distrito	distrito	NOUN	NOUN	_	31	appos	_	TokenRange=245:253
+36	federal	federal	ADJ	ADJ	_	33	amod	_	TokenRange=254:261
+37	cupula	cupula	NOUN	NOUN	_	38	appos	_	TokenRange=262:268
+38	justica	_	NOUN	NOUN	_	31	appos	_	TokenRange=269:276
+39	local	local	ADJ	ADJ	_	38	amod	_	TokenRange=277:282
+40	21	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=283:285
+41	desembargadores	desembargador	NOUN	NOUN	_	43	nsubj	_	TokenRange=286:301
+42	vao	ir	AUX	AUX	_	43	aux	_	TokenRange=302:305
+43	decidir	decidir	VERB	VERB	_	7	parataxis	_	TokenRange=306:313
+44	homenageado	homenageado	ADJ	ADJ	_	45	amod	_	TokenRange=314:325
+45	monumento	monumento	NOUN	NOUN	_	43	obj	_	TokenRange=326:335
+46	expresidente	expresidente	NOUN	NOUN	_	45	amod	_	TokenRange=336:348
+47	costa	costa	NOUN	NOUN	_	45	appos	_	TokenRange=349:354
+48	silva	silva	NOUN	NOUN	_	47	flat	_	TokenRange=355:360
+49	marechal	marechal	ADJ	ADJ	_	50	amod	_	TokenRange=361:369
+50	anos	ano	NOUN	NOUN	_	45	appos	_	TokenRange=370:374
+51	chumbo	chumbo	ADJ	ADJ	_	52	amod	_	TokenRange=375:381
+52	ditadura	ditadura	NOUN	NOUN	_	43	nsubj	_	TokenRange=382:390
+53	militar	militar	ADJ	ADJ	_	52	amod	_	TokenRange=391:398
+54	honestino	honestino	ADJ	NOUN	_	52	amod	_	TokenRange=399:408
+55	guimaraes	guimaraes	ADJ	NOUN	_	52	amod	_	TokenRange=409:418
+56	estudante	estudante	NOUN	NOUN	_	52	appos	_	TokenRange=419:428
+57	perseguido	perseguir	VERB	ADJ	_	58	acl	_	TokenRange=429:439
+58	regime	regime	NOUN	NOUN	_	56	appos	_	TokenRange=440:446
+59	desaparecido	desaparecer	VERB	VERB	_	58	acl	_	TokenRange=447:459
+60	1972	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=460:464
+61	estrutura	estrutura	NOUN	NOUN	_	59	nsubj	_	TokenRange=465:474
+62	passou	passar	AUX	AUX	_	64	aux	_	TokenRange=475:481
+63	chamar	chamar	AUX	AUX	_	64	cop	_	TokenRange=482:488
+64	ponte	ponte	NOUN	NOUN	_	7	parataxis	_	TokenRange=489:494
+65	honestino	honestino	ADJ	ADJ	_	64	amod	_	TokenRange=495:504
+66	guimaraes	guimarae	ADJ	ADJ	_	64	amod	_	TokenRange=505:514
+67	agosto	_	PROPN	PNOUN	_	64	nmod	_	TokenRange=515:521
+68	2015	_	NUM	NUM	NumType=Card	67	appos	_	TokenRange=522:526
+69	lei	lei	NOUN	NOUN	_	64	nsubj	_	TokenRange=527:530
+70	proposta	_	NOUN	NOUN	_	69	acl	_	TokenRange=531:539
+71	deputado	deputado	NOUN	NOUN	_	64	appos	_	TokenRange=540:548
+72	distrital	distrital	ADJ	ADJ	_	71	amod	_	TokenRange=549:558
+73	ricardo	ricardo	NOUN	NOUN	_	71	appos	_	TokenRange=559:566
+74	vale	_	NOUN	NOUN	_	73	flat	_	TokenRange=567:571
+75	pt	_	PROPN	PNOUN	_	76	nsubj	_	TokenRange=572:574
+76	aprovada	aprovar	VERB	VERB	_	64	acl	_	TokenRange=575:583
+77	camara	camara	NOUN	NOUN	_	76	nsubj	_	TokenRange=584:590
+78	legislativa	legislativo	ADJ	ADJ	_	77	amod	_	TokenRange=591:602
+79	sancionada	sancionar	VERB	VERB	_	77	acl	_	TokenRange=603:613
+80	rodrigo	_	PROPN	PNOUN	_	79	nsubj	_	TokenRange=614:621
+81	rollemberg	_	PROPN	PNOUN	_	80	flat	_	SpaceAfter=No|TokenRange=622:632
+

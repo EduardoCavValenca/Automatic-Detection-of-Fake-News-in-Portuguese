@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = grupo faz manifestacao uberlandia absolvicao expresidente lula ato ocorre simultaneamente julgamento recurso petista trf4 movimento comecou frente predio justica federal integrantes movimentos sociais manifestaram uberlandia nesta quartafeira 24 absolvicao petista luiz inacio lula silva pt acao comecou frente predio justica federal inicio manha simultaneamente julgamento recurso expresidente luiz inacio lula silva pt tribunal regional federal 4 regiao trf4 policia militar acompanhou protesto contabilizou menos 70 pessoas organizacao
+1	grupo	grupo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	manifestacao	manifestacao	NOUN	NOUN	_	2	obj	_	TokenRange=10:22
+4	uberlandia	uberlandia	NOUN	NOUN	_	3	appos	_	TokenRange=23:33
+5	absolvicao	_	ADJ	ADJ	_	6	amod	_	TokenRange=34:44
+6	expresidente	expresidente	NOUN	NOUN	_	2	obj	_	TokenRange=45:57
+7	lula	lula	ADJ	ADJ	_	6	amod	_	TokenRange=58:62
+8	ato	ato	NOUN	NOUN	_	1	appos	_	TokenRange=63:66
+9	ocorre	ocorrer	VERB	VERB	_	2	parataxis	_	TokenRange=67:73
+10	simultaneamente	simultaneamente	ADV	ADV	_	9	advmod	_	TokenRange=74:89
+11	julgamento	julgamento	NOUN	NOUN	_	9	obj	_	TokenRange=90:100
+12	recurso	recurso	NOUN	NOUN	_	11	appos	_	TokenRange=101:108
+13	petista	petista	ADJ	ADJ	_	12	amod	_	TokenRange=109:116
+14	trf4	_	NUM	DET	_	15	appos	_	TokenRange=117:121
+15	movimento	movimento	NOUN	NOUN	_	16	nsubj	_	TokenRange=122:131
+16	comecou	comecar	VERB	VERB	_	11	acl:relcl	_	TokenRange=132:139
+17	frente	frente	NOUN	NOUN	_	16	obj	_	TokenRange=140:146
+18	predio	predio	ADJ	ADJ	_	17	amod	_	TokenRange=147:153
+19	justica	_	NOUN	NOUN	_	17	appos	_	TokenRange=154:161
+20	federal	federal	ADJ	ADJ	_	19	amod	_	TokenRange=162:169
+21	integrantes	_	ADJ	ADJ	_	22	amod	_	TokenRange=170:181
+22	movimentos	movimento	NOUN	NOUN	_	24	nsubj	_	TokenRange=182:192
+23	sociais	social	ADJ	ADJ	_	22	amod	_	TokenRange=193:200
+24	manifestaram	manifestar	VERB	VERB	_	19	acl:relcl	_	TokenRange=201:213
+25	uberlandia	uberlandia	NOUN	NOUN	_	24	obj	_	TokenRange=214:224
+26	nesta	_	ADP	ADP	_	27	case	_	TokenRange=225:230
+27	quartafeira	quartafeira	NOUN	NOUN	_	24	nmod	_	TokenRange=231:242
+28	24	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=243:245
+29	absolvicao	absolvicao	NOUN	NOUN	_	27	appos	_	TokenRange=246:256
+30	petista	petista	NOUN	NOUN	_	29	amod	_	TokenRange=257:264
+31	luiz	luiz	NOUN	NOUN	_	29	appos	_	TokenRange=265:269
+32	inacio	_	NOUN	NOUN	_	31	flat	_	TokenRange=270:276
+33	lula	_	NOUN	NOUN	_	31	flat	_	TokenRange=277:281
+34	silva	silva	ADJ	ADJ	_	31	flat	_	TokenRange=282:287
+35	pt	_	CCONJ	CONJ	_	37	cc	_	TokenRange=288:290
+36	acao	acao	NOUN	NOUN	_	37	nsubj	_	TokenRange=291:295
+37	comecou	comecar	VERB	VERB	_	24	parataxis	_	TokenRange=296:303
+38	frente	frente	NOUN	NOUN	_	37	nmod	_	TokenRange=304:310
+39	predio	predio	ADJ	ADJ	_	38	amod	_	TokenRange=311:317
+40	justica	_	NOUN	NOUN	_	38	appos	_	TokenRange=318:325
+41	federal	federal	ADJ	ADJ	_	40	amod	_	TokenRange=326:333
+42	inicio	_	NOUN	NOUN	_	43	case	_	TokenRange=334:340
+43	manha	manha	NOUN	NOUN	_	37	nmod	_	TokenRange=341:346
+44	simultaneamente	simultaneamente	ADV	ADV	_	45	advmod	_	TokenRange=347:362
+45	julgamento	julgamento	NOUN	NOUN	_	37	nsubj	_	TokenRange=363:373
+46	recurso	recurso	NOUN	NOUN	_	45	appos	_	TokenRange=374:381
+47	expresidente	expresidente	NOUN	NOUN	_	45	amod	_	TokenRange=382:394
+48	luiz	luiz	ADJ	NOUN	_	46	appos	_	TokenRange=395:399
+49	inacio	_	NOUN	NOUN	_	48	flat	_	TokenRange=400:406
+50	lula	_	NOUN	NOUN	_	48	flat	_	TokenRange=407:411
+51	silva	silva	NOUN	NOUN	_	48	flat	_	TokenRange=412:417
+52	pt	_	PUNCT	.	_	53	punct	_	TokenRange=418:420
+53	tribunal	tribunal	NOUN	NOUN	_	45	appos	_	TokenRange=421:429
+54	regional	regional	ADJ	ADJ	_	53	amod	_	TokenRange=430:438
+55	federal	federal	ADJ	ADJ	_	53	amod	_	TokenRange=439:446
+56	4	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=447:448
+57	regiao	regiao	NOUN	NOUN	_	53	appos	_	TokenRange=449:455
+58	trf4	_	ADJ	ADJ	_	59	amod	_	TokenRange=456:460
+59	policia	policia	NOUN	NOUN	_	61	nsubj	_	TokenRange=461:468
+60	militar	militar	ADJ	ADJ	_	59	amod	_	TokenRange=469:476
+61	acompanhou	acompanhar	VERB	VERB	_	53	acl:relcl	_	TokenRange=477:487
+62	protesto	protesto	NOUN	NOUN	_	61	obj	_	TokenRange=488:496
+63	contabilizou	contabilizar	VERB	VERB	_	61	parataxis	_	TokenRange=497:509
+64	menos	menos	ADV	ADV	_	65	advmod	_	TokenRange=510:515
+65	70	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=516:518
+66	pessoas	pessoa	NOUN	NOUN	_	63	obj	_	TokenRange=519:526
+67	organizacao	organizacao	VERB	VERB	_	63	parataxis	_	SpaceAfter=No|TokenRange=527:538
+

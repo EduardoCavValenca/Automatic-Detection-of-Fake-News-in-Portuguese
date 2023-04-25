@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = comissao etica publica apura conduta 20 25 ministros governo temer colegiado volta reunir nesta segunda 30 avalia parte ministros usou irregularmente avioes fab nomeacoes troca votos favor impeachment dilma comissao etica publica presidencia retoma atividades nesta segundafeira 30 analisara longo deste ano processos envolvem 20 25 ministros integram governo presidente michel temer veja lista ministros final desta reportagem 25 integrantes primeiro escalao temer alvos processo comissao etica publica somente
+1	comissao	comissao	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	etica	etica	NOUN	NOUN	_	1	flat	_	TokenRange=9:14
+3	publica	publico	ADJ	ADJ	_	1	amod	_	TokenRange=15:22
+4	apura	apurar	VERB	VERB	_	0	root	_	TokenRange=23:28
+5	conduta	conduta	NOUN	NOUN	_	4	obj	_	TokenRange=29:36
+6	20	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=37:39
+7	25	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=40:42
+8	ministros	ministro	NOUN	NOUN	_	4	nsubj	_	TokenRange=43:52
+9	governo	governo	NOUN	NOUN	_	8	appos	_	TokenRange=53:60
+10	temer	temer	NOUN	NOUN	_	8	flat	_	TokenRange=61:66
+11	colegiado	colegiado	ADJ	ADJ	_	8	amod	_	TokenRange=67:76
+12	volta	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=77:82
+13	reunir	reunir	VERB	VERB	_	4	ccomp	_	TokenRange=83:89
+14	nesta	_	ADP	ADP	_	15	case	_	TokenRange=90:95
+15	segunda	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=96:103
+16	30	_	NUM	NUM	NumType=Card	13	nmod	_	TokenRange=104:106
+17	avalia	avaliar	VERB	VERB	_	4	parataxis	_	TokenRange=107:113
+18	parte	parte	NOUN	NOUN	_	17	obj	_	TokenRange=114:119
+19	ministros	ministro	NOUN	NOUN	_	20	nsubj	_	TokenRange=120:129
+20	usou	usar	VERB	VERB	_	17	parataxis	_	TokenRange=130:134
+21	irregularmente	irregularmente	ADV	ADV	_	20	advmod	_	TokenRange=135:149
+22	avioes	avioe	NOUN	NOUN	_	20	obj	_	TokenRange=150:156
+23	fab	_	NOUN	NOUN	_	22	flat	_	TokenRange=157:160
+24	nomeacoes	_	NOUN	NOUN	_	22	flat	_	TokenRange=161:170
+25	troca	_	NOUN	NOUN	_	20	parataxis	_	TokenRange=171:176
+26	votos	voto	NOUN	NOUN	_	20	obj	_	TokenRange=177:182
+27	favor	favor	NOUN	NOUN	_	28	amod	_	TokenRange=183:188
+28	impeachment	impeachment	NOUN	NOUN	_	20	nsubj	_	TokenRange=189:200
+29	dilma	_	NOUN	NOUN	_	28	flat	_	TokenRange=201:206
+30	comissao	comissao	NOUN	NOUN	_	28	appos	_	TokenRange=207:215
+31	etica	etica	NOUN	NOUN	_	28	amod	_	TokenRange=216:221
+32	publica	publico	ADJ	ADJ	_	31	amod	_	TokenRange=222:229
+33	presidencia	presidencia	NOUN	NOUN	_	34	nsubj	_	TokenRange=230:241
+34	retoma	retomar	VERB	VERB	_	4	parataxis	_	TokenRange=242:248
+35	atividades	atividade	NOUN	NOUN	_	34	obj	_	TokenRange=249:259
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=260:265
+37	segundafeira	_	NOUN	NOUN	_	34	nmod	_	TokenRange=266:278
+38	30	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=279:281
+39	analisara	analisar	VERB	VERB	_	34	parataxis	_	TokenRange=282:291
+40	longo	longo	NOUN	NOUN	_	39	obj	_	TokenRange=292:297
+41	deste	_	ADP	ADP	_	42	case	_	TokenRange=298:303
+42	ano	ano	NOUN	NOUN	_	40	nmod	_	TokenRange=304:307
+43	processos	processo	NOUN	NOUN	_	39	nsubj	_	TokenRange=308:317
+44	envolvem	envolver	VERB	VERB	_	43	acl:relcl	_	TokenRange=318:326
+45	20	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=327:329
+46	25	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=330:332
+47	ministros	ministro	NOUN	NOUN	_	44	obj	_	TokenRange=333:342
+48	integram	integrar	VERB	VERB	_	44	parataxis	_	TokenRange=343:351
+49	governo	governo	NOUN	NOUN	_	48	obj	_	TokenRange=352:359
+50	presidente	presidente	NOUN	NOUN	_	49	appos	_	TokenRange=360:370
+51	michel	michel	ADJ	ADJ	_	52	amod	_	TokenRange=371:377
+52	temer	temer	NOUN	NOUN	_	50	appos	_	TokenRange=378:383
+53	veja	ver	VERB	VERB	_	4	parataxis	_	TokenRange=384:388
+54	lista	lista	NOUN	NOUN	_	53	obj	_	TokenRange=389:394
+55	ministros	ministro	NOUN	NOUN	_	54	appos	_	TokenRange=395:404
+56	final	final	ADJ	ADJ	_	54	amod	_	TokenRange=405:410
+57	desta	_	ADP	ADP	_	58	case	_	TokenRange=411:416
+58	reportagem	reportagem	NOUN	NOUN	_	54	nmod	_	TokenRange=417:427
+59	25	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=428:430
+60	integrantes	_	ADJ	NOUN	_	62	amod	_	TokenRange=431:442
+61	primeiro	primeiro	ADJ	ADJ	_	62	amod	_	TokenRange=443:451
+62	escalao	escalao	NOUN	NOUN	_	54	appos	_	TokenRange=452:459
+63	temer	temer	NOUN	NOUN	_	62	appos	_	TokenRange=460:465
+64	alvos	alvo	ADJ	ADJ	_	62	amod	_	TokenRange=466:471
+65	processo	processo	NOUN	NOUN	_	66	appos	_	TokenRange=472:480
+66	comissao	comissao	NOUN	NOUN	_	62	appos	_	TokenRange=481:489
+67	etica	etica	NOUN	NOUN	_	66	appos	_	TokenRange=490:495
+68	publica	publico	ADJ	ADJ	_	67	amod	_	TokenRange=496:503
+69	somente	somente	ADV	ADV	_	53	advmod	_	SpaceAfter=No|TokenRange=504:511
+

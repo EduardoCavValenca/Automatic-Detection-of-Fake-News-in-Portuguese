@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma compara golpe estado turquia impeachment brasil blogueira dilma rousseff atraves redes sociais comparou tentativa golpe estado turquia decisao senado afastala poder tentativa golpe turquia preocupante governo eleito pode derrubado violencia artimanhas juridicas disse dilma dilma afirma presidente turquia eleito democraticamente povo assim processo impeachment brasil repudiado democracia preservar vontade popular afirmou presidente afastada primeiroministro turquia comunicou hoje governo recuperou controle pais tentativa golpe fracassada 161 pessoas morreram 3 mil militares presos
+1	dilma	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	compara	comparar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	golpe	golpe	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	estado	estado	ADJ	ADJ	_	3	amod	_	TokenRange=20:26
+5	turquia	turquia	NOUN	NOUN	_	3	amod	_	TokenRange=27:34
+6	impeachment	impeachment	NOUN	NOUN	_	3	appos	_	TokenRange=35:46
+7	brasil	brasil	ADJ	ADJ	_	3	amod	_	TokenRange=47:53
+8	blogueira	_	NOUN	NOUN	_	3	appos	_	TokenRange=54:63
+9	dilma	dilma	NOUN	NOUN	_	3	appos	_	TokenRange=64:69
+10	rousseff	rousseff	NOUN	NOUN	_	9	flat	_	TokenRange=70:78
+11	atraves	_	ADP	ADP	_	12	case	_	TokenRange=79:86
+12	redes	rede	NOUN	NOUN	_	2	nmod	_	TokenRange=87:92
+13	sociais	social	ADJ	ADJ	_	12	amod	_	TokenRange=93:100
+14	comparou	comparar	VERB	VERB	_	2	parataxis	_	TokenRange=101:109
+15	tentativa	_	NOUN	NOUN	_	14	obj	_	TokenRange=110:119
+16	golpe	golpe	NOUN	NOUN	_	15	appos	_	TokenRange=120:125
+17	estado	estado	NOUN	NOUN	_	16	amod	_	TokenRange=126:132
+18	turquia	turquia	NOUN	NOUN	_	16	appos	_	TokenRange=133:140
+19	decisao	decisao	NOUN	NOUN	_	15	appos	_	TokenRange=141:148
+20	senado	senado	NOUN	NOUN	_	19	appos	_	TokenRange=149:155
+21	afastala	afastalar	VERB	VERB	_	15	acl:relcl	_	TokenRange=156:164
+22	poder	poder	NOUN	NOUN	_	21	obj	_	TokenRange=165:170
+23	tentativa	_	ADJ	ADJ	_	24	amod	_	TokenRange=171:180
+24	golpe	golpe	NOUN	NOUN	_	21	nsubj	_	TokenRange=181:186
+25	turquia	turquia	NOUN	NOUN	_	24	appos	_	TokenRange=187:194
+26	preocupante	preocupante	ADJ	ADJ	_	27	amod	_	TokenRange=195:206
+27	governo	governo	NOUN	NOUN	_	30	nsubj	_	TokenRange=207:214
+28	eleito	eleger	VERB	VERB	_	27	acl	_	TokenRange=215:221
+29	pode	_	AUX	AUX	_	30	aux	_	TokenRange=222:226
+30	derrubado	derrubar	VERB	VERB	_	14	parataxis	_	TokenRange=227:236
+31	violencia	violencia	NOUN	NOUN	_	30	obj	_	TokenRange=237:246
+32	artimanhas	artimanha	NOUN	NOUN	_	30	nsubj	_	TokenRange=247:257
+33	juridicas	juridico	ADJ	ADJ	_	32	amod	_	TokenRange=258:267
+34	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=268:273
+35	dilma	dilma	NOUN	NOUN	_	37	nsubj	_	TokenRange=274:279
+36	dilma	dilma	NOUN	NOUN	_	35	flat	_	TokenRange=280:285
+37	afirma	afirmar	VERB	VERB	_	34	ccomp	_	TokenRange=286:292
+38	presidente	presidente	NOUN	NOUN	_	37	obj	_	TokenRange=293:303
+39	turquia	turquia	ADJ	ADJ	_	38	amod	_	TokenRange=304:311
+40	eleito	eleger	VERB	VERB	_	38	acl	_	TokenRange=312:318
+41	democraticamente	democraticamente	ADV	ADV	_	42	advmod	_	TokenRange=319:335
+42	povo	povo	NOUN	NOUN	_	37	nsubj	_	TokenRange=336:340
+43	assim	assim	ADV	ADV	_	42	advmod	_	TokenRange=341:346
+44	processo	processo	NOUN	NOUN	_	42	appos	_	TokenRange=347:355
+45	impeachment	impeachment	NOUN	NOUN	_	42	flat	_	TokenRange=356:367
+46	brasil	brasil	ADJ	ADJ	_	44	amod	_	TokenRange=368:374
+47	repudiado	repudiado	ADJ	ADJ	_	48	amod	_	TokenRange=375:384
+48	democracia	democracia	NOUN	NOUN	_	49	nsubj	_	TokenRange=385:395
+49	preservar	preservar	VERB	VERB	_	44	acl:relcl	_	TokenRange=396:405
+50	vontade	vontade	NOUN	NOUN	_	49	obj	_	TokenRange=406:413
+51	popular	popular	ADJ	ADJ	_	50	amod	_	TokenRange=414:421
+52	afirmou	afirmar	VERB	VERB	_	37	parataxis	_	TokenRange=422:429
+53	presidente	presidente	NOUN	NOUN	_	52	obj	_	TokenRange=430:440
+54	afastada	afastado	ADJ	ADJ	_	53	amod	_	TokenRange=441:449
+55	primeiroministro	primeiroministro	ADJ	ADJ	_	53	amod	_	TokenRange=450:466
+56	turquia	turquia	NOUN	NOUN	_	57	nsubj	_	TokenRange=467:474
+57	comunicou	comunicar	VERB	VERB	_	53	acl:relcl	_	TokenRange=475:484
+58	hoje	hoje	ADV	ADV	_	57	advmod	_	TokenRange=485:489
+59	governo	governo	NOUN	NOUN	_	60	nsubj	_	TokenRange=490:497
+60	recuperou	recuperar	VERB	VERB	_	57	ccomp	_	TokenRange=498:507
+61	controle	_	NOUN	NOUN	_	60	obj	_	TokenRange=508:516
+62	pais	_	NOUN	NOUN	_	61	amod	_	TokenRange=517:521
+63	tentativa	tentativo	ADJ	ADJ	_	64	amod	_	TokenRange=522:531
+64	golpe	golpe	NOUN	NOUN	_	61	appos	_	TokenRange=532:537
+65	fracassada	fracassado	ADJ	ADJ	_	64	amod	_	TokenRange=538:548
+66	161	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=549:552
+67	pessoas	pessoa	NOUN	NOUN	_	68	nsubj	_	TokenRange=553:560
+68	morreram	morrer	VERB	VERB	_	37	parataxis	_	TokenRange=561:569
+69	3	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=570:571
+70	mil	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=572:575
+71	militares	militar	NOUN	NOUN	_	68	nsubj	_	TokenRange=576:585
+72	presos	preso	ADJ	ADJ	_	71	amod	_	SpaceAfter=No|TokenRange=586:592
+

@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = corpo marco aurelio garcia exassessor lula dilma cremado paulo marco aurelio morreu quintafeira vitima infarto expresidentes participaram velorio elogiaram trabalho assuntos internacionais exassessor corpo marco aurelio garcia assessor especial assuntos internacionais governos luiz inacio lula silva dilma rousseff cremado 1h30 deste sabado 22 paulo corpo velado durante sextafeira
+1	corpo	corpo	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:5
+2	marco	marco	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	aurelio	aurelio	NOUN	NOUN	_	1	flat	_	TokenRange=12:19
+4	garcia	garcia	NOUN	NOUN	_	2	flat	_	TokenRange=20:26
+5	exassessor	exassessor	NOUN	NOUN	_	1	appos	_	TokenRange=27:37
+6	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=38:42
+7	dilma	_	NOUN	NOUN	_	6	flat	_	TokenRange=43:48
+8	cremado	cremado	ADJ	ADJ	_	1	amod	_	TokenRange=49:56
+9	paulo	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=57:62
+10	marco	marco	NOUN	NOUN	_	9	flat	_	TokenRange=63:68
+11	aurelio	aurelio	NOUN	NOUN	_	9	flat	_	TokenRange=69:76
+12	morreu	morrer	VERB	VERB	_	0	root	_	TokenRange=77:83
+13	quintafeira	quintafeira	NOUN	NOUN	_	12	nmod	_	TokenRange=84:95
+14	vitima	_	ADJ	ADJ	_	16	amod	_	TokenRange=96:102
+15	infarto	infarto	ADJ	ADJ	_	16	amod	_	TokenRange=103:110
+16	expresidentes	expresidente	NOUN	NOUN	_	17	nsubj	_	TokenRange=111:124
+17	participaram	participar	VERB	VERB	_	12	parataxis	_	TokenRange=125:137
+18	velorio	velorio	NOUN	NOUN	_	17	obj	_	TokenRange=138:145
+19	elogiaram	elogiar	VERB	VERB	_	12	parataxis	_	TokenRange=146:155
+20	trabalho	trabalho	NOUN	NOUN	_	19	obj	_	TokenRange=156:164
+21	assuntos	assunto	NOUN	NOUN	_	20	appos	_	TokenRange=165:173
+22	internacionais	internacional	ADJ	ADJ	_	21	amod	_	TokenRange=174:188
+23	exassessor	exassessor	ADJ	ADJ	_	24	amod	_	TokenRange=189:199
+24	corpo	corpo	NOUN	NOUN	_	19	nsubj	_	TokenRange=200:205
+25	marco	marco	NOUN	NOUN	_	24	appos	_	TokenRange=206:211
+26	aurelio	aurelio	NOUN	NOUN	_	25	flat	_	TokenRange=212:219
+27	garcia	garcia	NOUN	NOUN	_	25	flat	_	TokenRange=220:226
+28	assessor	assessor	NOUN	NOUN	_	24	appos	_	TokenRange=227:235
+29	especial	especial	ADJ	ADJ	_	28	amod	_	TokenRange=236:244
+30	assuntos	assunto	NOUN	NOUN	_	28	appos	_	TokenRange=245:253
+31	internacionais	internacional	ADJ	ADJ	_	30	amod	_	TokenRange=254:268
+32	governos	governo	NOUN	NOUN	_	28	appos	_	TokenRange=269:277
+33	luiz	luiz	NOUN	NOUN	_	28	appos	_	TokenRange=278:282
+34	inacio	_	NOUN	NOUN	_	33	flat	_	TokenRange=283:289
+35	lula	_	NOUN	NOUN	_	33	flat	_	TokenRange=290:294
+36	silva	silva	ADJ	ADJ	_	33	flat	_	TokenRange=295:300
+37	dilma	dilma	NOUN	NOUN	_	28	appos	_	TokenRange=301:306
+38	rousseff	rousseff	NOUN	NOUN	_	37	flat	_	TokenRange=307:315
+39	cremado	cremado	ADJ	ADJ	_	37	amod	_	TokenRange=316:323
+40	1h30	_	NUM	NUM	NumType=Card	46	nmod	_	TokenRange=324:328
+41	deste	_	ADP	ADP	_	42	case	_	TokenRange=329:334
+42	sabado	_	PROPN	PNOUN	_	40	nmod	_	TokenRange=335:341
+43	22	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=342:344
+44	paulo	paulo	NOUN	NOUN	_	42	appos	_	TokenRange=345:350
+45	corpo	corpo	NOUN	NOUN	_	46	nsubj	_	TokenRange=351:356
+46	velado	velar	VERB	VERB	_	12	parataxis	_	TokenRange=357:363
+47	durante	_	ADP	ADP	_	48	case	_	TokenRange=364:371
+48	sextafeira	sextafeira	NOUN	NOUN	_	46	nmod	_	SpaceAfter=No|TokenRange=372:382
+

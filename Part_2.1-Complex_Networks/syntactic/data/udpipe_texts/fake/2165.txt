@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caiado razao veja senador lindbergh hoje 15 fazendo caras bocas durante fala lula suspeitas senador caiado verdadeiras aparentemente alguns sintomas evidentes pupilas dilatadas olhos revirando boca contorcendo labios etc video movimento juntos brasil deixamos bem claro trata afirmacao feita diario brasil simples duvida
+1	caiado	caiado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	razao	razao	NOUN	NOUN	_	1	flat	_	TokenRange=7:12
+3	veja	ver	VERB	VERB	_	0	root	_	TokenRange=13:17
+4	senador	senador	NOUN	NOUN	_	3	obj	_	TokenRange=18:25
+5	lindbergh	_	NOUN	NOUN	_	4	appos	_	TokenRange=26:35
+6	hoje	hoje	ADV	ADV	_	3	advmod	_	TokenRange=36:40
+7	15	_	NUM	NUM	NumType=Card	4	appos	_	TokenRange=41:43
+8	fazendo	fazer	VERB	VERB	_	4	acl	_	TokenRange=44:51
+9	caras	cara	NOUN	NOUN	_	8	obj	_	TokenRange=52:57
+10	bocas	boca	NOUN	NOUN	_	9	appos	_	TokenRange=58:63
+11	durante	_	ADP	ADP	_	12	case	_	TokenRange=64:71
+12	fala	_	NOUN	NOUN	_	8	nmod	_	TokenRange=72:76
+13	lula	lula	NOUN	NOUN	_	12	flat	_	TokenRange=77:81
+14	suspeitas	suspeito	ADJ	ADJ	_	15	amod	_	TokenRange=82:91
+15	senador	senador	NOUN	NOUN	_	12	appos	_	TokenRange=92:99
+16	caiado	caiado	NOUN	NOUN	_	15	appos	_	TokenRange=100:106
+17	verdadeiras	verdadeiro	ADJ	ADJ	_	16	amod	_	TokenRange=107:118
+18	aparentemente	aparentemente	ADV	ADV	_	20	advmod	_	TokenRange=119:132
+19	alguns	_	DET	DET	_	20	det	_	TokenRange=133:139
+20	sintomas	sintoma	NOUN	NOUN	_	15	appos	_	TokenRange=140:148
+21	evidentes	evidente	ADJ	ADJ	_	20	amod	_	TokenRange=149:158
+22	pupilas	pupila	NOUN	NOUN	_	20	appos	_	TokenRange=159:166
+23	dilatadas	dilatado	ADJ	ADJ	_	22	amod	_	TokenRange=167:176
+24	olhos	olho	NOUN	NOUN	_	25	nsubj	_	TokenRange=177:182
+25	revirando	revirar	VERB	VERB	_	20	acl	_	TokenRange=183:192
+26	boca	boca	NOUN	NOUN	_	25	obj	_	TokenRange=193:197
+27	contorcendo	contorcer	VERB	VERB	_	26	acl	_	TokenRange=198:209
+28	labios	labio	NOUN	NOUN	_	27	obj	_	TokenRange=210:216
+29	etc	_	X	X	_	34	cc	_	TokenRange=217:220
+30	video	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=221:226
+31	movimento	movimento	NOUN	NOUN	_	34	nsubj	_	TokenRange=227:236
+32	juntos	junto	ADJ	ADJ	_	31	amod	_	TokenRange=237:243
+33	brasil	brasil	NOUN	NOUN	_	31	amod	_	TokenRange=244:250
+34	deixamos	deixar	VERB	VERB	_	3	parataxis	_	TokenRange=251:259
+35	bem	bem	ADV	ADV	_	36	advmod	_	TokenRange=260:263
+36	claro	claro	ADJ	ADJ	_	34	advmod	_	TokenRange=264:269
+37	trata	tratar	VERB	VERB	_	3	parataxis	_	TokenRange=270:275
+38	afirmacao	afirmacao	NOUN	NOUN	_	37	obj	_	TokenRange=276:285
+39	feita	_	VERB	ADJ	_	38	acl	_	TokenRange=286:291
+40	diario	diario	NOUN	NOUN	_	43	amod	_	TokenRange=292:298
+41	brasil	brasil	ADJ	ADJ	_	43	amod	_	TokenRange=299:305
+42	simples	simples	ADJ	ADJ	_	43	amod	_	TokenRange=306:313
+43	duvida	duvida	NOUN	NOUN	_	38	appos	_	SpaceAfter=No|TokenRange=314:320
+

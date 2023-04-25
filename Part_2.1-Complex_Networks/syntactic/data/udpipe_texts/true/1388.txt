@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estados unidos pedem russia mantenha canal comunicacao aberto linha comunicacao dois paises tratar conflito siria interrompida abruptamente quinta durante bombardeio americano base militar perto cidade homs pentagono departamento defesa estados unidos pediu nesta sextafeira 7 russia mantenha abertos canais comunicacao dois paises mantem tratar conflito siria linha abruptamente interrompida nesta quintafeira 6 durante bombardeio promovido eua base militar siria perto cidade homs justificativa bombardeio presidente americano donald trump afirmou ataque quimico deixou 80 mortos nesta semana partido justamente daquela base agencia noticias reuters informado russia
+1	estados	estado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	unidos	unido	ADJ	ADJ	_	1	amod	_	TokenRange=8:14
+3	pedem	pedir	VERB	VERB	_	0	root	_	TokenRange=15:20
+4	russia	russia	NOUN	NOUN	_	3	obj	_	TokenRange=21:27
+5	mantenha	manter	VERB	VERB	_	3	ccomp	_	TokenRange=28:36
+6	canal	canal	NOUN	NOUN	_	5	obj	_	TokenRange=37:42
+7	comunicacao	comunicacao	NOUN	NOUN	_	6	amod	_	TokenRange=43:54
+8	aberto	aberto	ADJ	ADJ	_	6	amod	_	TokenRange=55:61
+9	linha	_	NOUN	NOUN	_	6	appos	_	TokenRange=62:67
+10	comunicacao	comunicacao	ADJ	ADJ	_	9	amod	_	TokenRange=68:79
+11	dois	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=80:84
+12	paises	paise	NOUN	NOUN	_	13	nsubj	_	TokenRange=85:91
+13	tratar	tratar	VERB	VERB	_	6	acl:relcl	_	TokenRange=92:98
+14	conflito	conflito	NOUN	NOUN	_	13	obj	_	TokenRange=99:107
+15	siria	sirio	ADJ	ADJ	_	14	amod	_	TokenRange=108:113
+16	interrompida	interrompida	ADJ	ADJ	_	14	amod	_	TokenRange=114:126
+17	abruptamente	abruptamente	ADV	ADV	_	18	advmod	_	TokenRange=127:139
+18	quinta	_	ADJ	ADJ	_	16	amod	_	TokenRange=140:146
+19	durante	_	ADP	ADP	_	20	case	_	TokenRange=147:154
+20	bombardeio	bombardeio	NOUN	NOUN	_	32	nmod	_	TokenRange=155:165
+21	americano	americano	ADJ	ADJ	_	20	amod	_	TokenRange=166:175
+22	base	base	NOUN	NOUN	_	20	appos	_	TokenRange=176:180
+23	militar	militar	ADJ	ADJ	_	22	amod	_	TokenRange=181:188
+24	perto	perto	ADV	ADV	_	25	advmod	_	TokenRange=189:194
+25	cidade	cidade	NOUN	NOUN	_	22	appos	_	TokenRange=195:201
+26	homs	_	NOUN	NOUN	_	25	amod	_	TokenRange=202:206
+27	pentagono	pentagono	NOUN	NOUN	_	25	appos	_	TokenRange=207:216
+28	departamento	departamento	NOUN	NOUN	_	22	appos	_	TokenRange=217:229
+29	defesa	_	ADJ	NOUN	_	28	amod	_	TokenRange=230:236
+30	estados	estado	NOUN	NOUN	_	32	nsubj	_	TokenRange=237:244
+31	unidos	unido	ADJ	ADJ	_	30	amod	_	TokenRange=245:251
+32	pediu	pedir	VERB	VERB	_	3	parataxis	_	TokenRange=252:257
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=258:263
+34	sextafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=264:274
+35	7	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=275:276
+36	russia	russia	NOUN	NOUN	_	32	nsubj	_	TokenRange=277:283
+37	mantenha	manter	VERB	VERB	_	32	parataxis	_	TokenRange=284:292
+38	abertos	aberto	ADJ	ADJ	_	39	amod	_	TokenRange=293:300
+39	canais	canal	NOUN	NOUN	_	37	obj	_	TokenRange=301:307
+40	comunicacao	comunicacao	ADJ	ADJ	_	39	amod	_	TokenRange=308:319
+41	dois	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=320:324
+42	paises	paise	NOUN	NOUN	_	43	nsubj	_	TokenRange=325:331
+43	mantem	mantar	VERB	VERB	_	39	acl:relcl	_	TokenRange=332:338
+44	tratar	tratar	VERB	VERB	_	43	xcomp	_	TokenRange=339:345
+45	conflito	conflito	NOUN	NOUN	_	44	obj	_	TokenRange=346:354
+46	siria	sirio	ADJ	ADJ	_	45	amod	_	TokenRange=355:360
+47	linha	_	NOUN	NOUN	_	45	appos	_	TokenRange=361:366
+48	abruptamente	abruptamente	ADV	ADV	_	49	advmod	_	TokenRange=367:379
+49	interrompida	interromper	VERB	VERB	_	47	acl	_	TokenRange=380:392
+50	nesta	_	ADP	ADP	_	51	case	_	TokenRange=393:398
+51	quintafeira	_	NOUN	NOUN	_	49	nmod	_	TokenRange=399:410
+52	6	_	NUM	NUM	NumType=Card	51	appos	_	TokenRange=411:412
+53	durante	_	ADP	ADP	_	54	case	_	TokenRange=413:420
+54	bombardeio	bombardeio	NOUN	NOUN	_	44	nmod	_	TokenRange=421:431
+55	promovido	promovido	ADJ	ADJ	_	54	amod	_	TokenRange=432:441
+56	eua	_	DET	DET	_	57	det	_	TokenRange=442:445
+57	base	base	NOUN	NOUN	_	69	nsubj	_	TokenRange=446:450
+58	militar	militar	ADJ	ADJ	_	57	amod	_	TokenRange=451:458
+59	siria	sirio	ADJ	ADJ	_	57	amod	_	TokenRange=459:464
+60	perto	perto	ADV	ADV	_	61	advmod	_	TokenRange=465:470
+61	cidade	cidade	NOUN	NOUN	_	57	appos	_	TokenRange=471:477
+62	homs	_	NOUN	NOUN	_	61	amod	_	TokenRange=478:482
+63	justificativa	justificativo	ADJ	ADJ	_	64	amod	_	TokenRange=483:496
+64	bombardeio	bombardeio	NOUN	NOUN	_	69	nsubj	_	TokenRange=497:507
+65	presidente	presidente	NOUN	NOUN	_	64	appos	_	TokenRange=508:518
+66	americano	americano	ADJ	ADJ	_	65	amod	_	TokenRange=519:528
+67	donald	donald	ADJ	ADJ	_	68	amod	_	TokenRange=529:535
+68	trump	_	NOUN	NOUN	_	64	appos	_	TokenRange=536:541
+69	afirmou	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=542:549
+70	ataque	ataque	NOUN	NOUN	_	69	obj	_	TokenRange=550:556
+71	quimico	quimico	ADJ	ADJ	_	70	amod	_	TokenRange=557:564
+72	deixou	deixar	VERB	VERB	_	69	parataxis	_	TokenRange=565:571
+73	80	_	NUM	NUM	NumType=Card	74	nummod	_	TokenRange=572:574
+74	mortos	morto	NOUN	NOUN	_	72	obj	_	TokenRange=575:581
+75	nesta	_	ADP	ADP	_	76	case	_	TokenRange=582:587
+76	semana	semana	NOUN	NOUN	_	72	nmod	_	TokenRange=588:594
+77	partido	partido	NOUN	NOUN	_	72	obj	_	TokenRange=595:602
+78	justamente	justamente	ADV	ADV	_	80	advmod	_	TokenRange=603:613
+79	daquela	_	ADP	ADP	_	80	case	_	TokenRange=614:621
+80	base	base	NOUN	NOUN	_	77	nmod	_	TokenRange=622:626
+81	agencia	agencia	NOUN	NOUN	_	72	parataxis	_	TokenRange=627:634
+82	noticias	_	NOUN	NOUN	_	81	flat	_	TokenRange=635:643
+83	reuters	reuter	NOUN	NOUN	_	81	appos	_	TokenRange=644:651
+84	informado	informar	VERB	VERB	_	81	acl	_	TokenRange=652:661
+85	russia	russia	NOUN	NOUN	_	84	obj	_	SpaceAfter=No|TokenRange=662:668
+

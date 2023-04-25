@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maranhao pede tempo apos pp propor renuncia negociada nova reuniao partido deve acontecer quartafeira 11 deputado vai revelar colegas decisao brasilia bancada pp camara deputados decidiu reuniao nesta tercafeira 10 tentar renuncia negociada waldir maranhao ppma 1 vicepresidencia casa antes dar seguimento processo expulsao partido maranhao pediu convocada nova reuniao nesta quartafeira 11 afirmou estaria presente anunciar decisao reuniao pp ficou decidido grupo deputados legenda procuraria maranhao tentar negociar renuncia antes encaminhar executiva
+1	maranhao	maranhao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=9:13
+3	tempo	tempo	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	apos	_	ADP	ADP	_	6	mark	_	TokenRange=20:24
+5	pp	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=25:27
+6	propor	propor	VERB	VERB	_	2	advcl	_	TokenRange=28:34
+7	renuncia	renuncia	NOUN	NOUN	_	6	obj	_	TokenRange=35:43
+8	negociada	negociar	VERB	VERB	_	6	acl	_	TokenRange=44:53
+9	nova	novo	ADJ	ADJ	_	10	amod	_	TokenRange=54:58
+10	reuniao	reuniao	NOUN	NOUN	_	13	nsubj	_	TokenRange=59:66
+11	partido	partido	NOUN	NOUN	_	13	nsubj	_	TokenRange=67:74
+12	deve	dever	AUX	AUX	_	13	aux	_	TokenRange=75:79
+13	acontecer	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=80:89
+14	quartafeira	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=90:101
+15	11	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=102:104
+16	deputado	deputado	NOUN	NOUN	_	13	nsubj	_	TokenRange=105:113
+17	vai	ir	AUX	AUX	_	18	aux	_	TokenRange=114:117
+18	revelar	revelar	VERB	VERB	_	2	parataxis	_	TokenRange=118:125
+19	colegas	colega	NOUN	NOUN	_	18	obj	_	TokenRange=126:133
+20	decisao	decisao	NOUN	NOUN	_	18	obj	_	TokenRange=134:141
+21	brasilia	brasilia	NOUN	NOUN	_	20	flat	_	TokenRange=142:150
+22	bancada	bancada	NOUN	NOUN	_	18	nsubj	_	TokenRange=151:158
+23	pp	_	ADJ	ADJ	_	24	amod	_	TokenRange=159:161
+24	camara	camara	NOUN	NOUN	_	26	nsubj	_	TokenRange=162:168
+25	deputados	deputado	NOUN	NOUN	_	24	flat	_	TokenRange=169:178
+26	decidiu	decidir	VERB	VERB	_	18	parataxis	_	TokenRange=179:186
+27	reuniao	reuniao	NOUN	NOUN	_	26	obj	_	TokenRange=187:194
+28	nesta	_	ADP	ADP	_	29	case	_	TokenRange=195:200
+29	tercafeira	_	NOUN	NOUN	_	26	nmod	_	TokenRange=201:211
+30	10	_	NUM	NUM	NumType=Card	31	nsubj	_	TokenRange=212:214
+31	tentar	tentar	VERB	VERB	_	26	ccomp	_	TokenRange=215:221
+32	renuncia	renuncia	NOUN	NOUN	_	31	obj	_	TokenRange=222:230
+33	negociada	negociar	ADJ	ADJ	_	32	acl	_	TokenRange=231:240
+34	waldir	waldir	NOUN	NOUN	_	31	nsubj	_	TokenRange=241:247
+35	maranhao	maranhao	NOUN	NOUN	_	34	flat	_	TokenRange=248:256
+36	ppma	_	NOUN	NOUN	_	31	parataxis	_	TokenRange=257:261
+37	1	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=262:263
+38	vicepresidencia	_	NOUN	NOUN	_	36	appos	_	TokenRange=264:279
+39	casa	casa	NOUN	NOUN	_	36	appos	_	TokenRange=280:284
+40	antes	antes	ADV	ADV	_	41	advmod	_	TokenRange=285:290
+41	dar	dar	VERB	VERB	_	47	advcl	_	TokenRange=291:294
+42	seguimento	seguimento	NOUN	NOUN	_	41	obj	_	TokenRange=295:305
+43	processo	processo	NOUN	NOUN	_	47	nsubj	_	TokenRange=306:314
+44	expulsao	expulsao	ADJ	ADJ	_	45	amod	_	TokenRange=315:323
+45	partido	partido	NOUN	NOUN	_	47	nsubj	_	TokenRange=324:331
+46	maranhao	maranhao	ADJ	ADJ	_	45	amod	_	TokenRange=332:340
+47	pediu	pedir	VERB	VERB	_	36	conj	_	TokenRange=341:346
+48	convocada	convocado	ADJ	ADJ	_	47	xcomp	_	TokenRange=347:356
+49	nova	novo	ADJ	ADJ	_	50	amod	_	TokenRange=357:361
+50	reuniao	reuniao	NOUN	NOUN	_	47	nsubj	_	TokenRange=362:369
+51	nesta	_	ADP	ADP	_	52	case	_	TokenRange=370:375
+52	quartafeira	_	NOUN	NOUN	_	47	nmod	_	TokenRange=376:387
+53	11	_	NUM	NUM	NumType=Card	52	appos	_	TokenRange=388:390
+54	afirmou	afirmar	VERB	VERB	_	47	parataxis	_	TokenRange=391:398
+55	estaria	estar	VERB	VERB	_	54	xcomp	_	TokenRange=399:406
+56	presente	presente	ADJ	ADJ	_	55	xcomp	_	TokenRange=407:415
+57	anunciar	anunciar	VERB	VERB	_	55	csubj	_	TokenRange=416:424
+58	decisao	decisao	NOUN	NOUN	_	57	obj	_	TokenRange=425:432
+59	reuniao	reuniao	ADJ	ADJ	_	58	amod	_	TokenRange=433:440
+60	pp	_	NOUN	NOUN	_	58	amod	_	TokenRange=441:443
+61	ficou	ficar	AUX	AUX	_	66	ccomp	_	TokenRange=444:449
+62	decidido	decidido	ADJ	ADJ	_	63	amod	_	TokenRange=450:458
+63	grupo	grupo	NOUN	NOUN	_	66	nsubj	_	TokenRange=459:464
+64	deputados	deputado	ADJ	ADJ	_	63	amod	_	TokenRange=465:474
+65	legenda	legenda	NOUN	NOUN	_	66	nsubj	_	TokenRange=475:482
+66	procuraria	procurar	VERB	VERB	_	47	conj	_	TokenRange=483:493
+67	maranhao	maranhao	NOUN	NOUN	_	66	obj	_	TokenRange=494:502
+68	tentar	tentar	VERB	VERB	_	66	ccomp	_	TokenRange=503:509
+69	negociar	negociar	VERB	VERB	_	68	xcomp	_	TokenRange=510:518
+70	renuncia	renuncia	NOUN	NOUN	_	69	obj	_	TokenRange=519:527
+71	antes	antes	ADV	ADV	_	72	advmod	_	TokenRange=528:533
+72	encaminhar	encaminhar	VERB	VERB	_	68	advcl	_	TokenRange=534:544
+73	executiva	executivo	NOUN	NOUN	_	72	obj	_	SpaceAfter=No|TokenRange=545:554
+

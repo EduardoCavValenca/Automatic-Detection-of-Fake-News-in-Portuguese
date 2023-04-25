@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = carrego filho r 100 mil mercado online barriga aluguel mulheres oferecem facebook chamada gestacao substituicao pratica considerada ilegal brasil apenas pessoas querendo ajudar outras cada forma diz jovem vai gerar bebe casal professora idiomas isabel 22 anos mudou cerca dois meses cidade onde morava interior paulo viver capital paulista deixou tras pessoas proximas alunos vida construiu ultimos anos dia noite juntou roupas embora data voltar municipio interiorano somente dois amigos sabem motivo sumico repentino mudanca planejada ofereceu barriga aluguel isabel anunciado facebook interesse gerar bebe outra
+1	carrego	carrego	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:7
+2	filho	filho	NOUN	NOUN	_	1	flat	_	TokenRange=8:13
+3	r	_	NOUN	NOUN	_	1	appos	_	TokenRange=14:15
+4	100	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=16:19
+5	mil	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=20:23
+6	mercado	mercado	NOUN	NOUN	_	1	appos	_	TokenRange=24:31
+7	online	online	ADJ	ADJ	_	6	amod	_	TokenRange=32:38
+8	barriga	barriga	NOUN	NOUN	_	1	appos	_	TokenRange=39:46
+9	aluguel	aluguel	ADJ	ADJ	_	8	amod	_	TokenRange=47:54
+10	mulheres	mulher	NOUN	NOUN	_	8	flat	_	TokenRange=55:63
+11	oferecem	oferecer	VERB	VERB	_	0	root	_	TokenRange=64:72
+12	facebook	_	PROPN	PNOUN	_	11	obj	_	TokenRange=73:81
+13	chamada	chamado	ADJ	ADJ	_	14	amod	_	TokenRange=82:89
+14	gestacao	gestacao	NOUN	NOUN	_	12	appos	_	TokenRange=90:98
+15	substituicao	substituicao	ADJ	ADJ	_	14	amod	_	TokenRange=99:111
+16	pratica	_	NOUN	NOUN	_	1	appos	_	TokenRange=112:119
+17	considerada	considerar	VERB	VERB	_	16	acl	_	TokenRange=120:131
+18	ilegal	ilegal	ADJ	ADJ	_	17	xcomp	_	TokenRange=132:138
+19	brasil	brasil	NOUN	NOUN	_	17	nsubj	_	TokenRange=139:145
+20	apenas	apenas	ADV	ADV	_	21	advmod	_	TokenRange=146:152
+21	pessoas	pessoa	NOUN	NOUN	_	11	nsubj	_	TokenRange=153:160
+22	querendo	querer	VERB	VERB	_	21	acl	_	TokenRange=161:169
+23	ajudar	ajudar	VERB	VERB	_	22	xcomp	_	TokenRange=170:176
+24	outras	_	DET	DET	_	26	det	_	TokenRange=177:183
+25	cada	_	DET	DET	_	26	det	_	TokenRange=184:188
+26	forma	forma	NOUN	NOUN	_	23	obj	_	TokenRange=189:194
+27	diz	dizer	VERB	VERB	_	23	ccomp	_	TokenRange=195:198
+28	jovem	jovem	NOUN	NOUN	_	27	nsubj	_	TokenRange=199:204
+29	vai	ir	AUX	AUX	_	30	aux	_	TokenRange=205:208
+30	gerar	gerar	VERB	VERB	_	27	ccomp	_	TokenRange=209:214
+31	bebe	bebe	NOUN	NOUN	_	30	obj	_	TokenRange=215:219
+32	casal	casal	NOUN	NOUN	_	31	appos	_	TokenRange=220:225
+33	professora	professor	NOUN	NOUN	_	31	appos	_	TokenRange=226:236
+34	idiomas	idioma	NOUN	NOUN	_	33	flat	_	TokenRange=237:244
+35	isabel	isabel	NOUN	NOUN	_	32	appos	_	TokenRange=245:251
+36	22	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=252:254
+37	anos	ano	NOUN	NOUN	_	38	nsubj	_	TokenRange=255:259
+38	mudou	mudar	VERB	VERB	_	27	parataxis	_	TokenRange=260:265
+39	cerca	cerca	ADV	ADV	_	40	advmod	_	TokenRange=266:271
+40	dois	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=272:276
+41	meses	mês	NOUN	NOUN	_	38	nmod	_	TokenRange=277:282
+42	cidade	cidade	NOUN	NOUN	_	38	nsubj	_	TokenRange=283:289
+43	onde	onde	ADV	ADV	_	44	advmod	_	TokenRange=290:294
+44	morava	morar	VERB	VERB	_	42	acl:relcl	_	TokenRange=295:301
+45	interior	interior	NOUN	NOUN	_	44	nsubj	_	TokenRange=302:310
+46	paulo	paulo	ADJ	ADJ	_	45	flat	_	TokenRange=311:316
+47	viver	viver	VERB	VERB	_	42	acl:relcl	_	TokenRange=317:322
+48	capital	capital	NOUN	NOUN	_	47	obj	_	TokenRange=323:330
+49	paulista	paulista	ADJ	ADJ	_	48	amod	_	TokenRange=331:339
+50	deixou	deixar	VERB	VERB	_	38	parataxis	_	TokenRange=340:346
+51	tras	_	ADV	ADV	_	50	advmod	_	TokenRange=347:351
+52	pessoas	pessoa	NOUN	NOUN	_	50	obj	_	TokenRange=352:359
+53	proximas	proximo	ADJ	ADJ	_	52	amod	_	TokenRange=360:368
+54	alunos	aluno	NOUN	NOUN	_	52	amod	_	TokenRange=369:375
+55	vida	vida	NOUN	NOUN	_	56	nsubj	_	TokenRange=376:380
+56	construiu	construir	VERB	VERB	_	42	acl:relcl	_	TokenRange=381:390
+57	ultimos	_	ADJ	ADJ	_	58	amod	_	TokenRange=391:398
+58	anos	ano	NOUN	NOUN	_	56	obj	_	TokenRange=399:403
+59	dia	dia	NOUN	NOUN	_	61	nmod	_	TokenRange=404:407
+60	noite	noite	NOUN	NOUN	_	61	nmod	_	TokenRange=408:413
+61	juntou	juntar	VERB	VERB	_	56	parataxis	_	TokenRange=414:420
+62	roupas	roupa	NOUN	NOUN	_	61	obj	_	TokenRange=421:427
+63	embora	_	CCONJ	CONJ	_	65	mark	_	TokenRange=428:434
+64	data	data	NOUN	NOUN	_	61	nsubj	_	TokenRange=435:439
+65	voltar	voltar	VERB	VERB	_	61	advcl	_	TokenRange=440:446
+66	municipio	municipio	NOUN	NOUN	_	65	obj	_	TokenRange=447:456
+67	interiorano	interiorano	ADJ	ADJ	_	66	amod	_	TokenRange=457:468
+68	somente	somente	ADV	ADV	_	69	advmod	_	TokenRange=469:476
+69	dois	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=477:481
+70	amigos	amigo	NOUN	NOUN	_	71	nsubj	_	TokenRange=482:488
+71	sabem	saber	VERB	VERB	_	56	parataxis	_	TokenRange=489:494
+72	motivo	motivo	NOUN	NOUN	_	71	obj	_	TokenRange=495:501
+73	sumico	sumico	ADJ	ADJ	_	72	amod	_	TokenRange=502:508
+74	repentino	repentino	ADJ	ADJ	_	75	amod	_	TokenRange=509:518
+75	mudanca	mudanca	NOUN	NOUN	_	71	nsubj	_	TokenRange=519:526
+76	planejada	planejar	VERB	VERB	_	75	acl	_	TokenRange=527:536
+77	ofereceu	oferecer	VERB	VERB	_	72	acl:relcl	_	TokenRange=537:545
+78	barriga	barriga	NOUN	NOUN	_	77	obj	_	TokenRange=546:553
+79	aluguel	aluguel	ADJ	ADJ	_	78	amod	_	TokenRange=554:561
+80	isabel	isabel	NOUN	NOUN	_	78	appos	_	TokenRange=562:568
+81	anunciado	anunciar	VERB	VERB	_	78	acl	_	TokenRange=569:578
+82	facebook	_	PROPN	PNOUN	_	81	obj	_	TokenRange=579:587
+83	interesse	interesse	NOUN	NOUN	_	78	flat	_	TokenRange=588:597
+84	gerar	gerar	VERB	VERB	_	83	acl:inf	_	TokenRange=598:603
+85	bebe	bebe	NOUN	NOUN	_	84	obj	_	TokenRange=604:608
+86	outra	_	DET	DET	_	78	det	_	SpaceAfter=No|TokenRange=609:614
+

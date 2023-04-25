@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rn registra 87 mortes violentas desde inicio paralisacao policiais numero 403 maior registrado periodo ano passado contabilizadas 62 mortes rio grande norte registrou 87 homicidios desde inicio paralisacao policia
+1	rn	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	registra	registrar	VERB	VERB	_	0	root	_	TokenRange=3:11
+3	87	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=12:14
+4	mortes	morte	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+5	violentas	violento	ADJ	ADJ	_	4	amod	_	TokenRange=22:31
+6	desde	_	ADP	ADP	_	7	case	_	TokenRange=32:37
+7	inicio	_	NOUN	NOUN	_	2	nmod	_	TokenRange=38:44
+8	paralisacao	paralisacao	NOUN	NOUN	_	2	nmod	_	TokenRange=45:56
+9	policiais	policial	ADJ	ADJ	_	8	amod	_	TokenRange=57:66
+10	numero	numero	NOUN	NOUN	_	8	appos	_	TokenRange=67:73
+11	403	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=74:77
+12	maior	maior	ADJ	ADJ	_	10	amod	_	TokenRange=78:83
+13	registrado	registrar	VERB	VERB	_	8	acl	_	TokenRange=84:94
+14	periodo	periodo	NOUN	NOUN	_	15	amod	_	TokenRange=95:102
+15	ano	ano	NOUN	NOUN	_	13	nmod	_	TokenRange=103:106
+16	passado	passado	ADJ	ADJ	_	15	amod	_	TokenRange=107:114
+17	contabilizadas	contabilizado	ADJ	ADJ	_	19	amod	_	TokenRange=115:129
+18	62	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=130:132
+19	mortes	morte	NOUN	NOUN	_	23	nsubj	_	TokenRange=133:139
+20	rio	rio	NOUN	NOUN	_	19	appos	_	TokenRange=140:143
+21	grande	grande	ADJ	ADJ	_	20	amod	_	TokenRange=144:150
+22	norte	norte	ADJ	ADJ	_	20	amod	_	TokenRange=151:156
+23	registrou	registrar	VERB	VERB	_	2	parataxis	_	TokenRange=157:166
+24	87	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=167:169
+25	homicidios	homicidio	NOUN	NOUN	_	23	obj	_	TokenRange=170:180
+26	desde	_	ADP	ADP	_	27	case	_	TokenRange=181:186
+27	inicio	_	NOUN	NOUN	_	23	nmod	_	TokenRange=187:193
+28	paralisacao	paralisacao	NOUN	NOUN	_	23	nmod	_	TokenRange=194:205
+29	policia	policia	NOUN	NOUN	_	28	flat	_	SpaceAfter=No|TokenRange=206:213
+

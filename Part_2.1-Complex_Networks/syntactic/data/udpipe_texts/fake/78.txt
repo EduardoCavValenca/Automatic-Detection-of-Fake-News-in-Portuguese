@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja aqui telefone email gilmar mendes demonstre indignacao gilmar mendes conseguiu livrar michel temer dilma rousseff condenacao juizo chapa dilma/temer honesta dois brasileiros merecem respeito nacao posse direitos politicos poderao voltar 2018 dilma anunciou candidatara senadora republica michel temer pode voltar presidente permita julgamento vergonhoso passe branco envie mensagens pro email gilmar mendes telefone manifestando toda indignacao seguem aqui contatos ministro envergonhou brasil ministro gilmar mendes telefone 61 32174175 email mgilmarstfjusbr email audienciasgilmarmendesstfjusbr
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	aqui	aqui	ADV	ADV	_	1	advmod	_	TokenRange=5:9
+3	telefone	telefone	NOUN	NOUN	_	1	nsubj	_	TokenRange=10:18
+4	email	email	NOUN	NOUN	_	3	amod	_	TokenRange=19:24
+5	gilmar	gilmar	NOUN	NOUN	_	3	appos	_	TokenRange=25:31
+6	mendes	_	NOUN	NOUN	_	5	flat	_	TokenRange=32:38
+7	demonstre	demonstrar	VERB	VERB	_	3	acl:relcl	_	TokenRange=39:48
+8	indignacao	indignacao	NOUN	NOUN	_	7	obj	_	TokenRange=49:59
+9	gilmar	gilmar	ADJ	NOUN	_	11	nsubj	_	TokenRange=60:66
+10	mendes	_	NOUN	NOUN	_	9	amod	_	TokenRange=67:73
+11	conseguiu	conseguir	VERB	VERB	_	1	ccomp	_	TokenRange=74:83
+12	livrar	livrar	VERB	VERB	_	11	xcomp	_	TokenRange=84:90
+13	michel	_	DET	DET	_	14	det	_	TokenRange=91:97
+14	temer	temer	NOUN	NOUN	_	12	obj	_	TokenRange=98:103
+15	dilma	dilma	NOUN	NOUN	_	14	appos	_	TokenRange=104:109
+16	rousseff	rousseff	NOUN	NOUN	_	15	flat	_	TokenRange=110:118
+17	condenacao	_	ADJ	ADJ	_	14	appos	_	TokenRange=119:129
+18	juizo	_	NOUN	NOUN	_	15	flat	_	TokenRange=130:135
+19	chapa	chapa	NOUN	NOUN	_	24	nsubj	_	TokenRange=136:141
+20	dilma/temer	dilma/temer	NOUN	NOUN	_	19	flat	_	TokenRange=142:153
+21	honesta	honesto	ADJ	ADJ	_	19	amod	_	TokenRange=154:161
+22	dois	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=162:166
+23	brasileiros	brasileiro	NOUN	NOUN	_	24	nsubj	_	TokenRange=167:178
+24	merecem	merecer	VERB	VERB	_	1	parataxis	_	TokenRange=179:186
+25	respeito	respeito	NOUN	NOUN	_	24	obj	_	TokenRange=187:195
+26	nacao	nacao	NOUN	NOUN	_	24	nsubj	_	TokenRange=196:201
+27	posse	posse	NOUN	NOUN	_	28	amod	_	TokenRange=202:207
+28	direitos	direito	NOUN	NOUN	_	24	nsubj	_	TokenRange=208:216
+29	politicos	politico	ADJ	ADJ	_	28	amod	_	TokenRange=217:226
+30	poderao	poder	AUX	AUX	_	31	aux	_	TokenRange=227:234
+31	voltar	voltar	VERB	VERB	_	24	ccomp	_	TokenRange=235:241
+32	2018	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=242:246
+33	dilma	dilma	NOUN	NOUN	_	34	nsubj	_	TokenRange=247:252
+34	anunciou	anunciar	VERB	VERB	_	31	parataxis	_	TokenRange=253:261
+35	candidatara	candidatar	NOUN	NOUN	_	34	obj	_	TokenRange=262:273
+36	senadora	senador	NOUN	NOUN	_	35	amod	_	TokenRange=274:282
+37	republica	republico	ADJ	ADJ	_	36	amod	_	TokenRange=283:292
+38	michel	michel	DET	DET	_	39	det	_	TokenRange=293:299
+39	temer	temer	NOUN	NOUN	_	41	nsubj	_	TokenRange=300:305
+40	pode	_	AUX	AUX	_	41	aux	_	TokenRange=306:310
+41	voltar	voltar	AUX	AUX	_	34	ccomp	_	TokenRange=311:317
+42	presidente	presidente	NOUN	NOUN	_	41	obj	_	TokenRange=318:328
+43	permita	permitir	ADJ	ADJ	_	42	amod	_	TokenRange=329:336
+44	julgamento	julgamento	NOUN	NOUN	_	43	obj	_	TokenRange=337:347
+45	vergonhoso	vergonhoso	ADJ	ADJ	_	46	amod	_	TokenRange=348:358
+46	passe	passe	NOUN	NOUN	_	43	nsubj	_	TokenRange=359:364
+47	branco	branco	ADJ	ADJ	_	46	amod	_	TokenRange=365:371
+48	envie	envie	VERB	VERB	_	34	parataxis	_	TokenRange=372:377
+49	mensagens	mensagem	NOUN	NOUN	_	48	obj	_	TokenRange=378:387
+50	pro	_	ADP	ADP	_	51	case	_	TokenRange=388:391
+51	email	email	NOUN	NOUN	_	49	nmod	_	TokenRange=392:397
+52	gilmar	gilmar	NOUN	NOUN	_	49	appos	_	TokenRange=398:404
+53	mendes	_	NOUN	NOUN	_	52	flat	_	TokenRange=405:411
+54	telefone	telefone	NOUN	NOUN	_	52	flat	_	TokenRange=412:420
+55	manifestando	manifestar	VERB	VERB	_	49	acl	_	TokenRange=421:433
+56	toda	_	DET	DET	_	57	det	_	TokenRange=434:438
+57	indignacao	indignacao	NOUN	NOUN	_	55	obj	_	TokenRange=439:449
+58	seguem	_	VERB	VERB	_	1	parataxis	_	TokenRange=450:456
+59	aqui	aqui	ADV	ADV	_	58	advmod	_	TokenRange=457:461
+60	contatos	contato	NOUN	NOUN	_	58	nsubj	_	TokenRange=462:470
+61	ministro	ministro	NOUN	NOUN	_	60	flat	_	TokenRange=471:479
+62	envergonhou	envergonhar	VERB	VERB	_	60	acl:relcl	_	TokenRange=480:491
+63	brasil	brasil	NOUN	NOUN	_	62	obj	_	TokenRange=492:498
+64	ministro	ministro	NOUN	NOUN	_	62	obj	_	TokenRange=499:507
+65	gilmar	gilmar	ADJ	NOUN	_	64	appos	_	TokenRange=508:514
+66	mendes	_	ADJ	ADJ	_	65	amod	_	TokenRange=515:521
+67	telefone	telefone	NOUN	NOUN	_	65	appos	_	TokenRange=522:530
+68	61	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=531:533
+69	32174175	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=534:542
+70	email	email	NOUN	NOUN	_	62	obj	_	TokenRange=543:548
+71	mgilmarstfjusbr	_	X	X	_	70	appos	_	TokenRange=549:564
+72	email	email	NOUN	NOUN	_	70	flat	_	TokenRange=565:570
+73	audienciasgilmarmendesstfjusbr	_	X	X	_	72	flat	_	SpaceAfter=No|TokenRange=571:601
+

@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marinho pena 12 anos 1 mes lula provocacao 13 pt presidente partido paulo afirma desembargadores fizeram brincadeira jocosa ampliacao pena expresidente presidente pt paulo luiz marinho disse manha desta sextafeira 26 entrevista radio eldorado desembargadores tribunal regional federal 4 regiao trf4 confirmaram sentenca juiz sergio moro condenacao expresidente luiz inacio lula silva caso triplex guaruja fizeram provocacao brincadeira
+1	marinho	marinho	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	pena	_	NOUN	NOUN	_	14	parataxis	_	TokenRange=8:12
+3	12	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=13:15
+4	anos	ano	NOUN	NOUN	_	2	appos	_	TokenRange=16:20
+5	1	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=21:22
+6	mes	me	NOUN	NOUN	_	4	appos	_	TokenRange=23:26
+7	lula	lula	NOUN	NOUN	_	2	appos	_	TokenRange=27:31
+8	provocacao	provocacao	NOUN	NOUN	_	2	appos	_	TokenRange=32:42
+9	13	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=43:45
+10	pt	_	NOUN	NOUN	_	11	appos	_	TokenRange=46:48
+11	presidente	presidente	NOUN	NOUN	_	7	appos	_	TokenRange=49:59
+12	partido	partido	NOUN	NOUN	_	11	appos	_	TokenRange=60:67
+13	paulo	paulo	NOUN	NOUN	_	12	flat	_	TokenRange=68:73
+14	afirma	afirmar	VERB	VERB	_	0	root	_	TokenRange=74:80
+15	desembargadores	desembargador	NOUN	NOUN	_	14	obj	_	TokenRange=81:96
+16	fizeram	fazer	VERB	VERB	_	14	ccomp	_	TokenRange=97:104
+17	brincadeira	brincadeira	NOUN	NOUN	_	16	obj	_	TokenRange=105:116
+18	jocosa	jocoso	ADJ	ADJ	_	17	amod	_	TokenRange=117:123
+19	ampliacao	ampliacao	ADJ	ADJ	_	20	amod	_	TokenRange=124:133
+20	pena	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=134:138
+21	expresidente	expresidente	NOUN	NOUN	_	20	appos	_	TokenRange=139:151
+22	presidente	presidente	NOUN	NOUN	_	20	appos	_	TokenRange=152:162
+23	pt	_	NOUN	NOUN	_	22	appos	_	TokenRange=163:165
+24	paulo	paulo	NOUN	NOUN	_	22	appos	_	TokenRange=166:171
+25	luiz	luiz	NOUN	NOUN	_	20	appos	_	TokenRange=172:176
+26	marinho	_	ADJ	NOUN	_	25	flat	_	TokenRange=177:184
+27	disse	dizer	VERB	VERB	_	14	parataxis	_	TokenRange=185:190
+28	manha	manha	NOUN	NOUN	_	27	obj	_	TokenRange=191:196
+29	desta	_	ADP	ADP	_	30	case	_	TokenRange=197:202
+30	sextafeira	sextafeira	NOUN	NOUN	_	28	nmod	_	TokenRange=203:213
+31	26	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=214:216
+32	entrevista	entrevista	NOUN	NOUN	_	27	obj	_	TokenRange=217:227
+33	radio	radio	NOUN	NOUN	_	32	appos	_	TokenRange=228:233
+34	eldorado	eldorado	ADJ	ADJ	_	36	amod	_	TokenRange=234:242
+35	desembargadores	desembargador	NOUN	NOUN	_	36	amod	_	TokenRange=243:258
+36	tribunal	tribunal	NOUN	NOUN	_	33	appos	_	TokenRange=259:267
+37	regional	regional	ADJ	ADJ	_	36	amod	_	TokenRange=268:276
+38	federal	federal	ADJ	ADJ	_	36	amod	_	TokenRange=277:284
+39	4	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=285:286
+40	regiao	regiao	NOUN	NOUN	_	36	appos	_	TokenRange=287:293
+41	trf4	_	NOUN	NOUN	_	40	appos	_	TokenRange=294:298
+42	confirmaram	confirmar	VERB	VERB	_	27	parataxis	_	TokenRange=299:310
+43	sentenca	_	NOUN	NOUN	_	42	obj	_	TokenRange=311:319
+44	juiz	juiz	NOUN	NOUN	_	42	obj	_	TokenRange=320:324
+45	sergio	sergio	NOUN	NOUN	_	44	appos	_	TokenRange=325:331
+46	moro	moro	NOUN	NOUN	_	44	flat	_	TokenRange=332:336
+47	condenacao	condenacao	ADJ	ADJ	_	48	amod	_	TokenRange=337:347
+48	expresidente	expresidente	NOUN	NOUN	_	44	appos	_	TokenRange=348:360
+49	luiz	luiz	ADJ	ADJ	_	48	appos	_	TokenRange=361:365
+50	inacio	_	NOUN	NOUN	_	48	appos	_	TokenRange=366:372
+51	lula	_	NOUN	NOUN	_	50	flat	_	TokenRange=373:377
+52	silva	silva	ADJ	ADJ	_	50	flat	_	TokenRange=378:383
+53	caso	caso	NOUN	NOUN	_	56	obj	_	TokenRange=384:388
+54	triplex	_	NOUN	NOUN	_	53	appos	_	TokenRange=389:396
+55	guaruja	guaruja	NOUN	NOUN	_	53	flat	_	TokenRange=397:404
+56	fizeram	fazer	VERB	VERB	_	42	parataxis	_	TokenRange=405:412
+57	provocacao	provocacao	NOUN	NOUN	_	56	obj	_	TokenRange=413:423
+58	brincadeira	brincadeira	NOUN	NOUN	_	57	flat	_	SpaceAfter=No|TokenRange=424:435
+

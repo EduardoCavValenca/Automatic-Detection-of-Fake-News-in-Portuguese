@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = retrospectiva 2017 avancos ciencia saude regiao ribeirao preto enxaguante bucal pode engolido metodo contra leucemia combina remedio transplante medula parcialmente compativel destaques muita gente dificil imaginar 260 milhoes anos lugares santa rosa viterbo interior paulo podem sido encobertos agua salgada gracas empenho pesquisadores regiao ribeirao preto sp 2017 descobertas cientificas surpreenderam intrigaram ampliaram esperancas luta contra doencas cancer acidente vascular cerebral avc g1 listou noticias publicadas janeiro dezembro deste
+1	retrospectiva	_	NOUN	NOUN	_	0	root	_	TokenRange=0:13
+2	2017	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=14:18
+3	avancos	avanco	NOUN	NOUN	_	1	appos	_	TokenRange=19:26
+4	ciencia	ciencia	NOUN	NOUN	_	3	appos	_	TokenRange=27:34
+5	saude	saude	NOUN	NOUN	_	3	flat	_	TokenRange=35:40
+6	regiao	regiao	NOUN	NOUN	_	3	appos	_	TokenRange=41:47
+7	ribeirao	ribeirao	NOUN	NOUN	_	6	amod	_	TokenRange=48:56
+8	preto	preto	ADJ	ADJ	_	6	amod	_	TokenRange=57:62
+9	enxaguante	enxaguante	ADJ	ADJ	_	10	amod	_	TokenRange=63:73
+10	bucal	bucal	NOUN	NOUN	_	12	nsubj	_	TokenRange=74:79
+11	pode	_	AUX	AUX	_	12	aux	_	TokenRange=80:84
+12	engolido	engolir	VERB	VERB	_	3	acl:relcl	_	TokenRange=85:93
+13	metodo	metodo	NOUN	NOUN	_	12	obj	_	TokenRange=94:100
+14	contra	_	ADP	ADP	_	15	case	_	TokenRange=101:107
+15	leucemia	leucemia	NOUN	NOUN	_	13	nmod	_	TokenRange=108:116
+16	combina	combinar	VERB	VERB	_	1	parataxis	_	TokenRange=117:124
+17	remedio	remedio	NOUN	NOUN	_	16	obj	_	TokenRange=125:132
+18	transplante	transplante	ADJ	ADJ	_	19	amod	_	TokenRange=133:144
+19	medula	medula	NOUN	NOUN	_	17	appos	_	TokenRange=145:151
+20	parcialmente	parcialmente	ADV	ADV	_	21	advmod	_	TokenRange=152:164
+21	compativel	compativel	ADJ	ADJ	_	19	amod	_	TokenRange=165:175
+22	destaques	destaque	NOUN	NOUN	_	16	obj	_	TokenRange=176:185
+23	muita	_	DET	DET	_	24	det	_	TokenRange=186:191
+24	gente	gente	NOUN	NOUN	_	22	appos	_	TokenRange=192:197
+25	dificil	dificil	ADJ	ADJ	_	24	amod	_	TokenRange=198:205
+26	imaginar	imaginar	VERB	VERB	_	38	ccomp	_	TokenRange=206:214
+27	260	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=215:218
+28	milhoes	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=219:226
+29	anos	ano	NOUN	NOUN	_	26	obj	_	TokenRange=227:231
+30	lugares	lugar	NOUN	NOUN	_	29	appos	_	TokenRange=232:239
+31	santa	santo	ADJ	ADJ	_	32	amod	_	TokenRange=240:245
+32	rosa	rosa	NOUN	NOUN	_	38	nsubj:pass	_	TokenRange=246:250
+33	viterbo	viterbo	ADJ	ADJ	_	32	amod	_	TokenRange=251:258
+34	interior	interior	NOUN	NOUN	_	38	nsubj:pass	_	TokenRange=259:267
+35	paulo	paulo	NOUN	NOUN	_	34	flat	_	TokenRange=268:273
+36	podem	_	AUX	AUX	_	38	aux	_	TokenRange=274:279
+37	sido	ser	AUX	AUX	_	38	aux:pass	_	TokenRange=280:284
+38	encobertos	encobrir	VERB	VERB	_	3	acl:relcl	_	TokenRange=285:295
+39	agua	_	NOUN	NOUN	_	38	nsubj:pass	_	TokenRange=296:300
+40	salgada	salgado	ADJ	ADJ	_	39	amod	_	TokenRange=301:308
+41	gracas	graco	ADJ	ADJ	_	42	amod	_	TokenRange=309:315
+42	empenho	empenho	NOUN	NOUN	_	38	nsubj:pass	_	TokenRange=316:323
+43	pesquisadores	pesquisador	NOUN	NOUN	_	42	flat	_	TokenRange=324:337
+44	regiao	regiao	NOUN	NOUN	_	42	appos	_	TokenRange=338:344
+45	ribeirao	ribeirao	ADJ	ADJ	_	44	amod	_	TokenRange=345:353
+46	preto	preto	ADJ	ADJ	_	44	amod	_	TokenRange=354:359
+47	sp	_	X	X	_	51	dep	_	TokenRange=360:362
+48	2017	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=363:367
+49	descobertas	_	NOUN	NOUN	_	51	nsubj	_	TokenRange=368:379
+50	cientificas	cientifico	ADJ	ADJ	_	49	amod	_	TokenRange=380:391
+51	surpreenderam	surpreender	VERB	VERB	_	38	parataxis	_	TokenRange=392:405
+52	intrigaram	intrigar	VERB	VERB	_	51	xcomp	_	TokenRange=406:416
+53	ampliaram	ampliar	VERB	VERB	_	51	ccomp	_	TokenRange=417:426
+54	esperancas	esperanca	NOUN	NOUN	_	53	obj	_	TokenRange=427:437
+55	luta	luta	NOUN	NOUN	_	53	obj	_	TokenRange=438:442
+56	contra	_	ADP	ADP	_	57	case	_	TokenRange=443:449
+57	doencas	doenca	NOUN	NOUN	_	55	nmod	_	TokenRange=450:457
+58	cancer	cancer	NOUN	NOUN	_	57	flat	_	TokenRange=458:464
+59	acidente	acidente	NOUN	NOUN	_	55	appos	_	TokenRange=465:473
+60	vascular	vascular	ADJ	ADJ	_	59	amod	_	TokenRange=474:482
+61	cerebral	cerebral	ADJ	ADJ	_	59	amod	_	TokenRange=483:491
+62	avc	_	NOUN	NOUN	_	59	appos	_	TokenRange=492:495
+63	g1	_	X	NOUN	_	62	flat	_	TokenRange=496:498
+64	listou	listar	VERB	VERB	_	51	parataxis	_	TokenRange=499:505
+65	noticias	noticia	NOUN	NOUN	_	64	obj	_	TokenRange=506:514
+66	publicadas	publicar	VERB	VERB	_	65	acl	_	TokenRange=515:525
+67	janeiro	_	PROPN	PNOUN	_	66	nmod	_	TokenRange=526:533
+68	dezembro	_	PROPN	PNOUN	_	67	nmod	_	TokenRange=534:542
+69	deste	_	ADP	ADP	_	67	nmod	_	SpaceAfter=No|TokenRange=543:548
+

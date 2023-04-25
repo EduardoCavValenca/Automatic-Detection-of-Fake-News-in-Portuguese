@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = treinamento noivos df ajuda casais proteger golpistas evento oferece palestras degustacoes rodas conversa desfile profissionais ramo podem inscrever organizadora faz lista casais evitarem prejuizos evitar calote durante cerimonia casamento treinamento brasilia convida especialistas area orientar casais desejam comemorar uniao tapete vermelho flores festa dor cabeca desde 2015 g1 noticiou cinco casos envolvendo dezenas casais prejuizos contratar cerimonialista fotografo decorador buffet relembre abaixo nesta tercafeira 28 7h30 18h treinamento rumo altar vai oferecer palestras degustacoes rodas conversa desfile objetivo orientar sobre possibilidades
+1	treinamento	treinamento	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:11
+2	noivos	noivo	ADJ	ADJ	_	1	amod	_	TokenRange=12:18
+3	df	_	ADP	ADP	_	4	case	_	TokenRange=19:21
+4	ajuda	ajuda	NOUN	NOUN	_	1	nmod	_	TokenRange=22:27
+5	casais	casal	NOUN	NOUN	_	4	flat	_	TokenRange=28:34
+6	proteger	proteger	VERB	VERB	_	4	acl:relcl	_	TokenRange=35:43
+7	golpistas	golpista	NOUN	NOUN	_	6	obj	_	TokenRange=44:53
+8	evento	evento	NOUN	NOUN	_	6	obj	_	TokenRange=54:60
+9	oferece	oferecer	VERB	VERB	_	0	root	_	TokenRange=61:68
+10	palestras	palestra	NOUN	NOUN	_	9	obj	_	TokenRange=69:78
+11	degustacoes	degustacoe	ADJ	ADJ	_	40	amod	_	TokenRange=79:90
+12	rodas	roda	NOUN	NOUN	_	10	appos	_	TokenRange=91:96
+13	conversa	_	ADJ	ADJ	_	40	amod	_	TokenRange=97:105
+14	desfile	desfile	NOUN	NOUN	_	9	obj	_	TokenRange=106:113
+15	profissionais	profissional	NOUN	NOUN	_	14	flat	_	TokenRange=114:127
+16	ramo	ramo	NOUN	NOUN	_	14	appos	_	TokenRange=128:132
+17	podem	_	AUX	AUX	_	18	aux	_	TokenRange=133:138
+18	inscrever	inscrever	VERB	VERB	_	9	parataxis	_	TokenRange=139:148
+19	organizadora	organizador	NOUN	NOUN	_	18	obj	_	TokenRange=149:161
+20	faz	fazer	VERB	VERB	_	18	ccomp	_	TokenRange=162:165
+21	lista	lista	NOUN	NOUN	_	20	obj	_	TokenRange=166:171
+22	casais	casal	ADJ	NOUN	_	23	nsubj	_	TokenRange=172:178
+23	evitarem	evitar	VERB	VERB	_	21	acl:relcl	_	TokenRange=179:187
+24	prejuizos	prejuízo	NOUN	NOUN	_	23	obj	_	TokenRange=188:197
+25	evitar	evitar	VERB	VERB	_	23	xcomp	_	TokenRange=198:204
+26	calote	calote	NOUN	NOUN	_	25	obj	_	TokenRange=205:211
+27	durante	_	ADP	ADP	_	28	case	_	TokenRange=212:219
+28	cerimonia	cerimonia	NOUN	NOUN	_	25	nmod	_	TokenRange=220:229
+29	casamento	casamento	NOUN	NOUN	_	28	appos	_	TokenRange=230:239
+30	treinamento	treinamento	NOUN	NOUN	_	28	appos	_	TokenRange=240:251
+31	brasilia	brasilia	NOUN	NOUN	_	32	flat	_	TokenRange=252:260
+32	convida	convida	NOUN	NOUN	_	30	appos	_	TokenRange=261:268
+33	especialistas	especialista	NOUN	NOUN	_	32	flat	_	TokenRange=269:282
+34	area	area	NOUN	NOUN	_	32	appos	_	TokenRange=283:287
+35	orientar	orientar	VERB	VERB	_	34	acl:inf	_	TokenRange=288:296
+36	casais	casal	NOUN	NOUN	_	35	obj	_	TokenRange=297:303
+37	desejam	desejar	VERB	VERB	_	32	acl:relcl	_	TokenRange=304:311
+38	comemorar	comemorar	VERB	VERB	_	37	xcomp	_	TokenRange=312:321
+39	uniao	uniao	ADJ	NOUN	_	40	amod	_	TokenRange=322:327
+40	tapete	tapete	NOUN	NOUN	_	38	obj	_	TokenRange=328:334
+41	vermelho	vermelho	ADJ	ADJ	_	40	amod	_	TokenRange=335:343
+42	flores	flor	ADJ	ADJ	_	40	amod	_	TokenRange=344:350
+43	festa	festa	NOUN	NOUN	_	38	obj	_	TokenRange=351:356
+44	dor	dor	NOUN	NOUN	_	43	nmod	_	TokenRange=357:360
+45	cabeca	cabeca	NOUN	NOUN	_	43	nmod	_	TokenRange=361:367
+46	desde	_	ADP	ADP	_	47	case	_	TokenRange=368:373
+47	2015	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=374:378
+48	g1	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=379:381
+49	noticiou	noticiar	VERB	VERB	_	9	conj	_	TokenRange=382:390
+50	cinco	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=391:396
+51	casos	caso	NOUN	NOUN	_	49	obj	_	TokenRange=397:402
+52	envolvendo	envolver	VERB	VERB	_	51	acl	_	TokenRange=403:413
+53	dezenas	_	DET	DET	_	54	nummod	_	TokenRange=414:421
+54	casais	casal	NOUN	NOUN	_	52	obj	_	TokenRange=422:428
+55	prejuizos	prejuízo	NOUN	NOUN	_	54	flat	_	TokenRange=429:438
+56	contratar	contratar	VERB	VERB	_	51	acl:inf	_	TokenRange=439:448
+57	cerimonialista	_	NOUN	NOUN	_	56	obj	_	TokenRange=449:463
+58	fotografo	fotografo	NOUN	NOUN	_	57	appos	_	TokenRange=464:473
+59	decorador	decorador	NOUN	NOUN	_	58	amod	_	TokenRange=474:483
+60	buffet	_	NOUN	NOUN	_	58	flat	_	TokenRange=484:490
+61	relembre	relembre	NOUN	NOUN	_	56	obj	_	TokenRange=491:499
+62	abaixo	abaixo	ADV	ADV	_	61	advmod	_	TokenRange=500:506
+63	nesta	_	ADP	ADP	_	64	case	_	TokenRange=507:512
+64	tercafeira	_	NOUN	NOUN	_	72	nmod	_	TokenRange=513:523
+65	28	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=524:526
+66	7h30	_	NUM	NUM	NumType=Card	64	appos	_	TokenRange=527:531
+67	18h	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=532:535
+68	treinamento	treinamento	NOUN	NOUN	_	72	nsubj	_	TokenRange=536:547
+69	rumo	rumo	NOUN	NOUN	_	70	case	_	TokenRange=548:552
+70	altar	altar	NOUN	NOUN	_	68	nmod	_	TokenRange=553:558
+71	vai	ir	AUX	AUX	_	72	aux	_	TokenRange=559:562
+72	oferecer	oferecer	VERB	VERB	_	49	parataxis	_	TokenRange=563:571
+73	palestras	palestra	NOUN	NOUN	_	72	obj	_	TokenRange=572:581
+74	degustacoes	degustacoe	ADJ	ADJ	_	75	amod	_	TokenRange=582:593
+75	rodas	roda	NOUN	NOUN	_	73	appos	_	TokenRange=594:599
+76	conversa	_	ADJ	ADJ	_	75	amod	_	TokenRange=600:608
+77	desfile	desfile	NOUN	NOUN	_	72	parataxis	_	TokenRange=609:616
+78	objetivo	objetivo	NOUN	NOUN	_	77	flat	_	TokenRange=617:625
+79	orientar	orientar	VERB	VERB	_	72	ccomp	_	TokenRange=626:634
+80	sobre	_	ADP	ADP	_	81	case	_	TokenRange=635:640
+81	possibilidades	possibilidade	NOUN	NOUN	_	79	nmod	_	SpaceAfter=No|TokenRange=641:655
+

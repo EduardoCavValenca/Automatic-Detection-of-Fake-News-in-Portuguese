@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = juiz manda soltar pastor acusado abusar enteado cinco anos felipe heiderich pastor acusado crime pedofilia contra proprio enteado 5 anos solto novamente heiderich vai responder liberdade preso preventivamente bangu dois dias ministerio publico rio janeiro mprj pediu conversao prisao preventiva acusado liberado ressalto mprj pediu prisao preventiva somente medidas cautelares disse juiz paulo cezar vieira carvalho filho titular 17 vara criminal capital pastor proibido aproximar mulher bianca toledo filho 5 anos determinei monitoramento eletronico reu fique proibido aproximar crianca mae determinou magistrado leia
+1	juiz	juiz	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	manda	mandar	VERB	VERB	_	0	root	_	TokenRange=5:10
+3	soltar	soltar	VERB	VERB	_	2	xcomp	_	TokenRange=11:17
+4	pastor	pastor	NOUN	NOUN	_	3	obj	_	TokenRange=18:24
+5	acusado	acusar	VERB	VERB	_	1	acl	_	TokenRange=25:32
+6	abusar	abusar	VERB	VERB	_	5	xcomp	_	TokenRange=33:39
+7	enteado	enteado	NOUN	NOUN	_	6	obj	_	TokenRange=40:47
+8	cinco	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=48:53
+9	anos	ano	NOUN	NOUN	_	6	obj	_	TokenRange=54:58
+10	felipe	felipe	NOUN	NOUN	_	25	nsubj	_	TokenRange=59:65
+11	heiderich	_	ADJ	ADJ	_	10	flat	_	TokenRange=66:75
+12	pastor	pastor	NOUN	NOUN	_	10	appos	_	TokenRange=76:82
+13	acusado	acusar	VERB	VERB	_	10	acl	_	TokenRange=83:90
+14	crime	crime	NOUN	NOUN	_	13	obj	_	TokenRange=91:96
+15	pedofilia	pedofilia	NOUN	NOUN	_	14	amod	_	TokenRange=97:106
+16	contra	_	ADP	ADP	_	18	case	_	TokenRange=107:113
+17	proprio	proprio	ADJ	ADJ	_	18	amod	_	TokenRange=114:121
+18	enteado	enteado	NOUN	NOUN	_	14	nmod	_	TokenRange=122:129
+19	5	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=130:131
+20	anos	ano	NOUN	NOUN	_	13	nmod	_	TokenRange=132:136
+21	solto	solto	ADJ	ADJ	_	20	acl	_	TokenRange=137:142
+22	novamente	novamente	ADV	ADV	_	21	advmod	_	TokenRange=143:152
+23	heiderich	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=153:162
+24	vai	ir	AUX	AUX	_	25	aux	_	TokenRange=163:166
+25	responder	responder	VERB	VERB	_	2	parataxis	_	TokenRange=167:176
+26	liberdade	liberdade	NOUN	NOUN	_	25	obj	_	TokenRange=177:186
+27	preso	_	VERB	VERB	_	26	acl	_	TokenRange=187:192
+28	preventivamente	preventivamente	ADV	ADV	_	27	advmod	_	TokenRange=193:208
+29	bangu	_	VERB	VERB	_	25	advcl	_	TokenRange=209:214
+30	dois	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=215:219
+31	dias	dia	NOUN	NOUN	_	25	nmod	_	TokenRange=220:224
+32	ministerio	ministerio	NOUN	NOUN	_	31	appos	_	TokenRange=225:235
+33	publico	_	ADJ	ADJ	_	32	amod	_	TokenRange=236:243
+34	rio	_	NOUN	NOUN	_	32	appos	_	TokenRange=244:247
+35	janeiro	_	PROPN	PNOUN	_	32	appos	_	TokenRange=248:255
+36	mprj	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=256:260
+37	pediu	pedir	VERB	VERB	_	25	parataxis	_	TokenRange=261:266
+38	conversao	_	NOUN	NOUN	_	37	obj	_	TokenRange=267:276
+39	prisao	prisao	NOUN	NOUN	_	37	obj	_	TokenRange=277:283
+40	preventiva	preventivo	ADJ	ADJ	_	39	amod	_	TokenRange=284:294
+41	acusado	acusar	VERB	VERB	_	39	acl	_	TokenRange=295:302
+42	liberado	liberado	ADJ	NOUN	_	41	xcomp	_	TokenRange=303:311
+43	ressalto	ressalto	ADJ	ADJ	_	41	amod	_	TokenRange=312:320
+44	mprj	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=321:325
+45	pediu	pedir	VERB	VERB	_	37	conj	_	TokenRange=326:331
+46	prisao	prisao	NOUN	NOUN	_	45	obj	_	TokenRange=332:338
+47	preventiva	preventivo	ADJ	ADJ	_	46	amod	_	TokenRange=339:349
+48	somente	somente	ADV	ADV	_	49	advmod	_	TokenRange=350:357
+49	medidas	medida	NOUN	NOUN	_	45	nsubj	_	TokenRange=358:365
+50	cautelares	cautelar	ADJ	ADJ	_	49	amod	_	TokenRange=366:376
+51	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=377:382
+52	juiz	juiz	NOUN	NOUN	_	51	nsubj	_	TokenRange=383:387
+53	paulo	paulo	NOUN	NOUN	_	52	appos	_	TokenRange=388:393
+54	cezar	cezar	NOUN	NOUN	_	52	flat	_	TokenRange=394:399
+55	vieira	vieira	NOUN	NOUN	_	52	flat	_	TokenRange=400:406
+56	carvalho	carvalho	NOUN	NOUN	_	52	flat	_	TokenRange=407:415
+57	filho	filho	NOUN	NOUN	_	52	appos	_	TokenRange=416:421
+58	titular	titular	ADJ	ADJ	_	57	amod	_	TokenRange=422:429
+59	17	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=430:432
+60	vara	vara	NOUN	NOUN	_	52	appos	_	TokenRange=433:437
+61	criminal	criminal	ADJ	ADJ	_	60	amod	_	TokenRange=438:446
+62	capital	capital	NOUN	NOUN	_	60	amod	_	TokenRange=447:454
+63	pastor	pastor	NOUN	NOUN	_	72	nsubj	_	TokenRange=455:461
+64	proibido	proibido	ADJ	ADJ	_	63	amod	_	TokenRange=462:470
+65	aproximar	aproximar	VERB	VERB	_	63	acl:inf	_	TokenRange=471:480
+66	mulher	mulher	NOUN	NOUN	_	65	obj	_	TokenRange=481:487
+67	bianca	_	NOUN	NOUN	_	66	appos	_	TokenRange=488:494
+68	toledo	_	NOUN	NOUN	_	67	flat	_	TokenRange=495:501
+69	filho	filho	ADJ	ADJ	_	67	amod	_	TokenRange=502:507
+70	5	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=508:509
+71	anos	ano	NOUN	NOUN	_	72	nsubj	_	TokenRange=510:514
+72	determinei	determinar	VERB	VERB	_	51	parataxis	_	TokenRange=515:525
+73	monitoramento	monitoramento	NOUN	NOUN	_	72	obj	_	TokenRange=526:539
+74	eletronico	eletronico	ADJ	ADJ	_	73	amod	_	TokenRange=540:550
+75	reu	_	NOUN	NOUN	_	76	nsubj	_	TokenRange=551:554
+76	fique	ficar	VERB	VERB	_	72	ccomp	_	TokenRange=555:560
+77	proibido	proibido	ADJ	ADJ	_	76	xcomp	_	TokenRange=561:569
+78	aproximar	aproximar	VERB	VERB	_	76	xcomp	_	TokenRange=570:579
+79	crianca	crianco	NOUN	NOUN	_	78	obj	_	TokenRange=580:587
+80	mae	mae	NOUN	NOUN	_	81	nsubj	_	TokenRange=588:591
+81	determinou	determinar	VERB	VERB	_	72	conj	_	TokenRange=592:602
+82	magistrado	magistrado	NOUN	NOUN	_	81	obj	_	TokenRange=603:613
+83	leia	leia	ADJ	ADJ	_	82	amod	_	SpaceAfter=No|TokenRange=614:618
+

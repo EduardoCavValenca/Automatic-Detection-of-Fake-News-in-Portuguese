@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = congresso conclui analise vetos libera pauta votacao nova meta fiscal maioria vetos presidenciais trechos propostas aprovadas legislativo mantida parlamentares agora podem analisar projeto permite deficit r 159 bilhoes 2017 2018 congresso nacional concluiu noite desta quartafeira 30 analise vetos presidenciais trechos propostas aprovadas legislativo maioria vetos mantida parlamentares liberaram pauta poderao votar partir agora projeto permite deficit r 159 bilhoes contas publicas neste ano 2018 entenda meta fiscal nesta terca 29 comissao mista orcamento
+1	congresso	congresso	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	conclui	concluir	VERB	VERB	_	0	root	_	TokenRange=10:17
+3	analise	analise	NOUN	NOUN	_	2	obj	_	TokenRange=18:25
+4	vetos	veto	NOUN	NOUN	_	3	flat	_	TokenRange=26:31
+5	libera	libera	ADJ	ADJ	_	6	amod	_	TokenRange=32:38
+6	pauta	pauta	NOUN	NOUN	_	3	appos	_	TokenRange=39:44
+7	votacao	_	NOUN	NOUN	_	3	appos	_	TokenRange=45:52
+8	nova	novo	ADJ	ADJ	_	9	amod	_	TokenRange=53:57
+9	meta	meta	NOUN	NOUN	_	2	obj	_	TokenRange=58:62
+10	fiscal	fiscal	ADJ	ADJ	_	9	amod	_	TokenRange=63:69
+11	maioria	maioria	NOUN	NOUN	_	22	nsubj	_	TokenRange=70:77
+12	vetos	veto	NOUN	NOUN	_	11	appos	_	TokenRange=78:83
+13	presidenciais	presidencial	ADJ	ADJ	_	14	amod	_	TokenRange=84:97
+14	trechos	trecho	NOUN	NOUN	_	11	appos	_	TokenRange=98:105
+15	propostas	_	NOUN	NOUN	_	14	amod	_	TokenRange=106:115
+16	aprovadas	aprovar	ADJ	ADJ	_	15	amod	_	TokenRange=116:125
+17	legislativo	legislativo	ADJ	ADJ	_	15	amod	_	TokenRange=126:137
+18	mantida	manter	VERB	VERB	_	19	acl	_	TokenRange=138:145
+19	parlamentares	parlamentar	NOUN	NOUN	_	22	nsubj	_	TokenRange=146:159
+20	agora	agora	ADV	ADV	_	22	advmod	_	TokenRange=160:165
+21	podem	_	AUX	AUX	_	22	aux	_	TokenRange=166:171
+22	analisar	analisar	VERB	VERB	_	2	parataxis	_	TokenRange=172:180
+23	projeto	projeto	NOUN	NOUN	_	22	obj	_	TokenRange=181:188
+24	permite	permitir	VERB	VERB	_	22	parataxis	_	TokenRange=189:196
+25	deficit	deficit	NOUN	NOUN	_	24	obj	_	TokenRange=197:204
+26	r	r	NOUN	NOUN	_	25	flat	_	TokenRange=205:206
+27	159	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=207:210
+28	bilhoes	_	NOUN	NOUN	_	25	nummod	_	TokenRange=211:218
+29	2017	_	NUM	NUM	NumType=Card	25	nmod	_	TokenRange=219:223
+30	2018	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=224:228
+31	congresso	congresso	NOUN	NOUN	_	33	nsubj	_	TokenRange=229:238
+32	nacional	nacional	ADJ	ADJ	_	31	amod	_	TokenRange=239:247
+33	concluiu	concluir	VERB	VERB	_	2	parataxis	_	TokenRange=248:256
+34	noite	noite	NOUN	NOUN	_	33	obj	_	TokenRange=257:262
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=263:268
+36	quartafeira	quartafeira	NOUN	NOUN	_	34	nmod	_	TokenRange=269:280
+37	30	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=281:283
+38	analise	analise	NOUN	NOUN	_	33	nsubj	_	TokenRange=284:291
+39	vetos	veto	NOUN	NOUN	_	38	appos	_	TokenRange=292:297
+40	presidenciais	presidencial	ADJ	ADJ	_	38	amod	_	TokenRange=298:311
+41	trechos	trecho	NOUN	NOUN	_	38	appos	_	TokenRange=312:319
+42	propostas	_	NOUN	NOUN	_	38	appos	_	TokenRange=320:329
+43	aprovadas	aprovar	ADJ	VERB	_	41	amod	_	TokenRange=330:339
+44	legislativo	legislativo	ADJ	ADJ	_	45	amod	_	TokenRange=340:351
+45	maioria	maioria	NOUN	NOUN	_	49	nsubj	_	TokenRange=352:359
+46	vetos	veto	NOUN	NOUN	_	45	amod	_	TokenRange=360:365
+47	mantida	manter	VERB	VERB	_	45	acl	_	TokenRange=366:373
+48	parlamentares	parlamentar	NOUN	NOUN	_	49	nsubj	_	TokenRange=374:387
+49	liberaram	liberar	VERB	VERB	_	33	parataxis	_	TokenRange=388:397
+50	pauta	pauta	NOUN	NOUN	_	49	obj	_	TokenRange=398:403
+51	poderao	poder	AUX	AUX	_	52	aux	_	TokenRange=404:411
+52	votar	votar	VERB	VERB	_	49	ccomp	_	TokenRange=412:417
+53	partir	partir	VERB	VERB	_	52	xcomp	_	TokenRange=418:424
+54	agora	agora	ADV	ADV	_	56	advmod	_	TokenRange=425:430
+55	projeto	projeto	NOUN	NOUN	_	56	nsubj	_	TokenRange=431:438
+56	permite	permitir	VERB	VERB	_	53	parataxis	_	TokenRange=439:446
+57	deficit	deficit	NOUN	NOUN	_	56	obj	_	TokenRange=447:454
+58	r	r	NOUN	NOUN	_	57	flat	_	TokenRange=455:456
+59	159	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=457:460
+60	bilhoes	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=461:468
+61	contas	conta	NOUN	NOUN	_	57	appos	_	TokenRange=469:475
+62	publicas	publico	ADJ	ADJ	_	61	amod	_	TokenRange=476:484
+63	neste	_	ADP	ADP	_	64	case	_	TokenRange=485:490
+64	ano	ano	NOUN	NOUN	_	56	nmod	_	TokenRange=491:494
+65	2018	_	NUM	NUM	NumType=Card	64	nmod	_	TokenRange=495:499
+66	entenda	entender	VERB	VERB	_	56	parataxis	_	TokenRange=500:507
+67	meta	meta	NOUN	NOUN	_	66	obj	_	TokenRange=508:512
+68	fiscal	fiscal	ADJ	ADJ	_	67	amod	_	TokenRange=513:519
+69	nesta	_	ADP	ADP	_	70	case	_	TokenRange=520:525
+70	terca	terca	NOUN	NOUN	_	66	nmod	_	TokenRange=526:531
+71	29	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=532:534
+72	comissao	comissao	NOUN	NOUN	_	66	nsubj	_	TokenRange=535:543
+73	mista	misto	ADJ	ADJ	_	74	amod	_	TokenRange=544:549
+74	orcamento	orcamento	NOUN	NOUN	_	72	appos	_	SpaceAfter=No|TokenRange=550:559
+

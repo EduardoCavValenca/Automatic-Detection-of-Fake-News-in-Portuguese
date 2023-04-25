@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula preso menos enquanto penas determinadas justica primeira instancia podem executadas partir confirmacao feita segunda instancia caso lula especificamente 8 turma trf4 composta 3 desembargadores lula ira cadeia menos enquanto sergio moro fez questao destacar caberia prisao preventiva porem tal ato poderia provocar intimidacao justica agentes lei imprensa sendo assim expresidente podera fazer apelacao liberdade
+1	lula	lula	NOUN	NOUN	_	11	nsubj:pass	_	TokenRange=0:4
+2	preso	_	VERB	VERB	_	1	acl	_	TokenRange=5:10
+3	menos	menos	ADV	ADV	_	2	advmod	_	TokenRange=11:16
+4	enquanto	_	CCONJ	CONJ	_	5	case	_	TokenRange=17:25
+5	penas	_	NOUN	NOUN	_	2	nmod	_	TokenRange=26:31
+6	determinadas	_	VERB	VERB	_	5	acl	_	TokenRange=32:44
+7	justica	_	ADJ	ADJ	_	9	amod	_	TokenRange=45:52
+8	primeira	primeiro	ADJ	ADJ	_	9	amod	_	TokenRange=53:61
+9	instancia	instancia	NOUN	NOUN	_	11	nsubj:pass	_	TokenRange=62:71
+10	podem	_	AUX	AUX	_	11	aux	_	TokenRange=72:77
+11	executadas	executar	VERB	VERB	_	0	root	_	TokenRange=78:88
+12	partir	partir	VERB	VERB	_	11	xcomp	_	TokenRange=89:95
+13	confirmacao	confirmacao	NOUN	NOUN	_	12	obj	_	TokenRange=96:107
+14	feita	_	VERB	VERB	_	13	acl	_	TokenRange=108:113
+15	segunda	segundo	ADJ	ADJ	_	16	amod	_	TokenRange=114:121
+16	instancia	instancia	NOUN	NOUN	_	13	appos	_	TokenRange=122:131
+17	caso	_	CCONJ	CONJ	_	18	case	_	TokenRange=132:136
+18	lula	_	NOUN	NOUN	_	12	nmod	_	TokenRange=137:141
+19	especificamente	especificamente	ADV	ADV	_	21	advmod	_	TokenRange=142:157
+20	8	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=158:159
+21	turma	turma	NOUN	NOUN	_	18	appos	_	TokenRange=160:165
+22	trf4	_	NOUN	NOUN	_	21	appos	_	TokenRange=166:170
+23	composta	compor	VERB	VERB	_	21	acl	_	TokenRange=171:179
+24	3	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=180:181
+25	desembargadores	desembargador	NOUN	NOUN	_	23	obj	_	TokenRange=182:197
+26	lula	_	NOUN	NOUN	_	21	appos	_	TokenRange=198:202
+27	ira	_	AUX	VERB	_	21	acl:relcl	_	TokenRange=203:206
+28	cadeia	cadeia	NOUN	NOUN	_	27	obj	_	TokenRange=207:213
+29	menos	menos	ADV	ADV	_	28	advmod	_	TokenRange=214:219
+30	enquanto	_	CCONJ	CONJ	_	33	mark	_	TokenRange=220:228
+31	sergio	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=229:235
+32	moro	moro	NOUN	NOUN	_	31	flat	_	TokenRange=236:240
+33	fez	fazer	VERB	VERB	_	27	advcl	_	TokenRange=241:244
+34	questao	questao	NOUN	NOUN	_	33	obj	_	TokenRange=245:252
+35	destacar	destacar	VERB	VERB	_	34	acl:inf	_	TokenRange=253:261
+36	caberia	caber	VERB	VERB	_	35	ccomp	_	TokenRange=262:269
+37	prisao	prisao	NOUN	NOUN	_	36	obj	_	TokenRange=270:276
+38	preventiva	preventivo	ADJ	ADJ	_	37	amod	_	TokenRange=277:287
+39	porem	_	CCONJ	CONJ	_	43	mark	_	TokenRange=288:293
+40	tal	_	DET	DET	_	41	det	_	TokenRange=294:297
+41	ato	ato	NOUN	NOUN	_	43	nsubj	_	TokenRange=298:301
+42	poderia	poder	AUX	AUX	_	43	aux	_	TokenRange=302:309
+43	provocar	provocar	VERB	VERB	_	36	advcl	_	TokenRange=310:318
+44	intimidacao	intimidacao	NOUN	NOUN	_	43	obj	_	TokenRange=319:330
+45	justica	justico	ADJ	ADJ	_	44	amod	_	TokenRange=331:338
+46	agentes	agente	NOUN	NOUN	_	43	obj	_	TokenRange=339:346
+47	lei	lei	NOUN	NOUN	_	46	flat	_	TokenRange=347:350
+48	imprensa	imprensa	NOUN	NOUN	_	46	flat	_	TokenRange=351:359
+49	sendo	ser	VERB	VERB	_	53	acl	_	TokenRange=360:365
+50	assim	assim	ADV	ADV	_	53	advmod	_	TokenRange=366:371
+51	expresidente	expresidente	NOUN	NOUN	_	53	nsubj	_	TokenRange=372:384
+52	podera	poder	AUX	AUX	_	53	aux	_	TokenRange=385:391
+53	fazer	fazer	VERB	VERB	_	43	conj	_	TokenRange=392:397
+54	apelacao	apelacao	NOUN	NOUN	_	53	obj	_	TokenRange=398:406
+55	liberdade	liberdade	NOUN	NOUN	_	53	obj	_	SpaceAfter=No|TokenRange=407:416
+

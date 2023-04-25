@@ -1,0 +1,15 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 6 fatos comprovam viagem temer russia vergonha
+1	6	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:1
+2	fatos	fato	NOUN	NOUN	_	3	nsubj	_	TokenRange=2:7
+3	comprovam	comprovar	VERB	VERB	_	0	root	_	TokenRange=8:17
+4	viagem	viagem	NOUN	NOUN	_	3	obj	_	TokenRange=18:24
+5	temer	temer	VERB	VERB	_	3	ccomp	_	TokenRange=25:30
+6	russia	russia	NOUN	NOUN	_	5	obj	_	TokenRange=31:37
+7	vergonha	vergonha	ADJ	ADJ	_	6	amod	_	SpaceAfter=No|TokenRange=38:46
+

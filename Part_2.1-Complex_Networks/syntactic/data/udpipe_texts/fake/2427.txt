@@ -1,0 +1,16 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma podera renunciar evitar vexame votacao impeachment senado
+1	dilma	dilma	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	podera	poder	AUX	AUX	_	3	aux	_	TokenRange=6:12
+3	renunciar	renunciar	VERB	VERB	_	0	root	_	TokenRange=13:22
+4	evitar	evitar	VERB	VERB	_	3	xcomp	_	TokenRange=23:29
+5	vexame	vexame	NOUN	NOUN	_	4	obj	_	TokenRange=30:36
+6	votacao	votacao	NOUN	NOUN	_	5	amod	_	TokenRange=37:44
+7	impeachment	impeachment	NOUN	NOUN	_	4	obj	_	TokenRange=45:56
+8	senado	senado	NOUN	NOUN	_	7	appos	_	SpaceAfter=No|TokenRange=57:63
+

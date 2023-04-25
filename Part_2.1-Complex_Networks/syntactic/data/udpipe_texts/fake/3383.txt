@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jabor nocaute pt canalhas precisam ideologia absolva justifique maior pancada pt dilma lula tomaram hoje globo deve teme governo fez tudo esconder pedaladas culpa obvio pergunto quais fundas razoes psiquicas explicam gente entranhado mentes petistas confira
+1	jabor	jabor	NOUN	NOUN	_	36	nsubj	_	TokenRange=0:5
+2	nocaute	nocaute	NOUN	NOUN	_	1	flat	_	TokenRange=6:13
+3	pt	_	NOUN	NOUN	_	1	appos	_	TokenRange=14:16
+4	canalhas	canalha	NOUN	NOUN	_	1	appos	_	TokenRange=17:25
+5	precisam	precisar	VERB	VERB	_	1	acl:relcl	_	TokenRange=26:34
+6	ideologia	ideologia	NOUN	NOUN	_	5	obj	_	TokenRange=35:44
+7	absolva	absolvo	ADJ	ADJ	_	6	amod	_	TokenRange=45:52
+8	justifique	justifique	NOUN	NOUN	_	5	obj	_	TokenRange=53:63
+9	maior	maior	ADJ	ADJ	_	10	amod	_	TokenRange=64:69
+10	pancada	pancada	NOUN	NOUN	_	14	nsubj	_	TokenRange=70:77
+11	pt	_	NOUN	NOUN	_	12	case	_	TokenRange=78:80
+12	dilma	dilma	NOUN	NOUN	_	10	appos	_	TokenRange=81:86
+13	lula	_	NOUN	NOUN	_	12	flat	_	TokenRange=87:91
+14	tomaram	tomar	VERB	VERB	_	1	acl:relcl	_	TokenRange=92:99
+15	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=100:104
+16	globo	globo	NOUN	NOUN	_	14	nsubj	_	TokenRange=105:110
+17	deve	dever	AUX	AUX	_	18	aux	_	TokenRange=111:115
+18	teme	teme	NOUN	NOUN	_	16	nmod	_	TokenRange=116:120
+19	governo	governo	NOUN	NOUN	_	20	nsubj	_	TokenRange=121:128
+20	fez	fazer	VERB	VERB	_	14	parataxis	_	TokenRange=129:132
+21	tudo	_	PRON	PRON	_	22	obj	_	TokenRange=133:137
+22	esconder	esconder	VERB	VERB	_	20	ccomp	_	TokenRange=138:146
+23	pedaladas	pedalada	NOUN	NOUN	_	22	obj	_	TokenRange=147:156
+24	culpa	culpa	NOUN	NOUN	_	20	parataxis	_	TokenRange=157:162
+25	obvio	obvio	ADJ	ADJ	_	24	amod	_	TokenRange=163:168
+26	pergunto	pergunto	NOUN	NOUN	_	24	appos	_	TokenRange=169:177
+27	quais	_	DET	DET	_	29	det	_	TokenRange=178:183
+28	fundas	_	ADJ	ADJ	_	29	amod	_	TokenRange=184:190
+29	razoes	razoe	NOUN	NOUN	_	31	nsubj	_	TokenRange=191:197
+30	psiquicas	psiquico	ADJ	ADJ	_	29	amod	_	TokenRange=198:207
+31	explicam	explicar	VERB	VERB	_	24	acl:relcl	_	TokenRange=208:216
+32	gente	gente	NOUN	NOUN	_	31	obj	_	TokenRange=217:222
+33	entranhado	entranhado	ADJ	ADJ	_	32	amod	_	TokenRange=223:233
+34	mentes	mente	NOUN	NOUN	_	36	obj	_	TokenRange=234:240
+35	petistas	petista	ADJ	ADJ	_	34	amod	_	TokenRange=241:249
+36	confira	conferir	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=250:257
+

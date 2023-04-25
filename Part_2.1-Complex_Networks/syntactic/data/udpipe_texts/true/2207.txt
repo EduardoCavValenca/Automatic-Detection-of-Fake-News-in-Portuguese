@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joesley diz temer chefe organizacao criminosa entrevista revista epoca empresario afirma preso hoje planalto empresario joesley batista frigorifico jbs afirmou entrevista revista epoca chega bancas sabado 17 presidente michel temer chefe organizacao criminosa empresario apos acordo delacao premiada morar
+1	joesley	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	temer	temer	NOUN	NOUN	_	2	obj	_	TokenRange=12:17
+4	chefe	chefe	NOUN	NOUN	_	2	obj	_	TokenRange=18:23
+5	organizacao	organizacao	NOUN	NOUN	_	2	appos	_	TokenRange=24:35
+6	criminosa	criminoso	ADJ	ADJ	_	5	amod	_	TokenRange=36:45
+7	entrevista	entrevista	NOUN	NOUN	_	2	nsubj	_	TokenRange=46:56
+8	revista	revista	NOUN	NOUN	_	11	nsubj	_	TokenRange=57:64
+9	epoca	epoca	ADJ	ADJ	_	8	amod	_	TokenRange=65:70
+10	empresario	empresario	NOUN	NOUN	_	8	appos	_	TokenRange=71:81
+11	afirma	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=82:88
+12	preso	_	ADJ	NOUN	_	11	obj	_	TokenRange=89:94
+13	hoje	hoje	ADV	ADV	_	11	advmod	_	TokenRange=95:99
+14	planalto	planalto	ADJ	ADJ	_	15	amod	_	TokenRange=100:108
+15	empresario	empresario	NOUN	NOUN	_	11	nsubj	_	TokenRange=109:119
+16	joesley	_	NOUN	NOUN	_	15	appos	_	TokenRange=120:127
+17	batista	batista	NOUN	NOUN	_	16	flat	_	TokenRange=128:135
+18	frigorifico	frigorifico	ADJ	ADJ	_	15	amod	_	TokenRange=136:147
+19	jbs	_	NOUN	NOUN	_	15	appos	_	TokenRange=148:151
+20	afirmou	afirmar	VERB	VERB	_	2	conj	_	TokenRange=152:159
+21	entrevista	entrevista	NOUN	NOUN	_	20	obj	_	TokenRange=160:170
+22	revista	revista	NOUN	NOUN	_	21	appos	_	TokenRange=171:178
+23	epoca	epoca	ADJ	ADJ	_	21	amod	_	TokenRange=179:184
+24	chega	chegar	VERB	VERB	_	20	parataxis	_	TokenRange=185:190
+25	bancas	banca	NOUN	NOUN	_	24	obj	_	TokenRange=191:197
+26	sabado	sabado	NOUN	NOUN	_	25	appos	_	TokenRange=198:204
+27	17	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=205:207
+28	presidente	presidente	NOUN	NOUN	_	24	nsubj	_	TokenRange=208:218
+29	michel	michel	ADJ	ADJ	_	30	amod	_	TokenRange=219:225
+30	temer	temer	NOUN	NOUN	_	28	appos	_	TokenRange=226:231
+31	chefe	chefe	NOUN	NOUN	_	28	appos	_	TokenRange=232:237
+32	organizacao	organizacao	NOUN	NOUN	_	31	appos	_	TokenRange=238:249
+33	criminosa	criminoso	ADJ	ADJ	_	32	amod	_	TokenRange=250:259
+34	empresario	empresario	NOUN	NOUN	_	32	amod	_	TokenRange=260:270
+35	apos	_	ADP	ADP	_	36	case	_	TokenRange=271:275
+36	acordo	acordo	NOUN	NOUN	_	31	nmod	_	TokenRange=276:282
+37	delacao	_	NOUN	NOUN	_	36	appos	_	TokenRange=283:290
+38	premiada	premiado	ADJ	ADJ	_	36	amod	_	TokenRange=291:299
+39	morar	morar	VERB	VERB	_	36	acl	_	SpaceAfter=No|TokenRange=300:305
+

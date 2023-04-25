@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = crianca baleada durante perseguicao maringa internada estado grave dois meninos baleados dentro casa sabado 17 recebeu alta medica domingo 18 policia militar informou tiros disparados criminosos perseguiam rapaz internado estado grave unidade terapia intensiva uti hospital santa casa maringa norte parana meninos baleado tarde sabado 17 enquanto jogava videogame garoto 10 anos sala atingidos tiros suspeita policia duas criancas vitimas criminosos perseguiam rapaz acertar contas trafico drogas curativos menino 10 anos sobreviveu escondem marcas violencia menino sentiu
+1	crianca	crianca	NOUN	NOUN	_	77	nsubj	_	TokenRange=0:7
+2	baleada	baleado	VERB	VERB	_	1	acl	_	TokenRange=8:15
+3	durante	_	ADP	ADP	_	4	case	_	TokenRange=16:23
+4	perseguicao	perseguicao	NOUN	NOUN	_	1	nmod	_	TokenRange=24:35
+5	maringa	maringa	ADJ	ADJ	_	4	amod	_	TokenRange=36:43
+6	internada	internado	ADJ	ADJ	_	7	amod	_	TokenRange=44:53
+7	estado	estado	NOUN	NOUN	_	5	appos	_	TokenRange=54:60
+8	grave	grave	ADJ	ADJ	_	7	amod	_	TokenRange=61:66
+9	dois	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=67:71
+10	meninos	menino	NOUN	NOUN	_	1	appos	_	TokenRange=72:79
+11	baleados	balear	VERB	VERB	_	1	acl	_	TokenRange=80:88
+12	dentro	dentro	ADV	ADV	_	13	advmod	_	TokenRange=89:95
+13	casa	casa	NOUN	NOUN	_	11	nmod	_	TokenRange=96:100
+14	sabado	_	PROPN	PNOUN	_	13	appos	_	TokenRange=101:107
+15	17	_	NUM	NUM	NumType=Card	14	appos	_	TokenRange=108:110
+16	recebeu	receber	VERB	VERB	_	1	acl:relcl	_	TokenRange=111:118
+17	alta	alto	ADJ	ADJ	_	18	amod	_	TokenRange=119:123
+18	medica	_	NOUN	NOUN	_	16	obj	_	TokenRange=124:130
+19	domingo	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=131:138
+20	18	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=139:141
+21	policia	policia	NOUN	NOUN	_	23	nsubj	_	TokenRange=142:149
+22	militar	militar	ADJ	ADJ	_	21	amod	_	TokenRange=150:157
+23	informou	informar	VERB	VERB	_	1	conj	_	TokenRange=158:166
+24	tiros	tiro	NOUN	NOUN	_	23	obj	_	TokenRange=167:172
+25	disparados	disparado	ADJ	ADJ	_	24	amod	_	TokenRange=173:183
+26	criminosos	criminoso	NOUN	NOUN	_	27	nsubj	_	TokenRange=184:194
+27	perseguiam	perseguir	VERB	VERB	_	24	acl:relcl	_	TokenRange=195:205
+28	rapaz	rapaz	NOUN	NOUN	_	27	obj	_	TokenRange=206:211
+29	internado	internado	ADJ	ADJ	_	24	amod	_	TokenRange=212:221
+30	estado	estado	NOUN	NOUN	_	27	nmod	_	TokenRange=222:228
+31	grave	grave	ADJ	ADJ	_	30	amod	_	TokenRange=229:234
+32	unidade	unidade	NOUN	NOUN	_	27	nsubj	_	TokenRange=235:242
+33	terapia	terapia	NOUN	NOUN	_	32	appos	_	TokenRange=243:250
+34	intensiva	intensivo	ADJ	ADJ	_	33	amod	_	TokenRange=251:260
+35	uti	_	NOUN	NOUN	_	36	appos	_	TokenRange=261:264
+36	hospital	hospital	NOUN	NOUN	_	32	appos	_	TokenRange=265:273
+37	santa	santo	ADJ	ADJ	_	38	amod	_	TokenRange=274:279
+38	casa	casa	NOUN	NOUN	_	36	appos	_	TokenRange=280:284
+39	maringa	maringa	ADJ	ADJ	_	38	amod	_	TokenRange=285:292
+40	norte	norte	ADJ	ADJ	_	38	amod	_	TokenRange=293:298
+41	parana	parana	ADJ	ADJ	_	38	amod	_	TokenRange=299:305
+42	meninos	menino	NOUN	NOUN	_	36	appos	_	TokenRange=306:313
+43	baleado	balear	VERB	VERB	_	42	acl	_	TokenRange=314:321
+44	tarde	tarde	NOUN	NOUN	_	43	advmod	_	TokenRange=322:327
+45	sabado	_	PROPN	PNOUN	_	44	nmod	_	TokenRange=328:334
+46	17	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=335:337
+47	enquanto	_	CCONJ	CONJ	_	48	mark	_	TokenRange=338:346
+48	jogava	jogar	VERB	VERB	_	16	advcl	_	TokenRange=347:353
+49	videogame	videogame	NOUN	NOUN	_	48	obj	_	TokenRange=354:363
+50	garoto	garoto	ADJ	NOUN	_	49	amod	_	TokenRange=364:370
+51	10	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=371:373
+52	anos	ano	NOUN	NOUN	_	48	nmod	_	TokenRange=374:378
+53	sala	sala	NOUN	NOUN	_	48	appos	_	TokenRange=379:383
+54	atingidos	_	ADJ	ADJ	_	55	amod	_	TokenRange=384:393
+55	tiros	tiro	NOUN	NOUN	_	53	appos	_	TokenRange=394:399
+56	suspeita	suspeito	ADJ	ADJ	_	55	amod	_	TokenRange=400:408
+57	policia	policia	NOUN	NOUN	_	62	nsubj	_	TokenRange=409:416
+58	duas	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=417:421
+59	criancas	crianca	NOUN	NOUN	_	62	nsubj	_	TokenRange=422:430
+60	vitimas	vitimo	ADJ	ADJ	_	59	amod	_	TokenRange=431:438
+61	criminosos	criminoso	ADJ	ADJ	_	59	amod	_	TokenRange=439:449
+62	perseguiam	perseguir	VERB	VERB	_	53	acl:relcl	_	TokenRange=450:460
+63	rapaz	rapaz	NOUN	NOUN	_	62	obj	_	TokenRange=461:466
+64	acertar	acertar	VERB	VERB	_	62	xcomp	_	TokenRange=467:474
+65	contas	conta	NOUN	NOUN	_	64	obj	_	TokenRange=475:481
+66	trafico	trafico	NOUN	NOUN	_	65	amod	_	TokenRange=482:489
+67	drogas	droga	NOUN	NOUN	_	64	obj	_	TokenRange=490:496
+68	curativos	curativo	ADJ	ADJ	_	67	amod	_	TokenRange=497:506
+69	menino	menino	NOUN	NOUN	_	72	nsubj	_	TokenRange=507:513
+70	10	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=514:516
+71	anos	ano	NOUN	NOUN	_	72	nsubj	_	TokenRange=517:521
+72	sobreviveu	sobreviver	VERB	VERB	_	67	acl:relcl	_	TokenRange=522:532
+73	escondem	esconder	VERB	VERB	_	72	xcomp	_	TokenRange=533:541
+74	marcas	marca	NOUN	NOUN	_	73	obj	_	TokenRange=542:548
+75	violencia	violencia	ADJ	ADJ	_	74	amod	_	TokenRange=549:558
+76	menino	menino	NOUN	NOUN	_	77	nsubj	_	TokenRange=559:565
+77	sentiu	sentir	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=566:572
+

@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trf4 nega pedido defesa aldemir bendine contato interfone prisao expresidente petrobras banco brasil preso desde julho 2017 suspeito receber r 3 milhoes odebrecht decisao unanime desembargadores tribunal regional federal 4 regiao trf4 porto alegre negou nesta quartafeira 7 forma unanime habeas corpus defesa expresidente petrobras
+1	trf4	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	pedido	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	defesa	_	NOUN	NOUN	_	3	amod	_	TokenRange=17:23
+5	aldemir	aldemir	NOUN	NOUN	_	2	parataxis	_	TokenRange=24:31
+6	bendine	bendine	NOUN	NOUN	_	5	flat	_	TokenRange=32:39
+7	contato	contato	NOUN	NOUN	_	5	appos	_	TokenRange=40:47
+8	interfone	interfone	ADJ	ADJ	_	7	amod	_	TokenRange=48:57
+9	prisao	prisao	NOUN	NOUN	_	7	appos	_	TokenRange=58:64
+10	expresidente	expresidente	NOUN	NOUN	_	9	amod	_	TokenRange=65:77
+11	petrobras	petrobra	ADJ	ADJ	_	12	amod	_	TokenRange=78:87
+12	banco	banco	NOUN	NOUN	_	9	appos	_	TokenRange=88:93
+13	brasil	brasil	ADJ	ADJ	_	12	amod	_	TokenRange=94:100
+14	preso	_	VERB	VERB	_	12	acl	_	TokenRange=101:106
+15	desde	_	ADP	ADP	_	16	case	_	TokenRange=107:112
+16	julho	_	PROPN	PNOUN	_	14	nmod	_	TokenRange=113:118
+17	2017	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=119:123
+18	suspeito	suspeito	ADJ	ADJ	_	16	amod	_	TokenRange=124:132
+19	receber	receber	VERB	VERB	_	18	acl:inf	_	TokenRange=133:140
+20	r	r	NOUN	NOUN	_	19	obj	_	TokenRange=141:142
+21	3	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=143:144
+22	milhoes	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=145:152
+23	odebrecht	odebrecht	NOUN	NOUN	_	24	amod	_	TokenRange=153:162
+24	decisao	decisao	NOUN	NOUN	_	19	obj	_	TokenRange=163:170
+25	unanime	unanime	ADJ	ADJ	_	24	amod	_	TokenRange=171:178
+26	desembargadores	desembargador	ADJ	NOUN	_	27	amod	_	TokenRange=179:194
+27	tribunal	tribunal	NOUN	NOUN	_	24	appos	_	TokenRange=195:203
+28	regional	regional	ADJ	ADJ	_	27	amod	_	TokenRange=204:212
+29	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=213:220
+30	4	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=221:222
+31	regiao	regiao	NOUN	NOUN	_	27	appos	_	TokenRange=223:229
+32	trf4	_	NOUN	NOUN	_	27	appos	_	TokenRange=230:234
+33	porto	_	NOUN	NOUN	_	32	appos	_	TokenRange=235:240
+34	alegre	alegre	ADJ	ADJ	_	32	amod	_	TokenRange=241:247
+35	negou	negar	VERB	VERB	_	2	parataxis	_	TokenRange=248:253
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=254:259
+37	quartafeira	_	NOUN	NOUN	_	35	nmod	_	TokenRange=260:271
+38	7	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=272:273
+39	forma	forma	NOUN	NOUN	_	37	appos	_	TokenRange=274:279
+40	unanime	unanime	ADJ	ADJ	_	39	amod	_	TokenRange=280:287
+41	habeas	habeas	NOUN	NOUN	_	35	nmod	_	TokenRange=288:294
+42	corpus	corpus	NOUN	NOUN	_	41	flat	_	TokenRange=295:301
+43	defesa	_	NOUN	NOUN	_	35	obj	_	TokenRange=302:308
+44	expresidente	expresidente	NOUN	NOUN	_	35	obj	_	TokenRange=309:321
+45	petrobras	petrobra	ADJ	ADJ	_	44	amod	_	SpaceAfter=No|TokenRange=322:331
+

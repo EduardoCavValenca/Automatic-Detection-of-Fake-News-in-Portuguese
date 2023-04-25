@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo suspende novos contratos fies prouni governo federal atraves ministerio educacao cultura suspendeu novos contratos fies nove universidades medida cautelar dou publicacao feita diario oficial uniao dou preve suspensao prouni programa universidade todos alem restricao participacao pronatec programa acesso ensino tecnico emprego clique aqui veja integra portaria
+1	governo	governo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	suspende	suspender	VERB	VERB	_	0	root	_	TokenRange=8:16
+3	novos	novo	ADJ	ADJ	_	4	amod	_	TokenRange=17:22
+4	contratos	contrato	NOUN	NOUN	_	2	obj	_	TokenRange=23:32
+5	fies	_	NOUN	NOUN	_	4	amod	_	TokenRange=33:37
+6	prouni	_	NOUN	NOUN	_	7	amod	_	TokenRange=38:44
+7	governo	governo	NOUN	NOUN	_	13	nsubj	_	TokenRange=45:52
+8	federal	federal	ADJ	ADJ	_	7	amod	_	TokenRange=53:60
+9	atraves	_	ADV	ADV	_	10	case	_	TokenRange=61:68
+10	ministerio	ministerio	NOUN	NOUN	_	7	appos	_	TokenRange=69:79
+11	educacao	educacao	ADJ	ADJ	_	10	amod	_	TokenRange=80:88
+12	cultura	cultura	NOUN	NOUN	_	10	flat	_	TokenRange=89:96
+13	suspendeu	suspender	VERB	VERB	_	2	parataxis	_	TokenRange=97:106
+14	novos	novo	ADJ	ADJ	_	15	amod	_	TokenRange=107:112
+15	contratos	contrato	NOUN	NOUN	_	13	obj	_	TokenRange=113:122
+16	fies	_	ADJ	ADJ	_	18	amod	_	TokenRange=123:127
+17	nove	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=128:132
+18	universidades	universidade	NOUN	NOUN	_	15	appos	_	TokenRange=133:146
+19	medida	medida	NOUN	NOUN	_	18	appos	_	TokenRange=147:153
+20	cautelar	cautelar	ADJ	ADJ	_	19	amod	_	TokenRange=154:162
+21	dou	_	ADP	ADP	_	22	case	_	TokenRange=163:166
+22	publicacao	publicacao	NOUN	NOUN	_	19	nmod	_	TokenRange=167:177
+23	feita	_	ADJ	ADJ	_	24	amod	_	TokenRange=178:183
+24	diario	diario	NOUN	NOUN	_	22	appos	_	TokenRange=184:190
+25	oficial	oficial	ADJ	ADJ	_	24	amod	_	TokenRange=191:198
+26	uniao	uniao	NOUN	NOUN	_	28	nsubj	_	TokenRange=199:204
+27	dou	_	NOUN	NOUN	_	26	flat	_	TokenRange=205:208
+28	preve	prever	VERB	VERB	_	2	parataxis	_	TokenRange=209:214
+29	suspensao	suspensao	NOUN	NOUN	_	28	obj	_	TokenRange=215:224
+30	prouni	_	ADJ	ADJ	_	29	amod	_	TokenRange=225:231
+31	programa	programa	NOUN	NOUN	_	29	appos	_	TokenRange=232:240
+32	universidade	universidade	NOUN	NOUN	_	31	appos	_	TokenRange=241:253
+33	todos	_	PRON	PRON	_	31	appos	_	TokenRange=254:259
+34	alem	_	ADV	ADV	_	35	advmod	_	TokenRange=260:264
+35	restricao	restricao	ADJ	ADJ	_	31	amod	_	TokenRange=265:274
+36	participacao	participacao	NOUN	NOUN	_	29	appos	_	TokenRange=275:287
+37	pronatec	_	NOUN	NOUN	_	36	appos	_	TokenRange=288:296
+38	programa	programa	NOUN	NOUN	_	36	appos	_	TokenRange=297:305
+39	acesso	acesso	NOUN	NOUN	_	36	appos	_	TokenRange=306:312
+40	ensino	ensino	NOUN	NOUN	_	39	flat	_	TokenRange=313:319
+41	tecnico	tecnico	ADJ	ADJ	_	40	amod	_	TokenRange=320:327
+42	emprego	emprego	NOUN	NOUN	_	39	appos	_	TokenRange=328:335
+43	clique	clique	NOUN	NOUN	_	45	parataxis	_	TokenRange=336:342
+44	aqui	aqui	ADV	ADV	_	45	advmod	_	TokenRange=343:347
+45	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=348:352
+46	integra	integro	ADJ	ADJ	_	47	amod	_	TokenRange=353:360
+47	portaria	portaria	NOUN	NOUN	_	45	obj	_	SpaceAfter=No|TokenRange=361:369
+

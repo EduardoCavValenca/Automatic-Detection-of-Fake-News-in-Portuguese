@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dezenas africanos invadem fronteira espanha guarda tentou impedir grupo quebrou perna
+1	dezenas	_	DET	DET	NumType=Card	2	det	_	TokenRange=0:7
+2	africanos	africano	NOUN	NOUN	_	3	nsubj	_	TokenRange=8:17
+3	invadem	invadir	VERB	VERB	_	0	root	_	TokenRange=18:25
+4	fronteira	_	NOUN	NOUN	_	3	obj	_	TokenRange=26:35
+5	espanha	espanho	ADJ	ADJ	_	4	amod	_	TokenRange=36:43
+6	guarda	guarda	NOUN	NOUN	_	7	nsubj	_	TokenRange=44:50
+7	tentou	tentar	VERB	VERB	_	3	conj	_	TokenRange=51:57
+8	impedir	impedir	VERB	VERB	_	7	xcomp	_	TokenRange=58:65
+9	grupo	grupo	NOUN	NOUN	_	8	obj	_	TokenRange=66:71
+10	quebrou	quebrar	VERB	VERB	_	3	parataxis	_	TokenRange=72:79
+11	perna	perna	NOUN	NOUN	_	10	obj	_	SpaceAfter=No|TokenRange=80:85
+

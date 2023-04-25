@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nova fase operacao lavajato podera encarcerar tres exministros dilma brasilia fortes rumores sobre nova fase lava jato envolvendo menos tres exministros dilma ricardo berzoini antonio palocci jaques wagner informacao jornalista claudio humberto acordo informacoes site diario poder tres petistas foro privilegiado logo logo poderao conhecer carceres republica curitiba chamado foro privilegiado ministros ficarao sujeitos juiz federal sergio moro inimigo numero corrupcao todos tres citados delacoes premiadas operacao lava jato
+1	nova	novo	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	fase	fase	NOUN	NOUN	_	6	nsubj	_	TokenRange=5:9
+3	operacao	operacao	ADJ	ADJ	_	2	appos	_	TokenRange=10:18
+4	lavajato	lavajato	NOUN	NOUN	_	2	appos	_	TokenRange=19:27
+5	podera	_	AUX	AUX	_	6	aux	_	TokenRange=28:34
+6	encarcerar	encarcerar	VERB	VERB	_	0	root	_	TokenRange=35:45
+7	tres	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=46:50
+8	exministros	exministro	NOUN	NOUN	_	6	obj	_	TokenRange=51:62
+9	dilma	dilma	ADJ	ADJ	_	8	amod	_	TokenRange=63:68
+10	brasilia	brasilia	NOUN	NOUN	_	9	flat	_	TokenRange=69:77
+11	fortes	forte	ADJ	ADJ	_	12	amod	_	TokenRange=78:84
+12	rumores	rumor	NOUN	NOUN	_	6	obj	_	TokenRange=85:92
+13	sobre	_	ADP	ADP	_	15	case	_	TokenRange=93:98
+14	nova	novo	ADJ	ADJ	_	15	amod	_	TokenRange=99:103
+15	fase	fase	NOUN	NOUN	_	12	nmod	_	TokenRange=104:108
+16	lava	lava	NOUN	NOUN	_	15	appos	_	TokenRange=109:113
+17	jato	jato	NOUN	NOUN	_	16	flat	_	TokenRange=114:118
+18	envolvendo	envolver	VERB	VERB	_	15	acl	_	TokenRange=119:129
+19	menos	menos	ADV	ADV	_	20	advmod	_	TokenRange=130:135
+20	tres	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=136:140
+21	exministros	exministro	NOUN	NOUN	_	18	obj	_	TokenRange=141:152
+22	dilma	dilma	NOUN	NOUN	_	21	appos	_	TokenRange=153:158
+23	ricardo	ricardo	NOUN	NOUN	_	21	appos	_	TokenRange=159:166
+24	berzoini	_	NOUN	NOUN	_	21	appos	_	TokenRange=167:175
+25	antonio	antonio	NOUN	NOUN	_	21	appos	_	TokenRange=176:183
+26	palocci	_	NOUN	NOUN	_	25	flat	_	TokenRange=184:191
+27	jaques	jaque	NOUN	NOUN	_	21	appos	_	TokenRange=192:198
+28	wagner	_	NOUN	NOUN	_	25	flat	_	TokenRange=199:205
+29	informacao	informacao	NOUN	NOUN	_	21	appos	_	TokenRange=206:216
+30	jornalista	jornalista	NOUN	NOUN	_	21	appos	_	TokenRange=217:227
+31	claudio	claudio	NOUN	NOUN	_	30	appos	_	TokenRange=228:235
+32	humberto	humberto	NOUN	NOUN	_	31	flat	_	TokenRange=236:244
+33	acordo	acordo	NOUN	NOUN	_	30	appos	_	TokenRange=245:251
+34	informacoes	_	NOUN	NOUN	_	33	flat	_	TokenRange=252:263
+35	site	site	NOUN	NOUN	_	30	appos	_	TokenRange=264:268
+36	diario	diario	NOUN	NOUN	_	35	flat	_	TokenRange=269:275
+37	poder	poder	NOUN	NOUN	_	35	flat	_	TokenRange=276:281
+38	tres	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=282:286
+39	petistas	petista	NOUN	NOUN	_	6	nsubj	_	TokenRange=287:295
+40	foro	foro	NOUN	NOUN	_	39	appos	_	TokenRange=296:300
+41	privilegiado	privilegiado	ADJ	ADJ	_	40	amod	_	TokenRange=301:313
+42	logo	logo	ADV	ADV	_	45	advmod	_	TokenRange=314:318
+43	logo	logo	ADV	ADV	_	45	advmod	_	TokenRange=319:323
+44	poderao	poder	AUX	AUX	_	45	aux	_	TokenRange=324:331
+45	conhecer	conhecer	VERB	VERB	_	40	acl:relcl	_	TokenRange=332:340
+46	carceres	carcer	NOUN	NOUN	_	45	obj	_	TokenRange=341:349
+47	republica	republico	ADJ	ADJ	_	46	amod	_	TokenRange=350:359
+48	curitiba	curitiba	NOUN	NOUN	_	46	amod	_	TokenRange=360:368
+49	chamado	chamar	ADJ	ADJ	_	50	cop	_	TokenRange=369:376
+50	foro	foro	NOUN	NOUN	_	46	acl	_	TokenRange=377:381
+51	privilegiado	privilegiado	ADJ	ADJ	_	50	amod	_	TokenRange=382:394
+52	ministros	ministro	NOUN	NOUN	_	50	amod	_	TokenRange=395:404
+53	ficarao	ficar	VERB	VERB	_	6	conj	_	TokenRange=405:412
+54	sujeitos	sujeito	ADJ	ADJ	_	55	amod	_	TokenRange=413:421
+55	juiz	juiz	NOUN	NOUN	_	53	parataxis	_	TokenRange=422:426
+56	federal	federal	ADJ	ADJ	_	55	amod	_	TokenRange=427:434
+57	sergio	sergio	ADJ	NOUN	_	55	appos	_	TokenRange=435:441
+58	moro	moro	NOUN	NOUN	_	57	flat	_	TokenRange=442:446
+59	inimigo	inimigo	ADJ	ADJ	_	61	amod	_	TokenRange=447:454
+60	numero	_	ADJ	ADJ	_	61	amod	_	TokenRange=455:461
+61	corrupcao	corrupcao	NOUN	NOUN	_	55	appos	_	TokenRange=462:471
+62	todos	_	DET	DET	_	63	det	_	TokenRange=472:477
+63	tres	_	NUM	NUM	NumType=Card	64	nsubj	_	TokenRange=478:482
+64	citados	citar	VERB	VERB	_	55	acl	_	TokenRange=483:490
+65	delacoes	delacoe	NOUN	NOUN	_	64	nsubj	_	TokenRange=491:499
+66	premiadas	premiar	VERB	ADJ	_	65	acl	_	TokenRange=500:509
+67	operacao	operacao	NOUN	NOUN	_	65	appos	_	TokenRange=510:518
+68	lava	lava	NOUN	NOUN	_	65	appos	_	TokenRange=519:523
+69	jato	jato	NOUN	NOUN	_	68	flat	_	SpaceAfter=No|TokenRange=524:528
+

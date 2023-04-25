@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = agora vou tocar vida diz geddel apos pedir demissao geddel conversou presidente michel temer telefone sobre pedido salvador agora vou tocar vida disse ministro demissionario secretaria governo geddel vieira lima manha desta sextafeira 25 logo apos enviar
+1	agora	agora	ADV	ADV	_	3	advmod	_	TokenRange=0:5
+2	vou	ir	AUX	AUX	_	3	aux	_	TokenRange=6:9
+3	tocar	tocar	VERB	VERB	_	5	csubj	_	TokenRange=10:15
+4	vida	vida	NOUN	NOUN	_	3	obj	_	TokenRange=16:20
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=21:24
+6	geddel	_	NOUN	NOUN	_	5	obj	_	TokenRange=25:31
+7	apos	_	ADP	ADP	_	8	mark	_	TokenRange=32:36
+8	pedir	pedir	VERB	VERB	_	5	advcl	_	TokenRange=37:42
+9	demissao	demissao	NOUN	NOUN	_	8	obj	_	TokenRange=43:51
+10	geddel	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=52:58
+11	conversou	conversar	VERB	VERB	_	5	parataxis	_	TokenRange=59:68
+12	presidente	presidente	NOUN	NOUN	_	11	obj	_	TokenRange=69:79
+13	michel	michel	ADJ	ADJ	_	14	amod	_	TokenRange=80:86
+14	temer	temer	NOUN	NOUN	_	12	appos	_	TokenRange=87:92
+15	telefone	telefone	NOUN	NOUN	_	12	appos	_	TokenRange=93:101
+16	sobre	_	ADP	ADP	_	17	case	_	TokenRange=102:107
+17	pedido	pedido	NOUN	NOUN	_	15	nmod	_	TokenRange=108:114
+18	salvador	salvador	ADJ	ADJ	_	17	amod	_	TokenRange=115:123
+19	agora	agora	ADV	ADV	_	21	advmod	_	TokenRange=124:129
+20	vou	ir	AUX	AUX	_	21	aux	_	TokenRange=130:133
+21	tocar	tocar	VERB	VERB	_	11	parataxis	_	TokenRange=134:139
+22	vida	vida	NOUN	NOUN	_	21	obj	_	TokenRange=140:144
+23	disse	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=145:150
+24	ministro	ministro	NOUN	NOUN	_	23	nsubj	_	TokenRange=151:159
+25	demissionario	demissionario	ADJ	ADJ	_	24	amod	_	TokenRange=160:173
+26	secretaria	secretaria	NOUN	NOUN	_	24	appos	_	TokenRange=174:184
+27	governo	governo	NOUN	NOUN	_	24	appos	_	TokenRange=185:192
+28	geddel	_	NOUN	NOUN	_	24	appos	_	TokenRange=193:199
+29	vieira	vieira	ADJ	NOUN	_	24	appos	_	TokenRange=200:206
+30	lima	lima	ADJ	ADJ	_	29	amod	_	TokenRange=207:211
+31	manha	manha	NOUN	NOUN	_	23	parataxis	_	TokenRange=212:217
+32	desta	_	ADP	ADP	_	33	case	_	TokenRange=218:223
+33	sextafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=224:234
+34	25	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=235:237
+35	logo	logo	ADV	ADV	_	37	advmod	_	TokenRange=238:242
+36	apos	_	ADP	ADP	_	37	mark	_	TokenRange=243:247
+37	enviar	enviar	VERB	VERB	_	31	advcl	_	SpaceAfter=No|TokenRange=248:254
+

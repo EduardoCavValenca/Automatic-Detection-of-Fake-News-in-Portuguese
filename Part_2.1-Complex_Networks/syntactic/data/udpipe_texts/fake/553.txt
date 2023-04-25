@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = camara salva temer deputados comprados venderam brasil michel temer conseguiu 172 votos precisava livrar crimes cometeu partir agora presidente podera processado terminar mandato voto numero 172 deputado lelo coimbra pmdb/es palhacada plenario camara rejeitou oficialmente segunda denuncia pgr contra presidente ministros moreira franco eliseu padilha ficam livres qualquer punicao dezembro 2018 breve lista cumplices temer
+1	camara	camara	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	salva	salvar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	temer	temer	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	deputados	deputado	NOUN	NOUN	_	2	obj	_	TokenRange=19:28
+5	comprados	comprado	ADJ	ADJ	_	4	amod	_	TokenRange=29:38
+6	venderam	vender	VERB	VERB	_	2	ccomp	_	TokenRange=39:47
+7	brasil	brasil	NOUN	NOUN	_	6	obj	_	TokenRange=48:54
+8	michel	michel	DET	DET	_	9	det	_	TokenRange=55:61
+9	temer	temer	NOUN	NOUN	_	10	nsubj	_	TokenRange=62:67
+10	conseguiu	conseguir	VERB	VERB	_	2	ccomp	_	TokenRange=68:77
+11	172	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=78:81
+12	votos	voto	NOUN	NOUN	_	10	obj	_	TokenRange=82:87
+13	precisava	precisar	VERB	VERB	_	2	conj	_	TokenRange=88:97
+14	livrar	livrar	VERB	VERB	_	13	xcomp	_	TokenRange=98:104
+15	crimes	crime	NOUN	NOUN	_	14	obj	_	TokenRange=105:111
+16	cometeu	cometer	VERB	VERB	_	15	acl:relcl	_	TokenRange=112:119
+17	partir	partir	VERB	VERB	_	16	xcomp	_	TokenRange=120:126
+18	agora	agora	ADV	ADV	_	21	advmod	_	TokenRange=127:132
+19	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=133:143
+20	podera	_	AUX	AUX	_	21	aux	_	TokenRange=144:150
+21	processado	processar	VERB	VERB	_	17	ccomp	_	TokenRange=151:161
+22	terminar	terminar	VERB	VERB	_	21	xcomp	_	TokenRange=162:170
+23	mandato	mandato	NOUN	NOUN	_	22	obj	_	TokenRange=171:178
+24	voto	voto	NOUN	NOUN	_	23	appos	_	TokenRange=179:183
+25	numero	_	NOUN	NOUN	_	24	amod	_	TokenRange=184:190
+26	172	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=191:194
+27	deputado	deputado	NOUN	NOUN	_	24	appos	_	TokenRange=195:203
+28	lelo	lelo	NOUN	NOUN	_	27	appos	_	TokenRange=204:208
+29	coimbra	coimbra	NOUN	NOUN	_	27	appos	_	TokenRange=209:216
+30	pmdb/es	_	NOUN	NOUN	_	27	appos	_	TokenRange=217:224
+31	palhacada	_	ADJ	ADJ	_	30	amod	_	TokenRange=225:234
+32	plenario	plenario	NOUN	NOUN	_	30	amod	_	TokenRange=235:243
+33	camara	camara	NOUN	NOUN	_	34	nsubj	_	TokenRange=244:250
+34	rejeitou	rejeitar	VERB	VERB	_	2	conj	_	TokenRange=251:259
+35	oficialmente	oficialmente	ADV	ADV	_	34	advmod	_	TokenRange=260:272
+36	segunda	segundo	ADJ	ADJ	_	37	amod	_	TokenRange=273:280
+37	denuncia	denuncia	NOUN	NOUN	_	34	obj	_	TokenRange=281:289
+38	pgr	_	NOUN	NOUN	_	37	appos	_	TokenRange=290:293
+39	contra	_	ADP	ADP	_	40	case	_	TokenRange=294:300
+40	presidente	presidente	NOUN	NOUN	_	37	nmod	_	TokenRange=301:311
+41	ministros	ministro	NOUN	NOUN	_	40	appos	_	TokenRange=312:321
+42	moreira	_	NOUN	NOUN	_	41	appos	_	TokenRange=322:329
+43	franco	franco	ADJ	ADJ	_	42	flat	_	TokenRange=330:336
+44	eliseu	eliseu	NOUN	NOUN	_	42	appos	_	TokenRange=337:343
+45	padilha	padilha	NOUN	NOUN	_	42	flat	_	TokenRange=344:351
+46	ficam	ficar	VERB	VERB	_	34	parataxis	_	TokenRange=352:357
+47	livres	livre	ADJ	ADJ	_	46	xcomp	_	TokenRange=358:364
+48	qualquer	_	DET	DET	_	49	det	_	TokenRange=365:373
+49	punicao	punicao	NOUN	NOUN	_	46	obj	_	TokenRange=374:381
+50	dezembro	_	PROPN	PNOUN	_	46	nmod	_	TokenRange=382:390
+51	2018	_	NUM	NUM	NumType=Card	50	nmod	_	TokenRange=391:395
+52	breve	breve	ADJ	ADJ	_	53	amod	_	TokenRange=396:401
+53	lista	lista	NOUN	NOUN	_	46	nsubj	_	TokenRange=402:407
+54	cumplices	cumplice	ADJ	ADJ	_	53	amod	_	TokenRange=408:417
+55	temer	temer	NOUN	NOUN	_	53	appos	_	SpaceAfter=No|TokenRange=418:423
+

@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula admite visita triplex leo pinheiro promotor ve incoerencia instituto ligado expresidente afirma petista exprimeiradama apartamento guaruja acompanhados empreiteiro alvo lava jato desistiram compra nenhum momento utilizaram imovel qualquer finalidade instituto lula publicou ontem site reproducoes documentos voltar negar apartamento condominio solaris guaruja pertenca luiz inacio lula silva
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	admite	admitir	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	visita	visita	NOUN	NOUN	_	2	obj	_	TokenRange=12:18
+4	triplex	_	NOUN	NOUN	_	3	appos	_	TokenRange=19:26
+5	leo	leo	NOUN	NOUN	_	3	appos	_	TokenRange=27:30
+6	pinheiro	pinheiro	NOUN	NOUN	_	3	flat	_	TokenRange=31:39
+7	promotor	promotor	NOUN	NOUN	_	3	appos	_	TokenRange=40:48
+8	ve	_	VERB	VERB	_	9	case	_	TokenRange=49:51
+9	incoerencia	_	NOUN	NOUN	_	3	appos	_	TokenRange=52:63
+10	instituto	instituto	NOUN	NOUN	_	9	appos	_	TokenRange=64:73
+11	ligado	ligado	ADJ	ADJ	_	10	amod	_	TokenRange=74:80
+12	expresidente	expresidente	NOUN	NOUN	_	10	amod	_	TokenRange=81:93
+13	afirma	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=94:100
+14	petista	petista	NOUN	NOUN	_	13	obj	_	TokenRange=101:108
+15	exprimeiradama	_	ADJ	ADJ	_	16	amod	_	TokenRange=109:123
+16	apartamento	apartamento	NOUN	NOUN	_	13	nsubj	_	TokenRange=124:135
+17	guaruja	guaruja	NOUN	NOUN	_	16	flat	_	TokenRange=136:143
+18	acompanhados	acompanhar	VERB	VERB	_	16	acl	_	TokenRange=144:156
+19	empreiteiro	empreiteiro	NOUN	NOUN	_	18	nsubj	_	TokenRange=157:168
+20	alvo	alvo	ADJ	ADJ	_	19	amod	_	TokenRange=169:173
+21	lava	lava	NOUN	NOUN	_	16	appos	_	TokenRange=174:178
+22	jato	jato	NOUN	NOUN	_	23	nsubj	_	TokenRange=179:183
+23	desistiram	desistir	VERB	VERB	_	2	conj	_	TokenRange=184:194
+24	compra	compra	NOUN	NOUN	_	23	obj	_	TokenRange=195:201
+25	nenhum	_	DET	DET	_	26	det	_	TokenRange=202:208
+26	momento	momento	NOUN	NOUN	_	27	nsubj	_	TokenRange=209:216
+27	utilizaram	utilizar	VERB	VERB	_	2	parataxis	_	TokenRange=217:227
+28	imovel	imovel	NOUN	NOUN	_	27	obj	_	TokenRange=228:234
+29	qualquer	_	DET	DET	_	30	det	_	TokenRange=235:243
+30	finalidade	finalidade	NOUN	NOUN	_	27	obj	_	TokenRange=244:254
+31	instituto	instituto	NOUN	NOUN	_	33	nsubj	_	TokenRange=255:264
+32	lula	_	NOUN	NOUN	_	31	amod	_	TokenRange=265:269
+33	publicou	publicar	VERB	VERB	_	27	parataxis	_	TokenRange=270:278
+34	ontem	ontem	ADV	ADV	_	33	advmod	_	TokenRange=279:284
+35	site	site	NOUN	NOUN	_	33	obj	_	TokenRange=285:289
+36	reproducoes	_	NOUN	NOUN	_	35	amod	_	TokenRange=290:301
+37	documentos	documento	NOUN	NOUN	_	35	appos	_	TokenRange=302:312
+38	voltar	voltar	VERB	VERB	_	39	aux	_	TokenRange=313:319
+39	negar	negar	VERB	VERB	_	33	ccomp	_	TokenRange=320:325
+40	apartamento	apartamento	NOUN	NOUN	_	39	obj	_	TokenRange=326:337
+41	condominio	condominio	ADJ	ADJ	_	40	amod	_	TokenRange=338:348
+42	solaris	_	NOUN	NOUN	_	40	amod	_	TokenRange=349:356
+43	guaruja	guaruja	NOUN	NOUN	_	44	nsubj	_	TokenRange=357:364
+44	pertenca	pertencar	VERB	NOUN	_	33	parataxis	_	TokenRange=365:373
+45	luiz	luiz	NOUN	NOUN	_	44	obj	_	TokenRange=374:378
+46	inacio	_	NOUN	NOUN	_	45	flat	_	TokenRange=379:385
+47	lula	_	NOUN	NOUN	_	45	flat	_	TokenRange=386:390
+48	silva	silva	ADJ	ADJ	_	45	flat	_	SpaceAfter=No|TokenRange=391:396
+

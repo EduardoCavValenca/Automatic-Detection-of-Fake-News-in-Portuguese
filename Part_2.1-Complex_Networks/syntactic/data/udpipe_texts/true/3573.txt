@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = contramao setor construtora ribeirao preto reve processos vendas crescem 45 oportunidade sempre existe diretor bild engenheiro civil thiago faraco explica verticalizacao favoreceu empresa durante crise diz inconstancia politica economica principal entrave crescimento pais crise economica ultimos tres anos afetou diversos setores economia brasileira poucos tao devastados quanto construcao civil 2013 comemorava chamado boom imobiliario naquele ano 5298 mil imoveis financiados todo pais numero quase tres vezes maior registrado outubro 2017 segundo associacao brasileira entidades credito imobiliario poupanca abecip sobreviveu muita historia contar cresceu diante cenario catastrofico tornou
+1	contramao	contramao	NOUN	NOUN	_	87	nsubj	_	TokenRange=0:9
+2	setor	setor	NOUN	NOUN	_	1	appos	_	TokenRange=10:15
+3	construtora	construtor	ADJ	ADJ	_	2	amod	_	TokenRange=16:27
+4	ribeirao	ribeirao	NOUN	NOUN	_	2	appos	_	TokenRange=28:36
+5	preto	preto	ADJ	ADJ	_	2	amod	_	TokenRange=37:42
+6	reve	reve	NOUN	NOUN	_	2	appos	_	TokenRange=43:47
+7	processos	processo	NOUN	NOUN	_	9	nsubj	_	TokenRange=48:57
+8	vendas	venda	NOUN	NOUN	_	7	flat	_	TokenRange=58:64
+9	crescem	crescer	VERB	VERB	_	2	acl:relcl	_	TokenRange=65:72
+10	45	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=73:75
+11	oportunidade	oportunidade	NOUN	NOUN	_	9	obj	_	TokenRange=76:88
+12	sempre	sempre	ADV	ADV	_	13	advmod	_	TokenRange=89:95
+13	existe	existir	VERB	VERB	_	9	parataxis	_	TokenRange=96:102
+14	diretor	diretor	NOUN	NOUN	_	13	nsubj	_	TokenRange=103:110
+15	bild	_	NOUN	NOUN	_	14	amod	_	TokenRange=111:115
+16	engenheiro	engenheiro	NOUN	NOUN	_	14	appos	_	TokenRange=116:126
+17	civil	civil	ADJ	ADJ	_	16	amod	_	TokenRange=127:132
+18	thiago	thiago	NOUN	NOUN	_	20	nsubj	_	TokenRange=133:139
+19	faraco	faraco	NOUN	NOUN	_	18	flat	_	TokenRange=140:146
+20	explica	explicar	VERB	VERB	_	9	parataxis	_	TokenRange=147:154
+21	verticalizacao	verticalizacao	NOUN	NOUN	_	20	obj	_	TokenRange=155:169
+22	favoreceu	favorecer	VERB	VERB	_	9	parataxis	_	TokenRange=170:179
+23	empresa	empresa	NOUN	NOUN	_	22	obj	_	TokenRange=180:187
+24	durante	_	ADP	ADP	_	25	case	_	TokenRange=188:195
+25	crise	crise	NOUN	NOUN	_	22	nmod	_	TokenRange=196:201
+26	diz	dizer	VERB	VERB	_	22	parataxis	_	TokenRange=202:205
+27	inconstancia	inconstancio	ADJ	ADJ	_	28	amod	_	TokenRange=206:218
+28	politica	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=219:227
+29	economica	economico	ADJ	ADJ	_	28	amod	_	TokenRange=228:237
+30	principal	principal	ADJ	ADJ	_	28	amod	_	TokenRange=238:247
+31	entrave	entrave	NOUN	NOUN	_	28	appos	_	TokenRange=248:255
+32	crescimento	crescimento	NOUN	NOUN	_	28	appos	_	TokenRange=256:267
+33	pais	_	ADJ	ADJ	_	34	amod	_	TokenRange=268:272
+34	crise	crise	NOUN	NOUN	_	31	appos	_	TokenRange=273:278
+35	economica	economico	ADJ	ADJ	_	34	amod	_	TokenRange=279:288
+36	ultimos	_	ADJ	ADJ	_	38	amod	_	TokenRange=289:296
+37	tres	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=297:301
+38	anos	ano	NOUN	NOUN	_	39	nsubj	_	TokenRange=302:306
+39	afetou	afetar	VERB	VERB	_	26	parataxis	_	TokenRange=307:313
+40	diversos	_	DET	DET	_	41	det	_	TokenRange=314:322
+41	setores	setor	NOUN	NOUN	_	39	obj	_	TokenRange=323:330
+42	economia	economia	NOUN	NOUN	_	41	appos	_	TokenRange=331:339
+43	brasileira	brasileiro	ADJ	ADJ	_	42	amod	_	TokenRange=340:350
+44	poucos	_	PRON	PRON	_	39	nsubj	_	TokenRange=351:357
+45	tao	tao	ADV	ADV	_	46	advmod	_	TokenRange=358:361
+46	devastados	devastado	ADJ	ADJ	_	44	amod	_	TokenRange=362:372
+47	quanto	_	CCONJ	CONJ	_	48	case	_	TokenRange=373:379
+48	construcao	construcao	NOUN	NOUN	_	39	nmod	_	TokenRange=380:390
+49	civil	civil	ADJ	ADJ	_	48	amod	_	TokenRange=391:396
+50	2013	_	NUM	NUM	NumType=Card	51	nsubj	_	TokenRange=397:401
+51	comemorava	comemorar	VERB	VERB	_	39	conj	_	TokenRange=402:412
+52	chamado	chamado	ADJ	ADJ	_	53	amod	_	TokenRange=413:420
+53	boom	boom	NOUN	NOUN	_	51	obj	_	TokenRange=421:425
+54	imobiliario	imobiliario	ADJ	ADJ	_	53	amod	_	TokenRange=426:437
+55	naquele	_	ADP	ADP	_	56	case	_	TokenRange=438:445
+56	ano	ano	NOUN	NOUN	_	51	nmod	_	TokenRange=446:449
+57	5298	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=450:454
+58	mil	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=455:458
+59	imoveis	imovel	NOUN	NOUN	_	51	nsubj	_	TokenRange=459:466
+60	financiados	financiado	ADJ	ADJ	_	59	amod	_	TokenRange=467:478
+61	todo	_	DET	DET	_	62	det	_	TokenRange=479:483
+62	pais	_	NOUN	NOUN	_	59	nmod	_	TokenRange=484:488
+63	numero	_	ADJ	NOUN	_	59	appos	_	TokenRange=489:495
+64	quase	quase	ADV	ADV	_	65	advmod	_	TokenRange=496:501
+65	tres	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=502:506
+66	vezes	vez	NOUN	NOUN	_	63	nmod	_	TokenRange=507:512
+67	maior	maior	ADJ	ADJ	_	66	amod	_	TokenRange=513:518
+68	registrado	registrar	VERB	VERB	_	59	acl	_	TokenRange=519:529
+69	outubro	_	PROPN	PNOUN	_	68	nmod	_	TokenRange=530:537
+70	2017	_	NUM	NUM	NumType=Card	69	appos	_	TokenRange=538:542
+71	segundo	_	ADP	ADP	_	72	case	_	TokenRange=543:550
+72	associacao	associacao	NOUN	NOUN	_	68	nmod	_	TokenRange=551:561
+73	brasileira	brasileiro	ADJ	ADJ	_	72	amod	_	TokenRange=562:572
+74	entidades	entidade	NOUN	NOUN	_	72	appos	_	TokenRange=573:582
+75	credito	credito	NOUN	NOUN	_	72	appos	_	TokenRange=583:590
+76	imobiliario	imobiliario	ADJ	ADJ	_	75	amod	_	TokenRange=591:602
+77	poupanca	_	ADJ	ADJ	_	79	nsubj	_	TokenRange=603:611
+78	abecip	_	NOUN	NOUN	_	79	nsubj	_	TokenRange=612:618
+79	sobreviveu	sobreviver	VERB	VERB	_	68	parataxis	_	TokenRange=619:629
+80	muita	_	DET	DET	_	81	det	_	TokenRange=630:635
+81	historia	historia	NOUN	NOUN	_	79	obj	_	TokenRange=636:644
+82	contar	contar	VERB	VERB	_	81	acl:inf	_	TokenRange=645:651
+83	cresceu	crescer	VERB	VERB	_	82	ccomp	_	TokenRange=652:659
+84	diante	diante	ADV	ADV	_	83	advmod	_	TokenRange=660:666
+85	cenario	cenario	NOUN	NOUN	_	83	nsubj	_	TokenRange=667:674
+86	catastrofico	catastrofico	ADJ	ADJ	_	85	amod	_	TokenRange=675:687
+87	tornou	tornar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=688:694
+

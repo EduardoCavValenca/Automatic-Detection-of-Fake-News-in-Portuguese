@@ -1,0 +1,30 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dificil acreditar diz morador casa atingida aviao rio preto aposentado ia cuidar criacao passaros aviao caiu quintal casa tres pessoas aviao morreram
+1	dificil	dificil	ADJ	ADJ	_	2	xcomp	_	TokenRange=0:7
+2	acreditar	acreditar	VERB	VERB	_	3	csubj	_	TokenRange=8:17
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=18:21
+4	morador	morador	NOUN	NOUN	_	3	nsubj	_	TokenRange=22:29
+5	casa	casa	NOUN	NOUN	_	4	appos	_	TokenRange=30:34
+6	atingida	atingido	ADJ	ADJ	_	5	amod	_	TokenRange=35:43
+7	aviao	aviao	ADJ	NOUN	_	8	amod	_	TokenRange=44:49
+8	rio	rio	NOUN	NOUN	_	5	appos	_	TokenRange=50:53
+9	preto	preto	ADJ	ADJ	_	8	amod	_	TokenRange=54:59
+10	aposentado	aposentado	ADJ	ADJ	_	8	amod	_	TokenRange=60:70
+11	ia	ir	AUX	AUX	_	12	aux	_	TokenRange=71:73
+12	cuidar	cuidar	VERB	VERB	_	3	parataxis	_	TokenRange=74:80
+13	criacao	criacao	NOUN	NOUN	_	22	obj	_	TokenRange=81:88
+14	passaros	passaro	NOUN	NOUN	_	13	amod	_	TokenRange=89:97
+15	aviao	aviao	NOUN	NOUN	_	16	amod	_	TokenRange=98:103
+16	caiu	cair	VERB	VERB	_	12	parataxis	_	TokenRange=104:108
+17	quintal	quintal	ADJ	ADJ	_	16	amod	_	TokenRange=109:116
+18	casa	casa	NOUN	NOUN	_	22	nsubj	_	TokenRange=117:121
+19	tres	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=122:126
+20	pessoas	pessoa	NOUN	NOUN	_	22	nsubj	_	TokenRange=127:134
+21	aviao	aviao	NOUN	NOUN	_	20	flat	_	TokenRange=135:140
+22	morreram	morrer	VERB	VERB	_	3	conj	_	SpaceAfter=No|TokenRange=141:149
+

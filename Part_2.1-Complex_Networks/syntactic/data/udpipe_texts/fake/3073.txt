@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = audio doido xinga stf stj todos parlamentares pais covardes grampo policia federal pegou dialogo tenso expresidente lula dia estouro operacao aletheia 4 marco dialogo lula dilma preste atencao minuto 445 audio onde lula diz suprema corte toda acovardadatemos stj todo acovardadoum parlamento covarde
+1	audio	audio	NOUN	NOUN	_	0	root	_	TokenRange=0:5
+2	doido	doido	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	xinga	xinga	NOUN	NOUN	_	1	flat	_	TokenRange=12:17
+4	stf	_	NOUN	NOUN	_	1	appos	_	TokenRange=18:21
+5	stj	_	NOUN	NOUN	_	2	flat	_	TokenRange=22:25
+6	todos	_	DET	DET	_	7	det	_	TokenRange=26:31
+7	parlamentares	parlamentar	NOUN	NOUN	_	2	appos	_	TokenRange=32:45
+8	pais	_	NOUN	NOUN	_	7	appos	_	TokenRange=46:50
+9	covardes	covarde	ADJ	ADJ	_	8	amod	_	TokenRange=51:59
+10	grampo	grampo	NOUN	NOUN	_	13	nsubj	_	TokenRange=60:66
+11	policia	policia	NOUN	NOUN	_	10	appos	_	TokenRange=67:74
+12	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=75:82
+13	pegou	pegar	VERB	VERB	_	1	parataxis	_	TokenRange=83:88
+14	dialogo	dialogo	NOUN	NOUN	_	13	obj	_	TokenRange=89:96
+15	tenso	tenso	ADJ	ADJ	_	16	amod	_	TokenRange=97:102
+16	expresidente	expresidente	NOUN	NOUN	_	14	appos	_	TokenRange=103:115
+17	lula	_	NOUN	NOUN	_	16	amod	_	TokenRange=116:120
+18	dia	dia	NOUN	NOUN	_	16	appos	_	TokenRange=121:124
+19	estouro	estouro	ADJ	ADJ	_	18	amod	_	TokenRange=125:132
+20	operacao	operacao	NOUN	NOUN	_	16	appos	_	TokenRange=133:141
+21	aletheia	aletheia	NOUN	NOUN	_	20	flat	_	TokenRange=142:150
+22	4	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=151:152
+23	marco	marco	NOUN	NOUN	_	20	nmod	_	TokenRange=153:158
+24	dialogo	dialogo	NOUN	NOUN	_	27	nsubj	_	TokenRange=159:166
+25	lula	lula	NOUN	NOUN	_	24	appos	_	TokenRange=167:171
+26	dilma	_	NOUN	NOUN	_	24	appos	_	TokenRange=172:177
+27	preste	_	VERB	VERB	_	1	parataxis	_	TokenRange=178:184
+28	atencao	atencao	NOUN	NOUN	_	27	obj	_	TokenRange=185:192
+29	minuto	minuto	NOUN	NOUN	_	27	parataxis	_	TokenRange=193:199
+30	445	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=200:203
+31	audio	audio	NOUN	NOUN	_	27	obj	_	TokenRange=204:209
+32	onde	onde	ADV	ADV	_	34	advmod	_	TokenRange=210:214
+33	lula	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=215:219
+34	diz	dizer	VERB	VERB	_	31	acl:relcl	_	TokenRange=220:223
+35	suprema	supremo	ADJ	ADJ	_	36	amod	_	TokenRange=224:231
+36	corte	corte	NOUN	NOUN	_	34	obj	_	TokenRange=232:237
+37	toda	_	DET	PRON	_	36	det	_	TokenRange=238:242
+38	acovardadatemos	_	VERB	VERB	_	34	conj	_	TokenRange=243:258
+39	stj	_	ADV	ADV	_	38	advmod	_	TokenRange=259:262
+40	todo	_	DET	DET	_	41	det	_	TokenRange=263:267
+41	acovardadoum	_	ADV	VERB	_	38	obj	_	TokenRange=268:280
+42	parlamento	parlamento	NOUN	NOUN	_	41	nsubj	_	TokenRange=281:291
+43	covarde	covarde	ADJ	ADJ	_	42	amod	_	SpaceAfter=No|TokenRange=292:299
+

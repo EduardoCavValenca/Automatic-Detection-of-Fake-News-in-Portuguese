@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jose crespo avalia 100 primeiros dias prefeito sorocaba noticias 1 edicao entrevista prefeitos maiores cidades regiao sorocaba jundiai partir desta segundafeira 10 prefeito jose caldini crespo dem completa nesta segundafeira 10 100 dias comando prefeitura sorocaba sp participa entrevista noticias 1 edicao avaliando primeiros meses governo crespo eleito chefe executivo cidade sede regiao metropolitana 182833 votos corresponde 5848 votos validos nesta tercafeira 11 entrevistado prefeito jundiai sp luiz fernando machado psdb noticias senhor assumiu prefeitura dizendo herdou divida prefeito passado senhor reduziu tempo integral creche balanco cem primeiros dias
+1	jose	jose	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	crespo	crespo	NOUN	NOUN	_	1	flat	_	TokenRange=5:11
+3	avalia	avaliar	VERB	VERB	_	0	root	_	TokenRange=12:18
+4	100	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=19:22
+5	primeiros	primeiro	ADJ	ADJ	_	6	amod	_	TokenRange=23:32
+6	dias	dia	NOUN	NOUN	_	3	obj	_	TokenRange=33:37
+7	prefeito	prefeito	NOUN	NOUN	_	3	obj	_	TokenRange=38:46
+8	sorocaba	sorocabo	ADJ	ADJ	_	7	amod	_	TokenRange=47:55
+9	noticias	_	NOUN	NOUN	_	7	amod	_	TokenRange=56:64
+10	1	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=65:66
+11	edicao	edicao	NOUN	NOUN	_	7	appos	_	TokenRange=67:73
+12	entrevista	entrevista	VERB	VERB	_	3	parataxis	_	TokenRange=74:84
+13	prefeitos	prefeito	NOUN	NOUN	_	12	obj	_	TokenRange=85:94
+14	maiores	maior	ADJ	ADJ	_	15	amod	_	TokenRange=95:102
+15	cidades	cidade	NOUN	NOUN	_	13	appos	_	TokenRange=103:110
+16	regiao	regiao	NOUN	NOUN	_	15	appos	_	TokenRange=111:117
+17	sorocaba	sorocabo	ADJ	ADJ	_	15	amod	_	TokenRange=118:126
+18	jundiai	_	ADJ	ADJ	_	15	amod	_	TokenRange=127:134
+19	partir	partir	VERB	VERB	_	3	parataxis	_	TokenRange=135:141
+20	desta	_	ADP	ADP	_	21	case	_	TokenRange=142:147
+21	segundafeira	_	NOUN	NOUN	_	19	nmod	_	TokenRange=148:160
+22	10	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=161:163
+23	prefeito	prefeito	NOUN	NOUN	_	19	obj	_	TokenRange=164:172
+24	jose	jose	NOUN	NOUN	_	23	appos	_	TokenRange=173:177
+25	caldini	_	NOUN	NOUN	_	24	flat	_	TokenRange=178:185
+26	crespo	crespo	NOUN	NOUN	_	24	flat	_	TokenRange=186:192
+27	dem	_	ADP	ADP	_	28	mark	_	TokenRange=193:196
+28	completa	completo	ADJ	ADJ	_	23	amod	_	TokenRange=197:205
+29	nesta	_	ADP	ADP	_	30	case	_	TokenRange=206:211
+30	segundafeira	_	NOUN	NOUN	_	28	nmod	_	TokenRange=212:224
+31	10	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=225:227
+32	100	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=228:231
+33	dias	dia	NOUN	NOUN	_	28	nmod	_	TokenRange=232:236
+34	comando	comandar	VERB	VERB	_	12	parataxis	_	TokenRange=237:244
+35	prefeitura	prefeitura	NOUN	NOUN	_	34	obj	_	TokenRange=245:255
+36	sorocaba	sorocabo	ADJ	ADJ	_	35	amod	_	TokenRange=256:264
+37	sp	_	ADJ	ADJ	_	35	amod	_	TokenRange=265:267
+38	participa	participar	VERB	VERB	_	3	parataxis	_	TokenRange=268:277
+39	entrevista	entrevista	NOUN	NOUN	_	38	obj	_	TokenRange=278:288
+40	noticias	_	ADJ	ADJ	_	39	amod	_	TokenRange=289:297
+41	1	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=298:299
+42	edicao	edicao	NOUN	NOUN	_	39	appos	_	TokenRange=300:306
+43	avaliando	avaliar	VERB	VERB	_	39	acl	_	TokenRange=307:316
+44	primeiros	primeiro	ADJ	ADJ	_	45	amod	_	TokenRange=317:326
+45	meses	mês	NOUN	NOUN	_	43	obj	_	TokenRange=327:332
+46	governo	governo	NOUN	NOUN	_	43	nsubj	_	TokenRange=333:340
+47	crespo	crespo	NOUN	NOUN	_	46	flat	_	TokenRange=341:347
+48	eleito	eleger	VERB	VERB	_	49	acl	_	TokenRange=348:354
+49	chefe	chefe	NOUN	NOUN	_	46	appos	_	TokenRange=355:360
+50	executivo	executivo	ADJ	ADJ	_	49	amod	_	TokenRange=361:370
+51	cidade	cidade	NOUN	NOUN	_	49	appos	_	TokenRange=371:377
+52	sede	sede	NOUN	NOUN	_	51	amod	_	TokenRange=378:382
+53	regiao	regiao	NOUN	NOUN	_	49	appos	_	TokenRange=383:389
+54	metropolitana	metropolitano	ADJ	ADJ	_	53	amod	_	TokenRange=390:403
+55	182833	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=404:410
+56	votos	voto	NOUN	NOUN	_	57	nsubj	_	TokenRange=411:416
+57	corresponde	corresponder	VERB	VERB	_	38	parataxis	_	TokenRange=417:428
+58	5848	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=429:433
+59	votos	voto	NOUN	NOUN	_	57	obj	_	TokenRange=434:439
+60	validos	valido	ADJ	ADJ	_	59	amod	_	TokenRange=440:447
+61	nesta	_	ADP	ADP	_	62	case	_	TokenRange=448:453
+62	tercafeira	tercafeira	NOUN	NOUN	_	57	nmod	_	TokenRange=454:464
+63	11	_	NUM	NUM	NumType=Card	62	nmod	_	TokenRange=465:467
+64	entrevistado	entrevistar	VERB	VERB	_	65	acl	_	TokenRange=468:480
+65	prefeito	prefeito	NOUN	NOUN	_	57	nsubj	_	TokenRange=481:489
+66	jundiai	jundiai	ADJ	ADJ	_	65	amod	_	TokenRange=490:497
+67	sp	sp	ADJ	ADJ	_	65	amod	_	TokenRange=498:500
+68	luiz	luiz	NOUN	NOUN	_	65	appos	_	TokenRange=501:505
+69	fernando	fernando	NOUN	NOUN	_	68	flat	_	TokenRange=506:514
+70	machado	machado	ADJ	ADJ	_	68	flat	_	TokenRange=515:522
+71	psdb	_	NOUN	PNOUN	_	74	nsubj	_	TokenRange=523:527
+72	noticias	_	NOUN	NOUN	_	74	nsubj	_	TokenRange=528:536
+73	senhor	senhor	NOUN	NOUN	_	74	nsubj	_	TokenRange=537:543
+74	assumiu	assumir	VERB	VERB	_	57	parataxis	_	TokenRange=544:551
+75	prefeitura	prefeitura	NOUN	NOUN	_	74	obj	_	TokenRange=552:562
+76	dizendo	dizer	VERB	VERB	_	74	acl	_	TokenRange=563:570
+77	herdou	herdar	VERB	VERB	_	76	xcomp	_	TokenRange=571:577
+78	divida	divida	NOUN	NOUN	_	77	obj	_	TokenRange=578:584
+79	prefeito	prefeito	NOUN	NOUN	_	78	flat	_	TokenRange=585:593
+80	passado	passado	ADJ	ADJ	_	79	amod	_	TokenRange=594:601
+81	senhor	senhor	NOUN	NOUN	_	82	nsubj	_	TokenRange=602:608
+82	reduziu	reduzir	VERB	VERB	_	74	parataxis	_	TokenRange=609:616
+83	tempo	tempo	NOUN	NOUN	_	82	obj	_	TokenRange=617:622
+84	integral	integral	ADJ	ADJ	_	83	amod	_	TokenRange=623:631
+85	creche	creche	NOUN	NOUN	_	82	obj	_	TokenRange=632:638
+86	balanco	_	NOUN	NOUN	_	82	parataxis	_	TokenRange=639:646
+87	cem	_	NUM	NUM	NumType=Card	89	nummod	_	TokenRange=647:650
+88	primeiros	primeiro	ADJ	ADJ	_	89	amod	_	TokenRange=651:660
+89	dias	dia	NOUN	NOUN	_	82	nmod	_	SpaceAfter=No|TokenRange=661:665
+

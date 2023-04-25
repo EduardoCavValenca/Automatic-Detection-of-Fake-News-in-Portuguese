@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trf4 nega pedido defesa lula tacla duran ouvido processo sobre corrupcao odebrecht pedido feito dentro processo trata supostas vantagens indevidas recebidas expresidente advogados questionam veracidade documentos obtidos ministerio publico federal mpf defesa expresidente luiz inacio lula silva pt pedido exadvogado odebrecht rodrigo tacla duran ouvido testemunha petista negado nesta quartafeira 21 habeas corpus julgado desembargadores 8 turma tribunal regional federal 4 regiao trf4
+1	trf4	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	pedido	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	defesa	_	NOUN	NOUN	_	3	appos	_	TokenRange=17:23
+5	lula	lula	NOUN	NOUN	_	3	appos	_	TokenRange=24:28
+6	tacla	_	NOUN	NOUN	_	5	appos	_	TokenRange=29:34
+7	duran	_	ADJ	ADJ	_	6	flat	_	TokenRange=35:40
+8	ouvido	ouvido	ADJ	ADJ	_	9	amod	_	TokenRange=41:47
+9	processo	processo	NOUN	NOUN	_	2	obj	_	TokenRange=48:56
+10	sobre	_	ADP	ADP	_	11	case	_	TokenRange=57:62
+11	corrupcao	corrupcao	NOUN	NOUN	_	9	nmod	_	TokenRange=63:72
+12	odebrecht	_	NOUN	NOUN	_	11	appos	_	TokenRange=73:82
+13	pedido	pedido	NOUN	NOUN	_	11	appos	_	TokenRange=83:89
+14	feito	_	VERB	VERB	_	13	acl	_	TokenRange=90:95
+15	dentro	dentro	ADV	ADV	_	14	advmod	_	TokenRange=96:102
+16	processo	processo	NOUN	NOUN	_	14	nsubj	_	TokenRange=103:111
+17	trata	tratar	VERB	VERB	_	14	parataxis	_	TokenRange=112:117
+18	supostas	suposto	ADJ	ADJ	_	19	amod	_	TokenRange=118:126
+19	vantagens	vantagem	NOUN	NOUN	_	17	obj	_	TokenRange=127:136
+20	indevidas	indevido	ADJ	ADJ	_	19	amod	_	TokenRange=137:146
+21	recebidas	receber	VERB	VERB	_	19	acl	_	TokenRange=147:156
+22	expresidente	expresidente	NOUN	NOUN	_	24	nsubj	_	TokenRange=157:169
+23	advogados	advogado	NOUN	NOUN	_	22	flat	_	TokenRange=170:179
+24	questionam	questionar	VERB	VERB	_	2	parataxis	_	TokenRange=180:190
+25	veracidade	veracidade	NOUN	NOUN	_	24	obj	_	TokenRange=191:201
+26	documentos	documento	NOUN	NOUN	_	25	appos	_	TokenRange=202:212
+27	obtidos	obter	VERB	VERB	_	28	acl	_	TokenRange=213:220
+28	ministerio	ministerio	NOUN	NOUN	_	26	appos	_	TokenRange=221:231
+29	publico	_	ADJ	ADJ	_	28	amod	_	TokenRange=232:239
+30	federal	federal	ADJ	ADJ	_	28	amod	_	TokenRange=240:247
+31	mpf	_	NOUN	NOUN	_	32	appos	_	TokenRange=248:251
+32	defesa	_	NOUN	NOUN	_	28	appos	_	TokenRange=252:258
+33	expresidente	expresidente	NOUN	NOUN	_	32	appos	_	TokenRange=259:271
+34	luiz	luiz	ADJ	ADJ	_	32	appos	_	TokenRange=272:276
+35	inacio	_	NOUN	NOUN	_	34	flat	_	TokenRange=277:283
+36	lula	_	NOUN	NOUN	_	34	flat	_	TokenRange=284:288
+37	silva	silva	ADJ	ADJ	_	35	flat	_	TokenRange=289:294
+38	pt	_	PROPN	PNOUN	_	39	appos	_	TokenRange=295:297
+39	pedido	pedido	NOUN	NOUN	_	24	parataxis	_	TokenRange=298:304
+40	exadvogado	exadvogado	NOUN	NOUN	_	39	amod	_	TokenRange=305:315
+41	odebrecht	_	NOUN	NOUN	_	40	appos	_	TokenRange=316:325
+42	rodrigo	_	ADJ	NOUN	_	40	appos	_	TokenRange=326:333
+43	tacla	_	NOUN	NOUN	_	41	appos	_	TokenRange=334:339
+44	duran	_	ADJ	ADJ	_	43	flat	_	TokenRange=340:345
+45	ouvido	ouvir	VERB	VERB	_	39	acl	_	TokenRange=346:352
+46	testemunha	testemunha	NOUN	NOUN	_	45	obj	_	TokenRange=353:363
+47	petista	petista	ADJ	NOUN	_	46	amod	_	TokenRange=364:371
+48	negado	negar	VERB	VERB	_	46	acl	_	TokenRange=372:378
+49	nesta	_	ADP	ADP	_	50	case	_	TokenRange=379:384
+50	quartafeira	_	NOUN	NOUN	_	48	nmod	_	TokenRange=385:396
+51	21	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=397:399
+52	habeas	habeas	NOUN	NOUN	_	50	appos	_	TokenRange=400:406
+53	corpus	corpus	NOUN	NOUN	_	52	flat	_	TokenRange=407:413
+54	julgado	julgar	VERB	VERB	_	46	acl	_	TokenRange=414:421
+55	desembargadores	desembargador	NOUN	NOUN	_	54	nsubj	_	TokenRange=422:437
+56	8	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=438:439
+57	turma	turma	NOUN	NOUN	_	58	appos	_	TokenRange=440:445
+58	tribunal	tribunal	NOUN	NOUN	_	55	appos	_	TokenRange=446:454
+59	regional	regional	ADJ	ADJ	_	58	amod	_	TokenRange=455:463
+60	federal	federal	ADJ	ADJ	_	58	amod	_	TokenRange=464:471
+61	4	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=472:473
+62	regiao	regiao	NOUN	NOUN	_	58	appos	_	TokenRange=474:480
+63	trf4	_	NOUN	NOUN	_	58	appos	_	SpaceAfter=No|TokenRange=481:485
+

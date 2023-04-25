@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = promotoria militar investiga indicios participacao pms chacina condor belem cinco pessoas mortas 14 ficaram feridas tiros bar noite dia 6 junho promotor armando brasil promotoria justica militar informou indicios participacao policiais militares chacina ocorrida bairro condor belem resultou cinco mortes promotor militar armando brasil abriu inquerito nesta segundafeira 12 investigar caso moradores bairro condor relatam grupos atiradores cercaram quarteirao tres carros dispararam varios tiros contra grupo pessoas bar assistindo jogo futebol dia 6 junho tres pessoas morreram local crime dois morreram hospitais 14 pessoas
+1	promotoria	promotoria	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	militar	militar	ADJ	ADJ	_	1	amod	_	TokenRange=11:18
+3	investiga	investigar	VERB	VERB	_	0	root	_	TokenRange=19:28
+4	indicios	indicio	NOUN	NOUN	_	3	obj	_	TokenRange=29:37
+5	participacao	participacao	NOUN	NOUN	_	4	appos	_	TokenRange=38:50
+6	pms	_	NOUN	NOUN	_	7	case	_	TokenRange=51:54
+7	chacina	chacina	NOUN	NOUN	_	4	nmod	_	TokenRange=55:62
+8	condor	condor	NOUN	NOUN	_	7	flat	_	TokenRange=63:69
+9	belem	_	NOUN	NOUN	_	7	flat	_	TokenRange=70:75
+10	cinco	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=76:81
+11	pessoas	pessoa	NOUN	NOUN	_	14	nsubj	_	TokenRange=82:89
+12	mortas	morto	ADJ	ADJ	_	11	amod	_	TokenRange=90:96
+13	14	_	NUM	NUM	NumType=Card	14	nsubj	_	TokenRange=97:99
+14	ficaram	ficar	VERB	VERB	_	3	parataxis	_	TokenRange=100:107
+15	feridas	ferido	ADJ	ADJ	_	14	xcomp	_	TokenRange=108:115
+16	tiros	tiro	NOUN	NOUN	_	3	nmod	_	TokenRange=116:121
+17	bar	bar	NOUN	NOUN	_	16	appos	_	TokenRange=122:125
+18	noite	noite	NOUN	NOUN	_	16	nmod	_	TokenRange=126:131
+19	dia	dia	NOUN	NOUN	_	18	nmod	_	TokenRange=132:135
+20	6	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=136:137
+21	junho	_	PROPN	PNOUN	_	19	appos	_	TokenRange=138:143
+22	promotor	promotor	NOUN	NOUN	_	28	nsubj	_	TokenRange=144:152
+23	armando	_	NOUN	NOUN	_	22	appos	_	TokenRange=153:160
+24	brasil	brasil	ADJ	ADJ	_	23	flat	_	TokenRange=161:167
+25	promotoria	promotoria	NOUN	NOUN	_	23	appos	_	TokenRange=168:178
+26	justica	justico	ADJ	ADJ	_	25	amod	_	TokenRange=179:186
+27	militar	militar	ADJ	ADJ	_	25	amod	_	TokenRange=187:194
+28	informou	informar	VERB	VERB	_	3	parataxis	_	TokenRange=195:203
+29	indicios	indicio	NOUN	NOUN	_	28	obj	_	TokenRange=204:212
+30	participacao	participacao	NOUN	NOUN	_	29	amod	_	TokenRange=213:225
+31	policiais	policial	NOUN	NOUN	_	29	appos	_	TokenRange=226:235
+32	militares	militar	ADJ	ADJ	_	31	amod	_	TokenRange=236:245
+33	chacina	chacina	NOUN	NOUN	_	31	appos	_	TokenRange=246:253
+34	ocorrida	ocorrer	VERB	VERB	_	35	acl	_	TokenRange=254:262
+35	bairro	bairro	NOUN	NOUN	_	38	nsubj	_	TokenRange=263:269
+36	condor	condor	ADJ	ADJ	_	35	amod	_	TokenRange=270:276
+37	belem	_	ADJ	ADJ	_	35	amod	_	TokenRange=277:282
+38	resultou	resultar	VERB	VERB	_	29	acl:relcl	_	TokenRange=283:291
+39	cinco	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=292:297
+40	mortes	morte	NOUN	NOUN	_	38	obj	_	TokenRange=298:304
+41	promotor	promotor	NOUN	NOUN	_	38	nsubj	_	TokenRange=305:313
+42	militar	militar	ADJ	ADJ	_	41	amod	_	TokenRange=314:321
+43	armando	_	NOUN	NOUN	_	41	appos	_	TokenRange=322:329
+44	brasil	brasil	NOUN	NOUN	_	43	flat	_	TokenRange=330:336
+45	abriu	abrir	VERB	VERB	_	38	parataxis	_	TokenRange=337:342
+46	inquerito	inquerito	NOUN	NOUN	_	45	obj	_	TokenRange=343:352
+47	nesta	_	ADP	ADP	_	48	case	_	TokenRange=353:358
+48	segundafeira	_	NOUN	NOUN	_	45	nmod	_	TokenRange=359:371
+49	12	_	NUM	NUM	NumType=Card	50	nsubj	_	TokenRange=372:374
+50	investigar	investigar	VERB	VERB	_	45	advcl	_	TokenRange=375:385
+51	caso	caso	NOUN	NOUN	_	50	obj	_	TokenRange=386:390
+52	moradores	morador	NOUN	NOUN	_	53	amod	_	TokenRange=391:400
+53	bairro	bairro	NOUN	NOUN	_	50	nsubj	_	TokenRange=401:407
+54	condor	condor	ADJ	ADJ	_	53	amod	_	TokenRange=408:414
+55	relatam	relatar	VERB	VERB	_	45	parataxis	_	TokenRange=415:422
+56	grupos	grupo	NOUN	NOUN	_	55	obj	_	TokenRange=423:429
+57	atiradores	atirador	ADJ	ADJ	_	56	amod	_	TokenRange=430:440
+58	cercaram	cercar	VERB	VERB	_	55	ccomp	_	TokenRange=441:449
+59	quarteirao	quarteirao	NOUN	NOUN	_	58	obj	_	TokenRange=450:460
+60	tres	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=461:465
+61	carros	carro	NOUN	NOUN	_	62	nsubj	_	TokenRange=466:472
+62	dispararam	disparar	VERB	VERB	_	58	conj	_	TokenRange=473:483
+63	varios	_	DET	DET	_	64	det	_	TokenRange=484:490
+64	tiros	tiro	NOUN	NOUN	_	62	obj	_	TokenRange=491:496
+65	contra	_	ADP	ADP	_	66	case	_	TokenRange=497:503
+66	grupo	grupo	NOUN	NOUN	_	62	nmod	_	TokenRange=504:509
+67	pessoas	pessoa	NOUN	NOUN	_	66	flat	_	TokenRange=510:517
+68	bar	bar	NOUN	NOUN	_	62	nsubj	_	TokenRange=518:521
+69	assistindo	assistir	VERB	VERB	_	62	acl	_	TokenRange=522:532
+70	jogo	jogo	NOUN	NOUN	_	69	obj	_	TokenRange=533:537
+71	futebol	futebol	NOUN	NOUN	_	70	flat	_	TokenRange=538:545
+72	dia	dia	NOUN	NOUN	_	69	nmod	_	TokenRange=546:549
+73	6	_	NUM	NUM	NumType=Card	72	appos	_	TokenRange=550:551
+74	junho	_	PROPN	PNOUN	_	72	nmod	_	TokenRange=552:557
+75	tres	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=558:562
+76	pessoas	pessoa	NOUN	NOUN	_	77	nsubj	_	TokenRange=563:570
+77	morreram	morrer	VERB	VERB	_	69	parataxis	_	TokenRange=571:579
+78	local	local	ADJ	ADJ	_	77	xcomp	_	TokenRange=580:585
+79	crime	crime	NOUN	NOUN	_	81	obj	_	TokenRange=586:591
+80	dois	_	NUM	NUM	NumType=Card	81	nsubj	_	TokenRange=592:596
+81	morreram	morrer	VERB	VERB	_	77	conj	_	TokenRange=597:605
+82	hospitais	hospital	NOUN	NOUN	_	81	obj	_	TokenRange=606:615
+83	14	_	NUM	NUM	NumType=Card	84	nummod	_	TokenRange=616:618
+84	pessoas	pessoa	NOUN	NOUN	_	81	nsubj	_	SpaceAfter=No|TokenRange=619:626
+

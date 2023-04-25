@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = anthony garotinho deixa bangu festa aliados ataques cabral exgovernador usara tornozeleira impedido deixar pais presidente pr saiu cadeia dois beneficiados decisao gilmar mendes exgovernador rio janeiro anthony garotinho saiu complexo penitenciario gericino bangu zona oeste 20h30 desta quintafeira 21 beneficiado decisao ministro gilmar mendes presidente tribunal superior eleitoral tse grupo cerca 20 pessoas incluindo filha clarissa garotinho prb fez festa porta presidio apos cumprimentos beijos abracos conversou jornalistas nada vai mudar conviccoes disse anthony garotinho mulher exgovernadora rosinha matheus presos mes passado
+1	anthony	_	DET	DET	_	2	det	_	TokenRange=0:7
+2	garotinho	garoto	NOUN	NOUN	_	3	nsubj	_	TokenRange=8:17
+3	deixa	deixar	VERB	VERB	_	0	root	_	TokenRange=18:23
+4	bangu	_	NOUN	NOUN	_	3	obj	_	TokenRange=24:29
+5	festa	festa	NOUN	NOUN	_	3	obj	_	TokenRange=30:35
+6	aliados	aliado	ADJ	ADJ	_	7	amod	_	TokenRange=36:43
+7	ataques	ataque	NOUN	NOUN	_	3	nsubj	_	TokenRange=44:51
+8	cabral	cabral	ADJ	ADJ	_	7	amod	_	TokenRange=52:58
+9	exgovernador	exgovernador	NOUN	NOUN	_	10	nsubj	_	TokenRange=59:71
+10	usara	usar	VERB	VERB	_	7	acl:relcl	_	TokenRange=72:77
+11	tornozeleira	_	NOUN	NOUN	_	10	obj	_	TokenRange=78:90
+12	impedido	impedido	ADJ	ADJ	_	13	xcomp	_	TokenRange=91:99
+13	deixar	deixar	VERB	VERB	_	10	xcomp	_	TokenRange=100:106
+14	pais	_	NOUN	NOUN	_	13	obj	_	TokenRange=107:111
+15	presidente	presidente	NOUN	NOUN	_	17	nsubj	_	TokenRange=112:122
+16	pr	_	ADJ	NOUN	_	15	appos	_	TokenRange=123:125
+17	saiu	sair	VERB	VERB	_	3	conj	_	TokenRange=126:130
+18	cadeia	cadeia	NOUN	NOUN	_	17	obj	_	TokenRange=131:137
+19	dois	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=138:142
+20	beneficiados	beneficiado	NOUN	NOUN	_	18	appos	_	TokenRange=143:155
+21	decisao	decisao	NOUN	NOUN	_	22	appos	_	TokenRange=156:163
+22	gilmar	gilmar	NOUN	NOUN	_	18	appos	_	TokenRange=164:170
+23	mendes	_	ADJ	ADJ	_	22	amod	_	TokenRange=171:177
+24	exgovernador	exgovernador	NOUN	NOUN	_	22	appos	_	TokenRange=178:190
+25	rio	rio	ADJ	NOUN	_	24	appos	_	TokenRange=191:194
+26	janeiro	_	PROPN	PNOUN	_	25	flat	_	TokenRange=195:202
+27	anthony	_	ADJ	ADJ	_	26	amod	_	TokenRange=203:210
+28	garotinho	garoto	NOUN	NOUN	_	25	flat	_	TokenRange=211:220
+29	saiu	sair	VERB	VERB	_	3	conj	_	TokenRange=221:225
+30	complexo	complexo	ADJ	ADJ	_	31	amod	_	TokenRange=226:234
+31	penitenciario	penitenciario	NOUN	NOUN	_	29	obj	_	TokenRange=235:248
+32	gericino	gericino	ADJ	ADJ	_	31	amod	_	TokenRange=249:257
+33	bangu	_	NOUN	NOUN	_	31	appos	_	TokenRange=258:263
+34	zona	zona	NOUN	NOUN	_	31	appos	_	TokenRange=264:268
+35	oeste	oeste	ADJ	ADJ	_	34	amod	_	TokenRange=269:274
+36	20h30	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=275:280
+37	desta	_	ADP	ADP	_	38	case	_	TokenRange=281:286
+38	quintafeira	quintafeira	NOUN	NOUN	_	36	nmod	_	TokenRange=287:298
+39	21	_	NUM	NUM	NumType=Card	38	appos	_	TokenRange=299:301
+40	beneficiado	beneficiar	ADJ	ADJ	_	41	amod	_	TokenRange=302:313
+41	decisao	decisao	NOUN	NOUN	_	29	nsubj	_	TokenRange=314:321
+42	ministro	ministro	NOUN	NOUN	_	41	flat	_	TokenRange=322:330
+43	gilmar	gilmar	NOUN	NOUN	_	41	appos	_	TokenRange=331:337
+44	mendes	_	ADJ	ADJ	_	41	amod	_	TokenRange=338:344
+45	presidente	presidente	NOUN	NOUN	_	41	appos	_	TokenRange=345:355
+46	tribunal	tribunal	NOUN	NOUN	_	45	appos	_	TokenRange=356:364
+47	superior	superior	ADJ	ADJ	_	46	amod	_	TokenRange=365:373
+48	eleitoral	eleitoral	ADJ	ADJ	_	46	amod	_	TokenRange=374:383
+49	tse	_	DET	DET	_	50	det	_	TokenRange=384:387
+50	grupo	grupo	NOUN	NOUN	_	29	nsubj	_	TokenRange=388:393
+51	cerca	cerca	ADV	ADV	_	52	advmod	_	TokenRange=394:399
+52	20	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=400:402
+53	pessoas	pessoa	NOUN	NOUN	_	50	appos	_	TokenRange=403:410
+54	incluindo	incluir	VERB	VERB	_	50	acl	_	TokenRange=411:420
+55	filha	filho	NOUN	NOUN	_	54	obj	_	TokenRange=421:426
+56	clarissa	_	NOUN	NOUN	_	55	appos	_	TokenRange=427:435
+57	garotinho	garoto	NOUN	NOUN	_	56	flat	_	TokenRange=436:445
+58	prb	_	NOUN	NOUN	_	56	appos	_	TokenRange=446:449
+59	fez	fazer	VERB	VERB	_	54	parataxis	_	TokenRange=450:453
+60	festa	festa	NOUN	NOUN	_	59	obj	_	TokenRange=454:459
+61	porta	porta	NOUN	NOUN	_	60	appos	_	TokenRange=460:465
+62	presidio	presidio	NOUN	NOUN	_	61	flat	_	TokenRange=466:474
+63	apos	_	ADP	ADP	_	64	case	_	TokenRange=475:479
+64	cumprimentos	cumprimento	NOUN	NOUN	_	59	nmod	_	TokenRange=480:492
+65	beijos	beijo	NOUN	NOUN	_	64	amod	_	TokenRange=493:499
+66	abracos	abraco	NOUN	NOUN	_	64	amod	_	TokenRange=500:507
+67	conversou	conversar	VERB	VERB	_	59	parataxis	_	TokenRange=508:517
+68	jornalistas	jornalista	NOUN	NOUN	_	67	obj	_	TokenRange=518:529
+69	nada	_	PRON	PRON	_	71	nsubj	_	TokenRange=530:534
+70	vai	ir	AUX	AUX	_	71	aux	_	TokenRange=535:538
+71	mudar	mudar	VERB	VERB	_	67	ccomp	_	TokenRange=539:544
+72	conviccoes	conviccoe	NOUN	NOUN	_	71	obj	_	TokenRange=545:555
+73	disse	dizer	VERB	VERB	_	59	parataxis	_	TokenRange=556:561
+74	anthony	_	NOUN	NOUN	_	73	nsubj	_	TokenRange=562:569
+75	garotinho	garoto	NOUN	NOUN	_	74	flat	_	TokenRange=570:579
+76	mulher	mulher	NOUN	NOUN	_	74	flat	_	TokenRange=580:586
+77	exgovernadora	exgovernador	ADJ	NOUN	_	74	flat	_	TokenRange=587:600
+78	rosinha	_	NOUN	NOUN	_	74	appos	_	TokenRange=601:608
+79	matheus	matheu	NOUN	NOUN	_	78	flat	_	TokenRange=609:616
+80	presos	prender	VERB	VERB	_	73	ccomp	_	TokenRange=617:623
+81	mes	mes	ADV	NOUN	_	82	mark	_	TokenRange=624:627
+82	passado	passado	ADJ	ADJ	_	80	amod	_	SpaceAfter=No|TokenRange=628:635
+

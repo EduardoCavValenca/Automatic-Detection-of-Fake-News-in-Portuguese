@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = atriz tonia carrero morre 95 anos rio janeiro grande nome teatro televisao tonia sofreu parada cardiaca durante cirurgia atriz tonia carrero morreu 95 anos final noite deste sabado 3 clinica vicente gavea rio janeiro sido internada submeter cirurgia simples complicacoes atriz sofreu parada cardiaca pedido familia clinica divulgou informacoes luisa thire neta atriz entrevista globonews disse desejo avo
+1	atriz	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	tonia	_	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	carrero	carrero	NOUN	NOUN	_	1	flat	_	TokenRange=12:19
+4	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=20:25
+5	95	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=26:28
+6	anos	ano	NOUN	NOUN	_	4	nmod	_	TokenRange=29:33
+7	rio	rio	NOUN	NOUN	_	4	nmod	_	TokenRange=34:37
+8	janeiro	_	PROPN	PNOUN	_	7	flat	_	TokenRange=38:45
+9	grande	grande	ADJ	ADJ	_	10	amod	_	TokenRange=46:52
+10	nome	nome	NOUN	NOUN	_	4	appos	_	TokenRange=53:57
+11	teatro	teatro	NOUN	NOUN	_	10	appos	_	TokenRange=58:64
+12	televisao	televisao	NOUN	NOUN	_	10	amod	_	TokenRange=65:74
+13	tonia	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=75:80
+14	sofreu	sofrer	VERB	VERB	_	4	parataxis	_	TokenRange=81:87
+15	parada	parada	NOUN	NOUN	_	14	obj	_	TokenRange=88:94
+16	cardiaca	cardiaco	ADJ	ADJ	_	15	amod	_	TokenRange=95:103
+17	durante	_	ADP	ADP	_	18	case	_	TokenRange=104:111
+18	cirurgia	cirurgia	NOUN	NOUN	_	14	nmod	_	TokenRange=112:120
+19	atriz	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=121:126
+20	tonia	_	NOUN	NOUN	_	19	appos	_	TokenRange=127:132
+21	carrero	carrero	NOUN	NOUN	_	20	flat	_	TokenRange=133:140
+22	morreu	morrer	VERB	VERB	_	4	parataxis	_	TokenRange=141:147
+23	95	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=148:150
+24	anos	ano	NOUN	NOUN	_	22	nmod	_	TokenRange=151:155
+25	final	final	ADJ	ADJ	_	26	amod	_	TokenRange=156:161
+26	noite	noite	NOUN	NOUN	_	22	parataxis	_	TokenRange=162:167
+27	deste	_	ADP	ADP	_	28	case	_	TokenRange=168:173
+28	sabado	_	PROPN	PNOUN	_	26	nmod	_	TokenRange=174:180
+29	3	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=181:182
+30	clinica	_	NOUN	NOUN	_	28	appos	_	TokenRange=183:190
+31	vicente	vicente	NOUN	NOUN	_	30	appos	_	TokenRange=191:198
+32	gavea	gavea	NOUN	NOUN	_	30	appos	_	TokenRange=199:204
+33	rio	_	NOUN	NOUN	_	30	appos	_	TokenRange=205:208
+34	janeiro	_	PROPN	PNOUN	_	33	flat	_	TokenRange=209:216
+35	sido	ser	AUX	AUX	_	36	aux:pass	_	TokenRange=217:221
+36	internada	internar	VERB	VERB	_	32	acl	_	TokenRange=222:231
+37	submeter	submeter	VERB	VERB	_	36	xcomp	_	TokenRange=232:240
+38	cirurgia	cirurgia	NOUN	NOUN	_	37	obj	_	TokenRange=241:249
+39	simples	simples	ADJ	ADJ	_	38	amod	_	TokenRange=250:257
+40	complicacoes	_	NOUN	NOUN	_	38	amod	_	TokenRange=258:270
+41	atriz	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=271:276
+42	sofreu	sofrer	VERB	VERB	_	4	parataxis	_	TokenRange=277:283
+43	parada	parada	NOUN	NOUN	_	42	obj	_	TokenRange=284:290
+44	cardiaca	cardiaco	ADJ	ADJ	_	43	amod	_	TokenRange=291:299
+45	pedido	pedido	NOUN	NOUN	_	43	appos	_	TokenRange=300:306
+46	familia	familia	NOUN	NOUN	_	43	appos	_	TokenRange=307:314
+47	clinica	clinico	ADJ	ADJ	_	46	amod	_	TokenRange=315:322
+48	divulgou	divulgar	VERB	VERB	_	42	parataxis	_	TokenRange=323:331
+49	informacoes	informacoe	NOUN	NOUN	_	48	obj	_	TokenRange=332:343
+50	luisa	_	NOUN	NOUN	_	49	appos	_	TokenRange=344:349
+51	thire	_	NOUN	NOUN	_	50	flat	_	TokenRange=350:355
+52	neta	neto	ADJ	ADJ	_	53	amod	_	TokenRange=356:360
+53	atriz	_	NOUN	NOUN	_	50	appos	_	TokenRange=361:366
+54	entrevista	entrevista	NOUN	NOUN	_	56	nsubj	_	TokenRange=367:377
+55	globonews	_	NOUN	NOUN	_	57	flat	_	TokenRange=378:387
+56	disse	dizer	VERB	VERB	_	42	parataxis	_	TokenRange=388:393
+57	desejo	desejo	NOUN	NOUN	_	56	obj	_	TokenRange=394:400
+58	avo	avo	NOUN	NOUN	_	57	flat	_	SpaceAfter=No|TokenRange=401:404
+

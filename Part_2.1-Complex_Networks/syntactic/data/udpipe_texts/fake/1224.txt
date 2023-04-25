@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = augusto cury politicos acham povo deve curvar perante certo contrario detalhe cury respeitado todo mundo livros traduzidos 60 paises dado momento programa bial pergunta cury porque brasil 3 vezes media mundial pessoas ansiosas gente atribui psiquiatra responde primeiro lugar necessidade neurotica politicos usar poder sociedade curve perante contrario numero 2 sistema contagiante corrupcao entrou inconsciente coletivo afetou financas pais asfixiou esperanca pessoas esperanca vital possa desenvolver sonhos terceiro lugar intoxicacao digital
+1	augusto	augusto	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	cury	cury	NOUN	NOUN	_	1	flat	_	TokenRange=8:12
+3	politicos	_	NOUN	NOUN	_	1	flat	_	TokenRange=13:22
+4	acham	achar	VERB	VERB	_	0	root	_	TokenRange=23:28
+5	povo	povo	NOUN	NOUN	_	4	obj	_	TokenRange=29:33
+6	deve	dever	AUX	AUX	_	7	aux	_	TokenRange=34:38
+7	curvar	curvar	VERB	VERB	_	4	ccomp	_	TokenRange=39:45
+8	perante	_	ADP	ADP	_	10	case	_	TokenRange=46:53
+9	certo	_	DET	DET	_	10	det	_	TokenRange=54:59
+10	contrario	contrario	NOUN	NOUN	_	7	nmod	_	TokenRange=60:69
+11	detalhe	detalhe	NOUN	NOUN	_	7	obj	_	TokenRange=70:77
+12	cury	_	NOUN	NOUN	_	11	flat	_	TokenRange=78:82
+13	respeitado	respeitar	VERB	VERB	_	11	acl	_	TokenRange=83:93
+14	todo	_	DET	DET	_	15	det	_	TokenRange=94:98
+15	mundo	mundo	NOUN	NOUN	_	13	obj	_	TokenRange=99:104
+16	livros	livro	NOUN	NOUN	_	15	appos	_	TokenRange=105:111
+17	traduzidos	traduzir	VERB	VERB	_	16	acl	_	TokenRange=112:122
+18	60	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=123:125
+19	paises	paise	NOUN	NOUN	_	17	nsubj	_	TokenRange=126:132
+20	dado	_	DET	DET	_	21	det	_	TokenRange=133:137
+21	momento	momento	NOUN	NOUN	_	19	nmod	_	TokenRange=138:145
+22	programa	programa	NOUN	NOUN	_	19	appos	_	TokenRange=146:154
+23	bial	bial	ADJ	ADJ	_	22	amod	_	TokenRange=155:159
+24	pergunta	perguntar	NOUN	NOUN	_	22	appos	_	TokenRange=160:168
+25	cury	cury	NOUN	NOUN	_	24	obj	_	TokenRange=169:173
+26	porque	_	CCONJ	CONJ	_	27	mark	_	TokenRange=174:180
+27	brasil	brasil	NOUN	NOUN	_	24	advcl	_	TokenRange=181:187
+28	3	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=188:189
+29	vezes	vez	NOUN	NOUN	_	27	nmod	_	TokenRange=190:195
+30	media	media	NOUN	NOUN	_	27	appos	_	TokenRange=196:201
+31	mundial	mundial	ADJ	ADJ	_	30	amod	_	TokenRange=202:209
+32	pessoas	pessoa	NOUN	NOUN	_	30	appos	_	TokenRange=210:217
+33	ansiosas	ansioso	ADJ	ADJ	_	32	amod	_	TokenRange=218:226
+34	gente	gente	NOUN	NOUN	_	35	nsubj	_	TokenRange=227:232
+35	atribui	atribuir	VERB	VERB	_	32	acl:relcl	_	TokenRange=233:240
+36	psiquiatra	_	NOUN	NOUN	_	35	obj	_	TokenRange=241:251
+37	responde	responder	VERB	VERB	_	35	ccomp	_	TokenRange=252:260
+38	primeiro	primeiro	ADJ	ADJ	_	39	amod	_	TokenRange=261:269
+39	lugar	lugar	NOUN	NOUN	_	37	nsubj	_	TokenRange=270:275
+40	necessidade	necessidade	NOUN	NOUN	_	37	nsubj	_	TokenRange=276:287
+41	neurotica	neurotico	ADJ	ADJ	_	40	amod	_	TokenRange=288:297
+42	politicos	_	ADJ	ADJ	_	43	amod	_	TokenRange=298:307
+43	usar	usar	VERB	VERB	_	40	acl:relcl	_	TokenRange=308:312
+44	poder	poder	NOUN	NOUN	_	43	obj	_	TokenRange=313:318
+45	sociedade	sociedade	NOUN	NOUN	_	44	flat	_	TokenRange=319:328
+46	curve	curve	NOUN	NOUN	_	43	appos	_	TokenRange=329:334
+47	perante	_	ADP	ADP	_	48	case	_	TokenRange=335:342
+48	contrario	contrario	NOUN	NOUN	_	46	nmod	_	TokenRange=343:352
+49	numero	_	NOUN	NOUN	_	48	appos	_	TokenRange=353:359
+50	2	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=360:361
+51	sistema	sistema	NOUN	NOUN	_	54	nsubj	_	TokenRange=362:369
+52	contagiante	contagiante	ADJ	ADJ	_	51	amod	_	TokenRange=370:381
+53	corrupcao	corrupcao	NOUN	NOUN	_	51	amod	_	TokenRange=382:391
+54	entrou	entrar	VERB	VERB	_	48	acl:relcl	_	TokenRange=392:398
+55	inconsciente	inconsciente	NOUN	NOUN	_	54	obj	_	TokenRange=399:411
+56	coletivo	coletivo	ADJ	ADJ	_	55	amod	_	TokenRange=412:420
+57	afetou	afetar	VERB	VERB	_	54	parataxis	_	TokenRange=421:427
+58	financas	_	NOUN	NOUN	_	57	obj	_	TokenRange=428:436
+59	pais	_	NOUN	NOUN	_	60	nsubj	_	TokenRange=437:441
+60	asfixiou	asfixiar	VERB	VERB	_	57	parataxis	_	TokenRange=442:450
+61	esperanca	_	NOUN	NOUN	_	60	obj	_	TokenRange=451:460
+62	pessoas	pessoa	NOUN	NOUN	_	60	nsubj	_	TokenRange=461:468
+63	esperanca	esperanca	NOUN	NOUN	_	62	appos	_	TokenRange=469:478
+64	vital	vital	ADJ	ADJ	_	63	amod	_	TokenRange=479:484
+65	possa	_	AUX	AUX	_	66	aux	_	TokenRange=485:490
+66	desenvolver	desenvolver	VERB	VERB	_	63	parataxis	_	TokenRange=491:502
+67	sonhos	sonho	NOUN	NOUN	_	66	obj	_	TokenRange=503:509
+68	terceiro	_	ADJ	ADJ	_	69	amod	_	TokenRange=510:518
+69	lugar	lugar	NOUN	NOUN	_	66	obj	_	TokenRange=519:524
+70	intoxicacao	intoxicacao	NOUN	NOUN	_	66	obj	_	TokenRange=525:536
+71	digital	digital	ADJ	ADJ	_	70	amod	_	SpaceAfter=No|TokenRange=537:544
+

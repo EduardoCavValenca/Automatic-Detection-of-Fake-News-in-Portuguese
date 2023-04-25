@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bonner fatima anunciam separacao respeito amigos fas comunicamos separando jornalistas publicaram mensagens redes sociais afirmando separaram porem continuam bons amigos rumores casamento jornalistas acabado rondam redes sociais desde inicio 2016 porem agora protagonistas confirmaram desenlace matrimonial
+1	bonner	bonner	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	fatima	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	anunciam	anunciar	VERB	VERB	_	0	root	_	TokenRange=14:22
+4	separacao	separacao	NOUN	NOUN	_	3	obj	_	TokenRange=23:32
+5	respeito	respeito	NOUN	NOUN	_	3	obj	_	TokenRange=33:41
+6	amigos	amigo	NOUN	NOUN	_	5	flat	_	TokenRange=42:48
+7	fas	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=49:52
+8	comunicamos	comunicar	VERB	VERB	_	5	acl:relcl	_	TokenRange=53:64
+9	separando	separar	VERB	VERB	_	8	acl	_	TokenRange=65:74
+10	jornalistas	jornalista	NOUN	NOUN	_	9	obj	_	TokenRange=75:86
+11	publicaram	publicar	VERB	VERB	_	3	parataxis	_	TokenRange=87:97
+12	mensagens	mensagem	NOUN	NOUN	_	11	obj	_	TokenRange=98:107
+13	redes	rede	NOUN	NOUN	_	12	appos	_	TokenRange=108:113
+14	sociais	social	ADJ	ADJ	_	13	amod	_	TokenRange=114:121
+15	afirmando	afirmar	VERB	VERB	_	12	acl	_	TokenRange=122:131
+16	separaram	separar	VERB	VERB	_	15	xcomp	_	TokenRange=132:141
+17	porem	_	ADV	ADV	_	18	mark	_	TokenRange=142:147
+18	continuam	continuar	VERB	VERB	_	16	advcl	_	TokenRange=148:157
+19	bons	bom	ADJ	ADJ	_	20	amod	_	TokenRange=158:162
+20	amigos	amigo	NOUN	NOUN	_	18	nsubj	_	TokenRange=163:169
+21	rumores	rumor	NOUN	NOUN	_	20	amod	_	TokenRange=170:177
+22	casamento	casamento	NOUN	NOUN	_	18	nsubj	_	TokenRange=178:187
+23	jornalistas	jornalista	NOUN	NOUN	_	22	amod	_	TokenRange=188:199
+24	acabado	acabar	ADJ	VERB	_	22	amod	_	TokenRange=200:207
+25	rondam	rondar	VERB	VERB	_	3	parataxis	_	TokenRange=208:214
+26	redes	rede	NOUN	NOUN	_	25	obj	_	TokenRange=215:220
+27	sociais	social	ADJ	ADJ	_	26	amod	_	TokenRange=221:228
+28	desde	_	ADP	ADP	_	29	case	_	TokenRange=229:234
+29	inicio	_	NOUN	NOUN	_	25	nmod	_	TokenRange=235:241
+30	2016	_	NUM	NUM	NumType=Card	29	nmod	_	TokenRange=242:246
+31	porem	_	ADV	ADV	_	34	advmod	_	TokenRange=247:252
+32	agora	agora	ADV	ADV	_	34	advmod	_	TokenRange=253:258
+33	protagonistas	protagonista	NOUN	NOUN	_	34	nsubj	_	TokenRange=259:272
+34	confirmaram	confirmar	VERB	VERB	_	3	conj	_	TokenRange=273:284
+35	desenlace	desenlace	NOUN	NOUN	_	34	obj	_	TokenRange=285:294
+36	matrimonial	matrimonial	ADJ	ADJ	_	35	amod	_	SpaceAfter=No|TokenRange=295:306
+

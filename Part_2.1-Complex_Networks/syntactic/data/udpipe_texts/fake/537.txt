@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = destruiram pais menos 20 anos governo pt maquiagens apoio congresso lula dilma cria michel temer frente governo comprava ainda compra caso temer votos congresso dinheiro publico desviado
+1	destruiram	destruir	VERB	VERB	_	0	root	_	TokenRange=0:10
+2	pais	_	NOUN	NOUN	_	1	obj	_	TokenRange=11:15
+3	menos	menos	ADV	ADV	_	4	advmod	_	TokenRange=16:21
+4	20	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=22:24
+5	anos	ano	NOUN	NOUN	_	1	nmod	_	TokenRange=25:29
+6	governo	governo	NOUN	NOUN	_	1	appos	_	TokenRange=30:37
+7	pt	_	NOUN	NOUN	_	6	appos	_	TokenRange=38:40
+8	maquiagens	maquiagem	NOUN	NOUN	_	6	appos	_	TokenRange=41:51
+9	apoio	apoio	NOUN	NOUN	_	6	appos	_	TokenRange=52:57
+10	congresso	congresso	NOUN	NOUN	_	9	flat	_	TokenRange=58:67
+11	lula	lula	NOUN	NOUN	_	13	nsubj	_	TokenRange=68:72
+12	dilma	_	NOUN	NOUN	_	11	flat	_	TokenRange=73:78
+13	cria	_	VERB	VERB	_	1	conj	_	TokenRange=79:83
+14	michel	michel	DET	DET	_	15	amod	_	TokenRange=84:90
+15	temer	temer	NOUN	NOUN	_	13	obj	_	TokenRange=91:96
+16	frente	frente	NOUN	NOUN	_	18	nsubj	_	TokenRange=97:103
+17	governo	governo	NOUN	NOUN	_	16	flat	_	TokenRange=104:111
+18	comprava	comprar	VERB	VERB	_	1	parataxis	_	TokenRange=112:120
+19	ainda	ainda	ADV	ADV	_	18	advmod	_	TokenRange=121:126
+20	compra	comprar	VERB	VERB	_	18	conj	_	TokenRange=127:133
+21	caso	caso	NOUN	NOUN	_	20	obj	_	TokenRange=134:138
+22	temer	temer	VERB	VERB	_	21	flat	_	TokenRange=139:144
+23	votos	voto	NOUN	NOUN	_	21	flat	_	TokenRange=145:150
+24	congresso	congresso	ADJ	ADJ	_	25	amod	_	TokenRange=151:160
+25	dinheiro	dinheiro	NOUN	NOUN	_	20	obj	_	TokenRange=161:169
+26	publico	publico	ADJ	ADJ	_	25	amod	_	TokenRange=170:177
+27	desviado	desviar	VERB	VERB	_	25	acl	_	SpaceAfter=No|TokenRange=178:186
+

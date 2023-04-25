@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estudantes sofrem onda assaltos proximo escola ponta grossa maceio relatos crimes acontecem sempre mesma maneira cometidos homens armados motocicleta pm diz recebeu denuncias vai reforcar seguranca pais alunos escola estadual dr rodriguez melo ponta grossa maceio amedrontados onda violencia regiao modalidade sempre mesma dois homens
+1	estudantes	estudante	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	sofrem	sofrer	VERB	VERB	_	0	root	_	TokenRange=11:17
+3	onda	onda	NOUN	NOUN	_	2	obj	_	TokenRange=18:22
+4	assaltos	assalto	NOUN	NOUN	_	2	obj	_	TokenRange=23:31
+5	proximo	proximo	ADJ	ADJ	_	6	amod	_	TokenRange=32:39
+6	escola	escola	NOUN	NOUN	_	2	nsubj	_	TokenRange=40:46
+7	ponta	ponta	NOUN	NOUN	_	6	appos	_	TokenRange=47:52
+8	grossa	grosso	ADJ	ADJ	_	7	amod	_	TokenRange=53:59
+9	maceio	maceio	NOUN	NOUN	_	7	appos	_	TokenRange=60:66
+10	relatos	relato	NOUN	NOUN	_	7	amod	_	TokenRange=67:74
+11	crimes	crime	NOUN	NOUN	_	12	nsubj	_	TokenRange=75:81
+12	acontecem	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=82:91
+13	sempre	sempre	ADV	ADV	_	14	advmod	_	TokenRange=92:98
+14	mesma	mesmo	ADJ	ADJ	_	15	amod	_	TokenRange=99:104
+15	maneira	maneira	NOUN	NOUN	_	12	nsubj	_	TokenRange=105:112
+16	cometidos	cometer	VERB	VERB	_	17	acl	_	TokenRange=113:122
+17	homens	homem	NOUN	NOUN	_	12	nsubj	_	TokenRange=123:129
+18	armados	armado	ADJ	ADJ	_	17	amod	_	TokenRange=130:137
+19	motocicleta	motocicleta	NOUN	NOUN	_	17	appos	_	TokenRange=138:149
+20	pm	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=150:152
+21	diz	dizer	VERB	VERB	_	17	acl:relcl	_	TokenRange=153:156
+22	recebeu	receber	VERB	VERB	_	21	ccomp	_	TokenRange=157:164
+23	denuncias	_	NOUN	NOUN	_	25	obj	_	TokenRange=165:174
+24	vai	ir	AUX	AUX	_	25	aux	_	TokenRange=175:178
+25	reforcar	reforcar	VERB	VERB	_	22	parataxis	_	TokenRange=179:187
+26	seguranca	_	NOUN	NOUN	_	25	obj	_	TokenRange=188:197
+27	pais	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=198:202
+28	alunos	aluno	NOUN	NOUN	_	25	nsubj	_	TokenRange=203:209
+29	escola	escola	NOUN	NOUN	_	25	parataxis	_	TokenRange=210:216
+30	estadual	estadual	ADJ	ADJ	_	29	amod	_	TokenRange=217:225
+31	dr	dr	NOUN	NOUN	_	29	appos	_	TokenRange=226:228
+32	rodriguez	rodriguez	NOUN	NOUN	_	31	flat	_	TokenRange=229:238
+33	melo	melo	ADJ	ADJ	_	31	flat	_	TokenRange=239:243
+34	ponta	ponta	NOUN	NOUN	_	29	appos	_	TokenRange=244:249
+35	grossa	grosso	ADJ	ADJ	_	34	amod	_	TokenRange=250:256
+36	maceio	maceio	NOUN	NOUN	_	34	amod	_	TokenRange=257:263
+37	amedrontados	amedrontado	ADJ	ADJ	_	38	amod	_	TokenRange=264:276
+38	onda	onda	NOUN	NOUN	_	34	appos	_	TokenRange=277:281
+39	violencia	violencia	NOUN	NOUN	_	38	flat	_	TokenRange=282:291
+40	regiao	regiao	NOUN	NOUN	_	38	appos	_	TokenRange=292:298
+41	modalidade	modalidade	NOUN	NOUN	_	38	appos	_	TokenRange=299:309
+42	sempre	sempre	ADV	ADV	_	43	advmod	_	TokenRange=310:316
+43	mesma	mesmo	ADJ	ADJ	_	45	amod	_	TokenRange=317:322
+44	dois	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=323:327
+45	homens	homem	NOUN	NOUN	_	34	appos	_	SpaceAfter=No|TokenRange=328:334
+

@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = feito america amityville defesa cristo chegam cinemas g1 comenta video acao tom cruise terror drama religioso destaques fim semana cardapio estreias duas irenes deserto glory astro tom cruise volta telas feito america historia ator interpreta piloto vende drogas armas famoso cartel medellin colombia recrutado missao secreta estados unidos vira
+1	feito	_	NOUN	NOUN	_	6	acl	_	TokenRange=0:5
+2	america	americo	NOUN	NOUN	_	1	flat	_	TokenRange=6:13
+3	amityville	_	NOUN	NOUN	_	1	appos	_	TokenRange=14:24
+4	defesa	_	NOUN	NOUN	_	1	appos	_	TokenRange=25:31
+5	cristo	cristo	NOUN	NOUN	_	4	flat	_	TokenRange=32:38
+6	chegam	chegar	VERB	VERB	_	0	root	_	TokenRange=39:45
+7	cinemas	cinema	NOUN	NOUN	_	6	obj	_	TokenRange=46:53
+8	g1	_	PRON	PRON	_	9	nsubj	_	TokenRange=54:56
+9	comenta	comentar	VERB	VERB	_	1	parataxis	_	TokenRange=57:64
+10	video	video	NOUN	NOUN	_	9	obj	_	TokenRange=65:70
+11	acao	acao	NOUN	NOUN	_	10	amod	_	TokenRange=71:75
+12	tom	tom	NOUN	NOUN	_	10	appos	_	TokenRange=76:79
+13	cruise	cruise	NOUN	NOUN	_	10	flat	_	TokenRange=80:86
+14	terror	terror	NOUN	NOUN	_	10	appos	_	TokenRange=87:93
+15	drama	drama	NOUN	NOUN	_	10	appos	_	TokenRange=94:99
+16	religioso	religioso	ADJ	ADJ	_	15	amod	_	TokenRange=100:109
+17	destaques	destaque	NOUN	NOUN	_	15	appos	_	TokenRange=110:119
+18	fim	fim	NOUN	NOUN	_	17	appos	_	TokenRange=120:123
+19	semana	semana	NOUN	NOUN	_	18	flat	_	TokenRange=124:130
+20	cardapio	cardapio	NOUN	NOUN	_	17	appos	_	TokenRange=131:139
+21	estreias	estreia	NOUN	NOUN	_	20	flat	_	TokenRange=140:148
+22	duas	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=149:153
+23	irenes	irene	NOUN	NOUN	_	20	appos	_	TokenRange=154:160
+24	deserto	deserto	NOUN	NOUN	_	23	appos	_	TokenRange=161:168
+25	glory	_	NOUN	NOUN	_	24	appos	_	TokenRange=169:174
+26	astro	astro	NOUN	NOUN	_	24	flat	_	TokenRange=175:180
+27	tom	tom	NOUN	NOUN	_	23	appos	_	TokenRange=181:184
+28	cruise	cruise	NOUN	NOUN	_	27	flat	_	TokenRange=185:191
+29	volta	_	NOUN	NOUN	_	24	appos	_	TokenRange=192:197
+30	telas	tela	NOUN	NOUN	_	29	obj	_	TokenRange=198:203
+31	feito	_	NOUN	NOUN	_	30	appos	_	TokenRange=204:209
+32	america	america	NOUN	NOUN	_	31	flat	_	TokenRange=210:217
+33	historia	historia	NOUN	NOUN	_	29	nsubj	_	TokenRange=218:226
+34	ator	ator	NOUN	NOUN	_	33	appos	_	TokenRange=227:231
+35	interpreta	interpretar	VERB	VERB	_	34	appos	_	TokenRange=232:242
+36	piloto	piloto	NOUN	NOUN	_	35	nsubj	_	TokenRange=243:249
+37	vende	_	VERB	VERB	_	34	acl:relcl	_	TokenRange=250:255
+38	drogas	droga	NOUN	NOUN	_	37	obj	_	TokenRange=256:262
+39	armas	arma	NOUN	NOUN	_	38	appos	_	TokenRange=263:268
+40	famoso	famoso	ADJ	ADJ	_	41	amod	_	TokenRange=269:275
+41	cartel	cartel	NOUN	NOUN	_	38	appos	_	TokenRange=276:282
+42	medellin	medellin	NOUN	NOUN	_	41	flat	_	TokenRange=283:291
+43	colombia	colombia	NOUN	NOUN	_	41	appos	_	TokenRange=292:300
+44	recrutado	recrutar	VERB	VERB	_	45	acl	_	TokenRange=301:310
+45	missao	missao	NOUN	NOUN	_	41	appos	_	TokenRange=311:317
+46	secreta	secreto	ADJ	ADJ	_	45	amod	_	TokenRange=318:325
+47	estados	estado	NOUN	NOUN	_	45	appos	_	TokenRange=326:333
+48	unidos	unido	ADJ	ADJ	_	47	amod	_	TokenRange=334:340
+49	vira	_	AUX	AUX	_	37	aux	_	SpaceAfter=No|TokenRange=341:345
+

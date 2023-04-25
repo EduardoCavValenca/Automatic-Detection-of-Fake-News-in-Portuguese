@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = onde quer va dilma hostilizada populacao governador valadares diferente manifestacao comecou dilma desceu helicoptero acompanhada governador fernando pimentel avistarem presidente governador fernando pimentel grupo pessoas comecou gritar pt queremos impeachment chegou cidade apos sobrevoar municipio mariana lado governador fernando pimentel avaliar estragos causados rompimento duas barragens mineradora samarco ultima quintafeira deixou agora seis mortes confirmadas 19 pessoas desaparecidas fonte videovaladaresnatvcombr
+1	onde	onde	ADV	ADV	_	2	advmod	_	TokenRange=0:4
+2	quer	querer	VERB	VERB	_	4	acl:relcl	_	TokenRange=5:9
+3	va	_	VERB	VERB	_	2	ccomp	_	TokenRange=10:12
+4	dilma	dilma	NOUN	NOUN	_	11	nsubj	_	TokenRange=13:18
+5	hostilizada	hostilizado	ADJ	ADJ	_	4	amod	_	TokenRange=19:30
+6	populacao	populacao	NOUN	NOUN	_	4	appos	_	TokenRange=31:40
+7	governador	governador	NOUN	NOUN	_	4	appos	_	TokenRange=41:51
+8	valadares	valadar	ADJ	ADJ	_	7	amod	_	TokenRange=52:61
+9	diferente	diferente	ADJ	ADJ	_	10	amod	_	TokenRange=62:71
+10	manifestacao	manifestacao	NOUN	NOUN	_	11	nsubj	_	TokenRange=72:84
+11	comecou	comecar	VERB	VERB	_	0	root	_	TokenRange=85:92
+12	dilma	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=93:98
+13	desceu	descer	VERB	VERB	_	11	ccomp	_	TokenRange=99:105
+14	helicoptero	helicoptero	NOUN	NOUN	_	13	obj	_	TokenRange=106:117
+15	acompanhada	acompanhado	ADJ	ADJ	_	14	amod	_	TokenRange=118:129
+16	governador	governador	NOUN	NOUN	_	13	nsubj	_	TokenRange=130:140
+17	fernando	fernando	NOUN	NOUN	_	16	appos	_	TokenRange=141:149
+18	pimentel	pimentel	ADJ	ADJ	_	16	amod	_	TokenRange=150:158
+19	avistarem	avistar	VERB	VERB	_	14	acl:relcl	_	TokenRange=159:168
+20	presidente	presidente	NOUN	NOUN	_	19	obj	_	TokenRange=169:179
+21	governador	governador	NOUN	NOUN	_	20	amod	_	TokenRange=180:190
+22	fernando	fernando	NOUN	NOUN	_	20	appos	_	TokenRange=191:199
+23	pimentel	pimentel	ADJ	ADJ	_	24	amod	_	TokenRange=200:208
+24	grupo	grupo	NOUN	NOUN	_	29	nsubj	_	TokenRange=209:214
+25	pessoas	pessoa	NOUN	NOUN	_	24	appos	_	TokenRange=215:222
+26	comecou	comecar	VERB	VERB	_	19	aux	_	TokenRange=223:230
+27	gritar	gritar	VERB	VERB	_	26	xcomp	_	TokenRange=231:237
+28	pt	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=238:240
+29	queremos	querer	VERB	VERB	_	27	ccomp	_	TokenRange=241:249
+30	impeachment	impeachment	NOUN	NOUN	_	29	obj	_	TokenRange=250:261
+31	chegou	chegar	VERB	VERB	_	27	parataxis	_	TokenRange=262:268
+32	cidade	cidade	NOUN	NOUN	_	31	obj	_	TokenRange=269:275
+33	apos	_	ADP	ADP	_	34	mark	_	TokenRange=276:280
+34	sobrevoar	sobrevoar	VERB	VERB	_	31	advcl	_	TokenRange=281:290
+35	municipio	municipio	NOUN	NOUN	_	34	obj	_	TokenRange=291:300
+36	mariana	mariano	ADJ	ADJ	_	35	amod	_	TokenRange=301:308
+37	lado	lado	NOUN	NOUN	_	31	nsubj	_	TokenRange=309:313
+38	governador	governador	NOUN	NOUN	_	41	nsubj	_	TokenRange=314:324
+39	fernando	fernar	VERB	VERB	_	38	appos	_	TokenRange=325:333
+40	pimentel	pimentel	ADJ	ADJ	_	39	amod	_	TokenRange=334:342
+41	avaliar	avaliar	VERB	VERB	_	31	csubj	_	TokenRange=343:350
+42	estragos	estrago	NOUN	NOUN	_	41	obj	_	TokenRange=351:359
+43	causados	causar	VERB	VERB	_	42	acl	_	TokenRange=360:368
+44	rompimento	rompimento	NOUN	NOUN	_	43	nsubj	_	TokenRange=369:379
+45	duas	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=380:384
+46	barragens	barragem	NOUN	NOUN	_	41	nsubj	_	TokenRange=385:394
+47	mineradora	_	ADJ	ADJ	_	46	amod	_	TokenRange=395:405
+48	samarco	samarco	NOUN	NOUN	_	46	appos	_	TokenRange=406:413
+49	ultima	_	ADJ	ADJ	_	50	amod	_	TokenRange=414:420
+50	quintafeira	quintafeira	NOUN	NOUN	_	51	nsubj	_	TokenRange=421:432
+51	deixou	deixar	VERB	VERB	_	13	conj	_	TokenRange=433:439
+52	agora	agora	ADV	ADV	_	51	advmod	_	TokenRange=440:445
+53	seis	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=446:450
+54	mortes	morte	NOUN	NOUN	_	51	obj	_	TokenRange=451:457
+55	confirmadas	confirmar	VERB	VERB	_	54	acl	_	TokenRange=458:469
+56	19	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=470:472
+57	pessoas	pessoa	NOUN	NOUN	_	55	nsubj	_	TokenRange=473:480
+58	desaparecidas	desaparecido	ADJ	ADJ	_	57	amod	_	TokenRange=481:494
+59	fonte	fonte	NOUN	NOUN	_	51	parataxis	_	TokenRange=495:500
+60	videovaladaresnatvcombr	_	X	X	_	59	appos	_	SpaceAfter=No|TokenRange=501:524
+

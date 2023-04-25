@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = desertora exercito nortecoreano relata rotina estupros higiene precaria menstruacao interrompida levada servico militar escapar fome devastava pais exsoldado detalha condicoes vida abusos enfrentados batalhao femininos 1992 2001 serviu fontes ouvidas reportagem revelam ainda hoje dificuldades persistem exsoldado coreia norte diz mulher quarto maior exercito mundo tao dificil logo parou menstruar estupro afirma realidade muitas companheiras serviu quase 10 anos lee yeon dormiu parte baixo beliche sala dividia
+1	desertora	desertor	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:9
+2	exercito	exercito	NOUN	NOUN	_	4	nsubj	_	TokenRange=10:18
+3	nortecoreano	nortecoreano	ADJ	ADJ	_	2	amod	_	TokenRange=19:31
+4	relata	relatar	VERB	VERB	_	0	root	_	TokenRange=32:38
+5	rotina	rotina	NOUN	NOUN	_	4	obj	_	TokenRange=39:45
+6	estupros	estupro	ADJ	ADJ	_	5	amod	_	TokenRange=46:54
+7	higiene	higiene	NOUN	NOUN	_	5	appos	_	TokenRange=55:62
+8	precaria	precario	ADJ	ADJ	_	7	amod	_	TokenRange=63:71
+9	menstruacao	menstruacao	NOUN	NOUN	_	7	appos	_	TokenRange=72:83
+10	interrompida	interromper	ADJ	ADJ	_	12	amod	_	TokenRange=84:96
+11	levada	levar	VERB	VERB	_	12	acl	_	TokenRange=97:103
+12	servico	servico	NOUN	NOUN	_	4	nsubj	_	TokenRange=104:111
+13	militar	militar	ADJ	ADJ	_	12	amod	_	TokenRange=112:119
+14	escapar	escapar	VERB	VERB	_	12	acl:inf	_	TokenRange=120:127
+15	fome	fome	NOUN	NOUN	_	14	obj	_	TokenRange=128:132
+16	devastava	devastar	VERB	VERB	_	12	acl:relcl	_	TokenRange=133:142
+17	pais	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=143:147
+18	exsoldado	exsoldado	ADJ	ADJ	_	17	amod	_	TokenRange=148:157
+19	detalha	detalhar	VERB	VERB	_	16	parataxis	_	TokenRange=158:165
+20	condicoes	_	NOUN	NOUN	_	19	obj	_	TokenRange=166:175
+21	vida	vida	NOUN	NOUN	_	20	appos	_	TokenRange=176:180
+22	abusos	abuso	NOUN	NOUN	_	20	appos	_	TokenRange=181:187
+23	enfrentados	enfrentado	ADJ	ADJ	_	24	amod	_	TokenRange=188:199
+24	batalhao	batalhao	NOUN	NOUN	_	20	appos	_	TokenRange=200:208
+25	femininos	feminino	ADJ	ADJ	_	24	amod	_	TokenRange=209:218
+26	1992	_	NUM	NUM	NumType=Card	24	nmod	_	TokenRange=219:223
+27	2001	_	NUM	NUM	NumType=Card	24	nmod	_	TokenRange=224:228
+28	serviu	servir	VERB	VERB	_	4	parataxis	_	TokenRange=229:235
+29	fontes	fonte	NOUN	NOUN	_	28	nsubj	_	TokenRange=236:242
+30	ouvidas	ouvida	ADJ	ADJ	_	29	amod	_	TokenRange=243:250
+31	reportagem	reportagem	NOUN	NOUN	_	32	nsubj	_	TokenRange=251:261
+32	revelam	revelar	VERB	VERB	_	28	parataxis	_	TokenRange=262:269
+33	ainda	ainda	ADV	ADV	_	34	advmod	_	TokenRange=270:275
+34	hoje	hoje	ADV	ADV	_	32	advmod	_	TokenRange=276:280
+35	dificuldades	dificuldade	NOUN	NOUN	_	32	nsubj	_	TokenRange=281:293
+36	persistem	persistir	VERB	VERB	_	32	ccomp	_	TokenRange=294:303
+37	exsoldado	exsoldado	ADJ	ADJ	_	38	amod	_	TokenRange=304:313
+38	coreia	coreia	NOUN	NOUN	_	36	nsubj	_	TokenRange=314:320
+39	norte	norte	ADJ	ADJ	_	38	amod	_	TokenRange=321:326
+40	diz	dizer	VERB	VERB	_	32	ccomp	_	TokenRange=327:330
+41	mulher	mulher	NOUN	NOUN	_	40	obj	_	TokenRange=331:337
+42	quarto	_	ADJ	ADJ	_	44	amod	_	TokenRange=338:344
+43	maior	maior	ADJ	ADJ	_	44	amod	_	TokenRange=345:350
+44	exercito	exercito	NOUN	NOUN	_	40	nsubj	_	TokenRange=351:359
+45	mundo	mundo	NOUN	NOUN	_	44	flat	_	TokenRange=360:365
+46	tao	tao	ADV	ADV	_	47	advmod	_	TokenRange=366:369
+47	dificil	dificil	ADJ	ADJ	_	44	amod	_	TokenRange=370:377
+48	logo	logo	ADV	ADV	_	50	advmod	_	TokenRange=378:382
+49	parou	parar	AUX	AUX	_	50	aux	_	TokenRange=383:388
+50	menstruar	menstruar	VERB	VERB	_	44	acl:relcl	_	TokenRange=389:398
+51	estupro	estupro	NOUN	NOUN	_	50	obj	_	TokenRange=399:406
+52	afirma	afirmar	VERB	VERB	_	44	acl:relcl	_	TokenRange=407:413
+53	realidade	realidade	NOUN	NOUN	_	52	obj	_	TokenRange=414:423
+54	muitas	_	DET	DET	_	55	det	_	TokenRange=424:430
+55	companheiras	companheiro	NOUN	NOUN	_	56	nsubj	_	TokenRange=431:443
+56	serviu	servir	VERB	VERB	_	52	parataxis	_	TokenRange=444:450
+57	quase	quase	ADV	ADV	_	58	advmod	_	TokenRange=451:456
+58	10	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=457:459
+59	anos	ano	NOUN	NOUN	_	56	nmod	_	TokenRange=460:464
+60	lee	_	PROPN	PNOUN	_	62	nsubj	_	TokenRange=465:468
+61	yeon	_	PROPN	PNOUN	_	60	flat	_	TokenRange=469:473
+62	dormiu	dormir	VERB	VERB	_	56	conj	_	TokenRange=474:480
+63	parte	parte	NOUN	NOUN	_	62	obj	_	TokenRange=481:486
+64	baixo	baixo	ADJ	ADJ	_	63	amod	_	TokenRange=487:492
+65	beliche	beliche	ADJ	ADJ	_	66	amod	_	TokenRange=493:500
+66	sala	sala	NOUN	NOUN	_	62	obj	_	TokenRange=501:505
+67	dividia	dividio	ADJ	ADJ	_	66	amod	_	SpaceAfter=No|TokenRange=506:513
+

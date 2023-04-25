@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pai fred primo aecio preso desabafa aecio moral filho preso lealdade prisao frederico pacheco medeiros fred primo aecio neves ocorreu ultimo dia 18 inconformado pai fred desembargador aposentado publicou desabafo redes sociais lauro pacheco disse aecio qualidade moral exercer cargo senador jornal globo entrevistou desembargador confirmou publicacao filho admirava aecio agora preso disse frederico pacheco preso apos joesley batista divulgar video onde aecio estaria pedindo propina r 2 milhoes empresario fred mula aecio
+1	pai	pai	NOUN	NOUN	_	20	nsubj	_	TokenRange=0:3
+2	fred	_	ADJ	ADJ	_	1	amod	_	TokenRange=4:8
+3	primo	primo	ADJ	ADJ	_	1	amod	_	TokenRange=9:14
+4	aecio	_	NOUN	NOUN	_	1	appos	_	TokenRange=15:20
+5	preso	_	ADJ	ADJ	_	1	acl	_	TokenRange=21:26
+6	desabafa	_	NOUN	NOUN	_	1	appos	_	TokenRange=27:35
+7	aecio	_	NOUN	NOUN	_	1	appos	_	TokenRange=36:41
+8	moral	moral	ADJ	ADJ	_	7	amod	_	TokenRange=42:47
+9	filho	filho	NOUN	NOUN	_	7	appos	_	TokenRange=48:53
+10	preso	_	ADJ	ADJ	_	11	amod	_	TokenRange=54:59
+11	lealdade	lealdade	NOUN	NOUN	_	1	appos	_	TokenRange=60:68
+12	prisao	prisao	ADJ	ADJ	_	11	amod	_	TokenRange=69:75
+13	frederico	frederico	NOUN	NOUN	_	1	appos	_	TokenRange=76:85
+14	pacheco	pacheco	NOUN	NOUN	_	13	flat	_	TokenRange=86:93
+15	medeiros	medeiro	ADJ	ADJ	_	16	amod	_	TokenRange=94:102
+16	fred	_	NOUN	NOUN	_	13	appos	_	TokenRange=103:107
+17	primo	primo	ADJ	ADJ	_	16	amod	_	TokenRange=108:113
+18	aecio	_	NOUN	NOUN	_	16	appos	_	TokenRange=114:119
+19	neves	neve	NOUN	NOUN	_	18	amod	_	TokenRange=120:125
+20	ocorreu	ocorrer	VERB	VERB	_	0	root	_	TokenRange=126:133
+21	ultimo	_	ADJ	ADJ	_	22	amod	_	TokenRange=134:140
+22	dia	dia	NOUN	NOUN	_	20	nmod	_	TokenRange=141:144
+23	18	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=145:147
+24	inconformado	inconformado	ADJ	ADJ	_	22	amod	_	TokenRange=148:160
+25	pai	pai	NOUN	NOUN	_	20	nsubj	_	TokenRange=161:164
+26	fred	_	ADJ	ADJ	_	25	amod	_	TokenRange=165:169
+27	desembargador	desembargador	NOUN	NOUN	_	25	appos	_	TokenRange=170:183
+28	aposentado	aposentado	ADJ	ADJ	_	27	amod	_	TokenRange=184:194
+29	publicou	publicar	VERB	VERB	_	20	parataxis	_	TokenRange=195:203
+30	desabafo	desabafo	NOUN	NOUN	_	29	obj	_	TokenRange=204:212
+31	redes	rede	NOUN	NOUN	_	29	nsubj	_	TokenRange=213:218
+32	sociais	social	ADJ	ADJ	_	31	amod	_	TokenRange=219:226
+33	lauro	lauro	NOUN	NOUN	_	35	nsubj	_	TokenRange=227:232
+34	pacheco	pacheco	NOUN	NOUN	_	33	flat	_	TokenRange=233:240
+35	disse	dizer	VERB	VERB	_	29	parataxis	_	TokenRange=241:246
+36	aecio	_	NOUN	NOUN	_	35	obj	_	TokenRange=247:252
+37	qualidade	qualidade	NOUN	NOUN	_	35	obj	_	TokenRange=253:262
+38	moral	moral	ADJ	ADJ	_	37	amod	_	TokenRange=263:268
+39	exercer	exercer	VERB	VERB	_	37	acl:inf	_	TokenRange=269:276
+40	cargo	cargo	NOUN	NOUN	_	39	obj	_	TokenRange=277:282
+41	senador	senador	NOUN	NOUN	_	40	appos	_	TokenRange=283:290
+42	jornal	jornal	NOUN	NOUN	_	44	nsubj	_	TokenRange=291:297
+43	globo	globo	NOUN	NOUN	_	42	amod	_	TokenRange=298:303
+44	entrevistou	entrevistar	VERB	VERB	_	35	parataxis	_	TokenRange=304:315
+45	desembargador	desembargador	NOUN	NOUN	_	44	obj	_	TokenRange=316:329
+46	confirmou	confirmar	VERB	VERB	_	44	parataxis	_	TokenRange=330:339
+47	publicacao	publicacao	NOUN	NOUN	_	46	obj	_	TokenRange=340:350
+48	filho	filho	NOUN	NOUN	_	46	nsubj	_	TokenRange=351:356
+49	admirava	admirar	VERB	VERB	_	47	acl:relcl	_	TokenRange=357:365
+50	aecio	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=366:371
+51	agora	agora	ADV	ADV	_	52	advmod	_	TokenRange=372:377
+52	preso	_	VERB	VERB	_	50	acl	_	TokenRange=378:383
+53	disse	dizer	VERB	VERB	_	20	parataxis	_	TokenRange=384:389
+54	frederico	frederico	NOUN	NOUN	_	53	obj	_	TokenRange=390:399
+55	pacheco	pacheco	ADJ	ADJ	_	54	flat	_	TokenRange=400:407
+56	preso	_	ADJ	ADJ	_	54	amod	_	TokenRange=408:413
+57	apos	_	ADP	ADP	_	60	mark	_	TokenRange=414:418
+58	joesley	_	NOUN	NOUN	_	60	nsubj	_	TokenRange=419:426
+59	batista	batista	ADJ	ADJ	_	58	flat	_	TokenRange=427:434
+60	divulgar	divulgar	VERB	VERB	_	53	advcl	_	TokenRange=435:443
+61	video	video	NOUN	NOUN	_	60	obj	_	TokenRange=444:449
+62	onde	onde	ADV	ADV	_	65	advmod	_	TokenRange=450:454
+63	aecio	_	PROPN	PNOUN	_	65	nsubj	_	TokenRange=455:460
+64	estaria	estar	AUX	AUX	_	65	aux	_	TokenRange=461:468
+65	pedindo	pedir	VERB	VERB	_	61	acl:relcl	_	TokenRange=469:476
+66	propina	propina	NOUN	NOUN	_	65	obj	_	TokenRange=477:484
+67	r	r	NOUN	NOUN	_	66	flat	_	TokenRange=485:486
+68	2	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=487:488
+69	milhoes	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=489:496
+70	empresario	empresario	NOUN	NOUN	_	65	obj	_	TokenRange=497:507
+71	fred	_	NOUN	NOUN	_	70	appos	_	TokenRange=508:512
+72	mula	_	NOUN	NOUN	_	71	flat	_	TokenRange=513:517
+73	aecio	_	NOUN	NOUN	_	71	flat	_	SpaceAfter=No|TokenRange=518:523
+

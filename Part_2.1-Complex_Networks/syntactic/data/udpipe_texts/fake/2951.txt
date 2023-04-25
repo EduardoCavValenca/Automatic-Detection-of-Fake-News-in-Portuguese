@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tico santa cruz petista chato pais arruma confusao voo expulso pf petista tico santa cruz retirado voo paulo maringa manha hoje 13 policia federal cantor discutiu funcionarios empresa aerea gol passageiros confusao filmada passageiros logo seguida enviaram video redes sociais
+1	tico	tico	NOUN	NOUN	_	26	nsubj	_	TokenRange=0:4
+2	santa	santo	ADJ	ADJ	_	3	amod	_	TokenRange=5:10
+3	cruz	cruz	NOUN	NOUN	_	1	appos	_	TokenRange=11:15
+4	petista	petista	NOUN	NOUN	_	1	appos	_	TokenRange=16:23
+5	chato	chato	NOUN	NOUN	_	3	amod	_	TokenRange=24:29
+6	pais	_	NOUN	NOUN	_	1	appos	_	TokenRange=30:34
+7	arruma	arruma	NOUN	NOUN	_	3	appos	_	TokenRange=35:41
+8	confusao	confusao	NOUN	NOUN	_	9	amod	_	TokenRange=42:50
+9	voo	voo	NOUN	NOUN	_	7	appos	_	TokenRange=51:54
+10	expulso	expulso	ADJ	ADJ	_	9	amod	_	TokenRange=55:62
+11	pf	_	NOUN	NOUN	_	9	appos	_	TokenRange=63:65
+12	petista	petista	NOUN	NOUN	_	11	flat	_	TokenRange=66:73
+13	tico	tico	NOUN	NOUN	_	12	appos	_	TokenRange=74:78
+14	santa	_	ADJ	ADJ	_	15	amod	_	TokenRange=79:84
+15	cruz	cruz	NOUN	NOUN	_	13	appos	_	TokenRange=85:89
+16	retirado	retirar	ADJ	ADJ	_	17	acl	_	TokenRange=90:98
+17	voo	voo	NOUN	NOUN	_	11	appos	_	TokenRange=99:102
+18	paulo	paulo	NOUN	NOUN	_	17	appos	_	TokenRange=103:108
+19	maringa	maringa	NOUN	NOUN	_	17	amod	_	TokenRange=109:116
+20	manha	manha	NOUN	NOUN	_	17	appos	_	TokenRange=117:122
+21	hoje	hoje	ADV	ADV	_	20	advmod	_	TokenRange=123:127
+22	13	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=128:130
+23	policia	policia	NOUN	NOUN	_	26	nsubj	_	TokenRange=131:138
+24	federal	federal	ADJ	ADJ	_	23	amod	_	TokenRange=139:146
+25	cantor	cantor	NOUN	NOUN	_	26	nsubj	_	TokenRange=147:153
+26	discutiu	discutir	VERB	VERB	_	0	root	_	TokenRange=154:162
+27	funcionarios	funcionario	NOUN	NOUN	_	26	obj	_	TokenRange=163:175
+28	empresa	empresa	NOUN	NOUN	_	27	appos	_	TokenRange=176:183
+29	aerea	aereo	ADJ	ADJ	_	28	amod	_	TokenRange=184:189
+30	gol	gol	NOUN	NOUN	_	28	appos	_	TokenRange=190:193
+31	passageiros	passageiro	NOUN	NOUN	_	28	appos	_	TokenRange=194:205
+32	confusao	confusao	NOUN	NOUN	_	28	appos	_	TokenRange=206:214
+33	filmada	filmar	VERB	ADJ	_	34	acl	_	TokenRange=215:222
+34	passageiros	passageiro	NOUN	NOUN	_	37	nsubj	_	TokenRange=223:234
+35	logo	logo	ADV	ADV	_	36	advmod	_	TokenRange=235:239
+36	seguida	seguido	ADJ	ADJ	_	34	amod	_	TokenRange=240:247
+37	enviaram	enviar	VERB	VERB	_	26	parataxis	_	TokenRange=248:256
+38	video	video	NOUN	NOUN	_	37	obj	_	TokenRange=257:262
+39	redes	rede	NOUN	NOUN	_	38	appos	_	TokenRange=263:268
+40	sociais	social	ADJ	ADJ	_	39	amod	_	SpaceAfter=No|TokenRange=269:276
+

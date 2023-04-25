@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vida juiz supremo suecia foro privilegiado imunidade auxilios assim politicos juiz tribunal superior suecia equivalente stf imunidade foro privilegiado pode processado qualquer cidadao juiz supremo suecia pedala estacao ferroviaria toma trem chegar corte estocolmo mora apartamento funcional recebe auxiliomoradia auxiliosaude goza imunidades foro privilegiado ganha r 12 mil r 25 mil mes proibido aceitar viagens presentes
+1	vida	vida	NOUN	NOUN	_	21	nsubj	_	TokenRange=0:4
+2	juiz	juiz	NOUN	NOUN	_	1	amod	_	TokenRange=5:9
+3	supremo	supremo	ADJ	ADJ	_	1	amod	_	TokenRange=10:17
+4	suecia	suecio	ADJ	ADJ	_	1	amod	_	TokenRange=18:24
+5	foro	foro	NOUN	NOUN	_	1	appos	_	TokenRange=25:29
+6	privilegiado	privilegiado	ADJ	ADJ	_	5	amod	_	TokenRange=30:42
+7	imunidade	imunidade	NOUN	NOUN	_	1	appos	_	TokenRange=43:52
+8	auxilios	auxilio	NOUN	NOUN	_	1	amod	_	TokenRange=53:61
+9	assim	assim	ADV	ADV	_	10	advmod	_	TokenRange=62:67
+10	politicos	politico	ADJ	ADJ	_	12	amod	_	TokenRange=68:77
+11	juiz	juiz	NOUN	NOUN	_	1	appos	_	TokenRange=78:82
+12	tribunal	tribunal	NOUN	NOUN	_	11	amod	_	TokenRange=83:91
+13	superior	superior	ADJ	ADJ	_	12	amod	_	TokenRange=92:100
+14	suecia	suecia	NOUN	NOUN	_	1	appos	_	TokenRange=101:107
+15	equivalente	equivalente	ADJ	ADJ	_	14	amod	_	TokenRange=108:119
+16	stf	_	ADP	ADP	_	17	case	_	TokenRange=120:123
+17	imunidade	imunidade	NOUN	NOUN	_	15	nmod	_	TokenRange=124:133
+18	foro	foro	NOUN	NOUN	_	17	appos	_	TokenRange=134:138
+19	privilegiado	_	ADJ	ADJ	_	18	amod	_	TokenRange=139:151
+20	pode	_	AUX	AUX	_	21	aux	_	TokenRange=152:156
+21	processado	processar	VERB	VERB	_	0	root	_	TokenRange=157:167
+22	qualquer	_	DET	DET	_	23	det	_	TokenRange=168:176
+23	cidadao	cidadao	NOUN	NOUN	_	21	nsubj:pass	_	TokenRange=177:184
+24	juiz	juiz	NOUN	NOUN	_	23	appos	_	TokenRange=185:189
+25	supremo	supremo	ADJ	ADJ	_	24	amod	_	TokenRange=190:197
+26	suecia	suecia	NOUN	NOUN	_	24	amod	_	TokenRange=198:204
+27	pedala	pedalar	VERB	VERB	_	21	parataxis	_	TokenRange=205:211
+28	estacao	estacao	NOUN	NOUN	_	27	nsubj	_	TokenRange=212:219
+29	ferroviaria	ferroviaria	ADJ	ADJ	_	28	amod	_	TokenRange=220:231
+30	toma	tomar	VERB	VERB	_	27	ccomp	_	TokenRange=232:236
+31	trem	trem	NOUN	NOUN	_	32	obj	_	TokenRange=237:241
+32	chegar	chegar	VERB	VERB	_	28	acl:inf	_	TokenRange=242:248
+33	corte	corte	NOUN	NOUN	_	32	obj	_	TokenRange=249:254
+34	estocolmo	estocolmo	NOUN	NOUN	_	33	flat	_	TokenRange=255:264
+35	mora	morar	VERB	VERB	_	30	conj	_	TokenRange=265:269
+36	apartamento	apartamento	NOUN	NOUN	_	35	obj	_	TokenRange=270:281
+37	funcional	funcional	ADJ	ADJ	_	36	amod	_	TokenRange=282:291
+38	recebe	receber	VERB	VERB	_	35	parataxis	_	TokenRange=292:298
+39	auxiliomoradia	auxiliomoradia	NOUN	NOUN	_	38	obj	_	TokenRange=299:313
+40	auxiliosaude	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=314:326
+41	goza	gozar	VERB	VERB	_	38	conj	_	TokenRange=327:331
+42	imunidades	imunidade	NOUN	NOUN	_	41	obj	_	TokenRange=332:342
+43	foro	foro	NOUN	NOUN	_	42	appos	_	TokenRange=343:347
+44	privilegiado	privilegiado	ADJ	ADJ	_	43	amod	_	TokenRange=348:360
+45	ganha	ganhar	VERB	VERB	_	41	parataxis	_	TokenRange=361:366
+46	r	r	NOUN	NOUN	_	45	obj	_	TokenRange=367:368
+47	12	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=369:371
+48	mil	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=372:375
+49	r	r	NOUN	NOUN	_	45	obj	_	TokenRange=376:377
+50	25	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=378:380
+51	mil	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=381:384
+52	mes	mes	NOUN	NOUN	_	45	obj	_	TokenRange=385:388
+53	proibido	proibido	ADJ	ADJ	_	52	amod	_	TokenRange=389:397
+54	aceitar	aceitar	VERB	VERB	_	45	xcomp	_	TokenRange=398:405
+55	viagens	viagem	NOUN	NOUN	_	54	obj	_	TokenRange=406:413
+56	presentes	presente	ADJ	ADJ	_	55	amod	_	SpaceAfter=No|TokenRange=414:423
+

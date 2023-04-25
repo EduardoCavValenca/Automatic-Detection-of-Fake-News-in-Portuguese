@@ -1,0 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministerio publico federal pediu juiz federal sergio moro considerasse expresidente dilma rousseff suspeita testemunhar defesa expresidente petrobras banco brasil aldemir bendine processo acusado corrupcao estatal interesse caso atacado operacao lava jato petista
+1	ministerio	ministerio	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	publico	publico	ADJ	ADJ	_	1	amod	_	TokenRange=11:18
+3	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=19:26
+4	pediu	pedir	VERB	VERB	_	0	root	_	TokenRange=27:32
+5	juiz	juiz	NOUN	NOUN	_	4	obj	_	TokenRange=33:37
+6	federal	federal	ADJ	ADJ	_	5	amod	_	TokenRange=38:45
+7	sergio	sergio	NOUN	NOUN	_	9	nsubj	_	TokenRange=46:52
+8	moro	moro	NOUN	NOUN	_	7	flat	_	TokenRange=53:57
+9	considerasse	considerar	VERB	VERB	_	4	ccomp	_	TokenRange=58:70
+10	expresidente	expresidente	NOUN	NOUN	_	9	obj	_	TokenRange=71:83
+11	dilma	dilma	ADJ	ADJ	_	10	amod	_	TokenRange=84:89
+12	rousseff	rousseff	NOUN	NOUN	_	10	appos	_	TokenRange=90:98
+13	suspeita	suspeito	ADJ	ADJ	_	10	amod	_	TokenRange=99:107
+14	testemunhar	testemunhar	VERB	VERB	_	10	acl:inf	_	TokenRange=108:119
+15	defesa	_	NOUN	NOUN	_	14	obj	_	TokenRange=120:126
+16	expresidente	expresidente	NOUN	NOUN	_	15	appos	_	TokenRange=127:139
+17	petrobras	petrobra	ADJ	ADJ	_	16	amod	_	TokenRange=140:149
+18	banco	banco	NOUN	NOUN	_	15	appos	_	TokenRange=150:155
+19	brasil	brasil	ADJ	ADJ	_	18	amod	_	TokenRange=156:162
+20	aldemir	aldemir	NOUN	NOUN	_	15	appos	_	TokenRange=163:170
+21	bendine	bendine	NOUN	NOUN	_	20	flat	_	TokenRange=171:178
+22	processo	processo	NOUN	NOUN	_	20	flat	_	TokenRange=179:187
+23	acusado	acusar	VERB	VERB	_	22	acl	_	TokenRange=188:195
+24	corrupcao	corrupcao	NOUN	NOUN	_	23	obj	_	TokenRange=196:205
+25	estatal	estatal	ADJ	ADJ	_	24	amod	_	TokenRange=206:213
+26	interesse	interesse	NOUN	NOUN	_	23	obj	_	TokenRange=214:223
+27	caso	caso	NOUN	NOUN	_	28	mark	_	TokenRange=224:228
+28	atacado	atacar	VERB	VERB	_	26	acl	_	TokenRange=229:236
+29	operacao	operacao	NOUN	NOUN	_	28	nsubj	_	TokenRange=237:245
+30	lava	lava	NOUN	NOUN	_	29	flat	_	TokenRange=246:250
+31	jato	jato	NOUN	NOUN	_	32	flat	_	TokenRange=251:255
+32	petista	petista	NOUN	NOUN	_	29	appos	_	SpaceAfter=No|TokenRange=256:263
+

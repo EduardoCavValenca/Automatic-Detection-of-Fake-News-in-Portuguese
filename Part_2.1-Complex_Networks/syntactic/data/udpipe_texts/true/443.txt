@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = base delacao fachin autoriza pgr solicite dados entrada jaburu ministro responsavel casos lava jato stf quer checar informacoes delator descreveu jantar entao vicepresidente michel temer sido acertado repasse r 10 milhoes odebrecht pmdb brasilia ministro edson fachin supremo tribunal federal stf autorizou procuradoriageral republica pgr solicite dados entrada palacio jaburu residencia oficial presidente michel temer dia 28 maio 2014 data citada
+1	base	base	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	delacao	delacao	ADJ	ADJ	_	1	amod	_	TokenRange=5:12
+3	fachin	_	NOUN	NOUN	_	1	appos	_	TokenRange=13:19
+4	autoriza	autorizar	VERB	VERB	_	0	root	_	TokenRange=20:28
+5	pgr	_	NOUN	NOUN	_	4	obj	_	TokenRange=29:32
+6	solicite	solicite	NOUN	NOUN	_	4	obj	_	TokenRange=33:41
+7	dados	dar	VERB	ADJ	_	8	amod	_	TokenRange=42:47
+8	entrada	entrada	NOUN	NOUN	_	4	obj	_	TokenRange=48:55
+9	jaburu	jaburu	ADJ	ADJ	_	10	amod	_	TokenRange=56:62
+10	ministro	ministro	NOUN	NOUN	_	4	nsubj	_	TokenRange=63:71
+11	responsavel	responsavel	ADJ	ADJ	_	10	amod	_	TokenRange=72:83
+12	casos	caso	NOUN	NOUN	_	10	appos	_	TokenRange=84:89
+13	lava	lava	NOUN	NOUN	_	10	appos	_	TokenRange=90:94
+14	jato	jato	NOUN	NOUN	_	13	flat	_	TokenRange=95:99
+15	stf	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=100:103
+16	quer	querer	VERB	VERB	_	4	conj	_	TokenRange=104:108
+17	checar	checar	VERB	VERB	_	16	xcomp	_	TokenRange=109:115
+18	informacoes	informacoe	NOUN	NOUN	_	17	obj	_	TokenRange=116:127
+19	delator	delator	NOUN	NOUN	_	18	amod	_	TokenRange=128:135
+20	descreveu	descrever	VERB	VERB	_	17	parataxis	_	TokenRange=136:145
+21	jantar	jantar	NOUN	NOUN	_	20	obj	_	TokenRange=146:152
+22	entao	entao	ADV	ADV	_	20	advmod	_	TokenRange=153:158
+23	vicepresidente	vicepresidente	NOUN	NOUN	_	20	nsubj	_	TokenRange=159:173
+24	michel	michel	ADJ	ADJ	_	23	amod	_	TokenRange=174:180
+25	temer	temer	NOUN	NOUN	_	23	flat	_	TokenRange=181:186
+26	sido	ser	AUX	AUX	_	27	aux:pass	_	TokenRange=187:191
+27	acertado	acertar	VERB	VERB	_	20	acl	_	TokenRange=192:200
+28	repasse	repasse	NOUN	NOUN	_	27	nsubj:pass	_	TokenRange=201:208
+29	r	r	NOUN	NOUN	_	32	flat	_	TokenRange=209:210
+30	10	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=211:213
+31	milhoes	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=214:221
+32	odebrecht	_	NOUN	NOUN	_	28	appos	_	TokenRange=222:231
+33	pmdb	_	NOUN	NOUN	_	32	flat	_	TokenRange=232:236
+34	brasilia	brasilia	NOUN	NOUN	_	35	flat	_	TokenRange=237:245
+35	ministro	ministro	NOUN	NOUN	_	32	flat	_	TokenRange=246:254
+36	edson	_	NOUN	NOUN	_	35	appos	_	TokenRange=255:260
+37	fachin	_	NOUN	NOUN	_	36	flat	_	TokenRange=261:267
+38	supremo	supremo	ADJ	ADJ	_	39	amod	_	TokenRange=268:275
+39	tribunal	tribunal	NOUN	NOUN	_	35	appos	_	TokenRange=276:284
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=285:292
+41	stf	_	NOUN	NOUN	_	39	appos	_	TokenRange=293:296
+42	autorizou	autorizar	VERB	VERB	_	4	conj	_	TokenRange=297:306
+43	procuradoriageral	procuradoriageral	NOUN	NOUN	_	42	obj	_	TokenRange=307:324
+44	republica	republico	ADJ	ADJ	_	43	amod	_	TokenRange=325:334
+45	pgr	pgr	NOUN	NOUN	_	42	nsubj	_	TokenRange=335:338
+46	solicite	solicite	NOUN	NOUN	_	43	amod	_	TokenRange=339:347
+47	dados	dar	VERB	VERB	_	48	acl	_	TokenRange=348:353
+48	entrada	entrada	NOUN	NOUN	_	46	amod	_	TokenRange=354:361
+49	palacio	palacio	NOUN	NOUN	_	48	appos	_	TokenRange=362:369
+50	jaburu	jaburu	ADJ	ADJ	_	49	amod	_	TokenRange=370:376
+51	residencia	residencia	NOUN	NOUN	_	46	appos	_	TokenRange=377:387
+52	oficial	oficial	ADJ	ADJ	_	51	amod	_	TokenRange=388:395
+53	presidente	presidente	NOUN	NOUN	_	51	appos	_	TokenRange=396:406
+54	michel	michel	ADJ	ADJ	_	55	amod	_	TokenRange=407:413
+55	temer	temer	NOUN	NOUN	_	53	appos	_	TokenRange=414:419
+56	dia	dia	NOUN	NOUN	_	51	nmod	_	TokenRange=420:423
+57	28	_	NUM	NUM	NumType=Card	56	nmod	_	TokenRange=424:426
+58	maio	_	PROPN	PNOUN	_	56	nmod	_	TokenRange=427:431
+59	2014	_	NUM	NUM	NumType=Card	58	nmod	_	TokenRange=432:436
+60	data	data	NOUN	NOUN	_	42	parataxis	_	TokenRange=437:441
+61	citada	citar	ADJ	ADJ	_	60	acl	_	SpaceAfter=No|TokenRange=442:448
+

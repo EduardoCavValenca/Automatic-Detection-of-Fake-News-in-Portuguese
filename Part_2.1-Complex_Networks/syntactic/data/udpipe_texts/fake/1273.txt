@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = russia divulga imagens supermissil nuclear pode destruir pais segundos satan tratase missil poderoso suficiente destruir pais tamanho franca unico golpe presidente vladimir putin substituindo arsenal ss18 satan missil balistico intercontinental desenvolvido adotado anos 1970 super armas nucleares chamadas rs28 sarmat rs28 capaz enganar qualquer sistema defesa antimissil existente planeta possui interior 16 ogivas nucleares resposta russa instalacoes sistemas antimisseis instalados leste europeu
+1	russia	russia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	divulga	divulgar	VERB	VERB	_	0	root	_	TokenRange=7:14
+3	imagens	imagem	NOUN	NOUN	_	2	obj	_	TokenRange=15:22
+4	supermissil	supermissil	NOUN	NOUN	_	7	nsubj	_	TokenRange=23:34
+5	nuclear	nuclear	ADJ	ADJ	_	4	amod	_	TokenRange=35:42
+6	pode	_	AUX	AUX	_	7	aux	_	TokenRange=43:47
+7	destruir	destruir	VERB	VERB	_	2	ccomp	_	TokenRange=48:56
+8	pais	_	NOUN	NOUN	_	7	obj	_	TokenRange=57:61
+9	segundos	segundo	ADJ	ADJ	_	8	amod	_	TokenRange=62:70
+10	satan	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=71:76
+11	tratase	tratar	VERB	VERB	_	2	ccomp	_	TokenRange=77:84
+12	missil	missil	NOUN	NOUN	_	11	obj	_	TokenRange=85:91
+13	poderoso	poderoso	ADJ	ADJ	_	12	amod	_	TokenRange=92:100
+14	suficiente	suficiente	ADJ	ADJ	_	12	amod	_	TokenRange=101:111
+15	destruir	destruir	VERB	VERB	_	12	acl:inf	_	TokenRange=112:120
+16	pais	_	NOUN	NOUN	_	15	obj	_	TokenRange=121:125
+17	tamanho	tamanho	NOUN	NOUN	_	12	appos	_	TokenRange=126:133
+18	franca	franco	ADJ	ADJ	_	17	amod	_	TokenRange=134:140
+19	unico	unico	ADJ	ADJ	_	20	amod	_	TokenRange=141:146
+20	golpe	golpe	NOUN	NOUN	_	15	obj	_	TokenRange=147:152
+21	presidente	presidente	NOUN	NOUN	_	20	appos	_	TokenRange=153:163
+22	vladimir	vladimir	NOUN	NOUN	_	20	appos	_	TokenRange=164:172
+23	putin	_	ADJ	ADJ	_	22	flat	_	TokenRange=173:178
+24	substituindo	substituir	VERB	VERB	_	20	acl	_	TokenRange=179:191
+25	arsenal	arsenal	NOUN	NOUN	_	24	obj	_	TokenRange=192:199
+26	ss18	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=200:204
+27	satan	_	ADJ	ADJ	_	28	amod	_	TokenRange=205:210
+28	missil	missil	NOUN	NOUN	_	25	appos	_	TokenRange=211:217
+29	balistico	balistico	ADJ	ADJ	_	28	amod	_	TokenRange=218:227
+30	intercontinental	intercontinental	ADJ	ADJ	_	28	amod	_	TokenRange=228:244
+31	desenvolvido	desenvolver	VERB	VERB	_	28	acl	_	TokenRange=245:257
+32	adotado	adotar	VERB	VERB	_	28	acl	_	TokenRange=258:265
+33	anos	ano	NOUN	NOUN	_	32	nmod	_	TokenRange=266:270
+34	1970	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=271:275
+35	super	super	ADJ	ADJ	_	36	amod	_	TokenRange=276:281
+36	armas	arma	NOUN	NOUN	_	11	nsubj	_	TokenRange=282:287
+37	nucleares	nuclear	ADJ	ADJ	_	36	amod	_	TokenRange=288:297
+38	chamadas	chamar	AUX	AUX	_	36	acl	_	TokenRange=298:306
+39	rs28	_	NOUN	NOUN	_	36	acl	_	TokenRange=307:311
+40	sarmat	_	NOUN	NOUN	_	36	appos	_	TokenRange=312:318
+41	rs28	_	NOUN	NOUN	_	40	appos	_	TokenRange=319:323
+42	capaz	capaz	ADJ	ADJ	_	36	amod	_	TokenRange=324:329
+43	enganar	enganar	VERB	VERB	_	36	acl	_	TokenRange=330:337
+44	qualquer	_	DET	DET	_	45	det	_	TokenRange=338:346
+45	sistema	sistema	NOUN	NOUN	_	43	obj	_	TokenRange=347:354
+46	defesa	_	NOUN	NOUN	_	45	appos	_	TokenRange=355:361
+47	antimissil	antimissil	ADJ	ADJ	_	46	amod	_	TokenRange=362:372
+48	existente	existente	ADJ	ADJ	_	46	amod	_	TokenRange=373:382
+49	planeta	planeta	NOUN	NOUN	_	50	nsubj	_	TokenRange=383:390
+50	possui	possuir	VERB	VERB	_	36	acl:relcl	_	TokenRange=391:397
+51	interior	interior	NOUN	NOUN	_	50	obj	_	TokenRange=398:406
+52	16	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=407:409
+53	ogivas	ogiva	NOUN	NOUN	_	50	obj	_	TokenRange=410:416
+54	nucleares	nuclear	ADJ	ADJ	_	53	amod	_	TokenRange=417:426
+55	resposta	resposta	NOUN	NOUN	_	50	obj	_	TokenRange=427:435
+56	russa	russo	ADJ	ADJ	_	55	amod	_	TokenRange=436:441
+57	instalacoes	instalacoe	ADJ	ADJ	_	58	amod	_	TokenRange=442:453
+58	sistemas	sistema	NOUN	NOUN	_	50	nsubj	_	TokenRange=454:462
+59	antimisseis	antimisseis	ADJ	ADJ	_	58	amod	_	TokenRange=463:474
+60	instalados	instalado	ADJ	ADJ	_	58	amod	_	TokenRange=475:485
+61	leste	leste	ADJ	ADJ	_	62	advmod	_	TokenRange=486:491
+62	europeu	europeu	ADJ	ADJ	_	60	amod	_	SpaceAfter=No|TokenRange=492:499
+

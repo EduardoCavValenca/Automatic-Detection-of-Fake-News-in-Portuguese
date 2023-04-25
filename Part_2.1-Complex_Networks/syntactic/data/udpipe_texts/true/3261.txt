@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = primos lula organizam ato garanhuns acompanhar julgamento familiares esperam reunir cerca 10 mil pessoas ato apoio expresidente cidade natal petista primos segundo grau expresidente luiz inacio lula silva organizando manifestacao garanhuns pe cidade natal lula proximo dia 23 janeiro vespera julgamento tribunal regional federal 4 regiao trf4 porto alegre condenacao petista crimes corrupcao passiva lavagem dinheiro alem ato parentes discutem possibilidade realizacao vigilia definicao ultimo voto ainda otimista acho dia 24 podemos fazer grande festa cidade absolvicao disse primos organizadores ato jose moura melo
+1	primos	primo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	lula	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:11
+3	organizam	organizar	VERB	VERB	_	78	ccomp	_	TokenRange=12:21
+4	ato	ato	NOUN	NOUN	_	3	obj	_	TokenRange=22:25
+5	garanhuns	_	ADJ	ADJ	_	4	amod	_	TokenRange=26:35
+6	acompanhar	acompanhar	VERB	VERB	_	4	acl:inf	_	TokenRange=36:46
+7	julgamento	julgamento	NOUN	NOUN	_	6	obj	_	TokenRange=47:57
+8	familiares	familiar	ADJ	ADJ	_	7	amod	_	TokenRange=58:68
+9	esperam	esperar	VERB	VERB	_	3	parataxis	_	TokenRange=69:76
+10	reunir	reunir	VERB	VERB	_	9	xcomp	_	TokenRange=77:83
+11	cerca	cerca	ADV	ADV	_	13	advmod	_	TokenRange=84:89
+12	10	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=90:92
+13	mil	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=93:96
+14	pessoas	pessoa	NOUN	NOUN	_	10	obj	_	TokenRange=97:104
+15	ato	ato	NOUN	NOUN	_	14	appos	_	TokenRange=105:108
+16	apoio	apoio	NOUN	NOUN	_	15	appos	_	TokenRange=109:114
+17	expresidente	expresidente	ADJ	ADJ	_	18	amod	_	TokenRange=115:127
+18	cidade	cidade	NOUN	NOUN	_	16	appos	_	TokenRange=128:134
+19	natal	natal	ADJ	ADJ	_	18	amod	_	TokenRange=135:140
+20	petista	petista	NOUN	NOUN	_	18	appos	_	TokenRange=141:148
+21	primos	primo	ADJ	ADJ	_	23	amod	_	TokenRange=149:155
+22	segundo	segundo	ADJ	ADJ	_	23	amod	_	TokenRange=156:163
+23	grau	grau	NOUN	NOUN	_	20	appos	_	TokenRange=164:168
+24	expresidente	expresidente	NOUN	NOUN	_	23	appos	_	TokenRange=169:181
+25	luiz	luiz	ADJ	ADJ	_	23	appos	_	TokenRange=182:186
+26	inacio	_	NOUN	NOUN	_	25	flat	_	TokenRange=187:193
+27	lula	_	NOUN	NOUN	_	25	flat	_	TokenRange=194:198
+28	silva	silva	NOUN	NOUN	_	25	flat	_	TokenRange=199:204
+29	organizando	organizar	VERB	VERB	_	3	acl	_	TokenRange=205:216
+30	manifestacao	manifestacao	NOUN	NOUN	_	29	obj	_	TokenRange=217:229
+31	garanhuns	garanhun	NOUN	NOUN	_	30	amod	_	TokenRange=230:239
+32	pe	_	ADP	ADP	_	33	case	_	TokenRange=240:242
+33	cidade	cidade	NOUN	NOUN	_	29	nmod	_	TokenRange=243:249
+34	natal	natal	ADJ	ADJ	_	33	amod	_	TokenRange=250:255
+35	lula	lula	NOUN	NOUN	_	33	appos	_	TokenRange=256:260
+36	proximo	proximo	ADJ	ADJ	_	37	amod	_	TokenRange=261:268
+37	dia	dia	NOUN	NOUN	_	29	nmod	_	TokenRange=269:272
+38	23	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=273:275
+39	janeiro	_	PROPN	PNOUN	_	37	nmod	_	TokenRange=276:283
+40	vespera	vespera	ADJ	NOUN	_	41	amod	_	TokenRange=284:291
+41	julgamento	julgamento	NOUN	NOUN	_	29	obj	_	TokenRange=292:302
+42	tribunal	tribunal	NOUN	NOUN	_	41	appos	_	TokenRange=303:311
+43	regional	regional	ADJ	ADJ	_	42	amod	_	TokenRange=312:320
+44	federal	federal	ADJ	ADJ	_	42	amod	_	TokenRange=321:328
+45	4	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=329:330
+46	regiao	regiao	NOUN	NOUN	_	42	appos	_	TokenRange=331:337
+47	trf4	_	NOUN	NOUN	_	46	appos	_	TokenRange=338:342
+48	porto	porto	NOUN	NOUN	_	46	appos	_	TokenRange=343:348
+49	alegre	alegre	ADJ	ADJ	_	46	amod	_	TokenRange=349:355
+50	condenacao	condenacao	NOUN	NOUN	_	46	appos	_	TokenRange=356:366
+51	petista	petista	ADJ	NOUN	_	50	amod	_	TokenRange=367:374
+52	crimes	crime	NOUN	NOUN	_	50	appos	_	TokenRange=375:381
+53	corrupcao	corrupcao	NOUN	NOUN	_	50	appos	_	TokenRange=382:391
+54	passiva	passivo	ADJ	ADJ	_	55	amod	_	TokenRange=392:399
+55	lavagem	lavagem	NOUN	NOUN	_	50	appos	_	TokenRange=400:407
+56	dinheiro	dinheiro	NOUN	NOUN	_	55	flat	_	TokenRange=408:416
+57	alem	_	ADV	ADV	_	58	advmod	_	TokenRange=417:421
+58	ato	ato	NOUN	NOUN	_	55	appos	_	TokenRange=422:425
+59	parentes	parente	NOUN	NOUN	_	60	nsubj	_	TokenRange=426:434
+60	discutem	discutir	VERB	VERB	_	3	parataxis	_	TokenRange=435:443
+61	possibilidade	possibilidade	NOUN	NOUN	_	60	obj	_	TokenRange=444:457
+62	realizacao	realizacao	ADJ	ADJ	_	61	amod	_	TokenRange=458:468
+63	vigilia	vigilia	NOUN	NOUN	_	61	appos	_	TokenRange=469:476
+64	definicao	definicao	ADJ	ADJ	_	66	amod	_	TokenRange=477:486
+65	ultimo	_	ADJ	ADJ	_	66	amod	_	TokenRange=487:493
+66	voto	voto	NOUN	NOUN	_	61	appos	_	TokenRange=494:498
+67	ainda	ainda	ADV	ADV	_	68	advmod	_	TokenRange=499:504
+68	otimista	otimista	ADJ	ADJ	_	66	amod	_	TokenRange=505:513
+69	acho	achar	VERB	VERB	_	66	acl:relcl	_	TokenRange=514:518
+70	dia	dia	NOUN	NOUN	_	69	nmod	_	TokenRange=519:522
+71	24	_	NUM	NUM	NumType=Card	70	appos	_	TokenRange=523:525
+72	podemos	_	AUX	AUX	_	73	aux	_	TokenRange=526:533
+73	fazer	fazer	VERB	VERB	_	60	parataxis	_	TokenRange=534:539
+74	grande	grande	ADJ	ADJ	_	75	amod	_	TokenRange=540:546
+75	festa	festa	NOUN	NOUN	_	73	obj	_	TokenRange=547:552
+76	cidade	cidade	NOUN	NOUN	_	73	obj	_	TokenRange=553:559
+77	absolvicao	absolvicao	ADJ	ADJ	_	76	amod	_	TokenRange=560:570
+78	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=571:576
+79	primos	primo	ADJ	NOUN	_	81	amod	_	TokenRange=577:583
+80	organizadores	organizador	ADJ	NOUN	_	78	nsubj	_	TokenRange=584:597
+81	ato	ato	NOUN	NOUN	_	78	nsubj	_	TokenRange=598:601
+82	jose	jose	NOUN	NOUN	_	81	appos	_	TokenRange=602:606
+83	moura	mouro	NOUN	NOUN	_	82	flat	_	TokenRange=607:612
+84	melo	melo	NOUN	NOUN	_	82	flat	_	SpaceAfter=No|TokenRange=613:617
+

@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado irrita chama gleisi hoffmann ladra marido vagabundo pior especie deputado wladimir costa solidariedade/pa cidadao papas lingua eleito deputado quarta vez consecutiva wladimir fez eloquentes discursos plenario camara dessa vez vitima deputado senadora petista gleisi hoffmann querem passar gleisi hoffmann passou aeroporto ladra roubou 1 milhao dolares esquema lavajato ladrona vaca patifa disse wladimir deputados assistiam sessao continuou falo marido porque vagabundo pior especie tudo farinha saco dasabafou
+1	deputado	deputado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	irrita	irrito	ADJ	ADJ	_	1	amod	_	TokenRange=9:15
+3	chama	chamar	VERB	VERB	_	0	root	_	TokenRange=16:21
+4	gleisi	gleisi	NOUN	NOUN	_	3	obj	_	TokenRange=22:28
+5	hoffmann	hoffmann	NOUN	NOUN	_	4	flat	_	TokenRange=29:37
+6	ladra	ladra	NOUN	NOUN	_	4	appos	_	TokenRange=38:43
+7	marido	marido	NOUN	NOUN	_	4	flat	_	TokenRange=44:50
+8	vagabundo	vagabundo	ADJ	ADJ	_	10	amod	_	TokenRange=51:60
+9	pior	pior	ADJ	ADJ	_	10	amod	_	TokenRange=61:65
+10	especie	especie	NOUN	NOUN	_	4	appos	_	TokenRange=66:73
+11	deputado	deputado	NOUN	NOUN	_	4	appos	_	TokenRange=74:82
+12	wladimir	_	NOUN	NOUN	_	11	appos	_	TokenRange=83:91
+13	costa	costa	NOUN	NOUN	_	12	flat	_	TokenRange=92:97
+14	solidariedade/pa	_	NOUN	NOUN	_	15	appos	_	TokenRange=98:114
+15	cidadao	cidadao	NOUN	NOUN	_	12	appos	_	TokenRange=115:122
+16	papas	_	ADJ	ADJ	_	15	amod	_	TokenRange=123:128
+17	lingua	lingua	NOUN	NOUN	_	15	appos	_	TokenRange=129:135
+18	eleito	eleger	VERB	VERB	_	19	acl	_	TokenRange=136:142
+19	deputado	deputado	NOUN	NOUN	_	17	appos	_	TokenRange=143:151
+20	quarta	_	ADJ	ADJ	_	21	amod	_	TokenRange=152:158
+21	vez	vez	NOUN	NOUN	_	24	nmod	_	TokenRange=159:162
+22	consecutiva	consecutivo	ADJ	ADJ	_	21	amod	_	TokenRange=163:174
+23	wladimir	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=175:183
+24	fez	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=184:187
+25	eloquentes	eloquente	ADJ	ADJ	_	26	amod	_	TokenRange=188:198
+26	discursos	discurso	NOUN	NOUN	_	24	obj	_	TokenRange=199:208
+27	plenario	plenario	ADJ	ADJ	_	26	amod	_	TokenRange=209:217
+28	camara	camara	NOUN	NOUN	_	24	obj	_	TokenRange=218:224
+29	dessa	_	ADP	ADP	_	30	case	_	TokenRange=225:230
+30	vez	vez	NOUN	NOUN	_	24	nmod	_	TokenRange=231:234
+31	vitima	_	ADJ	ADJ	_	32	amod	_	TokenRange=235:241
+32	deputado	deputado	NOUN	NOUN	_	24	nsubj	_	TokenRange=242:250
+33	senadora	senador	NOUN	NOUN	_	32	appos	_	TokenRange=251:259
+34	petista	petista	ADJ	NOUN	_	32	amod	_	TokenRange=260:267
+35	gleisi	_	NOUN	NOUN	_	32	appos	_	TokenRange=268:274
+36	hoffmann	_	NOUN	NOUN	_	35	flat	_	TokenRange=275:283
+37	querem	querer	VERB	VERB	_	32	acl:relcl	_	TokenRange=284:290
+38	passar	passar	VERB	VERB	_	37	xcomp	_	TokenRange=291:297
+39	gleisi	gleisi	NOUN	NOUN	_	41	nsubj	_	TokenRange=298:304
+40	hoffmann	hoffmann	NOUN	NOUN	_	39	flat	_	TokenRange=305:313
+41	passou	passar	VERB	VERB	_	38	ccomp	_	TokenRange=314:320
+42	aeroporto	aeroporto	NOUN	NOUN	_	41	obj	_	TokenRange=321:330
+43	ladra	ladra	NOUN	NOUN	_	44	nsubj	_	TokenRange=331:336
+44	roubou	roubar	VERB	VERB	_	41	conj	_	TokenRange=337:343
+45	1	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=344:345
+46	milhao	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=346:352
+47	dolares	dolar	NOUN	NOUN	_	44	obj	_	TokenRange=353:360
+48	esquema	esquema	NOUN	NOUN	_	44	obj	_	TokenRange=361:368
+49	lavajato	lavajato	NOUN	NOUN	_	48	appos	_	TokenRange=369:377
+50	ladrona	_	NOUN	NOUN	_	48	appos	_	TokenRange=378:385
+51	vaca	_	ADJ	ADJ	_	50	amod	_	TokenRange=386:390
+52	patifa	patifa	NOUN	NOUN	_	53	nsubj	_	TokenRange=391:397
+53	disse	dizer	VERB	VERB	_	44	parataxis	_	TokenRange=398:403
+54	wladimir	wladimir	VERB	VERB	_	53	obj	_	TokenRange=404:412
+55	deputados	deputado	NOUN	NOUN	_	56	nsubj	_	TokenRange=413:422
+56	assistiam	assistir	VERB	VERB	_	54	ccomp	_	TokenRange=423:432
+57	sessao	sessao	NOUN	NOUN	_	56	obj	_	TokenRange=433:439
+58	continuou	continuar	VERB	VERB	_	56	parataxis	_	TokenRange=440:449
+59	falo	_	ADJ	ADJ	_	60	amod	_	TokenRange=450:454
+60	marido	marido	NOUN	NOUN	_	58	nsubj	_	TokenRange=455:461
+61	porque	_	CCONJ	CONJ	_	67	mark	_	TokenRange=462:468
+62	vagabundo	vagabundo	NOUN	NOUN	_	64	det	_	TokenRange=469:478
+63	pior	pior	ADJ	ADJ	_	64	amod	_	TokenRange=479:483
+64	especie	especie	NOUN	NOUN	_	67	nsubj	_	TokenRange=484:491
+65	tudo	_	DET	PRON	_	66	det	_	TokenRange=492:496
+66	farinha	farinha	NOUN	NOUN	_	68	nsubj	_	TokenRange=497:504
+67	saco	sacar	VERB	VERB	_	68	ccomp	_	TokenRange=505:509
+68	dasabafou	dasabafar	VERB	VERB	_	58	parataxis	_	SpaceAfter=No|TokenRange=510:519
+

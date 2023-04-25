@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria diz estar consciencia tranquila apos adiamento reforma previdencia sp projeto retirado pauta camara terca 27 discussoes medida representa derrota prefeito chegou dizer projeto aprovado prefeito joao doria disse nesta quarta 28 cumpriu papel questao reforma previdencia municipal paulo consciencia tranquila
+1	doria	doria	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	estar	estar	VERB	VERB	_	2	xcomp	_	TokenRange=10:15
+4	consciencia	consciencia	NOUN	NOUN	_	3	obj	_	TokenRange=16:27
+5	tranquila	tranquilo	ADJ	ADJ	_	4	amod	_	TokenRange=28:37
+6	apos	_	ADP	ADP	_	7	case	_	TokenRange=38:42
+7	adiamento	adiamento	NOUN	NOUN	_	3	nmod	_	TokenRange=43:52
+8	reforma	reforma	NOUN	NOUN	_	7	appos	_	TokenRange=53:60
+9	previdencia	previdencia	NOUN	NOUN	_	8	flat	_	TokenRange=61:72
+10	sp	_	NOUN	NOUN	_	11	amod	_	TokenRange=73:75
+11	projeto	projeto	NOUN	NOUN	_	7	appos	_	TokenRange=76:83
+12	retirado	retirar	VERB	VERB	_	11	acl	_	TokenRange=84:92
+13	pauta	pauta	NOUN	NOUN	_	11	appos	_	TokenRange=93:98
+14	camara	camara	NOUN	NOUN	_	13	appos	_	TokenRange=99:105
+15	terca	terca	NOUN	NOUN	_	14	flat	_	TokenRange=106:111
+16	27	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=112:114
+17	discussoes	discussoe	NOUN	NOUN	_	19	nsubj	_	TokenRange=115:125
+18	medida	medida	NOUN	NOUN	_	19	nsubj	_	TokenRange=126:132
+19	representa	representar	VERB	VERB	_	2	parataxis	_	TokenRange=133:143
+20	derrota	derrota	NOUN	NOUN	_	19	obj	_	TokenRange=144:151
+21	prefeito	prefeito	NOUN	NOUN	_	23	nsubj	_	TokenRange=152:160
+22	chegou	chegar	AUX	AUX	_	23	aux	_	TokenRange=161:167
+23	dizer	dizer	VERB	VERB	_	19	parataxis	_	TokenRange=168:173
+24	projeto	projeto	NOUN	NOUN	_	23	obj	_	TokenRange=174:181
+25	aprovado	aprovado	ADJ	ADJ	_	24	amod	_	TokenRange=182:190
+26	prefeito	prefeito	NOUN	NOUN	_	23	nsubj	_	TokenRange=191:199
+27	joao	joao	ADJ	ADJ	_	26	appos	_	TokenRange=200:204
+28	doria	doria	NOUN	NOUN	_	27	flat	_	TokenRange=205:210
+29	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=211:216
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=217:222
+31	quarta	_	PROPN	PNOUN	_	33	nmod	_	TokenRange=223:229
+32	28	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=230:232
+33	cumpriu	cumprir	VERB	VERB	_	29	ccomp	_	TokenRange=233:240
+34	papel	papel	NOUN	NOUN	_	33	obj	_	TokenRange=241:246
+35	questao	questao	NOUN	NOUN	_	36	amod	_	TokenRange=247:254
+36	reforma	reforma	NOUN	NOUN	_	33	obj	_	TokenRange=255:262
+37	previdencia	previdencia	NOUN	NOUN	_	36	amod	_	TokenRange=263:274
+38	municipal	municipal	ADJ	ADJ	_	36	amod	_	TokenRange=275:284
+39	paulo	paulo	ADJ	ADJ	_	40	amod	_	TokenRange=285:290
+40	consciencia	consciencia	NOUN	NOUN	_	36	appos	_	TokenRange=291:302
+41	tranquila	tranquilo	ADJ	ADJ	_	40	amod	_	SpaceAfter=No|TokenRange=303:312
+

@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = site hospedado hungria vaza telefone fixo endereco celular email brasileiros site informa endereco telefones incluindo celulares alguns casos email brasileiros
+1	site	site	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:4
+2	hospedado	hospedado	ADJ	ADJ	_	1	amod	_	TokenRange=5:14
+3	hungria	hungria	NOUN	NOUN	_	1	appos	_	TokenRange=15:22
+4	vaza	_	NOUN	NOUN	_	5	amod	_	TokenRange=23:27
+5	telefone	telefone	NOUN	NOUN	_	1	appos	_	TokenRange=28:36
+6	fixo	fixo	ADJ	ADJ	_	5	amod	_	TokenRange=37:41
+7	endereco	endereco	NOUN	NOUN	_	5	appos	_	TokenRange=42:50
+8	celular	_	ADJ	ADJ	_	7	amod	_	TokenRange=51:58
+9	email	email	NOUN	NOUN	_	5	appos	_	TokenRange=59:64
+10	brasileiros	brasileiro	ADJ	ADJ	_	9	amod	_	TokenRange=65:76
+11	site	site	NOUN	NOUN	_	12	nsubj	_	TokenRange=77:81
+12	informa	informar	VERB	VERB	_	0	root	_	TokenRange=82:89
+13	endereco	endereco	NOUN	NOUN	_	12	obj	_	TokenRange=90:98
+14	telefones	telefone	NOUN	NOUN	_	13	flat	_	TokenRange=99:108
+15	incluindo	incluir	VERB	VERB	_	13	acl	_	TokenRange=109:118
+16	celulares	_	NOUN	NOUN	_	15	obj	_	TokenRange=119:128
+17	alguns	_	DET	DET	_	18	det	_	TokenRange=129:135
+18	casos	caso	NOUN	NOUN	_	15	obj	_	TokenRange=136:141
+19	email	email	NOUN	NOUN	_	18	appos	_	TokenRange=142:147
+20	brasileiros	brasileiro	ADJ	ADJ	_	18	amod	_	SpaceAfter=No|TokenRange=148:159
+

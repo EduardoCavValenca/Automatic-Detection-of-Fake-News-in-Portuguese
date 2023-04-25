@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rio janeiro chuta pacientes hospitais cancela cirurgias atender demanda olimpica informacoes emissora globo news varios pacientes sendo dispensados cirurgias sendo desmarcadas hospitais federais dar conta reserva leitos olimpiada rio janeiro pacientes procuram emergencias receberao atendimentos aproximadamente 20 leitos bloqueados ortopedia cirurgia geral ginecologia pediatria cerca 21 mil pacientes aguardando cirurgia ministerio saude nega tudo
+1	rio	_	ADJ	ADJ	_	3	nsubj	_	TokenRange=0:3
+2	janeiro	_	PROPN	PNOUN	_	3	nsubj	_	TokenRange=4:11
+3	chuta	chutar	VERB	VERB	_	0	root	_	TokenRange=12:17
+4	pacientes	paciente	NOUN	NOUN	_	3	obj	_	TokenRange=18:27
+5	hospitais	hospital	ADJ	ADJ	_	4	amod	_	TokenRange=28:37
+6	cancela	cancelar	VERB	VERB	_	3	ccomp	_	TokenRange=38:45
+7	cirurgias	cirurgia	NOUN	NOUN	_	8	obj	_	TokenRange=46:55
+8	atender	atender	VERB	VERB	_	4	acl:inf	_	TokenRange=56:63
+9	demanda	demanda	NOUN	NOUN	_	8	obj	_	TokenRange=64:71
+10	olimpica	olimpico	ADJ	ADJ	_	9	amod	_	TokenRange=72:80
+11	informacoes	_	NOUN	NOUN	_	9	appos	_	TokenRange=81:92
+12	emissora	_	NOUN	NOUN	_	13	appos	_	TokenRange=93:101
+13	globo	globo	NOUN	NOUN	_	11	appos	_	TokenRange=102:107
+14	news	_	X	X	_	13	flat	_	TokenRange=108:112
+15	varios	_	DET	DET	_	16	det	_	TokenRange=113:119
+16	pacientes	paciente	NOUN	NOUN	_	3	nsubj	_	TokenRange=120:129
+17	sendo	ser	AUX	AUX	_	18	aux:pass	_	TokenRange=130:135
+18	dispensados	dispensar	VERB	VERB	_	16	acl	_	TokenRange=136:147
+19	cirurgias	cirurgia	NOUN	NOUN	_	18	nsubj:pass	_	TokenRange=148:157
+20	sendo	ser	AUX	AUX	_	21	aux:pass	_	TokenRange=158:163
+21	desmarcadas	desmarcar	VERB	VERB	_	16	acl	_	TokenRange=164:175
+22	hospitais	hospital	NOUN	NOUN	_	21	nsubj:pass	_	TokenRange=176:185
+23	federais	federal	ADJ	ADJ	_	22	amod	_	TokenRange=186:194
+24	dar	dar	VERB	VERB	_	22	acl:inf	_	TokenRange=195:198
+25	conta	conta	NOUN	NOUN	_	24	obj	_	TokenRange=199:204
+26	reserva	reserva	NOUN	NOUN	_	25	flat	_	TokenRange=205:212
+27	leitos	leito	NOUN	NOUN	_	25	appos	_	TokenRange=213:219
+28	olimpiada	olimpiado	ADJ	ADJ	_	27	amod	_	TokenRange=220:229
+29	rio	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=230:233
+30	janeiro	_	PROPN	PNOUN	_	29	flat	_	TokenRange=234:241
+31	pacientes	paciente	NOUN	NOUN	_	32	nsubj	_	TokenRange=242:251
+32	procuram	procurar	VERB	VERB	_	3	parataxis	_	TokenRange=252:260
+33	emergencias	emergencia	NOUN	NOUN	_	32	obj	_	TokenRange=261:272
+34	receberao	receber	VERB	VERB	_	32	ccomp	_	TokenRange=273:282
+35	atendimentos	atendimento	NOUN	NOUN	_	34	obj	_	TokenRange=283:295
+36	aproximadamente	aproximadamente	ADV	ADV	_	37	advmod	_	TokenRange=296:311
+37	20	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=312:314
+38	leitos	leito	NOUN	NOUN	_	34	nsubj	_	TokenRange=315:321
+39	bloqueados	bloqueado	ADJ	ADJ	_	38	amod	_	TokenRange=322:332
+40	ortopedia	ortopedia	ADJ	ADJ	_	41	amod	_	TokenRange=333:342
+41	cirurgia	cirurgia	NOUN	NOUN	_	38	appos	_	TokenRange=343:351
+42	geral	geral	ADJ	ADJ	_	41	amod	_	TokenRange=352:357
+43	ginecologia	ginecologia	NOUN	NOUN	_	41	appos	_	TokenRange=358:369
+44	pediatria	pediatrio	ADJ	ADJ	_	41	amod	_	TokenRange=370:379
+45	cerca	cerca	ADV	ADV	_	47	advmod	_	TokenRange=380:385
+46	21	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=386:388
+47	mil	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=389:392
+48	pacientes	paciente	NOUN	NOUN	_	53	nsubj	_	TokenRange=393:402
+49	aguardando	aguardar	VERB	VERB	_	48	acl	_	TokenRange=403:413
+50	cirurgia	cirurgia	NOUN	NOUN	_	49	obj	_	TokenRange=414:422
+51	ministerio	ministerio	ADJ	ADJ	_	50	amod	_	TokenRange=423:433
+52	saude	saude	NOUN	NOUN	_	53	nsubj	_	TokenRange=434:439
+53	nega	negar	VERB	VERB	_	3	parataxis	_	TokenRange=440:444
+54	tudo	_	PRON	PRON	_	53	obj	_	SpaceAfter=No|TokenRange=445:449
+

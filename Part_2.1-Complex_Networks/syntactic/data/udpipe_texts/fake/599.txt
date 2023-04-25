@@ -1,0 +1,33 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bispo pede uniao catolicos evangelicos outras religioes abandonem globo tv demonio dom celso antonio marchiori sacerdote catolico bispo diocesano apucarana estado parana poupou palavras sermao
+1	bispo	bispo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	uniao	uniao	NOUN	NOUN	_	2	obj	_	TokenRange=11:16
+4	catolicos	_	ADJ	ADJ	_	3	amod	_	TokenRange=17:26
+5	evangelicos	evangelico	ADJ	ADJ	_	3	amod	_	TokenRange=27:38
+6	outras	_	DET	DET	_	7	det	_	TokenRange=39:45
+7	religioes	religioe	NOUN	NOUN	_	8	nsubj	_	TokenRange=46:55
+8	abandonem	abandonar	VERB	VERB	_	2	parataxis	_	TokenRange=56:65
+9	globo	globo	NOUN	NOUN	_	8	obj	_	TokenRange=66:71
+10	tv	_	NOUN	NOUN	_	9	flat	_	TokenRange=72:74
+11	demonio	demonio	NOUN	NOUN	_	9	appos	_	TokenRange=75:82
+12	dom	dom	NOUN	NOUN	_	23	nsubj	_	TokenRange=83:86
+13	celso	_	NOUN	NOUN	_	12	flat	_	TokenRange=87:92
+14	antonio	antonio	ADJ	ADJ	_	16	amod	_	TokenRange=93:100
+15	marchiori	marchiori	ADJ	ADJ	_	16	amod	_	TokenRange=101:110
+16	sacerdote	sacerdote	NOUN	NOUN	_	12	appos	_	TokenRange=111:120
+17	catolico	catolico	ADJ	ADJ	_	16	amod	_	TokenRange=121:129
+18	bispo	bispo	NOUN	NOUN	_	16	appos	_	TokenRange=130:135
+19	diocesano	diocesano	ADJ	ADJ	_	18	amod	_	TokenRange=136:145
+20	apucarana	apucarano	ADJ	ADJ	_	18	amod	_	TokenRange=146:155
+21	estado	estado	NOUN	NOUN	_	18	appos	_	TokenRange=156:162
+22	parana	parana	ADJ	ADJ	_	21	amod	_	TokenRange=163:169
+23	poupou	poupar	VERB	VERB	_	2	conj	_	TokenRange=170:176
+24	palavras	palavra	NOUN	NOUN	_	23	obj	_	TokenRange=177:185
+25	sermao	sermao	NOUN	NOUN	_	24	appos	_	SpaceAfter=No|TokenRange=186:192
+

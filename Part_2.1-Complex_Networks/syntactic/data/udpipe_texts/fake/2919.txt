@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = voto numero 342 dara sim definitivo podera estado paraiba faltam somente 25 votos dilma afastada andamento carruagem tudo indica estado paraiba podera fazer tao sonhado voto numero 342 caso ocorra estado pernambuco passara regua deus ilumine paraiba deus ilumine pernambuco dilma
+1	voto	voto	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	numero	numero	NOUN	NOUN	_	1	appos	_	TokenRange=5:11
+3	342	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:15
+4	dara	_	VERB	VERB	_	0	root	_	TokenRange=16:20
+5	sim	sim	NOUN	NOUN	_	4	obj	_	TokenRange=21:24
+6	definitivo	definitivo	ADJ	ADJ	_	5	amod	_	TokenRange=25:35
+7	podera	_	AUX	AUX	_	4	aux	_	TokenRange=36:42
+8	estado	estado	NOUN	NOUN	_	4	nsubj	_	TokenRange=43:49
+9	paraiba	paraiba	ADJ	ADJ	_	8	amod	_	TokenRange=50:57
+10	faltam	faltar	VERB	VERB	_	4	parataxis	_	TokenRange=58:64
+11	somente	somente	ADV	ADV	_	12	advmod	_	TokenRange=65:72
+12	25	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=73:75
+13	votos	voto	NOUN	NOUN	_	10	nsubj	_	TokenRange=76:81
+14	dilma	dilma	NOUN	NOUN	_	16	appos	_	TokenRange=82:87
+15	afastada	afastar	VERB	ADJ	_	16	acl	_	TokenRange=88:96
+16	andamento	andamento	NOUN	NOUN	_	10	nsubj	_	TokenRange=97:106
+17	carruagem	carruagem	NOUN	NOUN	_	16	appos	_	TokenRange=107:116
+18	tudo	_	PRON	PRON	_	19	nsubj	_	TokenRange=117:121
+19	indica	indicar	VERB	VERB	_	16	acl:relcl	_	TokenRange=122:128
+20	estado	estado	NOUN	NOUN	_	19	nsubj	_	TokenRange=129:135
+21	paraiba	paraiba	ADJ	ADJ	_	20	amod	_	TokenRange=136:143
+22	podera	_	AUX	AUX	_	23	aux	_	TokenRange=144:150
+23	fazer	fazer	VERB	VERB	_	4	conj	_	TokenRange=151:156
+24	tao	tao	ADV	ADV	_	25	advmod	_	TokenRange=157:160
+25	sonhado	sonhado	ADJ	ADJ	_	26	amod	_	TokenRange=161:168
+26	voto	voto	NOUN	NOUN	_	23	obj	_	TokenRange=169:173
+27	numero	numero	NOUN	NOUN	_	26	appos	_	TokenRange=174:180
+28	342	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=181:184
+29	caso	_	CCONJ	CONJ	_	30	mark	_	TokenRange=185:189
+30	ocorra	ocorrer	VERB	VERB	_	23	advcl	_	TokenRange=190:196
+31	estado	estado	NOUN	NOUN	_	30	nsubj	_	TokenRange=197:203
+32	pernambuco	pernambuco	ADJ	ADJ	_	31	amod	_	TokenRange=204:214
+33	passara	passar	AUX	VERB	_	34	cop	_	TokenRange=215:222
+34	regua	regua	NOUN	NOUN	_	30	nsubj	_	TokenRange=223:228
+35	deus	_	NOUN	NOUN	_	34	flat	_	TokenRange=229:233
+36	ilumine	ilumine	ADJ	ADJ	_	34	amod	_	TokenRange=234:241
+37	paraiba	paraiba	NOUN	NOUN	_	34	appos	_	TokenRange=242:249
+38	deus	_	NOUN	NOUN	_	39	flat	_	TokenRange=250:254
+39	ilumine	ilumine	ADJ	ADJ	_	34	amod	_	TokenRange=255:262
+40	pernambuco	pernambuco	NOUN	NOUN	_	41	flat	_	TokenRange=263:273
+41	dilma	dilma	ADJ	ADJ	_	39	amod	_	SpaceAfter=No|TokenRange=274:279
+

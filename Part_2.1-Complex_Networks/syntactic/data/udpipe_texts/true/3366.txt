@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pedidos vista suspendem 50 julgamentos neste ano supremo ministro pede vista necessita tempo estudar caso antes proferir voto foro privilegiado julgamentos interrompidos pedido vista supremo tribunal federal stf terminou 2017 concluir 50 julgamentos iniciados plenario interrompidos chamados pedidos vista veja final desta reportagtem lista alguns casos suspensos pedido vista neste ano comuns rotina tribunais pedidos vista formulados durante sessao magistrados diz necessitar tempo estudar assunto elaborar
+1	pedidos	pedido	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	vista	vista	ADJ	ADJ	_	1	amod	_	TokenRange=8:13
+3	suspendem	suspender	VERB	VERB	_	0	root	_	TokenRange=14:23
+4	50	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=24:26
+5	julgamentos	julgamento	NOUN	NOUN	_	3	obj	_	TokenRange=27:38
+6	neste	_	ADP	ADP	_	7	case	_	TokenRange=39:44
+7	ano	ano	NOUN	NOUN	_	3	nmod	_	TokenRange=45:48
+8	supremo	supremo	ADJ	ADJ	_	9	amod	_	TokenRange=49:56
+9	ministro	ministro	NOUN	NOUN	_	10	nsubj	_	TokenRange=57:65
+10	pede	pedir	VERB	VERB	_	3	parataxis	_	TokenRange=66:70
+11	vista	vista	NOUN	NOUN	_	10	obj	_	TokenRange=71:76
+12	necessita	necessitar	VERB	VERB	_	3	conj	_	TokenRange=77:86
+13	tempo	tempo	NOUN	NOUN	_	14	obj	_	TokenRange=87:92
+14	estudar	estudar	VERB	VERB	_	10	ccomp	_	TokenRange=93:100
+15	caso	caso	NOUN	NOUN	_	14	obj	_	TokenRange=101:105
+16	antes	antes	ADV	ADV	_	17	advmod	_	TokenRange=106:111
+17	proferir	proferir	VERB	VERB	_	14	advcl	_	TokenRange=112:120
+18	voto	voto	NOUN	NOUN	_	17	obj	_	TokenRange=121:125
+19	foro	foro	NOUN	NOUN	_	21	appos	_	TokenRange=126:130
+20	privilegiado	privilegiado	ADJ	ADJ	_	21	amod	_	TokenRange=131:143
+21	julgamentos	julgamento	NOUN	NOUN	_	18	appos	_	TokenRange=144:155
+22	interrompidos	interrompido	ADJ	ADJ	_	21	amod	_	TokenRange=156:169
+23	pedido	pedido	NOUN	NOUN	_	29	nsubj	_	TokenRange=170:176
+24	vista	vista	ADJ	ADJ	_	23	amod	_	TokenRange=177:182
+25	supremo	supremo	ADJ	ADJ	_	26	amod	_	TokenRange=183:190
+26	tribunal	tribunal	NOUN	NOUN	_	29	nsubj	_	TokenRange=191:199
+27	federal	federal	ADJ	ADJ	_	26	amod	_	TokenRange=200:207
+28	stf	_	NOUN	NOUN	_	26	amod	_	TokenRange=208:211
+29	terminou	terminar	VERB	VERB	_	3	parataxis	_	TokenRange=212:220
+30	2017	_	NUM	NUM	NumType=Card	29	nmod	_	TokenRange=221:225
+31	concluir	concluir	VERB	VERB	_	29	ccomp	_	TokenRange=226:234
+32	50	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=235:237
+33	julgamentos	julgamento	NOUN	NOUN	_	31	obj	_	TokenRange=238:249
+34	iniciados	iniciar	VERB	VERB	_	33	acl	_	TokenRange=250:259
+35	plenario	plenario	NOUN	NOUN	_	34	nsubj	_	TokenRange=260:268
+36	interrompidos	interrompido	ADJ	ADJ	_	38	amod	_	TokenRange=269:282
+37	chamados	chamar	ADJ	ADJ	_	38	acl	_	TokenRange=283:291
+38	pedidos	pedido	NOUN	NOUN	_	34	nsubj	_	TokenRange=292:299
+39	vista	vista	ADJ	ADJ	_	38	amod	_	TokenRange=300:305
+40	veja	ver	VERB	VERB	_	3	parataxis	_	TokenRange=306:310
+41	final	final	NOUN	NOUN	_	40	obj	_	TokenRange=311:316
+42	desta	_	ADP	ADP	_	43	case	_	TokenRange=317:322
+43	reportagtem	_	NOUN	NOUN	_	41	nmod	_	TokenRange=323:334
+44	lista	listar	VERB	VERB	_	3	parataxis	_	TokenRange=335:340
+45	alguns	_	DET	DET	_	46	det	_	TokenRange=341:347
+46	casos	caso	NOUN	NOUN	_	44	obj	_	TokenRange=348:353
+47	suspensos	suspenso	ADJ	ADJ	_	46	amod	_	TokenRange=354:363
+48	pedido	pedido	NOUN	NOUN	_	46	appos	_	TokenRange=364:370
+49	vista	vista	NOUN	NOUN	_	48	flat	_	TokenRange=371:376
+50	neste	_	ADP	ADP	_	51	case	_	TokenRange=377:382
+51	ano	ano	NOUN	NOUN	_	44	nmod	_	TokenRange=383:386
+52	comuns	comum	ADJ	ADJ	_	53	amod	_	TokenRange=387:393
+53	rotina	rotina	NOUN	NOUN	_	61	nsubj	_	TokenRange=394:400
+54	tribunais	tribunal	ADJ	ADJ	_	55	amod	_	TokenRange=401:410
+55	pedidos	pedido	NOUN	NOUN	_	61	nsubj	_	TokenRange=411:418
+56	vista	vista	ADJ	ADJ	_	55	amod	_	TokenRange=419:424
+57	formulados	formular	VERB	VERB	_	55	acl	_	TokenRange=425:435
+58	durante	_	ADP	ADP	_	59	case	_	TokenRange=436:443
+59	sessao	sessao	NOUN	NOUN	_	57	nmod	_	TokenRange=444:450
+60	magistrados	magistrado	NOUN	NOUN	_	59	amod	_	TokenRange=451:462
+61	diz	dizer	VERB	VERB	_	44	parataxis	_	TokenRange=463:466
+62	necessitar	necessitar	VERB	VERB	_	61	xcomp	_	TokenRange=467:477
+63	tempo	tempo	NOUN	NOUN	_	62	obj	_	TokenRange=478:483
+64	estudar	estudar	VERB	VERB	_	62	ccomp	_	TokenRange=484:491
+65	assunto	assunto	NOUN	NOUN	_	66	obj	_	TokenRange=492:499
+66	elaborar	elaborar	VERB	VERB	_	62	ccomp	_	SpaceAfter=No|TokenRange=500:508
+

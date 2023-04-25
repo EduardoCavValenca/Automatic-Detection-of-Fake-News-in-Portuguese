@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = frieza prepotencia ironia joesley pode comprar 5 deputados 30 milhoes conta empresario mostra comprou deputados evitar impeachment dilma 222 min dia joao referindo deputado joao bacelar pr/ba paulo botei joao pra conversar guido referindo exministro guido mantega 410 min joao apareceu la casa disse precisamos comprar uns deputados ganhar eleicao referindo votacao impeachment 424 min joao mostrou lista uns 30 deputados 5 milhoes cada gente ganha impeachment tal 445 min disse assim joao 5 deputados r 3 milhoes pode comprar conta assista video inteiro fique nauseas
+1	frieza	frieza	ADJ	ADJ	_	0	root	_	TokenRange=0:6
+2	prepotencia	prepotencia	ADJ	ADJ	_	3	amod	_	TokenRange=7:18
+3	ironia	ironia	NOUN	NOUN	_	1	nsubj	_	TokenRange=19:25
+4	joesley	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=26:33
+5	pode	_	AUX	AUX	_	6	aux	_	TokenRange=34:38
+6	comprar	comprar	VERB	VERB	_	1	acl:relcl	_	TokenRange=39:46
+7	5	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=47:48
+8	deputados	deputado	NOUN	NOUN	_	6	obj	_	TokenRange=49:58
+9	30	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=59:61
+10	milhoes	_	NOUN	NOUN	_	6	obj	_	TokenRange=62:69
+11	conta	conta	NOUN	NOUN	_	6	obj	_	TokenRange=70:75
+12	empresario	empresario	NOUN	NOUN	_	11	flat	_	TokenRange=76:86
+13	mostra	mostrar	NOUN	NOUN	_	14	nsubj	_	TokenRange=87:93
+14	comprou	comprar	VERB	VERB	_	6	conj	_	TokenRange=94:101
+15	deputados	deputado	NOUN	NOUN	_	14	obj	_	TokenRange=102:111
+16	evitar	evitar	VERB	VERB	_	14	ccomp	_	TokenRange=112:118
+17	impeachment	impeachment	NOUN	NOUN	_	16	obj	_	TokenRange=119:130
+18	dilma	_	NOUN	NOUN	_	17	appos	_	TokenRange=131:136
+19	222	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=137:140
+20	min	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=141:144
+21	dia	dia	NOUN	NOUN	_	17	appos	_	TokenRange=145:148
+22	joao	joao	ADJ	NOUN	_	21	amod	_	TokenRange=149:153
+23	referindo	referir	VERB	VERB	_	21	acl	_	TokenRange=154:163
+24	deputado	deputado	NOUN	NOUN	_	23	obj	_	TokenRange=164:172
+25	joao	joao	ADJ	ADJ	_	24	amod	_	TokenRange=173:177
+26	bacelar	bacelar	NOUN	NOUN	_	24	appos	_	TokenRange=178:185
+27	pr/ba	_	NOUN	NOUN	_	24	appos	_	TokenRange=186:191
+28	paulo	paulo	NOUN	NOUN	_	27	flat	_	TokenRange=192:197
+29	botei	botei	NOUN	NOUN	_	27	flat	_	TokenRange=198:203
+30	joao	joao	NOUN	NOUN	_	29	flat	_	TokenRange=204:208
+31	pra	_	ADP	ADP	_	32	mark	_	TokenRange=209:212
+32	conversar	conversar	VERB	VERB	_	23	advcl	_	TokenRange=213:222
+33	guido	guido	NOUN	NOUN	_	32	obj	_	TokenRange=223:228
+34	referindo	referir	VERB	VERB	_	32	acl	_	TokenRange=229:238
+35	exministro	exministro	NOUN	NOUN	_	34	obj	_	TokenRange=239:249
+36	guido	guido	NOUN	NOUN	_	35	appos	_	TokenRange=250:255
+37	mantega	mantega	NOUN	NOUN	_	35	flat	_	TokenRange=256:263
+38	410	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=264:267
+39	min	_	NUM	NUM	NumType=Card	41	nsubj	_	TokenRange=268:271
+40	joao	joao	NOUN	NOUN	_	41	nsubj	_	TokenRange=272:276
+41	apareceu	aparecer	VERB	VERB	_	6	conj	_	TokenRange=277:285
+42	la	_	DET	DET	_	43	det	_	TokenRange=286:288
+43	casa	casa	NOUN	NOUN	_	41	nsubj	_	TokenRange=289:293
+44	disse	dizer	VERB	VERB	_	41	conj	_	TokenRange=294:299
+45	precisamos	precisar	VERB	VERB	_	44	ccomp	_	TokenRange=300:310
+46	comprar	comprar	VERB	VERB	_	45	xcomp	_	TokenRange=311:318
+47	uns	_	DET	DET	_	48	det	_	TokenRange=319:322
+48	deputados	deputado	NOUN	NOUN	_	46	obj	_	TokenRange=323:332
+49	ganhar	ganhar	VERB	VERB	_	46	ccomp	_	TokenRange=333:339
+50	eleicao	eleicao	NOUN	NOUN	_	49	obj	_	TokenRange=340:347
+51	referindo	referir	VERB	VERB	_	49	acl	_	TokenRange=348:357
+52	votacao	votacao	NOUN	NOUN	_	51	obj	_	TokenRange=358:365
+53	impeachment	impeachment	NOUN	NOUN	_	52	flat	_	TokenRange=366:377
+54	424	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=378:381
+55	min	_	NUM	NUM	NumType=Card	57	nsubj	_	TokenRange=382:385
+56	joao	joao	ADJ	ADJ	_	55	amod	_	TokenRange=386:390
+57	mostrou	mostrar	VERB	VERB	_	45	conj	_	TokenRange=391:398
+58	lista	lista	NOUN	NOUN	_	57	obj	_	TokenRange=399:404
+59	uns	_	DET	DET	_	61	det	_	TokenRange=405:408
+60	30	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=409:411
+61	deputados	deputado	NOUN	NOUN	_	66	nsubj	_	TokenRange=412:421
+62	5	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=422:423
+63	milhoes	_	NOUN	NOUN	_	61	nummod	_	TokenRange=424:431
+64	cada	_	DET	DET	_	65	det	_	TokenRange=432:436
+65	gente	gente	NOUN	NOUN	_	66	nsubj	_	TokenRange=437:442
+66	ganha	ganhar	VERB	VERB	_	57	ccomp	_	TokenRange=443:448
+67	impeachment	impeachment	NOUN	NOUN	_	66	obj	_	TokenRange=449:460
+68	tal	_	DET	DET	_	70	det	_	TokenRange=461:464
+69	445	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=465:468
+70	min	_	NUM	NUM	NumType=Card	71	nsubj	_	TokenRange=469:472
+71	disse	dizer	VERB	VERB	_	66	parataxis	_	TokenRange=473:478
+72	assim	assim	ADV	ADV	_	71	advmod	_	TokenRange=479:484
+73	joao	joao	NOUN	NOUN	_	75	flat	_	TokenRange=485:489
+74	5	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=490:491
+75	deputados	deputado	NOUN	NOUN	_	80	obj	_	TokenRange=492:501
+76	r	r	NOUN	NOUN	_	80	nsubj	_	TokenRange=502:503
+77	3	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=504:505
+78	milhoes	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=506:513
+79	pode	_	AUX	AUX	_	80	aux	_	TokenRange=514:518
+80	comprar	comprar	VERB	VERB	_	71	ccomp	_	TokenRange=519:526
+81	conta	conta	NOUN	NOUN	_	80	obj	_	TokenRange=527:532
+82	assista	assistir	VERB	VERB	_	80	parataxis	_	TokenRange=533:540
+83	video	video	NOUN	NOUN	_	85	obj	_	TokenRange=541:546
+84	inteiro	inteiro	ADJ	ADJ	_	83	amod	_	TokenRange=547:554
+85	fique	ficar	VERB	VERB	_	66	parataxis	_	TokenRange=555:560
+86	nauseas	nausea	NOUN	NOUN	_	85	obj	_	SpaceAfter=No|TokenRange=561:568
+

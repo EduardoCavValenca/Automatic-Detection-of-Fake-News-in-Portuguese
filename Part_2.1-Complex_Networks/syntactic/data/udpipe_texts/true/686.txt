@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = viuva diz premonicao antes morte nelson xavier velorio acontece caju zona portuaria manha desta quinta 11 cremacao tarde cerimonia reservada familia corpo ator nelson xavier velado capela 1 cemiterio caju zona portuaria rio manha desta quinta 11 cremado tarde cerimonia reservada familia durante toda manha grande movimentacao amigos parentes despedir ator viuva nelson xavier atriz cantora bailarina via negromonte contou 14 anos ator lidava cancer
+1	viuva	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	premonicao	premonicao	NOUN	NOUN	_	2	obj	_	TokenRange=10:20
+4	antes	antes	ADV	ADV	_	9	advmod	_	TokenRange=21:26
+5	morte	morte	NOUN	NOUN	_	2	nsubj	_	TokenRange=27:32
+6	nelson	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=33:39
+7	xavier	xavier	NOUN	NOUN	_	6	flat	_	TokenRange=40:46
+8	velorio	velorio	NOUN	NOUN	_	6	flat	_	TokenRange=47:54
+9	acontece	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=55:63
+10	caju	caju	ADJ	ADJ	_	11	amod	_	TokenRange=64:68
+11	zona	zona	NOUN	NOUN	_	9	nmod	_	TokenRange=69:73
+12	portuaria	portuaria	ADJ	ADJ	_	11	amod	_	TokenRange=74:83
+13	manha	manha	NOUN	NOUN	_	11	appos	_	TokenRange=84:89
+14	desta	_	ADP	ADP	_	15	case	_	TokenRange=90:95
+15	quinta	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=96:102
+16	11	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=103:105
+17	cremacao	cremacao	NOUN	NOUN	_	15	appos	_	TokenRange=106:114
+18	tarde	tarde	ADV	ADV	_	19	advmod	_	TokenRange=115:120
+19	cerimonia	cerimonia	NOUN	NOUN	_	9	nsubj	_	TokenRange=121:130
+20	reservada	reservado	ADJ	ADJ	_	19	amod	_	TokenRange=131:140
+21	familia	familia	NOUN	NOUN	_	19	amod	_	TokenRange=141:148
+22	corpo	corpo	NOUN	NOUN	_	19	appos	_	TokenRange=149:154
+23	ator	ator	NOUN	NOUN	_	19	appos	_	TokenRange=155:159
+24	nelson	_	ADJ	ADJ	_	22	appos	_	TokenRange=160:166
+25	xavier	xavier	NOUN	NOUN	_	24	flat	_	TokenRange=167:173
+26	velado	velado	ADJ	ADJ	_	27	amod	_	TokenRange=174:180
+27	capela	capela	NOUN	NOUN	_	22	appos	_	TokenRange=181:187
+28	1	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=188:189
+29	cemiterio	cemiterio	NOUN	NOUN	_	27	appos	_	TokenRange=190:199
+30	caju	caju	ADJ	ADJ	_	31	amod	_	TokenRange=200:204
+31	zona	zona	NOUN	NOUN	_	27	appos	_	TokenRange=205:209
+32	portuaria	portuaria	ADJ	ADJ	_	31	amod	_	TokenRange=210:219
+33	rio	rio	NOUN	NOUN	_	31	appos	_	TokenRange=220:223
+34	manha	manha	NOUN	NOUN	_	31	appos	_	TokenRange=224:229
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=230:235
+36	quinta	_	PROPN	PNOUN	_	34	nmod	_	TokenRange=236:242
+37	11	_	NUM	NUM	NumType=Card	36	appos	_	TokenRange=243:245
+38	cremado	cremado	NOUN	NOUN	_	36	appos	_	TokenRange=246:253
+39	tarde	tarde	ADV	ADV	_	40	advmod	_	TokenRange=254:259
+40	cerimonia	cerimonia	NOUN	NOUN	_	31	appos	_	TokenRange=260:269
+41	reservada	reservado	ADJ	ADJ	_	40	amod	_	TokenRange=270:279
+42	familia	familia	NOUN	NOUN	_	40	appos	_	TokenRange=280:287
+43	durante	_	ADP	ADP	_	45	case	_	TokenRange=288:295
+44	toda	_	DET	DET	_	45	det	_	TokenRange=296:300
+45	manha	manha	NOUN	NOUN	_	40	nmod	_	TokenRange=301:306
+46	grande	grande	ADJ	ADJ	_	47	amod	_	TokenRange=307:313
+47	movimentacao	_	NOUN	NOUN	_	45	appos	_	TokenRange=314:326
+48	amigos	amigo	NOUN	NOUN	_	47	appos	_	TokenRange=327:333
+49	parentes	parente	NOUN	NOUN	_	47	amod	_	TokenRange=334:342
+50	despedir	despedir	VERB	VERB	_	40	acl:relcl	_	TokenRange=343:351
+51	ator	ator	NOUN	NOUN	_	50	obj	_	TokenRange=352:356
+52	viuva	_	ADJ	ADJ	_	51	amod	_	TokenRange=357:362
+53	nelson	_	NOUN	NOUN	_	51	appos	_	TokenRange=363:369
+54	xavier	_	NOUN	NOUN	_	52	flat	_	TokenRange=370:376
+55	atriz	_	NOUN	NOUN	_	51	appos	_	TokenRange=377:382
+56	cantora	cantor	NOUN	NOUN	_	51	appos	_	TokenRange=383:390
+57	bailarina	bailarino	ADJ	ADJ	_	56	amod	_	TokenRange=391:400
+58	via	_	ADP	ADP	_	59	case	_	TokenRange=401:404
+59	negromonte	negromonte	NOUN	NOUN	_	60	nmod	_	TokenRange=405:415
+60	contou	contar	VERB	VERB	_	2	parataxis	_	TokenRange=416:422
+61	14	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=423:425
+62	anos	ano	NOUN	NOUN	_	60	obj	_	TokenRange=426:430
+63	ator	ator	NOUN	NOUN	_	64	nsubj	_	TokenRange=431:435
+64	lidava	lidar	VERB	VERB	_	2	parataxis	_	TokenRange=436:442
+65	cancer	cancer	VERB	VERB	_	64	xcomp	_	SpaceAfter=No|TokenRange=443:449
+

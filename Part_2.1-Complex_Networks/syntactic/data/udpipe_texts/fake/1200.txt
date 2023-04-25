@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = baixaria senado lindbergh farias parte pra cima ricardo ferraco bancada chupeta cansa protagonizar espetaculos deprimentes senado senador lindbergh farias juntamente gleisi hoffman vanessa graziotin fatima bezerra gopi conseguiram transformar comissao senado show horrores vez lindbergh ainda levantou dedo cima ricardo ferraco relator comissao assuntos economicos cae finalzinho video 63605
+1	baixaria	baixaria	NOUN	NOUN	_	28	nsubj	_	TokenRange=0:8
+2	senado	senado	NOUN	NOUN	_	1	appos	_	TokenRange=9:15
+3	lindbergh	_	NOUN	NOUN	_	1	appos	_	TokenRange=16:25
+4	farias	_	ADJ	ADJ	_	3	amod	_	TokenRange=26:32
+5	parte	parte	NOUN	NOUN	_	3	appos	_	TokenRange=33:38
+6	pra	_	ADP	ADP	_	7	case	_	TokenRange=39:42
+7	cima	cima	NOUN	NOUN	_	5	nmod	_	TokenRange=43:47
+8	ricardo	ricardo	NOUN	NOUN	_	1	appos	_	TokenRange=48:55
+9	ferraco	ferraco	NOUN	NOUN	_	8	amod	_	TokenRange=56:63
+10	bancada	bancada	NOUN	NOUN	_	8	appos	_	TokenRange=64:71
+11	chupeta	_	NOUN	NOUN	_	10	amod	_	TokenRange=72:79
+12	cansa	_	NOUN	NOUN	_	10	amod	_	TokenRange=80:85
+13	protagonizar	protagonizar	VERB	VERB	_	1	parataxis	_	TokenRange=86:98
+14	espetaculos	espetaculo	NOUN	NOUN	_	13	obj	_	TokenRange=99:110
+15	deprimentes	deprimente	ADJ	ADJ	_	14	amod	_	TokenRange=111:122
+16	senado	senado	NOUN	NOUN	_	14	appos	_	TokenRange=123:129
+17	senador	senador	NOUN	NOUN	_	14	appos	_	TokenRange=130:137
+18	lindbergh	_	NOUN	NOUN	_	17	appos	_	TokenRange=138:147
+19	farias	faria	ADJ	ADJ	_	18	amod	_	TokenRange=148:154
+20	juntamente	juntamente	ADV	ADV	_	21	advmod	_	TokenRange=155:165
+21	gleisi	_	NOUN	NOUN	_	1	appos	_	TokenRange=166:172
+22	hoffman	_	NOUN	NOUN	_	21	flat	_	TokenRange=173:180
+23	vanessa	_	NOUN	NOUN	_	21	appos	_	TokenRange=181:188
+24	graziotin	_	NOUN	NOUN	_	23	flat	_	TokenRange=189:198
+25	fatima	_	NOUN	NOUN	_	23	appos	_	TokenRange=199:205
+26	bezerra	bezerra	NOUN	NOUN	_	23	flat	_	TokenRange=206:213
+27	gopi	_	NOUN	NOUN	_	25	flat	_	TokenRange=214:218
+28	conseguiram	conseguir	VERB	VERB	_	0	root	_	TokenRange=219:230
+29	transformar	transformar	VERB	VERB	_	28	xcomp	_	TokenRange=231:242
+30	comissao	comissao	NOUN	NOUN	_	29	obj	_	TokenRange=243:251
+31	senado	senado	NOUN	NOUN	_	30	appos	_	TokenRange=252:258
+32	show	show	NOUN	NOUN	_	30	appos	_	TokenRange=259:263
+33	horrores	_	NOUN	NOUN	_	32	flat	_	TokenRange=264:272
+34	vez	vez	NOUN	NOUN	_	37	nsubj	_	TokenRange=273:276
+35	lindbergh	_	NOUN	NOUN	_	34	appos	_	TokenRange=277:286
+36	ainda	ainda	ADV	ADV	_	37	advmod	_	TokenRange=287:292
+37	levantou	levantar	VERB	VERB	_	28	parataxis	_	TokenRange=293:301
+38	dedo	dedo	NOUN	NOUN	_	37	nmod	_	TokenRange=302:306
+39	cima	cima	NOUN	NOUN	_	37	nmod	_	TokenRange=307:311
+40	ricardo	ricardo	NOUN	NOUN	_	37	nsubj	_	TokenRange=312:319
+41	ferraco	ferraco	ADJ	ADJ	_	40	amod	_	TokenRange=320:327
+42	relator	relator	NOUN	NOUN	_	40	appos	_	TokenRange=328:335
+43	comissao	comissao	ADJ	ADJ	_	44	amod	_	TokenRange=336:344
+44	assuntos	assunto	NOUN	NOUN	_	40	appos	_	TokenRange=345:353
+45	economicos	economico	ADJ	ADJ	_	44	amod	_	TokenRange=354:364
+46	cae	caer	VERB	VERB	_	37	parataxis	_	TokenRange=365:368
+47	finalzinho	finalzinho	ADJ	ADJ	_	48	amod	_	TokenRange=369:379
+48	video	video	NOUN	NOUN	_	46	obj	_	TokenRange=380:385
+49	63605	_	NUM	NUM	NumType=Card	48	appos	_	SpaceAfter=No|TokenRange=386:391
+

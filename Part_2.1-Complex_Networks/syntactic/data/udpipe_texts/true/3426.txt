@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procuradorgeral republica rodrigo janot vai apontar recebimento r 350 milhoes propinas pmdb camara grupo politico lideres presidente michel temer esquema corrupcao cartel descoberto petrobras ultima denuncia criminal quadrilhao lava jato apresentada nesta semana supremo tribunal federal stf atual pgr 4 acusacoes contra politicos pp pt pmdb senado pmdb crime associacao organizacao criminosa grupo pmdb camara deputados integrou organizacao criminosa obteve
+1	procuradorgeral	procuradorgeral	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:15
+2	republica	republico	ADJ	ADJ	_	1	amod	_	TokenRange=16:25
+3	rodrigo	_	PROPN	PNOUN	_	1	appos	_	TokenRange=26:33
+4	janot	_	PROPN	NOUN	_	3	flat	_	TokenRange=34:39
+5	vai	ir	AUX	AUX	_	6	aux	_	TokenRange=40:43
+6	apontar	apontar	VERB	VERB	_	0	root	_	TokenRange=44:51
+7	recebimento	recebimento	NOUN	NOUN	_	6	obj	_	TokenRange=52:63
+8	r	r	NOUN	NOUN	_	11	case	_	TokenRange=64:65
+9	350	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=66:69
+10	milhoes	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=70:77
+11	propinas	propina	NOUN	NOUN	_	7	appos	_	TokenRange=78:86
+12	pmdb	_	NOUN	NOUN	_	13	appos	_	TokenRange=87:91
+13	camara	camara	NOUN	NOUN	_	11	appos	_	TokenRange=92:98
+14	grupo	grupo	NOUN	NOUN	_	13	appos	_	TokenRange=99:104
+15	politico	politico	ADJ	ADJ	_	14	amod	_	TokenRange=105:113
+16	lideres	lider	NOUN	NOUN	_	14	amod	_	TokenRange=114:121
+17	presidente	presidente	NOUN	NOUN	_	13	appos	_	TokenRange=122:132
+18	michel	michel	ADJ	ADJ	_	19	amod	_	TokenRange=133:139
+19	temer	temer	NOUN	NOUN	_	17	appos	_	TokenRange=140:145
+20	esquema	esquema	NOUN	NOUN	_	6	obj	_	TokenRange=146:153
+21	corrupcao	corrupcao	ADJ	ADJ	_	20	amod	_	TokenRange=154:163
+22	cartel	cartel	NOUN	NOUN	_	20	appos	_	TokenRange=164:170
+23	descoberto	descobrir	ADJ	ADJ	_	26	amod	_	TokenRange=171:181
+24	petrobras	petrobra	NOUN	NOUN	_	26	amod	_	TokenRange=182:191
+25	ultima	_	ADJ	ADJ	_	26	amod	_	TokenRange=192:198
+26	denuncia	denuncia	NOUN	NOUN	_	20	appos	_	TokenRange=199:207
+27	criminal	criminal	ADJ	ADJ	_	26	amod	_	TokenRange=208:216
+28	quadrilhao	quadrilhao	NOUN	NOUN	_	26	amod	_	TokenRange=217:227
+29	lava	lava	NOUN	NOUN	_	26	appos	_	TokenRange=228:232
+30	jato	jato	NOUN	NOUN	_	29	flat	_	TokenRange=233:237
+31	apresentada	apresentar	VERB	VERB	_	26	acl	_	TokenRange=238:249
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=250:255
+33	semana	semana	NOUN	NOUN	_	31	nmod	_	TokenRange=256:262
+34	supremo	supremo	ADJ	ADJ	_	35	amod	_	TokenRange=263:270
+35	tribunal	tribunal	NOUN	NOUN	_	31	obj	_	TokenRange=271:279
+36	federal	federal	ADJ	ADJ	_	35	amod	_	TokenRange=280:287
+37	stf	_	NOUN	NOUN	_	39	appos	_	TokenRange=288:291
+38	atual	atual	ADJ	ADJ	_	39	amod	_	TokenRange=292:297
+39	pgr	pgr	NOUN	NOUN	_	31	nsubj	_	TokenRange=298:301
+40	4	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=302:303
+41	acusacoes	acusacoe	NOUN	NOUN	_	39	appos	_	TokenRange=304:313
+42	contra	_	ADP	ADP	_	43	case	_	TokenRange=314:320
+43	politicos	politico	NOUN	NOUN	_	41	nmod	_	TokenRange=321:330
+44	pp	_	ADP	ADP	_	45	case	_	TokenRange=331:333
+45	pt	_	NOUN	NOUN	_	41	appos	_	TokenRange=334:336
+46	pmdb	_	NOUN	NOUN	_	45	flat	_	TokenRange=337:341
+47	senado	senado	NOUN	NOUN	_	45	flat	_	TokenRange=342:348
+48	pmdb	_	NOUN	NOUN	_	45	appos	_	TokenRange=349:353
+49	crime	crime	NOUN	NOUN	_	45	flat	_	TokenRange=354:359
+50	associacao	associacao	NOUN	NOUN	_	51	amod	_	TokenRange=360:370
+51	organizacao	organizacao	NOUN	NOUN	_	45	appos	_	TokenRange=371:382
+52	criminosa	criminoso	ADJ	ADJ	_	51	amod	_	TokenRange=383:392
+53	grupo	grupo	NOUN	NOUN	_	57	nsubj	_	TokenRange=393:398
+54	pmdb	_	NOUN	NOUN	_	53	appos	_	TokenRange=399:403
+55	camara	camara	NOUN	NOUN	_	53	appos	_	TokenRange=404:410
+56	deputados	deputado	NOUN	NOUN	_	53	appos	_	TokenRange=411:420
+57	integrou	integrar	VERB	VERB	_	6	parataxis	_	TokenRange=421:429
+58	organizacao	organizacao	NOUN	NOUN	_	60	obj	_	TokenRange=430:441
+59	criminosa	criminoso	ADJ	ADJ	_	58	amod	_	TokenRange=442:451
+60	obteve	obter	VERB	VERB	_	57	parataxis	_	SpaceAfter=No|TokenRange=452:458
+

@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eike perdeu empresas x tenta retomar negocios marca pasta dente veja sobrou imperio eike negocios seguem ativos empresario passou homem rico pais procurado justica homem rico brasil setimo rico mundo eike batista viu imperio ruir tornou alem reu procurado justica homem poucos negocios precisou desfazer principais apostas controlador passou
+1	eike	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:4
+2	perdeu	perder	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	empresas	empresa	NOUN	NOUN	_	2	obj	_	TokenRange=12:20
+4	x	_	X	X	_	5	nsubj	_	TokenRange=21:22
+5	tenta	tentar	VERB	VERB	_	2	conj	_	TokenRange=23:28
+6	retomar	retomar	VERB	VERB	_	5	xcomp	_	TokenRange=29:36
+7	negocios	negocio	NOUN	NOUN	_	6	obj	_	TokenRange=37:45
+8	marca	marca	NOUN	NOUN	_	7	appos	_	TokenRange=46:51
+9	pasta	pasta	NOUN	NOUN	_	7	flat	_	TokenRange=52:57
+10	dente	_	NOUN	NOUN	_	11	flat	_	TokenRange=58:63
+11	veja	ver	NOUN	NOUN	_	12	conj	_	TokenRange=64:68
+12	sobrou	sobrar	VERB	VERB	_	2	conj	_	TokenRange=69:75
+13	imperio	imperio	NOUN	NOUN	_	12	obj	_	TokenRange=76:83
+14	eike	_	ADJ	DET	_	15	det	_	TokenRange=84:88
+15	negocios	negocio	NOUN	NOUN	_	16	nsubj	_	TokenRange=89:97
+16	seguem	_	VERB	VERB	_	13	acl:relcl	_	TokenRange=98:104
+17	ativos	ativo	ADJ	ADJ	_	15	amod	_	TokenRange=105:111
+18	empresario	empresario	NOUN	NOUN	_	16	nsubj	_	TokenRange=112:122
+19	passou	passar	VERB	VERB	_	20	acl:relcl	_	TokenRange=123:129
+20	homem	homem	NOUN	NOUN	_	16	nsubj	_	TokenRange=130:135
+21	rico	rico	ADJ	ADJ	_	20	amod	_	TokenRange=136:140
+22	pais	_	NOUN	NOUN	_	20	appos	_	TokenRange=141:145
+23	procurado	procurado	ADJ	ADJ	_	20	amod	_	TokenRange=146:155
+24	justica	justico	ADJ	ADJ	_	25	amod	_	TokenRange=156:163
+25	homem	homem	NOUN	NOUN	_	20	appos	_	TokenRange=164:169
+26	rico	rico	ADJ	ADJ	_	25	amod	_	TokenRange=170:174
+27	brasil	brasil	ADJ	ADJ	_	25	amod	_	TokenRange=175:181
+28	setimo	setimo	ADJ	ADJ	_	30	amod	_	TokenRange=182:188
+29	rico	rico	ADJ	ADJ	_	30	amod	_	TokenRange=189:193
+30	mundo	mundo	NOUN	NOUN	_	25	appos	_	TokenRange=194:199
+31	eike	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=200:204
+32	batista	batista	ADJ	ADJ	_	31	amod	_	TokenRange=205:212
+33	viu	ver	VERB	VERB	_	30	acl:relcl	_	TokenRange=213:216
+34	imperio	imperio	NOUN	NOUN	_	33	obj	_	TokenRange=217:224
+35	ruir	ruir	NOUN	NOUN	_	33	nsubj	_	TokenRange=225:229
+36	tornou	tornar	AUX	AUX	_	33	aux	_	TokenRange=230:236
+37	alem	_	ADV	ADV	_	33	advmod	_	TokenRange=237:241
+38	reu	_	NOUN	NOUN	_	33	dep	_	TokenRange=242:245
+39	procurado	procurado	ADJ	ADJ	_	38	amod	_	TokenRange=246:255
+40	justica	_	ADJ	NOUN	_	39	amod	_	TokenRange=256:263
+41	homem	homem	NOUN	NOUN	_	44	nsubj	_	TokenRange=264:269
+42	poucos	_	DET	DET	_	43	det	_	TokenRange=270:276
+43	negocios	negocio	NOUN	NOUN	_	41	appos	_	TokenRange=277:285
+44	precisou	precisar	VERB	VERB	_	33	parataxis	_	TokenRange=286:294
+45	desfazer	desfazer	VERB	VERB	_	44	xcomp	_	TokenRange=295:303
+46	principais	principal	ADJ	ADJ	_	47	amod	_	TokenRange=304:314
+47	apostas	aposta	NOUN	NOUN	_	45	obj	_	TokenRange=315:322
+48	controlador	controlador	NOUN	NOUN	_	49	nsubj	_	TokenRange=323:334
+49	passou	passar	VERB	VERB	_	45	parataxis	_	SpaceAfter=No|TokenRange=335:341
+

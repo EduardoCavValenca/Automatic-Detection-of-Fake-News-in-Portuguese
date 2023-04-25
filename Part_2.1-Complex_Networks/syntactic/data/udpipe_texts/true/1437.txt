@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tercafeira 2 janeiro 2018 boa noite aqui principais noticias terminar dia beminformado parte policiais militares greve comecou voltar ruas rio grande norte apos decisao judicial policiais civis decidiram prosseguir paralisacao desde dia 19 dezembro pms policiais civis bombeiros estado parados protesto contra falta pagamento salarios dia 30 dezembro rn contabilizou 87 mortos periodo greve ano passado rn recorde historico 24 mil mortes violentas pms voltaram patrulhamento grande natal apos decisao judicial determinou prisao policiais promovam defendam paralisacao protesto atraso salarial multa
+1	tercafeira	_	NOUN	NOUN	_	17	parataxis	_	TokenRange=0:10
+2	2	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=11:12
+3	janeiro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=13:20
+4	2018	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=21:25
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=26:29
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=36:40
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=41:51
+9	noticias	_	NOUN	NOUN	_	1	appos	_	TokenRange=52:60
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=61:69
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=70:73
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=74:86
+13	parte	parte	NOUN	NOUN	_	10	nsubj	_	TokenRange=87:92
+14	policiais	policial	NOUN	NOUN	_	13	appos	_	TokenRange=93:102
+15	militares	militar	ADJ	ADJ	_	14	amod	_	TokenRange=103:112
+16	greve	greve	NOUN	NOUN	_	14	amod	_	TokenRange=113:118
+17	comecou	comecar	VERB	VERB	_	0	root	_	TokenRange=119:126
+18	voltar	voltar	VERB	VERB	_	17	xcomp	_	TokenRange=127:133
+19	ruas	rua	NOUN	NOUN	_	18	obj	_	TokenRange=134:138
+20	rio	rio	NOUN	NOUN	_	19	appos	_	TokenRange=139:142
+21	grande	grande	ADJ	ADJ	_	20	amod	_	TokenRange=143:149
+22	norte	norte	ADJ	ADJ	_	20	amod	_	TokenRange=150:155
+23	apos	_	ADP	ADP	_	24	case	_	TokenRange=156:160
+24	decisao	decisao	NOUN	NOUN	_	28	nmod	_	TokenRange=161:168
+25	judicial	judicial	ADJ	ADJ	_	24	amod	_	TokenRange=169:177
+26	policiais	policial	NOUN	NOUN	_	28	nsubj	_	TokenRange=178:187
+27	civis	civil	ADJ	ADJ	_	26	amod	_	TokenRange=188:193
+28	decidiram	decidir	VERB	VERB	_	18	conj	_	TokenRange=194:203
+29	prosseguir	prosseguir	VERB	VERB	_	28	xcomp	_	TokenRange=204:214
+30	paralisacao	paralisacao	NOUN	NOUN	_	29	obj	_	TokenRange=215:226
+31	desde	_	ADP	ADP	_	32	case	_	TokenRange=227:232
+32	dia	dia	NOUN	NOUN	_	29	nmod	_	TokenRange=233:236
+33	19	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=237:239
+34	dezembro	_	PROPN	PNOUN	_	33	nmod	_	TokenRange=240:248
+35	pms	_	ADP	ADP	_	36	case	_	TokenRange=249:252
+36	policiais	policial	NOUN	NOUN	_	28	nsubj	_	TokenRange=253:262
+37	civis	civil	ADJ	ADJ	_	36	amod	_	TokenRange=263:268
+38	bombeiros	bombeiro	NOUN	NOUN	_	36	amod	_	TokenRange=269:278
+39	estado	estado	NOUN	NOUN	_	36	appos	_	TokenRange=279:285
+40	parados	parado	ADJ	ADJ	_	39	amod	_	TokenRange=286:293
+41	protesto	protesto	NOUN	NOUN	_	36	appos	_	TokenRange=294:302
+42	contra	_	ADP	ADP	_	43	case	_	TokenRange=303:309
+43	falta	_	NOUN	NOUN	_	41	nmod	_	TokenRange=310:315
+44	pagamento	pagamento	NOUN	NOUN	_	43	flat	_	TokenRange=316:325
+45	salarios	salario	NOUN	NOUN	_	44	amod	_	TokenRange=326:334
+46	dia	dia	NOUN	NOUN	_	50	nmod	_	TokenRange=335:338
+47	30	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=339:341
+48	dezembro	_	PROPN	PNOUN	_	46	appos	_	TokenRange=342:350
+49	rn	_	PROPN	PNOUN	_	48	flat	_	TokenRange=351:353
+50	contabilizou	contabilizar	VERB	VERB	_	28	parataxis	_	TokenRange=354:366
+51	87	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=367:369
+52	mortos	morto	NOUN	NOUN	_	50	obj	_	TokenRange=370:376
+53	periodo	periodo	NOUN	NOUN	_	52	appos	_	TokenRange=377:384
+54	greve	greve	NOUN	NOUN	_	52	appos	_	TokenRange=385:390
+55	ano	ano	NOUN	NOUN	_	52	appos	_	TokenRange=391:394
+56	passado	passado	ADJ	ADJ	_	55	amod	_	TokenRange=395:402
+57	rn	_	ADJ	ADJ	_	58	amod	_	TokenRange=403:405
+58	recorde	recorde	NOUN	NOUN	_	50	nsubj	_	TokenRange=406:413
+59	historico	historico	ADJ	ADJ	_	58	amod	_	TokenRange=414:423
+60	24	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=424:426
+61	mil	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=427:430
+62	mortes	morte	NOUN	NOUN	_	50	nsubj	_	TokenRange=431:437
+63	violentas	violento	ADJ	ADJ	_	62	amod	_	TokenRange=438:447
+64	pms	_	PRON	PRON	_	65	nsubj	_	TokenRange=448:451
+65	voltaram	voltar	VERB	VERB	_	50	advcl	_	TokenRange=452:460
+66	patrulhamento	patrulhamento	NOUN	NOUN	_	65	obj	_	TokenRange=461:474
+67	grande	grande	ADJ	ADJ	_	66	amod	_	TokenRange=475:481
+68	natal	natal	NOUN	NOUN	_	66	appos	_	TokenRange=482:487
+69	apos	_	ADP	ADP	_	70	case	_	TokenRange=488:492
+70	decisao	decisao	NOUN	NOUN	_	72	nmod	_	TokenRange=493:500
+71	judicial	judicial	ADJ	ADJ	_	70	amod	_	TokenRange=501:509
+72	determinou	determinar	VERB	VERB	_	65	conj	_	TokenRange=510:520
+73	prisao	prisao	NOUN	NOUN	_	72	obj	_	TokenRange=521:527
+74	policiais	policial	NOUN	NOUN	_	73	amod	_	TokenRange=528:537
+75	promovam	promor	VERB	VERB	_	76	ccomp	_	TokenRange=538:546
+76	defendam	defendar	VERB	VERB	_	72	ccomp	_	TokenRange=547:555
+77	paralisacao	paralisacao	NOUN	NOUN	_	76	obj	_	TokenRange=556:567
+78	protesto	protesto	ADJ	ADJ	_	79	amod	_	TokenRange=568:576
+79	atraso	atraso	NOUN	NOUN	_	76	obj	_	TokenRange=577:583
+80	salarial	salarial	ADJ	ADJ	_	79	amod	_	TokenRange=584:592
+81	multa	multa	NOUN	NOUN	_	79	amod	_	SpaceAfter=No|TokenRange=593:598
+

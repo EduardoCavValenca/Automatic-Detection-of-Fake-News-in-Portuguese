@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jorge fernando diretor globo sofreu avc precisou internado pressas rio susto aconteceu ultimo fim semana jorginho diagnosticado acidente vascular cerebral pedido proprio jorge hospital divulgou nenhum boletim medico sobre estado saude colunista leo dias informou diretor recebeu alta ultima sextafeira 27 passa bem rede globo manifestou sobre assunto informou jorge fernando retornara
+1	jorge	jorge	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	fernando	fernando	NOUN	NOUN	_	1	flat	_	TokenRange=6:14
+3	diretor	diretor	NOUN	NOUN	_	1	appos	_	TokenRange=15:22
+4	globo	globo	NOUN	NOUN	_	1	flat	_	TokenRange=23:28
+5	sofreu	sofrer	VERB	VERB	_	0	root	_	TokenRange=29:35
+6	avc	_	NOUN	NOUN	_	5	obj	_	TokenRange=36:39
+7	precisou	precisar	VERB	VERB	_	5	parataxis	_	TokenRange=40:48
+8	internado	internado	ADJ	ADJ	_	5	xcomp	_	TokenRange=49:58
+9	pressas	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=59:66
+10	rio	rio	NOUN	NOUN	_	12	nsubj	_	TokenRange=67:70
+11	susto	susto	NOUN	NOUN	_	14	amod	_	TokenRange=71:76
+12	aconteceu	acontecer	VERB	VERB	_	5	parataxis	_	TokenRange=77:86
+13	ultimo	_	ADJ	ADJ	_	14	amod	_	TokenRange=87:93
+14	fim	fim	NOUN	NOUN	_	12	nsubj	_	TokenRange=94:97
+15	semana	semana	NOUN	NOUN	_	14	flat	_	TokenRange=98:104
+16	jorginho	_	NOUN	NOUN	_	18	appos	_	TokenRange=105:113
+17	diagnosticado	diagnosticar	VERB	VERB	_	18	acl	_	TokenRange=114:127
+18	acidente	acidente	NOUN	NOUN	_	12	nsubj	_	TokenRange=128:136
+19	vascular	vascular	ADJ	ADJ	_	18	amod	_	TokenRange=137:145
+20	cerebral	cerebral	ADJ	ADJ	_	18	amod	_	TokenRange=146:154
+21	pedido	pedido	NOUN	NOUN	_	18	appos	_	TokenRange=155:161
+22	proprio	proprio	ADJ	ADJ	_	23	amod	_	TokenRange=162:169
+23	jorge	jorge	NOUN	NOUN	_	25	nsubj	_	TokenRange=170:175
+24	hospital	hospital	NOUN	NOUN	_	23	flat	_	TokenRange=176:184
+25	divulgou	divulgar	VERB	VERB	_	5	parataxis	_	TokenRange=185:193
+26	nenhum	_	DET	DET	_	27	det	_	TokenRange=194:200
+27	boletim	boletim	NOUN	NOUN	_	25	obj	_	TokenRange=201:208
+28	medico	medico	ADJ	ADJ	_	27	amod	_	TokenRange=209:215
+29	sobre	_	ADP	ADP	_	30	case	_	TokenRange=216:221
+30	estado	estado	NOUN	NOUN	_	27	nmod	_	TokenRange=222:228
+31	saude	saude	NOUN	NOUN	_	30	flat	_	TokenRange=229:234
+32	colunista	colunista	ADJ	ADJ	_	31	amod	_	TokenRange=235:244
+33	leo	_	DET	DET	_	34	det	_	TokenRange=245:248
+34	dias	dia	NOUN	NOUN	_	35	nsubj	_	TokenRange=249:253
+35	informou	informar	VERB	VERB	_	25	parataxis	_	TokenRange=254:262
+36	diretor	diretor	NOUN	NOUN	_	35	nsubj	_	TokenRange=263:270
+37	recebeu	receber	VERB	VERB	_	35	ccomp	_	TokenRange=271:278
+38	alta	alto	ADJ	ADJ	_	40	amod	_	TokenRange=279:283
+39	ultima	_	ADJ	ADJ	_	40	amod	_	TokenRange=284:290
+40	sextafeira	sextafeira	NOUN	NOUN	_	37	obj	_	TokenRange=291:301
+41	27	_	NUM	NUM	NumType=Card	40	appos	_	TokenRange=302:304
+42	passa	passar	VERB	VERB	_	37	parataxis	_	TokenRange=305:310
+43	bem	bem	ADV	ADV	_	42	advmod	_	TokenRange=311:314
+44	rede	rede	NOUN	NOUN	_	46	nsubj	_	TokenRange=315:319
+45	globo	globo	NOUN	NOUN	_	44	amod	_	TokenRange=320:325
+46	manifestou	manifestar	VERB	VERB	_	35	conj	_	TokenRange=326:336
+47	sobre	_	ADP	ADP	_	48	case	_	TokenRange=337:342
+48	assunto	assunto	NOUN	NOUN	_	52	nmod	_	TokenRange=343:350
+49	informou	informar	VERB	VERB	_	46	conj	_	TokenRange=351:359
+50	jorge	jorge	NOUN	NOUN	_	52	obj	_	TokenRange=360:365
+51	fernando	fernando	NOUN	NOUN	_	50	flat	_	TokenRange=366:374
+52	retornara	retornar	VERB	VERB	_	49	ccomp	_	SpaceAfter=No|TokenRange=375:384
+

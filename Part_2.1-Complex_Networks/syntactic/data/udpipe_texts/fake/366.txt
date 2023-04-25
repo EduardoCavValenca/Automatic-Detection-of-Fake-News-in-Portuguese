@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cansado assaltado comerciante parana arma espingarda calibre 12 bandidos sumiram desesperado 11 assaltos 3 anos proteger proteger clientes comerciante quis revelar identidade comprou arma calibre 12 partir dai alegria assaltos ocorreram alias moradores bairro declararam sentem seguros pois roubos praticamente acabaram toda regiao obs arma obtida legalmente comerciante possui autorizacao pf
+1	cansado	cansado	ADJ	ADJ	_	3	amod	_	TokenRange=0:7
+2	assaltado	_	ADJ	ADJ	_	3	amod	_	TokenRange=8:17
+3	comerciante	comerciante	NOUN	NOUN	_	10	nsubj	_	TokenRange=18:29
+4	parana	parana	ADJ	ADJ	_	3	amod	_	TokenRange=30:36
+5	arma	arma	NOUN	NOUN	_	3	appos	_	TokenRange=37:41
+6	espingarda	espingarda	NOUN	NOUN	_	5	flat	_	TokenRange=42:52
+7	calibre	calibre	NOUN	NOUN	_	5	appos	_	TokenRange=53:60
+8	12	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=61:63
+9	bandidos	bandido	NOUN	NOUN	_	5	appos	_	TokenRange=64:72
+10	sumiram	sumir	VERB	VERB	_	0	root	_	TokenRange=73:80
+11	desesperado	desesperado	ADJ	ADJ	_	10	xcomp	_	TokenRange=81:92
+12	11	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=93:95
+13	assaltos	assalto	NOUN	NOUN	_	10	nsubj	_	TokenRange=96:104
+14	3	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=105:106
+15	anos	ano	NOUN	NOUN	_	16	nsubj	_	TokenRange=107:111
+16	proteger	proteger	VERB	VERB	_	10	ccomp	_	TokenRange=112:120
+17	proteger	proteger	VERB	VERB	_	16	xcomp	_	TokenRange=121:129
+18	clientes	cliente	NOUN	NOUN	_	17	obj	_	TokenRange=130:138
+19	comerciante	comerciante	NOUN	NOUN	_	18	amod	_	TokenRange=139:150
+20	quis	querer	VERB	VERB	_	18	acl:relcl	_	TokenRange=151:155
+21	revelar	revelar	VERB	VERB	_	20	xcomp	_	TokenRange=156:163
+22	identidade	identidade	NOUN	NOUN	_	21	obj	_	TokenRange=164:174
+23	comprou	comprar	VERB	VERB	_	18	acl:relcl	_	TokenRange=175:182
+24	arma	arma	NOUN	NOUN	_	23	obj	_	TokenRange=183:187
+25	calibre	calibre	NOUN	NOUN	_	24	appos	_	TokenRange=188:195
+26	12	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=196:198
+27	partir	partir	VERB	VERB	_	24	appos	_	TokenRange=199:205
+28	dai	_	ADP	ADP	_	29	case	_	TokenRange=206:209
+29	alegria	alegria	NOUN	NOUN	_	27	nmod	_	TokenRange=210:217
+30	assaltos	assalto	NOUN	NOUN	_	31	nsubj	_	TokenRange=218:226
+31	ocorreram	ocorrer	VERB	VERB	_	10	parataxis	_	TokenRange=227:236
+32	alias	_	ADV	ADV	_	35	advmod	_	TokenRange=237:242
+33	moradores	morador	NOUN	NOUN	_	35	nsubj	_	TokenRange=243:252
+34	bairro	bairro	NOUN	NOUN	_	33	flat	_	TokenRange=253:259
+35	declararam	declarar	VERB	VERB	_	31	conj	_	TokenRange=260:270
+36	sentem	sentar	VERB	VERB	_	35	xcomp	_	TokenRange=271:277
+37	seguros	seguro	ADJ	ADJ	_	36	xcomp	_	TokenRange=278:285
+38	pois	_	CCONJ	CONJ	_	41	mark	_	TokenRange=286:290
+39	roubos	roubo	NOUN	NOUN	_	41	nsubj	_	TokenRange=291:297
+40	praticamente	praticamente	ADV	ADV	_	41	advmod	_	TokenRange=298:310
+41	acabaram	acabar	VERB	VERB	_	35	advcl	_	TokenRange=311:319
+42	toda	_	DET	DET	_	43	det	_	TokenRange=320:324
+43	regiao	regiao	NOUN	NOUN	_	41	obj	_	TokenRange=325:331
+44	obs	_	DET	DET	_	45	det	_	TokenRange=332:335
+45	arma	arma	NOUN	NOUN	_	49	nsubj	_	TokenRange=336:340
+46	obtida	obter	VERB	VERB	_	45	acl	_	TokenRange=341:347
+47	legalmente	legalmente	ADV	ADV	_	46	advmod	_	TokenRange=348:358
+48	comerciante	comerciante	ADJ	ADJ	_	46	amod	_	TokenRange=359:370
+49	possui	possuir	VERB	VERB	_	35	parataxis	_	TokenRange=371:377
+50	autorizacao	autorizacao	NOUN	NOUN	_	49	obj	_	TokenRange=378:389
+51	pf	_	NOUN	NOUN	_	50	appos	_	SpaceAfter=No|TokenRange=390:392
+

@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = operacao trapaca nova fase carne fraca deflagrada nesta segundafeira 5 mira fraudes laboratoriais perante ministerio agricultura pecuaria abastecimento alvos empresa brf gigante setor carnes
+1	operacao	operacao	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:8
+2	trapaca	_	NOUN	NOUN	_	1	flat	_	TokenRange=9:16
+3	nova	novo	ADJ	ADJ	_	4	amod	_	TokenRange=17:21
+4	fase	fase	NOUN	NOUN	_	1	appos	_	TokenRange=22:26
+5	carne	carne	NOUN	NOUN	_	1	appos	_	TokenRange=27:32
+6	fraca	fraco	ADJ	ADJ	_	5	amod	_	TokenRange=33:38
+7	deflagrada	deflagrar	VERB	VERB	_	1	acl	_	TokenRange=39:49
+8	nesta	_	ADP	ADP	_	9	case	_	TokenRange=50:55
+9	segundafeira	_	NOUN	NOUN	_	7	nmod	_	TokenRange=56:68
+10	5	_	NUM	NUM	NumType=Card	9	appos	_	TokenRange=69:70
+11	mira	_	VERB	VERB	_	0	root	_	TokenRange=71:75
+12	fraudes	fraude	NOUN	NOUN	_	11	obj	_	TokenRange=76:83
+13	laboratoriais	laboratorial	ADJ	ADJ	_	12	amod	_	TokenRange=84:97
+14	perante	_	ADP	ADP	_	15	case	_	TokenRange=98:105
+15	ministerio	ministerio	NOUN	NOUN	_	11	nmod	_	TokenRange=106:116
+16	agricultura	agricultura	NOUN	NOUN	_	15	flat	_	TokenRange=117:128
+17	pecuaria	pecuaria	ADJ	ADJ	_	15	amod	_	TokenRange=129:137
+18	abastecimento	abastecimento	NOUN	NOUN	_	15	appos	_	TokenRange=138:151
+19	alvos	alvo	ADJ	ADJ	_	18	amod	_	TokenRange=152:157
+20	empresa	empresa	NOUN	NOUN	_	15	appos	_	TokenRange=158:165
+21	brf	_	NOUN	NOUN	_	20	appos	_	TokenRange=166:169
+22	gigante	gigante	ADJ	ADJ	_	23	amod	_	TokenRange=170:177
+23	setor	setor	NOUN	NOUN	_	20	appos	_	TokenRange=178:183
+24	carnes	carne	NOUN	NOUN	_	23	flat	_	SpaceAfter=No|TokenRange=184:190
+

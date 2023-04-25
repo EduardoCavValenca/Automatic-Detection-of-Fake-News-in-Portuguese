@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = francisco sobre conflito mundial lucram bilhoes sangue inocentes pontifice poupou palavras discurso feito vaticano francisco clamou mundo contenha senhores guerra lucram violencia guerra beneficiam sangue inocentes papa fez apelo evite conflito proporcoes mundiais
+1	francisco	francisco	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:9
+2	sobre	_	ADP	ADP	_	3	case	_	TokenRange=10:15
+3	conflito	conflito	NOUN	NOUN	_	1	nmod	_	TokenRange=16:24
+4	mundial	mundial	ADJ	ADJ	_	3	amod	_	TokenRange=25:32
+5	lucram	lucrar	VERB	VERB	_	0	root	_	TokenRange=33:39
+6	bilhoes	_	NUM	NUM	_	7	nummod	_	TokenRange=40:47
+7	sangue	sangue	NOUN	NOUN	_	5	obj	_	TokenRange=48:54
+8	inocentes	inocente	ADJ	ADJ	_	7	amod	_	TokenRange=55:64
+9	pontifice	pontifice	NOUN	NOUN	_	10	nsubj	_	TokenRange=65:74
+10	poupou	poupar	VERB	VERB	_	7	acl:relcl	_	TokenRange=75:81
+11	palavras	palavra	NOUN	NOUN	_	10	obj	_	TokenRange=82:90
+12	discurso	discurso	NOUN	NOUN	_	10	nsubj	_	TokenRange=91:99
+13	feito	_	NOUN	NOUN	_	12	appos	_	TokenRange=100:105
+14	vaticano	vaticano	NOUN	NOUN	_	13	flat	_	TokenRange=106:114
+15	francisco	francisco	ADJ	ADJ	_	13	amod	_	TokenRange=115:124
+16	clamou	clamar	VERB	VERB	_	5	conj	_	TokenRange=125:131
+17	mundo	mundo	NOUN	NOUN	_	18	nsubj	_	TokenRange=132:137
+18	contenha	conter	VERB	VERB	_	16	ccomp	_	TokenRange=138:146
+19	senhores	senhor	NOUN	NOUN	_	18	obj	_	TokenRange=147:155
+20	guerra	guerra	NOUN	NOUN	_	18	nsubj	_	TokenRange=156:162
+21	lucram	lucrar	VERB	VERB	_	16	ccomp	_	TokenRange=163:169
+22	violencia	violencia	NOUN	NOUN	_	24	nsubj	_	TokenRange=170:179
+23	guerra	guerra	NOUN	NOUN	_	24	nsubj	_	TokenRange=180:186
+24	beneficiam	beneficiar	VERB	VERB	_	21	parataxis	_	TokenRange=187:197
+25	sangue	sangue	NOUN	NOUN	_	24	obj	_	TokenRange=198:204
+26	inocentes	inocente	ADJ	ADJ	_	25	amod	_	TokenRange=205:214
+27	papa	papa	NOUN	NOUN	_	28	nsubj	_	TokenRange=215:219
+28	fez	fazer	VERB	VERB	_	5	conj	_	TokenRange=220:223
+29	apelo	apelo	NOUN	NOUN	_	28	obj	_	TokenRange=224:229
+30	evite	evitar	VERB	VERB	_	28	ccomp	_	TokenRange=230:235
+31	conflito	conflito	NOUN	NOUN	_	30	obj	_	TokenRange=236:244
+32	proporcoes	proporcoe	NOUN	NOUN	_	30	obj	_	TokenRange=245:255
+33	mundiais	mundial	ADJ	ADJ	_	32	amod	_	SpaceAfter=No|TokenRange=256:264
+

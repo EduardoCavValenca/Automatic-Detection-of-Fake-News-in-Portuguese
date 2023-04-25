@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = relembrando enfiem todo processo pra somente video apoio expresidente lula deputada comunista jandira feghali gravando video apoio petista luiz inacio fundo video petista desbocado soltou frase enfiem todo processo ainda sabemos video escapou celular deputada parar redes sociais pra perceber lula trata justica brasil
+1	relembrando	relembrar	VERB	VERB	_	31	acl	_	TokenRange=0:11
+2	enfiem	enfiar	VERB	VERB	_	1	xcomp	_	TokenRange=12:18
+3	todo	_	DET	DET	_	4	det	_	TokenRange=19:23
+4	processo	processo	NOUN	NOUN	_	1	obj	_	TokenRange=24:32
+5	pra	_	ADP	ADP	_	7	mark	_	TokenRange=33:36
+6	somente	somente	ADV	ADV	_	7	advmod	_	TokenRange=37:44
+7	video	video	NOUN	NOUN	_	1	nmod	_	TokenRange=45:50
+8	apoio	apoio	NOUN	NOUN	_	7	appos	_	TokenRange=51:56
+9	expresidente	expresidente	NOUN	NOUN	_	8	appos	_	TokenRange=57:69
+10	lula	lula	ADJ	ADJ	_	11	amod	_	TokenRange=70:74
+11	deputada	deputado	NOUN	NOUN	_	8	appos	_	TokenRange=75:83
+12	comunista	comunista	ADJ	ADJ	_	11	amod	_	TokenRange=84:93
+13	jandira	_	NOUN	NOUN	_	11	appos	_	TokenRange=94:101
+14	feghali	_	NOUN	NOUN	_	13	flat	_	TokenRange=102:109
+15	gravando	gravar	VERB	VERB	_	11	acl	_	TokenRange=110:118
+16	video	video	NOUN	NOUN	_	15	obj	_	TokenRange=119:124
+17	apoio	apoio	NOUN	NOUN	_	16	appos	_	TokenRange=125:130
+18	petista	petista	ADJ	ADJ	_	17	amod	_	TokenRange=131:138
+19	luiz	luiz	NOUN	NOUN	_	17	appos	_	TokenRange=139:143
+20	inacio	_	NOUN	NOUN	_	19	flat	_	TokenRange=144:150
+21	fundo	fundo	ADJ	NOUN	_	19	flat	_	TokenRange=151:156
+22	video	video	NOUN	NOUN	_	17	appos	_	TokenRange=157:162
+23	petista	petista	NOUN	NOUN	_	22	appos	_	TokenRange=163:170
+24	desbocado	_	ADJ	ADJ	_	23	amod	_	TokenRange=171:180
+25	soltou	soltar	VERB	VERB	_	22	acl:relcl	_	TokenRange=181:187
+26	frase	frase	NOUN	NOUN	_	25	obj	_	TokenRange=188:193
+27	enfiem	enfiar	VERB	VERB	_	26	appos	_	TokenRange=194:200
+28	todo	_	DET	DET	_	29	det	_	TokenRange=201:205
+29	processo	processo	NOUN	NOUN	_	27	obj	_	TokenRange=206:214
+30	ainda	ainda	ADV	ADV	_	31	advmod	_	TokenRange=215:220
+31	sabemos	saber	VERB	VERB	_	0	root	_	TokenRange=221:228
+32	video	video	NOUN	NOUN	_	31	obj	_	TokenRange=229:234
+33	escapou	escapar	VERB	VERB	_	31	ccomp	_	TokenRange=235:242
+34	celular	_	ADJ	NOUN	_	36	nsubj	_	TokenRange=243:250
+35	deputada	deputado	NOUN	NOUN	_	36	nsubj	_	TokenRange=251:259
+36	parar	parar	VERB	VERB	_	33	ccomp	_	TokenRange=260:265
+37	redes	rede	NOUN	NOUN	_	36	obj	_	TokenRange=266:271
+38	sociais	social	ADJ	ADJ	_	37	amod	_	TokenRange=272:279
+39	pra	_	ADP	ADP	_	40	mark	_	TokenRange=280:283
+40	perceber	perceber	VERB	VERB	_	36	advcl	_	TokenRange=284:292
+41	lula	lula	NOUN	NOUN	_	40	obj	_	TokenRange=293:297
+42	trata	tratar	VERB	VERB	_	33	ccomp	_	TokenRange=298:303
+43	justica	_	NOUN	NOUN	_	42	obj	_	TokenRange=304:311
+44	brasil	brasil	ADJ	ADJ	_	43	amod	_	SpaceAfter=No|TokenRange=312:318
+

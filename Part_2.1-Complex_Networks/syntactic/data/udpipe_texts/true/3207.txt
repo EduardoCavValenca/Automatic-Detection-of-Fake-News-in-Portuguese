@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pabllo vittar lacra planeta exalta amor proprio respeitem amem cantora pop segunda apresentar palco planeta ultima noite festival estreia planeta atlantida pabllo vittar quicou fez carao caprichou performance figurino cores bandeira rio grande sul cantora subiu palco 21h deste sabado 3 segunda apresentacao
+1	pabllo	pabllo	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:6
+2	vittar	vittar	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	lacra	lacra	NOUN	NOUN	_	1	appos	_	TokenRange=14:19
+4	planeta	planeta	NOUN	NOUN	_	1	flat	_	TokenRange=20:27
+5	exalta	exaltar	VERB	VERB	_	0	root	_	TokenRange=28:34
+6	amor	amor	NOUN	NOUN	_	5	obj	_	TokenRange=35:39
+7	proprio	proprio	ADJ	ADJ	_	6	amod	_	TokenRange=40:47
+8	respeitem	respeitar	VERB	VERB	_	1	acl	_	TokenRange=48:57
+9	amem	amem	NOUN	NOUN	_	8	obj	_	TokenRange=58:62
+10	cantora	cantor	NOUN	NOUN	_	9	appos	_	TokenRange=63:70
+11	pop	pop	ADJ	ADJ	_	10	amod	_	TokenRange=71:74
+12	segunda	segundo	ADJ	ADJ	_	10	amod	_	TokenRange=75:82
+13	apresentar	apresentar	VERB	VERB	_	10	acl	_	TokenRange=83:93
+14	palco	palco	NOUN	NOUN	_	13	obj	_	TokenRange=94:99
+15	planeta	planeta	NOUN	NOUN	_	14	appos	_	TokenRange=100:107
+16	ultima	_	ADJ	ADJ	_	17	amod	_	TokenRange=108:114
+17	noite	noite	NOUN	NOUN	_	13	obj	_	TokenRange=115:120
+18	festival	festival	ADJ	ADJ	_	17	amod	_	TokenRange=121:129
+19	estreia	estreia	NOUN	NOUN	_	13	parataxis	_	TokenRange=130:137
+20	planeta	planeta	NOUN	NOUN	_	19	appos	_	TokenRange=138:145
+21	atlantida	atlantido	ADJ	ADJ	_	22	amod	_	TokenRange=146:155
+22	pabllo	_	NOUN	NOUN	_	19	appos	_	TokenRange=156:162
+23	vittar	vittar	NOUN	NOUN	_	22	flat	_	TokenRange=163:169
+24	quicou	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=170:176
+25	fez	fazer	VERB	VERB	_	22	acl:relcl	_	TokenRange=177:180
+26	carao	carao	NOUN	NOUN	_	25	obj	_	TokenRange=181:186
+27	caprichou	caprichar	VERB	VERB	_	25	parataxis	_	TokenRange=187:196
+28	performance	performance	NOUN	NOUN	_	25	obj	_	TokenRange=197:208
+29	figurino	figurino	NOUN	NOUN	_	28	appos	_	TokenRange=209:217
+30	cores	cor	NOUN	NOUN	_	28	amod	_	TokenRange=218:223
+31	bandeira	bandeira	NOUN	NOUN	_	28	appos	_	TokenRange=224:232
+32	rio	rio	NOUN	NOUN	_	28	appos	_	TokenRange=233:236
+33	grande	grande	ADJ	ADJ	_	32	amod	_	TokenRange=237:243
+34	sul	sul	ADJ	ADJ	_	35	amod	_	TokenRange=244:247
+35	cantora	cantor	NOUN	NOUN	_	36	nsubj	_	TokenRange=248:255
+36	subiu	subir	VERB	VERB	_	5	parataxis	_	TokenRange=256:261
+37	palco	palco	NOUN	NOUN	_	36	obj	_	TokenRange=262:267
+38	21h	_	NUM	NUM	NumType=Card	37	appos	_	TokenRange=268:271
+39	deste	_	ADP	ADP	_	40	case	_	TokenRange=272:277
+40	sabado	_	PROPN	PNOUN	_	38	nmod	_	TokenRange=278:284
+41	3	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=285:286
+42	segunda	segundo	ADJ	ADJ	_	43	amod	_	TokenRange=287:294
+43	apresentacao	apresentacao	NOUN	NOUN	_	36	obj	_	SpaceAfter=No|TokenRange=295:307
+

@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lista janot deve entregue nesta terca gabinete fachin 83 pedidos abertura inquerito enviados stf semana passada base delacoes odebrecht area tecnica corte digitalizou todo material antes envialo fachin semana terem sido protocolados supremo tribunal federal stf 83 pedidos investigar politicos citados delacoes odebrecht devem encaminhados nesta tercafeira 21 gabinete ministro edson fachin relator lava jato corte antes encaminhado relator material passar processo protocolo secretaria judiciaria corte area tecnica stf rotulou nome fachin pastas emitiu certidoes digitalizou material fachin assumiu
+1	lista	lista	NOUN	NOUN	_	4	nsubj:pass	_	TokenRange=0:5
+2	janot	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:11
+3	deve	dever	AUX	AUX	_	4	aux	_	TokenRange=12:16
+4	entregue	entregar	VERB	VERB	_	0	root	_	TokenRange=17:25
+5	nesta	_	ADP	ADP	_	7	case	_	TokenRange=26:31
+6	terca	_	ADJ	ADJ	_	7	amod	_	TokenRange=32:37
+7	gabinete	gabinete	NOUN	NOUN	_	4	nmod	_	TokenRange=38:46
+8	fachin	_	ADJ	ADJ	_	7	flat	_	TokenRange=47:53
+9	83	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=54:56
+10	pedidos	pedido	NOUN	NOUN	_	7	appos	_	TokenRange=57:64
+11	abertura	abertura	NOUN	NOUN	_	7	appos	_	TokenRange=65:73
+12	inquerito	inquerito	ADJ	ADJ	_	11	amod	_	TokenRange=74:83
+13	enviados	enviar	VERB	VERB	_	10	acl	_	TokenRange=84:92
+14	stf	_	ADP	ADP	_	15	case	_	TokenRange=93:96
+15	semana	semana	NOUN	NOUN	_	13	nmod	_	TokenRange=97:103
+16	passada	passado	ADJ	ADJ	_	15	amod	_	TokenRange=104:111
+17	base	base	NOUN	NOUN	_	23	nsubj	_	TokenRange=112:116
+18	delacoes	delacoe	NOUN	NOUN	_	17	appos	_	TokenRange=117:125
+19	odebrecht	_	ADJ	ADJ	_	20	amod	_	TokenRange=126:135
+20	area	area	NOUN	NOUN	_	17	appos	_	TokenRange=136:140
+21	tecnica	tecnico	ADJ	ADJ	_	20	amod	_	TokenRange=141:148
+22	corte	corte	NOUN	NOUN	_	23	nsubj	_	TokenRange=149:154
+23	digitalizou	digitalizar	VERB	VERB	_	4	parataxis	_	TokenRange=155:166
+24	todo	_	DET	DET	_	25	det	_	TokenRange=167:171
+25	material	material	NOUN	NOUN	_	23	obj	_	TokenRange=172:180
+26	antes	antes	ADV	ADV	_	32	advmod	_	TokenRange=181:186
+27	envialo	_	VERB	VERB	_	25	acl	_	TokenRange=187:194
+28	fachin	_	NOUN	NOUN	_	32	nsubj:pass	_	TokenRange=195:201
+29	semana	semana	NOUN	NOUN	_	32	nsubj:pass	_	TokenRange=202:208
+30	terem	ter	AUX	AUX	_	32	aux	_	TokenRange=209:214
+31	sido	ser	AUX	AUX	_	32	aux:pass	_	TokenRange=215:219
+32	protocolados	protocolar	VERB	VERB	_	25	acl:relcl	_	TokenRange=220:232
+33	supremo	supremo	ADJ	ADJ	_	34	amod	_	TokenRange=233:240
+34	tribunal	tribunal	NOUN	NOUN	_	32	nsubj:pass	_	TokenRange=241:249
+35	federal	federal	ADJ	ADJ	_	34	amod	_	TokenRange=250:257
+36	stf	_	NOUN	NOUN	_	32	nsubj:pass	_	TokenRange=258:261
+37	83	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=262:264
+38	pedidos	pedido	NOUN	NOUN	_	32	nsubj:pass	_	TokenRange=265:272
+39	investigar	investigar	VERB	VERB	_	38	acl:relcl	_	TokenRange=273:283
+40	politicos	_	NOUN	NOUN	_	39	obj	_	TokenRange=284:293
+41	citados	citado	ADJ	ADJ	_	42	amod	_	TokenRange=294:301
+42	delacoes	delacoe	NOUN	NOUN	_	39	nsubj	_	TokenRange=302:310
+43	odebrecht	_	NOUN	NOUN	_	42	appos	_	TokenRange=311:320
+44	devem	_	AUX	AUX	_	45	aux	_	TokenRange=321:326
+45	encaminhados	encaminhar	VERB	VERB	_	7	acl:relcl	_	TokenRange=327:339
+46	nesta	_	ADP	ADP	_	47	case	_	TokenRange=340:345
+47	tercafeira	_	NOUN	NOUN	_	45	nmod	_	TokenRange=346:356
+48	21	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=357:359
+49	gabinete	gabinete	NOUN	NOUN	_	45	nsubj	_	TokenRange=360:368
+50	ministro	ministro	NOUN	NOUN	_	49	flat	_	TokenRange=369:377
+51	edson	_	NOUN	NOUN	_	49	appos	_	TokenRange=378:383
+52	fachin	_	NOUN	NOUN	_	49	flat	_	TokenRange=384:390
+53	relator	relator	NOUN	NOUN	_	49	appos	_	TokenRange=391:398
+54	lava	lava	NOUN	NOUN	_	49	appos	_	TokenRange=399:403
+55	jato	jato	NOUN	NOUN	_	56	amod	_	TokenRange=404:408
+56	corte	corte	NOUN	NOUN	_	53	appos	_	TokenRange=409:414
+57	antes	antes	ADV	ADV	_	58	advmod	_	TokenRange=415:420
+58	encaminhado	encaminhar	VERB	VERB	_	56	acl	_	TokenRange=421:432
+59	relator	relator	NOUN	NOUN	_	56	nsubj	_	TokenRange=433:440
+60	material	material	NOUN	NOUN	_	59	amod	_	TokenRange=441:449
+61	passar	passar	VERB	VERB	_	59	acl:inf	_	TokenRange=450:456
+62	processo	processo	NOUN	NOUN	_	61	obj	_	TokenRange=457:465
+63	protocolo	protocolo	NOUN	NOUN	_	62	flat	_	TokenRange=466:475
+64	secretaria	secretaria	NOUN	NOUN	_	62	appos	_	TokenRange=476:486
+65	judiciaria	judiciario	ADJ	ADJ	_	64	amod	_	TokenRange=487:497
+66	corte	corte	NOUN	NOUN	_	64	appos	_	TokenRange=498:503
+67	area	area	NOUN	NOUN	_	64	appos	_	TokenRange=504:508
+68	tecnica	tecnico	ADJ	ADJ	_	67	amod	_	TokenRange=509:516
+69	stf	_	NOUN	NOUN	_	64	appos	_	TokenRange=517:520
+70	rotulou	rotular	VERB	VERB	_	4	parataxis	_	TokenRange=521:528
+71	nome	nome	NOUN	NOUN	_	70	obj	_	TokenRange=529:533
+72	fachin	_	ADJ	ADJ	_	71	amod	_	TokenRange=534:540
+73	pastas	pasta	NOUN	NOUN	_	74	nsubj	_	TokenRange=541:547
+74	emitiu	emitir	VERB	VERB	_	70	conj	_	TokenRange=548:554
+75	certidoes	certidoe	NOUN	NOUN	_	79	obj	_	TokenRange=555:564
+76	digitalizou	digitalizar	VERB	VERB	_	70	parataxis	_	TokenRange=565:576
+77	material	material	NOUN	NOUN	_	79	obj	_	TokenRange=577:585
+78	fachin	_	ADJ	ADJ	_	79	nsubj	_	TokenRange=586:592
+79	assumiu	assumir	VERB	VERB	_	76	conj	_	SpaceAfter=No|TokenRange=593:600
+

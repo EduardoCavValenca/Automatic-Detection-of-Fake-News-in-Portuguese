@@ -1,0 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = festejos dois julho reunem familias manifestacoes bahia celebracoes independencia brasil bahia ocorreram manha deste domingo 2 salvador governo presidente michel temer alvo protestos alinhado discussoes politicas nacionais locais desfile civico dois julho
+1	festejos	festejo	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	dois	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=9:13
+3	julho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:19
+4	reunem	_	VERB	VERB	_	0	root	_	TokenRange=20:26
+5	familias	familia	NOUN	NOUN	_	4	obj	_	TokenRange=27:35
+6	manifestacoes	manifestacoe	NOUN	NOUN	_	4	obj	_	TokenRange=36:49
+7	bahia	_	NOUN	NOUN	_	8	appos	_	TokenRange=50:55
+8	celebracoes	celebracoe	NOUN	NOUN	_	6	appos	_	TokenRange=56:67
+9	independencia	_	NOUN	NOUN	_	8	appos	_	TokenRange=68:81
+10	brasil	brasil	ADJ	ADJ	_	9	amod	_	TokenRange=82:88
+11	bahia	_	NOUN	NOUN	_	9	flat	_	TokenRange=89:94
+12	ocorreram	ocorrer	VERB	VERB	_	4	parataxis	_	TokenRange=95:104
+13	manha	manha	NOUN	NOUN	_	12	obj	_	TokenRange=105:110
+14	deste	_	ADP	ADP	_	15	case	_	TokenRange=111:116
+15	domingo	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=117:124
+16	2	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=125:126
+17	salvador	salvador	NOUN	NOUN	_	15	appos	_	TokenRange=127:135
+18	governo	governo	NOUN	NOUN	_	12	nsubj	_	TokenRange=136:143
+19	presidente	presidente	NOUN	NOUN	_	18	appos	_	TokenRange=144:154
+20	michel	michel	ADJ	ADJ	_	19	amod	_	TokenRange=155:161
+21	temer	temer	NOUN	NOUN	_	19	appos	_	TokenRange=162:167
+22	alvo	alvo	ADJ	ADJ	_	23	amod	_	TokenRange=168:172
+23	protestos	protesto	NOUN	NOUN	_	12	nsubj	_	TokenRange=173:182
+24	alinhado	alinhado	ADJ	ADJ	_	25	amod	_	TokenRange=183:191
+25	discussoes	discussoe	NOUN	NOUN	_	23	appos	_	TokenRange=192:202
+26	politicas	politico	ADJ	ADJ	_	25	amod	_	TokenRange=203:212
+27	nacionais	nacional	ADJ	ADJ	_	25	amod	_	TokenRange=213:222
+28	locais	local	ADJ	ADJ	_	25	amod	_	TokenRange=223:229
+29	desfile	desfile	NOUN	NOUN	_	25	appos	_	TokenRange=230:237
+30	civico	civico	ADJ	ADJ	_	29	amod	_	TokenRange=238:244
+31	dois	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=245:249
+32	julho	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No|TokenRange=250:255
+

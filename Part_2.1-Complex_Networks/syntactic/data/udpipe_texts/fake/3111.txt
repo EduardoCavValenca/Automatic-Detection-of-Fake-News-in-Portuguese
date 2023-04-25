@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mp paulo denuncia lula lavagem dinheiro falsidade ideologica expresidente lula denunciado hoje 9 crimes crime ocultacao patrimonio falsidade ideologica lavagem dinheiro denuncia refere suposta compra triplex guaruja protocolada promotor cassio conserino informacoes canal globo news mp paulo dara entrevista coletiva nessa quintafeira parte manha detalhe denuncias nada ver investigacoes operacao lavajato
+1	mp	mp	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:2
+2	paulo	paulo	NOUN	NOUN	_	1	flat	_	TokenRange=3:8
+3	denuncia	denunciar	VERB	VERB	_	0	root	_	TokenRange=9:17
+4	lula	_	NOUN	NOUN	_	3	obj	_	TokenRange=18:22
+5	lavagem	lavagem	NOUN	NOUN	_	3	obj	_	TokenRange=23:30
+6	dinheiro	dinheiro	NOUN	NOUN	_	5	flat	_	TokenRange=31:39
+7	falsidade	falsidade	NOUN	NOUN	_	3	obj	_	TokenRange=40:49
+8	ideologica	ideologico	ADJ	ADJ	_	7	amod	_	TokenRange=50:60
+9	expresidente	expresidente	NOUN	NOUN	_	7	appos	_	TokenRange=61:73
+10	lula	lula	NOUN	NOUN	_	9	flat	_	TokenRange=74:78
+11	denunciado	denunciar	VERB	VERB	_	9	acl	_	TokenRange=79:89
+12	hoje	hoje	ADV	ADV	_	11	advmod	_	TokenRange=90:94
+13	9	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=95:96
+14	crimes	crime	NOUN	NOUN	_	11	obj	_	TokenRange=97:103
+15	crime	crime	NOUN	NOUN	_	14	appos	_	TokenRange=104:109
+16	ocultacao	ocultacao	ADJ	ADJ	_	18	amod	_	TokenRange=110:119
+17	patrimonio	patrimonio	NOUN	NOUN	_	18	amod	_	TokenRange=120:130
+18	falsidade	falsidade	NOUN	NOUN	_	11	obj	_	TokenRange=131:140
+19	ideologica	ideologico	ADJ	ADJ	_	18	amod	_	TokenRange=141:151
+20	lavagem	lavagem	NOUN	NOUN	_	18	appos	_	TokenRange=152:159
+21	dinheiro	dinheiro	ADJ	NOUN	_	20	flat	_	TokenRange=160:168
+22	denuncia	denuncia	NOUN	NOUN	_	23	nsubj	_	TokenRange=169:177
+23	refere	referir	VERB	VERB	_	3	parataxis	_	TokenRange=178:184
+24	suposta	suposto	ADJ	ADJ	_	25	amod	_	TokenRange=185:192
+25	compra	compra	NOUN	NOUN	_	23	obj	_	TokenRange=193:199
+26	triplex	_	NOUN	NOUN	_	25	flat	_	TokenRange=200:207
+27	guaruja	guaruja	NOUN	NOUN	_	25	appos	_	TokenRange=208:215
+28	protocolada	protocolado	ADJ	ADJ	_	29	amod	_	TokenRange=216:227
+29	promotor	promotor	NOUN	NOUN	_	25	appos	_	TokenRange=228:236
+30	cassio	cassio	NOUN	NOUN	_	29	appos	_	TokenRange=237:243
+31	conserino	conserino	ADJ	ADJ	_	32	amod	_	TokenRange=244:253
+32	informacoes	_	NOUN	NOUN	_	29	appos	_	TokenRange=254:265
+33	canal	canal	NOUN	NOUN	_	32	appos	_	TokenRange=266:271
+34	globo	globo	ADJ	ADJ	_	33	amod	_	TokenRange=272:277
+35	news	_	X	NOUN	_	36	flat	_	TokenRange=278:282
+36	mp	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=283:285
+37	paulo	_	NOUN	NOUN	_	36	flat	_	TokenRange=286:291
+38	dara	darar	VERB	VERB	_	3	parataxis	_	TokenRange=292:296
+39	entrevista	entrevista	NOUN	NOUN	_	38	obj	_	TokenRange=297:307
+40	coletiva	coletivo	ADJ	ADJ	_	39	amod	_	TokenRange=308:316
+41	nessa	_	ADP	ADP	_	42	case	_	TokenRange=317:322
+42	quintafeira	quintafeira	NOUN	NOUN	_	38	nmod	_	TokenRange=323:334
+43	parte	parte	NOUN	NOUN	_	42	appos	_	TokenRange=335:340
+44	manha	manha	ADJ	ADJ	_	43	flat	_	TokenRange=341:346
+45	detalhe	detalhe	NOUN	NOUN	_	38	parataxis	_	TokenRange=347:354
+46	denuncias	_	NOUN	NOUN	_	45	flat	_	TokenRange=355:364
+47	nada	nada	ADV	ADV	_	48	advmod	_	TokenRange=365:369
+48	ver	ver	VERB	VERB	_	46	acl:relcl	_	TokenRange=370:373
+49	investigacoes	investigacoe	NOUN	NOUN	_	48	obj	_	TokenRange=374:387
+50	operacao	operacao	VERB	ADJ	_	49	appos	_	TokenRange=388:396
+51	lavajato	lavajato	NOUN	NOUN	_	50	flat	_	SpaceAfter=No|TokenRange=397:405
+

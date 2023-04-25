@@ -1,0 +1,36 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = amazonas lidera ranking brasileiro incidencia tuberculose diz fvs 2017 3 mil casos todo estado neste ano 497 novas ocorrencias amazonas ocupa primeiro lugar ranking brasileiro incidencia tuberculose segundo
+1	amazonas	amazona	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	lidera	liderar	VERB	VERB	_	0	root	_	TokenRange=9:15
+3	ranking	ranking	NOUN	NOUN	_	2	obj	_	TokenRange=16:23
+4	brasileiro	brasileiro	ADJ	ADJ	_	3	amod	_	TokenRange=24:34
+5	incidencia	incidencia	NOUN	NOUN	_	3	appos	_	TokenRange=35:45
+6	tuberculose	tuberculose	NOUN	NOUN	_	5	flat	_	TokenRange=46:57
+7	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=58:61
+8	fvs	_	NOUN	NOUN	_	7	obj	_	TokenRange=62:65
+9	2017	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=66:70
+10	3	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=71:72
+11	mil	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=73:76
+12	casos	caso	NOUN	NOUN	_	7	obj	_	TokenRange=77:82
+13	todo	_	DET	DET	_	14	det	_	TokenRange=83:87
+14	estado	estado	NOUN	NOUN	_	12	appos	_	TokenRange=88:94
+15	neste	_	ADP	ADP	_	16	case	_	TokenRange=95:100
+16	ano	ano	NOUN	NOUN	_	21	nmod	_	TokenRange=101:104
+17	497	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=105:108
+18	novas	novo	ADJ	ADJ	_	19	amod	_	TokenRange=109:114
+19	ocorrencias	ocorrencia	NOUN	NOUN	_	21	nsubj	_	TokenRange=115:126
+20	amazonas	amazona	ADJ	ADJ	_	19	amod	_	TokenRange=127:135
+21	ocupa	ocupar	VERB	VERB	_	2	parataxis	_	TokenRange=136:141
+22	primeiro	primeiro	ADJ	ADJ	_	23	amod	_	TokenRange=142:150
+23	lugar	lugar	NOUN	NOUN	_	21	obj	_	TokenRange=151:156
+24	ranking	ranking	NOUN	NOUN	_	23	appos	_	TokenRange=157:164
+25	brasileiro	brasileiro	ADJ	ADJ	_	24	amod	_	TokenRange=165:175
+26	incidencia	incidencia	ADJ	NOUN	_	23	appos	_	TokenRange=176:186
+27	tuberculose	tuberculose	NOUN	NOUN	_	26	flat	_	TokenRange=187:198
+28	segundo	_	ADP	ADP	_	16	case	_	SpaceAfter=No|TokenRange=199:206
+

@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = expresidente luiz inacio lula silva zelador jose afonso pinheiro eleitor arrependido afonso torce petista condenado tribunal regional federal 4 regiao trf4 quartafeira 24 corte apelacao lava jato vai julgar recurso lula contra sentenca 9 anos seis meses prisao corrupcao lavagem dinheiro imposta juiz
+1	expresidente	expresidente	NOUN	NOUN	_	29	nsubj	_	TokenRange=0:12
+2	luiz	luiz	ADJ	ADJ	_	1	appos	_	TokenRange=13:17
+3	inacio	_	NOUN	NOUN	_	1	appos	_	TokenRange=18:24
+4	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=25:29
+5	silva	silva	ADJ	ADJ	_	2	amod	_	TokenRange=30:35
+6	zelador	zelador	NOUN	NOUN	_	1	appos	_	TokenRange=36:43
+7	jose	jose	NOUN	NOUN	_	1	appos	_	TokenRange=44:48
+8	afonso	afonso	ADJ	ADJ	_	7	flat	_	TokenRange=49:55
+9	pinheiro	pinheiro	ADJ	ADJ	_	10	amod	_	TokenRange=56:64
+10	eleitor	eleitor	NOUN	NOUN	_	1	appos	_	TokenRange=65:72
+11	arrependido	arrependido	ADJ	ADJ	_	10	amod	_	TokenRange=73:84
+12	afonso	afonso	ADJ	ADJ	_	10	amod	_	TokenRange=85:91
+13	torce	_	NOUN	NOUN	_	10	appos	_	TokenRange=92:97
+14	petista	petista	NOUN	NOUN	_	12	flat	_	TokenRange=98:105
+15	condenado	condenar	AUX	AUX	_	16	acl	_	TokenRange=106:115
+16	tribunal	tribunal	NOUN	NOUN	_	1	appos	_	TokenRange=116:124
+17	regional	regional	ADJ	ADJ	_	16	amod	_	TokenRange=125:133
+18	federal	federal	ADJ	ADJ	_	16	amod	_	TokenRange=134:141
+19	4	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=142:143
+20	regiao	regiao	NOUN	NOUN	_	16	appos	_	TokenRange=144:150
+21	trf4	_	NOUN	NOUN	_	20	appos	_	TokenRange=151:155
+22	quartafeira	_	NOUN	NOUN	_	20	appos	_	TokenRange=156:167
+23	24	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=168:170
+24	corte	corte	NOUN	NOUN	_	16	appos	_	TokenRange=171:176
+25	apelacao	apelacao	NOUN	NOUN	_	24	amod	_	TokenRange=177:185
+26	lava	lavar	VERB	VERB	_	24	appos	_	TokenRange=186:190
+27	jato	jato	NOUN	NOUN	_	26	obj	_	TokenRange=191:195
+28	vai	ir	AUX	AUX	_	29	aux	_	TokenRange=196:199
+29	julgar	julgar	VERB	VERB	_	0	root	_	TokenRange=200:206
+30	recurso	recurso	NOUN	NOUN	_	29	obj	_	TokenRange=207:214
+31	lula	lula	ADJ	ADJ	_	30	amod	_	TokenRange=215:219
+32	contra	_	ADP	ADP	_	33	case	_	TokenRange=220:226
+33	sentenca	sentenca	NOUN	NOUN	_	29	nmod	_	TokenRange=227:235
+34	9	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=236:237
+35	anos	ano	NOUN	NOUN	_	33	nmod	_	TokenRange=238:242
+36	seis	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=243:247
+37	meses	mês	NOUN	NOUN	_	38	nmod	_	TokenRange=248:253
+38	prisao	prisao	NOUN	NOUN	_	29	parataxis	_	TokenRange=254:260
+39	corrupcao	corrupcao	ADJ	ADJ	_	40	amod	_	TokenRange=261:270
+40	lavagem	lavagem	NOUN	NOUN	_	38	appos	_	TokenRange=271:278
+41	dinheiro	dinheiro	NOUN	NOUN	_	40	flat	_	TokenRange=279:287
+42	imposta	_	VERB	VERB	_	43	acl	_	TokenRange=288:295
+43	juiz	juiz	NOUN	NOUN	_	38	appos	_	SpaceAfter=No|TokenRange=296:300
+

@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senado aprova intervencao federal seguranca publica rio decreto vigor desde semana passada governo precisava aval congresso medida continuar valendo aprovacao texto publicado diario oficial senado aprovou fim noite desta tercafeira 20 55 votos 13 1 abstencao decreto autoriza intervencao federal seguranca publica estado rio janeiro decreto vai publicacao diario oficial uniao saiba votou cada senador intervencao federal assinada presidente michel temer
+1	senado	senado	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	aprova	aprovar	VERB	VERB	_	0	root	_	TokenRange=7:13
+3	intervencao	intervencao	NOUN	NOUN	_	2	obj	_	TokenRange=14:25
+4	federal	federal	ADJ	ADJ	_	3	amod	_	TokenRange=26:33
+5	seguranca	_	NOUN	NOUN	_	3	appos	_	TokenRange=34:43
+6	publica	publico	ADJ	ADJ	_	3	amod	_	TokenRange=44:51
+7	rio	rio	NOUN	NOUN	_	3	appos	_	TokenRange=52:55
+8	decreto	decreto	NOUN	NOUN	_	3	appos	_	TokenRange=56:63
+9	vigor	vigor	NOUN	NOUN	_	8	amod	_	TokenRange=64:69
+10	desde	_	ADP	ADP	_	11	case	_	TokenRange=70:75
+11	semana	semana	NOUN	NOUN	_	2	nmod	_	TokenRange=76:82
+12	passada	passado	ADJ	ADJ	_	11	amod	_	TokenRange=83:90
+13	governo	governo	NOUN	NOUN	_	14	nsubj	_	TokenRange=91:98
+14	precisava	precisar	VERB	VERB	_	2	parataxis	_	TokenRange=99:108
+15	aval	aval	NOUN	NOUN	_	14	obj	_	TokenRange=109:113
+16	congresso	congresso	NOUN	NOUN	_	15	flat	_	TokenRange=114:123
+17	medida	medida	NOUN	NOUN	_	19	nsubj	_	TokenRange=124:130
+18	continuar	continuar	AUX	AUX	_	19	aux	_	TokenRange=131:140
+19	valendo	valer	VERB	VERB	_	14	conj	_	TokenRange=141:148
+20	aprovacao	aprovacao	NOUN	NOUN	_	19	obj	_	TokenRange=149:158
+21	texto	texto	NOUN	NOUN	_	19	obj	_	TokenRange=159:164
+22	publicado	publicar	VERB	VERB	_	21	acl	_	TokenRange=165:174
+23	diario	diario	NOUN	NOUN	_	19	nsubj	_	TokenRange=175:181
+24	oficial	oficial	ADJ	ADJ	_	23	amod	_	TokenRange=182:189
+25	senado	senado	NOUN	NOUN	_	21	amod	_	TokenRange=190:196
+26	aprovou	aprovar	VERB	VERB	_	2	parataxis	_	TokenRange=197:204
+27	fim	fim	NOUN	NOUN	_	26	obj	_	TokenRange=205:208
+28	noite	noite	NOUN	NOUN	_	27	flat	_	TokenRange=209:214
+29	desta	_	ADP	ADP	_	30	case	_	TokenRange=215:220
+30	tercafeira	_	NOUN	NOUN	_	27	nmod	_	TokenRange=221:231
+31	20	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=232:234
+32	55	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=235:237
+33	votos	voto	NOUN	NOUN	_	26	obj	_	TokenRange=238:243
+34	13	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=244:246
+35	1	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=247:248
+36	abstencao	abstencao	NOUN	NOUN	_	38	nsubj	_	TokenRange=249:258
+37	decreto	decreto	NOUN	NOUN	_	38	nsubj	_	TokenRange=259:266
+38	autoriza	autorizar	VERB	VERB	_	26	parataxis	_	TokenRange=267:275
+39	intervencao	intervencao	NOUN	NOUN	_	38	obj	_	TokenRange=276:287
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=288:295
+41	seguranca	_	NOUN	NOUN	_	39	appos	_	TokenRange=296:305
+42	publica	publico	ADJ	ADJ	_	41	amod	_	TokenRange=306:313
+43	estado	estado	NOUN	NOUN	_	39	appos	_	TokenRange=314:320
+44	rio	rio	ADJ	NOUN	_	43	appos	_	TokenRange=321:324
+45	janeiro	_	PROPN	PNOUN	_	43	amod	_	TokenRange=325:332
+46	decreto	decreto	NOUN	NOUN	_	48	nsubj	_	TokenRange=333:340
+47	vai	ir	AUX	AUX	_	48	cop	_	TokenRange=341:344
+48	publicacao	publicacao	NOUN	NOUN	_	39	acl:relcl	_	TokenRange=345:355
+49	diario	diario	NOUN	NOUN	_	53	nsubj	_	TokenRange=356:362
+50	oficial	oficial	ADJ	ADJ	_	49	amod	_	TokenRange=363:370
+51	uniao	uniao	NOUN	NOUN	_	53	nsubj	_	TokenRange=371:376
+52	saiba	_	ADJ	ADJ	_	49	amod	_	TokenRange=377:382
+53	votou	votar	VERB	VERB	_	2	parataxis	_	TokenRange=383:388
+54	cada	_	DET	DET	_	55	det	_	TokenRange=389:393
+55	senador	senador	NOUN	NOUN	_	53	obj	_	TokenRange=394:401
+56	intervencao	intervencao	NOUN	NOUN	_	53	obj	_	TokenRange=402:413
+57	federal	federal	ADJ	ADJ	_	56	amod	_	TokenRange=414:421
+58	assinada	assinado	ADJ	ADJ	_	56	amod	_	TokenRange=422:430
+59	presidente	presidente	NOUN	NOUN	_	53	obj	_	TokenRange=431:441
+60	michel	michel	PROPN	PNOUN	_	59	appos	_	TokenRange=442:448
+61	temer	temer	PROPN	PNOUN	_	60	flat	_	SpaceAfter=No|TokenRange=449:454
+

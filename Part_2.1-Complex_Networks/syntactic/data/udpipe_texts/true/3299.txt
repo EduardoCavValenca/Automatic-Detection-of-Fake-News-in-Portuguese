@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = privatizacao eletrobras pode afetar conta luz modelo privatizacao escolhido dizem especialistas mostra governo pressa eletricidade pode ficar cara fim processo governo anunciou semana passada decisao surpreendeu mercado privatizacao eletrobras gigante formada centenas empresas atuam todas tres fases cadeia produtiva setor 233 usinas geracao energia incluindo furnas opera 12 hidreletricas duas termeletricas companhia hidreletrica francisco chesf alem seis distribuidoras todas regiao norte nordeste 61 mil quilometros linhas transmissao metade total pais suficiente dar volta meia planeta privatizar companhia dizem
+1	privatizacao	privatizacao	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:12
+2	eletrobras	_	NOUN	NOUN	_	1	appos	_	TokenRange=13:23
+3	pode	_	AUX	AUX	_	4	aux	_	TokenRange=24:28
+4	afetar	afetar	VERB	VERB	_	78	ccomp	_	TokenRange=29:35
+5	conta	conta	NOUN	NOUN	_	4	obj	_	TokenRange=36:41
+6	luz	luz	NOUN	NOUN	_	5	flat	_	TokenRange=42:45
+7	modelo	modelo	NOUN	NOUN	_	4	obj	_	TokenRange=46:52
+8	privatizacao	_	NOUN	NOUN	_	7	amod	_	TokenRange=53:65
+9	escolhido	_	VERB	VERB	_	42	acl	_	TokenRange=66:75
+10	dizem	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=76:81
+11	especialistas	especialista	NOUN	NOUN	_	10	nsubj	_	TokenRange=82:95
+12	mostra	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=96:102
+13	governo	governo	NOUN	NOUN	_	12	obj	_	TokenRange=103:110
+14	pressa	presso	ADJ	ADJ	_	15	amod	_	TokenRange=111:117
+15	eletricidade	eletricidade	NOUN	NOUN	_	17	nsubj	_	TokenRange=118:130
+16	pode	_	AUX	AUX	_	17	aux	_	TokenRange=131:135
+17	ficar	ficar	VERB	VERB	_	4	parataxis	_	TokenRange=136:141
+18	cara	cara	ADJ	ADJ	_	17	xcomp	_	TokenRange=142:146
+19	fim	fim	ADJ	NOUN	_	20	amod	_	TokenRange=147:150
+20	processo	processo	NOUN	NOUN	_	22	nsubj	_	TokenRange=151:159
+21	governo	governo	NOUN	NOUN	_	20	amod	_	TokenRange=160:167
+22	anunciou	anunciar	VERB	VERB	_	4	parataxis	_	TokenRange=168:176
+23	semana	semana	NOUN	NOUN	_	22	obj	_	TokenRange=177:183
+24	passada	passado	ADJ	ADJ	_	23	amod	_	TokenRange=184:191
+25	decisao	decisao	NOUN	NOUN	_	23	appos	_	TokenRange=192:199
+26	surpreendeu	surpreender	VERB	VERB	_	22	parataxis	_	TokenRange=200:211
+27	mercado	mercado	NOUN	NOUN	_	26	obj	_	TokenRange=212:219
+28	privatizacao	privatizacao	ADJ	ADJ	_	29	amod	_	TokenRange=220:232
+29	eletrobras	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=233:243
+30	gigante	gigante	ADJ	ADJ	_	29	amod	_	TokenRange=244:251
+31	formada	formar	VERB	VERB	_	29	acl	_	TokenRange=252:259
+32	centenas	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=260:268
+33	empresas	empresa	NOUN	NOUN	_	34	nsubj	_	TokenRange=269:277
+34	atuam	_	VERB	VERB	_	26	parataxis	_	TokenRange=278:283
+35	todas	_	DET	DET	_	37	det	_	TokenRange=284:289
+36	tres	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=290:294
+37	fases	fase	NOUN	NOUN	_	34	nmod	_	TokenRange=295:300
+38	cadeia	cadeia	NOUN	NOUN	_	34	nsubj	_	TokenRange=301:307
+39	produtiva	produtivo	ADJ	ADJ	_	38	amod	_	TokenRange=308:317
+40	setor	setor	NOUN	NOUN	_	38	appos	_	TokenRange=318:323
+41	233	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=324:327
+42	usinas	usina	NOUN	NOUN	_	38	appos	_	TokenRange=328:334
+43	geracao	geracao	ADJ	ADJ	_	42	amod	_	TokenRange=335:342
+44	energia	energia	NOUN	NOUN	_	42	flat	_	TokenRange=343:350
+45	incluindo	incluir	VERB	VERB	_	42	acl	_	TokenRange=351:360
+46	furnas	furna	NOUN	NOUN	_	45	obj	_	TokenRange=361:367
+47	opera	operar	VERB	VERB	_	34	parataxis	_	TokenRange=368:373
+48	12	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=374:376
+49	hidreletricas	_	NOUN	NOUN	_	47	obj	_	TokenRange=377:390
+50	duas	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=391:395
+51	termeletricas	_	NOUN	NOUN	_	49	amod	_	TokenRange=396:409
+52	companhia	companhia	NOUN	NOUN	_	49	appos	_	TokenRange=410:419
+53	hidreletrica	_	ADJ	ADJ	_	52	amod	_	TokenRange=420:432
+54	francisco	francisco	NOUN	NOUN	_	52	appos	_	TokenRange=433:442
+55	chesf	_	NOUN	NOUN	_	54	flat	_	TokenRange=443:448
+56	alem	alem	ADV	ADV	_	47	advmod	_	TokenRange=449:453
+57	seis	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=454:458
+58	distribuidoras	distribuidor	NOUN	NOUN	_	56	nmod	_	TokenRange=459:473
+59	todas	_	DET	DET	_	60	det	_	TokenRange=474:479
+60	regiao	regiao	NOUN	NOUN	_	58	appos	_	TokenRange=480:486
+61	norte	norte	ADJ	ADJ	_	60	amod	_	TokenRange=487:492
+62	nordeste	nordeste	ADJ	ADJ	_	60	amod	_	TokenRange=493:501
+63	61	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=502:504
+64	mil	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=505:508
+65	quilometros	quilometro	NOUN	NOUN	_	60	appos	_	TokenRange=509:520
+66	linhas	_	NOUN	NOUN	_	65	appos	_	TokenRange=521:527
+67	transmissao	transmissao	ADJ	ADJ	_	68	amod	_	TokenRange=528:539
+68	metade	metade	NOUN	NOUN	_	65	appos	_	TokenRange=540:546
+69	total	total	ADJ	ADJ	_	68	amod	_	TokenRange=547:552
+70	pais	_	NOUN	NOUN	_	68	appos	_	TokenRange=553:557
+71	suficiente	suficiente	ADJ	ADJ	_	68	amod	_	TokenRange=558:568
+72	dar	dar	VERB	VERB	_	68	acl	_	TokenRange=569:572
+73	volta	volta	NOUN	NOUN	_	72	obj	_	TokenRange=573:578
+74	meia	meio	ADJ	ADJ	_	75	amod	_	TokenRange=579:583
+75	planeta	planeta	NOUN	NOUN	_	72	nsubj	_	TokenRange=584:591
+76	privatizar	privatizar	VERB	VERB	_	68	acl:inf	_	TokenRange=592:602
+77	companhia	companhia	NOUN	NOUN	_	76	obj	_	TokenRange=603:612
+78	dizem	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=613:618
+

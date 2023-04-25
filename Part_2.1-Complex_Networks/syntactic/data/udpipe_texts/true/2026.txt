@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = relembre delacoes depoimentos agitaram politica 2017 g1 separou principais trechos delacoes executivos odebrecht jbs alem depoimentos lula cunha palocci outros assista video ano 2017 comecou grande expectativa impacto causado delacoes premiadas caminho ansiedade visivel congresso nacional palacio planalto ministerios aguardada inicio deste ano 77 executivos exexecutivos odebrecht maior empreiteira pais principais envolvidas operacao lava jato delacoes odebrecht tornaram publicas abril supremo tribunal federal autorizou abertura 76 inqueritos
+1	relembre	relembre	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	delacoes	delacoe	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:17
+3	depoimentos	depoimento	NOUN	NOUN	_	2	flat	_	TokenRange=18:29
+4	agitaram	agitar	VERB	VERB	_	0	root	_	TokenRange=30:38
+5	politica	_	NOUN	NOUN	_	4	obj	_	TokenRange=39:47
+6	2017	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=48:52
+7	g1	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=53:55
+8	separou	separar	VERB	VERB	_	4	parataxis	_	TokenRange=56:63
+9	principais	principal	ADJ	ADJ	_	10	amod	_	TokenRange=64:74
+10	trechos	trecho	NOUN	NOUN	_	8	obj	_	TokenRange=75:82
+11	delacoes	delacoe	NOUN	NOUN	_	8	obj	_	TokenRange=83:91
+12	executivos	executivo	ADJ	ADJ	_	11	amod	_	TokenRange=92:102
+13	odebrecht	_	NOUN	NOUN	_	11	appos	_	TokenRange=103:112
+14	jbs	_	NOUN	NOUN	_	13	flat	_	TokenRange=113:116
+15	alem	_	ADV	ADV	_	16	advmod	_	TokenRange=117:121
+16	depoimentos	depoimento	NOUN	NOUN	_	13	appos	_	TokenRange=122:133
+17	lula	_	NOUN	NOUN	_	16	appos	_	TokenRange=134:138
+18	cunha	cunha	NOUN	NOUN	_	17	flat	_	TokenRange=139:144
+19	palocci	_	NOUN	NOUN	_	17	flat	_	TokenRange=145:152
+20	outros	_	PRON	PRON	_	21	nsubj	_	TokenRange=153:159
+21	assista	assistir	VERB	VERB	_	4	parataxis	_	TokenRange=160:167
+22	video	video	NOUN	NOUN	_	21	obj	_	TokenRange=168:173
+23	ano	ano	NOUN	NOUN	_	22	nmod	_	TokenRange=174:177
+24	2017	_	NUM	NUM	NumType=Card	23	appos	_	TokenRange=178:182
+25	comecou	comecar	VERB	VERB	_	21	parataxis	_	TokenRange=183:190
+26	grande	grande	ADJ	ADJ	_	27	amod	_	TokenRange=191:197
+27	expectativa	expectativa	NOUN	NOUN	_	25	obj	_	TokenRange=198:209
+28	impacto	impacto	NOUN	NOUN	_	27	appos	_	TokenRange=210:217
+29	causado	causar	VERB	VERB	_	30	acl	_	TokenRange=218:225
+30	delacoes	delacoe	NOUN	NOUN	_	28	appos	_	TokenRange=226:234
+31	premiadas	premiar	ADJ	ADJ	_	32	acl	_	TokenRange=235:244
+32	caminho	caminho	NOUN	NOUN	_	30	appos	_	TokenRange=245:252
+33	ansiedade	ansiedade	NOUN	NOUN	_	32	flat	_	TokenRange=253:262
+34	visivel	visivel	ADJ	ADJ	_	35	amod	_	TokenRange=263:270
+35	congresso	congresso	NOUN	NOUN	_	32	appos	_	TokenRange=271:280
+36	nacional	nacional	ADJ	ADJ	_	35	amod	_	TokenRange=281:289
+37	palacio	palacio	NOUN	NOUN	_	35	appos	_	TokenRange=290:297
+38	planalto	planalto	ADJ	ADJ	_	35	amod	_	TokenRange=298:306
+39	ministerios	ministerio	NOUN	NOUN	_	35	amod	_	TokenRange=307:318
+40	aguardada	aguardado	ADJ	ADJ	_	41	amod	_	TokenRange=319:328
+41	inicio	_	NOUN	NOUN	_	35	appos	_	TokenRange=329:335
+42	deste	_	ADP	ADP	_	43	case	_	TokenRange=336:341
+43	ano	ano	NOUN	NOUN	_	41	nmod	_	TokenRange=342:345
+44	77	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=346:348
+45	executivos	executivo	NOUN	NOUN	_	58	nsubj	_	TokenRange=349:359
+46	exexecutivos	exexecutivo	ADJ	ADJ	_	45	amod	_	TokenRange=360:372
+47	odebrecht	_	ADJ	ADJ	_	49	amod	_	TokenRange=373:382
+48	maior	maior	ADJ	ADJ	_	49	amod	_	TokenRange=383:388
+49	empreiteira	empreiteiro	NOUN	NOUN	_	45	appos	_	TokenRange=389:400
+50	pais	_	NOUN	NOUN	_	49	appos	_	TokenRange=401:405
+51	principais	principal	ADJ	ADJ	_	50	amod	_	TokenRange=406:416
+52	envolvidas	envolvido	ADJ	ADJ	_	49	amod	_	TokenRange=417:427
+53	operacao	operacao	NOUN	NOUN	_	49	appos	_	TokenRange=428:436
+54	lava	lava	NOUN	NOUN	_	49	appos	_	TokenRange=437:441
+55	jato	jato	ADJ	ADJ	_	56	amod	_	TokenRange=442:446
+56	delacoes	delacoe	NOUN	NOUN	_	58	nsubj	_	TokenRange=447:455
+57	odebrecht	_	NOUN	NOUN	_	56	appos	_	TokenRange=456:465
+58	tornaram	tornar	VERB	VERB	_	4	parataxis	_	TokenRange=466:474
+59	publicas	publico	ADJ	ADJ	_	58	xcomp	_	TokenRange=475:483
+60	abril	_	PROPN	PNOUN	_	64	nsubj	_	TokenRange=484:489
+61	supremo	supremo	ADJ	ADJ	_	62	amod	_	TokenRange=490:497
+62	tribunal	tribunal	NOUN	NOUN	_	64	nsubj	_	TokenRange=498:506
+63	federal	federal	ADJ	ADJ	_	62	amod	_	TokenRange=507:514
+64	autorizou	autorizar	VERB	VERB	_	58	parataxis	_	TokenRange=515:524
+65	abertura	abertura	NOUN	NOUN	_	64	obj	_	TokenRange=525:533
+66	76	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=534:536
+67	inqueritos	inquerito	NOUN	NOUN	_	65	appos	_	SpaceAfter=No|TokenRange=537:547
+

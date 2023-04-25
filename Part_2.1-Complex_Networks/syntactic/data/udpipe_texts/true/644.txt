@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tropkillaz duo produziu vai malandra continua unir rap funk musica eletronica saiba veterano rap dj prodigio fizeram trap brasileira abriram cabeca funk deram forma hit anitta assinaram contrato mundial vao contra djs bonzinhos lolla djs zegon 48 anos andre laudz 25 explicam inicio tropkillaz
+1	tropkillaz	tropkillaz	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	duo	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:14
+3	produziu	produzir	VERB	VERB	_	0	root	_	TokenRange=15:23
+4	vai	ir	NOUN	NOUN	_	3	obj	_	TokenRange=24:27
+5	malandra	malandra	NOUN	NOUN	_	3	obj	_	TokenRange=28:36
+6	continua	continuar	AUX	AUX	_	3	aux	_	TokenRange=37:45
+7	unir	unir	VERB	VERB	_	3	ccomp	_	TokenRange=46:50
+8	rap	_	NOUN	NOUN	_	7	obj	_	TokenRange=51:54
+9	funk	funk	NOUN	NOUN	_	8	flat	_	TokenRange=55:59
+10	musica	_	NOUN	NOUN	_	8	appos	_	TokenRange=60:66
+11	eletronica	eletronico	ADJ	ADJ	_	10	amod	_	TokenRange=67:77
+12	saiba	saiba	NOUN	NOUN	_	10	appos	_	TokenRange=78:83
+13	veterano	veterano	ADJ	ADJ	_	14	amod	_	TokenRange=84:92
+14	rap	rap	NOUN	NOUN	_	10	appos	_	TokenRange=93:96
+15	dj	_	NOUN	NOUN	_	14	appos	_	TokenRange=97:99
+16	prodigio	_	NOUN	NOUN	_	14	flat	_	TokenRange=100:108
+17	fizeram	fazer	VERB	VERB	_	14	acl:relcl	_	TokenRange=109:116
+18	trap	trap	NOUN	NOUN	_	17	obj	_	TokenRange=117:121
+19	brasileira	brasileiro	ADJ	ADJ	_	18	amod	_	TokenRange=122:132
+20	abriram	abrir	VERB	VERB	_	17	parataxis	_	TokenRange=133:140
+21	cabeca	cabeca	NOUN	NOUN	_	20	obj	_	TokenRange=141:147
+22	funk	funk	NOUN	NOUN	_	21	flat	_	TokenRange=148:152
+23	deram	dar	VERB	VERB	_	17	parataxis	_	TokenRange=153:158
+24	forma	forma	NOUN	NOUN	_	23	obj	_	TokenRange=159:164
+25	hit	_	NOUN	NOUN	_	24	appos	_	TokenRange=165:168
+26	anitta	anitta	NOUN	NOUN	_	24	flat	_	TokenRange=169:175
+27	assinaram	assinar	VERB	VERB	_	23	parataxis	_	TokenRange=176:185
+28	contrato	contrato	NOUN	NOUN	_	27	obj	_	TokenRange=186:194
+29	mundial	mundial	ADJ	ADJ	_	28	amod	_	TokenRange=195:202
+30	vao	_	VERB	VERB	_	27	parataxis	_	TokenRange=203:206
+31	contra	_	ADP	ADP	_	32	case	_	TokenRange=207:213
+32	djs	dj	NOUN	NOUN	_	30	nmod	_	TokenRange=214:217
+33	bonzinhos	_	NOUN	NOUN	_	32	flat	_	TokenRange=218:227
+34	lolla	_	NOUN	NOUN	_	32	appos	_	TokenRange=228:233
+35	djs	_	NOUN	NOUN	_	32	appos	_	TokenRange=234:237
+36	zegon	_	NOUN	NOUN	_	35	flat	_	TokenRange=238:243
+37	48	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=244:246
+38	anos	ano	NOUN	NOUN	_	35	appos	_	TokenRange=247:251
+39	andre	andre	NOUN	NOUN	_	42	nsubj	_	TokenRange=252:257
+40	laudz	laudz	NOUN	NOUN	_	39	flat	_	TokenRange=258:263
+41	25	_	NUM	NUM	NumType=Card	39	appos	_	TokenRange=264:266
+42	explicam	explicar	VERB	VERB	_	27	parataxis	_	TokenRange=267:275
+43	inicio	_	NOUN	NOUN	_	42	obj	_	TokenRange=276:282
+44	tropkillaz	tropkillaz	NOUN	ADJ	_	43	amod	_	SpaceAfter=No|TokenRange=283:293
+

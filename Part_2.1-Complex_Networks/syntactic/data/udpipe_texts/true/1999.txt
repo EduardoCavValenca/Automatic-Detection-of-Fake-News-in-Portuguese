@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 5 marco 2018 boa noite aqui principais noticias terminar dia beminformado nova fase operacao carne fraca prendeu exdiretorpresidente global brf brasil foods pedro andrade faria fabricas grupo fraudavam laudos relacionados presenca salmonela alimentos exportacao veja detalhes roubo cinematografico us 5 milhoes aeroporto viracopos
+1	segundafeira	_	NOUN	NOUN	_	18	parataxis	_	TokenRange=0:12
+2	5	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=13:14
+3	marco	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:20
+4	2018	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=21:25
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=26:29
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=36:40
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=41:51
+9	noticias	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=52:60
+10	terminar	terminar	VERB	VERB	_	6	acl:relcl	_	TokenRange=61:69
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=70:73
+12	beminformado	beminformado	ADJ	ADJ	_	14	amod	_	TokenRange=74:86
+13	nova	novo	ADJ	ADJ	_	14	amod	_	TokenRange=87:91
+14	fase	fase	NOUN	NOUN	_	10	nsubj	_	TokenRange=92:96
+15	operacao	_	ADJ	DET	_	16	amod	_	TokenRange=97:105
+16	carne	carne	NOUN	NOUN	_	18	nsubj	_	TokenRange=106:111
+17	fraca	fraco	ADJ	ADJ	_	16	amod	_	TokenRange=112:117
+18	prendeu	prender	VERB	VERB	_	0	root	_	TokenRange=118:125
+19	exdiretorpresidente	_	NOUN	NOUN	_	18	obj	_	TokenRange=126:145
+20	global	global	ADJ	ADJ	_	19	amod	_	TokenRange=146:152
+21	brf	_	NOUN	NOUN	_	19	appos	_	TokenRange=153:156
+22	brasil	brasil	NOUN	NOUN	_	21	flat	_	TokenRange=157:163
+23	foods	_	NOUN	NOUN	_	21	flat	_	TokenRange=164:169
+24	pedro	pedro	NOUN	NOUN	_	21	appos	_	TokenRange=170:175
+25	andrade	andrade	NOUN	NOUN	_	24	flat	_	TokenRange=176:183
+26	faria	faria	NOUN	NOUN	_	24	flat	_	TokenRange=184:189
+27	fabricas	fabrico	ADJ	ADJ	_	24	amod	_	TokenRange=190:198
+28	grupo	grupo	NOUN	NOUN	_	24	flat	_	TokenRange=199:204
+29	fraudavam	fraudar	VERB	VERB	_	18	parataxis	_	TokenRange=205:214
+30	laudos	laudo	NOUN	NOUN	_	29	obj	_	TokenRange=215:221
+31	relacionados	relacionado	ADJ	ADJ	_	30	amod	_	TokenRange=222:234
+32	presenca	presenca	NOUN	NOUN	_	30	appos	_	TokenRange=235:243
+33	salmonela	salmonela	NOUN	NOUN	_	30	appos	_	TokenRange=244:253
+34	alimentos	alimento	NOUN	NOUN	_	32	appos	_	TokenRange=254:263
+35	exportacao	exportacao	ADJ	ADJ	_	34	amod	_	TokenRange=264:274
+36	veja	ver	VERB	VERB	_	18	parataxis	_	TokenRange=275:279
+37	detalhes	detalhe	NOUN	NOUN	_	36	obj	_	TokenRange=280:288
+38	roubo	roubo	NOUN	NOUN	_	37	appos	_	TokenRange=289:294
+39	cinematografico	cinematografico	ADJ	ADJ	_	38	amod	_	TokenRange=295:310
+40	us	_	DET	DET	_	43	det	_	TokenRange=311:313
+41	5	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=314:315
+42	milhoes	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=316:323
+43	aeroporto	aeroporto	NOUN	NOUN	_	38	appos	_	TokenRange=324:333
+44	viracopos	viracopo	ADJ	ADJ	_	43	amod	_	SpaceAfter=No|TokenRange=334:343
+

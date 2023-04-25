@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = forcatarefa lavajato fara coletiva 14hs paradeiro lula desconhecido forcatarefa lava jato anunciou tarde coletiva imprensa 14h hotel lizon republica curitiba sendo aguardadas novas denuncias poderao colocar grandes chefoes atras grades pf mpf ainda manifestaram sobre nova fase deflagrada colocando toda imprensa estado prontidao fato expresidente lula desaparecido lula esquivou participar comicio presidente dilma ultimo dia 1 dia trabalho desde entao petista apareceu publicamente informacoes sobre paradeiro expresidente luiz inacio lula silva neste exato momento desencontradas lula sabe algo fugiu
+1	forcatarefa	forcatarefa	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:11
+2	lavajato	lavajato	NOUN	NOUN	_	1	appos	_	TokenRange=12:20
+3	fara	_	VERB	ADP	_	4	case	_	TokenRange=21:25
+4	coletiva	coletiva	NOUN	NOUN	_	1	nmod	_	TokenRange=26:34
+5	14hs	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=35:39
+6	paradeiro	paradeiro	NOUN	NOUN	_	4	appos	_	TokenRange=40:49
+7	lula	lula	NOUN	NOUN	_	6	appos	_	TokenRange=50:54
+8	desconhecido	desconhecido	ADJ	ADJ	_	9	amod	_	TokenRange=55:67
+9	forcatarefa	forcatarefa	NOUN	NOUN	_	10	nsubj	_	TokenRange=68:79
+10	lava	_	VERB	VERB	_	6	acl:relcl	_	TokenRange=80:84
+11	jato	jato	NOUN	NOUN	_	10	obj	_	TokenRange=85:89
+12	anunciou	anunciar	VERB	VERB	_	0	root	_	TokenRange=90:98
+13	tarde	tarde	NOUN	NOUN	_	12	advmod	_	TokenRange=99:104
+14	coletiva	coletiva	NOUN	NOUN	_	12	obj	_	TokenRange=105:113
+15	imprensa	imprensa	NOUN	NOUN	_	14	flat	_	TokenRange=114:122
+16	14h	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=123:126
+17	hotel	hotel	NOUN	NOUN	_	12	nsubj	_	TokenRange=127:132
+18	lizon	_	NOUN	NOUN	_	17	flat	_	TokenRange=133:138
+19	republica	_	NOUN	NOUN	_	17	amod	_	TokenRange=139:148
+20	curitiba	curitiba	NOUN	NOUN	_	17	appos	_	TokenRange=149:157
+21	sendo	ser	AUX	AUX	_	22	aux:pass	_	TokenRange=158:163
+22	aguardadas	aguardar	VERB	VERB	_	17	acl	_	TokenRange=164:174
+23	novas	novo	ADJ	ADJ	_	24	amod	_	TokenRange=175:180
+24	denuncias	_	NOUN	NOUN	_	22	nsubj:pass	_	TokenRange=181:190
+25	poderao	poder	AUX	AUX	_	26	aux	_	TokenRange=191:198
+26	colocar	colocar	VERB	VERB	_	22	parataxis	_	TokenRange=199:206
+27	grandes	grande	ADJ	ADJ	_	28	amod	_	TokenRange=207:214
+28	chefoes	chefoe	NOUN	NOUN	_	26	obj	_	TokenRange=215:222
+29	atras	_	ADV	ADV	_	30	case	_	TokenRange=223:228
+30	grades	grade	NOUN	NOUN	_	26	obj	_	TokenRange=229:235
+31	pf	_	X	X	_	34	nsubj	_	TokenRange=236:238
+32	mpf	_	NOUN	NOUN	_	31	flat	_	TokenRange=239:242
+33	ainda	ainda	ADV	ADV	_	34	advmod	_	TokenRange=243:248
+34	manifestaram	manifestar	VERB	VERB	_	12	parataxis	_	TokenRange=249:261
+35	sobre	_	ADP	ADP	_	37	case	_	TokenRange=262:267
+36	nova	novo	ADJ	ADJ	_	37	amod	_	TokenRange=268:272
+37	fase	fase	NOUN	NOUN	_	34	nmod	_	TokenRange=273:277
+38	deflagrada	deflagrado	ADJ	ADJ	_	37	amod	_	TokenRange=278:288
+39	colocando	colocar	VERB	VERB	_	34	acl	_	TokenRange=289:298
+40	toda	_	DET	DET	_	41	det	_	TokenRange=299:303
+41	imprensa	imprensa	NOUN	NOUN	_	39	obj	_	TokenRange=304:312
+42	estado	estado	NOUN	NOUN	_	39	nmod	_	TokenRange=313:319
+43	prontidao	prontidao	ADJ	ADJ	_	42	amod	_	TokenRange=320:329
+44	fato	fato	NOUN	NOUN	_	42	appos	_	TokenRange=330:334
+45	expresidente	expresidente	NOUN	NOUN	_	42	appos	_	TokenRange=335:347
+46	lula	lula	ADJ	ADJ	_	45	flat	_	TokenRange=348:352
+47	desaparecido	desaparecido	ADJ	ADJ	_	45	amod	_	TokenRange=353:365
+48	lula	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=366:370
+49	esquivou	esquivar	VERB	VERB	_	34	conj	_	TokenRange=371:379
+50	participar	participar	VERB	VERB	_	49	xcomp	_	TokenRange=380:390
+51	comicio	comicio	NOUN	NOUN	_	50	obj	_	TokenRange=391:398
+52	presidente	presidente	NOUN	NOUN	_	50	obj	_	TokenRange=399:409
+53	dilma	dilma	ADJ	ADJ	_	52	amod	_	TokenRange=410:415
+54	ultimo	_	ADJ	ADJ	_	55	amod	_	TokenRange=416:422
+55	dia	dia	NOUN	NOUN	_	52	appos	_	TokenRange=423:426
+56	1	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=427:428
+57	dia	dia	NOUN	NOUN	_	55	appos	_	TokenRange=429:432
+58	trabalho	trabalho	NOUN	NOUN	_	57	flat	_	TokenRange=433:441
+59	desde	_	ADP	ADP	_	60	mark	_	TokenRange=442:447
+60	entao	entao	ADV	ADV	_	62	nmod	_	TokenRange=448:453
+61	petista	petista	NOUN	NOUN	_	62	nsubj	_	TokenRange=454:461
+62	apareceu	aparecer	VERB	VERB	_	34	conj	_	TokenRange=462:470
+63	publicamente	publicamente	ADV	ADV	_	62	advmod	_	TokenRange=471:483
+64	informacoes	informacoe	NOUN	NOUN	_	62	obj	_	TokenRange=484:495
+65	sobre	_	ADP	ADP	_	66	case	_	TokenRange=496:501
+66	paradeiro	paradeiro	NOUN	NOUN	_	64	nmod	_	TokenRange=502:511
+67	expresidente	expresidente	NOUN	NOUN	_	66	amod	_	TokenRange=512:524
+68	luiz	luiz	NOUN	NOUN	_	66	appos	_	TokenRange=525:529
+69	inacio	_	NOUN	NOUN	_	68	flat	_	TokenRange=530:536
+70	lula	_	NOUN	NOUN	_	68	flat	_	TokenRange=537:541
+71	silva	silva	NOUN	ADJ	_	68	flat	_	TokenRange=542:547
+72	neste	_	ADP	ADP	_	74	case	_	TokenRange=548:553
+73	exato	exato	ADJ	ADJ	_	74	amod	_	TokenRange=554:559
+74	momento	momento	NOUN	NOUN	_	62	nmod	_	TokenRange=560:567
+75	desencontradas	desencontrado	ADJ	ADJ	_	74	amod	_	TokenRange=568:582
+76	lula	_	NOUN	NOUN	_	79	nsubj	_	TokenRange=583:587
+77	sabe	saber	VERB	VERB	_	62	conj	_	TokenRange=588:592
+78	algo	_	PRON	PRON	_	79	obj	_	TokenRange=593:597
+79	fugiu	fugir	VERB	VERB	_	77	ccomp	_	SpaceAfter=No|TokenRange=598:603
+

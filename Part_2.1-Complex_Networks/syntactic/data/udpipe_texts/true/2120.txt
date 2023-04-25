@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moro pede pf tomadas providencias necessarias realizacao pericia planilha italiano prazo dado pf 30 dias planilha apresentada odebrecht contabilidade propina pt processo lava jato juiz federal sergio moro responsavel processos operacao lava jato primeira instancia pediu policia federal pf
+1	moro	moro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	pf	_	NOUN	NOUN	_	2	obj	_	TokenRange=10:12
+4	tomadas	tomar	VERB	VERB	_	5	acl	_	TokenRange=13:20
+5	providencias	_	NOUN	NOUN	_	2	obj	_	TokenRange=21:33
+6	necessarias	necessaria	ADJ	ADJ	_	5	amod	_	TokenRange=34:45
+7	realizacao	realizacao	NOUN	NOUN	_	5	appos	_	TokenRange=46:56
+8	pericia	pericio	ADJ	ADJ	_	5	amod	_	TokenRange=57:64
+9	planilha	planilha	NOUN	NOUN	_	7	appos	_	TokenRange=65:73
+10	italiano	italiano	ADJ	ADJ	_	9	amod	_	TokenRange=74:82
+11	prazo	prazo	NOUN	NOUN	_	9	appos	_	TokenRange=83:88
+12	dado	dado	ADJ	ADJ	_	11	amod	_	TokenRange=89:93
+13	pf	_	NOUN	NOUN	_	11	flat	_	TokenRange=94:96
+14	30	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=97:99
+15	dias	dia	NOUN	NOUN	_	11	appos	_	TokenRange=100:104
+16	planilha	planilha	NOUN	NOUN	_	15	appos	_	TokenRange=105:113
+17	apresentada	apresentar	VERB	VERB	_	16	acl	_	TokenRange=114:125
+18	odebrecht	_	ADJ	ADJ	_	19	amod	_	TokenRange=126:135
+19	contabilidade	contabilidade	NOUN	NOUN	_	17	obj	_	TokenRange=136:149
+20	propina	propino	ADJ	ADJ	_	19	amod	_	TokenRange=150:157
+21	pt	_	ADP	ADP	_	22	case	_	TokenRange=158:160
+22	processo	processo	NOUN	NOUN	_	19	appos	_	TokenRange=161:169
+23	lava	_	NOUN	NOUN	_	22	appos	_	TokenRange=170:174
+24	jato	jato	ADJ	NOUN	_	25	amod	_	TokenRange=175:179
+25	juiz	juiz	NOUN	NOUN	_	22	appos	_	TokenRange=180:184
+26	federal	federal	ADJ	ADJ	_	25	amod	_	TokenRange=185:192
+27	sergio	_	NOUN	NOUN	_	25	appos	_	TokenRange=193:199
+28	moro	moro	NOUN	NOUN	_	27	flat	_	TokenRange=200:204
+29	responsavel	responsavel	ADJ	ADJ	_	30	amod	_	TokenRange=205:216
+30	processos	processo	NOUN	NOUN	_	25	appos	_	TokenRange=217:226
+31	operacao	operacao	ADJ	ADJ	_	30	amod	_	TokenRange=227:235
+32	lava	lava	NOUN	NOUN	_	30	appos	_	TokenRange=236:240
+33	jato	jato	ADJ	ADJ	_	32	amod	_	TokenRange=241:245
+34	primeira	primeiro	ADJ	ADJ	_	35	amod	_	TokenRange=246:254
+35	instancia	instancia	NOUN	NOUN	_	32	appos	_	TokenRange=255:264
+36	pediu	pedir	VERB	VERB	_	2	parataxis	_	TokenRange=265:270
+37	policia	policia	NOUN	NOUN	_	36	obj	_	TokenRange=271:278
+38	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=279:286
+39	pf	_	NOUN	NOUN	_	36	obj	_	SpaceAfter=No|TokenRange=287:289
+

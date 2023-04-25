@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo brasileiro aluga aviao eua r 1 8 milhao mes pra chegou ontem 10 base galeao/rj boeing 767300er alugado eua comando aeronautica aeronave ira substituir sucatao presidencia antigo aviao presidencial kc137 aposentado durante governo lula ultimo voo sucatao feito 14 marco 2013 lula adquiriu airbus a319 novo jato alcance intercontinental autonomia voo podendo fazer rota brasiliatoquio unica escala valor contrato tres anos us 19 7 milhoes pouco r 65 milhoes cambio hoje pagos quatro parcelas alugaram aviao r 1 8 milhao mes precisava realmente disso poupem
+1	governo	governo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	brasileiro	brasileiro	ADJ	ADJ	_	1	amod	_	TokenRange=8:18
+3	aluga	alugar	VERB	VERB	_	0	root	_	TokenRange=19:24
+4	aviao	aviao	NOUN	NOUN	_	3	obj	_	TokenRange=25:30
+5	eua	_	ADJ	ADJ	_	4	appos	_	TokenRange=31:34
+6	r	r	NOUN	NOUN	_	4	appos	_	TokenRange=35:36
+7	1	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=37:38
+8	8	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=39:40
+9	milhao	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=41:47
+10	mes	_	NOUN	NOUN	_	4	appos	_	TokenRange=48:51
+11	pra	_	ADP	ADP	_	12	mark	_	TokenRange=52:55
+12	chegou	chegar	VERB	VERB	_	3	advcl	_	TokenRange=56:62
+13	ontem	ontem	ADV	ADV	_	12	advmod	_	TokenRange=63:68
+14	10	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=69:71
+15	base	base	NOUN	NOUN	_	12	obj	_	TokenRange=72:76
+16	galeao/rj	_	NOUN	NOUN	_	15	appos	_	TokenRange=77:86
+17	boeing	boeing	NOUN	NOUN	_	15	appos	_	TokenRange=87:93
+18	767300er	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=94:102
+19	alugado	alugado	NOUN	NOUN	_	17	appos	_	TokenRange=103:110
+20	eua	_	DET	DET	_	21	det	_	TokenRange=111:114
+21	comando	comando	NOUN	NOUN	_	25	nsubj	_	TokenRange=115:122
+22	aeronautica	aeronautico	ADJ	ADJ	_	21	amod	_	TokenRange=123:134
+23	aeronave	aeronave	NOUN	NOUN	_	21	appos	_	TokenRange=135:143
+24	ira	_	AUX	AUX	_	25	aux	_	TokenRange=144:147
+25	substituir	substituir	VERB	VERB	_	3	parataxis	_	TokenRange=148:158
+26	sucatao	sucatao	NOUN	NOUN	_	25	obj	_	TokenRange=159:166
+27	presidencia	presidencia	NOUN	NOUN	_	29	amod	_	TokenRange=167:178
+28	antigo	antigo	ADJ	ADJ	_	29	amod	_	TokenRange=179:185
+29	aviao	aviao	NOUN	NOUN	_	25	obj	_	TokenRange=186:191
+30	presidencial	presidencial	ADJ	ADJ	_	29	amod	_	TokenRange=192:204
+31	kc137	_	NUM	NUM	NumType=Card	29	appos	_	TokenRange=205:210
+32	aposentado	aposentado	VERB	VERB	_	29	acl	_	TokenRange=211:221
+33	durante	_	ADP	ADP	_	34	case	_	TokenRange=222:229
+34	governo	governo	NOUN	NOUN	_	32	nmod	_	TokenRange=230:237
+35	lula	lulo	ADJ	ADJ	_	34	amod	_	TokenRange=238:242
+36	ultimo	_	ADJ	ADJ	_	37	amod	_	TokenRange=243:249
+37	voo	voo	NOUN	NOUN	_	34	appos	_	TokenRange=250:253
+38	sucatao	sucatao	NOUN	NOUN	_	37	amod	_	TokenRange=254:261
+39	feito	_	VERB	VERB	_	37	acl	_	TokenRange=262:267
+40	14	_	NUM	NUM	NumType=Card	39	nmod	_	TokenRange=268:270
+41	marco	marco	NOUN	NOUN	_	39	nmod	_	TokenRange=271:276
+42	2013	_	NUM	NUM	NumType=Card	41	nmod	_	TokenRange=277:281
+43	lula	lula	NOUN	NOUN	_	44	nsubj	_	TokenRange=282:286
+44	adquiriu	adquirir	VERB	VERB	_	3	parataxis	_	TokenRange=287:295
+45	airbus	_	NOUN	NOUN	_	44	obj	_	TokenRange=296:302
+46	a319	_	NUM	NUM	_	45	appos	_	TokenRange=303:307
+47	novo	novo	ADJ	ADJ	_	48	amod	_	TokenRange=308:312
+48	jato	jato	NOUN	NOUN	_	44	obj	_	TokenRange=313:317
+49	alcance	alcance	NOUN	NOUN	_	45	appos	_	TokenRange=318:325
+50	intercontinental	intercontinental	ADJ	ADJ	_	49	amod	_	TokenRange=326:342
+51	autonomia	autonomia	NOUN	NOUN	_	48	appos	_	TokenRange=343:352
+52	voo	voo	NOUN	NOUN	_	49	flat	_	TokenRange=353:356
+53	podendo	poder	AUX	AUX	_	54	aux	_	TokenRange=357:364
+54	fazer	fazer	VERB	VERB	_	44	acl	_	TokenRange=365:370
+55	rota	rota	NOUN	NOUN	_	54	obj	_	TokenRange=371:375
+56	brasiliatoquio	brasiliatoquio	NOUN	NOUN	_	55	appos	_	TokenRange=376:390
+57	unica	unico	ADJ	ADJ	_	58	amod	_	TokenRange=391:396
+58	escala	escala	NOUN	NOUN	_	55	appos	_	TokenRange=397:403
+59	valor	valor	NOUN	NOUN	_	58	flat	_	TokenRange=404:409
+60	contrato	contrato	NOUN	NOUN	_	58	flat	_	TokenRange=410:418
+61	tres	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=419:423
+62	anos	ano	NOUN	NOUN	_	58	nmod	_	TokenRange=424:428
+63	us	_	DET	DET	_	62	appos	_	TokenRange=429:431
+64	19	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=432:434
+65	7	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=435:436
+66	milhoes	_	NUM	NUM	NumType=Card	63	appos	_	TokenRange=437:444
+67	pouco	pouco	ADV	ADV	_	68	advmod	_	TokenRange=445:450
+68	r	r	NOUN	NOUN	_	63	appos	_	TokenRange=451:452
+69	65	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=453:455
+70	milhoes	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=456:463
+71	cambio	cambio	NOUN	NOUN	_	76	nsubj	_	TokenRange=464:470
+72	hoje	hoje	ADV	ADV	_	73	advmod	_	TokenRange=471:475
+73	pagos	pagar	VERB	VERB	_	71	acl	_	TokenRange=476:481
+74	quatro	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=482:488
+75	parcelas	parcela	NOUN	NOUN	_	73	nsubj	_	TokenRange=489:497
+76	alugaram	alugar	VERB	VERB	_	3	parataxis	_	TokenRange=498:506
+77	aviao	aviao	NOUN	NOUN	_	76	obj	_	TokenRange=507:512
+78	r	r	NOUN	NOUN	_	77	appos	_	TokenRange=513:514
+79	1	_	NUM	NUM	NumType=Card	81	nummod	_	TokenRange=515:516
+80	8	_	NUM	NUM	NumType=Card	81	nummod	_	TokenRange=517:518
+81	milhao	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=519:525
+82	mes	_	NOUN	NOUN	_	83	nsubj	_	TokenRange=526:529
+83	precisava	precisar	VERB	VERB	_	76	parataxis	_	TokenRange=530:539
+84	realmente	realmente	ADV	ADV	_	83	advmod	_	TokenRange=540:549
+85	disso	_	X	ADPPRON	_	86	nmod	_	TokenRange=550:555
+86	poupem	poupem	NOUN	NOUN	_	83	obj	_	SpaceAfter=No|TokenRange=556:562
+

@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = instituto fhc recebeu quase r 12 milhoes atraves lei rouanet durante mandatos lula dilma durante mandatos lula dilma 2005 2011 instituto fhc arrecadou 11 967 milhoes reais lei rouanet 25 deputados partido expresidente fernando henrique psdb assinaram favor criacao cpi investigar tais doacoes dinheiro doado grandes empresas isencao fiscal adquirido dois projetos preservacao catalogacao digitalizacao acervo fhc tratamento tecnico difusao acervos presidente fernando henrique cardoso antropologa ruth cardoso doadores aparecem banco itau ambev empresa grupo camargo correa credit suisse
+1	instituto	instituto	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	fhc	_	NOUN	NOUN	_	1	appos	_	TokenRange=10:13
+3	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=14:21
+4	quase	quase	ADV	ADV	_	7	advmod	_	TokenRange=22:27
+5	r	r	NOUN	NOUN	_	3	obj	_	TokenRange=28:29
+6	12	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=30:32
+7	milhoes	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=33:40
+8	atraves	_	ADJ	ADJ	_	9	amod	_	TokenRange=41:48
+9	lei	lei	NOUN	NOUN	_	3	obj	_	TokenRange=49:52
+10	rouanet	_	ADJ	ADJ	_	9	amod	_	TokenRange=53:60
+11	durante	_	ADP	ADP	_	12	case	_	TokenRange=61:68
+12	mandatos	mandato	NOUN	NOUN	_	3	nmod	_	TokenRange=69:77
+13	lula	lula	ADJ	ADJ	_	12	appos	_	TokenRange=78:82
+14	dilma	dilma	ADJ	ADJ	_	12	amod	_	TokenRange=83:88
+15	durante	_	ADP	ADP	_	16	case	_	TokenRange=89:96
+16	mandatos	mandato	NOUN	NOUN	_	3	nmod	_	TokenRange=97:105
+17	lula	lula	ADJ	ADJ	_	16	appos	_	TokenRange=106:110
+18	dilma	_	NOUN	NOUN	_	17	flat	_	TokenRange=111:116
+19	2005	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=117:121
+20	2011	_	NUM	NUM	NumType=Card	23	nmod	_	TokenRange=122:126
+21	instituto	instituto	NOUN	NOUN	_	23	nsubj	_	TokenRange=127:136
+22	fhc	_	PROPN	PNOUN	_	21	appos	_	TokenRange=137:140
+23	arrecadou	arrecadar	VERB	VERB	_	3	parataxis	_	TokenRange=141:150
+24	11	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=151:153
+25	967	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=154:157
+26	milhoes	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=158:165
+27	reais	real	NOUN	NOUN	_	23	obj	_	TokenRange=166:171
+28	lei	lei	NOUN	NOUN	_	23	obj	_	TokenRange=172:175
+29	rouanet	_	NOUN	NOUN	_	28	flat	_	TokenRange=176:183
+30	25	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=184:186
+31	deputados	deputado	NOUN	NOUN	_	23	nsubj	_	TokenRange=187:196
+32	partido	partido	NOUN	NOUN	_	31	appos	_	TokenRange=197:204
+33	expresidente	expresidente	NOUN	NOUN	_	32	amod	_	TokenRange=205:217
+34	fernando	fernando	NOUN	NOUN	_	31	appos	_	TokenRange=218:226
+35	henrique	henrique	NOUN	NOUN	_	34	flat	_	TokenRange=227:235
+36	psdb	_	PROPN	PNOUN	_	34	flat	_	TokenRange=236:240
+37	assinaram	assinar	VERB	VERB	_	3	parataxis	_	TokenRange=241:250
+38	favor	favor	NOUN	NOUN	_	37	obj	_	TokenRange=251:256
+39	criacao	criacao	NOUN	NOUN	_	37	obj	_	TokenRange=257:264
+40	cpi	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=265:268
+41	investigar	investigar	VERB	VERB	_	39	acl:inf	_	TokenRange=269:279
+42	tais	_	DET	DET	_	43	det	_	TokenRange=280:284
+43	doacoes	doacoe	NOUN	NOUN	_	41	obj	_	TokenRange=285:292
+44	dinheiro	dinheiro	NOUN	NOUN	_	43	appos	_	TokenRange=293:301
+45	doado	doar	VERB	VERB	_	41	acl	_	TokenRange=302:307
+46	grandes	grande	ADJ	ADJ	_	47	amod	_	TokenRange=308:315
+47	empresas	empresa	NOUN	NOUN	_	41	obj	_	TokenRange=316:324
+48	isencao	isencao	NOUN	NOUN	_	47	appos	_	TokenRange=325:332
+49	fiscal	fiscal	ADJ	ADJ	_	48	amod	_	TokenRange=333:339
+50	adquirido	adquirir	VERB	VERB	_	48	acl	_	TokenRange=340:349
+51	dois	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=350:354
+52	projetos	projeto	NOUN	NOUN	_	50	obj	_	TokenRange=355:363
+53	preservacao	preservacao	ADJ	ADJ	_	52	amod	_	TokenRange=364:375
+54	catalogacao	_	NOUN	NOUN	_	52	appos	_	TokenRange=376:387
+55	digitalizacao	digitalizacao	ADJ	ADJ	_	56	amod	_	TokenRange=388:401
+56	acervo	acervo	NOUN	NOUN	_	52	appos	_	TokenRange=402:408
+57	fhc	_	NOUN	NOUN	_	56	appos	_	TokenRange=409:412
+58	tratamento	tratamento	NOUN	NOUN	_	56	appos	_	TokenRange=413:423
+59	tecnico	tecnico	ADJ	ADJ	_	58	amod	_	TokenRange=424:431
+60	difusao	difusao	ADJ	ADJ	_	61	amod	_	TokenRange=432:439
+61	acervos	acervo	NOUN	NOUN	_	56	appos	_	TokenRange=440:447
+62	presidente	presidente	NOUN	NOUN	_	61	appos	_	TokenRange=448:458
+63	fernando	fernando	ADJ	VERB	_	61	appos	_	TokenRange=459:467
+64	henrique	henrique	NOUN	NOUN	_	63	flat	_	TokenRange=468:476
+65	cardoso	cardoso	ADJ	ADJ	_	66	amod	_	TokenRange=477:484
+66	antropologa	_	NOUN	NOUN	_	62	appos	_	TokenRange=485:496
+67	ruth	_	NOUN	NOUN	_	66	appos	_	TokenRange=497:501
+68	cardoso	cardoso	ADJ	ADJ	_	67	amod	_	TokenRange=502:509
+69	doadores	doador	NOUN	NOUN	_	67	flat	_	TokenRange=510:518
+70	aparecem	aparecer	VERB	VERB	_	3	parataxis	_	TokenRange=519:527
+71	banco	banco	NOUN	NOUN	_	70	obj	_	TokenRange=528:533
+72	itau	_	ADJ	ADJ	_	71	flat	_	TokenRange=534:538
+73	ambev	_	ADJ	ADJ	_	71	amod	_	TokenRange=539:544
+74	empresa	empresa	NOUN	NOUN	_	71	appos	_	TokenRange=545:552
+75	grupo	grupo	NOUN	NOUN	_	74	appos	_	TokenRange=553:558
+76	camargo	camargo	ADJ	NOUN	_	78	amod	_	TokenRange=559:566
+77	correa	correa	ADJ	ADJ	_	78	amod	_	TokenRange=567:573
+78	credit	_	NOUN	NOUN	_	74	appos	_	TokenRange=574:580
+79	suisse	suisse	NOUN	NOUN	_	78	flat	_	SpaceAfter=No|TokenRange=581:587
+

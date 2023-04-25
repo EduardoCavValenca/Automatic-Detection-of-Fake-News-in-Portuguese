@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente turquia lamenta derrubada aviao russo primeira vez meio seculo membro organizacao tratado atlantico norte otan derrubou aviao russo provocou resposta dura moscou ancara presidente turco recep tayyip erdogan lamentou neste sabado 28 derrubada aviao guerra russo forcas armadas turquia erdogan disse pais verdadeiramente entristecido incidente desejava ocorrido incidente causou morte dois pilotos russos enquanto outro resgatado forcas especiais russas primeira expressao pesar lider turco desde incidente tercafeira quanto su24 russia abatido jatos f16 turquia alegacao
+1	presidente	presidente	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	turquia	turquia	NOUN	ADJ	_	1	flat	_	TokenRange=11:18
+3	lamenta	lamentar	VERB	VERB	_	0	root	_	TokenRange=19:26
+4	derrubada	derrubado	ADJ	ADJ	_	5	amod	_	TokenRange=27:36
+5	aviao	aviao	NOUN	NOUN	_	3	obj	_	TokenRange=37:42
+6	russo	russo	ADJ	ADJ	_	5	amod	_	TokenRange=43:48
+7	primeira	primeiro	ADJ	ADJ	_	10	amod	_	TokenRange=49:57
+8	vez	vez	NOUN	NOUN	_	3	nmod	_	TokenRange=58:61
+9	meio	_	ADJ	ADJ	_	10	amod	_	TokenRange=62:66
+10	seculo	seculo	NOUN	NOUN	_	3	nsubj	_	TokenRange=67:73
+11	membro	membro	NOUN	NOUN	_	3	nsubj	_	TokenRange=74:80
+12	organizacao	organizacao	NOUN	NOUN	_	11	appos	_	TokenRange=81:92
+13	tratado	_	NOUN	NOUN	_	12	appos	_	TokenRange=93:100
+14	atlantico	atlantico	ADJ	ADJ	_	13	amod	_	TokenRange=101:110
+15	norte	norte	ADJ	ADJ	_	13	amod	_	TokenRange=111:116
+16	otan	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=117:121
+17	derrubou	derrubar	VERB	VERB	_	3	parataxis	_	TokenRange=122:130
+18	aviao	aviao	NOUN	NOUN	_	17	obj	_	TokenRange=131:136
+19	russo	russo	ADJ	ADJ	_	18	amod	_	TokenRange=137:142
+20	provocou	provocar	VERB	VERB	_	3	parataxis	_	TokenRange=143:151
+21	resposta	resposta	NOUN	NOUN	_	20	obj	_	TokenRange=152:160
+22	dura	duro	ADJ	ADJ	_	21	amod	_	TokenRange=161:165
+23	moscou	moscar	NOUN	NOUN	_	20	nsubj	_	TokenRange=166:172
+24	ancara	ancar	VERB	VERB	_	3	parataxis	_	TokenRange=173:179
+25	presidente	presidente	NOUN	NOUN	_	30	obj	_	TokenRange=180:190
+26	turco	turco	ADJ	ADJ	_	25	amod	_	TokenRange=191:196
+27	recep	_	NOUN	NOUN	_	25	appos	_	TokenRange=197:202
+28	tayyip	_	NOUN	NOUN	_	27	appos	_	TokenRange=203:209
+29	erdogan	_	NOUN	NOUN	_	27	flat	_	TokenRange=210:217
+30	lamentou	lamentar	VERB	VERB	_	3	parataxis	_	TokenRange=218:226
+31	neste	_	ADP	ADP	_	32	case	_	TokenRange=227:232
+32	sabado	_	PROPN	PNOUN	_	30	nmod	_	TokenRange=233:239
+33	28	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=240:242
+34	derrubada	_	ADJ	ADJ	_	36	amod	_	TokenRange=243:252
+35	aviao	aviao	NOUN	NOUN	_	36	amod	_	TokenRange=253:258
+36	guerra	guerra	NOUN	NOUN	_	30	obj	_	TokenRange=259:265
+37	russo	russo	ADJ	ADJ	_	36	amod	_	TokenRange=266:271
+38	forcas	forca	NOUN	NOUN	_	30	nsubj	_	TokenRange=272:278
+39	armadas	armado	ADJ	ADJ	_	38	amod	_	TokenRange=279:286
+40	turquia	turquia	NOUN	NOUN	_	38	appos	_	TokenRange=287:294
+41	erdogan	_	NOUN	NOUN	_	38	appos	_	TokenRange=295:302
+42	disse	dizer	VERB	VERB	_	3	conj	_	TokenRange=303:308
+43	pais	_	NOUN	NOUN	_	42	obj	_	TokenRange=309:313
+44	verdadeiramente	verdadeiramente	ADV	ADV	_	45	advmod	_	TokenRange=314:329
+45	entristecido	entristecido	ADJ	ADJ	_	38	amod	_	TokenRange=330:342
+46	incidente	incidente	NOUN	NOUN	_	47	nsubj	_	TokenRange=343:352
+47	desejava	desejar	VERB	VERB	_	43	acl:relcl	_	TokenRange=353:361
+48	ocorrido	ocorrer	VERB	VERB	_	47	xcomp	_	TokenRange=362:370
+49	incidente	incidente	NOUN	NOUN	_	47	nsubj	_	TokenRange=371:380
+50	causou	causar	VERB	VERB	_	47	parataxis	_	TokenRange=381:387
+51	morte	morte	NOUN	NOUN	_	50	obj	_	TokenRange=388:393
+52	dois	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=394:398
+53	pilotos	piloto	NOUN	NOUN	_	50	nsubj	_	TokenRange=399:406
+54	russos	russo	ADJ	ADJ	_	53	amod	_	TokenRange=407:413
+55	enquanto	_	CCONJ	CONJ	_	57	mark	_	TokenRange=414:422
+56	outro	_	PRON	PRON	_	57	nsubj	_	TokenRange=423:428
+57	resgatado	resgatar	VERB	VERB	_	50	advcl	_	TokenRange=429:438
+58	forcas	forca	NOUN	NOUN	_	57	obj	_	TokenRange=439:445
+59	especiais	especial	ADJ	ADJ	_	58	amod	_	TokenRange=446:455
+60	russas	russo	ADJ	ADJ	_	58	amod	_	TokenRange=456:462
+61	primeira	primeiro	ADJ	ADJ	_	62	amod	_	TokenRange=463:471
+62	expressao	expressao	NOUN	NOUN	_	58	appos	_	TokenRange=472:481
+63	pesar	pesar	VERB	VERB	_	62	acl:inf	_	TokenRange=482:487
+64	lider	lider	NOUN	NOUN	_	63	obj	_	TokenRange=488:493
+65	turco	turco	ADJ	ADJ	_	64	amod	_	TokenRange=494:499
+66	desde	_	ADP	ADP	_	67	case	_	TokenRange=500:505
+67	incidente	incidente	NOUN	NOUN	_	63	nmod	_	TokenRange=506:515
+68	tercafeira	tercafeiro	ADJ	ADJ	_	67	amod	_	TokenRange=516:526
+69	quanto	_	CCONJ	CONJ	_	70	cc	_	TokenRange=527:533
+70	su24	_	ADJ	ADJ	_	67	conj	_	TokenRange=534:538
+71	russia	russia	NOUN	NOUN	_	72	nsubj	_	TokenRange=539:545
+72	abatido	abater	VERB	VERB	_	67	acl	_	TokenRange=546:553
+73	jatos	jato	NOUN	NOUN	_	72	obj	_	TokenRange=554:559
+74	f16	_	NUM	NUM	NumType=Card	73	appos	_	TokenRange=560:563
+75	turquia	turquia	NOUN	NOUN	_	76	obj	_	TokenRange=564:571
+76	alegacao	alegacao	VERB	VERB	_	72	conj	_	SpaceAfter=No|TokenRange=572:580
+

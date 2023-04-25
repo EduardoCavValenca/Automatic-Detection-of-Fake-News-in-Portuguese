@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = policia civil pede justica prisao preventiva 26 envolvidos operacao desvio certo conclusao inquerito quase quatro mil paginas encaminhada nesta quartafeira 14 forum comarca teodoro sampaio policia civil encaminhou nesta quartafeira 14 forum comarca teodoro sampaio conclusao inquerito operacao desvio certo prendeu 23 suspeitos integrar associacao criminosa atua desvio cargas regioes sul sudeste pais oferecida representacao 26 prisoes preventivas medida cautelar
+1	policia	policia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	civil	civil	ADJ	ADJ	_	1	amod	_	TokenRange=8:13
+3	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=14:18
+4	justica	_	NOUN	NOUN	_	3	obj	_	TokenRange=19:26
+5	prisao	prisao	NOUN	NOUN	_	3	obj	_	TokenRange=27:33
+6	preventiva	preventivo	ADJ	ADJ	_	5	amod	_	TokenRange=34:44
+7	26	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=45:47
+8	envolvidos	envolvido	ADJ	ADJ	_	5	amod	_	TokenRange=48:58
+9	operacao	operacao	ADJ	ADJ	_	10	amod	_	TokenRange=59:67
+10	desvio	desvio	NOUN	NOUN	_	12	nsubj	_	TokenRange=68:74
+11	certo	certo	ADJ	ADJ	_	10	amod	_	TokenRange=75:80
+12	conclusao	conclusao	VERB	VERB	_	3	parataxis	_	TokenRange=81:90
+13	inquerito	inquerito	ADJ	ADJ	_	12	xcomp	_	TokenRange=91:100
+14	quase	quase	ADV	ADV	_	16	advmod	_	TokenRange=101:106
+15	quatro	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=107:113
+16	mil	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=114:117
+17	paginas	pagina	NOUN	NOUN	_	12	obj	_	TokenRange=118:125
+18	encaminhada	encaminhar	VERB	VERB	_	17	acl	_	TokenRange=126:137
+19	nesta	_	ADP	ADP	_	20	case	_	TokenRange=138:143
+20	quartafeira	_	NOUN	NOUN	_	18	nmod	_	TokenRange=144:155
+21	14	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=156:158
+22	forum	forum	NOUN	NOUN	_	28	nsubj	_	TokenRange=159:164
+23	comarca	comarca	NOUN	NOUN	_	22	flat	_	TokenRange=165:172
+24	teodoro	teodoro	NOUN	NOUN	_	22	appos	_	TokenRange=173:180
+25	sampaio	sampaio	ADJ	ADJ	_	26	amod	_	TokenRange=181:188
+26	policia	policia	NOUN	NOUN	_	28	nsubj	_	TokenRange=189:196
+27	civil	civil	ADJ	ADJ	_	26	amod	_	TokenRange=197:202
+28	encaminhou	encaminhar	VERB	VERB	_	3	conj	_	TokenRange=203:213
+29	nesta	_	ADP	ADP	_	30	case	_	TokenRange=214:219
+30	quartafeira	quartafeira	NOUN	NOUN	_	28	nmod	_	TokenRange=220:231
+31	14	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=232:234
+32	forum	forum	NOUN	NOUN	_	28	obj	_	TokenRange=235:240
+33	comarca	comarca	NOUN	NOUN	_	32	flat	_	TokenRange=241:248
+34	teodoro	teodoro	NOUN	NOUN	_	32	appos	_	TokenRange=249:256
+35	sampaio	sampaio	ADJ	ADJ	_	32	amod	_	TokenRange=257:264
+36	conclusao	conclusao	NOUN	NOUN	_	28	parataxis	_	TokenRange=265:274
+37	inquerito	inquerito	NOUN	NOUN	_	36	amod	_	TokenRange=275:284
+38	operacao	operacao	ADJ	ADJ	_	39	amod	_	TokenRange=285:293
+39	desvio	desvio	NOUN	NOUN	_	41	nsubj	_	TokenRange=294:300
+40	certo	certo	ADJ	ADJ	_	39	amod	_	TokenRange=301:306
+41	prendeu	prender	VERB	VERB	_	3	parataxis	_	TokenRange=307:314
+42	23	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=315:317
+43	suspeitos	suspeito	NOUN	NOUN	_	44	obj	_	TokenRange=318:327
+44	integrar	integrar	VERB	VERB	_	41	ccomp	_	TokenRange=328:336
+45	associacao	associacao	NOUN	NOUN	_	44	obj	_	TokenRange=337:347
+46	criminosa	criminoso	ADJ	ADJ	_	45	amod	_	TokenRange=348:357
+47	atua	_	NOUN	NOUN	_	48	appos	_	TokenRange=358:362
+48	desvio	desvio	NOUN	NOUN	_	44	nmod	_	TokenRange=363:369
+49	cargas	carga	NOUN	NOUN	_	48	flat	_	TokenRange=370:376
+50	regioes	regioe	NOUN	NOUN	_	48	appos	_	TokenRange=377:384
+51	sul	sul	ADJ	ADJ	_	53	amod	_	TokenRange=385:388
+52	sudeste	sudeste	ADJ	ADJ	_	50	amod	_	TokenRange=389:396
+53	pais	_	NOUN	NOUN	_	48	appos	_	TokenRange=397:401
+54	oferecida	oferecer	VERB	VERB	_	53	acl	_	TokenRange=402:411
+55	representacao	representacao	NOUN	NOUN	_	54	nsubj	_	TokenRange=412:425
+56	26	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=426:428
+57	prisoes	_	NOUN	NOUN	_	55	appos	_	TokenRange=429:436
+58	preventivas	preventivo	ADJ	ADJ	_	57	amod	_	TokenRange=437:448
+59	medida	medida	NOUN	NOUN	_	54	nsubj	_	TokenRange=449:455
+60	cautelar	cautelar	ADJ	ADJ	_	59	amod	_	SpaceAfter=No|TokenRange=456:464
+

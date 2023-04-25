@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil apoiar lavajato vagabundos tomarao conta tudo assista video transparencia internacional brasil perdidos bilhoes dolares devido corrupcao lavajato tornou maiores investigacoes contra corruptos mundo 118 pessoas condenadas totalizando 1256 anos prisao operacao pode parar
+1	brasil	brasil	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	apoiar	apoiar	VERB	VERB	_	34	csubj	_	TokenRange=7:13
+3	lavajato	lavajato	NOUN	NOUN	_	2	obj	_	TokenRange=14:22
+4	vagabundos	vagabundo	ADJ	ADJ	_	3	amod	_	TokenRange=23:33
+5	tomarao	tomar	VERB	VERB	_	2	ccomp	_	TokenRange=34:41
+6	conta	conta	NOUN	NOUN	_	5	obj	_	TokenRange=42:47
+7	tudo	_	PRON	PRON	_	8	nsubj	_	TokenRange=48:52
+8	assista	assistir	VERB	VERB	_	3	acl:relcl	_	TokenRange=53:60
+9	video	video	NOUN	NOUN	_	8	obj	_	TokenRange=61:66
+10	transparencia	transparencia	NOUN	NOUN	_	9	appos	_	TokenRange=67:80
+11	internacional	internacional	ADJ	ADJ	_	10	amod	_	TokenRange=81:94
+12	brasil	brasil	ADJ	NOUN	_	10	amod	_	TokenRange=95:101
+13	perdidos	perdido	ADJ	ADJ	_	15	amod	_	TokenRange=102:110
+14	bilhoes	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=111:118
+15	dolares	dolar	NOUN	NOUN	_	10	appos	_	TokenRange=119:126
+16	devido	dever	VERB	VERB	_	18	case	_	TokenRange=127:133
+17	corrupcao	corrupcao	NOUN	NOUN	_	18	amod	_	TokenRange=134:143
+18	lavajato	lavajato	NOUN	NOUN	_	19	nsubj	_	TokenRange=144:152
+19	tornou	tornar	VERB	VERB	_	21	cop	_	TokenRange=153:159
+20	maiores	maior	ADJ	ADJ	_	21	amod	_	TokenRange=160:167
+21	investigacoes	investigacoe	NOUN	NOUN	_	34	obj	_	TokenRange=168:181
+22	contra	_	ADP	ADP	_	23	case	_	TokenRange=182:188
+23	corruptos	corrupto	NOUN	NOUN	_	21	nmod	_	TokenRange=189:198
+24	mundo	mundo	NOUN	NOUN	_	23	flat	_	TokenRange=199:204
+25	118	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=205:208
+26	pessoas	pessoa	NOUN	NOUN	_	21	nsubj	_	TokenRange=209:216
+27	condenadas	condenar	VERB	VERB	_	26	acl	_	TokenRange=217:227
+28	totalizando	totalizar	VERB	VERB	_	34	acl	_	TokenRange=228:239
+29	1256	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=240:244
+30	anos	ano	NOUN	NOUN	_	28	obj	_	TokenRange=245:249
+31	prisao	prisao	ADJ	ADJ	_	34	xcomp	_	TokenRange=250:256
+32	operacao	operacao	NOUN	NOUN	_	34	nsubj	_	TokenRange=257:265
+33	pode	_	AUX	AUX	_	34	aux	_	TokenRange=266:270
+34	parar	parar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=271:276
+

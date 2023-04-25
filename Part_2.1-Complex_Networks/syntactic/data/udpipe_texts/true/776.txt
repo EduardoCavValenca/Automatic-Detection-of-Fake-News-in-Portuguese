@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = voluntarios vendem canecas custear tratamento castracao animais resgatados ruas cuiaba canecas personalizadas sendo vendidas r 10 pagar tratamentos animais voluntarios projeto luta uniao amigos animais risco lunaar cuiaba vendendo canecas rifas custear despesas tratamentos feitos animais resgatados rua 100 animais receberam cuidados seguida adotados criadora projeto estudante nutricao taina marques explicou antes idealizar projeto lunaar colocava comedouros ruas animais montava comedouros sempre destruidos pessoas colocavam veneno disse segundo
+1	voluntarios	voluntario	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	vendem	_	VERB	VERB	_	0	root	_	TokenRange=12:18
+3	canecas	caneca	NOUN	NOUN	_	2	obj	_	TokenRange=19:26
+4	custear	custear	VERB	VERB	_	3	acl:inf	_	TokenRange=27:34
+5	tratamento	tratamento	NOUN	NOUN	_	2	obj	_	TokenRange=35:45
+6	castracao	_	ADJ	ADJ	_	5	amod	_	TokenRange=46:55
+7	animais	animal	NOUN	NOUN	_	5	appos	_	TokenRange=56:63
+8	resgatados	resgatado	ADJ	ADJ	_	5	amod	_	TokenRange=64:74
+9	ruas	rua	NOUN	NOUN	_	2	nsubj	_	TokenRange=75:79
+10	cuiaba	cuiabo	ADJ	ADJ	_	11	amod	_	TokenRange=80:86
+11	canecas	caneca	NOUN	NOUN	_	2	nsubj	_	TokenRange=87:94
+12	personalizadas	personalizado	ADJ	ADJ	_	11	amod	_	TokenRange=95:109
+13	sendo	ser	AUX	AUX	_	14	aux:pass	_	TokenRange=110:115
+14	vendidas	vender	VERB	VERB	_	11	acl	_	TokenRange=116:124
+15	r	r	NOUN	NOUN	_	17	nmod	_	TokenRange=125:126
+16	10	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=127:129
+17	pagar	pagar	VERB	VERB	_	2	parataxis	_	TokenRange=130:135
+18	tratamentos	tratamento	NOUN	NOUN	_	17	obj	_	TokenRange=136:147
+19	animais	animal	ADJ	ADJ	_	18	amod	_	TokenRange=148:155
+20	voluntarios	voluntario	ADJ	ADJ	_	18	amod	_	TokenRange=156:167
+21	projeto	projeto	NOUN	NOUN	_	18	appos	_	TokenRange=168:175
+22	luta	luta	NOUN	NOUN	_	21	appos	_	TokenRange=176:180
+23	uniao	_	NOUN	NOUN	_	24	amod	_	TokenRange=181:186
+24	amigos	amigo	NOUN	NOUN	_	22	appos	_	TokenRange=187:193
+25	animais	animal	NOUN	NOUN	_	24	flat	_	TokenRange=194:201
+26	risco	risco	NOUN	NOUN	_	24	appos	_	TokenRange=202:207
+27	lunaar	lunaar	NOUN	NOUN	_	22	appos	_	TokenRange=208:214
+28	cuiaba	cuiaba	NOUN	NOUN	_	27	flat	_	TokenRange=215:221
+29	vendendo	vender	VERB	VERB	_	21	acl	_	TokenRange=222:230
+30	canecas	caneca	NOUN	NOUN	_	29	obj	_	TokenRange=231:238
+31	rifas	rifa	NOUN	NOUN	_	30	amod	_	TokenRange=239:244
+32	custear	custear	VERB	VERB	_	30	acl:relcl	_	TokenRange=245:252
+33	despesas	despesa	NOUN	NOUN	_	32	obj	_	TokenRange=253:261
+34	tratamentos	tratamento	NOUN	NOUN	_	33	appos	_	TokenRange=262:273
+35	feitos	fazer	VERB	VERB	_	34	acl	_	TokenRange=274:280
+36	animais	animal	NOUN	NOUN	_	34	appos	_	TokenRange=281:288
+37	resgatados	resgatado	ADJ	ADJ	_	36	amod	_	TokenRange=289:299
+38	rua	rua	NOUN	NOUN	_	41	nsubj	_	TokenRange=300:303
+39	100	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=304:307
+40	animais	animal	NOUN	NOUN	_	41	nsubj	_	TokenRange=308:315
+41	receberam	receber	VERB	VERB	_	2	parataxis	_	TokenRange=316:325
+42	cuidados	cuidado	NOUN	NOUN	_	41	obj	_	TokenRange=326:334
+43	seguida	_	ADJ	NOUN	_	42	amod	_	TokenRange=335:342
+44	adotados	adotar	ADJ	ADJ	_	42	amod	_	TokenRange=343:351
+45	criadora	criador	NOUN	NOUN	_	46	amod	_	TokenRange=352:360
+46	projeto	projeto	NOUN	NOUN	_	42	appos	_	TokenRange=361:368
+47	estudante	estudante	NOUN	NOUN	_	46	appos	_	TokenRange=369:378
+48	nutricao	nutricao	ADJ	ADJ	_	46	amod	_	TokenRange=379:387
+49	taina	taina	NOUN	NOUN	_	46	appos	_	TokenRange=388:393
+50	marques	marque	NOUN	NOUN	_	49	flat	_	TokenRange=394:401
+51	explicou	explicar	VERB	VERB	_	2	parataxis	_	TokenRange=402:410
+52	antes	antes	ADV	ADV	_	51	advmod	_	TokenRange=411:416
+53	idealizar	idealizar	VERB	VERB	_	51	xcomp	_	TokenRange=417:426
+54	projeto	projeto	NOUN	NOUN	_	53	obj	_	TokenRange=427:434
+55	lunaar	lunaar	ADJ	ADJ	_	54	amod	_	TokenRange=435:441
+56	colocava	colocar	VERB	VERB	_	54	acl:relcl	_	TokenRange=442:450
+57	comedouros	comedouro	NOUN	NOUN	_	56	obj	_	TokenRange=451:461
+58	ruas	rua	NOUN	NOUN	_	56	nsubj	_	TokenRange=462:466
+59	animais	animal	ADJ	ADJ	_	58	amod	_	TokenRange=467:474
+60	montava	montar	VERB	VERB	_	54	acl:relcl	_	TokenRange=475:482
+61	comedouros	comedouro	NOUN	NOUN	_	60	obj	_	TokenRange=483:493
+62	sempre	sempre	ADV	ADV	_	63	advmod	_	TokenRange=494:500
+63	destruidos	destruido	ADJ	ADJ	_	61	amod	_	TokenRange=501:511
+64	pessoas	pessoa	NOUN	NOUN	_	65	nsubj	_	TokenRange=512:519
+65	colocavam	colocar	VERB	VERB	_	54	acl:relcl	_	TokenRange=520:529
+66	veneno	veneno	NOUN	NOUN	_	65	obj	_	TokenRange=530:536
+67	disse	dizer	VERB	VERB	_	51	parataxis	_	TokenRange=537:542
+68	segundo	segundo	ADV	ADV	_	67	advmod	_	SpaceAfter=No|TokenRange=543:550
+

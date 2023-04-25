@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan calheiros diz ministerio publico passou fazer politica presidente senado chamou ilegal liminar ministro marco aurelio mello determinou afastamento renan comando casa presidente senado renan calheiros pmdbal disse nesta tercafeira 13 ministerio publico federal mpf passou fazer politica renan fez criticas procuradorgeral republica procuradores fazem parte forcatarefa lava jato declaracoes dadas apos
+1	renan	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	calheiros	calheiro	NOUN	NOUN	_	1	flat	_	TokenRange=6:15
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=16:19
+4	ministerio	ministerio	NOUN	NOUN	_	3	obj	_	TokenRange=20:30
+5	publico	_	ADJ	ADJ	_	4	amod	_	TokenRange=31:38
+6	passou	passar	AUX	AUX	_	7	aux	_	TokenRange=39:45
+7	fazer	fazer	VERB	VERB	_	3	ccomp	_	TokenRange=46:51
+8	politica	_	NOUN	NOUN	_	7	obj	_	TokenRange=52:60
+9	presidente	presidente	NOUN	NOUN	_	7	nsubj	_	TokenRange=61:71
+10	senado	senado	NOUN	NOUN	_	9	amod	_	TokenRange=72:78
+11	chamou	chamar	VERB	VERB	_	3	parataxis	_	TokenRange=79:85
+12	ilegal	ilegal	ADJ	ADJ	_	11	xcomp	_	TokenRange=86:92
+13	liminar	liminar	ADJ	ADJ	_	14	amod	_	TokenRange=93:100
+14	ministro	ministro	NOUN	NOUN	_	18	nsubj	_	TokenRange=101:109
+15	marco	marco	NOUN	NOUN	_	14	appos	_	TokenRange=110:115
+16	aurelio	aurelio	NOUN	NOUN	_	15	flat	_	TokenRange=116:123
+17	mello	mello	ADJ	ADJ	_	15	amod	_	TokenRange=124:129
+18	determinou	determinar	VERB	VERB	_	3	conj	_	TokenRange=130:140
+19	afastamento	afastamento	NOUN	NOUN	_	18	obj	_	TokenRange=141:152
+20	renan	_	ADJ	ADJ	_	19	amod	_	TokenRange=153:158
+21	comando	comandar	VERB	VERB	_	18	parataxis	_	TokenRange=159:166
+22	casa	casa	NOUN	NOUN	_	21	obj	_	TokenRange=167:171
+23	presidente	presidente	NOUN	NOUN	_	22	appos	_	TokenRange=172:182
+24	senado	senado	ADJ	ADJ	_	23	amod	_	TokenRange=183:189
+25	renan	renan	NOUN	NOUN	_	28	nsubj	_	TokenRange=190:195
+26	calheiros	calheiro	NOUN	NOUN	_	25	flat	_	TokenRange=196:205
+27	pmdbal	_	ADJ	NOUN	_	25	amod	_	TokenRange=206:212
+28	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=213:218
+29	nesta	_	ADP	ADP	_	30	case	_	TokenRange=219:224
+30	tercafeira	_	NOUN	NOUN	_	28	nmod	_	TokenRange=225:235
+31	13	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=236:238
+32	ministerio	ministerio	NOUN	NOUN	_	28	nsubj	_	TokenRange=239:249
+33	publico	publico	ADJ	ADJ	_	32	amod	_	TokenRange=250:257
+34	federal	federal	ADJ	ADJ	_	32	amod	_	TokenRange=258:265
+35	mpf	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=266:269
+36	passou	passar	AUX	AUX	_	37	aux	_	TokenRange=270:276
+37	fazer	fazer	VERB	VERB	_	28	ccomp	_	TokenRange=277:282
+38	politica	_	NOUN	NOUN	_	37	obj	_	TokenRange=283:291
+39	renan	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=292:297
+40	fez	fazer	VERB	VERB	_	37	parataxis	_	TokenRange=298:301
+41	criticas	_	NOUN	NOUN	_	40	obj	_	TokenRange=302:310
+42	procuradorgeral	procuradorgeral	ADJ	ADJ	_	41	amod	_	TokenRange=311:326
+43	republica	republico	ADJ	ADJ	_	41	amod	_	TokenRange=327:336
+44	procuradores	procurador	NOUN	NOUN	_	45	nsubj	_	TokenRange=337:349
+45	fazem	fazer	VERB	VERB	_	40	parataxis	_	TokenRange=350:355
+46	parte	parte	NOUN	NOUN	_	45	obj	_	TokenRange=356:361
+47	forcatarefa	forcatarefa	NOUN	NOUN	_	48	nsubj	_	TokenRange=362:373
+48	lava	lavar	VERB	VERB	_	40	parataxis	_	TokenRange=374:378
+49	jato	jato	NOUN	NOUN	_	48	obj	_	TokenRange=379:383
+50	declaracoes	declaracoe	NOUN	NOUN	_	48	obj	_	TokenRange=384:395
+51	dadas	dar	VERB	VERB	_	50	acl	_	TokenRange=396:401
+52	apos	apos	ADV	ADV	_	51	advmod	_	SpaceAfter=No|TokenRange=402:406
+

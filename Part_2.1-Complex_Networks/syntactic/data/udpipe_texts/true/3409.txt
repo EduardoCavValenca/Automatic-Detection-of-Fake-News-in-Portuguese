@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = integracao transporte teresina inicia neste sabado 17 veja vai funcionar g1 preparou material sobre tema publicado nesta sexta 16 neste sabado 17 inthegra novo sistema transporte publico teresina iniciara parcialmente partir deste sabado 17 nesta primeira fase usuarios zona sul sudeste capital mudancas servico suspensao linhas uso obrigatorio terminais estacoes transbordo g1 preparou material sobre assunto publicado nesta sextafeira
+1	integracao	integracao	ADJ	ADJ	_	2	amod	_	TokenRange=0:10
+2	transporte	transporte	NOUN	NOUN	_	4	nsubj	_	TokenRange=11:21
+3	teresina	teresino	ADJ	ADJ	_	2	amod	_	TokenRange=22:30
+4	inicia	iniciar	VERB	VERB	_	0	root	_	TokenRange=31:37
+5	neste	_	ADP	ADP	_	6	case	_	TokenRange=38:43
+6	sabado	_	PROPN	PNOUN	_	4	nmod	_	TokenRange=44:50
+7	17	_	NUM	NUM	NumType=Card	6	nmod	_	TokenRange=51:53
+8	veja	veja	NOUN	NOUN	_	10	nsubj	_	TokenRange=54:58
+9	vai	ir	AUX	AUX	_	10	aux	_	TokenRange=59:62
+10	funcionar	funcionar	VERB	VERB	_	4	ccomp	_	TokenRange=63:72
+11	g1	_	PRON	PRON	_	10	nsubj	_	TokenRange=73:75
+12	preparou	preparar	VERB	VERB	_	10	parataxis	_	TokenRange=76:84
+13	material	material	NOUN	NOUN	_	12	obj	_	TokenRange=85:93
+14	sobre	_	ADP	ADP	_	15	case	_	TokenRange=94:99
+15	tema	tema	NOUN	NOUN	_	13	nmod	_	TokenRange=100:104
+16	publicado	publicar	VERB	VERB	_	15	acl	_	TokenRange=105:114
+17	nesta	_	ADP	ADP	_	18	case	_	TokenRange=115:120
+18	sexta	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=121:126
+19	16	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=127:129
+20	neste	_	ADP	ADP	_	21	case	_	TokenRange=130:135
+21	sabado	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=136:142
+22	17	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=143:145
+23	inthegra	inthegra	NOUN	NOUN	_	29	nsubj	_	TokenRange=146:154
+24	novo	novo	ADJ	ADJ	_	25	amod	_	TokenRange=155:159
+25	sistema	sistema	NOUN	NOUN	_	29	nsubj	_	TokenRange=160:167
+26	transporte	transporte	NOUN	NOUN	_	25	appos	_	TokenRange=168:178
+27	publico	publico	ADJ	ADJ	_	26	amod	_	TokenRange=179:186
+28	teresina	teresino	ADJ	ADJ	_	25	amod	_	TokenRange=187:195
+29	iniciara	iniciar	VERB	VERB	_	4	conj	_	TokenRange=196:204
+30	parcialmente	parcialmente	ADV	ADV	_	29	advmod	_	TokenRange=205:217
+31	partir	partir	VERB	VERB	_	29	xcomp	_	TokenRange=218:224
+32	deste	_	ADP	ADP	_	33	case	_	TokenRange=225:230
+33	sabado	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=231:237
+34	17	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=238:240
+35	nesta	_	ADP	ADP	_	37	case	_	TokenRange=241:246
+36	primeira	primeiro	ADJ	ADJ	_	37	amod	_	TokenRange=247:255
+37	fase	fase	NOUN	NOUN	_	29	nmod	_	TokenRange=256:260
+38	usuarios	usuario	NOUN	NOUN	_	29	nsubj	_	TokenRange=261:269
+39	zona	zona	NOUN	NOUN	_	38	appos	_	TokenRange=270:274
+40	sul	sul	ADJ	ADJ	_	41	amod	_	TokenRange=275:278
+41	sudeste	sudeste	NOUN	NOUN	_	39	amod	_	TokenRange=279:286
+42	capital	capital	ADJ	NOUN	_	39	amod	_	TokenRange=287:294
+43	mudancas	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=295:303
+44	servico	servico	NOUN	NOUN	_	43	appos	_	TokenRange=304:311
+45	suspensao	suspensao	ADJ	ADJ	_	46	amod	_	TokenRange=312:321
+46	linhas	_	NOUN	NOUN	_	44	appos	_	TokenRange=322:328
+47	uso	uso	NOUN	NOUN	_	43	appos	_	TokenRange=329:332
+48	obrigatorio	obrigatorio	ADJ	ADJ	_	47	amod	_	TokenRange=333:344
+49	terminais	terminal	ADJ	ADJ	_	50	amod	_	TokenRange=345:354
+50	estacoes	estacoe	NOUN	NOUN	_	53	nsubj	_	TokenRange=355:363
+51	transbordo	transbordo	ADJ	ADJ	_	50	amod	_	TokenRange=364:374
+52	g1	_	PROPN	PNOUN	_	50	appos	_	TokenRange=375:377
+53	preparou	preparar	VERB	VERB	_	29	parataxis	_	TokenRange=378:386
+54	material	material	NOUN	NOUN	_	53	obj	_	TokenRange=387:395
+55	sobre	_	ADP	ADP	_	56	case	_	TokenRange=396:401
+56	assunto	assunto	NOUN	NOUN	_	54	nmod	_	TokenRange=402:409
+57	publicado	publicar	VERB	VERB	_	56	acl	_	TokenRange=410:419
+58	nesta	_	ADP	ADP	_	59	case	_	TokenRange=420:425
+59	sextafeira	_	PROPN	PNOUN	_	57	nmod	_	SpaceAfter=No|TokenRange=426:436
+

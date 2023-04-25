@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marque bem nome desses 8 senadores lutando fim foro alvaro dias deveriamos estar votando fim foro privilegiado regime urgencia site antagonista divulgou lista poucos senadores assinaram requerimento pede urgencia votacao pec fim foro privilegiado autoria alvaro dias abaixo nomes 8 bravos politicos 1 randolfe rodrigues rede/ap autor pedido 2 alvaro dias pv/pr autor pec 3 otto alencar psd/ba 4 jose reguffe partido df 5 ronaldo caiado dem/go 6 ricardo ferraco psdb/es 7 paulo paim pt/rs 8 ana amelia pp/rs necessaria adesao menos 41 senadores proposta votada leia
+1	marque	marcar	VERB	VERB	_	0	root	_	TokenRange=0:6
+2	bem	bem	ADV	ADV	_	1	advmod	_	TokenRange=7:10
+3	nome	nome	NOUN	NOUN	_	1	obj	_	TokenRange=11:15
+4	desses	_	ADP	ADP	_	6	case	_	TokenRange=16:22
+5	8	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=23:24
+6	senadores	senador	NOUN	NOUN	_	3	nmod	_	TokenRange=25:34
+7	lutando	lutar	VERB	VERB	_	6	acl	_	TokenRange=35:42
+8	fim	fim	NOUN	NOUN	_	7	obj	_	TokenRange=43:46
+9	foro	foro	NOUN	NOUN	_	14	obj	_	TokenRange=47:51
+10	alvaro	alvaro	ADJ	ADJ	_	11	amod	_	TokenRange=52:58
+11	dias	dia	NOUN	NOUN	_	9	appos	_	TokenRange=59:63
+12	deveriamos	deveria	AUX	AUX	_	14	aux	_	TokenRange=64:74
+13	estar	estar	AUX	AUX	_	14	aux	_	TokenRange=75:80
+14	votando	votar	VERB	VERB	_	1	parataxis	_	TokenRange=81:88
+15	fim	fim	NOUN	NOUN	_	14	obj	_	TokenRange=89:92
+16	foro	foro	NOUN	NOUN	_	15	appos	_	TokenRange=93:97
+17	privilegiado	privilegiado	ADJ	ADJ	_	18	amod	_	TokenRange=98:110
+18	regime	regime	NOUN	NOUN	_	14	appos	_	TokenRange=111:117
+19	urgencia	urgencia	ADJ	ADJ	_	18	amod	_	TokenRange=118:126
+20	site	site	NOUN	NOUN	_	22	nsubj	_	TokenRange=127:131
+21	antagonista	antagonista	ADJ	ADJ	_	20	amod	_	TokenRange=132:143
+22	divulgou	divulgar	VERB	VERB	_	1	parataxis	_	TokenRange=144:152
+23	lista	lista	NOUN	NOUN	_	22	obj	_	TokenRange=153:158
+24	poucos	_	DET	DET	_	25	det	_	TokenRange=159:165
+25	senadores	senador	NOUN	NOUN	_	26	nsubj	_	TokenRange=166:175
+26	assinaram	assinar	VERB	VERB	_	22	ccomp	_	TokenRange=176:185
+27	requerimento	requerimento	NOUN	NOUN	_	26	obj	_	TokenRange=186:198
+28	pede	pedir	NOUN	NOUN	_	26	parataxis	_	TokenRange=199:203
+29	urgencia	urgencia	NOUN	NOUN	_	26	obj	_	TokenRange=204:212
+30	votacao	votacao	NOUN	NOUN	_	26	parataxis	_	TokenRange=213:220
+31	pec	_	NOUN	NOUN	_	30	appos	_	TokenRange=221:224
+32	fim	fim	NOUN	NOUN	_	33	appos	_	TokenRange=225:228
+33	foro	foro	NOUN	NOUN	_	30	appos	_	TokenRange=229:233
+34	privilegiado	privilegiado	ADJ	ADJ	_	33	amod	_	TokenRange=234:246
+35	autoria	autoria	NOUN	NOUN	_	33	appos	_	TokenRange=247:254
+36	alvaro	alvaro	ADJ	ADJ	_	37	amod	_	TokenRange=255:261
+37	dias	dia	NOUN	NOUN	_	33	nmod	_	TokenRange=262:266
+38	abaixo	abaixo	ADV	ADV	_	39	advmod	_	TokenRange=267:273
+39	nomes	nome	NOUN	NOUN	_	22	obj	_	TokenRange=274:279
+40	8	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=280:281
+41	bravos	bravo	NOUN	NOUN	_	39	obj	_	TokenRange=282:288
+42	politicos	politico	ADJ	ADJ	_	41	amod	_	TokenRange=289:298
+43	1	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=299:300
+44	randolfe	randolfe	NOUN	NOUN	_	41	appos	_	TokenRange=301:309
+45	rodrigues	_	NOUN	NOUN	_	44	flat	_	TokenRange=310:319
+46	rede/ap	_	NOUN	NOUN	_	44	flat	_	TokenRange=320:327
+47	autor	autor	NOUN	NOUN	_	44	appos	_	TokenRange=328:333
+48	pedido	pedido	NOUN	NOUN	_	47	appos	_	TokenRange=334:340
+49	2	_	NUM	NUM	NumType=Card	47	appos	_	TokenRange=341:342
+50	alvaro	alvaro	ADJ	ADJ	_	51	amod	_	TokenRange=343:349
+51	dias	dia	NOUN	NOUN	_	44	conj	_	TokenRange=350:354
+52	pv/pr	pv/pr	ADJ	ADJ	_	53	amod	_	TokenRange=355:360
+53	autor	autor	NOUN	NOUN	_	44	conj	_	TokenRange=361:366
+54	pec	_	NOUN	NOUN	_	53	flat	_	TokenRange=367:370
+55	3	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=371:372
+56	otto	_	NOUN	NOUN	_	44	appos	_	TokenRange=373:377
+57	alencar	alencar	NOUN	NOUN	_	56	flat	_	TokenRange=378:385
+58	psd/ba	_	NOUN	NOUN	_	56	flat	_	TokenRange=386:392
+59	4	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=393:394
+60	jose	jose	NOUN	NOUN	_	56	appos	_	TokenRange=395:399
+61	reguffe	reguffe	NOUN	NOUN	_	60	flat	_	TokenRange=400:407
+62	partido	partido	NOUN	NOUN	_	60	appos	_	TokenRange=408:415
+63	df	_	X	NOUN	_	62	flat	_	TokenRange=416:418
+64	5	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=419:420
+65	ronaldo	ronaldo	NOUN	NOUN	_	60	appos	_	TokenRange=421:428
+66	caiado	caiado	ADJ	ADJ	_	65	amod	_	TokenRange=429:435
+67	dem/go	_	X	ADP	_	69	flat	_	TokenRange=436:442
+68	6	_	NUM	NUM	NumType=Card	69	appos	_	TokenRange=443:444
+69	ricardo	ricardo	NOUN	NOUN	_	65	appos	_	TokenRange=445:452
+70	ferraco	ferraco	ADJ	ADJ	_	69	amod	_	TokenRange=453:460
+71	psdb/es	_	NOUN	NOUN	_	69	appos	_	TokenRange=461:468
+72	7	_	NUM	NUM	NumType=Card	69	appos	_	TokenRange=469:470
+73	paulo	paulo	NOUN	NOUN	_	69	appos	_	TokenRange=471:476
+74	paim	_	NOUN	NOUN	_	73	flat	_	TokenRange=477:481
+75	pt/rs	_	NOUN	NOUN	_	73	flat	_	TokenRange=482:487
+76	8	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=488:489
+77	ana	_	NOUN	NOUN	_	69	appos	_	TokenRange=490:493
+78	amelia	amelia	NOUN	NOUN	_	77	flat	_	TokenRange=494:500
+79	pp/rs	_	NOUN	NOUN	_	77	flat	_	TokenRange=501:506
+80	necessaria	necessar	ADJ	ADJ	_	85	amod	_	TokenRange=507:517
+81	adesao	adesao	NOUN	NOUN	_	85	appos	_	TokenRange=518:524
+82	menos	menos	ADV	ADV	_	83	advmod	_	TokenRange=525:530
+83	41	_	NUM	NUM	NumType=Card	84	nummod	_	TokenRange=531:533
+84	senadores	senador	NOUN	NOUN	_	81	appos	_	TokenRange=534:543
+85	proposta	_	NOUN	NOUN	_	69	appos	_	TokenRange=544:552
+86	votada	votado	ADJ	ADJ	_	85	amod	_	TokenRange=553:559
+87	leia	leia	ADJ	ADJ	_	85	amod	_	SpaceAfter=No|TokenRange=560:564
+

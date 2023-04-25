@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = zara larsson junta dance pop feminismo necessidade ficar comparando cantora outra popstar sueca 20 anos atracao 1 dia lollapalloza g1 fala show diz cantoras unir rivais lollapalooza festival rock alternativo novidades hip hop perai vai pop autodromo interlagos cantarovavel dancavel estilos representado zara larsson faz show sextafeira 23
+1	zara	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	larsson	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=5:12
+3	junta	juntar	VERB	VERB	_	0	root	_	TokenRange=13:18
+4	dance	_	NOUN	NOUN	_	3	obj	_	TokenRange=19:24
+5	pop	_	NOUN	NOUN	_	4	flat	_	TokenRange=25:28
+6	feminismo	feminismo	NOUN	NOUN	_	4	amod	_	TokenRange=29:38
+7	necessidade	necessidade	NOUN	NOUN	_	3	nsubj	_	TokenRange=39:50
+8	ficar	ficar	AUX	AUX	_	9	aux	_	TokenRange=51:56
+9	comparando	comparar	VERB	VERB	_	7	acl:inf	_	TokenRange=57:67
+10	cantora	cantor	NOUN	NOUN	_	9	obj	_	TokenRange=68:75
+11	outra	_	DET	DET	_	12	det	_	TokenRange=76:81
+12	popstar	popstar	NOUN	NOUN	_	10	appos	_	TokenRange=82:89
+13	sueca	sueco	ADJ	ADJ	_	12	amod	_	TokenRange=90:95
+14	20	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=96:98
+15	anos	ano	NOUN	NOUN	_	12	nmod	_	TokenRange=99:103
+16	atracao	atracao	NOUN	NOUN	_	12	appos	_	TokenRange=104:111
+17	1	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=112:113
+18	dia	dia	NOUN	NOUN	_	16	nmod	_	TokenRange=114:117
+19	lollapalloza	lollapalloza	NOUN	NOUN	_	16	appos	_	TokenRange=118:130
+20	g1	_	PRON	PRON	_	21	nsubj	_	TokenRange=131:133
+21	fala	_	VERB	VERB	_	16	parataxis	_	TokenRange=134:138
+22	show	show	NOUN	NOUN	_	21	obj	_	TokenRange=139:143
+23	diz	dizer	VERB	VERB	_	21	parataxis	_	TokenRange=144:147
+24	cantoras	cantor	NOUN	NOUN	_	23	obj	_	TokenRange=148:156
+25	unir	unir	VERB	VERB	_	24	acl:inf	_	TokenRange=157:161
+26	rivais	rival	NOUN	NOUN	_	25	obj	_	TokenRange=162:168
+27	lollapalooza	lollapalooza	ADJ	ADJ	_	26	amod	_	TokenRange=169:181
+28	festival	festival	NOUN	NOUN	_	26	appos	_	TokenRange=182:190
+29	rock	rock	NOUN	NOUN	_	28	appos	_	TokenRange=191:195
+30	alternativo	alternativo	ADJ	ADJ	_	29	amod	_	TokenRange=196:207
+31	novidades	novidade	NOUN	NOUN	_	23	nsubj	_	TokenRange=208:217
+32	hip	_	NOUN	NOUN	_	31	appos	_	TokenRange=218:221
+33	hop	hop	NOUN	NOUN	_	32	flat	_	TokenRange=222:225
+34	perai	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=226:231
+35	vai	ir	AUX	AUX	_	36	cop	_	TokenRange=232:235
+36	pop	_	NOUN	NOUN	_	32	flat	_	TokenRange=236:239
+37	autodromo	autodromo	NOUN	NOUN	_	36	flat	_	TokenRange=240:249
+38	interlagos	_	NOUN	NOUN	_	37	flat	_	TokenRange=250:260
+39	cantarovavel	cantarovavel	NOUN	NOUN	_	37	flat	_	TokenRange=261:273
+40	dancavel	dancavel	ADJ	ADJ	_	41	amod	_	TokenRange=274:282
+41	estilos	estilo	NOUN	NOUN	_	37	flat	_	TokenRange=283:290
+42	representado	representar	VERB	VERB	_	41	acl	_	TokenRange=291:303
+43	zara	zara	NOUN	NOUN	_	45	nsubj	_	TokenRange=304:308
+44	larsson	_	NOUN	NOUN	_	43	flat	_	TokenRange=309:316
+45	faz	fazer	VERB	VERB	_	23	parataxis	_	TokenRange=317:320
+46	show	show	NOUN	NOUN	_	45	obj	_	TokenRange=321:325
+47	sextafeira	sextafeira	NOUN	NOUN	_	45	parataxis	_	TokenRange=326:336
+48	23	_	NUM	NUM	NumType=Card	47	appos	_	SpaceAfter=No|TokenRange=337:339
+

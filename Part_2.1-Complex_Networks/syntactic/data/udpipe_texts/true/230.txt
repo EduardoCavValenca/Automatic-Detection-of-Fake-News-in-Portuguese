@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcos harter eliminado bbb segundo apresentador tiago leifert verificados indicios agressao emilly araujo decisao vivian ieda finalistas big brother brasil 17 marcos harter eliminado big brother brasil anuncio feito apresentador tiago leifert inicio programa desta segundafeira 10 assista video decisao baseada regras reality show proibem agressao fisica investigacoes policia civil rio abriu inquerito apurar
+1	marcos	marco	NOUN	NOUN	_	52	nsubj	_	TokenRange=0:6
+2	harter	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	eliminado	eliminar	VERB	VERB	_	1	acl	_	TokenRange=14:23
+4	bbb	_	NOUN	NOUN	_	3	obj	_	TokenRange=24:27
+5	segundo	_	ADP	ADP	_	6	case	_	TokenRange=28:35
+6	apresentador	apresentador	NOUN	NOUN	_	3	nmod	_	TokenRange=36:48
+7	tiago	tiago	NOUN	NOUN	_	6	appos	_	TokenRange=49:54
+8	leifert	_	NOUN	NOUN	_	7	flat	_	TokenRange=55:62
+9	verificados	verificar	VERB	VERB	_	10	acl	_	TokenRange=63:74
+10	indicios	_	NOUN	NOUN	_	1	appos	_	TokenRange=75:83
+11	agressao	agressao	NOUN	NOUN	_	10	appos	_	TokenRange=84:92
+12	emilly	_	NOUN	NOUN	_	10	appos	_	TokenRange=93:99
+13	araujo	_	NOUN	NOUN	_	12	flat	_	TokenRange=100:106
+14	decisao	decisao	NOUN	NOUN	_	12	appos	_	TokenRange=107:114
+15	vivian	_	NOUN	NOUN	_	14	appos	_	TokenRange=115:121
+16	ieda	_	NOUN	NOUN	_	15	flat	_	TokenRange=122:126
+17	finalistas	finalista	NOUN	NOUN	_	15	amod	_	TokenRange=127:137
+18	big	_	ADJ	ADJ	_	19	amod	_	TokenRange=138:141
+19	brother	_	NOUN	NOUN	_	17	appos	_	TokenRange=142:149
+20	brasil	brasil	NOUN	NOUN	_	19	flat	_	TokenRange=150:156
+21	17	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=157:159
+22	marcos	marco	NOUN	NOUN	_	19	appos	_	TokenRange=160:166
+23	harter	_	NOUN	NOUN	_	22	appos	_	TokenRange=167:173
+24	eliminado	eliminar	AUX	AUX	_	26	cop	_	TokenRange=174:183
+25	big	_	ADJ	ADJ	_	26	amod	_	TokenRange=184:187
+26	brother	brother	NOUN	NOUN	_	22	appos	_	TokenRange=188:195
+27	brasil	brasil	ADJ	ADJ	_	26	amod	_	TokenRange=196:202
+28	anuncio	anuncio	NOUN	NOUN	_	26	appos	_	TokenRange=203:210
+29	feito	_	ADJ	ADJ	_	30	amod	_	TokenRange=211:216
+30	apresentador	apresentador	NOUN	NOUN	_	26	appos	_	TokenRange=217:229
+31	tiago	_	NOUN	NOUN	_	30	appos	_	TokenRange=230:235
+32	leifert	_	NOUN	NOUN	_	31	flat	_	TokenRange=236:243
+33	inicio	_	ADJ	ADJ	_	34	amod	_	TokenRange=244:250
+34	programa	programa	NOUN	NOUN	_	38	obj	_	TokenRange=251:259
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=260:265
+36	segundafeira	_	NOUN	NOUN	_	34	nmod	_	TokenRange=266:278
+37	10	_	NUM	NUM	NumType=Card	38	nsubj	_	TokenRange=279:281
+38	assista	assistir	VERB	VERB	_	26	parataxis	_	TokenRange=282:289
+39	video	video	NOUN	NOUN	_	38	obj	_	TokenRange=290:295
+40	decisao	decisao	NOUN	NOUN	_	39	appos	_	TokenRange=296:303
+41	baseada	baseado	ADJ	ADJ	_	40	amod	_	TokenRange=304:311
+42	regras	regra	NOUN	NOUN	_	45	nsubj	_	TokenRange=312:318
+43	reality	_	NOUN	NOUN	_	42	appos	_	TokenRange=319:326
+44	show	show	NOUN	NOUN	_	43	flat	_	TokenRange=327:331
+45	proibem	proibar	VERB	VERB	_	38	parataxis	_	TokenRange=332:339
+46	agressao	agressao	NOUN	NOUN	_	45	obj	_	TokenRange=340:348
+47	fisica	fisico	ADJ	ADJ	_	46	amod	_	TokenRange=349:355
+48	investigacoes	investigacoe	ADJ	ADJ	_	49	amod	_	TokenRange=356:369
+49	policia	policia	NOUN	NOUN	_	52	nsubj	_	TokenRange=370:377
+50	civil	civil	ADJ	ADJ	_	49	amod	_	TokenRange=378:383
+51	rio	rio	NOUN	NOUN	_	52	nsubj	_	TokenRange=384:387
+52	abriu	abrir	VERB	VERB	_	0	root	_	TokenRange=388:393
+53	inquerito	inquerito	NOUN	NOUN	_	54	obj	_	TokenRange=394:403
+54	apurar	apurar	VERB	VERB	_	52	ccomp	_	SpaceAfter=No|TokenRange=404:410
+

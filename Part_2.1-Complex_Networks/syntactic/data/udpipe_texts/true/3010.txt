@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer lera mensagem abertura ano congresso diz planalto evento marcado quintafeira 2 celebra volta trabalhos camara senado temer deve ressaltar importancia dialogo executivo legislativo presidente michel temer vai participar sessao abertura ano legislativo congresso nacional nesta quintafeira 2 acordo informacoes palacio planalto sessao solene ocorre tradicionalmente todos anos dia 2 fevereiro marcar
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	lera	lerar	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	mensagem	mensagem	NOUN	NOUN	_	2	obj	_	TokenRange=11:19
+4	abertura	abertura	NOUN	NOUN	_	3	appos	_	TokenRange=20:28
+5	ano	ano	NOUN	NOUN	_	7	nmod	_	TokenRange=29:32
+6	congresso	congresso	NOUN	NOUN	_	7	nsubj	_	TokenRange=33:42
+7	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=43:46
+8	planalto	planalto	NOUN	NOUN	_	7	obj	_	TokenRange=47:55
+9	evento	evento	NOUN	NOUN	_	7	obj	_	TokenRange=56:62
+10	marcado	marcar	VERB	VERB	_	9	acl	_	TokenRange=63:70
+11	quintafeira	quintafeira	NOUN	NOUN	_	13	nsubj	_	TokenRange=71:82
+12	2	_	NUM	NUM	NumType=Card	11	appos	_	TokenRange=83:84
+13	celebra	celebrar	VERB	VERB	_	2	parataxis	_	TokenRange=85:92
+14	volta	volta	NOUN	NOUN	_	13	obj	_	TokenRange=93:98
+15	trabalhos	trabalho	NOUN	NOUN	_	14	flat	_	TokenRange=99:108
+16	camara	camara	NOUN	NOUN	_	20	nsubj	_	TokenRange=109:115
+17	senado	senado	NOUN	NOUN	_	16	amod	_	TokenRange=116:122
+18	temer	temer	NOUN	NOUN	_	20	nsubj	_	TokenRange=123:128
+19	deve	dever	AUX	AUX	_	20	aux	_	TokenRange=129:133
+20	ressaltar	ressaltar	VERB	VERB	_	2	parataxis	_	TokenRange=134:143
+21	importancia	importancia	NOUN	NOUN	_	20	obj	_	TokenRange=144:155
+22	dialogo	dialogo	NOUN	NOUN	_	21	appos	_	TokenRange=156:163
+23	executivo	executivo	ADJ	ADJ	_	25	amod	_	TokenRange=164:173
+24	legislativo	legislativo	ADJ	ADJ	_	25	amod	_	TokenRange=174:185
+25	presidente	presidente	NOUN	NOUN	_	29	nsubj	_	TokenRange=186:196
+26	michel	michel	ADJ	ADJ	_	25	amod	_	TokenRange=197:203
+27	temer	temer	NOUN	NOUN	_	25	appos	_	TokenRange=204:209
+28	vai	ir	AUX	AUX	_	29	aux	_	TokenRange=210:213
+29	participar	participar	VERB	VERB	_	21	acl:relcl	_	TokenRange=214:224
+30	sessao	sessao	NOUN	NOUN	_	29	obj	_	TokenRange=225:231
+31	abertura	abertura	NOUN	NOUN	_	29	obj	_	TokenRange=232:240
+32	ano	ano	NOUN	NOUN	_	30	appos	_	TokenRange=241:244
+33	legislativo	legislativo	ADJ	ADJ	_	32	amod	_	TokenRange=245:256
+34	congresso	congresso	NOUN	NOUN	_	29	obj	_	TokenRange=257:266
+35	nacional	nacional	ADJ	ADJ	_	34	amod	_	TokenRange=267:275
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=276:281
+37	quintafeira	quintafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=282:293
+38	2	_	NUM	NUM	NumType=Card	37	appos	_	TokenRange=294:295
+39	acordo	acordo	NOUN	NOUN	_	29	parataxis	_	TokenRange=296:302
+40	informacoes	informacoe	NOUN	NOUN	_	39	obj	_	TokenRange=303:314
+41	palacio	palacio	NOUN	NOUN	_	40	appos	_	TokenRange=315:322
+42	planalto	planalto	ADJ	ADJ	_	43	amod	_	TokenRange=323:331
+43	sessao	sessao	NOUN	NOUN	_	39	appos	_	TokenRange=332:338
+44	solene	solene	ADJ	ADJ	_	43	amod	_	TokenRange=339:345
+45	ocorre	ocorrer	VERB	VERB	_	2	parataxis	_	TokenRange=346:352
+46	tradicionalmente	tradicionalmente	ADV	ADV	_	45	advmod	_	TokenRange=353:369
+47	todos	_	DET	DET	_	48	det	_	TokenRange=370:375
+48	anos	ano	NOUN	NOUN	_	45	nmod	_	TokenRange=376:380
+49	dia	dia	NOUN	NOUN	_	45	nmod	_	TokenRange=381:384
+50	2	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=385:386
+51	fevereiro	_	PROPN	PNOUN	_	52	nsubj	_	TokenRange=387:396
+52	marcar	marcar	VERB	VERB	_	45	csubj	_	SpaceAfter=No|TokenRange=397:403
+

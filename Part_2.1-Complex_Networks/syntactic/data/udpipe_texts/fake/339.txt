@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mainardi ironiza ameacas feitas lula vai processar onde cadeia programa manhattan connection exibido canal globo news jornalistas rasgaram verbo apresentador principal jornalista lucas mendes perguntou mainardi lula disse vai processar 15 jornalistas veiculos comunicacao vai processar quinhentos jornalistas assinarem documento chamando expresidente ladrao mentiroso vai processar todos diogo hesitou respondeu lula acuado reacao sei vai sair algemado triplex oas sitio odebrecth disse mainardi vai processar onde cadeia finalizou
+1	mainardi	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	ironiza	ironizar	VERB	VERB	_	0	root	_	TokenRange=9:16
+3	ameacas	ameaca	NOUN	NOUN	_	2	obj	_	TokenRange=17:24
+4	feitas	_	VERB	VERB	_	3	acl	_	TokenRange=25:31
+5	lula	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=32:36
+6	vai	ir	AUX	AUX	_	7	aux	_	TokenRange=37:40
+7	processar	processar	VERB	VERB	_	3	acl:relcl	_	TokenRange=41:50
+8	onde	onde	ADV	ADV	_	9	advmod	_	TokenRange=51:55
+9	cadeia	cadear	VERB	VERB	_	7	ccomp	_	TokenRange=56:62
+10	programa	programa	NOUN	NOUN	_	7	obj	_	TokenRange=63:71
+11	manhattan	_	NOUN	NOUN	_	10	appos	_	TokenRange=72:81
+12	connection	_	NOUN	NOUN	_	10	flat	_	TokenRange=82:92
+13	exibido	exibir	VERB	VERB	_	14	acl	_	TokenRange=93:100
+14	canal	canal	NOUN	NOUN	_	10	appos	_	TokenRange=101:106
+15	globo	globo	ADJ	ADJ	_	14	amod	_	TokenRange=107:112
+16	news	_	X	NOUN	_	14	appos	_	TokenRange=113:117
+17	jornalistas	jornalista	NOUN	NOUN	_	18	nsubj	_	TokenRange=118:129
+18	rasgaram	rasgar	VERB	VERB	_	7	parataxis	_	TokenRange=130:138
+19	verbo	verbo	NOUN	NOUN	_	20	amod	_	TokenRange=139:144
+20	apresentador	apresentador	NOUN	NOUN	_	18	nsubj	_	TokenRange=145:157
+21	principal	principal	ADJ	ADJ	_	20	amod	_	TokenRange=158:167
+22	jornalista	jornalista	NOUN	NOUN	_	20	appos	_	TokenRange=168:178
+23	lucas	luco	NOUN	NOUN	_	20	amod	_	TokenRange=179:184
+24	mendes	_	ADJ	ADJ	_	22	amod	_	TokenRange=185:191
+25	perguntou	perguntar	VERB	VERB	_	18	parataxis	_	TokenRange=192:201
+26	mainardi	mainardi	NOUN	NOUN	_	25	obj	_	TokenRange=202:210
+27	lula	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=211:215
+28	disse	dizer	VERB	VERB	_	25	ccomp	_	TokenRange=216:221
+29	vai	ir	AUX	AUX	_	30	aux	_	TokenRange=222:225
+30	processar	processar	VERB	VERB	_	28	ccomp	_	TokenRange=226:235
+31	15	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=236:238
+32	jornalistas	jornalista	NOUN	NOUN	_	30	obj	_	TokenRange=239:250
+33	veiculos	veiculo	ADJ	ADJ	_	32	amod	_	TokenRange=251:259
+34	comunicacao	comunicacao	NOUN	NOUN	_	32	amod	_	TokenRange=260:271
+35	vai	ir	AUX	AUX	_	36	aux	_	TokenRange=272:275
+36	processar	processar	VERB	VERB	_	30	ccomp	_	TokenRange=276:285
+37	quinhentos	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=286:296
+38	jornalistas	jornalista	NOUN	NOUN	_	39	obj	_	TokenRange=297:308
+39	assinarem	assinar	VERB	VERB	_	36	ccomp	_	TokenRange=309:318
+40	documento	documento	NOUN	NOUN	_	39	obj	_	TokenRange=319:328
+41	chamando	chamar	VERB	VERB	_	40	acl	_	TokenRange=329:337
+42	expresidente	expresidente	NOUN	NOUN	_	41	obj	_	TokenRange=338:350
+43	ladrao	ladrao	NOUN	NOUN	_	42	appos	_	TokenRange=351:357
+44	mentiroso	mentiroso	ADJ	ADJ	_	43	amod	_	TokenRange=358:367
+45	vai	ir	AUX	AUX	_	46	aux	_	TokenRange=368:371
+46	processar	processar	VERB	VERB	_	36	conj	_	TokenRange=372:381
+47	todos	_	PRON	PRON	_	46	obj	_	TokenRange=382:387
+48	diogo	diogo	NOUN	NOUN	_	46	nsubj	_	TokenRange=388:393
+49	hesitou	hesitar	VERB	VERB	_	46	ccomp	_	TokenRange=394:401
+50	respondeu	responder	VERB	VERB	_	46	ccomp	_	TokenRange=402:411
+51	lula	lula	NOUN	NOUN	_	50	nsubj	_	TokenRange=412:416
+52	acuado	acuado	ADJ	ADJ	_	51	amod	_	TokenRange=417:423
+53	reacao	reacao	NOUN	NOUN	_	56	nsubj	_	TokenRange=424:430
+54	sei	saber	NOUN	NOUN	_	56	nsubj	_	TokenRange=431:434
+55	vai	ir	AUX	AUX	_	56	aux	_	TokenRange=435:438
+56	sair	sair	VERB	VERB	_	50	conj	_	TokenRange=439:443
+57	algemado	algemado	ADJ	ADJ	_	56	xcomp	_	TokenRange=444:452
+58	triplex	_	NOUN	NOUN	_	56	obj	_	TokenRange=453:460
+59	oas	_	DET	DET	_	60	det	_	TokenRange=461:464
+60	sitio	sitio	NOUN	NOUN	_	56	nsubj	_	TokenRange=465:470
+61	odebrecth	_	NOUN	NOUN	_	60	appos	_	TokenRange=471:480
+62	disse	dizer	VERB	VERB	_	50	parataxis	_	TokenRange=481:486
+63	mainardi	_	NOUN	NOUN	_	68	nsubj	_	TokenRange=487:495
+64	vai	ir	AUX	AUX	_	65	aux	_	TokenRange=496:499
+65	processar	processar	VERB	VERB	_	62	ccomp	_	TokenRange=500:509
+66	onde	onde	ADV	ADV	_	68	advmod	_	TokenRange=510:514
+67	cadeia	cadeia	NOUN	NOUN	_	68	obj	_	TokenRange=515:521
+68	finalizou	finalizar	VERB	VERB	_	65	ccomp	_	SpaceAfter=No|TokenRange=522:531
+

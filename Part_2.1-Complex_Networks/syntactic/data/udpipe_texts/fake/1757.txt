@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pais controle massacre aconteceu durante ultima madrugada 33 presos mortos acordo jargao usado presidente republica aconteceu acidente pavoroso lamentavel durante madrugada trinta tres presos encontrados vida penitenciaria agricola monte cristo estado roraima autoridades locais pronunciaram secretaria justica cidadania informa nesta madrugada registradas 33 mortes pamc penitenciaria agricola monte cristo bope batalhao operacoes especiais pmrr policia militar alas referido presidio fonte g1
+1	pais	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	controle	_	NOUN	NOUN	_	1	amod	_	TokenRange=5:13
+3	massacre	massacre	NOUN	NOUN	_	1	appos	_	TokenRange=14:22
+4	aconteceu	acontecer	VERB	VERB	_	0	root	_	TokenRange=23:32
+5	durante	_	ADP	ADP	_	7	case	_	TokenRange=33:40
+6	ultima	_	ADJ	ADJ	_	7	amod	_	TokenRange=41:47
+7	madrugada	madrugada	NOUN	NOUN	_	4	nmod	_	TokenRange=48:57
+8	33	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=58:60
+9	presos	preso	NOUN	NOUN	_	4	nsubj	_	TokenRange=61:67
+10	mortos	morto	ADJ	ADJ	_	9	amod	_	TokenRange=68:74
+11	acordo	acordo	NOUN	NOUN	_	9	appos	_	TokenRange=75:81
+12	jargao	jargao	NOUN	NOUN	_	11	flat	_	TokenRange=82:88
+13	usado	usar	VERB	VERB	_	9	acl	_	TokenRange=89:94
+14	presidente	presidente	NOUN	NOUN	_	13	obj	_	TokenRange=95:105
+15	republica	republico	ADJ	ADJ	_	14	amod	_	TokenRange=106:115
+16	aconteceu	acontecer	VERB	VERB	_	4	parataxis	_	TokenRange=116:125
+17	acidente	acidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=126:134
+18	pavoroso	pavoroso	ADJ	ADJ	_	17	amod	_	TokenRange=135:143
+19	lamentavel	lamentavel	ADJ	ADJ	_	17	amod	_	TokenRange=144:154
+20	durante	_	ADP	ADP	_	21	case	_	TokenRange=155:162
+21	madrugada	madrugada	NOUN	NOUN	_	16	nmod	_	TokenRange=163:172
+22	trinta	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=173:179
+23	tres	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=180:184
+24	presos	preso	NOUN	NOUN	_	21	appos	_	TokenRange=185:191
+25	encontrados	encontrar	VERB	VERB	_	24	acl	_	TokenRange=192:203
+26	vida	vida	NOUN	NOUN	_	24	appos	_	TokenRange=204:208
+27	penitenciaria	penitenciaria	ADJ	ADJ	_	26	amod	_	TokenRange=209:222
+28	agricola	_	ADJ	ADJ	_	26	amod	_	TokenRange=223:231
+29	monte	monte	NOUN	NOUN	_	26	appos	_	TokenRange=232:237
+30	cristo	cristo	ADJ	ADJ	_	31	amod	_	TokenRange=238:244
+31	estado	estado	NOUN	NOUN	_	26	appos	_	TokenRange=245:251
+32	roraima	roraimo	ADJ	ADJ	_	31	amod	_	TokenRange=252:259
+33	autoridades	autoridade	NOUN	NOUN	_	35	nsubj	_	TokenRange=260:271
+34	locais	local	ADJ	ADJ	_	33	amod	_	TokenRange=272:278
+35	pronunciaram	pronunciar	VERB	VERB	_	4	parataxis	_	TokenRange=279:291
+36	secretaria	secretaria	NOUN	NOUN	_	35	obj	_	TokenRange=292:302
+37	justica	justico	ADJ	ADJ	_	36	amod	_	TokenRange=303:310
+38	cidadania	cidadania	NOUN	NOUN	_	39	nsubj	_	TokenRange=311:320
+39	informa	informar	VERB	VERB	_	35	parataxis	_	TokenRange=321:328
+40	nesta	_	ADP	ADP	_	41	case	_	TokenRange=329:334
+41	madrugada	madrugada	NOUN	NOUN	_	39	nmod	_	TokenRange=335:344
+42	registradas	registrar	VERB	VERB	_	39	acl	_	TokenRange=345:356
+43	33	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=357:359
+44	mortes	morte	NOUN	NOUN	_	42	nsubj	_	TokenRange=360:366
+45	pamc	_	NOUN	NOUN	_	44	appos	_	TokenRange=367:371
+46	penitenciaria	penitenciaria	NOUN	NOUN	_	45	flat	_	TokenRange=372:385
+47	agricola	agricolo	ADJ	ADJ	_	45	amod	_	TokenRange=386:394
+48	monte	monte	NOUN	NOUN	_	45	appos	_	TokenRange=395:400
+49	cristo	cristo	ADJ	ADJ	_	48	amod	_	TokenRange=401:407
+50	bope	bope	ADJ	ADJ	_	51	amod	_	TokenRange=408:412
+51	batalhao	batalhao	NOUN	NOUN	_	45	appos	_	TokenRange=413:421
+52	operacoes	_	NOUN	NOUN	_	51	flat	_	TokenRange=422:431
+53	especiais	especial	ADJ	ADJ	_	52	amod	_	TokenRange=432:441
+54	pmrr	pmrr	ADJ	ADJ	_	51	amod	_	TokenRange=442:446
+55	policia	policia	NOUN	NOUN	_	51	appos	_	TokenRange=447:454
+56	militar	militar	ADJ	ADJ	_	55	amod	_	TokenRange=455:462
+57	alas	ala	NOUN	NOUN	_	55	appos	_	TokenRange=463:467
+58	referido	referido	ADJ	ADJ	_	59	amod	_	TokenRange=468:476
+59	presidio	presidio	NOUN	NOUN	_	55	appos	_	TokenRange=477:485
+60	fonte	fonte	NOUN	NOUN	_	59	appos	_	TokenRange=486:491
+61	g1	_	NUM	NUM	_	60	appos	_	SpaceAfter=No|TokenRange=492:494
+

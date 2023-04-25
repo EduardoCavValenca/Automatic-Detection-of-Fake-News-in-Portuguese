@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = empresa consorcio ppp iluminacao sp acusada desvio r 100 milhoes amazonas tribunal contas sp recomendou prefeitura suspenda contrato ppp iluminacao suspeita pagamento propina empresa cld construtora integrante consorcio fm rodrigues assinou contrato parceria publicoprivada ppp iluminacao publica prefeitura paulo acusada participar desvio quase r 100 milhoes prefeitura manaus cld socios jorge marques moura bens bloqueados jjustica amazonas 2015 conta denuncia desvio epoca construtora cld outro nome consladel trecho decisao determinou bloqueio bens diz atuacao nucleo politico beneficiar empresa consladel documento ressalta segundo ministerio publico prejuizo
+1	empresa	empresa	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:7
+2	consorcio	consorcio	NOUN	NOUN	_	1	appos	_	TokenRange=8:17
+3	ppp	_	NOUN	NOUN	_	1	appos	_	TokenRange=18:21
+4	iluminacao	iluminacao	NOUN	NOUN	_	1	flat	_	TokenRange=22:32
+5	sp	_	ADJ	ADJ	_	1	amod	_	TokenRange=33:35
+6	acusada	acusar	VERB	VERB	_	1	acl	_	TokenRange=36:43
+7	desvio	desvio	NOUN	NOUN	_	6	obj	_	TokenRange=44:50
+8	r	r	NOUN	NOUN	_	7	flat	_	TokenRange=51:52
+9	100	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=53:56
+10	milhoes	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=57:64
+11	amazonas	amazona	ADJ	NOUN	_	7	amod	_	TokenRange=65:73
+12	tribunal	tribunal	NOUN	NOUN	_	15	nsubj	_	TokenRange=74:82
+13	contas	conta	NOUN	NOUN	_	12	flat	_	TokenRange=83:89
+14	sp	_	ADJ	ADJ	_	12	amod	_	TokenRange=90:92
+15	recomendou	recomendar	VERB	VERB	_	0	root	_	TokenRange=93:103
+16	prefeitura	prefeitura	NOUN	NOUN	_	15	obj	_	TokenRange=104:114
+17	suspenda	suspendo	ADJ	ADJ	_	15	xcomp	_	TokenRange=115:123
+18	contrato	contrato	NOUN	NOUN	_	17	obj	_	TokenRange=124:132
+19	ppp	_	ADP	ADP	_	20	case	_	TokenRange=133:136
+20	iluminacao	iluminacao	NOUN	NOUN	_	18	nmod	_	TokenRange=137:147
+21	suspeita	_	ADJ	ADJ	_	22	amod	_	TokenRange=148:156
+22	pagamento	pagamento	NOUN	NOUN	_	18	appos	_	TokenRange=157:166
+23	propina	propino	ADJ	ADJ	_	22	amod	_	TokenRange=167:174
+24	empresa	empresa	NOUN	NOUN	_	31	nsubj	_	TokenRange=175:182
+25	cld	_	NOUN	NOUN	_	24	appos	_	TokenRange=183:186
+26	construtora	construtor	NOUN	NOUN	_	24	appos	_	TokenRange=187:198
+27	integrante	_	ADJ	ADJ	_	28	amod	_	TokenRange=199:209
+28	consorcio	consorcio	NOUN	NOUN	_	24	appos	_	TokenRange=210:219
+29	fm	_	NOUN	NOUN	_	28	appos	_	TokenRange=220:222
+30	rodrigues	_	NOUN	NOUN	_	28	flat	_	TokenRange=223:232
+31	assinou	assinar	VERB	VERB	_	15	parataxis	_	TokenRange=233:240
+32	contrato	contrato	NOUN	NOUN	_	31	obj	_	TokenRange=241:249
+33	parceria	parceria	NOUN	NOUN	_	32	appos	_	TokenRange=250:258
+34	publicoprivada	publicoprivado	ADJ	ADJ	_	33	amod	_	TokenRange=259:273
+35	ppp	ppp	NOUN	NOUN	_	36	case	_	TokenRange=274:277
+36	iluminacao	iluminacao	NOUN	NOUN	_	32	appos	_	TokenRange=278:288
+37	publica	publico	ADJ	ADJ	_	36	amod	_	TokenRange=289:296
+38	prefeitura	prefeitura	NOUN	NOUN	_	31	nsubj	_	TokenRange=297:307
+39	paulo	paulo	NOUN	NOUN	_	38	flat	_	TokenRange=308:313
+40	acusada	acusar	VERB	VERB	_	38	acl	_	TokenRange=314:321
+41	participar	participar	VERB	VERB	_	31	xcomp	_	TokenRange=322:332
+42	desvio	desvio	NOUN	NOUN	_	41	obj	_	TokenRange=333:339
+43	quase	quase	ADV	ADV	_	46	advmod	_	TokenRange=340:345
+44	r	r	NOUN	NOUN	_	42	appos	_	TokenRange=346:347
+45	100	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=348:351
+46	milhoes	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=352:359
+47	prefeitura	prefeitura	NOUN	NOUN	_	41	obj	_	TokenRange=360:370
+48	manaus	manaus	ADJ	ADJ	_	47	amod	_	TokenRange=371:377
+49	cld	_	DET	DET	_	50	det	_	TokenRange=378:381
+50	socios	socio	NOUN	NOUN	_	47	appos	_	TokenRange=382:388
+51	jorge	jorge	NOUN	NOUN	_	50	appos	_	TokenRange=389:394
+52	marques	marque	NOUN	NOUN	_	51	flat	_	TokenRange=395:402
+53	moura	mouro	ADJ	ADJ	_	51	flat	_	TokenRange=403:408
+54	bens	bem	NOUN	NOUN	_	51	flat	_	TokenRange=409:413
+55	bloqueados	_	ADJ	ADJ	_	54	amod	_	TokenRange=414:424
+56	jjustica	_	NOUN	NOUN	_	50	appos	_	TokenRange=425:433
+57	amazonas	amazona	NOUN	NOUN	_	56	flat	_	TokenRange=434:442
+58	2015	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=443:447
+59	conta	conta	NOUN	NOUN	_	15	parataxis	_	TokenRange=448:453
+60	denuncia	_	NOUN	NOUN	_	59	flat	_	TokenRange=454:462
+61	desvio	desvio	NOUN	NOUN	_	59	appos	_	TokenRange=463:469
+62	epoca	epoca	NOUN	NOUN	_	59	appos	_	TokenRange=470:475
+63	construtora	construtor	NOUN	NOUN	_	62	flat	_	TokenRange=476:487
+64	cld	_	NOUN	NOUN	_	62	flat	_	TokenRange=488:491
+65	outro	_	DET	DET	_	66	det	_	TokenRange=492:497
+66	nome	nome	NOUN	NOUN	_	62	appos	_	TokenRange=498:502
+67	consladel	consladel	NOUN	NOUN	_	66	appos	_	TokenRange=503:512
+68	trecho	trecho	NOUN	NOUN	_	66	appos	_	TokenRange=513:519
+69	decisao	decisao	NOUN	NOUN	_	66	appos	_	TokenRange=520:527
+70	determinou	determinar	VERB	VERB	_	15	parataxis	_	TokenRange=528:538
+71	bloqueio	bloqueio	NOUN	NOUN	_	70	obj	_	TokenRange=539:547
+72	bens	bem	NOUN	NOUN	_	73	nsubj	_	TokenRange=548:552
+73	diz	dizer	VERB	VERB	_	70	ccomp	_	TokenRange=553:556
+74	atuacao	atuacao	NOUN	NOUN	_	73	obj	_	TokenRange=557:564
+75	nucleo	nucleo	NOUN	NOUN	_	73	nsubj	_	TokenRange=565:571
+76	politico	politico	ADJ	ADJ	_	75	amod	_	TokenRange=572:580
+77	beneficiar	beneficiar	VERB	VERB	_	75	acl:inf	_	TokenRange=581:591
+78	empresa	empresa	NOUN	NOUN	_	77	obj	_	TokenRange=592:599
+79	consladel	consladel	ADJ	ADJ	_	80	amod	_	TokenRange=600:609
+80	documento	documento	NOUN	NOUN	_	81	nsubj	_	TokenRange=610:619
+81	ressalta	ressaltar	VERB	VERB	_	73	parataxis	_	TokenRange=620:628
+82	segundo	_	ADP	ADP	_	83	case	_	TokenRange=629:636
+83	ministerio	ministerio	NOUN	NOUN	_	81	nmod	_	TokenRange=637:647
+84	publico	publico	ADJ	ADJ	_	83	amod	_	TokenRange=648:655
+85	prejuizo	prejuizo	NOUN	NOUN	_	83	appos	_	SpaceAfter=No|TokenRange=656:664
+

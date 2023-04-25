@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = concursos menos 113 orgaos inscricoes abertas 26 mil vagas vagas todos niveis escolaridade salarios vao r 92122 prefeitura marataizes es r 2894755 tribunal contas minas gerais menos 113 concursos publicos inscricoes abertas pais reunem 26 mil vagas cargos todos niveis escolaridade menos 23 concursos vagas paulo 22 minas gerais 12 santa catarina alem outros estados veja aqui lista completa concursos publicos vagas remuneracao partir r 92122 prefeitura marataizes es abriu 90 postos nivel fundamental
+1	concursos	concurso	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:9
+2	menos	menos	ADV	ADV	_	8	advmod	_	TokenRange=10:15
+3	113	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=16:19
+4	orgaos	orgao	NOUN	NOUN	_	1	appos	_	TokenRange=20:26
+5	inscricoes	inscricoe	ADJ	ADJ	_	4	amod	_	TokenRange=27:37
+6	abertas	aberto	ADJ	ADJ	_	4	amod	_	TokenRange=38:45
+7	26	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=46:48
+8	mil	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=49:52
+9	vagas	vaga	NOUN	NOUN	_	4	appos	_	TokenRange=53:58
+10	vagas	vaga	ADJ	ADJ	_	9	amod	_	TokenRange=59:64
+11	todos	_	DET	DET	_	12	det	_	TokenRange=65:70
+12	niveis	_	NOUN	NOUN	_	9	appos	_	TokenRange=71:77
+13	escolaridade	escolaridade	NOUN	NOUN	_	12	appos	_	TokenRange=78:90
+14	salarios	salario	ADJ	NOUN	_	12	amod	_	TokenRange=91:99
+15	vao	ir	VERB	VERB	_	0	root	_	TokenRange=100:103
+16	r	r	PUNCT	.	_	15	punct	_	TokenRange=104:105
+17	92122	_	NUM	NUM	NumType=Card	18	appos	_	TokenRange=106:111
+18	prefeitura	prefeitura	NOUN	NOUN	_	15	nsubj	_	TokenRange=112:122
+19	marataizes	_	ADJ	ADJ	_	18	amod	_	TokenRange=123:133
+20	es	_	PART	PRT	_	23	appos	_	TokenRange=134:136
+21	r	r	NOUN	NOUN	_	15	punct	_	TokenRange=137:138
+22	2894755	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=139:146
+23	tribunal	tribunal	NOUN	NOUN	_	15	parataxis	_	TokenRange=147:155
+24	contas	conta	NOUN	NOUN	_	23	flat	_	TokenRange=156:162
+25	minas	mina	NOUN	NOUN	_	23	appos	_	TokenRange=163:168
+26	gerais	geral	ADJ	ADJ	_	23	amod	_	TokenRange=169:175
+27	menos	menos	ADV	ADV	_	28	advmod	_	TokenRange=176:181
+28	113	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=182:185
+29	concursos	concurso	NOUN	NOUN	_	34	nsubj	_	TokenRange=186:195
+30	publicos	publico	ADJ	ADJ	_	29	amod	_	TokenRange=196:204
+31	inscricoes	inscricoe	ADJ	ADJ	_	29	amod	_	TokenRange=205:215
+32	abertas	aberto	ADJ	ADJ	_	29	amod	_	TokenRange=216:223
+33	pais	_	NOUN	NOUN	_	29	amod	_	TokenRange=224:228
+34	reunem	_	VERB	VERB	_	15	parataxis	_	TokenRange=229:235
+35	26	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=236:238
+36	mil	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=239:242
+37	vagas	vaga	NOUN	NOUN	_	34	obj	_	TokenRange=243:248
+38	cargos	cargo	NOUN	NOUN	_	37	appos	_	TokenRange=249:255
+39	todos	_	DET	DET	_	40	det	_	TokenRange=256:261
+40	niveis	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=262:268
+41	escolaridade	escolaridade	NOUN	NOUN	_	40	appos	_	TokenRange=269:281
+42	menos	menos	ADV	ADV	_	43	advmod	_	TokenRange=282:287
+43	23	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=288:290
+44	concursos	concurso	NOUN	NOUN	_	34	nsubj	_	TokenRange=291:300
+45	vagas	vaga	ADJ	ADJ	_	44	amod	_	TokenRange=301:306
+46	paulo	paulo	NOUN	NOUN	_	44	appos	_	TokenRange=307:312
+47	22	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=313:315
+48	minas	mina	NOUN	NOUN	_	44	appos	_	TokenRange=316:321
+49	gerais	geral	ADJ	ADJ	_	48	amod	_	TokenRange=322:328
+50	12	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=329:331
+51	santa	santo	NOUN	NOUN	_	48	appos	_	TokenRange=332:337
+52	catarina	catarina	NOUN	NOUN	_	48	appos	_	TokenRange=338:346
+53	alem	_	ADV	ADV	_	56	advmod	_	TokenRange=347:351
+54	outros	_	DET	DET	_	55	det	_	TokenRange=352:358
+55	estados	estado	NOUN	NOUN	_	56	nmod	_	TokenRange=359:366
+56	veja	ver	VERB	VERB	_	15	parataxis	_	TokenRange=367:371
+57	aqui	aqui	ADV	ADV	_	56	advmod	_	TokenRange=372:376
+58	lista	lista	NOUN	NOUN	_	56	obj	_	TokenRange=377:382
+59	completa	completo	ADJ	ADJ	_	58	amod	_	TokenRange=383:391
+60	concursos	concurso	NOUN	NOUN	_	58	appos	_	TokenRange=392:401
+61	publicos	publico	ADJ	ADJ	_	60	amod	_	TokenRange=402:410
+62	vagas	vaga	NOUN	NOUN	_	58	appos	_	TokenRange=411:416
+63	remuneracao	remuneracao	ADJ	ADJ	_	60	amod	_	TokenRange=417:428
+64	partir	partir	VERB	VERB	_	58	acl:inf	_	TokenRange=429:435
+65	r	r	PUNCT	.	_	64	punct	_	TokenRange=436:437
+66	92122	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=438:443
+67	prefeitura	prefeitura	NOUN	NOUN	_	64	nsubj	_	TokenRange=444:454
+68	marataizes	_	ADJ	ADJ	_	67	amod	_	TokenRange=455:465
+69	es	_	PRON	PRON	_	70	obj	_	TokenRange=466:468
+70	abriu	abrir	VERB	VERB	_	56	parataxis	_	TokenRange=469:474
+71	90	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=475:477
+72	postos	posto	NOUN	NOUN	_	70	obj	_	TokenRange=478:484
+73	nivel	nivel	NOUN	NOUN	_	72	appos	_	TokenRange=485:490
+74	fundamental	fundamental	ADJ	ADJ	_	72	amod	_	SpaceAfter=No|TokenRange=491:502
+

@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joesley pagou propina ministerio agricultura alterar regras exportacao poucos coisa vai encaixando todo poderoso friboi joesley batista disse delacao premiada pagou propina ministerio agricultura epoca comandado antonio andrade pmdb eduardo cunha doleiro lucio funaro intermediarios pagamentos informacao gabriel marcarenhas veja joesley relatou pagou cerca r 7 milhoes durante ano 2013 retribuir gentileza empresario ministerio agricultura regulamentou exportacao subprodutos despojos miudos carne bovina alterou regras favorecer empresa tais regras referentes aplicacao vermifugos produtos fonte veja
+1	joesley	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	pagou	pagar	VERB	VERB	_	0	root	_	TokenRange=8:13
+3	propina	propina	NOUN	NOUN	_	2	obj	_	TokenRange=14:21
+4	ministerio	ministerio	ADJ	ADJ	_	5	amod	_	TokenRange=22:32
+5	agricultura	agricultura	NOUN	NOUN	_	2	nsubj	_	TokenRange=33:44
+6	alterar	alterar	VERB	VERB	_	2	ccomp	_	TokenRange=45:52
+7	regras	regra	NOUN	NOUN	_	6	obj	_	TokenRange=53:59
+8	exportacao	exportacao	ADJ	ADJ	_	12	obj	_	TokenRange=60:70
+9	poucos	_	DET	DET	_	10	det	_	TokenRange=71:77
+10	coisa	coisa	NOUN	NOUN	_	12	nsubj	_	TokenRange=78:83
+11	vai	ir	AUX	AUX	_	12	aux	_	TokenRange=84:87
+12	encaixando	encaixar	VERB	VERB	_	2	ccomp	_	TokenRange=88:98
+13	todo	_	DET	DET	_	15	det	_	TokenRange=99:103
+14	poderoso	poderoso	ADJ	ADJ	_	15	amod	_	TokenRange=104:112
+15	friboi	friboi	NOUN	NOUN	_	12	obj	_	TokenRange=113:119
+16	joesley	_	NOUN	NOUN	_	15	appos	_	TokenRange=120:127
+17	batista	batista	ADJ	ADJ	_	16	amod	_	TokenRange=128:135
+18	disse	dizer	VERB	VERB	_	2	conj	_	TokenRange=136:141
+19	delacao	delacao	NOUN	NOUN	_	18	obj	_	TokenRange=142:149
+20	premiada	premiado	ADJ	ADJ	_	19	amod	_	TokenRange=150:158
+21	pagou	pagar	VERB	VERB	_	18	parataxis	_	TokenRange=159:164
+22	propina	propina	NOUN	NOUN	_	21	obj	_	TokenRange=165:172
+23	ministerio	ministerio	ADJ	ADJ	_	22	amod	_	TokenRange=173:183
+24	agricultura	agricultura	NOUN	NOUN	_	22	flat	_	TokenRange=184:195
+25	epoca	epoca	NOUN	NOUN	_	21	nsubj	_	TokenRange=196:201
+26	comandado	comandado	NOUN	NOUN	_	22	appos	_	TokenRange=202:211
+27	antonio	antonio	NOUN	NOUN	_	26	appos	_	TokenRange=212:219
+28	andrade	andrade	NOUN	NOUN	_	27	flat	_	TokenRange=220:227
+29	pmdb	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=228:232
+30	eduardo	eduardo	NOUN	NOUN	_	29	appos	_	TokenRange=233:240
+31	cunha	cunha	NOUN	NOUN	_	30	flat	_	TokenRange=241:246
+32	doleiro	doleiro	NOUN	NOUN	_	30	flat	_	TokenRange=247:254
+33	lucio	lucio	NOUN	NOUN	_	30	appos	_	TokenRange=255:260
+34	funaro	funaro	ADJ	ADJ	_	33	flat	_	TokenRange=261:267
+35	intermediarios	intermediario	NOUN	NOUN	_	36	amod	_	TokenRange=268:282
+36	pagamentos	pagamento	NOUN	NOUN	_	33	appos	_	TokenRange=283:293
+37	informacao	informacao	ADJ	ADJ	_	36	amod	_	TokenRange=294:304
+38	gabriel	gabriel	NOUN	NOUN	_	36	appos	_	TokenRange=305:312
+39	marcarenhas	marcarenha	NOUN	NOUN	_	38	flat	_	TokenRange=313:324
+40	veja	ver	VERB	VERB	_	42	parataxis	_	TokenRange=325:329
+41	joesley	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=330:337
+42	relatou	relatar	VERB	VERB	_	2	conj	_	TokenRange=338:345
+43	pagou	pagar	VERB	VERB	_	42	xcomp	_	TokenRange=346:351
+44	cerca	cerca	ADV	ADV	_	47	advmod	_	TokenRange=352:357
+45	r	r	NOUN	NOUN	_	43	obj	_	TokenRange=358:359
+46	7	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=360:361
+47	milhoes	_	NUM	NUM	NumType=Card	43	obj	_	TokenRange=362:369
+48	durante	_	ADP	ADP	_	49	case	_	TokenRange=370:377
+49	ano	ano	NOUN	NOUN	_	43	nmod	_	TokenRange=378:381
+50	2013	_	NUM	NUM	NumType=Card	49	nmod	_	TokenRange=382:386
+51	retribuir	retribuir	VERB	VERB	_	42	xcomp	_	TokenRange=387:396
+52	gentileza	gentileza	NOUN	NOUN	_	51	obj	_	TokenRange=397:406
+53	empresario	empresario	NOUN	NOUN	_	52	amod	_	TokenRange=407:417
+54	ministerio	ministerio	NOUN	NOUN	_	52	appos	_	TokenRange=418:428
+55	agricultura	agricultura	NOUN	NOUN	_	54	amod	_	TokenRange=429:440
+56	regulamentou	regulamentar	VERB	VERB	_	43	parataxis	_	TokenRange=441:453
+57	exportacao	exportacao	NOUN	NOUN	_	56	obj	_	TokenRange=454:464
+58	subprodutos	subproduto	ADJ	ADJ	_	59	amod	_	TokenRange=465:476
+59	despojos	despojo	NOUN	NOUN	_	57	appos	_	TokenRange=477:485
+60	miudos	miudo	ADJ	ADJ	_	61	amod	_	TokenRange=486:492
+61	carne	carne	NOUN	NOUN	_	57	appos	_	TokenRange=493:498
+62	bovina	bovino	ADJ	ADJ	_	61	amod	_	TokenRange=499:505
+63	alterou	alterar	VERB	VERB	_	56	parataxis	_	TokenRange=506:513
+64	regras	regra	NOUN	NOUN	_	63	obj	_	TokenRange=514:520
+65	favorecer	favorecer	VERB	VERB	_	64	acl:inf	_	TokenRange=521:530
+66	empresa	empresa	NOUN	NOUN	_	65	obj	_	TokenRange=531:538
+67	tais	_	DET	DET	_	68	det	_	TokenRange=539:543
+68	regras	regra	NOUN	NOUN	_	65	obj	_	TokenRange=544:550
+69	referentes	referente	ADJ	ADJ	_	68	amod	_	TokenRange=551:561
+70	aplicacao	aplicacao	NOUN	NOUN	_	68	appos	_	TokenRange=562:571
+71	vermifugos	vermifugo	ADJ	ADJ	_	72	amod	_	TokenRange=572:582
+72	produtos	produto	NOUN	NOUN	_	74	obj	_	TokenRange=583:591
+73	fonte	fonte	NOUN	NOUN	_	74	nsubj	_	TokenRange=592:597
+74	veja	ver	VERB	VERB	_	63	parataxis	_	SpaceAfter=No|TokenRange=598:602
+

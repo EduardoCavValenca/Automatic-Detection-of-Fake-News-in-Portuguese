@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = menos 7 presidenciaveis declaram favoraveis prisao apos segunda instancia 4 contra enquete estado pdt psol pcdob somam pt pedir mudancas lei outros sete postulantes planalto defendem detencao imediata levantamento estado mostra sete 14 precandidatos presidencia favoraveis prisao julgamento segunda instancia tema pode voltar pauta supremo tribunal federal outros quatro presidenciaveis todos representantes partidos esquerda criticam possibilidade argumento prisao deveria acontecer
+1	menos	menos	ADV	ADV	_	2	advmod	_	TokenRange=0:5
+2	7	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=6:7
+3	presidenciaveis	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=8:23
+4	declaram	declarar	VERB	VERB	_	0	root	_	TokenRange=24:32
+5	favoraveis	favoravel	ADJ	ADJ	_	6	amod	_	TokenRange=33:43
+6	prisao	prisao	NOUN	NOUN	_	4	obj	_	TokenRange=44:50
+7	apos	_	ADP	ADP	_	9	case	_	TokenRange=51:55
+8	segunda	segundo	ADJ	ADJ	_	9	amod	_	TokenRange=56:63
+9	instancia	instancia	NOUN	NOUN	_	4	nmod	_	TokenRange=64:73
+10	4	_	NUM	NUM	NumType=Card	9	appos	_	TokenRange=74:75
+11	contra	_	ADP	ADP	_	12	case	_	TokenRange=76:82
+12	enquete	enquete	NOUN	NOUN	_	10	nmod	_	TokenRange=83:90
+13	estado	estado	NOUN	NOUN	_	17	nsubj	_	TokenRange=91:97
+14	pdt	_	NOUN	NOUN	_	13	appos	_	TokenRange=98:101
+15	psol	_	NOUN	NOUN	_	14	flat	_	TokenRange=102:106
+16	pcdob	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=107:112
+17	somam	somar	VERB	VERB	_	4	conj	_	TokenRange=113:118
+18	pt	_	NOUN	NOUN	_	17	obj	_	TokenRange=119:121
+19	pedir	pedir	VERB	VERB	_	17	xcomp	_	TokenRange=122:127
+20	mudancas	mudanca	NOUN	NOUN	_	19	obj	_	TokenRange=128:136
+21	lei	lei	NOUN	NOUN	_	20	flat	_	TokenRange=137:140
+22	outros	_	DET	DET	_	24	det	_	TokenRange=141:147
+23	sete	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=148:152
+24	postulantes	postulante	NOUN	NOUN	_	26	nsubj	_	TokenRange=153:164
+25	planalto	planalto	ADJ	ADJ	_	24	amod	_	TokenRange=165:173
+26	defendem	defender	VERB	VERB	_	4	parataxis	_	TokenRange=174:182
+27	detencao	detencao	NOUN	NOUN	_	26	obj	_	TokenRange=183:191
+28	imediata	imediato	ADJ	ADJ	_	29	amod	_	TokenRange=192:200
+29	levantamento	levantamento	NOUN	NOUN	_	26	nsubj	_	TokenRange=201:213
+30	estado	estado	NOUN	NOUN	_	29	amod	_	TokenRange=214:220
+31	mostra	mostrar	VERB	VERB	_	26	parataxis	_	TokenRange=221:227
+32	sete	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=228:232
+33	14	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=233:235
+34	precandidatos	precandidato	NOUN	NOUN	_	31	obj	_	TokenRange=236:249
+35	presidencia	presidencia	NOUN	NOUN	_	34	appos	_	TokenRange=250:261
+36	favoraveis	favoravel	ADJ	ADJ	_	35	amod	_	TokenRange=262:272
+37	prisao	prisao	ADJ	ADJ	_	35	amod	_	TokenRange=273:279
+38	julgamento	julgamento	NOUN	NOUN	_	35	appos	_	TokenRange=280:290
+39	segunda	segundo	ADJ	ADJ	_	40	amod	_	TokenRange=291:298
+40	instancia	instancia	NOUN	NOUN	_	35	appos	_	TokenRange=299:308
+41	tema	tema	NOUN	NOUN	_	43	nsubj	_	TokenRange=309:313
+42	pode	_	AUX	AUX	_	43	aux	_	TokenRange=314:318
+43	voltar	voltar	VERB	VERB	_	31	parataxis	_	TokenRange=319:325
+44	pauta	pauta	NOUN	NOUN	_	43	obj	_	TokenRange=326:331
+45	supremo	supremo	ADJ	ADJ	_	46	amod	_	TokenRange=332:339
+46	tribunal	tribunal	NOUN	NOUN	_	43	obj	_	TokenRange=340:348
+47	federal	federal	ADJ	ADJ	_	46	amod	_	TokenRange=349:356
+48	outros	_	DET	DET	_	50	det	_	TokenRange=357:363
+49	quatro	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=364:370
+50	presidenciaveis	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=371:386
+51	todos	_	DET	DET	_	52	det	_	TokenRange=387:392
+52	representantes	representante	NOUN	NOUN	_	55	nsubj	_	TokenRange=393:407
+53	partidos	partido	NOUN	NOUN	_	52	appos	_	TokenRange=408:416
+54	esquerda	esquerdo	ADJ	ADJ	_	53	amod	_	TokenRange=417:425
+55	criticam	criticar	VERB	VERB	_	31	parataxis	_	TokenRange=426:434
+56	possibilidade	possibilidade	NOUN	NOUN	_	55	obj	_	TokenRange=435:448
+57	argumento	argumento	ADJ	ADJ	_	60	xcomp	_	TokenRange=449:458
+58	prisao	prisao	NOUN	NOUN	_	60	nsubj	_	TokenRange=459:465
+59	deveria	dever	AUX	AUX	_	60	aux	_	TokenRange=466:473
+60	acontecer	acontecer	VERB	VERB	_	55	ccomp	_	SpaceAfter=No|TokenRange=474:483
+

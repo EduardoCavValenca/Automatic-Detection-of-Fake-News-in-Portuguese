@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = esposa marqueteiro falar tudo sabe dilma morre politicamente gravacoes sergio machado expresidente transpetro renan calheiros diz odebrecht resolver falar mulher joao santana contar tudo sabe dilma estara cenario politico sempre presidente senado estima propria presidente nocao toda situacao
+1	esposa	esposo	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:6
+2	marqueteiro	marqueteiro	NOUN	NOUN	_	1	flat	_	TokenRange=7:18
+3	falar	falar	VERB	VERB	_	1	acl:relcl	_	TokenRange=19:24
+4	tudo	_	PRON	PRON	_	5	nsubj	_	TokenRange=25:29
+5	sabe	saber	VERB	VERB	_	3	ccomp	_	TokenRange=30:34
+6	dilma	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=35:40
+7	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=41:46
+8	politicamente	politicamente	ADV	ADV	_	7	advmod	_	TokenRange=47:60
+9	gravacoes	_	NOUN	NOUN	_	7	obj	_	TokenRange=61:70
+10	sergio	_	ADJ	NOUN	_	9	appos	_	TokenRange=71:77
+11	machado	machado	ADJ	ADJ	_	12	amod	_	TokenRange=78:85
+12	expresidente	expresidente	NOUN	NOUN	_	9	appos	_	TokenRange=86:98
+13	transpetro	transpetro	ADJ	ADJ	_	12	amod	_	TokenRange=99:109
+14	renan	renan	NOUN	NOUN	_	12	appos	_	TokenRange=110:115
+15	calheiros	calheiro	NOUN	NOUN	_	12	amod	_	TokenRange=116:125
+16	diz	dizer	VERB	VERB	_	12	acl:relcl	_	TokenRange=126:129
+17	odebrecht	_	NOUN	NOUN	_	16	obj	_	TokenRange=130:139
+18	resolver	resolver	VERB	VERB	_	16	ccomp	_	TokenRange=140:148
+19	falar	falar	VERB	VERB	_	18	xcomp	_	TokenRange=149:154
+20	mulher	mulher	NOUN	NOUN	_	19	obj	_	TokenRange=155:161
+21	joao	joao	NOUN	NOUN	_	20	appos	_	TokenRange=162:166
+22	santana	santana	ADJ	ADJ	_	21	flat	_	TokenRange=167:174
+23	contar	contar	VERB	VERB	_	20	acl:relcl	_	TokenRange=175:181
+24	tudo	_	PRON	PRON	_	25	nsubj	_	TokenRange=182:186
+25	sabe	saber	VERB	VERB	_	23	ccomp	_	TokenRange=187:191
+26	dilma	dilma	NOUN	NOUN	_	25	nsubj	_	TokenRange=192:197
+27	estara	estar	AUX	AUX	_	28	cop	_	TokenRange=198:204
+28	cenario	cenario	NOUN	NOUN	_	25	ccomp	_	TokenRange=205:212
+29	politico	politico	ADJ	ADJ	_	28	amod	_	TokenRange=213:221
+30	sempre	sempre	ADV	ADV	_	31	advmod	_	TokenRange=222:228
+31	presidente	presidente	NOUN	NOUN	_	28	nsubj	_	TokenRange=229:239
+32	senado	senado	ADJ	ADJ	_	31	amod	_	TokenRange=240:246
+33	estima	estimar	NOUN	NOUN	_	28	conj	_	TokenRange=247:253
+34	propria	proprio	ADJ	ADJ	_	38	amod	_	TokenRange=254:261
+35	presidente	presidente	NOUN	NOUN	_	33	obj	_	TokenRange=262:272
+36	nocao	nocao	ADJ	ADJ	_	38	amod	_	TokenRange=273:278
+37	toda	_	DET	DET	_	38	det	_	TokenRange=279:283
+38	situacao	situacao	NOUN	NOUN	_	33	obj	_	SpaceAfter=No|TokenRange=284:292
+

@@ -1,0 +1,16 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = esplanada ministerios fechada forum mundial agua transito area
+1	esplanada	esplanado	ADJ	ADJ	_	2	amod	_	TokenRange=0:9
+2	ministerios	ministerio	NOUN	NOUN	_	0	root	_	TokenRange=10:21
+3	fechada	fechado	ADJ	ADJ	_	2	amod	_	TokenRange=22:29
+4	forum	forum	NOUN	NOUN	_	2	appos	_	TokenRange=30:35
+5	mundial	mundial	ADJ	ADJ	_	4	amod	_	TokenRange=36:43
+6	agua	_	NOUN	NOUN	_	4	appos	_	TokenRange=44:48
+7	transito	transito	ADJ	ADJ	_	6	amod	_	TokenRange=49:57
+8	area	_	NOUN	NOUN	_	6	appos	_	SpaceAfter=No|TokenRange=58:62
+

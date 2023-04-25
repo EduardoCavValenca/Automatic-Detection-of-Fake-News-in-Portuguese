@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tercafeira 19 setembro 2017 boa noite aqui principais noticias terminar dia beminformado terra volta tremer exatos 32 anos tremor devastador matar 10 mil mexico terremoto magnitude 71 derruba predios destroi ruas mata menos 134 pessoas caribe furacao maria devasta ilhas caribe segue porto rico nova york presidente eua donald trump eleva tom ameacas promete destruir totalmente coreia norte escolha brasil expresidente lula virou reu 7 vez desta vez operacao zelotes ministro luiz edson fachin rejeitou pedido temer devolver ultima denuncia
+1	tercafeira	tercafeira	NOUN	NOUN	_	0	root	_	TokenRange=0:10
+2	19	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=11:13
+3	setembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:22
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=23:27
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=28:31
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=32:37
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=38:42
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=43:53
+9	noticias	noticia	NOUN	NOUN	_	28	nsubj	_	TokenRange=54:62
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=63:71
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=72:75
+12	beminformado	beminformado	ADJ	ADJ	_	13	amod	_	TokenRange=76:88
+13	terra	terra	NOUN	NOUN	_	10	nsubj	_	TokenRange=89:94
+14	volta	volta	ADJ	ADJ	_	13	amod	_	TokenRange=95:100
+15	tremer	tremer	VERB	VERB	_	1	parataxis	_	TokenRange=101:107
+16	exatos	exato	ADJ	ADJ	_	18	amod	_	TokenRange=108:114
+17	32	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=115:117
+18	anos	ano	NOUN	NOUN	_	15	obj	_	TokenRange=118:122
+19	tremor	tremor	NOUN	NOUN	_	15	nsubj	_	TokenRange=123:129
+20	devastador	devastador	ADJ	ADJ	_	19	amod	_	TokenRange=130:140
+21	matar	matar	VERB	VERB	_	19	acl:inf	_	TokenRange=141:146
+22	10	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=147:149
+23	mil	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=150:153
+24	mexico	mexico	NOUN	NOUN	_	21	obj	_	TokenRange=154:160
+25	terremoto	terremoto	NOUN	NOUN	_	24	appos	_	TokenRange=161:170
+26	magnitude	magnitude	NOUN	NOUN	_	24	appos	_	TokenRange=171:180
+27	71	_	NUM	NUM	NumType=Card	26	appos	_	TokenRange=181:183
+28	derruba	derrubar	VERB	VERB	_	25	acl:relcl	_	TokenRange=184:191
+29	predios	predio	NOUN	NOUN	_	28	obj	_	TokenRange=192:199
+30	destroi	destroir	VERB	VERB	_	28	parataxis	_	TokenRange=200:207
+31	ruas	rua	NOUN	NOUN	_	30	obj	_	TokenRange=208:212
+32	mata	matar	VERB	VERB	_	30	parataxis	_	TokenRange=213:217
+33	menos	menos	ADV	ADV	_	34	advmod	_	TokenRange=218:223
+34	134	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=224:227
+35	pessoas	pessoa	NOUN	NOUN	_	32	nsubj	_	TokenRange=228:235
+36	caribe	caribe	NOUN	NOUN	_	35	appos	_	TokenRange=236:242
+37	furacao	furacao	NOUN	NOUN	_	35	appos	_	TokenRange=243:250
+38	maria	maria	NOUN	NOUN	_	37	flat	_	TokenRange=251:256
+39	devasta	_	VERB	VERB	_	42	parataxis	_	TokenRange=257:264
+40	ilhas	ilha	NOUN	NOUN	_	42	obj	_	TokenRange=265:270
+41	caribe	caribe	ADJ	ADJ	_	40	amod	_	TokenRange=271:277
+42	segue	_	VERB	VERB	_	10	parataxis	_	TokenRange=278:283
+43	porto	_	NOUN	NOUN	_	42	nmod	_	TokenRange=284:289
+44	rico	rico	ADJ	ADJ	_	43	amod	_	TokenRange=290:294
+45	nova	novo	ADJ	ADJ	_	46	amod	_	TokenRange=295:299
+46	york	_	PROPN	PNOUN	_	42	nsubj	_	TokenRange=300:304
+47	presidente	presidente	NOUN	NOUN	_	51	nsubj	_	TokenRange=305:315
+48	eua	_	DET	DET	_	47	amod	_	TokenRange=316:319
+49	donald	_	NOUN	NOUN	_	47	appos	_	TokenRange=320:326
+50	trump	_	NOUN	NOUN	_	49	flat	_	TokenRange=327:332
+51	eleva	elevar	VERB	VERB	_	42	parataxis	_	TokenRange=333:338
+52	tom	tom	NOUN	NOUN	_	51	obj	_	TokenRange=339:342
+53	ameacas	ameaca	NOUN	NOUN	_	51	obj	_	TokenRange=343:350
+54	promete	prometer	VERB	VERB	_	51	parataxis	_	TokenRange=351:358
+55	destruir	destruir	VERB	VERB	_	54	xcomp	_	TokenRange=359:367
+56	totalmente	totalmente	ADV	ADV	_	55	advmod	_	TokenRange=368:378
+57	coreia	coreia	NOUN	NOUN	_	55	obj	_	TokenRange=379:385
+58	norte	norte	ADJ	ADJ	_	57	amod	_	TokenRange=386:391
+59	escolha	escolha	NOUN	NOUN	_	57	appos	_	TokenRange=392:399
+60	brasil	brasil	ADJ	ADJ	_	57	amod	_	TokenRange=400:406
+61	expresidente	expresidente	NOUN	NOUN	_	63	nsubj	_	TokenRange=407:419
+62	lula	_	NOUN	NOUN	_	61	flat	_	TokenRange=420:424
+63	virou	virar	VERB	VERB	_	51	conj	_	TokenRange=425:430
+64	reu	reu	ADJ	ADJ	_	63	xcomp	_	TokenRange=431:434
+65	7	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=435:436
+66	vez	vez	NOUN	NOUN	_	63	nmod	_	TokenRange=437:440
+67	desta	_	ADP	ADP	_	68	case	_	TokenRange=441:446
+68	vez	vez	NOUN	NOUN	_	63	nmod	_	TokenRange=447:450
+69	operacao	operacao	NOUN	NOUN	_	75	nsubj	_	TokenRange=451:459
+70	zelotes	zelote	NOUN	NOUN	_	69	flat	_	TokenRange=460:467
+71	ministro	ministro	NOUN	NOUN	_	75	nsubj	_	TokenRange=468:476
+72	luiz	luiz	NOUN	NOUN	_	71	appos	_	TokenRange=477:481
+73	edson	_	NOUN	NOUN	_	72	flat	_	TokenRange=482:487
+74	fachin	_	NOUN	NOUN	_	72	flat	_	TokenRange=488:494
+75	rejeitou	rejeitar	VERB	VERB	_	63	parataxis	_	TokenRange=495:503
+76	pedido	pedido	NOUN	NOUN	_	75	obj	_	TokenRange=504:510
+77	temer	temer	VERB	VERB	_	76	acl:inf	_	TokenRange=511:516
+78	devolver	devolver	VERB	VERB	_	77	xcomp	_	TokenRange=517:525
+79	ultima	ultimo	ADJ	ADJ	_	80	amod	_	TokenRange=526:532
+80	denuncia	denuncia	NOUN	NOUN	_	78	obj	_	SpaceAfter=No|TokenRange=533:541
+

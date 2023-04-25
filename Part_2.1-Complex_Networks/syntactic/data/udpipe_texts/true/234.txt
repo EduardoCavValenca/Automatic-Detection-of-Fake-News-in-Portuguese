@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer libera emprestimo r 15 bilhoes caixa presidente michel temer autorizou nesta quintafeira 4 caixa utilizar r 15 bilhoes fgts fundo garantia tempo servico investimentos creditos imobiliarios emprestimo sancionado publicado edicao desta sextafeira 5 diario oficial uniao oferece especie socorro banco publico ano eleitoral previsao aporte menor proposta idealizada liderancas governo atende pleito
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	libera	liberar	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	emprestimo	emprestimo	NOUN	NOUN	_	2	obj	_	TokenRange=13:23
+4	r	r	NOUN	NOUN	_	3	flat	_	TokenRange=24:25
+5	15	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=26:28
+6	bilhoes	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=29:36
+7	caixa	caixa	NOUN	NOUN	_	2	obj	_	TokenRange=37:42
+8	presidente	presidente	NOUN	NOUN	_	11	nsubj	_	TokenRange=43:53
+9	michel	michel	ADJ	ADJ	_	10	amod	_	TokenRange=54:60
+10	temer	temer	NOUN	NOUN	_	8	appos	_	TokenRange=61:66
+11	autorizou	autorizar	VERB	VERB	_	2	parataxis	_	TokenRange=67:76
+12	nesta	_	ADP	ADP	_	13	case	_	TokenRange=77:82
+13	quintafeira	quintafeira	NOUN	NOUN	_	11	nmod	_	TokenRange=83:94
+14	4	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=95:96
+15	caixa	caixa	NOUN	NOUN	_	16	nsubj	_	TokenRange=97:102
+16	utilizar	utilizar	VERB	VERB	_	11	ccomp	_	TokenRange=103:111
+17	r	r	NOUN	NOUN	_	16	obj	_	TokenRange=112:113
+18	15	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=114:116
+19	bilhoes	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=117:124
+20	fgts	_	NOUN	NOUN	_	16	obj	_	TokenRange=125:129
+21	fundo	fundo	NOUN	NOUN	_	20	appos	_	TokenRange=130:135
+22	garantia	garantia	NOUN	NOUN	_	21	flat	_	TokenRange=136:144
+23	tempo	tempo	NOUN	NOUN	_	21	flat	_	TokenRange=145:150
+24	servico	servico	ADJ	ADJ	_	26	amod	_	TokenRange=151:158
+25	investimentos	investimento	NOUN	NOUN	_	26	amod	_	TokenRange=159:172
+26	creditos	credito	NOUN	NOUN	_	16	obj	_	TokenRange=173:181
+27	imobiliarios	imobiliario	ADJ	ADJ	_	26	amod	_	TokenRange=182:194
+28	emprestimo	emprestimo	NOUN	NOUN	_	26	amod	_	TokenRange=195:205
+29	sancionado	sancionado	ADJ	ADJ	_	26	amod	_	TokenRange=206:216
+30	publicado	publicar	VERB	VERB	_	26	acl	_	TokenRange=217:226
+31	edicao	edicao	NOUN	NOUN	_	30	obj	_	TokenRange=227:233
+32	desta	_	ADP	ADP	_	33	case	_	TokenRange=234:239
+33	sextafeira	sextafeira	NOUN	NOUN	_	31	nmod	_	TokenRange=240:250
+34	5	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=251:252
+35	diario	diario	NOUN	NOUN	_	38	nsubj	_	TokenRange=253:259
+36	oficial	oficial	ADJ	ADJ	_	35	amod	_	TokenRange=260:267
+37	uniao	uniao	NOUN	NOUN	_	38	nsubj	_	TokenRange=268:273
+38	oferece	oferecer	VERB	VERB	_	2	parataxis	_	TokenRange=274:281
+39	especie	especie	NOUN	NOUN	_	38	obj	_	TokenRange=282:289
+40	socorro	socorro	NOUN	NOUN	_	39	flat	_	TokenRange=290:297
+41	banco	banco	NOUN	NOUN	_	38	obj	_	TokenRange=298:303
+42	publico	publico	ADJ	ADJ	_	43	amod	_	TokenRange=304:311
+43	ano	ano	NOUN	NOUN	_	39	appos	_	TokenRange=312:315
+44	eleitoral	eleitoral	ADJ	ADJ	_	43	amod	_	TokenRange=316:325
+45	previsao	previsao	NOUN	NOUN	_	43	amod	_	TokenRange=326:334
+46	aporte	aportar	VERB	VERB	_	38	conj	_	TokenRange=335:341
+47	menor	menor	ADJ	ADJ	_	48	amod	_	TokenRange=342:347
+48	proposta	_	NOUN	NOUN	_	52	obj	_	TokenRange=348:356
+49	idealizada	idealizado	ADJ	ADJ	_	48	amod	_	TokenRange=357:367
+50	liderancas	lideranca	NOUN	NOUN	_	52	nsubj	_	TokenRange=368:378
+51	governo	governo	NOUN	NOUN	_	50	flat	_	TokenRange=379:386
+52	atende	_	VERB	VERB	_	38	parataxis	_	TokenRange=387:393
+53	pleito	pleito	NOUN	NOUN	_	52	obj	_	SpaceAfter=No|TokenRange=394:400
+

@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula debocha chama procuradora querida leva fumo historico primeiro lugar gostariamos destacar educacao comportamento procuradora refere lula senhor expresidente lula educacao berco sarcasmo peculiar faz deboche refere terceiros confira
+1	lula	lula	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	debocha	_	NOUN	NOUN	_	1	appos	_	TokenRange=5:12
+3	chama	chamar	VERB	VERB	_	0	root	_	TokenRange=13:18
+4	procuradora	procurador	NOUN	NOUN	_	3	obj	_	TokenRange=19:30
+5	querida	querido	ADJ	ADJ	_	4	amod	_	TokenRange=31:38
+6	leva	levar	VERB	VERB	_	3	parataxis	_	TokenRange=39:43
+7	fumo	fumo	NOUN	NOUN	_	6	obj	_	TokenRange=44:48
+8	historico	historico	ADJ	ADJ	_	7	amod	_	TokenRange=49:58
+9	primeiro	primeiro	ADJ	ADJ	_	10	amod	_	TokenRange=59:67
+10	lugar	lugar	NOUN	NOUN	_	6	nsubj	_	TokenRange=68:73
+11	gostariamos	gostariar	VERB	VERB	_	3	parataxis	_	TokenRange=74:85
+12	destacar	destacar	VERB	VERB	_	11	xcomp	_	TokenRange=86:94
+13	educacao	educacao	NOUN	NOUN	_	12	obj	_	TokenRange=95:103
+14	comportamento	comportamento	NOUN	NOUN	_	13	appos	_	TokenRange=104:117
+15	procuradora	procurador	NOUN	NOUN	_	13	amod	_	TokenRange=118:129
+16	refere	referir	NOUN	NOUN	_	17	appos	_	TokenRange=130:136
+17	lula	lula	NOUN	NOUN	_	13	appos	_	TokenRange=137:141
+18	senhor	senhor	NOUN	NOUN	_	17	appos	_	TokenRange=142:148
+19	expresidente	expresidente	NOUN	NOUN	_	18	amod	_	TokenRange=149:161
+20	lula	_	NOUN	NOUN	_	18	amod	_	TokenRange=162:166
+21	educacao	educacao	NOUN	NOUN	_	29	nsubj	_	TokenRange=167:175
+22	berco	berco	ADJ	ADJ	_	21	amod	_	TokenRange=176:181
+23	sarcasmo	sarcasmo	NOUN	NOUN	_	21	appos	_	TokenRange=182:190
+24	peculiar	peculiar	ADJ	ADJ	_	23	amod	_	TokenRange=191:199
+25	faz	fazer	VERB	VERB	_	21	acl:relcl	_	TokenRange=200:203
+26	deboche	deboche	NOUN	NOUN	_	25	obj	_	TokenRange=204:211
+27	refere	refere	ADJ	ADJ	_	29	obj	_	TokenRange=212:218
+28	terceiros	terceiro	NOUN	NOUN	_	29	nsubj	_	TokenRange=219:228
+29	confira	conferir	VERB	VERB	_	3	conj	_	SpaceAfter=No|TokenRange=229:236
+

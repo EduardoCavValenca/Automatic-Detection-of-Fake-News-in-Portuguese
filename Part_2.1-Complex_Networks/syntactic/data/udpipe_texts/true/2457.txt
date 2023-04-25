@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma pedidos impeachment fernando henrique menos lula presidente registra 19 pedidos protocolados camara somente neste ano menos 3 meses mandato 5 solicitacoes tirala cargo fhc 17 pedidos lula 34 brasilia vesperas manifestacoes prometem levar milhares ruas pais protestar contra governo pedir impeachment presidente dilma rousseff pt conta 19 pedidos formais impeachment protocolados junto secretariageral mesa diretora camara deputados considerando primeiro governo segundo mandato andamento apesar varios grupos marcaram protestos domingo 15 atraves redes sociais processo impeachment pode instaurado legislacao brasileira atraves processo abertura camara deputados dilma chegou
+1	dilma	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:5
+2	pedidos	pedido	NOUN	NOUN	_	9	nsubj	_	TokenRange=6:13
+3	impeachment	impeachment	NOUN	NOUN	_	2	flat	_	TokenRange=14:25
+4	fernando	fernando	NOUN	NOUN	_	2	appos	_	TokenRange=26:34
+5	henrique	_	NOUN	NOUN	_	4	flat	_	TokenRange=35:43
+6	menos	_	DET	DET	_	7	det	_	TokenRange=44:49
+7	lula	_	NOUN	NOUN	_	4	conj	_	TokenRange=50:54
+8	presidente	presidente	NOUN	NOUN	_	7	flat	_	TokenRange=55:65
+9	registra	registrar	VERB	VERB	_	0	root	_	TokenRange=66:74
+10	19	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=75:77
+11	pedidos	pedido	NOUN	NOUN	_	9	obj	_	TokenRange=78:85
+12	protocolados	protocolado	ADJ	ADJ	_	11	amod	_	TokenRange=86:98
+13	camara	camara	NOUN	NOUN	_	9	obj	_	TokenRange=99:105
+14	somente	somente	ADV	ADV	_	16	advmod	_	TokenRange=106:113
+15	neste	_	ADP	ADP	_	16	case	_	TokenRange=114:119
+16	ano	ano	NOUN	NOUN	_	9	nmod	_	TokenRange=120:123
+17	menos	menos	ADV	ADV	_	18	advmod	_	TokenRange=124:129
+18	3	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=130:131
+19	meses	mês	NOUN	NOUN	_	13	nmod	_	TokenRange=132:137
+20	mandato	mandato	NOUN	NOUN	_	19	appos	_	TokenRange=138:145
+21	5	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=146:147
+22	solicitacoes	_	NOUN	NOUN	_	19	appos	_	TokenRange=148:160
+23	tirala	tiralar	VERB	VERB	_	19	acl:relcl	_	TokenRange=161:167
+24	cargo	cargo	NOUN	NOUN	_	23	obj	_	TokenRange=168:173
+25	fhc	_	NOUN	NOUN	_	23	appos	_	TokenRange=174:177
+26	17	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=178:180
+27	pedidos	pedido	NOUN	NOUN	_	23	appos	_	TokenRange=181:188
+28	lula	lula	NOUN	NOUN	_	27	appos	_	TokenRange=189:193
+29	34	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=194:196
+30	brasilia	brasilia	NOUN	NOUN	_	33	nsubj	_	TokenRange=197:205
+31	vesperas	vesper	ADJ	ADJ	_	32	amod	_	TokenRange=206:214
+32	manifestacoes	manifestacoe	NOUN	NOUN	_	33	nsubj	_	TokenRange=215:228
+33	prometem	prometer	VERB	VERB	_	9	parataxis	_	TokenRange=229:237
+34	levar	levar	VERB	VERB	_	33	xcomp	_	TokenRange=238:243
+35	milhares	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=244:252
+36	ruas	rua	NOUN	NOUN	_	34	obj	_	TokenRange=253:257
+37	pais	_	NOUN	NOUN	_	36	amod	_	TokenRange=258:262
+38	protestar	protestar	VERB	VERB	_	36	acl:inf	_	TokenRange=263:272
+39	contra	_	ADP	ADP	_	40	case	_	TokenRange=273:279
+40	governo	governo	NOUN	NOUN	_	38	nmod	_	TokenRange=280:287
+41	pedir	pedir	VERB	VERB	_	38	xcomp	_	TokenRange=288:293
+42	impeachment	impeachment	NOUN	NOUN	_	41	obj	_	TokenRange=294:305
+43	presidente	presidente	NOUN	NOUN	_	41	obj	_	TokenRange=306:316
+44	dilma	dilma	ADJ	ADJ	_	43	amod	_	TokenRange=317:322
+45	rousseff	rousseff	NOUN	NOUN	_	43	appos	_	TokenRange=323:331
+46	pt	_	NOUN	NOUN	_	43	appos	_	TokenRange=332:334
+47	conta	contar	VERB	VERB	_	9	parataxis	_	TokenRange=335:340
+48	19	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=341:343
+49	pedidos	pedido	NOUN	NOUN	_	47	obj	_	TokenRange=344:351
+50	formais	formal	ADJ	ADJ	_	49	amod	_	TokenRange=352:359
+51	impeachment	impeachment	NOUN	NOUN	_	49	appos	_	TokenRange=360:371
+52	protocolados	protocolar	VERB	VERB	_	49	acl	_	TokenRange=372:384
+53	junto	junto	ADV	ADV	_	52	advmod	_	TokenRange=385:390
+54	secretariageral	secretariageral	ADJ	ADJ	_	55	amod	_	TokenRange=391:406
+55	mesa	mesa	NOUN	NOUN	_	52	nmod	_	TokenRange=407:411
+56	diretora	diretor	ADJ	ADJ	_	55	amod	_	TokenRange=412:420
+57	camara	camara	NOUN	NOUN	_	55	appos	_	TokenRange=421:427
+58	deputados	deputado	NOUN	NOUN	_	55	appos	_	TokenRange=428:437
+59	considerando	considerar	VERB	VERB	_	55	acl	_	TokenRange=438:450
+60	primeiro	primeiro	ADJ	ADJ	_	61	amod	_	TokenRange=451:459
+61	governo	governo	NOUN	NOUN	_	59	obj	_	TokenRange=460:467
+62	segundo	segundo	ADJ	ADJ	_	63	amod	_	TokenRange=468:475
+63	mandato	mandato	NOUN	NOUN	_	59	obj	_	TokenRange=476:483
+64	andamento	andamento	NOUN	NOUN	_	68	obj	_	TokenRange=484:493
+65	apesar	apesar	ADV	ADV	_	68	advmod	_	TokenRange=494:500
+66	varios	_	DET	DET	_	67	det	_	TokenRange=501:507
+67	grupos	grupo	NOUN	NOUN	_	68	nsubj	_	TokenRange=508:514
+68	marcaram	marcar	VERB	VERB	_	59	parataxis	_	TokenRange=515:523
+69	protestos	protesto	NOUN	NOUN	_	68	obj	_	TokenRange=524:533
+70	domingo	_	PROPN	PNOUN	_	68	nmod	_	TokenRange=534:541
+71	15	_	NUM	NUM	NumType=Card	70	appos	_	TokenRange=542:544
+72	atraves	_	ADV	ADP	_	73	case	_	TokenRange=545:552
+73	redes	rede	NOUN	NOUN	_	68	nmod	_	TokenRange=553:558
+74	sociais	social	ADJ	ADJ	_	73	amod	_	TokenRange=559:566
+75	processo	processo	NOUN	NOUN	_	68	nsubj	_	TokenRange=567:575
+76	impeachment	impeachment	NOUN	NOUN	_	75	flat	_	TokenRange=576:587
+77	pode	_	AUX	AUX	_	78	aux	_	TokenRange=588:592
+78	instaurado	instaurar	VERB	VERB	_	68	parataxis	_	TokenRange=593:603
+79	legislacao	legislacao	NOUN	NOUN	_	78	obj	_	TokenRange=604:614
+80	brasileira	brasileiro	ADJ	ADJ	_	79	amod	_	TokenRange=615:625
+81	atraves	_	ADP	ADP	_	82	case	_	TokenRange=626:633
+82	processo	processo	NOUN	NOUN	_	87	nmod	_	TokenRange=634:642
+83	abertura	abertura	NOUN	NOUN	_	87	obj	_	TokenRange=643:651
+84	camara	camara	ADJ	ADJ	_	85	amod	_	TokenRange=652:658
+85	deputados	deputado	NOUN	NOUN	_	83	amod	_	TokenRange=659:668
+86	dilma	dilma	NOUN	NOUN	_	87	nsubj	_	TokenRange=669:674
+87	chegou	chegar	VERB	VERB	_	9	conj	_	SpaceAfter=No|TokenRange=675:681
+

@@ -1,0 +1,29 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pec teto vivo comeca quebrapau senado comecou senado votacao pec teto segundo turno renan pressa quer votar toque caixa assista vivo
+1	pec	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:3
+2	teto	teto	NOUN	NOUN	_	1	flat	_	TokenRange=4:8
+3	vivo	vivo	NOUN	NOUN	_	1	flat	_	TokenRange=9:13
+4	comeca	_	VERB	VERB	_	0	root	_	TokenRange=14:20
+5	quebrapau	quebrapau	NOUN	NOUN	_	4	obj	_	TokenRange=21:30
+6	senado	senado	NOUN	NOUN	_	7	nsubj	_	TokenRange=31:37
+7	comecou	comecar	VERB	VERB	_	4	parataxis	_	TokenRange=38:45
+8	senado	senado	NOUN	NOUN	_	7	obj	_	TokenRange=46:52
+9	votacao	votacao	NOUN	NOUN	_	8	appos	_	TokenRange=53:60
+10	pec	_	ADP	ADP	_	11	case	_	TokenRange=61:64
+11	teto	teto	NOUN	NOUN	_	9	nmod	_	TokenRange=65:69
+12	segundo	segundo	ADJ	ADJ	_	13	amod	_	TokenRange=70:77
+13	turno	turno	NOUN	NOUN	_	16	nsubj	_	TokenRange=78:83
+14	renan	_	ADJ	ADJ	_	15	amod	_	TokenRange=84:89
+15	pressa	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=90:96
+16	quer	querer	VERB	VERB	_	4	conj	_	TokenRange=97:101
+17	votar	votar	VERB	VERB	_	16	xcomp	_	TokenRange=102:107
+18	toque	toque	CCONJ	CONJ	_	20	advmod	_	TokenRange=108:113
+19	caixa	caixa	NOUN	NOUN	_	20	nsubj	_	TokenRange=114:119
+20	assista	assistir	VERB	VERB	_	17	ccomp	_	TokenRange=120:127
+21	vivo	vivo	ADJ	ADJ	_	20	xcomp	_	SpaceAfter=No|TokenRange=128:132
+

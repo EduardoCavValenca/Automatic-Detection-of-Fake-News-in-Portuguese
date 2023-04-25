@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = comida papel higienico maduro faz demonstracao poderio militar nicolas maduro doente mental amigo pessoal lula mostrou poderio militar mundo nesta semana intencao confrontar presidente norteamericano donald trump venezuela quis mostrar forca tropas maduro pensa pode assustar eua kkk jornais venezuelanos controlados governo maluco publicaram cerca 76 mil militares forca armada bolivariana 400 mil civis participaram exercicio conjunto convocacao maduro acordo jornais testar capacidades defesa nacao cara piada mal gosto pais comida papel higienico pode digno respeito perante mundo pobre povo venezuela
+1	comida	comida	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:6
+2	papel	papel	NOUN	NOUN	_	1	appos	_	TokenRange=7:12
+3	higienico	higienico	ADJ	ADJ	_	2	amod	_	TokenRange=13:22
+4	maduro	maduro	NOUN	NOUN	_	1	amod	_	TokenRange=23:29
+5	faz	fazer	VERB	VERB	_	1	acl:relcl	_	TokenRange=30:33
+6	demonstracao	demonstracao	NOUN	NOUN	_	5	obj	_	TokenRange=34:46
+7	poderio	poderio	NOUN	NOUN	_	6	amod	_	TokenRange=47:54
+8	militar	militar	ADJ	ADJ	_	7	amod	_	TokenRange=55:62
+9	nicolas	_	NOUN	NOUN	_	1	appos	_	TokenRange=63:70
+10	maduro	maduro	ADJ	ADJ	_	9	amod	_	TokenRange=71:77
+11	doente	doente	ADJ	ADJ	_	13	amod	_	TokenRange=78:84
+12	mental	mental	ADJ	ADJ	_	13	amod	_	TokenRange=85:91
+13	amigo	amigo	NOUN	NOUN	_	5	nsubj	_	TokenRange=92:97
+14	pessoal	pessoal	ADJ	ADJ	_	13	amod	_	TokenRange=98:105
+15	lula	_	NOUN	NOUN	_	13	amod	_	TokenRange=106:110
+16	mostrou	mostrar	VERB	VERB	_	0	root	_	TokenRange=111:118
+17	poderio	poderio	NOUN	NOUN	_	16	obj	_	TokenRange=119:126
+18	militar	militar	ADJ	ADJ	_	17	amod	_	TokenRange=127:134
+19	mundo	mundo	NOUN	NOUN	_	16	nsubj	_	TokenRange=135:140
+20	nesta	_	ADP	ADP	_	21	case	_	TokenRange=141:146
+21	semana	semana	NOUN	NOUN	_	16	nmod	_	TokenRange=147:153
+22	intencao	intencao	ADJ	ADJ	_	21	amod	_	TokenRange=154:162
+23	confrontar	confrontar	VERB	VERB	_	17	acl:inf	_	TokenRange=163:173
+24	presidente	presidente	NOUN	NOUN	_	23	obj	_	TokenRange=174:184
+25	norteamericano	norteamericano	ADJ	ADJ	_	24	amod	_	TokenRange=185:199
+26	donald	_	NOUN	NOUN	_	27	appos	_	TokenRange=200:206
+27	trump	_	NOUN	NOUN	_	24	appos	_	TokenRange=207:212
+28	venezuela	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=213:222
+29	quis	querer	VERB	VERB	_	16	parataxis	_	TokenRange=223:227
+30	mostrar	mostrar	VERB	VERB	_	29	xcomp	_	TokenRange=228:235
+31	forca	forca	NOUN	NOUN	_	30	obj	_	TokenRange=236:241
+32	tropas	tropa	NOUN	NOUN	_	31	appos	_	TokenRange=242:248
+33	maduro	maduro	ADJ	NOUN	_	32	amod	_	TokenRange=249:255
+34	pensa	pensar	VERB	VERB	_	31	acl:relcl	_	TokenRange=256:261
+35	pode	_	AUX	AUX	_	36	aux	_	TokenRange=262:266
+36	assustar	assustar	VERB	VERB	_	34	ccomp	_	TokenRange=267:275
+37	eua	_	DET	DET	_	36	obj	_	TokenRange=276:279
+38	kkk	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=280:283
+39	jornais	jornal	NOUN	NOUN	_	48	appos	_	TokenRange=284:291
+40	venezuelanos	venezuelano	ADJ	ADJ	_	39	amod	_	TokenRange=292:304
+41	controlados	controlar	ADJ	ADJ	_	42	amod	_	TokenRange=305:316
+42	governo	governo	NOUN	NOUN	_	39	appos	_	TokenRange=317:324
+43	maluco	maluco	ADJ	ADJ	_	42	amod	_	TokenRange=325:331
+44	publicaram	publicar	VERB	VERB	_	36	parataxis	_	TokenRange=332:342
+45	cerca	cerca	ADV	ADV	_	47	advmod	_	TokenRange=343:348
+46	76	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=349:351
+47	mil	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=352:355
+48	militares	militar	NOUN	NOUN	_	44	obj	_	TokenRange=356:365
+49	forca	forca	NOUN	NOUN	_	48	appos	_	TokenRange=366:371
+50	armada	armado	ADJ	ADJ	_	49	amod	_	TokenRange=372:378
+51	bolivariana	bolivariano	ADJ	ADJ	_	49	amod	_	TokenRange=379:390
+52	400	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=391:394
+53	mil	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=395:398
+54	civis	civil	NOUN	NOUN	_	55	nsubj	_	TokenRange=399:404
+55	participaram	participar	VERB	VERB	_	16	parataxis	_	TokenRange=405:417
+56	exercicio	exercicio	NOUN	NOUN	_	55	obj	_	TokenRange=418:427
+57	conjunto	conjunto	ADJ	ADJ	_	56	amod	_	TokenRange=428:436
+58	convocacao	convocacao	NOUN	NOUN	_	56	appos	_	TokenRange=437:447
+59	maduro	maduro	ADJ	ADJ	_	58	amod	_	TokenRange=448:454
+60	acordo	acordo	NOUN	NOUN	_	56	appos	_	TokenRange=455:461
+61	jornais	jornal	ADJ	ADJ	_	60	amod	_	TokenRange=462:469
+62	testar	testar	VERB	VERB	_	60	acl:relcl	_	TokenRange=470:476
+63	capacidades	capacidade	NOUN	NOUN	_	62	obj	_	TokenRange=477:488
+64	defesa	_	NOUN	NOUN	_	63	amod	_	TokenRange=489:495
+65	nacao	nacao	NOUN	NOUN	_	63	appos	_	TokenRange=496:501
+66	cara	cara	NOUN	NOUN	_	63	amod	_	TokenRange=502:506
+67	piada	piada	NOUN	NOUN	_	63	appos	_	TokenRange=507:512
+68	mal	mal	ADV	ADV	_	69	advmod	_	TokenRange=513:516
+69	gosto	gosto	ADJ	ADJ	_	71	amod	_	TokenRange=517:522
+70	pais	_	NOUN	NOUN	_	74	nsubj	_	TokenRange=523:527
+71	comida	comida	NOUN	NOUN	_	74	nsubj	_	TokenRange=528:534
+72	papel	papel	NOUN	NOUN	_	71	appos	_	TokenRange=535:540
+73	higienico	higienico	ADJ	ADJ	_	72	amod	_	TokenRange=541:550
+74	pode	_	VERB	VERB	_	16	parataxis	_	TokenRange=551:555
+75	digno	digno	ADJ	ADJ	_	76	amod	_	TokenRange=556:561
+76	respeito	respeito	NOUN	NOUN	_	74	obj	_	TokenRange=562:570
+77	perante	_	ADP	ADP	_	78	case	_	TokenRange=571:578
+78	mundo	mundo	NOUN	NOUN	_	76	nmod	_	TokenRange=579:584
+79	pobre	pobre	ADJ	ADJ	_	80	amod	_	TokenRange=585:590
+80	povo	povo	NOUN	NOUN	_	78	appos	_	TokenRange=591:595
+81	venezuela	venezuelo	ADJ	ADJ	_	80	amod	_	SpaceAfter=No|TokenRange=596:605
+

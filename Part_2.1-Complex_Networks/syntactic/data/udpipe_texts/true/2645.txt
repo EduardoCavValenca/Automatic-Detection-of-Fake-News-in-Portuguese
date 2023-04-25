@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acostumado ler sobre livros nesta coluna hoje excepcionalmente abro espaco historia beth mulheres vitimas violencia diariamente brasil milhares mulheres buscar ajuda encontram acolhida deparam ainda violencia entender dimensao violencia contra mulher urgente diz respeito todos homens mulheres texto seguir aborda violencia contra mulher morreu dia desses devia ficado feliz senti raiva muita raiva direito morrer ver casada feliz acabado fazer promessa 2018 vou namorar vou casar dito parar hospital quatro dias uti acho mim velha enxergo bonita
+1	acostumado	acostumar	ADJ	ADJ	_	64	acl	_	TokenRange=0:10
+2	ler	ler	VERB	VERB	_	1	xcomp	_	TokenRange=11:14
+3	sobre	_	ADP	ADP	_	4	case	_	TokenRange=15:20
+4	livros	livro	NOUN	NOUN	_	2	nmod	_	TokenRange=21:27
+5	nesta	_	ADP	ADP	_	6	case	_	TokenRange=28:33
+6	coluna	coluna	NOUN	NOUN	_	2	nmod	_	TokenRange=34:40
+7	hoje	hoje	ADV	ADV	_	9	advmod	_	TokenRange=41:45
+8	excepcionalmente	excepcionalmente	ADV	ADV	_	9	advmod	_	TokenRange=46:62
+9	abro	abrar	VERB	VERB	_	1	parataxis	_	TokenRange=63:67
+10	espaco	espaco	NOUN	NOUN	_	9	obj	_	TokenRange=68:74
+11	historia	historia	NOUN	NOUN	_	10	appos	_	TokenRange=75:83
+12	beth	_	NOUN	NOUN	_	13	appos	_	TokenRange=84:88
+13	mulheres	mulher	NOUN	NOUN	_	11	appos	_	TokenRange=89:97
+14	vitimas	_	ADJ	ADJ	_	13	amod	_	TokenRange=98:105
+15	violencia	violencia	NOUN	NOUN	_	13	appos	_	TokenRange=106:115
+16	diariamente	diariamente	ADV	ADV	_	20	advmod	_	TokenRange=116:127
+17	brasil	brasil	NOUN	NOUN	_	19	amod	_	TokenRange=128:134
+18	milhares	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=135:143
+19	mulheres	mulher	NOUN	NOUN	_	20	nsubj	_	TokenRange=144:152
+20	buscar	buscar	VERB	VERB	_	15	acl:relcl	_	TokenRange=153:159
+21	ajuda	ajuda	NOUN	NOUN	_	20	obj	_	TokenRange=160:165
+22	encontram	encontrar	VERB	VERB	_	6	acl:relcl	_	TokenRange=166:175
+23	acolhida	_	NOUN	NOUN	_	22	obj	_	TokenRange=176:184
+24	deparam	deparar	VERB	VERB	_	22	parataxis	_	TokenRange=185:192
+25	ainda	ainda	ADV	ADV	_	24	advmod	_	TokenRange=193:198
+26	violencia	violencia	NOUN	NOUN	_	24	obj	_	TokenRange=199:208
+27	entender	entender	VERB	VERB	_	26	acl:inf	_	TokenRange=209:217
+28	dimensao	dimensao	ADJ	ADJ	_	29	amod	_	TokenRange=218:226
+29	violencia	violencia	NOUN	NOUN	_	27	obj	_	TokenRange=227:236
+30	contra	_	ADP	ADP	_	31	case	_	TokenRange=237:243
+31	mulher	mulher	NOUN	NOUN	_	29	nmod	_	TokenRange=244:250
+32	urgente	urgente	ADJ	ADJ	_	31	amod	_	TokenRange=251:258
+33	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=259:262
+34	respeito	respeito	NOUN	NOUN	_	33	obj	_	TokenRange=263:271
+35	todos	_	DET	DET	_	36	det	_	TokenRange=272:277
+36	homens	homem	NOUN	NOUN	_	40	nsubj	_	TokenRange=278:284
+37	mulheres	mulher	NOUN	NOUN	_	36	flat	_	TokenRange=285:293
+38	texto	texto	NOUN	NOUN	_	36	appos	_	TokenRange=294:299
+39	seguir	seguir	VERB	VERB	_	36	acl:relcl	_	TokenRange=300:306
+40	aborda	abordar	VERB	VERB	_	33	parataxis	_	TokenRange=307:313
+41	violencia	violencia	NOUN	NOUN	_	40	obj	_	TokenRange=314:323
+42	contra	_	ADP	ADP	_	43	case	_	TokenRange=324:330
+43	mulher	mulher	NOUN	NOUN	_	41	nmod	_	TokenRange=331:337
+44	morreu	morrer	VERB	VERB	_	40	parataxis	_	TokenRange=338:344
+45	dia	dia	NOUN	NOUN	_	44	nmod	_	TokenRange=345:348
+46	desses	_	X	ADPPRON	_	45	nmod	_	TokenRange=349:355
+47	devia	dever	AUX	AUX	_	48	aux	_	TokenRange=356:361
+48	ficado	ficar	VERB	VERB	_	50	advcl	_	TokenRange=362:368
+49	feliz	feliz	ADJ	ADJ	_	48	xcomp	_	TokenRange=369:374
+50	senti	sentir	VERB	VERB	_	44	parataxis	_	TokenRange=375:380
+51	raiva	raiva	NOUN	NOUN	_	50	obj	_	TokenRange=381:386
+52	muita	_	DET	DET	_	53	det	_	TokenRange=387:392
+53	raiva	raiva	NOUN	NOUN	_	50	nsubj	_	TokenRange=393:398
+54	direito	direito	ADJ	ADJ	_	55	amod	_	TokenRange=399:406
+55	morrer	morrer	VERB	VERB	_	53	acl:relcl	_	TokenRange=407:413
+56	ver	ver	VERB	VERB	_	55	xcomp	_	TokenRange=414:417
+57	casada	casado	ADJ	ADJ	_	56	xcomp	_	TokenRange=418:424
+58	feliz	feliz	ADJ	ADJ	_	57	amod	_	TokenRange=425:430
+59	acabado	acabar	VERB	VERB	_	60	aux	_	TokenRange=431:438
+60	fazer	fazer	VERB	VERB	_	56	advcl	_	TokenRange=439:444
+61	promessa	promessa	NOUN	NOUN	_	60	obj	_	TokenRange=445:453
+62	2018	_	NUM	NUM	NumType=Card	64	nsubj	_	TokenRange=454:458
+63	vou	ir	AUX	AUX	_	64	aux	_	TokenRange=459:462
+64	namorar	namorar	VERB	VERB	_	50	ccomp	_	TokenRange=463:470
+65	vou	ir	AUX	AUX	_	66	aux	_	TokenRange=471:474
+66	casar	casar	VERB	VERB	_	64	ccomp	_	TokenRange=475:480
+67	dito	_	VERB	VERB	_	68	mark	_	TokenRange=481:485
+68	parar	parar	VERB	VERB	_	66	xcomp	_	TokenRange=486:491
+69	hospital	hospital	NOUN	NOUN	_	68	obj	_	TokenRange=492:500
+70	quatro	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=501:507
+71	dias	dia	NOUN	NOUN	_	73	nmod	_	TokenRange=508:512
+72	uti	_	PRON	PRON	_	73	nsubj	_	TokenRange=513:516
+73	acho	achar	VERB	VERB	_	66	conj	_	TokenRange=517:521
+74	mim	_	PRON	PRON	_	77	nsubj	_	TokenRange=522:525
+75	velha	velho	ADJ	ADJ	_	76	xcomp	_	TokenRange=526:531
+76	enxergo	enxergar	VERB	VERB	_	50	parataxis	_	TokenRange=532:539
+77	bonita	bonito	ADJ	ADJ	_	76	xcomp	_	SpaceAfter=No|TokenRange=540:546
+

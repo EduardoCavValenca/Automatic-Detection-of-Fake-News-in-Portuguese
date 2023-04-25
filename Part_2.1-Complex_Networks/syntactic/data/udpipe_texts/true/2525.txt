@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alvo mandado expresidente bndes chega brasil ouvido pf luciano coutinho exterior depoimento remarcado 22 maio desembarcou nesta quarta sp investigado supostas irregularidades emprestimos expresidente banco nacional desenvolvimento economico social bndes luciano coutinho chegou nesta quartafeira 17 brasil desembarcou aeroporto cumbica guarulhos grande paulo semana passada alvo mandado conducao coercitiva prestar depoimento investigacao policia federal pf apura possiveis irregularidades emprestimos concedidos bndes coutinho exterior mandado pode cumprido motivo depoimento remarcado 22 maio estarei sempre disposicao portanto medida inteiramente
+1	alvo	alvo	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:4
+2	mandado	mandado	NOUN	NOUN	_	1	appos	_	TokenRange=5:12
+3	expresidente	expresidente	NOUN	NOUN	_	1	appos	_	TokenRange=13:25
+4	bndes	bndes	NOUN	NOUN	_	1	appos	_	TokenRange=26:31
+5	chega	chegar	VERB	VERB	_	0	root	_	TokenRange=32:37
+6	brasil	brasil	NOUN	NOUN	_	5	obj	_	TokenRange=38:44
+7	ouvido	ouvido	ADJ	ADJ	_	5	xcomp	_	TokenRange=45:51
+8	pf	_	NOUN	NOUN	_	5	obj	_	TokenRange=52:54
+9	luciano	luciano	NOUN	NOUN	_	22	appos	_	TokenRange=55:62
+10	coutinho	_	NOUN	NOUN	_	9	flat	_	TokenRange=63:71
+11	exterior	exterior	ADJ	ADJ	_	12	amod	_	TokenRange=72:80
+12	depoimento	depoimento	NOUN	NOUN	_	38	obj	_	TokenRange=81:91
+13	remarcado	remarcar	ADJ	VERB	_	12	amod	_	TokenRange=92:101
+14	22	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=102:104
+15	maio	_	PROPN	PNOUN	_	16	nsubj	_	TokenRange=105:109
+16	desembarcou	desembarcar	VERB	VERB	_	5	parataxis	_	TokenRange=110:121
+17	nesta	_	ADP	ADP	_	18	case	_	TokenRange=122:127
+18	quarta	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=128:134
+19	sp	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=135:137
+20	investigado	investigar	VERB	VERB	_	16	acl	_	TokenRange=138:149
+21	supostas	suposto	ADJ	ADJ	_	22	amod	_	TokenRange=150:158
+22	irregularidades	irregularidade	NOUN	NOUN	_	20	obj	_	TokenRange=159:174
+23	emprestimos	emprestimo	ADJ	ADJ	_	22	amod	_	TokenRange=175:186
+24	expresidente	expresidente	NOUN	NOUN	_	22	amod	_	TokenRange=187:199
+25	banco	banco	NOUN	NOUN	_	22	appos	_	TokenRange=200:205
+26	nacional	nacional	ADJ	ADJ	_	25	amod	_	TokenRange=206:214
+27	desenvolvimento	desenvolvimento	NOUN	NOUN	_	25	appos	_	TokenRange=215:230
+28	economico	economico	ADJ	ADJ	_	27	amod	_	TokenRange=231:240
+29	social	social	ADJ	ADJ	_	27	amod	_	TokenRange=241:247
+30	bndes	bnde	NOUN	NOUN	_	33	nsubj	_	TokenRange=248:253
+31	luciano	luciano	NOUN	NOUN	_	30	appos	_	TokenRange=254:261
+32	coutinho	_	NOUN	NOUN	_	31	flat	_	TokenRange=262:270
+33	chegou	chegar	VERB	VERB	_	38	parataxis	_	TokenRange=271:277
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=278:283
+35	quartafeira	quartafeira	NOUN	NOUN	_	33	nmod	_	TokenRange=284:295
+36	17	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=296:298
+37	brasil	brasil	NOUN	NOUN	_	38	nsubj	_	TokenRange=299:305
+38	desembarcou	desembarcar	VERB	VERB	_	5	conj	_	TokenRange=306:317
+39	aeroporto	aeroporto	NOUN	NOUN	_	38	obj	_	TokenRange=318:327
+40	cumbica	cumbico	ADJ	ADJ	_	39	amod	_	TokenRange=328:335
+41	guarulhos	guarulho	NOUN	NOUN	_	39	amod	_	TokenRange=336:345
+42	grande	grande	ADJ	ADJ	_	39	amod	_	TokenRange=346:352
+43	paulo	paulo	NOUN	NOUN	_	39	appos	_	TokenRange=353:358
+44	semana	semana	NOUN	NOUN	_	38	nmod	_	TokenRange=359:365
+45	passada	passado	ADJ	ADJ	_	44	amod	_	TokenRange=366:373
+46	alvo	alvo	NOUN	NOUN	_	38	nsubj	_	TokenRange=374:378
+47	mandado	mandado	NOUN	NOUN	_	46	appos	_	TokenRange=379:386
+48	conducao	conducao	NOUN	NOUN	_	50	nsubj	_	TokenRange=387:395
+49	coercitiva	coercitivo	ADJ	ADJ	_	48	amod	_	TokenRange=396:406
+50	prestar	prestar	VERB	VERB	_	46	acl:relcl	_	TokenRange=407:414
+51	depoimento	depoimento	NOUN	NOUN	_	50	obj	_	TokenRange=415:425
+52	investigacao	investigacao	ADJ	ADJ	_	53	amod	_	TokenRange=426:438
+53	policia	policia	NOUN	NOUN	_	50	nsubj	_	TokenRange=439:446
+54	federal	federal	ADJ	ADJ	_	53	amod	_	TokenRange=447:454
+55	pf	_	NOUN	NOUN	_	53	appos	_	TokenRange=455:457
+56	apura	apurar	VERB	VERB	_	5	conj	_	TokenRange=458:463
+57	possiveis	_	ADJ	ADJ	_	58	amod	_	TokenRange=464:473
+58	irregularidades	irregularidade	NOUN	NOUN	_	56	obj	_	TokenRange=474:489
+59	emprestimos	emprestimo	NOUN	NOUN	_	58	amod	_	TokenRange=490:501
+60	concedidos	conceder	VERB	VERB	_	58	acl	_	TokenRange=502:512
+61	bndes	bndes	NOUN	NOUN	_	66	nsubj	_	TokenRange=513:518
+62	coutinho	_	NOUN	NOUN	_	61	appos	_	TokenRange=519:527
+63	exterior	exterior	ADJ	ADJ	_	62	amod	_	TokenRange=528:536
+64	mandado	mandado	NOUN	NOUN	_	62	amod	_	TokenRange=537:544
+65	pode	_	AUX	AUX	_	66	aux	_	TokenRange=545:549
+66	cumprido	cumprir	VERB	VERB	_	58	acl:relcl	_	TokenRange=550:558
+67	motivo	motivo	NOUN	NOUN	_	66	nsubj	_	TokenRange=559:565
+68	depoimento	depoimento	NOUN	NOUN	_	67	flat	_	TokenRange=566:576
+69	remarcado	remarcar	VERB	VERB	_	67	acl	_	TokenRange=577:586
+70	22	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=587:589
+71	maio	_	PROPN	PNOUN	_	69	nsubj	_	TokenRange=590:594
+72	estarei	estar	AUX	VERB	_	74	cop	_	TokenRange=595:602
+73	sempre	sempre	ADV	ADV	_	74	advmod	_	TokenRange=603:609
+74	disposicao	disposicao	NOUN	NOUN	_	56	parataxis	_	TokenRange=610:620
+75	portanto	_	ADV	ADV	_	76	cc	_	TokenRange=621:629
+76	medida	medida	NOUN	NOUN	_	74	conj	_	TokenRange=630:636
+77	inteiramente	inteiramente	ADV	ADV	_	74	advmod	_	SpaceAfter=No|TokenRange=637:649
+

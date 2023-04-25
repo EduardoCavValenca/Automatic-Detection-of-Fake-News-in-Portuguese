@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo lanca projetopiloto documento nacional identificacao reune cpf titulo eleitor servidores ministerio planejamento tribunal superior eleitoral primeiros acesso documento meta governo populacao possa solicitar dni partir julho governo federal lancou nesta segundafeira 5 projetopiloto documento nacional identificacao reunira primeiro momento cpf titulo eleitor documento sido sancionado presidente michel temer 2017 agora comeca fase testes cerca 2 mil servidores ministerio planejamento tribunal superior eleitoral tse vao comecar usar nova identificacao meta governo
+1	governo	governo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	lanca	lancar	VERB	VERB	_	0	root	_	TokenRange=8:13
+3	projetopiloto	projetopiloto	NOUN	NOUN	_	2	obj	_	TokenRange=14:27
+4	documento	documento	NOUN	NOUN	_	2	obj	_	TokenRange=28:37
+5	nacional	nacional	ADJ	ADJ	_	4	amod	_	TokenRange=38:46
+6	identificacao	identificacao	ADJ	ADJ	_	4	amod	_	TokenRange=47:60
+7	reune	_	VERB	VERB	_	2	parataxis	_	TokenRange=61:66
+8	cpf	_	NOUN	NOUN	_	7	obj	_	TokenRange=67:70
+9	titulo	titulo	NOUN	NOUN	_	4	appos	_	TokenRange=71:77
+10	eleitor	eleitor	ADJ	ADJ	_	9	amod	_	TokenRange=78:85
+11	servidores	servidor	NOUN	NOUN	_	9	appos	_	TokenRange=86:96
+12	ministerio	ministerio	NOUN	NOUN	_	4	amod	_	TokenRange=97:107
+13	planejamento	planejamento	NOUN	NOUN	_	9	appos	_	TokenRange=108:120
+14	tribunal	tribunal	NOUN	NOUN	_	13	amod	_	TokenRange=121:129
+15	superior	superior	ADJ	ADJ	_	13	amod	_	TokenRange=130:138
+16	eleitoral	eleitoral	ADJ	ADJ	_	13	amod	_	TokenRange=139:148
+17	primeiros	primeiro	ADJ	ADJ	_	18	amod	_	TokenRange=149:158
+18	acesso	acesso	NOUN	NOUN	_	2	obj	_	TokenRange=159:165
+19	documento	documento	NOUN	NOUN	_	18	appos	_	TokenRange=166:175
+20	meta	meta	NOUN	NOUN	_	18	appos	_	TokenRange=176:180
+21	governo	governo	NOUN	NOUN	_	18	appos	_	TokenRange=181:188
+22	populacao	populacao	NOUN	NOUN	_	18	amod	_	TokenRange=189:198
+23	possa	_	AUX	AUX	_	24	aux	_	TokenRange=199:204
+24	solicitar	solicitar	VERB	VERB	_	2	parataxis	_	TokenRange=205:214
+25	dni	_	X	NOUN	_	24	nmod	_	TokenRange=215:218
+26	partir	partir	VERB	VERB	_	24	nmod	_	TokenRange=219:225
+27	julho	_	PROPN	PNOUN	_	26	nmod	_	TokenRange=226:231
+28	governo	governo	NOUN	NOUN	_	30	nsubj	_	TokenRange=232:239
+29	federal	federal	ADJ	ADJ	_	28	amod	_	TokenRange=240:247
+30	lancou	lancar	VERB	VERB	_	2	parataxis	_	TokenRange=248:254
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=255:260
+32	segundafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=261:273
+33	5	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=274:275
+34	projetopiloto	projetopiloto	NOUN	NOUN	_	35	amod	_	TokenRange=276:289
+35	documento	documento	NOUN	NOUN	_	30	nsubj	_	TokenRange=290:299
+36	nacional	nacional	ADJ	ADJ	_	35	amod	_	TokenRange=300:308
+37	identificacao	identificacao	ADJ	ADJ	_	35	amod	_	TokenRange=309:322
+38	reunira	reunir	VERB	VERB	_	30	conj	_	TokenRange=323:330
+39	primeiro	primeiro	ADJ	ADJ	_	40	amod	_	TokenRange=331:339
+40	momento	momento	NOUN	NOUN	_	38	obj	_	TokenRange=340:347
+41	cpf	_	NOUN	NOUN	_	42	appos	_	TokenRange=348:351
+42	titulo	titulo	NOUN	NOUN	_	38	nsubj	_	TokenRange=352:358
+43	eleitor	eleitor	ADJ	ADJ	_	42	amod	_	TokenRange=359:366
+44	documento	documento	NOUN	NOUN	_	38	nsubj	_	TokenRange=367:376
+45	sido	ser	AUX	AUX	_	47	aux:pass	_	TokenRange=377:381
+46	sancionado	sancionar	VERB	VERB	_	42	acl	_	TokenRange=382:392
+47	presidente	presidente	NOUN	NOUN	_	46	nsubj:pass	_	TokenRange=393:403
+48	michel	michel	ADJ	ADJ	_	47	amod	_	TokenRange=404:410
+49	temer	temer	NOUN	NOUN	_	47	appos	_	TokenRange=411:416
+50	2017	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=417:421
+51	agora	agora	ADV	ADV	_	52	advmod	_	TokenRange=422:427
+52	comeca	comecar	VERB	VERB	_	2	parataxis	_	TokenRange=428:434
+53	fase	fase	NOUN	NOUN	_	52	nsubj	_	TokenRange=435:439
+54	testes	teste	NOUN	NOUN	_	53	amod	_	TokenRange=440:446
+55	cerca	cerca	ADV	ADV	_	57	advmod	_	TokenRange=447:452
+56	2	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=453:454
+57	mil	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=455:458
+58	servidores	servidor	NOUN	NOUN	_	66	nsubj	_	TokenRange=459:469
+59	ministerio	ministerio	ADJ	ADJ	_	58	amod	_	TokenRange=470:480
+60	planejamento	planejamento	NOUN	NOUN	_	58	appos	_	TokenRange=481:493
+61	tribunal	tribunal	NOUN	NOUN	_	60	amod	_	TokenRange=494:502
+62	superior	superior	ADJ	ADJ	_	60	amod	_	TokenRange=503:511
+63	eleitoral	eleitoral	ADJ	ADJ	_	60	amod	_	TokenRange=512:521
+64	tse	_	PRON	PRON	_	58	appos	_	TokenRange=522:525
+65	vao	ir	AUX	AUX	_	66	aux	_	TokenRange=526:529
+66	comecar	comecar	VERB	VERB	_	52	parataxis	_	TokenRange=530:537
+67	usar	usar	VERB	VERB	_	66	xcomp	_	TokenRange=538:542
+68	nova	novo	ADJ	ADJ	_	69	amod	_	TokenRange=543:547
+69	identificacao	identificacao	NOUN	NOUN	_	67	obj	_	TokenRange=548:561
+70	meta	meta	NOUN	NOUN	_	69	appos	_	TokenRange=562:566
+71	governo	governo	NOUN	NOUN	_	70	flat	_	SpaceAfter=No|TokenRange=567:574
+

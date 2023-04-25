@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cervero sobre dilma mente maluca maluquice calculada veja abaixo disse nestor cervero ex diretor internacional petrobras dilma rousseff disse sabia roubalheira pasadena mentira mentira continua negocio pegou fogo maluca dilma dizer sabia informada dilma maluca maluquice calculada caso compra usina pasadena petrobras maiores escandalos governo petista empresa comprada belgas us 43 milhoes repassada petrobras us 1 bilhao dilma ministra minas energia presidente conselho petrobras disse sabia nada video via jornal cidade online
+1	cervero	cervero	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:7
+2	sobre	_	ADP	ADP	_	3	case	_	TokenRange=8:13
+3	dilma	dilma	NOUN	NOUN	_	1	nmod	_	TokenRange=14:19
+4	mente	mente	NOUN	NOUN	_	3	advmod	_	TokenRange=20:25
+5	maluca	_	NOUN	NOUN	_	3	appos	_	TokenRange=26:32
+6	maluquice	_	NOUN	NOUN	_	5	flat	_	TokenRange=33:42
+7	calculada	calcular	VERB	VERB	_	5	acl	_	TokenRange=43:52
+8	veja	ver	VERB	VERB	_	10	ccomp	_	TokenRange=53:57
+9	abaixo	abaixo	ADV	ADV	_	8	advmod	_	TokenRange=58:64
+10	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=65:70
+11	nestor	nestor	NOUN	NOUN	_	10	nsubj	_	TokenRange=71:77
+12	cervero	cervero	NOUN	NOUN	_	11	flat	_	TokenRange=78:85
+13	ex	_	PART	PRT	_	11	appos	_	TokenRange=86:88
+14	diretor	diretor	NOUN	NOUN	_	13	flat	_	TokenRange=89:96
+15	internacional	internacional	ADJ	ADJ	_	13	amod	_	TokenRange=97:110
+16	petrobras	petrobra	NOUN	NOUN	_	13	appos	_	TokenRange=111:120
+17	dilma	dilma	NOUN	NOUN	_	13	appos	_	TokenRange=121:126
+18	rousseff	rousseff	NOUN	NOUN	_	13	flat	_	TokenRange=127:135
+19	disse	dizer	VERB	VERB	_	1	acl:relcl	_	TokenRange=136:141
+20	sabia	sabia	NOUN	NOUN	_	19	obj	_	TokenRange=142:147
+21	roubalheira	_	NOUN	NOUN	_	20	appos	_	TokenRange=148:159
+22	pasadena	_	NOUN	NOUN	_	21	flat	_	TokenRange=160:168
+23	mentira	mentira	NOUN	NOUN	_	21	appos	_	TokenRange=169:176
+24	mentira	mentira	NOUN	NOUN	_	23	flat	_	TokenRange=177:184
+25	continua	continuar	VERB	VERB	_	19	parataxis	_	TokenRange=185:193
+26	negocio	negocio	NOUN	NOUN	_	27	nsubj	_	TokenRange=194:201
+27	pegou	pegar	VERB	VERB	_	25	parataxis	_	TokenRange=202:207
+28	fogo	fogo	NOUN	NOUN	_	27	obj	_	TokenRange=208:212
+29	maluca	maluco	ADJ	ADJ	_	28	amod	_	TokenRange=213:219
+30	dilma	_	NOUN	NOUN	_	28	appos	_	TokenRange=220:225
+31	dizer	dizer	VERB	VERB	_	11	acl:relcl	_	TokenRange=226:231
+32	sabia	saber	NOUN	NOUN	_	31	obj	_	TokenRange=232:237
+33	informada	informado	ADJ	ADJ	_	32	amod	_	TokenRange=238:247
+34	dilma	dilma	NOUN	NOUN	_	35	amod	_	TokenRange=248:253
+35	maluca	_	NOUN	NOUN	_	32	appos	_	TokenRange=254:260
+36	maluquice	_	NOUN	NOUN	_	35	flat	_	TokenRange=261:270
+37	calculada	calcular	VERB	VERB	_	35	acl	_	TokenRange=271:280
+38	caso	_	CCONJ	CONJ	_	39	mark	_	TokenRange=281:285
+39	compra	comprar	VERB	VERB	_	37	advcl	_	TokenRange=286:292
+40	usina	usina	NOUN	NOUN	_	39	obj	_	TokenRange=293:298
+41	pasadena	pasadeno	ADJ	ADJ	_	40	amod	_	TokenRange=299:307
+42	petrobras	petrobra	NOUN	NOUN	_	40	amod	_	TokenRange=308:317
+43	maiores	maior	ADJ	ADJ	_	44	amod	_	TokenRange=318:325
+44	escandalos	escandalo	NOUN	NOUN	_	40	appos	_	TokenRange=326:336
+45	governo	governo	NOUN	NOUN	_	44	appos	_	TokenRange=337:344
+46	petista	petista	ADJ	ADJ	_	44	amod	_	TokenRange=345:352
+47	empresa	empresa	NOUN	NOUN	_	44	appos	_	TokenRange=353:360
+48	comprada	comprar	VERB	VERB	_	47	acl	_	TokenRange=361:369
+49	belgas	belga	NOUN	NOUN	_	48	obj	_	TokenRange=370:376
+50	us	_	NOUN	NOUN	_	49	appos	_	TokenRange=377:379
+51	43	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=380:382
+52	milhoes	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=383:390
+53	repassada	repassar	VERB	VERB	_	47	acl	_	TokenRange=391:400
+54	petrobras	petrobra	NOUN	NOUN	_	53	nsubj	_	TokenRange=401:410
+55	us	_	PRON	PRON	_	54	appos	_	TokenRange=411:413
+56	1	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=414:415
+57	bilhao	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=416:422
+58	dilma	dilma	NOUN	NOUN	_	54	appos	_	TokenRange=423:428
+59	ministra	_	NOUN	NOUN	_	54	appos	_	TokenRange=429:437
+60	minas	mina	NOUN	NOUN	_	54	appos	_	TokenRange=438:443
+61	energia	energia	NOUN	NOUN	_	60	flat	_	TokenRange=444:451
+62	presidente	presidente	NOUN	NOUN	_	58	appos	_	TokenRange=452:462
+63	conselho	conselho	NOUN	NOUN	_	62	appos	_	TokenRange=463:471
+64	petrobras	petrobra	ADJ	ADJ	_	62	amod	_	TokenRange=472:481
+65	disse	dizer	VERB	VERB	_	10	parataxis	_	TokenRange=482:487
+66	sabia	saber	NOUN	NOUN	_	65	ccomp	_	TokenRange=488:493
+67	nada	_	PRON	PRON	_	68	det	_	TokenRange=494:498
+68	video	video	NOUN	NOUN	_	65	obj	_	TokenRange=499:504
+69	via	_	ADP	ADP	_	70	case	_	TokenRange=505:508
+70	jornal	jornal	NOUN	NOUN	_	68	nmod	_	TokenRange=509:515
+71	cidade	cidade	NOUN	NOUN	_	70	appos	_	TokenRange=516:522
+72	online	online	ADJ	ADJ	_	71	amod	_	SpaceAfter=No|TokenRange=523:529
+

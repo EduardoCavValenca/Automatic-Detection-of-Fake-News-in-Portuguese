@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pdt lanca precandidatura ciro gomes presidencia republica anuncio feito nesta quinta brasilia 7 partido desde entrou politica ciro exgovernador ceara ministro fazenda integracao tentara presidencia 3 vez pdt lancou nesta quintafeira 8 brasilia precandidatura exgovernador ceara ciro gomes presidencia republica anuncio feito entrevista imprensa apos reuniao executiva nacional partido ato pdt lancou precandidatura joe valle governo distrito federal apesar lancamento acontecido nesta quinta ciro tratado precandidato pdt desde 2015 filiou legenda outros partidos anunciado precandidatos
+1	pdt	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	lanca	lancar	VERB	VERB	_	0	root	_	TokenRange=4:9
+3	precandidatura	precandidatura	NOUN	NOUN	_	2	obj	_	TokenRange=10:24
+4	ciro	_	NOUN	NOUN	_	3	appos	_	TokenRange=25:29
+5	gomes	gome	NOUN	NOUN	_	3	appos	_	TokenRange=30:35
+6	presidencia	presidencia	NOUN	NOUN	_	3	appos	_	TokenRange=36:47
+7	republica	republico	ADJ	ADJ	_	6	amod	_	TokenRange=48:57
+8	anuncio	_	NOUN	NOUN	_	2	obj	_	TokenRange=58:65
+9	feito	_	NOUN	NOUN	_	2	obj	_	TokenRange=66:71
+10	nesta	_	ADP	ADP	_	12	case	_	TokenRange=72:77
+11	quinta	_	PROPN	PNOUN	_	12	amod	_	TokenRange=78:84
+12	brasilia	_	NOUN	NOUN	_	2	nmod	_	TokenRange=85:93
+13	7	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=94:95
+14	partido	partido	NOUN	NOUN	_	2	obj	_	TokenRange=96:103
+15	desde	_	ADP	ADP	_	16	mark	_	TokenRange=104:109
+16	entrou	entrar	VERB	VERB	_	14	nmod	_	TokenRange=110:116
+17	politica	_	NOUN	NOUN	_	16	obj	_	TokenRange=117:125
+18	ciro	_	NOUN	NOUN	_	19	det	_	TokenRange=126:130
+19	exgovernador	exgovernador	NOUN	NOUN	_	24	nsubj	_	TokenRange=131:143
+20	ceara	_	ADJ	ADJ	_	21	amod	_	TokenRange=144:149
+21	ministro	ministro	NOUN	NOUN	_	19	appos	_	TokenRange=150:158
+22	fazenda	fazenda	NOUN	NOUN	_	21	appos	_	TokenRange=159:166
+23	integracao	_	ADJ	ADJ	_	21	amod	_	TokenRange=167:177
+24	tentara	tentar	VERB	VERB	_	2	parataxis	_	TokenRange=178:185
+25	presidencia	presidencia	NOUN	NOUN	_	24	obj	_	TokenRange=186:197
+26	3	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=198:199
+27	vez	vez	NOUN	NOUN	_	29	nmod	_	TokenRange=200:203
+28	pdt	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=204:207
+29	lancou	lancar	VERB	VERB	_	24	parataxis	_	TokenRange=208:214
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=215:220
+31	quintafeira	quintafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=221:232
+32	8	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=233:234
+33	brasilia	brasilia	NOUN	NOUN	_	29	nsubj	_	TokenRange=235:243
+34	precandidatura	precandidatura	NOUN	NOUN	_	29	obj	_	TokenRange=244:258
+35	exgovernador	exgovernador	ADJ	ADJ	_	34	amod	_	TokenRange=259:271
+36	ceara	ceara	NOUN	NOUN	_	34	appos	_	TokenRange=272:277
+37	ciro	ciro	NOUN	NOUN	_	34	appos	_	TokenRange=278:282
+38	gomes	gome	NOUN	NOUN	_	37	flat	_	TokenRange=283:288
+39	presidencia	presidencia	NOUN	NOUN	_	34	appos	_	TokenRange=289:300
+40	republica	republico	ADJ	ADJ	_	39	amod	_	TokenRange=301:310
+41	anuncio	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=311:318
+42	feito	_	VERB	VERB	_	29	parataxis	_	TokenRange=319:324
+43	entrevista	entrevista	NOUN	NOUN	_	42	obj	_	TokenRange=325:335
+44	imprensa	imprensa	NOUN	NOUN	_	43	flat	_	TokenRange=336:344
+45	apos	_	ADP	ADP	_	46	case	_	TokenRange=345:349
+46	reuniao	reuniao	NOUN	NOUN	_	52	nmod	_	TokenRange=350:357
+47	executiva	executivo	ADJ	ADJ	_	46	amod	_	TokenRange=358:367
+48	nacional	nacional	ADJ	ADJ	_	46	amod	_	TokenRange=368:376
+49	partido	partido	NOUN	NOUN	_	52	nsubj	_	TokenRange=377:384
+50	ato	ato	ADJ	ADJ	_	49	amod	_	TokenRange=385:388
+51	pdt	_	PROPN	PNOUN	_	49	appos	_	TokenRange=389:392
+52	lancou	lancar	VERB	VERB	_	2	parataxis	_	TokenRange=393:399
+53	precandidatura	precandidatura	NOUN	NOUN	_	52	obj	_	TokenRange=400:414
+54	joe	_	NOUN	NOUN	_	53	appos	_	TokenRange=415:418
+55	valle	_	NOUN	NOUN	_	54	flat	_	TokenRange=419:424
+56	governo	governo	NOUN	NOUN	_	54	flat	_	TokenRange=425:432
+57	distrito	distrito	NOUN	NOUN	_	54	appos	_	TokenRange=433:441
+58	federal	federal	ADJ	ADJ	_	57	amod	_	TokenRange=442:449
+59	apesar	apesar	ADV	ADV	_	60	case	_	TokenRange=450:456
+60	lancamento	lancamento	NOUN	NOUN	_	52	nmod	_	TokenRange=457:467
+61	acontecido	acontecer	VERB	VERB	_	60	acl	_	TokenRange=468:478
+62	nesta	_	ADP	ADP	_	63	case	_	TokenRange=479:484
+63	quinta	_	PROPN	PNOUN	_	61	nmod	_	TokenRange=485:491
+64	ciro	ciro	NOUN	NOUN	_	61	nmod	_	TokenRange=492:496
+65	tratado	tratado	ADJ	ADJ	_	60	amod	_	TokenRange=497:504
+66	precandidato	precandidato	NOUN	NOUN	_	65	flat	_	TokenRange=505:517
+67	pdt	_	PROPN	PNOUN	_	73	appos	_	TokenRange=518:521
+68	desde	_	ADP	ADP	_	69	case	_	TokenRange=522:527
+69	2015	_	NUM	NUM	NumType=Card	70	nmod	_	TokenRange=528:532
+70	filiou	filiar	VERB	VERB	_	2	parataxis	_	TokenRange=533:539
+71	legenda	legenda	NOUN	NOUN	_	70	obj	_	TokenRange=540:547
+72	outros	_	DET	DET	_	73	det	_	TokenRange=548:554
+73	partidos	partido	NOUN	NOUN	_	70	obj	_	TokenRange=555:563
+74	anunciado	anunciar	VERB	VERB	_	73	acl	_	TokenRange=564:573
+75	precandidatos	precandidato	NOUN	NOUN	_	74	obj	_	SpaceAfter=No|TokenRange=574:587
+

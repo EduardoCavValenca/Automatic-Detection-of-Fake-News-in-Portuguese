@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = torcendo milagre diz filho teori zavascki filho disse relator lava jato stf bordo aeronave caiu paraty ainda informacoes sobre sobreviventes familia ministro supremo tribunal federal relator processos lava jato correm stf teori zavaski diz esperar milagre informacoes voo caiu litoral paraty regiao sul estado rio janeiro bordo
+1	torcendo	torcer	VERB	VERB	_	3	acl	_	TokenRange=0:8
+2	milagre	milagre	NOUN	NOUN	_	1	obj	_	TokenRange=9:16
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=17:20
+4	filho	filho	NOUN	NOUN	_	3	obj	_	TokenRange=21:26
+5	teori	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=27:32
+6	zavascki	_	NOUN	NOUN	_	5	appos	_	TokenRange=33:41
+7	filho	filho	NOUN	NOUN	_	6	flat	_	TokenRange=42:47
+8	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=48:53
+9	relator	relator	NOUN	NOUN	_	8	obj	_	TokenRange=54:61
+10	lava	lava	ADJ	ADJ	_	9	appos	_	TokenRange=62:66
+11	jato	jato	NOUN	NOUN	_	10	flat	_	TokenRange=67:71
+12	stf	_	NOUN	NOUN	_	11	appos	_	TokenRange=72:75
+13	bordo	bordo	NOUN	NOUN	_	10	flat	_	TokenRange=76:81
+14	aeronave	aeronave	NOUN	NOUN	_	12	flat	_	TokenRange=82:90
+15	caiu	cair	VERB	VERB	_	10	conj	_	TokenRange=91:95
+16	paraty	_	NOUN	NOUN	_	15	nmod	_	TokenRange=96:102
+17	ainda	ainda	ADV	ADV	_	18	advmod	_	TokenRange=103:108
+18	informacoes	informacoe	NOUN	NOUN	_	15	obj	_	TokenRange=109:120
+19	sobre	_	ADP	ADP	_	20	case	_	TokenRange=121:126
+20	sobreviventes	sobrevivente	NOUN	NOUN	_	18	nmod	_	TokenRange=127:140
+21	familia	familia	NOUN	NOUN	_	20	flat	_	TokenRange=141:148
+22	ministro	ministro	NOUN	NOUN	_	20	appos	_	TokenRange=149:157
+23	supremo	supremo	ADJ	ADJ	_	24	amod	_	TokenRange=158:165
+24	tribunal	tribunal	NOUN	NOUN	_	20	appos	_	TokenRange=166:174
+25	federal	federal	ADJ	ADJ	_	24	amod	_	TokenRange=175:182
+26	relator	relator	NOUN	NOUN	_	27	amod	_	TokenRange=183:190
+27	processos	processo	NOUN	NOUN	_	30	nsubj	_	TokenRange=191:200
+28	lava	lar	VERB	VERB	_	27	appos	_	TokenRange=201:205
+29	jato	jato	NOUN	NOUN	_	28	flat	_	TokenRange=206:210
+30	correm	correr	VERB	VERB	_	20	acl:relcl	_	TokenRange=211:217
+31	stf	_	NOUN	NOUN	_	30	obj	_	TokenRange=218:221
+32	teori	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=222:227
+33	zavaski	_	PROPN	PNOUN	_	32	flat	_	TokenRange=228:235
+34	diz	dizer	VERB	VERB	_	15	parataxis	_	TokenRange=236:239
+35	esperar	esperar	VERB	VERB	_	34	xcomp	_	TokenRange=240:247
+36	milagre	milagre	NOUN	NOUN	_	35	obj	_	TokenRange=248:255
+37	informacoes	_	NOUN	NOUN	_	36	appos	_	TokenRange=256:267
+38	voo	voo	NOUN	NOUN	_	37	appos	_	TokenRange=268:271
+39	caiu	cair	VERB	VERB	_	37	acl:relcl	_	TokenRange=272:276
+40	litoral	litoral	ADJ	ADJ	_	39	amod	_	TokenRange=277:284
+41	paraty	_	NOUN	NOUN	_	42	amod	_	TokenRange=285:291
+42	regiao	regiao	NOUN	NOUN	_	39	nmod	_	TokenRange=292:298
+43	sul	sul	ADJ	ADJ	_	44	amod	_	TokenRange=299:302
+44	estado	estado	NOUN	NOUN	_	42	appos	_	TokenRange=303:309
+45	rio	rio	ADJ	ADJ	_	44	amod	_	TokenRange=310:313
+46	janeiro	_	PROPN	PNOUN	_	44	appos	_	TokenRange=314:321
+47	bordo	bordo	NOUN	NOUN	_	44	appos	_	SpaceAfter=No|TokenRange=322:327
+

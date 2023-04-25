@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = globo afasta otaviano costa machismo semana comecou pegando fogo emissora marinho
+1	globo	globo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	afasta	afastar	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	otaviano	otaviano	NOUN	NOUN	_	2	obj	_	TokenRange=13:21
+4	costa	costa	NOUN	NOUN	_	3	flat	_	TokenRange=22:27
+5	machismo	machismo	ADJ	ADJ	_	3	amod	_	TokenRange=28:36
+6	semana	semana	NOUN	NOUN	_	3	appos	_	TokenRange=37:43
+7	comecou	comecar	AUX	AUX	_	8	aux	_	TokenRange=44:51
+8	pegando	pegar	VERB	VERB	_	2	conj	_	TokenRange=52:59
+9	fogo	fogo	NOUN	NOUN	_	8	obj	_	TokenRange=60:64
+10	emissora	_	NOUN	NOUN	_	8	obj	_	TokenRange=65:73
+11	marinho	marinho	ADJ	ADJ	_	10	amod	_	SpaceAfter=No|TokenRange=74:81
+

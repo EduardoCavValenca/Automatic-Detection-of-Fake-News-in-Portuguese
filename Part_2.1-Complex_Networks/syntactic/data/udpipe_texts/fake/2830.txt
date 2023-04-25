@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maranhao revoga decisao anular sessao impeachment waldir maranhao presidente exercicio camara revogou decisao proferida anulava sessoes plenario camara deputados sobre votacao impeachment maranhao voltou atras apos criticado juristas sofrer pressao pp deputado podera perder cargo interino presidente mandato circo chamado brasil maranhao feriu inciso iv artigo 4 camara deputados define art 4 constitui procedimento incompativel decoro parlamentar punivel perda mandato iv fraudar qualquer meio forma regular andamento trabalhos legislativos alterar resultado deliberacao
+1	maranhao	maranhao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	revoga	revogar	VERB	VERB	_	0	root	_	TokenRange=9:15
+3	decisao	decisao	NOUN	NOUN	_	2	obj	_	TokenRange=16:23
+4	anular	anular	VERB	VERB	_	3	acl:inf	_	TokenRange=24:30
+5	sessao	_	NOUN	NOUN	_	6	appos	_	TokenRange=31:37
+6	impeachment	impeachment	NOUN	NOUN	_	4	obj	_	TokenRange=38:49
+7	waldir	_	NOUN	NOUN	_	6	appos	_	TokenRange=50:56
+8	maranhao	maranhao	NOUN	NOUN	_	7	flat	_	TokenRange=57:65
+9	presidente	presidente	NOUN	NOUN	_	7	flat	_	TokenRange=66:76
+10	exercicio	exercicio	ADJ	ADJ	_	9	amod	_	TokenRange=77:86
+11	camara	camara	NOUN	NOUN	_	9	amod	_	TokenRange=87:93
+12	revogou	revogar	VERB	VERB	_	2	conj	_	TokenRange=94:101
+13	decisao	decisao	NOUN	NOUN	_	12	obj	_	TokenRange=102:109
+14	proferida	proferido	ADJ	ADJ	_	13	amod	_	TokenRange=110:119
+15	anulava	anular	VERB	VERB	_	2	conj	_	TokenRange=120:127
+16	sessoes	sessoe	NOUN	NOUN	_	15	obj	_	TokenRange=128:135
+17	plenario	plenario	ADJ	ADJ	_	16	amod	_	TokenRange=136:144
+18	camara	camara	NOUN	NOUN	_	16	appos	_	TokenRange=145:151
+19	deputados	deputado	NOUN	NOUN	_	18	flat	_	TokenRange=152:161
+20	sobre	_	ADP	ADP	_	21	case	_	TokenRange=162:167
+21	votacao	votacao	NOUN	NOUN	_	16	nmod	_	TokenRange=168:175
+22	impeachment	impeachment	NOUN	NOUN	_	21	flat	_	TokenRange=176:187
+23	maranhao	maranhao	NOUN	NOUN	_	21	appos	_	TokenRange=188:196
+24	voltou	voltar	VERB	VERB	_	21	acl:relcl	_	TokenRange=197:203
+25	atras	atras	ADV	ADV	_	24	advmod	_	TokenRange=204:209
+26	apos	_	CCONJ	CONJ	_	27	mark	_	TokenRange=210:214
+27	criticado	criticar	VERB	VERB	_	24	advcl	_	TokenRange=215:224
+28	juristas	jurista	NOUN	NOUN	_	27	nsubj	_	TokenRange=225:233
+29	sofrer	sofrer	VERB	VERB	_	27	ccomp	_	TokenRange=234:240
+30	pressao	pressao	NOUN	NOUN	_	29	obj	_	TokenRange=241:248
+31	pp	_	X	ADP	_	34	nsubj	_	TokenRange=249:251
+32	deputado	deputado	NOUN	NOUN	_	29	nsubj	_	TokenRange=252:260
+33	podera	_	AUX	AUX	_	34	aux	_	TokenRange=261:267
+34	perder	perder	VERB	VERB	_	2	conj	_	TokenRange=268:274
+35	cargo	cargo	NOUN	NOUN	_	34	obj	_	TokenRange=275:280
+36	interino	interino	ADJ	ADJ	_	35	amod	_	TokenRange=281:289
+37	presidente	presidente	NOUN	NOUN	_	35	appos	_	TokenRange=290:300
+38	mandato	mandato	NOUN	NOUN	_	35	appos	_	TokenRange=301:308
+39	circo	circo	NOUN	NOUN	_	38	amod	_	TokenRange=309:314
+40	chamado	chamado	ADJ	ADJ	_	41	amod	_	TokenRange=315:322
+41	brasil	brasil	NOUN	NOUN	_	38	appos	_	TokenRange=323:329
+42	maranhao	maranhao	NOUN	NOUN	_	41	appos	_	TokenRange=330:338
+43	feriu	feriu	ADJ	ADJ	_	34	parataxis	_	TokenRange=339:344
+44	inciso	inciso	NOUN	NOUN	_	34	parataxis	_	TokenRange=345:351
+45	iv	_	NUM	NUM	NumType=Card	44	appos	_	TokenRange=352:354
+46	artigo	artigo	NOUN	NOUN	_	50	nsubj	_	TokenRange=355:361
+47	4	_	NUM	NUM	NumType=Card	46	appos	_	TokenRange=362:363
+48	camara	camara	NOUN	NOUN	_	50	nsubj	_	TokenRange=364:370
+49	deputados	deputado	NOUN	NOUN	_	48	flat	_	TokenRange=371:380
+50	define	definir	VERB	VERB	_	2	parataxis	_	TokenRange=381:387
+51	art	_	NOUN	NOUN	_	50	obj	_	TokenRange=388:391
+52	4	_	NUM	NUM	NumType=Card	51	appos	_	TokenRange=392:393
+53	constitui	constituir	VERB	VERB	_	50	parataxis	_	TokenRange=394:403
+54	procedimento	procedimento	NOUN	NOUN	_	53	obj	_	TokenRange=404:416
+55	incompativel	incompativel	ADJ	ADJ	_	54	amod	_	TokenRange=417:429
+56	decoro	decoro	NOUN	NOUN	_	54	appos	_	TokenRange=430:436
+57	parlamentar	parlamentar	ADJ	ADJ	_	54	amod	_	TokenRange=437:448
+58	punivel	punivel	ADJ	ADJ	_	54	amod	_	TokenRange=449:456
+59	perda	perda	NOUN	NOUN	_	54	appos	_	TokenRange=457:462
+60	mandato	mandato	NOUN	NOUN	_	59	appos	_	TokenRange=463:470
+61	iv	_	NUM	NUM	NumType=Card	60	appos	_	TokenRange=471:473
+62	fraudar	fraudar	VERB	VERB	_	53	conj	_	TokenRange=474:481
+63	qualquer	_	DET	DET	_	64	det	_	TokenRange=482:490
+64	meio	meio	NOUN	NOUN	_	62	obj	_	TokenRange=491:495
+65	forma	forma	NOUN	NOUN	_	62	obj	_	TokenRange=496:501
+66	regular	regular	ADJ	ADJ	_	65	amod	_	TokenRange=502:509
+67	andamento	andamento	NOUN	NOUN	_	62	obj	_	TokenRange=510:519
+68	trabalhos	trabalho	NOUN	NOUN	_	70	obj	_	TokenRange=520:529
+69	legislativos	legislativo	ADJ	ADJ	_	68	amod	_	TokenRange=530:542
+70	alterar	alterar	VERB	VERB	_	62	ccomp	_	TokenRange=543:550
+71	resultado	resultado	NOUN	NOUN	_	70	obj	_	TokenRange=551:560
+72	deliberacao	deliberacao	ADJ	ADJ	_	71	amod	_	SpaceAfter=No|TokenRange=561:572
+

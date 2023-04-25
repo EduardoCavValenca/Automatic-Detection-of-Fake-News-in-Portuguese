@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministro interino defesa visita abrigos venezuelanos roraima ministro interino defesa general exercito joaquim silva luna estado nesta segundafeira 26 ministro interino defesa general exercito joaquim silva luna visitou dois abrigos venezuelanos boa vista pacaraima cidade fronteira venezuela nesta segundafeira 26 roraima lida desde 2015 chegada desenfreada venezuelanos cujo exodo motivado crise politica economica social pais primeiros 45 dias 2018 18 mil venezuelanos cruzaram fronteira estado boa vista abrigo tancredo neves bairro jardim floresta ambos zona oeste chegarem aqui imigrantes competem servico publico
+1	ministro	ministro	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	interino	interino	ADJ	ADJ	_	1	amod	_	TokenRange=9:17
+3	defesa	_	NOUN	NOUN	_	1	appos	_	TokenRange=18:24
+4	visita	visitar	VERB	VERB	_	0	root	_	TokenRange=25:31
+5	abrigos	abrigo	NOUN	NOUN	_	4	obj	_	TokenRange=32:39
+6	venezuelanos	venezuelano	ADJ	ADJ	_	5	amod	_	TokenRange=40:52
+7	roraima	_	ADJ	NOUN	_	8	amod	_	TokenRange=53:60
+8	ministro	ministro	NOUN	NOUN	_	5	appos	_	TokenRange=61:69
+9	interino	interino	ADJ	ADJ	_	8	amod	_	TokenRange=70:78
+10	defesa	_	NOUN	NOUN	_	8	appos	_	TokenRange=79:85
+11	general	general	ADJ	ADJ	_	8	amod	_	TokenRange=86:93
+12	exercito	exercito	ADJ	ADJ	_	8	amod	_	TokenRange=94:102
+13	joaquim	joaquim	NOUN	NOUN	_	8	appos	_	TokenRange=103:110
+14	silva	silva	NOUN	NOUN	_	13	flat	_	TokenRange=111:116
+15	luna	luno	ADJ	ADJ	_	13	flat	_	TokenRange=117:121
+16	estado	estado	NOUN	NOUN	_	4	parataxis	_	TokenRange=122:128
+17	nesta	_	ADP	ADP	_	18	case	_	TokenRange=129:134
+18	segundafeira	_	NOUN	NOUN	_	16	nmod	_	TokenRange=135:147
+19	26	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=148:150
+20	ministro	ministro	NOUN	NOUN	_	28	nsubj	_	TokenRange=151:159
+21	interino	interino	ADJ	ADJ	_	20	amod	_	TokenRange=160:168
+22	defesa	_	NOUN	NOUN	_	20	appos	_	TokenRange=169:175
+23	general	general	ADJ	ADJ	_	22	amod	_	TokenRange=176:183
+24	exercito	exercito	ADJ	ADJ	_	22	amod	_	TokenRange=184:192
+25	joaquim	joaquim	NOUN	NOUN	_	20	appos	_	TokenRange=193:200
+26	silva	silva	NOUN	NOUN	_	25	flat	_	TokenRange=201:206
+27	luna	luno	NOUN	NOUN	_	25	flat	_	TokenRange=207:211
+28	visitou	visitar	VERB	VERB	_	4	parataxis	_	TokenRange=212:219
+29	dois	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=220:224
+30	abrigos	abrigo	NOUN	NOUN	_	28	obj	_	TokenRange=225:232
+31	venezuelanos	venezuelano	ADJ	ADJ	_	30	amod	_	TokenRange=233:245
+32	boa	bom	ADJ	ADJ	_	33	amod	_	TokenRange=246:249
+33	vista	vista	NOUN	NOUN	_	30	appos	_	TokenRange=250:255
+34	pacaraima	_	ADJ	ADJ	_	33	amod	_	TokenRange=256:265
+35	cidade	cidade	NOUN	NOUN	_	30	appos	_	TokenRange=266:272
+36	fronteira	_	ADJ	ADJ	_	35	amod	_	TokenRange=273:282
+37	venezuela	venezuelo	ADJ	ADJ	_	35	amod	_	TokenRange=283:292
+38	nesta	_	ADP	ADP	_	39	case	_	TokenRange=293:298
+39	segundafeira	_	NOUN	NOUN	_	28	nmod	_	TokenRange=299:311
+40	26	_	NUM	NUM	NumType=Card	39	appos	_	TokenRange=312:314
+41	roraima	roraima	NOUN	NOUN	_	28	parataxis	_	TokenRange=315:322
+42	lida	lido	ADJ	ADJ	_	45	amod	_	TokenRange=323:327
+43	desde	_	ADP	ADP	_	44	case	_	TokenRange=328:333
+44	2015	_	NUM	NUM	NumType=Card	45	nmod	_	TokenRange=334:338
+45	chegada	chegada	NOUN	NOUN	_	28	obj	_	TokenRange=339:346
+46	desenfreada	desenfreado	ADJ	ADJ	_	45	amod	_	TokenRange=347:358
+47	venezuelanos	venezuelano	ADJ	ADJ	_	45	amod	_	TokenRange=359:371
+48	cujo	_	DET	DET	_	49	det	_	TokenRange=372:376
+49	exodo	exodo	NOUN	NOUN	_	50	nsubj	_	TokenRange=377:382
+50	motivado	motivar	VERB	VERB	_	45	acl	_	TokenRange=383:391
+51	crise	crise	NOUN	NOUN	_	50	obj	_	TokenRange=392:397
+52	politica	_	ADJ	ADJ	_	51	amod	_	TokenRange=398:406
+53	economica	economico	ADJ	ADJ	_	51	amod	_	TokenRange=407:416
+54	social	social	ADJ	ADJ	_	51	amod	_	TokenRange=417:423
+55	pais	_	NOUN	NOUN	_	51	appos	_	TokenRange=424:428
+56	primeiros	primeiro	ADJ	ADJ	_	58	amod	_	TokenRange=429:438
+57	45	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=439:441
+58	dias	dia	NOUN	NOUN	_	63	nmod	_	TokenRange=442:446
+59	2018	_	NUM	NUM	NumType=Card	58	nmod	_	TokenRange=447:451
+60	18	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=452:454
+61	mil	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=455:458
+62	venezuelanos	venezuelano	NOUN	NOUN	_	63	nsubj	_	TokenRange=459:471
+63	cruzaram	cruzar	VERB	VERB	_	45	acl:relcl	_	TokenRange=472:480
+64	fronteira	_	NOUN	NOUN	_	63	obj	_	TokenRange=481:490
+65	estado	estado	NOUN	NOUN	_	64	flat	_	TokenRange=491:497
+66	boa	bom	ADJ	ADJ	_	67	amod	_	TokenRange=498:501
+67	vista	vista	NOUN	NOUN	_	64	appos	_	TokenRange=502:507
+68	abrigo	abrigo	NOUN	NOUN	_	63	nsubj	_	TokenRange=508:514
+69	tancredo	_	NOUN	NOUN	_	68	appos	_	TokenRange=515:523
+70	neves	neve	ADJ	ADJ	_	69	amod	_	TokenRange=524:529
+71	bairro	bairro	NOUN	NOUN	_	68	appos	_	TokenRange=530:536
+72	jardim	jardim	NOUN	NOUN	_	71	appos	_	TokenRange=537:543
+73	floresta	floresta	NOUN	NOUN	_	72	flat	_	TokenRange=544:552
+74	ambos	_	DET	DET	_	75	det	_	TokenRange=553:558
+75	zona	zona	NOUN	NOUN	_	77	nsubj	_	TokenRange=559:563
+76	oeste	oeste	ADJ	ADJ	_	75	amod	_	TokenRange=564:569
+77	chegarem	chegar	VERB	VERB	_	63	parataxis	_	TokenRange=570:578
+78	aqui	aqui	ADV	ADV	_	77	advmod	_	TokenRange=579:583
+79	imigrantes	imigrante	NOUN	NOUN	_	77	obj	_	TokenRange=584:594
+80	competem	competer	VERB	VERB	_	63	parataxis	_	TokenRange=595:603
+81	servico	servico	NOUN	NOUN	_	80	obj	_	TokenRange=604:611
+82	publico	publico	ADJ	ADJ	_	81	amod	_	SpaceAfter=No|TokenRange=612:619
+

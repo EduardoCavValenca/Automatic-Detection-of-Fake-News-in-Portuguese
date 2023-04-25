@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = porto alegre bem amarrados musica classica brasileira ultimos anos comecou desatado tarde ultimo sabado inauguracao casa musica orquestra sinfonica porto alegre sala concertos primeiro passo substituicao projeto original sede orquestra arrastava quase duas decadas horizonte claro resolucao historia comeca bem antes sabado criada 67 anos ospa ocupou diversos espacos capital gaucha nunca sede propria 2002
+1	porto	porto	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:5
+2	alegre	alegre	ADJ	ADJ	_	1	amod	_	TokenRange=6:12
+3	bem	bem	ADV	ADV	_	4	advmod	_	TokenRange=13:16
+4	amarrados	amarrado	ADJ	ADJ	_	5	amod	_	TokenRange=17:26
+5	musica	_	NOUN	NOUN	_	1	appos	_	TokenRange=27:33
+6	classica	classico	ADJ	ADJ	_	5	amod	_	TokenRange=34:42
+7	brasileira	brasileiro	ADJ	ADJ	_	5	amod	_	TokenRange=43:53
+8	ultimos	_	ADJ	ADJ	_	9	amod	_	TokenRange=54:61
+9	anos	ano	NOUN	NOUN	_	5	appos	_	TokenRange=62:66
+10	comecou	comecar	VERB	VERB	_	0	root	_	TokenRange=67:74
+11	desatado	desatado	ADJ	ADJ	_	10	xcomp	_	TokenRange=75:83
+12	tarde	tarde	ADV	ADV	_	10	advmod	_	TokenRange=84:89
+13	ultimo	_	ADJ	ADJ	_	14	amod	_	TokenRange=90:96
+14	sabado	sabado	NOUN	NOUN	_	10	nmod	_	TokenRange=97:103
+15	inauguracao	inauguracao	ADJ	ADJ	_	16	amod	_	TokenRange=104:115
+16	casa	casa	NOUN	NOUN	_	14	appos	_	TokenRange=116:120
+17	musica	musico	ADJ	ADJ	_	16	amod	_	TokenRange=121:127
+18	orquestra	orquestra	NOUN	NOUN	_	16	appos	_	TokenRange=128:137
+19	sinfonica	sinfonico	ADJ	ADJ	_	18	amod	_	TokenRange=138:147
+20	porto	_	NOUN	NOUN	_	18	appos	_	TokenRange=148:153
+21	alegre	alegre	ADJ	ADJ	_	18	amod	_	TokenRange=154:160
+22	sala	sala	NOUN	NOUN	_	18	appos	_	TokenRange=161:165
+23	concertos	concerto	NOUN	NOUN	_	22	flat	_	TokenRange=166:175
+24	primeiro	primeiro	ADJ	ADJ	_	25	amod	_	TokenRange=176:184
+25	passo	passo	NOUN	NOUN	_	22	appos	_	TokenRange=185:190
+26	substituicao	substituicao	ADJ	ADJ	_	27	amod	_	TokenRange=191:203
+27	projeto	projeto	NOUN	NOUN	_	22	appos	_	TokenRange=204:211
+28	original	original	ADJ	ADJ	_	27	amod	_	TokenRange=212:220
+29	sede	sede	NOUN	NOUN	_	31	nsubj	_	TokenRange=221:225
+30	orquestra	orquestra	NOUN	NOUN	_	29	flat	_	TokenRange=226:235
+31	arrastava	arrastar	VERB	VERB	_	10	parataxis	_	TokenRange=236:245
+32	quase	quase	ADV	ADV	_	33	advmod	_	TokenRange=246:251
+33	duas	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=252:256
+34	decadas	decada	NOUN	NOUN	_	31	obj	_	TokenRange=257:264
+35	horizonte	horizonte	NOUN	NOUN	_	31	obj	_	TokenRange=265:274
+36	claro	claro	ADJ	ADJ	_	35	amod	_	TokenRange=275:280
+37	resolucao	resolucao	ADJ	ADJ	_	35	amod	_	TokenRange=281:290
+38	historia	historia	NOUN	NOUN	_	39	nsubj	_	TokenRange=291:299
+39	comeca	_	VERB	VERB	_	31	parataxis	_	TokenRange=300:306
+40	bem	bem	ADV	ADV	_	41	advmod	_	TokenRange=307:310
+41	antes	antes	ADV	ADV	_	39	advmod	_	TokenRange=311:316
+42	sabado	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=317:323
+43	criada	criar	VERB	VERB	_	42	acl	_	TokenRange=324:330
+44	67	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=331:333
+45	anos	ano	NOUN	NOUN	_	43	nmod	_	TokenRange=334:338
+46	ospa	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=339:343
+47	ocupou	ocupar	VERB	VERB	_	31	parataxis	_	TokenRange=344:350
+48	diversos	_	DET	DET	_	49	det	_	TokenRange=351:359
+49	espacos	espaco	NOUN	NOUN	_	47	obj	_	TokenRange=360:367
+50	capital	capital	NOUN	NOUN	_	49	amod	_	TokenRange=368:375
+51	gaucha	gaucho	ADJ	ADJ	_	50	amod	_	TokenRange=376:382
+52	nunca	nunca	ADV	ADV	_	53	advmod	_	TokenRange=383:388
+53	sede	sede	NOUN	NOUN	_	47	obj	_	TokenRange=389:393
+54	propria	proprio	ADJ	ADJ	_	53	amod	_	TokenRange=394:401
+55	2002	_	NUM	NUM	NumType=Card	53	nmod	_	SpaceAfter=No|TokenRange=402:406
+

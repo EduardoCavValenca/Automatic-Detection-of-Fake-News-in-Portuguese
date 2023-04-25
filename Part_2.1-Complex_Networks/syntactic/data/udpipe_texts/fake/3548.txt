@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aviao forca aerea brasileira chega tocantins desobstruir br153 rodovia bloqueada desde noite domingo 8 caminhoneiros interditaram via protesto aviao forca aerea brasileira fab chegou tocantins inicio tarde ontem 12/11 trouxe reforco forca nacional desobstrucao br153 colinas tocantins norte estado policia militar policia rodoviaria federal local desde segundafeira 9 durante noite confronto manifestantes jogaram pedras policiais revidaram bombas gas efeito moral motoristas reclamaram gas lancado mulheres criancas presentes posto combustivel proximo bloqueio rodovia continua trafego impedido ainda previsao forca nacional comecara desbloqueio br153
+1	aviao	aviao	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	forca	forca	NOUN	NOUN	_	5	nsubj	_	TokenRange=6:11
+3	aerea	aereo	ADJ	ADJ	_	2	amod	_	TokenRange=12:17
+4	brasileira	brasileiro	ADJ	ADJ	_	2	amod	_	TokenRange=18:28
+5	chega	chegar	VERB	VERB	_	0	root	_	TokenRange=29:34
+6	tocantins	tocantim	NOUN	NOUN	_	5	obj	_	TokenRange=35:44
+7	desobstruir	desobstruir	VERB	VERB	_	5	xcomp	_	TokenRange=45:56
+8	br153	_	NUM	NUM	_	9	amod	_	TokenRange=57:62
+9	rodovia	rodovia	NOUN	NOUN	_	7	obj	_	TokenRange=63:70
+10	bloqueada	bloquear	VERB	VERB	_	9	acl	_	TokenRange=71:80
+11	desde	_	ADP	ADP	_	12	case	_	TokenRange=81:86
+12	noite	noite	NOUN	NOUN	_	10	nmod	_	TokenRange=87:92
+13	domingo	_	PROPN	PNOUN	_	12	appos	_	TokenRange=93:100
+14	8	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=101:102
+15	caminhoneiros	caminhoneiro	NOUN	NOUN	_	16	nsubj	_	TokenRange=103:116
+16	interditaram	interditar	VERB	VERB	_	5	parataxis	_	TokenRange=117:129
+17	via	_	ADP	ADP	_	18	case	_	TokenRange=130:133
+18	protesto	protesto	NOUN	NOUN	_	16	nmod	_	TokenRange=134:142
+19	aviao	aviao	NOUN	NOUN	_	16	nsubj	_	TokenRange=143:148
+20	forca	forca	NOUN	NOUN	_	18	appos	_	TokenRange=149:154
+21	aerea	aereo	ADJ	ADJ	_	20	amod	_	TokenRange=155:160
+22	brasileira	brasileiro	ADJ	ADJ	_	20	amod	_	TokenRange=161:171
+23	fab	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=172:175
+24	chegou	chegar	VERB	VERB	_	5	parataxis	_	TokenRange=176:182
+25	tocantins	tocantim	NOUN	NOUN	_	24	obj	_	TokenRange=183:192
+26	inicio	_	ADJ	ADJ	_	27	amod	_	TokenRange=193:199
+27	tarde	tarde	NOUN	NOUN	_	24	nmod	_	TokenRange=200:205
+28	ontem	ontem	ADV	ADV	_	30	advmod	_	TokenRange=206:211
+29	12/11	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=212:217
+30	trouxe	trazer	VERB	VERB	_	16	parataxis	_	TokenRange=218:224
+31	reforco	reforco	NOUN	NOUN	_	30	obj	_	TokenRange=225:232
+32	forca	forca	NOUN	NOUN	_	31	appos	_	TokenRange=233:238
+33	nacional	nacional	ADJ	ADJ	_	31	amod	_	TokenRange=239:247
+34	desobstrucao	desobstrucao	NOUN	NOUN	_	30	obj	_	TokenRange=248:260
+35	br153	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=261:266
+36	colinas	colina	NOUN	NOUN	_	31	appos	_	TokenRange=267:274
+37	tocantins	tocantim	ADJ	ADJ	_	36	amod	_	TokenRange=275:284
+38	norte	norte	ADJ	ADJ	_	39	amod	_	TokenRange=285:290
+39	estado	estado	NOUN	NOUN	_	36	appos	_	TokenRange=291:297
+40	policia	policia	NOUN	NOUN	_	30	nsubj	_	TokenRange=298:305
+41	militar	militar	ADJ	ADJ	_	40	amod	_	TokenRange=306:313
+42	policia	policia	NOUN	NOUN	_	30	nsubj	_	TokenRange=314:321
+43	rodoviaria	rodoviario	ADJ	ADJ	_	42	amod	_	TokenRange=322:332
+44	federal	federal	ADJ	ADJ	_	42	amod	_	TokenRange=333:340
+45	local	local	ADJ	ADJ	_	42	amod	_	TokenRange=341:346
+46	desde	_	ADP	ADP	_	47	case	_	TokenRange=347:352
+47	segundafeira	_	NOUN	NOUN	_	53	nmod	_	TokenRange=353:365
+48	9	_	NUM	NUM	NumType=Card	47	appos	_	TokenRange=366:367
+49	durante	_	ADP	ADP	_	50	case	_	TokenRange=368:375
+50	noite	noite	NOUN	NOUN	_	53	nmod	_	TokenRange=376:381
+51	confronto	confronto	NOUN	NOUN	_	50	flat	_	TokenRange=382:391
+52	manifestantes	manifestante	NOUN	NOUN	_	50	amod	_	TokenRange=392:405
+53	jogaram	jogar	VERB	VERB	_	16	parataxis	_	TokenRange=406:413
+54	pedras	pedra	NOUN	NOUN	_	53	obj	_	TokenRange=414:420
+55	policiais	policial	ADJ	ADJ	_	54	amod	_	TokenRange=421:430
+56	revidaram	revidar	VERB	VERB	_	53	parataxis	_	TokenRange=431:440
+57	bombas	bomba	NOUN	NOUN	_	56	obj	_	TokenRange=441:447
+58	gas	_	NOUN	NOUN	_	59	flat	_	TokenRange=448:451
+59	efeito	efeito	NOUN	NOUN	_	57	appos	_	TokenRange=452:458
+60	moral	moral	ADJ	ADJ	_	59	amod	_	TokenRange=459:464
+61	motoristas	motorista	NOUN	NOUN	_	62	nsubj	_	TokenRange=465:475
+62	reclamaram	reclamar	VERB	VERB	_	57	acl:relcl	_	TokenRange=476:486
+63	gas	gas	NOUN	NOUN	_	62	obj	_	TokenRange=487:490
+64	lancado	lancar	VERB	VERB	_	63	acl	_	TokenRange=491:498
+65	mulheres	mulher	NOUN	NOUN	_	62	nsubj	_	TokenRange=499:507
+66	criancas	crianca	NOUN	NOUN	_	65	appos	_	TokenRange=508:516
+67	presentes	presente	ADJ	ADJ	_	66	amod	_	TokenRange=517:526
+68	posto	_	NOUN	NOUN	_	62	nmod	_	TokenRange=527:532
+69	combustivel	combustivel	NOUN	NOUN	_	68	flat	_	TokenRange=533:544
+70	proximo	proximo	ADJ	ADJ	_	71	amod	_	TokenRange=545:552
+71	bloqueio	bloqueio	NOUN	NOUN	_	73	nsubj	_	TokenRange=553:561
+72	rodovia	rodovia	NOUN	NOUN	_	71	amod	_	TokenRange=562:569
+73	continua	continuar	VERB	VERB	_	56	parataxis	_	TokenRange=570:578
+74	trafego	trafego	NOUN	NOUN	_	73	obj	_	TokenRange=579:586
+75	impedido	impedido	ADJ	ADJ	_	74	amod	_	TokenRange=587:595
+76	ainda	ainda	ADV	ADV	_	77	advmod	_	TokenRange=596:601
+77	previsao	previsao	ADJ	ADJ	_	78	amod	_	TokenRange=602:610
+78	forca	forca	NOUN	NOUN	_	80	nsubj	_	TokenRange=611:616
+79	nacional	nacional	ADJ	ADJ	_	78	amod	_	TokenRange=617:625
+80	comecara	comecar	VERB	VERB	_	73	parataxis	_	TokenRange=626:634
+81	desbloqueio	desbloqueio	NOUN	NOUN	_	80	obj	_	TokenRange=635:646
+82	br153	_	NUM	NUM	NumType=Card	81	appos	_	SpaceAfter=No|TokenRange=647:652
+

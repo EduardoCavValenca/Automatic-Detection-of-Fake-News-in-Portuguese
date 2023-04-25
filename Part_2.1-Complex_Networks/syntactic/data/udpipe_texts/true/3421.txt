@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maduro diz predio suprema corte venezuela atacado helicoptero presidente diz acionou forcas armadas deputados denunciam ataque civis parlamento presidente venezuela nicolas maduro disse nesta tercafeira 27 helicoptero policia cientifica atacou suprema corte caracas segundo algumas granadas lancadas contra predio helicoptero sobrevoou predio ministerio interior presidente
+1	maduro	maduro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=7:10
+3	predio	predio	NOUN	NOUN	_	2	obj	_	TokenRange=11:17
+4	suprema	supremo	ADJ	ADJ	_	5	amod	_	TokenRange=18:25
+5	corte	corte	NOUN	NOUN	_	2	obj	_	TokenRange=26:31
+6	venezuela	_	ADJ	ADJ	_	5	amod	_	TokenRange=32:41
+7	atacado	atacar	VERB	VERB	_	5	acl	_	TokenRange=42:49
+8	helicoptero	helicoptero	NOUN	NOUN	_	7	nsubj	_	TokenRange=50:61
+9	presidente	presidente	NOUN	NOUN	_	10	nsubj	_	TokenRange=62:72
+10	diz	dizer	VERB	VERB	_	11	parataxis	_	TokenRange=73:76
+11	acionou	acionar	VERB	VERB	_	2	conj	_	TokenRange=77:84
+12	forcas	forca	NOUN	NOUN	_	11	obj	_	TokenRange=85:91
+13	armadas	armado	ADJ	ADJ	_	12	amod	_	TokenRange=92:99
+14	deputados	deputado	NOUN	NOUN	_	12	appos	_	TokenRange=100:109
+15	denunciam	denunciar	VERB	VERB	_	12	acl:relcl	_	TokenRange=110:119
+16	ataque	ataque	NOUN	NOUN	_	15	obj	_	TokenRange=120:126
+17	civis	civil	ADJ	ADJ	_	16	amod	_	TokenRange=127:132
+18	parlamento	parlamento	NOUN	NOUN	_	16	appos	_	TokenRange=133:143
+19	presidente	presidente	NOUN	NOUN	_	18	appos	_	TokenRange=144:154
+20	venezuela	venezuelo	ADJ	ADJ	_	19	amod	_	TokenRange=155:164
+21	nicolas	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=165:172
+22	maduro	maduro	NOUN	NOUN	_	21	flat	_	TokenRange=173:179
+23	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=180:185
+24	nesta	_	ADP	ADP	_	25	case	_	TokenRange=186:191
+25	tercafeira	_	NOUN	NOUN	_	23	nmod	_	TokenRange=192:202
+26	27	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=203:205
+27	helicoptero	helicoptero	NOUN	NOUN	_	30	nsubj	_	TokenRange=206:217
+28	policia	policia	NOUN	NOUN	_	30	nsubj	_	TokenRange=218:225
+29	cientifica	cientifico	ADJ	ADJ	_	28	amod	_	TokenRange=226:236
+30	atacou	atacar	VERB	VERB	_	23	conj	_	TokenRange=237:243
+31	suprema	supremo	ADJ	ADJ	_	32	amod	_	TokenRange=244:251
+32	corte	corte	NOUN	NOUN	_	30	obj	_	TokenRange=252:257
+33	caracas	caraca	ADJ	ADJ	_	32	amod	_	TokenRange=258:265
+34	segundo	_	ADP	ADP	_	36	case	_	TokenRange=266:273
+35	algumas	_	DET	DET	_	36	det	_	TokenRange=274:281
+36	granadas	granada	NOUN	NOUN	_	30	nmod	_	TokenRange=282:290
+37	lancadas	lancar	VERB	VERB	_	36	acl	_	TokenRange=291:299
+38	contra	_	ADP	ADP	_	39	case	_	TokenRange=300:306
+39	predio	predio	NOUN	NOUN	_	37	nmod	_	TokenRange=307:313
+40	helicoptero	helicoptero	NOUN	NOUN	_	41	nsubj	_	TokenRange=314:325
+41	sobrevoou	sobrevoar	VERB	VERB	_	30	parataxis	_	TokenRange=326:335
+42	predio	predio	NOUN	NOUN	_	41	obj	_	TokenRange=336:342
+43	ministerio	ministerio	NOUN	NOUN	_	42	amod	_	TokenRange=343:353
+44	interior	interior	ADJ	ADJ	_	45	amod	_	TokenRange=354:362
+45	presidente	presidente	NOUN	NOUN	_	42	appos	_	SpaceAfter=No|TokenRange=363:373
+

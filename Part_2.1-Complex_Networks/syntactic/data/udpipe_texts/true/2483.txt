@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = farofeiros documentario sobre torquato neto estreias semana confira filmes entram cartaz cinemas brasileiros nesta quintafeira 8 feriado infernal divertido farofeiros brasil 2017 99 mindir roberto santucci mauricio manfrini cacau protasio danielle winits charles paraventi aline riscado antonio fragoso nilton bicudo luiz carlos merten roberto santucci diretor criticos amam odiar lista sucessos imensa
+1	farofeiros	farofeiro	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:10
+2	documentario	documentario	NOUN	NOUN	_	1	appos	_	TokenRange=11:23
+3	sobre	_	ADP	ADP	_	4	case	_	TokenRange=24:29
+4	torquato	torquato	NOUN	NOUN	_	2	nmod	_	TokenRange=30:38
+5	neto	neto	ADJ	ADJ	_	4	amod	_	TokenRange=39:43
+6	estreias	estreia	NOUN	NOUN	_	4	appos	_	TokenRange=44:52
+7	semana	semana	NOUN	NOUN	_	4	flat	_	TokenRange=53:59
+8	confira	conferir	VERB	VERB	_	1	acl:relcl	_	TokenRange=60:67
+9	filmes	filme	NOUN	NOUN	_	8	obj	_	TokenRange=68:74
+10	entram	entrar	VERB	VERB	_	0	root	_	TokenRange=75:81
+11	cartaz	cartaz	NOUN	NOUN	_	10	obj	_	TokenRange=82:88
+12	cinemas	cinema	NOUN	NOUN	_	10	obj	_	TokenRange=89:96
+13	brasileiros	brasileiro	ADJ	ADJ	_	12	amod	_	TokenRange=97:108
+14	nesta	_	ADP	ADP	_	15	case	_	TokenRange=109:114
+15	quintafeira	quintafeira	NOUN	NOUN	_	10	nmod	_	TokenRange=115:126
+16	8	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=127:128
+17	feriado	feriado	NOUN	NOUN	_	15	appos	_	TokenRange=129:136
+18	infernal	infernal	ADJ	ADJ	_	17	amod	_	TokenRange=137:145
+19	divertido	divertido	ADJ	ADJ	_	20	amod	_	TokenRange=146:155
+20	farofeiros	farofeiro	NOUN	NOUN	_	17	appos	_	TokenRange=156:166
+21	brasil	brasil	ADJ	ADJ	_	20	amod	_	TokenRange=167:173
+22	2017	_	NUM	NUM	NumType=Card	20	nmod	_	TokenRange=174:178
+23	99	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=179:181
+24	mindir	mindir	NOUN	NOUN	_	10	nsubj	_	TokenRange=182:188
+25	roberto	roberto	NOUN	NOUN	_	24	appos	_	TokenRange=189:196
+26	santucci	_	NOUN	NOUN	_	25	flat	_	TokenRange=197:205
+27	mauricio	mauricio	NOUN	NOUN	_	25	appos	_	TokenRange=206:214
+28	manfrini	manfrini	ADJ	ADJ	_	25	amod	_	TokenRange=215:223
+29	cacau	cacau	NOUN	NOUN	_	25	appos	_	TokenRange=224:229
+30	protasio	protasio	NOUN	NOUN	_	29	flat	_	TokenRange=230:238
+31	danielle	_	NOUN	NOUN	_	29	appos	_	TokenRange=239:247
+32	winits	_	NOUN	NOUN	_	31	flat	_	TokenRange=248:254
+33	charles	_	NOUN	NOUN	_	31	flat	_	TokenRange=255:262
+34	paraventi	_	NOUN	NOUN	_	31	flat	_	TokenRange=263:272
+35	aline	_	NOUN	NOUN	_	31	flat	_	TokenRange=273:278
+36	riscado	riscado	ADJ	ADJ	_	35	amod	_	TokenRange=279:286
+37	antonio	antonio	NOUN	NOUN	_	35	appos	_	TokenRange=287:294
+38	fragoso	fragoso	ADJ	ADJ	_	37	amod	_	TokenRange=295:302
+39	nilton	_	NOUN	NOUN	_	35	appos	_	TokenRange=303:309
+40	bicudo	bicudo	ADJ	NOUN	_	41	flat	_	TokenRange=310:316
+41	luiz	luiz	NOUN	NOUN	_	49	nsubj	_	TokenRange=317:321
+42	carlos	_	NOUN	NOUN	_	41	flat	_	TokenRange=322:328
+43	merten	_	NOUN	NOUN	_	41	flat	_	TokenRange=329:335
+44	roberto	roberto	NOUN	NOUN	_	41	appos	_	TokenRange=336:343
+45	santucci	_	ADJ	ADJ	_	46	amod	_	TokenRange=344:352
+46	diretor	diretor	NOUN	NOUN	_	49	nsubj	_	TokenRange=353:360
+47	criticos	critico	ADJ	ADJ	_	46	amod	_	TokenRange=361:369
+48	amam	amar	AUX	AUX	_	49	aux	_	TokenRange=370:374
+49	odiar	odiar	VERB	VERB	_	10	parataxis	_	TokenRange=375:380
+50	lista	lista	NOUN	NOUN	_	49	obj	_	TokenRange=381:386
+51	sucessos	sucesso	NOUN	NOUN	_	50	appos	_	TokenRange=387:395
+52	imensa	imenso	ADJ	ADJ	_	51	amod	_	SpaceAfter=No|TokenRange=396:402
+

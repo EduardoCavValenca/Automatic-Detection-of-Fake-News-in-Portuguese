@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ativistas lamentam partida navio 25 mil bois porto santos luto grupo acompanhou desfecho impasse reteve embarcacao pais desde dia 1 fevereiro ativistas acompanham desde inicio embarque 25 mil cabecas gado navio nada atracado porto santos litoral paulo assistiram inicio madrugada desta segundafeira 5 partida embarcacao transportara bois turquia grupo luta direitos animais alegava bois sofriam maus tratos bordo navio afirma luta continua navio 25 mil cabecas gado bordo recebeu
+1	ativistas	ativista	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	lamentam	lamentar	VERB	VERB	_	0	root	_	TokenRange=10:18
+3	partida	partida	NOUN	NOUN	_	2	obj	_	TokenRange=19:26
+4	navio	navio	NOUN	NOUN	_	3	appos	_	TokenRange=27:32
+5	25	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=33:35
+6	mil	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=36:39
+7	bois	boi	NOUN	NOUN	_	3	appos	_	TokenRange=40:44
+8	porto	porto	NOUN	NOUN	_	7	appos	_	TokenRange=45:50
+9	santos	santo	ADJ	ADJ	_	8	amod	_	TokenRange=51:57
+10	luto	_	ADJ	ADJ	_	11	amod	_	TokenRange=58:62
+11	grupo	grupo	NOUN	NOUN	_	12	nsubj	_	TokenRange=63:68
+12	acompanhou	acompanhar	VERB	VERB	_	7	acl:relcl	_	TokenRange=69:79
+13	desfecho	desfecho	NOUN	NOUN	_	12	obj	_	TokenRange=80:88
+14	impasse	impasse	NOUN	NOUN	_	12	nsubj	_	TokenRange=89:96
+15	reteve	reter	VERB	VERB	_	2	parataxis	_	TokenRange=97:103
+16	embarcacao	embarcacao	NOUN	NOUN	_	15	obj	_	TokenRange=104:114
+17	pais	_	NOUN	NOUN	_	16	appos	_	TokenRange=115:119
+18	desde	_	ADP	ADP	_	19	case	_	TokenRange=120:125
+19	dia	dia	NOUN	NOUN	_	15	nmod	_	TokenRange=126:129
+20	1	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=130:131
+21	fevereiro	_	PROPN	PNOUN	_	19	nmod	_	TokenRange=132:141
+22	ativistas	ativista	NOUN	NOUN	_	23	nsubj	_	TokenRange=142:151
+23	acompanham	acompanhar	VERB	VERB	_	2	parataxis	_	TokenRange=152:162
+24	desde	_	ADP	ADP	_	25	case	_	TokenRange=163:168
+25	inicio	_	NOUN	NOUN	_	23	nmod	_	TokenRange=169:175
+26	embarque	embarque	NOUN	NOUN	_	23	obj	_	TokenRange=176:184
+27	25	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=185:187
+28	mil	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=188:191
+29	cabecas	cabeca	NOUN	NOUN	_	23	obj	_	TokenRange=192:199
+30	gado	gado	ADJ	ADJ	_	29	amod	_	TokenRange=200:204
+31	navio	navio	NOUN	NOUN	_	29	appos	_	TokenRange=205:210
+32	nada	_	PRON	PRON	_	33	advmod	_	TokenRange=211:215
+33	atracado	atracar	ADJ	VERB	_	31	acl	_	TokenRange=216:224
+34	porto	_	NOUN	NOUN	_	33	nmod	_	TokenRange=225:230
+35	santos	santo	ADJ	ADJ	_	34	amod	_	TokenRange=231:237
+36	litoral	litoral	NOUN	NOUN	_	34	amod	_	TokenRange=238:245
+37	paulo	paulo	NOUN	NOUN	_	36	amod	_	TokenRange=246:251
+38	assistiram	assistir	VERB	VERB	_	2	parataxis	_	TokenRange=252:262
+39	inicio	_	ADJ	ADJ	_	40	amod	_	TokenRange=263:269
+40	madrugada	madrugada	NOUN	NOUN	_	38	obj	_	TokenRange=270:279
+41	desta	_	ADP	ADP	_	42	case	_	TokenRange=280:285
+42	segundafeira	_	NOUN	NOUN	_	40	nmod	_	TokenRange=286:298
+43	5	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=299:300
+44	partida	partida	NOUN	NOUN	_	38	nsubj	_	TokenRange=301:308
+45	embarcacao	embarcacao	NOUN	NOUN	_	44	appos	_	TokenRange=309:319
+46	transportara	transportar	VERB	VERB	_	38	parataxis	_	TokenRange=320:332
+47	bois	boi	NOUN	NOUN	_	46	obj	_	TokenRange=333:337
+48	turquia	turquia	NOUN	NOUN	_	46	obj	_	TokenRange=338:345
+49	grupo	grupo	NOUN	NOUN	_	46	nsubj	_	TokenRange=346:351
+50	luta	luta	NOUN	NOUN	_	44	appos	_	TokenRange=352:356
+51	direitos	direito	NOUN	NOUN	_	50	appos	_	TokenRange=357:365
+52	animais	animal	ADJ	ADJ	_	51	amod	_	TokenRange=366:373
+53	alegava	alegar	VERB	VERB	_	46	parataxis	_	TokenRange=374:381
+54	bois	boi	NOUN	NOUN	_	55	nsubj	_	TokenRange=382:386
+55	sofriam	sofrer	VERB	VERB	_	53	ccomp	_	TokenRange=387:394
+56	maus	mau	ADJ	ADJ	_	57	amod	_	TokenRange=395:399
+57	tratos	trato	NOUN	NOUN	_	55	obj	_	TokenRange=400:406
+58	bordo	bordo	ADJ	ADJ	_	57	amod	_	TokenRange=407:412
+59	navio	navio	NOUN	NOUN	_	60	nsubj	_	TokenRange=413:418
+60	afirma	afirmar	VERB	VERB	_	53	parataxis	_	TokenRange=419:425
+61	luta	luta	NOUN	NOUN	_	69	obj	_	TokenRange=426:430
+62	continua	continuo	ADJ	ADJ	_	61	amod	_	TokenRange=431:439
+63	navio	navio	NOUN	NOUN	_	69	nsubj	_	TokenRange=440:445
+64	25	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=446:448
+65	mil	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=449:452
+66	cabecas	cabeca	NOUN	NOUN	_	69	nsubj	_	TokenRange=453:460
+67	gado	gado	ADJ	ADJ	_	66	amod	_	TokenRange=461:465
+68	bordo	bordo	NOUN	NOUN	_	69	nsubj	_	TokenRange=466:471
+69	recebeu	receber	VERB	VERB	_	2	parataxis	_	SpaceAfter=No|TokenRange=472:479
+

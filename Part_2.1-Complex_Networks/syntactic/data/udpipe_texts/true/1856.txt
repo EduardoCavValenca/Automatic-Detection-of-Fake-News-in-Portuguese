@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = democracia brasil merece fim afirma renan calheiros senador criticou decisao liminar provisoria ministro marco aurelio mello stf afastou presidencia senado caso deve julgado nesta quarta plenario supremo senador renan calheiros pmdbal criticou rapida entrevista nesta tercafeira 6 decisao ministro marco aurelio mello supremo tribunal federal stf afastou presidencia senado responder pergunta sobre decisao mesa diretora senado cumprir decisao liminar provisoria marco aurelio mello aguardar deliberacao caso plenario stf provavelmente nesta quartafeira 7 renan calheiros afirmou tomar decisao nove dias
+1	democracia	democracia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	brasil	brasil	ADJ	ADJ	_	1	amod	_	TokenRange=11:17
+3	merece	merecer	VERB	VERB	_	0	root	_	TokenRange=18:24
+4	fim	fim	NOUN	NOUN	_	3	obj	_	TokenRange=25:28
+5	afirma	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=29:35
+6	renan	renan	NOUN	NOUN	_	9	nsubj	_	TokenRange=36:41
+7	calheiros	calheiro	NOUN	NOUN	_	6	flat	_	TokenRange=42:51
+8	senador	senador	NOUN	NOUN	_	6	flat	_	TokenRange=52:59
+9	criticou	criticar	VERB	VERB	_	5	ccomp	_	TokenRange=60:68
+10	decisao	decisao	NOUN	NOUN	_	9	obj	_	TokenRange=69:76
+11	liminar	liminar	ADJ	ADJ	_	10	amod	_	TokenRange=77:84
+12	provisoria	provisorio	ADJ	ADJ	_	10	amod	_	TokenRange=85:95
+13	ministro	ministro	NOUN	NOUN	_	18	nsubj	_	TokenRange=96:104
+14	marco	marco	NOUN	NOUN	_	13	appos	_	TokenRange=105:110
+15	aurelio	aurelio	NOUN	NOUN	_	14	flat	_	TokenRange=111:118
+16	mello	mello	ADJ	NOUN	_	14	flat	_	TokenRange=119:124
+17	stf	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=125:128
+18	afastou	afastar	VERB	VERB	_	3	parataxis	_	TokenRange=129:136
+19	presidencia	presidencia	NOUN	NOUN	_	18	obj	_	TokenRange=137:148
+20	senado	senado	ADJ	ADJ	_	19	amod	_	TokenRange=149:155
+21	caso	caso	CCONJ	CONJ	_	23	mark	_	TokenRange=156:160
+22	deve	dever	AUX	AUX	_	23	aux	_	TokenRange=161:165
+23	julgado	julgar	VERB	VERB	_	18	advcl	_	TokenRange=166:173
+24	nesta	_	ADP	ADP	_	26	case	_	TokenRange=174:179
+25	quarta	_	ADJ	ADJ	_	26	amod	_	TokenRange=180:186
+26	plenario	plenario	NOUN	NOUN	_	23	nmod	_	TokenRange=187:195
+27	supremo	supremo	ADJ	ADJ	_	26	amod	_	TokenRange=196:203
+28	senador	senador	NOUN	NOUN	_	32	nsubj	_	TokenRange=204:211
+29	renan	_	NOUN	NOUN	_	28	appos	_	TokenRange=212:217
+30	calheiros	calheiro	NOUN	NOUN	_	29	flat	_	TokenRange=218:227
+31	pmdbal	_	ADJ	ADJ	_	29	amod	_	TokenRange=228:234
+32	criticou	criticar	VERB	VERB	_	18	parataxis	_	TokenRange=235:243
+33	rapida	rapido	ADJ	ADJ	_	34	amod	_	TokenRange=244:250
+34	entrevista	entrevista	NOUN	NOUN	_	32	obj	_	TokenRange=251:261
+35	nesta	_	ADP	ADP	_	36	case	_	TokenRange=262:267
+36	tercafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=268:278
+37	6	_	NUM	NUM	NumType=Card	36	appos	_	TokenRange=279:280
+38	decisao	decisao	NOUN	NOUN	_	36	appos	_	TokenRange=281:288
+39	ministro	ministro	NOUN	NOUN	_	38	appos	_	TokenRange=289:297
+40	marco	marco	NOUN	NOUN	_	38	appos	_	TokenRange=298:303
+41	aurelio	aurelio	NOUN	NOUN	_	40	flat	_	TokenRange=304:311
+42	mello	mello	ADJ	ADJ	_	40	flat	_	TokenRange=312:317
+43	supremo	supremo	ADJ	ADJ	_	44	amod	_	TokenRange=318:325
+44	tribunal	tribunal	NOUN	NOUN	_	47	nsubj	_	TokenRange=326:334
+45	federal	federal	ADJ	ADJ	_	44	amod	_	TokenRange=335:342
+46	stf	_	NOUN	NOUN	_	44	amod	_	TokenRange=343:346
+47	afastou	afastar	VERB	VERB	_	32	conj	_	TokenRange=347:354
+48	presidencia	presidencia	NOUN	NOUN	_	47	obj	_	TokenRange=355:366
+49	senado	senado	NOUN	NOUN	_	48	amod	_	TokenRange=367:373
+50	responder	responder	VERB	VERB	_	47	xcomp	_	TokenRange=374:383
+51	pergunta	pergunta	NOUN	NOUN	_	50	obj	_	TokenRange=384:392
+52	sobre	_	ADP	ADP	_	53	case	_	TokenRange=393:398
+53	decisao	decisao	NOUN	NOUN	_	51	nmod	_	TokenRange=399:406
+54	mesa	mesa	NOUN	NOUN	_	57	nsubj	_	TokenRange=407:411
+55	diretora	diretor	ADJ	ADJ	_	54	amod	_	TokenRange=412:420
+56	senado	senado	NOUN	NOUN	_	54	amod	_	TokenRange=421:427
+57	cumprir	cumprir	VERB	VERB	_	51	nmod	_	TokenRange=428:435
+58	decisao	decisao	NOUN	NOUN	_	57	obj	_	TokenRange=436:443
+59	liminar	liminar	ADJ	ADJ	_	58	amod	_	TokenRange=444:451
+60	provisoria	provisorio	ADJ	ADJ	_	58	amod	_	TokenRange=452:462
+61	marco	marco	NOUN	NOUN	_	57	nsubj	_	TokenRange=463:468
+62	aurelio	aurelio	NOUN	NOUN	_	61	flat	_	TokenRange=469:476
+63	mello	mello	ADJ	ADJ	_	61	amod	_	TokenRange=477:482
+64	aguardar	aguardar	VERB	VERB	_	57	conj	_	TokenRange=483:491
+65	deliberacao	deliberacao	NOUN	NOUN	_	64	obj	_	TokenRange=492:503
+66	caso	_	NOUN	NOUN	_	67	case	_	TokenRange=504:508
+67	plenario	plenario	NOUN	NOUN	_	64	nmod	_	TokenRange=509:517
+68	stf	_	NOUN	NOUN	_	67	appos	_	TokenRange=518:521
+69	provavelmente	provavelmente	ADV	ADV	_	75	advmod	_	TokenRange=522:535
+70	nesta	_	ADP	ADP	_	71	case	_	TokenRange=536:541
+71	quartafeira	_	NOUN	NOUN	_	75	nmod	_	TokenRange=542:553
+72	7	_	NUM	NUM	NumType=Card	71	appos	_	TokenRange=554:555
+73	renan	renan	NOUN	NOUN	_	75	nsubj	_	TokenRange=556:561
+74	calheiros	calheiro	NOUN	NOUN	_	73	flat	_	TokenRange=562:571
+75	afirmou	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=572:579
+76	tomar	tomar	VERB	VERB	_	75	xcomp	_	TokenRange=580:585
+77	decisao	decisao	NOUN	NOUN	_	76	obj	_	TokenRange=586:593
+78	nove	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=594:598
+79	dias	dia	NOUN	NOUN	_	76	nmod	_	SpaceAfter=No|TokenRange=599:603
+

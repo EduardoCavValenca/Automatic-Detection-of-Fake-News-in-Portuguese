@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exmarido dilma gente assaltava bancos roubava quarteis pegar armas romantico segundo araujo grupo praticou assaltos banco roubos caminhoes carne alem acoes quarteis pegar armas
+1	exmarido	exmarido	ADJ	ADJ	_	4	nsubj	_	TokenRange=0:8
+2	dilma	dilma	ADJ	ADJ	_	3	amod	_	TokenRange=9:14
+3	gente	gente	NOUN	NOUN	_	4	nsubj	_	TokenRange=15:20
+4	assaltava	assaltar	VERB	VERB	_	0	root	_	TokenRange=21:30
+5	bancos	banco	NOUN	NOUN	_	4	obj	_	TokenRange=31:37
+6	roubava	roubar	VERB	VERB	_	4	conj	_	TokenRange=38:45
+7	quarteis	_	NOUN	NOUN	_	6	obj	_	TokenRange=46:54
+8	pegar	pegar	VERB	VERB	_	7	acl:inf	_	TokenRange=55:60
+9	armas	arma	NOUN	NOUN	_	8	obj	_	TokenRange=61:66
+10	romantico	romantico	ADJ	ADJ	_	9	amod	_	TokenRange=67:76
+11	segundo	_	ADP	ADP	_	12	case	_	TokenRange=77:84
+12	araujo	araujo	NOUN	NOUN	_	8	nmod	_	TokenRange=85:91
+13	grupo	grupo	NOUN	NOUN	_	12	flat	_	TokenRange=92:97
+14	praticou	praticar	VERB	VERB	_	13	acl:relcl	_	TokenRange=98:106
+15	assaltos	assalto	NOUN	NOUN	_	14	obj	_	TokenRange=107:115
+16	banco	banco	NOUN	NOUN	_	15	appos	_	TokenRange=116:121
+17	roubos	roubo	ADJ	ADJ	_	16	amod	_	TokenRange=122:128
+18	caminhoes	_	NOUN	NOUN	_	16	appos	_	TokenRange=129:138
+19	carne	carne	NOUN	NOUN	_	15	appos	_	TokenRange=139:144
+20	alem	_	ADV	ADV	_	21	advmod	_	TokenRange=145:149
+21	acoes	_	NOUN	NOUN	_	19	flat	_	TokenRange=150:155
+22	quarteis	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=156:164
+23	pegar	pegar	VERB	VERB	_	21	acl:relcl	_	TokenRange=165:170
+24	armas	arma	NOUN	NOUN	_	23	obj	_	SpaceAfter=No|TokenRange=171:176
+

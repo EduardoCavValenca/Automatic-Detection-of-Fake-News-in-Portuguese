@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = russia desafia eua novamente bombardeiros nucleares sobrevoam alaska 55km costa fox news segundo dia consecutivo dois bombardeiros russos longo alcance avistados sobrevoando costa alasca desta ultima vez flagrados pouco 55 km distancia continente americano aeronaves tu95h possuem capacidade nuclear ataque identificados radar 17h horario local segundafeira 17 russos voaram cerca 350 km alasca alertados forcas seguranca forca aerea norteamericana bombardeiros russia partiram base aerea petropavlovsk 1000km distancia eua retornaram apos 5 horas voo
+1	russia	russia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	desafia	desafiar	VERB	VERB	_	0	root	_	TokenRange=7:14
+3	eua	_	PRON	PRON	_	2	obj	_	TokenRange=15:18
+4	novamente	novamente	ADV	ADV	_	2	advmod	_	TokenRange=19:28
+5	bombardeiros	bombardeiro	NOUN	NOUN	_	2	nsubj	_	TokenRange=29:41
+6	nucleares	nuclear	ADJ	ADJ	_	5	amod	_	TokenRange=42:51
+7	sobrevoam	sobrevoar	VERB	VERB	_	2	parataxis	_	TokenRange=52:61
+8	alaska	alaska	NOUN	NOUN	_	7	obj	_	TokenRange=62:68
+9	55km	_	NUM	NUM	_	10	nummod	_	TokenRange=69:73
+10	costa	costa	NOUN	NOUN	_	7	nmod	_	TokenRange=74:79
+11	fox	_	NOUN	NOUN	_	10	appos	_	TokenRange=80:83
+12	news	_	NOUN	NOUN	_	11	flat	_	TokenRange=84:88
+13	segundo	_	ADJ	ADJ	_	14	amod	_	TokenRange=89:96
+14	dia	dia	NOUN	NOUN	_	2	nmod	_	TokenRange=97:100
+15	consecutivo	consecutivo	ADJ	ADJ	_	14	amod	_	TokenRange=101:112
+16	dois	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=113:117
+17	bombardeiros	bombardeiro	NOUN	NOUN	_	2	nsubj	_	TokenRange=118:130
+18	russos	russo	ADJ	ADJ	_	17	amod	_	TokenRange=131:137
+19	longo	longo	ADJ	ADJ	_	20	amod	_	TokenRange=138:143
+20	alcance	alcance	NOUN	NOUN	_	17	appos	_	TokenRange=144:151
+21	avistados	avistar	VERB	VERB	_	17	acl	_	TokenRange=152:161
+22	sobrevoando	sobrevoar	VERB	VERB	_	21	acl	_	TokenRange=162:173
+23	costa	costa	NOUN	NOUN	_	22	obj	_	TokenRange=174:179
+24	alasca	alasco	ADJ	ADJ	_	23	amod	_	TokenRange=180:186
+25	desta	_	ADP	ADP	_	27	case	_	TokenRange=187:192
+26	ultima	_	ADJ	ADJ	_	27	amod	_	TokenRange=193:199
+27	vez	vez	NOUN	NOUN	_	22	nmod	_	TokenRange=200:203
+28	flagrados	flagrado	ADJ	ADJ	_	17	amod	_	TokenRange=204:213
+29	pouco	pouco	ADV	ADV	_	30	advmod	_	TokenRange=214:219
+30	55	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=220:222
+31	km	km	NOUN	NOUN	_	32	nsubj	_	TokenRange=223:225
+32	distancia	distanciar	VERB	VERB	_	2	parataxis	_	TokenRange=226:235
+33	continente	continente	NOUN	NOUN	_	32	obj	_	TokenRange=236:246
+34	americano	americano	ADJ	ADJ	_	33	amod	_	TokenRange=247:256
+35	aeronaves	aeronave	NOUN	NOUN	_	32	nsubj	_	TokenRange=257:266
+36	tu95h	_	NOUN	NOUN	_	35	appos	_	TokenRange=267:272
+37	possuem	possuir	VERB	VERB	_	35	acl:relcl	_	TokenRange=273:280
+38	capacidade	capacidade	NOUN	NOUN	_	37	obj	_	TokenRange=281:291
+39	nuclear	nuclear	ADJ	ADJ	_	38	amod	_	TokenRange=292:299
+40	ataque	ataque	NOUN	NOUN	_	38	appos	_	TokenRange=300:306
+41	identificados	identificado	ADJ	ADJ	_	40	amod	_	TokenRange=307:320
+42	radar	radar	NOUN	NOUN	_	38	appos	_	TokenRange=321:326
+43	17h	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=327:330
+44	horario	horario	NOUN	NOUN	_	42	appos	_	TokenRange=331:338
+45	local	local	ADJ	ADJ	_	44	amod	_	TokenRange=339:344
+46	segundafeira	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=345:357
+47	17	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=358:360
+48	russos	russo	NOUN	NOUN	_	49	nsubj	_	TokenRange=361:367
+49	voaram	voar	VERB	VERB	_	2	parataxis	_	TokenRange=368:374
+50	cerca	cerca	ADV	ADV	_	51	advmod	_	TokenRange=375:380
+51	350	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=381:384
+52	km	km	NOUN	NOUN	_	49	obj	_	TokenRange=385:387
+53	alasca	_	NOUN	NOUN	_	52	appos	_	TokenRange=388:394
+54	alertados	alertado	ADJ	ADJ	_	55	amod	_	TokenRange=395:404
+55	forcas	forca	NOUN	NOUN	_	49	nsubj	_	TokenRange=405:411
+56	seguranca	_	ADJ	ADJ	_	55	amod	_	TokenRange=412:421
+57	forca	forca	NOUN	NOUN	_	62	nsubj	_	TokenRange=422:427
+58	aerea	aereo	ADJ	ADJ	_	57	amod	_	TokenRange=428:433
+59	norteamericana	norteamericano	ADJ	ADJ	_	57	amod	_	TokenRange=434:448
+60	bombardeiros	bombardeiro	NOUN	NOUN	_	57	amod	_	TokenRange=449:461
+61	russia	russio	ADJ	ADJ	_	57	amod	_	TokenRange=462:468
+62	partiram	partir	VERB	VERB	_	49	parataxis	_	TokenRange=469:477
+63	base	base	NOUN	NOUN	_	62	obj	_	TokenRange=478:482
+64	aerea	aereo	ADJ	ADJ	_	63	amod	_	TokenRange=483:488
+65	petropavlovsk	petropavlovsk	ADJ	ADJ	_	63	amod	_	TokenRange=489:502
+66	1000km	_	NUM	NUM	NumType=Card	63	appos	_	TokenRange=503:509
+67	distancia	distancia	NOUN	NOUN	_	62	parataxis	_	TokenRange=510:519
+68	eua	_	PRON	PRON	_	69	nsubj	_	TokenRange=520:523
+69	retornaram	retornar	VERB	VERB	_	49	parataxis	_	TokenRange=524:534
+70	apos	_	ADP	ADP	_	72	case	_	TokenRange=535:539
+71	5	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=540:541
+72	horas	hora	NOUN	NOUN	_	69	nmod	_	TokenRange=542:547
+73	voo	voo	NOUN	NOUN	_	72	flat	_	SpaceAfter=No|TokenRange=548:551
+

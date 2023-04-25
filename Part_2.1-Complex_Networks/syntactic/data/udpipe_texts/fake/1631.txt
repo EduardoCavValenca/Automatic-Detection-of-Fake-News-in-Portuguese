@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = internautas flagram eike batista eua embarcando rumo brasil tranquilo favoravel empresario chegou aeroporto jkf ny pouco 2130 horario brasilia sozinho tranquilo carregando apenas maleta eike passou checagem passaporte seguiu direcao sala embarque assim desembarcar brasil recepcionado policia federal encaminhado sede pf cidade internauta aeroporto perguntou considerava culpado inocente eike preferiu responder previsao chegada rio amanha 1030 video abaixo
+1	internautas	internauta	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	flagram	flagrar	VERB	VERB	_	0	root	_	TokenRange=12:19
+3	eike	_	NOUN	NOUN	_	2	obj	_	TokenRange=20:24
+4	batista	batista	ADJ	ADJ	_	3	amod	_	TokenRange=25:32
+5	eua	_	PRON	PRON	_	6	nsubj	_	TokenRange=33:36
+6	embarcando	embarcar	VERB	VERB	_	3	acl	_	TokenRange=37:47
+7	rumo	rumo	NOUN	NOUN	_	6	nmod	_	TokenRange=48:52
+8	brasil	brasil	NOUN	NOUN	_	6	obj	_	TokenRange=53:59
+9	tranquilo	tranquilo	ADJ	ADJ	_	11	amod	_	TokenRange=60:69
+10	favoravel	favoravel	ADJ	ADJ	_	11	amod	_	TokenRange=70:79
+11	empresario	empresario	NOUN	NOUN	_	12	nsubj	_	TokenRange=80:90
+12	chegou	chegar	VERB	VERB	_	2	conj	_	TokenRange=91:97
+13	aeroporto	aeroporto	NOUN	NOUN	_	12	obj	_	TokenRange=98:107
+14	jkf	_	NOUN	NOUN	_	13	appos	_	TokenRange=108:111
+15	ny	_	X	NOUN	_	14	flat	_	TokenRange=112:114
+16	pouco	pouco	ADV	ADV	_	17	advmod	_	TokenRange=115:120
+17	2130	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=121:125
+18	horario	horario	NOUN	NOUN	_	12	nsubj	_	TokenRange=126:133
+19	brasilia	brasilia	NOUN	NOUN	_	18	flat	_	TokenRange=134:142
+20	sozinho	só	ADJ	ADJ	_	18	amod	_	TokenRange=143:150
+21	tranquilo	tranquilo	ADJ	ADJ	_	18	amod	_	TokenRange=151:160
+22	carregando	carregar	VERB	VERB	_	18	acl	_	TokenRange=161:171
+23	apenas	apenas	ADV	ADV	_	24	advmod	_	TokenRange=172:178
+24	maleta	maleta	NOUN	NOUN	_	22	obj	_	TokenRange=179:185
+25	eike	_	PRON	PRON	_	26	nsubj	_	TokenRange=186:190
+26	passou	passar	VERB	VERB	_	2	conj	_	TokenRange=191:197
+27	checagem	checagem	NOUN	NOUN	_	26	obj	_	TokenRange=198:206
+28	passaporte	passaporte	NOUN	NOUN	_	27	flat	_	TokenRange=207:217
+29	seguiu	seguir	VERB	VERB	_	26	parataxis	_	TokenRange=218:224
+30	direcao	direcao	NOUN	NOUN	_	29	obj	_	TokenRange=225:232
+31	sala	sala	NOUN	NOUN	_	30	appos	_	TokenRange=233:237
+32	embarque	embarque	NOUN	NOUN	_	30	flat	_	TokenRange=238:246
+33	assim	assim	ADV	ADV	_	34	advmod	_	TokenRange=247:252
+34	desembarcar	desembarcar	VERB	VERB	_	29	advcl	_	TokenRange=253:264
+35	brasil	brasil	NOUN	NOUN	_	34	obj	_	TokenRange=265:271
+36	recepcionado	recepcionado	ADJ	ADJ	_	37	amod	_	TokenRange=272:284
+37	policia	policia	NOUN	NOUN	_	34	nsubj	_	TokenRange=285:292
+38	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=293:300
+39	encaminhado	encaminhar	VERB	VERB	_	40	acl	_	TokenRange=301:312
+40	sede	sede	NOUN	NOUN	_	37	appos	_	TokenRange=313:317
+41	pf	_	X	ADP	_	42	case	_	TokenRange=318:320
+42	cidade	cidade	NOUN	NOUN	_	40	appos	_	TokenRange=321:327
+43	internauta	internauta	ADJ	ADJ	_	42	amod	_	TokenRange=328:338
+44	aeroporto	aeroporto	NOUN	NOUN	_	42	appos	_	TokenRange=339:348
+45	perguntou	perguntar	VERB	VERB	_	2	conj	_	TokenRange=349:358
+46	considerava	considerar	VERB	VERB	_	45	ccomp	_	TokenRange=359:370
+47	culpado	culpado	ADJ	ADJ	_	46	xcomp	_	TokenRange=371:378
+48	inocente	inocente	ADJ	ADJ	_	47	amod	_	TokenRange=379:387
+49	eike	_	PRON	PRON	_	50	nsubj	_	TokenRange=388:392
+50	preferiu	preferir	VERB	VERB	_	46	parataxis	_	TokenRange=393:401
+51	responder	responder	VERB	VERB	_	50	xcomp	_	TokenRange=402:411
+52	previsao	previsao	ADJ	NOUN	_	51	obj	_	TokenRange=412:420
+53	chegada	chegada	NOUN	NOUN	_	51	obj	_	TokenRange=421:428
+54	rio	rio	NOUN	NOUN	_	53	appos	_	TokenRange=429:432
+55	amanha	amanha	ADV	ADV	_	54	advmod	_	TokenRange=433:439
+56	1030	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=440:444
+57	video	video	NOUN	NOUN	_	51	parataxis	_	TokenRange=445:450
+58	abaixo	abaixo	ADV	ADV	_	50	advmod	_	SpaceAfter=No|TokenRange=451:457
+

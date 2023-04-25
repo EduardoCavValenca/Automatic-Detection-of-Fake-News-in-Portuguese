@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = numero pt nordeste lacra 13 13 desemprego 12 8 taxa desemprego nordeste primeiro trimestre 2016 maior taxa regioes brasil dados divulgados pnad continua trimestral taxa dessa regiao maior media nacional ficou 10 9 maior serie historica iniciada 2012 deixando 11 1 milhoes pessoas mingua outras taxas vergonhosas governo pt sudeste 11 4 norte 10 5 centrooeste 9 7 sul 7 3 maior taxas desemprego registrada bahia 15 5 seguido rio grande norte 14 3 amapa 14 3
+1	numero	numero	NOUN	NOUN	_	23	parataxis	_	TokenRange=0:6
+2	pt	pt	NOUN	NOUN	_	1	appos	_	TokenRange=7:9
+3	nordeste	nordeste	ADJ	ADJ	_	1	amod	_	TokenRange=10:18
+4	lacra	lacra	NOUN	NOUN	_	1	appos	_	TokenRange=19:24
+5	13	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=25:27
+6	13	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=28:30
+7	desemprego	desemprego	NOUN	NOUN	_	1	appos	_	TokenRange=31:41
+8	12	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=42:44
+9	8	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=45:46
+10	taxa	taxa	NOUN	NOUN	_	1	appos	_	TokenRange=47:51
+11	desemprego	desemprego	NOUN	NOUN	_	10	flat	_	TokenRange=52:62
+12	nordeste	nordeste	ADJ	ADJ	_	14	amod	_	TokenRange=63:71
+13	primeiro	primeiro	ADJ	ADJ	_	14	amod	_	TokenRange=72:80
+14	trimestre	trimestre	NOUN	NOUN	_	1	appos	_	TokenRange=81:90
+15	2016	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=91:95
+16	maior	maior	ADJ	ADJ	_	17	amod	_	TokenRange=96:101
+17	taxa	taxa	NOUN	NOUN	_	23	nsubj	_	TokenRange=102:106
+18	regioes	regioe	NOUN	NOUN	_	17	appos	_	TokenRange=107:114
+19	brasil	brasil	ADJ	ADJ	_	20	amod	_	TokenRange=115:121
+20	dados	dado	NOUN	NOUN	_	17	appos	_	TokenRange=122:127
+21	divulgados	divulgar	VERB	VERB	_	20	acl	_	TokenRange=128:138
+22	pnad	_	NOUN	NOUN	_	20	appos	_	TokenRange=139:143
+23	continua	continuar	VERB	VERB	_	0	root	_	TokenRange=144:152
+24	trimestral	trimestral	ADJ	ADJ	_	23	xcomp	_	TokenRange=153:163
+25	taxa	taxa	NOUN	NOUN	_	23	nsubj	_	TokenRange=164:168
+26	dessa	_	ADP	ADP	_	27	case	_	TokenRange=169:174
+27	regiao	regiao	NOUN	NOUN	_	25	nmod	_	TokenRange=175:181
+28	maior	maior	ADJ	ADJ	_	29	amod	_	TokenRange=182:187
+29	media	media	NOUN	NOUN	_	31	nsubj	_	TokenRange=188:193
+30	nacional	nacional	ADJ	ADJ	_	29	amod	_	TokenRange=194:202
+31	ficou	ficar	VERB	VERB	_	23	parataxis	_	TokenRange=203:208
+32	10	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=209:211
+33	9	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=212:213
+34	maior	maior	ADJ	ADJ	_	35	amod	_	TokenRange=214:219
+35	serie	serie	NOUN	NOUN	_	31	obj	_	TokenRange=220:225
+36	historica	historico	ADJ	ADJ	_	35	amod	_	TokenRange=226:235
+37	iniciada	iniciar	VERB	VERB	_	35	acl	_	TokenRange=236:244
+38	2012	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=245:249
+39	deixando	deixar	VERB	VERB	_	37	acl	_	TokenRange=250:258
+40	11	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=259:261
+41	1	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=262:263
+42	milhoes	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=264:271
+43	pessoas	pessoa	NOUN	NOUN	_	39	obj	_	TokenRange=272:279
+44	mingua	minguar	VERB	VERB	_	31	parataxis	_	TokenRange=280:286
+45	outras	_	DET	DET	_	46	det	_	TokenRange=287:293
+46	taxas	taxa	NOUN	NOUN	_	44	obj	_	TokenRange=294:299
+47	vergonhosas	vergonhoso	ADJ	ADJ	_	46	amod	_	TokenRange=300:311
+48	governo	governo	NOUN	NOUN	_	44	parataxis	_	TokenRange=312:319
+49	pt	_	NOUN	NOUN	_	46	appos	_	TokenRange=320:322
+50	sudeste	sudeste	NOUN	NOUN	_	49	flat	_	TokenRange=323:330
+51	11	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=331:333
+52	4	_	NUM	NUM	NumType=Card	49	appos	_	TokenRange=334:335
+53	norte	norte	NOUN	NOUN	_	49	appos	_	TokenRange=336:341
+54	10	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=342:344
+55	5	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=345:346
+56	centrooeste	centrooeste	NOUN	NOUN	_	49	appos	_	TokenRange=347:358
+57	9	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=359:360
+58	7	_	NUM	NUM	NumType=Card	56	appos	_	TokenRange=361:362
+59	sul	sul	NOUN	NOUN	_	56	appos	_	TokenRange=363:366
+60	7	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=367:368
+61	3	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=369:370
+62	maior	maior	ADJ	ADJ	_	63	amod	_	TokenRange=371:376
+63	taxas	taxa	NOUN	NOUN	_	56	appos	_	TokenRange=377:382
+64	desemprego	desemprego	NOUN	NOUN	_	63	amod	_	TokenRange=383:393
+65	registrada	registrar	VERB	VERB	_	63	acl	_	TokenRange=394:404
+66	bahia	bahia	NOUN	NOUN	_	65	nmod	_	TokenRange=405:410
+67	15	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=411:413
+68	5	_	NUM	NUM	NumType=Card	66	nmod	_	TokenRange=414:415
+69	seguido	seguir	VERB	VERB	_	63	acl	_	TokenRange=416:423
+70	rio	rio	NOUN	NOUN	_	69	nmod	_	TokenRange=424:427
+71	grande	grande	ADJ	ADJ	_	70	amod	_	TokenRange=428:434
+72	norte	norte	NOUN	NOUN	_	70	amod	_	TokenRange=435:440
+73	14	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=441:443
+74	3	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=444:445
+75	amapa	amapa	NOUN	NOUN	_	70	appos	_	TokenRange=446:451
+76	14	_	NUM	NUM	NumType=Card	75	appos	_	TokenRange=452:454
+77	3	_	NUM	NUM	NumType=Card	75	nummod	_	SpaceAfter=No|TokenRange=455:456
+

@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cara pau limites lula culpa crise dilma 210 milhoes brasileiros expresidente lula fez discurso populista disse estado precisa desenvolver falou sobre crise economica segundo culpa dilma sim todos brasileiros pais problema problema dilma problema 210 milhoes brasileiros ajudar salvar pais comodo ficar xingando dilma saber papel fazer diz politico presta achar ninguem presta inves desanimar politica declarou expresidente
+1	cara	cara	NOUN	NOUN	_	57	nsubj	_	TokenRange=0:4
+2	pau	pau	NOUN	NOUN	_	3	amod	_	TokenRange=5:8
+3	limites	limite	NOUN	NOUN	_	1	flat	_	TokenRange=9:16
+4	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=17:21
+5	culpa	_	VERB	VERB	_	1	acl:relcl	_	TokenRange=22:27
+6	crise	crise	NOUN	NOUN	_	5	obj	_	TokenRange=28:33
+7	dilma	_	ADJ	NOUN	_	6	appos	_	TokenRange=34:39
+8	210	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=40:43
+9	milhoes	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=44:51
+10	brasileiros	brasileiro	ADJ	ADJ	_	11	amod	_	TokenRange=52:63
+11	expresidente	expresidente	NOUN	NOUN	_	13	nsubj	_	TokenRange=64:76
+12	lula	lula	ADJ	NOUN	_	11	amod	_	TokenRange=77:81
+13	fez	fazer	VERB	VERB	_	1	acl:relcl	_	TokenRange=82:85
+14	discurso	discurso	NOUN	NOUN	_	13	obj	_	TokenRange=86:94
+15	populista	populista	ADJ	ADJ	_	14	amod	_	TokenRange=95:104
+16	disse	dizer	VERB	VERB	_	13	parataxis	_	TokenRange=105:110
+17	estado	estado	NOUN	NOUN	_	16	obj	_	TokenRange=111:117
+18	precisa	preciso	ADJ	ADJ	_	17	amod	_	TokenRange=118:125
+19	desenvolver	desenvolver	VERB	VERB	_	17	acl:inf	_	TokenRange=126:137
+20	falou	falar	VERB	VERB	_	19	ccomp	_	TokenRange=138:143
+21	sobre	_	ADP	ADP	_	22	case	_	TokenRange=144:149
+22	crise	crise	NOUN	NOUN	_	20	nmod	_	TokenRange=150:155
+23	economica	economico	ADJ	ADJ	_	22	amod	_	TokenRange=156:165
+24	segundo	_	ADP	ADP	_	25	case	_	TokenRange=166:173
+25	culpa	culpa	NOUN	NOUN	_	20	nmod	_	TokenRange=174:179
+26	dilma	dilma	NOUN	NOUN	_	25	appos	_	TokenRange=180:185
+27	sim	sim	ADV	ADV	_	29	advmod	_	TokenRange=186:189
+28	todos	_	DET	DET	_	29	det	_	TokenRange=190:195
+29	brasileiros	brasileiro	NOUN	NOUN	_	25	amod	_	TokenRange=196:207
+30	pais	_	NOUN	NOUN	_	31	amod	_	TokenRange=208:212
+31	problema	problema	NOUN	NOUN	_	29	appos	_	TokenRange=213:221
+32	problema	problema	NOUN	NOUN	_	31	flat	_	TokenRange=222:230
+33	dilma	dilma	NOUN	NOUN	_	31	amod	_	TokenRange=231:236
+34	problema	problema	NOUN	NOUN	_	31	flat	_	TokenRange=237:245
+35	210	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=246:249
+36	milhoes	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=250:257
+37	brasileiros	brasileiro	ADJ	NOUN	_	38	nsubj	_	TokenRange=258:269
+38	ajudar	ajudar	VERB	VERB	_	31	acl:relcl	_	TokenRange=270:276
+39	salvar	salvar	VERB	VERB	_	38	xcomp	_	TokenRange=277:283
+40	pais	_	NOUN	NOUN	_	39	obj	_	TokenRange=284:288
+41	comodo	comodo	ADJ	ADJ	_	40	amod	_	TokenRange=289:295
+42	ficar	ficar	AUX	AUX	_	43	aux	_	TokenRange=296:301
+43	xingando	xingar	VERB	VERB	_	40	acl:relcl	_	TokenRange=302:310
+44	dilma	_	NOUN	NOUN	_	45	obj	_	TokenRange=311:316
+45	saber	saber	VERB	VERB	_	43	ccomp	_	TokenRange=317:322
+46	papel	papel	NOUN	NOUN	_	45	obj	_	TokenRange=323:328
+47	fazer	fazer	VERB	VERB	_	46	acl:inf	_	TokenRange=329:334
+48	diz	dizer	VERB	VERB	_	45	ccomp	_	TokenRange=335:338
+49	politico	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=339:347
+50	presta	_	VERB	VERB	_	48	ccomp	_	TokenRange=348:354
+51	achar	achar	VERB	VERB	_	50	xcomp	_	TokenRange=355:360
+52	ninguem	_	PRON	PRON	_	51	obj	_	TokenRange=361:368
+53	presta	prestar	VERB	VERB	_	51	ccomp	_	TokenRange=369:375
+54	inves	inve	NOUN	ADJ	_	53	xcomp	_	TokenRange=376:381
+55	desanimar	desanimar	VERB	VERB	_	53	csubj	_	TokenRange=382:391
+56	politica	_	NOUN	NOUN	_	55	obj	_	TokenRange=392:400
+57	declarou	declarar	VERB	VERB	_	0	root	_	TokenRange=401:409
+58	expresidente	expresidente	NOUN	NOUN	_	57	obj	_	SpaceAfter=No|TokenRange=410:422
+

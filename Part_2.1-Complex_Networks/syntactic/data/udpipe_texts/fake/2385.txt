@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gleisi usa tribuna defender sabatella esquece maridao denunciado corrupcao senadora petista gleisi hoffmann usou tribuna senado hoje 01 demonstrar solidariedade cumpanhera leticia sabatella quanto gritarem latirem rosnarem vamos lutar esbravejou gleisi interessante falou absolutamente nada sobre marido denunciado corrupcao paulo bernardo 19 pessoas haviam sido indiciadas policia federal esquema fraudulento contra velhinhos aposentados desbaratados operacao custo brasil 23 junho marido gleisi denunciado corrupcao passiva lavagem dinheiro integrar organizacao criminosa acusado receber propina r 100 milhoes ministerio planejamento pasta comandava durante governo lula
+1	gleisi	_	VERB	VERB	_	79	nsubj	_	TokenRange=0:6
+2	usa	usar	VERB	VERB	_	1	acl:relcl	_	TokenRange=7:10
+3	tribuna	tribuna	NOUN	NOUN	_	2	obj	_	TokenRange=11:18
+4	defender	defender	VERB	VERB	_	2	ccomp	_	TokenRange=19:27
+5	sabatella	_	NOUN	NOUN	_	4	obj	_	TokenRange=28:37
+6	esquece	esquecer	VERB	VERB	_	2	parataxis	_	TokenRange=38:45
+7	maridao	maridao	NOUN	NOUN	_	6	obj	_	TokenRange=46:53
+8	denunciado	denunciar	VERB	VERB	_	9	acl	_	TokenRange=54:64
+9	corrupcao	corrupcao	NOUN	NOUN	_	6	nsubj	_	TokenRange=65:74
+10	senadora	senador	NOUN	NOUN	_	9	appos	_	TokenRange=75:83
+11	petista	petista	ADJ	ADJ	_	10	amod	_	TokenRange=84:91
+12	gleisi	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=92:98
+13	hoffmann	_	NOUN	NOUN	_	12	flat	_	TokenRange=99:107
+14	usou	usar	VERB	VERB	_	2	conj	_	TokenRange=108:112
+15	tribuna	tribuna	NOUN	NOUN	_	14	obj	_	TokenRange=113:120
+16	senado	senado	NOUN	NOUN	_	15	appos	_	TokenRange=121:127
+17	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=128:132
+18	01	_	NUM	NUM	NumType=Card	19	nsubj	_	TokenRange=133:135
+19	demonstrar	demonstrar	VERB	VERB	_	14	ccomp	_	TokenRange=136:146
+20	solidariedade	solidariedade	NOUN	NOUN	_	19	obj	_	TokenRange=147:160
+21	cumpanhera	cumpanher	NOUN	NOUN	_	20	amod	_	TokenRange=161:171
+22	leticia	leticia	NOUN	NOUN	_	20	appos	_	TokenRange=172:179
+23	sabatella	_	NOUN	NOUN	_	22	flat	_	TokenRange=180:189
+24	quanto	_	PRON	PRON	_	25	nsubj	_	TokenRange=190:196
+25	gritarem	gritar	VERB	VERB	_	22	acl:relcl	_	TokenRange=197:205
+26	latirem	latir	VERB	VERB	_	25	xcomp	_	TokenRange=206:213
+27	rosnarem	rosnar	VERB	VERB	_	26	ccomp	_	TokenRange=214:222
+28	vamos	ir	AUX	AUX	_	29	aux	_	TokenRange=223:228
+29	lutar	lutar	VERB	VERB	_	25	ccomp	_	TokenRange=229:234
+30	esbravejou	esbravejar	VERB	VERB	_	29	ccomp	_	TokenRange=235:245
+31	gleisi	_	NOUN	NOUN	_	46	nsubj:pass	_	TokenRange=246:252
+32	interessante	interessante	ADJ	ADJ	_	31	amod	_	TokenRange=253:265
+33	falou	falar	VERB	VERB	_	30	parataxis	_	TokenRange=266:271
+34	absolutamente	absolutamente	ADV	ADV	_	35	advmod	_	TokenRange=272:285
+35	nada	_	PRON	PRON	_	33	obj	_	TokenRange=286:290
+36	sobre	_	ADP	ADP	_	37	case	_	TokenRange=291:296
+37	marido	marido	NOUN	NOUN	_	33	nmod	_	TokenRange=297:303
+38	denunciado	denunciar	VERB	ADJ	_	37	acl	_	TokenRange=304:314
+39	corrupcao	corrupcao	NOUN	NOUN	_	38	nsubj	_	TokenRange=315:324
+40	paulo	paulo	NOUN	NOUN	_	39	appos	_	TokenRange=325:330
+41	bernardo	bernardo	NOUN	NOUN	_	40	flat	_	TokenRange=331:339
+42	19	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=340:342
+43	pessoas	pessoa	NOUN	NOUN	_	46	nsubj:pass	_	TokenRange=343:350
+44	haviam	haver	AUX	AUX	_	46	aux	_	TokenRange=351:357
+45	sido	ser	AUX	AUX	_	46	aux:pass	_	TokenRange=358:362
+46	indiciadas	indiciar	VERB	VERB	_	30	conj	_	TokenRange=363:373
+47	policia	policia	NOUN	NOUN	_	46	nsubj:pass	_	TokenRange=374:381
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=382:389
+49	esquema	esquema	NOUN	NOUN	_	46	nsubj:pass	_	TokenRange=390:397
+50	fraudulento	fraudulento	ADJ	ADJ	_	49	amod	_	TokenRange=398:409
+51	contra	_	ADP	ADP	_	52	case	_	TokenRange=410:416
+52	velhinhos	velhinho	NOUN	NOUN	_	49	nmod	_	TokenRange=417:426
+53	aposentados	aposentado	ADJ	ADJ	_	52	amod	_	TokenRange=427:438
+54	desbaratados	desbaratado	ADJ	ADJ	_	52	amod	_	TokenRange=439:451
+55	operacao	operacao	NOUN	NOUN	_	52	appos	_	TokenRange=452:460
+56	custo	custo	NOUN	NOUN	_	52	appos	_	TokenRange=461:466
+57	brasil	brasil	NOUN	NOUN	_	56	flat	_	TokenRange=467:473
+58	23	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=474:476
+59	junho	_	PROPN	PNOUN	_	56	nmod	_	TokenRange=477:482
+60	marido	marido	NOUN	NOUN	_	56	appos	_	TokenRange=483:489
+61	gleisi	gleisi	NOUN	NOUN	_	60	flat	_	TokenRange=490:496
+62	denunciado	denunciar	VERB	VERB	_	60	acl	_	TokenRange=497:507
+63	corrupcao	corrupcao	NOUN	NOUN	_	62	obj	_	TokenRange=508:517
+64	passiva	passivo	ADJ	ADJ	_	63	amod	_	TokenRange=518:525
+65	lavagem	lavagem	NOUN	NOUN	_	62	nsubj	_	TokenRange=526:533
+66	dinheiro	dinheiro	NOUN	NOUN	_	65	flat	_	TokenRange=534:542
+67	integrar	integrar	VERB	VERB	_	65	acl:inf	_	TokenRange=543:551
+68	organizacao	organizacao	NOUN	NOUN	_	67	obj	_	TokenRange=552:563
+69	criminosa	criminoso	ADJ	ADJ	_	68	amod	_	TokenRange=564:573
+70	acusado	acusar	VERB	VERB	_	65	acl	_	TokenRange=574:581
+71	receber	receber	VERB	VERB	_	70	xcomp	_	TokenRange=582:589
+72	propina	propina	NOUN	NOUN	_	71	obj	_	TokenRange=590:597
+73	r	r	NOUN	NOUN	_	72	appos	_	TokenRange=598:599
+74	100	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=600:603
+75	milhoes	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=604:611
+76	ministerio	ministerio	NOUN	NOUN	_	72	appos	_	TokenRange=612:622
+77	planejamento	planejamento	NOUN	NOUN	_	76	flat	_	TokenRange=623:635
+78	pasta	pasta	NOUN	NOUN	_	76	flat	_	TokenRange=636:641
+79	comandava	comandar	VERB	VERB	_	0	root	_	TokenRange=642:651
+80	durante	_	ADP	ADP	_	81	case	_	TokenRange=652:659
+81	governo	governo	NOUN	NOUN	_	79	nmod	_	TokenRange=660:667
+82	lula	lula	ADJ	ADJ	_	81	amod	_	SpaceAfter=No|TokenRange=668:672
+

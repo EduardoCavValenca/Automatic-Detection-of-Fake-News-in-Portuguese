@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula fala 1 vez apos sentenca moro nega crimes diz jogo expresidente condenado 9 anos 6 meses prisao ocultacao cobertura triplex guaruja sp expresidente luiz inacio lula silva fez primeiro pronunciamento publico nesta quintafeira 13 dia apos sentenca juiz sergio moro condenou 9 anos meio prisao corrupcao negou crimes quais condenado afirmou ainda jogo alguem prova contra
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	fala	_	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	1	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=10:11
+4	vez	vez	NOUN	NOUN	_	2	nmod	_	TokenRange=12:15
+5	apos	_	ADP	ADP	_	6	case	_	TokenRange=16:20
+6	sentenca	_	NOUN	NOUN	_	2	nmod	_	TokenRange=21:29
+7	moro	moro	NOUN	NOUN	_	8	nsubj	_	TokenRange=30:34
+8	nega	negar	VERB	VERB	_	2	advcl	_	TokenRange=35:39
+9	crimes	crime	NOUN	NOUN	_	8	obj	_	TokenRange=40:46
+10	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=47:50
+11	jogo	jogo	NOUN	NOUN	_	10	obj	_	TokenRange=51:55
+12	expresidente	expresidente	NOUN	NOUN	_	11	amod	_	TokenRange=56:68
+13	condenado	condenar	VERB	VERB	_	11	acl	_	TokenRange=69:78
+14	9	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=79:80
+15	anos	ano	NOUN	NOUN	_	13	nmod	_	TokenRange=81:85
+16	6	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=86:87
+17	meses	mês	NOUN	NOUN	_	15	appos	_	TokenRange=88:93
+18	prisao	prisao	NOUN	NOUN	_	15	appos	_	TokenRange=94:100
+19	ocultacao	ocultacao	ADJ	ADJ	_	20	amod	_	TokenRange=101:110
+20	cobertura	cobertura	NOUN	NOUN	_	29	nsubj	_	TokenRange=111:120
+21	triplex	_	NOUN	NOUN	_	20	appos	_	TokenRange=121:128
+22	guaruja	guaruja	NOUN	NOUN	_	20	appos	_	TokenRange=129:136
+23	sp	_	ADJ	ADJ	_	24	amod	_	TokenRange=137:139
+24	expresidente	expresidente	NOUN	NOUN	_	20	appos	_	TokenRange=140:152
+25	luiz	luiz	ADJ	ADJ	_	24	appos	_	TokenRange=153:157
+26	inacio	_	NOUN	NOUN	_	24	appos	_	TokenRange=158:164
+27	lula	_	ADJ	NOUN	_	24	flat	_	TokenRange=165:169
+28	silva	silva	ADJ	ADJ	_	25	flat	_	TokenRange=170:175
+29	fez	fazer	VERB	VERB	_	2	conj	_	TokenRange=176:179
+30	primeiro	primeiro	ADJ	ADJ	_	31	amod	_	TokenRange=180:188
+31	pronunciamento	pronunciamento	NOUN	NOUN	_	29	obj	_	TokenRange=189:203
+32	publico	publico	ADJ	ADJ	_	31	amod	_	TokenRange=204:211
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=212:217
+34	quintafeira	quintafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=218:229
+35	13	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=230:232
+36	dia	dia	NOUN	NOUN	_	34	nmod	_	TokenRange=233:236
+37	apos	_	ADP	ADP	_	38	case	_	TokenRange=237:241
+38	sentenca	_	NOUN	NOUN	_	42	nmod	_	TokenRange=242:250
+39	juiz	juiz	NOUN	NOUN	_	42	nsubj	_	TokenRange=251:255
+40	sergio	_	NOUN	NOUN	_	39	appos	_	TokenRange=256:262
+41	moro	moro	NOUN	NOUN	_	40	flat	_	TokenRange=263:267
+42	condenou	condenar	VERB	VERB	_	2	parataxis	_	TokenRange=268:276
+43	9	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=277:278
+44	anos	ano	NOUN	NOUN	_	42	obj	_	TokenRange=279:283
+45	meio	meio	ADJ	ADJ	_	44	amod	_	TokenRange=284:288
+46	prisao	prisao	NOUN	NOUN	_	42	obj	_	TokenRange=289:295
+47	corrupcao	corrupcao	ADJ	ADJ	_	46	amod	_	TokenRange=296:305
+48	negou	negar	VERB	VERB	_	42	parataxis	_	TokenRange=306:311
+49	crimes	crime	NOUN	NOUN	_	48	obj	_	TokenRange=312:318
+50	quais	_	PRON	PRON	_	52	obj	_	TokenRange=319:324
+51	condenado	condenar	VERB	VERB	_	49	acl	_	TokenRange=325:334
+52	afirmou	afirmar	VERB	VERB	_	49	acl:relcl	_	TokenRange=335:342
+53	ainda	ainda	ADV	ADV	_	52	advmod	_	TokenRange=343:348
+54	jogo	jogo	NOUN	NOUN	_	56	obj	_	TokenRange=349:353
+55	alguem	_	PRON	PRON	_	56	nsubj	_	TokenRange=354:360
+56	prova	provar	VERB	VERB	_	52	ccomp	_	TokenRange=361:366
+57	contra	_	ADP	ADP	_	52	mark	_	SpaceAfter=No|TokenRange=367:373
+

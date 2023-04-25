@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = audio mostra conversa dentro quarto hotel onde ana hickmann sofreu atentado ana hickmann feita refem fa obssessivo armado revolver 38 ultimo sabado 21 conversa gravada cabeleireiro ana divulgada redes sociais audio mostra dialogo assassino durante ataque sofrido apresentadora hotel belo horizonte aparentemente si rodrigo augusto padua suposto fa morto cunhado ana gustavo correa audio tentativa negociacao ar noite ontem tv record
+1	audio	audio	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	conversa	_	NOUN	NOUN	_	2	obj	_	TokenRange=13:21
+4	dentro	dentro	ADV	ADV	_	6	advmod	_	TokenRange=22:28
+5	quarto	_	ADJ	ADJ	_	6	amod	_	TokenRange=29:35
+6	hotel	hotel	NOUN	NOUN	_	2	obj	_	TokenRange=36:41
+7	onde	onde	ADV	ADV	_	10	advmod	_	TokenRange=42:46
+8	ana	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=47:50
+9	hickmann	_	NOUN	NOUN	_	8	flat	_	TokenRange=51:59
+10	sofreu	sofrer	VERB	VERB	_	6	acl:relcl	_	TokenRange=60:66
+11	atentado	atentado	NOUN	NOUN	_	10	obj	_	TokenRange=67:75
+12	ana	_	NOUN	NOUN	_	11	appos	_	TokenRange=76:79
+13	hickmann	_	NOUN	NOUN	_	12	flat	_	TokenRange=80:88
+14	feita	_	VERB	VERB	_	15	cop	_	TokenRange=89:94
+15	refem	refem	NOUN	NOUN	_	11	appos	_	TokenRange=95:100
+16	fa	fa	NOUN	NOUN	_	15	appos	_	TokenRange=101:103
+17	obssessivo	obssessivo	ADJ	ADJ	_	16	amod	_	TokenRange=104:114
+18	armado	armado	ADJ	ADJ	_	16	amod	_	TokenRange=115:121
+19	revolver	revolver	NOUN	NOUN	_	16	appos	_	TokenRange=122:130
+20	38	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=131:133
+21	ultimo	_	ADJ	ADJ	_	22	amod	_	TokenRange=134:140
+22	sabado	_	NOUN	NOUN	_	19	appos	_	TokenRange=141:147
+23	21	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=148:150
+24	conversa	_	NOUN	NOUN	_	19	appos	_	TokenRange=151:159
+25	gravada	gravar	VERB	ADJ	_	24	acl	_	TokenRange=160:167
+26	cabeleireiro	cabeleireiro	NOUN	NOUN	_	24	appos	_	TokenRange=168:180
+27	ana	_	NOUN	NOUN	_	26	appos	_	TokenRange=181:184
+28	divulgada	divulgar	VERB	VERB	_	26	acl	_	TokenRange=185:194
+29	redes	rede	NOUN	NOUN	_	28	obj	_	TokenRange=195:200
+30	sociais	social	ADJ	ADJ	_	29	amod	_	TokenRange=201:208
+31	audio	audio	NOUN	NOUN	_	32	nsubj	_	TokenRange=209:214
+32	mostra	mostrar	VERB	VERB	_	2	parataxis	_	TokenRange=215:221
+33	dialogo	dialogo	NOUN	NOUN	_	32	obj	_	TokenRange=222:229
+34	assassino	assassino	ADJ	ADJ	_	33	amod	_	TokenRange=230:239
+35	durante	_	ADP	ADP	_	36	case	_	TokenRange=240:247
+36	ataque	ataque	NOUN	NOUN	_	32	nmod	_	TokenRange=248:254
+37	sofrido	sofrer	ADJ	ADJ	_	36	amod	_	TokenRange=255:262
+38	apresentadora	apresentador	NOUN	NOUN	_	36	appos	_	TokenRange=263:276
+39	hotel	hotel	NOUN	NOUN	_	36	appos	_	TokenRange=277:282
+40	belo	belo	ADJ	ADJ	_	41	amod	_	TokenRange=283:287
+41	horizonte	horizonte	NOUN	NOUN	_	39	amod	_	TokenRange=288:297
+42	aparentemente	aparentemente	ADV	ADV	_	32	advmod	_	TokenRange=298:311
+43	si	_	PRON	PRON	_	44	nsubj	_	TokenRange=312:314
+44	rodrigo	rodrigo	NOUN	NOUN	_	32	nsubj	_	TokenRange=315:322
+45	augusto	_	NOUN	NOUN	_	44	flat	_	TokenRange=323:330
+46	padua	padua	NOUN	NOUN	_	44	flat	_	TokenRange=331:336
+47	suposto	suposto	ADJ	ADJ	_	48	amod	_	TokenRange=337:344
+48	fa	fa	NOUN	NOUN	_	44	conj	_	TokenRange=345:347
+49	morto	morto	ADJ	ADJ	_	48	amod	_	TokenRange=348:353
+50	cunhado	cunhado	NOUN	NOUN	_	48	amod	_	TokenRange=354:361
+51	ana	_	NOUN	NOUN	_	48	appos	_	TokenRange=362:365
+52	gustavo	gustavo	ADJ	NOUN	_	51	flat	_	TokenRange=366:373
+53	correa	correa	ADJ	ADJ	_	51	flat	_	TokenRange=374:380
+54	audio	audio	NOUN	NOUN	_	32	parataxis	_	TokenRange=381:386
+55	tentativa	_	NOUN	NOUN	_	54	appos	_	TokenRange=387:396
+56	negociacao	negociacao	NOUN	NOUN	_	54	flat	_	TokenRange=397:407
+57	ar	ar	ADP	ADP	_	58	case	_	TokenRange=408:410
+58	noite	noite	NOUN	NOUN	_	54	nmod	_	TokenRange=411:416
+59	ontem	ontem	ADV	ADV	_	60	advmod	_	TokenRange=417:422
+60	tv	_	X	NOUN	_	54	appos	_	TokenRange=423:425
+61	record	_	NOUN	NOUN	_	60	flat	_	SpaceAfter=No|TokenRange=426:432
+

@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = determinacao diminuicao vazao represa caconde ainda cumprida ordem emitida 22 dias ana local menor nivel desde 2014 situacao preocupa ambientalistas empresarios pescadores hidreletrica avalia reducao orgaos agencia nacional agua ana emitiu 22 dias determinacao volume minimo vazao represa caconde sp reduzido 32 metros cubicos segundo 10 ainda comecou cumprida nivel
+1	determinacao	_	VERB	VERB	_	0	root	_	TokenRange=0:12
+2	diminuicao	diminuicao	ADJ	ADJ	_	3	amod	_	TokenRange=13:23
+3	vazao	vazao	NOUN	NOUN	_	1	nsubj	_	TokenRange=24:29
+4	represa	represa	NOUN	NOUN	_	3	appos	_	TokenRange=30:37
+5	caconde	caconde	NOUN	NOUN	_	4	appos	_	TokenRange=38:45
+6	ainda	ainda	ADV	ADV	_	7	advmod	_	TokenRange=46:51
+7	cumprida	cumprir	VERB	VERB	_	8	acl	_	TokenRange=52:60
+8	ordem	ordem	NOUN	NOUN	_	1	nsubj	_	TokenRange=61:66
+9	emitida	emitir	VERB	VERB	_	8	acl	_	TokenRange=67:74
+10	22	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=75:77
+11	dias	dia	NOUN	NOUN	_	9	nmod	_	TokenRange=78:82
+12	ana	ana	NOUN	NOUN	_	8	appos	_	TokenRange=83:86
+13	local	local	ADJ	ADJ	_	12	amod	_	TokenRange=87:92
+14	menor	menor	ADJ	ADJ	_	15	amod	_	TokenRange=93:98
+15	nivel	nivel	NOUN	NOUN	_	12	appos	_	TokenRange=99:104
+16	desde	_	ADP	ADP	_	17	case	_	TokenRange=105:110
+17	2014	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=111:115
+18	situacao	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=116:124
+19	preocupa	preocupar	VERB	VERB	_	1	parataxis	_	TokenRange=125:133
+20	ambientalistas	ambientalista	NOUN	NOUN	_	19	obj	_	TokenRange=134:148
+21	empresarios	empresario	NOUN	NOUN	_	20	appos	_	TokenRange=149:160
+22	pescadores	pescador	ADJ	ADJ	_	21	amod	_	TokenRange=161:171
+23	hidreletrica	_	ADJ	ADJ	_	21	amod	_	TokenRange=172:184
+24	avalia	avaliar	VERB	VERB	_	19	parataxis	_	TokenRange=185:191
+25	reducao	reducao	NOUN	NOUN	_	24	obj	_	TokenRange=192:199
+26	orgaos	orgao	NOUN	NOUN	_	25	amod	_	TokenRange=200:206
+27	agencia	agencia	NOUN	NOUN	_	24	nsubj	_	TokenRange=207:214
+28	nacional	nacional	ADJ	ADJ	_	27	amod	_	TokenRange=215:223
+29	agua	_	NOUN	NOUN	_	27	appos	_	TokenRange=224:228
+30	ana	ana	ADJ	ADJ	_	29	flat	_	TokenRange=229:232
+31	emitiu	emitir	VERB	VERB	_	24	parataxis	_	TokenRange=233:239
+32	22	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=240:242
+33	dias	dia	NOUN	NOUN	_	31	nmod	_	TokenRange=243:247
+34	determinacao	_	VERB	VERB	_	31	acl	_	TokenRange=248:260
+35	volume	volume	NOUN	NOUN	_	31	obj	_	TokenRange=261:267
+36	minimo	minimo	ADJ	ADJ	_	35	amod	_	TokenRange=268:274
+37	vazao	vazao	NOUN	NOUN	_	35	appos	_	TokenRange=275:280
+38	represa	represa	ADJ	ADJ	_	35	amod	_	TokenRange=281:288
+39	caconde	caconde	NOUN	NOUN	_	35	appos	_	TokenRange=289:296
+40	sp	_	ADJ	ADJ	_	39	amod	_	TokenRange=297:299
+41	reduzido	reduzir	ADJ	ADJ	_	35	amod	_	TokenRange=300:308
+42	32	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=309:311
+43	metros	metro	NOUN	NOUN	_	41	nsubj	_	TokenRange=312:318
+44	cubicos	cubico	ADJ	ADJ	_	43	amod	_	TokenRange=319:326
+45	segundo	_	ADP	ADP	_	46	case	_	TokenRange=327:334
+46	10	_	NUM	NUM	NumType=Card	48	nmod	_	TokenRange=335:337
+47	ainda	ainda	ADV	ADV	_	48	advmod	_	TokenRange=338:343
+48	comecou	comecar	VERB	VERB	_	31	parataxis	_	TokenRange=344:351
+49	cumprida	cumprido	ADJ	ADJ	_	48	xcomp	_	TokenRange=352:360
+50	nivel	nivel	NOUN	NOUN	_	48	obj	_	SpaceAfter=No|TokenRange=361:366
+

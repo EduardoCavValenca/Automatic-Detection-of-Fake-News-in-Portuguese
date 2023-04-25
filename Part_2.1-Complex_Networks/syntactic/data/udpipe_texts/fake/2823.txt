@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video virou piada internet 4 patetas comemorando anulacao impeachment abaixo video gravado ontem lindbergh farias companhia senadora vanessa investigada gleisi hoffmann paulo rocha lindberg gleisi vanessa paulo concorrem melhor video comedia ano 2016 ahhhesses adolescentes podem iphone saem filmando tudo coitadinhos rsrsrs
+1	video	video	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	virou	virar	AUX	AUX	_	3	cop	_	TokenRange=6:11
+3	piada	piada	NOUN	NOUN	_	0	root	_	TokenRange=12:17
+4	internet	_	PROPN	PNOUN	_	3	appos	_	TokenRange=18:26
+5	4	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=27:28
+6	patetas	pateta	NOUN	NOUN	_	3	nsubj	_	TokenRange=29:36
+7	comemorando	comemorar	VERB	VERB	_	3	acl	_	TokenRange=37:48
+8	anulacao	anulacao	NOUN	NOUN	_	7	obj	_	TokenRange=49:57
+9	impeachment	impeachment	NOUN	NOUN	_	7	obj	_	TokenRange=58:69
+10	abaixo	abaixo	ADV	ADV	_	11	advmod	_	TokenRange=70:76
+11	video	video	NOUN	NOUN	_	9	appos	_	TokenRange=77:82
+12	gravado	gravar	VERB	VERB	_	11	acl	_	TokenRange=83:90
+13	ontem	ontem	ADV	ADV	_	12	advmod	_	TokenRange=91:96
+14	lindbergh	_	NOUN	NOUN	_	12	parataxis	_	TokenRange=97:106
+15	farias	fario	ADJ	ADJ	_	16	amod	_	TokenRange=107:113
+16	companhia	companhia	NOUN	NOUN	_	14	appos	_	TokenRange=114:123
+17	senadora	senador	NOUN	NOUN	_	16	amod	_	TokenRange=124:132
+18	vanessa	_	NOUN	NOUN	_	14	appos	_	TokenRange=133:140
+19	investigada	investigado	ADJ	ADJ	_	16	amod	_	TokenRange=141:152
+20	gleisi	_	NOUN	NOUN	_	14	appos	_	TokenRange=153:159
+21	hoffmann	_	NOUN	NOUN	_	20	flat	_	TokenRange=160:168
+22	paulo	paulo	NOUN	NOUN	_	20	appos	_	TokenRange=169:174
+23	rocha	rocha	NOUN	NOUN	_	20	appos	_	TokenRange=175:180
+24	lindberg	_	NOUN	NOUN	_	20	appos	_	TokenRange=181:189
+25	gleisi	_	NOUN	NOUN	_	20	appos	_	TokenRange=190:196
+26	vanessa	_	NOUN	NOUN	_	25	appos	_	TokenRange=197:204
+27	paulo	_	NOUN	NOUN	_	26	flat	_	TokenRange=205:210
+28	concorrem	concorrer	VERB	VERB	_	3	parataxis	_	TokenRange=211:220
+29	melhor	melhor	ADJ	ADJ	_	30	amod	_	TokenRange=221:227
+30	video	video	NOUN	NOUN	_	28	obj	_	TokenRange=228:233
+31	comedia	comedia	NOUN	NOUN	_	30	appos	_	TokenRange=234:241
+32	ano	ano	NOUN	NOUN	_	30	nmod	_	TokenRange=242:245
+33	2016	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=246:250
+34	ahhhesses	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=251:260
+35	adolescentes	adolescente	ADJ	NOUN	_	34	amod	_	TokenRange=261:273
+36	podem	_	AUX	AUX	_	37	aux	_	TokenRange=274:279
+37	iphone	_	PROPN	PNOUN	_	28	parataxis	_	TokenRange=280:286
+38	saem	sair	AUX	AUX	_	39	aux	_	TokenRange=287:291
+39	filmando	filmar	VERB	VERB	_	28	parataxis	_	TokenRange=292:300
+40	tudo	_	PRON	PRON	_	41	nsubj	_	TokenRange=301:305
+41	coitadinhos	coitado	NOUN	VERB	_	39	obj	_	TokenRange=306:317
+42	rsrsrs	_	NOUN	NOUN	_	39	obj	_	SpaceAfter=No|TokenRange=318:324
+

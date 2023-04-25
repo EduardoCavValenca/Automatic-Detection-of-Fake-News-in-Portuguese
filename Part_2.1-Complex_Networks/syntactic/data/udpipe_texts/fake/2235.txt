@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dificuldade dilma reconhecer figuras geometricas ronaldo caiado acabado mostrar grafico durante fala tribuna ofendida fala senador dilma deixou barato quis mostrar grafico tentar explicar area grafico dilma confundiu dificil presidenta saber diferenca quadrado retangulo preste atencao 50 segundos video
+1	dificuldade	dificuldade	NOUN	NOUN	_	18	nsubj	_	TokenRange=0:11
+2	dilma	_	ADJ	ADJ	_	1	amod	_	TokenRange=12:17
+3	reconhecer	reconhecer	VERB	VERB	_	1	acl:relcl	_	TokenRange=18:28
+4	figuras	figura	NOUN	NOUN	_	3	obj	_	TokenRange=29:36
+5	geometricas	geometrico	ADJ	ADJ	_	4	amod	_	TokenRange=37:48
+6	ronaldo	_	NOUN	NOUN	_	3	obj	_	TokenRange=49:56
+7	caiado	caiado	NOUN	NOUN	_	6	flat	_	TokenRange=57:63
+8	acabado	_	ADJ	ADJ	_	9	amod	_	TokenRange=64:71
+9	mostrar	mostrar	VERB	VERB	_	3	conj	_	TokenRange=72:79
+10	grafico	grafico	NOUN	NOUN	_	9	obj	_	TokenRange=80:87
+11	durante	_	ADP	ADP	_	12	case	_	TokenRange=88:95
+12	fala	_	NOUN	NOUN	_	9	nmod	_	TokenRange=96:100
+13	tribuna	tribuna	NOUN	NOUN	_	9	obj	_	TokenRange=101:108
+14	ofendida	ofendido	ADJ	ADJ	_	13	amod	_	TokenRange=109:117
+15	fala	_	VERB	VERB	_	18	parataxis	_	TokenRange=118:122
+16	senador	senador	NOUN	NOUN	_	18	nsubj	_	TokenRange=123:130
+17	dilma	_	NOUN	NOUN	_	16	appos	_	TokenRange=131:136
+18	deixou	deixar	VERB	VERB	_	0	root	_	TokenRange=137:143
+19	barato	barato	ADV	ADV	_	18	advmod	_	TokenRange=144:150
+20	quis	_	VERB	VERB	_	18	nsubj	_	TokenRange=151:155
+21	mostrar	mostrar	VERB	VERB	_	18	csubj	_	TokenRange=156:163
+22	grafico	grafico	NOUN	NOUN	_	21	obj	_	TokenRange=164:171
+23	tentar	tentar	VERB	VERB	_	16	acl:relcl	_	TokenRange=172:178
+24	explicar	explicar	VERB	VERB	_	23	xcomp	_	TokenRange=179:187
+25	area	area	NOUN	NOUN	_	24	obj	_	TokenRange=188:192
+26	grafico	grafico	ADJ	ADJ	_	25	amod	_	TokenRange=193:200
+27	dilma	dilma	NOUN	NOUN	_	28	nsubj	_	TokenRange=201:206
+28	confundiu	confundir	VERB	VERB	_	18	conj	_	TokenRange=207:216
+29	dificil	dificil	ADJ	ADJ	_	30	amod	_	TokenRange=217:224
+30	presidenta	_	NOUN	NOUN	_	28	obj	_	TokenRange=225:235
+31	saber	saber	VERB	VERB	_	28	ccomp	_	TokenRange=236:241
+32	diferenca	_	NOUN	NOUN	_	31	obj	_	TokenRange=242:251
+33	quadrado	quadrado	ADJ	ADJ	_	32	amod	_	TokenRange=252:260
+34	retangulo	retangulo	NOUN	NOUN	_	32	appos	_	TokenRange=261:270
+35	preste	_	VERB	VERB	_	32	acl:relcl	_	TokenRange=271:277
+36	atencao	atencao	NOUN	NOUN	_	35	obj	_	TokenRange=278:285
+37	50	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=286:288
+38	segundos	segundo	ADJ	ADJ	_	39	amod	_	TokenRange=289:297
+39	video	video	NOUN	NOUN	_	28	obj	_	SpaceAfter=No|TokenRange=298:303
+

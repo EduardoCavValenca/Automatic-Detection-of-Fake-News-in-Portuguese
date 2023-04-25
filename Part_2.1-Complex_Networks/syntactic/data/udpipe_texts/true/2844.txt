@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 21 junho 2017 boa noite aqui principais noticias terminar dia beminformado dois ministros stf votaram manter edson fachin relator delacoes premiadas empresa jbs julgamento considerado importante destino operacao lava jato novas revelacoes envolvendo 3 politicos pmdb votacao supremo continua nesta quinta delatores empresario joesley batista prestou depoimento pf brasilia sobre supostas irregularidades contratos firmados frigorifico jbs bndes enquanto congresso seguia parado ritmo joao presidente michel temer prosseguia viagem internacional delacoes executivos
+1	quartafeira	quartafeira	NOUN	NOUN	_	16	parataxis	_	TokenRange=0:11
+2	21	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:14
+3	junho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:20
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=21:25
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=26:29
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=36:40
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=41:51
+9	noticias	noticia	NOUN	NOUN	_	1	appos	_	TokenRange=52:60
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=61:69
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=70:73
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=74:86
+13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=87:91
+14	ministros	ministro	NOUN	NOUN	_	10	nsubj	_	TokenRange=92:101
+15	stf	_	NOUN	NOUN	_	14	appos	_	TokenRange=102:105
+16	votaram	votar	VERB	VERB	_	0	root	_	TokenRange=106:113
+17	manter	manter	VERB	VERB	_	16	xcomp	_	TokenRange=114:120
+18	edson	_	NOUN	NOUN	_	17	obj	_	TokenRange=121:126
+19	fachin	_	NOUN	NOUN	_	18	flat	_	TokenRange=127:133
+20	relator	relator	NOUN	NOUN	_	18	appos	_	TokenRange=134:141
+21	delacoes	delacoe	NOUN	NOUN	_	18	appos	_	TokenRange=142:150
+22	premiadas	premiar	VERB	VERB	_	23	acl	_	TokenRange=151:160
+23	empresa	empresa	NOUN	NOUN	_	17	obj	_	TokenRange=161:168
+24	jbs	_	NOUN	NOUN	_	23	appos	_	TokenRange=169:172
+25	julgamento	julgamento	NOUN	NOUN	_	23	appos	_	TokenRange=173:183
+26	considerado	considerar	AUX	AUX	_	28	cop	_	TokenRange=184:195
+27	importante	importante	ADJ	ADJ	_	28	amod	_	TokenRange=196:206
+28	destino	destino	NOUN	NOUN	_	23	appos	_	TokenRange=207:214
+29	operacao	operacao	NOUN	NOUN	_	28	appos	_	TokenRange=215:223
+30	lava	lava	NOUN	NOUN	_	29	flat	_	TokenRange=224:228
+31	jato	jato	NOUN	NOUN	_	29	flat	_	TokenRange=229:233
+32	novas	novo	ADJ	ADJ	_	33	amod	_	TokenRange=234:239
+33	revelacoes	revelacoe	NOUN	NOUN	_	29	appos	_	TokenRange=240:250
+34	envolvendo	envolver	VERB	VERB	_	33	acl	_	TokenRange=251:261
+35	3	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=262:263
+36	politicos	politico	NOUN	NOUN	_	34	obj	_	TokenRange=264:273
+37	pmdb	_	NOUN	NOUN	_	36	appos	_	TokenRange=274:278
+38	votacao	votacao	NOUN	NOUN	_	36	appos	_	TokenRange=279:286
+39	supremo	supremo	ADJ	ADJ	_	38	amod	_	TokenRange=287:294
+40	continua	continuar	VERB	VERB	_	16	parataxis	_	TokenRange=295:303
+41	nesta	_	ADP	ADP	_	43	case	_	TokenRange=304:309
+42	quinta	_	ADJ	ADJ	_	43	amod	_	TokenRange=310:316
+43	delatores	delator	NOUN	NOUN	_	47	nmod	_	TokenRange=317:326
+44	empresario	empresario	NOUN	NOUN	_	47	nsubj	_	TokenRange=327:337
+45	joesley	_	NOUN	NOUN	_	44	appos	_	TokenRange=338:345
+46	batista	batista	ADJ	NOUN	_	45	flat	_	TokenRange=346:353
+47	prestou	prestar	VERB	VERB	_	40	parataxis	_	TokenRange=354:361
+48	depoimento	depoimento	NOUN	NOUN	_	47	obj	_	TokenRange=362:372
+49	pf	_	NOUN	NOUN	_	48	appos	_	TokenRange=373:375
+50	brasilia	brasilia	NOUN	NOUN	_	48	flat	_	TokenRange=376:384
+51	sobre	_	ADP	ADP	_	53	case	_	TokenRange=385:390
+52	supostas	suposto	ADJ	ADJ	_	53	amod	_	TokenRange=391:399
+53	irregularidades	irregularidade	NOUN	NOUN	_	47	nmod	_	TokenRange=400:415
+54	contratos	contrato	NOUN	NOUN	_	53	appos	_	TokenRange=416:425
+55	firmados	firmar	VERB	VERB	_	54	acl	_	TokenRange=426:434
+56	frigorifico	frigorifico	ADJ	ADJ	_	57	amod	_	TokenRange=435:446
+57	jbs	_	NOUN	NOUN	_	55	nmod	_	TokenRange=447:450
+58	bndes	bndes	NOUN	NOUN	_	57	flat	_	TokenRange=451:456
+59	enquanto	_	CCONJ	CONJ	_	60	mark	_	TokenRange=457:465
+60	congresso	congresso	NOUN	NOUN	_	57	nmod	_	TokenRange=466:475
+61	seguia	seguir	AUX	AUX	_	68	aux	_	TokenRange=476:482
+62	parado	parado	ADJ	ADJ	_	63	amod	_	TokenRange=483:489
+63	ritmo	ritmo	NOUN	NOUN	_	68	nmod	_	TokenRange=490:495
+64	joao	joao	ADJ	ADJ	_	65	amod	_	TokenRange=496:500
+65	presidente	presidente	NOUN	NOUN	_	68	nsubj	_	TokenRange=501:511
+66	michel	michel	ADJ	ADJ	_	65	amod	_	TokenRange=512:518
+67	temer	temer	NOUN	NOUN	_	65	flat	_	TokenRange=519:524
+68	prosseguia	prosseguir	VERB	VERB	_	47	conj	_	TokenRange=525:535
+69	viagem	viagem	NOUN	NOUN	_	68	obj	_	TokenRange=536:542
+70	internacional	internacional	ADJ	ADJ	_	69	amod	_	TokenRange=543:556
+71	delacoes	delacoe	NOUN	NOUN	_	68	obj	_	TokenRange=557:565
+72	executivos	executivo	ADJ	ADJ	_	71	amod	_	SpaceAfter=No|TokenRange=566:576
+

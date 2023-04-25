@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma caiu dente renan calheiros sim senador perde dente durante entrevista durante entrevista coletiva dente presidente senado renan calheiros caiu apesar fato inusitado senador continuou falando normalmente jornalistas fadinha dentes vai aparecer senado assista video
+1	dilma	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	caiu	cair	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	dente	dente	NOUN	NOUN	_	2	obj	_	TokenRange=11:16
+4	renan	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=17:22
+5	calheiros	calheiro	NOUN	NOUN	_	4	flat	_	TokenRange=23:32
+6	sim	sim	ADV	ADV	_	7	advmod	_	TokenRange=33:36
+7	senador	senador	NOUN	NOUN	_	4	conj	_	TokenRange=37:44
+8	perde	perder	VERB	VERB	_	2	conj	_	TokenRange=45:50
+9	dente	dente	NOUN	NOUN	_	8	obj	_	TokenRange=51:56
+10	durante	_	ADP	ADP	_	11	case	_	TokenRange=57:64
+11	entrevista	entrevista	NOUN	NOUN	_	8	nmod	_	TokenRange=65:75
+12	durante	_	ADP	ADP	_	13	case	_	TokenRange=76:83
+13	entrevista	entrevista	NOUN	NOUN	_	8	nmod	_	TokenRange=84:94
+14	coletiva	coletivo	ADJ	ADJ	_	13	amod	_	TokenRange=95:103
+15	dente	_	DET	DET	_	16	det	_	TokenRange=104:109
+16	presidente	presidente	NOUN	NOUN	_	20	nsubj	_	TokenRange=110:120
+17	senado	senado	ADJ	ADJ	_	16	amod	_	TokenRange=121:127
+18	renan	renan	NOUN	NOUN	_	20	nsubj	_	TokenRange=128:133
+19	calheiros	calheiro	NOUN	NOUN	_	16	flat	_	TokenRange=134:143
+20	caiu	cair	VERB	VERB	_	2	conj	_	TokenRange=144:148
+21	apesar	apesar	ADV	ADV	_	26	advmod	_	TokenRange=149:155
+22	fato	fato	NOUN	NOUN	_	20	nmod	_	TokenRange=156:160
+23	inusitado	inusitado	ADJ	ADJ	_	22	amod	_	TokenRange=161:170
+24	senador	senador	NOUN	NOUN	_	26	nsubj	_	TokenRange=171:178
+25	continuou	continuar	AUX	AUX	_	26	aux	_	TokenRange=179:188
+26	falando	falar	VERB	VERB	_	20	conj	_	TokenRange=189:196
+27	normalmente	normalmente	ADV	ADV	_	26	advmod	_	TokenRange=197:208
+28	jornalistas	jornalista	NOUN	NOUN	_	26	obj	_	TokenRange=209:220
+29	fadinha	_	NOUN	NOUN	_	28	appos	_	TokenRange=221:228
+30	dentes	dente	NOUN	NOUN	_	32	nsubj	_	TokenRange=229:235
+31	vai	ir	AUX	AUX	_	32	aux	_	TokenRange=236:239
+32	aparecer	aparecer	VERB	VERB	_	28	acl:relcl	_	TokenRange=240:248
+33	senado	senado	NOUN	NOUN	_	32	obj	_	TokenRange=249:255
+34	assista	assistir	VERB	VERB	_	2	parataxis	_	TokenRange=256:263
+35	video	video	NOUN	NOUN	_	34	obj	_	SpaceAfter=No|TokenRange=264:269
+

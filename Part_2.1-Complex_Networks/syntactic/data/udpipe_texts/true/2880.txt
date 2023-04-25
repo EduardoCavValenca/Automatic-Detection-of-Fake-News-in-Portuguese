@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 7 junho 2017 boa noite aqui principais noticias terminar dia beminformado noticiario dominado segundo dia julgamento tribunal superior eleitoral chapa dilmatemer ainda discutindo preliminares ministros deixaram quinta 8 inicio discussao merito acoes contra vencedores eleicoes 2014 chapa acusada psdb cometido abuso poder politico economico campanha provocado desequilibrio pleito durante julgamento temer assim expresidente dilma rousseff nega acusacoes reafirmou pretende deixar cargo antes fim mandato segundo dia relator ministro herman benjamin suspendeu nesta quarta leitura voto julgamento processo investiga campanha 2014 deixou quinta
+1	quartafeira	quartafeira	NOUN	NOUN	_	27	parataxis	_	TokenRange=0:11
+2	7	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=12:13
+3	junho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:19
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=20:24
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=25:28
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=35:39
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=40:50
+9	noticias	_	NOUN	NOUN	_	1	appos	_	TokenRange=51:59
+10	terminar	terminar	VERB	VERB	_	6	parataxis	_	TokenRange=60:68
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=69:72
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=73:85
+13	noticiario	noticiario	NOUN	NOUN	_	10	obj	_	TokenRange=86:96
+14	dominado	dominar	VERB	VERB	_	16	acl	_	TokenRange=97:105
+15	segundo	segundo	ADJ	ADJ	_	16	amod	_	TokenRange=106:113
+16	dia	dia	NOUN	NOUN	_	27	nmod	_	TokenRange=114:117
+17	julgamento	julgamento	NOUN	NOUN	_	16	appos	_	TokenRange=118:128
+18	tribunal	tribunal	NOUN	NOUN	_	21	appos	_	TokenRange=129:137
+19	superior	superior	ADJ	ADJ	_	18	amod	_	TokenRange=138:146
+20	eleitoral	eleitoral	ADJ	ADJ	_	18	amod	_	TokenRange=147:156
+21	chapa	chapa	NOUN	NOUN	_	27	nsubj	_	TokenRange=157:162
+22	dilmatemer	_	NOUN	NOUN	_	21	flat	_	TokenRange=163:173
+23	ainda	ainda	ADV	ADV	_	24	advmod	_	TokenRange=174:179
+24	discutindo	discutir	VERB	VERB	_	21	acl	_	TokenRange=180:190
+25	preliminares	preliminar	ADJ	ADJ	_	26	amod	_	TokenRange=191:203
+26	ministros	ministro	NOUN	NOUN	_	24	obj	_	TokenRange=204:213
+27	deixaram	deixar	VERB	VERB	_	0	root	_	TokenRange=214:222
+28	quinta	_	NOUN	NOUN	_	27	obj	_	TokenRange=223:229
+29	8	_	NUM	NUM	NumType=Card	28	appos	_	TokenRange=230:231
+30	inicio	_	NOUN	NOUN	_	28	appos	_	TokenRange=232:238
+31	discussao	discussao	NOUN	NOUN	_	27	obj	_	TokenRange=239:248
+32	merito	merito	ADJ	ADJ	_	31	amod	_	TokenRange=249:255
+33	acoes	acoe	NOUN	NOUN	_	31	appos	_	TokenRange=256:261
+34	contra	_	ADP	ADP	_	35	case	_	TokenRange=262:268
+35	vencedores	_	NOUN	NOUN	_	33	nmod	_	TokenRange=269:279
+36	eleicoes	eleicoe	NOUN	NOUN	_	35	flat	_	TokenRange=280:288
+37	2014	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=289:293
+38	chapa	chapa	NOUN	NOUN	_	33	appos	_	TokenRange=294:299
+39	acusada	acusar	VERB	VERB	_	38	acl	_	TokenRange=300:307
+40	psdb	_	NOUN	NOUN	_	38	appos	_	TokenRange=308:312
+41	cometido	cometer	VERB	VERB	_	38	acl	_	TokenRange=313:321
+42	abuso	abuso	NOUN	NOUN	_	43	amod	_	TokenRange=322:327
+43	poder	poder	NOUN	NOUN	_	41	obj	_	TokenRange=328:333
+44	politico	politico	ADJ	ADJ	_	43	amod	_	TokenRange=334:342
+45	economico	economico	ADJ	ADJ	_	46	amod	_	TokenRange=343:352
+46	campanha	campanha	NOUN	NOUN	_	43	appos	_	TokenRange=353:361
+47	provocado	provocar	VERB	VERB	_	46	acl	_	TokenRange=362:371
+48	desequilibrio	desequilibrio	NOUN	NOUN	_	46	appos	_	TokenRange=372:385
+49	pleito	pleito	NOUN	NOUN	_	48	flat	_	TokenRange=386:392
+50	durante	_	ADP	ADP	_	51	case	_	TokenRange=393:400
+51	julgamento	julgamento	NOUN	NOUN	_	57	nmod	_	TokenRange=401:411
+52	temer	temer	VERB	VERB	_	51	acl:relcl	_	TokenRange=412:417
+53	assim	assim	ADV	ADV	_	52	advmod	_	TokenRange=418:423
+54	expresidente	expresidente	NOUN	NOUN	_	52	obj	_	TokenRange=424:436
+55	dilma	dilma	ADJ	ADJ	_	54	amod	_	TokenRange=437:442
+56	rousseff	rousseff	NOUN	NOUN	_	54	flat	_	TokenRange=443:451
+57	nega	negar	VERB	VERB	_	46	acl:relcl	_	TokenRange=452:456
+58	acusacoes	acusacoe	NOUN	NOUN	_	57	obj	_	TokenRange=457:466
+59	reafirmou	reafirmar	VERB	VERB	_	57	conj	_	TokenRange=467:476
+60	pretende	pretender	VERB	VERB	_	57	conj	_	TokenRange=477:485
+61	deixar	deixar	VERB	VERB	_	60	xcomp	_	TokenRange=486:492
+62	cargo	cargo	NOUN	NOUN	_	61	obj	_	TokenRange=493:498
+63	antes	antes	ADV	ADV	_	61	advmod	_	TokenRange=499:504
+64	fim	fim	NOUN	NOUN	_	63	fixed	_	TokenRange=505:508
+65	mandato	mandato	NOUN	NOUN	_	61	nmod	_	TokenRange=509:516
+66	segundo	segundo	ADJ	ADJ	_	67	amod	_	TokenRange=517:524
+67	dia	dia	NOUN	NOUN	_	65	nmod	_	TokenRange=525:528
+68	relator	relator	NOUN	NOUN	_	54	appos	_	TokenRange=529:536
+69	ministro	ministro	NOUN	NOUN	_	68	amod	_	TokenRange=537:545
+70	herman	_	PROPN	PNOUN	_	68	appos	_	TokenRange=546:552
+71	benjamin	_	PROPN	PNOUN	_	70	flat	_	TokenRange=553:561
+72	suspendeu	suspender	VERB	VERB	_	27	parataxis	_	TokenRange=562:571
+73	nesta	_	ADP	ADP	_	75	case	_	TokenRange=572:577
+74	quarta	_	ADJ	ADJ	_	75	amod	_	TokenRange=578:584
+75	leitura	leitura	NOUN	NOUN	_	72	nmod	_	TokenRange=585:592
+76	voto	voto	NOUN	NOUN	_	75	appos	_	TokenRange=593:597
+77	julgamento	julgamento	NOUN	NOUN	_	75	appos	_	TokenRange=598:608
+78	processo	processo	NOUN	NOUN	_	79	nsubj	_	TokenRange=609:617
+79	investiga	investigar	VERB	VERB	_	72	ccomp	_	TokenRange=618:627
+80	campanha	campanha	NOUN	NOUN	_	79	obj	_	TokenRange=628:636
+81	2014	_	NUM	NUM	NumType=Card	80	nmod	_	TokenRange=637:641
+82	deixou	deixar	VERB	VERB	_	72	parataxis	_	TokenRange=642:648
+83	quinta	_	PROPN	PNOUN	_	82	obj	_	SpaceAfter=No|TokenRange=649:655
+

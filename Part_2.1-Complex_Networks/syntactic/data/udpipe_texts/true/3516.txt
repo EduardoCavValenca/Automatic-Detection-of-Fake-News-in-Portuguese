@@ -1,0 +1,21 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = odebrecht pagou r 35 milhoes partidos chapa dilmatemer diz delator objetivo repasse via
+1	odebrecht	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	pagou	pagar	VERB	VERB	_	0	root	_	TokenRange=10:15
+3	r	r	NOUN	NOUN	_	2	obj	_	TokenRange=16:17
+4	35	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=18:20
+5	milhoes	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=21:28
+6	partidos	partido	NOUN	NOUN	_	2	obj	_	TokenRange=29:37
+7	chapa	chapa	NOUN	NOUN	_	9	nsubj	_	TokenRange=38:43
+8	dilmatemer	dilmatemer	NOUN	NOUN	_	7	flat	_	TokenRange=44:54
+9	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=55:58
+10	delator	delator	ADJ	ADJ	_	12	obj	_	TokenRange=59:66
+11	objetivo	objetivo	NOUN	NOUN	_	12	nsubj	_	TokenRange=67:75
+12	repasse	repar	VERB	VERB	_	9	ccomp	_	TokenRange=76:83
+13	via	_	ADP	ADP	_	12	nmod	_	SpaceAfter=No|TokenRange=84:87
+

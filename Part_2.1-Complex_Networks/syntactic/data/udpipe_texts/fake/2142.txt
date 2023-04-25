@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = foragido espanha exconsultor jose dirceu vai passear jatinho pf operacao lava jato batizada arquivo x sete pessoas presas temporariamente juiz sergio moro autorizou oito mandados prisao apenas cumprido tratase julio cesar oliveira silva exconsultor jose dirceu exservidor serpro delegado igor romario paula informou suspeito espanha
+1	foragido	foragido	ADJ	ADJ	_	7	amod	_	TokenRange=0:8
+2	espanha	espanho	NOUN	NOUN	_	1	amod	_	TokenRange=9:16
+3	exconsultor	exconsultor	NOUN	NOUN	_	1	appos	_	TokenRange=17:28
+4	jose	jose	NOUN	NOUN	_	3	appos	_	TokenRange=29:33
+5	dirceu	_	PROPN	PNOUN	_	4	flat	_	TokenRange=34:40
+6	vai	ir	AUX	AUX	_	7	aux	_	TokenRange=41:44
+7	passear	passear	VERB	VERB	_	0	root	_	TokenRange=45:52
+8	jatinho	_	NOUN	NOUN	_	7	obj	_	TokenRange=53:60
+9	pf	_	ADP	NOUN	_	8	case	_	TokenRange=61:63
+10	operacao	operacao	NOUN	NOUN	_	8	appos	_	TokenRange=64:72
+11	lava	lava	NOUN	NOUN	_	8	appos	_	TokenRange=73:77
+12	jato	jato	NOUN	NOUN	_	11	flat	_	TokenRange=78:82
+13	batizada	batizar	VERB	ADJ	_	14	acl	_	TokenRange=83:91
+14	arquivo	arquivo	NOUN	NOUN	_	11	appos	_	TokenRange=92:99
+15	x	_	PUNCT	.	_	14	punct	_	TokenRange=100:101
+16	sete	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=102:106
+17	pessoas	pessoa	NOUN	NOUN	_	23	nsubj	_	TokenRange=107:114
+18	presas	_	ADJ	ADJ	_	17	amod	_	TokenRange=115:121
+19	temporariamente	temporariamente	ADV	ADV	_	20	advmod	_	TokenRange=122:137
+20	juiz	juiz	NOUN	NOUN	_	23	nsubj	_	TokenRange=138:142
+21	sergio	sergio	ADJ	ADJ	_	20	amod	_	TokenRange=143:149
+22	moro	moro	NOUN	NOUN	_	20	amod	_	TokenRange=150:154
+23	autorizou	autorizar	VERB	VERB	_	7	parataxis	_	TokenRange=155:164
+24	oito	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=165:169
+25	mandados	mandado	NOUN	NOUN	_	23	obj	_	TokenRange=170:178
+26	prisao	prisao	ADJ	ADJ	_	25	amod	_	TokenRange=179:185
+27	apenas	apenas	ADV	ADV	_	28	advmod	_	TokenRange=186:192
+28	cumprido	cumprido	ADJ	ADJ	_	25	amod	_	TokenRange=193:201
+29	tratase	tratase	NOUN	NOUN	_	23	nsubj	_	TokenRange=202:209
+30	julio	julio	NOUN	NOUN	_	29	appos	_	TokenRange=210:215
+31	cesar	cesar	NOUN	NOUN	_	30	flat	_	TokenRange=216:221
+32	oliveira	oliveira	NOUN	NOUN	_	30	flat	_	TokenRange=222:230
+33	silva	silva	ADJ	ADJ	_	30	flat	_	TokenRange=231:236
+34	exconsultor	exconsultor	NOUN	NOUN	_	29	appos	_	TokenRange=237:248
+35	jose	jose	NOUN	NOUN	_	34	appos	_	TokenRange=249:253
+36	dirceu	_	ADJ	NOUN	_	35	flat	_	TokenRange=254:260
+37	exservidor	exservidor	NOUN	NOUN	_	39	amod	_	TokenRange=261:271
+38	serpro	serpro	ADJ	ADJ	_	39	amod	_	TokenRange=272:278
+39	delegado	delegado	NOUN	NOUN	_	34	appos	_	TokenRange=279:287
+40	igor	igor	ADJ	ADJ	_	39	appos	_	TokenRange=288:292
+41	romario	romario	NOUN	NOUN	_	39	flat	_	TokenRange=293:300
+42	paula	paula	NOUN	NOUN	_	43	nsubj	_	TokenRange=301:306
+43	informou	informar	VERB	VERB	_	23	parataxis	_	TokenRange=307:315
+44	suspeito	suspeito	NOUN	NOUN	_	43	obj	_	TokenRange=316:324
+45	espanha	espanha	NOUN	NOUN	_	44	appos	_	SpaceAfter=No|TokenRange=325:332
+

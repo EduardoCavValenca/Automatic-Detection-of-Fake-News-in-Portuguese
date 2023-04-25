@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = atriz parada blitz lei seca recusa fazer teste etilometro perde cnh caso aconteceu madrugada hoje 11 avenida ayrton senna zona oeste rio janeiro volta 100h madrugada sthefany parada agentes transito quis fazer teste bafometro convidada descer veiculo entregar cnh levou multa r 2930 reais alem perder 7 pontos carteira habilitacao atriz ficara suspensa periodo 1 ano condutor habilitado precisou chamado levar carro moca embora embora banco carona informacoes fofoqueiro ops blogueiro leo dias
+1	atriz	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	parada	parada	NOUN	NOUN	_	1	appos	_	TokenRange=6:12
+3	blitz	_	NOUN	NOUN	_	1	flat	_	TokenRange=13:18
+4	lei	lei	NOUN	NOUN	_	1	appos	_	TokenRange=19:22
+5	seca	seco	ADJ	ADJ	_	4	amod	_	TokenRange=23:27
+6	recusa	recusar	VERB	VERB	_	0	root	_	TokenRange=28:34
+7	fazer	fazer	VERB	VERB	_	6	xcomp	_	TokenRange=35:40
+8	teste	teste	NOUN	NOUN	_	7	obj	_	TokenRange=41:46
+9	etilometro	etilometro	NOUN	NOUN	_	10	nsubj	_	TokenRange=47:57
+10	perde	perder	VERB	VERB	_	1	acl:relcl	_	TokenRange=58:63
+11	cnh	_	NOUN	NOUN	_	10	obj	_	TokenRange=64:67
+12	caso	caso	NOUN	NOUN	_	13	mark	_	TokenRange=68:72
+13	aconteceu	acontecer	VERB	VERB	_	10	advcl	_	TokenRange=73:82
+14	madrugada	madrugada	NOUN	NOUN	_	13	nsubj	_	TokenRange=83:92
+15	hoje	hoje	ADV	ADV	_	13	advmod	_	TokenRange=93:97
+16	11	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=98:100
+17	avenida	avenida	NOUN	NOUN	_	14	appos	_	TokenRange=101:108
+18	ayrton	_	NOUN	NOUN	_	17	appos	_	TokenRange=109:115
+19	senna	_	NOUN	NOUN	_	17	amod	_	TokenRange=116:121
+20	zona	zona	NOUN	NOUN	_	14	appos	_	TokenRange=122:126
+21	oeste	oeste	ADJ	ADJ	_	20	amod	_	TokenRange=127:132
+22	rio	_	ADJ	NOUN	_	23	amod	_	TokenRange=133:136
+23	janeiro	_	PROPN	PNOUN	_	20	appos	_	TokenRange=137:144
+24	volta	volta	NOUN	NOUN	_	20	appos	_	TokenRange=145:150
+25	100h	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=151:155
+26	madrugada	madrugada	NOUN	NOUN	_	24	appos	_	TokenRange=156:165
+27	sthefany	_	NOUN	NOUN	_	26	appos	_	TokenRange=166:174
+28	parada	parada	NOUN	NOUN	_	29	appos	_	TokenRange=175:181
+29	agentes	agente	NOUN	NOUN	_	40	nsubj	_	TokenRange=182:189
+30	transito	transito	NOUN	NOUN	_	29	flat	_	TokenRange=190:198
+31	quis	querer	VERB	VERB	_	29	acl:relcl	_	TokenRange=199:203
+32	fazer	fazer	VERB	VERB	_	31	xcomp	_	TokenRange=204:209
+33	teste	teste	NOUN	NOUN	_	32	obj	_	TokenRange=210:215
+34	bafometro	bafometro	NOUN	NOUN	_	32	nsubj	_	TokenRange=216:225
+35	convidada	convidado	ADJ	ADJ	_	34	amod	_	TokenRange=226:235
+36	descer	descer	VERB	VERB	_	34	acl:inf	_	TokenRange=236:242
+37	veiculo	veiculo	NOUN	NOUN	_	38	obj	_	TokenRange=243:250
+38	entregar	entregar	VERB	VERB	_	34	acl:inf	_	TokenRange=251:259
+39	cnh	_	NOUN	NOUN	_	38	obj	_	TokenRange=260:263
+40	levou	levar	VERB	VERB	_	6	conj	_	TokenRange=264:269
+41	multa	multa	NOUN	NOUN	_	40	obj	_	TokenRange=270:275
+42	r	r	NOUN	NOUN	_	41	appos	_	TokenRange=276:277
+43	2930	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=278:282
+44	reais	real	NOUN	NOUN	_	41	appos	_	TokenRange=283:288
+45	alem	alem	ADV	ADV	_	46	advmod	_	TokenRange=289:293
+46	perder	perder	VERB	VERB	_	40	advcl	_	TokenRange=294:300
+47	7	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=301:302
+48	pontos	ponto	NOUN	NOUN	_	46	obj	_	TokenRange=303:309
+49	carteira	_	NOUN	NOUN	_	46	obj	_	TokenRange=310:318
+50	habilitacao	habilitacao	ADJ	ADJ	_	51	amod	_	TokenRange=319:330
+51	atriz	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=331:336
+52	ficara	ficar	VERB	VERB	_	46	parataxis	_	TokenRange=337:343
+53	suspensa	suspenso	ADJ	ADJ	_	52	xcomp	_	TokenRange=344:352
+54	periodo	periodo	NOUN	NOUN	_	52	nsubj	_	TokenRange=353:360
+55	1	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=361:362
+56	ano	ano	NOUN	NOUN	_	52	nmod	_	TokenRange=363:366
+57	condutor	condutor	NOUN	NOUN	_	52	nsubj	_	TokenRange=367:375
+58	habilitado	habilitado	ADJ	ADJ	_	57	amod	_	TokenRange=376:386
+59	precisou	precisar	VERB	VERB	_	52	parataxis	_	TokenRange=387:395
+60	chamado	chamado	ADJ	ADJ	_	59	xcomp	_	TokenRange=396:403
+61	levar	levar	VERB	VERB	_	59	xcomp	_	TokenRange=404:409
+62	carro	carro	NOUN	NOUN	_	61	obj	_	TokenRange=410:415
+63	moca	moca	ADJ	ADJ	_	62	amod	_	TokenRange=416:420
+64	embora	_	CCONJ	CONJ	_	66	case	_	TokenRange=421:427
+65	embora	_	CCONJ	CONJ	_	66	case	_	TokenRange=428:434
+66	banco	banco	NOUN	NOUN	_	61	nmod	_	TokenRange=435:440
+67	carona	carono	ADJ	ADJ	_	66	amod	_	TokenRange=441:447
+68	informacoes	_	NOUN	NOUN	_	66	appos	_	TokenRange=448:459
+69	fofoqueiro	fofoqueiro	NOUN	NOUN	_	68	appos	_	TokenRange=460:470
+70	ops	_	CCONJ	CONJ	_	71	cc	_	TokenRange=471:474
+71	blogueiro	blogueiro	NOUN	NOUN	_	69	conj	_	TokenRange=475:484
+72	leo	_	PROPN	PNOUN	_	71	appos	_	TokenRange=485:488
+73	dias	dia	NOUN	NOUN	_	72	flat	_	SpaceAfter=No|TokenRange=489:493
+

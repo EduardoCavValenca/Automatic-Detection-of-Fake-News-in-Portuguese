@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcos valerio volta assombrar lula depoimento sergio moro video video mostra publicitario marcos valerio depoimento juiz sergio moro valerio condenado mensalao reu operacao lava jato disse hoje 12 juiz extesoureiro pt silvio pereira disse lula jose dirceu gilberto carvalho chantageados empresario ronan maria pinto ronan exigido r 6 milhoes calar valerio afirmou sabe exatamente sido motivo chantagem contra lula dirceu gilberto carvalho video antagonista
+1	marcos	marco	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	valerio	valerio	NOUN	NOUN	_	1	flat	_	TokenRange=7:14
+3	volta	_	AUX	AUX	_	4	aux	_	TokenRange=15:20
+4	assombrar	assombrar	VERB	VERB	_	0	root	_	TokenRange=21:30
+5	lula	_	NOUN	NOUN	_	4	obj	_	TokenRange=31:35
+6	depoimento	depoimento	NOUN	NOUN	_	4	obj	_	TokenRange=36:46
+7	sergio	sergio	NOUN	NOUN	_	6	appos	_	TokenRange=47:53
+8	moro	moro	NOUN	NOUN	_	7	flat	_	TokenRange=54:58
+9	video	video	NOUN	NOUN	_	11	appos	_	TokenRange=59:64
+10	video	video	NOUN	NOUN	_	11	appos	_	TokenRange=65:70
+11	mostra	mostra	NOUN	NOUN	_	4	appos	_	TokenRange=71:77
+12	publicitario	publicitario	ADJ	ADJ	_	11	amod	_	TokenRange=78:90
+13	marcos	marco	NOUN	NOUN	_	11	appos	_	TokenRange=91:97
+14	valerio	valerio	ADJ	ADJ	_	13	amod	_	TokenRange=98:105
+15	depoimento	depoimento	ADJ	NOUN	_	16	amod	_	TokenRange=106:116
+16	juiz	juiz	NOUN	NOUN	_	13	appos	_	TokenRange=117:121
+17	sergio	sergio	ADJ	ADJ	_	16	amod	_	TokenRange=122:128
+18	moro	moro	NOUN	NOUN	_	16	appos	_	TokenRange=129:133
+19	valerio	valerio	NOUN	NOUN	_	16	amod	_	TokenRange=134:141
+20	condenado	condenado	ADJ	ADJ	_	16	amod	_	TokenRange=142:151
+21	mensalao	_	NOUN	NOUN	_	16	appos	_	TokenRange=152:160
+22	reu	_	NOUN	NOUN	_	23	amod	_	TokenRange=161:164
+23	operacao	operacao	NOUN	NOUN	_	21	appos	_	TokenRange=165:173
+24	lava	lava	NOUN	NOUN	_	23	flat	_	TokenRange=174:178
+25	jato	jato	NOUN	NOUN	_	23	flat	_	TokenRange=179:183
+26	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=184:189
+27	hoje	hoje	ADV	ADV	_	26	advmod	_	TokenRange=190:194
+28	12	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=195:197
+29	juiz	juiz	NOUN	NOUN	_	26	nsubj	_	TokenRange=198:202
+30	extesoureiro	extesoureiro	NOUN	NOUN	_	29	appos	_	TokenRange=203:215
+31	pt	_	NOUN	NOUN	_	29	appos	_	TokenRange=216:218
+32	silvio	silvio	NOUN	NOUN	_	29	appos	_	TokenRange=219:225
+33	pereira	_	NOUN	NOUN	_	32	flat	_	TokenRange=226:233
+34	disse	dizer	VERB	VERB	_	26	parataxis	_	TokenRange=234:239
+35	lula	_	NOUN	NOUN	_	34	obj	_	TokenRange=240:244
+36	jose	jose	NOUN	NOUN	_	35	appos	_	TokenRange=245:249
+37	dirceu	_	NOUN	NOUN	_	36	flat	_	TokenRange=250:256
+38	gilberto	gilberto	NOUN	NOUN	_	36	flat	_	TokenRange=257:265
+39	carvalho	carvalho	NOUN	NOUN	_	36	flat	_	TokenRange=266:274
+40	chantageados	chantageado	ADJ	ADJ	_	41	amod	_	TokenRange=275:287
+41	empresario	empresario	NOUN	NOUN	_	34	nsubj	_	TokenRange=288:298
+42	ronan	ronan	NOUN	NOUN	_	41	appos	_	TokenRange=299:304
+43	maria	maria	NOUN	NOUN	_	41	appos	_	TokenRange=305:310
+44	pinto	pinto	ADJ	ADJ	_	43	flat	_	TokenRange=311:316
+45	ronan	ronan	NOUN	NOUN	_	41	appos	_	TokenRange=317:322
+46	exigido	exigir	VERB	VERB	_	41	acl	_	TokenRange=323:330
+47	r	r	NOUN	NOUN	_	46	obj	_	TokenRange=331:332
+48	6	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=333:334
+49	milhoes	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=335:342
+50	calar	calar	NOUN	NOUN	_	46	nsubj	_	TokenRange=343:348
+51	valerio	valerio	NOUN	NOUN	_	50	flat	_	TokenRange=349:356
+52	afirmou	afirmar	VERB	VERB	_	34	parataxis	_	TokenRange=357:364
+53	sabe	saber	VERB	VERB	_	52	ccomp	_	TokenRange=365:369
+54	exatamente	exatamente	ADV	ADV	_	56	advmod	_	TokenRange=370:380
+55	sido	ser	AUX	AUX	_	56	cop	_	TokenRange=381:385
+56	motivo	motivo	NOUN	NOUN	_	53	xcomp	_	TokenRange=386:392
+57	chantagem	chantagem	NOUN	NOUN	_	56	nsubj	_	TokenRange=393:402
+58	contra	_	ADP	ADP	_	59	case	_	TokenRange=403:409
+59	lula	lula	NOUN	NOUN	_	57	nmod	_	TokenRange=410:414
+60	dirceu	dirceu	VERB	VERB	_	56	appos	_	TokenRange=415:421
+61	gilberto	gilberto	NOUN	NOUN	_	60	flat	_	TokenRange=422:430
+62	carvalho	carvalho	ADJ	ADJ	_	60	flat	_	TokenRange=431:439
+63	video	video	NOUN	NOUN	_	52	obj	_	TokenRange=440:445
+64	antagonista	antagonista	ADJ	ADJ	_	63	amod	_	SpaceAfter=No|TokenRange=446:457
+

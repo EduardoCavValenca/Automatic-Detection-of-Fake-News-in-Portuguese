@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trf4 julga recurso lula caso triplex nesta segundafeira tribunal aumentou pena 12 anos 1 mes prisao defesa entrou embargos declaracao decisao stf expresidente podera preso antes 4 abril ministros vao julgar pedido habeas corpus preventivo tribunal regional federal 4 regiao trf4 sede porto alegre julga partir 13h30 desta segundafeira 26 recurso apresentado defesa luiz inacio lula silva contra decisao condenou 2 instancia aumentou pena expresidente caso
+1	trf4	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	julga	julgar	VERB	VERB	_	0	root	_	TokenRange=5:10
+3	recurso	recurso	NOUN	NOUN	_	2	obj	_	TokenRange=11:18
+4	lula	lula	ADJ	ADJ	_	3	amod	_	TokenRange=19:23
+5	caso	caso	NOUN	NOUN	_	2	obj	_	TokenRange=24:28
+6	triplex	_	NOUN	NOUN	_	5	flat	_	TokenRange=29:36
+7	nesta	_	ADP	ADP	_	8	case	_	TokenRange=37:42
+8	segundafeira	_	NOUN	NOUN	_	10	nmod	_	TokenRange=43:55
+9	tribunal	tribunal	NOUN	NOUN	_	8	flat	_	TokenRange=56:64
+10	aumentou	aumentar	VERB	VERB	_	2	parataxis	_	TokenRange=65:73
+11	pena	_	NOUN	NOUN	_	10	obj	_	TokenRange=74:78
+12	12	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=79:81
+13	anos	ano	NOUN	NOUN	_	10	nmod	_	TokenRange=82:86
+14	1	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=87:88
+15	mes	me	NOUN	NOUN	_	13	appos	_	TokenRange=89:92
+16	prisao	prisao	NOUN	NOUN	_	10	obj	_	TokenRange=93:99
+17	defesa	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=100:106
+18	entrou	entrar	VERB	VERB	_	10	parataxis	_	TokenRange=107:113
+19	embargos	embargo	NOUN	NOUN	_	18	obj	_	TokenRange=114:122
+20	declaracao	declaracao	ADJ	ADJ	_	21	amod	_	TokenRange=123:133
+21	decisao	decisao	NOUN	NOUN	_	18	nsubj	_	TokenRange=134:141
+22	stf	_	X	NOUN	_	21	appos	_	TokenRange=142:145
+23	expresidente	expresidente	NOUN	NOUN	_	25	nsubj:pass	_	TokenRange=146:158
+24	podera	poder	AUX	AUX	_	25	aux	_	TokenRange=159:165
+25	preso	_	VERB	VERB	_	19	acl:relcl	_	TokenRange=166:171
+26	antes	antes	ADV	ADV	_	25	advmod	_	TokenRange=172:177
+27	4	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=178:179
+28	abril	_	PROPN	PNOUN	_	25	nmod	_	TokenRange=180:185
+29	ministros	ministro	NOUN	NOUN	_	31	nsubj	_	TokenRange=186:195
+30	vao	ir	AUX	AUX	_	31	aux	_	TokenRange=196:199
+31	julgar	julgar	VERB	VERB	_	2	conj	_	TokenRange=200:206
+32	pedido	pedido	NOUN	NOUN	_	31	obj	_	TokenRange=207:213
+33	habeas	habeas	NOUN	NOUN	_	32	appos	_	TokenRange=214:220
+34	corpus	corpus	NOUN	NOUN	_	32	flat	_	TokenRange=221:227
+35	preventivo	preventivo	ADJ	ADJ	_	36	amod	_	TokenRange=228:238
+36	tribunal	tribunal	NOUN	NOUN	_	32	appos	_	TokenRange=239:247
+37	regional	regional	ADJ	ADJ	_	36	amod	_	TokenRange=248:256
+38	federal	federal	ADJ	ADJ	_	36	amod	_	TokenRange=257:264
+39	4	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=265:266
+40	regiao	regiao	NOUN	NOUN	_	36	appos	_	TokenRange=267:273
+41	trf4	_	NOUN	NOUN	_	42	appos	_	TokenRange=274:278
+42	sede	sede	NOUN	NOUN	_	36	appos	_	TokenRange=279:283
+43	porto	porto	NOUN	NOUN	_	42	appos	_	TokenRange=284:289
+44	alegre	alegre	ADJ	ADJ	_	42	amod	_	TokenRange=290:296
+45	julga	julgar	VERB	VERB	_	2	parataxis	_	TokenRange=297:302
+46	partir	partir	VERB	VERB	_	45	xcomp	_	TokenRange=303:309
+47	13h30	_	NUM	NUM	NumType=Card	46	nmod	_	TokenRange=310:315
+48	desta	_	ADP	ADP	_	49	case	_	TokenRange=316:321
+49	segundafeira	segundafeira	NOUN	NOUN	_	47	nmod	_	TokenRange=322:334
+50	26	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=335:337
+51	recurso	recurso	NOUN	NOUN	_	46	nsubj	_	TokenRange=338:345
+52	apresentado	apresentar	VERB	VERB	_	51	acl	_	TokenRange=346:357
+53	defesa	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=358:364
+54	luiz	luiz	ADJ	ADJ	_	53	appos	_	TokenRange=365:369
+55	inacio	_	NOUN	NOUN	_	54	flat	_	TokenRange=370:376
+56	lula	_	NOUN	NOUN	_	54	flat	_	TokenRange=377:381
+57	silva	silva	ADJ	ADJ	_	54	flat	_	TokenRange=382:387
+58	contra	_	ADP	ADP	_	59	case	_	TokenRange=388:394
+59	decisao	decisao	NOUN	NOUN	_	52	nmod	_	TokenRange=395:402
+60	condenou	condenar	VERB	VERB	_	45	parataxis	_	TokenRange=403:411
+61	2	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=412:413
+62	instancia	instancia	NOUN	NOUN	_	60	obj	_	TokenRange=414:423
+63	aumentou	aumentar	VERB	VERB	_	45	parataxis	_	TokenRange=424:432
+64	pena	_	NOUN	NOUN	_	63	obj	_	TokenRange=433:437
+65	expresidente	expresidente	NOUN	NOUN	_	64	amod	_	TokenRange=438:450
+66	caso	caso	NOUN	NOUN	_	63	obj	_	SpaceAfter=No|TokenRange=451:455
+

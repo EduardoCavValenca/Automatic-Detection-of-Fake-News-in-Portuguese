@@ -1,0 +1,20 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pedido vista adia julgamento acao penal contra deputado gilmar sossella trers parlamentar
+1	pedido	pedido	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	vista	vista	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	adia	adiar	VERB	VERB	_	0	root	_	TokenRange=13:17
+4	julgamento	julgamento	NOUN	NOUN	_	3	obj	_	TokenRange=18:28
+5	acao	acao	NOUN	NOUN	_	4	appos	_	TokenRange=29:33
+6	penal	penal	ADJ	ADJ	_	5	amod	_	TokenRange=34:39
+7	contra	_	ADP	ADP	_	8	case	_	TokenRange=40:46
+8	deputado	deputado	NOUN	NOUN	_	5	nmod	_	TokenRange=47:55
+9	gilmar	gilmar	NOUN	NOUN	_	8	flat	_	TokenRange=56:62
+10	sossella	_	NOUN	NOUN	_	8	flat	_	TokenRange=63:71
+11	trers	_	NOUN	NOUN	_	8	appos	_	TokenRange=72:77
+12	parlamentar	parlamentar	ADJ	ADJ	_	11	amod	_	SpaceAfter=No|TokenRange=78:89
+

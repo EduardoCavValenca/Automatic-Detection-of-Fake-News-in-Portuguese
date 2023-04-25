@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = familias presos mortos presidios maranhao receberao r 100 mil indenizacao justica maranhao atraves terceira vara federal declarou estado indenizar parentes detentos mortos presidios estado indenizar cada familia sessenta quatro detentos morreram periodo janeiro 2013 janeiro 2014 valor fixado r 100 mil reais decretado filhos detentos dependentes deverao receber pensao equivalente 66 salarios minimo completar 25 anos caso vitimas estado detentos filhos pensao valera conjuge atual vale ressaltar acao impetrada oab maranhao
+1	familias	familia	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:8
+2	presos	prender	VERB	VERB	_	1	acl	_	TokenRange=9:15
+3	mortos	morto	ADJ	ADJ	_	4	amod	_	TokenRange=16:22
+4	presidios	presidio	NOUN	NOUN	_	2	nsubj	_	TokenRange=23:32
+5	maranhao	maranhao	ADJ	ADJ	_	4	amod	_	TokenRange=33:41
+6	receberao	receber	VERB	VERB	_	0	root	_	TokenRange=42:51
+7	r	r	NOUN	NOUN	_	6	obj	_	TokenRange=52:53
+8	100	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=54:57
+9	mil	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=58:61
+10	indenizacao	_	NOUN	NOUN	_	6	obj	_	TokenRange=62:73
+11	justica	_	ADJ	ADJ	_	10	amod	_	TokenRange=74:81
+12	maranhao	maranhao	NOUN	NOUN	_	10	amod	_	TokenRange=82:90
+13	atraves	_	ADV	ADV	_	15	case	_	TokenRange=91:98
+14	terceira	_	ADJ	ADJ	_	15	amod	_	TokenRange=99:107
+15	vara	vara	NOUN	NOUN	_	6	nmod	_	TokenRange=108:112
+16	federal	federal	ADJ	ADJ	_	15	amod	_	TokenRange=113:120
+17	declarou	declarar	VERB	VERB	_	6	parataxis	_	TokenRange=121:129
+18	estado	estado	NOUN	NOUN	_	17	obj	_	TokenRange=130:136
+19	indenizar	indenizar	ADJ	VERB	_	18	amod	_	TokenRange=137:146
+20	parentes	parente	NOUN	NOUN	_	10	amod	_	TokenRange=147:155
+21	detentos	detento	NOUN	NOUN	_	20	amod	_	TokenRange=156:164
+22	mortos	morto	ADJ	ADJ	_	21	amod	_	TokenRange=165:171
+23	presidios	presidio	ADJ	ADJ	_	21	amod	_	TokenRange=172:181
+24	estado	estado	ADJ	ADJ	_	21	amod	_	TokenRange=182:188
+25	indenizar	indenizar	VERB	VERB	_	18	acl:inf	_	TokenRange=189:198
+26	cada	_	DET	DET	_	27	det	_	TokenRange=199:203
+27	familia	familia	NOUN	NOUN	_	25	obj	_	TokenRange=204:211
+28	sessenta	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=212:220
+29	quatro	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=221:227
+30	detentos	detento	NOUN	NOUN	_	31	nsubj	_	TokenRange=228:236
+31	morreram	morrer	VERB	VERB	_	25	parataxis	_	TokenRange=237:245
+32	periodo	periodo	NOUN	NOUN	_	31	nmod	_	TokenRange=246:253
+33	janeiro	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=254:261
+34	2013	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=262:266
+35	janeiro	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=267:274
+36	2014	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=275:279
+37	valor	valor	NOUN	NOUN	_	31	nsubj	_	TokenRange=280:285
+38	fixado	fixado	ADJ	ADJ	_	37	amod	_	TokenRange=286:292
+39	r	r	NOUN	NOUN	_	37	flat	_	TokenRange=293:294
+40	100	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=295:298
+41	mil	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=299:302
+42	reais	real	NOUN	NOUN	_	37	appos	_	TokenRange=303:308
+43	decretado	decretar	VERB	VERB	_	42	acl	_	TokenRange=309:318
+44	filhos	filho	NOUN	NOUN	_	48	nsubj	_	TokenRange=319:325
+45	detentos	detento	NOUN	NOUN	_	44	appos	_	TokenRange=326:334
+46	dependentes	dependente	ADJ	ADJ	_	44	amod	_	TokenRange=335:346
+47	deverao	dever	AUX	AUX	_	48	aux	_	TokenRange=347:354
+48	receber	receber	VERB	VERB	_	6	parataxis	_	TokenRange=355:362
+49	pensao	pensao	NOUN	NOUN	_	48	obj	_	TokenRange=363:369
+50	equivalente	equivalente	ADJ	ADJ	_	49	amod	_	TokenRange=370:381
+51	66	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=382:384
+52	salarios	salario	NOUN	NOUN	_	49	appos	_	TokenRange=385:393
+53	minimo	minimo	ADJ	ADJ	_	52	amod	_	TokenRange=394:400
+54	completar	completar	VERB	VERB	_	49	acl:inf	_	TokenRange=401:410
+55	25	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=411:413
+56	anos	ano	NOUN	NOUN	_	54	obj	_	TokenRange=414:418
+57	caso	_	ADP	ADP	_	58	mark	_	TokenRange=419:423
+58	vitimas	_	NOUN	NOUN	_	59	amod	_	TokenRange=424:431
+59	estado	estado	NOUN	NOUN	_	54	nsubj	_	TokenRange=432:438
+60	detentos	detento	ADJ	ADJ	_	59	amod	_	TokenRange=439:447
+61	filhos	filho	NOUN	NOUN	_	59	appos	_	TokenRange=448:454
+62	pensao	pensao	VERB	VERB	_	59	amod	_	TokenRange=455:461
+63	valera	valera	NOUN	NOUN	_	59	appos	_	TokenRange=462:468
+64	conjuge	conjuge	NOUN	NOUN	_	63	flat	_	TokenRange=469:476
+65	atual	atual	ADJ	ADJ	_	64	amod	_	TokenRange=477:482
+66	vale	_	VERB	VERB	_	48	parataxis	_	TokenRange=483:487
+67	ressaltar	ressaltar	VERB	VERB	_	66	csubj	_	TokenRange=488:497
+68	acao	acao	NOUN	NOUN	_	67	obj	_	TokenRange=498:502
+69	impetrada	impetrado	ADJ	ADJ	_	68	amod	_	TokenRange=503:512
+70	oab	_	NOUN	NOUN	_	67	obj	_	TokenRange=513:516
+71	maranhao	maranhao	NOUN	NOUN	_	70	flat	_	SpaceAfter=No|TokenRange=517:525
+

@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = precisa cacado diz advogado goleiro bruno apos reuniao juiz advogado diretor boa esporte forum varginha inicio tarde mandado prisao ainda expedido atleta continua liberdade advogado goleiro bruno fernandes lucio adolfo disse tarde desta quartafeira 26 atleta precisara cacado policia ainda conforme advogado assim mandado prisao expedido goleiro ira apresentar espontaneamente justica podera acontecer
+1	precisa	precisar	VERB	VERB	_	0	root	_	TokenRange=0:7
+2	cacado	cacado	NOUN	NOUN	_	3	nsubj	_	TokenRange=8:14
+3	diz	dizer	VERB	VERB	_	1	ccomp	_	TokenRange=15:18
+4	advogado	advogado	NOUN	NOUN	_	3	obj	_	TokenRange=19:27
+5	goleiro	goleiro	NOUN	NOUN	_	4	appos	_	TokenRange=28:35
+6	bruno	bruno	NOUN	NOUN	_	4	flat	_	TokenRange=36:41
+7	apos	_	ADP	ADP	_	8	case	_	TokenRange=42:46
+8	reuniao	reuniao	NOUN	NOUN	_	3	nmod	_	TokenRange=47:54
+9	juiz	juiz	NOUN	NOUN	_	8	amod	_	TokenRange=55:59
+10	advogado	advogado	NOUN	NOUN	_	8	appos	_	TokenRange=60:68
+11	diretor	diretor	NOUN	NOUN	_	10	amod	_	TokenRange=69:76
+12	boa	bom	ADJ	ADJ	_	13	amod	_	TokenRange=77:80
+13	esporte	esporte	NOUN	NOUN	_	10	appos	_	TokenRange=81:88
+14	forum	forum	NOUN	NOUN	_	13	appos	_	TokenRange=89:94
+15	varginha	_	NOUN	NOUN	_	14	appos	_	TokenRange=95:103
+16	inicio	_	NOUN	NOUN	_	13	amod	_	TokenRange=104:110
+17	tarde	tarde	NOUN	NOUN	_	14	advmod	_	TokenRange=111:116
+18	mandado	mandar	VERB	VERB	_	15	acl	_	TokenRange=117:124
+19	prisao	prisao	NOUN	NOUN	_	18	flat	_	TokenRange=125:131
+20	ainda	ainda	ADV	ADV	_	21	advmod	_	TokenRange=132:137
+21	expedido	expedido	ADJ	ADJ	_	22	amod	_	TokenRange=138:146
+22	atleta	atleta	NOUN	NOUN	_	23	nsubj	_	TokenRange=147:153
+23	continua	continuar	VERB	VERB	_	18	parataxis	_	TokenRange=154:162
+24	liberdade	liberdade	NOUN	NOUN	_	31	obj	_	TokenRange=163:172
+25	advogado	advogado	ADJ	ADJ	_	24	amod	_	TokenRange=173:181
+26	goleiro	goleiro	NOUN	NOUN	_	24	appos	_	TokenRange=182:189
+27	bruno	bruno	NOUN	NOUN	_	26	appos	_	TokenRange=190:195
+28	fernandes	fernande	NOUN	NOUN	_	26	flat	_	TokenRange=196:205
+29	lucio	lucio	NOUN	NOUN	_	26	appos	_	TokenRange=206:211
+30	adolfo	adolfo	NOUN	NOUN	_	29	flat	_	TokenRange=212:218
+31	disse	dizer	VERB	VERB	_	1	parataxis	_	TokenRange=219:224
+32	tarde	tarde	NOUN	NOUN	_	31	obj	_	TokenRange=225:230
+33	desta	_	ADP	ADP	_	34	case	_	TokenRange=231:236
+34	quartafeira	quartafeira	NOUN	NOUN	_	37	nmod	_	TokenRange=237:248
+35	26	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=249:251
+36	atleta	atleta	NOUN	NOUN	_	37	nsubj	_	TokenRange=252:258
+37	precisara	precisar	VERB	VERB	_	31	ccomp	_	TokenRange=259:268
+38	cacado	cacado	NOUN	NOUN	_	37	obj	_	TokenRange=269:275
+39	policia	policia	NOUN	NOUN	_	38	appos	_	TokenRange=276:283
+40	ainda	ainda	ADV	ADV	_	53	advmod	_	TokenRange=284:289
+41	conforme	_	ADP	ADP	_	42	case	_	TokenRange=290:298
+42	advogado	advogado	NOUN	NOUN	_	37	nmod	_	TokenRange=299:307
+43	assim	assim	ADV	ADV	_	44	advmod	_	TokenRange=308:313
+44	mandado	mandar	VERB	VERB	_	42	acl	_	TokenRange=314:321
+45	prisao	prisao	NOUN	NOUN	_	44	advmod	_	TokenRange=322:328
+46	expedido	expedido	ADJ	ADJ	_	47	amod	_	TokenRange=329:337
+47	goleiro	goleiro	NOUN	NOUN	_	49	nsubj	_	TokenRange=338:345
+48	ira	_	AUX	AUX	_	53	aux	_	TokenRange=346:349
+49	apresentar	apresentar	VERB	VERB	_	42	acl:relcl	_	TokenRange=350:360
+50	espontaneamente	espontaneamente	ADV	ADV	_	53	advmod	_	TokenRange=361:376
+51	justica	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=377:384
+52	podera	poder	AUX	AUX	_	53	aux	_	TokenRange=385:391
+53	acontecer	acontecer	VERB	VERB	_	49	conj	_	SpaceAfter=No|TokenRange=392:401
+

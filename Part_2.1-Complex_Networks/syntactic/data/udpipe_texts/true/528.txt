@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = guta oriental entenda regiao siria sob intenso ataque chegou crise humanitaria regiao proxima damasco sitiada desde 2013 alvo intensos bombardeios regime sirio mortos ataques desde domingo 18 passam 500 nesta semana regiao arredores damasco siria chamou atencao noticiario internacional palco sangrentos bombardeios resultaram 250 mortes civis apenas 48 horas tratase guta oriental antigo destino viagens final semana moradores
+1	guta	guta	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	oriental	oriental	ADJ	ADJ	_	1	amod	_	TokenRange=5:13
+3	entenda	entender	VERB	VERB	_	0	root	_	TokenRange=14:21
+4	regiao	regiao	NOUN	NOUN	_	3	obj	_	TokenRange=22:28
+5	siria	sirio	ADJ	ADJ	_	4	amod	_	TokenRange=29:34
+6	sob	_	ADP	ADP	_	8	case	_	TokenRange=35:38
+7	intenso	intenso	ADJ	ADJ	_	8	amod	_	TokenRange=39:46
+8	ataque	ataque	NOUN	NOUN	_	1	nmod	_	TokenRange=47:53
+9	chegou	chegar	VERB	VERB	_	3	parataxis	_	TokenRange=54:60
+10	crise	crise	NOUN	NOUN	_	9	obj	_	TokenRange=61:66
+11	humanitaria	humanitario	ADJ	ADJ	_	10	amod	_	TokenRange=67:78
+12	regiao	regiao	NOUN	NOUN	_	10	appos	_	TokenRange=79:85
+13	proxima	proximo	ADJ	ADJ	_	12	amod	_	TokenRange=86:93
+14	damasco	_	ADV	ADV	_	15	advmod	_	TokenRange=94:101
+15	sitiada	sitiar	VERB	VERB	_	12	acl	_	TokenRange=102:109
+16	desde	_	ADP	ADP	_	17	case	_	TokenRange=110:115
+17	2013	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=116:120
+18	alvo	alvo	NOUN	NOUN	_	9	nmod	_	TokenRange=121:125
+19	intensos	intenso	ADJ	ADJ	_	20	amod	_	TokenRange=126:134
+20	bombardeios	bombardeio	NOUN	NOUN	_	18	nsubj	_	TokenRange=135:146
+21	regime	regime	NOUN	NOUN	_	20	appos	_	TokenRange=147:153
+22	sirio	sirio	ADJ	ADJ	_	21	amod	_	TokenRange=154:159
+23	mortos	morto	ADJ	ADJ	_	20	amod	_	TokenRange=160:166
+24	ataques	ataque	NOUN	NOUN	_	20	appos	_	TokenRange=167:174
+25	desde	_	ADP	ADP	_	26	case	_	TokenRange=175:180
+26	domingo	_	PROPN	PNOUN	_	24	nmod	_	TokenRange=181:188
+27	18	_	NUM	NUM	NumType=Card	26	appos	_	TokenRange=189:191
+28	passam	passar	VERB	VERB	_	26	acl:relcl	_	TokenRange=192:198
+29	500	_	NUM	NUM	NumType=Card	28	nsubj	_	TokenRange=199:202
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=203:208
+31	semana	semana	NOUN	NOUN	_	36	nmod	_	TokenRange=209:215
+32	regiao	regiao	NOUN	NOUN	_	36	nsubj	_	TokenRange=216:222
+33	arredores	arredor	ADJ	ADJ	_	32	amod	_	TokenRange=223:232
+34	damasco	damasco	NOUN	NOUN	_	32	appos	_	TokenRange=233:240
+35	siria	sirio	NOUN	NOUN	_	32	amod	_	TokenRange=241:246
+36	chamou	chamar	VERB	VERB	_	3	parataxis	_	TokenRange=247:253
+37	atencao	atencao	NOUN	NOUN	_	36	obj	_	TokenRange=254:261
+38	noticiario	noticiario	NOUN	NOUN	_	36	nsubj	_	TokenRange=262:272
+39	internacional	internacional	ADJ	ADJ	_	38	amod	_	TokenRange=273:286
+40	palco	palco	NOUN	NOUN	_	36	nmod	_	TokenRange=287:292
+41	sangrentos	sangrento	ADJ	ADJ	_	42	amod	_	TokenRange=293:303
+42	bombardeios	bombardeio	NOUN	NOUN	_	40	appos	_	TokenRange=304:315
+43	resultaram	resultar	VERB	VERB	_	36	parataxis	_	TokenRange=316:326
+44	250	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=327:330
+45	mortes	morte	NOUN	NOUN	_	43	nsubj	_	TokenRange=331:337
+46	civis	civil	ADJ	ADJ	_	45	amod	_	TokenRange=338:343
+47	apenas	apenas	ADV	ADV	_	48	advmod	_	TokenRange=344:350
+48	48	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=351:353
+49	horas	hora	NOUN	NOUN	_	50	nmod	_	TokenRange=354:359
+50	tratase	tratar	VERB	VERB	_	43	parataxis	_	TokenRange=360:367
+51	guta	guta	NOUN	NOUN	_	50	obj	_	TokenRange=368:372
+52	oriental	oriental	ADJ	ADJ	_	51	amod	_	TokenRange=373:381
+53	antigo	antigo	ADJ	ADJ	_	54	amod	_	TokenRange=382:388
+54	destino	destino	NOUN	NOUN	_	50	obj	_	TokenRange=389:396
+55	viagens	viagem	NOUN	NOUN	_	54	appos	_	TokenRange=397:404
+56	final	final	ADJ	ADJ	_	58	amod	_	TokenRange=405:410
+57	semana	semana	NOUN	NOUN	_	58	amod	_	TokenRange=411:417
+58	moradores	morador	NOUN	NOUN	_	54	appos	_	SpaceAfter=No|TokenRange=418:427
+

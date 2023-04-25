@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saiba meio politico reagiu decisao tse sobre chapa dilmatemer 4 votos 3 tribunal rejeitou nesta sextafeira 9 acao movida psdb pedia cassacao chapa formada dilma rousseff michel temer 2014 abuso poder 4 votos 3 tribunal superior eleitoral tse rejeitou nesta sextafeira 9 cassacao chapa formada dilma rousseff michel temer 2014 tse analisaram
+1	saiba	saber	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	meio	meio	NOUN	NOUN	_	1	appos	_	TokenRange=6:10
+3	politico	politico	ADJ	ADJ	_	2	amod	_	TokenRange=11:19
+4	reagiu	reagir	VERB	VERB	_	0	root	_	TokenRange=20:26
+5	decisao	decisao	NOUN	NOUN	_	4	obj	_	TokenRange=27:34
+6	tse	_	PROPN	PNOUN	_	5	appos	_	TokenRange=35:38
+7	sobre	_	ADP	ADP	_	8	case	_	TokenRange=39:44
+8	chapa	chapa	NOUN	NOUN	_	5	nmod	_	TokenRange=45:50
+9	dilmatemer	dilmatemer	NOUN	NOUN	_	8	flat	_	TokenRange=51:61
+10	4	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=62:63
+11	votos	voto	NOUN	NOUN	_	8	appos	_	TokenRange=64:69
+12	3	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=70:71
+13	tribunal	tribunal	NOUN	NOUN	_	14	nsubj	_	TokenRange=72:80
+14	rejeitou	rejeitar	VERB	VERB	_	8	acl:relcl	_	TokenRange=81:89
+15	nesta	_	ADP	ADP	_	16	case	_	TokenRange=90:95
+16	sextafeira	_	NOUN	NOUN	_	14	nmod	_	TokenRange=96:106
+17	9	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=107:108
+18	acao	acao	NOUN	NOUN	_	14	nsubj	_	TokenRange=109:113
+19	movida	movido	ADJ	ADJ	_	18	amod	_	TokenRange=114:120
+20	psdb	_	NOUN	PNOUN	_	18	appos	_	TokenRange=121:125
+21	pedia	pedir	VERB	VERB	_	4	parataxis	_	TokenRange=126:131
+22	cassacao	cassacao	NOUN	NOUN	_	21	obj	_	TokenRange=132:140
+23	chapa	chapa	NOUN	NOUN	_	22	appos	_	TokenRange=141:146
+24	formada	formar	ADJ	ADJ	_	23	amod	_	TokenRange=147:154
+25	dilma	dilma	NOUN	NOUN	_	23	appos	_	TokenRange=155:160
+26	rousseff	rousseff	NOUN	NOUN	_	25	flat	_	TokenRange=161:169
+27	michel	_	ADJ	ADJ	_	28	amod	_	TokenRange=170:176
+28	temer	temer	NOUN	NOUN	_	25	appos	_	TokenRange=177:182
+29	2014	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=183:187
+30	abuso	abuso	NOUN	NOUN	_	22	appos	_	TokenRange=188:193
+31	poder	poder	NOUN	NOUN	_	30	flat	_	TokenRange=194:199
+32	4	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=200:201
+33	votos	voto	NOUN	NOUN	_	30	appos	_	TokenRange=202:207
+34	3	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=208:209
+35	tribunal	tribunal	NOUN	NOUN	_	39	nsubj	_	TokenRange=210:218
+36	superior	superior	ADJ	ADJ	_	35	amod	_	TokenRange=219:227
+37	eleitoral	eleitoral	ADJ	ADJ	_	35	amod	_	TokenRange=228:237
+38	tse	_	PRON	PRON	_	52	obj	_	TokenRange=238:241
+39	rejeitou	rejeitar	VERB	VERB	_	4	parataxis	_	TokenRange=242:250
+40	nesta	_	ADP	ADP	_	41	case	_	TokenRange=251:256
+41	sextafeira	sextafeira	NOUN	NOUN	_	52	nmod	_	TokenRange=257:267
+42	9	_	NUM	NUM	NumType=Card	41	nmod	_	TokenRange=268:269
+43	cassacao	cassacao	NOUN	NOUN	_	52	obj	_	TokenRange=270:278
+44	chapa	chapa	NOUN	NOUN	_	52	obj	_	TokenRange=279:284
+45	formada	formado	ADJ	ADJ	_	44	amod	_	TokenRange=285:292
+46	dilma	dilma	NOUN	NOUN	_	44	appos	_	TokenRange=293:298
+47	rousseff	rousseff	NOUN	NOUN	_	44	appos	_	TokenRange=299:307
+48	michel	_	ADJ	PNOUN	_	49	amod	_	TokenRange=308:314
+49	temer	temer	NOUN	NOUN	_	46	appos	_	TokenRange=315:320
+50	2014	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=321:325
+51	tse	tse	NOUN	NOUN	_	52	obj	_	TokenRange=326:329
+52	analisaram	analisar	VERB	VERB	_	4	parataxis	_	SpaceAfter=No|TokenRange=330:340
+

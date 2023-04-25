@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tomar poder sim manter ordem forcas armadas dao recado dilma nota publicada portal antagonista data ontem 04/03 apos inicio operacao conduziu coercitivamente lula depor congonhas forcas armadas deram recado dilma rousseff atraves alto comando exercito militares disseram hesitarao cumprir dever constitucional manutencao ordem permitido hipotese alguma lideres comunistas incentivem exercitos baderneiros promover quebradeira territorio nacional dilma entendeu advertencia
+1	tomar	tomar	VERB	VERB	_	8	csubj	_	TokenRange=0:5
+2	poder	poder	NOUN	NOUN	_	1	obj	_	TokenRange=6:11
+3	sim	sim	ADV	ADV	_	4	advmod	_	TokenRange=12:15
+4	manter	manter	VERB	VERB	_	1	ccomp	_	TokenRange=16:22
+5	ordem	ordem	NOUN	NOUN	_	4	obj	_	TokenRange=23:28
+6	forcas	forca	NOUN	NOUN	_	8	nsubj	_	TokenRange=29:35
+7	armadas	armado	ADJ	ADJ	_	6	amod	_	TokenRange=36:43
+8	dao	_	VERB	VERB	_	0	root	_	TokenRange=44:47
+9	recado	recado	NOUN	NOUN	_	8	obj	_	TokenRange=48:54
+10	dilma	_	ADJ	ADJ	_	11	amod	_	TokenRange=55:60
+11	nota	nota	NOUN	NOUN	_	9	appos	_	TokenRange=61:65
+12	publicada	publicar	VERB	VERB	_	11	acl	_	TokenRange=66:75
+13	portal	portal	NOUN	NOUN	_	12	parataxis	_	TokenRange=76:82
+14	antagonista	antagonista	ADJ	ADJ	_	13	amod	_	TokenRange=83:94
+15	data	data	NOUN	NOUN	_	8	parataxis	_	TokenRange=95:99
+16	ontem	ontem	ADV	ADV	_	21	advmod	_	TokenRange=100:105
+17	04/03	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=106:111
+18	apos	_	ADP	ADP	_	21	mark	_	TokenRange=112:116
+19	inicio	_	ADJ	ADJ	_	20	amod	_	TokenRange=117:123
+20	operacao	operacao	NOUN	NOUN	_	21	nsubj	_	TokenRange=124:132
+21	conduziu	conduzir	VERB	VERB	_	15	acl:relcl	_	TokenRange=133:141
+22	coercitivamente	coercitivamente	ADV	ADV	_	21	advmod	_	TokenRange=142:157
+23	lula	_	NOUN	NOUN	_	21	obj	_	TokenRange=158:162
+24	depor	depor	VERB	VERB	_	21	ccomp	_	TokenRange=163:168
+25	congonhas	congonha	NOUN	NOUN	_	24	obj	_	TokenRange=169:178
+26	forcas	forca	NOUN	NOUN	_	28	nsubj	_	TokenRange=179:185
+27	armadas	armado	ADJ	ADJ	_	26	amod	_	TokenRange=186:193
+28	deram	dar	VERB	VERB	_	15	acl:relcl	_	TokenRange=194:199
+29	recado	recado	NOUN	NOUN	_	28	obj	_	TokenRange=200:206
+30	dilma	dilma	NOUN	NOUN	_	29	appos	_	TokenRange=207:212
+31	rousseff	rousseff	NOUN	NOUN	_	30	flat	_	TokenRange=213:221
+32	atraves	_	ADV	ADV	_	34	advmod	_	TokenRange=222:229
+33	alto	alto	ADJ	ADJ	_	34	amod	_	TokenRange=230:234
+34	comando	comando	NOUN	NOUN	_	28	nsubj	_	TokenRange=235:242
+35	exercito	exercito	NOUN	NOUN	_	34	appos	_	TokenRange=243:251
+36	militares	militar	ADJ	ADJ	_	35	amod	_	TokenRange=252:261
+37	disseram	dizer	VERB	VERB	_	28	parataxis	_	TokenRange=262:270
+38	hesitarao	hesitar	VERB	VERB	_	37	xcomp	_	TokenRange=271:280
+39	cumprir	cumprir	VERB	VERB	_	38	xcomp	_	TokenRange=281:288
+40	dever	dever	NOUN	NOUN	_	39	obj	_	TokenRange=289:294
+41	constitucional	constitucional	ADJ	ADJ	_	40	amod	_	TokenRange=295:309
+42	manutencao	manutencao	ADJ	ADJ	_	43	amod	_	TokenRange=310:320
+43	ordem	ordem	NOUN	NOUN	_	40	appos	_	TokenRange=321:326
+44	permitido	permitir	VERB	VERB	_	43	acl	_	TokenRange=327:336
+45	hipotese	hipotese	NOUN	NOUN	_	44	nsubj	_	TokenRange=337:345
+46	alguma	_	DET	DET	_	47	det	_	TokenRange=346:352
+47	lideres	lider	NOUN	NOUN	_	49	nsubj	_	TokenRange=353:360
+48	comunistas	comunista	ADJ	ADJ	_	47	amod	_	TokenRange=361:371
+49	incentivem	incentivar	VERB	VERB	_	39	ccomp	_	TokenRange=372:382
+50	exercitos	exercito	NOUN	NOUN	_	49	obj	_	TokenRange=383:392
+51	baderneiros	_	ADJ	ADJ	_	50	amod	_	TokenRange=393:404
+52	promover	promover	VERB	VERB	_	49	xcomp	_	TokenRange=405:413
+53	quebradeira	quebradeira	NOUN	NOUN	_	52	obj	_	TokenRange=414:425
+54	territorio	territorio	NOUN	NOUN	_	52	obj	_	TokenRange=426:436
+55	nacional	nacional	ADJ	ADJ	_	54	amod	_	TokenRange=437:445
+56	dilma	dilma	NOUN	NOUN	_	57	nsubj	_	TokenRange=446:451
+57	entendeu	entender	VERB	VERB	_	37	parataxis	_	TokenRange=452:460
+58	advertencia	advertencia	NOUN	NOUN	_	57	obj	_	SpaceAfter=No|TokenRange=461:472
+

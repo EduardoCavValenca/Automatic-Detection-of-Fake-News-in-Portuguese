@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = turminha dilma pm brasilia apreende armas membros movimentos sociais pm distrito federal apreendeu machado punhal taco madeira spray pimenta manifestantes pro dilma policia informou objetos posse movimentos sociais acampados lado teatro nacional tres pessoas presas manifestantes acampados brasilia acompanhar votacao processo impeachment camara acontecera proximo domingo 17
+1	turminha	turminha	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	dilma	dilma	ADJ	ADJ	_	1	amod	_	TokenRange=9:14
+3	pm	_	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	brasilia	_	NOUN	NOUN	_	1	nmod	_	TokenRange=18:26
+5	apreende	apreender	VERB	VERB	_	44	parataxis	_	TokenRange=27:35
+6	armas	arma	NOUN	NOUN	_	5	obj	_	TokenRange=36:41
+7	membros	membro	NOUN	NOUN	_	6	appos	_	TokenRange=42:49
+8	movimentos	movimento	NOUN	NOUN	_	6	appos	_	TokenRange=50:60
+9	sociais	social	ADJ	ADJ	_	8	amod	_	TokenRange=61:68
+10	pm	_	ADP	ADP	_	11	case	_	TokenRange=69:71
+11	distrito	distrito	NOUN	NOUN	_	13	nmod	_	TokenRange=72:80
+12	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=81:88
+13	apreendeu	apreender	VERB	VERB	_	5	parataxis	_	TokenRange=89:98
+14	machado	machado	NOUN	NOUN	_	13	obj	_	TokenRange=99:106
+15	punhal	punhal	NOUN	NOUN	_	14	appos	_	TokenRange=107:113
+16	taco	taco	NOUN	NOUN	_	14	appos	_	TokenRange=114:118
+17	madeira	madeira	NOUN	NOUN	_	14	appos	_	TokenRange=119:126
+18	spray	spray	NOUN	NOUN	_	16	appos	_	TokenRange=127:132
+19	pimenta	pimenta	NOUN	NOUN	_	17	amod	_	TokenRange=133:140
+20	manifestantes	manifestante	NOUN	NOUN	_	16	appos	_	TokenRange=141:154
+21	pro	_	ADP	ADP	_	22	case	_	TokenRange=155:158
+22	dilma	dilma	NOUN	NOUN	_	20	nmod	_	TokenRange=159:164
+23	policia	policia	NOUN	NOUN	_	24	nsubj	_	TokenRange=165:172
+24	informou	informar	VERB	VERB	_	5	parataxis	_	TokenRange=173:181
+25	objetos	objeto	NOUN	NOUN	_	24	obj	_	TokenRange=182:189
+26	posse	posse	NOUN	NOUN	_	25	flat	_	TokenRange=190:195
+27	movimentos	movimento	NOUN	NOUN	_	25	appos	_	TokenRange=196:206
+28	sociais	social	ADJ	ADJ	_	27	amod	_	TokenRange=207:214
+29	acampados	acampado	ADJ	ADJ	_	27	amod	_	TokenRange=215:224
+30	lado	lado	NOUN	NOUN	_	27	appos	_	TokenRange=225:229
+31	teatro	teatro	NOUN	NOUN	_	30	appos	_	TokenRange=230:236
+32	nacional	nacional	ADJ	ADJ	_	31	amod	_	TokenRange=237:245
+33	tres	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=246:250
+34	pessoas	pessoa	NOUN	NOUN	_	24	nsubj	_	TokenRange=251:258
+35	presas	preso	ADJ	ADJ	_	34	amod	_	TokenRange=259:265
+36	manifestantes	manifestante	NOUN	NOUN	_	34	amod	_	TokenRange=266:279
+37	acampados	acampado	ADJ	ADJ	_	34	amod	_	TokenRange=280:289
+38	brasilia	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=290:298
+39	acompanhar	acompanhar	VERB	VERB	_	34	acl:relcl	_	TokenRange=299:309
+40	votacao	votacao	NOUN	NOUN	_	39	obj	_	TokenRange=310:317
+41	processo	processo	NOUN	NOUN	_	39	obj	_	TokenRange=318:326
+42	impeachment	impeachment	NOUN	NOUN	_	41	flat	_	TokenRange=327:338
+43	camara	camara	NOUN	NOUN	_	41	flat	_	TokenRange=339:345
+44	acontecera	acontecer	VERB	VERB	_	0	root	_	TokenRange=346:356
+45	proximo	proximo	ADJ	ADJ	_	46	amod	_	TokenRange=357:364
+46	domingo	_	PROPN	PNOUN	_	44	nmod	_	TokenRange=365:372
+47	17	_	NUM	NUM	NumType=Card	46	nmod	_	SpaceAfter=No|TokenRange=373:375
+

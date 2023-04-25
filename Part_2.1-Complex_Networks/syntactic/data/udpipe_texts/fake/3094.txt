@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = financial times maior pais america latina pior recessao desde 1930 pib produto interno bruto brasil caiu 4 5 confirmando temores maior pais america latina caminho certo pior recessao desde decada 1930 agencia estatisticas brasil ibge disse tercafeira pib ultimos tres meses caiu 1 7 pior expectativas analistas queda anoaano maior desde inicio serie historica 1996 disse ibge desaceleracao gerando tempestade dados economicos negativos desemprego subiu 7 9 inflacao ultrapassou 10 primeira vez desde 2002 deficit orcamentario governo brasileiro agora 9 5 produto interno bruto
+1	financial	financial	ADJ	ADJ	_	4	amod	_	TokenRange=0:9
+2	times	time	NOUN	NOUN	_	16	nsubj	_	TokenRange=10:15
+3	maior	maior	ADJ	ADJ	_	4	amod	_	TokenRange=16:21
+4	pais	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=22:26
+5	america	americo	ADJ	ADJ	_	4	amod	_	TokenRange=27:34
+6	latina	latino	ADJ	ADJ	_	4	amod	_	TokenRange=35:41
+7	pior	pior	ADJ	ADJ	_	8	amod	_	TokenRange=42:46
+8	recessao	recessao	NOUN	NOUN	_	4	appos	_	TokenRange=47:55
+9	desde	_	ADP	ADP	_	10	case	_	TokenRange=56:61
+10	1930	_	NUM	NUM	NumType=Card	8	nmod	_	TokenRange=62:66
+11	pib	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=67:70
+12	produto	produto	NOUN	NOUN	_	11	appos	_	TokenRange=71:78
+13	interno	interno	ADJ	ADJ	_	12	amod	_	TokenRange=79:86
+14	bruto	bruto	ADJ	ADJ	_	12	amod	_	TokenRange=87:92
+15	brasil	brasil	ADJ	ADJ	_	12	amod	_	TokenRange=93:99
+16	caiu	cair	VERB	VERB	_	0	root	_	TokenRange=100:104
+17	4	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=105:106
+18	5	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=107:108
+19	confirmando	confirmar	VERB	VERB	_	16	acl	_	TokenRange=109:120
+20	temores	temor	NOUN	NOUN	_	19	obj	_	TokenRange=121:128
+21	maior	maior	ADJ	ADJ	_	22	amod	_	TokenRange=129:134
+22	pais	_	NOUN	NOUN	_	19	obj	_	TokenRange=135:139
+23	america	americo	ADJ	ADJ	_	22	amod	_	TokenRange=140:147
+24	latina	latino	ADJ	ADJ	_	22	amod	_	TokenRange=148:154
+25	caminho	caminho	NOUN	NOUN	_	22	appos	_	TokenRange=155:162
+26	certo	certo	ADJ	ADJ	_	25	amod	_	TokenRange=163:168
+27	pior	pior	ADJ	ADJ	_	28	amod	_	TokenRange=169:173
+28	recessao	recessao	NOUN	NOUN	_	25	appos	_	TokenRange=174:182
+29	desde	_	ADP	ADP	_	30	case	_	TokenRange=183:188
+30	decada	_	NOUN	NOUN	_	28	nmod	_	TokenRange=189:195
+31	1930	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=196:200
+32	agencia	agencia	NOUN	NOUN	_	28	appos	_	TokenRange=201:208
+33	estatisticas	estatistico	ADJ	ADJ	_	32	amod	_	TokenRange=209:221
+34	brasil	brasil	ADJ	ADJ	_	32	amod	_	TokenRange=222:228
+35	ibge	ibge	NOUN	NOUN	_	32	appos	_	TokenRange=229:233
+36	disse	dizer	VERB	VERB	_	16	parataxis	_	TokenRange=234:239
+37	tercafeira	_	NOUN	NOUN	_	36	obj	_	TokenRange=240:250
+38	pib	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=251:254
+39	ultimos	_	ADJ	ADJ	_	41	amod	_	TokenRange=255:262
+40	tres	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=263:267
+41	meses	mês	NOUN	NOUN	_	42	nmod	_	TokenRange=268:273
+42	caiu	cair	VERB	VERB	_	36	ccomp	_	TokenRange=274:278
+43	1	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=279:280
+44	7	_	NUM	NUM	NumType=Card	42	nmod	_	TokenRange=281:282
+45	pior	pior	ADJ	ADJ	_	46	amod	_	TokenRange=283:287
+46	expectativas	expectativa	NOUN	NOUN	_	42	nsubj	_	TokenRange=288:300
+47	analistas	analista	ADJ	ADJ	_	46	amod	_	TokenRange=301:310
+48	queda	quedar	VERB	VERB	_	42	conj	_	TokenRange=311:316
+49	anoaano	anoaano	NOUN	NOUN	_	48	obj	_	TokenRange=317:324
+50	maior	maior	ADJ	ADJ	_	49	amod	_	TokenRange=325:330
+51	desde	_	ADP	ADP	_	53	case	_	TokenRange=331:336
+52	inicio	_	NOUN	NOUN	_	53	nmod	_	TokenRange=337:343
+53	serie	serie	NOUN	NOUN	_	48	nmod	_	TokenRange=344:349
+54	historica	historico	ADJ	ADJ	_	53	amod	_	TokenRange=350:359
+55	1996	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=360:364
+56	disse	dizer	VERB	VERB	_	16	parataxis	_	TokenRange=365:370
+57	ibge	ibge	NOUN	NOUN	_	56	nsubj	_	TokenRange=371:375
+58	desaceleracao	_	NOUN	NOUN	_	57	amod	_	TokenRange=376:389
+59	gerando	gerar	VERB	VERB	_	57	acl	_	TokenRange=390:397
+60	tempestade	tempestade	NOUN	NOUN	_	59	obj	_	TokenRange=398:408
+61	dados	dado	NOUN	NOUN	_	59	obj	_	TokenRange=409:414
+62	economicos	economico	ADJ	ADJ	_	61	amod	_	TokenRange=415:425
+63	negativos	negativo	ADJ	ADJ	_	61	amod	_	TokenRange=426:435
+64	desemprego	desemprego	NOUN	NOUN	_	61	amod	_	TokenRange=436:446
+65	subiu	subir	VERB	VERB	_	59	parataxis	_	TokenRange=447:452
+66	7	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=453:454
+67	9	_	NUM	NUM	NumType=Card	65	obj	_	TokenRange=455:456
+68	inflacao	inflacao	NOUN	NOUN	_	65	nsubj	_	TokenRange=457:465
+69	ultrapassou	ultrapassar	VERB	VERB	_	56	ccomp	_	TokenRange=466:477
+70	10	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=478:480
+71	primeira	primeiro	ADJ	ADJ	_	72	amod	_	TokenRange=481:489
+72	vez	vez	NOUN	NOUN	_	69	nmod	_	TokenRange=490:493
+73	desde	_	ADP	ADP	_	74	case	_	TokenRange=494:499
+74	2002	_	NUM	NUM	NumType=Card	69	nmod	_	TokenRange=500:504
+75	deficit	deficit	NOUN	NOUN	_	69	nmod	_	TokenRange=505:512
+76	orcamentario	orcamentario	ADJ	ADJ	_	75	amod	_	TokenRange=513:525
+77	governo	governo	NOUN	NOUN	_	75	appos	_	TokenRange=526:533
+78	brasileiro	brasileiro	ADJ	ADJ	_	77	amod	_	TokenRange=534:544
+79	agora	agora	ADV	ADV	_	81	advmod	_	TokenRange=545:550
+80	9	_	NUM	NUM	NumType=Card	81	nummod	_	TokenRange=551:552
+81	5	_	NUM	NUM	NumType=Card	82	nummod	_	TokenRange=553:554
+82	produto	produto	NOUN	NOUN	_	69	parataxis	_	TokenRange=555:562
+83	interno	interno	ADJ	ADJ	_	82	amod	_	TokenRange=563:570
+84	bruto	bruto	ADJ	ADJ	_	82	amod	_	SpaceAfter=No|TokenRange=571:576
+

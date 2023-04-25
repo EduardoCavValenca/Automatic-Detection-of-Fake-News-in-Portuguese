@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fausto silva desaba palco domingao fausto silva caiu palco domingao hoje 06 apresentadora adriane galisteu entrou palco pulou sobre apresentador galisteu feliz quis comemorar notas jurados deram apresentacao danca famosos esperava passar saia justa confira
+1	fausto	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	silva	silva	NOUN	NOUN	_	1	flat	_	TokenRange=7:12
+3	desaba	desabar	VERB	VERB	_	0	root	_	TokenRange=13:19
+4	palco	palco	NOUN	NOUN	_	3	obj	_	TokenRange=20:25
+5	domingao	domingao	ADJ	ADJ	_	4	amod	_	TokenRange=26:34
+6	fausto	fausto	NOUN	NOUN	_	8	nsubj	_	TokenRange=35:41
+7	silva	silva	NOUN	NOUN	_	6	flat	_	TokenRange=42:47
+8	caiu	cair	VERB	VERB	_	4	acl:relcl	_	TokenRange=48:52
+9	palco	palco	NOUN	NOUN	_	8	obj	_	TokenRange=53:58
+10	domingao	domingao	ADJ	ADJ	_	9	amod	_	TokenRange=59:67
+11	hoje	hoje	ADV	ADV	_	8	advmod	_	TokenRange=68:72
+12	06	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=73:75
+13	apresentadora	apresentador	NOUN	NOUN	_	8	nsubj	_	TokenRange=76:89
+14	adriane	adriane	NOUN	NOUN	_	13	appos	_	TokenRange=90:97
+15	galisteu	_	NOUN	NOUN	_	13	flat	_	TokenRange=98:106
+16	entrou	entrar	VERB	VERB	_	13	acl:relcl	_	TokenRange=107:113
+17	palco	palco	NOUN	NOUN	_	16	obj	_	TokenRange=114:119
+18	pulou	pular	VERB	VERB	_	3	parataxis	_	TokenRange=120:125
+19	sobre	_	ADP	ADP	_	20	case	_	TokenRange=126:131
+20	apresentador	apresentador	NOUN	NOUN	_	18	nmod	_	TokenRange=132:144
+21	galisteu	galisteu	ADJ	NOUN	_	20	flat	_	TokenRange=145:153
+22	feliz	feliz	ADJ	ADJ	_	20	amod	_	TokenRange=154:159
+23	quis	_	VERB	VERB	_	24	ccomp	_	TokenRange=160:164
+24	comemorar	comemorar	VERB	VERB	_	20	acl:relcl	_	TokenRange=165:174
+25	notas	nota	NOUN	NOUN	_	24	obj	_	TokenRange=175:180
+26	jurados	jurado	ADJ	ADJ	_	25	amod	_	TokenRange=181:188
+27	deram	dar	VERB	VERB	_	20	acl:relcl	_	TokenRange=189:194
+28	apresentacao	apresentacao	NOUN	NOUN	_	27	obj	_	TokenRange=195:207
+29	danca	danca	NOUN	NOUN	_	27	nsubj	_	TokenRange=208:213
+30	famosos	_	ADJ	ADJ	_	29	amod	_	TokenRange=214:221
+31	esperava	esperar	VERB	VERB	_	27	parataxis	_	TokenRange=222:230
+32	passar	passar	VERB	VERB	_	31	xcomp	_	TokenRange=231:237
+33	saia	saia	NOUN	NOUN	_	32	obj	_	TokenRange=238:242
+34	justa	justo	ADJ	ADJ	_	33	amod	_	TokenRange=243:248
+35	confira	conferir	VERB	VERB	_	31	conj	_	SpaceAfter=No|TokenRange=249:256
+

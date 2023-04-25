@@ -1,0 +1,22 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pronto desde 2007 projeto contorno ferroviario divinopolis precisa revisado dnit afirma existe recursos orcamentarios
+1	pronto	pronto	ADJ	ADJ	_	4	amod	_	TokenRange=0:6
+2	desde	_	ADP	ADP	_	3	case	_	TokenRange=7:12
+3	2007	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=13:17
+4	projeto	projeto	NOUN	NOUN	_	8	nsubj	_	TokenRange=18:25
+5	contorno	contorno	NOUN	NOUN	_	4	appos	_	TokenRange=26:34
+6	ferroviario	ferroviario	ADJ	ADJ	_	5	amod	_	TokenRange=35:46
+7	divinopolis	divinopolis	NOUN	NOUN	_	4	amod	_	TokenRange=47:58
+8	precisa	precisar	VERB	VERB	_	11	ccomp	_	TokenRange=59:66
+9	revisado	revisado	ADJ	ADJ	_	8	xcomp	_	TokenRange=67:75
+10	dnit	dnit	NOUN	NOUN	_	8	nsubj	_	TokenRange=76:80
+11	afirma	afirmar	VERB	VERB	_	0	root	_	TokenRange=81:87
+12	existe	existir	VERB	VERB	_	11	ccomp	_	TokenRange=88:94
+13	recursos	recurso	NOUN	NOUN	_	12	nsubj	_	TokenRange=95:103
+14	orcamentarios	orcamentario	ADJ	ADJ	_	13	amod	_	SpaceAfter=No|TokenRange=104:117
+

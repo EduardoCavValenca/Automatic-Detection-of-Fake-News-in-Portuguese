@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 30 outubro bom dia aqui principais noticias comecar dia beminformado quase 72 mil desaparecimentos registrados brasil ano passado dado inedito faz parte anuario brasileiro seguranca publica apresentado hoje g1 antecipa alguns numeros levantamento traz retrato epidemia violencia pais 2016 437 policiais civis militares perderam vida confrontos servico aumento 17 relacao 2015 outro lado 4224 pessoas assassinadas policiais maior numero 8 anos
+1	segundafeira	segundafeira	NOUN	NOUN	_	45	parataxis	_	TokenRange=0:12
+2	30	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=13:15
+3	outubro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=16:23
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=24:27
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=28:31
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=32:36
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=37:47
+8	noticias	noticia	NOUN	NOUN	_	9	nsubj	_	TokenRange=48:56
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=57:64
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=65:68
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=69:81
+12	quase	quase	ADV	ADV	_	14	advmod	_	TokenRange=82:87
+13	72	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=88:90
+14	mil	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=91:94
+15	desaparecimentos	desaparecimento	NOUN	NOUN	_	10	appos	_	TokenRange=95:111
+16	registrados	registrar	VERB	VERB	_	15	acl	_	TokenRange=112:123
+17	brasil	brasil	ADJ	ADJ	_	18	amod	_	TokenRange=124:130
+18	ano	ano	NOUN	NOUN	_	16	nmod	_	TokenRange=131:134
+19	passado	passado	ADJ	ADJ	_	18	amod	_	TokenRange=135:142
+20	dado	dado	NOUN	NOUN	_	22	nsubj	_	TokenRange=143:147
+21	inedito	inedito	ADJ	ADJ	_	20	amod	_	TokenRange=148:155
+22	faz	fazer	VERB	VERB	_	16	parataxis	_	TokenRange=156:159
+23	parte	parte	NOUN	NOUN	_	22	obj	_	TokenRange=160:165
+24	anuario	anuario	NOUN	NOUN	_	23	appos	_	TokenRange=166:173
+25	brasileiro	brasileiro	ADJ	ADJ	_	26	amod	_	TokenRange=174:184
+26	seguranca	_	NOUN	NOUN	_	23	appos	_	TokenRange=185:194
+27	publica	publico	ADJ	ADJ	_	26	amod	_	TokenRange=195:202
+28	apresentado	apresentar	VERB	VERB	_	23	acl	_	TokenRange=203:214
+29	hoje	hoje	ADV	ADV	_	28	advmod	_	TokenRange=215:219
+30	g1	_	PRON	NOUN	_	31	nsubj	_	TokenRange=220:222
+31	antecipa	antecipar	VERB	VERB	_	22	parataxis	_	TokenRange=223:231
+32	alguns	_	DET	DET	_	33	det	_	TokenRange=232:238
+33	numeros	numero	NOUN	NOUN	_	31	obj	_	TokenRange=239:246
+34	levantamento	levantamento	NOUN	NOUN	_	31	obj	_	TokenRange=247:259
+35	traz	trazer	VERB	VERB	_	33	appos	_	TokenRange=260:264
+36	retrato	retrato	NOUN	NOUN	_	31	obj	_	TokenRange=265:272
+37	epidemia	epidemia	NOUN	NOUN	_	36	appos	_	TokenRange=273:281
+38	violencia	violencia	NOUN	NOUN	_	36	appos	_	TokenRange=282:291
+39	pais	_	NOUN	NOUN	_	37	appos	_	TokenRange=292:296
+40	2016	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=297:301
+41	437	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=302:305
+42	policiais	policial	NOUN	NOUN	_	45	nsubj	_	TokenRange=306:315
+43	civis	civil	ADJ	ADJ	_	42	amod	_	TokenRange=316:321
+44	militares	militar	ADJ	ADJ	_	42	amod	_	TokenRange=322:331
+45	perderam	perder	VERB	VERB	_	0	root	_	TokenRange=332:340
+46	vida	vida	NOUN	NOUN	_	45	obj	_	TokenRange=341:345
+47	confrontos	confronto	NOUN	NOUN	_	45	obj	_	TokenRange=346:356
+48	servico	servico	NOUN	NOUN	_	47	amod	_	TokenRange=357:364
+49	aumento	aumento	NOUN	NOUN	_	47	appos	_	TokenRange=365:372
+50	17	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=373:375
+51	relacao	relacao	NOUN	NOUN	_	49	appos	_	TokenRange=376:383
+52	2015	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=384:388
+53	outro	_	DET	DET	_	54	det	_	TokenRange=389:394
+54	lado	lado	NOUN	NOUN	_	45	nmod	_	TokenRange=395:399
+55	4224	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=400:404
+56	pessoas	pessoa	NOUN	NOUN	_	45	nsubj	_	TokenRange=405:412
+57	assassinadas	assassinar	VERB	VERB	_	56	acl	_	TokenRange=413:425
+58	policiais	policial	NOUN	NOUN	_	57	nsubj	_	TokenRange=426:435
+59	maior	maior	ADJ	ADJ	_	60	amod	_	TokenRange=436:441
+60	numero	numero	NOUN	NOUN	_	56	appos	_	TokenRange=442:448
+61	8	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=449:450
+62	anos	ano	NOUN	NOUN	_	60	nmod	_	SpaceAfter=No|TokenRange=451:455
+

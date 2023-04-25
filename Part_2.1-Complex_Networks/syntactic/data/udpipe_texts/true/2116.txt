@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delacoes odebrecht licitacao arena amazonia acordo construtoras construtoras combinado valores levar vantagem licitacao estadio manaus recebeu quatro jogos copa 2014 expresidente setor operacoes estruturadas odebrecht benedicto barbosa silva junior relatou existencia acordo construtora outra empresa segmento andrade gutierrez frustrar concorrencia licitacao associada construcao arena amazonia estadio obras coordenadas andrade gutierrez recebeu quatro jogos copa mundo 2014 seis olimpiada rio janeiro 2016 andrade gutierrez disse vai comentar assunto nota odebrecht diz empresa colaborando justica reconheceu erros pediu desculpas publicas assinou
+1	delacoes	delacoe	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:8
+2	odebrecht	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:18
+3	licitacao	_	ADJ	ADJ	_	1	amod	_	TokenRange=19:28
+4	arena	_	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+5	amazonia	amazonia	ADJ	NOUN	_	4	amod	_	TokenRange=35:43
+6	acordo	acordo	NOUN	NOUN	_	1	appos	_	TokenRange=44:50
+7	construtoras	construtor	ADJ	ADJ	_	6	amod	_	TokenRange=51:63
+8	construtoras	construtor	ADJ	ADJ	_	6	amod	_	TokenRange=64:76
+9	combinado	combinar	VERB	VERB	_	10	acl	_	TokenRange=77:86
+10	valores	_	NOUN	NOUN	_	11	obj	_	TokenRange=87:94
+11	levar	levar	VERB	VERB	_	6	acl	_	TokenRange=95:100
+12	vantagem	vantagem	NOUN	NOUN	_	11	obj	_	TokenRange=101:109
+13	licitacao	licitacao	ADJ	ADJ	_	12	amod	_	TokenRange=110:119
+14	estadio	estadio	NOUN	NOUN	_	11	nsubj	_	TokenRange=120:127
+15	manaus	_	NOUN	NOUN	_	14	flat	_	TokenRange=128:134
+16	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=135:142
+17	quatro	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=143:149
+18	jogos	jogo	NOUN	NOUN	_	16	obj	_	TokenRange=150:155
+19	copa	copa	NOUN	NOUN	_	18	appos	_	TokenRange=156:160
+20	2014	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=161:165
+21	expresidente	expresidente	NOUN	NOUN	_	18	appos	_	TokenRange=166:178
+22	setor	setor	NOUN	NOUN	_	21	appos	_	TokenRange=179:184
+23	operacoes	_	NOUN	NOUN	_	21	appos	_	TokenRange=185:194
+24	estruturadas	estruturado	ADJ	ADJ	_	23	amod	_	TokenRange=195:207
+25	odebrecht	_	NOUN	NOUN	_	21	appos	_	TokenRange=208:217
+26	benedicto	benedicto	NOUN	NOUN	_	25	flat	_	TokenRange=218:227
+27	barbosa	barboso	ADJ	ADJ	_	25	flat	_	TokenRange=228:235
+28	silva	silva	NOUN	NOUN	_	25	appos	_	TokenRange=236:241
+29	junior	_	ADJ	ADJ	_	28	amod	_	TokenRange=242:248
+30	relatou	relatar	VERB	VERB	_	16	parataxis	_	TokenRange=249:256
+31	existencia	_	NOUN	NOUN	_	30	obj	_	TokenRange=257:267
+32	acordo	acordo	NOUN	NOUN	_	30	obj	_	TokenRange=268:274
+33	construtora	construtor	ADJ	ADJ	_	32	amod	_	TokenRange=275:286
+34	outra	_	DET	DET	_	35	det	_	TokenRange=287:292
+35	empresa	empresa	NOUN	NOUN	_	30	nsubj	_	TokenRange=293:300
+36	segmento	segmento	NOUN	NOUN	_	35	appos	_	TokenRange=301:309
+37	andrade	andrade	NOUN	NOUN	_	35	appos	_	TokenRange=310:317
+38	gutierrez	gutierrez	NOUN	NOUN	_	37	flat	_	TokenRange=318:327
+39	frustrar	frustrar	VERB	VERB	_	35	acl:relcl	_	TokenRange=328:336
+40	concorrencia	concorrencia	NOUN	NOUN	_	39	obj	_	TokenRange=337:349
+41	licitacao	licitacao	ADJ	ADJ	_	40	amod	_	TokenRange=350:359
+42	associada	associado	ADJ	ADJ	_	40	amod	_	TokenRange=360:369
+43	construcao	construcao	NOUN	NOUN	_	39	nsubj	_	TokenRange=370:380
+44	arena	_	NOUN	NOUN	_	43	appos	_	TokenRange=381:386
+45	amazonia	amazonia	ADJ	ADJ	_	44	amod	_	TokenRange=387:395
+46	estadio	estadio	NOUN	NOUN	_	44	appos	_	TokenRange=396:403
+47	obras	obra	NOUN	NOUN	_	44	appos	_	TokenRange=404:409
+48	coordenadas	_	ADJ	ADJ	_	47	amod	_	TokenRange=410:421
+49	andrade	andrade	NOUN	NOUN	_	51	nsubj	_	TokenRange=422:429
+50	gutierrez	gutierrez	NOUN	NOUN	_	49	flat	_	TokenRange=430:439
+51	recebeu	receber	VERB	VERB	_	16	conj	_	TokenRange=440:447
+52	quatro	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=448:454
+53	jogos	jogo	NOUN	NOUN	_	51	obj	_	TokenRange=455:460
+54	copa	copa	NOUN	NOUN	_	53	appos	_	TokenRange=461:465
+55	mundo	mundo	NOUN	NOUN	_	54	flat	_	TokenRange=466:471
+56	2014	_	NUM	NUM	NumType=Card	54	appos	_	TokenRange=472:476
+57	seis	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=477:481
+58	olimpiada	_	NOUN	NOUN	_	51	nsubj	_	TokenRange=482:491
+59	rio	_	NOUN	NOUN	_	58	appos	_	TokenRange=492:495
+60	janeiro	_	PROPN	PNOUN	_	59	appos	_	TokenRange=496:503
+61	2016	_	NUM	NUM	NumType=Card	62	nmod	_	TokenRange=504:508
+62	andrade	andrade	NOUN	NOUN	_	64	nsubj	_	TokenRange=509:516
+63	gutierrez	gutierrez	NOUN	NOUN	_	62	flat	_	TokenRange=517:526
+64	disse	dizer	VERB	VERB	_	16	parataxis	_	TokenRange=527:532
+65	vai	ir	AUX	AUX	_	66	aux	_	TokenRange=533:536
+66	comentar	comentar	VERB	VERB	_	64	ccomp	_	TokenRange=537:545
+67	assunto	assunto	NOUN	NOUN	_	66	obj	_	TokenRange=546:553
+68	nota	nota	NOUN	NOUN	_	66	nsubj	_	TokenRange=554:558
+69	odebrecht	_	PROPN	PNOUN	_	68	appos	_	TokenRange=559:568
+70	diz	dizer	VERB	VERB	_	68	acl:relcl	_	TokenRange=569:572
+71	empresa	empresa	NOUN	NOUN	_	70	obj	_	TokenRange=573:580
+72	colaborando	colaborar	VERB	VERB	_	71	acl	_	TokenRange=581:592
+73	justica	_	NOUN	NOUN	_	72	obj	_	TokenRange=593:600
+74	reconheceu	reconhecer	VERB	VERB	_	70	parataxis	_	TokenRange=601:611
+75	erros	erro	NOUN	NOUN	_	76	obj	_	TokenRange=612:617
+76	pediu	pedir	VERB	VERB	_	70	conj	_	TokenRange=618:623
+77	desculpas	desculpa	NOUN	NOUN	_	76	obj	_	TokenRange=624:633
+78	publicas	publico	ADJ	ADJ	_	77	amod	_	TokenRange=634:642
+79	assinou	assinar	VERB	VERB	_	64	parataxis	_	SpaceAfter=No|TokenRange=643:650
+

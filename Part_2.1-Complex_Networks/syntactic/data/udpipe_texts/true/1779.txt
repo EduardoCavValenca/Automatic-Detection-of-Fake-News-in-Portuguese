@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procura creche servicos baba animais aumenta ferias dona centro convivencia canina sorocaba atendeu 80 cachorros virada ano jovens 26 28 anos apostaram especializacoes area atender setor chegam ferias vai viajar deixar casa sozinha animal estimacao pode levalo certamente preocupa situacao onde deixar bichinho parentes amigos vizinhos podem estar disponiveis preparo necessario lidar animaizinhos partir dessa necessidade tutores surgiram hoteis creches babas animais chamadas pet sitter periodo festas feriados
+1	procura	procurar	VERB	VERB	_	0	root	_	TokenRange=0:7
+2	creche	creche	NOUN	NOUN	_	1	obj	_	TokenRange=8:14
+3	servicos	servico	NOUN	NOUN	_	2	amod	_	TokenRange=15:23
+4	baba	baba	NOUN	NOUN	_	6	nsubj	_	TokenRange=24:28
+5	animais	animal	NOUN	NOUN	_	4	flat	_	TokenRange=29:36
+6	aumenta	aumentar	VERB	VERB	_	2	acl:relcl	_	TokenRange=37:44
+7	ferias	feria	NOUN	NOUN	_	6	obj	_	TokenRange=45:51
+8	dona	_	NOUN	NOUN	_	7	appos	_	TokenRange=52:56
+9	centro	centro	NOUN	NOUN	_	2	appos	_	TokenRange=57:63
+10	convivencia	convivencia	NOUN	NOUN	_	9	flat	_	TokenRange=64:75
+11	canina	canino	ADJ	ADJ	_	4	amod	_	TokenRange=76:82
+12	sorocaba	sorocabo	ADJ	ADJ	_	4	amod	_	TokenRange=83:91
+13	atendeu	atender	VERB	VERB	_	1	parataxis	_	TokenRange=92:99
+14	80	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=100:102
+15	cachorros	cachorro	NOUN	NOUN	_	13	obj	_	TokenRange=103:112
+16	virada	_	ADJ	ADJ	_	17	amod	_	TokenRange=113:119
+17	ano	ano	NOUN	NOUN	_	13	nsubj	_	TokenRange=120:123
+18	jovens	jovem	ADJ	ADJ	_	17	amod	_	TokenRange=124:130
+19	26	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=131:133
+20	28	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=134:136
+21	anos	ano	NOUN	NOUN	_	22	nsubj	_	TokenRange=137:141
+22	apostaram	apostar	VERB	VERB	_	1	parataxis	_	TokenRange=142:151
+23	especializacoes	_	NOUN	NOUN	_	22	obj	_	TokenRange=152:167
+24	area	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=168:172
+25	atender	atender	VERB	VERB	_	22	csubj	_	TokenRange=173:180
+26	setor	setor	NOUN	NOUN	_	25	obj	_	TokenRange=181:186
+27	chegam	chegar	VERB	VERB	_	25	ccomp	_	TokenRange=187:193
+28	ferias	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=194:200
+29	vai	ir	AUX	AUX	_	30	aux	_	TokenRange=201:204
+30	viajar	viajar	VERB	VERB	_	27	ccomp	_	TokenRange=205:211
+31	deixar	deixar	VERB	VERB	_	30	xcomp	_	TokenRange=212:218
+32	casa	casa	NOUN	NOUN	_	31	obj	_	TokenRange=219:223
+33	sozinha	só	ADJ	ADJ	_	32	amod	_	TokenRange=224:231
+34	animal	animal	ADJ	ADJ	_	32	amod	_	TokenRange=232:238
+35	estimacao	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=239:248
+36	pode	_	AUX	AUX	_	37	aux	_	TokenRange=249:253
+37	levalo	_	VERB	VERB	_	30	parataxis	_	TokenRange=254:260
+38	certamente	certamente	ADV	ADV	_	39	advmod	_	TokenRange=261:271
+39	preocupa	preocupar	VERB	VERB	_	22	parataxis	_	TokenRange=272:280
+40	situacao	situacao	NOUN	NOUN	_	39	nsubj	_	TokenRange=281:289
+41	onde	onde	ADV	ADV	_	42	advmod	_	TokenRange=290:294
+42	deixar	deixar	VERB	VERB	_	40	acl:relcl	_	TokenRange=295:301
+43	bichinho	bichinho	NOUN	NOUN	_	42	obj	_	TokenRange=302:310
+44	parentes	parente	NOUN	NOUN	_	45	amod	_	TokenRange=311:319
+45	amigos	amigo	NOUN	NOUN	_	42	nsubj	_	TokenRange=320:326
+46	vizinhos	vizinho	ADJ	ADJ	_	45	amod	_	TokenRange=327:335
+47	podem	_	AUX	AUX	_	48	aux	_	TokenRange=336:341
+48	estar	estar	VERB	VERB	_	40	acl:relcl	_	TokenRange=342:347
+49	disponiveis	disponivel	ADJ	ADJ	_	48	xcomp	_	TokenRange=348:359
+50	preparo	preparo	NOUN	NOUN	_	48	nsubj	_	TokenRange=360:367
+51	necessario	necessario	ADJ	ADJ	_	50	amod	_	TokenRange=368:378
+52	lidar	lidar	VERB	VERB	_	50	acl:inf	_	TokenRange=379:384
+53	animaizinhos	_	NOUN	NOUN	_	52	obj	_	TokenRange=385:397
+54	partir	partir	VERB	VERB	_	52	ccomp	_	TokenRange=398:404
+55	dessa	_	ADP	ADP	_	56	case	_	TokenRange=405:410
+56	necessidade	necessidade	NOUN	NOUN	_	54	nmod	_	TokenRange=411:422
+57	tutores	tutor	NOUN	NOUN	_	56	amod	_	TokenRange=423:430
+58	surgiram	surgir	VERB	VERB	_	48	parataxis	_	TokenRange=431:439
+59	hoteis	hotel	NOUN	NOUN	_	58	obj	_	TokenRange=440:446
+60	creches	creche	ADJ	ADJ	_	61	amod	_	TokenRange=447:454
+61	babas	baba	NOUN	NOUN	_	58	nsubj	_	TokenRange=455:460
+62	animais	animal	ADJ	ADJ	_	61	amod	_	TokenRange=461:468
+63	chamadas	chamar	AUX	AUX	_	64	cop	_	TokenRange=469:477
+64	pet	pet	NOUN	NOUN	_	61	acl	_	TokenRange=478:481
+65	sitter	_	NOUN	NOUN	_	64	flat	_	TokenRange=482:488
+66	periodo	periodo	NOUN	NOUN	_	67	amod	_	TokenRange=489:496
+67	festas	festa	NOUN	NOUN	_	58	parataxis	_	TokenRange=497:503
+68	feriados	feriado	ADJ	ADJ	_	67	amod	_	SpaceAfter=No|TokenRange=504:512
+

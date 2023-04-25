@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = morre 73 anos medico psiquiatra psicoterapeuta escritor flavio gikovate longo carreira publicou 200 livros gikovate morreu causa cancer medico psiquiatra psicoterapeuta conferencista escritor flavio gikovate morreu batalha contra cancer pancreas descoberto abril ultimos trinta anos escreveu 25 livros sobre vida social afetiva sexual reflexos sociedade flavio internado desde semana passada
+1	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	73	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=6:8
+3	anos	ano	NOUN	NOUN	_	1	nsubj	_	TokenRange=9:13
+4	medico	medico	NOUN	NOUN	_	3	amod	_	TokenRange=14:20
+5	psiquiatra	_	NOUN	NOUN	_	3	amod	_	TokenRange=21:31
+6	psicoterapeuta	psicoterapeuta	ADJ	ADJ	_	5	amod	_	TokenRange=32:46
+7	escritor	escritor	NOUN	NOUN	_	4	appos	_	TokenRange=47:55
+8	flavio	flavio	ADJ	ADJ	_	7	amod	_	TokenRange=56:62
+9	gikovate	gikovate	ADJ	ADJ	_	7	amod	_	TokenRange=63:71
+10	longo	longo	ADJ	ADJ	_	11	amod	_	TokenRange=72:77
+11	carreira	_	NOUN	NOUN	_	8	appos	_	TokenRange=78:86
+12	publicou	publicar	VERB	VERB	_	1	parataxis	_	TokenRange=87:95
+13	200	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=96:99
+14	livros	livro	NOUN	NOUN	_	12	obj	_	TokenRange=100:106
+15	gikovate	gikovate	ADJ	NOUN	_	14	amod	_	TokenRange=107:115
+16	morreu	morrer	VERB	VERB	_	12	parataxis	_	TokenRange=116:122
+17	causa	causa	NOUN	NOUN	_	18	case	_	TokenRange=123:128
+18	cancer	cancer	NOUN	NOUN	_	16	nsubj	_	TokenRange=129:135
+19	medico	medico	ADJ	NOUN	_	20	amod	_	TokenRange=136:142
+20	psiquiatra	_	NOUN	NOUN	_	18	amod	_	TokenRange=143:153
+21	psicoterapeuta	psicoterapeuta	NOUN	NOUN	_	20	flat	_	TokenRange=154:168
+22	conferencista	conferencista	ADJ	ADJ	_	20	amod	_	TokenRange=169:182
+23	escritor	escritor	NOUN	NOUN	_	20	amod	_	TokenRange=183:191
+24	flavio	flavio	ADJ	ADJ	_	23	amod	_	TokenRange=192:198
+25	gikovate	gikovate	NOUN	NOUN	_	23	amod	_	TokenRange=199:207
+26	morreu	morrer	VERB	VERB	_	16	conj	_	TokenRange=208:214
+27	batalha	batalha	NOUN	NOUN	_	26	obj	_	TokenRange=215:222
+28	contra	_	ADP	ADP	_	29	case	_	TokenRange=223:229
+29	cancer	cancer	NOUN	NOUN	_	27	nmod	_	TokenRange=230:236
+30	pancreas	_	NOUN	NOUN	_	29	flat	_	TokenRange=237:245
+31	descoberto	descobrir	VERB	VERB	_	27	acl	_	TokenRange=246:256
+32	abril	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=257:262
+33	ultimos	_	ADJ	ADJ	_	35	amod	_	TokenRange=263:270
+34	trinta	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=271:277
+35	anos	ano	NOUN	NOUN	_	31	nmod	_	TokenRange=278:282
+36	escreveu	escrever	VERB	VERB	_	1	parataxis	_	TokenRange=283:291
+37	25	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=292:294
+38	livros	livro	NOUN	NOUN	_	36	obj	_	TokenRange=295:301
+39	sobre	_	ADP	ADP	_	40	case	_	TokenRange=302:307
+40	vida	vida	NOUN	NOUN	_	38	nmod	_	TokenRange=308:312
+41	social	social	ADJ	ADJ	_	40	amod	_	TokenRange=313:319
+42	afetiva	afetivo	ADJ	ADJ	_	40	amod	_	TokenRange=320:327
+43	sexual	sexual	ADJ	ADJ	_	40	amod	_	TokenRange=328:334
+44	reflexos	reflexo	ADJ	ADJ	_	45	amod	_	TokenRange=335:343
+45	sociedade	sociedade	NOUN	NOUN	_	40	appos	_	TokenRange=344:353
+46	flavio	flavio	ADJ	ADJ	_	45	amod	_	TokenRange=354:360
+47	internado	internado	ADJ	ADJ	_	45	amod	_	TokenRange=361:370
+48	desde	_	ADP	ADP	_	49	case	_	TokenRange=371:376
+49	semana	semana	NOUN	NOUN	_	47	nmod	_	TokenRange=377:383
+50	passada	passado	ADJ	ADJ	_	49	amod	_	SpaceAfter=No|TokenRange=384:391
+

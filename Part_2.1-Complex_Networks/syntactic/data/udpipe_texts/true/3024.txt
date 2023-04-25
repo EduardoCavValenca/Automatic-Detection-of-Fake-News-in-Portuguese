@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornalista condenado indenizar prefeito guara r 93 mil ofensas web flavio thebas fez referencia prefeito marcos soliva psb boca sovaco marcos saliva video postado pagina radio rede social justica determinou video apagado vai recorrer justica condenou jornalista pagar indenizacao r 93 mil danos morais apos publicacao videos web ofensas contra prefeito guaratingueta marcos soliva psb alem pagamento indenizacao apagar conteudo sob pena caso descumprimento multa diaria r 500 jornalista informou vai recorrer decisao 1 instancia publicada ultimo dia 14 acao gerada partir postagem feita
+1	jornalista	jornalista	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:10
+2	condenado	condenar	VERB	VERB	_	1	acl	_	TokenRange=11:20
+3	indenizar	indenizar	VERB	VERB	_	2	xcomp	_	TokenRange=21:30
+4	prefeito	prefeito	NOUN	NOUN	_	3	obj	_	TokenRange=31:39
+5	guara	guar	ADJ	ADJ	_	4	amod	_	TokenRange=40:45
+6	r	r	NOUN	NOUN	_	9	appos	_	TokenRange=46:47
+7	93	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=48:50
+8	mil	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=51:54
+9	ofensas	ofensa	NOUN	NOUN	_	13	obj	_	TokenRange=55:62
+10	web	_	NOUN	NOUN	_	9	appos	_	TokenRange=63:66
+11	flavio	_	NOUN	NOUN	_	9	appos	_	TokenRange=67:73
+12	thebas	_	NOUN	NOUN	_	11	flat	_	TokenRange=74:80
+13	fez	fazer	VERB	VERB	_	0	root	_	TokenRange=81:84
+14	referencia	_	NOUN	NOUN	_	13	obj	_	TokenRange=85:95
+15	prefeito	prefeito	NOUN	NOUN	_	14	appos	_	TokenRange=96:104
+16	marcos	marco	NOUN	NOUN	_	15	appos	_	TokenRange=105:111
+17	soliva	solivo	NOUN	ADJ	_	15	amod	_	TokenRange=112:118
+18	psb	_	NOUN	NOUN	_	15	appos	_	TokenRange=119:122
+19	boca	boca	NOUN	NOUN	_	15	appos	_	TokenRange=123:127
+20	sovaco	_	ADJ	ADJ	_	19	amod	_	TokenRange=128:134
+21	marcos	marco	NOUN	NOUN	_	19	appos	_	TokenRange=135:141
+22	saliva	salivo	ADJ	ADJ	_	21	amod	_	TokenRange=142:148
+23	video	video	NOUN	NOUN	_	13	obj	_	TokenRange=149:154
+24	postado	postar	VERB	VERB	_	23	acl	_	TokenRange=155:162
+25	pagina	pagina	NOUN	NOUN	_	30	nsubj	_	TokenRange=163:169
+26	radio	radio	NOUN	NOUN	_	25	flat	_	TokenRange=170:175
+27	rede	rede	NOUN	NOUN	_	25	appos	_	TokenRange=176:180
+28	social	social	ADJ	ADJ	_	27	amod	_	TokenRange=181:187
+29	justica	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=188:195
+30	determinou	determinar	VERB	VERB	_	13	parataxis	_	TokenRange=196:206
+31	video	video	NOUN	NOUN	_	30	obj	_	TokenRange=207:212
+32	apagado	apagado	ADJ	ADJ	_	31	amod	_	TokenRange=213:220
+33	vai	ir	AUX	AUX	_	34	aux	_	TokenRange=221:224
+34	recorrer	recorrer	VERB	VERB	_	30	ccomp	_	TokenRange=225:233
+35	justica	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=234:241
+36	condenou	condenar	VERB	VERB	_	30	ccomp	_	TokenRange=242:250
+37	jornalista	jornalista	NOUN	NOUN	_	36	obj	_	TokenRange=251:261
+38	pagar	pagar	VERB	VERB	_	37	acl:inf	_	TokenRange=262:267
+39	indenizacao	_	NOUN	NOUN	_	38	obj	_	TokenRange=268:279
+40	r	r	NOUN	NOUN	_	43	appos	_	TokenRange=280:281
+41	93	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=282:284
+42	mil	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=285:288
+43	danos	dano	NOUN	NOUN	_	38	obj	_	TokenRange=289:294
+44	morais	moral	ADJ	ADJ	_	43	amod	_	TokenRange=295:301
+45	apos	_	ADP	ADP	_	46	case	_	TokenRange=302:306
+46	publicacao	publicacao	NOUN	NOUN	_	43	nmod	_	TokenRange=307:317
+47	videos	video	NOUN	NOUN	_	43	appos	_	TokenRange=318:324
+48	web	_	NOUN	NOUN	_	47	appos	_	TokenRange=325:328
+49	ofensas	ofensa	NOUN	NOUN	_	47	flat	_	TokenRange=329:336
+50	contra	_	ADP	ADP	_	51	case	_	TokenRange=337:343
+51	prefeito	prefeito	NOUN	NOUN	_	47	nmod	_	TokenRange=344:352
+52	guaratingueta	guaratingueta	ADJ	ADJ	_	51	amod	_	TokenRange=353:366
+53	marcos	marco	NOUN	NOUN	_	51	appos	_	TokenRange=367:373
+54	soliva	solivo	ADJ	ADJ	_	53	amod	_	TokenRange=374:380
+55	psb	_	NOUN	NOUN	_	53	appos	_	TokenRange=381:384
+56	alem	_	ADV	ADV	_	57	advmod	_	TokenRange=385:389
+57	pagamento	pagamento	NOUN	NOUN	_	70	obj	_	TokenRange=390:399
+58	indenizacao	_	ADJ	ADJ	_	57	amod	_	TokenRange=400:411
+59	apagar	apagar	VERB	VERB	_	57	acl:inf	_	TokenRange=412:418
+60	conteudo	conteudo	NOUN	NOUN	_	59	obj	_	TokenRange=419:427
+61	sob	_	ADP	ADP	_	62	case	_	TokenRange=428:431
+62	pena	_	NOUN	NOUN	_	60	nmod	_	TokenRange=432:436
+63	caso	_	NOUN	NOUN	_	64	case	_	TokenRange=437:441
+64	descumprimento	descumprimento	NOUN	NOUN	_	62	nmod	_	TokenRange=442:456
+65	multa	multa	NOUN	NOUN	_	64	appos	_	TokenRange=457:462
+66	diaria	diario	ADJ	ADJ	_	65	amod	_	TokenRange=463:469
+67	r	r	NOUN	NOUN	_	70	nsubj	_	TokenRange=470:471
+68	500	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=472:475
+69	jornalista	jornalista	NOUN	NOUN	_	70	nsubj	_	TokenRange=476:486
+70	informou	informar	VERB	VERB	_	13	parataxis	_	TokenRange=487:495
+71	vai	ir	AUX	AUX	_	72	aux	_	TokenRange=496:499
+72	recorrer	recorrer	VERB	VERB	_	70	ccomp	_	TokenRange=500:508
+73	decisao	decisao	NOUN	NOUN	_	72	obj	_	TokenRange=509:516
+74	1	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=517:518
+75	instancia	instancia	NOUN	NOUN	_	72	obj	_	TokenRange=519:528
+76	publicada	publicar	VERB	VERB	_	75	acl	_	TokenRange=529:538
+77	ultimo	_	ADJ	ADJ	_	78	amod	_	TokenRange=539:545
+78	dia	dia	NOUN	NOUN	_	76	nmod	_	TokenRange=546:549
+79	14	_	NUM	NUM	NumType=Card	78	nmod	_	TokenRange=550:552
+80	acao	acao	NOUN	NOUN	_	72	obj	_	TokenRange=553:557
+81	gerada	gerar	ADJ	ADJ	_	80	amod	_	TokenRange=558:564
+82	partir	partir	VERB	VERB	_	72	ccomp	_	TokenRange=565:571
+83	postagem	postagem	NOUN	NOUN	_	82	obj	_	TokenRange=572:580
+84	feita	_	VERB	VERB	_	83	acl	_	SpaceAfter=No|TokenRange=581:586
+

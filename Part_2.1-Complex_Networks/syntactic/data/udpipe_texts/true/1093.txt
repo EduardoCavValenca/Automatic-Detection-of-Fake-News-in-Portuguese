@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tribunal federal aumenta pena joao vaccari neto processo lava jato processo tratava denuncia apresentada mpf propina paga esquema corrupcao petrobras pagar servicos eleitorais extesoureiro pt absolvido outras duas acoes julgamento tribunal regional federal 4 regiao trf4 nesta tercafeira 7 8 turma aumentou 14 anos pena joao vaccari neto acao condenou outros cinco reus lava jato casal monica moura joao santana exmarqueteiro pt vaccari extesoureiro pt sido condenado fevereiro 10 anos prisao corrupcao passiva
+1	tribunal	tribunal	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+3	aumenta	aumentar	VERB	VERB	_	0	root	_	TokenRange=17:24
+4	pena	_	NOUN	NOUN	_	3	obj	_	TokenRange=25:29
+5	joao	joao	NOUN	NOUN	_	4	appos	_	TokenRange=30:34
+6	vaccari	_	NOUN	NOUN	_	4	appos	_	TokenRange=35:42
+7	neto	neto	ADJ	ADJ	_	6	amod	_	TokenRange=43:47
+8	processo	processo	NOUN	NOUN	_	6	appos	_	TokenRange=48:56
+9	lava	_	VERB	VERB	_	4	appos	_	TokenRange=57:61
+10	jato	jato	NOUN	NOUN	_	9	flat	_	TokenRange=62:66
+11	processo	processo	NOUN	NOUN	_	9	obj	_	TokenRange=67:75
+12	tratava	tratar	VERB	VERB	_	13	acl	_	TokenRange=76:83
+13	denuncia	denuncia	NOUN	NOUN	_	9	obj	_	TokenRange=84:92
+14	apresentada	apresentar	VERB	VERB	_	13	acl	_	TokenRange=93:104
+15	mpf	_	NOUN	NOUN	_	14	obj	_	TokenRange=105:108
+16	propina	propina	NOUN	NOUN	_	15	flat	_	TokenRange=109:116
+17	paga	pagar	VERB	VERB	_	18	acl	_	TokenRange=117:121
+18	esquema	esquema	NOUN	NOUN	_	14	obj	_	TokenRange=122:129
+19	corrupcao	corrupcao	ADJ	ADJ	_	18	amod	_	TokenRange=130:139
+20	petrobras	petrobra	NOUN	NOUN	_	18	appos	_	TokenRange=140:149
+21	pagar	pagar	VERB	VERB	_	18	acl:inf	_	TokenRange=150:155
+22	servicos	servico	NOUN	NOUN	_	21	obj	_	TokenRange=156:164
+23	eleitorais	eleitoral	ADJ	ADJ	_	22	amod	_	TokenRange=165:175
+24	extesoureiro	extesoureiro	NOUN	NOUN	_	22	appos	_	TokenRange=176:188
+25	pt	_	ADJ	NOUN	_	24	flat	_	TokenRange=189:191
+26	absolvido	absolver	VERB	VERB	_	21	acl	_	TokenRange=192:201
+27	outras	_	DET	DET	_	29	det	_	TokenRange=202:208
+28	duas	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=209:213
+29	acoes	acoe	NOUN	NOUN	_	26	obj	_	TokenRange=214:219
+30	julgamento	julgamento	NOUN	NOUN	_	29	appos	_	TokenRange=220:230
+31	tribunal	tribunal	NOUN	NOUN	_	29	appos	_	TokenRange=231:239
+32	regional	regional	ADJ	ADJ	_	31	amod	_	TokenRange=240:248
+33	federal	federal	ADJ	ADJ	_	31	amod	_	TokenRange=249:256
+34	4	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=257:258
+35	regiao	regiao	NOUN	NOUN	_	31	appos	_	TokenRange=259:265
+36	trf4	_	NUM	NOUN	_	35	appos	_	TokenRange=266:270
+37	nesta	_	ADP	ADP	_	38	case	_	TokenRange=271:276
+38	tercafeira	tercafeira	NOUN	NOUN	_	42	nmod	_	TokenRange=277:287
+39	7	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=288:289
+40	8	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=290:291
+41	turma	turma	NOUN	NOUN	_	42	nsubj	_	TokenRange=292:297
+42	aumentou	aumentar	VERB	VERB	_	3	parataxis	_	TokenRange=298:306
+43	14	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=307:309
+44	anos	ano	NOUN	NOUN	_	42	obj	_	TokenRange=310:314
+45	pena	_	NOUN	NOUN	_	42	obj	_	TokenRange=315:319
+46	joao	joao	NOUN	NOUN	_	50	nsubj	_	TokenRange=320:324
+47	vaccari	vaccar	NOUN	NOUN	_	45	appos	_	TokenRange=325:332
+48	neto	neto	ADJ	ADJ	_	47	amod	_	TokenRange=333:337
+49	acao	acao	NOUN	NOUN	_	47	appos	_	TokenRange=338:342
+50	condenou	condenar	VERB	VERB	_	42	parataxis	_	TokenRange=343:351
+51	outros	_	DET	DET	_	53	det	_	TokenRange=352:358
+52	cinco	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=359:364
+53	reus	reu	NOUN	NOUN	_	50	obj	_	TokenRange=365:369
+54	lava	lava	NOUN	NOUN	_	53	appos	_	TokenRange=370:374
+55	jato	jato	NOUN	NOUN	_	54	flat	_	TokenRange=375:379
+56	casal	casal	NOUN	NOUN	_	54	flat	_	TokenRange=380:385
+57	monica	_	NOUN	NOUN	_	54	appos	_	TokenRange=386:392
+58	moura	mouro	NOUN	NOUN	_	57	flat	_	TokenRange=393:398
+59	joao	joao	NOUN	NOUN	_	57	appos	_	TokenRange=399:403
+60	santana	santana	ADJ	NOUN	_	59	flat	_	TokenRange=404:411
+61	exmarqueteiro	_	NOUN	NOUN	_	57	amod	_	TokenRange=412:425
+62	pt	_	NOUN	NOUN	_	61	appos	_	TokenRange=426:428
+63	vaccari	vaccar	NOUN	NOUN	_	67	nsubj:pass	_	TokenRange=429:436
+64	extesoureiro	extesoureiro	NOUN	NOUN	_	63	flat	_	TokenRange=437:449
+65	pt	_	ADJ	ADJ	_	64	amod	_	TokenRange=450:452
+66	sido	ser	AUX	AUX	_	67	aux:pass	_	TokenRange=453:457
+67	condenado	condenar	VERB	VERB	_	42	conj	_	TokenRange=458:467
+68	fevereiro	_	PROPN	PNOUN	_	67	nmod	_	TokenRange=468:477
+69	10	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=478:480
+70	anos	ano	NOUN	NOUN	_	67	nmod	_	TokenRange=481:485
+71	prisao	prisao	ADJ	ADJ	_	67	xcomp	_	TokenRange=486:492
+72	corrupcao	corrupcao	NOUN	NOUN	_	67	obj	_	TokenRange=493:502
+73	passiva	passivo	ADJ	ADJ	_	72	amod	_	SpaceAfter=No|TokenRange=503:510
+

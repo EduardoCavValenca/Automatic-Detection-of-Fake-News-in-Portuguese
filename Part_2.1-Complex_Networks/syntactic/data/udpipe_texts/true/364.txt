@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trf4 nega pedido defesa lula sobre documentos relativos sistema propina odebrecht recurso correicao parcial dentro processo trata supostas vantagens indevidas recebidas petista apartamento vizinho vive bernardo campo sp terreno destino instituto lula g1 entrou contato advogados petista aguarda retorno sessao tarde desta quartafeira 7 desembargadores tribunal regional federal 4 regiao trf4 porto alegre negaram pedido defesa expresidente luiz inacio lula silva contra
+1	trf4	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	pedido	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	defesa	_	NOUN	NOUN	_	2	obj	_	TokenRange=17:23
+5	lula	lula	ADJ	ADJ	_	4	amod	_	TokenRange=24:28
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=29:34
+7	documentos	documento	NOUN	NOUN	_	4	nmod	_	TokenRange=35:45
+8	relativos	relativo	ADJ	ADJ	_	7	amod	_	TokenRange=46:55
+9	sistema	sistema	NOUN	NOUN	_	7	appos	_	TokenRange=56:63
+10	propina	propino	NOUN	NOUN	_	7	amod	_	TokenRange=64:71
+11	odebrecht	_	ADJ	NOUN	_	12	appos	_	TokenRange=72:81
+12	recurso	recurso	NOUN	NOUN	_	7	appos	_	TokenRange=82:89
+13	correicao	correicao	NOUN	ADJ	_	12	amod	_	TokenRange=90:99
+14	parcial	parcial	ADJ	ADJ	_	12	amod	_	TokenRange=100:107
+15	dentro	dentro	ADV	ADV	_	16	advmod	_	TokenRange=108:114
+16	processo	processo	NOUN	NOUN	_	17	nsubj	_	TokenRange=115:123
+17	trata	tratar	VERB	VERB	_	2	parataxis	_	TokenRange=124:129
+18	supostas	suposto	ADJ	ADJ	_	19	amod	_	TokenRange=130:138
+19	vantagens	vantagem	NOUN	NOUN	_	17	obj	_	TokenRange=139:148
+20	indevidas	indevido	ADJ	ADJ	_	19	amod	_	TokenRange=149:158
+21	recebidas	receber	VERB	VERB	_	19	acl	_	TokenRange=159:168
+22	petista	petista	NOUN	NOUN	_	21	nsubj	_	TokenRange=169:176
+23	apartamento	apartamento	NOUN	NOUN	_	22	appos	_	TokenRange=177:188
+24	vizinho	vizinho	ADJ	ADJ	_	23	amod	_	TokenRange=189:196
+25	vive	_	NOUN	NOUN	_	22	appos	_	TokenRange=197:201
+26	bernardo	bernardo	NOUN	NOUN	_	25	appos	_	TokenRange=202:210
+27	campo	campo	NOUN	NOUN	_	26	flat	_	TokenRange=211:216
+28	sp	_	NOUN	NOUN	_	29	appos	_	TokenRange=217:219
+29	terreno	terreno	NOUN	NOUN	_	25	appos	_	TokenRange=220:227
+30	destino	destino	NOUN	NOUN	_	29	flat	_	TokenRange=228:235
+31	instituto	instituto	NOUN	NOUN	_	29	appos	_	TokenRange=236:245
+32	lula	_	NOUN	NOUN	_	31	flat	_	TokenRange=246:250
+33	g1	_	NOUN	NOUN	_	31	appos	_	TokenRange=251:253
+34	entrou	entrar	VERB	VERB	_	2	parataxis	_	TokenRange=254:260
+35	contato	contato	NOUN	NOUN	_	34	obj	_	TokenRange=261:268
+36	advogados	advogado	NOUN	NOUN	_	35	appos	_	TokenRange=269:278
+37	petista	petista	NOUN	NOUN	_	35	amod	_	TokenRange=279:286
+38	aguarda	_	ADJ	ADJ	_	39	case	_	TokenRange=287:294
+39	retorno	retorno	NOUN	NOUN	_	34	obj	_	TokenRange=295:302
+40	sessao	sessao	ADJ	NOUN	_	39	amod	_	TokenRange=303:309
+41	tarde	tarde	NOUN	NOUN	_	39	appos	_	TokenRange=310:315
+42	desta	_	ADP	ADP	_	43	case	_	TokenRange=316:321
+43	quartafeira	_	NOUN	NOUN	_	41	nmod	_	TokenRange=322:333
+44	7	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=334:335
+45	desembargadores	desembargador	NOUN	NOUN	_	54	nsubj	_	TokenRange=336:351
+46	tribunal	tribunal	NOUN	NOUN	_	45	appos	_	TokenRange=352:360
+47	regional	regional	ADJ	ADJ	_	46	amod	_	TokenRange=361:369
+48	federal	federal	ADJ	ADJ	_	46	amod	_	TokenRange=370:377
+49	4	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=378:379
+50	regiao	regiao	NOUN	NOUN	_	46	appos	_	TokenRange=380:386
+51	trf4	_	NOUN	NOUN	_	50	appos	_	TokenRange=387:391
+52	porto	_	NOUN	NOUN	_	51	flat	_	TokenRange=392:397
+53	alegre	alegre	ADJ	ADJ	_	52	amod	_	TokenRange=398:404
+54	negaram	negar	VERB	VERB	_	2	parataxis	_	TokenRange=405:412
+55	pedido	pedido	NOUN	NOUN	_	54	obj	_	TokenRange=413:419
+56	defesa	_	NOUN	NOUN	_	54	obj	_	TokenRange=420:426
+57	expresidente	expresidente	NOUN	NOUN	_	56	amod	_	TokenRange=427:439
+58	luiz	luiz	ADJ	ADJ	_	56	appos	_	TokenRange=440:444
+59	inacio	_	NOUN	NOUN	_	58	flat	_	TokenRange=445:451
+60	lula	_	NOUN	NOUN	_	58	flat	_	TokenRange=452:456
+61	silva	silva	ADJ	ADJ	_	58	flat	_	TokenRange=457:462
+62	contra	_	ADP	ADP	_	54	case	_	SpaceAfter=No|TokenRange=463:469
+

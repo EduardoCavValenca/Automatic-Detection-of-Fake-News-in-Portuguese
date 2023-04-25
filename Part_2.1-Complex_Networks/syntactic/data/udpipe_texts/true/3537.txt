@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = seminario discute recuperacao agua rio doce linhares es propriedades rurais sofrem efeito seca meses bancos areia vistos diversas areas seminario discutir recuperacao agua planicie costeira rio doce acontece linhares norte espirito santo nesta sextafeira 27 propriedades rurais sofrem efeito seca meses bancos areia vistos diversas areas propriedade jose luiz casati
+1	seminario	seminario	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	discute	discutir	VERB	VERB	_	0	root	_	TokenRange=10:17
+3	recuperacao	recuperacao	NOUN	NOUN	_	2	obj	_	TokenRange=18:29
+4	agua	_	NOUN	NOUN	_	3	appos	_	TokenRange=30:34
+5	rio	rio	NOUN	NOUN	_	3	appos	_	TokenRange=35:38
+6	doce	doce	ADJ	ADJ	_	5	amod	_	TokenRange=39:43
+7	linhares	_	NOUN	NOUN	_	3	appos	_	TokenRange=44:52
+8	es	_	CCONJ	DET	_	9	det	_	TokenRange=53:55
+9	propriedades	propriedade	NOUN	NOUN	_	11	nsubj	_	TokenRange=56:68
+10	rurais	rural	ADJ	ADJ	_	9	amod	_	TokenRange=69:75
+11	sofrem	sofrer	VERB	VERB	_	2	parataxis	_	TokenRange=76:82
+12	efeito	efeito	NOUN	NOUN	_	11	obj	_	TokenRange=83:89
+13	seca	seco	ADJ	ADJ	_	12	amod	_	TokenRange=90:94
+14	meses	mês	NOUN	NOUN	_	11	obj	_	TokenRange=95:100
+15	bancos	banco	NOUN	NOUN	_	11	nsubj	_	TokenRange=101:107
+16	areia	areia	NOUN	NOUN	_	15	flat	_	TokenRange=108:113
+17	vistos	ver	VERB	VERB	_	15	acl	_	TokenRange=114:120
+18	diversas	_	DET	DET	_	19	det	_	TokenRange=121:129
+19	areas	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=130:135
+20	seminario	seminario	NOUN	NOUN	_	21	nsubj	_	TokenRange=136:145
+21	discutir	discutir	VERB	VERB	_	11	parataxis	_	TokenRange=146:154
+22	recuperacao	recuperacao	NOUN	NOUN	_	21	obj	_	TokenRange=155:166
+23	agua	_	NOUN	NOUN	_	22	appos	_	TokenRange=167:171
+24	planicie	planicie	NOUN	NOUN	_	22	appos	_	TokenRange=172:180
+25	costeira	costeiro	ADJ	ADJ	_	24	amod	_	TokenRange=181:189
+26	rio	rio	NOUN	NOUN	_	28	nsubj	_	TokenRange=190:193
+27	doce	doce	ADJ	ADJ	_	26	amod	_	TokenRange=194:198
+28	acontece	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=199:207
+29	linhares	_	NOUN	NOUN	_	28	obj	_	TokenRange=208:216
+30	norte	norte	ADJ	ADJ	_	29	amod	_	TokenRange=217:222
+31	espirito	espirito	NOUN	NOUN	_	29	appos	_	TokenRange=223:231
+32	santo	santo	ADJ	ADJ	_	31	amod	_	TokenRange=232:237
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=238:243
+34	sextafeira	sextafeira	NOUN	NOUN	_	38	nmod	_	TokenRange=244:254
+35	27	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=255:257
+36	propriedades	propriedade	NOUN	NOUN	_	38	nsubj	_	TokenRange=258:270
+37	rurais	rural	ADJ	ADJ	_	36	amod	_	TokenRange=271:277
+38	sofrem	sofrer	VERB	VERB	_	2	parataxis	_	TokenRange=278:284
+39	efeito	efeito	NOUN	NOUN	_	38	obj	_	TokenRange=285:291
+40	seca	seco	ADJ	ADJ	_	39	amod	_	TokenRange=292:296
+41	meses	mês	NOUN	NOUN	_	39	appos	_	TokenRange=297:302
+42	bancos	banco	NOUN	NOUN	_	38	obj	_	TokenRange=303:309
+43	areia	areia	NOUN	NOUN	_	42	flat	_	TokenRange=310:315
+44	vistos	ver	VERB	VERB	_	42	acl	_	TokenRange=316:322
+45	diversas	_	DET	DET	_	46	det	_	TokenRange=323:331
+46	areas	_	NOUN	NOUN	_	44	nmod	_	TokenRange=332:337
+47	propriedade	propriedade	NOUN	NOUN	_	38	parataxis	_	TokenRange=338:349
+48	jose	jose	NOUN	NOUN	_	47	appos	_	TokenRange=350:354
+49	luiz	luiz	NOUN	NOUN	_	48	flat	_	TokenRange=355:359
+50	casati	_	NOUN	NOUN	_	48	flat	_	SpaceAfter=No|TokenRange=360:366
+

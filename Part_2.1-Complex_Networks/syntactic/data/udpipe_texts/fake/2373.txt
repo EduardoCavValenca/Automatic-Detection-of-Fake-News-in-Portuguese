@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = condutor tocha olimpica tira calcas protesto contra michel temer tarcisio rodrigues gomes 31 anos preso policia forca nacional musico conduzindo tocha olimpica aproveitou fato protestar contra governo interino presidente michel temer momento exato recebia fogo olimpico tarcisio abaixou calcas usando biquini cavado escritos temer nadegas parceiros profissao musico acompanharam ato inusitado comecaram gritar temer coro
+1	condutor	condutor	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	tocha	tocha	NOUN	NOUN	_	1	appos	_	TokenRange=9:14
+3	olimpica	olimpico	ADJ	ADJ	_	2	amod	_	TokenRange=15:23
+4	tira	tirar	VERB	VERB	_	0	root	_	TokenRange=24:28
+5	calcas	_	NOUN	NOUN	_	4	obj	_	TokenRange=29:35
+6	protesto	protesto	NOUN	NOUN	_	4	obj	_	TokenRange=36:44
+7	contra	_	ADP	ADP	_	9	case	_	TokenRange=45:51
+8	michel	_	DET	DET	_	9	det	_	TokenRange=52:58
+9	temer	temer	NOUN	NOUN	_	6	nmod	_	TokenRange=59:64
+10	tarcisio	tarcisio	NOUN	NOUN	_	9	appos	_	TokenRange=65:73
+11	rodrigues	_	NOUN	NOUN	_	10	flat	_	TokenRange=74:83
+12	gomes	gome	NOUN	NOUN	_	10	flat	_	TokenRange=84:89
+13	31	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=90:92
+14	anos	ano	NOUN	NOUN	_	10	appos	_	TokenRange=93:97
+15	preso	preso	ADJ	ADJ	_	14	amod	_	TokenRange=98:103
+16	policia	policia	NOUN	NOUN	_	23	nsubj	_	TokenRange=104:111
+17	forca	forca	NOUN	NOUN	_	16	appos	_	TokenRange=112:117
+18	nacional	nacional	ADJ	ADJ	_	17	amod	_	TokenRange=118:126
+19	musico	musico	NOUN	NOUN	_	17	amod	_	TokenRange=127:133
+20	conduzindo	conduzir	VERB	VERB	_	16	acl	_	TokenRange=134:144
+21	tocha	tocha	NOUN	NOUN	_	20	obj	_	TokenRange=145:150
+22	olimpica	olimpico	ADJ	ADJ	_	21	amod	_	TokenRange=151:159
+23	aproveitou	aproveitar	VERB	VERB	_	4	parataxis	_	TokenRange=160:170
+24	fato	fato	NOUN	NOUN	_	23	obj	_	TokenRange=171:175
+25	protestar	protestar	VERB	VERB	_	23	ccomp	_	TokenRange=176:185
+26	contra	_	ADP	ADP	_	27	case	_	TokenRange=186:192
+27	governo	governo	NOUN	NOUN	_	25	nmod	_	TokenRange=193:200
+28	interino	interino	ADJ	ADJ	_	27	amod	_	TokenRange=201:209
+29	presidente	presidente	NOUN	NOUN	_	27	appos	_	TokenRange=210:220
+30	michel	michel	ADJ	ADJ	_	31	amod	_	TokenRange=221:227
+31	temer	temer	NOUN	NOUN	_	29	appos	_	TokenRange=228:233
+32	momento	momento	NOUN	NOUN	_	34	nsubj	_	TokenRange=234:241
+33	exato	exato	ADJ	ADJ	_	32	amod	_	TokenRange=242:247
+34	recebia	receber	VERB	VERB	_	23	parataxis	_	TokenRange=248:255
+35	fogo	fogo	NOUN	NOUN	_	34	obj	_	TokenRange=256:260
+36	olimpico	olimpico	ADJ	ADJ	_	35	amod	_	TokenRange=261:269
+37	tarcisio	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=270:278
+38	abaixou	abaixar	VERB	VERB	_	34	parataxis	_	TokenRange=279:286
+39	calcas	_	NOUN	NOUN	_	38	obj	_	TokenRange=287:293
+40	usando	usar	VERB	VERB	_	39	acl	_	TokenRange=294:300
+41	biquini	biquini	NOUN	NOUN	_	40	obj	_	TokenRange=301:308
+42	cavado	cavado	NOUN	NOUN	_	41	flat	_	TokenRange=309:315
+43	escritos	escrito	NOUN	NOUN	_	41	appos	_	TokenRange=316:324
+44	temer	temer	NOUN	NOUN	_	41	appos	_	TokenRange=325:330
+45	nadegas	nadega	NOUN	NOUN	_	49	nsubj	_	TokenRange=331:338
+46	parceiros	parceiro	NOUN	NOUN	_	45	amod	_	TokenRange=339:348
+47	profissao	profissao	ADJ	ADJ	_	45	amod	_	TokenRange=349:358
+48	musico	musico	NOUN	NOUN	_	45	amod	_	TokenRange=359:365
+49	acompanharam	acompanhar	VERB	VERB	_	38	parataxis	_	TokenRange=366:378
+50	ato	ato	NOUN	NOUN	_	49	obj	_	TokenRange=379:382
+51	inusitado	inusitado	ADJ	ADJ	_	50	amod	_	TokenRange=383:392
+52	comecaram	comecar	VERB	VERB	_	49	ccomp	_	TokenRange=393:402
+53	gritar	gritar	VERB	VERB	_	49	xcomp	_	TokenRange=403:409
+54	temer	temer	NOUN	NOUN	_	53	obj	_	TokenRange=410:415
+55	coro	coro	NOUN	NOUN	_	53	obj	_	SpaceAfter=No|TokenRange=416:420
+

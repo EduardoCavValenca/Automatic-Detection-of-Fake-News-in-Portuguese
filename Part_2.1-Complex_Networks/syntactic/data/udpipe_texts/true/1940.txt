@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = uberlandenses compartilham desafios conquistas mercado empreendedor feminino versatilidade natureza criativa negocio principais caracteristicas classe nucleo aciub estimula empreendedorismo feminino cidade sonho abrir propria empresa leva muitas mulheres seguir linha continua objetivos vida querem sempre inovar buscar novo proposito dentro mercado trabalho levando consideracao proprio bemestar familia menos impressoes tres empreendedoras uberlandia apesar desafios sentem realizadas conquistas diarias mundo negocios odontologa cyntia galvao 47 anos abriu propria
+1	uberlandenses	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:13
+2	compartilham	compartilhar	VERB	VERB	_	0	root	_	TokenRange=14:26
+3	desafios	desafio	NOUN	NOUN	_	2	obj	_	TokenRange=27:35
+4	conquistas	conquista	ADJ	ADJ	_	3	amod	_	TokenRange=36:46
+5	mercado	mercado	NOUN	NOUN	_	3	appos	_	TokenRange=47:54
+6	empreendedor	empreendedor	ADJ	ADJ	_	5	amod	_	TokenRange=55:67
+7	feminino	feminino	ADJ	ADJ	_	5	amod	_	TokenRange=68:76
+8	versatilidade	versatilidade	NOUN	NOUN	_	5	amod	_	TokenRange=77:90
+9	natureza	natureza	NOUN	NOUN	_	5	appos	_	TokenRange=91:99
+10	criativa	criativo	ADJ	ADJ	_	9	amod	_	TokenRange=100:108
+11	negocio	negocio	NOUN	NOUN	_	2	nsubj	_	TokenRange=109:116
+12	principais	principal	ADJ	ADJ	_	11	amod	_	TokenRange=117:127
+13	caracteristicas	caracteristico	ADJ	ADJ	_	11	amod	_	TokenRange=128:143
+14	classe	classe	NOUN	NOUN	_	17	nsubj	_	TokenRange=144:150
+15	nucleo	nucleo	NOUN	NOUN	_	14	flat	_	TokenRange=151:157
+16	aciub	_	NOUN	NOUN	_	14	appos	_	TokenRange=158:163
+17	estimula	estimular	VERB	VERB	_	2	parataxis	_	TokenRange=164:172
+18	empreendedorismo	empreendedorismo	NOUN	NOUN	_	17	obj	_	TokenRange=173:189
+19	feminino	feminino	ADJ	ADJ	_	20	amod	_	TokenRange=190:198
+20	cidade	cidade	NOUN	NOUN	_	17	nsubj	_	TokenRange=199:205
+21	sonho	sonho	ADJ	ADJ	_	20	amod	_	TokenRange=206:211
+22	abrir	abrir	VERB	VERB	_	20	acl:inf	_	TokenRange=212:217
+23	propria	proprio	ADJ	ADJ	_	24	amod	_	TokenRange=218:225
+24	empresa	empresa	NOUN	NOUN	_	22	obj	_	TokenRange=226:233
+25	leva	levar	VERB	VERB	_	22	ccomp	_	TokenRange=234:238
+26	muitas	_	DET	DET	_	27	det	_	TokenRange=239:245
+27	mulheres	mulher	NOUN	NOUN	_	25	obj	_	TokenRange=246:254
+28	seguir	seguir	VERB	VERB	_	25	ccomp	_	TokenRange=255:261
+29	linha	_	NOUN	NOUN	_	28	obj	_	TokenRange=262:267
+30	continua	continuo	ADJ	ADJ	_	29	amod	_	TokenRange=268:276
+31	objetivos	objetivo	ADJ	ADJ	_	32	amod	_	TokenRange=277:286
+32	vida	vida	NOUN	NOUN	_	33	nsubj	_	TokenRange=287:291
+33	querem	querer	VERB	VERB	_	2	parataxis	_	TokenRange=292:298
+34	sempre	sempre	ADV	ADV	_	33	advmod	_	TokenRange=299:305
+35	inovar	inovar	VERB	VERB	_	33	xcomp	_	TokenRange=306:312
+36	buscar	buscar	VERB	VERB	_	35	xcomp	_	TokenRange=313:319
+37	novo	novo	ADJ	ADJ	_	38	amod	_	TokenRange=320:324
+38	proposito	proposito	NOUN	NOUN	_	36	obj	_	TokenRange=325:334
+39	dentro	dentro	ADV	ADV	_	38	advmod	_	TokenRange=335:341
+40	mercado	mercado	NOUN	NOUN	_	36	obj	_	TokenRange=342:349
+41	trabalho	trabalho	NOUN	NOUN	_	40	flat	_	TokenRange=350:358
+42	levando	levar	VERB	VERB	_	38	acl	_	TokenRange=359:366
+43	consideracao	consideracao	NOUN	NOUN	_	42	obj	_	TokenRange=367:379
+44	proprio	proprio	ADJ	ADJ	_	43	amod	_	TokenRange=380:387
+45	bemestar	bemestar	VERB	VERB	_	43	acl:inf	_	TokenRange=388:396
+46	familia	familia	NOUN	NOUN	_	45	obj	_	TokenRange=397:404
+47	menos	menos	ADV	ADV	_	48	advmod	_	TokenRange=405:410
+48	impressoes	impressoe	ADJ	NOUN	_	50	amod	_	TokenRange=411:421
+49	tres	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=422:426
+50	empreendedoras	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=427:441
+51	uberlandia	uberlandia	NOUN	NOUN	_	50	appos	_	TokenRange=442:452
+52	apesar	apesar	ADV	ADV	_	53	advmod	_	TokenRange=453:459
+53	desafios	desafio	NOUN	NOUN	_	50	appos	_	TokenRange=460:468
+54	sentem	_	VERB	VERB	_	55	aux	_	TokenRange=469:475
+55	realizadas	realizado	ADJ	ADJ	_	50	amod	_	TokenRange=476:486
+56	conquistas	conquista	NOUN	NOUN	_	55	nsubj	_	TokenRange=487:497
+57	diarias	diario	ADJ	ADJ	_	56	amod	_	TokenRange=498:505
+58	mundo	mundo	NOUN	NOUN	_	56	appos	_	TokenRange=506:511
+59	negocios	negocio	NOUN	NOUN	_	56	appos	_	TokenRange=512:520
+60	odontologa	_	NOUN	NOUN	_	56	appos	_	TokenRange=521:531
+61	cyntia	_	NOUN	NOUN	_	60	appos	_	TokenRange=532:538
+62	galvao	galvao	ADJ	ADJ	_	61	flat	_	TokenRange=539:545
+63	47	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=546:548
+64	anos	ano	NOUN	NOUN	_	65	nmod	_	TokenRange=549:553
+65	abriu	abrir	VERB	VERB	_	33	parataxis	_	TokenRange=554:559
+66	propria	proprio	NOUN	ADJ	_	65	obj	_	SpaceAfter=No|TokenRange=560:567
+

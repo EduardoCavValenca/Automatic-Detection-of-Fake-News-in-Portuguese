@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cerca 200 detentos escapam penitenciaria interior sp manha hoje 24 cerca 200 presos fugiram instituto penal agricola bauru interior paulo pm controlou motim capturou parte presos fazendo buscas cidade ainda informacoes sobre numero presos continua ruas instituto penal abriga 1427 detentos regime semiaberto capacidade pouco 1100 internos imagens abaixo capturadas policial tropa choque
+1	cerca	cerca	ADV	ADV	_	2	advmod	_	TokenRange=0:5
+2	200	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=6:9
+3	detentos	detento	NOUN	NOUN	_	4	nsubj	_	TokenRange=10:18
+4	escapam	escapar	VERB	VERB	_	0	root	_	TokenRange=19:26
+5	penitenciaria	penitenciaria	NOUN	NOUN	_	4	obj	_	TokenRange=27:40
+6	interior	interior	ADJ	ADJ	_	5	amod	_	TokenRange=41:49
+7	sp	_	ADJ	DET	_	8	case	_	TokenRange=50:52
+8	manha	manha	NOUN	NOUN	_	4	nmod	_	TokenRange=53:58
+9	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=59:63
+10	24	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=64:66
+11	cerca	cerca	ADV	ADV	_	12	advmod	_	TokenRange=67:72
+12	200	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=73:76
+13	presos	preso	NOUN	NOUN	_	14	nsubj	_	TokenRange=77:83
+14	fugiram	fugir	VERB	VERB	_	4	parataxis	_	TokenRange=84:91
+15	instituto	instituto	NOUN	NOUN	_	14	obj	_	TokenRange=92:101
+16	penal	penal	ADJ	ADJ	_	15	amod	_	TokenRange=102:107
+17	agricola	_	ADJ	ADJ	_	15	amod	_	TokenRange=108:116
+18	bauru	bauru	NOUN	NOUN	_	15	appos	_	TokenRange=117:122
+19	interior	interior	NOUN	NOUN	_	22	nsubj	_	TokenRange=123:131
+20	paulo	paulo	NOUN	NOUN	_	22	nsubj	_	TokenRange=132:137
+21	pm	pm	NOUN	NOUN	_	20	flat	_	TokenRange=138:140
+22	controlou	controlar	VERB	VERB	_	15	acl:relcl	_	TokenRange=141:150
+23	motim	motim	NOUN	NOUN	_	22	obj	_	TokenRange=151:156
+24	capturou	capturar	VERB	VERB	_	14	conj	_	TokenRange=157:165
+25	parte	parte	NOUN	NOUN	_	24	obj	_	TokenRange=166:171
+26	presos	preso	NOUN	NOUN	_	25	flat	_	TokenRange=172:178
+27	fazendo	fazer	VERB	VERB	_	24	acl	_	TokenRange=179:186
+28	buscas	busca	NOUN	NOUN	_	27	obj	_	TokenRange=187:193
+29	cidade	cidade	NOUN	NOUN	_	28	appos	_	TokenRange=194:200
+30	ainda	ainda	ADV	ADV	_	35	advmod	_	TokenRange=201:206
+31	informacoes	informacoe	NOUN	NOUN	_	35	nsubj	_	TokenRange=207:218
+32	sobre	_	ADP	ADP	_	34	case	_	TokenRange=219:224
+33	numero	numero	ADJ	ADJ	_	34	amod	_	TokenRange=225:231
+34	presos	preso	NOUN	NOUN	_	31	nmod	_	TokenRange=232:238
+35	continua	continuar	VERB	VERB	_	4	parataxis	_	TokenRange=239:247
+36	ruas	rua	NOUN	NOUN	_	35	nsubj	_	TokenRange=248:252
+37	instituto	instituto	NOUN	NOUN	_	39	nsubj	_	TokenRange=253:262
+38	penal	penal	ADJ	ADJ	_	37	amod	_	TokenRange=263:268
+39	abriga	abrigar	VERB	VERB	_	35	parataxis	_	TokenRange=269:275
+40	1427	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=276:280
+41	detentos	detento	NOUN	NOUN	_	39	obj	_	TokenRange=281:289
+42	regime	regime	NOUN	NOUN	_	41	appos	_	TokenRange=290:296
+43	semiaberto	semiaberto	ADJ	ADJ	_	42	amod	_	TokenRange=297:307
+44	capacidade	capacidade	NOUN	NOUN	_	41	appos	_	TokenRange=308:318
+45	pouco	pouco	ADV	ADV	_	46	advmod	_	TokenRange=319:324
+46	1100	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=325:329
+47	internos	interno	ADJ	ADJ	_	48	amod	_	TokenRange=330:338
+48	imagens	imagem	NOUN	NOUN	_	39	obj	_	TokenRange=339:346
+49	abaixo	abaixo	ADV	ADV	_	50	advmod	_	TokenRange=347:353
+50	capturadas	capturar	VERB	VERB	_	48	acl	_	TokenRange=354:364
+51	policial	policial	ADJ	ADJ	_	52	amod	_	TokenRange=365:373
+52	tropa	tropa	NOUN	NOUN	_	48	appos	_	TokenRange=374:379
+53	choque	choque	NOUN	NOUN	_	52	flat	_	SpaceAfter=No|TokenRange=380:386
+

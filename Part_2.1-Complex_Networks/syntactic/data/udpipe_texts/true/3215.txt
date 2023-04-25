@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pericia policia federal encontrou evidencias destruicao dados analisar sistemas propinas odebrecht laudo entregue operacao lava jato nesta sextafeira 23 apos verificar 11 discos rigidos dois pendrives segundo relatorio destruicao dados volta 22 junho 2015 141339 19 junho daquele ano empreiteiro marcelo odebrecht sido preso lava jato operacao erga omnes pericia ve vinculo obra especifica compra terreno instituto lula alvo pericia
+1	pericia	pericio	ADJ	ADJ	_	4	nsubj	_	TokenRange=0:7
+2	policia	policia	NOUN	NOUN	_	4	nsubj	_	TokenRange=8:15
+3	federal	federal	ADJ	ADJ	_	2	amod	_	TokenRange=16:23
+4	encontrou	encontrar	VERB	VERB	_	0	root	_	TokenRange=24:33
+5	evidencias	_	NOUN	NOUN	_	4	obj	_	TokenRange=34:44
+6	destruicao	destruicao	ADJ	ADJ	_	5	amod	_	TokenRange=45:55
+7	dados	dado	NOUN	NOUN	_	4	nsubj	_	TokenRange=56:61
+8	analisar	analisar	VERB	VERB	_	4	advcl	_	TokenRange=62:70
+9	sistemas	sistema	NOUN	NOUN	_	8	obj	_	TokenRange=71:79
+10	propinas	propino	ADJ	ADJ	_	9	amod	_	TokenRange=80:88
+11	odebrecht	_	NOUN	NOUN	_	9	appos	_	TokenRange=89:98
+12	laudo	laudo	NOUN	NOUN	_	11	flat	_	TokenRange=99:104
+13	entregue	entregar	VERB	VERB	_	9	acl	_	TokenRange=105:113
+14	operacao	operacao	NOUN	NOUN	_	13	obj	_	TokenRange=114:122
+15	lava	lava	NOUN	NOUN	_	14	appos	_	TokenRange=123:127
+16	jato	jato	NOUN	NOUN	_	15	flat	_	TokenRange=128:132
+17	nesta	_	ADP	ADP	_	18	case	_	TokenRange=133:138
+18	sextafeira	sextafeira	NOUN	NOUN	_	13	nmod	_	TokenRange=139:149
+19	23	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=150:152
+20	apos	_	ADP	ADP	_	21	mark	_	TokenRange=153:157
+21	verificar	verificar	VERB	VERB	_	13	advcl	_	TokenRange=158:167
+22	11	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=168:170
+23	discos	disco	NOUN	NOUN	_	21	obj	_	TokenRange=171:177
+24	rigidos	rigido	ADJ	ADJ	_	23	amod	_	TokenRange=178:185
+25	dois	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=186:190
+26	pendrives	_	NOUN	NOUN	_	23	appos	_	TokenRange=191:200
+27	segundo	_	ADP	ADP	_	28	case	_	TokenRange=201:208
+28	relatorio	relatorio	NOUN	NOUN	_	21	nmod	_	TokenRange=209:218
+29	destruicao	destruicao	ADJ	ADJ	_	28	amod	_	TokenRange=219:229
+30	dados	dado	NOUN	NOUN	_	28	appos	_	TokenRange=230:235
+31	volta	volta	NOUN	NOUN	_	28	appos	_	TokenRange=236:241
+32	22	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=242:244
+33	junho	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=245:250
+34	2015	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=251:255
+35	141339	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=256:262
+36	19	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=263:265
+37	junho	_	PROPN	PNOUN	_	36	nmod	_	TokenRange=266:271
+38	daquele	_	ADP	ADP	_	39	case	_	TokenRange=272:279
+39	ano	ano	NOUN	NOUN	_	37	nmod	_	TokenRange=280:283
+40	empreiteiro	empreiteiro	NOUN	NOUN	_	4	nsubj	_	TokenRange=284:295
+41	marcelo	marcelo	NOUN	NOUN	_	40	appos	_	TokenRange=296:303
+42	odebrecht	_	NOUN	NOUN	_	41	flat	_	TokenRange=304:313
+43	sido	ser	AUX	AUX	_	44	aux:pass	_	TokenRange=314:318
+44	preso	_	VERB	VERB	_	4	acl	_	TokenRange=319:324
+45	lava	lava	NOUN	NOUN	_	44	nsubj:pass	_	TokenRange=325:329
+46	jato	jato	NOUN	NOUN	_	45	flat	_	TokenRange=330:334
+47	operacao	operacao	NOUN	NOUN	_	44	nsubj:pass	_	TokenRange=335:343
+48	erga	erga	NOUN	NOUN	_	45	appos	_	TokenRange=344:348
+49	omnes	_	NOUN	NOUN	_	48	flat	_	TokenRange=349:354
+50	pericia	pericia	NOUN	NOUN	_	44	nsubj:pass	_	TokenRange=355:362
+51	ve	_	VERB	VERB	_	50	appos	_	TokenRange=363:365
+52	vinculo	vinculo	NOUN	NOUN	_	50	obj	_	TokenRange=366:373
+53	obra	obra	NOUN	NOUN	_	52	appos	_	TokenRange=374:378
+54	especifica	especifico	ADJ	ADJ	_	53	amod	_	TokenRange=379:389
+55	compra	comprar	VERB	VERB	_	52	appos	_	TokenRange=390:396
+56	terreno	terreno	NOUN	NOUN	_	55	obj	_	TokenRange=397:404
+57	instituto	instituto	NOUN	NOUN	_	55	obj	_	TokenRange=405:414
+58	lula	lula	NOUN	NOUN	_	60	flat	_	TokenRange=415:419
+59	alvo	alvo	ADJ	ADJ	_	57	amod	_	TokenRange=420:424
+60	pericia	pericia	NOUN	NOUN	_	55	parataxis	_	SpaceAfter=No|TokenRange=425:432
+

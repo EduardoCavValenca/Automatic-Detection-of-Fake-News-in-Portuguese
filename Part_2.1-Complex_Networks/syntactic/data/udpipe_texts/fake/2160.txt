@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula compara getulio faca lula getulio fundou petrobras afundou petrobras lula contraatacou adversarios durante discurso feito hoje 15 demonstrar reacao lava jato acusado corrupcao lavagem dinheiro lula disparou vocacao getulio vargas dar tiro quiserem tirar urnas disse lula frase estupida diario brasil leu getulio vargas fundou petrobras lula afundou petrobras lula nunca compare getulio
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	compara	comparar	VERB	VERB	_	0	root	_	TokenRange=5:12
+3	getulio	getulio	NOUN	NOUN	_	2	obj	_	TokenRange=13:20
+4	faca	_	VERB	VERB	_	2	mark	_	TokenRange=21:25
+5	lula	_	NOUN	NOUN	_	7	obj	_	TokenRange=26:30
+6	getulio	getulio	NOUN	NOUN	_	7	nsubj	_	TokenRange=31:38
+7	fundou	fundar	VERB	VERB	_	2	ccomp	_	TokenRange=39:45
+8	petrobras	petrobra	NOUN	NOUN	_	7	obj	_	TokenRange=46:55
+9	afundou	afundar	VERB	VERB	_	7	ccomp	_	TokenRange=56:63
+10	petrobras	petrobra	NOUN	NOUN	_	9	obj	_	TokenRange=64:73
+11	lula	lula	NOUN	NOUN	_	12	nsubj	_	TokenRange=74:78
+12	contraatacou	contraatacar	VERB	VERB	_	2	conj	_	TokenRange=79:91
+13	adversarios	adversario	NOUN	NOUN	_	12	obj	_	TokenRange=92:103
+14	durante	_	ADP	ADP	_	15	case	_	TokenRange=104:111
+15	discurso	discurso	NOUN	NOUN	_	12	nmod	_	TokenRange=112:120
+16	feito	_	VERB	VERB	_	15	acl	_	TokenRange=121:126
+17	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=127:131
+18	15	_	NUM	NUM	NumType=Card	19	nsubj	_	TokenRange=132:134
+19	demonstrar	demonstrar	VERB	VERB	_	16	conj	_	TokenRange=135:145
+20	reacao	reacao	NOUN	NOUN	_	19	obj	_	TokenRange=146:152
+21	lava	lava	VERB	NOUN	_	19	parataxis	_	TokenRange=153:157
+22	jato	jato	NOUN	NOUN	_	21	nsubj	_	TokenRange=158:162
+23	acusado	acusar	VERB	VERB	_	21	acl	_	TokenRange=163:170
+24	corrupcao	corrupcao	NOUN	NOUN	_	25	amod	_	TokenRange=171:180
+25	lavagem	lavagem	NOUN	NOUN	_	23	nsubj	_	TokenRange=181:188
+26	dinheiro	dinheiro	NOUN	NOUN	_	25	flat	_	TokenRange=189:197
+27	lula	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=198:202
+28	disparou	disparar	VERB	VERB	_	2	conj	_	TokenRange=203:211
+29	vocacao	vocacao	NOUN	NOUN	_	28	obj	_	TokenRange=212:219
+30	getulio	getulio	NOUN	NOUN	_	29	appos	_	TokenRange=220:227
+31	vargas	_	NOUN	NOUN	_	29	flat	_	TokenRange=228:234
+32	dar	dar	VERB	VERB	_	29	acl:inf	_	TokenRange=235:238
+33	tiro	tiro	NOUN	NOUN	_	32	obj	_	TokenRange=239:243
+34	quiserem	querer	VERB	VERB	_	32	ccomp	_	TokenRange=244:252
+35	tirar	tirar	VERB	VERB	_	34	xcomp	_	TokenRange=253:258
+36	urnas	urna	NOUN	NOUN	_	35	obj	_	TokenRange=259:264
+37	disse	dizer	VERB	VERB	_	32	parataxis	_	TokenRange=265:270
+38	lula	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=271:275
+39	frase	frase	NOUN	NOUN	_	37	nsubj	_	TokenRange=276:281
+40	estupida	estupido	ADJ	ADJ	_	39	amod	_	TokenRange=282:290
+41	diario	diario	NOUN	NOUN	_	39	appos	_	TokenRange=291:297
+42	brasil	brasil	ADJ	ADJ	_	41	amod	_	TokenRange=298:304
+43	leu	_	VERB	VERB	_	41	appos	_	TokenRange=305:308
+44	getulio	getulio	NOUN	NOUN	_	43	obj	_	TokenRange=309:316
+45	vargas	_	NOUN	NOUN	_	44	amod	_	TokenRange=317:323
+46	fundou	fundar	VERB	VERB	_	44	acl:relcl	_	TokenRange=324:330
+47	petrobras	petrobra	NOUN	NOUN	_	46	obj	_	TokenRange=331:340
+48	lula	_	ADJ	ADJ	_	49	nsubj	_	TokenRange=341:345
+49	afundou	afundar	VERB	VERB	_	46	parataxis	_	TokenRange=346:353
+50	petrobras	petrobra	NOUN	NOUN	_	53	obj	_	TokenRange=354:363
+51	lula	_	ADJ	ADJ	_	53	nsubj	_	TokenRange=364:368
+52	nunca	nunca	ADV	ADV	_	53	advmod	_	TokenRange=369:374
+53	compare	comparar	VERB	VERB	_	37	conj	_	TokenRange=375:382
+54	getulio	getulio	NOUN	NOUN	_	53	obj	_	SpaceAfter=No|TokenRange=383:390
+

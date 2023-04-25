@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = piscina alta mundo borda infinita fica 57o andar hotel coragem deslumbrante terraco fica enorme hotel 2561 quartos museu cassino restaurantes bares ainda shopping nadar tendo vista maravilhosa cidade proposta piscina 200 metros altitude hotel marina bay sands cingapura piscina borda infinita alturas 57 andar conhecido skypark quase 150 metros comprimento feita 200 mil toneladas aco controlar pressao agua acordo informacoes proprio hotel alta maior piscina infinita mundo consumiu parte orcamento us 57 bilhoes construcao assista video
+1	piscina	piscina	NOUN	NOUN	_	68	nsubj	_	TokenRange=0:7
+2	alta	alto	ADJ	ADJ	_	1	amod	_	TokenRange=8:12
+3	mundo	mundo	NOUN	NOUN	_	1	appos	_	TokenRange=13:18
+4	borda	borda	NOUN	NOUN	_	1	appos	_	TokenRange=19:24
+5	infinita	infinito	ADJ	ADJ	_	4	amod	_	TokenRange=25:33
+6	fica	ficar	VERB	VERB	_	1	acl:relcl	_	TokenRange=34:38
+7	57o	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=39:42
+8	andar	andar	NOUN	NOUN	_	6	obj	_	TokenRange=43:48
+9	hotel	hotel	NOUN	NOUN	_	8	appos	_	TokenRange=49:54
+10	coragem	coragem	NOUN	NOUN	_	8	appos	_	TokenRange=55:62
+11	deslumbrante	deslumbrante	ADJ	ADJ	_	12	amod	_	TokenRange=63:75
+12	terraco	terraco	NOUN	NOUN	_	1	appos	_	TokenRange=76:83
+13	fica	ficar	VERB	VERB	_	6	parataxis	_	TokenRange=84:88
+14	enorme	enorme	ADJ	ADJ	_	13	xcomp	_	TokenRange=89:95
+15	hotel	hotel	NOUN	NOUN	_	13	nsubj	_	TokenRange=96:101
+16	2561	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=102:106
+17	quartos	quarto	NOUN	NOUN	_	15	appos	_	TokenRange=107:114
+18	museu	museu	NOUN	NOUN	_	15	appos	_	TokenRange=115:120
+19	cassino	cassino	ADJ	NOUN	_	20	flat	_	TokenRange=121:128
+20	restaurantes	restaurante	NOUN	NOUN	_	18	appos	_	TokenRange=129:141
+21	bares	bar	NOUN	NOUN	_	20	appos	_	TokenRange=142:147
+22	ainda	ainda	ADV	ADV	_	23	advmod	_	TokenRange=148:153
+23	shopping	shopping	NOUN	NOUN	_	20	appos	_	TokenRange=154:162
+24	nadar	nadar	NOUN	NOUN	_	23	flat	_	TokenRange=163:168
+25	tendo	_	VERB	VERB	_	26	case	_	TokenRange=169:174
+26	vista	vista	NOUN	NOUN	_	23	appos	_	TokenRange=175:180
+27	maravilhosa	maravilhoso	ADJ	ADJ	_	28	amod	_	TokenRange=181:192
+28	cidade	cidade	NOUN	NOUN	_	23	appos	_	TokenRange=193:199
+29	proposta	_	ADJ	ADJ	_	28	amod	_	TokenRange=200:208
+30	piscina	piscina	NOUN	NOUN	_	23	appos	_	TokenRange=209:216
+31	200	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=217:220
+32	metros	metro	NOUN	NOUN	_	30	appos	_	TokenRange=221:227
+33	altitude	altitude	NOUN	NOUN	_	32	flat	_	TokenRange=228:236
+34	hotel	hotel	NOUN	NOUN	_	32	appos	_	TokenRange=237:242
+35	marina	_	NOUN	NOUN	_	32	appos	_	TokenRange=243:249
+36	bay	_	NOUN	NOUN	_	35	flat	_	TokenRange=250:253
+37	sands	_	NOUN	NOUN	_	35	flat	_	TokenRange=254:259
+38	cingapura	cingapura	NOUN	NOUN	_	39	appos	_	TokenRange=260:269
+39	piscina	piscina	NOUN	NOUN	_	30	appos	_	TokenRange=270:277
+40	borda	borda	NOUN	NOUN	_	39	amod	_	TokenRange=278:283
+41	infinita	infinito	ADJ	ADJ	_	39	amod	_	TokenRange=284:292
+42	alturas	altura	NOUN	NOUN	_	39	appos	_	TokenRange=293:300
+43	57	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=301:303
+44	andar	andar	NOUN	NOUN	_	39	appos	_	TokenRange=304:309
+45	conhecido	conhecido	ADJ	ADJ	_	44	amod	_	TokenRange=310:319
+46	skypark	_	NOUN	NOUN	_	39	appos	_	TokenRange=320:327
+47	quase	quase	ADV	ADV	_	53	advmod	_	TokenRange=328:333
+48	150	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=334:337
+49	metros	metro	NOUN	NOUN	_	39	appos	_	TokenRange=338:344
+50	comprimento	comprimento	NOUN	NOUN	_	49	appos	_	TokenRange=345:356
+51	feita	_	VERB	VERB	_	50	acl	_	TokenRange=357:362
+52	200	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=363:366
+53	mil	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=367:370
+54	toneladas	tonelada	NOUN	NOUN	_	51	obj	_	TokenRange=371:380
+55	aco	_	ADP	NOUN	_	56	mark	_	TokenRange=381:384
+56	controlar	controlar	VERB	VERB	_	51	advcl	_	TokenRange=385:394
+57	pressao	pressao	NOUN	NOUN	_	56	obj	_	TokenRange=395:402
+58	agua	agua	NOUN	NOUN	_	57	flat	_	TokenRange=403:407
+59	acordo	acordo	NOUN	NOUN	_	57	amod	_	TokenRange=408:414
+60	informacoes	_	NOUN	NOUN	_	68	nsubj	_	TokenRange=415:426
+61	proprio	proprio	ADJ	ADJ	_	62	amod	_	TokenRange=427:434
+62	hotel	hotel	NOUN	NOUN	_	60	appos	_	TokenRange=435:440
+63	alta	alto	ADJ	ADJ	_	65	amod	_	TokenRange=441:445
+64	maior	maior	ADJ	ADJ	_	65	amod	_	TokenRange=446:451
+65	piscina	piscina	NOUN	NOUN	_	60	appos	_	TokenRange=452:459
+66	infinita	infinito	ADJ	ADJ	_	65	amod	_	TokenRange=460:468
+67	mundo	mundo	NOUN	NOUN	_	65	appos	_	TokenRange=469:474
+68	consumiu	consumir	VERB	VERB	_	0	root	_	TokenRange=475:483
+69	parte	parte	NOUN	NOUN	_	68	obj	_	TokenRange=484:489
+70	orcamento	orcamento	NOUN	NOUN	_	69	appos	_	TokenRange=490:499
+71	us	_	DET	DET	_	74	det	_	TokenRange=500:502
+72	57	_	NUM	NUM	NumType=Card	73	nummod	_	TokenRange=503:505
+73	bilhoes	_	NUM	NUM	NumType=Card	74	nummod	_	TokenRange=506:513
+74	construcao	construcao	NOUN	NOUN	_	75	nsubj	_	TokenRange=514:524
+75	assista	assistir	VERB	VERB	_	68	parataxis	_	TokenRange=525:532
+76	video	video	NOUN	NOUN	_	75	obj	_	SpaceAfter=No|TokenRange=533:538
+

@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = projeto permite terceirizacao irrestrita empresas privadas servico publico elaborado 19 anos aprovado camara ultimo dia 22 veja cada deputado votou pode extinguir conquistas milhares cidadaos deficiencia conseguiram acesso mercado trabalho causa chamada lei cotas n 8213/1991 principal preocupacao instituicoes defendem direitos pessoas deficiencia parlamentares apoiam causa fracionamento numero oficial postos trabalho mantendo quantidade abaixo exigido lei cotas determina contratacao 1 5 funcionarios deficiencia empresas quadro partir 100 empregados
+1	projeto	projeto	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	permite	permitir	VERB	VERB	_	0	root	_	TokenRange=8:15
+3	terceirizacao	_	NOUN	NOUN	_	2	obj	_	TokenRange=16:29
+4	irrestrita	irrestrito	ADJ	ADJ	_	5	amod	_	TokenRange=30:40
+5	empresas	empresa	NOUN	NOUN	_	2	obj	_	TokenRange=41:49
+6	privadas	privado	ADJ	ADJ	_	5	amod	_	TokenRange=50:58
+7	servico	servico	NOUN	NOUN	_	5	appos	_	TokenRange=59:66
+8	publico	_	ADJ	ADJ	_	7	amod	_	TokenRange=67:74
+9	elaborado	elaborar	VERB	VERB	_	5	acl	_	TokenRange=75:84
+10	19	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=85:87
+11	anos	ano	NOUN	NOUN	_	9	nmod	_	TokenRange=88:92
+12	aprovado	aprovar	VERB	VERB	_	5	acl	_	TokenRange=93:101
+13	camara	camara	NOUN	NOUN	_	12	nmod	_	TokenRange=102:108
+14	ultimo	_	ADJ	ADJ	_	15	amod	_	TokenRange=109:115
+15	dia	dia	NOUN	NOUN	_	13	appos	_	TokenRange=116:119
+16	22	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=120:122
+17	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=123:127
+18	cada	_	DET	DET	_	19	det	_	TokenRange=128:132
+19	deputado	deputado	NOUN	NOUN	_	22	nsubj	_	TokenRange=133:141
+20	votou	votar	VERB	VERB	_	22	parataxis	_	TokenRange=142:147
+21	pode	_	AUX	AUX	_	22	aux	_	TokenRange=148:152
+22	extinguir	extinguir	VERB	VERB	_	2	parataxis	_	TokenRange=153:162
+23	conquistas	conquista	NOUN	NOUN	_	22	obj	_	TokenRange=163:173
+24	milhares	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=174:182
+25	cidadaos	cidadao	NOUN	NOUN	_	22	obj	_	TokenRange=183:191
+26	deficiencia	deficiencio	ADJ	ADJ	_	25	amod	_	TokenRange=192:203
+27	conseguiram	conseguir	VERB	VERB	_	22	parataxis	_	TokenRange=204:215
+28	acesso	acesso	NOUN	NOUN	_	27	obj	_	TokenRange=216:222
+29	mercado	mercado	NOUN	NOUN	_	28	appos	_	TokenRange=223:230
+30	trabalho	trabalho	NOUN	NOUN	_	28	flat	_	TokenRange=231:239
+31	causa	causa	NOUN	NOUN	_	27	obj	_	TokenRange=240:245
+32	chamada	chamar	ADJ	ADJ	_	33	acl	_	TokenRange=246:253
+33	lei	lei	NOUN	NOUN	_	27	nsubj	_	TokenRange=254:257
+34	cotas	cota	NOUN	NOUN	_	33	flat	_	TokenRange=258:263
+35	n	n	NOUN	NOUN	_	33	appos	_	TokenRange=264:265
+36	8213/1991	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=266:275
+37	principal	principal	ADJ	ADJ	_	38	amod	_	TokenRange=276:285
+38	preocupacao	preocupacao	NOUN	NOUN	_	33	appos	_	TokenRange=286:297
+39	instituicoes	instituicoe	ADJ	ADJ	_	38	amod	_	TokenRange=298:310
+40	defendem	defender	VERB	VERB	_	38	acl:relcl	_	TokenRange=311:319
+41	direitos	direito	NOUN	NOUN	_	40	obj	_	TokenRange=320:328
+42	pessoas	pessoa	NOUN	NOUN	_	41	appos	_	TokenRange=329:336
+43	deficiencia	deficiencio	ADJ	ADJ	_	42	amod	_	TokenRange=337:348
+44	parlamentares	parlamentar	NOUN	NOUN	_	45	nsubj	_	TokenRange=349:362
+45	apoiam	apoiar	VERB	VERB	_	2	parataxis	_	TokenRange=363:369
+46	causa	causa	NOUN	NOUN	_	45	obj	_	TokenRange=370:375
+47	fracionamento	fracionamento	ADJ	ADJ	_	46	amod	_	TokenRange=376:389
+48	numero	_	NOUN	NOUN	_	46	appos	_	TokenRange=390:396
+49	oficial	oficial	ADJ	ADJ	_	48	amod	_	TokenRange=397:404
+50	postos	posto	NOUN	NOUN	_	46	nmod	_	TokenRange=405:411
+51	trabalho	trabalho	NOUN	NOUN	_	48	flat	_	TokenRange=412:420
+52	mantendo	manter	VERB	VERB	_	48	acl	_	TokenRange=421:429
+53	quantidade	quantidade	NOUN	NOUN	_	52	obj	_	TokenRange=430:440
+54	abaixo	abaixo	ADV	ADV	_	55	advmod	_	TokenRange=441:447
+55	exigido	exigir	VERB	VERB	_	56	acl	_	TokenRange=448:455
+56	lei	lei	NOUN	NOUN	_	52	nsubj	_	TokenRange=456:459
+57	cotas	cota	ADJ	ADJ	_	56	amod	_	TokenRange=460:465
+58	determina	determinar	VERB	VERB	_	45	parataxis	_	TokenRange=466:475
+59	contratacao	contratacao	NOUN	NOUN	_	58	obj	_	TokenRange=476:487
+60	1	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=488:489
+61	5	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=490:491
+62	funcionarios	funcionario	NOUN	NOUN	_	58	obj	_	TokenRange=492:504
+63	deficiencia	deficiencio	ADJ	ADJ	_	62	amod	_	TokenRange=505:516
+64	empresas	empresa	NOUN	NOUN	_	58	obj	_	TokenRange=517:525
+65	quadro	quadro	NOUN	NOUN	_	64	appos	_	TokenRange=526:532
+66	partir	partir	VERB	VERB	_	64	acl:inf	_	TokenRange=533:539
+67	100	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=540:543
+68	empregados	empregado	NOUN	NOUN	_	66	obj	_	SpaceAfter=No|TokenRange=544:554
+

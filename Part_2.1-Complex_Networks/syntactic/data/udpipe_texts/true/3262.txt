@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = massacres geram efeito imitacao atiradores querem fama diz psicologo americano estatisticas indicam 2018 aconteceram menos seis incidentes estudantes professores alvos ataques eua segundo especialista massacres desse tipo peter langman motivo multiplicacao pode estar efeito contagio debate sobre fenomeno americano massacres escolas poucos consensos episodios tornando cada vez comuns apesar estatisticas divergentes dificuldades calcular numero exato casos vitimas
+1	massacres	massacre	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	geram	gerar	VERB	VERB	_	0	root	_	TokenRange=10:15
+3	efeito	efeito	NOUN	NOUN	_	2	obj	_	TokenRange=16:22
+4	imitacao	imitacao	ADJ	ADJ	_	3	amod	_	TokenRange=23:31
+5	atiradores	atirador	NOUN	NOUN	_	6	nsubj	_	TokenRange=32:42
+6	querem	querer	VERB	VERB	_	2	parataxis	_	TokenRange=43:49
+7	fama	fama	NOUN	NOUN	_	6	obj	_	TokenRange=50:54
+8	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=55:58
+9	psicologo	psicologo	NOUN	NOUN	_	8	nsubj	_	TokenRange=59:68
+10	americano	americano	ADJ	ADJ	_	9	amod	_	TokenRange=69:78
+11	estatisticas	estatistico	NOUN	NOUN	_	9	amod	_	TokenRange=79:91
+12	indicam	indicar	VERB	VERB	_	9	acl:relcl	_	TokenRange=92:99
+13	2018	_	NUM	NUM	NumType=Card	14	nsubj	_	TokenRange=100:104
+14	aconteceram	acontecer	VERB	VERB	_	12	ccomp	_	TokenRange=105:116
+15	menos	menos	ADV	ADV	_	16	advmod	_	TokenRange=117:122
+16	seis	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=123:127
+17	incidentes	incidente	NOUN	NOUN	_	14	nsubj	_	TokenRange=128:138
+18	estudantes	estudante	NOUN	NOUN	_	17	appos	_	TokenRange=139:149
+19	professores	professor	NOUN	NOUN	_	17	appos	_	TokenRange=150:161
+20	alvos	alvo	ADJ	ADJ	_	19	amod	_	TokenRange=162:167
+21	ataques	ataque	NOUN	NOUN	_	17	appos	_	TokenRange=168:175
+22	eua	_	PRON	NOUN	_	21	appos	_	TokenRange=176:179
+23	segundo	_	ADP	ADP	_	24	case	_	TokenRange=180:187
+24	especialista	especialista	NOUN	NOUN	_	14	nmod	_	TokenRange=188:200
+25	massacres	massacre	NOUN	NOUN	_	24	appos	_	TokenRange=201:210
+26	desse	_	ADP	ADP	_	27	case	_	TokenRange=211:216
+27	tipo	tipo	NOUN	NOUN	_	25	nmod	_	TokenRange=217:221
+28	peter	peter	NOUN	NOUN	_	25	appos	_	TokenRange=222:227
+29	langman	langman	NOUN	NOUN	_	28	flat	_	TokenRange=228:235
+30	motivo	motivo	NOUN	NOUN	_	28	appos	_	TokenRange=236:242
+31	multiplicacao	_	ADJ	ADJ	_	30	amod	_	TokenRange=243:256
+32	pode	_	AUX	AUX	_	34	aux	_	TokenRange=257:261
+33	estar	estar	AUX	AUX	_	34	cop	_	TokenRange=262:267
+34	efeito	efeito	NOUN	NOUN	_	14	parataxis	_	TokenRange=268:274
+35	contagio	contagio	ADJ	ADJ	_	34	flat	_	TokenRange=275:283
+36	debate	debate	NOUN	NOUN	_	34	appos	_	TokenRange=284:290
+37	sobre	_	ADP	ADP	_	38	case	_	TokenRange=291:296
+38	fenomeno	fenomeno	NOUN	NOUN	_	36	nmod	_	TokenRange=297:305
+39	americano	americano	ADJ	ADJ	_	38	amod	_	TokenRange=306:315
+40	massacres	massacre	NOUN	NOUN	_	43	appos	_	TokenRange=316:325
+41	escolas	escola	NOUN	NOUN	_	38	appos	_	TokenRange=326:333
+42	poucos	_	DET	DET	_	43	det	_	TokenRange=334:340
+43	consensos	consenso	NOUN	NOUN	_	34	nsubj	_	TokenRange=341:350
+44	episodios	episodio	NOUN	NOUN	_	43	appos	_	TokenRange=351:360
+45	tornando	tornar	VERB	VERB	_	43	acl	_	TokenRange=361:369
+46	cada	_	DET	DET	_	47	det	_	TokenRange=370:374
+47	vez	vez	NOUN	NOUN	_	48	nmod	_	TokenRange=375:378
+48	comuns	comum	ADJ	ADJ	_	45	xcomp	_	TokenRange=379:385
+49	apesar	apesar	ADV	ADV	_	45	advmod	_	TokenRange=386:392
+50	estatisticas	_	NOUN	NOUN	_	45	nmod	_	TokenRange=393:405
+51	divergentes	divergente	ADJ	ADJ	_	52	amod	_	TokenRange=406:417
+52	dificuldades	dificuldade	NOUN	NOUN	_	45	nsubj	_	TokenRange=418:430
+53	calcular	calcular	VERB	VERB	_	52	acl:inf	_	TokenRange=431:439
+54	numero	numero	NOUN	NOUN	_	53	obj	_	TokenRange=440:446
+55	exato	exato	ADJ	ADJ	_	56	amod	_	TokenRange=447:452
+56	casos	caso	NOUN	NOUN	_	53	obj	_	TokenRange=453:458
+57	vitimas	_	ADJ	ADJ	_	56	amod	_	SpaceAfter=No|TokenRange=459:466
+

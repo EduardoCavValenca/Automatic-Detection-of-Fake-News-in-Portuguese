@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = melhor escolha richard linklater estreias semana longa narra historia tres amigos reunem buscar corpo filho morto iraque veja chega telonas melhor escolha bom muitos anos terem lutado vietna tres amigos voltam reencontrar circunstancia festiva filho morto iraque larry doc shepherd steve carell
+1	melhor	melhor	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	escolha	escolha	NOUN	NOUN	_	8	nsubj	_	TokenRange=7:14
+3	richard	_	NOUN	NOUN	_	2	appos	_	TokenRange=15:22
+4	linklater	_	NOUN	NOUN	_	3	flat	_	TokenRange=23:32
+5	estreias	estreia	NOUN	NOUN	_	2	appos	_	TokenRange=33:41
+6	semana	semana	NOUN	NOUN	_	2	appos	_	TokenRange=42:48
+7	longa	longo	ADJ	ADJ	_	6	amod	_	TokenRange=49:54
+8	narra	narrar	VERB	VERB	_	0	root	_	TokenRange=55:60
+9	historia	historia	NOUN	NOUN	_	8	obj	_	TokenRange=61:69
+10	tres	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=70:74
+11	amigos	amigo	NOUN	NOUN	_	12	nsubj	_	TokenRange=75:81
+12	reunem	_	VERB	VERB	_	8	ccomp	_	TokenRange=82:88
+13	buscar	buscar	VERB	VERB	_	12	xcomp	_	TokenRange=89:95
+14	corpo	corpo	NOUN	NOUN	_	13	obj	_	TokenRange=96:101
+15	filho	filho	NOUN	NOUN	_	14	appos	_	TokenRange=102:107
+16	morto	morto	ADJ	ADJ	_	15	amod	_	TokenRange=108:113
+17	iraque	iraque	NOUN	NOUN	_	15	appos	_	TokenRange=114:120
+18	veja	ver	AUX	NOUN	_	19	aux	_	TokenRange=121:125
+19	chega	chegar	VERB	VERB	_	12	parataxis	_	TokenRange=126:131
+20	telonas	telona	NOUN	NOUN	_	19	nsubj	_	TokenRange=132:139
+21	melhor	melhor	ADJ	ADJ	_	22	amod	_	TokenRange=140:146
+22	escolha	escolha	NOUN	NOUN	_	19	nsubj	_	TokenRange=147:154
+23	bom	bom	ADJ	ADJ	_	22	amod	_	TokenRange=155:158
+24	muitos	_	DET	DET	_	25	det	_	TokenRange=159:165
+25	anos	ano	NOUN	NOUN	_	27	nsubj	_	TokenRange=166:170
+26	terem	ter	AUX	AUX	_	27	aux	_	TokenRange=171:176
+27	lutado	lutar	VERB	VERB	_	12	conj	_	TokenRange=177:183
+28	vietna	vietna	NOUN	NOUN	_	27	obj	_	TokenRange=184:190
+29	tres	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=191:195
+30	amigos	amigo	NOUN	NOUN	_	27	nsubj	_	TokenRange=196:202
+31	voltam	voltar	VERB	VERB	_	27	parataxis	_	TokenRange=203:209
+32	reencontrar	reencontrar	VERB	VERB	_	31	xcomp	_	TokenRange=210:221
+33	circunstancia	circunstancia	NOUN	NOUN	_	32	obj	_	TokenRange=222:235
+34	festiva	festivo	ADJ	ADJ	_	33	amod	_	TokenRange=236:243
+35	filho	filho	NOUN	NOUN	_	33	appos	_	TokenRange=244:249
+36	morto	morto	ADJ	ADJ	_	35	amod	_	TokenRange=250:255
+37	iraque	iraque	ADJ	NOUN	_	35	amod	_	TokenRange=256:262
+38	larry	_	NOUN	NOUN	_	35	appos	_	TokenRange=263:268
+39	doc	_	PROPN	NOUN	_	41	appos	_	TokenRange=269:272
+40	shepherd	_	NOUN	NOUN	_	41	flat	_	TokenRange=273:281
+41	steve	_	PROPN	PNOUN	_	32	parataxis	_	TokenRange=282:287
+42	carell	_	NOUN	NOUN	_	41	flat	_	SpaceAfter=No|TokenRange=288:294
+

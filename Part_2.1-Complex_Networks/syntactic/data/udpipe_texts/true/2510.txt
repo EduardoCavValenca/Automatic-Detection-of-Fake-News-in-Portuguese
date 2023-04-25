@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aviacao mundo parte diz unica mulher pilotar helicoptero aguia oeste paulista tenente mayara segunda oficial policia militar assumir funcao estado paulo fala exclusividade g1 sobre experiencia dois mundos uniram proposito ajudar despertam admiracao observa policia militar grupamento radiopatrulha aerea grpae chamado rotineiramente apenas aguia juntos servem protegem populacao uniao trouxe oeste paulista segunda mulher funcao piloto pm estado paulo
+1	aviacao	aviacao	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	mundo	mundo	NOUN	NOUN	_	1	flat	_	TokenRange=8:13
+3	parte	parte	NOUN	NOUN	_	1	appos	_	TokenRange=14:19
+4	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=20:23
+5	unica	unico	ADJ	ADJ	_	6	amod	_	TokenRange=24:29
+6	mulher	mulher	NOUN	NOUN	_	4	nsubj	_	TokenRange=30:36
+7	pilotar	pilotar	VERB	VERB	_	4	ccomp	_	TokenRange=37:44
+8	helicoptero	helicoptero	NOUN	NOUN	_	7	obj	_	TokenRange=45:56
+9	aguia	aguia	NOUN	NOUN	_	7	obj	_	TokenRange=57:62
+10	oeste	oeste	NOUN	NOUN	_	9	appos	_	TokenRange=63:68
+11	paulista	paulista	ADJ	ADJ	_	12	amod	_	TokenRange=69:77
+12	tenente	tenente	NOUN	NOUN	_	7	nsubj	_	TokenRange=78:85
+13	mayara	mayar	NOUN	NOUN	_	12	appos	_	TokenRange=86:92
+14	segunda	segundo	ADJ	ADJ	_	16	amod	_	TokenRange=93:100
+15	oficial	oficial	ADJ	ADJ	_	16	amod	_	TokenRange=101:108
+16	policia	policia	NOUN	NOUN	_	12	appos	_	TokenRange=109:116
+17	militar	militar	ADJ	ADJ	_	16	amod	_	TokenRange=117:124
+18	assumir	assumir	VERB	VERB	_	12	acl:relcl	_	TokenRange=125:132
+19	funcao	funcao	NOUN	NOUN	_	18	obj	_	TokenRange=133:139
+20	estado	estado	NOUN	NOUN	_	19	appos	_	TokenRange=140:146
+21	paulo	paulo	ADJ	ADJ	_	20	flat	_	TokenRange=147:152
+22	fala	_	VERB	VERB	_	4	parataxis	_	TokenRange=153:157
+23	exclusividade	exclusividade	NOUN	NOUN	_	22	obj	_	TokenRange=158:171
+24	g1	_	NUM	NUM	_	23	appos	_	TokenRange=172:174
+25	sobre	_	ADP	ADP	_	26	case	_	TokenRange=175:180
+26	experiencia	experiencia	NOUN	NOUN	_	29	nmod	_	TokenRange=181:192
+27	dois	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=193:197
+28	mundos	mundo	NOUN	NOUN	_	29	nsubj	_	TokenRange=198:204
+29	uniram	unir	VERB	VERB	_	23	acl:relcl	_	TokenRange=205:211
+30	proposito	proposito	NOUN	NOUN	_	29	obj	_	TokenRange=212:221
+31	ajudar	ajudar	VERB	VERB	_	29	xcomp	_	TokenRange=222:228
+32	despertam	despertar	VERB	VERB	_	29	parataxis	_	TokenRange=229:238
+33	admiracao	admiracao	NOUN	NOUN	_	32	obj	_	TokenRange=239:248
+34	observa	observar	VERB	VERB	_	29	parataxis	_	TokenRange=249:256
+35	policia	policia	NOUN	NOUN	_	29	nsubj	_	TokenRange=257:264
+36	militar	militar	ADJ	ADJ	_	35	amod	_	TokenRange=265:272
+37	grupamento	grupamento	NOUN	NOUN	_	35	appos	_	TokenRange=273:283
+38	radiopatrulha	radiopatrulha	NOUN	NOUN	_	35	appos	_	TokenRange=284:297
+39	aerea	aereo	ADJ	ADJ	_	38	amod	_	TokenRange=298:303
+40	grpae	grpae	NOUN	NOUN	_	38	appos	_	TokenRange=304:309
+41	chamado	chamar	VERB	VERB	_	38	acl	_	TokenRange=310:317
+42	rotineiramente	rotineiramente	ADV	ADV	_	41	advmod	_	TokenRange=318:332
+43	apenas	apenas	ADV	ADV	_	44	advmod	_	TokenRange=333:339
+44	aguia	aguia	NOUN	NOUN	_	41	nsubj	_	TokenRange=340:345
+45	juntos	junto	ADJ	ADJ	_	44	amod	_	TokenRange=346:352
+46	servem	servir	VERB	VERB	_	44	acl:relcl	_	TokenRange=353:359
+47	protegem	proteger	VERB	VERB	_	41	conj	_	TokenRange=360:368
+48	populacao	populacao	NOUN	NOUN	_	47	obj	_	TokenRange=369:378
+49	uniao	uniao	ADJ	ADJ	_	48	amod	_	TokenRange=379:384
+50	trouxe	trazer	VERB	VERB	_	47	parataxis	_	TokenRange=385:391
+51	oeste	oeste	NOUN	NOUN	_	50	obj	_	TokenRange=392:397
+52	paulista	paulista	ADJ	ADJ	_	51	amod	_	TokenRange=398:406
+53	segunda	segundo	ADJ	ADJ	_	54	amod	_	TokenRange=407:414
+54	mulher	mulher	NOUN	NOUN	_	50	nsubj	_	TokenRange=415:421
+55	funcao	funcao	ADJ	ADJ	_	54	amod	_	TokenRange=422:428
+56	piloto	piloto	NOUN	NOUN	_	51	appos	_	TokenRange=429:435
+57	pm	pm	ADP	ADP	_	58	case	_	TokenRange=436:438
+58	estado	estado	NOUN	NOUN	_	54	nmod	_	TokenRange=439:445
+59	paulo	paulo	ADJ	ADJ	_	58	amod	_	SpaceAfter=No|TokenRange=446:451
+

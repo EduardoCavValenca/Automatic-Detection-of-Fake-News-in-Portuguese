@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = oi entrega plano recuperacao justica proposta analisada credores dia 23 outubro nova convocacao 27 novembro aprovacao decretada falencia empresa operadora telecomunicacoes oi entregou nesta quartafeira 11 plano recuperacao justica rio janeiro propondo limite 25 conversao divida acoes bem abaixo pretendido donos titulos companhia documento entregue 7 vara justica rio janeiro plano sido aprovado semana passada conselho administracao companhia preve aportes menos r 9 bilhoes companhia proposta devera analisada milhares credores reunidos assembleia marcada 23 outubro segunda convocacao prevista 27 novembro aprovacao falencia empresa podera decretada
+1	oi	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:2
+2	entrega	entregar	NOUN	NOUN	_	0	root	_	TokenRange=3:10
+3	plano	plano	NOUN	NOUN	_	2	obj	_	TokenRange=11:16
+4	recuperacao	recuperacao	ADJ	ADJ	_	3	amod	_	TokenRange=17:28
+5	justica	_	ADJ	ADJ	_	3	amod	_	TokenRange=29:36
+6	proposta	_	NOUN	NOUN	_	3	appos	_	TokenRange=37:45
+7	analisada	analisar	VERB	VERB	_	3	acl	_	TokenRange=46:55
+8	credores	credor	NOUN	NOUN	_	3	appos	_	TokenRange=56:64
+9	dia	dia	NOUN	NOUN	_	2	nmod	_	TokenRange=65:68
+10	23	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=69:71
+11	outubro	_	PROPN	PNOUN	_	9	nmod	_	TokenRange=72:79
+12	nova	novo	ADJ	ADJ	_	13	amod	_	TokenRange=80:84
+13	convocacao	convocacao	NOUN	NOUN	_	9	appos	_	TokenRange=85:95
+14	27	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=96:98
+15	novembro	_	PROPN	PNOUN	_	13	appos	_	TokenRange=99:107
+16	aprovacao	aprovacao	NOUN	NOUN	_	13	appos	_	TokenRange=108:117
+17	decretada	decretar	VERB	VERB	_	13	acl	_	TokenRange=118:127
+18	falencia	falencio	ADJ	NOUN	_	17	obj	_	TokenRange=128:136
+19	empresa	empresa	NOUN	NOUN	_	23	obj	_	TokenRange=137:144
+20	operadora	operador	ADJ	ADJ	_	19	amod	_	TokenRange=145:154
+21	telecomunicacoes	_	NOUN	NOUN	_	19	appos	_	TokenRange=155:171
+22	oi	_	PRON	PRON	_	23	nsubj	_	TokenRange=172:174
+23	entregou	entregar	VERB	VERB	_	2	parataxis	_	TokenRange=175:183
+24	nesta	_	ADP	ADP	_	25	case	_	TokenRange=184:189
+25	quartafeira	_	NOUN	NOUN	_	23	nmod	_	TokenRange=190:201
+26	11	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=202:204
+27	plano	plano	NOUN	NOUN	_	23	obj	_	TokenRange=205:210
+28	recuperacao	recuperacao	ADJ	ADJ	_	27	amod	_	TokenRange=211:222
+29	justica	_	ADJ	ADJ	_	27	amod	_	TokenRange=223:230
+30	rio	_	NOUN	PNOUN	_	27	appos	_	TokenRange=231:234
+31	janeiro	_	PROPN	PNOUN	_	30	flat	_	TokenRange=235:242
+32	propondo	propor	VERB	VERB	_	27	acl	_	TokenRange=243:251
+33	limite	limite	NOUN	NOUN	_	32	obj	_	TokenRange=252:258
+34	25	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=259:261
+35	conversao	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=262:271
+36	divida	dividir	VERB	VERB	_	23	parataxis	_	TokenRange=272:278
+37	acoes	acoe	NOUN	NOUN	_	36	obj	_	TokenRange=279:284
+38	bem	bem	ADV	ADV	_	39	advmod	_	TokenRange=285:288
+39	abaixo	abaixo	ADV	ADV	_	40	advmod	_	TokenRange=289:295
+40	pretendido	pretender	VERB	VERB	_	37	acl	_	TokenRange=296:306
+41	donos	dono	NOUN	NOUN	_	40	obj	_	TokenRange=307:312
+42	titulos	titulo	NOUN	NOUN	_	41	flat	_	TokenRange=313:320
+43	companhia	companhia	NOUN	NOUN	_	44	appos	_	TokenRange=321:330
+44	documento	documento	NOUN	NOUN	_	36	nsubj	_	TokenRange=331:340
+45	entregue	entregar	VERB	VERB	_	44	acl	_	TokenRange=341:349
+46	7	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=350:351
+47	vara	vara	NOUN	NOUN	_	45	obj	_	TokenRange=352:356
+48	justica	_	NOUN	NOUN	_	47	amod	_	TokenRange=357:364
+49	rio	_	NOUN	NOUN	_	47	appos	_	TokenRange=365:368
+50	janeiro	_	PROPN	PNOUN	_	49	amod	_	TokenRange=369:376
+51	plano	plano	NOUN	NOUN	_	53	nsubj:pass	_	TokenRange=377:382
+52	sido	ser	AUX	AUX	_	53	aux:pass	_	TokenRange=383:387
+53	aprovado	aprovar	VERB	VERB	_	47	acl	_	TokenRange=388:396
+54	semana	semana	NOUN	NOUN	_	53	nmod	_	TokenRange=397:403
+55	passada	passado	ADJ	ADJ	_	54	amod	_	TokenRange=404:411
+56	conselho	conselho	NOUN	NOUN	_	59	nsubj	_	TokenRange=412:420
+57	administracao	administracao	ADJ	ADJ	_	56	amod	_	TokenRange=421:434
+58	companhia	companhia	NOUN	NOUN	_	59	nsubj	_	TokenRange=435:444
+59	preve	prever	VERB	VERB	_	2	parataxis	_	TokenRange=445:450
+60	aportes	aporte	NOUN	NOUN	_	59	obj	_	TokenRange=451:458
+61	menos	menos	ADV	ADV	_	64	advmod	_	TokenRange=459:464
+62	r	r	NOUN	NOUN	_	60	appos	_	TokenRange=465:466
+63	9	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=467:468
+64	bilhoes	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=469:476
+65	companhia	companhia	NOUN	NOUN	_	59	nsubj	_	TokenRange=477:486
+66	proposta	_	ADJ	ADJ	_	65	amod	_	TokenRange=487:495
+67	devera	dever	AUX	AUX	_	68	aux	_	TokenRange=496:502
+68	analisada	analisar	VERB	VERB	_	59	parataxis	_	TokenRange=503:512
+69	milhares	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=513:521
+70	credores	credor	NOUN	NOUN	_	68	obj	_	TokenRange=522:530
+71	reunidos	reunido	ADJ	ADJ	_	70	amod	_	TokenRange=531:539
+72	assembleia	assembleia	NOUN	NOUN	_	70	appos	_	TokenRange=540:550
+73	marcada	marcar	VERB	VERB	_	72	acl	_	TokenRange=551:558
+74	23	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=559:561
+75	outubro	_	PROPN	PNOUN	_	73	nmod	_	TokenRange=562:569
+76	segunda	segundo	ADJ	ADJ	_	77	amod	_	TokenRange=570:577
+77	convocacao	convocacao	NOUN	NOUN	_	72	appos	_	TokenRange=578:588
+78	prevista	prever	VERB	VERB	_	77	acl	_	TokenRange=589:597
+79	27	_	NUM	NUM	NumType=Card	80	nummod	_	TokenRange=598:600
+80	novembro	_	PROPN	PNOUN	_	78	nmod	_	TokenRange=601:609
+81	aprovacao	aprovacao	NOUN	NOUN	_	85	nsubj:pass	_	TokenRange=610:619
+82	falencia	falencio	ADJ	ADJ	_	85	xcomp	_	TokenRange=620:628
+83	empresa	empresa	NOUN	NOUN	_	85	nsubj:pass	_	TokenRange=629:636
+84	podera	poder	AUX	AUX	_	85	aux	_	TokenRange=637:643
+85	decretada	decretar	VERB	VERB	_	68	conj	_	SpaceAfter=No|TokenRange=644:653
+

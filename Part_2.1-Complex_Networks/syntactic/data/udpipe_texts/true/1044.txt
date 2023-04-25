@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moto himalaia rodar topo mundo g1 andou 1000 km regiao ladakh india 5 mil metros altitude caminho belas paisagens roteiro lado precipicios 2 maior populacao planeta economia emergente cresce india miscelanea culturas etnias
+1	moto	moto	NOUN	NOUN	_	29	nsubj	_	TokenRange=0:4
+2	himalaia	himalaia	NOUN	NOUN	_	1	flat	_	TokenRange=5:13
+3	rodar	rodar	VERB	VERB	_	1	acl	_	TokenRange=14:19
+4	topo	topo	NOUN	NOUN	_	3	obj	_	TokenRange=20:24
+5	mundo	mundo	NOUN	NOUN	_	4	flat	_	TokenRange=25:30
+6	g1	_	NUM	NUM	_	4	appos	_	TokenRange=31:33
+7	andou	andar	VERB	VERB	_	3	parataxis	_	TokenRange=34:39
+8	1000	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=40:44
+9	km	km	NOUN	NOUN	_	7	obj	_	TokenRange=45:47
+10	regiao	regiao	NOUN	NOUN	_	9	appos	_	TokenRange=48:54
+11	ladakh	_	NOUN	NOUN	_	10	flat	_	TokenRange=55:61
+12	india	india	NOUN	NOUN	_	15	appos	_	TokenRange=62:67
+13	5	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=68:69
+14	mil	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=70:73
+15	metros	metro	NOUN	NOUN	_	7	appos	_	TokenRange=74:80
+16	altitude	altitude	NOUN	NOUN	_	15	appos	_	TokenRange=81:89
+17	caminho	caminho	NOUN	NOUN	_	15	appos	_	TokenRange=90:97
+18	belas	belo	ADJ	ADJ	_	19	amod	_	TokenRange=98:103
+19	paisagens	paisagem	NOUN	NOUN	_	17	appos	_	TokenRange=104:113
+20	roteiro	roteiro	NOUN	NOUN	_	19	appos	_	TokenRange=114:121
+21	lado	lado	NOUN	NOUN	_	20	appos	_	TokenRange=122:126
+22	precipicios	_	NOUN	NOUN	_	21	flat	_	TokenRange=127:138
+23	2	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=139:140
+24	maior	maior	ADJ	ADJ	_	25	amod	_	TokenRange=141:146
+25	populacao	populacao	NOUN	NOUN	_	21	appos	_	TokenRange=147:156
+26	planeta	planeta	ADJ	ADJ	_	25	amod	_	TokenRange=157:164
+27	economia	economia	NOUN	NOUN	_	25	appos	_	TokenRange=165:173
+28	emergente	emergente	ADJ	ADJ	_	27	amod	_	TokenRange=174:183
+29	cresce	crescer	VERB	VERB	_	0	root	_	TokenRange=184:190
+30	india	india	NOUN	NOUN	_	29	obj	_	TokenRange=191:196
+31	miscelanea	miscelaneo	ADJ	ADJ	_	32	amod	_	TokenRange=197:207
+32	culturas	cultura	NOUN	NOUN	_	29	nsubj	_	TokenRange=208:216
+33	etnias	etnio	ADJ	ADJ	_	32	amod	_	SpaceAfter=No|TokenRange=217:223
+

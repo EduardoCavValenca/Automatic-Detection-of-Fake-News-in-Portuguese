@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trf4 nega recurso defesa lula sobre condenacao segunda instancia processo triplex decisao proprio trf4 lula pode preso comecar cumprir pena acabarem recursos tribunal porem decisao provisoria stf impede prisao plenario corte julgue pedido habeas corpus recurso apresentado defesa expresidente luiz inacio lula silva contra decisao tribunal regional federal 4 regiao trf4 processo triplex guaruja sp negado unanimidade julgamento realizado nesta segundafeira 26 nota divulgada apos julgamento defesa expresidente
+1	trf4	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	recurso	recurso	NOUN	NOUN	_	2	obj	_	TokenRange=10:17
+4	defesa	_	NOUN	NOUN	_	3	amod	_	TokenRange=18:24
+5	lula	lula	NOUN	NOUN	_	3	appos	_	TokenRange=25:29
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=30:35
+7	condenacao	_	NOUN	NOUN	_	2	nmod	_	TokenRange=36:46
+8	segunda	segundo	ADJ	ADJ	_	9	amod	_	TokenRange=47:54
+9	instancia	instancia	NOUN	NOUN	_	7	appos	_	TokenRange=55:64
+10	processo	processo	NOUN	NOUN	_	2	appos	_	TokenRange=65:73
+11	triplex	_	ADJ	ADJ	_	12	amod	_	TokenRange=74:81
+12	decisao	decisao	NOUN	NOUN	_	10	appos	_	TokenRange=82:89
+13	proprio	proprio	ADJ	ADJ	_	12	amod	_	TokenRange=90:97
+14	trf4	_	NOUN	NOUN	_	17	nsubj:pass	_	TokenRange=98:102
+15	lula	_	NOUN	NOUN	_	17	nsubj:pass	_	TokenRange=103:107
+16	pode	_	AUX	AUX	_	17	aux	_	TokenRange=108:112
+17	preso	_	VERB	VERB	_	12	acl:relcl	_	TokenRange=113:118
+18	comecar	comecar	VERB	VERB	_	19	aux	_	TokenRange=119:126
+19	cumprir	cumprir	VERB	VERB	_	17	xcomp	_	TokenRange=127:134
+20	pena	_	NOUN	NOUN	_	19	obj	_	TokenRange=135:139
+21	acabarem	acabar	VERB	VERB	_	19	ccomp	_	TokenRange=140:148
+22	recursos	recurso	NOUN	NOUN	_	21	obj	_	TokenRange=149:157
+23	tribunal	tribunal	NOUN	NOUN	_	22	amod	_	TokenRange=158:166
+24	porem	_	ADP	ADP	_	25	case	_	TokenRange=167:172
+25	decisao	decisao	NOUN	NOUN	_	21	nmod	_	TokenRange=173:180
+26	provisoria	provisorio	ADJ	ADJ	_	25	amod	_	TokenRange=181:191
+27	stf	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=192:195
+28	impede	impedir	VERB	VERB	_	2	conj	_	TokenRange=196:202
+29	prisao	prisao	NOUN	NOUN	_	28	obj	_	TokenRange=203:209
+30	plenario	plenario	ADJ	ADJ	_	29	amod	_	TokenRange=210:218
+31	corte	corte	NOUN	NOUN	_	32	nsubj	_	TokenRange=219:224
+32	julgue	julgar	VERB	VERB	_	28	parataxis	_	TokenRange=225:231
+33	pedido	pedido	NOUN	NOUN	_	32	obj	_	TokenRange=232:238
+34	habeas	habeas	NOUN	NOUN	_	33	flat	_	TokenRange=239:245
+35	corpus	corpus	NOUN	NOUN	_	33	flat	_	TokenRange=246:252
+36	recurso	recurso	NOUN	NOUN	_	32	nsubj	_	TokenRange=253:260
+37	apresentado	apresentar	VERB	VERB	_	36	acl	_	TokenRange=261:272
+38	defesa	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=273:279
+39	expresidente	expresidente	NOUN	NOUN	_	38	amod	_	TokenRange=280:292
+40	luiz	luiz	ADJ	ADJ	_	38	appos	_	TokenRange=293:297
+41	inacio	_	NOUN	NOUN	_	40	flat	_	TokenRange=298:304
+42	lula	_	NOUN	NOUN	_	40	flat	_	TokenRange=305:309
+43	silva	silva	NOUN	ADJ	_	40	flat	_	TokenRange=310:315
+44	contra	_	ADP	ADP	_	45	case	_	TokenRange=316:322
+45	decisao	decisao	NOUN	NOUN	_	32	nmod	_	TokenRange=323:330
+46	tribunal	tribunal	NOUN	NOUN	_	45	appos	_	TokenRange=331:339
+47	regional	regional	ADJ	ADJ	_	46	amod	_	TokenRange=340:348
+48	federal	federal	ADJ	ADJ	_	46	amod	_	TokenRange=349:356
+49	4	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=357:358
+50	regiao	regiao	NOUN	NOUN	_	46	appos	_	TokenRange=359:365
+51	trf4	_	ADJ	ADJ	_	52	amod	_	TokenRange=366:370
+52	processo	processo	NOUN	NOUN	_	46	appos	_	TokenRange=371:379
+53	triplex	_	ADJ	ADJ	_	52	amod	_	TokenRange=380:387
+54	guaruja	guaruja	NOUN	NOUN	_	52	appos	_	TokenRange=388:395
+55	sp	_	ADJ	ADJ	_	54	amod	_	TokenRange=396:398
+56	negado	negar	VERB	VERB	_	2	conj	_	TokenRange=399:405
+57	unanimidade	unanimidade	NOUN	NOUN	_	56	obj	_	TokenRange=406:417
+58	julgamento	julgamento	NOUN	NOUN	_	57	appos	_	TokenRange=418:428
+59	realizado	realizar	VERB	VERB	_	58	acl	_	TokenRange=429:438
+60	nesta	_	ADP	ADP	_	61	case	_	TokenRange=439:444
+61	segundafeira	_	NOUN	NOUN	_	59	nmod	_	TokenRange=445:457
+62	26	_	NUM	NUM	NumType=Card	61	appos	_	TokenRange=458:460
+63	nota	nota	NOUN	NOUN	_	59	obj	_	TokenRange=461:465
+64	divulgada	divulgar	VERB	VERB	_	63	acl	_	TokenRange=466:475
+65	apos	_	ADP	ADP	_	66	case	_	TokenRange=476:480
+66	julgamento	julgamento	NOUN	NOUN	_	64	nmod	_	TokenRange=481:491
+67	defesa	_	NOUN	NOUN	_	66	appos	_	TokenRange=492:498
+68	expresidente	expresidente	NOUN	NOUN	_	66	appos	_	SpaceAfter=No|TokenRange=499:511
+

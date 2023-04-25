@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula ataca presidente trf4 bisneto assassino inacreditavel ainda bem video provar apos ameacado petistas presidente trf4 tribunal regional federal 4 regiao desembargador thompson flores sofrendo ataques verbais parte expresidente lula petista chegou dizer faz parte linhagem assassinos ver pouquinho historia cidadao bisneto general thompson flores invadiu canudos matou antonio conselheiro mesma linhagem disse expresidente partir 30 segundos video
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	ataca	atacar	VERB	VERB	_	0	root	_	TokenRange=5:10
+3	presidente	presidente	NOUN	NOUN	_	2	obj	_	TokenRange=11:21
+4	trf4	_	NOUN	NOUN	_	3	appos	_	TokenRange=22:26
+5	bisneto	bisneto	NOUN	NOUN	_	3	appos	_	TokenRange=27:34
+6	assassino	assassino	NOUN	NOUN	_	3	appos	_	TokenRange=35:44
+7	inacreditavel	inacreditavel	ADJ	ADJ	_	5	amod	_	TokenRange=45:58
+8	ainda	ainda	ADV	ADV	_	9	advmod	_	TokenRange=59:64
+9	bem	bem	ADV	ADV	_	11	advmod	_	TokenRange=65:68
+10	video	_	NOUN	NOUN	_	2	obj	_	TokenRange=69:74
+11	provar	provar	VERB	VERB	_	2	parataxis	_	TokenRange=75:81
+12	apos	_	ADP	ADP	_	13	mark	_	TokenRange=82:86
+13	ameacado	ameacado	VERB	VERB	_	11	nmod	_	TokenRange=87:95
+14	petistas	petista	NOUN	NOUN	_	13	nsubj	_	TokenRange=96:104
+15	presidente	presidente	NOUN	NOUN	_	14	appos	_	TokenRange=105:115
+16	trf4	_	ADJ	ADJ	_	17	amod	_	TokenRange=116:120
+17	tribunal	tribunal	NOUN	NOUN	_	15	appos	_	TokenRange=121:129
+18	regional	regional	ADJ	ADJ	_	17	amod	_	TokenRange=130:138
+19	federal	federal	ADJ	ADJ	_	17	amod	_	TokenRange=139:146
+20	4	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=147:148
+21	regiao	regiao	NOUN	NOUN	_	17	appos	_	TokenRange=149:155
+22	desembargador	desembargador	NOUN	NOUN	_	21	appos	_	TokenRange=156:169
+23	thompson	_	NOUN	NOUN	_	21	appos	_	TokenRange=170:178
+24	flores	flor	ADJ	NOUN	_	23	amod	_	TokenRange=179:185
+25	sofrendo	sofrer	VERB	VERB	_	21	acl	_	TokenRange=186:194
+26	ataques	ataque	NOUN	NOUN	_	25	obj	_	TokenRange=195:202
+27	verbais	verbal	ADJ	ADJ	_	26	amod	_	TokenRange=203:210
+28	parte	parte	NOUN	NOUN	_	26	appos	_	TokenRange=211:216
+29	expresidente	expresidente	NOUN	NOUN	_	28	appos	_	TokenRange=217:229
+30	lula	lula	ADJ	ADJ	_	29	amod	_	TokenRange=230:234
+31	petista	petista	NOUN	NOUN	_	33	nsubj	_	TokenRange=235:242
+32	chegou	chegar	AUX	AUX	_	33	aux	_	TokenRange=243:249
+33	dizer	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=250:255
+34	faz	fazer	VERB	VERB	_	33	xcomp	_	TokenRange=256:259
+35	parte	parte	NOUN	NOUN	_	34	obj	_	TokenRange=260:265
+36	linhagem	linhagem	NOUN	NOUN	_	35	appos	_	TokenRange=266:274
+37	assassinos	assassino	ADJ	ADJ	_	36	amod	_	TokenRange=275:285
+38	ver	ver	VERB	VERB	_	34	ccomp	_	TokenRange=286:289
+39	pouquinho	_	ADJ	ADJ	_	40	amod	_	TokenRange=290:299
+40	historia	historia	NOUN	NOUN	_	38	obj	_	TokenRange=300:308
+41	cidadao	cidadao	ADJ	ADJ	_	43	amod	_	TokenRange=309:316
+42	bisneto	bisneto	ADJ	ADJ	_	43	amod	_	TokenRange=317:324
+43	general	general	NOUN	NOUN	_	46	nsubj	_	TokenRange=325:332
+44	thompson	_	NOUN	NOUN	_	43	appos	_	TokenRange=333:341
+45	flores	flor	ADJ	ADJ	_	44	amod	_	TokenRange=342:348
+46	invadiu	invadir	VERB	VERB	_	2	parataxis	_	TokenRange=349:356
+47	canudos	canudo	NOUN	NOUN	_	46	obj	_	TokenRange=357:364
+48	matou	matar	VERB	VERB	_	46	parataxis	_	TokenRange=365:370
+49	antonio	antonio	NOUN	NOUN	_	48	obj	_	TokenRange=371:378
+50	conselheiro	conselheiro	ADJ	NOUN	_	49	flat	_	TokenRange=379:390
+51	mesma	mesmo	ADJ	ADJ	_	52	amod	_	TokenRange=391:396
+52	linhagem	linhagem	NOUN	NOUN	_	53	obj	_	TokenRange=397:405
+53	disse	dizer	VERB	VERB	_	46	parataxis	_	TokenRange=406:411
+54	expresidente	expresidente	NOUN	NOUN	_	53	nsubj	_	TokenRange=412:424
+55	partir	partir	VERB	VERB	_	53	ccomp	_	TokenRange=425:431
+56	30	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=432:434
+57	segundos	segundo	ADJ	ADJ	_	58	amod	_	TokenRange=435:443
+58	video	video	NOUN	NOUN	_	55	nmod	_	SpaceAfter=No|TokenRange=444:449
+

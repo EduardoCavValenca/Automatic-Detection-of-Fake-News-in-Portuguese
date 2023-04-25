@@ -1,0 +1,29 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mulher induz crianca roubar aparelho celular estabelecimento feira santana caso aconteceu dia 17 imagens divulgadas sabado 26 mulher ainda identificada induziu
+1	mulher	mulher	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	induz	induzir	VERB	VERB	_	21	ccomp	_	TokenRange=7:12
+3	crianca	_	NOUN	NOUN	_	2	obj	_	TokenRange=13:20
+4	roubar	roubar	VERB	VERB	_	2	xcomp	_	TokenRange=21:27
+5	aparelho	aparelho	NOUN	NOUN	_	4	obj	_	TokenRange=28:36
+6	celular	celular	ADJ	ADJ	_	5	amod	_	TokenRange=37:44
+7	estabelecimento	estabelecimento	NOUN	NOUN	_	5	appos	_	TokenRange=45:60
+8	feira	_	NOUN	NOUN	_	5	appos	_	TokenRange=61:66
+9	santana	santano	ADJ	ADJ	_	8	amod	_	TokenRange=67:74
+10	caso	caso	NOUN	NOUN	_	11	nsubj	_	TokenRange=75:79
+11	aconteceu	acontecer	VERB	VERB	_	2	conj	_	TokenRange=80:89
+12	dia	dia	NOUN	NOUN	_	11	nmod	_	TokenRange=90:93
+13	17	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=94:96
+14	imagens	imagem	NOUN	NOUN	_	11	nsubj	_	TokenRange=97:104
+15	divulgadas	divulgar	VERB	VERB	_	14	acl	_	TokenRange=105:115
+16	sabado	sabado	NOUN	NOUN	_	21	nmod	_	TokenRange=116:122
+17	26	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=123:125
+18	mulher	mulher	NOUN	NOUN	_	21	nsubj	_	TokenRange=126:132
+19	ainda	ainda	ADV	ADV	_	20	advmod	_	TokenRange=133:138
+20	identificada	identificar	VERB	VERB	_	18	acl	_	TokenRange=139:151
+21	induziu	induzir	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=152:159
+

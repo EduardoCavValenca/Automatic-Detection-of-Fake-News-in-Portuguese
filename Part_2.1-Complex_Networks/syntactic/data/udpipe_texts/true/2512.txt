@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pais tentam arrecadar dinheiro reformar escola evitar suspensao aulas encruzilhada sul meta alcancar r 30 mil problemas comecaram 17 dezembro ano passado vendaval arrancou parte telhado instituicao pais alunos escola estadual encruzilhada sul vale rio pardo interior rio grande sul organizaram vaquinha internet arrecadar dinheiro tentar recuperar estragos causados temporal ocorrido dezembro cidade objetivo arracadar r 30 mil evitar aulas suspensas instituicao devido precariedade predio saiba ajudar problemas
+1	pais	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	tentam	tentar	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	arrecadar	arrecadar	VERB	VERB	_	2	xcomp	_	TokenRange=12:21
+4	dinheiro	dinheiro	NOUN	NOUN	_	3	obj	_	TokenRange=22:30
+5	reformar	reformar	VERB	VERB	_	2	ccomp	_	TokenRange=31:39
+6	escola	escola	NOUN	NOUN	_	5	obj	_	TokenRange=40:46
+7	evitar	evitar	VERB	VERB	_	5	ccomp	_	TokenRange=47:53
+8	suspensao	suspensao	NOUN	NOUN	_	7	obj	_	TokenRange=54:63
+9	aulas	aula	NOUN	NOUN	_	7	obj	_	TokenRange=64:69
+10	encruzilhada	encruzilhada	ADJ	NOUN	_	9	amod	_	TokenRange=70:82
+11	sul	sul	ADJ	ADJ	_	12	amod	_	TokenRange=83:86
+12	meta	meta	NOUN	NOUN	_	2	nsubj	_	TokenRange=87:91
+13	alcancar	alcancar	VERB	VERB	_	12	acl:inf	_	TokenRange=92:100
+14	r	r	NOUN	NOUN	_	13	obj	_	TokenRange=101:102
+15	30	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=103:105
+16	mil	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=106:109
+17	problemas	problema	NOUN	NOUN	_	13	obj	_	TokenRange=110:119
+18	comecaram	comecar	VERB	VERB	_	13	parataxis	_	TokenRange=120:129
+19	17	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=130:132
+20	dezembro	_	PROPN	PNOUN	_	18	nmod	_	TokenRange=133:141
+21	ano	ano	NOUN	NOUN	_	18	nmod	_	TokenRange=142:145
+22	passado	passado	ADJ	ADJ	_	21	amod	_	TokenRange=146:153
+23	vendaval	vendaval	ADJ	ADJ	_	21	amod	_	TokenRange=154:162
+24	arrancou	arrancar	VERB	VERB	_	2	parataxis	_	TokenRange=163:171
+25	parte	parte	NOUN	NOUN	_	24	obj	_	TokenRange=172:177
+26	telhado	telhado	NOUN	NOUN	_	25	appos	_	TokenRange=178:185
+27	instituicao	instituicao	NOUN	NOUN	_	25	appos	_	TokenRange=186:197
+28	pais	_	NOUN	NOUN	_	27	flat	_	TokenRange=198:202
+29	alunos	aluno	NOUN	NOUN	_	30	appos	_	TokenRange=203:209
+30	escola	escola	NOUN	NOUN	_	27	appos	_	TokenRange=210:216
+31	estadual	estadual	ADJ	ADJ	_	30	amod	_	TokenRange=217:225
+32	encruzilhada	encruzilhado	ADJ	ADJ	_	30	amod	_	TokenRange=226:238
+33	sul	sul	ADJ	ADJ	_	30	amod	_	TokenRange=239:242
+34	vale	_	NOUN	NOUN	_	30	appos	_	TokenRange=243:247
+35	rio	rio	NOUN	NOUN	_	34	appos	_	TokenRange=248:251
+36	pardo	pardo	ADJ	ADJ	_	35	amod	_	TokenRange=252:257
+37	interior	interior	ADJ	ADJ	_	38	amod	_	TokenRange=258:266
+38	rio	rio	NOUN	NOUN	_	34	appos	_	TokenRange=267:270
+39	grande	grande	ADJ	ADJ	_	38	amod	_	TokenRange=271:277
+40	sul	sul	ADJ	ADJ	_	38	amod	_	TokenRange=278:281
+41	organizaram	organizar	VERB	VERB	_	2	parataxis	_	TokenRange=282:293
+42	vaquinha	_	NOUN	NOUN	_	41	obj	_	TokenRange=294:302
+43	internet	_	PROPN	PNOUN	_	42	appos	_	TokenRange=303:311
+44	arrecadar	arrecadar	VERB	VERB	_	42	acl:inf	_	TokenRange=312:321
+45	dinheiro	dinheiro	NOUN	NOUN	_	44	obj	_	TokenRange=322:330
+46	tentar	tentar	VERB	VERB	_	42	acl:inf	_	TokenRange=331:337
+47	recuperar	recuperar	VERB	VERB	_	46	xcomp	_	TokenRange=338:347
+48	estragos	estrago	NOUN	NOUN	_	47	obj	_	TokenRange=348:356
+49	causados	causar	VERB	VERB	_	48	acl	_	TokenRange=357:365
+50	temporal	temporal	NOUN	NOUN	_	49	nsubj	_	TokenRange=366:374
+51	ocorrido	ocorrer	VERB	VERB	_	48	acl	_	TokenRange=375:383
+52	dezembro	_	PROPN	PNOUN	_	49	nmod	_	TokenRange=384:392
+53	cidade	cidade	NOUN	NOUN	_	52	flat	_	TokenRange=393:399
+54	objetivo	objetivo	NOUN	NOUN	_	53	flat	_	TokenRange=400:408
+55	arracadar	arracadar	VERB	VERB	_	53	acl:inf	_	TokenRange=409:418
+56	r	r	NOUN	NOUN	_	55	obj	_	TokenRange=419:420
+57	30	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=421:423
+58	mil	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=424:427
+59	evitar	evitar	VERB	VERB	_	55	ccomp	_	TokenRange=428:434
+60	aulas	aula	NOUN	NOUN	_	59	obj	_	TokenRange=435:440
+61	suspensas	suspenso	ADJ	ADJ	_	60	amod	_	TokenRange=441:450
+62	instituicao	instituicao	NOUN	NOUN	_	59	nsubj	_	TokenRange=451:462
+63	devido	dever	VERB	VERB	_	67	mark	_	TokenRange=463:469
+64	precariedade	precariedade	NOUN	NOUN	_	67	nmod	_	TokenRange=470:482
+65	predio	predio	NOUN	NOUN	_	67	nsubj	_	TokenRange=483:489
+66	saiba	saber	NOUN	NOUN	_	64	flat	_	TokenRange=490:495
+67	ajudar	ajudar	VERB	VERB	_	55	ccomp	_	TokenRange=496:502
+68	problemas	problema	NOUN	NOUN	_	67	obj	_	SpaceAfter=No|TokenRange=503:512
+

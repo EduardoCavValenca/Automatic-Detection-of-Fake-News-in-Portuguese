@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = crise economica empresario demitiu 223 funcionarios aguenta pressao enforca caso chocando redes sociais ultima semana dono empresa sofas rio claro sp demitir 223 funcionarios empresario aguentou pressao dado cabo vida apos enfrentar grave crise economica venda sofas caido drasticamente fez homem tomasse atitude desesperada unicos funcionarios demitidos encontrou corpo patrao pendurado corda pericia policia civil informou causa morte acabou sendo quebra pescoco empresario demissao 223 funcionarios luizzi estofados chegou repercutir midia porque numero alto demissoes chamou atencao jornalistas
+1	crise	crise	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	economica	economico	ADJ	ADJ	_	1	amod	_	TokenRange=6:15
+3	empresario	empresario	NOUN	NOUN	_	1	appos	_	TokenRange=16:26
+4	demitiu	demitir	VERB	VERB	_	0	root	_	TokenRange=27:34
+5	223	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=35:38
+6	funcionarios	funcionario	NOUN	NOUN	_	4	obj	_	TokenRange=39:51
+7	aguenta	aguentar	ADJ	ADJ	_	4	xcomp	_	TokenRange=52:59
+8	pressao	pressao	NOUN	NOUN	_	7	obj	_	TokenRange=60:67
+9	enforca	_	VERB	VERB	_	4	parataxis	_	TokenRange=68:75
+10	caso	caso	NOUN	NOUN	_	9	obj	_	TokenRange=76:80
+11	chocando	chocar	VERB	VERB	_	4	acl	_	TokenRange=81:89
+12	redes	rede	NOUN	NOUN	_	11	obj	_	TokenRange=90:95
+13	sociais	social	ADJ	ADJ	_	12	amod	_	TokenRange=96:103
+14	ultima	_	ADJ	ADJ	_	15	amod	_	TokenRange=104:110
+15	semana	semana	NOUN	NOUN	_	4	nsubj	_	TokenRange=111:117
+16	dono	dono	ADJ	ADJ	_	17	amod	_	TokenRange=118:122
+17	empresa	empresa	NOUN	NOUN	_	4	nsubj	_	TokenRange=123:130
+18	sofas	sofa	NOUN	NOUN	_	17	amod	_	TokenRange=131:136
+19	rio	rio	NOUN	NOUN	_	17	appos	_	TokenRange=137:140
+20	claro	claro	ADJ	ADJ	_	19	amod	_	TokenRange=141:146
+21	sp	_	ADJ	ADJ	_	19	amod	_	TokenRange=147:149
+22	demitir	demitir	VERB	VERB	_	4	parataxis	_	TokenRange=150:157
+23	223	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=158:161
+24	funcionarios	funcionario	NOUN	NOUN	_	22	obj	_	TokenRange=162:174
+25	empresario	empresario	ADJ	ADJ	_	24	amod	_	TokenRange=175:185
+26	aguentou	aguentar	VERB	VERB	_	4	parataxis	_	TokenRange=186:194
+27	pressao	pressao	NOUN	NOUN	_	26	obj	_	TokenRange=195:202
+28	dado	dado	NOUN	NOUN	_	27	appos	_	TokenRange=203:207
+29	cabo	cabo	NOUN	NOUN	_	27	flat	_	TokenRange=208:212
+30	vida	vida	NOUN	NOUN	_	28	flat	_	TokenRange=213:217
+31	apos	_	ADP	ADP	_	32	mark	_	TokenRange=218:222
+32	enfrentar	enfrentar	VERB	VERB	_	26	advcl	_	TokenRange=223:232
+33	grave	grave	ADJ	ADJ	_	34	amod	_	TokenRange=233:238
+34	crise	crise	NOUN	NOUN	_	32	obj	_	TokenRange=239:244
+35	economica	economico	ADJ	ADJ	_	34	amod	_	TokenRange=245:254
+36	venda	venda	NOUN	NOUN	_	34	appos	_	TokenRange=255:260
+37	sofas	sofa	NOUN	NOUN	_	36	flat	_	TokenRange=261:266
+38	caido	caidar	VERB	VERB	_	36	acl	_	TokenRange=267:272
+39	drasticamente	drasticamente	ADV	ADV	_	40	advmod	_	TokenRange=273:286
+40	fez	fazer	VERB	VERB	_	26	parataxis	_	TokenRange=287:290
+41	homem	homem	NOUN	NOUN	_	40	obj	_	TokenRange=291:296
+42	tomasse	tomar	VERB	VERB	_	41	acl:inf	_	TokenRange=297:304
+43	atitude	atitude	NOUN	NOUN	_	42	obj	_	TokenRange=305:312
+44	desesperada	desesperado	ADJ	ADJ	_	43	amod	_	TokenRange=313:324
+45	unicos	unico	ADJ	ADJ	_	46	amod	_	TokenRange=325:331
+46	funcionarios	funcionario	NOUN	NOUN	_	40	nsubj	_	TokenRange=332:344
+47	demitidos	demitir	VERB	VERB	_	46	acl	_	TokenRange=345:354
+48	encontrou	encontrar	VERB	VERB	_	46	acl:relcl	_	TokenRange=355:364
+49	corpo	corpo	NOUN	NOUN	_	48	obj	_	TokenRange=365:370
+50	patrao	patrao	NOUN	NOUN	_	49	flat	_	TokenRange=371:377
+51	pendurado	pendurado	ADJ	ADJ	_	52	amod	_	TokenRange=378:387
+52	corda	corda	NOUN	NOUN	_	49	appos	_	TokenRange=388:393
+53	pericia	pericio	ADJ	ADJ	_	52	amod	_	TokenRange=394:401
+54	policia	policia	NOUN	NOUN	_	56	nsubj	_	TokenRange=402:409
+55	civil	civil	ADJ	ADJ	_	54	amod	_	TokenRange=410:415
+56	informou	informar	VERB	VERB	_	4	conj	_	TokenRange=416:424
+57	causa	causa	NOUN	NOUN	_	56	obj	_	TokenRange=425:430
+58	morte	morte	NOUN	NOUN	_	57	flat	_	TokenRange=431:436
+59	acabou	acabar	AUX	AUX	_	61	aux	_	TokenRange=437:443
+60	sendo	ser	AUX	AUX	_	61	aux:pass	_	TokenRange=444:449
+61	quebra	quebra	NOUN	NOUN	_	57	acl:relcl	_	TokenRange=450:456
+62	pescoco	pescoco	NOUN	NOUN	_	61	nsubj:pass	_	TokenRange=457:464
+63	empresario	empresario	ADJ	ADJ	_	62	amod	_	TokenRange=465:475
+64	demissao	demissao	ADJ	ADJ	_	62	amod	_	TokenRange=476:484
+65	223	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=485:488
+66	funcionarios	funcionario	NOUN	NOUN	_	69	nsubj	_	TokenRange=489:501
+67	luizzi	_	NOUN	NOUN	_	62	appos	_	TokenRange=502:508
+68	estofados	estofado	NOUN	NOUN	_	67	flat	_	TokenRange=509:518
+69	chegou	chegar	VERB	VERB	_	56	parataxis	_	TokenRange=519:525
+70	repercutir	repercutir	VERB	VERB	_	69	xcomp	_	TokenRange=526:536
+71	midia	midia	NOUN	NOUN	_	70	obj	_	TokenRange=537:542
+72	porque	_	CCONJ	CONJ	_	76	mark	_	TokenRange=543:549
+73	numero	_	NOUN	NOUN	_	75	amod	_	TokenRange=550:556
+74	alto	alto	ADJ	ADJ	_	75	amod	_	TokenRange=557:561
+75	demissoes	demissoe	NOUN	NOUN	_	76	nsubj	_	TokenRange=562:571
+76	chamou	chamar	VERB	VERB	_	69	advcl	_	TokenRange=572:578
+77	atencao	atencao	NOUN	NOUN	_	76	obj	_	TokenRange=579:586
+78	jornalistas	jornalista	NOUN	NOUN	_	77	amod	_	SpaceAfter=No|TokenRange=587:598
+

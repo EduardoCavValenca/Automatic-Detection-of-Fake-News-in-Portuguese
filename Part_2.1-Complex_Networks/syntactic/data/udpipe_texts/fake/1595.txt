@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reporter pergunta doria construir dialogo pichadores negocio bandidos doria participou sabatina cbn leiase globo duas jornalistas bem tentaram induzir prefeito algumas perguntas capiciosas bem resultado assiste video abaixo vou negociar pichadores negocio bandidos disse prefeito sp
+1	reporter	reporter	VERB	VERB	_	10	csubj	_	TokenRange=0:8
+2	pergunta	pergunta	NOUN	NOUN	_	1	obj	_	TokenRange=9:17
+3	doria	_	NOUN	NOUN	_	2	flat	_	TokenRange=18:23
+4	construir	construir	VERB	VERB	_	1	ccomp	_	TokenRange=24:33
+5	dialogo	dialogo	NOUN	NOUN	_	4	obj	_	TokenRange=34:41
+6	pichadores	pichador	NOUN	NOUN	_	5	appos	_	TokenRange=42:52
+7	negocio	negocio	ADJ	NOUN	_	8	amod	_	TokenRange=53:60
+8	bandidos	bandido	NOUN	NOUN	_	6	appos	_	TokenRange=61:69
+9	doria	_	NOUN	NOUN	_	8	appos	_	TokenRange=70:75
+10	participou	participar	VERB	VERB	_	34	ccomp	_	TokenRange=76:86
+11	sabatina	_	NOUN	NOUN	_	10	obj	_	TokenRange=87:95
+12	cbn	_	NOUN	NOUN	_	11	flat	_	TokenRange=96:99
+13	leiase	_	NOUN	NOUN	_	11	flat	_	TokenRange=100:106
+14	globo	globo	NOUN	NOUN	_	11	flat	_	TokenRange=107:112
+15	duas	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=113:117
+16	jornalistas	jornalista	NOUN	NOUN	_	18	nsubj	_	TokenRange=118:129
+17	bem	bem	ADV	ADV	_	18	advmod	_	TokenRange=130:133
+18	tentaram	tentar	VERB	VERB	_	10	parataxis	_	TokenRange=134:142
+19	induzir	induzir	VERB	VERB	_	18	xcomp	_	TokenRange=143:150
+20	prefeito	prefeito	NOUN	NOUN	_	19	obj	_	TokenRange=151:159
+21	algumas	_	DET	DET	_	22	det	_	TokenRange=160:167
+22	perguntas	pergunta	NOUN	NOUN	_	19	obj	_	TokenRange=168:177
+23	capiciosas	capicioso	ADJ	ADJ	_	22	amod	_	TokenRange=178:188
+24	bem	bem	ADV	ADV	_	25	advmod	_	TokenRange=189:192
+25	resultado	resultado	NOUN	NOUN	_	26	nsubj	_	TokenRange=193:202
+26	assiste	assistir	VERB	VERB	_	18	parataxis	_	TokenRange=203:210
+27	video	video	NOUN	NOUN	_	26	obj	_	TokenRange=211:216
+28	abaixo	abaixo	ADV	ADV	_	30	advmod	_	TokenRange=217:223
+29	vou	ir	AUX	AUX	_	30	aux	_	TokenRange=224:227
+30	negociar	negociar	VERB	VERB	_	26	ccomp	_	TokenRange=228:236
+31	pichadores	pichador	NOUN	NOUN	_	30	obj	_	TokenRange=237:247
+32	negocio	negocio	ADJ	ADJ	_	31	amod	_	TokenRange=248:255
+33	bandidos	bandido	NOUN	NOUN	_	31	amod	_	TokenRange=256:264
+34	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=265:270
+35	prefeito	prefeito	NOUN	NOUN	_	34	obj	_	TokenRange=271:279
+36	sp	_	X	X	_	35	appos	_	SpaceAfter=No|TokenRange=280:282
+

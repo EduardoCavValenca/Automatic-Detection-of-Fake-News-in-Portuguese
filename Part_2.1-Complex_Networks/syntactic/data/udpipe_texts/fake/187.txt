@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = evangelico invade igreja catolica destroi imagem maria homem declaradamente evangelico invadiu igreja comunidade sagrado coracao maria serra municipio regiao metropolitana vitoria espirito santo quebrou imagens senhora jose ato furia aconteceu volta 14 horas deste domingo 2 acordo analista ti coordenador paroquia leonardo oliveira belo 34 anos homem conhecido comunidade semana passada paroquia gritou algumas pessoas pode adorar imagens parece
+1	evangelico	evangelico	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	invade	invadir	VERB	VERB	_	59	ccomp	_	TokenRange=11:17
+3	igreja	igreja	NOUN	NOUN	_	2	obj	_	TokenRange=18:24
+4	catolica	catolico	ADJ	ADJ	_	3	amod	_	TokenRange=25:33
+5	destroi	destroir	VERB	VERB	_	2	parataxis	_	TokenRange=34:41
+6	imagem	imagem	NOUN	NOUN	_	5	obj	_	TokenRange=42:48
+7	maria	mario	NOUN	NOUN	_	11	nsubj	_	TokenRange=49:54
+8	homem	homem	NOUN	NOUN	_	11	nsubj	_	TokenRange=55:60
+9	declaradamente	declaradamente	ADV	ADV	_	10	advmod	_	TokenRange=61:75
+10	evangelico	evangelico	ADJ	ADJ	_	8	amod	_	TokenRange=76:86
+11	invadiu	invadir	VERB	VERB	_	2	conj	_	TokenRange=87:94
+12	igreja	igreja	NOUN	NOUN	_	11	obj	_	TokenRange=95:101
+13	comunidade	comunidade	NOUN	NOUN	_	12	flat	_	TokenRange=102:112
+14	sagrado	sagrado	ADJ	ADJ	_	15	amod	_	TokenRange=113:120
+15	coracao	coracao	NOUN	NOUN	_	12	appos	_	TokenRange=121:128
+16	maria	maria	NOUN	NOUN	_	15	appos	_	TokenRange=129:134
+17	serra	_	NOUN	NOUN	_	15	appos	_	TokenRange=135:140
+18	municipio	municipio	NOUN	NOUN	_	15	appos	_	TokenRange=141:150
+19	regiao	regiao	NOUN	NOUN	_	15	appos	_	TokenRange=151:157
+20	metropolitana	metropolitano	ADJ	ADJ	_	19	amod	_	TokenRange=158:171
+21	vitoria	vitoria	NOUN	NOUN	_	19	appos	_	TokenRange=172:179
+22	espirito	espirito	ADJ	ADJ	_	21	amod	_	TokenRange=180:188
+23	santo	santo	ADJ	ADJ	_	21	amod	_	TokenRange=189:194
+24	quebrou	quebrar	VERB	VERB	_	11	parataxis	_	TokenRange=195:202
+25	imagens	imagem	NOUN	NOUN	_	24	obj	_	TokenRange=203:210
+26	senhora	senhora	NOUN	NOUN	_	25	appos	_	TokenRange=211:218
+27	jose	jose	NOUN	NOUN	_	26	flat	_	TokenRange=219:223
+28	ato	ato	NOUN	NOUN	_	26	flat	_	TokenRange=224:227
+29	furia	furia	NOUN	NOUN	_	26	flat	_	TokenRange=228:233
+30	aconteceu	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=234:243
+31	volta	volta	NOUN	NOUN	_	30	nmod	_	TokenRange=244:249
+32	14	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=250:252
+33	horas	hora	NOUN	NOUN	_	30	nmod	_	TokenRange=253:258
+34	deste	_	ADP	ADP	_	35	case	_	TokenRange=259:264
+35	domingo	_	PROPN	PNOUN	_	33	nmod	_	TokenRange=265:272
+36	2	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=273:274
+37	acordo	acordo	NOUN	NOUN	_	30	nsubj	_	TokenRange=275:281
+38	analista	analista	ADJ	ADJ	_	37	amod	_	TokenRange=282:290
+39	ti	_	PRON	PRON	_	40	det	_	TokenRange=291:293
+40	coordenador	coordenador	NOUN	NOUN	_	30	nsubj	_	TokenRange=294:305
+41	paroquia	paroquia	NOUN	NOUN	_	40	flat	_	TokenRange=306:314
+42	leonardo	leonardo	NOUN	NOUN	_	40	appos	_	TokenRange=315:323
+43	oliveira	_	PROPN	PNOUN	_	42	flat	_	TokenRange=324:332
+44	belo	belo	ADJ	ADJ	_	42	amod	_	TokenRange=333:337
+45	34	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=338:340
+46	anos	ano	NOUN	NOUN	_	40	appos	_	TokenRange=341:345
+47	homem	homem	NOUN	NOUN	_	46	appos	_	TokenRange=346:351
+48	conhecido	conhecido	ADJ	ADJ	_	47	amod	_	TokenRange=352:361
+49	comunidade	comunidade	NOUN	NOUN	_	47	appos	_	TokenRange=362:372
+50	semana	semana	NOUN	NOUN	_	46	appos	_	TokenRange=373:379
+51	passada	passado	ADJ	ADJ	_	50	amod	_	TokenRange=380:387
+52	paroquia	paroquia	NOUN	NOUN	_	53	nsubj	_	TokenRange=388:396
+53	gritou	gritar	VERB	VERB	_	30	parataxis	_	TokenRange=397:403
+54	algumas	_	DET	DET	_	55	det	_	TokenRange=404:411
+55	pessoas	pessoa	NOUN	NOUN	_	57	nsubj	_	TokenRange=412:419
+56	pode	_	AUX	AUX	_	57	aux	_	TokenRange=420:424
+57	adorar	adorar	VERB	VERB	_	59	ccomp	_	TokenRange=425:431
+58	imagens	imagem	NOUN	NOUN	_	57	obj	_	TokenRange=432:439
+59	parece	parecer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=440:446
+

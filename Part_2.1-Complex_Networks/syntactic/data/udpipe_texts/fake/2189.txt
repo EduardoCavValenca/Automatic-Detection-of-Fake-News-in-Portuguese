@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = carro nome jesus pf pediu nota fiscal bmw concessionaria negou entregar bmw avaliada quase r 1 mi acordo informacoes hudson correa revista epoca policia federal pediu nota fiscal veiculo bmw comprado nome ghabriela cruz enteada eduardo cunha advogada concessionaria onde carro adquirido negou passar informacoes alegou quebra sigilo problema segundo procuradoriageral republica ghabriela aparece vinculada contas ligadas cunha investigacoes operacao lavajato dados sobre frota casal fazem parte argumentacao pgr abertura novo inquerito contra cunha pgr alega 2002 2014 patrimonio declarado eduardo cunha justica eleitoral aumentou 214
+1	carro	carro	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	nome	nome	NOUN	NOUN	_	1	flat	_	TokenRange=6:10
+3	jesus	jesus	NOUN	NOUN	_	1	appos	_	TokenRange=11:16
+4	pf	_	NOUN	NOUN	_	1	flat	_	TokenRange=17:19
+5	pediu	pedir	VERB	VERB	_	0	root	_	TokenRange=20:25
+6	nota	nota	NOUN	NOUN	_	5	obj	_	TokenRange=26:30
+7	fiscal	fiscal	ADJ	ADJ	_	6	amod	_	TokenRange=31:37
+8	bmw	bmw	NOUN	NOUN	_	10	nsubj	_	TokenRange=38:41
+9	concessionaria	concessionar	NOUN	NOUN	_	1	flat	_	TokenRange=42:56
+10	negou	negar	VERB	VERB	_	5	parataxis	_	TokenRange=57:62
+11	entregar	entregar	VERB	VERB	_	10	xcomp	_	TokenRange=63:71
+12	bmw	bmw	NOUN	NOUN	_	11	obj	_	TokenRange=72:75
+13	avaliada	avaliado	ADJ	ADJ	_	11	xcomp	_	TokenRange=76:84
+14	quase	quase	ADV	ADV	_	16	advmod	_	TokenRange=85:90
+15	r	r	NOUN	NOUN	_	13	nmod	_	TokenRange=91:92
+16	1	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=93:94
+17	mi	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=95:97
+18	acordo	acordo	NOUN	NOUN	_	5	obj	_	TokenRange=98:104
+19	informacoes	informacoe	NOUN	NOUN	_	18	appos	_	TokenRange=105:116
+20	hudson	_	NOUN	NOUN	_	18	appos	_	TokenRange=117:123
+21	correa	correa	ADJ	ADJ	_	22	flat	_	TokenRange=124:130
+22	revista	revista	NOUN	NOUN	_	18	appos	_	TokenRange=131:138
+23	epoca	epoca	ADJ	ADJ	_	24	amod	_	TokenRange=139:144
+24	policia	policia	NOUN	NOUN	_	22	appos	_	TokenRange=145:152
+25	federal	federal	ADJ	ADJ	_	24	amod	_	TokenRange=153:160
+26	pediu	pedir	VERB	VERB	_	5	conj	_	TokenRange=161:166
+27	nota	nota	NOUN	NOUN	_	26	obj	_	TokenRange=167:171
+28	fiscal	fiscal	ADJ	ADJ	_	27	amod	_	TokenRange=172:178
+29	veiculo	veiculo	NOUN	NOUN	_	27	appos	_	TokenRange=179:186
+30	bmw	bmw	NOUN	NOUN	_	29	flat	_	TokenRange=187:190
+31	comprado	comprar	VERB	VERB	_	29	acl	_	TokenRange=191:199
+32	nome	nome	NOUN	NOUN	_	29	appos	_	TokenRange=200:204
+33	ghabriela	ghabriela	ADJ	ADJ	_	34	amod	_	TokenRange=205:214
+34	cruz	cruz	NOUN	NOUN	_	29	appos	_	TokenRange=215:219
+35	enteada	enteado	ADJ	ADJ	_	34	amod	_	TokenRange=220:227
+36	eduardo	eduardo	NOUN	NOUN	_	29	appos	_	TokenRange=228:235
+37	cunha	_	NOUN	NOUN	_	36	flat	_	TokenRange=236:241
+38	advogada	advogado	NOUN	NOUN	_	34	amod	_	TokenRange=242:250
+39	concessionaria	concessionario	NOUN	NOUN	_	36	flat	_	TokenRange=251:265
+40	onde	onde	ADV	ADV	_	43	advmod	_	TokenRange=266:270
+41	carro	carro	NOUN	NOUN	_	43	nsubj	_	TokenRange=271:276
+42	adquirido	adquirir	VERB	VERB	_	41	acl	_	TokenRange=277:286
+43	negou	negar	VERB	VERB	_	39	acl:relcl	_	TokenRange=287:292
+44	passar	passar	VERB	VERB	_	43	xcomp	_	TokenRange=293:299
+45	informacoes	_	NOUN	NOUN	_	44	obj	_	TokenRange=300:311
+46	alegou	alegar	VERB	VERB	_	39	acl:relcl	_	TokenRange=312:318
+47	quebra	quebra	NOUN	NOUN	_	46	obj	_	TokenRange=319:325
+48	sigilo	sigilo	ADJ	NOUN	_	47	flat	_	TokenRange=326:332
+49	problema	problema	NOUN	NOUN	_	46	obj	_	TokenRange=333:341
+50	segundo	_	ADP	ADP	_	51	case	_	TokenRange=342:349
+51	procuradoriageral	procuradoriageral	NOUN	NOUN	_	46	nmod	_	TokenRange=350:367
+52	republica	republico	ADJ	ADJ	_	51	amod	_	TokenRange=368:377
+53	ghabriela	ghabriela	NOUN	NOUN	_	54	nsubj	_	TokenRange=378:387
+54	aparece	aparecer	VERB	VERB	_	51	acl:relcl	_	TokenRange=388:395
+55	vinculada	vinculado	ADJ	ADJ	_	54	xcomp	_	TokenRange=396:405
+56	contas	conta	NOUN	NOUN	_	54	nsubj	_	TokenRange=406:412
+57	ligadas	ligado	ADJ	ADJ	_	56	amod	_	TokenRange=413:420
+58	cunha	_	ADP	ADP	_	59	case	_	TokenRange=421:426
+59	investigacoes	investigacoe	NOUN	NOUN	_	56	nmod	_	TokenRange=427:440
+60	operacao	operacao	NOUN	NOUN	_	59	case	_	TokenRange=441:449
+61	lavajato	lavajato	ADJ	NOUN	_	59	amod	_	TokenRange=450:458
+62	dados	dado	NOUN	NOUN	_	59	appos	_	TokenRange=459:464
+63	sobre	_	ADP	ADP	_	64	case	_	TokenRange=465:470
+64	frota	frota	NOUN	NOUN	_	62	nmod	_	TokenRange=471:476
+65	casal	casal	NOUN	NOUN	_	64	flat	_	TokenRange=477:482
+66	fazem	fazer	VERB	VERB	_	54	parataxis	_	TokenRange=483:488
+67	parte	parte	NOUN	NOUN	_	66	obj	_	TokenRange=489:494
+68	argumentacao	argumentacao	NOUN	NOUN	_	67	appos	_	TokenRange=495:507
+69	pgr	_	NOUN	NOUN	_	70	appos	_	TokenRange=508:511
+70	abertura	abertura	NOUN	NOUN	_	67	appos	_	TokenRange=512:520
+71	novo	novo	ADJ	ADJ	_	72	amod	_	TokenRange=521:525
+72	inquerito	inquerito	NOUN	NOUN	_	70	appos	_	TokenRange=526:535
+73	contra	_	ADP	ADP	_	74	case	_	TokenRange=536:542
+74	cunha	cunha	NOUN	NOUN	_	72	nmod	_	TokenRange=543:548
+75	pgr	_	NOUN	NOUN	_	74	flat	_	TokenRange=549:552
+76	alega	alegar	VERB	VERB	_	66	parataxis	_	TokenRange=553:558
+77	2002	_	NUM	NUM	NumType=Card	76	nmod	_	TokenRange=559:563
+78	2014	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=564:568
+79	patrimonio	patrimonio	NOUN	NOUN	_	76	obj	_	TokenRange=569:579
+80	declarado	declarado	ADJ	ADJ	_	79	amod	_	TokenRange=580:589
+81	eduardo	eduardo	NOUN	NOUN	_	79	appos	_	TokenRange=590:597
+82	cunha	cunha	ADJ	ADJ	_	81	flat	_	TokenRange=598:603
+83	justica	_	NOUN	NOUN	_	85	nsubj	_	TokenRange=604:611
+84	eleitoral	eleitoral	ADJ	ADJ	_	83	amod	_	TokenRange=612:621
+85	aumentou	aumentar	VERB	VERB	_	5	parataxis	_	TokenRange=622:630
+86	214	_	NUM	NUM	NumType=Card	85	nmod	_	SpaceAfter=No|TokenRange=631:634
+

@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan senado trabalhando normalmente globo news acabou informar enquanto stf julga merito liminar ministro marco aurelio mello ordenou renan afastasse imediatamente cargo presidente senado nobre senador sentado gabinete presidencia despachando normalmente recebendo movimentos sindicais renan ignorou despacho stf ignorando julgamento acontecendo neste momento ai
+1	renan	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:5
+2	senado	senado	NOUN	NOUN	_	1	appos	_	TokenRange=6:12
+3	trabalhando	trabalhar	VERB	VERB	_	1	acl	_	TokenRange=13:24
+4	normalmente	normalmente	ADV	ADV	_	3	advmod	_	TokenRange=25:36
+5	globo	globo	NOUN	NOUN	_	3	obj	_	TokenRange=37:42
+6	news	_	NOUN	NOUN	_	5	flat	_	TokenRange=43:47
+7	acabou	acabar	AUX	AUX	_	8	aux	_	TokenRange=48:54
+8	informar	informar	VERB	VERB	_	0	root	_	TokenRange=55:63
+9	enquanto	_	CCONJ	CONJ	_	11	mark	_	TokenRange=64:72
+10	stf	_	PRON	PRON	_	11	nsubj	_	TokenRange=73:76
+11	julga	julgar	VERB	VERB	_	8	advcl	_	TokenRange=77:82
+12	merito	merito	NOUN	NOUN	_	11	obj	_	TokenRange=83:89
+13	liminar	liminar	ADJ	ADJ	_	12	amod	_	TokenRange=90:97
+14	ministro	ministro	NOUN	NOUN	_	11	nsubj	_	TokenRange=98:106
+15	marco	marco	NOUN	NOUN	_	14	appos	_	TokenRange=107:112
+16	aurelio	aurelio	ADJ	NOUN	_	15	flat	_	TokenRange=113:120
+17	mello	mello	ADJ	ADJ	_	15	amod	_	TokenRange=121:126
+18	ordenou	ordenar	VERB	VERB	_	8	conj	_	TokenRange=127:134
+19	renan	_	NOUN	NOUN	_	18	obj	_	TokenRange=135:140
+20	afastasse	afastar	VERB	VERB	_	18	ccomp	_	TokenRange=141:150
+21	imediatamente	imediatamente	ADV	ADV	_	20	advmod	_	TokenRange=151:164
+22	cargo	cargo	NOUN	NOUN	_	20	obj	_	TokenRange=165:170
+23	presidente	presidente	NOUN	NOUN	_	22	flat	_	TokenRange=171:181
+24	senado	senado	NOUN	NOUN	_	22	appos	_	TokenRange=182:188
+25	nobre	nobre	ADJ	ADJ	_	26	amod	_	TokenRange=189:194
+26	senador	senador	NOUN	NOUN	_	22	appos	_	TokenRange=195:202
+27	sentado	sentado	ADJ	ADJ	_	28	amod	_	TokenRange=203:210
+28	gabinete	gabinete	NOUN	NOUN	_	22	appos	_	TokenRange=211:219
+29	presidencia	presidencia	NOUN	NOUN	_	28	flat	_	TokenRange=220:231
+30	despachando	despachar	VERB	VERB	_	28	acl	_	TokenRange=232:243
+31	normalmente	normalmente	ADV	ADV	_	30	advmod	_	TokenRange=244:255
+32	recebendo	receber	VERB	VERB	_	30	acl	_	TokenRange=256:265
+33	movimentos	movimento	NOUN	NOUN	_	32	obj	_	TokenRange=266:276
+34	sindicais	sindical	ADJ	ADJ	_	33	amod	_	TokenRange=277:286
+35	renan	_	ADJ	ADJ	_	36	nsubj	_	TokenRange=287:292
+36	ignorou	ignorar	VERB	VERB	_	8	parataxis	_	TokenRange=293:300
+37	despacho	despacho	NOUN	NOUN	_	36	obj	_	TokenRange=301:309
+38	stf	_	NOUN	NOUN	_	37	appos	_	TokenRange=310:313
+39	ignorando	ignorar	VERB	VERB	_	36	acl	_	TokenRange=314:323
+40	julgamento	julgamento	NOUN	NOUN	_	39	obj	_	TokenRange=324:334
+41	acontecendo	acontecer	VERB	VERB	_	40	acl	_	TokenRange=335:346
+42	neste	_	ADP	ADP	_	43	case	_	TokenRange=347:352
+43	momento	momento	NOUN	NOUN	_	41	nmod	_	TokenRange=353:360
+44	ai	_	ADV	ADV	_	36	advmod	_	SpaceAfter=No|TokenRange=361:363
+

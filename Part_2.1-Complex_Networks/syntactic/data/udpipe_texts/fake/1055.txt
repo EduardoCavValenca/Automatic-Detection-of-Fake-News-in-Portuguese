@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = edir macedo fica nervoso interrompe culto amaldicoo todos telefones comico tragico comico claro existem certas regras etiqueta devem observadas nunca esqueceu celular ligado local digamos assim proibido pois bem lapso aconteceu durante culto bispo edir macedo louco raiva parou pregacao comecou amaldicoar celulares todo mundo assista
+1	edir	edir	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	macedo	macedo	NOUN	NOUN	_	1	flat	_	TokenRange=5:11
+3	fica	ficar	VERB	VERB	_	0	root	_	TokenRange=12:16
+4	nervoso	nervoso	ADJ	ADJ	_	3	xcomp	_	TokenRange=17:24
+5	interrompe	_	ADP	ADP	_	6	case	_	TokenRange=25:35
+6	culto	culto	NOUN	NOUN	_	3	nmod	_	TokenRange=36:41
+7	amaldicoo	amaldicoo	ADJ	ADJ	_	6	amod	_	TokenRange=42:51
+8	todos	_	DET	DET	_	9	det	_	TokenRange=52:57
+9	telefones	telefone	NOUN	NOUN	_	3	nsubj	_	TokenRange=58:67
+10	comico	comico	ADJ	ADJ	_	9	amod	_	TokenRange=68:74
+11	tragico	tragico	ADJ	ADJ	_	9	amod	_	TokenRange=75:82
+12	comico	comico	ADJ	ADJ	_	9	amod	_	TokenRange=83:89
+13	claro	claro	ADJ	ADJ	_	11	amod	_	TokenRange=90:95
+14	existem	existir	VERB	VERB	_	3	conj	_	TokenRange=96:103
+15	certas	_	DET	DET	_	16	det	_	TokenRange=104:110
+16	regras	regra	NOUN	NOUN	_	14	nsubj	_	TokenRange=111:117
+17	etiqueta	etiqueta	NOUN	NOUN	_	16	appos	_	TokenRange=118:126
+18	devem	_	AUX	AUX	_	19	aux	_	TokenRange=127:132
+19	observadas	observar	VERB	VERB	_	16	acl:relcl	_	TokenRange=133:143
+20	nunca	nunca	ADV	ADV	_	21	advmod	_	TokenRange=144:149
+21	esqueceu	esquecer	VERB	VERB	_	19	ccomp	_	TokenRange=150:158
+22	celular	_	NOUN	NOUN	_	21	obj	_	TokenRange=159:166
+23	ligado	ligado	ADJ	ADJ	_	22	amod	_	TokenRange=167:173
+24	local	local	ADJ	ADJ	_	23	amod	_	TokenRange=174:179
+25	digamos	dizer	VERB	VERB	_	21	conj	_	TokenRange=180:187
+26	assim	assim	ADV	ADV	_	27	advmod	_	TokenRange=188:193
+27	proibido	proibido	ADJ	ADJ	_	25	xcomp	_	TokenRange=194:202
+28	pois	_	CCONJ	CONJ	_	31	mark	_	TokenRange=203:207
+29	bem	bem	ADV	ADV	_	30	advmod	_	TokenRange=208:211
+30	lapso	lapso	NOUN	NOUN	_	31	nsubj	_	TokenRange=212:217
+31	aconteceu	acontecer	VERB	VERB	_	25	advcl	_	TokenRange=218:227
+32	durante	_	ADP	ADP	_	33	case	_	TokenRange=228:235
+33	culto	culto	NOUN	NOUN	_	31	nmod	_	TokenRange=236:241
+34	bispo	bispo	NOUN	NOUN	_	31	nsubj	_	TokenRange=242:247
+35	edir	edir	NOUN	NOUN	_	31	nsubj	_	TokenRange=248:252
+36	macedo	macedo	NOUN	NOUN	_	35	flat	_	TokenRange=253:259
+37	louco	louco	DET	DET	_	38	det	_	TokenRange=260:265
+38	raiva	raiva	NOUN	NOUN	_	35	appos	_	TokenRange=266:271
+39	parou	parar	VERB	VERB	_	31	conj	_	TokenRange=272:277
+40	pregacao	pregacao	NOUN	NOUN	_	46	nsubj	_	TokenRange=278:286
+41	comecou	comecar	VERB	VERB	_	39	conj	_	TokenRange=287:294
+42	amaldicoar	amaldicoar	VERB	VERB	_	46	xcomp	_	TokenRange=295:305
+43	celulares	_	NOUN	NOUN	_	42	obj	_	TokenRange=306:315
+44	todo	_	DET	DET	_	45	det	_	TokenRange=316:320
+45	mundo	mundo	NOUN	NOUN	_	46	nsubj	_	TokenRange=321:326
+46	assista	assistir	VERB	VERB	_	41	conj	_	SpaceAfter=No|TokenRange=327:334
+

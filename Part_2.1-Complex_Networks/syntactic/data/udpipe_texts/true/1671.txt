@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = uniao sovietica verdadeira ganhadora corrida espacial eua apesar americanos terem chegado primeiro lua determinacao sovietica russa conquistar espaco garantiu continua presenca humano orbita apollo 11 chegou lua 1969 astronauta neil armstrong deu grande salto humanidade tudo parecia perdido uniao sovietica milhoes pessoas mundo todo viram imagens televisao historia popular estados unidos tornaram grandes vencedores corrida espacial contra uniao sovietica urss realidade pensamento equivocado verdadeiros pioneiros exploracao espacial astronautas sovieticos
+1	uniao	uniao	NOUN	NOUN	_	19	nsubj	_	TokenRange=0:5
+2	sovietica	sovietico	ADJ	ADJ	_	1	amod	_	TokenRange=6:15
+3	verdadeira	verdadeiro	ADJ	ADJ	_	5	amod	_	TokenRange=16:26
+4	ganhadora	ganhador	ADJ	ADJ	_	1	amod	_	TokenRange=27:36
+5	corrida	corrida	NOUN	NOUN	_	1	appos	_	TokenRange=37:44
+6	espacial	espacial	ADJ	ADJ	_	5	amod	_	TokenRange=45:53
+7	eua	_	PRON	PRON	_	19	nsubj	_	TokenRange=54:57
+8	apesar	apesar	ADV	ADV	_	11	mark	_	TokenRange=58:64
+9	americanos	americano	ADJ	NOUN	_	11	nsubj	_	TokenRange=65:75
+10	terem	ter	AUX	AUX	_	11	aux	_	TokenRange=76:81
+11	chegado	chegar	VERB	VERB	_	5	acl:relcl	_	TokenRange=82:89
+12	primeiro	primeiro	ADJ	ADJ	_	13	amod	_	TokenRange=90:98
+13	lua	lua	NOUN	NOUN	_	11	obj	_	TokenRange=99:102
+14	determinacao	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=103:115
+15	sovietica	sovietico	ADJ	ADJ	_	14	amod	_	TokenRange=116:125
+16	russa	russo	ADJ	ADJ	_	14	amod	_	TokenRange=126:131
+17	conquistar	conquistar	VERB	VERB	_	11	ccomp	_	TokenRange=132:142
+18	espaco	espaco	NOUN	NOUN	_	17	obj	_	TokenRange=143:149
+19	garantiu	garantir	VERB	VERB	_	0	root	_	TokenRange=150:158
+20	continua	continuo	ADJ	ADJ	_	21	amod	_	TokenRange=159:167
+21	presenca	presenca	NOUN	NOUN	_	19	obj	_	TokenRange=168:176
+22	humano	humano	ADJ	ADJ	_	21	amod	_	TokenRange=177:183
+23	orbita	orbita	NOUN	NOUN	_	21	appos	_	TokenRange=184:190
+24	apollo	_	NOUN	NOUN	_	23	appos	_	TokenRange=191:197
+25	11	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=198:200
+26	chegou	chegar	VERB	VERB	_	19	parataxis	_	TokenRange=201:207
+27	lua	lua	NOUN	NOUN	_	26	obj	_	TokenRange=208:211
+28	1969	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=212:216
+29	astronauta	astronauta	NOUN	NOUN	_	32	nsubj	_	TokenRange=217:227
+30	neil	_	NOUN	NOUN	_	29	appos	_	TokenRange=228:232
+31	armstrong	_	NOUN	NOUN	_	30	flat	_	TokenRange=233:242
+32	deu	dar	VERB	VERB	_	19	conj	_	TokenRange=243:246
+33	grande	grande	ADJ	ADJ	_	34	amod	_	TokenRange=247:253
+34	salto	salto	NOUN	NOUN	_	32	obj	_	TokenRange=254:259
+35	humanidade	humanidade	NOUN	NOUN	_	32	obj	_	TokenRange=260:270
+36	tudo	_	PRON	PRON	_	37	nsubj	_	TokenRange=271:275
+37	parecia	parecer	VERB	VERB	_	32	parataxis	_	TokenRange=276:283
+38	perdido	perdido	ADJ	ADJ	_	37	xcomp	_	TokenRange=284:291
+39	uniao	uniao	NOUN	NOUN	_	32	nsubj	_	TokenRange=292:297
+40	sovietica	sovietico	ADJ	ADJ	_	39	amod	_	TokenRange=298:307
+41	milhoes	_	DET	DET	NumType=Card	42	det	_	TokenRange=308:315
+42	pessoas	pessoa	NOUN	NOUN	_	46	nsubj	_	TokenRange=316:323
+43	mundo	mundo	NOUN	NOUN	_	46	nsubj	_	TokenRange=324:329
+44	todo	todo	ADJ	ADJ	_	43	amod	_	TokenRange=330:334
+45	viram	_	AUX	AUX	_	46	cop	_	TokenRange=335:340
+46	imagens	imagem	NOUN	NOUN	_	32	parataxis	_	TokenRange=341:348
+47	televisao	televisao	ADJ	ADJ	_	48	amod	_	TokenRange=349:358
+48	historia	historia	NOUN	NOUN	_	46	appos	_	TokenRange=359:367
+49	popular	popular	ADJ	ADJ	_	48	amod	_	TokenRange=368:375
+50	estados	estado	NOUN	NOUN	_	46	nsubj	_	TokenRange=376:383
+51	unidos	unido	ADJ	ADJ	_	50	amod	_	TokenRange=384:390
+52	tornaram	tornar	VERB	VERB	_	46	parataxis	_	TokenRange=391:399
+53	grandes	grande	ADJ	ADJ	_	55	amod	_	TokenRange=400:407
+54	vencedores	vencedor	ADJ	ADJ	_	55	amod	_	TokenRange=408:418
+55	corrida	corrida	NOUN	NOUN	_	52	obj	_	TokenRange=419:426
+56	espacial	espacial	ADJ	ADJ	_	55	amod	_	TokenRange=427:435
+57	contra	_	ADP	ADP	_	58	case	_	TokenRange=436:442
+58	uniao	uniao	NOUN	NOUN	_	55	nmod	_	TokenRange=443:448
+59	sovietica	sovietico	ADJ	ADJ	_	58	amod	_	TokenRange=449:458
+60	urss	urs	ADJ	ADJ	_	61	amod	_	TokenRange=459:463
+61	realidade	realidade	NOUN	NOUN	_	52	nsubj	_	TokenRange=464:473
+62	pensamento	pensamento	NOUN	NOUN	_	61	appos	_	TokenRange=474:484
+63	equivocado	equivocado	ADJ	ADJ	_	65	amod	_	TokenRange=485:495
+64	verdadeiros	verdadeiro	ADJ	ADJ	_	65	amod	_	TokenRange=496:507
+65	pioneiros	pioneiro	NOUN	NOUN	_	61	appos	_	TokenRange=508:517
+66	exploracao	exploracao	ADJ	ADJ	_	65	amod	_	TokenRange=518:528
+67	espacial	espacial	ADJ	ADJ	_	65	amod	_	TokenRange=529:537
+68	astronautas	astronauta	NOUN	NOUN	_	61	appos	_	TokenRange=538:549
+69	sovieticos	sovietico	ADJ	ADJ	_	68	amod	_	SpaceAfter=No|TokenRange=550:560
+

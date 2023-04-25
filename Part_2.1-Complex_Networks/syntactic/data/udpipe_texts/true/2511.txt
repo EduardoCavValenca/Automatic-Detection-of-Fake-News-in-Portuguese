@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 14 agosto 2017 boa noite aqui principais noticias terminar dia beminformado mundo comecou semana atordoado confronto durante manifestacao eua supremacistas brancos acabou morta atropelamento intencional chocaram bandeiras suasticas saudacoes nazistas presidente donald trump ir publico vez tom incisivo primeira declaracao ambigua condenava todos lados nuvens negras tempestuoso clima politico mundial donald trump classificou maus repugnantes integrantes ku klux klan
+1	segundafeira	_	NOUN	NOUN	_	54	parataxis	_	TokenRange=0:12
+2	14	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=13:15
+3	agosto	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=16:22
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=23:27
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=28:31
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=32:37
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=38:42
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=43:53
+9	noticias	_	NOUN	NOUN	_	6	appos	_	TokenRange=54:62
+10	terminar	terminar	VERB	VERB	_	6	acl:relcl	_	TokenRange=63:71
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=72:75
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=76:88
+13	mundo	mundo	NOUN	NOUN	_	14	nsubj	_	TokenRange=89:94
+14	comecou	comecar	VERB	VERB	_	6	acl:relcl	_	TokenRange=95:102
+15	semana	semana	NOUN	NOUN	_	14	nmod	_	TokenRange=103:109
+16	atordoado	atordoado	ADJ	ADJ	_	17	amod	_	TokenRange=110:119
+17	confronto	confronto	NOUN	NOUN	_	14	nsubj	_	TokenRange=120:129
+18	durante	_	ADP	ADP	_	19	case	_	TokenRange=130:137
+19	manifestacao	manifestacao	NOUN	NOUN	_	17	nmod	_	TokenRange=138:150
+20	eua	_	DET	DET	_	21	det	_	TokenRange=151:154
+21	supremacistas	supremacista	NOUN	NOUN	_	23	nsubj	_	TokenRange=155:168
+22	brancos	branco	ADJ	ADJ	_	21	amod	_	TokenRange=169:176
+23	acabou	acabar	VERB	VERB	_	17	acl:relcl	_	TokenRange=177:183
+24	morta	morto	ADJ	ADJ	_	25	amod	_	TokenRange=184:189
+25	atropelamento	atropelamento	NOUN	NOUN	_	23	nsubj	_	TokenRange=190:203
+26	intencional	intencional	ADJ	ADJ	_	25	amod	_	TokenRange=204:215
+27	chocaram	chocar	VERB	VERB	_	23	parataxis	_	TokenRange=216:224
+28	bandeiras	bandeira	NOUN	NOUN	_	27	obj	_	TokenRange=225:234
+29	suasticas	suastico	ADJ	ADJ	_	28	amod	_	TokenRange=235:244
+30	saudacoes	saudacoe	NOUN	NOUN	_	28	appos	_	TokenRange=245:254
+31	nazistas	nazista	ADJ	ADJ	_	30	amod	_	TokenRange=255:263
+32	presidente	presidente	NOUN	NOUN	_	27	nsubj	_	TokenRange=264:274
+33	donald	_	NOUN	NOUN	_	32	appos	_	TokenRange=275:281
+34	trump	_	NOUN	NOUN	_	32	appos	_	TokenRange=282:287
+35	ir	ir	AUX	AUX	_	32	cop	_	TokenRange=288:290
+36	publico	_	ADJ	ADJ	_	37	amod	_	TokenRange=291:298
+37	vez	vez	NOUN	NOUN	_	35	nmod	_	TokenRange=299:302
+38	tom	tom	NOUN	NOUN	_	37	appos	_	TokenRange=303:306
+39	incisivo	incisivo	ADJ	ADJ	_	41	amod	_	TokenRange=307:315
+40	primeira	primeiro	ADJ	ADJ	_	41	amod	_	TokenRange=316:324
+41	declaracao	declaracao	NOUN	NOUN	_	43	nsubj	_	TokenRange=325:335
+42	ambigua	ambiguo	ADJ	ADJ	_	41	amod	_	TokenRange=336:343
+43	condenava	condenar	VERB	VERB	_	27	parataxis	_	TokenRange=344:353
+44	todos	_	DET	DET	_	45	det	_	TokenRange=354:359
+45	lados	lado	NOUN	NOUN	_	43	obj	_	TokenRange=360:365
+46	nuvens	nuvem	NOUN	NOUN	_	45	amod	_	TokenRange=366:372
+47	negras	negro	ADJ	ADJ	_	49	amod	_	TokenRange=373:379
+48	tempestuoso	tempestuoso	ADJ	ADJ	_	49	amod	_	TokenRange=380:391
+49	clima	clima	NOUN	NOUN	_	43	obj	_	TokenRange=392:397
+50	politico	politico	ADJ	ADJ	_	49	amod	_	TokenRange=398:406
+51	mundial	mundial	ADJ	ADJ	_	49	amod	_	TokenRange=407:414
+52	donald	_	ADJ	NOUN	_	49	appos	_	TokenRange=415:421
+53	trump	_	NOUN	NOUN	_	52	flat	_	TokenRange=422:427
+54	classificou	classificar	VERB	VERB	_	0	root	_	TokenRange=428:439
+55	maus	mau	ADJ	ADJ	_	57	amod	_	TokenRange=440:444
+56	repugnantes	repugnante	ADJ	ADJ	_	57	amod	_	TokenRange=445:456
+57	integrantes	_	NOUN	NOUN	_	54	obj	_	TokenRange=457:468
+58	ku	_	X	NOUN	_	57	appos	_	TokenRange=469:471
+59	klux	_	X	X	_	60	flat	_	TokenRange=472:476
+60	klan	_	NOUN	NOUN	_	58	flat	_	SpaceAfter=No|TokenRange=477:481
+

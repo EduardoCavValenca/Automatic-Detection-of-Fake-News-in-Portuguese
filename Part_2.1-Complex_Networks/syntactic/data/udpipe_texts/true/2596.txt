@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos afastado comando senado renan cancela confraternizacao natalina cerimonial casa legislativa enviou mensagens convidados comunicando cancelamento jantar marcado noite desta terca 6 residencia oficial senado presidente senado renan calheiros pmdbal decidiu nesta tercafeira 6 cancelar tradicional jantar confraternizacao natalina casa marcado noite residencia oficial peemedebista cancelamento ocorreu conta decisao liminar provisoria ministro marco aurelio mello supremo tribunal
+1	apos	_	ADP	ADP	_	2	mark	_	TokenRange=0:4
+2	afastado	afastar	VERB	VERB	_	6	advcl	_	TokenRange=5:13
+3	comando	comando	NOUN	NOUN	_	2	obj	_	TokenRange=14:21
+4	senado	senado	ADJ	ADJ	_	3	amod	_	TokenRange=22:28
+5	renan	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=29:34
+6	cancela	cancelar	VERB	VERB	_	0	root	_	TokenRange=35:42
+7	confraternizacao	confraternizacao	NOUN	NOUN	_	6	obj	_	TokenRange=43:59
+8	natalina	natalino	ADJ	ADJ	_	7	amod	_	TokenRange=60:68
+9	cerimonial	cerimonial	ADJ	ADJ	_	10	amod	_	TokenRange=69:79
+10	casa	casa	NOUN	NOUN	_	6	obj	_	TokenRange=80:84
+11	legislativa	legislativo	ADJ	ADJ	_	10	amod	_	TokenRange=85:96
+12	enviou	enviar	VERB	VERB	_	6	parataxis	_	TokenRange=97:103
+13	mensagens	mensagem	NOUN	NOUN	_	12	obj	_	TokenRange=104:113
+14	convidados	convidado	ADJ	ADJ	_	13	amod	_	TokenRange=114:124
+15	comunicando	comunicar	VERB	VERB	_	12	acl	_	TokenRange=125:136
+16	cancelamento	cancelamento	NOUN	NOUN	_	15	obj	_	TokenRange=137:149
+17	jantar	jantar	NOUN	NOUN	_	16	appos	_	TokenRange=150:156
+18	marcado	marcado	ADJ	ADJ	_	19	amod	_	TokenRange=157:164
+19	noite	noite	NOUN	NOUN	_	16	appos	_	TokenRange=165:170
+20	desta	_	ADP	ADP	_	21	case	_	TokenRange=171:176
+21	terca	terca	NOUN	NOUN	_	19	nmod	_	TokenRange=177:182
+22	6	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=183:184
+23	residencia	residencia	NOUN	NOUN	_	19	appos	_	TokenRange=185:195
+24	oficial	oficial	ADJ	ADJ	_	23	amod	_	TokenRange=196:203
+25	senado	senado	NOUN	NOUN	_	23	appos	_	TokenRange=204:210
+26	presidente	presidente	NOUN	NOUN	_	23	appos	_	TokenRange=211:221
+27	senado	senado	ADJ	ADJ	_	26	amod	_	TokenRange=222:228
+28	renan	renan	NOUN	NOUN	_	26	appos	_	TokenRange=229:234
+29	calheiros	calheiro	NOUN	NOUN	_	28	flat	_	TokenRange=235:244
+30	pmdbal	_	ADJ	ADJ	_	28	amod	_	TokenRange=245:251
+31	decidiu	decidir	VERB	VERB	_	6	parataxis	_	TokenRange=252:259
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=260:265
+33	tercafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=266:276
+34	6	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=277:278
+35	cancelar	cancelar	VERB	VERB	_	31	xcomp	_	TokenRange=279:287
+36	tradicional	tradicional	ADJ	ADJ	_	37	amod	_	TokenRange=288:299
+37	jantar	jantar	NOUN	NOUN	_	35	obj	_	TokenRange=300:306
+38	confraternizacao	confraternizacao	NOUN	NOUN	_	37	appos	_	TokenRange=307:323
+39	natalina	natalino	ADJ	ADJ	_	37	amod	_	TokenRange=324:332
+40	casa	casa	NOUN	NOUN	_	37	appos	_	TokenRange=333:337
+41	marcado	marcar	VERB	VERB	_	42	acl	_	TokenRange=338:345
+42	noite	noite	NOUN	NOUN	_	40	appos	_	TokenRange=346:351
+43	residencia	residencia	NOUN	NOUN	_	37	appos	_	TokenRange=352:362
+44	oficial	oficial	ADJ	ADJ	_	43	amod	_	TokenRange=363:370
+45	peemedebista	peemedebista	ADJ	ADJ	_	46	amod	_	TokenRange=371:383
+46	cancelamento	cancelamento	NOUN	NOUN	_	47	nsubj	_	TokenRange=384:396
+47	ocorreu	ocorrer	VERB	VERB	_	6	parataxis	_	TokenRange=397:404
+48	conta	conta	NOUN	NOUN	_	47	obj	_	TokenRange=405:410
+49	decisao	decisao	NOUN	NOUN	_	48	flat	_	TokenRange=411:418
+50	liminar	liminar	ADJ	ADJ	_	48	amod	_	TokenRange=419:426
+51	provisoria	provisorio	ADJ	ADJ	_	52	amod	_	TokenRange=427:437
+52	ministro	ministro	NOUN	NOUN	_	48	appos	_	TokenRange=438:446
+53	marco	marco	NOUN	NOUN	_	52	appos	_	TokenRange=447:452
+54	aurelio	aurelio	ADJ	NOUN	_	53	flat	_	TokenRange=453:460
+55	mello	mello	ADJ	ADJ	_	57	amod	_	TokenRange=461:466
+56	supremo	supremo	ADJ	ADJ	_	57	amod	_	TokenRange=467:474
+57	tribunal	tribunal	NOUN	NOUN	_	52	appos	_	SpaceAfter=No|TokenRange=475:483
+

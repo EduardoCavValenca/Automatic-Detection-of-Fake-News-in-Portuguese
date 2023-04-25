@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = assim palestra lula etiopia abordaria tema corrupcao palestra expresidente marcada amanha 27 parte serie atividades compoem encontro anual uniao africana abordaria tema vencendo luta contra corrupcao advogados expresidente lula notificados decisao juiz federal ricardo leite 10 vara distrito federal decidiu reter passaporte condenado fato impede deixar brasil decisao faz parte processo sigiloso investiga corrupcao compra cacas suecia forcas armadas brasileiras
+1	assim	assim	ADV	ADV	_	5	advmod	_	TokenRange=0:5
+2	palestra	palestra	NOUN	NOUN	_	5	nsubj	_	TokenRange=6:14
+3	lula	lulo	ADJ	ADJ	_	2	amod	_	TokenRange=15:19
+4	etiopia	etiopia	NOUN	NOUN	_	2	appos	_	TokenRange=20:27
+5	abordaria	abordar	VERB	VERB	_	0	root	_	TokenRange=28:37
+6	tema	tema	NOUN	NOUN	_	5	obj	_	TokenRange=38:42
+7	corrupcao	corrupcao	ADJ	ADJ	_	6	amod	_	TokenRange=43:52
+8	palestra	palestra	NOUN	NOUN	_	6	appos	_	TokenRange=53:61
+9	expresidente	expresidente	NOUN	NOUN	_	6	appos	_	TokenRange=62:74
+10	marcada	marcar	ADJ	ADJ	_	8	amod	_	TokenRange=75:82
+11	amanha	amanha	NOUN	NOUN	_	10	advmod	_	TokenRange=83:89
+12	27	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=90:92
+13	parte	parte	NOUN	NOUN	_	11	appos	_	TokenRange=93:98
+14	serie	_	ADJ	ADJ	_	15	amod	_	TokenRange=99:104
+15	atividades	atividade	NOUN	NOUN	_	13	appos	_	TokenRange=105:115
+16	compoem	compoer	VERB	VERB	_	5	parataxis	_	TokenRange=116:123
+17	encontro	encontro	NOUN	NOUN	_	16	obj	_	TokenRange=124:132
+18	anual	anual	ADJ	ADJ	_	17	amod	_	TokenRange=133:138
+19	uniao	uniao	NOUN	NOUN	_	17	appos	_	TokenRange=139:144
+20	africana	africano	ADJ	ADJ	_	19	amod	_	TokenRange=145:153
+21	abordaria	abordar	VERB	VERB	_	5	parataxis	_	TokenRange=154:163
+22	tema	tema	NOUN	NOUN	_	21	obj	_	TokenRange=164:168
+23	vencendo	vencer	VERB	VERB	_	22	acl	_	TokenRange=169:177
+24	luta	luta	NOUN	NOUN	_	23	obj	_	TokenRange=178:182
+25	contra	_	ADP	ADP	_	26	case	_	TokenRange=183:189
+26	corrupcao	corrupcao	NOUN	NOUN	_	24	nmod	_	TokenRange=190:199
+27	advogados	advogado	NOUN	NOUN	_	28	amod	_	TokenRange=200:209
+28	expresidente	expresidente	NOUN	NOUN	_	24	appos	_	TokenRange=210:222
+29	lula	lula	ADJ	ADJ	_	28	amod	_	TokenRange=223:227
+30	notificados	notificado	ADJ	ADJ	_	32	amod	_	TokenRange=228:239
+31	decisao	decisao	NOUN	NOUN	_	32	amod	_	TokenRange=240:247
+32	juiz	juiz	NOUN	NOUN	_	21	nsubj	_	TokenRange=248:252
+33	federal	federal	ADJ	ADJ	_	32	amod	_	TokenRange=253:260
+34	ricardo	ricardo	NOUN	NOUN	_	32	appos	_	TokenRange=261:268
+35	leite	leite	NOUN	NOUN	_	34	flat	_	TokenRange=269:274
+36	10	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=275:277
+37	vara	vara	NOUN	NOUN	_	40	nsubj	_	TokenRange=278:282
+38	distrito	distrito	NOUN	NOUN	_	37	appos	_	TokenRange=283:291
+39	federal	federal	ADJ	ADJ	_	38	amod	_	TokenRange=292:299
+40	decidiu	decidir	VERB	VERB	_	5	parataxis	_	TokenRange=300:307
+41	reter	reter	VERB	VERB	_	40	xcomp	_	TokenRange=308:313
+42	passaporte	passaporte	NOUN	NOUN	_	41	obj	_	TokenRange=314:324
+43	condenado	condenado	ADJ	ADJ	_	42	amod	_	TokenRange=325:334
+44	fato	fato	NOUN	NOUN	_	45	nsubj	_	TokenRange=335:339
+45	impede	impedir	VERB	VERB	_	42	acl:relcl	_	TokenRange=340:346
+46	deixar	deixar	VERB	VERB	_	45	xcomp	_	TokenRange=347:353
+47	brasil	brasil	NOUN	NOUN	_	46	obj	_	TokenRange=354:360
+48	decisao	decisao	NOUN	NOUN	_	49	nsubj	_	TokenRange=361:368
+49	faz	fazer	VERB	VERB	_	45	parataxis	_	TokenRange=369:372
+50	parte	parte	NOUN	NOUN	_	49	obj	_	TokenRange=373:378
+51	processo	processo	NOUN	NOUN	_	49	nsubj	_	TokenRange=379:387
+52	sigiloso	sigiloso	ADJ	ADJ	_	51	amod	_	TokenRange=388:396
+53	investiga	investigar	VERB	VERB	_	51	acl:relcl	_	TokenRange=397:406
+54	corrupcao	corrupcao	NOUN	NOUN	_	53	obj	_	TokenRange=407:416
+55	compra	comprar	VERB	VERB	_	51	acl:relcl	_	TokenRange=417:423
+56	cacas	_	NOUN	NOUN	_	55	obj	_	TokenRange=424:429
+57	suecia	suecer	VERB	VERB	_	40	conj	_	TokenRange=430:436
+58	forcas	forca	NOUN	NOUN	_	57	nsubj	_	TokenRange=437:443
+59	armadas	armado	ADJ	ADJ	_	58	amod	_	TokenRange=444:451
+60	brasileiras	brasileiro	ADJ	ADJ	_	58	amod	_	SpaceAfter=No|TokenRange=452:463
+

@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aviao 500 kg cocaina decolou fazenda arrendada ministro diz revista ultimo domingo 25 forca aerea brasileira interceptou bimotor carregava pouco 500 quilos cocaina fab informou aviao matricula ptiij decolou fazenda itamarati norte municipio campo novo parecis mt segundo denuncia feita revista carta capital fazenda itamarati norte arrendada grupo amaggi propriedade atual ministro agricultura blairo maggi pp familiares aeronave sabe momento nenhuma ligacao donos area arrendatarios grupo amaggi ainda divulgou nenhuma nota oficial fonte link
+1	aviao	aviao	VERB	VERB	_	5	acl	_	TokenRange=0:5
+2	500	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=6:9
+3	kg	kg	NOUN	NOUN	_	1	nsubj	_	TokenRange=10:12
+4	cocaina	cocaina	NOUN	NOUN	_	3	flat	_	TokenRange=13:20
+5	decolou	decolar	VERB	VERB	_	0	root	_	TokenRange=21:28
+6	fazenda	fazenda	NOUN	NOUN	_	5	obj	_	TokenRange=29:36
+7	arrendada	arrendado	ADJ	ADJ	_	6	amod	_	TokenRange=37:46
+8	ministro	ministro	NOUN	NOUN	_	5	nsubj	_	TokenRange=47:55
+9	diz	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=56:59
+10	revista	revista	NOUN	NOUN	_	5	obj	_	TokenRange=60:67
+11	ultimo	_	ADJ	ADJ	_	12	amod	_	TokenRange=68:74
+12	domingo	_	PROPN	PNOUN	_	10	appos	_	TokenRange=75:82
+13	25	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=83:85
+14	forca	forca	NOUN	NOUN	_	17	nsubj	_	TokenRange=86:91
+15	aerea	aereo	ADJ	ADJ	_	14	amod	_	TokenRange=92:97
+16	brasileira	brasileiro	ADJ	ADJ	_	14	amod	_	TokenRange=98:108
+17	interceptou	interceptar	VERB	VERB	_	5	parataxis	_	TokenRange=109:120
+18	bimotor	bimotor	NOUN	NOUN	_	17	obj	_	TokenRange=121:128
+19	carregava	carregar	VERB	VERB	_	17	parataxis	_	TokenRange=129:138
+20	pouco	pouco	ADV	ADV	_	21	advmod	_	TokenRange=139:144
+21	500	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=145:148
+22	quilos	quilo	NOUN	NOUN	_	19	obj	_	TokenRange=149:155
+23	cocaina	cocaina	NOUN	NOUN	_	19	obj	_	TokenRange=156:163
+24	fab	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=164:167
+25	informou	informar	VERB	VERB	_	22	acl:relcl	_	TokenRange=168:176
+26	aviao	aviao	NOUN	NOUN	_	25	obj	_	TokenRange=177:182
+27	matricula	matricula	NOUN	NOUN	_	29	nsubj	_	TokenRange=183:192
+28	ptiij	_	NOUN	NOUN	_	27	amod	_	TokenRange=193:198
+29	decolou	decolar	VERB	VERB	_	25	conj	_	TokenRange=199:206
+30	fazenda	fazenda	NOUN	NOUN	_	29	obj	_	TokenRange=207:214
+31	itamarati	itamarati	NOUN	NOUN	_	30	appos	_	TokenRange=215:224
+32	norte	norte	ADJ	ADJ	_	30	amod	_	TokenRange=225:230
+33	municipio	municipio	NOUN	NOUN	_	30	appos	_	TokenRange=231:240
+34	campo	campo	NOUN	NOUN	_	30	appos	_	TokenRange=241:246
+35	novo	novo	ADJ	ADJ	_	34	amod	_	TokenRange=247:251
+36	parecis	_	NOUN	NOUN	_	29	parataxis	_	TokenRange=252:259
+37	mt	_	NOUN	NOUN	_	36	flat	_	TokenRange=260:262
+38	segundo	_	ADP	ADP	_	39	case	_	TokenRange=263:270
+39	denuncia	denuncia	NOUN	NOUN	_	29	nmod	_	TokenRange=271:279
+40	feita	_	VERB	VERB	_	39	acl	_	TokenRange=280:285
+41	revista	revista	NOUN	NOUN	_	40	nsubj	_	TokenRange=286:293
+42	carta	carta	NOUN	NOUN	_	41	appos	_	TokenRange=294:299
+43	capital	capital	ADJ	ADJ	_	42	amod	_	TokenRange=300:307
+44	fazenda	fazenda	NOUN	NOUN	_	41	appos	_	TokenRange=308:315
+45	itamarati	itamarati	NOUN	NOUN	_	44	appos	_	TokenRange=316:325
+46	norte	norte	ADJ	ADJ	_	48	amod	_	TokenRange=326:331
+47	arrendada	arrendado	ADJ	ADJ	_	48	amod	_	TokenRange=332:341
+48	grupo	grupo	NOUN	NOUN	_	44	appos	_	TokenRange=342:347
+49	amaggi	_	ADJ	NOUN	_	48	flat	_	TokenRange=348:354
+50	propriedade	propriedade	NOUN	NOUN	_	48	appos	_	TokenRange=355:366
+51	atual	atual	ADJ	ADJ	_	52	amod	_	TokenRange=367:372
+52	ministro	ministro	NOUN	NOUN	_	48	appos	_	TokenRange=373:381
+53	agricultura	agricultura	NOUN	NOUN	_	52	flat	_	TokenRange=382:393
+54	blairo	blairo	NOUN	NOUN	_	52	appos	_	TokenRange=394:400
+55	maggi	_	NOUN	NOUN	_	54	flat	_	TokenRange=401:406
+56	pp	_	NOUN	NOUN	_	57	cc	_	TokenRange=407:409
+57	familiares	familiar	NOUN	NOUN	_	54	conj	_	TokenRange=410:420
+58	aeronave	aeronave	NOUN	NOUN	_	57	flat	_	TokenRange=421:429
+59	sabe	saber	VERB	VERB	_	5	parataxis	_	TokenRange=430:434
+60	momento	momento	NOUN	NOUN	_	59	obj	_	TokenRange=435:442
+61	nenhuma	_	DET	DET	_	62	det	_	TokenRange=443:450
+62	ligacao	ligacao	NOUN	NOUN	_	59	obj	_	TokenRange=451:458
+63	donos	dono	NOUN	NOUN	_	62	appos	_	TokenRange=459:464
+64	area	area	NOUN	NOUN	_	62	appos	_	TokenRange=465:469
+65	arrendatarios	arrendatario	ADJ	ADJ	_	64	amod	_	TokenRange=470:483
+66	grupo	grupo	NOUN	NOUN	_	62	appos	_	TokenRange=484:489
+67	amaggi	_	NOUN	NOUN	_	66	flat	_	TokenRange=490:496
+68	ainda	ainda	ADV	ADV	_	69	advmod	_	TokenRange=497:502
+69	divulgou	divulgar	VERB	VERB	_	59	parataxis	_	TokenRange=503:511
+70	nenhuma	_	DET	DET	_	71	det	_	TokenRange=512:519
+71	nota	nota	NOUN	NOUN	_	69	obj	_	TokenRange=520:524
+72	oficial	oficial	ADJ	ADJ	_	71	amod	_	TokenRange=525:532
+73	fonte	fonte	NOUN	NOUN	_	69	parataxis	_	TokenRange=533:538
+74	link	link	NOUN	NOUN	_	73	flat	_	SpaceAfter=No|TokenRange=539:543
+

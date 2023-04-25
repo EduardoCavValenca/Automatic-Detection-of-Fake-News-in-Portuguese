@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa presidente michel temer dividiu oito capitulos pedido excecao suspeicao impedimento procuradorgeral republica rodrigo janot denunciou crime corrupcao passiva caso jbs 23 paginas encaminhadas ministro edson fachin relator operacao lava jato caso jbs supremo tribunal federal criminalista antonio claudio mariz oliveira expos argumentos contra atuacao janot topicos 1 flechadas alvo errado advogado toma base declaracoes procuradorgeral republica imprensa mariz destaca exemplo afirmacao janot congresso associacao brasileira
+1	defesa	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:6
+2	presidente	presidente	NOUN	NOUN	_	1	appos	_	TokenRange=7:17
+3	michel	michel	ADJ	ADJ	_	4	amod	_	TokenRange=18:24
+4	temer	temer	NOUN	NOUN	_	1	appos	_	TokenRange=25:30
+5	dividiu	dividir	VERB	VERB	_	0	root	_	TokenRange=31:38
+6	oito	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=39:43
+7	capitulos	capitulo	NOUN	NOUN	_	5	obj	_	TokenRange=44:53
+8	pedido	pedido	NOUN	NOUN	_	5	parataxis	_	TokenRange=54:60
+9	excecao	excecao	NOUN	NOUN	_	8	amod	_	TokenRange=61:68
+10	suspeicao	suspeicao	ADJ	ADJ	_	11	amod	_	TokenRange=69:78
+11	impedimento	impedimento	NOUN	NOUN	_	5	obj	_	TokenRange=79:90
+12	procuradorgeral	procuradorgeral	ADJ	ADJ	_	11	amod	_	TokenRange=91:106
+13	republica	republico	ADJ	ADJ	_	11	amod	_	TokenRange=107:116
+14	rodrigo	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=117:124
+15	janot	_	NOUN	NOUN	_	14	flat	_	TokenRange=125:130
+16	denunciou	denunciar	VERB	VERB	_	5	parataxis	_	TokenRange=131:140
+17	crime	crime	NOUN	NOUN	_	16	obj	_	TokenRange=141:146
+18	corrupcao	corrupcao	ADJ	ADJ	_	17	amod	_	TokenRange=147:156
+19	passiva	passivo	ADJ	ADJ	_	17	amod	_	TokenRange=157:164
+20	caso	caso	NOUN	NOUN	_	16	obj	_	TokenRange=165:169
+21	jbs	_	NOUN	NOUN	_	20	appos	_	TokenRange=170:173
+22	23	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=174:176
+23	paginas	pagina	NOUN	NOUN	_	20	appos	_	TokenRange=177:184
+24	encaminhadas	encaminhar	ADJ	ADJ	_	23	amod	_	TokenRange=185:197
+25	ministro	ministro	NOUN	NOUN	_	23	appos	_	TokenRange=198:206
+26	edson	_	NOUN	NOUN	_	25	appos	_	TokenRange=207:212
+27	fachin	_	NOUN	NOUN	_	25	flat	_	TokenRange=213:219
+28	relator	relator	NOUN	NOUN	_	25	appos	_	TokenRange=220:227
+29	operacao	operacao	ADJ	ADJ	_	25	appos	_	TokenRange=228:236
+30	lava	lava	NOUN	NOUN	_	25	appos	_	TokenRange=237:241
+31	jato	jato	NOUN	NOUN	_	30	flat	_	TokenRange=242:246
+32	caso	caso	NOUN	NOUN	_	30	appos	_	TokenRange=247:251
+33	jbs	_	X	X	_	32	flat	_	TokenRange=252:255
+34	supremo	supremo	ADJ	ADJ	_	35	amod	_	TokenRange=256:263
+35	tribunal	tribunal	NOUN	NOUN	_	32	appos	_	TokenRange=264:272
+36	federal	federal	ADJ	ADJ	_	35	amod	_	TokenRange=273:280
+37	criminalista	criminalista	ADJ	ADJ	_	35	amod	_	TokenRange=281:293
+38	antonio	antonio	ADJ	NOUN	_	35	appos	_	TokenRange=294:301
+39	claudio	claudio	NOUN	NOUN	_	38	flat	_	TokenRange=302:309
+40	mariz	_	NOUN	NOUN	_	38	flat	_	TokenRange=310:315
+41	oliveira	_	PROPN	PNOUN	_	38	flat	_	TokenRange=316:324
+42	expos	expo	VERB	VERB	_	5	conj	_	TokenRange=325:330
+43	argumentos	argumento	NOUN	NOUN	_	42	obj	_	TokenRange=331:341
+44	contra	_	ADP	ADP	_	45	case	_	TokenRange=342:348
+45	atuacao	atuacao	NOUN	NOUN	_	43	nmod	_	TokenRange=349:356
+46	janot	_	NOUN	NOUN	_	45	flat	_	TokenRange=357:362
+47	topicos	topico	NOUN	NOUN	_	45	appos	_	TokenRange=363:370
+48	1	_	NUM	NUM	NumType=Card	47	appos	_	TokenRange=371:372
+49	flechadas	flechado	ADJ	ADJ	_	47	amod	_	TokenRange=373:382
+50	alvo	alvo	NOUN	NOUN	_	45	appos	_	TokenRange=383:387
+51	errado	errado	ADJ	ADJ	_	50	amod	_	TokenRange=388:394
+52	advogado	advogado	NOUN	NOUN	_	50	appos	_	TokenRange=395:403
+53	toma	_	VERB	VERB	_	54	case	_	TokenRange=404:408
+54	base	base	NOUN	NOUN	_	50	nmod	_	TokenRange=409:413
+55	declaracoes	_	NOUN	NOUN	_	60	nsubj	_	TokenRange=414:425
+56	procuradorgeral	procuradorgeral	ADJ	ADJ	_	58	amod	_	TokenRange=426:441
+57	republica	republico	ADJ	ADJ	_	58	amod	_	TokenRange=442:451
+58	imprensa	imprensa	NOUN	NOUN	_	55	appos	_	TokenRange=452:460
+59	mariz	mariz	ADJ	ADJ	_	58	appos	_	TokenRange=461:466
+60	destaca	destacar	VERB	VERB	_	5	parataxis	_	TokenRange=467:474
+61	exemplo	exemplo	NOUN	NOUN	_	60	obj	_	TokenRange=475:482
+62	afirmacao	afirmacao	NOUN	NOUN	_	61	appos	_	TokenRange=483:492
+63	janot	_	NOUN	NOUN	_	62	appos	_	TokenRange=493:498
+64	congresso	congresso	NOUN	NOUN	_	62	appos	_	TokenRange=499:508
+65	associacao	associacao	NOUN	NOUN	_	62	appos	_	TokenRange=509:519
+66	brasileira	brasileiro	ADJ	ADJ	_	65	amod	_	SpaceAfter=No|TokenRange=520:530
+

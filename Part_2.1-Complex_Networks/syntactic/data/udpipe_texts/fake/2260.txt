@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma confusa consegue juntar le cre dilma senado resposta senadora simone tebet apenas cinco minutos dilma jogou balaio crise mundial 2009 crise hidrica paulo governo lula quebra banco lehman brothers banco investimentos eua alta dolar varias outras coisa dilma demonstra incrivel falta direcao confusa alguem poderia explicar presidenta fazendo ali tribuna senado
+1	dilma	dilma	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	confusa	confuso	ADJ	ADJ	_	1	amod	_	TokenRange=6:13
+3	consegue	conseguir	VERB	VERB	_	0	root	_	TokenRange=14:22
+4	juntar	juntar	VERB	VERB	_	3	xcomp	_	TokenRange=23:29
+5	le	_	DET	DET	_	6	det	_	TokenRange=30:32
+6	cre	_	NOUN	NOUN	_	4	obj	_	TokenRange=33:36
+7	dilma	dilma	NOUN	NOUN	_	6	appos	_	TokenRange=37:42
+8	senado	senado	NOUN	NOUN	_	6	appos	_	TokenRange=43:49
+9	resposta	resposta	NOUN	NOUN	_	4	obj	_	TokenRange=50:58
+10	senadora	senador	NOUN	NOUN	_	9	appos	_	TokenRange=59:67
+11	simone	simone	NOUN	NOUN	_	9	appos	_	TokenRange=68:74
+12	tebet	_	NOUN	NOUN	_	11	flat	_	TokenRange=75:80
+13	apenas	apenas	ADV	ADV	_	14	advmod	_	TokenRange=81:87
+14	cinco	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=88:93
+15	minutos	minuto	NOUN	NOUN	_	17	nmod	_	TokenRange=94:101
+16	dilma	dilma	NOUN	NOUN	_	17	nsubj	_	TokenRange=102:107
+17	jogou	jogar	VERB	VERB	_	9	acl:relcl	_	TokenRange=108:113
+18	balaio	balaio	ADJ	ADJ	_	19	amod	_	TokenRange=114:120
+19	crise	crise	NOUN	NOUN	_	17	obj	_	TokenRange=121:126
+20	mundial	mundial	ADJ	ADJ	_	19	amod	_	TokenRange=127:134
+21	2009	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=135:139
+22	crise	crise	NOUN	NOUN	_	19	appos	_	TokenRange=140:145
+23	hidrica	hidrico	ADJ	ADJ	_	22	amod	_	TokenRange=146:153
+24	paulo	paulo	ADJ	ADJ	_	25	amod	_	TokenRange=154:159
+25	governo	governo	NOUN	NOUN	_	27	nsubj	_	TokenRange=160:167
+26	lula	lula	ADJ	ADJ	_	25	flat	_	TokenRange=168:172
+27	quebra	quebrar	VERB	VERB	_	17	conj	_	TokenRange=173:179
+28	banco	banco	NOUN	NOUN	_	27	obj	_	TokenRange=180:185
+29	lehman	lehman	NOUN	NOUN	_	28	flat	_	TokenRange=186:192
+30	brothers	_	NOUN	NOUN	_	28	flat	_	TokenRange=193:201
+31	banco	banco	NOUN	NOUN	_	28	appos	_	TokenRange=202:207
+32	investimentos	investimento	NOUN	NOUN	_	31	flat	_	TokenRange=208:221
+33	eua	_	DET	DET	_	35	det:poss	_	TokenRange=222:225
+34	alta	alto	ADJ	ADJ	_	35	amod	_	TokenRange=226:230
+35	dolar	dolar	NOUN	NOUN	_	31	appos	_	TokenRange=231:236
+36	varias	_	DET	DET	_	38	det	_	TokenRange=237:243
+37	outras	_	DET	DET	_	38	det	_	TokenRange=244:250
+38	coisa	coisa	NOUN	NOUN	_	40	nsubj	_	TokenRange=251:256
+39	dilma	dilma	ADJ	ADJ	_	38	amod	_	TokenRange=257:262
+40	demonstra	demonstrar	VERB	VERB	_	3	parataxis	_	TokenRange=263:272
+41	incrivel	incrivel	ADJ	ADJ	_	42	amod	_	TokenRange=273:281
+42	falta	_	NOUN	NOUN	_	40	obj	_	TokenRange=282:287
+43	direcao	direcao	NOUN	NOUN	_	40	nsubj	_	TokenRange=288:295
+44	confusa	confuso	ADJ	ADJ	_	43	amod	_	TokenRange=296:303
+45	alguem	_	PRON	PRON	_	47	nsubj	_	TokenRange=304:310
+46	poderia	poder	AUX	AUX	_	47	aux	_	TokenRange=311:318
+47	explicar	explicar	VERB	VERB	_	40	parataxis	_	TokenRange=319:327
+48	presidenta	_	NOUN	NOUN	_	47	obj	_	TokenRange=328:338
+49	fazendo	fazer	VERB	VERB	_	47	acl	_	TokenRange=339:346
+50	ali	ali	ADV	ADV	_	49	advmod	_	TokenRange=347:350
+51	tribuna	tribuna	NOUN	NOUN	_	49	obj	_	TokenRange=351:358
+52	senado	senado	NOUN	NOUN	_	51	appos	_	SpaceAfter=No|TokenRange=359:365
+

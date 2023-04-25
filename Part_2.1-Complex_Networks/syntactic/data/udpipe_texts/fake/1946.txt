@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro fala sobre possibilidade intervencao militar deputado posicionou relacao posimpeachment dilma rousseff dilma sair temo luta armada volte coracao brasil vai chamar pessoal direitos humanos livrar comunismo vai lembrar militares brilhantes novamente cumpram missao bravamente cumpriram bem passado
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	fala	_	VERB	VERB	_	0	root	_	TokenRange=10:14
+3	sobre	_	ADP	ADP	_	4	case	_	TokenRange=15:20
+4	possibilidade	possibilidade	NOUN	NOUN	_	2	nmod	_	TokenRange=21:34
+5	intervencao	intervencao	NOUN	NOUN	_	4	appos	_	TokenRange=35:46
+6	militar	militar	ADJ	ADJ	_	5	amod	_	TokenRange=47:54
+7	deputado	deputado	NOUN	NOUN	_	8	nsubj	_	TokenRange=55:63
+8	posicionou	posicionar	VERB	VERB	_	4	acl:relcl	_	TokenRange=64:74
+9	relacao	relacao	NOUN	NOUN	_	8	obj	_	TokenRange=75:82
+10	posimpeachment	_	NOUN	NOUN	_	9	appos	_	TokenRange=83:97
+11	dilma	dilma	NOUN	NOUN	_	9	appos	_	TokenRange=98:103
+12	rousseff	rousseff	NOUN	NOUN	_	11	flat	_	TokenRange=104:112
+13	dilma	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=113:118
+14	sair	sair	VERB	VERB	_	9	acl:relcl	_	TokenRange=119:123
+15	temo	ter	VERB	VERB	_	14	ccomp	_	TokenRange=124:128
+16	luta	luta	NOUN	NOUN	_	15	obj	_	TokenRange=129:133
+17	armada	armado	ADJ	ADJ	_	16	amod	_	TokenRange=134:140
+18	volte	voltar	VERB	VERB	_	22	nsubj	_	TokenRange=141:146
+19	coracao	coracao	NOUN	NOUN	_	22	nmod	_	TokenRange=147:154
+20	brasil	brasil	ADJ	ADJ	_	19	amod	_	TokenRange=155:161
+21	vai	ir	AUX	AUX	_	22	aux	_	TokenRange=162:165
+22	chamar	chamar	VERB	VERB	_	15	conj	_	TokenRange=166:172
+23	pessoal	pessoal	ADJ	ADJ	_	22	xcomp	_	TokenRange=173:180
+24	direitos	direito	NOUN	NOUN	_	22	obj	_	TokenRange=181:189
+25	humanos	humano	ADJ	ADJ	_	24	amod	_	TokenRange=190:197
+26	livrar	livrar	VERB	VERB	_	22	ccomp	_	TokenRange=198:204
+27	comunismo	comunismo	NOUN	NOUN	_	26	obj	_	TokenRange=205:214
+28	vai	ir	AUX	AUX	_	29	aux	_	TokenRange=215:218
+29	lembrar	lembrar	VERB	VERB	_	22	ccomp	_	TokenRange=219:226
+30	militares	militar	NOUN	NOUN	_	29	obj	_	TokenRange=227:236
+31	brilhantes	brilhante	ADJ	ADJ	_	30	amod	_	TokenRange=237:247
+32	novamente	novamente	ADV	ADV	_	33	advmod	_	TokenRange=248:257
+33	cumpram	cumprir	VERB	VERB	_	29	parataxis	_	TokenRange=258:265
+34	missao	missao	NOUN	NOUN	_	33	obj	_	TokenRange=266:272
+35	bravamente	bravamente	ADV	ADV	_	36	advmod	_	TokenRange=273:283
+36	cumpriram	cumprir	VERB	VERB	_	33	parataxis	_	TokenRange=284:293
+37	bem	bem	ADV	ADV	_	38	advmod	_	TokenRange=294:297
+38	passado	passado	ADJ	ADJ	_	36	xcomp	_	SpaceAfter=No|TokenRange=298:305
+

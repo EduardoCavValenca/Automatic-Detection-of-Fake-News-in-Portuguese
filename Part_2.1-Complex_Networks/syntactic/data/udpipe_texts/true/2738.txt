@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = belem estudante raphael souza 19 anos margens canal joaquim zona norte belem abordado dois homens pediam celular negouse entregar aparelho atingido tiro peito causou panico irmao testemunha crime sensacao ruim lembrar disso vi irmao morrer nada pude fazer porque morreria reagisse disse parente prefere esconder identidade ainda vive medo duas pessoas chegaram presas morte souza setembro
+1	belem	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=0:5
+2	estudante	estudante	NOUN	NOUN	_	1	appos	_	TokenRange=6:15
+3	raphael	_	NOUN	NOUN	_	1	appos	_	TokenRange=16:23
+4	souza	_	NOUN	NOUN	_	3	flat	_	TokenRange=24:29
+5	19	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=30:32
+6	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=33:37
+7	margens	margem	NOUN	NOUN	_	1	appos	_	TokenRange=38:45
+8	canal	canal	NOUN	NOUN	_	1	appos	_	TokenRange=46:51
+9	joaquim	joaquim	ADJ	ADJ	_	10	amod	_	TokenRange=52:59
+10	zona	zona	NOUN	NOUN	_	1	appos	_	TokenRange=60:64
+11	norte	norte	ADJ	ADJ	_	10	amod	_	TokenRange=65:70
+12	belem	_	NOUN	NOUN	_	10	appos	_	TokenRange=71:76
+13	abordado	abordado	ADJ	ADJ	_	10	amod	_	TokenRange=77:85
+14	dois	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=86:90
+15	homens	homem	NOUN	NOUN	_	16	nsubj	_	TokenRange=91:97
+16	pediam	pedir	VERB	VERB	_	1	acl:relcl	_	TokenRange=98:104
+17	celular	_	NOUN	NOUN	_	16	obj	_	TokenRange=105:112
+18	negouse	negousar	VERB	VERB	_	0	root	_	TokenRange=113:120
+19	entregar	entregar	VERB	VERB	_	18	xcomp	_	TokenRange=121:129
+20	aparelho	aparelho	NOUN	NOUN	_	19	obj	_	TokenRange=130:138
+21	atingido	atingir	ADJ	VERB	_	20	acl	_	TokenRange=139:147
+22	tiro	tiro	NOUN	NOUN	_	20	appos	_	TokenRange=148:152
+23	peito	peito	NOUN	NOUN	_	22	flat	_	TokenRange=153:158
+24	causou	causar	VERB	VERB	_	1	acl:relcl	_	TokenRange=159:165
+25	panico	panico	NOUN	NOUN	_	24	obj	_	TokenRange=166:172
+26	irmao	irmao	NOUN	NOUN	_	25	appos	_	TokenRange=173:178
+27	testemunha	testemunha	NOUN	NOUN	_	25	appos	_	TokenRange=179:189
+28	crime	crime	NOUN	NOUN	_	27	flat	_	TokenRange=190:195
+29	sensacao	sensacao	NOUN	NOUN	_	24	nsubj	_	TokenRange=196:204
+30	ruim	ruim	ADJ	ADJ	_	29	amod	_	TokenRange=205:209
+31	lembrar	lembrar	VERB	VERB	_	24	ccomp	_	TokenRange=210:217
+32	disso	_	X	ADPPRON	_	31	nmod	_	TokenRange=218:223
+33	vi	_	VERB	VERB	_	31	ccomp	_	TokenRange=224:226
+34	irmao	irmao	NOUN	NOUN	_	31	nsubj	_	TokenRange=227:232
+35	morrer	morrer	VERB	VERB	_	34	acl:inf	_	TokenRange=233:239
+36	nada	_	PRON	PRON	_	38	nsubj	_	TokenRange=240:244
+37	pude	poder	AUX	AUX	_	38	aux	_	TokenRange=245:249
+38	fazer	fazer	VERB	VERB	_	35	ccomp	_	TokenRange=250:255
+39	porque	_	CCONJ	CONJ	_	40	mark	_	TokenRange=256:262
+40	morreria	morrer	VERB	VERB	_	38	advcl	_	TokenRange=263:271
+41	reagisse	reagir	VERB	VERB	_	40	xcomp	_	TokenRange=272:280
+42	disse	dizer	VERB	VERB	_	40	advcl	_	TokenRange=281:286
+43	parente	parente	NOUN	NOUN	_	44	nsubj	_	TokenRange=287:294
+44	prefere	preferir	VERB	VERB	_	42	ccomp	_	TokenRange=295:302
+45	esconder	esconder	VERB	VERB	_	44	xcomp	_	TokenRange=303:311
+46	identidade	identidade	NOUN	NOUN	_	45	obj	_	TokenRange=312:322
+47	ainda	ainda	ADV	ADV	_	48	advmod	_	TokenRange=323:328
+48	vive	_	VERB	VERB	_	42	parataxis	_	TokenRange=329:333
+49	medo	medo	NOUN	NOUN	_	48	obj	_	TokenRange=334:338
+50	duas	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=339:343
+51	pessoas	pessoa	NOUN	NOUN	_	52	nsubj	_	TokenRange=344:351
+52	chegaram	chegar	VERB	VERB	_	42	ccomp	_	TokenRange=352:360
+53	presas	preso	ADJ	ADJ	_	52	xcomp	_	TokenRange=361:367
+54	morte	morte	NOUN	NOUN	_	52	parataxis	_	TokenRange=368:373
+55	souza	_	PROPN	PNOUN	_	54	appos	_	TokenRange=374:379
+56	setembro	_	PROPN	PNOUN	_	55	flat	_	SpaceAfter=No|TokenRange=380:388
+

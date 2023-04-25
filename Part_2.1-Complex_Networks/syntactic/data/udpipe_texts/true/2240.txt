@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = forum estadao discute caminhos crescimento evento ocorre paulo dia 3 abril segundo serie seis eventos debatem reconstrucao brasil estado realiza proxima tercafeira dia 3 abril paulo segundo debate serie forum estadao reconstrucao brasil desta vez convidados vao debater tema caminhos crescimento
+1	forum	forum	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	estadao	estadao	NOUN	NOUN	_	1	flat	_	TokenRange=6:13
+3	discute	discutir	VERB	VERB	_	0	root	_	TokenRange=14:21
+4	caminhos	caminho	NOUN	NOUN	_	3	obj	_	TokenRange=22:30
+5	crescimento	crescimento	NOUN	NOUN	_	4	flat	_	TokenRange=31:42
+6	evento	evento	NOUN	NOUN	_	3	obj	_	TokenRange=43:49
+7	ocorre	ocorrer	VERB	VERB	_	3	parataxis	_	TokenRange=50:56
+8	paulo	paulo	NOUN	NOUN	_	7	obj	_	TokenRange=57:62
+9	dia	dia	NOUN	NOUN	_	7	nmod	_	TokenRange=63:66
+10	3	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=67:68
+11	abril	_	PROPN	PNOUN	_	9	appos	_	TokenRange=69:74
+12	segundo	segundo	ADJ	ADJ	_	13	amod	_	TokenRange=75:82
+13	serie	serie	NOUN	NOUN	_	16	nmod	_	TokenRange=83:88
+14	seis	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=89:93
+15	eventos	evento	NOUN	NOUN	_	16	nsubj	_	TokenRange=94:101
+16	debatem	debater	VERB	VERB	_	3	parataxis	_	TokenRange=102:109
+17	reconstrucao	reconstrucao	NOUN	NOUN	_	16	obj	_	TokenRange=110:122
+18	brasil	brasil	ADJ	ADJ	_	17	amod	_	TokenRange=123:129
+19	estado	estado	NOUN	NOUN	_	17	appos	_	TokenRange=130:136
+20	realiza	realizar	VERB	VERB	_	16	parataxis	_	TokenRange=137:144
+21	proxima	proximo	ADJ	ADJ	_	22	amod	_	TokenRange=145:152
+22	tercafeira	_	NOUN	NOUN	_	20	obj	_	TokenRange=153:163
+23	dia	dia	NOUN	NOUN	_	20	nmod	_	TokenRange=164:167
+24	3	_	NUM	NUM	NumType=Card	23	appos	_	TokenRange=168:169
+25	abril	_	PROPN	PNOUN	_	23	nmod	_	TokenRange=170:175
+26	paulo	_	PROPN	PNOUN	_	23	appos	_	TokenRange=176:181
+27	segundo	segundo	ADJ	ADJ	_	28	amod	_	TokenRange=182:189
+28	debate	debate	NOUN	NOUN	_	20	parataxis	_	TokenRange=190:196
+29	serie	_	NOUN	NOUN	_	28	appos	_	TokenRange=197:202
+30	forum	forum	NOUN	NOUN	_	28	appos	_	TokenRange=203:208
+31	estadao	estadao	NOUN	NOUN	_	30	appos	_	TokenRange=209:216
+32	reconstrucao	reconstrucao	NOUN	NOUN	_	30	appos	_	TokenRange=217:229
+33	brasil	brasil	NOUN	NOUN	_	32	flat	_	TokenRange=230:236
+34	desta	_	ADP	ADP	_	35	case	_	TokenRange=237:242
+35	vez	vez	NOUN	NOUN	_	38	nmod	_	TokenRange=243:246
+36	convidados	convidado	NOUN	NOUN	_	38	nsubj	_	TokenRange=247:257
+37	vao	ir	AUX	AUX	_	38	aux	_	TokenRange=258:261
+38	debater	debater	VERB	VERB	_	20	parataxis	_	TokenRange=262:269
+39	tema	tema	NOUN	NOUN	_	38	obj	_	TokenRange=270:274
+40	caminhos	caminho	NOUN	NOUN	_	39	appos	_	TokenRange=275:283
+41	crescimento	crescimento	NOUN	NOUN	_	40	flat	_	SpaceAfter=No|TokenRange=284:295
+

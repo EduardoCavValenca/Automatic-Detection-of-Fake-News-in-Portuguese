@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joesley diz depoimento gravacoes ainda entregues pgr dono jf prestou depoimento semana passada delacao revisao beneficios temporariamente suspensos segundo joesley frase vamos presos mantra empresario joesley batista
+1	joesley	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	depoimento	depoimento	NOUN	NOUN	_	2	obj	_	TokenRange=12:22
+4	gravacoes	_	NOUN	NOUN	_	3	amod	_	TokenRange=23:32
+5	ainda	ainda	ADV	ADV	_	6	advmod	_	TokenRange=33:38
+6	entregues	entregar	VERB	VERB	_	3	acl	_	TokenRange=39:48
+7	pgr	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=49:52
+8	dono	dono	NOUN	NOUN	_	10	nsubj	_	TokenRange=53:57
+9	jf	_	NOUN	NOUN	_	8	flat	_	TokenRange=58:60
+10	prestou	prestar	VERB	VERB	_	2	conj	_	TokenRange=61:68
+11	depoimento	depoimento	NOUN	NOUN	_	10	obj	_	TokenRange=69:79
+12	semana	semana	NOUN	NOUN	_	10	nmod	_	TokenRange=80:86
+13	passada	passado	ADJ	ADJ	_	12	amod	_	TokenRange=87:94
+14	delacao	delacao	NOUN	NOUN	_	10	nsubj	_	TokenRange=95:102
+15	revisao	revisao	ADJ	ADJ	_	16	amod	_	TokenRange=103:110
+16	beneficios	beneficio	NOUN	NOUN	_	10	obj	_	TokenRange=111:121
+17	temporariamente	temporariamente	ADV	ADV	_	18	advmod	_	TokenRange=122:137
+18	suspensos	suspenso	ADJ	ADJ	_	16	amod	_	TokenRange=138:147
+19	segundo	_	ADP	ADP	_	20	case	_	TokenRange=148:155
+20	joesley	_	NOUN	NOUN	_	23	nmod	_	TokenRange=156:163
+21	frase	frase	NOUN	NOUN	_	20	flat	_	TokenRange=164:169
+22	vamos	ir	AUX	AUX	_	23	aux	_	TokenRange=170:175
+23	presos	prender	ADJ	ADJ	_	24	parataxis	_	TokenRange=176:182
+24	mantra	mantra	NOUN	NOUN	_	2	parataxis	_	TokenRange=183:189
+25	empresario	empresario	NOUN	NOUN	_	24	flat	_	TokenRange=190:200
+26	joesley	_	NOUN	NOUN	_	24	appos	_	TokenRange=201:208
+27	batista	batista	ADJ	ADJ	_	26	amod	_	SpaceAfter=No|TokenRange=209:216
+

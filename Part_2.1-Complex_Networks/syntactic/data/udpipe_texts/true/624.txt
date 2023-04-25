@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = condenado matar namorada durante sexo es responde liberdade apos julgamento porque ainda cabe recurso decisao justica condenou 13 anos prisao ultimo dia 6 dezembro apos condenado julgamento acusado matar namorada durante relacao sexual marcos rogerio amorim junior continua liberdade porque ainda cabe recurso decisao justica condenou 13 anos prisao ultimo dia 6 dezembro defesa conseguiu aguardasse
+1	condenado	condenar	VERB	VERB	_	7	acl	_	TokenRange=0:9
+2	matar	matar	VERB	VERB	_	1	xcomp	_	TokenRange=10:15
+3	namorada	_	NOUN	NOUN	_	2	obj	_	TokenRange=16:24
+4	durante	_	ADP	ADP	_	5	case	_	TokenRange=25:32
+5	sexo	sexo	NOUN	NOUN	_	2	nmod	_	TokenRange=33:37
+6	es	_	PRON	PRON	_	7	nsubj	_	TokenRange=38:40
+7	responde	responder	VERB	VERB	_	0	root	_	TokenRange=41:49
+8	liberdade	liberdade	NOUN	NOUN	_	7	obj	_	TokenRange=50:59
+9	apos	_	ADP	ADP	_	10	case	_	TokenRange=60:64
+10	julgamento	julgamento	NOUN	NOUN	_	7	nmod	_	TokenRange=65:75
+11	porque	_	CCONJ	CONJ	_	13	mark	_	TokenRange=76:82
+12	ainda	ainda	ADV	ADV	_	13	advmod	_	TokenRange=83:88
+13	cabe	caber	VERB	VERB	_	17	advcl	_	TokenRange=89:93
+14	recurso	recurso	NOUN	NOUN	_	13	nsubj	_	TokenRange=94:101
+15	decisao	decisao	NOUN	NOUN	_	14	appos	_	TokenRange=102:109
+16	justica	_	NOUN	NOUN	_	14	amod	_	TokenRange=110:117
+17	condenou	condenar	VERB	VERB	_	7	parataxis	_	TokenRange=118:126
+18	13	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=127:129
+19	anos	ano	NOUN	NOUN	_	17	nmod	_	TokenRange=130:134
+20	prisao	prisao	ADJ	ADJ	_	17	parataxis	_	TokenRange=135:141
+21	ultimo	_	ADJ	ADJ	_	22	amod	_	TokenRange=142:148
+22	dia	dia	NOUN	NOUN	_	17	nmod	_	TokenRange=149:152
+23	6	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=153:154
+24	dezembro	_	PROPN	PNOUN	_	22	nmod	_	TokenRange=155:163
+25	apos	_	CCONJ	ADP	_	27	mark	_	TokenRange=164:168
+26	condenado	condenar	VERB	VERB	_	27	acl	_	TokenRange=169:178
+27	julgamento	julgamento	NOUN	NOUN	_	38	nsubj	_	TokenRange=179:189
+28	acusado	acusar	VERB	VERB	_	27	acl	_	TokenRange=190:197
+29	matar	matar	VERB	VERB	_	28	xcomp	_	TokenRange=198:203
+30	namorada	_	NOUN	NOUN	_	29	obj	_	TokenRange=204:212
+31	durante	_	ADP	ADP	_	32	case	_	TokenRange=213:220
+32	relacao	relacao	NOUN	NOUN	_	29	nmod	_	TokenRange=221:228
+33	sexual	sexual	ADJ	ADJ	_	32	amod	_	TokenRange=229:235
+34	marcos	marco	NOUN	NOUN	_	32	appos	_	TokenRange=236:242
+35	rogerio	rogerio	NOUN	NOUN	_	34	appos	_	TokenRange=243:250
+36	amorim	amorim	ADJ	NOUN	_	34	flat	_	TokenRange=251:257
+37	junior	junior	ADJ	ADJ	_	35	amod	_	TokenRange=258:264
+38	continua	continuar	VERB	VERB	_	17	parataxis	_	TokenRange=265:273
+39	liberdade	liberdade	NOUN	NOUN	_	38	obj	_	TokenRange=274:283
+40	porque	_	CCONJ	CONJ	_	42	mark	_	TokenRange=284:290
+41	ainda	ainda	ADV	ADV	_	42	advmod	_	TokenRange=291:296
+42	cabe	caber	VERB	VERB	_	38	advcl	_	TokenRange=297:301
+43	recurso	recurso	NOUN	NOUN	_	42	nsubj	_	TokenRange=302:309
+44	decisao	decisao	NOUN	NOUN	_	43	appos	_	TokenRange=310:317
+45	justica	_	ADJ	ADJ	_	44	amod	_	TokenRange=318:325
+46	condenou	condenar	VERB	VERB	_	42	parataxis	_	TokenRange=326:334
+47	13	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=335:337
+48	anos	ano	NOUN	NOUN	_	46	obj	_	TokenRange=338:342
+49	prisao	prisao	ADJ	ADJ	_	46	xcomp	_	TokenRange=343:349
+50	ultimo	_	ADJ	ADJ	_	51	amod	_	TokenRange=350:356
+51	dia	dia	NOUN	NOUN	_	46	nmod	_	TokenRange=357:360
+52	6	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=361:362
+53	dezembro	_	PROPN	PNOUN	_	51	nmod	_	TokenRange=363:371
+54	defesa	_	NOUN	NOUN	_	55	nsubj	_	TokenRange=372:378
+55	conseguiu	conseguir	VERB	VERB	_	38	parataxis	_	TokenRange=379:388
+56	aguardasse	aguardar	VERB	VERB	_	55	xcomp	_	SpaceAfter=No|TokenRange=389:399
+

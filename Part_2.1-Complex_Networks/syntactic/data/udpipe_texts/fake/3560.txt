@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eneas carneiro sobre lula alguem nunca educou si pode dirigir pais entrevistado nada nada menos eneas carneiro excandidatos inteligentes pais conheceu trecho programa roda viva tv cultura sei pessoa nunca educada nunca educou ninguem pode falar educacao entendo agora senhor diz ofendendo ofendendo fazendo diagnostico preciso
+1	eneas	enea	NOUN	NOUN	_	41	nsubj	_	TokenRange=0:5
+2	carneiro	carneiro	NOUN	NOUN	_	1	flat	_	TokenRange=6:14
+3	sobre	_	ADP	ADP	_	4	case	_	TokenRange=15:20
+4	lula	lula	NOUN	NOUN	_	1	nmod	_	TokenRange=21:25
+5	alguem	_	PRON	PRON	_	1	appos	_	TokenRange=26:32
+6	nunca	nunca	ADV	ADV	_	7	advmod	_	TokenRange=33:38
+7	educou	educar	VERB	VERB	_	1	acl:relcl	_	TokenRange=39:45
+8	si	_	PRON	PRON	_	10	nsubj	_	TokenRange=46:48
+9	pode	_	AUX	AUX	_	10	aux	_	TokenRange=49:53
+10	dirigir	dirigir	VERB	VERB	_	7	ccomp	_	TokenRange=54:61
+11	pais	_	NOUN	NOUN	_	10	obj	_	TokenRange=62:66
+12	entrevistado	entrevistar	VERB	VERB	_	11	acl	_	TokenRange=67:79
+13	nada	_	PRON	PRON	_	12	nsubj	_	TokenRange=80:84
+14	nada	_	PRON	PRON	_	15	advmod	_	TokenRange=85:89
+15	menos	menos	ADV	ADV	_	12	advmod	_	TokenRange=90:95
+16	eneas	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=96:101
+17	carneiro	carneiro	NOUN	NOUN	_	21	nsubj	_	TokenRange=102:110
+18	excandidatos	excandidato	NOUN	NOUN	_	16	appos	_	TokenRange=111:123
+19	inteligentes	inteligente	ADJ	ADJ	_	18	amod	_	TokenRange=124:136
+20	pais	_	NOUN	NOUN	_	18	amod	_	TokenRange=137:141
+21	conheceu	conhecer	VERB	VERB	_	11	acl:relcl	_	TokenRange=142:150
+22	trecho	trecho	NOUN	NOUN	_	21	obj	_	TokenRange=151:157
+23	programa	programa	NOUN	NOUN	_	21	obj	_	TokenRange=158:166
+24	roda	roda	NOUN	NOUN	_	23	appos	_	TokenRange=167:171
+25	viva	vivo	ADJ	ADJ	_	24	amod	_	TokenRange=172:176
+26	tv	_	DET	DET	_	27	det	_	TokenRange=177:179
+27	cultura	cultura	NOUN	NOUN	_	21	nsubj	_	TokenRange=180:187
+28	sei	saber	ADJ	ADJ	_	29	amod	_	TokenRange=188:191
+29	pessoa	pessoa	NOUN	NOUN	_	27	appos	_	TokenRange=192:198
+30	nunca	nunca	ADV	ADV	_	31	advmod	_	TokenRange=199:204
+31	educada	educado	ADJ	ADJ	_	29	amod	_	TokenRange=205:212
+32	nunca	nunca	ADV	ADV	_	33	advmod	_	TokenRange=213:218
+33	educou	educar	VERB	VERB	_	29	acl:relcl	_	TokenRange=219:225
+34	ninguem	_	PRON	PRON	_	36	nsubj	_	TokenRange=226:233
+35	pode	_	AUX	AUX	_	36	aux	_	TokenRange=234:238
+36	falar	falar	VERB	VERB	_	33	ccomp	_	TokenRange=239:244
+37	educacao	educacao	NOUN	NOUN	_	36	obj	_	TokenRange=245:253
+38	entendo	entender	VERB	VERB	_	36	parataxis	_	TokenRange=254:261
+39	agora	agora	ADV	ADV	_	38	advmod	_	TokenRange=262:267
+40	senhor	senhor	NOUN	NOUN	_	41	nsubj	_	TokenRange=268:274
+41	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=275:278
+42	ofendendo	ofender	VERB	VERB	_	41	acl	_	TokenRange=279:288
+43	ofendendo	ofender	VERB	VERB	_	42	acl	_	TokenRange=289:298
+44	fazendo	fazer	VERB	VERB	_	42	acl	_	TokenRange=299:306
+45	diagnostico	diagnostico	NOUN	NOUN	_	44	obj	_	TokenRange=307:318
+46	preciso	preciso	ADJ	ADJ	_	45	amod	_	SpaceAfter=No|TokenRange=319:326
+

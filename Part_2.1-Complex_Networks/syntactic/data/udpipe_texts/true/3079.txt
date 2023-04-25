@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = secretaria seguranca publica rio grande sul pediu fechamento todos predios publicos parque mauricio sirotsky sobrinho conhecido parque harmonia entorno sede tribunal regional federal 4 regiao trf4 porto alegre 8 turma penal corte vai analisar dia 24 recurso expresidente luiz inacio lula silva petista condenado 9 anos 6 meses prisao juiz sergio moro lava jato curitiba caso triplex guaruja sp presidente pt senadora gleisi hoffmann ptpr
+1	secretaria	secretaria	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:10
+2	seguranca	_	ADJ	ADJ	_	1	amod	_	TokenRange=11:20
+3	publica	publico	ADJ	ADJ	_	1	amod	_	TokenRange=21:28
+4	rio	rio	NOUN	NOUN	_	1	appos	_	TokenRange=29:32
+5	grande	grande	ADJ	ADJ	_	4	amod	_	TokenRange=33:39
+6	sul	sul	ADJ	ADJ	_	1	amod	_	TokenRange=40:43
+7	pediu	pedir	VERB	VERB	_	0	root	_	TokenRange=44:49
+8	fechamento	fechamento	NOUN	NOUN	_	7	obj	_	TokenRange=50:60
+9	todos	_	DET	DET	_	10	det	_	TokenRange=61:66
+10	predios	predio	NOUN	NOUN	_	7	obj	_	TokenRange=67:74
+11	publicos	publico	ADJ	ADJ	_	10	amod	_	TokenRange=75:83
+12	parque	parque	NOUN	NOUN	_	10	appos	_	TokenRange=84:90
+13	mauricio	mauricio	NOUN	NOUN	_	12	appos	_	TokenRange=91:99
+14	sirotsky	_	NOUN	NOUN	_	13	flat	_	TokenRange=100:108
+15	sobrinho	_	NOUN	NOUN	_	10	amod	_	TokenRange=109:117
+16	conhecido	conhecido	ADJ	ADJ	_	17	amod	_	TokenRange=118:127
+17	parque	parque	NOUN	NOUN	_	10	appos	_	TokenRange=128:134
+18	harmonia	harmonia	NOUN	NOUN	_	17	flat	_	TokenRange=135:143
+19	entorno	_	ADJ	ADJ	_	20	amod	_	TokenRange=144:151
+20	sede	sede	NOUN	NOUN	_	17	appos	_	TokenRange=152:156
+21	tribunal	tribunal	NOUN	NOUN	_	20	appos	_	TokenRange=157:165
+22	regional	regional	ADJ	ADJ	_	21	amod	_	TokenRange=166:174
+23	federal	federal	ADJ	ADJ	_	21	amod	_	TokenRange=175:182
+24	4	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=183:184
+25	regiao	regiao	NOUN	NOUN	_	20	appos	_	TokenRange=185:191
+26	trf4	_	NOUN	NOUN	_	25	appos	_	TokenRange=192:196
+27	porto	_	NOUN	NOUN	_	25	appos	_	TokenRange=197:202
+28	alegre	alegre	ADJ	ADJ	_	27	amod	_	TokenRange=203:209
+29	8	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=210:211
+30	turma	turma	NOUN	NOUN	_	25	appos	_	TokenRange=212:217
+31	penal	penal	ADJ	ADJ	_	30	amod	_	TokenRange=218:223
+32	corte	corte	NOUN	NOUN	_	34	nsubj	_	TokenRange=224:229
+33	vai	ir	AUX	AUX	_	34	aux	_	TokenRange=230:233
+34	analisar	analisar	VERB	VERB	_	7	parataxis	_	TokenRange=234:242
+35	dia	dia	NOUN	NOUN	_	34	nmod	_	TokenRange=243:246
+36	24	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=247:249
+37	recurso	recurso	NOUN	NOUN	_	34	obj	_	TokenRange=250:257
+38	expresidente	expresidente	NOUN	NOUN	_	37	appos	_	TokenRange=258:270
+39	luiz	luiz	ADJ	NOUN	_	37	appos	_	TokenRange=271:275
+40	inacio	_	NOUN	NOUN	_	39	flat	_	TokenRange=276:282
+41	lula	_	ADJ	NOUN	_	39	flat	_	TokenRange=283:287
+42	silva	silva	ADJ	ADJ	_	39	flat	_	TokenRange=288:293
+43	petista	petista	NOUN	NOUN	_	34	obj	_	TokenRange=294:301
+44	condenado	condenar	VERB	VERB	_	43	acl	_	TokenRange=302:311
+45	9	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=312:313
+46	anos	ano	NOUN	NOUN	_	44	nmod	_	TokenRange=314:318
+47	6	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=319:320
+48	meses	mês	NOUN	NOUN	_	44	nmod	_	TokenRange=321:326
+49	prisao	prisao	ADJ	ADJ	_	50	amod	_	TokenRange=327:333
+50	juiz	juiz	NOUN	NOUN	_	53	nsubj	_	TokenRange=334:338
+51	sergio	sergio	NOUN	NOUN	_	50	appos	_	TokenRange=339:345
+52	moro	moro	NOUN	NOUN	_	50	flat	_	TokenRange=346:350
+53	lava	lavar	VERB	VERB	_	7	parataxis	_	TokenRange=351:355
+54	jato	jato	NOUN	NOUN	_	53	obj	_	TokenRange=356:360
+55	curitiba	curitiba	ADJ	ADJ	_	54	amod	_	TokenRange=361:369
+56	caso	caso	NOUN	NOUN	_	53	obj	_	TokenRange=370:374
+57	triplex	_	NOUN	NOUN	_	56	flat	_	TokenRange=375:382
+58	guaruja	guaruja	NOUN	NOUN	_	56	appos	_	TokenRange=383:390
+59	sp	_	PART	PRT	_	60	cc	_	TokenRange=391:393
+60	presidente	presidente	NOUN	NOUN	_	56	appos	_	TokenRange=394:404
+61	pt	_	PROPN	PNOUN	_	60	appos	_	TokenRange=405:407
+62	senadora	senador	NOUN	NOUN	_	60	appos	_	TokenRange=408:416
+63	gleisi	_	NOUN	NOUN	_	60	appos	_	TokenRange=417:423
+64	hoffmann	_	NOUN	NOUN	_	63	flat	_	TokenRange=424:432
+65	ptpr	ptpr	NOUN	NOUN	_	60	appos	_	SpaceAfter=No|TokenRange=433:437
+

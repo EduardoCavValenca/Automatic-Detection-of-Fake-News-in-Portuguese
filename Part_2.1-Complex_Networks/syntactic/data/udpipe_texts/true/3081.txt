@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fachin prorroga 60 dias prazo inquerito investiga dilma lula ministro atendeu pedido procuradorgeral rodrigo janot pediu tempo aprofundar investigacoes pgr apura episodio nomeacao lula chefia casa civil ministro luiz edson fachin supremo tribunal federal stf prorrogou 60 dias inquerito aberto apurar outras suspeitas nomeacao expresidente luiz inacio lula silva chefia casa civil tentativa obstruir investigacoes operacao
+1	fachin	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	prorroga	prorrogar	VERB	VERB	_	0	root	_	TokenRange=7:15
+3	60	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=16:18
+4	dias	dia	NOUN	NOUN	_	2	obj	_	TokenRange=19:23
+5	prazo	prazo	NOUN	NOUN	_	4	appos	_	TokenRange=24:29
+6	inquerito	inquerito	ADJ	ADJ	_	5	amod	_	TokenRange=30:39
+7	investiga	investigar	VERB	VERB	_	2	parataxis	_	TokenRange=40:49
+8	dilma	dilma	NOUN	NOUN	_	7	obj	_	TokenRange=50:55
+9	lula	_	NOUN	NOUN	_	8	flat	_	TokenRange=56:60
+10	ministro	ministro	NOUN	NOUN	_	11	nsubj	_	TokenRange=61:69
+11	atendeu	atender	VERB	VERB	_	2	parataxis	_	TokenRange=70:77
+12	pedido	pedido	NOUN	NOUN	_	11	obj	_	TokenRange=78:84
+13	procuradorgeral	procuradorgeral	ADJ	ADJ	_	12	amod	_	TokenRange=85:100
+14	rodrigo	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=101:108
+15	janot	_	NOUN	NOUN	_	14	flat	_	TokenRange=109:114
+16	pediu	pedir	VERB	VERB	_	11	parataxis	_	TokenRange=115:120
+17	tempo	tempo	NOUN	NOUN	_	16	obj	_	TokenRange=121:126
+18	aprofundar	aprofundar	VERB	VERB	_	17	acl:inf	_	TokenRange=127:137
+19	investigacoes	investigacoe	NOUN	NOUN	_	18	obj	_	TokenRange=138:151
+20	pgr	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=152:155
+21	apura	apurar	VERB	VERB	_	16	parataxis	_	TokenRange=156:161
+22	episodio	episodio	NOUN	NOUN	_	21	obj	_	TokenRange=162:170
+23	nomeacao	nomeacao	NOUN	NOUN	_	22	appos	_	TokenRange=171:179
+24	lula	_	NOUN	NOUN	_	23	flat	_	TokenRange=180:184
+25	chefia	chefer	VERB	VERB	_	22	acl:relcl	_	TokenRange=185:191
+26	casa	casa	NOUN	NOUN	_	25	obj	_	TokenRange=192:196
+27	civil	civil	ADJ	ADJ	_	26	amod	_	TokenRange=197:202
+28	ministro	ministro	NOUN	NOUN	_	26	appos	_	TokenRange=203:211
+29	luiz	luiz	NOUN	NOUN	_	28	appos	_	TokenRange=212:216
+30	edson	_	NOUN	NOUN	_	29	flat	_	TokenRange=217:222
+31	fachin	_	NOUN	NOUN	_	29	flat	_	TokenRange=223:229
+32	supremo	supremo	ADJ	ADJ	_	33	amod	_	TokenRange=230:237
+33	tribunal	tribunal	NOUN	NOUN	_	36	nsubj	_	TokenRange=238:246
+34	federal	federal	ADJ	ADJ	_	33	amod	_	TokenRange=247:254
+35	stf	_	NOUN	NOUN	_	33	appos	_	TokenRange=255:258
+36	prorrogou	prorrogar	VERB	VERB	_	2	conj	_	TokenRange=259:268
+37	60	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=269:271
+38	dias	dia	NOUN	NOUN	_	36	obj	_	TokenRange=272:276
+39	inquerito	inquerito	NOUN	NOUN	_	36	nsubj	_	TokenRange=277:286
+40	aberto	aberto	ADJ	ADJ	_	39	amod	_	TokenRange=287:293
+41	apurar	apurar	VERB	VERB	_	36	xcomp	_	TokenRange=294:300
+42	outras	_	DET	DET	_	43	det	_	TokenRange=301:307
+43	suspeitas	_	NOUN	NOUN	_	41	obj	_	TokenRange=308:317
+44	nomeacao	nomeacao	NOUN	NOUN	_	43	appos	_	TokenRange=318:326
+45	expresidente	expresidente	NOUN	NOUN	_	41	nsubj	_	TokenRange=327:339
+46	luiz	luiz	ADJ	ADJ	_	45	appos	_	TokenRange=340:344
+47	inacio	_	NOUN	NOUN	_	46	flat	_	TokenRange=345:351
+48	lula	lula	NOUN	NOUN	_	46	flat	_	TokenRange=352:356
+49	silva	silva	NOUN	ADJ	_	46	flat	_	TokenRange=357:362
+50	chefia	chefer	VERB	VERB	_	41	parataxis	_	TokenRange=363:369
+51	casa	casa	NOUN	NOUN	_	50	obj	_	TokenRange=370:374
+52	civil	civil	ADJ	ADJ	_	51	amod	_	TokenRange=375:380
+53	tentativa	_	NOUN	NOUN	_	50	obj	_	TokenRange=381:390
+54	obstruir	obstruir	VERB	VERB	_	53	acl:inf	_	TokenRange=391:399
+55	investigacoes	investigacoe	NOUN	NOUN	_	54	obj	_	TokenRange=400:413
+56	operacao	operacao	NOUN	NOUN	_	51	appos	_	SpaceAfter=No|TokenRange=414:422
+

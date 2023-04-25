@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = campanha paralimpica atores globais supostamente amputados revolta internet campanha criada vogue brasil intencao divulgar jogos paralimpicos imagens cleo aparece braco direito amputado paulinho posa perna mecanica objetivo campanha acordo agencia africa dar visibilidade jogos paralimpicos campanha gerando controversias redes twitter facebook internautas chamaram casal incoerente alegaram precisava apelar tanto
+1	campanha	campanha	NOUN	NOUN	_	46	nsubj	_	TokenRange=0:8
+2	paralimpica	paralimpico	ADJ	ADJ	_	1	amod	_	TokenRange=9:20
+3	atores	ator	NOUN	NOUN	_	1	appos	_	TokenRange=21:27
+4	globais	global	ADJ	ADJ	_	3	amod	_	TokenRange=28:35
+5	supostamente	supostamente	ADV	ADV	_	6	advmod	_	TokenRange=36:48
+6	amputados	amputado	ADJ	ADJ	_	1	amod	_	TokenRange=49:58
+7	revolta	_	NOUN	NOUN	_	1	appos	_	TokenRange=59:66
+8	internet	_	PROPN	PNOUN	_	9	amod	_	TokenRange=67:75
+9	campanha	campanha	NOUN	NOUN	_	1	appos	_	TokenRange=76:84
+10	criada	criar	VERB	VERB	_	9	acl	_	TokenRange=85:91
+11	vogue	_	NOUN	NOUN	_	10	obj	_	TokenRange=92:97
+12	brasil	brasil	ADJ	NOUN	_	11	amod	_	TokenRange=98:104
+13	intencao	intencao	ADJ	ADJ	_	11	amod	_	TokenRange=105:113
+14	divulgar	divulgar	VERB	VERB	_	9	acl:relcl	_	TokenRange=114:122
+15	jogos	jogo	NOUN	NOUN	_	14	obj	_	TokenRange=123:128
+16	paralimpicos	paralimpico	ADJ	ADJ	_	15	amod	_	TokenRange=129:141
+17	imagens	imagem	NOUN	NOUN	_	19	nsubj	_	TokenRange=142:149
+18	cleo	_	PRON	PRON	_	19	nsubj	_	TokenRange=150:154
+19	aparece	aparecer	VERB	VERB	_	1	acl:relcl	_	TokenRange=155:162
+20	braco	braco	NOUN	NOUN	_	19	obj	_	TokenRange=163:168
+21	direito	direito	ADJ	ADJ	_	20	amod	_	TokenRange=169:176
+22	amputado	amputado	ADJ	ADJ	_	20	amod	_	TokenRange=177:185
+23	paulinho	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=186:194
+24	posa	posar	VERB	VERB	_	19	parataxis	_	TokenRange=195:199
+25	perna	perna	NOUN	NOUN	_	24	obj	_	TokenRange=200:205
+26	mecanica	mecanico	ADJ	ADJ	_	25	amod	_	TokenRange=206:214
+27	objetivo	objetivo	ADJ	ADJ	_	28	amod	_	TokenRange=215:223
+28	campanha	campanha	NOUN	NOUN	_	25	appos	_	TokenRange=224:232
+29	acordo	acordo	NOUN	NOUN	_	28	flat	_	TokenRange=233:239
+30	agencia	agencia	NOUN	NOUN	_	28	appos	_	TokenRange=240:247
+31	africa	_	NOUN	NOUN	_	28	flat	_	TokenRange=248:254
+32	dar	dar	VERB	VERB	_	28	acl:relcl	_	TokenRange=255:258
+33	visibilidade	visibilidade	NOUN	NOUN	_	32	obj	_	TokenRange=259:271
+34	jogos	jogo	NOUN	NOUN	_	32	obj	_	TokenRange=272:277
+35	paralimpicos	paralimpico	ADJ	ADJ	_	34	amod	_	TokenRange=278:290
+36	campanha	campanha	NOUN	NOUN	_	32	nsubj	_	TokenRange=291:299
+37	gerando	gerar	VERB	VERB	_	36	acl	_	TokenRange=300:307
+38	controversias	_	NOUN	NOUN	_	37	obj	_	TokenRange=308:321
+39	redes	rede	NOUN	NOUN	_	37	obj	_	TokenRange=322:327
+40	twitter	_	PROPN	PNOUN	_	39	appos	_	TokenRange=328:335
+41	facebook	_	PROPN	PNOUN	_	40	flat	_	TokenRange=336:344
+42	internautas	internauta	NOUN	NOUN	_	40	flat	_	TokenRange=345:356
+43	chamaram	chamar	VERB	VERB	_	37	parataxis	_	TokenRange=357:365
+44	casal	casal	NOUN	NOUN	_	43	obj	_	TokenRange=366:371
+45	incoerente	incoerente	ADJ	ADJ	_	44	amod	_	TokenRange=372:382
+46	alegaram	alegar	VERB	VERB	_	0	root	_	TokenRange=383:391
+47	precisava	precisar	VERB	VERB	_	46	ccomp	_	TokenRange=392:401
+48	apelar	apelar	VERB	VERB	_	47	xcomp	_	TokenRange=402:408
+49	tanto	tanto	ADV	ADV	_	48	advmod	_	SpaceAfter=No|TokenRange=409:414
+

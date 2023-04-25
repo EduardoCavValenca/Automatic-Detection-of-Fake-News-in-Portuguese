@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer vai recorrer stf cassar direitos politicos dilma acordo alta cupula pmdb presidente michel temer surpreendido decisao fatiamento sentenca dilma rousseff senador aecio neves comentou sobre assunto afirmou canal globo news presidente empossado ira ingressar acao junto supremo tribunal federal rever decisao senado relacao votacao impeachment cabia senado decidir sobre dosagem pena aplicada dilma sim cumprir papel previsto artigo 52 constituicao federal perda cargo consequente inabilitacao 8 oito anos conluio alguns nomes pmdb pt organizado preservasse direitos politicos dilma
+1	temer	temer	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	vai	ir	AUX	AUX	_	3	aux	_	TokenRange=6:9
+3	recorrer	recorrer	VERB	VERB	_	0	root	_	TokenRange=10:18
+4	stf	_	NOUN	NOUN	_	3	mark	_	TokenRange=19:22
+5	cassar	cassar	VERB	VERB	_	3	advcl	_	TokenRange=23:29
+6	direitos	direito	NOUN	NOUN	_	5	obj	_	TokenRange=30:38
+7	politicos	politico	ADJ	ADJ	_	6	amod	_	TokenRange=39:48
+8	dilma	dilma	ADP	ADP	_	9	case	_	TokenRange=49:54
+9	acordo	acordo	NOUN	NOUN	_	5	nmod	_	TokenRange=55:61
+10	alta	alto	ADJ	ADJ	_	11	amod	_	TokenRange=62:66
+11	cupula	cupula	NOUN	NOUN	_	9	appos	_	TokenRange=67:73
+12	pmdb	_	NOUN	NOUN	_	13	appos	_	TokenRange=74:78
+13	presidente	presidente	NOUN	NOUN	_	9	appos	_	TokenRange=79:89
+14	michel	michel	ADJ	ADJ	_	13	amod	_	TokenRange=90:96
+15	temer	temer	NOUN	NOUN	_	13	appos	_	TokenRange=97:102
+16	surpreendido	surpreender	VERB	ADJ	_	17	acl	_	TokenRange=103:115
+17	decisao	decisao	NOUN	NOUN	_	5	appos	_	TokenRange=116:123
+18	fatiamento	fatiamento	NOUN	NOUN	_	17	appos	_	TokenRange=124:134
+19	sentenca	_	NOUN	NOUN	_	17	appos	_	TokenRange=135:143
+20	dilma	dilma	NOUN	NOUN	_	17	appos	_	TokenRange=144:149
+21	rousseff	rousseff	NOUN	NOUN	_	20	flat	_	TokenRange=150:158
+22	senador	senador	NOUN	NOUN	_	20	appos	_	TokenRange=159:166
+23	aecio	_	NOUN	NOUN	_	22	appos	_	TokenRange=167:172
+24	neves	_	NOUN	NOUN	_	23	flat	_	TokenRange=173:178
+25	comentou	comentar	VERB	VERB	_	3	parataxis	_	TokenRange=179:187
+26	sobre	_	ADP	ADP	_	27	case	_	TokenRange=188:193
+27	assunto	assunto	NOUN	NOUN	_	25	nmod	_	TokenRange=194:201
+28	afirmou	afirmar	VERB	VERB	_	25	parataxis	_	TokenRange=202:209
+29	canal	canal	NOUN	NOUN	_	28	obj	_	TokenRange=210:215
+30	globo	globo	NOUN	NOUN	_	29	amod	_	TokenRange=216:221
+31	news	_	X	NOUN	_	32	amod	_	TokenRange=222:226
+32	presidente	presidente	NOUN	NOUN	_	28	nsubj	_	TokenRange=227:237
+33	empossado	empossado	ADJ	ADJ	_	32	amod	_	TokenRange=238:247
+34	ira	_	AUX	AUX	_	35	aux	_	TokenRange=248:251
+35	ingressar	ingressar	VERB	VERB	_	28	ccomp	_	TokenRange=252:261
+36	acao	acao	NOUN	NOUN	_	35	obj	_	TokenRange=262:266
+37	junto	junto	ADV	ADV	_	35	advmod	_	TokenRange=267:272
+38	supremo	supremo	ADJ	ADJ	_	39	amod	_	TokenRange=273:280
+39	tribunal	tribunal	NOUN	NOUN	_	35	nsubj	_	TokenRange=281:289
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=290:297
+41	rever	rever	VERB	VERB	_	35	csubj	_	TokenRange=298:303
+42	decisao	decisao	NOUN	NOUN	_	41	obj	_	TokenRange=304:311
+43	senado	senado	ADJ	ADJ	_	42	amod	_	TokenRange=312:318
+44	relacao	relacao	NOUN	NOUN	_	47	nsubj	_	TokenRange=319:326
+45	votacao	votacao	NOUN	NOUN	_	44	flat	_	TokenRange=327:334
+46	impeachment	impeachment	NOUN	NOUN	_	47	nsubj	_	TokenRange=335:346
+47	cabia	caber	VERB	VERB	_	35	conj	_	TokenRange=347:352
+48	senado	senado	NOUN	NOUN	_	47	obj	_	TokenRange=353:359
+49	decidir	decidir	VERB	VERB	_	47	ccomp	_	TokenRange=360:367
+50	sobre	_	ADP	ADP	_	51	case	_	TokenRange=368:373
+51	dosagem	dosagem	NOUN	NOUN	_	49	nmod	_	TokenRange=374:381
+52	pena	_	NOUN	NOUN	_	51	flat	_	TokenRange=382:386
+53	aplicada	aplicar	VERB	VERB	_	52	acl	_	TokenRange=387:395
+54	dilma	dilma	NOUN	NOUN	_	53	nsubj	_	TokenRange=396:401
+55	sim	sim	ADV	ADV	_	56	advmod	_	TokenRange=402:405
+56	cumprir	cumprir	VERB	VERB	_	53	conj	_	TokenRange=406:413
+57	papel	papel	NOUN	NOUN	_	56	obj	_	TokenRange=414:419
+58	previsto	previsto	ADJ	ADJ	_	57	amod	_	TokenRange=420:428
+59	artigo	artigo	NOUN	NOUN	_	57	appos	_	TokenRange=429:435
+60	52	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=436:438
+61	constituicao	constituicao	NOUN	NOUN	_	57	appos	_	TokenRange=439:451
+62	federal	federal	ADJ	ADJ	_	61	amod	_	TokenRange=452:459
+63	perda	perda	NOUN	NOUN	_	56	obj	_	TokenRange=460:465
+64	cargo	cargo	NOUN	NOUN	_	63	flat	_	TokenRange=466:471
+65	consequente	consequente	ADJ	ADJ	_	61	amod	_	TokenRange=472:483
+66	inabilitacao	inabilitacao	ADJ	ADJ	_	63	amod	_	TokenRange=484:496
+67	8	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=497:498
+68	oito	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=499:503
+69	anos	ano	NOUN	NOUN	_	70	nmod	_	TokenRange=504:508
+70	conluio	conluiar	VERB	VERB	_	56	parataxis	_	TokenRange=509:516
+71	alguns	_	DET	DET	_	72	det	_	TokenRange=517:523
+72	nomes	nome	NOUN	NOUN	_	70	obj	_	TokenRange=524:529
+73	pmdb	_	NOUN	NOUN	_	76	nsubj	_	TokenRange=530:534
+74	pt	_	NOUN	NOUN	_	76	nsubj	_	TokenRange=535:537
+75	organizado	organizado	ADJ	ADJ	_	74	amod	_	TokenRange=538:548
+76	preservasse	preservar	VERB	VERB	_	70	parataxis	_	TokenRange=549:560
+77	direitos	direito	NOUN	NOUN	_	76	obj	_	TokenRange=561:569
+78	politicos	politico	ADJ	ADJ	_	77	amod	_	TokenRange=570:579
+79	dilma	dilma	NOUN	NOUN	_	76	obj	_	SpaceAfter=No|TokenRange=580:585
+

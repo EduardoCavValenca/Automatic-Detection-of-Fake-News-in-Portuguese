@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcelo odebrecht cita pagamento milhoes lula meio palocci empresario cita deposito r 35 milhoes expresidente pouco fala r 40 milhoes depoimento faz parte acao penal operacao lava jato empresario marcelo odebrecht disse depoimento juiz sergio moro destinou milhoes amigo codinome referente expresidente luiz inacio lula silva primeiro cita deposito r 35 milhoes fala r 40 milhoes conta diz odebrecht gerida exministro petista antonio palocci ouca acima combinei
+1	marcelo	marcelo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	odebrecht	_	NOUN	NOUN	_	1	flat	_	TokenRange=8:17
+3	cita	citar	VERB	VERB	_	0	root	_	TokenRange=18:22
+4	pagamento	pagamento	NOUN	NOUN	_	3	obj	_	TokenRange=23:32
+5	milhoes	_	NOUN	NOUN	_	4	flat	_	TokenRange=33:40
+6	lula	lula	NOUN	NOUN	_	3	obj	_	TokenRange=41:45
+7	meio	meio	NOUN	NOUN	_	4	appos	_	TokenRange=46:50
+8	palocci	_	NOUN	NOUN	_	7	flat	_	TokenRange=51:58
+9	empresario	empresario	NOUN	NOUN	_	7	flat	_	TokenRange=59:69
+10	cita	_	VERB	VERB	_	3	parataxis	_	TokenRange=70:74
+11	deposito	deposito	NOUN	NOUN	_	10	obj	_	TokenRange=75:83
+12	r	r	NOUN	NOUN	_	11	flat	_	TokenRange=84:85
+13	35	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=86:88
+14	milhoes	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=89:96
+15	expresidente	expresidente	NOUN	NOUN	_	11	appos	_	TokenRange=97:109
+16	pouco	pouco	ADV	ADV	_	17	advmod	_	TokenRange=110:115
+17	fala	_	VERB	VERB	_	15	acl:relcl	_	TokenRange=116:120
+18	r	r	NOUN	NOUN	_	17	obj	_	TokenRange=121:122
+19	40	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=123:125
+20	milhoes	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=126:133
+21	depoimento	depoimento	NOUN	NOUN	_	17	nsubj	_	TokenRange=134:144
+22	faz	fazer	VERB	VERB	_	17	parataxis	_	TokenRange=145:148
+23	parte	parte	NOUN	NOUN	_	22	obj	_	TokenRange=149:154
+24	acao	acao	NOUN	NOUN	_	23	appos	_	TokenRange=155:159
+25	penal	penal	ADJ	ADJ	_	24	amod	_	TokenRange=160:165
+26	operacao	operacao	NOUN	NOUN	_	22	nsubj	_	TokenRange=166:174
+27	lava	lava	NOUN	NOUN	_	24	appos	_	TokenRange=175:179
+28	jato	jato	NOUN	NOUN	_	27	amod	_	TokenRange=180:184
+29	empresario	empresario	NOUN	NOUN	_	27	appos	_	TokenRange=185:195
+30	marcelo	marcelo	NOUN	NOUN	_	29	appos	_	TokenRange=196:203
+31	odebrecht	_	PROPN	PNOUN	_	30	flat	_	TokenRange=204:213
+32	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=214:219
+33	depoimento	depoimento	NOUN	NOUN	_	32	obj	_	TokenRange=220:230
+34	juiz	juiz	NOUN	NOUN	_	33	appos	_	TokenRange=231:235
+35	sergio	sergio	ADJ	ADJ	_	34	amod	_	TokenRange=236:242
+36	moro	moro	NOUN	NOUN	_	34	flat	_	TokenRange=243:247
+37	destinou	destinar	VERB	VERB	_	33	acl:relcl	_	TokenRange=248:256
+38	milhoes	_	NOUN	NOUN	_	37	obj	_	TokenRange=257:264
+39	amigo	amigo	NOUN	NOUN	_	37	obj	_	TokenRange=265:270
+40	codinome	codinome	NOUN	NOUN	_	39	appos	_	TokenRange=271:279
+41	referente	referente	ADJ	ADJ	_	42	amod	_	TokenRange=280:289
+42	expresidente	expresidente	NOUN	NOUN	_	39	appos	_	TokenRange=290:302
+43	luiz	luiz	ADJ	NOUN	_	42	appos	_	TokenRange=303:307
+44	inacio	_	NOUN	NOUN	_	43	flat	_	TokenRange=308:314
+45	lula	_	NOUN	NOUN	_	43	flat	_	TokenRange=315:319
+46	silva	silva	NOUN	NOUN	_	43	flat	_	TokenRange=320:325
+47	primeiro	primeiro	ADJ	ADJ	_	48	amod	_	TokenRange=326:334
+48	cita	citar	VERB	VERB	_	3	conj	_	TokenRange=335:339
+49	deposito	deposito	NOUN	NOUN	_	48	obj	_	TokenRange=340:348
+50	r	r	NOUN	NOUN	_	49	flat	_	TokenRange=349:350
+51	35	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=351:353
+52	milhoes	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=354:361
+53	fala	_	VERB	NOUN	_	48	appos	_	TokenRange=362:366
+54	r	r	NOUN	NOUN	_	53	flat	_	TokenRange=367:368
+55	40	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=369:371
+56	milhoes	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=372:379
+57	conta	conta	NOUN	NOUN	_	58	nsubj	_	TokenRange=380:385
+58	diz	dizer	VERB	VERB	_	48	parataxis	_	TokenRange=386:389
+59	odebrecht	odebrecht	NOUN	NOUN	_	58	nsubj	_	TokenRange=390:399
+60	gerida	gerido	ADJ	ADJ	_	61	amod	_	TokenRange=400:406
+61	exministro	exministro	NOUN	NOUN	_	59	appos	_	TokenRange=407:417
+62	petista	petista	NOUN	NOUN	_	61	flat	_	TokenRange=418:425
+63	antonio	antonio	NOUN	NOUN	_	61	appos	_	TokenRange=426:433
+64	palocci	_	NOUN	NOUN	_	63	flat	_	TokenRange=434:441
+65	ouca	_	PRON	PRON	_	67	dep	_	TokenRange=442:446
+66	acima	acima	ADV	ADV	_	67	advmod	_	TokenRange=447:452
+67	combinei	combinar	VERB	VERB	_	3	conj	_	SpaceAfter=No|TokenRange=453:461
+

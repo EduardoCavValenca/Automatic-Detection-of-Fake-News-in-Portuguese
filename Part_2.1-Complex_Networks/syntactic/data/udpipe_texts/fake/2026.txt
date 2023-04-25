@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delacoes odebrecht apavorando brasilia alem lula cia michel temer ministros citados delacoes premiadas odebrecht 50 executivos alem empresario marcelo apavorando capital pais jornais el pais globo confirmaram delacoes proximas carimbada final desta vez nomes michel temer ministros eliseu padilha jose serra geddel vieira lima aparecem meio documentos acusacoes contra alma honesta deste pais reforcadas antonio palocci guido mantega incluidos delacoes outros 130 deputados senadores ministros alem 20 governadores exgovernadores diversos partidos poderao participar festa curitiba
+1	delacoes	delacoe	NOUN	NOUN	_	27	nsubj	_	TokenRange=0:8
+2	odebrecht	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:18
+3	apavorando	apavorar	VERB	VERB	_	1	acl	_	TokenRange=19:29
+4	brasilia	brasilia	NOUN	NOUN	_	3	obj	_	TokenRange=30:38
+5	alem	_	ADV	ADV	_	6	case	_	TokenRange=39:43
+6	lula	_	NOUN	NOUN	_	3	nmod	_	TokenRange=44:48
+7	cia	_	NOUN	NOUN	_	6	flat	_	TokenRange=49:52
+8	michel	_	ADJ	ADJ	_	9	amod	_	TokenRange=53:59
+9	temer	temer	NOUN	NOUN	_	6	conj	_	TokenRange=60:65
+10	ministros	ministro	NOUN	NOUN	_	1	appos	_	TokenRange=66:75
+11	citados	citar	VERB	VERB	_	12	acl	_	TokenRange=76:83
+12	delacoes	delacoe	NOUN	NOUN	_	3	obj	_	TokenRange=84:92
+13	premiadas	premiar	VERB	VERB	_	12	acl	_	TokenRange=93:102
+14	odebrecht	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=103:112
+15	50	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=113:115
+16	executivos	executivo	NOUN	NOUN	_	12	appos	_	TokenRange=116:126
+17	alem	_	ADV	ADV	_	18	advmod	_	TokenRange=127:131
+18	empresario	empresario	NOUN	NOUN	_	16	appos	_	TokenRange=132:142
+19	marcelo	marcelo	NOUN	NOUN	_	18	appos	_	TokenRange=143:150
+20	apavorando	apavorar	VERB	VERB	_	18	acl	_	TokenRange=151:161
+21	capital	capital	NOUN	NOUN	_	20	obj	_	TokenRange=162:169
+22	pais	_	NOUN	NOUN	_	21	flat	_	TokenRange=170:174
+23	jornais	jornal	NOUN	NOUN	_	21	flat	_	TokenRange=175:182
+24	el	_	DET	DET	_	25	det	_	TokenRange=183:185
+25	pais	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=186:190
+26	globo	globo	NOUN	NOUN	_	25	flat	_	TokenRange=191:196
+27	confirmaram	confirmar	VERB	VERB	_	0	root	_	TokenRange=197:208
+28	delacoes	delacoe	NOUN	NOUN	_	27	obj	_	TokenRange=209:217
+29	proximas	proximo	ADJ	ADJ	_	28	amod	_	TokenRange=218:226
+30	carimbada	carimbada	NOUN	NOUN	_	28	appos	_	TokenRange=227:236
+31	final	final	ADJ	ADJ	_	30	amod	_	TokenRange=237:242
+32	desta	_	ADP	ADP	_	33	case	_	TokenRange=243:248
+33	vez	vez	NOUN	NOUN	_	45	nmod	_	TokenRange=249:252
+34	nomes	nome	NOUN	NOUN	_	45	nsubj	_	TokenRange=253:258
+35	michel	_	ADJ	ADJ	_	36	amod	_	TokenRange=259:265
+36	temer	temer	NOUN	NOUN	_	34	appos	_	TokenRange=266:271
+37	ministros	ministro	NOUN	NOUN	_	34	appos	_	TokenRange=272:281
+38	eliseu	_	NOUN	NOUN	_	34	appos	_	TokenRange=282:288
+39	padilha	padilha	NOUN	NOUN	_	38	flat	_	TokenRange=289:296
+40	jose	jose	NOUN	NOUN	_	38	appos	_	TokenRange=297:301
+41	serra	_	NOUN	NOUN	_	40	flat	_	TokenRange=302:307
+42	geddel	_	NOUN	NOUN	_	38	appos	_	TokenRange=308:314
+43	vieira	vieira	NOUN	NOUN	_	42	flat	_	TokenRange=315:321
+44	lima	lima	ADJ	ADJ	_	42	amod	_	TokenRange=322:326
+45	aparecem	aparecer	VERB	VERB	_	27	parataxis	_	TokenRange=327:335
+46	meio	meio	ADJ	ADJ	_	47	amod	_	TokenRange=336:340
+47	documentos	documento	NOUN	NOUN	_	45	obj	_	TokenRange=341:351
+48	acusacoes	acusacoe	NOUN	NOUN	_	47	amod	_	TokenRange=352:361
+49	contra	_	ADP	ADP	_	50	case	_	TokenRange=362:368
+50	alma	alma	NOUN	NOUN	_	48	nmod	_	TokenRange=369:373
+51	honesta	honesto	ADJ	ADJ	_	50	amod	_	TokenRange=374:381
+52	deste	_	ADP	ADP	_	53	case	_	TokenRange=382:387
+53	pais	_	NOUN	NOUN	_	50	nmod	_	TokenRange=388:392
+54	reforcadas	reforcar	VERB	VERB	_	50	acl	_	TokenRange=393:403
+55	antonio	antonio	NOUN	NOUN	_	54	nmod	_	TokenRange=404:411
+56	palocci	_	NOUN	NOUN	_	55	flat	_	TokenRange=412:419
+57	guido	guido	NOUN	NOUN	_	55	appos	_	TokenRange=420:425
+58	mantega	mantega	NOUN	NOUN	_	55	flat	_	TokenRange=426:433
+59	incluidos	incluir	VERB	VERB	_	63	acl	_	TokenRange=434:443
+60	delacoes	delacoe	NOUN	NOUN	_	59	nsubj	_	TokenRange=444:452
+61	outros	_	DET	DET	_	63	det	_	TokenRange=453:459
+62	130	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=460:463
+63	deputados	deputado	NOUN	NOUN	_	73	nsubj	_	TokenRange=464:473
+64	senadores	senador	ADJ	ADJ	_	63	amod	_	TokenRange=474:483
+65	ministros	ministro	NOUN	NOUN	_	63	appos	_	TokenRange=484:493
+66	alem	alem	ADV	ADV	_	68	advmod	_	TokenRange=494:498
+67	20	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=499:501
+68	governadores	governador	NOUN	NOUN	_	63	appos	_	TokenRange=502:514
+69	exgovernadores	exgovernador	ADJ	ADJ	_	68	amod	_	TokenRange=515:529
+70	diversos	_	DET	DET	_	71	det	_	TokenRange=530:538
+71	partidos	partido	NOUN	NOUN	_	73	nsubj	_	TokenRange=539:547
+72	poderao	poder	AUX	AUX	_	73	aux	_	TokenRange=548:555
+73	participar	participar	VERB	VERB	_	45	parataxis	_	TokenRange=556:566
+74	festa	festa	NOUN	NOUN	_	73	obj	_	TokenRange=567:572
+75	curitiba	curitiba	NOUN	NOUN	_	74	amod	_	SpaceAfter=No|TokenRange=573:581
+

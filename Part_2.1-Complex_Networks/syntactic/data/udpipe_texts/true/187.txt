@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = homem invade catedral londrina destroi parte imagem padroeiro cidade caso aconteceu nesta quartafeira 3 homem levado pm homem invadiu catedral londrina norte parana volta 18h desta quartafeira 3 derrubou imagem sagrado coracao jesus padroeiro cidade imagem ficou parcialmente destruida segundo fies presenciaram ocorrido homem contido pessoas ali levado policia militar pm catedral londrina informou vai registrar boletim ocorrencia bo
+1	homem	homem	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	invade	invadir	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	catedral	catedral	NOUN	NOUN	_	2	obj	_	TokenRange=13:21
+4	londrina	londrino	ADJ	ADJ	_	3	amod	_	TokenRange=22:30
+5	destroi	destroir	VERB	VERB	_	2	parataxis	_	TokenRange=31:38
+6	parte	parte	NOUN	NOUN	_	5	obj	_	TokenRange=39:44
+7	imagem	imagem	NOUN	NOUN	_	5	obj	_	TokenRange=45:51
+8	padroeiro	padroeiro	ADJ	ADJ	_	9	amod	_	TokenRange=52:61
+9	cidade	cidade	NOUN	NOUN	_	7	appos	_	TokenRange=62:68
+10	caso	caso	NOUN	NOUN	_	11	nsubj	_	TokenRange=69:73
+11	aconteceu	acontecer	VERB	VERB	_	2	conj	_	TokenRange=74:83
+12	nesta	_	ADP	ADP	_	13	case	_	TokenRange=84:89
+13	quartafeira	quartafeira	NOUN	NOUN	_	11	nmod	_	TokenRange=90:101
+14	3	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=102:103
+15	homem	homem	NOUN	NOUN	_	11	nsubj	_	TokenRange=104:109
+16	levado	levado	ADJ	ADJ	_	15	amod	_	TokenRange=110:116
+17	pm	_	ADP	DET	_	18	det	_	TokenRange=117:119
+18	homem	homem	NOUN	NOUN	_	19	nsubj	_	TokenRange=120:125
+19	invadiu	invadir	VERB	VERB	_	2	conj	_	TokenRange=126:133
+20	catedral	catedral	NOUN	NOUN	_	19	obj	_	TokenRange=134:142
+21	londrina	londrino	ADJ	ADJ	_	20	amod	_	TokenRange=143:151
+22	norte	norte	NOUN	NOUN	_	20	amod	_	TokenRange=152:157
+23	parana	parana	ADJ	ADJ	_	20	amod	_	TokenRange=158:164
+24	volta	volta	NOUN	NOUN	_	19	nsubj	_	TokenRange=165:170
+25	18h	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=171:174
+26	desta	_	ADP	ADP	_	27	case	_	TokenRange=175:180
+27	quartafeira	quartafeira	NOUN	NOUN	_	24	nmod	_	TokenRange=181:192
+28	3	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=193:194
+29	derrubou	derrubar	VERB	VERB	_	2	conj	_	TokenRange=195:203
+30	imagem	imagem	NOUN	NOUN	_	29	obj	_	TokenRange=204:210
+31	sagrado	sagrado	ADJ	ADJ	_	32	amod	_	TokenRange=211:218
+32	coracao	coracao	NOUN	NOUN	_	30	appos	_	TokenRange=219:226
+33	jesus	jesus	ADJ	ADJ	_	32	amod	_	TokenRange=227:232
+34	padroeiro	padroeiro	ADJ	NOUN	_	32	amod	_	TokenRange=233:242
+35	cidade	cidade	NOUN	NOUN	_	32	amod	_	TokenRange=243:249
+36	imagem	imagem	NOUN	NOUN	_	37	nsubj	_	TokenRange=250:256
+37	ficou	ficar	VERB	VERB	_	2	conj	_	TokenRange=257:262
+38	parcialmente	parcialmente	ADV	ADV	_	39	advmod	_	TokenRange=263:275
+39	destruida	destruido	ADJ	ADJ	_	37	xcomp	_	TokenRange=276:285
+40	segundo	_	ADP	ADP	_	42	mark	_	TokenRange=286:293
+41	fies	fie	NOUN	NOUN	_	42	nsubj	_	TokenRange=294:298
+42	presenciaram	presenciar	VERB	VERB	_	37	advcl	_	TokenRange=299:311
+43	ocorrido	ocorrer	ADJ	VERB	_	42	xcomp	_	TokenRange=312:320
+44	homem	homem	NOUN	NOUN	_	42	nsubj	_	TokenRange=321:326
+45	contido	conter	VERB	VERB	_	44	acl	_	TokenRange=327:334
+46	pessoas	pessoa	NOUN	NOUN	_	45	nsubj	_	TokenRange=335:342
+47	ali	ali	ADV	ADV	_	48	advmod	_	TokenRange=343:346
+48	levado	levar	VERB	VERB	_	44	acl	_	TokenRange=347:353
+49	policia	policia	NOUN	NOUN	_	48	nsubj	_	TokenRange=354:361
+50	militar	militar	ADJ	ADJ	_	49	amod	_	TokenRange=362:369
+51	pm	pm	DET	DET	_	52	det	_	TokenRange=370:372
+52	catedral	catedral	NOUN	NOUN	_	54	nsubj	_	TokenRange=373:381
+53	londrina	londrino	ADJ	ADJ	_	52	amod	_	TokenRange=382:390
+54	informou	informar	VERB	VERB	_	37	parataxis	_	TokenRange=391:399
+55	vai	ir	AUX	AUX	_	56	aux	_	TokenRange=400:403
+56	registrar	registrar	VERB	VERB	_	54	ccomp	_	TokenRange=404:413
+57	boletim	boletim	NOUN	NOUN	_	56	obj	_	TokenRange=414:421
+58	ocorrencia	ocorrencia	NOUN	NOUN	_	56	obj	_	TokenRange=422:432
+59	bo	bo	ADJ	ADJ	_	58	amod	_	SpaceAfter=No|TokenRange=433:435
+

@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aumento bolsafamilia enganacao dilma crime responsabilidade eduardo cunha pmdbrj disse reajuste 9 bolsa familia irresponsabilidade fiscal presidente dilma dilma insiste manipulacao propaganda enganosa ulltimo aumento dado 2014 vespera eleicoes considerar inflacao agora anuncia novo reajuste povo bobo aumentara rombo contas publicas governo deficit r 96 bilhoes 2016 aumentar bolsa familia agora irresponsabilidade enganacao governo acoes dilma desespero fim festa bondades maldades populacao porque deficit consequencias paga todos contribuintes disse cunha
+1	aumento	aumento	NOUN	NOUN	_	10	parataxis	_	TokenRange=0:7
+2	bolsafamilia	_	NOUN	NOUN	_	1	flat	_	TokenRange=8:20
+3	enganacao	enganacao	NOUN	NOUN	_	1	appos	_	TokenRange=21:30
+4	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=31:36
+5	crime	crime	NOUN	NOUN	_	1	appos	_	TokenRange=37:42
+6	responsabilidade	responsabilidade	NOUN	NOUN	_	1	appos	_	TokenRange=43:59
+7	eduardo	eduardo	NOUN	NOUN	_	1	appos	_	TokenRange=60:67
+8	cunha	_	PROPN	PNOUN	_	7	flat	_	TokenRange=68:73
+9	pmdbrj	_	NOUN	NOUN	_	7	flat	_	TokenRange=74:80
+10	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=81:86
+11	reajuste	reajuste	NOUN	NOUN	_	10	obj	_	TokenRange=87:95
+12	9	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=96:97
+13	bolsa	bolsa	NOUN	NOUN	_	11	appos	_	TokenRange=98:103
+14	familia	familia	NOUN	NOUN	_	13	flat	_	TokenRange=104:111
+15	irresponsabilidade	irresponsabilidade	NOUN	NOUN	_	13	appos	_	TokenRange=112:130
+16	fiscal	fiscal	ADJ	ADJ	_	17	amod	_	TokenRange=131:137
+17	presidente	presidente	NOUN	NOUN	_	20	nsubj	_	TokenRange=138:148
+18	dilma	dilma	ADJ	ADJ	_	17	amod	_	TokenRange=149:154
+19	dilma	_	NOUN	NOUN	_	17	appos	_	TokenRange=155:160
+20	insiste	insistir	VERB	VERB	_	10	parataxis	_	TokenRange=161:168
+21	manipulacao	manipulacao	ADJ	ADJ	_	22	amod	_	TokenRange=169:180
+22	propaganda	propaganda	NOUN	NOUN	_	20	obj	_	TokenRange=181:191
+23	enganosa	enganoso	ADJ	ADJ	_	22	amod	_	TokenRange=192:200
+24	ulltimo	_	ADJ	ADJ	_	25	amod	_	TokenRange=201:208
+25	aumento	aumento	NOUN	NOUN	_	20	nsubj	_	TokenRange=209:216
+26	dado	dado	NOUN	NOUN	_	25	appos	_	TokenRange=217:221
+27	2014	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=222:226
+28	vespera	vesperar	VERB	VERB	_	25	acl:relcl	_	TokenRange=227:234
+29	eleicoes	eleicoe	NOUN	NOUN	_	30	nsubj	_	TokenRange=235:243
+30	considerar	considerar	VERB	VERB	_	25	acl:relcl	_	TokenRange=244:254
+31	inflacao	inflacao	NOUN	NOUN	_	30	obj	_	TokenRange=255:263
+32	agora	agora	ADV	ADV	_	33	advmod	_	TokenRange=264:269
+33	anuncia	anunciar	VERB	VERB	_	30	parataxis	_	TokenRange=270:277
+34	novo	novo	ADJ	ADJ	_	35	amod	_	TokenRange=278:282
+35	reajuste	reajuste	NOUN	NOUN	_	33	nsubj	_	TokenRange=283:291
+36	povo	povo	NOUN	NOUN	_	38	nsubj	_	TokenRange=292:296
+37	bobo	bobo	ADJ	ADJ	_	36	amod	_	TokenRange=297:301
+38	aumentara	aumentar	VERB	VERB	_	33	ccomp	_	TokenRange=302:311
+39	rombo	rombo	NOUN	NOUN	_	38	obj	_	TokenRange=312:317
+40	contas	conta	NOUN	NOUN	_	39	appos	_	TokenRange=318:324
+41	publicas	publico	ADJ	ADJ	_	40	amod	_	TokenRange=325:333
+42	governo	governo	NOUN	NOUN	_	38	obj	_	TokenRange=334:341
+43	deficit	deficit	NOUN	NOUN	_	38	obj	_	TokenRange=342:349
+44	r	r	NOUN	NOUN	_	43	appos	_	TokenRange=350:351
+45	96	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=352:354
+46	bilhoes	_	NOUN	NOUN	_	44	nummod	_	TokenRange=355:362
+47	2016	_	NUM	NUM	NumType=Card	44	nmod	_	TokenRange=363:367
+48	aumentar	aumentar	VERB	VERB	_	38	parataxis	_	TokenRange=368:376
+49	bolsa	bolsa	NOUN	NOUN	_	48	obj	_	TokenRange=377:382
+50	familia	familia	NOUN	NOUN	_	49	flat	_	TokenRange=383:390
+51	agora	agora	ADV	ADV	_	52	advmod	_	TokenRange=391:396
+52	irresponsabilidade	irresponsabilidade	NOUN	NOUN	_	48	nsubj	_	TokenRange=397:415
+53	enganacao	_	ADJ	ADJ	_	52	amod	_	TokenRange=416:425
+54	governo	governo	NOUN	NOUN	_	52	amod	_	TokenRange=426:433
+55	acoes	_	NOUN	NOUN	_	52	appos	_	TokenRange=434:439
+56	dilma	_	ADJ	NOUN	_	52	amod	_	TokenRange=440:445
+57	desespero	desespero	NOUN	NOUN	_	52	amod	_	TokenRange=446:455
+58	fim	fim	NOUN	NOUN	_	59	amod	_	TokenRange=456:459
+59	festa	festa	NOUN	NOUN	_	52	appos	_	TokenRange=460:465
+60	bondades	bondade	ADJ	ADJ	_	61	amod	_	TokenRange=466:474
+61	maldades	maldade	NOUN	NOUN	_	59	appos	_	TokenRange=475:483
+62	populacao	populacao	NOUN	NOUN	_	61	appos	_	TokenRange=484:493
+63	porque	_	CCONJ	CONJ	_	66	mark	_	TokenRange=494:500
+64	deficit	deficit	NOUN	NOUN	_	66	nsubj	_	TokenRange=501:508
+65	consequencias	_	NOUN	NOUN	_	66	nsubj	_	TokenRange=509:522
+66	paga	pagar	VERB	VERB	_	69	advcl	_	TokenRange=523:527
+67	todos	_	DET	DET	_	68	det	_	TokenRange=528:533
+68	contribuintes	contribuinte	NOUN	NOUN	_	66	nsubj	_	TokenRange=534:547
+69	disse	dizer	VERB	VERB	_	10	parataxis	_	TokenRange=548:553
+70	cunha	cunha	NOUN	NOUN	_	69	obj	_	SpaceAfter=No|TokenRange=554:559
+

@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = confira abre fecha feriado data magna pernambuco tercafeira 6 algumas reparticoes publicas vao funcionar comercio ponto facultativo primeira comemoracao data magna pernambuco decreto feriado 2017 comercio shoppings reparticoes publicas adequam horario funcionamento centro comercial recife expediente facultativo algumas reparticoes publicas vao funcionar todas agencias correios estado estarao fechadas feriado retornam atividades normais
+1	confira	conferir	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	abre	abrir	VERB	VERB	_	0	root	_	TokenRange=8:12
+3	fecha	fecha	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	feriado	feriado	NOUN	NOUN	_	2	appos	_	TokenRange=19:26
+5	data	data	NOUN	NOUN	_	2	appos	_	TokenRange=27:31
+6	magna	_	ADJ	ADJ	_	5	amod	_	TokenRange=32:37
+7	pernambuco	pernambuco	NOUN	NOUN	_	5	flat	_	TokenRange=38:48
+8	tercafeira	_	NOUN	NOUN	_	2	appos	_	TokenRange=49:59
+9	6	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=60:61
+10	algumas	_	DET	DET	_	11	det	_	TokenRange=62:69
+11	reparticoes	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=70:81
+12	publicas	publico	ADJ	ADJ	_	11	amod	_	TokenRange=82:90
+13	vao	ir	AUX	AUX	_	14	aux	_	TokenRange=91:94
+14	funcionar	funcionar	VERB	VERB	_	2	parataxis	_	TokenRange=95:104
+15	comercio	_	NOUN	NOUN	_	14	obj	_	TokenRange=105:113
+16	ponto	ponto	NOUN	NOUN	_	15	flat	_	TokenRange=114:119
+17	facultativo	facultativo	ADJ	ADJ	_	16	amod	_	TokenRange=120:131
+18	primeira	primeiro	ADJ	ADJ	_	19	amod	_	TokenRange=132:140
+19	comemoracao	comemoracao	NOUN	NOUN	_	15	appos	_	TokenRange=141:152
+20	data	data	NOUN	NOUN	_	19	appos	_	TokenRange=153:157
+21	magna	_	NOUN	NOUN	_	19	appos	_	TokenRange=158:163
+22	pernambuco	pernambuco	NOUN	NOUN	_	21	flat	_	TokenRange=164:174
+23	decreto	decreto	NOUN	NOUN	_	15	appos	_	TokenRange=175:182
+24	feriado	feriado	NOUN	NOUN	_	23	appos	_	TokenRange=183:190
+25	2017	_	NUM	NUM	NumType=Card	26	appos	_	TokenRange=191:195
+26	comercio	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=196:204
+27	shoppings	shopping	NOUN	NOUN	_	26	flat	_	TokenRange=205:214
+28	reparticoes	_	NOUN	NOUN	_	26	appos	_	TokenRange=215:226
+29	publicas	publico	ADJ	ADJ	_	28	amod	_	TokenRange=227:235
+30	adequam	_	ADP	ADP	_	31	case	_	TokenRange=236:243
+31	horario	horario	NOUN	NOUN	_	26	appos	_	TokenRange=244:251
+32	funcionamento	funcionamento	NOUN	NOUN	_	31	flat	_	TokenRange=252:265
+33	centro	centro	NOUN	NOUN	_	31	appos	_	TokenRange=266:272
+34	comercial	comercial	ADJ	ADJ	_	33	amod	_	TokenRange=273:282
+35	recife	recife	NOUN	NOUN	_	33	appos	_	TokenRange=283:289
+36	expediente	expediente	NOUN	NOUN	_	33	appos	_	TokenRange=290:300
+37	facultativo	facultativo	ADJ	ADJ	_	36	amod	_	TokenRange=301:312
+38	algumas	_	DET	DET	_	39	det	_	TokenRange=313:320
+39	reparticoes	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=321:332
+40	publicas	publico	ADJ	ADJ	_	39	amod	_	TokenRange=333:341
+41	vao	ir	AUX	AUX	_	42	aux	_	TokenRange=342:345
+42	funcionar	funcionar	VERB	VERB	_	2	parataxis	_	TokenRange=346:355
+43	todas	_	DET	DET	_	44	det	_	TokenRange=356:361
+44	agencias	agencia	NOUN	NOUN	_	42	obj	_	TokenRange=362:370
+45	correios	correio	ADJ	ADJ	_	44	amod	_	TokenRange=371:379
+46	estado	estado	NOUN	NOUN	_	44	amod	_	TokenRange=380:386
+47	estarao	estar	VERB	VERB	_	2	parataxis	_	TokenRange=387:394
+48	fechadas	fechado	ADJ	ADJ	_	47	xcomp	_	TokenRange=395:403
+49	feriado	feriado	NOUN	NOUN	_	50	nsubj	_	TokenRange=404:411
+50	retornam	retornar	VERB	VERB	_	47	parataxis	_	TokenRange=412:420
+51	atividades	atividade	NOUN	NOUN	_	50	obj	_	TokenRange=421:431
+52	normais	normal	ADJ	ADJ	_	51	amod	_	SpaceAfter=No|TokenRange=432:439
+

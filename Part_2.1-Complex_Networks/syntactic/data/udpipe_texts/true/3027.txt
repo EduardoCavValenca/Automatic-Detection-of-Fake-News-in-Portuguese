@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma depoe testemunha processo operacao zelotes contra lula outras tres pessoas ministerio publico federal denunciou expresidente filho dois empresarios trafico influencia lavagem dinheiro organizacao criminosa depoimento porto alegre videoconferencia expresidente dilma rousseff prestou depoimento tarde desta quintafeira 22 porto alegre videoconferencia testemunha processo decorrente operacao zelotes dilma chegou volta 16h30 desta sede justica federal capital gaucha testemunho durou cerca hora meia terminando volta 18h conforme
+1	dilma	dilma	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	depoe	_	VERB	VERB	_	0	root	_	TokenRange=6:11
+3	testemunha	testemunha	NOUN	NOUN	_	2	obj	_	TokenRange=12:22
+4	processo	processo	NOUN	NOUN	_	3	appos	_	TokenRange=23:31
+5	operacao	operacao	NOUN	NOUN	_	3	appos	_	TokenRange=32:40
+6	zelotes	zelote	NOUN	NOUN	_	5	flat	_	TokenRange=41:48
+7	contra	_	ADP	ADP	_	8	case	_	TokenRange=49:55
+8	lula	lula	NOUN	NOUN	_	5	nmod	_	TokenRange=56:60
+9	outras	_	DET	DET	_	11	det	_	TokenRange=61:67
+10	tres	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=68:72
+11	pessoas	pessoa	NOUN	NOUN	_	15	nsubj	_	TokenRange=73:80
+12	ministerio	ministerio	NOUN	NOUN	_	11	appos	_	TokenRange=81:91
+13	publico	_	ADJ	ADJ	_	12	amod	_	TokenRange=92:99
+14	federal	federal	ADJ	ADJ	_	12	amod	_	TokenRange=100:107
+15	denunciou	denunciar	VERB	VERB	_	2	parataxis	_	TokenRange=108:117
+16	expresidente	expresidente	NOUN	NOUN	_	15	obj	_	TokenRange=118:130
+17	filho	filho	NOUN	NOUN	_	16	flat	_	TokenRange=131:136
+18	dois	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=137:141
+19	empresarios	empresario	NOUN	NOUN	_	15	obj	_	TokenRange=142:153
+20	trafico	trafico	NOUN	NOUN	_	19	appos	_	TokenRange=154:161
+21	influencia	_	ADJ	ADJ	_	22	amod	_	TokenRange=162:172
+22	lavagem	lavagem	NOUN	NOUN	_	15	obj	_	TokenRange=173:180
+23	dinheiro	dinheiro	NOUN	NOUN	_	22	flat	_	TokenRange=181:189
+24	organizacao	organizacao	NOUN	NOUN	_	22	appos	_	TokenRange=190:201
+25	criminosa	criminoso	ADJ	ADJ	_	24	amod	_	TokenRange=202:211
+26	depoimento	depoimento	NOUN	NOUN	_	24	appos	_	TokenRange=212:222
+27	porto	porto	NOUN	NOUN	_	24	appos	_	TokenRange=223:228
+28	alegre	alegre	ADJ	ADJ	_	27	amod	_	TokenRange=229:235
+29	videoconferencia	_	NOUN	NOUN	_	24	appos	_	TokenRange=236:252
+30	expresidente	expresidente	NOUN	NOUN	_	33	nsubj	_	TokenRange=253:265
+31	dilma	dilma	ADJ	NOUN	_	30	amod	_	TokenRange=266:271
+32	rousseff	rousseff	NOUN	NOUN	_	30	appos	_	TokenRange=272:280
+33	prestou	prestar	VERB	VERB	_	15	parataxis	_	TokenRange=281:288
+34	depoimento	depoimento	NOUN	NOUN	_	33	obj	_	TokenRange=289:299
+35	tarde	tarde	NOUN	NOUN	_	33	advmod	_	TokenRange=300:305
+36	desta	_	ADP	ADP	_	37	case	_	TokenRange=306:311
+37	quintafeira	quintafeira	NOUN	NOUN	_	35	nmod	_	TokenRange=312:323
+38	22	_	NUM	NUM	NumType=Card	37	appos	_	TokenRange=324:326
+39	porto	porto	NOUN	NOUN	_	37	appos	_	TokenRange=327:332
+40	alegre	alegre	ADJ	ADJ	_	39	amod	_	TokenRange=333:339
+41	videoconferencia	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=340:356
+42	testemunha	testemunha	NOUN	NOUN	_	41	appos	_	TokenRange=357:367
+43	processo	processo	NOUN	NOUN	_	41	appos	_	TokenRange=368:376
+44	decorrente	_	ADJ	ADJ	_	43	amod	_	TokenRange=377:387
+45	operacao	operacao	NOUN	NOUN	_	48	nsubj	_	TokenRange=388:396
+46	zelotes	zelote	NOUN	NOUN	_	45	flat	_	TokenRange=397:404
+47	dilma	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=405:410
+48	chegou	chegar	VERB	VERB	_	33	parataxis	_	TokenRange=411:417
+49	volta	volta	NOUN	NOUN	_	48	nmod	_	TokenRange=418:423
+50	16h30	_	NUM	NUM	NumType=Card	49	appos	_	TokenRange=424:429
+51	desta	_	ADP	ADP	_	52	case	_	TokenRange=430:435
+52	sede	sede	NOUN	NOUN	_	49	nmod	_	TokenRange=436:440
+53	justica	_	NOUN	NOUN	_	58	nsubj	_	TokenRange=441:448
+54	federal	federal	ADJ	ADJ	_	53	amod	_	TokenRange=449:456
+55	capital	capital	ADJ	ADJ	_	53	amod	_	TokenRange=457:464
+56	gaucha	gaucho	ADJ	ADJ	_	57	amod	_	TokenRange=465:471
+57	testemunho	testemunho	NOUN	NOUN	_	58	nsubj	_	TokenRange=472:482
+58	durou	durar	VERB	VERB	_	15	parataxis	_	TokenRange=483:488
+59	cerca	cerca	ADV	ADV	_	60	advmod	_	TokenRange=489:494
+60	hora	hora	NOUN	NOUN	_	58	nmod	_	TokenRange=495:499
+61	meia	_	NOUN	ADJ	_	60	amod	_	TokenRange=500:504
+62	terminando	terminar	VERB	VERB	_	58	acl	_	TokenRange=505:515
+63	volta	volta	NOUN	NOUN	_	62	nmod	_	TokenRange=516:521
+64	18h	_	NUM	NUM	NumType=Card	63	appos	_	TokenRange=522:525
+65	conforme	_	ADP	ADP	_	58	mark	_	SpaceAfter=No|TokenRange=526:534
+

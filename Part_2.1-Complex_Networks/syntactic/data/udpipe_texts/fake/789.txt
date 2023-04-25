@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = operacao zelotes mpf denuncia lula corrupcao passiva ministerio publico federal mpf informou luiz inacio lula silva gilberto carvalho exministro dilma rousseff exchefe gabinete lula pediram total r 6 milhoes propina editar aprovar medida provisoria segunda denuncia lula ambito operacao zelotes exministro acusados crime corrupcao passiva medida provisoria citada acima 471/09 prorrogou beneficios tributarios empresas setor automobilistico periodo 5 anos nunca antes historia deste pais
+1	operacao	operacao	NOUN	NOUN	_	2	amod	_	TokenRange=0:8
+2	zelotes	zelote	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:16
+3	mpf	_	NOUN	NOUN	_	2	appos	_	TokenRange=17:20
+4	denuncia	denunciar	VERB	VERB	_	0	root	_	TokenRange=21:29
+5	lula	_	NOUN	NOUN	_	4	obj	_	TokenRange=30:34
+6	corrupcao	corrupcao	NOUN	NOUN	_	5	amod	_	TokenRange=35:44
+7	passiva	passivo	ADJ	ADJ	_	8	amod	_	TokenRange=45:52
+8	ministerio	ministerio	NOUN	NOUN	_	4	obj	_	TokenRange=53:63
+9	publico	_	ADJ	ADJ	_	8	amod	_	TokenRange=64:71
+10	federal	federal	ADJ	ADJ	_	8	amod	_	TokenRange=72:79
+11	mpf	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=80:83
+12	informou	informar	VERB	VERB	_	4	parataxis	_	TokenRange=84:92
+13	luiz	luiz	NOUN	NOUN	_	12	obj	_	TokenRange=93:97
+14	inacio	_	NOUN	NOUN	_	13	flat	_	TokenRange=98:104
+15	lula	_	NOUN	NOUN	_	13	flat	_	TokenRange=105:109
+16	silva	silva	NOUN	NOUN	_	13	flat	_	TokenRange=110:115
+17	gilberto	gilberto	NOUN	NOUN	_	13	appos	_	TokenRange=116:124
+18	carvalho	carvalho	ADJ	ADJ	_	17	flat	_	TokenRange=125:133
+19	exministro	exministro	NOUN	NOUN	_	17	appos	_	TokenRange=134:144
+20	dilma	dilma	NOUN	NOUN	_	19	appos	_	TokenRange=145:150
+21	rousseff	rousseff	NOUN	NOUN	_	20	flat	_	TokenRange=151:159
+22	exchefe	exchefe	NOUN	NOUN	_	23	amod	_	TokenRange=160:167
+23	gabinete	gabinete	NOUN	NOUN	_	19	appos	_	TokenRange=168:176
+24	lula	lula	ADJ	ADJ	_	23	amod	_	TokenRange=177:181
+25	pediram	pedir	VERB	VERB	_	4	conj	_	TokenRange=182:189
+26	total	total	NOUN	NOUN	_	25	obj	_	TokenRange=190:195
+27	r	r	NOUN	NOUN	_	26	flat	_	TokenRange=196:197
+28	6	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=198:199
+29	milhoes	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=200:207
+30	propina	propina	NOUN	NOUN	_	25	obj	_	TokenRange=208:215
+31	editar	editar	VERB	VERB	_	25	ccomp	_	TokenRange=216:222
+32	aprovar	aprovar	VERB	VERB	_	31	xcomp	_	TokenRange=223:230
+33	medida	medida	NOUN	NOUN	_	32	obj	_	TokenRange=231:237
+34	provisoria	provisorio	ADJ	ADJ	_	33	amod	_	TokenRange=238:248
+35	segunda	segundo	ADJ	ADJ	_	36	amod	_	TokenRange=249:256
+36	denuncia	denuncia	NOUN	NOUN	_	31	nsubj	_	TokenRange=257:265
+37	lula	_	NOUN	NOUN	_	36	appos	_	TokenRange=266:270
+38	ambito	ambito	NOUN	NOUN	_	40	advmod	_	TokenRange=271:277
+39	operacao	operacao	ADJ	ADJ	_	40	amod	_	TokenRange=278:286
+40	zelotes	zelote	NOUN	NOUN	_	36	appos	_	TokenRange=287:294
+41	exministro	exministro	ADJ	NOUN	_	40	amod	_	TokenRange=295:305
+42	acusados	acusar	VERB	ADJ	_	43	amod	_	TokenRange=306:314
+43	crime	crime	NOUN	NOUN	_	40	appos	_	TokenRange=315:320
+44	corrupcao	corrupcao	ADJ	ADJ	_	43	amod	_	TokenRange=321:330
+45	passiva	passivo	ADJ	ADJ	_	46	amod	_	TokenRange=331:338
+46	medida	medida	NOUN	NOUN	_	51	nsubj	_	TokenRange=339:345
+47	provisoria	provisorio	ADJ	ADJ	_	46	amod	_	TokenRange=346:356
+48	citada	citar	VERB	VERB	_	46	acl	_	TokenRange=357:363
+49	acima	acima	ADV	ADV	_	48	advmod	_	TokenRange=364:369
+50	471/09	_	NUM	NUM	NumType=Card	48	nsubj	_	TokenRange=370:376
+51	prorrogou	prorrogar	VERB	VERB	_	4	parataxis	_	TokenRange=377:386
+52	beneficios	beneficio	NOUN	NOUN	_	51	obj	_	TokenRange=387:397
+53	tributarios	tributario	ADJ	ADJ	_	52	amod	_	TokenRange=398:409
+54	empresas	empresa	NOUN	NOUN	_	52	appos	_	TokenRange=410:418
+55	setor	setor	NOUN	NOUN	_	52	appos	_	TokenRange=419:424
+56	automobilistico	automobilistico	ADJ	ADJ	_	55	amod	_	TokenRange=425:440
+57	periodo	periodo	ADJ	ADJ	_	55	amod	_	TokenRange=441:448
+58	5	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=449:450
+59	anos	ano	NOUN	NOUN	_	62	nmod	_	TokenRange=451:455
+60	nunca	nunca	ADV	ADV	_	61	advmod	_	TokenRange=456:461
+61	antes	antes	ADV	ADV	_	62	advmod	_	TokenRange=462:467
+62	historia	historia	NOUN	NOUN	_	51	obj	_	TokenRange=468:476
+63	deste	_	ADP	ADP	_	64	case	_	TokenRange=477:482
+64	pais	_	NOUN	NOUN	_	62	nmod	_	SpaceAfter=No|TokenRange=483:487
+

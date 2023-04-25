@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fotografo equipamento us 40 mil roubado elogia ladroes rj bons fazem brett costello fotografo australiano relatou roubo pm rio janeiro profissional disse todo material trabalho levado mulher equipamento avaliado cerca 40 mil dolares publicacao jornal australiano daily telegraph costello disse cafe abordado mulher distraiu conversas enquanto cumplices levaram todo equipamento percebesse destruido sintome estupido porque percebi plano ninguem viu nada podia acreditar trabalham grupo bons fazem infelizmente disse fotografo
+1	fotografo	fotografo	NOUN	NOUN	_	68	nsubj	_	TokenRange=0:9
+2	equipamento	equipamento	NOUN	NOUN	_	1	flat	_	TokenRange=10:21
+3	us	_	DET	DET	_	5	det	_	TokenRange=22:24
+4	40	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=25:27
+5	mil	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=28:31
+6	roubado	roubado	NOUN	NOUN	_	1	appos	_	TokenRange=32:39
+7	elogia	elogiar	VERB	VERB	_	1	acl:relcl	_	TokenRange=40:46
+8	ladroes	_	NOUN	NOUN	_	7	obj	_	TokenRange=47:54
+9	rj	_	ADJ	NOUN	_	7	dep	_	TokenRange=55:57
+10	bons	bom	ADJ	ADJ	_	11	amod	_	TokenRange=58:62
+11	fazem	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=63:68
+12	brett	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=69:74
+13	costello	_	NOUN	NOUN	_	12	flat	_	TokenRange=75:83
+14	fotografo	fotografo	NOUN	NOUN	_	1	appos	_	TokenRange=84:93
+15	australiano	australiano	ADJ	ADJ	_	14	amod	_	TokenRange=94:105
+16	relatou	relatar	VERB	VERB	_	7	parataxis	_	TokenRange=106:113
+17	roubo	roubo	NOUN	NOUN	_	16	obj	_	TokenRange=114:119
+18	pm	_	ADP	ADP	_	19	case	_	TokenRange=120:122
+19	rio	rio	NOUN	NOUN	_	22	nmod	_	TokenRange=123:126
+20	janeiro	_	PROPN	PNOUN	_	19	flat	_	TokenRange=127:134
+21	profissional	profissional	ADJ	ADJ	_	19	amod	_	TokenRange=135:147
+22	disse	dizer	VERB	VERB	_	7	conj	_	TokenRange=148:153
+23	todo	_	DET	DET	_	24	det	_	TokenRange=154:158
+24	material	material	NOUN	NOUN	_	22	obj	_	TokenRange=159:167
+25	trabalho	trabalho	NOUN	NOUN	_	24	appos	_	TokenRange=168:176
+26	levado	levar	VERB	VERB	_	24	acl	_	TokenRange=177:183
+27	mulher	mulher	NOUN	NOUN	_	24	appos	_	TokenRange=184:190
+28	equipamento	equipamento	NOUN	NOUN	_	24	appos	_	TokenRange=191:202
+29	avaliado	avaliado	ADJ	ADJ	_	28	amod	_	TokenRange=203:211
+30	cerca	cerca	ADV	ADV	_	32	advmod	_	TokenRange=212:217
+31	40	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=218:220
+32	mil	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=221:224
+33	dolares	dolar	NOUN	NOUN	_	24	appos	_	TokenRange=225:232
+34	publicacao	publicacao	ADJ	ADJ	_	35	amod	_	TokenRange=233:243
+35	jornal	jornal	NOUN	NOUN	_	33	appos	_	TokenRange=244:250
+36	australiano	australiano	ADJ	ADJ	_	35	amod	_	TokenRange=251:262
+37	daily	_	ADJ	ADJ	_	38	amod	_	TokenRange=263:268
+38	telegraph	_	NOUN	NOUN	_	35	appos	_	TokenRange=269:278
+39	costello	_	NOUN	NOUN	_	35	appos	_	TokenRange=279:287
+40	disse	dizer	VERB	VERB	_	7	parataxis	_	TokenRange=288:293
+41	cafe	cafe	NOUN	NOUN	_	40	obj	_	TokenRange=294:298
+42	abordado	abordado	ADJ	ADJ	_	41	amod	_	TokenRange=299:307
+43	mulher	mulher	NOUN	NOUN	_	44	nsubj	_	TokenRange=308:314
+44	distraiu	distrair	VERB	VERB	_	40	ccomp	_	TokenRange=315:323
+45	conversas	_	NOUN	NOUN	_	44	obj	_	TokenRange=324:333
+46	enquanto	_	CCONJ	CONJ	_	48	mark	_	TokenRange=334:342
+47	cumplices	cumplice	NOUN	NOUN	_	48	nsubj	_	TokenRange=343:352
+48	levaram	levar	VERB	VERB	_	44	advcl	_	TokenRange=353:360
+49	todo	_	DET	DET	_	50	det	_	TokenRange=361:365
+50	equipamento	equipamento	NOUN	NOUN	_	48	obj	_	TokenRange=366:377
+51	percebesse	perceber	VERB	VERB	_	48	ccomp	_	TokenRange=378:388
+52	destruido	destruido	ADJ	VERB	_	51	xcomp	_	TokenRange=389:398
+53	sintome	sintome	NOUN	NOUN	_	52	nsubj	_	TokenRange=399:406
+54	estupido	estupido	ADJ	ADJ	_	53	amod	_	TokenRange=407:415
+55	porque	_	CCONJ	CONJ	_	56	mark	_	TokenRange=416:422
+56	percebi	perceber	VERB	VERB	_	51	advcl	_	TokenRange=423:430
+57	plano	plano	NOUN	NOUN	_	56	obj	_	TokenRange=431:436
+58	ninguem	_	PRON	PRON	_	59	nsubj	_	TokenRange=437:444
+59	viu	ver	VERB	VERB	_	56	ccomp	_	TokenRange=445:448
+60	nada	_	PRON	PRON	_	59	obj	_	TokenRange=449:453
+61	podia	poder	AUX	AUX	_	62	aux	_	TokenRange=454:459
+62	acreditar	acreditar	VERB	VERB	_	59	ccomp	_	TokenRange=460:469
+63	trabalham	trabalhar	VERB	VERB	_	59	ccomp	_	TokenRange=470:479
+64	grupo	grupo	NOUN	NOUN	_	63	obj	_	TokenRange=480:485
+65	bons	bom	ADJ	ADJ	_	66	amod	_	TokenRange=486:490
+66	fazem	fazer	NOUN	NOUN	_	64	appos	_	TokenRange=491:496
+67	infelizmente	infelizmente	ADV	ADV	_	68	advmod	_	TokenRange=497:509
+68	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=510:515
+69	fotografo	fotografo	NOUN	NOUN	_	68	nsubj	_	SpaceAfter=No|TokenRange=516:525
+

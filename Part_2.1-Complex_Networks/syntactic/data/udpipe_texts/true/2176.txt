@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = retrospectiva 2017 principais casos mortes regiao relembre fatos tres chacinas campinas carro caiu 11 metros altura viracopos bebe morreu creche outros tres chacinas carro duas ocupantes caiu 11 metros altura aeroporto viracopos bebe morreu primeiro dia aula creche casos morte ganharam destaque regiao campinas sp ano veja abaixo fatos marcaram 2017 ordem cronologica durante festa reveillon campinas sp homem invadiu casa aonde exmulher filho 8 anos comemoravam virada ano amigos familiares matou tiros dois outras dez pessoas participavam
+1	retrospectiva	_	NOUN	NOUN	_	0	root	_	TokenRange=0:13
+2	2017	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=14:18
+3	principais	principal	ADJ	ADJ	_	4	amod	_	TokenRange=19:29
+4	casos	caso	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+5	mortes	morte	ADJ	ADJ	_	4	amod	_	TokenRange=36:42
+6	regiao	regiao	NOUN	NOUN	_	1	appos	_	TokenRange=43:49
+7	relembre	_	NOUN	NOUN	_	4	amod	_	TokenRange=50:58
+8	fatos	fato	NOUN	NOUN	_	4	appos	_	TokenRange=59:64
+9	tres	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=65:69
+10	chacinas	chacina	NOUN	NOUN	_	13	nsubj	_	TokenRange=70:78
+11	campinas	campina	ADJ	ADJ	_	10	amod	_	TokenRange=79:87
+12	carro	carro	NOUN	NOUN	_	10	appos	_	TokenRange=88:93
+13	caiu	cair	VERB	VERB	_	1	parataxis	_	TokenRange=94:98
+14	11	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=99:101
+15	metros	metro	NOUN	NOUN	_	13	nmod	_	TokenRange=102:108
+16	altura	altura	NOUN	NOUN	_	15	flat	_	TokenRange=109:115
+17	viracopos	viracopo	NOUN	NOUN	_	13	nsubj	_	TokenRange=116:125
+18	bebe	bebe	NOUN	NOUN	_	17	appos	_	TokenRange=126:130
+19	morreu	morrer	VERB	VERB	_	13	conj	_	TokenRange=131:137
+20	creche	creche	NOUN	NOUN	_	19	obj	_	TokenRange=138:144
+21	outros	_	DET	DET	_	23	det	_	TokenRange=145:151
+22	tres	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=152:156
+23	chacinas	chacina	NOUN	NOUN	_	19	nsubj	_	TokenRange=157:165
+24	carro	carro	NOUN	NOUN	_	23	appos	_	TokenRange=166:171
+25	duas	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=172:176
+26	ocupantes	ocupante	NOUN	NOUN	_	27	nsubj	_	TokenRange=177:186
+27	caiu	cair	VERB	VERB	_	13	parataxis	_	TokenRange=187:191
+28	11	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=192:194
+29	metros	metro	NOUN	NOUN	_	27	nmod	_	TokenRange=195:201
+30	altura	altura	NOUN	NOUN	_	29	appos	_	TokenRange=202:208
+31	aeroporto	aeroporto	NOUN	NOUN	_	27	nsubj	_	TokenRange=209:218
+32	viracopos	viracopo	NOUN	NOUN	_	31	amod	_	TokenRange=219:228
+33	bebe	bebe	NOUN	NOUN	_	31	appos	_	TokenRange=229:233
+34	morreu	morrer	VERB	VERB	_	13	parataxis	_	TokenRange=234:240
+35	primeiro	primeiro	ADJ	ADJ	_	36	amod	_	TokenRange=241:249
+36	dia	dia	NOUN	NOUN	_	34	nmod	_	TokenRange=250:253
+37	aula	aula	NOUN	NOUN	_	41	nmod	_	TokenRange=254:258
+38	creche	creche	NOUN	NOUN	_	37	flat	_	TokenRange=259:265
+39	casos	caso	NOUN	NOUN	_	41	nsubj	_	TokenRange=266:271
+40	morte	morte	NOUN	NOUN	_	39	flat	_	TokenRange=272:277
+41	ganharam	ganhar	VERB	VERB	_	13	parataxis	_	TokenRange=278:286
+42	destaque	destaque	NOUN	NOUN	_	41	obj	_	TokenRange=287:295
+43	regiao	regiao	NOUN	NOUN	_	41	nmod	_	TokenRange=296:302
+44	campinas	campina	NOUN	NOUN	_	43	appos	_	TokenRange=303:311
+45	sp	_	ADJ	ADJ	_	46	amod	_	TokenRange=312:314
+46	ano	ano	NOUN	NOUN	_	43	nmod	_	TokenRange=315:318
+47	veja	ver	VERB	VERB	_	41	parataxis	_	TokenRange=319:323
+48	abaixo	abaixo	ADV	ADV	_	47	advmod	_	TokenRange=324:330
+49	fatos	fato	NOUN	NOUN	_	50	obj	_	TokenRange=331:336
+50	marcaram	marcar	VERB	VERB	_	47	parataxis	_	TokenRange=337:345
+51	2017	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=346:350
+52	ordem	ordem	NOUN	NOUN	_	50	obj	_	TokenRange=351:356
+53	cronologica	cronologico	ADJ	ADJ	_	52	amod	_	TokenRange=357:368
+54	durante	_	ADP	ADP	_	55	case	_	TokenRange=369:376
+55	festa	festa	NOUN	NOUN	_	50	nmod	_	TokenRange=377:382
+56	reveillon	_	NOUN	NOUN	_	55	appos	_	TokenRange=383:392
+57	campinas	campina	NOUN	NOUN	_	56	flat	_	TokenRange=393:401
+58	sp	_	ADJ	CONJ	_	60	amod	_	TokenRange=402:404
+59	homem	homem	NOUN	NOUN	_	60	nsubj	_	TokenRange=405:410
+60	invadiu	invadir	VERB	VERB	_	56	acl:relcl	_	TokenRange=411:418
+61	casa	casa	NOUN	NOUN	_	60	obj	_	TokenRange=419:423
+62	aonde	aonde	ADV	ADV	_	67	advmod	_	TokenRange=424:429
+63	exmulher	exmulher	NOUN	NOUN	_	67	nsubj	_	TokenRange=430:438
+64	filho	filho	NOUN	NOUN	_	63	flat	_	TokenRange=439:444
+65	8	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=445:446
+66	anos	ano	NOUN	NOUN	_	67	nsubj	_	TokenRange=447:451
+67	comemoravam	comemorar	VERB	VERB	_	61	acl:relcl	_	TokenRange=452:463
+68	virada	_	ADJ	ADJ	_	69	amod	_	TokenRange=464:470
+69	ano	ano	NOUN	NOUN	_	67	obj	_	TokenRange=471:474
+70	amigos	amigo	NOUN	NOUN	_	67	nsubj	_	TokenRange=475:481
+71	familiares	familiar	ADJ	ADJ	_	70	amod	_	TokenRange=482:492
+72	matou	matar	VERB	VERB	_	78	parataxis	_	TokenRange=493:498
+73	tiros	tiro	NOUN	NOUN	_	72	obj	_	TokenRange=499:504
+74	dois	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=505:509
+75	outras	_	DET	DET	_	77	det	_	TokenRange=510:516
+76	dez	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=517:520
+77	pessoas	pessoa	NOUN	NOUN	_	78	nsubj	_	TokenRange=521:528
+78	participavam	participar	VERB	VERB	_	56	acl:relcl	_	SpaceAfter=No|TokenRange=529:541
+

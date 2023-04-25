@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gravacao vinheta fim ano globo fatima aparece lado todos menos bonner gravacoes vinheta fim ano rede globo fatima aparece cantando junto atores produtores jornalistas apresentadores enfim todo mundo menos bonner colunista fabiola reipert informou bonner anda meio graca corredores globais bonner afastou redes sociais apelidado tio sukita internautas leia
+1	gravacao	gravacao	NOUN	NOUN	_	7	parataxis	_	TokenRange=0:8
+2	vinheta	vinheta	NOUN	NOUN	_	1	amod	_	TokenRange=9:16
+3	fim	fim	NOUN	NOUN	_	4	amod	_	TokenRange=17:20
+4	ano	ano	NOUN	NOUN	_	1	nmod	_	TokenRange=21:24
+5	globo	globo	NOUN	NOUN	_	1	appos	_	TokenRange=25:30
+6	fatima	_	NOUN	NOUN	_	5	appos	_	TokenRange=31:37
+7	aparece	aparecer	VERB	VERB	_	0	root	_	TokenRange=38:45
+8	lado	lado	NOUN	NOUN	_	7	obj	_	TokenRange=46:50
+9	todos	_	PRON	PRON	_	10	det	_	TokenRange=51:56
+10	menos	menos	ADV	ADV	_	7	advmod	_	TokenRange=57:62
+11	bonner	_	NOUN	NOUN	_	12	appos	_	TokenRange=63:69
+12	gravacoes	_	NOUN	NOUN	_	7	obj	_	TokenRange=70:79
+13	vinheta	vinheta	ADJ	ADJ	_	12	amod	_	TokenRange=80:87
+14	fim	fim	NOUN	NOUN	_	15	amod	_	TokenRange=88:91
+15	ano	ano	NOUN	NOUN	_	16	nmod	_	TokenRange=92:95
+16	rede	rede	NOUN	NOUN	_	19	nsubj	_	TokenRange=96:100
+17	globo	globo	ADJ	ADJ	_	16	amod	_	TokenRange=101:106
+18	fatima	_	NOUN	NOUN	_	16	appos	_	TokenRange=107:113
+19	aparece	aparecer	VERB	VERB	_	7	parataxis	_	TokenRange=114:121
+20	cantando	cantar	VERB	VERB	_	19	acl	_	TokenRange=122:130
+21	junto	junto	ADV	ADV	_	20	advmod	_	TokenRange=131:136
+22	atores	ator	NOUN	NOUN	_	20	obj	_	TokenRange=137:143
+23	produtores	produtor	NOUN	NOUN	_	22	flat	_	TokenRange=144:154
+24	jornalistas	jornalista	ADJ	ADJ	_	22	amod	_	TokenRange=155:166
+25	apresentadores	apresentador	NOUN	NOUN	_	22	amod	_	TokenRange=167:181
+26	enfim	_	ADV	ADV	_	30	advmod	_	TokenRange=182:187
+27	todo	_	DET	DET	_	28	det	_	TokenRange=188:192
+28	mundo	mundo	NOUN	NOUN	_	19	nsubj	_	TokenRange=193:198
+29	menos	menos	ADV	ADV	_	30	advmod	_	TokenRange=199:204
+30	bonner	bonner	NOUN	NOUN	_	19	nsubj	_	TokenRange=205:211
+31	colunista	colunista	NOUN	NOUN	_	30	amod	_	TokenRange=212:221
+32	fabiola	fabiola	NOUN	NOUN	_	30	appos	_	TokenRange=222:229
+33	reipert	_	NOUN	NOUN	_	32	flat	_	TokenRange=230:237
+34	informou	informar	VERB	VERB	_	30	acl:relcl	_	TokenRange=238:246
+35	bonner	bonner	NOUN	NOUN	_	34	obj	_	TokenRange=247:253
+36	anda	_	VERB	VERB	_	34	ccomp	_	TokenRange=254:258
+37	meio	meio	NOUN	NOUN	_	38	advmod	_	TokenRange=259:263
+38	graca	_	ADJ	NOUN	_	39	amod	_	TokenRange=264:269
+39	corredores	corredor	NOUN	NOUN	_	36	nsubj	_	TokenRange=270:280
+40	globais	global	ADJ	ADJ	_	39	amod	_	TokenRange=281:288
+41	bonner	bonner	ADJ	ADJ	_	39	amod	_	TokenRange=289:295
+42	afastou	afastar	VERB	VERB	_	34	conj	_	TokenRange=296:303
+43	redes	rede	NOUN	NOUN	_	42	obj	_	TokenRange=304:309
+44	sociais	social	ADJ	ADJ	_	43	amod	_	TokenRange=310:317
+45	apelidado	apelidar	VERB	VERB	_	46	acl	_	TokenRange=318:327
+46	tio	tio	NOUN	NOUN	_	42	acl	_	TokenRange=328:331
+47	sukita	sukito	ADJ	ADJ	_	46	amod	_	TokenRange=332:338
+48	internautas	internauta	NOUN	NOUN	_	42	obj	_	TokenRange=339:350
+49	leia	leia	ADJ	ADJ	_	48	amod	_	SpaceAfter=No|TokenRange=351:355
+

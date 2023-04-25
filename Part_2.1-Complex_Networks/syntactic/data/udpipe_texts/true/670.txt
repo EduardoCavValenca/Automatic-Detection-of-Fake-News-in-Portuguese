@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cometemos erros diz mark zuckerberg sobre escandalo facebook cambridge analytica fundador facebook anunciou mudancas reforcar seguranca dados aplicativo auditoria apps fundador facebook mark zuckerberg reconheceu empresa errou sobre caso envolvendo vazamento dados consultoria cambridge analytica leia nota integra ingles traducao fim desta reportagem declaracoes dados post perfil zuckerberg rede social primeira vez falou sobre crise institucional fez facebook perder quase us 50 bilhoes valor mercado dois dias neste domingo 18 facebook informou investigando vazamento dados envolvendo empresa britanica trabalhou campanha 2016 presidente americano donald
+1	cometemos	cometer	VERB	VERB	_	3	ccomp	_	TokenRange=0:9
+2	erros	erro	NOUN	NOUN	_	1	obj	_	TokenRange=10:15
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=16:19
+4	mark	_	NOUN	NOUN	_	1	obj	_	TokenRange=20:24
+5	zuckerberg	_	NOUN	NOUN	_	4	flat	_	TokenRange=25:35
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=36:41
+7	escandalo	escandalo	NOUN	NOUN	_	4	nmod	_	TokenRange=42:51
+8	facebook	_	PROPN	PNOUN	_	7	appos	_	TokenRange=52:60
+9	cambridge	cambridge	NOUN	NOUN	_	7	appos	_	TokenRange=61:70
+10	analytica	_	ADJ	ADJ	_	9	amod	_	TokenRange=71:80
+11	fundador	fundador	NOUN	NOUN	_	9	amod	_	TokenRange=81:89
+12	facebook	_	PROPN	PNOUN	_	11	appos	_	TokenRange=90:98
+13	anunciou	anunciar	VERB	VERB	_	1	parataxis	_	TokenRange=99:107
+14	mudancas	_	NOUN	NOUN	_	13	obj	_	TokenRange=108:116
+15	reforcar	reforcar	VERB	VERB	_	13	ccomp	_	TokenRange=117:125
+16	seguranca	_	NOUN	NOUN	_	15	obj	_	TokenRange=126:135
+17	dados	dado	NOUN	NOUN	_	15	obj	_	TokenRange=136:141
+18	aplicativo	aplicativo	ADJ	ADJ	_	17	amod	_	TokenRange=142:152
+19	auditoria	auditoria	NOUN	NOUN	_	17	appos	_	TokenRange=153:162
+20	apps	_	NOUN	NOUN	_	19	appos	_	TokenRange=163:167
+21	fundador	fundador	NOUN	NOUN	_	17	appos	_	TokenRange=168:176
+22	facebook	_	PROPN	PNOUN	_	21	appos	_	TokenRange=177:185
+23	mark	_	NOUN	NOUN	_	22	flat	_	TokenRange=186:190
+24	zuckerberg	_	NOUN	NOUN	_	22	flat	_	TokenRange=191:201
+25	reconheceu	reconhecer	VERB	VERB	_	3	parataxis	_	TokenRange=202:212
+26	empresa	empresa	NOUN	NOUN	_	25	obj	_	TokenRange=213:220
+27	errou	errar	VERB	VERB	_	26	appos	_	TokenRange=221:226
+28	sobre	_	ADP	ADP	_	29	case	_	TokenRange=227:232
+29	caso	caso	NOUN	NOUN	_	25	nmod	_	TokenRange=233:237
+30	envolvendo	envolver	VERB	VERB	_	29	acl	_	TokenRange=238:248
+31	vazamento	vazamento	NOUN	NOUN	_	30	obj	_	TokenRange=249:258
+32	dados	dado	NOUN	NOUN	_	31	flat	_	TokenRange=259:264
+33	consultoria	consultoria	ADJ	NOUN	_	31	amod	_	TokenRange=265:276
+34	cambridge	cambridge	NOUN	NOUN	_	36	nsubj	_	TokenRange=277:286
+35	analytica	_	ADJ	ADJ	_	34	amod	_	TokenRange=287:296
+36	leia	ler	VERB	VERB	_	25	parataxis	_	TokenRange=297:301
+37	nota	nota	NOUN	NOUN	_	36	obj	_	TokenRange=302:306
+38	integra	integro	ADJ	ADJ	_	37	amod	_	TokenRange=307:314
+39	ingles	_	NOUN	NOUN	_	37	appos	_	TokenRange=315:321
+40	traducao	traducao	NOUN	NOUN	_	37	appos	_	TokenRange=322:330
+41	fim	fim	NOUN	NOUN	_	36	parataxis	_	TokenRange=331:334
+42	desta	_	ADP	ADP	_	43	case	_	TokenRange=335:340
+43	reportagem	reportagem	NOUN	NOUN	_	41	nmod	_	TokenRange=341:351
+44	declaracoes	_	NOUN	NOUN	_	43	appos	_	TokenRange=352:363
+45	dados	dado	NOUN	NOUN	_	44	appos	_	TokenRange=364:369
+46	post	_	NOUN	NOUN	_	47	flat	_	TokenRange=370:374
+47	perfil	perfil	NOUN	NOUN	_	44	appos	_	TokenRange=375:381
+48	zuckerberg	_	NOUN	NOUN	_	47	appos	_	TokenRange=382:392
+49	rede	rede	NOUN	NOUN	_	47	appos	_	TokenRange=393:397
+50	social	social	ADJ	ADJ	_	49	amod	_	TokenRange=398:404
+51	primeira	primeiro	ADJ	ADJ	_	52	amod	_	TokenRange=405:413
+52	vez	vez	NOUN	NOUN	_	53	nmod	_	TokenRange=414:417
+53	falou	falar	VERB	VERB	_	36	parataxis	_	TokenRange=418:423
+54	sobre	_	ADP	ADP	_	55	case	_	TokenRange=424:429
+55	crise	crise	NOUN	NOUN	_	53	nmod	_	TokenRange=430:435
+56	institucional	institucional	ADJ	ADJ	_	55	amod	_	TokenRange=436:449
+57	fez	fazer	VERB	VERB	_	53	ccomp	_	TokenRange=450:453
+58	facebook	_	PROPN	PNOUN	_	57	obj	_	TokenRange=454:462
+59	perder	perder	VERB	VERB	_	57	xcomp	_	TokenRange=463:469
+60	quase	quase	ADV	ADV	_	63	advmod	_	TokenRange=470:475
+61	us	_	DET	DET	_	64	nummod	_	TokenRange=476:478
+62	50	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=479:481
+63	bilhoes	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=482:489
+64	valor	valor	NOUN	NOUN	_	59	obj	_	TokenRange=490:495
+65	mercado	mercado	NOUN	NOUN	_	64	flat	_	TokenRange=496:503
+66	dois	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=504:508
+67	dias	dia	NOUN	NOUN	_	64	nmod	_	TokenRange=509:513
+68	neste	_	ADP	ADP	_	69	case	_	TokenRange=514:519
+69	domingo	_	PROPN	PNOUN	_	72	nmod	_	TokenRange=520:527
+70	18	_	NUM	NUM	NumType=Card	69	nmod	_	TokenRange=528:530
+71	facebook	_	PROPN	PNOUN	_	72	nsubj	_	TokenRange=531:539
+72	informou	informar	VERB	VERB	_	53	parataxis	_	TokenRange=540:548
+73	investigando	investigar	VERB	VERB	_	72	acl	_	TokenRange=549:561
+74	vazamento	vazamento	NOUN	NOUN	_	73	obj	_	TokenRange=562:571
+75	dados	dado	NOUN	NOUN	_	74	flat	_	TokenRange=572:577
+76	envolvendo	envolver	VERB	VERB	_	74	acl	_	TokenRange=578:588
+77	empresa	empresa	NOUN	NOUN	_	76	obj	_	TokenRange=589:596
+78	britanica	britanico	ADJ	ADJ	_	77	amod	_	TokenRange=597:606
+79	trabalhou	trabalhar	VERB	VERB	_	72	parataxis	_	TokenRange=607:616
+80	campanha	campanha	NOUN	NOUN	_	79	obj	_	TokenRange=617:625
+81	2016	_	NUM	NUM	NumType=Card	82	nummod	_	TokenRange=626:630
+82	presidente	presidente	NOUN	NOUN	_	80	appos	_	TokenRange=631:641
+83	americano	americano	ADJ	ADJ	_	82	amod	_	TokenRange=642:651
+84	donald	_	NOUN	NOUN	_	80	appos	_	SpaceAfter=No|TokenRange=652:658
+

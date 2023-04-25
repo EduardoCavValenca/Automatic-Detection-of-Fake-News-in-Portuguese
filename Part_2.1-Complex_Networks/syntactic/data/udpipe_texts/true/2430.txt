@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = terrorista mata menos quatro ataque parlamento britanico homem atropelou diversas pessoas ponte westminster esfaqueou policial entrada sede legislativo 40 pessoas ficaram feridas londres voltou enfrentar tragedia terrorismo nesta quartafeira 22 menos 4 pessoas mortas 40 ficaram feridas atentado cometido area externa parlamento reino unido coracao poder britanico ponte westminster pontos turisticos visitados mundo ataque ocorreu 14h40 11h40 brasilia marcou retorno violencia grande capital europeia exato ano apos
+1	terrorista	terrorista	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	mata	matar	VERB	VERB	_	0	root	_	TokenRange=11:15
+3	menos	menos	ADV	ADV	_	4	advmod	_	TokenRange=16:21
+4	quatro	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=22:28
+5	ataque	ataque	NOUN	NOUN	_	2	obj	_	TokenRange=29:35
+6	parlamento	parlamento	NOUN	NOUN	_	2	nsubj	_	TokenRange=36:46
+7	britanico	britanico	ADJ	ADJ	_	6	amod	_	TokenRange=47:56
+8	homem	homem	NOUN	NOUN	_	9	nsubj	_	TokenRange=57:62
+9	atropelou	atropelar	VERB	VERB	_	2	conj	_	TokenRange=63:72
+10	diversas	_	DET	DET	_	11	det	_	TokenRange=73:81
+11	pessoas	pessoa	NOUN	NOUN	_	9	obj	_	TokenRange=82:89
+12	ponte	ponte	NOUN	NOUN	_	14	nsubj	_	TokenRange=90:95
+13	westminster	westminster	NOUN	NOUN	_	12	flat	_	TokenRange=96:107
+14	esfaqueou	esfaquear	VERB	VERB	_	9	conj	_	TokenRange=108:117
+15	policial	policial	ADJ	ADJ	_	14	xcomp	_	TokenRange=118:126
+16	entrada	entrada	NOUN	NOUN	_	14	obj	_	TokenRange=127:134
+17	sede	sede	NOUN	NOUN	_	16	appos	_	TokenRange=135:139
+18	legislativo	legislativo	ADJ	ADJ	_	17	amod	_	TokenRange=140:151
+19	40	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=152:154
+20	pessoas	pessoa	NOUN	NOUN	_	21	nsubj	_	TokenRange=155:162
+21	ficaram	ficar	VERB	VERB	_	2	conj	_	TokenRange=163:170
+22	feridas	ferido	ADJ	ADJ	_	21	xcomp	_	TokenRange=171:178
+23	londres	_	ADJ	ADJ	_	21	nsubj	_	TokenRange=179:186
+24	voltou	voltar	AUX	AUX	_	25	aux	_	TokenRange=187:193
+25	enfrentar	enfrentar	VERB	VERB	_	21	parataxis	_	TokenRange=194:203
+26	tragedia	tragedia	NOUN	NOUN	_	25	obj	_	TokenRange=204:212
+27	terrorismo	terrorismo	ADJ	NOUN	_	26	amod	_	TokenRange=213:223
+28	nesta	_	ADP	ADP	_	29	case	_	TokenRange=224:229
+29	quartafeira	_	NOUN	NOUN	_	25	nmod	_	TokenRange=230:241
+30	22	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=242:244
+31	menos	menos	ADV	ADV	_	32	advmod	_	TokenRange=245:250
+32	4	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=251:252
+33	pessoas	pessoa	NOUN	NOUN	_	36	nsubj	_	TokenRange=253:260
+34	mortas	morto	ADJ	ADJ	_	33	amod	_	TokenRange=261:267
+35	40	_	NUM	NUM	NumType=Card	36	nsubj	_	TokenRange=268:270
+36	ficaram	ficar	VERB	VERB	_	25	parataxis	_	TokenRange=271:278
+37	feridas	ferido	ADJ	ADJ	_	36	xcomp	_	TokenRange=279:286
+38	atentado	atentado	NOUN	NOUN	_	36	nsubj	_	TokenRange=287:295
+39	cometido	cometer	ADJ	ADJ	_	40	acl	_	TokenRange=296:304
+40	area	area	NOUN	NOUN	_	38	appos	_	TokenRange=305:309
+41	externa	externo	ADJ	ADJ	_	40	amod	_	TokenRange=310:317
+42	parlamento	parlamento	NOUN	NOUN	_	40	appos	_	TokenRange=318:328
+43	reino	reino	ADJ	ADJ	_	42	amod	_	TokenRange=329:334
+44	unido	unido	ADJ	ADJ	_	42	amod	_	TokenRange=335:340
+45	coracao	coracao	ADJ	ADJ	_	46	amod	_	TokenRange=341:348
+46	poder	poder	NOUN	NOUN	_	42	appos	_	TokenRange=349:354
+47	britanico	britanico	ADJ	ADJ	_	46	amod	_	TokenRange=355:364
+48	ponte	ponte	NOUN	NOUN	_	46	appos	_	TokenRange=365:370
+49	westminster	westminster	NOUN	NOUN	_	48	flat	_	TokenRange=371:382
+50	pontos	ponto	NOUN	NOUN	_	46	appos	_	TokenRange=383:389
+51	turisticos	turistico	ADJ	ADJ	_	50	amod	_	TokenRange=390:400
+52	visitados	visitar	VERB	VERB	_	50	acl	_	TokenRange=401:410
+53	mundo	mundo	NOUN	NOUN	_	55	nsubj	_	TokenRange=411:416
+54	ataque	ataque	NOUN	NOUN	_	50	appos	_	TokenRange=417:423
+55	ocorreu	ocorrer	VERB	VERB	_	50	acl:relcl	_	TokenRange=424:431
+56	14h40	_	NUM	NUM	NumType=Card	59	nmod	_	TokenRange=432:437
+57	11h40	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=438:443
+58	brasilia	brasilia	NOUN	NOUN	_	59	nsubj	_	TokenRange=444:452
+59	marcou	marcar	VERB	VERB	_	55	parataxis	_	TokenRange=453:459
+60	retorno	retorno	NOUN	NOUN	_	59	obj	_	TokenRange=460:467
+61	violencia	violencia	ADJ	ADJ	_	60	amod	_	TokenRange=468:477
+62	grande	grande	ADJ	ADJ	_	63	amod	_	TokenRange=478:484
+63	capital	capital	NOUN	NOUN	_	59	obj	_	TokenRange=485:492
+64	europeia	europeu	ADJ	ADJ	_	63	amod	_	TokenRange=493:501
+65	exato	exato	ADJ	ADJ	_	66	amod	_	TokenRange=502:507
+66	ano	ano	NOUN	NOUN	_	59	nmod	_	TokenRange=508:511
+67	apos	apos	ADV	ADV	_	66	advmod	_	SpaceAfter=No|TokenRange=512:516
+

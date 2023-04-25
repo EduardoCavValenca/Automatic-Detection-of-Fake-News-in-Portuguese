@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = algemas punhos policiais civis apresentam serem presos natal veja video justica considerou greve ilegal determinou prisao policiais incentivem paralisacao greve desde ultimo dia 20 dezembro policiais civis rio grande norte apresentaram delegacia geral policia manha desta quartafeira 3 natal serem presos tribunal justica rio grande norte considerou movimento ilegal determinou prisao policiais ativa reserva incentivem promovam defendam grev durante tarde
+1	algemas	algema	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:7
+2	punhos	punho	ADJ	ADJ	_	1	amod	_	TokenRange=8:14
+3	policiais	policial	NOUN	NOUN	_	1	appos	_	TokenRange=15:24
+4	civis	civil	ADJ	ADJ	_	3	amod	_	TokenRange=25:30
+5	apresentam	apresentar	VERB	VERB	_	0	root	_	TokenRange=31:41
+6	serem	ser	AUX	AUX	_	7	aux:pass	_	TokenRange=42:47
+7	presos	prender	VERB	NOUN	_	5	xcomp	_	TokenRange=48:54
+8	natal	_	NOUN	NOUN	_	7	nmod	_	TokenRange=55:60
+9	veja	ver	NOUN	NOUN	_	5	parataxis	_	TokenRange=61:65
+10	video	video	NOUN	NOUN	_	12	nsubj	_	TokenRange=66:71
+11	justica	justico	ADJ	ADJ	_	13	amod	_	TokenRange=72:79
+12	considerou	considerar	VERB	VERB	_	5	conj	_	TokenRange=80:90
+13	greve	greve	NOUN	NOUN	_	12	obj	_	TokenRange=91:96
+14	ilegal	ilegal	ADJ	ADJ	_	13	amod	_	TokenRange=97:103
+15	determinou	determinar	VERB	VERB	_	12	parataxis	_	TokenRange=104:114
+16	prisao	prisao	NOUN	NOUN	_	15	obj	_	TokenRange=115:121
+17	policiais	policial	ADJ	ADJ	_	16	amod	_	TokenRange=122:131
+18	incentivem	_	NOUN	NOUN	_	16	appos	_	TokenRange=132:142
+19	paralisacao	paralisacao	ADJ	ADJ	_	16	amod	_	TokenRange=143:154
+20	greve	greve	NOUN	NOUN	_	16	appos	_	TokenRange=155:160
+21	desde	_	ADP	ADP	_	23	case	_	TokenRange=161:166
+22	ultimo	_	ADJ	ADJ	_	23	amod	_	TokenRange=167:173
+23	dia	dia	NOUN	NOUN	_	15	nmod	_	TokenRange=174:177
+24	20	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=178:180
+25	dezembro	_	PROPN	PNOUN	_	23	nmod	_	TokenRange=181:189
+26	policiais	policial	NOUN	NOUN	_	31	nsubj	_	TokenRange=190:199
+27	civis	civil	ADJ	ADJ	_	26	amod	_	TokenRange=200:205
+28	rio	_	NOUN	NOUN	_	26	appos	_	TokenRange=206:209
+29	grande	grande	ADJ	ADJ	_	30	amod	_	TokenRange=210:216
+30	norte	norte	ADJ	ADJ	_	26	amod	_	TokenRange=217:222
+31	apresentaram	apresentar	VERB	VERB	_	5	parataxis	_	TokenRange=223:235
+32	delegacia	delegacia	NOUN	NOUN	_	31	obj	_	TokenRange=236:245
+33	geral	geral	ADJ	ADJ	_	32	amod	_	TokenRange=246:251
+34	policia	policia	NOUN	NOUN	_	31	nsubj	_	TokenRange=252:259
+35	manha	manha	NOUN	NOUN	_	32	appos	_	TokenRange=260:265
+36	desta	_	ADP	ADP	_	37	case	_	TokenRange=266:271
+37	quartafeira	quartafeira	NOUN	NOUN	_	35	nmod	_	TokenRange=272:283
+38	3	_	NUM	NUM	NumType=Card	37	appos	_	TokenRange=284:285
+39	natal	_	PROPN	PNOUN	_	37	amod	_	TokenRange=286:291
+40	serem	ser	AUX	AUX	_	41	aux:pass	_	TokenRange=292:297
+41	presos	prender	VERB	VERB	_	31	parataxis	_	TokenRange=298:304
+42	tribunal	tribunal	NOUN	NOUN	_	41	nsubj:pass	_	TokenRange=305:313
+43	justica	justico	ADJ	ADJ	_	42	amod	_	TokenRange=314:321
+44	rio	rio	NOUN	NOUN	_	47	nsubj	_	TokenRange=322:325
+45	grande	grande	ADJ	ADJ	_	44	amod	_	TokenRange=326:332
+46	norte	norte	ADJ	ADJ	_	44	amod	_	TokenRange=333:338
+47	considerou	considerar	VERB	VERB	_	41	parataxis	_	TokenRange=339:349
+48	movimento	movimento	NOUN	NOUN	_	47	obj	_	TokenRange=350:359
+49	ilegal	ilegal	ADJ	ADJ	_	48	amod	_	TokenRange=360:366
+50	determinou	determinar	VERB	VERB	_	48	acl:inf	_	TokenRange=367:377
+51	prisao	prisao	NOUN	NOUN	_	50	obj	_	TokenRange=378:384
+52	policiais	policial	ADJ	ADJ	_	51	amod	_	TokenRange=385:394
+53	ativa	ativo	ADJ	ADJ	_	51	amod	_	TokenRange=395:400
+54	reserva	reserva	NOUN	NOUN	_	51	appos	_	TokenRange=401:408
+55	incentivem	_	ADJ	ADJ	_	54	amod	_	TokenRange=409:419
+56	promovam	promor	VERB	VERB	_	50	parataxis	_	TokenRange=420:428
+57	defendam	defendar	VERB	VERB	_	56	parataxis	_	TokenRange=429:437
+58	grev	grev	NOUN	NOUN	_	57	obj	_	TokenRange=438:442
+59	durante	_	ADP	ADP	_	60	case	_	TokenRange=443:450
+60	tarde	tarde	NOUN	NOUN	_	57	nmod	_	SpaceAfter=No|TokenRange=451:456
+

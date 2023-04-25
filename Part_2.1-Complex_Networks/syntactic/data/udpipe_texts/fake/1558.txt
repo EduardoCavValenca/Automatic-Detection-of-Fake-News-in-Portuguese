@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 63 anos chico pinheiro afastado telejornal tratar problemas cardiacos noite ultima segunda13 jornalista submetido angioplastia stent pratica comum manter arteria coronariana aberta sustentar fluxo sanguineo evitando assim acumulo gordura chico afastado desde inicio semana oficialmente globo confirmou feito procedimento porem negou alguns internautas questionaram ausencia chico jornal respondeu redes sociais doente prevencao disse ultimo dia 14 deitado fazendo checkup postou quarta 15 63 anos pinheiro vem monitorando saude coracao anos vou transmitir carnaval paulo faco 15 anos disse chico redes sociais
+1	63	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:2
+2	anos	ano	NOUN	NOUN	_	37	nsubj	_	TokenRange=3:7
+3	chico	chico	NOUN	NOUN	_	2	appos	_	TokenRange=8:13
+4	pinheiro	pinheiro	NOUN	NOUN	_	3	flat	_	TokenRange=14:22
+5	afastado	afastado	ADJ	ADJ	_	3	amod	_	TokenRange=23:31
+6	telejornal	telejornal	ADJ	ADJ	_	3	amod	_	TokenRange=32:42
+7	tratar	tratar	VERB	VERB	_	3	acl	_	TokenRange=43:49
+8	problemas	problema	NOUN	NOUN	_	7	obj	_	TokenRange=50:59
+9	cardiacos	cardiaco	ADJ	ADJ	_	8	amod	_	TokenRange=60:69
+10	noite	noite	NOUN	NOUN	_	13	appos	_	TokenRange=70:75
+11	ultima	_	ADJ	ADJ	_	13	amod	_	TokenRange=76:82
+12	segunda13	_	ADJ	ADJ	_	13	amod	_	TokenRange=83:92
+13	jornalista	jornalista	NOUN	NOUN	_	3	appos	_	TokenRange=93:103
+14	submetido	submeter	VERB	VERB	_	13	acl	_	TokenRange=104:113
+15	angioplastia	angioplastia	NOUN	NOUN	_	19	nsubj	_	TokenRange=114:126
+16	stent	_	NOUN	NOUN	_	17	appos	_	TokenRange=127:132
+17	pratica	_	NOUN	NOUN	_	19	obj	_	TokenRange=133:140
+18	comum	comum	ADJ	ADJ	_	17	amod	_	TokenRange=141:146
+19	manter	manter	VERB	VERB	_	3	acl:inf	_	TokenRange=147:153
+20	arteria	arteria	NOUN	NOUN	_	19	obj	_	TokenRange=154:161
+21	coronariana	coronariano	ADJ	ADJ	_	20	amod	_	TokenRange=162:173
+22	aberta	aberto	ADJ	ADJ	_	20	amod	_	TokenRange=174:180
+23	sustentar	sustentar	VERB	VERB	_	19	xcomp	_	TokenRange=181:190
+24	fluxo	fluxo	NOUN	NOUN	_	23	obj	_	TokenRange=191:196
+25	sanguineo	sanguineo	ADJ	ADJ	_	24	amod	_	TokenRange=197:206
+26	evitando	evitar	VERB	VERB	_	23	acl	_	TokenRange=207:215
+27	assim	assim	ADV	ADV	_	26	advmod	_	TokenRange=216:221
+28	acumulo	acumulo	NOUN	NOUN	_	26	obj	_	TokenRange=222:229
+29	gordura	gordura	NOUN	NOUN	_	28	flat	_	TokenRange=230:237
+30	chico	chico	NOUN	NOUN	_	28	amod	_	TokenRange=238:243
+31	afastado	afastar	VERB	VERB	_	28	acl	_	TokenRange=244:252
+32	desde	_	ADP	ADP	_	34	case	_	TokenRange=253:258
+33	inicio	_	ADJ	ADJ	_	34	amod	_	TokenRange=259:265
+34	semana	semana	NOUN	NOUN	_	31	nmod	_	TokenRange=266:272
+35	oficialmente	oficialmente	ADV	ADV	_	37	advmod	_	TokenRange=273:285
+36	globo	globo	NOUN	NOUN	_	37	nsubj	_	TokenRange=286:291
+37	confirmou	confirmar	VERB	VERB	_	0	root	_	TokenRange=292:301
+38	feito	_	VERB	VERB	_	37	xcomp	_	TokenRange=302:307
+39	procedimento	procedimento	NOUN	NOUN	_	38	obj	_	TokenRange=308:320
+40	porem	_	CCONJ	CONJ	_	41	mark	_	TokenRange=321:326
+41	negou	negar	VERB	VERB	_	37	advcl	_	TokenRange=327:332
+42	alguns	_	DET	DET	_	43	det	_	TokenRange=333:339
+43	internautas	internauta	NOUN	NOUN	_	41	nsubj	_	TokenRange=340:351
+44	questionaram	questionar	VERB	VERB	_	37	parataxis	_	TokenRange=352:364
+45	ausencia	ausencia	NOUN	NOUN	_	44	obj	_	TokenRange=365:373
+46	chico	chico	ADJ	ADJ	_	47	amod	_	TokenRange=374:379
+47	jornal	jornal	NOUN	NOUN	_	48	nsubj	_	TokenRange=380:386
+48	respondeu	responder	VERB	VERB	_	37	parataxis	_	TokenRange=387:396
+49	redes	rede	NOUN	NOUN	_	48	obj	_	TokenRange=397:402
+50	sociais	social	ADJ	ADJ	_	49	amod	_	TokenRange=403:410
+51	doente	doente	ADJ	ADJ	_	52	amod	_	TokenRange=411:417
+52	prevencao	prevencao	NOUN	NOUN	_	53	nsubj	_	TokenRange=418:427
+53	disse	dizer	VERB	VERB	_	49	acl:relcl	_	TokenRange=428:433
+54	ultimo	_	ADJ	ADJ	_	55	amod	_	TokenRange=434:440
+55	dia	dia	NOUN	NOUN	_	53	nmod	_	TokenRange=441:444
+56	14	_	NUM	NUM	NumType=Card	55	nmod	_	TokenRange=445:447
+57	deitado	_	NOUN	NOUN	_	58	nsubj	_	TokenRange=448:455
+58	fazendo	fazer	VERB	VERB	_	55	acl	_	TokenRange=456:463
+59	checkup	_	NOUN	NOUN	_	58	obj	_	TokenRange=464:471
+60	postou	postar	VERB	VERB	_	53	parataxis	_	TokenRange=472:478
+61	quarta	_	ADJ	ADJ	_	55	amod	_	TokenRange=479:485
+62	15	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=486:488
+63	63	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=489:491
+64	anos	ano	NOUN	NOUN	_	67	nsubj	_	TokenRange=492:496
+65	pinheiro	pinheiro	ADJ	ADJ	_	64	amod	_	TokenRange=497:505
+66	vem	vir	AUX	AUX	_	67	aux	_	TokenRange=506:509
+67	monitorando	monitorar	VERB	VERB	_	53	conj	_	TokenRange=510:521
+68	saude	saude	NOUN	NOUN	_	67	obj	_	TokenRange=522:527
+69	coracao	_	DET	DET	_	70	case	_	TokenRange=528:535
+70	anos	ano	NOUN	NOUN	_	72	nmod	_	TokenRange=536:540
+71	vou	ir	AUX	AUX	_	72	aux	_	TokenRange=541:544
+72	transmitir	transmitir	VERB	VERB	_	67	advcl	_	TokenRange=545:555
+73	carnaval	carnaval	NOUN	NOUN	_	72	obj	_	TokenRange=556:564
+74	paulo	paulo	NOUN	NOUN	_	73	flat	_	TokenRange=565:570
+75	faco	facar	VERB	VERB	_	78	ccomp	_	TokenRange=571:575
+76	15	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=576:578
+77	anos	ano	NOUN	NOUN	_	75	obj	_	TokenRange=579:583
+78	disse	dizer	VERB	VERB	_	67	conj	_	TokenRange=584:589
+79	chico	chico	NOUN	NOUN	_	78	obj	_	TokenRange=590:595
+80	redes	rede	NOUN	NOUN	_	78	obj	_	TokenRange=596:601
+81	sociais	social	ADJ	ADJ	_	80	amod	_	SpaceAfter=No|TokenRange=602:609
+

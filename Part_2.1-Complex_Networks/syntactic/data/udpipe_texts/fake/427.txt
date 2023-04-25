@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saudoso marcelo rezende alertou pessoas perversas pensam proprio umbigo ouca atencao diz apresentador marcelo rezende sobre presentao natal parlamentares presidente temer deram empresas telecomunicacoes quantos hospitais poderiam construidos quantas vidas poderiam salvas dinheiro revertido populacao questiona apresentador leia
+1	saudoso	saudoso	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	marcelo	marcelo	NOUN	NOUN	_	4	nsubj	_	TokenRange=8:15
+3	rezende	rezende	NOUN	NOUN	_	2	flat	_	TokenRange=16:23
+4	alertou	alertar	VERB	VERB	_	0	root	_	TokenRange=24:31
+5	pessoas	pessoa	NOUN	NOUN	_	4	obj	_	TokenRange=32:39
+6	perversas	perverso	ADJ	ADJ	_	5	amod	_	TokenRange=40:49
+7	pensam	pensar	VERB	VERB	_	4	parataxis	_	TokenRange=50:56
+8	proprio	proprio	ADJ	ADJ	_	9	amod	_	TokenRange=57:64
+9	umbigo	umbigo	NOUN	NOUN	_	7	obj	_	TokenRange=65:71
+10	ouca	_	DET	DET	_	11	det	_	TokenRange=72:76
+11	atencao	atencao	NOUN	NOUN	_	12	nsubj	_	TokenRange=77:84
+12	diz	dizer	VERB	VERB	_	4	conj	_	TokenRange=85:88
+13	apresentador	apresentador	NOUN	NOUN	_	12	obj	_	TokenRange=89:101
+14	marcelo	marcelo	NOUN	NOUN	_	13	appos	_	TokenRange=102:109
+15	rezende	rezende	NOUN	NOUN	_	14	flat	_	TokenRange=110:117
+16	sobre	_	ADP	ADP	_	17	case	_	TokenRange=118:123
+17	presentao	presentao	NOUN	NOUN	_	12	nmod	_	TokenRange=124:133
+18	natal	_	ADJ	ADJ	_	17	amod	_	TokenRange=134:139
+19	parlamentares	parlamentar	NOUN	NOUN	_	22	nsubj	_	TokenRange=140:153
+20	presidente	presidente	NOUN	NOUN	_	22	nsubj	_	TokenRange=154:164
+21	temer	temer	NOUN	NOUN	_	20	flat	_	TokenRange=165:170
+22	deram	dar	VERB	VERB	_	17	acl:relcl	_	TokenRange=171:176
+23	empresas	empresa	NOUN	NOUN	_	22	obj	_	TokenRange=177:185
+24	telecomunicacoes	telecomunicacoe	ADJ	ADJ	_	23	amod	_	TokenRange=186:202
+25	quantos	_	DET	DET	_	26	det	_	TokenRange=203:210
+26	hospitais	hospital	NOUN	NOUN	_	28	nsubj	_	TokenRange=211:220
+27	poderiam	poder	AUX	AUX	_	28	aux	_	TokenRange=221:229
+28	construidos	construir	VERB	VERB	_	23	acl:relcl	_	TokenRange=230:241
+29	quantas	_	DET	DET	_	30	det	_	TokenRange=242:249
+30	vidas	vida	NOUN	NOUN	_	31	nsubj	_	TokenRange=250:255
+31	poderiam	poder	VERB	VERB	_	28	ccomp	_	TokenRange=256:264
+32	salvas	salvo	ADJ	ADJ	_	31	xcomp	_	TokenRange=265:271
+33	dinheiro	dinheiro	NOUN	NOUN	_	31	obj	_	TokenRange=272:280
+34	revertido	revertido	ADJ	ADJ	_	33	amod	_	TokenRange=281:290
+35	populacao	populacao	NOUN	NOUN	_	36	nsubj	_	TokenRange=291:300
+36	questiona	questionar	VERB	VERB	_	4	parataxis	_	TokenRange=301:310
+37	apresentador	apresentador	NOUN	NOUN	_	36	obj	_	TokenRange=311:323
+38	leia	leia	NOUN	NOUN	_	37	appos	_	SpaceAfter=No|TokenRange=324:328
+

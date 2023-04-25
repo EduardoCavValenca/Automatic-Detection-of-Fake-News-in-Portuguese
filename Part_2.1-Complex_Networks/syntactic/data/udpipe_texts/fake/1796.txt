@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = chargista famoso pais aconselha moro jeito prender uns tucanozinhos pra gente acreditar mauricio ricardo chargistas respeitados criativos pais atraves video divulgado redes sociais mauricio questiona suposta parcialidade sergio moro conducao lavajato argumento chargista fundamento confira
+1	chargista	chargista	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:9
+2	famoso	famoso	ADJ	ADJ	_	1	amod	_	TokenRange=10:16
+3	pais	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=17:21
+4	aconselha	aconselhar	VERB	VERB	_	0	root	_	TokenRange=22:31
+5	moro	moro	NOUN	NOUN	_	4	obj	_	TokenRange=32:36
+6	jeito	jeito	NOUN	NOUN	_	4	obj	_	TokenRange=37:42
+7	prender	prender	VERB	VERB	_	6	xcomp	_	TokenRange=43:50
+8	uns	_	DET	DET	_	9	det	_	TokenRange=51:54
+9	tucanozinhos	_	NOUN	NOUN	_	7	obj	_	TokenRange=55:67
+10	pra	_	ADP	ADP	_	12	mark	_	TokenRange=68:71
+11	gente	gente	NOUN	NOUN	_	12	nsubj	_	TokenRange=72:77
+12	acreditar	acreditar	VERB	VERB	_	7	advcl	_	TokenRange=78:87
+13	mauricio	_	NOUN	NOUN	_	12	obj	_	TokenRange=88:96
+14	ricardo	ricardo	ADJ	NOUN	_	13	amod	_	TokenRange=97:104
+15	chargistas	chargista	NOUN	NOUN	_	13	appos	_	TokenRange=105:115
+16	respeitados	respeitar	VERB	VERB	_	15	acl	_	TokenRange=116:127
+17	criativos	criativo	ADJ	ADJ	_	15	amod	_	TokenRange=128:137
+18	pais	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=138:142
+19	atraves	atrave	ADV	ADV	_	20	amod	_	TokenRange=143:150
+20	video	video	NOUN	NOUN	_	18	appos	_	TokenRange=151:156
+21	divulgado	divulgar	VERB	VERB	_	22	acl	_	TokenRange=157:166
+22	redes	rede	NOUN	NOUN	_	20	appos	_	TokenRange=167:172
+23	sociais	social	ADJ	ADJ	_	22	amod	_	TokenRange=173:180
+24	mauricio	mauricio	NOUN	NOUN	_	22	amod	_	TokenRange=181:189
+25	questiona	questionar	VERB	VERB	_	4	parataxis	_	TokenRange=190:199
+26	suposta	suposto	ADJ	ADJ	_	27	amod	_	TokenRange=200:207
+27	parcialidade	parcialidade	NOUN	NOUN	_	25	obj	_	TokenRange=208:220
+28	sergio	_	ADJ	ADJ	_	27	appos	_	TokenRange=221:227
+29	moro	moro	NOUN	NOUN	_	27	appos	_	TokenRange=228:232
+30	conducao	conducao	ADJ	ADJ	_	32	amod	_	TokenRange=233:241
+31	lavajato	lavajato	ADJ	ADJ	_	32	amod	_	TokenRange=242:250
+32	argumento	argumento	NOUN	NOUN	_	35	obj	_	TokenRange=251:260
+33	chargista	chargista	ADJ	ADJ	_	32	amod	_	TokenRange=261:270
+34	fundamento	fundamento	NOUN	NOUN	_	35	nsubj	_	TokenRange=271:281
+35	confira	conferir	VERB	VERB	_	25	parataxis	_	SpaceAfter=No|TokenRange=282:289
+

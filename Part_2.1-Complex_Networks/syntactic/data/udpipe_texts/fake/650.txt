@@ -1,0 +1,17 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vaza lista nomes 233 deputados aprovaram fundo bilionario campanhas
+1	vaza	vazo	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	lista	lista	NOUN	NOUN	_	6	nmod	_	TokenRange=5:10
+3	nomes	nome	ADJ	ADJ	_	5	amod	_	TokenRange=11:16
+4	233	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=17:20
+5	deputados	deputado	NOUN	NOUN	_	6	nsubj	_	TokenRange=21:30
+6	aprovaram	aprovar	VERB	VERB	_	0	root	_	TokenRange=31:40
+7	fundo	fundo	NOUN	NOUN	_	6	obj	_	TokenRange=41:46
+8	bilionario	bilionario	ADJ	ADJ	_	9	amod	_	TokenRange=47:57
+9	campanhas	campanha	NOUN	NOUN	_	6	obj	_	SpaceAfter=No|TokenRange=58:67
+

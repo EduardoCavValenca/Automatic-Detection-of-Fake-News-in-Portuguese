@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nascemos diferentes fizemos diferente sonhamos diferente acabamos legar pais algo tao igual pior costumes politicos frase acima antonio palocci fundadores pt principal responsavel levar lula figura maior petismo planalto 2002 registrada pedido desfiliacao legenda redigido nesta tercafeira 26 data historica pt palocci completa nesta terca ano prisao operacao lava jato outras blog partido seita reage palocci pt carta palocci revela proposta leniencia pt carte desfiliacao palocci analise reino petismo
+1	nascemos	nascer	VERB	VERB	_	0	root	_	TokenRange=0:8
+2	diferentes	diferente	ADJ	ADJ	_	1	xcomp	_	TokenRange=9:19
+3	fizemos	fazer	VERB	VERB	_	1	ccomp	_	TokenRange=20:27
+4	diferente	diferente	ADV	ADV	_	3	xcomp	_	TokenRange=28:37
+5	sonhamos	sonhar	VERB	VERB	_	1	parataxis	_	TokenRange=38:46
+6	diferente	diferente	ADV	ADV	_	5	xcomp	_	TokenRange=47:56
+7	acabamos	acabar	AUX	AUX	_	8	aux	_	TokenRange=57:65
+8	legar	legar	VERB	VERB	_	1	xcomp	_	TokenRange=66:71
+9	pais	_	NOUN	NOUN	_	8	obj	_	TokenRange=72:76
+10	algo	_	PRON	PRON	_	9	appos	_	TokenRange=77:81
+11	tao	tao	ADV	ADV	_	12	advmod	_	TokenRange=82:85
+12	igual	igual	ADJ	ADJ	_	10	amod	_	TokenRange=86:91
+13	pior	_	ADJ	ADJ	_	14	amod	_	TokenRange=92:96
+14	costumes	costume	NOUN	NOUN	_	8	obj	_	TokenRange=97:105
+15	politicos	politico	ADJ	ADJ	_	14	amod	_	TokenRange=106:115
+16	frase	frase	NOUN	NOUN	_	8	parataxis	_	TokenRange=116:121
+17	acima	acima	ADV	ADV	_	18	advmod	_	TokenRange=122:127
+18	antonio	antonio	ADJ	NOUN	_	16	amod	_	TokenRange=128:135
+19	palocci	_	NOUN	NOUN	_	18	flat	_	TokenRange=136:143
+20	fundadores	fundador	ADJ	ADJ	_	19	amod	_	TokenRange=144:154
+21	pt	_	DET	DET	_	23	det	_	TokenRange=155:157
+22	principal	principal	ADJ	ADJ	_	23	amod	_	TokenRange=158:167
+23	responsavel	responsavel	NOUN	NOUN	_	18	appos	_	TokenRange=168:179
+24	levar	levar	VERB	VERB	_	23	acl:inf	_	TokenRange=180:185
+25	lula	_	NOUN	NOUN	_	24	obj	_	TokenRange=186:190
+26	figura	figura	NOUN	NOUN	_	24	obj	_	TokenRange=191:197
+27	maior	maior	ADJ	ADJ	_	26	amod	_	TokenRange=198:203
+28	petismo	petismo	NOUN	NOUN	_	26	appos	_	TokenRange=204:211
+29	planalto	planalto	NOUN	NOUN	_	28	appos	_	TokenRange=212:220
+30	2002	_	NUM	NUM	NumType=Card	29	appos	_	TokenRange=221:225
+31	registrada	registrar	VERB	VERB	_	32	acl	_	TokenRange=226:236
+32	pedido	pedido	NOUN	NOUN	_	24	obj	_	TokenRange=237:243
+33	desfiliacao	desfiliacao	NOUN	NOUN	_	32	amod	_	TokenRange=244:255
+34	legenda	legenda	NOUN	NOUN	_	32	appos	_	TokenRange=256:263
+35	redigido	redigir	VERB	VERB	_	34	acl	_	TokenRange=264:272
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=273:278
+37	tercafeira	_	NOUN	NOUN	_	35	nmod	_	TokenRange=279:289
+38	26	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=290:292
+39	data	data	NOUN	NOUN	_	37	appos	_	TokenRange=293:297
+40	historica	historico	ADJ	ADJ	_	39	amod	_	TokenRange=298:307
+41	pt	_	NOUN	NOUN	_	39	appos	_	TokenRange=308:310
+42	palocci	_	NOUN	NOUN	_	39	appos	_	TokenRange=311:318
+43	completa	completo	ADJ	ADJ	_	39	amod	_	TokenRange=319:327
+44	nesta	_	ADP	ADP	_	46	case	_	TokenRange=328:333
+45	terca	_	ADJ	ADJ	_	46	amod	_	TokenRange=334:339
+46	ano	ano	NOUN	NOUN	_	43	nmod	_	TokenRange=340:343
+47	prisao	prisao	NOUN	NOUN	_	46	appos	_	TokenRange=344:350
+48	operacao	operacao	NOUN	NOUN	_	47	appos	_	TokenRange=351:359
+49	lava	lava	NOUN	NOUN	_	48	flat	_	TokenRange=360:364
+50	jato	jato	NOUN	NOUN	_	48	flat	_	TokenRange=365:369
+51	outras	_	DET	DET	_	52	det	_	TokenRange=370:376
+52	blog	blog	NOUN	NOUN	_	55	nsubj	_	TokenRange=377:381
+53	partido	partido	NOUN	NOUN	_	52	appos	_	TokenRange=382:389
+54	seita	_	NOUN	NOUN	_	52	appos	_	TokenRange=390:395
+55	reage	reagir	VERB	VERB	_	35	parataxis	_	TokenRange=396:401
+56	palocci	_	NOUN	NOUN	_	55	obj	_	TokenRange=402:409
+57	pt	_	ADV	DET	_	58	amod	_	TokenRange=410:412
+58	carta	carta	NOUN	NOUN	_	55	nsubj	_	TokenRange=413:418
+59	palocci	_	NOUN	NOUN	_	58	flat	_	TokenRange=419:426
+60	revela	revelar	VERB	VERB	_	55	parataxis	_	TokenRange=427:433
+61	proposta	_	NOUN	NOUN	_	60	obj	_	TokenRange=434:442
+62	leniencia	leniencia	NOUN	NOUN	_	61	flat	_	TokenRange=443:452
+63	pt	_	ADP	ADP	_	64	case	_	TokenRange=453:455
+64	carte	carte	NOUN	NOUN	_	67	nsubj	_	TokenRange=456:461
+65	desfiliacao	desfiliacao	NOUN	NOUN	_	64	flat	_	TokenRange=462:473
+66	palocci	_	NOUN	NOUN	_	64	flat	_	TokenRange=474:481
+67	analise	analisar	VERB	VERB	_	60	parataxis	_	TokenRange=482:489
+68	reino	reino	NOUN	NOUN	_	67	obj	_	TokenRange=490:495
+69	petismo	petismo	NOUN	NOUN	_	68	flat	_	SpaceAfter=No|TokenRange=496:503
+

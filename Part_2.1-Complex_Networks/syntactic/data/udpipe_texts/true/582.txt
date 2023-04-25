@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa lula dispensa testemunhas vespera depoimentos apos mobilizar estrutura judiciario intimar 80 depoentes advogados petista filho protocolam desistencia oitiva 40 brasilia expresidente luiz inacio lula silva filho cacula empresario luis claudio lula silva adotaram padrao dispensar vesperas depoimentos testemunhas proprios arrolaram processo ambito
+1	defesa	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	lula	lula	NOUN	NOUN	_	1	flat	_	TokenRange=7:11
+3	dispensa	dispensar	VERB	VERB	_	0	root	_	TokenRange=12:20
+4	testemunhas	testemunha	NOUN	NOUN	_	3	obj	_	TokenRange=21:32
+5	vespera	vesperar	VERB	VERB	_	3	parataxis	_	TokenRange=33:40
+6	depoimentos	depoimento	NOUN	NOUN	_	3	obj	_	TokenRange=41:52
+7	apos	_	ADP	ADP	_	8	mark	_	TokenRange=53:57
+8	mobilizar	mobilizar	VERB	VERB	_	3	advcl	_	TokenRange=58:67
+9	estrutura	estrutura	NOUN	NOUN	_	8	obj	_	TokenRange=68:77
+10	judiciario	judiciario	ADJ	ADJ	_	9	amod	_	TokenRange=78:88
+11	intimar	intimar	ADJ	ADJ	_	9	amod	_	TokenRange=89:96
+12	80	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=97:99
+13	depoentes	depoente	NOUN	NOUN	_	17	nsubj	_	TokenRange=100:109
+14	advogados	advogado	NOUN	NOUN	_	13	appos	_	TokenRange=110:119
+15	petista	petista	ADJ	ADJ	_	14	amod	_	TokenRange=120:127
+16	filho	filho	ADJ	ADJ	_	14	amod	_	TokenRange=128:133
+17	protocolam	protocolar	VERB	VERB	_	3	parataxis	_	TokenRange=134:144
+18	desistencia	desistencia	NOUN	NOUN	_	17	obj	_	TokenRange=145:156
+19	oitiva	_	NOUN	NOUN	_	18	appos	_	TokenRange=157:163
+20	40	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=164:166
+21	brasilia	brasilia	NOUN	NOUN	_	18	appos	_	TokenRange=167:175
+22	expresidente	expresidente	NOUN	NOUN	_	18	appos	_	TokenRange=176:188
+23	luiz	luiz	ADJ	ADJ	_	22	appos	_	TokenRange=189:193
+24	inacio	_	NOUN	NOUN	_	22	appos	_	TokenRange=194:200
+25	lula	_	NOUN	NOUN	_	22	amod	_	TokenRange=201:205
+26	silva	silva	NOUN	NOUN	_	23	flat	_	TokenRange=206:211
+27	filho	filho	ADJ	ADJ	_	28	amod	_	TokenRange=212:217
+28	cacula	cacula	NOUN	NOUN	_	17	parataxis	_	TokenRange=218:224
+29	empresario	empresario	NOUN	NOUN	_	28	appos	_	TokenRange=225:235
+30	luis	_	NOUN	NOUN	_	29	appos	_	TokenRange=236:240
+31	claudio	claudio	ADJ	NOUN	_	30	flat	_	TokenRange=241:248
+32	lula	lula	NOUN	NOUN	_	29	appos	_	TokenRange=249:253
+33	silva	silva	ADJ	ADJ	_	30	flat	_	TokenRange=254:259
+34	adotaram	adotar	VERB	VERB	_	3	parataxis	_	TokenRange=260:268
+35	padrao	padrao	NOUN	NOUN	_	34	obj	_	TokenRange=269:275
+36	dispensar	dispensar	VERB	VERB	_	35	acl:inf	_	TokenRange=276:285
+37	vesperas	vespera	NOUN	NOUN	_	36	obj	_	TokenRange=286:294
+38	depoimentos	depoimento	ADJ	ADJ	_	39	amod	_	TokenRange=295:306
+39	testemunhas	testemunha	NOUN	NOUN	_	36	obj	_	TokenRange=307:318
+40	proprios	proprio	ADJ	ADJ	_	39	amod	_	TokenRange=319:327
+41	arrolaram	arrolar	VERB	VERB	_	34	parataxis	_	TokenRange=328:337
+42	processo	processo	NOUN	NOUN	_	41	obj	_	TokenRange=338:346
+43	ambito	ambito	NOUN	NOUN	_	42	amod	_	SpaceAfter=No|TokenRange=347:353
+

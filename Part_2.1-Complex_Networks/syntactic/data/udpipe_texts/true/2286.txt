@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos expulsa pmdb katia abreu chama juca canalha crapula ladrao vidas tribuna senadora disse expulsao maos atual presidente pmdb atestado boa conduta segundo assessoria juca pmdb falar dito conselho etica expulsa pmdb semana passada decisao conselho etica partido senadora katia abreu partidoto subiu nesta quartafeira 29 tribuna senado criticar duramente atual direcao peemedebista especial presidente legenda senador
+1	apos	_	CCONJ	ADV	_	2	mark	_	TokenRange=0:4
+2	expulsa	expulsar	VERB	VERB	_	14	advcl	_	TokenRange=5:12
+3	pmdb	_	NOUN	NOUN	_	2	obj	_	TokenRange=13:17
+4	katia	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=18:23
+5	abreu	_	NOUN	NOUN	_	4	flat	_	TokenRange=24:29
+6	chama	chamar	VERB	VERB	_	2	parataxis	_	TokenRange=30:35
+7	juca	juca	NOUN	NOUN	_	6	obj	_	TokenRange=36:40
+8	canalha	_	NOUN	NOUN	_	9	flat	_	TokenRange=41:48
+9	crapula	crapular	NOUN	NOUN	_	6	conj	_	TokenRange=49:56
+10	ladrao	ladrao	NOUN	NOUN	_	9	obj	_	TokenRange=57:63
+11	vidas	vida	NOUN	NOUN	_	9	flat	_	TokenRange=64:69
+12	tribuna	tribuna	NOUN	NOUN	_	14	nsubj	_	TokenRange=70:77
+13	senadora	senador	NOUN	NOUN	_	12	flat	_	TokenRange=78:86
+14	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=87:92
+15	expulsao	expulsao	NOUN	NOUN	_	14	obj	_	TokenRange=93:101
+16	maos	mao	NOUN	NOUN	_	15	flat	_	TokenRange=102:106
+17	atual	atual	ADJ	ADJ	_	18	amod	_	TokenRange=107:112
+18	presidente	presidente	NOUN	NOUN	_	15	appos	_	TokenRange=113:123
+19	pmdb	_	NOUN	NOUN	_	18	appos	_	TokenRange=124:128
+20	atestado	atestar	VERB	VERB	_	15	acl	_	TokenRange=129:137
+21	boa	bom	ADJ	ADJ	_	22	amod	_	TokenRange=138:141
+22	conduta	conduta	NOUN	NOUN	_	20	obj	_	TokenRange=142:149
+23	segundo	_	ADP	ADP	_	24	case	_	TokenRange=150:157
+24	assessoria	assessoria	NOUN	NOUN	_	20	nmod	_	TokenRange=158:168
+25	juca	juca	ADJ	ADJ	_	24	amod	_	TokenRange=169:173
+26	pmdb	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=174:178
+27	falar	falar	VERB	VERB	_	24	acl:relcl	_	TokenRange=179:184
+28	dito	_	ADJ	ADJ	_	29	amod	_	TokenRange=185:189
+29	conselho	conselho	NOUN	NOUN	_	27	obj	_	TokenRange=190:198
+30	etica	etico	ADJ	ADJ	_	29	amod	_	TokenRange=199:204
+31	expulsa	expulsar	VERB	VERB	_	24	acl:relcl	_	TokenRange=205:212
+32	pmdb	_	NOUN	NOUN	_	31	obj	_	TokenRange=213:217
+33	semana	semana	NOUN	NOUN	_	31	nmod	_	TokenRange=218:224
+34	passada	passado	ADJ	ADJ	_	33	amod	_	TokenRange=225:232
+35	decisao	decisao	NOUN	NOUN	_	36	appos	_	TokenRange=233:240
+36	conselho	conselho	NOUN	NOUN	_	31	nsubj	_	TokenRange=241:249
+37	etica	etico	ADJ	ADJ	_	36	amod	_	TokenRange=250:255
+38	partido	partido	NOUN	NOUN	_	43	nsubj	_	TokenRange=256:263
+39	senadora	senador	ADJ	NOUN	_	38	amod	_	TokenRange=264:272
+40	katia	_	NOUN	NOUN	_	38	appos	_	TokenRange=273:278
+41	abreu	abreu	ADJ	ADJ	_	40	flat	_	TokenRange=279:284
+42	partidoto	partidoto	NOUN	NOUN	_	40	flat	_	TokenRange=285:294
+43	subiu	subir	VERB	VERB	_	31	parataxis	_	TokenRange=295:300
+44	nesta	_	ADP	ADP	_	45	case	_	TokenRange=301:306
+45	quartafeira	quartafeira	NOUN	NOUN	_	43	nmod	_	TokenRange=307:318
+46	29	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=319:321
+47	tribuna	tribuna	NOUN	NOUN	_	43	nsubj	_	TokenRange=322:329
+48	senado	senado	NOUN	NOUN	_	47	appos	_	TokenRange=330:336
+49	criticar	criticar	VERB	VERB	_	43	parataxis	_	TokenRange=337:345
+50	duramente	duramente	ADV	ADV	_	49	advmod	_	TokenRange=346:355
+51	atual	atual	ADJ	ADJ	_	52	amod	_	TokenRange=356:361
+52	direcao	direcao	NOUN	NOUN	_	49	obj	_	TokenRange=362:369
+53	peemedebista	_	ADJ	ADJ	_	52	amod	_	TokenRange=370:382
+54	especial	especial	ADJ	ADJ	_	52	amod	_	TokenRange=383:391
+55	presidente	presidente	NOUN	NOUN	_	49	obj	_	TokenRange=392:402
+56	legenda	legenda	ADJ	ADJ	_	57	amod	_	TokenRange=403:410
+57	senador	senador	NOUN	NOUN	_	49	obj	_	SpaceAfter=No|TokenRange=411:418
+

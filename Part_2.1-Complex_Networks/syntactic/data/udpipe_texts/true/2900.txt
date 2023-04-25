@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 19 outubro bom dia aqui principais noticias comecar dia beminformado batalha continua palavra final sobre sequencia arquivamento 2 denuncia contra presidente temer rejeitada ontem ccj camara cabera plenario votacao marcada proxima quartafeira planalto considera deve perder votos relacao 1 denuncia resultado analise comissao menor primeiro processo rejeitado julho meio negociacoes garantir votos favor presidente lida ainda crise principais aliados presidente camara rodrigo maia esperado governo conseguiu maioria ccj
+1	quintafeira	quintafeira	NOUN	NOUN	_	14	appos	_	TokenRange=0:11
+2	19	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:14
+3	outubro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:22
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=23:26
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=27:30
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=31:35
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=36:46
+8	noticias	_	NOUN	NOUN	_	1	appos	_	TokenRange=47:55
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=56:63
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=64:67
+11	beminformado	beminformado	ADJ	ADJ	_	12	amod	_	TokenRange=68:80
+12	batalha	batalha	NOUN	NOUN	_	9	obj	_	TokenRange=81:88
+13	continua	continuar	ADJ	ADJ	_	14	amod	_	TokenRange=89:97
+14	palavra	palavra	NOUN	NOUN	_	0	root	_	TokenRange=98:105
+15	final	final	ADJ	ADJ	_	14	amod	_	TokenRange=106:111
+16	sobre	_	ADP	ADP	_	17	case	_	TokenRange=112:117
+17	sequencia	_	NOUN	NOUN	_	14	nmod	_	TokenRange=118:127
+18	arquivamento	arquivamento	NOUN	NOUN	_	14	appos	_	TokenRange=128:140
+19	2	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=141:142
+20	denuncia	denuncia	NOUN	NOUN	_	18	appos	_	TokenRange=143:151
+21	contra	_	ADP	ADP	_	22	case	_	TokenRange=152:158
+22	presidente	presidente	NOUN	NOUN	_	20	nmod	_	TokenRange=159:169
+23	temer	temer	NOUN	NOUN	_	22	flat	_	TokenRange=170:175
+24	rejeitada	rejeitar	VERB	VERB	_	20	acl	_	TokenRange=176:185
+25	ontem	ontem	ADV	ADV	_	24	advmod	_	TokenRange=186:191
+26	ccj	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=192:195
+27	camara	camara	NOUN	NOUN	_	28	nsubj	_	TokenRange=196:202
+28	cabera	caberar	VERB	VERB	_	24	parataxis	_	TokenRange=203:209
+29	plenario	plenario	NOUN	NOUN	_	28	obj	_	TokenRange=210:218
+30	votacao	votacao	NOUN	NOUN	_	28	obj	_	TokenRange=219:226
+31	marcada	marcar	VERB	VERB	_	30	acl	_	TokenRange=227:234
+32	proxima	proximo	ADJ	ADJ	_	30	amod	_	TokenRange=235:242
+33	quartafeira	quartafeira	NOUN	NOUN	_	28	nsubj	_	TokenRange=243:254
+34	planalto	planalto	NOUN	NOUN	_	33	flat	_	TokenRange=255:263
+35	considera	considerar	VERB	VERB	_	28	parataxis	_	TokenRange=264:273
+36	deve	dever	AUX	AUX	_	37	aux	_	TokenRange=274:278
+37	perder	perder	VERB	VERB	_	35	ccomp	_	TokenRange=279:285
+38	votos	voto	NOUN	NOUN	_	37	obj	_	TokenRange=286:291
+39	relacao	relacao	NOUN	NOUN	_	37	obj	_	TokenRange=292:299
+40	1	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=300:301
+41	denuncia	denuncia	NOUN	NOUN	_	37	obj	_	TokenRange=302:310
+42	resultado	resultado	NOUN	NOUN	_	41	appos	_	TokenRange=311:320
+43	analise	analise	NOUN	NOUN	_	42	amod	_	TokenRange=321:328
+44	comissao	comissao	NOUN	NOUN	_	41	appos	_	TokenRange=329:337
+45	menor	menor	ADJ	ADJ	_	44	amod	_	TokenRange=338:343
+46	primeiro	primeiro	ADJ	ADJ	_	47	amod	_	TokenRange=344:352
+47	processo	processo	NOUN	NOUN	_	44	appos	_	TokenRange=353:361
+48	rejeitado	rejeitar	VERB	VERB	_	47	acl	_	TokenRange=362:371
+49	julho	_	PROPN	PNOUN	_	52	nmod	_	TokenRange=372:377
+50	meio	meio	ADJ	ADJ	_	51	amod	_	TokenRange=378:382
+51	negociacoes	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=383:394
+52	garantir	garantir	VERB	VERB	_	47	acl:relcl	_	TokenRange=395:403
+53	votos	voto	NOUN	NOUN	_	52	obj	_	TokenRange=404:409
+54	favor	favor	ADJ	ADJ	_	53	amod	_	TokenRange=410:415
+55	presidente	presidente	NOUN	NOUN	_	56	nsubj	_	TokenRange=416:426
+56	lida	lidar	VERB	VERB	_	52	conj	_	TokenRange=427:431
+57	ainda	ainda	ADV	ADV	_	56	advmod	_	TokenRange=432:437
+58	crise	crise	NOUN	NOUN	_	56	obj	_	TokenRange=438:443
+59	principais	principal	ADJ	ADJ	_	58	amod	_	TokenRange=444:454
+60	aliados	aliado	NOUN	NOUN	_	67	nsubj	_	TokenRange=455:462
+61	presidente	presidente	NOUN	NOUN	_	67	nsubj	_	TokenRange=463:473
+62	camara	camara	NOUN	NOUN	_	61	flat	_	TokenRange=474:480
+63	rodrigo	rodrigo	NOUN	NOUN	_	61	appos	_	TokenRange=481:488
+64	maia	maia	NOUN	NOUN	_	63	flat	_	TokenRange=489:493
+65	esperado	esperado	ADJ	ADJ	_	66	amod	_	TokenRange=494:502
+66	governo	governo	NOUN	NOUN	_	67	nsubj	_	TokenRange=503:510
+67	conseguiu	conseguir	VERB	VERB	_	56	parataxis	_	TokenRange=511:520
+68	maioria	maioria	NOUN	NOUN	_	67	obj	_	TokenRange=521:528
+69	ccj	_	X	X	_	67	dep	_	SpaceAfter=No|TokenRange=529:532
+

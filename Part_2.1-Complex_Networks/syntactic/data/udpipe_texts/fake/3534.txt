@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro nome citado yousseff lava jato recebeu nenhum tipo propina delacao gravada justic alberto yousseff doleiro colocado dezenas poderosos politicos empresarios pais cabelos pe delacoes citou nome deputado jair bolsonaro/rj porem dessa vez noticia boa acordo yousseff bolsonaro fez faz parte mafia petrolao confira trecho yousseff cita bolsonaro
+1	bolsonaro	bolsonaro	ADJ	ADJ	_	2	amod	_	TokenRange=0:9
+2	nome	nome	NOUN	NOUN	_	26	nsubj	_	TokenRange=10:14
+3	citado	citar	VERB	VERB	_	2	acl	_	TokenRange=15:21
+4	yousseff	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=22:30
+5	lava	lar	VERB	VERB	_	2	acl:relcl	_	TokenRange=31:35
+6	jato	jato	NOUN	NOUN	_	5	obj	_	TokenRange=36:40
+7	recebeu	receber	VERB	VERB	_	2	acl:relcl	_	TokenRange=41:48
+8	nenhum	_	DET	DET	_	9	det	_	TokenRange=49:55
+9	tipo	tipo	NOUN	NOUN	_	7	obj	_	TokenRange=56:60
+10	propina	propina	NOUN	NOUN	_	9	flat	_	TokenRange=61:68
+11	delacao	_	NOUN	NOUN	_	7	obj	_	TokenRange=69:76
+12	gravada	gravar	VERB	VERB	_	11	acl	_	TokenRange=77:84
+13	justic	justic	NOUN	NOUN	_	12	nsubj	_	TokenRange=85:91
+14	alberto	alberto	NOUN	NOUN	_	13	flat	_	TokenRange=92:99
+15	yousseff	_	NOUN	NOUN	_	14	flat	_	TokenRange=100:108
+16	doleiro	doleiro	NOUN	NOUN	_	14	appos	_	TokenRange=109:116
+17	colocado	colocar	VERB	VERB	_	14	acl	_	TokenRange=117:125
+18	dezenas	_	DET	DET	_	20	det	_	TokenRange=126:133
+19	poderosos	poderoso	ADJ	ADJ	_	20	amod	_	TokenRange=134:143
+20	politicos	politico	NOUN	NOUN	_	17	obj	_	TokenRange=144:153
+21	empresarios	empresario	NOUN	NOUN	_	20	amod	_	TokenRange=154:165
+22	pais	_	NOUN	NOUN	_	20	appos	_	TokenRange=166:170
+23	cabelos	cabelo	NOUN	NOUN	_	22	flat	_	TokenRange=171:178
+24	pe	_	ADP	ADP	_	25	case	_	TokenRange=179:181
+25	delacoes	delacoe	NOUN	NOUN	_	22	nmod	_	TokenRange=182:190
+26	citou	citar	VERB	VERB	_	0	root	_	TokenRange=191:196
+27	nome	nome	NOUN	NOUN	_	26	obj	_	TokenRange=197:201
+28	deputado	deputado	NOUN	NOUN	_	27	appos	_	TokenRange=202:210
+29	jair	jair	NOUN	NOUN	_	27	appos	_	TokenRange=211:215
+30	bolsonaro/rj	_	NOUN	NOUN	_	29	flat	_	TokenRange=216:228
+31	porem	_	NOUN	NOUN	_	26	advmod	_	TokenRange=229:234
+32	dessa	_	ADP	ADP	_	33	case	_	TokenRange=235:240
+33	vez	vez	NOUN	NOUN	_	34	nmod	_	TokenRange=241:244
+34	noticia	noticia	NOUN	NOUN	_	26	dep	_	TokenRange=245:252
+35	boa	bom	ADJ	ADJ	_	36	amod	_	TokenRange=253:256
+36	acordo	acordo	NOUN	NOUN	_	47	nsubj	_	TokenRange=257:263
+37	yousseff	_	PROPN	NOUN	_	36	appos	_	TokenRange=264:272
+38	bolsonaro	bolsonaro	NOUN	NOUN	_	37	flat	_	TokenRange=273:282
+39	fez	fazer	VERB	VERB	_	36	acl:relcl	_	TokenRange=283:286
+40	faz	fazer	VERB	VERB	_	39	xcomp	_	TokenRange=287:290
+41	parte	parte	NOUN	NOUN	_	40	obj	_	TokenRange=291:296
+42	mafia	mafia	NOUN	NOUN	_	40	nsubj	_	TokenRange=297:302
+43	petrolao	petrolao	NOUN	NOUN	_	42	flat	_	TokenRange=303:311
+44	confira	conferir	VERB	VERB	_	39	conj	_	TokenRange=312:319
+45	trecho	trecho	NOUN	NOUN	_	47	obj	_	TokenRange=320:326
+46	yousseff	_	NOUN	NOUN	_	48	amod	_	TokenRange=327:335
+47	cita	citar	VERB	VERB	_	26	parataxis	_	TokenRange=336:340
+48	bolsonaro	bolsonaro	NOUN	NOUN	_	47	obj	_	SpaceAfter=No|TokenRange=341:350
+

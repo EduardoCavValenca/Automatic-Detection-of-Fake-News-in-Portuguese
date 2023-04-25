@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = contramao crise camara aprova criacao 14 mil cargos comissionados diz passou querer meio crise economica politica avassala pais camara deputados deciciu dar maozinha amiga nobres parlamentares permitiram criacao 14 mil cargos federais comissionados usando argumento passou percebido assumir presidencia governo interino michel temer prometeu extincao 4 mil cargos fim deste ano criacao cargos passou junto projeto lei aprovou aumento servidores suframa aumento vai demandar impacto 58 bilhoes cofres publicos
+1	contramao	contramao	VERB	VERB	_	4	acl	_	TokenRange=0:9
+2	crise	crise	NOUN	NOUN	_	4	nsubj	_	TokenRange=10:15
+3	camara	camara	NOUN	NOUN	_	2	amod	_	TokenRange=16:22
+4	aprova	aprovar	VERB	VERB	_	0	root	_	TokenRange=23:29
+5	criacao	criacao	NOUN	NOUN	_	4	obj	_	TokenRange=30:37
+6	14	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=38:40
+7	mil	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=41:44
+8	cargos	cargo	NOUN	NOUN	_	4	obj	_	TokenRange=45:51
+9	comissionados	comissionado	ADJ	ADJ	_	8	amod	_	TokenRange=52:65
+10	diz	dizer	VERB	VERB	_	4	nsubj	_	TokenRange=66:69
+11	passou	passar	AUX	AUX	_	12	aux	_	TokenRange=70:76
+12	querer	querer	VERB	VERB	_	4	ccomp	_	TokenRange=77:83
+13	meio	meio	NOUN	NOUN	_	14	amod	_	TokenRange=84:88
+14	crise	crise	NOUN	NOUN	_	12	obj	_	TokenRange=89:94
+15	economica	economico	ADJ	ADJ	_	14	amod	_	TokenRange=95:104
+16	politica	_	ADJ	ADJ	_	14	amod	_	TokenRange=105:113
+17	avassala	avassalo	ADJ	ADJ	_	14	amod	_	TokenRange=114:122
+18	pais	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=123:127
+19	camara	camara	NOUN	NOUN	_	20	amod	_	TokenRange=128:134
+20	deputados	deputado	NOUN	NOUN	_	18	appos	_	TokenRange=135:144
+21	deciciu	decicir	VERB	VERB	_	4	parataxis	_	TokenRange=145:152
+22	dar	dar	VERB	VERB	_	21	xcomp	_	TokenRange=153:156
+23	maozinha	_	NOUN	NOUN	_	22	obj	_	TokenRange=157:165
+24	amiga	amigo	NOUN	NOUN	_	23	appos	_	TokenRange=166:171
+25	nobres	nobre	ADJ	ADJ	_	26	amod	_	TokenRange=172:178
+26	parlamentares	parlamentar	NOUN	NOUN	_	24	amod	_	TokenRange=179:192
+27	permitiram	permitir	VERB	VERB	_	22	ccomp	_	TokenRange=193:203
+28	criacao	criacao	NOUN	NOUN	_	27	obj	_	TokenRange=204:211
+29	14	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=212:214
+30	mil	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=215:218
+31	cargos	cargo	NOUN	NOUN	_	27	obj	_	TokenRange=219:225
+32	federais	federal	ADJ	ADJ	_	31	amod	_	TokenRange=226:234
+33	comissionados	comissionado	ADJ	ADJ	_	31	amod	_	TokenRange=235:248
+34	usando	usar	VERB	VERB	_	31	acl	_	TokenRange=249:255
+35	argumento	argumento	NOUN	NOUN	_	34	obj	_	TokenRange=256:265
+36	passou	passar	AUX	AUX	_	37	aux	_	TokenRange=266:272
+37	percebido	percebido	ADJ	ADJ	_	31	amod	_	TokenRange=273:282
+38	assumir	assumir	VERB	VERB	_	37	csubj	_	TokenRange=283:290
+39	presidencia	presidencia	NOUN	NOUN	_	38	obj	_	TokenRange=291:302
+40	governo	governo	NOUN	NOUN	_	38	obj	_	TokenRange=303:310
+41	interino	interino	ADJ	ADJ	_	40	amod	_	TokenRange=311:319
+42	michel	michel	ADJ	ADJ	_	43	amod	_	TokenRange=320:326
+43	temer	temer	NOUN	NOUN	_	44	nsubj	_	TokenRange=327:332
+44	prometeu	prometer	VERB	VERB	_	27	parataxis	_	TokenRange=333:341
+45	extincao	extincao	NOUN	NOUN	_	44	obj	_	TokenRange=342:350
+46	4	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=351:352
+47	mil	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=353:356
+48	cargos	cargo	NOUN	NOUN	_	44	obj	_	TokenRange=357:363
+49	fim	fim	NOUN	NOUN	_	48	appos	_	TokenRange=364:367
+50	deste	_	ADP	ADP	_	51	case	_	TokenRange=368:373
+51	ano	ano	NOUN	NOUN	_	49	nmod	_	TokenRange=374:377
+52	criacao	criacao	NOUN	NOUN	_	48	appos	_	TokenRange=378:385
+53	cargos	cargo	NOUN	NOUN	_	52	flat	_	TokenRange=386:392
+54	passou	passar	VERB	VERB	_	52	parataxis	_	TokenRange=393:399
+55	junto	junto	ADV	ADV	_	54	advmod	_	TokenRange=400:405
+56	projeto	projeto	NOUN	NOUN	_	58	nsubj	_	TokenRange=406:413
+57	lei	lei	NOUN	NOUN	_	56	amod	_	TokenRange=414:417
+58	aprovou	aprovar	VERB	VERB	_	54	parataxis	_	TokenRange=418:425
+59	aumento	aumento	NOUN	NOUN	_	58	obj	_	TokenRange=426:433
+60	servidores	servidor	NOUN	NOUN	_	59	flat	_	TokenRange=434:444
+61	suframa	suframa	ADJ	ADJ	_	62	amod	_	TokenRange=445:452
+62	aumento	aumento	NOUN	NOUN	_	64	nsubj	_	TokenRange=453:460
+63	vai	ir	AUX	AUX	_	64	aux	_	TokenRange=461:464
+64	demandar	demandar	VERB	VERB	_	58	parataxis	_	TokenRange=465:473
+65	impacto	impacto	NOUN	NOUN	_	64	obj	_	TokenRange=474:481
+66	58	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=482:484
+67	bilhoes	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=485:492
+68	cofres	cofre	NOUN	NOUN	_	64	obj	_	TokenRange=493:499
+69	publicos	publico	ADJ	ADJ	_	68	amod	_	SpaceAfter=No|TokenRange=500:508
+

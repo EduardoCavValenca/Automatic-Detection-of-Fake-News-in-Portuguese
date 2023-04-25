@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = oab intima dirceu devolver carteira orgao responde perdem tempo besteira seccional oab/sp intimou hoje 04 exministro jose dirceu devolva carteira amanha edital cancelamento publicado diario oficial estado fica intimado apresentar carteira identidade profissional prazo 24 horas acordo artigo 74 estatuto advocacia oab secretaria ordem advogados brasil paulo dirceu cadeia desde dia 3 agosto 2015 prisao revogada supremo dia 2 maio deste ano advogado roberto podval defende jose dirceu disse oab/sp deveria estar preocupada defender advogados perder tempo besteira
+1	oab	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=0:3
+2	intima	_	ADJ	ADJ	_	1	amod	_	TokenRange=4:10
+3	dirceu	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=11:17
+4	devolver	devolver	VERB	VERB	_	1	acl:relcl	_	TokenRange=18:26
+5	carteira	_	NOUN	NOUN	_	4	obj	_	TokenRange=27:35
+6	orgao	orgao	NOUN	NOUN	_	5	appos	_	TokenRange=36:41
+7	responde	responder	VERB	VERB	_	4	conj	_	TokenRange=42:50
+8	perdem	perder	VERB	VERB	_	4	ccomp	_	TokenRange=51:57
+9	tempo	tempo	NOUN	NOUN	_	8	obj	_	TokenRange=58:63
+10	besteira	besteira	NOUN	NOUN	_	9	appos	_	TokenRange=64:72
+11	seccional	seccional	ADJ	ADJ	_	10	amod	_	TokenRange=73:82
+12	oab/sp	_	NOUN	NOUN	_	9	appos	_	TokenRange=83:89
+13	intimou	intimar	VERB	VERB	_	12	appos	_	TokenRange=90:97
+14	hoje	hoje	ADV	ADV	_	13	advmod	_	TokenRange=98:102
+15	04	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=103:105
+16	exministro	exministro	NOUN	NOUN	_	19	nsubj	_	TokenRange=106:116
+17	jose	jose	NOUN	NOUN	_	16	appos	_	TokenRange=117:121
+18	dirceu	_	NOUN	NOUN	_	16	flat	_	TokenRange=122:128
+19	devolva	devolver	VERB	VERB	_	13	parataxis	_	TokenRange=129:136
+20	carteira	_	NOUN	NOUN	_	19	obj	_	TokenRange=137:145
+21	amanha	amanha	NOUN	NOUN	_	20	flat	_	TokenRange=146:152
+22	edital	edital	ADJ	ADJ	_	20	amod	_	TokenRange=153:159
+23	cancelamento	cancelamento	NOUN	NOUN	_	19	obj	_	TokenRange=160:172
+24	publicado	publicar	ADJ	ADJ	_	25	acl	_	TokenRange=173:182
+25	diario	diario	NOUN	NOUN	_	23	appos	_	TokenRange=183:189
+26	oficial	oficial	ADJ	ADJ	_	25	amod	_	TokenRange=190:197
+27	estado	estado	NOUN	NOUN	_	25	amod	_	TokenRange=198:204
+28	fica	ficar	VERB	VERB	_	0	root	_	TokenRange=205:209
+29	intimado	intimado	ADJ	ADJ	_	28	xcomp	_	TokenRange=210:218
+30	apresentar	apresentar	VERB	VERB	_	28	csubj	_	TokenRange=219:229
+31	carteira	_	NOUN	NOUN	_	30	obj	_	TokenRange=230:238
+32	identidade	identidade	NOUN	NOUN	_	31	appos	_	TokenRange=239:249
+33	profissional	profissional	ADJ	ADJ	_	32	amod	_	TokenRange=250:262
+34	prazo	prazo	NOUN	NOUN	_	30	obj	_	TokenRange=263:268
+35	24	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=269:271
+36	horas	hora	NOUN	NOUN	_	34	nmod	_	TokenRange=272:277
+37	acordo	acordo	NOUN	NOUN	_	31	appos	_	TokenRange=278:284
+38	artigo	artigo	NOUN	NOUN	_	37	appos	_	TokenRange=285:291
+39	74	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=292:294
+40	estatuto	estatuto	NOUN	NOUN	_	37	appos	_	TokenRange=295:303
+41	advocacia	advocacia	NOUN	NOUN	_	40	flat	_	TokenRange=304:313
+42	oab	_	NOUN	NOUN	_	40	appos	_	TokenRange=314:317
+43	secretaria	secretaria	NOUN	NOUN	_	40	appos	_	TokenRange=318:328
+44	ordem	ordem	NOUN	NOUN	_	40	appos	_	TokenRange=329:334
+45	advogados	advogado	NOUN	NOUN	_	44	flat	_	TokenRange=335:344
+46	brasil	brasil	NOUN	NOUN	_	44	amod	_	TokenRange=345:351
+47	paulo	paulo	NOUN	NOUN	_	44	appos	_	TokenRange=352:357
+48	dirceu	_	ADJ	ADJ	_	47	flat	_	TokenRange=358:364
+49	cadeia	cadeia	NOUN	NOUN	_	47	flat	_	TokenRange=365:371
+50	desde	_	ADP	ADP	_	51	case	_	TokenRange=372:377
+51	dia	dia	NOUN	NOUN	_	28	nmod	_	TokenRange=378:381
+52	3	_	NUM	NUM	NumType=Card	51	nmod	_	TokenRange=382:383
+53	agosto	_	PROPN	PNOUN	_	51	nmod	_	TokenRange=384:390
+54	2015	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=391:395
+55	prisao	prisao	NOUN	NOUN	_	51	appos	_	TokenRange=396:402
+56	revogada	revogado	ADJ	ADJ	_	55	amod	_	TokenRange=403:411
+57	supremo	supremo	ADJ	ADJ	_	55	amod	_	TokenRange=412:419
+58	dia	dia	NOUN	NOUN	_	56	nmod	_	TokenRange=420:423
+59	2	_	NUM	NUM	NumType=Card	58	appos	_	TokenRange=424:425
+60	maio	_	PROPN	PNOUN	_	59	nmod	_	TokenRange=426:430
+61	deste	_	ADP	ADP	_	62	case	_	TokenRange=431:436
+62	ano	ano	NOUN	NOUN	_	60	nmod	_	TokenRange=437:440
+63	advogado	advogado	NOUN	NOUN	_	66	nsubj	_	TokenRange=441:449
+64	roberto	roberto	ADJ	ADJ	_	63	appos	_	TokenRange=450:457
+65	podval	_	ADJ	ADJ	_	64	amod	_	TokenRange=458:464
+66	defende	defender	VERB	VERB	_	55	acl:relcl	_	TokenRange=465:472
+67	jose	jose	NOUN	NOUN	_	66	obj	_	TokenRange=473:477
+68	dirceu	dirceu	NOUN	NOUN	_	67	flat	_	TokenRange=478:484
+69	disse	dizer	VERB	VERB	_	66	parataxis	_	TokenRange=485:490
+70	oab/sp	_	NOUN	NOUN	_	72	nsubj	_	TokenRange=491:497
+71	deveria	dever	AUX	AUX	_	72	aux	_	TokenRange=498:505
+72	estar	estar	VERB	VERB	_	69	ccomp	_	TokenRange=506:511
+73	preocupada	preocupado	ADJ	ADJ	_	72	xcomp	_	TokenRange=512:522
+74	defender	defender	VERB	VERB	_	72	csubj	_	TokenRange=523:531
+75	advogados	advogado	NOUN	NOUN	_	74	obj	_	TokenRange=532:541
+76	perder	perder	VERB	VERB	_	72	csubj	_	TokenRange=542:548
+77	tempo	tempo	NOUN	NOUN	_	76	obj	_	TokenRange=549:554
+78	besteira	besteira	NOUN	NOUN	_	77	flat	_	SpaceAfter=No|TokenRange=555:563
+

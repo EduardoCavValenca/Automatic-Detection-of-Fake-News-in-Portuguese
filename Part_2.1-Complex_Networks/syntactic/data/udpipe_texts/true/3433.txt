@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ccj camara retoma debates sobre segunda denuncia contra temer apos debate sobre acusacao comissao deve votar parecer relator favoravel arquivamento peca brasilia comissao constituicao
+1	ccj	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:3
+2	camara	camara	NOUN	NOUN	_	3	nsubj	_	TokenRange=4:10
+3	retoma	retomar	VERB	VERB	_	0	root	_	TokenRange=11:17
+4	debates	debate	NOUN	NOUN	_	3	obj	_	TokenRange=18:25
+5	sobre	_	ADP	ADP	_	7	case	_	TokenRange=26:31
+6	segunda	segundo	ADJ	ADJ	_	7	amod	_	TokenRange=32:39
+7	denuncia	denuncia	NOUN	NOUN	_	4	nmod	_	TokenRange=40:48
+8	contra	_	ADP	ADP	_	9	case	_	TokenRange=49:55
+9	temer	temer	NOUN	NOUN	_	7	nmod	_	TokenRange=56:61
+10	apos	_	ADP	ADP	_	11	case	_	TokenRange=62:66
+11	debate	debate	NOUN	NOUN	_	3	nmod	_	TokenRange=67:73
+12	sobre	_	ADP	ADP	_	13	case	_	TokenRange=74:79
+13	acusacao	acusacao	NOUN	NOUN	_	11	nmod	_	TokenRange=80:88
+14	comissao	comissao	NOUN	NOUN	_	16	nsubj	_	TokenRange=89:97
+15	deve	dever	AUX	AUX	_	16	aux	_	TokenRange=98:102
+16	votar	votar	VERB	VERB	_	3	conj	_	TokenRange=103:108
+17	parecer	parecer	NOUN	NOUN	_	16	obj	_	TokenRange=109:116
+18	relator	relator	NOUN	NOUN	_	17	flat	_	TokenRange=117:124
+19	favoravel	favoravel	ADJ	ADJ	_	18	amod	_	TokenRange=125:134
+20	arquivamento	arquivamento	NOUN	NOUN	_	17	appos	_	TokenRange=135:147
+21	peca	peca	NOUN	NOUN	_	3	parataxis	_	TokenRange=148:152
+22	brasilia	brasilia	ADJ	ADJ	_	23	amod	_	TokenRange=153:161
+23	comissao	comissao	NOUN	NOUN	_	21	obj	_	TokenRange=162:170
+24	constituicao	constituicao	ADJ	ADJ	_	23	amod	_	SpaceAfter=No|TokenRange=171:183
+

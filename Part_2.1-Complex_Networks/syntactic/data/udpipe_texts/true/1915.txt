@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = camara conclui votacao aprova regras distribuicao fundo eleitoral texto segue agora senado precisa aprovalo fim desta semana valer eleicoes 2018 criacao fundo eleitoral sido aprovada outro projeto 11 horas discussao camara deputados concluiu madrugada desta quintafeira 5 votacao projeto reforma politica outros pontos fixa limites custos campanha regulamenta fundo eleitoral aprovacao texto autoria deputado vicente candido ptsp segue agora senado prazo curtissimo analisar proposta porque regras valerem proximas eleicoes senadores aprovar texto
+1	camara	camara	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	conclui	concluir	VERB	VERB	_	0	root	_	TokenRange=7:14
+3	votacao	votacao	NOUN	NOUN	_	2	obj	_	TokenRange=15:22
+4	aprova	aprovar	VERB	VERB	_	2	parataxis	_	TokenRange=23:29
+5	regras	regra	NOUN	NOUN	_	2	obj	_	TokenRange=30:36
+6	distribuicao	_	ADJ	ADJ	_	5	amod	_	TokenRange=37:49
+7	fundo	fundo	NOUN	NOUN	_	4	obj	_	TokenRange=50:55
+8	eleitoral	eleitoral	ADJ	ADJ	_	7	amod	_	TokenRange=56:65
+9	texto	texto	NOUN	NOUN	_	2	nsubj	_	TokenRange=66:71
+10	segue	_	VERB	VERB	_	13	mark	_	TokenRange=72:77
+11	agora	agora	ADV	ADV	_	13	advmod	_	TokenRange=78:83
+12	senado	senado	NOUN	NOUN	_	13	nsubj	_	TokenRange=84:90
+13	precisa	precisar	VERB	VERB	_	2	conj	_	TokenRange=91:98
+14	aprovalo	aprovalo	VERB	VERB	_	13	xcomp	_	TokenRange=99:107
+15	fim	fim	NOUN	NOUN	_	14	obj	_	TokenRange=108:111
+16	desta	_	ADP	ADP	_	17	case	_	TokenRange=112:117
+17	semana	semana	NOUN	NOUN	_	15	nmod	_	TokenRange=118:124
+18	valer	valer	VERB	VERB	_	14	ccomp	_	TokenRange=125:130
+19	eleicoes	eleicoe	NOUN	NOUN	_	18	obj	_	TokenRange=131:139
+20	2018	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=140:144
+21	criacao	criacao	NOUN	NOUN	_	18	nsubj	_	TokenRange=145:152
+22	fundo	fundo	NOUN	NOUN	_	18	nsubj	_	TokenRange=153:158
+23	eleitoral	eleitoral	ADJ	ADJ	_	22	amod	_	TokenRange=159:168
+24	sido	ser	AUX	AUX	_	25	aux:pass	_	TokenRange=169:173
+25	aprovada	aprovar	VERB	VERB	_	18	acl	_	TokenRange=174:182
+26	outro	_	DET	DET	_	27	det	_	TokenRange=183:188
+27	projeto	projeto	NOUN	NOUN	_	25	nsubj:pass	_	TokenRange=189:196
+28	11	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=197:199
+29	horas	hora	NOUN	NOUN	_	27	appos	_	TokenRange=200:205
+30	discussao	discussao	NOUN	NOUN	_	27	appos	_	TokenRange=206:215
+31	camara	camara	NOUN	NOUN	_	33	nsubj	_	TokenRange=216:222
+32	deputados	deputado	NOUN	NOUN	_	31	flat	_	TokenRange=223:232
+33	concluiu	concluir	VERB	VERB	_	2	parataxis	_	TokenRange=233:241
+34	madrugada	madrugada	NOUN	NOUN	_	33	obj	_	TokenRange=242:251
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=252:257
+36	quintafeira	quintafeira	NOUN	NOUN	_	34	nmod	_	TokenRange=258:269
+37	5	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=270:271
+38	votacao	votacao	NOUN	NOUN	_	36	appos	_	TokenRange=272:279
+39	projeto	projeto	NOUN	NOUN	_	33	obj	_	TokenRange=280:287
+40	reforma	reforma	NOUN	NOUN	_	33	obj	_	TokenRange=288:295
+41	politica	politico	ADJ	ADJ	_	40	amod	_	TokenRange=296:304
+42	outros	_	DET	DET	_	43	det	_	TokenRange=305:311
+43	pontos	ponto	NOUN	NOUN	_	33	nsubj	_	TokenRange=312:318
+44	fixa	fixo	ADJ	ADJ	_	43	amod	_	TokenRange=319:323
+45	limites	limite	NOUN	NOUN	_	43	appos	_	TokenRange=324:331
+46	custos	custo	NOUN	NOUN	_	43	amod	_	TokenRange=332:338
+47	campanha	campanha	NOUN	NOUN	_	45	appos	_	TokenRange=339:347
+48	regulamenta	regulamento	ADJ	ADJ	_	47	amod	_	TokenRange=348:359
+49	fundo	fundo	NOUN	NOUN	_	45	appos	_	TokenRange=360:365
+50	eleitoral	eleitoral	ADJ	ADJ	_	49	amod	_	TokenRange=366:375
+51	aprovacao	aprovacao	ADJ	ADJ	_	49	amod	_	TokenRange=376:385
+52	texto	texto	NOUN	NOUN	_	49	appos	_	TokenRange=386:391
+53	autoria	autoria	NOUN	NOUN	_	52	flat	_	TokenRange=392:399
+54	deputado	deputado	NOUN	NOUN	_	52	appos	_	TokenRange=400:408
+55	vicente	vicente	ADJ	ADJ	_	54	flat	_	TokenRange=409:416
+56	candido	candido	ADJ	ADJ	_	54	amod	_	TokenRange=417:424
+57	ptsp	_	NOUN	NOUN	_	58	nsubj	_	TokenRange=425:429
+58	segue	_	VERB	VERB	_	33	parataxis	_	TokenRange=430:435
+59	agora	agora	ADV	ADV	_	58	advmod	_	TokenRange=436:441
+60	senado	senado	NOUN	NOUN	_	58	obj	_	TokenRange=442:448
+61	prazo	prazo	NOUN	NOUN	_	58	obj	_	TokenRange=449:454
+62	curtissimo	curtissimo	ADJ	ADJ	_	61	amod	_	TokenRange=455:465
+63	analisar	analisar	VERB	VERB	_	58	csubj	_	TokenRange=466:474
+64	proposta	_	NOUN	NOUN	_	63	obj	_	TokenRange=475:483
+65	porque	_	CCONJ	CONJ	_	67	mark	_	TokenRange=484:490
+66	regras	regra	NOUN	NOUN	_	67	nsubj	_	TokenRange=491:497
+67	valerem	valer	VERB	VERB	_	63	advcl	_	TokenRange=498:505
+68	proximas	proximo	ADJ	ADJ	_	69	amod	_	TokenRange=506:514
+69	eleicoes	eleicoe	NOUN	NOUN	_	71	obj	_	TokenRange=515:523
+70	senadores	senador	ADJ	ADJ	_	69	amod	_	TokenRange=524:533
+71	aprovar	aprovar	VERB	VERB	_	67	ccomp	_	TokenRange=534:541
+72	texto	texto	NOUN	NOUN	_	71	obj	_	SpaceAfter=No|TokenRange=542:547
+

@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = constelacao familiar tecnica terapeutica usada justica facilitar acordos propagar cultura paz metodo baseia identificacao traumas familiares evitar repeticao comportamentos destrutivos sido aplicado diferentes varas judiciais pais juizes afirmam tecnica traz alento partes envolvidas evita processos arrastem salao diante 120 espectadores mediador convida pessoas presentes contar historia mulher diz relacao tumultuada filha 35 anos viciada crack vitima transtornos mentais aguarda
+1	constelacao	constelacao	NOUN	NOUN	_	22	nsubj:pass	_	TokenRange=0:11
+2	familiar	familiar	ADJ	ADJ	_	1	amod	_	TokenRange=12:20
+3	tecnica	_	NOUN	NOUN	_	1	appos	_	TokenRange=21:28
+4	terapeutica	terapeutico	ADJ	ADJ	_	3	amod	_	TokenRange=29:40
+5	usada	usar	VERB	VERB	_	1	acl	_	TokenRange=41:46
+6	justica	_	NOUN	NOUN	_	5	obj	_	TokenRange=47:54
+7	facilitar	facilitar	VERB	VERB	_	5	ccomp	_	TokenRange=55:64
+8	acordos	acordo	NOUN	NOUN	_	7	obj	_	TokenRange=65:72
+9	propagar	propagar	VERB	VERB	_	7	ccomp	_	TokenRange=73:81
+10	cultura	cultura	NOUN	NOUN	_	9	obj	_	TokenRange=82:89
+11	paz	paz	NOUN	NOUN	_	10	amod	_	TokenRange=90:93
+12	metodo	metodo	NOUN	NOUN	_	7	obj	_	TokenRange=94:100
+13	baseia	_	NOUN	NOUN	_	12	flat	_	TokenRange=101:107
+14	identificacao	_	VERB	VERB	_	1	acl	_	TokenRange=108:121
+15	traumas	trauma	NOUN	NOUN	_	14	obj	_	TokenRange=122:129
+16	familiares	familiar	ADJ	ADJ	_	15	amod	_	TokenRange=130:140
+17	evitar	evitar	VERB	VERB	_	1	acl	_	TokenRange=141:147
+18	repeticao	repeticao	NOUN	NOUN	_	17	obj	_	TokenRange=148:157
+19	comportamentos	comportamento	NOUN	NOUN	_	18	appos	_	TokenRange=158:172
+20	destrutivos	destrutivo	ADJ	ADJ	_	19	amod	_	TokenRange=173:184
+21	sido	ser	AUX	AUX	_	22	aux:pass	_	TokenRange=185:189
+22	aplicado	aplicar	VERB	VERB	_	0	root	_	TokenRange=190:198
+23	diferentes	_	DET	DET	_	24	det	_	TokenRange=199:209
+24	varas	vara	NOUN	NOUN	_	22	nsubj:pass	_	TokenRange=210:215
+25	judiciais	judicial	ADJ	ADJ	_	24	amod	_	TokenRange=216:225
+26	pais	_	DET	DET	_	27	det	_	TokenRange=226:230
+27	juizes	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=231:237
+28	afirmam	afirmar	VERB	VERB	_	24	acl:relcl	_	TokenRange=238:245
+29	tecnica	_	NOUN	NOUN	_	28	obj	_	TokenRange=246:253
+30	traz	trazer	NOUN	NOUN	_	29	appos	_	TokenRange=254:258
+31	alento	alento	NOUN	NOUN	_	30	flat	_	TokenRange=259:265
+32	partes	_	PROPN	PNOUN	_	30	appos	_	TokenRange=266:272
+33	envolvidas	envolvido	ADJ	ADJ	_	32	amod	_	TokenRange=273:283
+34	evita	evitar	VERB	VERB	_	28	parataxis	_	TokenRange=284:289
+35	processos	processo	NOUN	NOUN	_	34	obj	_	TokenRange=290:299
+36	arrastem	_	VERB	VERB	_	34	parataxis	_	TokenRange=300:308
+37	salao	salao	NOUN	NOUN	_	36	obj	_	TokenRange=309:314
+38	diante	diante	ADV	ADV	_	42	advmod	_	TokenRange=315:321
+39	120	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=322:325
+40	espectadores	espectador	NOUN	NOUN	_	36	nsubj	_	TokenRange=326:338
+41	mediador	mediador	NOUN	NOUN	_	40	appos	_	TokenRange=339:347
+42	convida	convidar	VERB	VERB	_	36	parataxis	_	TokenRange=348:355
+43	pessoas	pessoa	NOUN	NOUN	_	42	obj	_	TokenRange=356:363
+44	presentes	presente	ADJ	ADJ	_	43	amod	_	TokenRange=364:373
+45	contar	contar	VERB	VERB	_	42	ccomp	_	TokenRange=374:380
+46	historia	historia	NOUN	NOUN	_	45	obj	_	TokenRange=381:389
+47	mulher	mulher	NOUN	NOUN	_	46	appos	_	TokenRange=390:396
+48	diz	dizer	VERB	VERB	_	42	parataxis	_	TokenRange=397:400
+49	relacao	relacao	NOUN	NOUN	_	48	obj	_	TokenRange=401:408
+50	tumultuada	tumultuado	ADJ	ADJ	_	49	amod	_	TokenRange=409:419
+51	filha	filho	NOUN	NOUN	_	49	amod	_	TokenRange=420:425
+52	35	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=426:428
+53	anos	ano	NOUN	NOUN	_	54	nmod	_	TokenRange=429:433
+54	viciada	viciado	ADJ	ADJ	_	49	amod	_	TokenRange=434:441
+55	crack	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=442:447
+56	vitima	_	ADJ	ADJ	_	57	amod	_	TokenRange=448:454
+57	transtornos	transtorno	NOUN	NOUN	_	54	nsubj	_	TokenRange=455:466
+58	mentais	mental	ADJ	ADJ	_	57	amod	_	TokenRange=467:474
+59	aguarda	aguardo	ADJ	ADJ	_	57	amod	_	SpaceAfter=No|TokenRange=475:482
+

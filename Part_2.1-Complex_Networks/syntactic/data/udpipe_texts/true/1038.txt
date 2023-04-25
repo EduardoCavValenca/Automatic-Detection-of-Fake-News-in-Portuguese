@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = julgamento lula caso triplex segunda instancia marcado 24 janeiro trf4 data marcada nesta tercafeira 12 8 turma corte sede porto alegre expresidente condenado 9 anos seis meses prisao corrupcao passiva lavagem dinheiro julgamento recurso apresentado expresidente luiz inacio lula silva processo triplex guaruja realizado 8h30 dia 24 janeiro 2018 sede tribunal regional 4 regiao trf4 data marcada nesta tercafeira
+1	julgamento	julgamento	NOUN	NOUN	_	0	root	_	TokenRange=0:10
+2	lula	lulo	ADJ	ADJ	_	1	amod	_	TokenRange=11:15
+3	caso	caso	NOUN	NOUN	_	1	appos	_	TokenRange=16:20
+4	triplex	_	NOUN	NOUN	_	3	flat	_	TokenRange=21:28
+5	segunda	segundo	ADJ	ADJ	_	6	amod	_	TokenRange=29:36
+6	instancia	instancia	NOUN	NOUN	_	1	appos	_	TokenRange=37:46
+7	marcado	marcar	VERB	VERB	_	1	acl	_	TokenRange=47:54
+8	24	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=55:57
+9	janeiro	_	PROPN	PNOUN	_	7	nmod	_	TokenRange=58:65
+10	trf4	_	NUM	NUM	_	11	nummod	_	TokenRange=66:70
+11	data	data	NOUN	NOUN	_	1	appos	_	TokenRange=71:75
+12	marcada	marcar	VERB	VERB	_	11	acl	_	TokenRange=76:83
+13	nesta	_	ADP	ADP	_	14	case	_	TokenRange=84:89
+14	tercafeira	tercafeira	NOUN	NOUN	_	12	nmod	_	TokenRange=90:100
+15	12	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=101:103
+16	8	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=104:105
+17	turma	turma	NOUN	NOUN	_	14	appos	_	TokenRange=106:111
+18	corte	corte	NOUN	NOUN	_	19	appos	_	TokenRange=112:117
+19	sede	sede	NOUN	NOUN	_	1	appos	_	TokenRange=118:122
+20	porto	_	NOUN	NOUN	_	19	appos	_	TokenRange=123:128
+21	alegre	alegre	ADJ	ADJ	_	22	amod	_	TokenRange=129:135
+22	expresidente	expresidente	NOUN	NOUN	_	19	appos	_	TokenRange=136:148
+23	condenado	condenar	VERB	VERB	_	22	acl	_	TokenRange=149:158
+24	9	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=159:160
+25	anos	ano	NOUN	NOUN	_	23	nmod	_	TokenRange=161:165
+26	seis	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=166:170
+27	meses	mês	NOUN	NOUN	_	25	nmod	_	TokenRange=171:176
+28	prisao	prisao	NOUN	NOUN	_	23	obj	_	TokenRange=177:183
+29	corrupcao	corrupcao	NOUN	NOUN	_	28	amod	_	TokenRange=184:193
+30	passiva	passivo	ADJ	ADJ	_	31	amod	_	TokenRange=194:201
+31	lavagem	lavagem	NOUN	NOUN	_	28	appos	_	TokenRange=202:209
+32	dinheiro	dinheiro	ADJ	ADJ	_	31	amod	_	TokenRange=210:218
+33	julgamento	julgamento	NOUN	NOUN	_	28	appos	_	TokenRange=219:229
+34	recurso	recurso	NOUN	NOUN	_	33	appos	_	TokenRange=230:237
+35	apresentado	apresentar	VERB	VERB	_	34	acl	_	TokenRange=238:249
+36	expresidente	expresidente	NOUN	NOUN	_	35	obj	_	TokenRange=250:262
+37	luiz	luiz	NOUN	NOUN	_	36	appos	_	TokenRange=263:267
+38	inacio	_	NOUN	NOUN	_	37	flat	_	TokenRange=268:274
+39	lula	_	NOUN	NOUN	_	37	flat	_	TokenRange=275:279
+40	silva	silva	ADJ	ADJ	_	37	flat	_	TokenRange=280:285
+41	processo	processo	NOUN	NOUN	_	35	obj	_	TokenRange=286:294
+42	triplex	_	NOUN	NOUN	_	41	appos	_	TokenRange=295:302
+43	guaruja	guaruja	NOUN	NOUN	_	41	flat	_	TokenRange=303:310
+44	realizado	realizar	VERB	VERB	_	41	acl	_	TokenRange=311:320
+45	8h30	_	NUM	NUM	NumType=Card	44	nmod	_	TokenRange=321:325
+46	dia	dia	NOUN	NOUN	_	44	nmod	_	TokenRange=326:329
+47	24	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=330:332
+48	janeiro	_	PROPN	PNOUN	_	46	nmod	_	TokenRange=333:340
+49	2018	_	NUM	NUM	NumType=Card	48	nmod	_	TokenRange=341:345
+50	sede	sede	NOUN	NOUN	_	44	parataxis	_	TokenRange=346:350
+51	tribunal	tribunal	NOUN	NOUN	_	50	appos	_	TokenRange=351:359
+52	regional	regional	ADJ	ADJ	_	51	amod	_	TokenRange=360:368
+53	4	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=369:370
+54	regiao	regiao	NOUN	NOUN	_	51	appos	_	TokenRange=371:377
+55	trf4	_	NUM	NUM	_	56	appos	_	TokenRange=378:382
+56	data	data	NOUN	NOUN	_	50	appos	_	TokenRange=383:387
+57	marcada	marcar	VERB	VERB	_	56	acl	_	TokenRange=388:395
+58	nesta	_	ADP	ADP	_	59	case	_	TokenRange=396:401
+59	tercafeira	tercafeira	NOUN	NOUN	_	57	nmod	_	SpaceAfter=No|TokenRange=402:412
+

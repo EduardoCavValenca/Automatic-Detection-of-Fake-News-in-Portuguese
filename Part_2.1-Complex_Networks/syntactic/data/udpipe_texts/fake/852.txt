@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eua coreia sul disparam fogo real usando bobardeiros b1b cacas f35b stealth eua coreia sul realizaram hoje 31 exercicios bombardeio longo fronteira peninsula nortecoreana dois bombardeiros supersonicos eua b1b quatro avioes combate f35b stealth juntaramse quatro cacas sulcoreanos f15 exercicios fogo vivo campo militar leste coreia sul missao treinamento simulou ataques precisao contra instalacoes principais norte acordo comando pacifico eua ministerio defesa coreia sul b1bs embarcados base forca aerea andersen guam enquanto f35bs vieram base eua iwakuni japao abaixo video
+1	eua	_	DET	DET	_	2	det	_	TokenRange=0:3
+2	coreia	coreia	NOUN	NOUN	_	4	nsubj	_	TokenRange=4:10
+3	sul	sul	ADJ	ADJ	_	2	amod	_	TokenRange=11:14
+4	disparam	disparar	VERB	VERB	_	0	root	_	TokenRange=15:23
+5	fogo	fogo	NOUN	NOUN	_	4	obj	_	TokenRange=24:28
+6	real	real	ADJ	ADJ	_	5	amod	_	TokenRange=29:33
+7	usando	usar	VERB	VERB	_	4	acl	_	TokenRange=34:40
+8	bobardeiros	bobardeiro	NOUN	NOUN	_	7	obj	_	TokenRange=41:52
+9	b1b	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=53:56
+10	cacas	_	NOUN	NOUN	_	8	appos	_	TokenRange=57:62
+11	f35b	_	NOUN	NOUN	_	10	appos	_	TokenRange=63:67
+12	stealth	_	NOUN	NOUN	_	11	flat	_	TokenRange=68:75
+13	eua	_	DET	DET	_	14	det	_	TokenRange=76:79
+14	coreia	coreia	NOUN	NOUN	_	16	nsubj	_	TokenRange=80:86
+15	sul	sul	ADJ	ADJ	_	14	amod	_	TokenRange=87:90
+16	realizaram	realizar	VERB	VERB	_	4	parataxis	_	TokenRange=91:101
+17	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=102:106
+18	31	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=107:109
+19	exercicios	exercicio	NOUN	NOUN	_	16	obj	_	TokenRange=110:120
+20	bombardeio	bombardeio	NOUN	NOUN	_	19	appos	_	TokenRange=121:131
+21	longo	longo	ADJ	ADJ	_	22	amod	_	TokenRange=132:137
+22	fronteira	_	NOUN	NOUN	_	19	appos	_	TokenRange=138:147
+23	peninsula	peninsula	NOUN	NOUN	_	19	appos	_	TokenRange=148:157
+24	nortecoreana	nortecoreano	ADJ	ADJ	_	23	amod	_	TokenRange=158:170
+25	dois	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=171:175
+26	bombardeiros	bombardeiro	NOUN	NOUN	_	16	nsubj	_	TokenRange=176:188
+27	supersonicos	supersonico	ADJ	ADJ	_	26	amod	_	TokenRange=189:201
+28	eua	_	DET	DET	_	31	det	_	TokenRange=202:205
+29	b1b	_	NUM	NUM	_	31	appos	_	TokenRange=206:209
+30	quatro	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=210:216
+31	avioes	avioe	NOUN	NOUN	_	35	nsubj	_	TokenRange=217:223
+32	combate	combate	NOUN	NOUN	_	31	flat	_	TokenRange=224:231
+33	f35b	_	NOUN	NOUN	_	31	appos	_	TokenRange=232:236
+34	stealth	_	NOUN	NOUN	_	33	flat	_	TokenRange=237:244
+35	juntaramse	juntarar	VERB	VERB	_	16	conj	_	TokenRange=245:255
+36	quatro	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=256:262
+37	cacas	caca	NOUN	NOUN	_	35	obj	_	TokenRange=263:268
+38	sulcoreanos	sulcoreano	ADJ	ADJ	_	37	amod	_	TokenRange=269:280
+39	f15	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=281:284
+40	exercicios	exercicio	NOUN	NOUN	_	37	appos	_	TokenRange=285:295
+41	fogo	fogo	NOUN	NOUN	_	37	appos	_	TokenRange=296:300
+42	vivo	vivo	ADJ	ADJ	_	41	amod	_	TokenRange=301:305
+43	campo	campo	NOUN	NOUN	_	37	appos	_	TokenRange=306:311
+44	militar	militar	ADJ	ADJ	_	43	amod	_	TokenRange=312:319
+45	leste	leste	ADJ	ADJ	_	46	amod	_	TokenRange=320:325
+46	coreia	coreia	NOUN	NOUN	_	40	appos	_	TokenRange=326:332
+47	sul	sul	ADJ	ADJ	_	46	amod	_	TokenRange=333:336
+48	missao	missao	NOUN	NOUN	_	50	nsubj	_	TokenRange=337:343
+49	treinamento	treinamento	NOUN	NOUN	_	48	flat	_	TokenRange=344:355
+50	simulou	simular	VERB	VERB	_	4	parataxis	_	TokenRange=356:363
+51	ataques	ataque	NOUN	NOUN	_	50	obj	_	TokenRange=364:371
+52	precisao	precisao	ADJ	ADJ	_	51	amod	_	TokenRange=372:380
+53	contra	_	ADP	ADP	_	54	case	_	TokenRange=381:387
+54	instalacoes	instalacoe	NOUN	NOUN	_	51	nmod	_	TokenRange=388:399
+55	principais	principal	ADJ	ADJ	_	54	amod	_	TokenRange=400:410
+56	norte	norte	ADJ	ADJ	_	57	amod	_	TokenRange=411:416
+57	acordo	acordo	NOUN	NOUN	_	54	appos	_	TokenRange=417:423
+58	comando	comando	NOUN	NOUN	_	54	appos	_	TokenRange=424:431
+59	pacifico	pacifico	ADJ	ADJ	_	58	amod	_	TokenRange=432:440
+60	eua	_	DET	DET	_	61	det	_	TokenRange=441:444
+61	ministerio	ministerio	NOUN	NOUN	_	54	appos	_	TokenRange=445:455
+62	defesa	_	NOUN	NOUN	_	61	amod	_	TokenRange=456:462
+63	coreia	coreia	NOUN	NOUN	_	61	appos	_	TokenRange=463:469
+64	sul	sul	ADJ	ADJ	_	61	amod	_	TokenRange=470:473
+65	b1bs	_	NOUN	NOUN	_	61	appos	_	TokenRange=474:478
+66	embarcados	embarcar	VERB	VERB	_	61	acl	_	TokenRange=479:489
+67	base	base	NOUN	NOUN	_	66	obj	_	TokenRange=490:494
+68	forca	forca	ADJ	ADJ	_	67	amod	_	TokenRange=495:500
+69	aerea	aereo	ADJ	ADJ	_	67	amod	_	TokenRange=501:506
+70	andersen	_	NOUN	NOUN	_	67	appos	_	TokenRange=507:515
+71	guam	_	NOUN	NOUN	_	67	appos	_	TokenRange=516:520
+72	enquanto	_	CCONJ	CONJ	_	74	mark	_	TokenRange=521:529
+73	f35bs	_	NOUN	NOUN	_	74	nsubj	_	TokenRange=530:535
+74	vieram	vir	VERB	VERB	_	80	advcl	_	TokenRange=536:542
+75	base	base	NOUN	NOUN	_	74	obj	_	TokenRange=543:547
+76	eua	_	PRON	PRON	_	80	nsubj	_	TokenRange=548:551
+77	iwakuni	_	VERB	VERB	_	80	parataxis	_	TokenRange=552:559
+78	japao	japao	NOUN	NOUN	_	80	obj	_	TokenRange=560:565
+79	abaixo	abaixo	ADV	ADV	_	80	advmod	_	TokenRange=566:572
+80	video	ver	VERB	VERB	_	4	parataxis	_	SpaceAfter=No|TokenRange=573:578
+

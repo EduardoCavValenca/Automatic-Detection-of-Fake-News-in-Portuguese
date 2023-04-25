@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cerimonia oscar 2018 ultimo domingo mulheres roubaram cena dessa vez alem tapete vermelho debate sobre igualdade genero assunto entao tabu hollywood deu tom noite inspirou discursos reacoes emocionadas lembrome
+1	cerimonia	cerimonia	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:9
+2	oscar	oscar	NOUN	NOUN	_	1	appos	_	TokenRange=10:15
+3	2018	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=16:20
+4	ultimo	_	ADJ	ADJ	_	5	amod	_	TokenRange=21:27
+5	domingo	_	PROPN	PNOUN	_	1	appos	_	TokenRange=28:35
+6	mulheres	mulher	NOUN	NOUN	_	5	appos	_	TokenRange=36:44
+7	roubaram	roubar	VERB	VERB	_	0	root	_	TokenRange=45:53
+8	cena	cena	NOUN	NOUN	_	7	obj	_	TokenRange=54:58
+9	dessa	_	ADP	ADP	_	10	case	_	TokenRange=59:64
+10	vez	vez	NOUN	NOUN	_	7	nmod	_	TokenRange=65:68
+11	alem	alem	ADV	ADV	_	12	advmod	_	TokenRange=69:73
+12	tapete	tapete	NOUN	NOUN	_	7	obj	_	TokenRange=74:80
+13	vermelho	vermelho	ADJ	ADJ	_	12	amod	_	TokenRange=81:89
+14	debate	debate	NOUN	NOUN	_	12	appos	_	TokenRange=90:96
+15	sobre	_	ADP	ADP	_	16	case	_	TokenRange=97:102
+16	igualdade	igualdade	NOUN	NOUN	_	14	nmod	_	TokenRange=103:112
+17	genero	genero	NOUN	NOUN	_	16	appos	_	TokenRange=113:119
+18	assunto	assunto	NOUN	NOUN	_	17	flat	_	TokenRange=120:127
+19	entao	entao	ADV	ADV	_	20	advmod	_	TokenRange=128:133
+20	tabu	tabu	NOUN	NOUN	_	22	nsubj	_	TokenRange=134:138
+21	hollywood	_	NOUN	NOUN	_	20	flat	_	TokenRange=139:148
+22	deu	dar	VERB	VERB	_	7	parataxis	_	TokenRange=149:152
+23	tom	tom	NOUN	NOUN	_	22	obj	_	TokenRange=153:156
+24	noite	noite	NOUN	NOUN	_	25	nsubj	_	TokenRange=157:162
+25	inspirou	inspirar	VERB	VERB	_	22	parataxis	_	TokenRange=163:171
+26	discursos	discurso	NOUN	NOUN	_	25	obj	_	TokenRange=172:181
+27	reacoes	reacoe	NOUN	NOUN	_	26	appos	_	TokenRange=182:189
+28	emocionadas	emocionado	ADJ	ADJ	_	27	amod	_	TokenRange=190:201
+29	lembrome	lembrome	NOUN	NOUN	_	27	appos	_	SpaceAfter=No|TokenRange=202:210
+

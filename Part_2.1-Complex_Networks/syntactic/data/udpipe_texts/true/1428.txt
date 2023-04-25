@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = juiz federal sergio moro operacao lava jato sequestrou us 5 milhoes patrimonio expresidente camara eduardo cunha mdbrj confiscados tres imoveis rio fracao propriedade emedebista capital fluminense emedebista preso desde outubro 2016 moro condenou pena 15 anos quatro meses prisao corrupcao lavagem dinheiro evasao fraudulenta divisas eduardo cunha acusado pegar us 15 milhao propinas compra campo petrolifero benin africa petrobras 2011 novembro ano passado tribunal regional federal 4 regiao trf4 reduziu 10 meses pena
+1	juiz	juiz	NOUN	NOUN	_	33	nsubj	_	TokenRange=0:4
+2	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=5:12
+3	sergio	sergio	NOUN	NOUN	_	1	appos	_	TokenRange=13:19
+4	moro	moro	NOUN	NOUN	_	1	flat	_	TokenRange=20:24
+5	operacao	operacao	ADJ	ADJ	_	1	appos	_	TokenRange=25:33
+6	lava	lava	NOUN	NOUN	_	1	appos	_	TokenRange=34:38
+7	jato	jato	NOUN	NOUN	_	6	flat	_	TokenRange=39:43
+8	sequestrou	sequestrar	VERB	VERB	_	1	acl:relcl	_	TokenRange=44:54
+9	us	_	DET	DET	_	11	det	_	TokenRange=55:57
+10	5	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=58:59
+11	milhoes	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=60:67
+12	patrimonio	patrimonio	NOUN	NOUN	_	13	amod	_	TokenRange=68:78
+13	expresidente	expresidente	NOUN	NOUN	_	8	obj	_	TokenRange=79:91
+14	camara	camara	NOUN	NOUN	_	13	flat	_	TokenRange=92:98
+15	eduardo	eduardo	NOUN	NOUN	_	13	appos	_	TokenRange=99:106
+16	cunha	_	PROPN	PNOUN	_	15	flat	_	TokenRange=107:112
+17	mdbrj	_	PROPN	PNOUN	_	15	flat	_	TokenRange=113:118
+18	confiscados	confiscar	VERB	VERB	_	8	acl	_	TokenRange=119:130
+19	tres	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=131:135
+20	imoveis	imovel	NOUN	NOUN	_	18	obj	_	TokenRange=136:143
+21	rio	rio	NOUN	NOUN	_	20	appos	_	TokenRange=144:147
+22	fracao	fracao	ADJ	ADJ	_	23	amod	_	TokenRange=148:154
+23	propriedade	propriedade	NOUN	NOUN	_	20	appos	_	TokenRange=155:166
+24	emedebista	emedebista	ADJ	ADJ	_	25	amod	_	TokenRange=167:177
+25	capital	capital	NOUN	NOUN	_	23	appos	_	TokenRange=178:185
+26	fluminense	fluminense	ADJ	ADJ	_	25	amod	_	TokenRange=186:196
+27	emedebista	emedebista	ADJ	NOUN	_	25	amod	_	TokenRange=197:207
+28	preso	_	VERB	VERB	_	23	acl	_	TokenRange=208:213
+29	desde	_	ADP	ADP	_	30	case	_	TokenRange=214:219
+30	outubro	_	PROPN	PNOUN	_	28	nmod	_	TokenRange=220:227
+31	2016	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=228:232
+32	moro	moro	NOUN	NOUN	_	33	nsubj	_	TokenRange=233:237
+33	condenou	condenar	VERB	VERB	_	0	root	_	TokenRange=238:246
+34	pena	_	NOUN	NOUN	_	33	obj	_	TokenRange=247:251
+35	15	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=252:254
+36	anos	ano	NOUN	NOUN	_	33	nmod	_	TokenRange=255:259
+37	quatro	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=260:266
+38	meses	mês	NOUN	NOUN	_	34	nmod	_	TokenRange=267:272
+39	prisao	prisao	NOUN	NOUN	_	33	parataxis	_	TokenRange=273:279
+40	corrupcao	corrupcao	ADJ	ADJ	_	41	amod	_	TokenRange=280:289
+41	lavagem	lavagem	NOUN	NOUN	_	33	nsubj	_	TokenRange=290:297
+42	dinheiro	dinheiro	NOUN	NOUN	_	41	flat	_	TokenRange=298:306
+43	evasao	evasao	NOUN	NOUN	_	41	appos	_	TokenRange=307:313
+44	fraudulenta	fraudulento	ADJ	ADJ	_	45	amod	_	TokenRange=314:325
+45	divisas	divisa	NOUN	NOUN	_	33	nsubj	_	TokenRange=326:333
+46	eduardo	eduardo	NOUN	NOUN	_	45	appos	_	TokenRange=334:341
+47	cunha	cunha	NOUN	NOUN	_	46	flat	_	TokenRange=342:347
+48	acusado	acusar	VERB	VERB	_	45	acl	_	TokenRange=348:355
+49	pegar	pegar	VERB	VERB	_	48	xcomp	_	TokenRange=356:361
+50	us	_	DET	DET	_	53	det	_	TokenRange=362:364
+51	15	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=365:367
+52	milhao	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=368:374
+53	propinas	propina	NOUN	NOUN	_	49	obj	_	TokenRange=375:383
+54	compra	comprar	VERB	VERB	_	48	parataxis	_	TokenRange=384:390
+55	campo	campo	NOUN	NOUN	_	54	obj	_	TokenRange=391:396
+56	petrolifero	petrolifero	ADJ	ADJ	_	55	amod	_	TokenRange=397:408
+57	benin	benin	NOUN	NOUN	_	55	appos	_	TokenRange=409:414
+58	africa	_	ADJ	ADJ	_	55	amod	_	TokenRange=415:421
+59	petrobras	_	NOUN	NOUN	_	55	appos	_	TokenRange=422:431
+60	2011	_	NUM	NUM	NumType=Card	59	nmod	_	TokenRange=432:436
+61	novembro	_	PROPN	PNOUN	_	62	amod	_	TokenRange=437:445
+62	ano	ano	NOUN	NOUN	_	54	nmod	_	TokenRange=446:449
+63	passado	passado	ADJ	ADJ	_	62	amod	_	TokenRange=450:457
+64	tribunal	tribunal	NOUN	NOUN	_	70	nsubj	_	TokenRange=458:466
+65	regional	regional	ADJ	ADJ	_	64	amod	_	TokenRange=467:475
+66	federal	federal	ADJ	ADJ	_	64	amod	_	TokenRange=476:483
+67	4	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=484:485
+68	regiao	regiao	NOUN	NOUN	_	64	appos	_	TokenRange=486:492
+69	trf4	_	NUM	NUM	_	68	appos	_	TokenRange=493:497
+70	reduziu	reduzir	VERB	VERB	_	33	parataxis	_	TokenRange=498:505
+71	10	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=506:508
+72	meses	mês	NOUN	NOUN	_	70	nmod	_	TokenRange=509:514
+73	pena	_	NOUN	NOUN	_	72	appos	_	SpaceAfter=No|TokenRange=515:519
+

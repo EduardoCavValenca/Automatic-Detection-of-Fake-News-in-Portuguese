@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = istoe revela conta aberta suica dilma receber propina empreiteira istoe revelou reportagem capa discurso honestidade dilma rousseff podera cair terra acordo revista encontrada conta aberta suica 2012 sob orientacao giles azevedo assessor braco direito dilma receber propina queiroz galvao operacao angola depositados menos us 237 mil conta ch3008679000005163446 aberta banco morgan stanley assessor especial dilma rousseff exchefe gabinete homem acompanha desde porto alegre discreto giles azevedo considerado palacio planalto olhos ouvidos presidente republica unico esplanada autorizacao falar nome dilma confia delicadas tarefas clique aqui ler materia completa
+1	istoe	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:5
+2	revela	revelar	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	conta	conta	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	aberta	aberto	ADJ	ADJ	_	3	amod	_	TokenRange=19:25
+5	suica	suico	ADJ	ADJ	_	3	amod	_	TokenRange=26:31
+6	dilma	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=32:37
+7	receber	receber	VERB	VERB	_	3	acl:inf	_	TokenRange=38:45
+8	propina	propina	NOUN	NOUN	_	7	obj	_	TokenRange=46:53
+9	empreiteira	empreiteiro	ADJ	ADJ	_	8	amod	_	TokenRange=54:65
+10	istoe	_	PRON	PRON	_	11	nsubj	_	TokenRange=66:71
+11	revelou	revelar	VERB	VERB	_	2	parataxis	_	TokenRange=72:79
+12	reportagem	reportagem	NOUN	NOUN	_	11	obj	_	TokenRange=80:90
+13	capa	capa	NOUN	NOUN	_	12	appos	_	TokenRange=91:95
+14	discurso	discurso	NOUN	NOUN	_	12	appos	_	TokenRange=96:104
+15	honestidade	honestidade	NOUN	NOUN	_	14	appos	_	TokenRange=105:116
+16	dilma	dilma	NOUN	NOUN	_	15	appos	_	TokenRange=117:122
+17	rousseff	rousseff	NOUN	NOUN	_	16	flat	_	TokenRange=123:131
+18	podera	_	AUX	AUX	_	19	aux	_	TokenRange=132:138
+19	cair	cair	VERB	VERB	_	2	parataxis	_	TokenRange=139:143
+20	terra	terra	NOUN	NOUN	_	19	obj	_	TokenRange=144:149
+21	acordo	acordo	ADJ	ADJ	_	20	amod	_	TokenRange=150:156
+22	revista	revista	NOUN	NOUN	_	19	appos	_	TokenRange=157:164
+23	encontrada	encontrar	VERB	VERB	_	24	acl	_	TokenRange=165:175
+24	conta	conta	NOUN	NOUN	_	19	appos	_	TokenRange=176:181
+25	aberta	aberto	ADJ	ADJ	_	24	amod	_	TokenRange=182:188
+26	suica	suico	ADJ	ADJ	_	24	amod	_	TokenRange=189:194
+27	2012	_	NUM	NUM	NumType=Card	24	nmod	_	TokenRange=195:199
+28	sob	_	ADP	ADP	_	29	case	_	TokenRange=200:203
+29	orientacao	_	NOUN	NOUN	_	19	nmod	_	TokenRange=204:214
+30	giles	_	NOUN	NOUN	_	29	appos	_	TokenRange=215:220
+31	azevedo	_	ADJ	ADJ	_	32	amod	_	TokenRange=221:228
+32	assessor	assessor	NOUN	NOUN	_	36	nsubj	_	TokenRange=229:237
+33	braco	braco	NOUN	NOUN	_	32	amod	_	TokenRange=238:243
+34	direito	direito	ADJ	ADJ	_	32	amod	_	TokenRange=244:251
+35	dilma	_	NOUN	NOUN	_	32	appos	_	TokenRange=252:257
+36	receber	receber	VERB	VERB	_	29	acl:relcl	_	TokenRange=258:265
+37	propina	propina	NOUN	NOUN	_	36	obj	_	TokenRange=266:273
+38	queiroz	queiroz	NOUN	NOUN	_	37	appos	_	TokenRange=274:281
+39	galvao	galvao	ADJ	ADJ	_	37	amod	_	TokenRange=282:288
+40	operacao	operacao	NOUN	NOUN	_	36	obj	_	TokenRange=289:297
+41	angola	angolo	ADJ	ADJ	_	40	flat	_	TokenRange=298:304
+42	depositados	depositar	VERB	VERB	_	40	acl	_	TokenRange=305:316
+43	menos	menos	ADV	ADV	_	46	advmod	_	TokenRange=317:322
+44	us	_	NOUN	NOUN	_	47	nummod	_	TokenRange=323:325
+45	237	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=326:329
+46	mil	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=330:333
+47	conta	conta	NOUN	NOUN	_	42	obj	_	TokenRange=334:339
+48	ch3008679000005163446	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=340:361
+49	aberta	aberto	ADJ	ADJ	_	50	amod	_	TokenRange=362:368
+50	banco	banco	NOUN	NOUN	_	47	appos	_	TokenRange=369:374
+51	morgan	_	NOUN	NOUN	_	50	amod	_	TokenRange=375:381
+52	stanley	_	ADJ	ADJ	_	53	amod	_	TokenRange=382:389
+53	assessor	assessor	NOUN	NOUN	_	47	appos	_	TokenRange=390:398
+54	especial	especial	ADJ	ADJ	_	53	amod	_	TokenRange=399:407
+55	dilma	dilma	ADJ	ADJ	_	53	amod	_	TokenRange=408:413
+56	rousseff	rousseff	NOUN	NOUN	_	53	appos	_	TokenRange=414:422
+57	exchefe	_	NOUN	NOUN	_	58	amod	_	TokenRange=423:430
+58	gabinete	gabinete	NOUN	NOUN	_	60	nsubj	_	TokenRange=431:439
+59	homem	homem	NOUN	NOUN	_	58	amod	_	TokenRange=440:445
+60	acompanha	acompanhar	VERB	VERB	_	2	parataxis	_	TokenRange=446:455
+61	desde	_	ADP	ADP	_	62	case	_	TokenRange=456:461
+62	porto	_	NOUN	NOUN	_	60	nmod	_	TokenRange=462:467
+63	alegre	alegre	ADJ	ADJ	_	62	amod	_	TokenRange=468:474
+64	discreto	discreto	ADJ	ADJ	_	62	amod	_	TokenRange=475:483
+65	giles	gile	NOUN	NOUN	_	62	appos	_	TokenRange=484:489
+66	azevedo	azevedo	ADJ	ADJ	_	65	amod	_	TokenRange=490:497
+67	considerado	considerar	AUX	AUX	_	68	cop	_	TokenRange=498:509
+68	palacio	palacio	NOUN	NOUN	_	65	acl	_	TokenRange=510:517
+69	planalto	planalto	ADJ	ADJ	_	68	amod	_	TokenRange=518:526
+70	olhos	olho	NOUN	NOUN	_	60	nsubj	_	TokenRange=527:532
+71	ouvidos	ouvido	ADJ	ADJ	_	72	amod	_	TokenRange=533:540
+72	presidente	presidente	NOUN	NOUN	_	60	nsubj	_	TokenRange=541:551
+73	republica	republico	ADJ	ADJ	_	72	amod	_	TokenRange=552:561
+74	unico	unico	ADJ	ADJ	_	72	amod	_	TokenRange=562:567
+75	esplanada	esplanado	ADJ	ADJ	_	72	amod	_	TokenRange=568:577
+76	autorizacao	autorizacao	NOUN	NOUN	_	72	amod	_	TokenRange=578:589
+77	falar	falar	VERB	VERB	_	72	acl:inf	_	TokenRange=590:595
+78	nome	nome	NOUN	NOUN	_	77	obj	_	TokenRange=596:600
+79	dilma	dilma	NOUN	NOUN	_	78	amod	_	TokenRange=601:606
+80	confia	confiar	VERB	VERB	_	60	parataxis	_	TokenRange=607:613
+81	delicadas	delicado	ADJ	ADJ	_	82	amod	_	TokenRange=614:623
+82	tarefas	tarefa	NOUN	NOUN	_	80	obj	_	TokenRange=624:631
+83	clique	clicar	VERB	VERB	_	60	parataxis	_	TokenRange=632:638
+84	aqui	aqui	ADV	ADV	_	83	advmod	_	TokenRange=639:643
+85	ler	ler	VERB	VERB	_	83	ccomp	_	TokenRange=644:647
+86	materia	materia	NOUN	NOUN	_	85	obj	_	TokenRange=648:655
+87	completa	completo	ADJ	ADJ	_	86	amod	_	SpaceAfter=No|TokenRange=656:664
+

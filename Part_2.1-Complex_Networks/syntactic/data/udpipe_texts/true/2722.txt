@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = despacho relator acusa defesa dilma tentar atrasar acao tse herman benjamin rejeitou nesta terca oito pedidos apresentados advogados expresidente procurado advogado dilma disse contraditorio assegurado constituicao ministro herman benjamin relator tribunal superior eleitoral tse acoes pedem cassacao chapa dilmatemer afirmou nesta tercafeira 14 despacho defesa expresidente republica tenta atrasar andamento processos tribunal apura desde 2015 pedido psdb chapa cometeu abuso poder economico politico recebeu propina beneficiou esquema corrupcao atuou petrobras defesas dilma temer negam
+1	despacho	despacho	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	relator	relator	NOUN	NOUN	_	1	flat	_	TokenRange=9:16
+3	acusa	acusar	VERB	VERB	_	0	root	_	TokenRange=17:22
+4	defesa	_	NOUN	NOUN	_	3	obj	_	TokenRange=23:29
+5	dilma	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=30:35
+6	tentar	tentar	VERB	VERB	_	1	acl:relcl	_	TokenRange=36:42
+7	atrasar	atrasar	VERB	VERB	_	6	xcomp	_	TokenRange=43:50
+8	acao	acao	NOUN	NOUN	_	7	obj	_	TokenRange=51:55
+9	tse	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=56:59
+10	herman	_	NOUN	NOUN	_	9	appos	_	TokenRange=60:66
+11	benjamin	_	NOUN	NOUN	_	10	flat	_	TokenRange=67:75
+12	rejeitou	rejeitar	VERB	VERB	_	3	conj	_	TokenRange=76:84
+13	nesta	_	ADP	ADP	_	14	case	_	TokenRange=85:90
+14	terca	terca	NOUN	NOUN	_	12	nmod	_	TokenRange=91:96
+15	oito	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=97:101
+16	pedidos	pedido	NOUN	NOUN	_	12	obj	_	TokenRange=102:109
+17	apresentados	apresentar	VERB	VERB	_	16	acl	_	TokenRange=110:122
+18	advogados	advogado	NOUN	NOUN	_	17	nsubj	_	TokenRange=123:132
+19	expresidente	expresidente	ADJ	ADJ	_	21	amod	_	TokenRange=133:145
+20	procurado	procurar	VERB	VERB	_	21	acl	_	TokenRange=146:155
+21	advogado	advogado	NOUN	NOUN	_	23	nsubj	_	TokenRange=156:164
+22	dilma	dilma	ADJ	ADJ	_	21	amod	_	TokenRange=165:170
+23	disse	dizer	VERB	VERB	_	12	parataxis	_	TokenRange=171:176
+24	contraditorio	contraditorio	NOUN	NOUN	_	23	obj	_	TokenRange=177:190
+25	assegurado	assegurado	ADJ	ADJ	_	24	amod	_	TokenRange=191:201
+26	constituicao	constituicao	NOUN	NOUN	_	24	amod	_	TokenRange=202:214
+27	ministro	ministro	NOUN	NOUN	_	23	nsubj	_	TokenRange=215:223
+28	herman	_	NOUN	NOUN	_	27	appos	_	TokenRange=224:230
+29	benjamin	_	NOUN	NOUN	_	28	flat	_	TokenRange=231:239
+30	relator	relator	NOUN	NOUN	_	27	appos	_	TokenRange=240:247
+31	tribunal	tribunal	NOUN	NOUN	_	27	appos	_	TokenRange=248:256
+32	superior	superior	ADJ	ADJ	_	31	amod	_	TokenRange=257:265
+33	eleitoral	eleitoral	ADJ	ADJ	_	31	amod	_	TokenRange=266:275
+34	tse	_	DET	DET	_	35	det	_	TokenRange=276:279
+35	acoes	acoe	NOUN	NOUN	_	36	nsubj	_	TokenRange=280:285
+36	pedem	pedir	VERB	VERB	_	23	parataxis	_	TokenRange=286:291
+37	cassacao	cassacao	NOUN	NOUN	_	36	obj	_	TokenRange=292:300
+38	chapa	chapa	NOUN	NOUN	_	37	amod	_	TokenRange=301:306
+39	dilmatemer	dilmatemer	NOUN	NOUN	_	37	appos	_	TokenRange=307:317
+40	afirmou	afirmar	VERB	VERB	_	36	ccomp	_	TokenRange=318:325
+41	nesta	_	ADP	ADP	_	42	case	_	TokenRange=326:331
+42	tercafeira	_	NOUN	NOUN	_	40	nmod	_	TokenRange=332:342
+43	14	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=343:345
+44	despacho	despacho	NOUN	NOUN	_	40	nsubj	_	TokenRange=346:354
+45	defesa	_	ADJ	ADJ	_	44	amod	_	TokenRange=355:361
+46	expresidente	expresidente	NOUN	NOUN	_	48	nsubj	_	TokenRange=362:374
+47	republica	republico	ADJ	ADJ	_	46	amod	_	TokenRange=375:384
+48	tenta	tentar	VERB	VERB	_	40	parataxis	_	TokenRange=385:390
+49	atrasar	atrasar	VERB	VERB	_	48	xcomp	_	TokenRange=391:398
+50	andamento	andamento	NOUN	NOUN	_	49	obj	_	TokenRange=399:408
+51	processos	processo	NOUN	NOUN	_	50	appos	_	TokenRange=409:418
+52	tribunal	tribunal	NOUN	NOUN	_	51	amod	_	TokenRange=419:427
+53	apura	apurar	VERB	VERB	_	50	acl:relcl	_	TokenRange=428:433
+54	desde	_	ADP	ADP	_	55	case	_	TokenRange=434:439
+55	2015	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=440:444
+56	pedido	pedido	NOUN	NOUN	_	53	nsubj	_	TokenRange=445:451
+57	psdb	_	NOUN	NOUN	_	59	nsubj	_	TokenRange=452:456
+58	chapa	chapa	NOUN	NOUN	_	59	nsubj	_	TokenRange=457:462
+59	cometeu	cometer	VERB	VERB	_	56	acl:relcl	_	TokenRange=463:470
+60	abuso	abuso	NOUN	NOUN	_	59	obj	_	TokenRange=471:476
+61	poder	poder	NOUN	NOUN	_	59	obj	_	TokenRange=477:482
+62	economico	economico	ADJ	ADJ	_	61	amod	_	TokenRange=483:492
+63	politico	politico	ADJ	ADJ	_	61	amod	_	TokenRange=493:501
+64	recebeu	receber	VERB	VERB	_	59	conj	_	TokenRange=502:509
+65	propina	propina	NOUN	NOUN	_	64	obj	_	TokenRange=510:517
+66	beneficiou	beneficiar	VERB	VERB	_	61	acl:relcl	_	TokenRange=518:528
+67	esquema	esquema	NOUN	NOUN	_	74	obj	_	TokenRange=529:536
+68	corrupcao	corrupcao	NOUN	NOUN	_	67	amod	_	TokenRange=537:546
+69	atuou	atuar	VERB	VERB	_	74	parataxis	_	TokenRange=547:552
+70	petrobras	petrobra	NOUN	NOUN	_	74	obj	_	TokenRange=553:562
+71	defesas	_	ADJ	ADJ	_	70	amod	_	TokenRange=563:570
+72	dilma	dilma	ADJ	NOUN	_	74	nsubj	_	TokenRange=571:576
+73	temer	temer	VERB	VERB	_	74	ccomp	_	TokenRange=577:582
+74	negam	negar	VERB	VERB	_	66	conj	_	SpaceAfter=No|TokenRange=583:588
+

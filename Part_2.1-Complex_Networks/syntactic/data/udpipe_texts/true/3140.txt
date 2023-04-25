@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 28 junho bom dia aqui principais noticias comecar dia beminformado meio guerra declarada temer janot supremo retoma hoje julgamento sobre possivel revisao delacao jbs resultou denuncia contra presidente corrupcao temer corre contra tempo acelerar tramitacao processo camara enquanto pgr apresenta novas acusacoes contra chumbo grosso trocado
+1	quartafeira	quartafeira	NOUN	NOUN	_	18	parataxis	_	TokenRange=0:11
+2	28	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:14
+3	junho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:20
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=21:24
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=25:28
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=29:33
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=34:44
+8	noticias	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=45:53
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=54:61
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=62:65
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=66:78
+12	meio	meio	ADJ	ADJ	_	13	amod	_	TokenRange=79:83
+13	guerra	guerra	NOUN	NOUN	_	9	obj	_	TokenRange=84:90
+14	declarada	declarado	ADJ	ADJ	_	13	amod	_	TokenRange=91:100
+15	temer	temer	NOUN	NOUN	_	13	appos	_	TokenRange=101:106
+16	janot	_	NOUN	NOUN	_	15	appos	_	TokenRange=107:112
+17	supremo	supremo	ADJ	ADJ	_	16	amod	_	TokenRange=113:120
+18	retoma	retomar	VERB	VERB	_	0	root	_	TokenRange=121:127
+19	hoje	hoje	ADV	ADV	_	18	advmod	_	TokenRange=128:132
+20	julgamento	julgamento	NOUN	NOUN	_	18	obj	_	TokenRange=133:143
+21	sobre	_	ADP	ADP	_	23	case	_	TokenRange=144:149
+22	possivel	_	ADJ	ADJ	_	23	amod	_	TokenRange=150:158
+23	revisao	revisao	NOUN	NOUN	_	20	nmod	_	TokenRange=159:166
+24	delacao	_	ADJ	ADJ	_	23	amod	_	TokenRange=167:174
+25	jbs	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=175:178
+26	resultou	resultar	VERB	VERB	_	20	acl:relcl	_	TokenRange=179:187
+27	denuncia	denuncia	NOUN	NOUN	_	26	obj	_	TokenRange=188:196
+28	contra	_	ADP	ADP	_	29	case	_	TokenRange=197:203
+29	presidente	presidente	NOUN	NOUN	_	27	nmod	_	TokenRange=204:214
+30	corrupcao	corrupcao	ADJ	ADJ	_	29	amod	_	TokenRange=215:224
+31	temer	temer	NOUN	NOUN	_	32	nsubj	_	TokenRange=225:230
+32	corre	correr	VERB	VERB	_	26	conj	_	TokenRange=231:236
+33	contra	_	ADP	ADP	_	34	case	_	TokenRange=237:243
+34	tempo	tempo	NOUN	NOUN	_	32	nmod	_	TokenRange=244:249
+35	acelerar	acelerar	VERB	VERB	_	32	xcomp	_	TokenRange=250:258
+36	tramitacao	tramitacao	ADJ	NOUN	_	35	obj	_	TokenRange=259:269
+37	processo	processo	NOUN	NOUN	_	35	obj	_	TokenRange=270:278
+38	camara	camara	ADJ	ADJ	_	37	amod	_	TokenRange=279:285
+39	enquanto	_	CCONJ	CONJ	_	41	mark	_	TokenRange=286:294
+40	pgr	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=295:298
+41	apresenta	apresentar	VERB	VERB	_	32	advcl	_	TokenRange=299:308
+42	novas	novo	ADJ	ADJ	_	43	amod	_	TokenRange=309:314
+43	acusacoes	acusacoe	NOUN	NOUN	_	41	obj	_	TokenRange=315:324
+44	contra	_	ADP	ADP	_	45	case	_	TokenRange=325:331
+45	chumbo	chumbo	NOUN	NOUN	_	43	nmod	_	TokenRange=332:338
+46	grosso	grosso	ADJ	ADJ	_	47	amod	_	TokenRange=339:345
+47	trocado	trocado	NOUN	NOUN	_	45	appos	_	SpaceAfter=No|TokenRange=346:353
+

@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vocalista banda pato fu vai senado apoiar dilma dilma fu vocalista banda pato fu fernanda takai senado demonstrar apoio dilma rousseff takai declarou total apoiadora expresidenta dilma artista defendeu petista pessoa idonea honrada dilma caiu pato fu dilma fu
+1	vocalista	vocalista	NOUN	NOUN	_	23	nsubj	_	TokenRange=0:9
+2	banda	banda	NOUN	NOUN	_	1	appos	_	TokenRange=10:15
+3	pato	pato	NOUN	NOUN	_	1	appos	_	TokenRange=16:20
+4	fu	_	PRON	PRON	_	3	flat	_	TokenRange=21:23
+5	vai	ir	AUX	AUX	_	6	cop	_	TokenRange=24:27
+6	senado	senado	NOUN	NOUN	_	1	appos	_	TokenRange=28:34
+7	apoiar	apoiar	VERB	VERB	_	1	acl:relcl	_	TokenRange=35:41
+8	dilma	dilma	NOUN	NOUN	_	7	obj	_	TokenRange=42:47
+9	dilma	dilma	NOUN	NOUN	_	8	appos	_	TokenRange=48:53
+10	fu	_	NOUN	NOUN	_	11	appos	_	TokenRange=54:56
+11	vocalista	vocalista	NOUN	NOUN	_	8	appos	_	TokenRange=57:66
+12	banda	banda	NOUN	NOUN	_	11	appos	_	TokenRange=67:72
+13	pato	pato	NOUN	NOUN	_	11	appos	_	TokenRange=73:77
+14	fu	_	NOUN	NOUN	_	13	flat	_	TokenRange=78:80
+15	fernanda	fernanda	NOUN	NOUN	_	11	appos	_	TokenRange=81:89
+16	takai	_	NOUN	NOUN	_	15	flat	_	TokenRange=90:95
+17	senado	senado	NOUN	NOUN	_	11	appos	_	TokenRange=96:102
+18	demonstrar	demonstrar	VERB	VERB	_	11	acl:relcl	_	TokenRange=103:113
+19	apoio	apoio	NOUN	NOUN	_	18	obj	_	TokenRange=114:119
+20	dilma	dilma	ADJ	ADJ	_	21	amod	_	TokenRange=120:125
+21	rousseff	rousseff	NOUN	NOUN	_	19	appos	_	TokenRange=126:134
+22	takai	_	NOUN	NOUN	_	21	appos	_	TokenRange=135:140
+23	declarou	declarar	VERB	VERB	_	0	root	_	TokenRange=141:149
+24	total	total	ADJ	ADJ	_	25	amod	_	TokenRange=150:155
+25	apoiadora	_	NOUN	NOUN	_	23	obj	_	TokenRange=156:165
+26	expresidenta	_	ADJ	NOUN	_	25	amod	_	TokenRange=166:178
+27	dilma	dilma	ADJ	ADJ	_	28	amod	_	TokenRange=179:184
+28	artista	artista	NOUN	NOUN	_	29	nsubj	_	TokenRange=185:192
+29	defendeu	defender	VERB	VERB	_	23	parataxis	_	TokenRange=193:201
+30	petista	petista	NOUN	NOUN	_	29	obj	_	TokenRange=202:209
+31	pessoa	pessoa	NOUN	NOUN	_	30	appos	_	TokenRange=210:216
+32	idonea	idoneo	ADJ	ADJ	_	31	amod	_	TokenRange=217:223
+33	honrada	honrado	ADJ	ADJ	_	31	amod	_	TokenRange=224:231
+34	dilma	_	NOUN	NOUN	_	31	appos	_	TokenRange=232:237
+35	caiu	cair	VERB	VERB	_	31	acl:relcl	_	TokenRange=238:242
+36	pato	pato	NOUN	NOUN	_	35	obj	_	TokenRange=243:247
+37	fu	_	NOUN	NOUN	_	36	flat	_	TokenRange=248:250
+38	dilma	_	NOUN	NOUN	_	36	appos	_	TokenRange=251:256
+39	fu	_	NOUN	NOUN	_	36	flat	_	SpaceAfter=No|TokenRange=257:259
+

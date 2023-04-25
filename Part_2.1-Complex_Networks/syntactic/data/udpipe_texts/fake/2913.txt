@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro comenta cuspida levou jean wyllys cheiro horrivel ainda sei fazer cara completamente desequilibrado apos levar cuspida deputado jean wyllys jair bolsonaro comentou episodio atraves video publicado redes sociais acho caso psiquiatrico porque amor odio comigo acontecendo disse bolsonaro confira video leia
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	comenta	comentar	VERB	VERB	_	0	root	_	TokenRange=10:17
+3	cuspida	cuspida	NOUN	NOUN	_	2	obj	_	TokenRange=18:25
+4	levou	levar	VERB	VERB	_	2	ccomp	_	TokenRange=26:31
+5	jean	_	NOUN	NOUN	_	4	obj	_	TokenRange=32:36
+6	wyllys	_	NOUN	NOUN	_	5	flat	_	TokenRange=37:43
+7	cheiro	cheiro	NOUN	NOUN	_	4	obj	_	TokenRange=44:50
+8	horrivel	horrivel	ADJ	ADJ	_	7	amod	_	TokenRange=51:59
+9	ainda	ainda	ADV	ADV	_	10	advmod	_	TokenRange=60:65
+10	sei	saber	VERB	VERB	_	2	conj	_	TokenRange=66:69
+11	fazer	fazer	VERB	VERB	_	10	xcomp	_	TokenRange=70:75
+12	cara	cara	NOUN	NOUN	_	11	obj	_	TokenRange=76:80
+13	completamente	completamente	ADV	ADV	_	14	advmod	_	TokenRange=81:94
+14	desequilibrado	desequilibrado	ADJ	ADJ	_	12	amod	_	TokenRange=95:109
+15	apos	_	ADP	ADP	_	16	mark	_	TokenRange=110:114
+16	levar	levar	VERB	VERB	_	10	advcl	_	TokenRange=115:120
+17	cuspida	cuspida	NOUN	NOUN	_	16	obj	_	TokenRange=121:128
+18	deputado	deputado	NOUN	NOUN	_	17	appos	_	TokenRange=129:137
+19	jean	_	NOUN	NOUN	_	17	appos	_	TokenRange=138:142
+20	wyllys	_	NOUN	NOUN	_	19	flat	_	TokenRange=143:149
+21	jair	jair	NOUN	NOUN	_	19	appos	_	TokenRange=150:154
+22	bolsonaro	bolsonaro	NOUN	NOUN	_	21	flat	_	TokenRange=155:164
+23	comentou	comentar	VERB	VERB	_	2	parataxis	_	TokenRange=165:173
+24	episodio	episodio	NOUN	NOUN	_	23	obj	_	TokenRange=174:182
+25	atraves	_	ADV	ADV	_	26	case	_	TokenRange=183:190
+26	video	video	NOUN	NOUN	_	23	nmod	_	TokenRange=191:196
+27	publicado	publicar	VERB	VERB	_	26	acl	_	TokenRange=197:206
+28	redes	rede	NOUN	NOUN	_	27	nmod	_	TokenRange=207:212
+29	sociais	social	ADJ	ADJ	_	28	amod	_	TokenRange=213:220
+30	acho	achar	VERB	VERB	_	23	parataxis	_	TokenRange=221:225
+31	caso	caso	NOUN	NOUN	_	30	obj	_	TokenRange=226:230
+32	psiquiatrico	psiquiatrico	ADJ	ADJ	_	31	amod	_	TokenRange=231:243
+33	porque	_	CCONJ	CONJ	_	40	mark	_	TokenRange=244:250
+34	amor	amor	NOUN	NOUN	_	40	nsubj	_	TokenRange=251:255
+35	odio	odio	VERB	VERB	_	34	nmod	_	TokenRange=256:260
+36	comigo	_	X	ADPPRON	_	35	nmod	_	TokenRange=261:267
+37	acontecendo	acontecer	VERB	VERB	_	35	acl	_	TokenRange=268:279
+38	disse	dizer	VERB	VERB	_	30	advcl	_	TokenRange=280:285
+39	bolsonaro	bolsonaro	NOUN	NOUN	_	40	nsubj	_	TokenRange=286:295
+40	confira	conferir	VERB	VERB	_	38	ccomp	_	TokenRange=296:303
+41	video	video	NOUN	NOUN	_	40	obj	_	TokenRange=304:309
+42	leia	leia	ADJ	ADJ	_	41	amod	_	SpaceAfter=No|TokenRange=310:314
+

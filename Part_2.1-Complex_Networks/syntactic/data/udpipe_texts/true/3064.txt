@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente tribunal federal preve julgamento processo contra lula antes eleicoes quartafeira expresidente condenado primeira instancia 9 anos 6 meses prisao crimes lavagem dinheiro corrupcao passiva presidente tribunal regional federal 4 regiao trf4 carlos eduardo thompson flores lenz acredita deve julgado agosto 2018 antes eleicoes processo condenou expresidente luiz inacio lula silva 9 anos 6 meses prisao crimes corrupcao passiva lavagem dinheiro
+1	presidente	presidente	NOUN	NOUN	_	38	nsubj	_	TokenRange=0:10
+2	tribunal	tribunal	NOUN	NOUN	_	1	flat	_	TokenRange=11:19
+3	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=20:27
+4	preve	_	VERB	VERB	_	1	amod	_	TokenRange=28:33
+5	julgamento	julgamento	NOUN	NOUN	_	1	appos	_	TokenRange=34:44
+6	processo	processo	NOUN	NOUN	_	5	appos	_	TokenRange=45:53
+7	contra	_	ADP	ADP	_	8	case	_	TokenRange=54:60
+8	lula	_	NOUN	NOUN	_	6	nmod	_	TokenRange=61:65
+9	antes	antes	ADV	ADV	_	10	case	_	TokenRange=66:71
+10	eleicoes	eleicoe	NOUN	NOUN	_	5	nmod	_	TokenRange=72:80
+11	quartafeira	_	ADJ	ADJ	_	12	amod	_	TokenRange=81:92
+12	expresidente	expresidente	NOUN	NOUN	_	10	appos	_	TokenRange=93:105
+13	condenado	condenar	VERB	VERB	_	12	acl	_	TokenRange=106:115
+14	primeira	primeiro	ADJ	ADJ	_	15	amod	_	TokenRange=116:124
+15	instancia	instancia	NOUN	NOUN	_	13	nmod	_	TokenRange=125:134
+16	9	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=135:136
+17	anos	ano	NOUN	NOUN	_	13	nmod	_	TokenRange=137:141
+18	6	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=142:143
+19	meses	mês	NOUN	NOUN	_	17	appos	_	TokenRange=144:149
+20	prisao	prisao	ADJ	ADJ	_	17	amod	_	TokenRange=150:156
+21	crimes	crime	NOUN	NOUN	_	20	appos	_	TokenRange=157:163
+22	lavagem	lavagem	NOUN	NOUN	_	21	appos	_	TokenRange=164:171
+23	dinheiro	dinheiro	NOUN	NOUN	_	22	flat	_	TokenRange=172:180
+24	corrupcao	corrupcao	NOUN	NOUN	_	22	appos	_	TokenRange=181:190
+25	passiva	passivo	ADJ	ADJ	_	24	amod	_	TokenRange=191:198
+26	presidente	presidente	NOUN	NOUN	_	21	appos	_	TokenRange=199:209
+27	tribunal	tribunal	NOUN	NOUN	_	26	appos	_	TokenRange=210:218
+28	regional	regional	ADJ	ADJ	_	27	amod	_	TokenRange=219:227
+29	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=228:235
+30	4	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=236:237
+31	regiao	regiao	NOUN	NOUN	_	26	appos	_	TokenRange=238:244
+32	trf4	_	NOUN	NOUN	_	31	appos	_	TokenRange=245:249
+33	carlos	carlo	NOUN	NOUN	_	31	appos	_	TokenRange=250:256
+34	eduardo	eduardo	NOUN	NOUN	_	33	flat	_	TokenRange=257:264
+35	thompson	_	NOUN	NOUN	_	33	flat	_	TokenRange=265:273
+36	flores	flor	NOUN	NOUN	_	33	flat	_	TokenRange=274:280
+37	lenz	lenz	ADJ	ADJ	_	33	flat	_	TokenRange=281:285
+38	acredita	acreditar	VERB	VERB	_	0	root	_	TokenRange=286:294
+39	deve	dever	AUX	AUX	_	40	aux	_	TokenRange=295:299
+40	julgado	julgar	VERB	VERB	_	38	xcomp	_	TokenRange=300:307
+41	agosto	_	PROPN	PNOUN	_	40	nmod	_	TokenRange=308:314
+42	2018	_	NUM	NUM	NumType=Card	41	nmod	_	TokenRange=315:319
+43	antes	antes	ADV	ADV	_	44	advmod	_	TokenRange=320:325
+44	eleicoes	eleicoe	NOUN	NOUN	_	46	nmod	_	TokenRange=326:334
+45	processo	processo	NOUN	NOUN	_	46	nsubj	_	TokenRange=335:343
+46	condenou	condenar	VERB	VERB	_	40	parataxis	_	TokenRange=344:352
+47	expresidente	expresidente	NOUN	NOUN	_	46	obj	_	TokenRange=353:365
+48	luiz	luiz	ADJ	ADJ	_	47	amod	_	TokenRange=366:370
+49	inacio	_	NOUN	NOUN	_	48	flat	_	TokenRange=371:377
+50	lula	_	NOUN	NOUN	_	48	flat	_	TokenRange=378:382
+51	silva	silva	ADJ	ADJ	_	49	flat	_	TokenRange=383:388
+52	9	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=389:390
+53	anos	ano	NOUN	NOUN	_	46	nmod	_	TokenRange=391:395
+54	6	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=396:397
+55	meses	mês	NOUN	NOUN	_	53	nmod	_	TokenRange=398:403
+56	prisao	prisao	ADJ	ADJ	_	57	amod	_	TokenRange=404:410
+57	crimes	crime	NOUN	NOUN	_	46	obj	_	TokenRange=411:417
+58	corrupcao	corrupcao	ADJ	ADJ	_	57	amod	_	TokenRange=418:427
+59	passiva	passivo	ADJ	ADJ	_	60	amod	_	TokenRange=428:435
+60	lavagem	lavagem	NOUN	NOUN	_	57	appos	_	TokenRange=436:443
+61	dinheiro	dinheiro	NOUN	NOUN	_	60	flat	_	SpaceAfter=No|TokenRange=444:452
+

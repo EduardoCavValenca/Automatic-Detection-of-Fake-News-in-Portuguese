@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf investiga exministro petista suspeito desviar r 102 milhoes encontra emails enviados toffoli justica paulo enviou stf arquivo contendo mensagens emails celular carlos gabas enviadas ministro dias toffoli gabas exministro governos lula dilma investigado juntamente exministro paulo bernardo desvio r 102 milhoes previdencia justica federal negou pedido mpf sp acesso comunicacoes emails mensagens celular informacao estadao mensagens encontradas durante cumprimento mandado busca apreensao realizada operacao custo brasil
+1	pf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	investiga	investigar	VERB	VERB	_	0	root	_	TokenRange=3:12
+3	exministro	exministro	NOUN	NOUN	_	2	obj	_	TokenRange=13:23
+4	petista	petista	NOUN	NOUN	_	3	amod	_	TokenRange=24:31
+5	suspeito	suspeito	ADJ	ADJ	_	3	amod	_	TokenRange=32:40
+6	desviar	desviar	VERB	VERB	_	3	acl:inf	_	TokenRange=41:48
+7	r	r	NOUN	NOUN	_	6	obj	_	TokenRange=49:50
+8	102	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=51:54
+9	milhoes	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=55:62
+10	encontra	encontrar	VERB	VERB	_	2	ccomp	_	TokenRange=63:71
+11	emails	email	NOUN	NOUN	_	10	obj	_	TokenRange=72:78
+12	enviados	enviar	VERB	VERB	_	11	acl	_	TokenRange=79:87
+13	toffoli	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=88:95
+14	justica	_	NOUN	NOUN	_	13	appos	_	TokenRange=96:103
+15	paulo	paulo	NOUN	NOUN	_	14	flat	_	TokenRange=104:109
+16	enviou	enviar	VERB	VERB	_	2	parataxis	_	TokenRange=110:116
+17	stf	_	NOUN	NOUN	_	16	obj	_	TokenRange=117:120
+18	arquivo	arquivo	NOUN	NOUN	_	17	flat	_	TokenRange=121:128
+19	contendo	_	VERB	VERB	_	3	acl	_	TokenRange=129:137
+20	mensagens	mensagem	NOUN	NOUN	_	19	obj	_	TokenRange=138:147
+21	emails	email	NOUN	NOUN	_	20	appos	_	TokenRange=148:154
+22	celular	_	ADJ	ADJ	_	20	amod	_	TokenRange=155:162
+23	carlos	carlo	NOUN	NOUN	_	20	appos	_	TokenRange=163:169
+24	gabas	gaba	NOUN	NOUN	_	23	flat	_	TokenRange=170:175
+25	enviadas	enviar	VERB	VERB	_	26	acl	_	TokenRange=176:184
+26	ministro	ministro	NOUN	NOUN	_	19	obj	_	TokenRange=185:193
+27	dias	dia	NOUN	NOUN	_	26	flat	_	TokenRange=194:198
+28	toffoli	_	NOUN	NOUN	_	26	appos	_	TokenRange=199:206
+29	gabas	gaba	NOUN	NOUN	_	26	appos	_	TokenRange=207:212
+30	exministro	exministro	ADJ	ADJ	_	31	amod	_	TokenRange=213:223
+31	governos	governo	NOUN	NOUN	_	26	appos	_	TokenRange=224:232
+32	lula	_	NOUN	NOUN	_	31	appos	_	TokenRange=233:237
+33	dilma	dilma	NOUN	NOUN	_	32	flat	_	TokenRange=238:243
+34	investigado	investigar	VERB	VERB	_	31	acl	_	TokenRange=244:255
+35	juntamente	juntamente	ADV	ADV	_	34	advmod	_	TokenRange=256:266
+36	exministro	exministro	NOUN	NOUN	_	34	nsubj	_	TokenRange=267:277
+37	paulo	paulo	NOUN	NOUN	_	36	appos	_	TokenRange=278:283
+38	bernardo	bernardo	NOUN	NOUN	_	37	flat	_	TokenRange=284:292
+39	desvio	desvio	VERB	VERB	_	34	parataxis	_	TokenRange=293:299
+40	r	r	NOUN	NOUN	_	39	obj	_	TokenRange=300:301
+41	102	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=302:305
+42	milhoes	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=306:313
+43	previdencia	previdencia	NOUN	NOUN	_	39	obj	_	TokenRange=314:325
+44	justica	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=326:333
+45	federal	federal	ADJ	ADJ	_	44	amod	_	TokenRange=334:341
+46	negou	negar	VERB	VERB	_	2	parataxis	_	TokenRange=342:347
+47	pedido	pedido	NOUN	NOUN	_	46	obj	_	TokenRange=348:354
+48	mpf	_	NOUN	NOUN	_	47	appos	_	TokenRange=355:358
+49	sp	_	X	X	_	50	flat	_	TokenRange=359:361
+50	acesso	acesso	NOUN	NOUN	_	47	appos	_	TokenRange=362:368
+51	comunicacoes	comunicacoe	NOUN	NOUN	_	50	flat	_	TokenRange=369:381
+52	emails	email	ADJ	ADJ	_	53	amod	_	TokenRange=382:388
+53	mensagens	mensagem	NOUN	NOUN	_	50	appos	_	TokenRange=389:398
+54	celular	celular	ADJ	ADJ	_	53	amod	_	TokenRange=399:406
+55	informacao	informacao	NOUN	NOUN	_	46	parataxis	_	TokenRange=407:417
+56	estadao	estadao	NOUN	NOUN	_	55	flat	_	TokenRange=418:425
+57	mensagens	mensagem	NOUN	NOUN	_	55	obj	_	TokenRange=426:435
+58	encontradas	encontrar	VERB	VERB	_	57	acl	_	TokenRange=436:447
+59	durante	_	ADP	ADP	_	60	case	_	TokenRange=448:455
+60	cumprimento	cumprimento	NOUN	NOUN	_	58	nmod	_	TokenRange=456:467
+61	mandado	mandar	VERB	VERB	_	60	acl	_	TokenRange=468:475
+62	busca	busca	NOUN	NOUN	_	58	parataxis	_	TokenRange=476:481
+63	apreensao	apreensao	NOUN	NOUN	_	62	obj	_	TokenRange=482:491
+64	realizada	realizar	VERB	VERB	_	63	acl	_	TokenRange=492:501
+65	operacao	operacao	NOUN	NOUN	_	66	amod	_	TokenRange=502:510
+66	custo	custo	NOUN	NOUN	_	64	nmod	_	TokenRange=511:516
+67	brasil	brasil	ADJ	ADJ	_	66	amod	_	SpaceAfter=No|TokenRange=517:523
+

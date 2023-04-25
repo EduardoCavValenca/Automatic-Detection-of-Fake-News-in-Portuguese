@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = direto assunto abriu podcast comentaristas jornal eldorado radio eldorado fm 1073 manha tercafeira 27 marco 2018 seguintes assuntos manchete estadao veio tres linhas corte nega recurso tse deve enquadrar lula fichasuja entrevista programa roda viva tv cultura juiz sergio moro voltou defender inicio execucao penal apos condenacao segundo grau miguel sul santa catarina expresidente luiz inacio lula silva mandou policia dar corretivo adversarios casa perto palanque armado jogaram ovos pedras nele francisco beltrao seguranca agrediu jornalista
+1	direto	direto	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	assunto	assunto	NOUN	NOUN	_	3	nsubj	_	TokenRange=7:14
+3	abriu	abrir	VERB	VERB	_	0	root	_	TokenRange=15:20
+4	podcast	_	NOUN	NOUN	_	3	obj	_	TokenRange=21:28
+5	comentaristas	comentarista	ADJ	ADJ	_	4	amod	_	TokenRange=29:42
+6	jornal	jornal	NOUN	NOUN	_	4	appos	_	TokenRange=43:49
+7	eldorado	eldorado	ADJ	ADJ	_	6	amod	_	TokenRange=50:58
+8	radio	radio	NOUN	NOUN	_	4	appos	_	TokenRange=59:64
+9	eldorado	eldorado	ADJ	ADJ	_	8	amod	_	TokenRange=65:73
+10	fm	_	NOUN	NOUN	_	8	appos	_	TokenRange=74:76
+11	1073	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=77:81
+12	manha	manha	NOUN	NOUN	_	3	parataxis	_	TokenRange=82:87
+13	tercafeira	_	NOUN	NOUN	_	12	appos	_	TokenRange=88:98
+14	27	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=99:101
+15	marco	_	NOUN	NOUN	_	12	nmod	_	TokenRange=102:107
+16	2018	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=108:112
+17	seguintes	seguinte	ADJ	ADJ	_	18	amod	_	TokenRange=113:122
+18	assuntos	assunto	NOUN	NOUN	_	3	obj	_	TokenRange=123:131
+19	manchete	manchete	NOUN	NOUN	_	18	appos	_	TokenRange=132:140
+20	estadao	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=141:148
+21	veio	_	VERB	VERB	_	18	acl:relcl	_	TokenRange=149:153
+22	tres	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=154:158
+23	linhas	_	NOUN	NOUN	_	21	obj	_	TokenRange=159:165
+24	corte	corte	NOUN	NOUN	_	21	nsubj	_	TokenRange=166:171
+25	nega	_	VERB	VERB	_	26	acl:relcl	_	TokenRange=172:176
+26	recurso	recurso	NOUN	NOUN	_	21	obj	_	TokenRange=177:184
+27	tse	_	PRON	PRON	_	29	nsubj	_	TokenRange=185:188
+28	deve	dever	AUX	AUX	_	29	aux	_	TokenRange=189:193
+29	enquadrar	enquadrar	VERB	VERB	_	26	acl:relcl	_	TokenRange=194:203
+30	lula	lula	NOUN	NOUN	_	29	obj	_	TokenRange=204:208
+31	fichasuja	_	ADJ	ADJ	_	32	amod	_	TokenRange=209:218
+32	entrevista	entrevista	NOUN	NOUN	_	29	nmod	_	TokenRange=219:229
+33	programa	programa	NOUN	NOUN	_	32	appos	_	TokenRange=230:238
+34	roda	roda	NOUN	NOUN	_	32	appos	_	TokenRange=239:243
+35	viva	vivo	ADJ	ADJ	_	34	amod	_	TokenRange=244:248
+36	tv	_	DET	DET	_	37	det	_	TokenRange=249:251
+37	cultura	cultura	NOUN	NOUN	_	42	nsubj	_	TokenRange=252:259
+38	juiz	juiz	NOUN	NOUN	_	37	flat	_	TokenRange=260:264
+39	sergio	sergio	NOUN	NOUN	_	37	appos	_	TokenRange=265:271
+40	moro	moro	NOUN	NOUN	_	37	flat	_	TokenRange=272:276
+41	voltou	voltar	AUX	AUX	_	42	aux	_	TokenRange=277:283
+42	defender	defender	VERB	VERB	_	3	conj	_	TokenRange=284:292
+43	inicio	_	ADJ	ADJ	_	44	amod	_	TokenRange=293:299
+44	execucao	execucao	NOUN	NOUN	_	42	obj	_	TokenRange=300:308
+45	penal	penal	ADJ	ADJ	_	44	amod	_	TokenRange=309:314
+46	apos	_	ADP	ADP	_	47	case	_	TokenRange=315:319
+47	condenacao	condenacao	NOUN	NOUN	_	42	nmod	_	TokenRange=320:330
+48	segundo	segundo	ADJ	ADJ	_	49	amod	_	TokenRange=331:338
+49	grau	grau	NOUN	NOUN	_	47	nmod	_	TokenRange=339:343
+50	miguel	miguel	NOUN	NOUN	_	49	appos	_	TokenRange=344:350
+51	sul	sul	ADJ	ADJ	_	49	amod	_	TokenRange=351:354
+52	santa	santo	ADJ	ADJ	_	49	amod	_	TokenRange=355:360
+53	catarina	catarino	ADJ	ADJ	_	49	amod	_	TokenRange=361:369
+54	expresidente	expresidente	NOUN	NOUN	_	59	nsubj	_	TokenRange=370:382
+55	luiz	luiz	ADJ	ADJ	_	54	appos	_	TokenRange=383:387
+56	inacio	_	NOUN	NOUN	_	55	flat	_	TokenRange=388:394
+57	lula	_	NOUN	NOUN	_	55	flat	_	TokenRange=395:399
+58	silva	silva	ADJ	ADJ	_	55	flat	_	TokenRange=400:405
+59	mandou	mandar	VERB	VERB	_	42	parataxis	_	TokenRange=406:412
+60	policia	policia	NOUN	NOUN	_	59	obj	_	TokenRange=413:420
+61	dar	dar	VERB	VERB	_	59	ccomp	_	TokenRange=421:424
+62	corretivo	corretivo	NOUN	NOUN	_	61	obj	_	TokenRange=425:434
+63	adversarios	adversario	NOUN	NOUN	_	62	amod	_	TokenRange=435:446
+64	casa	casa	NOUN	NOUN	_	61	obj	_	TokenRange=447:451
+65	perto	perto	ADV	ADV	_	66	advmod	_	TokenRange=452:457
+66	palanque	palanque	NOUN	NOUN	_	68	nsubj	_	TokenRange=458:466
+67	armado	armado	ADJ	ADJ	_	66	amod	_	TokenRange=467:473
+68	jogaram	jogar	VERB	VERB	_	59	ccomp	_	TokenRange=474:481
+69	ovos	ovo	NOUN	NOUN	_	68	obj	_	TokenRange=482:486
+70	pedras	pedra	NOUN	NOUN	_	68	obj	_	TokenRange=487:493
+71	nele	_	X	ADPPRON	_	72	nmod	_	TokenRange=494:498
+72	francisco	francisco	NOUN	NOUN	_	68	nsubj	_	TokenRange=499:508
+73	beltrao	beltrao	ADJ	ADJ	_	72	flat	_	TokenRange=509:516
+74	seguranca	_	NOUN	NOUN	_	72	amod	_	TokenRange=517:526
+75	agrediu	agredir	VERB	VERB	_	59	parataxis	_	TokenRange=527:534
+76	jornalista	jornalista	NOUN	NOUN	_	75	obj	_	SpaceAfter=No|TokenRange=535:545
+

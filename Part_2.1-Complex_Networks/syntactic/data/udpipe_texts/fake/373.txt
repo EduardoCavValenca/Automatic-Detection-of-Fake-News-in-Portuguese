@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciro gomes elogia temer conspirador safado vaidoso filho ciro gomes metralhou michel temer disse ciro abril 2016 dia seguinte dilma perder mandato eleitor frustrado aecio vera representado crise economica vai piorar preocupado decencia brasil durma barulho desses michel temer vaidoso safado conspirador grande fdp
+1	ciro	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	gomes	gome	NOUN	NOUN	_	3	nsubj	_	TokenRange=5:10
+3	elogia	elogiar	VERB	VERB	_	0	root	_	TokenRange=11:17
+4	temer	temer	NOUN	NOUN	_	3	obj	_	TokenRange=18:23
+5	conspirador	conspirador	NOUN	NOUN	_	4	appos	_	TokenRange=24:35
+6	safado	safado	ADJ	NOUN	_	5	amod	_	TokenRange=36:42
+7	vaidoso	_	ADJ	ADJ	_	8	amod	_	TokenRange=43:50
+8	filho	filho	NOUN	NOUN	_	5	appos	_	TokenRange=51:56
+9	ciro	_	NOUN	NOUN	_	10	amod	_	TokenRange=57:61
+10	gomes	gome	NOUN	NOUN	_	11	nsubj	_	TokenRange=62:67
+11	metralhou	metralhar	VERB	VERB	_	3	conj	_	TokenRange=68:77
+12	michel	michel	ADJ	DET	_	13	amod	_	TokenRange=78:84
+13	temer	temer	NOUN	NOUN	_	11	obj	_	TokenRange=85:90
+14	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=91:96
+15	ciro	ciro	NOUN	NOUN	_	14	obj	_	TokenRange=97:101
+16	abril	_	PROPN	PNOUN	_	15	appos	_	TokenRange=102:107
+17	2016	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=108:112
+18	dia	dia	NOUN	NOUN	_	14	nsubj	_	TokenRange=113:116
+19	seguinte	seguinte	ADJ	ADJ	_	18	amod	_	TokenRange=117:125
+20	dilma	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=126:131
+21	perder	perder	VERB	VERB	_	15	acl:relcl	_	TokenRange=132:138
+22	mandato	mandato	NOUN	NOUN	_	21	obj	_	TokenRange=139:146
+23	eleitor	eleitor	NOUN	NOUN	_	22	amod	_	TokenRange=147:154
+24	frustrado	frustrado	ADJ	ADJ	_	22	amod	_	TokenRange=155:164
+25	aecio	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=165:170
+26	vera	_	NOUN	NOUN	_	25	flat	_	TokenRange=171:175
+27	representado	representado	ADJ	ADJ	_	28	acl	_	TokenRange=176:188
+28	crise	crise	NOUN	NOUN	_	31	nsubj	_	TokenRange=189:194
+29	economica	economico	ADJ	ADJ	_	28	amod	_	TokenRange=195:204
+30	vai	ir	AUX	AUX	_	31	aux	_	TokenRange=205:208
+31	piorar	piorar	VERB	VERB	_	3	parataxis	_	TokenRange=209:215
+32	preocupado	preocupado	ADJ	ADJ	_	31	xcomp	_	TokenRange=216:226
+33	decencia	decencia	NOUN	NOUN	_	31	nsubj	_	TokenRange=227:235
+34	brasil	brasil	NOUN	NOUN	_	33	flat	_	TokenRange=236:242
+35	durma	durmar	VERB	VERB	_	31	parataxis	_	TokenRange=243:248
+36	barulho	barulho	NOUN	NOUN	_	31	obj	_	TokenRange=249:256
+37	desses	_	X	ADP	_	39	case	_	TokenRange=257:263
+38	michel	michel	DET	DET	_	39	det	_	TokenRange=264:270
+39	temer	temer	NOUN	NOUN	_	36	nmod	_	TokenRange=271:276
+40	vaidoso	vaidoso	ADJ	ADJ	_	44	amod	_	TokenRange=277:284
+41	safado	safado	ADJ	ADJ	_	44	amod	_	TokenRange=285:291
+42	conspirador	conspirador	ADJ	ADJ	_	44	amod	_	TokenRange=292:303
+43	grande	grande	ADJ	ADJ	_	44	amod	_	TokenRange=304:310
+44	fdp	fdp	NOUN	NOUN	_	36	appos	_	SpaceAfter=No|TokenRange=311:314
+

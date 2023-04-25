@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = teori zavascki conduzia rigor discricao lava jato desde inicio operacao desde 2014 teori voltados si todos holofotes responsavel homologar todas delacoes citaram politicos autoridades foro privilegiado brasilia teori zavascki chegou supremo tribunal federal novembro 2012 nomeado presidente dilma rousseff quase dois anos rotina discreta magistrado comecou ganhar repercussao nacional primeiro semestre 2014 teori tornou relator caso entao distante cupula poder investigacao envolvendo doleiros dois deputados uso posto gasolina brasilia lavagem dinheiro inicio operacao lava jato primeira acao chegou
+1	teori	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	zavascki	_	PROPN	PNOUN	_	1	flat	_	TokenRange=6:14
+3	conduzia	conduzir	VERB	VERB	_	0	root	_	TokenRange=15:23
+4	rigor	rigor	NOUN	NOUN	_	3	obj	_	TokenRange=24:29
+5	discricao	discricao	NOUN	NOUN	_	4	amod	_	TokenRange=30:39
+6	lava	lava	NOUN	NOUN	_	3	obj	_	TokenRange=40:44
+7	jato	jato	NOUN	NOUN	_	6	flat	_	TokenRange=45:49
+8	desde	_	ADP	ADP	_	10	case	_	TokenRange=50:55
+9	inicio	_	ADJ	ADJ	_	10	amod	_	TokenRange=56:62
+10	operacao	operacao	NOUN	NOUN	_	3	nmod	_	TokenRange=63:71
+11	desde	_	ADP	ADP	_	12	case	_	TokenRange=72:77
+12	2014	_	NUM	NUM	NumType=Card	10	nmod	_	TokenRange=78:82
+13	teori	teori	NOUN	NOUN	_	3	nsubj	_	TokenRange=83:88
+14	voltados	voltado	ADJ	ADJ	_	13	acl	_	TokenRange=89:97
+15	si	_	CCONJ	CONJ	_	22	mark	_	TokenRange=98:100
+16	todos	_	DET	DET	_	17	det	_	TokenRange=101:106
+17	holofotes	holofote	NOUN	NOUN	_	14	nsubj	_	TokenRange=107:116
+18	responsavel	responsavel	ADJ	ADJ	_	17	amod	_	TokenRange=117:128
+19	homologar	homologar	VERB	VERB	_	18	xcomp	_	TokenRange=129:138
+20	todas	_	DET	DET	_	21	det	_	TokenRange=139:144
+21	delacoes	delacoe	NOUN	NOUN	_	19	obj	_	TokenRange=145:153
+22	citaram	citar	VERB	VERB	_	19	parataxis	_	TokenRange=154:161
+23	politicos	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=162:171
+24	autoridades	autoridade	NOUN	NOUN	_	22	nsubj	_	TokenRange=172:183
+25	foro	foro	NOUN	NOUN	_	24	appos	_	TokenRange=184:188
+26	privilegiado	privilegiado	ADJ	ADJ	_	25	amod	_	TokenRange=189:201
+27	brasilia	brasilia	ADJ	ADJ	_	25	amod	_	TokenRange=202:210
+28	teori	teori	NOUN	NOUN	_	30	nsubj	_	TokenRange=211:216
+29	zavascki	_	PROPN	PNOUN	_	28	flat	_	TokenRange=217:225
+30	chegou	chegar	VERB	VERB	_	24	acl:relcl	_	TokenRange=226:232
+31	supremo	supremo	ADJ	ADJ	_	32	amod	_	TokenRange=233:240
+32	tribunal	tribunal	NOUN	NOUN	_	30	obj	_	TokenRange=241:249
+33	federal	federal	ADJ	ADJ	_	32	amod	_	TokenRange=250:257
+34	novembro	_	PROPN	PNOUN	_	30	nmod	_	TokenRange=258:266
+35	2012	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=267:271
+36	nomeado	nomear	VERB	AUX	_	37	cop	_	TokenRange=272:279
+37	presidente	presidente	NOUN	NOUN	_	30	nsubj	_	TokenRange=280:290
+38	dilma	dilma	ADJ	ADJ	_	37	amod	_	TokenRange=291:296
+39	rousseff	rousseff	NOUN	NOUN	_	37	appos	_	TokenRange=297:305
+40	quase	quase	ADV	ADV	_	41	advmod	_	TokenRange=306:311
+41	dois	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=312:316
+42	anos	ano	NOUN	NOUN	_	30	nmod	_	TokenRange=317:321
+43	rotina	rotina	NOUN	NOUN	_	30	nsubj	_	TokenRange=322:328
+44	discreta	discreto	ADJ	ADJ	_	43	amod	_	TokenRange=329:337
+45	magistrado	magistrado	NOUN	NOUN	_	43	amod	_	TokenRange=338:348
+46	comecou	comecar	AUX	AUX	_	47	aux	_	TokenRange=349:356
+47	ganhar	ganhar	VERB	VERB	_	3	parataxis	_	TokenRange=357:363
+48	repercussao	repercussao	NOUN	NOUN	_	47	obj	_	TokenRange=364:375
+49	nacional	nacional	ADJ	ADJ	_	48	amod	_	TokenRange=376:384
+50	primeiro	primeiro	ADJ	ADJ	_	51	amod	_	TokenRange=385:393
+51	semestre	semestre	NOUN	NOUN	_	47	nsubj	_	TokenRange=394:402
+52	2014	_	NUM	NUM	NumType=Card	51	nmod	_	TokenRange=403:407
+53	teori	teori	NOUN	NOUN	_	55	nsubj	_	TokenRange=408:413
+54	tornou	tornar	AUX	AUX	_	55	cop	_	TokenRange=414:420
+55	relator	relator	NOUN	NOUN	_	3	parataxis	_	TokenRange=421:428
+56	caso	caso	NOUN	NOUN	_	55	appos	_	TokenRange=429:433
+57	entao	entao	ADV	ADV	_	58	advmod	_	TokenRange=434:439
+58	distante	distante	ADJ	ADJ	_	60	amod	_	TokenRange=440:448
+59	cupula	cupular	VERB	VERB	_	55	parataxis	_	TokenRange=449:455
+60	poder	poder	NOUN	NOUN	_	59	obj	_	TokenRange=456:461
+61	investigacao	investigacao	ADJ	ADJ	_	60	amod	_	TokenRange=462:474
+62	envolvendo	envolver	VERB	VERB	_	60	acl	_	TokenRange=475:485
+63	doleiros	doleiro	NOUN	NOUN	_	62	obj	_	TokenRange=486:494
+64	dois	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=495:499
+65	deputados	deputado	NOUN	NOUN	_	66	appos	_	TokenRange=500:509
+66	uso	uso	NOUN	NOUN	_	62	parataxis	_	TokenRange=510:513
+67	posto	posto	NOUN	NOUN	_	66	obj	_	TokenRange=514:519
+68	gasolina	gasolina	NOUN	NOUN	_	67	flat	_	TokenRange=520:528
+69	brasilia	brasilia	ADJ	ADJ	_	70	amod	_	TokenRange=529:537
+70	lavagem	lavagem	NOUN	NOUN	_	66	appos	_	TokenRange=538:545
+71	dinheiro	dinheiro	NOUN	NOUN	_	70	flat	_	TokenRange=546:554
+72	inicio	_	ADJ	ADJ	_	73	amod	_	TokenRange=555:561
+73	operacao	operacao	NOUN	NOUN	_	78	nsubj	_	TokenRange=562:570
+74	lava	lava	NOUN	NOUN	_	73	appos	_	TokenRange=571:575
+75	jato	jato	ADJ	NOUN	_	74	flat	_	TokenRange=576:580
+76	primeira	primeiro	ADJ	ADJ	_	77	amod	_	TokenRange=581:589
+77	acao	acao	NOUN	NOUN	_	78	nsubj	_	TokenRange=590:594
+78	chegou	chegar	VERB	VERB	_	3	parataxis	_	SpaceAfter=No|TokenRange=595:601
+

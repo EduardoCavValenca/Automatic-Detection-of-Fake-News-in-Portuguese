@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sextafeira 2 junho 2017 boa noite aqui principais noticias terminar dia beminformado decisao historica presidente americano donald trump retirar eua acordo paris continuou repercutindo nesta sexta pais mundo brasil presidente michel temer tentou esvaziar movimento debandada psdb governo encontrandose governador paulo geraldo alckmin procuradorgeral republica rodrigo janot denunciou senador aecio
+1	sextafeira	sextafeira	NOUN	NOUN	_	24	parataxis	_	TokenRange=0:10
+2	2	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=11:12
+3	junho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=13:18
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=19:23
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=24:27
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=28:33
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=34:38
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=39:49
+9	noticias	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=50:58
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=59:67
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=68:71
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=72:84
+13	decisao	decisao	NOUN	NOUN	_	10	nsubj	_	TokenRange=85:92
+14	historica	historico	ADJ	ADJ	_	13	amod	_	TokenRange=93:102
+15	presidente	presidente	NOUN	NOUN	_	24	nsubj	_	TokenRange=103:113
+16	americano	americano	ADJ	ADJ	_	15	amod	_	TokenRange=114:123
+17	donald	_	ADJ	ADJ	_	18	amod	_	TokenRange=124:130
+18	trump	_	NOUN	NOUN	_	15	appos	_	TokenRange=131:136
+19	retirar	retirar	VERB	VERB	_	13	acl:relcl	_	TokenRange=137:144
+20	eua	_	DET	DET	_	21	det	_	TokenRange=145:148
+21	acordo	acordo	NOUN	NOUN	_	19	obj	_	TokenRange=149:155
+22	paris	_	NOUN	NOUN	_	21	amod	_	TokenRange=156:161
+23	continuou	continuar	AUX	AUX	_	24	aux	_	TokenRange=162:171
+24	repercutindo	repercutir	VERB	VERB	_	0	root	_	TokenRange=172:184
+25	nesta	_	ADP	ADP	_	27	case	_	TokenRange=185:190
+26	sexta	_	ADJ	ADJ	_	27	amod	_	TokenRange=191:196
+27	pais	_	NOUN	NOUN	_	24	nmod	_	TokenRange=197:201
+28	mundo	mundo	NOUN	NOUN	_	27	appos	_	TokenRange=202:207
+29	brasil	brasil	ADJ	ADJ	_	30	amod	_	TokenRange=208:214
+30	presidente	presidente	NOUN	NOUN	_	33	nsubj	_	TokenRange=215:225
+31	michel	michel	ADJ	ADJ	_	30	amod	_	TokenRange=226:232
+32	temer	temer	NOUN	NOUN	_	30	appos	_	TokenRange=233:238
+33	tentou	tentar	VERB	VERB	_	24	parataxis	_	TokenRange=239:245
+34	esvaziar	esvaziar	VERB	VERB	_	33	xcomp	_	TokenRange=246:254
+35	movimento	movimento	NOUN	NOUN	_	34	obj	_	TokenRange=255:264
+36	debandada	debandado	ADJ	ADJ	_	35	amod	_	TokenRange=265:274
+37	psdb	_	NOUN	NOUN	_	35	appos	_	TokenRange=275:279
+38	governo	governo	NOUN	NOUN	_	37	flat	_	TokenRange=280:287
+39	encontrandose	encontrandose	VERB	VERB	_	33	parataxis	_	TokenRange=288:301
+40	governador	governador	NOUN	NOUN	_	39	obj	_	TokenRange=302:312
+41	paulo	paulo	ADJ	ADJ	_	40	amod	_	TokenRange=313:318
+42	geraldo	geraldo	NOUN	NOUN	_	40	amod	_	TokenRange=319:326
+43	alckmin	alckmin	NOUN	NOUN	_	40	appos	_	TokenRange=327:334
+44	procuradorgeral	procuradorgeral	ADJ	ADJ	_	43	amod	_	TokenRange=335:350
+45	republica	republico	ADJ	ADJ	_	43	amod	_	TokenRange=351:360
+46	rodrigo	_	PROPN	PNOUN	_	48	nsubj	_	TokenRange=361:368
+47	janot	_	NOUN	NOUN	_	46	flat	_	TokenRange=369:374
+48	denunciou	denunciar	VERB	VERB	_	24	parataxis	_	TokenRange=375:384
+49	senador	senador	NOUN	NOUN	_	48	obj	_	TokenRange=385:392
+50	aecio	_	NOUN	NOUN	_	49	appos	_	SpaceAfter=No|TokenRange=393:398
+

@@ -1,0 +1,31 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sobe 162 numero cidades situacao emergencia febre amarela minas gerais decreto dia 19 janeiro incluidos 68 municipios unidades regionais saude barbacena juiz estado
+1	sobe	subir	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	162	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=5:8
+3	numero	_	NOUN	NOUN	_	1	nsubj	_	TokenRange=9:15
+4	cidades	cidade	NOUN	NOUN	_	1	nsubj	_	TokenRange=16:23
+5	situacao	_	ADJ	NOUN	_	4	amod	_	TokenRange=24:32
+6	emergencia	emergencia	NOUN	NOUN	_	4	appos	_	TokenRange=33:43
+7	febre	febre	NOUN	NOUN	_	4	appos	_	TokenRange=44:49
+8	amarela	amarelo	ADJ	ADJ	_	7	amod	_	TokenRange=50:57
+9	minas	mina	NOUN	NOUN	_	7	appos	_	TokenRange=58:63
+10	gerais	geral	ADJ	ADJ	_	9	amod	_	TokenRange=64:70
+11	decreto	decreto	ADJ	ADJ	_	7	amod	_	TokenRange=71:78
+12	dia	dia	NOUN	NOUN	_	7	nmod	_	TokenRange=79:82
+13	19	_	NUM	NUM	NumType=Card	12	appos	_	TokenRange=83:85
+14	janeiro	_	PROPN	PNOUN	_	12	appos	_	TokenRange=86:93
+15	incluidos	incluir	VERB	VERB	_	4	acl	_	TokenRange=94:103
+16	68	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=104:106
+17	municipios	municipio	NOUN	NOUN	_	15	nsubj	_	TokenRange=107:117
+18	unidades	unidade	NOUN	NOUN	_	15	nsubj	_	TokenRange=118:126
+19	regionais	regional	ADJ	ADJ	_	18	amod	_	TokenRange=127:136
+20	saude	saude	NOUN	NOUN	_	18	appos	_	TokenRange=137:142
+21	barbacena	barbaceno	ADJ	NOUN	_	22	amod	_	TokenRange=143:152
+22	juiz	juiz	NOUN	NOUN	_	18	appos	_	TokenRange=153:157
+23	estado	estado	NOUN	NOUN	_	22	flat	_	SpaceAfter=No|TokenRange=158:164
+

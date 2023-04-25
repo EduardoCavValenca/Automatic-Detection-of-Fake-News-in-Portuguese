@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joaquim barbosa indenizar jornalista r 20 mil reafirma justica df 2013 exministro stf mandou profissional ir chafurdar lixo tentava recorrer condenacao justica distrito federal negou recurso exministro joaquim barbosa supremo tribunal federal stf manteve obrigacao indenizar r 20 mil jornalista felipe recondo supostas ofensas proferidas 2013
+1	joaquim	joaquim	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	barbosa	barboso	ADJ	ADJ	_	1	flat	_	TokenRange=8:15
+3	indenizar	indenizar	VERB	VERB	_	0	root	_	TokenRange=16:25
+4	jornalista	jornalista	NOUN	NOUN	_	3	obj	_	TokenRange=26:36
+5	r	r	NOUN	NOUN	_	4	appos	_	TokenRange=37:38
+6	20	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=39:41
+7	mil	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=42:45
+8	reafirma	reafirmar	VERB	VERB	_	3	parataxis	_	TokenRange=46:54
+9	justica	_	NOUN	NOUN	_	8	obj	_	TokenRange=55:62
+10	df	_	ADP	ADP	_	14	mark	_	TokenRange=63:65
+11	2013	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=66:70
+12	exministro	exministro	NOUN	NOUN	_	14	nsubj	_	TokenRange=71:81
+13	stf	_	NOUN	NOUN	_	12	appos	_	TokenRange=82:85
+14	mandou	mandar	VERB	VERB	_	3	conj	_	TokenRange=86:92
+15	profissional	profissional	NOUN	NOUN	_	14	obj	_	TokenRange=93:105
+16	ir	ir	AUX	AUX	_	17	aux	_	TokenRange=106:108
+17	chafurdar	chafurdar	VERB	VERB	_	19	csubj	_	TokenRange=109:118
+18	lixo	lixo	NOUN	NOUN	_	17	obj	_	TokenRange=119:123
+19	tentava	tentar	VERB	VERB	_	14	ccomp	_	TokenRange=124:131
+20	recorrer	recorrer	VERB	VERB	_	19	xcomp	_	TokenRange=132:140
+21	condenacao	_	NOUN	NOUN	_	20	obj	_	TokenRange=141:151
+22	justica	justico	ADJ	ADJ	_	23	amod	_	TokenRange=152:159
+23	distrito	distrito	NOUN	NOUN	_	25	nsubj	_	TokenRange=160:168
+24	federal	federal	ADJ	ADJ	_	23	amod	_	TokenRange=169:176
+25	negou	negar	VERB	VERB	_	14	conj	_	TokenRange=177:182
+26	recurso	recurso	NOUN	NOUN	_	25	obj	_	TokenRange=183:190
+27	exministro	exministro	ADJ	ADJ	_	26	amod	_	TokenRange=191:201
+28	joaquim	joaquim	NOUN	NOUN	_	26	appos	_	TokenRange=202:209
+29	barbosa	barboso	ADJ	ADJ	_	28	flat	_	TokenRange=210:217
+30	supremo	supremo	ADJ	ADJ	_	31	amod	_	TokenRange=218:225
+31	tribunal	tribunal	NOUN	NOUN	_	25	nsubj	_	TokenRange=226:234
+32	federal	federal	ADJ	ADJ	_	31	amod	_	TokenRange=235:242
+33	stf	_	PROPN	PNOUN	_	34	nsubj	_	TokenRange=243:246
+34	manteve	manter	VERB	VERB	_	25	parataxis	_	TokenRange=247:254
+35	obrigacao	obrigacao	NOUN	NOUN	_	34	obj	_	TokenRange=255:264
+36	indenizar	indenizar	VERB	VERB	_	35	acl:inf	_	TokenRange=265:274
+37	r	r	NOUN	NOUN	_	36	obj	_	TokenRange=275:276
+38	20	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=277:279
+39	mil	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=280:283
+40	jornalista	jornalista	NOUN	NOUN	_	36	obj	_	TokenRange=284:294
+41	felipe	felipe	NOUN	NOUN	_	40	appos	_	TokenRange=295:301
+42	recondo	recondar	VERB	VERB	_	34	parataxis	_	TokenRange=302:309
+43	supostas	suposto	ADJ	ADJ	_	44	amod	_	TokenRange=310:318
+44	ofensas	ofensa	NOUN	NOUN	_	42	obj	_	TokenRange=319:326
+45	proferidas	proferir	VERB	VERB	_	44	acl	_	TokenRange=327:337
+46	2013	_	NUM	NUM	NumType=Card	45	nmod	_	SpaceAfter=No|TokenRange=338:342
+

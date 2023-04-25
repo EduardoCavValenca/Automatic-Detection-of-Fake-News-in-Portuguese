@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = empresarios policiais alvos nova fase operacao fenix interior mg mandados prisao preventiva busca apreensao cumpridos uberlandia araxa manha desta tercafeira 27 vinte oito mandados prisao preventiva busca apreensao cumpridos durante manha desta tercafeira 27 5 fase operacao fenix investigacoes conduzidas ministerio publico estadual mpe meio grupo atuacao especial combate crime organizado gaeco uberlandia segundo informacoes promotoria justica diligencias uberlandia araxa alto paranaiba onde cumpridos mandados prisao preventiva nesta fase denunciados policiais civis delegados empresarios ramo veiculos
+1	empresarios	empresario	NOUN	NOUN	_	70	nsubj	_	TokenRange=0:11
+2	policiais	policial	ADJ	ADJ	_	1	amod	_	TokenRange=12:21
+3	alvos	alvo	ADJ	ADJ	_	1	amod	_	TokenRange=22:27
+4	nova	novo	ADJ	ADJ	_	5	amod	_	TokenRange=28:32
+5	fase	fase	NOUN	NOUN	_	1	appos	_	TokenRange=33:37
+6	operacao	operacao	NOUN	NOUN	_	1	appos	_	TokenRange=38:46
+7	fenix	_	NOUN	NOUN	_	6	flat	_	TokenRange=47:52
+8	interior	interior	ADJ	ADJ	_	10	amod	_	TokenRange=53:61
+9	mg	_	ADJ	ADJ	_	10	appos	_	TokenRange=62:64
+10	mandados	mandado	NOUN	NOUN	_	1	appos	_	TokenRange=65:73
+11	prisao	prisao	ADJ	ADJ	_	10	amod	_	TokenRange=74:80
+12	preventiva	preventivo	ADJ	ADJ	_	10	amod	_	TokenRange=81:91
+13	busca	busca	NOUN	NOUN	_	10	appos	_	TokenRange=92:97
+14	apreensao	apreensao	NOUN	NOUN	_	13	flat	_	TokenRange=98:107
+15	cumpridos	cumprir	VERB	VERB	_	10	acl	_	TokenRange=108:117
+16	uberlandia	uberlandia	NOUN	NOUN	_	15	obj	_	TokenRange=118:128
+17	araxa	araxa	NOUN	NOUN	_	16	flat	_	TokenRange=129:134
+18	manha	manha	NOUN	NOUN	_	16	appos	_	TokenRange=135:140
+19	desta	_	ADP	ADP	_	20	case	_	TokenRange=141:146
+20	tercafeira	_	NOUN	NOUN	_	18	nmod	_	TokenRange=147:157
+21	27	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=158:160
+22	vinte	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=161:166
+23	oito	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=167:171
+24	mandados	mandado	NOUN	NOUN	_	18	appos	_	TokenRange=172:180
+25	prisao	prisao	ADJ	ADJ	_	24	amod	_	TokenRange=181:187
+26	preventiva	preventivo	ADJ	ADJ	_	25	amod	_	TokenRange=188:198
+27	busca	buscar	VERB	VERB	_	24	appos	_	TokenRange=199:204
+28	apreensao	apreensao	NOUN	NOUN	_	27	obj	_	TokenRange=205:214
+29	cumpridos	cumprir	VERB	VERB	_	28	acl	_	TokenRange=215:224
+30	durante	_	ADP	ADP	_	31	case	_	TokenRange=225:232
+31	manha	manha	NOUN	NOUN	_	29	nmod	_	TokenRange=233:238
+32	desta	_	ADP	ADP	_	33	case	_	TokenRange=239:244
+33	tercafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=245:255
+34	27	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=256:258
+35	5	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=259:260
+36	fase	fase	NOUN	NOUN	_	31	appos	_	TokenRange=261:265
+37	operacao	operacao	NOUN	NOUN	_	36	appos	_	TokenRange=266:274
+38	fenix	_	NOUN	NOUN	_	37	flat	_	TokenRange=275:280
+39	investigacoes	investigacoe	NOUN	NOUN	_	37	appos	_	TokenRange=281:294
+40	conduzidas	conduzir	VERB	VERB	_	41	acl	_	TokenRange=295:305
+41	ministerio	ministerio	NOUN	NOUN	_	39	appos	_	TokenRange=306:316
+42	publico	_	ADJ	ADJ	_	41	amod	_	TokenRange=317:324
+43	estadual	estadual	ADJ	ADJ	_	41	amod	_	TokenRange=325:333
+44	mpe	mpe	NOUN	NOUN	_	46	amod	_	TokenRange=334:337
+45	meio	meio	ADJ	ADJ	_	46	amod	_	TokenRange=338:342
+46	grupo	grupo	NOUN	NOUN	_	41	appos	_	TokenRange=343:348
+47	atuacao	atuacao	ADJ	ADJ	_	46	amod	_	TokenRange=349:356
+48	especial	especial	ADJ	ADJ	_	46	amod	_	TokenRange=357:365
+49	combate	combate	NOUN	NOUN	_	46	appos	_	TokenRange=366:373
+50	crime	crime	NOUN	NOUN	_	49	flat	_	TokenRange=374:379
+51	organizado	organizado	ADJ	ADJ	_	49	amod	_	TokenRange=380:390
+52	gaeco	gaeco	NOUN	NOUN	_	46	appos	_	TokenRange=391:396
+53	uberlandia	uberlandia	NOUN	NOUN	_	52	flat	_	TokenRange=397:407
+54	segundo	_	ADP	ADP	_	55	case	_	TokenRange=408:415
+55	informacoes	informacoe	NOUN	NOUN	_	52	nmod	_	TokenRange=416:427
+56	promotoria	promotoria	NOUN	NOUN	_	55	appos	_	TokenRange=428:438
+57	justica	justico	ADJ	ADJ	_	56	amod	_	TokenRange=439:446
+58	diligencias	diligencia	NOUN	NOUN	_	55	appos	_	TokenRange=447:458
+59	uberlandia	uberlandia	ADJ	NOUN	_	58	flat	_	TokenRange=459:469
+60	araxa	araxa	NOUN	NOUN	_	58	flat	_	TokenRange=470:475
+61	alto	alto	ADJ	ADJ	_	62	amod	_	TokenRange=476:480
+62	paranaiba	paranaiba	NOUN	NOUN	_	58	amod	_	TokenRange=481:490
+63	onde	onde	ADV	ADV	_	64	advmod	_	TokenRange=491:495
+64	cumpridos	cumprir	VERB	VERB	_	58	acl:relcl	_	TokenRange=496:505
+65	mandados	mandado	NOUN	NOUN	_	64	obj	_	TokenRange=506:514
+66	prisao	prisao	NOUN	NOUN	_	65	appos	_	TokenRange=515:521
+67	preventiva	preventivo	ADJ	ADJ	_	66	amod	_	TokenRange=522:532
+68	nesta	_	ADP	ADP	_	69	case	_	TokenRange=533:538
+69	fase	fase	NOUN	NOUN	_	70	nmod	_	TokenRange=539:543
+70	denunciados	denunciar	VERB	VERB	_	0	root	_	TokenRange=544:555
+71	policiais	policial	NOUN	NOUN	_	70	nsubj	_	TokenRange=556:565
+72	civis	civil	ADJ	ADJ	_	71	amod	_	TokenRange=566:571
+73	delegados	delegado	VERB	ADJ	_	71	amod	_	TokenRange=572:581
+74	empresarios	empresario	NOUN	NOUN	_	70	nsubj	_	TokenRange=582:593
+75	ramo	ramo	NOUN	NOUN	_	74	amod	_	TokenRange=594:598
+76	veiculos	veiculo	NOUN	NOUN	_	74	flat	_	SpaceAfter=No|TokenRange=599:607
+

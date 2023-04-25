@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vereador pt gasta 90000 folhas sulfite 1000 canetas mes verba publica
+1	vereador	vereador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	pt	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:11
+3	gasta	gastar	VERB	VERB	_	0	root	_	TokenRange=12:17
+4	90000	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=18:23
+5	folhas	folha	NOUN	NOUN	_	3	obj	_	TokenRange=24:30
+6	sulfite	sulfite	ADJ	ADJ	_	5	amod	_	TokenRange=31:38
+7	1000	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=39:43
+8	canetas	caneta	NOUN	NOUN	_	3	obj	_	TokenRange=44:51
+9	mes	_	DET	DET	_	10	cc	_	TokenRange=52:55
+10	verba	verba	NOUN	NOUN	_	8	conj	_	TokenRange=56:61
+11	publica	publico	ADJ	ADJ	_	10	amod	_	SpaceAfter=No|TokenRange=62:69
+

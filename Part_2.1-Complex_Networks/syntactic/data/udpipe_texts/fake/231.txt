@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tiririca pretende candidatar presidencia 2018 tiririca pretende candidatar presidencia republica 2018 ainda partido pois grande disputa telo aliado escolhidos pessoas tiririca afirma grandes chances chegar aonde quer afinal afirma precisa conquistar povo sim atitude francisco everardo oliveira silva conhecido nome artistico tiririca eleito deputado federal paulo tendo sido terceiro deputado votado toda historia brasil bordoes tiririca garante luta candidatura pior ta fica vote tiririca
+1	tiririca	tiririco	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	pretende	pretender	VERB	VERB	_	0	root	_	TokenRange=9:17
+3	candidatar	candidatar	VERB	VERB	_	2	xcomp	_	TokenRange=18:28
+4	presidencia	presidencia	NOUN	NOUN	_	3	obj	_	TokenRange=29:40
+5	2018	_	NUM	NUM	NumType=Card	7	nmod	_	TokenRange=41:45
+6	tiririca	tiririco	NOUN	NOUN	_	7	nsubj	_	TokenRange=46:54
+7	pretende	pretender	VERB	VERB	_	2	parataxis	_	TokenRange=55:63
+8	candidatar	candidatar	VERB	VERB	_	7	xcomp	_	TokenRange=64:74
+9	presidencia	presidencia	NOUN	NOUN	_	8	obj	_	TokenRange=75:86
+10	republica	_	NOUN	NOUN	_	9	amod	_	TokenRange=87:96
+11	2018	_	NUM	NUM	NumType=Card	9	nmod	_	TokenRange=97:101
+12	ainda	ainda	ADV	ADV	_	13	advmod	_	TokenRange=102:107
+13	partido	partido	NOUN	NOUN	_	8	appos	_	TokenRange=108:115
+14	pois	_	ADP	ADP	_	16	case	_	TokenRange=116:120
+15	grande	grande	ADJ	ADJ	_	16	amod	_	TokenRange=121:127
+16	disputa	disputa	NOUN	NOUN	_	13	nmod	_	TokenRange=128:135
+17	telo	telo	NOUN	NOUN	_	22	nsubj	_	TokenRange=136:140
+18	aliado	aliado	NOUN	NOUN	_	20	appos	_	TokenRange=141:147
+19	escolhidos	escolher	ADJ	ADJ	_	20	acl	_	TokenRange=148:158
+20	pessoas	pessoa	NOUN	NOUN	_	22	nsubj	_	TokenRange=159:166
+21	tiririca	tiririco	ADJ	ADJ	_	20	amod	_	TokenRange=167:175
+22	afirma	afirmar	VERB	VERB	_	13	acl:relcl	_	TokenRange=176:182
+23	grandes	grande	ADJ	ADJ	_	24	amod	_	TokenRange=183:190
+24	chances	chance	NOUN	NOUN	_	22	obj	_	TokenRange=191:198
+25	chegar	chegar	VERB	VERB	_	24	acl:inf	_	TokenRange=199:205
+26	aonde	aonde	ADV	ADV	_	27	advmod	_	TokenRange=206:211
+27	quer	querer	VERB	VERB	_	25	conj	_	TokenRange=212:216
+28	afinal	afinal	ADV	ADV	_	29	advmod	_	TokenRange=217:223
+29	afirma	afirmar	VERB	VERB	_	22	conj	_	TokenRange=224:230
+30	precisa	preciso	VERB	VERB	_	29	xcomp	_	TokenRange=231:238
+31	conquistar	conquistar	VERB	VERB	_	30	csubj	_	TokenRange=239:249
+32	povo	povo	NOUN	NOUN	_	31	obj	_	TokenRange=250:254
+33	sim	sim	ADV	ADV	_	34	advmod	_	TokenRange=255:258
+34	atitude	atitude	NOUN	NOUN	_	32	appos	_	TokenRange=259:266
+35	francisco	francisco	NOUN	NOUN	_	34	appos	_	TokenRange=267:276
+36	everardo	everardo	NOUN	NOUN	_	34	appos	_	TokenRange=277:285
+37	oliveira	oliveira	NOUN	NOUN	_	36	flat	_	TokenRange=286:294
+38	silva	silva	NOUN	NOUN	_	36	flat	_	TokenRange=295:300
+39	conhecido	conhecer	VERB	VERB	_	40	acl	_	TokenRange=301:310
+40	nome	nome	NOUN	NOUN	_	34	appos	_	TokenRange=311:315
+41	artistico	artistico	ADJ	ADJ	_	40	amod	_	TokenRange=316:325
+42	tiririca	tiririco	NOUN	NOUN	_	40	appos	_	TokenRange=326:334
+43	eleito	eleger	VERB	VERB	_	44	acl	_	TokenRange=335:341
+44	deputado	deputado	NOUN	NOUN	_	40	appos	_	TokenRange=342:350
+45	federal	federal	ADJ	ADJ	_	44	amod	_	TokenRange=351:358
+46	paulo	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=359:364
+47	tendo	_	AUX	AUX	_	50	aux	_	TokenRange=365:370
+48	sido	ser	AUX	AUX	_	50	cop	_	TokenRange=371:375
+49	terceiro	_	ADJ	ADJ	_	50	amod	_	TokenRange=376:384
+50	deputado	deputado	NOUN	NOUN	_	44	acl:relcl	_	TokenRange=385:393
+51	votado	votado	ADJ	ADJ	_	50	amod	_	TokenRange=394:400
+52	toda	_	DET	DET	_	53	det	_	TokenRange=401:405
+53	historia	historia	NOUN	NOUN	_	50	nsubj	_	TokenRange=406:414
+54	brasil	brasil	ADJ	ADJ	_	55	amod	_	TokenRange=415:421
+55	bordoes	bordoe	NOUN	NOUN	_	50	nsubj	_	TokenRange=422:429
+56	tiririca	tiririco	NOUN	NOUN	_	57	nsubj	_	TokenRange=430:438
+57	garante	garantir	VERB	VERB	_	50	parataxis	_	TokenRange=439:446
+58	luta	luta	NOUN	NOUN	_	57	obj	_	TokenRange=447:451
+59	candidatura	candidatura	NOUN	NOUN	_	57	nsubj	_	TokenRange=452:463
+60	pior	pior	ADJ	ADJ	_	59	amod	_	TokenRange=464:468
+61	ta	_	PRON	PRON	_	62	nsubj	_	TokenRange=469:471
+62	fica	ficar	VERB	VERB	_	57	conj	_	TokenRange=472:476
+63	vote	vote	NOUN	NOUN	_	62	nsubj	_	TokenRange=477:481
+64	tiririca	_	PROPN	PNOUN	_	62	nsubj	_	SpaceAfter=No|TokenRange=482:490
+

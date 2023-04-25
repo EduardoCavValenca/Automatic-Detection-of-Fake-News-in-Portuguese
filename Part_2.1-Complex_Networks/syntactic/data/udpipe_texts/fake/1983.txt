@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fazenda apostolo equivale 13400 campos futebol ainda debocha policia federal reportagem exibida canal edir macedo fez denuncias contra autodenominado apostolo valdemiro santiago reporter marcelo rezende autor reportagem disse tentou entrar contato apostolo porem sucesso gente chegar aqui fazenda todos saem correndo disse marcelo preste atencao 2 minutos 25 segundos 445 video
+1	fazenda	fazenda	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	apostolo	apostolo	NOUN	NOUN	_	1	flat	_	TokenRange=8:16
+3	equivale	equivaler	VERB	VERB	_	0	root	_	TokenRange=17:25
+4	13400	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=26:31
+5	campos	campo	NOUN	NOUN	_	3	obj	_	TokenRange=32:38
+6	futebol	futebol	NOUN	NOUN	_	5	appos	_	TokenRange=39:46
+7	ainda	ainda	ADV	ADV	_	8	advmod	_	TokenRange=47:52
+8	debocha	debochar	VERB	VERB	_	3	parataxis	_	TokenRange=53:60
+9	policia	policia	NOUN	NOUN	_	8	obj	_	TokenRange=61:68
+10	federal	federal	ADJ	ADJ	_	9	amod	_	TokenRange=69:76
+11	reportagem	reportagem	NOUN	NOUN	_	8	nsubj	_	TokenRange=77:87
+12	exibida	exibir	VERB	VERB	_	11	acl	_	TokenRange=88:95
+13	canal	canal	NOUN	NOUN	_	16	nsubj	_	TokenRange=96:101
+14	edir	edir	NOUN	NOUN	_	13	appos	_	TokenRange=102:106
+15	macedo	macedo	NOUN	NOUN	_	14	flat	_	TokenRange=107:113
+16	fez	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=114:117
+17	denuncias	_	NOUN	NOUN	_	16	obj	_	TokenRange=118:127
+18	contra	_	ADP	ADP	_	20	case	_	TokenRange=128:134
+19	autodenominado	_	ADJ	ADJ	_	20	amod	_	TokenRange=135:149
+20	apostolo	apostolo	NOUN	NOUN	_	17	nmod	_	TokenRange=150:158
+21	valdemiro	_	NOUN	NOUN	_	20	appos	_	TokenRange=159:168
+22	santiago	_	NOUN	NOUN	_	20	appos	_	TokenRange=169:177
+23	reporter	reporter	NOUN	NOUN	_	20	appos	_	TokenRange=178:186
+24	marcelo	marcelo	NOUN	NOUN	_	23	appos	_	TokenRange=187:194
+25	rezende	rezende	NOUN	NOUN	_	24	flat	_	TokenRange=195:202
+26	autor	autor	NOUN	NOUN	_	28	nsubj	_	TokenRange=203:208
+27	reportagem	reportagem	NOUN	NOUN	_	26	appos	_	TokenRange=209:219
+28	disse	dizer	VERB	VERB	_	16	parataxis	_	TokenRange=220:225
+29	tentou	tentar	VERB	VERB	_	28	ccomp	_	TokenRange=226:232
+30	entrar	entrar	VERB	VERB	_	29	xcomp	_	TokenRange=233:239
+31	contato	contato	NOUN	NOUN	_	30	obj	_	TokenRange=240:247
+32	apostolo	apostolo	NOUN	NOUN	_	31	appos	_	TokenRange=248:256
+33	porem	_	ADP	ADP	_	34	case	_	TokenRange=257:262
+34	sucesso	sucesso	NOUN	NOUN	_	31	appos	_	TokenRange=263:270
+35	gente	gente	NOUN	NOUN	_	36	nsubj	_	TokenRange=271:276
+36	chegar	chegar	VERB	VERB	_	31	acl:relcl	_	TokenRange=277:283
+37	aqui	aqui	ADV	ADV	_	36	advmod	_	TokenRange=284:288
+38	fazenda	fazenda	NOUN	NOUN	_	36	obj	_	TokenRange=289:296
+39	todos	_	PRON	PRON	_	36	nsubj	_	TokenRange=297:302
+40	saem	sair	VERB	VERB	_	36	aux	_	TokenRange=303:307
+41	correndo	correr	VERB	VERB	_	36	acl	_	TokenRange=308:316
+42	disse	dizer	VERB	VERB	_	28	parataxis	_	TokenRange=317:322
+43	marcelo	marcelo	NOUN	NOUN	_	42	nsubj	_	TokenRange=323:330
+44	preste	_	VERB	VERB	_	42	ccomp	_	TokenRange=331:337
+45	atencao	atencao	NOUN	NOUN	_	44	obj	_	TokenRange=338:345
+46	2	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=346:347
+47	minutos	minuto	NOUN	NOUN	_	44	nmod	_	TokenRange=348:355
+48	25	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=356:358
+49	segundos	segundo	NOUN	NOUN	_	44	nmod	_	TokenRange=359:367
+50	445	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=368:371
+51	video	video	NOUN	NOUN	_	44	obj	_	SpaceAfter=No|TokenRange=372:377
+

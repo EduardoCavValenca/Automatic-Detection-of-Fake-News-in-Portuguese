@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sete ministros vao disputar eleicao querem sair abril apesar expectativa substituicao gradual ministros vao candidatar proximas eleicoes menos metade quer ficar cargos primeiro escalao datalimite 7 abril 14 ministros estudam participar disputa deste ano 7 prometem ficar pastas data tres dizem ainda definiram deixarao cargos dois afirmam decidiram vao candidatar outros dois responderam questionamentos folha presidente michel temer passou
+1	sete	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:4
+2	ministros	ministro	NOUN	NOUN	_	4	nsubj	_	TokenRange=5:14
+3	vao	ir	AUX	AUX	_	4	aux	_	TokenRange=15:18
+4	disputar	disputar	VERB	VERB	_	59	ccomp	_	TokenRange=19:27
+5	eleicao	eleicao	NOUN	NOUN	_	4	obj	_	TokenRange=28:35
+6	querem	querer	VERB	VERB	_	4	parataxis	_	TokenRange=36:42
+7	sair	sair	VERB	VERB	_	6	xcomp	_	TokenRange=43:47
+8	abril	_	PROPN	PNOUN	_	7	obj	_	TokenRange=48:53
+9	apesar	apesar	ADV	ADV	_	15	mark	_	TokenRange=54:60
+10	expectativa	expectativa	NOUN	NOUN	_	15	nmod	_	TokenRange=61:72
+11	substituicao	substituicao	ADJ	ADJ	_	10	amod	_	TokenRange=73:85
+12	gradual	gradual	ADJ	ADJ	_	13	amod	_	TokenRange=86:93
+13	ministros	ministro	NOUN	NOUN	_	15	nsubj	_	TokenRange=94:103
+14	vao	ir	AUX	AUX	_	15	aux	_	TokenRange=104:107
+15	candidatar	candidatar	VERB	VERB	_	4	advcl	_	TokenRange=108:118
+16	proximas	proximo	ADJ	ADJ	_	17	amod	_	TokenRange=119:127
+17	eleicoes	eleicoe	NOUN	NOUN	_	15	obj	_	TokenRange=128:136
+18	menos	_	DET	DET	_	19	det	_	TokenRange=137:142
+19	metade	metade	NOUN	NOUN	_	20	nsubj	_	TokenRange=143:149
+20	quer	querer	VERB	VERB	_	15	parataxis	_	TokenRange=150:154
+21	ficar	ficar	VERB	VERB	_	20	xcomp	_	TokenRange=155:160
+22	cargos	cargo	NOUN	NOUN	_	21	obj	_	TokenRange=161:167
+23	primeiro	primeiro	ADJ	ADJ	_	24	amod	_	TokenRange=168:176
+24	escalao	escalao	NOUN	NOUN	_	21	nsubj	_	TokenRange=177:184
+25	datalimite	datalimite	NOUN	NOUN	_	24	appos	_	TokenRange=185:195
+26	7	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=196:197
+27	abril	_	PROPN	PNOUN	_	26	nmod	_	TokenRange=198:203
+28	14	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=204:206
+29	ministros	ministro	NOUN	NOUN	_	30	nsubj	_	TokenRange=207:216
+30	estudam	estudar	VERB	VERB	_	24	acl:relcl	_	TokenRange=217:224
+31	participar	participar	VERB	VERB	_	30	xcomp	_	TokenRange=225:235
+32	disputa	disputa	NOUN	NOUN	_	31	obj	_	TokenRange=236:243
+33	deste	_	ADP	ADP	_	34	case	_	TokenRange=244:249
+34	ano	ano	NOUN	NOUN	_	32	nmod	_	TokenRange=250:253
+35	7	_	NUM	NUM	NumType=Card	36	nsubj	_	TokenRange=254:255
+36	prometem	prometer	VERB	VERB	_	24	acl:relcl	_	TokenRange=256:264
+37	ficar	ficar	VERB	VERB	_	36	xcomp	_	TokenRange=265:270
+38	pastas	pasto	ADJ	ADJ	_	37	xcomp	_	TokenRange=271:277
+39	data	data	NOUN	NOUN	_	41	nsubj	_	TokenRange=278:282
+40	tres	_	NUM	NUM	NumType=Card	41	nsubj	_	TokenRange=283:287
+41	dizem	dizer	VERB	VERB	_	37	conj	_	TokenRange=288:293
+42	ainda	ainda	ADV	ADV	_	41	advmod	_	TokenRange=294:299
+43	definiram	definir	VERB	VERB	_	41	ccomp	_	TokenRange=300:309
+44	deixarao	deixar	VERB	VERB	_	43	xcomp	_	TokenRange=310:318
+45	cargos	cargo	NOUN	NOUN	_	44	obj	_	TokenRange=319:325
+46	dois	_	NUM	NUM	NumType=Card	47	nsubj	_	TokenRange=326:330
+47	afirmam	afirmar	VERB	VERB	_	45	acl:relcl	_	TokenRange=331:338
+48	decidiram	decidir	VERB	VERB	_	47	xcomp	_	TokenRange=339:348
+49	vao	_	AUX	AUX	_	50	aux	_	TokenRange=349:352
+50	candidatar	candidatar	VERB	VERB	_	48	xcomp	_	TokenRange=353:363
+51	outros	_	DET	DET	_	52	det	_	TokenRange=364:370
+52	dois	_	NUM	NUM	NumType=Card	53	nsubj	_	TokenRange=371:375
+53	responderam	responder	VERB	VERB	_	48	conj	_	TokenRange=376:387
+54	questionamentos	questionamento	NOUN	NOUN	_	53	obj	_	TokenRange=388:403
+55	folha	folho	ADJ	ADJ	_	56	amod	_	TokenRange=404:409
+56	presidente	presidente	NOUN	NOUN	_	53	obj	_	TokenRange=410:420
+57	michel	michel	ADJ	ADJ	_	56	amod	_	TokenRange=421:427
+58	temer	temer	NOUN	NOUN	_	56	appos	_	TokenRange=428:433
+59	passou	passar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=434:440
+

@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = michel temer notificado novo presidente compromisso oficial hoje noite michel temer notificado 11h20 manha hoje 12 sobre afastamento dilma rousseff notificacao realizada senador vicentinho alves posse novos ministros governo palacio planalto marcada 15 horas apos posses temer dara entrevista imprensa noite presidente exercicio ira posse ministro stf gilmar mendes presidente tse
+1	michel	michel	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	temer	temer	NOUN	NOUN	_	38	nsubj	_	TokenRange=7:12
+3	notificado	notificar	VERB	VERB	_	2	acl	_	TokenRange=13:23
+4	novo	novo	ADJ	ADJ	_	5	amod	_	TokenRange=24:28
+5	presidente	presidente	NOUN	NOUN	_	3	obj	_	TokenRange=29:39
+6	compromisso	compromisso	NOUN	NOUN	_	5	appos	_	TokenRange=40:51
+7	oficial	oficial	ADJ	ADJ	_	6	amod	_	TokenRange=52:59
+8	hoje	hoje	ADV	ADV	_	9	advmod	_	TokenRange=60:64
+9	noite	noite	NOUN	NOUN	_	3	nmod	_	TokenRange=65:70
+10	michel	michel	ADJ	ADJ	_	11	amod	_	TokenRange=71:77
+11	temer	temer	NOUN	NOUN	_	9	appos	_	TokenRange=78:83
+12	notificado	notificar	VERB	VERB	_	9	acl	_	TokenRange=84:94
+13	11h20	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=95:100
+14	manha	manha	NOUN	NOUN	_	12	nmod	_	TokenRange=101:106
+15	hoje	hoje	ADV	ADV	_	12	advmod	_	TokenRange=107:111
+16	12	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=112:114
+17	sobre	_	ADP	ADP	_	18	case	_	TokenRange=115:120
+18	afastamento	afastamento	NOUN	NOUN	_	12	nmod	_	TokenRange=121:132
+19	dilma	dilma	NOUN	NOUN	_	18	appos	_	TokenRange=133:138
+20	rousseff	rousseff	NOUN	NOUN	_	18	appos	_	TokenRange=139:147
+21	notificacao	notificacao	NOUN	NOUN	_	18	appos	_	TokenRange=148:159
+22	realizada	realizar	VERB	VERB	_	18	acl	_	TokenRange=160:169
+23	senador	senador	NOUN	NOUN	_	22	obj	_	TokenRange=170:177
+24	vicentinho	_	NOUN	NOUN	_	23	appos	_	TokenRange=178:188
+25	alves	_	NOUN	NOUN	_	24	flat	_	TokenRange=189:194
+26	posse	posse	NOUN	NOUN	_	22	obj	_	TokenRange=195:200
+27	novos	novo	ADJ	ADJ	_	28	amod	_	TokenRange=201:206
+28	ministros	ministro	NOUN	NOUN	_	26	appos	_	TokenRange=207:216
+29	governo	governo	NOUN	NOUN	_	28	appos	_	TokenRange=217:224
+30	palacio	palacio	NOUN	NOUN	_	26	appos	_	TokenRange=225:232
+31	planalto	planalto	ADJ	ADJ	_	30	amod	_	TokenRange=233:241
+32	marcada	marcar	VERB	VERB	_	26	acl	_	TokenRange=242:249
+33	15	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=250:252
+34	horas	hora	NOUN	NOUN	_	32	nmod	_	TokenRange=253:258
+35	apos	_	ADP	ADP	_	36	case	_	TokenRange=259:263
+36	posses	_	NOUN	NOUN	_	34	nmod	_	TokenRange=264:270
+37	temer	temer	NOUN	NOUN	_	36	flat	_	TokenRange=271:276
+38	dara	_	VERB	VERB	_	0	root	_	TokenRange=277:281
+39	entrevista	entrevista	NOUN	NOUN	_	38	obj	_	TokenRange=282:292
+40	imprensa	imprensa	ADJ	ADJ	_	39	amod	_	TokenRange=293:301
+41	noite	noite	NOUN	NOUN	_	38	obj	_	TokenRange=302:307
+42	presidente	presidente	NOUN	NOUN	_	39	appos	_	TokenRange=308:318
+43	exercicio	exercicio	NOUN	NOUN	_	42	amod	_	TokenRange=319:328
+44	ira	_	AUX	AUX	_	45	cop	_	TokenRange=329:332
+45	posse	posse	NOUN	NOUN	_	38	parataxis	_	TokenRange=333:338
+46	ministro	ministro	NOUN	NOUN	_	45	flat	_	TokenRange=339:347
+47	stf	_	NOUN	NOUN	_	45	flat	_	TokenRange=348:351
+48	gilmar	gilmar	NOUN	NOUN	_	45	flat	_	TokenRange=352:358
+49	mendes	_	ADJ	ADJ	_	50	amod	_	TokenRange=359:365
+50	presidente	presidente	NOUN	NOUN	_	45	appos	_	TokenRange=366:376
+51	tse	_	PROPN	PNOUN	_	50	appos	_	SpaceAfter=No|TokenRange=377:380
+

@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputados elegem nesta quinta presidente camara proximos dois anos disputam votos seguintes deputados andre figueiredo pdtce jair bolsonaro pscrj jovair arantes ptbgo julio delgado psbmg luiza erundina psolsp rodrigo maia demrj dia apos senado eleger eunicio oliveira pmdbce novo presidente casa deputados reunirao nesta quintafeira 2 definir comandara camara proximos
+1	deputados	deputado	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	elegem	eleger	VERB	VERB	_	0	root	_	TokenRange=10:16
+3	nesta	_	ADP	ADP	_	5	case	_	TokenRange=17:22
+4	quinta	_	ADJ	ADJ	_	5	amod	_	TokenRange=23:29
+5	presidente	presidente	NOUN	NOUN	_	2	nmod	_	TokenRange=30:40
+6	camara	camara	NOUN	NOUN	_	10	nmod	_	TokenRange=41:47
+7	proximos	proximo	ADJ	ADJ	_	9	amod	_	TokenRange=48:56
+8	dois	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=57:61
+9	anos	ano	NOUN	NOUN	_	6	appos	_	TokenRange=62:66
+10	disputam	disputar	VERB	VERB	_	2	parataxis	_	TokenRange=67:75
+11	votos	voto	NOUN	NOUN	_	10	obj	_	TokenRange=76:81
+12	seguintes	seguinte	ADJ	ADJ	_	13	amod	_	TokenRange=82:91
+13	deputados	deputado	NOUN	NOUN	_	10	obj	_	TokenRange=92:101
+14	andre	andre	NOUN	NOUN	_	10	nmod	_	TokenRange=102:107
+15	figueiredo	figueiredo	ADJ	ADJ	_	14	amod	_	TokenRange=108:118
+16	pdtce	pdtce	NOUN	NOUN	_	14	appos	_	TokenRange=119:124
+17	jair	jair	NOUN	NOUN	_	16	appos	_	TokenRange=125:129
+18	bolsonaro	bolsonaro	NOUN	NOUN	_	16	amod	_	TokenRange=130:139
+19	pscrj	_	NOUN	NOUN	_	16	appos	_	TokenRange=140:145
+20	jovair	jovair	NOUN	NOUN	_	16	appos	_	TokenRange=146:152
+21	arantes	_	NOUN	NOUN	_	20	flat	_	TokenRange=153:160
+22	ptbgo	_	NOUN	NOUN	_	20	flat	_	TokenRange=161:166
+23	julio	_	NOUN	NOUN	_	20	appos	_	TokenRange=167:172
+24	delgado	_	NOUN	NOUN	_	23	flat	_	TokenRange=173:180
+25	psbmg	_	NOUN	NOUN	_	20	appos	_	TokenRange=181:186
+26	luiza	_	NOUN	NOUN	_	25	appos	_	TokenRange=187:192
+27	erundina	_	NOUN	NOUN	_	25	flat	_	TokenRange=193:201
+28	psolsp	_	NOUN	NOUN	_	25	appos	_	TokenRange=202:208
+29	rodrigo	_	NOUN	NOUN	_	28	flat	_	TokenRange=209:216
+30	maia	_	NOUN	NOUN	_	28	flat	_	TokenRange=217:221
+31	demrj	_	NOUN	NOUN	_	28	flat	_	TokenRange=222:227
+32	dia	dia	NOUN	NOUN	_	35	nmod	_	TokenRange=228:231
+33	apos	_	ADP	ADP	_	34	case	_	TokenRange=232:236
+34	senado	senado	NOUN	NOUN	_	32	nmod	_	TokenRange=237:243
+35	eleger	eleger	VERB	VERB	_	10	conj	_	TokenRange=244:250
+36	eunicio	_	NOUN	NOUN	_	35	obj	_	TokenRange=251:258
+37	oliveira	oliveira	ADJ	ADJ	_	36	flat	_	TokenRange=259:267
+38	pmdbce	_	NOUN	NOUN	_	40	flat	_	TokenRange=268:274
+39	novo	novo	ADJ	ADJ	_	40	amod	_	TokenRange=275:279
+40	presidente	presidente	NOUN	NOUN	_	36	appos	_	TokenRange=280:290
+41	casa	casa	ADJ	ADJ	_	40	amod	_	TokenRange=291:295
+42	deputados	deputado	NOUN	NOUN	_	40	appos	_	TokenRange=296:305
+43	reunirao	reunir	VERB	VERB	_	2	parataxis	_	TokenRange=306:314
+44	nesta	_	ADP	ADP	_	45	case	_	TokenRange=315:320
+45	quintafeira	quintafeira	NOUN	NOUN	_	43	nmod	_	TokenRange=321:332
+46	2	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=333:334
+47	definir	definir	VERB	VERB	_	43	ccomp	_	TokenRange=335:342
+48	comandara	comandar	VERB	VERB	_	43	ccomp	_	TokenRange=343:352
+49	camara	camara	NOUN	NOUN	_	48	obj	_	TokenRange=353:359
+50	proximos	proximo	ADJ	ADJ	_	49	amod	_	SpaceAfter=No|TokenRange=360:368
+

@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dirceu convoca militancia dia revolta condenado jose dirceu conclamou petistas criar algazarra generalizada proximo dia 24 exministro disse julgamento lula tribunal 2 instancia dia revolta atraves mensagens afirmou hora agir falar dirceu sugeriu petistas transformem energias furia revolta indignacao odio chamou julgamento lula fraude juridica 2016 dirceu condenado sergio moro lavagem dinheiro corrupcao passiva organizacao criminosa setembro ano pena aumentada trf4 2 instancia 30 anos nove meses prisao permanece solto estariamos perto guerra civil brasil esquerda comeca incitar movimentos sociais grande revolta popular caso lula preso pena aumentada
+1	dirceu	_	PRON	VERB	_	2	nsubj	_	TokenRange=0:6
+2	convoca	convocar	VERB	VERB	_	0	root	_	TokenRange=7:14
+3	militancia	militancia	NOUN	NOUN	_	2	obj	_	TokenRange=15:25
+4	dia	dia	NOUN	NOUN	_	2	nsubj	_	TokenRange=26:29
+5	revolta	_	NOUN	NOUN	_	4	flat	_	TokenRange=30:37
+6	condenado	condenar	VERB	VERB	_	4	acl	_	TokenRange=38:47
+7	jose	jose	NOUN	NOUN	_	6	nsubj	_	TokenRange=48:52
+8	dirceu	_	NOUN	NOUN	_	7	flat	_	TokenRange=53:59
+9	conclamou	conclamar	VERB	VERB	_	2	parataxis	_	TokenRange=60:69
+10	petistas	petista	NOUN	NOUN	_	9	obj	_	TokenRange=70:78
+11	criar	criar	VERB	VERB	_	9	ccomp	_	TokenRange=79:84
+12	algazarra	algazarra	NOUN	NOUN	_	11	obj	_	TokenRange=85:94
+13	generalizada	generalizado	ADJ	ADJ	_	12	amod	_	TokenRange=95:107
+14	proximo	proximo	ADJ	ADJ	_	15	amod	_	TokenRange=108:115
+15	dia	dia	NOUN	NOUN	_	11	nmod	_	TokenRange=116:119
+16	24	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=120:122
+17	exministro	exministro	NOUN	NOUN	_	15	appos	_	TokenRange=123:133
+18	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=134:139
+19	julgamento	julgamento	NOUN	NOUN	_	18	obj	_	TokenRange=140:150
+20	lula	_	NOUN	NOUN	_	19	appos	_	TokenRange=151:155
+21	tribunal	tribunal	NOUN	NOUN	_	19	appos	_	TokenRange=156:164
+22	2	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=165:166
+23	instancia	instancia	NOUN	NOUN	_	19	appos	_	TokenRange=167:176
+24	dia	dia	NOUN	NOUN	_	28	nmod	_	TokenRange=177:180
+25	revolta	_	NOUN	NOUN	_	24	appos	_	TokenRange=181:188
+26	atraves	_	DET	DET	_	27	det	_	TokenRange=189:196
+27	mensagens	mensagem	NOUN	NOUN	_	28	nsubj	_	TokenRange=197:206
+28	afirmou	afirmar	VERB	VERB	_	18	parataxis	_	TokenRange=207:214
+29	hora	hora	NOUN	NOUN	_	28	obj	_	TokenRange=215:219
+30	agir	agir	VERB	VERB	_	31	ccomp	_	TokenRange=220:224
+31	falar	falar	VERB	VERB	_	29	acl:inf	_	TokenRange=225:230
+32	dirceu	dirceu	NOUN	NOUN	_	31	obj	_	TokenRange=231:237
+33	sugeriu	sugerir	VERB	VERB	_	31	ccomp	_	TokenRange=238:245
+34	petistas	petista	NOUN	NOUN	_	33	obj	_	TokenRange=246:254
+35	transformem	transformar	VERB	VERB	_	33	parataxis	_	TokenRange=255:266
+36	energias	energia	NOUN	NOUN	_	35	obj	_	TokenRange=267:275
+37	furia	furia	ADJ	ADJ	_	36	amod	_	TokenRange=276:281
+38	revolta	_	NOUN	NOUN	_	36	appos	_	TokenRange=282:289
+39	indignacao	indignacao	ADJ	ADJ	_	38	amod	_	TokenRange=290:300
+40	odio	odio	NOUN	NOUN	_	41	nsubj	_	TokenRange=301:305
+41	chamou	chamar	VERB	VERB	_	33	parataxis	_	TokenRange=306:312
+42	julgamento	julgamento	NOUN	NOUN	_	41	obj	_	TokenRange=313:323
+43	lula	lulo	ADJ	ADJ	_	44	amod	_	TokenRange=324:328
+44	fraude	fraude	NOUN	NOUN	_	41	obj	_	TokenRange=329:335
+45	juridica	juridico	ADJ	ADJ	_	44	amod	_	TokenRange=336:344
+46	2016	_	NUM	NUM	NumType=Card	44	nmod	_	TokenRange=345:349
+47	dirceu	dirceu	NOUN	NOUN	_	48	mark	_	TokenRange=350:356
+48	condenado	condenar	VERB	VERB	_	44	acl	_	TokenRange=357:366
+49	sergio	sergio	NOUN	NOUN	_	48	nsubj	_	TokenRange=367:373
+50	moro	moro	NOUN	NOUN	_	49	flat	_	TokenRange=374:378
+51	lavagem	lavagem	NOUN	NOUN	_	48	appos	_	TokenRange=379:386
+52	dinheiro	dinheiro	NOUN	NOUN	_	51	flat	_	TokenRange=387:395
+53	corrupcao	corrupcao	NOUN	NOUN	_	51	amod	_	TokenRange=396:405
+54	passiva	passivo	ADJ	ADJ	_	55	amod	_	TokenRange=406:413
+55	organizacao	organizacao	NOUN	NOUN	_	48	appos	_	TokenRange=414:425
+56	criminosa	criminoso	ADJ	ADJ	_	55	amod	_	TokenRange=426:435
+57	setembro	_	PROPN	PNOUN	_	55	appos	_	TokenRange=436:444
+58	ano	ano	NOUN	NOUN	_	55	nmod	_	TokenRange=445:448
+59	pena	_	NOUN	NOUN	_	55	appos	_	TokenRange=449:453
+60	aumentada	aumentado	ADJ	ADJ	_	59	amod	_	TokenRange=454:463
+61	trf4	_	NOUN	NOUN	_	55	appos	_	TokenRange=464:468
+62	2	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=469:470
+63	instancia	instancia	NOUN	NOUN	_	61	appos	_	TokenRange=471:480
+64	30	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=481:483
+65	anos	ano	NOUN	NOUN	_	69	nsubj	_	TokenRange=484:488
+66	nove	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=489:493
+67	meses	mês	NOUN	NOUN	_	69	nsubj	_	TokenRange=494:499
+68	prisao	prisao	NOUN	NOUN	_	69	nsubj	_	TokenRange=500:506
+69	permanece	permanecer	VERB	VERB	_	63	parataxis	_	TokenRange=507:516
+70	solto	solto	ADJ	ADJ	_	69	xcomp	_	TokenRange=517:522
+71	estariamos	estaar	AUX	AUX	_	69	aux	_	TokenRange=523:533
+72	perto	perto	ADV	ADV	_	69	advmod	_	TokenRange=534:539
+73	guerra	guerra	NOUN	NOUN	_	69	nsubj	_	TokenRange=540:546
+74	civil	civil	ADJ	ADJ	_	73	amod	_	TokenRange=547:552
+75	brasil	brasil	NOUN	NOUN	_	73	amod	_	TokenRange=553:559
+76	esquerda	esquerda	NOUN	NOUN	_	73	amod	_	TokenRange=560:568
+77	comeca	_	VERB	VERB	_	69	parataxis	_	TokenRange=569:575
+78	incitar	incitar	VERB	VERB	_	77	xcomp	_	TokenRange=576:583
+79	movimentos	movimento	NOUN	NOUN	_	78	obj	_	TokenRange=584:594
+80	sociais	social	ADJ	ADJ	_	79	amod	_	TokenRange=595:602
+81	grande	grande	ADJ	ADJ	_	82	amod	_	TokenRange=603:609
+82	revolta	_	NOUN	NOUN	_	79	appos	_	TokenRange=610:617
+83	popular	popular	ADJ	ADJ	_	82	amod	_	TokenRange=618:625
+84	caso	caso	CCONJ	CONJ	_	85	case	_	TokenRange=626:630
+85	lula	lula	NOUN	NOUN	_	87	nmod	_	TokenRange=631:635
+86	preso	_	VERB	ADJ	_	87	amod	_	TokenRange=636:641
+87	pena	_	NOUN	NOUN	_	78	obj	_	TokenRange=642:646
+88	aumentada	aumentado	ADJ	ADJ	_	87	amod	_	SpaceAfter=No|TokenRange=647:656
+

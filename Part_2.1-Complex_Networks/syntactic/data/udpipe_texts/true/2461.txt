@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = paulo uso forcas armadas combate crime organizado cresceu menos tres vezes nesta decada comparado anos 1990 presenca militares ruas pais cresceu somou media 293 dias ano quarteis cerca tres vezes decadas anteriores dados colhidos estado sobre 181 acoes exercito marinha aeronautica ministerio defesa ultimos 25
+1	paulo	paulo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	uso	uso	NOUN	NOUN	_	0	root	_	TokenRange=6:9
+3	forcas	forca	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	armadas	armado	ADJ	ADJ	_	3	amod	_	TokenRange=17:24
+5	combate	combate	NOUN	NOUN	_	2	appos	_	TokenRange=25:32
+6	crime	crime	NOUN	NOUN	_	5	appos	_	TokenRange=33:38
+7	organizado	organizado	ADJ	ADJ	_	6	amod	_	TokenRange=39:49
+8	cresceu	crescer	VERB	VERB	_	2	parataxis	_	TokenRange=50:57
+9	menos	menos	ADV	ADV	_	10	advmod	_	TokenRange=58:63
+10	tres	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=64:68
+11	vezes	vez	NOUN	NOUN	_	8	nmod	_	TokenRange=69:74
+12	nesta	_	ADP	ADP	_	13	case	_	TokenRange=75:80
+13	decada	decada	NOUN	NOUN	_	8	nmod	_	TokenRange=81:87
+14	comparado	comparar	VERB	VERB	_	8	acl	_	TokenRange=88:97
+15	anos	ano	NOUN	NOUN	_	14	nmod	_	TokenRange=98:102
+16	1990	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=103:107
+17	presenca	presenca	NOUN	NOUN	_	21	nsubj	_	TokenRange=108:116
+18	militares	militar	ADJ	ADJ	_	17	amod	_	TokenRange=117:126
+19	ruas	rua	NOUN	NOUN	_	21	nsubj	_	TokenRange=127:131
+20	pais	_	NOUN	NOUN	_	19	amod	_	TokenRange=132:136
+21	cresceu	crescer	VERB	VERB	_	8	parataxis	_	TokenRange=137:144
+22	somou	somar	VERB	VERB	_	21	parataxis	_	TokenRange=145:150
+23	media	media	NOUN	NOUN	_	22	nmod	_	TokenRange=151:156
+24	293	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=157:160
+25	dias	dia	NOUN	NOUN	_	22	nmod	_	TokenRange=161:165
+26	ano	ano	NOUN	NOUN	_	25	appos	_	TokenRange=166:169
+27	quarteis	_	NOUN	NOUN	_	26	flat	_	TokenRange=170:178
+28	cerca	cerca	ADV	ADV	_	29	advmod	_	TokenRange=179:184
+29	tres	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=185:189
+30	vezes	vez	NOUN	NOUN	_	31	nmod	_	TokenRange=190:195
+31	decadas	decada	NOUN	NOUN	_	22	parataxis	_	TokenRange=196:203
+32	anteriores	anterior	ADJ	ADJ	_	31	amod	_	TokenRange=204:214
+33	dados	dado	NOUN	NOUN	_	31	appos	_	TokenRange=215:220
+34	colhidos	colher	VERB	VERB	_	33	acl	_	TokenRange=221:229
+35	estado	estado	NOUN	NOUN	_	33	appos	_	TokenRange=230:236
+36	sobre	_	ADP	ADP	_	38	case	_	TokenRange=237:242
+37	181	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=243:246
+38	acoes	acoe	NOUN	NOUN	_	33	nmod	_	TokenRange=247:252
+39	exercito	exercito	NOUN	NOUN	_	38	appos	_	TokenRange=253:261
+40	marinha	_	NOUN	NOUN	_	38	appos	_	TokenRange=262:269
+41	aeronautica	aeronautico	ADJ	ADJ	_	40	amod	_	TokenRange=270:281
+42	ministerio	ministerio	ADJ	ADJ	_	40	amod	_	TokenRange=282:292
+43	defesa	_	NOUN	NOUN	_	39	flat	_	TokenRange=293:299
+44	ultimos	ultimo	ADJ	ADJ	_	45	amod	_	TokenRange=300:307
+45	25	_	NUM	NUM	NumType=Card	38	nummod	_	SpaceAfter=No|TokenRange=308:310
+

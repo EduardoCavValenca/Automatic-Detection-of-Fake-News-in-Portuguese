@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula perde nocao ridiculo ameaca daqui frente vou processar todo mundo fazem filho violencia cidadao desfacatez mentir daqui frente vou processar monte processos vai ainda disse luis claudio lula silva filho expresidente alvo investigacoes pf mp
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	perde	perder	VERB	VERB	_	0	root	_	TokenRange=5:10
+3	nocao	nocao	NOUN	NOUN	_	2	obj	_	TokenRange=11:16
+4	ridiculo	ridiculo	ADJ	ADJ	_	3	amod	_	TokenRange=17:25
+5	ameaca	ameaca	NOUN	NOUN	_	2	nsubj	_	TokenRange=26:32
+6	daqui	_	ADP	ADP	_	7	case	_	TokenRange=33:38
+7	frente	frente	NOUN	NOUN	_	9	nsubj	_	TokenRange=39:45
+8	vou	ir	AUX	AUX	_	9	aux	_	TokenRange=46:49
+9	processar	processar	VERB	VERB	_	5	acl:relcl	_	TokenRange=50:59
+10	todo	_	DET	DET	_	11	det	_	TokenRange=60:64
+11	mundo	mundo	NOUN	NOUN	_	12	obj	_	TokenRange=65:70
+12	fazem	fazer	VERB	VERB	_	9	ccomp	_	TokenRange=71:76
+13	filho	filho	NOUN	NOUN	_	12	obj	_	TokenRange=77:82
+14	violencia	violencia	NOUN	NOUN	_	12	nsubj	_	TokenRange=83:92
+15	cidadao	cidadao	NOUN	NOUN	_	16	amod	_	TokenRange=93:100
+16	desfacatez	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=101:111
+17	mentir	mentir	VERB	VERB	_	16	acl:inf	_	TokenRange=112:118
+18	daqui	_	ADP	ADP	_	19	case	_	TokenRange=119:124
+19	frente	frente	NOUN	NOUN	_	17	nmod	_	TokenRange=125:131
+20	vou	ir	AUX	AUX	_	21	aux	_	TokenRange=132:135
+21	processar	processar	VERB	VERB	_	17	ccomp	_	TokenRange=136:145
+22	monte	monte	NOUN	NOUN	_	21	obj	_	TokenRange=146:151
+23	processos	processo	NOUN	NOUN	_	22	flat	_	TokenRange=152:161
+24	vai	ir	AUX	AUX	_	26	aux	_	TokenRange=162:165
+25	ainda	ainda	ADV	ADV	_	26	advmod	_	TokenRange=166:171
+26	disse	dizer	VERB	VERB	_	2	conj	_	TokenRange=172:177
+27	luis	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=178:182
+28	claudio	claudio	NOUN	NOUN	_	27	flat	_	TokenRange=183:190
+29	lula	lula	NOUN	NOUN	_	27	flat	_	TokenRange=191:195
+30	silva	silva	ADJ	ADJ	_	27	flat	_	TokenRange=196:201
+31	filho	filho	ADJ	ADJ	_	27	amod	_	TokenRange=202:207
+32	expresidente	expresidente	NOUN	NOUN	_	27	flat	_	TokenRange=208:220
+33	alvo	alvo	ADJ	ADJ	_	32	amod	_	TokenRange=221:225
+34	investigacoes	investigacoe	NOUN	NOUN	_	27	flat	_	TokenRange=226:239
+35	pf	_	X	X	_	34	appos	_	TokenRange=240:242
+36	mp	_	NOUN	NOUN	_	35	flat	_	SpaceAfter=No|TokenRange=243:245
+

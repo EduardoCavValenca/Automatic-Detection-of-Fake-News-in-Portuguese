@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = parana quintafeira 15 marco 2018 boa noite aqui principais noticias terminar dia beminformado juiz davi pinto almeida vara justica militar estadual aceitou denuncia ministerio publico contra 15 policiais rodoviarios estaduais francisco beltrao sudoeste parana suspeitos crimes corrupcao associacao criminosa denuncia 59 paginas mp relata 37 crimes apurados durante investigacoes segundo promotores
+1	parana	parana	NOUN	NOUN	_	22	parataxis	_	TokenRange=0:6
+2	quintafeira	quintafeira	NOUN	NOUN	_	1	appos	_	TokenRange=7:18
+3	15	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=19:21
+4	marco	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=22:27
+5	2018	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=28:32
+6	boa	bom	ADJ	ADJ	_	7	amod	_	TokenRange=33:36
+7	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=37:42
+8	aqui	aqui	ADV	ADV	_	11	advmod	_	TokenRange=43:47
+9	principais	principal	ADJ	ADJ	_	10	amod	_	TokenRange=48:58
+10	noticias	noticia	NOUN	NOUN	_	7	appos	_	TokenRange=59:67
+11	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=68:76
+12	dia	dia	NOUN	NOUN	_	11	obj	_	TokenRange=77:80
+13	beminformado	beminformado	ADJ	ADJ	_	12	amod	_	TokenRange=81:93
+14	juiz	juiz	NOUN	NOUN	_	11	nsubj	_	TokenRange=94:98
+15	davi	_	NOUN	NOUN	_	14	appos	_	TokenRange=99:103
+16	pinto	_	NOUN	NOUN	_	15	flat	_	TokenRange=104:109
+17	almeida	almeida	ADJ	NOUN	_	15	flat	_	TokenRange=110:117
+18	vara	vara	NOUN	NOUN	_	14	appos	_	TokenRange=118:122
+19	justica	_	NOUN	NOUN	_	14	appos	_	TokenRange=123:130
+20	militar	militar	ADJ	ADJ	_	19	amod	_	TokenRange=131:138
+21	estadual	estadual	ADJ	ADJ	_	19	amod	_	TokenRange=139:147
+22	aceitou	aceitar	VERB	VERB	_	0	root	_	TokenRange=148:155
+23	denuncia	_	NOUN	NOUN	_	22	obj	_	TokenRange=156:164
+24	ministerio	ministerio	NOUN	NOUN	_	23	appos	_	TokenRange=165:175
+25	publico	_	ADJ	ADJ	_	23	amod	_	TokenRange=176:183
+26	contra	_	ADP	ADP	_	28	case	_	TokenRange=184:190
+27	15	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=191:193
+28	policiais	policial	NOUN	NOUN	_	23	nmod	_	TokenRange=194:203
+29	rodoviarios	rodoviario	ADJ	ADJ	_	28	amod	_	TokenRange=204:215
+30	estaduais	estadual	ADJ	ADJ	_	28	amod	_	TokenRange=216:225
+31	francisco	francisco	NOUN	NOUN	_	28	appos	_	TokenRange=226:235
+32	beltrao	beltrao	ADJ	ADJ	_	28	amod	_	TokenRange=236:243
+33	sudoeste	sudoeste	NOUN	NOUN	_	28	appos	_	TokenRange=244:252
+34	parana	parana	ADJ	ADJ	_	33	amod	_	TokenRange=253:259
+35	suspeitos	suspeito	ADJ	ADJ	_	36	amod	_	TokenRange=260:269
+36	crimes	crime	NOUN	NOUN	_	28	appos	_	TokenRange=270:276
+37	corrupcao	corrupcao	ADJ	ADJ	_	36	amod	_	TokenRange=277:286
+38	associacao	associacao	NOUN	NOUN	_	36	appos	_	TokenRange=287:297
+39	criminosa	criminoso	ADJ	ADJ	_	38	amod	_	TokenRange=298:307
+40	denuncia	denunciar	VERB	VERB	_	22	parataxis	_	TokenRange=308:316
+41	59	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=317:319
+42	paginas	pagina	NOUN	NOUN	_	40	obj	_	TokenRange=320:327
+43	mp	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=328:330
+44	relata	relatar	VERB	VERB	_	40	parataxis	_	TokenRange=331:337
+45	37	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=338:340
+46	crimes	crime	NOUN	NOUN	_	44	obj	_	TokenRange=341:347
+47	apurados	apurar	VERB	VERB	_	46	acl	_	TokenRange=348:356
+48	durante	_	ADP	ADP	_	49	case	_	TokenRange=357:364
+49	investigacoes	investigacoe	NOUN	NOUN	_	47	nmod	_	TokenRange=365:378
+50	segundo	_	ADP	ADP	_	51	case	_	TokenRange=379:386
+51	promotores	promotor	NOUN	NOUN	_	49	nmod	_	SpaceAfter=No|TokenRange=387:397
+

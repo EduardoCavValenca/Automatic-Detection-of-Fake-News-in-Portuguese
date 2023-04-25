@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer embarca passar carnaval base litoral rio presidente deve ficar tercafeira 13 base naval restinga marambaia administrada marinha antes viagem temer reunioes ministros palacio planalto presidente michel temer embarcou manha deste sabado 10 base naval restinga marambaia rio janeiro temer passara carnaval area administrada marinha previsao retornar brasilia tercafeira 13 presidente despachou palacio planalto 17h sextafeira 9 vespera feriadao carnaval segundo agenda divulgada assessoria temer audiencias ministros henrique meirelles fazenda dyogo oliveira planejamento grace mendonca agu assuntos mobilizou governo preco gas cozinha antes encontro
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	embarca	embarcar	VERB	VERB	_	10	csubj	_	TokenRange=6:13
+3	passar	passar	VERB	VERB	_	2	xcomp	_	TokenRange=14:20
+4	carnaval	carnaval	NOUN	NOUN	_	3	obj	_	TokenRange=21:29
+5	base	base	NOUN	NOUN	_	3	obj	_	TokenRange=30:34
+6	litoral	litoral	ADJ	ADJ	_	5	amod	_	TokenRange=35:42
+7	rio	rio	ADJ	ADJ	_	8	amod	_	TokenRange=43:46
+8	presidente	presidente	NOUN	NOUN	_	2	nsubj	_	TokenRange=47:57
+9	deve	dever	AUX	AUX	_	10	aux	_	TokenRange=58:62
+10	ficar	ficar	VERB	AUX	_	0	root	_	TokenRange=63:68
+11	tercafeira	_	NOUN	NOUN	_	10	parataxis	_	TokenRange=69:79
+12	13	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=80:82
+13	base	base	NOUN	NOUN	_	11	appos	_	TokenRange=83:87
+14	naval	naval	ADJ	ADJ	_	13	amod	_	TokenRange=88:93
+15	restinga	restinga	NOUN	NOUN	_	13	appos	_	TokenRange=94:102
+16	marambaia	marambaia	ADJ	NOUN	_	13	amod	_	TokenRange=103:112
+17	administrada	administrado	ADJ	ADJ	_	13	amod	_	TokenRange=113:125
+18	marinha	_	NOUN	NOUN	_	13	appos	_	TokenRange=126:133
+19	antes	antes	ADV	ADV	_	20	case	_	TokenRange=134:139
+20	viagem	viagem	NOUN	NOUN	_	10	nmod	_	TokenRange=140:146
+21	temer	temer	NOUN	NOUN	_	20	appos	_	TokenRange=147:152
+22	reunioes	reunioe	NOUN	NOUN	_	29	nsubj	_	TokenRange=153:161
+23	ministros	ministro	ADJ	ADJ	_	22	amod	_	TokenRange=162:171
+24	palacio	palacio	NOUN	NOUN	_	22	appos	_	TokenRange=172:179
+25	planalto	planalto	ADJ	ADJ	_	26	amod	_	TokenRange=180:188
+26	presidente	presidente	NOUN	NOUN	_	29	nsubj	_	TokenRange=189:199
+27	michel	michel	ADJ	ADJ	_	28	amod	_	TokenRange=200:206
+28	temer	temer	NOUN	NOUN	_	26	appos	_	TokenRange=207:212
+29	embarcou	embarcar	VERB	VERB	_	10	parataxis	_	TokenRange=213:221
+30	manha	manha	NOUN	NOUN	_	29	nmod	_	TokenRange=222:227
+31	deste	_	ADP	ADP	_	32	case	_	TokenRange=228:233
+32	sabado	_	PROPN	PNOUN	_	30	nmod	_	TokenRange=234:240
+33	10	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=241:243
+34	base	base	NOUN	NOUN	_	29	nsubj	_	TokenRange=244:248
+35	naval	naval	ADJ	ADJ	_	34	amod	_	TokenRange=249:254
+36	restinga	restinga	NOUN	NOUN	_	34	appos	_	TokenRange=255:263
+37	marambaia	marambaia	NOUN	NOUN	_	34	amod	_	TokenRange=264:273
+38	rio	rio	NOUN	NOUN	_	34	appos	_	TokenRange=274:277
+39	janeiro	_	PROPN	PNOUN	_	38	flat	_	TokenRange=278:285
+40	temer	temer	NOUN	NOUN	_	41	nsubj	_	TokenRange=286:291
+41	passara	passar	VERB	VERB	_	29	parataxis	_	TokenRange=292:299
+42	carnaval	carnaval	NOUN	NOUN	_	41	obj	_	TokenRange=300:308
+43	area	area	NOUN	NOUN	_	41	appos	_	TokenRange=309:313
+44	administrada	administrado	ADJ	ADJ	_	43	amod	_	TokenRange=314:326
+45	marinha	_	NOUN	NOUN	_	43	appos	_	TokenRange=327:334
+46	previsao	previsao	ADJ	ADJ	_	41	xcomp	_	TokenRange=335:343
+47	retornar	retornar	VERB	VERB	_	41	csubj	_	TokenRange=344:352
+48	brasilia	brasilia	NOUN	NOUN	_	47	obj	_	TokenRange=353:361
+49	tercafeira	_	NOUN	NOUN	_	48	flat	_	TokenRange=362:372
+50	13	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=373:375
+51	presidente	presidente	NOUN	NOUN	_	47	nsubj	_	TokenRange=376:386
+52	despachou	despachar	VERB	VERB	_	10	parataxis	_	TokenRange=387:396
+53	palacio	palacio	NOUN	NOUN	_	52	obj	_	TokenRange=397:404
+54	planalto	planalto	ADJ	ADJ	_	53	amod	_	TokenRange=405:413
+55	17h	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=414:417
+56	sextafeira	sextafeira	NOUN	NOUN	_	53	appos	_	TokenRange=418:428
+57	9	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=429:430
+58	vespera	vesper	NOUN	NOUN	_	56	appos	_	TokenRange=431:438
+59	feriadao	feriadao	NOUN	NOUN	_	58	appos	_	TokenRange=439:447
+60	carnaval	carnaval	NOUN	NOUN	_	59	flat	_	TokenRange=448:456
+61	segundo	_	ADP	ADP	_	62	case	_	TokenRange=457:464
+62	agenda	agenda	NOUN	NOUN	_	52	nmod	_	TokenRange=465:471
+63	divulgada	divulgar	VERB	VERB	_	62	acl	_	TokenRange=472:481
+64	assessoria	assessoria	NOUN	NOUN	_	63	obj	_	TokenRange=482:492
+65	temer	temer	ADJ	ADJ	_	64	flat	_	TokenRange=493:498
+66	audiencias	_	NOUN	NOUN	_	64	appos	_	TokenRange=499:509
+67	ministros	ministro	NOUN	NOUN	_	64	appos	_	TokenRange=510:519
+68	henrique	henrique	NOUN	NOUN	_	64	appos	_	TokenRange=520:528
+69	meirelles	_	NOUN	NOUN	_	68	flat	_	TokenRange=529:538
+70	fazenda	fazenda	NOUN	NOUN	_	66	appos	_	TokenRange=539:546
+71	dyogo	dyogo	NOUN	NOUN	_	68	appos	_	TokenRange=547:552
+72	oliveira	_	PROPN	PNOUN	_	71	flat	_	TokenRange=553:561
+73	planejamento	planejamento	NOUN	NOUN	_	68	flat	_	TokenRange=562:574
+74	grace	grace	NOUN	NOUN	_	78	obj	_	TokenRange=575:580
+75	mendonca	_	NOUN	NOUN	_	74	flat	_	TokenRange=581:589
+76	agu	_	DET	DET	_	77	det	_	TokenRange=590:593
+77	assuntos	assunto	NOUN	NOUN	_	78	nsubj	_	TokenRange=594:602
+78	mobilizou	mobilizar	VERB	VERB	_	52	parataxis	_	TokenRange=603:612
+79	governo	governo	NOUN	NOUN	_	78	obj	_	TokenRange=613:620
+80	preco	preco	ADJ	ADJ	_	79	amod	_	TokenRange=621:626
+81	gas	_	NOUN	NOUN	_	78	obj	_	TokenRange=627:630
+82	cozinha	cozinha	NOUN	NOUN	_	78	obj	_	TokenRange=631:638
+83	antes	antes	ADV	ADV	_	84	advmod	_	TokenRange=639:644
+84	encontro	encontro	NOUN	NOUN	_	78	nmod	_	SpaceAfter=No|TokenRange=645:653
+

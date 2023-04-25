@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ataque aereo ministro defesa pode contraido zika virus ministro defesa aparenta estar sintomas zika informacao josias souza raul jungmann semana dores corpo articulacoes alem episodios febre durante dia hospital forcas armadas descartaram dengue chikungunya medicos militares investigando hipotese ministro contraido virus zika
+1	ataque	ataque	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:6
+2	aereo	aereo	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	ministro	ministro	NOUN	NOUN	_	1	appos	_	TokenRange=13:21
+4	defesa	_	NOUN	NOUN	_	1	amod	_	TokenRange=22:28
+5	pode	_	AUX	AUX	_	6	aux	_	TokenRange=29:33
+6	contraido	_	VERB	VERB	_	0	root	_	TokenRange=34:43
+7	zika	zika	NOUN	NOUN	_	6	obj	_	TokenRange=44:48
+8	virus	_	NOUN	NOUN	_	7	flat	_	TokenRange=49:54
+9	ministro	ministro	NOUN	NOUN	_	7	appos	_	TokenRange=55:63
+10	defesa	_	NOUN	NOUN	_	9	flat	_	TokenRange=64:70
+11	aparenta	aparentar	VERB	VERB	_	6	parataxis	_	TokenRange=71:79
+12	estar	estar	VERB	VERB	_	11	xcomp	_	TokenRange=80:85
+13	sintomas	sintoma	NOUN	NOUN	_	12	xcomp	_	TokenRange=86:94
+14	zika	_	NOUN	NOUN	_	13	appos	_	TokenRange=95:99
+15	informacao	informacao	NOUN	NOUN	_	13	appos	_	TokenRange=100:110
+16	josias	_	NOUN	NOUN	_	13	appos	_	TokenRange=111:117
+17	souza	_	NOUN	NOUN	_	16	flat	_	TokenRange=118:123
+18	raul	raul	NOUN	NOUN	_	16	appos	_	TokenRange=124:128
+19	jungmann	_	NOUN	NOUN	_	18	flat	_	TokenRange=129:137
+20	semana	semana	NOUN	NOUN	_	21	appos	_	TokenRange=138:144
+21	dores	dor	NOUN	NOUN	_	16	appos	_	TokenRange=145:150
+22	corpo	corpo	NOUN	NOUN	_	21	appos	_	TokenRange=151:156
+23	articulacoes	articulacoe	NOUN	NOUN	_	22	flat	_	TokenRange=157:169
+24	alem	alem	ADV	ADV	_	25	advmod	_	TokenRange=170:174
+25	episodios	episodio	NOUN	NOUN	_	21	amod	_	TokenRange=175:184
+26	febre	febre	NOUN	NOUN	_	25	appos	_	TokenRange=185:190
+27	durante	_	ADP	ADP	_	28	case	_	TokenRange=191:198
+28	dia	dia	NOUN	NOUN	_	26	nmod	_	TokenRange=199:202
+29	hospital	hospital	NOUN	NOUN	_	28	amod	_	TokenRange=203:211
+30	forcas	forca	NOUN	NOUN	_	32	nsubj	_	TokenRange=212:218
+31	armadas	armado	ADJ	ADJ	_	30	amod	_	TokenRange=219:226
+32	descartaram	descartar	VERB	VERB	_	6	parataxis	_	TokenRange=227:238
+33	dengue	dengue	NOUN	NOUN	_	32	obj	_	TokenRange=239:245
+34	chikungunya	chikungunyo	ADJ	ADJ	_	33	amod	_	TokenRange=246:257
+35	medicos	medico	NOUN	NOUN	_	32	obj	_	TokenRange=258:265
+36	militares	militar	ADJ	ADJ	_	35	amod	_	TokenRange=266:275
+37	investigando	investigar	VERB	VERB	_	32	acl	_	TokenRange=276:288
+38	hipotese	hipotese	NOUN	NOUN	_	37	obj	_	TokenRange=289:297
+39	ministro	ministro	NOUN	NOUN	_	38	appos	_	TokenRange=298:306
+40	contraido	contraidar	VERB	VERB	_	38	acl	_	TokenRange=307:316
+41	virus	virus	NOUN	NOUN	_	40	obj	_	TokenRange=317:322
+42	zika	zika	NOUN	NOUN	_	41	appos	_	SpaceAfter=No|TokenRange=323:327
+

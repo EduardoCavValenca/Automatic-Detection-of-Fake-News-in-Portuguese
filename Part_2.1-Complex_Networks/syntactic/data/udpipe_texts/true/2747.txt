@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan volta comandar sessao senado dia apos mantido cargo nesta quarta supremo derrubou liminar ministro marco aurelio mello determinava afastamento renan presidencia senado presidente senado renan calheiros abriu sessao plenario casa 10h35 desta quintafeira 8 dia apos sido mantido presidencia casa supremo tribunal federal stf derrubou liminar determinava afastamento senador renan falou imprensa chegar congresso subiu direto tribuna liminar ministro
+1	renan	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	volta	voltar	AUX	AUX	_	3	aux	_	TokenRange=6:11
+3	comandar	comandar	VERB	VERB	_	0	root	_	TokenRange=12:20
+4	sessao	sessao	NOUN	NOUN	_	3	obj	_	TokenRange=21:27
+5	senado	senado	NOUN	NOUN	_	4	appos	_	TokenRange=28:34
+6	dia	dia	NOUN	NOUN	_	3	nmod	_	TokenRange=35:38
+7	apos	_	ADP	ADP	_	8	mark	_	TokenRange=39:43
+8	mantido	manter	VERB	VERB	_	3	advcl	_	TokenRange=44:51
+9	cargo	cargo	NOUN	NOUN	_	8	obj	_	TokenRange=52:57
+10	nesta	_	ADP	ADP	_	12	case	_	TokenRange=58:63
+11	quarta	_	ADJ	ADJ	_	12	amod	_	TokenRange=64:70
+12	supremo	supremo	NOUN	NOUN	_	8	nmod	_	TokenRange=71:78
+13	derrubou	derrubar	VERB	VERB	_	3	advcl	_	TokenRange=79:87
+14	liminar	liminar	ADJ	ADJ	_	15	amod	_	TokenRange=88:95
+15	ministro	ministro	NOUN	NOUN	_	13	obj	_	TokenRange=96:104
+16	marco	marco	NOUN	NOUN	_	15	appos	_	TokenRange=105:110
+17	aurelio	aurelio	NOUN	NOUN	_	16	flat	_	TokenRange=111:118
+18	mello	mello	ADJ	ADJ	_	16	amod	_	TokenRange=119:124
+19	determinava	determinar	VERB	VERB	_	3	parataxis	_	TokenRange=125:136
+20	afastamento	afastamento	NOUN	NOUN	_	19	obj	_	TokenRange=137:148
+21	renan	renan	ADJ	ADJ	_	20	amod	_	TokenRange=149:154
+22	presidencia	presidencia	NOUN	NOUN	_	19	nsubj	_	TokenRange=155:166
+23	senado	senado	NOUN	NOUN	_	22	appos	_	TokenRange=167:173
+24	presidente	presidente	NOUN	NOUN	_	22	appos	_	TokenRange=174:184
+25	senado	senado	ADJ	ADJ	_	24	amod	_	TokenRange=185:191
+26	renan	renan	NOUN	NOUN	_	28	nsubj	_	TokenRange=192:197
+27	calheiros	calheiro	NOUN	NOUN	_	26	flat	_	TokenRange=198:207
+28	abriu	abrir	VERB	VERB	_	3	parataxis	_	TokenRange=208:213
+29	sessao	sessao	NOUN	NOUN	_	28	obj	_	TokenRange=214:220
+30	plenario	plenario	ADJ	ADJ	_	29	amod	_	TokenRange=221:229
+31	casa	casa	NOUN	NOUN	_	28	nmod	_	TokenRange=230:234
+32	10h35	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=235:240
+33	desta	_	ADP	ADP	_	34	case	_	TokenRange=241:246
+34	quintafeira	quintafeira	NOUN	NOUN	_	31	nmod	_	TokenRange=247:258
+35	8	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=259:260
+36	dia	dia	NOUN	NOUN	_	34	nmod	_	TokenRange=261:264
+37	apos	_	ADP	ADP	_	39	mark	_	TokenRange=265:269
+38	sido	ser	AUX	AUX	_	39	aux:pass	_	TokenRange=270:274
+39	mantido	manter	VERB	VERB	_	36	acl	_	TokenRange=275:282
+40	presidencia	presidencia	NOUN	NOUN	_	39	nsubj:pass	_	TokenRange=283:294
+41	casa	casa	NOUN	NOUN	_	40	appos	_	TokenRange=295:299
+42	supremo	supremo	ADJ	ADJ	_	43	amod	_	TokenRange=300:307
+43	tribunal	tribunal	NOUN	NOUN	_	40	appos	_	TokenRange=308:316
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=317:324
+45	stf	_	NOUN	NOUN	_	43	amod	_	TokenRange=325:328
+46	derrubou	derrubar	VERB	VERB	_	28	parataxis	_	TokenRange=329:337
+47	liminar	liminar	NOUN	NOUN	_	46	obj	_	TokenRange=338:345
+48	determinava	determinar	VERB	VERB	_	46	parataxis	_	TokenRange=346:357
+49	afastamento	afastamento	NOUN	NOUN	_	48	obj	_	TokenRange=358:369
+50	senador	senador	NOUN	NOUN	_	49	appos	_	TokenRange=370:377
+51	renan	renan	ADJ	ADJ	_	49	amod	_	TokenRange=378:383
+52	falou	falar	VERB	VERB	_	48	parataxis	_	TokenRange=384:389
+53	imprensa	imprensa	NOUN	NOUN	_	52	obj	_	TokenRange=390:398
+54	chegar	chegar	VERB	VERB	_	53	acl:inf	_	TokenRange=399:405
+55	congresso	congresso	NOUN	NOUN	_	54	obj	_	TokenRange=406:415
+56	subiu	subir	VERB	VERB	_	52	ccomp	_	TokenRange=416:421
+57	direto	direto	ADV	ADV	_	58	advmod	_	TokenRange=422:428
+58	tribuna	tribuna	NOUN	NOUN	_	56	obj	_	TokenRange=429:436
+59	liminar	liminar	ADJ	ADJ	_	60	amod	_	TokenRange=437:444
+60	ministro	ministro	NOUN	NOUN	_	58	appos	_	SpaceAfter=No|TokenRange=445:453
+

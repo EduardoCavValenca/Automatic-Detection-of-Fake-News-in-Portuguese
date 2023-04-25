@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = chile segundo turno pinera guillier segundo turno dia 17 dezembro 99 urnas apuradas expresidente sebastian pinera 36 votos senador governista alejandro guillier 22 eleicoes chile realizadas neste domingo 19 irao segundo turno disputa expresidente sebastian pinera 36 votos 99 urnas apuradas jornalista senador governista alejandro guillier 22 informa orgao eleitoral pais segundo turno dia 17 dezembro alem escolher substituto michelle bachelet presidencia chilenos votaram
+1	chile	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=0:5
+2	segundo	segundo	ADJ	ADJ	_	3	amod	_	TokenRange=6:13
+3	turno	turno	NOUN	NOUN	_	64	nmod	_	TokenRange=14:19
+4	pinera	_	NOUN	NOUN	_	3	appos	_	TokenRange=20:26
+5	guillier	guillier	NOUN	NOUN	_	4	amod	_	TokenRange=27:35
+6	segundo	segundo	ADJ	ADJ	_	7	amod	_	TokenRange=36:43
+7	turno	turno	NOUN	NOUN	_	4	nmod	_	TokenRange=44:49
+8	dia	dia	NOUN	NOUN	_	3	nmod	_	TokenRange=50:53
+9	17	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=54:56
+10	dezembro	_	PROPN	PNOUN	_	8	nmod	_	TokenRange=57:65
+11	99	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=66:68
+12	urnas	urna	NOUN	NOUN	_	4	appos	_	TokenRange=69:74
+13	apuradas	apurado	ADJ	ADJ	_	12	amod	_	TokenRange=75:83
+14	expresidente	expresidente	NOUN	NOUN	_	12	appos	_	TokenRange=84:96
+15	sebastian	_	ADJ	ADJ	_	14	amod	_	TokenRange=97:106
+16	pinera	_	NOUN	NOUN	_	14	appos	_	TokenRange=107:113
+17	36	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=114:116
+18	votos	voto	NOUN	NOUN	_	14	appos	_	TokenRange=117:122
+19	senador	senador	NOUN	NOUN	_	14	appos	_	TokenRange=123:130
+20	governista	governista	ADJ	ADJ	_	19	amod	_	TokenRange=131:141
+21	alejandro	_	NOUN	NOUN	_	19	appos	_	TokenRange=142:151
+22	guillier	_	NOUN	NOUN	_	21	flat	_	TokenRange=152:160
+23	22	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=161:163
+24	eleicoes	eleicoe	NOUN	NOUN	_	19	appos	_	TokenRange=164:172
+25	chile	_	NOUN	NOUN	_	24	flat	_	TokenRange=173:178
+26	realizadas	realizar	VERB	VERB	_	24	acl	_	TokenRange=179:189
+27	neste	_	ADP	ADP	_	28	case	_	TokenRange=190:195
+28	domingo	_	PROPN	PNOUN	_	26	nmod	_	TokenRange=196:203
+29	19	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=204:206
+30	irao	_	AUX	AUX	_	64	aux	_	TokenRange=207:211
+31	segundo	segundo	ADJ	ADJ	_	32	amod	_	TokenRange=212:219
+32	turno	turno	NOUN	NOUN	_	64	obj	_	TokenRange=220:225
+33	disputa	disputa	NOUN	NOUN	_	64	nsubj	_	TokenRange=226:233
+34	expresidente	expresidente	NOUN	NOUN	_	33	appos	_	TokenRange=234:246
+35	sebastian	_	NOUN	NOUN	_	34	appos	_	TokenRange=247:256
+36	pinera	_	NOUN	NOUN	_	34	flat	_	TokenRange=257:263
+37	36	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=264:266
+38	votos	voto	NOUN	NOUN	_	34	appos	_	TokenRange=267:272
+39	99	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=273:275
+40	urnas	urna	NOUN	NOUN	_	34	appos	_	TokenRange=276:281
+41	apuradas	apurado	ADJ	ADJ	_	40	amod	_	TokenRange=282:290
+42	jornalista	jornalista	NOUN	NOUN	_	64	nsubj	_	TokenRange=291:301
+43	senador	senador	NOUN	NOUN	_	42	appos	_	TokenRange=302:309
+44	governista	governista	ADJ	ADJ	_	43	amod	_	TokenRange=310:320
+45	alejandro	_	NOUN	NOUN	_	42	appos	_	TokenRange=321:330
+46	guillier	_	NOUN	NOUN	_	45	flat	_	TokenRange=331:339
+47	22	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=340:342
+48	informa	informar	VERB	VERB	_	64	parataxis	_	TokenRange=343:350
+49	orgao	orgao	NOUN	NOUN	_	64	obj	_	TokenRange=351:356
+50	eleitoral	eleitoral	ADJ	ADJ	_	49	amod	_	TokenRange=357:366
+51	pais	_	NOUN	NOUN	_	49	appos	_	TokenRange=367:371
+52	segundo	segundo	ADJ	ADJ	_	53	amod	_	TokenRange=372:379
+53	turno	turno	NOUN	NOUN	_	64	nmod	_	TokenRange=380:385
+54	dia	dia	NOUN	NOUN	_	64	nmod	_	TokenRange=386:389
+55	17	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=390:392
+56	dezembro	_	PROPN	PNOUN	_	54	nmod	_	TokenRange=393:401
+57	alem	alem	ADV	ADV	_	64	advmod	_	TokenRange=402:406
+58	escolher	escolher	VERB	VERB	_	64	xcomp	_	TokenRange=407:415
+59	substituto	substituto	NOUN	NOUN	_	58	obj	_	TokenRange=416:426
+60	michelle	michelle	NOUN	ADJ	_	59	appos	_	TokenRange=427:435
+61	bachelet	_	NOUN	NOUN	_	60	flat	_	TokenRange=436:444
+62	presidencia	presidencia	NOUN	NOUN	_	64	obj	_	TokenRange=445:456
+63	chilenos	chileno	ADJ	ADJ	_	64	xcomp	_	TokenRange=457:465
+64	votaram	votar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=466:473
+

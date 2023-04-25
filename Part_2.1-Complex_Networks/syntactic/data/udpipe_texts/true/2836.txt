@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maranhao passa cima convocacao lideres mantem eleicao quinta 14 decisao gerou revolta lideres partidarios defendem eleicao tercafeira 12 avaliacao manter sessao quintafeira presidente interino casa trabalha possibilidade quorum assim deixar sucessao agosto brasilia presidente interino camara deputados waldir maranhao ppma decidiu passar cima decisao colegio lideres nesta sextafeira 8 manteve sessao eleicao novo presidente casa quintafeira 14 16h acordo regimento constituicao presidencia prerrogativa assim fazer faremos explicou decisao gerou revolta lideres partidarios defendem eleicao tercafeira 12 avaliacao manter
+1	maranhao	maranhao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	passa	passar	VERB	VERB	_	0	root	_	TokenRange=9:14
+3	cima	cima	NOUN	NOUN	_	2	obj	_	TokenRange=15:19
+4	convocacao	convocacao	NOUN	NOUN	_	2	nsubj	_	TokenRange=20:30
+5	lideres	lider	NOUN	NOUN	_	6	nsubj	_	TokenRange=31:38
+6	mantem	mantar	VERB	VERB	_	2	parataxis	_	TokenRange=39:45
+7	eleicao	eleicao	NOUN	NOUN	_	6	obj	_	TokenRange=46:53
+8	quinta	_	NOUN	NOUN	_	7	appos	_	TokenRange=54:60
+9	14	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=61:63
+10	decisao	decisao	NOUN	NOUN	_	11	nsubj	_	TokenRange=64:71
+11	gerou	gerar	VERB	VERB	_	2	parataxis	_	TokenRange=72:77
+12	revolta	_	ADJ	ADJ	_	13	amod	_	TokenRange=78:85
+13	lideres	lider	NOUN	NOUN	_	15	nsubj	_	TokenRange=86:93
+14	partidarios	partidario	ADJ	ADJ	_	13	amod	_	TokenRange=94:105
+15	defendem	defender	VERB	VERB	_	2	parataxis	_	TokenRange=106:114
+16	eleicao	eleicao	NOUN	NOUN	_	15	obj	_	TokenRange=115:122
+17	tercafeira	_	NOUN	NOUN	_	16	appos	_	TokenRange=123:133
+18	12	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=134:136
+19	avaliacao	avaliacao	NOUN	NOUN	_	15	nsubj	_	TokenRange=137:146
+20	manter	manter	VERB	VERB	_	15	parataxis	_	TokenRange=147:153
+21	sessao	sessao	NOUN	NOUN	_	20	obj	_	TokenRange=154:160
+22	quintafeira	quintafeira	NOUN	NOUN	_	23	appos	_	TokenRange=161:172
+23	presidente	presidente	NOUN	NOUN	_	20	obj	_	TokenRange=173:183
+24	interino	interino	ADJ	ADJ	_	23	amod	_	TokenRange=184:192
+25	casa	casa	NOUN	NOUN	_	23	appos	_	TokenRange=193:197
+26	trabalha	trabalhar	VERB	VERB	_	23	acl:relcl	_	TokenRange=198:206
+27	possibilidade	possibilidade	NOUN	NOUN	_	26	obj	_	TokenRange=207:220
+28	quorum	quorum	NOUN	NOUN	_	27	flat	_	TokenRange=221:227
+29	assim	assim	ADV	ADV	_	30	advmod	_	TokenRange=228:233
+30	deixar	deixar	VERB	VERB	_	15	parataxis	_	TokenRange=234:240
+31	sucessao	sucessao	NOUN	NOUN	_	30	obj	_	TokenRange=241:249
+32	agosto	_	PROPN	PNOUN	_	30	nsubj	_	TokenRange=250:256
+33	brasilia	brasilia	NOUN	NOUN	_	34	flat	_	TokenRange=257:265
+34	presidente	presidente	NOUN	NOUN	_	30	nsubj	_	TokenRange=266:276
+35	interino	interino	ADJ	ADJ	_	34	amod	_	TokenRange=277:285
+36	camara	camara	NOUN	NOUN	_	34	appos	_	TokenRange=286:292
+37	deputados	deputado	NOUN	NOUN	_	34	flat	_	TokenRange=293:302
+38	waldir	_	NOUN	NOUN	_	34	appos	_	TokenRange=303:309
+39	maranhao	maranhao	NOUN	NOUN	_	38	flat	_	TokenRange=310:318
+40	ppma	_	NOUN	NOUN	_	38	flat	_	TokenRange=319:323
+41	decidiu	decidir	VERB	VERB	_	2	conj	_	TokenRange=324:331
+42	passar	passar	VERB	VERB	_	41	xcomp	_	TokenRange=332:338
+43	cima	cima	NOUN	NOUN	_	42	obj	_	TokenRange=339:343
+44	decisao	decisao	NOUN	NOUN	_	42	obj	_	TokenRange=344:351
+45	colegio	colegio	NOUN	NOUN	_	44	appos	_	TokenRange=352:359
+46	lideres	lider	NOUN	NOUN	_	45	flat	_	TokenRange=360:367
+47	nesta	_	ADP	ADP	_	48	case	_	TokenRange=368:373
+48	sextafeira	sextafeira	NOUN	NOUN	_	50	nmod	_	TokenRange=374:384
+49	8	_	NUM	NUM	NumType=Card	50	nsubj	_	TokenRange=385:386
+50	manteve	manter	VERB	VERB	_	42	parataxis	_	TokenRange=387:394
+51	sessao	sessao	NOUN	NOUN	_	50	obj	_	TokenRange=395:401
+52	eleicao	eleicao	NOUN	NOUN	_	50	obj	_	TokenRange=402:409
+53	novo	novo	ADJ	ADJ	_	54	amod	_	TokenRange=410:414
+54	presidente	presidente	NOUN	NOUN	_	52	appos	_	TokenRange=415:425
+55	casa	casa	NOUN	NOUN	_	54	appos	_	TokenRange=426:430
+56	quintafeira	quintafeira	NOUN	NOUN	_	52	appos	_	TokenRange=431:442
+57	14	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=443:445
+58	16h	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=446:449
+59	acordo	acordo	NOUN	NOUN	_	50	nsubj	_	TokenRange=450:456
+60	regimento	regimento	NOUN	NOUN	_	59	flat	_	TokenRange=457:466
+61	constituicao	constituicao	ADJ	ADJ	_	59	amod	_	TokenRange=467:479
+62	presidencia	presidencia	NOUN	NOUN	_	59	appos	_	TokenRange=480:491
+63	prerrogativa	prerrogativa	NOUN	NOUN	_	62	appos	_	TokenRange=492:504
+64	assim	assim	ADV	ADV	_	65	advmod	_	TokenRange=505:510
+65	fazer	fazer	VERB	VERB	_	59	acl	_	TokenRange=511:516
+66	faremos	_	AUX	AUX	_	65	aux	_	TokenRange=517:524
+67	explicou	explicar	VERB	VERB	_	50	parataxis	_	TokenRange=525:533
+68	decisao	decisao	NOUN	NOUN	_	67	nsubj	_	TokenRange=534:541
+69	gerou	gerar	VERB	VERB	_	67	parataxis	_	TokenRange=542:547
+70	revolta	_	NOUN	ADJ	_	71	amod	_	TokenRange=548:555
+71	lideres	lider	NOUN	NOUN	_	73	nsubj	_	TokenRange=556:563
+72	partidarios	partidario	ADJ	ADJ	_	71	amod	_	TokenRange=564:575
+73	defendem	defender	VERB	VERB	_	67	parataxis	_	TokenRange=576:584
+74	eleicao	eleicao	NOUN	NOUN	_	73	obj	_	TokenRange=585:592
+75	tercafeira	_	NOUN	NOUN	_	74	appos	_	TokenRange=593:603
+76	12	_	NUM	NUM	NumType=Card	74	appos	_	TokenRange=604:606
+77	avaliacao	avaliacao	NOUN	NOUN	_	73	conj	_	TokenRange=607:616
+78	manter	manter	VERB	VERB	_	77	xcomp	_	SpaceAfter=No|TokenRange=617:623
+

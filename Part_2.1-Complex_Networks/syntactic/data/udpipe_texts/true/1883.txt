@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dono jbs gravou aecio neves pedindo r 2 milhoes diz jornal senador nega segundo globo dinheiro entregue primo senador presidente nacional psdb aecio afirma estar tranquilo quanto correcao todos atos dono frigorifico jbs joesley batista entregou procuradoriageral republica pgr gravacao senador aecio neves psdbmg pedindo r 2 milhoes audio duracao cerca 30 minutos presidente nacional psdb justifica pedido dizendo precisava quantia pagar defesa lava jato informacao jornal globo aecio indicou primo receber dinheiro entrega filmada
+1	dono	dono	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	jbs	_	NOUN	NOUN	_	1	appos	_	TokenRange=5:8
+3	gravou	gravar	VERB	VERB	_	0	root	_	TokenRange=9:15
+4	aecio	aecio	NOUN	NOUN	_	3	obj	_	TokenRange=16:21
+5	neves	neve	NOUN	NOUN	_	4	flat	_	TokenRange=22:27
+6	pedindo	pedir	VERB	VERB	_	1	acl	_	TokenRange=28:35
+7	r	r	NOUN	NOUN	_	6	obj	_	TokenRange=36:37
+8	2	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=38:39
+9	milhoes	_	NUM	NUM	NumType=Card	6	obj	_	TokenRange=40:47
+10	diz	dizer	VERB	VERB	_	3	conj	_	TokenRange=48:51
+11	jornal	jornal	NOUN	NOUN	_	24	nsubj	_	TokenRange=52:58
+12	senador	senador	NOUN	NOUN	_	11	flat	_	TokenRange=59:66
+13	nega	negar	VERB	VERB	_	11	acl:relcl	_	TokenRange=67:71
+14	segundo	_	ADP	ADP	_	15	case	_	TokenRange=72:79
+15	globo	globo	NOUN	NOUN	_	13	nmod	_	TokenRange=80:85
+16	dinheiro	dinheiro	NOUN	NOUN	_	17	obj	_	TokenRange=86:94
+17	entregue	entregar	VERB	VERB	_	15	acl	_	TokenRange=95:103
+18	primo	primo	ADJ	ADJ	_	19	amod	_	TokenRange=104:109
+19	senador	senador	NOUN	NOUN	_	17	obj	_	TokenRange=110:117
+20	presidente	presidente	NOUN	NOUN	_	19	appos	_	TokenRange=118:128
+21	nacional	nacional	ADJ	ADJ	_	20	amod	_	TokenRange=129:137
+22	psdb	_	NOUN	NOUN	_	19	appos	_	TokenRange=138:142
+23	aecio	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=143:148
+24	afirma	afirmar	VERB	VERB	_	3	conj	_	TokenRange=149:155
+25	estar	estar	VERB	VERB	_	24	xcomp	_	TokenRange=156:161
+26	tranquilo	tranquilo	ADJ	ADJ	_	25	xcomp	_	TokenRange=162:171
+27	quanto	_	CCONJ	CONJ	_	28	mark	_	TokenRange=172:178
+28	correcao	_	VERB	VERB	_	25	advcl	_	TokenRange=179:187
+29	todos	_	DET	DET	_	30	det	_	TokenRange=188:193
+30	atos	ato	NOUN	NOUN	_	28	nsubj	_	TokenRange=194:198
+31	dono	dono	NOUN	NOUN	_	24	nsubj	_	TokenRange=199:203
+32	frigorifico	frigorifico	ADJ	ADJ	_	31	amod	_	TokenRange=204:215
+33	jbs	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=216:219
+34	joesley	_	NOUN	NOUN	_	31	appos	_	TokenRange=220:227
+35	batista	batista	ADJ	ADJ	_	33	amod	_	TokenRange=228:235
+36	entregou	entregar	VERB	VERB	_	31	acl:relcl	_	TokenRange=236:244
+37	procuradoriageral	procuradoriageral	NOUN	NOUN	_	36	obj	_	TokenRange=245:262
+38	republica	republico	ADJ	ADJ	_	37	amod	_	TokenRange=263:272
+39	pgr	_	ADP	ADP	_	41	case	_	TokenRange=273:276
+40	gravacao	gravacao	NOUN	NOUN	_	41	appos	_	TokenRange=277:285
+41	senador	senador	NOUN	NOUN	_	36	obj	_	TokenRange=286:293
+42	aecio	_	NOUN	NOUN	_	41	appos	_	TokenRange=294:299
+43	neves	neve	NOUN	NOUN	_	42	flat	_	TokenRange=300:305
+44	psdbmg	_	NOUN	NOUN	_	41	appos	_	TokenRange=306:312
+45	pedindo	pedir	VERB	VERB	_	41	acl	_	TokenRange=313:320
+46	r	r	NOUN	NOUN	_	45	obj	_	TokenRange=321:322
+47	2	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=323:324
+48	milhoes	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=325:332
+49	audio	audio	NOUN	NOUN	_	45	obj	_	TokenRange=333:338
+50	duracao	duracao	ADJ	ADJ	_	49	amod	_	TokenRange=339:346
+51	cerca	cerca	ADV	ADV	_	52	advmod	_	TokenRange=347:352
+52	30	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=353:355
+53	minutos	minuto	NOUN	NOUN	_	57	nmod	_	TokenRange=356:363
+54	presidente	presidente	NOUN	NOUN	_	57	nsubj	_	TokenRange=364:374
+55	nacional	nacional	ADJ	ADJ	_	54	amod	_	TokenRange=375:383
+56	psdb	_	PROPN	PNOUN	_	54	appos	_	TokenRange=384:388
+57	justifica	justificar	VERB	VERB	_	49	acl:relcl	_	TokenRange=389:398
+58	pedido	pedido	NOUN	NOUN	_	57	obj	_	TokenRange=399:405
+59	dizendo	dizer	VERB	VERB	_	58	acl	_	TokenRange=406:413
+60	precisava	precisar	VERB	VERB	_	59	xcomp	_	TokenRange=414:423
+61	quantia	quantia	NOUN	NOUN	_	62	obj	_	TokenRange=424:431
+62	pagar	pagar	VERB	VERB	_	60	ccomp	_	TokenRange=432:437
+63	defesa	_	NOUN	NOUN	_	62	obj	_	TokenRange=438:444
+64	lava	lavar	VERB	VERB	_	60	conj	_	TokenRange=445:449
+65	jato	jato	NOUN	NOUN	_	64	obj	_	TokenRange=450:454
+66	informacao	informacao	ADJ	ADJ	_	70	xcomp	_	TokenRange=455:465
+67	jornal	jornal	NOUN	NOUN	_	70	nsubj	_	TokenRange=466:472
+68	globo	globo	ADJ	ADJ	_	67	amod	_	TokenRange=473:478
+69	aecio	_	PROPN	PNOUN	_	70	nsubj	_	TokenRange=479:484
+70	indicou	indicar	VERB	VERB	_	57	parataxis	_	TokenRange=485:492
+71	primo	primo	ADJ	ADJ	_	70	obj	_	TokenRange=493:498
+72	receber	receber	VERB	VERB	_	70	xcomp	_	TokenRange=499:506
+73	dinheiro	dinheiro	NOUN	NOUN	_	72	obj	_	TokenRange=507:515
+74	entrega	entrega	NOUN	NOUN	_	72	obj	_	TokenRange=516:523
+75	filmada	filmar	VERB	VERB	_	74	acl	_	SpaceAfter=No|TokenRange=524:531
+

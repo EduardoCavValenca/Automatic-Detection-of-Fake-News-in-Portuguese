@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delacoes odebrecht proximidade dilma fez empresa doar r 5 milhoes caixa 2 campanha delcidio 2014 diz exexecutivo delator benedicto barbosa silva junior diz setor pagava propinas exsenador codinomes grizalhao ferrari proximidade entao presidente dilma rousseff pt proeminencia senado preponderantes odebrecht fizesse doacao contabilizada caixa 2 valor r 5 milhoes campanha delcidio amaral governo mato grosso sul 2014 afirmacao feita delacao expresidente construtora odebrecht benedicto barbosa silva junior
+1	delacoes	delacoe	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	odebrecht	_	ADJ	ADJ	_	1	amod	_	TokenRange=9:18
+3	proximidade	proximidade	NOUN	NOUN	_	5	nsubj	_	TokenRange=19:30
+4	dilma	_	ADJ	ADJ	_	3	amod	_	TokenRange=31:36
+5	fez	fazer	VERB	VERB	_	0	root	_	TokenRange=37:40
+6	empresa	empresa	NOUN	NOUN	_	5	obj	_	TokenRange=41:48
+7	doar	doar	VERB	VERB	_	5	xcomp	_	TokenRange=49:53
+8	r	r	NOUN	NOUN	_	7	obj	_	TokenRange=54:55
+9	5	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=56:57
+10	milhoes	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=58:65
+11	caixa	caixa	NOUN	NOUN	_	7	obj	_	TokenRange=66:71
+12	2	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=72:73
+13	campanha	campanha	NOUN	NOUN	_	11	appos	_	TokenRange=74:82
+14	delcidio	delcidio	NOUN	NOUN	_	13	appos	_	TokenRange=83:91
+15	2014	_	NUM	NUM	NumType=Card	13	nmod	_	TokenRange=92:96
+16	diz	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=97:100
+17	exexecutivo	exexecutivo	ADJ	ADJ	_	18	amod	_	TokenRange=101:112
+18	delator	delator	NOUN	NOUN	_	16	nsubj	_	TokenRange=113:120
+19	benedicto	benedicto	NOUN	NOUN	_	18	appos	_	TokenRange=121:130
+20	barbosa	barboso	NOUN	NOUN	_	19	flat	_	TokenRange=131:138
+21	silva	silva	NOUN	NOUN	_	19	flat	_	TokenRange=139:144
+22	junior	junior	ADJ	ADJ	_	19	amod	_	TokenRange=145:151
+23	diz	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=152:155
+24	setor	setor	NOUN	NOUN	_	23	obj	_	TokenRange=156:161
+25	pagava	pagar	VERB	VERB	_	23	ccomp	_	TokenRange=162:168
+26	propinas	propina	NOUN	NOUN	_	25	obj	_	TokenRange=169:177
+27	exsenador	exsenador	ADJ	ADJ	_	26	amod	_	TokenRange=178:187
+28	codinomes	codinome	NOUN	NOUN	_	26	appos	_	TokenRange=188:197
+29	grizalhao	grizalhao	NOUN	NOUN	_	28	amod	_	TokenRange=198:207
+30	ferrari	ferrar	NOUN	NOUN	_	28	appos	_	TokenRange=208:215
+31	proximidade	proximidade	NOUN	NOUN	_	28	appos	_	TokenRange=216:227
+32	entao	entao	ADV	ADV	_	33	advmod	_	TokenRange=228:233
+33	presidente	presidente	NOUN	NOUN	_	31	appos	_	TokenRange=234:244
+34	dilma	dilma	ADJ	NOUN	_	33	appos	_	TokenRange=245:250
+35	rousseff	rousseff	NOUN	NOUN	_	33	appos	_	TokenRange=251:259
+36	pt	_	NOUN	NOUN	_	37	appos	_	TokenRange=260:262
+37	proeminencia	proeminencio	NOUN	NOUN	_	33	appos	_	TokenRange=263:275
+38	senado	senado	NOUN	NOUN	_	41	nsubj	_	TokenRange=276:282
+39	preponderantes	preponderante	ADJ	ADJ	_	38	amod	_	TokenRange=283:297
+40	odebrecht	_	PROPN	PNOUN	_	41	nsubj	_	TokenRange=298:307
+41	fizesse	fazer	VERB	VERB	_	5	conj	_	TokenRange=308:315
+42	doacao	doacao	NOUN	NOUN	_	41	obj	_	TokenRange=316:322
+43	contabilizada	contabilizado	ADJ	ADJ	_	42	amod	_	TokenRange=323:336
+44	caixa	caixa	NOUN	NOUN	_	42	appos	_	TokenRange=337:342
+45	2	_	NUM	NUM	NumType=Card	44	appos	_	TokenRange=343:344
+46	valor	valor	NOUN	NOUN	_	42	appos	_	TokenRange=345:350
+47	r	r	NOUN	NOUN	_	44	appos	_	TokenRange=351:352
+48	5	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=353:354
+49	milhoes	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=355:362
+50	campanha	campanha	NOUN	NOUN	_	42	appos	_	TokenRange=363:371
+51	delcidio	delcidio	NOUN	NOUN	_	50	amod	_	TokenRange=372:380
+52	amaral	amaral	ADJ	ADJ	_	50	amod	_	TokenRange=381:387
+53	governo	governo	NOUN	NOUN	_	50	appos	_	TokenRange=388:395
+54	mato	mato	ADJ	ADJ	_	53	amod	_	TokenRange=396:400
+55	grosso	grosso	ADJ	ADJ	_	53	amod	_	TokenRange=401:407
+56	sul	sul	ADJ	ADJ	_	58	amod	_	TokenRange=408:411
+57	2014	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=412:416
+58	afirmacao	afirmacao	NOUN	NOUN	_	41	parataxis	_	TokenRange=417:426
+59	feita	_	VERB	VERB	_	58	acl	_	TokenRange=427:432
+60	delacao	delacao	ADJ	ADJ	_	61	amod	_	TokenRange=433:440
+61	expresidente	expresidente	NOUN	NOUN	_	58	appos	_	TokenRange=441:453
+62	construtora	construtor	NOUN	NOUN	_	61	flat	_	TokenRange=454:465
+63	odebrecht	_	NOUN	NOUN	_	61	appos	_	TokenRange=466:475
+64	benedicto	benedicto	NOUN	NOUN	_	63	appos	_	TokenRange=476:485
+65	barbosa	barboso	ADJ	ADJ	_	63	flat	_	TokenRange=486:493
+66	silva	silva	NOUN	NOUN	_	63	flat	_	TokenRange=494:499
+67	junior	junior	ADJ	ADJ	_	64	amod	_	SpaceAfter=No|TokenRange=500:506
+

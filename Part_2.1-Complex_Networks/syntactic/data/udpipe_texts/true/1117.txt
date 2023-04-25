@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = incidente metro quinto ataque terrorista reino unido 2017 relembre atentados recentes reino unido alerta terrorista segue patamar grave segundo theresa may explosao desta sextafeira 15 deixou 23 feridos metro londres quinto incidente terrorista registrado reino unido 2017 acompanhe tempo real primeiraministra britanica theresa may informou nesta reino unido mantem
+1	incidente	incidente	NOUN	NOUN	_	45	nsubj	_	TokenRange=0:9
+2	metro	metro	NOUN	NOUN	_	1	flat	_	TokenRange=10:15
+3	quinto	_	ADJ	ADJ	_	4	amod	_	TokenRange=16:22
+4	ataque	ataque	NOUN	NOUN	_	1	appos	_	TokenRange=23:29
+5	terrorista	terrorista	ADJ	ADJ	_	4	amod	_	TokenRange=30:40
+6	reino	reino	NOUN	NOUN	_	4	appos	_	TokenRange=41:46
+7	unido	unido	ADJ	ADJ	_	6	amod	_	TokenRange=47:52
+8	2017	_	NUM	NUM	NumType=Card	6	nmod	_	TokenRange=53:57
+9	relembre	_	NOUN	NOUN	_	4	appos	_	TokenRange=58:66
+10	atentados	atentado	NOUN	NOUN	_	9	obj	_	TokenRange=67:76
+11	recentes	recente	ADJ	ADJ	_	10	amod	_	TokenRange=77:85
+12	reino	reino	NOUN	NOUN	_	10	appos	_	TokenRange=86:91
+13	unido	unido	ADJ	ADJ	_	14	amod	_	TokenRange=92:97
+14	alerta	alerta	NOUN	NOUN	_	16	nsubj	_	TokenRange=98:104
+15	terrorista	terrorista	ADJ	ADJ	_	14	amod	_	TokenRange=105:115
+16	segue	_	VERB	VERB	_	45	parataxis	_	TokenRange=116:121
+17	patamar	patamar	NOUN	NOUN	_	16	obj	_	TokenRange=122:129
+18	grave	grave	ADJ	ADJ	_	17	amod	_	TokenRange=130:135
+19	segundo	_	ADP	ADP	_	20	case	_	TokenRange=136:143
+20	theresa	_	NOUN	NOUN	_	16	nmod	_	TokenRange=144:151
+21	may	_	PROPN	PNOUN	_	20	flat	_	TokenRange=152:155
+22	explosao	explosao	NOUN	NOUN	_	20	appos	_	TokenRange=156:164
+23	desta	_	ADP	ADP	_	24	case	_	TokenRange=165:170
+24	sextafeira	sextafeira	NOUN	NOUN	_	22	nmod	_	TokenRange=171:181
+25	15	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=182:184
+26	deixou	deixar	VERB	VERB	_	16	parataxis	_	TokenRange=185:191
+27	23	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=192:194
+28	feridos	ferido	NOUN	NOUN	_	26	obj	_	TokenRange=195:202
+29	metro	metro	NOUN	NOUN	_	26	nmod	_	TokenRange=203:208
+30	londres	_	ADJ	ADJ	_	32	amod	_	TokenRange=209:216
+31	quinto	_	ADJ	ADJ	_	32	amod	_	TokenRange=217:223
+32	incidente	incidente	NOUN	NOUN	_	26	nsubj	_	TokenRange=224:233
+33	terrorista	terrorista	ADJ	ADJ	_	32	amod	_	TokenRange=234:244
+34	registrado	registrar	VERB	VERB	_	32	acl	_	TokenRange=245:255
+35	reino	reino	NOUN	NOUN	_	34	nsubj	_	TokenRange=256:261
+36	unido	unido	ADJ	ADJ	_	35	amod	_	TokenRange=262:267
+37	2017	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=268:272
+38	acompanhe	acompanhar	VERB	VERB	_	32	acl	_	TokenRange=273:282
+39	tempo	tempo	NOUN	NOUN	_	38	obj	_	TokenRange=283:288
+40	real	real	ADJ	ADJ	_	39	amod	_	TokenRange=289:293
+41	primeiraministra	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=294:310
+42	britanica	britanico	ADJ	ADJ	_	41	amod	_	TokenRange=311:320
+43	theresa	_	PROPN	PNOUN	_	41	appos	_	TokenRange=321:328
+44	may	_	PROPN	PNOUN	_	43	flat	_	TokenRange=329:332
+45	informou	informar	VERB	VERB	_	0	root	_	TokenRange=333:341
+46	nesta	_	ADP	ADP	_	47	case	_	TokenRange=342:347
+47	reino	reino	NOUN	NOUN	_	45	nmod	_	TokenRange=348:353
+48	unido	unido	ADJ	ADJ	_	47	amod	_	TokenRange=354:359
+49	mantem	mantar	NOUN	NOUN	_	45	parataxis	_	SpaceAfter=No|TokenRange=360:366
+

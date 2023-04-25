@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro cogita parceria evangelicos eleicoes 2018 jair bolsonaro pscrj conversado silas malafaia possivel parceria disputa eleicoes presidenciais 2018 entrevista extra deputado disse segmento evangelico olho presidencia ficarei feliz estar junto disse continuou amizade malafaia 10 anos acho cara excepcional bolsonaro concluiu dizendo apoio evangelicos candidatura dara forca extra disputa presidencial ressaltou politica toma la ca vez comigo abro mao general quatro estrelas defesa quero pessoa conservadora area educacao cultura
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	cogita	cogitar	VERB	VERB	_	0	root	_	TokenRange=10:16
+3	parceria	parceria	NOUN	NOUN	_	2	obj	_	TokenRange=17:25
+4	evangelicos	evangelico	ADJ	ADJ	_	3	amod	_	TokenRange=26:37
+5	eleicoes	eleicoe	NOUN	NOUN	_	3	appos	_	TokenRange=38:46
+6	2018	_	NUM	NUM	NumType=Card	5	nmod	_	TokenRange=47:51
+7	jair	jair	NOUN	NOUN	_	2	nsubj	_	TokenRange=52:56
+8	bolsonaro	bolsonaro	NOUN	NOUN	_	7	flat	_	TokenRange=57:66
+9	pscrj	_	NOUN	NOUN	_	7	appos	_	TokenRange=67:72
+10	conversado	conversar	VERB	VERB	_	7	acl	_	TokenRange=73:83
+11	silas	_	NOUN	NOUN	_	10	obj	_	TokenRange=84:89
+12	malafaia	malafaia	NOUN	NOUN	_	11	flat	_	TokenRange=90:98
+13	possivel	_	ADJ	ADJ	_	14	amod	_	TokenRange=99:107
+14	parceria	parceria	NOUN	NOUN	_	10	appos	_	TokenRange=108:116
+15	disputa	disputa	NOUN	NOUN	_	14	appos	_	TokenRange=117:124
+16	eleicoes	eleicoe	NOUN	NOUN	_	14	appos	_	TokenRange=125:133
+17	presidenciais	presidencial	ADJ	ADJ	_	16	amod	_	TokenRange=134:147
+18	2018	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=148:152
+19	entrevista	entrevista	NOUN	NOUN	_	22	nsubj	_	TokenRange=153:163
+20	extra	extra	ADJ	ADJ	_	21	amod	_	TokenRange=164:169
+21	deputado	deputado	NOUN	NOUN	_	19	appos	_	TokenRange=170:178
+22	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=179:184
+23	segmento	segmento	NOUN	NOUN	_	22	obj	_	TokenRange=185:193
+24	evangelico	evangelico	ADJ	ADJ	_	23	amod	_	TokenRange=194:204
+25	olho	_	NOUN	NOUN	_	23	appos	_	TokenRange=205:209
+26	presidencia	presidencia	NOUN	NOUN	_	27	nsubj	_	TokenRange=210:221
+27	ficarei	ficar	VERB	VERB	_	23	acl:relcl	_	TokenRange=222:229
+28	feliz	feliz	ADJ	ADJ	_	27	xcomp	_	TokenRange=230:235
+29	estar	estar	VERB	VERB	_	27	csubj	_	TokenRange=236:241
+30	junto	junto	ADV	ADV	_	29	advmod	_	TokenRange=242:247
+31	disse	dizer	VERB	VERB	_	27	parataxis	_	TokenRange=248:253
+32	continuou	continuar	VERB	VERB	_	31	ccomp	_	TokenRange=254:263
+33	amizade	amizade	NOUN	NOUN	_	32	nsubj	_	TokenRange=264:271
+34	malafaia	malafaia	ADJ	ADJ	_	33	amod	_	TokenRange=272:280
+35	10	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=281:283
+36	anos	ano	NOUN	NOUN	_	37	nsubj	_	TokenRange=284:288
+37	acho	achar	VERB	VERB	_	33	acl:relcl	_	TokenRange=289:293
+38	cara	cara	NOUN	NOUN	_	37	obj	_	TokenRange=294:298
+39	excepcional	excepcional	ADJ	ADJ	_	38	amod	_	TokenRange=299:310
+40	bolsonaro	bolsonaro	NOUN	NOUN	_	38	amod	_	TokenRange=311:320
+41	concluiu	concluir	VERB	VERB	_	33	acl:relcl	_	TokenRange=321:329
+42	dizendo	dizer	VERB	VERB	_	41	acl	_	TokenRange=330:337
+43	apoio	apoio	NOUN	NOUN	_	42	obj	_	TokenRange=338:343
+44	evangelicos	evangelico	ADJ	ADJ	_	43	amod	_	TokenRange=344:355
+45	candidatura	candidatura	NOUN	NOUN	_	43	appos	_	TokenRange=356:367
+46	dara	_	ADP	ADP	_	47	case	_	TokenRange=368:372
+47	forca	forca	NOUN	NOUN	_	43	nmod	_	TokenRange=373:378
+48	extra	extro	ADJ	ADJ	_	47	amod	_	TokenRange=379:384
+49	disputa	disputa	NOUN	NOUN	_	51	nsubj	_	TokenRange=385:392
+50	presidencial	presidencial	ADJ	ADJ	_	49	amod	_	TokenRange=393:405
+51	ressaltou	ressaltar	VERB	VERB	_	41	parataxis	_	TokenRange=406:415
+52	politica	_	NOUN	NOUN	_	51	obj	_	TokenRange=416:424
+53	toma	tomar	VERB	VERB	_	51	parataxis	_	TokenRange=425:429
+54	la	_	PRON	PRON	_	53	obj	_	TokenRange=430:432
+55	ca	_	DET	DET	_	56	det	_	TokenRange=433:435
+56	vez	vez	NOUN	NOUN	_	53	obj	_	TokenRange=436:439
+57	comigo	_	X	ADPPRON	_	58	nmod	_	TokenRange=440:446
+58	abro	abro	NOUN	NOUN	_	53	nmod	_	TokenRange=447:451
+59	mao	mao	NOUN	NOUN	_	58	flat	_	TokenRange=452:455
+60	general	general	NOUN	NOUN	_	58	flat	_	TokenRange=456:463
+61	quatro	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=464:470
+62	estrelas	estrela	NOUN	NOUN	_	58	appos	_	TokenRange=471:479
+63	defesa	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=480:486
+64	quero	querer	VERB	VERB	_	41	conj	_	TokenRange=487:492
+65	pessoa	pessoa	NOUN	NOUN	_	64	obj	_	TokenRange=493:499
+66	conservadora	conservador	ADJ	ADJ	_	65	amod	_	TokenRange=500:512
+67	area	area	NOUN	NOUN	_	65	appos	_	TokenRange=513:517
+68	educacao	educacao	ADJ	ADJ	_	69	amod	_	TokenRange=518:526
+69	cultura	cultura	NOUN	NOUN	_	65	appos	_	SpaceAfter=No|TokenRange=527:534
+

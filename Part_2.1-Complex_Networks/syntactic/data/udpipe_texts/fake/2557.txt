@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado wladimir costa cada 1 milhao petistas 999 mil bandidos ladroes batedores carteira deputado wladimir costa polemico participou bateboca conselho etica camara disse deputado pt partido lotado vagabundos ladroes partido gente vagabunda desabafou wladimir gritos sessao quase interrompida deputados petistas ficaram inconformados
+1	deputado	deputado	NOUN	NOUN	_	41	nsubj	_	TokenRange=0:8
+2	wladimir	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:17
+3	costa	costa	NOUN	NOUN	_	1	flat	_	TokenRange=18:23
+4	cada	_	DET	DET	_	7	det	_	TokenRange=24:28
+5	1	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=29:30
+6	milhao	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=31:37
+7	petistas	petista	NOUN	NOUN	_	1	appos	_	TokenRange=38:46
+8	999	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=47:50
+9	mil	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=51:54
+10	bandidos	bandido	NOUN	NOUN	_	1	appos	_	TokenRange=55:63
+11	ladroes	_	ADJ	ADJ	_	10	amod	_	TokenRange=64:71
+12	batedores	batedor	NOUN	NOUN	_	10	amod	_	TokenRange=72:81
+13	carteira	_	ADJ	NOUN	_	14	amod	_	TokenRange=82:90
+14	deputado	deputado	NOUN	NOUN	_	7	appos	_	TokenRange=91:99
+15	wladimir	_	NOUN	NOUN	_	14	appos	_	TokenRange=100:108
+16	costa	costa	NOUN	NOUN	_	14	flat	_	TokenRange=109:114
+17	polemico	polemico	ADJ	ADJ	_	14	amod	_	TokenRange=115:123
+18	participou	participar	VERB	VERB	_	1	parataxis	_	TokenRange=124:134
+19	bateboca	_	NOUN	NOUN	_	18	obj	_	TokenRange=135:143
+20	conselho	conselho	NOUN	NOUN	_	19	appos	_	TokenRange=144:152
+21	etica	etico	ADJ	ADJ	_	20	amod	_	TokenRange=153:158
+22	camara	camara	NOUN	NOUN	_	23	nsubj	_	TokenRange=159:165
+23	disse	dizer	VERB	VERB	_	18	parataxis	_	TokenRange=166:171
+24	deputado	deputado	NOUN	NOUN	_	23	obj	_	TokenRange=172:180
+25	pt	_	NOUN	NOUN	_	24	flat	_	TokenRange=181:183
+26	partido	partido	NOUN	NOUN	_	24	appos	_	TokenRange=184:191
+27	lotado	lotado	ADJ	ADJ	_	26	amod	_	TokenRange=192:198
+28	vagabundos	vagabundo	ADJ	ADJ	_	26	amod	_	TokenRange=199:209
+29	ladroes	_	NOUN	NOUN	_	26	amod	_	TokenRange=210:217
+30	partido	partido	NOUN	NOUN	_	26	appos	_	TokenRange=218:225
+31	gente	gente	NOUN	NOUN	_	30	appos	_	TokenRange=226:231
+32	vagabunda	vagabundo	ADJ	ADJ	_	31	amod	_	TokenRange=232:241
+33	desabafou	desabafar	VERB	VERB	_	18	parataxis	_	TokenRange=242:251
+34	wladimir	_	NOUN	NOUN	_	33	obj	_	TokenRange=252:260
+35	gritos	grito	NOUN	NOUN	_	34	flat	_	TokenRange=261:267
+36	sessao	sessao	NOUN	NOUN	_	41	nsubj	_	TokenRange=268:274
+37	quase	quase	ADV	ADV	_	38	advmod	_	TokenRange=275:280
+38	interrompida	interrompida	ADJ	ADJ	_	39	amod	_	TokenRange=281:293
+39	deputados	deputado	NOUN	NOUN	_	41	nsubj	_	TokenRange=294:303
+40	petistas	petista	ADJ	ADJ	_	39	amod	_	TokenRange=304:312
+41	ficaram	ficar	VERB	VERB	_	0	root	_	TokenRange=313:320
+42	inconformados	inconformado	ADJ	ADJ	_	41	xcomp	_	SpaceAfter=No|TokenRange=321:334
+

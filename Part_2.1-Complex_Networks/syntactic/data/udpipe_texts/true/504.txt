@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = relembre boas acoes historias curiosas g1 mostrou 2017 regiao serrana rio internautas acompanharam exemplos vida atitudes positivas longo ano ano quase terminando g1 regiao serrana traz reportagem historias marcaram 2017 exemplos vida boas acoes emocionaram internautas historia recente professor petropolis recebeu ajuda exalunos pagar divida r 100 mil mauricio barroso 82 anos curso tradicional preparacao vestibular acabou falindo apesar inadimplencia alunos epoca conta nunca importou dar bolsas bolsas estudo alem destinar parte tempo aulas particulares
+1	relembre	relembre	NOUN	NOUN	_	7	parataxis	_	TokenRange=0:8
+2	boas	bom	ADJ	ADJ	_	3	amod	_	TokenRange=9:13
+3	acoes	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=14:19
+4	historias	historia	NOUN	NOUN	_	1	appos	_	TokenRange=20:29
+5	curiosas	curioso	ADJ	ADJ	_	4	amod	_	TokenRange=30:38
+6	g1	_	PRON	PRON	_	7	nsubj	_	TokenRange=39:41
+7	mostrou	mostrar	VERB	VERB	_	0	root	_	TokenRange=42:49
+8	2017	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=50:54
+9	regiao	regiao	NOUN	NOUN	_	7	obj	_	TokenRange=55:61
+10	serrana	serrano	ADJ	ADJ	_	9	amod	_	TokenRange=62:69
+11	rio	_	ADJ	ADJ	_	9	amod	_	TokenRange=70:73
+12	internautas	internauta	NOUN	NOUN	_	13	nsubj	_	TokenRange=74:85
+13	acompanharam	acompanhar	VERB	VERB	_	7	parataxis	_	TokenRange=86:98
+14	exemplos	exemplo	NOUN	NOUN	_	13	obj	_	TokenRange=99:107
+15	vida	vida	NOUN	NOUN	_	14	appos	_	TokenRange=108:112
+16	atitudes	atitude	NOUN	NOUN	_	13	obj	_	TokenRange=113:121
+17	positivas	positivo	ADJ	ADJ	_	16	amod	_	TokenRange=122:131
+18	longo	longo	ADJ	ADJ	_	19	amod	_	TokenRange=132:137
+19	ano	ano	NOUN	NOUN	_	16	appos	_	TokenRange=138:141
+20	ano	ano	NOUN	NOUN	_	19	flat	_	TokenRange=142:145
+21	quase	quase	ADV	ADV	_	22	advmod	_	TokenRange=146:151
+22	terminando	terminar	VERB	VERB	_	7	acl	_	TokenRange=152:162
+23	g1	_	NOUN	NOUN	_	22	obj	_	TokenRange=163:165
+24	regiao	regiao	NOUN	NOUN	_	22	nsubj	_	TokenRange=166:172
+25	serrana	serrano	ADJ	ADJ	_	24	amod	_	TokenRange=173:180
+26	traz	trazer	VERB	VERB	_	24	acl:relcl	_	TokenRange=181:185
+27	reportagem	reportagem	NOUN	NOUN	_	26	obj	_	TokenRange=186:196
+28	historias	historia	NOUN	NOUN	_	27	appos	_	TokenRange=197:206
+29	marcaram	marcar	VERB	VERB	_	7	parataxis	_	TokenRange=207:215
+30	2017	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=216:220
+31	exemplos	exemplo	NOUN	NOUN	_	35	nsubj	_	TokenRange=221:229
+32	vida	vida	NOUN	NOUN	_	31	appos	_	TokenRange=230:234
+33	boas	bom	ADJ	ADJ	_	34	amod	_	TokenRange=235:239
+34	acoes	acoe	NOUN	NOUN	_	32	appos	_	TokenRange=240:245
+35	emocionaram	emocionar	VERB	VERB	_	7	parataxis	_	TokenRange=246:257
+36	internautas	internauta	NOUN	NOUN	_	35	obj	_	TokenRange=258:269
+37	historia	historia	NOUN	NOUN	_	35	obj	_	TokenRange=270:278
+38	recente	recente	ADJ	ADJ	_	37	amod	_	TokenRange=279:286
+39	professor	professor	NOUN	NOUN	_	35	nsubj	_	TokenRange=287:296
+40	petropolis	_	NOUN	NOUN	_	39	flat	_	TokenRange=297:307
+41	recebeu	receber	VERB	VERB	_	35	parataxis	_	TokenRange=308:315
+42	ajuda	ajuda	NOUN	NOUN	_	41	obj	_	TokenRange=316:321
+43	exalunos	exaluno	ADJ	ADJ	_	42	amod	_	TokenRange=322:330
+44	pagar	pagar	VERB	VERB	_	41	ccomp	_	TokenRange=331:336
+45	divida	divida	NOUN	NOUN	_	44	obj	_	TokenRange=337:343
+46	r	r	NOUN	NOUN	_	45	flat	_	TokenRange=344:345
+47	100	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=346:349
+48	mil	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=350:353
+49	mauricio	mauricio	NOUN	NOUN	_	45	appos	_	TokenRange=354:362
+50	barroso	barroso	ADJ	ADJ	_	49	amod	_	TokenRange=363:370
+51	82	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=371:373
+52	anos	ano	NOUN	NOUN	_	58	nsubj	_	TokenRange=374:378
+53	curso	curso	NOUN	NOUN	_	58	nsubj	_	TokenRange=379:384
+54	tradicional	tradicional	ADJ	ADJ	_	53	amod	_	TokenRange=385:396
+55	preparacao	preparacao	NOUN	NOUN	_	53	appos	_	TokenRange=397:407
+56	vestibular	vestibular	ADJ	ADJ	_	55	amod	_	TokenRange=408:418
+57	acabou	acabar	AUX	AUX	_	58	aux	_	TokenRange=419:425
+58	falindo	falir	VERB	VERB	_	7	parataxis	_	TokenRange=426:433
+59	apesar	apesar	ADV	ADV	_	58	advmod	_	TokenRange=434:440
+60	inadimplencia	_	NOUN	NOUN	_	58	nmod	_	TokenRange=441:454
+61	alunos	aluno	NOUN	NOUN	_	60	nsubj	_	TokenRange=455:461
+62	epoca	epoca	NOUN	NOUN	_	61	appos	_	TokenRange=462:467
+63	conta	conta	NOUN	NOUN	_	62	flat	_	TokenRange=468:473
+64	nunca	nunca	ADV	ADV	_	65	advmod	_	TokenRange=474:479
+65	importou	importar	VERB	VERB	_	62	acl:relcl	_	TokenRange=480:488
+66	dar	dar	VERB	VERB	_	65	xcomp	_	TokenRange=489:492
+67	bolsas	bolsa	NOUN	NOUN	_	66	obj	_	TokenRange=493:499
+68	bolsas	bolso	ADJ	ADJ	_	67	amod	_	TokenRange=500:506
+69	estudo	estudo	NOUN	NOUN	_	67	appos	_	TokenRange=507:513
+70	alem	alem	ADV	ADV	_	71	advmod	_	TokenRange=514:518
+71	destinar	destinar	VERB	VERB	_	65	ccomp	_	TokenRange=519:527
+72	parte	parte	NOUN	NOUN	_	71	obj	_	TokenRange=528:533
+73	tempo	tempo	NOUN	NOUN	_	72	flat	_	TokenRange=534:539
+74	aulas	aula	NOUN	NOUN	_	71	obj	_	TokenRange=540:545
+75	particulares	particular	ADJ	ADJ	_	74	amod	_	SpaceAfter=No|TokenRange=546:558
+

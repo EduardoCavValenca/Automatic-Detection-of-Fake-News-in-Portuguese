@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procurador espanhol pede julgamento neymar corrupcao condenado jogador poderia pegar 2 anos prisao procuradoria espanha pede neymar processado lado pai corrupcao particulares causa supostos crimes cometido relacao fundo brasileiro dis administrava direitos federativos antes transferir barcelona condenado jogador poderia pegar seis meses dois anos prisao procurador jose perals solicitou juiz jose la mata julgue caso sob investigacao indicie atacante brasileiro dis mantinha 40 direitos federativos neymar acusa pago deveria fundo vendido barcelona mata ouviu neymar pai mae alem executivos clube espanhol josep
+1	procurador	procurador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	espanhol	espanhol	ADJ	ADJ	_	1	amod	_	TokenRange=11:19
+3	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=20:24
+4	julgamento	julgamento	NOUN	NOUN	_	3	obj	_	TokenRange=25:35
+5	neymar	neymar	ADJ	ADJ	_	4	amod	_	TokenRange=36:42
+6	corrupcao	corrupcao	NOUN	NOUN	_	10	obj	_	TokenRange=43:52
+7	condenado	condenar	VERB	VERB	_	8	acl	_	TokenRange=53:62
+8	jogador	jogador	NOUN	NOUN	_	10	nsubj	_	TokenRange=63:70
+9	poderia	poder	AUX	AUX	_	10	aux	_	TokenRange=71:78
+10	pegar	pegar	VERB	VERB	_	3	conj	_	TokenRange=79:84
+11	2	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=85:86
+12	anos	ano	NOUN	NOUN	_	10	obj	_	TokenRange=87:91
+13	prisao	prisao	ADJ	ADJ	_	12	amod	_	TokenRange=92:98
+14	procuradoria	procuradoria	NOUN	NOUN	_	16	nsubj	_	TokenRange=99:111
+15	espanha	espanho	ADJ	ADJ	_	14	amod	_	TokenRange=112:119
+16	pede	pedir	VERB	VERB	_	3	conj	_	TokenRange=120:124
+17	neymar	neymar	NOUN	NOUN	_	16	obj	_	TokenRange=125:131
+18	processado	processado	ADJ	ADJ	_	17	acl	_	TokenRange=132:142
+19	lado	lado	NOUN	NOUN	_	17	appos	_	TokenRange=143:147
+20	pai	pai	NOUN	NOUN	_	19	flat	_	TokenRange=148:151
+21	corrupcao	corrupcao	NOUN	NOUN	_	19	appos	_	TokenRange=152:161
+22	particulares	particular	ADJ	ADJ	_	21	amod	_	TokenRange=162:174
+23	causa	causa	NOUN	NOUN	_	25	case	_	TokenRange=175:180
+24	supostos	suposto	ADJ	ADJ	_	25	amod	_	TokenRange=181:189
+25	crimes	crime	NOUN	NOUN	_	16	nmod	_	TokenRange=190:196
+26	cometido	cometer	VERB	VERB	_	25	acl	_	TokenRange=197:205
+27	relacao	relacao	NOUN	NOUN	_	26	nsubj	_	TokenRange=206:213
+28	fundo	fundo	NOUN	NOUN	_	31	nsubj	_	TokenRange=214:219
+29	brasileiro	brasileiro	ADJ	ADJ	_	28	amod	_	TokenRange=220:230
+30	dis	_	X	ADPPRON	_	31	nsubj	_	TokenRange=231:234
+31	administrava	administrar	VERB	VERB	_	27	acl:relcl	_	TokenRange=235:247
+32	direitos	direito	NOUN	NOUN	_	31	obj	_	TokenRange=248:256
+33	federativos	federativo	ADJ	ADJ	_	32	amod	_	TokenRange=257:268
+34	antes	antes	ADV	ADV	_	35	advmod	_	TokenRange=269:274
+35	transferir	transferir	VERB	VERB	_	31	advcl	_	TokenRange=275:285
+36	barcelona	barcelono	NOUN	NOUN	_	35	obj	_	TokenRange=286:295
+37	condenado	condenar	VERB	VERB	_	38	acl	_	TokenRange=296:305
+38	jogador	jogador	NOUN	NOUN	_	40	nsubj	_	TokenRange=306:313
+39	poderia	poder	AUX	AUX	_	40	aux	_	TokenRange=314:321
+40	pegar	pegar	VERB	VERB	_	31	conj	_	TokenRange=322:327
+41	seis	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=328:332
+42	meses	mês	NOUN	NOUN	_	40	nmod	_	TokenRange=333:338
+43	dois	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=339:343
+44	anos	ano	NOUN	NOUN	_	40	obj	_	TokenRange=344:348
+45	prisao	prisao	ADJ	ADJ	_	44	amod	_	TokenRange=349:355
+46	procurador	procurador	NOUN	NOUN	_	49	nsubj	_	TokenRange=356:366
+47	jose	jose	NOUN	NOUN	_	46	appos	_	TokenRange=367:371
+48	perals	_	ADJ	ADJ	_	47	amod	_	TokenRange=372:378
+49	solicitou	solicitar	VERB	VERB	_	40	parataxis	_	TokenRange=379:388
+50	juiz	juiz	NOUN	NOUN	_	49	obj	_	TokenRange=389:393
+51	jose	jose	NOUN	NOUN	_	50	appos	_	TokenRange=394:398
+52	la	_	DET	DET	_	53	det	_	TokenRange=399:401
+53	mata	mata	NOUN	NOUN	_	51	flat	_	TokenRange=402:406
+54	julgue	julgar	VERB	VERB	_	49	ccomp	_	TokenRange=407:413
+55	caso	caso	NOUN	NOUN	_	54	obj	_	TokenRange=414:418
+56	sob	_	ADP	ADP	_	57	case	_	TokenRange=419:422
+57	investigacao	investigacao	NOUN	NOUN	_	54	nmod	_	TokenRange=423:435
+58	indicie	indicie	ADJ	ADJ	_	59	amod	_	TokenRange=436:443
+59	atacante	atacante	NOUN	NOUN	_	54	nsubj	_	TokenRange=444:452
+60	brasileiro	brasileiro	ADJ	ADJ	_	59	amod	_	TokenRange=453:463
+61	dis	_	X	ADPPRON	_	62	nsubj	_	TokenRange=464:467
+62	mantinha	manter	VERB	VERB	_	59	acl:relcl	_	TokenRange=468:476
+63	40	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=477:479
+64	direitos	direito	NOUN	NOUN	_	62	obj	_	TokenRange=480:488
+65	federativos	federativo	ADJ	ADJ	_	64	amod	_	TokenRange=489:500
+66	neymar	neymar	ADJ	NOUN	_	64	amod	_	TokenRange=501:507
+67	acusa	acusar	VERB	VERB	_	62	ccomp	_	TokenRange=508:513
+68	pago	pago	NOUN	NOUN	_	67	obj	_	TokenRange=514:518
+69	deveria	dever	VERB	VERB	_	67	conj	_	TokenRange=519:526
+70	fundo	fundo	NOUN	NOUN	_	71	advmod	_	TokenRange=527:532
+71	vendido	vendido	ADJ	ADJ	_	69	xcomp	_	TokenRange=533:540
+72	barcelona	barcelono	ADJ	ADJ	_	74	nsubj	_	TokenRange=541:550
+73	mata	mata	NOUN	NOUN	_	74	nsubj	_	TokenRange=551:555
+74	ouviu	ouvir	VERB	VERB	_	69	conj	_	TokenRange=556:561
+75	neymar	neymar	NOUN	NOUN	_	74	obj	_	TokenRange=562:568
+76	pai	pai	NOUN	NOUN	_	74	obj	_	TokenRange=569:572
+77	mae	mae	NOUN	NOUN	_	76	flat	_	TokenRange=573:576
+78	alem	alem	ADV	ADV	_	80	advmod	_	TokenRange=577:581
+79	executivos	executivo	ADJ	ADJ	_	80	amod	_	TokenRange=582:592
+80	clube	clube	NOUN	NOUN	_	74	obj	_	TokenRange=593:598
+81	espanhol	espanhol	ADJ	ADJ	_	80	amod	_	TokenRange=599:607
+82	josep	josep	PROPN	PNOUN	_	74	parataxis	_	SpaceAfter=No|TokenRange=608:613
+

@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ator 48 anos sofre parada cardiaca palco publico aplaude pensando tratava encenacao ator sofreu parada cardiaca enquanto encenava peca teatro bailarino r khusainov 48 anos passou mal durante apresentacao urusmartan cidade localizada chechenia homem caiu palco plateia comecou aplaudir imaginando tudo fazia parte encenacao alguns minutos pessoas perceberam situacao khusainov recebeu primeiros socorros ainda palco paramedicos chegaram morto
+1	ator	ator	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	48	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=5:7
+3	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=8:12
+4	sofre	sofrer	VERB	VERB	_	0	root	_	TokenRange=13:18
+5	parada	parada	NOUN	NOUN	_	4	obj	_	TokenRange=19:25
+6	cardiaca	cardiaco	ADJ	ADJ	_	5	amod	_	TokenRange=26:34
+7	palco	palco	NOUN	NOUN	_	4	obj	_	TokenRange=35:40
+8	publico	_	ADJ	ADJ	_	7	amod	_	TokenRange=41:48
+9	aplaude	aplaude	NOUN	NOUN	_	4	nsubj	_	TokenRange=49:56
+10	pensando	pensar	VERB	VERB	_	9	acl	_	TokenRange=57:65
+11	tratava	tratar	VERB	VERB	_	10	xcomp	_	TokenRange=66:73
+12	encenacao	encenacao	ADJ	NOUN	_	14	obj	_	TokenRange=74:83
+13	ator	ator	NOUN	NOUN	_	14	nsubj	_	TokenRange=84:88
+14	sofreu	sofrer	VERB	VERB	_	4	conj	_	TokenRange=89:95
+15	parada	parada	NOUN	NOUN	_	14	obj	_	TokenRange=96:102
+16	cardiaca	cardiaco	ADJ	ADJ	_	15	amod	_	TokenRange=103:111
+17	enquanto	_	CCONJ	CONJ	_	18	mark	_	TokenRange=112:120
+18	encenava	encenar	VERB	VERB	_	14	advcl	_	TokenRange=121:129
+19	peca	peca	NOUN	NOUN	_	18	obj	_	TokenRange=130:134
+20	teatro	teatro	NOUN	NOUN	_	19	appos	_	TokenRange=135:141
+21	bailarino	bailarino	ADJ	ADJ	_	20	amod	_	TokenRange=142:151
+22	r	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=152:153
+23	khusainov	_	NOUN	NOUN	_	20	flat	_	TokenRange=154:163
+24	48	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=164:166
+25	anos	ano	NOUN	NOUN	_	26	nsubj	_	TokenRange=167:171
+26	passou	passar	VERB	VERB	_	4	parataxis	_	TokenRange=172:178
+27	mal	mal	ADV	ADV	_	26	advmod	_	TokenRange=179:182
+28	durante	_	ADP	ADP	_	29	case	_	TokenRange=183:190
+29	apresentacao	apresentacao	NOUN	NOUN	_	26	nmod	_	TokenRange=191:203
+30	urusmartan	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=204:214
+31	cidade	cidade	NOUN	NOUN	_	26	nsubj	_	TokenRange=215:221
+32	localizada	localizado	ADJ	ADJ	_	31	amod	_	TokenRange=222:232
+33	chechenia	chechenia	NOUN	NOUN	_	31	amod	_	TokenRange=233:242
+34	homem	homem	NOUN	NOUN	_	35	nsubj	_	TokenRange=243:248
+35	caiu	cair	VERB	VERB	_	31	acl:relcl	_	TokenRange=249:253
+36	palco	palco	NOUN	NOUN	_	35	obj	_	TokenRange=254:259
+37	plateia	plateia	NOUN	NOUN	_	38	nsubj	_	TokenRange=260:267
+38	comecou	comecar	VERB	VERB	_	35	conj	_	TokenRange=268:275
+39	aplaudir	aplaudir	VERB	VERB	_	38	xcomp	_	TokenRange=276:284
+40	imaginando	imaginar	VERB	VERB	_	39	acl	_	TokenRange=285:295
+41	tudo	_	PRON	PRON	_	42	nsubj	_	TokenRange=296:300
+42	fazia	fazer	VERB	VERB	_	40	ccomp	_	TokenRange=301:306
+43	parte	parte	NOUN	NOUN	_	42	obj	_	TokenRange=307:312
+44	encenacao	encenacao	ADJ	ADJ	_	48	mark	_	TokenRange=313:322
+45	alguns	_	DET	DET	_	46	det	_	TokenRange=323:329
+46	minutos	minuto	NOUN	NOUN	_	48	nsubj	_	TokenRange=330:337
+47	pessoas	pessoa	NOUN	NOUN	_	48	nsubj	_	TokenRange=338:345
+48	perceberam	perceber	VERB	VERB	_	35	conj	_	TokenRange=346:356
+49	situacao	situacao	NOUN	NOUN	_	48	obj	_	TokenRange=357:365
+50	khusainov	_	ADJ	ADJ	_	53	amod	_	TokenRange=366:375
+51	recebeu	receber	VERB	VERB	_	48	parataxis	_	TokenRange=376:383
+52	primeiros	primeiro	ADJ	ADJ	_	53	amod	_	TokenRange=384:393
+53	socorros	socorro	NOUN	NOUN	_	51	obj	_	TokenRange=394:402
+54	ainda	ainda	ADV	ADV	_	57	advmod	_	TokenRange=403:408
+55	palco	palco	NOUN	NOUN	_	57	nsubj	_	TokenRange=409:414
+56	paramedicos	paramedico	NOUN	NOUN	_	55	amod	_	TokenRange=415:426
+57	chegaram	chegar	VERB	VERB	_	35	conj	_	TokenRange=427:435
+58	morto	morto	ADJ	ADJ	_	57	xcomp	_	SpaceAfter=No|TokenRange=436:441
+

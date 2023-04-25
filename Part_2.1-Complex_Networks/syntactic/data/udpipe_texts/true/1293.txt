@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = coreia norte critica sancoes disposta dialogar eua horas antes admitir possibilidade negociar pyongyang classificou embargos americanos empresas facilitam comercio nortecoreano atos guerra impasses questoes essenciais podem inviabilizar reuniao pyeongchang tres dias estados unidos aplicarem severas sancoes coreia norte pais asiatico declarou neste domingo 25 estar disposto dialogar americanos recado transmitido general nortecoreano kim yongchol lider delegacao
+1	coreia	coreia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	norte	norte	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	critica	criticar	VERB	VERB	_	41	ccomp	_	TokenRange=13:20
+4	sancoes	sancoe	NOUN	NOUN	_	3	obj	_	TokenRange=21:28
+5	disposta	disposto	ADJ	ADJ	_	4	amod	_	TokenRange=29:37
+6	dialogar	dialogar	VERB	VERB	_	3	ccomp	_	TokenRange=38:46
+7	eua	_	DET	DET	_	8	det	_	TokenRange=47:50
+8	horas	hora	NOUN	NOUN	_	6	nmod	_	TokenRange=51:56
+9	antes	antes	ADV	ADV	_	10	advmod	_	TokenRange=57:62
+10	admitir	admitir	VERB	VERB	_	6	advcl	_	TokenRange=63:70
+11	possibilidade	possibilidade	NOUN	NOUN	_	10	obj	_	TokenRange=71:84
+12	negociar	negociar	VERB	VERB	_	11	acl:inf	_	TokenRange=85:93
+13	pyongyang	_	NOUN	NOUN	_	12	obj	_	TokenRange=94:103
+14	classificou	classificar	VERB	VERB	_	3	parataxis	_	TokenRange=104:115
+15	embargos	embargo	NOUN	NOUN	_	14	obj	_	TokenRange=116:124
+16	americanos	americano	ADJ	ADJ	_	15	amod	_	TokenRange=125:135
+17	empresas	empresa	NOUN	NOUN	_	18	nsubj	_	TokenRange=136:144
+18	facilitam	facilitar	VERB	VERB	_	14	parataxis	_	TokenRange=145:154
+19	comercio	comercio	NOUN	NOUN	_	18	obj	_	TokenRange=155:163
+20	nortecoreano	nortecoreano	ADJ	ADJ	_	19	amod	_	TokenRange=164:176
+21	atos	ato	NOUN	NOUN	_	19	appos	_	TokenRange=177:181
+22	guerra	guerra	NOUN	NOUN	_	19	appos	_	TokenRange=182:188
+23	impasses	impasse	ADJ	ADJ	_	24	amod	_	TokenRange=189:197
+24	questoes	questoe	NOUN	NOUN	_	27	nsubj	_	TokenRange=198:206
+25	essenciais	essencial	ADJ	ADJ	_	24	amod	_	TokenRange=207:217
+26	podem	_	AUX	AUX	_	27	aux	_	TokenRange=218:223
+27	inviabilizar	inviabilizar	VERB	VERB	_	18	parataxis	_	TokenRange=224:236
+28	reuniao	reuniao	NOUN	NOUN	_	27	obj	_	TokenRange=237:244
+29	pyeongchang	_	NOUN	NOUN	_	28	flat	_	TokenRange=245:256
+30	tres	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=257:261
+31	dias	dia	NOUN	NOUN	_	27	nmod	_	TokenRange=262:266
+32	estados	estado	NOUN	NOUN	_	27	nsubj	_	TokenRange=267:274
+33	unidos	unido	ADJ	ADJ	_	32	amod	_	TokenRange=275:281
+34	aplicarem	aplicar	VERB	VERB	_	27	ccomp	_	TokenRange=282:291
+35	severas	severo	ADJ	ADJ	_	36	amod	_	TokenRange=292:299
+36	sancoes	sancoe	NOUN	NOUN	_	34	obj	_	TokenRange=300:307
+37	coreia	coreia	NOUN	NOUN	_	36	appos	_	TokenRange=308:314
+38	norte	norte	ADJ	ADJ	_	37	amod	_	TokenRange=315:320
+39	pais	_	NOUN	NOUN	_	37	appos	_	TokenRange=321:325
+40	asiatico	asiatico	ADJ	ADJ	_	39	amod	_	TokenRange=326:334
+41	declarou	declarar	VERB	VERB	_	0	root	_	TokenRange=335:343
+42	neste	_	ADP	ADP	_	43	case	_	TokenRange=344:349
+43	domingo	_	PROPN	PNOUN	_	41	nmod	_	TokenRange=350:357
+44	25	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=358:360
+45	estar	estar	VERB	VERB	_	41	ccomp	_	TokenRange=361:366
+46	disposto	disposto	ADJ	ADJ	_	45	xcomp	_	TokenRange=367:375
+47	dialogar	dialogar	VERB	VERB	_	45	csubj	_	TokenRange=376:384
+48	americanos	americano	NOUN	NOUN	_	47	obj	_	TokenRange=385:395
+49	recado	recado	NOUN	NOUN	_	47	obj	_	TokenRange=396:402
+50	transmitido	transmitido	ADJ	ADJ	_	51	amod	_	TokenRange=403:414
+51	general	general	NOUN	NOUN	_	47	nsubj	_	TokenRange=415:422
+52	nortecoreano	nortecoreano	ADJ	ADJ	_	51	amod	_	TokenRange=423:435
+53	kim	_	ADJ	ADJ	_	51	appos	_	TokenRange=436:439
+54	yongchol	_	ADJ	ADJ	_	55	amod	_	TokenRange=440:448
+55	lider	lider	NOUN	NOUN	_	51	appos	_	TokenRange=449:454
+56	delegacao	delegacao	NOUN	NOUN	_	55	amod	_	SpaceAfter=No|TokenRange=455:464
+

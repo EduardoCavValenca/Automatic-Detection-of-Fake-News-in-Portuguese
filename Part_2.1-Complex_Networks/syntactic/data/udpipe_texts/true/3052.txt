@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 21 junho bom dia aqui principais noticias comecar dia beminformado ministro edson fachin deve continuar frente casos ligados jbs supremo analisa assunto hoje decide relator lava jato deve continuar conducao investigacoes sobre delacao afundou governo temer crise politica presidente segue moscou encontra oficialmente putin meio novas declaracoes complicam ainda expresidente lula entregou fim noite alegacoes finais processo
+1	quartafeira	quartafeira	NOUN	NOUN	_	16	parataxis	_	TokenRange=0:11
+2	21	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:14
+3	junho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:20
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=21:24
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=25:28
+6	aqui	aqui	ADV	ADV	_	16	advmod	_	TokenRange=29:33
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=34:44
+8	noticias	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=45:53
+9	comecar	comecar	VERB	VERB	_	16	csubj	_	TokenRange=54:61
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=62:65
+11	beminformado	beminformado	ADJ	ADJ	_	12	amod	_	TokenRange=66:78
+12	ministro	ministro	NOUN	NOUN	_	16	nsubj	_	TokenRange=79:87
+13	edson	_	NOUN	NOUN	_	12	appos	_	TokenRange=88:93
+14	fachin	_	NOUN	NOUN	_	13	flat	_	TokenRange=94:100
+15	deve	dever	AUX	AUX	_	16	aux	_	TokenRange=101:105
+16	continuar	continuar	VERB	VERB	_	0	root	_	TokenRange=106:115
+17	frente	frente	NOUN	NOUN	_	16	obj	_	TokenRange=116:122
+18	casos	caso	NOUN	NOUN	_	16	obj	_	TokenRange=123:128
+19	ligados	ligado	ADJ	ADJ	_	18	amod	_	TokenRange=129:136
+20	jbs	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=137:140
+21	supremo	supremo	ADJ	ADJ	_	20	amod	_	TokenRange=141:148
+22	analisa	analisar	VERB	VERB	_	16	parataxis	_	TokenRange=149:156
+23	assunto	assunto	NOUN	NOUN	_	22	obj	_	TokenRange=157:164
+24	hoje	hoje	ADV	ADV	_	25	advmod	_	TokenRange=165:169
+25	decide	decidir	VERB	VERB	_	22	parataxis	_	TokenRange=170:176
+26	relator	relator	NOUN	NOUN	_	25	obj	_	TokenRange=177:184
+27	lava	lava	NOUN	NOUN	_	30	nsubj	_	TokenRange=185:189
+28	jato	jato	NOUN	NOUN	_	30	nsubj	_	TokenRange=190:194
+29	deve	dever	AUX	AUX	_	30	aux	_	TokenRange=195:199
+30	continuar	continuar	VERB	VERB	_	25	ccomp	_	TokenRange=200:209
+31	conducao	conducao	ADJ	ADJ	_	30	xcomp	_	TokenRange=210:218
+32	investigacoes	investigacoe	NOUN	NOUN	_	30	obj	_	TokenRange=219:232
+33	sobre	_	ADP	ADP	_	35	mark	_	TokenRange=233:238
+34	delacao	delacao	NOUN	NOUN	_	32	nmod	_	TokenRange=239:246
+35	afundou	afundar	VERB	VERB	_	32	nmod	_	TokenRange=247:254
+36	governo	governo	NOUN	NOUN	_	35	obj	_	TokenRange=255:262
+37	temer	temer	ADJ	ADJ	_	38	amod	_	TokenRange=263:268
+38	crise	crise	NOUN	NOUN	_	35	obj	_	TokenRange=269:274
+39	politica	politico	ADJ	ADJ	_	38	amod	_	TokenRange=275:283
+40	presidente	presidente	NOUN	NOUN	_	41	nsubj	_	TokenRange=284:294
+41	segue	_	VERB	VERB	_	35	parataxis	_	TokenRange=295:300
+42	moscou	moscou	NOUN	NOUN	_	41	nsubj	_	TokenRange=301:307
+43	encontra	encontrar	VERB	VERB	_	41	conj	_	TokenRange=308:316
+44	oficialmente	oficialmente	ADV	ADV	_	43	advmod	_	TokenRange=317:329
+45	putin	_	NOUN	NOUN	_	43	obj	_	TokenRange=330:335
+46	meio	meio	ADJ	ADJ	_	48	amod	_	TokenRange=336:340
+47	novas	novo	ADJ	ADJ	_	48	amod	_	TokenRange=341:346
+48	declaracoes	declaracoe	NOUN	NOUN	_	43	nsubj	_	TokenRange=347:358
+49	complicam	complicar	VERB	VERB	_	43	parataxis	_	TokenRange=359:368
+50	ainda	ainda	ADV	ADV	_	53	advmod	_	TokenRange=369:374
+51	expresidente	expresidente	NOUN	NOUN	_	53	nsubj	_	TokenRange=375:387
+52	lula	lula	ADJ	ADJ	_	51	amod	_	TokenRange=388:392
+53	entregou	entregar	VERB	VERB	_	49	parataxis	_	TokenRange=393:401
+54	fim	fim	NOUN	NOUN	_	53	nmod	_	TokenRange=402:405
+55	noite	noite	NOUN	NOUN	_	53	nmod	_	TokenRange=406:411
+56	alegacoes	alegacoe	NOUN	NOUN	_	53	obj	_	TokenRange=412:421
+57	finais	final	ADJ	ADJ	_	56	amod	_	TokenRange=422:428
+58	processo	processo	NOUN	NOUN	_	53	obj	_	SpaceAfter=No|TokenRange=429:437
+

@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ta confuso problemas acabaram site mostra tempo real lula ministro tantas liminares sendo concedidas derrubadas tempo recorde povo sabe lula ministro publicitario inovou termos criatividade lancou portal informa tempo real lula ministro claro trata brincadeira brincadeira util tempos tao turbulentos politica brasileira nota 10 criatividade acesse site aqui
+1	ta	_	DET	DET	_	3	det	_	TokenRange=0:2
+2	confuso	_	ADJ	ADJ	_	3	amod	_	TokenRange=3:10
+3	problemas	problema	NOUN	NOUN	_	4	nsubj	_	TokenRange=11:20
+4	acabaram	acabar	VERB	VERB	_	0	root	_	TokenRange=21:29
+5	site	site	NOUN	NOUN	_	4	nmod	_	TokenRange=30:34
+6	mostra	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=35:41
+7	tempo	tempo	NOUN	NOUN	_	6	obj	_	TokenRange=42:47
+8	real	real	ADJ	ADJ	_	7	amod	_	TokenRange=48:52
+9	lula	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=53:57
+10	ministro	ministro	NOUN	NOUN	_	9	flat	_	TokenRange=58:66
+11	tantas	_	DET	DET	_	12	det	_	TokenRange=67:73
+12	liminares	liminar	NOUN	NOUN	_	9	appos	_	TokenRange=74:83
+13	sendo	ser	AUX	AUX	_	14	aux:pass	_	TokenRange=84:89
+14	concedidas	conceder	VERB	VERB	_	12	acl	_	TokenRange=90:100
+15	derrubadas	derrubado	ADJ	ADJ	_	16	amod	_	TokenRange=101:111
+16	tempo	tempo	NOUN	NOUN	_	14	nsubj:pass	_	TokenRange=112:117
+17	recorde	recorde	ADJ	ADJ	_	16	amod	_	TokenRange=118:125
+18	povo	povo	NOUN	NOUN	_	19	nsubj	_	TokenRange=126:130
+19	sabe	saber	VERB	VERB	_	16	acl:relcl	_	TokenRange=131:135
+20	lula	_	NOUN	NOUN	_	21	amod	_	TokenRange=136:140
+21	ministro	ministro	NOUN	NOUN	_	19	nsubj	_	TokenRange=141:149
+22	publicitario	publicitario	ADJ	ADJ	_	21	amod	_	TokenRange=150:162
+23	inovou	inovar	VERB	VERB	_	21	acl:relcl	_	TokenRange=163:169
+24	termos	termo	NOUN	NOUN	_	23	obj	_	TokenRange=170:176
+25	criatividade	criatividade	NOUN	NOUN	_	24	flat	_	TokenRange=177:189
+26	lancou	lancar	VERB	VERB	_	21	acl:relcl	_	TokenRange=190:196
+27	portal	portal	NOUN	NOUN	_	26	obj	_	TokenRange=197:203
+28	informa	informo	ADJ	ADJ	_	27	amod	_	TokenRange=204:211
+29	tempo	tempo	NOUN	NOUN	_	26	nmod	_	TokenRange=212:217
+30	real	real	ADJ	ADJ	_	29	amod	_	TokenRange=218:222
+31	lula	lula	NOUN	NOUN	_	32	amod	_	TokenRange=223:227
+32	ministro	ministro	NOUN	NOUN	_	34	nsubj	_	TokenRange=228:236
+33	claro	claro	ADJ	ADJ	_	32	amod	_	TokenRange=237:242
+34	trata	tratar	VERB	VERB	_	27	acl:relcl	_	TokenRange=243:248
+35	brincadeira	brincadeira	NOUN	NOUN	_	34	obj	_	TokenRange=249:260
+36	brincadeira	brincadeira	NOUN	NOUN	_	35	flat	_	TokenRange=261:272
+37	util	util	ADJ	ADJ	_	35	amod	_	TokenRange=273:277
+38	tempos	tempo	NOUN	NOUN	_	34	nsubj	_	TokenRange=278:284
+39	tao	tao	ADV	ADV	_	40	advmod	_	TokenRange=285:288
+40	turbulentos	turbulento	ADJ	ADJ	_	41	amod	_	TokenRange=289:300
+41	politica	_	NOUN	NOUN	_	38	appos	_	TokenRange=301:309
+42	brasileira	brasileiro	ADJ	ADJ	_	41	amod	_	TokenRange=310:320
+43	nota	nota	NOUN	NOUN	_	46	parataxis	_	TokenRange=321:325
+44	10	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=326:328
+45	criatividade	criatividade	NOUN	NOUN	_	43	appos	_	TokenRange=329:341
+46	acesse	_	VERB	VERB	_	4	parataxis	_	TokenRange=342:348
+47	site	site	NOUN	NOUN	_	46	obj	_	TokenRange=349:353
+48	aqui	aqui	ADV	ADV	_	46	advmod	_	SpaceAfter=No|TokenRange=354:358
+

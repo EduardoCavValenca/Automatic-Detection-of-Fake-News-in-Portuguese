@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = menino filho viceprefeita faz video selfie enquanto dirige carro xinga policia pb crianca 11 anos gravou video divulgado redes sociais viceprefeita mamanguape pediu desculpas populacao menino 11 anos filho viceprefeita mamanguape litoral norte paraiba flagrado dirigindo carro xingando policia video gravado divulgado redes sociais nesta quartafeira 27 imagens possivel ver outra crianca cinto seguranca banco passageiros nota viceprefeita baby helenita veloso prtb pediu desculpas sociedade policia militar informou concorda atitude filho ensinamentos enquanto mae ensinei filhos tomarei devidas
+1	menino	menino	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	filho	filho	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	viceprefeita	_	NOUN	NOUN	_	1	appos	_	TokenRange=13:25
+4	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=26:29
+5	video	video	NOUN	NOUN	_	4	obj	_	TokenRange=30:35
+6	selfie	selfie	NOUN	NOUN	_	5	flat	_	TokenRange=36:42
+7	enquanto	_	CCONJ	CONJ	_	8	mark	_	TokenRange=43:51
+8	dirige	dirigir	VERB	VERB	_	4	advcl	_	TokenRange=52:58
+9	carro	carro	NOUN	NOUN	_	8	obj	_	TokenRange=59:64
+10	xinga	xinga	ADJ	ADJ	_	9	amod	_	TokenRange=65:70
+11	policia	policia	NOUN	NOUN	_	23	nsubj	_	TokenRange=71:78
+12	pb	_	NOUN	NOUN	_	11	appos	_	TokenRange=79:81
+13	crianca	_	NOUN	NOUN	_	12	flat	_	TokenRange=82:89
+14	11	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=90:92
+15	anos	ano	NOUN	NOUN	_	12	appos	_	TokenRange=93:97
+16	gravou	gravar	VERB	VERB	_	4	parataxis	_	TokenRange=98:104
+17	video	video	NOUN	NOUN	_	16	obj	_	TokenRange=105:110
+18	divulgado	divulgar	VERB	VERB	_	19	acl	_	TokenRange=111:120
+19	redes	rede	NOUN	NOUN	_	16	nsubj	_	TokenRange=121:126
+20	sociais	social	ADJ	ADJ	_	19	amod	_	TokenRange=127:134
+21	viceprefeita	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=135:147
+22	mamanguape	_	ADJ	NOUN	_	21	amod	_	TokenRange=148:158
+23	pediu	pedir	VERB	VERB	_	4	parataxis	_	TokenRange=159:164
+24	desculpas	desculpa	NOUN	NOUN	_	23	obj	_	TokenRange=165:174
+25	populacao	populacao	ADJ	ADJ	_	24	amod	_	TokenRange=175:184
+26	menino	menino	NOUN	NOUN	_	24	appos	_	TokenRange=185:191
+27	11	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=192:194
+28	anos	ano	NOUN	NOUN	_	26	appos	_	TokenRange=195:199
+29	filho	filho	ADJ	ADJ	_	28	amod	_	TokenRange=200:205
+30	viceprefeita	_	NOUN	NOUN	_	26	appos	_	TokenRange=206:218
+31	mamanguape	_	ADJ	ADJ	_	30	amod	_	TokenRange=219:229
+32	litoral	litoral	ADJ	ADJ	_	30	amod	_	TokenRange=230:237
+33	norte	norte	ADJ	ADJ	_	34	amod	_	TokenRange=238:243
+34	paraiba	paraiba	NOUN	NOUN	_	30	appos	_	TokenRange=244:251
+35	flagrado	flagrado	ADJ	ADJ	_	34	amod	_	TokenRange=252:260
+36	dirigindo	dirigir	VERB	VERB	_	34	acl	_	TokenRange=261:270
+37	carro	carro	NOUN	NOUN	_	36	obj	_	TokenRange=271:276
+38	xingando	xingar	VERB	VERB	_	37	acl	_	TokenRange=277:285
+39	policia	policia	NOUN	NOUN	_	36	obj	_	TokenRange=286:293
+40	video	video	NOUN	NOUN	_	36	obj	_	TokenRange=294:299
+41	gravado	gravar	VERB	VERB	_	40	acl	_	TokenRange=300:307
+42	divulgado	divulgar	VERB	VERB	_	40	acl	_	TokenRange=308:317
+43	redes	rede	NOUN	NOUN	_	42	obj	_	TokenRange=318:323
+44	sociais	social	ADJ	ADJ	_	43	amod	_	TokenRange=324:331
+45	nesta	_	ADP	ADP	_	46	case	_	TokenRange=332:337
+46	quartafeira	_	NOUN	NOUN	_	50	nmod	_	TokenRange=338:349
+47	27	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=350:352
+48	imagens	imagem	NOUN	NOUN	_	46	appos	_	TokenRange=353:360
+49	possivel	_	ADJ	ADJ	_	48	amod	_	TokenRange=361:369
+50	ver	ver	VERB	VERB	_	63	ccomp	_	TokenRange=370:373
+51	outra	_	DET	DET	_	52	det	_	TokenRange=374:379
+52	crianca	crianca	NOUN	NOUN	_	50	obj	_	TokenRange=380:387
+53	cinto	cinto	NOUN	NOUN	_	52	appos	_	TokenRange=388:393
+54	seguranca	_	NOUN	NOUN	_	53	appos	_	TokenRange=394:403
+55	banco	banco	NOUN	NOUN	_	52	appos	_	TokenRange=404:409
+56	passageiros	passageiro	NOUN	NOUN	_	55	amod	_	TokenRange=410:421
+57	nota	nota	NOUN	NOUN	_	63	nsubj	_	TokenRange=422:426
+58	viceprefeita	_	NOUN	NOUN	_	63	nsubj	_	TokenRange=427:439
+59	baby	_	NOUN	NOUN	_	58	flat	_	TokenRange=440:444
+60	helenita	_	NOUN	NOUN	_	58	appos	_	TokenRange=445:453
+61	veloso	veloso	ADJ	ADJ	_	58	amod	_	TokenRange=454:460
+62	prtb	_	NOUN	NOUN	_	58	appos	_	TokenRange=461:465
+63	pediu	pedir	VERB	VERB	_	4	parataxis	_	TokenRange=466:471
+64	desculpas	desculpa	NOUN	NOUN	_	63	obj	_	TokenRange=472:481
+65	sociedade	sociedade	NOUN	NOUN	_	64	appos	_	TokenRange=482:491
+66	policia	policia	NOUN	NOUN	_	64	appos	_	TokenRange=492:499
+67	militar	militar	ADJ	ADJ	_	66	amod	_	TokenRange=500:507
+68	informou	informar	VERB	VERB	_	63	parataxis	_	TokenRange=508:516
+69	concorda	concordar	VERB	VERB	_	68	xcomp	_	TokenRange=517:525
+70	atitude	atitude	NOUN	NOUN	_	69	obj	_	TokenRange=526:533
+71	filho	filho	ADJ	ADJ	_	70	amod	_	TokenRange=534:539
+72	ensinamentos	ensinamento	NOUN	NOUN	_	69	obj	_	TokenRange=540:552
+73	enquanto	_	CCONJ	CONJ	_	75	mark	_	TokenRange=553:561
+74	mae	mae	NOUN	NOUN	_	75	nsubj	_	TokenRange=562:565
+75	ensinei	ensinar	VERB	VERB	_	68	advcl	_	TokenRange=566:573
+76	filhos	filho	NOUN	NOUN	_	77	obj	_	TokenRange=574:580
+77	tomarei	tomar	VERB	VERB	_	68	ccomp	_	TokenRange=581:588
+78	devidas	devido	ADJ	ADJ	_	77	obj	_	SpaceAfter=No|TokenRange=589:596
+

@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dolar cai 2 fecha r 315 dia julgamento recurso lula moeda eua recuou menor nivel desde outubro queda 244 frente real r 31590 venda resultado pode influenciar corrida eleitoral deste ano dolar fechou forte queda nesta quartafeira 24 logo apos dois tres desembargadores trf4 terem mantido condenacao expresidente luiz inacio lula silva segunda instancia resultado final pode influenciar
+1	dolar	dolar	NOUN	NOUN	_	0	root	_	TokenRange=0:5
+2	cai	cai	NOUN	NOUN	_	1	appos	_	TokenRange=6:9
+3	2	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=10:11
+4	fecha	fecha	NOUN	NOUN	_	1	appos	_	TokenRange=12:17
+5	r	r	NOUN	NOUN	_	4	punct	_	TokenRange=18:19
+6	315	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=20:23
+7	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=24:27
+8	julgamento	julgamento	NOUN	NOUN	_	7	flat	_	TokenRange=28:38
+9	recurso	recurso	NOUN	NOUN	_	1	appos	_	TokenRange=39:46
+10	lula	lula	ADJ	ADJ	_	11	amod	_	TokenRange=47:51
+11	moeda	moeda	NOUN	NOUN	_	9	appos	_	TokenRange=52:57
+12	eua	_	PRON	PRON	_	11	appos	_	TokenRange=58:61
+13	recuou	recuar	VERB	VERB	_	1	acl:relcl	_	TokenRange=62:68
+14	menor	menor	ADJ	ADJ	_	15	amod	_	TokenRange=69:74
+15	nivel	_	NOUN	NOUN	_	13	obj	_	TokenRange=75:80
+16	desde	_	ADP	ADP	_	17	case	_	TokenRange=81:86
+17	outubro	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=87:94
+18	queda	queda	NOUN	NOUN	_	13	obj	_	TokenRange=95:100
+19	244	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=101:104
+20	frente	frente	NOUN	NOUN	_	18	appos	_	TokenRange=105:111
+21	real	real	ADJ	ADJ	_	20	amod	_	TokenRange=112:116
+22	r	r	NOUN	NOUN	_	27	punct	_	TokenRange=117:118
+23	31590	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=119:124
+24	venda	venda	NOUN	NOUN	_	27	nsubj	_	TokenRange=125:130
+25	resultado	resultado	NOUN	NOUN	_	24	appos	_	TokenRange=131:140
+26	pode	_	AUX	AUX	_	27	aux	_	TokenRange=141:145
+27	influenciar	influenciar	VERB	VERB	_	1	conj	_	TokenRange=146:157
+28	corrida	corrida	NOUN	NOUN	_	27	obj	_	TokenRange=158:165
+29	eleitoral	eleitoral	ADJ	ADJ	_	28	amod	_	TokenRange=166:175
+30	deste	_	ADP	ADP	_	31	case	_	TokenRange=176:181
+31	ano	ano	NOUN	NOUN	_	28	nmod	_	TokenRange=182:185
+32	dolar	dolar	NOUN	NOUN	_	33	nsubj	_	TokenRange=186:191
+33	fechou	fechar	VERB	VERB	_	28	acl:relcl	_	TokenRange=192:198
+34	forte	forte	ADJ	ADJ	_	35	amod	_	TokenRange=199:204
+35	queda	queda	NOUN	NOUN	_	33	obj	_	TokenRange=205:210
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=211:216
+37	quartafeira	_	NOUN	NOUN	_	33	nmod	_	TokenRange=217:228
+38	24	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=229:231
+39	logo	logo	ADV	ADV	_	58	advmod	_	TokenRange=232:236
+40	apos	_	ADP	ADP	_	46	mark	_	TokenRange=237:241
+41	dois	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=242:246
+42	tres	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=247:251
+43	desembargadores	desembargador	NOUN	NOUN	_	58	nsubj	_	TokenRange=252:267
+44	trf4	_	NOUN	NOUN	_	43	appos	_	TokenRange=268:272
+45	terem	ter	AUX	AUX	_	46	aux	_	TokenRange=273:278
+46	mantido	manter	VERB	VERB	_	58	advcl	_	TokenRange=279:286
+47	condenacao	condenacao	NOUN	NOUN	_	46	obj	_	TokenRange=287:297
+48	expresidente	expresidente	NOUN	NOUN	_	47	amod	_	TokenRange=298:310
+49	luiz	luiz	ADJ	ADJ	_	47	appos	_	TokenRange=311:315
+50	inacio	_	NOUN	NOUN	_	49	flat	_	TokenRange=316:322
+51	lula	_	ADJ	ADJ	_	49	flat	_	TokenRange=323:327
+52	silva	silva	ADJ	ADJ	_	49	flat	_	TokenRange=328:333
+53	segunda	segundo	ADJ	ADJ	_	54	amod	_	TokenRange=334:341
+54	instancia	instancia	NOUN	NOUN	_	58	obj	_	TokenRange=342:351
+55	resultado	resultado	NOUN	NOUN	_	58	nsubj	_	TokenRange=352:361
+56	final	final	ADJ	ADJ	_	55	amod	_	TokenRange=362:367
+57	pode	_	AUX	AUX	_	58	aux	_	TokenRange=368:372
+58	influenciar	influenciar	VERB	VERB	_	27	parataxis	_	SpaceAfter=No|TokenRange=373:384
+

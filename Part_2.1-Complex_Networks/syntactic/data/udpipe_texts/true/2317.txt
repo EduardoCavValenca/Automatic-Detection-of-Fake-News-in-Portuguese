@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estudo economico organizacao cooperacao desenvolvimento economico ocde active with brazil apontou crescimento investimento infraestrutura resultara incremento produtividade equilibrio voltado distribuicao renda pais ocde concorda dados oficiais ibge brasil saindo pior recessao economica historica recente pib brasileiro cresceu 1 ano passado dois anos queda buscado fim recessao contribuicao pacote reformas realizadas embora reforma previdenciaria sido
+1	estudo	estudo	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:6
+2	economico	economico	ADJ	ADJ	_	1	amod	_	TokenRange=7:16
+3	organizacao	organizacao	NOUN	NOUN	_	1	appos	_	TokenRange=17:28
+4	cooperacao	cooperacao	ADJ	ADJ	_	1	amod	_	TokenRange=29:39
+5	desenvolvimento	desenvolvimento	NOUN	NOUN	_	1	appos	_	TokenRange=40:55
+6	economico	economico	ADJ	ADJ	_	5	amod	_	TokenRange=56:65
+7	ocde	ocde	NOUN	NOUN	_	5	appos	_	TokenRange=66:70
+8	active	_	NOUN	NOUN	_	5	amod	_	TokenRange=71:77
+9	with	_	X	NOUN	_	5	nmod	_	TokenRange=78:82
+10	brazil	_	NOUN	NOUN	_	8	nmod	_	TokenRange=83:89
+11	apontou	apontar	VERB	VERB	_	0	root	_	TokenRange=90:97
+12	crescimento	crescimento	NOUN	NOUN	_	11	obj	_	TokenRange=98:109
+13	investimento	investimento	NOUN	NOUN	_	12	flat	_	TokenRange=110:122
+14	infraestrutura	infraestrutura	NOUN	NOUN	_	12	flat	_	TokenRange=123:137
+15	resultara	resultar	VERB	VERB	_	1	parataxis	_	TokenRange=138:147
+16	incremento	incremento	NOUN	NOUN	_	11	obj	_	TokenRange=148:158
+17	produtividade	produtividade	NOUN	NOUN	_	16	flat	_	TokenRange=159:172
+18	equilibrio	equilibrio	NOUN	NOUN	_	16	appos	_	TokenRange=173:183
+19	voltado	voltado	ADJ	ADJ	_	18	amod	_	TokenRange=184:191
+20	distribuicao	distribuicao	NOUN	NOUN	_	16	appos	_	TokenRange=192:204
+21	renda	renda	NOUN	NOUN	_	20	appos	_	TokenRange=205:210
+22	pais	_	NOUN	NOUN	_	20	appos	_	TokenRange=211:215
+23	ocde	ocde	NOUN	NOUN	_	24	nsubj	_	TokenRange=216:220
+24	concorda	concordar	VERB	VERB	_	11	parataxis	_	TokenRange=221:229
+25	dados	dado	NOUN	NOUN	_	24	obj	_	TokenRange=230:235
+26	oficiais	oficial	ADJ	ADJ	_	25	amod	_	TokenRange=236:244
+27	ibge	ibge	NOUN	NOUN	_	25	appos	_	TokenRange=245:249
+28	brasil	brasil	NOUN	NOUN	_	27	flat	_	TokenRange=250:256
+29	saindo	sair	VERB	VERB	_	25	acl	_	TokenRange=257:263
+30	pior	pior	ADJ	ADJ	_	31	amod	_	TokenRange=264:268
+31	recessao	recessao	NOUN	NOUN	_	29	obj	_	TokenRange=269:277
+32	economica	economico	ADJ	ADJ	_	31	amod	_	TokenRange=278:287
+33	historica	historico	ADJ	ADJ	_	31	amod	_	TokenRange=288:297
+34	recente	recente	ADJ	ADJ	_	35	amod	_	TokenRange=298:305
+35	pib	pib	NOUN	NOUN	_	37	nsubj	_	TokenRange=306:309
+36	brasileiro	brasileiro	ADJ	ADJ	_	35	amod	_	TokenRange=310:320
+37	cresceu	crescer	VERB	VERB	_	11	parataxis	_	TokenRange=321:328
+38	1	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=329:330
+39	ano	ano	NOUN	NOUN	_	37	nmod	_	TokenRange=331:334
+40	passado	passado	ADJ	ADJ	_	37	xcomp	_	TokenRange=335:342
+41	dois	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=343:347
+42	anos	ano	NOUN	NOUN	_	37	nmod	_	TokenRange=348:352
+43	queda	queda	NOUN	NOUN	_	37	obj	_	TokenRange=353:358
+44	buscado	buscado	ADJ	ADJ	_	43	amod	_	TokenRange=359:366
+45	fim	fim	NOUN	NOUN	_	43	amod	_	TokenRange=367:370
+46	recessao	recessao	NOUN	NOUN	_	43	appos	_	TokenRange=371:379
+47	contribuicao	contribuicao	ADJ	ADJ	_	46	amod	_	TokenRange=380:392
+48	pacote	pacotar	VERB	VERB	_	43	parataxis	_	TokenRange=393:399
+49	reformas	reforma	NOUN	NOUN	_	48	obj	_	TokenRange=400:408
+50	realizadas	realizar	VERB	VERB	_	49	acl	_	TokenRange=409:419
+51	embora	_	CCONJ	CONJ	_	52	mark	_	TokenRange=420:426
+52	reforma	reforma	NOUN	NOUN	_	50	nmod	_	TokenRange=427:434
+53	previdenciaria	_	ADJ	ADJ	_	52	amod	_	TokenRange=435:449
+54	sido	ser	AUX	AUX	_	52	cop	_	SpaceAfter=No|TokenRange=450:454
+

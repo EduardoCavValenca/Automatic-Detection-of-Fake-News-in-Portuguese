@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 5 mitos sobre cancer derrubados 3 jovens doenca britanicas rachel deborah lauren faixa 30 anos diagnosticadas cancer falam sobre doenca humor leveza podcast bbc melhores amigos filhas maes celulas raras assim descritas rachel bland deborah james lauren mahon tres jovens britanicas lidar cancer trinta anos apresentam
+1	5	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:1
+2	mitos	mito	NOUN	NOUN	_	46	nsubj	_	TokenRange=2:7
+3	sobre	_	ADP	ADP	_	4	case	_	TokenRange=8:13
+4	cancer	cancer	NOUN	NOUN	_	2	nmod	_	TokenRange=14:20
+5	derrubados	derrubado	ADJ	ADJ	_	4	amod	_	TokenRange=21:31
+6	3	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=32:33
+7	jovens	jovem	ADJ	ADJ	_	8	amod	_	TokenRange=34:40
+8	doenca	doenca	NOUN	NOUN	_	46	obj	_	TokenRange=41:47
+9	britanicas	britanico	ADJ	ADJ	_	8	amod	_	TokenRange=48:58
+10	rachel	_	NOUN	NOUN	_	8	appos	_	TokenRange=59:65
+11	deborah	_	NOUN	NOUN	_	10	flat	_	TokenRange=66:73
+12	lauren	_	NOUN	NOUN	_	10	flat	_	TokenRange=74:80
+13	faixa	faixa	NOUN	NOUN	_	8	appos	_	TokenRange=81:86
+14	30	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=87:89
+15	anos	ano	NOUN	NOUN	_	13	appos	_	TokenRange=90:94
+16	diagnosticadas	diagnosticar	VERB	VERB	_	15	acl	_	TokenRange=95:109
+17	cancer	cancer	NOUN	NOUN	_	16	nsubj	_	TokenRange=110:116
+18	falam	_	VERB	VERB	_	46	ccomp	_	TokenRange=117:122
+19	sobre	_	ADP	ADP	_	20	case	_	TokenRange=123:128
+20	doenca	doenca	NOUN	NOUN	_	18	nmod	_	TokenRange=129:135
+21	humor	humor	NOUN	NOUN	_	20	appos	_	TokenRange=136:141
+22	leveza	leveza	NOUN	NOUN	_	20	appos	_	TokenRange=142:148
+23	podcast	_	NOUN	NOUN	_	20	appos	_	TokenRange=149:156
+24	bbc	_	NOUN	NOUN	_	26	appos	_	TokenRange=157:160
+25	melhores	melhor	ADJ	ADJ	_	26	amod	_	TokenRange=161:169
+26	amigos	amigo	NOUN	NOUN	_	23	appos	_	TokenRange=170:176
+27	filhas	filho	NOUN	NOUN	_	26	appos	_	TokenRange=177:183
+28	maes	mae	ADJ	ADJ	_	29	amod	_	TokenRange=184:188
+29	celulas	celula	NOUN	NOUN	_	27	appos	_	TokenRange=189:196
+30	raras	raro	ADJ	ADJ	_	29	amod	_	TokenRange=197:202
+31	assim	assim	ADV	ADV	_	32	advmod	_	TokenRange=203:208
+32	descritas	descrever	VERB	VERB	_	29	acl	_	TokenRange=209:218
+33	rachel	_	NOUN	NOUN	_	46	obj	_	TokenRange=219:225
+34	bland	_	NOUN	NOUN	_	33	flat	_	TokenRange=226:231
+35	deborah	_	NOUN	NOUN	_	33	appos	_	TokenRange=232:239
+36	james	_	NOUN	NOUN	_	35	flat	_	TokenRange=240:245
+37	lauren	_	NOUN	NOUN	_	33	appos	_	TokenRange=246:252
+38	mahon	_	NOUN	NOUN	_	35	flat	_	TokenRange=253:258
+39	tres	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=259:263
+40	jovens	jovem	NOUN	NOUN	_	46	nsubj	_	TokenRange=264:270
+41	britanicas	britanico	ADJ	ADJ	_	40	amod	_	TokenRange=271:281
+42	lidar	lidar	VERB	VERB	_	40	acl:inf	_	TokenRange=282:287
+43	cancer	cancer	NOUN	NOUN	_	42	obj	_	TokenRange=288:294
+44	trinta	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=295:301
+45	anos	ano	NOUN	NOUN	_	42	obj	_	TokenRange=302:306
+46	apresentam	apresentar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=307:317
+

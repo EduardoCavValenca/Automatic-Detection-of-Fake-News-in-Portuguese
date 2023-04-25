@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = engenheiro ambiental desabafa escondendo maior desastre ambiental brasil milhoes pessoas afetadas heverton rocha engenheiro ambiental sanitarista hoje 15/11/2015 pai fizemos visita rio doce local ponte queimada manancial faz divisa d municipios pingo dagua video digo erroneamente bom jesus galho cena triste gente agua rio ainda exala forte cheiro caracteristico corpo dagua
+1	engenheiro	engenheiro	NOUN	NOUN	_	46	nsubj	_	TokenRange=0:10
+2	ambiental	ambiental	ADJ	ADJ	_	1	amod	_	TokenRange=11:20
+3	desabafa	_	NOUN	NOUN	_	1	appos	_	TokenRange=21:29
+4	escondendo	esconder	VERB	VERB	_	1	acl	_	TokenRange=30:40
+5	maior	maior	ADJ	ADJ	_	6	amod	_	TokenRange=41:46
+6	desastre	desastre	NOUN	NOUN	_	4	obj	_	TokenRange=47:55
+7	ambiental	ambiental	ADJ	ADJ	_	6	amod	_	TokenRange=56:65
+8	brasil	brasil	NOUN	NOUN	_	10	appos	_	TokenRange=66:72
+9	milhoes	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=73:80
+10	pessoas	pessoa	NOUN	NOUN	_	4	obj	_	TokenRange=81:88
+11	afetadas	afetado	ADJ	ADJ	_	10	amod	_	TokenRange=89:97
+12	heverton	_	NOUN	NOUN	_	10	appos	_	TokenRange=98:106
+13	rocha	_	NOUN	NOUN	_	12	flat	_	TokenRange=107:112
+14	engenheiro	engenheiro	NOUN	NOUN	_	12	appos	_	TokenRange=113:123
+15	ambiental	ambiental	ADJ	ADJ	_	14	amod	_	TokenRange=124:133
+16	sanitarista	sanitarista	ADJ	ADJ	_	14	amod	_	TokenRange=134:145
+17	hoje	hoje	ADV	ADV	_	20	advmod	_	TokenRange=146:150
+18	15/11/2015	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=151:161
+19	pai	pai	NOUN	NOUN	_	20	nsubj	_	TokenRange=162:165
+20	fizemos	fazer	VERB	VERB	_	14	acl:relcl	_	TokenRange=166:173
+21	visita	visitar	VERB	VERB	_	20	obj	_	TokenRange=174:180
+22	rio	rio	NOUN	NOUN	_	21	obj	_	TokenRange=181:184
+23	doce	doce	ADJ	ADJ	_	22	amod	_	TokenRange=185:189
+24	local	local	ADJ	ADJ	_	22	amod	_	TokenRange=190:195
+25	ponte	ponte	NOUN	NOUN	_	21	nsubj	_	TokenRange=196:201
+26	queimada	queimado	ADJ	ADJ	_	25	amod	_	TokenRange=202:210
+27	manancial	manancial	ADJ	ADJ	_	25	amod	_	TokenRange=211:220
+28	faz	fazer	VERB	VERB	_	21	parataxis	_	TokenRange=221:224
+29	divisa	divisa	NOUN	NOUN	_	28	obj	_	TokenRange=225:231
+30	d	_	ADP	ADP	_	31	case	_	TokenRange=232:233
+31	municipios	municipio	NOUN	NOUN	_	29	nmod	_	TokenRange=234:244
+32	pingo	pingo	NOUN	NOUN	_	28	nmod	_	TokenRange=245:250
+33	dagua	_	NOUN	NOUN	_	32	flat	_	TokenRange=251:256
+34	video	video	NOUN	NOUN	_	35	nsubj	_	TokenRange=257:262
+35	digo	dizer	VERB	VERB	_	28	parataxis	_	TokenRange=263:267
+36	erroneamente	erroneamente	ADV	ADV	_	35	advmod	_	TokenRange=268:280
+37	bom	bom	ADJ	ADJ	_	38	amod	_	TokenRange=281:284
+38	jesus	jesus	NOUN	NOUN	_	35	obj	_	TokenRange=285:290
+39	galho	galho	ADJ	ADJ	_	38	amod	_	TokenRange=291:296
+40	cena	cena	NOUN	NOUN	_	35	appos	_	TokenRange=297:301
+41	triste	triste	ADJ	ADJ	_	40	amod	_	TokenRange=302:308
+42	gente	gente	NOUN	NOUN	_	46	nsubj	_	TokenRange=309:314
+43	agua	_	NOUN	NOUN	_	40	appos	_	TokenRange=315:319
+44	rio	rio	NOUN	NOUN	_	43	appos	_	TokenRange=320:323
+45	ainda	ainda	ADV	ADV	_	46	advmod	_	TokenRange=324:329
+46	exala	exalar	VERB	VERB	_	0	root	_	TokenRange=330:335
+47	forte	forte	ADJ	ADJ	_	48	amod	_	TokenRange=336:341
+48	cheiro	cheiro	NOUN	NOUN	_	46	obj	_	TokenRange=342:348
+49	caracteristico	caracteristico	ADJ	ADJ	_	48	amod	_	TokenRange=349:363
+50	corpo	corpo	NOUN	NOUN	_	46	nsubj	_	TokenRange=364:369
+51	dagua	_	NOUN	NOUN	_	48	amod	_	SpaceAfter=No|TokenRange=370:375
+

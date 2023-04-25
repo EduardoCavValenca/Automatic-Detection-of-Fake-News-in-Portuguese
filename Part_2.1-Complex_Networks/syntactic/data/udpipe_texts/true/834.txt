@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = motorista envolvido morte comissario processou prefeitura demora samu outro acidente advogado informou justica acidente moto causado manchas oleo pista cobrou prefeitura despesas tratamento perdeu causa motorista bateu alta velocidade provocou morte comissario bordo 43 anos avenida bandeirantes zona sul paulo madrugada ultima sextafeira 14 processado prefeitura paulo outro acidente envolveu alegando demora samu prestar
+1	motorista	motorista	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:9
+2	envolvido	envolver	VERB	VERB	_	1	acl	_	TokenRange=10:19
+3	morte	morte	NOUN	NOUN	_	2	obj	_	TokenRange=20:25
+4	comissario	comissario	NOUN	NOUN	_	1	flat	_	TokenRange=26:36
+5	processou	processar	VERB	VERB	_	0	root	_	TokenRange=37:46
+6	prefeitura	prefeitura	NOUN	NOUN	_	5	obj	_	TokenRange=47:57
+7	demora	demora	NOUN	NOUN	_	6	appos	_	TokenRange=58:64
+8	samu	_	NOUN	NOUN	_	7	flat	_	TokenRange=65:69
+9	outro	_	DET	DET	_	10	det	_	TokenRange=70:75
+10	acidente	acidente	NOUN	NOUN	_	12	nsubj	_	TokenRange=76:84
+11	advogado	advogado	NOUN	NOUN	_	10	appos	_	TokenRange=85:93
+12	informou	informar	VERB	VERB	_	5	parataxis	_	TokenRange=94:102
+13	justica	justico	ADJ	ADJ	_	12	xcomp	_	TokenRange=103:110
+14	acidente	acidente	NOUN	NOUN	_	12	obj	_	TokenRange=111:119
+15	moto	moto	NOUN	NOUN	_	14	flat	_	TokenRange=120:124
+16	causado	causar	VERB	VERB	_	14	acl	_	TokenRange=125:132
+17	manchas	mancha	NOUN	NOUN	_	16	obj	_	TokenRange=133:140
+18	oleo	_	ADJ	ADJ	_	17	amod	_	TokenRange=141:145
+19	pista	pista	NOUN	NOUN	_	17	flat	_	TokenRange=146:151
+20	cobrou	cobrar	VERB	VERB	_	14	acl:relcl	_	TokenRange=152:158
+21	prefeitura	prefeitura	NOUN	NOUN	_	20	obj	_	TokenRange=159:169
+22	despesas	despesa	NOUN	NOUN	_	20	nsubj	_	TokenRange=170:178
+23	tratamento	tratamento	NOUN	NOUN	_	24	nsubj	_	TokenRange=179:189
+24	perdeu	perder	VERB	VERB	_	20	parataxis	_	TokenRange=190:196
+25	causa	causa	NOUN	NOUN	_	24	obj	_	TokenRange=197:202
+26	motorista	motorista	NOUN	NOUN	_	27	nsubj	_	TokenRange=203:212
+27	bateu	bater	VERB	VERB	_	24	conj	_	TokenRange=213:218
+28	alta	alto	ADJ	ADJ	_	29	amod	_	TokenRange=219:223
+29	velocidade	velocidade	NOUN	NOUN	_	27	obj	_	TokenRange=224:234
+30	provocou	provocar	VERB	VERB	_	27	parataxis	_	TokenRange=235:243
+31	morte	morte	NOUN	NOUN	_	30	obj	_	TokenRange=244:249
+32	comissario	comissario	NOUN	NOUN	_	31	appos	_	TokenRange=250:260
+33	bordo	bordo	NOUN	NOUN	_	31	flat	_	TokenRange=261:266
+34	43	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=267:269
+35	anos	ano	NOUN	NOUN	_	31	appos	_	TokenRange=270:274
+36	avenida	avenida	NOUN	NOUN	_	31	appos	_	TokenRange=275:282
+37	bandeirantes	bandeirante	ADJ	ADJ	_	38	amod	_	TokenRange=283:295
+38	zona	zona	NOUN	NOUN	_	36	appos	_	TokenRange=296:300
+39	sul	sul	ADJ	ADJ	_	38	amod	_	TokenRange=301:304
+40	paulo	paulo	NOUN	NOUN	_	41	amod	_	TokenRange=305:310
+41	madrugada	madrugada	NOUN	NOUN	_	36	appos	_	TokenRange=311:320
+42	ultima	_	ADJ	ADJ	_	43	amod	_	TokenRange=321:327
+43	sextafeira	sextafeira	NOUN	NOUN	_	38	appos	_	TokenRange=328:338
+44	14	_	NUM	NUM	NumType=Card	43	appos	_	TokenRange=339:341
+45	processado	processar	VERB	VERB	_	50	acl	_	TokenRange=342:352
+46	prefeitura	prefeitura	NOUN	NOUN	_	45	nsubj	_	TokenRange=353:363
+47	paulo	paulo	ADJ	ADJ	_	46	flat	_	TokenRange=364:369
+48	outro	_	DET	DET	_	49	det	_	TokenRange=370:375
+49	acidente	acidente	NOUN	NOUN	_	50	nsubj	_	TokenRange=376:384
+50	envolveu	envolver	VERB	VERB	_	41	acl:relcl	_	TokenRange=385:393
+51	alegando	alegar	VERB	VERB	_	50	acl	_	TokenRange=394:402
+52	demora	demora	NOUN	NOUN	_	54	obj	_	TokenRange=403:409
+53	samu	_	NOUN	NOUN	_	52	flat	_	TokenRange=410:414
+54	prestar	prestar	VERB	VERB	_	51	ccomp	_	SpaceAfter=No|TokenRange=415:422
+

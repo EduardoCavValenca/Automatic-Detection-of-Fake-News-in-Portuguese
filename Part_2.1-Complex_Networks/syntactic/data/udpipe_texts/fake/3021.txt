@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exclusivo cinegrafista flagra membros mst atacando policia federal bando anarquistas sustentados governo federal atacando corporacao policia federal agressoes aconteceram rondonia flagradas cinegrafista amador turma vermelhinhos invadiu predio receita federal recusava deixar local alguns obedeceram ordens policia evacuaram local enquanto outros partiram pra cima policia pedacos pau foices
+1	exclusivo	exclusivo	ADJ	ADJ	_	2	amod	_	TokenRange=0:9
+2	cinegrafista	cinegrafista	NOUN	NOUN	_	19	nsubj	_	TokenRange=10:22
+3	flagra	flagrar	VERB	VERB	_	2	appos	_	TokenRange=23:29
+4	membros	membro	NOUN	NOUN	_	3	obj	_	TokenRange=30:37
+5	mst	_	NOUN	NOUN	_	4	appos	_	TokenRange=38:41
+6	atacando	atacar	VERB	VERB	_	4	acl	_	TokenRange=42:50
+7	policia	policia	NOUN	NOUN	_	6	obj	_	TokenRange=51:58
+8	federal	federal	ADJ	ADJ	_	7	amod	_	TokenRange=59:66
+9	bando	bando	NOUN	NOUN	_	7	appos	_	TokenRange=67:72
+10	anarquistas	anarquista	ADJ	ADJ	_	9	amod	_	TokenRange=73:84
+11	sustentados	sustentado	ADJ	ADJ	_	12	amod	_	TokenRange=85:96
+12	governo	governo	NOUN	NOUN	_	9	appos	_	TokenRange=97:104
+13	federal	federal	ADJ	ADJ	_	12	amod	_	TokenRange=105:112
+14	atacando	atacar	VERB	VERB	_	12	acl	_	TokenRange=113:121
+15	corporacao	corporacao	NOUN	NOUN	_	14	obj	_	TokenRange=122:132
+16	policia	policia	NOUN	NOUN	_	15	appos	_	TokenRange=133:140
+17	federal	federal	ADJ	ADJ	_	16	amod	_	TokenRange=141:148
+18	agressoes	agressoe	NOUN	NOUN	_	14	nsubj	_	TokenRange=149:158
+19	aconteceram	acontecer	VERB	VERB	_	0	root	_	TokenRange=159:170
+20	rondonia	rondonia	NOUN	NOUN	_	19	obj	_	TokenRange=171:179
+21	flagradas	flagrado	ADJ	ADJ	_	22	amod	_	TokenRange=180:189
+22	cinegrafista	cinegrafista	NOUN	NOUN	_	26	nsubj	_	TokenRange=190:202
+23	amador	amador	ADJ	ADJ	_	22	amod	_	TokenRange=203:209
+24	turma	turma	NOUN	NOUN	_	22	appos	_	TokenRange=210:215
+25	vermelhinhos	vermelhinho	ADJ	ADJ	_	24	amod	_	TokenRange=216:228
+26	invadiu	invadir	VERB	VERB	_	19	parataxis	_	TokenRange=229:236
+27	predio	predio	NOUN	NOUN	_	26	obj	_	TokenRange=237:243
+28	receita	receita	NOUN	NOUN	_	27	appos	_	TokenRange=244:251
+29	federal	federal	ADJ	ADJ	_	28	amod	_	TokenRange=252:259
+30	recusava	recusar	VERB	VERB	_	26	conj	_	TokenRange=260:268
+31	deixar	deixar	VERB	VERB	_	30	xcomp	_	TokenRange=269:275
+32	local	local	NOUN	NOUN	_	31	obj	_	TokenRange=276:281
+33	alguns	_	PRON	PRON	_	34	nsubj	_	TokenRange=282:288
+34	obedeceram	obedecer	VERB	VERB	_	31	ccomp	_	TokenRange=289:299
+35	ordens	ordem	NOUN	NOUN	_	34	obj	_	TokenRange=300:306
+36	policia	policia	NOUN	NOUN	_	35	amod	_	TokenRange=307:314
+37	evacuaram	evacuar	VERB	VERB	_	34	ccomp	_	TokenRange=315:324
+38	local	local	NOUN	NOUN	_	37	obj	_	TokenRange=325:330
+39	enquanto	_	CCONJ	CONJ	_	41	mark	_	TokenRange=331:339
+40	outros	_	PRON	PRON	_	41	nsubj	_	TokenRange=340:346
+41	partiram	partir	VERB	VERB	_	37	advcl	_	TokenRange=347:355
+42	pra	_	ADP	ADP	_	43	case	_	TokenRange=356:359
+43	cima	cima	NOUN	NOUN	_	41	nmod	_	TokenRange=360:364
+44	policia	policia	NOUN	NOUN	_	41	obj	_	TokenRange=365:372
+45	pedacos	pedaco	NOUN	NOUN	_	44	appos	_	TokenRange=373:380
+46	pau	pau	VERB	VERB	_	47	amod	_	TokenRange=381:384
+47	foices	_	NOUN	NOUN	_	44	conj	_	SpaceAfter=No|TokenRange=385:391
+

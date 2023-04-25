@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = islandia pode tornar primeiro pais europa proibir circuncisao religiosa parlamento islandia discute projeto pode punir circuncisao seis anos prisao pratica comum judaismo isla seis anos prisao penalidade islandia quer impor realizar circuncisao meninos razoes puramente medicas controverso projeto lei apresentado comeco mes deputada silja dogg gunnarsdottir partido progressista pp conservador agora proposta sendo analisada parlamento pais debate pode demorar meses proposta aprovada
+1	islandia	islandia	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	pode	_	AUX	AUX	_	5	aux	_	TokenRange=9:13
+3	tornar	tornar	AUX	AUX	_	5	cop	_	TokenRange=14:20
+4	primeiro	primeiro	ADJ	ADJ	_	5	amod	_	TokenRange=21:29
+5	pais	_	NOUN	NOUN	_	0	root	_	TokenRange=30:34
+6	europa	_	ADJ	ADJ	_	5	amod	_	TokenRange=35:41
+7	proibir	proibir	VERB	VERB	_	5	csubj	_	TokenRange=42:49
+8	circuncisao	circuncisao	NOUN	NOUN	_	7	obj	_	TokenRange=50:61
+9	religiosa	religioso	ADJ	ADJ	_	8	amod	_	TokenRange=62:71
+10	parlamento	parlamento	NOUN	NOUN	_	5	nsubj	_	TokenRange=72:82
+11	islandia	islandia	ADJ	ADJ	_	10	amod	_	TokenRange=83:91
+12	discute	discutir	VERB	VERB	_	5	acl:relcl	_	TokenRange=92:99
+13	projeto	projeto	NOUN	NOUN	_	12	obj	_	TokenRange=100:107
+14	pode	_	AUX	AUX	_	15	aux	_	TokenRange=108:112
+15	punir	punir	VERB	VERB	_	13	acl:relcl	_	TokenRange=113:118
+16	circuncisao	circuncisao	NOUN	NOUN	_	15	obj	_	TokenRange=119:130
+17	seis	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=131:135
+18	anos	ano	NOUN	NOUN	_	15	nmod	_	TokenRange=136:140
+19	prisao	prisao	NOUN	NOUN	_	18	appos	_	TokenRange=141:147
+20	pratica	_	NOUN	NOUN	_	15	obj	_	TokenRange=148:155
+21	comum	comum	ADJ	ADJ	_	20	amod	_	TokenRange=156:161
+22	judaismo	judaismo	NOUN	NOUN	_	20	appos	_	TokenRange=162:170
+23	isla	_	VERB	VERB	_	20	acl:relcl	_	TokenRange=171:175
+24	seis	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=176:180
+25	anos	ano	NOUN	NOUN	_	23	nmod	_	TokenRange=181:185
+26	prisao	prisao	ADJ	ADJ	_	27	amod	_	TokenRange=186:192
+27	penalidade	penalidade	NOUN	NOUN	_	23	nsubj	_	TokenRange=193:203
+28	islandia	islandia	NOUN	NOUN	_	29	nsubj	_	TokenRange=204:212
+29	quer	querer	VERB	VERB	_	23	conj	_	TokenRange=213:217
+30	impor	impor	VERB	VERB	_	29	xcomp	_	TokenRange=218:223
+31	realizar	realizar	VERB	VERB	_	30	xcomp	_	TokenRange=224:232
+32	circuncisao	circuncisao	NOUN	NOUN	_	31	obj	_	TokenRange=233:244
+33	meninos	menino	ADJ	ADJ	_	34	amod	_	TokenRange=245:252
+34	razoes	razoe	NOUN	NOUN	_	32	appos	_	TokenRange=253:259
+35	puramente	puramente	ADV	ADV	_	36	advmod	_	TokenRange=260:269
+36	medicas	medico	ADJ	ADJ	_	34	amod	_	TokenRange=270:277
+37	controverso	controverso	ADJ	ADJ	_	38	amod	_	TokenRange=278:289
+38	projeto	projeto	NOUN	NOUN	_	34	appos	_	TokenRange=290:297
+39	lei	lei	NOUN	NOUN	_	38	flat	_	TokenRange=298:301
+40	apresentado	apresentar	VERB	VERB	_	38	acl	_	TokenRange=302:313
+41	comeco	comeco	NOUN	NOUN	_	40	nmod	_	TokenRange=314:320
+42	mes	_	NOUN	NOUN	_	41	nmod	_	TokenRange=321:324
+43	deputada	deputado	NOUN	NOUN	_	41	appos	_	TokenRange=325:333
+44	silja	_	NOUN	NOUN	_	43	appos	_	TokenRange=334:339
+45	dogg	_	X	NOUN	_	44	flat	_	TokenRange=340:344
+46	gunnarsdottir	_	NOUN	NOUN	_	44	flat	_	TokenRange=345:358
+47	partido	partido	NOUN	NOUN	_	44	appos	_	TokenRange=359:366
+48	progressista	progressista	ADJ	ADJ	_	47	amod	_	TokenRange=367:379
+49	pp	_	NOUN	NOUN	_	50	appos	_	TokenRange=380:382
+50	conservador	conservador	NOUN	NOUN	_	47	amod	_	TokenRange=383:394
+51	agora	agora	ADV	ADV	_	52	advmod	_	TokenRange=395:400
+52	proposta	_	NOUN	NOUN	_	59	nsubj	_	TokenRange=401:409
+53	sendo	ser	AUX	AUX	_	54	aux:pass	_	TokenRange=410:415
+54	analisada	analisar	VERB	VERB	_	52	acl	_	TokenRange=416:425
+55	parlamento	parlamento	NOUN	NOUN	_	59	nsubj	_	TokenRange=426:436
+56	pais	_	ADJ	ADJ	_	57	amod	_	TokenRange=437:441
+57	debate	debate	NOUN	NOUN	_	59	nsubj	_	TokenRange=442:448
+58	pode	_	AUX	AUX	_	59	aux	_	TokenRange=449:453
+59	demorar	demorar	VERB	VERB	_	44	conj	_	TokenRange=454:461
+60	meses	mês	NOUN	NOUN	_	59	obj	_	TokenRange=462:467
+61	proposta	_	NOUN	NOUN	_	59	obj	_	TokenRange=468:476
+62	aprovada	aprovar	VERB	VERB	_	61	acl	_	SpaceAfter=No|TokenRange=477:485
+

@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exercito eua participara exercicio militar amazonia convite brasil base tabatinga fronteira triplice drogas armas entram livremente amazonia iniciativa marcada novembro inspirada exercicio otan hungria brasil observador convidado tropas americanas convidadas exercito brasileiro participar exercicio militar triplice fronteira amazonica brasil peru colombia novembro deste ano segundo exercito operacao america unida dez dias simulacoes militares comandadas partir base multinacional formada tropas tres paises fronteira estados unidos descrita forcas armadas experiencia inedita
+1	exercito	exercito	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	eua	_	PRON	PRON	_	1	appos	_	TokenRange=9:12
+3	participara	participar	VERB	VERB	_	0	root	_	TokenRange=13:24
+4	exercicio	exercicio	NOUN	NOUN	_	3	obj	_	TokenRange=25:34
+5	militar	militar	ADJ	ADJ	_	4	amod	_	TokenRange=35:42
+6	amazonia	amazonia	NOUN	NOUN	_	4	appos	_	TokenRange=43:51
+7	convite	convite	NOUN	NOUN	_	4	appos	_	TokenRange=52:59
+8	brasil	brasil	NOUN	NOUN	_	9	amod	_	TokenRange=60:66
+9	base	base	NOUN	NOUN	_	7	appos	_	TokenRange=67:71
+10	tabatinga	_	NOUN	NOUN	_	9	flat	_	TokenRange=72:81
+11	fronteira	_	NOUN	NOUN	_	9	appos	_	TokenRange=82:91
+12	triplice	_	ADJ	ADJ	_	13	amod	_	TokenRange=92:100
+13	drogas	droga	NOUN	NOUN	_	11	appos	_	TokenRange=101:107
+14	armas	arma	NOUN	NOUN	_	13	appos	_	TokenRange=108:113
+15	entram	entrar	VERB	VERB	_	3	parataxis	_	TokenRange=114:120
+16	livremente	livremente	ADV	ADV	_	15	advmod	_	TokenRange=121:131
+17	amazonia	amazonia	NOUN	NOUN	_	15	obj	_	TokenRange=132:140
+18	iniciativa	iniciativa	NOUN	NOUN	_	15	obj	_	TokenRange=141:151
+19	marcada	marcar	VERB	VERB	_	18	acl	_	TokenRange=152:159
+20	novembro	_	PROPN	PNOUN	_	18	appos	_	TokenRange=160:168
+21	inspirada	inspirado	ADJ	ADJ	_	22	amod	_	TokenRange=169:178
+22	exercicio	exercicio	NOUN	NOUN	_	18	appos	_	TokenRange=179:188
+23	otan	otan	ADJ	ADJ	_	22	amod	_	TokenRange=189:193
+24	hungria	hungria	NOUN	NOUN	_	22	appos	_	TokenRange=194:201
+25	brasil	brasil	ADJ	ADJ	_	26	amod	_	TokenRange=202:208
+26	observador	observador	NOUN	NOUN	_	22	appos	_	TokenRange=209:219
+27	convidado	convidado	ADJ	ADJ	_	26	amod	_	TokenRange=220:229
+28	tropas	tropa	NOUN	NOUN	_	26	appos	_	TokenRange=230:236
+29	americanas	americano	ADJ	ADJ	_	28	amod	_	TokenRange=237:247
+30	convidadas	convidado	ADJ	ADJ	_	28	amod	_	TokenRange=248:258
+31	exercito	exercito	NOUN	NOUN	_	33	nsubj	_	TokenRange=259:267
+32	brasileiro	brasileiro	ADJ	ADJ	_	28	amod	_	TokenRange=268:278
+33	participar	participar	VERB	VERB	_	3	parataxis	_	TokenRange=279:289
+34	exercicio	exercicio	NOUN	NOUN	_	33	obj	_	TokenRange=290:299
+35	militar	militar	ADJ	ADJ	_	34	amod	_	TokenRange=300:307
+36	triplice	triplice	ADJ	ADJ	_	37	amod	_	TokenRange=308:316
+37	fronteira	_	NOUN	NOUN	_	34	appos	_	TokenRange=317:326
+38	amazonica	amazonico	ADJ	ADJ	_	37	amod	_	TokenRange=327:336
+39	brasil	brasil	ADJ	ADJ	_	37	amod	_	TokenRange=337:343
+40	peru	_	NOUN	NOUN	_	34	appos	_	TokenRange=344:348
+41	colombia	_	NOUN	NOUN	_	40	flat	_	TokenRange=349:357
+42	novembro	_	PROPN	PNOUN	_	40	appos	_	TokenRange=358:366
+43	deste	_	ADP	ADP	_	44	case	_	TokenRange=367:372
+44	ano	ano	NOUN	NOUN	_	42	nmod	_	TokenRange=373:376
+45	segundo	segundo	ADJ	ADJ	_	46	amod	_	TokenRange=377:384
+46	exercito	exercito	NOUN	NOUN	_	40	appos	_	TokenRange=385:393
+47	operacao	operacao	NOUN	NOUN	_	46	appos	_	TokenRange=394:402
+48	america	america	NOUN	NOUN	_	46	appos	_	TokenRange=403:410
+49	unida	unido	ADJ	ADJ	_	48	amod	_	TokenRange=411:416
+50	dez	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=417:420
+51	dias	dia	NOUN	NOUN	_	46	nmod	_	TokenRange=421:425
+52	simulacoes	simulacoe	NOUN	NOUN	_	51	appos	_	TokenRange=426:436
+53	militares	militar	ADJ	ADJ	_	52	amod	_	TokenRange=437:446
+54	comandadas	comandar	VERB	VERB	_	52	acl	_	TokenRange=447:457
+55	partir	partir	VERB	VERB	_	54	xcomp	_	TokenRange=458:464
+56	base	base	NOUN	NOUN	_	55	obj	_	TokenRange=465:469
+57	multinacional	multinacional	ADJ	ADJ	_	56	amod	_	TokenRange=470:483
+58	formada	formar	VERB	VERB	_	56	acl	_	TokenRange=484:491
+59	tropas	tropa	NOUN	NOUN	_	56	appos	_	TokenRange=492:498
+60	tres	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=499:503
+61	paises	paise	NOUN	NOUN	_	59	appos	_	TokenRange=504:510
+62	fronteira	_	ADJ	ADJ	_	61	amod	_	TokenRange=511:520
+63	estados	estado	NOUN	NOUN	_	59	appos	_	TokenRange=521:528
+64	unidos	unido	ADJ	ADJ	_	63	amod	_	TokenRange=529:535
+65	descrita	descrever	ADJ	ADJ	_	66	amod	_	TokenRange=536:544
+66	forcas	forca	NOUN	NOUN	_	56	appos	_	TokenRange=545:551
+67	armadas	armado	ADJ	ADJ	_	66	amod	_	TokenRange=552:559
+68	experiencia	experiencia	NOUN	NOUN	_	66	appos	_	TokenRange=560:571
+69	inedita	inedito	ADJ	ADJ	_	66	amod	_	SpaceAfter=No|TokenRange=572:579
+

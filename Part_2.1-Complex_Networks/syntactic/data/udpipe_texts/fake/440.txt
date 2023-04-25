@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2009 barbosa alertou gilmar mendes destruindo justica pais tarde quartafeira dia 22 abril 2009 abaixo trechos dialogo exministro expresidente supremo tribunal federal joaquim barbosa gilmar mendes mendes vossa excelencia condicoes dar licoes ninguem barbosa vossa excelencia destruindo justica desse pais agora vem dar licao moral mim mendes risos risos risos barbosa saia ruas saia ruas vossa excelencia faz faco vossa excelencia midia destruindo credibilidade judiciario brasileiro vossa excelencia lidando capangas mato grosso ministro gilmar respeiteme respeiteme
+1	2009	_	NUM	NUM	NumType=Card	3	nsubj	_	TokenRange=0:4
+2	barbosa	barboso	NOUN	NOUN	_	3	nsubj	_	TokenRange=5:12
+3	alertou	alertar	VERB	VERB	_	0	root	_	TokenRange=13:20
+4	gilmar	gilmar	NOUN	NOUN	_	3	obj	_	TokenRange=21:27
+5	mendes	_	NOUN	NOUN	_	4	amod	_	TokenRange=28:34
+6	destruindo	destruir	VERB	VERB	_	3	acl	_	TokenRange=35:45
+7	justica	_	NOUN	NOUN	_	6	obj	_	TokenRange=46:53
+8	pais	_	NOUN	NOUN	_	4	appos	_	TokenRange=54:58
+9	tarde	tarde	NOUN	NOUN	_	4	advmod	_	TokenRange=59:64
+10	quartafeira	_	ADJ	ADJ	_	11	amod	_	TokenRange=65:76
+11	dia	dia	NOUN	NOUN	_	3	nmod	_	TokenRange=77:80
+12	22	_	NUM	NUM	NumType=Card	11	appos	_	TokenRange=81:83
+13	abril	_	PROPN	PNOUN	_	11	nmod	_	TokenRange=84:89
+14	2009	_	NUM	NUM	NumType=Card	13	nmod	_	TokenRange=90:94
+15	abaixo	abaixo	ADV	ADV	_	16	advmod	_	TokenRange=95:101
+16	trechos	trecho	NOUN	NOUN	_	3	appos	_	TokenRange=102:109
+17	dialogo	dialogo	NOUN	NOUN	_	3	nsubj	_	TokenRange=110:117
+18	exministro	exministro	ADJ	ADJ	_	17	amod	_	TokenRange=118:128
+19	expresidente	expresidente	NOUN	NOUN	_	21	amod	_	TokenRange=129:141
+20	supremo	supremo	ADJ	ADJ	_	21	amod	_	TokenRange=142:149
+21	tribunal	tribunal	NOUN	NOUN	_	17	appos	_	TokenRange=150:158
+22	federal	federal	ADJ	ADJ	_	21	amod	_	TokenRange=159:166
+23	joaquim	joaquim	NOUN	NOUN	_	21	appos	_	TokenRange=167:174
+24	barbosa	_	NOUN	NOUN	_	21	flat	_	TokenRange=175:182
+25	gilmar	gilmar	NOUN	NOUN	_	21	appos	_	TokenRange=183:189
+26	mendes	_	NOUN	NOUN	_	25	amod	_	TokenRange=190:196
+27	mendes	_	ADJ	ADJ	_	25	amod	_	TokenRange=197:203
+28	vossa	_	DET	DET	_	29	det:poss	_	TokenRange=204:209
+29	excelencia	excelencia	NOUN	NOUN	_	25	appos	_	TokenRange=210:220
+30	condicoes	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=221:230
+31	dar	dar	VERB	VERB	_	3	parataxis	_	TokenRange=231:234
+32	licoes	licoe	NOUN	NOUN	_	31	obj	_	TokenRange=235:241
+33	ninguem	_	NOUN	NOUN	_	32	appos	_	TokenRange=242:249
+34	barbosa	barboso	NOUN	NOUN	_	32	flat	_	TokenRange=250:257
+35	vossa	_	DET	DET	_	36	det:poss	_	TokenRange=258:263
+36	excelencia	excelencia	NOUN	NOUN	_	31	nsubj	_	TokenRange=264:274
+37	destruindo	destruir	VERB	VERB	_	31	acl	_	TokenRange=275:285
+38	justica	_	NOUN	NOUN	_	37	obj	_	TokenRange=286:293
+39	desse	_	ADP	ADP	_	40	case	_	TokenRange=294:299
+40	pais	_	NOUN	NOUN	_	37	nmod	_	TokenRange=300:304
+41	agora	agora	ADV	ADV	_	43	advmod	_	TokenRange=305:310
+42	vem	vir	AUX	AUX	_	43	aux	_	TokenRange=311:314
+43	dar	dar	VERB	VERB	_	3	parataxis	_	TokenRange=315:318
+44	licao	licao	NOUN	NOUN	_	43	obj	_	TokenRange=319:324
+45	moral	moral	ADJ	ADJ	_	44	amod	_	TokenRange=325:330
+46	mim	_	PRON	PRON	_	43	nsubj	_	TokenRange=331:334
+47	mendes	_	ADJ	NOUN	_	50	amod	_	TokenRange=335:341
+48	risos	riso	NOUN	NOUN	_	43	nmod	_	TokenRange=342:347
+49	risos	riso	ADJ	ADJ	_	50	amod	_	TokenRange=348:353
+50	risos	riso	NOUN	NOUN	_	43	nsubj	_	TokenRange=354:359
+51	barbosa	barboso	NOUN	NOUN	_	50	flat	_	TokenRange=360:367
+52	saia	_	VERB	VERB	_	50	acl:relcl	_	TokenRange=368:372
+53	ruas	rua	NOUN	NOUN	_	52	nsubj	_	TokenRange=373:377
+54	saia	sair	VERB	VERB	_	50	acl:relcl	_	TokenRange=378:382
+55	ruas	rua	NOUN	NOUN	_	54	obj	_	TokenRange=383:387
+56	vossa	_	DET	DET	_	57	det:poss	_	TokenRange=388:393
+57	excelencia	excelencia	NOUN	NOUN	_	58	nsubj	_	TokenRange=394:404
+58	faz	fazer	VERB	VERB	_	54	conj	_	TokenRange=405:408
+59	faco	faco	NOUN	NOUN	_	58	obj	_	TokenRange=409:413
+60	vossa	_	DET	DET	_	61	det:poss	_	TokenRange=414:419
+61	excelencia	excelencia	NOUN	NOUN	_	58	nsubj	_	TokenRange=420:430
+62	midia	_	NOUN	NOUN	_	61	appos	_	TokenRange=431:436
+63	destruindo	destruir	VERB	VERB	_	61	acl	_	TokenRange=437:447
+64	credibilidade	credibilidade	NOUN	NOUN	_	63	obj	_	TokenRange=448:461
+65	judiciario	judiciario	ADJ	ADJ	_	64	amod	_	TokenRange=462:472
+66	brasileiro	brasileiro	ADJ	ADJ	_	64	amod	_	TokenRange=473:483
+67	vossa	_	DET	DET	_	68	det:poss	_	TokenRange=484:489
+68	excelencia	excelencia	NOUN	NOUN	_	63	nsubj	_	TokenRange=490:500
+69	lidando	lidar	VERB	VERB	_	68	acl	_	TokenRange=501:508
+70	capangas	capanga	NOUN	NOUN	_	69	obj	_	TokenRange=509:517
+71	mato	mato	ADJ	ADJ	_	73	amod	_	TokenRange=518:522
+72	grosso	grosso	ADJ	ADJ	_	73	amod	_	TokenRange=523:529
+73	ministro	ministro	NOUN	NOUN	_	69	nsubj	_	TokenRange=530:538
+74	gilmar	gilmar	ADJ	ADJ	_	73	amod	_	TokenRange=539:545
+75	respeiteme	respeitemer	VERB	VERB	_	69	conj	_	TokenRange=546:556
+76	respeiteme	respeiteme	VERB	VERB	_	75	conj	_	SpaceAfter=No|TokenRange=557:567
+

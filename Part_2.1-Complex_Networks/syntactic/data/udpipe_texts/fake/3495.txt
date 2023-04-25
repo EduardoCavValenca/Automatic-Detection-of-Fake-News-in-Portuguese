@@ -1,0 +1,18 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja lista 13 senadores votaram contra manutencao prisao delcidio amaral
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	lista	lista	NOUN	NOUN	_	1	obj	_	TokenRange=5:10
+3	13	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=11:13
+4	senadores	senador	NOUN	NOUN	_	5	nsubj	_	TokenRange=14:23
+5	votaram	votar	VERB	VERB	_	1	ccomp	_	TokenRange=24:31
+6	contra	_	ADP	ADP	_	7	case	_	TokenRange=32:38
+7	manutencao	manutencao	NOUN	NOUN	_	5	nmod	_	TokenRange=39:49
+8	prisao	prisao	NOUN	NOUN	_	7	flat	_	TokenRange=50:56
+9	delcidio	delcidio	NOUN	NOUN	_	7	appos	_	TokenRange=57:65
+10	amaral	amaral	ADJ	ADJ	_	9	amod	_	SpaceAfter=No|TokenRange=66:72
+

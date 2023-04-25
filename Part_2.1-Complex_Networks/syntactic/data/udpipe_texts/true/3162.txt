@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = conselho pleno ordem advogados brasil decidiu nesta tercafeira 7 entidade maxima advocacia vai requerer supremo tribunal federal stf levantamento sigilo delacao expresidente transpetro sergio machado pivo pedido prisao presidente
+1	conselho	conselho	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:8
+2	pleno	pleno	ADJ	ADJ	_	1	amod	_	TokenRange=9:14
+3	ordem	ordem	NOUN	NOUN	_	1	appos	_	TokenRange=15:20
+4	advogados	advogado	ADJ	ADJ	_	3	amod	_	TokenRange=21:30
+5	brasil	brasil	ADJ	ADJ	_	1	amod	_	TokenRange=31:37
+6	decidiu	decidir	VERB	VERB	_	0	root	_	TokenRange=38:45
+7	nesta	_	ADP	ADP	_	8	case	_	TokenRange=46:51
+8	tercafeira	_	NOUN	NOUN	_	6	nmod	_	TokenRange=52:62
+9	7	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=63:64
+10	entidade	entidade	NOUN	NOUN	_	14	obj	_	TokenRange=65:73
+11	maxima	maximo	ADJ	ADJ	_	12	amod	_	TokenRange=74:80
+12	advocacia	advocacia	NOUN	NOUN	_	10	appos	_	TokenRange=81:90
+13	vai	ir	AUX	AUX	_	14	aux	_	TokenRange=91:94
+14	requerer	requerer	VERB	VERB	_	6	ccomp	_	TokenRange=95:103
+15	supremo	supremo	ADJ	ADJ	_	16	amod	_	TokenRange=104:111
+16	tribunal	tribunal	NOUN	NOUN	_	14	obj	_	TokenRange=112:120
+17	federal	federal	ADJ	ADJ	_	16	amod	_	TokenRange=121:128
+18	stf	_	NOUN	NOUN	_	19	appos	_	TokenRange=129:132
+19	levantamento	levantamento	NOUN	NOUN	_	14	obj	_	TokenRange=133:145
+20	sigilo	sigilo	ADJ	ADJ	_	19	amod	_	TokenRange=146:152
+21	delacao	delacao	ADJ	ADJ	_	22	amod	_	TokenRange=153:160
+22	expresidente	expresidente	NOUN	NOUN	_	19	appos	_	TokenRange=161:173
+23	transpetro	transpetro	ADJ	ADJ	_	22	amod	_	TokenRange=174:184
+24	sergio	sergio	NOUN	NOUN	_	22	appos	_	TokenRange=185:191
+25	machado	machado	ADJ	ADJ	_	24	flat	_	TokenRange=192:199
+26	pivo	pivo	ADJ	ADJ	_	27	amod	_	TokenRange=200:204
+27	pedido	pedido	NOUN	NOUN	_	22	conj	_	TokenRange=205:211
+28	prisao	prisao	ADJ	ADJ	_	27	amod	_	TokenRange=212:218
+29	presidente	presidente	NOUN	NOUN	_	27	appos	_	SpaceAfter=No|TokenRange=219:229
+

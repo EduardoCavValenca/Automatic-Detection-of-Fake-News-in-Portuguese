@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = antonio candido veja repercussao morte critico literario brasil todo perde desaparecimento homens insubstituiveis diz professora historia usp maria aparecida aquino intelectuais politicos lamentaram morte critico literario sociologo antonio candido madrugada desta sextafeira 12 98 anos paulo obras critica literaria importante formacao literatura brasileira 1959 sobre momentos decisivos formacao sistema literario brasileiro importante gracas estudos sociologicos analisou caipira
+1	antonio	antonio	NOUN	NOUN	_	2	amod	_	TokenRange=0:7
+2	candido	candido	NOUN	NOUN	_	3	nsubj	_	TokenRange=8:15
+3	veja	ver	VERB	VERB	_	0	root	_	TokenRange=16:20
+4	repercussao	repercussao	NOUN	NOUN	_	3	obj	_	TokenRange=21:32
+5	morte	morte	NOUN	NOUN	_	4	flat	_	TokenRange=33:38
+6	critico	critico	NOUN	NOUN	_	4	amod	_	TokenRange=39:46
+7	literario	literario	NOUN	NOUN	_	6	amod	_	TokenRange=47:56
+8	brasil	brasil	ADJ	ADJ	_	6	amod	_	TokenRange=57:63
+9	todo	_	PRON	PRON	_	10	nsubj	_	TokenRange=64:68
+10	perde	perder	VERB	VERB	_	4	acl:relcl	_	TokenRange=69:74
+11	desaparecimento	desaparecimento	NOUN	NOUN	_	10	obj	_	TokenRange=75:90
+12	homens	homem	NOUN	NOUN	_	10	nsubj	_	TokenRange=91:97
+13	insubstituiveis	insubstituivel	ADJ	ADJ	_	12	amod	_	TokenRange=98:113
+14	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=114:117
+15	professora	professor	NOUN	NOUN	_	14	obj	_	TokenRange=118:128
+16	historia	historia	NOUN	NOUN	_	15	appos	_	TokenRange=129:137
+17	usp	usp	NOUN	NOUN	_	15	appos	_	TokenRange=138:141
+18	maria	maria	NOUN	NOUN	_	17	appos	_	TokenRange=142:147
+19	aparecida	aparecido	ADJ	ADJ	_	18	amod	_	TokenRange=148:157
+20	aquino	aquino	ADJ	ADJ	_	21	amod	_	TokenRange=158:164
+21	intelectuais	intelectual	NOUN	NOUN	_	18	appos	_	TokenRange=165:177
+22	politicos	politico	ADJ	ADJ	_	21	amod	_	TokenRange=178:187
+23	lamentaram	lamentar	VERB	VERB	_	3	parataxis	_	TokenRange=188:198
+24	morte	morte	NOUN	NOUN	_	23	obj	_	TokenRange=199:204
+25	critico	critico	ADJ	ADJ	_	24	amod	_	TokenRange=205:212
+26	literario	literario	ADJ	ADJ	_	24	amod	_	TokenRange=213:222
+27	sociologo	sociologo	ADJ	ADJ	_	24	amod	_	TokenRange=223:232
+28	antonio	antonio	ADJ	ADJ	_	30	appos	_	TokenRange=233:240
+29	candido	candido	ADJ	ADJ	_	28	amod	_	TokenRange=241:248
+30	madrugada	madrugada	NOUN	NOUN	_	24	appos	_	TokenRange=249:258
+31	desta	_	ADP	ADP	_	32	case	_	TokenRange=259:264
+32	sextafeira	sextafeira	NOUN	NOUN	_	30	nmod	_	TokenRange=265:275
+33	12	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=276:278
+34	98	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=279:281
+35	anos	ano	NOUN	NOUN	_	30	appos	_	TokenRange=282:286
+36	paulo	paulo	ADJ	NOUN	_	37	amod	_	TokenRange=287:292
+37	obras	obra	NOUN	NOUN	_	23	nsubj	_	TokenRange=293:298
+38	critica	_	ADJ	ADJ	_	37	amod	_	TokenRange=299:306
+39	literaria	literaria	ADJ	ADJ	_	37	amod	_	TokenRange=307:316
+40	importante	importante	ADJ	ADJ	_	37	amod	_	TokenRange=317:327
+41	formacao	formacao	ADJ	ADJ	_	37	amod	_	TokenRange=328:336
+42	literatura	literatura	NOUN	NOUN	_	37	appos	_	TokenRange=337:347
+43	brasileira	brasileiro	ADJ	ADJ	_	42	amod	_	TokenRange=348:358
+44	1959	_	NUM	NUM	NumType=Card	42	appos	_	TokenRange=359:363
+45	sobre	_	ADP	ADP	_	46	case	_	TokenRange=364:369
+46	momentos	momento	NOUN	NOUN	_	42	nmod	_	TokenRange=370:378
+47	decisivos	decisivo	ADJ	ADJ	_	46	amod	_	TokenRange=379:388
+48	formacao	formacao	ADJ	ADJ	_	49	amod	_	TokenRange=389:397
+49	sistema	sistema	NOUN	NOUN	_	56	nsubj	_	TokenRange=398:405
+50	literario	literario	ADJ	ADJ	_	49	amod	_	TokenRange=406:415
+51	brasileiro	brasileiro	ADJ	ADJ	_	49	amod	_	TokenRange=416:426
+52	importante	importante	ADJ	ADJ	_	49	amod	_	TokenRange=427:437
+53	gracas	graco	ADJ	ADJ	_	54	amod	_	TokenRange=438:444
+54	estudos	estudo	NOUN	NOUN	_	49	appos	_	TokenRange=445:452
+55	sociologicos	sociologico	ADJ	ADJ	_	54	amod	_	TokenRange=453:465
+56	analisou	analisar	VERB	VERB	_	3	parataxis	_	TokenRange=466:474
+57	caipira	caipira	NOUN	NOUN	_	56	obj	_	SpaceAfter=No|TokenRange=475:482
+

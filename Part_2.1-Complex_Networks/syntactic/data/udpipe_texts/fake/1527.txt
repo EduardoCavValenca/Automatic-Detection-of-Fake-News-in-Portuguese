@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornais grande circulacao apontam vladimir putin imortal anticristo teorias conspiracao sempre fizeram parte historia humanidade disseminacao internet apos meados anos 90 antes aparecia livros passou tornar publico todos tipos pessoas desde simples acesso internet teorias sobre presidente russia invadindo redes
+1	jornais	jornal	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	grande	grande	ADJ	ADJ	_	3	amod	_	TokenRange=8:14
+3	circulacao	circulacao	NOUN	NOUN	_	1	appos	_	TokenRange=15:25
+4	apontam	apontar	VERB	VERB	_	0	root	_	TokenRange=26:33
+5	vladimir	vladimir	NOUN	VERB	_	4	obj	_	TokenRange=34:42
+6	putin	_	NOUN	NOUN	_	5	flat	_	TokenRange=43:48
+7	imortal	imortal	ADJ	ADJ	_	8	amod	_	TokenRange=49:56
+8	anticristo	anticristo	NOUN	NOUN	_	5	obj	_	TokenRange=57:67
+9	teorias	teoria	NOUN	NOUN	_	12	nsubj	_	TokenRange=68:75
+10	conspiracao	_	NOUN	NOUN	_	9	amod	_	TokenRange=76:87
+11	sempre	sempre	ADV	ADV	_	12	advmod	_	TokenRange=88:94
+12	fizeram	fazer	VERB	VERB	_	8	acl:relcl	_	TokenRange=95:102
+13	parte	parte	NOUN	NOUN	_	12	obj	_	TokenRange=103:108
+14	historia	historia	NOUN	NOUN	_	13	appos	_	TokenRange=109:117
+15	humanidade	humanidade	NOUN	NOUN	_	14	flat	_	TokenRange=118:128
+16	disseminacao	disseminacao	VERB	VERB	_	12	parataxis	_	TokenRange=129:141
+17	internet	_	PROPN	PNOUN	_	16	appos	_	TokenRange=142:150
+18	apos	_	ADP	ADP	_	19	case	_	TokenRange=151:155
+19	meados	meado	NOUN	NOUN	_	23	nmod	_	TokenRange=156:162
+20	anos	ano	NOUN	NOUN	_	19	nmod	_	TokenRange=163:167
+21	90	_	NUM	NUM	NumType=Card	20	nmod	_	TokenRange=168:170
+22	antes	antes	ADV	ADV	_	23	advmod	_	TokenRange=171:176
+23	aparecia	aparecer	VERB	VERB	_	4	parataxis	_	TokenRange=177:185
+24	livros	livro	NOUN	NOUN	_	23	nsubj	_	TokenRange=186:192
+25	passou	passar	AUX	AUX	_	26	aux	_	TokenRange=193:199
+26	tornar	tornar	VERB	VERB	_	23	parataxis	_	TokenRange=200:206
+27	publico	_	NOUN	NOUN	_	26	obj	_	TokenRange=207:214
+28	todos	_	DET	DET	_	29	det	_	TokenRange=215:220
+29	tipos	tipo	NOUN	NOUN	_	26	nsubj	_	TokenRange=221:226
+30	pessoas	pessoa	NOUN	NOUN	_	26	nsubj	_	TokenRange=227:234
+31	desde	_	ADP	ADP	_	33	case	_	TokenRange=235:240
+32	simples	simples	ADJ	ADJ	_	33	amod	_	TokenRange=241:248
+33	acesso	acesso	NOUN	NOUN	_	26	nmod	_	TokenRange=249:255
+34	internet	_	PROPN	PNOUN	_	33	appos	_	TokenRange=256:264
+35	teorias	teoria	NOUN	NOUN	_	33	appos	_	TokenRange=265:272
+36	sobre	_	ADP	ADP	_	37	case	_	TokenRange=273:278
+37	presidente	presidente	NOUN	NOUN	_	35	nmod	_	TokenRange=279:289
+38	russia	russia	ADJ	ADJ	_	37	amod	_	TokenRange=290:296
+39	invadindo	invadir	VERB	VERB	_	35	acl	_	TokenRange=297:306
+40	redes	rede	NOUN	NOUN	_	39	obj	_	SpaceAfter=No|TokenRange=307:312
+

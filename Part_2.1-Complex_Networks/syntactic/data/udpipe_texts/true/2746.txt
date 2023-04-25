@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogados marcelo odebrecht entregam 40 emails moro dizem mensagens comprovam relacao odebrecht lula terceira remessa emails computador pessoal marcelo odebrecht encaminha justica defesa marcelo odebrecht entregou nesta quartafeira 27 43 emails trocados 2008 2013 juiz sergio moro responsavel processos lava jato primeira instancia mensagens computador pessoal odebrecht conforme advogados reforcam marcelo disse delacao premiada sobre relacao odebrecht expresidente luiz inacio lula silva defesa afirma marcelo acesso conteudo passou cumprir prisao domiciliar dezembro deste ano conta disso emails encaminhados apenas agora
+1	advogados	advogado	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:9
+2	marcelo	marcelo	ADJ	ADJ	_	1	appos	_	TokenRange=10:17
+3	odebrecht	_	PROPN	PNOUN	_	1	flat	_	TokenRange=18:27
+4	entregam	entregar	VERB	VERB	_	0	root	_	TokenRange=28:36
+5	40	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=37:39
+6	emails	email	NOUN	NOUN	_	4	obj	_	TokenRange=40:46
+7	moro	moro	NOUN	NOUN	_	6	appos	_	TokenRange=47:51
+8	dizem	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=52:57
+9	mensagens	mensagem	NOUN	NOUN	_	8	obj	_	TokenRange=58:67
+10	comprovam	comprovar	VERB	VERB	_	4	parataxis	_	TokenRange=68:77
+11	relacao	relacao	NOUN	NOUN	_	10	obj	_	TokenRange=78:85
+12	odebrecht	_	ADJ	ADJ	_	11	appos	_	TokenRange=86:95
+13	lula	_	NOUN	NOUN	_	11	appos	_	TokenRange=96:100
+14	terceira	_	ADJ	ADJ	_	15	amod	_	TokenRange=101:109
+15	remessa	remessa	NOUN	NOUN	_	11	appos	_	TokenRange=110:117
+16	emails	email	ADJ	NOUN	_	17	amod	_	TokenRange=118:124
+17	computador	computador	NOUN	NOUN	_	15	appos	_	TokenRange=125:135
+18	pessoal	pessoal	ADJ	ADJ	_	17	amod	_	TokenRange=136:143
+19	marcelo	marcelo	NOUN	NOUN	_	21	nsubj	_	TokenRange=144:151
+20	odebrecht	_	PROPN	PNOUN	_	19	flat	_	TokenRange=152:161
+21	encaminha	encaminhar	VERB	VERB	_	4	parataxis	_	TokenRange=162:171
+22	justica	justico	ADJ	ADJ	_	23	amod	_	TokenRange=172:179
+23	defesa	_	NOUN	NOUN	_	21	obj	_	TokenRange=180:186
+24	marcelo	marcelo	NOUN	NOUN	_	26	nsubj	_	TokenRange=187:194
+25	odebrecht	_	PROPN	PNOUN	_	24	flat	_	TokenRange=195:204
+26	entregou	entregar	VERB	VERB	_	21	parataxis	_	TokenRange=205:213
+27	nesta	_	ADP	ADP	_	28	case	_	TokenRange=214:219
+28	quartafeira	_	NOUN	NOUN	_	26	nmod	_	TokenRange=220:231
+29	27	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=232:234
+30	43	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=235:237
+31	emails	email	NOUN	NOUN	_	26	obj	_	TokenRange=238:244
+32	trocados	trocar	VERB	VERB	_	31	acl	_	TokenRange=245:253
+33	2008	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=254:258
+34	2013	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=259:263
+35	juiz	juiz	NOUN	NOUN	_	26	nsubj	_	TokenRange=264:268
+36	sergio	sergio	ADJ	NOUN	_	35	appos	_	TokenRange=269:275
+37	moro	moro	NOUN	NOUN	_	35	flat	_	TokenRange=276:280
+38	responsavel	responsavel	ADJ	ADJ	_	35	amod	_	TokenRange=281:292
+39	processos	processo	NOUN	NOUN	_	35	appos	_	TokenRange=293:302
+40	lava	lavar	VERB	VERB	_	35	appos	_	TokenRange=303:307
+41	jato	jato	NOUN	NOUN	_	40	obj	_	TokenRange=308:312
+42	primeira	primeiro	ADJ	ADJ	_	43	amod	_	TokenRange=313:321
+43	instancia	instancia	NOUN	NOUN	_	40	obj	_	TokenRange=322:331
+44	mensagens	mensagem	NOUN	NOUN	_	40	obj	_	TokenRange=332:341
+45	computador	computador	NOUN	NOUN	_	44	appos	_	TokenRange=342:352
+46	pessoal	pessoal	ADJ	ADJ	_	45	amod	_	TokenRange=353:360
+47	odebrecht	_	NOUN	NOUN	_	45	appos	_	TokenRange=361:370
+48	conforme	_	CCONJ	CONJ	_	50	mark	_	TokenRange=371:379
+49	advogados	advogado	NOUN	NOUN	_	50	nsubj	_	TokenRange=380:389
+50	reforcam	reforcar	VERB	VERB	_	40	advcl	_	TokenRange=390:398
+51	marcelo	marcelo	NOUN	NOUN	_	50	obj	_	TokenRange=399:406
+52	disse	dizer	VERB	VERB	_	50	conj	_	TokenRange=407:412
+53	delacao	delacao	NOUN	NOUN	_	52	obj	_	TokenRange=413:420
+54	premiada	premiado	ADJ	ADJ	_	53	amod	_	TokenRange=421:429
+55	sobre	_	ADP	ADP	_	56	case	_	TokenRange=430:435
+56	relacao	relacao	NOUN	NOUN	_	53	nmod	_	TokenRange=436:443
+57	odebrecht	_	ADJ	ADJ	_	56	amod	_	TokenRange=444:453
+58	expresidente	expresidente	NOUN	NOUN	_	56	appos	_	TokenRange=454:466
+59	luiz	luiz	NOUN	NOUN	_	58	appos	_	TokenRange=467:471
+60	inacio	_	NOUN	NOUN	_	59	flat	_	TokenRange=472:478
+61	lula	_	ADJ	ADJ	_	59	flat	_	TokenRange=479:483
+62	silva	silvo	ADJ	ADJ	_	59	amod	_	TokenRange=484:489
+63	defesa	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=490:496
+64	afirma	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=497:503
+65	marcelo	marcelo	NOUN	NOUN	_	64	obj	_	TokenRange=504:511
+66	acesso	acesso	NOUN	NOUN	_	64	obj	_	TokenRange=512:518
+67	conteudo	conteudo	NOUN	NOUN	_	66	flat	_	TokenRange=519:527
+68	passou	passar	AUX	AUX	_	69	aux	_	TokenRange=528:534
+69	cumprir	cumprir	VERB	VERB	_	66	acl:relcl	_	TokenRange=535:542
+70	prisao	prisao	NOUN	NOUN	_	69	obj	_	TokenRange=543:549
+71	domiciliar	domiciliar	ADJ	ADJ	_	70	amod	_	TokenRange=550:560
+72	dezembro	_	PROPN	PNOUN	_	69	nmod	_	TokenRange=561:569
+73	deste	_	ADP	ADP	_	74	case	_	TokenRange=570:575
+74	ano	ano	NOUN	NOUN	_	72	nmod	_	TokenRange=576:579
+75	conta	conta	NOUN	NOUN	_	64	parataxis	_	TokenRange=580:585
+76	disso	_	X	ADPPRON	_	75	fixed	_	TokenRange=586:591
+77	emails	email	NOUN	NOUN	_	75	nmod	_	TokenRange=592:598
+78	encaminhados	encaminhar	VERB	VERB	_	77	acl	_	TokenRange=599:611
+79	apenas	apenas	ADV	ADV	_	80	advmod	_	TokenRange=612:618
+80	agora	agora	ADV	ADV	_	78	advmod	_	SpaceAfter=No|TokenRange=619:624
+

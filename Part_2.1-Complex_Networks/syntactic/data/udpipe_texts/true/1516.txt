@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = usar bitcoin dinheiro vantajoso g1 compras mostra resultado reporter g1 abasteceu carteira virtual atras lojas aceitam criptomoeda paulo comercio eletronico poucas opcoes produto custou 60 vez pagar compras dinheiro cartao cheque usassemos bitcoins moeda virtual atraiu milhares brasileiros ultimos meses animados valorizacao expressiva registrada recentemente afinal comprar moeda bitcoin expressiva valorizacao 2017 moeda comecando ano cotada us 998 chegando valer quase us 20 mil fim ano passado inicio 2018 valor moeda t eve brusca queda chegando
+1	usar	usar	VERB	VERB	_	7	csubj	_	TokenRange=0:4
+2	bitcoin	_	NOUN	NOUN	_	1	obj	_	TokenRange=5:12
+3	dinheiro	dinheiro	NOUN	NOUN	_	1	obj	_	TokenRange=13:21
+4	vantajoso	vantajoso	ADJ	ADJ	_	3	amod	_	TokenRange=22:31
+5	g1	_	DET	DET	_	6	det	_	TokenRange=32:34
+6	compras	compra	NOUN	NOUN	_	7	nsubj	_	TokenRange=35:42
+7	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=43:49
+8	resultado	resultado	NOUN	NOUN	_	7	obj	_	TokenRange=50:59
+9	reporter	reporter	NOUN	NOUN	_	8	flat	_	TokenRange=60:68
+10	g1	_	NOUN	PRON	_	11	nsubj	_	TokenRange=69:71
+11	abasteceu	abastecer	VERB	VERB	_	1	parataxis	_	TokenRange=72:81
+12	carteira	_	NOUN	NOUN	_	11	obj	_	TokenRange=82:90
+13	virtual	virtual	ADJ	ADJ	_	12	amod	_	TokenRange=91:98
+14	atras	_	DET	DET	_	15	det	_	TokenRange=99:104
+15	lojas	loja	NOUN	NOUN	_	16	nsubj	_	TokenRange=105:110
+16	aceitam	aceitar	VERB	VERB	_	11	parataxis	_	TokenRange=111:118
+17	criptomoeda	_	NOUN	NOUN	_	16	obj	_	TokenRange=119:130
+18	paulo	_	NOUN	NOUN	_	19	flat	_	TokenRange=131:136
+19	comercio	comercio	NOUN	NOUN	_	17	appos	_	TokenRange=137:145
+20	eletronico	eletronico	ADJ	ADJ	_	19	amod	_	TokenRange=146:156
+21	poucas	_	DET	DET	_	22	det	_	TokenRange=157:163
+22	opcoes	opcoe	NOUN	NOUN	_	16	nsubj	_	TokenRange=164:170
+23	produto	produto	NOUN	NOUN	_	22	appos	_	TokenRange=171:178
+24	custou	custar	VERB	VERB	_	22	acl:relcl	_	TokenRange=179:185
+25	60	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=186:188
+26	vez	vez	NOUN	NOUN	_	24	nmod	_	TokenRange=189:192
+27	pagar	pagar	VERB	VERB	_	24	csubj	_	TokenRange=193:198
+28	compras	compra	NOUN	NOUN	_	27	obj	_	TokenRange=199:206
+29	dinheiro	dinheiro	NOUN	NOUN	_	28	flat	_	TokenRange=207:215
+30	cartao	cartao	NOUN	NOUN	_	28	appos	_	TokenRange=216:222
+31	cheque	cheque	NOUN	NOUN	_	32	nsubj	_	TokenRange=223:229
+32	usassemos	azer	VERB	VERB	_	27	ccomp	_	TokenRange=230:239
+33	bitcoins	_	NOUN	NOUN	_	32	obj	_	TokenRange=240:248
+34	moeda	moeda	NOUN	NOUN	_	32	obj	_	TokenRange=249:254
+35	virtual	virtual	ADJ	ADJ	_	34	amod	_	TokenRange=255:262
+36	atraiu	atrair	VERB	VERB	_	24	parataxis	_	TokenRange=263:269
+37	milhares	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=270:278
+38	brasileiros	brasileiro	ADJ	NOUN	_	36	obj	_	TokenRange=279:290
+39	ultimos	ultimo	ADJ	ADJ	_	40	amod	_	TokenRange=291:298
+40	meses	mês	NOUN	NOUN	_	36	nmod	_	TokenRange=299:304
+41	animados	animado	ADJ	ADJ	_	42	amod	_	TokenRange=305:313
+42	valorizacao	valorizacao	NOUN	NOUN	_	36	obj	_	TokenRange=314:325
+43	expressiva	expressivo	ADJ	ADJ	_	42	amod	_	TokenRange=326:336
+44	registrada	registrar	VERB	VERB	_	42	acl	_	TokenRange=337:347
+45	recentemente	recentemente	ADV	ADV	_	44	advmod	_	TokenRange=348:360
+46	afinal	afinal	ADV	ADV	_	44	advmod	_	TokenRange=361:367
+47	comprar	comprar	VERB	VERB	_	44	xcomp	_	TokenRange=368:375
+48	moeda	moeda	NOUN	NOUN	_	47	obj	_	TokenRange=376:381
+49	bitcoin	bitcoin	NOUN	NOUN	_	48	appos	_	TokenRange=382:389
+50	expressiva	expressivo	ADJ	ADJ	_	48	amod	_	TokenRange=390:400
+51	valorizacao	valorizacao	ADJ	ADJ	_	48	amod	_	TokenRange=401:412
+52	2017	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=413:417
+53	moeda	moeda	NOUN	NOUN	_	47	obj	_	TokenRange=418:423
+54	comecando	comecar	VERB	VERB	_	53	acl	_	TokenRange=424:433
+55	ano	ano	NOUN	NOUN	_	54	obj	_	TokenRange=434:437
+56	cotada	cotado	ADJ	ADJ	_	55	amod	_	TokenRange=438:444
+57	us	_	DET	DET	_	58	det	_	TokenRange=445:447
+58	998	_	NUM	NUM	NumType=Card	55	appos	_	TokenRange=448:451
+59	chegando	chegar	VERB	VERB	_	53	acl	_	TokenRange=452:460
+60	valer	valer	VERB	VERB	_	59	xcomp	_	TokenRange=461:466
+61	quase	quase	ADV	ADV	_	64	advmod	_	TokenRange=467:472
+62	us	_	NOUN	NOUN	_	65	nummod	_	TokenRange=473:475
+63	20	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=476:478
+64	mil	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=479:482
+65	fim	fim	NOUN	NOUN	_	60	nmod	_	TokenRange=483:486
+66	ano	ano	NOUN	NOUN	_	60	nmod	_	TokenRange=487:490
+67	passado	passado	ADJ	ADJ	_	66	amod	_	TokenRange=491:498
+68	inicio	_	NOUN	NOUN	_	65	appos	_	TokenRange=499:505
+69	2018	_	NUM	NUM	NumType=Card	66	nmod	_	TokenRange=506:510
+70	valor	valor	NOUN	NOUN	_	65	appos	_	TokenRange=511:516
+71	moeda	moeda	NOUN	NOUN	_	70	appos	_	TokenRange=517:522
+72	t	t	NOUN	NOUN	_	70	appos	_	TokenRange=523:524
+73	eve	_	X	X	_	75	cc	_	TokenRange=525:528
+74	brusca	brusco	ADJ	ADJ	_	75	amod	_	TokenRange=529:535
+75	queda	queda	NOUN	NOUN	_	60	obj	_	TokenRange=536:541
+76	chegando	chegar	VERB	VERB	_	75	acl	_	SpaceAfter=No|TokenRange=542:550
+

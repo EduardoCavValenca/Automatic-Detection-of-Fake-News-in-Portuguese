@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula recebe intimacao mp depor dessa vez comparecer policia dara maozinha ministerio publico paulo intimou ontem 27 expresidente lula esposa marisa leticia filho prodigio casal fabio luiz prestem depoimento investigacoes sobre triplex guaruja sitio dono atibaia depoimentos deverao acontecer proxima quintafeira 3 dona marisa leticia primeira depor seguido lula fim fabio luiz 13h documento enviado depoentes consta claramente caso comparecimento importara tomada medidas legais cabiveis inclusive conducao coercitiva policia civil militar termos normas acima referidas
+1	lula	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	recebe	receber	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	intimacao	intimacao	NOUN	NOUN	_	2	obj	_	TokenRange=12:21
+4	mp	_	NOUN	NOUN	_	2	dep	_	TokenRange=22:24
+5	depor	depor	NOUN	NOUN	_	4	flat	_	TokenRange=25:30
+6	dessa	_	ADP	ADP	_	7	case	_	TokenRange=31:36
+7	vez	vez	NOUN	NOUN	_	8	nmod	_	TokenRange=37:40
+8	comparecer	comparecer	VERB	VERB	_	2	ccomp	_	TokenRange=41:51
+9	policia	policia	NOUN	NOUN	_	8	obj	_	TokenRange=52:59
+10	dara	_	NOUN	NOUN	_	11	appos	_	TokenRange=60:64
+11	maozinha	_	NOUN	NOUN	_	8	obj	_	TokenRange=65:73
+12	ministerio	ministerio	NOUN	NOUN	_	11	appos	_	TokenRange=74:84
+13	publico	_	ADJ	ADJ	_	12	amod	_	TokenRange=85:92
+14	paulo	paulo	NOUN	NOUN	_	12	appos	_	TokenRange=93:98
+15	intimou	intimar	VERB	VERB	_	2	parataxis	_	TokenRange=99:106
+16	ontem	ontem	ADV	ADV	_	15	advmod	_	TokenRange=107:112
+17	27	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=113:115
+18	expresidente	expresidente	NOUN	NOUN	_	15	nsubj	_	TokenRange=116:128
+19	lula	lulo	ADJ	ADJ	_	18	amod	_	TokenRange=129:133
+20	esposa	esposo	NOUN	NOUN	_	18	appos	_	TokenRange=134:140
+21	marisa	marisa	NOUN	NOUN	_	18	appos	_	TokenRange=141:147
+22	leticia	leticia	NOUN	NOUN	_	21	flat	_	TokenRange=148:155
+23	filho	filho	ADJ	NOUN	_	21	flat	_	TokenRange=156:161
+24	prodigio	prodigio	ADJ	ADJ	_	25	amod	_	TokenRange=162:170
+25	casal	casal	NOUN	NOUN	_	28	nsubj	_	TokenRange=171:176
+26	fabio	fabio	NOUN	NOUN	_	25	appos	_	TokenRange=177:182
+27	luiz	luiz	NOUN	NOUN	_	26	flat	_	TokenRange=183:187
+28	prestem	_	VERB	VERB	_	2	parataxis	_	TokenRange=188:195
+29	depoimento	depoimento	NOUN	NOUN	_	28	obj	_	TokenRange=196:206
+30	investigacoes	investigacoe	ADJ	ADJ	_	29	amod	_	TokenRange=207:220
+31	sobre	_	ADP	ADP	_	32	case	_	TokenRange=221:226
+32	triplex	_	NOUN	NOUN	_	39	nmod	_	TokenRange=227:234
+33	guaruja	guaruja	NOUN	NOUN	_	32	flat	_	TokenRange=235:242
+34	sitio	sitio	NOUN	NOUN	_	32	appos	_	TokenRange=243:248
+35	dono	dono	NOUN	NOUN	_	34	flat	_	TokenRange=249:253
+36	atibaia	atibaio	NOUN	NOUN	_	34	flat	_	TokenRange=254:261
+37	depoimentos	depoimento	NOUN	NOUN	_	39	nsubj	_	TokenRange=262:273
+38	deverao	dever	AUX	AUX	_	39	aux	_	TokenRange=274:281
+39	acontecer	acontecer	VERB	VERB	_	28	parataxis	_	TokenRange=282:291
+40	proxima	proximo	ADJ	ADJ	_	41	amod	_	TokenRange=292:299
+41	quintafeira	quintafeira	NOUN	NOUN	_	39	nsubj	_	TokenRange=300:311
+42	3	_	NUM	NUM	NumType=Card	41	appos	_	TokenRange=312:313
+43	dona	_	NOUN	NOUN	_	41	appos	_	TokenRange=314:318
+44	marisa	_	NOUN	NOUN	_	41	appos	_	TokenRange=319:325
+45	leticia	leticia	NOUN	NOUN	_	44	flat	_	TokenRange=326:333
+46	primeira	primeiro	ADJ	ADJ	_	47	amod	_	TokenRange=334:342
+47	depor	depor	NOUN	NOUN	_	39	nsubj	_	TokenRange=343:348
+48	seguido	seguir	VERB	VERB	_	47	acl	_	TokenRange=349:356
+49	lula	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=357:361
+50	fim	fim	NOUN	NOUN	_	49	appos	_	TokenRange=362:365
+51	fabio	fabio	NOUN	NOUN	_	50	appos	_	TokenRange=366:371
+52	luiz	luiz	NOUN	NOUN	_	51	flat	_	TokenRange=372:376
+53	13h	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=377:380
+54	documento	documento	NOUN	NOUN	_	57	nsubj	_	TokenRange=381:390
+55	enviado	enviar	VERB	VERB	_	54	acl	_	TokenRange=391:398
+56	depoentes	_	NOUN	NOUN	_	54	appos	_	TokenRange=399:408
+57	consta	constar	VERB	VERB	_	2	parataxis	_	TokenRange=409:415
+58	claramente	claramente	ADV	ADV	_	57	advmod	_	TokenRange=416:426
+59	caso	caso	NOUN	NOUN	_	57	nsubj	_	TokenRange=427:431
+60	comparecimento	comparecimento	NOUN	NOUN	_	57	nsubj	_	TokenRange=432:446
+61	importara	importar	VERB	VERB	_	57	ccomp	_	TokenRange=447:456
+62	tomada	tomar	VERB	VERB	_	61	xcomp	_	TokenRange=457:463
+63	medidas	medida	NOUN	NOUN	_	57	nsubj	_	TokenRange=464:471
+64	legais	legal	ADJ	ADJ	_	63	amod	_	TokenRange=472:478
+65	cabiveis	cabivel	ADJ	ADJ	_	63	amod	_	TokenRange=479:487
+66	inclusive	inclusive	ADV	ADV	_	75	advmod	_	TokenRange=488:497
+67	conducao	conducao	NOUN	NOUN	_	63	amod	_	TokenRange=498:506
+68	coercitiva	coercitivo	ADJ	ADJ	_	69	amod	_	TokenRange=507:517
+69	policia	policia	NOUN	NOUN	_	63	appos	_	TokenRange=518:525
+70	civil	civil	ADJ	ADJ	_	69	amod	_	TokenRange=526:531
+71	militar	militar	ADJ	ADJ	_	69	amod	_	TokenRange=532:539
+72	termos	ter	VERB	VERB	_	63	acl:relcl	_	TokenRange=540:546
+73	normas	norma	NOUN	NOUN	_	72	obj	_	TokenRange=547:553
+74	acima	acima	ADV	ADV	_	75	advmod	_	TokenRange=554:559
+75	referidas	referido	ADJ	ADJ	_	69	amod	_	SpaceAfter=No|TokenRange=560:569
+

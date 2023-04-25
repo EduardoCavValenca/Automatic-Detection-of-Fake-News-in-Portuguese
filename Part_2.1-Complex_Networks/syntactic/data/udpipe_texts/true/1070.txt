@@ -1,0 +1,20 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = osmar serraglio reassume mandato deputado federal retorno exministro justica camara deputados rodrigo
+1	osmar	osmar	VERB	VERB	_	3	csubj	_	TokenRange=0:5
+2	serraglio	serraglio	NOUN	NOUN	_	1	obj	_	TokenRange=6:15
+3	reassume	reassumir	VERB	VERB	_	0	root	_	TokenRange=16:24
+4	mandato	mandato	NOUN	NOUN	_	3	obj	_	TokenRange=25:32
+5	deputado	deputado	NOUN	NOUN	_	4	appos	_	TokenRange=33:41
+6	federal	federal	ADJ	ADJ	_	5	amod	_	TokenRange=42:49
+7	retorno	retorno	NOUN	NOUN	_	3	obj	_	TokenRange=50:57
+8	exministro	exministro	NOUN	NOUN	_	7	appos	_	TokenRange=58:68
+9	justica	_	ADJ	ADJ	_	8	amod	_	TokenRange=69:76
+10	camara	camara	NOUN	NOUN	_	7	appos	_	TokenRange=77:83
+11	deputados	deputado	NOUN	NOUN	_	10	flat	_	TokenRange=84:93
+12	rodrigo	_	NOUN	NOUN	_	10	appos	_	SpaceAfter=No|TokenRange=94:101
+

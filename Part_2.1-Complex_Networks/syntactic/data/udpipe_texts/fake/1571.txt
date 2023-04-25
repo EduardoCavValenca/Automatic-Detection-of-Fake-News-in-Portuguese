@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trapalhada feita governo pt pode causado surto microcefalia brasil pesquisadores argentinos physicians in the cropsprayed towns levantaram hipotese casos zika registrados momento decorram uso pyriproxyfen larvicida utilizado governo brasileiro contra aedes aegypti revista epoca disse governo gaucho decidiu suspender uso pyriproxyfen agua consumo humano governo federal pronuncie desde 2014 governo usado substancia combater dengue brasil hipotese explicaria talvez fato colombia 5 mil gravidas infectada virus zika porem nenhum registro microcefalia la usaram tal larvicida empresa monsanto
+1	trapalhada	trapalhada	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:10
+2	feita	_	VERB	VERB	_	1	acl	_	TokenRange=11:16
+3	governo	governo	NOUN	NOUN	_	2	nsubj	_	TokenRange=17:24
+4	pt	_	ADJ	ADJ	_	3	amod	_	TokenRange=25:27
+5	pode	_	AUX	AUX	_	6	aux	_	TokenRange=28:32
+6	causado	causar	VERB	VERB	_	0	root	_	TokenRange=33:40
+7	surto	surto	NOUN	NOUN	_	8	amod	_	TokenRange=41:46
+8	microcefalia	microcefalia	NOUN	NOUN	_	6	obj	_	TokenRange=47:59
+9	brasil	brasil	ADJ	NOUN	_	10	amod	_	TokenRange=60:66
+10	pesquisadores	pesquisador	NOUN	NOUN	_	6	nsubj	_	TokenRange=67:80
+11	argentinos	argentino	ADJ	ADJ	_	10	amod	_	TokenRange=81:91
+12	physicians	_	ADJ	ADJ	_	10	amod	_	TokenRange=92:102
+13	in	_	ADP	ADP	_	15	case	_	TokenRange=103:105
+14	the	_	DET	DET	_	15	det	_	TokenRange=106:109
+15	cropsprayed	_	NOUN	NOUN	_	12	nmod	_	TokenRange=110:121
+16	towns	_	NOUN	NOUN	_	15	flat	_	TokenRange=122:127
+17	levantaram	levantar	VERB	VERB	_	6	parataxis	_	TokenRange=128:138
+18	hipotese	hipotese	NOUN	NOUN	_	17	obj	_	TokenRange=139:147
+19	casos	caso	NOUN	NOUN	_	18	appos	_	TokenRange=148:153
+20	zika	_	NOUN	NOUN	_	19	flat	_	TokenRange=154:158
+21	registrados	registrar	VERB	VERB	_	19	acl	_	TokenRange=159:170
+22	momento	momento	NOUN	NOUN	_	23	nsubj	_	TokenRange=171:178
+23	decorram	decorrar	VERB	VERB	_	19	acl:relcl	_	TokenRange=179:187
+24	uso	uso	NOUN	NOUN	_	23	nsubj	_	TokenRange=188:191
+25	pyriproxyfen	_	NOUN	NOUN	_	24	appos	_	TokenRange=192:204
+26	larvicida	larvicida	NOUN	NOUN	_	24	appos	_	TokenRange=205:214
+27	utilizado	utilizar	VERB	VERB	_	28	acl	_	TokenRange=215:224
+28	governo	governo	NOUN	NOUN	_	23	nsubj	_	TokenRange=225:232
+29	brasileiro	brasileiro	ADJ	ADJ	_	28	amod	_	TokenRange=233:243
+30	contra	_	ADP	ADP	_	31	case	_	TokenRange=244:250
+31	aedes	aede	NOUN	NOUN	_	28	nmod	_	TokenRange=251:256
+32	aegypti	_	ADJ	ADJ	_	31	amod	_	TokenRange=257:264
+33	revista	revista	NOUN	NOUN	_	35	nsubj	_	TokenRange=265:272
+34	epoca	epoca	NOUN	NOUN	_	33	flat	_	TokenRange=273:278
+35	disse	dizer	VERB	VERB	_	31	acl:relcl	_	TokenRange=279:284
+36	governo	governo	NOUN	NOUN	_	35	nsubj	_	TokenRange=285:292
+37	gaucho	gaucho	ADJ	ADJ	_	36	amod	_	TokenRange=293:299
+38	decidiu	decidir	VERB	VERB	_	35	ccomp	_	TokenRange=300:307
+39	suspender	suspender	VERB	VERB	_	38	xcomp	_	TokenRange=308:317
+40	uso	uso	NOUN	NOUN	_	39	obj	_	TokenRange=318:321
+41	pyriproxyfen	_	NOUN	NOUN	_	40	appos	_	TokenRange=322:334
+42	agua	_	NOUN	NOUN	_	43	amod	_	TokenRange=335:339
+43	consumo	consumo	NOUN	NOUN	_	40	appos	_	TokenRange=340:347
+44	humano	humano	ADJ	ADJ	_	43	amod	_	TokenRange=348:354
+45	governo	governo	NOUN	NOUN	_	47	nsubj	_	TokenRange=355:362
+46	federal	federal	ADJ	ADJ	_	45	amod	_	TokenRange=363:370
+47	pronuncie	pronunciar	VERB	VERB	_	38	parataxis	_	TokenRange=371:380
+48	desde	_	ADP	ADP	_	49	case	_	TokenRange=381:386
+49	2014	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=387:391
+50	governo	governo	NOUN	NOUN	_	47	nsubj	_	TokenRange=392:399
+51	usado	usar	VERB	VERB	_	50	acl	_	TokenRange=400:405
+52	substancia	substancia	NOUN	NOUN	_	51	obj	_	TokenRange=406:416
+53	combater	combater	VERB	VERB	_	52	acl:inf	_	TokenRange=417:425
+54	dengue	dengue	NOUN	NOUN	_	53	obj	_	TokenRange=426:432
+55	brasil	brasil	ADJ	ADJ	_	54	amod	_	TokenRange=433:439
+56	hipotese	hipotese	NOUN	NOUN	_	57	nsubj	_	TokenRange=440:448
+57	explicaria	explicar	VERB	VERB	_	6	conj	_	TokenRange=449:459
+58	talvez	talvez	ADV	ADV	_	57	advmod	_	TokenRange=460:466
+59	fato	fato	NOUN	NOUN	_	57	obj	_	TokenRange=467:471
+60	colombia	colombia	NOUN	NOUN	_	59	flat	_	TokenRange=472:480
+61	5	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=481:482
+62	mil	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=483:486
+63	gravidas	gravida	NOUN	NOUN	_	59	appos	_	TokenRange=487:495
+64	infectada	infectar	ADJ	ADJ	_	59	acl	_	TokenRange=496:505
+65	virus	_	NOUN	NOUN	_	64	obj	_	TokenRange=506:511
+66	zika	zika	NOUN	NOUN	_	65	flat	_	TokenRange=512:516
+67	porem	_	CCONJ	CONJ	_	72	mark	_	TokenRange=517:522
+68	nenhum	_	DET	DET	_	69	det	_	TokenRange=523:529
+69	registro	registro	NOUN	NOUN	_	72	nsubj	_	TokenRange=530:538
+70	microcefalia	microcefalia	NOUN	NOUN	_	69	appos	_	TokenRange=539:551
+71	la	_	PRON	PRON	_	72	obj	_	TokenRange=552:554
+72	usaram	usar	VERB	VERB	_	57	advcl	_	TokenRange=555:561
+73	tal	_	DET	DET	_	74	det	_	TokenRange=562:565
+74	larvicida	larvicida	NOUN	NOUN	_	72	obj	_	TokenRange=566:575
+75	empresa	empresa	NOUN	NOUN	_	72	obj	_	TokenRange=576:583
+76	monsanto	monsanto	ADJ	ADJ	_	75	amod	_	SpaceAfter=No|TokenRange=584:592
+

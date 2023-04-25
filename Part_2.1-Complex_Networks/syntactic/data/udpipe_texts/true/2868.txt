@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acordo preve acampamento apoiadores lula 1km trf4 porto alegre movimentos sociais poderao acampar area anfiteatro sol recurso expresidente processo triplex julgado segunda instancia proxima quartafeira 24 assinado acordo nesta sextafeira 19 preve anfiteatro sol margens guaiba area destinada acampamento movimento trabalhadores rurais terra mst demais apoiadores expresidente luiz inacio lula silva pt dia julgamento recurso petista proxima quartafeira 24 porto alegre local fica cerca 1 km distancia tribunal regional federal 4 regiao trf4
+1	acordo	acordo	NOUN	NOUN	_	13	parataxis	_	TokenRange=0:6
+2	preve	_	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	acampamento	acampamento	NOUN	NOUN	_	1	appos	_	TokenRange=13:24
+4	apoiadores	_	ADJ	ADJ	_	3	amod	_	TokenRange=25:35
+5	lula	_	NOUN	NOUN	_	3	appos	_	TokenRange=36:40
+6	1km	_	NOUN	NOUN	_	3	appos	_	TokenRange=41:44
+7	trf4	_	NOUN	NOUN	_	6	flat	_	TokenRange=45:49
+8	porto	_	NOUN	NOUN	_	3	appos	_	TokenRange=50:55
+9	alegre	alegre	ADJ	ADJ	_	10	amod	_	TokenRange=56:62
+10	movimentos	movimento	NOUN	NOUN	_	13	nsubj	_	TokenRange=63:73
+11	sociais	social	ADJ	ADJ	_	10	amod	_	TokenRange=74:81
+12	poderao	poder	AUX	AUX	_	13	aux	_	TokenRange=82:89
+13	acampar	acampar	VERB	VERB	_	0	root	_	TokenRange=90:97
+14	area	area	NOUN	NOUN	_	13	obj	_	TokenRange=98:102
+15	anfiteatro	anfiteatro	NOUN	NOUN	_	14	flat	_	TokenRange=103:113
+16	sol	sol	ADJ	ADJ	_	17	amod	_	TokenRange=114:117
+17	recurso	recurso	NOUN	NOUN	_	14	appos	_	TokenRange=118:125
+18	expresidente	expresidente	ADJ	ADJ	_	17	amod	_	TokenRange=126:138
+19	processo	processo	NOUN	NOUN	_	17	appos	_	TokenRange=139:147
+20	triplex	_	NOUN	NOUN	_	19	flat	_	TokenRange=148:155
+21	julgado	julgar	VERB	VERB	_	19	acl	_	TokenRange=156:163
+22	segunda	segundo	ADJ	ADJ	_	23	amod	_	TokenRange=164:171
+23	instancia	instancia	NOUN	NOUN	_	21	appos	_	TokenRange=172:181
+24	proxima	proximo	ADJ	ADJ	_	25	amod	_	TokenRange=182:189
+25	quartafeira	_	NOUN	NOUN	_	23	appos	_	TokenRange=190:201
+26	24	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=202:204
+27	assinado	assinar	VERB	VERB	_	23	acl	_	TokenRange=205:213
+28	acordo	acordo	NOUN	NOUN	_	27	obj	_	TokenRange=214:220
+29	nesta	_	ADP	ADP	_	30	case	_	TokenRange=221:226
+30	sextafeira	sextafeira	NOUN	NOUN	_	27	nmod	_	TokenRange=227:237
+31	19	_	NUM	NUM	NumType=Card	30	appos	_	TokenRange=238:240
+32	preve	_	VERB	VERB	_	33	acl:relcl	_	TokenRange=241:246
+33	anfiteatro	anfiteatro	NOUN	NOUN	_	27	nsubj	_	TokenRange=247:257
+34	sol	sol	NOUN	NOUN	_	35	amod	_	TokenRange=258:261
+35	margens	margem	NOUN	NOUN	_	33	appos	_	TokenRange=262:269
+36	guaiba	guaiba	ADJ	ADJ	_	35	amod	_	TokenRange=270:276
+37	area	area	NOUN	NOUN	_	33	appos	_	TokenRange=277:281
+38	destinada	destinar	VERB	VERB	_	39	acl	_	TokenRange=282:291
+39	acampamento	acampamento	NOUN	NOUN	_	37	appos	_	TokenRange=292:303
+40	movimento	movimento	NOUN	NOUN	_	39	appos	_	TokenRange=304:313
+41	trabalhadores	trabalhador	NOUN	NOUN	_	40	amod	_	TokenRange=314:327
+42	rurais	rural	ADJ	ADJ	_	41	amod	_	TokenRange=328:334
+43	terra	terra	NOUN	NOUN	_	39	appos	_	TokenRange=335:340
+44	mst	_	NOUN	NOUN	_	43	appos	_	TokenRange=341:344
+45	demais	_	DET	DET	_	46	det	_	TokenRange=345:351
+46	apoiadores	_	NOUN	NOUN	_	43	appos	_	TokenRange=352:362
+47	expresidente	expresidente	ADJ	NOUN	_	46	amod	_	TokenRange=363:375
+48	luiz	luiz	NOUN	NOUN	_	47	appos	_	TokenRange=376:380
+49	inacio	_	NOUN	NOUN	_	48	flat	_	TokenRange=381:387
+50	lula	_	NOUN	NOUN	_	48	flat	_	TokenRange=388:392
+51	silva	silva	ADJ	ADJ	_	48	flat	_	TokenRange=393:398
+52	pt	_	NOUN	NOUN	_	53	appos	_	TokenRange=399:401
+53	dia	dia	NOUN	NOUN	_	13	nmod	_	TokenRange=402:405
+54	julgamento	julgamento	NOUN	NOUN	_	53	flat	_	TokenRange=406:416
+55	recurso	recurso	NOUN	NOUN	_	13	parataxis	_	TokenRange=417:424
+56	petista	petista	ADJ	ADJ	_	55	amod	_	TokenRange=425:432
+57	proxima	proximo	ADJ	ADJ	_	58	amod	_	TokenRange=433:440
+58	quartafeira	quartafeira	NOUN	NOUN	_	63	nsubj	_	TokenRange=441:452
+59	24	_	NUM	NUM	NumType=Card	60	appos	_	TokenRange=453:455
+60	porto	porto	NOUN	NOUN	_	63	nsubj	_	TokenRange=456:461
+61	alegre	alegre	ADJ	ADJ	_	60	amod	_	TokenRange=462:468
+62	local	local	ADJ	ADJ	_	60	amod	_	TokenRange=469:474
+63	fica	ficar	VERB	VERB	_	13	parataxis	_	TokenRange=475:479
+64	cerca	cerca	ADV	ADV	_	65	advmod	_	TokenRange=480:485
+65	1	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=486:487
+66	km	km	NOUN	NOUN	_	63	nmod	_	TokenRange=488:490
+67	distancia	distanciar	VERB	VERB	_	63	parataxis	_	TokenRange=491:500
+68	tribunal	tribunal	NOUN	NOUN	_	63	obj	_	TokenRange=501:509
+69	regional	regional	ADJ	ADJ	_	68	amod	_	TokenRange=510:518
+70	federal	federal	ADJ	ADJ	_	68	amod	_	TokenRange=519:526
+71	4	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=527:528
+72	regiao	regiao	NOUN	NOUN	_	68	appos	_	TokenRange=529:535
+73	trf4	_	NUM	NUM	NumType=Card	72	appos	_	SpaceAfter=No|TokenRange=536:540
+

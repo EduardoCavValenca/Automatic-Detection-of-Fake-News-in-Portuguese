@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = g20 campo batalha sobre clima presidencia alema g20 mira mudanca climatica encontro hamburgo grandes questoes demais 19 paises estarao debilitados apos saida eua acordo paris ainda determinados lideres 20 economias poderosas planeta reunem neste fim semana cidade alema hamburgo premie clima angela merkel presidente estados unidos donald trump chocou mundo retirar pais acordo paris alemanha presidencia rotativa g20 merkel esquiva daquele promete topico controverso berlim recentemente estabeleceu agenda conferencia confirmando clima global temas centrais mudanca climatica estara topo agenda diz alois
+1	g20	_	NUM	NUM	NumType=Card	19	nsubj	_	TokenRange=0:3
+2	campo	campo	NOUN	NOUN	_	19	nsubj	_	TokenRange=4:9
+3	batalha	batalha	NOUN	NOUN	_	2	flat	_	TokenRange=10:17
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=18:23
+5	clima	clima	NOUN	NOUN	_	2	nmod	_	TokenRange=24:29
+6	presidencia	presidencia	NOUN	NOUN	_	2	appos	_	TokenRange=30:41
+7	alema	alemo	ADJ	ADJ	_	6	amod	_	TokenRange=42:47
+8	g20	_	NUM	NUM	NumType=Card	6	appos	_	TokenRange=48:51
+9	mira	_	NOUN	NOUN	_	2	appos	_	TokenRange=52:56
+10	mudanca	mudanca	NOUN	NOUN	_	2	appos	_	TokenRange=57:64
+11	climatica	climatico	ADJ	ADJ	_	10	amod	_	TokenRange=65:74
+12	encontro	encontro	VERB	VERB	_	2	appos	_	TokenRange=75:83
+13	hamburgo	hamburgo	NOUN	NOUN	_	12	obj	_	TokenRange=84:92
+14	grandes	grande	ADJ	ADJ	_	15	amod	_	TokenRange=93:100
+15	questoes	questoe	NOUN	NOUN	_	12	obj	_	TokenRange=101:109
+16	demais	demais	ADV	ADV	_	17	advmod	_	TokenRange=110:116
+17	19	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=117:119
+18	paises	paise	NOUN	NOUN	_	19	nsubj	_	TokenRange=120:126
+19	estarao	estar	VERB	VERB	_	0	root	_	TokenRange=127:134
+20	debilitados	debilitado	ADJ	ADJ	_	19	xcomp	_	TokenRange=135:146
+21	apos	_	ADP	ADP	_	22	case	_	TokenRange=147:151
+22	saida	_	NOUN	NOUN	_	19	nmod	_	TokenRange=152:157
+23	eua	_	DET	DET	_	24	det	_	TokenRange=158:161
+24	acordo	acordo	NOUN	NOUN	_	19	nsubj	_	TokenRange=162:168
+25	paris	_	ADJ	ADJ	_	24	amod	_	TokenRange=169:174
+26	ainda	ainda	ADV	ADV	_	33	advmod	_	TokenRange=175:180
+27	determinados	_	DET	DET	_	28	det	_	TokenRange=181:193
+28	lideres	lider	NOUN	NOUN	_	33	nsubj	_	TokenRange=194:201
+29	20	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=202:204
+30	economias	economia	NOUN	NOUN	_	33	nsubj	_	TokenRange=205:214
+31	poderosas	poderoso	ADJ	ADJ	_	30	amod	_	TokenRange=215:224
+32	planeta	planeta	NOUN	NOUN	_	30	appos	_	TokenRange=225:232
+33	reunem	_	VERB	VERB	_	24	acl:relcl	_	TokenRange=233:239
+34	neste	_	ADP	ADP	_	35	case	_	TokenRange=240:245
+35	fim	fim	NOUN	NOUN	_	33	nmod	_	TokenRange=246:249
+36	semana	semana	NOUN	NOUN	_	35	nmod	_	TokenRange=250:256
+37	cidade	cidade	NOUN	NOUN	_	33	nsubj	_	TokenRange=257:263
+38	alema	alemo	ADJ	ADJ	_	37	amod	_	TokenRange=264:269
+39	hamburgo	hamburgo	NOUN	NOUN	_	37	amod	_	TokenRange=270:278
+40	premie	premier	VERB	VERB	_	19	parataxis	_	TokenRange=279:285
+41	clima	clima	NOUN	NOUN	_	40	obj	_	TokenRange=286:291
+42	angela	angelo	NOUN	NOUN	_	44	amod	_	TokenRange=292:298
+43	merkel	merkel	NOUN	NOUN	_	44	amod	_	TokenRange=299:305
+44	presidente	presidente	NOUN	NOUN	_	40	nsubj	_	TokenRange=306:316
+45	estados	estado	ADJ	ADJ	_	44	amod	_	TokenRange=317:324
+46	unidos	unido	ADJ	ADJ	_	44	amod	_	TokenRange=325:331
+47	donald	_	ADJ	NOUN	_	48	case	_	TokenRange=332:338
+48	trump	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=339:344
+49	chocou	chocar	VERB	VERB	_	40	parataxis	_	TokenRange=345:351
+50	mundo	mundo	NOUN	NOUN	_	49	obj	_	TokenRange=352:357
+51	retirar	retirar	VERB	VERB	_	49	ccomp	_	TokenRange=358:365
+52	pais	_	NOUN	NOUN	_	51	obj	_	TokenRange=366:370
+53	acordo	acordo	NOUN	NOUN	_	52	appos	_	TokenRange=371:377
+54	paris	_	NOUN	NOUN	_	53	amod	_	TokenRange=378:383
+55	alemanha	_	NOUN	NOUN	_	56	amod	_	TokenRange=384:392
+56	presidencia	presidencia	NOUN	NOUN	_	49	nsubj	_	TokenRange=393:404
+57	rotativa	rotativo	ADJ	ADJ	_	56	amod	_	TokenRange=405:413
+58	g20	_	NUM	NUM	_	60	nsubj	_	TokenRange=414:417
+59	merkel	merkel	NOUN	NOUN	_	56	appos	_	TokenRange=418:424
+60	esquiva	esquivar	VERB	VERB	_	56	acl:relcl	_	TokenRange=425:432
+61	daquele	_	X	ADPPRON	_	62	mark	_	TokenRange=433:440
+62	promete	prometer	VERB	VERB	_	60	advcl	_	TokenRange=441:448
+63	topico	topico	NOUN	NOUN	_	62	obj	_	TokenRange=449:455
+64	controverso	controverso	ADJ	ADJ	_	63	amod	_	TokenRange=456:467
+65	berlim	_	NOUN	NOUN	_	63	appos	_	TokenRange=468:474
+66	recentemente	recentemente	ADV	ADV	_	67	advmod	_	TokenRange=475:487
+67	estabeleceu	estabelecer	VERB	VERB	_	63	acl:relcl	_	TokenRange=488:499
+68	agenda	agenda	NOUN	NOUN	_	67	obj	_	TokenRange=500:506
+69	conferencia	conferencia	NOUN	NOUN	_	68	appos	_	TokenRange=507:518
+70	confirmando	confirmar	VERB	VERB	_	68	acl	_	TokenRange=519:530
+71	clima	clima	NOUN	NOUN	_	70	obj	_	TokenRange=531:536
+72	global	global	ADJ	ADJ	_	71	amod	_	TokenRange=537:543
+73	temas	tema	NOUN	NOUN	_	67	nsubj	_	TokenRange=544:549
+74	centrais	central	ADJ	ADJ	_	73	amod	_	TokenRange=550:558
+75	mudanca	mudanca	NOUN	NOUN	_	77	nsubj	_	TokenRange=559:566
+76	climatica	climatico	ADJ	ADJ	_	73	amod	_	TokenRange=567:576
+77	estara	estar	VERB	VERB	_	80	ccomp	_	TokenRange=577:583
+78	topo	topo	ADJ	ADJ	_	79	amod	_	TokenRange=584:588
+79	agenda	agenda	NOUN	NOUN	_	80	obj	_	TokenRange=589:595
+80	diz	dizer	VERB	VERB	_	67	parataxis	_	TokenRange=596:599
+81	alois	_	ADV	ADV	_	80	advmod	_	SpaceAfter=No|TokenRange=600:605
+

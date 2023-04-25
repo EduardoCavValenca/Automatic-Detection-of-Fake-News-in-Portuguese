@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aecio organizado pf encontra recibos caixa 2 apartamento senador policia federal encontrou papeis anotacoes identificados cx2 apartamento senador aecio neves informacoes constam relatorio enviado supremo tribunal federal apreendidas obras arte 15 quadros 1 escultura operacao ocorreu ultimo dia 18 planilhas indicacoes cargos governo federal incluindo nomes cargo remuneracaoetc fazem parte documentos posse pf eita cara organizado guarda recibo propina
+1	aecio	aecio	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	organizado	organizado	ADJ	ADJ	_	1	amod	_	TokenRange=6:16
+3	pf	_	NOUN	NOUN	_	1	appos	_	TokenRange=17:19
+4	encontra	encontrar	VERB	VERB	_	0	root	_	TokenRange=20:28
+5	recibos	recibo	NOUN	NOUN	_	4	obj	_	TokenRange=29:36
+6	caixa	caixa	NOUN	NOUN	_	4	nmod	_	TokenRange=37:42
+7	2	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=43:44
+8	apartamento	apartamento	NOUN	NOUN	_	4	obj	_	TokenRange=45:56
+9	senador	senador	ADJ	NOUN	_	8	amod	_	TokenRange=57:64
+10	policia	policia	NOUN	NOUN	_	4	nsubj	_	TokenRange=65:72
+11	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=73:80
+12	encontrou	encontrar	VERB	VERB	_	4	parataxis	_	TokenRange=81:90
+13	papeis	_	NOUN	NOUN	_	12	obj	_	TokenRange=91:97
+14	anotacoes	_	NOUN	NOUN	_	13	appos	_	TokenRange=98:107
+15	identificados	identificado	ADJ	ADJ	_	14	amod	_	TokenRange=108:121
+16	cx2	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=122:125
+17	apartamento	apartamento	NOUN	NOUN	_	12	obj	_	TokenRange=126:137
+18	senador	senador	NOUN	NOUN	_	17	appos	_	TokenRange=138:145
+19	aecio	aecio	NOUN	NOUN	_	17	appos	_	TokenRange=146:151
+20	neves	neve	ADJ	ADJ	_	19	amod	_	TokenRange=152:157
+21	informacoes	informacoe	NOUN	NOUN	_	22	nsubj	_	TokenRange=158:169
+22	constam	constar	VERB	VERB	_	4	parataxis	_	TokenRange=170:177
+23	relatorio	relatorio	NOUN	NOUN	_	22	obj	_	TokenRange=178:187
+24	enviado	enviado	ADJ	ADJ	_	26	amod	_	TokenRange=188:195
+25	supremo	supremo	ADJ	ADJ	_	26	amod	_	TokenRange=196:203
+26	tribunal	tribunal	NOUN	NOUN	_	23	appos	_	TokenRange=204:212
+27	federal	federal	ADJ	ADJ	_	26	amod	_	TokenRange=213:220
+28	apreendidas	apreender	ADJ	ADJ	_	29	amod	_	TokenRange=221:232
+29	obras	obra	NOUN	NOUN	_	23	appos	_	TokenRange=233:238
+30	arte	arte	NOUN	NOUN	_	29	appos	_	TokenRange=239:243
+31	15	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=244:246
+32	quadros	quadro	NOUN	NOUN	_	29	appos	_	TokenRange=247:254
+33	1	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=255:256
+34	escultura	escultura	NOUN	NOUN	_	32	appos	_	TokenRange=257:266
+35	operacao	operacao	NOUN	NOUN	_	29	appos	_	TokenRange=267:275
+36	ocorreu	ocorrer	VERB	VERB	_	29	acl:relcl	_	TokenRange=276:283
+37	ultimo	_	ADJ	ADJ	_	38	amod	_	TokenRange=284:290
+38	dia	dia	NOUN	NOUN	_	36	nsubj	_	TokenRange=291:294
+39	18	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=295:297
+40	planilhas	planilha	NOUN	NOUN	_	36	nsubj	_	TokenRange=298:307
+41	indicacoes	indicacoe	ADJ	ADJ	_	40	amod	_	TokenRange=308:318
+42	cargos	cargo	NOUN	NOUN	_	40	appos	_	TokenRange=319:325
+43	governo	governo	NOUN	NOUN	_	40	appos	_	TokenRange=326:333
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=334:341
+45	incluindo	incluir	VERB	VERB	_	42	acl	_	TokenRange=342:351
+46	nomes	nome	NOUN	NOUN	_	45	obj	_	TokenRange=352:357
+47	cargo	cargo	NOUN	NOUN	_	46	appos	_	TokenRange=358:363
+48	remuneracaoetc	remuneracaoetc	NOUN	NOUN	_	46	flat	_	TokenRange=364:378
+49	fazem	fazer	VERB	VERB	_	4	parataxis	_	TokenRange=379:384
+50	parte	parte	NOUN	NOUN	_	49	obj	_	TokenRange=385:390
+51	documentos	documento	NOUN	NOUN	_	50	appos	_	TokenRange=391:401
+52	posse	posse	NOUN	NOUN	_	50	appos	_	TokenRange=402:407
+53	pf	_	NOUN	NOUN	_	52	flat	_	TokenRange=408:410
+54	eita	_	ADJ	ADJ	_	55	amod	_	TokenRange=411:415
+55	cara	cara	NOUN	NOUN	_	52	conj	_	TokenRange=416:420
+56	organizado	organizado	ADJ	ADJ	_	55	amod	_	TokenRange=421:431
+57	guarda	guarda	NOUN	NOUN	_	49	parataxis	_	TokenRange=432:438
+58	recibo	recibo	NOUN	NOUN	_	57	flat	_	TokenRange=439:445
+59	propina	propina	NOUN	NOUN	_	57	flat	_	SpaceAfter=No|TokenRange=446:453
+

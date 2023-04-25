@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exaerotrem agora bigodao fidelix diz teme clausula barreira otimismo ataques adversarios empresario levy fidelix 65 lancou ulitmo dia 26 novembro precandidatura presidencia fundador prtb varias eleicoes curriculo diz estar preparado fazer pais voltar crescer campanhas desde 1996 presidenciais 2010 2014 ficou conhecido vitrine aerotrem especie veiculo leve sobre trilhos segundo copiado outros partidos longo anos lancamento precandidatura assembleia sp apresentou novo jingle bigodao solucao nunca sido eleito cargos publicos lancou vereador prefeito governador presidente ve outsider outsiders entram repente sequer partido acham preparados 23 anos partido contrario
+1	exaerotrem	exaerotrar	VERB	VERB	_	0	root	_	TokenRange=0:10
+2	agora	agora	ADV	ADV	_	1	advmod	_	TokenRange=11:16
+3	bigodao	bigodao	NOUN	NOUN	_	1	nsubj	_	TokenRange=17:24
+4	fidelix	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=25:32
+5	diz	dizer	VERB	VERB	_	1	parataxis	_	TokenRange=33:36
+6	teme	teme	NOUN	NOUN	_	5	obj	_	TokenRange=37:41
+7	clausula	clausula	NOUN	NOUN	_	6	appos	_	TokenRange=42:50
+8	barreira	_	NOUN	NOUN	_	6	flat	_	TokenRange=51:59
+9	otimismo	otimismo	ADJ	ADJ	_	10	amod	_	TokenRange=60:68
+10	ataques	ataque	NOUN	NOUN	_	5	appos	_	TokenRange=69:76
+11	adversarios	adversario	ADJ	ADJ	_	10	amod	_	TokenRange=77:88
+12	empresario	empresario	NOUN	NOUN	_	10	appos	_	TokenRange=89:99
+13	levy	levy	NOUN	NOUN	_	12	appos	_	TokenRange=100:104
+14	fidelix	_	NOUN	NOUN	_	12	appos	_	TokenRange=105:112
+15	65	_	NUM	NUM	NumType=Card	12	appos	_	TokenRange=113:115
+16	lancou	lancar	VERB	VERB	_	12	acl:relcl	_	TokenRange=116:122
+17	ulitmo	_	NOUN	NOUN	_	16	obj	_	TokenRange=123:129
+18	dia	dia	NOUN	NOUN	_	17	nmod	_	TokenRange=130:133
+19	26	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=134:136
+20	novembro	_	PROPN	PNOUN	_	18	nmod	_	TokenRange=137:145
+21	precandidatura	precandidatura	NOUN	NOUN	_	18	appos	_	TokenRange=146:160
+22	presidencia	presidencia	NOUN	NOUN	_	21	appos	_	TokenRange=161:172
+23	fundador	fundador	ADJ	ADJ	_	21	amod	_	TokenRange=173:181
+24	prtb	_	NOUN	NOUN	_	21	appos	_	TokenRange=182:186
+25	varias	_	DET	DET	_	26	det	_	TokenRange=187:193
+26	eleicoes	eleicoe	NOUN	NOUN	_	28	nsubj	_	TokenRange=194:202
+27	curriculo	_	NOUN	NOUN	_	26	appos	_	TokenRange=203:212
+28	diz	dizer	VERB	VERB	_	1	parataxis	_	TokenRange=213:216
+29	estar	estar	VERB	VERB	_	28	xcomp	_	TokenRange=217:222
+30	preparado	preparado	ADJ	ADJ	_	29	xcomp	_	TokenRange=223:232
+31	fazer	fazer	VERB	VERB	_	29	csubj	_	TokenRange=233:238
+32	pais	_	NOUN	NOUN	_	31	obj	_	TokenRange=239:243
+33	voltar	voltar	VERB	VERB	_	34	ccomp	_	TokenRange=244:250
+34	crescer	crescer	VERB	VERB	_	29	csubj	_	TokenRange=251:258
+35	campanhas	campanha	NOUN	NOUN	_	34	obj	_	TokenRange=259:268
+36	desde	_	ADP	ADP	_	37	case	_	TokenRange=269:274
+37	1996	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=275:279
+38	presidenciais	_	ADJ	ADJ	_	37	amod	_	TokenRange=280:293
+39	2010	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=294:298
+40	2014	_	NUM	NUM	NumType=Card	41	nsubj	_	TokenRange=299:303
+41	ficou	ficar	VERB	VERB	_	29	conj	_	TokenRange=304:309
+42	conhecido	conhecido	ADJ	ADJ	_	41	xcomp	_	TokenRange=310:319
+43	vitrine	vitrine	NOUN	NOUN	_	41	nsubj	_	TokenRange=320:327
+44	aerotrem	_	NOUN	NOUN	_	43	appos	_	TokenRange=328:336
+45	especie	especie	ADJ	ADJ	_	46	amod	_	TokenRange=337:344
+46	veiculo	veiculo	NOUN	NOUN	_	43	appos	_	TokenRange=345:352
+47	leve	leve	ADJ	ADJ	_	46	amod	_	TokenRange=353:357
+48	sobre	_	ADP	ADP	_	49	case	_	TokenRange=358:363
+49	trilhos	trilho	NOUN	NOUN	_	46	nmod	_	TokenRange=364:371
+50	segundo	_	CCONJ	CONJ	_	51	mark	_	TokenRange=372:379
+51	copiado	copiar	VERB	VERB	_	46	acl	_	TokenRange=380:387
+52	outros	_	DET	DET	_	53	det	_	TokenRange=388:394
+53	partidos	partido	NOUN	NOUN	_	51	nsubj	_	TokenRange=395:403
+54	longo	longo	ADJ	ADJ	_	55	amod	_	TokenRange=404:409
+55	anos	ano	NOUN	NOUN	_	60	nmod	_	TokenRange=410:414
+56	lancamento	lancamento	NOUN	NOUN	_	60	nsubj	_	TokenRange=415:425
+57	precandidatura	precandidatura	NOUN	NOUN	_	56	amod	_	TokenRange=426:440
+58	assembleia	assembleia	NOUN	NOUN	_	56	appos	_	TokenRange=441:451
+59	sp	_	ADJ	ADJ	_	56	amod	_	TokenRange=452:454
+60	apresentou	apresentar	VERB	VERB	_	41	parataxis	_	TokenRange=455:465
+61	novo	novo	ADJ	ADJ	_	62	amod	_	TokenRange=466:470
+62	jingle	jingle	NOUN	NOUN	_	60	obj	_	TokenRange=471:477
+63	bigodao	bigodao	ADJ	ADJ	_	62	amod	_	TokenRange=478:485
+64	solucao	solucao	NOUN	NOUN	_	62	appos	_	TokenRange=486:493
+65	nunca	nunca	ADV	ADV	_	67	advmod	_	TokenRange=494:499
+66	sido	ser	AUX	AUX	_	67	aux:pass	_	TokenRange=500:504
+67	eleito	eleger	VERB	VERB	_	62	acl	_	TokenRange=505:511
+68	cargos	cargo	NOUN	NOUN	_	67	nsubj:pass	_	TokenRange=512:518
+69	publicos	publico	ADJ	ADJ	_	68	amod	_	TokenRange=519:527
+70	lancou	lancar	VERB	VERB	_	60	parataxis	_	TokenRange=528:534
+71	vereador	vereador	NOUN	NOUN	_	70	nsubj	_	TokenRange=535:543
+72	prefeito	prefeito	NOUN	NOUN	_	71	flat	_	TokenRange=544:552
+73	governador	governador	NOUN	NOUN	_	71	amod	_	TokenRange=553:563
+74	presidente	presidente	NOUN	NOUN	_	71	appos	_	TokenRange=564:574
+75	ve	_	VERB	VERB	_	78	dep	_	TokenRange=575:577
+76	outsider	_	NOUN	NOUN	_	75	obj	_	TokenRange=578:586
+77	outsiders	_	NOUN	NOUN	_	76	flat	_	TokenRange=587:596
+78	entram	entrar	VERB	VERB	_	71	acl:relcl	_	TokenRange=597:603
+79	repente	repente	ADV	ADV	_	82	advmod	_	TokenRange=604:611
+80	sequer	sequer	ADV	ADV	_	81	advmod	_	TokenRange=612:618
+81	partido	partido	NOUN	NOUN	_	82	nsubj	_	TokenRange=619:626
+82	acham	achar	VERB	VERB	_	70	conj	_	TokenRange=627:632
+83	preparados	preparado	ADJ	ADJ	_	82	xcomp	_	TokenRange=633:643
+84	23	_	NUM	NUM	NumType=Card	85	nummod	_	TokenRange=644:646
+85	anos	ano	NOUN	NOUN	_	82	nmod	_	TokenRange=647:651
+86	partido	partido	NOUN	NOUN	_	82	obj	_	TokenRange=652:659
+87	contrario	contrario	ADJ	ADJ	_	86	amod	_	SpaceAfter=No|TokenRange=660:669
+

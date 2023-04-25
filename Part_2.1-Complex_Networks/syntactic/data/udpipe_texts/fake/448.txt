@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasilia mulher deixa envelope suspeito dilma bomba pior policia militar acionada manha hoje 15 recepcao ministerio fazenda verificar pacote suspeito acreditem quiser batalhao operacoes petardo deslocou orgao publico porque funcionarios desconfiaram mulher envelope suspeito enderecado expresidente dilma roussef tal pacote suspeito deixado bloco f esplanada ministerios perto 11h manha imagens senhora deixando predio divulgadas internet apos verificacao feita batalhao pm descobriuse objetos envelope simplesmente duas carteiras trabalho cujos nomes contidos documentos divulgados onde viu enviar 2 carteiras trabalho petista moca merece julgada presa cometer crime federal
+1	brasilia	brasilia	NOUN	NOUN	_	26	nsubj	_	TokenRange=0:8
+2	mulher	mulher	NOUN	NOUN	_	1	flat	_	TokenRange=9:15
+3	deixa	deixar	AUX	AUX	_	26	parataxis	_	TokenRange=16:21
+4	envelope	envelope	NOUN	NOUN	_	3	obj	_	TokenRange=22:30
+5	suspeito	suspeito	ADJ	NOUN	_	4	amod	_	TokenRange=31:39
+6	dilma	_	NOUN	NOUN	_	7	amod	_	TokenRange=40:45
+7	bomba	bomba	NOUN	NOUN	_	4	appos	_	TokenRange=46:51
+8	pior	pior	ADJ	ADJ	_	9	amod	_	TokenRange=52:56
+9	policia	policia	NOUN	NOUN	_	4	appos	_	TokenRange=57:64
+10	militar	militar	ADJ	ADJ	_	9	amod	_	TokenRange=65:72
+11	acionada	acionado	ADJ	ADJ	_	12	amod	_	TokenRange=73:81
+12	manha	manha	NOUN	NOUN	_	9	appos	_	TokenRange=82:87
+13	hoje	hoje	ADV	ADV	_	12	advmod	_	TokenRange=88:92
+14	15	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=93:95
+15	recepcao	recepcao	NOUN	NOUN	_	61	nsubj	_	TokenRange=96:104
+16	ministerio	ministerio	NOUN	NOUN	_	15	appos	_	TokenRange=105:115
+17	fazenda	fazenda	NOUN	NOUN	_	16	flat	_	TokenRange=116:123
+18	verificar	verificar	VERB	VERB	_	16	acl:inf	_	TokenRange=124:133
+19	pacote	pacote	NOUN	NOUN	_	18	obj	_	TokenRange=134:140
+20	suspeito	suspeito	ADJ	ADJ	_	19	amod	_	TokenRange=141:149
+21	acreditem	acreditar	VERB	VERB	_	19	acl:relcl	_	TokenRange=150:159
+22	quiser	querer	VERB	VERB	_	21	xcomp	_	TokenRange=160:166
+23	batalhao	batalhao	NOUN	NOUN	_	22	obj	_	TokenRange=167:175
+24	operacoes	_	NOUN	NOUN	_	23	flat	_	TokenRange=176:185
+25	petardo	petardo	NOUN	NOUN	_	23	appos	_	TokenRange=186:193
+26	deslocou	deslocar	VERB	VERB	_	0	root	_	TokenRange=194:202
+27	orgao	orgao	NOUN	NOUN	_	26	obj	_	TokenRange=203:208
+28	publico	publico	ADJ	ADJ	_	27	amod	_	TokenRange=209:216
+29	porque	_	CCONJ	CONJ	_	31	mark	_	TokenRange=217:223
+30	funcionarios	funcionario	NOUN	NOUN	_	31	nsubj	_	TokenRange=224:236
+31	desconfiaram	desconfiar	VERB	VERB	_	26	advcl	_	TokenRange=237:249
+32	mulher	mulher	NOUN	NOUN	_	31	obj	_	TokenRange=250:256
+33	envelope	envelope	NOUN	NOUN	_	32	appos	_	TokenRange=257:265
+34	suspeito	suspeito	ADJ	ADJ	_	32	amod	_	TokenRange=266:274
+35	enderecado	enderecado	ADJ	ADJ	_	36	amod	_	TokenRange=275:285
+36	expresidente	expresidente	NOUN	NOUN	_	32	appos	_	TokenRange=286:298
+37	dilma	_	ADJ	NOUN	_	36	amod	_	TokenRange=299:304
+38	roussef	_	NOUN	NOUN	_	36	flat	_	TokenRange=305:312
+39	tal	_	DET	DET	_	40	det	_	TokenRange=313:316
+40	pacote	pacote	NOUN	NOUN	_	31	nsubj	_	TokenRange=317:323
+41	suspeito	suspeito	ADJ	ADJ	_	40	amod	_	TokenRange=324:332
+42	deixado	deixar	VERB	VERB	_	40	acl	_	TokenRange=333:340
+43	bloco	bloco	NOUN	NOUN	_	40	appos	_	TokenRange=341:346
+44	f	_	NOUN	NOUN	_	43	appos	_	TokenRange=347:348
+45	esplanada	esplanado	ADJ	ADJ	_	43	amod	_	TokenRange=349:358
+46	ministerios	ministerio	NOUN	NOUN	_	43	appos	_	TokenRange=359:370
+47	perto	perto	ADV	ADV	_	61	advmod	_	TokenRange=371:376
+48	11h	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=377:380
+49	manha	manha	NOUN	NOUN	_	47	nmod	_	TokenRange=381:386
+50	imagens	imagem	NOUN	NOUN	_	61	nsubj	_	TokenRange=387:394
+51	senhora	senhor	NOUN	NOUN	_	50	appos	_	TokenRange=395:402
+52	deixando	deixar	VERB	VERB	_	50	acl	_	TokenRange=403:411
+53	predio	predio	NOUN	NOUN	_	52	obj	_	TokenRange=412:418
+54	divulgadas	divulgar	ADJ	ADJ	_	40	acl	_	TokenRange=419:429
+55	internet	_	PROPN	PNOUN	_	52	nsubj	_	TokenRange=430:438
+56	apos	_	ADP	ADP	_	57	case	_	TokenRange=439:443
+57	verificacao	verificacao	NOUN	NOUN	_	52	nmod	_	TokenRange=444:455
+58	feita	_	VERB	VERB	_	57	acl	_	TokenRange=456:461
+59	batalhao	batalhao	NOUN	NOUN	_	58	nsubj	_	TokenRange=462:470
+60	pm	_	ADJ	ADJ	_	59	amod	_	TokenRange=471:473
+61	descobriuse	descobriusar	VERB	VERB	_	3	conj	_	TokenRange=474:485
+62	objetos	objeto	NOUN	NOUN	_	61	obj	_	TokenRange=486:493
+63	envelope	envelope	NOUN	NOUN	_	62	appos	_	TokenRange=494:502
+64	simplesmente	simplesmente	ADV	ADV	_	66	advmod	_	TokenRange=503:515
+65	duas	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=516:520
+66	carteiras	_	NOUN	NOUN	_	61	obj	_	TokenRange=521:530
+67	trabalho	trabalho	NOUN	NOUN	_	66	flat	_	TokenRange=531:539
+68	cujos	_	DET	DET	_	69	det	_	TokenRange=540:545
+69	nomes	nome	NOUN	NOUN	_	66	appos	_	TokenRange=546:551
+70	contidos	conter	VERB	VERB	_	69	acl	_	TokenRange=552:560
+71	documentos	documento	NOUN	NOUN	_	70	obj	_	TokenRange=561:571
+72	divulgados	divulgar	VERB	VERB	_	71	acl	_	TokenRange=572:582
+73	onde	onde	ADV	ADV	_	74	advmod	_	TokenRange=583:587
+74	viu	ver	VERB	VERB	_	71	acl:relcl	_	TokenRange=588:591
+75	enviar	enviar	VERB	VERB	_	74	xcomp	_	TokenRange=592:598
+76	2	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=599:600
+77	carteiras	_	NOUN	NOUN	_	75	obj	_	TokenRange=601:610
+78	trabalho	trabalho	NOUN	NOUN	_	77	flat	_	TokenRange=611:619
+79	petista	petista	ADJ	ADJ	_	81	nsubj	_	TokenRange=620:627
+80	moca	_	NOUN	NOUN	_	81	nsubj	_	TokenRange=628:632
+81	merece	merecer	VERB	VERB	_	66	acl:relcl	_	TokenRange=633:639
+82	julgada	julgado	ADJ	ADJ	_	81	xcomp	_	TokenRange=640:647
+83	presa	_	ADJ	ADJ	_	81	xcomp	_	TokenRange=648:653
+84	cometer	cometer	VERB	VERB	_	81	csubj	_	TokenRange=654:661
+85	crime	crime	NOUN	NOUN	_	84	obj	_	TokenRange=662:667
+86	federal	federal	ADJ	ADJ	_	85	amod	_	SpaceAfter=No|TokenRange=668:675
+

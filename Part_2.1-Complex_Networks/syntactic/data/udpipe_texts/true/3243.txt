@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = habeas corpus preventivo lula continuidade julgamento acao direta inconstitucionalidade adi 5394 trata doacoes ocultas campanhas eleitorais pauta plenario supremo nesta quinta 22 habeas questiona decisao superior tribunal justica negou expresidente direito permanecer liberdade transito julgado acao penal condenado corrupcao passiva lavagem dinheiro 12 anos
+1	habeas	habeas	NOUN	NOUN	_	12	parataxis	_	TokenRange=0:6
+2	corpus	corpus	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	preventivo	preventivo	ADJ	ADJ	_	1	amod	_	TokenRange=14:24
+4	lula	_	ADJ	ADJ	_	1	amod	_	TokenRange=25:29
+5	continuidade	continuidade	NOUN	NOUN	_	1	appos	_	TokenRange=30:42
+6	julgamento	julgamento	NOUN	NOUN	_	1	amod	_	TokenRange=43:53
+7	acao	acao	NOUN	NOUN	_	1	appos	_	TokenRange=54:58
+8	direta	direto	ADJ	ADJ	_	7	amod	_	TokenRange=59:65
+9	inconstitucionalidade	_	NOUN	NOUN	_	7	appos	_	TokenRange=66:87
+10	adi	_	NOUN	NOUN	_	9	appos	_	TokenRange=88:91
+11	5394	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=92:96
+12	trata	tratar	VERB	VERB	_	0	root	_	TokenRange=97:102
+13	doacoes	doacoe	NOUN	NOUN	_	12	obj	_	TokenRange=103:110
+14	ocultas	oculto	ADJ	ADJ	_	15	amod	_	TokenRange=111:118
+15	campanhas	campanha	NOUN	NOUN	_	13	appos	_	TokenRange=119:128
+16	eleitorais	eleitoral	ADJ	ADJ	_	15	amod	_	TokenRange=129:139
+17	pauta	pauta	NOUN	NOUN	_	12	parataxis	_	TokenRange=140:145
+18	plenario	plenario	NOUN	NOUN	_	17	appos	_	TokenRange=146:154
+19	supremo	supremo	ADJ	ADJ	_	18	amod	_	TokenRange=155:162
+20	nesta	_	ADP	ADP	_	21	case	_	TokenRange=163:168
+21	quinta	_	PROPN	PNOUN	_	24	nmod	_	TokenRange=169:175
+22	22	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=176:178
+23	habeas	habeas	NOUN	NOUN	_	24	nsubj	_	TokenRange=179:185
+24	questiona	questionar	VERB	VERB	_	12	parataxis	_	TokenRange=186:195
+25	decisao	decisao	NOUN	NOUN	_	24	obj	_	TokenRange=196:203
+26	superior	superior	ADJ	ADJ	_	27	amod	_	TokenRange=204:212
+27	tribunal	tribunal	NOUN	NOUN	_	24	nsubj	_	TokenRange=213:221
+28	justica	justico	ADJ	ADJ	_	27	amod	_	TokenRange=222:229
+29	negou	negar	VERB	VERB	_	24	parataxis	_	TokenRange=230:235
+30	expresidente	expresidente	NOUN	NOUN	_	29	obj	_	TokenRange=236:248
+31	direito	direito	ADJ	ADJ	_	30	amod	_	TokenRange=249:256
+32	permanecer	permanecer	VERB	VERB	_	29	xcomp	_	TokenRange=257:267
+33	liberdade	liberdade	NOUN	NOUN	_	32	obj	_	TokenRange=268:277
+34	transito	transito	ADJ	ADJ	_	33	amod	_	TokenRange=278:286
+35	julgado	julgar	VERB	VERB	_	36	acl	_	TokenRange=287:294
+36	acao	acao	NOUN	NOUN	_	32	obj	_	TokenRange=295:299
+37	penal	penal	ADJ	ADJ	_	36	amod	_	TokenRange=300:305
+38	condenado	condenar	VERB	VERB	_	36	acl	_	TokenRange=306:315
+39	corrupcao	corrupcao	NOUN	NOUN	_	38	obj	_	TokenRange=316:325
+40	passiva	passivo	ADJ	ADJ	_	39	amod	_	TokenRange=326:333
+41	lavagem	lavagem	NOUN	NOUN	_	38	obj	_	TokenRange=334:341
+42	dinheiro	dinheiro	NOUN	ADJ	_	41	flat	_	TokenRange=342:350
+43	12	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=351:353
+44	anos	ano	NOUN	NOUN	_	41	appos	_	SpaceAfter=No|TokenRange=354:358
+

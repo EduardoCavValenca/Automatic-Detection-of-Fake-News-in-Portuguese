@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogado defesa diz aecio neves inconformado surpreso onde vai descaramento politicos brasileiros jose eduardo alckmin advogado defesa aecio neves disse senador inconformado acusacoes sobre pedido r 2 milhoes joesley batista empresario dono grupo jbsfriboi advogado disse pedido emprestimo realmente ocorreu ajuda financeira pessoal distorcao fala senador disse ainda acordo dr alckmin aecio surpreso repercussao fatos prisao irma andrea neves informacao folha
+1	advogado	advogado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	defesa	_	NOUN	NOUN	_	1	amod	_	TokenRange=9:15
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=16:19
+4	aecio	aecio	NOUN	NOUN	_	3	obj	_	TokenRange=20:25
+5	neves	_	NOUN	NOUN	_	4	flat	_	TokenRange=26:31
+6	inconformado	inconformado	ADJ	ADJ	_	4	amod	_	TokenRange=32:44
+7	surpreso	surpreso	ADJ	ADJ	_	4	amod	_	TokenRange=45:53
+8	onde	onde	ADV	ADV	_	10	advmod	_	TokenRange=54:58
+9	vai	ir	AUX	AUX	_	10	cop	_	TokenRange=59:62
+10	descaramento	descaramento	NOUN	NOUN	_	4	acl:relcl	_	TokenRange=63:75
+11	politicos	politico	NOUN	NOUN	_	10	amod	_	TokenRange=76:85
+12	brasileiros	brasileiro	ADJ	ADJ	_	10	amod	_	TokenRange=86:97
+13	jose	jose	NOUN	NOUN	_	10	appos	_	TokenRange=98:102
+14	eduardo	eduardo	NOUN	NOUN	_	13	flat	_	TokenRange=103:110
+15	alckmin	_	ADJ	NOUN	_	16	flat	_	TokenRange=111:118
+16	advogado	advogado	NOUN	NOUN	_	13	appos	_	TokenRange=119:127
+17	defesa	_	ADJ	NOUN	_	16	amod	_	TokenRange=128:134
+18	aecio	_	NOUN	NOUN	_	16	appos	_	TokenRange=135:140
+19	neves	_	ADJ	ADJ	_	18	flat	_	TokenRange=141:146
+20	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=147:152
+21	senador	senador	NOUN	NOUN	_	20	obj	_	TokenRange=153:160
+22	inconformado	inconformado	ADJ	ADJ	_	21	amod	_	TokenRange=161:173
+23	acusacoes	acusacoe	NOUN	NOUN	_	21	amod	_	TokenRange=174:183
+24	sobre	_	ADP	ADP	_	25	case	_	TokenRange=184:189
+25	pedido	pedido	NOUN	NOUN	_	23	nmod	_	TokenRange=190:196
+26	r	r	NOUN	NOUN	_	25	flat	_	TokenRange=197:198
+27	2	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=199:200
+28	milhoes	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=201:208
+29	joesley	_	NOUN	NOUN	_	25	appos	_	TokenRange=209:216
+30	batista	batista	NOUN	NOUN	_	29	flat	_	TokenRange=217:224
+31	empresario	empresario	NOUN	NOUN	_	29	appos	_	TokenRange=225:235
+32	dono	dono	ADJ	ADJ	_	31	amod	_	TokenRange=236:240
+33	grupo	grupo	NOUN	NOUN	_	31	appos	_	TokenRange=241:246
+34	jbsfriboi	_	ADJ	ADJ	_	33	amod	_	TokenRange=247:256
+35	advogado	advogado	NOUN	NOUN	_	31	appos	_	TokenRange=257:265
+36	disse	dizer	VERB	VERB	_	25	acl:relcl	_	TokenRange=266:271
+37	pedido	pedido	NOUN	NOUN	_	36	obj	_	TokenRange=272:278
+38	emprestimo	emprestimo	ADJ	ADJ	_	37	amod	_	TokenRange=279:289
+39	realmente	realmente	ADV	ADV	_	40	advmod	_	TokenRange=290:299
+40	ocorreu	ocorrer	VERB	VERB	_	37	acl:relcl	_	TokenRange=300:307
+41	ajuda	ajuda	NOUN	NOUN	_	40	nsubj	_	TokenRange=308:313
+42	financeira	financeiro	ADJ	ADJ	_	41	amod	_	TokenRange=314:324
+43	pessoal	pessoal	ADJ	ADJ	_	41	amod	_	TokenRange=325:332
+44	distorcao	distorcao	NOUN	NOUN	_	41	amod	_	TokenRange=333:342
+45	fala	_	VERB	VERB	_	36	parataxis	_	TokenRange=343:347
+46	senador	senador	NOUN	NOUN	_	47	nsubj	_	TokenRange=348:355
+47	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=356:361
+48	ainda	ainda	ADV	ADV	_	47	advmod	_	TokenRange=362:367
+49	acordo	acordo	NOUN	NOUN	_	47	obj	_	TokenRange=368:374
+50	dr	dr	NOUN	NOUN	_	49	appos	_	TokenRange=375:377
+51	alckmin	_	NOUN	NOUN	_	50	flat	_	TokenRange=378:385
+52	aecio	_	NOUN	NOUN	_	49	appos	_	TokenRange=386:391
+53	surpreso	surpreso	ADJ	ADJ	_	49	amod	_	TokenRange=392:400
+54	repercussao	repercussao	NOUN	NOUN	_	49	appos	_	TokenRange=401:412
+55	fatos	fato	ADJ	ADJ	_	49	amod	_	TokenRange=413:418
+56	prisao	prisao	NOUN	NOUN	_	60	appos	_	TokenRange=419:425
+57	irma	irma	NOUN	NOUN	_	60	appos	_	TokenRange=426:430
+58	andrea	andreo	NOUN	NOUN	_	57	flat	_	TokenRange=431:437
+59	neves	neve	ADJ	ADJ	_	57	flat	_	TokenRange=438:443
+60	informacao	informacao	NOUN	NOUN	_	47	parataxis	_	TokenRange=444:454
+61	folha	folha	NOUN	NOUN	_	60	appos	_	SpaceAfter=No|TokenRange=455:460
+

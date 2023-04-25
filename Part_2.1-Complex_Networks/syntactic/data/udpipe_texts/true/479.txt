@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = conselho etica abre processos podem levar cassacao jean wyllys ivan valente erika kokay processos abertos apos representacoes pr pede cassacao mandato deputados saiba parlamentares disseram sobre assunto conselho etica camara instaurou nesta tercafeira 27 processos disciplinares podem levar cassacao mandato deputados ivan valente psolsp jean wyllys psolrj erika kokay ptdf processos
+1	conselho	conselho	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	etica	etico	NOUN	NOUN	_	1	flat	_	TokenRange=9:14
+3	abre	abrir	VERB	VERB	_	0	root	_	TokenRange=15:19
+4	processos	processo	NOUN	NOUN	_	3	obj	_	TokenRange=20:29
+5	podem	_	AUX	AUX	_	6	aux	_	TokenRange=30:35
+6	levar	levar	VERB	VERB	_	3	ccomp	_	TokenRange=36:41
+7	cassacao	cassacao	NOUN	NOUN	_	6	obj	_	TokenRange=42:50
+8	jean	_	NOUN	NOUN	_	7	appos	_	TokenRange=51:55
+9	wyllys	_	NOUN	NOUN	_	8	flat	_	TokenRange=56:62
+10	ivan	ivan	NOUN	NOUN	_	8	appos	_	TokenRange=63:67
+11	valente	valente	ADJ	ADJ	_	10	amod	_	TokenRange=68:75
+12	erika	_	NOUN	NOUN	_	8	appos	_	TokenRange=76:81
+13	kokay	kokay	NOUN	NOUN	_	12	flat	_	TokenRange=82:87
+14	processos	processo	NOUN	NOUN	_	6	obj	_	TokenRange=88:97
+15	abertos	aberto	ADJ	ADJ	_	14	amod	_	TokenRange=98:105
+16	apos	_	ADP	ADP	_	17	case	_	TokenRange=106:110
+17	representacoes	representacoe	NOUN	NOUN	_	14	nmod	_	TokenRange=111:125
+18	pr	_	NOUN	NOUN	_	17	appos	_	TokenRange=126:128
+19	pede	pedir	VERB	VERB	_	6	parataxis	_	TokenRange=129:133
+20	cassacao	cassacao	NOUN	NOUN	_	19	obj	_	TokenRange=134:142
+21	mandato	mandato	NOUN	NOUN	_	20	flat	_	TokenRange=143:150
+22	deputados	deputado	NOUN	NOUN	_	19	nsubj	_	TokenRange=151:160
+23	saiba	saber	ADJ	ADJ	_	24	amod	_	TokenRange=161:166
+24	parlamentares	parlamentar	NOUN	NOUN	_	22	appos	_	TokenRange=167:180
+25	disseram	dizer	VERB	VERB	_	19	parataxis	_	TokenRange=181:189
+26	sobre	_	ADP	ADP	_	27	case	_	TokenRange=190:195
+27	assunto	assunto	NOUN	NOUN	_	25	nmod	_	TokenRange=196:203
+28	conselho	conselho	NOUN	NOUN	_	31	nsubj	_	TokenRange=204:212
+29	etica	etico	ADJ	ADJ	_	28	amod	_	TokenRange=213:218
+30	camara	camara	NOUN	NOUN	_	28	appos	_	TokenRange=219:225
+31	instaurou	instaurar	VERB	VERB	_	25	ccomp	_	TokenRange=226:235
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=236:241
+33	tercafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=242:252
+34	27	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=253:255
+35	processos	processo	NOUN	NOUN	_	38	nsubj	_	TokenRange=256:265
+36	disciplinares	disciplinar	ADJ	ADJ	_	35	amod	_	TokenRange=266:279
+37	podem	_	AUX	AUX	_	38	aux	_	TokenRange=280:285
+38	levar	levar	VERB	VERB	_	31	parataxis	_	TokenRange=286:291
+39	cassacao	cassacao	NOUN	NOUN	_	38	obj	_	TokenRange=292:300
+40	mandato	mandato	NOUN	NOUN	_	39	flat	_	TokenRange=301:308
+41	deputados	deputado	NOUN	NOUN	_	38	obj	_	TokenRange=309:318
+42	ivan	ivan	NOUN	NOUN	_	41	appos	_	TokenRange=319:323
+43	valente	valente	ADJ	ADJ	_	42	amod	_	TokenRange=324:331
+44	psolsp	_	NOUN	NOUN	_	42	flat	_	TokenRange=332:338
+45	jean	_	NOUN	NOUN	_	42	appos	_	TokenRange=339:343
+46	wyllys	_	NOUN	NOUN	_	45	flat	_	TokenRange=344:350
+47	psolrj	_	NOUN	NOUN	_	42	conj	_	TokenRange=351:357
+48	erika	_	NOUN	NOUN	_	47	appos	_	TokenRange=358:363
+49	kokay	_	NOUN	NOUN	_	48	flat	_	TokenRange=364:369
+50	ptdf	_	X	X	_	51	appos	_	TokenRange=370:374
+51	processos	processo	NOUN	NOUN	_	48	flat	_	SpaceAfter=No|TokenRange=375:384
+

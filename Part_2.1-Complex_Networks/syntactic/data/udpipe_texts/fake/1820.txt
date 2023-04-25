@@ -1,0 +1,22 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mendes bate boca fux tse adianta tentar esconder crise estendeu 3 poderes pais perdido
+1	mendes	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	bate	bater	VERB	VERB	_	0	root	_	TokenRange=7:11
+3	boca	boca	NOUN	NOUN	_	2	obj	_	TokenRange=12:16
+4	fux	_	NOUN	NOUN	_	3	appos	_	TokenRange=17:20
+5	tse	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=21:24
+6	adianta	adiantar	VERB	VERB	_	2	conj	_	TokenRange=25:32
+7	tentar	tentar	VERB	VERB	_	6	xcomp	_	TokenRange=33:39
+8	esconder	esconder	VERB	VERB	_	7	xcomp	_	TokenRange=40:48
+9	crise	crise	NOUN	NOUN	_	8	obj	_	TokenRange=49:54
+10	estendeu	estender	VERB	VERB	_	2	parataxis	_	TokenRange=55:63
+11	3	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=64:65
+12	poderes	_	NOUN	NOUN	_	10	obj	_	TokenRange=66:73
+13	pais	_	NOUN	NOUN	_	10	obj	_	TokenRange=74:78
+14	perdido	perdido	ADJ	ADJ	_	13	amod	_	SpaceAfter=No|TokenRange=79:86
+

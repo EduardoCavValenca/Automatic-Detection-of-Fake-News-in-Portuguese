@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado araujo agora oficial dilma decretou falencia pais anunciar paralisacao servicos basicos palavras deputado bruno araujo presidente dilma rousseff decretou hoje falencia estado brasileiro anunciar suspensao todos pagamentos servicos agua luz telefone fisc alizacao ambiental trabalho bolsas nacionais internacionais passagens diarias receita policia federal outros repasses rombo contas publicas soma hoje r 120 bilhoes governo sabe honrar compromissos consequencia escalada magestao corrupcao mentiras principalmente incompetencia
+1	deputado	deputado	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:8
+2	araujo	araujo	NOUN	NOUN	_	1	flat	_	TokenRange=9:15
+3	agora	agora	ADV	ADV	_	6	advmod	_	TokenRange=16:21
+4	oficial	oficial	ADJ	ADJ	_	1	amod	_	TokenRange=22:29
+5	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+6	decretou	decretar	VERB	VERB	_	0	root	_	TokenRange=36:44
+7	falencia	falencia	NOUN	NOUN	_	6	obj	_	TokenRange=45:53
+8	pais	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=54:58
+9	anunciar	anunciar	VERB	VERB	_	6	ccomp	_	TokenRange=59:67
+10	paralisacao	paralisacao	NOUN	NOUN	_	9	obj	_	TokenRange=68:79
+11	servicos	servico	NOUN	NOUN	_	9	obj	_	TokenRange=80:88
+12	basicos	basico	ADJ	ADJ	_	11	amod	_	TokenRange=89:96
+13	palavras	palavra	NOUN	NOUN	_	11	appos	_	TokenRange=97:105
+14	deputado	deputado	NOUN	NOUN	_	13	appos	_	TokenRange=106:114
+15	bruno	bruno	NOUN	NOUN	_	14	flat	_	TokenRange=115:120
+16	araujo	araujo	ADJ	NOUN	_	14	flat	_	TokenRange=121:127
+17	presidente	presidente	NOUN	NOUN	_	14	appos	_	TokenRange=128:138
+18	dilma	dilma	NOUN	NOUN	_	17	appos	_	TokenRange=139:144
+19	rousseff	rousseff	NOUN	NOUN	_	17	appos	_	TokenRange=145:153
+20	decretou	decretar	VERB	VERB	_	6	parataxis	_	TokenRange=154:162
+21	hoje	hoje	ADV	ADV	_	20	advmod	_	TokenRange=163:167
+22	falencia	falencia	NOUN	NOUN	_	20	obj	_	TokenRange=168:176
+23	estado	estado	NOUN	NOUN	_	20	nsubj	_	TokenRange=177:183
+24	brasileiro	brasileiro	ADJ	ADJ	_	23	amod	_	TokenRange=184:194
+25	anunciar	anunciar	VERB	VERB	_	20	ccomp	_	TokenRange=195:203
+26	suspensao	suspensao	NOUN	NOUN	_	25	obj	_	TokenRange=204:213
+27	todos	_	DET	DET	_	28	det	_	TokenRange=214:219
+28	pagamentos	pagamento	NOUN	NOUN	_	26	appos	_	TokenRange=220:230
+29	servicos	servico	ADJ	ADJ	_	28	amod	_	TokenRange=231:239
+30	agua	_	NOUN	NOUN	_	28	appos	_	TokenRange=240:244
+31	luz	luz	NOUN	NOUN	_	28	amod	_	TokenRange=245:248
+32	telefone	telefone	NOUN	NOUN	_	28	appos	_	TokenRange=249:257
+33	fisc	fisc	ADJ	ADJ	_	32	amod	_	TokenRange=258:262
+34	alizacao	alizacao	NOUN	NOUN	_	32	appos	_	TokenRange=263:271
+35	ambiental	ambiental	ADJ	ADJ	_	37	amod	_	TokenRange=272:281
+36	trabalho	trabalho	NOUN	NOUN	_	34	appos	_	TokenRange=282:290
+37	bolsas	bolsa	NOUN	NOUN	_	34	appos	_	TokenRange=291:297
+38	nacionais	nacional	ADJ	ADJ	_	37	amod	_	TokenRange=298:307
+39	internacionais	internacional	ADJ	ADJ	_	37	amod	_	TokenRange=308:322
+40	passagens	passagem	NOUN	NOUN	_	37	appos	_	TokenRange=323:332
+41	diarias	diario	ADJ	ADJ	_	40	amod	_	TokenRange=333:340
+42	receita	receita	NOUN	NOUN	_	40	appos	_	TokenRange=341:348
+43	policia	policia	NOUN	NOUN	_	40	appos	_	TokenRange=349:356
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=357:364
+45	outros	_	DET	DET	_	46	det	_	TokenRange=365:371
+46	repasses	repasse	NOUN	NOUN	_	50	nsubj	_	TokenRange=372:380
+47	rombo	rombo	ADJ	ADJ	_	46	amod	_	TokenRange=381:386
+48	contas	conta	NOUN	NOUN	_	46	appos	_	TokenRange=387:393
+49	publicas	publico	ADJ	ADJ	_	48	amod	_	TokenRange=394:402
+50	soma	somar	VERB	VERB	_	6	parataxis	_	TokenRange=403:407
+51	hoje	hoje	ADV	ADV	_	50	advmod	_	TokenRange=408:412
+52	r	r	NOUN	NOUN	_	50	obj	_	TokenRange=413:414
+53	120	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=415:418
+54	bilhoes	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=419:426
+55	governo	governo	NOUN	NOUN	_	56	nsubj	_	TokenRange=427:434
+56	sabe	saber	VERB	VERB	_	50	parataxis	_	TokenRange=435:439
+57	honrar	honrar	VERB	VERB	_	56	xcomp	_	TokenRange=440:446
+58	compromissos	compromisso	NOUN	NOUN	_	57	obj	_	TokenRange=447:459
+59	consequencia	_	NOUN	NOUN	_	58	appos	_	TokenRange=460:472
+60	escalada	escalado	ADJ	ADJ	_	59	amod	_	TokenRange=473:481
+61	magestao	magestao	NOUN	NOUN	_	59	appos	_	TokenRange=482:490
+62	corrupcao	corrupcao	NOUN	NOUN	_	61	appos	_	TokenRange=491:500
+63	mentiras	mentira	NOUN	NOUN	_	65	appos	_	TokenRange=501:509
+64	principalmente	principalmente	ADV	ADV	_	65	advmod	_	TokenRange=510:524
+65	incompetencia	incompetencia	NOUN	NOUN	_	62	appos	_	SpaceAfter=No|TokenRange=525:538
+

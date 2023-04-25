@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = honda crv 2018 primeiras impressoes novo motor 15 turbo 190 cavalos agrada conducao preco alto pacote unico prejudica custobeneficio suv enquanto hrv segue balada sucesso brasil irmao maior crv consegue desempenho parecido chegada nova geracao suv pode mudar vendas menos imagem carro
+1	honda	honda	NOUN	NOUN	_	38	nsubj	_	TokenRange=0:5
+2	crv	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:9
+3	2018	_	NUM	NUM	NumType=Card	1	nummod	_	TokenRange=10:14
+4	primeiras	primeiro	ADJ	ADJ	_	5	amod	_	TokenRange=15:24
+5	impressoes	impressoe	NOUN	NOUN	_	1	appos	_	TokenRange=25:35
+6	novo	novo	ADJ	ADJ	_	7	amod	_	TokenRange=36:40
+7	motor	motor	NOUN	NOUN	_	1	appos	_	TokenRange=41:46
+8	15	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=47:49
+9	turbo	turbo	NOUN	NOUN	_	1	appos	_	TokenRange=50:55
+10	190	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=56:59
+11	cavalos	cavalo	NOUN	NOUN	_	1	appos	_	TokenRange=60:67
+12	agrada	_	ADJ	ADJ	_	13	amod	_	TokenRange=68:74
+13	conducao	conducao	NOUN	NOUN	_	1	appos	_	TokenRange=75:83
+14	preco	preco	ADJ	ADJ	_	13	amod	_	TokenRange=84:89
+15	alto	alto	ADJ	ADJ	_	16	amod	_	TokenRange=90:94
+16	pacote	pacote	NOUN	NOUN	_	13	appos	_	TokenRange=95:101
+17	unico	unico	ADJ	ADJ	_	16	amod	_	TokenRange=102:107
+18	prejudica	_	NOUN	NOUN	_	16	amod	_	TokenRange=108:117
+19	custobeneficio	custobeneficio	NOUN	NOUN	_	18	obj	_	TokenRange=118:132
+20	suv	_	NOUN	NOUN	_	19	appos	_	TokenRange=133:136
+21	enquanto	_	CCONJ	CONJ	_	23	mark	_	TokenRange=137:145
+22	hrv	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=146:149
+23	segue	_	VERB	VERB	_	18	advcl	_	TokenRange=150:155
+24	balada	balado	ADJ	ADJ	_	25	amod	_	TokenRange=156:162
+25	sucesso	sucesso	NOUN	NOUN	_	23	obj	_	TokenRange=163:170
+26	brasil	brasil	ADJ	ADJ	_	25	amod	_	TokenRange=171:177
+27	irmao	irmao	NOUN	NOUN	_	25	appos	_	TokenRange=178:183
+28	maior	maior	ADJ	ADJ	_	27	amod	_	TokenRange=184:189
+29	crv	crv	NOUN	NOUN	_	30	nsubj	_	TokenRange=190:193
+30	consegue	conseguir	VERB	VERB	_	1	parataxis	_	TokenRange=194:202
+31	desempenho	desempenho	NOUN	NOUN	_	30	obj	_	TokenRange=203:213
+32	parecido	parecido	ADJ	ADJ	_	31	amod	_	TokenRange=214:222
+33	chegada	chegada	NOUN	NOUN	_	38	nsubj	_	TokenRange=223:230
+34	nova	novo	ADJ	ADJ	_	35	amod	_	TokenRange=231:235
+35	geracao	geracao	NOUN	NOUN	_	38	nsubj	_	TokenRange=236:243
+36	suv	_	NOUN	NOUN	_	35	appos	_	TokenRange=244:247
+37	pode	_	AUX	AUX	_	38	aux	_	TokenRange=248:252
+38	mudar	mudar	VERB	VERB	_	0	root	_	TokenRange=253:258
+39	vendas	venda	NOUN	NOUN	_	38	obj	_	TokenRange=259:265
+40	menos	_	DET	DET	_	41	det	_	TokenRange=266:271
+41	imagem	imagem	NOUN	NOUN	_	38	obj	_	TokenRange=272:278
+42	carro	carro	NOUN	NOUN	_	41	appos	_	SpaceAfter=No|TokenRange=279:284
+

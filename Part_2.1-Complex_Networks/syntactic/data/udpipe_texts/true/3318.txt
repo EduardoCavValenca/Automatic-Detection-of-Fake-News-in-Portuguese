@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = br distribuidora estreia bolsa nesta sextafeira apos levantar r 5 bi maior ipo desde 2013 petrobras vendeu fatia 30 vai incluir recursos plano venda ativos br 11 empresa entrar bolsa 2017 reforca retomada aberturas capital apos levantar cerca r 5 bilhoes abertura capital br distribuidora comeca operar acoes bolsa paulista nesta sextafeira 15 distribuidora combustiveis petrobras vai atuar novo mercado principal segmento governanca b3 oferta inicial acoes ipo secundaria vendidas acoes atual acionista dinheiro levantado vai caixa petrobras
+1	br	br	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:2
+2	distribuidora	distribuidor	NOUN	NOUN	_	1	flat	_	TokenRange=3:16
+3	estreia	estrear	VERB	VERB	_	0	root	_	TokenRange=17:24
+4	bolsa	bolsa	NOUN	NOUN	_	3	obj	_	TokenRange=25:30
+5	nesta	_	ADP	ADP	_	6	case	_	TokenRange=31:36
+6	sextafeira	_	NOUN	NOUN	_	3	nmod	_	TokenRange=37:47
+7	apos	_	ADP	ADP	_	8	mark	_	TokenRange=48:52
+8	levantar	levantar	VERB	VERB	_	3	advcl	_	TokenRange=53:61
+9	r	r	NOUN	NOUN	_	8	obj	_	TokenRange=62:63
+10	5	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=64:65
+11	bi	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=66:68
+12	maior	maior	ADJ	ADJ	_	13	amod	_	TokenRange=69:74
+13	ipo	ipo	NOUN	NOUN	_	8	obj	_	TokenRange=75:78
+14	desde	_	ADP	ADP	_	15	case	_	TokenRange=79:84
+15	2013	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=85:89
+16	petrobras	petrobra	NOUN	NOUN	_	17	nsubj	_	TokenRange=90:99
+17	vendeu	vender	VERB	VERB	_	3	advcl	_	TokenRange=100:106
+18	fatia	_	NOUN	NOUN	_	17	obj	_	TokenRange=107:112
+19	30	_	NUM	NUM	NumType=Card	18	appos	_	TokenRange=113:115
+20	vai	ir	AUX	AUX	_	21	aux	_	TokenRange=116:119
+21	incluir	incluir	VERB	VERB	_	17	parataxis	_	TokenRange=120:127
+22	recursos	recurso	NOUN	NOUN	_	21	obj	_	TokenRange=128:136
+23	plano	plano	ADJ	ADJ	_	22	amod	_	TokenRange=137:142
+24	venda	venda	NOUN	NOUN	_	21	obj	_	TokenRange=143:148
+25	ativos	ativo	ADJ	ADJ	_	24	amod	_	TokenRange=149:155
+26	br	br	NOUN	NOUN	_	21	appos	_	TokenRange=156:158
+27	11	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=159:161
+28	empresa	empresa	NOUN	NOUN	_	29	nsubj	_	TokenRange=162:169
+29	entrar	entrar	VERB	VERB	_	24	acl:relcl	_	TokenRange=170:176
+30	bolsa	bolsa	NOUN	NOUN	_	29	obj	_	TokenRange=177:182
+31	2017	_	NUM	NUM	NumType=Card	29	nsubj	_	TokenRange=183:187
+32	reforca	reforcar	VERB	VERB	_	3	parataxis	_	TokenRange=188:195
+33	retomada	retomado	ADJ	ADJ	_	34	amod	_	TokenRange=196:204
+34	aberturas	abertura	NOUN	NOUN	_	32	obj	_	TokenRange=205:214
+35	capital	capital	ADJ	ADJ	_	34	amod	_	TokenRange=215:222
+36	apos	_	ADP	ADP	_	37	mark	_	TokenRange=223:227
+37	levantar	levantar	VERB	VERB	_	32	advcl	_	TokenRange=228:236
+38	cerca	cerca	ADV	ADV	_	41	advmod	_	TokenRange=237:242
+39	r	r	NOUN	NOUN	_	37	obj	_	TokenRange=243:244
+40	5	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=245:246
+41	bilhoes	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=247:254
+42	abertura	abertura	NOUN	NOUN	_	37	obj	_	TokenRange=255:263
+43	capital	capital	ADJ	ADJ	_	42	amod	_	TokenRange=264:271
+44	br	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=272:274
+45	distribuidora	distribuidor	NOUN	NOUN	_	42	flat	_	TokenRange=275:288
+46	comeca	_	VERB	VERB	_	37	aux	_	TokenRange=289:295
+47	operar	operar	VERB	VERB	_	46	xcomp	_	TokenRange=296:302
+48	acoes	acoe	NOUN	NOUN	_	47	obj	_	TokenRange=303:308
+49	bolsa	bolsa	NOUN	NOUN	_	48	appos	_	TokenRange=309:314
+50	paulista	paulista	ADJ	ADJ	_	49	amod	_	TokenRange=315:323
+51	nesta	_	ADP	ADP	_	52	case	_	TokenRange=324:329
+52	sextafeira	sextafeira	NOUN	NOUN	_	47	nmod	_	TokenRange=330:340
+53	15	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=341:343
+54	distribuidora	distribuidor	NOUN	NOUN	_	52	appos	_	TokenRange=344:357
+55	combustiveis	combustivel	ADJ	ADJ	_	54	amod	_	TokenRange=358:370
+56	petrobras	petrobra	ADJ	ADJ	_	54	amod	_	TokenRange=371:380
+57	vai	ir	AUX	AUX	_	58	aux	_	TokenRange=381:384
+58	atuar	atuar	VERB	VERB	_	3	parataxis	_	TokenRange=385:390
+59	novo	novo	ADJ	ADJ	_	60	amod	_	TokenRange=391:395
+60	mercado	mercado	NOUN	NOUN	_	58	obj	_	TokenRange=396:403
+61	principal	principal	ADJ	ADJ	_	60	amod	_	TokenRange=404:413
+62	segmento	segmento	NOUN	NOUN	_	60	appos	_	TokenRange=414:422
+63	governanca	_	NOUN	NOUN	_	60	appos	_	TokenRange=423:433
+64	b3	_	NUM	NUM	NumType=Card	65	amod	_	TokenRange=434:436
+65	oferta	oferta	NOUN	NOUN	_	60	appos	_	TokenRange=437:443
+66	inicial	inicial	ADJ	ADJ	_	65	amod	_	TokenRange=444:451
+67	acoes	acoe	NOUN	NOUN	_	65	appos	_	TokenRange=452:457
+68	ipo	ipo	NOUN	NOUN	_	67	appos	_	TokenRange=458:461
+69	secundaria	secundario	ADJ	ADJ	_	68	amod	_	TokenRange=462:472
+70	vendidas	vender	ADJ	ADJ	_	71	amod	_	TokenRange=473:481
+71	acoes	acoe	NOUN	NOUN	_	67	appos	_	TokenRange=482:487
+72	atual	atual	ADJ	ADJ	_	71	amod	_	TokenRange=488:493
+73	acionista	_	ADJ	ADJ	_	71	amod	_	TokenRange=494:503
+74	dinheiro	dinheiro	NOUN	NOUN	_	71	appos	_	TokenRange=504:512
+75	levantado	levantado	ADJ	ADJ	_	71	amod	_	TokenRange=513:522
+76	vai	ir	AUX	AUX	_	77	cop	_	TokenRange=523:526
+77	caixa	caixa	NOUN	NOUN	_	3	parataxis	_	TokenRange=527:532
+78	petrobras	_	ADJ	ADJ	_	77	flat	_	SpaceAfter=No|TokenRange=533:542
+

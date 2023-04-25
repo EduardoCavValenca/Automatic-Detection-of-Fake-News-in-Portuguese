@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cacador mortadelas temer ira desocupar 30 mil cargos ocupados petistas michel temer manifestou intencao cortar verba organizacoes ligadas pt caso fato confirme temer aclamado cacador mortadelas alvos comissionados terceirizados governo sob indicacao politicos partido trabalhadores encomendado levantamento minucioso verdadeira multidao funcionarios contratados sob indicacao petista mira gastos veiculos imoveis sim intencao demitilos somente corte toda petralhada enconstada tetas federais funcionarios informais pt governo economizara r 3 bilhoes 2016 cerca 30 mil petistas parasitas instalados governo estatais cairao junto presidenta
+1	cacador	cacador	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:7
+2	mortadelas	_	ADJ	ADJ	_	1	amod	_	TokenRange=8:18
+3	temer	temer	NOUN	NOUN	_	1	appos	_	TokenRange=19:24
+4	ira	_	AUX	AUX	_	5	aux	_	TokenRange=25:28
+5	desocupar	desocupar	VERB	VERB	_	77	ccomp	_	TokenRange=29:38
+6	30	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=39:41
+7	mil	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=42:45
+8	cargos	cargo	NOUN	NOUN	_	5	obj	_	TokenRange=46:52
+9	ocupados	ocupado	ADJ	ADJ	_	8	amod	_	TokenRange=53:61
+10	petistas	petista	ADJ	NOUN	_	5	xcomp	_	TokenRange=62:70
+11	michel	michel	ADJ	ADJ	_	12	amod	_	TokenRange=71:77
+12	temer	temer	NOUN	NOUN	_	13	nsubj	_	TokenRange=78:83
+13	manifestou	manifestar	VERB	VERB	_	5	parataxis	_	TokenRange=84:94
+14	intencao	intencao	NOUN	NOUN	_	13	obj	_	TokenRange=95:103
+15	cortar	cortar	VERB	VERB	_	13	ccomp	_	TokenRange=104:110
+16	verba	verba	NOUN	NOUN	_	15	obj	_	TokenRange=111:116
+17	organizacoes	_	NOUN	NOUN	_	15	obj	_	TokenRange=117:129
+18	ligadas	ligado	ADJ	ADJ	_	17	amod	_	TokenRange=130:137
+19	pt	_	ADP	ADP	_	22	mark	_	TokenRange=138:140
+20	caso	caso	NOUN	NOUN	_	22	mark	_	TokenRange=141:145
+21	fato	fato	NOUN	NOUN	_	22	nsubj	_	TokenRange=146:150
+22	confirme	confirmar	VERB	VERB	_	5	conj	_	TokenRange=151:159
+23	temer	temer	NOUN	NOUN	_	22	obj	_	TokenRange=160:165
+24	aclamado	aclamar	ADJ	ADJ	_	25	amod	_	TokenRange=166:174
+25	cacador	cacador	NOUN	NOUN	_	22	obj	_	TokenRange=175:182
+26	mortadelas	_	ADJ	ADJ	_	25	amod	_	TokenRange=183:193
+27	alvos	alvo	NOUN	NOUN	_	25	appos	_	TokenRange=194:199
+28	comissionados	comissionado	ADJ	ADJ	_	25	amod	_	TokenRange=200:213
+29	terceirizados	_	ADJ	ADJ	_	25	amod	_	TokenRange=214:227
+30	governo	governo	NOUN	NOUN	_	25	appos	_	TokenRange=228:235
+31	sob	_	ADP	ADP	_	32	case	_	TokenRange=236:239
+32	indicacao	indicacao	NOUN	NOUN	_	30	nmod	_	TokenRange=240:249
+33	politicos	politico	ADJ	ADJ	_	32	amod	_	TokenRange=250:259
+34	partido	partido	NOUN	NOUN	_	30	appos	_	TokenRange=260:267
+35	trabalhadores	trabalhador	NOUN	NOUN	_	34	amod	_	TokenRange=268:281
+36	encomendado	encomendado	ADJ	ADJ	_	37	amod	_	TokenRange=282:293
+37	levantamento	levantamento	NOUN	NOUN	_	30	appos	_	TokenRange=294:306
+38	minucioso	minucioso	ADJ	ADJ	_	37	amod	_	TokenRange=307:316
+39	verdadeira	verdadeiro	ADJ	ADJ	_	41	amod	_	TokenRange=317:327
+40	multidao	_	ADJ	ADJ	_	41	amod	_	TokenRange=328:336
+41	funcionarios	funcionario	NOUN	NOUN	_	37	appos	_	TokenRange=337:349
+42	contratados	contratar	VERB	VERB	_	41	acl	_	TokenRange=350:361
+43	sob	_	ADP	ADP	_	44	case	_	TokenRange=362:365
+44	indicacao	indicacao	NOUN	NOUN	_	42	nmod	_	TokenRange=366:375
+45	petista	petista	ADJ	ADJ	_	44	amod	_	TokenRange=376:383
+46	mira	_	VERB	VERB	_	44	appos	_	TokenRange=384:388
+47	gastos	gasto	NOUN	NOUN	_	46	obj	_	TokenRange=389:395
+48	veiculos	veiculo	NOUN	NOUN	_	47	flat	_	TokenRange=396:404
+49	imoveis	imovel	ADJ	ADJ	_	47	amod	_	TokenRange=405:412
+50	sim	sim	ADV	ADV	_	51	advmod	_	TokenRange=413:416
+51	intencao	intencao	NOUN	NOUN	_	47	amod	_	TokenRange=417:425
+52	demitilos	demitilo	NOUN	NOUN	_	51	nsubj	_	TokenRange=426:435
+53	somente	somente	ADV	ADV	_	54	advmod	_	TokenRange=436:443
+54	corte	corte	NOUN	NOUN	_	51	appos	_	TokenRange=444:449
+55	toda	_	DET	DET	_	56	det	_	TokenRange=450:454
+56	petralhada	petralhada	NOUN	NOUN	_	54	appos	_	TokenRange=455:465
+57	enconstada	enconstar	VERB	VERB	_	56	acl	_	TokenRange=466:476
+58	tetas	teta	NOUN	NOUN	_	57	nsubj	_	TokenRange=477:482
+59	federais	federal	ADJ	ADJ	_	58	amod	_	TokenRange=483:491
+60	funcionarios	funcionario	NOUN	NOUN	_	58	appos	_	TokenRange=492:504
+61	informais	informal	ADJ	ADJ	_	60	amod	_	TokenRange=505:514
+62	pt	_	ADP	ADP	_	63	det	_	TokenRange=515:517
+63	governo	governo	NOUN	NOUN	_	64	nsubj	_	TokenRange=518:525
+64	economizara	economizar	VERB	VERB	_	54	acl:relcl	_	TokenRange=526:537
+65	r	r	NOUN	NOUN	_	64	obj	_	TokenRange=538:539
+66	3	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=540:541
+67	bilhoes	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=542:549
+68	2016	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=550:554
+69	cerca	cerca	ADV	ADV	_	71	advmod	_	TokenRange=555:560
+70	30	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=561:563
+71	mil	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=564:567
+72	petistas	petista	NOUN	NOUN	_	64	nsubj	_	TokenRange=568:576
+73	parasitas	parasito	ADJ	ADJ	_	72	amod	_	TokenRange=577:586
+74	instalados	instalado	ADJ	ADJ	_	72	amod	_	TokenRange=587:597
+75	governo	governo	NOUN	NOUN	_	72	appos	_	TokenRange=598:605
+76	estatais	estatal	ADJ	ADJ	_	72	amod	_	TokenRange=606:614
+77	cairao	_	VERB	VERB	_	0	root	_	TokenRange=615:621
+78	junto	junto	ADV	ADV	_	77	advmod	_	TokenRange=622:627
+79	presidenta	_	NOUN	NOUN	_	78	obj	_	SpaceAfter=No|TokenRange=628:638
+

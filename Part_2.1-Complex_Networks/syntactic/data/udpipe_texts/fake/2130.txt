@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exministro lula dilma preso pf antonio palocci acusado corrupcao associacao criminosa antonio palocci exministro pt preso paulo agora manha 26 35 fase operacao lava jato apuradas praticas dentre outros crimes corrupcao associacao criminosa lavagem dinheiro informou pf acordo pf palocci atuou forma direta propiciar vantagens odebrecht epoca governo identificadas negociacoes exministro beneficiar empreiteira
+1	exministro	exministro	NOUN	NOUN	_	36	nsubj	_	TokenRange=0:10
+2	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=11:15
+3	dilma	_	NOUN	NOUN	_	2	flat	_	TokenRange=16:21
+4	preso	_	NOUN	NOUN	_	1	appos	_	TokenRange=22:27
+5	pf	_	NOUN	NOUN	_	4	flat	_	TokenRange=28:30
+6	antonio	antonio	NOUN	NOUN	_	1	appos	_	TokenRange=31:38
+7	palocci	_	NOUN	NOUN	_	6	flat	_	TokenRange=39:46
+8	acusado	acusar	VERB	VERB	_	1	acl	_	TokenRange=47:54
+9	corrupcao	corrupcao	ADJ	NOUN	_	10	amod	_	TokenRange=55:64
+10	associacao	associacao	NOUN	NOUN	_	8	obj	_	TokenRange=65:75
+11	criminosa	criminoso	ADJ	ADJ	_	10	amod	_	TokenRange=76:85
+12	antonio	antonio	NOUN	NOUN	_	10	appos	_	TokenRange=86:93
+13	palocci	_	NOUN	NOUN	_	12	appos	_	TokenRange=94:101
+14	exministro	exministro	NOUN	NOUN	_	10	appos	_	TokenRange=102:112
+15	pt	_	NOUN	NOUN	_	12	appos	_	TokenRange=113:115
+16	preso	_	NOUN	VERB	_	10	appos	_	TokenRange=116:121
+17	paulo	paulo	NOUN	NOUN	_	16	appos	_	TokenRange=122:127
+18	agora	agora	ADV	ADV	_	19	advmod	_	TokenRange=128:133
+19	manha	manha	NOUN	NOUN	_	16	appos	_	TokenRange=134:139
+20	26	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=140:142
+21	35	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=143:145
+22	fase	fase	NOUN	NOUN	_	19	appos	_	TokenRange=146:150
+23	operacao	operacao	NOUN	NOUN	_	22	appos	_	TokenRange=151:159
+24	lava	lava	NOUN	NOUN	_	23	appos	_	TokenRange=160:164
+25	jato	jato	NOUN	NOUN	_	24	flat	_	TokenRange=165:169
+26	apuradas	apurado	ADJ	ADJ	_	24	amod	_	TokenRange=170:178
+27	praticas	_	NOUN	NOUN	_	24	appos	_	TokenRange=179:187
+28	dentre	_	ADP	ADP	_	30	case	_	TokenRange=188:194
+29	outros	_	DET	DET	_	30	det	_	TokenRange=195:201
+30	crimes	crime	NOUN	NOUN	_	26	nmod	_	TokenRange=202:208
+31	corrupcao	corrupcao	ADJ	ADJ	_	32	amod	_	TokenRange=209:218
+32	associacao	associacao	NOUN	NOUN	_	30	appos	_	TokenRange=219:229
+33	criminosa	criminoso	ADJ	ADJ	_	32	amod	_	TokenRange=230:239
+34	lavagem	lavagem	NOUN	NOUN	_	36	nsubj	_	TokenRange=240:247
+35	dinheiro	dinheiro	NOUN	NOUN	_	34	flat	_	TokenRange=248:256
+36	informou	informar	VERB	VERB	_	0	root	_	TokenRange=257:265
+37	pf	_	X	X	_	36	obj	_	TokenRange=266:268
+38	acordo	acordo	NOUN	NOUN	_	36	nsubj	_	TokenRange=269:275
+39	pf	_	NOUN	NOUN	_	38	appos	_	TokenRange=276:278
+40	palocci	_	NOUN	NOUN	_	38	appos	_	TokenRange=279:286
+41	atuou	atuar	VERB	VERB	_	36	parataxis	_	TokenRange=287:292
+42	forma	forma	NOUN	NOUN	_	41	obj	_	TokenRange=293:298
+43	direta	direto	ADJ	ADJ	_	42	amod	_	TokenRange=299:305
+44	propiciar	propiciar	VERB	VERB	_	41	xcomp	_	TokenRange=306:315
+45	vantagens	vantagem	NOUN	NOUN	_	44	obj	_	TokenRange=316:325
+46	odebrecht	_	NOUN	NOUN	_	45	appos	_	TokenRange=326:335
+47	epoca	epoca	NOUN	NOUN	_	45	appos	_	TokenRange=336:341
+48	governo	governo	NOUN	NOUN	_	44	obj	_	TokenRange=342:349
+49	identificadas	identificado	ADJ	ADJ	_	50	amod	_	TokenRange=350:363
+50	negociacoes	negociacoe	NOUN	NOUN	_	52	nsubj	_	TokenRange=364:375
+51	exministro	exministro	ADJ	ADJ	_	50	amod	_	TokenRange=376:386
+52	beneficiar	beneficiar	VERB	VERB	_	47	ccomp	_	TokenRange=387:397
+53	empreiteira	empreiteiro	NOUN	NOUN	_	52	obj	_	SpaceAfter=No|TokenRange=398:409
+

@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = camara maioria votos afundar dilma veja vota contra vota favor governo comissao camara analisara impeachment dilma rousseff menos 31 votos contrarios governo favor impeachment outros 28 deputados querem enterrar processo contra impeachment 6 indefinidos colegiado 65 membros
+1	camara	camara	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:6
+2	maioria	maioria	NOUN	NOUN	_	1	appos	_	TokenRange=7:14
+3	votos	voto	NOUN	NOUN	_	2	flat	_	TokenRange=15:20
+4	afundar	afundar	VERB	VERB	_	1	acl:relcl	_	TokenRange=21:28
+5	dilma	dilma	NOUN	NOUN	_	4	obj	_	TokenRange=29:34
+6	veja	ver	NOUN	NOUN	_	7	dep	_	TokenRange=35:39
+7	vota	vota	NOUN	NOUN	_	0	root	_	TokenRange=40:44
+8	contra	_	ADP	ADP	_	9	case	_	TokenRange=45:51
+9	vota	vota	NOUN	NOUN	_	7	nmod	_	TokenRange=52:56
+10	favor	favor	NOUN	NOUN	_	9	flat	_	TokenRange=57:62
+11	governo	governo	NOUN	NOUN	_	14	nsubj	_	TokenRange=63:70
+12	comissao	comissao	NOUN	NOUN	_	14	nsubj	_	TokenRange=71:79
+13	camara	camara	NOUN	NOUN	_	12	flat	_	TokenRange=80:86
+14	analisara	analisar	VERB	VERB	_	7	conj	_	TokenRange=87:96
+15	impeachment	impeachment	NOUN	NOUN	_	14	obj	_	TokenRange=97:108
+16	dilma	dilma	NOUN	NOUN	_	15	appos	_	TokenRange=109:114
+17	rousseff	rousseff	NOUN	NOUN	_	15	flat	_	TokenRange=115:123
+18	menos	menos	ADV	ADV	_	20	advmod	_	TokenRange=124:129
+19	31	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=130:132
+20	votos	voto	NOUN	NOUN	_	15	appos	_	TokenRange=133:138
+21	contrarios	contrario	ADJ	ADJ	_	20	amod	_	TokenRange=139:149
+22	governo	governo	NOUN	NOUN	_	20	appos	_	TokenRange=150:157
+23	favor	favor	NOUN	NOUN	_	20	appos	_	TokenRange=158:163
+24	impeachment	impeachment	NOUN	NOUN	_	22	flat	_	TokenRange=164:175
+25	outros	_	DET	DET	_	27	det	_	TokenRange=176:182
+26	28	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=183:185
+27	deputados	deputado	NOUN	NOUN	_	28	nsubj	_	TokenRange=186:195
+28	querem	querer	VERB	VERB	_	14	parataxis	_	TokenRange=196:202
+29	enterrar	enterrar	VERB	VERB	_	28	xcomp	_	TokenRange=203:211
+30	processo	processo	NOUN	NOUN	_	29	obj	_	TokenRange=212:220
+31	contra	_	ADP	ADP	_	32	case	_	TokenRange=221:227
+32	impeachment	impeachment	NOUN	NOUN	_	30	nmod	_	TokenRange=228:239
+33	6	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=240:241
+34	indefinidos	indefinido	ADJ	ADJ	_	30	amod	_	TokenRange=242:253
+35	colegiado	colegiado	ADJ	ADJ	_	37	amod	_	TokenRange=254:263
+36	65	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=264:266
+37	membros	membro	NOUN	NOUN	_	30	appos	_	SpaceAfter=No|TokenRange=267:274
+

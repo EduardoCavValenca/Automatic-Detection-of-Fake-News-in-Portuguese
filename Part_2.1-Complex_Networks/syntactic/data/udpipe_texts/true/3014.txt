@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = oab entrega camara pedido impeachment temer entidade representativa advogados argumenta presidente cometeu crime responsabilidade base delacao premiada executivos jf ordem advogados brasil oab entregou tarde desta quintafeira 25 camara deputados pedido impeachment presidente michel temer entidade pediu temer fique inabilitado exercer cargo publico oito anos presidencia republica quis comentar assunto leia integra pedido entidade usa base delacao premiada executivos jf argumentar presidente cometeu
+1	oab	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:3
+2	entrega	entregar	VERB	VERB	_	0	root	_	TokenRange=4:11
+3	camara	camara	NOUN	NOUN	_	2	obj	_	TokenRange=12:18
+4	pedido	pedir	VERB	VERB	_	2	acl	_	TokenRange=19:25
+5	impeachment	impeachment	NOUN	NOUN	_	2	obj	_	TokenRange=26:37
+6	temer	temer	NOUN	NOUN	_	7	appos	_	TokenRange=38:43
+7	entidade	entidade	NOUN	NOUN	_	2	obj	_	TokenRange=44:52
+8	representativa	representativo	ADJ	ADJ	_	7	amod	_	TokenRange=53:67
+9	advogados	advogado	NOUN	NOUN	_	7	appos	_	TokenRange=68:77
+10	argumenta	argumentar	VERB	VERB	_	7	acl:relcl	_	TokenRange=78:87
+11	presidente	presidente	NOUN	NOUN	_	10	obj	_	TokenRange=88:98
+12	cometeu	cometer	VERB	VERB	_	2	parataxis	_	TokenRange=99:106
+13	crime	crime	NOUN	NOUN	_	12	obj	_	TokenRange=107:112
+14	responsabilidade	responsabilidade	NOUN	NOUN	_	13	appos	_	TokenRange=113:129
+15	base	base	NOUN	NOUN	_	12	appos	_	TokenRange=130:134
+16	delacao	delacao	ADJ	ADJ	_	15	amod	_	TokenRange=135:142
+17	premiada	premiar	VERB	VERB	_	15	acl	_	TokenRange=143:151
+18	executivos	executivo	NOUN	NOUN	_	17	nsubj	_	TokenRange=152:162
+19	jf	_	NOUN	NOUN	_	20	appos	_	TokenRange=163:165
+20	ordem	ordem	NOUN	NOUN	_	12	nsubj	_	TokenRange=166:171
+21	advogados	advogado	NOUN	NOUN	_	20	amod	_	TokenRange=172:181
+22	brasil	brasil	ADJ	ADJ	_	20	amod	_	TokenRange=182:188
+23	oab	_	PROPN	PNOUN	_	24	nsubj	_	TokenRange=189:192
+24	entregou	entregar	VERB	VERB	_	20	acl:relcl	_	TokenRange=193:201
+25	tarde	tarde	NOUN	NOUN	_	24	advmod	_	TokenRange=202:207
+26	desta	_	ADP	ADP	_	27	case	_	TokenRange=208:213
+27	quintafeira	quintafeira	NOUN	NOUN	_	24	nmod	_	TokenRange=214:225
+28	25	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=226:228
+29	camara	camara	NOUN	NOUN	_	27	appos	_	TokenRange=229:235
+30	deputados	deputado	NOUN	NOUN	_	29	flat	_	TokenRange=236:245
+31	pedido	pedido	ADJ	ADJ	_	32	amod	_	TokenRange=246:252
+32	impeachment	impeachment	NOUN	NOUN	_	24	nsubj	_	TokenRange=253:264
+33	presidente	presidente	NOUN	NOUN	_	32	appos	_	TokenRange=265:275
+34	michel	michel	ADJ	ADJ	_	36	amod	_	TokenRange=276:282
+35	temer	temer	NOUN	NOUN	_	33	flat	_	TokenRange=283:288
+36	entidade	entidade	NOUN	NOUN	_	37	nsubj	_	TokenRange=289:297
+37	pediu	pedir	VERB	VERB	_	32	acl:relcl	_	TokenRange=298:303
+38	temer	temer	NOUN	NOUN	_	39	nsubj	_	TokenRange=304:309
+39	fique	ficar	VERB	VERB	_	37	ccomp	_	TokenRange=310:315
+40	inabilitado	inabilitado	ADJ	ADJ	_	39	xcomp	_	TokenRange=316:327
+41	exercer	exercer	VERB	VERB	_	39	csubj	_	TokenRange=328:335
+42	cargo	cargo	NOUN	NOUN	_	41	obj	_	TokenRange=336:341
+43	publico	publico	ADJ	ADJ	_	42	amod	_	TokenRange=342:349
+44	oito	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=350:354
+45	anos	ano	NOUN	NOUN	_	41	nmod	_	TokenRange=355:359
+46	presidencia	presidencia	NOUN	NOUN	_	39	nsubj	_	TokenRange=360:371
+47	republica	republico	ADJ	ADJ	_	46	amod	_	TokenRange=372:381
+48	quis	querer	VERB	VERB	_	37	ccomp	_	TokenRange=382:386
+49	comentar	comentar	VERB	VERB	_	48	xcomp	_	TokenRange=387:395
+50	assunto	assunto	NOUN	NOUN	_	49	obj	_	TokenRange=396:403
+51	leia	ler	VERB	VERB	_	49	parataxis	_	TokenRange=404:408
+52	integra	integra	NOUN	NOUN	_	51	obj	_	TokenRange=409:416
+53	pedido	pedido	ADJ	ADJ	_	54	amod	_	TokenRange=417:423
+54	entidade	entidade	NOUN	NOUN	_	51	nsubj	_	TokenRange=424:432
+55	usa	usar	VERB	VERB	_	54	acl:relcl	_	TokenRange=433:436
+56	base	base	NOUN	NOUN	_	55	obj	_	TokenRange=437:441
+57	delacao	delacao	ADJ	ADJ	_	56	amod	_	TokenRange=442:449
+58	premiada	premiar	VERB	VERB	_	56	acl	_	TokenRange=450:458
+59	executivos	executivo	ADJ	ADJ	_	56	amod	_	TokenRange=459:469
+60	jf	jf	ADV	ADV	_	61	advmod	_	TokenRange=470:472
+61	argumentar	argumentar	VERB	VERB	_	55	conj	_	TokenRange=473:483
+62	presidente	presidente	NOUN	NOUN	_	63	obj	_	TokenRange=484:494
+63	cometeu	cometer	VERB	VERB	_	61	ccomp	_	SpaceAfter=No|TokenRange=495:502
+

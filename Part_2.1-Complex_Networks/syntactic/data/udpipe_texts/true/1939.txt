@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moro prazo 48 horas defesa lula entregue recibos originais alugueis imovel investigado lava jato decisao juiz divulgada sistema justica manha desta sextafeira 13 todo defesa expresidente apresentou 31 recibos juiz sergio moro determinou nesta sextafeira 13 defesa expresidente luiz inacio lula silva entregue 48 horas recibos originais pagamentos alugueis apartamento vizinho lula bernardo campo sp investigado operacao lava jato recibos deverao entregues secretaria deste juizo acautelara submetelos pericia caso fato deferida determinou juiz defesa expresidente pedido audiencia formal entrega recibos presenca perito desnecessaria audiencia formal entrega
+1	moro	moro	NOUN	NOUN	_	7	parataxis	_	TokenRange=0:4
+2	prazo	prazo	NOUN	NOUN	_	1	appos	_	TokenRange=5:10
+3	48	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=11:13
+4	horas	hora	NOUN	NOUN	_	2	nmod	_	TokenRange=14:19
+5	defesa	_	NOUN	NOUN	_	2	appos	_	TokenRange=20:26
+6	lula	_	NOUN	NOUN	_	5	flat	_	TokenRange=27:31
+7	entregue	entregar	VERB	VERB	_	0	root	_	TokenRange=32:40
+8	recibos	recibo	NOUN	NOUN	_	7	obj	_	TokenRange=41:48
+9	originais	original	ADJ	ADJ	_	8	amod	_	TokenRange=49:58
+10	alugueis	aluguel	NOUN	NOUN	_	8	appos	_	TokenRange=59:67
+11	imovel	imovel	ADJ	ADJ	_	13	amod	_	TokenRange=68:74
+12	investigado	investigar	VERB	VERB	_	13	acl	_	TokenRange=75:86
+13	lava	lava	NOUN	NOUN	_	7	obj	_	TokenRange=87:91
+14	jato	jato	NOUN	NOUN	_	13	flat	_	TokenRange=92:96
+15	decisao	_	NOUN	NOUN	_	16	case	_	TokenRange=97:104
+16	juiz	juiz	NOUN	NOUN	_	13	appos	_	TokenRange=105:109
+17	divulgada	divulgar	VERB	VERB	_	16	acl	_	TokenRange=110:119
+18	sistema	sistema	NOUN	NOUN	_	17	obj	_	TokenRange=120:127
+19	justica	justico	ADJ	ADJ	_	18	amod	_	TokenRange=128:135
+20	manha	manha	NOUN	NOUN	_	18	appos	_	TokenRange=136:141
+21	desta	_	ADP	ADP	_	22	case	_	TokenRange=142:147
+22	sextafeira	sextafeira	NOUN	NOUN	_	20	nmod	_	TokenRange=148:158
+23	13	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=159:161
+24	todo	_	DET	DET	_	25	det	_	TokenRange=162:166
+25	defesa	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=167:173
+26	expresidente	expresidente	NOUN	NOUN	_	25	amod	_	TokenRange=174:186
+27	apresentou	apresentar	VERB	VERB	_	7	parataxis	_	TokenRange=187:197
+28	31	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=198:200
+29	recibos	recibo	NOUN	NOUN	_	27	obj	_	TokenRange=201:208
+30	juiz	juiz	NOUN	NOUN	_	29	appos	_	TokenRange=209:213
+31	sergio	_	NOUN	NOUN	_	30	appos	_	TokenRange=214:220
+32	moro	moro	NOUN	NOUN	_	30	flat	_	TokenRange=221:225
+33	determinou	determinar	VERB	VERB	_	27	parataxis	_	TokenRange=226:236
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=237:242
+35	sextafeira	sextafeira	NOUN	NOUN	_	33	nmod	_	TokenRange=243:253
+36	13	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=254:256
+37	defesa	_	NOUN	NOUN	_	33	obj	_	TokenRange=257:263
+38	expresidente	expresidente	NOUN	NOUN	_	37	appos	_	TokenRange=264:276
+39	luiz	luiz	NOUN	NOUN	_	37	appos	_	TokenRange=277:281
+40	inacio	_	NOUN	NOUN	_	39	flat	_	TokenRange=282:288
+41	lula	_	NOUN	NOUN	_	39	flat	_	TokenRange=289:293
+42	silva	silva	NOUN	NOUN	_	39	flat	_	TokenRange=294:299
+43	entregue	entregar	VERB	VERB	_	33	conj	_	TokenRange=300:308
+44	48	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=309:311
+45	horas	hora	NOUN	NOUN	_	43	nmod	_	TokenRange=312:317
+46	recibos	recibo	NOUN	NOUN	_	43	obj	_	TokenRange=318:325
+47	originais	original	ADJ	ADJ	_	46	amod	_	TokenRange=326:335
+48	pagamentos	pagamento	NOUN	NOUN	_	46	appos	_	TokenRange=336:346
+49	alugueis	aluguel	ADJ	ADJ	_	46	amod	_	TokenRange=347:355
+50	apartamento	apartamento	NOUN	NOUN	_	46	appos	_	TokenRange=356:367
+51	vizinho	vizinho	ADJ	ADJ	_	50	amod	_	TokenRange=368:375
+52	lula	_	NOUN	NOUN	_	50	appos	_	TokenRange=376:380
+53	bernardo	bernardo	NOUN	NOUN	_	50	appos	_	TokenRange=381:389
+54	campo	campo	NOUN	NOUN	_	53	flat	_	TokenRange=390:395
+55	sp	_	ADJ	ADJ	_	53	amod	_	TokenRange=396:398
+56	investigado	investigar	VERB	VERB	_	62	acl	_	TokenRange=399:410
+57	operacao	operacao	NOUN	NOUN	_	62	obj	_	TokenRange=411:419
+58	lava	lava	NOUN	NOUN	_	62	nsubj	_	TokenRange=420:424
+59	jato	jato	NOUN	NOUN	_	58	flat	_	TokenRange=425:429
+60	recibos	recibo	NOUN	NOUN	_	62	nsubj	_	TokenRange=430:437
+61	deverao	dever	AUX	AUX	_	62	aux	_	TokenRange=438:445
+62	entregues	entregar	VERB	VERB	_	43	conj	_	TokenRange=446:455
+63	secretaria	secretaria	NOUN	NOUN	_	66	nsubj	_	TokenRange=456:466
+64	deste	_	ADP	ADP	_	65	case	_	TokenRange=467:472
+65	juizo	juizo	NOUN	NOUN	_	63	nmod	_	TokenRange=473:478
+66	acautelara	acautelar	VERB	VERB	_	43	parataxis	_	TokenRange=479:489
+67	submetelos	submetelo	NOUN	NOUN	_	66	obj	_	TokenRange=490:500
+68	pericia	pericia	NOUN	NOUN	_	67	amod	_	TokenRange=501:508
+69	caso	caso	NOUN	NOUN	_	72	mark	_	TokenRange=509:513
+70	fato	fato	NOUN	NOUN	_	66	nmod	_	TokenRange=514:518
+71	deferida	deferido	ADJ	ADJ	_	70	amod	_	TokenRange=519:527
+72	determinou	determinar	VERB	VERB	_	66	conj	_	TokenRange=528:538
+73	juiz	juiz	NOUN	NOUN	_	72	obj	_	TokenRange=539:543
+74	defesa	_	ADJ	ADJ	_	77	amod	_	TokenRange=544:550
+75	expresidente	expresidente	NOUN	NOUN	_	73	amod	_	TokenRange=551:563
+76	pedido	pedir	VERB	VERB	_	77	acl	_	TokenRange=564:570
+77	audiencia	audiencia	NOUN	NOUN	_	72	obj	_	TokenRange=571:580
+78	formal	formal	ADJ	ADJ	_	77	amod	_	TokenRange=581:587
+79	entrega	entrega	NOUN	NOUN	_	77	appos	_	TokenRange=588:595
+80	recibos	recibo	NOUN	NOUN	_	79	amod	_	TokenRange=596:603
+81	presenca	presenca	NOUN	NOUN	_	79	appos	_	TokenRange=604:612
+82	perito	perito	NOUN	NOUN	_	79	flat	_	TokenRange=613:619
+83	desnecessaria	desnecessar	ADJ	ADJ	_	84	amod	_	TokenRange=620:633
+84	audiencia	audiencia	NOUN	NOUN	_	79	appos	_	TokenRange=634:643
+85	formal	formal	ADJ	ADJ	_	86	amod	_	TokenRange=644:650
+86	entrega	entrega	NOUN	NOUN	_	84	appos	_	SpaceAfter=No|TokenRange=651:658
+

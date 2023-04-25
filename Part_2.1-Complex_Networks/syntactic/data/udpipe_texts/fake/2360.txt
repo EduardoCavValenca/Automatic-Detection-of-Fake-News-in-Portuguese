@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cantor compositor mineiro morre apos sofrer 12 paradas cardiacas morreu manha hoje 05 cantor compositor mineiro vander lee cantor passou mal enquanto fazia sessao hidroginastica 12 paradas cardiacas vander lee passou mal tarde ontem 04 enquanto fazia hidroginastica levado hospital unimed apos diagnostico aneurisma coracao encaminhado hospital madre tereza onde operado durante noite internado uti ainda durante noite 12 paradas cardiacas resistiu artista faleceu manha desta sextafeira separado deixa 3 filhos lee principais nomes musica mineira nove discos 19 anos carreira
+1	cantor	cantor	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	compositor	compositor	NOUN	NOUN	_	1	flat	_	TokenRange=7:17
+3	mineiro	mineiro	ADJ	ADJ	_	1	amod	_	TokenRange=18:25
+4	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=26:31
+5	apos	_	ADP	ADP	_	6	mark	_	TokenRange=32:36
+6	sofrer	sofrer	VERB	VERB	_	4	advcl	_	TokenRange=37:43
+7	12	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=44:46
+8	paradas	parada	NOUN	NOUN	_	6	obj	_	TokenRange=47:54
+9	cardiacas	cardiaco	ADJ	ADJ	_	8	amod	_	TokenRange=55:64
+10	morreu	morrer	VERB	VERB	_	4	parataxis	_	TokenRange=65:71
+11	manha	manha	NOUN	NOUN	_	10	nmod	_	TokenRange=72:77
+12	hoje	hoje	ADV	ADV	_	10	advmod	_	TokenRange=78:82
+13	05	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=83:85
+14	cantor	cantor	NOUN	NOUN	_	10	nsubj	_	TokenRange=86:92
+15	compositor	compositor	NOUN	NOUN	_	14	flat	_	TokenRange=93:103
+16	mineiro	mineiro	ADJ	ADJ	_	14	amod	_	TokenRange=104:111
+17	vander	vander	NOUN	NOUN	_	14	appos	_	TokenRange=112:118
+18	lee	_	NOUN	NOUN	_	17	flat	_	TokenRange=119:122
+19	cantor	cantor	NOUN	NOUN	_	20	nsubj	_	TokenRange=123:129
+20	passou	passar	VERB	VERB	_	14	acl:relcl	_	TokenRange=130:136
+21	mal	mal	ADV	ADV	_	20	advmod	_	TokenRange=137:140
+22	enquanto	_	CCONJ	CONJ	_	23	mark	_	TokenRange=141:149
+23	fazia	fazer	VERB	VERB	_	20	advcl	_	TokenRange=150:155
+24	sessao	sessao	NOUN	NOUN	_	23	obj	_	TokenRange=156:162
+25	hidroginastica	hidroginastico	ADJ	ADJ	_	24	amod	_	TokenRange=163:177
+26	12	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=178:180
+27	paradas	parada	NOUN	NOUN	_	23	nsubj	_	TokenRange=181:188
+28	cardiacas	cardiaco	ADJ	ADJ	_	27	amod	_	TokenRange=189:198
+29	vander	vander	VERB	VERB	_	31	nsubj	_	TokenRange=199:205
+30	lee	_	NOUN	NOUN	_	29	flat	_	TokenRange=206:209
+31	passou	passar	VERB	VERB	_	10	conj	_	TokenRange=210:216
+32	mal	mal	ADV	ADV	_	31	advmod	_	TokenRange=217:220
+33	tarde	tarde	ADV	ADV	_	31	advmod	_	TokenRange=221:226
+34	ontem	ontem	ADV	ADV	_	31	advmod	_	TokenRange=227:232
+35	04	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=233:235
+36	enquanto	_	CCONJ	CONJ	_	37	mark	_	TokenRange=236:244
+37	fazia	fazer	VERB	VERB	_	31	advcl	_	TokenRange=245:250
+38	hidroginastica	_	NOUN	NOUN	_	37	obj	_	TokenRange=251:265
+39	levado	levar	VERB	VERB	_	40	acl	_	TokenRange=266:272
+40	hospital	hospital	NOUN	NOUN	_	37	nsubj	_	TokenRange=273:281
+41	unimed	_	ADJ	ADJ	_	40	amod	_	TokenRange=282:288
+42	apos	_	ADP	ADP	_	43	case	_	TokenRange=289:293
+43	diagnostico	diagnostico	NOUN	NOUN	_	37	nmod	_	TokenRange=294:305
+44	aneurisma	aneurisma	NOUN	NOUN	_	43	flat	_	TokenRange=306:315
+45	coracao	coracao	NOUN	NOUN	_	47	appos	_	TokenRange=316:323
+46	encaminhado	encaminhar	VERB	VERB	_	47	acl	_	TokenRange=324:335
+47	hospital	hospital	NOUN	NOUN	_	43	appos	_	TokenRange=336:344
+48	madre	madre	NOUN	NOUN	_	47	appos	_	TokenRange=345:350
+49	tereza	tereza	NOUN	NOUN	_	48	flat	_	TokenRange=351:357
+50	onde	onde	ADV	ADV	_	51	advmod	_	TokenRange=358:362
+51	operado	operar	VERB	VERB	_	47	acl	_	TokenRange=363:370
+52	durante	_	ADP	ADP	_	53	case	_	TokenRange=371:378
+53	noite	noite	NOUN	NOUN	_	51	nmod	_	TokenRange=379:384
+54	internado	internado	ADJ	ADJ	_	53	amod	_	TokenRange=385:394
+55	uti	_	NOUN	NOUN	_	51	nsubj	_	TokenRange=395:398
+56	ainda	ainda	ADV	ADV	_	58	advmod	_	TokenRange=399:404
+57	durante	_	ADP	ADP	_	58	case	_	TokenRange=405:412
+58	noite	noite	NOUN	NOUN	_	62	nmod	_	TokenRange=413:418
+59	12	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=419:421
+60	paradas	parada	NOUN	NOUN	_	62	nsubj	_	TokenRange=422:429
+61	cardiacas	cardiaco	ADJ	ADJ	_	60	amod	_	TokenRange=430:439
+62	resistiu	resistir	VERB	VERB	_	47	acl:relcl	_	TokenRange=440:448
+63	artista	artista	NOUN	NOUN	_	62	nsubj	_	TokenRange=449:456
+64	faleceu	falecer	VERB	VERB	_	62	parataxis	_	TokenRange=457:464
+65	manha	manha	NOUN	NOUN	_	64	nmod	_	TokenRange=465:470
+66	desta	_	ADP	ADP	_	67	case	_	TokenRange=471:476
+67	sextafeira	sextafeira	NOUN	NOUN	_	65	nmod	_	TokenRange=477:487
+68	separado	separado	ADJ	ADJ	_	65	amod	_	TokenRange=488:496
+69	deixa	deixar	VERB	VERB	_	64	parataxis	_	TokenRange=497:502
+70	3	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=503:504
+71	filhos	filho	NOUN	NOUN	_	69	obj	_	TokenRange=505:511
+72	lee	_	X	PRON	_	74	det:poss	_	TokenRange=512:515
+73	principais	principal	ADJ	ADJ	_	74	amod	_	TokenRange=516:526
+74	nomes	nome	NOUN	NOUN	_	69	nsubj	_	TokenRange=527:532
+75	musica	_	NOUN	NOUN	_	74	appos	_	TokenRange=533:539
+76	mineira	mineiro	ADJ	ADJ	_	75	amod	_	TokenRange=540:547
+77	nove	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=548:552
+78	discos	disco	NOUN	NOUN	_	69	nmod	_	TokenRange=553:559
+79	19	_	NUM	NUM	NumType=Card	80	nummod	_	TokenRange=560:562
+80	anos	ano	NOUN	NOUN	_	74	appos	_	TokenRange=563:567
+81	carreira	_	NOUN	NOUN	_	80	appos	_	SpaceAfter=No|TokenRange=568:576
+

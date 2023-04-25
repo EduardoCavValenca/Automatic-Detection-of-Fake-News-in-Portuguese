@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alunos querem escola reflita vida real diz brasileira jurada premio unesco lucia dellagnelo representou america latina premiacao onu voltada utilizacao tecnologias educacao brasil peca falta incorporacao larga escala tecnologia escolas brasileira lucia dellagnelo ajudou escolher dois 143 projetos tecnologia educacao vencedores recente edicao premio unesco organismo onu educacao cultura iniciativas praticadas india marrocos receberao premio us 25 mil doutora mestre educacao universidade harvard dellagnelo secretaria
+1	alunos	aluno	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	querem	querer	VERB	VERB	_	0	root	_	TokenRange=7:13
+3	escola	escola	NOUN	NOUN	_	2	obj	_	TokenRange=14:20
+4	reflita	reflito	ADJ	ADJ	_	5	amod	_	TokenRange=21:28
+5	vida	vida	NOUN	NOUN	_	2	obj	_	TokenRange=29:33
+6	real	real	ADJ	ADJ	_	5	amod	_	TokenRange=34:38
+7	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=39:42
+8	brasileira	brasileiro	ADJ	ADJ	_	7	amod	_	TokenRange=43:53
+9	jurada	jurado	ADJ	ADJ	_	10	amod	_	TokenRange=54:60
+10	premio	premio	NOUN	NOUN	_	2	nsubj	_	TokenRange=61:67
+11	unesco	unesco	ADJ	ADJ	_	10	amod	_	TokenRange=68:74
+12	lucia	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=75:80
+13	dellagnelo	_	NOUN	NOUN	_	12	flat	_	TokenRange=81:91
+14	representou	representar	VERB	VERB	_	10	acl:relcl	_	TokenRange=92:103
+15	america	america	NOUN	NOUN	_	14	obj	_	TokenRange=104:111
+16	latina	latino	ADJ	ADJ	_	17	amod	_	TokenRange=112:118
+17	premiacao	premiacao	NOUN	NOUN	_	14	obj	_	TokenRange=119:128
+18	onu	onu	NOUN	NOUN	_	17	amod	_	TokenRange=129:132
+19	voltada	voltado	ADJ	ADJ	_	17	amod	_	TokenRange=133:140
+20	utilizacao	_	ADJ	ADJ	_	21	amod	_	TokenRange=141:151
+21	tecnologias	tecnologia	NOUN	NOUN	_	14	obj	_	TokenRange=152:163
+22	educacao	educacao	ADJ	ADJ	_	21	amod	_	TokenRange=164:172
+23	brasil	brasil	ADJ	ADJ	_	24	amod	_	TokenRange=173:179
+24	peca	peca	NOUN	NOUN	_	17	appos	_	TokenRange=180:184
+25	falta	_	ADJ	ADJ	_	24	amod	_	TokenRange=185:190
+26	incorporacao	incorporacao	NOUN	NOUN	_	24	appos	_	TokenRange=191:203
+27	larga	largo	ADJ	ADJ	_	28	amod	_	TokenRange=204:209
+28	escala	escala	NOUN	NOUN	_	24	appos	_	TokenRange=210:216
+29	tecnologia	tecnologia	NOUN	NOUN	_	24	appos	_	TokenRange=217:227
+30	escolas	escola	NOUN	NOUN	_	24	appos	_	TokenRange=228:235
+31	brasileira	brasileiro	ADJ	ADJ	_	30	amod	_	TokenRange=236:246
+32	lucia	lucia	NOUN	NOUN	_	34	nsubj	_	TokenRange=247:252
+33	dellagnelo	_	NOUN	NOUN	_	32	flat	_	TokenRange=253:263
+34	ajudou	ajudar	VERB	VERB	_	2	parataxis	_	TokenRange=264:270
+35	escolher	escolher	VERB	VERB	_	34	xcomp	_	TokenRange=271:279
+36	dois	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=280:284
+37	143	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=285:288
+38	projetos	projeto	NOUN	NOUN	_	35	obj	_	TokenRange=289:297
+39	tecnologia	tecnologia	NOUN	NOUN	_	38	appos	_	TokenRange=298:308
+40	educacao	educacao	ADJ	ADJ	_	39	amod	_	TokenRange=309:317
+41	vencedores	_	ADJ	ADJ	_	38	amod	_	TokenRange=318:328
+42	recente	recente	ADJ	ADJ	_	43	amod	_	TokenRange=329:336
+43	edicao	edicao	NOUN	NOUN	_	38	appos	_	TokenRange=337:343
+44	premio	premio	NOUN	NOUN	_	38	appos	_	TokenRange=344:350
+45	unesco	unesco	NOUN	NOUN	_	44	flat	_	TokenRange=351:357
+46	organismo	organismo	NOUN	NOUN	_	38	appos	_	TokenRange=358:367
+47	onu	onu	ADJ	ADJ	_	46	amod	_	TokenRange=368:371
+48	educacao	educacao	NOUN	NOUN	_	46	appos	_	TokenRange=372:380
+49	cultura	cultura	NOUN	NOUN	_	46	amod	_	TokenRange=381:388
+50	iniciativas	iniciativa	NOUN	NOUN	_	46	appos	_	TokenRange=389:400
+51	praticadas	praticar	VERB	VERB	_	50	acl	_	TokenRange=401:411
+52	india	india	NOUN	NOUN	_	51	nmod	_	TokenRange=412:417
+53	marrocos	marroco	NOUN	NOUN	_	52	amod	_	TokenRange=418:426
+54	receberao	receber	VERB	VERB	_	34	parataxis	_	TokenRange=427:436
+55	premio	premio	NOUN	NOUN	_	54	obj	_	TokenRange=437:443
+56	us	_	DET	DET	_	59	det	_	TokenRange=444:446
+57	25	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=447:449
+58	mil	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=450:453
+59	doutora	doutor	NOUN	NOUN	_	55	appos	_	TokenRange=454:461
+60	mestre	mestre	NOUN	NOUN	_	59	flat	_	TokenRange=462:468
+61	educacao	educacao	NOUN	NOUN	_	59	flat	_	TokenRange=469:477
+62	universidade	universidade	NOUN	NOUN	_	59	appos	_	TokenRange=478:490
+63	harvard	harvard	NOUN	NOUN	_	62	flat	_	TokenRange=491:498
+64	dellagnelo	_	NOUN	NOUN	_	62	appos	_	TokenRange=499:509
+65	secretaria	secretaria	NOUN	NOUN	_	62	appos	_	SpaceAfter=No|TokenRange=510:520
+

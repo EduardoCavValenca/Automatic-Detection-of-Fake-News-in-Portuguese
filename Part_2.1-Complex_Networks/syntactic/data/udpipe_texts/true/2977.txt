@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = santos regiao confira atracoes fim semana 16 18 marco destaques peca comediante rafinha bastos semana cultura caicara santos g1 traz algumas principais atracoes irao movimentar cidades baixada santista neste fim semana confira abaixo agenda desta sextafeira 16 sabado 17 domingo 18 pioneiras hip hop brasil cantora compositora lurdez luz fara show sesc registro neste sabado apresentando novo disco acrux lancado fim 2017 rapper completou 18 anos carreira faz retrospectiva trabalho reunindo musicas poesias
+1	santos	santo	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	regiao	regiao	NOUN	NOUN	_	3	nsubj	_	TokenRange=7:13
+3	confira	conferir	VERB	VERB	_	0	root	_	TokenRange=14:21
+4	atracoes	atracoe	NOUN	NOUN	_	3	obj	_	TokenRange=22:30
+5	fim	fim	NOUN	NOUN	_	4	nmod	_	TokenRange=31:34
+6	semana	semana	NOUN	NOUN	_	5	nmod	_	TokenRange=35:41
+7	16	_	NUM	NUM	NumType=Card	6	appos	_	TokenRange=42:44
+8	18	_	NUM	NUM	NumType=Card	6	appos	_	TokenRange=45:47
+9	marco	_	NOUN	NOUN	_	5	appos	_	TokenRange=48:53
+10	destaques	destaque	NOUN	NOUN	_	4	appos	_	TokenRange=54:63
+11	peca	peca	NOUN	NOUN	_	10	appos	_	TokenRange=64:68
+12	comediante	comediante	NOUN	NOUN	_	11	flat	_	TokenRange=69:79
+13	rafinha	_	NOUN	NOUN	_	11	appos	_	TokenRange=80:87
+14	bastos	basto	NOUN	NOUN	_	13	flat	_	TokenRange=88:94
+15	semana	semana	NOUN	NOUN	_	13	appos	_	TokenRange=95:101
+16	cultura	cultura	NOUN	NOUN	_	15	flat	_	TokenRange=102:109
+17	caicara	caicar	NOUN	NOUN	_	15	appos	_	TokenRange=110:117
+18	santos	santo	ADJ	ADJ	_	17	amod	_	TokenRange=118:124
+19	g1	_	PRON	PRON	_	20	nsubj	_	TokenRange=125:127
+20	traz	trazer	VERB	VERB	_	3	parataxis	_	TokenRange=128:132
+21	algumas	_	DET	DET	_	23	det	_	TokenRange=133:140
+22	principais	principal	ADJ	ADJ	_	23	amod	_	TokenRange=141:151
+23	atracoes	atracoe	NOUN	NOUN	_	20	obj	_	TokenRange=152:160
+24	irao	_	AUX	AUX	_	25	aux	_	TokenRange=161:165
+25	movimentar	movimentar	VERB	VERB	_	23	acl:inf	_	TokenRange=166:176
+26	cidades	cidade	NOUN	NOUN	_	25	obj	_	TokenRange=177:184
+27	baixada	baixada	ADJ	ADJ	_	26	amod	_	TokenRange=185:192
+28	santista	santista	ADJ	ADJ	_	26	amod	_	TokenRange=193:201
+29	neste	_	ADP	ADP	_	30	case	_	TokenRange=202:207
+30	fim	fim	NOUN	NOUN	_	25	nmod	_	TokenRange=208:211
+31	semana	semana	NOUN	NOUN	_	30	flat	_	TokenRange=212:218
+32	confira	conferir	VERB	VERB	_	3	parataxis	_	TokenRange=219:226
+33	abaixo	abaixo	ADV	ADV	_	32	advmod	_	TokenRange=227:233
+34	agenda	agenda	NOUN	NOUN	_	32	obj	_	TokenRange=234:240
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=241:246
+36	sextafeira	sextafeira	NOUN	NOUN	_	34	nmod	_	TokenRange=247:257
+37	16	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=258:260
+38	sabado	_	PROPN	PNOUN	_	34	nmod	_	TokenRange=261:267
+39	17	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=268:270
+40	domingo	_	PROPN	PNOUN	_	38	nmod	_	TokenRange=271:278
+41	18	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=279:281
+42	pioneiras	_	NOUN	NOUN	_	38	appos	_	TokenRange=282:291
+43	hip	hip	NOUN	NOUN	_	42	appos	_	TokenRange=292:295
+44	hop	_	NOUN	NOUN	_	43	flat	_	TokenRange=296:299
+45	brasil	brasil	ADJ	ADJ	_	46	amod	_	TokenRange=300:306
+46	cantora	cantor	NOUN	NOUN	_	42	appos	_	TokenRange=307:314
+47	compositora	compositor	NOUN	NOUN	_	46	appos	_	TokenRange=315:326
+48	lurdez	_	NOUN	NOUN	_	46	appos	_	TokenRange=327:333
+49	luz	_	NOUN	NOUN	_	46	appos	_	TokenRange=334:337
+50	fara	_	VERB	VERB	_	32	parataxis	_	TokenRange=338:342
+51	show	show	NOUN	NOUN	_	50	obj	_	TokenRange=343:347
+52	sesc	_	X	NOUN	_	51	appos	_	TokenRange=348:352
+53	registro	registro	NOUN	NOUN	_	51	flat	_	TokenRange=353:361
+54	neste	_	ADP	ADP	_	55	case	_	TokenRange=362:367
+55	sabado	_	PROPN	PNOUN	_	50	nmod	_	TokenRange=368:374
+56	apresentando	apresentar	VERB	VERB	_	50	acl	_	TokenRange=375:387
+57	novo	novo	ADJ	ADJ	_	58	amod	_	TokenRange=388:392
+58	disco	disco	NOUN	NOUN	_	56	obj	_	TokenRange=393:398
+59	acrux	_	NOUN	NOUN	_	58	appos	_	TokenRange=399:404
+60	lancado	lancar	VERB	VERB	_	58	acl	_	TokenRange=405:412
+61	fim	fim	NOUN	NOUN	_	60	nmod	_	TokenRange=413:416
+62	2017	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=417:421
+63	rapper	rapper	NOUN	NOUN	_	64	nsubj	_	TokenRange=422:428
+64	completou	completar	VERB	VERB	_	58	acl:relcl	_	TokenRange=429:438
+65	18	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=439:441
+66	anos	ano	NOUN	NOUN	_	64	obj	_	TokenRange=442:446
+67	carreira	_	NOUN	NOUN	_	64	obj	_	TokenRange=447:455
+68	faz	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=456:459
+69	retrospectiva	_	NOUN	NOUN	_	68	obj	_	TokenRange=460:473
+70	trabalho	trabalho	NOUN	NOUN	_	68	obj	_	TokenRange=474:482
+71	reunindo	reunir	VERB	VERB	_	68	acl	_	TokenRange=483:491
+72	musicas	_	NOUN	NOUN	_	71	obj	_	TokenRange=492:499
+73	poesias	poesia	ADJ	ADJ	_	72	amod	_	SpaceAfter=No|TokenRange=500:507
+

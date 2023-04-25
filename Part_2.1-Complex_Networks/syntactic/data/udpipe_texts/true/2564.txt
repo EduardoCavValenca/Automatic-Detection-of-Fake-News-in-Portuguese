@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 50 fase lava jato mandados busca apreensao aprofundam investigacoes contratos transpetro batizada operacao sothis ii nova etapa relacionada investigacoes 47 fase deflagrada manha desta sextafeira 23 policia federal pf cumpre manha desta sextafeira 23 tres mandados busca apreensao 50 fase lava jato batizada sothis ii ordens judiciais cumpridas salvador bahia campinas paulinia interior paulo nova etapa acordo pf complemento investigacoes 47 fase operacao apura corrupcao lavagem dinheiro partir contratos transpetro subsidiaria petrobras g1 apurou alvo busca apreensao salvador ana zilma fonseca jesus esposa exgerente transpetro jose antonio
+1	50	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:2
+2	fase	fase	NOUN	NOUN	_	8	nsubj	_	TokenRange=3:7
+3	lava	lava	NOUN	NOUN	_	2	appos	_	TokenRange=8:12
+4	jato	jato	NOUN	NOUN	_	3	flat	_	TokenRange=13:17
+5	mandados	mandado	NOUN	NOUN	_	2	appos	_	TokenRange=18:26
+6	busca	busca	NOUN	NOUN	_	2	appos	_	TokenRange=27:32
+7	apreensao	apreensao	NOUN	NOUN	_	6	flat	_	TokenRange=33:42
+8	aprofundam	aprofundar	VERB	VERB	_	0	root	_	TokenRange=43:53
+9	investigacoes	investigacoe	NOUN	NOUN	_	8	obj	_	TokenRange=54:67
+10	contratos	contrato	NOUN	NOUN	_	30	obj	_	TokenRange=68:77
+11	transpetro	transpetro	NOUN	NOUN	_	10	appos	_	TokenRange=78:88
+12	batizada	batizado	ADJ	ADJ	_	10	amod	_	TokenRange=89:97
+13	operacao	operacao	NOUN	NOUN	_	10	appos	_	TokenRange=98:106
+14	sothis	_	NOUN	NOUN	_	13	flat	_	TokenRange=107:113
+15	ii	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=114:116
+16	nova	novo	ADJ	ADJ	_	17	amod	_	TokenRange=117:121
+17	etapa	etapa	NOUN	NOUN	_	13	appos	_	TokenRange=122:127
+18	relacionada	relacionado	ADJ	ADJ	_	17	amod	_	TokenRange=128:139
+19	investigacoes	investigacoe	NOUN	NOUN	_	17	appos	_	TokenRange=140:153
+20	47	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=154:156
+21	fase	fase	NOUN	NOUN	_	17	appos	_	TokenRange=157:161
+22	deflagrada	deflagrado	ADJ	ADJ	_	23	amod	_	TokenRange=162:172
+23	manha	manha	NOUN	NOUN	_	21	appos	_	TokenRange=173:178
+24	desta	_	ADP	ADP	_	25	case	_	TokenRange=179:184
+25	sextafeira	sextafeira	NOUN	NOUN	_	23	nmod	_	TokenRange=185:195
+26	23	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=196:198
+27	policia	policia	NOUN	NOUN	_	30	nsubj	_	TokenRange=199:206
+28	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=207:214
+29	pf	_	NOUN	NOUN	_	27	appos	_	TokenRange=215:217
+30	cumpre	cumprir	VERB	VERB	_	8	parataxis	_	TokenRange=218:224
+31	manha	manha	NOUN	NOUN	_	30	obj	_	TokenRange=225:230
+32	desta	_	ADP	ADP	_	33	case	_	TokenRange=231:236
+33	sextafeira	sextafeira	NOUN	NOUN	_	31	nmod	_	TokenRange=237:247
+34	23	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=248:250
+35	tres	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=251:255
+36	mandados	mandado	NOUN	NOUN	_	37	nsubj	_	TokenRange=256:264
+37	busca	buscar	VERB	VERB	_	30	parataxis	_	TokenRange=265:270
+38	apreensao	apreensao	NOUN	NOUN	_	37	obj	_	TokenRange=271:280
+39	50	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=281:283
+40	fase	fase	NOUN	NOUN	_	30	nmod	_	TokenRange=284:288
+41	lava	lava	NOUN	NOUN	_	40	appos	_	TokenRange=289:293
+42	jato	jato	NOUN	NOUN	_	41	flat	_	TokenRange=294:298
+43	batizada	batizar	VERB	VERB	_	41	acl	_	TokenRange=299:307
+44	sothis	_	NOUN	NOUN	_	41	appos	_	TokenRange=308:314
+45	ii	_	NUM	NUM	NumType=Card	46	appos	_	TokenRange=315:317
+46	ordens	ordem	NOUN	NOUN	_	37	obj	_	TokenRange=318:324
+47	judiciais	judicial	ADJ	ADJ	_	46	amod	_	TokenRange=325:334
+48	cumpridas	cumprir	VERB	VERB	_	46	acl	_	TokenRange=335:344
+49	salvador	salvador	NOUN	NOUN	_	48	nmod	_	TokenRange=345:353
+50	bahia	bahia	NOUN	NOUN	_	49	flat	_	TokenRange=354:359
+51	campinas	campina	NOUN	NOUN	_	49	flat	_	TokenRange=360:368
+52	paulinia	_	NOUN	NOUN	_	49	flat	_	TokenRange=369:377
+53	interior	interior	ADJ	NOUN	_	51	amod	_	TokenRange=378:386
+54	paulo	_	NOUN	NOUN	_	49	flat	_	TokenRange=387:392
+55	nova	novo	ADJ	ADJ	_	56	amod	_	TokenRange=393:397
+56	etapa	etapa	NOUN	NOUN	_	49	appos	_	TokenRange=398:403
+57	acordo	acordo	NOUN	NOUN	_	49	appos	_	TokenRange=404:410
+58	pf	_	X	NOUN	_	57	flat	_	TokenRange=411:413
+59	complemento	complemento	NOUN	NOUN	_	57	appos	_	TokenRange=414:425
+60	investigacoes	investigacoe	NOUN	NOUN	_	57	flat	_	TokenRange=426:439
+61	47	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=440:442
+62	fase	fase	NOUN	NOUN	_	64	nsubj	_	TokenRange=443:447
+63	operacao	operacao	NOUN	NOUN	_	62	appos	_	TokenRange=448:456
+64	apura	apurar	VERB	VERB	_	57	appos	_	TokenRange=457:462
+65	corrupcao	corrupcao	NOUN	NOUN	_	64	obj	_	TokenRange=463:472
+66	lavagem	lavagem	NOUN	NOUN	_	64	obj	_	TokenRange=473:480
+67	dinheiro	dinheiro	NOUN	NOUN	_	66	flat	_	TokenRange=481:489
+68	partir	partir	VERB	VERB	_	64	ccomp	_	TokenRange=490:496
+69	contratos	contrato	NOUN	NOUN	_	68	obj	_	TokenRange=497:506
+70	transpetro	transpetro	NOUN	NOUN	_	69	appos	_	TokenRange=507:517
+71	subsidiaria	subsidiario	ADJ	ADJ	_	69	amod	_	TokenRange=518:529
+72	petrobras	petrobra	NOUN	NOUN	_	69	appos	_	TokenRange=530:539
+73	g1	_	PRON	PRON	_	74	nsubj	_	TokenRange=540:542
+74	apurou	apurar	VERB	VERB	_	69	acl:relcl	_	TokenRange=543:549
+75	alvo	alvo	NOUN	NOUN	_	74	obj	_	TokenRange=550:554
+76	busca	buscar	VERB	NOUN	_	74	parataxis	_	TokenRange=555:560
+77	apreensao	apreensao	NOUN	NOUN	_	76	obj	_	TokenRange=561:570
+78	salvador	salvador	NOUN	NOUN	_	76	amod	_	TokenRange=571:579
+79	ana	_	NOUN	NOUN	_	76	nsubj	_	TokenRange=580:583
+80	zilma	_	NOUN	NOUN	_	79	flat	_	TokenRange=584:589
+81	fonseca	_	NOUN	NOUN	_	79	flat	_	TokenRange=590:597
+82	jesus	_	ADJ	ADJ	_	83	amod	_	TokenRange=598:603
+83	esposa	esposo	NOUN	NOUN	_	79	conj	_	TokenRange=604:610
+84	exgerente	exgerente	ADJ	ADJ	_	83	amod	_	TokenRange=611:620
+85	transpetro	transpetro	NOUN	NOUN	_	83	appos	_	TokenRange=621:631
+86	jose	jose	NOUN	NOUN	_	85	appos	_	TokenRange=632:636
+87	antonio	antonio	ADJ	ADJ	_	86	flat	_	SpaceAfter=No|TokenRange=637:644
+

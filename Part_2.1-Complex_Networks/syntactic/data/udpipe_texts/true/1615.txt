@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mauricio gotardo gerum entrevistas menos assunto materia criminal decisao tomou inicio carreira procurador republica aprovado concurso 1996 ministerio publico federal assim cinco colegas forcatarefa operacao lava jato segunda instancia curitiba criada 2015 atuar processos escandalo corrupcao petrobras ambito tribunal regional federal 4 regiao trf4 porto alegre rosto desconhecido lava jato guerum pronuncia correta nome terceiro falar manha desta quartafeira 24 janeiro 2018 historica sessao julgamento 24 apelacao criminal merito sentencas juiz federal sergio moro trf4 missao defender 30
+1	mauricio	mauricio	NOUN	NOUN	_	56	parataxis	_	TokenRange=0:8
+2	gotardo	gotardo	NOUN	NOUN	_	1	flat	_	TokenRange=9:16
+3	gerum	gerum	NOUN	NOUN	_	1	appos	_	TokenRange=17:22
+4	entrevistas	entrevista	NOUN	NOUN	_	1	appos	_	TokenRange=23:34
+5	menos	_	DET	DET	_	6	det	_	TokenRange=35:40
+6	assunto	assunto	NOUN	NOUN	_	1	appos	_	TokenRange=41:48
+7	materia	materia	NOUN	NOUN	_	1	appos	_	TokenRange=49:56
+8	criminal	criminal	ADJ	ADJ	_	7	amod	_	TokenRange=57:65
+9	decisao	decisao	NOUN	NOUN	_	7	appos	_	TokenRange=66:73
+10	tomou	tomar	VERB	VERB	_	7	parataxis	_	TokenRange=74:79
+11	inicio	_	NOUN	NOUN	_	10	obj	_	TokenRange=80:86
+12	carreira	_	NOUN	NOUN	_	11	flat	_	TokenRange=87:95
+13	procurador	procurador	NOUN	NOUN	_	1	appos	_	TokenRange=96:106
+14	republica	republico	ADJ	ADJ	_	18	amod	_	TokenRange=107:116
+15	aprovado	aprovar	VERB	VERB	_	16	acl	_	TokenRange=117:125
+16	concurso	concurso	NOUN	NOUN	_	10	obj	_	TokenRange=126:134
+17	1996	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=135:139
+18	ministerio	ministerio	NOUN	NOUN	_	16	appos	_	TokenRange=140:150
+19	publico	_	ADJ	ADJ	_	18	amod	_	TokenRange=151:158
+20	federal	federal	ADJ	ADJ	_	18	amod	_	TokenRange=159:166
+21	assim	assim	ADV	ADV	_	23	advmod	_	TokenRange=167:172
+22	cinco	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=173:178
+23	colegas	colega	NOUN	NOUN	_	15	obj	_	TokenRange=179:186
+24	forcatarefa	forcatarefa	NOUN	NOUN	_	23	appos	_	TokenRange=187:198
+25	operacao	operacao	NOUN	NOUN	_	23	appos	_	TokenRange=199:207
+26	lava	lava	NOUN	NOUN	_	23	appos	_	TokenRange=208:212
+27	jato	jato	NOUN	NOUN	_	26	flat	_	TokenRange=213:217
+28	segunda	segundo	ADJ	ADJ	_	29	amod	_	TokenRange=218:225
+29	instancia	instancia	NOUN	NOUN	_	23	appos	_	TokenRange=226:235
+30	curitiba	curitiba	NOUN	NOUN	_	29	appos	_	TokenRange=236:244
+31	criada	criar	VERB	VERB	_	29	acl	_	TokenRange=245:251
+32	2015	_	NUM	NUM	NumType=Card	31	nmod	_	TokenRange=252:256
+33	atuar	atuar	VERB	VERB	_	31	parataxis	_	TokenRange=257:262
+34	processos	processo	NOUN	NOUN	_	33	obj	_	TokenRange=263:272
+35	escandalo	escandalo	NOUN	NOUN	_	33	obj	_	TokenRange=273:282
+36	corrupcao	corrupcao	ADJ	ADJ	_	35	amod	_	TokenRange=283:292
+37	petrobras	petrobra	NOUN	NOUN	_	35	appos	_	TokenRange=293:302
+38	ambito	ambito	ADJ	ADJ	_	39	amod	_	TokenRange=303:309
+39	tribunal	tribunal	NOUN	NOUN	_	33	nsubj	_	TokenRange=310:318
+40	regional	regional	ADJ	ADJ	_	39	amod	_	TokenRange=319:327
+41	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=328:335
+42	4	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=336:337
+43	regiao	regiao	NOUN	NOUN	_	39	appos	_	TokenRange=338:344
+44	trf4	_	NOUN	NOUN	_	43	appos	_	TokenRange=345:349
+45	porto	_	NOUN	NOUN	_	43	appos	_	TokenRange=350:355
+46	alegre	alegre	ADJ	ADJ	_	47	amod	_	TokenRange=356:362
+47	rosto	rosto	NOUN	NOUN	_	39	appos	_	TokenRange=363:368
+48	desconhecido	desconhecido	ADJ	ADJ	_	47	amod	_	TokenRange=369:381
+49	lava	lavar	VERB	VERB	_	33	parataxis	_	TokenRange=382:386
+50	jato	jato	NOUN	NOUN	_	49	obj	_	TokenRange=387:391
+51	guerum	guerum	NOUN	NOUN	_	49	nsubj	_	TokenRange=392:398
+52	pronuncia	pronuncia	NOUN	NOUN	_	49	conj	_	TokenRange=399:408
+53	correta	correto	ADJ	ADJ	_	54	amod	_	TokenRange=409:416
+54	nome	nome	NOUN	NOUN	_	49	obj	_	TokenRange=417:421
+55	terceiro	_	ADJ	ADJ	_	54	amod	_	TokenRange=422:430
+56	falar	falar	VERB	VERB	_	0	root	_	TokenRange=431:436
+57	manha	manha	NOUN	NOUN	_	56	obj	_	TokenRange=437:442
+58	desta	_	ADP	ADP	_	59	case	_	TokenRange=443:448
+59	quartafeira	quartafeira	NOUN	NOUN	_	57	nmod	_	TokenRange=449:460
+60	24	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=461:463
+61	janeiro	_	PROPN	PNOUN	_	56	nmod	_	TokenRange=464:471
+62	2018	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=472:476
+63	historica	historico	ADJ	ADJ	_	64	amod	_	TokenRange=477:486
+64	sessao	sessao	NOUN	NOUN	_	56	obj	_	TokenRange=487:493
+65	julgamento	julgamento	NOUN	NOUN	_	64	appos	_	TokenRange=494:504
+66	24	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=505:507
+67	apelacao	apelacao	NOUN	NOUN	_	64	appos	_	TokenRange=508:516
+68	criminal	criminal	ADJ	ADJ	_	67	amod	_	TokenRange=517:525
+69	merito	merito	ADJ	ADJ	_	71	amod	_	TokenRange=526:532
+70	sentencas	_	NOUN	NOUN	_	71	amod	_	TokenRange=533:542
+71	juiz	juiz	NOUN	NOUN	_	64	appos	_	TokenRange=543:547
+72	federal	federal	ADJ	ADJ	_	71	amod	_	TokenRange=548:555
+73	sergio	_	NOUN	NOUN	_	71	appos	_	TokenRange=556:562
+74	moro	moro	NOUN	NOUN	_	73	flat	_	TokenRange=563:567
+75	trf4	_	ADJ	ADJ	_	71	appos	_	TokenRange=568:572
+76	missao	missao	NOUN	NOUN	_	71	appos	_	TokenRange=573:579
+77	defender	defender	VERB	VERB	_	71	acl:inf	_	TokenRange=580:588
+78	30	_	NUM	NUM	NumType=Card	77	obj	_	SpaceAfter=No|TokenRange=589:591
+

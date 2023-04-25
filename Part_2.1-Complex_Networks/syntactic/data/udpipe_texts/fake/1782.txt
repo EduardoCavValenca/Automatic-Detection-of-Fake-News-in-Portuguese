@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video fim ano lula assume dilma pt quebraram pais inteiro diario brasil vai evitar comentarios pessoais nesta materia ouca discurso final ano expresidente fez amigos intimos ps apesar estar lugar fechado parece certa ventania incomodava lula petista aparentava cambalear certos momentos video fonte redebrasilnet fonte redebrasilnet
+1	video	video	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	fim	fim	NOUN	NOUN	_	1	amod	_	TokenRange=6:9
+3	ano	ano	NOUN	NOUN	_	1	flat	_	TokenRange=10:13
+4	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=14:18
+5	assume	assumir	VERB	VERB	_	43	acl:relcl	_	TokenRange=19:25
+6	dilma	dilma	NOUN	NOUN	_	5	obj	_	TokenRange=26:31
+7	pt	_	NOUN	NOUN	_	6	flat	_	TokenRange=32:34
+8	quebraram	quebrar	VERB	VERB	_	5	conj	_	TokenRange=35:44
+9	pais	_	NOUN	NOUN	_	5	obj	_	TokenRange=45:49
+10	inteiro	inteiro	ADJ	ADJ	_	9	amod	_	TokenRange=50:57
+11	diario	diario	NOUN	NOUN	_	5	nsubj	_	TokenRange=58:64
+12	brasil	brasil	NOUN	NOUN	_	11	flat	_	TokenRange=65:71
+13	vai	ir	AUX	AUX	_	14	aux	_	TokenRange=72:75
+14	evitar	evitar	VERB	VERB	_	5	parataxis	_	TokenRange=76:82
+15	comentarios	comentario	NOUN	NOUN	_	14	obj	_	TokenRange=83:94
+16	pessoais	pessoal	ADJ	ADJ	_	15	amod	_	TokenRange=95:103
+17	nesta	_	ADP	ADP	_	18	case	_	TokenRange=104:109
+18	materia	materia	NOUN	NOUN	_	14	nmod	_	TokenRange=110:117
+19	ouca	_	DET	DET	_	20	det	_	TokenRange=118:122
+20	discurso	discurso	NOUN	NOUN	_	14	nsubj	_	TokenRange=123:131
+21	final	final	ADJ	ADJ	_	22	amod	_	TokenRange=132:137
+22	ano	ano	NOUN	NOUN	_	20	appos	_	TokenRange=138:141
+23	expresidente	expresidente	NOUN	NOUN	_	20	appos	_	TokenRange=142:154
+24	fez	fazer	VERB	VERB	_	14	parataxis	_	TokenRange=155:158
+25	amigos	amigo	NOUN	NOUN	_	24	obj	_	TokenRange=159:165
+26	intimos	intimo	ADJ	ADJ	_	25	amod	_	TokenRange=166:173
+27	ps	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=174:176
+28	apesar	apesar	ADV	ADV	_	30	mark	_	TokenRange=177:183
+29	estar	estar	VERB	VERB	_	32	advcl	_	TokenRange=184:189
+30	lugar	lugar	NOUN	NOUN	_	32	nsubj	_	TokenRange=190:195
+31	fechado	fechado	ADJ	ADJ	_	30	amod	_	TokenRange=196:203
+32	parece	parecer	VERB	VERB	_	24	parataxis	_	TokenRange=204:210
+33	certa	_	DET	DET	_	34	det	_	TokenRange=211:216
+34	ventania	ventania	NOUN	NOUN	_	32	nsubj	_	TokenRange=217:225
+35	incomodava	incomodar	ADJ	ADJ	_	32	xcomp	_	TokenRange=226:236
+36	lula	lula	NOUN	NOUN	_	38	nsubj	_	TokenRange=237:241
+37	petista	petista	NOUN	NOUN	_	38	nsubj	_	TokenRange=242:249
+38	aparentava	aparentar	VERB	VERB	_	32	parataxis	_	TokenRange=250:260
+39	cambalear	cambalear	VERB	VERB	_	38	xcomp	_	TokenRange=261:270
+40	certos	_	DET	DET	_	41	det	_	TokenRange=271:277
+41	momentos	momento	NOUN	NOUN	_	39	nmod	_	TokenRange=278:286
+42	video	video	VERB	VERB	_	0	root	_	TokenRange=287:292
+43	fonte	fonte	NOUN	NOUN	_	42	appos	_	TokenRange=293:298
+44	redebrasilnet	_	X	X	_	45	appos	_	TokenRange=299:312
+45	fonte	fonte	NOUN	NOUN	_	43	appos	_	TokenRange=313:318
+46	redebrasilnet	_	X	X	_	45	appos	_	SpaceAfter=No|TokenRange=319:332
+

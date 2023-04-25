@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = juca hostilizado aeroporto pilantra vai pra casa ne vai pra cadeia picareta senador romero juca pmdbrr ficou sitiado aeroporto boa vista roraima ultimo dia 16 desembarcar ouviu elogios vai pra cadeia ladrao vagabundo junto segurancas deixar local rapidinho lembra daquela famosa frase senador juca mudar governo estancar sangria pois senador achamos sangria vai estancada
+1	juca	juca	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:4
+2	hostilizado	hostilizado	ADJ	ADJ	_	3	amod	_	TokenRange=5:16
+3	aeroporto	aeroporto	NOUN	NOUN	_	5	nsubj	_	TokenRange=17:26
+4	pilantra	pilantra	NOUN	NOUN	_	3	appos	_	TokenRange=27:35
+5	vai	ir	VERB	VERB	_	0	root	_	TokenRange=36:39
+6	pra	_	ADP	ADP	_	7	case	_	TokenRange=40:43
+7	casa	casa	NOUN	NOUN	_	5	nmod	_	TokenRange=44:48
+8	ne	_	CCONJ	CONJ	_	9	cc	_	TokenRange=49:51
+9	vai	ir	VERB	VERB	_	5	conj	_	TokenRange=52:55
+10	pra	_	ADP	ADP	_	11	case	_	TokenRange=56:59
+11	cadeia	cadeia	NOUN	NOUN	_	9	nmod	_	TokenRange=60:66
+12	picareta	picareto	ADJ	ADJ	_	11	amod	_	TokenRange=67:75
+13	senador	senador	NOUN	NOUN	_	17	nsubj	_	TokenRange=76:83
+14	romero	romero	NOUN	NOUN	_	13	appos	_	TokenRange=84:90
+15	juca	juca	NOUN	NOUN	_	13	flat	_	TokenRange=91:95
+16	pmdbrr	_	NOUN	NOUN	_	13	appos	_	TokenRange=96:102
+17	ficou	ficar	VERB	VERB	_	5	conj	_	TokenRange=103:108
+18	sitiado	sitiado	ADJ	ADJ	_	17	xcomp	_	TokenRange=109:116
+19	aeroporto	aeroporto	NOUN	NOUN	_	17	nsubj	_	TokenRange=117:126
+20	boa	bom	ADJ	ADJ	_	21	amod	_	TokenRange=127:130
+21	vista	vista	NOUN	NOUN	_	19	appos	_	TokenRange=131:136
+22	roraima	roraima	ADJ	ADJ	_	19	amod	_	TokenRange=137:144
+23	ultimo	_	ADJ	ADJ	_	24	amod	_	TokenRange=145:151
+24	dia	dia	NOUN	NOUN	_	27	nmod	_	TokenRange=152:155
+25	16	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=156:158
+26	desembarcar	desembarcar	VERB	VERB	_	27	nsubj	_	TokenRange=159:170
+27	ouviu	ouvir	VERB	VERB	_	5	conj	_	TokenRange=171:176
+28	elogios	elogio	NOUN	NOUN	_	27	obj	_	TokenRange=177:184
+29	vai	ir	VERB	VERB	_	27	parataxis	_	TokenRange=185:188
+30	pra	_	ADP	ADP	_	31	case	_	TokenRange=189:192
+31	cadeia	cadeia	NOUN	NOUN	_	29	nmod	_	TokenRange=193:199
+32	ladrao	ladrao	NOUN	NOUN	_	29	nsubj	_	TokenRange=200:206
+33	vagabundo	vagabundo	NOUN	NOUN	_	32	appos	_	TokenRange=207:216
+34	junto	junto	ADV	ADV	_	36	advmod	_	TokenRange=217:222
+35	segurancas	_	ADJ	ADJ	_	36	nsubj	_	TokenRange=223:233
+36	deixar	deixar	VERB	VERB	_	32	acl:relcl	_	TokenRange=234:240
+37	local	local	NOUN	NOUN	_	36	obj	_	TokenRange=241:246
+38	rapidinho	_	ADJ	ADJ	_	37	amod	_	TokenRange=247:256
+39	lembra	lembrar	VERB	VERB	_	29	parataxis	_	TokenRange=257:263
+40	daquela	_	ADP	ADP	_	42	case	_	TokenRange=264:271
+41	famosa	famoso	ADJ	ADJ	_	42	amod	_	TokenRange=272:278
+42	frase	frase	NOUN	NOUN	_	39	nmod	_	TokenRange=279:284
+43	senador	senador	NOUN	NOUN	_	45	nsubj	_	TokenRange=285:292
+44	juca	_	NOUN	NOUN	_	43	flat	_	TokenRange=293:297
+45	mudar	mudar	VERB	VERB	_	42	acl:inf	_	TokenRange=298:303
+46	governo	governo	NOUN	NOUN	_	45	obj	_	TokenRange=304:311
+47	estancar	estancar	VERB	VERB	_	45	ccomp	_	TokenRange=312:320
+48	sangria	sangria	NOUN	NOUN	_	47	obj	_	TokenRange=321:328
+49	pois	_	CCONJ	CONJ	_	54	mark	_	TokenRange=329:333
+50	senador	senador	NOUN	NOUN	_	51	nsubj	_	TokenRange=334:341
+51	achamos	achar	VERB	VERB	_	54	advcl	_	TokenRange=342:349
+52	sangria	sangria	NOUN	NOUN	_	54	nsubj	_	TokenRange=350:357
+53	vai	ir	AUX	AUX	_	54	aux	_	TokenRange=358:361
+54	estancada	estancar	ADJ	ADJ	_	39	ccomp	_	SpaceAfter=No|TokenRange=362:371
+

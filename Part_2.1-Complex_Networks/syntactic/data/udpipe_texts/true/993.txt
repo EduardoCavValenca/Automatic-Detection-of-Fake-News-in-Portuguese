@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lobista odebrecht congresso claudio melo filho detalhou forcatarefa operacao lava jato papel central senador romero juca representante pmdb distribuicao recursos contabilizados detalhou intensa agenda legislativa lidera patrocinada favor grupo romero juca principal interlocutor congresso nacional relevo figura pode medido dois fatos objetivos intensidade devocao pleitos interesse elevado valor pagamentos
+1	lobista	lobista	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:7
+2	odebrecht	odebrecht	NOUN	NOUN	_	1	appos	_	TokenRange=8:17
+3	congresso	congresso	NOUN	NOUN	_	1	appos	_	TokenRange=18:27
+4	claudio	claudio	NOUN	NOUN	_	1	appos	_	TokenRange=28:35
+5	melo	melo	NOUN	NOUN	_	4	flat	_	TokenRange=36:40
+6	filho	filho	NOUN	NOUN	_	4	flat	_	TokenRange=41:46
+7	detalhou	detalhar	VERB	VERB	_	0	root	_	TokenRange=47:55
+8	forcatarefa	forcatarefa	NOUN	NOUN	_	7	obj	_	TokenRange=56:67
+9	operacao	operacao	ADJ	ADJ	_	8	amod	_	TokenRange=68:76
+10	lava	lava	NOUN	NOUN	_	8	appos	_	TokenRange=77:81
+11	jato	jato	NOUN	NOUN	_	10	amod	_	TokenRange=82:86
+12	papel	papel	NOUN	NOUN	_	8	appos	_	TokenRange=87:92
+13	central	central	ADJ	ADJ	_	12	amod	_	TokenRange=93:100
+14	senador	senador	NOUN	NOUN	_	7	nsubj	_	TokenRange=101:108
+15	romero	romero	NOUN	NOUN	_	14	appos	_	TokenRange=109:115
+16	juca	juca	ADJ	ADJ	_	15	flat	_	TokenRange=116:120
+17	representante	representante	NOUN	NOUN	_	14	amod	_	TokenRange=121:134
+18	pmdb	_	NOUN	NOUN	_	17	appos	_	TokenRange=135:139
+19	distribuicao	distribuicao	ADJ	NOUN	_	20	amod	_	TokenRange=140:152
+20	recursos	recurso	NOUN	NOUN	_	17	appos	_	TokenRange=153:161
+21	contabilizados	contabilizado	ADJ	ADJ	_	20	amod	_	TokenRange=162:176
+22	detalhou	detalhar	VERB	VERB	_	7	conj	_	TokenRange=177:185
+23	intensa	intenso	ADJ	ADJ	_	24	amod	_	TokenRange=186:193
+24	agenda	agenda	NOUN	NOUN	_	22	obj	_	TokenRange=194:200
+25	legislativa	legislativo	ADJ	ADJ	_	24	amod	_	TokenRange=201:212
+26	lidera	lidera	NOUN	NOUN	_	24	appos	_	TokenRange=213:219
+27	patrocinada	patrocinado	ADJ	ADJ	_	29	amod	_	TokenRange=220:231
+28	favor	favor	ADJ	ADJ	_	29	amod	_	TokenRange=232:237
+29	grupo	grupo	NOUN	NOUN	_	24	appos	_	TokenRange=238:243
+30	romero	romero	NOUN	NOUN	_	29	appos	_	TokenRange=244:250
+31	juca	juca	ADJ	ADJ	_	29	amod	_	TokenRange=251:255
+32	principal	principal	ADJ	ADJ	_	33	amod	_	TokenRange=256:265
+33	interlocutor	interlocutor	NOUN	NOUN	_	29	appos	_	TokenRange=266:278
+34	congresso	congresso	NOUN	NOUN	_	33	appos	_	TokenRange=279:288
+35	nacional	nacional	ADJ	ADJ	_	34	amod	_	TokenRange=289:297
+36	relevo	relevo	ADJ	ADJ	_	33	amod	_	TokenRange=298:304
+37	figura	figura	NOUN	NOUN	_	39	nsubj	_	TokenRange=305:311
+38	pode	_	AUX	AUX	_	39	aux	_	TokenRange=312:316
+39	medido	medir	VERB	VERB	_	7	parataxis	_	TokenRange=317:323
+40	dois	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=324:328
+41	fatos	fato	NOUN	NOUN	_	39	obj	_	TokenRange=329:334
+42	objetivos	objetivo	ADJ	ADJ	_	41	amod	_	TokenRange=335:344
+43	intensidade	intensidade	NOUN	NOUN	_	41	appos	_	TokenRange=345:356
+44	devocao	devocao	ADJ	ADJ	_	41	amod	_	TokenRange=357:364
+45	pleitos	pleito	ADJ	ADJ	_	41	amod	_	TokenRange=365:372
+46	interesse	interesse	NOUN	NOUN	_	41	appos	_	TokenRange=373:382
+47	elevado	elevado	ADJ	ADJ	_	48	amod	_	TokenRange=383:390
+48	valor	valor	NOUN	NOUN	_	46	appos	_	TokenRange=391:396
+49	pagamentos	pagamento	NOUN	NOUN	_	48	flat	_	SpaceAfter=No|TokenRange=397:407
+

@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = movimento organizado ganha forca quer separar paulo brasil assim aconteceu brexit britain exit saida britanica uniao europeia organizacao paulo livre spl parece ganhando forca cada dia passa grupo quer independencia estado resto brasil spl criado 2014 possui site pagina facebook quase 15 mil seguidores facebook movimento conta varias postagens justificando iniciativa organizacao diz movimento sampadeus busca melhor condicao vida crescimento economico estabilidade politica justica social educacao qualidade servicos publicos melhores outros spl convocara pessoas plebiscito naooficial consultivo varias cidades paulo dia 2 outubro
+1	movimento	movimento	NOUN	NOUN	_	73	nsubj	_	TokenRange=0:9
+2	organizado	organizado	ADJ	ADJ	_	1	amod	_	TokenRange=10:20
+3	ganha	ganhar	VERB	VERB	_	1	acl:relcl	_	TokenRange=21:26
+4	forca	forca	NOUN	NOUN	_	3	obj	_	TokenRange=27:32
+5	quer	querer	VERB	VERB	_	3	conj	_	TokenRange=33:37
+6	separar	separar	VERB	VERB	_	5	xcomp	_	TokenRange=38:45
+7	paulo	paulo	NOUN	NOUN	_	6	obj	_	TokenRange=46:51
+8	brasil	brasil	ADJ	ADJ	_	7	flat	_	TokenRange=52:58
+9	assim	assim	ADV	ADV	_	10	advmod	_	TokenRange=59:64
+10	aconteceu	acontecer	VERB	VERB	_	3	conj	_	TokenRange=65:74
+11	brexit	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=75:81
+12	britain	_	NOUN	NOUN	_	11	flat	_	TokenRange=82:89
+13	exit	_	NOUN	NOUN	_	14	cc	_	TokenRange=90:94
+14	saida	saida	NOUN	NOUN	_	1	appos	_	TokenRange=95:100
+15	britanica	britanico	ADJ	ADJ	_	14	amod	_	TokenRange=101:110
+16	uniao	uniao	NOUN	NOUN	_	14	appos	_	TokenRange=111:116
+17	europeia	europeu	ADJ	ADJ	_	14	amod	_	TokenRange=117:125
+18	organizacao	organizacao	NOUN	NOUN	_	14	appos	_	TokenRange=126:137
+19	paulo	paulo	NOUN	NOUN	_	18	appos	_	TokenRange=138:143
+20	livre	livre	ADJ	ADJ	_	19	amod	_	TokenRange=144:149
+21	spl	spl	NOUN	NOUN	_	18	appos	_	TokenRange=150:153
+22	parece	parecer	VERB	VERB	_	0	root	_	TokenRange=154:160
+23	ganhando	ganhar	VERB	VERB	_	22	acl	_	TokenRange=161:169
+24	forca	forca	NOUN	NOUN	_	23	obj	_	TokenRange=170:175
+25	cada	_	DET	DET	_	26	det	_	TokenRange=176:180
+26	dia	dia	NOUN	NOUN	_	27	nsubj	_	TokenRange=181:184
+27	passa	passar	VERB	VERB	_	23	parataxis	_	TokenRange=185:190
+28	grupo	grupo	NOUN	NOUN	_	27	nsubj	_	TokenRange=191:196
+29	quer	quer	NOUN	NOUN	_	28	appos	_	TokenRange=197:201
+30	independencia	_	NOUN	NOUN	_	29	flat	_	TokenRange=202:215
+31	estado	estado	NOUN	NOUN	_	28	appos	_	TokenRange=216:222
+32	resto	resto	NOUN	NOUN	_	28	appos	_	TokenRange=223:228
+33	brasil	brasil	ADJ	ADJ	_	32	amod	_	TokenRange=229:235
+34	spl	spl	NOUN	NOUN	_	32	appos	_	TokenRange=236:239
+35	criado	criar	VERB	VERB	_	34	acl	_	TokenRange=240:246
+36	2014	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=247:251
+37	possui	possuir	VERB	VERB	_	22	parataxis	_	TokenRange=252:258
+38	site	site	NOUN	NOUN	_	37	obj	_	TokenRange=259:263
+39	pagina	pagina	NOUN	NOUN	_	38	appos	_	TokenRange=264:270
+40	facebook	_	PROPN	PNOUN	_	38	appos	_	TokenRange=271:279
+41	quase	quase	ADV	ADV	_	43	advmod	_	TokenRange=280:285
+42	15	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=286:288
+43	mil	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=289:292
+44	seguidores	seguidor	NOUN	NOUN	_	37	nsubj	_	TokenRange=293:303
+45	facebook	_	PROPN	PNOUN	_	44	appos	_	TokenRange=304:312
+46	movimento	movimento	NOUN	NOUN	_	45	flat	_	TokenRange=313:322
+47	conta	contar	VERB	VERB	_	44	acl:relcl	_	TokenRange=323:328
+48	varias	_	DET	DET	_	49	det	_	TokenRange=329:335
+49	postagens	postagem	NOUN	NOUN	_	47	obj	_	TokenRange=336:345
+50	justificando	justificar	VERB	VERB	_	49	acl	_	TokenRange=346:358
+51	iniciativa	iniciativa	NOUN	NOUN	_	50	obj	_	TokenRange=359:369
+52	organizacao	organizacao	NOUN	NOUN	_	53	nsubj	_	TokenRange=370:381
+53	diz	dizer	VERB	VERB	_	51	acl:relcl	_	TokenRange=382:385
+54	movimento	movimento	NOUN	NOUN	_	53	obj	_	TokenRange=386:395
+55	sampadeus	sampadeu	NOUN	NOUN	_	54	appos	_	TokenRange=396:405
+56	busca	busca	NOUN	NOUN	_	54	appos	_	TokenRange=406:411
+57	melhor	melhor	ADJ	ADJ	_	58	amod	_	TokenRange=412:418
+58	condicao	condicao	NOUN	NOUN	_	56	appos	_	TokenRange=419:427
+59	vida	vida	NOUN	NOUN	_	60	appos	_	TokenRange=428:432
+60	crescimento	crescimento	NOUN	NOUN	_	58	appos	_	TokenRange=433:444
+61	economico	economico	ADJ	ADJ	_	60	amod	_	TokenRange=445:454
+62	estabilidade	estabilidade	NOUN	NOUN	_	60	appos	_	TokenRange=455:467
+63	politica	politico	ADJ	ADJ	_	62	amod	_	TokenRange=468:476
+64	justica	_	NOUN	NOUN	_	60	appos	_	TokenRange=477:484
+65	social	social	ADJ	ADJ	_	64	amod	_	TokenRange=485:491
+66	educacao	educacao	ADJ	ADJ	_	64	amod	_	TokenRange=492:500
+67	qualidade	qualidade	NOUN	NOUN	_	64	appos	_	TokenRange=501:510
+68	servicos	servico	NOUN	NOUN	_	67	appos	_	TokenRange=511:519
+69	publicos	publico	ADJ	ADJ	_	68	amod	_	TokenRange=520:528
+70	melhores	melhor	ADJ	ADJ	_	68	amod	_	TokenRange=529:537
+71	outros	_	DET	DET	_	72	det	_	TokenRange=538:544
+72	spl	spl	NOUN	NOUN	_	73	nsubj	_	TokenRange=545:548
+73	convocara	convocar	VERB	VERB	_	47	parataxis	_	TokenRange=549:558
+74	pessoas	pessoa	NOUN	NOUN	_	73	obj	_	TokenRange=559:566
+75	plebiscito	plebiscito	ADJ	ADJ	_	74	amod	_	TokenRange=567:577
+76	naooficial	naooficial	ADJ	ADJ	_	74	amod	_	TokenRange=578:588
+77	consultivo	consultivo	ADJ	ADJ	_	74	amod	_	TokenRange=589:599
+78	varias	_	DET	DET	_	79	det	_	TokenRange=600:606
+79	cidades	cidade	NOUN	NOUN	_	73	nmod	_	TokenRange=607:614
+80	paulo	paulo	NOUN	NOUN	_	79	appos	_	TokenRange=615:620
+81	dia	dia	NOUN	NOUN	_	79	nmod	_	TokenRange=621:624
+82	2	_	NUM	NUM	NumType=Card	81	appos	_	TokenRange=625:626
+83	outubro	_	PROPN	PNOUN	_	82	nmod	_	SpaceAfter=No|TokenRange=627:634
+

@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = diretorio nacional pt suspende palocci 60 dias apos acusacao contra lula suspensao definida tarde desta sextafeira 22 segundo senadora gleisi hoffmann palocci mentiu reduzir pena suspensao faz parte estatuto partido exministro antonio palocci suspenso 60 dias pt diretorio nacional partido nesta sextafeira 22 suspensao ocorreu apos palocci acusar expresidente luiz inacio
+1	diretorio	diretorio	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:9
+2	nacional	nacional	ADJ	ADJ	_	1	amod	_	TokenRange=10:18
+3	pt	_	NOUN	NOUN	_	1	appos	_	TokenRange=19:21
+4	suspende	suspender	VERB	VERB	_	0	root	_	TokenRange=22:30
+5	palocci	_	NOUN	NOUN	_	4	obj	_	TokenRange=31:38
+6	60	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=39:41
+7	dias	dia	NOUN	NOUN	_	4	nmod	_	TokenRange=42:46
+8	apos	_	ADP	ADP	_	9	case	_	TokenRange=47:51
+9	acusacao	acusacao	NOUN	NOUN	_	4	nmod	_	TokenRange=52:60
+10	contra	_	ADP	ADP	_	11	case	_	TokenRange=61:67
+11	lula	lula	NOUN	NOUN	_	9	nmod	_	TokenRange=68:72
+12	suspensao	suspensao	NOUN	NOUN	_	4	obj	_	TokenRange=73:82
+13	definida	definir	VERB	VERB	_	12	acl	_	TokenRange=83:91
+14	tarde	tarde	ADV	ADV	_	13	advmod	_	TokenRange=92:97
+15	desta	_	ADP	ADP	_	16	case	_	TokenRange=98:103
+16	sextafeira	sextafeira	NOUN	NOUN	_	14	nmod	_	TokenRange=104:114
+17	22	_	NUM	NUM	NumType=Card	16	appos	_	TokenRange=115:117
+18	segundo	_	ADP	ADP	_	19	case	_	TokenRange=118:125
+19	senadora	senador	NOUN	NOUN	_	23	nmod	_	TokenRange=126:134
+20	gleisi	_	NOUN	NOUN	_	19	appos	_	TokenRange=135:141
+21	hoffmann	_	NOUN	NOUN	_	20	flat	_	TokenRange=142:150
+22	palocci	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=151:158
+23	mentiu	mentir	VERB	VERB	_	4	parataxis	_	TokenRange=159:165
+24	reduzir	reduzir	VERB	VERB	_	23	xcomp	_	TokenRange=166:173
+25	pena	_	NOUN	NOUN	_	24	obj	_	TokenRange=174:178
+26	suspensao	suspensao	ADJ	ADJ	_	25	amod	_	TokenRange=179:188
+27	faz	fazer	VERB	VERB	_	23	parataxis	_	TokenRange=189:192
+28	parte	parte	NOUN	NOUN	_	27	obj	_	TokenRange=193:198
+29	estatuto	estatuto	NOUN	NOUN	_	28	appos	_	TokenRange=199:207
+30	partido	partido	NOUN	NOUN	_	28	appos	_	TokenRange=208:215
+31	exministro	exministro	NOUN	NOUN	_	30	flat	_	TokenRange=216:226
+32	antonio	antonio	ADJ	ADJ	_	30	amod	_	TokenRange=227:234
+33	palocci	_	NOUN	NOUN	_	32	flat	_	TokenRange=235:242
+34	suspenso	suspenso	ADJ	ADJ	_	30	amod	_	TokenRange=243:251
+35	60	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=252:254
+36	dias	dia	NOUN	NOUN	_	34	nmod	_	TokenRange=255:259
+37	pt	_	ADP	NOUN	_	38	appos	_	TokenRange=260:262
+38	diretorio	diretorio	NOUN	NOUN	_	34	appos	_	TokenRange=263:272
+39	nacional	nacional	ADJ	ADJ	_	38	amod	_	TokenRange=273:281
+40	partido	partido	NOUN	NOUN	_	38	appos	_	TokenRange=282:289
+41	nesta	_	ADP	ADP	_	42	case	_	TokenRange=290:295
+42	sextafeira	sextafeira	NOUN	NOUN	_	45	nmod	_	TokenRange=296:306
+43	22	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=307:309
+44	suspensao	suspensao	NOUN	NOUN	_	45	nsubj	_	TokenRange=310:319
+45	ocorreu	ocorrer	VERB	VERB	_	4	parataxis	_	TokenRange=320:327
+46	apos	_	ADP	ADP	_	48	mark	_	TokenRange=328:332
+47	palocci	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=333:340
+48	acusar	acusar	VERB	VERB	_	45	advcl	_	TokenRange=341:347
+49	expresidente	expresidente	NOUN	NOUN	_	48	obj	_	TokenRange=348:360
+50	luiz	luiz	ADJ	ADJ	_	49	appos	_	TokenRange=361:365
+51	inacio	_	NOUN	NOUN	_	50	flat	_	SpaceAfter=No|TokenRange=366:372
+

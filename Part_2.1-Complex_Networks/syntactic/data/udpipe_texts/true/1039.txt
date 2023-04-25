@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos reintegracao posse predio familias recebem doacoes porto alegre cerca 200 pessoas moravam edificio removidas acao policial noite quarta 14 madrugada quinta 15 parte outra ocupacao onde recebem donativos familias retiradas predio desocupado governo porto alegre recebem doacoes voluntarios reintegracao posse ocorreu noite quartafeira 14 madrugada quinta 15 uso forca policial seis pessoas presas deputado cerca 200 pessoas moravam edificio apos reintegracao 20 abrigo oferecido governo entretanto acabaram deixando espaco porque segundo condicoes morar ali outras pessoas
+1	apos	_	ADP	ADP	_	3	case	_	TokenRange=0:4
+2	reintegracao	_	ADJ	ADJ	_	3	amod	_	TokenRange=5:17
+3	posse	posse	NOUN	NOUN	_	6	nmod	_	TokenRange=18:23
+4	predio	predio	NOUN	NOUN	_	6	nsubj	_	TokenRange=24:30
+5	familias	familia	NOUN	NOUN	_	4	flat	_	TokenRange=31:39
+6	recebem	receber	VERB	VERB	_	0	root	_	TokenRange=40:47
+7	doacoes	doacoe	NOUN	NOUN	_	6	obj	_	TokenRange=48:55
+8	porto	porto	NOUN	NOUN	_	7	appos	_	TokenRange=56:61
+9	alegre	alegre	ADJ	NOUN	_	8	amod	_	TokenRange=62:68
+10	cerca	cerca	ADV	ADV	_	11	advmod	_	TokenRange=69:74
+11	200	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=75:78
+12	pessoas	pessoa	NOUN	NOUN	_	13	nsubj	_	TokenRange=79:86
+13	moravam	morar	VERB	VERB	_	6	parataxis	_	TokenRange=87:94
+14	edificio	edificio	NOUN	NOUN	_	13	obj	_	TokenRange=95:103
+15	removidas	removido	ADJ	ADJ	_	16	amod	_	TokenRange=104:113
+16	acao	acao	NOUN	NOUN	_	13	nmod	_	TokenRange=114:118
+17	policial	policial	ADJ	ADJ	_	16	amod	_	TokenRange=119:127
+18	noite	noite	NOUN	NOUN	_	16	appos	_	TokenRange=128:133
+19	quarta	_	ADJ	ADJ	_	18	amod	_	TokenRange=134:140
+20	14	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=141:143
+21	madrugada	madrugada	NOUN	NOUN	_	18	appos	_	TokenRange=144:153
+22	quinta	_	PROPN	PNOUN	_	21	appos	_	TokenRange=154:160
+23	15	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=161:163
+24	parte	parte	NOUN	NOUN	_	6	appos	_	TokenRange=164:169
+25	outra	_	DET	DET	_	26	det	_	TokenRange=170:175
+26	ocupacao	ocupacao	NOUN	NOUN	_	24	appos	_	TokenRange=176:184
+27	onde	onde	ADV	ADV	_	28	advmod	_	TokenRange=185:189
+28	recebem	receber	VERB	VERB	_	26	acl:relcl	_	TokenRange=190:197
+29	donativos	donativo	NOUN	NOUN	_	28	obj	_	TokenRange=198:207
+30	familias	familia	NOUN	NOUN	_	28	nsubj	_	TokenRange=208:216
+31	retiradas	retirar	VERB	VERB	_	32	acl	_	TokenRange=217:226
+32	predio	predio	NOUN	NOUN	_	28	obj	_	TokenRange=227:233
+33	desocupado	desocupado	ADJ	ADJ	_	32	amod	_	TokenRange=234:244
+34	governo	governo	NOUN	NOUN	_	37	nsubj	_	TokenRange=245:252
+35	porto	porto	ADJ	ADJ	_	34	amod	_	TokenRange=253:258
+36	alegre	alegre	ADJ	ADJ	_	34	amod	_	TokenRange=259:265
+37	recebem	receber	VERB	VERB	_	6	parataxis	_	TokenRange=266:273
+38	doacoes	doacoe	NOUN	NOUN	_	37	obj	_	TokenRange=274:281
+39	voluntarios	voluntario	ADJ	ADJ	_	38	amod	_	TokenRange=282:293
+40	reintegracao	_	ADJ	ADJ	_	41	amod	_	TokenRange=294:306
+41	posse	posse	NOUN	NOUN	_	38	appos	_	TokenRange=307:312
+42	ocorreu	ocorrer	VERB	VERB	_	37	parataxis	_	TokenRange=313:320
+43	noite	noite	NOUN	NOUN	_	42	nmod	_	TokenRange=321:326
+44	quartafeira	_	NOUN	NOUN	_	43	appos	_	TokenRange=327:338
+45	14	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=339:341
+46	madrugada	madrugada	NOUN	NOUN	_	43	appos	_	TokenRange=342:351
+47	quinta	_	ADJ	ADJ	_	46	amod	_	TokenRange=352:358
+48	15	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=359:361
+49	uso	uso	NOUN	NOUN	_	42	nsubj	_	TokenRange=362:365
+50	forca	forca	NOUN	NOUN	_	49	appos	_	TokenRange=366:371
+51	policial	policial	ADJ	ADJ	_	53	amod	_	TokenRange=372:380
+52	seis	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=381:385
+53	pessoas	pessoa	NOUN	NOUN	_	59	nsubj	_	TokenRange=386:393
+54	presas	preso	ADJ	ADJ	_	53	amod	_	TokenRange=394:400
+55	deputado	deputado	NOUN	NOUN	_	59	nsubj	_	TokenRange=401:409
+56	cerca	cerca	ADV	ADV	_	57	advmod	_	TokenRange=410:415
+57	200	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=416:419
+58	pessoas	pessoa	NOUN	NOUN	_	59	nsubj	_	TokenRange=420:427
+59	moravam	morar	VERB	VERB	_	6	parataxis	_	TokenRange=428:435
+60	edificio	edificio	NOUN	NOUN	_	59	obj	_	TokenRange=436:444
+61	apos	_	ADP	ADP	_	62	case	_	TokenRange=445:449
+62	reintegracao	_	NOUN	NOUN	_	60	nmod	_	TokenRange=450:462
+63	20	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=463:465
+64	abrigo	abrigo	NOUN	NOUN	_	59	obj	_	TokenRange=466:472
+65	oferecido	oferecer	VERB	VERB	_	64	acl	_	TokenRange=473:482
+66	governo	governo	NOUN	NOUN	_	65	obj	_	TokenRange=483:490
+67	entretanto	entretanto	ADV	ADV	_	69	advmod	_	TokenRange=491:501
+68	acabaram	acabar	AUX	AUX	_	69	aux	_	TokenRange=502:510
+69	deixando	deixar	VERB	VERB	_	59	conj	_	TokenRange=511:519
+70	espaco	espaco	NOUN	NOUN	_	69	obj	_	TokenRange=520:526
+71	porque	_	CCONJ	CONJ	_	74	mark	_	TokenRange=527:533
+72	segundo	_	ADP	ADP	_	73	case	_	TokenRange=534:541
+73	condicoes	condicoe	NOUN	NOUN	_	74	nmod	_	TokenRange=542:551
+74	morar	morar	VERB	VERB	_	69	advcl	_	TokenRange=552:557
+75	ali	ali	ADV	ADV	_	74	advmod	_	TokenRange=558:561
+76	outras	_	DET	DET	_	77	det	_	TokenRange=562:568
+77	pessoas	pessoa	NOUN	NOUN	_	74	obj	_	SpaceAfter=No|TokenRange=569:576
+

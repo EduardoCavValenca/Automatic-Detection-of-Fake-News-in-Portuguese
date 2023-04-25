@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = arquidiocese rio lamenta charge cristo redentor armado divulgada jornal britanico ilustracao apareceu reportagem sobre operacao lava jato jornal the guardian dom orani tempesta diz imagem ofende povo brasileiro ilustracao cristo redentor empunhando arma saco dinheiro materia jornal britanico the guardian provocou reacoes arquidiocese rio charge apareceu versao imprensa desta quintafeira 1 reportagem tres paginas recebeu titulo
+1	arquidiocese	arquidiocese	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:12
+2	rio	rio	NOUN	NOUN	_	1	appos	_	TokenRange=13:16
+3	lamenta	lamentar	VERB	VERB	_	0	root	_	TokenRange=17:24
+4	charge	charge	NOUN	NOUN	_	3	obj	_	TokenRange=25:31
+5	cristo	cristo	NOUN	NOUN	_	4	appos	_	TokenRange=32:38
+6	redentor	redentor	NOUN	NOUN	_	5	flat	_	TokenRange=39:47
+7	armado	armado	ADJ	ADJ	_	6	amod	_	TokenRange=48:54
+8	divulgada	divulgar	ADJ	ADJ	_	9	amod	_	TokenRange=55:64
+9	jornal	jornal	NOUN	NOUN	_	4	appos	_	TokenRange=65:71
+10	britanico	britanico	ADJ	ADJ	_	9	amod	_	TokenRange=72:81
+11	ilustracao	ilustracao	ADJ	ADJ	_	9	amod	_	TokenRange=82:92
+12	apareceu	aparecer	VERB	VERB	_	3	parataxis	_	TokenRange=93:101
+13	reportagem	reportagem	NOUN	NOUN	_	12	obj	_	TokenRange=102:112
+14	sobre	_	ADP	ADP	_	15	case	_	TokenRange=113:118
+15	operacao	operacao	NOUN	NOUN	_	13	nmod	_	TokenRange=119:127
+16	lava	lava	NOUN	NOUN	_	15	flat	_	TokenRange=128:132
+17	jato	jato	NOUN	NOUN	_	15	flat	_	TokenRange=133:137
+18	jornal	jornal	NOUN	NOUN	_	15	appos	_	TokenRange=138:144
+19	the	_	DET	DET	_	20	det	_	TokenRange=145:148
+20	guardian	guardian	NOUN	NOUN	_	24	nsubj	_	TokenRange=149:157
+21	dom	dom	NOUN	NOUN	_	24	nsubj	_	TokenRange=158:161
+22	orani	_	NOUN	NOUN	_	21	flat	_	TokenRange=162:167
+23	tempesta	tempesta	NOUN	NOUN	_	21	flat	_	TokenRange=168:176
+24	diz	dizer	VERB	VERB	_	18	acl:relcl	_	TokenRange=177:180
+25	imagem	imagem	NOUN	NOUN	_	24	obj	_	TokenRange=181:187
+26	ofende	_	VERB	VERB	_	24	parataxis	_	TokenRange=188:194
+27	povo	povo	NOUN	NOUN	_	26	obj	_	TokenRange=195:199
+28	brasileiro	brasileiro	ADJ	ADJ	_	27	amod	_	TokenRange=200:210
+29	ilustracao	ilustracao	ADJ	ADJ	_	30	amod	_	TokenRange=211:221
+30	cristo	cristo	NOUN	NOUN	_	41	nsubj	_	TokenRange=222:228
+31	redentor	redentor	NOUN	NOUN	_	30	flat	_	TokenRange=229:237
+32	empunhando	empunhar	VERB	VERB	_	30	acl	_	TokenRange=238:248
+33	arma	arma	NOUN	NOUN	_	32	obj	_	TokenRange=249:253
+34	saco	saco	NOUN	NOUN	_	33	appos	_	TokenRange=254:258
+35	dinheiro	dinheiro	NOUN	NOUN	_	34	flat	_	TokenRange=259:267
+36	materia	materia	NOUN	NOUN	_	37	appos	_	TokenRange=268:275
+37	jornal	jornal	NOUN	NOUN	_	41	nsubj	_	TokenRange=276:282
+38	britanico	britanico	ADJ	ADJ	_	37	amod	_	TokenRange=283:292
+39	the	_	DET	DET	_	40	det	_	TokenRange=293:296
+40	guardian	guardian	NOUN	NOUN	_	37	appos	_	TokenRange=297:305
+41	provocou	provocar	VERB	VERB	_	3	parataxis	_	TokenRange=306:314
+42	reacoes	reacoe	NOUN	NOUN	_	41	obj	_	TokenRange=315:322
+43	arquidiocese	arquidiocese	ADJ	ADJ	_	42	amod	_	TokenRange=323:335
+44	rio	rio	ADJ	ADJ	_	40	appos	_	TokenRange=336:339
+45	charge	charge	NOUN	NOUN	_	44	flat	_	TokenRange=340:346
+46	apareceu	aparecer	VERB	VERB	_	3	parataxis	_	TokenRange=347:355
+47	versao	versao	NOUN	NOUN	_	46	obj	_	TokenRange=356:362
+48	imprensa	imprensa	ADJ	ADJ	_	47	amod	_	TokenRange=363:371
+49	desta	_	ADP	ADP	_	50	case	_	TokenRange=372:377
+50	quintafeira	quintafeira	NOUN	NOUN	_	47	nmod	_	TokenRange=378:389
+51	1	_	NUM	NUM	NumType=Card	50	appos	_	TokenRange=390:391
+52	reportagem	reportagem	NOUN	NOUN	_	55	obj	_	TokenRange=392:402
+53	tres	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=403:407
+54	paginas	pagina	NOUN	NOUN	_	55	nsubj	_	TokenRange=408:415
+55	recebeu	receber	VERB	VERB	_	46	parataxis	_	TokenRange=416:423
+56	titulo	titulo	NOUN	NOUN	_	55	obj	_	SpaceAfter=No|TokenRange=424:430
+

@@ -1,0 +1,16 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trapalhada dilma diz governo cumpriu fiscalizacoes barragem samarco
+1	trapalhada	trapalhada	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	dilma	dilma	NOUN	NOUN	_	1	flat	_	TokenRange=11:16
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=17:20
+4	governo	governo	NOUN	NOUN	_	5	nsubj	_	TokenRange=21:28
+5	cumpriu	cumprir	VERB	VERB	_	3	ccomp	_	TokenRange=29:36
+6	fiscalizacoes	fiscalizacoe	NOUN	NOUN	_	5	obj	_	TokenRange=37:50
+7	barragem	barragem	NOUN	NOUN	_	5	obj	_	TokenRange=51:59
+8	samarco	samarco	NOUN	NOUN	_	7	appos	_	SpaceAfter=No|TokenRange=60:67
+

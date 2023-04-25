@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula queria candidato 2014 dilma aceitou diz monica moura marqueteira contou pgr expresidente indispos afilhada politica decidiu disputar reeleicao delatora afirmou mantega responsavel arrecadacao extraoficial responsaveis marketing ultima campanha presidencial pt publicitaria monica moura contou procuradoria geral republica pgr expresidente luiz inacio lula silva estremecimento entao presidente dilma rousseff 2014 porque queria candidato palacio planalto
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	queria	querer	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	candidato	candidato	NOUN	NOUN	_	2	obj	_	TokenRange=12:21
+4	2014	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=22:26
+5	dilma	dilma	NOUN	NOUN	_	6	nsubj	_	TokenRange=27:32
+6	aceitou	aceitar	VERB	VERB	_	2	conj	_	TokenRange=33:40
+7	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=41:44
+8	monica	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=45:51
+9	moura	mouro	NOUN	NOUN	_	8	flat	_	TokenRange=52:57
+10	marqueteira	marqueteiro	NOUN	NOUN	_	8	flat	_	TokenRange=58:69
+11	contou	contar	VERB	VERB	_	2	conj	_	TokenRange=70:76
+12	pgr	_	NOUN	NOUN	_	11	obj	_	TokenRange=77:80
+13	expresidente	expresidente	NOUN	NOUN	_	11	nsubj	_	TokenRange=81:93
+14	indispos	indispo	ADJ	ADJ	_	15	amod	_	TokenRange=94:102
+15	afilhada	afilhado	NOUN	NOUN	_	17	nsubj	_	TokenRange=103:111
+16	politica	_	NOUN	NOUN	_	15	amod	_	TokenRange=112:120
+17	decidiu	decidir	VERB	VERB	_	11	parataxis	_	TokenRange=121:128
+18	disputar	disputar	VERB	VERB	_	17	xcomp	_	TokenRange=129:137
+19	reeleicao	reeleicao	NOUN	NOUN	_	18	obj	_	TokenRange=138:147
+20	delatora	delator	NOUN	NOUN	_	19	amod	_	TokenRange=148:156
+21	afirmou	afirmar	VERB	VERB	_	18	parataxis	_	TokenRange=157:164
+22	mantega	mantega	NOUN	NOUN	_	21	obj	_	TokenRange=165:172
+23	responsavel	responsavel	ADJ	ADJ	_	22	amod	_	TokenRange=173:184
+24	arrecadacao	arrecadacao	NOUN	NOUN	_	22	appos	_	TokenRange=185:196
+25	extraoficial	extraoficial	ADJ	ADJ	_	24	amod	_	TokenRange=197:209
+26	responsaveis	responsavel	NOUN	NOUN	_	22	appos	_	TokenRange=210:222
+27	marketing	marketing	NOUN	NOUN	_	29	amod	_	TokenRange=223:232
+28	ultima	_	ADJ	ADJ	_	29	amod	_	TokenRange=233:239
+29	campanha	campanha	NOUN	NOUN	_	26	appos	_	TokenRange=240:248
+30	presidencial	presidencial	ADJ	ADJ	_	29	amod	_	TokenRange=249:261
+31	pt	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=262:264
+32	publicitaria	publicitaria	NOUN	NOUN	_	35	nsubj	_	TokenRange=265:277
+33	monica	_	NOUN	NOUN	_	32	appos	_	TokenRange=278:284
+34	moura	mouro	NOUN	NOUN	_	33	flat	_	TokenRange=285:290
+35	contou	contar	VERB	VERB	_	2	conj	_	TokenRange=291:297
+36	procuradoria	procuradoria	NOUN	NOUN	_	35	obj	_	TokenRange=298:310
+37	geral	geral	ADJ	ADJ	_	36	amod	_	TokenRange=311:316
+38	republica	republico	ADJ	ADJ	_	36	amod	_	TokenRange=317:326
+39	pgr	_	ADJ	ADJ	_	40	amod	_	TokenRange=327:330
+40	expresidente	expresidente	NOUN	NOUN	_	36	appos	_	TokenRange=331:343
+41	luiz	luiz	ADJ	ADJ	_	40	amod	_	TokenRange=344:348
+42	inacio	_	NOUN	NOUN	_	40	appos	_	TokenRange=349:355
+43	lula	_	NOUN	NOUN	_	42	flat	_	TokenRange=356:360
+44	silva	silva	NOUN	NOUN	_	42	flat	_	TokenRange=361:366
+45	estremecimento	estremecimento	NOUN	NOUN	_	35	obj	_	TokenRange=367:381
+46	entao	entao	ADV	ADV	_	47	advmod	_	TokenRange=382:387
+47	presidente	presidente	NOUN	NOUN	_	45	appos	_	TokenRange=388:398
+48	dilma	_	NOUN	NOUN	_	47	appos	_	TokenRange=399:404
+49	rousseff	rousseff	NOUN	NOUN	_	48	flat	_	TokenRange=405:413
+50	2014	_	NUM	NUM	NumType=Card	48	nmod	_	TokenRange=414:418
+51	porque	_	CCONJ	CONJ	_	52	mark	_	TokenRange=419:425
+52	queria	querer	VERB	VERB	_	35	advcl	_	TokenRange=426:432
+53	candidato	candidato	NOUN	NOUN	_	52	obj	_	TokenRange=433:442
+54	palacio	palacio	NOUN	NOUN	_	52	obj	_	TokenRange=443:450
+55	planalto	planalto	ADJ	ADJ	_	54	amod	_	SpaceAfter=No|TokenRange=451:459
+

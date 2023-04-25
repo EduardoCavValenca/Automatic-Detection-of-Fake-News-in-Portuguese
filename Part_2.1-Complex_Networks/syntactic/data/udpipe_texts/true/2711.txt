@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo afasta diretores conselheiros postalis fundo pensao correios intervencao prazo 180 dias periodo investigadas suspeitas irregularidades postalis decisao torna indisponiveis bens atuais exdiretores conselheiros superintendencia nacional previdencia complementar previc decretou intervencao instituto seguridade social correios telegrafos postalis fundo pensao funcionarios correios prazo 180 dias postalis 4 maior fundo pensao pais numero participantes ativos beneficiarios segundo associacao setor veja ranking abaixo intervencao ocorre apos prejuizos
+1	governo	governo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	afasta	afastar	VERB	VERB	_	0	root	_	TokenRange=8:14
+3	diretores	diretor	NOUN	NOUN	_	2	obj	_	TokenRange=15:24
+4	conselheiros	conselheiro	NOUN	NOUN	_	3	appos	_	TokenRange=25:37
+5	postalis	_	ADJ	ADJ	_	4	amod	_	TokenRange=38:46
+6	fundo	fundo	NOUN	NOUN	_	3	appos	_	TokenRange=47:52
+7	pensao	pensao	ADJ	ADJ	_	4	amod	_	TokenRange=53:59
+8	correios	correio	NOUN	NOUN	_	4	appos	_	TokenRange=60:68
+9	intervencao	intervencao	ADJ	ADJ	_	4	amod	_	TokenRange=69:80
+10	prazo	prazo	NOUN	NOUN	_	4	appos	_	TokenRange=81:86
+11	180	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=87:90
+12	dias	dia	NOUN	NOUN	_	10	appos	_	TokenRange=91:95
+13	periodo	periodo	NOUN	NOUN	_	10	appos	_	TokenRange=96:103
+14	investigadas	investigado	ADJ	ADJ	_	13	amod	_	TokenRange=104:116
+15	suspeitas	suspeito	ADJ	ADJ	_	16	amod	_	TokenRange=117:126
+16	irregularidades	irregularidade	NOUN	NOUN	_	13	appos	_	TokenRange=127:142
+17	postalis	_	ADJ	ADJ	_	16	amod	_	TokenRange=143:151
+18	decisao	decisao	NOUN	NOUN	_	19	nsubj	_	TokenRange=152:159
+19	torna	tornar	VERB	VERB	_	2	parataxis	_	TokenRange=160:165
+20	indisponiveis	indisponivel	ADJ	ADJ	_	21	amod	_	TokenRange=166:179
+21	bens	bem	NOUN	NOUN	_	19	obj	_	TokenRange=180:184
+22	atuais	atual	ADJ	ADJ	_	21	amod	_	TokenRange=185:191
+23	exdiretores	exdiretor	ADJ	ADJ	_	21	amod	_	TokenRange=192:203
+24	conselheiros	conselheiro	NOUN	NOUN	_	21	amod	_	TokenRange=204:216
+25	superintendencia	_	NOUN	NOUN	_	21	appos	_	TokenRange=217:233
+26	nacional	nacional	ADJ	ADJ	_	27	amod	_	TokenRange=234:242
+27	previdencia	previdencia	NOUN	NOUN	_	21	appos	_	TokenRange=243:254
+28	complementar	complementar	ADJ	ADJ	_	27	amod	_	TokenRange=255:267
+29	previc	_	ADJ	NOUN	_	27	amod	_	TokenRange=268:274
+30	decretou	decretar	VERB	VERB	_	21	acl:relcl	_	TokenRange=275:283
+31	intervencao	intervencao	NOUN	NOUN	_	30	obj	_	TokenRange=284:295
+32	instituto	instituto	ADJ	NOUN	_	31	amod	_	TokenRange=296:305
+33	seguridade	seguridade	NOUN	NOUN	_	31	appos	_	TokenRange=306:316
+34	social	social	ADJ	ADJ	_	33	amod	_	TokenRange=317:323
+35	correios	correio	NOUN	NOUN	_	36	appos	_	TokenRange=324:332
+36	telegrafos	telegrafo	NOUN	NOUN	_	31	appos	_	TokenRange=333:343
+37	postalis	_	ADJ	ADJ	_	36	amod	_	TokenRange=344:352
+38	fundo	fundo	NOUN	NOUN	_	36	amod	_	TokenRange=353:358
+39	pensao	pensao	ADJ	ADJ	_	36	amod	_	TokenRange=359:365
+40	funcionarios	funcionario	NOUN	NOUN	_	36	appos	_	TokenRange=366:378
+41	correios	correio	ADJ	ADJ	_	36	amod	_	TokenRange=379:387
+42	prazo	prazo	NOUN	NOUN	_	36	amod	_	TokenRange=388:393
+43	180	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=394:397
+44	dias	dia	NOUN	NOUN	_	42	nmod	_	TokenRange=398:402
+45	postalis	_	ADJ	ADJ	_	48	amod	_	TokenRange=403:411
+46	4	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=412:413
+47	maior	maior	ADJ	ADJ	_	48	amod	_	TokenRange=414:419
+48	fundo	fundo	NOUN	NOUN	_	36	appos	_	TokenRange=420:425
+49	pensao	pensao	ADJ	ADJ	_	48	amod	_	TokenRange=426:432
+50	pais	_	NOUN	NOUN	_	48	amod	_	TokenRange=433:437
+51	numero	_	ADJ	NOUN	_	48	amod	_	TokenRange=438:444
+52	participantes	participante	NOUN	NOUN	_	48	appos	_	TokenRange=445:458
+53	ativos	ativo	ADJ	ADJ	_	52	amod	_	TokenRange=459:465
+54	beneficiarios	beneficiario	ADJ	ADJ	_	52	amod	_	TokenRange=466:479
+55	segundo	_	ADP	ADP	_	56	case	_	TokenRange=480:487
+56	associacao	associacao	NOUN	NOUN	_	58	nmod	_	TokenRange=488:498
+57	setor	setor	NOUN	NOUN	_	56	flat	_	TokenRange=499:504
+58	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=505:509
+59	ranking	ranking	NOUN	NOUN	_	58	obj	_	TokenRange=510:517
+60	abaixo	abaixo	ADV	ADV	_	62	advmod	_	TokenRange=518:524
+61	intervencao	intervencao	NOUN	NOUN	_	62	nsubj	_	TokenRange=525:536
+62	ocorre	ocorrer	VERB	VERB	_	58	ccomp	_	TokenRange=537:543
+63	apos	_	ADP	ADP	_	64	case	_	TokenRange=544:548
+64	prejuizos	prejuízo	NOUN	NOUN	_	62	nmod	_	SpaceAfter=No|TokenRange=549:558
+

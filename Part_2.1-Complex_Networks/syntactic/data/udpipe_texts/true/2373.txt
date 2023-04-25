@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 20 novembro bom dia aqui principais noticias comecar dia beminformado reforma outra busca votos aprovar texto muda regras previdencia presidente michel temer acelera troca ministros governo segundo blog andreia sadi deputado alexandre baldy convidado aceitou assumir ministerio cidades presidente camara rodrigo maia participou encontro temer baldy alem disso dia feriado algumas cidades pais
+1	segundafeira	_	NOUN	NOUN	_	24	parataxis	_	TokenRange=0:12
+2	20	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=13:15
+3	novembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=16:24
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=25:28
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=29:32
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=33:37
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=38:48
+8	noticias	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=49:57
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=58:65
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=66:69
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=70:82
+12	reforma	reforma	NOUN	NOUN	_	9	obj	_	TokenRange=83:90
+13	outra	_	DET	DET	_	14	det	_	TokenRange=91:96
+14	busca	busca	NOUN	NOUN	_	16	nsubj	_	TokenRange=97:102
+15	votos	voto	NOUN	NOUN	_	14	flat	_	TokenRange=103:108
+16	aprovar	aprovar	VERB	VERB	_	12	acl:relcl	_	TokenRange=109:116
+17	texto	texto	NOUN	NOUN	_	16	obj	_	TokenRange=117:122
+18	muda	mudar	VERB	VERB	_	16	parataxis	_	TokenRange=123:127
+19	regras	regra	NOUN	NOUN	_	18	obj	_	TokenRange=128:134
+20	previdencia	_	ADJ	NOUN	_	19	amod	_	TokenRange=135:146
+21	presidente	presidente	NOUN	NOUN	_	24	nsubj	_	TokenRange=147:157
+22	michel	michel	ADJ	ADJ	_	23	amod	_	TokenRange=158:164
+23	temer	temer	NOUN	NOUN	_	21	appos	_	TokenRange=165:170
+24	acelera	acelerar	VERB	VERB	_	0	root	_	TokenRange=171:178
+25	troca	_	NOUN	NOUN	_	24	obj	_	TokenRange=179:184
+26	ministros	ministro	NOUN	NOUN	_	25	flat	_	TokenRange=185:194
+27	governo	governo	NOUN	NOUN	_	25	flat	_	TokenRange=195:202
+28	segundo	_	ADP	ADP	_	29	case	_	TokenRange=203:210
+29	blog	blog	NOUN	NOUN	_	24	nmod	_	TokenRange=211:215
+30	andreia	andreia	NOUN	NOUN	_	29	appos	_	TokenRange=216:223
+31	sadi	_	NOUN	NOUN	_	32	flat	_	TokenRange=224:228
+32	deputado	deputado	NOUN	NOUN	_	30	appos	_	TokenRange=229:237
+33	alexandre	alexandre	NOUN	NOUN	_	32	appos	_	TokenRange=238:247
+34	baldy	_	NOUN	NOUN	_	33	flat	_	TokenRange=248:253
+35	convidado	convidado	ADJ	ADJ	_	32	amod	_	TokenRange=254:263
+36	aceitou	aceitar	VERB	VERB	_	24	parataxis	_	TokenRange=264:271
+37	assumir	assumir	VERB	VERB	_	36	xcomp	_	TokenRange=272:279
+38	ministerio	ministerio	NOUN	NOUN	_	37	obj	_	TokenRange=280:290
+39	cidades	cidade	NOUN	NOUN	_	38	appos	_	TokenRange=291:298
+40	presidente	presidente	NOUN	NOUN	_	38	appos	_	TokenRange=299:309
+41	camara	camara	ADJ	ADJ	_	40	amod	_	TokenRange=310:316
+42	rodrigo	_	PROPN	PNOUN	_	40	appos	_	TokenRange=317:324
+43	maia	maia	NOUN	NOUN	_	42	flat	_	TokenRange=325:329
+44	participou	participar	VERB	VERB	_	24	parataxis	_	TokenRange=330:340
+45	encontro	encontro	NOUN	NOUN	_	44	obj	_	TokenRange=341:349
+46	temer	temer	NOUN	NOUN	_	45	appos	_	TokenRange=350:355
+47	baldy	_	NOUN	NOUN	_	45	flat	_	TokenRange=356:361
+48	alem	alem	ADV	ADV	_	44	advmod	_	TokenRange=362:366
+49	disso	_	X	ADPPRON	_	48	fixed	_	TokenRange=367:372
+50	dia	dia	NOUN	NOUN	_	48	nmod	_	TokenRange=373:376
+51	feriado	feriado	ADJ	ADJ	_	50	amod	_	TokenRange=377:384
+52	algumas	_	DET	DET	_	53	det	_	TokenRange=385:392
+53	cidades	cidade	NOUN	NOUN	_	44	nsubj	_	TokenRange=393:400
+54	pais	_	NOUN	NOUN	_	53	det:poss	_	SpaceAfter=No|TokenRange=401:405
+

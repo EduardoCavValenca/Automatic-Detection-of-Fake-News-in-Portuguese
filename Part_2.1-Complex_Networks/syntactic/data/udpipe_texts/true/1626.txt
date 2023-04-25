@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = agenda cultural veja opcoes divertir durante fim semana salvador opcoes shows teatro exposicoes outras programacoes confira g1 listou opcoes lazer cultura fim semana salvador musica teatro exposicoes outras programacoes diversas desta sextafeira 27 domingo 29 festival sai rede acontece sabado 28 17h concha acustica teatro castro alves atracoes tres revelacoes musica brasileira ultimos anos
+1	agenda	agenda	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	cultural	cultural	ADJ	ADJ	_	1	amod	_	TokenRange=7:15
+3	veja	ver	VERB	VERB	_	0	root	_	TokenRange=16:20
+4	opcoes	opcoe	NOUN	NOUN	_	3	obj	_	TokenRange=21:27
+5	divertir	divertir	VERB	VERB	_	4	acl:inf	_	TokenRange=28:36
+6	durante	_	ADP	ADP	_	8	case	_	TokenRange=37:44
+7	fim	fim	NOUN	NOUN	_	5	nmod	_	TokenRange=45:48
+8	semana	semana	NOUN	NOUN	_	7	nmod	_	TokenRange=49:55
+9	salvador	_	ADJ	NOUN	_	10	appos	_	TokenRange=56:64
+10	opcoes	_	NOUN	NOUN	_	5	obj	_	TokenRange=65:71
+11	shows	show	NOUN	NOUN	_	10	flat	_	TokenRange=72:77
+12	teatro	teatro	NOUN	NOUN	_	10	flat	_	TokenRange=78:84
+13	exposicoes	_	NOUN	NOUN	_	10	amod	_	TokenRange=85:95
+14	outras	_	DET	DET	_	15	det	_	TokenRange=96:102
+15	programacoes	programacoe	NOUN	NOUN	_	5	obj	_	TokenRange=103:115
+16	confira	conferir	NOUN	NOUN	_	15	appos	_	TokenRange=116:123
+17	g1	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=124:126
+18	listou	listar	VERB	VERB	_	16	parataxis	_	TokenRange=127:133
+19	opcoes	opcoe	NOUN	NOUN	_	18	obj	_	TokenRange=134:140
+20	lazer	lazer	NOUN	NOUN	_	19	appos	_	TokenRange=141:146
+21	cultura	cultura	NOUN	NOUN	_	20	flat	_	TokenRange=147:154
+22	fim	fim	NOUN	NOUN	_	23	amod	_	TokenRange=155:158
+23	semana	semana	NOUN	NOUN	_	20	nmod	_	TokenRange=159:165
+24	salvador	salvador	ADJ	ADJ	_	25	amod	_	TokenRange=166:174
+25	musica	_	NOUN	NOUN	_	20	appos	_	TokenRange=175:181
+26	teatro	teatro	NOUN	NOUN	_	25	flat	_	TokenRange=182:188
+27	exposicoes	_	ADJ	ADJ	_	25	amod	_	TokenRange=189:199
+28	outras	_	DET	DET	_	29	det	_	TokenRange=200:206
+29	programacoes	programacoe	NOUN	NOUN	_	25	appos	_	TokenRange=207:219
+30	diversas	diverso	ADJ	ADJ	_	29	amod	_	TokenRange=220:228
+31	desta	_	ADP	ADP	_	32	case	_	TokenRange=229:234
+32	sextafeira	sextafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=235:245
+33	27	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=246:248
+34	domingo	_	PROPN	PNOUN	_	32	nmod	_	TokenRange=249:256
+35	29	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=257:259
+36	festival	festival	NOUN	NOUN	_	39	nsubj	_	TokenRange=260:268
+37	sai	_	NOUN	VERB	_	36	appos	_	TokenRange=269:272
+38	rede	rede	NOUN	NOUN	_	36	appos	_	TokenRange=273:277
+39	acontece	acontecer	VERB	VERB	_	3	parataxis	_	TokenRange=278:286
+40	sabado	_	PROPN	PNOUN	_	39	nmod	_	TokenRange=287:293
+41	28	_	NUM	NUM	NumType=Card	40	appos	_	TokenRange=294:296
+42	17h	_	NUM	NUM	NumType=Card	40	nmod	_	TokenRange=297:300
+43	concha	concha	NOUN	NOUN	_	39	nmod	_	TokenRange=301:307
+44	acustica	acustico	ADJ	ADJ	_	43	amod	_	TokenRange=308:316
+45	teatro	teatro	NOUN	NOUN	_	39	nmod	_	TokenRange=317:323
+46	castro	castro	NOUN	NOUN	_	45	appos	_	TokenRange=324:330
+47	alves	alves	ADJ	ADJ	_	46	amod	_	TokenRange=331:336
+48	atracoes	_	NOUN	NOUN	_	39	obj	_	TokenRange=337:345
+49	tres	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=346:350
+50	revelacoes	revelacoe	NOUN	NOUN	_	54	amod	_	TokenRange=351:361
+51	musica	_	NOUN	NOUN	_	48	appos	_	TokenRange=362:368
+52	brasileira	brasileiro	ADJ	ADJ	_	54	amod	_	TokenRange=369:379
+53	ultimos	_	ADJ	ADJ	_	54	amod	_	TokenRange=380:387
+54	anos	ano	NOUN	NOUN	_	48	appos	_	SpaceAfter=No|TokenRange=388:392
+

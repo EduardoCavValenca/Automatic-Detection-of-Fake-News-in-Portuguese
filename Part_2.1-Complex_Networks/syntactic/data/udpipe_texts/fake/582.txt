@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rene dotti 84 anos advogado mito humilhou defesa lula advogado professor direito jurista rene dotti deu aula bons modos advogados lula dotti assessor acusacao representante petrobras pediu palavra durante depoimento lula fez dr cristiano zanin dancar creu velocidade numero 5 repare cara paisagem expresidente
+1	rene	rene	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:4
+2	dotti	_	VERB	VERB	_	1	flat	_	TokenRange=5:10
+3	84	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=11:13
+4	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=14:18
+5	advogado	advogado	NOUN	NOUN	_	1	appos	_	TokenRange=19:27
+6	mito	mito	NOUN	NOUN	_	5	amod	_	TokenRange=28:32
+7	humilhou	humilhar	VERB	VERB	_	0	root	_	TokenRange=33:41
+8	defesa	_	NOUN	NOUN	_	7	obj	_	TokenRange=42:48
+9	lula	_	ADJ	ADJ	_	10	amod	_	TokenRange=49:53
+10	advogado	advogado	NOUN	NOUN	_	7	obj	_	TokenRange=54:62
+11	professor	professor	NOUN	NOUN	_	10	amod	_	TokenRange=63:72
+12	direito	direito	NOUN	NOUN	_	10	amod	_	TokenRange=73:80
+13	jurista	jurista	ADJ	ADJ	_	10	amod	_	TokenRange=81:88
+14	rene	rene	NOUN	NOUN	_	16	nsubj	_	TokenRange=89:93
+15	dotti	_	PROPN	PNOUN	_	14	flat	_	TokenRange=94:99
+16	deu	dar	VERB	VERB	_	7	parataxis	_	TokenRange=100:103
+17	aula	aula	NOUN	NOUN	_	16	obj	_	TokenRange=104:108
+18	bons	bom	ADJ	ADJ	_	19	amod	_	TokenRange=109:113
+19	modos	modo	NOUN	NOUN	_	16	obj	_	TokenRange=114:119
+20	advogados	advogado	NOUN	NOUN	_	19	amod	_	TokenRange=120:129
+21	lula	lula	NOUN	NOUN	_	16	nsubj	_	TokenRange=130:134
+22	dotti	_	ADP	NOUN	_	23	appos	_	TokenRange=135:140
+23	assessor	assessor	NOUN	NOUN	_	21	appos	_	TokenRange=141:149
+24	acusacao	acusacao	ADJ	ADJ	_	23	amod	_	TokenRange=150:158
+25	representante	representante	ADJ	ADJ	_	23	amod	_	TokenRange=159:172
+26	petrobras	petrobra	NOUN	NOUN	_	23	amod	_	TokenRange=173:182
+27	pediu	pedir	VERB	VERB	_	16	parataxis	_	TokenRange=183:188
+28	palavra	palavra	NOUN	NOUN	_	27	obj	_	TokenRange=189:196
+29	durante	_	ADP	ADP	_	30	case	_	TokenRange=197:204
+30	depoimento	depoimento	NOUN	NOUN	_	27	nmod	_	TokenRange=205:215
+31	lula	lula	ADJ	ADJ	_	32	nsubj	_	TokenRange=216:220
+32	fez	fazer	VERB	VERB	_	27	parataxis	_	TokenRange=221:224
+33	dr	dr	NOUN	NOUN	_	32	obj	_	TokenRange=225:227
+34	cristiano	cristiano	NOUN	NOUN	_	33	flat	_	TokenRange=228:237
+35	zanin	_	NOUN	NOUN	_	33	flat	_	TokenRange=238:243
+36	dancar	dancar	VERB	VERB	_	33	acl:inf	_	TokenRange=244:250
+37	creu	creu	ADJ	ADJ	_	38	amod	_	TokenRange=251:255
+38	velocidade	velocidade	NOUN	NOUN	_	36	obj	_	TokenRange=256:266
+39	numero	numero	NOUN	NOUN	_	38	appos	_	TokenRange=267:273
+40	5	_	NUM	NUM	NumType=Card	39	appos	_	TokenRange=274:275
+41	repare	reparar	VERB	VERB	_	32	parataxis	_	TokenRange=276:282
+42	cara	cara	NOUN	NOUN	_	41	obj	_	TokenRange=283:287
+43	paisagem	paisagem	NOUN	NOUN	_	41	obj	_	TokenRange=288:296
+44	expresidente	expresidente	NOUN	NOUN	_	41	obj	_	SpaceAfter=No|TokenRange=297:309
+

@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = blogueira sumiu blogueira dilma rousseff fez nenhum comentario sobre prisoes conducao coercitiva exministros paulo bernardo carlos gabas ultima vez blogueira presidenta postou algo rede social festejava denuncias lava jato contra ministros governo michel temer dilma acredita piamente justica desde prejudique partidos oposicao justica contra pt atendado democracia
+1	blogueira	blogueira	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	sumiu	sumir	VERB	VERB	_	0	root	_	TokenRange=10:15
+3	blogueira	_	NOUN	NOUN	_	2	obj	_	TokenRange=16:25
+4	dilma	dilma	NOUN	NOUN	_	3	amod	_	TokenRange=26:31
+5	rousseff	rousseff	NOUN	NOUN	_	4	flat	_	TokenRange=32:40
+6	fez	fazer	VERB	VERB	_	2	ccomp	_	TokenRange=41:44
+7	nenhum	_	DET	DET	_	8	det	_	TokenRange=45:51
+8	comentario	comentario	NOUN	NOUN	_	6	obj	_	TokenRange=52:62
+9	sobre	_	ADP	ADP	_	10	case	_	TokenRange=63:68
+10	prisoes	_	NOUN	NOUN	_	8	nmod	_	TokenRange=69:76
+11	conducao	conducao	ADJ	NOUN	_	10	amod	_	TokenRange=77:85
+12	coercitiva	coercitivo	ADJ	ADJ	_	10	amod	_	TokenRange=86:96
+13	exministros	exministro	NOUN	NOUN	_	10	appos	_	TokenRange=97:108
+14	paulo	paulo	NOUN	NOUN	_	13	appos	_	TokenRange=109:114
+15	bernardo	bernardo	NOUN	NOUN	_	14	flat	_	TokenRange=115:123
+16	carlos	_	NOUN	NOUN	_	14	flat	_	TokenRange=124:130
+17	gabas	gaba	NOUN	NOUN	_	14	flat	_	TokenRange=131:136
+18	ultima	_	ADJ	ADJ	_	19	amod	_	TokenRange=137:143
+19	vez	vez	NOUN	NOUN	_	22	nmod	_	TokenRange=144:147
+20	blogueira	_	ADJ	NOUN	_	19	amod	_	TokenRange=148:157
+21	presidenta	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=158:168
+22	postou	postar	VERB	VERB	_	2	parataxis	_	TokenRange=169:175
+23	algo	_	PRON	PRON	_	22	obj	_	TokenRange=176:180
+24	rede	rede	NOUN	NOUN	_	22	nsubj	_	TokenRange=181:185
+25	social	social	ADJ	ADJ	_	24	amod	_	TokenRange=186:192
+26	festejava	festejar	VERB	VERB	_	22	parataxis	_	TokenRange=193:202
+27	denuncias	_	NOUN	NOUN	_	26	obj	_	TokenRange=203:212
+28	lava	lavar	VERB	VERB	_	26	parataxis	_	TokenRange=213:217
+29	jato	jato	NOUN	NOUN	_	28	obj	_	TokenRange=218:222
+30	contra	_	ADP	ADP	_	31	case	_	TokenRange=223:229
+31	ministros	ministro	NOUN	NOUN	_	28	nmod	_	TokenRange=230:239
+32	governo	governo	NOUN	NOUN	_	31	appos	_	TokenRange=240:247
+33	michel	michel	ADJ	ADJ	_	34	amod	_	TokenRange=248:254
+34	temer	temer	NOUN	NOUN	_	32	flat	_	TokenRange=255:260
+35	dilma	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=261:266
+36	acredita	acreditar	VERB	VERB	_	22	parataxis	_	TokenRange=267:275
+37	piamente	piamente	ADV	ADV	_	36	advmod	_	TokenRange=276:284
+38	justica	_	NOUN	NOUN	_	36	obj	_	TokenRange=285:292
+39	desde	_	ADP	ADP	_	40	case	_	TokenRange=293:298
+40	prejudique	prejudique	NOUN	NOUN	_	38	nmod	_	TokenRange=299:309
+41	partidos	partido	NOUN	NOUN	_	38	nsubj	_	TokenRange=310:318
+42	oposicao	oposicao	ADJ	ADJ	_	41	amod	_	TokenRange=319:327
+43	justica	_	NOUN	NOUN	_	41	appos	_	TokenRange=328:335
+44	contra	_	ADP	ADP	_	45	case	_	TokenRange=336:342
+45	pt	pt	NOUN	NOUN	_	43	nmod	_	TokenRange=343:345
+46	atendado	atendar	VERB	VERB	_	36	acl	_	TokenRange=346:354
+47	democracia	democracia	NOUN	NOUN	_	46	obj	_	SpaceAfter=No|TokenRange=355:365
+

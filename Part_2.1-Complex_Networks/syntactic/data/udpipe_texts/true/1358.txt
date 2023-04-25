@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 5 seconds of summer iria bem dia rock diz vocalista vai abrir lady gaga rock in rio quarteto australiano foge rotulo boy band define pop punk luke hemmings diz g1 banda iria bem qualquer dia espera loucura lado gaga pet shop boys 5 seconds of summer veio australia estourou
+1	5	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:1
+2	seconds	second	NOUN	NOUN	_	5	nsubj	_	TokenRange=2:9
+3	of	_	ADP	ADP	_	4	case	_	TokenRange=10:12
+4	summer	summer	NOUN	NOUN	_	2	nmod	_	TokenRange=13:19
+5	iria	_	VERB	VERB	_	0	root	_	TokenRange=20:24
+6	bem	bem	ADV	ADV	_	7	advmod	_	TokenRange=25:28
+7	dia	dia	NOUN	NOUN	_	5	obj	_	TokenRange=29:32
+8	rock	rock	NOUN	NOUN	_	9	nsubj	_	TokenRange=33:37
+9	diz	dizer	VERB	VERB	_	5	conj	_	TokenRange=38:41
+10	vocalista	vocalista	NOUN	NOUN	_	12	obj	_	TokenRange=42:51
+11	vai	ir	AUX	AUX	_	12	aux	_	TokenRange=52:55
+12	abrir	abrir	VERB	VERB	_	9	ccomp	_	TokenRange=56:61
+13	lady	_	NOUN	NOUN	_	12	nmod	_	TokenRange=62:66
+14	gaga	gaga	NOUN	NOUN	_	12	obj	_	TokenRange=67:71
+15	rock	rock	NOUN	NOUN	_	12	obj	_	TokenRange=72:76
+16	in	_	ADP	ADP	_	17	case	_	TokenRange=77:79
+17	rio	_	NOUN	NOUN	_	15	nmod	_	TokenRange=80:83
+18	quarteto	quarteto	NOUN	NOUN	_	12	obj	_	TokenRange=84:92
+19	australiano	australiano	ADJ	ADJ	_	18	amod	_	TokenRange=93:104
+20	foge	_	NOUN	NOUN	_	21	appos	_	TokenRange=105:109
+21	rotulo	rotulo	NOUN	NOUN	_	18	appos	_	TokenRange=110:116
+22	boy	_	NOUN	NOUN	_	23	amod	_	TokenRange=117:120
+23	band	_	NOUN	NOUN	_	21	appos	_	TokenRange=121:125
+24	define	definir	NOUN	NOUN	_	23	appos	_	TokenRange=126:132
+25	pop	_	NOUN	NOUN	_	26	amod	_	TokenRange=133:136
+26	punk	punk	NOUN	NOUN	_	24	flat	_	TokenRange=137:141
+27	luke	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=142:146
+28	hemmings	_	NOUN	NOUN	_	27	flat	_	TokenRange=147:155
+29	diz	dizer	VERB	VERB	_	24	acl:relcl	_	TokenRange=156:159
+30	g1	_	DET	DET	_	31	det	_	TokenRange=160:162
+31	banda	banda	NOUN	NOUN	_	36	nsubj	_	TokenRange=163:168
+32	iria	_	AUX	AUX	_	36	cop	_	TokenRange=169:173
+33	bem	bem	ADV	ADV	_	36	advmod	_	TokenRange=174:177
+34	qualquer	_	DET	DET	_	35	det	_	TokenRange=178:186
+35	dia	dia	NOUN	NOUN	_	36	nmod	_	TokenRange=187:190
+36	espera	esperar	VERB	VERB	_	29	parataxis	_	TokenRange=191:197
+37	loucura	loucura	ADJ	ADJ	_	36	amod	_	TokenRange=198:205
+38	lado	lado	NOUN	NOUN	_	36	nmod	_	TokenRange=206:210
+39	gaga	gaga	NOUN	NOUN	_	38	flat	_	TokenRange=211:215
+40	pet	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=216:219
+41	shop	_	NOUN	NOUN	_	40	flat	_	TokenRange=220:224
+42	boys	_	NOUN	NOUN	_	40	flat	_	TokenRange=225:229
+43	5	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=230:231
+44	seconds	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=232:239
+45	of	_	ADP	ADP	_	46	case	_	TokenRange=240:242
+46	summer	summer	NOUN	NOUN	_	44	nmod	_	TokenRange=243:249
+47	veio	_	VERB	VERB	_	36	parataxis	_	TokenRange=250:254
+48	australia	_	NOUN	NOUN	_	49	obj	_	TokenRange=255:264
+49	estourou	estourar	VERB	VERB	_	5	parataxis	_	SpaceAfter=No|TokenRange=265:273
+

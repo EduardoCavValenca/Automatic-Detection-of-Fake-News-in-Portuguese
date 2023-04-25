@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = paulo henrique amorim aecio neves gangster filhinho papai provavel marcola fernandinho beiramar linguagem elevada aecio dessa vez tirar chapeu pha pha petista carteirinha possui diversos processos lombo soltou verbo contra senador aecio neves
+1	paulo	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=0:5
+2	henrique	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:14
+3	amorim	amorim	NOUN	NOUN	_	1	flat	_	TokenRange=15:21
+4	aecio	_	NOUN	NOUN	_	1	appos	_	TokenRange=22:27
+5	neves	_	NOUN	NOUN	_	4	flat	_	TokenRange=28:33
+6	gangster	gangster	NOUN	NOUN	_	4	appos	_	TokenRange=34:42
+7	filhinho	_	NOUN	NOUN	_	4	appos	_	TokenRange=43:51
+8	papai	papai	NOUN	NOUN	_	4	flat	_	TokenRange=52:57
+9	provavel	provavel	ADJ	ADJ	_	10	amod	_	TokenRange=58:66
+10	marcola	marcola	NOUN	NOUN	_	8	appos	_	TokenRange=67:74
+11	fernandinho	_	NOUN	NOUN	_	10	flat	_	TokenRange=75:86
+12	beiramar	beiramar	VERB	VERB	_	10	acl:relcl	_	TokenRange=87:95
+13	linguagem	linguagem	NOUN	NOUN	_	12	obj	_	TokenRange=96:105
+14	elevada	elevado	ADJ	ADJ	_	13	amod	_	TokenRange=106:113
+15	aecio	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=114:119
+16	dessa	_	ADP	ADP	_	17	case	_	TokenRange=120:125
+17	vez	vez	NOUN	NOUN	_	18	nmod	_	TokenRange=126:129
+18	tirar	tirar	VERB	VERB	_	24	parataxis	_	TokenRange=130:135
+19	chapeu	chapeu	NOUN	NOUN	_	18	obj	_	TokenRange=136:142
+20	pha	_	NOUN	NOUN	_	19	appos	_	TokenRange=143:146
+21	pha	_	NOUN	NOUN	_	20	flat	_	TokenRange=147:150
+22	petista	petista	NOUN	NOUN	_	20	flat	_	TokenRange=151:158
+23	carteirinha	_	NOUN	NOUN	_	20	flat	_	TokenRange=159:170
+24	possui	possuir	VERB	VERB	_	0	root	_	TokenRange=171:177
+25	diversos	_	DET	DET	_	26	det	_	TokenRange=178:186
+26	processos	processo	NOUN	NOUN	_	24	obj	_	TokenRange=187:196
+27	lombo	lombo	NOUN	NOUN	_	26	appos	_	TokenRange=197:202
+28	soltou	soltar	VERB	VERB	_	24	parataxis	_	TokenRange=203:209
+29	verbo	verbo	NOUN	NOUN	_	28	obj	_	TokenRange=210:215
+30	contra	_	ADP	ADP	_	31	case	_	TokenRange=216:222
+31	senador	senador	NOUN	NOUN	_	29	nmod	_	TokenRange=223:230
+32	aecio	_	NOUN	NOUN	_	31	appos	_	TokenRange=231:236
+33	neves	_	NOUN	NOUN	_	32	flat	_	SpaceAfter=No|TokenRange=237:242
+

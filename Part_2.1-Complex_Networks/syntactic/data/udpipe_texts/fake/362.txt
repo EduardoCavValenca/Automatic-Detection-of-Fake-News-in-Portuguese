@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = perfil lula twitter ataca revista veja central fake news ainda sabemos expresidente realmente raiva revista tipo atitude farsa combinada veja twitter petista condenado voltou ameacar midia lula disse caso volte poder midia regulada atitude tipica regimes comunistas confira lula ameaca liberdade expressao michel temer
+1	perfil	perfil	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	lula	lula	NOUN	NOUN	_	1	amod	_	TokenRange=7:11
+3	twitter	_	PROPN	PNOUN	_	1	appos	_	TokenRange=12:19
+4	ataca	atacar	VERB	VERB	_	0	root	_	TokenRange=20:25
+5	revista	revista	NOUN	NOUN	_	4	obj	_	TokenRange=26:33
+6	veja	veja	NOUN	NOUN	_	5	appos	_	TokenRange=34:38
+7	central	central	ADJ	ADJ	_	6	amod	_	TokenRange=39:46
+8	fake	_	NOUN	NOUN	_	4	appos	_	TokenRange=47:51
+9	news	_	NOUN	NOUN	_	8	flat	_	TokenRange=52:56
+10	ainda	ainda	ADV	ADV	_	11	advmod	_	TokenRange=57:62
+11	sabemos	saber	VERB	VERB	_	4	parataxis	_	TokenRange=63:70
+12	expresidente	expresidente	NOUN	NOUN	_	11	obj	_	TokenRange=71:83
+13	realmente	realmente	ADV	ADV	_	14	advmod	_	TokenRange=84:93
+14	raiva	raivo	ADJ	ADJ	_	15	amod	_	TokenRange=94:99
+15	revista	revista	NOUN	NOUN	_	11	obj	_	TokenRange=100:107
+16	tipo	tipo	NOUN	NOUN	_	15	appos	_	TokenRange=108:112
+17	atitude	atitude	NOUN	NOUN	_	15	appos	_	TokenRange=113:120
+18	farsa	farsa	NOUN	NOUN	_	15	appos	_	TokenRange=121:126
+19	combinada	combinado	ADJ	ADJ	_	18	amod	_	TokenRange=127:136
+20	veja	ver	VERB	VERB	_	15	acl:relcl	_	TokenRange=137:141
+21	twitter	_	PROPN	PNOUN	_	20	nsubj	_	TokenRange=142:149
+22	petista	petista	NOUN	NOUN	_	21	flat	_	TokenRange=150:157
+23	condenado	condenar	VERB	VERB	_	22	acl	_	TokenRange=158:167
+24	voltou	voltar	AUX	AUX	_	25	aux	_	TokenRange=168:174
+25	ameacar	ameacar	VERB	VERB	_	20	ccomp	_	TokenRange=175:182
+26	midia	_	NOUN	NOUN	_	25	obj	_	TokenRange=183:188
+27	lula	_	ADJ	ADJ	_	26	amod	_	TokenRange=189:193
+28	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=194:199
+29	caso	caso	NOUN	CONJ	_	30	mark	_	TokenRange=200:204
+30	volte	voltar	VERB	VERB	_	28	ccomp	_	TokenRange=205:210
+31	poder	poder	NOUN	NOUN	_	30	obj	_	TokenRange=211:216
+32	midia	_	NOUN	NOUN	_	30	obj	_	TokenRange=217:222
+33	regulada	regulado	ADJ	ADJ	_	34	amod	_	TokenRange=223:231
+34	atitude	atitude	NOUN	NOUN	_	30	nsubj	_	TokenRange=232:239
+35	tipica	tipico	ADJ	ADJ	_	34	amod	_	TokenRange=240:246
+36	regimes	regime	NOUN	NOUN	_	38	nsubj	_	TokenRange=247:254
+37	comunistas	comunista	ADJ	ADJ	_	36	amod	_	TokenRange=255:265
+38	confira	conferir	VERB	VERB	_	28	ccomp	_	TokenRange=266:273
+39	lula	lula	NOUN	NOUN	_	40	obj	_	TokenRange=274:278
+40	ameaca	ameacar	VERB	VERB	_	28	ccomp	_	TokenRange=279:285
+41	liberdade	liberdade	NOUN	NOUN	_	40	obj	_	TokenRange=286:295
+42	expressao	expressao	NOUN	NOUN	_	41	amod	_	TokenRange=296:305
+43	michel	_	PROPN	PNOUN	_	44	appos	_	TokenRange=306:312
+44	temer	temer	NOUN	NOUN	_	40	obj	_	SpaceAfter=No|TokenRange=313:318
+

@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro diz tiros partiram proprios petistas precandidato psl nega incentivado simpatizantes atacar comitiva lula interior parana deputado jair bolsonaro pslrj precandidato presidencia negou incentivado ataques caravana expresidente luiz inacio lula silva sugeriu tiros atingiram dois onibus comitiva anteontem interior parana partido proprios petistas tudo mentira cara alguem deu tiros pericia devera ficar pronta hoje ontem amanha hoje vai apontar
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=10:13
+3	tiros	tiro	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	partiram	partir	VERB	VERB	_	2	ccomp	_	TokenRange=20:28
+5	proprios	proprio	ADJ	ADJ	_	6	amod	_	TokenRange=29:37
+6	petistas	petista	NOUN	NOUN	_	2	nsubj	_	TokenRange=38:46
+7	precandidato	precandidato	NOUN	NOUN	_	6	appos	_	TokenRange=47:59
+8	psl	_	NOUN	NOUN	_	6	appos	_	TokenRange=60:63
+9	nega	_	VERB	VERB	_	2	ccomp	_	TokenRange=64:68
+10	incentivado	incentivado	ADJ	ADJ	_	11	amod	_	TokenRange=69:80
+11	simpatizantes	simpatizante	NOUN	NOUN	_	12	nsubj	_	TokenRange=81:94
+12	atacar	atacar	VERB	VERB	_	2	ccomp	_	TokenRange=95:101
+13	comitiva	comitiva	NOUN	NOUN	_	12	obj	_	TokenRange=102:110
+14	lula	lula	NOUN	NOUN	_	13	appos	_	TokenRange=111:115
+15	interior	interior	NOUN	NOUN	_	13	appos	_	TokenRange=116:124
+16	parana	parana	ADJ	ADJ	_	17	amod	_	TokenRange=125:131
+17	deputado	deputado	NOUN	NOUN	_	23	nsubj	_	TokenRange=132:140
+18	jair	jair	NOUN	NOUN	_	17	appos	_	TokenRange=141:145
+19	bolsonaro	bolsonaro	ADJ	ADJ	_	17	amod	_	TokenRange=146:155
+20	pslrj	_	NOUN	NOUN	_	17	appos	_	TokenRange=156:161
+21	precandidato	precandidato	NOUN	NOUN	_	17	appos	_	TokenRange=162:174
+22	presidencia	presidencia	NOUN	NOUN	_	20	flat	_	TokenRange=175:186
+23	negou	negar	VERB	VERB	_	2	parataxis	_	TokenRange=187:192
+24	incentivado	incentivado	ADJ	ADJ	_	25	amod	_	TokenRange=193:204
+25	ataques	ataque	NOUN	NOUN	_	23	obj	_	TokenRange=205:212
+26	caravana	_	ADJ	ADJ	_	25	amod	_	TokenRange=213:221
+27	expresidente	expresidente	NOUN	NOUN	_	25	appos	_	TokenRange=222:234
+28	luiz	luiz	NOUN	NOUN	_	27	appos	_	TokenRange=235:239
+29	inacio	_	NOUN	NOUN	_	28	flat	_	TokenRange=240:246
+30	lula	_	NOUN	NOUN	_	28	flat	_	TokenRange=247:251
+31	silva	silva	ADJ	ADJ	_	28	flat	_	TokenRange=252:257
+32	sugeriu	sugerir	VERB	VERB	_	2	conj	_	TokenRange=258:265
+33	tiros	tiro	NOUN	NOUN	_	34	obj	_	TokenRange=266:271
+34	atingiram	atingir	VERB	VERB	_	32	ccomp	_	TokenRange=272:281
+35	dois	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=282:286
+36	onibus	_	NOUN	NOUN	_	34	obj	_	TokenRange=287:293
+37	comitiva	comitiva	NOUN	NOUN	_	36	appos	_	TokenRange=294:302
+38	anteontem	anteontem	ADV	ADV	_	39	advmod	_	TokenRange=303:312
+39	interior	interior	NOUN	NOUN	_	36	appos	_	TokenRange=313:321
+40	parana	parana	ADJ	ADJ	_	41	amod	_	TokenRange=322:328
+41	partido	partido	NOUN	NOUN	_	39	appos	_	TokenRange=329:336
+42	proprios	proprio	ADJ	ADJ	_	41	amod	_	TokenRange=337:345
+43	petistas	petista	NOUN	NOUN	_	41	amod	_	TokenRange=346:354
+44	tudo	_	PRON	PRON	_	45	nsubj	_	TokenRange=355:359
+45	mentira	mentirar	VERB	VERB	_	41	acl:relcl	_	TokenRange=360:367
+46	cara	cara	NOUN	NOUN	_	48	mark	_	TokenRange=368:372
+47	alguem	_	PRON	PRON	_	48	nsubj	_	TokenRange=373:379
+48	deu	dar	VERB	VERB	_	45	advcl	_	TokenRange=380:383
+49	tiros	tiro	NOUN	NOUN	_	48	obj	_	TokenRange=384:389
+50	pericia	pericia	NOUN	NOUN	_	49	appos	_	TokenRange=390:397
+51	devera	_	AUX	AUX	_	52	aux	_	TokenRange=398:404
+52	ficar	ficar	VERB	VERB	_	48	parataxis	_	TokenRange=405:410
+53	pronta	pronto	ADJ	ADJ	_	52	xcomp	_	TokenRange=411:417
+54	hoje	hoje	ADV	ADV	_	59	advmod	_	TokenRange=418:422
+55	ontem	ontem	ADV	ADV	_	59	advmod	_	TokenRange=423:428
+56	amanha	amanhar	VERB	VERB	_	59	ccomp	_	TokenRange=429:435
+57	hoje	hoje	ADV	ADV	_	59	advmod	_	TokenRange=436:440
+58	vai	ir	AUX	AUX	_	59	aux	_	TokenRange=441:444
+59	apontar	apontar	VERB	VERB	_	52	parataxis	_	SpaceAfter=No|TokenRange=445:452
+

@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mestres edicao jon bon jovi cantando festa ape queen interpretando robocop gay conseguiram sincronizar audio video resultado fantastico cada videos compartilhado 150 mil internautas primeiro roqueiro jon bon jovi interpretando musica gravada cantor sic latino segunda edicao clipe mostra banda queen nova formacao interpretando musica robocop gay saudoso grupo mamonas assassinas assista confira
+1	mestres	mestre	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	edicao	edicao	NOUN	NOUN	_	13	nsubj	_	TokenRange=8:14
+3	jon	_	PROPN	PNOUN	_	2	appos	_	TokenRange=15:18
+4	bon	_	PROPN	PNOUN	_	3	flat	_	TokenRange=19:22
+5	jovi	_	NOUN	NOUN	_	3	flat	_	TokenRange=23:27
+6	cantando	cantar	VERB	VERB	_	2	acl	_	TokenRange=28:36
+7	festa	festa	NOUN	NOUN	_	6	obj	_	TokenRange=37:42
+8	ape	ape	NOUN	NOUN	_	13	nsubj	_	TokenRange=43:46
+9	queen	_	NOUN	NOUN	_	8	flat	_	TokenRange=47:52
+10	interpretando	interpretar	VERB	VERB	_	3	acl	_	TokenRange=53:66
+11	robocop	robocop	NOUN	NOUN	_	10	obj	_	TokenRange=67:74
+12	gay	gay	NOUN	NOUN	_	11	amod	_	TokenRange=75:78
+13	conseguiram	conseguir	VERB	VERB	_	0	root	_	TokenRange=79:90
+14	sincronizar	sincronizar	VERB	VERB	_	13	xcomp	_	TokenRange=91:102
+15	audio	audio	NOUN	NOUN	_	14	obj	_	TokenRange=103:108
+16	video	video	ADJ	ADJ	_	15	amod	_	TokenRange=109:114
+17	resultado	resultado	NOUN	NOUN	_	15	appos	_	TokenRange=115:124
+18	fantastico	fantastico	ADJ	ADJ	_	17	amod	_	TokenRange=125:135
+19	cada	_	DET	DET	_	20	det	_	TokenRange=136:140
+20	videos	video	NOUN	NOUN	_	17	appos	_	TokenRange=141:147
+21	compartilhado	compartilhar	VERB	VERB	_	20	acl	_	TokenRange=148:161
+22	150	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=162:165
+23	mil	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=166:169
+24	internautas	internauta	NOUN	NOUN	_	21	obj	_	TokenRange=170:181
+25	primeiro	primeiro	ADJ	ADJ	_	26	amod	_	TokenRange=182:190
+26	roqueiro	roqueiro	NOUN	NOUN	_	24	appos	_	TokenRange=191:199
+27	jon	_	NOUN	NOUN	_	26	appos	_	TokenRange=200:203
+28	bon	_	NOUN	NOUN	_	27	flat	_	TokenRange=204:207
+29	jovi	_	NOUN	NOUN	_	27	flat	_	TokenRange=208:212
+30	interpretando	interpretar	VERB	VERB	_	26	acl	_	TokenRange=213:226
+31	musica	_	NOUN	NOUN	_	30	obj	_	TokenRange=227:233
+32	gravada	gravar	ADJ	ADJ	_	31	amod	_	TokenRange=234:241
+33	cantor	cantor	NOUN	NOUN	_	31	appos	_	TokenRange=242:248
+34	sic	_	NOUN	NOUN	_	33	appos	_	TokenRange=249:252
+35	latino	_	ADJ	ADJ	_	33	amod	_	TokenRange=253:259
+36	segunda	segundo	ADJ	ADJ	_	37	amod	_	TokenRange=260:267
+37	edicao	edicao	NOUN	NOUN	_	39	nsubj	_	TokenRange=268:274
+38	clipe	clipe	NOUN	NOUN	_	37	appos	_	TokenRange=275:280
+39	mostra	mostrar	VERB	VERB	_	13	parataxis	_	TokenRange=281:287
+40	banda	banda	NOUN	NOUN	_	39	obj	_	TokenRange=288:293
+41	queen	_	NOUN	NOUN	_	40	flat	_	TokenRange=294:299
+42	nova	novo	ADJ	ADJ	_	43	amod	_	TokenRange=300:304
+43	formacao	formacao	NOUN	NOUN	_	40	appos	_	TokenRange=305:313
+44	interpretando	interpretar	VERB	VERB	_	40	acl	_	TokenRange=314:327
+45	musica	_	NOUN	NOUN	_	44	obj	_	TokenRange=328:334
+46	robocop	robocop	NOUN	NOUN	_	45	appos	_	TokenRange=335:342
+47	gay	gay	ADJ	ADJ	_	46	amod	_	TokenRange=343:346
+48	saudoso	saudoso	ADJ	ADJ	_	49	amod	_	TokenRange=347:354
+49	grupo	grupo	NOUN	NOUN	_	45	appos	_	TokenRange=355:360
+50	mamonas	mamona	ADJ	ADJ	_	49	amod	_	TokenRange=361:368
+51	assassinas	assassino	ADJ	ADJ	_	49	amod	_	TokenRange=369:379
+52	assista	assistir	VERB	VERB	_	39	parataxis	_	TokenRange=380:387
+53	confira	conferir	NOUN	NOUN	_	52	obj	_	SpaceAfter=No|TokenRange=388:395
+

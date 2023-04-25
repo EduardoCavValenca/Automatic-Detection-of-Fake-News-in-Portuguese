@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mulher morre esfaqueada durante briga esposa exmarido itaporanga vitima 40 anos chegou socorrida morreu hospital suspeita 26 anos fugiu encontrada mulher 40 anos morreu apos esfaqueada esposa exmarido nesta quartafeira 20 itaporanga sp acordo policia militar vizinhos contaram vitima ido discutir suspeita 26 anos durante briga jovem agrediu mulher duas facadas torax outra perna seguida fugiu local ainda segundo policia vitima chegou socorrida servico atendimento movel urgencia samu resistiu ferimentos morreu unidade caso registrado delegacia suspeita encontrada
+1	mulher	mulher	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	esfaqueada	esfaqueado	ADJ	ADJ	_	2	xcomp	_	TokenRange=13:23
+4	durante	_	ADP	ADP	_	5	case	_	TokenRange=24:31
+5	briga	briga	NOUN	NOUN	_	2	nmod	_	TokenRange=32:37
+6	esposa	esposo	NOUN	NOUN	_	5	appos	_	TokenRange=38:44
+7	exmarido	exmarido	ADJ	ADJ	_	6	amod	_	TokenRange=45:53
+8	itaporanga	itaporanga	NOUN	NOUN	_	6	amod	_	TokenRange=54:64
+9	vitima	_	NOUN	NOUN	_	11	amod	_	TokenRange=65:71
+10	40	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=72:74
+11	anos	ano	NOUN	NOUN	_	12	nsubj	_	TokenRange=75:79
+12	chegou	chegar	VERB	VERB	_	2	parataxis	_	TokenRange=80:86
+13	socorrida	socorrido	ADJ	ADJ	_	12	xcomp	_	TokenRange=87:96
+14	morreu	morrer	VERB	VERB	_	2	parataxis	_	TokenRange=97:103
+15	hospital	hospital	NOUN	NOUN	_	14	nsubj	_	TokenRange=104:112
+16	suspeita	suspeito	ADJ	ADJ	_	15	amod	_	TokenRange=113:121
+17	26	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=122:124
+18	anos	ano	NOUN	NOUN	_	15	appos	_	TokenRange=125:129
+19	fugiu	fugir	VERB	VERB	_	2	parataxis	_	TokenRange=130:135
+20	encontrada	encontrado	ADJ	ADJ	_	19	xcomp	_	TokenRange=136:146
+21	mulher	mulher	NOUN	NOUN	_	24	nsubj	_	TokenRange=147:153
+22	40	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=154:156
+23	anos	ano	NOUN	NOUN	_	24	nsubj	_	TokenRange=157:161
+24	morreu	morrer	VERB	VERB	_	19	parataxis	_	TokenRange=162:168
+25	apos	_	ADP	ADP	_	27	case	_	TokenRange=169:173
+26	esfaqueada	esfaqueado	ADJ	ADJ	_	27	amod	_	TokenRange=174:184
+27	esposa	esposo	NOUN	NOUN	_	24	nmod	_	TokenRange=185:191
+28	exmarido	exmarido	ADJ	ADJ	_	27	amod	_	TokenRange=192:200
+29	nesta	_	ADP	ADP	_	30	case	_	TokenRange=201:206
+30	quartafeira	quartafeira	NOUN	NOUN	_	24	nmod	_	TokenRange=207:218
+31	20	_	NUM	NUM	NumType=Card	30	appos	_	TokenRange=219:221
+32	itaporanga	itaporanga	NOUN	NOUN	_	30	appos	_	TokenRange=222:232
+33	sp	_	NOUN	NOUN	_	34	amod	_	TokenRange=233:235
+34	acordo	acordo	NOUN	NOUN	_	38	nsubj	_	TokenRange=236:242
+35	policia	policia	NOUN	NOUN	_	34	appos	_	TokenRange=243:250
+36	militar	militar	ADJ	ADJ	_	35	amod	_	TokenRange=251:258
+37	vizinhos	vizinho	ADJ	ADJ	_	34	amod	_	TokenRange=259:267
+38	contaram	contar	VERB	VERB	_	2	parataxis	_	TokenRange=268:276
+39	vitima	_	NOUN	NOUN	_	38	obj	_	TokenRange=277:283
+40	ido	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=284:287
+41	discutir	discutir	VERB	VERB	_	39	acl:relcl	_	TokenRange=288:296
+42	suspeita	_	NOUN	NOUN	_	41	obj	_	TokenRange=297:305
+43	26	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=306:308
+44	anos	ano	NOUN	NOUN	_	41	obj	_	TokenRange=309:313
+45	durante	_	ADP	ADP	_	46	case	_	TokenRange=314:321
+46	briga	briga	NOUN	NOUN	_	48	nmod	_	TokenRange=322:327
+47	jovem	jovem	ADJ	ADJ	_	46	amod	_	TokenRange=328:333
+48	agrediu	agredir	VERB	VERB	_	38	parataxis	_	TokenRange=334:341
+49	mulher	mulher	NOUN	NOUN	_	48	obj	_	TokenRange=342:348
+50	duas	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=349:353
+51	facadas	facada	NOUN	NOUN	_	48	obj	_	TokenRange=354:361
+52	torax	torax	NOUN	NOUN	_	51	flat	_	TokenRange=362:367
+53	outra	_	DET	DET	_	54	det	_	TokenRange=368:373
+54	perna	perna	NOUN	NOUN	_	48	nsubj	_	TokenRange=374:379
+55	seguida	seguido	ADJ	ADJ	_	54	amod	_	TokenRange=380:387
+56	fugiu	fugir	VERB	VERB	_	38	parataxis	_	TokenRange=388:393
+57	local	local	NOUN	NOUN	_	56	obj	_	TokenRange=394:399
+58	ainda	ainda	ADV	ADV	_	60	advmod	_	TokenRange=400:405
+59	segundo	_	ADP	ADP	_	60	case	_	TokenRange=406:413
+60	policia	policia	NOUN	NOUN	_	56	nmod	_	TokenRange=414:421
+61	vitima	_	NOUN	NOUN	_	60	appos	_	TokenRange=422:428
+62	chegou	chegar	AUX	AUX	_	60	acl:relcl	_	TokenRange=429:435
+63	socorrida	socorrido	ADJ	ADJ	_	60	amod	_	TokenRange=436:445
+64	servico	servico	NOUN	NOUN	_	65	amod	_	TokenRange=446:453
+65	atendimento	atendimento	NOUN	NOUN	_	69	nsubj	_	TokenRange=454:465
+66	movel	movel	ADJ	ADJ	_	65	amod	_	TokenRange=466:471
+67	urgencia	urgencia	NOUN	NOUN	_	65	appos	_	TokenRange=472:480
+68	samu	samu	NOUN	NOUN	_	69	nsubj	_	TokenRange=481:485
+69	resistiu	resistir	VERB	VERB	_	62	conj	_	TokenRange=486:494
+70	ferimentos	ferimento	NOUN	NOUN	_	69	obj	_	TokenRange=495:505
+71	morreu	morrer	VERB	VERB	_	56	parataxis	_	TokenRange=506:512
+72	unidade	unidade	NOUN	NOUN	_	71	obj	_	TokenRange=513:520
+73	caso	caso	NOUN	NOUN	_	72	appos	_	TokenRange=521:525
+74	registrado	registrar	VERB	VERB	_	75	acl	_	TokenRange=526:536
+75	delegacia	delegacia	NOUN	NOUN	_	71	nsubj	_	TokenRange=537:546
+76	suspeita	suspeito	ADJ	ADJ	_	75	amod	_	TokenRange=547:555
+77	encontrada	encontrar	VERB	VERB	_	75	acl	_	SpaceAfter=No|TokenRange=556:566
+

@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer diz estar aberto dialogo parlamentares aprovar reforma previdencia entrevista tv bandeirantes presidente michel temer admitiu aceitaria outras modificacoes projeto formatado governo federal texto aprovado congresso presidente michel temer afirmou entrevista tv bandeirantes transmitida noite desta tercafeira 6 governo aberto dialogo conseguir aprovar reforma previdencia neste mes governo aberto dialogo evidentemente parlamentares abertos dialogo afirmou nesse projeto formatado agora economia r 550 bilhoes r 600 bilhoes dez anos
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	estar	estar	VERB	VERB	_	2	xcomp	_	TokenRange=10:15
+4	aberto	aberto	ADJ	ADJ	_	3	xcomp	_	TokenRange=16:22
+5	dialogo	dialogo	NOUN	NOUN	_	7	obj	_	TokenRange=23:30
+6	parlamentares	parlamentar	ADJ	ADJ	_	5	amod	_	TokenRange=31:44
+7	aprovar	aprovar	VERB	VERB	_	3	csubj	_	TokenRange=45:52
+8	reforma	reforma	NOUN	NOUN	_	7	obj	_	TokenRange=53:60
+9	previdencia	previdencio	ADJ	ADJ	_	8	amod	_	TokenRange=61:72
+10	entrevista	entrevista	NOUN	NOUN	_	7	obj	_	TokenRange=73:83
+11	tv	_	DET	DET	_	13	appos	_	TokenRange=84:86
+12	bandeirantes	bandeirante	ADJ	ADJ	_	13	amod	_	TokenRange=87:99
+13	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=100:110
+14	michel	michel	ADJ	ADJ	_	15	amod	_	TokenRange=111:117
+15	temer	temer	NOUN	NOUN	_	13	appos	_	TokenRange=118:123
+16	admitiu	admitir	VERB	VERB	_	2	parataxis	_	TokenRange=124:131
+17	aceitaria	aceitar	VERB	VERB	_	16	xcomp	_	TokenRange=132:141
+18	outras	_	DET	DET	_	19	det	_	TokenRange=142:148
+19	modificacoes	_	NOUN	NOUN	_	17	obj	_	TokenRange=149:161
+20	projeto	projeto	NOUN	NOUN	_	19	appos	_	TokenRange=162:169
+21	formatado	formatar	VERB	VERB	_	22	acl	_	TokenRange=170:179
+22	governo	governo	NOUN	NOUN	_	19	appos	_	TokenRange=180:187
+23	federal	federal	ADJ	ADJ	_	22	amod	_	TokenRange=188:195
+24	texto	texto	NOUN	NOUN	_	22	appos	_	TokenRange=196:201
+25	aprovado	aprovar	ADJ	ADJ	_	24	acl	_	TokenRange=202:210
+26	congresso	congresso	NOUN	NOUN	_	30	nsubj	_	TokenRange=211:220
+27	presidente	presidente	NOUN	NOUN	_	26	appos	_	TokenRange=221:231
+28	michel	michel	ADJ	ADJ	_	29	amod	_	TokenRange=232:238
+29	temer	temer	NOUN	NOUN	_	27	appos	_	TokenRange=239:244
+30	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=245:252
+31	entrevista	entrevista	NOUN	NOUN	_	30	obj	_	TokenRange=253:263
+32	tv	tv	NOUN	NOUN	_	31	appos	_	TokenRange=264:266
+33	bandeirantes	bandeirante	NOUN	NOUN	_	31	amod	_	TokenRange=267:279
+34	transmitida	transmitir	VERB	VERB	_	31	acl	_	TokenRange=280:291
+35	noite	noite	NOUN	NOUN	_	42	nsubj	_	TokenRange=292:297
+36	desta	_	ADP	ADP	_	37	case	_	TokenRange=298:303
+37	tercafeira	tercafeira	NOUN	NOUN	_	35	nmod	_	TokenRange=304:314
+38	6	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=315:316
+39	governo	governo	NOUN	NOUN	_	42	nsubj	_	TokenRange=317:324
+40	aberto	aberto	ADJ	ADJ	_	39	amod	_	TokenRange=325:331
+41	dialogo	dialogo	NOUN	NOUN	_	39	amod	_	TokenRange=332:339
+42	conseguir	conseguir	VERB	VERB	_	31	acl:relcl	_	TokenRange=340:349
+43	aprovar	aprovar	VERB	VERB	_	42	xcomp	_	TokenRange=350:357
+44	reforma	reforma	NOUN	NOUN	_	43	obj	_	TokenRange=358:365
+45	previdencia	previdencia	ADJ	ADJ	_	44	amod	_	TokenRange=366:377
+46	neste	_	ADP	ADP	_	47	case	_	TokenRange=378:383
+47	mes	mes	NOUN	NOUN	_	42	nmod	_	TokenRange=384:387
+48	governo	governo	NOUN	NOUN	_	42	nsubj	_	TokenRange=388:395
+49	aberto	aberto	ADJ	ADJ	_	48	amod	_	TokenRange=396:402
+50	dialogo	dialogo	NOUN	NOUN	_	48	appos	_	TokenRange=403:410
+51	evidentemente	evidentemente	ADV	ADV	_	52	advmod	_	TokenRange=411:424
+52	parlamentares	parlamentar	NOUN	NOUN	_	48	appos	_	TokenRange=425:438
+53	abertos	aberto	ADJ	ADJ	_	52	amod	_	TokenRange=439:446
+54	dialogo	dialogo	ADJ	NOUN	_	52	amod	_	TokenRange=447:454
+55	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=455:462
+56	nesse	_	ADP	ADP	_	57	case	_	TokenRange=463:468
+57	projeto	projeto	NOUN	NOUN	_	55	nmod	_	TokenRange=469:476
+58	formatado	formatar	VERB	VERB	_	57	acl	_	TokenRange=477:486
+59	agora	agora	ADV	ADV	_	58	advmod	_	TokenRange=487:492
+60	economia	economia	NOUN	NOUN	_	58	nsubj	_	TokenRange=493:501
+61	r	r	NOUN	NOUN	_	60	flat	_	TokenRange=502:503
+62	550	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=504:507
+63	bilhoes	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=508:515
+64	r	_	NOUN	NOUN	_	68	case	_	TokenRange=516:517
+65	600	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=518:521
+66	bilhoes	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=522:529
+67	dez	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=530:533
+68	anos	ano	NOUN	NOUN	_	60	appos	_	SpaceAfter=No|TokenRange=534:538
+

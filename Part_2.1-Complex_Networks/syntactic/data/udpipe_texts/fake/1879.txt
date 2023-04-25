@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado lorenzoni senado luta sozinho salvar brasil organizacoes criminosas deputado relator 10 medidas contra corrupcao perdeu camara la senado tentando reverter quadro direto senado tudo perdido disse onix lorenzoni assista recado video abaixo
+1	deputado	deputado	NOUN	NOUN	_	27	nsubj	_	TokenRange=0:8
+2	lorenzoni	_	ADJ	ADJ	_	1	amod	_	TokenRange=9:18
+3	senado	senado	NOUN	NOUN	_	1	appos	_	TokenRange=19:25
+4	luta	lutar	NOUN	NOUN	_	1	acl:relcl	_	TokenRange=26:30
+5	sozinho	só	ADJ	ADJ	_	4	amod	_	TokenRange=31:38
+6	salvar	salvar	VERB	VERB	_	4	xcomp	_	TokenRange=39:45
+7	brasil	brasil	NOUN	NOUN	_	6	obj	_	TokenRange=46:52
+8	organizacoes	organizacoe	NOUN	NOUN	_	7	appos	_	TokenRange=53:65
+9	criminosas	criminoso	ADJ	ADJ	_	8	amod	_	TokenRange=66:76
+10	deputado	deputado	NOUN	NOUN	_	16	nsubj	_	TokenRange=77:85
+11	relator	relator	NOUN	NOUN	_	10	appos	_	TokenRange=86:93
+12	10	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=94:96
+13	medidas	medida	NOUN	NOUN	_	16	nsubj	_	TokenRange=97:104
+14	contra	_	ADP	ADP	_	15	case	_	TokenRange=105:111
+15	corrupcao	corrupcao	NOUN	NOUN	_	13	nmod	_	TokenRange=112:121
+16	perdeu	perder	VERB	VERB	_	1	acl:relcl	_	TokenRange=122:128
+17	camara	camara	NOUN	NOUN	_	16	obj	_	TokenRange=129:135
+18	la	_	DET	DET	_	19	det	_	TokenRange=136:138
+19	senado	senado	NOUN	NOUN	_	16	nsubj	_	TokenRange=139:145
+20	tentando	tentar	VERB	VERB	_	19	acl	_	TokenRange=146:154
+21	reverter	reverter	VERB	VERB	_	20	xcomp	_	TokenRange=155:163
+22	quadro	quadro	NOUN	NOUN	_	21	obj	_	TokenRange=164:170
+23	direto	direto	ADJ	ADJ	_	22	amod	_	TokenRange=171:177
+24	senado	senado	NOUN	NOUN	_	22	appos	_	TokenRange=178:184
+25	tudo	_	PRON	PRON	_	26	nsubj	_	TokenRange=185:189
+26	perdido	perdido	ADJ	ADJ	_	24	amod	_	TokenRange=190:197
+27	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=198:203
+28	onix	onix	ADV	ADV	_	30	advmod	_	TokenRange=204:208
+29	lorenzoni	_	NOUN	NOUN	_	28	flat	_	TokenRange=209:218
+30	assista	assistir	VERB	VERB	_	27	ccomp	_	TokenRange=219:226
+31	recado	recado	ADJ	ADJ	_	30	xcomp	_	TokenRange=227:233
+32	video	video	NOUN	NOUN	_	30	obj	_	TokenRange=234:239
+33	abaixo	abaixo	ADV	ADV	_	30	advmod	_	SpaceAfter=No|TokenRange=240:246
+

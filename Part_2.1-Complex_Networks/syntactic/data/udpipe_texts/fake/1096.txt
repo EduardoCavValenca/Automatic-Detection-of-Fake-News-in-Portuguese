@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = site antagonista mata caetano veloso intencao postagem feita antagonista chamar atencao possivel candidatura joaquim barbosa titulo brasil preparado presidente negro materia detalhe curioso mataram caetano veloso 74 anos musico petista goza plena saude pensa morrer tao cedo confira print abaixo
+1	site	site	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	antagonista	antagonista	ADJ	ADJ	_	1	amod	_	TokenRange=5:16
+3	mata	matar	VERB	VERB	_	0	root	_	TokenRange=17:21
+4	caetano	caetano	NOUN	NOUN	_	3	obj	_	TokenRange=22:29
+5	veloso	veloso	ADJ	ADJ	_	4	amod	_	TokenRange=30:36
+6	intencao	intencao	ADJ	ADJ	_	7	amod	_	TokenRange=37:45
+7	postagem	postagem	NOUN	NOUN	_	3	obj	_	TokenRange=46:54
+8	feita	_	VERB	VERB	_	7	acl	_	TokenRange=55:60
+9	antagonista	antagonista	NOUN	NOUN	_	10	nsubj	_	TokenRange=61:72
+10	chamar	chamar	VERB	VERB	_	7	acl	_	TokenRange=73:79
+11	atencao	atencao	NOUN	NOUN	_	10	obj	_	TokenRange=80:87
+12	possivel	possivel	ADJ	ADJ	_	13	amod	_	TokenRange=88:96
+13	candidatura	candidatura	NOUN	NOUN	_	10	obj	_	TokenRange=97:108
+14	joaquim	joaquim	NOUN	NOUN	_	13	appos	_	TokenRange=109:116
+15	barbosa	barboso	ADJ	ADJ	_	14	flat	_	TokenRange=117:124
+16	titulo	titulo	NOUN	NOUN	_	13	appos	_	TokenRange=125:131
+17	brasil	brasil	ADJ	NOUN	_	19	amod	_	TokenRange=132:138
+18	preparado	preparado	ADJ	ADJ	_	19	amod	_	TokenRange=139:148
+19	presidente	presidente	NOUN	NOUN	_	16	appos	_	TokenRange=149:159
+20	negro	negro	ADJ	ADJ	_	19	amod	_	TokenRange=160:165
+21	materia	materia	NOUN	NOUN	_	19	appos	_	TokenRange=166:173
+22	detalhe	detalhe	NOUN	NOUN	_	24	nsubj	_	TokenRange=174:181
+23	curioso	curioso	ADJ	ADJ	_	22	amod	_	TokenRange=182:189
+24	mataram	matar	VERB	VERB	_	21	acl:relcl	_	TokenRange=190:197
+25	caetano	caetano	NOUN	NOUN	_	24	obj	_	TokenRange=198:205
+26	veloso	veloso	ADJ	ADJ	_	25	amod	_	TokenRange=206:212
+27	74	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=213:215
+28	anos	ano	NOUN	NOUN	_	24	nsubj	_	TokenRange=216:220
+29	musico	musico	NOUN	NOUN	_	28	appos	_	TokenRange=221:227
+30	petista	petista	NOUN	NOUN	_	29	amod	_	TokenRange=228:235
+31	goza	gozar	VERB	VERB	_	24	parataxis	_	TokenRange=236:240
+32	plena	pleno	ADJ	ADJ	_	33	amod	_	TokenRange=241:246
+33	saude	saude	NOUN	NOUN	_	31	obj	_	TokenRange=247:252
+34	pensa	pensar	VERB	VERB	_	31	parataxis	_	TokenRange=253:258
+35	morrer	morrer	VERB	VERB	_	34	xcomp	_	TokenRange=259:265
+36	tao	tao	ADV	ADV	_	37	advmod	_	TokenRange=266:269
+37	cedo	cedo	ADV	ADV	_	35	advmod	_	TokenRange=270:274
+38	confira	conferir	VERB	VERB	_	34	parataxis	_	TokenRange=275:282
+39	print	_	NOUN	NOUN	_	38	advmod	_	TokenRange=283:288
+40	abaixo	abaixo	ADV	ADV	_	38	advmod	_	SpaceAfter=No|TokenRange=289:295
+

@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acontecera eua ultrapassarem arabia saudita maior produtor petroleo mundo mudanca desenha pode afetar diretamente mercados america sul europa alem liberdade americanos acoes oriente medio estados unidos aproximando lideranca corrida dominio mercado mundial petroleo acordo ultimas previsoes agencia internacional energia producao americana atingira neste ano marca recorde 10 milhoes barris petroleo bruto dia assim calculase pais desbancara arabia saudita neste ano posicao lideranca ostenta
+1	acontecera	acontecer	VERB	VERB	_	42	ccomp	_	TokenRange=0:10
+2	eua	_	PRON	PRON	_	3	nsubj	_	TokenRange=11:14
+3	ultrapassarem	ultrapassar	VERB	VERB	_	1	csubj	_	TokenRange=15:28
+4	arabia	arabia	NOUN	NOUN	_	3	obj	_	TokenRange=29:35
+5	saudita	saudito	ADJ	ADJ	_	4	amod	_	TokenRange=36:43
+6	maior	maior	ADJ	ADJ	_	7	amod	_	TokenRange=44:49
+7	produtor	produtor	NOUN	NOUN	_	3	obj	_	TokenRange=50:58
+8	petroleo	petroleo	ADJ	ADJ	_	7	amod	_	TokenRange=59:67
+9	mundo	mundo	NOUN	NOUN	_	7	appos	_	TokenRange=68:73
+10	mudanca	mudanca	NOUN	NOUN	_	7	appos	_	TokenRange=74:81
+11	desenha	desenha	ADJ	ADJ	_	10	amod	_	TokenRange=82:89
+12	pode	_	AUX	AUX	_	13	aux	_	TokenRange=90:94
+13	afetar	afetar	VERB	VERB	_	1	conj	_	TokenRange=95:101
+14	diretamente	diretamente	ADV	ADV	_	13	advmod	_	TokenRange=102:113
+15	mercados	mercado	NOUN	NOUN	_	13	obj	_	TokenRange=114:122
+16	america	americo	ADJ	ADJ	_	15	amod	_	TokenRange=123:130
+17	sul	sul	ADJ	ADJ	_	15	amod	_	TokenRange=131:134
+18	europa	_	NOUN	NOUN	_	15	appos	_	TokenRange=135:141
+19	alem	_	ADV	ADV	_	20	advmod	_	TokenRange=142:146
+20	liberdade	liberdade	NOUN	NOUN	_	15	appos	_	TokenRange=147:156
+21	americanos	americano	ADJ	ADJ	_	20	amod	_	TokenRange=157:167
+22	acoes	acoe	NOUN	NOUN	_	15	appos	_	TokenRange=168:173
+23	oriente	oriente	NOUN	NOUN	_	22	amod	_	TokenRange=174:181
+24	medio	medio	ADJ	ADJ	_	22	amod	_	TokenRange=182:187
+25	estados	estado	NOUN	NOUN	_	13	nsubj	_	TokenRange=188:195
+26	unidos	unido	ADJ	ADJ	_	25	amod	_	TokenRange=196:202
+27	aproximando	aproximar	VERB	VERB	_	25	acl	_	TokenRange=203:214
+28	lideranca	lideranca	NOUN	NOUN	_	27	obj	_	TokenRange=215:224
+29	corrida	corrido	ADJ	ADJ	_	28	amod	_	TokenRange=225:232
+30	dominio	dominio	NOUN	NOUN	_	28	appos	_	TokenRange=233:240
+31	mercado	mercado	NOUN	NOUN	_	28	appos	_	TokenRange=241:248
+32	mundial	mundial	ADJ	ADJ	_	31	amod	_	TokenRange=249:256
+33	petroleo	petroleo	NOUN	NOUN	_	31	amod	_	TokenRange=257:265
+34	acordo	acordo	NOUN	NOUN	_	31	appos	_	TokenRange=266:272
+35	ultimas	ultimo	ADJ	ADJ	_	36	amod	_	TokenRange=273:280
+36	previsoes	_	NOUN	NOUN	_	37	amod	_	TokenRange=281:290
+37	agencia	agencia	NOUN	NOUN	_	34	appos	_	TokenRange=291:298
+38	internacional	internacional	ADJ	ADJ	_	37	amod	_	TokenRange=299:312
+39	energia	energia	NOUN	NOUN	_	37	appos	_	TokenRange=313:320
+40	producao	producao	NOUN	NOUN	_	37	appos	_	TokenRange=321:329
+41	americana	americano	ADJ	ADJ	_	37	amod	_	TokenRange=330:339
+42	atingira	_	VERB	VERB	_	0	root	_	TokenRange=340:348
+43	neste	_	ADP	ADP	_	44	case	_	TokenRange=349:354
+44	ano	ano	NOUN	NOUN	_	42	nmod	_	TokenRange=355:358
+45	marca	marca	NOUN	NOUN	_	42	obj	_	TokenRange=359:364
+46	recorde	recorde	NOUN	NOUN	_	45	flat	_	TokenRange=365:372
+47	10	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=373:375
+48	milhoes	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=376:383
+49	barris	barril	NOUN	NOUN	_	45	appos	_	TokenRange=384:390
+50	petroleo	petroleo	NOUN	NOUN	_	49	amod	_	TokenRange=391:399
+51	bruto	bruto	ADJ	ADJ	_	49	amod	_	TokenRange=400:405
+52	dia	dia	NOUN	NOUN	_	42	nmod	_	TokenRange=406:409
+53	assim	assim	ADV	ADV	_	54	advmod	_	TokenRange=410:415
+54	calculase	_	VERB	VERB	_	42	advcl	_	TokenRange=416:425
+55	pais	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=426:430
+56	desbancara	desbancarar	VERB	VERB	_	54	ccomp	_	TokenRange=431:441
+57	arabia	arabia	NOUN	NOUN	_	56	obj	_	TokenRange=442:448
+58	saudita	saudito	ADJ	ADJ	_	57	amod	_	TokenRange=449:456
+59	neste	_	ADP	ADP	_	60	case	_	TokenRange=457:462
+60	ano	ano	NOUN	NOUN	_	56	nmod	_	TokenRange=463:466
+61	posicao	posicao	NOUN	NOUN	_	63	obj	_	TokenRange=467:474
+62	lideranca	lideranca	NOUN	NOUN	_	63	nsubj	_	TokenRange=475:484
+63	ostenta	ostentar	VERB	VERB	_	54	parataxis	_	SpaceAfter=No|TokenRange=485:492
+

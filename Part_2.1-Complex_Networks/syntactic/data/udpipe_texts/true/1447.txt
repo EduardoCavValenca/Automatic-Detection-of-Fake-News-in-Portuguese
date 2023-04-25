@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moro nega pedido defesa lula fazer gravacao audiencia juiz federal lula advogados pretendem transformar ato normal processo interrogatorio oportunidade acusado defender evento politicopartidario juiz sergio moro negou nesta segundafeira 8 pedido defesa expresidente luiz inacio lula silva fazer gravacao propria interrogatorio marcado quartafeira 10 curitiba contudo informou feita gravacao adicional angulo amplo sala audiencia veja integra decisao moro advogados lula
+1	moro	moro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	pedido	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	defesa	_	NOUN	NOUN	_	3	flat	_	TokenRange=17:23
+5	lula	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=24:28
+6	fazer	fazer	VERB	VERB	_	2	ccomp	_	TokenRange=29:34
+7	gravacao	gravacao	NOUN	NOUN	_	6	obj	_	TokenRange=35:43
+8	audiencia	audiencio	ADJ	ADJ	_	7	amod	_	TokenRange=44:53
+9	juiz	juiz	NOUN	NOUN	_	6	obj	_	TokenRange=54:58
+10	federal	federal	ADJ	ADJ	_	9	amod	_	TokenRange=59:66
+11	lula	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=67:71
+12	advogados	advogado	NOUN	NOUN	_	13	nsubj	_	TokenRange=72:81
+13	pretendem	pretender	VERB	VERB	_	2	parataxis	_	TokenRange=82:91
+14	transformar	transformar	VERB	VERB	_	13	xcomp	_	TokenRange=92:103
+15	ato	ato	NOUN	NOUN	_	14	obj	_	TokenRange=104:107
+16	normal	normal	ADJ	ADJ	_	15	amod	_	TokenRange=108:114
+17	processo	processo	NOUN	NOUN	_	14	obj	_	TokenRange=115:123
+18	interrogatorio	interrogatorio	ADJ	ADJ	_	19	amod	_	TokenRange=124:138
+19	oportunidade	oportunidade	NOUN	NOUN	_	13	nsubj	_	TokenRange=139:151
+20	acusado	acusar	VERB	VERB	_	19	acl	_	TokenRange=152:159
+21	defender	defender	VERB	VERB	_	20	xcomp	_	TokenRange=160:168
+22	evento	evento	NOUN	NOUN	_	21	obj	_	TokenRange=169:175
+23	politicopartidario	politicopartidario	ADJ	ADJ	_	22	amod	_	TokenRange=176:194
+24	juiz	juiz	NOUN	NOUN	_	22	appos	_	TokenRange=195:199
+25	sergio	sergio	ADJ	ADJ	_	24	amod	_	TokenRange=200:206
+26	moro	moro	NOUN	NOUN	_	24	appos	_	TokenRange=207:211
+27	negou	negar	VERB	VERB	_	2	conj	_	TokenRange=212:217
+28	nesta	_	ADP	ADP	_	29	case	_	TokenRange=218:223
+29	segundafeira	_	NOUN	NOUN	_	27	nmod	_	TokenRange=224:236
+30	8	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=237:238
+31	pedido	pedido	NOUN	NOUN	_	27	obj	_	TokenRange=239:245
+32	defesa	_	NOUN	NOUN	_	31	appos	_	TokenRange=246:252
+33	expresidente	expresidente	NOUN	NOUN	_	27	nsubj	_	TokenRange=253:265
+34	luiz	luiz	NOUN	NOUN	_	33	appos	_	TokenRange=266:270
+35	inacio	_	NOUN	NOUN	_	34	flat	_	TokenRange=271:277
+36	lula	_	NOUN	NOUN	_	34	flat	_	TokenRange=278:282
+37	silva	silva	NOUN	NOUN	_	34	flat	_	TokenRange=283:288
+38	fazer	fazer	VERB	VERB	_	27	ccomp	_	TokenRange=289:294
+39	gravacao	gravacao	NOUN	NOUN	_	38	obj	_	TokenRange=295:303
+40	propria	proprio	ADJ	ADJ	_	39	amod	_	TokenRange=304:311
+41	interrogatorio	interrogatorio	NOUN	NOUN	_	39	appos	_	TokenRange=312:326
+42	marcado	marcar	VERB	VERB	_	39	acl	_	TokenRange=327:334
+43	quartafeira	quartafeira	NOUN	NOUN	_	42	nmod	_	TokenRange=335:346
+44	10	_	NUM	NUM	NumType=Card	43	appos	_	TokenRange=347:349
+45	curitiba	curitiba	NOUN	NOUN	_	43	appos	_	TokenRange=350:358
+46	contudo	_	ADV	ADV	_	47	advmod	_	TokenRange=359:366
+47	informou	informar	VERB	VERB	_	27	conj	_	TokenRange=367:375
+48	feita	_	VERB	VERB	_	47	xcomp	_	TokenRange=376:381
+49	gravacao	gravacao	NOUN	NOUN	_	48	obj	_	TokenRange=382:390
+50	adicional	adicional	ADJ	ADJ	_	49	amod	_	TokenRange=391:400
+51	angulo	angulo	NOUN	NOUN	_	49	appos	_	TokenRange=401:407
+52	amplo	amplo	ADJ	ADJ	_	49	amod	_	TokenRange=408:413
+53	sala	sala	NOUN	NOUN	_	49	appos	_	TokenRange=414:418
+54	audiencia	audiencia	NOUN	NOUN	_	53	flat	_	TokenRange=419:428
+55	veja	ver	VERB	VERB	_	47	parataxis	_	TokenRange=429:433
+56	integra	integro	ADJ	ADJ	_	57	amod	_	TokenRange=434:441
+57	decisao	decisao	NOUN	NOUN	_	55	obj	_	TokenRange=442:449
+58	moro	moro	NOUN	NOUN	_	57	appos	_	TokenRange=450:454
+59	advogados	advogado	NOUN	NOUN	_	55	nsubj	_	TokenRange=455:464
+60	lula	_	NOUN	NOUN	_	59	appos	_	SpaceAfter=No|TokenRange=465:469
+

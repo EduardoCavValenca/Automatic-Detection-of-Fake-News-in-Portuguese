@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 27 dezembro 2017 boa noite aqui principais noticias terminar dia beminformado novembro deste ano 12292 empregos carteira assinada fechados informou hoje ministerio trabalho cifra negativa interrompe sequencia 7 meses seguidos criacao postos trabalho dados computados mes comecou vigorar nova lei trabalhista dia ministro trabalho ronaldo nogueira pediu demissao posto alegou pretende preparar campanha eleitoral proximo ano dados emprego divulgados hoje resultado novembro sobre trabalho formal interrompida serie sete meses seguidos contratacoes superaram demissoes resultado pior desde marco 2017 significa interrupcao processo retomada crescimento
+1	quartafeira	quartafeira	NOUN	NOUN	_	21	parataxis	_	TokenRange=0:11
+2	27	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:14
+3	dezembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:23
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=24:28
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=29:32
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=33:38
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=39:43
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=44:54
+9	noticias	noticia	NOUN	NOUN	_	6	appos	_	TokenRange=55:63
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=64:72
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=73:76
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=77:89
+13	novembro	_	PROPN	PNOUN	_	11	appos	_	TokenRange=90:98
+14	deste	_	ADP	ADP	_	15	case	_	TokenRange=99:104
+15	ano	ano	NOUN	NOUN	_	13	nmod	_	TokenRange=105:108
+16	12292	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=109:114
+17	empregos	emprego	NOUN	NOUN	_	10	obj	_	TokenRange=115:123
+18	carteira	_	NOUN	NOUN	_	17	appos	_	TokenRange=124:132
+19	assinada	assinado	ADJ	ADJ	_	17	amod	_	TokenRange=133:141
+20	fechados	fechado	ADJ	ADJ	_	17	amod	_	TokenRange=142:150
+21	informou	informar	VERB	VERB	_	0	root	_	TokenRange=151:159
+22	hoje	hoje	ADV	ADV	_	21	advmod	_	TokenRange=160:164
+23	ministerio	ministerio	NOUN	NOUN	_	21	obj	_	TokenRange=165:175
+24	trabalho	trabalho	NOUN	NOUN	_	23	flat	_	TokenRange=176:184
+25	cifra	cifra	NOUN	NOUN	_	23	appos	_	TokenRange=185:190
+26	negativa	negativo	ADJ	ADJ	_	25	amod	_	TokenRange=191:199
+27	interrompe	_	NOUN	NOUN	_	25	appos	_	TokenRange=200:210
+28	sequencia	_	NOUN	NOUN	_	25	appos	_	TokenRange=211:220
+29	7	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=221:222
+30	meses	mês	NOUN	NOUN	_	25	nmod	_	TokenRange=223:228
+31	seguidos	seguido	ADJ	ADJ	_	30	amod	_	TokenRange=229:237
+32	criacao	criacao	NOUN	NOUN	_	23	appos	_	TokenRange=238:245
+33	postos	posto	NOUN	NOUN	_	32	appos	_	TokenRange=246:252
+34	trabalho	trabalho	NOUN	NOUN	_	33	flat	_	TokenRange=253:261
+35	dados	dado	NOUN	NOUN	_	32	appos	_	TokenRange=262:267
+36	computados	computar	VERB	VERB	_	35	acl	_	TokenRange=268:278
+37	mes	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=279:282
+38	comecou	comecar	AUX	VERB	_	39	aux	_	TokenRange=283:290
+39	vigorar	vigorar	VERB	VERB	_	48	ccomp	_	TokenRange=291:298
+40	nova	novo	ADJ	ADJ	_	41	amod	_	TokenRange=299:303
+41	lei	lei	NOUN	NOUN	_	39	nsubj	_	TokenRange=304:307
+42	trabalhista	trabalhista	ADJ	ADJ	_	41	amod	_	TokenRange=308:319
+43	dia	dia	NOUN	NOUN	_	48	nsubj	_	TokenRange=320:323
+44	ministro	ministro	NOUN	NOUN	_	43	appos	_	TokenRange=324:332
+45	trabalho	trabalho	NOUN	NOUN	_	44	flat	_	TokenRange=333:341
+46	ronaldo	_	NOUN	NOUN	_	43	appos	_	TokenRange=342:349
+47	nogueira	nogueira	NOUN	NOUN	_	44	flat	_	TokenRange=350:358
+48	pediu	pedir	VERB	VERB	_	21	parataxis	_	TokenRange=359:364
+49	demissao	demissao	NOUN	NOUN	_	48	obj	_	TokenRange=365:373
+50	posto	posto	NOUN	NOUN	_	51	nsubj	_	TokenRange=374:379
+51	alegou	alegar	VERB	VERB	_	48	parataxis	_	TokenRange=380:386
+52	pretende	pretender	VERB	VERB	_	48	ccomp	_	TokenRange=387:395
+53	preparar	preparar	VERB	VERB	_	52	xcomp	_	TokenRange=396:404
+54	campanha	campanha	NOUN	NOUN	_	53	obj	_	TokenRange=405:413
+55	eleitoral	eleitoral	ADJ	ADJ	_	54	amod	_	TokenRange=414:423
+56	proximo	proximo	ADJ	ADJ	_	57	amod	_	TokenRange=424:431
+57	ano	ano	NOUN	NOUN	_	54	nmod	_	TokenRange=432:435
+58	dados	dado	NOUN	NOUN	_	53	obj	_	TokenRange=436:441
+59	emprego	emprego	NOUN	NOUN	_	58	flat	_	TokenRange=442:449
+60	divulgados	divulgado	ADJ	ADJ	_	58	amod	_	TokenRange=450:460
+61	hoje	hoje	ADV	ADV	_	60	advmod	_	TokenRange=461:465
+62	resultado	resultado	NOUN	NOUN	_	60	nsubj	_	TokenRange=466:475
+63	novembro	_	PROPN	PNOUN	_	62	appos	_	TokenRange=476:484
+64	sobre	_	ADP	ADP	_	65	case	_	TokenRange=485:490
+65	trabalho	trabalho	NOUN	NOUN	_	62	nmod	_	TokenRange=491:499
+66	formal	formal	ADJ	ADJ	_	65	amod	_	TokenRange=500:506
+67	interrompida	interrompida	ADJ	ADJ	_	65	amod	_	TokenRange=507:519
+68	serie	_	NOUN	NOUN	_	73	nsubj	_	TokenRange=520:525
+69	sete	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=526:530
+70	meses	mês	NOUN	NOUN	_	73	nmod	_	TokenRange=531:536
+71	seguidos	seguido	ADJ	ADJ	_	70	amod	_	TokenRange=537:545
+72	contratacoes	_	NOUN	NOUN	_	73	nsubj	_	TokenRange=546:558
+73	superaram	superar	VERB	VERB	_	52	parataxis	_	TokenRange=559:568
+74	demissoes	demissoe	NOUN	NOUN	_	73	obj	_	TokenRange=569:578
+75	resultado	resultado	NOUN	NOUN	_	73	nsubj	_	TokenRange=579:588
+76	pior	pior	ADJ	ADJ	_	75	amod	_	TokenRange=589:593
+77	desde	_	ADP	ADP	_	78	case	_	TokenRange=594:599
+78	marco	_	PROPN	PNOUN	_	73	nmod	_	TokenRange=600:605
+79	2017	_	NUM	NUM	NumType=Card	78	nmod	_	TokenRange=606:610
+80	significa	significar	VERB	VERB	_	73	parataxis	_	TokenRange=611:620
+81	interrupcao	interrupcao	ADJ	ADJ	_	80	obj	_	TokenRange=621:632
+82	processo	processo	NOUN	NOUN	_	80	obj	_	TokenRange=633:641
+83	retomada	retomado	ADJ	ADJ	_	84	amod	_	TokenRange=642:650
+84	crescimento	crescimento	NOUN	NOUN	_	80	obj	_	SpaceAfter=No|TokenRange=651:662
+

@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = unica ong df top 100 epoca abrace ajuda mil pacientes cancer leia entrevista familias recebem assistencia social qualificacao acolhimento associacao conta dinheiro publico 2011 grupo uniu governo construir hospital crianca polemica ver diz ilda peliz 31 anos funcionamento cerca mil familias assistidas simultaneamente unica ong distrito federal entrar lista 100 melhores brasil divulgada revista epoca instituto doar recebe dinheiro publico tempos crise aperto orcamento brasileiros abrace conta cerca 50 mil contribuidores alem parceiros empresariais manter projeto cada ano associacao recebe cerca 230 novos pacientes diagnosticados
+1	unica	unico	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	ong	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=6:9
+3	df	_	NOUN	NOUN	_	2	flat	_	TokenRange=10:12
+4	top	_	NOUN	NOUN	_	2	amod	_	TokenRange=13:16
+5	100	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=17:20
+6	epoca	epoca	NOUN	NOUN	_	2	appos	_	TokenRange=21:26
+7	abrace	_	NOUN	NOUN	_	2	appos	_	TokenRange=27:33
+8	ajuda	ajuda	NOUN	NOUN	_	2	appos	_	TokenRange=34:39
+9	mil	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=40:43
+10	pacientes	paciente	NOUN	NOUN	_	8	obj	_	TokenRange=44:53
+11	cancer	cancer	NOUN	NOUN	_	8	appos	_	TokenRange=54:60
+12	leia	ler	VERB	VERB	_	2	acl:relcl	_	TokenRange=61:65
+13	entrevista	entrevista	NOUN	NOUN	_	12	obj	_	TokenRange=66:76
+14	familias	familia	NOUN	NOUN	_	13	amod	_	TokenRange=77:85
+15	recebem	receber	VERB	VERB	_	2	acl:relcl	_	TokenRange=86:93
+16	assistencia	assistencia	NOUN	NOUN	_	15	obj	_	TokenRange=94:105
+17	social	social	ADJ	ADJ	_	16	amod	_	TokenRange=106:112
+18	qualificacao	qualificacao	ADJ	ADJ	_	19	amod	_	TokenRange=113:125
+19	acolhimento	acolhimento	NOUN	NOUN	_	15	obj	_	TokenRange=126:137
+20	associacao	associacao	NOUN	NOUN	_	19	appos	_	TokenRange=138:148
+21	conta	contar	VERB	VERB	_	2	acl:relcl	_	TokenRange=149:154
+22	dinheiro	dinheiro	NOUN	NOUN	_	21	obj	_	TokenRange=155:163
+23	publico	_	ADJ	ADJ	_	22	amod	_	TokenRange=164:171
+24	2011	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=172:176
+25	grupo	grupo	NOUN	NOUN	_	21	nsubj	_	TokenRange=177:182
+26	uniu	uniu	ADJ	ADJ	_	25	amod	_	TokenRange=183:187
+27	governo	governo	NOUN	NOUN	_	25	appos	_	TokenRange=188:195
+28	construir	construir	VERB	VERB	_	25	acl:relcl	_	TokenRange=196:205
+29	hospital	hospital	NOUN	NOUN	_	28	obj	_	TokenRange=206:214
+30	crianca	crianco	NOUN	NOUN	_	29	amod	_	TokenRange=215:222
+31	polemica	polemico	ADJ	ADJ	_	29	amod	_	TokenRange=223:231
+32	ver	ver	VERB	VERB	_	33	ccomp	_	TokenRange=232:235
+33	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=236:239
+34	ilda	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=240:244
+35	peliz	peliz	NOUN	NOUN	_	34	flat	_	TokenRange=245:250
+36	31	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=251:253
+37	anos	ano	NOUN	NOUN	_	33	nmod	_	TokenRange=254:258
+38	funcionamento	funcionamento	NOUN	NOUN	_	34	flat	_	TokenRange=259:272
+39	cerca	cerca	ADV	ADV	_	40	advmod	_	TokenRange=273:278
+40	mil	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=279:282
+41	familias	familia	NOUN	NOUN	_	33	nsubj	_	TokenRange=283:291
+42	assistidas	assistir	VERB	VERB	_	41	acl	_	TokenRange=292:302
+43	simultaneamente	simultaneamente	ADV	ADV	_	48	advmod	_	TokenRange=303:318
+44	unica	unico	ADJ	ADJ	_	45	amod	_	TokenRange=319:324
+45	ong	ong	NOUN	NOUN	_	48	nsubj	_	TokenRange=325:328
+46	distrito	distrito	NOUN	NOUN	_	45	appos	_	TokenRange=329:337
+47	federal	federal	ADJ	ADJ	_	45	amod	_	TokenRange=338:345
+48	entrar	entrar	VERB	VERB	_	41	acl:relcl	_	TokenRange=346:352
+49	lista	lista	NOUN	NOUN	_	48	obj	_	TokenRange=353:358
+50	100	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=359:362
+51	melhores	melhor	NOUN	NOUN	_	49	appos	_	TokenRange=363:371
+52	brasil	brasil	NOUN	NOUN	_	51	amod	_	TokenRange=372:378
+53	divulgada	divulgado	ADJ	ADJ	_	54	amod	_	TokenRange=379:388
+54	revista	revista	NOUN	NOUN	_	48	nsubj	_	TokenRange=389:396
+55	epoca	epoca	ADJ	ADJ	_	54	amod	_	TokenRange=397:402
+56	instituto	instituto	NOUN	NOUN	_	58	nsubj	_	TokenRange=403:412
+57	doar	_	ADJ	VERB	_	56	appos	_	TokenRange=413:417
+58	recebe	receber	VERB	VERB	_	54	acl:relcl	_	TokenRange=418:424
+59	dinheiro	dinheiro	NOUN	NOUN	_	58	obj	_	TokenRange=425:433
+60	publico	_	ADJ	ADJ	_	59	amod	_	TokenRange=434:441
+61	tempos	tempo	NOUN	NOUN	_	58	nmod	_	TokenRange=442:448
+62	crise	crise	NOUN	NOUN	_	58	obj	_	TokenRange=449:454
+63	aperto	aperto	ADJ	ADJ	_	64	amod	_	TokenRange=455:461
+64	orcamento	orcamento	NOUN	NOUN	_	58	nsubj	_	TokenRange=462:471
+65	brasileiros	brasileiro	ADJ	ADJ	_	64	amod	_	TokenRange=472:483
+66	abrace	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=484:490
+67	conta	contar	VERB	VERB	_	48	parataxis	_	TokenRange=491:496
+68	cerca	cerca	ADV	ADV	_	70	advmod	_	TokenRange=497:502
+69	50	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=503:505
+70	mil	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=506:509
+71	contribuidores	contribuidor	NOUN	NOUN	_	80	obj	_	TokenRange=510:524
+72	alem	_	ADV	ADV	_	73	advmod	_	TokenRange=525:529
+73	parceiros	parceiro	NOUN	NOUN	_	71	appos	_	TokenRange=530:539
+74	empresariais	empresarial	ADJ	ADJ	_	73	amod	_	TokenRange=540:552
+75	manter	manter	VERB	VERB	_	73	acl:inf	_	TokenRange=553:559
+76	projeto	projeto	NOUN	NOUN	_	75	obj	_	TokenRange=560:567
+77	cada	_	DET	DET	_	78	det	_	TokenRange=568:572
+78	ano	ano	NOUN	NOUN	_	75	nmod	_	TokenRange=573:576
+79	associacao	associacao	NOUN	NOUN	_	80	nsubj	_	TokenRange=577:587
+80	recebe	receber	VERB	VERB	_	67	parataxis	_	TokenRange=588:594
+81	cerca	cerca	ADV	ADV	_	40	advmod	_	TokenRange=595:600
+82	230	_	NUM	NUM	NumType=Card	84	nummod	_	TokenRange=601:604
+83	novos	novo	ADJ	ADJ	_	84	amod	_	TokenRange=605:610
+84	pacientes	paciente	NOUN	NOUN	_	80	obj	_	TokenRange=611:620
+85	diagnosticados	diagnosticar	VERB	VERB	_	84	acl	_	SpaceAfter=No|TokenRange=621:635
+

@@ -1,0 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = desse jeito vamos dar presidencia lula 2018 diz aloysio ministro relacoes exteriores afirma psdb vive histeria pode facilitar volta petista planalto brasilia irritado racha psdb ministro relacoes exteriores aloysio nunes ferreira disse
+1	desse	_	ADP	ADP	_	2	case	_	TokenRange=0:5
+2	jeito	jeito	NOUN	NOUN	_	4	nmod	_	TokenRange=6:11
+3	vamos	ir	AUX	AUX	_	4	aux	_	TokenRange=12:17
+4	dar	dar	VERB	VERB	_	32	ccomp	_	TokenRange=18:21
+5	presidencia	presidencia	NOUN	NOUN	_	4	obj	_	TokenRange=22:33
+6	lula	lula	NOUN	NOUN	_	5	appos	_	TokenRange=34:38
+7	2018	_	NUM	NUM	NumType=Card	6	nmod	_	TokenRange=39:43
+8	diz	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=44:47
+9	aloysio	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=48:55
+10	ministro	ministro	NOUN	NOUN	_	9	appos	_	TokenRange=56:64
+11	relacoes	relacoe	NOUN	NOUN	_	10	amod	_	TokenRange=65:73
+12	exteriores	exterior	ADJ	ADJ	_	10	amod	_	TokenRange=74:84
+13	afirma	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=85:91
+14	psdb	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=92:96
+15	vive	_	VERB	VERB	_	13	ccomp	_	TokenRange=97:101
+16	histeria	histeria	NOUN	NOUN	_	15	obj	_	TokenRange=102:110
+17	pode	_	AUX	AUX	_	18	aux	_	TokenRange=111:115
+18	facilitar	facilitar	VERB	VERB	_	13	ccomp	_	TokenRange=116:125
+19	volta	volta	NOUN	NOUN	_	18	obj	_	TokenRange=126:131
+20	petista	petista	NOUN	NOUN	_	19	amod	_	TokenRange=132:139
+21	planalto	planalto	NOUN	NOUN	_	18	nmod	_	TokenRange=140:148
+22	brasilia	brasilia	NOUN	NOUN	_	21	flat	_	TokenRange=149:157
+23	irritado	irritado	ADJ	ADJ	_	21	amod	_	TokenRange=158:166
+24	racha	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=167:172
+25	psdb	_	NOUN	NOUN	_	24	appos	_	TokenRange=173:177
+26	ministro	ministro	NOUN	NOUN	_	25	flat	_	TokenRange=178:186
+27	relacoes	relacoe	ADJ	ADJ	_	26	amod	_	TokenRange=187:195
+28	exteriores	exterior	ADJ	ADJ	_	26	amod	_	TokenRange=196:206
+29	aloysio	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=207:214
+30	nunes	_	NOUN	NOUN	_	29	flat	_	TokenRange=215:220
+31	ferreira	_	ADJ	ADJ	_	29	flat	_	TokenRange=221:229
+32	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=230:235
+

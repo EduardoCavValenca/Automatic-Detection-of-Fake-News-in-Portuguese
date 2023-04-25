@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = policia federal deflagrou nesta segundafeira 5 operacao greenfield investiga gestao temeraria fraudulenta quatro maiores fundos pensao pais funcef petros previ postalis acao conjunta pf ministerio publico federal superintendencia nacional previdencia complementar previc comissao valores mobiliarios cvm casa extesoureiro pt joao vaccari neto alvo busca apreensao empresario walter torre expresidente postalis alexej predtechensky conduzidos coercitivamente investigado levado depor liberado alexej predtechensky denunciado julho deste ano procuradoria republica paulo expresidente postalis sete investigados acusados fraude 465 milhoes fundo
+1	policia	policia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=8:15
+3	deflagrou	deflagrar	VERB	VERB	_	0	root	_	TokenRange=16:25
+4	nesta	_	ADP	ADP	_	5	case	_	TokenRange=26:31
+5	segundafeira	_	NOUN	NOUN	_	3	nmod	_	TokenRange=32:44
+6	5	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=45:46
+7	operacao	operacao	NOUN	NOUN	_	3	obj	_	TokenRange=47:55
+8	greenfield	_	ADJ	ADJ	_	7	amod	_	TokenRange=56:66
+9	investiga	investigar	VERB	VERB	_	3	parataxis	_	TokenRange=67:76
+10	gestao	gestao	NOUN	NOUN	_	9	obj	_	TokenRange=77:83
+11	temeraria	temeraria	ADJ	ADJ	_	10	amod	_	TokenRange=84:93
+12	fraudulenta	fraudulento	ADJ	ADJ	_	10	amod	_	TokenRange=94:105
+13	quatro	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=106:112
+14	maiores	maior	ADJ	ADJ	_	15	amod	_	TokenRange=113:120
+15	fundos	_	NOUN	NOUN	_	10	appos	_	TokenRange=121:127
+16	pensao	pensao	ADJ	ADJ	_	15	amod	_	TokenRange=128:134
+17	pais	_	NOUN	NOUN	_	15	appos	_	TokenRange=135:139
+18	funcef	_	ADJ	ADJ	_	19	amod	_	TokenRange=140:146
+19	petros	petro	NOUN	NOUN	_	9	nsubj	_	TokenRange=147:153
+20	previ	_	ADJ	ADJ	_	19	amod	_	TokenRange=154:159
+21	postalis	_	ADJ	NOUN	_	19	amod	_	TokenRange=160:168
+22	acao	acao	NOUN	NOUN	_	19	appos	_	TokenRange=169:173
+23	conjunta	conjunto	ADJ	ADJ	_	22	amod	_	TokenRange=174:182
+24	pf	_	CCONJ	CONJ	_	25	cc	_	TokenRange=183:185
+25	ministerio	ministerio	NOUN	NOUN	_	22	conj	_	TokenRange=186:196
+26	publico	_	ADJ	ADJ	_	25	amod	_	TokenRange=197:204
+27	federal	federal	ADJ	ADJ	_	25	amod	_	TokenRange=205:212
+28	superintendencia	_	NOUN	NOUN	_	25	appos	_	TokenRange=213:229
+29	nacional	nacional	ADJ	ADJ	_	28	amod	_	TokenRange=230:238
+30	previdencia	_	NOUN	NOUN	_	28	appos	_	TokenRange=239:250
+31	complementar	complementar	ADJ	ADJ	_	30	amod	_	TokenRange=251:263
+32	previc	_	ADJ	NOUN	_	30	amod	_	TokenRange=264:270
+33	comissao	comissao	NOUN	NOUN	_	28	appos	_	TokenRange=271:279
+34	valores	_	NOUN	NOUN	_	33	appos	_	TokenRange=280:287
+35	mobiliarios	mobiliario	ADJ	ADJ	_	34	amod	_	TokenRange=288:299
+36	cvm	_	X	ADP	_	37	appos	_	TokenRange=300:303
+37	casa	casa	NOUN	NOUN	_	33	appos	_	TokenRange=304:308
+38	extesoureiro	extesoureiro	NOUN	NOUN	_	37	flat	_	TokenRange=309:321
+39	pt	_	NOUN	NOUN	_	37	appos	_	TokenRange=322:324
+40	joao	joao	NOUN	NOUN	_	37	appos	_	TokenRange=325:329
+41	vaccari	vaccar	NOUN	NOUN	_	37	flat	_	TokenRange=330:337
+42	neto	neto	ADJ	ADJ	_	37	amod	_	TokenRange=338:342
+43	alvo	alvo	ADJ	ADJ	_	44	amod	_	TokenRange=343:347
+44	busca	busca	NOUN	NOUN	_	9	parataxis	_	TokenRange=348:353
+45	apreensao	apreensao	ADJ	ADJ	_	44	amod	_	TokenRange=354:363
+46	empresario	empresario	NOUN	NOUN	_	44	amod	_	TokenRange=364:374
+47	walter	_	PROPN	PNOUN	_	44	appos	_	TokenRange=375:381
+48	torre	_	NOUN	NOUN	_	47	flat	_	TokenRange=382:387
+49	expresidente	expresidente	NOUN	NOUN	_	44	appos	_	TokenRange=388:400
+50	postalis	_	ADJ	ADJ	_	51	amod	_	TokenRange=401:409
+51	alexej	_	NOUN	PNOUN	_	44	appos	_	TokenRange=410:416
+52	predtechensky	_	PROPN	PNOUN	_	51	flat	_	TokenRange=417:430
+53	conduzidos	conduzir	VERB	VERB	_	51	acl	_	TokenRange=431:441
+54	coercitivamente	coercitivamente	ADV	ADV	_	55	advmod	_	TokenRange=442:457
+55	investigado	investigar	VERB	VERB	_	51	acl	_	TokenRange=458:469
+56	levado	levar	VERB	VERB	_	55	acl	_	TokenRange=470:476
+57	depor	depor	ADV	ADV	_	56	advmod	_	TokenRange=477:482
+58	liberado	liberar	VERB	VERB	_	56	acl	_	TokenRange=483:491
+59	alexej	alexej	NOUN	NOUN	_	56	nsubj:pass	_	TokenRange=492:498
+60	predtechensky	_	NOUN	NOUN	_	59	flat	_	TokenRange=499:512
+61	denunciado	denunciar	VERB	VERB	_	59	acl	_	TokenRange=513:523
+62	julho	_	PROPN	PNOUN	_	61	nmod	_	TokenRange=524:529
+63	deste	_	ADP	ADP	_	64	case	_	TokenRange=530:535
+64	ano	ano	NOUN	NOUN	_	62	nmod	_	TokenRange=536:539
+65	procuradoria	procuradoria	NOUN	NOUN	_	61	nsubj	_	TokenRange=540:552
+66	republica	republico	ADJ	ADJ	_	65	amod	_	TokenRange=553:562
+67	paulo	paulo	ADJ	ADJ	_	65	appos	_	TokenRange=563:568
+68	expresidente	expresidente	NOUN	NOUN	_	65	appos	_	TokenRange=569:581
+69	postalis	_	ADJ	ADJ	_	68	amod	_	TokenRange=582:590
+70	sete	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=591:595
+71	investigados	investigado	NOUN	NOUN	_	65	appos	_	TokenRange=596:608
+72	acusados	acusar	VERB	VERB	_	71	acl	_	TokenRange=609:617
+73	fraude	fraude	NOUN	NOUN	_	72	obj	_	TokenRange=618:624
+74	465	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=625:628
+75	milhoes	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=629:636
+76	fundo	fundo	NOUN	NOUN	_	72	advmod	_	SpaceAfter=No|TokenRange=637:642
+

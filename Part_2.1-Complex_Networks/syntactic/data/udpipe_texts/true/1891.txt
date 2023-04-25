@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan diz cunha ainda exerce alguma influencia governo lider pmdb senado voltou criticar influencia segundo exdeputado preso exerce sobre palacio planalto lider pmdb senado expresidente casa senador renan calheiros pmdbal
+1	renan	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	cunha	cunha	NOUN	NOUN	_	2	obj	_	TokenRange=10:15
+4	ainda	ainda	ADV	ADV	_	5	advmod	_	TokenRange=16:21
+5	exerce	exercer	VERB	VERB	_	2	ccomp	_	TokenRange=22:28
+6	alguma	_	DET	DET	_	7	det	_	TokenRange=29:35
+7	influencia	_	NOUN	NOUN	_	5	obj	_	TokenRange=36:46
+8	governo	governo	NOUN	NOUN	_	5	nsubj	_	TokenRange=47:54
+9	lider	lider	NOUN	NOUN	_	8	appos	_	TokenRange=55:60
+10	pmdb	_	NOUN	NOUN	_	8	appos	_	TokenRange=61:65
+11	senado	senado	NOUN	NOUN	_	10	flat	_	TokenRange=66:72
+12	voltou	voltar	AUX	AUX	_	13	aux	_	TokenRange=73:79
+13	criticar	criticar	VERB	VERB	_	5	conj	_	TokenRange=80:88
+14	influencia	_	NOUN	NOUN	_	13	obj	_	TokenRange=89:99
+15	segundo	_	ADP	ADP	_	16	case	_	TokenRange=100:107
+16	exdeputado	exdeputado	NOUN	NOUN	_	13	nmod	_	TokenRange=108:118
+17	preso	_	ADJ	ADJ	_	16	amod	_	TokenRange=119:124
+18	exerce	exercer	VERB	VERB	_	13	advcl	_	TokenRange=125:131
+19	sobre	_	ADP	ADP	_	20	case	_	TokenRange=132:137
+20	palacio	palacio	NOUN	NOUN	_	18	nmod	_	TokenRange=138:145
+21	planalto	planalto	ADJ	ADJ	_	20	amod	_	TokenRange=146:154
+22	lider	lider	NOUN	NOUN	_	20	appos	_	TokenRange=155:160
+23	pmdb	_	NOUN	NOUN	_	22	appos	_	TokenRange=161:165
+24	senado	senado	NOUN	NOUN	_	22	appos	_	TokenRange=166:172
+25	expresidente	expresidente	NOUN	NOUN	_	22	amod	_	TokenRange=173:185
+26	casa	casa	NOUN	NOUN	_	22	appos	_	TokenRange=186:190
+27	senador	senador	NOUN	NOUN	_	28	flat	_	TokenRange=191:198
+28	renan	_	NOUN	NOUN	_	26	appos	_	TokenRange=199:204
+29	calheiros	calheiro	NOUN	NOUN	_	28	flat	_	TokenRange=205:214
+30	pmdbal	_	ADJ	ADJ	_	28	amod	_	SpaceAfter=No|TokenRange=215:221
+

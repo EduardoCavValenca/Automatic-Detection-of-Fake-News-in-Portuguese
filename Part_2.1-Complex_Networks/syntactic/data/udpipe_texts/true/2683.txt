@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = promotor diz vai pedir pena 6 20 anos cunhado ana hickmann gustavo alega opcao gustavo correa interrogado nesta segunda audiencia justica juiza vai decidir julgado inocentado morte rodrigo padua maio 2016 hotel promotor justica francisco santiago disse nesta segundafeira 18 vai pedir pena seis 20 anos prisao gustavo correa cunhado apresentadora ana hickmann interrogado belo horizonte audiencia sobre morte rodrigo augusto padua nesta segunda disse faria exatamente tudo novo porque opcao apresentadora ana hickmann sofreu atentado fa capital mineira maio 2016 crime aconteceu dentro
+1	promotor	promotor	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=9:12
+3	vai	ir	AUX	AUX	_	4	aux	_	TokenRange=13:16
+4	pedir	pedir	VERB	VERB	_	2	xcomp	_	TokenRange=17:22
+5	pena	_	NOUN	NOUN	_	4	obj	_	TokenRange=23:27
+6	6	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=28:29
+7	20	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=30:32
+8	anos	ano	NOUN	NOUN	_	4	obj	_	TokenRange=33:37
+9	cunhado	cunhado	ADJ	ADJ	_	4	obj	_	TokenRange=38:45
+10	ana	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=46:49
+11	hickmann	_	NOUN	NOUN	_	10	flat	_	TokenRange=50:58
+12	gustavo	gustavo	NOUN	NOUN	_	10	flat	_	TokenRange=59:66
+13	alega	alegar	VERB	VERB	_	4	conj	_	TokenRange=67:72
+14	opcao	opcao	NOUN	NOUN	_	13	obj	_	TokenRange=73:78
+15	gustavo	gustavo	NOUN	NOUN	_	14	appos	_	TokenRange=79:86
+16	correa	correa	NOUN	NOUN	_	15	flat	_	TokenRange=87:93
+17	interrogado	interrogar	VERB	VERB	_	14	acl	_	TokenRange=94:105
+18	nesta	_	ADP	ADP	_	20	case	_	TokenRange=106:111
+19	segunda	segundo	ADJ	ADJ	_	20	amod	_	TokenRange=112:119
+20	audiencia	audiencia	NOUN	NOUN	_	17	nmod	_	TokenRange=120:129
+21	justica	justico	ADJ	ADJ	_	22	amod	_	TokenRange=130:137
+22	juiza	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=138:143
+23	vai	ir	AUX	AUX	_	24	aux	_	TokenRange=144:147
+24	decidir	decidir	VERB	VERB	_	4	parataxis	_	TokenRange=148:155
+25	julgado	julgado	NOUN	NOUN	_	24	obj	_	TokenRange=156:163
+26	inocentado	inocentado	ADJ	ADJ	_	25	amod	_	TokenRange=164:174
+27	morte	morte	NOUN	NOUN	_	24	obj	_	TokenRange=175:180
+28	rodrigo	_	PROPN	PNOUN	_	27	appos	_	TokenRange=181:188
+29	padua	padua	NOUN	NOUN	_	28	flat	_	TokenRange=189:194
+30	maio	_	PROPN	PNOUN	_	27	nmod	_	TokenRange=195:199
+31	2016	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=200:204
+32	hotel	hotel	NOUN	NOUN	_	24	nsubj	_	TokenRange=205:210
+33	promotor	promotor	NOUN	NOUN	_	32	appos	_	TokenRange=211:219
+34	justica	justico	ADJ	ADJ	_	32	amod	_	TokenRange=220:227
+35	francisco	francisco	NOUN	NOUN	_	32	appos	_	TokenRange=228:237
+36	santiago	santiago	NOUN	NOUN	_	35	flat	_	TokenRange=238:246
+37	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=247:252
+38	nesta	_	ADP	ADP	_	39	case	_	TokenRange=253:258
+39	segundafeira	_	NOUN	NOUN	_	37	nmod	_	TokenRange=259:271
+40	18	_	NUM	NUM	NumType=Card	39	appos	_	TokenRange=272:274
+41	vai	ir	AUX	AUX	_	42	aux	_	TokenRange=275:278
+42	pedir	pedir	VERB	VERB	_	37	ccomp	_	TokenRange=279:284
+43	pena	_	NOUN	NOUN	_	42	obj	_	TokenRange=285:289
+44	seis	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=290:294
+45	20	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=295:297
+46	anos	ano	NOUN	NOUN	_	42	obj	_	TokenRange=298:302
+47	prisao	prisao	ADJ	ADJ	_	46	amod	_	TokenRange=303:309
+48	gustavo	gustavo	NOUN	NOUN	_	42	nsubj	_	TokenRange=310:317
+49	correa	correa	NOUN	NOUN	_	48	flat	_	TokenRange=318:324
+50	cunhado	cunhado	ADJ	ADJ	_	48	amod	_	TokenRange=325:332
+51	apresentadora	apresentador	NOUN	NOUN	_	48	appos	_	TokenRange=333:346
+52	ana	_	NOUN	NOUN	_	48	appos	_	TokenRange=347:350
+53	hickmann	_	NOUN	NOUN	_	52	flat	_	TokenRange=351:359
+54	interrogado	interrogar	VERB	VERB	_	42	acl	_	TokenRange=360:371
+55	belo	belo	ADJ	ADJ	_	56	amod	_	TokenRange=372:376
+56	horizonte	horizonte	NOUN	NOUN	_	54	nmod	_	TokenRange=377:386
+57	audiencia	audiencia	NOUN	NOUN	_	54	nsubj	_	TokenRange=387:396
+58	sobre	_	ADP	ADP	_	59	case	_	TokenRange=397:402
+59	morte	morte	NOUN	NOUN	_	57	nmod	_	TokenRange=403:408
+60	rodrigo	_	NOUN	NOUN	_	59	appos	_	TokenRange=409:416
+61	augusto	_	NOUN	NOUN	_	60	flat	_	TokenRange=417:424
+62	padua	padua	NOUN	NOUN	_	60	flat	_	TokenRange=425:430
+63	nesta	_	ADP	ADP	_	64	case	_	TokenRange=431:436
+64	segunda	_	PROPN	PNOUN	_	54	nmod	_	TokenRange=437:444
+65	disse	dizer	VERB	VERB	_	37	parataxis	_	TokenRange=445:450
+66	faria	fazer	VERB	VERB	_	65	xcomp	_	TokenRange=451:456
+67	exatamente	exatamente	ADV	ADV	_	66	advmod	_	TokenRange=457:467
+68	tudo	_	PRON	PRON	_	66	obj	_	TokenRange=468:472
+69	novo	novo	ADJ	ADJ	_	66	xcomp	_	TokenRange=473:477
+70	porque	_	CCONJ	CONJ	_	75	mark	_	TokenRange=478:484
+71	opcao	opcao	NOUN	NOUN	_	75	nsubj	_	TokenRange=485:490
+72	apresentadora	apresentador	NOUN	NOUN	_	71	flat	_	TokenRange=491:504
+73	ana	_	NOUN	NOUN	_	71	appos	_	TokenRange=505:508
+74	hickmann	_	NOUN	NOUN	_	73	flat	_	TokenRange=509:517
+75	sofreu	sofrer	VERB	VERB	_	65	advcl	_	TokenRange=518:524
+76	atentado	atentado	NOUN	NOUN	_	75	obj	_	TokenRange=525:533
+77	fa	_	NOUN	NOUN	_	76	nmod	_	TokenRange=534:536
+78	capital	capital	NOUN	NOUN	_	76	nmod	_	TokenRange=537:544
+79	mineira	mineiro	ADJ	ADJ	_	78	amod	_	TokenRange=545:552
+80	maio	_	PROPN	PNOUN	_	83	nmod	_	TokenRange=553:557
+81	2016	_	NUM	NUM	NumType=Card	80	nmod	_	TokenRange=558:562
+82	crime	crime	NOUN	NOUN	_	83	nsubj	_	TokenRange=563:568
+83	aconteceu	acontecer	VERB	VERB	_	65	parataxis	_	TokenRange=569:578
+84	dentro	dentro	ADV	ADV	_	83	advmod	_	SpaceAfter=No|TokenRange=579:585
+

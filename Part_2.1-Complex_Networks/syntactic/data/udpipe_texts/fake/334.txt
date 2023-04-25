@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = monica iozzi fala sobre assedio brasilia candidato presidencia mandava flores vinhos joias fez porque brasilia assedio sexual funciona assedio moral denunciou atriz 1 caso entrevistar deputado pegou cintura antes responder pergunta dei tapa mao perguntei fazendo disse queria deixar vontade respondi danilo gentili trabalhava aqui senhor tentou deixar vontade 2 caso senador candidato presidencia mandava flores deixava flores hotel vieram garrafas vinho brinco vivara
+1	monica	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	iozzi	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:12
+3	fala	_	VERB	VERB	_	0	root	_	TokenRange=13:17
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=18:23
+5	assedio	assedio	NOUN	NOUN	_	3	nmod	_	TokenRange=24:31
+6	brasilia	brasilia	NOUN	NOUN	_	3	nsubj	_	TokenRange=32:40
+7	candidato	candidato	NOUN	NOUN	_	9	nsubj	_	TokenRange=41:50
+8	presidencia	presidencia	NOUN	NOUN	_	7	flat	_	TokenRange=51:62
+9	mandava	mandar	VERB	VERB	_	3	conj	_	TokenRange=63:70
+10	flores	flor	NOUN	NOUN	_	9	obj	_	TokenRange=71:77
+11	vinhos	vinho	NOUN	NOUN	_	9	obj	_	TokenRange=78:84
+12	joias	joia	NOUN	NOUN	_	9	nsubj	_	TokenRange=85:90
+13	fez	fazer	VERB	VERB	_	3	conj	_	TokenRange=91:94
+14	porque	_	CCONJ	CONJ	_	18	mark	_	TokenRange=95:101
+15	brasilia	brasilia	NOUN	NOUN	_	18	nsubj	_	TokenRange=102:110
+16	assedio	assedio	NOUN	NOUN	_	18	nsubj	_	TokenRange=111:118
+17	sexual	sexual	ADJ	ADJ	_	16	amod	_	TokenRange=119:125
+18	funciona	funcionar	VERB	VERB	_	13	advcl	_	TokenRange=126:134
+19	assedio	assedio	NOUN	NOUN	_	18	obj	_	TokenRange=135:142
+20	moral	moral	ADJ	ADJ	_	19	amod	_	TokenRange=143:148
+21	denunciou	denunciar	VERB	VERB	_	3	parataxis	_	TokenRange=149:158
+22	atriz	_	NOUN	NOUN	_	21	obj	_	TokenRange=159:164
+23	1	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=165:166
+24	caso	caso	NOUN	NOUN	_	27	mark	_	TokenRange=167:171
+25	entrevistar	entrevistar	VERB	VERB	_	27	advcl	_	TokenRange=172:183
+26	deputado	deputado	NOUN	NOUN	_	25	obj	_	TokenRange=184:192
+27	pegou	pegar	VERB	VERB	_	22	acl:relcl	_	TokenRange=193:198
+28	cintura	cintura	NOUN	NOUN	_	27	obj	_	TokenRange=199:206
+29	antes	antes	ADV	ADV	_	30	advmod	_	TokenRange=207:212
+30	responder	responder	VERB	VERB	_	27	ccomp	_	TokenRange=213:222
+31	pergunta	pergunta	NOUN	NOUN	_	30	obj	_	TokenRange=223:231
+32	dei	_	X	ADPPRON	_	33	case	_	TokenRange=232:235
+33	tapa	tapa	NOUN	NOUN	_	31	nmod	_	TokenRange=236:240
+34	mao	mao	NOUN	NOUN	_	35	obj	_	TokenRange=241:244
+35	perguntei	perguntar	VERB	VERB	_	33	acl:relcl	_	TokenRange=245:254
+36	fazendo	fazer	VERB	VERB	_	35	acl	_	TokenRange=255:262
+37	disse	dizer	VERB	VERB	_	36	ccomp	_	TokenRange=263:268
+38	queria	querer	VERB	VERB	_	35	xcomp	_	TokenRange=269:275
+39	deixar	deixar	VERB	VERB	_	38	xcomp	_	TokenRange=276:282
+40	vontade	vontade	NOUN	NOUN	_	39	obj	_	TokenRange=283:290
+41	respondi	responder	VERB	VERB	_	38	ccomp	_	TokenRange=291:299
+42	danilo	_	PROPN	PNOUN	_	44	nsubj	_	TokenRange=300:306
+43	gentili	_	PROPN	PNOUN	_	42	flat	_	TokenRange=307:314
+44	trabalhava	trabalhar	VERB	VERB	_	41	conj	_	TokenRange=315:325
+45	aqui	aqui	ADV	ADV	_	44	advmod	_	TokenRange=326:330
+46	senhor	senhor	NOUN	NOUN	_	47	nsubj	_	TokenRange=331:337
+47	tentou	tentar	VERB	VERB	_	44	conj	_	TokenRange=338:344
+48	deixar	deixar	VERB	VERB	_	47	xcomp	_	TokenRange=345:351
+49	vontade	vontade	NOUN	NOUN	_	48	obj	_	TokenRange=352:359
+50	2	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=360:361
+51	caso	caso	NOUN	NOUN	_	47	nsubj	_	TokenRange=362:366
+52	senador	senador	NOUN	NOUN	_	47	nsubj	_	TokenRange=367:374
+53	candidato	candidato	NOUN	NOUN	_	52	appos	_	TokenRange=375:384
+54	presidencia	presidencia	ADJ	NOUN	_	53	flat	_	TokenRange=385:396
+55	mandava	mandar	VERB	VERB	_	52	acl:relcl	_	TokenRange=397:404
+56	flores	flor	NOUN	NOUN	_	55	obj	_	TokenRange=405:411
+57	deixava	deixar	VERB	VERB	_	55	parataxis	_	TokenRange=412:419
+58	flores	flor	NOUN	NOUN	_	57	obj	_	TokenRange=420:426
+59	hotel	hotel	NOUN	NOUN	_	60	nsubj	_	TokenRange=427:432
+60	vieram	vir	VERB	VERB	_	57	conj	_	TokenRange=433:439
+61	garrafas	garrafa	NOUN	NOUN	_	60	nsubj	_	TokenRange=440:448
+62	vinho	vinho	NOUN	NOUN	_	61	appos	_	TokenRange=449:454
+63	brinco	brinco	NOUN	NOUN	_	61	flat	_	TokenRange=455:461
+64	vivara	vivaro	ADJ	ADJ	_	61	amod	_	SpaceAfter=No|TokenRange=462:468
+

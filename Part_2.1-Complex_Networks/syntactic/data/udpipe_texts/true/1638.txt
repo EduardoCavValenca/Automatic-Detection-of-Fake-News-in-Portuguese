@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = retrospectiva 2017 principais crimes violentos chocaram regiao ano adolescente espancado r 5 pirassununga sp menina 2 anos espancada tios primeiro homicidio 15 anos trabiju sp crimes marcaram 2017 ano 2017 registrou diversas mortes violentas feminicidios mulher defendendo marido violentos mortes motivos banais espancamento criancas marcaram algumas cidades regiao g1 listou noticias sobre crimes publicadas janeiro
+1	retrospectiva	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:13
+2	2017	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=14:18
+3	principais	principal	ADJ	ADJ	_	4	amod	_	TokenRange=19:29
+4	crimes	crime	NOUN	NOUN	_	6	nsubj	_	TokenRange=30:36
+5	violentos	violento	ADJ	ADJ	_	4	amod	_	TokenRange=37:46
+6	chocaram	chocar	VERB	VERB	_	0	root	_	TokenRange=47:55
+7	regiao	regiao	NOUN	NOUN	_	6	obj	_	TokenRange=56:62
+8	ano	ano	NOUN	NOUN	_	7	appos	_	TokenRange=63:66
+9	adolescente	adolescente	ADJ	ADJ	_	8	amod	_	TokenRange=67:78
+10	espancado	espancado	ADJ	ADJ	_	8	amod	_	TokenRange=79:88
+11	r	r	NOUN	NOUN	_	8	appos	_	TokenRange=89:90
+12	5	_	NUM	NUM	NumType=Card	11	appos	_	TokenRange=91:92
+13	pirassununga	pirassununga	NOUN	NOUN	_	11	appos	_	TokenRange=93:105
+14	sp	_	NOUN	NOUN	_	15	appos	_	TokenRange=106:108
+15	menina	menino	NOUN	NOUN	_	11	appos	_	TokenRange=109:115
+16	2	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=116:117
+17	anos	ano	NOUN	NOUN	_	15	appos	_	TokenRange=118:122
+18	espancada	espancar	VERB	VERB	_	15	acl	_	TokenRange=123:132
+19	tios	tio	NOUN	NOUN	_	18	nsubj	_	TokenRange=133:137
+20	primeiro	primeiro	ADJ	ADJ	_	21	amod	_	TokenRange=138:146
+21	homicidio	homicidio	NOUN	NOUN	_	19	appos	_	TokenRange=147:156
+22	15	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=157:159
+23	anos	ano	NOUN	NOUN	_	21	appos	_	TokenRange=160:164
+24	trabiju	trabiju	NOUN	NOUN	_	23	appos	_	TokenRange=165:172
+25	sp	_	X	DET	_	26	case	_	TokenRange=173:175
+26	crimes	crime	NOUN	NOUN	_	27	nsubj	_	TokenRange=176:182
+27	marcaram	marcar	VERB	VERB	_	23	acl:relcl	_	TokenRange=183:191
+28	2017	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=192:196
+29	ano	ano	NOUN	NOUN	_	27	nmod	_	TokenRange=197:200
+30	2017	_	NUM	NUM	NumType=Card	29	nmod	_	TokenRange=201:205
+31	registrou	registrar	VERB	VERB	_	6	parataxis	_	TokenRange=206:215
+32	diversas	_	DET	DET	_	33	det	_	TokenRange=216:224
+33	mortes	morte	NOUN	NOUN	_	31	obj	_	TokenRange=225:231
+34	violentas	violento	ADJ	ADJ	_	33	amod	_	TokenRange=232:241
+35	feminicidios	feminicidio	NOUN	NOUN	_	33	amod	_	TokenRange=242:254
+36	mulher	mulher	NOUN	NOUN	_	33	appos	_	TokenRange=255:261
+37	defendendo	defender	VERB	VERB	_	33	acl	_	TokenRange=262:272
+38	marido	marido	NOUN	NOUN	_	37	obj	_	TokenRange=273:279
+39	violentos	violento	ADJ	ADJ	_	40	amod	_	TokenRange=280:289
+40	mortes	morte	NOUN	NOUN	_	38	appos	_	TokenRange=290:296
+41	motivos	motivo	NOUN	NOUN	_	40	appos	_	TokenRange=297:304
+42	banais	banal	ADJ	ADJ	_	41	amod	_	TokenRange=305:311
+43	espancamento	espancamento	NOUN	NOUN	_	45	nsubj	_	TokenRange=312:324
+44	criancas	crianca	NOUN	NOUN	_	41	appos	_	TokenRange=325:333
+45	marcaram	marcar	VERB	VERB	_	6	parataxis	_	TokenRange=334:342
+46	algumas	_	DET	DET	_	47	det	_	TokenRange=343:350
+47	cidades	cidade	NOUN	NOUN	_	45	obj	_	TokenRange=351:358
+48	regiao	regiao	NOUN	NOUN	_	45	nmod	_	TokenRange=359:365
+49	g1	_	NUM	NUM	_	48	appos	_	TokenRange=366:368
+50	listou	listar	VERB	VERB	_	45	parataxis	_	TokenRange=369:375
+51	noticias	noticia	NOUN	NOUN	_	50	obj	_	TokenRange=376:384
+52	sobre	_	ADP	ADP	_	53	case	_	TokenRange=385:390
+53	crimes	crime	NOUN	NOUN	_	51	nmod	_	TokenRange=391:397
+54	publicadas	publicar	VERB	VERB	_	53	acl	_	TokenRange=398:408
+55	janeiro	_	PROPN	PNOUN	_	53	appos	_	SpaceAfter=No|TokenRange=409:416
+

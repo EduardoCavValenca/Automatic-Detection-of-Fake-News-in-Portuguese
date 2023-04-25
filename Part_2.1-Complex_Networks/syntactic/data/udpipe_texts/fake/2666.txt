@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acordo sergio machado trio jucasarneyrenan recebeu r 71 milhoes propinas acordo depoimento machado renan calheiros recebeu r 32 2 milhoes propina contratos transpetro romero juca r 21 milhoes jose sarney r 18 5 milhoes pois deixa passar ne teori afinal contas presidente republica pmdb confira imagem abaixo trecho documento enviado pgr
+1	acordo	acordo	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:6
+2	sergio	sergio	ADJ	ADJ	_	1	amod	_	TokenRange=7:13
+3	machado	machado	ADJ	ADJ	_	1	amod	_	TokenRange=14:21
+4	trio	trio	NOUN	NOUN	_	1	appos	_	TokenRange=22:26
+5	jucasarneyrenan	_	ADJ	ADJ	_	1	amod	_	TokenRange=27:42
+6	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=43:50
+7	r	r	NOUN	NOUN	_	6	obj	_	TokenRange=51:52
+8	71	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=53:55
+9	milhoes	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=56:63
+10	propinas	propina	NOUN	NOUN	_	6	obj	_	TokenRange=64:72
+11	acordo	acordo	NOUN	NOUN	_	16	obj	_	TokenRange=73:79
+12	depoimento	depoimento	NOUN	NOUN	_	11	appos	_	TokenRange=80:90
+13	machado	machado	ADJ	ADJ	_	12	amod	_	TokenRange=91:98
+14	renan	_	NOUN	NOUN	_	12	appos	_	TokenRange=99:104
+15	calheiros	calheiro	NOUN	NOUN	_	14	flat	_	TokenRange=105:114
+16	recebeu	receber	VERB	VERB	_	6	parataxis	_	TokenRange=115:122
+17	r	r	NOUN	NOUN	_	16	obj	_	TokenRange=123:124
+18	32	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=125:127
+19	2	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=128:129
+20	milhoes	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=130:137
+21	propina	propino	ADJ	ADJ	_	16	obj	_	TokenRange=138:145
+22	contratos	contrato	NOUN	NOUN	_	16	obj	_	TokenRange=146:155
+23	transpetro	transpetro	ADJ	ADJ	_	22	amod	_	TokenRange=156:166
+24	romero	romero	NOUN	NOUN	_	22	appos	_	TokenRange=167:173
+25	juca	juca	NOUN	NOUN	_	24	flat	_	TokenRange=174:178
+26	r	r	NOUN	NOUN	_	29	flat	_	TokenRange=179:180
+27	21	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=181:183
+28	milhoes	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=184:191
+29	jose	jose	NOUN	NOUN	_	22	appos	_	TokenRange=192:196
+30	sarney	sarney	NOUN	NOUN	_	29	flat	_	TokenRange=197:203
+31	r	r	NOUN	NOUN	_	29	flat	_	TokenRange=204:205
+32	18	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=206:208
+33	5	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=209:210
+34	milhoes	_	NOUN	NOUN	_	29	nummod	_	TokenRange=211:218
+35	pois	_	CCONJ	CONJ	_	37	mark	_	TokenRange=219:223
+36	deixa	deixar	AUX	AUX	_	37	aux	_	TokenRange=224:229
+37	passar	passar	VERB	VERB	_	16	advcl	_	TokenRange=230:236
+38	ne	_	PRON	PRON	_	39	mark	_	TokenRange=237:239
+39	teori	teorir	VERB	VERB	_	37	advcl	_	TokenRange=240:245
+40	afinal	afinal	ADV	ADV	_	39	advmod	_	TokenRange=246:252
+41	contas	conta	NOUN	NOUN	_	39	nsubj	_	TokenRange=253:259
+42	presidente	presidente	NOUN	NOUN	_	41	appos	_	TokenRange=260:270
+43	republica	republico	ADJ	ADJ	_	42	amod	_	TokenRange=271:280
+44	pmdb	_	PROPN	PNOUN	_	41	appos	_	TokenRange=281:285
+45	confira	conferir	VERB	VERB	_	6	parataxis	_	TokenRange=286:293
+46	imagem	imagem	NOUN	NOUN	_	45	obj	_	TokenRange=294:300
+47	abaixo	abaixo	ADV	ADV	_	45	advmod	_	TokenRange=301:307
+48	trecho	trecho	ADJ	ADJ	_	49	amod	_	TokenRange=308:314
+49	documento	documento	NOUN	NOUN	_	45	obj	_	TokenRange=315:324
+50	enviado	enviar	VERB	VERB	_	49	acl	_	TokenRange=325:332
+51	pgr	_	NOUN	NOUN	_	50	obj	_	SpaceAfter=No|TokenRange=333:336
+

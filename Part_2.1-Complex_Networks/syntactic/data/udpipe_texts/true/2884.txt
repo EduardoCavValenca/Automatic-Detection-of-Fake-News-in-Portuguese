@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 25 setembro 2017 boa noite aqui principais noticias terminar dia beminformado g1 apresenta hoje projeto investigacao sobre violencia cidades brasileiras inedito pais durante semana 200 reporteres noticiaram todas mortes violentas registradas durante semana todo territorio monitor violencia projeto aprceria nucleo estudos violencia usp forum brasileiro seguranca publica numeros crimes historias tras cada fatalidade analises sobre possivel fazer acabar epidemia mortes confira abaixo nesta primeira etapa 230 jornalistas g1 espalhados pais apuraram escreveram historias 1195 mortos 546 cidades quase 10 total
+1	segundafeira	_	NOUN	NOUN	_	14	parataxis	_	TokenRange=0:12
+2	25	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=13:15
+3	setembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=16:24
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=25:29
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=30:33
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=34:39
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=40:44
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=45:55
+9	noticias	noticia	NOUN	NOUN	_	10	nsubj	_	TokenRange=56:64
+10	terminar	terminar	VERB	VERB	_	6	acl:relcl	_	TokenRange=65:73
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=74:77
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=78:90
+13	g1	_	PRON	PRON	_	10	nsubj	_	TokenRange=91:93
+14	apresenta	apresentar	VERB	VERB	_	0	root	_	TokenRange=94:103
+15	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=104:108
+16	projeto	projeto	NOUN	NOUN	_	14	obj	_	TokenRange=109:116
+17	investigacao	investigacao	ADJ	ADJ	_	16	amod	_	TokenRange=117:129
+18	sobre	_	ADP	ADP	_	19	case	_	TokenRange=130:135
+19	violencia	violencia	NOUN	NOUN	_	16	nmod	_	TokenRange=136:145
+20	cidades	cidade	NOUN	NOUN	_	19	appos	_	TokenRange=146:153
+21	brasileiras	brasileiro	ADJ	ADJ	_	20	amod	_	TokenRange=154:165
+22	inedito	inedito	ADJ	ADJ	_	23	amod	_	TokenRange=166:173
+23	pais	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=174:178
+24	durante	_	ADP	ADP	_	25	case	_	TokenRange=179:186
+25	semana	semana	NOUN	NOUN	_	23	nmod	_	TokenRange=187:193
+26	200	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=194:197
+27	reporteres	reporter	NOUN	NOUN	_	28	nsubj	_	TokenRange=198:208
+28	noticiaram	noticiar	VERB	VERB	_	14	parataxis	_	TokenRange=209:219
+29	todas	_	DET	DET	_	30	det	_	TokenRange=220:225
+30	mortes	morte	NOUN	NOUN	_	28	obj	_	TokenRange=226:232
+31	violentas	violento	ADJ	ADJ	_	30	amod	_	TokenRange=233:242
+32	registradas	registrar	VERB	VERB	_	30	acl	_	TokenRange=243:254
+33	durante	_	ADP	ADP	_	34	case	_	TokenRange=255:262
+34	semana	semana	NOUN	NOUN	_	32	nmod	_	TokenRange=263:269
+35	todo	_	DET	DET	_	36	det	_	TokenRange=270:274
+36	territorio	territorio	NOUN	NOUN	_	28	nsubj	_	TokenRange=275:285
+37	monitor	_	VERB	VERB	_	28	parataxis	_	TokenRange=286:293
+38	violencia	violencia	NOUN	NOUN	_	37	obj	_	TokenRange=294:303
+39	projeto	projeto	NOUN	NOUN	_	30	appos	_	TokenRange=304:311
+40	aprceria	aprceria	NOUN	NOUN	_	30	appos	_	TokenRange=312:320
+41	nucleo	nucleo	NOUN	NOUN	_	42	amod	_	TokenRange=321:327
+42	estudos	estudo	NOUN	NOUN	_	40	appos	_	TokenRange=328:335
+43	violencia	violencia	NOUN	NOUN	_	42	flat	_	TokenRange=336:345
+44	usp	_	PROPN	NOUN	_	45	appos	_	TokenRange=346:349
+45	forum	forum	NOUN	NOUN	_	40	appos	_	TokenRange=350:355
+46	brasileiro	brasileiro	ADJ	ADJ	_	45	amod	_	TokenRange=356:366
+47	seguranca	_	NOUN	NOUN	_	45	appos	_	TokenRange=367:376
+48	publica	publico	ADJ	ADJ	_	45	amod	_	TokenRange=377:384
+49	numeros	_	ADJ	ADJ	_	50	amod	_	TokenRange=385:392
+50	crimes	crime	NOUN	NOUN	_	45	appos	_	TokenRange=393:399
+51	historias	historia	NOUN	NOUN	_	50	appos	_	TokenRange=400:409
+52	tras	_	ADP	ADP	_	54	case	_	TokenRange=410:414
+53	cada	_	DET	DET	_	54	det	_	TokenRange=415:419
+54	fatalidade	fatalidade	NOUN	NOUN	_	55	nmod	_	TokenRange=420:430
+55	analises	analise	NOUN	NOUN	_	62	nsubj	_	TokenRange=431:439
+56	sobre	_	ADP	ADP	_	58	mark	_	TokenRange=440:445
+57	possivel	_	ADJ	ADJ	_	58	nsubj	_	TokenRange=446:454
+58	fazer	fazer	VERB	VERB	_	55	nmod	_	TokenRange=455:460
+59	acabar	acabar	VERB	VERB	_	58	xcomp	_	TokenRange=461:467
+60	epidemia	epidemia	NOUN	NOUN	_	59	obj	_	TokenRange=468:476
+61	mortes	morte	NOUN	NOUN	_	59	nsubj	_	TokenRange=477:483
+62	confira	conferir	VERB	VERB	_	14	parataxis	_	TokenRange=484:491
+63	abaixo	abaixo	ADV	ADV	_	62	advmod	_	TokenRange=492:498
+64	nesta	_	ADP	ADP	_	66	case	_	TokenRange=499:504
+65	primeira	primeiro	ADJ	ADJ	_	66	amod	_	TokenRange=505:513
+66	etapa	etapa	NOUN	NOUN	_	62	nmod	_	TokenRange=514:519
+67	230	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=520:523
+68	jornalistas	jornalista	NOUN	NOUN	_	62	nsubj	_	TokenRange=524:535
+69	g1	_	NOUN	NOUN	_	68	appos	_	TokenRange=536:538
+70	espalhados	espalhar	VERB	VERB	_	68	acl	_	TokenRange=539:549
+71	pais	_	NOUN	NOUN	_	70	nsubj	_	TokenRange=550:554
+72	apuraram	apurar	VERB	VERB	_	68	acl:relcl	_	TokenRange=555:563
+73	escreveram	escrever	VERB	VERB	_	72	xcomp	_	TokenRange=564:574
+74	historias	historia	NOUN	NOUN	_	73	obj	_	TokenRange=575:584
+75	1195	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=585:589
+76	mortos	morto	NOUN	NOUN	_	73	nsubj	_	TokenRange=590:596
+77	546	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=597:600
+78	cidades	cidade	NOUN	NOUN	_	73	nsubj	_	TokenRange=601:608
+79	quase	quase	ADV	ADV	_	80	advmod	_	TokenRange=609:614
+80	10	_	NUM	NUM	NumType=Card	81	nummod	_	TokenRange=615:617
+81	total	total	ADJ	ADJ	_	78	amod	_	SpaceAfter=No|TokenRange=618:623
+

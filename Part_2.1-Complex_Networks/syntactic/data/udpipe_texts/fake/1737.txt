@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcelo odebrecht toma esculacho esposa dentro cadeia barra pesada sabe ditado fala quer ouve quer pois bem aconteceu megaempreiteiro marcelo odebrecht preso desde 19 junho 2015 recebeu visita esposa instalacoes carcerarias pf curitiba acordo pessoas possuem acesso presos marcelo reclamado esposa uns caras barras pesadas chegado cadeia toda sabedoria feminina lascou imediatamente acha estar aqui imagina lula trupe desembarcarem capital brasileira justica viva sergio moro informacao coluna painel folha
+1	marcelo	marcelo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	odebrecht	_	NOUN	NOUN	_	1	flat	_	TokenRange=8:17
+3	toma	tomar	VERB	VERB	_	0	root	_	TokenRange=18:22
+4	esculacho	esculacho	NOUN	NOUN	_	3	obj	_	TokenRange=23:32
+5	esposa	esposo	NOUN	NOUN	_	3	obj	_	TokenRange=33:39
+6	dentro	dentro	ADV	ADV	_	3	advmod	_	TokenRange=40:46
+7	cadeia	cadeia	NOUN	NOUN	_	3	obj	_	TokenRange=47:53
+8	barra	barra	NOUN	NOUN	_	3	nsubj	_	TokenRange=54:59
+9	pesada	pesado	ADJ	ADJ	_	8	amod	_	TokenRange=60:66
+10	sabe	saber	VERB	VERB	_	3	conj	_	TokenRange=67:71
+11	ditado	ditado	NOUN	NOUN	_	10	obj	_	TokenRange=72:78
+12	fala	_	VERB	VERB	_	3	parataxis	_	TokenRange=79:83
+13	quer	quer	CCONJ	CONJ	_	14	advmod	_	TokenRange=84:88
+14	ouve	ouvir	VERB	VERB	_	12	ccomp	_	TokenRange=89:93
+15	quer	quer	CCONJ	CONJ	_	14	cc	_	TokenRange=94:98
+16	pois	_	CCONJ	CONJ	_	18	mark	_	TokenRange=99:103
+17	bem	bem	ADV	ADV	_	18	advmod	_	TokenRange=104:107
+18	aconteceu	acontecer	VERB	VERB	_	12	conj	_	TokenRange=108:117
+19	megaempreiteiro	megaempreiteiro	ADJ	ADJ	_	18	xcomp	_	TokenRange=118:133
+20	marcelo	marcelo	NOUN	NOUN	_	18	nsubj	_	TokenRange=134:141
+21	odebrecht	_	PROPN	PNOUN	_	20	appos	_	TokenRange=142:151
+22	preso	_	VERB	VERB	_	20	acl	_	TokenRange=152:157
+23	desde	_	ADP	ADP	_	24	case	_	TokenRange=158:163
+24	19	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=164:166
+25	junho	_	PROPN	PNOUN	_	24	nmod	_	TokenRange=167:172
+26	2015	_	NUM	NUM	NumType=Card	25	nmod	_	TokenRange=173:177
+27	recebeu	receber	VERB	VERB	_	3	conj	_	TokenRange=178:185
+28	visita	visita	NOUN	NOUN	_	27	obj	_	TokenRange=186:192
+29	esposa	esposo	ADJ	ADJ	_	28	amod	_	TokenRange=193:199
+30	instalacoes	instalacoe	NOUN	NOUN	_	27	obj	_	TokenRange=200:211
+31	carcerarias	carceraria	ADJ	ADJ	_	30	amod	_	TokenRange=212:223
+32	pf	_	NOUN	NOUN	_	33	case	_	TokenRange=224:226
+33	curitiba	curitiba	NOUN	NOUN	_	30	appos	_	TokenRange=227:235
+34	acordo	acordo	NOUN	NOUN	_	30	amod	_	TokenRange=236:242
+35	pessoas	pessoa	NOUN	NOUN	_	36	nsubj	_	TokenRange=243:250
+36	possuem	possuir	VERB	VERB	_	30	acl:relcl	_	TokenRange=251:258
+37	acesso	acesso	NOUN	NOUN	_	36	obj	_	TokenRange=259:265
+38	presos	preso	ADJ	ADJ	_	37	amod	_	TokenRange=266:272
+39	marcelo	marcelo	NOUN	NOUN	_	36	nsubj	_	TokenRange=273:280
+40	reclamado	reclamado	ADJ	ADJ	_	41	amod	_	TokenRange=281:290
+41	esposa	esposo	NOUN	NOUN	_	36	nsubj	_	TokenRange=291:297
+42	uns	_	DET	DET	_	43	det	_	TokenRange=298:301
+43	caras	cara	NOUN	NOUN	_	36	nsubj	_	TokenRange=302:307
+44	barras	barra	NOUN	NOUN	_	41	appos	_	TokenRange=308:314
+45	pesadas	pesado	ADJ	ADJ	_	44	amod	_	TokenRange=315:322
+46	chegado	chegar	VERB	VERB	_	51	acl	_	TokenRange=323:330
+47	cadeia	cadeia	NOUN	NOUN	_	51	obj	_	TokenRange=331:337
+48	toda	_	DET	DET	_	49	det	_	TokenRange=338:342
+49	sabedoria	sabedoria	NOUN	NOUN	_	51	nsubj	_	TokenRange=343:352
+50	feminina	feminino	ADJ	ADJ	_	49	amod	_	TokenRange=353:361
+51	lascou	lascar	VERB	VERB	_	3	parataxis	_	TokenRange=362:368
+52	imediatamente	imediatamente	ADV	ADV	_	51	advmod	_	TokenRange=369:382
+53	acha	achar	VERB	VERB	_	51	ccomp	_	TokenRange=383:387
+54	estar	estar	VERB	VERB	_	53	xcomp	_	TokenRange=388:393
+55	aqui	aqui	ADV	ADV	_	54	advmod	_	TokenRange=394:398
+56	imagina	imaginar	VERB	VERB	_	54	ccomp	_	TokenRange=399:406
+57	lula	lula	NOUN	NOUN	_	56	obj	_	TokenRange=407:411
+58	trupe	_	NOUN	NOUN	_	57	flat	_	TokenRange=412:417
+59	desembarcarem	desembarcar	VERB	VERB	_	57	acl:inf	_	TokenRange=418:431
+60	capital	capital	NOUN	NOUN	_	59	obj	_	TokenRange=432:439
+61	brasileira	brasileiro	ADJ	ADJ	_	60	amod	_	TokenRange=440:450
+62	justica	_	NOUN	NOUN	_	59	nsubj	_	TokenRange=451:458
+63	viva	vivo	ADJ	ADJ	_	62	amod	_	TokenRange=459:463
+64	sergio	sergio	NOUN	NOUN	_	59	obj	_	TokenRange=464:470
+65	moro	moro	NOUN	NOUN	_	64	flat	_	TokenRange=471:475
+66	informacao	informacao	VERB	VERB	_	27	conj	_	TokenRange=476:486
+67	coluna	coluna	NOUN	NOUN	_	66	obj	_	TokenRange=487:493
+68	painel	painel	ADJ	ADJ	_	67	flat	_	TokenRange=494:500
+69	folha	folha	NOUN	NOUN	_	67	flat	_	SpaceAfter=No|TokenRange=501:506
+

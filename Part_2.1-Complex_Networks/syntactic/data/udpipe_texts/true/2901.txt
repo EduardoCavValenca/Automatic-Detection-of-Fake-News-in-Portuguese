@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = primeira turma stf decidiu adiar data indefinida decisoes sobre novo pedido prisao senador aecio neves psdbmg sobre pedido defesa autorizado retomar senado ministros decidiram converter prisao domiciliar tornozeleira eletronica prisao preventiva irma senador andrea neves enquanto temer russia tendo responder sobre inquerito
+1	primeira	primeiro	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	turma	turma	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:14
+3	stf	_	NOUN	NOUN	_	2	appos	_	TokenRange=15:18
+4	decidiu	decidir	VERB	VERB	_	0	root	_	TokenRange=19:26
+5	adiar	adiar	VERB	VERB	_	4	xcomp	_	TokenRange=27:32
+6	data	data	NOUN	NOUN	_	5	obj	_	TokenRange=33:37
+7	indefinida	indefinido	ADJ	ADJ	_	6	amod	_	TokenRange=38:48
+8	decisoes	decisoe	NOUN	NOUN	_	5	obj	_	TokenRange=49:57
+9	sobre	_	ADP	ADP	_	11	case	_	TokenRange=58:63
+10	novo	novo	ADJ	ADJ	_	11	amod	_	TokenRange=64:68
+11	pedido	pedido	NOUN	NOUN	_	8	nmod	_	TokenRange=69:75
+12	prisao	prisao	ADJ	ADJ	_	11	amod	_	TokenRange=76:82
+13	senador	senador	NOUN	NOUN	_	11	appos	_	TokenRange=83:90
+14	aecio	_	NOUN	NOUN	_	13	appos	_	TokenRange=91:96
+15	neves	neve	ADJ	ADJ	_	14	flat	_	TokenRange=97:102
+16	psdbmg	_	NOUN	NOUN	_	13	appos	_	TokenRange=103:109
+17	sobre	_	ADP	ADP	_	18	case	_	TokenRange=110:115
+18	pedido	pedido	NOUN	NOUN	_	13	nmod	_	TokenRange=116:122
+19	defesa	_	NOUN	NOUN	_	18	appos	_	TokenRange=123:129
+20	autorizado	autorizar	VERB	VERB	_	18	acl	_	TokenRange=130:140
+21	retomar	retomar	VERB	VERB	_	18	acl	_	TokenRange=141:148
+22	senado	senado	NOUN	NOUN	_	21	obj	_	TokenRange=149:155
+23	ministros	ministro	NOUN	NOUN	_	24	nsubj	_	TokenRange=156:165
+24	decidiram	decidir	VERB	VERB	_	4	parataxis	_	TokenRange=166:175
+25	converter	converter	VERB	VERB	_	24	xcomp	_	TokenRange=176:185
+26	prisao	prisao	NOUN	NOUN	_	25	obj	_	TokenRange=186:192
+27	domiciliar	domiciliar	ADJ	ADJ	_	26	amod	_	TokenRange=193:203
+28	tornozeleira	tornozeleiro	NOUN	NOUN	_	26	amod	_	TokenRange=204:216
+29	eletronica	eletronico	ADJ	ADJ	_	26	amod	_	TokenRange=217:227
+30	prisao	prisao	NOUN	NOUN	_	25	obj	_	TokenRange=228:234
+31	preventiva	preventivo	ADJ	ADJ	_	30	amod	_	TokenRange=235:245
+32	irma	irmo	ADJ	ADJ	_	33	amod	_	TokenRange=246:250
+33	senador	senador	NOUN	NOUN	_	30	appos	_	TokenRange=251:258
+34	andrea	andreo	NOUN	NOUN	_	33	appos	_	TokenRange=259:265
+35	neves	neve	ADJ	ADJ	_	34	flat	_	TokenRange=266:271
+36	enquanto	_	CCONJ	CONJ	_	37	mark	_	TokenRange=272:280
+37	temer	temer	VERB	VERB	_	24	advcl	_	TokenRange=281:286
+38	russia	russia	NOUN	NOUN	_	37	obj	_	TokenRange=287:293
+39	tendo	_	AUX	AUX	_	40	aux	_	TokenRange=294:299
+40	responder	responder	VERB	VERB	_	37	ccomp	_	TokenRange=300:309
+41	sobre	_	ADP	ADP	_	42	case	_	TokenRange=310:315
+42	inquerito	inquerito	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No|TokenRange=316:325
+

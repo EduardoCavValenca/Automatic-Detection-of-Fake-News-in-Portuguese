@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = paradeiro eike batista descoberto empresario hospedado predios donald trump considerado foragido justica eike batista localizado empresario apartamento advogado sergio bermudes edificio trump tower mega edificio situado frente central park informou jornal dia eike apresentar logo acionado alerta difusao vermelha interpol podera extraditado brasil milionario alvo mandado prisao preventiva expedido hoje 26 segunda fase calicute pf suspeito participar esquema corrupcao lavagem dinheiro escondido cerca us 100 milhoes exterior leia
+1	paradeiro	paradeiro	NOUN	NOUN	_	30	nsubj	_	TokenRange=0:9
+2	eike	_	NOUN	NOUN	_	1	appos	_	TokenRange=10:14
+3	batista	batista	ADJ	ADJ	_	2	amod	_	TokenRange=15:22
+4	descoberto	descobrir	ADJ	ADJ	_	2	acl	_	TokenRange=23:33
+5	empresario	empresario	NOUN	NOUN	_	2	appos	_	TokenRange=34:44
+6	hospedado	hospedado	ADJ	ADJ	_	7	amod	_	TokenRange=45:54
+7	predios	predio	NOUN	NOUN	_	2	appos	_	TokenRange=55:62
+8	donald	_	NOUN	NOUN	_	7	amod	_	TokenRange=63:69
+9	trump	_	NOUN	NOUN	_	8	flat	_	TokenRange=70:75
+10	considerado	considerar	VERB	VERB	_	13	acl	_	TokenRange=76:87
+11	foragido	foragido	ADJ	ADJ	_	13	amod	_	TokenRange=88:96
+12	justica	justico	ADJ	ADJ	_	13	amod	_	TokenRange=97:104
+13	eike	_	NOUN	NOUN	_	1	appos	_	TokenRange=105:109
+14	batista	batista	NOUN	NOUN	_	13	amod	_	TokenRange=110:117
+15	localizado	localizar	VERB	VERB	_	13	acl	_	TokenRange=118:128
+16	empresario	empresario	ADJ	NOUN	_	17	amod	_	TokenRange=129:139
+17	apartamento	apartamento	NOUN	NOUN	_	13	appos	_	TokenRange=140:151
+18	advogado	advogado	NOUN	NOUN	_	17	amod	_	TokenRange=152:160
+19	sergio	sergio	ADJ	ADJ	_	17	amod	_	TokenRange=161:167
+20	bermudes	bermude	ADJ	ADJ	_	17	amod	_	TokenRange=168:176
+21	edificio	edificio	NOUN	NOUN	_	17	appos	_	TokenRange=177:185
+22	trump	_	NOUN	NOUN	_	21	appos	_	TokenRange=186:191
+23	tower	_	NOUN	NOUN	_	22	flat	_	TokenRange=192:197
+24	mega	_	ADJ	ADJ	_	25	amod	_	TokenRange=198:202
+25	edificio	edificio	NOUN	NOUN	_	21	appos	_	TokenRange=203:211
+26	situado	situar	VERB	VERB	_	25	acl	_	TokenRange=212:219
+27	frente	frente	NOUN	NOUN	_	26	appos	_	TokenRange=220:226
+28	central	central	ADJ	ADJ	_	29	amod	_	TokenRange=227:234
+29	park	_	NOUN	NOUN	_	27	appos	_	TokenRange=235:239
+30	informou	informar	VERB	VERB	_	0	root	_	TokenRange=240:248
+31	jornal	jornal	NOUN	NOUN	_	30	obj	_	TokenRange=249:255
+32	dia	dia	NOUN	NOUN	_	31	flat	_	TokenRange=256:259
+33	eike	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=260:264
+34	apresentar	apresentar	VERB	VERB	_	31	acl:relcl	_	TokenRange=265:275
+35	logo	logo	ADV	ADV	_	36	advmod	_	TokenRange=276:280
+36	acionado	acionado	ADJ	ADJ	_	38	amod	_	TokenRange=281:289
+37	alerta	alerta	NOUN	NOUN	_	38	amod	_	TokenRange=290:296
+38	difusao	difusao	NOUN	NOUN	_	34	obj	_	TokenRange=297:304
+39	vermelha	vermelho	ADJ	ADJ	_	38	amod	_	TokenRange=305:313
+40	interpol	interpol	NOUN	NOUN	_	38	appos	_	TokenRange=314:322
+41	podera	_	AUX	AUX	_	42	aux	_	TokenRange=323:329
+42	extraditado	extraditar	ADJ	ADJ	_	30	ccomp	_	TokenRange=330:341
+43	brasil	brasil	NOUN	NOUN	_	42	nsubj	_	TokenRange=342:348
+44	milionario	milionario	ADJ	ADJ	_	43	amod	_	TokenRange=349:359
+45	alvo	alvo	NOUN	NOUN	_	43	amod	_	TokenRange=360:364
+46	mandado	mandar	VERB	VERB	_	43	acl	_	TokenRange=365:372
+47	prisao	prisao	NOUN	NOUN	_	42	nsubj	_	TokenRange=373:379
+48	preventiva	preventivo	ADJ	ADJ	_	47	amod	_	TokenRange=380:390
+49	expedido	expedir	VERB	VERB	_	43	acl	_	TokenRange=391:399
+50	hoje	hoje	ADV	ADV	_	49	advmod	_	TokenRange=400:404
+51	26	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=405:407
+52	segunda	segundo	ADJ	ADJ	_	53	amod	_	TokenRange=408:415
+53	fase	fase	NOUN	NOUN	_	49	obj	_	TokenRange=416:420
+54	calicute	calicute	NOUN	NOUN	_	49	nsubj	_	TokenRange=421:429
+55	pf	_	NOUN	NOUN	_	54	flat	_	TokenRange=430:432
+56	suspeito	suspeito	ADJ	ADJ	_	54	flat	_	TokenRange=433:441
+57	participar	participar	VERB	VERB	_	54	acl:inf	_	TokenRange=442:452
+58	esquema	esquema	NOUN	NOUN	_	57	obj	_	TokenRange=453:460
+59	corrupcao	corrupcao	ADJ	ADJ	_	60	amod	_	TokenRange=461:470
+60	lavagem	lavagem	NOUN	NOUN	_	57	obj	_	TokenRange=471:478
+61	dinheiro	dinheiro	NOUN	NOUN	_	60	flat	_	TokenRange=479:487
+62	escondido	esconder	VERB	VERB	_	60	acl	_	TokenRange=488:497
+63	cerca	cerca	ADV	ADV	_	66	advmod	_	TokenRange=498:503
+64	us	_	DET	DET	_	66	nummod	_	TokenRange=504:506
+65	100	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=507:510
+66	milhoes	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=511:518
+67	exterior	exterior	NOUN	NOUN	_	62	obj	_	TokenRange=519:527
+68	leia	leia	NOUN	NOUN	_	60	amod	_	SpaceAfter=No|TokenRange=528:532
+

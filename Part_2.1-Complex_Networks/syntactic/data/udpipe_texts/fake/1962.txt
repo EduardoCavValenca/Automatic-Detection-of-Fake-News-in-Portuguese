@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf indo brasilia intervencionistas dizem aguardando general exercito chegar grupo clama intervencao militar diz recebeu mensagem general exercito afirmando caminho plenario pf chegar vai sobrar parlamentar recinto quer apostar quanto
+1	pf	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:2
+2	indo	ir	VERB	VERB	_	5	acl	_	TokenRange=3:7
+3	brasilia	brasilia	NOUN	NOUN	_	2	obj	_	TokenRange=8:16
+4	intervencionistas	intervencionista	NOUN	NOUN	_	2	nsubj	_	TokenRange=17:34
+5	dizem	dizer	VERB	VERB	_	0	root	_	TokenRange=35:40
+6	aguardando	aguardar	VERB	VERB	_	5	acl	_	TokenRange=41:51
+7	general	general	NOUN	NOUN	_	6	nsubj	_	TokenRange=52:59
+8	exercito	_	NOUN	NOUN	_	7	flat	_	TokenRange=60:68
+9	chegar	chegar	VERB	VERB	_	7	acl:inf	_	TokenRange=69:75
+10	grupo	grupo	NOUN	NOUN	_	9	obj	_	TokenRange=76:81
+11	clama	_	NOUN	NOUN	_	10	amod	_	TokenRange=82:87
+12	intervencao	intervencao	NOUN	NOUN	_	10	appos	_	TokenRange=88:99
+13	militar	militar	ADJ	ADJ	_	12	amod	_	TokenRange=100:107
+14	diz	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=108:111
+15	recebeu	receber	VERB	VERB	_	14	xcomp	_	TokenRange=112:119
+16	mensagem	mensagem	NOUN	NOUN	_	15	obj	_	TokenRange=120:128
+17	general	general	ADJ	ADJ	_	16	amod	_	TokenRange=129:136
+18	exercito	exercito	NOUN	NOUN	_	16	amod	_	TokenRange=137:145
+19	afirmando	afirmar	VERB	VERB	_	16	acl	_	TokenRange=146:155
+20	caminho	caminho	NOUN	NOUN	_	19	obj	_	TokenRange=156:163
+21	plenario	plenario	ADJ	ADJ	_	20	amod	_	TokenRange=164:172
+22	pf	_	X	X	_	25	nsubj	_	TokenRange=173:175
+23	chegar	chegar	VERB	VERB	_	25	csubj	_	TokenRange=176:182
+24	vai	ir	AUX	AUX	_	25	aux	_	TokenRange=183:186
+25	sobrar	sobrar	VERB	VERB	_	19	ccomp	_	TokenRange=187:193
+26	parlamentar	parlamentar	NOUN	NOUN	_	25	obj	_	TokenRange=194:205
+27	recinto	recinto	NOUN	NOUN	_	25	nsubj	_	TokenRange=206:213
+28	quer	querer	VERB	VERB	_	25	conj	_	TokenRange=214:218
+29	apostar	apostar	VERB	VERB	_	28	xcomp	_	TokenRange=219:226
+30	quanto	_	ADV	ADV	_	29	advmod	_	SpaceAfter=No|TokenRange=227:233
+

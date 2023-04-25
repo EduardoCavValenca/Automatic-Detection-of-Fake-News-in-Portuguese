@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogada americana diz embaixadora jesus quer processar todos gays mundo caso rejeitado dia 1 maio 2015 norteamericana sylvia ann driskell entrou acao manuscrita 7 paginas corte omaha nebraska eua contra todos homossexuais mundo juiz john m gerrard rejeitou processo abaixo trecho memorando juiz expedido dia 06 maio 2015
+1	advogada	advogado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	americana	americano	ADJ	ADJ	_	1	amod	_	TokenRange=9:18
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=19:22
+4	embaixadora	embaixador	NOUN	NOUN	_	3	obj	_	TokenRange=23:34
+5	jesus	_	NOUN	NOUN	_	4	flat	_	TokenRange=35:40
+6	quer	querer	VERB	VERB	_	3	ccomp	_	TokenRange=41:45
+7	processar	processar	VERB	VERB	_	6	xcomp	_	TokenRange=46:55
+8	todos	_	DET	DET	_	9	det	_	TokenRange=56:61
+9	gays	gay	NOUN	NOUN	_	7	obj	_	TokenRange=62:66
+10	mundo	mundo	NOUN	NOUN	_	9	appos	_	TokenRange=67:72
+11	caso	caso	NOUN	NOUN	_	7	nmod	_	TokenRange=73:77
+12	rejeitado	rejeitar	VERB	VERB	_	11	acl	_	TokenRange=78:87
+13	dia	dia	NOUN	NOUN	_	12	nmod	_	TokenRange=88:91
+14	1	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=92:93
+15	maio	_	PROPN	PNOUN	_	13	appos	_	TokenRange=94:98
+16	2015	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=99:103
+17	norteamericana	norteamericano	ADJ	ADJ	_	18	amod	_	TokenRange=104:118
+18	sylvia	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=119:125
+19	ann	_	NOUN	NOUN	_	18	flat	_	TokenRange=126:129
+20	driskell	_	NOUN	NOUN	_	18	flat	_	TokenRange=130:138
+21	entrou	entrar	VERB	VERB	_	3	parataxis	_	TokenRange=139:145
+22	acao	acao	NOUN	NOUN	_	21	obj	_	TokenRange=146:150
+23	manuscrita	manuscrito	ADJ	ADJ	_	22	amod	_	TokenRange=151:161
+24	7	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=162:163
+25	paginas	pagina	NOUN	NOUN	_	22	appos	_	TokenRange=164:171
+26	corte	corte	NOUN	NOUN	_	22	appos	_	TokenRange=172:177
+27	omaha	omaha	NOUN	NOUN	_	26	appos	_	TokenRange=178:183
+28	nebraska	_	NOUN	NOUN	_	27	flat	_	TokenRange=184:192
+29	eua	_	PRON	PRON	_	38	nsubj	_	TokenRange=193:196
+30	contra	_	ADP	ADP	_	32	case	_	TokenRange=197:203
+31	todos	_	DET	DET	_	32	det	_	TokenRange=204:209
+32	homossexuais	homossexual	ADJ	ADJ	_	34	amod	_	TokenRange=210:222
+33	mundo	mundo	NOUN	NOUN	_	34	nmod	_	TokenRange=223:228
+34	juiz	juiz	NOUN	NOUN	_	38	nsubj	_	TokenRange=229:233
+35	john	_	NOUN	NOUN	_	34	appos	_	TokenRange=234:238
+36	m	_	NOUN	NOUN	_	35	flat	_	TokenRange=239:240
+37	gerrard	_	PROPN	NOUN	_	35	flat	_	TokenRange=241:248
+38	rejeitou	rejeitar	VERB	VERB	_	21	parataxis	_	TokenRange=249:257
+39	processo	processo	NOUN	NOUN	_	38	obj	_	TokenRange=258:266
+40	abaixo	abaixo	ADV	ADV	_	41	advmod	_	TokenRange=267:273
+41	trecho	trecho	NOUN	NOUN	_	39	appos	_	TokenRange=274:280
+42	memorando	memorar	VERB	VERB	_	39	acl	_	TokenRange=281:290
+43	juiz	juiz	NOUN	NOUN	_	42	obj	_	TokenRange=291:295
+44	expedido	expedido	ADJ	ADJ	_	43	amod	_	TokenRange=296:304
+45	dia	dia	NOUN	NOUN	_	42	nmod	_	TokenRange=305:308
+46	06	_	NUM	NUM	NumType=Card	45	nmod	_	TokenRange=309:311
+47	maio	_	PROPN	PNOUN	_	45	nmod	_	TokenRange=312:316
+48	2015	_	NUM	NUM	NumType=Card	47	nmod	_	SpaceAfter=No|TokenRange=317:321
+

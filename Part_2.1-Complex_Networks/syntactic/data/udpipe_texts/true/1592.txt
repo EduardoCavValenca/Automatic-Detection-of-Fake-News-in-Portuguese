@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = policia faz pericia residencia casal suspeito espancar matar filha 5 anos itapetininga policia quer saber imovel antes crianca socorrida samu crime noite sextafeira 2 casal ficara preso dia julgamento ainda data marcada policia civil realizou nesta tercafeira 6 pericia casa moradores debora rolim silva 24 anos phelipe douglas alves 25 anos presos sabado 3 suspeitos espancarem matarem filha emanuelly aghata silva 5 anos itapetininga sp acordo delegado responsavel caso eduardo souza
+1	policia	policia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	pericia	pericia	NOUN	NOUN	_	2	obj	_	TokenRange=12:19
+4	residencia	residencia	NOUN	NOUN	_	2	nsubj	_	TokenRange=20:30
+5	casal	casal	NOUN	NOUN	_	2	nsubj	_	TokenRange=31:36
+6	suspeito	suspeito	ADJ	ADJ	_	5	amod	_	TokenRange=37:45
+7	espancar	espancar	VERB	VERB	_	5	acl:relcl	_	TokenRange=46:54
+8	matar	matar	VERB	VERB	_	7	xcomp	_	TokenRange=55:60
+9	filha	filho	NOUN	NOUN	_	8	obj	_	TokenRange=61:66
+10	5	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=67:68
+11	anos	ano	NOUN	NOUN	_	8	obj	_	TokenRange=69:73
+12	itapetininga	itapetininga	NOUN	NOUN	_	13	amod	_	TokenRange=74:86
+13	policia	policia	NOUN	NOUN	_	14	nsubj	_	TokenRange=87:94
+14	quer	querer	VERB	VERB	_	11	acl:relcl	_	TokenRange=95:99
+15	saber	saber	VERB	VERB	_	14	xcomp	_	TokenRange=100:105
+16	imovel	imovel	NOUN	NOUN	_	15	obj	_	TokenRange=106:112
+17	antes	antes	ADV	ADV	_	18	advmod	_	TokenRange=113:118
+18	crianca	_	NOUN	NOUN	_	15	obj	_	TokenRange=119:126
+19	socorrida	socorrer	VERB	VERB	_	18	acl	_	TokenRange=127:136
+20	samu	_	VERB	VERB	_	18	appos	_	TokenRange=137:141
+21	crime	crime	NOUN	NOUN	_	20	appos	_	TokenRange=142:147
+22	noite	noite	NOUN	NOUN	_	20	appos	_	TokenRange=148:153
+23	sextafeira	sextafeira	NOUN	NOUN	_	20	flat	_	TokenRange=154:164
+24	2	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=165:166
+25	casal	casal	NOUN	NOUN	_	26	nsubj	_	TokenRange=167:172
+26	ficara	ficar	VERB	VERB	_	20	parataxis	_	TokenRange=173:179
+27	preso	preso	ADJ	ADJ	_	26	xcomp	_	TokenRange=180:185
+28	dia	dia	NOUN	NOUN	_	26	nmod	_	TokenRange=186:189
+29	julgamento	julgamento	NOUN	NOUN	_	28	appos	_	TokenRange=190:200
+30	ainda	ainda	ADV	ADV	_	31	advmod	_	TokenRange=201:206
+31	data	data	NOUN	NOUN	_	28	appos	_	TokenRange=207:211
+32	marcada	marcar	VERB	VERB	_	31	acl	_	TokenRange=212:219
+33	policia	policia	NOUN	NOUN	_	35	nsubj	_	TokenRange=220:227
+34	civil	civil	ADJ	ADJ	_	33	amod	_	TokenRange=228:233
+35	realizou	realizar	VERB	VERB	_	2	parataxis	_	TokenRange=234:242
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=243:248
+37	tercafeira	_	NOUN	NOUN	_	35	nmod	_	TokenRange=249:259
+38	6	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=260:261
+39	pericia	pericia	NOUN	NOUN	_	35	obj	_	TokenRange=262:269
+40	casa	casa	NOUN	NOUN	_	39	appos	_	TokenRange=270:274
+41	moradores	morador	ADJ	ADJ	_	40	amod	_	TokenRange=275:284
+42	debora	debora	NOUN	NOUN	_	39	appos	_	TokenRange=285:291
+43	rolim	_	NOUN	NOUN	_	42	flat	_	TokenRange=292:297
+44	silva	silva	ADJ	ADJ	_	42	flat	_	TokenRange=298:303
+45	24	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=304:306
+46	anos	ano	NOUN	NOUN	_	42	appos	_	TokenRange=307:311
+47	phelipe	phelipe	NOUN	NOUN	_	42	appos	_	TokenRange=312:319
+48	douglas	_	NOUN	NOUN	_	47	flat	_	TokenRange=320:327
+49	alves	_	NOUN	NOUN	_	47	flat	_	TokenRange=328:333
+50	25	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=334:336
+51	anos	ano	NOUN	NOUN	_	47	appos	_	TokenRange=337:341
+52	presos	preso	ADJ	ADJ	_	51	amod	_	TokenRange=342:348
+53	sabado	_	PROPN	PNOUN	_	35	nsubj	_	TokenRange=349:355
+54	3	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=356:357
+55	suspeitos	suspeito	NOUN	NOUN	_	56	nsubj	_	TokenRange=358:367
+56	espancarem	espancar	VERB	VERB	_	35	ccomp	_	TokenRange=368:378
+57	matarem	matar	VERB	VERB	_	56	xcomp	_	TokenRange=379:386
+58	filha	filho	NOUN	NOUN	_	57	obj	_	TokenRange=387:392
+59	emanuelly	_	NOUN	NOUN	_	58	appos	_	TokenRange=393:402
+60	aghata	_	NOUN	NOUN	_	59	flat	_	TokenRange=403:409
+61	silva	silva	NOUN	NOUN	_	59	flat	_	TokenRange=410:415
+62	5	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=416:417
+63	anos	ano	NOUN	NOUN	_	59	appos	_	TokenRange=418:422
+64	itapetininga	itapetininga	NOUN	NOUN	_	63	amod	_	TokenRange=423:435
+65	sp	_	ADJ	ADJ	_	66	amod	_	TokenRange=436:438
+66	acordo	acordo	NOUN	NOUN	_	56	parataxis	_	TokenRange=439:445
+67	delegado	delegado	NOUN	NOUN	_	66	appos	_	TokenRange=446:454
+68	responsavel	responsavel	ADJ	ADJ	_	66	amod	_	TokenRange=455:466
+69	caso	caso	NOUN	NOUN	_	66	appos	_	TokenRange=467:471
+70	eduardo	eduardo	NOUN	NOUN	_	69	appos	_	TokenRange=472:479
+71	souza	souza	NOUN	NOUN	_	70	flat	_	SpaceAfter=No|TokenRange=480:485
+

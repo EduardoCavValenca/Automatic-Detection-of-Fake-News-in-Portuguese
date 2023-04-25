@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exames constatam intoxicacao metais pesados moradores cidade atingida desastre mariana 11 pessoas analisadas barra longa todas apresentam intoxicacao niquel 10 reducao zinco metade aumento niveis arsenio sangue onze moradores cidade barra longa mg realizaram exames toxicologicos ano passado diagnosticados intoxicacao niquel segundo relatorio instituto saude sustentabilidade enviado ministerio publico bbc brasil acesso metade participantes niveis arsenio sangue alterados primeiro diagnostico nesse sentido populacoes afetadas rompimento barragem fundao mineradora samarco novembro 2015 causa documento procuradoria republica minas gerais enviou inicio deste mes
+1	exames	exame	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	constatam	constatar	VERB	VERB	_	0	root	_	TokenRange=7:16
+3	intoxicacao	intoxicacao	NOUN	NOUN	_	2	obj	_	TokenRange=17:28
+4	metais	_	NOUN	NOUN	_	3	amod	_	TokenRange=29:35
+5	pesados	pesado	ADJ	ADJ	_	3	amod	_	TokenRange=36:43
+6	moradores	morador	NOUN	NOUN	_	3	appos	_	TokenRange=44:53
+7	cidade	cidade	NOUN	NOUN	_	6	appos	_	TokenRange=54:60
+8	atingida	atingido	ADJ	ADJ	_	9	amod	_	TokenRange=61:69
+9	desastre	desastre	NOUN	NOUN	_	6	appos	_	TokenRange=70:78
+10	mariana	mariano	ADJ	ADJ	_	9	amod	_	TokenRange=79:86
+11	11	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=87:89
+12	pessoas	pessoa	NOUN	NOUN	_	2	nsubj	_	TokenRange=90:97
+13	analisadas	analisar	VERB	VERB	_	12	acl	_	TokenRange=98:108
+14	barra	barra	NOUN	NOUN	_	13	nmod	_	TokenRange=109:114
+15	longa	longo	ADJ	ADJ	_	14	amod	_	TokenRange=115:120
+16	todas	_	PRON	PRON	_	17	nsubj	_	TokenRange=121:126
+17	apresentam	apresentar	VERB	VERB	_	2	parataxis	_	TokenRange=127:137
+18	intoxicacao	intoxicacao	NOUN	NOUN	_	17	obj	_	TokenRange=138:149
+19	niquel	niquel	ADJ	ADJ	_	18	amod	_	TokenRange=150:156
+20	10	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=157:159
+21	reducao	reducao	NOUN	NOUN	_	18	appos	_	TokenRange=160:167
+22	zinco	_	NOUN	NOUN	_	21	appos	_	TokenRange=168:173
+23	metade	metade	NOUN	NOUN	_	21	appos	_	TokenRange=174:180
+24	aumento	aumento	NOUN	NOUN	_	21	appos	_	TokenRange=181:188
+25	niveis	_	NOUN	NOUN	_	23	appos	_	TokenRange=189:195
+26	arsenio	arsenio	NOUN	NOUN	_	25	appos	_	TokenRange=196:203
+27	sangue	sangue	NOUN	NOUN	_	25	flat	_	TokenRange=204:210
+28	onze	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=211:215
+29	moradores	morador	NOUN	NOUN	_	78	nsubj	_	TokenRange=216:225
+30	cidade	cidade	NOUN	NOUN	_	29	appos	_	TokenRange=226:232
+31	barra	barra	NOUN	NOUN	_	29	appos	_	TokenRange=233:238
+32	longa	longo	ADJ	ADJ	_	31	amod	_	TokenRange=239:244
+33	mg	_	NOUN	NOUN	_	29	appos	_	TokenRange=245:247
+34	realizaram	realizar	VERB	VERB	_	2	parataxis	_	TokenRange=248:258
+35	exames	exame	NOUN	NOUN	_	34	obj	_	TokenRange=259:265
+36	toxicologicos	toxicologico	ADJ	ADJ	_	35	amod	_	TokenRange=266:279
+37	ano	ano	NOUN	NOUN	_	34	nmod	_	TokenRange=280:283
+38	passado	passado	ADJ	ADJ	_	37	amod	_	TokenRange=284:291
+39	diagnosticados	diagnosticado	ADJ	ADJ	_	35	amod	_	TokenRange=292:306
+40	intoxicacao	intoxicacao	NOUN	NOUN	_	35	appos	_	TokenRange=307:318
+41	niquel	_	ADJ	ADJ	_	40	amod	_	TokenRange=319:325
+42	segundo	_	ADP	ADP	_	43	case	_	TokenRange=326:333
+43	relatorio	relatorio	NOUN	NOUN	_	34	nmod	_	TokenRange=334:343
+44	instituto	instituto	NOUN	NOUN	_	43	appos	_	TokenRange=344:353
+45	saude	saude	NOUN	NOUN	_	48	appos	_	TokenRange=354:359
+46	sustentabilidade	sustentabilidade	NOUN	NOUN	_	50	flat	_	TokenRange=360:376
+47	enviado	enviar	VERB	VERB	_	48	acl	_	TokenRange=377:384
+48	ministerio	ministerio	NOUN	NOUN	_	43	appos	_	TokenRange=385:395
+49	publico	_	ADJ	ADJ	_	48	amod	_	TokenRange=396:403
+50	bbc	bbc	NOUN	NOUN	_	48	appos	_	TokenRange=404:407
+51	brasil	brasil	ADJ	ADJ	_	48	amod	_	TokenRange=408:414
+52	acesso	acesso	NOUN	NOUN	_	48	appos	_	TokenRange=415:421
+53	metade	metade	NOUN	NOUN	_	52	appos	_	TokenRange=422:428
+54	participantes	participante	ADJ	ADJ	_	53	amod	_	TokenRange=429:442
+55	niveis	_	NOUN	NOUN	_	52	appos	_	TokenRange=443:449
+56	arsenio	arsenio	NOUN	NOUN	_	55	flat	_	TokenRange=450:457
+57	sangue	sangue	NOUN	NOUN	_	56	flat	_	TokenRange=458:464
+58	alterados	alterado	ADJ	ADJ	_	55	amod	_	TokenRange=465:474
+59	primeiro	primeiro	ADJ	ADJ	_	60	amod	_	TokenRange=475:483
+60	diagnostico	diagnostico	NOUN	NOUN	_	17	nsubj	_	TokenRange=484:495
+61	nesse	_	ADP	ADP	_	62	case	_	TokenRange=496:501
+62	sentido	sentido	NOUN	NOUN	_	60	nmod	_	TokenRange=502:509
+63	populacoes	_	NOUN	NOUN	_	62	amod	_	TokenRange=510:520
+64	afetadas	afetar	VERB	VERB	_	63	acl	_	TokenRange=521:529
+65	rompimento	rompimento	ADJ	ADJ	_	66	amod	_	TokenRange=530:540
+66	barragem	barragem	NOUN	NOUN	_	18	appos	_	TokenRange=541:549
+67	fundao	fundao	ADJ	ADJ	_	66	amod	_	TokenRange=550:556
+68	mineradora	_	ADJ	ADJ	_	66	amod	_	TokenRange=557:567
+69	samarco	samarco	NOUN	NOUN	_	66	appos	_	TokenRange=568:575
+70	novembro	_	PROPN	PNOUN	_	69	appos	_	TokenRange=576:584
+71	2015	_	NUM	NUM	NumType=Card	70	nmod	_	TokenRange=585:589
+72	causa	causa	NOUN	NOUN	_	78	parataxis	_	TokenRange=590:595
+73	documento	documento	NOUN	NOUN	_	78	obj	_	TokenRange=596:605
+74	procuradoria	procuradoria	ADJ	ADJ	_	73	amod	_	TokenRange=606:618
+75	republica	republico	ADJ	ADJ	_	73	amod	_	TokenRange=619:628
+76	minas	mina	NOUN	NOUN	_	73	appos	_	TokenRange=629:634
+77	gerais	geral	ADJ	ADJ	_	76	amod	_	TokenRange=635:641
+78	enviou	enviar	VERB	VERB	_	34	parataxis	_	TokenRange=642:648
+79	inicio	_	NOUN	NOUN	_	78	obj	_	TokenRange=649:655
+80	deste	_	ADP	ADP	_	81	case	_	TokenRange=656:661
+81	mes	mes	NOUN	NOUN	_	79	nmod	_	SpaceAfter=No|TokenRange=662:665
+

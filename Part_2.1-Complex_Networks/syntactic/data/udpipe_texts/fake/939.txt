@@ -1,0 +1,26 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lindbergh farias parte pra cima senador 81 anos quase apanha senado video pra simples sessao etica leu etica
+1	lindbergh	lindbergh	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:9
+2	farias	fario	ADJ	ADJ	_	1	amod	_	TokenRange=10:16
+3	parte	parte	NOUN	NOUN	_	1	appos	_	TokenRange=17:22
+4	pra	_	ADP	ADP	_	5	case	_	TokenRange=23:26
+5	cima	cima	NOUN	NOUN	_	3	nmod	_	TokenRange=27:31
+6	senador	senador	NOUN	NOUN	_	1	appos	_	TokenRange=32:39
+7	81	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=40:42
+8	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=43:47
+9	quase	quase	ADV	ADV	_	10	advmod	_	TokenRange=48:53
+10	apanha	apanhar	VERB	VERB	_	0	root	_	TokenRange=54:60
+11	senado	senado	NOUN	NOUN	_	10	obj	_	TokenRange=61:67
+12	video	video	NOUN	NOUN	_	11	appos	_	TokenRange=68:73
+13	pra	_	ADP	ADP	_	15	case	_	TokenRange=74:77
+14	simples	simples	ADJ	ADJ	_	15	amod	_	TokenRange=78:85
+15	sessao	sessao	NOUN	NOUN	_	12	nmod	_	TokenRange=86:92
+16	etica	etico	ADJ	ADJ	_	15	amod	_	TokenRange=93:98
+17	leu	ler	VERB	VERB	_	10	parataxis	_	TokenRange=99:102
+18	etica	etica	NOUN	NOUN	_	17	obj	_	SpaceAfter=No|TokenRange=103:108
+

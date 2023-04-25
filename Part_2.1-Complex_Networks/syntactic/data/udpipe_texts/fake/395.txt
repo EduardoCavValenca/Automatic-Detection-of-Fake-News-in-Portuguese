@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornalista acusa padre reginaldo manzotti engravidar moca 21 anos boato partiu jornalista leo dias publicado site jornal dia materia padre reginaldo manzotti acusado engravidar garota 21 anos 6 milhoes seguidores padre redes sociais ficaram chocados fofoca jornalista nota oficial assessoria manzotti enviou email colunista leo dias desmentiu historia moca alegando mesma fara exame dna assim crianca nascer alem desmentir polemica padre fala sobre papel sacerdote alega conhece tao pouco contato adriele
+1	jornalista	jornalista	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	acusa	acusar	VERB	VERB	_	0	root	_	TokenRange=11:16
+3	padre	padre	NOUN	NOUN	_	2	obj	_	TokenRange=17:22
+4	reginaldo	reginaldo	ADJ	ADJ	_	3	amod	_	TokenRange=23:32
+5	manzotti	_	NOUN	NOUN	_	3	appos	_	TokenRange=33:41
+6	engravidar	engravidar	VERB	VERB	_	3	acl	_	TokenRange=42:52
+7	moca	moca	NOUN	NOUN	_	6	obj	_	TokenRange=53:57
+8	21	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=58:60
+9	anos	ano	NOUN	NOUN	_	6	obj	_	TokenRange=61:65
+10	boato	boato	NOUN	NOUN	_	3	appos	_	TokenRange=66:71
+11	partiu	partir	VERB	VERB	_	3	acl:relcl	_	TokenRange=72:78
+12	jornalista	jornalista	NOUN	NOUN	_	11	obj	_	TokenRange=79:89
+13	leo	_	NOUN	NOUN	_	12	appos	_	TokenRange=90:93
+14	dias	dia	NOUN	NOUN	_	12	flat	_	TokenRange=94:98
+15	publicado	publicar	VERB	VERB	_	12	acl	_	TokenRange=99:108
+16	site	site	NOUN	NOUN	_	15	obj	_	TokenRange=109:113
+17	jornal	jornal	NOUN	NOUN	_	16	appos	_	TokenRange=114:120
+18	dia	dia	NOUN	NOUN	_	16	appos	_	TokenRange=121:124
+19	materia	materia	NOUN	NOUN	_	18	flat	_	TokenRange=125:132
+20	padre	padre	NOUN	NOUN	_	11	nsubj	_	TokenRange=133:138
+21	reginaldo	_	NOUN	NOUN	_	20	amod	_	TokenRange=139:148
+22	manzotti	_	NOUN	NOUN	_	20	appos	_	TokenRange=149:157
+23	acusado	acusar	VERB	VERB	_	20	acl	_	TokenRange=158:165
+24	engravidar	engravidar	VERB	VERB	_	23	xcomp	_	TokenRange=166:176
+25	garota	garoto	NOUN	NOUN	_	24	obj	_	TokenRange=177:183
+26	21	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=184:186
+27	anos	ano	NOUN	NOUN	_	24	appos	_	TokenRange=187:191
+28	6	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=192:193
+29	milhoes	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=194:201
+30	seguidores	seguidor	NOUN	NOUN	_	24	obj	_	TokenRange=202:212
+31	padre	padre	NOUN	NOUN	_	30	appos	_	TokenRange=213:218
+32	redes	rede	NOUN	NOUN	_	30	appos	_	TokenRange=219:224
+33	sociais	social	ADJ	ADJ	_	32	amod	_	TokenRange=225:232
+34	ficaram	ficar	VERB	VERB	_	2	parataxis	_	TokenRange=233:240
+35	chocados	chocado	ADJ	ADJ	_	34	xcomp	_	TokenRange=241:249
+36	fofoca	fofoca	ADJ	ADJ	_	34	mark	_	TokenRange=250:256
+37	jornalista	jornalista	NOUN	NOUN	_	34	nsubj	_	TokenRange=257:267
+38	nota	nota	NOUN	NOUN	_	34	nsubj	_	TokenRange=268:272
+39	oficial	oficial	ADJ	ADJ	_	38	amod	_	TokenRange=273:280
+40	assessoria	assessoria	NOUN	NOUN	_	42	nsubj	_	TokenRange=281:291
+41	manzotti	manzotti	NOUN	NOUN	_	40	flat	_	TokenRange=292:300
+42	enviou	enviar	VERB	VERB	_	34	parataxis	_	TokenRange=301:307
+43	email	email	NOUN	NOUN	_	42	obj	_	TokenRange=308:313
+44	colunista	colunista	ADJ	ADJ	_	43	amod	_	TokenRange=314:323
+45	leo	_	DET	DET	_	46	det	_	TokenRange=324:327
+46	dias	dia	NOUN	NOUN	_	47	nsubj	_	TokenRange=328:332
+47	desmentiu	desmentir	VERB	VERB	_	34	parataxis	_	TokenRange=333:342
+48	historia	historia	NOUN	NOUN	_	47	obj	_	TokenRange=343:351
+49	moca	moco	NOUN	NOUN	_	48	flat	_	TokenRange=352:356
+50	alegando	alegar	VERB	VERB	_	48	acl	_	TokenRange=357:365
+51	mesma	_	PRON	PRON	_	50	obj	_	TokenRange=366:371
+52	fara	_	VERB	VERB	_	50	ccomp	_	TokenRange=372:376
+53	exame	exame	NOUN	NOUN	_	52	obj	_	TokenRange=377:382
+54	dna	_	NOUN	NOUN	_	53	appos	_	TokenRange=383:386
+55	assim	assim	ADV	ADV	_	57	advmod	_	TokenRange=387:392
+56	crianca	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=393:400
+57	nascer	nascer	VERB	VERB	_	52	advcl	_	TokenRange=401:407
+58	alem	alem	ADV	ADV	_	59	advmod	_	TokenRange=408:412
+59	desmentir	desmentir	VERB	VERB	_	57	xcomp	_	TokenRange=413:422
+60	polemica	polemico	ADJ	ADJ	_	61	amod	_	TokenRange=423:431
+61	padre	padre	NOUN	NOUN	_	59	obj	_	TokenRange=432:437
+62	fala	_	VERB	VERB	_	57	ccomp	_	TokenRange=438:442
+63	sobre	_	ADP	ADP	_	64	case	_	TokenRange=443:448
+64	papel	papel	NOUN	NOUN	_	62	nmod	_	TokenRange=449:454
+65	sacerdote	sacerdote	NOUN	NOUN	_	64	flat	_	TokenRange=455:464
+66	alega	alegar	VERB	VERB	_	52	conj	_	TokenRange=465:470
+67	conhece	conhecer	VERB	VERB	_	66	ccomp	_	TokenRange=471:478
+68	tao	tao	ADV	DET	_	70	det	_	TokenRange=479:482
+69	pouco	_	DET	DET	_	70	det	_	TokenRange=483:488
+70	contato	contato	NOUN	NOUN	_	67	obj	_	TokenRange=489:496
+71	adriele	_	X	NOUN	_	70	appos	_	SpaceAfter=No|TokenRange=497:504
+

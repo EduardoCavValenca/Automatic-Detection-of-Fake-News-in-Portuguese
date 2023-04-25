@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = thiago lacerda solta verbo artistas defendem pt perder boquinha lei rouanet ator thiago lacerda usou twitter disse tudo entalado garganta muitos brasileiros thiago manifestou outras vezes redes sociais maioria defendeu candidato b sempre disse pensa desta vez cobra fumou sobrou colegas profissao
+1	thiago	thiago	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:6
+2	lacerda	lacerda	NOUN	NOUN	_	1	flat	_	TokenRange=7:14
+3	solta	solto	ADJ	ADJ	_	1	amod	_	TokenRange=15:20
+4	verbo	verbo	NOUN	NOUN	_	1	appos	_	TokenRange=21:26
+5	artistas	artista	NOUN	NOUN	_	1	appos	_	TokenRange=27:35
+6	defendem	defender	VERB	VERB	_	1	acl:relcl	_	TokenRange=36:44
+7	pt	_	NOUN	NOUN	_	8	obj	_	TokenRange=45:47
+8	perder	perder	VERB	VERB	_	6	xcomp	_	TokenRange=48:54
+9	boquinha	_	NOUN	NOUN	_	8	obj	_	TokenRange=55:63
+10	lei	lei	NOUN	NOUN	_	9	appos	_	TokenRange=64:67
+11	rouanet	_	NOUN	NOUN	_	10	flat	_	TokenRange=68:75
+12	ator	ator	NOUN	NOUN	_	10	flat	_	TokenRange=76:80
+13	thiago	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=81:87
+14	lacerda	lacerda	NOUN	NOUN	_	13	flat	_	TokenRange=88:95
+15	usou	usar	VERB	VERB	_	0	root	_	TokenRange=96:100
+16	twitter	_	PROPN	PNOUN	_	15	obj	_	TokenRange=101:108
+17	disse	dizer	VERB	VERB	_	15	parataxis	_	TokenRange=109:114
+18	tudo	_	PRON	PRON	_	17	nsubj	_	TokenRange=115:119
+19	entalado	entalado	ADJ	ADJ	_	17	xcomp	_	TokenRange=120:128
+20	garganta	_	NOUN	NOUN	_	24	nmod	_	TokenRange=129:137
+21	muitos	_	DET	DET	_	22	det	_	TokenRange=138:144
+22	brasileiros	brasileiro	NOUN	NOUN	_	24	nsubj	_	TokenRange=145:156
+23	thiago	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=157:163
+24	manifestou	manifestar	VERB	VERB	_	15	conj	_	TokenRange=164:174
+25	outras	_	DET	DET	_	26	det	_	TokenRange=175:181
+26	vezes	vez	NOUN	NOUN	_	24	nmod	_	TokenRange=182:187
+27	redes	rede	NOUN	NOUN	_	24	obj	_	TokenRange=188:193
+28	sociais	social	ADJ	ADJ	_	27	amod	_	TokenRange=194:201
+29	maioria	maioria	NOUN	NOUN	_	30	nsubj	_	TokenRange=202:209
+30	defendeu	defender	VERB	VERB	_	24	parataxis	_	TokenRange=210:218
+31	candidato	candidato	NOUN	NOUN	_	30	obj	_	TokenRange=219:228
+32	b	b	ADJ	ADJ	_	31	amod	_	TokenRange=229:230
+33	sempre	sempre	ADV	ADV	_	34	advmod	_	TokenRange=231:237
+34	disse	dizer	VERB	VERB	_	30	parataxis	_	TokenRange=238:243
+35	pensa	pensa	NOUN	NOUN	_	34	obj	_	TokenRange=244:249
+36	desta	_	ADP	ADP	_	37	case	_	TokenRange=250:255
+37	vez	vez	NOUN	NOUN	_	39	nmod	_	TokenRange=256:259
+38	cobra	cobra	NOUN	NOUN	_	39	nsubj	_	TokenRange=260:265
+39	fumou	fumar	VERB	VERB	_	34	ccomp	_	TokenRange=266:271
+40	sobrou	sobrar	VERB	VERB	_	39	ccomp	_	TokenRange=272:278
+41	colegas	colega	NOUN	NOUN	_	40	nsubj	_	TokenRange=279:286
+42	profissao	profissao	ADJ	ADJ	_	41	amod	_	SpaceAfter=No|TokenRange=287:296
+

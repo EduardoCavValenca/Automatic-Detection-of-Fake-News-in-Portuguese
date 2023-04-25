@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = emocionante jovem 27 anos morre cancer deixa licao vida divulgada internet
+1	emocionante	emocionante	ADJ	ADJ	_	4	amod	_	TokenRange=0:11
+2	jovem	jovem	ADJ	ADJ	_	5	amod	_	TokenRange=12:17
+3	27	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=18:20
+4	anos	ano	NOUN	NOUN	_	5	nsubj	_	TokenRange=21:25
+5	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=26:31
+6	cancer	cancer	NOUN	NOUN	_	5	obj	_	TokenRange=32:38
+7	deixa	deixar	VERB	VERB	_	5	parataxis	_	TokenRange=39:44
+8	licao	licao	ADJ	ADJ	_	9	amod	_	TokenRange=45:50
+9	vida	vida	NOUN	NOUN	_	7	obj	_	TokenRange=51:55
+10	divulgada	divulgar	VERB	VERB	_	9	acl	_	TokenRange=56:65
+11	internet	_	PROPN	PNOUN	_	10	nsubj	_	SpaceAfter=No|TokenRange=66:74
+

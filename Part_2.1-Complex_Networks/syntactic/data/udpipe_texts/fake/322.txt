@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = desembargador victor laus algum momento lula perdeu rumo segundo desembargador victor laus terceiro magistrado votar audiencia julga recurso lula expresidente confundiu alhos bugalhos excelencia algum momento perdeu rumo laus declarou exercicio cargo primeiro mandatario nacao confundido chefe agremiacao partidaria expresidente confundiu atribuicoes lula pensou palacio planalto sede pt
+1	desembargador	desembargador	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:13
+2	victor	victor	NOUN	NOUN	_	1	appos	_	TokenRange=14:20
+3	laus	_	ADJ	ADJ	_	1	flat	_	TokenRange=21:25
+4	algum	_	DET	DET	_	5	det	_	TokenRange=26:31
+5	momento	momento	NOUN	NOUN	_	7	nsubj	_	TokenRange=32:39
+6	lula	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=40:44
+7	perdeu	perder	VERB	VERB	_	0	root	_	TokenRange=45:51
+8	rumo	rumo	NOUN	NOUN	_	7	obj	_	TokenRange=52:56
+9	segundo	_	ADJ	ADJ	_	10	amod	_	TokenRange=57:64
+10	desembargador	desembargador	NOUN	NOUN	_	7	nmod	_	TokenRange=65:78
+11	victor	victor	NOUN	NOUN	_	10	appos	_	TokenRange=79:85
+12	laus	_	NOUN	NOUN	_	11	flat	_	TokenRange=86:90
+13	terceiro	_	ADJ	ADJ	_	14	amod	_	TokenRange=91:99
+14	magistrado	magistrado	NOUN	NOUN	_	15	nsubj	_	TokenRange=100:110
+15	votar	votar	VERB	VERB	_	7	parataxis	_	TokenRange=111:116
+16	audiencia	audiencia	NOUN	NOUN	_	15	obj	_	TokenRange=117:126
+17	julga	julgar	VERB	VERB	_	7	parataxis	_	TokenRange=127:132
+18	recurso	recurso	NOUN	NOUN	_	17	obj	_	TokenRange=133:140
+19	lula	_	ADJ	ADJ	_	18	amod	_	TokenRange=141:145
+20	expresidente	expresidente	NOUN	NOUN	_	21	nsubj	_	TokenRange=146:158
+21	confundiu	confundir	VERB	VERB	_	18	acl:relcl	_	TokenRange=159:168
+22	alhos	_	NOUN	NOUN	_	21	obj	_	TokenRange=169:174
+23	bugalhos	bugalho	NOUN	NOUN	_	22	flat	_	TokenRange=175:183
+24	excelencia	excelencia	NOUN	NOUN	_	27	obj	_	TokenRange=184:194
+25	algum	_	DET	DET	_	26	det	_	TokenRange=195:200
+26	momento	momento	NOUN	NOUN	_	27	nsubj	_	TokenRange=201:208
+27	perdeu	perder	VERB	VERB	_	21	conj	_	TokenRange=209:215
+28	rumo	rumo	NOUN	NOUN	_	27	obj	_	TokenRange=216:220
+29	laus	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=221:225
+30	declarou	declarar	VERB	VERB	_	27	ccomp	_	TokenRange=226:234
+31	exercicio	exercicio	NOUN	NOUN	_	30	obj	_	TokenRange=235:244
+32	cargo	cargo	NOUN	NOUN	_	31	flat	_	TokenRange=245:250
+33	primeiro	primeiro	ADJ	ADJ	_	34	amod	_	TokenRange=251:259
+34	mandatario	mandatario	NOUN	NOUN	_	30	nsubj	_	TokenRange=260:270
+35	nacao	nacao	NOUN	NOUN	_	34	amod	_	TokenRange=271:276
+36	confundido	confundido	ADJ	ADJ	_	37	amod	_	TokenRange=277:287
+37	chefe	chefe	NOUN	NOUN	_	34	conj	_	TokenRange=288:293
+38	agremiacao	agremiacao	NOUN	NOUN	_	37	appos	_	TokenRange=294:304
+39	partidaria	partidar	ADJ	ADJ	_	38	amod	_	TokenRange=305:315
+40	expresidente	expresidente	ADJ	ADJ	_	37	amod	_	TokenRange=316:328
+41	confundiu	confundir	VERB	VERB	_	30	parataxis	_	TokenRange=329:338
+42	atribuicoes	_	NOUN	NOUN	_	41	obj	_	TokenRange=339:350
+43	lula	_	NOUN	NOUN	_	47	appos	_	TokenRange=351:355
+44	pensou	pensar	VERB	VERB	_	41	parataxis	_	TokenRange=356:362
+45	palacio	palacio	NOUN	NOUN	_	44	obj	_	TokenRange=363:370
+46	planalto	planalto	ADJ	ADJ	_	47	amod	_	TokenRange=371:379
+47	sede	sede	NOUN	NOUN	_	44	obj	_	TokenRange=380:384
+48	pt	_	NOUN	NOUN	_	44	dep	_	SpaceAfter=No|TokenRange=385:387
+

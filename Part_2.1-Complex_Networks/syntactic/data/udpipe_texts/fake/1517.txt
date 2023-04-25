@@ -1,0 +1,21 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente pt elogia decisao deu liberdade bruno diz hora soltar jose dirceu vaccari
+1	presidente	presidente	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	pt	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:13
+3	elogia	elogiar	VERB	VERB	_	0	root	_	TokenRange=14:20
+4	decisao	decisao	NOUN	NOUN	_	3	obj	_	TokenRange=21:28
+5	deu	dar	VERB	VERB	_	3	ccomp	_	TokenRange=29:32
+6	liberdade	liberdade	NOUN	NOUN	_	5	obj	_	TokenRange=33:42
+7	bruno	bruno	NOUN	NOUN	_	8	nsubj	_	TokenRange=43:48
+8	diz	dizer	VERB	VERB	_	3	conj	_	TokenRange=49:52
+9	hora	hora	NOUN	NOUN	_	8	obj	_	TokenRange=53:57
+10	soltar	soltar	VERB	VERB	_	9	acl:inf	_	TokenRange=58:64
+11	jose	jose	NOUN	NOUN	_	10	obj	_	TokenRange=65:69
+12	dirceu	_	NOUN	NOUN	_	11	flat	_	TokenRange=70:76
+13	vaccari	vaccar	NOUN	NOUN	_	11	appos	_	SpaceAfter=No|TokenRange=77:84
+

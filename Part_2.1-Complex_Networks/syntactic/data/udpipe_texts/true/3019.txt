@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos tiros onibus lula deputados pt cobram jungmann petistas afirmam algo acontecer expresidente culpa governo federal governo parana brasilia deputados pt reuniram ministro seguranca publica raul jungmann cobrar providencias governo federal relacao ataques sofridos caravana expresidente luiz inacio lula silva dois onibus comboio petista atingidos tiros nesta tercafeira 27 dois onibus caravana lula atingidos tiros parana petistas dito algo acontecer lula qualquer integrante caravana
+1	apos	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	tiros	tiro	NOUN	NOUN	_	7	nmod	_	TokenRange=5:10
+3	onibus	_	NOUN	NOUN	_	2	appos	_	TokenRange=11:17
+4	lula	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=18:22
+5	deputados	deputado	NOUN	NOUN	_	7	nsubj	_	TokenRange=23:32
+6	pt	_	NOUN	NOUN	_	5	flat	_	TokenRange=33:35
+7	cobram	cobrar	VERB	VERB	_	0	root	_	TokenRange=36:42
+8	jungmann	_	NOUN	NOUN	_	7	obj	_	TokenRange=43:51
+9	petistas	petista	NOUN	NOUN	_	8	flat	_	TokenRange=52:60
+10	afirmam	afirmar	VERB	VERB	_	7	ccomp	_	TokenRange=61:68
+11	algo	_	PRON	PRON	_	12	nsubj	_	TokenRange=69:73
+12	acontecer	acontecer	VERB	VERB	_	10	ccomp	_	TokenRange=74:83
+13	expresidente	expresidente	NOUN	NOUN	_	12	nsubj	_	TokenRange=84:96
+14	culpa	culpa	ADJ	NOUN	_	15	amod	_	TokenRange=97:102
+15	governo	governo	NOUN	NOUN	_	12	appos	_	TokenRange=103:110
+16	federal	federal	ADJ	ADJ	_	15	amod	_	TokenRange=111:118
+17	governo	governo	NOUN	NOUN	_	22	nsubj	_	TokenRange=119:126
+18	parana	parana	ADJ	ADJ	_	17	amod	_	TokenRange=127:133
+19	brasilia	brasilia	NOUN	NOUN	_	17	appos	_	TokenRange=134:142
+20	deputados	deputado	NOUN	NOUN	_	22	nsubj	_	TokenRange=143:152
+21	pt	_	PROPN	PNOUN	_	20	amod	_	TokenRange=153:155
+22	reuniram	reunir	VERB	VERB	_	7	parataxis	_	TokenRange=156:164
+23	ministro	ministro	NOUN	NOUN	_	22	obj	_	TokenRange=165:173
+24	seguranca	_	NOUN	NOUN	_	23	amod	_	TokenRange=174:183
+25	publica	publico	ADJ	ADJ	_	23	amod	_	TokenRange=184:191
+26	raul	raul	NOUN	NOUN	_	22	nsubj	_	TokenRange=192:196
+27	jungmann	_	NOUN	NOUN	_	26	flat	_	TokenRange=197:205
+28	cobrar	cobrar	VERB	VERB	_	22	ccomp	_	TokenRange=206:212
+29	providencias	_	NOUN	NOUN	_	28	obj	_	TokenRange=213:225
+30	governo	governo	NOUN	NOUN	_	23	appos	_	TokenRange=226:233
+31	federal	federal	ADJ	ADJ	_	30	amod	_	TokenRange=234:241
+32	relacao	relacao	ADJ	ADJ	_	33	amod	_	TokenRange=242:249
+33	ataques	ataque	NOUN	NOUN	_	28	obj	_	TokenRange=250:257
+34	sofridos	sofrer	ADJ	ADJ	_	33	amod	_	TokenRange=258:266
+35	caravana	_	NOUN	NOUN	_	33	amod	_	TokenRange=267:275
+36	expresidente	expresidente	NOUN	NOUN	_	33	appos	_	TokenRange=276:288
+37	luiz	luiz	NOUN	NOUN	_	36	appos	_	TokenRange=289:293
+38	inacio	_	NOUN	NOUN	_	37	flat	_	TokenRange=294:300
+39	lula	_	NOUN	NOUN	_	37	flat	_	TokenRange=301:305
+40	silva	silva	NOUN	NOUN	_	37	flat	_	TokenRange=306:311
+41	dois	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=312:316
+42	onibus	_	NOUN	NOUN	_	28	obj	_	TokenRange=317:323
+43	comboio	comboio	NOUN	NOUN	_	42	appos	_	TokenRange=324:331
+44	petista	petista	ADJ	ADJ	_	43	amod	_	TokenRange=332:339
+45	atingidos	atingir	ADJ	ADJ	_	42	acl	_	TokenRange=340:349
+46	tiros	tiro	NOUN	NOUN	_	45	nsubj	_	TokenRange=350:355
+47	nesta	_	ADP	ADP	_	48	case	_	TokenRange=356:361
+48	tercafeira	_	NOUN	NOUN	_	45	nmod	_	TokenRange=362:372
+49	27	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=373:375
+50	dois	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=376:380
+51	onibus	_	NOUN	NOUN	_	48	appos	_	TokenRange=381:387
+52	caravana	caravana	ADJ	ADJ	_	51	amod	_	TokenRange=388:396
+53	lula	_	NOUN	NOUN	_	51	appos	_	TokenRange=397:401
+54	atingidos	atingir	ADJ	ADJ	_	51	acl	_	TokenRange=402:411
+55	tiros	tiro	NOUN	NOUN	_	54	nsubj	_	TokenRange=412:417
+56	parana	parana	ADJ	ADJ	_	57	amod	_	TokenRange=418:424
+57	petistas	petista	NOUN	NOUN	_	55	amod	_	TokenRange=425:433
+58	dito	_	VERB	VERB	_	55	acl	_	TokenRange=434:438
+59	algo	_	PRON	PRON	_	60	nsubj	_	TokenRange=439:443
+60	acontecer	acontecer	VERB	VERB	_	58	ccomp	_	TokenRange=444:453
+61	lula	_	NOUN	NOUN	_	60	nsubj	_	TokenRange=454:458
+62	qualquer	_	DET	DET	_	63	det	_	TokenRange=459:467
+63	integrante	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=468:478
+64	caravana	caravana	NOUN	NOUN	_	63	appos	_	SpaceAfter=No|TokenRange=479:487
+

@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = versatil cantor joao sabia leva sambalanco dentro pais ator compositor participou programa fama 2004 famoso rodas samba gafieira rio paulo apresenta santos versatil cantor compositor joao sabia vive diferente fase carreira misturar samba bossa nova consagrou estilo sambalanco rodas gafieira rio janeiro paulo paralelo destaca radios novo single autoral responda gravou luiza possi entrevista g1
+1	versatil	versatil	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	cantor	cantor	NOUN	NOUN	_	45	nsubj	_	TokenRange=9:15
+3	joao	joao	NOUN	NOUN	_	2	appos	_	TokenRange=16:20
+4	sabia	sabia	NOUN	NOUN	_	2	appos	_	TokenRange=21:26
+5	leva	levar	VERB	VERB	_	2	acl:relcl	_	TokenRange=27:31
+6	sambalanco	_	NOUN	NOUN	_	5	obj	_	TokenRange=32:42
+7	dentro	dentro	ADV	ADV	_	5	advmod	_	TokenRange=43:49
+8	pais	_	NOUN	NOUN	_	5	obj	_	TokenRange=50:54
+9	ator	ator	NOUN	NOUN	_	8	appos	_	TokenRange=55:59
+10	compositor	compositor	NOUN	NOUN	_	9	flat	_	TokenRange=60:70
+11	participou	participar	VERB	VERB	_	5	parataxis	_	TokenRange=71:81
+12	programa	programa	NOUN	NOUN	_	11	obj	_	TokenRange=82:90
+13	fama	fama	NOUN	NOUN	_	12	flat	_	TokenRange=91:95
+14	2004	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=96:100
+15	famoso	famoso	ADJ	ADJ	_	16	amod	_	TokenRange=101:107
+16	rodas	roda	NOUN	NOUN	_	11	nsubj	_	TokenRange=108:113
+17	samba	samba	NOUN	NOUN	_	16	appos	_	TokenRange=114:119
+18	gafieira	gafieira	NOUN	NOUN	_	17	amod	_	TokenRange=120:128
+19	rio	_	NOUN	NOUN	_	16	appos	_	TokenRange=129:132
+20	paulo	_	NOUN	NOUN	_	19	flat	_	TokenRange=133:138
+21	apresenta	apresentar	VERB	VERB	_	11	parataxis	_	TokenRange=139:148
+22	santos	santo	NOUN	NOUN	_	24	amod	_	TokenRange=149:155
+23	versatil	versatil	ADJ	ADJ	_	24	amod	_	TokenRange=156:164
+24	cantor	cantor	NOUN	NOUN	_	21	nsubj	_	TokenRange=165:171
+25	compositor	compositor	NOUN	NOUN	_	24	amod	_	TokenRange=172:182
+26	joao	joao	NOUN	NOUN	_	24	appos	_	TokenRange=183:187
+27	sabia	sabia	NOUN	NOUN	_	24	flat	_	TokenRange=188:193
+28	vive	_	VERB	VERB	_	24	acl:relcl	_	TokenRange=194:198
+29	diferente	_	ADJ	ADJ	_	30	amod	_	TokenRange=199:208
+30	fase	fase	NOUN	NOUN	_	28	obj	_	TokenRange=209:213
+31	carreira	_	NOUN	NOUN	_	30	appos	_	TokenRange=214:222
+32	misturar	misturar	VERB	VERB	_	24	acl:inf	_	TokenRange=223:231
+33	samba	samba	NOUN	NOUN	_	32	obj	_	TokenRange=232:237
+34	bossa	_	NOUN	NOUN	_	33	appos	_	TokenRange=238:243
+35	nova	novo	ADJ	ADJ	_	34	amod	_	TokenRange=244:248
+36	consagrou	consagrar	VERB	VERB	_	28	parataxis	_	TokenRange=249:258
+37	estilo	estilo	NOUN	NOUN	_	36	obj	_	TokenRange=259:265
+38	sambalanco	_	ADJ	ADJ	_	37	amod	_	TokenRange=266:276
+39	rodas	roda	NOUN	NOUN	_	36	nsubj	_	TokenRange=277:282
+40	gafieira	gafieira	ADJ	ADJ	_	39	amod	_	TokenRange=283:291
+41	rio	rio	NOUN	NOUN	_	39	appos	_	TokenRange=292:295
+42	janeiro	_	NOUN	NOUN	_	39	appos	_	TokenRange=296:303
+43	paulo	paulo	NOUN	NOUN	_	41	flat	_	TokenRange=304:309
+44	paralelo	paralelo	ADJ	ADJ	_	43	amod	_	TokenRange=310:318
+45	destaca	destacar	VERB	VERB	_	0	root	_	TokenRange=319:326
+46	radios	radio	NOUN	NOUN	_	45	obj	_	TokenRange=327:333
+47	novo	novo	ADJ	ADJ	_	48	amod	_	TokenRange=334:338
+48	single	single	NOUN	NOUN	_	45	obj	_	TokenRange=339:345
+49	autoral	autoral	ADJ	ADJ	_	48	amod	_	TokenRange=346:353
+50	responda	respondo	NOUN	ADJ	_	48	appos	_	TokenRange=354:362
+51	gravou	gravar	VERB	VERB	_	45	parataxis	_	TokenRange=363:369
+52	luiza	_	NOUN	NOUN	_	51	obj	_	TokenRange=370:375
+53	possi	_	AUX	AUX	_	54	cop	_	TokenRange=376:381
+54	entrevista	entrevista	NOUN	NOUN	_	51	obj	_	TokenRange=382:392
+55	g1	_	X	X	_	54	appos	_	SpaceAfter=No|TokenRange=393:395
+

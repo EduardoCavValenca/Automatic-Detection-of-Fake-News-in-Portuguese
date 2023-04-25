@@ -1,0 +1,33 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula dizendo jose sarney dono globo esqueca luiz inacio politico tente analisar luiz inacio pessoa assista video abaixo diga expresidente pessoa bate bem pinos confira
+1	lula	lula	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:4
+2	dizendo	dizer	VERB	VERB	_	1	acl	_	TokenRange=5:12
+3	jose	jose	NOUN	NOUN	_	2	obj	_	TokenRange=13:17
+4	sarney	sarney	NOUN	NOUN	_	3	flat	_	TokenRange=18:24
+5	dono	dono	NOUN	NOUN	_	3	appos	_	TokenRange=25:29
+6	globo	globo	NOUN	NOUN	_	5	flat	_	TokenRange=30:35
+7	esqueca	esquecar	VERB	VERB	_	2	conj	_	TokenRange=36:43
+8	luiz	luiz	NOUN	NOUN	_	7	obj	_	TokenRange=44:48
+9	inacio	_	NOUN	NOUN	_	8	flat	_	TokenRange=49:55
+10	politico	_	NOUN	NOUN	_	8	flat	_	TokenRange=56:64
+11	tente	tente	VERB	VERB	_	8	acl:relcl	_	TokenRange=65:70
+12	analisar	analisar	VERB	VERB	_	11	xcomp	_	TokenRange=71:79
+13	luiz	luiz	NOUN	NOUN	_	12	obj	_	TokenRange=80:84
+14	inacio	_	NOUN	NOUN	_	13	flat	_	TokenRange=85:91
+15	pessoa	pessoa	NOUN	NOUN	_	13	flat	_	TokenRange=92:98
+16	assista	assistir	VERB	VERB	_	0	root	_	TokenRange=99:106
+17	video	video	NOUN	NOUN	_	16	obj	_	TokenRange=107:112
+18	abaixo	abaixo	ADV	ADV	_	19	advmod	_	TokenRange=113:119
+19	diga	dizer	VERB	VERB	_	16	ccomp	_	TokenRange=120:124
+20	expresidente	expresidente	NOUN	NOUN	_	19	obj	_	TokenRange=125:137
+21	pessoa	pessoa	ADJ	ADJ	_	20	amod	_	TokenRange=138:144
+22	bate	bater	VERB	VERB	_	19	ccomp	_	TokenRange=145:149
+23	bem	bem	ADV	ADV	_	25	advmod	_	TokenRange=150:153
+24	pinos	_	NOUN	NOUN	_	25	obj	_	TokenRange=154:159
+25	confira	conferir	VERB	VERB	_	16	parataxis	_	SpaceAfter=No|TokenRange=160:167
+

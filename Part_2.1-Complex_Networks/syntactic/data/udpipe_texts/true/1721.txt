@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = oposicao venezuelana convoca novo protesto apos ataque helicoptero suprema corte tercafeira helicoptero roubado policia fez disparos lancou granadas durante acao considerada presidente venezuelano terrorista golpista oposicao venezuelana convocou novo protesto nesta quartafeira 28 dia apos ataque helicoptero contra suprema corte ministerio interior capitulo perigosa escalada violencia pais enfrenta forca armada venezuelana alerta desde tercafeira 27 helicoptero roubado policia fez disparos lancou granadas durante acao considerada
+1	oposicao	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	venezuelana	venezuelano	ADJ	ADJ	_	1	amod	_	TokenRange=9:20
+3	convoca	convocar	VERB	VERB	_	0	root	_	TokenRange=21:28
+4	novo	novo	ADJ	ADJ	_	5	amod	_	TokenRange=29:33
+5	protesto	protesto	NOUN	NOUN	_	3	obj	_	TokenRange=34:42
+6	apos	_	ADP	ADP	_	7	case	_	TokenRange=43:47
+7	ataque	ataque	NOUN	NOUN	_	5	nmod	_	TokenRange=48:54
+8	helicoptero	helicoptero	NOUN	NOUN	_	7	amod	_	TokenRange=55:66
+9	suprema	supremo	ADJ	ADJ	_	10	amod	_	TokenRange=67:74
+10	corte	corte	NOUN	NOUN	_	3	nsubj	_	TokenRange=75:80
+11	tercafeira	_	NOUN	NOUN	_	10	appos	_	TokenRange=81:91
+12	helicoptero	helicoptero	NOUN	NOUN	_	15	nsubj	_	TokenRange=92:103
+13	roubado	roubado	ADJ	ADJ	_	12	amod	_	TokenRange=104:111
+14	policia	policia	NOUN	NOUN	_	12	appos	_	TokenRange=112:119
+15	fez	fazer	VERB	VERB	_	3	conj	_	TokenRange=120:123
+16	disparos	disparo	NOUN	NOUN	_	15	obj	_	TokenRange=124:132
+17	lancou	lancar	VERB	VERB	_	15	parataxis	_	TokenRange=133:139
+18	granadas	granada	NOUN	NOUN	_	17	obj	_	TokenRange=140:148
+19	durante	_	ADP	ADP	_	20	case	_	TokenRange=149:156
+20	acao	acao	NOUN	NOUN	_	17	nmod	_	TokenRange=157:161
+21	considerada	considerar	AUX	AUX	_	22	cop	_	TokenRange=162:173
+22	presidente	presidente	NOUN	NOUN	_	28	nsubj	_	TokenRange=174:184
+23	venezuelano	venezuelano	ADJ	ADJ	_	22	amod	_	TokenRange=185:196
+24	terrorista	terrorista	NOUN	NOUN	_	22	amod	_	TokenRange=197:207
+25	golpista	golpista	ADJ	ADJ	_	22	amod	_	TokenRange=208:216
+26	oposicao	_	ADJ	ADJ	_	22	amod	_	TokenRange=217:225
+27	venezuelana	venezuelano	ADJ	ADJ	_	22	amod	_	TokenRange=226:237
+28	convocou	convocar	VERB	VERB	_	3	parataxis	_	TokenRange=238:246
+29	novo	novo	ADJ	ADJ	_	30	amod	_	TokenRange=247:251
+30	protesto	protesto	NOUN	NOUN	_	28	obj	_	TokenRange=252:260
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=261:266
+32	quartafeira	_	NOUN	NOUN	_	28	nmod	_	TokenRange=267:278
+33	28	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=279:281
+34	dia	dia	NOUN	NOUN	_	32	nmod	_	TokenRange=282:285
+35	apos	_	ADP	ADP	_	36	case	_	TokenRange=286:290
+36	ataque	ataque	NOUN	NOUN	_	34	nmod	_	TokenRange=291:297
+37	helicoptero	helicoptero	NOUN	NOUN	_	36	flat	_	TokenRange=298:309
+38	contra	_	ADP	ADP	_	40	case	_	TokenRange=310:316
+39	suprema	supremo	ADJ	ADJ	_	40	amod	_	TokenRange=317:324
+40	corte	corte	NOUN	NOUN	_	36	nmod	_	TokenRange=325:330
+41	ministerio	ministerio	NOUN	NOUN	_	36	appos	_	TokenRange=331:341
+42	interior	interior	ADJ	ADJ	_	41	amod	_	TokenRange=342:350
+43	capitulo	capitulo	NOUN	NOUN	_	41	appos	_	TokenRange=351:359
+44	perigosa	perigoso	ADJ	ADJ	_	43	amod	_	TokenRange=360:368
+45	escalada	escalada	NOUN	NOUN	_	41	appos	_	TokenRange=369:377
+46	violencia	violencia	NOUN	NOUN	_	45	flat	_	TokenRange=378:387
+47	pais	_	NOUN	NOUN	_	45	amod	_	TokenRange=388:392
+48	enfrenta	enfrentar	VERB	VERB	_	3	parataxis	_	TokenRange=393:401
+49	forca	forca	NOUN	NOUN	_	48	obj	_	TokenRange=402:407
+50	armada	armado	ADJ	ADJ	_	49	amod	_	TokenRange=408:414
+51	venezuelana	venezuelano	ADJ	ADJ	_	49	amod	_	TokenRange=415:426
+52	alerta	alertar	VERB	VERB	_	48	parataxis	_	TokenRange=427:433
+53	desde	_	ADP	ADP	_	54	case	_	TokenRange=434:439
+54	tercafeira	_	NOUN	NOUN	_	52	nmod	_	TokenRange=440:450
+55	27	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=451:453
+56	helicoptero	helicoptero	NOUN	NOUN	_	59	nsubj	_	TokenRange=454:465
+57	roubado	roubar	ADJ	ADJ	_	56	amod	_	TokenRange=466:473
+58	policia	policia	NOUN	NOUN	_	56	appos	_	TokenRange=474:481
+59	fez	fazer	VERB	VERB	_	52	conj	_	TokenRange=482:485
+60	disparos	disparo	NOUN	NOUN	_	61	obj	_	TokenRange=486:494
+61	lancou	lancar	VERB	VERB	_	59	parataxis	_	TokenRange=495:501
+62	granadas	granada	NOUN	NOUN	_	61	obj	_	TokenRange=502:510
+63	durante	_	ADP	ADP	_	64	case	_	TokenRange=511:518
+64	acao	acao	NOUN	NOUN	_	61	nmod	_	TokenRange=519:523
+65	considerada	considerar	VERB	VERB	_	64	acl	_	SpaceAfter=No|TokenRange=524:535
+

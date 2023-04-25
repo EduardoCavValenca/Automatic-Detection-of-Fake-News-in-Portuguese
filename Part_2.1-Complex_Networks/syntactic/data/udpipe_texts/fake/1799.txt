@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = felipe moura grava video explicativo sobre corrupcao petista lula officeboy odebrecht colunista felipe moura brasil veja comentou relatorio corrupcao tornado publico justica americana esquema desvio dinheiro publico envolve odebrecht braskem alta cupula governo corrupto historia brasil confira video
+1	felipe	felipe	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	moura	mouro	NOUN	NOUN	_	1	flat	_	TokenRange=7:12
+3	grava	gravar	VERB	VERB	_	0	root	_	TokenRange=13:18
+4	video	video	NOUN	NOUN	_	3	obj	_	TokenRange=19:24
+5	explicativo	explicativo	ADJ	ADJ	_	4	amod	_	TokenRange=25:36
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=37:42
+7	corrupcao	corrupcao	NOUN	NOUN	_	4	nmod	_	TokenRange=43:52
+8	petista	petista	ADJ	ADJ	_	7	amod	_	TokenRange=53:60
+9	lula	lula	NOUN	NOUN	_	7	appos	_	TokenRange=61:65
+10	officeboy	_	NOUN	NOUN	_	7	appos	_	TokenRange=66:75
+11	odebrecht	_	NOUN	NOUN	_	7	appos	_	TokenRange=76:85
+12	colunista	colunista	ADJ	ADJ	_	11	amod	_	TokenRange=86:95
+13	felipe	felipe	NOUN	NOUN	_	11	appos	_	TokenRange=96:102
+14	moura	mouro	NOUN	NOUN	_	11	flat	_	TokenRange=103:108
+15	brasil	brasil	NOUN	NOUN	_	13	flat	_	TokenRange=109:115
+16	veja	veja	NOUN	NOUN	_	13	flat	_	TokenRange=116:120
+17	comentou	comentar	VERB	VERB	_	3	parataxis	_	TokenRange=121:129
+18	relatorio	relatorio	NOUN	NOUN	_	17	obj	_	TokenRange=130:139
+19	corrupcao	corrupcao	ADJ	ADJ	_	18	amod	_	TokenRange=140:149
+20	tornado	tornado	NOUN	NOUN	_	18	amod	_	TokenRange=150:157
+21	publico	_	ADJ	ADJ	_	22	amod	_	TokenRange=158:165
+22	justica	_	NOUN	NOUN	_	18	appos	_	TokenRange=166:173
+23	americana	americano	ADJ	ADJ	_	22	amod	_	TokenRange=174:183
+24	esquema	esquema	NOUN	NOUN	_	28	nsubj	_	TokenRange=184:191
+25	desvio	desvio	NOUN	NOUN	_	24	appos	_	TokenRange=192:198
+26	dinheiro	dinheiro	NOUN	NOUN	_	25	flat	_	TokenRange=199:207
+27	publico	publico	ADJ	ADJ	_	26	amod	_	TokenRange=208:215
+28	envolve	envolver	VERB	VERB	_	18	acl:relcl	_	TokenRange=216:223
+29	odebrecht	odebrecht	NOUN	NOUN	_	28	obj	_	TokenRange=224:233
+30	braskem	_	VERB	VERB	_	29	flat	_	TokenRange=234:241
+31	alta	alto	ADJ	ADJ	_	32	amod	_	TokenRange=242:246
+32	cupula	cupula	NOUN	NOUN	_	28	obj	_	TokenRange=247:253
+33	governo	governo	NOUN	NOUN	_	29	appos	_	TokenRange=254:261
+34	corrupto	corrupto	ADJ	ADJ	_	33	amod	_	TokenRange=262:270
+35	historia	historia	NOUN	NOUN	_	37	nsubj	_	TokenRange=271:279
+36	brasil	brasil	ADJ	ADJ	_	35	amod	_	TokenRange=280:286
+37	confira	conferir	VERB	VERB	_	3	parataxis	_	TokenRange=287:294
+38	video	video	NOUN	NOUN	_	37	obj	_	SpaceAfter=No|TokenRange=295:300
+

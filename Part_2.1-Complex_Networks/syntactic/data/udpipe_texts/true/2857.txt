@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = oito perguntas vintage culture dj planeja fazer historia planeta artista mato grosso sul estara palco principal festival realizado dias 2 3 fevereiro praia atlantida litoral norte rio grande sul lukas ruiz nasceu mundo novo cidade localizada sudoeste mato grosso sul municipio quase 20 mil habitantes faz divisa cidade paranaense guara conhece regiao sulmatogrossense sabe estilos conhecidos revelam artistas locais nacionais musica nativista chamame vanerao principalmente
+1	oito	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:4
+2	perguntas	pergunta	NOUN	NOUN	_	15	nsubj	_	TokenRange=5:14
+3	vintage	_	ADJ	ADJ	_	4	amod	_	TokenRange=15:22
+4	culture	_	NOUN	NOUN	_	2	appos	_	TokenRange=23:30
+5	dj	_	NOUN	NOUN	_	4	appos	_	TokenRange=31:33
+6	planeja	planejar	VERB	VERB	_	2	acl:relcl	_	TokenRange=34:41
+7	fazer	fazer	VERB	VERB	_	6	xcomp	_	TokenRange=42:47
+8	historia	historia	NOUN	NOUN	_	7	obj	_	TokenRange=48:56
+9	planeta	planeta	ADJ	NOUN	_	10	amod	_	TokenRange=57:64
+10	artista	artista	NOUN	NOUN	_	15	nsubj	_	TokenRange=65:72
+11	mato	mato	NOUN	NOUN	_	10	appos	_	TokenRange=73:77
+12	grosso	grosso	ADJ	ADJ	_	10	amod	_	TokenRange=78:84
+13	sul	sul	ADJ	ADJ	_	10	amod	_	TokenRange=85:88
+14	estara	estar	AUX	AUX	_	15	cop	_	TokenRange=89:95
+15	palco	palco	NOUN	NOUN	_	0	root	_	TokenRange=96:101
+16	principal	principal	ADJ	ADJ	_	15	amod	_	TokenRange=102:111
+17	festival	festival	NOUN	NOUN	_	15	appos	_	TokenRange=112:120
+18	realizado	realizar	VERB	VERB	_	17	acl	_	TokenRange=121:130
+19	dias	dia	NOUN	NOUN	_	18	nmod	_	TokenRange=131:135
+20	2	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=136:137
+21	3	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=138:139
+22	fevereiro	_	PROPN	PNOUN	_	19	nmod	_	TokenRange=140:149
+23	praia	praia	NOUN	NOUN	_	19	appos	_	TokenRange=150:155
+24	atlantida	atlantido	ADJ	ADJ	_	25	amod	_	TokenRange=156:165
+25	litoral	litoral	NOUN	NOUN	_	23	appos	_	TokenRange=166:173
+26	norte	norte	ADJ	ADJ	_	27	amod	_	TokenRange=174:179
+27	rio	rio	NOUN	NOUN	_	25	appos	_	TokenRange=180:183
+28	grande	grande	ADJ	ADJ	_	27	amod	_	TokenRange=184:190
+29	sul	sul	ADJ	ADJ	_	27	amod	_	TokenRange=191:194
+30	lukas	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=195:200
+31	ruiz	ruiz	NOUN	NOUN	_	30	flat	_	TokenRange=201:205
+32	nasceu	nascer	VERB	VERB	_	15	parataxis	_	TokenRange=206:212
+33	mundo	mundo	NOUN	NOUN	_	32	obj	_	TokenRange=213:218
+34	novo	novo	ADJ	ADJ	_	35	amod	_	TokenRange=219:223
+35	cidade	cidade	NOUN	NOUN	_	32	nsubj	_	TokenRange=224:230
+36	localizada	localizado	ADJ	ADJ	_	35	amod	_	TokenRange=231:241
+37	sudoeste	sudoeste	ADJ	ADJ	_	38	amod	_	TokenRange=242:250
+38	mato	mato	NOUN	NOUN	_	35	appos	_	TokenRange=251:255
+39	grosso	grosso	ADJ	ADJ	_	38	amod	_	TokenRange=256:262
+40	sul	sul	ADJ	ADJ	_	38	amod	_	TokenRange=263:266
+41	municipio	municipio	NOUN	NOUN	_	35	appos	_	TokenRange=267:276
+42	quase	quase	ADV	ADV	_	44	advmod	_	TokenRange=277:282
+43	20	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=283:285
+44	mil	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=286:289
+45	habitantes	habitante	NOUN	NOUN	_	46	nsubj	_	TokenRange=290:300
+46	faz	fazer	VERB	VERB	_	15	parataxis	_	TokenRange=301:304
+47	divisa	divisa	NOUN	NOUN	_	46	obj	_	TokenRange=305:311
+48	cidade	cidade	NOUN	NOUN	_	46	nsubj	_	TokenRange=312:318
+49	paranaense	paranaense	ADJ	ADJ	_	48	amod	_	TokenRange=319:329
+50	guara	_	NOUN	NOUN	_	51	nsubj	_	TokenRange=330:335
+51	conhece	conhecer	VERB	VERB	_	48	acl:relcl	_	TokenRange=336:343
+52	regiao	regiao	NOUN	NOUN	_	51	obj	_	TokenRange=344:350
+53	sulmatogrossense	_	ADJ	ADJ	_	52	amod	_	TokenRange=351:367
+54	sabe	saber	VERB	VERB	_	51	parataxis	_	TokenRange=368:372
+55	estilos	estilo	NOUN	NOUN	_	54	obj	_	TokenRange=373:380
+56	conhecidos	conhecer	VERB	VERB	_	55	acl	_	TokenRange=381:391
+57	revelam	revelar	VERB	VERB	_	55	acl:relcl	_	TokenRange=392:399
+58	artistas	artista	NOUN	NOUN	_	57	obj	_	TokenRange=400:408
+59	locais	local	ADJ	ADJ	_	58	amod	_	TokenRange=409:415
+60	nacionais	nacional	ADJ	ADJ	_	58	amod	_	TokenRange=416:425
+61	musica	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=426:432
+62	nativista	nativista	ADJ	ADJ	_	61	amod	_	TokenRange=433:442
+63	chamame	chamar	VERB	VERB	_	46	parataxis	_	TokenRange=443:450
+64	vanerao	vanerao	VERB	VERB	_	63	xcomp	_	TokenRange=451:458
+65	principalmente	principalmente	ADV	ADV	_	63	advmod	_	SpaceAfter=No|TokenRange=459:473
+

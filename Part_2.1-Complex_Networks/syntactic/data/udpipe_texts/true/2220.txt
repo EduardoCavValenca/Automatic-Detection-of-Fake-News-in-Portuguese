@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = expectativa vida paranaense nascer 771 anos 2016 diz ibge dados divulgados nesta sextafeira 1 apontam diferenca esperanca vida mulheres estado 68 anos superior homens expectativa vida paranaense nascer 2016 771 anos 77 anos mes seis dias conforme divulgou nesta sextafeira 1 instituto brasileiro geografia estatistica ibge ano anterior expectativa vida nascer estado media 768 anos 76 anos 9 meses 22 dias pesquisa aponta parana mulheres vivem media 68 anos homens expectativa vida nascer mulheres 2016 805 anos sexta maior pais homens esperanca vida nascer 737 anos ocupando
+1	expectativa	expectativa	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:11
+2	vida	vida	NOUN	NOUN	_	4	nsubj	_	TokenRange=12:16
+3	paranaense	paranaense	ADJ	ADJ	_	2	amod	_	TokenRange=17:27
+4	nascer	nascer	VERB	VERB	_	8	ccomp	_	TokenRange=28:34
+5	771	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=35:38
+6	anos	ano	NOUN	NOUN	_	4	obj	_	TokenRange=39:43
+7	2016	_	NUM	NUM	NumType=Card	6	nmod	_	TokenRange=44:48
+8	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=49:52
+9	ibge	ibge	NOUN	NOUN	_	8	nsubj	_	TokenRange=53:57
+10	dados	dado	NOUN	NOUN	_	15	nsubj	_	TokenRange=58:63
+11	divulgados	divulgar	VERB	VERB	_	10	acl	_	TokenRange=64:74
+12	nesta	_	ADP	ADP	_	13	case	_	TokenRange=75:80
+13	sextafeira	_	NOUN	NOUN	_	11	nmod	_	TokenRange=81:91
+14	1	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=92:93
+15	apontam	apontar	VERB	VERB	_	8	ccomp	_	TokenRange=94:101
+16	diferenca	_	NOUN	NOUN	_	15	obj	_	TokenRange=102:111
+17	esperanca	_	NOUN	NOUN	_	18	amod	_	TokenRange=112:121
+18	vida	vida	NOUN	NOUN	_	16	appos	_	TokenRange=122:126
+19	mulheres	mulher	NOUN	NOUN	_	18	flat	_	TokenRange=127:135
+20	estado	estado	NOUN	NOUN	_	18	appos	_	TokenRange=136:142
+21	68	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=143:145
+22	anos	ano	NOUN	NOUN	_	20	appos	_	TokenRange=146:150
+23	superior	superior	ADJ	ADJ	_	22	amod	_	TokenRange=151:159
+24	homens	homem	NOUN	NOUN	_	15	nsubj	_	TokenRange=160:166
+25	expectativa	expectativa	ADJ	ADJ	_	24	amod	_	TokenRange=167:178
+26	vida	vida	NOUN	NOUN	_	24	appos	_	TokenRange=179:183
+27	paranaense	paranaense	ADJ	ADJ	_	26	amod	_	TokenRange=184:194
+28	nascer	nascer	VERB	VERB	_	24	acl:relcl	_	TokenRange=195:201
+29	2016	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=202:206
+30	771	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=207:210
+31	anos	ano	NOUN	NOUN	_	28	obj	_	TokenRange=211:215
+32	77	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=216:218
+33	anos	ano	NOUN	NOUN	_	28	obj	_	TokenRange=219:223
+34	mes	_	DET	DET	_	36	case	_	TokenRange=224:227
+35	seis	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=228:232
+36	dias	dia	NOUN	NOUN	_	28	nmod	_	TokenRange=233:237
+37	conforme	_	CCONJ	CONJ	_	38	mark	_	TokenRange=238:246
+38	divulgou	divulgar	VERB	VERB	_	28	advcl	_	TokenRange=247:255
+39	nesta	_	ADP	ADP	_	40	case	_	TokenRange=256:261
+40	sextafeira	sextafeira	NOUN	NOUN	_	38	nmod	_	TokenRange=262:272
+41	1	_	NUM	NUM	NumType=Card	40	appos	_	TokenRange=273:274
+42	instituto	instituto	NOUN	NOUN	_	38	obj	_	TokenRange=275:284
+43	brasileiro	brasileiro	ADJ	ADJ	_	42	amod	_	TokenRange=285:295
+44	geografia	geografia	NOUN	NOUN	_	42	appos	_	TokenRange=296:305
+45	estatistica	estatistico	ADJ	ADJ	_	44	amod	_	TokenRange=306:317
+46	ibge	_	ADP	DET	_	47	case	_	TokenRange=318:322
+47	ano	ano	NOUN	NOUN	_	63	nsubj	_	TokenRange=323:326
+48	anterior	anterior	ADJ	ADJ	_	47	amod	_	TokenRange=327:335
+49	expectativa	expectativa	NOUN	NOUN	_	47	appos	_	TokenRange=336:347
+50	vida	vida	NOUN	NOUN	_	49	flat	_	TokenRange=348:352
+51	nascer	nascer	VERB	VERB	_	47	acl:relcl	_	TokenRange=353:359
+52	estado	estado	NOUN	NOUN	_	51	obj	_	TokenRange=360:366
+53	media	media	ADJ	ADJ	_	52	amod	_	TokenRange=367:372
+54	768	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=373:376
+55	anos	ano	NOUN	NOUN	_	52	appos	_	TokenRange=377:381
+56	76	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=382:384
+57	anos	ano	NOUN	NOUN	_	52	appos	_	TokenRange=385:389
+58	9	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=390:391
+59	meses	mês	NOUN	NOUN	_	57	appos	_	TokenRange=392:397
+60	22	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=398:400
+61	dias	dia	NOUN	NOUN	_	59	nmod	_	TokenRange=401:405
+62	pesquisa	pesquisa	NOUN	NOUN	_	63	nsubj	_	TokenRange=406:414
+63	aponta	apontar	VERB	VERB	_	8	parataxis	_	TokenRange=415:421
+64	parana	parana	NOUN	NOUN	_	63	obj	_	TokenRange=422:428
+65	mulheres	mulher	NOUN	NOUN	_	66	nsubj	_	TokenRange=429:437
+66	vivem	_	VERB	VERB	_	63	ccomp	_	TokenRange=438:443
+67	media	media	NOUN	NOUN	_	66	nmod	_	TokenRange=444:449
+68	68	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=450:452
+69	anos	ano	NOUN	NOUN	_	66	obj	_	TokenRange=453:457
+70	homens	homem	NOUN	NOUN	_	66	nsubj	_	TokenRange=458:464
+71	expectativa	expectativa	ADJ	ADJ	_	72	amod	_	TokenRange=465:476
+72	vida	vida	NOUN	NOUN	_	70	appos	_	TokenRange=477:481
+73	nascer	nascer	VERB	VERB	_	70	acl:inf	_	TokenRange=482:488
+74	mulheres	mulher	NOUN	NOUN	_	73	obj	_	TokenRange=489:497
+75	2016	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=498:502
+76	805	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=503:506
+77	anos	ano	NOUN	NOUN	_	73	nmod	_	TokenRange=507:511
+78	sexta	_	ADJ	ADJ	_	80	amod	_	TokenRange=512:517
+79	maior	maior	ADJ	ADJ	_	80	amod	_	TokenRange=518:523
+80	pais	_	NOUN	NOUN	_	66	nsubj	_	TokenRange=524:528
+81	homens	homem	NOUN	NOUN	_	80	appos	_	TokenRange=529:535
+82	esperanca	_	ADJ	ADJ	_	83	amod	_	TokenRange=536:545
+83	vida	vida	NOUN	NOUN	_	84	nsubj	_	TokenRange=546:550
+84	nascer	nascer	VERB	VERB	_	80	acl:relcl	_	TokenRange=551:557
+85	737	_	NUM	NUM	NumType=Card	86	nummod	_	TokenRange=558:561
+86	anos	ano	NOUN	NOUN	_	84	obj	_	TokenRange=562:566
+87	ocupando	ocupar	VERB	VERB	_	84	acl	_	SpaceAfter=No|TokenRange=567:575
+

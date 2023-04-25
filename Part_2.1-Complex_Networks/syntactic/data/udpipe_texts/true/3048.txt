@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = expresidente stf sepulveda pertence passa atuar advogado lula sepulveda deu informacao questionado sobre assunto apos participar posse luiz fux tse exprocuradorgeral avaliou lula alvo perseguicao jamais vista expresidente supremo tribunal federal stf sepulveda pertence informou nesta tercafeira 6 passou integrar equipe advogados expresidente luiz inacio lula silva sepulveda deu informacao questionado sobre assunto apos participar
+1	expresidente	expresidente	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:12
+2	stf	_	NOUN	NOUN	_	1	appos	_	TokenRange=13:16
+3	sepulveda	_	ADJ	ADJ	_	1	amod	_	TokenRange=17:26
+4	pertence	pertence	NOUN	NOUN	_	1	appos	_	TokenRange=27:35
+5	passa	passar	AUX	AUX	_	6	aux	_	TokenRange=36:41
+6	atuar	atuar	VERB	VERB	_	0	root	_	TokenRange=42:47
+7	advogado	advogado	NOUN	NOUN	_	6	obj	_	TokenRange=48:56
+8	lula	lula	ADJ	ADJ	_	7	amod	_	TokenRange=57:61
+9	sepulveda	_	NOUN	NOUN	_	7	amod	_	TokenRange=62:71
+10	deu	dar	VERB	VERB	_	6	parataxis	_	TokenRange=72:75
+11	informacao	informacao	NOUN	NOUN	_	10	obj	_	TokenRange=76:86
+12	questionado	questionado	ADJ	ADJ	_	11	amod	_	TokenRange=87:98
+13	sobre	_	ADP	ADP	_	14	case	_	TokenRange=99:104
+14	assunto	assunto	NOUN	NOUN	_	11	nmod	_	TokenRange=105:112
+15	apos	_	ADP	ADP	_	16	mark	_	TokenRange=113:117
+16	participar	participar	VERB	VERB	_	10	advcl	_	TokenRange=118:128
+17	posse	posse	NOUN	NOUN	_	16	obj	_	TokenRange=129:134
+18	luiz	luiz	NOUN	NOUN	_	17	appos	_	TokenRange=135:139
+19	fux	_	NOUN	NOUN	_	18	flat	_	TokenRange=140:143
+20	tse	_	NOUN	NOUN	_	18	flat	_	TokenRange=144:147
+21	exprocuradorgeral	_	NOUN	NOUN	_	18	amod	_	TokenRange=148:165
+22	avaliou	avaliar	VERB	VERB	_	6	parataxis	_	TokenRange=166:173
+23	lula	lula	NOUN	NOUN	_	22	obj	_	TokenRange=174:178
+24	alvo	alvo	ADJ	NOUN	_	23	amod	_	TokenRange=179:183
+25	perseguicao	perseguicao	NOUN	NOUN	_	23	amod	_	TokenRange=184:195
+26	jamais	jamais	ADV	ADV	_	27	advmod	_	TokenRange=196:202
+27	vista	_	VERB	VERB	_	23	acl	_	TokenRange=203:208
+28	expresidente	expresidente	NOUN	NOUN	_	30	amod	_	TokenRange=209:221
+29	supremo	supremo	ADJ	ADJ	_	30	amod	_	TokenRange=222:229
+30	tribunal	tribunal	NOUN	NOUN	_	22	nsubj	_	TokenRange=230:238
+31	federal	federal	ADJ	ADJ	_	30	amod	_	TokenRange=239:246
+32	stf	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=247:250
+33	sepulveda	_	NOUN	NOUN	_	30	amod	_	TokenRange=251:260
+34	pertence	pertence	NOUN	NOUN	_	32	flat	_	TokenRange=261:269
+35	informou	informar	VERB	VERB	_	6	parataxis	_	TokenRange=270:278
+36	nesta	_	ADP	ADP	_	37	case	_	TokenRange=279:284
+37	tercafeira	_	NOUN	NOUN	_	35	nmod	_	TokenRange=285:295
+38	6	_	NUM	NUM	NumType=Card	37	appos	_	TokenRange=296:297
+39	passou	passar	AUX	AUX	_	40	aux	_	TokenRange=298:304
+40	integrar	integrar	VERB	VERB	_	35	ccomp	_	TokenRange=305:313
+41	equipe	equipe	NOUN	NOUN	_	40	obj	_	TokenRange=314:320
+42	advogados	advogado	NOUN	NOUN	_	41	amod	_	TokenRange=321:330
+43	expresidente	expresidente	NOUN	NOUN	_	41	appos	_	TokenRange=331:343
+44	luiz	luiz	ADJ	NOUN	_	43	appos	_	TokenRange=344:348
+45	inacio	_	NOUN	NOUN	_	44	flat	_	TokenRange=349:355
+46	lula	_	NOUN	NOUN	_	44	flat	_	TokenRange=356:360
+47	silva	silva	ADJ	ADJ	_	44	flat	_	TokenRange=361:366
+48	sepulveda	_	ADJ	ADJ	_	49	nsubj	_	TokenRange=367:376
+49	deu	dar	VERB	VERB	_	35	parataxis	_	TokenRange=377:380
+50	informacao	informacao	NOUN	NOUN	_	49	obj	_	TokenRange=381:391
+51	questionado	questionado	ADJ	ADJ	_	50	amod	_	TokenRange=392:403
+52	sobre	_	ADP	ADP	_	53	case	_	TokenRange=404:409
+53	assunto	assunto	NOUN	NOUN	_	50	nmod	_	TokenRange=410:417
+54	apos	_	ADP	ADP	_	55	mark	_	TokenRange=418:422
+55	participar	participar	VERB	VERB	_	49	advcl	_	SpaceAfter=No|TokenRange=423:433
+

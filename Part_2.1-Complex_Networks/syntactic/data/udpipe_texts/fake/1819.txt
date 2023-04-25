@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mito 86 anos apresentador surpreende silvio parou carro deu carona fa silvio santos continua sendo mito vivo wesley oliveira aguiar fa apresentador sbt conseguiu encontrar silvio dirigindo proprio veiculo ruas sp silvio santos simplesmente parou carro deu carona rapaz registrou momento historico video feito celular
+1	mito	mito	NOUN	NOUN	_	5	parataxis	_	TokenRange=0:4
+2	86	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=5:7
+3	anos	ano	NOUN	NOUN	_	5	nsubj	_	TokenRange=8:12
+4	apresentador	apresentador	NOUN	NOUN	_	32	appos	_	TokenRange=13:25
+5	surpreende	surpreender	VERB	VERB	_	4	acl:relcl	_	TokenRange=26:36
+6	silvio	silvio	NOUN	NOUN	_	5	obj	_	TokenRange=37:43
+7	parou	parar	VERB	VERB	_	8	cop	_	TokenRange=44:49
+8	carro	carro	NOUN	NOUN	_	5	obj	_	TokenRange=50:55
+9	deu	_	NOUN	VERB	_	8	appos	_	TokenRange=56:59
+10	carona	_	NOUN	NOUN	_	8	conj	_	TokenRange=60:66
+11	fa	_	NOUN	NOUN	_	16	cc	_	TokenRange=67:69
+12	silvio	silvio	NOUN	NOUN	_	16	nsubj	_	TokenRange=70:76
+13	santos	santo	ADJ	NOUN	_	12	flat	_	TokenRange=77:83
+14	continua	continuar	AUX	AUX	_	16	aux	_	TokenRange=84:92
+15	sendo	ser	AUX	AUX	_	16	cop	_	TokenRange=93:98
+16	mito	mito	NOUN	NOUN	_	5	conj	_	TokenRange=99:103
+17	vivo	vivo	ADJ	ADJ	_	16	amod	_	TokenRange=104:108
+18	wesley	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=109:115
+19	oliveira	_	NOUN	NOUN	_	18	flat	_	TokenRange=116:124
+20	aguiar	aguiar	ADJ	NOUN	_	18	flat	_	TokenRange=125:131
+21	fa	_	NOUN	NOUN	_	22	amod	_	TokenRange=132:134
+22	apresentador	apresentador	NOUN	NOUN	_	18	appos	_	TokenRange=135:147
+23	sbt	_	PROPN	PNOUN	_	22	appos	_	TokenRange=148:151
+24	conseguiu	conseguir	VERB	VERB	_	5	conj	_	TokenRange=152:161
+25	encontrar	encontrar	VERB	VERB	_	24	xcomp	_	TokenRange=162:171
+26	silvio	silvio	NOUN	NOUN	_	25	obj	_	TokenRange=172:178
+27	dirigindo	dirigir	VERB	VERB	_	25	acl	_	TokenRange=179:188
+28	proprio	proprio	ADJ	ADJ	_	29	amod	_	TokenRange=189:196
+29	veiculo	veiculo	NOUN	NOUN	_	27	obj	_	TokenRange=197:204
+30	ruas	rua	NOUN	NOUN	_	29	appos	_	TokenRange=205:209
+31	sp	_	CCONJ	CONJ	_	35	mark	_	TokenRange=210:212
+32	silvio	silvio	NOUN	NOUN	_	35	nsubj	_	TokenRange=213:219
+33	santos	santo	NOUN	NOUN	_	32	flat	_	TokenRange=220:226
+34	simplesmente	simplesmente	ADV	ADV	_	35	advmod	_	TokenRange=227:239
+35	parou	parar	VERB	VERB	_	40	ccomp	_	TokenRange=240:245
+36	carro	carro	NOUN	NOUN	_	35	obj	_	TokenRange=246:251
+37	deu	_	X	VERB	_	38	amod	_	TokenRange=252:255
+38	carona	carona	NOUN	NOUN	_	36	appos	_	TokenRange=256:262
+39	rapaz	rapaz	NOUN	NOUN	_	38	flat	_	TokenRange=263:268
+40	registrou	registrar	VERB	VERB	_	0	root	_	TokenRange=269:278
+41	momento	momento	NOUN	NOUN	_	40	obj	_	TokenRange=279:286
+42	historico	historico	ADJ	ADJ	_	41	amod	_	TokenRange=287:296
+43	video	video	NOUN	NOUN	_	40	obj	_	TokenRange=297:302
+44	feito	_	VERB	VERB	_	43	acl	_	TokenRange=303:308
+45	celular	_	NOUN	NOUN	_	44	obj	_	SpaceAfter=No|TokenRange=309:316
+

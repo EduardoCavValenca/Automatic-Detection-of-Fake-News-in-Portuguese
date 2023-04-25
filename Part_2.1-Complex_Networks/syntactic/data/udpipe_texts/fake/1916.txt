@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula anunciou iria encontrar fidel dezembro midia inteira anunciou lula iria encontrar dezembro vladimir putin viagem moscou fidel raul castro havana agora lula ainda quer encontrar fidel vossa excelencia sabe bem onde ne la quente escuro
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	anunciou	anunciar	VERB	VERB	_	0	root	_	TokenRange=5:13
+3	iria	_	AUX	AUX	_	4	aux	_	TokenRange=14:18
+4	encontrar	encontrar	VERB	VERB	_	2	xcomp	_	TokenRange=19:28
+5	fidel	fidel	NOUN	NOUN	_	4	obj	_	TokenRange=29:34
+6	dezembro	_	PROPN	PNOUN	_	5	appos	_	TokenRange=35:43
+7	midia	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=44:49
+8	inteira	inteiro	ADJ	ADJ	_	7	amod	_	TokenRange=50:57
+9	anunciou	anunciar	VERB	VERB	_	2	parataxis	_	TokenRange=58:66
+10	lula	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=67:71
+11	iria	_	AUX	AUX	_	12	aux	_	TokenRange=72:76
+12	encontrar	encontrar	VERB	VERB	_	9	ccomp	_	TokenRange=77:86
+13	dezembro	_	PROPN	PNOUN	_	12	obj	_	TokenRange=87:95
+14	vladimir	vladimir	NOUN	NOUN	_	12	appos	_	TokenRange=96:104
+15	putin	_	NOUN	NOUN	_	14	flat	_	TokenRange=105:110
+16	viagem	viagem	NOUN	NOUN	_	14	appos	_	TokenRange=111:117
+17	moscou	moscar	VERB	VERB	_	16	appos	_	TokenRange=118:124
+18	fidel	fidel	ADJ	ADJ	_	20	amod	_	TokenRange=125:130
+19	raul	raul	ADJ	ADJ	_	20	amod	_	TokenRange=131:135
+20	castro	castro	NOUN	NOUN	_	17	nsubj	_	TokenRange=136:142
+21	havana	_	NOUN	NOUN	_	20	appos	_	TokenRange=143:149
+22	agora	agora	ADV	ADV	_	25	advmod	_	TokenRange=150:155
+23	lula	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=156:160
+24	ainda	ainda	ADV	ADV	_	25	advmod	_	TokenRange=161:166
+25	quer	querer	VERB	VERB	_	9	parataxis	_	TokenRange=167:171
+26	encontrar	encontrar	VERB	VERB	_	25	xcomp	_	TokenRange=172:181
+27	fidel	fidel	NOUN	NOUN	_	26	obj	_	TokenRange=182:187
+28	vossa	_	DET	DET	_	29	det:poss	_	TokenRange=188:193
+29	excelencia	excelencia	NOUN	NOUN	_	30	nsubj	_	TokenRange=194:204
+30	sabe	saber	VERB	VERB	_	25	parataxis	_	TokenRange=205:209
+31	bem	bem	ADV	ADV	_	30	advmod	_	TokenRange=210:213
+32	onde	onde	ADV	ADV	_	36	advmod	_	TokenRange=214:218
+33	ne	_	PRON	PRON	_	36	advmod	_	TokenRange=219:221
+34	la	_	DET	DET	_	36	det	_	TokenRange=222:224
+35	quente	quente	ADJ	ADJ	_	36	amod	_	TokenRange=225:231
+36	escuro	escuro	NOUN	ADJ	_	30	xcomp	_	SpaceAfter=No|TokenRange=232:238
+

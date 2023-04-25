@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quebrapau posse prefeito catanduva/sp vereadores saem tapa vereadores trocaram socos durante posse prefeito vereadores catanduva interior paulo prefeito afonso machione eleito 2 vez empossado clube cidade imagens afiliada rede globo
+1	quebrapau	quebrapar	VERB	VERB	_	0	root	_	TokenRange=0:9
+2	posse	posse	NOUN	NOUN	_	1	obj	_	TokenRange=10:15
+3	prefeito	prefeito	NOUN	NOUN	_	2	appos	_	TokenRange=16:24
+4	catanduva/sp	catanduva/sp	ADJ	ADJ	_	5	amod	_	TokenRange=25:37
+5	vereadores	vereador	NOUN	NOUN	_	3	appos	_	TokenRange=38:48
+6	saem	sair	VERB	VERB	_	1	parataxis	_	TokenRange=49:53
+7	tapa	tapa	NOUN	NOUN	_	6	obj	_	TokenRange=54:58
+8	vereadores	vereador	NOUN	NOUN	_	6	nsubj	_	TokenRange=59:69
+9	trocaram	trocar	VERB	VERB	_	1	ccomp	_	TokenRange=70:78
+10	socos	soco	NOUN	NOUN	_	9	obj	_	TokenRange=79:84
+11	durante	_	ADP	ADP	_	12	case	_	TokenRange=85:92
+12	posse	posse	NOUN	NOUN	_	9	nmod	_	TokenRange=93:98
+13	prefeito	prefeito	NOUN	NOUN	_	12	appos	_	TokenRange=99:107
+14	vereadores	vereador	NOUN	NOUN	_	13	amod	_	TokenRange=108:118
+15	catanduva	catanduva	NOUN	NOUN	_	13	amod	_	TokenRange=119:128
+16	interior	interior	NOUN	NOUN	_	13	amod	_	TokenRange=129:137
+17	paulo	paulo	ADJ	ADJ	_	18	amod	_	TokenRange=138:143
+18	prefeito	prefeito	NOUN	NOUN	_	9	nsubj	_	TokenRange=144:152
+19	afonso	afonso	NOUN	NOUN	_	18	appos	_	TokenRange=153:159
+20	machione	machione	NOUN	NOUN	_	19	flat	_	TokenRange=160:168
+21	eleito	eleger	VERB	VERB	_	18	acl	_	TokenRange=169:175
+22	2	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=176:177
+23	vez	vez	NOUN	NOUN	_	21	nmod	_	TokenRange=178:181
+24	empossado	empossado	ADJ	ADJ	_	25	amod	_	TokenRange=182:191
+25	clube	clube	NOUN	NOUN	_	21	obj	_	TokenRange=192:197
+26	cidade	cidade	NOUN	NOUN	_	25	appos	_	TokenRange=198:204
+27	imagens	imagem	NOUN	NOUN	_	25	appos	_	TokenRange=205:212
+28	afiliada	afiliar	ADJ	ADJ	_	29	amod	_	TokenRange=213:221
+29	rede	rede	NOUN	NOUN	_	25	appos	_	TokenRange=222:226
+30	globo	globo	ADJ	ADJ	_	29	amod	_	SpaceAfter=No|TokenRange=227:232
+

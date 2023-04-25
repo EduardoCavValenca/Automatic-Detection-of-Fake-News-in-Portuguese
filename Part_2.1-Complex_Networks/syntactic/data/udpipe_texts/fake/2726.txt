@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = suplicy tentou conversar dilma durante 3 anos agora jogada tracas recebeu exsenador apos tres anos tentando conseguir audiencia dilma eduardo suplicy finalmente recebido petista palacio alvorada pagina rede social exsenador comemorou encontro disse otimo aceitou sugestao constituir grupo trabalho estudar etapas lei institui renda basica cidadania disse suplicy 2014 dilma chegou marcar data agenda receber suplicy porem cancelou encontro dar satisfacoes epoca petista postou facebook fiquei triste desistirei
+1	suplicy	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	tentou	tentar	VERB	VERB	_	0	root	_	TokenRange=8:14
+3	conversar	conversar	VERB	VERB	_	2	xcomp	_	TokenRange=15:24
+4	dilma	dilma	NOUN	NOUN	_	3	obj	_	TokenRange=25:30
+5	durante	_	ADP	ADP	_	7	case	_	TokenRange=31:38
+6	3	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=39:40
+7	anos	ano	NOUN	NOUN	_	3	nmod	_	TokenRange=41:45
+8	agora	agora	ADV	ADV	_	9	advmod	_	TokenRange=46:51
+9	jogada	jogar	VERB	VERB	_	2	acl	_	TokenRange=52:58
+10	tracas	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=59:65
+11	recebeu	receber	VERB	VERB	_	2	parataxis	_	TokenRange=66:73
+12	exsenador	exsenador	NOUN	NOUN	_	11	obj	_	TokenRange=74:83
+13	apos	_	ADP	ADP	_	15	case	_	TokenRange=84:88
+14	tres	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=89:93
+15	anos	ano	NOUN	NOUN	_	11	nmod	_	TokenRange=94:98
+16	tentando	tentar	VERB	VERB	_	11	acl	_	TokenRange=99:107
+17	conseguir	conseguir	VERB	VERB	_	16	xcomp	_	TokenRange=108:117
+18	audiencia	audiencia	NOUN	NOUN	_	17	obj	_	TokenRange=118:127
+19	dilma	dilma	NOUN	NOUN	_	18	appos	_	TokenRange=128:133
+20	eduardo	eduardo	NOUN	NOUN	_	19	appos	_	TokenRange=134:141
+21	suplicy	_	ADJ	ADJ	_	19	amod	_	TokenRange=142:149
+22	finalmente	finalmente	ADV	ADV	_	23	advmod	_	TokenRange=150:160
+23	recebido	receber	VERB	VERB	_	19	acl	_	TokenRange=161:169
+24	petista	petista	NOUN	NOUN	_	23	obj	_	TokenRange=170:177
+25	palacio	palacio	NOUN	NOUN	_	24	appos	_	TokenRange=178:185
+26	alvorada	alvorado	ADJ	ADJ	_	28	amod	_	TokenRange=186:194
+27	pagina	pagina	NOUN	NOUN	_	24	appos	_	TokenRange=195:201
+28	rede	rede	NOUN	NOUN	_	31	nsubj	_	TokenRange=202:206
+29	social	social	ADJ	ADJ	_	28	amod	_	TokenRange=207:213
+30	exsenador	exsenador	NOUN	NOUN	_	31	nsubj	_	TokenRange=214:223
+31	comemorou	comemorar	VERB	VERB	_	2	parataxis	_	TokenRange=224:233
+32	encontro	encontro	NOUN	NOUN	_	31	obj	_	TokenRange=234:242
+33	disse	dizer	VERB	VERB	_	31	parataxis	_	TokenRange=243:248
+34	otimo	otimo	ADV	ADV	_	35	advmod	_	TokenRange=249:254
+35	aceitou	aceitar	VERB	VERB	_	31	ccomp	_	TokenRange=255:262
+36	sugestao	sugestao	NOUN	NOUN	_	35	obj	_	TokenRange=263:271
+37	constituir	constituir	VERB	VERB	_	36	acl:inf	_	TokenRange=272:282
+38	grupo	grupo	NOUN	NOUN	_	37	obj	_	TokenRange=283:288
+39	trabalho	trabalho	NOUN	NOUN	_	38	flat	_	TokenRange=289:297
+40	estudar	estudar	VERB	VERB	_	38	acl:inf	_	TokenRange=298:305
+41	etapas	etapa	NOUN	NOUN	_	40	obj	_	TokenRange=306:312
+42	lei	lei	NOUN	NOUN	_	41	flat	_	TokenRange=313:316
+43	institui	instituir	VERB	VERB	_	41	acl:relcl	_	TokenRange=317:325
+44	renda	renda	NOUN	NOUN	_	43	obj	_	TokenRange=326:331
+45	basica	basico	ADJ	ADJ	_	44	amod	_	TokenRange=332:338
+46	cidadania	cidadania	NOUN	NOUN	_	44	appos	_	TokenRange=339:348
+47	disse	dizer	VERB	VERB	_	31	parataxis	_	TokenRange=349:354
+48	suplicy	_	NOUN	NOUN	_	47	obj	_	TokenRange=355:362
+49	2014	_	NUM	NUM	NumType=Card	52	nsubj	_	TokenRange=363:367
+50	dilma	dilma	NOUN	NOUN	_	52	nsubj	_	TokenRange=368:373
+51	chegou	chegar	AUX	AUX	_	52	aux	_	TokenRange=374:380
+52	marcar	marcar	VERB	VERB	_	48	acl:relcl	_	TokenRange=381:387
+53	data	data	NOUN	NOUN	_	52	obj	_	TokenRange=388:392
+54	agenda	agenda	NOUN	NOUN	_	53	flat	_	TokenRange=393:399
+55	receber	receber	VERB	VERB	_	53	acl:inf	_	TokenRange=400:407
+56	suplicy	_	NOUN	NOUN	_	55	obj	_	TokenRange=408:415
+57	porem	_	CCONJ	CONJ	_	58	mark	_	TokenRange=416:421
+58	cancelou	cancelar	VERB	VERB	_	52	advcl	_	TokenRange=422:430
+59	encontro	encontro	NOUN	NOUN	_	58	obj	_	TokenRange=431:439
+60	dar	dar	VERB	VERB	_	58	ccomp	_	TokenRange=440:443
+61	satisfacoes	satisfacoe	ADJ	ADJ	_	60	obj	_	TokenRange=444:455
+62	epoca	epoca	NOUN	NOUN	_	64	nsubj	_	TokenRange=456:461
+63	petista	petista	NOUN	NOUN	_	64	nsubj	_	TokenRange=462:469
+64	postou	postar	VERB	VERB	_	60	conj	_	TokenRange=470:476
+65	facebook	_	PROPN	PNOUN	_	64	obj	_	TokenRange=477:485
+66	fiquei	ficar	VERB	VERB	_	68	ccomp	_	TokenRange=486:492
+67	triste	triste	ADJ	ADJ	_	66	xcomp	_	TokenRange=493:499
+68	desistirei	desistir	VERB	VERB	_	64	ccomp	_	SpaceAfter=No|TokenRange=500:510
+

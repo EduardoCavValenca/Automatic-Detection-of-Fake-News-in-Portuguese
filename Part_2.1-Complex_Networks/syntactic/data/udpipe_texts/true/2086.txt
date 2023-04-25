@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = morre flavio gikovate psiquiatra escritor 73 anos lutava desde abril contra cancer mes lancou feliz amor medico psiquiatra psicoterapeuta conferencista escritor favio gikovate morreu ontem 13 18h30 curta batalha contra cancer pancreas descoberto abril internado desde inicio semana passada autor inumeros livros tornaram bestsellers apresentava programa diva gikovate
+1	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	flavio	flavio	ADJ	ADJ	_	3	amod	_	TokenRange=6:12
+3	gikovate	gikovate	NOUN	NOUN	_	1	nsubj	_	TokenRange=13:21
+4	psiquiatra	_	NOUN	NOUN	_	3	amod	_	TokenRange=22:32
+5	escritor	escritor	NOUN	NOUN	_	3	amod	_	TokenRange=33:41
+6	73	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=42:44
+7	anos	ano	NOUN	NOUN	_	3	appos	_	TokenRange=45:49
+8	lutava	lutar	VERB	VERB	_	3	acl:relcl	_	TokenRange=50:56
+9	desde	_	ADP	ADP	_	10	case	_	TokenRange=57:62
+10	abril	_	PROPN	PNOUN	_	8	nmod	_	TokenRange=63:68
+11	contra	_	ADP	ADP	_	12	case	_	TokenRange=69:75
+12	cancer	cancer	NOUN	NOUN	_	8	nmod	_	TokenRange=76:82
+13	mes	_	PRON	PRON	_	14	nsubj	_	TokenRange=83:86
+14	lancou	lancar	VERB	VERB	_	8	conj	_	TokenRange=87:93
+15	feliz	feliz	ADJ	ADJ	_	16	amod	_	TokenRange=94:99
+16	amor	amor	NOUN	NOUN	_	14	obj	_	TokenRange=100:104
+17	medico	medico	ADJ	ADJ	_	16	amod	_	TokenRange=105:111
+18	psiquiatra	_	NOUN	NOUN	_	16	amod	_	TokenRange=112:122
+19	psicoterapeuta	psicoterapeuta	NOUN	NOUN	_	16	amod	_	TokenRange=123:137
+20	conferencista	conferencista	ADJ	ADJ	_	16	amod	_	TokenRange=138:151
+21	escritor	escritor	NOUN	NOUN	_	18	amod	_	TokenRange=152:160
+22	favio	_	NOUN	NOUN	_	18	appos	_	TokenRange=161:166
+23	gikovate	gikovate	NOUN	NOUN	_	22	flat	_	TokenRange=167:175
+24	morreu	morrer	VERB	VERB	_	1	conj	_	TokenRange=176:182
+25	ontem	ontem	ADV	ADV	_	24	advmod	_	TokenRange=183:188
+26	13	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=189:191
+27	18h30	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=192:197
+28	curta	curto	ADJ	ADJ	_	29	amod	_	TokenRange=198:203
+29	batalha	batalha	NOUN	NOUN	_	24	nsubj	_	TokenRange=204:211
+30	contra	_	ADP	ADP	_	31	case	_	TokenRange=212:218
+31	cancer	cancer	NOUN	NOUN	_	29	nmod	_	TokenRange=219:225
+32	pancreas	pancreo	NOUN	NOUN	_	31	flat	_	TokenRange=226:234
+33	descoberto	descobrir	VERB	VERB	_	29	acl	_	TokenRange=235:245
+34	abril	_	PROPN	PNOUN	_	33	nsubj	_	TokenRange=246:251
+35	internado	internado	ADJ	ADJ	_	34	amod	_	TokenRange=252:261
+36	desde	_	ADP	ADP	_	38	case	_	TokenRange=262:267
+37	inicio	_	ADJ	ADJ	_	38	amod	_	TokenRange=268:274
+38	semana	semana	NOUN	NOUN	_	35	nmod	_	TokenRange=275:281
+39	passada	passado	ADJ	ADJ	_	38	amod	_	TokenRange=282:289
+40	autor	autor	NOUN	NOUN	_	43	nsubj	_	TokenRange=290:295
+41	inumeros	inumero	ADJ	ADJ	_	42	amod	_	TokenRange=296:304
+42	livros	livro	NOUN	NOUN	_	43	nsubj	_	TokenRange=305:311
+43	tornaram	tornar	VERB	VERB	_	24	parataxis	_	TokenRange=312:320
+44	bestsellers	_	NOUN	NOUN	_	43	obj	_	TokenRange=321:332
+45	apresentava	apresentar	VERB	VERB	_	43	parataxis	_	TokenRange=333:344
+46	programa	programa	NOUN	NOUN	_	45	obj	_	TokenRange=345:353
+47	diva	diva	NOUN	NOUN	_	46	appos	_	TokenRange=354:358
+48	gikovate	gikovate	NOUN	NOUN	_	46	appos	_	SpaceAfter=No|TokenRange=359:367
+

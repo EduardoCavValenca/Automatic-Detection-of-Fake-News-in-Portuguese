@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video doria reforca promessa lula pessoa educada vou visitalo curitiba levarei chocolates entrevista prefeito eleito paulo soltou verbo pergunta prefeito quanto lavajato muda perspectiva fazer politica brasil resposta doria operacao lavajato necessaria pais possa passado limpo visitarei lula curitiba pessoa educada levarei chocolates confira 10 min 50 seg video
+1	video	video	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	doria	doria	NOUN	NOUN	_	1	flat	_	TokenRange=6:11
+3	reforca	reforcar	VERB	VERB	_	0	root	_	TokenRange=12:19
+4	promessa	promessa	NOUN	NOUN	_	3	obj	_	TokenRange=20:28
+5	lula	lula	ADJ	NOUN	_	4	amod	_	TokenRange=29:33
+6	pessoa	pessoa	NOUN	NOUN	_	3	obj	_	TokenRange=34:40
+7	educada	educado	ADJ	ADJ	_	6	amod	_	TokenRange=41:48
+8	vou	ir	AUX	AUX	_	9	aux	_	TokenRange=49:52
+9	visitalo	_	VERB	VERB	_	3	ccomp	_	TokenRange=53:61
+10	curitiba	curitiba	NOUN	NOUN	_	11	obj	_	TokenRange=62:70
+11	levarei	levar	VERB	VERB	_	9	ccomp	_	TokenRange=71:78
+12	chocolates	chocolate	NOUN	NOUN	_	11	obj	_	TokenRange=79:89
+13	entrevista	entrevista	NOUN	NOUN	_	11	obj	_	TokenRange=90:100
+14	prefeito	prefeito	NOUN	NOUN	_	13	appos	_	TokenRange=101:109
+15	eleito	eleito	ADJ	ADJ	_	14	amod	_	TokenRange=110:116
+16	paulo	paulo	NOUN	NOUN	_	17	nsubj	_	TokenRange=117:122
+17	soltou	soltar	VERB	VERB	_	13	acl:relcl	_	TokenRange=123:129
+18	verbo	verbo	NOUN	NOUN	_	17	advmod	_	TokenRange=130:135
+19	pergunta	perguntar	VERB	VERB	_	17	parataxis	_	TokenRange=136:144
+20	prefeito	prefeito	NOUN	NOUN	_	19	obj	_	TokenRange=145:153
+21	quanto	_	DET	DET	_	24	det	_	TokenRange=154:160
+22	lavajato	lavajato	NOUN	NOUN	_	23	nsubj	_	TokenRange=161:169
+23	muda	mudar	VERB	VERB	_	24	acl:relcl	_	TokenRange=170:174
+24	perspectiva	perspectiva	NOUN	NOUN	_	25	obj	_	TokenRange=175:186
+25	fazer	fazer	VERB	VERB	_	20	acl:relcl	_	TokenRange=187:192
+26	politica	_	NOUN	NOUN	_	25	obj	_	TokenRange=193:201
+27	brasil	brasil	ADJ	ADJ	_	28	amod	_	TokenRange=202:208
+28	resposta	resposta	NOUN	NOUN	_	25	obj	_	TokenRange=209:217
+29	doria	doria	NOUN	NOUN	_	28	appos	_	TokenRange=218:223
+30	operacao	operacao	NOUN	NOUN	_	31	det	_	TokenRange=224:232
+31	lavajato	lavajato	NOUN	NOUN	_	28	appos	_	TokenRange=233:241
+32	necessaria	necessar	ADJ	ADJ	_	28	amod	_	TokenRange=242:252
+33	pais	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=253:257
+34	possa	_	AUX	AUX	_	35	aux	_	TokenRange=258:263
+35	passado	passado	ADJ	VERB	_	32	ccomp	_	TokenRange=264:271
+36	limpo	limpo	ADJ	ADJ	_	35	xcomp	_	TokenRange=272:277
+37	visitarei	visitar	VERB	VERB	_	35	csubj	_	TokenRange=278:287
+38	lula	lula	NOUN	NOUN	_	37	obj	_	TokenRange=288:292
+39	curitiba	curitiba	ADJ	ADJ	_	38	amod	_	TokenRange=293:301
+40	pessoa	pessoa	NOUN	NOUN	_	38	appos	_	TokenRange=302:308
+41	educada	educado	ADJ	ADJ	_	40	amod	_	TokenRange=309:316
+42	levarei	levar	VERB	VERB	_	38	acl:relcl	_	TokenRange=317:324
+43	chocolates	chocolate	NOUN	NOUN	_	42	obj	_	TokenRange=325:335
+44	confira	conferir	VERB	VERB	_	3	parataxis	_	TokenRange=336:343
+45	10	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=344:346
+46	min	_	NOUN	NOUN	_	44	nmod	_	TokenRange=347:350
+47	50	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=351:353
+48	seg	_	NOUN	NOUN	_	44	nmod	_	TokenRange=354:357
+49	video	video	NOUN	NOUN	_	44	obj	_	SpaceAfter=No|TokenRange=358:363
+

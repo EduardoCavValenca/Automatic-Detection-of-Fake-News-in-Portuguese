@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = netflix faz comercial boneca xuxa possuida encardido propria xuxa apresenta serie boato espalhou nacionalmente durante anos 1980 alertava boneca xuxa possuida coisa ruim netflix anunciar nova producao chamada stranger things passa exatamente anos 80 decidiu divulgar comercial boneca quarto repentinamente possuida demogorgon monstro trama netflix final 30 segundos comercial propria xuxa faz anuncio nova serie confira video seguir
+1	netflix	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:7
+2	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	comercial	comercial	ADJ	ADJ	_	4	amod	_	TokenRange=12:21
+4	boneca	_	NOUN	NOUN	_	2	obj	_	TokenRange=22:28
+5	xuxa	_	NOUN	NOUN	_	4	appos	_	TokenRange=29:33
+6	possuida	possuir	VERB	VERB	_	4	acl	_	TokenRange=34:42
+7	encardido	encardido	NOUN	NOUN	_	6	obj	_	TokenRange=43:52
+8	propria	proprio	ADJ	ADJ	_	11	amod	_	TokenRange=53:60
+9	xuxa	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=61:65
+10	apresenta	apresentar	VERB	VERB	_	2	conj	_	TokenRange=66:75
+11	serie	serie	NOUN	NOUN	_	10	obj	_	TokenRange=76:81
+12	boato	boato	NOUN	NOUN	_	11	flat	_	TokenRange=82:87
+13	espalhou	espalhar	VERB	VERB	_	4	acl:relcl	_	TokenRange=88:96
+14	nacionalmente	nacionalmente	ADV	ADV	_	13	advmod	_	TokenRange=97:110
+15	durante	_	ADP	ADP	_	16	case	_	TokenRange=111:118
+16	anos	ano	NOUN	NOUN	_	13	nmod	_	TokenRange=119:123
+17	1980	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=124:128
+18	alertava	alertar	VERB	VERB	_	2	conj	_	TokenRange=129:137
+19	boneca	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=138:144
+20	xuxa	_	NOUN	NOUN	_	19	appos	_	TokenRange=145:149
+21	possuida	possuir	AUX	AUX	_	22	acl	_	TokenRange=150:158
+22	coisa	coisa	NOUN	NOUN	_	19	appos	_	TokenRange=159:164
+23	ruim	ruim	ADJ	ADJ	_	22	amod	_	TokenRange=165:169
+24	netflix	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=170:177
+25	anunciar	anunciar	VERB	VERB	_	18	ccomp	_	TokenRange=178:186
+26	nova	novo	ADJ	ADJ	_	27	amod	_	TokenRange=187:191
+27	producao	producao	NOUN	NOUN	_	25	obj	_	TokenRange=192:200
+28	chamada	chamar	AUX	AUX	_	27	acl	_	TokenRange=201:208
+29	stranger	_	ADJ	ADJ	_	30	amod	_	TokenRange=209:217
+30	things	_	NOUN	NOUN	_	28	obj	_	TokenRange=218:224
+31	passa	passar	VERB	VERB	_	25	parataxis	_	TokenRange=225:230
+32	exatamente	exatamente	ADV	ADV	_	35	advmod	_	TokenRange=231:241
+33	anos	ano	NOUN	NOUN	_	35	nsubj	_	TokenRange=242:246
+34	80	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=247:249
+35	decidiu	decidir	VERB	VERB	_	2	parataxis	_	TokenRange=250:257
+36	divulgar	divulgar	VERB	VERB	_	35	xcomp	_	TokenRange=258:266
+37	comercial	comercial	NOUN	NOUN	_	38	amod	_	TokenRange=267:276
+38	boneca	_	NOUN	NOUN	_	36	obj	_	TokenRange=277:283
+39	quarto	_	ADJ	ADJ	_	38	amod	_	TokenRange=284:290
+40	repentinamente	repentinamente	ADV	ADV	_	41	advmod	_	TokenRange=291:305
+41	possuida	possuir	VERB	VERB	_	38	acl	_	TokenRange=306:314
+42	demogorgon	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=315:325
+43	monstro	monstro	NOUN	NOUN	_	42	flat	_	TokenRange=326:333
+44	trama	trama	NOUN	NOUN	_	42	flat	_	TokenRange=334:339
+45	netflix	_	NOUN	NOUN	_	42	flat	_	TokenRange=340:347
+46	final	final	ADJ	ADJ	_	48	amod	_	TokenRange=348:353
+47	30	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=354:356
+48	segundos	segundo	NOUN	NOUN	_	42	appos	_	TokenRange=357:365
+49	comercial	comercial	ADJ	ADJ	_	48	amod	_	TokenRange=366:375
+50	propria	proprio	ADJ	ADJ	_	48	amod	_	TokenRange=376:383
+51	xuxa	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=384:388
+52	faz	fazer	VERB	VERB	_	35	parataxis	_	TokenRange=389:392
+53	anuncio	anuncio	NOUN	NOUN	_	52	obj	_	TokenRange=393:400
+54	nova	novo	ADJ	ADJ	_	55	amod	_	TokenRange=401:405
+55	serie	serie	NOUN	NOUN	_	56	obj	_	TokenRange=406:411
+56	confira	conferir	VERB	VERB	_	52	parataxis	_	TokenRange=412:419
+57	video	video	NOUN	NOUN	_	56	obj	_	TokenRange=420:425
+58	seguir	seguir	VERB	VERB	_	56	ccomp	_	SpaceAfter=No|TokenRange=426:432
+

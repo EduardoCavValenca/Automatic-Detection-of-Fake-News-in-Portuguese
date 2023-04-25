@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = desempregado contador vende bolos conseguir recolocar mercado leonardo potengy demitido fim 2014 empreender pagar contas pouco 1 ano fechou portas negocio voltou funcionario maio 2014 leonardo potengy recebeu oferta irrecusavel deixar empresa onde trabalhava tres anos assumir posicao gerencia area governanca saraiva salario quase 50 maior cinco meses porem varejista fazer reestruturacao entrou lista corte potengy hoje 42 anos acabado comprar apartamento reservas ficar seis meses desempregado tempo passou dinheiro
+1	desempregado	desempregado	ADJ	ADJ	_	2	amod	_	TokenRange=0:12
+2	contador	contador	NOUN	NOUN	_	3	nsubj	_	TokenRange=13:21
+3	vende	_	VERB	VERB	_	0	root	_	TokenRange=22:27
+4	bolos	bolo	NOUN	NOUN	_	3	obj	_	TokenRange=28:33
+5	conseguir	conseguir	VERB	VERB	_	3	ccomp	_	TokenRange=34:43
+6	recolocar	recolocar	VERB	VERB	_	5	xcomp	_	TokenRange=44:53
+7	mercado	mercado	NOUN	NOUN	_	6	obj	_	TokenRange=54:61
+8	leonardo	leonardo	NOUN	NOUN	_	7	appos	_	TokenRange=62:70
+9	potengy	_	NOUN	NOUN	_	8	flat	_	TokenRange=71:78
+10	demitido	demitir	VERB	VERB	_	2	acl	_	TokenRange=79:87
+11	fim	fim	NOUN	NOUN	_	10	nmod	_	TokenRange=88:91
+12	2014	_	NUM	NUM	NumType=Card	11	nmod	_	TokenRange=92:96
+13	empreender	empreender	VERB	VERB	_	3	parataxis	_	TokenRange=97:107
+14	pagar	pagar	VERB	VERB	_	13	xcomp	_	TokenRange=108:113
+15	contas	conta	NOUN	NOUN	_	14	obj	_	TokenRange=114:120
+16	pouco	pouco	ADV	ADV	_	18	advmod	_	TokenRange=121:126
+17	1	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=127:128
+18	ano	ano	NOUN	NOUN	_	19	nmod	_	TokenRange=129:132
+19	fechou	fechar	VERB	VERB	_	3	parataxis	_	TokenRange=133:139
+20	portas	porta	NOUN	NOUN	_	19	obj	_	TokenRange=140:146
+21	negocio	negocio	NOUN	NOUN	_	20	flat	_	TokenRange=147:154
+22	voltou	voltar	VERB	VERB	_	23	cop	_	TokenRange=155:161
+23	funcionario	funcionario	NOUN	NOUN	_	19	parataxis	_	TokenRange=162:173
+24	maio	_	PROPN	PNOUN	_	23	appos	_	TokenRange=174:178
+25	2014	_	NUM	NUM	NumType=Card	24	nmod	_	TokenRange=179:183
+26	leonardo	leonardo	NOUN	NOUN	_	28	nsubj	_	TokenRange=184:192
+27	potengy	_	NOUN	NOUN	_	26	flat	_	TokenRange=193:200
+28	recebeu	receber	VERB	VERB	_	3	parataxis	_	TokenRange=201:208
+29	oferta	oferta	NOUN	NOUN	_	28	obj	_	TokenRange=209:215
+30	irrecusavel	irrecusavel	ADJ	ADJ	_	29	amod	_	TokenRange=216:227
+31	deixar	deixar	VERB	VERB	_	29	acl:inf	_	TokenRange=228:234
+32	empresa	empresa	NOUN	NOUN	_	31	obj	_	TokenRange=235:242
+33	onde	onde	ADV	ADV	_	34	advmod	_	TokenRange=243:247
+34	trabalhava	trabalhar	VERB	VERB	_	32	acl:relcl	_	TokenRange=248:258
+35	tres	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=259:263
+36	anos	ano	NOUN	NOUN	_	34	nmod	_	TokenRange=264:268
+37	assumir	assumir	VERB	VERB	_	32	acl:inf	_	TokenRange=269:276
+38	posicao	posicao	NOUN	NOUN	_	37	obj	_	TokenRange=277:284
+39	gerencia	gerencia	NOUN	NOUN	_	38	flat	_	TokenRange=285:293
+40	area	_	NOUN	NOUN	_	38	flat	_	TokenRange=294:298
+41	governanca	governanca	NOUN	NOUN	_	39	flat	_	TokenRange=299:309
+42	saraiva	_	VERB	VERB	_	43	acl:relcl	_	TokenRange=310:317
+43	salario	salario	NOUN	NOUN	_	37	obj	_	TokenRange=318:325
+44	quase	quase	ADV	ADV	_	45	advmod	_	TokenRange=326:331
+45	50	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=332:334
+46	maior	maior	ADJ	ADJ	_	43	amod	_	TokenRange=335:340
+47	cinco	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=341:346
+48	meses	mês	NOUN	NOUN	_	43	appos	_	TokenRange=347:352
+49	porem	_	VERB	VERB	_	51	aux	_	TokenRange=353:358
+50	varejista	varejista	NOUN	NOUN	_	51	nsubj	_	TokenRange=359:368
+51	fazer	fazer	VERB	VERB	_	43	acl:relcl	_	TokenRange=369:374
+52	reestruturacao	reestruturacao	NOUN	NOUN	_	51	obj	_	TokenRange=375:389
+53	entrou	entrar	VERB	VERB	_	43	acl:relcl	_	TokenRange=390:396
+54	lista	lista	NOUN	NOUN	_	53	obj	_	TokenRange=397:402
+55	corte	corte	NOUN	NOUN	_	54	appos	_	TokenRange=403:408
+56	potengy	_	NOUN	NOUN	_	55	flat	_	TokenRange=409:416
+57	hoje	hoje	ADV	ADV	_	59	advmod	_	TokenRange=417:421
+58	42	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=422:424
+59	anos	ano	NOUN	NOUN	_	61	nmod	_	TokenRange=425:429
+60	acabado	acabar	ADJ	ADJ	_	61	aux	_	TokenRange=430:437
+61	comprar	comprar	VERB	VERB	_	55	acl:relcl	_	TokenRange=438:445
+62	apartamento	apartamento	NOUN	NOUN	_	61	obj	_	TokenRange=446:457
+63	reservas	reserva	NOUN	NOUN	_	62	flat	_	TokenRange=458:466
+64	ficar	ficar	VERB	VERB	_	61	ccomp	_	TokenRange=467:472
+65	seis	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=473:477
+66	meses	mês	NOUN	NOUN	_	64	nmod	_	TokenRange=478:483
+67	desempregado	desempregado	ADJ	ADJ	_	68	amod	_	TokenRange=484:496
+68	tempo	tempo	NOUN	NOUN	_	69	nsubj	_	TokenRange=497:502
+69	passou	passar	VERB	VERB	_	53	parataxis	_	TokenRange=503:509
+70	dinheiro	dinheiro	NOUN	NOUN	_	69	obj	_	SpaceAfter=No|TokenRange=510:518
+

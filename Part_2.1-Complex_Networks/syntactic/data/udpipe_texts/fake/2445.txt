@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = querem parar lavajato sede policia federal atacada tiros predio policia federal goiania metralhado noite ontem 19 vidros perfurados varios disparos nota pf disse instaurou inquerito policial apurar caso responsaveis ato instituicao disse crime afronta estado democratico direito diz continuara combatendo crime organizado acordo assessoria pf divulgadas quaisquer detalhes pericia feita todos depoimentos concluidos
+1	querem	querer	VERB	VERB	_	0	root	_	TokenRange=0:6
+2	parar	parar	VERB	VERB	_	1	xcomp	_	TokenRange=7:12
+3	lavajato	lavajato	NOUN	NOUN	_	2	obj	_	TokenRange=13:21
+4	sede	sede	NOUN	NOUN	_	2	obj	_	TokenRange=22:26
+5	policia	policia	NOUN	NOUN	_	4	appos	_	TokenRange=27:34
+6	federal	federal	ADJ	ADJ	_	5	amod	_	TokenRange=35:42
+7	atacada	atacar	VERB	VERB	_	8	acl	_	TokenRange=43:50
+8	tiros	tiro	NOUN	NOUN	_	5	appos	_	TokenRange=51:56
+9	predio	predio	NOUN	NOUN	_	8	flat	_	TokenRange=57:63
+10	policia	policia	NOUN	NOUN	_	8	appos	_	TokenRange=64:71
+11	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=72:79
+12	goiania	goiania	NOUN	NOUN	_	10	appos	_	TokenRange=80:87
+13	metralhado	metralhado	ADJ	ADJ	_	14	amod	_	TokenRange=88:98
+14	noite	noite	NOUN	NOUN	_	10	appos	_	TokenRange=99:104
+15	ontem	ontem	ADV	ADV	_	17	advmod	_	TokenRange=105:110
+16	19	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=111:113
+17	vidros	vidro	NOUN	NOUN	_	14	appos	_	TokenRange=114:120
+18	perfurados	perfurado	ADJ	ADJ	_	17	amod	_	TokenRange=121:131
+19	varios	_	DET	DET	_	20	det	_	TokenRange=132:138
+20	disparos	disparo	NOUN	NOUN	_	23	nsubj	_	TokenRange=139:147
+21	nota	nota	NOUN	NOUN	_	23	nsubj	_	TokenRange=148:152
+22	pf	_	NOUN	NOUN	_	21	flat	_	TokenRange=153:155
+23	disse	dizer	VERB	VERB	_	1	parataxis	_	TokenRange=156:161
+24	instaurou	instaurar	VERB	VERB	_	23	xcomp	_	TokenRange=162:171
+25	inquerito	inquerito	NOUN	NOUN	_	24	obj	_	TokenRange=172:181
+26	policial	policial	ADJ	ADJ	_	25	amod	_	TokenRange=182:190
+27	apurar	apurar	VERB	VERB	_	25	acl:inf	_	TokenRange=191:197
+28	caso	caso	NOUN	NOUN	_	27	obj	_	TokenRange=198:202
+29	responsaveis	responsavel	ADJ	ADJ	_	30	amod	_	TokenRange=203:215
+30	ato	ato	NOUN	NOUN	_	27	nsubj	_	TokenRange=216:219
+31	instituicao	instituicao	NOUN	NOUN	_	30	flat	_	TokenRange=220:231
+32	disse	dizer	VERB	VERB	_	27	parataxis	_	TokenRange=232:237
+33	crime	crime	NOUN	NOUN	_	32	obj	_	TokenRange=238:243
+34	afronta	afrontar	ADJ	ADJ	_	35	amod	_	TokenRange=244:251
+35	estado	estado	NOUN	NOUN	_	32	obj	_	TokenRange=252:258
+36	democratico	democratico	ADJ	ADJ	_	35	amod	_	TokenRange=259:270
+37	direito	direito	ADJ	NOUN	_	35	amod	_	TokenRange=271:278
+38	diz	dizer	VERB	VERB	_	32	conj	_	TokenRange=279:282
+39	continuara	continuar	AUX	AUX	_	40	aux	_	TokenRange=283:293
+40	combatendo	combater	VERB	VERB	_	38	ccomp	_	TokenRange=294:304
+41	crime	crime	NOUN	NOUN	_	40	obj	_	TokenRange=305:310
+42	organizado	organizado	ADJ	ADJ	_	41	amod	_	TokenRange=311:321
+43	acordo	acordo	NOUN	NOUN	_	40	obj	_	TokenRange=322:328
+44	assessoria	assessoria	NOUN	NOUN	_	43	appos	_	TokenRange=329:339
+45	pf	_	NOUN	NOUN	_	44	flat	_	TokenRange=340:342
+46	divulgadas	divulgar	VERB	VERB	_	43	acl	_	TokenRange=343:353
+47	quaisquer	_	DET	DET	_	48	det	_	TokenRange=354:363
+48	detalhes	detalhe	NOUN	NOUN	_	46	nsubj	_	TokenRange=364:372
+49	pericia	pericia	NOUN	NOUN	_	52	appos	_	TokenRange=373:380
+50	feita	_	VERB	VERB	_	52	acl	_	TokenRange=381:386
+51	todos	_	DET	DET	_	52	det	_	TokenRange=387:392
+52	depoimentos	depoimento	NOUN	NOUN	_	46	nsubj	_	TokenRange=393:404
+53	concluidos	concluir	VERB	VERB	_	52	acl	_	SpaceAfter=No|TokenRange=405:415
+

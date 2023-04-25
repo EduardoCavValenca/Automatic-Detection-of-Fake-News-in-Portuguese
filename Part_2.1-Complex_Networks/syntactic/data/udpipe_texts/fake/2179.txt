@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministro celso mello manda recado politicos marginais republica demagogos durante posse ministra carmen lucia nova presidente supremo ministro celso mello endureceu discurso referencia politicos brasileiros mello falou profanadores republica marginais republica praticas delituosas organizacoes criminosas enfraquecimento instituicoes demagogos todos caciques politica la ninguem mexeu lula cocou bigode
+1	ministro	ministro	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	celso	celso	ADJ	ADJ	_	1	amod	_	TokenRange=9:14
+3	mello	mello	NOUN	NOUN	_	1	amod	_	TokenRange=15:20
+4	manda	mandar	VERB	VERB	_	0	root	_	TokenRange=21:26
+5	recado	recado	NOUN	NOUN	_	4	obj	_	TokenRange=27:33
+6	politicos	politico	NOUN	NOUN	_	5	amod	_	TokenRange=34:43
+7	marginais	marginal	ADJ	ADJ	_	5	amod	_	TokenRange=44:53
+8	republica	republico	ADJ	ADJ	_	5	amod	_	TokenRange=54:63
+9	demagogos	demagogo	ADJ	ADJ	_	5	amod	_	TokenRange=64:73
+10	durante	_	ADP	ADP	_	11	case	_	TokenRange=74:81
+11	posse	posse	NOUN	NOUN	_	4	nmod	_	TokenRange=82:87
+12	ministra	_	NOUN	NOUN	_	11	appos	_	TokenRange=88:96
+13	carmen	_	NOUN	NOUN	_	11	appos	_	TokenRange=97:103
+14	lucia	_	NOUN	NOUN	_	13	flat	_	TokenRange=104:109
+15	nova	novo	ADJ	ADJ	_	16	amod	_	TokenRange=110:114
+16	presidente	presidente	NOUN	NOUN	_	12	appos	_	TokenRange=115:125
+17	supremo	supremo	ADJ	ADJ	_	16	amod	_	TokenRange=126:133
+18	ministro	ministro	NOUN	NOUN	_	21	nsubj	_	TokenRange=134:142
+19	celso	_	ADJ	ADJ	_	18	amod	_	TokenRange=143:148
+20	mello	mello	NOUN	NOUN	_	18	amod	_	TokenRange=149:154
+21	endureceu	endurecer	VERB	VERB	_	4	parataxis	_	TokenRange=155:164
+22	discurso	discurso	NOUN	NOUN	_	21	obj	_	TokenRange=165:173
+23	referencia	_	NOUN	NOUN	_	22	appos	_	TokenRange=174:184
+24	politicos	politico	NOUN	NOUN	_	22	appos	_	TokenRange=185:194
+25	brasileiros	brasileiro	ADJ	ADJ	_	24	amod	_	TokenRange=195:206
+26	mello	mello	ADJ	ADJ	_	27	nsubj	_	TokenRange=207:212
+27	falou	falar	VERB	VERB	_	22	acl:relcl	_	TokenRange=213:218
+28	profanadores	profanador	NOUN	NOUN	_	27	obj	_	TokenRange=219:231
+29	republica	republico	ADJ	ADJ	_	28	amod	_	TokenRange=232:241
+30	marginais	marginal	ADJ	ADJ	_	28	amod	_	TokenRange=242:251
+31	republica	republico	ADJ	ADJ	_	28	amod	_	TokenRange=252:261
+32	praticas	_	NOUN	NOUN	_	28	appos	_	TokenRange=262:270
+33	delituosas	delituoso	ADJ	ADJ	_	32	amod	_	TokenRange=271:281
+34	organizacoes	organizacoe	NOUN	NOUN	_	28	appos	_	TokenRange=282:294
+35	criminosas	criminoso	ADJ	ADJ	_	32	amod	_	TokenRange=295:305
+36	enfraquecimento	enfraquecimento	ADJ	ADJ	_	32	amod	_	TokenRange=306:321
+37	instituicoes	instituicoe	NOUN	NOUN	_	28	appos	_	TokenRange=322:334
+38	demagogos	demagogo	ADJ	ADJ	_	40	amod	_	TokenRange=335:344
+39	todos	_	DET	DET	_	40	det	_	TokenRange=345:350
+40	caciques	cacique	NOUN	NOUN	_	44	nsubj	_	TokenRange=351:359
+41	politica	politico	ADJ	ADJ	_	40	amod	_	TokenRange=360:368
+42	la	_	DET	DET	_	43	det	_	TokenRange=369:371
+43	ninguem	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=372:379
+44	mexeu	mexer	VERB	VERB	_	27	parataxis	_	TokenRange=380:385
+45	lula	lula	NOUN	NOUN	_	46	obj	_	TokenRange=386:390
+46	cocou	cocar	VERB	VERB	_	44	parataxis	_	TokenRange=391:396
+47	bigode	_	NOUN	NOUN	_	46	obj	_	SpaceAfter=No|TokenRange=397:403
+

@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quinta 22 marco 2018 boa noite aqui principais noticias terminar dia beminformado saiu resultado sobre pedido antecipado evitar prisao expresidente luiz inacio lula silva plenario stf tomou decisoes sobre 3 questoes relacionadas julgamento pedido lula considerado cabivel julgado stf analise pedido si fica 4 abril lula preso sessao proxima segunda julgados trf4 recursos defesa sobre caso triplex guaruja caso segunda instancia ministros supremo decidiram analise pedido defesa evitar prisao lula fica feriado pascoa semana vem havera julgamentos 7 votos 4 admitiram julgar habeas corpus 6 votos 5 concedida
+1	quinta	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=0:6
+2	22	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=7:9
+3	marco	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=10:15
+4	2018	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=16:20
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=21:24
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=25:30
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=31:35
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=36:46
+9	noticias	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=47:55
+10	terminar	terminar	VERB	VERB	_	6	acl:relcl	_	TokenRange=56:64
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=65:68
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=69:81
+13	saiu	sair	VERB	VERB	_	0	root	_	TokenRange=82:86
+14	resultado	resultado	NOUN	NOUN	_	13	obj	_	TokenRange=87:96
+15	sobre	_	ADP	ADP	_	16	case	_	TokenRange=97:102
+16	pedido	pedido	NOUN	NOUN	_	14	nmod	_	TokenRange=103:109
+17	antecipado	antecipado	ADJ	ADJ	_	16	amod	_	TokenRange=110:120
+18	evitar	evitar	VERB	VERB	_	16	acl	_	TokenRange=121:127
+19	prisao	prisao	NOUN	NOUN	_	18	obj	_	TokenRange=128:134
+20	expresidente	expresidente	NOUN	NOUN	_	19	appos	_	TokenRange=135:147
+21	luiz	luiz	NOUN	NOUN	_	20	appos	_	TokenRange=148:152
+22	inacio	_	NOUN	NOUN	_	21	flat	_	TokenRange=153:159
+23	lula	_	NOUN	NOUN	_	21	flat	_	TokenRange=160:164
+24	silva	silva	ADJ	ADJ	_	21	flat	_	TokenRange=165:170
+25	plenario	plenario	NOUN	NOUN	_	27	nsubj	_	TokenRange=171:179
+26	stf	_	NOUN	NOUN	_	25	appos	_	TokenRange=180:183
+27	tomou	tomar	VERB	VERB	_	13	parataxis	_	TokenRange=184:189
+28	decisoes	decisoe	NOUN	NOUN	_	27	obj	_	TokenRange=190:198
+29	sobre	_	ADP	ADP	_	31	case	_	TokenRange=199:204
+30	3	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=205:206
+31	questoes	questoe	NOUN	NOUN	_	28	nmod	_	TokenRange=207:215
+32	relacionadas	relacionado	ADJ	ADJ	_	31	amod	_	TokenRange=216:228
+33	julgamento	julgamento	NOUN	NOUN	_	31	appos	_	TokenRange=229:239
+34	pedido	pedido	NOUN	NOUN	_	33	appos	_	TokenRange=240:246
+35	lula	lula	NOUN	NOUN	_	33	flat	_	TokenRange=247:251
+36	considerado	considerar	VERB	VERB	_	31	acl	_	TokenRange=252:263
+37	cabivel	cabivel	ADJ	ADJ	_	36	xcomp	_	TokenRange=264:271
+38	julgado	julgado	ADJ	ADJ	_	36	xcomp	_	TokenRange=272:279
+39	stf	_	NOUN	NOUN	_	40	appos	_	TokenRange=280:283
+40	analise	analise	NOUN	NOUN	_	36	nsubj	_	TokenRange=284:291
+41	pedido	pedido	NOUN	NOUN	_	40	flat	_	TokenRange=292:298
+42	si	_	PRON	PRON	_	43	nsubj	_	TokenRange=299:301
+43	fica	ficar	VERB	VERB	_	36	parataxis	_	TokenRange=302:306
+44	4	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=307:308
+45	abril	_	PROPN	PNOUN	_	43	nmod	_	TokenRange=309:314
+46	lula	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=315:319
+47	preso	_	ADJ	ADJ	_	40	amod	_	TokenRange=320:325
+48	sessao	sessao	NOUN	NOUN	_	43	nmod	_	TokenRange=326:332
+49	proxima	proximo	ADJ	ADJ	_	61	amod	_	TokenRange=333:340
+50	segunda	segundo	ADJ	ADJ	_	48	amod	_	TokenRange=341:348
+51	julgados	julgado	NOUN	NOUN	_	64	nsubj	_	TokenRange=349:357
+52	trf4	_	NUM	NUM	_	53	nummod	_	TokenRange=358:362
+53	recursos	recurso	NOUN	NOUN	_	64	nsubj	_	TokenRange=363:371
+54	defesa	_	NOUN	NOUN	_	53	appos	_	TokenRange=372:378
+55	sobre	_	ADP	ADP	_	56	case	_	TokenRange=379:384
+56	caso	caso	NOUN	NOUN	_	64	nmod	_	TokenRange=385:389
+57	triplex	_	NOUN	NOUN	_	56	flat	_	TokenRange=390:397
+58	guaruja	guaruja	NOUN	NOUN	_	56	appos	_	TokenRange=398:405
+59	caso	_	CCONJ	NOUN	_	61	cc	_	TokenRange=406:410
+60	segunda	segundo	ADJ	ADJ	_	61	amod	_	TokenRange=411:418
+61	instancia	instancia	NOUN	NOUN	_	56	conj	_	TokenRange=419:428
+62	ministros	ministro	NOUN	NOUN	_	64	nsubj	_	TokenRange=429:438
+63	supremo	supremo	ADJ	ADJ	_	62	amod	_	TokenRange=439:446
+64	decidiram	decidir	VERB	VERB	_	43	parataxis	_	TokenRange=447:456
+65	analise	analise	NOUN	NOUN	_	64	obj	_	TokenRange=457:464
+66	pedido	pedido	NOUN	NOUN	_	65	amod	_	TokenRange=465:471
+67	defesa	_	NOUN	NOUN	_	65	appos	_	TokenRange=472:478
+68	evitar	evitar	VERB	VERB	_	65	acl:inf	_	TokenRange=479:485
+69	prisao	prisao	NOUN	NOUN	_	68	obj	_	TokenRange=486:492
+70	lula	_	NOUN	NOUN	_	71	nsubj	_	TokenRange=493:497
+71	fica	ficar	VERB	VERB	_	68	parataxis	_	TokenRange=498:502
+72	feriado	feriado	ADJ	ADJ	_	71	xcomp	_	TokenRange=503:510
+73	pascoa	pascoa	ADJ	ADJ	_	71	amod	_	TokenRange=511:517
+74	semana	semana	NOUN	NOUN	_	71	nmod	_	TokenRange=518:524
+75	vem	vir	AUX	AUX	_	76	aux	_	TokenRange=525:528
+76	havera	haver	VERB	VERB	_	64	parataxis	_	TokenRange=529:535
+77	julgamentos	julgamento	NOUN	NOUN	_	76	obj	_	TokenRange=536:547
+78	7	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=548:549
+79	votos	voto	NOUN	NOUN	_	76	nsubj	_	TokenRange=550:555
+80	4	_	NUM	NUM	NumType=Card	79	appos	_	TokenRange=556:557
+81	admitiram	admitir	VERB	VERB	_	76	parataxis	_	TokenRange=558:567
+82	julgar	julgar	VERB	VERB	_	81	xcomp	_	TokenRange=568:574
+83	habeas	habeas	NOUN	NOUN	_	82	obj	_	TokenRange=575:581
+84	corpus	corpus	NOUN	NOUN	_	83	flat	_	TokenRange=582:588
+85	6	_	NUM	NUM	NumType=Card	86	nummod	_	TokenRange=589:590
+86	votos	voto	NOUN	NOUN	_	82	obj	_	TokenRange=591:596
+87	5	_	NUM	NUM	NumType=Card	86	appos	_	TokenRange=597:598
+88	concedida	conceder	VERB	VERB	_	81	acl	_	SpaceAfter=No|TokenRange=599:608
+

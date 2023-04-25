@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = primeiro dia treinamento goleiro boa esporte escoltado pm viatura policia militar acionada escoltar goleiro bruno local treinamentos saida hotel onde goleiro bruno oficialmente apresentado imprensa cidade varginha diretor ainda orientado pms vai primeiro vao atras atleta saiu veiculo chevrolet cruze escoltado ct clube informacao revista veja
+1	primeiro	primeiro	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	dia	dia	NOUN	NOUN	_	37	nsubj	_	TokenRange=9:12
+3	treinamento	treinamento	NOUN	NOUN	_	2	flat	_	TokenRange=13:24
+4	goleiro	goleiro	NOUN	NOUN	_	2	appos	_	TokenRange=25:32
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=33:36
+6	esporte	esporte	NOUN	NOUN	_	2	appos	_	TokenRange=37:44
+7	escoltado	escoltar	VERB	VERB	_	2	acl	_	TokenRange=45:54
+8	pm	_	ADP	ADP	_	9	case	_	TokenRange=55:57
+9	viatura	viatura	NOUN	NOUN	_	7	nmod	_	TokenRange=58:65
+10	policia	policia	NOUN	NOUN	_	9	appos	_	TokenRange=66:73
+11	militar	militar	ADJ	ADJ	_	10	amod	_	TokenRange=74:81
+12	acionada	acionado	ADJ	ADJ	_	10	amod	_	TokenRange=82:90
+13	escoltar	escoltar	VERB	VERB	_	2	acl	_	TokenRange=91:99
+14	goleiro	goleiro	NOUN	NOUN	_	13	obj	_	TokenRange=100:107
+15	bruno	bruno	NOUN	NOUN	_	14	flat	_	TokenRange=108:113
+16	local	local	ADJ	ADJ	_	14	amod	_	TokenRange=114:119
+17	treinamentos	treinamento	NOUN	NOUN	_	14	appos	_	TokenRange=120:132
+18	saida	_	VERB	NOUN	_	19	amod	_	TokenRange=133:138
+19	hotel	hotel	NOUN	NOUN	_	13	obj	_	TokenRange=139:144
+20	onde	onde	ADV	ADV	_	24	advmod	_	TokenRange=145:149
+21	goleiro	goleiro	NOUN	NOUN	_	19	appos	_	TokenRange=150:157
+22	bruno	bruno	NOUN	NOUN	_	21	flat	_	TokenRange=158:163
+23	oficialmente	oficialmente	ADV	ADV	_	24	advmod	_	TokenRange=164:176
+24	apresentado	apresentar	VERB	VERB	_	19	acl	_	TokenRange=177:188
+25	imprensa	imprensa	NOUN	NOUN	_	24	obj	_	TokenRange=189:197
+26	cidade	cidade	NOUN	NOUN	_	25	appos	_	TokenRange=198:204
+27	varginha	varginho	ADJ	ADJ	_	28	amod	_	TokenRange=205:213
+28	diretor	diretor	NOUN	NOUN	_	25	appos	_	TokenRange=214:221
+29	ainda	ainda	ADV	ADV	_	30	advmod	_	TokenRange=222:227
+30	orientado	orientado	ADJ	ADJ	_	28	amod	_	TokenRange=228:237
+31	pms	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=238:241
+32	vai	ir	AUX	AUX	_	37	aux	_	TokenRange=242:245
+33	primeiro	primeiro	ADV	ADV	_	30	advmod	_	TokenRange=246:254
+34	vao	vao	NOUN	NOUN	_	37	nmod	_	TokenRange=255:258
+35	atras	atras	ADV	ADV	_	34	advmod	_	TokenRange=259:264
+36	atleta	atleta	NOUN	NOUN	_	37	nsubj	_	TokenRange=265:271
+37	saiu	sair	VERB	VERB	_	0	root	_	TokenRange=272:276
+38	veiculo	veiculo	NOUN	NOUN	_	37	obj	_	TokenRange=277:284
+39	chevrolet	_	NOUN	NOUN	_	38	appos	_	TokenRange=285:294
+40	cruze	cruze	NOUN	NOUN	_	39	flat	_	TokenRange=295:300
+41	escoltado	escoltado	ADJ	ADJ	_	38	amod	_	TokenRange=301:310
+42	ct	_	NOUN	NOUN	_	46	obj	_	TokenRange=311:313
+43	clube	clube	NOUN	NOUN	_	42	flat	_	TokenRange=314:319
+44	informacao	informacao	ADJ	ADJ	_	45	amod	_	TokenRange=320:330
+45	revista	revista	NOUN	NOUN	_	46	nsubj	_	TokenRange=331:338
+46	veja	ver	VERB	VERB	_	37	parataxis	_	SpaceAfter=No|TokenRange=339:343
+

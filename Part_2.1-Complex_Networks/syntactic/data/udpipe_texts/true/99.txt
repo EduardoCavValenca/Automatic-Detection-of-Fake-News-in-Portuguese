@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caminhada paz rr promove debates sobre redes sociais reformas migracao concentracao passeata ocorre cruzamento avenidas n11 s 24 bairro santa luzia fieis catolicos participam nesta segundafeira 1 tradicional caminhada paz ano evento tema violencia caminho paz deve abordar temas redes sociais reformas migracao abordagem redes sociais objetivo despertar pessoas usada bem
+1	caminhada	caminhada	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:9
+2	paz	paz	NOUN	NOUN	_	1	amod	_	TokenRange=10:13
+3	rr	_	PROPN	PNOUN	_	1	appos	_	TokenRange=14:16
+4	promove	promover	VERB	VERB	_	0	root	_	TokenRange=17:24
+5	debates	debate	NOUN	NOUN	_	4	obj	_	TokenRange=25:32
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=33:38
+7	redes	rede	NOUN	NOUN	_	5	nmod	_	TokenRange=39:44
+8	sociais	social	ADJ	ADJ	_	7	amod	_	TokenRange=45:52
+9	reformas	reforma	NOUN	NOUN	_	7	appos	_	TokenRange=53:61
+10	migracao	migracao	ADJ	ADJ	_	9	amod	_	TokenRange=62:70
+11	concentracao	concentracao	ADJ	ADJ	_	12	amod	_	TokenRange=71:83
+12	passeata	passeata	NOUN	NOUN	_	9	appos	_	TokenRange=84:92
+13	ocorre	ocorrer	VERB	VERB	_	12	acl:relcl	_	TokenRange=93:99
+14	cruzamento	cruzamento	NOUN	NOUN	_	13	obj	_	TokenRange=100:110
+15	avenidas	avenida	NOUN	NOUN	_	14	appos	_	TokenRange=111:119
+16	n11	_	NUM	NUM	NumType=Card	14	appos	_	TokenRange=120:123
+17	s	_	NOUN	NOUN	_	16	appos	_	TokenRange=124:125
+18	24	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=126:128
+19	bairro	bairro	NOUN	NOUN	_	14	appos	_	TokenRange=129:135
+20	santa	santo	ADJ	ADJ	_	21	amod	_	TokenRange=136:141
+21	luzia	luzia	NOUN	NOUN	_	19	appos	_	TokenRange=142:147
+22	fieis	_	NOUN	NOUN	_	19	appos	_	TokenRange=148:153
+23	catolicos	catolico	ADJ	ADJ	_	22	amod	_	TokenRange=154:163
+24	participam	participar	VERB	VERB	_	4	parataxis	_	TokenRange=164:174
+25	nesta	_	ADP	ADP	_	26	case	_	TokenRange=175:180
+26	segundafeira	segundafeira	NOUN	NOUN	_	24	nmod	_	TokenRange=181:193
+27	1	_	NUM	NUM	NumType=Card	26	appos	_	TokenRange=194:195
+28	tradicional	tradicional	ADJ	ADJ	_	26	amod	_	TokenRange=196:207
+29	caminhada	caminhada	NOUN	NOUN	_	26	appos	_	TokenRange=208:217
+30	paz	paz	NOUN	NOUN	_	29	amod	_	TokenRange=218:221
+31	ano	ano	NOUN	NOUN	_	29	nmod	_	TokenRange=222:225
+32	evento	evento	NOUN	NOUN	_	29	appos	_	TokenRange=226:232
+33	tema	tema	NOUN	NOUN	_	29	appos	_	TokenRange=233:237
+34	violencia	violencia	ADJ	ADJ	_	33	amod	_	TokenRange=238:247
+35	caminho	caminho	NOUN	NOUN	_	38	nsubj	_	TokenRange=248:255
+36	paz	paz	NOUN	NOUN	_	35	flat	_	TokenRange=256:259
+37	deve	dever	AUX	AUX	_	38	aux	_	TokenRange=260:264
+38	abordar	abordar	VERB	VERB	_	24	parataxis	_	TokenRange=265:272
+39	temas	tema	NOUN	NOUN	_	38	obj	_	TokenRange=273:278
+40	redes	rede	NOUN	NOUN	_	39	appos	_	TokenRange=279:284
+41	sociais	social	ADJ	ADJ	_	40	amod	_	TokenRange=285:292
+42	reformas	reforma	NOUN	NOUN	_	39	appos	_	TokenRange=293:301
+43	migracao	migracao	ADJ	ADJ	_	40	amod	_	TokenRange=302:310
+44	abordagem	abordagem	VERB	VERB	_	39	acl:relcl	_	TokenRange=311:320
+45	redes	rede	NOUN	NOUN	_	44	obj	_	TokenRange=321:326
+46	sociais	social	ADJ	ADJ	_	45	amod	_	TokenRange=327:334
+47	objetivo	objetivo	NOUN	NOUN	_	38	parataxis	_	TokenRange=335:343
+48	despertar	despertar	VERB	VERB	_	47	csubj	_	TokenRange=344:353
+49	pessoas	pessoa	NOUN	NOUN	_	48	obj	_	TokenRange=354:361
+50	usada	usar	VERB	VERB	_	49	acl	_	TokenRange=362:367
+51	bem	bem	ADV	ADV	_	50	advmod	_	SpaceAfter=No|TokenRange=368:371
+

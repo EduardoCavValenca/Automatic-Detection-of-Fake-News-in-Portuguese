@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = camara barra denuncia corrupcao contra michel temer presidente precisava 172 votos conseguiu 263 acusacao podera analisada deixar cargo plenario camara deputados rejeitou nesta quartafeira 2 autorizacao supremo tribunal federal julgue denuncia corrupcao passiva contra presidente michel temer volta 20h20 base aliada votos necessarios somando ausencias abstencoes arquivar denuncia sessao votacao durou cerca 8 horas 263 votos favoraveis parecer deputado
+1	camara	camara	NOUN	NOUN	_	51	nsubj	_	TokenRange=0:6
+2	barra	barra	NOUN	NOUN	_	1	flat	_	TokenRange=7:12
+3	denuncia	_	NOUN	NOUN	_	1	appos	_	TokenRange=13:21
+4	corrupcao	corrupcao	NOUN	NOUN	_	3	obj	_	TokenRange=22:31
+5	contra	_	ADP	ADP	_	7	case	_	TokenRange=32:38
+6	michel	_	DET	DET	_	7	det	_	TokenRange=39:45
+7	temer	temer	NOUN	NOUN	_	4	nmod	_	TokenRange=46:51
+8	presidente	presidente	NOUN	NOUN	_	9	nsubj	_	TokenRange=52:62
+9	precisava	precisar	VERB	VERB	_	1	acl:relcl	_	TokenRange=63:72
+10	172	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=73:76
+11	votos	voto	NOUN	NOUN	_	9	obj	_	TokenRange=77:82
+12	conseguiu	conseguir	VERB	VERB	_	9	conj	_	TokenRange=83:92
+13	263	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=93:96
+14	acusacao	acusacao	NOUN	NOUN	_	12	obj	_	TokenRange=97:105
+15	podera	_	AUX	AUX	_	16	aux	_	TokenRange=106:112
+16	analisada	analisar	VERB	VERB	_	9	conj	_	TokenRange=113:122
+17	deixar	deixar	VERB	VERB	_	16	csubj	_	TokenRange=123:129
+18	cargo	cargo	NOUN	NOUN	_	17	obj	_	TokenRange=130:135
+19	plenario	plenario	ADJ	ADJ	_	18	amod	_	TokenRange=136:144
+20	camara	camara	NOUN	NOUN	_	22	nsubj	_	TokenRange=145:151
+21	deputados	deputado	NOUN	NOUN	_	20	flat	_	TokenRange=152:161
+22	rejeitou	rejeitar	VERB	VERB	_	9	parataxis	_	TokenRange=162:170
+23	nesta	_	ADP	ADP	_	24	case	_	TokenRange=171:176
+24	quartafeira	_	NOUN	NOUN	_	22	nmod	_	TokenRange=177:188
+25	2	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=189:190
+26	autorizacao	autorizacao	NOUN	NOUN	_	24	appos	_	TokenRange=191:202
+27	supremo	supremo	ADJ	ADJ	_	28	amod	_	TokenRange=203:210
+28	tribunal	tribunal	NOUN	NOUN	_	22	nsubj	_	TokenRange=211:219
+29	federal	federal	ADJ	ADJ	_	28	amod	_	TokenRange=220:227
+30	julgue	julgar	VERB	VERB	_	22	ccomp	_	TokenRange=228:234
+31	denuncia	_	NOUN	NOUN	_	30	obj	_	TokenRange=235:243
+32	corrupcao	corrupcao	NOUN	NOUN	_	31	appos	_	TokenRange=244:253
+33	passiva	passivo	ADJ	ADJ	_	32	amod	_	TokenRange=254:261
+34	contra	_	ADP	ADP	_	35	case	_	TokenRange=262:268
+35	presidente	presidente	NOUN	NOUN	_	31	nmod	_	TokenRange=269:279
+36	michel	michel	ADJ	ADJ	_	37	amod	_	TokenRange=280:286
+37	temer	temer	NOUN	NOUN	_	35	appos	_	TokenRange=287:292
+38	volta	volta	NOUN	NOUN	_	30	parataxis	_	TokenRange=293:298
+39	20h20	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=299:304
+40	base	base	NOUN	NOUN	_	38	appos	_	TokenRange=305:309
+41	aliada	aliado	ADJ	ADJ	_	40	amod	_	TokenRange=310:316
+42	votos	voto	NOUN	NOUN	_	38	nsubj	_	TokenRange=317:322
+43	necessarios	necessario	ADJ	ADJ	_	42	amod	_	TokenRange=323:334
+44	somando	somar	VERB	VERB	_	42	acl	_	TokenRange=335:342
+45	ausencias	ausencia	NOUN	NOUN	_	44	obj	_	TokenRange=343:352
+46	abstencoes	_	NOUN	NOUN	_	44	obj	_	TokenRange=353:363
+47	arquivar	arquivar	VERB	VERB	_	44	xcomp	_	TokenRange=364:372
+48	denuncia	denuncia	NOUN	NOUN	_	47	obj	_	TokenRange=373:381
+49	sessao	sessao	ADJ	ADJ	_	48	amod	_	TokenRange=382:388
+50	votacao	votacao	NOUN	NOUN	_	51	nsubj	_	TokenRange=389:396
+51	durou	durar	VERB	VERB	_	0	root	_	TokenRange=397:402
+52	cerca	cerca	ADV	ADV	_	53	advmod	_	TokenRange=403:408
+53	8	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=409:410
+54	horas	hora	NOUN	NOUN	_	51	nmod	_	TokenRange=411:416
+55	263	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=417:420
+56	votos	voto	NOUN	NOUN	_	51	nsubj	_	TokenRange=421:426
+57	favoraveis	favoravel	ADJ	ADJ	_	56	amod	_	TokenRange=427:437
+58	parecer	parecer	VERB	VERB	_	51	parataxis	_	TokenRange=438:445
+59	deputado	deputado	NOUN	NOUN	_	51	obj	_	SpaceAfter=No|TokenRange=446:454
+

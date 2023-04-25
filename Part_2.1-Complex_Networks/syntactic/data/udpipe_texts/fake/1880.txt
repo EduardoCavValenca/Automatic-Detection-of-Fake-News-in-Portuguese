@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senadores unem contra renan aprovam votacao emergencia senado cedeu ordens renan calheiros requerimento urgencia votacao projeto salva politicos criminosos rejeitado plenario 44 contra renan 14 votos favor renan calheiros levou cruzado direita projeto segue agora ccj comissao constituicao justica cidadania casa
+1	senadores	senador	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:9
+2	unem	_	VERB	VERB	_	1	appos	_	TokenRange=10:14
+3	contra	_	ADP	ADP	_	4	case	_	TokenRange=15:21
+4	renan	_	NOUN	NOUN	_	2	nmod	_	TokenRange=22:27
+5	aprovam	aprovar	VERB	VERB	_	0	root	_	TokenRange=28:35
+6	votacao	votacao	NOUN	NOUN	_	5	obj	_	TokenRange=36:43
+7	emergencia	emergencia	NOUN	NOUN	_	6	amod	_	TokenRange=44:54
+8	senado	senado	NOUN	NOUN	_	9	nsubj	_	TokenRange=55:61
+9	cedeu	ceder	VERB	VERB	_	5	parataxis	_	TokenRange=62:67
+10	ordens	ordem	NOUN	NOUN	_	9	obj	_	TokenRange=68:74
+11	renan	_	ADJ	NOUN	_	10	appos	_	TokenRange=75:80
+12	calheiros	calheiro	NOUN	NOUN	_	13	amod	_	TokenRange=81:90
+13	requerimento	requerimento	NOUN	NOUN	_	10	appos	_	TokenRange=91:103
+14	urgencia	urgencia	NOUN	NOUN	_	13	flat	_	TokenRange=104:112
+15	votacao	_	NOUN	NOUN	_	13	amod	_	TokenRange=113:120
+16	projeto	projeto	NOUN	NOUN	_	17	nsubj	_	TokenRange=121:128
+17	salva	salvar	VERB	VERB	_	13	acl:relcl	_	TokenRange=129:134
+18	politicos	_	NOUN	NOUN	_	17	obj	_	TokenRange=135:144
+19	criminosos	criminoso	ADJ	ADJ	_	18	amod	_	TokenRange=145:155
+20	rejeitado	rejeitado	ADJ	ADJ	_	21	amod	_	TokenRange=156:165
+21	plenario	plenario	NOUN	NOUN	_	17	obj	_	TokenRange=166:174
+22	44	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=175:177
+23	contra	_	ADP	ADP	_	24	case	_	TokenRange=178:184
+24	renan	_	NOUN	NOUN	_	21	nmod	_	TokenRange=185:190
+25	14	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=191:193
+26	votos	voto	NOUN	NOUN	_	30	nsubj	_	TokenRange=194:199
+27	favor	favor	NOUN	NOUN	_	26	amod	_	TokenRange=200:205
+28	renan	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=206:211
+29	calheiros	calheiro	NOUN	NOUN	_	28	flat	_	TokenRange=212:221
+30	levou	levar	VERB	VERB	_	5	parataxis	_	TokenRange=222:227
+31	cruzado	cruzado	NOUN	NOUN	_	30	obj	_	TokenRange=228:235
+32	direita	direito	ADJ	ADJ	_	31	amod	_	TokenRange=236:243
+33	projeto	projeto	NOUN	NOUN	_	30	nsubj	_	TokenRange=244:251
+34	segue	_	VERB	VERB	_	30	parataxis	_	TokenRange=252:257
+35	agora	agora	ADV	ADV	_	34	advmod	_	TokenRange=258:263
+36	ccj	_	ADV	ADV	_	34	advmod	_	TokenRange=264:267
+37	comissao	comissao	NOUN	NOUN	_	34	nsubj	_	TokenRange=268:276
+38	constituicao	constituicao	ADJ	ADJ	_	37	amod	_	TokenRange=277:289
+39	justica	justico	ADJ	ADJ	_	37	amod	_	TokenRange=290:297
+40	cidadania	cidadania	NOUN	NOUN	_	37	appos	_	TokenRange=298:307
+41	casa	casa	NOUN	NOUN	_	37	flat	_	SpaceAfter=No|TokenRange=308:312
+

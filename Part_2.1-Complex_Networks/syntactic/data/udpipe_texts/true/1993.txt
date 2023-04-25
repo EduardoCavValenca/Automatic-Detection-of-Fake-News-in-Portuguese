@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa lula diz moro aceitar denuncia caso sitio atibaia atentado contra estado direito juiz federal aceitou nesta tercafeira denuncia contra expresidente outras 12 pessoas advogado defesa expresidente luiz inacio lula silva pt cristiano zanin martins afirmou nesta tercafeira 1 meio nota decisao juiz federal sergio moro aceitar denuncia contra petista caso sitio atibaia atentado estado direito sergio moro aceitou denuncia contra expresidente lula outras 12 pessoas caso ambito operacao lava jato agora todos
+1	defesa	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	lula	lula	NOUN	NOUN	_	1	flat	_	TokenRange=7:11
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=12:15
+4	moro	moro	NOUN	NOUN	_	3	obj	_	TokenRange=16:20
+5	aceitar	aceitar	VERB	VERB	_	3	ccomp	_	TokenRange=21:28
+6	denuncia	_	NOUN	NOUN	_	5	obj	_	TokenRange=29:37
+7	caso	_	ADP	CONJ	_	8	case	_	TokenRange=38:42
+8	sitio	sitio	NOUN	NOUN	_	16	nmod	_	TokenRange=43:48
+9	atibaia	atibaio	ADJ	ADJ	_	8	amod	_	TokenRange=49:56
+10	atentado	atentado	NOUN	NOUN	_	8	appos	_	TokenRange=57:65
+11	contra	_	ADP	ADP	_	12	case	_	TokenRange=66:72
+12	estado	estado	NOUN	NOUN	_	10	nmod	_	TokenRange=73:79
+13	direito	direito	ADJ	ADJ	_	12	amod	_	TokenRange=80:87
+14	juiz	juiz	NOUN	NOUN	_	16	nsubj	_	TokenRange=88:92
+15	federal	federal	ADJ	ADJ	_	14	amod	_	TokenRange=93:100
+16	aceitou	aceitar	VERB	VERB	_	3	advcl	_	TokenRange=101:108
+17	nesta	_	ADP	ADP	_	18	case	_	TokenRange=109:114
+18	tercafeira	_	NOUN	NOUN	_	16	nmod	_	TokenRange=115:125
+19	denuncia	denuncia	NOUN	NOUN	_	16	obj	_	TokenRange=126:134
+20	contra	_	ADP	ADP	_	21	case	_	TokenRange=135:141
+21	expresidente	expresidente	NOUN	NOUN	_	19	nmod	_	TokenRange=142:154
+22	outras	_	DET	DET	_	24	det	_	TokenRange=155:161
+23	12	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=162:164
+24	pessoas	pessoa	NOUN	NOUN	_	21	appos	_	TokenRange=165:172
+25	advogado	advogado	NOUN	NOUN	_	24	appos	_	TokenRange=173:181
+26	defesa	_	NOUN	NOUN	_	24	amod	_	TokenRange=182:188
+27	expresidente	expresidente	NOUN	NOUN	_	24	appos	_	TokenRange=189:201
+28	luiz	luiz	NOUN	NOUN	_	24	appos	_	TokenRange=202:206
+29	inacio	_	NOUN	NOUN	_	27	appos	_	TokenRange=207:213
+30	lula	_	NOUN	NOUN	_	28	flat	_	TokenRange=214:218
+31	silva	silva	NOUN	NOUN	_	29	flat	_	TokenRange=219:224
+32	pt	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=225:227
+33	cristiano	cristiano	NOUN	NOUN	_	32	appos	_	TokenRange=228:237
+34	zanin	_	NOUN	NOUN	_	33	flat	_	TokenRange=238:243
+35	martins	_	ADJ	ADJ	_	33	flat	_	TokenRange=244:251
+36	afirmou	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=252:259
+37	nesta	_	ADP	ADP	_	38	case	_	TokenRange=260:265
+38	tercafeira	tercafeira	NOUN	NOUN	_	36	nmod	_	TokenRange=266:276
+39	1	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=277:278
+40	meio	meio	NOUN	NOUN	_	41	amod	_	TokenRange=279:283
+41	nota	nota	NOUN	NOUN	_	38	appos	_	TokenRange=284:288
+42	decisao	decisao	NOUN	NOUN	_	43	amod	_	TokenRange=289:296
+43	juiz	juiz	NOUN	NOUN	_	36	nsubj	_	TokenRange=297:301
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=302:309
+45	sergio	sergio	ADJ	NOUN	_	43	amod	_	TokenRange=310:316
+46	moro	moro	NOUN	NOUN	_	43	flat	_	TokenRange=317:321
+47	aceitar	aceitar	VERB	VERB	_	43	acl:inf	_	TokenRange=322:329
+48	denuncia	denuncia	NOUN	NOUN	_	47	obj	_	TokenRange=330:338
+49	contra	_	ADP	ADP	_	50	case	_	TokenRange=339:345
+50	petista	petista	NOUN	NOUN	_	48	nmod	_	TokenRange=346:353
+51	caso	_	ADP	ADP	_	52	case	_	TokenRange=354:358
+52	sitio	sitio	NOUN	NOUN	_	47	nmod	_	TokenRange=359:364
+53	atibaia	atibaio	ADJ	ADJ	_	52	amod	_	TokenRange=365:372
+54	atentado	atentado	NOUN	NOUN	_	52	appos	_	TokenRange=373:381
+55	estado	estado	NOUN	NOUN	_	52	appos	_	TokenRange=382:388
+56	direito	direito	ADJ	ADJ	_	55	amod	_	TokenRange=389:396
+57	sergio	sergio	NOUN	NOUN	_	59	nsubj	_	TokenRange=397:403
+58	moro	moro	NOUN	NOUN	_	57	flat	_	TokenRange=404:408
+59	aceitou	aceitar	VERB	VERB	_	47	conj	_	TokenRange=409:416
+60	denuncia	denuncia	NOUN	NOUN	_	59	obj	_	TokenRange=417:425
+61	contra	_	ADP	ADP	_	62	case	_	TokenRange=426:432
+62	expresidente	expresidente	NOUN	NOUN	_	60	nmod	_	TokenRange=433:445
+63	lula	lulo	ADJ	ADJ	_	62	amod	_	TokenRange=446:450
+64	outras	_	DET	DET	_	66	det	_	TokenRange=451:457
+65	12	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=458:460
+66	pessoas	pessoa	NOUN	NOUN	_	62	appos	_	TokenRange=461:468
+67	caso	_	NOUN	NOUN	_	68	case	_	TokenRange=469:473
+68	ambito	ambito	NOUN	NOUN	_	59	nmod	_	TokenRange=474:480
+69	operacao	operacao	NOUN	NOUN	_	68	appos	_	TokenRange=481:489
+70	lava	lavar	VERB	VERB	_	67	acl:relcl	_	TokenRange=490:494
+71	jato	jato	NOUN	NOUN	_	70	obj	_	TokenRange=495:499
+72	agora	agora	ADV	ADV	_	70	advmod	_	TokenRange=500:505
+73	todos	_	PRON	PRON	_	70	obj	_	SpaceAfter=No|TokenRange=506:511
+

@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos encontrar papa francisco trump diz estar determinado buscar paz audiencia vaticano aconteceu nesta quartafeira visita faz parte 1 viagem internacional presidente americano presidente estados unidos donald trump afirmou saido determinado nunca buscar paz audiencia papa francisco vaticano manha desta quartafeira
+1	apos	_	ADP	ADP	_	2	mark	_	TokenRange=0:4
+2	encontrar	encontrar	VERB	VERB	_	6	advcl	_	TokenRange=5:14
+3	papa	papa	NOUN	NOUN	_	2	obj	_	TokenRange=15:19
+4	francisco	francisco	ADJ	ADJ	_	3	amod	_	TokenRange=20:29
+5	trump	_	NOUN	NOUN	_	3	flat	_	TokenRange=30:35
+6	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=36:39
+7	estar	estar	VERB	VERB	_	6	xcomp	_	TokenRange=40:45
+8	determinado	determinado	ADJ	ADJ	_	7	xcomp	_	TokenRange=46:57
+9	buscar	buscar	VERB	VERB	_	7	csubj	_	TokenRange=58:64
+10	paz	paz	NOUN	NOUN	_	9	obj	_	TokenRange=65:68
+11	audiencia	audiencia	NOUN	NOUN	_	13	nsubj	_	TokenRange=69:78
+12	vaticano	vaticano	ADJ	NOUN	_	11	amod	_	TokenRange=79:87
+13	aconteceu	acontecer	VERB	VERB	_	6	parataxis	_	TokenRange=88:97
+14	nesta	_	ADP	ADP	_	15	case	_	TokenRange=98:103
+15	quartafeira	_	NOUN	NOUN	_	13	nmod	_	TokenRange=104:115
+16	visita	visita	NOUN	NOUN	_	13	nsubj	_	TokenRange=116:122
+17	faz	fazer	VERB	VERB	_	13	parataxis	_	TokenRange=123:126
+18	parte	parte	NOUN	NOUN	_	17	obj	_	TokenRange=127:132
+19	1	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=133:134
+20	viagem	viagem	NOUN	NOUN	_	13	nsubj	_	TokenRange=135:141
+21	internacional	internacional	ADJ	ADJ	_	20	amod	_	TokenRange=142:155
+22	presidente	presidente	NOUN	NOUN	_	20	appos	_	TokenRange=156:166
+23	americano	americano	ADJ	ADJ	_	20	amod	_	TokenRange=167:176
+24	presidente	presidente	NOUN	NOUN	_	20	appos	_	TokenRange=177:187
+25	estados	estado	ADJ	ADJ	_	24	amod	_	TokenRange=188:195
+26	unidos	unido	ADJ	ADJ	_	24	amod	_	TokenRange=196:202
+27	donald	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=203:209
+28	trump	_	NOUN	NOUN	_	27	flat	_	TokenRange=210:215
+29	afirmou	afirmar	VERB	VERB	_	13	parataxis	_	TokenRange=216:223
+30	saido	_	VERB	VERB	_	29	xcomp	_	TokenRange=224:229
+31	determinado	determinado	ADJ	ADJ	_	30	xcomp	_	TokenRange=230:241
+32	nunca	nunca	ADV	ADV	_	33	advmod	_	TokenRange=242:247
+33	buscar	buscar	VERB	VERB	_	30	xcomp	_	TokenRange=248:254
+34	paz	paz	NOUN	NOUN	_	33	obj	_	TokenRange=255:258
+35	audiencia	_	NOUN	NOUN	_	36	appos	_	TokenRange=259:268
+36	papa	papa	NOUN	NOUN	_	33	parataxis	_	TokenRange=269:273
+37	francisco	francisco	ADJ	ADJ	_	36	flat	_	TokenRange=274:283
+38	vaticano	vaticano	ADJ	ADJ	_	36	amod	_	TokenRange=284:292
+39	manha	manha	NOUN	NOUN	_	36	appos	_	TokenRange=293:298
+40	desta	_	ADP	ADP	_	41	case	_	TokenRange=299:304
+41	quartafeira	quartafeira	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No|TokenRange=305:316
+

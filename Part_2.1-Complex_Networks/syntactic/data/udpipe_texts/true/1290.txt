@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula conhecimento tudo diz exdiretor petrobras moro renato duque interrogado novo juiz lava jato nesta sextafeira 5 processo operacao envolvendo exministro antonio palocci defesa expresidente diz duque fabrica acusacoes exdiretor petrobras renato duque acusou expresidente luiz inacio lula silva recomendado destruisse provas propina recebida petistas brasil escandalo petrolao depoimento juiz federal sergio moro nesta sextafeira 5 relatou tres encontros expresidente 2012 2014 trabalhava estatal lula presidente acordo forcatarefa lava jato duque indicado partido trabalhadores diretoria
+1	lula	lula	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	conhecimento	conhecimento	NOUN	NOUN	_	1	appos	_	TokenRange=5:17
+3	tudo	_	PRON	PRON	_	4	nsubj	_	TokenRange=18:22
+4	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=23:26
+5	exdiretor	exdiretor	NOUN	NOUN	_	4	obj	_	TokenRange=27:36
+6	petrobras	petrobra	NOUN	NOUN	_	5	amod	_	TokenRange=37:46
+7	moro	moro	NOUN	NOUN	_	5	appos	_	TokenRange=47:51
+8	renato	renato	NOUN	NOUN	_	5	appos	_	TokenRange=52:58
+9	duque	_	NOUN	NOUN	_	8	flat	_	TokenRange=59:64
+10	interrogado	interrogado	ADJ	ADJ	_	12	amod	_	TokenRange=65:76
+11	novo	novo	ADJ	ADJ	_	12	amod	_	TokenRange=77:81
+12	juiz	juiz	NOUN	NOUN	_	5	appos	_	TokenRange=82:86
+13	lava	_	NOUN	NOUN	_	12	appos	_	TokenRange=87:91
+14	jato	jato	NOUN	NOUN	_	13	flat	_	TokenRange=92:96
+15	nesta	_	ADP	ADP	_	16	case	_	TokenRange=97:102
+16	sextafeira	sextafeira	NOUN	NOUN	_	13	nmod	_	TokenRange=103:113
+17	5	_	NUM	NUM	NumType=Card	16	appos	_	TokenRange=114:115
+18	processo	processo	NOUN	NOUN	_	16	appos	_	TokenRange=116:124
+19	operacao	operacao	NOUN	NOUN	_	18	appos	_	TokenRange=125:133
+20	envolvendo	envolver	VERB	VERB	_	18	acl	_	TokenRange=134:144
+21	exministro	exministro	NOUN	NOUN	_	20	obj	_	TokenRange=145:155
+22	antonio	antonio	NOUN	NOUN	_	21	appos	_	TokenRange=156:163
+23	palocci	_	NOUN	NOUN	_	22	flat	_	TokenRange=164:171
+24	defesa	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=172:178
+25	expresidente	expresidente	NOUN	NOUN	_	26	nsubj	_	TokenRange=179:191
+26	diz	dizer	VERB	VERB	_	21	appos	_	TokenRange=192:195
+27	duque	duque	NOUN	NOUN	_	26	flat	_	TokenRange=196:201
+28	fabrica	fabricar	VERB	VERB	_	26	ccomp	_	TokenRange=202:209
+29	acusacoes	acusacoe	NOUN	NOUN	_	28	obj	_	TokenRange=210:219
+30	exdiretor	exdiretor	ADJ	ADJ	_	29	amod	_	TokenRange=220:229
+31	petrobras	petrobra	NOUN	NOUN	_	29	amod	_	TokenRange=230:239
+32	renato	renato	NOUN	NOUN	_	34	nsubj	_	TokenRange=240:246
+33	duque	_	NOUN	NOUN	_	32	flat	_	TokenRange=247:252
+34	acusou	acusar	VERB	VERB	_	29	acl:relcl	_	TokenRange=253:259
+35	expresidente	expresidente	NOUN	NOUN	_	34	obj	_	TokenRange=260:272
+36	luiz	luiz	ADJ	ADJ	_	35	amod	_	TokenRange=273:277
+37	inacio	_	NOUN	NOUN	_	36	flat	_	TokenRange=278:284
+38	lula	_	NOUN	NOUN	_	36	flat	_	TokenRange=285:289
+39	silva	silva	NOUN	NOUN	_	36	flat	_	TokenRange=290:295
+40	recomendado	recomendado	ADJ	ADJ	_	34	xcomp	_	TokenRange=296:307
+41	destruisse	destruir	VERB	VERB	_	34	ccomp	_	TokenRange=308:318
+42	provas	prova	NOUN	NOUN	_	41	obj	_	TokenRange=319:325
+43	propina	propino	NOUN	NOUN	_	42	flat	_	TokenRange=326:333
+44	recebida	receber	VERB	VERB	_	42	acl	_	TokenRange=334:342
+45	petistas	petista	NOUN	NOUN	_	44	nsubj	_	TokenRange=343:351
+46	brasil	brasil	ADJ	ADJ	_	47	amod	_	TokenRange=352:358
+47	escandalo	escandalo	NOUN	NOUN	_	42	appos	_	TokenRange=359:368
+48	petrolao	petrolao	ADJ	ADJ	_	47	amod	_	TokenRange=369:377
+49	depoimento	depoimento	NOUN	NOUN	_	50	amod	_	TokenRange=378:388
+50	juiz	juiz	NOUN	NOUN	_	47	appos	_	TokenRange=389:393
+51	federal	federal	ADJ	ADJ	_	50	amod	_	TokenRange=394:401
+52	sergio	sergio	NOUN	NOUN	_	50	appos	_	TokenRange=402:408
+53	moro	moro	NOUN	NOUN	_	52	flat	_	TokenRange=409:413
+54	nesta	_	ADP	ADP	_	55	case	_	TokenRange=414:419
+55	sextafeira	sextafeira	NOUN	NOUN	_	57	nmod	_	TokenRange=420:430
+56	5	_	NUM	NUM	NumType=Card	55	appos	_	TokenRange=431:432
+57	relatou	relatar	VERB	VERB	_	4	parataxis	_	TokenRange=433:440
+58	tres	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=441:445
+59	encontros	encontro	NOUN	NOUN	_	57	obj	_	TokenRange=446:455
+60	expresidente	expresidente	NOUN	NOUN	_	59	appos	_	TokenRange=456:468
+61	2012	_	NUM	NUM	NumType=Card	60	nmod	_	TokenRange=469:473
+62	2014	_	NUM	NUM	NumType=Card	63	nmod	_	TokenRange=474:478
+63	trabalhava	trabalhar	NOUN	NOUN	_	57	parataxis	_	TokenRange=479:489
+64	estatal	estatal	ADJ	ADJ	_	63	amod	_	TokenRange=490:497
+65	lula	lula	NOUN	NOUN	_	63	nsubj	_	TokenRange=498:502
+66	presidente	presidente	NOUN	NOUN	_	63	nsubj	_	TokenRange=503:513
+67	acordo	acordo	NOUN	NOUN	_	66	amod	_	TokenRange=514:520
+68	forcatarefa	forcatarefa	NOUN	NOUN	_	69	flat	_	TokenRange=521:532
+69	lava	lava	VERB	NOUN	_	66	appos	_	TokenRange=533:537
+70	jato	jato	NOUN	NOUN	_	69	flat	_	TokenRange=538:542
+71	duque	duque	ADJ	NOUN	_	69	flat	_	TokenRange=543:548
+72	indicado	indicar	VERB	VERB	_	69	acl	_	TokenRange=549:557
+73	partido	partido	NOUN	NOUN	_	72	obj	_	TokenRange=558:565
+74	trabalhadores	trabalhador	ADJ	ADJ	_	73	amod	_	TokenRange=566:579
+75	diretoria	diretoria	NOUN	NOUN	_	73	appos	_	SpaceAfter=No|TokenRange=580:589
+

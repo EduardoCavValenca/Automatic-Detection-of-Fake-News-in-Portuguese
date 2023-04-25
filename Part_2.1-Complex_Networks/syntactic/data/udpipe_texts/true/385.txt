@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = g20 ocde volta ressaltar importancia reformas globais 2018 organizacao cooperacao desenvolvimento economico ocde recomendou menor distorcao fiscal brasil reduza barreiras comerciais londres organizacao cooperacao desenvolvimento economico ocde volta ressaltar necessidade reformas politica economica todo mundo 2018 relatorio going growth caminho crescimento apresentado nesta segundafeira 19 buenos aires presidentes bancos centrais ministro financas g20 grupo 20 maiores economias globo instituicao sede paris analisa paises fizeram termos reformas impulsionar crescimento longo prazo melhorar competitividade produtividade criar empregos garantir ganhos economicos
+1	g20	_	NUM	NUM	NumType=Card	4	nsubj	_	TokenRange=0:3
+2	ocde	ocde	NOUN	NOUN	_	4	nsubj	_	TokenRange=4:8
+3	volta	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:14
+4	ressaltar	ressaltar	VERB	VERB	_	0	root	_	TokenRange=15:24
+5	importancia	importancia	NOUN	NOUN	_	4	obj	_	TokenRange=25:36
+6	reformas	reforma	NOUN	NOUN	_	4	obj	_	TokenRange=37:45
+7	globais	global	ADJ	ADJ	_	6	amod	_	TokenRange=46:53
+8	2018	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=54:58
+9	organizacao	organizacao	NOUN	NOUN	_	4	nsubj	_	TokenRange=59:70
+10	cooperacao	cooperacao	ADJ	ADJ	_	9	amod	_	TokenRange=71:81
+11	desenvolvimento	desenvolvimento	NOUN	NOUN	_	9	appos	_	TokenRange=82:97
+12	economico	economico	ADJ	ADJ	_	11	amod	_	TokenRange=98:107
+13	ocde	ocde	NOUN	NOUN	_	14	nsubj	_	TokenRange=108:112
+14	recomendou	recomendar	VERB	VERB	_	9	acl:relcl	_	TokenRange=113:123
+15	menor	menor	ADJ	ADJ	_	16	amod	_	TokenRange=124:129
+16	distorcao	distorcao	NOUN	NOUN	_	14	obj	_	TokenRange=130:139
+17	fiscal	fiscal	ADJ	ADJ	_	16	amod	_	TokenRange=140:146
+18	brasil	brasil	NOUN	NOUN	_	19	nsubj	_	TokenRange=147:153
+19	reduza	reduzir	VERB	VERB	_	4	parataxis	_	TokenRange=154:160
+20	barreiras	barreira	NOUN	NOUN	_	19	obj	_	TokenRange=161:170
+21	comerciais	comercial	ADJ	ADJ	_	20	amod	_	TokenRange=171:181
+22	londres	londr	ADJ	ADJ	_	23	amod	_	TokenRange=182:189
+23	organizacao	organizacao	NOUN	NOUN	_	19	nsubj	_	TokenRange=190:201
+24	cooperacao	cooperacao	ADJ	ADJ	_	23	amod	_	TokenRange=202:212
+25	desenvolvimento	desenvolvimento	NOUN	NOUN	_	23	appos	_	TokenRange=213:228
+26	economico	economico	ADJ	ADJ	_	25	amod	_	TokenRange=229:238
+27	ocde	ocde	NOUN	NOUN	_	29	nsubj	_	TokenRange=239:243
+28	volta	volta	NOUN	NOUN	_	29	nsubj	_	TokenRange=244:249
+29	ressaltar	ressaltar	VERB	VERB	_	19	parataxis	_	TokenRange=250:259
+30	necessidade	necessidade	NOUN	NOUN	_	29	obj	_	TokenRange=260:271
+31	reformas	reforma	NOUN	NOUN	_	30	appos	_	TokenRange=272:280
+32	politica	_	NOUN	NOUN	_	30	appos	_	TokenRange=281:289
+33	economica	economico	ADJ	ADJ	_	32	amod	_	TokenRange=290:299
+34	todo	_	DET	DET	_	35	det	_	TokenRange=300:304
+35	mundo	mundo	NOUN	NOUN	_	30	nmod	_	TokenRange=305:310
+36	2018	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=311:315
+37	relatorio	relatorio	NOUN	NOUN	_	29	obj	_	TokenRange=316:325
+38	going	_	NOUN	NOUN	_	37	appos	_	TokenRange=326:331
+39	growth	_	NOUN	NOUN	_	38	flat	_	TokenRange=332:338
+40	caminho	caminho	NOUN	NOUN	_	37	appos	_	TokenRange=339:346
+41	crescimento	crescimento	NOUN	NOUN	_	38	flat	_	TokenRange=347:358
+42	apresentado	apresentar	VERB	VERB	_	37	acl	_	TokenRange=359:370
+43	nesta	_	ADP	ADP	_	44	case	_	TokenRange=371:376
+44	segundafeira	_	NOUN	NOUN	_	42	nmod	_	TokenRange=377:389
+45	19	_	NUM	NUM	NumType=Card	44	appos	_	TokenRange=390:392
+46	buenos	bueno	ADJ	ADJ	_	47	amod	_	TokenRange=393:399
+47	aires	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=400:405
+48	presidentes	presidente	NOUN	NOUN	_	47	appos	_	TokenRange=406:417
+49	bancos	banco	NOUN	NOUN	_	47	appos	_	TokenRange=418:424
+50	centrais	central	ADJ	ADJ	_	49	amod	_	TokenRange=425:433
+51	ministro	ministro	NOUN	NOUN	_	47	appos	_	TokenRange=434:442
+52	financas	_	ADJ	ADJ	_	51	amod	_	TokenRange=443:451
+53	g20	_	NUM	NUM	NumType=Card	51	appos	_	TokenRange=452:455
+54	grupo	grupo	NOUN	NOUN	_	51	appos	_	TokenRange=456:461
+55	20	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=462:464
+56	maiores	maior	ADJ	ADJ	_	57	amod	_	TokenRange=465:472
+57	economias	economia	NOUN	NOUN	_	54	appos	_	TokenRange=473:482
+58	globo	globo	NOUN	NOUN	_	57	appos	_	TokenRange=483:488
+59	instituicao	instituicao	NOUN	NOUN	_	57	appos	_	TokenRange=489:500
+60	sede	sede	NOUN	NOUN	_	59	appos	_	TokenRange=501:505
+61	paris	_	ADJ	ADJ	_	59	flat	_	TokenRange=506:511
+62	analisa	analisar	VERB	VERB	_	4	parataxis	_	TokenRange=512:519
+63	paises	paise	NOUN	NOUN	_	62	obj	_	TokenRange=520:526
+64	fizeram	fazer	VERB	VERB	_	62	ccomp	_	TokenRange=527:534
+65	termos	termo	NOUN	NOUN	_	64	obj	_	TokenRange=535:541
+66	reformas	reforma	NOUN	NOUN	_	64	obj	_	TokenRange=542:550
+67	impulsionar	impulsionar	VERB	VERB	_	63	acl:inf	_	TokenRange=551:562
+68	crescimento	crescimento	NOUN	NOUN	_	67	obj	_	TokenRange=563:574
+69	longo	longo	ADJ	ADJ	_	70	amod	_	TokenRange=575:580
+70	prazo	prazo	NOUN	NOUN	_	68	flat	_	TokenRange=581:586
+71	melhorar	melhorar	VERB	VERB	_	67	ccomp	_	TokenRange=587:595
+72	competitividade	competitividade	NOUN	NOUN	_	71	obj	_	TokenRange=596:611
+73	produtividade	produtividade	NOUN	NOUN	_	72	amod	_	TokenRange=612:625
+74	criar	criar	VERB	VERB	_	71	ccomp	_	TokenRange=626:631
+75	empregos	emprego	NOUN	NOUN	_	76	obj	_	TokenRange=632:640
+76	garantir	garantir	VERB	VERB	_	72	acl:inf	_	TokenRange=641:649
+77	ganhos	ganho	NOUN	NOUN	_	76	obj	_	TokenRange=650:656
+78	economicos	economico	ADJ	ADJ	_	77	amod	_	SpaceAfter=No|TokenRange=657:667
+

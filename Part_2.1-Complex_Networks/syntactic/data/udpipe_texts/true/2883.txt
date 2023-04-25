@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = divirtase celebra centesima edicao 100 programas irresistiveis paulo confira dicas restaurantes bares lojas padarias museus festas muitos outros apontados jornalistas guia semanal estado marcar centesima edicao abusamos superlativos tributo cidade cobrimos carinhosa apaixonadamente veja relacao 100 lugares indicamos pedroso cola fnac fica inicio mesma rua sete sebos atraem leitores apaixonados paginas amareladas nessas lojas encontra joias coletanea 1992 traz hq escrita federico fellini ilustrada milo manara r 20 ramon vitral av pedroso morais pinheiros alberta 3 aqui toca rock preferencia novo sabido djs transgressores arriscaram eletronico
+1	divirtase	divirtase	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	celebra	celebrar	VERB	VERB	_	0	root	_	TokenRange=10:17
+3	centesima	centesimo	ADJ	ADJ	_	4	amod	_	TokenRange=18:27
+4	edicao	edicao	NOUN	NOUN	_	2	obj	_	TokenRange=28:34
+5	100	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=35:38
+6	programas	programa	NOUN	NOUN	_	2	obj	_	TokenRange=39:48
+7	irresistiveis	irresistivel	ADJ	ADJ	_	6	amod	_	TokenRange=49:62
+8	paulo	paulo	NOUN	NOUN	_	9	nsubj	_	TokenRange=63:68
+9	confira	conferir	VERB	VERB	_	6	acl:relcl	_	TokenRange=69:76
+10	dicas	dica	NOUN	NOUN	_	9	obj	_	TokenRange=77:82
+11	restaurantes	restaurante	NOUN	NOUN	_	9	obj	_	TokenRange=83:95
+12	bares	bar	ADJ	ADJ	_	13	amod	_	TokenRange=96:101
+13	lojas	loja	NOUN	NOUN	_	9	obj	_	TokenRange=102:107
+14	padarias	padario	ADJ	ADJ	_	13	amod	_	TokenRange=108:116
+15	museus	museu	NOUN	NOUN	_	13	appos	_	TokenRange=117:123
+16	festas	festa	ADJ	ADJ	_	15	amod	_	TokenRange=124:130
+17	muitos	_	DET	DET	_	20	det	_	TokenRange=131:137
+18	outros	_	DET	DET	_	20	det	_	TokenRange=138:144
+19	apontados	apontado	ADJ	ADJ	_	21	amod	_	TokenRange=145:154
+20	jornalistas	jornalista	NOUN	NOUN	_	21	amod	_	TokenRange=155:166
+21	guia	guia	NOUN	NOUN	_	27	nsubj	_	TokenRange=167:171
+22	semanal	semanal	ADJ	ADJ	_	21	amod	_	TokenRange=172:179
+23	estado	estado	NOUN	NOUN	_	21	amod	_	TokenRange=180:186
+24	marcar	marcar	VERB	VERB	_	21	acl:relcl	_	TokenRange=187:193
+25	centesima	_	ADJ	ADJ	_	26	amod	_	TokenRange=194:203
+26	edicao	edicao	NOUN	NOUN	_	24	obj	_	TokenRange=204:210
+27	abusamos	abusar	VERB	VERB	_	9	parataxis	_	TokenRange=211:219
+28	superlativos	_	NOUN	NOUN	_	27	obj	_	TokenRange=220:232
+29	tributo	tributo	NOUN	NOUN	_	27	obj	_	TokenRange=233:240
+30	cidade	cidade	NOUN	NOUN	_	29	flat	_	TokenRange=241:247
+31	cobrimos	cobrir	VERB	VERB	_	28	acl:relcl	_	TokenRange=248:256
+32	carinhosa	carinhoso	ADJ	ADJ	_	31	xcomp	_	TokenRange=257:266
+33	apaixonadamente	apaixonadamente	ADV	ADV	_	34	advmod	_	TokenRange=267:282
+34	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=283:287
+35	relacao	relacao	NOUN	NOUN	_	34	obj	_	TokenRange=288:295
+36	100	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=296:299
+37	lugares	lugar	NOUN	NOUN	_	38	nsubj	_	TokenRange=300:307
+38	indicamos	indicar	VERB	VERB	_	35	acl:relcl	_	TokenRange=308:317
+39	pedroso	pedroso	ADJ	ADJ	_	38	xcomp	_	TokenRange=318:325
+40	cola	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=326:330
+41	fnac	_	NOUN	NOUN	_	40	flat	_	TokenRange=331:335
+42	fica	ficar	VERB	VERB	_	38	parataxis	_	TokenRange=336:340
+43	inicio	_	ADJ	NOUN	_	42	nsubj	_	TokenRange=341:347
+44	mesma	mesmo	ADJ	ADJ	_	45	amod	_	TokenRange=348:353
+45	rua	rua	NOUN	NOUN	_	48	nsubj	_	TokenRange=354:357
+46	sete	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=358:362
+47	sebos	sebo	NOUN	NOUN	_	48	nsubj	_	TokenRange=363:368
+48	atraem	atrair	VERB	VERB	_	38	parataxis	_	TokenRange=369:375
+49	leitores	leitor	NOUN	NOUN	_	48	obj	_	TokenRange=376:384
+50	apaixonados	apaixonado	ADJ	ADJ	_	49	amod	_	TokenRange=385:396
+51	paginas	pagina	NOUN	NOUN	_	48	nsubj	_	TokenRange=397:404
+52	amareladas	amarelado	ADJ	ADJ	_	51	amod	_	TokenRange=405:415
+53	nessas	_	ADP	ADP	_	54	case	_	TokenRange=416:422
+54	lojas	loja	NOUN	NOUN	_	55	nmod	_	TokenRange=423:428
+55	encontra	encontrar	VERB	VERB	_	56	acl:relcl	_	TokenRange=429:437
+56	joias	joia	NOUN	NOUN	_	48	obj	_	TokenRange=438:443
+57	coletanea	coletanea	NOUN	NOUN	_	56	appos	_	TokenRange=444:453
+58	1992	_	NUM	NUM	NumType=Card	59	appos	_	TokenRange=454:458
+59	traz	trazer	NOUN	NOUN	_	56	appos	_	TokenRange=459:463
+60	hq	_	NOUN	NOUN	_	59	flat	_	TokenRange=464:466
+61	escrita	escrever	VERB	VERB	_	56	acl	_	TokenRange=467:474
+62	federico	federico	NOUN	NOUN	_	61	nsubj	_	TokenRange=475:483
+63	fellini	_	NOUN	NOUN	_	62	flat	_	TokenRange=484:491
+64	ilustrada	ilustrado	ADJ	ADJ	_	62	amod	_	TokenRange=492:501
+65	milo	_	NOUN	NOUN	_	56	appos	_	TokenRange=502:506
+66	manara	manar	NOUN	NOUN	_	65	flat	_	TokenRange=507:513
+67	r	r	NOUN	NOUN	_	65	appos	_	TokenRange=514:515
+68	20	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=516:518
+69	ramon	_	NOUN	NOUN	_	65	appos	_	TokenRange=519:524
+70	vitral	vitral	ADJ	ADJ	_	69	amod	_	TokenRange=525:531
+71	av	_	ADP	ADP	_	72	case	_	TokenRange=532:534
+72	pedroso	pedroso	NOUN	NOUN	_	69	appos	_	TokenRange=535:542
+73	morais	moral	ADJ	ADJ	_	72	amod	_	TokenRange=543:549
+74	pinheiros	pinheiro	NOUN	NOUN	_	72	amod	_	TokenRange=550:559
+75	alberta	alberta	NOUN	NOUN	_	72	appos	_	TokenRange=560:567
+76	3	_	NUM	NUM	NumType=Card	75	appos	_	TokenRange=568:569
+77	aqui	aqui	ADV	ADV	_	78	advmod	_	TokenRange=570:574
+78	toca	tocar	VERB	VERB	_	85	parataxis	_	TokenRange=575:579
+79	rock	rock	NOUN	NOUN	_	78	obj	_	TokenRange=580:584
+80	preferencia	_	NOUN	NOUN	_	85	obj	_	TokenRange=585:596
+81	novo	novo	ADJ	ADJ	_	83	amod	_	TokenRange=597:601
+82	sabido	sabido	ADJ	ADJ	_	85	xcomp	_	TokenRange=602:608
+83	djs	_	NOUN	NOUN	_	85	nsubj	_	TokenRange=609:612
+84	transgressores	transgressor	NOUN	NOUN	_	83	flat	_	TokenRange=613:627
+85	arriscaram	arriscar	VERB	VERB	_	2	conj	_	TokenRange=628:638
+86	eletronico	eletronico	ADJ	ADJ	_	85	xcomp	_	SpaceAfter=No|TokenRange=639:649
+

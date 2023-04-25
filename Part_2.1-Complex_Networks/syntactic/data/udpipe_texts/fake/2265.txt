@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = professor beluzzo fala senado define dilma treinador nocaute proprio lutador luiz gonzaga beluzzo economista professor titular unicamp falando neste momento plenario senado beluzzo testemunha processo impeachment dilma rousseff veja definiu economia gerida dilma anos 2014 2015 comparo treinador boxe lutador cai ringue treinador vai socorrelo porem inves reanimalo soco exatamente dima fez economia pegou ruim 2014 conseguiu piorar 2015
+1	professor	professor	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	beluzzo	beluzzo	NOUN	NOUN	_	1	flat	_	TokenRange=10:17
+3	fala	_	VERB	VERB	_	0	root	_	TokenRange=18:22
+4	senado	senado	NOUN	NOUN	_	3	obj	_	TokenRange=23:29
+5	define	definir	VERB	VERB	_	3	parataxis	_	TokenRange=30:36
+6	dilma	dilma	NOUN	NOUN	_	5	obj	_	TokenRange=37:42
+7	treinador	treinador	NOUN	NOUN	_	6	flat	_	TokenRange=43:52
+8	nocaute	nocaute	NOUN	NOUN	_	6	appos	_	TokenRange=53:60
+9	proprio	proprio	ADJ	ADJ	_	10	amod	_	TokenRange=61:68
+10	lutador	lutador	NOUN	NOUN	_	6	appos	_	TokenRange=69:76
+11	luiz	luiz	NOUN	NOUN	_	10	appos	_	TokenRange=77:81
+12	gonzaga	gonzaga	NOUN	NOUN	_	13	flat	_	TokenRange=82:89
+13	beluzzo	beluzzo	NOUN	NOUN	_	11	flat	_	TokenRange=90:97
+14	economista	economista	ADJ	ADJ	_	15	amod	_	TokenRange=98:108
+15	professor	professor	NOUN	NOUN	_	13	appos	_	TokenRange=109:118
+16	titular	titular	ADJ	ADJ	_	15	amod	_	TokenRange=119:126
+17	unicamp	unicamp	NOUN	NOUN	_	15	appos	_	TokenRange=127:134
+18	falando	falar	VERB	VERB	_	15	acl	_	TokenRange=135:142
+19	neste	_	ADP	ADP	_	20	case	_	TokenRange=143:148
+20	momento	momento	NOUN	NOUN	_	18	nmod	_	TokenRange=149:156
+21	plenario	plenario	ADJ	ADJ	_	20	amod	_	TokenRange=157:165
+22	senado	senado	NOUN	NOUN	_	24	nsubj	_	TokenRange=166:172
+23	beluzzo	_	NOUN	NOUN	_	22	amod	_	TokenRange=173:180
+24	testemunha	testemunha	VERB	VERB	_	5	parataxis	_	TokenRange=181:191
+25	processo	processo	NOUN	NOUN	_	24	obj	_	TokenRange=192:200
+26	impeachment	impeachment	NOUN	NOUN	_	25	flat	_	TokenRange=201:212
+27	dilma	dilma	NOUN	NOUN	_	25	appos	_	TokenRange=213:218
+28	rousseff	rousseff	NOUN	NOUN	_	27	flat	_	TokenRange=219:227
+29	veja	veja	NOUN	NOUN	_	30	nsubj	_	TokenRange=228:232
+30	definiu	definir	VERB	VERB	_	24	parataxis	_	TokenRange=233:240
+31	economia	economia	NOUN	NOUN	_	30	obj	_	TokenRange=241:249
+32	gerida	gerido	ADJ	ADJ	_	31	amod	_	TokenRange=250:256
+33	dilma	_	ADP	ADP	_	30	nmod	_	TokenRange=257:262
+34	anos	ano	NOUN	NOUN	_	30	nmod	_	TokenRange=263:267
+35	2014	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=268:272
+36	2015	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=273:277
+37	comparo	comparo	VERB	VERB	_	30	parataxis	_	TokenRange=278:285
+38	treinador	treinador	NOUN	NOUN	_	37	appos	_	TokenRange=286:295
+39	boxe	boxe	NOUN	NOUN	_	38	appos	_	TokenRange=296:300
+40	lutador	lutador	NOUN	NOUN	_	41	flat	_	TokenRange=301:308
+41	cai	cair	VERB	VERB	_	37	conj	_	TokenRange=309:312
+42	ringue	ringue	NOUN	NOUN	_	41	obj	_	TokenRange=313:319
+43	treinador	treinador	NOUN	NOUN	_	41	nsubj	_	TokenRange=320:329
+44	vai	ir	AUX	AUX	_	45	aux	_	TokenRange=330:333
+45	socorrelo	socorrelo	VERB	VERB	_	41	conj	_	TokenRange=334:343
+46	porem	_	CCONJ	CONJ	_	45	mark	_	TokenRange=344:349
+47	inves	_	ADJ	ADV	_	48	advmod	_	TokenRange=350:355
+48	reanimalo	_	VERB	VERB	_	45	nsubj	_	TokenRange=356:365
+49	soco	socar	VERB	VERB	_	52	obj	_	TokenRange=366:370
+50	exatamente	exatamente	ADV	ADV	_	52	advmod	_	TokenRange=371:381
+51	dima	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=382:386
+52	fez	fazer	VERB	VERB	_	45	conj	_	TokenRange=387:390
+53	economia	economia	NOUN	NOUN	_	52	obj	_	TokenRange=391:399
+54	pegou	pegar	VERB	VERB	_	52	ccomp	_	TokenRange=400:405
+55	ruim	ruim	ADV	ADV	_	58	advmod	_	TokenRange=406:410
+56	2014	_	NUM	NUM	NumType=Card	58	nsubj	_	TokenRange=411:415
+57	conseguiu	conseguir	VERB	VERB	_	54	conj	_	TokenRange=416:425
+58	piorar	piorar	VERB	VERB	_	57	xcomp	_	TokenRange=426:432
+59	2015	_	NUM	NUM	NumType=Card	58	nmod	_	SpaceAfter=No|TokenRange=433:437
+

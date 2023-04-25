@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tercafeira 27 marco bom dia aqui principais assuntos comecar dia beminformado lider governo senado presidente nacional mdb romero juca pode tornar reu empresario jorge gerdau stf camara conselho etica pode analisar denuncias contra deputados presos paulo maluf celso jacob joao rodrigues lucio vieira lima irmao geddel futebol brasil faz amistoso contra alemanha berlim 1 encontro selecoes apos 7
+1	tercafeira	tercafeira	NOUN	NOUN	_	22	parataxis	_	TokenRange=0:10
+2	27	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=11:13
+3	marco	marco	NOUN	NOUN	_	1	nmod	_	TokenRange=14:19
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=20:23
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=24:27
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=28:32
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=33:43
+8	assuntos	assunto	NOUN	NOUN	_	1	appos	_	TokenRange=44:52
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=53:60
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=61:64
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=65:77
+12	lider	lider	NOUN	NOUN	_	22	appos	_	TokenRange=78:83
+13	governo	governo	NOUN	NOUN	_	12	flat	_	TokenRange=84:91
+14	senado	senado	NOUN	NOUN	_	15	amod	_	TokenRange=92:98
+15	presidente	presidente	NOUN	NOUN	_	12	appos	_	TokenRange=99:109
+16	nacional	nacional	ADJ	ADJ	_	15	amod	_	TokenRange=110:118
+17	mdb	_	NOUN	NOUN	_	15	appos	_	TokenRange=119:122
+18	romero	romero	NOUN	NOUN	_	17	appos	_	TokenRange=123:129
+19	juca	_	NOUN	NOUN	_	17	flat	_	TokenRange=130:134
+20	pode	_	AUX	AUX	_	22	aux	_	TokenRange=135:139
+21	tornar	tornar	AUX	AUX	_	22	cop	_	TokenRange=140:146
+22	reu	_	NOUN	NOUN	_	0	root	_	TokenRange=147:150
+23	empresario	empresario	NOUN	NOUN	_	22	flat	_	TokenRange=151:161
+24	jorge	jorge	NOUN	NOUN	_	23	appos	_	TokenRange=162:167
+25	gerdau	gerdau	NOUN	NOUN	_	24	flat	_	TokenRange=168:174
+26	stf	_	NOUN	NOUN	_	23	appos	_	TokenRange=175:178
+27	camara	camara	NOUN	NOUN	_	24	flat	_	TokenRange=179:185
+28	conselho	conselho	NOUN	NOUN	_	27	appos	_	TokenRange=186:194
+29	etica	etico	ADJ	ADJ	_	28	amod	_	TokenRange=195:200
+30	pode	_	AUX	AUX	_	31	aux	_	TokenRange=201:205
+31	analisar	analisar	VERB	VERB	_	22	conj	_	TokenRange=206:214
+32	denuncias	_	NOUN	NOUN	_	31	obj	_	TokenRange=215:224
+33	contra	_	ADP	ADP	_	34	case	_	TokenRange=225:231
+34	deputados	deputado	NOUN	NOUN	_	32	nmod	_	TokenRange=232:241
+35	presos	preso	ADJ	ADJ	_	34	amod	_	TokenRange=242:248
+36	paulo	paulo	NOUN	NOUN	_	31	nmod	_	TokenRange=249:254
+37	maluf	_	NOUN	NOUN	_	34	appos	_	TokenRange=255:260
+38	celso	_	NOUN	NOUN	_	37	appos	_	TokenRange=261:266
+39	jacob	_	NOUN	NOUN	_	38	flat	_	TokenRange=267:272
+40	joao	joao	NOUN	NOUN	_	37	flat	_	TokenRange=273:277
+41	rodrigues	_	NOUN	NOUN	_	42	flat	_	TokenRange=278:287
+42	lucio	_	NOUN	NOUN	_	37	appos	_	TokenRange=288:293
+43	vieira	vieira	NOUN	NOUN	_	42	flat	_	TokenRange=294:300
+44	lima	lima	ADJ	ADJ	_	45	amod	_	TokenRange=301:305
+45	irmao	irmao	NOUN	NOUN	_	42	appos	_	TokenRange=306:311
+46	geddel	_	ADJ	ADJ	_	45	amod	_	TokenRange=312:318
+47	futebol	futebol	NOUN	NOUN	_	45	appos	_	TokenRange=319:326
+48	brasil	brasil	ADJ	ADJ	_	47	amod	_	TokenRange=327:333
+49	faz	fazer	VERB	VERB	_	31	parataxis	_	TokenRange=334:337
+50	amistoso	_	NOUN	NOUN	_	49	obj	_	TokenRange=338:346
+51	contra	_	ADP	ADP	_	52	case	_	TokenRange=347:353
+52	alemanha	alemanha	NOUN	NOUN	_	50	nmod	_	TokenRange=354:362
+53	berlim	berlim	ADJ	ADJ	_	52	amod	_	TokenRange=363:369
+54	1	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=370:371
+55	encontro	encontro	NOUN	NOUN	_	49	obj	_	TokenRange=372:380
+56	selecoes	_	NOUN	NOUN	_	55	appos	_	TokenRange=381:389
+57	apos	_	ADP	ADP	_	58	case	_	TokenRange=390:394
+58	7	_	NUM	NUM	NumType=Card	55	nmod	_	SpaceAfter=No|TokenRange=395:396
+

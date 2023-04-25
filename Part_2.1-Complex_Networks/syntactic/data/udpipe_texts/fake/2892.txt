@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = autora impeachment pedaladas fiscais maior fraude vi vida dra janaina paschoal sobre pedaladas fiscais senado comecou avisando aqui pra fazer bonito pra partido nenhum aqui pra falar sobre denuncia pedaladas fiscais maior fraude vi vida faz 20 anos advogo crime nunca vi nada igual debito r 204 bilhoes
+1	autora	autor	NOUN	NOUN	_	17	nsubj	_	TokenRange=0:6
+2	impeachment	impeachment	NOUN	NOUN	_	1	flat	_	TokenRange=7:18
+3	pedaladas	pedalada	NOUN	NOUN	_	1	appos	_	TokenRange=19:28
+4	fiscais	fiscal	ADJ	ADJ	_	3	amod	_	TokenRange=29:36
+5	maior	maior	ADJ	ADJ	_	6	amod	_	TokenRange=37:42
+6	fraude	fraude	NOUN	NOUN	_	1	appos	_	TokenRange=43:49
+7	vi	_	DET	DET	_	8	det	_	TokenRange=50:52
+8	vida	vida	NOUN	NOUN	_	6	appos	_	TokenRange=53:57
+9	dra	_	NOUN	NOUN	_	6	appos	_	TokenRange=58:61
+10	janaina	_	NOUN	NOUN	_	9	flat	_	TokenRange=62:69
+11	paschoal	_	ADJ	ADJ	_	9	flat	_	TokenRange=70:78
+12	sobre	_	ADP	ADP	_	13	case	_	TokenRange=79:84
+13	pedaladas	pedalada	NOUN	NOUN	_	6	nmod	_	TokenRange=85:94
+14	fiscais	fiscal	ADJ	ADJ	_	13	amod	_	TokenRange=95:102
+15	senado	senado	NOUN	NOUN	_	13	appos	_	TokenRange=103:109
+16	comecou	comecar	AUX	AUX	_	17	aux	_	TokenRange=110:117
+17	avisando	avisar	VERB	VERB	_	0	root	_	TokenRange=118:126
+18	aqui	aqui	ADV	ADV	_	17	advmod	_	TokenRange=127:131
+19	pra	_	ADP	ADP	_	20	mark	_	TokenRange=132:135
+20	fazer	fazer	VERB	VERB	_	17	advcl	_	TokenRange=136:141
+21	bonito	bonito	ADJ	ADJ	_	20	xcomp	_	TokenRange=142:148
+22	pra	_	ADP	ADP	_	23	case	_	TokenRange=149:152
+23	partido	partido	NOUN	NOUN	_	20	nmod	_	TokenRange=153:160
+24	nenhum	_	DET	DET	_	23	det	_	TokenRange=161:167
+25	aqui	aqui	ADV	ADV	_	17	advmod	_	TokenRange=168:172
+26	pra	_	ADP	ADP	_	27	mark	_	TokenRange=173:176
+27	falar	falar	VERB	VERB	_	17	advcl	_	TokenRange=177:182
+28	sobre	_	ADP	ADP	_	29	case	_	TokenRange=183:188
+29	denuncia	denuncia	NOUN	NOUN	_	27	nmod	_	TokenRange=189:197
+30	pedaladas	pedalada	NOUN	NOUN	_	29	appos	_	TokenRange=198:207
+31	fiscais	fiscal	ADJ	ADJ	_	33	amod	_	TokenRange=208:215
+32	maior	maior	ADJ	ADJ	_	33	amod	_	TokenRange=216:221
+33	fraude	fraude	NOUN	NOUN	_	36	nsubj	_	TokenRange=222:228
+34	vi	_	DET	DET	_	35	det	_	TokenRange=229:231
+35	vida	vida	NOUN	NOUN	_	36	nsubj	_	TokenRange=232:236
+36	faz	fazer	VERB	VERB	_	27	parataxis	_	TokenRange=237:240
+37	20	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=241:243
+38	anos	ano	NOUN	NOUN	_	36	nmod	_	TokenRange=244:248
+39	advogo	advogo	NOUN	NOUN	_	36	obj	_	TokenRange=249:255
+40	crime	crime	NOUN	NOUN	_	39	flat	_	TokenRange=256:261
+41	nunca	nunca	ADV	ADV	_	42	advmod	_	TokenRange=262:267
+42	vi	_	VERB	VERB	_	36	parataxis	_	TokenRange=268:270
+43	nada	_	PRON	PRON	_	42	obj	_	TokenRange=271:275
+44	igual	igual	ADJ	ADJ	_	45	amod	_	TokenRange=276:281
+45	debito	debito	NOUN	NOUN	_	42	obj	_	TokenRange=282:288
+46	r	r	NOUN	NOUN	_	45	appos	_	TokenRange=289:290
+47	204	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=291:294
+48	bilhoes	_	NUM	NUM	NumType=Card	46	nummod	_	SpaceAfter=No|TokenRange=295:302
+

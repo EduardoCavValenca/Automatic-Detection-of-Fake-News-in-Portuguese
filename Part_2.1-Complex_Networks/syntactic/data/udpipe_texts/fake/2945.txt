@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = agencia brasileira inteligencia confirma ameacas estado islamico brasil proximo alvo terrorista chamado terrorista daesh postou conta twitter ameaca brasil diretor agencia inteligencia tratou possiveis ameacas terroristas jogos olimpicos rio 2016 riscos quais brasil exposto mensagem brasil proximo alvo postada novembro/2015 logo apos atentados deixaram 129 mortos franca somente hoje 14 abin agencia brasileira inteligenciaconfirmou autenticidade mensagem abin adotado acoes evitar possiveis ataques terroristas intercambio informacoes servicos estrangeiros capacitacao profissionais setores estrategicos trabalhos orgaos integrantes sistema brasileiro inteligencia via veja
+1	agencia	agencia	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	brasileira	brasileiro	ADJ	ADJ	_	1	amod	_	TokenRange=8:18
+3	inteligencia	inteligencia	NOUN	NOUN	_	1	appos	_	TokenRange=19:31
+4	confirma	confirmar	VERB	VERB	_	0	root	_	TokenRange=32:40
+5	ameacas	ameaca	NOUN	NOUN	_	4	obj	_	TokenRange=41:48
+6	estado	estado	NOUN	NOUN	_	5	appos	_	TokenRange=49:55
+7	islamico	islamico	ADJ	ADJ	_	6	amod	_	TokenRange=56:64
+8	brasil	brasil	ADJ	ADJ	_	5	amod	_	TokenRange=65:71
+9	proximo	proximo	ADJ	ADJ	_	10	amod	_	TokenRange=72:79
+10	alvo	alvo	NOUN	NOUN	_	4	appos	_	TokenRange=80:84
+11	terrorista	terrorista	ADJ	ADJ	_	10	amod	_	TokenRange=85:95
+12	chamado	chamar	AUX	AUX	_	13	cop	_	TokenRange=96:103
+13	terrorista	terrorista	NOUN	NOUN	_	10	acl	_	TokenRange=104:114
+14	daesh	_	NOUN	NOUN	_	13	flat	_	TokenRange=115:120
+15	postou	postar	VERB	VERB	_	4	parataxis	_	TokenRange=121:127
+16	conta	conta	NOUN	NOUN	_	15	obj	_	TokenRange=128:133
+17	twitter	_	PROPN	PNOUN	_	16	appos	_	TokenRange=134:141
+18	ameaca	ameaca	NOUN	NOUN	_	15	nsubj	_	TokenRange=142:148
+19	brasil	brasil	ADJ	ADJ	_	18	amod	_	TokenRange=149:155
+20	diretor	diretor	NOUN	NOUN	_	18	appos	_	TokenRange=156:163
+21	agencia	agencia	NOUN	NOUN	_	18	appos	_	TokenRange=164:171
+22	inteligencia	inteligencia	ADJ	ADJ	_	21	amod	_	TokenRange=172:184
+23	tratou	tratar	VERB	VERB	_	4	parataxis	_	TokenRange=185:191
+24	possiveis	_	ADJ	ADJ	_	25	amod	_	TokenRange=192:201
+25	ameacas	ameaca	NOUN	NOUN	_	23	obj	_	TokenRange=202:209
+26	terroristas	terrorista	ADJ	ADJ	_	25	amod	_	TokenRange=210:221
+27	jogos	jogo	NOUN	NOUN	_	25	appos	_	TokenRange=222:227
+28	olimpicos	olimpico	ADJ	ADJ	_	27	amod	_	TokenRange=228:237
+29	rio	rio	NOUN	NOUN	_	27	nmod	_	TokenRange=238:241
+30	2016	_	NUM	NUM	NumType=Card	29	nmod	_	TokenRange=242:246
+31	riscos	risco	NOUN	NOUN	_	23	nmod	_	TokenRange=247:253
+32	quais	_	PRON	PRON	_	34	nsubj	_	TokenRange=254:259
+33	brasil	brasil	NOUN	NOUN	_	34	nsubj	_	TokenRange=260:266
+34	exposto	expor	ADJ	ADJ	_	31	acl:relcl	_	TokenRange=267:274
+35	mensagem	mensagem	NOUN	NOUN	_	23	obj	_	TokenRange=275:283
+36	brasil	brasil	ADJ	ADJ	_	35	amod	_	TokenRange=284:290
+37	proximo	proximo	ADJ	ADJ	_	38	amod	_	TokenRange=291:298
+38	alvo	alvo	NOUN	NOUN	_	35	appos	_	TokenRange=299:303
+39	postada	postar	VERB	VERB	_	38	acl	_	TokenRange=304:311
+40	novembro/2015	_	NUM	NUM	_	44	nmod	_	TokenRange=312:325
+41	logo	logo	ADV	ADV	_	44	advmod	_	TokenRange=326:330
+42	apos	_	ADP	ADP	_	43	case	_	TokenRange=331:335
+43	atentados	atentado	NOUN	NOUN	_	44	nmod	_	TokenRange=336:345
+44	deixaram	deixar	VERB	VERB	_	23	parataxis	_	TokenRange=346:354
+45	129	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=355:358
+46	mortos	morto	NOUN	NOUN	_	44	obj	_	TokenRange=359:365
+47	franca	franco	ADJ	ADJ	_	46	amod	_	TokenRange=366:372
+48	somente	somente	ADV	ADV	_	49	advmod	_	TokenRange=373:380
+49	hoje	hoje	ADV	ADV	_	44	advmod	_	TokenRange=381:385
+50	14	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=386:388
+51	abin	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=389:393
+52	agencia	agencia	NOUN	NOUN	_	51	appos	_	TokenRange=394:401
+53	brasileira	brasileiro	ADJ	ADJ	_	52	amod	_	TokenRange=402:412
+54	inteligenciaconfirmou	inteligenciaconfirmar	VERB	VERB	_	44	parataxis	_	TokenRange=413:434
+55	autenticidade	autenticidade	NOUN	NOUN	_	54	obj	_	TokenRange=435:448
+56	mensagem	mensagem	NOUN	NOUN	_	54	obj	_	TokenRange=449:457
+57	abin	_	NOUN	NOUN	_	56	flat	_	TokenRange=458:462
+58	adotado	adotar	VERB	VERB	_	56	acl	_	TokenRange=463:470
+59	acoes	acoe	NOUN	NOUN	_	58	obj	_	TokenRange=471:476
+60	evitar	evitar	VERB	VERB	_	56	acl:inf	_	TokenRange=477:483
+61	possiveis	_	ADJ	ADJ	_	62	amod	_	TokenRange=484:493
+62	ataques	ataque	NOUN	NOUN	_	60	obj	_	TokenRange=494:501
+63	terroristas	terrorista	ADJ	ADJ	_	62	amod	_	TokenRange=502:513
+64	intercambio	intercambio	VERB	VERB	_	54	parataxis	_	TokenRange=514:525
+65	informacoes	informacoe	NOUN	NOUN	_	64	obj	_	TokenRange=526:537
+66	servicos	servico	NOUN	NOUN	_	65	appos	_	TokenRange=538:546
+67	estrangeiros	estrangeiro	ADJ	ADJ	_	66	amod	_	TokenRange=547:559
+68	capacitacao	capacitacao	ADJ	ADJ	_	70	amod	_	TokenRange=560:571
+69	profissionais	profissional	ADJ	ADJ	_	70	amod	_	TokenRange=572:585
+70	setores	setor	NOUN	NOUN	_	66	appos	_	TokenRange=586:593
+71	estrategicos	estrategico	ADJ	ADJ	_	70	amod	_	TokenRange=594:606
+72	trabalhos	trabalho	ADJ	ADJ	_	70	amod	_	TokenRange=607:616
+73	orgaos	orgao	NOUN	NOUN	_	70	appos	_	TokenRange=617:623
+74	integrantes	integrante	ADJ	ADJ	_	73	amod	_	TokenRange=624:635
+75	sistema	sistema	NOUN	NOUN	_	70	appos	_	TokenRange=636:643
+76	brasileiro	brasileiro	ADJ	ADJ	_	75	amod	_	TokenRange=644:654
+77	inteligencia	inteligencia	NOUN	NOUN	_	75	appos	_	TokenRange=655:667
+78	via	_	ADP	ADP	_	79	mark	_	TokenRange=668:671
+79	veja	ver	NOUN	NOUN	_	64	nmod	_	SpaceAfter=No|TokenRange=672:676
+

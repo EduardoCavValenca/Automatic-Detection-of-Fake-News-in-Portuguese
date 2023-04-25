@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente cut diz vai usar forca tirar manifestantes frente congresso presidente cut wagner freitas ameacou tarde hoje 20 tirar forca cidadaos brasileiros lutam direitos acampamentos instalados frente congresso nacional freitas enfatico declarou fizemos acordo renan calheiros eduardo cunha retirar pessoas vamos la tirar
+1	presidente	presidente	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	cut	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:14
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=15:18
+4	vai	ir	AUX	AUX	_	5	aux	_	TokenRange=19:22
+5	usar	usar	VERB	VERB	_	3	ccomp	_	TokenRange=23:27
+6	forca	forca	NOUN	NOUN	_	5	obj	_	TokenRange=28:33
+7	tirar	tirar	VERB	VERB	_	5	ccomp	_	TokenRange=34:39
+8	manifestantes	manifestante	NOUN	NOUN	_	7	obj	_	TokenRange=40:53
+9	frente	frente	NOUN	NOUN	_	8	appos	_	TokenRange=54:60
+10	congresso	congresso	ADJ	NOUN	_	11	amod	_	TokenRange=61:70
+11	presidente	presidente	NOUN	NOUN	_	15	nsubj	_	TokenRange=71:81
+12	cut	_	NOUN	NOUN	_	11	appos	_	TokenRange=82:85
+13	wagner	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=86:92
+14	freitas	_	NOUN	NOUN	_	13	flat	_	TokenRange=93:100
+15	ameacou	ameacar	VERB	VERB	_	3	conj	_	TokenRange=101:108
+16	tarde	tarde	ADV	ADV	_	15	advmod	_	TokenRange=109:114
+17	hoje	hoje	ADV	ADV	_	15	advmod	_	TokenRange=115:119
+18	20	_	NUM	NUM	NumType=Card	19	nsubj	_	TokenRange=120:122
+19	tirar	tirar	VERB	VERB	_	15	ccomp	_	TokenRange=123:128
+20	forca	forca	NOUN	NOUN	_	19	obj	_	TokenRange=129:134
+21	cidadaos	cidadao	NOUN	NOUN	_	23	nsubj	_	TokenRange=135:143
+22	brasileiros	brasileiro	ADJ	ADJ	_	21	amod	_	TokenRange=144:155
+23	lutam	lutar	VERB	VERB	_	19	parataxis	_	TokenRange=156:161
+24	direitos	direito	NOUN	NOUN	_	23	obj	_	TokenRange=162:170
+25	acampamentos	acampamento	NOUN	NOUN	_	24	appos	_	TokenRange=171:183
+26	instalados	instalado	ADJ	ADJ	_	25	amod	_	TokenRange=184:194
+27	frente	frente	NOUN	NOUN	_	32	nsubj	_	TokenRange=195:201
+28	congresso	congresso	NOUN	NOUN	_	25	appos	_	TokenRange=202:211
+29	nacional	nacional	ADJ	ADJ	_	28	amod	_	TokenRange=212:220
+30	freitas	_	ADJ	NOUN	_	28	amod	_	TokenRange=221:228
+31	enfatico	enfatico	ADJ	ADJ	_	28	amod	_	TokenRange=229:237
+32	declarou	declarar	VERB	VERB	_	23	parataxis	_	TokenRange=238:246
+33	fizemos	fazer	VERB	VERB	_	32	xcomp	_	TokenRange=247:254
+34	acordo	acordo	NOUN	NOUN	_	33	obj	_	TokenRange=255:261
+35	renan	_	ADJ	ADJ	_	34	appos	_	TokenRange=262:267
+36	calheiros	calheiro	NOUN	NOUN	_	37	flat	_	TokenRange=268:277
+37	eduardo	eduardo	NOUN	NOUN	_	39	nsubj	_	TokenRange=278:285
+38	cunha	_	PROPN	NOUN	_	37	flat	_	TokenRange=286:291
+39	retirar	retirar	VERB	VERB	_	34	acl:relcl	_	TokenRange=292:299
+40	pessoas	pessoa	NOUN	NOUN	_	39	obj	_	TokenRange=300:307
+41	vamos	ir	AUX	AUX	_	43	aux	_	TokenRange=308:313
+42	la	_	PRON	PRON	_	43	obj	_	TokenRange=314:316
+43	tirar	tirar	VERB	VERB	_	32	ccomp	_	SpaceAfter=No|TokenRange=317:322
+

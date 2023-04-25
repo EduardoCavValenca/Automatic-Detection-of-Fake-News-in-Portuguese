@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rocinha outras 7 comunidades rio novos tiroteios manha criminosos atiraram contra policiais faziam cerco rocinha levou governo rj pedir reforco forcas armadas dois jovens ficaram feridos complexos mare alemao novo tiroteio comecou volta 9h30 desta sextafeira 22 favela rocinha zona sul rio desde domingo 17 sido palco disputas traficantes operacoes policiais apos pedido governo rj ministro defesa raul jungmann autorizou
+1	rocinha	rocir	VERB	VERB	_	60	ccomp	_	TokenRange=0:7
+2	outras	_	DET	DET	_	4	det	_	TokenRange=8:14
+3	7	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=15:16
+4	comunidades	comunidade	NOUN	NOUN	_	1	nsubj	_	TokenRange=17:28
+5	rio	rio	NOUN	NOUN	_	4	appos	_	TokenRange=29:32
+6	novos	novo	ADJ	ADJ	_	7	amod	_	TokenRange=33:38
+7	tiroteios	tiroteio	NOUN	NOUN	_	4	appos	_	TokenRange=39:48
+8	manha	manha	ADJ	NOUN	_	9	det	_	TokenRange=49:54
+9	criminosos	criminoso	NOUN	NOUN	_	10	nsubj	_	TokenRange=55:65
+10	atiraram	atirar	VERB	VERB	_	4	acl:relcl	_	TokenRange=66:74
+11	contra	_	ADP	ADP	_	12	case	_	TokenRange=75:81
+12	policiais	policial	NOUN	NOUN	_	10	nmod	_	TokenRange=82:91
+13	faziam	fazer	VERB	VERB	_	10	advcl	_	TokenRange=92:98
+14	cerco	cerco	NOUN	NOUN	_	13	obj	_	TokenRange=99:104
+15	rocinha	_	ADJ	ADJ	_	14	amod	_	TokenRange=105:112
+16	levou	levar	VERB	VERB	_	13	parataxis	_	TokenRange=113:118
+17	governo	governo	NOUN	NOUN	_	16	obj	_	TokenRange=119:126
+18	rj	_	ADJ	ADJ	_	17	amod	_	TokenRange=127:129
+19	pedir	pedir	VERB	VERB	_	16	ccomp	_	TokenRange=130:135
+20	reforco	reforco	NOUN	NOUN	_	19	obj	_	TokenRange=136:143
+21	forcas	forca	NOUN	NOUN	_	20	appos	_	TokenRange=144:150
+22	armadas	armado	ADJ	ADJ	_	21	amod	_	TokenRange=151:158
+23	dois	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=159:163
+24	jovens	jovem	NOUN	NOUN	_	25	nsubj	_	TokenRange=164:170
+25	ficaram	ficar	VERB	VERB	_	19	ccomp	_	TokenRange=171:178
+26	feridos	ferido	ADJ	ADJ	_	25	xcomp	_	TokenRange=179:186
+27	complexos	complexo	ADJ	ADJ	_	28	amod	_	TokenRange=187:196
+28	mare	mare	NOUN	NOUN	_	25	nsubj	_	TokenRange=197:201
+29	alemao	alemao	ADJ	ADJ	_	28	amod	_	TokenRange=202:208
+30	novo	novo	ADJ	ADJ	_	31	amod	_	TokenRange=209:213
+31	tiroteio	tiroteio	NOUN	NOUN	_	32	nsubj	_	TokenRange=214:222
+32	comecou	comecar	VERB	VERB	_	25	parataxis	_	TokenRange=223:230
+33	volta	volta	NOUN	NOUN	_	32	nmod	_	TokenRange=231:236
+34	9h30	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=237:241
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=242:247
+36	sextafeira	sextafeira	NOUN	NOUN	_	34	nmod	_	TokenRange=248:258
+37	22	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=259:261
+38	favela	favela	NOUN	NOUN	_	33	appos	_	TokenRange=262:268
+39	rocinha	_	ADJ	ADJ	_	40	amod	_	TokenRange=269:276
+40	zona	zona	NOUN	NOUN	_	38	appos	_	TokenRange=277:281
+41	sul	sul	ADJ	ADJ	_	40	amod	_	TokenRange=282:285
+42	rio	rio	NOUN	NOUN	_	40	appos	_	TokenRange=286:289
+43	desde	_	ADP	ADP	_	44	case	_	TokenRange=290:295
+44	domingo	_	PROPN	PNOUN	_	60	nmod	_	TokenRange=296:303
+45	17	_	NUM	NUM	NumType=Card	44	appos	_	TokenRange=304:306
+46	sido	ser	AUX	AUX	_	47	cop	_	TokenRange=307:311
+47	palco	palco	NOUN	NOUN	_	60	parataxis	_	TokenRange=312:317
+48	disputas	disputa	NOUN	NOUN	_	47	appos	_	TokenRange=318:326
+49	traficantes	traficante	NOUN	NOUN	_	50	amod	_	TokenRange=327:338
+50	operacoes	operacoe	NOUN	NOUN	_	47	appos	_	TokenRange=339:348
+51	policiais	policial	ADJ	ADJ	_	50	amod	_	TokenRange=349:358
+52	apos	_	ADP	ADP	_	53	case	_	TokenRange=359:363
+53	pedido	pedido	NOUN	NOUN	_	60	nmod	_	TokenRange=364:370
+54	governo	governo	NOUN	NOUN	_	53	appos	_	TokenRange=371:378
+55	rj	_	ADJ	ADJ	_	56	amod	_	TokenRange=379:381
+56	ministro	ministro	NOUN	NOUN	_	53	appos	_	TokenRange=382:390
+57	defesa	_	NOUN	NOUN	_	56	flat	_	TokenRange=391:397
+58	raul	raul	ADJ	ADJ	_	60	nsubj	_	TokenRange=398:402
+59	jungmann	_	PROPN	PNOUN	_	58	flat	_	TokenRange=403:411
+60	autorizou	autorizar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=412:421
+

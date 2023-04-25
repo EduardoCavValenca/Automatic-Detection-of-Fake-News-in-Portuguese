@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = situacao dilma senado praticamente irreversivel acompanhe grafico impeachment jornal estado publicou estimativa parcial situacao impeachment senado federal situacao votos poderao alterar qualquer momento assim situacao presidente dilma rousseff praticamente irreversivel 81 senadores 46 declararam favor afastamento dilma cinco indecisos dez quiseram responder vinte senadores declararam contra processo impeachment confira lista senadores pro contra processo mudara rumos pais clique imagem aumentar azul pro impeachment vermelho contra impeachment cinza indecisos roxo responderam
+1	situacao	situacao	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:8
+2	dilma	dilma	ADJ	ADJ	_	1	amod	_	TokenRange=9:14
+3	senado	senado	NOUN	NOUN	_	1	appos	_	TokenRange=15:21
+4	praticamente	praticamente	ADV	ADV	_	5	advmod	_	TokenRange=22:34
+5	irreversivel	_	ADJ	ADJ	_	3	amod	_	TokenRange=35:47
+6	acompanhe	acompanhar	VERB	VERB	_	1	parataxis	_	TokenRange=48:57
+7	grafico	grafico	NOUN	NOUN	_	6	obj	_	TokenRange=58:65
+8	impeachment	impeachment	NOUN	NOUN	_	7	flat	_	TokenRange=66:77
+9	jornal	jornal	NOUN	NOUN	_	6	obj	_	TokenRange=78:84
+10	estado	estado	NOUN	NOUN	_	16	amod	_	TokenRange=85:91
+11	publicou	publicar	VERB	VERB	_	0	root	_	TokenRange=92:100
+12	estimativa	_	NOUN	NOUN	_	11	obj	_	TokenRange=101:111
+13	parcial	parcial	ADJ	ADJ	_	12	amod	_	TokenRange=112:119
+14	situacao	_	NOUN	NOUN	_	15	amod	_	TokenRange=120:128
+15	impeachment	impeachment	NOUN	NOUN	_	12	appos	_	TokenRange=129:140
+16	senado	senado	NOUN	NOUN	_	15	appos	_	TokenRange=141:147
+17	federal	federal	ADJ	ADJ	_	16	amod	_	TokenRange=148:155
+18	situacao	situacao	NOUN	NOUN	_	19	amod	_	TokenRange=156:164
+19	votos	voto	NOUN	NOUN	_	21	nsubj	_	TokenRange=165:170
+20	poderao	poder	AUX	AUX	_	21	aux	_	TokenRange=171:178
+21	alterar	alterar	VERB	VERB	_	11	parataxis	_	TokenRange=179:186
+22	qualquer	_	DET	DET	_	23	det	_	TokenRange=187:195
+23	momento	momento	NOUN	NOUN	_	21	nmod	_	TokenRange=196:203
+24	assim	assim	ADV	ADV	_	21	advmod	_	TokenRange=204:209
+25	situacao	_	NOUN	NOUN	_	21	dep	_	TokenRange=210:218
+26	presidente	presidente	NOUN	NOUN	_	21	nsubj	_	TokenRange=219:229
+27	dilma	dilma	NOUN	NOUN	_	26	appos	_	TokenRange=230:235
+28	rousseff	rousseff	ADJ	ADJ	_	27	amod	_	TokenRange=236:244
+29	praticamente	praticamente	ADV	ADV	_	30	advmod	_	TokenRange=245:257
+30	irreversivel	irreversivel	ADJ	ADJ	_	26	amod	_	TokenRange=258:270
+31	81	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=271:273
+32	senadores	senador	NOUN	NOUN	_	34	nsubj	_	TokenRange=274:283
+33	46	_	NUM	NUM	NumType=Card	32	appos	_	TokenRange=284:286
+34	declararam	declarar	VERB	VERB	_	26	acl:relcl	_	TokenRange=287:297
+35	favor	favor	NOUN	NOUN	_	34	obj	_	TokenRange=298:303
+36	afastamento	afastamento	NOUN	NOUN	_	34	obj	_	TokenRange=304:315
+37	dilma	dilma	NOUN	NOUN	_	36	appos	_	TokenRange=316:321
+38	cinco	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=322:327
+39	indecisos	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=328:337
+40	dez	_	NUM	NUM	NumType=Card	41	nsubj	_	TokenRange=338:341
+41	quiseram	querer	VERB	VERB	_	26	acl:relcl	_	TokenRange=342:350
+42	responder	responder	VERB	VERB	_	41	xcomp	_	TokenRange=351:360
+43	vinte	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=361:366
+44	senadores	senador	NOUN	NOUN	_	45	nsubj	_	TokenRange=367:376
+45	declararam	declarar	VERB	VERB	_	42	ccomp	_	TokenRange=377:387
+46	contra	_	ADP	ADP	_	47	case	_	TokenRange=388:394
+47	processo	processo	NOUN	NOUN	_	45	nmod	_	TokenRange=395:403
+48	impeachment	impeachment	NOUN	NOUN	_	47	amod	_	TokenRange=404:415
+49	confira	conferir	VERB	VERB	_	45	ccomp	_	TokenRange=416:423
+50	lista	lista	NOUN	NOUN	_	45	obj	_	TokenRange=424:429
+51	senadores	senador	ADJ	ADJ	_	50	amod	_	TokenRange=430:439
+52	pro	_	NOUN	NOUN	_	50	appos	_	TokenRange=440:443
+53	contra	_	ADP	ADP	_	54	case	_	TokenRange=444:450
+54	processo	processo	NOUN	NOUN	_	52	nmod	_	TokenRange=451:459
+55	mudara	mudar	VERB	VERB	_	50	acl:relcl	_	TokenRange=460:466
+56	rumos	rumo	NOUN	NOUN	_	55	obj	_	TokenRange=467:472
+57	pais	_	NOUN	NOUN	_	56	flat	_	TokenRange=473:477
+58	clique	clicar	VERB	VERB	_	70	ccomp	_	TokenRange=478:484
+59	imagem	imagem	NOUN	NOUN	_	70	obj	_	TokenRange=485:491
+60	aumentar	aumentar	VERB	VERB	_	70	ccomp	_	TokenRange=492:500
+61	azul	azul	NOUN	NOUN	_	60	obj	_	TokenRange=501:505
+62	pro	_	ADP	ADP	_	63	case	_	TokenRange=506:509
+63	impeachment	impeachment	NOUN	NOUN	_	60	nmod	_	TokenRange=510:521
+64	vermelho	vermelho	ADJ	ADJ	_	63	amod	_	TokenRange=522:530
+65	contra	_	ADP	ADP	_	66	case	_	TokenRange=531:537
+66	impeachment	impeachment	NOUN	NOUN	_	63	nmod	_	TokenRange=538:549
+67	cinza	cinza	ADJ	ADJ	_	70	nsubj	_	TokenRange=550:555
+68	indecisos	_	ADJ	ADJ	_	66	amod	_	TokenRange=556:565
+69	roxo	roxo	ADJ	ADJ	_	70	nsubj	_	TokenRange=566:570
+70	responderam	responder	VERB	VERB	_	55	conj	_	SpaceAfter=No|TokenRange=571:582
+

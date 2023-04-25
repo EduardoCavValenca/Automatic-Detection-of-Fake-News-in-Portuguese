@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = zileide silva marcelo cosme outros 2 jornalistas globo apanharam segurancas dilma segundo jornal nacional ontem 12 quatro levados assessoria imprensa palacio planalto area perto rampa onde dilma faria discurso despedida marcelo cosme zileide silva roniara castilhos wesley arauna grupo globo agredidos durante cobertura afastamento presidente dilma rousseff brasilia jornalistas xingados tres empurrados chutados escolta pessoal dilma rousseff abert associacao brasileira imprensa abi repudiaram agressoes
+1	zileide	zileide	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:7
+2	silva	silva	NOUN	NOUN	_	1	flat	_	TokenRange=8:13
+3	marcelo	marcelo	NOUN	NOUN	_	1	appos	_	TokenRange=14:21
+4	cosme	_	NOUN	NOUN	_	3	flat	_	TokenRange=22:27
+5	outros	_	DET	DET	_	7	det	_	TokenRange=28:34
+6	2	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=35:36
+7	jornalistas	jornalista	NOUN	NOUN	_	1	conj	_	TokenRange=37:48
+8	globo	globo	NOUN	NOUN	_	7	flat	_	TokenRange=49:54
+9	apanharam	apanhar	VERB	VERB	_	0	root	_	TokenRange=55:64
+10	segurancas	_	NOUN	NOUN	_	9	obj	_	TokenRange=65:75
+11	dilma	dilma	NOUN	NOUN	_	10	appos	_	TokenRange=76:81
+12	segundo	_	ADP	ADP	_	13	case	_	TokenRange=82:89
+13	jornal	jornal	NOUN	NOUN	_	9	nmod	_	TokenRange=90:96
+14	nacional	nacional	ADJ	ADJ	_	13	amod	_	TokenRange=97:105
+15	ontem	ontem	ADV	ADV	_	18	advmod	_	TokenRange=106:111
+16	12	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=112:114
+17	quatro	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=115:121
+18	levados	levar	VERB	VERB	_	19	acl	_	TokenRange=122:129
+19	assessoria	assessoria	NOUN	NOUN	_	9	obj	_	TokenRange=130:140
+20	imprensa	imprensa	ADJ	ADJ	_	19	amod	_	TokenRange=141:149
+21	palacio	palacio	NOUN	NOUN	_	19	appos	_	TokenRange=150:157
+22	planalto	planalto	ADJ	ADJ	_	19	amod	_	TokenRange=158:166
+23	area	area	NOUN	NOUN	_	19	appos	_	TokenRange=167:171
+24	perto	perto	ADV	ADV	_	25	advmod	_	TokenRange=172:177
+25	rampa	rampa	NOUN	NOUN	_	23	appos	_	TokenRange=178:183
+26	onde	onde	ADV	ADV	_	28	advmod	_	TokenRange=184:188
+27	dilma	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=189:194
+28	faria	fazer	VERB	VERB	_	25	acl:relcl	_	TokenRange=195:200
+29	discurso	discurso	NOUN	NOUN	_	28	obj	_	TokenRange=201:209
+30	despedida	despedido	ADJ	ADJ	_	29	amod	_	TokenRange=210:219
+31	marcelo	marcelo	NOUN	NOUN	_	29	appos	_	TokenRange=220:227
+32	cosme	cosme	NOUN	NOUN	_	31	flat	_	TokenRange=228:233
+33	zileide	zileide	NOUN	NOUN	_	35	appos	_	TokenRange=234:241
+34	silva	silva	NOUN	NOUN	_	33	flat	_	TokenRange=242:247
+35	roniara	_	NOUN	NOUN	_	9	parataxis	_	TokenRange=248:255
+36	castilhos	castilho	NOUN	NOUN	_	35	flat	_	TokenRange=256:265
+37	wesley	_	NOUN	NOUN	_	35	appos	_	TokenRange=266:272
+38	arauna	_	NOUN	NOUN	_	37	flat	_	TokenRange=273:279
+39	grupo	grupo	NOUN	NOUN	_	35	appos	_	TokenRange=280:285
+40	globo	globo	NOUN	NOUN	_	39	flat	_	TokenRange=286:291
+41	agredidos	agredido	ADJ	ADJ	_	35	acl	_	TokenRange=292:301
+42	durante	_	ADP	ADP	_	43	case	_	TokenRange=302:309
+43	cobertura	cobertura	NOUN	NOUN	_	41	nmod	_	TokenRange=310:319
+44	afastamento	afastamento	NOUN	NOUN	_	43	appos	_	TokenRange=320:331
+45	presidente	presidente	NOUN	NOUN	_	43	appos	_	TokenRange=332:342
+46	dilma	_	NOUN	NOUN	_	45	appos	_	TokenRange=343:348
+47	rousseff	rousseff	NOUN	NOUN	_	46	flat	_	TokenRange=349:357
+48	brasilia	brasilia	ADJ	NOUN	_	49	amod	_	TokenRange=358:366
+49	jornalistas	jornalista	NOUN	NOUN	_	63	nsubj	_	TokenRange=367:378
+50	xingados	xingar	VERB	VERB	_	49	acl	_	TokenRange=379:387
+51	tres	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=388:392
+52	empurrados	empurrado	NOUN	NOUN	_	49	appos	_	TokenRange=393:403
+53	chutados	chutado	ADJ	ADJ	_	54	amod	_	TokenRange=404:412
+54	escolta	escolta	NOUN	NOUN	_	49	appos	_	TokenRange=413:420
+55	pessoal	pessoal	ADJ	ADJ	_	54	amod	_	TokenRange=421:428
+56	dilma	dilma	NOUN	NOUN	_	54	appos	_	TokenRange=429:434
+57	rousseff	rousseff	NOUN	NOUN	_	56	flat	_	TokenRange=435:443
+58	abert	_	ADJ	ADJ	_	59	amod	_	TokenRange=444:449
+59	associacao	associacao	NOUN	NOUN	_	54	appos	_	TokenRange=450:460
+60	brasileira	brasileiro	ADJ	ADJ	_	59	amod	_	TokenRange=461:471
+61	imprensa	imprensa	NOUN	NOUN	_	59	appos	_	TokenRange=472:480
+62	abi	_	PROPN	PNOUN	_	59	appos	_	TokenRange=481:484
+63	repudiaram	repudiar	VERB	VERB	_	9	parataxis	_	TokenRange=485:495
+64	agressoes	agressoe	NOUN	NOUN	_	63	obj	_	SpaceAfter=No|TokenRange=496:505
+

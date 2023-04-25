@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tribunal regional federal 4 regiao trf4 porto alegre negou nesta segundafeira 26 embargos declaracao luiz inacio lula silva recurso final defesa segunda instancia operacao lava jato resultado confirma decisao colegiada oitava turma corte condenou expresidente 12 anos mes prisao devera levar lula considerado fichasuja justica eleitoral impedindo candidate novamente presidencia republica lula pode candidatar negar recurso trf4 abriu caminho inicio execucao prisao imposta petista liminar concedida supremo tribunal federal porem determina expresidente pode preso dia 04 abril antes analise merito habeas corpus preventivo
+1	tribunal	tribunal	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:8
+2	regional	regional	ADJ	ADJ	_	1	amod	_	TokenRange=9:17
+3	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=18:25
+4	4	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=26:27
+5	regiao	regiao	NOUN	NOUN	_	1	appos	_	TokenRange=28:34
+6	trf4	_	NOUN	NOUN	_	5	appos	_	TokenRange=35:39
+7	porto	_	NOUN	NOUN	_	5	appos	_	TokenRange=40:45
+8	alegre	alegre	ADJ	ADJ	_	7	amod	_	TokenRange=46:52
+9	negou	negar	VERB	VERB	_	0	root	_	TokenRange=53:58
+10	nesta	_	ADP	ADP	_	11	case	_	TokenRange=59:64
+11	segundafeira	_	NOUN	NOUN	_	9	nmod	_	TokenRange=65:77
+12	26	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=78:80
+13	embargos	embargo	NOUN	NOUN	_	9	obj	_	TokenRange=81:89
+14	declaracao	declaracao	NOUN	NOUN	_	9	parataxis	_	TokenRange=90:100
+15	luiz	luiz	NOUN	NOUN	_	13	appos	_	TokenRange=101:105
+16	inacio	_	NOUN	NOUN	_	15	flat	_	TokenRange=106:112
+17	lula	lula	NOUN	NOUN	_	15	flat	_	TokenRange=113:117
+18	silva	silva	ADJ	ADJ	_	15	flat	_	TokenRange=118:123
+19	recurso	recurso	NOUN	NOUN	_	9	obj	_	TokenRange=124:131
+20	final	final	ADJ	ADJ	_	19	amod	_	TokenRange=132:137
+21	defesa	_	NOUN	NOUN	_	19	appos	_	TokenRange=138:144
+22	segunda	segundo	ADJ	ADJ	_	23	amod	_	TokenRange=145:152
+23	instancia	instancia	NOUN	NOUN	_	19	appos	_	TokenRange=153:162
+24	operacao	operacao	NOUN	NOUN	_	9	parataxis	_	TokenRange=163:171
+25	lava	lava	NOUN	NOUN	_	24	flat	_	TokenRange=172:176
+26	jato	jato	ADV	NOUN	_	27	advmod	_	TokenRange=177:181
+27	resultado	resultado	NOUN	NOUN	_	24	appos	_	TokenRange=182:191
+28	confirma	confirmar	VERB	VERB	_	29	acl:relcl	_	TokenRange=192:200
+29	decisao	decisao	NOUN	NOUN	_	34	obj	_	TokenRange=201:208
+30	colegiada	colegiado	ADJ	ADJ	_	29	amod	_	TokenRange=209:218
+31	oitava	_	ADJ	ADJ	_	32	amod	_	TokenRange=219:225
+32	turma	turma	NOUN	NOUN	_	34	nsubj	_	TokenRange=226:231
+33	corte	corte	NOUN	NOUN	_	32	flat	_	TokenRange=232:237
+34	condenou	condenar	VERB	VERB	_	9	parataxis	_	TokenRange=238:246
+35	expresidente	expresidente	NOUN	NOUN	_	34	obj	_	TokenRange=247:259
+36	12	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=260:262
+37	anos	ano	NOUN	NOUN	_	34	obj	_	TokenRange=263:267
+38	mes	_	DET	DET	_	39	det	_	TokenRange=268:271
+39	prisao	prisao	NOUN	NOUN	_	34	nsubj	_	TokenRange=272:278
+40	devera	_	AUX	AUX	_	41	aux	_	TokenRange=279:285
+41	levar	levar	VERB	VERB	_	34	ccomp	_	TokenRange=286:291
+42	lula	_	NOUN	NOUN	_	41	obj	_	TokenRange=292:296
+43	considerado	considerar	AUX	AUX	_	41	aux	_	TokenRange=297:308
+44	fichasuja	_	NOUN	NOUN	_	45	amod	_	TokenRange=309:318
+45	justica	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=319:326
+46	eleitoral	eleitoral	ADJ	ADJ	_	45	amod	_	TokenRange=327:336
+47	impedindo	impedir	VERB	VERB	_	45	acl	_	TokenRange=337:346
+48	candidate	candidate	NOUN	NOUN	_	47	obj	_	TokenRange=347:356
+49	novamente	novamente	ADV	ADV	_	50	advmod	_	TokenRange=357:366
+50	presidencia	presidencia	NOUN	NOUN	_	47	obj	_	TokenRange=367:378
+51	republica	republico	ADJ	ADJ	_	50	amod	_	TokenRange=379:388
+52	lula	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=389:393
+53	pode	_	AUX	AUX	_	54	aux	_	TokenRange=394:398
+54	candidatar	candidatar	VERB	VERB	_	34	parataxis	_	TokenRange=399:409
+55	negar	negar	VERB	VERB	_	54	xcomp	_	TokenRange=410:415
+56	recurso	recurso	NOUN	NOUN	_	55	obj	_	TokenRange=416:423
+57	trf4	_	NOUN	NOUN	_	56	appos	_	TokenRange=424:428
+58	abriu	abrir	VERB	VERB	_	55	parataxis	_	TokenRange=429:434
+59	caminho	caminho	NOUN	NOUN	_	58	obj	_	TokenRange=435:442
+60	inicio	_	ADJ	ADJ	_	59	amod	_	TokenRange=443:449
+61	execucao	execucao	NOUN	NOUN	_	59	amod	_	TokenRange=450:458
+62	prisao	prisao	NOUN	NOUN	_	58	obj	_	TokenRange=459:465
+63	imposta	_	VERB	ADJ	_	64	acl	_	TokenRange=466:473
+64	petista	petista	NOUN	NOUN	_	58	nsubj	_	TokenRange=474:481
+65	liminar	liminar	ADJ	ADJ	_	64	amod	_	TokenRange=482:489
+66	concedida	conceder	VERB	VERB	_	64	acl	_	TokenRange=490:499
+67	supremo	supremo	ADJ	ADJ	_	68	amod	_	TokenRange=500:507
+68	tribunal	tribunal	NOUN	NOUN	_	66	nsubj	_	TokenRange=508:516
+69	federal	federal	ADJ	ADJ	_	68	amod	_	TokenRange=517:524
+70	porem	_	ADV	ADV	_	71	mark	_	TokenRange=525:530
+71	determina	determinar	VERB	VERB	_	66	conj	_	TokenRange=531:540
+72	expresidente	expresidente	NOUN	NOUN	_	71	obj	_	TokenRange=541:553
+73	pode	_	AUX	AUX	_	74	aux	_	TokenRange=554:558
+74	preso	_	VERB	VERB	_	58	parataxis	_	TokenRange=559:564
+75	dia	dia	NOUN	NOUN	_	74	nmod	_	TokenRange=565:568
+76	04	_	NUM	NUM	NumType=Card	75	appos	_	TokenRange=569:571
+77	abril	_	PROPN	PNOUN	_	76	nmod	_	TokenRange=572:577
+78	antes	antes	ADV	ADV	_	79	advmod	_	TokenRange=578:583
+79	analise	analise	NOUN	NOUN	_	74	nmod	_	TokenRange=584:591
+80	merito	merito	ADJ	ADJ	_	81	amod	_	TokenRange=592:598
+81	habeas	habeas	NOUN	NOUN	_	79	appos	_	TokenRange=599:605
+82	corpus	corpus	NOUN	NOUN	_	81	flat	_	TokenRange=606:612
+83	preventivo	preventivo	ADJ	ADJ	_	81	amod	_	SpaceAfter=No|TokenRange=613:623
+

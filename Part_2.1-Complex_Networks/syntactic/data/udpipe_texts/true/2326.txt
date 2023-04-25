@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pressionado apos segunda derrota classicos ano tecnico dorival junior diz exigir futebol melhor paulo neste inicio temporada principal problema calendario apertado tempo reduzido treinos dorival ve questao inserida contexto maior ver governanca esporte pais apos derrota torcida paulo protesta saida time morumbi nesta conversa estado realizada antes derrota 1 0 santos dorival desabafa sobre gestao futebol brasileiro quer clubes
+1	pressionado	pressionar	VERB	VERB	_	10	acl	_	TokenRange=0:11
+2	apos	_	ADP	ADP	_	4	case	_	TokenRange=12:16
+3	segunda	segundo	ADJ	ADJ	_	4	amod	_	TokenRange=17:24
+4	derrota	derrota	NOUN	NOUN	_	1	nmod	_	TokenRange=25:32
+5	classicos	classico	ADJ	ADJ	_	6	amod	_	TokenRange=33:42
+6	ano	ano	NOUN	NOUN	_	4	appos	_	TokenRange=43:46
+7	tecnico	tecnico	ADJ	ADJ	_	6	amod	_	TokenRange=47:54
+8	dorival	dorival	ADJ	NOUN	_	6	amod	_	TokenRange=55:62
+9	junior	_	ADJ	ADJ	_	6	amod	_	TokenRange=63:69
+10	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=70:73
+11	exigir	exigir	VERB	VERB	_	10	xcomp	_	TokenRange=74:80
+12	futebol	futebol	NOUN	NOUN	_	11	obj	_	TokenRange=81:88
+13	melhor	melhor	ADJ	ADJ	_	12	amod	_	TokenRange=89:95
+14	paulo	paulo	NOUN	NOUN	_	12	appos	_	TokenRange=96:101
+15	neste	_	ADP	ADP	_	17	case	_	TokenRange=102:107
+16	inicio	_	ADJ	ADJ	_	17	amod	_	TokenRange=108:114
+17	temporada	temporada	NOUN	NOUN	_	11	nmod	_	TokenRange=115:124
+18	principal	principal	ADJ	ADJ	_	17	amod	_	TokenRange=125:134
+19	problema	problema	NOUN	NOUN	_	17	appos	_	TokenRange=135:143
+20	calendario	calendario	NOUN	NOUN	_	19	appos	_	TokenRange=144:154
+21	apertado	apertado	ADJ	ADJ	_	22	amod	_	TokenRange=155:163
+22	tempo	tempo	NOUN	NOUN	_	19	appos	_	TokenRange=164:169
+23	reduzido	reduzido	ADJ	ADJ	_	22	amod	_	TokenRange=170:178
+24	treinos	treino	NOUN	NOUN	_	22	appos	_	TokenRange=179:186
+25	dorival	dorival	ADJ	ADJ	_	24	amod	_	TokenRange=187:194
+26	ve	_	VERB	VERB	_	10	parataxis	_	TokenRange=195:197
+27	questao	questao	NOUN	NOUN	_	26	obj	_	TokenRange=198:205
+28	inserida	inserido	ADJ	ADJ	_	27	amod	_	TokenRange=206:214
+29	contexto	contexto	NOUN	NOUN	_	26	nsubj	_	TokenRange=215:223
+30	maior	maior	ADJ	ADJ	_	29	amod	_	TokenRange=224:229
+31	ver	ver	VERB	VERB	_	10	parataxis	_	TokenRange=230:233
+32	governanca	governanca	NOUN	NOUN	_	31	obj	_	TokenRange=234:244
+33	esporte	esporte	NOUN	NOUN	_	32	appos	_	TokenRange=245:252
+34	pais	_	NOUN	NOUN	_	33	flat	_	TokenRange=253:257
+35	apos	_	ADP	ADP	_	36	case	_	TokenRange=258:262
+36	derrota	derrota	NOUN	NOUN	_	32	nmod	_	TokenRange=263:270
+37	torcida	torcida	NOUN	NOUN	_	36	appos	_	TokenRange=271:278
+38	paulo	paulo	NOUN	NOUN	_	37	flat	_	TokenRange=279:284
+39	protesta	protestar	VERB	VERB	_	32	acl:relcl	_	TokenRange=285:293
+40	saida	_	NOUN	NOUN	_	39	obj	_	TokenRange=294:299
+41	time	time	NOUN	NOUN	_	40	appos	_	TokenRange=300:304
+42	morumbi	morumbi	ADJ	ADJ	_	41	amod	_	TokenRange=305:312
+43	nesta	_	ADP	ADP	_	44	case	_	TokenRange=313:318
+44	conversa	_	NOUN	NOUN	_	39	nmod	_	TokenRange=319:327
+45	estado	estado	NOUN	NOUN	_	44	appos	_	TokenRange=328:334
+46	realizada	realizar	VERB	VERB	_	45	acl	_	TokenRange=335:344
+47	antes	antes	ADV	ADV	_	46	advmod	_	TokenRange=345:350
+48	derrota	derrota	NOUN	NOUN	_	46	obj	_	TokenRange=351:358
+49	1	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=359:360
+50	0	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=361:362
+51	santos	santo	NOUN	NOUN	_	48	appos	_	TokenRange=363:369
+52	dorival	dorival	ADJ	ADJ	_	48	amod	_	TokenRange=370:377
+53	desabafa	_	VERB	VERB	_	10	parataxis	_	TokenRange=378:386
+54	sobre	_	ADP	ADP	_	55	case	_	TokenRange=387:392
+55	gestao	gestao	NOUN	NOUN	_	53	nmod	_	TokenRange=393:399
+56	futebol	futebol	NOUN	NOUN	_	55	appos	_	TokenRange=400:407
+57	brasileiro	brasileiro	ADJ	ADJ	_	56	amod	_	TokenRange=408:418
+58	quer	querer	VERB	VERB	_	53	parataxis	_	TokenRange=419:423
+59	clubes	clube	NOUN	NOUN	_	58	obj	_	SpaceAfter=No|TokenRange=424:430
+

@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quebrapau camara deputados brasilia fervendo rodrigo investigado maia pede calma parlamentares deputados panico temem manifestantes possam invadir congresso sessao cancelada presidente som plenario cortado locutor oficial camara falar acaba impedindo internautas ouvirem insultos proferidos nobres parlamentares
+1	quebrapau	quebrapar	VERB	VERB	_	0	root	_	TokenRange=0:9
+2	camara	camara	NOUN	NOUN	_	1	obj	_	TokenRange=10:16
+3	deputados	deputado	NOUN	NOUN	_	2	flat	_	TokenRange=17:26
+4	brasilia	brasilia	NOUN	NOUN	_	2	appos	_	TokenRange=27:35
+5	fervendo	ferver	VERB	VERB	_	2	acl	_	TokenRange=36:44
+6	rodrigo	rodrigo	NOUN	NOUN	_	5	obj	_	TokenRange=45:52
+7	investigado	investigado	ADJ	ADJ	_	5	amod	_	TokenRange=53:64
+8	maia	maia	NOUN	NOUN	_	9	nsubj	_	TokenRange=65:69
+9	pede	pedir	VERB	VERB	_	1	conj	_	TokenRange=70:74
+10	calma	_	NOUN	NOUN	_	9	obj	_	TokenRange=75:80
+11	parlamentares	parlamentar	ADJ	ADJ	_	12	amod	_	TokenRange=81:94
+12	deputados	deputado	NOUN	NOUN	_	9	obj	_	TokenRange=95:104
+13	panico	panico	NOUN	NOUN	_	12	amod	_	TokenRange=105:111
+14	temem	temer	VERB	VERB	_	9	parataxis	_	TokenRange=112:117
+15	manifestantes	manifestante	NOUN	NOUN	_	14	obj	_	TokenRange=118:131
+16	possam	_	AUX	AUX	_	17	aux	_	TokenRange=132:138
+17	invadir	invadir	VERB	VERB	_	14	ccomp	_	TokenRange=139:146
+18	congresso	congresso	NOUN	NOUN	_	17	obj	_	TokenRange=147:156
+19	sessao	sessao	NOUN	NOUN	_	17	mark	_	TokenRange=157:163
+20	cancelada	cancelado	ADJ	ADJ	_	21	amod	_	TokenRange=164:173
+21	presidente	presidente	NOUN	NOUN	_	17	nsubj	_	TokenRange=174:184
+22	som	som	ADP	NOUN	_	23	case	_	TokenRange=185:188
+23	plenario	plenario	NOUN	NOUN	_	25	amod	_	TokenRange=189:197
+24	cortado	cortado	ADJ	ADJ	_	25	amod	_	TokenRange=198:205
+25	locutor	locutor	NOUN	NOUN	_	30	nsubj	_	TokenRange=206:213
+26	oficial	oficial	ADJ	ADJ	_	25	amod	_	TokenRange=214:221
+27	camara	camara	NOUN	NOUN	_	25	appos	_	TokenRange=222:228
+28	falar	falar	VERB	VERB	_	25	acl:relcl	_	TokenRange=229:234
+29	acaba	acabar	AUX	AUX	_	30	aux	_	TokenRange=235:240
+30	impedindo	impedir	VERB	VERB	_	14	conj	_	TokenRange=241:250
+31	internautas	internauta	NOUN	NOUN	_	30	obj	_	TokenRange=251:262
+32	ouvirem	ouvir	VERB	VERB	_	30	ccomp	_	TokenRange=263:270
+33	insultos	insulto	NOUN	NOUN	_	32	obj	_	TokenRange=271:279
+34	proferidos	proferido	ADJ	ADJ	_	33	amod	_	TokenRange=280:290
+35	nobres	nobre	ADJ	ADJ	_	36	amod	_	TokenRange=291:297
+36	parlamentares	parlamentar	NOUN	NOUN	_	32	obj	_	SpaceAfter=No|TokenRange=298:311
+

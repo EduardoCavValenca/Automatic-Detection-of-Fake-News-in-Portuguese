@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = chinaglia arthur maia xingam caloteiro vagabundo deputado pt relator reforma previdencia trocam insultos apos discussao sobre ministro fazenda brasilia deputados arlindo chinaglia ptsp arthur maia sdba trocaram insultos durante audiencia comissao especial reforma
+1	chinaglia	chinaglia	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:9
+2	arthur	arthur	NOUN	NOUN	_	1	appos	_	TokenRange=10:16
+3	maia	_	NOUN	NOUN	_	2	flat	_	TokenRange=17:21
+4	xingam	_	NOUN	NOUN	_	1	appos	_	TokenRange=22:28
+5	caloteiro	caloteiro	NOUN	NOUN	_	1	appos	_	TokenRange=29:38
+6	vagabundo	vagabundo	ADJ	ADJ	_	7	amod	_	TokenRange=39:48
+7	deputado	deputado	NOUN	NOUN	_	1	appos	_	TokenRange=49:57
+8	pt	_	ADJ	ADJ	_	7	flat	_	TokenRange=58:60
+9	relator	relator	NOUN	NOUN	_	7	appos	_	TokenRange=61:68
+10	reforma	reforma	NOUN	NOUN	_	9	appos	_	TokenRange=69:76
+11	previdencia	_	NOUN	NOUN	_	10	flat	_	TokenRange=77:88
+12	trocam	trocar	VERB	VERB	_	0	root	_	TokenRange=89:95
+13	insultos	insulto	NOUN	NOUN	_	12	obj	_	TokenRange=96:104
+14	apos	_	ADP	ADP	_	15	case	_	TokenRange=105:109
+15	discussao	discussao	NOUN	NOUN	_	12	nmod	_	TokenRange=110:119
+16	sobre	_	ADP	ADP	_	17	case	_	TokenRange=120:125
+17	ministro	ministro	NOUN	NOUN	_	15	nmod	_	TokenRange=126:134
+18	fazenda	fazenda	NOUN	NOUN	_	17	flat	_	TokenRange=135:142
+19	brasilia	brasilia	ADJ	ADJ	_	17	amod	_	TokenRange=143:151
+20	deputados	deputado	NOUN	NOUN	_	12	nsubj	_	TokenRange=152:161
+21	arlindo	arlindo	NOUN	NOUN	_	20	appos	_	TokenRange=162:169
+22	chinaglia	chinaglia	NOUN	NOUN	_	21	flat	_	TokenRange=170:179
+23	ptsp	_	NOUN	NOUN	_	21	appos	_	TokenRange=180:184
+24	arthur	_	NOUN	NOUN	_	23	appos	_	TokenRange=185:191
+25	maia	_	NOUN	NOUN	_	24	flat	_	TokenRange=192:196
+26	sdba	sdba	NOUN	NOUN	_	24	flat	_	TokenRange=197:201
+27	trocaram	trocar	VERB	VERB	_	12	parataxis	_	TokenRange=202:210
+28	insultos	insulto	NOUN	NOUN	_	27	obj	_	TokenRange=211:219
+29	durante	_	ADP	ADP	_	30	case	_	TokenRange=220:227
+30	audiencia	audiencia	NOUN	NOUN	_	27	nmod	_	TokenRange=228:237
+31	comissao	comissao	NOUN	NOUN	_	27	obj	_	TokenRange=238:246
+32	especial	especial	ADJ	ADJ	_	31	amod	_	TokenRange=247:255
+33	reforma	reforma	NOUN	NOUN	_	31	appos	_	SpaceAfter=No|TokenRange=256:263
+

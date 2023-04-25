@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = xuxa chama motorista taxi fedido redes sociais perdoam rainha baixinhos 54 anos viajou nova york passar festas fim ano filhota sasha 19 anos marcar chegada eua fez postagem totalmente inapropriada instagram seguidores gostaram brincadeira mal gosto apresentadora fez piada cheiro motorista taxi onde selfie xuxa aparece cobrindo nariz gola blusa legenda afirmacao podem pensar frio ne motorista venceu desodorante
+1	xuxa	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	chama	chamar	VERB	VERB	_	0	root	_	TokenRange=5:10
+3	motorista	motorista	NOUN	NOUN	_	2	obj	_	TokenRange=11:20
+4	taxi	_	NOUN	NOUN	_	3	flat	_	TokenRange=21:25
+5	fedido	fedir	VERB	VERB	_	6	acl	_	TokenRange=26:32
+6	redes	rede	NOUN	NOUN	_	16	obj	_	TokenRange=33:38
+7	sociais	social	ADJ	ADJ	_	6	amod	_	TokenRange=39:46
+8	perdoam	perdoar	VERB	VERB	_	6	acl:relcl	_	TokenRange=47:54
+9	rainha	_	NOUN	NOUN	_	8	obj	_	TokenRange=55:61
+10	baixinhos	baixo	ADJ	ADJ	_	9	amod	_	TokenRange=62:71
+11	54	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=72:74
+12	anos	ano	NOUN	NOUN	_	13	nsubj	_	TokenRange=75:79
+13	viajou	viajar	VERB	VERB	_	2	parataxis	_	TokenRange=80:86
+14	nova	novo	ADJ	ADJ	_	15	amod	_	TokenRange=87:91
+15	york	_	PROPN	PNOUN	_	13	nsubj	_	TokenRange=92:96
+16	passar	passar	VERB	VERB	_	13	ccomp	_	TokenRange=97:103
+17	festas	festa	NOUN	NOUN	_	16	obj	_	TokenRange=104:110
+18	fim	fim	NOUN	NOUN	_	19	appos	_	TokenRange=111:114
+19	ano	ano	NOUN	NOUN	_	17	nmod	_	TokenRange=115:118
+20	filhota	filhoto	NOUN	NOUN	_	17	appos	_	TokenRange=119:126
+21	sasha	sasha	NOUN	NOUN	_	20	appos	_	TokenRange=127:132
+22	19	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=133:135
+23	anos	ano	NOUN	NOUN	_	24	nsubj	_	TokenRange=136:140
+24	marcar	marcar	VERB	VERB	_	13	parataxis	_	TokenRange=141:147
+25	chegada	chegada	NOUN	NOUN	_	24	obj	_	TokenRange=148:155
+26	eua	_	PRON	PRON	_	24	nsubj	_	TokenRange=156:159
+27	fez	fazer	VERB	VERB	_	2	parataxis	_	TokenRange=160:163
+28	postagem	postagem	NOUN	NOUN	_	27	obj	_	TokenRange=164:172
+29	totalmente	totalmente	ADV	ADV	_	30	advmod	_	TokenRange=173:183
+30	inapropriada	inapropriado	ADJ	ADJ	_	28	amod	_	TokenRange=184:196
+31	instagram	instagrar	VERB	VERB	_	27	parataxis	_	TokenRange=197:206
+32	seguidores	seguidor	NOUN	NOUN	_	33	nsubj	_	TokenRange=207:217
+33	gostaram	gostar	VERB	VERB	_	28	acl:relcl	_	TokenRange=218:226
+34	brincadeira	brincadeira	NOUN	NOUN	_	33	obj	_	TokenRange=227:238
+35	mal	mal	ADV	ADV	_	36	advmod	_	TokenRange=239:242
+36	gosto	gosto	ADJ	ADJ	_	34	amod	_	TokenRange=243:248
+37	apresentadora	apresentador	NOUN	NOUN	_	38	nsubj	_	TokenRange=249:262
+38	fez	fazer	VERB	VERB	_	34	acl:relcl	_	TokenRange=263:266
+39	piada	piada	NOUN	NOUN	_	38	obj	_	TokenRange=267:272
+40	cheiro	cheiro	ADJ	ADJ	_	39	amod	_	TokenRange=273:279
+41	motorista	motorista	ADJ	ADJ	_	42	amod	_	TokenRange=280:289
+42	taxi	taxi	NOUN	NOUN	_	39	appos	_	TokenRange=290:294
+43	onde	onde	ADV	ADV	_	46	advmod	_	TokenRange=295:299
+44	selfie	selfie	NOUN	NOUN	_	42	acl:relcl	_	TokenRange=300:306
+45	xuxa	_	PRON	PRON	_	46	nsubj	_	TokenRange=307:311
+46	aparece	aparecer	VERB	VERB	_	42	acl:relcl	_	TokenRange=312:319
+47	cobrindo	cobrir	VERB	VERB	_	46	acl	_	TokenRange=320:328
+48	nariz	nariz	NOUN	NOUN	_	47	obj	_	TokenRange=329:334
+49	gola	gola	NOUN	NOUN	_	48	flat	_	TokenRange=335:339
+50	blusa	bluso	ADJ	ADJ	_	51	amod	_	TokenRange=340:345
+51	legenda	legenda	NOUN	NOUN	_	58	nsubj	_	TokenRange=346:353
+52	afirmacao	_	NOUN	NOUN	_	51	appos	_	TokenRange=354:363
+53	podem	_	AUX	AUX	_	54	aux	_	TokenRange=364:369
+54	pensar	pensar	VERB	VERB	_	51	acl:relcl	_	TokenRange=370:376
+55	frio	frio	NOUN	NOUN	_	54	obj	_	TokenRange=377:381
+56	ne	_	CCONJ	CONJ	_	57	cc	_	TokenRange=382:384
+57	motorista	motorista	NOUN	NOUN	_	58	nsubj	_	TokenRange=385:394
+58	venceu	vencer	VERB	VERB	_	38	conj	_	TokenRange=395:401
+59	desodorante	desodorante	ADJ	ADJ	_	58	xcomp	_	SpaceAfter=No|TokenRange=402:413
+

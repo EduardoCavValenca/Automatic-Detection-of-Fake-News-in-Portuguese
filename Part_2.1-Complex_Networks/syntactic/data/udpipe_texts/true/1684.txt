@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = direito sagrado policial receber salario dia cidadao seguranca diz governador rn policiais militares parados desde dia 19 dezembro policiais civis desde 20 dezembro justica considerou greve ilegal 21 dia greve policiais bombeiros militares rio grande norte 20 policia civil governador robinson faria falou primeira vez sobre tema durante encontro imprensa nesta segundafeira 8 robinson reconheceu direito policiais receberem salarios argumentou populacao direito seguranca direito sagrado policial receber salario dia cidadao seguranca governador disse ainda
+1	direito	direito	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:7
+2	sagrado	sagrado	ADJ	ADJ	_	1	amod	_	TokenRange=8:15
+3	policial	policial	ADJ	ADJ	_	1	amod	_	TokenRange=16:24
+4	receber	receber	VERB	VERB	_	1	acl	_	TokenRange=25:32
+5	salario	salario	NOUN	NOUN	_	4	obj	_	TokenRange=33:40
+6	dia	dia	NOUN	NOUN	_	4	obj	_	TokenRange=41:44
+7	cidadao	cidadao	NOUN	NOUN	_	1	appos	_	TokenRange=45:52
+8	seguranca	_	NOUN	NOUN	_	7	flat	_	TokenRange=53:62
+9	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=63:66
+10	governador	governador	NOUN	NOUN	_	9	obj	_	TokenRange=67:77
+11	rn	_	NOUN	NOUN	_	10	appos	_	TokenRange=78:80
+12	policiais	policial	NOUN	NOUN	_	10	appos	_	TokenRange=81:90
+13	militares	militar	ADJ	ADJ	_	12	amod	_	TokenRange=91:100
+14	parados	parado	ADJ	ADJ	_	12	amod	_	TokenRange=101:108
+15	desde	_	ADP	ADP	_	16	case	_	TokenRange=109:114
+16	dia	dia	NOUN	NOUN	_	14	nmod	_	TokenRange=115:118
+17	19	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=119:121
+18	dezembro	_	PROPN	PNOUN	_	16	appos	_	TokenRange=122:130
+19	policiais	policial	NOUN	NOUN	_	16	appos	_	TokenRange=131:140
+20	civis	civil	ADJ	ADJ	_	19	amod	_	TokenRange=141:146
+21	desde	_	ADP	ADP	_	23	case	_	TokenRange=147:152
+22	20	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=153:155
+23	dezembro	_	PROPN	PNOUN	_	25	nmod	_	TokenRange=156:164
+24	justica	_	ADJ	ADJ	_	23	amod	_	TokenRange=165:172
+25	considerou	considerar	VERB	VERB	_	9	parataxis	_	TokenRange=173:183
+26	greve	greve	NOUN	NOUN	_	25	obj	_	TokenRange=184:189
+27	ilegal	ilegal	ADJ	ADJ	_	26	amod	_	TokenRange=190:196
+28	21	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=197:199
+29	dia	dia	NOUN	NOUN	_	25	nmod	_	TokenRange=200:203
+30	greve	greve	NOUN	NOUN	_	29	appos	_	TokenRange=204:209
+31	policiais	policial	NOUN	NOUN	_	29	amod	_	TokenRange=210:219
+32	bombeiros	bombeiro	NOUN	NOUN	_	29	appos	_	TokenRange=220:229
+33	militares	militar	ADJ	ADJ	_	32	amod	_	TokenRange=230:239
+34	rio	rio	NOUN	NOUN	_	32	amod	_	TokenRange=240:243
+35	grande	grande	ADJ	ADJ	_	32	amod	_	TokenRange=244:250
+36	norte	norte	ADJ	ADJ	_	38	amod	_	TokenRange=251:256
+37	20	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=257:259
+38	policia	policia	NOUN	NOUN	_	43	nsubj	_	TokenRange=260:267
+39	civil	civil	ADJ	ADJ	_	38	amod	_	TokenRange=268:273
+40	governador	governador	NOUN	NOUN	_	38	appos	_	TokenRange=274:284
+41	robinson	_	NOUN	NOUN	_	38	appos	_	TokenRange=285:293
+42	faria	fazer	NOUN	NOUN	_	38	flat	_	TokenRange=294:299
+43	falou	falar	VERB	VERB	_	25	conj	_	TokenRange=300:305
+44	primeira	primeiro	ADJ	ADJ	_	45	amod	_	TokenRange=306:314
+45	vez	vez	NOUN	NOUN	_	43	nmod	_	TokenRange=315:318
+46	sobre	_	ADP	ADP	_	47	case	_	TokenRange=319:324
+47	tema	tema	NOUN	NOUN	_	43	nmod	_	TokenRange=325:329
+48	durante	_	ADP	ADP	_	49	case	_	TokenRange=330:337
+49	encontro	encontro	NOUN	NOUN	_	43	nmod	_	TokenRange=338:346
+50	imprensa	imprensa	NOUN	NOUN	_	49	amod	_	TokenRange=347:355
+51	nesta	_	ADP	ADP	_	52	case	_	TokenRange=356:361
+52	segundafeira	_	NOUN	NOUN	_	43	nmod	_	TokenRange=362:374
+53	8	_	NUM	NUM	NumType=Card	52	appos	_	TokenRange=375:376
+54	robinson	_	NOUN	NOUN	_	55	nsubj	_	TokenRange=377:385
+55	reconheceu	reconhecer	VERB	VERB	_	43	parataxis	_	TokenRange=386:396
+56	direito	direito	NOUN	NOUN	_	55	obj	_	TokenRange=397:404
+57	policiais	policial	ADJ	ADJ	_	56	amod	_	TokenRange=405:414
+58	receberem	receber	VERB	VERB	_	56	acl:inf	_	TokenRange=415:424
+59	salarios	salario	NOUN	NOUN	_	58	obj	_	TokenRange=425:433
+60	argumentou	argumentar	VERB	VERB	_	56	acl:relcl	_	TokenRange=434:444
+61	populacao	populacao	ADJ	ADJ	_	62	amod	_	TokenRange=445:454
+62	direito	direito	NOUN	NOUN	_	60	obj	_	TokenRange=455:462
+63	seguranca	_	ADJ	ADJ	_	62	amod	_	TokenRange=463:472
+64	direito	direito	NOUN	NOUN	_	60	nsubj	_	TokenRange=473:480
+65	sagrado	sagrado	ADJ	ADJ	_	64	amod	_	TokenRange=481:488
+66	policial	policial	ADJ	ADJ	_	64	amod	_	TokenRange=489:497
+67	receber	receber	VERB	VERB	_	64	acl	_	TokenRange=498:505
+68	salario	salario	NOUN	NOUN	_	67	obj	_	TokenRange=506:513
+69	dia	dia	NOUN	NOUN	_	67	obj	_	TokenRange=514:517
+70	cidadao	cidadao	ADJ	ADJ	_	69	amod	_	TokenRange=518:525
+71	seguranca	_	ADJ	ADJ	_	69	amod	_	TokenRange=526:535
+72	governador	governador	NOUN	NOUN	_	73	nsubj	_	TokenRange=536:546
+73	disse	dizer	VERB	VERB	_	43	parataxis	_	TokenRange=547:552
+74	ainda	ainda	ADV	ADV	_	73	advmod	_	SpaceAfter=No|TokenRange=553:558
+

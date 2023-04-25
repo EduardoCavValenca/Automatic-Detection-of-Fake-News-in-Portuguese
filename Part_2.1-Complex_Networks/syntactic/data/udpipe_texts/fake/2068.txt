@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente russia barra michel temer encontro brics devido mudancas bruscas ocorridas politica canal tv espanhol rt tv noticiou michel temer barrado brics temer embarcou inicio madrugada ultimo dia 14 viagem sete dias india japao teoricamente ira participar 8 cupula brics bloco formado brasil russia india china africa sul goa india correspondente internacional tv espanhola semion senderov entrou vivo link direto goa india informou wladmir putin anunciou ira encontrar presidente brasil devido mudancas bruscas ocorridas politica confira partir minuto 320 video abaixo
+1	presidente	presidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=0:10
+2	russia	russia	ADJ	ADJ	_	1	amod	_	TokenRange=11:17
+3	barra	barra	NOUN	NOUN	_	1	appos	_	TokenRange=18:23
+4	michel	_	DET	DET	_	5	amod	_	TokenRange=24:30
+5	temer	temer	NOUN	NOUN	_	1	appos	_	TokenRange=31:36
+6	encontro	encontrar	VERB	VERB	_	1	acl:relcl	_	TokenRange=37:45
+7	brics	bric	NOUN	NOUN	_	6	obj	_	TokenRange=46:51
+8	devido	dever	VERB	VERB	_	9	case	_	TokenRange=52:58
+9	mudancas	mudanca	NOUN	NOUN	_	6	nmod	_	TokenRange=59:67
+10	bruscas	brusco	ADJ	ADJ	_	9	amod	_	TokenRange=68:75
+11	ocorridas	ocorrer	VERB	VERB	_	9	amod	_	TokenRange=76:85
+12	politica	_	ADJ	ADJ	_	13	amod	_	TokenRange=86:94
+13	canal	canal	NOUN	NOUN	_	18	nsubj	_	TokenRange=95:100
+14	tv	tv	NOUN	NOUN	_	13	flat	_	TokenRange=101:103
+15	espanhol	espanhol	ADJ	ADJ	_	13	amod	_	TokenRange=104:112
+16	rt	_	NOUN	NOUN	_	17	amod	_	TokenRange=113:115
+17	tv	_	NOUN	NOUN	_	13	appos	_	TokenRange=116:118
+18	noticiou	noticiar	VERB	VERB	_	0	root	_	TokenRange=119:127
+19	michel	michel	DET	DET	_	20	amod	_	TokenRange=128:134
+20	temer	temer	NOUN	NOUN	_	18	obj	_	TokenRange=135:140
+21	barrado	barrar	VERB	VERB	_	20	acl	_	TokenRange=141:148
+22	brics	_	NOUN	NOUN	_	21	obj	_	TokenRange=149:154
+23	temer	temer	NOUN	NOUN	_	22	appos	_	TokenRange=155:160
+24	embarcou	embarcar	VERB	VERB	_	18	parataxis	_	TokenRange=161:169
+25	inicio	_	NOUN	NOUN	_	24	nmod	_	TokenRange=170:176
+26	madrugada	madrugada	NOUN	NOUN	_	25	amod	_	TokenRange=177:186
+27	ultimo	_	ADJ	ADJ	_	28	amod	_	TokenRange=187:193
+28	dia	dia	NOUN	NOUN	_	24	nmod	_	TokenRange=194:197
+29	14	_	NUM	NUM	NumType=Card	28	appos	_	TokenRange=198:200
+30	viagem	viagem	NOUN	NOUN	_	24	nmod	_	TokenRange=201:207
+31	sete	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=208:212
+32	dias	dia	NOUN	NOUN	_	30	nmod	_	TokenRange=213:217
+33	india	india	NOUN	NOUN	_	32	appos	_	TokenRange=218:223
+34	japao	japao	NOUN	NOUN	_	33	appos	_	TokenRange=224:229
+35	teoricamente	teoricamente	ADV	ADV	_	37	advmod	_	TokenRange=230:242
+36	ira	_	AUX	AUX	_	37	aux	_	TokenRange=243:246
+37	participar	participar	VERB	VERB	_	18	parataxis	_	TokenRange=247:257
+38	8	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=258:259
+39	cupula	cupula	NOUN	NOUN	_	37	nsubj	_	TokenRange=260:266
+40	brics	_	NOUN	NOUN	_	39	appos	_	TokenRange=267:272
+41	bloco	bloco	NOUN	NOUN	_	39	appos	_	TokenRange=273:278
+42	formado	formado	ADJ	ADJ	_	41	amod	_	TokenRange=279:286
+43	brasil	brasil	NOUN	NOUN	_	44	amod	_	TokenRange=287:293
+44	russia	russia	NOUN	NOUN	_	41	appos	_	TokenRange=294:300
+45	india	india	NOUN	NOUN	_	44	amod	_	TokenRange=301:306
+46	china	china	NOUN	NOUN	_	44	appos	_	TokenRange=307:312
+47	africa	_	NOUN	NOUN	_	44	amod	_	TokenRange=313:319
+48	sul	sul	ADJ	ADJ	_	49	amod	_	TokenRange=320:323
+49	goa	goa	NOUN	NOUN	_	37	nsubj	_	TokenRange=324:327
+50	india	india	NOUN	NOUN	_	49	amod	_	TokenRange=328:333
+51	correspondente	correspondente	NOUN	ADJ	_	49	amod	_	TokenRange=334:348
+52	internacional	internacional	ADJ	ADJ	_	53	amod	_	TokenRange=349:362
+53	tv	tv	NOUN	NOUN	_	57	nsubj	_	TokenRange=363:365
+54	espanhola	espanhol	ADJ	ADJ	_	53	amod	_	TokenRange=366:375
+55	semion	semion	NOUN	NOUN	_	53	appos	_	TokenRange=376:382
+56	senderov	_	NOUN	NOUN	_	53	flat	_	TokenRange=383:391
+57	entrou	entrar	VERB	VERB	_	37	parataxis	_	TokenRange=392:398
+58	vivo	vivo	ADJ	ADJ	_	57	xcomp	_	TokenRange=399:403
+59	link	link	NOUN	NOUN	_	57	nsubj	_	TokenRange=404:408
+60	direto	direto	ADJ	ADJ	_	59	amod	_	TokenRange=409:415
+61	goa	_	NOUN	NOUN	_	63	nsubj	_	TokenRange=416:419
+62	india	india	ADJ	ADJ	_	59	amod	_	TokenRange=420:425
+63	informou	informar	VERB	VERB	_	57	parataxis	_	TokenRange=426:434
+64	wladmir	_	NOUN	NOUN	_	63	obj	_	TokenRange=435:442
+65	putin	_	PROPN	PNOUN	_	64	flat	_	TokenRange=443:448
+66	anunciou	anunciar	VERB	VERB	_	63	ccomp	_	TokenRange=449:457
+67	ira	_	AUX	AUX	_	68	aux	_	TokenRange=458:461
+68	encontrar	encontrar	VERB	VERB	_	66	xcomp	_	TokenRange=462:471
+69	presidente	presidente	NOUN	NOUN	_	68	obj	_	TokenRange=472:482
+70	brasil	brasil	ADJ	ADJ	_	69	amod	_	TokenRange=483:489
+71	devido	dever	VERB	VERB	_	72	case	_	TokenRange=490:496
+72	mudancas	mudanca	NOUN	NOUN	_	68	nmod	_	TokenRange=497:505
+73	bruscas	brusco	ADJ	ADJ	_	72	amod	_	TokenRange=506:513
+74	ocorridas	ocorrer	VERB	VERB	_	72	acl	_	TokenRange=514:523
+75	politica	_	NOUN	NOUN	_	72	amod	_	TokenRange=524:532
+76	confira	conferir	VERB	VERB	_	57	parataxis	_	TokenRange=533:540
+77	partir	partir	VERB	VERB	_	76	xcomp	_	TokenRange=541:547
+78	minuto	minuto	NOUN	NOUN	_	77	nmod	_	TokenRange=548:554
+79	320	_	NUM	NUM	NumType=Card	78	appos	_	TokenRange=555:558
+80	video	video	NOUN	NOUN	_	77	parataxis	_	TokenRange=559:564
+81	abaixo	abaixo	ADV	ADV	_	76	advmod	_	SpaceAfter=No|TokenRange=565:571
+

@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reajuste salario minimo fica abaixo inflacao reajuste salario minimo ficou abaixo inflacao 2017 divulgada nesta quartafeira 10 ibge calculo feito base inpc indice nacional precos consumidor encerrou ano acumulado 207 governo entanto utilizou percentual 181 calcular reajuste entrou vigor 1 janeiro caso corrigido inflacao observada salario minimo subido r
+1	reajuste	reajuste	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	salario	salario	NOUN	NOUN	_	1	flat	_	TokenRange=9:16
+3	minimo	minimo	ADJ	ADJ	_	1	amod	_	TokenRange=17:23
+4	fica	ficar	VERB	VERB	_	0	root	_	TokenRange=24:28
+5	abaixo	abaixo	ADV	ADV	_	4	advmod	_	TokenRange=29:35
+6	inflacao	inflacao	ADJ	ADJ	_	4	xcomp	_	TokenRange=36:44
+7	reajuste	reajuste	NOUN	NOUN	_	10	nsubj	_	TokenRange=45:53
+8	salario	salario	NOUN	NOUN	_	7	appos	_	TokenRange=54:61
+9	minimo	minimo	ADJ	ADJ	_	7	amod	_	TokenRange=62:68
+10	ficou	ficar	VERB	VERB	_	4	parataxis	_	TokenRange=69:74
+11	abaixo	abaixo	ADV	ADV	_	10	advmod	_	TokenRange=75:81
+12	inflacao	inflacao	NOUN	NOUN	_	10	obj	_	TokenRange=82:90
+13	2017	_	NUM	NUM	NumType=Card	12	appos	_	TokenRange=91:95
+14	divulgada	divulgar	VERB	VERB	_	12	acl	_	TokenRange=96:105
+15	nesta	_	ADP	ADP	_	16	case	_	TokenRange=106:111
+16	quartafeira	_	NOUN	NOUN	_	14	nmod	_	TokenRange=112:123
+17	10	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=124:126
+18	ibge	ibge	NOUN	NOUN	_	14	parataxis	_	TokenRange=127:131
+19	calculo	calculo	NOUN	NOUN	_	14	nsubj	_	TokenRange=132:139
+20	feito	_	VERB	VERB	_	19	acl	_	TokenRange=140:145
+21	base	base	NOUN	NOUN	_	20	obj	_	TokenRange=146:150
+22	inpc	_	X	NOUN	_	23	appos	_	TokenRange=151:155
+23	indice	indice	NOUN	NOUN	_	19	appos	_	TokenRange=156:162
+24	nacional	nacional	ADJ	ADJ	_	23	amod	_	TokenRange=163:171
+25	precos	preco	NOUN	NOUN	_	23	amod	_	TokenRange=172:178
+26	consumidor	consumidor	ADJ	ADJ	_	23	amod	_	TokenRange=179:189
+27	encerrou	encerrar	VERB	VERB	_	4	parataxis	_	TokenRange=190:198
+28	ano	ano	NOUN	NOUN	_	27	obj	_	TokenRange=199:202
+29	acumulado	acumulado	ADJ	ADJ	_	28	amod	_	TokenRange=203:212
+30	207	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=213:216
+31	governo	governo	NOUN	NOUN	_	33	nsubj	_	TokenRange=217:224
+32	entanto	entanto	ADV	ADV	_	33	advmod	_	TokenRange=225:232
+33	utilizou	utilizar	VERB	VERB	_	27	conj	_	TokenRange=233:241
+34	percentual	_	NOUN	NOUN	_	33	obj	_	TokenRange=242:252
+35	181	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=253:256
+36	calcular	calcular	VERB	VERB	_	34	acl:inf	_	TokenRange=257:265
+37	reajuste	reajuste	NOUN	NOUN	_	36	obj	_	TokenRange=266:274
+38	entrou	entrar	VERB	VERB	_	33	parataxis	_	TokenRange=275:281
+39	vigor	vigor	NOUN	NOUN	_	38	obj	_	TokenRange=282:287
+40	1	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=288:289
+41	janeiro	_	PROPN	PNOUN	_	38	nmod	_	TokenRange=290:297
+42	caso	caso	NOUN	NOUN	_	43	mark	_	TokenRange=298:302
+43	corrigido	corrigir	VERB	VERB	_	38	advcl	_	TokenRange=303:312
+44	inflacao	inflacao	NOUN	NOUN	_	43	obj	_	TokenRange=313:321
+45	observada	observado	ADJ	ADJ	_	44	amod	_	TokenRange=322:331
+46	salario	salario	NOUN	NOUN	_	43	obj	_	TokenRange=332:339
+47	minimo	minimo	ADJ	ADJ	_	46	amod	_	TokenRange=340:346
+48	subido	subido	ADJ	ADJ	_	46	amod	_	TokenRange=347:353
+49	r	_	X	.	_	46	appos	_	SpaceAfter=No|TokenRange=354:355
+

@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer diz segue presidencia pede suspensao inquerito investiga presidente afirmou gravacao conversa empresario joesley batista manipulada objetivos subterraneos fez segundo pronunciamento tres dias presidente michel temer afirmou nesta sabado 20 pronunciamento 12 minutos meio palacio planalto ingressara supremo tribunal federal stf pedido suspensao inquerito aberto autorizacao ministro edson fachin investigalo suspeita corrupcao passiva obstrucao justica organizacao criminosa pedido protocolado volta 16h concluido pronunciamento afirmou deixara presidencia republica digo toda seguranca brasil saira trilhos continuarei frente governo noite 7 marco deste ano temer recebeu empresario joesley batista dono
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	segue	_	ADJ	ADJ	_	2	ccomp	_	TokenRange=10:15
+4	presidencia	presidencia	NOUN	NOUN	_	5	nsubj	_	TokenRange=16:27
+5	pede	pedir	VERB	VERB	_	2	ccomp	_	TokenRange=28:32
+6	suspensao	suspensao	NOUN	NOUN	_	5	obj	_	TokenRange=33:42
+7	inquerito	inquerito	ADJ	ADJ	_	6	amod	_	TokenRange=43:52
+8	investiga	investigar	VERB	VERB	_	9	amod	_	TokenRange=53:62
+9	presidente	presidente	NOUN	NOUN	_	10	nsubj	_	TokenRange=63:73
+10	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=74:81
+11	gravacao	gravacao	NOUN	NOUN	_	10	obj	_	TokenRange=82:90
+12	conversa	_	ADJ	ADJ	_	13	amod	_	TokenRange=91:99
+13	empresario	empresario	NOUN	NOUN	_	10	obj	_	TokenRange=100:110
+14	joesley	_	NOUN	NOUN	_	13	appos	_	TokenRange=111:118
+15	batista	batista	ADJ	NOUN	_	14	flat	_	TokenRange=119:126
+16	manipulada	manipular	VERB	VERB	_	17	acl	_	TokenRange=127:137
+17	objetivos	objetivo	NOUN	NOUN	_	19	obj	_	TokenRange=138:147
+18	subterraneos	subterraneo	ADJ	ADJ	_	17	amod	_	TokenRange=148:160
+19	fez	fazer	VERB	VERB	_	2	parataxis	_	TokenRange=161:164
+20	segundo	segundo	ADJ	ADJ	_	21	amod	_	TokenRange=165:172
+21	pronunciamento	pronunciamento	NOUN	NOUN	_	19	obj	_	TokenRange=173:187
+22	tres	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=188:192
+23	dias	dia	NOUN	NOUN	_	19	nmod	_	TokenRange=193:197
+24	presidente	presidente	NOUN	NOUN	_	19	nsubj	_	TokenRange=198:208
+25	michel	michel	ADJ	ADJ	_	26	amod	_	TokenRange=209:215
+26	temer	temer	NOUN	NOUN	_	24	appos	_	TokenRange=216:221
+27	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=222:229
+28	nesta	_	ADP	ADP	_	29	case	_	TokenRange=230:235
+29	sabado	_	PROPN	PNOUN	_	27	nmod	_	TokenRange=236:242
+30	20	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=243:245
+31	pronunciamento	pronunciamento	NOUN	NOUN	_	27	obj	_	TokenRange=246:260
+32	12	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=261:263
+33	minutos	minuto	NOUN	NOUN	_	37	nmod	_	TokenRange=264:271
+34	meio	meio	ADJ	ADJ	_	35	amod	_	TokenRange=272:276
+35	palacio	palacio	NOUN	NOUN	_	37	nsubj	_	TokenRange=277:284
+36	planalto	planalto	ADJ	ADJ	_	35	amod	_	TokenRange=285:293
+37	ingressara	ingressar	VERB	VERB	_	27	parataxis	_	TokenRange=294:304
+38	supremo	supremo	ADJ	ADJ	_	39	amod	_	TokenRange=305:312
+39	tribunal	tribunal	NOUN	NOUN	_	37	obj	_	TokenRange=313:321
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=322:329
+41	stf	_	NOUN	NOUN	_	42	appos	_	TokenRange=330:333
+42	pedido	pedido	NOUN	NOUN	_	37	nsubj	_	TokenRange=334:340
+43	suspensao	suspensao	ADJ	ADJ	_	42	amod	_	TokenRange=341:350
+44	inquerito	inquerito	NOUN	NOUN	_	42	amod	_	TokenRange=351:360
+45	aberto	aberto	ADJ	ADJ	_	47	amod	_	TokenRange=361:367
+46	autorizacao	autorizacao	ADJ	ADJ	_	47	amod	_	TokenRange=368:379
+47	ministro	ministro	NOUN	NOUN	_	37	nsubj	_	TokenRange=380:388
+48	edson	_	NOUN	NOUN	_	47	appos	_	TokenRange=389:394
+49	fachin	_	NOUN	NOUN	_	47	flat	_	TokenRange=395:401
+50	investigalo	investigalo	VERB	VERB	_	47	appos	_	TokenRange=402:413
+51	suspeita	_	ADJ	ADJ	_	52	amod	_	TokenRange=414:422
+52	corrupcao	corrupcao	NOUN	NOUN	_	50	obj	_	TokenRange=423:432
+53	passiva	passivo	ADJ	ADJ	_	52	amod	_	TokenRange=433:440
+54	obstrucao	obstrucao	NOUN	NOUN	_	52	amod	_	TokenRange=441:450
+55	justica	justico	ADJ	ADJ	_	52	amod	_	TokenRange=451:458
+56	organizacao	organizacao	NOUN	NOUN	_	52	appos	_	TokenRange=459:470
+57	criminosa	criminoso	ADJ	ADJ	_	56	amod	_	TokenRange=471:480
+58	pedido	pedido	NOUN	NOUN	_	56	appos	_	TokenRange=481:487
+59	protocolado	protocolado	ADJ	ADJ	_	56	amod	_	TokenRange=488:499
+60	volta	volta	NOUN	NOUN	_	58	appos	_	TokenRange=500:505
+61	16h	_	NUM	NUM	NumType=Card	60	appos	_	TokenRange=506:509
+62	concluido	concluir	ADJ	ADJ	_	63	acl	_	TokenRange=510:519
+63	pronunciamento	pronunciamento	NOUN	NOUN	_	64	nsubj	_	TokenRange=520:534
+64	afirmou	afirmar	VERB	VERB	_	58	acl:relcl	_	TokenRange=535:542
+65	deixara	deixar	VERB	VERB	_	64	xcomp	_	TokenRange=543:550
+66	presidencia	presidencia	NOUN	NOUN	_	65	obj	_	TokenRange=551:562
+67	republica	republico	ADJ	ADJ	_	66	amod	_	TokenRange=563:572
+68	digo	dizer	VERB	VERB	_	65	conj	_	TokenRange=573:577
+69	toda	_	DET	DET	_	70	det	_	TokenRange=578:582
+70	seguranca	_	NOUN	NOUN	_	68	obj	_	TokenRange=583:592
+71	brasil	brasil	ADJ	ADJ	_	70	amod	_	TokenRange=593:599
+72	saira	_	VERB	VERB	_	68	ccomp	_	TokenRange=600:605
+73	trilhos	trilho	NOUN	NOUN	_	72	nsubj	_	TokenRange=606:613
+74	continuarei	continuar	VERB	VERB	_	68	parataxis	_	TokenRange=614:625
+75	frente	frente	NOUN	NOUN	_	74	nmod	_	TokenRange=626:632
+76	governo	governo	NOUN	NOUN	_	75	amod	_	TokenRange=633:640
+77	noite	noite	NOUN	NOUN	_	83	nmod	_	TokenRange=641:646
+78	7	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=647:648
+79	marco	_	PROPN	PNOUN	_	77	appos	_	TokenRange=649:654
+80	deste	_	ADP	ADP	_	81	case	_	TokenRange=655:660
+81	ano	ano	NOUN	NOUN	_	79	nmod	_	TokenRange=661:664
+82	temer	temer	NOUN	NOUN	_	83	nsubj	_	TokenRange=665:670
+83	recebeu	receber	VERB	VERB	_	2	parataxis	_	TokenRange=671:678
+84	empresario	empresario	NOUN	NOUN	_	83	obj	_	TokenRange=679:689
+85	joesley	_	NOUN	NOUN	_	84	appos	_	TokenRange=690:697
+86	batista	batista	ADJ	ADJ	_	85	flat	_	TokenRange=698:705
+87	dono	dono	NOUN	NOUN	_	84	appos	_	SpaceAfter=No|TokenRange=706:710
+

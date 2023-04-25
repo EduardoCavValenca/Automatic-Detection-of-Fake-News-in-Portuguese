@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = atingiram olho vao calar professora agredida aluno denuncia mensagens odio exposicao caso redes sociais desencadeou nova onda ataques contra marcia friggi sangue escorria abertura supercilio manchava rosto marcia friggi 51 anos olho esquerdo brotavam lagrimas direito atingido soco tao inchado professora
+1	atingiram	atingir	VERB	VERB	_	0	root	_	TokenRange=0:9
+2	olho	olho	NOUN	NOUN	_	1	obj	_	TokenRange=10:14
+3	vao	_	NOUN	NOUN	_	4	mark	_	TokenRange=15:18
+4	calar	calar	VERB	VERB	_	2	acl:relcl	_	TokenRange=19:24
+5	professora	professor	NOUN	NOUN	_	4	obj	_	TokenRange=25:35
+6	agredida	agredido	ADJ	ADJ	_	7	amod	_	TokenRange=36:44
+7	aluno	aluno	NOUN	NOUN	_	8	nsubj	_	TokenRange=45:50
+8	denuncia	denunciar	VERB	VERB	_	1	parataxis	_	TokenRange=51:59
+9	mensagens	mensagem	NOUN	NOUN	_	8	obj	_	TokenRange=60:69
+10	odio	odio	NOUN	NOUN	_	9	appos	_	TokenRange=70:74
+11	exposicao	exposicao	NOUN	NOUN	_	9	appos	_	TokenRange=75:84
+12	caso	_	NOUN	NOUN	_	13	flat	_	TokenRange=85:89
+13	redes	rede	NOUN	NOUN	_	11	appos	_	TokenRange=90:95
+14	sociais	social	ADJ	ADJ	_	13	amod	_	TokenRange=96:103
+15	desencadeou	desencadear	VERB	VERB	_	1	parataxis	_	TokenRange=104:115
+16	nova	novo	ADJ	ADJ	_	17	amod	_	TokenRange=116:120
+17	onda	onda	NOUN	NOUN	_	15	obj	_	TokenRange=121:125
+18	ataques	ataque	NOUN	NOUN	_	15	obj	_	TokenRange=126:133
+19	contra	_	ADP	ADP	_	20	case	_	TokenRange=134:140
+20	marcia	marcia	NOUN	NOUN	_	18	nmod	_	TokenRange=141:147
+21	friggi	friggi	NOUN	NOUN	_	20	flat	_	TokenRange=148:154
+22	sangue	sangue	NOUN	NOUN	_	20	appos	_	TokenRange=155:161
+23	escorria	escorrio	ADJ	ADJ	_	24	amod	_	TokenRange=162:170
+24	abertura	abertura	NOUN	NOUN	_	26	nsubj	_	TokenRange=171:179
+25	supercilio	_	NOUN	NOUN	_	24	flat	_	TokenRange=180:190
+26	manchava	manchar	VERB	VERB	_	20	acl:relcl	_	TokenRange=191:199
+27	rosto	rosto	NOUN	NOUN	_	26	obj	_	TokenRange=200:205
+28	marcia	marcia	NOUN	NOUN	_	27	appos	_	TokenRange=206:212
+29	friggi	friggi	ADJ	ADJ	_	28	flat	_	TokenRange=213:219
+30	51	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=220:222
+31	anos	ano	NOUN	NOUN	_	26	nsubj	_	TokenRange=223:227
+32	olho	olho	NOUN	NOUN	_	34	nsubj	_	TokenRange=228:232
+33	esquerdo	esquerdo	ADJ	ADJ	_	32	amod	_	TokenRange=233:241
+34	brotavam	brotar	VERB	VERB	_	1	parataxis	_	TokenRange=242:250
+35	lagrimas	_	NOUN	NOUN	_	34	obj	_	TokenRange=251:259
+36	direito	direito	ADJ	ADJ	_	35	amod	_	TokenRange=260:267
+37	atingido	atingido	ADJ	ADJ	_	35	amod	_	TokenRange=268:276
+38	soco	soco	NOUN	NOUN	_	35	appos	_	TokenRange=277:281
+39	tao	tao	ADV	ADV	_	40	advmod	_	TokenRange=282:285
+40	inchado	inchado	ADJ	ADJ	_	41	amod	_	TokenRange=286:293
+41	professora	professor	NOUN	NOUN	_	35	appos	_	SpaceAfter=No|TokenRange=294:304
+

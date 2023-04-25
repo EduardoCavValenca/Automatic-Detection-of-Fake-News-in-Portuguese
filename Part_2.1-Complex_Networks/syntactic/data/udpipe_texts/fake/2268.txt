@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senador pt declara vencerem vamos ruas dias terriveis senador dava entrevista salao verde camara prometia vencerem vamos levantar vamos profunda instabilidade brasil movimentos sociais vao levantar dias terriveis fonte antagonista
+1	senador	senador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	pt	_	NOUN	NOUN	_	1	appos	_	TokenRange=8:10
+3	declara	declarar	VERB	VERB	_	0	root	_	TokenRange=11:18
+4	vencerem	vencer	VERB	VERB	_	3	xcomp	_	TokenRange=19:27
+5	vamos	ir	AUX	AUX	_	6	cop	_	TokenRange=28:33
+6	ruas	rua	NOUN	NOUN	_	4	obj	_	TokenRange=34:38
+7	dias	dia	NOUN	NOUN	_	3	nsubj	_	TokenRange=39:43
+8	terriveis	terrivel	ADJ	ADJ	_	7	amod	_	TokenRange=44:53
+9	senador	senador	NOUN	NOUN	_	10	nsubj	_	TokenRange=54:61
+10	dava	dar	VERB	VERB	_	3	conj	_	TokenRange=62:66
+11	entrevista	entrevista	NOUN	NOUN	_	10	obj	_	TokenRange=67:77
+12	salao	salao	NOUN	NOUN	_	11	appos	_	TokenRange=78:83
+13	verde	verde	ADJ	ADJ	_	12	amod	_	TokenRange=84:89
+14	camara	camara	NOUN	NOUN	_	15	nsubj	_	TokenRange=90:96
+15	prometia	prometer	VERB	VERB	_	10	parataxis	_	TokenRange=97:105
+16	vencerem	vencer	VERB	VERB	_	15	xcomp	_	TokenRange=106:114
+17	vamos	ir	AUX	AUX	_	18	aux	_	TokenRange=115:120
+18	levantar	levantar	VERB	VERB	_	15	ccomp	_	TokenRange=121:129
+19	vamos	ir	AUX	AUX	_	26	aux	_	TokenRange=130:135
+20	profunda	profundo	ADJ	ADJ	_	21	amod	_	TokenRange=136:144
+21	instabilidade	instabilidade	NOUN	NOUN	_	26	obj	_	TokenRange=145:158
+22	brasil	brasil	ADJ	ADJ	_	23	amod	_	TokenRange=159:165
+23	movimentos	movimento	NOUN	NOUN	_	26	nsubj	_	TokenRange=166:176
+24	sociais	social	ADJ	ADJ	_	23	amod	_	TokenRange=177:184
+25	vao	ir	AUX	AUX	_	26	aux	_	TokenRange=185:188
+26	levantar	levantar	VERB	VERB	_	3	parataxis	_	TokenRange=189:197
+27	dias	dia	NOUN	NOUN	_	26	obj	_	TokenRange=198:202
+28	terriveis	terrivel	ADJ	ADJ	_	27	amod	_	TokenRange=203:212
+29	fonte	fonte	NOUN	NOUN	_	26	obj	_	TokenRange=213:218
+30	antagonista	antagonista	ADJ	ADJ	_	29	amod	_	SpaceAfter=No|TokenRange=219:230
+

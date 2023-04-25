@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = expresidente camara ribeirao preto volta presidio apos cirurgia nariz walter gomes deve ficar cdp serra azul sp alguns dias porque consultas agendadas exvereador fez correcao desvio septo porque respiracao comprometida expresidente camara ribeirao preto sp walter gomes deixou hospital neste domingo 5 tres dias apos submetido cirurgia correcao desvio septo segundo advogado julio mossin
+1	expresidente	expresidente	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:12
+2	camara	camara	NOUN	NOUN	_	1	flat	_	TokenRange=13:19
+3	ribeirao	ribeirao	NOUN	NOUN	_	1	amod	_	TokenRange=20:28
+4	preto	preto	ADJ	ADJ	_	1	amod	_	TokenRange=29:34
+5	volta	volta	NOUN	NOUN	_	0	root	_	TokenRange=35:40
+6	presidio	presidio	NOUN	NOUN	_	5	flat	_	TokenRange=41:49
+7	apos	_	ADP	ADP	_	8	case	_	TokenRange=50:54
+8	cirurgia	cirurgia	NOUN	NOUN	_	13	nmod	_	TokenRange=55:63
+9	nariz	nariz	NOUN	NOUN	_	8	flat	_	TokenRange=64:69
+10	walter	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=70:76
+11	gomes	gome	NOUN	NOUN	_	10	flat	_	TokenRange=77:82
+12	deve	dever	AUX	AUX	_	13	aux	_	TokenRange=83:87
+13	ficar	ficar	VERB	VERB	_	5	conj	_	TokenRange=88:93
+14	cdp	_	ADP	ADP	_	15	case	_	TokenRange=94:97
+15	serra	serra	NOUN	NOUN	_	13	nmod	_	TokenRange=98:103
+16	azul	azul	ADJ	ADJ	_	15	amod	_	TokenRange=104:108
+17	sp	_	ADP	ADP	_	24	mark	_	TokenRange=109:111
+18	alguns	_	DET	DET	_	19	det	_	TokenRange=112:118
+19	dias	dia	NOUN	NOUN	_	13	nmod	_	TokenRange=119:123
+20	porque	_	CCONJ	CONJ	_	24	mark	_	TokenRange=124:130
+21	consultas	consulta	NOUN	NOUN	_	24	nsubj	_	TokenRange=131:140
+22	agendadas	agendado	ADJ	ADJ	_	21	amod	_	TokenRange=141:150
+23	exvereador	exvereador	NOUN	NOUN	_	21	amod	_	TokenRange=151:161
+24	fez	fazer	VERB	VERB	_	13	advcl	_	TokenRange=162:165
+25	correcao	correcao	NOUN	NOUN	_	24	obj	_	TokenRange=166:174
+26	desvio	desvio	NOUN	NOUN	_	25	amod	_	TokenRange=175:181
+27	septo	septo	NOUN	NOUN	_	25	flat	_	TokenRange=182:187
+28	porque	_	CCONJ	CONJ	_	38	mark	_	TokenRange=188:194
+29	respiracao	respiracao	NOUN	NOUN	_	38	nsubj	_	TokenRange=195:205
+30	comprometida	comprometido	ADJ	ADJ	_	31	amod	_	TokenRange=206:218
+31	expresidente	expresidente	NOUN	NOUN	_	38	nsubj	_	TokenRange=219:231
+32	camara	camara	ADJ	NOUN	_	31	amod	_	TokenRange=232:238
+33	ribeirao	ribeirao	NOUN	NOUN	_	31	amod	_	TokenRange=239:247
+34	preto	preto	ADJ	ADJ	_	31	amod	_	TokenRange=248:253
+35	sp	_	ADJ	ADJ	_	31	amod	_	TokenRange=254:256
+36	walter	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=257:263
+37	gomes	gomes	NOUN	NOUN	_	36	flat	_	TokenRange=264:269
+38	deixou	deixar	VERB	VERB	_	24	advcl	_	TokenRange=270:276
+39	hospital	hospital	NOUN	NOUN	_	38	obj	_	TokenRange=277:285
+40	neste	_	ADP	ADP	_	41	case	_	TokenRange=286:291
+41	domingo	_	PROPN	PNOUN	_	38	nmod	_	TokenRange=292:299
+42	5	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=300:301
+43	tres	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=302:306
+44	dias	dia	NOUN	NOUN	_	41	nmod	_	TokenRange=307:311
+45	apos	_	ADP	ADP	_	46	mark	_	TokenRange=312:316
+46	submetido	submeter	VERB	VERB	_	44	acl	_	TokenRange=317:326
+47	cirurgia	cirurgia	NOUN	NOUN	_	46	nsubj	_	TokenRange=327:335
+48	correcao	correcao	VERB	VERB	_	47	appos	_	TokenRange=336:344
+49	desvio	desvio	NOUN	NOUN	_	48	flat	_	TokenRange=345:351
+50	septo	septo	NOUN	NOUN	_	48	flat	_	TokenRange=352:357
+51	segundo	_	ADP	ADP	_	52	case	_	TokenRange=358:365
+52	advogado	advogado	NOUN	NOUN	_	38	nmod	_	TokenRange=366:374
+53	julio	_	PROPN	PNOUN	_	52	appos	_	TokenRange=375:380
+54	mossin	_	PROPN	PNOUN	_	53	flat	_	SpaceAfter=No|TokenRange=381:387
+

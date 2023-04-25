@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vou brigar ultimas consequencias diz lula apos anuncio julgamento expresidente luiz inacio lula silva disse nesta quartafeira 13 vai esconder atras candidatura brigara ultimas consequencias disputar palacio planalto 2018 lula afirmou investigadores lava jato provarem culpado havera condicao moral saia candidato desafiou ministerio publico federal apresentar provas contra quero candidato presidente escondido candidatura porque culpado quer preso quero inocentado poder candidato apresentarem provas contra mim todas acusacoes
+1	vou	ir	AUX	AUX	_	2	aux	_	TokenRange=0:3
+2	brigar	brigar	VERB	VERB	_	0	root	_	TokenRange=4:10
+3	ultimas	_	ADJ	ADJ	_	4	amod	_	TokenRange=11:18
+4	consequencias	_	NOUN	NOUN	_	2	obj	_	TokenRange=19:32
+5	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=33:36
+6	lula	lula	NOUN	NOUN	_	5	nsubj	_	TokenRange=37:41
+7	apos	_	ADP	ADP	_	8	case	_	TokenRange=42:46
+8	anuncio	anuncio	NOUN	NOUN	_	15	nmod	_	TokenRange=47:54
+9	julgamento	julgamento	NOUN	NOUN	_	8	appos	_	TokenRange=55:65
+10	expresidente	expresidente	NOUN	NOUN	_	9	amod	_	TokenRange=66:78
+11	luiz	luiz	NOUN	NOUN	_	9	appos	_	TokenRange=79:83
+12	inacio	_	NOUN	NOUN	_	11	flat	_	TokenRange=84:90
+13	lula	lula	NOUN	NOUN	_	11	flat	_	TokenRange=91:95
+14	silva	silva	NOUN	NOUN	_	11	flat	_	TokenRange=96:101
+15	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=102:107
+16	nesta	_	ADP	ADP	_	17	case	_	TokenRange=108:113
+17	quartafeira	_	NOUN	NOUN	_	15	nmod	_	TokenRange=114:125
+18	13	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=126:128
+19	vai	ir	AUX	AUX	_	20	aux	_	TokenRange=129:132
+20	esconder	esconder	VERB	VERB	_	15	ccomp	_	TokenRange=133:141
+21	atras	_	ADV	ADV	_	20	advmod	_	TokenRange=142:147
+22	candidatura	candidatura	NOUN	NOUN	_	23	nsubj	_	TokenRange=148:159
+23	brigara	brigar	VERB	VERB	_	20	ccomp	_	TokenRange=160:167
+24	ultimas	_	ADJ	ADJ	_	25	amod	_	TokenRange=168:175
+25	consequencias	_	NOUN	NOUN	_	23	obj	_	TokenRange=176:189
+26	disputar	disputar	VERB	VERB	_	23	ccomp	_	TokenRange=190:198
+27	palacio	palacio	NOUN	NOUN	_	26	obj	_	TokenRange=199:206
+28	planalto	planalto	ADJ	ADJ	_	27	amod	_	TokenRange=207:215
+29	2018	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=216:220
+30	lula	lula	NOUN	NOUN	_	31	nsubj	_	TokenRange=221:225
+31	afirmou	afirmar	VERB	VERB	_	15	parataxis	_	TokenRange=226:233
+32	investigadores	investigador	NOUN	NOUN	_	31	obj	_	TokenRange=234:248
+33	lava	lavar	VERB	VERB	_	31	ccomp	_	TokenRange=249:253
+34	jato	jato	NOUN	NOUN	_	35	obj	_	TokenRange=254:258
+35	provarem	provar	VERB	VERB	_	33	ccomp	_	TokenRange=259:267
+36	culpado	culpado	NOUN	NOUN	_	35	obj	_	TokenRange=268:275
+37	havera	haver	VERB	VERB	_	35	ccomp	_	TokenRange=276:282
+38	condicao	condicao	NOUN	NOUN	_	37	obj	_	TokenRange=283:291
+39	moral	moral	ADJ	ADJ	_	38	amod	_	TokenRange=292:297
+40	saia	sair	NOUN	VERB	_	42	nsubj	_	TokenRange=298:302
+41	candidato	candidato	NOUN	NOUN	_	42	nsubj	_	TokenRange=303:312
+42	desafiou	desafiar	VERB	VERB	_	33	conj	_	TokenRange=313:321
+43	ministerio	ministerio	NOUN	NOUN	_	42	obj	_	TokenRange=322:332
+44	publico	_	ADJ	ADJ	_	43	amod	_	TokenRange=333:340
+45	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=341:348
+46	apresentar	apresentar	VERB	VERB	_	42	xcomp	_	TokenRange=349:359
+47	provas	prova	NOUN	NOUN	_	46	obj	_	TokenRange=360:366
+48	contra	_	ADP	ADP	_	49	mark	_	TokenRange=367:373
+49	quero	quero	NOUN	NOUN	_	47	nmod	_	TokenRange=374:379
+50	candidato	candidato	NOUN	NOUN	_	49	obj	_	TokenRange=380:389
+51	presidente	presidente	NOUN	NOUN	_	50	flat	_	TokenRange=390:400
+52	escondido	escondido	ADJ	ADJ	_	50	amod	_	TokenRange=401:410
+53	candidatura	candidatura	NOUN	NOUN	_	50	appos	_	TokenRange=411:422
+54	porque	_	CCONJ	CONJ	_	56	mark	_	TokenRange=423:429
+55	culpado	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=430:437
+56	quer	querer	VERB	VERB	_	58	advcl	_	TokenRange=438:442
+57	preso	_	ADJ	ADJ	_	56	xcomp	_	TokenRange=443:448
+58	quero	querer	VERB	VERB	_	53	acl:relcl	_	TokenRange=449:454
+59	inocentado	inocentado	ADJ	ADJ	_	58	xcomp	_	TokenRange=455:465
+60	poder	poder	NOUN	NOUN	_	62	nsubj	_	TokenRange=466:471
+61	candidato	candidato	NOUN	NOUN	_	67	flat	_	TokenRange=472:481
+62	apresentarem	apresentar	VERB	VERB	_	58	ccomp	_	TokenRange=482:494
+63	provas	prova	NOUN	NOUN	_	62	obj	_	TokenRange=495:501
+64	contra	_	ADP	ADP	_	65	case	_	TokenRange=502:508
+65	mim	_	PRON	PRON	_	63	nmod	_	TokenRange=509:512
+66	todas	_	DET	DET	_	67	det	_	TokenRange=513:518
+67	acusacoes	acusacoe	NOUN	NOUN	_	62	obj	_	SpaceAfter=No|TokenRange=519:528
+

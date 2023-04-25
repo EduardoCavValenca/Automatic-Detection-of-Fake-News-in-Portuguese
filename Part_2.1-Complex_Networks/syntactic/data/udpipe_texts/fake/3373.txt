@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video imperdivel 1979 lula explica comunista profissional diria lula criticando comunistas politicos profissionais entrevista 1979 palavras lula maior charlatao existiu historia brasil politicos profissionais dizem pobres pregam distribuicao renda epoca eleicoes gastam fortunas eleger
+1	video	video	NOUN	NOUN	_	0	root	_	TokenRange=0:5
+2	imperdivel	imperdivel	ADJ	ADJ	_	1	amod	_	TokenRange=6:16
+3	1979	_	NUM	NUM	NumType=Card	5	nsubj	_	TokenRange=17:21
+4	lula	lula	NOUN	NOUN	_	5	nsubj	_	TokenRange=22:26
+5	explica	explicar	VERB	VERB	_	1	acl:relcl	_	TokenRange=27:34
+6	comunista	comunista	NOUN	NOUN	_	5	obj	_	TokenRange=35:44
+7	profissional	profissional	ADJ	ADJ	_	6	amod	_	TokenRange=45:57
+8	diria	dir	VERB	VERB	_	5	parataxis	_	TokenRange=58:63
+9	lula	lula	NOUN	NOUN	_	8	obj	_	TokenRange=64:68
+10	criticando	criticar	VERB	VERB	_	9	acl	_	TokenRange=69:79
+11	comunistas	comunista	NOUN	NOUN	_	10	obj	_	TokenRange=80:90
+12	politicos	politico	ADJ	ADJ	_	11	amod	_	TokenRange=91:100
+13	profissionais	profissional	ADJ	ADJ	_	11	amod	_	TokenRange=101:114
+14	entrevista	entrevista	NOUN	NOUN	_	11	appos	_	TokenRange=115:125
+15	1979	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=126:130
+16	palavras	palavra	NOUN	NOUN	_	14	appos	_	TokenRange=131:139
+17	lula	lula	NOUN	NOUN	_	16	appos	_	TokenRange=140:144
+18	maior	maior	ADJ	ADJ	_	16	amod	_	TokenRange=145:150
+19	charlatao	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=151:160
+20	existiu	existir	VERB	VERB	_	5	parataxis	_	TokenRange=161:168
+21	historia	historia	NOUN	NOUN	_	20	obj	_	TokenRange=169:177
+22	brasil	brasil	ADJ	NOUN	_	21	amod	_	TokenRange=178:184
+23	politicos	politico	NOUN	NOUN	_	21	appos	_	TokenRange=185:194
+24	profissionais	profissional	ADJ	ADJ	_	23	amod	_	TokenRange=195:208
+25	dizem	dizer	VERB	VERB	_	20	parataxis	_	TokenRange=209:214
+26	pobres	pobre	NOUN	NOUN	_	25	obj	_	TokenRange=215:221
+27	pregam	pregar	VERB	VERB	_	25	ccomp	_	TokenRange=222:228
+28	distribuicao	distribuicao	NOUN	NOUN	_	27	obj	_	TokenRange=229:241
+29	renda	renda	NOUN	NOUN	_	28	flat	_	TokenRange=242:247
+30	epoca	epoca	ADJ	ADJ	_	32	nsubj	_	TokenRange=248:253
+31	eleicoes	eleicoe	NOUN	NOUN	_	32	nsubj	_	TokenRange=254:262
+32	gastam	gastar	VERB	VERB	_	27	conj	_	TokenRange=263:269
+33	fortunas	fortuna	NOUN	NOUN	_	34	obj	_	TokenRange=270:278
+34	eleger	eleger	VERB	VERB	_	32	ccomp	_	SpaceAfter=No|TokenRange=279:285
+

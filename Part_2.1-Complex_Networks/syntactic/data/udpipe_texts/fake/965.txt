@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = amigo gleisi lula ameaca prender internautas tuitarem contra governo 30 anos cadeia doente mental ditador venezuela nicolas maduro disse hoje 03 ira prender venezuelanos pessoas postarem mensagens redes sociais contra governo maduro ameacou prender opositores 30 anos durante transmissao feita canal estatal vtv venezolana television declarou dia ultimo dia 30 integrantes oposicao perderam respeito comigo publicaram tuites ofenderam lider maior patria venezuelana pessoas merecem trancafiadas cadeia trinta anos desafiar governo punido severamente tipo pessoa perturbada pt gleisi hoffmann lula lindbergh asseclas defendem unhas dentes cuida maduro trump caminho venezuela
+1	amigo	amigo	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	gleisi	_	NOUN	NOUN	_	1	appos	_	TokenRange=6:12
+3	lula	_	NOUN	NOUN	_	1	flat	_	TokenRange=13:17
+4	ameaca	ameacar	VERB	VERB	_	0	root	_	TokenRange=18:24
+5	prender	prender	VERB	VERB	_	4	xcomp	_	TokenRange=25:32
+6	internautas	internauta	NOUN	NOUN	_	5	obj	_	TokenRange=33:44
+7	tuitarem	tuitar	VERB	VERB	_	5	parataxis	_	TokenRange=45:53
+8	contra	_	ADP	ADP	_	9	case	_	TokenRange=54:60
+9	governo	governo	NOUN	NOUN	_	7	nmod	_	TokenRange=61:68
+10	30	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=69:71
+11	anos	ano	NOUN	NOUN	_	7	nmod	_	TokenRange=72:76
+12	cadeia	cadeia	NOUN	NOUN	_	4	parataxis	_	TokenRange=77:83
+13	doente	doente	ADJ	ADJ	_	12	amod	_	TokenRange=84:90
+14	mental	mental	ADJ	ADJ	_	12	amod	_	TokenRange=91:97
+15	ditador	ditador	NOUN	NOUN	_	19	nsubj	_	TokenRange=98:105
+16	venezuela	_	ADJ	ADJ	_	15	amod	_	TokenRange=106:115
+17	nicolas	_	NOUN	NOUN	_	15	appos	_	TokenRange=116:123
+18	maduro	maduro	ADJ	NOUN	_	17	amod	_	TokenRange=124:130
+19	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=131:136
+20	hoje	hoje	ADV	ADV	_	19	advmod	_	TokenRange=137:141
+21	03	_	NUM	NUM	NumType=Card	23	nsubj	_	TokenRange=142:144
+22	ira	_	AUX	AUX	_	23	aux	_	TokenRange=145:148
+23	prender	prender	VERB	VERB	_	4	ccomp	_	TokenRange=149:156
+24	venezuelanos	_	ADJ	ADJ	_	25	amod	_	TokenRange=157:169
+25	pessoas	pessoa	NOUN	NOUN	_	26	nsubj	_	TokenRange=170:177
+26	postarem	postar	VERB	VERB	_	23	ccomp	_	TokenRange=178:186
+27	mensagens	mensagem	NOUN	NOUN	_	26	obj	_	TokenRange=187:196
+28	redes	rede	NOUN	NOUN	_	27	appos	_	TokenRange=197:202
+29	sociais	social	ADJ	ADJ	_	28	amod	_	TokenRange=203:210
+30	contra	_	ADP	ADP	_	31	case	_	TokenRange=211:217
+31	governo	governo	NOUN	NOUN	_	26	nmod	_	TokenRange=218:225
+32	maduro	maduro	ADJ	ADJ	_	31	amod	_	TokenRange=226:232
+33	ameacou	ameacar	VERB	VERB	_	4	parataxis	_	TokenRange=233:240
+34	prender	prender	VERB	VERB	_	33	xcomp	_	TokenRange=241:248
+35	opositores	opositor	NOUN	NOUN	_	34	obj	_	TokenRange=249:259
+36	30	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=260:262
+37	anos	ano	NOUN	NOUN	_	34	obj	_	TokenRange=263:267
+38	durante	_	ADP	ADP	_	39	case	_	TokenRange=268:275
+39	transmissao	transmissao	NOUN	NOUN	_	26	nmod	_	TokenRange=276:287
+40	feita	_	VERB	VERB	_	41	acl	_	TokenRange=288:293
+41	canal	canal	NOUN	NOUN	_	39	appos	_	TokenRange=294:299
+42	estatal	estatal	ADJ	ADJ	_	41	amod	_	TokenRange=300:307
+43	vtv	_	NOUN	NOUN	_	41	appos	_	TokenRange=308:311
+44	venezolana	venezolano	ADJ	ADJ	_	41	amod	_	TokenRange=312:322
+45	television	_	NOUN	NOUN	_	41	amod	_	TokenRange=323:333
+46	declarou	declarar	VERB	VERB	_	33	parataxis	_	TokenRange=334:342
+47	dia	dia	NOUN	NOUN	_	46	nmod	_	TokenRange=343:346
+48	ultimo	_	ADJ	ADJ	_	49	amod	_	TokenRange=347:353
+49	dia	dia	NOUN	NOUN	_	46	nmod	_	TokenRange=354:357
+50	30	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=358:360
+51	integrantes	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=361:372
+52	oposicao	_	NOUN	NOUN	_	51	amod	_	TokenRange=373:381
+53	perderam	perder	VERB	VERB	_	46	ccomp	_	TokenRange=382:390
+54	respeito	respeito	NOUN	NOUN	_	53	obj	_	TokenRange=391:399
+55	comigo	_	X	ADPPRON	_	56	mark	_	TokenRange=400:406
+56	publicaram	publicar	VERB	VERB	_	53	advcl	_	TokenRange=407:417
+57	tuites	tuite	NOUN	NOUN	_	56	obj	_	TokenRange=418:424
+58	ofenderam	ofender	VERB	VERB	_	56	ccomp	_	TokenRange=425:434
+59	lider	lider	NOUN	NOUN	_	58	nsubj	_	TokenRange=435:440
+60	maior	maior	ADJ	ADJ	_	61	amod	_	TokenRange=441:446
+61	patria	patria	NOUN	NOUN	_	58	nsubj	_	TokenRange=447:453
+62	venezuelana	venezuelano	ADJ	ADJ	_	61	amod	_	TokenRange=454:465
+63	pessoas	pessoa	NOUN	NOUN	_	64	nsubj	_	TokenRange=466:473
+64	merecem	merecer	VERB	VERB	_	58	parataxis	_	TokenRange=474:481
+65	trancafiadas	trancafiado	ADJ	ADJ	_	64	xcomp	_	TokenRange=482:494
+66	cadeia	cadeia	NOUN	NOUN	_	64	obj	_	TokenRange=495:501
+67	trinta	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=502:508
+68	anos	ano	NOUN	NOUN	_	69	nmod	_	TokenRange=509:513
+69	desafiar	desafiar	VERB	VERB	_	64	ccomp	_	TokenRange=514:522
+70	governo	governo	NOUN	NOUN	_	69	obj	_	TokenRange=523:530
+71	punido	punido	ADJ	ADJ	_	70	amod	_	TokenRange=531:537
+72	severamente	severamente	ADV	ADV	_	69	advmod	_	TokenRange=538:549
+73	tipo	tipo	NOUN	NOUN	_	69	obj	_	TokenRange=550:554
+74	pessoa	pessoa	NOUN	NOUN	_	73	flat	_	TokenRange=555:561
+75	perturbada	perturbado	ADJ	ADJ	_	74	amod	_	TokenRange=562:572
+76	pt	_	NOUN	NOUN	_	82	nsubj	_	TokenRange=573:575
+77	gleisi	_	NOUN	NOUN	_	76	appos	_	TokenRange=576:582
+78	hoffmann	_	NOUN	NOUN	_	77	flat	_	TokenRange=583:591
+79	lula	_	NOUN	NOUN	_	77	appos	_	TokenRange=592:596
+80	lindbergh	_	NOUN	NOUN	_	77	appos	_	TokenRange=597:606
+81	asseclas	_	NOUN	NOUN	_	79	flat	_	TokenRange=607:615
+82	defendem	defender	VERB	VERB	_	64	parataxis	_	TokenRange=616:624
+83	unhas	_	DET	DET	_	84	det	_	TokenRange=625:630
+84	dentes	dente	NOUN	NOUN	_	85	obj	_	TokenRange=631:637
+85	cuida	cuidar	VERB	VERB	_	82	parataxis	_	TokenRange=638:643
+86	maduro	maduro	NOUN	NOUN	_	85	obj	_	TokenRange=644:650
+87	trump	_	NOUN	NOUN	_	85	obj	_	TokenRange=651:656
+88	caminho	caminho	NOUN	NOUN	_	85	obj	_	TokenRange=657:664
+89	venezuela	_	ADJ	ADJ	_	88	amod	_	SpaceAfter=No|TokenRange=665:674
+

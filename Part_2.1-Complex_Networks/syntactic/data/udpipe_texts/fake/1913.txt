@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = carta demissao geddel avolumaramse criticas sobre mim cheguei limite dor avolumaramse criticas sobre mim salvador vejo sofrimento familiares conhece sabe limite dor suporto hora sair escreveu exministro
+1	carta	carta	NOUN	NOUN	_	26	nsubj	_	TokenRange=0:5
+2	demissao	demissao	NOUN	NOUN	_	1	flat	_	TokenRange=6:14
+3	geddel	_	NOUN	NOUN	_	1	appos	_	TokenRange=15:21
+4	avolumaramse	_	VERB	VERB	_	1	acl:relcl	_	TokenRange=22:34
+5	criticas	_	NOUN	NOUN	_	4	obj	_	TokenRange=35:43
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=44:49
+7	mim	_	PRON	PRON	_	5	nmod	_	TokenRange=50:53
+8	cheguei	chegar	VERB	VERB	_	1	acl:relcl	_	TokenRange=54:61
+9	limite	limite	NOUN	NOUN	_	8	obj	_	TokenRange=62:68
+10	dor	dor	NOUN	NOUN	_	9	flat	_	TokenRange=69:72
+11	avolumaramse	avolumaramse	VERB	VERB	_	8	conj	_	TokenRange=73:85
+12	criticas	_	NOUN	NOUN	_	11	obj	_	TokenRange=86:94
+13	sobre	_	ADP	ADP	_	14	case	_	TokenRange=95:100
+14	mim	_	PRON	PRON	_	12	nmod	_	TokenRange=101:104
+15	salvador	salvador	NOUN	NOUN	_	16	nsubj	_	TokenRange=105:113
+16	vejo	ver	VERB	VERB	_	12	acl:relcl	_	TokenRange=114:118
+17	sofrimento	sofrimento	NOUN	NOUN	_	16	obj	_	TokenRange=119:129
+18	familiares	familiar	ADJ	ADJ	_	17	amod	_	TokenRange=130:140
+19	conhece	conhece	NOUN	NOUN	_	20	nsubj	_	TokenRange=141:148
+20	sabe	saber	VERB	VERB	_	16	parataxis	_	TokenRange=149:153
+21	limite	limite	NOUN	NOUN	_	20	obj	_	TokenRange=154:160
+22	dor	dor	NOUN	NOUN	_	21	flat	_	TokenRange=161:164
+23	suporto	suporto	ADJ	ADJ	_	24	amod	_	TokenRange=165:172
+24	hora	hora	NOUN	NOUN	_	21	appos	_	TokenRange=173:177
+25	sair	sair	VERB	VERB	_	21	acl:inf	_	TokenRange=178:182
+26	escreveu	escrever	VERB	VERB	_	0	root	_	TokenRange=183:191
+27	exministro	exministro	NOUN	NOUN	_	26	obj	_	SpaceAfter=No|TokenRange=192:202
+

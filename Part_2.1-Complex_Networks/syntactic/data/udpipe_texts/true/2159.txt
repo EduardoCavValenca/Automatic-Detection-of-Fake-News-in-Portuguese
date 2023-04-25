@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = policia rs investiga venda cartoes credito emitidos nomes terceiros internet pessoas lesadas golpe sabem dados clonados usados laranjas cartoes prejuizos chegam r 7 mil novo golpe internet vem chamando atencao policia civil rio grande sul redes sociais oferecem venda cartoes credito feitos nome pessoas
+1	policia	policia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	rs	_	ADJ	ADJ	_	1	amod	_	TokenRange=8:10
+3	investiga	investigar	VERB	VERB	_	0	root	_	TokenRange=11:20
+4	venda	venda	NOUN	NOUN	_	3	obj	_	TokenRange=21:26
+5	cartoes	cartoe	NOUN	NOUN	_	4	appos	_	TokenRange=27:34
+6	credito	credito	NOUN	NOUN	_	4	appos	_	TokenRange=35:42
+7	emitidos	emitir	VERB	VERB	_	4	acl	_	TokenRange=43:51
+8	nomes	nome	NOUN	NOUN	_	7	obj	_	TokenRange=52:57
+9	terceiros	terceiro	ADJ	ADJ	_	8	amod	_	TokenRange=58:67
+10	internet	_	ADJ	ADJ	_	11	amod	_	TokenRange=68:76
+11	pessoas	pessoa	NOUN	NOUN	_	14	nsubj	_	TokenRange=77:84
+12	lesadas	lesado	ADJ	ADJ	_	11	amod	_	TokenRange=85:92
+13	golpe	golpe	NOUN	NOUN	_	11	amod	_	TokenRange=93:98
+14	sabem	saber	VERB	VERB	_	3	parataxis	_	TokenRange=99:104
+15	dados	dado	NOUN	NOUN	_	14	obj	_	TokenRange=105:110
+16	clonados	clonado	ADJ	ADJ	_	15	amod	_	TokenRange=111:119
+17	usados	usar	VERB	VERB	_	15	acl	_	TokenRange=120:126
+18	laranjas	laranja	NOUN	NOUN	_	17	nsubj	_	TokenRange=127:135
+19	cartoes	cartoe	NOUN	NOUN	_	18	appos	_	TokenRange=136:143
+20	prejuizos	prejuízo	ADJ	ADJ	_	19	amod	_	TokenRange=144:153
+21	chegam	chegar	VERB	VERB	_	14	parataxis	_	TokenRange=154:160
+22	r	r	NOUN	NOUN	_	21	advmod	_	TokenRange=161:162
+23	7	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=163:164
+24	mil	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=165:168
+25	novo	novo	ADJ	ADJ	_	26	amod	_	TokenRange=169:173
+26	golpe	golpe	NOUN	NOUN	_	21	nsubj	_	TokenRange=174:179
+27	internet	_	PROPN	PNOUN	_	26	appos	_	TokenRange=180:188
+28	vem	vir	AUX	AUX	_	29	aux	_	TokenRange=189:192
+29	chamando	chamar	VERB	VERB	_	21	parataxis	_	TokenRange=193:201
+30	atencao	atencao	NOUN	NOUN	_	29	obj	_	TokenRange=202:209
+31	policia	policia	NOUN	NOUN	_	29	nsubj	_	TokenRange=210:217
+32	civil	civil	ADJ	ADJ	_	31	amod	_	TokenRange=218:223
+33	rio	rio	NOUN	NOUN	_	31	amod	_	TokenRange=224:227
+34	grande	grande	ADJ	ADJ	_	36	amod	_	TokenRange=228:234
+35	sul	sul	ADJ	ADJ	_	36	amod	_	TokenRange=235:238
+36	redes	rede	NOUN	NOUN	_	38	nsubj	_	TokenRange=239:244
+37	sociais	social	ADJ	ADJ	_	36	amod	_	TokenRange=245:252
+38	oferecem	oferecer	VERB	VERB	_	3	parataxis	_	TokenRange=253:261
+39	venda	venda	NOUN	NOUN	_	38	obj	_	TokenRange=262:267
+40	cartoes	cartoe	NOUN	NOUN	_	39	amod	_	TokenRange=268:275
+41	credito	credito	NOUN	NOUN	_	39	flat	_	TokenRange=276:283
+42	feitos	fazer	VERB	VERB	_	40	acl	_	TokenRange=284:290
+43	nome	nome	NOUN	NOUN	_	39	appos	_	TokenRange=291:295
+44	pessoas	pessoa	NOUN	NOUN	_	43	flat	_	SpaceAfter=No|TokenRange=296:303
+

@@ -1,0 +1,18 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = empresas investem treinamentos funcionarios dao cursinho fugir policia federal brasil
+1	empresas	empresa	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	investem	investir	VERB	VERB	_	0	root	_	TokenRange=9:17
+3	treinamentos	treinamento	NOUN	NOUN	_	2	obj	_	TokenRange=18:30
+4	funcionarios	funcionario	ADJ	ADJ	_	3	amod	_	TokenRange=31:43
+5	dao	daar	VERB	VERB	_	2	parataxis	_	TokenRange=44:47
+6	cursinho	cursinho	NOUN	NOUN	_	5	obj	_	TokenRange=48:56
+7	fugir	fugir	VERB	VERB	_	5	ccomp	_	TokenRange=57:62
+8	policia	policia	NOUN	NOUN	_	7	obj	_	TokenRange=63:70
+9	federal	federal	ADJ	ADJ	_	8	amod	_	TokenRange=71:78
+10	brasil	brasil	ADJ	ADJ	_	8	amod	_	SpaceAfter=No|TokenRange=79:85
+

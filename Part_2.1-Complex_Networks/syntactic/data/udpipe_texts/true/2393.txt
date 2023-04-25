@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = militares fotografam moradores favelas checagem antecedentes investida comecou tres comunidades qualificada cadastro acao motiva criticas defensoria moradores rio moradores vila kennedy comunidade pobre zona oeste rio rostos documentos identidade fotografados militares checagem antecedentes criminais operacao forcas armadas realizada nesta sextafeira 23 muitos deixaram sair trabalhar sentirem acuados medida defensoria publica rio pratica configura constrangimento ilegal remete praticas ditadura militar 19641985 segundo comando militar leste porem
+1	militares	militar	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	fotografam	fotograr	VERB	VERB	_	0	root	_	TokenRange=10:20
+3	moradores	morador	NOUN	NOUN	_	2	obj	_	TokenRange=21:30
+4	favelas	favela	NOUN	NOUN	_	3	amod	_	TokenRange=31:38
+5	checagem	checagem	NOUN	NOUN	_	2	obj	_	TokenRange=39:47
+6	antecedentes	antecedente	NOUN	NOUN	_	5	amod	_	TokenRange=48:60
+7	investida	_	ADJ	ADJ	_	5	amod	_	TokenRange=61:70
+8	comecou	comecar	VERB	VERB	_	2	parataxis	_	TokenRange=71:78
+9	tres	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=79:83
+10	comunidades	comunidade	NOUN	NOUN	_	8	obj	_	TokenRange=84:95
+11	qualificada	qualificado	ADJ	ADJ	_	10	amod	_	TokenRange=96:107
+12	cadastro	cadastro	NOUN	NOUN	_	10	appos	_	TokenRange=108:116
+13	acao	acao	NOUN	NOUN	_	10	appos	_	TokenRange=117:121
+14	motiva	motivo	ADJ	ADJ	_	13	amod	_	TokenRange=122:128
+15	criticas	critico	ADJ	ADJ	_	13	amod	_	TokenRange=129:137
+16	defensoria	defensoria	NOUN	NOUN	_	10	appos	_	TokenRange=138:148
+17	moradores	morador	NOUN	NOUN	_	16	flat	_	TokenRange=149:158
+18	rio	_	NOUN	NOUN	_	16	appos	_	TokenRange=159:162
+19	moradores	morador	NOUN	NOUN	_	16	appos	_	TokenRange=163:172
+20	vila	vila	NOUN	NOUN	_	16	appos	_	TokenRange=173:177
+21	kennedy	_	NOUN	NOUN	_	20	flat	_	TokenRange=178:185
+22	comunidade	comunidade	NOUN	NOUN	_	16	appos	_	TokenRange=186:196
+23	pobre	pobre	ADJ	ADJ	_	24	amod	_	TokenRange=197:202
+24	zona	zona	NOUN	NOUN	_	16	appos	_	TokenRange=203:207
+25	oeste	oeste	ADJ	ADJ	_	24	amod	_	TokenRange=208:213
+26	rio	rio	NOUN	NOUN	_	24	appos	_	TokenRange=214:217
+27	rostos	rosto	NOUN	NOUN	_	26	flat	_	TokenRange=218:224
+28	documentos	documento	NOUN	NOUN	_	26	appos	_	TokenRange=225:235
+29	identidade	identidade	NOUN	NOUN	_	26	flat	_	TokenRange=236:246
+30	fotografados	fotografar	VERB	VERB	_	29	acl	_	TokenRange=247:259
+31	militares	militar	NOUN	NOUN	_	30	nsubj	_	TokenRange=260:269
+32	checagem	checagem	NOUN	NOUN	_	33	appos	_	TokenRange=270:278
+33	antecedentes	antecedente	NOUN	NOUN	_	30	nsubj	_	TokenRange=279:291
+34	criminais	criminal	ADJ	ADJ	_	33	amod	_	TokenRange=292:301
+35	operacao	operacao	ADJ	ADJ	_	33	appos	_	TokenRange=302:310
+36	forcas	forca	NOUN	NOUN	_	33	appos	_	TokenRange=311:317
+37	armadas	armado	ADJ	ADJ	_	36	amod	_	TokenRange=318:325
+38	realizada	realizar	VERB	VERB	_	33	acl	_	TokenRange=326:335
+39	nesta	_	ADP	ADP	_	40	case	_	TokenRange=336:341
+40	sextafeira	sextafeira	NOUN	NOUN	_	38	nmod	_	TokenRange=342:352
+41	23	_	NUM	NUM	NumType=Card	40	appos	_	TokenRange=353:355
+42	muitos	_	PRON	PRON	_	43	nsubj	_	TokenRange=356:362
+43	deixaram	deixar	VERB	VERB	_	2	parataxis	_	TokenRange=363:371
+44	sair	sair	VERB	VERB	_	43	xcomp	_	TokenRange=372:376
+45	trabalhar	trabalhar	VERB	VERB	_	44	xcomp	_	TokenRange=377:386
+46	sentirem	sentir	VERB	VERB	_	44	xcomp	_	TokenRange=387:395
+47	acuados	acuado	ADJ	ADJ	_	49	amod	_	TokenRange=396:403
+48	medida	medida	NOUN	NOUN	_	46	nsubj	_	TokenRange=404:410
+49	defensoria	defensoria	NOUN	NOUN	_	46	nsubj	_	TokenRange=411:421
+50	publica	publico	ADJ	ADJ	_	49	amod	_	TokenRange=422:429
+51	rio	rio	NOUN	NOUN	_	53	nsubj	_	TokenRange=430:433
+52	pratica	pratico	ADJ	ADJ	_	51	amod	_	TokenRange=434:441
+53	configura	configurar	VERB	VERB	_	43	parataxis	_	TokenRange=442:451
+54	constrangimento	constrangimento	NOUN	NOUN	_	53	obj	_	TokenRange=452:467
+55	ilegal	ilegal	ADJ	ADJ	_	54	amod	_	TokenRange=468:474
+56	remete	remete	NOUN	NOUN	_	54	appos	_	TokenRange=475:481
+57	praticas	pratico	ADJ	ADJ	_	54	amod	_	TokenRange=482:490
+58	ditadura	ditadura	NOUN	NOUN	_	56	appos	_	TokenRange=491:499
+59	militar	militar	ADJ	ADJ	_	58	amod	_	TokenRange=500:507
+60	19641985	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=508:516
+61	segundo	segundo	ADJ	ADJ	_	62	amod	_	TokenRange=517:524
+62	comando	comando	NOUN	NOUN	_	53	nmod	_	TokenRange=525:532
+63	militar	militar	ADJ	ADJ	_	62	amod	_	TokenRange=533:540
+64	leste	leste	ADJ	ADJ	_	62	amod	_	TokenRange=541:546
+65	porem	_	VERB	VERB	_	53	parataxis	_	SpaceAfter=No|TokenRange=547:552
+

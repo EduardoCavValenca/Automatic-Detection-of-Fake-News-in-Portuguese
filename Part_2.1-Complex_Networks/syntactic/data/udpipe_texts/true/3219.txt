@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gilmar mendes diz discute temer proposta emenda constitucional semipresidencialismo presidente tse afirmou brasil usa impeachment resolver problemas governanca governabilidade ministro supremo tribunal federal stf presidente tribunal superior eleitoral gilmar mendes afirmou nesta segundafeira 9 paulo discute presidente republica michel temer proposta emenda constituicao federal 1988 adotar modelo semipresidencialista
+1	gilmar	gilmar	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	mendes	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=14:17
+4	discute	discutir	VERB	VERB	_	3	xcomp	_	TokenRange=18:25
+5	temer	temer	NOUN	NOUN	_	4	obj	_	TokenRange=26:31
+6	proposta	_	NOUN	NOUN	_	7	amod	_	TokenRange=32:40
+7	emenda	emenda	NOUN	NOUN	_	4	obj	_	TokenRange=41:47
+8	constitucional	constitucional	ADJ	ADJ	_	7	amod	_	TokenRange=48:62
+9	semipresidencialismo	semipresidencialismo	ADJ	ADJ	_	7	amod	_	TokenRange=63:83
+10	presidente	presidente	NOUN	NOUN	_	12	nsubj	_	TokenRange=84:94
+11	tse	_	PRON	PRON	_	10	appos	_	TokenRange=95:98
+12	afirmou	afirmar	VERB	VERB	_	7	acl:relcl	_	TokenRange=99:106
+13	brasil	brasil	NOUN	NOUN	_	14	nsubj	_	TokenRange=107:113
+14	usa	usar	VERB	VERB	_	12	ccomp	_	TokenRange=114:117
+15	impeachment	impeachment	NOUN	NOUN	_	16	obj	_	TokenRange=118:129
+16	resolver	resolver	VERB	VERB	_	14	xcomp	_	TokenRange=130:138
+17	problemas	problema	NOUN	NOUN	_	16	obj	_	TokenRange=139:148
+18	governanca	governanco	ADJ	ADJ	_	19	amod	_	TokenRange=149:159
+19	governabilidade	governabilidade	NOUN	NOUN	_	17	appos	_	TokenRange=160:175
+20	ministro	ministro	NOUN	NOUN	_	19	appos	_	TokenRange=176:184
+21	supremo	supremo	ADJ	ADJ	_	22	amod	_	TokenRange=185:192
+22	tribunal	tribunal	NOUN	NOUN	_	19	appos	_	TokenRange=193:201
+23	federal	federal	ADJ	ADJ	_	22	amod	_	TokenRange=202:209
+24	stf	_	NOUN	NOUN	_	25	amod	_	TokenRange=210:213
+25	presidente	presidente	NOUN	NOUN	_	22	appos	_	TokenRange=214:224
+26	tribunal	tribunal	NOUN	ADJ	_	25	amod	_	TokenRange=225:233
+27	superior	superior	ADJ	ADJ	_	25	amod	_	TokenRange=234:242
+28	eleitoral	eleitoral	ADJ	ADJ	_	25	amod	_	TokenRange=243:252
+29	gilmar	gilmar	NOUN	NOUN	_	25	appos	_	TokenRange=253:259
+30	mendes	_	NOUN	NOUN	_	29	flat	_	TokenRange=260:266
+31	afirmou	afirmar	VERB	VERB	_	3	conj	_	TokenRange=267:274
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=275:280
+33	segundafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=281:293
+34	9	_	NUM	NUM	NumType=Card	36	nsubj	_	TokenRange=294:295
+35	paulo	paulo	NOUN	NOUN	_	36	nsubj	_	TokenRange=296:301
+36	discute	discutir	VERB	VERB	_	31	ccomp	_	TokenRange=302:309
+37	presidente	presidente	NOUN	NOUN	_	36	obj	_	TokenRange=310:320
+38	republica	republico	ADJ	ADJ	_	37	amod	_	TokenRange=321:330
+39	michel	michel	ADJ	ADJ	_	40	amod	_	TokenRange=331:337
+40	temer	temer	NOUN	NOUN	_	37	appos	_	TokenRange=338:343
+41	proposta	_	VERB	VERB	_	36	parataxis	_	TokenRange=344:352
+42	emenda	emenda	NOUN	NOUN	_	41	obj	_	TokenRange=353:359
+43	constituicao	constituicao	NOUN	NOUN	_	42	appos	_	TokenRange=360:372
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=373:380
+45	1988	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=381:385
+46	adotar	adotar	VERB	VERB	_	36	xcomp	_	TokenRange=386:392
+47	modelo	modelo	NOUN	NOUN	_	46	obj	_	TokenRange=393:399
+48	semipresidencialista	semipresidencialista	ADJ	ADJ	_	47	amod	_	SpaceAfter=No|TokenRange=400:420
+

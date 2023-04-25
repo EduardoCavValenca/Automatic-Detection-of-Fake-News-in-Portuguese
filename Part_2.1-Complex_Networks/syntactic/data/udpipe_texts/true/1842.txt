@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = duvida curso escolher apos enem especialistas dao dicas areas promissoras confira dicas carreiras profissoes tendencias continuarao alta 2018 muitos alunos fazem enem ano ansiosos proximidade segunda ultima prova acontecera proximo domingo 12 medicina direito educacao fisica engenharia qualquer outro curso muitos decidiram pretendem seguir ainda grande quantidade
+1	duvida	duvidar	VERB	VERB	_	41	acl	_	TokenRange=0:6
+2	curso	curso	NOUN	NOUN	_	1	nsubj	_	TokenRange=7:12
+3	escolher	escolher	VERB	VERB	_	1	ccomp	_	TokenRange=13:21
+4	apos	_	ADP	ADP	_	5	case	_	TokenRange=22:26
+5	enem	_	NOUN	NOUN	_	3	nmod	_	TokenRange=27:31
+6	especialistas	especialista	NOUN	NOUN	_	7	nsubj	_	TokenRange=32:45
+7	dao	_	VERB	VERB	_	1	ccomp	_	TokenRange=46:49
+8	dicas	dica	NOUN	NOUN	_	7	obj	_	TokenRange=50:55
+9	areas	_	NOUN	NOUN	_	8	appos	_	TokenRange=56:61
+10	promissoras	promissor	ADJ	ADJ	_	9	amod	_	TokenRange=62:73
+11	confira	conferir	VERB	VERB	_	7	parataxis	_	TokenRange=74:81
+12	dicas	dica	NOUN	NOUN	_	11	obj	_	TokenRange=82:87
+13	carreiras	_	NOUN	NOUN	_	12	appos	_	TokenRange=88:97
+14	profissoes	profissoe	ADJ	ADJ	_	12	amod	_	TokenRange=98:108
+15	tendencias	_	NOUN	NOUN	_	12	appos	_	TokenRange=109:119
+16	continuarao	continuar	VERB	VERB	_	11	parataxis	_	TokenRange=120:131
+17	alta	_	ADJ	ADJ	_	16	xcomp	_	TokenRange=132:136
+18	2018	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=137:141
+19	muitos	_	DET	DET	_	20	det	_	TokenRange=142:148
+20	alunos	aluno	NOUN	NOUN	_	21	nsubj	_	TokenRange=149:155
+21	fazem	fazer	VERB	VERB	_	16	parataxis	_	TokenRange=156:161
+22	enem	_	ADV	NOUN	_	21	advmod	_	TokenRange=162:166
+23	ano	ano	NOUN	NOUN	_	21	obj	_	TokenRange=167:170
+24	ansiosos	ansioso	ADJ	ADJ	_	23	amod	_	TokenRange=171:179
+25	proximidade	proximidade	NOUN	NOUN	_	29	nsubj	_	TokenRange=180:191
+26	segunda	segundo	ADJ	ADJ	_	28	amod	_	TokenRange=192:199
+27	ultima	_	ADJ	ADJ	_	28	amod	_	TokenRange=200:206
+28	prova	prova	NOUN	NOUN	_	29	nsubj	_	TokenRange=207:212
+29	acontecera	acontecer	VERB	VERB	_	21	parataxis	_	TokenRange=213:223
+30	proximo	proximo	ADJ	ADJ	_	31	amod	_	TokenRange=224:231
+31	domingo	_	PROPN	PNOUN	_	29	nmod	_	TokenRange=232:239
+32	12	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=240:242
+33	medicina	medicina	NOUN	NOUN	_	31	appos	_	TokenRange=243:251
+34	direito	direito	ADJ	ADJ	_	33	amod	_	TokenRange=252:259
+35	educacao	educacao	NOUN	NOUN	_	31	appos	_	TokenRange=260:268
+36	fisica	fisico	ADJ	ADJ	_	35	amod	_	TokenRange=269:275
+37	engenharia	engenharia	NOUN	NOUN	_	35	appos	_	TokenRange=276:286
+38	qualquer	_	DET	DET	_	40	det	_	TokenRange=287:295
+39	outro	_	DET	DET	_	40	det	_	TokenRange=296:301
+40	curso	curso	NOUN	NOUN	_	29	nsubj	_	TokenRange=302:307
+41	muitos	_	PRON	PRON	_	42	nsubj	_	TokenRange=308:314
+42	decidiram	decidir	VERB	VERB	_	0	root	_	TokenRange=315:324
+43	pretendem	pretender	VERB	VERB	_	42	ccomp	_	TokenRange=325:334
+44	seguir	seguir	VERB	VERB	_	43	xcomp	_	TokenRange=335:341
+45	ainda	ainda	ADV	ADV	_	44	advmod	_	TokenRange=342:347
+46	grande	grande	ADJ	ADJ	_	47	amod	_	TokenRange=348:354
+47	quantidade	quantidade	NOUN	NOUN	_	44	obj	_	SpaceAfter=No|TokenRange=355:365
+

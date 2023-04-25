@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = juiz determina fianca r 52 milhoes eike batista permanecer prisao domiciliar pagamento devera feito 5 dias uteis voltara prisao advogado disse bens eike bloqueados valor inexequivel juiz marcelo bretas 7 vara criminal federal determinou empresario eike batista pague fianca r 52 milhoes permancer prisao domiciliar decisao g1 acesso magistrado determina pagamento devera feito cinco dias uteis entao eike devera voltar prisao determinacao medida cautelar adicional decisao juiz federal gustavo arruda macedo mandou empresario
+1	juiz	juiz	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	determina	determinar	VERB	VERB	_	0	root	_	TokenRange=5:14
+3	fianca	_	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+4	r	r	NOUN	NOUN	_	3	appos	_	TokenRange=22:23
+5	52	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=24:26
+6	milhoes	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=27:34
+7	eike	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=35:39
+8	batista	batista	ADJ	ADJ	_	7	flat	_	TokenRange=40:47
+9	permanecer	permanecer	VERB	VERB	_	3	acl:relcl	_	TokenRange=48:58
+10	prisao	prisao	NOUN	NOUN	_	9	obj	_	TokenRange=59:65
+11	domiciliar	domiciliar	ADJ	ADJ	_	10	amod	_	TokenRange=66:76
+12	pagamento	pagamento	NOUN	NOUN	_	14	nsubj	_	TokenRange=77:86
+13	devera	_	AUX	AUX	_	14	aux	_	TokenRange=87:93
+14	feito	_	VERB	VERB	_	2	conj	_	TokenRange=94:99
+15	5	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=100:101
+16	dias	dia	NOUN	NOUN	_	14	nsubj	_	TokenRange=102:106
+17	uteis	util	ADJ	ADJ	_	16	amod	_	TokenRange=107:112
+18	voltara	voltar	VERB	VERB	_	2	ccomp	_	TokenRange=113:120
+19	prisao	prisao	NOUN	NOUN	_	18	obj	_	TokenRange=121:127
+20	advogado	advogado	NOUN	NOUN	_	21	nsubj	_	TokenRange=128:136
+21	disse	dizer	VERB	VERB	_	3	acl:relcl	_	TokenRange=137:142
+22	bens	bem	NOUN	NOUN	_	21	obj	_	TokenRange=143:147
+23	eike	_	NOUN	NOUN	_	22	flat	_	TokenRange=148:152
+24	bloqueados	_	ADJ	ADJ	_	25	amod	_	TokenRange=153:163
+25	valor	valor	NOUN	NOUN	_	22	appos	_	TokenRange=164:169
+26	inexequivel	inexequivel	ADJ	ADJ	_	25	amod	_	TokenRange=170:181
+27	juiz	juiz	NOUN	NOUN	_	25	appos	_	TokenRange=182:186
+28	marcelo	marcelo	NOUN	NOUN	_	27	appos	_	TokenRange=187:194
+29	bretas	breta	NOUN	NOUN	_	28	flat	_	TokenRange=195:201
+30	7	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=202:203
+31	vara	vara	NOUN	NOUN	_	27	appos	_	TokenRange=204:208
+32	criminal	criminal	ADJ	ADJ	_	31	amod	_	TokenRange=209:217
+33	federal	federal	ADJ	ADJ	_	31	amod	_	TokenRange=218:225
+34	determinou	determinar	VERB	VERB	_	2	parataxis	_	TokenRange=226:236
+35	empresario	empresario	NOUN	NOUN	_	34	obj	_	TokenRange=237:247
+36	eike	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=248:252
+37	batista	batista	ADJ	ADJ	_	36	amod	_	TokenRange=253:260
+38	pague	pagar	VERB	VERB	_	35	acl:relcl	_	TokenRange=261:266
+39	fianca	fianca	NOUN	NOUN	_	38	obj	_	TokenRange=267:273
+40	r	r	NOUN	NOUN	_	39	flat	_	TokenRange=274:275
+41	52	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=276:278
+42	milhoes	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=279:286
+43	permancer	_	VERB	VERB	_	38	parataxis	_	TokenRange=287:296
+44	prisao	prisao	NOUN	NOUN	_	43	obj	_	TokenRange=297:303
+45	domiciliar	domiciliar	ADJ	ADJ	_	44	amod	_	TokenRange=304:314
+46	decisao	decisao	NOUN	NOUN	_	43	nsubj	_	TokenRange=315:322
+47	g1	_	NUM	NUM	_	48	amod	_	TokenRange=323:325
+48	acesso	acesso	NOUN	NOUN	_	53	nsubj	_	TokenRange=326:332
+49	magistrado	magistrado	ADJ	ADJ	_	48	amod	_	TokenRange=333:343
+50	determina	determinar	VERB	VERB	_	48	appos	_	TokenRange=344:353
+51	pagamento	pagamento	NOUN	NOUN	_	53	obj	_	TokenRange=354:363
+52	devera	dever	AUX	AUX	_	53	aux	_	TokenRange=364:370
+53	feito	_	VERB	VERB	_	2	conj	_	TokenRange=371:376
+54	cinco	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=377:382
+55	dias	dia	NOUN	NOUN	_	53	nmod	_	TokenRange=383:387
+56	uteis	util	ADJ	ADJ	_	55	amod	_	TokenRange=388:393
+57	entao	entao	ADV	ADV	_	60	advmod	_	TokenRange=394:399
+58	eike	_	PRON	PRON	_	60	nsubj	_	TokenRange=400:404
+59	devera	dever	AUX	AUX	_	60	aux	_	TokenRange=405:411
+60	voltar	voltar	VERB	AUX	_	53	conj	_	TokenRange=412:418
+61	prisao	prisao	NOUN	NOUN	_	53	obj	_	TokenRange=419:425
+62	determinacao	_	ADJ	ADJ	_	63	amod	_	TokenRange=426:438
+63	medida	medida	NOUN	NOUN	_	61	appos	_	TokenRange=439:445
+64	cautelar	cautelar	ADJ	ADJ	_	63	amod	_	TokenRange=446:454
+65	adicional	adicional	ADJ	ADJ	_	63	amod	_	TokenRange=455:464
+66	decisao	decisao	ADJ	ADJ	_	67	amod	_	TokenRange=465:472
+67	juiz	juiz	NOUN	NOUN	_	72	nsubj	_	TokenRange=473:477
+68	federal	federal	ADJ	ADJ	_	67	amod	_	TokenRange=478:485
+69	gustavo	gustavo	NOUN	NOUN	_	67	appos	_	TokenRange=486:493
+70	arruda	arruda	NOUN	NOUN	_	67	flat	_	TokenRange=494:500
+71	macedo	macedo	ADJ	ADJ	_	69	flat	_	TokenRange=501:507
+72	mandou	mandar	VERB	VERB	_	53	conj	_	TokenRange=508:514
+73	empresario	empresario	NOUN	NOUN	_	72	obj	_	SpaceAfter=No|TokenRange=515:525
+

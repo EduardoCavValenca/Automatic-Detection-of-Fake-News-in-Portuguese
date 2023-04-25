@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = execucoes decapitacoes transformaram pacata rio branco capital violencia numero homicidios subiu 86 2015 2016 maior aumento todas capitais pais segundo dados recemdivulgados ministerio saude guerra faccoes explica avanco crimes preciso sangue frio assistir fechar olhos 4 minutos 20 segundos levaram condenacao joalyson silva 62 anos prisao
+1	execucoes	execucoe	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	decapitacoes	decapitacoe	ADJ	ADJ	_	1	amod	_	TokenRange=10:22
+3	transformaram	transformar	VERB	VERB	_	0	root	_	TokenRange=23:36
+4	pacata	_	NOUN	NOUN	_	3	obj	_	TokenRange=37:43
+5	rio	rio	NOUN	NOUN	_	3	obj	_	TokenRange=44:47
+6	branco	branco	ADJ	ADJ	_	5	amod	_	TokenRange=48:54
+7	capital	capital	ADJ	ADJ	_	5	amod	_	TokenRange=55:62
+8	violencia	violencia	NOUN	NOUN	_	5	amod	_	TokenRange=63:72
+9	numero	numero	ADJ	ADJ	_	10	amod	_	TokenRange=73:79
+10	homicidios	homicidio	NOUN	NOUN	_	11	nsubj	_	TokenRange=80:90
+11	subiu	subir	VERB	VERB	_	3	parataxis	_	TokenRange=91:96
+12	86	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=97:99
+13	2015	_	NUM	NUM	NumType=Card	11	nmod	_	TokenRange=100:104
+14	2016	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=105:109
+15	maior	maior	ADJ	ADJ	_	16	amod	_	TokenRange=110:115
+16	aumento	aumento	NOUN	NOUN	_	11	nmod	_	TokenRange=116:123
+17	todas	_	DET	DET	_	18	det	_	TokenRange=124:129
+18	capitais	capital	NOUN	NOUN	_	16	appos	_	TokenRange=130:138
+19	pais	_	ADJ	ADJ	_	18	amod	_	TokenRange=139:143
+20	segundo	_	ADP	ADP	_	21	case	_	TokenRange=144:151
+21	dados	dado	NOUN	NOUN	_	11	nmod	_	TokenRange=152:157
+22	recemdivulgados	recemdivulgar	ADJ	ADJ	_	21	amod	_	TokenRange=158:173
+23	ministerio	ministerio	NOUN	NOUN	_	27	nsubj	_	TokenRange=174:184
+24	saude	saude	NOUN	NOUN	_	23	flat	_	TokenRange=185:190
+25	guerra	guerra	NOUN	NOUN	_	27	nsubj	_	TokenRange=191:197
+26	faccoes	_	NOUN	NOUN	_	25	amod	_	TokenRange=198:205
+27	explica	explicar	VERB	VERB	_	3	parataxis	_	TokenRange=206:213
+28	avanco	_	NOUN	NOUN	_	27	advmod	_	TokenRange=214:220
+29	crimes	crime	NOUN	NOUN	_	27	nsubj	_	TokenRange=221:227
+30	preciso	preciso	ADJ	ADJ	_	29	amod	_	TokenRange=228:235
+31	sangue	sangue	NOUN	NOUN	_	27	nsubj	_	TokenRange=236:242
+32	frio	frio	ADJ	ADJ	_	31	amod	_	TokenRange=243:247
+33	assistir	assistir	VERB	VERB	_	27	ccomp	_	TokenRange=248:256
+34	fechar	fechar	VERB	VERB	_	33	xcomp	_	TokenRange=257:263
+35	olhos	olho	NOUN	NOUN	_	34	obj	_	TokenRange=264:269
+36	4	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=270:271
+37	minutos	minuto	NOUN	NOUN	_	34	nmod	_	TokenRange=272:279
+38	20	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=280:282
+39	segundos	segundo	NOUN	NOUN	_	40	nsubj	_	TokenRange=283:291
+40	levaram	levar	VERB	VERB	_	3	parataxis	_	TokenRange=292:299
+41	condenacao	condenacao	NOUN	NOUN	_	40	obj	_	TokenRange=300:310
+42	joalyson	_	NOUN	NOUN	_	41	appos	_	TokenRange=311:319
+43	silva	silva	NOUN	NOUN	_	42	flat	_	TokenRange=320:325
+44	62	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=326:328
+45	anos	ano	NOUN	NOUN	_	42	appos	_	TokenRange=329:333
+46	prisao	prisao	ADJ	ADJ	_	45	amod	_	SpaceAfter=No|TokenRange=334:340
+

@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer cunha video mostra linda amizade vem longa data video circulando redes sociais mostra presidente michel temer rasgando elogios eduardo cunha ninguem desconhece qualidades eduardo quiser dar tarefa complicadas deputado simplifica cunha manifesta atraves fe tarefas dificeis entrego fe eduardo cunha diz temer jeito cumplicidade desses dois vem longa data
+1	temer	temer	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	cunha	_	DET	DET	_	3	det	_	TokenRange=6:11
+3	video	video	NOUN	NOUN	_	1	appos	_	TokenRange=12:17
+4	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=18:24
+5	linda	lindo	ADJ	ADJ	_	6	amod	_	TokenRange=25:30
+6	amizade	amizade	NOUN	NOUN	_	4	obj	_	TokenRange=31:38
+7	vem	vir	VERB	VERB	_	4	parataxis	_	TokenRange=39:42
+8	longa	longo	ADJ	ADJ	_	9	amod	_	TokenRange=43:48
+9	data	data	NOUN	NOUN	_	4	nmod	_	TokenRange=49:53
+10	video	video	NOUN	NOUN	_	14	nsubj	_	TokenRange=54:59
+11	circulando	circular	VERB	VERB	_	10	acl	_	TokenRange=60:70
+12	redes	rede	NOUN	NOUN	_	11	obj	_	TokenRange=71:76
+13	sociais	social	ADJ	ADJ	_	12	amod	_	TokenRange=77:84
+14	mostra	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=85:91
+15	presidente	presidente	NOUN	NOUN	_	14	obj	_	TokenRange=92:102
+16	michel	michel	ADJ	ADJ	_	17	amod	_	TokenRange=103:109
+17	temer	temer	NOUN	NOUN	_	15	appos	_	TokenRange=110:115
+18	rasgando	rasgar	VERB	VERB	_	15	acl	_	TokenRange=116:124
+19	elogios	elogio	NOUN	NOUN	_	18	obj	_	TokenRange=125:132
+20	eduardo	eduardo	NOUN	NOUN	_	19	appos	_	TokenRange=133:140
+21	cunha	_	ADJ	ADJ	_	20	flat	_	TokenRange=141:146
+22	ninguem	_	PRON	PRON	_	23	nsubj	_	TokenRange=147:154
+23	desconhece	desconhecer	VERB	VERB	_	18	conj	_	TokenRange=155:165
+24	qualidades	qualidade	NOUN	NOUN	_	23	obj	_	TokenRange=166:176
+25	eduardo	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=177:184
+26	quiser	querer	VERB	VERB	_	24	acl:relcl	_	TokenRange=185:191
+27	dar	dar	VERB	VERB	_	26	xcomp	_	TokenRange=192:195
+28	tarefa	tarefa	NOUN	NOUN	_	27	obj	_	TokenRange=196:202
+29	complicadas	complicado	ADJ	ADJ	_	28	amod	_	TokenRange=203:214
+30	deputado	deputado	NOUN	NOUN	_	33	nsubj	_	TokenRange=215:223
+31	simplifica	simplifico	ADJ	ADJ	_	30	amod	_	TokenRange=224:234
+32	cunha	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=235:240
+33	manifesta	manifestar	VERB	VERB	_	4	parataxis	_	TokenRange=241:250
+34	atraves	_	ADV	NOUN	_	33	advmod	_	TokenRange=251:258
+35	fe	_	NOUN	NOUN	_	34	flat	_	TokenRange=259:261
+36	tarefas	tarefa	NOUN	NOUN	_	33	obj	_	TokenRange=262:269
+37	dificeis	dificil	ADJ	ADJ	_	36	amod	_	TokenRange=270:278
+38	entrego	entrego	VERB	VERB	_	36	acl	_	TokenRange=279:286
+39	fe	fe	NOUN	NOUN	_	38	obj	_	TokenRange=287:289
+40	eduardo	eduardo	PROPN	PNOUN	_	42	nsubj	_	TokenRange=290:297
+41	cunha	_	ADJ	ADJ	_	40	flat	_	TokenRange=298:303
+42	diz	dizer	VERB	VERB	_	33	parataxis	_	TokenRange=304:307
+43	temer	temer	NOUN	NOUN	_	42	obj	_	TokenRange=308:313
+44	jeito	jeito	VERB	VERB	_	42	xcomp	_	TokenRange=314:319
+45	cumplicidade	cumplicidade	NOUN	NOUN	_	44	obj	_	TokenRange=320:332
+46	desses	_	ADP	ADP	_	47	case	_	TokenRange=333:339
+47	dois	_	NUM	NUM	NumType=Card	45	nmod	_	TokenRange=340:344
+48	vem	vir	VERB	VERB	_	33	parataxis	_	TokenRange=345:348
+49	longa	longo	ADJ	ADJ	_	50	amod	_	TokenRange=349:354
+50	data	data	NOUN	NOUN	_	48	obj	_	SpaceAfter=No|TokenRange=355:359
+

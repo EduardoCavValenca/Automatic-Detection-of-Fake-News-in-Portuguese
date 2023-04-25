@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cavalo suportou paula fernandes cantora leva mordida barriga acariciar animal cantora paula fernandes levou susto manha hoje 15 paula fazenda minas gerais levou mordida barriga enquanto acariciava cavalo video compartilhado instagram mostra artista fazendo carinho animal sendo surpreendida dizem linguas cantora fama pouco antipatica cavalo concorda assustada grita legenda video cantora explica brincando doeu grito
+1	cavalo	cavalo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	suportou	suportar	VERB	VERB	_	0	root	_	TokenRange=7:15
+3	paula	paula	NOUN	NOUN	_	2	obj	_	TokenRange=16:21
+4	fernandes	fernande	ADJ	ADJ	_	3	amod	_	TokenRange=22:31
+5	cantora	cantor	NOUN	NOUN	_	6	nsubj	_	TokenRange=32:39
+6	leva	levar	VERB	VERB	_	3	acl:relcl	_	TokenRange=40:44
+7	mordida	mordido	ADJ	ADJ	_	8	amod	_	TokenRange=45:52
+8	barriga	barriga	NOUN	NOUN	_	6	obj	_	TokenRange=53:60
+9	acariciar	acariciar	VERB	VERB	_	8	acl:inf	_	TokenRange=61:70
+10	animal	animal	NOUN	NOUN	_	9	obj	_	TokenRange=71:77
+11	cantora	cantor	NOUN	NOUN	_	14	nsubj	_	TokenRange=78:85
+12	paula	paula	NOUN	NOUN	_	11	appos	_	TokenRange=86:91
+13	fernandes	fernande	NOUN	NOUN	_	12	flat	_	TokenRange=92:101
+14	levou	levar	VERB	VERB	_	2	parataxis	_	TokenRange=102:107
+15	susto	susto	NOUN	NOUN	_	14	obj	_	TokenRange=108:113
+16	manha	manha	NOUN	NOUN	_	15	appos	_	TokenRange=114:119
+17	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=120:124
+18	15	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=125:127
+19	paula	paula	NOUN	NOUN	_	14	nsubj	_	TokenRange=128:133
+20	fazenda	fazenda	NOUN	NOUN	_	19	flat	_	TokenRange=134:141
+21	minas	mina	NOUN	NOUN	_	19	appos	_	TokenRange=142:147
+22	gerais	geral	ADJ	ADJ	_	21	amod	_	TokenRange=148:154
+23	levou	levar	VERB	VERB	_	14	parataxis	_	TokenRange=155:160
+24	mordida	mordida	NOUN	NOUN	_	23	obj	_	TokenRange=161:168
+25	barriga	barriga	NOUN	NOUN	_	24	flat	_	TokenRange=169:176
+26	enquanto	_	CCONJ	CONJ	_	27	mark	_	TokenRange=177:185
+27	acariciava	acariciar	VERB	VERB	_	23	advcl	_	TokenRange=186:196
+28	cavalo	cavalo	NOUN	NOUN	_	27	obj	_	TokenRange=197:203
+29	video	video	NOUN	NOUN	_	28	appos	_	TokenRange=204:209
+30	compartilhado	compartilhar	VERB	VERB	_	29	acl	_	TokenRange=210:223
+31	instagram	instagram	NOUN	NOUN	_	34	nsubj	_	TokenRange=224:233
+32	mostra	mostrar	VERB	VERB	_	2	parataxis	_	TokenRange=234:240
+33	artista	artista	NOUN	NOUN	_	32	obj	_	TokenRange=241:248
+34	fazendo	fazer	VERB	VERB	_	33	acl	_	TokenRange=249:256
+35	carinho	carinho	NOUN	NOUN	_	34	obj	_	TokenRange=257:264
+36	animal	animal	ADJ	ADJ	_	35	amod	_	TokenRange=265:271
+37	sendo	ser	AUX	AUX	_	38	aux:pass	_	TokenRange=272:277
+38	surpreendida	surpreender	VERB	VERB	_	35	acl	_	TokenRange=278:290
+39	dizem	dizer	VERB	VERB	_	38	parataxis	_	TokenRange=291:296
+40	linguas	lingua	NOUN	NOUN	_	39	nsubj	_	TokenRange=297:304
+41	cantora	cantor	NOUN	NOUN	_	32	nsubj	_	TokenRange=305:312
+42	fama	fama	NOUN	NOUN	_	41	appos	_	TokenRange=313:317
+43	pouco	pouco	ADV	ADV	_	44	advmod	_	TokenRange=318:323
+44	antipatica	antipatico	ADJ	ADJ	_	42	amod	_	TokenRange=324:334
+45	cavalo	cavalo	NOUN	NOUN	_	46	nsubj	_	TokenRange=335:341
+46	concorda	concordar	VERB	VERB	_	32	parataxis	_	TokenRange=342:350
+47	assustada	assustado	ADJ	ADJ	_	48	amod	_	TokenRange=351:360
+48	grita	grita	NOUN	NOUN	_	46	obj	_	TokenRange=361:366
+49	legenda	legenda	NOUN	NOUN	_	48	amod	_	TokenRange=367:374
+50	video	video	NOUN	NOUN	_	52	nsubj	_	TokenRange=375:380
+51	cantora	cantor	NOUN	NOUN	_	50	appos	_	TokenRange=381:388
+52	explica	explicar	VERB	VERB	_	46	parataxis	_	TokenRange=389:396
+53	brincando	brincar	VERB	VERB	_	52	acl	_	TokenRange=397:406
+54	doeu	doar	VERB	VERB	_	52	parataxis	_	TokenRange=407:411
+55	grito	grito	NOUN	NOUN	_	54	obj	_	SpaceAfter=No|TokenRange=412:417
+

@@ -1,0 +1,29 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasileiros invadem pagina exercito facebook clamam socorro apos recentes polemicas decisoes ministro gilmar mendes brasileiro decidiu recorrer ultima esperanca exercito brasileiro
+1	brasileiros	brasileiro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	invadem	invadir	VERB	VERB	_	0	root	_	TokenRange=12:19
+3	pagina	pagina	NOUN	NOUN	_	2	obj	_	TokenRange=20:26
+4	exercito	exercito	NOUN	NOUN	_	3	appos	_	TokenRange=27:35
+5	facebook	_	PROPN	PNOUN	_	3	appos	_	TokenRange=36:44
+6	clamam	clamar	VERB	VERB	_	2	parataxis	_	TokenRange=45:51
+7	socorro	socorro	NOUN	NOUN	_	6	obj	_	TokenRange=52:59
+8	apos	_	ADP	ADP	_	11	case	_	TokenRange=60:64
+9	recentes	recente	ADJ	ADJ	_	11	amod	_	TokenRange=65:73
+10	polemicas	polemico	ADJ	ADJ	_	11	amod	_	TokenRange=74:83
+11	decisoes	decisoe	NOUN	NOUN	_	16	nmod	_	TokenRange=84:92
+12	ministro	ministro	NOUN	NOUN	_	16	nsubj	_	TokenRange=93:101
+13	gilmar	gilmar	NOUN	NOUN	_	12	appos	_	TokenRange=102:108
+14	mendes	_	ADJ	ADJ	_	12	amod	_	TokenRange=109:115
+15	brasileiro	brasileiro	ADJ	ADJ	_	12	amod	_	TokenRange=116:126
+16	decidiu	decidir	VERB	VERB	_	2	conj	_	TokenRange=127:134
+17	recorrer	recorrer	VERB	VERB	_	16	xcomp	_	TokenRange=135:143
+18	ultima	_	ADJ	ADJ	_	19	amod	_	TokenRange=144:150
+19	esperanca	esperanca	NOUN	NOUN	_	17	obj	_	TokenRange=151:160
+20	exercito	exercito	NOUN	NOUN	_	17	obj	_	TokenRange=161:169
+21	brasileiro	brasileiro	ADJ	ADJ	_	20	amod	_	SpaceAfter=No|TokenRange=170:180
+

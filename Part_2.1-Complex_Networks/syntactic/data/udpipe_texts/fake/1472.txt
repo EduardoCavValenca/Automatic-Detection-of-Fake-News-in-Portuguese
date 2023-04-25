@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pgr envia 320 pedidos inqueritos stf politico limpando gabinetes brasilia rodrigo janot enviou hoje 14 trezentos vinte pedidos inqueritos stf desse total 83 contra parlamentares ministros outros 211 casos constam diversos indicios irregularidades pgr pediu arquivamentos 7 inqueritos proximo passo agora quebra sigilo pedida pgr devera decretada ministro edson fachin fonte brasilia disse correcorre advogados dentro congresso comecou desespero tanto politico digitando delacao premiada sabendo lista janot mpf policia federal fizeram deveres casa vez agora supremo tribunal federal brasil passado limpo sabemos culpa
+1	pgr	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	envia	enviar	VERB	VERB	_	0	root	_	TokenRange=4:9
+3	320	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=10:13
+4	pedidos	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=14:21
+5	inqueritos	inquerito	ADJ	ADJ	_	4	amod	_	TokenRange=22:32
+6	stf	_	NOUN	NOUN	_	4	appos	_	TokenRange=33:36
+7	politico	_	NOUN	NOUN	_	4	appos	_	TokenRange=37:45
+8	limpando	limpar	VERB	VERB	_	4	acl	_	TokenRange=46:54
+9	gabinetes	gabinete	NOUN	NOUN	_	8	obj	_	TokenRange=55:64
+10	brasilia	brasilia	ADJ	ADJ	_	9	amod	_	TokenRange=65:73
+11	rodrigo	rodrigo	NOUN	NOUN	_	13	nsubj	_	TokenRange=74:81
+12	janot	_	NOUN	NOUN	_	11	flat	_	TokenRange=82:87
+13	enviou	enviar	VERB	VERB	_	2	parataxis	_	TokenRange=88:94
+14	hoje	hoje	ADV	ADV	_	13	advmod	_	TokenRange=95:99
+15	14	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=100:102
+16	trezentos	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=103:112
+17	vinte	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=113:118
+18	pedidos	pedido	NOUN	NOUN	_	13	obj	_	TokenRange=119:126
+19	inqueritos	inquerito	ADJ	ADJ	_	18	amod	_	TokenRange=127:137
+20	stf	_	NOUN	NOUN	_	18	appos	_	TokenRange=138:141
+21	desse	_	ADP	ADP	_	22	case	_	TokenRange=142:147
+22	total	total	NOUN	NOUN	_	18	nmod	_	TokenRange=148:153
+23	83	_	NUM	NUM	NumType=Card	18	appos	_	TokenRange=154:156
+24	contra	_	ADP	ADP	_	25	case	_	TokenRange=157:163
+25	parlamentares	parlamentar	NOUN	NOUN	_	23	nmod	_	TokenRange=164:177
+26	ministros	ministro	ADJ	ADJ	_	25	amod	_	TokenRange=178:187
+27	outros	_	DET	DET	_	29	det	_	TokenRange=188:194
+28	211	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=195:198
+29	casos	caso	NOUN	NOUN	_	30	nsubj	_	TokenRange=199:204
+30	constam	constar	VERB	VERB	_	2	parataxis	_	TokenRange=205:212
+31	diversos	_	DET	DET	_	32	det	_	TokenRange=213:221
+32	indicios	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=222:230
+33	irregularidades	irregularidade	NOUN	NOUN	_	30	nsubj	_	TokenRange=231:246
+34	pgr	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=247:250
+35	pediu	pedir	VERB	VERB	_	30	parataxis	_	TokenRange=251:256
+36	arquivamentos	arquivamento	NOUN	NOUN	_	35	obj	_	TokenRange=257:270
+37	7	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=271:272
+38	inqueritos	inquerito	NOUN	NOUN	_	35	obj	_	TokenRange=273:283
+39	proximo	proximo	ADJ	ADJ	_	40	amod	_	TokenRange=284:291
+40	passo	passo	NOUN	NOUN	_	35	nsubj	_	TokenRange=292:297
+41	agora	agora	ADV	ADV	_	42	advmod	_	TokenRange=298:303
+42	quebra	quebrar	VERB	VERB	_	35	parataxis	_	TokenRange=304:310
+43	sigilo	sigilo	NOUN	NOUN	_	42	obj	_	TokenRange=311:317
+44	pedida	pedido	ADJ	ADJ	_	43	amod	_	TokenRange=318:324
+45	pgr	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=325:328
+46	devera	dever	AUX	AUX	_	48	cop	_	TokenRange=329:335
+47	decretada	decretar	ADJ	ADJ	_	48	acl:relcl	_	TokenRange=336:345
+48	ministro	ministro	NOUN	NOUN	_	53	nsubj	_	TokenRange=346:354
+49	edson	_	NOUN	NOUN	_	48	appos	_	TokenRange=355:360
+50	fachin	_	NOUN	NOUN	_	49	flat	_	TokenRange=361:367
+51	fonte	fonte	NOUN	NOUN	_	53	nsubj	_	TokenRange=368:373
+52	brasilia	brasilia	NOUN	NOUN	_	51	flat	_	TokenRange=374:382
+53	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=383:388
+54	correcorre	correcorre	NOUN	NOUN	_	53	obj	_	TokenRange=389:399
+55	advogados	advogado	NOUN	NOUN	_	54	flat	_	TokenRange=400:409
+56	dentro	dentro	ADV	ADV	_	57	advmod	_	TokenRange=410:416
+57	congresso	congresso	NOUN	NOUN	_	55	appos	_	TokenRange=417:426
+58	comecou	comecar	VERB	VERB	_	53	ccomp	_	TokenRange=427:434
+59	desespero	desespero	NOUN	NOUN	_	58	obj	_	TokenRange=435:444
+60	tanto	_	DET	DET	_	61	det	_	TokenRange=445:450
+61	politico	politico	NOUN	NOUN	_	58	nsubj	_	TokenRange=451:459
+62	digitando	digitar	VERB	VERB	_	61	acl	_	TokenRange=460:469
+63	delacao	delacao	NOUN	NOUN	_	62	obj	_	TokenRange=470:477
+64	premiada	premiado	ADJ	ADJ	_	63	amod	_	TokenRange=478:486
+65	sabendo	saber	VERB	VERB	_	61	acl	_	TokenRange=487:494
+66	lista	lista	NOUN	NOUN	_	65	obj	_	TokenRange=495:500
+67	janot	_	NOUN	NOUN	_	66	appos	_	TokenRange=501:506
+68	mpf	_	NOUN	NOUN	_	69	amod	_	TokenRange=507:510
+69	policia	policia	NOUN	NOUN	_	67	appos	_	TokenRange=511:518
+70	federal	federal	ADJ	ADJ	_	69	amod	_	TokenRange=519:526
+71	fizeram	fazer	VERB	VERB	_	58	parataxis	_	TokenRange=527:534
+72	deveres	dever	NOUN	NOUN	_	71	obj	_	TokenRange=535:542
+73	casa	casa	NOUN	NOUN	_	72	appos	_	TokenRange=543:547
+74	vez	vez	NOUN	NOUN	_	73	nmod	_	TokenRange=548:551
+75	agora	agora	ADV	ADV	_	73	advmod	_	TokenRange=552:557
+76	supremo	supremo	ADJ	ADJ	_	77	amod	_	TokenRange=558:565
+77	tribunal	tribunal	NOUN	NOUN	_	71	nsubj	_	TokenRange=566:574
+78	federal	federal	ADJ	ADJ	_	77	amod	_	TokenRange=575:582
+79	brasil	brasil	ADJ	NOUN	_	77	amod	_	TokenRange=583:589
+80	passado	passado	ADJ	ADJ	_	77	amod	_	TokenRange=590:597
+81	limpo	limpo	ADJ	ADJ	_	77	amod	_	TokenRange=598:603
+82	sabemos	saber	VERB	VERB	_	71	parataxis	_	TokenRange=604:611
+83	culpa	culpa	NOUN	NOUN	_	82	obj	_	SpaceAfter=No|TokenRange=612:617
+

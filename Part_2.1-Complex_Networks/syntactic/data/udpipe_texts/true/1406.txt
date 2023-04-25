@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = grande injustica aconteceu diz vicegovernadora tocantins apos cassacao claudia lelis pv cumpriu agenda neste sabado 24 palmas pronunciou sobre julgamento tse cassou mandato governador estado marcelo miranda grande injustica aconteceu afirmou vicegovernadora tocantins claudia lelis pv neste sabado 24 dois dias apos julgamento tribunal superior eleitoral tse cassou mandato governador marcelo miranda mdb cumpriu agenda palmas nesta manha pronunciou sobre caso veja video tudo vago gente sabe vai nesse acordao vejo grande injustica
+1	grande	grande	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	injustica	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=7:16
+3	aconteceu	acontecer	VERB	VERB	_	0	root	_	TokenRange=17:26
+4	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=27:30
+5	vicegovernadora	vicegovernador	NOUN	NOUN	_	4	nsubj	_	TokenRange=31:46
+6	tocantins	tocantim	ADJ	ADJ	_	5	amod	_	TokenRange=47:56
+7	apos	_	ADP	ADP	_	8	case	_	TokenRange=57:61
+8	cassacao	cassacao	NOUN	NOUN	_	12	nmod	_	TokenRange=62:70
+9	claudia	claudia	NOUN	NOUN	_	12	nsubj	_	TokenRange=71:78
+10	lelis	_	NOUN	NOUN	_	9	flat	_	TokenRange=79:84
+11	pv	_	NOUN	NOUN	_	9	flat	_	TokenRange=85:87
+12	cumpriu	cumprir	VERB	VERB	_	5	acl:relcl	_	TokenRange=88:95
+13	agenda	agenda	NOUN	NOUN	_	12	obj	_	TokenRange=96:102
+14	neste	_	ADP	ADP	_	15	case	_	TokenRange=103:108
+15	sabado	_	PROPN	PNOUN	_	12	nmod	_	TokenRange=109:115
+16	24	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=116:118
+17	palmas	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=119:125
+18	pronunciou	pronunciar	VERB	VERB	_	4	parataxis	_	TokenRange=126:136
+19	sobre	_	ADP	ADP	_	20	case	_	TokenRange=137:142
+20	julgamento	julgamento	NOUN	NOUN	_	18	nmod	_	TokenRange=143:153
+21	tse	_	PRON	PRON	_	22	nsubj	_	TokenRange=154:157
+22	cassou	cassar	VERB	VERB	_	20	acl:relcl	_	TokenRange=158:164
+23	mandato	mandato	NOUN	NOUN	_	22	obj	_	TokenRange=165:172
+24	governador	governador	NOUN	NOUN	_	23	appos	_	TokenRange=173:183
+25	estado	estado	NOUN	NOUN	_	24	amod	_	TokenRange=184:190
+26	marcelo	marcelo	NOUN	NOUN	_	23	appos	_	TokenRange=191:198
+27	miranda	miranda	ADJ	ADJ	_	26	amod	_	TokenRange=199:206
+28	grande	grande	ADJ	ADJ	_	29	amod	_	TokenRange=207:213
+29	injustica	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=214:223
+30	aconteceu	acontecer	VERB	VERB	_	31	ccomp	_	TokenRange=224:233
+31	afirmou	afirmar	VERB	VERB	_	18	ccomp	_	TokenRange=234:241
+32	vicegovernadora	vicegovernador	NOUN	NOUN	_	31	obj	_	TokenRange=242:257
+33	tocantins	tocantim	ADJ	ADJ	_	32	amod	_	TokenRange=258:267
+34	claudia	claudia	NOUN	NOUN	_	32	appos	_	TokenRange=268:275
+35	lelis	_	NOUN	NOUN	_	34	flat	_	TokenRange=276:281
+36	pv	_	NOUN	NOUN	_	34	appos	_	TokenRange=282:284
+37	neste	_	ADP	ADP	_	38	case	_	TokenRange=285:290
+38	sabado	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=291:297
+39	24	_	NUM	NUM	NumType=Card	38	nmod	_	TokenRange=298:300
+40	dois	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=301:305
+41	dias	dia	NOUN	NOUN	_	38	appos	_	TokenRange=306:310
+42	apos	_	ADP	ADP	_	43	case	_	TokenRange=311:315
+43	julgamento	julgamento	NOUN	NOUN	_	54	nmod	_	TokenRange=316:326
+44	tribunal	tribunal	NOUN	NOUN	_	43	appos	_	TokenRange=327:335
+45	superior	superior	ADJ	ADJ	_	44	amod	_	TokenRange=336:344
+46	eleitoral	eleitoral	ADJ	ADJ	_	44	amod	_	TokenRange=345:354
+47	tse	_	PRON	PRON	_	48	nsubj	_	TokenRange=355:358
+48	cassou	cassar	VERB	VERB	_	43	acl:relcl	_	TokenRange=359:365
+49	mandato	mandato	NOUN	NOUN	_	48	obj	_	TokenRange=366:373
+50	governador	governador	NOUN	NOUN	_	49	amod	_	TokenRange=374:384
+51	marcelo	marcelo	NOUN	NOUN	_	49	appos	_	TokenRange=385:392
+52	miranda	miranda	ADJ	ADJ	_	51	amod	_	TokenRange=393:400
+53	mdb	_	NOUN	NOUN	_	51	appos	_	TokenRange=401:404
+54	cumpriu	cumprir	VERB	VERB	_	31	parataxis	_	TokenRange=405:412
+55	agenda	agenda	NOUN	NOUN	_	54	obj	_	TokenRange=413:419
+56	palmas	_	NOUN	NOUN	_	55	appos	_	TokenRange=420:426
+57	nesta	_	ADP	ADP	_	58	case	_	TokenRange=427:432
+58	manha	manha	NOUN	NOUN	_	54	nmod	_	TokenRange=433:438
+59	pronunciou	pronunciar	VERB	VERB	_	54	parataxis	_	TokenRange=439:449
+60	sobre	_	ADP	ADP	_	62	mark	_	TokenRange=450:455
+61	caso	caso	NOUN	NOUN	_	62	nmod	_	TokenRange=456:460
+62	veja	ver	VERB	VERB	_	59	nmod	_	TokenRange=461:465
+63	video	video	NOUN	NOUN	_	62	obj	_	TokenRange=466:471
+64	tudo	_	PRON	PRON	_	66	det	_	TokenRange=472:476
+65	vago	vago	ADJ	ADJ	_	63	amod	_	TokenRange=477:481
+66	gente	gente	NOUN	NOUN	_	67	nsubj	_	TokenRange=482:487
+67	sabe	saber	VERB	VERB	_	63	acl:relcl	_	TokenRange=488:492
+68	vai	ir	VERB	VERB	_	67	xcomp	_	TokenRange=493:496
+69	nesse	_	ADP	ADP	_	70	case	_	TokenRange=497:502
+70	acordao	acordao	NOUN	NOUN	_	68	nmod	_	TokenRange=503:510
+71	vejo	ver	VERB	VERB	_	59	ccomp	_	TokenRange=511:515
+72	grande	grande	ADJ	ADJ	_	73	amod	_	TokenRange=516:522
+73	injustica	_	NOUN	NOUN	_	71	obj	_	SpaceAfter=No|TokenRange=523:532
+

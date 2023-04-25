@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saiba cada etapa julgamento chapa dilmatemer tse tribunal superior eleitoral marcou quatro sessoes quintafeira apresentacao relatorio manifestacoes partes votos ministros sessao desta tercafeira tribunal superior eleitoral tse primeira quatro marcadas semana tribunal dedicou exclusivamente analise pedido cassacao chapa dilma rousseffmichel temer suposto abuso poder politico economico campanha eleitoral 2014 entenda condenado tse temer pode adiar saida presidencia atualizacao conforme informou inicialmente reportagem previsao inicial analise preliminares
+1	saiba	saber	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	cada	_	DET	DET	_	3	det	_	TokenRange=6:10
+3	etapa	etapa	NOUN	NOUN	_	1	obj	_	TokenRange=11:16
+4	julgamento	julgamento	NOUN	NOUN	_	3	appos	_	TokenRange=17:27
+5	chapa	chapa	NOUN	NOUN	_	11	obj	_	TokenRange=28:33
+6	dilmatemer	dilmatemer	NOUN	NOUN	_	5	flat	_	TokenRange=34:44
+7	tse	_	DET	DET	_	8	det	_	TokenRange=45:48
+8	tribunal	tribunal	NOUN	NOUN	_	5	appos	_	TokenRange=49:57
+9	superior	superior	ADJ	ADJ	_	8	amod	_	TokenRange=58:66
+10	eleitoral	eleitoral	ADJ	ADJ	_	8	amod	_	TokenRange=67:76
+11	marcou	marcar	VERB	VERB	_	1	parataxis	_	TokenRange=77:83
+12	quatro	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=84:90
+13	sessoes	sessoe	NOUN	NOUN	_	11	obj	_	TokenRange=91:98
+14	quintafeira	_	ADJ	ADJ	_	15	amod	_	TokenRange=99:110
+15	apresentacao	apresentacao	NOUN	NOUN	_	11	obj	_	TokenRange=111:123
+16	relatorio	relatorio	NOUN	NOUN	_	15	appos	_	TokenRange=124:133
+17	manifestacoes	manifestacoe	NOUN	NOUN	_	15	appos	_	TokenRange=134:147
+18	partes	_	PROPN	PNOUN	_	15	appos	_	TokenRange=148:154
+19	votos	voto	NOUN	NOUN	_	18	flat	_	TokenRange=155:160
+20	ministros	ministro	NOUN	NOUN	_	18	flat	_	TokenRange=161:170
+21	sessao	sessao	NOUN	NOUN	_	33	appos	_	TokenRange=171:177
+22	desta	_	ADP	ADP	_	24	case	_	TokenRange=178:183
+23	tercafeira	_	NOUN	NOUN	_	24	amod	_	TokenRange=184:194
+24	tribunal	tribunal	NOUN	NOUN	_	21	nmod	_	TokenRange=195:203
+25	superior	superior	ADJ	ADJ	_	24	amod	_	TokenRange=204:212
+26	eleitoral	eleitoral	ADJ	ADJ	_	24	amod	_	TokenRange=213:222
+27	tse	_	NOUN	NOUN	_	24	appos	_	TokenRange=223:226
+28	primeira	primeiro	ADJ	ADJ	_	30	amod	_	TokenRange=227:235
+29	quatro	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=236:242
+30	marcadas	marcado	NOUN	NOUN	_	24	amod	_	TokenRange=243:251
+31	semana	semana	NOUN	NOUN	_	30	amod	_	TokenRange=252:258
+32	tribunal	tribunal	NOUN	NOUN	_	30	flat	_	TokenRange=259:267
+33	dedicou	dedicar	VERB	VERB	_	11	parataxis	_	TokenRange=268:275
+34	exclusivamente	exclusivamente	ADV	ADV	_	33	advmod	_	TokenRange=276:290
+35	analise	analise	NOUN	NOUN	_	33	obj	_	TokenRange=291:298
+36	pedido	pedido	NOUN	NOUN	_	35	appos	_	TokenRange=299:305
+37	cassacao	cassacao	NOUN	NOUN	_	35	flat	_	TokenRange=306:314
+38	chapa	chapa	NOUN	NOUN	_	35	appos	_	TokenRange=315:320
+39	dilma	dilma	NOUN	NOUN	_	38	appos	_	TokenRange=321:326
+40	rousseffmichel	_	NOUN	NOUN	_	38	flat	_	TokenRange=327:341
+41	temer	temer	NOUN	NOUN	_	38	flat	_	TokenRange=342:347
+42	suposto	suposto	ADJ	ADJ	_	44	amod	_	TokenRange=348:355
+43	abuso	abuso	NOUN	NOUN	_	38	amod	_	TokenRange=356:361
+44	poder	poder	NOUN	NOUN	_	38	appos	_	TokenRange=362:367
+45	politico	politico	ADJ	ADJ	_	44	amod	_	TokenRange=368:376
+46	economico	economico	ADJ	ADJ	_	47	amod	_	TokenRange=377:386
+47	campanha	campanha	NOUN	NOUN	_	38	appos	_	TokenRange=387:395
+48	eleitoral	eleitoral	ADJ	ADJ	_	47	amod	_	TokenRange=396:405
+49	2014	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=406:410
+50	entenda	entender	VERB	VERB	_	33	parataxis	_	TokenRange=411:418
+51	condenado	condenado	ADJ	ADJ	_	50	xcomp	_	TokenRange=419:428
+52	tse	_	DET	DET	_	55	nsubj	_	TokenRange=429:432
+53	temer	temer	NOUN	NOUN	_	55	nsubj	_	TokenRange=433:438
+54	pode	_	AUX	AUX	_	55	aux	_	TokenRange=439:443
+55	adiar	adiar	VERB	VERB	_	50	parataxis	_	TokenRange=444:449
+56	saida	saida	NOUN	NOUN	_	55	obj	_	TokenRange=450:455
+57	presidencia	presidencia	NOUN	NOUN	_	56	flat	_	TokenRange=456:467
+58	atualizacao	atualizacao	ADJ	ADJ	_	55	xcomp	_	TokenRange=468:479
+59	conforme	_	CCONJ	CONJ	_	60	mark	_	TokenRange=480:488
+60	informou	informar	VERB	VERB	_	55	advcl	_	TokenRange=489:497
+61	inicialmente	inicialmente	ADV	ADV	_	60	advmod	_	TokenRange=498:510
+62	reportagem	reportagem	NOUN	NOUN	_	60	nsubj	_	TokenRange=511:521
+63	previsao	previsao	NOUN	NOUN	_	62	appos	_	TokenRange=522:530
+64	inicial	inicial	ADJ	ADJ	_	65	amod	_	TokenRange=531:538
+65	analise	analise	NOUN	NOUN	_	60	obj	_	TokenRange=539:546
+66	preliminares	preliminar	ADJ	ADJ	_	65	amod	_	SpaceAfter=No|TokenRange=547:559
+

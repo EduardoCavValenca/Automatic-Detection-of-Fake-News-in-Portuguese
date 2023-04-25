@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dpa chamar fatima pais avesso estranho ainda estranho ver religiao lado sabe pouco outro tomada aval legitimacao criminosos sordidos sociopatas escolhem odio caminho perrengue dizer minimo nada comparado nome karamba diaby dono desse nome ainda negro cara alemao maioria imagina tarefa ardua simplesmente chamar fatima pais alemanha somente perrengues
+1	dpa	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	chamar	chamar	VERB	VERB	_	21	ccomp	_	TokenRange=4:10
+3	fatima	_	NOUN	NOUN	_	2	obj	_	TokenRange=11:17
+4	pais	_	NOUN	NOUN	_	2	obj	_	TokenRange=18:22
+5	avesso	avesso	NOUN	NOUN	_	2	obj	_	TokenRange=23:29
+6	estranho	estranho	ADJ	ADJ	_	5	amod	_	TokenRange=30:38
+7	ainda	ainda	ADV	ADV	_	8	advmod	_	TokenRange=39:44
+8	estranho	estranho	ADJ	ADJ	_	5	amod	_	TokenRange=45:53
+9	ver	ver	VERB	VERB	_	2	parataxis	_	TokenRange=54:57
+10	religiao	religiao	NOUN	NOUN	_	9	obj	_	TokenRange=58:66
+11	lado	lado	NOUN	NOUN	_	12	nsubj	_	TokenRange=67:71
+12	sabe	saber	VERB	VERB	_	9	parataxis	_	TokenRange=72:76
+13	pouco	_	DET	DET	_	14	det	_	TokenRange=77:82
+14	outro	_	PRON	PRON	_	12	obj	_	TokenRange=83:88
+15	tomada	_	VERB	VERB	_	14	acl	_	TokenRange=89:95
+16	aval	aval	NOUN	NOUN	_	15	obj	_	TokenRange=96:100
+17	legitimacao	_	ADJ	ADJ	_	18	amod	_	TokenRange=101:112
+18	criminosos	criminoso	NOUN	NOUN	_	15	nsubj	_	TokenRange=113:123
+19	sordidos	sordido	ADJ	ADJ	_	18	amod	_	TokenRange=124:132
+20	sociopatas	_	NOUN	NOUN	_	18	amod	_	TokenRange=133:143
+21	escolhem	escolher	VERB	VERB	_	0	root	_	TokenRange=144:152
+22	odio	odio	NOUN	NOUN	_	21	obj	_	TokenRange=153:157
+23	caminho	caminho	NOUN	NOUN	_	21	obj	_	TokenRange=158:165
+24	perrengue	perrengue	ADJ	ADJ	_	23	amod	_	TokenRange=166:175
+25	dizer	dizer	VERB	VERB	_	23	acl:inf	_	TokenRange=176:181
+26	minimo	minimo	ADV	ADV	_	25	advmod	_	TokenRange=182:188
+27	nada	_	PRON	PRON	_	25	obj	_	TokenRange=189:193
+28	comparado	comparar	VERB	VERB	_	29	acl	_	TokenRange=194:203
+29	nome	nome	NOUN	NOUN	_	25	obj	_	TokenRange=204:208
+30	karamba	karamba	NOUN	NOUN	_	29	appos	_	TokenRange=209:216
+31	diaby	_	NOUN	NOUN	_	37	flat	_	TokenRange=217:222
+32	dono	dono	NOUN	NOUN	_	30	appos	_	TokenRange=223:227
+33	desse	_	ADP	ADP	_	34	case	_	TokenRange=228:233
+34	nome	nome	NOUN	NOUN	_	32	nmod	_	TokenRange=234:238
+35	ainda	ainda	ADV	ADV	_	36	advmod	_	TokenRange=239:244
+36	negro	negro	ADJ	ADJ	_	37	amod	_	TokenRange=245:250
+37	cara	cara	NOUN	NOUN	_	32	appos	_	TokenRange=251:255
+38	alemao	alemao	ADJ	ADJ	_	37	amod	_	TokenRange=256:262
+39	maioria	maioria	NOUN	NOUN	_	37	appos	_	TokenRange=263:270
+40	imagina	imagino	ADJ	ADJ	_	41	amod	_	TokenRange=271:278
+41	tarefa	tarefa	NOUN	NOUN	_	37	appos	_	TokenRange=279:285
+42	ardua	arduo	ADJ	ADJ	_	41	amod	_	TokenRange=286:291
+43	simplesmente	simplesmente	ADV	ADV	_	44	advmod	_	TokenRange=292:304
+44	chamar	chamar	VERB	VERB	_	41	acl:inf	_	TokenRange=305:311
+45	fatima	_	NOUN	NOUN	_	44	obj	_	TokenRange=312:318
+46	pais	_	NOUN	NOUN	_	49	flat	_	TokenRange=319:323
+47	alemanha	alemanha	NOUN	NOUN	_	49	appos	_	TokenRange=324:332
+48	somente	somente	ADV	ADV	_	49	advmod	_	TokenRange=333:340
+49	perrengues	perrengue	NOUN	NOUN	_	45	appos	_	SpaceAfter=No|TokenRange=341:351
+

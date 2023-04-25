@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = agora fita pericia vale diz gilmar ironizando audios jbs herman usou depoimentos bases voto rebate veja calmo agora apos quase duas horas intervencoes voto ministro herman benjamin ministro gilmar mendes submergiu falar outro tema julgamento chapa dilmatemer falta pericia previa
+1	agora	agora	ADV	ADV	_	2	advmod	_	TokenRange=0:5
+2	fita	fita	NOUN	NOUN	_	0	root	_	TokenRange=6:10
+3	pericia	pericia	NOUN	NOUN	_	2	nsubj	_	TokenRange=11:18
+4	vale	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=19:23
+5	diz	dizer	VERB	VERB	_	2	acl:relcl	_	TokenRange=24:27
+6	gilmar	gilmar	NOUN	NOUN	_	5	obj	_	TokenRange=28:34
+7	ironizando	ironizar	VERB	VERB	_	5	acl	_	TokenRange=35:45
+8	audios	audio	NOUN	NOUN	_	7	obj	_	TokenRange=46:52
+9	jbs	_	NOUN	NOUN	_	8	appos	_	TokenRange=53:56
+10	herman	_	NOUN	NOUN	_	9	flat	_	TokenRange=57:63
+11	usou	usar	VERB	VERB	_	5	parataxis	_	TokenRange=64:68
+12	depoimentos	depoimento	NOUN	NOUN	_	11	obj	_	TokenRange=69:80
+13	bases	base	NOUN	NOUN	_	12	amod	_	TokenRange=81:86
+14	voto	voto	NOUN	NOUN	_	11	obj	_	TokenRange=87:91
+15	rebate	rebate	NOUN	NOUN	_	14	flat	_	TokenRange=92:98
+16	veja	ver	VERB	VERB	_	11	parataxis	_	TokenRange=99:103
+17	calmo	calmo	NOUN	NOUN	_	16	obj	_	TokenRange=104:109
+18	agora	agora	ADV	ADV	_	16	advmod	_	TokenRange=110:115
+19	apos	_	ADP	ADP	_	22	case	_	TokenRange=116:120
+20	quase	quase	ADV	ADV	_	21	advmod	_	TokenRange=121:126
+21	duas	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=127:131
+22	horas	hora	NOUN	NOUN	_	16	nmod	_	TokenRange=132:137
+23	intervencoes	intervenco	NOUN	NOUN	_	22	appos	_	TokenRange=138:150
+24	voto	voto	NOUN	NOUN	_	31	nsubj	_	TokenRange=151:155
+25	ministro	ministro	NOUN	NOUN	_	24	flat	_	TokenRange=156:164
+26	herman	_	NOUN	NOUN	_	24	appos	_	TokenRange=165:171
+27	benjamin	_	NOUN	NOUN	_	28	flat	_	TokenRange=172:180
+28	ministro	ministro	NOUN	NOUN	_	24	flat	_	TokenRange=181:189
+29	gilmar	gilmar	NOUN	NOUN	_	28	amod	_	TokenRange=190:196
+30	mendes	_	ADJ	ADJ	_	28	amod	_	TokenRange=197:203
+31	submergiu	submergir	VERB	VERB	_	16	parataxis	_	TokenRange=204:213
+32	falar	falar	VERB	VERB	_	31	xcomp	_	TokenRange=214:219
+33	outro	_	DET	DET	_	34	det	_	TokenRange=220:225
+34	tema	tema	NOUN	NOUN	_	32	obj	_	TokenRange=226:230
+35	julgamento	julgamento	NOUN	NOUN	_	34	appos	_	TokenRange=231:241
+36	chapa	chapa	NOUN	NOUN	_	38	nsubj	_	TokenRange=242:247
+37	dilmatemer	dilmatemer	NOUN	NOUN	_	36	flat	_	TokenRange=248:258
+38	falta	_	VERB	VERB	_	31	parataxis	_	TokenRange=259:264
+39	pericia	pericia	NOUN	NOUN	_	38	obj	_	TokenRange=265:272
+40	previa	previo	ADJ	ADJ	_	39	amod	_	SpaceAfter=No|TokenRange=273:279
+

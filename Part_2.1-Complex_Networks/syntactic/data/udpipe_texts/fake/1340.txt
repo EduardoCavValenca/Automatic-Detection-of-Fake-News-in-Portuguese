@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = travalinguas odebrecht delator diz salsicha repassou dinheiro chuchu caixa2 geraldo alckmin conhecido alcunha picole chuchu recebeu agrado atraves salsicha
+1	travalinguas	travalingua	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:12
+2	odebrecht	_	NOUN	NOUN	_	1	appos	_	TokenRange=13:22
+3	delator	delator	NOUN	NOUN	_	1	flat	_	TokenRange=23:30
+4	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=31:34
+5	salsicha	salsicha	NOUN	NOUN	_	4	obj	_	TokenRange=35:43
+6	repassou	repassar	VERB	VERB	_	4	parataxis	_	TokenRange=44:52
+7	dinheiro	dinheiro	NOUN	NOUN	_	6	obj	_	TokenRange=53:61
+8	chuchu	chuchu	NOUN	NOUN	_	7	appos	_	TokenRange=62:68
+9	caixa2	caixa2	NOUN	NOUN	_	7	appos	_	TokenRange=69:75
+10	geraldo	geraldo	NOUN	NOUN	_	9	appos	_	TokenRange=76:83
+11	alckmin	_	NOUN	NOUN	_	10	flat	_	TokenRange=84:91
+12	conhecido	conhecer	VERB	VERB	_	13	acl	_	TokenRange=92:101
+13	alcunha	alcunha	NOUN	NOUN	_	9	acl	_	TokenRange=102:109
+14	picole	_	NOUN	NOUN	_	13	appos	_	TokenRange=110:116
+15	chuchu	chuchu	NOUN	NOUN	_	13	appos	_	TokenRange=117:123
+16	recebeu	receber	VERB	VERB	_	4	parataxis	_	TokenRange=124:131
+17	agrado	agrado	NOUN	NOUN	_	16	obj	_	TokenRange=132:138
+18	atraves	_	ADV	ADV	_	16	advmod	_	TokenRange=139:146
+19	salsicha	salsicha	NOUN	NOUN	_	17	appos	_	SpaceAfter=No|TokenRange=147:155
+

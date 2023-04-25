@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf conclui inquerito acronimo indicia luciano coutinho primeiradama mg fernando pimentel indiciado foro privilegiado relatorio analisado stj defesa governador disse trata caso emblematico excesso perseguicao policia federal pf concluiu inquerito operacao acronimo indiciou oito pessoas quais expresidente banco nacional desenvolvimento economico social bndes luciano coutinho primeiradama minas gerais carolina oliveira mulher governador fernando pimentel pt relatorio concluido 21 setembro revelado domingo 22 colunista jornal globo lauro jardim suspeito atuado atuou obter vantagens indevidas doacoes campanha eleitoral 2014 contabilidade oficial governador mineiro indiciado neste inquerito
+1	pf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	conclui	concluir	VERB	VERB	_	0	root	_	TokenRange=3:10
+3	inquerito	inquerito	NOUN	NOUN	_	2	obj	_	TokenRange=11:20
+4	acronimo	acronimo	ADJ	ADJ	_	3	amod	_	TokenRange=21:29
+5	indicia	indiciar	VERB	VERB	_	3	acl:relcl	_	TokenRange=30:37
+6	luciano	luciano	NOUN	NOUN	_	5	obj	_	TokenRange=38:45
+7	coutinho	_	NOUN	NOUN	_	6	flat	_	TokenRange=46:54
+8	primeiradama	primeiradamo	NOUN	NOUN	_	6	amod	_	TokenRange=55:67
+9	mg	_	NOUN	NOUN	_	6	appos	_	TokenRange=68:70
+10	fernando	fernando	NOUN	NOUN	_	6	appos	_	TokenRange=71:79
+11	pimentel	pimentel	ADJ	NOUN	_	10	amod	_	TokenRange=80:88
+12	indiciado	indiciar	VERB	VERB	_	10	acl	_	TokenRange=89:98
+13	foro	foro	NOUN	NOUN	_	10	appos	_	TokenRange=99:103
+14	privilegiado	privilegiado	ADJ	ADJ	_	15	amod	_	TokenRange=104:116
+15	relatorio	relatorio	NOUN	NOUN	_	13	appos	_	TokenRange=117:126
+16	analisado	analisado	ADJ	ADJ	_	15	acl	_	TokenRange=127:136
+17	stj	_	ADJ	ADJ	_	18	appos	_	TokenRange=137:140
+18	defesa	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=141:147
+19	governador	governador	NOUN	NOUN	_	18	appos	_	TokenRange=148:158
+20	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=159:164
+21	trata	trata	NOUN	NOUN	_	20	obj	_	TokenRange=165:170
+22	caso	caso	NOUN	NOUN	_	21	obj	_	TokenRange=171:175
+23	emblematico	emblematico	ADJ	ADJ	_	22	amod	_	TokenRange=176:187
+24	excesso	excesso	NOUN	NOUN	_	22	appos	_	TokenRange=188:195
+25	perseguicao	perseguicao	ADJ	ADJ	_	26	amod	_	TokenRange=196:207
+26	policia	policia	NOUN	NOUN	_	29	nsubj	_	TokenRange=208:215
+27	federal	federal	ADJ	ADJ	_	26	amod	_	TokenRange=216:223
+28	pf	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=224:226
+29	concluiu	concluir	VERB	VERB	_	2	parataxis	_	TokenRange=227:235
+30	inquerito	inquerito	NOUN	NOUN	_	29	obj	_	TokenRange=236:245
+31	operacao	operacao	NOUN	NOUN	_	29	nsubj	_	TokenRange=246:254
+32	acronimo	acronimo	NOUN	NOUN	_	31	amod	_	TokenRange=255:263
+33	indiciou	indiciar	VERB	VERB	_	2	parataxis	_	TokenRange=264:272
+34	oito	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=273:277
+35	pessoas	pessoa	NOUN	NOUN	_	33	obj	_	TokenRange=278:285
+36	quais	_	PRON	PRON	_	38	det	_	TokenRange=286:291
+37	expresidente	expresidente	NOUN	NOUN	_	38	amod	_	TokenRange=292:304
+38	banco	banco	NOUN	NOUN	_	35	appos	_	TokenRange=305:310
+39	nacional	nacional	ADJ	ADJ	_	38	amod	_	TokenRange=311:319
+40	desenvolvimento	desenvolvimento	NOUN	NOUN	_	38	appos	_	TokenRange=320:335
+41	economico	economico	ADJ	ADJ	_	38	amod	_	TokenRange=336:345
+42	social	social	ADJ	ADJ	_	38	amod	_	TokenRange=346:352
+43	bndes	bnde	NOUN	NOUN	_	38	appos	_	TokenRange=353:358
+44	luciano	luciano	NOUN	NOUN	_	43	appos	_	TokenRange=359:366
+45	coutinho	_	NOUN	NOUN	_	44	flat	_	TokenRange=367:375
+46	primeiradama	primeiradamo	ADJ	ADJ	_	47	amod	_	TokenRange=376:388
+47	minas	mina	NOUN	NOUN	_	44	appos	_	TokenRange=389:394
+48	gerais	geral	ADJ	ADJ	_	47	amod	_	TokenRange=395:401
+49	carolina	_	NOUN	NOUN	_	47	appos	_	TokenRange=402:410
+50	oliveira	_	ADJ	ADJ	_	49	amod	_	TokenRange=411:419
+51	mulher	mulher	NOUN	NOUN	_	49	flat	_	TokenRange=420:426
+52	governador	governador	NOUN	NOUN	_	49	appos	_	TokenRange=427:437
+53	fernando	fernando	NOUN	NOUN	_	49	appos	_	TokenRange=438:446
+54	pimentel	pimentel	ADJ	ADJ	_	53	amod	_	TokenRange=447:455
+55	pt	_	ADJ	PNOUN	_	53	amod	_	TokenRange=456:458
+56	relatorio	relatorio	NOUN	NOUN	_	33	obj	_	TokenRange=459:468
+57	concluido	concluir	VERB	VERB	_	56	acl	_	TokenRange=469:478
+58	21	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=479:481
+59	setembro	_	PROPN	PNOUN	_	57	nmod	_	TokenRange=482:490
+60	revelado	revelar	VERB	VERB	_	61	acl	_	TokenRange=491:499
+61	domingo	_	PROPN	PNOUN	_	57	nmod	_	TokenRange=500:507
+62	22	_	NUM	NUM	NumType=Card	61	appos	_	TokenRange=508:510
+63	colunista	colunista	NOUN	NOUN	_	61	appos	_	TokenRange=511:520
+64	jornal	jornal	NOUN	NOUN	_	61	appos	_	TokenRange=521:527
+65	globo	globo	ADJ	ADJ	_	64	amod	_	TokenRange=528:533
+66	lauro	lauro	NOUN	NOUN	_	64	appos	_	TokenRange=534:539
+67	jardim	jardim	NOUN	NOUN	_	66	flat	_	TokenRange=540:546
+68	suspeito	suspeito	NOUN	NOUN	_	66	amod	_	TokenRange=547:555
+69	atuado	atuado	ADJ	ADJ	_	66	amod	_	TokenRange=556:562
+70	atuou	atuar	VERB	VERB	_	2	parataxis	_	TokenRange=563:568
+71	obter	obter	VERB	VERB	_	70	xcomp	_	TokenRange=569:574
+72	vantagens	vantagem	NOUN	NOUN	_	71	obj	_	TokenRange=575:584
+73	indevidas	indevido	ADJ	ADJ	_	72	amod	_	TokenRange=585:594
+74	doacoes	_	ADJ	ADJ	_	75	amod	_	TokenRange=595:602
+75	campanha	campanha	NOUN	NOUN	_	71	obj	_	TokenRange=603:611
+76	eleitoral	eleitoral	ADJ	ADJ	_	75	amod	_	TokenRange=612:621
+77	2014	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=622:626
+78	contabilidade	contabilidade	NOUN	NOUN	_	75	appos	_	TokenRange=627:640
+79	oficial	oficial	ADJ	ADJ	_	78	amod	_	TokenRange=641:648
+80	governador	governador	NOUN	NOUN	_	75	appos	_	TokenRange=649:659
+81	mineiro	mineiro	ADJ	ADJ	_	80	amod	_	TokenRange=660:667
+82	indiciado	indiciar	VERB	VERB	_	78	acl	_	TokenRange=668:677
+83	neste	_	ADP	ADP	_	84	case	_	TokenRange=678:683
+84	inquerito	inquerito	NOUN	NOUN	_	82	nmod	_	SpaceAfter=No|TokenRange=684:693
+

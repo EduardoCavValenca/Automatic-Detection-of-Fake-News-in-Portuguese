@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos discurso presidencia silvio santos volta cancer semana passada silvio santos discutido possibilidade candidato presidencia junto genro fabio faria articulador candidatura infelizmente hoje pessoas proximas apresentador afirmaram silvio volta sofrer cancer cancer pele apresentador chamou atencao aparecer fotos testa marcada imediatamente realizou cirurgia retirada tumor
+1	apos	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	discurso	discurso	NOUN	NOUN	_	27	nmod	_	TokenRange=5:13
+3	presidencia	presidencia	NOUN	NOUN	_	2	flat	_	TokenRange=14:25
+4	silvio	silvio	NOUN	NOUN	_	2	appos	_	TokenRange=26:32
+5	santos	santo	NOUN	NOUN	_	4	flat	_	TokenRange=33:39
+6	volta	volta	NOUN	NOUN	_	4	flat	_	TokenRange=40:45
+7	cancer	cancer	NOUN	NOUN	_	2	appos	_	TokenRange=46:52
+8	semana	semana	NOUN	NOUN	_	7	appos	_	TokenRange=53:59
+9	passada	passado	ADJ	ADJ	_	8	amod	_	TokenRange=60:67
+10	silvio	silvio	NOUN	NOUN	_	7	appos	_	TokenRange=68:74
+11	santos	santo	NOUN	NOUN	_	10	flat	_	TokenRange=75:81
+12	discutido	discutir	VERB	VERB	_	13	acl	_	TokenRange=82:91
+13	possibilidade	possibilidade	NOUN	NOUN	_	10	appos	_	TokenRange=92:105
+14	candidato	candidato	NOUN	NOUN	_	13	appos	_	TokenRange=106:115
+15	presidencia	presidencia	NOUN	NOUN	_	14	flat	_	TokenRange=116:127
+16	junto	junto	ADV	ADV	_	17	advmod	_	TokenRange=128:133
+17	genro	genro	NOUN	NOUN	_	13	appos	_	TokenRange=134:139
+18	fabio	_	NOUN	NOUN	_	17	flat	_	TokenRange=140:145
+19	faria	fazer	NOUN	NOUN	_	17	appos	_	TokenRange=146:151
+20	articulador	articulador	NOUN	NOUN	_	17	appos	_	TokenRange=152:163
+21	candidatura	candidatura	NOUN	NOUN	_	17	flat	_	TokenRange=164:175
+22	infelizmente	infelizmente	ADV	ADV	_	23	advmod	_	TokenRange=176:188
+23	hoje	hoje	ADV	ADV	_	27	advmod	_	TokenRange=189:193
+24	pessoas	pessoa	NOUN	NOUN	_	27	nsubj	_	TokenRange=194:201
+25	proximas	proximo	ADJ	ADJ	_	24	amod	_	TokenRange=202:210
+26	apresentador	apresentador	NOUN	NOUN	_	24	appos	_	TokenRange=211:223
+27	afirmaram	afirmar	VERB	VERB	_	0	root	_	TokenRange=224:233
+28	silvio	silvio	NOUN	NOUN	_	27	obj	_	TokenRange=234:240
+29	volta	_	NOUN	NOUN	_	30	obj	_	TokenRange=241:246
+30	sofrer	sofrer	VERB	VERB	_	27	ccomp	_	TokenRange=247:253
+31	cancer	cancer	NOUN	NOUN	_	30	obj	_	TokenRange=254:260
+32	cancer	cancer	NOUN	NOUN	_	31	appos	_	TokenRange=261:267
+33	pele	pele	NOUN	NOUN	_	32	flat	_	TokenRange=268:272
+34	apresentador	apresentador	NOUN	NOUN	_	32	amod	_	TokenRange=273:285
+35	chamou	chamar	VERB	VERB	_	30	parataxis	_	TokenRange=286:292
+36	atencao	atencao	NOUN	NOUN	_	35	obj	_	TokenRange=293:300
+37	aparecer	aparecer	VERB	VERB	_	35	ccomp	_	TokenRange=301:309
+38	fotos	foto	NOUN	NOUN	_	37	obj	_	TokenRange=310:315
+39	testa	testa	NOUN	NOUN	_	38	appos	_	TokenRange=316:321
+40	marcada	marcar	VERB	VERB	_	39	acl	_	TokenRange=322:329
+41	imediatamente	imediatamente	ADV	ADV	_	42	advmod	_	TokenRange=330:343
+42	realizou	realizar	VERB	VERB	_	27	parataxis	_	TokenRange=344:352
+43	cirurgia	cirurgia	NOUN	NOUN	_	42	obj	_	TokenRange=353:361
+44	retirada	retirado	ADJ	ADJ	_	43	amod	_	TokenRange=362:370
+45	tumor	tumor	NOUN	NOUN	_	43	appos	_	SpaceAfter=No|TokenRange=371:376
+

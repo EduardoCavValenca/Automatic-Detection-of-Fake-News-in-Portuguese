@@ -1,0 +1,29 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aluno ufpa selecionado embaixador brasileiro universidade americana jovem cinco embaixadores brasileiros selecionados participar evento 16 mil inscritos pais estudante universidade federal
+1	aluno	aluno	NOUN	NOUN	_	20	nsubj	_	TokenRange=0:5
+2	ufpa	ufpa	NOUN	NOUN	_	1	flat	_	TokenRange=6:10
+3	selecionado	selecionar	VERB	VERB	_	4	acl	_	TokenRange=11:22
+4	embaixador	embaixador	NOUN	NOUN	_	1	acl	_	TokenRange=23:33
+5	brasileiro	brasileiro	ADJ	ADJ	_	4	amod	_	TokenRange=34:44
+6	universidade	universidade	NOUN	NOUN	_	4	appos	_	TokenRange=45:57
+7	americana	americano	ADJ	ADJ	_	6	amod	_	TokenRange=58:67
+8	jovem	jovem	ADJ	ADJ	_	6	amod	_	TokenRange=68:73
+9	cinco	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=74:79
+10	embaixadores	embaixador	NOUN	NOUN	_	1	appos	_	TokenRange=80:92
+11	brasileiros	brasileiro	ADJ	ADJ	_	10	amod	_	TokenRange=93:104
+12	selecionados	selecionar	VERB	VERB	_	10	acl	_	TokenRange=105:117
+13	participar	participar	VERB	VERB	_	12	xcomp	_	TokenRange=118:128
+14	evento	evento	NOUN	NOUN	_	13	obj	_	TokenRange=129:135
+15	16	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=136:138
+16	mil	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=139:142
+17	inscritos	inscrito	NOUN	NOUN	_	13	obj	_	TokenRange=143:152
+18	pais	_	NOUN	NOUN	_	20	appos	_	TokenRange=153:157
+19	estudante	estudante	ADJ	ADJ	_	20	amod	_	TokenRange=158:167
+20	universidade	universidade	NOUN	NOUN	_	0	root	_	TokenRange=168:180
+21	federal	federal	ADJ	ADJ	_	20	amod	_	SpaceAfter=No|TokenRange=181:188
+

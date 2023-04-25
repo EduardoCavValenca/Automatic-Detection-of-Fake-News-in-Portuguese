@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gilmar diz pf congresso melhor solucao entao vai prender ladroes terno ministro stf gilmar mendes disse hoje 27 supremo dara norte operacao metis acordo mendes tratase caso delicado colocar pf dentro congresso melhor opcao pergunta parlamento maioria politicos ladroes sugestao nobre ministro politicos invertem razao argumentam policia ameaca estado direito ameaca estado direito corruptos policia
+1	gilmar	gilmar	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=7:10
+3	pf	_	NOUN	NOUN	_	2	obj	_	TokenRange=11:13
+4	congresso	congresso	NOUN	NOUN	_	3	flat	_	TokenRange=14:23
+5	melhor	melhor	ADJ	ADJ	_	6	amod	_	TokenRange=24:30
+6	solucao	solucao	NOUN	NOUN	_	2	obj	_	TokenRange=31:38
+7	entao	entao	ADV	ADV	_	9	advmod	_	TokenRange=39:44
+8	vai	ir	AUX	AUX	_	9	aux	_	TokenRange=45:48
+9	prender	prender	VERB	VERB	_	2	advcl	_	TokenRange=49:56
+10	ladroes	ladroe	NOUN	NOUN	_	9	obj	_	TokenRange=57:64
+11	terno	terno	ADJ	ADJ	_	12	amod	_	TokenRange=65:70
+12	ministro	ministro	NOUN	NOUN	_	16	nsubj	_	TokenRange=71:79
+13	stf	_	NOUN	NOUN	_	12	appos	_	TokenRange=80:83
+14	gilmar	gilmar	NOUN	NOUN	_	12	appos	_	TokenRange=84:90
+15	mendes	_	NOUN	NOUN	_	14	amod	_	TokenRange=91:97
+16	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=98:103
+17	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=104:108
+18	27	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=109:111
+19	supremo	supremo	NOUN	ADJ	_	20	amod	_	TokenRange=112:119
+20	dara	dara	NOUN	NOUN	_	16	nmod	_	TokenRange=120:124
+21	norte	norte	ADJ	ADJ	_	22	amod	_	TokenRange=125:130
+22	operacao	operacao	NOUN	NOUN	_	16	nsubj	_	TokenRange=131:139
+23	metis	_	ADJ	ADJ	_	22	amod	_	TokenRange=140:145
+24	acordo	acordo	NOUN	NOUN	_	16	nsubj	_	TokenRange=146:152
+25	mendes	_	ADJ	ADJ	_	24	amod	_	TokenRange=153:159
+26	tratase	_	VERB	VERB	_	24	acl:relcl	_	TokenRange=160:167
+27	caso	caso	NOUN	NOUN	_	26	obj	_	TokenRange=168:172
+28	delicado	delicado	ADJ	ADJ	_	27	amod	_	TokenRange=173:181
+29	colocar	colocar	VERB	VERB	_	26	ccomp	_	TokenRange=182:189
+30	pf	_	NOUN	NOUN	_	29	obj	_	TokenRange=190:192
+31	dentro	dentro	ADV	ADV	_	29	advmod	_	TokenRange=193:199
+32	congresso	congresso	NOUN	NOUN	_	29	obj	_	TokenRange=200:209
+33	melhor	melhor	ADJ	ADJ	_	34	amod	_	TokenRange=210:216
+34	opcao	opcao	NOUN	NOUN	_	29	obj	_	TokenRange=217:222
+35	pergunta	pergunta	NOUN	NOUN	_	34	appos	_	TokenRange=223:231
+36	parlamento	parlamento	NOUN	NOUN	_	35	flat	_	TokenRange=232:242
+37	maioria	maioria	NOUN	NOUN	_	36	appos	_	TokenRange=243:250
+38	politicos	politico	ADJ	ADJ	_	37	amod	_	TokenRange=251:260
+39	ladroes	_	NOUN	NOUN	_	36	appos	_	TokenRange=261:268
+40	sugestao	sugestao	NOUN	NOUN	_	36	appos	_	TokenRange=269:277
+41	nobre	nobre	ADJ	ADJ	_	42	amod	_	TokenRange=278:283
+42	ministro	ministro	NOUN	NOUN	_	44	nsubj	_	TokenRange=284:292
+43	politicos	politico	ADJ	ADJ	_	42	amod	_	TokenRange=293:302
+44	invertem	inverter	VERB	VERB	_	2	parataxis	_	TokenRange=303:311
+45	razao	razao	NOUN	NOUN	_	44	obj	_	TokenRange=312:317
+46	argumentam	argumentar	VERB	VERB	_	44	parataxis	_	TokenRange=318:328
+47	policia	policia	NOUN	NOUN	_	46	obj	_	TokenRange=329:336
+48	ameaca	ameacar	VERB	VERB	_	47	acl:relcl	_	TokenRange=337:343
+49	estado	estado	NOUN	NOUN	_	48	obj	_	TokenRange=344:350
+50	direito	direito	ADJ	ADJ	_	49	amod	_	TokenRange=351:358
+51	ameaca	ameacar	VERB	VERB	_	46	parataxis	_	TokenRange=359:365
+52	estado	estado	NOUN	NOUN	_	51	obj	_	TokenRange=366:372
+53	direito	direito	ADJ	ADJ	_	52	amod	_	TokenRange=373:380
+54	corruptos	corrupto	ADJ	ADJ	_	52	amod	_	TokenRange=381:390
+55	policia	policia	NOUN	NOUN	_	52	appos	_	SpaceAfter=No|TokenRange=391:398
+

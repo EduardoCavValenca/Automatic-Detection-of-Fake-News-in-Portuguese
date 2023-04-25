@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alemanha atirador abre fogo cinema atinge 25 pessoas atirador vestindo mascara abriu fogo dentro cinema atentado aconteceu cidade viernheim deixou 25 50 pessoas feridas hoje 23 acordo informacoes emissora tv publica alema norteamericana cnn reuters noticiaram fato viernheim fica proxima frankfurt ainda sabe motivou ataque local cercado policia ainda informacoes atirador fez refens jornal darmstadter echo informou menos 50 pessoas podem estar feridas
+1	alemanha	alemanha	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	atirador	atirador	NOUN	NOUN	_	1	flat	_	TokenRange=9:17
+3	abre	abrir	VERB	VERB	_	0	root	_	TokenRange=18:22
+4	fogo	fogo	NOUN	NOUN	_	3	obj	_	TokenRange=23:27
+5	cinema	cinema	NOUN	NOUN	_	3	nsubj	_	TokenRange=28:34
+6	atinge	atingir	VERB	VERB	_	3	conj	_	TokenRange=35:41
+7	25	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=42:44
+8	pessoas	pessoa	NOUN	NOUN	_	6	obj	_	TokenRange=45:52
+9	atirador	atirador	NOUN	NOUN	_	6	nsubj	_	TokenRange=53:61
+10	vestindo	vestir	VERB	VERB	_	8	acl	_	TokenRange=62:70
+11	mascara	mascar	NOUN	NOUN	_	10	obj	_	TokenRange=71:78
+12	abriu	abrir	VERB	VERB	_	3	parataxis	_	TokenRange=79:84
+13	fogo	fogo	NOUN	NOUN	_	12	obj	_	TokenRange=85:89
+14	dentro	dentro	ADV	ADV	_	12	advmod	_	TokenRange=90:96
+15	cinema	cinema	NOUN	NOUN	_	12	nsubj	_	TokenRange=97:103
+16	atentado	atentado	NOUN	NOUN	_	15	appos	_	TokenRange=104:112
+17	aconteceu	acontecer	VERB	VERB	_	3	parataxis	_	TokenRange=113:122
+18	cidade	cidade	NOUN	NOUN	_	17	nsubj	_	TokenRange=123:129
+19	viernheim	_	NOUN	NOUN	_	18	amod	_	TokenRange=130:139
+20	deixou	deixar	VERB	VERB	_	17	parataxis	_	TokenRange=140:146
+21	25	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=147:149
+22	50	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=150:152
+23	pessoas	pessoa	NOUN	NOUN	_	20	obj	_	TokenRange=153:160
+24	feridas	ferido	ADJ	ADJ	_	20	xcomp	_	TokenRange=161:168
+25	hoje	hoje	ADV	ADV	_	17	advmod	_	TokenRange=169:173
+26	23	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=174:176
+27	acordo	acordo	NOUN	NOUN	_	20	nmod	_	TokenRange=177:183
+28	informacoes	informacoe	NOUN	NOUN	_	27	amod	_	TokenRange=184:195
+29	emissora	_	NOUN	NOUN	_	30	amod	_	TokenRange=196:204
+30	tv	tv	NOUN	NOUN	_	20	nsubj	_	TokenRange=205:207
+31	publica	publico	ADJ	ADJ	_	30	amod	_	TokenRange=208:215
+32	alema	alemo	ADJ	ADJ	_	30	amod	_	TokenRange=216:221
+33	norteamericana	norteamericano	ADJ	ADJ	_	30	amod	_	TokenRange=222:236
+34	cnn	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=237:240
+35	reuters	reuter	NOUN	NOUN	_	30	appos	_	TokenRange=241:248
+36	noticiaram	noticiar	VERB	VERB	_	30	acl:relcl	_	TokenRange=249:259
+37	fato	fato	NOUN	NOUN	_	36	obj	_	TokenRange=260:264
+38	viernheim	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=265:274
+39	fica	ficar	VERB	VERB	_	36	ccomp	_	TokenRange=275:279
+40	proxima	proximo	ADJ	ADJ	_	39	xcomp	_	TokenRange=280:287
+41	frankfurt	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=288:297
+42	ainda	ainda	ADV	ADV	_	43	advmod	_	TokenRange=298:303
+43	sabe	saber	VERB	VERB	_	36	parataxis	_	TokenRange=304:308
+44	motivou	motivar	VERB	VERB	_	43	ccomp	_	TokenRange=309:316
+45	ataque	ataque	NOUN	NOUN	_	44	obj	_	TokenRange=317:323
+46	local	local	ADJ	ADJ	_	45	amod	_	TokenRange=324:329
+47	cercado	cercado	ADJ	ADJ	_	45	amod	_	TokenRange=330:337
+48	policia	policia	NOUN	NOUN	_	45	appos	_	TokenRange=338:345
+49	ainda	ainda	ADV	ADV	_	50	advmod	_	TokenRange=346:351
+50	informacoes	informacoe	ADJ	ADJ	_	48	amod	_	TokenRange=352:363
+51	atirador	atirador	NOUN	NOUN	_	52	nsubj	_	TokenRange=364:372
+52	fez	fazer	VERB	VERB	_	45	acl:relcl	_	TokenRange=373:376
+53	refens	refem	NOUN	NOUN	_	52	obj	_	TokenRange=377:383
+54	jornal	jornal	NOUN	NOUN	_	53	flat	_	TokenRange=384:390
+55	darmstadter	darmstadter	ADJ	ADJ	_	56	amod	_	TokenRange=391:402
+56	echo	echo	NOUN	NOUN	_	54	appos	_	TokenRange=403:407
+57	informou	informar	VERB	VERB	_	52	parataxis	_	TokenRange=408:416
+58	menos	menos	ADV	ADV	_	59	advmod	_	TokenRange=417:422
+59	50	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=423:425
+60	pessoas	pessoa	NOUN	NOUN	_	62	nsubj	_	TokenRange=426:433
+61	podem	_	AUX	AUX	_	62	aux	_	TokenRange=434:439
+62	estar	estar	VERB	VERB	_	57	ccomp	_	TokenRange=440:445
+63	feridas	ferido	ADJ	ADJ	_	62	xcomp	_	SpaceAfter=No|TokenRange=446:453
+

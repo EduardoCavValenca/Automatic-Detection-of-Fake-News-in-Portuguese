@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = discurso historico novo presidente oab pais derrete parece nau deriva novo presidente conselho federal oab claudio lamachia tomou posse neste mes brasilia advogado gaucho eleito assumir mandato 2016 2018
+1	discurso	discurso	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:8
+2	historico	historico	ADJ	ADJ	_	1	amod	_	TokenRange=9:18
+3	novo	novo	ADJ	ADJ	_	4	amod	_	TokenRange=19:23
+4	presidente	presidente	NOUN	NOUN	_	1	appos	_	TokenRange=24:34
+5	oab	_	NOUN	NOUN	_	4	appos	_	TokenRange=35:38
+6	pais	_	NOUN	NOUN	_	4	appos	_	TokenRange=39:43
+7	derrete	_	ADJ	ADJ	_	6	amod	_	TokenRange=44:51
+8	parece	parecer	VERB	VERB	_	0	root	_	TokenRange=52:58
+9	nau	_	ADV	ADP	_	8	advmod	_	TokenRange=59:62
+10	deriva	deriva	NOUN	NOUN	_	8	nmod	_	TokenRange=63:69
+11	novo	novo	ADJ	ADJ	_	12	amod	_	TokenRange=70:74
+12	presidente	presidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=75:85
+13	conselho	conselho	NOUN	NOUN	_	12	appos	_	TokenRange=86:94
+14	federal	federal	ADJ	ADJ	_	13	amod	_	TokenRange=95:102
+15	oab	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=103:106
+16	claudio	claudio	NOUN	NOUN	_	15	flat	_	TokenRange=107:114
+17	lamachia	_	NOUN	NOUN	_	15	flat	_	TokenRange=115:123
+18	tomou	tomar	VERB	VERB	_	8	parataxis	_	TokenRange=124:129
+19	posse	posse	NOUN	NOUN	_	18	obj	_	TokenRange=130:135
+20	neste	_	ADP	ADP	_	21	case	_	TokenRange=136:141
+21	mes	mes	NOUN	NOUN	_	18	nmod	_	TokenRange=142:145
+22	brasilia	brasilia	ADJ	ADJ	_	21	amod	_	TokenRange=146:154
+23	advogado	advogado	NOUN	NOUN	_	18	nsubj	_	TokenRange=155:163
+24	gaucho	gaucho	ADJ	ADJ	_	23	amod	_	TokenRange=164:170
+25	eleito	eleger	VERB	VERB	_	23	acl	_	TokenRange=171:177
+26	assumir	assumir	VERB	VERB	_	25	xcomp	_	TokenRange=178:185
+27	mandato	mandato	NOUN	NOUN	_	26	obj	_	TokenRange=186:193
+28	2016	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=194:198
+29	2018	_	NUM	NUM	NumType=Card	28	nmod	_	SpaceAfter=No|TokenRange=199:203
+

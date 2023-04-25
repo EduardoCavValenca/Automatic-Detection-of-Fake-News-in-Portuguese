@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pm prende vereador bh pousou helicoptero praia espirito santo vereador capital mineira detido manha hoje acordo pm nobre parlamentar preso flagrante apresentar motivo justificasse pouso aeronave local publico colocando risco vida centenas banhistas praia bacutia guarapari litoral espirito santo rubens goncalves brito vereador piloto detidos levados delegacia guarapari/es helicoptero apreendido video abaixo mostra momento pouso aeronave parlamentar justificou qualquer problema tecnico helicoptero apenas alegou praia supostamente vazia delegado responsavel ocorrencia disse brito cometeu 2 crimes caso condenado podera pegar 3 6 anos reclusao video abaixo mostra depoimento delegado
+1	pm	_	CCONJ	CONJ	_	2	mark	_	TokenRange=0:2
+2	prende	_	VERB	NOUN	_	53	ccomp	_	TokenRange=3:9
+3	vereador	vereador	NOUN	NOUN	_	2	obj	_	TokenRange=10:18
+4	bh	_	NOUN	NOUN	_	3	appos	_	TokenRange=19:21
+5	pousou	pousar	VERB	VERB	_	2	parataxis	_	TokenRange=22:28
+6	helicoptero	helicoptero	NOUN	NOUN	_	5	obj	_	TokenRange=29:40
+7	praia	praia	NOUN	NOUN	_	6	appos	_	TokenRange=41:46
+8	espirito	espirito	ADJ	ADJ	_	7	amod	_	TokenRange=47:55
+9	santo	santo	ADJ	ADJ	_	7	amod	_	TokenRange=56:61
+10	vereador	vereador	NOUN	NOUN	_	5	appos	_	TokenRange=62:70
+11	capital	capital	NOUN	NOUN	_	10	amod	_	TokenRange=71:78
+12	mineira	mineiro	ADJ	ADJ	_	33	amod	_	TokenRange=79:86
+13	detido	deter	VERB	VERB	_	10	acl	_	TokenRange=87:93
+14	manha	manha	NOUN	NOUN	_	5	parataxis	_	TokenRange=94:99
+15	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=100:104
+16	acordo	acordo	NOUN	NOUN	_	53	obj	_	TokenRange=105:111
+17	pm	_	ADP	ADP	_	18	case	_	TokenRange=112:114
+18	nobre	nobre	NOUN	NOUN	_	16	nmod	_	TokenRange=115:120
+19	parlamentar	parlamentar	NOUN	NOUN	_	18	amod	_	TokenRange=121:132
+20	preso	_	VERB	VERB	_	18	appos	_	TokenRange=133:138
+21	flagrante	_	ADJ	ADJ	_	18	amod	_	TokenRange=139:148
+22	apresentar	apresentar	VERB	VERB	_	5	parataxis	_	TokenRange=149:159
+23	motivo	motivo	NOUN	NOUN	_	22	obj	_	TokenRange=160:166
+24	justificasse	justificar	VERB	VERB	_	22	ccomp	_	TokenRange=167:179
+25	pouso	pouso	NOUN	NOUN	_	24	obj	_	TokenRange=180:185
+26	aeronave	aeronave	NOUN	NOUN	_	24	obj	_	TokenRange=186:194
+27	local	local	ADJ	ADJ	_	26	amod	_	TokenRange=195:200
+28	publico	_	ADJ	ADJ	_	26	amod	_	TokenRange=201:208
+29	colocando	colocar	VERB	VERB	_	5	acl	_	TokenRange=209:218
+30	risco	risco	NOUN	NOUN	_	29	obj	_	TokenRange=219:224
+31	vida	vida	NOUN	NOUN	_	30	appos	_	TokenRange=225:229
+32	centenas	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=230:238
+33	banhistas	banhista	NOUN	NOUN	_	30	appos	_	TokenRange=239:248
+34	praia	praia	NOUN	NOUN	_	33	appos	_	TokenRange=249:254
+35	bacutia	_	NOUN	NOUN	_	33	flat	_	TokenRange=255:262
+36	guarapari	guarapari	NOUN	NOUN	_	33	appos	_	TokenRange=263:272
+37	litoral	litoral	ADJ	ADJ	_	33	amod	_	TokenRange=273:280
+38	espirito	espirito	ADJ	ADJ	_	33	amod	_	TokenRange=281:289
+39	santo	santo	ADJ	ADJ	_	33	amod	_	TokenRange=290:295
+40	rubens	rubem	NOUN	NOUN	_	33	appos	_	TokenRange=296:302
+41	goncalves	_	NOUN	NOUN	_	40	amod	_	TokenRange=303:312
+42	brito	brito	ADJ	ADJ	_	40	amod	_	TokenRange=313:318
+43	vereador	vereador	NOUN	NOUN	_	40	appos	_	TokenRange=319:327
+44	piloto	piloto	NOUN	NOUN	_	40	appos	_	TokenRange=328:334
+45	detidos	deter	VERB	VERB	_	47	acl	_	TokenRange=335:342
+46	levados	levado	ADJ	ADJ	_	47	amod	_	TokenRange=343:350
+47	delegacia	delegacia	NOUN	NOUN	_	40	appos	_	TokenRange=351:360
+48	guarapari/es	_	NOUN	NOUN	_	47	appos	_	TokenRange=361:373
+49	helicoptero	helicoptero	NOUN	NOUN	_	47	appos	_	TokenRange=374:385
+50	apreendido	apreendido	ADJ	ADJ	_	49	amod	_	TokenRange=386:396
+51	video	video	NOUN	NOUN	_	53	nsubj	_	TokenRange=397:402
+52	abaixo	abaixo	ADV	ADV	_	53	advmod	_	TokenRange=403:409
+53	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=410:416
+54	momento	momento	NOUN	NOUN	_	53	obj	_	TokenRange=417:424
+55	pouso	pouso	NOUN	NOUN	_	54	amod	_	TokenRange=425:430
+56	aeronave	aeronave	NOUN	NOUN	_	58	nsubj	_	TokenRange=431:439
+57	parlamentar	parlamentar	ADJ	ADJ	_	56	amod	_	TokenRange=440:451
+58	justificou	justificar	VERB	VERB	_	53	parataxis	_	TokenRange=452:462
+59	qualquer	_	DET	DET	_	60	det	_	TokenRange=463:471
+60	problema	problema	NOUN	NOUN	_	58	obj	_	TokenRange=472:480
+61	tecnico	tecnico	ADJ	ADJ	_	60	amod	_	TokenRange=481:488
+62	helicoptero	helicoptero	NOUN	NOUN	_	64	nsubj	_	TokenRange=489:500
+63	apenas	apenas	ADV	ADV	_	64	advmod	_	TokenRange=501:507
+64	alegou	alegar	VERB	VERB	_	53	parataxis	_	TokenRange=508:514
+65	praia	praia	NOUN	NOUN	_	64	obj	_	TokenRange=515:520
+66	supostamente	supostamente	ADV	ADV	_	67	advmod	_	TokenRange=521:533
+67	vazia	vazio	ADJ	ADJ	_	68	amod	_	TokenRange=534:539
+68	delegado	delegado	NOUN	NOUN	_	73	nsubj	_	TokenRange=540:548
+69	responsavel	responsavel	ADJ	ADJ	_	68	amod	_	TokenRange=549:560
+70	ocorrencia	_	NOUN	NOUN	_	68	appos	_	TokenRange=561:571
+71	disse	dizer	VERB	VERB	_	64	parataxis	_	TokenRange=572:577
+72	brito	brito	NOUN	NOUN	_	73	nsubj	_	TokenRange=578:583
+73	cometeu	cometer	VERB	VERB	_	71	ccomp	_	TokenRange=584:591
+74	2	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=592:593
+75	crimes	crime	NOUN	NOUN	_	73	obj	_	TokenRange=594:600
+76	caso	_	CCONJ	CONJ	_	79	mark	_	TokenRange=601:605
+77	condenado	condenar	VERB	VERB	_	79	advcl	_	TokenRange=606:615
+78	podera	poder	AUX	AUX	_	79	aux	_	TokenRange=616:622
+79	pegar	pegar	VERB	VERB	_	73	advcl	_	TokenRange=623:628
+80	3	_	NUM	NUM	NumType=Card	81	nummod	_	TokenRange=629:630
+81	6	_	NUM	NUM	NumType=Card	82	nummod	_	TokenRange=631:632
+82	anos	ano	NOUN	NOUN	_	79	obj	_	TokenRange=633:637
+83	reclusao	reclusao	ADJ	ADJ	_	79	xcomp	_	TokenRange=638:646
+84	video	video	NOUN	NOUN	_	86	nsubj	_	TokenRange=647:652
+85	abaixo	abaixo	ADV	ADV	_	86	advmod	_	TokenRange=653:659
+86	mostra	mostrar	VERB	VERB	_	73	parataxis	_	TokenRange=660:666
+87	depoimento	depoimento	NOUN	NOUN	_	86	obj	_	TokenRange=667:677
+88	delegado	delegado	ADJ	ADJ	_	87	amod	_	SpaceAfter=No|TokenRange=678:686
+

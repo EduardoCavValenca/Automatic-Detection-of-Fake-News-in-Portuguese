@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mulher perde bebe nove meses gravidez causa trombofilia coracao bebe parou bater crianca resistiu caso esclarecido mae procurou outro medico descobriu problema jornalista andressa figueiredo pereira nove meses segunda gravidez perdeu crianca causa trombofilia tendencia sofrer trombose coracao bebe parou bater menina resistiu tudo pensado detalhes receber filha manuela caderno vacina sapatinhos meinhas gente ganhado saida maternidade lavado tudo pronto
+1	mulher	mulher	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	perde	perder	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	bebe	bebe	NOUN	NOUN	_	2	obj	_	TokenRange=13:17
+4	nove	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=18:22
+5	meses	mês	NOUN	NOUN	_	2	nmod	_	TokenRange=23:28
+6	gravidez	gravidez	NOUN	NOUN	_	5	appos	_	TokenRange=29:37
+7	causa	causa	NOUN	NOUN	_	12	mark	_	TokenRange=38:43
+8	trombofilia	trombofilia	NOUN	NOUN	_	12	nsubj	_	TokenRange=44:55
+9	coracao	coracao	NOUN	NOUN	_	12	nsubj	_	TokenRange=56:63
+10	bebe	bebe	NOUN	NOUN	_	12	nsubj	_	TokenRange=64:68
+11	parou	parar	AUX	AUX	_	12	aux	_	TokenRange=69:74
+12	bater	bater	VERB	VERB	_	2	conj	_	TokenRange=75:80
+13	crianca	_	NOUN	NOUN	_	12	obj	_	TokenRange=81:88
+14	resistiu	resistir	VERB	VERB	_	2	parataxis	_	TokenRange=89:97
+15	caso	caso	NOUN	NOUN	_	14	obj	_	TokenRange=98:102
+16	esclarecido	esclarecer	ADJ	ADJ	_	14	xcomp	_	TokenRange=103:114
+17	mae	mae	NOUN	NOUN	_	18	nsubj	_	TokenRange=115:118
+18	procurou	procurar	VERB	VERB	_	14	ccomp	_	TokenRange=119:127
+19	outro	_	DET	DET	_	20	det	_	TokenRange=128:133
+20	medico	medico	NOUN	NOUN	_	18	obj	_	TokenRange=134:140
+21	descobriu	descobrir	VERB	VERB	_	14	parataxis	_	TokenRange=141:150
+22	problema	problema	NOUN	NOUN	_	21	obj	_	TokenRange=151:159
+23	jornalista	jornalista	NOUN	NOUN	_	22	appos	_	TokenRange=160:170
+24	andressa	andressa	NOUN	NOUN	_	22	appos	_	TokenRange=171:179
+25	figueiredo	figueiredo	ADJ	ADJ	_	24	amod	_	TokenRange=180:190
+26	pereira	_	NOUN	NOUN	_	24	flat	_	TokenRange=191:198
+27	nove	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=199:203
+28	meses	mês	NOUN	NOUN	_	31	nmod	_	TokenRange=204:209
+29	segunda	segundo	ADJ	ADJ	_	30	amod	_	TokenRange=210:217
+30	gravidez	gravidez	NOUN	NOUN	_	31	nsubj	_	TokenRange=218:226
+31	perdeu	perder	VERB	VERB	_	21	parataxis	_	TokenRange=227:233
+32	crianca	_	NOUN	NOUN	_	31	obj	_	TokenRange=234:241
+33	causa	causa	NOUN	NOUN	_	31	nsubj	_	TokenRange=242:247
+34	trombofilia	trombofilia	NOUN	NOUN	_	31	nsubj	_	TokenRange=248:259
+35	tendencia	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=260:269
+36	sofrer	sofrer	VERB	VERB	_	35	acl:inf	_	TokenRange=270:276
+37	trombose	trombose	NOUN	NOUN	_	36	obj	_	TokenRange=277:285
+38	coracao	coracao	NOUN	NOUN	_	37	appos	_	TokenRange=286:293
+39	bebe	bebe	NOUN	NOUN	_	41	nsubj	_	TokenRange=294:298
+40	parou	parar	AUX	AUX	_	41	aux	_	TokenRange=299:304
+41	bater	bater	VERB	VERB	_	37	acl:relcl	_	TokenRange=305:310
+42	menina	menino	NOUN	NOUN	_	41	obj	_	TokenRange=311:317
+43	resistiu	resistir	VERB	VERB	_	31	parataxis	_	TokenRange=318:326
+44	tudo	_	PRON	PRON	_	45	nsubj	_	TokenRange=327:331
+45	pensado	pensado	ADJ	ADJ	_	43	xcomp	_	TokenRange=332:339
+46	detalhes	detalhe	NOUN	NOUN	_	43	nsubj	_	TokenRange=340:348
+47	receber	receber	VERB	VERB	_	43	ccomp	_	TokenRange=349:356
+48	filha	filho	NOUN	NOUN	_	47	obj	_	TokenRange=357:362
+49	manuela	_	NOUN	NOUN	_	48	appos	_	TokenRange=363:370
+50	caderno	caderno	ADJ	NOUN	_	49	flat	_	TokenRange=371:378
+51	vacina	vacina	NOUN	NOUN	_	47	obj	_	TokenRange=379:385
+52	sapatinhos	sapatinho	NOUN	NOUN	_	51	appos	_	TokenRange=386:396
+53	meinhas	_	ADJ	ADJ	_	54	amod	_	TokenRange=397:404
+54	gente	gente	NOUN	NOUN	_	47	obj	_	TokenRange=405:410
+55	ganhado	ganhar	VERB	VERB	_	54	acl	_	TokenRange=411:418
+56	saida	_	NOUN	NOUN	_	54	appos	_	TokenRange=419:424
+57	maternidade	maternidade	NOUN	NOUN	_	58	nsubj	_	TokenRange=425:436
+58	lavado	lavar	VERB	VERB	_	54	acl	_	TokenRange=437:443
+59	tudo	_	PRON	PRON	_	60	nsubj	_	TokenRange=444:448
+60	pronto	pronto	ADJ	ADJ	_	58	xcomp	_	SpaceAfter=No|TokenRange=449:455
+

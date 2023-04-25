@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 29 novembro bom dia aqui principais noticias comecar dia beminformado acidente aereo time chapecoense faz 1 ano hoje tragedia matou 71 pessoas jogadores diretores clube jornalistas tripulacao chapeco sc parentes moradores torcedores fazem vigilia homenagens mortos alem dor
+1	quartafeira	quartafeira	NOUN	NOUN	_	21	parataxis	_	TokenRange=0:11
+2	29	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=12:14
+3	novembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:23
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=24:27
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=28:31
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=32:36
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=37:47
+8	noticias	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=48:56
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=57:64
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=65:68
+11	beminformado	beminformado	ADJ	ADJ	_	12	amod	_	TokenRange=69:81
+12	acidente	acidente	NOUN	NOUN	_	9	obj	_	TokenRange=82:90
+13	aereo	aereo	ADJ	ADJ	_	14	amod	_	TokenRange=91:96
+14	time	time	NOUN	NOUN	_	16	nsubj	_	TokenRange=97:101
+15	chapecoense	chapecoense	ADJ	ADJ	_	14	amod	_	TokenRange=102:113
+16	faz	fazer	VERB	VERB	_	21	parataxis	_	TokenRange=114:117
+17	1	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=118:119
+18	ano	ano	NOUN	NOUN	_	16	nmod	_	TokenRange=120:123
+19	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=124:128
+20	tragedia	tragedia	NOUN	NOUN	_	16	obj	_	TokenRange=129:137
+21	matou	matar	VERB	VERB	_	0	root	_	TokenRange=138:143
+22	71	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=144:146
+23	pessoas	pessoa	NOUN	NOUN	_	21	obj	_	TokenRange=147:154
+24	jogadores	jogador	NOUN	NOUN	_	21	obj	_	TokenRange=155:164
+25	diretores	diretor	ADJ	ADJ	_	24	amod	_	TokenRange=165:174
+26	clube	clube	NOUN	NOUN	_	24	appos	_	TokenRange=175:180
+27	jornalistas	jornalista	ADJ	ADJ	_	24	amod	_	TokenRange=181:192
+28	tripulacao	tripulacao	ADJ	ADJ	_	26	amod	_	TokenRange=193:203
+29	chapeco	chapeco	NOUN	NOUN	_	26	appos	_	TokenRange=204:211
+30	sc	_	ADJ	ADJ	_	29	amod	_	TokenRange=212:214
+31	parentes	parente	ADJ	ADJ	_	32	amod	_	TokenRange=215:223
+32	moradores	morador	NOUN	NOUN	_	34	nsubj	_	TokenRange=224:233
+33	torcedores	torcedor	ADJ	ADJ	_	32	amod	_	TokenRange=234:244
+34	fazem	fazer	VERB	VERB	_	21	parataxis	_	TokenRange=245:250
+35	vigilia	vigilia	NOUN	NOUN	_	34	obj	_	TokenRange=251:258
+36	homenagens	homenagem	NOUN	NOUN	_	35	appos	_	TokenRange=259:269
+37	mortos	morto	VERB	VERB	_	36	acl	_	TokenRange=270:276
+38	alem	alem	ADV	ADV	_	37	advmod	_	TokenRange=277:281
+39	dor	dor	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No|TokenRange=282:285
+

@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula dao destaque apartamento geddel deram triplex fala demais bom dia cavalo lula fala tanto tanto vezes escapa coisinha outra dessa vez coisinha escapou assistam trecho discurso feito novembro 2016 dao destaque apartamento geddel deram triplex claro expresidente vai negar disse vai dizer frase ironica dizia chaves seriado escapuliu
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	dao	_	VERB	VERB	_	0	root	_	TokenRange=5:8
+3	destaque	destaque	NOUN	NOUN	_	2	obj	_	TokenRange=9:17
+4	apartamento	apartamento	NOUN	NOUN	_	2	nsubj	_	TokenRange=18:29
+5	geddel	_	NOUN	NOUN	_	4	flat	_	TokenRange=30:36
+6	deram	dar	VERB	VERB	_	4	acl:relcl	_	TokenRange=37:42
+7	triplex	_	NOUN	NOUN	_	6	obj	_	TokenRange=43:50
+8	fala	_	VERB	VERB	_	2	ccomp	_	TokenRange=51:55
+9	demais	demais	ADV	ADV	_	10	advmod	_	TokenRange=56:62
+10	bom	bom	ADJ	ADJ	_	11	amod	_	TokenRange=63:66
+11	dia	dia	NOUN	NOUN	_	8	obj	_	TokenRange=67:70
+12	cavalo	cavalo	NOUN	NOUN	_	11	amod	_	TokenRange=71:77
+13	lula	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=78:82
+14	fala	_	VERB	VERB	_	8	parataxis	_	TokenRange=83:87
+15	tanto	_	DET	DET	_	17	det	_	TokenRange=88:93
+16	tanto	_	DET	DET	_	17	det	_	TokenRange=94:99
+17	vezes	vez	NOUN	NOUN	_	18	nmod	_	TokenRange=100:105
+18	escapa	escapar	VERB	VERB	_	14	ccomp	_	TokenRange=106:112
+19	coisinha	_	ADJ	ADJ	_	18	nsubj	_	TokenRange=113:121
+20	outra	_	PRON	PRON	_	18	nsubj	_	TokenRange=122:127
+21	dessa	_	ADP	ADP	_	22	case	_	TokenRange=128:133
+22	vez	vez	NOUN	NOUN	_	20	nmod	_	TokenRange=134:137
+23	coisinha	_	ADJ	ADJ	_	20	amod	_	TokenRange=138:146
+24	escapou	escapar	VERB	VERB	_	25	parataxis	_	TokenRange=147:154
+25	assistam	assistir	VERB	VERB	_	14	conj	_	TokenRange=155:163
+26	trecho	trecho	NOUN	NOUN	_	25	obj	_	TokenRange=164:170
+27	discurso	discurso	NOUN	NOUN	_	25	nsubj	_	TokenRange=171:179
+28	feito	_	VERB	VERB	_	27	acl	_	TokenRange=180:185
+29	novembro	_	PROPN	PNOUN	_	28	nmod	_	TokenRange=186:194
+30	2016	_	NUM	NUM	NumType=Card	29	nmod	_	TokenRange=195:199
+31	dao	_	VERB	VERB	_	25	advcl	_	TokenRange=200:203
+32	destaque	destaque	NOUN	NOUN	_	31	obj	_	TokenRange=204:212
+33	apartamento	apartamento	NOUN	NOUN	_	31	nsubj	_	TokenRange=213:224
+34	geddel	_	NOUN	NOUN	_	33	flat	_	TokenRange=225:231
+35	deram	dar	VERB	VERB	_	33	acl:relcl	_	TokenRange=232:237
+36	triplex	_	NOUN	NOUN	_	35	obj	_	TokenRange=238:245
+37	claro	claro	ADJ	ADJ	_	38	amod	_	TokenRange=246:251
+38	expresidente	expresidente	NOUN	NOUN	_	40	nsubj	_	TokenRange=252:264
+39	vai	ir	AUX	AUX	_	40	aux	_	TokenRange=265:268
+40	negar	negar	VERB	VERB	_	35	ccomp	_	TokenRange=269:274
+41	disse	dizer	VERB	VERB	_	40	ccomp	_	TokenRange=275:280
+42	vai	ir	AUX	AUX	_	43	aux	_	TokenRange=281:284
+43	dizer	dizer	VERB	VERB	_	40	ccomp	_	TokenRange=285:290
+44	frase	frase	NOUN	NOUN	_	43	obj	_	TokenRange=291:296
+45	ironica	ironico	ADJ	ADJ	_	44	amod	_	TokenRange=297:304
+46	dizia	dizer	VERB	VERB	_	43	parataxis	_	TokenRange=305:310
+47	chaves	chave	NOUN	NOUN	_	46	obj	_	TokenRange=311:317
+48	seriado	seriado	NOUN	NOUN	_	49	obj	_	TokenRange=318:325
+49	escapuliu	escapulir	VERB	VERB	_	46	parataxis	_	SpaceAfter=No|TokenRange=326:335
+

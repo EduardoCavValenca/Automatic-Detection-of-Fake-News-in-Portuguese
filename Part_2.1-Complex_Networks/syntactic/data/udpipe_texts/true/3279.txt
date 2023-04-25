@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reacao altos salarios pagos juizes mato grosso presidente stf ministra carmen lucia baixa hoje resolucao determinando conselho nacional justica acompanhe online orcamentos tribunais justica estados expectativa maior controle sobre aplicacao recursos publicos presidente
+1	reacao	reacao	VERB	VERB	_	20	parataxis	_	TokenRange=0:6
+2	altos	alto	ADJ	ADJ	_	3	amod	_	TokenRange=7:12
+3	salarios	salario	NOUN	NOUN	_	1	obj	_	TokenRange=13:21
+4	pagos	pago	ADJ	ADJ	_	3	amod	_	TokenRange=22:27
+5	juizes	juiz	NOUN	NOUN	_	3	appos	_	TokenRange=28:34
+6	mato	mato	ADJ	ADJ	_	8	amod	_	TokenRange=35:39
+7	grosso	grosso	ADJ	ADJ	_	8	amod	_	TokenRange=40:46
+8	presidente	presidente	NOUN	NOUN	_	3	appos	_	TokenRange=47:57
+9	stf	_	NOUN	NOUN	_	8	appos	_	TokenRange=58:61
+10	ministra	_	NOUN	NOUN	_	8	appos	_	TokenRange=62:70
+11	carmen	_	NOUN	NOUN	_	8	appos	_	TokenRange=71:77
+12	lucia	_	NOUN	NOUN	_	11	flat	_	TokenRange=78:83
+13	baixa	_	ADJ	NOUN	_	11	flat	_	TokenRange=84:89
+14	hoje	hoje	ADV	ADV	_	15	advmod	_	TokenRange=90:94
+15	resolucao	resolucao	NOUN	NOUN	_	1	obj	_	TokenRange=95:104
+16	determinando	determinar	VERB	VERB	_	15	acl	_	TokenRange=105:117
+17	conselho	conselho	NOUN	NOUN	_	16	obj	_	TokenRange=118:126
+18	nacional	nacional	ADJ	ADJ	_	17	amod	_	TokenRange=127:135
+19	justica	_	ADJ	ADJ	_	17	amod	_	TokenRange=136:143
+20	acompanhe	acompanhar	VERB	VERB	_	0	root	_	TokenRange=144:153
+21	online	online	ADJ	ADJ	_	22	amod	_	TokenRange=154:160
+22	orcamentos	orcamento	NOUN	NOUN	_	20	obj	_	TokenRange=161:171
+23	tribunais	tribunal	ADJ	ADJ	_	22	amod	_	TokenRange=172:181
+24	justica	justico	ADJ	ADJ	_	22	amod	_	TokenRange=182:189
+25	estados	estado	NOUN	NOUN	_	20	obj	_	TokenRange=190:197
+26	expectativa	expectativa	NOUN	NOUN	_	25	flat	_	TokenRange=198:209
+27	maior	maior	ADJ	ADJ	_	28	amod	_	TokenRange=210:215
+28	controle	_	NOUN	NOUN	_	20	obj	_	TokenRange=216:224
+29	sobre	_	ADP	ADP	_	31	case	_	TokenRange=225:230
+30	aplicacao	aplicacao	NOUN	NOUN	_	28	nmod	_	TokenRange=231:240
+31	recursos	recurso	NOUN	NOUN	_	28	nmod	_	TokenRange=241:249
+32	publicos	publico	ADJ	ADJ	_	31	amod	_	TokenRange=250:258
+33	presidente	presidente	NOUN	NOUN	_	28	appos	_	SpaceAfter=No|TokenRange=259:269
+

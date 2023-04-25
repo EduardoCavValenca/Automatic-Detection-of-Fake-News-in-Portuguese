@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = justica federal brasilia determina apreensao passaporte lula juiz ricardo leite 10 vara federal brasilia acabou determinar apreensao passaporte expresidente lula decisao tomada pedido mpf ambito acao penal investiga lula trafico influencia compra cacas saab petista viagem marcada etiopia iria embarcar amanha 25 participaria evento fao contra fome lula proibido deixar brasil informacao confirmada pf deu detalhes apreensao devera imediata manha ontem 24 trf4 recebeu duas peticoes formuladas advogados pedindo lula intimado entregar passaporte 24 horas sob alegacao poderia aproveitar viagem empreender fuga
+1	justica	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=8:15
+3	brasilia	brasilia	NOUN	NOUN	_	1	amod	_	TokenRange=16:24
+4	determina	determinar	VERB	VERB	_	0	root	_	TokenRange=25:34
+5	apreensao	apreensao	NOUN	NOUN	_	4	obj	_	TokenRange=35:44
+6	passaporte	passaporte	NOUN	NOUN	_	5	amod	_	TokenRange=45:55
+7	lula	_	NOUN	NOUN	_	5	appos	_	TokenRange=56:60
+8	juiz	juiz	NOUN	NOUN	_	5	appos	_	TokenRange=61:65
+9	ricardo	ricardo	NOUN	NOUN	_	8	appos	_	TokenRange=66:73
+10	leite	leite	NOUN	NOUN	_	8	flat	_	TokenRange=74:79
+11	10	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=80:82
+12	vara	vara	NOUN	NOUN	_	4	appos	_	TokenRange=83:87
+13	federal	federal	ADJ	ADJ	_	12	amod	_	TokenRange=88:95
+14	brasilia	brasilia	NOUN	NOUN	_	12	appos	_	TokenRange=96:104
+15	acabou	acabar	AUX	AUX	_	16	aux	_	TokenRange=105:111
+16	determinar	determinar	VERB	VERB	_	4	parataxis	_	TokenRange=112:122
+17	apreensao	apreensao	NOUN	NOUN	_	16	obj	_	TokenRange=123:132
+18	passaporte	passaporte	ADJ	ADJ	_	17	amod	_	TokenRange=133:143
+19	expresidente	expresidente	NOUN	NOUN	_	17	appos	_	TokenRange=144:156
+20	lula	_	NOUN	NOUN	_	19	flat	_	TokenRange=157:161
+21	decisao	decisao	NOUN	NOUN	_	16	appos	_	TokenRange=162:169
+22	tomada	tomar	VERB	VERB	_	23	acl	_	TokenRange=170:176
+23	pedido	pedido	NOUN	NOUN	_	16	obj	_	TokenRange=177:183
+24	mpf	_	NOUN	NOUN	_	23	appos	_	TokenRange=184:187
+25	ambito	ambito	NOUN	NOUN	_	23	appos	_	TokenRange=188:194
+26	acao	acao	NOUN	NOUN	_	23	appos	_	TokenRange=195:199
+27	penal	penal	ADJ	ADJ	_	26	amod	_	TokenRange=200:205
+28	investiga	investigar	VERB	VERB	_	4	parataxis	_	TokenRange=206:215
+29	lula	_	NOUN	NOUN	_	28	obj	_	TokenRange=216:220
+30	trafico	trafico	NOUN	NOUN	_	29	appos	_	TokenRange=221:228
+31	influencia	_	NOUN	NOUN	_	29	flat	_	TokenRange=229:239
+32	compra	compra	NOUN	NOUN	_	29	appos	_	TokenRange=240:246
+33	cacas	_	NOUN	NOUN	_	32	flat	_	TokenRange=247:252
+34	saab	_	VERB	VERB	_	32	appos	_	TokenRange=253:257
+35	petista	petista	NOUN	NOUN	_	34	obj	_	TokenRange=258:265
+36	viagem	viagem	NOUN	NOUN	_	34	appos	_	TokenRange=266:272
+37	marcada	marcar	VERB	VERB	_	36	acl	_	TokenRange=273:280
+38	etiopia	etiopia	NOUN	NOUN	_	40	nsubj	_	TokenRange=281:288
+39	iria	_	AUX	AUX	_	40	aux	_	TokenRange=289:293
+40	embarcar	embarcar	VERB	VERB	_	28	parataxis	_	TokenRange=294:302
+41	amanha	amanha	ADV	ADV	_	40	nmod	_	TokenRange=303:309
+42	25	_	NUM	NUM	NumType=Card	41	nmod	_	TokenRange=310:312
+43	participaria	participar	VERB	VERB	_	4	parataxis	_	TokenRange=313:325
+44	evento	evento	NOUN	NOUN	_	43	obj	_	TokenRange=326:332
+45	fao	fao	NOUN	NOUN	_	44	appos	_	TokenRange=333:336
+46	contra	_	ADP	ADP	_	47	case	_	TokenRange=337:343
+47	fome	fome	NOUN	NOUN	_	44	nmod	_	TokenRange=344:348
+48	lula	lula	NOUN	NOUN	_	44	appos	_	TokenRange=349:353
+49	proibido	proibido	ADJ	ADJ	_	52	amod	_	TokenRange=354:362
+50	deixar	deixar	VERB	VERB	_	44	acl:relcl	_	TokenRange=363:369
+51	brasil	brasil	NOUN	NOUN	_	50	obj	_	TokenRange=370:376
+52	informacao	informacao	NOUN	NOUN	_	50	obj	_	TokenRange=377:387
+53	confirmada	confirmado	ADJ	ADJ	_	52	amod	_	TokenRange=388:398
+54	pf	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=399:401
+55	deu	dar	VERB	VERB	_	43	conj	_	TokenRange=402:405
+56	detalhes	detalhe	NOUN	NOUN	_	55	obj	_	TokenRange=406:414
+57	apreensao	apreensao	NOUN	NOUN	_	56	amod	_	TokenRange=415:424
+58	devera	dever	AUX	AUX	_	55	aux	_	TokenRange=425:431
+59	imediata	imediato	ADJ	ADJ	_	60	amod	_	TokenRange=432:440
+60	manha	manha	NOUN	NOUN	_	55	nmod	_	TokenRange=441:446
+61	ontem	ontem	ADV	ADV	_	62	advmod	_	TokenRange=447:452
+62	24	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=453:455
+63	trf4	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=456:460
+64	recebeu	receber	VERB	VERB	_	55	parataxis	_	TokenRange=461:468
+65	duas	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=469:473
+66	peticoes	peticoe	NOUN	NOUN	_	64	obj	_	TokenRange=474:482
+67	formuladas	formular	VERB	VERB	_	66	acl	_	TokenRange=483:493
+68	advogados	advogado	NOUN	NOUN	_	67	nsubj	_	TokenRange=494:503
+69	pedindo	pedir	VERB	VERB	_	66	acl	_	TokenRange=504:511
+70	lula	lula	NOUN	NOUN	_	69	obj	_	TokenRange=512:516
+71	intimado	intimado	ADJ	ADJ	_	70	amod	_	TokenRange=517:525
+72	entregar	entregar	VERB	VERB	_	69	xcomp	_	TokenRange=526:534
+73	passaporte	passaporte	NOUN	NOUN	_	72	obj	_	TokenRange=535:545
+74	24	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=546:548
+75	horas	hora	NOUN	NOUN	_	72	nmod	_	TokenRange=549:554
+76	sob	_	ADP	ADP	_	77	case	_	TokenRange=555:558
+77	alegacao	alegacao	NOUN	NOUN	_	79	nmod	_	TokenRange=559:567
+78	poderia	poder	AUX	AUX	_	79	aux	_	TokenRange=568:575
+79	aproveitar	aproveitar	VERB	VERB	_	64	parataxis	_	TokenRange=576:586
+80	viagem	viagem	NOUN	NOUN	_	79	obj	_	TokenRange=587:593
+81	empreender	empreender	VERB	VERB	_	80	acl:inf	_	TokenRange=594:604
+82	fuga	fuga	NOUN	NOUN	_	81	obj	_	SpaceAfter=No|TokenRange=605:609
+

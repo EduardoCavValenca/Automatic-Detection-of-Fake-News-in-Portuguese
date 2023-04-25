@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 43 anos ernesto geisel avisou chegara tempo povo sentira saudades militares geisel 29 presidente brasil 1974 1979 durante regime militar brasileiro 1974 profetizou vontade povo brasileiro promoverei abertura politica brasil chegara tempo povo sentira saudade regime militar pois muitos desses lideram fim regime visando bem povo sim proprios interesses razao
+1	43	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:2
+2	anos	ano	NOUN	NOUN	_	5	nsubj	_	TokenRange=3:7
+3	ernesto	ernesto	ADJ	ADJ	_	4	amod	_	TokenRange=8:15
+4	geisel	geisel	NOUN	NOUN	_	5	nsubj	_	TokenRange=16:22
+5	avisou	avisar	VERB	VERB	_	0	root	_	TokenRange=23:29
+6	chegara	chegar	ADJ	ADJ	_	7	amod	_	TokenRange=30:37
+7	tempo	tempo	NOUN	NOUN	_	5	obj	_	TokenRange=38:43
+8	povo	povo	NOUN	NOUN	_	7	flat	_	TokenRange=44:48
+9	sentira	sentir	VERB	VERB	_	5	ccomp	_	TokenRange=49:56
+10	saudades	saudade	NOUN	NOUN	_	9	obj	_	TokenRange=57:65
+11	militares	militar	ADJ	ADJ	_	10	amod	_	TokenRange=66:75
+12	geisel	geisel	NOUN	NOUN	_	10	appos	_	TokenRange=76:82
+13	29	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=83:85
+14	presidente	presidente	NOUN	NOUN	_	10	appos	_	TokenRange=86:96
+15	brasil	brasil	ADJ	ADJ	_	14	amod	_	TokenRange=97:103
+16	1974	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=104:108
+17	1979	_	NUM	NUM	NumType=Card	14	appos	_	TokenRange=109:113
+18	durante	_	ADP	ADP	_	19	case	_	TokenRange=114:121
+19	regime	regime	NOUN	NOUN	_	23	nmod	_	TokenRange=122:128
+20	militar	militar	ADJ	ADJ	_	19	amod	_	TokenRange=129:136
+21	brasileiro	brasileiro	ADJ	ADJ	_	19	amod	_	TokenRange=137:147
+22	1974	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=148:152
+23	profetizou	profetizar	VERB	VERB	_	14	acl:relcl	_	TokenRange=153:163
+24	vontade	vontade	NOUN	NOUN	_	23	obj	_	TokenRange=164:171
+25	povo	povo	NOUN	NOUN	_	27	nsubj	_	TokenRange=172:176
+26	brasileiro	brasileiro	ADJ	ADJ	_	25	amod	_	TokenRange=177:187
+27	promoverei	promover	VERB	VERB	_	23	ccomp	_	TokenRange=188:198
+28	abertura	abertura	NOUN	NOUN	_	27	obj	_	TokenRange=199:207
+29	politica	politico	ADJ	ADJ	_	28	amod	_	TokenRange=208:216
+30	brasil	brasil	NOUN	NOUN	_	28	amod	_	TokenRange=217:223
+31	chegara	chegar	VERB	VERB	_	32	amod	_	TokenRange=224:231
+32	tempo	tempo	NOUN	NOUN	_	34	nsubj	_	TokenRange=232:237
+33	povo	povo	NOUN	NOUN	_	32	amod	_	TokenRange=238:242
+34	sentira	sentir	VERB	VERB	_	5	parataxis	_	TokenRange=243:250
+35	saudade	saudade	NOUN	NOUN	_	34	obj	_	TokenRange=251:258
+36	regime	regime	NOUN	NOUN	_	34	obj	_	TokenRange=259:265
+37	militar	militar	ADJ	ADJ	_	36	amod	_	TokenRange=266:273
+38	pois	_	CCONJ	CONJ	_	41	mark	_	TokenRange=274:278
+39	muitos	_	PRON	PRON	_	41	nsubj	_	TokenRange=279:285
+40	desses	_	X	ADPPRON	_	39	nmod	_	TokenRange=286:292
+41	lideram	liderar	VERB	VERB	_	34	advcl	_	TokenRange=293:300
+42	fim	fim	ADJ	ADJ	_	43	amod	_	TokenRange=301:304
+43	regime	regime	NOUN	NOUN	_	41	obj	_	TokenRange=305:311
+44	visando	visar	VERB	VERB	_	41	acl	_	TokenRange=312:319
+45	bem	bem	ADV	ADV	_	44	advmod	_	TokenRange=320:323
+46	povo	povo	NOUN	NOUN	_	44	obj	_	TokenRange=324:328
+47	sim	sim	ADV	ADV	_	49	advmod	_	TokenRange=329:332
+48	proprios	proprio	ADJ	ADJ	_	49	amod	_	TokenRange=333:341
+49	interesses	interesse	NOUN	NOUN	_	44	obj	_	TokenRange=342:352
+50	razao	razao	NOUN	ADJ	_	49	appos	_	SpaceAfter=No|TokenRange=353:358
+

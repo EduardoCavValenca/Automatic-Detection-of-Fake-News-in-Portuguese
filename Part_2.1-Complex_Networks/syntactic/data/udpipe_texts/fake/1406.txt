@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma encontrou marcelo odebrecht porque apertada dilma rousseff fazer popo entrevista folha sp senhora estoca vento disse encontrou empresario marcelo odebrecht mexico porque ocupada banheiro fazendo numero 2 viajei mexico almoco reuniao empresarios marcelo la fim dia aeroporto atrasada precisava ir banheiro fazer fazer risada voltei vi marcelo comecou falar comigo pressa louca entendi nada falava leia
+1	dilma	dilma	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	encontrou	encontrar	VERB	VERB	_	0	root	_	TokenRange=6:15
+3	marcelo	marcelo	NOUN	NOUN	_	2	obj	_	TokenRange=16:23
+4	odebrecht	_	NOUN	NOUN	_	3	flat	_	TokenRange=24:33
+5	porque	_	CCONJ	CONJ	_	6	mark	_	TokenRange=34:40
+6	apertada	apertar	VERB	VERB	_	2	advcl	_	TokenRange=41:49
+7	dilma	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=50:55
+8	rousseff	rousseff	NOUN	NOUN	_	7	flat	_	TokenRange=56:64
+9	fazer	fazer	VERB	VERB	_	7	acl:relcl	_	TokenRange=65:70
+10	popo	popo	NOUN	NOUN	_	9	obj	_	TokenRange=71:75
+11	entrevista	entrevista	NOUN	NOUN	_	9	obj	_	TokenRange=76:86
+12	folha	folha	NOUN	NOUN	_	10	appos	_	TokenRange=87:92
+13	sp	_	X	CONJ	_	14	cc	_	TokenRange=93:95
+14	senhora	senhor	NOUN	NOUN	_	17	nsubj	_	TokenRange=96:103
+15	estoca	estoca	NOUN	NOUN	_	14	appos	_	TokenRange=104:110
+16	vento	vento	NOUN	NOUN	_	14	flat	_	TokenRange=111:116
+17	disse	dizer	VERB	VERB	_	2	conj	_	TokenRange=117:122
+18	encontrou	encontrar	VERB	VERB	_	17	ccomp	_	TokenRange=123:132
+19	empresario	empresario	NOUN	NOUN	_	18	obj	_	TokenRange=133:143
+20	marcelo	marcelo	NOUN	NOUN	_	19	appos	_	TokenRange=144:151
+21	odebrecht	_	NOUN	NOUN	_	20	flat	_	TokenRange=152:161
+22	mexico	mexico	NOUN	NOUN	_	20	flat	_	TokenRange=162:168
+23	porque	_	CCONJ	CONJ	_	26	mark	_	TokenRange=169:175
+24	ocupada	ocupar	VERB	VERB	_	29	advcl	_	TokenRange=176:183
+25	banheiro	banheiro	NOUN	NOUN	_	26	obj	_	TokenRange=184:192
+26	fazendo	fazer	VERB	VERB	_	19	acl	_	TokenRange=193:200
+27	numero	_	NOUN	NOUN	_	26	obj	_	TokenRange=201:207
+28	2	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=208:209
+29	viajei	viajar	VERB	VERB	_	18	parataxis	_	TokenRange=210:216
+30	mexico	mexico	NOUN	NOUN	_	29	nmod	_	TokenRange=217:223
+31	almoco	almoco	NOUN	NOUN	_	30	flat	_	TokenRange=224:230
+32	reuniao	reuniao	NOUN	NOUN	_	33	amod	_	TokenRange=231:238
+33	empresarios	empresario	NOUN	NOUN	_	29	nsubj	_	TokenRange=239:250
+34	marcelo	marcelo	NOUN	NOUN	_	33	appos	_	TokenRange=251:258
+35	la	_	DET	DET	_	36	det	_	TokenRange=259:261
+36	fim	fim	NOUN	NOUN	_	34	appos	_	TokenRange=262:265
+37	dia	dia	NOUN	NOUN	_	40	nsubj	_	TokenRange=266:269
+38	aeroporto	aeroporto	NOUN	NOUN	_	40	nsubj	_	TokenRange=270:279
+39	atrasada	atrasado	ADJ	ADJ	_	38	amod	_	TokenRange=280:288
+40	precisava	precisar	VERB	VERB	_	29	parataxis	_	TokenRange=289:298
+41	ir	ir	VERB	VERB	_	40	xcomp	_	TokenRange=299:301
+42	banheiro	banheiro	NOUN	NOUN	_	41	obj	_	TokenRange=302:310
+43	fazer	fazer	VERB	VERB	_	42	acl:inf	_	TokenRange=311:316
+44	fazer	fazer	VERB	VERB	_	43	xcomp	_	TokenRange=317:322
+45	risada	_	NOUN	NOUN	_	44	obj	_	TokenRange=323:329
+46	voltei	voltar	VERB	VERB	_	44	ccomp	_	TokenRange=330:336
+47	vi	_	X	VERB	_	50	dep	_	TokenRange=337:339
+48	marcelo	marcelo	NOUN	NOUN	_	50	nsubj	_	TokenRange=340:347
+49	comecou	comecar	AUX	AUX	_	50	aux	_	TokenRange=348:355
+50	falar	falar	VERB	VERB	_	46	ccomp	_	TokenRange=356:361
+51	comigo	_	ADP	ADP	_	52	case	_	TokenRange=362:368
+52	pressa	pressa	NOUN	NOUN	_	50	nmod	_	TokenRange=369:375
+53	louca	louco	ADJ	ADJ	_	52	amod	_	TokenRange=376:381
+54	entendi	entender	VERB	VERB	_	50	conj	_	TokenRange=382:389
+55	nada	_	PRON	PRON	_	56	nsubj	_	TokenRange=390:394
+56	falava	falar	VERB	VERB	_	54	parataxis	_	TokenRange=395:401
+57	leia	leia	ADJ	ADJ	_	56	xcomp	_	SpaceAfter=No|TokenRange=402:406
+

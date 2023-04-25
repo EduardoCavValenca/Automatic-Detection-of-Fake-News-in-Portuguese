@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = denuncia brasilia pessoal cut chegou aqui quebrando tudo explodindo bombas militantes cut braco direito governo sustentado verba publica movimento mulheres negras atacaram varias pessoas participando acampamento proimpeachment brasilia confira video via patria amada brasil materia relacionada
+1	denuncia	denuncia	NOUN	NOUN	_	22	nsubj	_	TokenRange=0:8
+2	brasilia	brasilia	NOUN	NOUN	_	1	appos	_	TokenRange=9:17
+3	pessoal	pessoal	ADJ	ADJ	_	2	amod	_	TokenRange=18:25
+4	cut	_	PRON	PRON	_	5	nsubj	_	TokenRange=26:29
+5	chegou	chegar	VERB	VERB	_	1	acl:relcl	_	TokenRange=30:36
+6	aqui	aqui	ADV	ADV	_	5	advmod	_	TokenRange=37:41
+7	quebrando	quebrar	VERB	VERB	_	5	acl	_	TokenRange=42:51
+8	tudo	_	PRON	PRON	_	9	obj	_	TokenRange=52:56
+9	explodindo	explodir	VERB	VERB	_	5	acl	_	TokenRange=57:67
+10	bombas	bomba	NOUN	NOUN	_	9	obj	_	TokenRange=68:74
+11	militantes	militante	ADJ	ADJ	_	10	amod	_	TokenRange=75:85
+12	cut	_	NOUN	NOUN	_	13	appos	_	TokenRange=86:89
+13	braco	braco	NOUN	NOUN	_	22	nsubj	_	TokenRange=90:95
+14	direito	direito	ADJ	ADJ	_	13	amod	_	TokenRange=96:103
+15	governo	governo	NOUN	NOUN	_	13	appos	_	TokenRange=104:111
+16	sustentado	sustentado	ADJ	ADJ	_	17	amod	_	TokenRange=112:122
+17	verba	verba	NOUN	NOUN	_	13	appos	_	TokenRange=123:128
+18	publica	publico	ADJ	ADJ	_	17	amod	_	TokenRange=129:136
+19	movimento	movimento	NOUN	NOUN	_	17	appos	_	TokenRange=137:146
+20	mulheres	mulher	NOUN	NOUN	_	19	appos	_	TokenRange=147:155
+21	negras	negro	ADJ	ADJ	_	19	amod	_	TokenRange=156:162
+22	atacaram	atacar	VERB	VERB	_	0	root	_	TokenRange=163:171
+23	varias	_	DET	DET	_	24	det	_	TokenRange=172:178
+24	pessoas	pessoa	NOUN	NOUN	_	22	obj	_	TokenRange=179:186
+25	participando	participar	VERB	VERB	_	22	acl	_	TokenRange=187:199
+26	acampamento	acampamento	NOUN	NOUN	_	25	obj	_	TokenRange=200:211
+27	proimpeachment	_	NOUN	NOUN	_	26	amod	_	TokenRange=212:226
+28	brasilia	brasilia	NOUN	NOUN	_	26	appos	_	TokenRange=227:235
+29	confira	conferir	VERB	VERB	_	22	parataxis	_	TokenRange=236:243
+30	video	video	NOUN	NOUN	_	29	obj	_	TokenRange=244:249
+31	via	_	ADP	ADP	_	32	case	_	TokenRange=250:253
+32	patria	patria	NOUN	NOUN	_	30	nmod	_	TokenRange=254:260
+33	amada	amado	ADJ	ADJ	_	35	amod	_	TokenRange=261:266
+34	brasil	brasil	ADJ	ADJ	_	35	amod	_	TokenRange=267:273
+35	materia	materia	NOUN	NOUN	_	29	obj	_	TokenRange=274:281
+36	relacionada	relacionado	ADJ	ADJ	_	35	amod	_	SpaceAfter=No|TokenRange=282:293
+

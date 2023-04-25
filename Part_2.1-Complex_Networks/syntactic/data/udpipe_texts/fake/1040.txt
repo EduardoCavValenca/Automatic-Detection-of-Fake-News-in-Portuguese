@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saiu sentenca lula condenado 9 anos prisao sentenca crimes corrupcao passiva lavagem dinheiro anunciada hoje expresidente acusado mpf receber propina oas benesses recebidas apartamento triplex situado cidade guaruja sp segundo denuncia ministerio publico federal petista recebido aproximadamente r 37 milhoes vantagens ilicitas pagas oas cabe recurso sentenca moro instancias superiores informacoes seguir leia abaixo sentenca clique aqui
+1	saiu	sair	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	sentenca	_	NOUN	NOUN	_	1	nsubj	_	TokenRange=5:13
+3	lula	lula	NOUN	NOUN	_	2	flat	_	TokenRange=14:18
+4	condenado	condenar	VERB	VERB	_	2	acl	_	TokenRange=19:28
+5	9	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=29:30
+6	anos	ano	NOUN	NOUN	_	4	obj	_	TokenRange=31:35
+7	prisao	prisao	NOUN	NOUN	_	6	amod	_	TokenRange=36:42
+8	sentenca	_	ADJ	ADJ	_	9	amod	_	TokenRange=43:51
+9	crimes	crime	NOUN	NOUN	_	6	appos	_	TokenRange=52:58
+10	corrupcao	corrupcao	ADJ	NOUN	_	9	amod	_	TokenRange=59:68
+11	passiva	passivo	ADJ	ADJ	_	12	amod	_	TokenRange=69:76
+12	lavagem	lavagem	NOUN	NOUN	_	9	appos	_	TokenRange=77:84
+13	dinheiro	dinheiro	NOUN	NOUN	_	12	flat	_	TokenRange=85:93
+14	anunciada	anunciar	VERB	VERB	_	12	acl	_	TokenRange=94:103
+15	hoje	hoje	ADV	ADV	_	17	advmod	_	TokenRange=104:108
+16	expresidente	expresidente	NOUN	NOUN	_	14	nsubj	_	TokenRange=109:121
+17	acusado	acusar	VERB	VERB	_	16	acl	_	TokenRange=122:129
+18	mpf	_	NOUN	NOUN	_	17	obj	_	TokenRange=130:133
+19	receber	receber	VERB	VERB	_	17	xcomp	_	TokenRange=134:141
+20	propina	propina	NOUN	NOUN	_	19	obj	_	TokenRange=142:149
+21	oas	_	CCONJ	CONJ	_	22	cc	_	TokenRange=150:153
+22	benesses	_	NOUN	NOUN	_	20	conj	_	TokenRange=154:162
+23	recebidas	receber	VERB	VERB	_	22	acl	_	TokenRange=163:172
+24	apartamento	apartamento	NOUN	NOUN	_	22	appos	_	TokenRange=173:184
+25	triplex	_	NOUN	NOUN	_	24	flat	_	TokenRange=185:192
+26	situado	situar	VERB	VERB	_	24	acl	_	TokenRange=193:200
+27	cidade	cidade	NOUN	NOUN	_	24	appos	_	TokenRange=201:207
+28	guaruja	guaruja	NOUN	NOUN	_	27	appos	_	TokenRange=208:215
+29	sp	_	ADJ	ADJ	_	27	appos	_	TokenRange=216:218
+30	segundo	_	ADP	ADP	_	31	case	_	TokenRange=219:226
+31	denuncia	_	NOUN	NOUN	_	1	nmod	_	TokenRange=227:235
+32	ministerio	ministerio	NOUN	NOUN	_	31	appos	_	TokenRange=236:246
+33	publico	_	ADJ	ADJ	_	32	amod	_	TokenRange=247:254
+34	federal	federal	ADJ	ADJ	_	32	amod	_	TokenRange=255:262
+35	petista	petista	NOUN	NOUN	_	32	appos	_	TokenRange=263:270
+36	recebido	receber	VERB	VERB	_	35	acl	_	TokenRange=271:279
+37	aproximadamente	aproximadamente	ADV	ADV	_	40	advmod	_	TokenRange=280:295
+38	r	r	NOUN	NOUN	_	36	obj	_	TokenRange=296:297
+39	37	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=298:300
+40	milhoes	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=301:308
+41	vantagens	vantagem	NOUN	NOUN	_	36	obj	_	TokenRange=309:318
+42	ilicitas	ilicito	ADJ	ADJ	_	41	amod	_	TokenRange=319:327
+43	pagas	_	VERB	VERB	_	41	acl	_	TokenRange=328:333
+44	oas	_	PRON	PRON	_	45	nsubj	_	TokenRange=334:337
+45	cabe	caber	NOUN	NOUN	_	36	parataxis	_	TokenRange=338:342
+46	recurso	recurso	NOUN	NOUN	_	45	flat	_	TokenRange=343:350
+47	sentenca	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=351:359
+48	moro	moro	NOUN	NOUN	_	49	amod	_	TokenRange=360:364
+49	instancias	instancia	NOUN	NOUN	_	45	appos	_	TokenRange=365:375
+50	superiores	superior	ADJ	ADJ	_	49	amod	_	TokenRange=376:386
+51	informacoes	_	NOUN	NOUN	_	49	amod	_	TokenRange=387:398
+52	seguir	seguir	VERB	VERB	_	45	ccomp	_	TokenRange=399:405
+53	leia	ler	VERB	VERB	_	52	parataxis	_	TokenRange=406:410
+54	abaixo	abaixo	ADV	ADV	_	53	advmod	_	TokenRange=411:417
+55	sentenca	_	NOUN	NOUN	_	53	obj	_	TokenRange=418:426
+56	clique	clicar	VERB	VERB	_	1	parataxis	_	TokenRange=427:433
+57	aqui	aqui	ADV	ADV	_	56	advmod	_	SpaceAfter=No|TokenRange=434:438
+

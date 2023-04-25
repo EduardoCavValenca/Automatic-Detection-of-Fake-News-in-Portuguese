@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2343 coreia exibe mensagem teloes anunciando fim supremacia militar imperialistas sabado 15/04 1143am horario local pyongyang filmes gravados emissora estatal kcna sendo exibidos teloes praca principal pyongyang chamada kim ilsung square imagens mostram tropas marchando formacao homenagem avo kim fundador coreia emissora estatal nortecoreana informou meios poderosos avancados ataque defesa proprio estilo alinharamse fim supremacia militar reivindicada imperialistas fundo banda exercito executa performance acompanhar imagens exibidas
+1	2343	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:4
+2	coreia	coreia	NOUN	NOUN	_	3	nsubj	_	TokenRange=5:11
+3	exibe	exibir	VERB	VERB	_	0	root	_	TokenRange=12:17
+4	mensagem	mensagem	NOUN	NOUN	_	3	obj	_	TokenRange=18:26
+5	teloes	teloe	NOUN	NOUN	_	4	amod	_	TokenRange=27:33
+6	anunciando	anunciar	VERB	VERB	_	4	acl	_	TokenRange=34:44
+7	fim	fim	NOUN	NOUN	_	6	obj	_	TokenRange=45:48
+8	supremacia	supremacia	NOUN	NOUN	_	7	appos	_	TokenRange=49:59
+9	militar	militar	ADJ	ADJ	_	8	amod	_	TokenRange=60:67
+10	imperialistas	imperialista	ADJ	ADJ	_	8	amod	_	TokenRange=68:81
+11	sabado	sabar	NOUN	NOUN	_	3	parataxis	_	TokenRange=82:88
+12	15/04	_	NUM	NUM	NumType=Card	11	appos	_	TokenRange=89:94
+13	1143am	_	NUM	NUM	NumType=Card	14	appos	_	TokenRange=95:101
+14	horario	horario	NOUN	NOUN	_	3	parataxis	_	TokenRange=102:109
+15	local	local	ADJ	ADJ	_	14	amod	_	TokenRange=110:115
+16	pyongyang	pyongyang	ADJ	ADJ	_	17	amod	_	TokenRange=116:125
+17	filmes	filme	NOUN	NOUN	_	3	nsubj	_	TokenRange=126:132
+18	gravados	gravar	VERB	ADJ	_	17	acl	_	TokenRange=133:141
+19	emissora	_	NOUN	NOUN	_	17	appos	_	TokenRange=142:150
+20	estatal	estatal	ADJ	ADJ	_	19	amod	_	TokenRange=151:158
+21	kcna	kcna	NOUN	NOUN	_	19	appos	_	TokenRange=159:163
+22	sendo	ser	AUX	AUX	_	23	aux:pass	_	TokenRange=164:169
+23	exibidos	exibir	VERB	VERB	_	17	acl	_	TokenRange=170:178
+24	teloes	teloe	NOUN	NOUN	_	33	nsubj	_	TokenRange=179:185
+25	praca	praca	NOUN	NOUN	_	24	appos	_	TokenRange=186:191
+26	principal	principal	ADJ	ADJ	_	25	amod	_	TokenRange=192:201
+27	pyongyang	pyongyang	NOUN	NOUN	_	25	amod	_	TokenRange=202:211
+28	chamada	chamar	AUX	AUX	_	29	cop	_	TokenRange=212:219
+29	kim	_	NOUN	NOUN	_	25	acl	_	TokenRange=220:223
+30	ilsung	_	NOUN	NOUN	_	29	flat	_	TokenRange=224:230
+31	square	_	NOUN	NOUN	_	29	flat	_	TokenRange=231:237
+32	imagens	imagem	NOUN	NOUN	_	33	nsubj	_	TokenRange=238:245
+33	mostram	mostrar	VERB	VERB	_	3	parataxis	_	TokenRange=246:253
+34	tropas	tropa	NOUN	NOUN	_	33	obj	_	TokenRange=254:260
+35	marchando	marchar	VERB	VERB	_	34	acl	_	TokenRange=261:270
+36	formacao	formacao	NOUN	NOUN	_	35	obj	_	TokenRange=271:279
+37	homenagem	homenagem	NOUN	NOUN	_	36	appos	_	TokenRange=280:289
+38	avo	avo	NOUN	NOUN	_	37	appos	_	TokenRange=290:293
+39	kim	_	NOUN	NOUN	_	38	flat	_	TokenRange=294:297
+40	fundador	fundador	NOUN	NOUN	_	38	flat	_	TokenRange=298:306
+41	coreia	coreia	NOUN	NOUN	_	38	flat	_	TokenRange=307:313
+42	emissora	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=314:322
+43	estatal	estatal	ADJ	ADJ	_	42	amod	_	TokenRange=323:330
+44	nortecoreana	nortecoreano	ADJ	ADJ	_	42	amod	_	TokenRange=331:343
+45	informou	informar	VERB	VERB	_	3	parataxis	_	TokenRange=344:352
+46	meios	_	NOUN	NOUN	_	45	obj	_	TokenRange=353:358
+47	poderosos	poderoso	ADJ	ADJ	_	46	amod	_	TokenRange=359:368
+48	avancados	avancado	ADJ	ADJ	_	46	amod	_	TokenRange=369:378
+49	ataque	ataque	NOUN	NOUN	_	46	appos	_	TokenRange=379:385
+50	defesa	_	NOUN	NOUN	_	49	flat	_	TokenRange=386:392
+51	proprio	proprio	ADJ	ADJ	_	52	amod	_	TokenRange=393:400
+52	estilo	estilo	NOUN	NOUN	_	49	appos	_	TokenRange=401:407
+53	alinharamse	_	VERB	VERB	_	45	parataxis	_	TokenRange=408:419
+54	fim	fim	NOUN	NOUN	_	62	nsubj	_	TokenRange=420:423
+55	supremacia	supremacia	NOUN	NOUN	_	62	nsubj	_	TokenRange=424:434
+56	militar	militar	ADJ	ADJ	_	55	amod	_	TokenRange=435:442
+57	reivindicada	reivindicado	ADJ	ADJ	_	55	amod	_	TokenRange=443:455
+58	imperialistas	imperialista	ADJ	ADJ	_	55	amod	_	TokenRange=456:469
+59	fundo	_	ADJ	ADJ	_	60	amod	_	TokenRange=470:475
+60	banda	banda	NOUN	NOUN	_	62	nsubj	_	TokenRange=476:481
+61	exercito	exercito	ADJ	ADJ	_	60	amod	_	TokenRange=482:490
+62	executa	executar	VERB	VERB	_	3	parataxis	_	TokenRange=491:498
+63	performance	performance	NOUN	NOUN	_	62	obj	_	TokenRange=499:510
+64	acompanhar	acompanhar	VERB	VERB	_	62	ccomp	_	TokenRange=511:521
+65	imagens	imagem	NOUN	NOUN	_	64	obj	_	TokenRange=522:529
+66	exibidas	exibir	VERB	VERB	_	65	acl	_	SpaceAfter=No|TokenRange=530:538
+

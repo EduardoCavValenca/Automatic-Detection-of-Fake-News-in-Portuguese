@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = abuso autoridade entidades criticam projeto audiencia esvaziada senado representantes ministerio publico anpr amb debateram proposta nesta segunda 3 comissao constituicao justica deve votar projeto feriado pascoa audiencia publica compareceram 7 81 senadores presenca relator roberto requiao pmdbpr representantes ministerio publico associacoes procuradores magistrados criticaram nesta segundafeira 3 proposta tramitacao casa preve punicoes casos abuso autoridade apresentado senador renan calheiros pmdbal projeto sido criticado desde ano passado entidades defendido parte parlamentares proposta revoga
+1	abuso	abuso	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	autoridade	autoridade	NOUN	NOUN	_	4	nsubj	_	TokenRange=6:16
+3	entidades	entidade	NOUN	NOUN	_	4	nsubj	_	TokenRange=17:26
+4	criticam	criticar	VERB	VERB	_	0	root	_	TokenRange=27:35
+5	projeto	projeto	NOUN	NOUN	_	4	obj	_	TokenRange=36:43
+6	audiencia	audiencia	NOUN	NOUN	_	5	appos	_	TokenRange=44:53
+7	esvaziada	esvaziado	ADJ	ADJ	_	6	amod	_	TokenRange=54:63
+8	senado	senado	NOUN	NOUN	_	9	appos	_	TokenRange=64:70
+9	representantes	representante	NOUN	NOUN	_	4	nsubj	_	TokenRange=71:85
+10	ministerio	ministerio	NOUN	NOUN	_	9	appos	_	TokenRange=86:96
+11	publico	_	ADJ	ADJ	_	10	amod	_	TokenRange=97:104
+12	anpr	anpr	NOUN	NOUN	_	9	appos	_	TokenRange=105:109
+13	amb	_	PRON	PRON	_	12	flat	_	TokenRange=110:113
+14	debateram	debater	VERB	VERB	_	4	parataxis	_	TokenRange=114:123
+15	proposta	_	NOUN	NOUN	_	14	obj	_	TokenRange=124:132
+16	nesta	_	ADP	ADP	_	18	case	_	TokenRange=133:138
+17	segunda	_	ADJ	ADJ	_	18	amod	_	TokenRange=139:146
+18	3	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=147:148
+19	comissao	comissao	NOUN	NOUN	_	14	nsubj	_	TokenRange=149:157
+20	constituicao	constituicao	ADJ	ADJ	_	19	amod	_	TokenRange=158:170
+21	justica	_	NOUN	NOUN	_	19	amod	_	TokenRange=171:178
+22	deve	dever	AUX	AUX	_	23	aux	_	TokenRange=179:183
+23	votar	votar	VERB	VERB	_	19	acl:relcl	_	TokenRange=184:189
+24	projeto	projeto	NOUN	NOUN	_	23	obj	_	TokenRange=190:197
+25	feriado	feriado	NOUN	NOUN	_	24	appos	_	TokenRange=198:205
+26	pascoa	pascoa	ADJ	ADJ	_	27	amod	_	TokenRange=206:212
+27	audiencia	audiencia	NOUN	NOUN	_	23	nsubj	_	TokenRange=213:222
+28	publica	publico	ADJ	ADJ	_	27	amod	_	TokenRange=223:230
+29	compareceram	comparecer	VERB	VERB	_	23	parataxis	_	TokenRange=231:243
+30	7	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=244:245
+31	81	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=246:248
+32	senadores	senador	NOUN	NOUN	_	29	nsubj	_	TokenRange=249:258
+33	presenca	presenco	ADJ	ADJ	_	32	amod	_	TokenRange=259:267
+34	relator	relator	NOUN	NOUN	_	32	appos	_	TokenRange=268:275
+35	roberto	roberto	NOUN	NOUN	_	34	appos	_	TokenRange=276:283
+36	requiao	requiao	NOUN	NOUN	_	34	flat	_	TokenRange=284:291
+37	pmdbpr	pmdbpr	NOUN	NOUN	_	34	appos	_	TokenRange=292:298
+38	representantes	representante	NOUN	NOUN	_	34	appos	_	TokenRange=299:313
+39	ministerio	ministerio	NOUN	NOUN	_	38	appos	_	TokenRange=314:324
+40	publico	_	ADJ	ADJ	_	39	amod	_	TokenRange=325:332
+41	associacoes	associacoe	NOUN	NOUN	_	39	appos	_	TokenRange=333:344
+42	procuradores	procurador	NOUN	NOUN	_	39	flat	_	TokenRange=345:357
+43	magistrados	magistrado	ADJ	ADJ	_	42	amod	_	TokenRange=358:369
+44	criticaram	criticar	VERB	VERB	_	4	conj	_	TokenRange=370:380
+45	nesta	_	ADP	ADP	_	46	case	_	TokenRange=381:386
+46	segundafeira	_	NOUN	NOUN	_	44	nmod	_	TokenRange=387:399
+47	3	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=400:401
+48	proposta	_	NOUN	NOUN	_	44	obj	_	TokenRange=402:410
+49	tramitacao	tramitacao	ADJ	ADJ	_	48	amod	_	TokenRange=411:421
+50	casa	casa	NOUN	NOUN	_	48	appos	_	TokenRange=422:426
+51	preve	_	VERB	VERB	_	48	acl:relcl	_	TokenRange=427:432
+52	punicoes	_	NOUN	NOUN	_	50	amod	_	TokenRange=433:441
+53	casos	caso	NOUN	NOUN	_	50	appos	_	TokenRange=442:447
+54	abuso	abuso	ADJ	ADJ	_	55	amod	_	TokenRange=448:453
+55	autoridade	autoridade	NOUN	NOUN	_	53	appos	_	TokenRange=454:464
+56	apresentado	apresentar	VERB	VERB	_	55	acl	_	TokenRange=465:476
+57	senador	senador	NOUN	NOUN	_	56	nsubj	_	TokenRange=477:484
+58	renan	renan	NOUN	NOUN	_	57	appos	_	TokenRange=485:490
+59	calheiros	calheiro	NOUN	NOUN	_	57	flat	_	TokenRange=491:500
+60	pmdbal	pmdbal	ADJ	ADJ	_	61	amod	_	TokenRange=501:507
+61	projeto	projeto	NOUN	NOUN	_	57	appos	_	TokenRange=508:515
+62	sido	ser	AUX	AUX	_	63	aux:pass	_	TokenRange=516:520
+63	criticado	criticar	VERB	VERB	_	57	acl	_	TokenRange=521:530
+64	desde	_	ADP	ADP	_	65	case	_	TokenRange=531:536
+65	ano	ano	NOUN	NOUN	_	63	nmod	_	TokenRange=537:540
+66	passado	passado	ADJ	ADJ	_	65	amod	_	TokenRange=541:548
+67	entidades	entidade	NOUN	NOUN	_	63	nsubj:pass	_	TokenRange=549:558
+68	defendido	defender	VERB	VERB	_	67	acl	_	TokenRange=559:568
+69	parte	parte	NOUN	NOUN	_	63	nsubj:pass	_	TokenRange=569:574
+70	parlamentares	parlamentar	ADJ	ADJ	_	69	amod	_	TokenRange=575:588
+71	proposta	_	NOUN	NOUN	_	63	parataxis	_	TokenRange=589:597
+72	revoga	revoga	NOUN	NOUN	_	71	appos	_	SpaceAfter=No|TokenRange=598:604
+

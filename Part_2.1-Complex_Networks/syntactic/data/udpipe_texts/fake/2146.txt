@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eua united states air force envia dois bombardeiros coreia sul forca aerea americana enviara dois bombardeiros coreia sul ainda semana estados unidos mantem alianca militar coreia sul desde 1953 onde compromete defender aliado provavel conflito coreia norte ultimo dia 13 setembro bombardeiros supersonicos forca aerea estados unidos haviam sobrevoado coreia sul mandando recado claro kim jongun obama deu sinal advertencia governo kim jongun apos quinto teste nuclear general comandou acao disse alerta exemplo podera acontecer caso kim jonun continue desafiando mundo poderao voltar contra testes nucleares
+1	eua	_	DET	DET	_	3	det	_	TokenRange=0:3
+2	united	_	ADJ	ADJ	_	3	amod	_	TokenRange=4:10
+3	states	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=11:17
+4	air	_	NOUN	NOUN	_	3	flat	_	TokenRange=18:21
+5	force	_	NOUN	NOUN	_	3	flat	_	TokenRange=22:27
+6	envia	enviar	VERB	VERB	_	0	root	_	TokenRange=28:33
+7	dois	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=34:38
+8	bombardeiros	bombardeiro	NOUN	NOUN	_	6	obj	_	TokenRange=39:51
+9	coreia	coreia	NOUN	NOUN	_	6	obj	_	TokenRange=52:58
+10	sul	sul	ADJ	ADJ	_	9	amod	_	TokenRange=59:62
+11	forca	forca	NOUN	NOUN	_	6	nsubj	_	TokenRange=63:68
+12	aerea	aereo	ADJ	ADJ	_	11	amod	_	TokenRange=69:74
+13	americana	americano	ADJ	ADJ	_	11	amod	_	TokenRange=75:84
+14	enviara	enviar	VERB	VERB	_	6	conj	_	TokenRange=85:92
+15	dois	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=93:97
+16	bombardeiros	bombardeiro	NOUN	NOUN	_	14	obj	_	TokenRange=98:110
+17	coreia	coreia	NOUN	NOUN	_	16	appos	_	TokenRange=111:117
+18	sul	sul	ADJ	ADJ	_	17	amod	_	TokenRange=118:121
+19	ainda	ainda	ADV	ADV	_	20	advmod	_	TokenRange=122:127
+20	semana	semana	NOUN	NOUN	_	14	nmod	_	TokenRange=128:134
+21	estados	estado	NOUN	NOUN	_	23	nsubj	_	TokenRange=135:142
+22	unidos	unido	ADJ	ADJ	_	21	amod	_	TokenRange=143:149
+23	mantem	mantar	VERB	VERB	_	6	parataxis	_	TokenRange=150:156
+24	alianca	alianca	NOUN	NOUN	_	23	obj	_	TokenRange=157:164
+25	militar	militar	ADJ	ADJ	_	24	amod	_	TokenRange=165:172
+26	coreia	coreia	NOUN	NOUN	_	24	appos	_	TokenRange=173:179
+27	sul	sul	ADJ	ADJ	_	26	amod	_	TokenRange=180:183
+28	desde	_	ADP	ADP	_	29	case	_	TokenRange=184:189
+29	1953	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=190:194
+30	onde	onde	ADV	ADV	_	31	advmod	_	TokenRange=195:199
+31	compromete	comprometer	VERB	VERB	_	29	acl:relcl	_	TokenRange=200:210
+32	defender	defender	VERB	VERB	_	31	xcomp	_	TokenRange=211:219
+33	aliado	aliado	NOUN	NOUN	_	32	obj	_	TokenRange=220:226
+34	provavel	provavel	ADJ	ADJ	_	35	amod	_	TokenRange=227:235
+35	conflito	conflito	NOUN	NOUN	_	32	obj	_	TokenRange=236:244
+36	coreia	coreia	NOUN	NOUN	_	35	appos	_	TokenRange=245:251
+37	norte	norte	ADJ	ADJ	_	35	amod	_	TokenRange=252:257
+38	ultimo	_	ADJ	ADJ	_	39	amod	_	TokenRange=258:264
+39	dia	dia	NOUN	NOUN	_	32	nmod	_	TokenRange=265:268
+40	13	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=269:271
+41	setembro	_	PROPN	PNOUN	_	39	nmod	_	TokenRange=272:280
+42	bombardeiros	bombardeiro	NOUN	NOUN	_	49	nsubj	_	TokenRange=281:293
+43	supersonicos	supersonico	ADJ	ADJ	_	42	amod	_	TokenRange=294:306
+44	forca	forca	NOUN	NOUN	_	49	nsubj	_	TokenRange=307:312
+45	aerea	aereo	ADJ	ADJ	_	42	amod	_	TokenRange=313:318
+46	estados	estado	NOUN	NOUN	_	49	nsubj	_	TokenRange=319:326
+47	unidos	unido	ADJ	ADJ	_	46	amod	_	TokenRange=327:333
+48	haviam	haver	AUX	AUX	_	49	aux	_	TokenRange=334:340
+49	sobrevoado	sobrevoar	VERB	VERB	_	14	parataxis	_	TokenRange=341:351
+50	coreia	coreia	NOUN	NOUN	_	49	obj	_	TokenRange=352:358
+51	sul	sul	ADJ	ADJ	_	50	amod	_	TokenRange=359:362
+52	mandando	mandar	VERB	VERB	_	49	acl	_	TokenRange=363:371
+53	recado	recado	NOUN	NOUN	_	52	obj	_	TokenRange=372:378
+54	claro	claro	ADJ	ADJ	_	53	amod	_	TokenRange=379:384
+55	kim	_	NOUN	NOUN	_	58	nsubj	_	TokenRange=385:388
+56	jongun	_	NOUN	NOUN	_	55	flat	_	TokenRange=389:395
+57	obama	_	NOUN	NOUN	_	55	flat	_	TokenRange=396:401
+58	deu	dar	VERB	VERB	_	49	parataxis	_	TokenRange=402:405
+59	sinal	sinal	NOUN	NOUN	_	58	obj	_	TokenRange=406:411
+60	advertencia	advertencia	ADJ	ADJ	_	59	amod	_	TokenRange=412:423
+61	governo	governo	NOUN	NOUN	_	58	nsubj	_	TokenRange=424:431
+62	kim	_	PROPN	NOUN	_	61	appos	_	TokenRange=432:435
+63	jongun	_	NOUN	NOUN	_	62	flat	_	TokenRange=436:442
+64	apos	_	ADP	ADP	_	66	case	_	TokenRange=443:447
+65	quinto	_	ADJ	ADJ	_	66	amod	_	TokenRange=448:454
+66	teste	teste	NOUN	NOUN	_	69	nmod	_	TokenRange=455:460
+67	nuclear	nuclear	ADJ	ADJ	_	66	amod	_	TokenRange=461:468
+68	general	general	NOUN	NOUN	_	66	amod	_	TokenRange=469:476
+69	comandou	comandar	VERB	VERB	_	58	parataxis	_	TokenRange=477:485
+70	acao	acao	NOUN	NOUN	_	69	obj	_	TokenRange=486:490
+71	disse	dizer	VERB	VERB	_	69	parataxis	_	TokenRange=491:496
+72	alerta	alerta	ADJ	ADJ	_	71	xcomp	_	TokenRange=497:503
+73	exemplo	exemplo	NOUN	NOUN	_	75	nsubj	_	TokenRange=504:511
+74	podera	_	AUX	AUX	_	75	aux	_	TokenRange=512:518
+75	acontecer	acontecer	VERB	VERB	_	71	ccomp	_	TokenRange=519:528
+76	caso	_	CCONJ	CONJ	_	80	mark	_	TokenRange=529:533
+77	kim	_	PROPN	PNOUN	_	80	nsubj	_	TokenRange=534:537
+78	jonun	_	NOUN	NOUN	_	77	flat	_	TokenRange=538:543
+79	continue	continuar	AUX	AUX	_	80	aux	_	TokenRange=544:552
+80	desafiando	desafiar	VERB	VERB	_	75	advcl	_	TokenRange=553:563
+81	mundo	mundo	NOUN	NOUN	_	80	obj	_	TokenRange=564:569
+82	poderao	poder	AUX	AUX	_	83	aux	_	TokenRange=570:577
+83	voltar	voltar	VERB	VERB	_	75	ccomp	_	TokenRange=578:584
+84	contra	_	ADP	ADP	_	85	case	_	TokenRange=585:591
+85	testes	teste	NOUN	NOUN	_	83	nmod	_	TokenRange=592:598
+86	nucleares	nuclear	ADJ	ADJ	_	85	amod	_	SpaceAfter=No|TokenRange=599:608
+

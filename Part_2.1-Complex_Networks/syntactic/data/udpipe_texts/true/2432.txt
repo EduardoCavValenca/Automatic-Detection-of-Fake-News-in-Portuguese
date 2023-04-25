@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma lamenta rejeicao denuncia diz governo sofre influencia cunha expresidente comentou twitter rejeicao camara denuncia contra temer dilma deputados salvaram peemedebista mesmos iniciaram fraude impeachment expresidente dilma rousseff lamentou nesta quintafeira 3 twitter rejeicao denuncia contra presidente michel temer dilma aproveitou rede social dizer governo sofre influencia deputado cassado eduardo cunha pmdbrj nesta quarta 2 analisarem denuncia procuradoria geral republica contra temer crime corrupcao passiva deputados rejeitaram prosseguimento processo supremo tribunal federal 263 votos 227 saudo
+1	dilma	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	lamenta	lamentar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	rejeicao	rejeicao	NOUN	NOUN	_	2	obj	_	TokenRange=14:22
+4	denuncia	denuncia	NOUN	NOUN	_	3	amod	_	TokenRange=23:31
+5	diz	dizer	VERB	VERB	_	2	conj	_	TokenRange=32:35
+6	governo	governo	NOUN	NOUN	_	5	obj	_	TokenRange=36:43
+7	sofre	sofrer	VERB	VERB	_	5	ccomp	_	TokenRange=44:49
+8	influencia	_	NOUN	NOUN	_	7	obj	_	TokenRange=50:60
+9	cunha	_	DET	DET	_	10	det	_	TokenRange=61:66
+10	expresidente	expresidente	NOUN	NOUN	_	11	nsubj	_	TokenRange=67:79
+11	comentou	comentar	VERB	VERB	_	2	conj	_	TokenRange=80:88
+12	twitter	_	PROPN	PNOUN	_	11	obj	_	TokenRange=89:96
+13	rejeicao	rejeicao	NOUN	NOUN	_	12	appos	_	TokenRange=97:105
+14	camara	camara	NOUN	NOUN	_	13	obj	_	TokenRange=106:112
+15	denuncia	denuncia	NOUN	NOUN	_	13	appos	_	TokenRange=113:121
+16	contra	_	ADP	ADP	_	17	case	_	TokenRange=122:128
+17	temer	temer	NOUN	NOUN	_	15	nmod	_	TokenRange=129:134
+18	dilma	_	ADJ	NOUN	_	20	mark	_	TokenRange=135:140
+19	deputados	deputado	NOUN	NOUN	_	20	nsubj	_	TokenRange=141:150
+20	salvaram	salvar	VERB	VERB	_	15	acl:relcl	_	TokenRange=151:159
+21	peemedebista	_	NOUN	NOUN	_	20	obj	_	TokenRange=160:172
+22	mesmos	mesmo	ADJ	ADJ	_	23	xcomp	_	TokenRange=173:179
+23	iniciaram	iniciar	VERB	VERB	_	20	parataxis	_	TokenRange=180:189
+24	fraude	fraude	NOUN	NOUN	_	23	obj	_	TokenRange=190:196
+25	impeachment	impeachment	NOUN	NOUN	_	24	amod	_	TokenRange=197:208
+26	expresidente	expresidente	NOUN	NOUN	_	24	amod	_	TokenRange=209:221
+27	dilma	dilma	ADJ	ADJ	_	26	amod	_	TokenRange=222:227
+28	rousseff	rousseff	NOUN	NOUN	_	26	appos	_	TokenRange=228:236
+29	lamentou	lamentar	VERB	VERB	_	2	parataxis	_	TokenRange=237:245
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=246:251
+31	quintafeira	_	NOUN	NOUN	_	29	nmod	_	TokenRange=252:263
+32	3	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=264:265
+33	twitter	_	PROPN	PNOUN	_	41	nsubj	_	TokenRange=266:273
+34	rejeicao	rejeicao	ADJ	ADJ	_	33	amod	_	TokenRange=274:282
+35	denuncia	_	NOUN	NOUN	_	34	obj	_	TokenRange=283:291
+36	contra	_	ADP	ADP	_	37	case	_	TokenRange=292:298
+37	presidente	presidente	NOUN	NOUN	_	35	nmod	_	TokenRange=299:309
+38	michel	michel	ADJ	ADJ	_	37	amod	_	TokenRange=310:316
+39	temer	temer	NOUN	NOUN	_	37	flat	_	TokenRange=317:322
+40	dilma	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=323:328
+41	aproveitou	aproveitar	VERB	VERB	_	29	parataxis	_	TokenRange=329:339
+42	rede	rede	NOUN	NOUN	_	41	obj	_	TokenRange=340:344
+43	social	social	ADJ	ADJ	_	42	amod	_	TokenRange=345:351
+44	dizer	dizer	VERB	VERB	_	41	ccomp	_	TokenRange=352:357
+45	governo	governo	NOUN	NOUN	_	44	obj	_	TokenRange=358:365
+46	sofre	sofrer	VERB	VERB	_	45	acl:relcl	_	TokenRange=366:371
+47	influencia	_	NOUN	NOUN	_	46	obj	_	TokenRange=372:382
+48	deputado	deputado	NOUN	NOUN	_	46	nsubj	_	TokenRange=383:391
+49	cassado	cassado	ADJ	ADJ	_	48	amod	_	TokenRange=392:399
+50	eduardo	eduardo	NOUN	NOUN	_	48	appos	_	TokenRange=400:407
+51	cunha	cunha	NOUN	NOUN	_	50	flat	_	TokenRange=408:413
+52	pmdbrj	_	NOUN	NOUN	_	50	flat	_	TokenRange=414:420
+53	nesta	_	ADP	ADP	_	54	case	_	TokenRange=421:426
+54	quarta	_	PROPN	PNOUN	_	56	nmod	_	TokenRange=427:433
+55	2	_	NUM	NUM	NumType=Card	54	appos	_	TokenRange=434:435
+56	analisarem	analisar	VERB	VERB	_	41	parataxis	_	TokenRange=436:446
+57	denuncia	denuncia	NOUN	NOUN	_	56	obj	_	TokenRange=447:455
+58	procuradoria	procuradoria	NOUN	NOUN	_	57	appos	_	TokenRange=456:468
+59	geral	geral	ADJ	ADJ	_	58	amod	_	TokenRange=469:474
+60	republica	_	NOUN	ADJ	_	57	amod	_	TokenRange=475:484
+61	contra	_	ADP	ADP	_	62	case	_	TokenRange=485:491
+62	temer	temer	NOUN	NOUN	_	57	nmod	_	TokenRange=492:497
+63	crime	crime	NOUN	NOUN	_	56	obj	_	TokenRange=498:503
+64	corrupcao	corrupcao	NOUN	NOUN	_	63	appos	_	TokenRange=504:513
+65	passiva	passivo	ADJ	ADJ	_	64	amod	_	TokenRange=514:521
+66	deputados	deputado	NOUN	NOUN	_	67	nsubj	_	TokenRange=522:531
+67	rejeitaram	rejeitar	VERB	VERB	_	29	parataxis	_	TokenRange=532:542
+68	prosseguimento	prosseguimento	NOUN	NOUN	_	67	obj	_	TokenRange=543:557
+69	processo	processo	NOUN	NOUN	_	68	flat	_	TokenRange=558:566
+70	supremo	supremo	ADJ	ADJ	_	71	amod	_	TokenRange=567:574
+71	tribunal	tribunal	NOUN	NOUN	_	68	appos	_	TokenRange=575:583
+72	federal	federal	ADJ	ADJ	_	71	amod	_	TokenRange=584:591
+73	263	_	NUM	NUM	NumType=Card	74	nummod	_	TokenRange=592:595
+74	votos	voto	NOUN	NOUN	_	67	obj	_	TokenRange=596:601
+75	227	_	NUM	NUM	NumType=Card	74	appos	_	TokenRange=602:605
+76	saudo	saudar	VERB	VERB	_	67	parataxis	_	SpaceAfter=No|TokenRange=606:611
+

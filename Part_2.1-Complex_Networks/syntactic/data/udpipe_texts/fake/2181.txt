@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alexandre garcia ironiza ministro lewandowski precisa reaprender interpretar textos alexandre garcia jornalista globo comentou sobre fatiamento impeachment expresidente dilma rousseff ironia deboche comentarista politico sugeriu ministro precisa reaprender interpretar textos pensei soubesse ler tirava nota 100 interpretacao texto grupo escolar acho regredi disse alexandre abaixo video comentario alexandre garcia
+1	alexandre	alexandre	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	garcia	garcia	NOUN	NOUN	_	1	flat	_	TokenRange=10:16
+3	ironiza	ironizar	VERB	VERB	_	43	ccomp	_	TokenRange=17:24
+4	ministro	ministro	NOUN	NOUN	_	3	obj	_	TokenRange=25:33
+5	lewandowski	_	ADJ	ADJ	_	4	amod	_	TokenRange=34:45
+6	precisa	precisar	VERB	VERB	_	4	acl:relcl	_	TokenRange=46:53
+7	reaprender	reaprender	VERB	VERB	_	6	xcomp	_	TokenRange=54:64
+8	interpretar	interpretar	VERB	VERB	_	7	xcomp	_	TokenRange=65:76
+9	textos	texto	NOUN	NOUN	_	8	obj	_	TokenRange=77:83
+10	alexandre	alexandre	NOUN	NOUN	_	9	appos	_	TokenRange=84:93
+11	garcia	garcia	NOUN	NOUN	_	10	flat	_	TokenRange=94:100
+12	jornalista	jornalista	NOUN	NOUN	_	14	nsubj	_	TokenRange=101:111
+13	globo	globo	NOUN	NOUN	_	12	flat	_	TokenRange=112:117
+14	comentou	comentar	VERB	VERB	_	10	acl:relcl	_	TokenRange=118:126
+15	sobre	_	ADP	ADP	_	16	case	_	TokenRange=127:132
+16	fatiamento	fatiamento	NOUN	NOUN	_	14	nmod	_	TokenRange=133:143
+17	impeachment	impeachment	NOUN	NOUN	_	16	flat	_	TokenRange=144:155
+18	expresidente	expresidente	NOUN	NOUN	_	16	appos	_	TokenRange=156:168
+19	dilma	dilma	ADJ	ADJ	_	18	amod	_	TokenRange=169:174
+20	rousseff	rousseff	NOUN	NOUN	_	18	amod	_	TokenRange=175:183
+21	ironia	ironia	NOUN	NOUN	_	14	nsubj	_	TokenRange=184:190
+22	deboche	_	NOUN	NOUN	_	23	amod	_	TokenRange=191:198
+23	comentarista	comentarista	NOUN	NOUN	_	25	nsubj	_	TokenRange=199:211
+24	politico	politico	ADJ	ADJ	_	23	amod	_	TokenRange=212:220
+25	sugeriu	sugerir	VERB	VERB	_	14	conj	_	TokenRange=221:228
+26	ministro	ministro	NOUN	NOUN	_	25	obj	_	TokenRange=229:237
+27	precisa	precisar	VERB	VERB	_	26	acl	_	TokenRange=238:245
+28	reaprender	reaprender	VERB	VERB	_	27	xcomp	_	TokenRange=246:256
+29	interpretar	interpretar	VERB	VERB	_	28	xcomp	_	TokenRange=257:268
+30	textos	texto	NOUN	NOUN	_	29	obj	_	TokenRange=269:275
+31	pensei	pensar	VERB	VERB	_	26	acl:relcl	_	TokenRange=276:282
+32	soubesse	saber	VERB	VERB	_	33	aux	_	TokenRange=283:291
+33	ler	ler	VERB	VERB	_	31	xcomp	_	TokenRange=292:295
+34	tirava	tirar	VERB	VERB	_	28	ccomp	_	TokenRange=296:302
+35	nota	nota	NOUN	NOUN	_	34	obj	_	TokenRange=303:307
+36	100	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=308:311
+37	interpretacao	_	NOUN	NOUN	_	35	appos	_	TokenRange=312:325
+38	texto	texto	NOUN	NOUN	_	34	nsubj	_	TokenRange=326:331
+39	grupo	grupo	NOUN	NOUN	_	38	appos	_	TokenRange=332:337
+40	escolar	escolar	ADJ	ADJ	_	39	amod	_	TokenRange=338:345
+41	acho	achar	VERB	VERB	_	43	parataxis	_	TokenRange=346:350
+42	regredi	_	NOUN	NOUN	_	41	obj	_	TokenRange=351:358
+43	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=359:364
+44	alexandre	alexandre	NOUN	NOUN	_	43	nsubj	_	TokenRange=365:374
+45	abaixo	abaixo	ADV	ADV	_	43	advmod	_	TokenRange=375:381
+46	video	video	VERB	VERB	_	43	ccomp	_	TokenRange=382:387
+47	comentario	comentario	NOUN	NOUN	_	43	obj	_	TokenRange=388:398
+48	alexandre	alexandre	NOUN	NOUN	_	47	appos	_	TokenRange=399:408
+49	garcia	garcia	NOUN	NOUN	_	48	flat	_	SpaceAfter=No|TokenRange=409:415
+

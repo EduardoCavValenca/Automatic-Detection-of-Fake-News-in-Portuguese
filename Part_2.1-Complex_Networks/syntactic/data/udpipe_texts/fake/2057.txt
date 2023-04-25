@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer cancela compromissos japao antecipa retorno brasil michel temer antecipou volta brasil hoje 19 presidente republica toquio onde participava encontros empresarios autoridades volta marcada manha desta quintafeira 20 horario local japao presidencia republica manifestou sobre motivo antecipacao volta alguem faz ideia
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	cancela	cancelar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	compromissos	compromisso	NOUN	NOUN	_	2	obj	_	TokenRange=14:26
+4	japao	japao	ADJ	ADJ	_	2	nsubj	_	TokenRange=27:32
+5	antecipa	antecipar	VERB	VERB	_	2	conj	_	TokenRange=33:41
+6	retorno	retorno	NOUN	NOUN	_	5	obj	_	TokenRange=42:49
+7	brasil	brasil	ADJ	ADJ	_	6	amod	_	TokenRange=50:56
+8	michel	michel	DET	DET	_	9	det	_	TokenRange=57:63
+9	temer	temer	NOUN	NOUN	_	10	nsubj	_	TokenRange=64:69
+10	antecipou	antecipar	VERB	VERB	_	2	parataxis	_	TokenRange=70:79
+11	volta	volta	NOUN	NOUN	_	10	obj	_	TokenRange=80:85
+12	brasil	brasil	ADJ	ADJ	_	11	amod	_	TokenRange=86:92
+13	hoje	hoje	ADV	ADV	_	10	advmod	_	TokenRange=93:97
+14	19	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=98:100
+15	presidente	presidente	NOUN	NOUN	_	10	obj	_	TokenRange=101:111
+16	republica	republico	ADJ	ADJ	_	15	amod	_	TokenRange=112:121
+17	toquio	toquio	NOUN	NOUN	_	15	appos	_	TokenRange=122:128
+18	onde	onde	ADV	ADV	_	19	advmod	_	TokenRange=129:133
+19	participava	participar	VERB	VERB	_	15	acl:relcl	_	TokenRange=134:145
+20	encontros	encontro	NOUN	NOUN	_	19	nsubj	_	TokenRange=146:155
+21	empresarios	empresario	ADJ	ADJ	_	20	amod	_	TokenRange=156:167
+22	autoridades	autoridade	NOUN	NOUN	_	15	appos	_	TokenRange=168:179
+23	volta	volta	NOUN	NOUN	_	15	appos	_	TokenRange=180:185
+24	marcada	marcado	ADJ	ADJ	_	25	amod	_	TokenRange=186:193
+25	manha	manha	NOUN	NOUN	_	23	appos	_	TokenRange=194:199
+26	desta	_	ADP	ADP	_	27	case	_	TokenRange=200:205
+27	quintafeira	quintafeira	NOUN	NOUN	_	25	nmod	_	TokenRange=206:217
+28	20	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=218:220
+29	horario	horario	NOUN	NOUN	_	25	appos	_	TokenRange=221:228
+30	local	local	ADJ	ADJ	_	29	amod	_	TokenRange=229:234
+31	japao	japao	ADJ	ADJ	_	32	amod	_	TokenRange=235:240
+32	presidencia	presidencia	NOUN	NOUN	_	34	nsubj	_	TokenRange=241:252
+33	republica	republico	ADJ	ADJ	_	32	amod	_	TokenRange=253:262
+34	manifestou	manifestar	VERB	VERB	_	2	parataxis	_	TokenRange=263:273
+35	sobre	_	ADP	ADP	_	36	case	_	TokenRange=274:279
+36	motivo	motivo	NOUN	NOUN	_	34	nmod	_	TokenRange=280:286
+37	antecipacao	antecipacao	ADJ	ADJ	_	36	amod	_	TokenRange=287:298
+38	volta	volta	NOUN	NOUN	_	40	obj	_	TokenRange=299:304
+39	alguem	_	PRON	PRON	_	40	nsubj	_	TokenRange=305:311
+40	faz	fazer	VERB	VERB	_	34	ccomp	_	TokenRange=312:315
+41	ideia	ideia	NOUN	NOUN	_	40	obj	_	SpaceAfter=No|TokenRange=316:321
+

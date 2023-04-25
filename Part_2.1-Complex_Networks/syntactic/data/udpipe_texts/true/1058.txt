@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = justica distrito federal aceita denuncia mp lula vira reu zelotes filho expresidente dois empresarios tornaram reus denuncia sobre compra cacas suecos mp incentivos fiscais defesa contesta diz lula filho praticaram ato ilicito juiz vallisney souza oliveira justica federal distrito federal aceitou denuncia ministerio publico abriu acao penal contra expresidente luiz inacio lula silva filho luis claudio lula silva dois empresarios
+1	justica	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	distrito	distrito	NOUN	NOUN	_	1	appos	_	TokenRange=8:16
+3	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=17:24
+4	aceita	aceitar	VERB	VERB	_	0	root	_	TokenRange=25:31
+5	denuncia	_	NOUN	NOUN	_	4	obj	_	TokenRange=32:40
+6	mp	_	NOUN	NOUN	_	9	appos	_	TokenRange=41:43
+7	lula	_	NOUN	NOUN	_	6	flat	_	TokenRange=44:48
+8	vira	_	AUX	AUX	_	9	cop	_	TokenRange=49:53
+9	reu	reu	NOUN	NOUN	_	5	appos	_	TokenRange=54:57
+10	zelotes	zelote	NOUN	NOUN	_	9	appos	_	TokenRange=58:65
+11	filho	filho	NOUN	NOUN	_	10	flat	_	TokenRange=66:71
+12	expresidente	expresidente	NOUN	NOUN	_	10	amod	_	TokenRange=72:84
+13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=85:89
+14	empresarios	empresario	NOUN	NOUN	_	15	nsubj	_	TokenRange=90:101
+15	tornaram	tornar	VERB	VERB	_	4	parataxis	_	TokenRange=102:110
+16	reus	reu	ADJ	ADJ	_	15	xcomp	_	TokenRange=111:115
+17	denuncia	denuncia	NOUN	NOUN	_	15	obj	_	TokenRange=116:124
+18	sobre	_	ADP	ADP	_	19	case	_	TokenRange=125:130
+19	compra	compra	NOUN	NOUN	_	17	nmod	_	TokenRange=131:137
+20	cacas	caca	NOUN	NOUN	_	19	flat	_	TokenRange=138:143
+21	suecos	sueco	ADJ	ADJ	_	20	amod	_	TokenRange=144:150
+22	mp	_	NOUN	NOUN	_	23	appos	_	TokenRange=151:153
+23	incentivos	incentivo	NOUN	NOUN	_	15	nsubj	_	TokenRange=154:164
+24	fiscais	fiscal	ADJ	ADJ	_	23	amod	_	TokenRange=165:172
+25	defesa	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=173:179
+26	contesta	contesta	ADJ	ADJ	_	23	amod	_	TokenRange=180:188
+27	diz	dizer	VERB	VERB	_	15	parataxis	_	TokenRange=189:192
+28	lula	lula	NOUN	NOUN	_	30	obj	_	TokenRange=193:197
+29	filho	filho	ADJ	NOUN	_	28	flat	_	TokenRange=198:203
+30	praticaram	praticar	VERB	VERB	_	27	ccomp	_	TokenRange=204:214
+31	ato	ato	NOUN	NOUN	_	30	obj	_	TokenRange=215:218
+32	ilicito	ilicito	ADJ	ADJ	_	31	amod	_	TokenRange=219:226
+33	juiz	juiz	NOUN	NOUN	_	31	appos	_	TokenRange=227:231
+34	vallisney	_	NOUN	NOUN	_	33	appos	_	TokenRange=232:241
+35	souza	_	NOUN	NOUN	_	33	appos	_	TokenRange=242:247
+36	oliveira	oliveira	ADJ	ADJ	_	37	amod	_	TokenRange=248:256
+37	justica	_	NOUN	NOUN	_	33	appos	_	TokenRange=257:264
+38	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=265:272
+39	distrito	distrito	NOUN	NOUN	_	37	appos	_	TokenRange=273:281
+40	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=282:289
+41	aceitou	aceitar	VERB	VERB	_	4	parataxis	_	TokenRange=290:297
+42	denuncia	denuncia	NOUN	NOUN	_	41	obj	_	TokenRange=298:306
+43	ministerio	ministerio	NOUN	NOUN	_	42	appos	_	TokenRange=307:317
+44	publico	_	ADJ	ADJ	_	43	amod	_	TokenRange=318:325
+45	abriu	abrir	VERB	VERB	_	4	parataxis	_	TokenRange=326:331
+46	acao	acao	NOUN	NOUN	_	45	obj	_	TokenRange=332:336
+47	penal	penal	ADJ	ADJ	_	46	amod	_	TokenRange=337:342
+48	contra	_	ADP	ADP	_	49	case	_	TokenRange=343:349
+49	expresidente	expresidente	NOUN	NOUN	_	46	nmod	_	TokenRange=350:362
+50	luiz	luiz	ADJ	ADJ	_	49	amod	_	TokenRange=363:367
+51	inacio	_	NOUN	NOUN	_	49	appos	_	TokenRange=368:374
+52	lula	_	NOUN	NOUN	_	49	appos	_	TokenRange=375:379
+53	silva	silva	NOUN	NOUN	_	49	flat	_	TokenRange=380:385
+54	filho	filho	NOUN	NOUN	_	49	appos	_	TokenRange=386:391
+55	luis	_	NOUN	NOUN	_	49	appos	_	TokenRange=392:396
+56	claudio	claudio	ADJ	NOUN	_	55	flat	_	TokenRange=397:404
+57	lula	_	NOUN	NOUN	_	55	flat	_	TokenRange=405:409
+58	silva	silvo	ADJ	ADJ	_	55	flat	_	TokenRange=410:415
+59	dois	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=416:420
+60	empresarios	empresario	NOUN	NOUN	_	55	appos	_	SpaceAfter=No|TokenRange=421:432
+

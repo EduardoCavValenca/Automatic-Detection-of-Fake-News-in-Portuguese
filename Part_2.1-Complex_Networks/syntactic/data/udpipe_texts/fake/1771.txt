@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ta serto tempos crise governo decide contratar agencia publicidade r 208 milhoes governo pavoroso michel temer publicou edital selecionar agencia publicidade cuidara divulgacao acoes planalto contrato duracao 1 ano bagatela paga pode chegar r 208 milhoes campanhas voltadas direitos humanos lgbt pessoas deficiencia igualdade genero outras pois acoes governo peemedebista podem consideradas ma fe tempos crise onde redes sociais dominam governo poderia usar propria mao obra tao dificil encontrar funcionarios publicos saibam usar redes sociais gastar 208 milhoes publicidade ta serto michel
+1	ta	_	DET	DET	_	2	mark	_	TokenRange=0:2
+2	serto	_	NOUN	NOUN	_	6	nmod	_	TokenRange=3:8
+3	tempos	tempo	NOUN	NOUN	_	6	nsubj	_	TokenRange=9:15
+4	crise	crise	NOUN	NOUN	_	3	flat	_	TokenRange=16:21
+5	governo	governo	NOUN	NOUN	_	6	nsubj	_	TokenRange=22:29
+6	decide	decidir	VERB	VERB	_	0	root	_	TokenRange=30:36
+7	contratar	contratar	VERB	VERB	_	6	xcomp	_	TokenRange=37:46
+8	agencia	agencia	NOUN	NOUN	_	7	obj	_	TokenRange=47:54
+9	publicidade	publicidade	NOUN	NOUN	_	8	flat	_	TokenRange=55:66
+10	r	r	NOUN	NOUN	_	13	case	_	TokenRange=67:68
+11	208	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=69:72
+12	milhoes	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=73:80
+13	governo	governo	NOUN	NOUN	_	17	nsubj	_	TokenRange=81:88
+14	pavoroso	pavoroso	ADJ	ADJ	_	13	amod	_	TokenRange=89:97
+15	michel	michel	DET	DET	_	16	det	_	TokenRange=98:104
+16	temer	temer	NOUN	NOUN	_	17	nsubj	_	TokenRange=105:110
+17	publicou	publicar	VERB	VERB	_	6	parataxis	_	TokenRange=111:119
+18	edital	edital	NOUN	NOUN	_	17	obj	_	TokenRange=120:126
+19	selecionar	selecionar	VERB	VERB	_	18	acl:inf	_	TokenRange=127:137
+20	agencia	agencia	NOUN	NOUN	_	19	obj	_	TokenRange=138:145
+21	publicidade	publicidade	NOUN	NOUN	_	20	flat	_	TokenRange=146:157
+22	cuidara	cuidar	VERB	VERB	_	20	appos	_	TokenRange=158:165
+23	divulgacao	divulgacao	NOUN	NOUN	_	22	obj	_	TokenRange=166:176
+24	acoes	acoe	NOUN	NOUN	_	20	appos	_	TokenRange=177:182
+25	planalto	planalto	ADJ	ADJ	_	26	amod	_	TokenRange=183:191
+26	contrato	contrato	NOUN	NOUN	_	24	appos	_	TokenRange=192:200
+27	duracao	duracao	ADJ	ADJ	_	29	amod	_	TokenRange=201:208
+28	1	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=209:210
+29	ano	ano	NOUN	NOUN	_	26	nmod	_	TokenRange=211:214
+30	bagatela	bagatela	NOUN	NOUN	_	26	appos	_	TokenRange=215:223
+31	paga	_	VERB	VERB	_	30	appos	_	TokenRange=224:228
+32	pode	_	AUX	AUX	_	33	aux	_	TokenRange=229:233
+33	chegar	chegar	VERB	VERB	_	6	parataxis	_	TokenRange=234:240
+34	r	r	NOUN	NOUN	_	33	obj	_	TokenRange=241:242
+35	208	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=243:246
+36	milhoes	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=247:254
+37	campanhas	campanha	NOUN	NOUN	_	33	nsubj	_	TokenRange=255:264
+38	voltadas	voltado	ADJ	ADJ	_	37	amod	_	TokenRange=265:273
+39	direitos	direito	NOUN	NOUN	_	33	nmod	_	TokenRange=274:282
+40	humanos	humano	ADJ	ADJ	_	39	amod	_	TokenRange=283:290
+41	lgbt	_	ADJ	ADJ	_	42	amod	_	TokenRange=291:295
+42	pessoas	pessoa	NOUN	NOUN	_	37	appos	_	TokenRange=296:303
+43	deficiencia	_	ADJ	ADJ	_	37	amod	_	TokenRange=304:315
+44	igualdade	igualdade	NOUN	NOUN	_	33	nsubj	_	TokenRange=316:325
+45	genero	genero	NOUN	NOUN	_	44	appos	_	TokenRange=326:332
+46	outras	_	DET	PRON	_	48	det	_	TokenRange=333:339
+47	pois	_	CCONJ	CONJ	_	48	case	_	TokenRange=340:344
+48	acoes	acoe	NOUN	NOUN	_	52	nsubj	_	TokenRange=345:350
+49	governo	governo	NOUN	NOUN	_	48	appos	_	TokenRange=351:358
+50	peemedebista	_	ADJ	ADJ	_	48	amod	_	TokenRange=359:371
+51	podem	_	AUX	AUX	_	52	aux	_	TokenRange=372:377
+52	consideradas	considerar	AUX	AUX	_	6	parataxis	_	TokenRange=378:390
+53	ma	_	ADP	ADP	_	54	case	_	TokenRange=391:393
+54	fe	fe	NOUN	NOUN	_	52	nmod	_	TokenRange=394:396
+55	tempos	tempo	NOUN	NOUN	_	54	appos	_	TokenRange=397:403
+56	crise	crise	NOUN	NOUN	_	55	flat	_	TokenRange=404:409
+57	onde	onde	ADV	ADV	_	60	advmod	_	TokenRange=410:414
+58	redes	rede	NOUN	NOUN	_	60	nsubj	_	TokenRange=415:420
+59	sociais	social	ADJ	ADJ	_	58	amod	_	TokenRange=421:428
+60	dominam	dominar	VERB	VERB	_	56	acl:relcl	_	TokenRange=429:436
+61	governo	governo	NOUN	NOUN	_	60	nsubj	_	TokenRange=437:444
+62	poderia	poder	AUX	AUX	_	63	aux	_	TokenRange=445:452
+63	usar	usar	VERB	VERB	_	60	ccomp	_	TokenRange=453:457
+64	propria	proprio	ADJ	ADJ	_	65	amod	_	TokenRange=458:465
+65	mao	mao	NOUN	NOUN	_	63	obj	_	TokenRange=466:469
+66	obra	obra	NOUN	NOUN	_	65	flat	_	TokenRange=470:474
+67	tao	tao	ADV	ADV	_	68	advmod	_	TokenRange=475:478
+68	dificil	dificil	ADJ	ADJ	_	63	xcomp	_	TokenRange=479:486
+69	encontrar	encontrar	VERB	VERB	_	63	csubj	_	TokenRange=487:496
+70	funcionarios	funcionario	NOUN	NOUN	_	69	obj	_	TokenRange=497:509
+71	publicos	publico	ADJ	ADJ	_	70	amod	_	TokenRange=510:518
+72	saibam	saber	VERB	VERB	_	63	parataxis	_	TokenRange=519:525
+73	usar	usar	VERB	VERB	_	72	xcomp	_	TokenRange=526:530
+74	redes	rede	NOUN	NOUN	_	73	obj	_	TokenRange=531:536
+75	sociais	social	ADJ	ADJ	_	74	amod	_	TokenRange=537:544
+76	gastar	gastar	VERB	VERB	_	73	ccomp	_	TokenRange=545:551
+77	208	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=552:555
+78	milhoes	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=556:563
+79	publicidade	publicidade	NOUN	NOUN	_	76	obj	_	TokenRange=564:575
+80	ta	_	PROPN	PNOUN	_	79	appos	_	TokenRange=576:578
+81	serto	serto	NOUN	NOUN	_	79	appos	_	TokenRange=579:584
+82	michel	_	PROPN	PNOUN	_	81	flat	_	SpaceAfter=No|TokenRange=585:591
+

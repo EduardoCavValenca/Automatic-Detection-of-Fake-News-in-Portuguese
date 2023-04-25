@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tres tesoureiros pt presos corrupcao agora falta chefao paulo ferreira terceiro tesoureiro pt preso delubio soares antecessor ferreira preso condenado julgamento mensalao sucessor joao vaccari neto preso lavajato paulo ferreira exdeputado federal pt/rs entregou ontem23 justica federal alvo mandato prisao expedido operacao custo brasil desdobramento operacao lava jato tesoureiro suspeito participar negociacao recebimento propina contrato firmado ministerio planejamento empresa consist ano 2010 quadrilha investigada custo brasil desviou 100 milhoes reais emprestimos consignados servidores pasta comandada epoca exministro paulo bernardo preso
+1	tres	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:4
+2	tesoureiros	tesoureiro	NOUN	NOUN	_	67	nsubj	_	TokenRange=5:16
+3	pt	_	PROPN	PNOUN	_	2	appos	_	TokenRange=17:19
+4	presos	preso	NOUN	NOUN	_	2	appos	_	TokenRange=20:26
+5	corrupcao	corrupcao	NOUN	NOUN	_	2	appos	_	TokenRange=27:36
+6	agora	agora	ADV	ADV	_	7	advmod	_	TokenRange=37:42
+7	falta	_	NOUN	NOUN	_	2	appos	_	TokenRange=43:48
+8	chefao	chefao	NOUN	NOUN	_	7	appos	_	TokenRange=49:55
+9	paulo	paulo	NOUN	NOUN	_	8	appos	_	TokenRange=56:61
+10	ferreira	_	ADJ	ADJ	_	9	flat	_	TokenRange=62:70
+11	terceiro	_	ADJ	ADJ	_	12	amod	_	TokenRange=71:79
+12	tesoureiro	tesoureiro	NOUN	NOUN	_	2	appos	_	TokenRange=80:90
+13	pt	_	PROPN	PNOUN	_	12	appos	_	TokenRange=91:93
+14	preso	_	NOUN	NOUN	_	12	amod	_	TokenRange=94:99
+15	delubio	_	NOUN	NOUN	_	12	appos	_	TokenRange=100:107
+16	soares	_	ADJ	ADJ	_	17	amod	_	TokenRange=108:114
+17	antecessor	antecessor	NOUN	NOUN	_	15	appos	_	TokenRange=115:125
+18	ferreira	_	NOUN	NOUN	_	17	appos	_	TokenRange=126:134
+19	preso	_	VERB	VERB	_	17	acl	_	TokenRange=135:140
+20	condenado	condenar	VERB	VERB	_	21	acl	_	TokenRange=141:150
+21	julgamento	julgamento	NOUN	NOUN	_	19	obj	_	TokenRange=151:161
+22	mensalao	_	ADJ	ADJ	_	21	amod	_	TokenRange=162:170
+23	sucessor	sucessor	NOUN	NOUN	_	21	appos	_	TokenRange=171:179
+24	joao	joao	NOUN	NOUN	_	21	appos	_	TokenRange=180:184
+25	vaccari	vaccar	NOUN	NOUN	_	23	appos	_	TokenRange=185:192
+26	neto	neto	ADJ	NOUN	_	25	flat	_	TokenRange=193:197
+27	preso	_	ADJ	ADJ	_	28	amod	_	TokenRange=198:203
+28	lavajato	lavajato	NOUN	NOUN	_	34	nsubj	_	TokenRange=204:212
+29	paulo	_	NOUN	NOUN	_	28	appos	_	TokenRange=213:218
+30	ferreira	_	ADJ	NOUN	_	31	amod	_	TokenRange=219:227
+31	exdeputado	exdeputado	NOUN	NOUN	_	28	appos	_	TokenRange=228:238
+32	federal	federal	ADJ	ADJ	_	31	amod	_	TokenRange=239:246
+33	pt/rs	_	NOUN	NOUN	_	31	appos	_	TokenRange=247:252
+34	entregou	entregar	VERB	VERB	_	20	parataxis	_	TokenRange=253:261
+35	ontem23	_	NOUN	NOUN	_	34	obj	_	TokenRange=262:269
+36	justica	_	NOUN	NOUN	_	34	obj	_	TokenRange=270:277
+37	federal	federal	ADJ	ADJ	_	36	amod	_	TokenRange=278:285
+38	alvo	alvo	ADJ	ADJ	_	39	amod	_	TokenRange=286:290
+39	mandato	mandato	NOUN	NOUN	_	34	obj	_	TokenRange=291:298
+40	prisao	prisao	NOUN	NOUN	_	39	amod	_	TokenRange=299:305
+41	expedido	expedir	VERB	VERB	_	43	acl	_	TokenRange=306:314
+42	operacao	operacao	ADJ	ADJ	_	43	amod	_	TokenRange=315:323
+43	custo	custo	NOUN	NOUN	_	34	nsubj	_	TokenRange=324:329
+44	brasil	brasil	ADJ	ADJ	_	43	amod	_	TokenRange=330:336
+45	desdobramento	desdobramento	NOUN	NOUN	_	43	appos	_	TokenRange=337:350
+46	operacao	operacao	ADJ	ADJ	_	43	appos	_	TokenRange=351:359
+47	lava	lava	NOUN	NOUN	_	43	appos	_	TokenRange=360:364
+48	jato	_	NOUN	NOUN	_	47	flat	_	TokenRange=365:369
+49	tesoureiro	tesoureiro	NOUN	NOUN	_	47	appos	_	TokenRange=370:380
+50	suspeito	suspeito	ADJ	ADJ	_	49	amod	_	TokenRange=381:389
+51	participar	participar	VERB	VERB	_	34	parataxis	_	TokenRange=390:400
+52	negociacao	negociacao	ADJ	NOUN	_	51	obj	_	TokenRange=401:411
+53	recebimento	recebimento	NOUN	NOUN	_	51	obj	_	TokenRange=412:423
+54	propina	propino	ADJ	ADJ	_	53	amod	_	TokenRange=424:431
+55	contrato	contrato	NOUN	NOUN	_	53	appos	_	TokenRange=432:440
+56	firmado	firmar	VERB	VERB	_	55	acl	_	TokenRange=441:448
+57	ministerio	ministerio	NOUN	NOUN	_	56	obj	_	TokenRange=449:459
+58	planejamento	planejamento	NOUN	NOUN	_	57	flat	_	TokenRange=460:472
+59	empresa	empresa	NOUN	NOUN	_	57	appos	_	TokenRange=473:480
+60	consist	_	ADJ	ADJ	_	59	amod	_	TokenRange=481:488
+61	ano	ano	NOUN	NOUN	_	57	nmod	_	TokenRange=489:492
+62	2010	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=493:497
+63	quadrilha	quadrilha	NOUN	NOUN	_	67	nsubj	_	TokenRange=498:507
+64	investigada	investigar	VERB	VERB	_	63	acl	_	TokenRange=508:519
+65	custo	custo	NOUN	NOUN	_	63	appos	_	TokenRange=520:525
+66	brasil	brasil	ADJ	ADJ	_	65	amod	_	TokenRange=526:532
+67	desviou	desviar	VERB	VERB	_	77	parataxis	_	TokenRange=533:540
+68	100	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=541:544
+69	milhoes	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=545:552
+70	reais	real	NOUN	NOUN	_	67	obj	_	TokenRange=553:558
+71	emprestimos	emprestimo	NOUN	NOUN	_	67	obj	_	TokenRange=559:570
+72	consignados	consignado	ADJ	ADJ	_	77	amod	_	TokenRange=571:582
+73	servidores	servidor	NOUN	NOUN	_	67	nsubj	_	TokenRange=583:593
+74	pasta	pasta	NOUN	NOUN	_	77	appos	_	TokenRange=594:599
+75	comandada	comandado	VERB	ADJ	_	77	acl	_	TokenRange=600:609
+76	epoca	epoca	NOUN	NOUN	_	77	amod	_	TokenRange=610:615
+77	exministro	exministro	NOUN	NOUN	_	0	root	_	TokenRange=616:626
+78	paulo	_	NOUN	NOUN	_	77	appos	_	TokenRange=627:632
+79	bernardo	bernardo	NOUN	NOUN	_	78	flat	_	TokenRange=633:641
+80	preso	_	ADJ	ADJ	_	77	amod	_	SpaceAfter=No|TokenRange=642:647
+

@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 30 marco 2017 boa noite aqui principais noticias terminar dia beminformado eduardo cunha condenado 15 anos prisao corrupcao lavagem dinheiro evasao divisas primeira condenacao lava jato deputado cassado sentenca juiz sergio moro diz pode haver ofensa grave daquele trai mandato parlamentar defesa cunha disse vai recorrer afirmou estar perplexa velocidade condenacao aliados expresidente camara falou injustica rivais temem reacao contra investigacoes protecao investigados acao mpf acusa partido progressista politicos legenda improbidade administrativa pede ressarcimento r 23 bilhoes cofres publicos
+1	quintafeira	quintafeira	NOUN	NOUN	_	34	parataxis	_	TokenRange=0:11
+2	30	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=12:14
+3	marco	marco	NOUN	NOUN	_	1	nmod	_	TokenRange=15:20
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=21:25
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=26:29
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=36:40
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=41:51
+9	noticias	_	NOUN	NOUN	_	1	appos	_	TokenRange=52:60
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=61:69
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=70:73
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=74:86
+13	eduardo	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=87:94
+14	cunha	_	NOUN	NOUN	_	13	flat	_	TokenRange=95:100
+15	condenado	condenar	VERB	VERB	_	13	acl	_	TokenRange=101:110
+16	15	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=111:113
+17	anos	ano	NOUN	NOUN	_	15	nmod	_	TokenRange=114:118
+18	prisao	prisao	NOUN	NOUN	_	15	xcomp	_	TokenRange=119:125
+19	corrupcao	_	ADJ	ADJ	_	20	amod	_	TokenRange=126:135
+20	lavagem	lavagem	NOUN	NOUN	_	15	obj	_	TokenRange=136:143
+21	dinheiro	dinheiro	NOUN	NOUN	_	20	flat	_	TokenRange=144:152
+22	evasao	_	VERB	VERB	_	20	appos	_	TokenRange=153:159
+23	divisas	divisa	NOUN	NOUN	_	22	obj	_	TokenRange=160:167
+24	primeira	primeiro	ADJ	ADJ	_	25	amod	_	TokenRange=168:176
+25	condenacao	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=177:187
+26	lava	lavar	VERB	VERB	_	23	appos	_	TokenRange=188:192
+27	jato	jato	NOUN	NOUN	_	26	obj	_	TokenRange=193:197
+28	deputado	deputado	NOUN	NOUN	_	26	obj	_	TokenRange=198:206
+29	cassado	cassado	ADJ	ADJ	_	28	amod	_	TokenRange=207:214
+30	sentenca	_	ADJ	ADJ	_	31	amod	_	TokenRange=215:223
+31	juiz	juiz	NOUN	NOUN	_	34	nsubj	_	TokenRange=224:228
+32	sergio	_	NOUN	NOUN	_	31	appos	_	TokenRange=229:235
+33	moro	moro	NOUN	NOUN	_	31	flat	_	TokenRange=236:240
+34	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=241:244
+35	pode	_	AUX	AUX	_	36	aux	_	TokenRange=245:249
+36	haver	haver	VERB	VERB	_	34	ccomp	_	TokenRange=250:255
+37	ofensa	ofensa	NOUN	NOUN	_	36	obj	_	TokenRange=256:262
+38	grave	grave	ADJ	ADJ	_	37	amod	_	TokenRange=263:268
+39	daquele	_	ADP	ADP	_	40	case	_	TokenRange=269:276
+40	trai	_	NOUN	NOUN	_	36	nmod	_	TokenRange=277:281
+41	mandato	mandato	NOUN	NOUN	_	40	flat	_	TokenRange=282:289
+42	parlamentar	parlamentar	ADJ	ADJ	_	43	amod	_	TokenRange=290:301
+43	defesa	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=302:308
+44	cunha	cunha	NOUN	NOUN	_	43	flat	_	TokenRange=309:314
+45	disse	dizer	VERB	VERB	_	40	acl:relcl	_	TokenRange=315:320
+46	vai	ir	AUX	AUX	_	47	aux	_	TokenRange=321:324
+47	recorrer	recorrer	VERB	VERB	_	45	ccomp	_	TokenRange=325:333
+48	afirmou	afirmar	VERB	VERB	_	45	ccomp	_	TokenRange=334:341
+49	estar	estar	VERB	VERB	_	48	xcomp	_	TokenRange=342:347
+50	perplexa	perplexo	ADJ	ADJ	_	51	amod	_	TokenRange=348:356
+51	velocidade	velocidade	NOUN	NOUN	_	49	nsubj	_	TokenRange=357:367
+52	condenacao	_	NOUN	NOUN	_	51	appos	_	TokenRange=368:378
+53	aliados	aliado	ADJ	ADJ	_	54	amod	_	TokenRange=379:386
+54	expresidente	expresidente	NOUN	NOUN	_	56	nsubj	_	TokenRange=387:399
+55	camara	camara	NOUN	NOUN	_	54	amod	_	TokenRange=400:406
+56	falou	falar	VERB	VERB	_	51	acl:relcl	_	TokenRange=407:412
+57	injustica	injustico	ADJ	ADJ	_	58	amod	_	TokenRange=413:422
+58	rivais	rival	NOUN	NOUN	_	59	obj	_	TokenRange=423:429
+59	temem	temer	VERB	VERB	_	56	ccomp	_	TokenRange=430:435
+60	reacao	reacao	NOUN	NOUN	_	59	obj	_	TokenRange=436:442
+61	contra	_	ADP	ADP	_	62	case	_	TokenRange=443:449
+62	investigacoes	investigacoe	NOUN	NOUN	_	60	nmod	_	TokenRange=450:463
+63	protecao	protecao	NOUN	NOUN	_	62	appos	_	TokenRange=464:472
+64	investigados	investigado	ADJ	ADJ	_	63	amod	_	TokenRange=473:485
+65	acao	acao	NOUN	NOUN	_	67	nsubj	_	TokenRange=486:490
+66	mpf	_	NOUN	NOUN	_	65	flat	_	TokenRange=491:494
+67	acusa	acusar	VERB	VERB	_	59	conj	_	TokenRange=495:500
+68	partido	partido	NOUN	NOUN	_	67	obj	_	TokenRange=501:508
+69	progressista	progressista	ADJ	ADJ	_	68	amod	_	TokenRange=509:521
+70	politicos	politico	ADJ	ADJ	_	68	amod	_	TokenRange=522:531
+71	legenda	legenda	VERB	VERB	_	67	parataxis	_	TokenRange=532:539
+72	improbidade	improbidade	NOUN	NOUN	_	67	obj	_	TokenRange=540:551
+73	administrativa	administrativo	ADJ	ADJ	_	72	amod	_	TokenRange=552:566
+74	pede	pedir	VERB	VERB	_	59	parataxis	_	TokenRange=567:571
+75	ressarcimento	ressarcimento	NOUN	NOUN	_	74	obj	_	TokenRange=572:585
+76	r	r	NOUN	NOUN	_	79	case	_	TokenRange=586:587
+77	23	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=588:590
+78	bilhoes	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=591:598
+79	cofres	cofre	NOUN	NOUN	_	75	nmod	_	TokenRange=599:605
+80	publicos	publico	ADJ	ADJ	_	79	amod	_	SpaceAfter=No|TokenRange=606:614
+

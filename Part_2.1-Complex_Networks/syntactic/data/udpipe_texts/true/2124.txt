@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = domingos montagner vai sepultado neste sabado paulo irmao ator informou corpo enterrado cemiterio quarta parada velorio ocorrera partir 9 h sabado 17 teatro fernando torres domingos montagner vai sepultado neste sabado 17 paulo afirmou irmao ator francisco montagner radio bandeirantes sepultamento ocorrera cemiterio quarta parada zona leste cidade velorio marcado ocorrer
+1	domingos	_	PROPN	PNOUN	_	4	nsubj:pass	_	TokenRange=0:8
+2	montagner	_	NOUN	NOUN	_	1	flat	_	TokenRange=9:18
+3	vai	ir	AUX	AUX	_	4	aux	_	TokenRange=19:22
+4	sepultado	sepultar	VERB	VERB	_	0	root	_	TokenRange=23:32
+5	neste	_	ADP	ADP	_	6	case	_	TokenRange=33:38
+6	sabado	_	PROPN	PNOUN	_	4	nmod	_	TokenRange=39:45
+7	paulo	paulo	NOUN	NOUN	_	10	nsubj	_	TokenRange=46:51
+8	irmao	irmao	ADJ	NOUN	_	9	amod	_	TokenRange=52:57
+9	ator	ator	NOUN	NOUN	_	7	flat	_	TokenRange=58:62
+10	informou	informar	VERB	VERB	_	4	conj	_	TokenRange=63:71
+11	corpo	corpo	NOUN	NOUN	_	10	obj	_	TokenRange=72:77
+12	enterrado	enterrado	ADJ	ADJ	_	11	amod	_	TokenRange=78:87
+13	cemiterio	cemiterio	NOUN	NOUN	_	11	appos	_	TokenRange=88:97
+14	quarta	_	ADJ	ADJ	_	15	amod	_	TokenRange=98:104
+15	parada	parada	NOUN	NOUN	_	13	appos	_	TokenRange=105:111
+16	velorio	velorio	NOUN	NOUN	_	15	amod	_	TokenRange=112:119
+17	ocorrera	_	VERB	VERB	_	4	conj	_	TokenRange=120:128
+18	partir	partir	VERB	VERB	_	17	xcomp	_	TokenRange=129:135
+19	9	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=136:137
+20	h	h	NOUN	NOUN	_	18	nmod	_	TokenRange=138:139
+21	sabado	_	NOUN	NOUN	_	20	appos	_	TokenRange=140:146
+22	17	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=147:149
+23	teatro	teatro	NOUN	NOUN	_	29	nsubj	_	TokenRange=150:156
+24	fernando	fernando	NOUN	NOUN	_	23	appos	_	TokenRange=157:165
+25	torres	_	NOUN	NOUN	_	24	flat	_	TokenRange=166:172
+26	domingos	_	PROPN	PNOUN	_	29	nsubj	_	TokenRange=173:181
+27	montagner	_	PROPN	PNOUN	_	26	flat	_	TokenRange=182:191
+28	vai	ir	AUX	AUX	_	29	aux	_	TokenRange=192:195
+29	sepultado	sepultar	VERB	VERB	_	4	conj	_	TokenRange=196:205
+30	neste	_	ADP	ADP	_	31	case	_	TokenRange=206:211
+31	sabado	_	NOUN	NOUN	_	29	nmod	_	TokenRange=212:218
+32	17	_	NUM	NUM	NumType=Card	31	nmod	_	TokenRange=219:221
+33	paulo	paulo	NOUN	NOUN	_	34	nsubj	_	TokenRange=222:227
+34	afirmou	afirmar	VERB	VERB	_	29	conj	_	TokenRange=228:235
+35	irmao	irmao	NOUN	NOUN	_	34	obj	_	TokenRange=236:241
+36	ator	ator	NOUN	NOUN	_	35	flat	_	TokenRange=242:246
+37	francisco	francisco	NOUN	NOUN	_	35	appos	_	TokenRange=247:256
+38	montagner	_	NOUN	NOUN	_	39	flat	_	TokenRange=257:266
+39	radio	radio	NOUN	NOUN	_	35	appos	_	TokenRange=267:272
+40	bandeirantes	bandeirante	ADJ	ADJ	_	39	amod	_	TokenRange=273:285
+41	sepultamento	sepultamento	NOUN	NOUN	_	39	appos	_	TokenRange=286:298
+42	ocorrera	ocorrer	AUX	AUX	_	34	parataxis	_	TokenRange=299:307
+43	cemiterio	cemiterio	NOUN	NOUN	_	42	parataxis	_	TokenRange=308:317
+44	quarta	_	ADJ	ADJ	_	45	amod	_	TokenRange=318:324
+45	parada	parada	NOUN	NOUN	_	43	appos	_	TokenRange=325:331
+46	zona	zona	NOUN	NOUN	_	43	appos	_	TokenRange=332:336
+47	leste	leste	ADJ	ADJ	_	46	amod	_	TokenRange=337:342
+48	cidade	cidade	NOUN	NOUN	_	43	appos	_	TokenRange=343:349
+49	velorio	velorio	ADJ	ADJ	_	48	amod	_	TokenRange=350:357
+50	marcado	marcar	VERB	VERB	_	48	acl	_	TokenRange=358:365
+51	ocorrer	ocorrer	VERB	VERB	_	50	xcomp	_	SpaceAfter=No|TokenRange=366:373
+

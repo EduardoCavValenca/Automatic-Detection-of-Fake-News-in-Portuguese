@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eike batista alvo mandado prisao lava jato procurado pf policiais encontraram empresario casa advogado confirmou viajando operacao eficiencia cumpriu 7 9 mandados prisao agentes policia federal ministerio publico federal realizam operacao cumprir nove mandados prisao preventiva quatro conducoes coercitivas operacao eficiencia desdobramento lava jato rio janeiro manha desta quintafeira 26 principais alvos mandados prisao expedidos empresario eike batista dono grupo ebx segundo advogado fernando martins diz representar empresario viajando vivo pf mpf detalham operacao entrevista coletiva acordo advogado
+1	eike	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:4
+2	batista	batista	ADJ	ADJ	_	1	amod	_	TokenRange=5:12
+3	alvo	alvo	NOUN	NOUN	_	1	appos	_	TokenRange=13:17
+4	mandado	mandar	VERB	VERB	_	1	acl	_	TokenRange=18:25
+5	prisao	prisao	NOUN	NOUN	_	4	obj	_	TokenRange=26:32
+6	lava	_	NOUN	NOUN	_	1	appos	_	TokenRange=33:37
+7	jato	jato	NOUN	NOUN	_	6	flat	_	TokenRange=38:42
+8	procurado	procurar	VERB	VERB	_	6	acl	_	TokenRange=43:52
+9	pf	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=53:55
+10	policiais	policial	NOUN	NOUN	_	8	nsubj	_	TokenRange=56:65
+11	encontraram	encontrar	VERB	VERB	_	0	root	_	TokenRange=66:77
+12	empresario	empresario	NOUN	NOUN	_	11	obj	_	TokenRange=78:88
+13	casa	casa	NOUN	NOUN	_	12	appos	_	TokenRange=89:93
+14	advogado	advogado	NOUN	NOUN	_	13	flat	_	TokenRange=94:102
+15	confirmou	confirmar	VERB	VERB	_	11	parataxis	_	TokenRange=103:112
+16	viajando	viajar	VERB	VERB	_	15	acl	_	TokenRange=113:121
+17	operacao	operacao	NOUN	NOUN	_	16	obj	_	TokenRange=122:130
+18	eficiencia	_	NOUN	NOUN	_	17	flat	_	TokenRange=131:141
+19	cumpriu	cumprir	VERB	VERB	_	16	parataxis	_	TokenRange=142:149
+20	7	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=150:151
+21	9	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=152:153
+22	mandados	mandado	NOUN	NOUN	_	19	obj	_	TokenRange=154:162
+23	prisao	prisao	ADJ	ADJ	_	22	amod	_	TokenRange=163:169
+24	agentes	agente	NOUN	NOUN	_	30	nsubj	_	TokenRange=170:177
+25	policia	policia	NOUN	NOUN	_	24	appos	_	TokenRange=178:185
+26	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=186:193
+27	ministerio	ministerio	NOUN	NOUN	_	24	appos	_	TokenRange=194:204
+28	publico	_	ADJ	ADJ	_	27	amod	_	TokenRange=205:212
+29	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=213:220
+30	realizam	realizar	VERB	VERB	_	11	conj	_	TokenRange=221:229
+31	operacao	operacao	NOUN	NOUN	_	30	obj	_	TokenRange=230:238
+32	cumprir	cumprir	VERB	VERB	_	31	acl:inf	_	TokenRange=239:246
+33	nove	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=247:251
+34	mandados	mandado	NOUN	NOUN	_	32	obj	_	TokenRange=252:260
+35	prisao	prisao	NOUN	NOUN	_	34	appos	_	TokenRange=261:267
+36	preventiva	preventivo	ADJ	ADJ	_	35	amod	_	TokenRange=268:278
+37	quatro	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=279:285
+38	conducoes	conducoe	NOUN	NOUN	_	30	nsubj	_	TokenRange=286:295
+39	coercitivas	coercitivo	ADJ	ADJ	_	38	amod	_	TokenRange=296:307
+40	operacao	operacao	NOUN	NOUN	_	38	appos	_	TokenRange=308:316
+41	eficiencia	_	NOUN	NOUN	_	38	appos	_	TokenRange=317:327
+42	desdobramento	desdobramento	NOUN	NOUN	_	38	appos	_	TokenRange=328:341
+43	lava	lava	NOUN	NOUN	_	38	appos	_	TokenRange=342:346
+44	jato	jato	NOUN	NOUN	_	43	flat	_	TokenRange=347:351
+45	rio	rio	NOUN	NOUN	_	43	appos	_	TokenRange=352:355
+46	janeiro	_	PROPN	PNOUN	_	45	flat	_	TokenRange=356:363
+47	manha	manha	NOUN	NOUN	_	43	appos	_	TokenRange=364:369
+48	desta	_	ADP	ADP	_	49	case	_	TokenRange=370:375
+49	quintafeira	quintafeira	NOUN	NOUN	_	47	nmod	_	TokenRange=376:387
+50	26	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=388:390
+51	principais	principal	ADJ	ADJ	_	52	amod	_	TokenRange=391:401
+52	alvos	alvo	NOUN	NOUN	_	11	nsubj	_	TokenRange=402:407
+53	mandados	mandar	VERB	VERB	_	52	acl	_	TokenRange=408:416
+54	prisao	prisao	NOUN	NOUN	_	53	nsubj	_	TokenRange=417:423
+55	expedidos	expedido	ADJ	ADJ	_	52	amod	_	TokenRange=424:433
+56	empresario	empresario	NOUN	NOUN	_	52	amod	_	TokenRange=434:444
+57	eike	_	NOUN	NOUN	_	56	appos	_	TokenRange=445:449
+58	batista	batista	ADJ	NOUN	_	57	flat	_	TokenRange=450:457
+59	dono	dono	ADJ	ADJ	_	57	amod	_	TokenRange=458:462
+60	grupo	grupo	NOUN	NOUN	_	57	appos	_	TokenRange=463:468
+61	ebx	_	NOUN	NOUN	_	60	appos	_	TokenRange=469:472
+62	segundo	_	ADJ	ADJ	_	63	amod	_	TokenRange=473:480
+63	advogado	advogado	NOUN	NOUN	_	66	nsubj	_	TokenRange=481:489
+64	fernando	_	PROPN	PNOUN	_	63	appos	_	TokenRange=490:498
+65	martins	_	ADJ	NOUN	_	64	flat	_	TokenRange=499:506
+66	diz	dizer	VERB	VERB	_	11	parataxis	_	TokenRange=507:510
+67	representar	representar	VERB	VERB	_	66	xcomp	_	TokenRange=511:522
+68	empresario	empresario	NOUN	NOUN	_	67	obj	_	TokenRange=523:533
+69	viajando	viajar	VERB	VERB	_	68	acl	_	TokenRange=534:542
+70	vivo	vivo	ADJ	ADJ	_	69	xcomp	_	TokenRange=543:547
+71	pf	_	X	X	_	69	obj	_	TokenRange=548:550
+72	mpf	_	NOUN	NOUN	_	69	obj	_	TokenRange=551:554
+73	detalham	detalhar	VERB	VERB	_	66	parataxis	_	TokenRange=555:563
+74	operacao	operacao	ADJ	ADJ	_	75	amod	_	TokenRange=564:572
+75	entrevista	entrevista	NOUN	NOUN	_	73	obj	_	TokenRange=573:583
+76	coletiva	coletivo	ADJ	ADJ	_	75	amod	_	TokenRange=584:592
+77	acordo	acordo	NOUN	NOUN	_	73	obj	_	TokenRange=593:599
+78	advogado	advogado	NOUN	NOUN	_	77	amod	_	SpaceAfter=No|TokenRange=600:608
+

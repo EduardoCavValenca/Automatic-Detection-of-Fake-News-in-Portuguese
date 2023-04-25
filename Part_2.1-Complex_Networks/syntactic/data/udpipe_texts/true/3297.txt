@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saiba politicos reagiram revisao meta fiscal governo equipe economica revisou deficit ano r 139 bilhoes r 159 bilhoes aliados temer governo correto verdadeiro oposicao fala falencia medidas economia governo federal anunciou nesta tercafeira 15 revisao meta fiscal deste ano deficit contas publicas alterado r 139 bilhoes r 159 bilhoes propor aumento meta
+1	saiba	saber	VERB	VERB	_	3	nsubj	_	TokenRange=0:5
+2	politicos	politico	NOUN	NOUN	_	1	nsubj	_	TokenRange=6:15
+3	reagiram	reagir	VERB	VERB	_	0	root	_	TokenRange=16:24
+4	revisao	revisao	ADJ	ADJ	_	5	amod	_	TokenRange=25:32
+5	meta	meta	NOUN	NOUN	_	3	obj	_	TokenRange=33:37
+6	fiscal	fiscal	ADJ	ADJ	_	5	amod	_	TokenRange=38:44
+7	governo	governo	NOUN	NOUN	_	5	amod	_	TokenRange=45:52
+8	equipe	equipe	NOUN	NOUN	_	5	appos	_	TokenRange=53:59
+9	economica	economico	ADJ	ADJ	_	8	amod	_	TokenRange=60:69
+10	revisou	revisar	VERB	VERB	_	3	parataxis	_	TokenRange=70:77
+11	deficit	deficit	NOUN	NOUN	_	10	obj	_	TokenRange=78:85
+12	ano	ano	NOUN	NOUN	_	11	flat	_	TokenRange=86:89
+13	r	r	NOUN	NOUN	_	15	flat	_	TokenRange=90:91
+14	139	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=92:95
+15	bilhoes	_	NOUN	NOUN	_	11	appos	_	TokenRange=96:103
+16	r	r	NOUN	NOUN	_	15	flat	_	TokenRange=104:105
+17	159	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=106:109
+18	bilhoes	_	NOUN	NOUN	_	15	appos	_	TokenRange=110:117
+19	aliados	aliado	NOUN	NOUN	_	20	nsubj	_	TokenRange=118:125
+20	temer	temer	VERB	VERB	_	11	acl:relcl	_	TokenRange=126:131
+21	governo	governo	NOUN	NOUN	_	20	obj	_	TokenRange=132:139
+22	correto	correto	ADJ	ADJ	_	21	amod	_	TokenRange=140:147
+23	verdadeiro	verdadeiro	ADJ	ADJ	_	24	amod	_	TokenRange=148:158
+24	oposicao	_	NOUN	NOUN	_	21	amod	_	TokenRange=159:167
+25	fala	_	VERB	VERB	_	3	parataxis	_	TokenRange=168:172
+26	falencia	falencia	NOUN	NOUN	_	25	obj	_	TokenRange=173:181
+27	medidas	medida	NOUN	NOUN	_	25	nsubj	_	TokenRange=182:189
+28	economia	economia	NOUN	NOUN	_	27	flat	_	TokenRange=190:198
+29	governo	governo	NOUN	NOUN	_	27	appos	_	TokenRange=199:206
+30	federal	federal	ADJ	ADJ	_	29	amod	_	TokenRange=207:214
+31	anunciou	anunciar	VERB	VERB	_	3	parataxis	_	TokenRange=215:223
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=224:229
+33	tercafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=230:240
+34	15	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=241:243
+35	revisao	revisao	VERB	VERB	_	31	xcomp	_	TokenRange=244:251
+36	meta	meta	NOUN	NOUN	_	35	obj	_	TokenRange=252:256
+37	fiscal	fiscal	ADJ	ADJ	_	36	amod	_	TokenRange=257:263
+38	deste	_	ADP	ADP	_	39	case	_	TokenRange=264:269
+39	ano	ano	NOUN	NOUN	_	36	nmod	_	TokenRange=270:273
+40	deficit	deficit	NOUN	NOUN	_	31	parataxis	_	TokenRange=274:281
+41	contas	conta	NOUN	NOUN	_	40	appos	_	TokenRange=282:288
+42	publicas	publico	ADJ	ADJ	_	41	amod	_	TokenRange=289:297
+43	alterado	alterado	ADJ	ADJ	_	41	amod	_	TokenRange=298:306
+44	r	r	NOUN	NOUN	_	46	punct	_	TokenRange=307:308
+45	139	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=309:312
+46	bilhoes	_	NOUN	NOUN	_	40	appos	_	TokenRange=313:320
+47	r	r	NOUN	NOUN	_	46	punct	_	TokenRange=321:322
+48	159	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=323:326
+49	bilhoes	bilhoe	NOUN	NOUN	_	50	nsubj	_	TokenRange=327:334
+50	propor	propor	VERB	VERB	_	40	parataxis	_	TokenRange=335:341
+51	aumento	aumento	NOUN	NOUN	_	50	obj	_	TokenRange=342:349
+52	meta	meta	NOUN	NOUN	_	51	flat	_	SpaceAfter=No|TokenRange=350:354
+

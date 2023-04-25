@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jovem invadiu alvorada sob custodia exercito veja imagens assim segurancas aproximaram acelerou veiculo derrubou portao seguiu dentro alvorada soldados exercito guarita abriu fogo disparou cerca 5 tiros calibre 12 atingiram carro abandonar veiculo jovem correu escondeu jardins palacio rapaz aparentava menor idade encontrado sob custodia exercito identidade ainda revelada
+1	jovem	jovem	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	invadiu	invadir	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	alvorada	alvorada	NOUN	NOUN	_	2	obj	_	TokenRange=14:22
+4	sob	_	ADP	ADP	_	5	case	_	TokenRange=23:26
+5	custodia	custodia	NOUN	NOUN	_	2	nmod	_	TokenRange=27:35
+6	exercito	exercito	NOUN	NOUN	_	7	nsubj	_	TokenRange=36:44
+7	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=45:49
+8	imagens	imagem	NOUN	NOUN	_	7	obj	_	TokenRange=50:57
+9	assim	assim	ADV	ADV	_	11	advmod	_	TokenRange=58:63
+10	segurancas	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=64:74
+11	aproximaram	aproximar	VERB	VERB	_	8	acl:relcl	_	TokenRange=75:86
+12	acelerou	acelerar	VERB	VERB	_	11	xcomp	_	TokenRange=87:95
+13	veiculo	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=96:103
+14	derrubou	derrubar	VERB	VERB	_	12	conj	_	TokenRange=104:112
+15	portao	_	NOUN	NOUN	_	14	obj	_	TokenRange=113:119
+16	seguiu	seguir	VERB	VERB	_	14	conj	_	TokenRange=120:126
+17	dentro	dentro	ADV	ADV	_	16	advmod	_	TokenRange=127:133
+18	alvorada	alvorada	NOUN	NOUN	_	16	nsubj	_	TokenRange=134:142
+19	soldados	soldado	NOUN	NOUN	_	16	nsubj	_	TokenRange=143:151
+20	exercito	exercito	ADJ	NOUN	_	19	amod	_	TokenRange=152:160
+21	guarita	guarita	ADJ	NOUN	_	19	amod	_	TokenRange=161:168
+22	abriu	abrir	VERB	VERB	_	16	conj	_	TokenRange=169:174
+23	fogo	fogo	NOUN	NOUN	_	22	obj	_	TokenRange=175:179
+24	disparou	disparar	VERB	VERB	_	22	conj	_	TokenRange=180:188
+25	cerca	cerca	ADV	ADV	_	26	advmod	_	TokenRange=189:194
+26	5	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=195:196
+27	tiros	tiro	NOUN	NOUN	_	24	obj	_	TokenRange=197:202
+28	calibre	calibre	NOUN	NOUN	_	27	appos	_	TokenRange=203:210
+29	12	_	NUM	NUM	NumType=Card	28	appos	_	TokenRange=211:213
+30	atingiram	atingir	VERB	VERB	_	24	parataxis	_	TokenRange=214:223
+31	carro	carro	NOUN	NOUN	_	30	obj	_	TokenRange=224:229
+32	abandonar	abandonar	VERB	VERB	_	30	ccomp	_	TokenRange=230:239
+33	veiculo	veiculo	NOUN	NOUN	_	32	obj	_	TokenRange=240:247
+34	jovem	jovem	ADJ	ADJ	_	33	amod	_	TokenRange=248:253
+35	correu	correr	VERB	VERB	_	36	nsubj	_	TokenRange=254:260
+36	escondeu	esconder	VERB	VERB	_	30	conj	_	TokenRange=261:269
+37	jardins	jardim	NOUN	NOUN	_	36	obj	_	TokenRange=270:277
+38	palacio	palacio	NOUN	NOUN	_	37	flat	_	TokenRange=278:285
+39	rapaz	rapaz	NOUN	NOUN	_	37	flat	_	TokenRange=286:291
+40	aparentava	aparentar	VERB	VERB	_	2	conj	_	TokenRange=292:302
+41	menor	menor	ADJ	ADJ	_	42	amod	_	TokenRange=303:308
+42	idade	idade	NOUN	NOUN	_	40	obj	_	TokenRange=309:314
+43	encontrado	encontrar	VERB	VERB	_	42	acl	_	TokenRange=315:325
+44	sob	_	ADP	ADP	_	45	case	_	TokenRange=326:329
+45	custodia	custodia	NOUN	NOUN	_	43	nmod	_	TokenRange=330:338
+46	exercito	exercito	ADJ	ADJ	_	47	amod	_	TokenRange=339:347
+47	identidade	identidade	NOUN	NOUN	_	40	obj	_	TokenRange=348:358
+48	ainda	ainda	ADV	ADV	_	49	advmod	_	TokenRange=359:364
+49	revelada	revelar	VERB	VERB	_	47	acl	_	SpaceAfter=No|TokenRange=365:373
+

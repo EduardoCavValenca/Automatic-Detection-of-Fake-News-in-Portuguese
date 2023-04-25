@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renata lo prete titular jornal globo heraldo pereira jornal dez comunicado interno emissora anunciou substituta william waack novo apresentador jornal globonews tv globo anunciou nesta sextafeira 22 mudancas jornal globo apresentacao jornal dez programa painel globonews segue abaixo comunicado divulgado emissora dois importantes telejornais novos apresentadores renata lo prete vinha apresentando jornal globo interina passa imediatamente apos natal
+1	renata	renata	NOUN	NOUN	_	14	nsubj	_	TokenRange=0:6
+2	lo	_	DET	DET	_	3	det	_	TokenRange=7:9
+3	prete	prete	NOUN	NOUN	_	1	appos	_	TokenRange=10:15
+4	titular	titular	ADJ	ADJ	_	1	amod	_	TokenRange=16:23
+5	jornal	jornal	NOUN	NOUN	_	1	appos	_	TokenRange=24:30
+6	globo	globo	NOUN	NOUN	_	5	amod	_	TokenRange=31:36
+7	heraldo	heraldo	NOUN	NOUN	_	5	appos	_	TokenRange=37:44
+8	pereira	_	ADJ	ADJ	_	7	amod	_	TokenRange=45:52
+9	jornal	jornal	NOUN	NOUN	_	1	appos	_	TokenRange=53:59
+10	dez	_	NUM	NUM	NumType=Card	11	appos	_	TokenRange=60:63
+11	comunicado	comunicado	NOUN	NOUN	_	5	appos	_	TokenRange=64:74
+12	interno	interno	ADJ	ADJ	_	11	amod	_	TokenRange=75:82
+13	emissora	_	NOUN	NOUN	_	11	appos	_	TokenRange=83:91
+14	anunciou	anunciar	VERB	VERB	_	0	root	_	TokenRange=92:100
+15	substituta	substituta	NOUN	NOUN	_	14	obj	_	TokenRange=101:111
+16	william	_	NOUN	NOUN	_	15	appos	_	TokenRange=112:119
+17	waack	_	PROPN	PNOUN	_	16	flat	_	TokenRange=120:125
+18	novo	novo	ADJ	ADJ	_	19	amod	_	TokenRange=126:130
+19	apresentador	apresentador	NOUN	NOUN	_	15	appos	_	TokenRange=131:143
+20	jornal	jornal	NOUN	NOUN	_	19	appos	_	TokenRange=144:150
+21	globonews	_	NOUN	NOUN	_	20	amod	_	TokenRange=151:160
+22	tv	_	NOUN	NOUN	_	19	appos	_	TokenRange=161:163
+23	globo	globo	NOUN	NOUN	_	22	flat	_	TokenRange=164:169
+24	anunciou	anunciar	VERB	VERB	_	14	parataxis	_	TokenRange=170:178
+25	nesta	_	ADP	ADP	_	26	case	_	TokenRange=179:184
+26	sextafeira	_	NOUN	NOUN	_	24	nmod	_	TokenRange=185:195
+27	22	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=196:198
+28	mudancas	mudanca	NOUN	NOUN	_	24	obj	_	TokenRange=199:207
+29	jornal	jornal	NOUN	NOUN	_	24	nsubj	_	TokenRange=208:214
+30	globo	globo	NOUN	NOUN	_	29	amod	_	TokenRange=215:220
+31	apresentacao	apresentacao	ADJ	NOUN	_	29	amod	_	TokenRange=221:233
+32	jornal	jornal	NOUN	NOUN	_	29	appos	_	TokenRange=234:240
+33	dez	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=241:244
+34	programa	programa	NOUN	NOUN	_	32	appos	_	TokenRange=245:253
+35	painel	painel	ADJ	ADJ	_	34	amod	_	TokenRange=254:260
+36	globonews	_	NOUN	NOUN	_	34	appos	_	TokenRange=261:270
+37	segue	_	VERB	VERB	_	24	parataxis	_	TokenRange=271:276
+38	abaixo	abaixo	ADV	ADV	_	37	advmod	_	TokenRange=277:283
+39	comunicado	comunicado	NOUN	NOUN	_	37	nsubj	_	TokenRange=284:294
+40	divulgado	divulgado	ADJ	ADJ	_	39	amod	_	TokenRange=295:304
+41	emissora	_	NOUN	NOUN	_	39	appos	_	TokenRange=305:313
+42	dois	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=314:318
+43	importantes	importante	ADJ	ADJ	_	44	amod	_	TokenRange=319:330
+44	telejornais	telejornal	NOUN	NOUN	_	51	nsubj	_	TokenRange=331:342
+45	novos	novo	ADJ	ADJ	_	44	amod	_	TokenRange=343:348
+46	apresentadores	apresentador	NOUN	NOUN	_	44	appos	_	TokenRange=349:363
+47	renata	renata	NOUN	NOUN	_	44	appos	_	TokenRange=364:370
+48	lo	_	DET	DET	_	49	det	_	TokenRange=371:373
+49	prete	_	NOUN	NOUN	_	47	appos	_	TokenRange=374:379
+50	vinha	vir	AUX	AUX	_	51	aux	_	TokenRange=380:385
+51	apresentando	apresentar	VERB	VERB	_	24	parataxis	_	TokenRange=386:398
+52	jornal	jornal	NOUN	NOUN	_	51	obj	_	TokenRange=399:405
+53	globo	globo	NOUN	NOUN	_	52	flat	_	TokenRange=406:411
+54	interina	interino	ADJ	ADJ	_	52	amod	_	TokenRange=412:420
+55	passa	passar	VERB	VERB	_	37	parataxis	_	TokenRange=421:426
+56	imediatamente	imediatamente	ADV	ADV	_	55	advmod	_	TokenRange=427:440
+57	apos	_	ADP	ADP	_	58	case	_	TokenRange=441:445
+58	natal	_	PROPN	PNOUN	_	55	nmod	_	SpaceAfter=No|TokenRange=446:451
+

@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = grande goiania 30 postos falta combustivel causa protesto contra alta precos diz sindicato grupo bloqueia entradas distribuidoras desde madrugada segundafeira 13 postos sendo reabastecidos protesto contra aumento preco combustiveis continua bloquear entrada distribuidoras grande goiania manha desta tercafeira 14 acordo informacoes sindicato comercio varejista derivados petroleo estado goias sindiposto manifestacao faz menos 30 252 postos trabalhem falta algum tipo combustivel atender clientes ato comecou madrugada segundafeira 13 bloqueou
+1	grande	grande	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	goiania	goiania	NOUN	NOUN	_	5	nsubj	_	TokenRange=7:14
+3	30	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=15:17
+4	postos	posto	NOUN	NOUN	_	5	nsubj	_	TokenRange=18:24
+5	falta	_	VERB	VERB	_	0	root	_	TokenRange=25:30
+6	combustivel	combustivel	NOUN	NOUN	_	5	obj	_	TokenRange=31:42
+7	causa	causa	NOUN	NOUN	_	8	amod	_	TokenRange=43:48
+8	protesto	protesto	NOUN	NOUN	_	5	nsubj	_	TokenRange=49:57
+9	contra	_	ADP	ADP	_	11	case	_	TokenRange=58:64
+10	alta	alto	ADJ	ADJ	_	11	amod	_	TokenRange=65:69
+11	precos	preco	NOUN	NOUN	_	8	nmod	_	TokenRange=70:76
+12	diz	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=77:80
+13	sindicato	sindicato	NOUN	NOUN	_	15	nsubj	_	TokenRange=81:90
+14	grupo	grupo	NOUN	NOUN	_	13	flat	_	TokenRange=91:96
+15	bloqueia	bloquer	VERB	VERB	_	12	ccomp	_	TokenRange=97:105
+16	entradas	entrada	NOUN	NOUN	_	15	obj	_	TokenRange=106:114
+17	distribuidoras	distribuidor	ADJ	ADJ	_	16	amod	_	TokenRange=115:129
+18	desde	_	ADP	ADP	_	19	case	_	TokenRange=130:135
+19	madrugada	madrugada	NOUN	NOUN	_	15	nmod	_	TokenRange=136:145
+20	segundafeira	_	ADJ	ADJ	_	19	amod	_	TokenRange=146:158
+21	13	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=159:161
+22	postos	posto	NOUN	NOUN	_	31	nsubj	_	TokenRange=162:168
+23	sendo	ser	AUX	AUX	_	24	aux:pass	_	TokenRange=169:174
+24	reabastecidos	reabastecer	VERB	VERB	_	22	acl	_	TokenRange=175:188
+25	protesto	protesto	NOUN	NOUN	_	24	nsubj:pass	_	TokenRange=189:197
+26	contra	_	ADP	ADP	_	27	case	_	TokenRange=198:204
+27	aumento	aumento	NOUN	NOUN	_	25	nmod	_	TokenRange=205:212
+28	preco	preco	NOUN	NOUN	_	27	flat	_	TokenRange=213:218
+29	combustiveis	combustivel	NOUN	NOUN	_	27	amod	_	TokenRange=219:231
+30	continua	continuar	AUX	AUX	_	31	aux	_	TokenRange=232:240
+31	bloquear	bloquear	VERB	VERB	_	15	conj	_	TokenRange=241:249
+32	entrada	entrada	NOUN	NOUN	_	31	obj	_	TokenRange=250:257
+33	distribuidoras	distribuidor	ADJ	ADJ	_	32	amod	_	TokenRange=258:272
+34	grande	grande	ADJ	ADJ	_	35	amod	_	TokenRange=273:279
+35	goiania	goiania	NOUN	NOUN	_	31	parataxis	_	TokenRange=280:287
+36	manha	manha	NOUN	NOUN	_	31	nmod	_	TokenRange=288:293
+37	desta	_	ADP	ADP	_	38	case	_	TokenRange=294:299
+38	tercafeira	tercafeira	NOUN	NOUN	_	36	nmod	_	TokenRange=300:310
+39	14	_	NUM	NUM	NumType=Card	38	nmod	_	TokenRange=311:313
+40	acordo	acordo	NOUN	NOUN	_	31	nsubj	_	TokenRange=314:320
+41	informacoes	_	NOUN	NOUN	_	40	appos	_	TokenRange=321:332
+42	sindicato	sindicato	NOUN	NOUN	_	40	appos	_	TokenRange=333:342
+43	comercio	comercio	NOUN	NOUN	_	40	appos	_	TokenRange=343:351
+44	varejista	varejista	ADJ	ADJ	_	43	amod	_	TokenRange=352:361
+45	derivados	derivado	ADJ	ADJ	_	43	amod	_	TokenRange=362:371
+46	petroleo	petroleo	NOUN	NOUN	_	43	appos	_	TokenRange=372:380
+47	estado	estado	NOUN	NOUN	_	46	appos	_	TokenRange=381:387
+48	goias	goia	ADJ	ADJ	_	47	amod	_	TokenRange=388:393
+49	sindiposto	sindiposto	ADJ	ADJ	_	50	amod	_	TokenRange=394:404
+50	manifestacao	manifestacao	NOUN	NOUN	_	51	nsubj	_	TokenRange=405:417
+51	faz	fazer	VERB	VERB	_	12	parataxis	_	TokenRange=418:421
+52	menos	menos	ADV	ADV	_	54	advmod	_	TokenRange=422:427
+53	30	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=428:430
+54	252	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=431:434
+55	postos	posto	NOUN	NOUN	_	56	obj	_	TokenRange=435:441
+56	trabalhem	trabalhar	VERB	VERB	_	51	parataxis	_	TokenRange=442:451
+57	falta	_	NOUN	NOUN	_	56	obj	_	TokenRange=452:457
+58	algum	_	DET	DET	_	59	det	_	TokenRange=458:463
+59	tipo	tipo	NOUN	NOUN	_	56	nsubj	_	TokenRange=464:468
+60	combustivel	combustivel	ADJ	ADJ	_	59	amod	_	TokenRange=469:480
+61	atender	atender	VERB	VERB	_	59	acl:inf	_	TokenRange=481:488
+62	clientes	cliente	NOUN	NOUN	_	61	obj	_	TokenRange=489:497
+63	ato	ato	NOUN	NOUN	_	64	nsubj	_	TokenRange=498:501
+64	comecou	comecar	VERB	VERB	_	59	acl:relcl	_	TokenRange=502:509
+65	madrugada	madrugada	NOUN	NOUN	_	68	obj	_	TokenRange=510:519
+66	segundafeira	_	NOUN	ADJ	_	65	appos	_	TokenRange=520:532
+67	13	_	NUM	NUM	NumType=Card	65	appos	_	TokenRange=533:535
+68	bloqueou	bloquear	VERB	VERB	_	64	parataxis	_	SpaceAfter=No|TokenRange=536:544
+

@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exgovernador ceara cid gomes pdt afirmou discurso ontem sobral festa aniversario envolvido esquema corrupcao petrobras ministro stf teori zavascki relata lava jato corno procuradorgeral republica rodrigo janot ladrao juiz sergio moro atua investigacoes primeira instancia picareta nome cid gomes aparece lista apreendida lava jato sede odebrecht sob investigacao stfcid aparece lado valor r 200 mil codinome falso ouca audio
+1	exgovernador	exgovernador	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:12
+2	ceara	ceara	NOUN	NOUN	_	1	appos	_	TokenRange=13:18
+3	cid	_	NOUN	NOUN	_	1	appos	_	TokenRange=19:22
+4	gomes	gome	NOUN	NOUN	_	3	flat	_	TokenRange=23:28
+5	pdt	_	NOUN	NOUN	_	3	flat	_	TokenRange=29:32
+6	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=33:40
+7	discurso	discurso	NOUN	NOUN	_	6	obj	_	TokenRange=41:49
+8	ontem	ontem	ADV	ADV	_	9	advmod	_	TokenRange=50:55
+9	sobral	sobral	ADJ	ADJ	_	10	amod	_	TokenRange=56:62
+10	festa	festa	NOUN	NOUN	_	6	nmod	_	TokenRange=63:68
+11	aniversario	aniversario	NOUN	NOUN	_	10	flat	_	TokenRange=69:80
+12	envolvido	envolver	VERB	VERB	_	1	acl	_	TokenRange=81:90
+13	esquema	esquema	NOUN	NOUN	_	12	obj	_	TokenRange=91:98
+14	corrupcao	corrupcao	ADJ	NOUN	_	13	amod	_	TokenRange=99:108
+15	petrobras	petrobra	ADJ	ADJ	_	16	amod	_	TokenRange=109:118
+16	ministro	ministro	NOUN	NOUN	_	13	appos	_	TokenRange=119:127
+17	stf	_	NOUN	NOUN	_	16	appos	_	TokenRange=128:131
+18	teori	_	NOUN	NOUN	_	16	appos	_	TokenRange=132:137
+19	zavascki	_	PROPN	PNOUN	_	18	flat	_	TokenRange=138:146
+20	relata	relatar	VERB	VERB	_	6	parataxis	_	TokenRange=147:153
+21	lava	lava	NOUN	NOUN	_	20	obj	_	TokenRange=154:158
+22	jato	jato	NOUN	NOUN	_	21	flat	_	TokenRange=159:163
+23	corno	corno	NOUN	NOUN	_	21	appos	_	TokenRange=164:169
+24	procuradorgeral	procuradorgeral	NOUN	NOUN	_	21	amod	_	TokenRange=170:185
+25	republica	republico	ADJ	ADJ	_	24	amod	_	TokenRange=186:195
+26	rodrigo	rodrigo	NOUN	NOUN	_	21	appos	_	TokenRange=196:203
+27	janot	_	NOUN	NOUN	_	26	flat	_	TokenRange=204:209
+28	ladrao	ladrao	ADJ	ADJ	_	29	amod	_	TokenRange=210:216
+29	juiz	juiz	NOUN	NOUN	_	26	appos	_	TokenRange=217:221
+30	sergio	sergio	NOUN	NOUN	_	29	appos	_	TokenRange=222:228
+31	moro	moro	NOUN	NOUN	_	26	flat	_	TokenRange=229:233
+32	atua	_	VERB	VERB	_	6	parataxis	_	TokenRange=234:238
+33	investigacoes	investigacoe	NOUN	NOUN	_	32	obj	_	TokenRange=239:252
+34	primeira	primeiro	ADJ	ADJ	_	35	amod	_	TokenRange=253:261
+35	instancia	instancia	NOUN	NOUN	_	32	obj	_	TokenRange=262:271
+36	picareta	picareto	ADJ	ADJ	_	35	amod	_	TokenRange=272:280
+37	nome	nome	NOUN	NOUN	_	40	nsubj	_	TokenRange=281:285
+38	cid	_	NOUN	NOUN	_	37	appos	_	TokenRange=286:289
+39	gomes	gome	NOUN	NOUN	_	38	flat	_	TokenRange=290:295
+40	aparece	aparecer	VERB	VERB	_	6	parataxis	_	TokenRange=296:303
+41	lista	lista	NOUN	NOUN	_	40	obj	_	TokenRange=304:309
+42	apreendida	apreendido	ADJ	ADJ	_	41	amod	_	TokenRange=310:320
+43	lava	lava	NOUN	NOUN	_	41	appos	_	TokenRange=321:325
+44	jato	jato	NOUN	NOUN	_	43	flat	_	TokenRange=326:330
+45	sede	sede	NOUN	NOUN	_	43	appos	_	TokenRange=331:335
+46	odebrecht	_	NOUN	NOUN	_	45	appos	_	TokenRange=336:345
+47	sob	_	ADP	ADP	_	48	case	_	TokenRange=346:349
+48	investigacao	investigacao	NOUN	NOUN	_	45	nmod	_	TokenRange=350:362
+49	stfcid	_	NOUN	NOUN	_	48	appos	_	TokenRange=363:369
+50	aparece	aparecer	VERB	VERB	_	40	parataxis	_	TokenRange=370:377
+51	lado	lado	NOUN	NOUN	_	50	nsubj	_	TokenRange=378:382
+52	valor	valor	NOUN	NOUN	_	51	appos	_	TokenRange=383:388
+53	r	r	NOUN	NOUN	_	56	flat	_	TokenRange=389:390
+54	200	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=391:394
+55	mil	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=395:398
+56	codinome	codinome	NOUN	NOUN	_	51	appos	_	TokenRange=399:407
+57	falso	falso	ADJ	ADJ	_	56	amod	_	TokenRange=408:413
+58	ouca	_	DET	DET	_	59	appos	_	TokenRange=414:418
+59	audio	audio	NOUN	NOUN	_	56	appos	_	SpaceAfter=No|TokenRange=419:424
+

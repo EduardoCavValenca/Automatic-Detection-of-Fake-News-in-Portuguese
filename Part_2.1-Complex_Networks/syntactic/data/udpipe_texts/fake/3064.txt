@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = juiza suspende posse lula casa civil juiza disse tirar processo contra lula juiz federal sergio moro fere morte sistema juridico regina coeli formisano 6 vara justica federal rio deferiu nova liminar suspende posse lula ministro casa civil juiza considerou decisao fogem realidade insinuacoes nomeacao lula objetivo blindar expresidente evitar julgado juiz sergio moro conduz operacao lava jato
+1	juiza	juiza	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	suspende	suspender	VERB	VERB	_	0	root	_	TokenRange=6:14
+3	posse	posse	NOUN	NOUN	_	2	obj	_	TokenRange=15:20
+4	lula	lulo	ADJ	ADJ	_	3	amod	_	TokenRange=21:25
+5	casa	casa	NOUN	NOUN	_	2	nsubj	_	TokenRange=26:30
+6	civil	civil	ADJ	ADJ	_	5	amod	_	TokenRange=31:36
+7	juiza	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=37:42
+8	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=43:48
+9	tirar	tirar	VERB	VERB	_	8	xcomp	_	TokenRange=49:54
+10	processo	processo	NOUN	NOUN	_	9	obj	_	TokenRange=55:63
+11	contra	_	ADP	ADP	_	12	case	_	TokenRange=64:70
+12	lula	_	NOUN	NOUN	_	10	nmod	_	TokenRange=71:75
+13	juiz	juiz	NOUN	NOUN	_	18	appos	_	TokenRange=76:80
+14	federal	federal	ADJ	ADJ	_	13	amod	_	TokenRange=81:88
+15	sergio	sergio	NOUN	NOUN	_	13	appos	_	TokenRange=89:95
+16	moro	moro	NOUN	NOUN	_	15	flat	_	TokenRange=96:100
+17	fere	_	VERB	VERB	_	18	acl:relcl	_	TokenRange=101:105
+18	morte	morte	NOUN	NOUN	_	8	obj	_	TokenRange=106:111
+19	sistema	sistema	NOUN	NOUN	_	18	appos	_	TokenRange=112:119
+20	juridico	juridico	ADJ	ADJ	_	19	amod	_	TokenRange=120:128
+21	regina	regina	NOUN	NOUN	_	18	appos	_	TokenRange=129:135
+22	coeli	_	NOUN	NOUN	_	21	flat	_	TokenRange=136:141
+23	formisano	formisano	NOUN	NOUN	_	21	flat	_	TokenRange=142:151
+24	6	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=152:153
+25	vara	vara	NOUN	NOUN	_	21	appos	_	TokenRange=154:158
+26	justica	_	NOUN	NOUN	_	25	appos	_	TokenRange=159:166
+27	federal	federal	ADJ	ADJ	_	25	amod	_	TokenRange=167:174
+28	rio	rio	NOUN	NOUN	_	25	appos	_	TokenRange=175:178
+29	deferiu	deferiu	NOUN	NOUN	_	25	flat	_	TokenRange=179:186
+30	nova	novo	ADJ	ADJ	_	31	amod	_	TokenRange=187:191
+31	liminar	liminar	NOUN	NOUN	_	32	nsubj	_	TokenRange=192:199
+32	suspende	suspender	VERB	VERB	_	2	conj	_	TokenRange=200:208
+33	posse	posse	NOUN	NOUN	_	32	obj	_	TokenRange=209:214
+34	lula	lula	ADJ	ADJ	_	35	amod	_	TokenRange=215:219
+35	ministro	ministro	NOUN	NOUN	_	39	nsubj	_	TokenRange=220:228
+36	casa	casa	NOUN	NOUN	_	35	appos	_	TokenRange=229:233
+37	civil	civil	ADJ	ADJ	_	36	amod	_	TokenRange=234:239
+38	juiza	juiza	NOUN	NOUN	_	39	nsubj	_	TokenRange=240:245
+39	considerou	considerar	VERB	VERB	_	2	parataxis	_	TokenRange=246:256
+40	decisao	decisao	NOUN	NOUN	_	39	obj	_	TokenRange=257:264
+41	fogem	_	ADV	ADV	_	42	advmod	_	TokenRange=265:270
+42	realidade	realidade	NOUN	NOUN	_	39	obj	_	TokenRange=271:280
+43	insinuacoes	_	ADJ	ADJ	_	42	amod	_	TokenRange=281:292
+44	nomeacao	nomeacao	NOUN	NOUN	_	39	nsubj	_	TokenRange=293:301
+45	lula	lula	NOUN	NOUN	_	44	amod	_	TokenRange=302:306
+46	objetivo	objetivo	NOUN	NOUN	_	54	nsubj	_	TokenRange=307:315
+47	blindar	blindar	VERB	VERB	_	46	acl:inf	_	TokenRange=316:323
+48	expresidente	expresidente	NOUN	NOUN	_	49	obj	_	TokenRange=324:336
+49	evitar	evitar	VERB	VERB	_	47	ccomp	_	TokenRange=337:343
+50	julgado	julgado	ADJ	ADJ	_	51	amod	_	TokenRange=344:351
+51	juiz	juiz	NOUN	NOUN	_	49	obj	_	TokenRange=352:356
+52	sergio	sergio	ADJ	ADJ	_	51	amod	_	TokenRange=357:363
+53	moro	moro	NOUN	NOUN	_	52	flat	_	TokenRange=364:368
+54	conduz	conduzir	VERB	VERB	_	39	parataxis	_	TokenRange=369:375
+55	operacao	operacao	NOUN	NOUN	_	54	obj	_	TokenRange=376:384
+56	lava	lava	NOUN	NOUN	_	55	flat	_	TokenRange=385:389
+57	jato	jato	NOUN	NOUN	_	56	flat	_	SpaceAfter=No|TokenRange=390:394
+

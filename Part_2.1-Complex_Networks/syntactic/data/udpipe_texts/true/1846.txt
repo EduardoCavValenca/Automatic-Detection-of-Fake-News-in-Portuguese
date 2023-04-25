@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = entenda denuncia contra temer organizacao criminosa obstrucao justica relatorio recomenda rejeicao acusacao lido nesta tercafeira 24 plenario camara previsao votacao realizada quarta deputados denuncia apresentada setembro contra presidente michel temer lida nesta terca 24 votada nesta quarta 25 camara diz passou exercer papel lider organizacao criminosa maio ano passado assumiu interinamente governo apos afastamento expresidente dilma rousseff segundo procuradoria geral
+1	entenda	entender	VERB	VERB	_	0	root	_	TokenRange=0:7
+2	denuncia	denuncia	NOUN	NOUN	_	1	obj	_	TokenRange=8:16
+3	contra	_	ADP	ADP	_	4	case	_	TokenRange=17:23
+4	temer	temer	NOUN	NOUN	_	2	nmod	_	TokenRange=24:29
+5	organizacao	organizacao	NOUN	NOUN	_	2	appos	_	TokenRange=30:41
+6	criminosa	criminoso	ADJ	ADJ	_	5	amod	_	TokenRange=42:51
+7	obstrucao	_	NOUN	NOUN	_	5	amod	_	TokenRange=52:61
+8	justica	justico	ADJ	ADJ	_	9	amod	_	TokenRange=62:69
+9	relatorio	relatorio	NOUN	NOUN	_	10	nsubj	_	TokenRange=70:79
+10	recomenda	recomendar	VERB	VERB	_	2	acl:relcl	_	TokenRange=80:89
+11	rejeicao	rejeicao	NOUN	NOUN	_	10	obj	_	TokenRange=90:98
+12	acusacao	acusacao	NOUN	NOUN	_	11	flat	_	TokenRange=99:107
+13	lido	ler	VERB	VERB	_	11	acl	_	TokenRange=108:112
+14	nesta	_	ADP	ADP	_	15	case	_	TokenRange=113:118
+15	tercafeira	_	NOUN	NOUN	_	13	nmod	_	TokenRange=119:129
+16	24	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=130:132
+17	plenario	plenario	NOUN	NOUN	_	15	appos	_	TokenRange=133:141
+18	camara	camara	NOUN	NOUN	_	17	appos	_	TokenRange=142:148
+19	previsao	previsao	ADJ	ADJ	_	18	amod	_	TokenRange=149:157
+20	votacao	votacao	NOUN	NOUN	_	18	appos	_	TokenRange=158:165
+21	realizada	realizar	VERB	VERB	_	20	acl	_	TokenRange=166:175
+22	quarta	_	ADJ	ADJ	_	23	amod	_	TokenRange=176:182
+23	deputados	deputado	NOUN	NOUN	_	21	nsubj	_	TokenRange=183:192
+24	denuncia	denuncia	NOUN	NOUN	_	20	appos	_	TokenRange=193:201
+25	apresentada	apresentar	VERB	VERB	_	24	acl	_	TokenRange=202:213
+26	setembro	_	PROPN	PNOUN	_	25	nsubj	_	TokenRange=214:222
+27	contra	_	ADP	ADP	_	28	case	_	TokenRange=223:229
+28	presidente	presidente	NOUN	NOUN	_	24	nmod	_	TokenRange=230:240
+29	michel	michel	ADJ	ADJ	_	28	amod	_	TokenRange=241:247
+30	temer	temer	NOUN	NOUN	_	28	appos	_	TokenRange=248:253
+31	lida	ler	VERB	VERB	_	24	acl	_	TokenRange=254:258
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=259:264
+33	terca	terca	NOUN	NOUN	_	31	nmod	_	TokenRange=265:270
+34	24	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=271:273
+35	votada	votar	VERB	VERB	_	24	acl	_	TokenRange=274:280
+36	nesta	_	ADP	ADP	_	39	case	_	TokenRange=281:286
+37	quarta	_	ADJ	ADJ	_	39	amod	_	TokenRange=287:293
+38	25	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=294:296
+39	camara	camara	NOUN	NOUN	_	35	nmod	_	TokenRange=297:303
+40	diz	dizer	VERB	VERB	_	1	parataxis	_	TokenRange=304:307
+41	passou	passar	AUX	AUX	_	40	aux	_	TokenRange=308:314
+42	exercer	exercer	VERB	VERB	_	40	ccomp	_	TokenRange=315:322
+43	papel	papel	NOUN	NOUN	_	42	obj	_	TokenRange=323:328
+44	lider	lider	ADJ	ADJ	_	43	amod	_	TokenRange=329:334
+45	organizacao	organizacao	NOUN	NOUN	_	43	appos	_	TokenRange=335:346
+46	criminosa	criminoso	ADJ	ADJ	_	45	amod	_	TokenRange=347:356
+47	maio	_	ADJ	ADJ	_	48	amod	_	TokenRange=357:361
+48	ano	ano	NOUN	NOUN	_	45	nmod	_	TokenRange=362:365
+49	passado	passado	ADJ	ADJ	_	48	amod	_	TokenRange=366:373
+50	assumiu	assumir	VERB	VERB	_	40	parataxis	_	TokenRange=374:381
+51	interinamente	interinamente	ADV	ADV	_	50	advmod	_	TokenRange=382:395
+52	governo	governo	NOUN	NOUN	_	50	obj	_	TokenRange=396:403
+53	apos	_	ADP	ADP	_	54	case	_	TokenRange=404:408
+54	afastamento	afastamento	NOUN	NOUN	_	50	nmod	_	TokenRange=409:420
+55	expresidente	expresidente	NOUN	NOUN	_	54	amod	_	TokenRange=421:433
+56	dilma	dilma	ADJ	ADJ	_	54	amod	_	TokenRange=434:439
+57	rousseff	rousseff	NOUN	NOUN	_	56	flat	_	TokenRange=440:448
+58	segundo	_	ADP	ADP	_	59	case	_	TokenRange=449:456
+59	procuradoria	procuradoria	NOUN	NOUN	_	50	nmod	_	TokenRange=457:469
+60	geral	geral	ADJ	ADJ	_	59	amod	_	SpaceAfter=No|TokenRange=470:475
+

@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogado internacional lula custou fortuna dorme durante julgamento trf4 nana nenem cuca vai pegar papai pra roca m amae passear advogado australiano geoffrey ronald robertson estrela mundo juridico defender lula onu robertson faturou alguns milhares dolares empresa fatura algo torno 120 milhoes dolares ano honorarios advocaticios custam bagatela 13 mil dolares dia cabeleira impecavel vestindo terno armani adevogado compareceu julgamento recurso lula trf4 dr geoffrey apos recebido saco dinheiro acompanhar cliente decidiu dormir durante alguns momentos sessao causa perdida vamos falar verdade gostaria ficar rico dormindo
+1	advogado	advogado	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	internacional	internacional	ADJ	ADJ	_	1	amod	_	TokenRange=9:22
+3	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=23:27
+4	custou	custar	VERB	VERB	_	0	root	_	TokenRange=28:34
+5	fortuna	fortuna	NOUN	NOUN	_	4	obj	_	TokenRange=35:42
+6	dorme	dorme	NOUN	NOUN	_	4	obj	_	TokenRange=43:48
+7	durante	_	ADP	ADP	_	8	case	_	TokenRange=49:56
+8	julgamento	julgamento	NOUN	NOUN	_	4	nmod	_	TokenRange=57:67
+9	trf4	_	NOUN	NOUN	_	8	appos	_	TokenRange=68:72
+10	nana	_	NOUN	NOUN	_	8	appos	_	TokenRange=73:77
+11	nenem	_	NOUN	NOUN	_	10	flat	_	TokenRange=78:83
+12	cuca	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=84:88
+13	vai	ir	AUX	AUX	_	14	aux	_	TokenRange=89:92
+14	pegar	pegar	VERB	VERB	_	4	conj	_	TokenRange=93:98
+15	papai	papai	NOUN	NOUN	_	14	obj	_	TokenRange=99:104
+16	pra	_	ADP	ADP	_	17	case	_	TokenRange=105:108
+17	roca	roca	NOUN	NOUN	_	14	nmod	_	TokenRange=109:113
+18	m	_	NOUN	NOUN	_	20	mark	_	TokenRange=114:115
+19	amae	_	VERB	VERB	_	20	conj	_	TokenRange=116:120
+20	passear	passear	VERB	VERB	_	14	conj	_	TokenRange=121:128
+21	advogado	advogado	NOUN	NOUN	_	20	obj	_	TokenRange=129:137
+22	australiano	australiano	ADJ	ADJ	_	21	amod	_	TokenRange=138:149
+23	geoffrey	geoffrey	NOUN	NOUN	_	21	appos	_	TokenRange=150:158
+24	ronald	_	NOUN	NOUN	_	21	appos	_	TokenRange=159:165
+25	robertson	_	NOUN	NOUN	_	24	flat	_	TokenRange=166:175
+26	estrela	estrela	NOUN	NOUN	_	27	amod	_	TokenRange=176:183
+27	mundo	mundo	NOUN	NOUN	_	24	appos	_	TokenRange=184:189
+28	juridico	juridico	ADJ	ADJ	_	27	amod	_	TokenRange=190:198
+29	defender	defender	VERB	VERB	_	14	csubj	_	TokenRange=199:207
+30	lula	lula	NOUN	NOUN	_	29	obj	_	TokenRange=208:212
+31	onu	onu	NOUN	NOUN	_	30	appos	_	TokenRange=213:216
+32	robertson	_	NOUN	NOUN	_	31	flat	_	TokenRange=217:226
+33	faturou	faturar	VERB	VERB	_	4	conj	_	TokenRange=227:234
+34	alguns	_	DET	DET	_	36	det	_	TokenRange=235:241
+35	milhares	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=242:250
+36	dolares	dolar	NOUN	NOUN	_	33	obj	_	TokenRange=251:258
+37	empresa	empresa	NOUN	NOUN	_	36	appos	_	TokenRange=259:266
+38	fatura	faturar	VERB	VERB	_	14	parataxis	_	TokenRange=267:273
+39	algo	_	PRON	PRON	_	38	obj	_	TokenRange=274:278
+40	torno	torno	NOUN	NOUN	_	43	amod	_	TokenRange=279:284
+41	120	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=285:288
+42	milhoes	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=289:296
+43	dolares	dolar	NOUN	NOUN	_	38	obj	_	TokenRange=297:304
+44	ano	ano	NOUN	NOUN	_	43	appos	_	TokenRange=305:308
+45	honorarios	honorario	NOUN	NOUN	_	44	flat	_	TokenRange=309:319
+46	advocaticios	advocaticio	ADJ	ADJ	_	44	amod	_	TokenRange=320:332
+47	custam	custar	VERB	VERB	_	14	parataxis	_	TokenRange=333:339
+48	bagatela	bagatela	NOUN	NOUN	_	47	obj	_	TokenRange=340:348
+49	13	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=349:351
+50	mil	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=352:355
+51	dolares	dolar	NOUN	NOUN	_	47	obj	_	TokenRange=356:363
+52	dia	dia	NOUN	NOUN	_	47	nsubj	_	TokenRange=364:367
+53	cabeleira	_	NOUN	NOUN	_	52	flat	_	TokenRange=368:377
+54	impecavel	impecavel	ADJ	ADJ	_	52	amod	_	TokenRange=378:387
+55	vestindo	vestir	VERB	VERB	_	52	acl	_	TokenRange=388:396
+56	terno	terno	NOUN	NOUN	_	55	obj	_	TokenRange=397:402
+57	armani	_	NOUN	NOUN	_	56	flat	_	TokenRange=403:409
+58	adevogado	adevogado	ADJ	ADJ	_	56	amod	_	TokenRange=410:419
+59	compareceu	comparecer	VERB	VERB	_	21	acl:relcl	_	TokenRange=420:430
+60	julgamento	julgamento	NOUN	NOUN	_	59	obj	_	TokenRange=431:441
+61	recurso	recurso	NOUN	NOUN	_	60	amod	_	TokenRange=442:449
+62	lula	_	NOUN	NOUN	_	60	appos	_	TokenRange=450:454
+63	trf4	_	NOUN	NOUN	_	60	appos	_	TokenRange=455:459
+64	dr	_	NOUN	NOUN	_	63	appos	_	TokenRange=460:462
+65	geoffrey	_	NOUN	NOUN	_	64	flat	_	TokenRange=463:471
+66	apos	_	ADP	ADP	_	67	mark	_	TokenRange=472:476
+67	recebido	receber	VERB	VERB	_	64	acl	_	TokenRange=477:485
+68	saco	saco	NOUN	NOUN	_	67	obj	_	TokenRange=486:490
+69	dinheiro	dinheiro	NOUN	NOUN	_	68	flat	_	TokenRange=491:499
+70	acompanhar	acompanhar	VERB	VERB	_	67	ccomp	_	TokenRange=500:510
+71	cliente	cliente	NOUN	NOUN	_	67	obj	_	TokenRange=511:518
+72	decidiu	decidir	VERB	VERB	_	59	conj	_	TokenRange=519:526
+73	dormir	dormir	VERB	VERB	_	72	xcomp	_	TokenRange=527:533
+74	durante	_	ADP	ADP	_	76	case	_	TokenRange=534:541
+75	alguns	_	DET	DET	_	76	det	_	TokenRange=542:548
+76	momentos	momento	NOUN	NOUN	_	73	nmod	_	TokenRange=549:557
+77	sessao	sessao	ADJ	ADJ	_	78	amod	_	TokenRange=558:564
+78	causa	causa	NOUN	NOUN	_	81	obj	_	TokenRange=565:570
+79	perdida	perdido	ADJ	ADJ	_	78	amod	_	TokenRange=571:578
+80	vamos	ir	AUX	AUX	_	81	aux	_	TokenRange=579:584
+81	falar	falar	VERB	VERB	_	72	conj	_	TokenRange=585:590
+82	verdade	verdade	NOUN	NOUN	_	81	obj	_	TokenRange=591:598
+83	gostaria	gostar	VERB	VERB	_	59	ccomp	_	TokenRange=599:607
+84	ficar	ficar	VERB	VERB	_	83	xcomp	_	TokenRange=608:613
+85	rico	rico	ADJ	ADJ	_	84	xcomp	_	TokenRange=614:618
+86	dormindo	dormir	VERB	VERB	_	83	acl	_	SpaceAfter=No|TokenRange=619:627
+

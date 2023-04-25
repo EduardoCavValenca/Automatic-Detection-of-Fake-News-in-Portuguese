@@ -1,0 +1,34 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procurado operacao torrentes apresenta policia federal recife daniel pereira costa lucas sede corporacao nesta quarta 22 operacao investiga fraudes acoes reconstrucao cidades castigadas chuvas zona mata
+1	procurado	procurar	VERB	VERB	_	4	acl	_	TokenRange=0:9
+2	operacao	operacao	NOUN	NOUN	_	1	nsubj	_	TokenRange=10:18
+3	torrentes	torrente	NOUN	NOUN	_	2	amod	_	TokenRange=19:28
+4	apresenta	apresentar	VERB	VERB	_	0	root	_	TokenRange=29:38
+5	policia	policia	NOUN	NOUN	_	4	obj	_	TokenRange=39:46
+6	federal	federal	ADJ	ADJ	_	5	amod	_	TokenRange=47:54
+7	recife	recife	NOUN	NOUN	_	5	appos	_	TokenRange=55:61
+8	daniel	daniel	NOUN	NOUN	_	5	appos	_	TokenRange=62:68
+9	pereira	_	NOUN	NOUN	_	8	flat	_	TokenRange=69:76
+10	costa	costa	NOUN	NOUN	_	8	flat	_	TokenRange=77:82
+11	lucas	luco	ADJ	ADJ	_	10	amod	_	TokenRange=83:88
+12	sede	sede	NOUN	NOUN	_	5	appos	_	TokenRange=89:93
+13	corporacao	corporacao	NOUN	NOUN	_	12	amod	_	TokenRange=94:104
+14	nesta	_	ADP	ADP	_	17	case	_	TokenRange=105:110
+15	quarta	_	ADJ	ADJ	_	17	amod	_	TokenRange=111:117
+16	22	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=118:120
+17	operacao	operacao	NOUN	NOUN	_	18	nmod	_	TokenRange=121:129
+18	investiga	investigar	VERB	VERB	_	4	parataxis	_	TokenRange=130:139
+19	fraudes	fraude	NOUN	NOUN	_	18	obj	_	TokenRange=140:147
+20	acoes	acoe	NOUN	NOUN	_	18	obj	_	TokenRange=148:153
+21	reconstrucao	reconstrucao	ADJ	ADJ	_	22	amod	_	TokenRange=154:166
+22	cidades	cidade	NOUN	NOUN	_	20	appos	_	TokenRange=167:174
+23	castigadas	castigar	VERB	VERB	_	22	acl	_	TokenRange=175:185
+24	chuvas	chuva	ADJ	ADJ	_	25	amod	_	TokenRange=186:192
+25	zona	zona	NOUN	NOUN	_	22	appos	_	TokenRange=193:197
+26	mata	mato	ADJ	ADJ	_	25	amod	_	SpaceAfter=No|TokenRange=198:202
+

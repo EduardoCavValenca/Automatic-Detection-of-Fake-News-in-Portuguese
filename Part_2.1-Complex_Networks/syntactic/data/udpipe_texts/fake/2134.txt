@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula usa redes sociais dizer nunca roubou macas lula coresponsavel roubalheira aprontaram petrobras presidente indicou cargos alto escalao agora usa twitter publicar historinhas vitimistas ultima perolas expresidente diz respeito macas macas petrobras macieira haveria macas la hoje confira imagem abaixo
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	usa	usar	VERB	VERB	_	0	root	_	TokenRange=5:8
+3	redes	rede	NOUN	NOUN	_	2	obj	_	TokenRange=9:14
+4	sociais	social	ADJ	ADJ	_	3	amod	_	TokenRange=15:22
+5	dizer	dizer	VERB	VERB	_	2	ccomp	_	TokenRange=23:28
+6	nunca	nunca	ADV	ADV	_	7	advmod	_	TokenRange=29:34
+7	roubou	roubar	VERB	VERB	_	5	ccomp	_	TokenRange=35:41
+8	macas	maca	NOUN	NOUN	_	7	obj	_	TokenRange=42:47
+9	lula	lula	NOUN	NOUN	_	8	appos	_	TokenRange=48:52
+10	coresponsavel	coresponsavel	ADJ	ADJ	_	9	amod	_	TokenRange=53:66
+11	roubalheira	_	NOUN	NOUN	_	9	amod	_	TokenRange=67:78
+12	aprontaram	aprontar	VERB	VERB	_	8	acl:relcl	_	TokenRange=79:89
+13	petrobras	petrobra	NOUN	NOUN	_	12	obj	_	TokenRange=90:99
+14	presidente	presidente	NOUN	NOUN	_	13	flat	_	TokenRange=100:110
+15	indicou	indicar	VERB	VERB	_	12	parataxis	_	TokenRange=111:118
+16	cargos	cargo	NOUN	NOUN	_	15	obj	_	TokenRange=119:125
+17	alto	alto	ADJ	ADJ	_	18	amod	_	TokenRange=126:130
+18	escalao	escalao	NOUN	NOUN	_	16	appos	_	TokenRange=131:138
+19	agora	agora	ADV	ADV	_	20	advmod	_	TokenRange=139:144
+20	usa	usar	VERB	VERB	_	15	conj	_	TokenRange=145:148
+21	twitter	_	PROPN	PNOUN	_	20	obj	_	TokenRange=149:156
+22	publicar	publicar	VERB	VERB	_	21	acl:inf	_	TokenRange=157:165
+23	historinhas	_	NOUN	NOUN	_	22	obj	_	TokenRange=166:177
+24	vitimistas	vitimista	ADJ	ADJ	_	23	amod	_	TokenRange=178:188
+25	ultima	_	ADJ	ADJ	_	26	amod	_	TokenRange=189:195
+26	perolas	perola	NOUN	NOUN	_	23	appos	_	TokenRange=196:203
+27	expresidente	expresidente	NOUN	NOUN	_	26	amod	_	TokenRange=204:216
+28	diz	dizer	VERB	VERB	_	23	acl:relcl	_	TokenRange=217:220
+29	respeito	respeito	NOUN	NOUN	_	28	obj	_	TokenRange=221:229
+30	macas	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=230:235
+31	macas	_	NOUN	NOUN	_	30	amod	_	TokenRange=236:241
+32	petrobras	petrobra	NOUN	NOUN	_	30	amod	_	TokenRange=242:251
+33	macieira	macieiro	ADJ	ADJ	_	30	amod	_	TokenRange=252:260
+34	haveria	haver	VERB	VERB	_	28	parataxis	_	TokenRange=261:268
+35	macas	_	NOUN	NOUN	_	34	obj	_	TokenRange=269:274
+36	la	_	PRON	PRON	_	38	obj	_	TokenRange=275:277
+37	hoje	hoje	ADV	ADV	_	38	advmod	_	TokenRange=278:282
+38	confira	conferir	VERB	VERB	_	28	parataxis	_	TokenRange=283:290
+39	imagem	imagem	NOUN	NOUN	_	38	obj	_	TokenRange=291:297
+40	abaixo	abaixo	ADV	ADV	_	38	advmod	_	SpaceAfter=No|TokenRange=298:304
+

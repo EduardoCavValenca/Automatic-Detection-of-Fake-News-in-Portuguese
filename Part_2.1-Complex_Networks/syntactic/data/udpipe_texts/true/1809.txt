@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = camara recua fim coligacoes valera somente 2020 plenario aprova pec proibe aliancas estabelece clausula barreira siglas acesso tempo tv fundo partidario brasilia plenario camara aprovou noite desta quartafeira 20 fim coligacoes eleicoes deputados vereadores partir 2020 regra estabelece clausula barreira legendas acesso fundo partidario tempo radio tv texto inicial relatado deputada sheridan psdbrr previa fim coligacoes 2018 textobase proposta emenda constituicao pec trata desses temas
+1	camara	camara	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	recua	recuar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	fim	fim	NOUN	NOUN	_	2	obj	_	TokenRange=13:16
+4	coligacoes	_	NOUN	NOUN	_	3	amod	_	TokenRange=17:27
+5	valera	valer	VERB	VERB	_	2	ccomp	_	TokenRange=28:34
+6	somente	somente	ADV	ADV	_	7	advmod	_	TokenRange=35:42
+7	2020	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=43:47
+8	plenario	plenario	NOUN	NOUN	_	9	nsubj	_	TokenRange=48:56
+9	aprova	aprovar	VERB	VERB	_	2	ccomp	_	TokenRange=57:63
+10	pec	pec	NOUN	NOUN	_	11	obj	_	TokenRange=64:67
+11	proibe	proibar	VERB	VERB	_	9	ccomp	_	TokenRange=68:74
+12	aliancas	alianca	NOUN	NOUN	_	11	obj	_	TokenRange=75:83
+13	estabelece	estabelecer	VERB	VERB	_	2	parataxis	_	TokenRange=84:94
+14	clausula	clausula	NOUN	NOUN	_	13	obj	_	TokenRange=95:103
+15	barreira	barreiro	NOUN	NOUN	_	14	flat	_	TokenRange=104:112
+16	siglas	sigla	ADJ	ADJ	_	17	amod	_	TokenRange=113:119
+17	acesso	acesso	NOUN	NOUN	_	13	nsubj	_	TokenRange=120:126
+18	tempo	tempo	NOUN	NOUN	_	17	appos	_	TokenRange=127:132
+19	tv	_	NOUN	NOUN	_	20	flat	_	TokenRange=133:135
+20	fundo	fundo	NOUN	NOUN	_	17	appos	_	TokenRange=136:141
+21	partidario	partidario	ADJ	ADJ	_	20	amod	_	TokenRange=142:152
+22	brasilia	brasilia	NOUN	NOUN	_	20	amod	_	TokenRange=153:161
+23	plenario	plenario	ADJ	ADJ	_	20	amod	_	TokenRange=162:170
+24	camara	camara	NOUN	NOUN	_	20	amod	_	TokenRange=171:177
+25	aprovou	aprovar	VERB	VERB	_	2	conj	_	TokenRange=178:185
+26	noite	noite	NOUN	NOUN	_	25	obj	_	TokenRange=186:191
+27	desta	_	ADP	ADP	_	28	case	_	TokenRange=192:197
+28	quartafeira	_	NOUN	NOUN	_	26	nmod	_	TokenRange=198:209
+29	20	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=210:212
+30	fim	fim	NOUN	NOUN	_	25	nmod	_	TokenRange=213:216
+31	coligacoes	_	ADJ	ADJ	_	30	amod	_	TokenRange=217:227
+32	eleicoes	eleicoe	NOUN	NOUN	_	25	nsubj	_	TokenRange=228:236
+33	deputados	deputado	NOUN	NOUN	_	32	appos	_	TokenRange=237:246
+34	vereadores	vereador	ADJ	ADJ	_	33	amod	_	TokenRange=247:257
+35	partir	partir	VERB	VERB	_	38	parataxis	_	TokenRange=258:264
+36	2020	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=265:269
+37	regra	regra	NOUN	NOUN	_	38	nsubj	_	TokenRange=270:275
+38	estabelece	estabelecer	VERB	VERB	_	2	parataxis	_	TokenRange=276:286
+39	clausula	clausula	NOUN	NOUN	_	38	obj	_	TokenRange=287:295
+40	barreira	barreiro	NOUN	NOUN	_	39	amod	_	TokenRange=296:304
+41	legendas	legenda	ADJ	NOUN	_	42	amod	_	TokenRange=305:313
+42	acesso	acesso	NOUN	NOUN	_	39	appos	_	TokenRange=314:320
+43	fundo	fundo	NOUN	NOUN	_	42	amod	_	TokenRange=321:326
+44	partidario	partidario	ADJ	ADJ	_	42	amod	_	TokenRange=327:337
+45	tempo	tempo	NOUN	NOUN	_	42	appos	_	TokenRange=338:343
+46	radio	_	NOUN	NOUN	_	45	appos	_	TokenRange=344:349
+47	tv	_	X	NOUN	_	46	flat	_	TokenRange=350:352
+48	texto	texto	NOUN	NOUN	_	38	nsubj	_	TokenRange=353:358
+49	inicial	inicial	ADJ	ADJ	_	48	amod	_	TokenRange=359:366
+50	relatado	relatar	VERB	VERB	_	48	acl	_	TokenRange=367:375
+51	deputada	deputado	NOUN	NOUN	_	48	appos	_	TokenRange=376:384
+52	sheridan	sherido	ADJ	ADJ	_	51	amod	_	TokenRange=385:393
+53	psdbrr	_	NOUN	NOUN	_	51	appos	_	TokenRange=394:400
+54	previa	prever	VERB	VERB	_	38	parataxis	_	TokenRange=401:407
+55	fim	fim	NOUN	NOUN	_	54	obj	_	TokenRange=408:411
+56	coligacoes	_	ADJ	ADJ	_	55	amod	_	TokenRange=412:422
+57	2018	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=423:427
+58	textobase	textobase	NOUN	NOUN	_	55	appos	_	TokenRange=428:437
+59	proposta	_	NOUN	NOUN	_	63	nsubj	_	TokenRange=438:446
+60	emenda	emenda	NOUN	NOUN	_	59	appos	_	TokenRange=447:453
+61	constituicao	constituicao	NOUN	NOUN	_	59	appos	_	TokenRange=454:466
+62	pec	_	NOUN	NOUN	_	59	flat	_	TokenRange=467:470
+63	trata	tratar	VERB	VERB	_	38	parataxis	_	TokenRange=471:476
+64	desses	_	ADP	ADP	_	65	case	_	TokenRange=477:483
+65	temas	tema	NOUN	NOUN	_	63	nmod	_	SpaceAfter=No|TokenRange=484:489
+

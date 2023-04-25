@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lindbergh pronuncia sobre briga restaurante jogaram esposa chao deixandoa escoriacoes senador lindbergh pronunciou atraves redes sociais confusao aconteceu porta restaurante barra tijuca rio janeiro jovem abordou senador gritos forapt lindbergh ladrao roubou pais lindbergh calou chamou rapaz fascista babaca ai comecou briga conforme video abaixo
+1	lindbergh	lindbergh	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	pronuncia	pronunciar	VERB	VERB	_	0	root	_	TokenRange=10:19
+3	sobre	_	ADP	ADP	_	4	case	_	TokenRange=20:25
+4	briga	briga	NOUN	NOUN	_	2	nmod	_	TokenRange=26:31
+5	restaurante	restaurante	NOUN	NOUN	_	4	amod	_	TokenRange=32:43
+6	jogaram	jogar	VERB	VERB	_	2	conj	_	TokenRange=44:51
+7	esposa	esposo	NOUN	NOUN	_	6	obj	_	TokenRange=52:58
+8	chao	chao	NOUN	NOUN	_	7	appos	_	TokenRange=59:63
+9	deixandoa	_	VERB	VERB	_	6	acl	_	TokenRange=64:73
+10	escoriacoes	escoriacoe	NOUN	NOUN	_	9	obj	_	TokenRange=74:85
+11	senador	senador	NOUN	NOUN	_	13	nsubj	_	TokenRange=86:93
+12	lindbergh	_	NOUN	NOUN	_	11	flat	_	TokenRange=94:103
+13	pronunciou	pronunciar	VERB	VERB	_	2	parataxis	_	TokenRange=104:114
+14	atraves	_	ADV	ADV	_	15	advmod	_	TokenRange=115:122
+15	redes	rede	NOUN	NOUN	_	13	obj	_	TokenRange=123:128
+16	sociais	social	ADJ	ADJ	_	15	amod	_	TokenRange=129:136
+17	confusao	confusao	NOUN	NOUN	_	18	nsubj	_	TokenRange=137:145
+18	aconteceu	acontecer	VERB	VERB	_	13	parataxis	_	TokenRange=146:155
+19	porta	porta	NOUN	NOUN	_	18	nmod	_	TokenRange=156:161
+20	restaurante	restaurante	NOUN	NOUN	_	19	flat	_	TokenRange=162:173
+21	barra	barra	NOUN	NOUN	_	19	appos	_	TokenRange=174:179
+22	tijuca	_	NOUN	NOUN	_	19	flat	_	TokenRange=180:186
+23	rio	rio	NOUN	NOUN	_	21	appos	_	TokenRange=187:190
+24	janeiro	_	PROPN	PNOUN	_	21	appos	_	TokenRange=191:198
+25	jovem	jovem	ADJ	ADJ	_	24	amod	_	TokenRange=199:204
+26	abordou	abordar	VERB	VERB	_	18	conj	_	TokenRange=205:212
+27	senador	senador	NOUN	NOUN	_	26	obj	_	TokenRange=213:220
+28	gritos	grito	NOUN	NOUN	_	27	amod	_	TokenRange=221:227
+29	forapt	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=228:234
+30	lindbergh	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=235:244
+31	ladrao	ladrao	NOUN	NOUN	_	32	nsubj	_	TokenRange=245:251
+32	roubou	roubar	VERB	VERB	_	26	conj	_	TokenRange=252:258
+33	pais	_	NOUN	NOUN	_	32	obj	_	TokenRange=259:263
+34	lindbergh	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=264:273
+35	calou	calar	VERB	VERB	_	33	acl:relcl	_	TokenRange=274:279
+36	chamou	chamar	VERB	VERB	_	32	conj	_	TokenRange=280:286
+37	rapaz	rapaz	NOUN	NOUN	_	36	obj	_	TokenRange=287:292
+38	fascista	fascista	ADJ	ADJ	_	37	amod	_	TokenRange=293:301
+39	babaca	_	ADJ	NOUN	_	37	amod	_	TokenRange=302:308
+40	ai	ai	ADV	ADV	_	41	advmod	_	TokenRange=309:311
+41	comecou	comecar	VERB	VERB	_	26	conj	_	TokenRange=312:319
+42	briga	briga	NOUN	NOUN	_	41	obj	_	TokenRange=320:325
+43	conforme	_	ADP	ADP	_	44	case	_	TokenRange=326:334
+44	video	video	NOUN	NOUN	_	41	nmod	_	TokenRange=335:340
+45	abaixo	abaixo	ADV	ADV	_	41	advmod	_	SpaceAfter=No|TokenRange=341:347
+

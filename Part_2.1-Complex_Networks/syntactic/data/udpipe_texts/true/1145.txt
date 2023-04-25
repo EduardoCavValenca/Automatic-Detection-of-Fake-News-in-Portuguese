@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eua coreia sul japao pedem coreia norte acabe provocacoes irresponsaveis declaracao divulgada apos encontro autoridades militares havai neste fim
+1	eua	_	DET	DET	_	2	det	_	TokenRange=0:3
+2	coreia	coreia	NOUN	NOUN	_	5	nsubj	_	TokenRange=4:10
+3	sul	sul	ADJ	ADJ	_	2	amod	_	TokenRange=11:14
+4	japao	japao	NOUN	NOUN	_	2	appos	_	TokenRange=15:20
+5	pedem	pedir	VERB	VERB	_	0	root	_	TokenRange=21:26
+6	coreia	coreia	NOUN	NOUN	_	5	obj	_	TokenRange=27:33
+7	norte	norte	ADJ	ADJ	_	6	amod	_	TokenRange=34:39
+8	acabe	acaber	VERB	VERB	_	6	acl:relcl	_	TokenRange=40:45
+9	provocacoes	provocacoe	NOUN	NOUN	_	8	obj	_	TokenRange=46:57
+10	irresponsaveis	irresponsavel	ADJ	ADJ	_	9	amod	_	TokenRange=58:72
+11	declaracao	declaracao	NOUN	NOUN	_	9	appos	_	TokenRange=73:83
+12	divulgada	divulgar	VERB	VERB	_	9	acl	_	TokenRange=84:93
+13	apos	_	ADP	ADP	_	14	case	_	TokenRange=94:98
+14	encontro	encontro	NOUN	NOUN	_	12	nmod	_	TokenRange=99:107
+15	autoridades	autoridade	NOUN	NOUN	_	14	appos	_	TokenRange=108:119
+16	militares	militar	ADJ	ADJ	_	15	amod	_	TokenRange=120:129
+17	havai	havai	VERB	VERB	_	5	parataxis	_	TokenRange=130:135
+18	neste	_	ADP	ADP	_	19	case	_	TokenRange=136:141
+19	fim	fim	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No|TokenRange=142:145
+

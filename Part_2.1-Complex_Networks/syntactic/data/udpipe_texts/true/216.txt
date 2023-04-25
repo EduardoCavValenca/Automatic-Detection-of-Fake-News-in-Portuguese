@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = candidato governo mostrar capacidade ganhar diz juca lider governo senado presidente pmdb romero juca rr afirma candidato governista presidencia 2018 precisa demonstrar capacidade ganhar eleicao principal articulador politico michel temer congresso juca diz entrevista folha tucano geraldo alckmin bom nome unico ataca exprocuradorgeral republica rodrigo janot autor duas denuncias contra temer diz reforma previdencia aprovada atuacao
+1	candidato	candidato	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:9
+2	governo	governo	NOUN	NOUN	_	1	amod	_	TokenRange=10:17
+3	mostrar	mostrar	VERB	VERB	_	1	acl:relcl	_	TokenRange=18:25
+4	capacidade	capacidade	NOUN	NOUN	_	3	obj	_	TokenRange=26:36
+5	ganhar	ganhar	VERB	VERB	_	1	acl:inf	_	TokenRange=37:43
+6	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=44:47
+7	juca	_	NOUN	NOUN	_	6	obj	_	TokenRange=48:52
+8	lider	lider	NOUN	NOUN	_	7	appos	_	TokenRange=53:58
+9	governo	governo	NOUN	NOUN	_	8	flat	_	TokenRange=59:66
+10	senado	senado	NOUN	NOUN	_	8	appos	_	TokenRange=67:73
+11	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=74:84
+12	pmdb	_	NOUN	NOUN	_	11	appos	_	TokenRange=85:89
+13	romero	romero	NOUN	NOUN	_	11	appos	_	TokenRange=90:96
+14	juca	juca	NOUN	NOUN	_	11	appos	_	TokenRange=97:101
+15	rr	_	NOUN	NOUN	_	14	flat	_	TokenRange=102:104
+16	afirma	afirmar	VERB	VERB	_	6	parataxis	_	TokenRange=105:111
+17	candidato	candidato	NOUN	NOUN	_	16	obj	_	TokenRange=112:121
+18	governista	governista	ADJ	ADJ	_	17	amod	_	TokenRange=122:132
+19	presidencia	presidencia	NOUN	NOUN	_	17	appos	_	TokenRange=133:144
+20	2018	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=145:149
+21	precisa	precisar	VERB	VERB	_	16	parataxis	_	TokenRange=150:157
+22	demonstrar	demonstrar	VERB	VERB	_	21	xcomp	_	TokenRange=158:168
+23	capacidade	capacidade	NOUN	NOUN	_	22	obj	_	TokenRange=169:179
+24	ganhar	ganhar	VERB	VERB	_	23	acl:inf	_	TokenRange=180:186
+25	eleicao	eleicao	NOUN	NOUN	_	24	obj	_	TokenRange=187:194
+26	principal	principal	ADJ	ADJ	_	25	amod	_	TokenRange=195:204
+27	articulador	articulador	NOUN	NOUN	_	25	appos	_	TokenRange=205:216
+28	politico	politico	ADJ	ADJ	_	27	amod	_	TokenRange=217:225
+29	michel	michel	DET	DET	_	30	det	_	TokenRange=226:232
+30	temer	temer	NOUN	NOUN	_	33	nsubj	_	TokenRange=233:238
+31	congresso	congresso	NOUN	NOUN	_	30	appos	_	TokenRange=239:248
+32	juca	juca	ADJ	NOUN	_	30	amod	_	TokenRange=249:253
+33	diz	dizer	VERB	VERB	_	27	acl:relcl	_	TokenRange=254:257
+34	entrevista	entrevista	NOUN	NOUN	_	33	obj	_	TokenRange=258:268
+35	folha	folha	NOUN	NOUN	_	34	appos	_	TokenRange=269:274
+36	tucano	tucano	ADJ	ADJ	_	34	amod	_	TokenRange=275:281
+37	geraldo	geraldo	NOUN	NOUN	_	34	appos	_	TokenRange=282:289
+38	alckmin	alckmin	NOUN	NOUN	_	37	flat	_	TokenRange=290:297
+39	bom	bom	ADJ	ADJ	_	40	amod	_	TokenRange=298:301
+40	nome	nome	NOUN	NOUN	_	42	nsubj	_	TokenRange=302:306
+41	unico	unico	ADJ	ADJ	_	40	amod	_	TokenRange=307:312
+42	ataca	atacar	VERB	VERB	_	33	parataxis	_	TokenRange=313:318
+43	exprocuradorgeral	exprocuradorgeral	NOUN	NOUN	_	42	obj	_	TokenRange=319:336
+44	republica	_	ADJ	ADJ	_	43	amod	_	TokenRange=337:346
+45	rodrigo	_	NOUN	NOUN	_	43	appos	_	TokenRange=347:354
+46	janot	_	NOUN	NOUN	_	45	flat	_	TokenRange=355:360
+47	autor	autor	NOUN	NOUN	_	43	appos	_	TokenRange=361:366
+48	duas	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=367:371
+49	denuncias	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=372:381
+50	contra	_	ADP	ADP	_	51	case	_	TokenRange=382:388
+51	temer	temer	NOUN	NOUN	_	49	nmod	_	TokenRange=389:394
+52	diz	dizer	VERB	VERB	_	42	parataxis	_	TokenRange=395:398
+53	reforma	reforma	NOUN	NOUN	_	52	obj	_	TokenRange=399:406
+54	previdencia	previdencia	NOUN	NOUN	_	53	amod	_	TokenRange=407:418
+55	aprovada	aprovar	ADJ	ADJ	_	56	amod	_	TokenRange=419:427
+56	atuacao	atuacao	NOUN	NOUN	_	52	obj	_	SpaceAfter=No|TokenRange=428:435
+

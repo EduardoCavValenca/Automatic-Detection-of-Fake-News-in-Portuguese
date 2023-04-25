@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = contradicoes tiririca deputado disse ganha porem deixou mae internada sus deputado tiririca jeitinho humilde bobo conseguiu convencer pais discurso decepcao politica brasileira ocupando cargo publico desde ano 2000 vencimento liquido casa r 2500000 contar mordomias palhaco povo demorou 7 anos pra dizer decepcionado colegas parlamentares 7 anos resolveu sair dizer decepcionado atitude digna atos teatrais estrategia almejar novo futuro cargo vida publica governador
+1	contradicoes	contradicoe	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:12
+2	tiririca	tiririco	ADJ	ADJ	_	1	amod	_	TokenRange=13:21
+3	deputado	deputado	NOUN	NOUN	_	1	appos	_	TokenRange=22:30
+4	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=31:36
+5	ganha	ganhar	VERB	VERB	_	4	xcomp	_	TokenRange=37:42
+6	porem	_	CCONJ	CONJ	_	7	mark	_	TokenRange=43:48
+7	deixou	deixar	VERB	VERB	_	4	advcl	_	TokenRange=49:55
+8	mae	mae	NOUN	NOUN	_	7	obj	_	TokenRange=56:59
+9	internada	internado	ADJ	ADJ	_	8	amod	_	TokenRange=60:69
+10	sus	_	DET	DET	_	11	det:poss	_	TokenRange=70:73
+11	deputado	deputado	NOUN	NOUN	_	16	nsubj	_	TokenRange=74:82
+12	tiririca	tiririco	ADJ	ADJ	_	11	amod	_	TokenRange=83:91
+13	jeitinho	_	NOUN	NOUN	_	11	appos	_	TokenRange=92:100
+14	humilde	humilde	ADJ	ADJ	_	13	amod	_	TokenRange=101:108
+15	bobo	bobo	NOUN	NOUN	_	16	nsubj	_	TokenRange=109:113
+16	conseguiu	conseguir	VERB	VERB	_	4	parataxis	_	TokenRange=114:123
+17	convencer	convencer	VERB	VERB	_	16	xcomp	_	TokenRange=124:133
+18	pais	_	NOUN	NOUN	_	17	obj	_	TokenRange=134:138
+19	discurso	discurso	NOUN	NOUN	_	17	obj	_	TokenRange=139:147
+20	decepcao	decepcao	ADJ	ADJ	_	19	amod	_	TokenRange=148:156
+21	politica	_	ADJ	ADJ	_	19	amod	_	TokenRange=157:165
+22	brasileira	brasileiro	ADJ	ADJ	_	19	amod	_	TokenRange=166:176
+23	ocupando	ocupar	VERB	VERB	_	16	acl	_	TokenRange=177:185
+24	cargo	cargo	NOUN	NOUN	_	23	obj	_	TokenRange=186:191
+25	publico	publico	ADJ	ADJ	_	24	amod	_	TokenRange=192:199
+26	desde	_	ADP	ADP	_	27	case	_	TokenRange=200:205
+27	ano	ano	NOUN	NOUN	_	23	nmod	_	TokenRange=206:209
+28	2000	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=210:214
+29	vencimento	vencimento	NOUN	NOUN	_	23	obj	_	TokenRange=215:225
+30	liquido	liquido	ADJ	ADJ	_	29	amod	_	TokenRange=226:233
+31	casa	casa	NOUN	NOUN	_	29	appos	_	TokenRange=234:238
+32	r	r	NOUN	NOUN	_	31	appos	_	TokenRange=239:240
+33	2500000	_	NUM	NUM	NumType=Card	34	nsubj	_	TokenRange=241:248
+34	contar	contar	VERB	VERB	_	29	acl:relcl	_	TokenRange=249:255
+35	mordomias	mordomia	NOUN	NOUN	_	34	obj	_	TokenRange=256:265
+36	palhaco	palhaco	ADJ	ADJ	_	35	amod	_	TokenRange=266:273
+37	povo	povo	NOUN	NOUN	_	38	nsubj	_	TokenRange=274:278
+38	demorou	demorar	VERB	VERB	_	34	parataxis	_	TokenRange=279:286
+39	7	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=287:288
+40	anos	ano	NOUN	NOUN	_	38	nmod	_	TokenRange=289:293
+41	pra	_	ADP	ADP	_	42	mark	_	TokenRange=294:297
+42	dizer	dizer	VERB	VERB	_	38	advcl	_	TokenRange=298:303
+43	decepcionado	decepcionado	ADJ	ADJ	_	44	amod	_	TokenRange=304:316
+44	colegas	colega	NOUN	NOUN	_	42	obj	_	TokenRange=317:324
+45	parlamentares	parlamentar	ADJ	ADJ	_	44	amod	_	TokenRange=325:338
+46	7	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=339:340
+47	anos	ano	NOUN	NOUN	_	48	nmod	_	TokenRange=341:345
+48	resolveu	resolver	VERB	VERB	_	4	parataxis	_	TokenRange=346:354
+49	sair	sair	VERB	VERB	_	48	xcomp	_	TokenRange=355:359
+50	dizer	dizer	VERB	VERB	_	49	xcomp	_	TokenRange=360:365
+51	decepcionado	decepcionado	ADJ	ADJ	_	52	amod	_	TokenRange=366:378
+52	atitude	atitude	NOUN	NOUN	_	50	obj	_	TokenRange=379:386
+53	digna	digno	ADJ	ADJ	_	52	amod	_	TokenRange=387:392
+54	atos	ato	NOUN	NOUN	_	50	nsubj	_	TokenRange=393:397
+55	teatrais	teatral	ADJ	ADJ	_	54	amod	_	TokenRange=398:406
+56	estrategia	estrategia	NOUN	NOUN	_	48	nsubj	_	TokenRange=407:417
+57	almejar	almejar	VERB	VERB	_	48	ccomp	_	TokenRange=418:425
+58	novo	novo	ADJ	ADJ	_	60	amod	_	TokenRange=426:430
+59	futuro	futuro	ADJ	ADJ	_	60	amod	_	TokenRange=431:437
+60	cargo	cargo	NOUN	NOUN	_	57	obj	_	TokenRange=438:443
+61	vida	vida	NOUN	NOUN	_	57	obj	_	TokenRange=444:448
+62	publica	publico	ADJ	ADJ	_	61	amod	_	TokenRange=449:456
+63	governador	governador	NOUN	NOUN	_	61	amod	_	SpaceAfter=No|TokenRange=457:467
+

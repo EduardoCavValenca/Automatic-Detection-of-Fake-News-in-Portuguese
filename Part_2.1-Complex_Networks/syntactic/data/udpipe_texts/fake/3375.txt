@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = boechat jornal band desmascaram governo corrupto pt jornal band revelou durante ano 2015 gravacoes bombasticas reuniao sobre programa medicos quais assessores ministerio saude discutiram meios mascarar objetivo governo pt financiar ditadura cubana pauta reuniao incluiu disfarcar preferencia governo cuba solucao simular abertura medicos outros paises b disfarcar vinda vigias regime fiscalizam escravos medicos impedir desercoes solucao inflar numero escravos c quanto salario escravos ficara ditadura solucao 60 governo 40 medico estipulou marco aurelio garcia assessor internacional presidencia
+1	boechat	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	jornal	jornal	NOUN	NOUN	_	4	nsubj	_	TokenRange=8:14
+3	band	_	NOUN	NOUN	_	2	flat	_	TokenRange=15:19
+4	desmascaram	desmascar	VERB	VERB	_	0	root	_	TokenRange=20:31
+5	governo	governo	NOUN	NOUN	_	4	obj	_	TokenRange=32:39
+6	corrupto	corrupto	ADJ	ADJ	_	5	amod	_	TokenRange=40:48
+7	pt	_	DET	DET	_	8	det	_	TokenRange=49:51
+8	jornal	jornal	NOUN	NOUN	_	10	nsubj	_	TokenRange=52:58
+9	band	band	NOUN	NOUN	_	8	flat	_	TokenRange=59:63
+10	revelou	revelar	VERB	VERB	_	4	conj	_	TokenRange=64:71
+11	durante	_	ADP	ADP	_	12	case	_	TokenRange=72:79
+12	ano	ano	NOUN	NOUN	_	10	nmod	_	TokenRange=80:83
+13	2015	_	NUM	NUM	NumType=Card	12	nmod	_	TokenRange=84:88
+14	gravacoes	_	NOUN	NOUN	_	10	obj	_	TokenRange=89:98
+15	bombasticas	bombastico	ADJ	ADJ	_	14	amod	_	TokenRange=99:110
+16	reuniao	reuniao	NOUN	NOUN	_	14	appos	_	TokenRange=111:118
+17	sobre	_	ADP	ADP	_	18	case	_	TokenRange=119:124
+18	programa	programa	NOUN	NOUN	_	16	nmod	_	TokenRange=125:133
+19	medicos	medico	ADJ	ADJ	_	18	amod	_	TokenRange=134:141
+20	quais	_	DET	DET	_	21	det	_	TokenRange=142:147
+21	assessores	assessor	NOUN	NOUN	_	24	nsubj	_	TokenRange=148:158
+22	ministerio	ministerio	ADJ	ADJ	_	21	amod	_	TokenRange=159:169
+23	saude	saude	NOUN	NOUN	_	21	flat	_	TokenRange=170:175
+24	discutiram	discutir	VERB	VERB	_	18	acl:relcl	_	TokenRange=176:186
+25	meios	_	NOUN	NOUN	_	24	obj	_	TokenRange=187:192
+26	mascarar	mascarar	VERB	VERB	_	24	ccomp	_	TokenRange=193:201
+27	objetivo	objetivo	NOUN	NOUN	_	26	obj	_	TokenRange=202:210
+28	governo	governo	NOUN	NOUN	_	26	nsubj	_	TokenRange=211:218
+29	pt	_	ADP	ADP	_	30	mark	_	TokenRange=219:221
+30	financiar	financiar	VERB	VERB	_	26	ccomp	_	TokenRange=222:231
+31	ditadura	ditadura	NOUN	NOUN	_	30	obj	_	TokenRange=232:240
+32	cubana	cubano	ADJ	ADJ	_	31	amod	_	TokenRange=241:247
+33	pauta	pauta	NOUN	NOUN	_	35	nsubj	_	TokenRange=248:253
+34	reuniao	reuniao	NOUN	NOUN	_	33	flat	_	TokenRange=254:261
+35	incluiu	incluir	VERB	VERB	_	24	parataxis	_	TokenRange=262:269
+36	disfarcar	disfarcar	VERB	VERB	_	35	xcomp	_	TokenRange=270:279
+37	preferencia	_	NOUN	NOUN	_	36	obj	_	TokenRange=280:291
+38	governo	governo	NOUN	NOUN	_	37	flat	_	TokenRange=292:299
+39	cuba	_	ADJ	ADJ	_	40	det	_	TokenRange=300:304
+40	solucao	solucao	NOUN	NOUN	_	41	nsubj	_	TokenRange=305:312
+41	simular	simular	VERB	VERB	_	37	acl:relcl	_	TokenRange=313:320
+42	abertura	abertura	NOUN	NOUN	_	41	obj	_	TokenRange=321:329
+43	medicos	medico	ADJ	ADJ	_	42	amod	_	TokenRange=330:337
+44	outros	_	DET	DET	_	45	det	_	TokenRange=338:344
+45	paises	paise	NOUN	NOUN	_	41	nsubj	_	TokenRange=345:351
+46	b	_	ADP	ADP	_	47	mark	_	TokenRange=352:353
+47	disfarcar	disfarcar	VERB	VERB	_	41	conj	_	TokenRange=354:363
+48	vinda	_	NOUN	NOUN	_	47	obj	_	TokenRange=364:369
+49	vigias	_	ADJ	ADJ	_	48	amod	_	TokenRange=370:376
+50	regime	regime	NOUN	NOUN	_	51	nsubj	_	TokenRange=377:383
+51	fiscalizam	fiscalizar	VERB	VERB	_	36	ccomp	_	TokenRange=384:394
+52	escravos	escravo	NOUN	NOUN	_	51	obj	_	TokenRange=395:403
+53	medicos	medico	ADJ	ADJ	_	52	amod	_	TokenRange=404:411
+54	impedir	impedir	VERB	VERB	_	52	acl:inf	_	TokenRange=412:419
+55	desercoes	desercoe	NOUN	NOUN	_	54	obj	_	TokenRange=420:429
+56	solucao	solucao	ADJ	ADJ	_	55	amod	_	TokenRange=430:437
+57	inflar	inflar	ADJ	ADJ	_	55	amod	_	TokenRange=438:444
+58	numero	_	NOUN	NOUN	_	55	appos	_	TokenRange=445:451
+59	escravos	escravo	NOUN	NOUN	_	58	flat	_	TokenRange=452:460
+60	c	_	CCONJ	CONJ	_	71	cc	_	TokenRange=461:462
+61	quanto	_	DET	DET	_	62	det	_	TokenRange=463:469
+62	salario	salario	NOUN	NOUN	_	71	nsubj	_	TokenRange=470:477
+63	escravos	escravo	ADJ	ADJ	_	62	amod	_	TokenRange=478:486
+64	ficara	ficar	AUX	AUX	_	65	cop	_	TokenRange=487:493
+65	ditadura	ditadura	NOUN	NOUN	_	51	conj	_	TokenRange=494:502
+66	solucao	solucao	NOUN	NOUN	_	65	amod	_	TokenRange=503:510
+67	60	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=511:513
+68	governo	governo	NOUN	NOUN	_	71	nsubj	_	TokenRange=514:521
+69	40	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=522:524
+70	medico	medico	NOUN	NOUN	_	71	nsubj	_	TokenRange=525:531
+71	estipulou	estipular	VERB	VERB	_	51	parataxis	_	TokenRange=532:541
+72	marco	marco	NOUN	NOUN	_	71	obj	_	TokenRange=542:547
+73	aurelio	aurelio	ADJ	ADJ	_	72	flat	_	TokenRange=548:555
+74	garcia	garcia	ADJ	ADJ	_	72	amod	_	TokenRange=556:562
+75	assessor	assessor	NOUN	NOUN	_	71	obj	_	TokenRange=563:571
+76	internacional	internacional	ADJ	ADJ	_	75	amod	_	TokenRange=572:585
+77	presidencia	presidencia	NOUN	NOUN	_	72	appos	_	SpaceAfter=No|TokenRange=586:597
+

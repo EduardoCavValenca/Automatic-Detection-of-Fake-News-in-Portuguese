@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = casa estudante fortaleza abriga jovens apostaram educacao superar dificuldades lugar resiste 83 anos capital recebe jovens condicoes dedicarem exclusividade estudos dois sentimentos conflitantes atravessam historias jovens vivem casa estudante centro fortaleza medo vontade vindos interior periferias outros estados filhos familias simples desafiaram circunstancias descrenca alheia apostar educacao caminho assim felipe jonnata garoto
+1	casa	casa	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	estudante	estudante	ADJ	ADJ	_	1	amod	_	TokenRange=5:14
+3	fortaleza	fortaleza	NOUN	NOUN	_	1	appos	_	TokenRange=15:24
+4	abriga	abrigar	VERB	VERB	_	0	root	_	TokenRange=25:31
+5	jovens	jovem	NOUN	NOUN	_	4	obj	_	TokenRange=32:38
+6	apostaram	apostar	VERB	VERB	_	4	ccomp	_	TokenRange=39:48
+7	educacao	educacao	NOUN	NOUN	_	8	obj	_	TokenRange=49:57
+8	superar	superar	VERB	VERB	_	6	ccomp	_	TokenRange=58:65
+9	dificuldades	dificuldade	NOUN	NOUN	_	8	obj	_	TokenRange=66:78
+10	lugar	lugar	NOUN	NOUN	_	9	appos	_	TokenRange=79:84
+11	resiste	resistir	VERB	VERB	_	9	acl:relcl	_	TokenRange=85:92
+12	83	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=93:95
+13	anos	ano	NOUN	NOUN	_	11	nsubj	_	TokenRange=96:100
+14	capital	capital	NOUN	NOUN	_	13	amod	_	TokenRange=101:108
+15	recebe	receber	VERB	VERB	_	4	parataxis	_	TokenRange=109:115
+16	jovens	jovem	NOUN	NOUN	_	15	obj	_	TokenRange=116:122
+17	condicoes	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=123:132
+18	dedicarem	dedicar	VERB	VERB	_	16	acl:inf	_	TokenRange=133:142
+19	exclusividade	exclusividade	NOUN	NOUN	_	18	obj	_	TokenRange=143:156
+20	estudos	estudo	NOUN	NOUN	_	19	appos	_	TokenRange=157:164
+21	dois	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=165:169
+22	sentimentos	sentimento	NOUN	NOUN	_	18	nsubj	_	TokenRange=170:181
+23	conflitantes	conflitante	ADJ	ADJ	_	22	amod	_	TokenRange=182:194
+24	atravessam	atravessar	VERB	VERB	_	15	parataxis	_	TokenRange=195:205
+25	historias	historia	NOUN	NOUN	_	24	obj	_	TokenRange=206:215
+26	jovens	jovem	ADJ	ADJ	_	25	amod	_	TokenRange=216:222
+27	vivem	_	VERB	VERB	_	25	acl:relcl	_	TokenRange=223:228
+28	casa	casa	NOUN	NOUN	_	27	obj	_	TokenRange=229:233
+29	estudante	estudante	ADJ	ADJ	_	28	amod	_	TokenRange=234:243
+30	centro	centro	NOUN	NOUN	_	28	appos	_	TokenRange=244:250
+31	fortaleza	fortaleza	NOUN	NOUN	_	28	appos	_	TokenRange=251:260
+32	medo	medo	NOUN	NOUN	_	28	appos	_	TokenRange=261:265
+33	vontade	vontade	NOUN	NOUN	_	32	flat	_	TokenRange=266:273
+34	vindos	_	NOUN	NOUN	_	27	parataxis	_	TokenRange=274:280
+35	interior	interior	NOUN	NOUN	_	34	flat	_	TokenRange=281:289
+36	periferias	periferia	ADJ	ADJ	_	38	amod	_	TokenRange=290:300
+37	outros	_	DET	DET	_	38	det	_	TokenRange=301:307
+38	estados	estado	NOUN	NOUN	_	42	nsubj	_	TokenRange=308:315
+39	filhos	filho	ADJ	ADJ	_	38	amod	_	TokenRange=316:322
+40	familias	familia	NOUN	NOUN	_	42	nsubj	_	TokenRange=323:331
+41	simples	simples	ADJ	ADJ	_	40	amod	_	TokenRange=332:339
+42	desafiaram	desafiar	VERB	VERB	_	4	parataxis	_	TokenRange=340:350
+43	circunstancias	_	NOUN	NOUN	_	42	obj	_	TokenRange=351:365
+44	descrenca	descrencar	VERB	VERB	_	42	parataxis	_	TokenRange=366:375
+45	alheia	alheia	NOUN	NOUN	_	46	nsubj	_	TokenRange=376:382
+46	apostar	apostar	VERB	VERB	_	43	acl:inf	_	TokenRange=383:390
+47	educacao	educacao	NOUN	NOUN	_	46	obj	_	TokenRange=391:399
+48	caminho	caminho	NOUN	NOUN	_	46	obj	_	TokenRange=400:407
+49	assim	assim	ADV	ADV	_	50	advmod	_	TokenRange=408:413
+50	felipe	felipe	NOUN	NOUN	_	48	appos	_	TokenRange=414:420
+51	jonnata	jonnata	NOUN	NOUN	_	50	flat	_	TokenRange=421:428
+52	garoto	garoto	NOUN	NOUN	_	51	flat	_	SpaceAfter=No|TokenRange=429:435
+

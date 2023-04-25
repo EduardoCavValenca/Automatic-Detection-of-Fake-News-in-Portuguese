@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bispo pede oracao lula prepare ai pao mortadela aleluia prepare ai pao mortadela copo cocacola coloque proximo televisao vamos orar vida expresidente aleluia pai arruma cela bonita pra paredes bonitas ahhh pai possa bem alimentado arroz feijao ovo carne
+1	bispo	bispo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	oracao	oracao	NOUN	NOUN	_	2	obj	_	TokenRange=11:17
+4	lula	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=18:22
+5	prepare	preparar	VERB	VERB	_	2	parataxis	_	TokenRange=23:30
+6	ai	_	ADP	DET	_	7	case	_	TokenRange=31:33
+7	pao	pao	NOUN	NOUN	_	5	nmod	_	TokenRange=34:37
+8	mortadela	_	NOUN	NOUN	_	5	obj	_	TokenRange=38:47
+9	aleluia	aleluia	NOUN	NOUN	_	10	nsubj	_	TokenRange=48:55
+10	prepare	preparar	VERB	VERB	_	5	conj	_	TokenRange=56:63
+11	ai	_	DET	DET	_	12	case	_	TokenRange=64:66
+12	pao	pao	NOUN	NOUN	_	10	nmod	_	TokenRange=67:70
+13	mortadela	_	NOUN	NOUN	_	10	obj	_	TokenRange=71:80
+14	copo	copo	NOUN	NOUN	_	10	obj	_	TokenRange=81:85
+15	cocacola	_	NOUN	NOUN	_	14	flat	_	TokenRange=86:94
+16	coloque	_	VERB	VERB	_	10	conj	_	TokenRange=95:102
+17	proximo	proximo	ADJ	ADV	_	16	advmod	_	TokenRange=103:110
+18	televisao	televisao	NOUN	NOUN	_	16	obj	_	TokenRange=111:120
+19	vamos	ir	AUX	AUX	_	20	aux	_	TokenRange=121:126
+20	orar	orar	VERB	VERB	_	2	conj	_	TokenRange=127:131
+21	vida	vida	NOUN	NOUN	_	20	obj	_	TokenRange=132:136
+22	expresidente	expresidente	ADJ	ADJ	_	21	amod	_	TokenRange=137:149
+23	aleluia	aleluia	NOUN	NOUN	_	25	nsubj	_	TokenRange=150:157
+24	pai	pai	NOUN	NOUN	_	23	flat	_	TokenRange=158:161
+25	arruma	arrumar	VERB	VERB	_	20	parataxis	_	TokenRange=162:168
+26	cela	cela	NOUN	NOUN	_	25	obj	_	TokenRange=169:173
+27	bonita	bonito	ADJ	ADJ	_	26	amod	_	TokenRange=174:180
+28	pra	_	ADP	ADP	_	29	case	_	TokenRange=181:184
+29	paredes	parede	NOUN	NOUN	_	25	nmod	_	TokenRange=185:192
+30	bonitas	bonito	ADJ	ADJ	_	29	amod	_	TokenRange=193:200
+31	ahhh	_	X	NOUN	_	35	nsubj	_	TokenRange=201:205
+32	pai	pai	NOUN	NOUN	_	35	nsubj	_	TokenRange=206:209
+33	possa	_	AUX	AUX	_	35	aux	_	TokenRange=210:215
+34	bem	bem	ADV	ADV	_	35	advmod	_	TokenRange=216:219
+35	alimentado	alimentar	VERB	VERB	_	25	conj	_	TokenRange=220:230
+36	arroz	arroz	NOUN	NOUN	_	35	nsubj	_	TokenRange=231:236
+37	feijao	feijao	ADJ	VERB	_	36	amod	_	TokenRange=237:243
+38	ovo	ovo	NOUN	NOUN	_	36	appos	_	TokenRange=244:247
+39	carne	carne	NOUN	NOUN	_	38	flat	_	SpaceAfter=No|TokenRange=248:253
+

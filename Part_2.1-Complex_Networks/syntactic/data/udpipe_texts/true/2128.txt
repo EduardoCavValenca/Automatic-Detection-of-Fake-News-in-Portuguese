@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pt inicio processo expulsao palocci processo aberto nesta segundafeira 18 bernardo apos acusado quebrar etica partidaria depoimento moro incriminou lula executiva municipal pt ribeirao preto decidiu nesta segundafeira 18 unanimidade enviar caso exministro exprefeito cidade antonio palocci comissao etica partido pratica pt ribeirao deu inicio hoje processo expulsao palocci comissao etica legenda prazo 60 dias prorrogaveis 30 apresentar relatorio exministro
+1	pt	_	NOUN	NOUN	_	26	nmod	_	TokenRange=0:2
+2	inicio	_	ADJ	ADJ	_	1	amod	_	TokenRange=3:9
+3	processo	processo	NOUN	NOUN	_	1	appos	_	TokenRange=10:18
+4	expulsao	expulsao	NOUN	NOUN	_	3	amod	_	TokenRange=19:27
+5	palocci	_	NOUN	NOUN	_	3	appos	_	TokenRange=28:35
+6	processo	processo	NOUN	NOUN	_	1	appos	_	TokenRange=36:44
+7	aberto	abrir	VERB	VERB	_	3	acl	_	TokenRange=45:51
+8	nesta	_	ADP	ADP	_	9	case	_	TokenRange=52:57
+9	segundafeira	_	NOUN	NOUN	_	7	nmod	_	TokenRange=58:70
+10	18	_	NUM	NUM	NumType=Card	9	nmod	_	TokenRange=71:73
+11	bernardo	bernardo	NOUN	NOUN	_	9	appos	_	TokenRange=74:82
+12	apos	_	CCONJ	CONJ	_	13	mark	_	TokenRange=83:87
+13	acusado	acusar	VERB	VERB	_	3	acl	_	TokenRange=88:95
+14	quebrar	quebrar	VERB	VERB	_	13	xcomp	_	TokenRange=96:103
+15	etica	etica	NOUN	NOUN	_	14	obj	_	TokenRange=104:109
+16	partidaria	partidar	ADJ	ADJ	_	15	amod	_	TokenRange=110:120
+17	depoimento	depoimento	NOUN	NOUN	_	19	nsubj	_	TokenRange=121:131
+18	moro	moro	NOUN	NOUN	_	17	appos	_	TokenRange=132:136
+19	incriminou	incriminar	VERB	VERB	_	26	parataxis	_	TokenRange=137:147
+20	lula	_	NOUN	NOUN	_	19	obj	_	TokenRange=148:152
+21	executiva	executivo	NOUN	NOUN	_	20	amod	_	TokenRange=153:162
+22	municipal	municipal	ADJ	ADJ	_	21	amod	_	TokenRange=163:172
+23	pt	_	ADP	ADP	_	24	case	_	TokenRange=173:175
+24	ribeirao	ribeirao	NOUN	NOUN	_	21	nmod	_	TokenRange=176:184
+25	preto	preto	ADJ	ADJ	_	24	amod	_	TokenRange=185:190
+26	decidiu	decidir	VERB	VERB	_	0	root	_	TokenRange=191:198
+27	nesta	_	ADP	ADP	_	28	case	_	TokenRange=199:204
+28	segundafeira	_	NOUN	NOUN	_	26	nmod	_	TokenRange=205:217
+29	18	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=218:220
+30	unanimidade	unanimidade	NOUN	NOUN	_	26	obj	_	TokenRange=221:232
+31	enviar	enviar	VERB	VERB	_	26	xcomp	_	TokenRange=233:239
+32	caso	caso	NOUN	NOUN	_	31	obj	_	TokenRange=240:244
+33	exministro	exministro	ADJ	ADJ	_	32	amod	_	TokenRange=245:255
+34	exprefeito	exprefeito	NOUN	NOUN	_	32	appos	_	TokenRange=256:266
+35	cidade	cidade	NOUN	NOUN	_	32	appos	_	TokenRange=267:273
+36	antonio	antonio	NOUN	NOUN	_	35	appos	_	TokenRange=274:281
+37	palocci	_	NOUN	NOUN	_	35	flat	_	TokenRange=282:289
+38	comissao	comissao	NOUN	NOUN	_	34	appos	_	TokenRange=290:298
+39	etica	etico	ADJ	ADJ	_	38	amod	_	TokenRange=299:304
+40	partido	partido	NOUN	NOUN	_	38	appos	_	TokenRange=305:312
+41	pratica	pratico	ADJ	ADJ	_	40	amod	_	TokenRange=313:320
+42	pt	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=321:323
+43	ribeirao	ribeirao	NOUN	NOUN	_	44	nsubj	_	TokenRange=324:332
+44	deu	dar	VERB	VERB	_	26	conj	_	TokenRange=333:336
+45	inicio	_	NOUN	NOUN	_	44	obj	_	TokenRange=337:343
+46	hoje	hoje	ADV	ADV	_	44	advmod	_	TokenRange=344:348
+47	processo	processo	NOUN	NOUN	_	44	obj	_	TokenRange=349:357
+48	expulsao	expulsao	ADJ	ADJ	_	47	amod	_	TokenRange=358:366
+49	palocci	_	NOUN	NOUN	_	47	appos	_	TokenRange=367:374
+50	comissao	comissao	NOUN	NOUN	_	47	appos	_	TokenRange=375:383
+51	etica	etico	ADJ	ADJ	_	50	amod	_	TokenRange=384:389
+52	legenda	legendar	VERB	VERB	_	44	parataxis	_	TokenRange=390:397
+53	prazo	prazo	NOUN	NOUN	_	52	obj	_	TokenRange=398:403
+54	60	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=404:406
+55	dias	dia	NOUN	NOUN	_	58	obj	_	TokenRange=407:411
+56	prorrogaveis	prorrogavel	ADJ	ADJ	_	55	amod	_	TokenRange=412:424
+57	30	_	NUM	NUM	NumType=Card	55	appos	_	TokenRange=425:427
+58	apresentar	apresentar	VERB	VERB	_	52	ccomp	_	TokenRange=428:438
+59	relatorio	relatorio	NOUN	NOUN	_	58	obj	_	TokenRange=439:448
+60	exministro	exministro	ADJ	ADJ	_	59	amod	_	SpaceAfter=No|TokenRange=449:459
+

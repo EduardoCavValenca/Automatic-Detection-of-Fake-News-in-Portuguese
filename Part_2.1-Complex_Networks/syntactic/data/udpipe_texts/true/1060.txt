@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = justica sp aceita recurso levy fidelix suspende indenizacao r 1 milhao comentarios contra gays tribunal entendeu necessario privilegiar liberdade expressao segundo advogado prtb fidelix disse debate 2014 homossexuais problemas psicologicos devem atendidos bem longe tribunal justica paulo tjsp acolheu recurso defesa suspendeu decisao obrigava politico levy fidelix prtb pagar r 1 milhao indenizacao danos morais movimentos lesbicas gays bissexuais travestis transgeneros lgbt sido determinado primeira instancia defensoria publica estado paulo informou vai recorrer decisao debate candidatos presidencia transmitido tv dia 28 setembro 2014 fidelix questionado entao candidata
+1	justica	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	sp	_	ADJ	ADJ	_	1	amod	_	TokenRange=8:10
+3	aceita	aceitar	VERB	VERB	_	0	root	_	TokenRange=11:17
+4	recurso	recurso	NOUN	NOUN	_	3	obj	_	TokenRange=18:25
+5	levy	levy	ADJ	ADJ	_	4	amod	_	TokenRange=26:30
+6	fidelix	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=31:38
+7	suspende	suspender	VERB	VERB	_	3	ccomp	_	TokenRange=39:47
+8	indenizacao	_	NOUN	NOUN	_	7	obj	_	TokenRange=48:59
+9	r	r	NOUN	NOUN	_	8	flat	_	TokenRange=60:61
+10	1	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=62:63
+11	milhao	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=64:70
+12	comentarios	comentario	NOUN	NOUN	_	7	obj	_	TokenRange=71:82
+13	contra	_	ADP	ADP	_	14	case	_	TokenRange=83:89
+14	gays	gay	NOUN	NOUN	_	12	nmod	_	TokenRange=90:94
+15	tribunal	tribunal	ADJ	ADJ	_	14	amod	_	TokenRange=95:103
+16	entendeu	entender	VERB	VERB	_	3	parataxis	_	TokenRange=104:112
+17	necessario	necessario	ADJ	ADJ	_	16	xcomp	_	TokenRange=113:123
+18	privilegiar	privilegiar	VERB	VERB	_	16	xcomp	_	TokenRange=124:135
+19	liberdade	liberdade	NOUN	NOUN	_	18	obj	_	TokenRange=136:145
+20	expressao	expressao	ADJ	ADJ	_	19	amod	_	TokenRange=146:155
+21	segundo	_	ADP	ADP	_	22	case	_	TokenRange=156:163
+22	advogado	advogado	NOUN	NOUN	_	25	nmod	_	TokenRange=164:172
+23	prtb	_	NOUN	ADJ	_	22	appos	_	TokenRange=173:177
+24	fidelix	_	NOUN	NOUN	_	22	appos	_	TokenRange=178:185
+25	disse	dizer	VERB	VERB	_	3	advcl	_	TokenRange=186:191
+26	debate	debate	NOUN	NOUN	_	25	obj	_	TokenRange=192:198
+27	2014	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=199:203
+28	homossexuais	homossexual	ADJ	ADJ	_	29	amod	_	TokenRange=204:216
+29	problemas	problema	NOUN	NOUN	_	25	nsubj	_	TokenRange=217:226
+30	psicologicos	psicologico	ADJ	ADJ	_	29	amod	_	TokenRange=227:239
+31	devem	_	AUX	AUX	_	32	aux	_	TokenRange=240:245
+32	atendidos	atender	VERB	VERB	_	26	acl:relcl	_	TokenRange=246:255
+33	bem	bem	ADV	ADV	_	34	advmod	_	TokenRange=256:259
+34	longe	longe	ADV	ADV	_	32	advmod	_	TokenRange=260:265
+35	tribunal	tribunal	NOUN	NOUN	_	39	nsubj	_	TokenRange=266:274
+36	justica	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=275:282
+37	paulo	paulo	ADJ	NOUN	_	36	amod	_	TokenRange=283:288
+38	tjsp	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=289:293
+39	acolheu	acolher	VERB	VERB	_	32	conj	_	TokenRange=294:301
+40	recurso	recurso	NOUN	NOUN	_	39	obj	_	TokenRange=302:309
+41	defesa	_	NOUN	NOUN	_	40	amod	_	TokenRange=310:316
+42	suspendeu	suspender	VERB	VERB	_	39	parataxis	_	TokenRange=317:326
+43	decisao	decisao	NOUN	NOUN	_	42	obj	_	TokenRange=327:334
+44	obrigava	obrigavo	ADJ	ADJ	_	43	amod	_	TokenRange=335:343
+45	politico	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=344:352
+46	levy	levy	NOUN	NOUN	_	43	appos	_	TokenRange=353:357
+47	fidelix	_	NOUN	NOUN	_	46	flat	_	TokenRange=358:365
+48	prtb	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=366:370
+49	pagar	pagar	VERB	VERB	_	46	acl:relcl	_	TokenRange=371:376
+50	r	r	NOUN	NOUN	_	49	obj	_	TokenRange=377:378
+51	1	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=379:380
+52	milhao	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=381:387
+53	indenizacao	_	ADJ	ADJ	_	54	amod	_	TokenRange=388:399
+54	danos	dano	NOUN	NOUN	_	49	nsubj	_	TokenRange=400:405
+55	morais	moral	ADJ	ADJ	_	54	amod	_	TokenRange=406:412
+56	movimentos	movimento	NOUN	NOUN	_	54	appos	_	TokenRange=413:423
+57	lesbicas	lesbico	ADJ	ADJ	_	56	amod	_	TokenRange=424:432
+58	gays	gay	ADJ	ADJ	_	56	amod	_	TokenRange=433:437
+59	bissexuais	bissexual	ADJ	ADJ	_	56	amod	_	TokenRange=438:448
+60	travestis	travesti	ADJ	ADJ	_	56	amod	_	TokenRange=449:458
+61	transgeneros	transgenero	ADJ	ADJ	_	56	amod	_	TokenRange=459:471
+62	lgbt	lgbt	ADJ	ADJ	_	56	amod	_	TokenRange=472:476
+63	sido	ser	AUX	AUX	_	64	aux:pass	_	TokenRange=477:481
+64	determinado	determinar	VERB	VERB	_	56	acl	_	TokenRange=482:493
+65	primeira	primeiro	ADJ	ADJ	_	66	amod	_	TokenRange=494:502
+66	instancia	instancia	NOUN	NOUN	_	64	nsubj:pass	_	TokenRange=503:512
+67	defensoria	defensoria	NOUN	NOUN	_	64	nsubj:pass	_	TokenRange=513:523
+68	publica	publico	ADJ	ADJ	_	67	amod	_	TokenRange=524:531
+69	estado	estado	NOUN	NOUN	_	67	appos	_	TokenRange=532:538
+70	paulo	paulo	ADJ	ADJ	_	69	amod	_	TokenRange=539:544
+71	informou	informar	VERB	VERB	_	64	parataxis	_	TokenRange=545:553
+72	vai	ir	AUX	AUX	_	73	aux	_	TokenRange=554:557
+73	recorrer	recorrer	VERB	VERB	_	71	ccomp	_	TokenRange=558:566
+74	decisao	decisao	NOUN	NOUN	_	73	obj	_	TokenRange=567:574
+75	debate	debate	NOUN	NOUN	_	73	obj	_	TokenRange=575:581
+76	candidatos	candidato	NOUN	NOUN	_	75	appos	_	TokenRange=582:592
+77	presidencia	presidencia	NOUN	NOUN	_	76	flat	_	TokenRange=593:604
+78	transmitido	transmitir	VERB	VERB	_	75	acl	_	TokenRange=605:616
+79	tv	_	NOUN	NOUN	_	78	nmod	_	TokenRange=617:619
+80	dia	dia	NOUN	NOUN	_	78	nmod	_	TokenRange=620:623
+81	28	_	NUM	NUM	NumType=Card	80	nmod	_	TokenRange=624:626
+82	setembro	_	PROPN	PNOUN	_	80	nmod	_	TokenRange=627:635
+83	2014	_	NUM	NUM	NumType=Card	82	nmod	_	TokenRange=636:640
+84	fidelix	fidelix	NOUN	NOUN	_	85	nsubj	_	TokenRange=641:648
+85	questionado	questionar	VERB	VERB	_	71	parataxis	_	TokenRange=649:660
+86	entao	entao	ADV	ADV	_	87	advmod	_	TokenRange=661:666
+87	candidata	candidato	NOUN	NOUN	_	85	obj	_	SpaceAfter=No|TokenRange=667:676
+

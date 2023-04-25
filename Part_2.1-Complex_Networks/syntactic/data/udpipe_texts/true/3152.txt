@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tercafeira 11 julho 2017 boa noite aqui principais noticias terminar dia beminformado confusao jamais vista iniciada fim manha sessao senado votar reforma trabalhista ficou 6 horas paralisada porque senadoras oposicao decidiram ocupar mesa diretora presidente casa eunicio oliveira pmdbce impedido sentar cadeira luz plenario apagada impasse prosseguiu fim tarde protesto encerrado eunicio retomou lugar reabriu trabalhos fim reforma aprovada 50 votos 26 senadoras gleisi hoffmann ptpr lidice mata psbba vanessa grazziotin pcdobam fatima bezerra ptrn regina sousa ptpi mesa diretora senado assim sessao aberta volta 11h la
+1	tercafeira	tercafeira	NOUN	NOUN	_	24	parataxis	_	TokenRange=0:10
+2	11	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=11:13
+3	julho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:19
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=20:24
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=25:28
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+7	aqui	aqui	ADV	ADV	_	15	advmod	_	TokenRange=35:39
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=40:50
+9	noticias	noticia	NOUN	NOUN	_	21	nsubj	_	TokenRange=51:59
+10	terminar	terminar	VERB	VERB	_	24	parataxis	_	TokenRange=60:68
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=69:72
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=73:85
+13	confusao	confusao	NOUN	NOUN	_	10	obj	_	TokenRange=86:94
+14	jamais	jamais	ADV	ADV	_	15	advmod	_	TokenRange=95:101
+15	vista	_	NOUN	NOUN	_	13	amod	_	TokenRange=102:107
+16	iniciada	iniciar	VERB	VERB	_	13	acl	_	TokenRange=108:116
+17	fim	fim	NOUN	NOUN	_	21	obj	_	TokenRange=117:120
+18	manha	manha	ADJ	NOUN	_	19	amod	_	TokenRange=121:126
+19	sessao	sessao	NOUN	NOUN	_	21	nsubj	_	TokenRange=127:133
+20	senado	senado	NOUN	NOUN	_	19	flat	_	TokenRange=134:140
+21	votar	votar	VERB	VERB	_	24	csubj	_	TokenRange=141:146
+22	reforma	reforma	NOUN	NOUN	_	21	obj	_	TokenRange=147:154
+23	trabalhista	trabalhista	ADJ	ADJ	_	22	amod	_	TokenRange=155:166
+24	ficou	ficar	VERB	VERB	_	0	root	_	TokenRange=167:172
+25	6	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=173:174
+26	horas	hora	NOUN	NOUN	_	24	nmod	_	TokenRange=175:180
+27	paralisada	paralisado	ADJ	ADJ	_	24	xcomp	_	TokenRange=181:191
+28	porque	_	CCONJ	CONJ	_	31	mark	_	TokenRange=192:198
+29	senadoras	senador	NOUN	NOUN	_	31	nsubj	_	TokenRange=199:208
+30	oposicao	_	ADJ	ADJ	_	29	amod	_	TokenRange=209:217
+31	decidiram	decidir	VERB	VERB	_	24	advcl	_	TokenRange=218:227
+32	ocupar	ocupar	VERB	VERB	_	31	xcomp	_	TokenRange=228:234
+33	mesa	mesa	NOUN	NOUN	_	32	obj	_	TokenRange=235:239
+34	diretora	diretor	ADJ	ADJ	_	33	amod	_	TokenRange=240:248
+35	presidente	presidente	NOUN	NOUN	_	33	appos	_	TokenRange=249:259
+36	casa	casa	NOUN	NOUN	_	33	appos	_	TokenRange=260:264
+37	eunicio	_	NOUN	NOUN	_	33	appos	_	TokenRange=265:272
+38	oliveira	oliveira	NOUN	NOUN	_	37	flat	_	TokenRange=273:281
+39	pmdbce	_	NOUN	NOUN	_	37	flat	_	TokenRange=282:288
+40	impedido	impedido	ADJ	ADJ	_	39	amod	_	TokenRange=289:297
+41	sentar	sentar	VERB	VERB	_	39	acl:relcl	_	TokenRange=298:304
+42	cadeira	cadeira	NOUN	NOUN	_	41	obj	_	TokenRange=305:312
+43	luz	luz	NOUN	NOUN	_	42	flat	_	TokenRange=313:316
+44	plenario	plenario	ADJ	ADJ	_	42	amod	_	TokenRange=317:325
+45	apagada	apagado	ADJ	ADJ	_	46	amod	_	TokenRange=326:333
+46	impasse	impasse	NOUN	NOUN	_	47	nsubj	_	TokenRange=334:341
+47	prosseguiu	prosseguir	VERB	VERB	_	31	conj	_	TokenRange=342:352
+48	fim	fim	NOUN	NOUN	_	47	nmod	_	TokenRange=353:356
+49	tarde	tarde	NOUN	NOUN	_	50	advmod	_	TokenRange=357:362
+50	protesto	protesto	NOUN	NOUN	_	47	nsubj	_	TokenRange=363:371
+51	encerrado	encerrado	ADJ	ADJ	_	50	amod	_	TokenRange=372:381
+52	eunicio	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=382:389
+53	retomou	retomar	VERB	VERB	_	47	conj	_	TokenRange=390:397
+54	lugar	lugar	NOUN	NOUN	_	53	obj	_	TokenRange=398:403
+55	reabriu	reabrir	VERB	VERB	_	53	parataxis	_	TokenRange=404:411
+56	trabalhos	trabalho	NOUN	NOUN	_	55	obj	_	TokenRange=412:421
+57	fim	fim	ADJ	NOUN	_	58	amod	_	TokenRange=422:425
+58	reforma	reforma	NOUN	NOUN	_	55	nsubj	_	TokenRange=426:433
+59	aprovada	aprovar	VERB	VERB	_	58	acl	_	TokenRange=434:442
+60	50	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=443:445
+61	votos	voto	NOUN	NOUN	_	59	nsubj	_	TokenRange=446:451
+62	26	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=452:454
+63	senadoras	senador	NOUN	NOUN	_	53	nsubj	_	TokenRange=455:464
+64	gleisi	_	NOUN	NOUN	_	63	appos	_	TokenRange=465:471
+65	hoffmann	_	NOUN	NOUN	_	64	flat	_	TokenRange=472:480
+66	ptpr	ptpr	NOUN	NOUN	_	64	flat	_	TokenRange=481:485
+67	lidice	lidice	NOUN	NOUN	_	64	appos	_	TokenRange=486:492
+68	mata	mata	NOUN	NOUN	_	67	flat	_	TokenRange=493:497
+69	psbba	_	NOUN	NOUN	_	64	appos	_	TokenRange=498:503
+70	vanessa	_	NOUN	NOUN	_	64	appos	_	TokenRange=504:511
+71	grazziotin	_	NOUN	NOUN	_	70	flat	_	TokenRange=512:522
+72	pcdobam	_	NOUN	NOUN	_	64	appos	_	TokenRange=523:530
+73	fatima	_	NOUN	NOUN	_	72	appos	_	TokenRange=531:537
+74	bezerra	_	NOUN	NOUN	_	73	flat	_	TokenRange=538:545
+75	ptrn	_	NOUN	NOUN	_	73	flat	_	TokenRange=546:550
+76	regina	_	NOUN	NOUN	_	73	appos	_	TokenRange=551:557
+77	sousa	souso	ADJ	ADJ	_	73	flat	_	TokenRange=558:563
+78	ptpi	_	X	X	_	83	appos	_	TokenRange=564:568
+79	mesa	mesa	NOUN	NOUN	_	83	appos	_	TokenRange=569:573
+80	diretora	diretor	ADJ	ADJ	_	79	amod	_	TokenRange=574:582
+81	senado	senado	NOUN	NOUN	_	79	amod	_	TokenRange=583:589
+82	assim	assim	ADV	ADV	_	83	advmod	_	TokenRange=590:595
+83	sessao	sessao	VERB	VERB	_	24	parataxis	_	TokenRange=596:602
+84	aberta	aberto	ADJ	ADJ	_	83	amod	_	TokenRange=603:609
+85	volta	volta	NOUN	NOUN	_	83	nmod	_	TokenRange=610:615
+86	11h	_	NUM	NUM	NumType=Card	85	appos	_	TokenRange=616:619
+87	la	_	PRON	PRON	_	83	flat	_	SpaceAfter=No|TokenRange=620:622
+

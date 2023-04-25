@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 14 dezembro bom dia aqui principais noticias comecar dia beminformado fundo bilionario dinheiro publico congresso aprovou ontem destinar r 17 bilhao pagar campanhas eleitorais 2018 valor previsto orcamento ano vem agora segue sancao temer presidente porem passou cirurgia paulo depende alta retornar brasilia onde vai reunir lideres camara senado discutir votacao reforma previdencia previsao
+1	quintafeira	quintafeira	NOUN	NOUN	_	17	parataxis	_	TokenRange=0:11
+2	14	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:14
+3	dezembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:23
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=24:27
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=28:31
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=32:36
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=37:47
+8	noticias	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=48:56
+9	comecar	comecar	VERB	VERB	_	1	acl:relcl	_	TokenRange=57:64
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=65:68
+11	beminformado	beminformado	ADJ	ADJ	_	12	amod	_	TokenRange=69:81
+12	fundo	fundo	NOUN	NOUN	_	9	nsubj	_	TokenRange=82:87
+13	bilionario	bilionario	ADJ	ADJ	_	12	amod	_	TokenRange=88:98
+14	dinheiro	dinheiro	NOUN	NOUN	_	12	appos	_	TokenRange=99:107
+15	publico	_	ADJ	ADJ	_	14	amod	_	TokenRange=108:115
+16	congresso	congresso	NOUN	NOUN	_	17	nsubj	_	TokenRange=116:125
+17	aprovou	aprovar	VERB	VERB	_	0	root	_	TokenRange=126:133
+18	ontem	ontem	ADV	ADV	_	17	advmod	_	TokenRange=134:139
+19	destinar	destinar	VERB	VERB	_	17	xcomp	_	TokenRange=140:148
+20	r	r	NOUN	NOUN	_	19	obj	_	TokenRange=149:150
+21	17	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=151:153
+22	bilhao	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=154:160
+23	pagar	pagar	VERB	VERB	_	19	ccomp	_	TokenRange=161:166
+24	campanhas	campanha	NOUN	NOUN	_	23	obj	_	TokenRange=167:176
+25	eleitorais	eleitoral	ADJ	ADJ	_	24	amod	_	TokenRange=177:187
+26	2018	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=188:192
+27	valor	valor	NOUN	NOUN	_	23	obj	_	TokenRange=193:198
+28	previsto	previsto	ADJ	ADJ	_	27	amod	_	TokenRange=199:207
+29	orcamento	orcamento	NOUN	NOUN	_	27	appos	_	TokenRange=208:217
+30	ano	ano	NOUN	NOUN	_	27	appos	_	TokenRange=218:221
+31	vem	vir	VERB	VERB	_	33	parataxis	_	TokenRange=222:225
+32	agora	agora	ADV	ADV	_	33	advmod	_	TokenRange=226:231
+33	segue	_	VERB	VERB	_	17	parataxis	_	TokenRange=232:237
+34	sancao	sancao	NOUN	NOUN	_	33	nsubj	_	TokenRange=238:244
+35	temer	temer	NOUN	NOUN	_	34	flat	_	TokenRange=245:250
+36	presidente	presidente	NOUN	NOUN	_	34	flat	_	TokenRange=251:261
+37	porem	_	NOUN	NOUN	_	38	mark	_	TokenRange=262:267
+38	passou	passar	VERB	VERB	_	34	acl:relcl	_	TokenRange=268:274
+39	cirurgia	cirurgia	NOUN	NOUN	_	38	nsubj	_	TokenRange=275:283
+40	paulo	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=284:289
+41	depende	depender	VERB	VERB	_	38	conj	_	TokenRange=290:297
+42	alta	_	NOUN	NOUN	_	41	obj	_	TokenRange=298:302
+43	retornar	retornar	VERB	VERB	_	41	ccomp	_	TokenRange=303:311
+44	brasilia	brasilia	NOUN	NOUN	_	43	obj	_	TokenRange=312:320
+45	onde	onde	ADV	ADV	_	47	advmod	_	TokenRange=321:325
+46	vai	ir	AUX	AUX	_	47	aux	_	TokenRange=326:329
+47	reunir	reunir	VERB	VERB	_	44	acl:relcl	_	TokenRange=330:336
+48	lideres	lider	NOUN	NOUN	_	47	obj	_	TokenRange=337:344
+49	camara	camara	NOUN	NOUN	_	51	nsubj	_	TokenRange=345:351
+50	senado	senado	NOUN	NOUN	_	51	nsubj	_	TokenRange=352:358
+51	discutir	discutir	VERB	VERB	_	44	acl:relcl	_	TokenRange=359:367
+52	votacao	votacao	NOUN	NOUN	_	51	obj	_	TokenRange=368:375
+53	reforma	reforma	NOUN	NOUN	_	51	obj	_	TokenRange=376:383
+54	previdencia	previdencia	NOUN	NOUN	_	51	obj	_	TokenRange=384:395
+55	previsao	previsao	NOUN	NOUN	_	53	amod	_	SpaceAfter=No|TokenRange=396:404
+

@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tv russa 3 guerra comecou cenario novo conflito mundial remoto ligar televisao russia vai surpreender saber verdade comecou cenario 3 guerra remoto ligar televisao russia vai surpreender saber verdade comecou principal emissora publica pais apresentador programa estrela domingo noite anunciou baterias antiaereas russas siria vao derrubar avioes americanos
+1	tv	tv	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:2
+2	russa	russo	ADJ	ADJ	_	1	amod	_	TokenRange=3:8
+3	3	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=9:10
+4	guerra	guerra	NOUN	NOUN	_	5	nsubj	_	TokenRange=11:17
+5	comecou	comecar	VERB	VERB	_	0	root	_	TokenRange=18:25
+6	cenario	cenario	NOUN	NOUN	_	5	obj	_	TokenRange=26:33
+7	novo	novo	ADJ	ADJ	_	8	amod	_	TokenRange=34:38
+8	conflito	conflito	NOUN	NOUN	_	5	nsubj	_	TokenRange=39:47
+9	mundial	mundial	ADJ	ADJ	_	8	amod	_	TokenRange=48:55
+10	remoto	remoto	ADJ	ADJ	_	8	amod	_	TokenRange=56:62
+11	ligar	ligar	VERB	VERB	_	8	appos	_	TokenRange=63:68
+12	televisao	televisao	NOUN	NOUN	_	11	obj	_	TokenRange=69:78
+13	russia	russia	ADJ	NOUN	_	15	nsubj	_	TokenRange=79:85
+14	vai	ir	AUX	AUX	_	15	aux	_	TokenRange=86:89
+15	surpreender	surpreender	VERB	VERB	_	5	conj	_	TokenRange=90:101
+16	saber	saber	VERB	VERB	_	15	xcomp	_	TokenRange=102:107
+17	verdade	verdade	NOUN	NOUN	_	16	obj	_	TokenRange=108:115
+18	comecou	comecar	VERB	VERB	_	15	parataxis	_	TokenRange=116:123
+19	cenario	cenario	NOUN	NOUN	_	18	nsubj	_	TokenRange=124:131
+20	3	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=132:133
+21	guerra	guerra	NOUN	NOUN	_	18	nsubj	_	TokenRange=134:140
+22	remoto	remoto	ADJ	ADJ	_	21	amod	_	TokenRange=141:147
+23	ligar	ligar	VERB	VERB	_	18	csubj	_	TokenRange=148:153
+24	televisao	televisao	NOUN	NOUN	_	23	obj	_	TokenRange=154:163
+25	russia	russia	ADJ	NOUN	_	27	nsubj	_	TokenRange=164:170
+26	vai	ir	AUX	AUX	_	27	aux	_	TokenRange=171:174
+27	surpreender	surpreender	VERB	VERB	_	23	ccomp	_	TokenRange=175:186
+28	saber	saber	VERB	VERB	_	27	xcomp	_	TokenRange=187:192
+29	verdade	verdade	NOUN	NOUN	_	28	obj	_	TokenRange=193:200
+30	comecou	comecar	AUX	VERB	_	27	aux	_	TokenRange=201:208
+31	principal	principal	ADJ	ADJ	_	32	amod	_	TokenRange=209:218
+32	emissora	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=219:227
+33	publica	publico	ADJ	ADJ	_	32	amod	_	TokenRange=228:235
+34	pais	_	NOUN	NOUN	_	32	appos	_	TokenRange=236:240
+35	apresentador	apresentador	ADJ	ADJ	_	32	amod	_	TokenRange=241:253
+36	programa	programa	NOUN	NOUN	_	32	appos	_	TokenRange=254:262
+37	estrela	estrela	NOUN	NOUN	_	36	appos	_	TokenRange=263:270
+38	domingo	_	PROPN	PNOUN	_	36	appos	_	TokenRange=271:278
+39	noite	noite	NOUN	NOUN	_	40	nsubj	_	TokenRange=279:284
+40	anunciou	anunciar	VERB	VERB	_	32	acl:relcl	_	TokenRange=285:293
+41	baterias	bateria	NOUN	NOUN	_	40	obj	_	TokenRange=294:302
+42	antiaereas	antiaereo	ADJ	ADJ	_	41	amod	_	TokenRange=303:313
+43	russas	russo	ADJ	ADJ	_	41	amod	_	TokenRange=314:320
+44	siria	sirio	ADJ	ADJ	_	41	amod	_	TokenRange=321:326
+45	vao	ir	AUX	AUX	_	46	aux	_	TokenRange=327:330
+46	derrubar	derrubar	VERB	VERB	_	40	parataxis	_	TokenRange=331:339
+47	avioes	avioe	NOUN	NOUN	_	46	obj	_	TokenRange=340:346
+48	americanos	americano	ADJ	ADJ	_	47	amod	_	SpaceAfter=No|TokenRange=347:357
+

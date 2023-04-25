@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pitaia sardinhas quiosques badalados sereias veja destaques verao rio estacao termina segundafeira ditou novas modas maio cavado usados praias blocos carnaval relembre fatos marcaram periodo estacao celebrada ano rio janeiro partir deste sabado 18 ultimo fim semana antes dar lugar outono segundafeira 20 alem sensacao quase 50c pouca chuva mar quente media verao carioca ditou vez moda tendencias relembre alguns fatos marcaram verao 2017 mar cristalino agua quente calma praias orla rio propocionaram encantamento cariocas turistas
+1	pitaia	pitaia	NOUN	NOUN	_	0	root	_	TokenRange=0:6
+2	sardinhas	_	NOUN	NOUN	_	1	appos	_	TokenRange=7:16
+3	quiosques	quiosque	NOUN	NOUN	_	1	appos	_	TokenRange=17:26
+4	badalados	badalado	ADJ	ADJ	_	5	amod	_	TokenRange=27:36
+5	sereias	_	NOUN	NOUN	_	1	appos	_	TokenRange=37:44
+6	veja	ver	VERB	VERB	_	1	acl:relcl	_	TokenRange=45:49
+7	destaques	destaque	NOUN	NOUN	_	6	obj	_	TokenRange=50:59
+8	verao	verao	NOUN	NOUN	_	7	appos	_	TokenRange=60:65
+9	rio	_	NOUN	NOUN	_	8	appos	_	TokenRange=66:69
+10	estacao	estacao	NOUN	NOUN	_	11	nsubj	_	TokenRange=70:77
+11	termina	terminar	VERB	VERB	_	7	acl:relcl	_	TokenRange=78:85
+12	segundafeira	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=86:98
+13	ditou	ditar	VERB	VERB	_	1	parataxis	_	TokenRange=99:104
+14	novas	novo	ADJ	ADJ	_	15	amod	_	TokenRange=105:110
+15	modas	moda	NOUN	NOUN	_	13	obj	_	TokenRange=111:116
+16	maio	_	PROPN	PNOUN	_	15	appos	_	TokenRange=117:121
+17	cavado	cavado	NOUN	NOUN	_	16	flat	_	TokenRange=122:128
+18	usados	usado	ADJ	ADJ	_	19	amod	_	TokenRange=129:135
+19	praias	praia	NOUN	NOUN	_	15	appos	_	TokenRange=136:142
+20	blocos	bloco	NOUN	NOUN	_	19	amod	_	TokenRange=143:149
+21	carnaval	carnaval	NOUN	NOUN	_	19	appos	_	TokenRange=150:158
+22	relembre	relembre	ADJ	NOUN	_	23	amod	_	TokenRange=159:167
+23	fatos	fato	NOUN	NOUN	_	24	nsubj	_	TokenRange=168:173
+24	marcaram	marcar	VERB	VERB	_	13	parataxis	_	TokenRange=174:182
+25	periodo	periodo	NOUN	NOUN	_	24	obj	_	TokenRange=183:190
+26	estacao	estacao	NOUN	NOUN	_	25	appos	_	TokenRange=191:198
+27	celebrada	_	ADJ	ADJ	_	28	amod	_	TokenRange=199:208
+28	ano	ano	NOUN	NOUN	_	25	appos	_	TokenRange=209:212
+29	rio	_	NOUN	NOUN	_	28	appos	_	TokenRange=213:216
+30	janeiro	_	PROPN	PNOUN	_	29	flat	_	TokenRange=217:224
+31	partir	partir	VERB	VERB	_	24	parataxis	_	TokenRange=225:231
+32	deste	_	ADP	ADP	_	33	case	_	TokenRange=232:237
+33	sabado	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=238:244
+34	18	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=245:247
+35	ultimo	_	ADJ	ADJ	_	36	amod	_	TokenRange=248:254
+36	fim	fim	NOUN	NOUN	_	33	appos	_	TokenRange=255:258
+37	semana	semana	NOUN	NOUN	_	39	nmod	_	TokenRange=259:265
+38	antes	antes	ADV	ADV	_	39	advmod	_	TokenRange=266:271
+39	dar	dar	VERB	VERB	_	24	parataxis	_	TokenRange=272:275
+40	lugar	lugar	NOUN	NOUN	_	39	obj	_	TokenRange=276:281
+41	outono	_	NOUN	NOUN	_	40	appos	_	TokenRange=282:288
+42	segundafeira	_	NOUN	NOUN	_	39	nmod	_	TokenRange=289:301
+43	20	_	NUM	NUM	NumType=Card	44	appos	_	TokenRange=302:304
+44	alem	alem	NOUN	NOUN	_	39	appos	_	TokenRange=305:309
+45	sensacao	sensacao	NOUN	NOUN	_	44	flat	_	TokenRange=310:318
+46	quase	quase	ADV	ADV	_	47	advmod	_	TokenRange=319:324
+47	50c	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=325:328
+48	pouca	_	DET	DET	_	49	det	_	TokenRange=329:334
+49	chuva	chuva	NOUN	NOUN	_	39	nsubj	_	TokenRange=335:340
+50	mar	mar	NOUN	NOUN	_	49	appos	_	TokenRange=341:344
+51	quente	quente	ADJ	ADJ	_	50	amod	_	TokenRange=345:351
+52	media	media	NOUN	NOUN	_	49	appos	_	TokenRange=352:357
+53	verao	verao	NOUN	NOUN	_	49	appos	_	TokenRange=358:363
+54	carioca	carioca	ADJ	ADJ	_	53	amod	_	TokenRange=364:371
+55	ditou	ditar	VERB	VERB	_	49	acl:relcl	_	TokenRange=372:377
+56	vez	vez	NOUN	NOUN	_	55	obj	_	TokenRange=378:381
+57	moda	moda	NOUN	NOUN	_	56	flat	_	TokenRange=382:386
+58	tendencias	_	NOUN	NOUN	_	56	flat	_	TokenRange=387:397
+59	relembre	relembre	ADJ	ADJ	_	56	flat	_	TokenRange=398:406
+60	alguns	_	DET	DET	_	61	det	_	TokenRange=407:413
+61	fatos	fato	NOUN	NOUN	_	62	nsubj	_	TokenRange=414:419
+62	marcaram	marcar	VERB	VERB	_	13	parataxis	_	TokenRange=420:428
+63	verao	verao	NOUN	NOUN	_	62	nmod	_	TokenRange=429:434
+64	2017	_	NUM	NUM	NumType=Card	63	nmod	_	TokenRange=435:439
+65	mar	mar	NOUN	NOUN	_	62	obj	_	TokenRange=440:443
+66	cristalino	cristalino	ADJ	ADJ	_	65	amod	_	TokenRange=444:454
+67	agua	agua	NOUN	NOUN	_	65	appos	_	TokenRange=455:459
+68	quente	quente	ADJ	ADJ	_	67	amod	_	TokenRange=460:466
+69	calma	_	ADJ	ADJ	_	70	amod	_	TokenRange=467:472
+70	praias	praia	NOUN	NOUN	_	65	appos	_	TokenRange=473:479
+71	orla	orla	NOUN	NOUN	_	70	appos	_	TokenRange=480:484
+72	rio	rio	NOUN	NOUN	_	71	flat	_	TokenRange=485:488
+73	propocionaram	propocionar	VERB	VERB	_	62	parataxis	_	TokenRange=489:502
+74	encantamento	encantamento	NOUN	NOUN	_	73	obj	_	TokenRange=503:515
+75	cariocas	carioca	ADJ	ADJ	_	76	amod	_	TokenRange=516:524
+76	turistas	turista	NOUN	NOUN	_	74	amod	_	SpaceAfter=No|TokenRange=525:533
+

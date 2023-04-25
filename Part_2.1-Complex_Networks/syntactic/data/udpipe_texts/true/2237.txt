@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = enquanto amigos cariocas enviam fotos barraca uruguaio posto 9 ipanema cordao bola preta guiados maria rita leandra leal levam 15 milh oes folioes centro rio comemorando 100 anos carnaval antonio tio guitarrista banda selvagens manda roteiro banda dias durante carnaval amigo tricolor diretor alegoria vila izabel manda audio via zap samba bloco merda ipanema passo maior parte tempo escuro
+1	enquanto	_	CCONJ	CONJ	_	4	mark	_	TokenRange=0:8
+2	amigos	amigo	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:15
+3	cariocas	carioca	ADJ	ADJ	_	2	amod	_	TokenRange=16:24
+4	enviam	enviar	VERB	VERB	_	19	advcl	_	TokenRange=25:31
+5	fotos	foto	NOUN	NOUN	_	4	obj	_	TokenRange=32:37
+6	barraca	_	NOUN	NOUN	_	5	appos	_	TokenRange=38:45
+7	uruguaio	uruguaio	ADJ	ADJ	_	6	amod	_	TokenRange=46:54
+8	posto	posto	NOUN	NOUN	_	5	appos	_	TokenRange=55:60
+9	9	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=61:62
+10	ipanema	ipanema	NOUN	NOUN	_	8	appos	_	TokenRange=63:70
+11	cordao	cordao	NOUN	NOUN	_	12	amod	_	TokenRange=71:77
+12	bola	bola	NOUN	NOUN	_	5	appos	_	TokenRange=78:82
+13	preta	preto	ADJ	ADJ	_	12	amod	_	TokenRange=83:88
+14	guiados	guiado	NOUN	NOUN	_	12	amod	_	TokenRange=89:96
+15	maria	mario	ADJ	ADJ	_	16	amod	_	TokenRange=97:102
+16	rita	_	NOUN	NOUN	_	12	appos	_	TokenRange=103:107
+17	leandra	_	NOUN	NOUN	_	16	appos	_	TokenRange=108:115
+18	leal	leal	ADJ	ADJ	_	17	amod	_	TokenRange=116:120
+19	levam	levar	VERB	VERB	_	0	root	_	TokenRange=121:126
+20	15	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=127:129
+21	milh	_	NUM	NUM	NumType=Card	19	obj	_	TokenRange=130:134
+22	oes	_	CCONJ	CONJ	_	23	cc	_	TokenRange=135:138
+23	folioes	_	NOUN	NOUN	_	19	obj	_	TokenRange=139:146
+24	centro	centro	NOUN	NOUN	_	23	appos	_	TokenRange=147:153
+25	rio	_	NOUN	NOUN	_	24	flat	_	TokenRange=154:157
+26	comemorando	comemorar	VERB	VERB	_	19	acl	_	TokenRange=158:169
+27	100	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=170:173
+28	anos	ano	NOUN	NOUN	_	26	obj	_	TokenRange=174:178
+29	carnaval	carnaval	NOUN	NOUN	_	28	appos	_	TokenRange=179:187
+30	antonio	antonio	NOUN	NOUN	_	28	appos	_	TokenRange=188:195
+31	tio	_	NOUN	NOUN	_	33	flat	_	TokenRange=196:199
+32	guitarrista	guitarrista	NOUN	NOUN	_	33	amod	_	TokenRange=200:211
+33	banda	banda	NOUN	NOUN	_	30	appos	_	TokenRange=212:217
+34	selvagens	selvagem	ADJ	ADJ	_	33	amod	_	TokenRange=218:227
+35	manda	mandar	VERB	VERB	_	19	parataxis	_	TokenRange=228:233
+36	roteiro	roteiro	NOUN	NOUN	_	35	obj	_	TokenRange=234:241
+37	banda	banda	NOUN	NOUN	_	36	appos	_	TokenRange=242:247
+38	dias	dia	NOUN	NOUN	_	36	flat	_	TokenRange=248:252
+39	durante	_	ADP	ADP	_	40	case	_	TokenRange=253:260
+40	carnaval	carnaval	NOUN	NOUN	_	35	nmod	_	TokenRange=261:269
+41	amigo	amigo	NOUN	NOUN	_	36	appos	_	TokenRange=270:275
+42	tricolor	tricolor	ADJ	ADJ	_	41	amod	_	TokenRange=276:284
+43	diretor	diretor	NOUN	NOUN	_	41	amod	_	TokenRange=285:292
+44	alegoria	alegoria	NOUN	NOUN	_	41	appos	_	TokenRange=293:301
+45	vila	vila	NOUN	NOUN	_	44	appos	_	TokenRange=302:306
+46	izabel	izabel	NOUN	NOUN	_	45	flat	_	TokenRange=307:313
+47	manda	mandar	VERB	VERB	_	19	parataxis	_	TokenRange=314:319
+48	audio	audio	NOUN	NOUN	_	47	obj	_	TokenRange=320:325
+49	via	_	ADP	ADP	_	50	case	_	TokenRange=326:329
+50	zap	_	NOUN	NOUN	_	48	nmod	_	TokenRange=330:333
+51	samba	samba	NOUN	NOUN	_	50	flat	_	TokenRange=334:339
+52	bloco	bloco	NOUN	NOUN	_	50	appos	_	TokenRange=340:345
+53	merda	merdo	ADJ	ADJ	_	52	amod	_	TokenRange=346:351
+54	ipanema	ipanema	NOUN	NOUN	_	50	appos	_	TokenRange=352:359
+55	passo	passo	NOUN	NOUN	_	57	case	_	TokenRange=360:365
+56	maior	maior	ADJ	ADJ	_	57	amod	_	TokenRange=366:371
+57	parte	parte	NOUN	NOUN	_	58	nmod	_	TokenRange=372:377
+58	tempo	tempo	NOUN	NOUN	_	47	nmod	_	TokenRange=378:383
+59	escuro	escuro	ADJ	ADJ	_	58	amod	_	SpaceAfter=No|TokenRange=384:390
+

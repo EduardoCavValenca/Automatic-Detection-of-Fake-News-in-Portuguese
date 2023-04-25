@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma descera rampa planalto vai fugir subterraneo dilma rousseff pediu assessores suspenderem cerimonia descida rampa planalto logo apos massacre sofrera amanha 11 senado governo conformou derrota afastamento presidente 180 dias inevitavel dilma deveria sair porta fundos preferencia detector metais pra ver levou algum pertence publico igual fez expresidente lula
+1	dilma	dilma	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	descera	descerar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	rampa	rampa	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	planalto	planalto	ADJ	NOUN	_	3	amod	_	TokenRange=20:28
+5	vai	ir	AUX	AUX	_	6	aux	_	TokenRange=29:32
+6	fugir	fugir	VERB	VERB	_	2	ccomp	_	TokenRange=33:38
+7	subterraneo	subterraneo	NOUN	NOUN	_	6	obj	_	TokenRange=39:50
+8	dilma	dilma	NOUN	NOUN	_	6	nsubj	_	TokenRange=51:56
+9	rousseff	rousseff	NOUN	NOUN	_	8	flat	_	TokenRange=57:65
+10	pediu	pedir	VERB	VERB	_	2	conj	_	TokenRange=66:71
+11	assessores	assessor	NOUN	NOUN	_	10	obj	_	TokenRange=72:82
+12	suspenderem	suspender	VERB	VERB	_	10	ccomp	_	TokenRange=83:94
+13	cerimonia	cerimonia	NOUN	NOUN	_	12	obj	_	TokenRange=95:104
+14	descida	descido	ADJ	ADJ	_	13	amod	_	TokenRange=105:112
+15	rampa	rampa	NOUN	NOUN	_	12	nsubj	_	TokenRange=113:118
+16	planalto	planalto	ADJ	ADJ	_	15	amod	_	TokenRange=119:127
+17	logo	logo	ADV	ADV	_	20	advmod	_	TokenRange=128:132
+18	apos	_	ADP	ADP	_	19	case	_	TokenRange=133:137
+19	massacre	massacre	NOUN	NOUN	_	20	nsubj	_	TokenRange=138:146
+20	sofrera	sofrer	VERB	VERB	_	2	conj	_	TokenRange=147:154
+21	amanha	amanha	NOUN	NOUN	_	20	obj	_	TokenRange=155:161
+22	11	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=162:164
+23	senado	senado	NOUN	NOUN	_	25	nsubj	_	TokenRange=165:171
+24	governo	governo	NOUN	NOUN	_	25	nsubj	_	TokenRange=172:179
+25	conformou	conformar	VERB	VERB	_	20	parataxis	_	TokenRange=180:189
+26	derrota	derrota	NOUN	NOUN	_	25	obj	_	TokenRange=190:197
+27	afastamento	afastamento	NOUN	NOUN	_	26	appos	_	TokenRange=198:209
+28	presidente	presidente	NOUN	NOUN	_	26	flat	_	TokenRange=210:220
+29	180	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=221:224
+30	dias	dia	NOUN	NOUN	_	25	nmod	_	TokenRange=225:229
+31	inevitavel	inevitavel	ADJ	ADJ	_	30	amod	_	TokenRange=230:240
+32	dilma	_	NOUN	NOUN	_	34	nsubj	_	TokenRange=241:246
+33	deveria	dever	AUX	AUX	_	34	aux	_	TokenRange=247:254
+34	sair	sair	VERB	VERB	_	25	parataxis	_	TokenRange=255:259
+35	porta	porta	NOUN	NOUN	_	34	nmod	_	TokenRange=260:265
+36	fundos	_	NOUN	NOUN	_	35	flat	_	TokenRange=266:272
+37	preferencia	_	NOUN	NOUN	_	35	flat	_	TokenRange=273:284
+38	detector	detector	NOUN	NOUN	_	34	nsubj	_	TokenRange=285:293
+39	metais	_	NOUN	NOUN	_	38	obj	_	TokenRange=294:300
+40	pra	_	ADP	ADP	_	41	mark	_	TokenRange=301:304
+41	ver	ver	VERB	VERB	_	38	nmod	_	TokenRange=305:308
+42	levou	levar	VERB	VERB	_	41	ccomp	_	TokenRange=309:314
+43	algum	_	DET	DET	_	44	det	_	TokenRange=315:320
+44	pertence	pertence	NOUN	NOUN	_	42	obj	_	TokenRange=321:329
+45	publico	publico	ADJ	ADJ	_	44	amod	_	TokenRange=330:337
+46	igual	igual	ADJ	ADJ	_	44	amod	_	TokenRange=338:343
+47	fez	fazer	VERB	VERB	_	25	parataxis	_	TokenRange=344:347
+48	expresidente	expresidente	NOUN	NOUN	_	47	obj	_	TokenRange=348:360
+49	lula	lula	ADJ	ADJ	_	48	amod	_	SpaceAfter=No|TokenRange=361:365
+

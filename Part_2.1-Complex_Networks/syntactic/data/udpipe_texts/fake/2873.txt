@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma pirou ira assinar decreto colocar 34 mil detentas ruas ideia deixar criminosas perigosas pais soltas ruas aumentar disturbios provocar caos institucional prestes deixar poder desvarios dilma param informacao publicada coluna lauro jardim globo afirma dilma planeja proximo domingo dar indulto inedito dia maes presas todo brasil pais hoje cerca 34 mil presas populacao carceraria feminina existem mulheres altissima periculosidade incluindo milhares homicidas assaltantes traficantes alguem colocar dilma camisa forca urgentemente
+1	dilma	dilma	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	pirou	pirar	NOUN	NOUN	_	1	flat	_	TokenRange=6:11
+3	ira	_	AUX	AUX	_	4	aux	_	TokenRange=12:15
+4	assinar	assinar	VERB	VERB	_	0	root	_	TokenRange=16:23
+5	decreto	decreto	NOUN	NOUN	_	4	obj	_	TokenRange=24:31
+6	colocar	colocar	VERB	VERB	_	4	ccomp	_	TokenRange=32:39
+7	34	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=40:42
+8	mil	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=43:46
+9	detentas	detento	ADJ	ADJ	_	10	amod	_	TokenRange=47:55
+10	ruas	rua	NOUN	NOUN	_	6	obj	_	TokenRange=56:60
+11	ideia	ideia	NOUN	NOUN	_	10	appos	_	TokenRange=61:66
+12	deixar	deixar	VERB	VERB	_	11	acl:inf	_	TokenRange=67:73
+13	criminosas	criminoso	ADJ	ADJ	_	12	obj	_	TokenRange=74:84
+14	perigosas	perigoso	ADJ	ADJ	_	13	amod	_	TokenRange=85:94
+15	pais	_	NOUN	NOUN	_	18	obj	_	TokenRange=95:99
+16	soltas	solto	ADJ	ADJ	_	17	amod	_	TokenRange=100:106
+17	ruas	rua	NOUN	NOUN	_	18	nsubj	_	TokenRange=107:111
+18	aumentar	aumentar	VERB	VERB	_	10	acl:relcl	_	TokenRange=112:120
+19	disturbios	disturbio	NOUN	NOUN	_	18	obj	_	TokenRange=121:131
+20	provocar	provocar	VERB	VERB	_	18	ccomp	_	TokenRange=132:140
+21	caos	caos	NOUN	NOUN	_	20	obj	_	TokenRange=141:145
+22	institucional	institucional	ADJ	ADJ	_	21	amod	_	TokenRange=146:159
+23	prestes	_	ADJ	ADJ	_	24	nsubj	_	TokenRange=160:167
+24	deixar	deixar	VERB	VERB	_	21	acl:relcl	_	TokenRange=168:174
+25	poder	poder	NOUN	NOUN	_	24	obj	_	TokenRange=175:180
+26	desvarios	desvario	NOUN	NOUN	_	25	flat	_	TokenRange=181:190
+27	dilma	_	NOUN	NOUN	_	29	appos	_	TokenRange=191:196
+28	param	_	VERB	VERB	_	29	case	_	TokenRange=197:202
+29	informacao	informacao	NOUN	NOUN	_	24	obj	_	TokenRange=203:213
+30	publicada	publicar	VERB	ADJ	_	29	acl	_	TokenRange=214:223
+31	coluna	coluna	NOUN	NOUN	_	29	appos	_	TokenRange=224:230
+32	lauro	lauro	NOUN	NOUN	_	31	appos	_	TokenRange=231:236
+33	jardim	jardim	NOUN	NOUN	_	31	appos	_	TokenRange=237:243
+34	globo	globo	NOUN	NOUN	_	31	appos	_	TokenRange=244:249
+35	afirma	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=250:256
+36	dilma	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=257:262
+37	planeja	planejar	VERB	VERB	_	35	ccomp	_	TokenRange=263:270
+38	proximo	proximo	ADJ	ADJ	_	39	amod	_	TokenRange=271:278
+39	domingo	_	PROPN	PNOUN	_	37	nmod	_	TokenRange=279:286
+40	dar	dar	VERB	VERB	_	37	xcomp	_	TokenRange=287:290
+41	indulto	indulto	NOUN	NOUN	_	40	obj	_	TokenRange=291:298
+42	inedito	inedito	ADJ	ADJ	_	41	amod	_	TokenRange=299:306
+43	dia	dia	NOUN	NOUN	_	40	nmod	_	TokenRange=307:310
+44	maes	maes	NOUN	NOUN	_	40	obj	_	TokenRange=311:315
+45	presas	_	ADJ	ADJ	_	44	amod	_	TokenRange=316:322
+46	todo	_	DET	DET	_	47	det	_	TokenRange=323:327
+47	brasil	brasil	NOUN	NOUN	_	40	obj	_	TokenRange=328:334
+48	pais	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=335:339
+49	hoje	hoje	ADV	ADV	_	57	advmod	_	TokenRange=340:344
+50	cerca	cerca	ADV	ADV	_	52	advmod	_	TokenRange=345:350
+51	34	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=351:353
+52	mil	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=354:357
+53	presas	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=358:364
+54	populacao	populacao	ADJ	ADJ	_	53	amod	_	TokenRange=365:374
+55	carceraria	carceraria	NOUN	NOUN	_	53	appos	_	TokenRange=375:385
+56	feminina	feminino	ADJ	ADJ	_	55	amod	_	TokenRange=386:394
+57	existem	existir	VERB	VERB	_	37	parataxis	_	TokenRange=395:402
+58	mulheres	mulher	NOUN	NOUN	_	57	nsubj	_	TokenRange=403:411
+59	altissima	altissimo	ADJ	ADJ	_	60	amod	_	TokenRange=412:421
+60	periculosidade	periculosidade	NOUN	NOUN	_	58	appos	_	TokenRange=422:436
+61	incluindo	incluir	VERB	VERB	_	58	acl	_	TokenRange=437:446
+62	milhares	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=447:455
+63	homicidas	homicida	NOUN	NOUN	_	61	obj	_	TokenRange=456:465
+64	assaltantes	assaltante	ADJ	ADJ	_	63	amod	_	TokenRange=466:477
+65	traficantes	traficante	NOUN	NOUN	_	63	amod	_	TokenRange=478:489
+66	alguem	_	VERB	VERB	_	63	acl:relcl	_	TokenRange=490:496
+67	colocar	colocar	VERB	VERB	_	66	xcomp	_	TokenRange=497:504
+68	dilma	dilma	NOUN	NOUN	_	67	obj	_	TokenRange=505:510
+69	camisa	camisa	NOUN	NOUN	_	67	obj	_	TokenRange=511:517
+70	forca	forca	ADJ	ADJ	_	69	amod	_	TokenRange=518:523
+71	urgentemente	urgentemente	ADV	ADV	_	67	advmod	_	SpaceAfter=No|TokenRange=524:536
+

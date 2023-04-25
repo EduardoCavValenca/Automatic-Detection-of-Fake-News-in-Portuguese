@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tribunal suspende prazos altera expediente durante julgamento lula trf4 tribunal regional federal 4 regiao decidiu suspender prazos processuais intimacoes dias 23 24 janeiro vespera dia expresidente luiz inacio lula silva processo julgado corte expediente alterado dia 23 8h 12h dia 24 havera expediente exceto servidores diretamente envolvidos caso lula julgado partir 8h30 tribunal afirma suspensao ocorre
+1	tribunal	tribunal	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	suspende	suspender	VERB	VERB	_	0	root	_	TokenRange=9:17
+3	prazos	prazo	NOUN	NOUN	_	2	obj	_	TokenRange=18:24
+4	altera	alterar	VERB	VERB	_	2	parataxis	_	TokenRange=25:31
+5	expediente	expediente	NOUN	NOUN	_	4	obj	_	TokenRange=32:42
+6	durante	_	ADP	ADP	_	7	case	_	TokenRange=43:50
+7	julgamento	julgamento	NOUN	NOUN	_	2	nmod	_	TokenRange=51:61
+8	lula	lula	ADJ	ADJ	_	7	amod	_	TokenRange=62:66
+9	trf4	_	ADJ	ADJ	_	10	amod	_	TokenRange=67:71
+10	tribunal	tribunal	NOUN	NOUN	_	15	nsubj	_	TokenRange=72:80
+11	regional	regional	ADJ	ADJ	_	10	amod	_	TokenRange=81:89
+12	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=90:97
+13	4	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=98:99
+14	regiao	regiao	NOUN	NOUN	_	10	appos	_	TokenRange=100:106
+15	decidiu	decidir	VERB	VERB	_	2	conj	_	TokenRange=107:114
+16	suspender	suspender	VERB	VERB	_	15	xcomp	_	TokenRange=115:124
+17	prazos	prazo	NOUN	NOUN	_	16	obj	_	TokenRange=125:131
+18	processuais	processual	ADJ	ADJ	_	17	amod	_	TokenRange=132:143
+19	intimacoes	intimaco	ADJ	ADJ	_	17	amod	_	TokenRange=144:154
+20	dias	dia	NOUN	NOUN	_	16	nmod	_	TokenRange=155:159
+21	23	_	NUM	NUM	NumType=Card	20	appos	_	TokenRange=160:162
+22	24	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=163:165
+23	janeiro	_	PROPN	PNOUN	_	20	nmod	_	TokenRange=166:173
+24	vespera	vesper	ADJ	ADJ	_	25	amod	_	TokenRange=174:181
+25	dia	dia	NOUN	NOUN	_	20	appos	_	TokenRange=182:185
+26	expresidente	expresidente	NOUN	NOUN	_	25	appos	_	TokenRange=186:198
+27	luiz	luiz	NOUN	NOUN	_	25	appos	_	TokenRange=199:203
+28	inacio	_	NOUN	NOUN	_	27	flat	_	TokenRange=204:210
+29	lula	_	NOUN	NOUN	_	27	flat	_	TokenRange=211:215
+30	silva	silva	ADJ	ADJ	_	27	flat	_	TokenRange=216:221
+31	processo	processo	NOUN	NOUN	_	15	obj	_	TokenRange=222:230
+32	julgado	julgar	ADJ	ADJ	_	33	acl	_	TokenRange=231:238
+33	corte	corte	NOUN	NOUN	_	31	appos	_	TokenRange=239:244
+34	expediente	expediente	ADJ	ADJ	_	33	amod	_	TokenRange=245:255
+35	alterado	alterado	ADJ	ADJ	_	33	amod	_	TokenRange=256:264
+36	dia	dia	NOUN	NOUN	_	33	nmod	_	TokenRange=265:268
+37	23	_	NUM	NUM	NumType=Card	36	appos	_	TokenRange=269:271
+38	8h	_	NUM	NUM	NumType=Card	36	appos	_	TokenRange=272:274
+39	12h	_	NUM	NUM	NumType=Card	38	nmod	_	TokenRange=275:278
+40	dia	dia	NOUN	NOUN	_	42	nmod	_	TokenRange=279:282
+41	24	_	NUM	NUM	NumType=Card	40	appos	_	TokenRange=283:285
+42	havera	haver	VERB	VERB	_	2	parataxis	_	TokenRange=286:292
+43	expediente	expediente	NOUN	NOUN	_	42	obj	_	TokenRange=293:303
+44	exceto	exceto	ADP	ADP	_	45	case	_	TokenRange=304:310
+45	servidores	servidor	NOUN	NOUN	_	42	nmod	_	TokenRange=311:321
+46	diretamente	diretamente	ADV	ADV	_	47	advmod	_	TokenRange=322:333
+47	envolvidos	envolvido	ADJ	ADJ	_	45	amod	_	TokenRange=334:344
+48	caso	_	CCONJ	CONJ	_	54	mark	_	TokenRange=345:349
+49	lula	lula	NOUN	NOUN	_	54	nsubj	_	TokenRange=350:354
+50	julgado	julgar	VERB	VERB	_	49	acl	_	TokenRange=355:362
+51	partir	partir	VERB	VERB	_	50	advcl	_	TokenRange=363:369
+52	8h30	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=370:374
+53	tribunal	tribunal	NOUN	NOUN	_	51	nsubj	_	TokenRange=375:383
+54	afirma	afirmar	VERB	VERB	_	42	advcl	_	TokenRange=384:390
+55	suspensao	suspensao	NOUN	NOUN	_	54	obj	_	TokenRange=391:400
+56	ocorre	ocorre	NOUN	NOUN	_	55	amod	_	SpaceAfter=No|TokenRange=401:407
+

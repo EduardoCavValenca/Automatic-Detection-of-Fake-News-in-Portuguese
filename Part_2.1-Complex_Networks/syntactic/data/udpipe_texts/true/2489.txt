@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = decisao ministro gilmar mendes supremo tribunal federal stf antes fim recesso proibir conducao coercitiva investigados sob argumento inconstitucional deu forcas tese defesa luiz inacio lula silva classificalo vitima perseguicao politica guerra juridica processos operacao lava jato pouca eficacia tribunais entendimento ministro servira petista engrossar 2018 discurso politico onu instancias internacionais principalmente peregrinacao revisitacao propria base eleitoral argumento ilegal conducao coercitiva expresidente lula 4 marco 2016 alvo 24 fase
+1	decisao	decisao	NOUN	NOUN	_	42	parataxis	_	TokenRange=0:7
+2	ministro	ministro	NOUN	NOUN	_	1	flat	_	TokenRange=8:16
+3	gilmar	gilmar	NOUN	NOUN	_	1	appos	_	TokenRange=17:23
+4	mendes	_	ADJ	ADJ	_	6	amod	_	TokenRange=24:30
+5	supremo	supremo	ADJ	ADJ	_	6	amod	_	TokenRange=31:38
+6	tribunal	tribunal	NOUN	NOUN	_	1	appos	_	TokenRange=39:47
+7	federal	federal	ADJ	ADJ	_	6	amod	_	TokenRange=48:55
+8	stf	_	NOUN	NOUN	_	1	appos	_	TokenRange=56:59
+9	antes	antes	ADV	ADV	_	12	advmod	_	TokenRange=60:65
+10	fim	fim	NOUN	NOUN	_	9	nmod	_	TokenRange=66:69
+11	recesso	recesso	NOUN	NOUN	_	12	nsubj	_	TokenRange=70:77
+12	proibir	proibir	VERB	VERB	_	1	parataxis	_	TokenRange=78:85
+13	conducao	conducao	NOUN	NOUN	_	12	obj	_	TokenRange=86:94
+14	coercitiva	coercitivo	ADJ	ADJ	_	13	amod	_	TokenRange=95:105
+15	investigados	investigar	VERB	VERB	_	13	acl	_	TokenRange=106:118
+16	sob	_	ADP	ADP	_	17	case	_	TokenRange=119:122
+17	argumento	argumento	NOUN	NOUN	_	15	nmod	_	TokenRange=123:132
+18	inconstitucional	inconstitucional	ADJ	ADJ	_	17	amod	_	TokenRange=133:149
+19	deu	dar	VERB	VERB	_	17	acl:relcl	_	TokenRange=150:153
+20	forcas	forca	NOUN	NOUN	_	19	obj	_	TokenRange=154:160
+21	tese	tese	NOUN	ADJ	_	20	amod	_	TokenRange=161:165
+22	defesa	_	NOUN	NOUN	_	20	appos	_	TokenRange=166:172
+23	luiz	luiz	NOUN	NOUN	_	20	appos	_	TokenRange=173:177
+24	inacio	_	NOUN	NOUN	_	23	flat	_	TokenRange=178:184
+25	lula	lula	NOUN	NOUN	_	23	flat	_	TokenRange=185:189
+26	silva	silva	NOUN	NOUN	_	23	flat	_	TokenRange=190:195
+27	classificalo	classificalo	NOUN	NOUN	_	19	obj	_	TokenRange=196:208
+28	vitima	_	ADJ	ADJ	_	27	amod	_	TokenRange=209:215
+29	perseguicao	perseguicao	NOUN	NOUN	_	27	amod	_	TokenRange=216:227
+30	politica	politico	ADJ	ADJ	_	31	amod	_	TokenRange=228:236
+31	guerra	guerra	NOUN	NOUN	_	27	appos	_	TokenRange=237:243
+32	juridica	juridico	ADJ	ADJ	_	31	amod	_	TokenRange=244:252
+33	processos	processo	NOUN	NOUN	_	31	appos	_	TokenRange=253:262
+34	operacao	operacao	NOUN	NOUN	_	31	appos	_	TokenRange=263:271
+35	lava	lava	NOUN	NOUN	_	34	flat	_	TokenRange=272:276
+36	jato	jato	NOUN	NOUN	_	34	flat	_	TokenRange=277:281
+37	pouca	_	DET	DET	_	38	det	_	TokenRange=282:287
+38	eficacia	eficacia	NOUN	NOUN	_	34	appos	_	TokenRange=288:296
+39	tribunais	tribunal	ADJ	ADJ	_	38	amod	_	TokenRange=297:306
+40	entendimento	entendimento	NOUN	NOUN	_	42	nsubj	_	TokenRange=307:319
+41	ministro	ministro	NOUN	NOUN	_	40	flat	_	TokenRange=320:328
+42	servira	_	VERB	VERB	_	0	root	_	TokenRange=329:336
+43	petista	petista	NOUN	NOUN	_	42	obj	_	TokenRange=337:344
+44	engrossar	engrossar	VERB	VERB	_	42	ccomp	_	TokenRange=345:354
+45	2018	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=355:359
+46	discurso	discurso	NOUN	NOUN	_	44	obj	_	TokenRange=360:368
+47	politico	politico	ADJ	ADJ	_	46	amod	_	TokenRange=369:377
+48	onu	_	DET	DET	_	49	case	_	TokenRange=378:381
+49	instancias	instancia	NOUN	NOUN	_	46	appos	_	TokenRange=382:392
+50	internacionais	internacional	ADJ	ADJ	_	49	amod	_	TokenRange=393:407
+51	principalmente	principalmente	ADV	ADV	_	52	advmod	_	TokenRange=408:422
+52	peregrinacao	peregrinacao	NOUN	NOUN	_	46	appos	_	TokenRange=423:435
+53	revisitacao	revisitacao	ADJ	ADJ	_	52	amod	_	TokenRange=436:447
+54	propria	proprio	ADJ	ADJ	_	55	amod	_	TokenRange=448:455
+55	base	base	NOUN	NOUN	_	52	conj	_	TokenRange=456:460
+56	eleitoral	eleitoral	ADJ	ADJ	_	55	amod	_	TokenRange=461:470
+57	argumento	argumento	NOUN	NOUN	_	52	appos	_	TokenRange=471:480
+58	ilegal	ilegal	ADJ	ADJ	_	57	amod	_	TokenRange=481:487
+59	conducao	conducao	NOUN	NOUN	_	57	amod	_	TokenRange=488:496
+60	coercitiva	coercitivo	ADJ	ADJ	_	57	amod	_	TokenRange=497:507
+61	expresidente	expresidente	NOUN	NOUN	_	57	appos	_	TokenRange=508:520
+62	lula	_	NOUN	NOUN	_	61	flat	_	TokenRange=521:525
+63	4	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=526:527
+64	marco	marco	NOUN	NOUN	_	66	nmod	_	TokenRange=528:533
+65	2016	_	NUM	NUM	NumType=Card	64	nmod	_	TokenRange=534:538
+66	alvo	alvo	NOUN	NOUN	_	61	appos	_	TokenRange=539:543
+67	24	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=544:546
+68	fase	fase	NOUN	NOUN	_	66	appos	_	SpaceAfter=No|TokenRange=547:551
+

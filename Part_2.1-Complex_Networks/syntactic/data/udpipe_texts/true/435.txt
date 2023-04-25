@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maduro ordena exercicios militares venezuela apos ameaca trump exercicios realizados dias 26 27 agosto trump disse eua consideram opcao militar venezuela presidente venezuela nicolas maduro ordenou nesta segundafeira 14 realizacao exercicios forca armada todo pais 26 27 agosto apos advertencia chefe estado americano donald trump pode usar opcao militar pais petroleiro dei ordem estado maior superior forca armada iniciar preparativos exercicio nacional civico militar defesa integral armada patria venezuelana anunciou maduro diante multidao simpatizantes vamos continuar rua protestando contra qualquer forma ingerencia imperialismo diretamente aliados america latina exigimos respeito
+1	maduro	maduro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	ordena	ordenar	VERB	VERB	_	0	root	_	TokenRange=7:13
+3	exercicios	exercicio	NOUN	NOUN	_	2	obj	_	TokenRange=14:24
+4	militares	militar	ADJ	ADJ	_	3	amod	_	TokenRange=25:34
+5	venezuela	_	ADJ	ADJ	_	3	amod	_	TokenRange=35:44
+6	apos	_	ADP	ADP	_	7	case	_	TokenRange=45:49
+7	ameaca	ameaca	NOUN	NOUN	_	2	nmod	_	TokenRange=50:56
+8	trump	_	NOUN	NOUN	_	7	flat	_	TokenRange=57:62
+9	exercicios	exercicio	NOUN	NOUN	_	7	appos	_	TokenRange=63:73
+10	realizados	realizar	VERB	VERB	_	9	acl	_	TokenRange=74:84
+11	dias	dia	NOUN	NOUN	_	10	nmod	_	TokenRange=85:89
+12	26	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=90:92
+13	27	_	NUM	NUM	NumType=Card	11	nmod	_	TokenRange=93:95
+14	agosto	_	PROPN	PNOUN	_	11	nmod	_	TokenRange=96:102
+15	trump	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=103:108
+16	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=109:114
+17	eua	_	PRON	PRON	_	18	nsubj	_	TokenRange=115:118
+18	consideram	considerar	VERB	VERB	_	16	ccomp	_	TokenRange=119:129
+19	opcao	opcao	NOUN	NOUN	_	18	obj	_	TokenRange=130:135
+20	militar	militar	ADJ	ADJ	_	19	amod	_	TokenRange=136:143
+21	venezuela	_	ADJ	ADJ	_	22	amod	_	TokenRange=144:153
+22	presidente	presidente	NOUN	NOUN	_	26	nsubj	_	TokenRange=154:164
+23	venezuela	venezuelo	ADJ	ADJ	_	22	amod	_	TokenRange=165:174
+24	nicolas	_	NOUN	NOUN	_	22	appos	_	TokenRange=175:182
+25	maduro	maduro	NOUN	NOUN	_	22	amod	_	TokenRange=183:189
+26	ordenou	ordenar	VERB	VERB	_	2	parataxis	_	TokenRange=190:197
+27	nesta	_	ADP	ADP	_	28	case	_	TokenRange=198:203
+28	segundafeira	_	NOUN	NOUN	_	26	nmod	_	TokenRange=204:216
+29	14	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=217:219
+30	realizacao	realizacao	VERB	VERB	_	26	parataxis	_	TokenRange=220:230
+31	exercicios	exercicio	NOUN	NOUN	_	30	obj	_	TokenRange=231:241
+32	forca	forca	NOUN	NOUN	_	31	appos	_	TokenRange=242:247
+33	armada	armado	ADJ	ADJ	_	31	amod	_	TokenRange=248:254
+34	todo	_	DET	DET	_	35	det	_	TokenRange=255:259
+35	pais	_	NOUN	NOUN	_	30	nmod	_	TokenRange=260:264
+36	26	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=265:267
+37	27	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=268:270
+38	agosto	_	PROPN	PNOUN	_	37	nmod	_	TokenRange=271:277
+39	apos	_	ADP	ADP	_	40	case	_	TokenRange=278:282
+40	advertencia	advertencia	NOUN	NOUN	_	26	nmod	_	TokenRange=283:294
+41	chefe	chefe	NOUN	NOUN	_	40	appos	_	TokenRange=295:300
+42	estado	estado	NOUN	NOUN	_	40	appos	_	TokenRange=301:307
+43	americano	americano	ADJ	ADJ	_	42	amod	_	TokenRange=308:317
+44	donald	donald	NOUN	NOUN	_	47	nsubj	_	TokenRange=318:324
+45	trump	_	NOUN	NOUN	_	44	flat	_	TokenRange=325:330
+46	pode	_	AUX	AUX	_	47	aux	_	TokenRange=331:335
+47	usar	usar	VERB	VERB	_	2	parataxis	_	TokenRange=336:340
+48	opcao	opcao	NOUN	NOUN	_	47	obj	_	TokenRange=341:346
+49	militar	militar	ADJ	ADJ	_	48	amod	_	TokenRange=347:354
+50	pais	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=355:359
+51	petroleiro	petroleiro	NOUN	NOUN	_	47	nsubj	_	TokenRange=360:370
+52	dei	_	ADP	ADP	_	53	case	_	TokenRange=371:374
+53	ordem	ordem	NOUN	NOUN	_	54	nmod	_	TokenRange=375:380
+54	estado	estado	NOUN	NOUN	_	47	nsubj	_	TokenRange=381:387
+55	maior	maior	ADJ	ADJ	_	54	amod	_	TokenRange=388:393
+56	superior	superior	ADJ	ADJ	_	54	amod	_	TokenRange=394:402
+57	forca	forca	NOUN	NOUN	_	47	nsubj	_	TokenRange=403:408
+58	armada	armado	ADJ	ADJ	_	57	amod	_	TokenRange=409:415
+59	iniciar	iniciar	VERB	VERB	_	47	csubj	_	TokenRange=416:423
+60	preparativos	_	ADJ	NOUN	_	61	amod	_	TokenRange=424:436
+61	exercicio	exercicio	NOUN	NOUN	_	59	obj	_	TokenRange=437:446
+62	nacional	nacional	ADJ	ADJ	_	61	amod	_	TokenRange=447:455
+63	civico	civico	ADJ	ADJ	_	61	amod	_	TokenRange=456:462
+64	militar	militar	ADJ	ADJ	_	61	amod	_	TokenRange=463:470
+65	defesa	_	NOUN	NOUN	_	61	appos	_	TokenRange=471:477
+66	integral	integral	ADJ	ADJ	_	65	amod	_	TokenRange=478:486
+67	armada	armado	ADJ	ADJ	_	65	amod	_	TokenRange=487:493
+68	patria	patria	NOUN	NOUN	_	65	appos	_	TokenRange=494:500
+69	venezuelana	venezuelano	ADJ	ADJ	_	68	amod	_	TokenRange=501:512
+70	anunciou	anunciar	VERB	VERB	_	2	parataxis	_	TokenRange=513:521
+71	maduro	maduro	NOUN	NOUN	_	70	obj	_	TokenRange=522:528
+72	diante	diante	ADV	ADV	_	74	advmod	_	TokenRange=529:535
+73	multidao	_	ADJ	ADJ	_	74	amod	_	TokenRange=536:544
+74	simpatizantes	simpatizante	NOUN	NOUN	_	76	nsubj	_	TokenRange=545:558
+75	vamos	ir	AUX	AUX	_	76	aux	_	TokenRange=559:564
+76	continuar	continuar	VERB	VERB	_	70	ccomp	_	TokenRange=565:574
+77	rua	rua	NOUN	NOUN	_	76	obj	_	TokenRange=575:578
+78	protestando	protestar	VERB	VERB	_	76	acl	_	TokenRange=579:590
+79	contra	_	ADP	ADP	_	81	case	_	TokenRange=591:597
+80	qualquer	_	DET	DET	_	81	det	_	TokenRange=598:606
+81	forma	forma	NOUN	NOUN	_	78	nmod	_	TokenRange=607:612
+82	ingerencia	ingerencia	NOUN	NOUN	_	81	appos	_	TokenRange=613:623
+83	imperialismo	imperialismo	NOUN	NOUN	_	88	nsubj	_	TokenRange=624:636
+84	diretamente	diretamente	ADV	ADV	_	85	advmod	_	TokenRange=637:648
+85	aliados	aliado	NOUN	NOUN	_	88	nsubj	_	TokenRange=649:656
+86	america	america	ADJ	ADJ	_	85	amod	_	TokenRange=657:664
+87	latina	latino	ADJ	ADJ	_	85	amod	_	TokenRange=665:671
+88	exigimos	exigir	VERB	VERB	_	70	parataxis	_	TokenRange=672:680
+89	respeito	respeito	NOUN	NOUN	_	88	obj	_	SpaceAfter=No|TokenRange=681:689
+

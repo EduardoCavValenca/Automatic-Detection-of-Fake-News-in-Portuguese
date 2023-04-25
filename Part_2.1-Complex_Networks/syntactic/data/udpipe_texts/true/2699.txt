@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 10 camara direito privado tribunal justica paulo negou recurso expresidente luiz inacio lula silva contra editora abril causa capa revista veja segundo defensores violou honra petista capa edicao publicada novembro 2015 trazia montagem foto lula roupas presidiario informacoes divulgadas site tribunal justica paulo acao expresidente objetivava pagamento indenizacao danos morais sob argumento capa violado honra imagem dignidade relator recurso desembargador ronnie herbert barros soares destacou voto tempo politico submete
+1	10	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:2
+2	camara	camara	NOUN	NOUN	_	8	parataxis	_	TokenRange=3:9
+3	direito	direito	NOUN	NOUN	_	2	appos	_	TokenRange=10:17
+4	privado	privado	ADJ	ADJ	_	3	amod	_	TokenRange=18:25
+5	tribunal	tribunal	NOUN	NOUN	_	2	appos	_	TokenRange=26:34
+6	justica	justico	ADJ	ADJ	_	5	amod	_	TokenRange=35:42
+7	paulo	_	NOUN	NOUN	_	5	amod	_	TokenRange=43:48
+8	negou	negar	VERB	VERB	_	0	root	_	TokenRange=49:54
+9	recurso	recurso	NOUN	NOUN	_	8	obj	_	TokenRange=55:62
+10	expresidente	expresidente	ADJ	ADJ	_	9	amod	_	TokenRange=63:75
+11	luiz	luiz	NOUN	NOUN	_	9	appos	_	TokenRange=76:80
+12	inacio	_	NOUN	NOUN	_	11	flat	_	TokenRange=81:87
+13	lula	_	NOUN	NOUN	_	11	flat	_	TokenRange=88:92
+14	silva	silva	NOUN	NOUN	_	11	flat	_	TokenRange=93:98
+15	contra	_	ADP	ADP	_	16	case	_	TokenRange=99:105
+16	editora	_	NOUN	NOUN	_	8	nmod	_	TokenRange=106:113
+17	abril	_	PROPN	PNOUN	_	16	flat	_	TokenRange=114:119
+18	causa	causa	NOUN	NOUN	_	24	parataxis	_	TokenRange=120:125
+19	capa	capa	ADJ	ADJ	_	20	amod	_	TokenRange=126:130
+20	revista	revista	NOUN	NOUN	_	24	appos	_	TokenRange=131:138
+21	veja	veja	NOUN	NOUN	_	20	appos	_	TokenRange=139:143
+22	segundo	_	ADP	ADP	_	23	case	_	TokenRange=144:151
+23	defensores	defensor	NOUN	NOUN	_	24	nmod	_	TokenRange=152:162
+24	violou	violar	VERB	VERB	_	8	parataxis	_	TokenRange=163:169
+25	honra	honra	NOUN	NOUN	_	24	obj	_	TokenRange=170:175
+26	petista	petista	NOUN	NOUN	_	25	amod	_	TokenRange=176:183
+27	capa	capa	NOUN	NOUN	_	28	appos	_	TokenRange=184:188
+28	edicao	edicao	NOUN	NOUN	_	24	parataxis	_	TokenRange=189:195
+29	publicada	publicar	VERB	VERB	_	28	acl	_	TokenRange=196:205
+30	novembro	_	PROPN	PNOUN	_	29	nmod	_	TokenRange=206:214
+31	2015	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=215:219
+32	trazia	trazer	VERB	VERB	_	24	parataxis	_	TokenRange=220:226
+33	montagem	montagem	NOUN	NOUN	_	32	obj	_	TokenRange=227:235
+34	foto	foto	NOUN	NOUN	_	33	appos	_	TokenRange=236:240
+35	lula	_	NOUN	NOUN	_	33	flat	_	TokenRange=241:245
+36	roupas	roupa	NOUN	NOUN	_	33	appos	_	TokenRange=246:252
+37	presidiario	presidiario	ADJ	ADJ	_	36	amod	_	TokenRange=253:264
+38	informacoes	informacoe	NOUN	NOUN	_	36	appos	_	TokenRange=265:276
+39	divulgadas	divulgar	VERB	VERB	_	38	acl	_	TokenRange=277:287
+40	site	site	NOUN	NOUN	_	46	nsubj	_	TokenRange=288:292
+41	tribunal	tribunal	NOUN	NOUN	_	40	appos	_	TokenRange=293:301
+42	justica	justico	ADJ	ADJ	_	41	amod	_	TokenRange=302:309
+43	paulo	paulo	ADJ	ADJ	_	41	amod	_	TokenRange=310:315
+44	acao	acao	NOUN	NOUN	_	46	nsubj	_	TokenRange=316:320
+45	expresidente	expresidente	NOUN	NOUN	_	44	flat	_	TokenRange=321:333
+46	objetivava	objetivar	VERB	VERB	_	8	parataxis	_	TokenRange=334:344
+47	pagamento	pagamento	NOUN	NOUN	_	46	obj	_	TokenRange=345:354
+48	indenizacao	indenizacao	ADJ	ADJ	_	47	amod	_	TokenRange=355:366
+49	danos	dano	NOUN	NOUN	_	46	obj	_	TokenRange=367:372
+50	morais	moral	ADJ	ADJ	_	49	amod	_	TokenRange=373:379
+51	sob	_	ADP	ADP	_	52	case	_	TokenRange=380:383
+52	argumento	argumento	NOUN	NOUN	_	46	nmod	_	TokenRange=384:393
+53	capa	capa	NOUN	NOUN	_	52	flat	_	TokenRange=394:398
+54	violado	violar	VERB	VERB	_	52	acl	_	TokenRange=399:406
+55	honra	honra	NOUN	NOUN	_	54	obj	_	TokenRange=407:412
+56	imagem	imagem	NOUN	NOUN	_	55	flat	_	TokenRange=413:419
+57	dignidade	dignidade	NOUN	NOUN	_	54	nsubj	_	TokenRange=420:429
+58	relator	relator	NOUN	NOUN	_	59	amod	_	TokenRange=430:437
+59	recurso	recurso	NOUN	NOUN	_	65	nsubj	_	TokenRange=438:445
+60	desembargador	desembargador	NOUN	NOUN	_	59	amod	_	TokenRange=446:459
+61	ronnie	ronnie	NOUN	NOUN	_	59	appos	_	TokenRange=460:466
+62	herbert	_	NOUN	NOUN	_	61	flat	_	TokenRange=467:474
+63	barros	barro	NOUN	NOUN	_	61	flat	_	TokenRange=475:481
+64	soares	_	ADJ	ADJ	_	61	flat	_	TokenRange=482:488
+65	destacou	destacar	VERB	VERB	_	46	parataxis	_	TokenRange=489:497
+66	voto	voto	NOUN	NOUN	_	69	obj	_	TokenRange=498:502
+67	tempo	tempo	NOUN	NOUN	_	69	obj	_	TokenRange=503:508
+68	politico	politico	ADJ	ADJ	_	67	amod	_	TokenRange=509:517
+69	submete	submeter	VERB	VERB	_	65	parataxis	_	SpaceAfter=No|TokenRange=518:525
+

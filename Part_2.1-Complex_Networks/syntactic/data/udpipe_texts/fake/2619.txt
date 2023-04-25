@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delator lavajato vai cumprir pena mansao luxo sergio machado expresidente transpetro assinou acordo delacao premiada pgr devera cumprir pena dois anos tres meses regime domiciliar homologacao sentenca feita ministro teori zavascki stf exdiretor podera cumprir sentenca propria casa mansao luxo localizada bairro dunas fortaleza imovel alto luxo possui piscina quadra poliesportiva garagem dez carros toda casa casa monitorada cerca 10 agentes seguranca particulares machado fara uso tornozeleira eletronica durante tempo condenacao
+1	delator	delator	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	lavajato	lavajato	NOUN	NOUN	_	1	flat	_	TokenRange=8:16
+3	vai	ir	AUX	AUX	_	4	aux	_	TokenRange=17:20
+4	cumprir	cumprir	VERB	VERB	_	0	root	_	TokenRange=21:28
+5	pena	_	NOUN	NOUN	_	4	obj	_	TokenRange=29:33
+6	mansao	mansao	NOUN	NOUN	_	5	amod	_	TokenRange=34:40
+7	luxo	luxo	NOUN	NOUN	_	5	amod	_	TokenRange=41:45
+8	sergio	sergio	NOUN	NOUN	_	5	appos	_	TokenRange=46:52
+9	machado	machado	ADJ	ADJ	_	10	amod	_	TokenRange=53:60
+10	expresidente	expresidente	NOUN	NOUN	_	4	nsubj	_	TokenRange=61:73
+11	transpetro	transpetro	ADJ	ADJ	_	10	amod	_	TokenRange=74:84
+12	assinou	assinar	VERB	VERB	_	4	conj	_	TokenRange=85:92
+13	acordo	acordo	NOUN	NOUN	_	12	obj	_	TokenRange=93:99
+14	delacao	delacao	ADJ	ADJ	_	13	amod	_	TokenRange=100:107
+15	premiada	premiado	ADJ	ADJ	_	13	amod	_	TokenRange=108:116
+16	pgr	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=117:120
+17	devera	dever	AUX	AUX	_	18	aux	_	TokenRange=121:127
+18	cumprir	cumprir	VERB	VERB	_	4	parataxis	_	TokenRange=128:135
+19	pena	_	NOUN	NOUN	_	18	obj	_	TokenRange=136:140
+20	dois	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=141:145
+21	anos	ano	NOUN	NOUN	_	18	nmod	_	TokenRange=146:150
+22	tres	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=151:155
+23	meses	mês	NOUN	NOUN	_	18	nmod	_	TokenRange=156:161
+24	regime	regime	NOUN	NOUN	_	18	obj	_	TokenRange=162:168
+25	domiciliar	domiciliar	ADJ	ADJ	_	24	amod	_	TokenRange=169:179
+26	homologacao	homologacao	ADJ	ADJ	_	27	amod	_	TokenRange=180:191
+27	sentenca	_	NOUN	NOUN	_	24	appos	_	TokenRange=192:200
+28	feita	_	VERB	VERB	_	27	acl	_	TokenRange=201:206
+29	ministro	ministro	NOUN	NOUN	_	28	nsubj	_	TokenRange=207:215
+30	teori	_	NOUN	NOUN	_	29	appos	_	TokenRange=216:221
+31	zavascki	_	NOUN	NOUN	_	30	flat	_	TokenRange=222:230
+32	stf	_	NOUN	NOUN	_	29	appos	_	TokenRange=231:234
+33	exdiretor	exdiretor	NOUN	NOUN	_	30	flat	_	TokenRange=235:244
+34	podera	_	AUX	AUX	_	35	aux	_	TokenRange=245:251
+35	cumprir	cumprir	VERB	VERB	_	4	conj	_	TokenRange=252:259
+36	sentenca	_	NOUN	NOUN	_	35	obj	_	TokenRange=260:268
+37	propria	proprio	ADJ	ADJ	_	36	amod	_	TokenRange=269:276
+38	casa	casa	NOUN	NOUN	_	35	nsubj	_	TokenRange=277:281
+39	mansao	mansao	ADJ	ADJ	_	38	amod	_	TokenRange=282:288
+40	luxo	luxo	NOUN	NOUN	_	38	amod	_	TokenRange=289:293
+41	localizada	localizado	ADJ	ADJ	_	38	amod	_	TokenRange=294:304
+42	bairro	bairro	NOUN	NOUN	_	38	appos	_	TokenRange=305:311
+43	dunas	duno	ADJ	ADJ	_	44	amod	_	TokenRange=312:317
+44	fortaleza	fortaleza	NOUN	NOUN	_	42	appos	_	TokenRange=318:327
+45	imovel	imovel	ADJ	ADJ	_	44	amod	_	TokenRange=328:334
+46	alto	alto	ADJ	ADJ	_	47	amod	_	TokenRange=335:339
+47	luxo	luxo	NOUN	NOUN	_	44	amod	_	TokenRange=340:344
+48	possui	possuir	VERB	VERB	_	4	parataxis	_	TokenRange=345:351
+49	piscina	piscina	NOUN	NOUN	_	48	obj	_	TokenRange=352:359
+50	quadra	quadra	NOUN	NOUN	_	49	flat	_	TokenRange=360:366
+51	poliesportiva	poliesportivo	ADJ	ADJ	_	49	amod	_	TokenRange=367:380
+52	garagem	garagem	NOUN	NOUN	_	49	appos	_	TokenRange=381:388
+53	dez	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=389:392
+54	carros	carro	NOUN	NOUN	_	52	nmod	_	TokenRange=393:399
+55	toda	_	DET	DET	_	56	det	_	TokenRange=400:404
+56	casa	casa	NOUN	NOUN	_	52	appos	_	TokenRange=405:409
+57	casa	casa	NOUN	NOUN	_	56	appos	_	TokenRange=410:414
+58	monitorada	_	VERB	VERB	_	56	acl	_	TokenRange=415:425
+59	cerca	cerca	ADV	ADV	_	60	advmod	_	TokenRange=426:431
+60	10	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=432:434
+61	agentes	agente	NOUN	NOUN	_	65	nsubj	_	TokenRange=435:442
+62	seguranca	_	NOUN	NOUN	_	61	appos	_	TokenRange=443:452
+63	particulares	particular	ADJ	ADJ	_	61	amod	_	TokenRange=453:465
+64	machado	machado	ADJ	ADJ	_	61	appos	_	TokenRange=466:473
+65	fara	_	VERB	VERB	_	66	parataxis	_	TokenRange=474:478
+66	uso	uso	NOUN	NOUN	_	48	obj	_	TokenRange=479:482
+67	tornozeleira	_	NOUN	NOUN	_	66	appos	_	TokenRange=483:495
+68	eletronica	eletronico	ADJ	ADJ	_	66	amod	_	TokenRange=496:506
+69	durante	_	ADP	ADP	_	70	case	_	TokenRange=507:514
+70	tempo	tempo	NOUN	NOUN	_	65	nmod	_	TokenRange=515:520
+71	condenacao	condenacao	NOUN	NOUN	_	70	amod	_	SpaceAfter=No|TokenRange=521:531
+

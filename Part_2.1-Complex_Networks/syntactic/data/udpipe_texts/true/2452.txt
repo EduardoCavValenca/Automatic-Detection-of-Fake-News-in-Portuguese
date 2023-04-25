@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = macron toma posse presidente franca centrista 39 anos sucede socialista francois hollande presidente jovem comandar palacio eliseu presidente eleito franca emmanuel macron assume cargo neste domingo 14 cerimonia palacio eliseu posse comecou pontualmente 10h 5h horario brasilia segue protocolo rigoroso eleicao
+1	macron	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	toma	tomar	VERB	VERB	_	38	ccomp	_	TokenRange=7:11
+3	posse	posse	NOUN	NOUN	_	2	obj	_	TokenRange=12:17
+4	presidente	presidente	NOUN	NOUN	_	3	appos	_	TokenRange=18:28
+5	franca	franco	ADJ	ADJ	_	4	amod	_	TokenRange=29:35
+6	centrista	centrista	ADJ	ADJ	_	4	amod	_	TokenRange=36:45
+7	39	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=46:48
+8	anos	ano	NOUN	NOUN	_	9	nsubj	_	TokenRange=49:53
+9	sucede	suceder	VERB	VERB	_	2	parataxis	_	TokenRange=54:60
+10	socialista	socialista	NOUN	NOUN	_	9	obj	_	TokenRange=61:71
+11	francois	_	NOUN	NOUN	_	10	appos	_	TokenRange=72:80
+12	hollande	hollande	ADJ	ADJ	_	11	amod	_	TokenRange=81:89
+13	presidente	presidente	NOUN	NOUN	_	9	nsubj	_	TokenRange=90:100
+14	jovem	jovem	ADJ	ADJ	_	13	amod	_	TokenRange=101:106
+15	comandar	comandar	VERB	VERB	_	13	acl:inf	_	TokenRange=107:115
+16	palacio	palacio	NOUN	NOUN	_	15	obj	_	TokenRange=116:123
+17	eliseu	eliseu	ADJ	ADJ	_	18	amod	_	TokenRange=124:130
+18	presidente	presidente	NOUN	NOUN	_	15	obj	_	TokenRange=131:141
+19	eleito	eleito	ADJ	ADJ	_	18	amod	_	TokenRange=142:148
+20	franca	franco	ADJ	ADJ	_	18	amod	_	TokenRange=149:155
+21	emmanuel	emmanuel	NOUN	NOUN	_	23	nsubj	_	TokenRange=156:164
+22	macron	_	NOUN	NOUN	_	21	flat	_	TokenRange=165:171
+23	assume	assumir	VERB	VERB	_	2	parataxis	_	TokenRange=172:178
+24	cargo	cargo	NOUN	NOUN	_	23	obj	_	TokenRange=179:184
+25	neste	_	ADP	ADP	_	26	case	_	TokenRange=185:190
+26	domingo	_	PROPN	PNOUN	_	23	nmod	_	TokenRange=191:198
+27	14	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=199:201
+28	cerimonia	cerimonia	NOUN	NOUN	_	26	appos	_	TokenRange=202:211
+29	palacio	palacio	NOUN	NOUN	_	28	appos	_	TokenRange=212:219
+30	eliseu	_	ADJ	ADJ	_	29	amod	_	TokenRange=220:226
+31	posse	posse	NOUN	NOUN	_	29	flat	_	TokenRange=227:232
+32	comecou	comecar	VERB	VERB	_	2	conj	_	TokenRange=233:240
+33	pontualmente	pontualmente	ADV	ADV	_	38	advmod	_	TokenRange=241:253
+34	10h	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=254:257
+35	5h	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=258:260
+36	horario	horario	NOUN	NOUN	_	32	nmod	_	TokenRange=261:268
+37	brasilia	brasilia	NOUN	NOUN	_	36	flat	_	TokenRange=269:277
+38	segue	_	VERB	VERB	_	0	root	_	TokenRange=278:283
+39	protocolo	protocolo	NOUN	NOUN	_	38	obj	_	TokenRange=284:293
+40	rigoroso	rigoroso	ADJ	ADJ	_	41	amod	_	TokenRange=294:302
+41	eleicao	eleicao	NOUN	NOUN	_	39	appos	_	SpaceAfter=No|TokenRange=303:310
+

@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = desrespeito lula mp pf judiciario chamem mae depor antes comecem mimimi petista video editado contem somente alguns trechos discurso chato repetitivo alma honesta desse pais pode alguem dizer respeita aspas instituicoes pais vomitar ataques inconsequentes microfone lula respeita nada ninguem acha acima leis usa simples microfone arma
+1	desrespeito	desrespeito	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:11
+2	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=12:16
+3	mp	_	NOUN	NOUN	_	1	appos	_	TokenRange=17:19
+4	pf	_	NOUN	NOUN	_	3	flat	_	TokenRange=20:22
+5	judiciario	judiciario	NOUN	NOUN	_	1	flat	_	TokenRange=23:33
+6	chamem	chamar	VERB	VERB	_	0	root	_	TokenRange=34:40
+7	mae	mae	NOUN	NOUN	_	6	obj	_	TokenRange=41:44
+8	depor	depor	NOUN	NOUN	_	6	mark	_	TokenRange=45:50
+9	antes	antes	ADV	ADV	_	10	advmod	_	TokenRange=51:56
+10	comecem	comecer	VERB	VERB	_	6	conj	_	TokenRange=57:64
+11	mimimi	_	ADJ	ADJ	_	10	obj	_	TokenRange=65:71
+12	petista	petista	NOUN	NOUN	_	10	nsubj	_	TokenRange=72:79
+13	video	video	NOUN	NOUN	_	12	appos	_	TokenRange=80:85
+14	editado	editar	VERB	VERB	_	13	acl	_	TokenRange=86:93
+15	contem	contar	VERB	VERB	_	6	parataxis	_	TokenRange=94:100
+16	somente	somente	ADV	ADV	_	18	advmod	_	TokenRange=101:108
+17	alguns	_	DET	DET	_	18	det	_	TokenRange=109:115
+18	trechos	trecho	NOUN	NOUN	_	15	obj	_	TokenRange=116:123
+19	discurso	discurso	NOUN	NOUN	_	15	obj	_	TokenRange=124:132
+20	chato	chato	ADJ	ADJ	_	22	amod	_	TokenRange=133:138
+21	repetitivo	repetitivo	ADJ	ADJ	_	22	amod	_	TokenRange=139:149
+22	alma	alma	NOUN	NOUN	_	19	appos	_	TokenRange=150:154
+23	honesta	honesto	ADJ	ADJ	_	22	amod	_	TokenRange=155:162
+24	desse	_	ADP	ADP	_	25	case	_	TokenRange=163:168
+25	pais	_	NOUN	NOUN	_	22	nmod	_	TokenRange=169:173
+26	pode	_	AUX	AUX	_	28	aux	_	TokenRange=174:178
+27	alguem	_	PRON	PRON	_	28	nsubj	_	TokenRange=179:185
+28	dizer	dizer	VERB	VERB	_	22	acl:relcl	_	TokenRange=186:191
+29	respeita	respeitar	VERB	VERB	_	28	ccomp	_	TokenRange=192:200
+30	aspas	_	NOUN	NOUN	_	29	advmod	_	TokenRange=201:206
+31	instituicoes	instituicoe	NOUN	NOUN	_	29	nsubj	_	TokenRange=207:219
+32	pais	_	NOUN	NOUN	_	31	flat	_	TokenRange=220:224
+33	vomitar	vomitar	VERB	VERB	_	31	acl:relcl	_	TokenRange=225:232
+34	ataques	ataque	NOUN	NOUN	_	33	obj	_	TokenRange=233:240
+35	inconsequentes	inconsequente	ADJ	ADJ	_	34	amod	_	TokenRange=241:255
+36	microfone	microfone	NOUN	NOUN	_	34	amod	_	TokenRange=256:265
+37	lula	lula	NOUN	NOUN	_	38	nsubj	_	TokenRange=266:270
+38	respeita	respeitar	VERB	VERB	_	34	acl:relcl	_	TokenRange=271:279
+39	nada	_	PRON	PRON	_	38	obj	_	TokenRange=280:284
+40	ninguem	_	PRON	PRON	_	41	nsubj	_	TokenRange=285:292
+41	acha	achar	VERB	VERB	_	38	ccomp	_	TokenRange=293:297
+42	acima	acima	ADV	ADV	_	41	advmod	_	TokenRange=298:303
+43	leis	lei	NOUN	NOUN	_	41	obj	_	TokenRange=304:308
+44	usa	usar	VERB	VERB	_	38	ccomp	_	TokenRange=309:312
+45	simples	simples	ADJ	ADJ	_	46	amod	_	TokenRange=313:320
+46	microfone	microfone	NOUN	NOUN	_	44	obj	_	TokenRange=321:330
+47	arma	arma	NOUN	NOUN	_	46	appos	_	SpaceAfter=No|TokenRange=331:335
+

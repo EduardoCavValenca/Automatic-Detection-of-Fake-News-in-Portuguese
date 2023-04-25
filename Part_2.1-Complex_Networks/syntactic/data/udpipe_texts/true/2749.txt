@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcelo odebrecht diz acreditar lula sabia propinas diz nunca falado sobre expresidente expresidente grupo odebrecht abriu rodada depoimentos reus processo apura petista recebeu propina empreiteira cada politico funcionario alto escalao petrobras reportava sempre executivo apelidado padrinho segundo marcelo expresidente
+1	marcelo	marcelo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	odebrecht	_	NOUN	NOUN	_	1	flat	_	TokenRange=8:17
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=18:21
+4	acreditar	acreditar	VERB	VERB	_	3	xcomp	_	TokenRange=22:31
+5	lula	lula	NOUN	NOUN	_	6	nsubj	_	TokenRange=32:36
+6	sabia	saber	VERB	VERB	_	4	ccomp	_	TokenRange=37:42
+7	propinas	propina	NOUN	NOUN	_	6	obj	_	TokenRange=43:51
+8	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=52:55
+9	nunca	nunca	ADV	ADV	_	10	advmod	_	TokenRange=56:61
+10	falado	falar	VERB	VERB	_	8	acl	_	TokenRange=62:68
+11	sobre	_	ADP	ADP	_	12	case	_	TokenRange=69:74
+12	expresidente	expresidente	NOUN	NOUN	_	16	nmod	_	TokenRange=75:87
+13	expresidente	expresidente	ADJ	ADJ	_	12	amod	_	TokenRange=88:100
+14	grupo	grupo	NOUN	NOUN	_	16	nsubj	_	TokenRange=101:106
+15	odebrecht	_	PROPN	PNOUN	_	14	appos	_	TokenRange=107:116
+16	abriu	abrir	VERB	VERB	_	8	parataxis	_	TokenRange=117:122
+17	rodada	_	NOUN	NOUN	_	16	obj	_	TokenRange=123:129
+18	depoimentos	depoimento	NOUN	NOUN	_	16	obj	_	TokenRange=130:141
+19	reus	reus	ADJ	ADJ	_	18	amod	_	TokenRange=142:146
+20	processo	processo	NOUN	NOUN	_	21	nsubj	_	TokenRange=147:155
+21	apura	apurar	VERB	VERB	_	16	conj	_	TokenRange=156:161
+22	petista	petista	NOUN	NOUN	_	21	obj	_	TokenRange=162:169
+23	recebeu	receber	VERB	VERB	_	16	conj	_	TokenRange=170:177
+24	propina	propina	NOUN	NOUN	_	23	obj	_	TokenRange=178:185
+25	empreiteira	empreiteiro	ADJ	ADJ	_	24	amod	_	TokenRange=186:197
+26	cada	_	DET	DET	_	27	det	_	TokenRange=198:202
+27	politico	politico	NOUN	NOUN	_	32	nsubj	_	TokenRange=203:211
+28	funcionario	funcionario	NOUN	NOUN	_	27	appos	_	TokenRange=212:223
+29	alto	alto	ADJ	ADJ	_	30	amod	_	TokenRange=224:228
+30	escalao	escalao	NOUN	NOUN	_	27	appos	_	TokenRange=229:236
+31	petrobras	petrobra	ADJ	ADJ	_	30	amod	_	TokenRange=237:246
+32	reportava	reportar	VERB	VERB	_	3	parataxis	_	TokenRange=247:256
+33	sempre	sempre	ADV	ADV	_	32	advmod	_	TokenRange=257:263
+34	executivo	executivo	NOUN	NOUN	_	32	obj	_	TokenRange=264:273
+35	apelidado	apelidado	ADJ	ADJ	_	34	amod	_	TokenRange=274:283
+36	padrinho	_	NOUN	NOUN	_	32	obj	_	TokenRange=284:292
+37	segundo	_	ADP	ADP	_	38	case	_	TokenRange=293:300
+38	marcelo	marcelo	NOUN	NOUN	_	32	nmod	_	TokenRange=301:308
+39	expresidente	expresidente	NOUN	NOUN	_	38	flat	_	SpaceAfter=No|TokenRange=309:321
+

@@ -1,0 +1,17 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sertanejo vendeu 11 milhoes discos passa dificuldades mae ajudado
+1	sertanejo	sertanejo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	vendeu	vender	VERB	VERB	_	0	root	_	TokenRange=10:16
+3	11	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=17:19
+4	milhoes	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=20:27
+5	discos	disco	NOUN	NOUN	_	2	obj	_	TokenRange=28:34
+6	passa	passar	VERB	VERB	_	2	conj	_	TokenRange=35:40
+7	dificuldades	dificuldade	NOUN	NOUN	_	6	obj	_	TokenRange=41:53
+8	mae	mae	NOUN	NOUN	_	9	nsubj	_	TokenRange=54:57
+9	ajudado	ajudar	VERB	VERB	_	7	acl	_	SpaceAfter=No|TokenRange=58:65
+

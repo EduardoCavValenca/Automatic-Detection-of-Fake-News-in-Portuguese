@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nota fiscal emitida petrobras mostra gasolina vendida r 159 bolivia nf emitida estatal brasileira petrobras empresa boliviana mostra gasolina negociada pais vizinho menos metade preco brasileiros pagam produto brasil consumidor final chega pagar 349 420 litro combustivel preco medio gasolina r 379 acordo anp agencia nacional petroleo gas natural biocombustiveis resumo opera empresa publica boliviana ypbf comprou gasolina brasileira desconto 60 petrobras informou apos comprar produto empresa ypfb arcar custos logisticos transportar produto destino
+1	nota	nota	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:4
+2	fiscal	fiscal	ADJ	ADJ	_	1	amod	_	TokenRange=5:11
+3	emitida	emitir	VERB	VERB	_	1	acl	_	TokenRange=12:19
+4	petrobras	petrobra	NOUN	NOUN	_	3	obj	_	TokenRange=20:29
+5	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=30:36
+6	gasolina	gasolina	NOUN	NOUN	_	5	obj	_	TokenRange=37:45
+7	vendida	vender	VERB	VERB	_	6	acl	_	TokenRange=46:53
+8	r	r	PUNCT	.	_	5	punct	_	TokenRange=54:55
+9	159	_	NUM	NUM	NumType=Card	5	nmod	_	TokenRange=56:59
+10	bolivia	bolivia	NOUN	NOUN	_	5	obj	_	TokenRange=60:67
+11	nf	_	ADJ	ADJ	_	12	cc	_	TokenRange=68:70
+12	emitida	_	NOUN	NOUN	_	1	appos	_	TokenRange=71:78
+13	estatal	estatal	ADJ	ADJ	_	12	amod	_	TokenRange=79:86
+14	brasileira	brasileiro	ADJ	ADJ	_	12	amod	_	TokenRange=87:97
+15	petrobras	petrobra	NOUN	NOUN	_	12	amod	_	TokenRange=98:107
+16	empresa	empresa	NOUN	NOUN	_	12	appos	_	TokenRange=108:115
+17	boliviana	boliviano	ADJ	ADJ	_	16	amod	_	TokenRange=116:125
+18	mostra	mostrar	VERB	VERB	_	1	parataxis	_	TokenRange=126:132
+19	gasolina	gasolina	NOUN	NOUN	_	18	obj	_	TokenRange=133:141
+20	negociada	negociar	VERB	VERB	_	19	acl	_	TokenRange=142:151
+21	pais	_	NOUN	NOUN	_	20	nmod	_	TokenRange=152:156
+22	vizinho	vizinho	ADJ	ADJ	_	21	amod	_	TokenRange=157:164
+23	menos	_	DET	DET	_	24	det	_	TokenRange=165:170
+24	metade	metade	NOUN	NOUN	_	27	nsubj	_	TokenRange=171:177
+25	preco	preco	NOUN	NOUN	_	24	appos	_	TokenRange=178:183
+26	brasileiros	brasileiro	ADJ	ADJ	_	24	amod	_	TokenRange=184:195
+27	pagam	pagar	VERB	VERB	_	18	parataxis	_	TokenRange=196:201
+28	produto	produto	NOUN	NOUN	_	27	obj	_	TokenRange=202:209
+29	brasil	brasil	ADJ	ADJ	_	30	amod	_	TokenRange=210:216
+30	consumidor	consumidor	NOUN	NOUN	_	27	nsubj	_	TokenRange=217:227
+31	final	final	ADJ	ADJ	_	30	amod	_	TokenRange=228:233
+32	chega	chegar	AUX	AUX	_	27	aux	_	TokenRange=234:239
+33	pagar	pagar	VERB	VERB	_	27	ccomp	_	TokenRange=240:245
+34	349	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=246:249
+35	420	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=250:253
+36	litro	litro	NOUN	NOUN	_	33	obj	_	TokenRange=254:259
+37	combustivel	combustivel	ADJ	ADJ	_	36	amod	_	TokenRange=260:271
+38	preco	preco	NOUN	NOUN	_	36	appos	_	TokenRange=272:277
+39	medio	medio	ADJ	ADJ	_	38	amod	_	TokenRange=278:283
+40	gasolina	gasolina	NOUN	NOUN	_	36	appos	_	TokenRange=284:292
+41	r	r	PUNCT	NOUN	_	43	punct	_	TokenRange=293:294
+42	379	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=295:298
+43	acordo	acordo	NOUN	NOUN	_	36	appos	_	TokenRange=299:305
+44	anp	_	ADJ	ADJ	_	45	amod	_	TokenRange=306:309
+45	agencia	agencia	NOUN	NOUN	_	43	appos	_	TokenRange=310:317
+46	nacional	nacional	ADJ	ADJ	_	45	amod	_	TokenRange=318:326
+47	petroleo	petroleo	NOUN	NOUN	_	45	amod	_	TokenRange=327:335
+48	gas	gas	NOUN	NOUN	_	45	appos	_	TokenRange=336:339
+49	natural	natural	ADJ	ADJ	_	48	amod	_	TokenRange=340:347
+50	biocombustiveis	biocombustivel	ADJ	ADJ	_	48	amod	_	TokenRange=348:363
+51	resumo	resumo	NOUN	NOUN	_	52	nsubj	_	TokenRange=364:370
+52	opera	operar	VERB	VERB	_	1	acl:relcl	_	TokenRange=371:376
+53	empresa	empresa	NOUN	NOUN	_	52	obj	_	TokenRange=377:384
+54	publica	publico	ADJ	ADJ	_	53	amod	_	TokenRange=385:392
+55	boliviana	boliviano	ADJ	ADJ	_	53	amod	_	TokenRange=393:402
+56	ypbf	_	PROPN	PNOUN	_	53	appos	_	TokenRange=403:407
+57	comprou	comprar	VERB	VERB	_	53	acl:relcl	_	TokenRange=408:415
+58	gasolina	gasolina	NOUN	NOUN	_	57	obj	_	TokenRange=416:424
+59	brasileira	brasileiro	ADJ	ADJ	_	58	amod	_	TokenRange=425:435
+60	desconto	desconto	NOUN	NOUN	_	63	nsubj	_	TokenRange=436:444
+61	60	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=445:447
+62	petrobras	petrobra	NOUN	NOUN	_	63	nsubj	_	TokenRange=448:457
+63	informou	informar	VERB	VERB	_	57	parataxis	_	TokenRange=458:466
+64	apos	_	ADP	ADP	_	65	mark	_	TokenRange=467:471
+65	comprar	comprar	VERB	VERB	_	63	advcl	_	TokenRange=472:479
+66	produto	produto	NOUN	NOUN	_	65	obj	_	TokenRange=480:487
+67	empresa	empresa	NOUN	NOUN	_	69	nsubj	_	TokenRange=488:495
+68	ypfb	_	PROPN	PNOUN	_	67	appos	_	TokenRange=496:500
+69	arcar	arcar	VERB	VERB	_	63	ccomp	_	TokenRange=501:506
+70	custos	custo	NOUN	NOUN	_	69	obj	_	TokenRange=507:513
+71	logisticos	logistico	ADJ	ADJ	_	70	amod	_	TokenRange=514:524
+72	transportar	transportar	VERB	VERB	_	69	xcomp	_	TokenRange=525:536
+73	produto	produto	NOUN	NOUN	_	72	obj	_	TokenRange=537:544
+74	destino	destino	NOUN	NOUN	_	73	flat	_	SpaceAfter=No|TokenRange=545:552
+

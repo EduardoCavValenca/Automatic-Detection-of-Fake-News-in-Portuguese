@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = frota perdoa detona gleisi agora bandido propineira profissional apos prisao paulo bernardo exministro petista marido senadora gleisi hoffmann ator alexandre frota perdoou atacou direto jugular frota fez video bastante irritado desabafou redes sociais senhora ainda deve r 2 milhoes devolveu propinas senhora ganhou senhora propineira marido colocou metade correios dentro mansao curitiba disse alexandre frota confira video abaixo
+1	frota	frota	NOUN	NOUN	_	56	nsubj	_	TokenRange=0:5
+2	perdoa	perdoar	VERB	VERB	_	1	acl:relcl	_	TokenRange=6:12
+3	detona	detonar	NOUN	NOUN	_	2	obj	_	TokenRange=13:19
+4	gleisi	_	NOUN	NOUN	_	3	flat	_	TokenRange=20:26
+5	agora	agora	ADV	ADV	_	6	advmod	_	TokenRange=27:32
+6	bandido	bandido	NOUN	NOUN	_	3	appos	_	TokenRange=33:40
+7	propineira	propineiro	ADJ	ADJ	_	6	amod	_	TokenRange=41:51
+8	profissional	profissional	ADJ	ADJ	_	6	amod	_	TokenRange=52:64
+9	apos	_	ADP	ADP	_	10	case	_	TokenRange=65:69
+10	prisao	prisao	NOUN	NOUN	_	3	nmod	_	TokenRange=70:76
+11	paulo	paulo	NOUN	NOUN	_	10	appos	_	TokenRange=77:82
+12	bernardo	bernardo	NOUN	NOUN	_	11	flat	_	TokenRange=83:91
+13	exministro	exministro	NOUN	NOUN	_	14	amod	_	TokenRange=92:102
+14	petista	petista	NOUN	NOUN	_	11	flat	_	TokenRange=103:110
+15	marido	marido	NOUN	NOUN	_	14	amod	_	TokenRange=111:117
+16	senadora	senador	NOUN	NOUN	_	14	appos	_	TokenRange=118:126
+17	gleisi	_	NOUN	NOUN	_	16	appos	_	TokenRange=127:133
+18	hoffmann	_	NOUN	NOUN	_	17	flat	_	TokenRange=134:142
+19	ator	ator	NOUN	NOUN	_	16	appos	_	TokenRange=143:147
+20	alexandre	alexandre	NOUN	NOUN	_	19	appos	_	TokenRange=148:157
+21	frota	frota	NOUN	NOUN	_	20	flat	_	TokenRange=158:163
+22	perdoou	perdoar	VERB	VERB	_	16	acl:relcl	_	TokenRange=164:171
+23	atacou	atacar	VERB	VERB	_	22	ccomp	_	TokenRange=172:178
+24	direto	direto	ADV	ADV	_	23	advmod	_	TokenRange=179:185
+25	jugular	jugular	ADJ	ADJ	_	28	amod	_	TokenRange=186:193
+26	frota	frota	NOUN	NOUN	_	27	nsubj	_	TokenRange=194:199
+27	fez	fazer	VERB	VERB	_	23	ccomp	_	TokenRange=200:203
+28	video	video	NOUN	NOUN	_	27	obj	_	TokenRange=204:209
+29	bastante	bastante	ADV	ADV	_	30	advmod	_	TokenRange=210:218
+30	irritado	irritado	ADJ	ADJ	_	28	amod	_	TokenRange=219:227
+31	desabafou	desabafar	VERB	VERB	_	23	parataxis	_	TokenRange=228:237
+32	redes	rede	NOUN	NOUN	_	31	obj	_	TokenRange=238:243
+33	sociais	social	ADJ	ADJ	_	32	amod	_	TokenRange=244:251
+34	senhora	senhor	NOUN	NOUN	_	40	nsubj	_	TokenRange=252:259
+35	ainda	ainda	ADV	ADV	_	40	advmod	_	TokenRange=260:265
+36	deve	dever	AUX	AUX	_	40	aux	_	TokenRange=266:270
+37	r	r	NOUN	NOUN	_	40	obj	_	TokenRange=271:272
+38	2	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=273:274
+39	milhoes	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=275:282
+40	devolveu	devolver	VERB	VERB	_	31	ccomp	_	TokenRange=283:291
+41	propinas	propina	NOUN	NOUN	_	40	obj	_	TokenRange=292:300
+42	senhora	senhor	NOUN	NOUN	_	43	nsubj	_	TokenRange=301:308
+43	ganhou	ganhar	VERB	VERB	_	41	acl:relcl	_	TokenRange=309:315
+44	senhora	senhor	NOUN	NOUN	_	43	obj	_	TokenRange=316:323
+45	propineira	propineiro	ADJ	ADJ	_	44	amod	_	TokenRange=324:334
+46	marido	marido	NOUN	NOUN	_	43	nsubj	_	TokenRange=335:341
+47	colocou	colocar	VERB	VERB	_	43	parataxis	_	TokenRange=342:349
+48	metade	metade	NOUN	NOUN	_	47	obj	_	TokenRange=350:356
+49	correios	correio	NOUN	NOUN	_	48	flat	_	TokenRange=357:365
+50	dentro	dentro	ADV	ADV	_	47	advmod	_	TokenRange=366:372
+51	mansao	mansao	NOUN	NOUN	_	47	obj	_	TokenRange=373:379
+52	curitiba	curitiba	NOUN	NOUN	_	51	flat	_	TokenRange=380:388
+53	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=389:394
+54	alexandre	alexandre	NOUN	NOUN	_	56	nsubj	_	TokenRange=395:404
+55	frota	frota	NOUN	NOUN	_	54	flat	_	TokenRange=405:410
+56	confira	conferir	VERB	VERB	_	53	ccomp	_	TokenRange=411:418
+57	video	video	NOUN	NOUN	_	56	obj	_	TokenRange=419:424
+58	abaixo	abaixo	ADV	ADV	_	56	advmod	_	SpaceAfter=No|TokenRange=425:431
+

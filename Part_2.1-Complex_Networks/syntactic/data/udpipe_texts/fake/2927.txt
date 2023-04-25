@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = votos sobra deputados pt tentou comprar rebelando esforco imoral lula dentro quarto hotel deu nada lula pt tentaram oferecer cargos troca votos contra impeachment alguns deputados concordaram expresidente dentro suite golden tulip rebelando votando favor impedimento dilma casa caiu voz povo sendo ouvida 10 favor impeachment sendo contabilizados oposicao
+1	votos	voto	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	sobra	_	ADP	ADP	_	3	case	_	TokenRange=6:11
+3	deputados	deputado	NOUN	NOUN	_	1	nmod	_	TokenRange=12:21
+4	pt	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=22:24
+5	tentou	tentar	VERB	VERB	_	0	root	_	TokenRange=25:31
+6	comprar	comprar	VERB	VERB	_	5	xcomp	_	TokenRange=32:39
+7	rebelando	rebelar	VERB	VERB	_	6	acl	_	TokenRange=40:49
+8	esforco	esforco	NOUN	NOUN	_	7	obj	_	TokenRange=50:57
+9	imoral	imoral	ADJ	ADJ	_	8	amod	_	TokenRange=58:64
+10	lula	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=65:69
+11	dentro	dentro	ADV	ADV	_	14	advmod	_	TokenRange=70:76
+12	quarto	_	ADJ	ADJ	_	13	amod	_	TokenRange=77:83
+13	hotel	hotel	NOUN	NOUN	_	14	nsubj	_	TokenRange=84:89
+14	deu	dar	VERB	VERB	_	5	parataxis	_	TokenRange=90:93
+15	nada	_	PRON	PRON	_	14	obj	_	TokenRange=94:98
+16	lula	lula	NOUN	NOUN	_	14	obj	_	TokenRange=99:103
+17	pt	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=104:106
+18	tentaram	tentar	VERB	VERB	_	14	parataxis	_	TokenRange=107:115
+19	oferecer	oferecer	VERB	VERB	_	18	xcomp	_	TokenRange=116:124
+20	cargos	cargo	NOUN	NOUN	_	19	obj	_	TokenRange=125:131
+21	troca	_	VERB	VERB	_	20	appos	_	TokenRange=132:137
+22	votos	voto	NOUN	NOUN	_	27	obj	_	TokenRange=138:143
+23	contra	_	ADP	ADP	_	24	case	_	TokenRange=144:150
+24	impeachment	impeachment	NOUN	NOUN	_	27	nmod	_	TokenRange=151:162
+25	alguns	_	DET	DET	_	26	det	_	TokenRange=163:169
+26	deputados	deputado	NOUN	NOUN	_	27	nsubj	_	TokenRange=170:179
+27	concordaram	concordar	VERB	VERB	_	5	conj	_	TokenRange=180:191
+28	expresidente	expresidente	NOUN	NOUN	_	27	obj	_	TokenRange=192:204
+29	dentro	dentro	ADV	ADV	_	27	advmod	_	TokenRange=205:211
+30	suite	suite	NOUN	NOUN	_	27	nmod	_	TokenRange=212:217
+31	golden	_	ADJ	ADJ	_	32	amod	_	TokenRange=218:224
+32	tulip	tulip	NOUN	NOUN	_	30	appos	_	TokenRange=225:230
+33	rebelando	rebelar	VERB	VERB	_	27	acl	_	TokenRange=231:240
+34	votando	votar	VERB	VERB	_	27	acl	_	TokenRange=241:248
+35	favor	favor	NOUN	NOUN	_	34	obj	_	TokenRange=249:254
+36	impedimento	impedimento	NOUN	NOUN	_	35	appos	_	TokenRange=255:266
+37	dilma	_	ADJ	ADJ	_	38	amod	_	TokenRange=267:272
+38	casa	casa	NOUN	NOUN	_	39	nsubj	_	TokenRange=273:277
+39	caiu	cair	VERB	VERB	_	34	conj	_	TokenRange=278:282
+40	voz	voz	NOUN	NOUN	_	39	obj	_	TokenRange=283:286
+41	povo	povo	NOUN	NOUN	_	40	flat	_	TokenRange=287:291
+42	sendo	ser	AUX	AUX	_	43	aux:pass	_	TokenRange=292:297
+43	ouvida	ouvir	VERB	VERB	_	40	acl	_	TokenRange=298:304
+44	10	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=305:307
+45	favor	favor	NOUN	NOUN	_	43	nsubj:pass	_	TokenRange=308:313
+46	impeachment	impeachment	NOUN	NOUN	_	45	flat	_	TokenRange=314:325
+47	sendo	ser	AUX	AUX	_	48	aux:pass	_	TokenRange=326:331
+48	contabilizados	contabilizar	VERB	VERB	_	39	acl	_	TokenRange=332:346
+49	oposicao	_	NOUN	NOUN	_	48	nsubj:pass	_	SpaceAfter=No|TokenRange=347:355
+

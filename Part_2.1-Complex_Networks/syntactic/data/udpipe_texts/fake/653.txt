@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tiroteio las vegas homem flagrado mostrando dedo meio atirador momento centenas pessoas abaixavam procuravam abrigos proteger homem aparece lata cerveja mao faz gesto obsceno atirador antes levantar verifica onde vem tiros faz questao virar hotel veja homem ainda identificado sequer temeu vida pensou algum tipo brincadeira doido pedra minuto 110 video
+1	tiroteio	tiroteio	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:8
+2	las	_	DET	DET	_	3	det	_	TokenRange=9:12
+3	vegas	vega	NOUN	NOUN	_	1	nmod	_	TokenRange=13:18
+4	homem	homem	NOUN	NOUN	_	1	appos	_	TokenRange=19:24
+5	flagrado	flagrar	VERB	VERB	_	4	acl	_	TokenRange=25:33
+6	mostrando	mostrar	VERB	VERB	_	1	acl	_	TokenRange=34:43
+7	dedo	dedo	NOUN	NOUN	_	6	obj	_	TokenRange=44:48
+8	meio	meio	ADJ	ADJ	_	9	amod	_	TokenRange=49:53
+9	atirador	atirador	NOUN	NOUN	_	7	appos	_	TokenRange=54:62
+10	momento	momento	NOUN	NOUN	_	9	appos	_	TokenRange=63:70
+11	centenas	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=71:79
+12	pessoas	pessoa	NOUN	NOUN	_	13	nsubj	_	TokenRange=80:87
+13	abaixavam	abaixar	VERB	VERB	_	0	root	_	TokenRange=88:97
+14	procuravam	procurar	VERB	VERB	_	13	xcomp	_	TokenRange=98:108
+15	abrigos	abrigo	NOUN	NOUN	_	14	obj	_	TokenRange=109:116
+16	proteger	proteger	VERB	VERB	_	15	acl:inf	_	TokenRange=117:125
+17	homem	homem	NOUN	NOUN	_	16	obj	_	TokenRange=126:131
+18	aparece	aparecer	VERB	VERB	_	7	acl:relcl	_	TokenRange=132:139
+19	lata	lata	NOUN	NOUN	_	18	nsubj	_	TokenRange=140:144
+20	cerveja	cerveja	NOUN	NOUN	_	19	flat	_	TokenRange=145:152
+21	mao	mao	NOUN	NOUN	_	22	nsubj	_	TokenRange=153:156
+22	faz	fazer	VERB	VERB	_	18	conj	_	TokenRange=157:160
+23	gesto	gesto	NOUN	NOUN	_	22	obj	_	TokenRange=161:166
+24	obsceno	obsceno	ADJ	ADJ	_	23	amod	_	TokenRange=167:174
+25	atirador	atirador	NOUN	NOUN	_	23	appos	_	TokenRange=175:183
+26	antes	antes	ADV	ADV	_	27	advmod	_	TokenRange=184:189
+27	levantar	levantar	VERB	VERB	_	25	acl:relcl	_	TokenRange=190:198
+28	verifica	verificar	VERB	VERB	_	27	ccomp	_	TokenRange=199:207
+29	onde	onde	ADV	ADV	_	30	advmod	_	TokenRange=208:212
+30	vem	vir	VERB	VERB	_	28	ccomp	_	TokenRange=213:216
+31	tiros	tiro	NOUN	NOUN	_	30	nsubj	_	TokenRange=217:222
+32	faz	fazer	VERB	VERB	_	28	ccomp	_	TokenRange=223:226
+33	questao	questao	NOUN	NOUN	_	32	obj	_	TokenRange=227:234
+34	virar	virar	VERB	VERB	_	32	ccomp	_	TokenRange=235:240
+35	hotel	hotel	NOUN	NOUN	_	34	obj	_	TokenRange=241:246
+36	veja	ver	VERB	VERB	_	32	ccomp	_	TokenRange=247:251
+37	homem	homem	NOUN	NOUN	_	36	nsubj	_	TokenRange=252:257
+38	ainda	ainda	ADV	ADV	_	39	advmod	_	TokenRange=258:263
+39	identificado	identificar	VERB	VERB	_	37	acl	_	TokenRange=264:276
+40	sequer	sequer	ADV	ADV	_	41	advmod	_	TokenRange=277:283
+41	temeu	temer	VERB	VERB	_	39	conj	_	TokenRange=284:289
+42	vida	vida	NOUN	NOUN	_	41	obj	_	TokenRange=290:294
+43	pensou	pensar	VERB	VERB	_	41	parataxis	_	TokenRange=295:301
+44	algum	_	DET	DET	_	45	det	_	TokenRange=302:307
+45	tipo	tipo	NOUN	NOUN	_	43	obj	_	TokenRange=308:312
+46	brincadeira	brincadeira	NOUN	NOUN	_	45	flat	_	TokenRange=313:324
+47	doido	doir	VERB	VERB	_	45	acl	_	TokenRange=325:330
+48	pedra	pedra	NOUN	NOUN	_	47	obj	_	TokenRange=331:336
+49	minuto	minuto	NOUN	NOUN	_	48	appos	_	TokenRange=337:343
+50	110	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=344:347
+51	video	video	NOUN	NOUN	_	48	appos	_	SpaceAfter=No|TokenRange=348:353
+

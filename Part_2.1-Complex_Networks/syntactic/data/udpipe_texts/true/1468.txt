@@ -1,0 +1,14 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = imagens semana 22 28 julho 2017
+1	imagens	imagem	NOUN	NOUN	_	0	root	_	TokenRange=0:7
+2	semana	semana	NOUN	NOUN	_	1	appos	_	TokenRange=8:14
+3	22	_	NUM	NUM	NumType=Card	2	appos	_	TokenRange=15:17
+4	28	_	NUM	NUM	NumType=Card	2	nmod	_	TokenRange=18:20
+5	julho	_	PROPN	PNOUN	_	4	nmod	_	TokenRange=21:26
+6	2017	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No|TokenRange=27:31
+

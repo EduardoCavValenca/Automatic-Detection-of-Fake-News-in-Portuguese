@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = padre pede fieis orarem principe george vamos rezar gay cristaos devem rezar principe george gay forcar igreja inglaterra apoiar casamento homossexual disse ministro anglicano
+1	padre	padre	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	pede	pedir	VERB	VERB	_	22	ccomp	_	TokenRange=6:10
+3	fieis	_	NOUN	NOUN	_	2	obj	_	TokenRange=11:16
+4	orarem	orar	VERB	VERB	_	2	ccomp	_	TokenRange=17:23
+5	principe	principe	NOUN	NOUN	_	4	obj	_	TokenRange=24:32
+6	george	george	NOUN	NOUN	_	5	flat	_	TokenRange=33:39
+7	vamos	ir	AUX	AUX	_	8	aux	_	TokenRange=40:45
+8	rezar	rezar	VERB	VERB	_	2	ccomp	_	TokenRange=46:51
+9	gay	gay	NOUN	NOUN	_	8	obj	_	TokenRange=52:55
+10	cristaos	cristao	NOUN	NOUN	_	12	nsubj	_	TokenRange=56:64
+11	devem	_	AUX	AUX	_	12	aux	_	TokenRange=65:70
+12	rezar	rezar	VERB	VERB	_	8	ccomp	_	TokenRange=71:76
+13	principe	principe	NOUN	NOUN	_	12	obj	_	TokenRange=77:85
+14	george	george	NOUN	NOUN	_	13	flat	_	TokenRange=86:92
+15	gay	gay	ADJ	ADJ	_	13	amod	_	TokenRange=93:96
+16	forcar	forcar	VERB	VERB	_	12	ccomp	_	TokenRange=97:103
+17	igreja	igreja	NOUN	NOUN	_	16	obj	_	TokenRange=104:110
+18	inglaterra	inglaterro	ADJ	ADJ	_	17	amod	_	TokenRange=111:121
+19	apoiar	apoiar	VERB	VERB	_	16	ccomp	_	TokenRange=122:128
+20	casamento	casamento	NOUN	NOUN	_	19	obj	_	TokenRange=129:138
+21	homossexual	homossexual	ADJ	ADJ	_	20	amod	_	TokenRange=139:150
+22	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=151:156
+23	ministro	ministro	NOUN	NOUN	_	22	obj	_	TokenRange=157:165
+24	anglicano	anglicano	ADJ	ADJ	_	23	amod	_	SpaceAfter=No|TokenRange=166:175
+

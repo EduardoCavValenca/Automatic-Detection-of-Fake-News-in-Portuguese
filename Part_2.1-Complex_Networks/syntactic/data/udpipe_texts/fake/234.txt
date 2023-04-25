@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer aprovou lei acaba 13 fgts todos trabalhadores diante informacoes surgindo sobre michel temer sancionado terceirizacao jornalistas fontes seguras afirmacao fato contato secretaria imprensa presidencia informou presidente michel temer autenticou projeto aprovado camara deputados trata terceirizacao enfim aprovacao permite contratacao servico terceirizado qualquer tipo atividade empresa
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	aprovou	aprovar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	lei	lei	NOUN	NOUN	_	2	obj	_	TokenRange=14:17
+4	acaba	acabar	VERB	VERB	_	2	parataxis	_	TokenRange=18:23
+5	13	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=24:26
+6	fgts	_	NOUN	NOUN	_	4	nmod	_	TokenRange=27:31
+7	todos	_	DET	DET	_	8	det	_	TokenRange=32:37
+8	trabalhadores	trabalhador	NOUN	NOUN	_	2	obj	_	TokenRange=38:51
+9	diante	diante	ADV	ADV	_	10	advmod	_	TokenRange=52:58
+10	informacoes	informacoe	NOUN	NOUN	_	8	appos	_	TokenRange=59:70
+11	surgindo	surgir	VERB	VERB	_	10	acl	_	TokenRange=71:79
+12	sobre	_	ADP	ADP	_	14	case	_	TokenRange=80:85
+13	michel	_	DET	DET	_	14	det	_	TokenRange=86:92
+14	temer	temer	NOUN	NOUN	_	11	nmod	_	TokenRange=93:98
+15	sancionado	sancionar	VERB	VERB	_	14	acl	_	TokenRange=99:109
+16	terceirizacao	_	ADJ	NOUN	_	14	amod	_	TokenRange=110:123
+17	jornalistas	jornalista	NOUN	NOUN	_	18	amod	_	TokenRange=124:135
+18	fontes	fonte	NOUN	NOUN	_	14	appos	_	TokenRange=136:142
+19	seguras	seguro	ADJ	ADJ	_	18	amod	_	TokenRange=143:150
+20	afirmacao	_	VERB	VERB	_	21	case	_	TokenRange=151:160
+21	fato	fato	NOUN	NOUN	_	18	appos	_	TokenRange=161:165
+22	contato	contato	NOUN	NOUN	_	21	flat	_	TokenRange=166:173
+23	secretaria	secretaria	NOUN	NOUN	_	21	appos	_	TokenRange=174:184
+24	imprensa	imprensa	NOUN	NOUN	_	21	flat	_	TokenRange=185:193
+25	presidencia	presidencia	NOUN	NOUN	_	26	nsubj	_	TokenRange=194:205
+26	informou	informar	VERB	VERB	_	2	parataxis	_	TokenRange=206:214
+27	presidente	presidente	NOUN	NOUN	_	26	obj	_	TokenRange=215:225
+28	michel	michel	ADJ	ADJ	_	29	amod	_	TokenRange=226:232
+29	temer	temer	NOUN	NOUN	_	27	appos	_	TokenRange=233:238
+30	autenticou	autenticar	VERB	VERB	_	26	ccomp	_	TokenRange=239:249
+31	projeto	projeto	NOUN	NOUN	_	30	obj	_	TokenRange=250:257
+32	aprovado	aprovar	VERB	VERB	_	31	acl	_	TokenRange=258:266
+33	camara	camara	NOUN	NOUN	_	31	appos	_	TokenRange=267:273
+34	deputados	deputado	NOUN	NOUN	_	33	flat	_	TokenRange=274:283
+35	trata	tratar	VERB	VERB	_	31	acl:relcl	_	TokenRange=284:289
+36	terceirizacao	_	NOUN	NOUN	_	35	obj	_	TokenRange=290:303
+37	enfim	enfim	ADV	ADV	_	39	advmod	_	TokenRange=304:309
+38	aprovacao	aprovacao	NOUN	NOUN	_	39	nsubj	_	TokenRange=310:319
+39	permite	permitir	VERB	VERB	_	35	parataxis	_	TokenRange=320:327
+40	contratacao	contratacao	NOUN	NOUN	_	39	obj	_	TokenRange=328:339
+41	servico	servico	NOUN	NOUN	_	39	obj	_	TokenRange=340:347
+42	terceirizado	_	ADJ	ADJ	_	41	amod	_	TokenRange=348:360
+43	qualquer	_	DET	DET	_	44	det	_	TokenRange=361:369
+44	tipo	tipo	NOUN	NOUN	_	39	nmod	_	TokenRange=370:374
+45	atividade	atividade	NOUN	NOUN	_	44	appos	_	TokenRange=375:384
+46	empresa	empresa	NOUN	NOUN	_	44	flat	_	SpaceAfter=No|TokenRange=385:392
+

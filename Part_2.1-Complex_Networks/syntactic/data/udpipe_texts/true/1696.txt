@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = problema seguranca nacional uso forcas armadas contra violencia urbana operacao 1994 dava liberdade tropas avalia general general roberto jugurtha camara senna comandou 1994 acoes militares operacao rio governo federal intercedeu seguranca estado tropas forcas armadas atualmente reserva militar 77 anos comparou entrevista estado acao 24 anos atras atual defendeu maior liberdade acao militares comunidades operacao rio liberdade operar afirmou podiamos reagir tiros confrontos maior liberdade acao bandido armado atirasse cima contra tropa podia abatido defendeu
+1	problema	problema	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:8
+2	seguranca	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:18
+3	nacional	nacional	ADJ	ADJ	_	1	amod	_	TokenRange=19:27
+4	uso	uso	NOUN	NOUN	_	1	appos	_	TokenRange=28:31
+5	forcas	forca	NOUN	NOUN	_	4	appos	_	TokenRange=32:38
+6	armadas	armado	ADJ	ADJ	_	5	amod	_	TokenRange=39:46
+7	contra	_	ADP	ADP	_	8	case	_	TokenRange=47:53
+8	violencia	violencia	NOUN	NOUN	_	4	nmod	_	TokenRange=54:63
+9	urbana	urbano	ADJ	ADJ	_	8	amod	_	TokenRange=64:70
+10	operacao	operacao	NOUN	NOUN	_	4	appos	_	TokenRange=71:79
+11	1994	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=80:84
+12	dava	dar	VERB	VERB	_	1	parataxis	_	TokenRange=85:89
+13	liberdade	liberdade	NOUN	NOUN	_	12	obj	_	TokenRange=90:99
+14	tropas	tropa	NOUN	NOUN	_	13	appos	_	TokenRange=100:106
+15	avalia	avaliar	VERB	VERB	_	0	root	_	TokenRange=107:113
+16	general	general	NOUN	NOUN	_	15	obj	_	TokenRange=114:121
+17	general	general	ADJ	ADJ	_	16	amod	_	TokenRange=122:129
+18	roberto	roberto	NOUN	NOUN	_	16	appos	_	TokenRange=130:137
+19	jugurtha	_	NOUN	NOUN	_	18	amod	_	TokenRange=138:146
+20	camara	camara	NOUN	NOUN	_	18	appos	_	TokenRange=147:153
+21	senna	_	PROPN	NOUN	_	20	flat	_	TokenRange=154:159
+22	comandou	comandar	VERB	VERB	_	1	acl:relcl	_	TokenRange=160:168
+23	1994	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=169:173
+24	acoes	acoe	NOUN	NOUN	_	22	obj	_	TokenRange=174:179
+25	militares	militar	ADJ	ADJ	_	24	amod	_	TokenRange=180:189
+26	operacao	operacao	NOUN	NOUN	_	22	appos	_	TokenRange=190:198
+27	rio	_	NOUN	NOUN	_	24	appos	_	TokenRange=199:202
+28	governo	governo	NOUN	NOUN	_	24	appos	_	TokenRange=203:210
+29	federal	federal	ADJ	ADJ	_	28	amod	_	TokenRange=211:218
+30	intercedeu	interceder	VERB	VERB	_	22	parataxis	_	TokenRange=219:229
+31	seguranca	_	NOUN	NOUN	_	30	obj	_	TokenRange=230:239
+32	estado	estado	NOUN	NOUN	_	30	nsubj	_	TokenRange=240:246
+33	tropas	tropa	NOUN	NOUN	_	31	appos	_	TokenRange=247:253
+34	forcas	forca	NOUN	NOUN	_	33	amod	_	TokenRange=254:260
+35	armadas	armado	ADJ	ADJ	_	33	amod	_	TokenRange=261:268
+36	atualmente	atualmente	ADV	ADV	_	41	advmod	_	TokenRange=269:279
+37	reserva	reserva	NOUN	NOUN	_	30	nsubj	_	TokenRange=280:287
+38	militar	militar	ADJ	ADJ	_	37	amod	_	TokenRange=288:295
+39	77	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=296:298
+40	anos	ano	NOUN	NOUN	_	41	nsubj	_	TokenRange=299:303
+41	comparou	comparar	VERB	VERB	_	15	parataxis	_	TokenRange=304:312
+42	entrevista	entrevista	NOUN	NOUN	_	41	obj	_	TokenRange=313:323
+43	estado	estado	NOUN	NOUN	_	42	appos	_	TokenRange=324:330
+44	acao	acao	NOUN	NOUN	_	43	flat	_	TokenRange=331:335
+45	24	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=336:338
+46	anos	ano	NOUN	NOUN	_	41	nmod	_	TokenRange=339:343
+47	atras	atras	ADV	ADV	_	46	advmod	_	TokenRange=344:349
+48	atual	atual	ADJ	ADJ	_	46	amod	_	TokenRange=350:355
+49	defendeu	defender	VERB	VERB	_	41	parataxis	_	TokenRange=356:364
+50	maior	maior	ADJ	ADJ	_	51	amod	_	TokenRange=365:370
+51	liberdade	liberdade	NOUN	NOUN	_	49	obj	_	TokenRange=371:380
+52	acao	acao	NOUN	NOUN	_	49	nsubj	_	TokenRange=381:385
+53	militares	militar	ADJ	ADJ	_	52	amod	_	TokenRange=386:395
+54	comunidades	comunidade	NOUN	NOUN	_	52	appos	_	TokenRange=396:407
+55	operacao	operacao	NOUN	NOUN	_	49	nsubj	_	TokenRange=408:416
+56	rio	_	ADJ	ADJ	_	57	amod	_	TokenRange=417:420
+57	liberdade	liberdade	NOUN	NOUN	_	55	appos	_	TokenRange=421:430
+58	operar	operar	VERB	VERB	_	55	acl:relcl	_	TokenRange=431:437
+59	afirmou	afirmar	VERB	VERB	_	58	ccomp	_	TokenRange=438:445
+60	podiamos	_	AUX	AUX	_	61	aux	_	TokenRange=446:454
+61	reagir	reagir	VERB	VERB	_	59	xcomp	_	TokenRange=455:461
+62	tiros	tiro	NOUN	NOUN	_	61	obj	_	TokenRange=462:467
+63	confrontos	confronto	ADJ	ADJ	_	62	amod	_	TokenRange=468:478
+64	maior	maior	ADJ	ADJ	_	65	amod	_	TokenRange=479:484
+65	liberdade	liberdade	NOUN	NOUN	_	61	obj	_	TokenRange=485:494
+66	acao	acao	NOUN	NOUN	_	65	amod	_	TokenRange=495:499
+67	bandido	bandido	NOUN	NOUN	_	69	nsubj	_	TokenRange=500:507
+68	armado	armado	ADJ	ADJ	_	67	amod	_	TokenRange=508:514
+69	atirasse	atirar	VERB	VERB	_	61	ccomp	_	TokenRange=515:523
+70	cima	cima	NOUN	NOUN	_	69	obj	_	TokenRange=524:528
+71	contra	_	ADP	ADP	_	72	case	_	TokenRange=529:535
+72	tropa	tropa	NOUN	NOUN	_	69	nmod	_	TokenRange=536:541
+73	podia	poder	AUX	AUX	_	75	aux	_	TokenRange=542:547
+74	abatido	abater	VERB	NOUN	_	75	ccomp	_	TokenRange=548:555
+75	defendeu	defender	VERB	VERB	_	49	parataxis	_	SpaceAfter=No|TokenRange=556:564
+

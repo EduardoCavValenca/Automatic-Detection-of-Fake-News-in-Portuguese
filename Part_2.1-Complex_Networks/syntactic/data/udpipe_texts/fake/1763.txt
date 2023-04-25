@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = suica identifica 1000 contas bancarias executivos politicos suspeitos desvios rodrigo janot procuradorgeral republica suica procurador michel lauber negociando desbloqueio us 70 milhoes devolvelos cofre publicos suica identificou 1000 contas bancarias relacao operacao lava jato donos contas executivos petrobras fornecedores politicos brasileiros intermediarios financeiros 340 relacoes bancarias suspeitas ligadas casos corrupcao petrobras desde 2014 procuradoria suica abriu 60 investigacoes suspeita lavagem dinheiro cerca us 800 milhoes mantidos suica congelados congresso foco
+1	suica	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	identifica	identificar	VERB	VERB	_	0	root	_	TokenRange=6:16
+3	1000	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=17:21
+4	contas	conta	NOUN	NOUN	_	2	obj	_	TokenRange=22:28
+5	bancarias	bancario	ADJ	ADJ	_	4	amod	_	TokenRange=29:38
+6	executivos	executivo	ADJ	ADJ	_	4	amod	_	TokenRange=39:49
+7	politicos	politico	ADJ	ADJ	_	4	amod	_	TokenRange=50:59
+8	suspeitos	suspeito	ADJ	ADJ	_	4	amod	_	TokenRange=60:69
+9	desvios	desvio	ADJ	ADJ	_	4	amod	_	TokenRange=70:77
+10	rodrigo	_	ADJ	ADJ	_	4	appos	_	TokenRange=78:85
+11	janot	_	NOUN	NOUN	_	4	appos	_	TokenRange=86:91
+12	procuradorgeral	procuradorgeral	ADJ	ADJ	_	11	amod	_	TokenRange=92:107
+13	republica	republico	ADJ	ADJ	_	15	amod	_	TokenRange=108:117
+14	suica	suico	ADJ	ADJ	_	15	amod	_	TokenRange=118:123
+15	procurador	procurador	NOUN	NOUN	_	11	appos	_	TokenRange=124:134
+16	michel	_	NOUN	NOUN	_	15	appos	_	TokenRange=135:141
+17	lauber	_	NOUN	NOUN	_	15	flat	_	TokenRange=142:148
+18	negociando	negociar	VERB	VERB	_	15	acl	_	TokenRange=149:159
+19	desbloqueio	desbloqueio	NOUN	NOUN	_	18	obj	_	TokenRange=160:171
+20	us	_	DET	DET	_	22	nummod	_	TokenRange=172:174
+21	70	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=175:177
+22	milhoes	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=178:185
+23	devolvelos	devolvelo	ADJ	ADJ	_	24	amod	_	TokenRange=186:196
+24	cofre	cofre	NOUN	NOUN	_	18	obj	_	TokenRange=197:202
+25	publicos	publico	ADJ	ADJ	_	24	amod	_	TokenRange=203:211
+26	suica	_	ADJ	ADJ	_	24	amod	_	TokenRange=212:217
+27	identificou	identificar	VERB	VERB	_	2	parataxis	_	TokenRange=218:229
+28	1000	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=230:234
+29	contas	conta	NOUN	NOUN	_	27	obj	_	TokenRange=235:241
+30	bancarias	bancario	ADJ	ADJ	_	29	amod	_	TokenRange=242:251
+31	relacao	relacao	NOUN	NOUN	_	27	nsubj	_	TokenRange=252:259
+32	operacao	operacao	NOUN	NOUN	_	29	appos	_	TokenRange=260:268
+33	lava	lava	NOUN	NOUN	_	29	appos	_	TokenRange=269:273
+34	jato	jato	NOUN	NOUN	_	32	flat	_	TokenRange=274:278
+35	donos	dono	NOUN	NOUN	_	36	amod	_	TokenRange=279:284
+36	contas	conta	NOUN	NOUN	_	32	appos	_	TokenRange=285:291
+37	executivos	executivo	ADJ	ADJ	_	36	amod	_	TokenRange=292:302
+38	petrobras	petrobra	ADJ	ADJ	_	36	amod	_	TokenRange=303:312
+39	fornecedores	fornecedor	NOUN	NOUN	_	36	appos	_	TokenRange=313:325
+40	politicos	politico	ADJ	ADJ	_	39	amod	_	TokenRange=326:335
+41	brasileiros	brasileiro	ADJ	ADJ	_	39	amod	_	TokenRange=336:347
+42	intermediarios	intermediario	NOUN	NOUN	_	36	appos	_	TokenRange=348:362
+43	financeiros	financeiro	ADJ	ADJ	_	42	amod	_	TokenRange=363:374
+44	340	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=375:378
+45	relacoes	relacoe	NOUN	NOUN	_	42	appos	_	TokenRange=379:387
+46	bancarias	bancario	ADJ	ADJ	_	45	amod	_	TokenRange=388:397
+47	suspeitas	suspeito	ADJ	ADJ	_	45	amod	_	TokenRange=398:407
+48	ligadas	ligado	ADJ	ADJ	_	45	amod	_	TokenRange=408:415
+49	casos	caso	NOUN	NOUN	_	45	appos	_	TokenRange=416:421
+50	corrupcao	corrupcao	ADJ	ADJ	_	49	amod	_	TokenRange=422:431
+51	petrobras	petrobra	NOUN	NOUN	_	49	appos	_	TokenRange=432:441
+52	desde	_	ADP	ADP	_	53	case	_	TokenRange=442:447
+53	2014	_	NUM	NUM	NumType=Card	56	nmod	_	TokenRange=448:452
+54	procuradoria	procuradoria	NOUN	NOUN	_	56	nsubj	_	TokenRange=453:465
+55	suica	suico	ADJ	ADJ	_	54	amod	_	TokenRange=466:471
+56	abriu	abrir	VERB	VERB	_	2	parataxis	_	TokenRange=472:477
+57	60	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=478:480
+58	investigacoes	investigacoe	NOUN	NOUN	_	56	obj	_	TokenRange=481:494
+59	suspeita	suspeito	ADJ	ADJ	_	60	amod	_	TokenRange=495:503
+60	lavagem	lavagem	NOUN	NOUN	_	56	obj	_	TokenRange=504:511
+61	dinheiro	dinheiro	NOUN	NOUN	_	60	flat	_	TokenRange=512:520
+62	cerca	cerca	ADV	ADV	_	65	advmod	_	TokenRange=521:526
+63	us	_	DET	DET	_	65	nummod	_	TokenRange=527:529
+64	800	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=530:533
+65	milhoes	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=534:541
+66	mantidos	manter	VERB	VERB	_	60	acl	_	TokenRange=542:550
+67	suica	_	ADJ	ADJ	_	69	amod	_	TokenRange=551:556
+68	congelados	congelar	VERB	ADJ	_	69	acl	_	TokenRange=557:567
+69	congresso	congresso	NOUN	NOUN	_	66	nsubj	_	TokenRange=568:577
+70	foco	foco	NOUN	NOUN	_	69	flat	_	SpaceAfter=No|TokenRange=578:582
+

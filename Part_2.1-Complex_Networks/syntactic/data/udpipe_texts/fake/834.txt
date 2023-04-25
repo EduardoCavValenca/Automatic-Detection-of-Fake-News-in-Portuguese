@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video nasa mostra ovni reabastecendo energias sol filmagem datada setembro 2016 feita nasa mostra nave mae alienigena reabastecendo calor sol gravacao sugere nave estaria utilizando sol fonte energia estando 149600000 km terra pesquisadores monitoram constantemente todas atividades acontecem estrela central sistema solar apos video divulgado youtube diversos estudiosos ufos confirmaram imagens mostravam nave mae alienigena reabastecendo calor sol
+1	video	video	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	nasa	_	NOUN	NOUN	_	1	amod	_	TokenRange=6:10
+3	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=11:17
+4	ovni	ovni	NOUN	NOUN	_	3	obj	_	TokenRange=18:22
+5	reabastecendo	reabastecer	VERB	VERB	_	3	acl	_	TokenRange=23:36
+6	energias	energia	NOUN	NOUN	_	5	obj	_	TokenRange=37:45
+7	sol	sol	ADJ	ADJ	_	6	amod	_	TokenRange=46:49
+8	filmagem	filmagem	NOUN	NOUN	_	3	obj	_	TokenRange=50:58
+9	datada	datar	VERB	VERB	_	8	acl	_	TokenRange=59:65
+10	setembro	_	PROPN	PNOUN	_	5	nmod	_	TokenRange=66:74
+11	2016	_	NUM	NUM	NumType=Card	10	nmod	_	TokenRange=75:79
+12	feita	_	VERB	VERB	_	14	acl	_	TokenRange=80:85
+13	nasa	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=86:90
+14	mostra	mostrar	VERB	VERB	_	3	parataxis	_	TokenRange=91:97
+15	nave	nave	NOUN	NOUN	_	14	obj	_	TokenRange=98:102
+16	mae	mae	NOUN	NOUN	_	15	amod	_	TokenRange=103:106
+17	alienigena	alienigeno	ADJ	ADJ	_	15	amod	_	TokenRange=107:117
+18	reabastecendo	reabastecer	VERB	VERB	_	15	acl	_	TokenRange=118:131
+19	calor	calor	NOUN	NOUN	_	18	obj	_	TokenRange=132:137
+20	sol	sol	ADJ	ADJ	_	19	amod	_	TokenRange=138:141
+21	gravacao	gravacao	NOUN	NOUN	_	22	nsubj	_	TokenRange=142:150
+22	sugere	sugerir	VERB	VERB	_	3	parataxis	_	TokenRange=151:157
+23	nave	nave	NOUN	NOUN	_	25	nsubj	_	TokenRange=158:162
+24	estaria	estar	AUX	AUX	_	25	aux	_	TokenRange=163:170
+25	utilizando	utilizar	VERB	VERB	_	22	ccomp	_	TokenRange=171:181
+26	sol	sol	NOUN	NOUN	_	25	obj	_	TokenRange=182:185
+27	fonte	fonte	NOUN	NOUN	_	26	appos	_	TokenRange=186:191
+28	energia	energia	NOUN	NOUN	_	27	flat	_	TokenRange=192:199
+29	estando	estar	VERB	VERB	_	25	acl	_	TokenRange=200:207
+30	149600000	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=208:217
+31	km	km	NOUN	NOUN	_	29	nsubj	_	TokenRange=218:220
+32	terra	terra	NOUN	NOUN	_	31	appos	_	TokenRange=221:226
+33	pesquisadores	pesquisador	NOUN	NOUN	_	31	amod	_	TokenRange=227:240
+34	monitoram	_	VERB	VERB	_	25	parataxis	_	TokenRange=241:250
+35	constantemente	constantemente	ADV	ADV	_	34	advmod	_	TokenRange=251:265
+36	todas	_	DET	DET	_	37	det	_	TokenRange=266:271
+37	atividades	atividade	NOUN	NOUN	_	34	obj	_	TokenRange=272:282
+38	acontecem	acontecer	VERB	VERB	_	34	parataxis	_	TokenRange=283:292
+39	estrela	estrela	NOUN	NOUN	_	38	nsubj	_	TokenRange=293:300
+40	central	central	ADJ	ADJ	_	39	amod	_	TokenRange=301:308
+41	sistema	sistema	NOUN	NOUN	_	39	appos	_	TokenRange=309:316
+42	solar	solar	ADJ	ADJ	_	41	amod	_	TokenRange=317:322
+43	apos	_	ADP	ADP	_	44	case	_	TokenRange=323:327
+44	video	video	NOUN	NOUN	_	38	nmod	_	TokenRange=328:333
+45	divulgado	divulgar	VERB	VERB	_	44	acl	_	TokenRange=334:343
+46	youtube	_	PROPN	PNOUN	_	45	advmod	_	TokenRange=344:351
+47	diversos	_	DET	DET	_	48	det	_	TokenRange=352:360
+48	estudiosos	estudioso	NOUN	NOUN	_	50	nsubj	_	TokenRange=361:371
+49	ufos	ufo	NOUN	NOUN	_	48	amod	_	TokenRange=372:376
+50	confirmaram	confirmar	VERB	VERB	_	34	parataxis	_	TokenRange=377:388
+51	imagens	imagem	NOUN	NOUN	_	50	obj	_	TokenRange=389:396
+52	mostravam	mostrar	VERB	VERB	_	50	parataxis	_	TokenRange=397:406
+53	nave	nave	NOUN	NOUN	_	52	obj	_	TokenRange=407:411
+54	mae	mae	ADJ	ADJ	_	53	amod	_	TokenRange=412:415
+55	alienigena	alienigeno	ADJ	ADJ	_	53	amod	_	TokenRange=416:426
+56	reabastecendo	reabastecer	VERB	VERB	_	53	acl	_	TokenRange=427:440
+57	calor	calor	NOUN	NOUN	_	56	obj	_	TokenRange=441:446
+58	sol	sol	ADJ	ADJ	_	57	amod	_	SpaceAfter=No|TokenRange=447:450
+

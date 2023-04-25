@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = enquanto bambu la vai flecha diz janot sobre fim mandato procuradorgeral diz caneta 17 setembro deixa cargo admite diferencas entendimento raquel dodge procuradorgeral republica rodrigo janot afirmou neste sabado 1 vai continuar ritmo dia 17 setembro entao passara chefia ministerio publico federal mpf sucessora raquel dodge enquanto bambu la vai flecha 17 setembro caneta mao dia 18 ainda bem vou continuar nesse ritmo disse janot palestra 12 congresso associacao
+1	enquanto	_	CCONJ	CONJ	_	5	mark	_	TokenRange=0:8
+2	bambu	bambu	NOUN	NOUN	_	6	nsubj	_	TokenRange=9:14
+3	la	_	PRON	PRON	_	5	nsubj	_	TokenRange=15:17
+4	vai	ir	AUX	AUX	_	5	cop	_	TokenRange=18:21
+5	flecha	flecha	NOUN	NOUN	_	6	advcl	_	TokenRange=22:28
+6	diz	dizer	VERB	VERB	_	64	ccomp	_	TokenRange=29:32
+7	janot	janot	NOUN	NOUN	_	6	obj	_	TokenRange=33:38
+8	sobre	_	ADP	ADP	_	9	case	_	TokenRange=39:44
+9	fim	fim	NOUN	NOUN	_	6	nmod	_	TokenRange=45:48
+10	mandato	mandato	NOUN	NOUN	_	9	flat	_	TokenRange=49:56
+11	procuradorgeral	procuradorgeral	ADJ	ADJ	_	10	amod	_	TokenRange=57:72
+12	diz	dizer	VERB	VERB	_	6	parataxis	_	TokenRange=73:76
+13	caneta	caneta	NOUN	NOUN	_	12	obj	_	TokenRange=77:83
+14	17	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=84:86
+15	setembro	_	PROPN	PNOUN	_	16	nsubj	_	TokenRange=87:95
+16	deixa	deixar	VERB	VERB	_	12	ccomp	_	TokenRange=96:101
+17	cargo	cargo	NOUN	NOUN	_	16	obj	_	TokenRange=102:107
+18	admite	admitir	VERB	VERB	_	6	parataxis	_	TokenRange=108:114
+19	diferencas	diferenca	ADJ	ADJ	_	20	amod	_	TokenRange=115:125
+20	entendimento	entendimento	NOUN	NOUN	_	18	nsubj	_	TokenRange=126:138
+21	raquel	_	NOUN	NOUN	_	20	appos	_	TokenRange=139:145
+22	dodge	_	NOUN	NOUN	_	21	flat	_	TokenRange=146:151
+23	procuradorgeral	procuradorgeral	NOUN	NOUN	_	21	amod	_	TokenRange=152:167
+24	republica	republico	ADJ	ADJ	_	21	amod	_	TokenRange=168:177
+25	rodrigo	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=178:185
+26	janot	_	NOUN	NOUN	_	25	flat	_	TokenRange=186:191
+27	afirmou	afirmar	VERB	VERB	_	18	parataxis	_	TokenRange=192:199
+28	neste	_	ADP	ADP	_	29	case	_	TokenRange=200:205
+29	sabado	_	PROPN	PNOUN	_	27	nmod	_	TokenRange=206:212
+30	1	_	NUM	NUM	NumType=Card	32	nsubj	_	TokenRange=213:214
+31	vai	ir	AUX	AUX	_	32	aux	_	TokenRange=215:218
+32	continuar	continuar	VERB	VERB	_	27	ccomp	_	TokenRange=219:228
+33	ritmo	ritmo	NOUN	NOUN	_	32	obj	_	TokenRange=229:234
+34	dia	dia	NOUN	NOUN	_	32	nmod	_	TokenRange=235:238
+35	17	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=239:241
+36	setembro	_	PROPN	PNOUN	_	34	nmod	_	TokenRange=242:250
+37	entao	entao	ADV	ADV	_	38	advmod	_	TokenRange=251:256
+38	passara	passar	VERB	VERB	_	27	ccomp	_	TokenRange=257:264
+39	chefia	chefia	NOUN	NOUN	_	38	nsubj	_	TokenRange=265:271
+40	ministerio	ministerio	NOUN	NOUN	_	39	appos	_	TokenRange=272:282
+41	publico	_	ADJ	ADJ	_	40	amod	_	TokenRange=283:290
+42	federal	federal	ADJ	ADJ	_	40	amod	_	TokenRange=291:298
+43	mpf	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=299:302
+44	sucessora	sucessor	NOUN	NOUN	_	43	appos	_	TokenRange=303:312
+45	raquel	raquel	NOUN	NOUN	_	44	appos	_	TokenRange=313:319
+46	dodge	_	NOUN	NOUN	_	45	flat	_	TokenRange=320:325
+47	enquanto	_	CCONJ	CONJ	_	51	mark	_	TokenRange=326:334
+48	bambu	bambu	NOUN	NOUN	_	54	nsubj	_	TokenRange=335:340
+49	la	_	PRON	PRON	_	51	nsubj	_	TokenRange=341:343
+50	vai	ir	AUX	AUX	_	51	cop	_	TokenRange=344:347
+51	flecha	flecha	NOUN	NOUN	_	44	conj	_	TokenRange=348:354
+52	17	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=355:357
+53	setembro	_	PROPN	PNOUN	_	51	nsubj	_	TokenRange=358:366
+54	caneta	canetar	VERB	VERB	_	38	parataxis	_	TokenRange=367:373
+55	mao	mao	NOUN	NOUN	_	54	advmod	_	TokenRange=374:377
+56	dia	dia	NOUN	NOUN	_	54	nmod	_	TokenRange=378:381
+57	18	_	NUM	NUM	NumType=Card	56	appos	_	TokenRange=382:384
+58	ainda	ainda	ADV	ADV	_	59	advmod	_	TokenRange=385:390
+59	bem	bem	ADV	ADV	_	61	advmod	_	TokenRange=391:394
+60	vou	ir	AUX	AUX	_	61	aux	_	TokenRange=395:398
+61	continuar	continuar	VERB	VERB	_	54	parataxis	_	TokenRange=399:408
+62	nesse	_	ADP	ADP	_	63	case	_	TokenRange=409:414
+63	ritmo	ritmo	NOUN	NOUN	_	61	nmod	_	TokenRange=415:420
+64	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=421:426
+65	janot	janot	NOUN	NOUN	_	64	nsubj	_	TokenRange=427:432
+66	palestra	palestra	NOUN	NOUN	_	65	appos	_	TokenRange=433:441
+67	12	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=442:444
+68	congresso	congresso	NOUN	NOUN	_	66	appos	_	TokenRange=445:454
+69	associacao	associacao	ADJ	ADJ	_	68	amod	_	SpaceAfter=No|TokenRange=455:465
+

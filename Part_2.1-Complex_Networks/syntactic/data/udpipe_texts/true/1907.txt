@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fim joesley acreditou escaparia ileso desde audios vieram publico empresario disse risco acordo rompido preso joesley batista descansava casa paulo rodrigo janot postouse frente cameras brasilia anunciar poderia cancelar delacao empresario durante quase 20 minutos procuradorgeral republica falou noite ultima segundafeira dia 4 mundo politico parou rua franca bairro paulistano jardim europa joesley permaneceu desligada empresario preferiu ver
+1	fim	fim	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:3
+2	joesley	_	NOUN	NOUN	_	1	flat	_	TokenRange=4:11
+3	acreditou	acreditar	VERB	VERB	_	0	root	_	TokenRange=12:21
+4	escaparia	escapar	VERB	VERB	_	3	xcomp	_	TokenRange=22:31
+5	ileso	ileso	ADJ	ADJ	_	4	xcomp	_	TokenRange=32:37
+6	desde	_	ADP	ADP	_	7	case	_	TokenRange=38:43
+7	audios	audio	NOUN	NOUN	_	8	nmod	_	TokenRange=44:50
+8	vieram	vir	VERB	VERB	_	3	advcl	_	TokenRange=51:57
+9	publico	_	ADJ	ADJ	_	8	xcomp	_	TokenRange=58:65
+10	empresario	empresario	NOUN	NOUN	_	11	nsubj	_	TokenRange=66:76
+11	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=77:82
+12	risco	risco	NOUN	NOUN	_	11	obj	_	TokenRange=83:88
+13	acordo	acordo	NOUN	NOUN	_	11	obj	_	TokenRange=89:95
+14	rompido	rompido	ADJ	ADJ	_	13	amod	_	TokenRange=96:103
+15	preso	_	ADJ	ADJ	_	18	xcomp	_	TokenRange=104:109
+16	joesley	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=110:117
+17	batista	batista	ADJ	ADJ	_	16	flat	_	TokenRange=118:125
+18	descansava	descansar	VERB	VERB	_	3	conj	_	TokenRange=126:136
+19	casa	casa	NOUN	NOUN	_	18	obj	_	TokenRange=137:141
+20	paulo	paulo	NOUN	NOUN	_	19	flat	_	TokenRange=142:147
+21	rodrigo	_	NOUN	NOUN	_	19	appos	_	TokenRange=148:155
+22	janot	_	NOUN	NOUN	_	16	flat	_	TokenRange=156:161
+23	postouse	postousar	VERB	VERB	_	18	conj	_	TokenRange=162:170
+24	frente	frente	NOUN	NOUN	_	23	obj	_	TokenRange=171:177
+25	cameras	camero	NOUN	NOUN	_	24	flat	_	TokenRange=178:185
+26	brasilia	brasilia	NOUN	NOUN	_	27	nsubj	_	TokenRange=186:194
+27	anunciar	anunciar	VERB	VERB	_	23	ccomp	_	TokenRange=195:203
+28	poderia	poder	AUX	AUX	_	29	aux	_	TokenRange=204:211
+29	cancelar	cancelar	VERB	VERB	_	27	ccomp	_	TokenRange=212:220
+30	delacao	_	NOUN	NOUN	_	29	obj	_	TokenRange=221:228
+31	empresario	empresario	NOUN	NOUN	_	29	obj	_	TokenRange=229:239
+32	durante	_	ADP	ADP	_	35	case	_	TokenRange=240:247
+33	quase	quase	ADV	ADV	_	34	advmod	_	TokenRange=248:253
+34	20	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=254:256
+35	minutos	minuto	NOUN	NOUN	_	29	nmod	_	TokenRange=257:264
+36	procuradorgeral	procuradorgeral	ADJ	ADJ	_	35	amod	_	TokenRange=265:280
+37	republica	republico	ADJ	ADJ	_	35	amod	_	TokenRange=281:290
+38	falou	falar	VERB	VERB	_	29	parataxis	_	TokenRange=291:296
+39	noite	noite	NOUN	NOUN	_	38	obj	_	TokenRange=297:302
+40	ultima	ultimo	ADJ	ADJ	_	41	amod	_	TokenRange=303:309
+41	segundafeira	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=310:322
+42	dia	dia	NOUN	NOUN	_	38	nmod	_	TokenRange=323:326
+43	4	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=327:328
+44	mundo	mundo	NOUN	NOUN	_	46	nsubj	_	TokenRange=329:334
+45	politico	politico	ADJ	ADJ	_	44	amod	_	TokenRange=335:343
+46	parou	parar	VERB	VERB	_	38	parataxis	_	TokenRange=344:349
+47	rua	rua	NOUN	NOUN	_	46	obj	_	TokenRange=350:353
+48	franca	franco	ADJ	ADJ	_	47	amod	_	TokenRange=354:360
+49	bairro	bairro	NOUN	NOUN	_	46	nsubj	_	TokenRange=361:367
+50	paulistano	paulistano	ADJ	ADJ	_	49	amod	_	TokenRange=368:378
+51	jardim	jardim	NOUN	NOUN	_	54	nsubj	_	TokenRange=379:385
+52	europa	_	ADJ	ADJ	_	51	amod	_	TokenRange=386:392
+53	joesley	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=393:400
+54	permaneceu	permanecer	VERB	VERB	_	38	conj	_	TokenRange=401:411
+55	desligada	desligado	ADJ	ADJ	_	54	xcomp	_	TokenRange=412:421
+56	empresario	empresario	NOUN	NOUN	_	57	nsubj	_	TokenRange=422:432
+57	preferiu	preferir	VERB	VERB	_	38	conj	_	TokenRange=433:441
+58	ver	ver	VERB	VERB	_	57	xcomp	_	SpaceAfter=No|TokenRange=442:445
+

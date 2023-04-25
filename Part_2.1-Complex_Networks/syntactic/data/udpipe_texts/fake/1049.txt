@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gafe exterior direto alemanha temer diz fazendo desemprego voltar video divulgado twitter presidente hamburgo alemanha declarou mostrou lideres mundiais g20 bons resultados brasil ninguem esperava temer ataque sinceridade repare minuto 104 video abaixo presidente erra fala diz fazendo voltar desemprego brasil impressionante precisou errar pra honesto parabens sinceridade sr presidente
+1	gafe	gafe	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:4
+2	exterior	exterior	ADJ	ADJ	_	1	amod	_	TokenRange=5:13
+3	direto	direto	ADJ	ADJ	_	1	amod	_	TokenRange=14:20
+4	alemanha	alemanha	NOUN	NOUN	_	1	appos	_	TokenRange=21:29
+5	temer	temer	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+6	diz	dizer	AUX	AUX	_	0	root	_	TokenRange=36:39
+7	fazendo	fazer	VERB	VERB	_	1	acl	_	TokenRange=40:47
+8	desemprego	desemprego	NOUN	NOUN	_	7	obj	_	TokenRange=48:58
+9	voltar	voltar	VERB	VERB	_	7	ccomp	_	TokenRange=59:65
+10	video	video	NOUN	NOUN	_	9	obj	_	TokenRange=66:71
+11	divulgado	divulgado	ADJ	ADJ	_	10	amod	_	TokenRange=72:81
+12	twitter	_	PROPN	PNOUN	_	16	nsubj	_	TokenRange=82:89
+13	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=90:100
+14	hamburgo	hamburgo	ADJ	ADJ	_	13	amod	_	TokenRange=101:109
+15	alemanha	alemanha	NOUN	NOUN	_	13	appos	_	TokenRange=110:118
+16	declarou	declarar	VERB	VERB	_	1	conj	_	TokenRange=119:127
+17	mostrou	mostrar	VERB	VERB	_	16	xcomp	_	TokenRange=128:135
+18	lideres	lider	NOUN	NOUN	_	17	obj	_	TokenRange=136:143
+19	mundiais	mundial	ADJ	ADJ	_	18	amod	_	TokenRange=144:152
+20	g20	_	NUM	NUM	NumType=Card	18	appos	_	TokenRange=153:156
+21	bons	bom	ADJ	ADJ	_	22	amod	_	TokenRange=157:161
+22	resultados	resultado	NOUN	NOUN	_	18	appos	_	TokenRange=162:172
+23	brasil	brasil	ADJ	ADJ	_	22	amod	_	TokenRange=173:179
+24	ninguem	_	PRON	PRON	_	25	nsubj	_	TokenRange=180:187
+25	esperava	esperar	VERB	VERB	_	17	ccomp	_	TokenRange=188:196
+26	temer	temer	VERB	VERB	_	25	xcomp	_	TokenRange=197:202
+27	ataque	ataque	NOUN	NOUN	_	26	obj	_	TokenRange=203:209
+28	sinceridade	sinceridade	NOUN	NOUN	_	27	flat	_	TokenRange=210:221
+29	repare	reparar	VERB	VERB	_	27	acl:relcl	_	TokenRange=222:228
+30	minuto	minuto	NOUN	NOUN	_	29	nmod	_	TokenRange=229:235
+31	104	_	NUM	NUM	NumType=Card	30	appos	_	TokenRange=236:239
+32	video	video	NOUN	NOUN	_	29	nsubj	_	TokenRange=240:245
+33	abaixo	abaixo	ADV	ADV	_	36	advmod	_	TokenRange=246:252
+34	presidente	presidente	NOUN	NOUN	_	36	nsubj	_	TokenRange=253:263
+35	erra	erra	ADJ	ADJ	_	34	amod	_	TokenRange=264:268
+36	fala	_	VERB	VERB	_	32	acl:relcl	_	TokenRange=269:273
+37	diz	dizer	AUX	AUX	_	36	aux	_	TokenRange=274:277
+38	fazendo	fazer	VERB	VERB	_	36	acl	_	TokenRange=278:285
+39	voltar	voltar	VERB	VERB	_	38	xcomp	_	TokenRange=286:292
+40	desemprego	desemprego	NOUN	NOUN	_	39	obj	_	TokenRange=293:303
+41	brasil	brasil	ADJ	ADJ	_	39	advmod	_	TokenRange=304:310
+42	impressionante	impressionante	ADJ	ADJ	_	40	amod	_	TokenRange=311:325
+43	precisou	precisar	VERB	VERB	_	36	conj	_	TokenRange=326:334
+44	errar	errar	VERB	VERB	_	43	xcomp	_	TokenRange=335:340
+45	pra	_	ADP	ADP	_	47	case	_	TokenRange=341:344
+46	honesto	honesto	ADJ	ADJ	_	47	amod	_	TokenRange=345:352
+47	parabens	_	ADJ	ADJ	_	44	nmod	_	TokenRange=353:361
+48	sinceridade	sinceridade	NOUN	NOUN	_	44	obj	_	TokenRange=362:373
+49	sr	_	PART	PRT	_	50	amod	_	TokenRange=374:376
+50	presidente	presidente	NOUN	NOUN	_	48	appos	_	SpaceAfter=No|TokenRange=377:387
+

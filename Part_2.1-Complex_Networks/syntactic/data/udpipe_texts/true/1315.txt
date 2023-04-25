@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = panorama internacional coisa cinema estreia 13 edicao fim revelar novos diretores evento comeca nesta quartafeira 8 vai proxima quarta 15 salvador cachoeira reconcavo bahia 13 anos historia panorama internacional coisa cinema entra fase puberdade consolidado calendario amantes setima arte interessado experimentar coisas novas neste ano pretende lancar luz sobre recente geracao
+1	panorama	panorama	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	internacional	internacional	ADJ	ADJ	_	1	amod	_	TokenRange=9:22
+3	coisa	coisa	NOUN	NOUN	_	1	appos	_	TokenRange=23:28
+4	cinema	cinema	NOUN	NOUN	_	1	flat	_	TokenRange=29:35
+5	estreia	estrear	VERB	VERB	_	0	root	_	TokenRange=36:43
+6	13	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=44:46
+7	edicao	edicao	NOUN	NOUN	_	5	obj	_	TokenRange=47:53
+8	fim	fim	NOUN	NOUN	_	9	nsubj	_	TokenRange=54:57
+9	revelar	revelar	VERB	VERB	_	5	ccomp	_	TokenRange=58:65
+10	novos	novo	ADJ	ADJ	_	11	amod	_	TokenRange=66:71
+11	diretores	diretor	NOUN	NOUN	_	9	obj	_	TokenRange=72:81
+12	evento	evento	NOUN	NOUN	_	13	nsubj	_	TokenRange=82:88
+13	comeca	_	VERB	VERB	_	11	acl:relcl	_	TokenRange=89:95
+14	nesta	_	ADP	ADP	_	15	case	_	TokenRange=96:101
+15	quartafeira	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=102:113
+16	8	_	NUM	NUM	NumType=Card	19	nmod	_	TokenRange=114:115
+17	vai	ir	AUX	AUX	_	13	aux	_	TokenRange=116:119
+18	proxima	proximo	ADJ	ADJ	_	19	amod	_	TokenRange=120:127
+19	quarta	_	PROPN	PNOUN	_	15	appos	_	TokenRange=128:134
+20	15	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=135:137
+21	salvador	salvador	NOUN	NOUN	_	13	nmod	_	TokenRange=138:146
+22	cachoeira	cachoeira	NOUN	NOUN	_	21	appos	_	TokenRange=147:156
+23	reconcavo	reconcavo	NOUN	NOUN	_	21	appos	_	TokenRange=157:166
+24	bahia	_	NOUN	NOUN	_	23	flat	_	TokenRange=167:172
+25	13	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=173:175
+26	anos	ano	NOUN	NOUN	_	23	appos	_	TokenRange=176:180
+27	historia	historia	NOUN	NOUN	_	32	nsubj	_	TokenRange=181:189
+28	panorama	panorama	NOUN	NOUN	_	32	nsubj	_	TokenRange=190:198
+29	internacional	internacional	ADJ	ADJ	_	28	amod	_	TokenRange=199:212
+30	coisa	coisa	NOUN	NOUN	_	28	appos	_	TokenRange=213:218
+31	cinema	cinema	NOUN	NOUN	_	28	amod	_	TokenRange=219:225
+32	entra	entrar	VERB	VERB	_	5	parataxis	_	TokenRange=226:231
+33	fase	fase	NOUN	NOUN	_	32	obj	_	TokenRange=232:236
+34	puberdade	puberdade	NOUN	NOUN	_	33	flat	_	TokenRange=237:246
+35	consolidado	consolidado	ADJ	ADJ	_	39	amod	_	TokenRange=247:258
+36	calendario	calendario	NOUN	NOUN	_	32	nsubj	_	TokenRange=259:269
+37	amantes	amante	ADJ	ADJ	_	39	amod	_	TokenRange=270:277
+38	setima	setimo	ADJ	ADJ	_	39	amod	_	TokenRange=278:284
+39	arte	arte	NOUN	NOUN	_	36	appos	_	TokenRange=285:289
+40	interessado	interessado	ADJ	ADJ	_	39	amod	_	TokenRange=290:301
+41	experimentar	experimentar	VERB	VERB	_	39	acl:inf	_	TokenRange=302:314
+42	coisas	coisa	NOUN	NOUN	_	41	obj	_	TokenRange=315:321
+43	novas	novo	ADJ	ADJ	_	42	amod	_	TokenRange=322:327
+44	neste	_	ADP	ADP	_	45	case	_	TokenRange=328:333
+45	ano	ano	NOUN	NOUN	_	41	nmod	_	TokenRange=334:337
+46	pretende	pretender	VERB	VERB	_	32	parataxis	_	TokenRange=338:346
+47	lancar	lancar	VERB	VERB	_	46	xcomp	_	TokenRange=347:353
+48	luz	luz	NOUN	NOUN	_	47	obj	_	TokenRange=354:357
+49	sobre	_	ADP	ADP	_	51	case	_	TokenRange=358:363
+50	recente	recente	ADJ	ADJ	_	51	amod	_	TokenRange=364:371
+51	geracao	geracao	NOUN	NOUN	_	48	nmod	_	SpaceAfter=No|TokenRange=372:379
+

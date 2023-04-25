@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tribunal 2 instancia marca data julgamento lula desembargador leandro paulsen trf4 tribunal 2 instancia curitiba pediu secretaria 8 turma julgamento recurso lula incluido pauta proxima sessao disponivel data confirmada nesta tarde dia d expresidente quartafeira 24 janeiro 2018 12 julho deste ano lula condenado juiz federal sergio moro 1 instancia 9 anos meio prisao corrupcao julgamento acusado receber apartamento triplex litoral guaruja sp troca promover interesses empreiteira oas junto petrobras sentenca moro confirmada trf4 lula podera concorrer nenhum cargo eletivo ainda podera ver sol nascer quadrado agora falta michel
+1	tribunal	tribunal	NOUN	NOUN	_	16	parataxis	_	TokenRange=0:8
+2	2	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=9:10
+3	instancia	instancia	NOUN	NOUN	_	1	appos	_	TokenRange=11:20
+4	marca	marca	NOUN	NOUN	_	1	appos	_	TokenRange=21:26
+5	data	data	NOUN	NOUN	_	1	appos	_	TokenRange=27:31
+6	julgamento	julgamento	NOUN	NOUN	_	1	appos	_	TokenRange=32:42
+7	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=43:47
+8	desembargador	desembargador	NOUN	NOUN	_	1	appos	_	TokenRange=48:61
+9	leandro	leandro	NOUN	NOUN	_	8	appos	_	TokenRange=62:69
+10	paulsen	_	NOUN	NOUN	_	9	flat	_	TokenRange=70:77
+11	trf4	_	NOUN	NOUN	_	12	appos	_	TokenRange=78:82
+12	tribunal	tribunal	NOUN	NOUN	_	1	appos	_	TokenRange=83:91
+13	2	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=92:93
+14	instancia	instancia	NOUN	NOUN	_	12	appos	_	TokenRange=94:103
+15	curitiba	curitiba	NOUN	NOUN	_	14	flat	_	TokenRange=104:112
+16	pediu	pedir	VERB	VERB	_	0	root	_	TokenRange=113:118
+17	secretaria	secretaria	NOUN	NOUN	_	16	obj	_	TokenRange=119:129
+18	8	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=130:131
+19	turma	turma	NOUN	NOUN	_	17	appos	_	TokenRange=132:137
+20	julgamento	julgamento	NOUN	NOUN	_	17	appos	_	TokenRange=138:148
+21	recurso	recurso	NOUN	NOUN	_	20	appos	_	TokenRange=149:156
+22	lula	lula	ADJ	NOUN	_	21	flat	_	TokenRange=157:161
+23	incluido	incluir	VERB	VERB	_	16	acl	_	TokenRange=162:170
+24	pauta	pauta	NOUN	NOUN	_	23	obj	_	TokenRange=171:176
+25	proxima	proximo	ADJ	ADJ	_	26	amod	_	TokenRange=177:184
+26	sessao	sessao	NOUN	NOUN	_	24	appos	_	TokenRange=185:191
+27	disponivel	disponivel	ADJ	ADJ	_	26	amod	_	TokenRange=192:202
+28	data	data	NOUN	NOUN	_	23	parataxis	_	TokenRange=203:207
+29	confirmada	confirmar	VERB	VERB	_	28	acl	_	TokenRange=208:218
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=219:224
+31	tarde	tarde	NOUN	NOUN	_	29	nmod	_	TokenRange=225:230
+32	dia	dia	NOUN	NOUN	_	31	nmod	_	TokenRange=231:234
+33	d	_	ADP	ADP	_	34	case	_	TokenRange=235:236
+34	expresidente	expresidente	NOUN	NOUN	_	32	nmod	_	TokenRange=237:249
+35	quartafeira	_	NOUN	NOUN	_	34	appos	_	TokenRange=250:261
+36	24	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=262:264
+37	janeiro	_	PROPN	PNOUN	_	32	nmod	_	TokenRange=265:272
+38	2018	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=273:277
+39	12	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=278:280
+40	julho	_	PROPN	PNOUN	_	45	nmod	_	TokenRange=281:286
+41	deste	_	ADP	ADP	_	42	case	_	TokenRange=287:292
+42	ano	ano	NOUN	NOUN	_	40	nmod	_	TokenRange=293:296
+43	lula	lula	NOUN	NOUN	_	45	appos	_	TokenRange=297:301
+44	condenado	condenar	AUX	AUX	_	45	acl	_	TokenRange=302:311
+45	juiz	juiz	NOUN	NOUN	_	16	acl	_	TokenRange=312:316
+46	federal	federal	ADJ	ADJ	_	45	amod	_	TokenRange=317:324
+47	sergio	sergio	NOUN	NOUN	_	45	appos	_	TokenRange=325:331
+48	moro	moro	NOUN	NOUN	_	47	flat	_	TokenRange=332:336
+49	1	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=337:338
+50	instancia	instancia	VERB	VERB	_	45	appos	_	TokenRange=339:348
+51	9	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=349:350
+52	anos	ano	NOUN	NOUN	_	50	nmod	_	TokenRange=351:355
+53	meio	meio	ADJ	ADJ	_	52	amod	_	TokenRange=356:360
+54	prisao	prisao	NOUN	NOUN	_	52	appos	_	TokenRange=361:367
+55	corrupcao	corrupcao	ADJ	ADJ	_	56	amod	_	TokenRange=368:377
+56	julgamento	julgamento	NOUN	NOUN	_	50	appos	_	TokenRange=378:388
+57	acusado	acusar	VERB	VERB	_	56	acl	_	TokenRange=389:396
+58	receber	receber	VERB	VERB	_	57	xcomp	_	TokenRange=397:404
+59	apartamento	apartamento	NOUN	NOUN	_	58	obj	_	TokenRange=405:416
+60	triplex	_	NOUN	NOUN	_	59	appos	_	TokenRange=417:424
+61	litoral	litoral	ADJ	ADJ	_	59	amod	_	TokenRange=425:432
+62	guaruja	guaruja	NOUN	NOUN	_	59	appos	_	TokenRange=433:440
+63	sp	_	ADJ	ADJ	_	64	amod	_	TokenRange=441:443
+64	troca	_	NOUN	NOUN	_	62	appos	_	TokenRange=444:449
+65	promover	promover	VERB	VERB	_	64	acl:inf	_	TokenRange=450:458
+66	interesses	interesse	NOUN	NOUN	_	65	obj	_	TokenRange=459:469
+67	empreiteira	empreiteiro	ADJ	ADJ	_	66	amod	_	TokenRange=470:481
+68	oas	_	CCONJ	NOUN	_	67	appos	_	TokenRange=482:485
+69	junto	junto	ADV	ADV	_	65	advmod	_	TokenRange=486:491
+70	petrobras	petrobra	NOUN	NOUN	_	71	amod	_	TokenRange=492:501
+71	sentenca	_	NOUN	NOUN	_	77	nsubj	_	TokenRange=502:510
+72	moro	moro	NOUN	NOUN	_	71	flat	_	TokenRange=511:515
+73	confirmada	confirmar	VERB	VERB	_	71	acl	_	TokenRange=516:526
+74	trf4	_	NOUN	NOUN	_	73	nsubj	_	TokenRange=527:531
+75	lula	_	NOUN	NOUN	_	77	nsubj	_	TokenRange=532:536
+76	podera	poder	AUX	AUX	_	77	aux	_	TokenRange=537:543
+77	concorrer	concorrer	VERB	VERB	_	57	conj	_	TokenRange=544:553
+78	nenhum	_	DET	DET	_	79	det	_	TokenRange=554:560
+79	cargo	cargo	NOUN	NOUN	_	77	obj	_	TokenRange=561:566
+80	eletivo	eletivo	ADJ	ADJ	_	79	amod	_	TokenRange=567:574
+81	ainda	ainda	ADV	ADV	_	83	advmod	_	TokenRange=575:580
+82	podera	_	AUX	AUX	_	83	aux	_	TokenRange=581:587
+83	ver	ver	VERB	VERB	_	77	advcl	_	TokenRange=588:591
+84	sol	sol	NOUN	NOUN	_	85	obj	_	TokenRange=592:595
+85	nascer	nascer	VERB	VERB	_	83	ccomp	_	TokenRange=596:602
+86	quadrado	quadrado	NOUN	NOUN	_	85	obj	_	TokenRange=603:611
+87	agora	agora	ADV	ADV	_	88	advmod	_	TokenRange=612:617
+88	falta	faltar	VERB	VERB	_	77	parataxis	_	TokenRange=618:623
+89	michel	_	NOUN	NOUN	_	88	obj	_	SpaceAfter=No|TokenRange=624:630
+

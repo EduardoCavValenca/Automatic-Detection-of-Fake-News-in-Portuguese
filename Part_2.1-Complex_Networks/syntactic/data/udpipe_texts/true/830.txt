@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja dicas sobre compras natal aproveitar ofertas evitar furadas caso cabe trocar nota fiscal realmente necessaria destrinchar assunto procuradorgeral mpdf esclarece questionamentos frequentes quais regras trocas fazer produto comprado internet chega dia 25 posso arrepender devolver g1 tira duvidas frequentes surgem assunto compra
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	dicas	dica	NOUN	NOUN	_	1	obj	_	TokenRange=5:10
+3	sobre	_	ADP	ADP	_	4	case	_	TokenRange=11:16
+4	compras	compra	NOUN	NOUN	_	2	nmod	_	TokenRange=17:24
+5	natal	natal	ADJ	ADJ	_	4	amod	_	TokenRange=25:30
+6	aproveitar	aproveitar	VERB	VERB	_	4	acl:relcl	_	TokenRange=31:41
+7	ofertas	oferta	NOUN	NOUN	_	6	obj	_	TokenRange=42:49
+8	evitar	evitar	VERB	VERB	_	4	acl:relcl	_	TokenRange=50:56
+9	furadas	_	NOUN	NOUN	_	8	obj	_	TokenRange=57:64
+10	caso	_	CCONJ	CONJ	_	11	mark	_	TokenRange=65:69
+11	cabe	caber	VERB	VERB	_	1	advcl	_	TokenRange=70:74
+12	trocar	trocar	VERB	VERB	_	11	xcomp	_	TokenRange=75:81
+13	nota	nota	NOUN	NOUN	_	12	obj	_	TokenRange=82:86
+14	fiscal	fiscal	ADJ	ADJ	_	13	amod	_	TokenRange=87:93
+15	realmente	realmente	ADV	ADV	_	16	advmod	_	TokenRange=94:103
+16	necessaria	necessar	ADJ	ADJ	_	13	amod	_	TokenRange=104:114
+17	destrinchar	destrinchar	VERB	VERB	_	16	csubj	_	TokenRange=115:126
+18	assunto	assunto	NOUN	NOUN	_	17	obj	_	TokenRange=127:134
+19	procuradorgeral	procuradorgeral	ADJ	ADJ	_	18	amod	_	TokenRange=135:150
+20	mpdf	_	NOUN	NOUN	_	18	appos	_	TokenRange=151:155
+21	esclarece	esclarecer	VERB	VERB	_	18	acl:relcl	_	TokenRange=156:165
+22	questionamentos	questionamento	NOUN	NOUN	_	21	obj	_	TokenRange=166:181
+23	frequentes	frequente	ADJ	ADJ	_	22	amod	_	TokenRange=182:192
+24	quais	_	DET	DET	_	25	det	_	TokenRange=193:198
+25	regras	regra	NOUN	NOUN	_	31	nsubj	_	TokenRange=199:205
+26	trocas	_	ADJ	ADJ	_	25	amod	_	TokenRange=206:212
+27	fazer	fazer	VERB	VERB	_	25	acl:relcl	_	TokenRange=213:218
+28	produto	produto	NOUN	NOUN	_	27	obj	_	TokenRange=219:226
+29	comprado	comprado	ADJ	ADJ	_	28	amod	_	TokenRange=227:235
+30	internet	_	PROPN	PNOUN	_	27	nsubj	_	TokenRange=236:244
+31	chega	chegar	VERB	VERB	_	22	acl:relcl	_	TokenRange=245:250
+32	dia	dia	NOUN	NOUN	_	31	nmod	_	TokenRange=251:254
+33	25	_	NUM	NUM	NumType=Card	32	appos	_	TokenRange=255:257
+34	posso	_	AUX	AUX	_	35	aux	_	TokenRange=258:263
+35	arrepender	arrepender	VERB	VERB	_	31	csubj	_	TokenRange=264:274
+36	devolver	devolver	VERB	VERB	_	35	xcomp	_	TokenRange=275:283
+37	g1	_	NOUN	NOUN	_	36	obj	_	TokenRange=284:286
+38	tira	tirar	VERB	VERB	_	31	parataxis	_	TokenRange=287:291
+39	duvidas	duvida	NOUN	NOUN	_	38	obj	_	TokenRange=292:299
+40	frequentes	frequente	ADJ	ADJ	_	39	amod	_	TokenRange=300:310
+41	surgem	surgir	VERB	VERB	_	22	acl:relcl	_	TokenRange=311:317
+42	assunto	assunto	NOUN	NOUN	_	41	nsubj	_	TokenRange=318:325
+43	compra	compra	NOUN	NOUN	_	42	flat	_	SpaceAfter=No|TokenRange=326:332
+

@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = corpo marcelo rezende velado assembleia legislativa neste domingo morreu vitima falencia multipla orgaos consequencia cancer informou hospital moriah corpo jornalista marcelo rezende velado neste domingo 17 assembleia legislativa paulo sepultamento ainda informado familia morreu 17h45 deste sabado 16 paulo 65 anos vitima falencia multipla orgaos consequencia cancer informou hospital moriah rezende diagnosticado inicio ano cancer pancreas metastase figado afastou comando programa cidade alerta
+1	corpo	corpo	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:5
+2	marcelo	marcelo	NOUN	NOUN	_	1	appos	_	TokenRange=6:13
+3	rezende	rezende	NOUN	NOUN	_	2	flat	_	TokenRange=14:21
+4	velado	velado	ADJ	ADJ	_	1	amod	_	TokenRange=22:28
+5	assembleia	assembleia	NOUN	NOUN	_	1	appos	_	TokenRange=29:39
+6	legislativa	legislativo	ADJ	ADJ	_	5	amod	_	TokenRange=40:51
+7	neste	_	ADP	ADP	_	8	case	_	TokenRange=52:57
+8	domingo	_	PROPN	PNOUN	_	9	nmod	_	TokenRange=58:65
+9	morreu	morrer	VERB	VERB	_	0	root	_	TokenRange=66:72
+10	vitima	_	ADJ	ADJ	_	11	amod	_	TokenRange=73:79
+11	falencia	falencia	NOUN	NOUN	_	9	obj	_	TokenRange=80:88
+12	multipla	_	ADJ	ADJ	_	11	amod	_	TokenRange=89:97
+13	orgaos	orgao	NOUN	NOUN	_	9	nsubj	_	TokenRange=98:104
+14	consequencia	_	NOUN	NOUN	_	15	amod	_	TokenRange=105:117
+15	cancer	cancer	NOUN	NOUN	_	16	nsubj	_	TokenRange=118:124
+16	informou	informar	VERB	VERB	_	9	parataxis	_	TokenRange=125:133
+17	hospital	hospital	NOUN	NOUN	_	16	obj	_	TokenRange=134:142
+18	moriah	_	ADJ	NOUN	_	17	amod	_	TokenRange=143:149
+19	corpo	corpo	NOUN	NOUN	_	17	appos	_	TokenRange=150:155
+20	jornalista	jornalista	NOUN	NOUN	_	17	appos	_	TokenRange=156:166
+21	marcelo	marcelo	NOUN	NOUN	_	19	appos	_	TokenRange=167:174
+22	rezende	rezende	NOUN	NOUN	_	21	flat	_	TokenRange=175:182
+23	velado	velado	ADJ	ADJ	_	19	amod	_	TokenRange=183:189
+24	neste	_	ADP	ADP	_	25	case	_	TokenRange=190:195
+25	domingo	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=196:203
+26	17	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=204:206
+27	assembleia	assembleia	NOUN	NOUN	_	25	appos	_	TokenRange=207:217
+28	legislativa	legislativo	ADJ	ADJ	_	27	amod	_	TokenRange=218:229
+29	paulo	paulo	NOUN	NOUN	_	30	appos	_	TokenRange=230:235
+30	sepultamento	sepultamento	NOUN	NOUN	_	34	nsubj	_	TokenRange=236:248
+31	ainda	ainda	ADV	ADV	_	32	advmod	_	TokenRange=249:254
+32	informado	informar	VERB	VERB	_	30	acl	_	TokenRange=255:264
+33	familia	familia	NOUN	NOUN	_	30	appos	_	TokenRange=265:272
+34	morreu	morrer	VERB	VERB	_	9	parataxis	_	TokenRange=273:279
+35	17h45	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=280:285
+36	deste	_	ADP	ADP	_	37	case	_	TokenRange=286:291
+37	sabado	_	PROPN	NOUN	_	35	nmod	_	TokenRange=292:298
+38	16	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=299:301
+39	paulo	paulo	NOUN	NOUN	_	37	appos	_	TokenRange=302:307
+40	65	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=308:310
+41	anos	ano	NOUN	NOUN	_	37	appos	_	TokenRange=311:315
+42	vitima	_	ADJ	ADJ	_	43	amod	_	TokenRange=316:322
+43	falencia	falencia	NOUN	NOUN	_	34	nsubj	_	TokenRange=323:331
+44	multipla	_	ADJ	ADJ	_	43	amod	_	TokenRange=332:340
+45	orgaos	orgao	NOUN	NOUN	_	43	appos	_	TokenRange=341:347
+46	consequencia	_	NOUN	NOUN	_	47	amod	_	TokenRange=348:360
+47	cancer	cancer	NOUN	NOUN	_	48	nsubj	_	TokenRange=361:367
+48	informou	informar	VERB	VERB	_	9	parataxis	_	TokenRange=368:376
+49	hospital	hospital	NOUN	NOUN	_	48	obj	_	TokenRange=377:385
+50	moriah	_	NOUN	NOUN	_	49	appos	_	TokenRange=386:392
+51	rezende	rezende	NOUN	NOUN	_	49	flat	_	TokenRange=393:400
+52	diagnosticado	diagnosticar	VERB	VERB	_	49	acl	_	TokenRange=401:414
+53	inicio	_	ADJ	ADJ	_	54	amod	_	TokenRange=415:421
+54	ano	ano	NOUN	NOUN	_	52	nmod	_	TokenRange=422:425
+55	cancer	cancer	NOUN	NOUN	_	49	appos	_	TokenRange=426:432
+56	pancreas	_	NOUN	NOUN	_	55	flat	_	TokenRange=433:441
+57	metastase	metastase	NOUN	NOUN	_	55	flat	_	TokenRange=442:451
+58	figado	figado	ADJ	ADJ	_	55	amod	_	TokenRange=452:458
+59	afastou	afastar	VERB	VERB	_	9	parataxis	_	TokenRange=459:466
+60	comando	comando	NOUN	NOUN	_	59	obj	_	TokenRange=467:474
+61	programa	programa	NOUN	NOUN	_	60	appos	_	TokenRange=475:483
+62	cidade	cidade	NOUN	NOUN	_	60	appos	_	TokenRange=484:490
+63	alerta	alerta	ADJ	ADJ	_	62	amod	_	SpaceAfter=No|TokenRange=491:497
+

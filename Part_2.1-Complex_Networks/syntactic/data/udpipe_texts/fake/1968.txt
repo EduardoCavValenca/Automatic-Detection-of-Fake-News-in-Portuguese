@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delcidio abre jogo desde mensalao pmdb principal aliado pt vem muita bomba ai entrevista jornalista claudio tognolli jovem pan exsenador delcidio amaral afirmou investigacoes contra expresidente lula avancadas defesa lula continua usando estrategia vitimizacao disse exsenador confira
+1	delcidio	delcidio	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	abre	abrir	VERB	VERB	_	0	root	_	TokenRange=9:13
+3	jogo	jogo	NOUN	NOUN	_	2	obj	_	TokenRange=14:18
+4	desde	_	ADP	ADP	_	5	case	_	TokenRange=19:24
+5	mensalao	_	NOUN	NOUN	_	2	nmod	_	TokenRange=25:33
+6	pmdb	_	NOUN	NOUN	_	5	appos	_	TokenRange=34:38
+7	principal	principal	ADJ	ADJ	_	8	amod	_	TokenRange=39:48
+8	aliado	aliado	NOUN	NOUN	_	5	appos	_	TokenRange=49:55
+9	pt	_	NOUN	NOUN	_	8	flat	_	TokenRange=56:58
+10	vem	vir	VERB	VERB	_	2	conj	_	TokenRange=59:62
+11	muita	_	DET	DET	_	12	det	_	TokenRange=63:68
+12	bomba	bomba	NOUN	NOUN	_	10	obj	_	TokenRange=69:74
+13	ai	_	ADP	ADP	_	14	case	_	TokenRange=75:77
+14	entrevista	entrevista	NOUN	NOUN	_	10	nmod	_	TokenRange=78:88
+15	jornalista	jornalista	NOUN	NOUN	_	14	appos	_	TokenRange=89:99
+16	claudio	claudio	NOUN	NOUN	_	14	appos	_	TokenRange=100:107
+17	tognolli	_	NOUN	NOUN	_	16	flat	_	TokenRange=108:116
+18	jovem	jovem	ADJ	ADJ	_	19	amod	_	TokenRange=117:122
+19	pan	_	NOUN	NOUN	_	16	appos	_	TokenRange=123:126
+20	exsenador	exsenador	NOUN	NOUN	_	23	nsubj	_	TokenRange=127:136
+21	delcidio	delcidio	NOUN	NOUN	_	20	amod	_	TokenRange=137:145
+22	amaral	amaral	ADJ	ADJ	_	20	amod	_	TokenRange=146:152
+23	afirmou	afirmar	VERB	VERB	_	2	conj	_	TokenRange=153:160
+24	investigacoes	investigacoe	NOUN	NOUN	_	23	obj	_	TokenRange=161:174
+25	contra	_	ADP	ADP	_	26	case	_	TokenRange=175:181
+26	expresidente	expresidente	NOUN	NOUN	_	24	nmod	_	TokenRange=182:194
+27	lula	lula	ADJ	ADJ	_	26	flat	_	TokenRange=195:199
+28	avancadas	avancado	ADJ	ADJ	_	29	amod	_	TokenRange=200:209
+29	defesa	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=210:216
+30	lula	lula	NOUN	NOUN	_	29	appos	_	TokenRange=217:221
+31	continua	continuar	AUX	AUX	_	32	aux	_	TokenRange=222:230
+32	usando	usar	VERB	VERB	_	23	conj	_	TokenRange=231:237
+33	estrategia	estrategia	NOUN	NOUN	_	32	obj	_	TokenRange=238:248
+34	vitimizacao	_	ADJ	ADJ	_	33	amod	_	TokenRange=249:260
+35	disse	dizer	VERB	VERB	_	32	parataxis	_	TokenRange=261:266
+36	exsenador	exsenador	NOUN	NOUN	_	37	nsubj	_	TokenRange=267:276
+37	confira	conferir	VERB	VERB	_	35	ccomp	_	SpaceAfter=No|TokenRange=277:284
+

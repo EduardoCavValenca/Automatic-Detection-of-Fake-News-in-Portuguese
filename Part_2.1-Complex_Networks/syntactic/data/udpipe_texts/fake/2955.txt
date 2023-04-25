@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = faltam somente 2 votos dar pe traseiro dilma farra acabou recado deputado carlos sampaio povo brasileiro amigos apos importante vitoria ontem reunimonos hoje manha video abaixo fazermos contagem votos favoraveis impeachment co nfirmados 340 votos faltam 2 46 indecisos colocarmos fim governo corrupto mentiroso
+1	faltam	faltar	VERB	VERB	_	0	root	_	TokenRange=0:6
+2	somente	somente	ADV	ADV	_	3	advmod	_	TokenRange=7:14
+3	2	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=15:16
+4	votos	voto	NOUN	NOUN	_	1	nsubj	_	TokenRange=17:22
+5	dar	dar	VERB	VERB	_	1	csubj	_	TokenRange=23:26
+6	pe	_	NOUN	NOUN	_	7	case	_	TokenRange=27:29
+7	traseiro	traseiro	NOUN	NOUN	_	5	obj	_	TokenRange=30:38
+8	dilma	dilma	NOUN	NOUN	_	5	nsubj	_	TokenRange=39:44
+9	farra	farra	NOUN	NOUN	_	8	flat	_	TokenRange=45:50
+10	acabou	acabar	AUX	AUX	_	12	cop	_	TokenRange=51:57
+11	recado	recado	ADJ	ADJ	_	12	amod	_	TokenRange=58:64
+12	deputado	deputado	NOUN	NOUN	_	5	conj	_	TokenRange=65:73
+13	carlos	carlo	ADJ	ADJ	_	12	amod	_	TokenRange=74:80
+14	sampaio	sampaio	ADJ	ADJ	_	15	amod	_	TokenRange=81:88
+15	povo	povo	NOUN	NOUN	_	12	appos	_	TokenRange=89:93
+16	brasileiro	brasileiro	ADJ	ADJ	_	15	amod	_	TokenRange=94:104
+17	amigos	amigo	NOUN	NOUN	_	12	appos	_	TokenRange=105:111
+18	apos	_	ADP	ADP	_	20	case	_	TokenRange=112:116
+19	importante	importante	ADJ	ADJ	_	20	amod	_	TokenRange=117:127
+20	vitoria	vitoria	NOUN	NOUN	_	17	nmod	_	TokenRange=128:135
+21	ontem	ontem	ADV	ADV	_	22	advmod	_	TokenRange=136:141
+22	reunimonos	reunimono	NOUN	NOUN	_	12	appos	_	TokenRange=142:152
+23	hoje	hoje	ADV	ADV	_	22	advmod	_	TokenRange=153:157
+24	manha	manha	NOUN	NOUN	_	22	dep	_	TokenRange=158:163
+25	video	video	NOUN	NOUN	_	27	nmod	_	TokenRange=164:169
+26	abaixo	abaixo	ADV	ADV	_	27	advmod	_	TokenRange=170:176
+27	fazermos	fazer	VERB	VERB	_	22	conj	_	TokenRange=177:185
+28	contagem	contagem	NOUN	NOUN	_	27	obj	_	TokenRange=186:194
+29	votos	voto	NOUN	NOUN	_	28	appos	_	TokenRange=195:200
+30	favoraveis	favoravel	ADJ	ADJ	_	29	amod	_	TokenRange=201:211
+31	impeachment	impeachment	NOUN	NOUN	_	27	obj	_	TokenRange=212:223
+32	co	_	X	ADPPRON	_	33	mark	_	TokenRange=224:226
+33	nfirmados	nfirmado	ADJ	ADJ	_	35	amod	_	TokenRange=227:236
+34	340	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=237:240
+35	votos	voto	NOUN	NOUN	_	36	nsubj	_	TokenRange=241:246
+36	faltam	faltar	VERB	VERB	_	1	parataxis	_	TokenRange=247:253
+37	2	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=254:255
+38	46	_	NUM	NUM	NumType=Card	36	nsubj	_	TokenRange=256:258
+39	indecisos	indeciso	ADJ	ADJ	_	36	xcomp	_	TokenRange=259:268
+40	colocarmos	colocar	VERB	VERB	_	36	parataxis	_	TokenRange=269:279
+41	fim	fim	NOUN	NOUN	_	40	obj	_	TokenRange=280:283
+42	governo	governo	NOUN	NOUN	_	40	obj	_	TokenRange=284:291
+43	corrupto	corrupto	ADJ	ADJ	_	42	amod	_	TokenRange=292:300
+44	mentiroso	mentiroso	ADJ	ADJ	_	42	amod	_	SpaceAfter=No|TokenRange=301:310
+

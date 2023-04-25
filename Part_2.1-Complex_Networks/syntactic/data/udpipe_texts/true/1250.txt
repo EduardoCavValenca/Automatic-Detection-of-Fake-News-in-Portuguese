@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = relator lava jato nega pedido lula ouvido trf4 advogados lula haviam pedido expresidente prestasse novo depoimento defesa apresentou nesta tercafeira 16 novos documentos sobre propriedade triplex tribunal regional federal 4 regiao trf4 vai ouvir expresidente luiz inacio lula silva antes julgamento apelacao marcado 24 janeiro primeira instancia politico condenado 9 anos 6 meses corrupcao passiva lavagem dinheiro processo lava jato envolvendo triplex
+1	relator	relator	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	lava	lava	NOUN	NOUN	_	1	appos	_	TokenRange=8:12
+3	jato	jato	NOUN	NOUN	_	2	flat	_	TokenRange=13:17
+4	nega	negar	VERB	VERB	_	0	root	_	TokenRange=18:22
+5	pedido	pedido	NOUN	NOUN	_	4	obj	_	TokenRange=23:29
+6	lula	_	NOUN	NOUN	_	5	appos	_	TokenRange=30:34
+7	ouvido	ouvir	VERB	VERB	_	1	acl	_	TokenRange=35:41
+8	trf4	_	NOUN	NOUN	_	9	appos	_	TokenRange=42:46
+9	advogados	advogado	NOUN	NOUN	_	12	nsubj	_	TokenRange=47:56
+10	lula	_	ADJ	ADJ	_	9	amod	_	TokenRange=57:61
+11	haviam	haver	AUX	AUX	_	12	aux	_	TokenRange=62:68
+12	pedido	pedir	VERB	VERB	_	1	acl:relcl	_	TokenRange=69:75
+13	expresidente	expresidente	NOUN	NOUN	_	12	obj	_	TokenRange=76:88
+14	prestasse	prestar	VERB	VERB	_	12	ccomp	_	TokenRange=89:98
+15	novo	novo	ADJ	ADJ	_	16	amod	_	TokenRange=99:103
+16	depoimento	depoimento	NOUN	NOUN	_	14	obj	_	TokenRange=104:114
+17	defesa	_	NOUN	NOUN	_	16	appos	_	TokenRange=115:121
+18	apresentou	apresentar	VERB	VERB	_	12	parataxis	_	TokenRange=122:132
+19	nesta	_	ADP	ADP	_	20	case	_	TokenRange=133:138
+20	tercafeira	_	NOUN	NOUN	_	18	nmod	_	TokenRange=139:149
+21	16	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=150:152
+22	novos	novo	ADJ	ADJ	_	23	amod	_	TokenRange=153:158
+23	documentos	documento	NOUN	NOUN	_	18	obj	_	TokenRange=159:169
+24	sobre	_	ADP	ADP	_	25	case	_	TokenRange=170:175
+25	propriedade	propriedade	NOUN	NOUN	_	23	nmod	_	TokenRange=176:187
+26	triplex	_	ADJ	ADJ	_	27	amod	_	TokenRange=188:195
+27	tribunal	tribunal	NOUN	NOUN	_	25	appos	_	TokenRange=196:204
+28	regional	regional	ADJ	ADJ	_	27	amod	_	TokenRange=205:213
+29	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=214:221
+30	4	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=222:223
+31	regiao	regiao	NOUN	NOUN	_	27	appos	_	TokenRange=224:230
+32	trf4	_	NOUN	NOUN	_	27	appos	_	TokenRange=231:235
+33	vai	ir	AUX	AUX	_	34	aux	_	TokenRange=236:239
+34	ouvir	ouvir	VERB	VERB	_	4	parataxis	_	TokenRange=240:245
+35	expresidente	expresidente	NOUN	NOUN	_	34	obj	_	TokenRange=246:258
+36	luiz	luiz	ADJ	ADJ	_	35	amod	_	TokenRange=259:263
+37	inacio	_	NOUN	NOUN	_	35	appos	_	TokenRange=264:270
+38	lula	_	NOUN	NOUN	_	36	flat	_	TokenRange=271:275
+39	silva	silva	NOUN	NOUN	_	37	flat	_	TokenRange=276:281
+40	antes	antes	ADV	ADV	_	41	advmod	_	TokenRange=282:287
+41	julgamento	julgamento	NOUN	NOUN	_	34	obj	_	TokenRange=288:298
+42	apelacao	apelacao	ADJ	ADJ	_	41	amod	_	TokenRange=299:307
+43	marcado	marcar	VERB	VERB	_	41	acl	_	TokenRange=308:315
+44	24	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=316:318
+45	janeiro	_	PROPN	PNOUN	_	43	nmod	_	TokenRange=319:326
+46	primeira	primeiro	ADJ	ADJ	_	47	amod	_	TokenRange=327:335
+47	instancia	instancia	NOUN	NOUN	_	43	nsubj	_	TokenRange=336:345
+48	politico	politico	ADJ	ADJ	_	47	amod	_	TokenRange=346:354
+49	condenado	condenar	VERB	VERB	_	41	acl	_	TokenRange=355:364
+50	9	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=365:366
+51	anos	ano	NOUN	NOUN	_	49	nmod	_	TokenRange=367:371
+52	6	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=372:373
+53	meses	mês	NOUN	NOUN	_	49	nmod	_	TokenRange=374:379
+54	corrupcao	corrupcao	ADJ	ADJ	_	49	xcomp	_	TokenRange=380:389
+55	passiva	passivo	ADJ	ADJ	_	56	amod	_	TokenRange=390:397
+56	lavagem	lavagem	NOUN	NOUN	_	49	obj	_	TokenRange=398:405
+57	dinheiro	dinheiro	ADJ	ADJ	_	56	amod	_	TokenRange=406:414
+58	processo	processo	NOUN	NOUN	_	56	appos	_	TokenRange=415:423
+59	lava	lava	NOUN	NOUN	_	58	appos	_	TokenRange=424:428
+60	jato	jato	NOUN	NOUN	_	59	flat	_	TokenRange=429:433
+61	envolvendo	envolver	VERB	VERB	_	58	acl	_	TokenRange=434:444
+62	triplex	_	NOUN	NOUN	_	61	obj	_	SpaceAfter=No|TokenRange=445:452
+

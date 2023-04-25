@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = datena completa 60 anos recebe homenagem familia emociona telespectadores jose luiz datena apresentador band completou 60 anos ontem 19 recebeu homenagem producao brasil urgente emocionou joel datena filhos apresentador invadiu estudio emissora parabenizar pai seguida video feito esposa matilde outros filhos colocado ar datena conteve chorou falar mulher razao vida declarou
+1	datena	datena	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:6
+2	completa	completo	ADJ	ADJ	_	1	amod	_	TokenRange=7:15
+3	60	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=16:18
+4	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=19:23
+5	recebe	receber	VERB	VERB	_	0	root	_	TokenRange=24:30
+6	homenagem	homenagem	NOUN	NOUN	_	5	obj	_	TokenRange=31:40
+7	familia	familia	NOUN	NOUN	_	6	appos	_	TokenRange=41:48
+8	emociona	emociono	ADJ	NOUN	_	6	amod	_	TokenRange=49:57
+9	telespectadores	telespectador	NOUN	NOUN	_	5	obj	_	TokenRange=58:73
+10	jose	jose	NOUN	NOUN	_	9	appos	_	TokenRange=74:78
+11	luiz	luiz	NOUN	NOUN	_	10	flat	_	TokenRange=79:83
+12	datena	_	NOUN	NOUN	_	13	amod	_	TokenRange=84:90
+13	apresentador	apresentador	NOUN	NOUN	_	15	nsubj	_	TokenRange=91:103
+14	band	_	NOUN	NOUN	_	13	appos	_	TokenRange=104:108
+15	completou	completar	VERB	VERB	_	5	conj	_	TokenRange=109:118
+16	60	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=119:121
+17	anos	ano	NOUN	NOUN	_	15	obj	_	TokenRange=122:126
+18	ontem	ontem	ADV	ADV	_	20	advmod	_	TokenRange=127:132
+19	19	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=133:135
+20	recebeu	receber	VERB	VERB	_	5	parataxis	_	TokenRange=136:143
+21	homenagem	homenagem	NOUN	NOUN	_	20	obj	_	TokenRange=144:153
+22	producao	producao	NOUN	NOUN	_	21	amod	_	TokenRange=154:162
+23	brasil	brasil	NOUN	NOUN	_	21	appos	_	TokenRange=163:169
+24	urgente	urgente	ADJ	ADJ	_	23	amod	_	TokenRange=170:177
+25	emocionou	emocionar	VERB	VERB	_	20	parataxis	_	TokenRange=178:187
+26	joel	_	PROPN	PNOUN	_	25	nsubj	_	TokenRange=188:192
+27	datena	_	NOUN	NOUN	_	30	obj	_	TokenRange=193:199
+28	filhos	filho	NOUN	NOUN	_	30	nsubj	_	TokenRange=200:206
+29	apresentador	apresentador	NOUN	NOUN	_	28	amod	_	TokenRange=207:219
+30	invadiu	invadir	VERB	VERB	_	26	acl:relcl	_	TokenRange=220:227
+31	estudio	estudio	NOUN	NOUN	_	30	obj	_	TokenRange=228:235
+32	emissora	_	NOUN	NOUN	_	31	amod	_	TokenRange=236:244
+33	parabenizar	parabenizar	VERB	VERB	_	30	ccomp	_	TokenRange=245:256
+34	pai	pai	NOUN	NOUN	_	33	obj	_	TokenRange=257:260
+35	seguida	seguido	ADJ	ADJ	_	34	amod	_	TokenRange=261:268
+36	video	video	NOUN	NOUN	_	30	nsubj	_	TokenRange=269:274
+37	feito	_	VERB	VERB	_	36	acl	_	TokenRange=275:280
+38	esposa	esposo	NOUN	NOUN	_	37	nsubj	_	TokenRange=281:287
+39	matilde	matilde	NOUN	NOUN	_	38	flat	_	TokenRange=288:295
+40	outros	_	DET	DET	_	41	det	_	TokenRange=296:302
+41	filhos	filho	NOUN	NOUN	_	38	appos	_	TokenRange=303:309
+42	colocado	_	VERB	VERB	_	41	acl	_	TokenRange=310:318
+43	ar	ar	NOUN	NOUN	_	42	obj	_	TokenRange=319:321
+44	datena	datena	NOUN	NOUN	_	41	amod	_	TokenRange=322:328
+45	conteve	conter	VERB	VERB	_	42	conj	_	TokenRange=329:336
+46	chorou	chorar	VERB	VERB	_	51	ccomp	_	TokenRange=337:343
+47	falar	falar	VERB	VERB	_	45	xcomp	_	TokenRange=344:349
+48	mulher	mulher	NOUN	NOUN	_	47	obj	_	TokenRange=350:356
+49	razao	razao	ADJ	ADJ	_	50	amod	_	TokenRange=357:362
+50	vida	vida	NOUN	NOUN	_	51	nsubj	_	TokenRange=363:367
+51	declarou	declarar	VERB	VERB	_	47	parataxis	_	SpaceAfter=No|TokenRange=368:376
+

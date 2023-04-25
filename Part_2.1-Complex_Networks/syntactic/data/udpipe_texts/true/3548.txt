@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presos piloto copiloto aviao interceptado 600 kg cocaina goias disseram pf sairam bolivia droga iriam fazenda jussara pousar propriedade arrendada familia ministro blairo maggi policia federal prendeu inicio noite desta segundafeira 26 piloto copiloto aviao bimotor interceptado forca aerea brasileira fab fim semana 662 kg cocaina jussara regiao noroeste goias segundo apurou tv anhanguera dois ocupantes aeronave piloto apoena indio brasil copiloto fabiano junior silva disseram pf trouxeram droga bolivia contrario fab divulgou fazenda itamarati norte mato grosso arrendada empresa amaggi familia
+1	presos	preso	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:6
+2	piloto	piloto	NOUN	NOUN	_	1	appos	_	TokenRange=7:13
+3	copiloto	copiloto	NOUN	NOUN	_	1	appos	_	TokenRange=14:22
+4	aviao	aviao	NOUN	NOUN	_	3	flat	_	TokenRange=23:28
+5	interceptado	interceptado	ADJ	ADJ	_	3	amod	_	TokenRange=29:41
+6	600	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=42:45
+7	kg	kg	NOUN	NOUN	_	3	appos	_	TokenRange=46:48
+8	cocaina	cocaina	NOUN	NOUN	_	7	appos	_	TokenRange=49:56
+9	goias	goia	NOUN	NOUN	_	7	flat	_	TokenRange=57:62
+10	disseram	dizer	VERB	VERB	_	0	root	_	TokenRange=63:71
+11	pf	_	NOUN	NOUN	_	10	obj	_	TokenRange=72:74
+12	sairam	sair	VERB	VERB	_	10	ccomp	_	TokenRange=75:81
+13	bolivia	bolivia	NOUN	NOUN	_	12	obj	_	TokenRange=82:89
+14	droga	droga	NOUN	NOUN	_	16	nsubj	_	TokenRange=90:95
+15	iriam	_	AUX	AUX	_	16	cop	_	TokenRange=96:101
+16	fazenda	fazenda	NOUN	NOUN	_	12	obj	_	TokenRange=102:109
+17	jussara	jussar	ADJ	NOUN	_	16	amod	_	TokenRange=110:117
+18	pousar	pousar	VERB	VERB	_	16	acl:inf	_	TokenRange=118:124
+19	propriedade	propriedade	NOUN	NOUN	_	18	obj	_	TokenRange=125:136
+20	arrendada	arrendado	ADJ	ADJ	_	19	amod	_	TokenRange=137:146
+21	familia	familia	NOUN	NOUN	_	19	appos	_	TokenRange=147:154
+22	ministro	ministro	NOUN	NOUN	_	21	appos	_	TokenRange=155:163
+23	blairo	blairo	NOUN	NOUN	_	22	amod	_	TokenRange=164:170
+24	maggi	_	ADJ	NOUN	_	25	amod	_	TokenRange=171:176
+25	policia	policia	NOUN	NOUN	_	27	nsubj	_	TokenRange=177:184
+26	federal	federal	ADJ	ADJ	_	25	amod	_	TokenRange=185:192
+27	prendeu	prender	VERB	VERB	_	10	parataxis	_	TokenRange=193:200
+28	inicio	_	ADJ	NOUN	_	27	obj	_	TokenRange=201:207
+29	noite	noite	NOUN	NOUN	_	27	obj	_	TokenRange=208:213
+30	desta	_	ADP	ADP	_	31	case	_	TokenRange=214:219
+31	segundafeira	_	NOUN	NOUN	_	29	nmod	_	TokenRange=220:232
+32	26	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=233:235
+33	piloto	piloto	NOUN	NOUN	_	27	nsubj	_	TokenRange=236:242
+34	copiloto	copiloto	ADJ	ADJ	_	33	amod	_	TokenRange=243:251
+35	aviao	aviao	NOUN	NOUN	_	33	appos	_	TokenRange=252:257
+36	bimotor	bimotor	ADJ	ADJ	_	35	amod	_	TokenRange=258:265
+37	interceptado	interceptado	ADJ	ADJ	_	35	amod	_	TokenRange=266:278
+38	forca	forca	NOUN	NOUN	_	33	appos	_	TokenRange=279:284
+39	aerea	aereo	ADJ	ADJ	_	38	amod	_	TokenRange=285:290
+40	brasileira	brasileiro	ADJ	ADJ	_	38	amod	_	TokenRange=291:301
+41	fab	_	NOUN	NOUN	_	33	appos	_	TokenRange=302:305
+42	fim	fim	NOUN	NOUN	_	33	appos	_	TokenRange=306:309
+43	semana	semana	NOUN	NOUN	_	42	flat	_	TokenRange=310:316
+44	662	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=317:320
+45	kg	kg	NOUN	NOUN	_	33	appos	_	TokenRange=321:323
+46	cocaina	cocaina	NOUN	NOUN	_	45	flat	_	TokenRange=324:331
+47	jussara	jussar	ADJ	ADJ	_	45	amod	_	TokenRange=332:339
+48	regiao	regiao	NOUN	NOUN	_	45	appos	_	TokenRange=340:346
+49	noroeste	noroeste	ADJ	ADJ	_	48	amod	_	TokenRange=347:355
+50	goias	goia	NOUN	NOUN	_	48	appos	_	TokenRange=356:361
+51	segundo	_	ADP	ADP	_	52	case	_	TokenRange=362:369
+52	apurou	apurar	NOUN	NOUN	_	27	nmod	_	TokenRange=370:376
+53	tv	_	NOUN	NOUN	_	52	appos	_	TokenRange=377:379
+54	anhanguera	_	NOUN	NOUN	_	53	flat	_	TokenRange=380:390
+55	dois	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=391:395
+56	ocupantes	ocupante	NOUN	NOUN	_	66	nsubj	_	TokenRange=396:405
+57	aeronave	aeronave	NOUN	NOUN	_	56	appos	_	TokenRange=406:414
+58	piloto	piloto	NOUN	NOUN	_	57	appos	_	TokenRange=415:421
+59	apoena	_	NOUN	NOUN	_	57	appos	_	TokenRange=422:428
+60	indio	indio	NOUN	NOUN	_	59	appos	_	TokenRange=429:434
+61	brasil	brasil	ADJ	ADJ	_	62	amod	_	TokenRange=435:441
+62	copiloto	copiloto	NOUN	NOUN	_	66	nsubj	_	TokenRange=442:450
+63	fabiano	fabiano	ADJ	ADJ	_	62	amod	_	TokenRange=451:458
+64	junior	junior	ADJ	ADJ	_	62	amod	_	TokenRange=459:465
+65	silva	silva	ADJ	ADJ	_	63	flat	_	TokenRange=466:471
+66	disseram	dizer	VERB	VERB	_	10	parataxis	_	TokenRange=472:480
+67	pf	_	NOUN	NOUN	_	66	obj	_	TokenRange=481:483
+68	trouxeram	sauxer	VERB	VERB	_	66	ccomp	_	TokenRange=484:493
+69	droga	droga	NOUN	NOUN	_	68	obj	_	TokenRange=494:499
+70	bolivia	bolivia	NOUN	NOUN	_	69	amod	_	TokenRange=500:507
+71	contrario	contrario	ADJ	ADJ	_	69	amod	_	TokenRange=508:517
+72	fab	_	PROPN	PNOUN	_	73	nsubj	_	TokenRange=518:521
+73	divulgou	divulgar	VERB	VERB	_	66	parataxis	_	TokenRange=522:530
+74	fazenda	fazenda	NOUN	NOUN	_	73	obj	_	TokenRange=531:538
+75	itamarati	itamarati	NOUN	NOUN	_	74	appos	_	TokenRange=539:548
+76	norte	norte	ADJ	ADJ	_	80	amod	_	TokenRange=549:554
+77	mato	mato	ADJ	ADJ	_	80	amod	_	TokenRange=555:559
+78	grosso	grosso	ADJ	ADJ	_	80	amod	_	TokenRange=560:566
+79	arrendada	arrendado	ADJ	ADJ	_	80	amod	_	TokenRange=567:576
+80	empresa	empresa	NOUN	NOUN	_	74	appos	_	TokenRange=577:584
+81	amaggi	_	NOUN	NOUN	_	80	appos	_	TokenRange=585:591
+82	familia	familia	NOUN	NOUN	_	81	flat	_	SpaceAfter=No|TokenRange=592:599
+

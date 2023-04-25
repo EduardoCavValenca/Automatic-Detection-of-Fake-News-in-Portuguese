@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = folha delacao executivos andrade relatam fizeram pagamento ilicito dilma 2010 reportagem publicada jornalista marcio falcao folha/sp informou empreiteira andrade gutierrez afirmou pago despesas fornecedores campanha dilma rousseff 2010 onze executivos empreiteira assinaram acordo delacao premiada informaram pagamento ilicito feito atraves contrato ficticio prestacao servico segundo folha primeira citacao direta irregularidade apurada lava jato envolvendo presidente republica reportagem informou pagamento feito segundo depoimento delatores pedido direto coordenadores campanha pt andrade produziu contrato ficticio agencia pepper dar aspecto regularidade pagamento contabilidade valor acordo relato superou r 5 milhoes epoca
+1	folha	folha	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	delacao	_	ADJ	ADJ	_	1	amod	_	TokenRange=6:13
+3	executivos	executivo	NOUN	NOUN	_	1	appos	_	TokenRange=14:24
+4	andrade	andrade	NOUN	NOUN	_	3	amod	_	TokenRange=25:32
+5	relatam	relatar	VERB	VERB	_	0	root	_	TokenRange=33:40
+6	fizeram	fazer	VERB	VERB	_	5	xcomp	_	TokenRange=41:48
+7	pagamento	pagamento	NOUN	NOUN	_	6	obj	_	TokenRange=49:58
+8	ilicito	ilicito	ADJ	ADJ	_	7	amod	_	TokenRange=59:66
+9	dilma	dilma	NOUN	NOUN	_	7	appos	_	TokenRange=67:72
+10	2010	_	NUM	NUM	NumType=Card	9	nmod	_	TokenRange=73:77
+11	reportagem	reportagem	NOUN	NOUN	_	6	obj	_	TokenRange=78:88
+12	publicada	publicar	VERB	VERB	_	11	acl	_	TokenRange=89:98
+13	jornalista	jornalista	NOUN	NOUN	_	17	nsubj	_	TokenRange=99:109
+14	marcio	marcio	NOUN	NOUN	_	13	appos	_	TokenRange=110:116
+15	falcao	_	NOUN	NOUN	_	52	flat	_	TokenRange=117:123
+16	folha/sp	_	NOUN	NOUN	_	13	appos	_	TokenRange=124:132
+17	informou	informar	VERB	VERB	_	5	parataxis	_	TokenRange=133:141
+18	empreiteira	empreiteiro	NOUN	NOUN	_	17	obj	_	TokenRange=142:153
+19	andrade	andrade	NOUN	NOUN	_	18	appos	_	TokenRange=154:161
+20	gutierrez	gutierrez	NOUN	NOUN	_	18	flat	_	TokenRange=162:171
+21	afirmou	afirmar	VERB	VERB	_	17	parataxis	_	TokenRange=172:179
+22	pago	pagar	VERB	VERB	_	21	xcomp	_	TokenRange=180:184
+23	despesas	despesa	NOUN	NOUN	_	22	obj	_	TokenRange=185:193
+24	fornecedores	fornecedor	ADJ	ADJ	_	23	amod	_	TokenRange=194:206
+25	campanha	campanha	NOUN	NOUN	_	23	appos	_	TokenRange=207:215
+26	dilma	_	NOUN	NOUN	_	25	appos	_	TokenRange=216:221
+27	rousseff	rousseff	NOUN	NOUN	_	25	appos	_	TokenRange=222:230
+28	2010	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=231:235
+29	onze	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=236:240
+30	executivos	executivo	NOUN	NOUN	_	32	nsubj	_	TokenRange=241:251
+31	empreiteira	empreiteiro	ADJ	ADJ	_	30	amod	_	TokenRange=252:263
+32	assinaram	assinar	VERB	VERB	_	21	parataxis	_	TokenRange=264:273
+33	acordo	acordo	NOUN	NOUN	_	32	obj	_	TokenRange=274:280
+34	delacao	_	ADJ	ADJ	_	33	amod	_	TokenRange=281:288
+35	premiada	premiado	ADJ	ADJ	_	33	amod	_	TokenRange=289:297
+36	informaram	informar	VERB	VERB	_	33	acl:relcl	_	TokenRange=298:308
+37	pagamento	pagamento	NOUN	NOUN	_	36	obj	_	TokenRange=309:318
+38	ilicito	ilicito	ADJ	ADJ	_	37	amod	_	TokenRange=319:326
+39	feito	_	VERB	VERB	_	37	acl	_	TokenRange=327:332
+40	atraves	_	ADV	ADV	_	41	case	_	TokenRange=333:340
+41	contrato	contrato	NOUN	NOUN	_	39	nmod	_	TokenRange=341:349
+42	ficticio	ficticio	ADJ	ADJ	_	41	amod	_	TokenRange=350:358
+43	prestacao	prestacao	NOUN	NOUN	_	41	appos	_	TokenRange=359:368
+44	servico	servico	NOUN	NOUN	_	41	appos	_	TokenRange=369:376
+45	segundo	_	ADP	ADP	_	46	case	_	TokenRange=377:384
+46	folha	folha	NOUN	NOUN	_	39	nmod	_	TokenRange=385:390
+47	primeira	primeiro	ADJ	ADJ	_	48	amod	_	TokenRange=391:399
+48	citacao	citacao	NOUN	NOUN	_	46	appos	_	TokenRange=400:407
+49	direta	direto	ADJ	ADJ	_	50	amod	_	TokenRange=408:414
+50	irregularidade	irregularidade	NOUN	NOUN	_	48	appos	_	TokenRange=415:429
+51	apurada	apurado	ADJ	ADJ	_	50	amod	_	TokenRange=430:437
+52	lava	lava	NOUN	NOUN	_	50	appos	_	TokenRange=438:442
+53	jato	jato	NOUN	NOUN	_	52	flat	_	TokenRange=443:447
+54	envolvendo	envolver	VERB	VERB	_	52	acl	_	TokenRange=448:458
+55	presidente	presidente	NOUN	NOUN	_	54	obj	_	TokenRange=459:469
+56	republica	republico	ADJ	ADJ	_	55	amod	_	TokenRange=470:479
+57	reportagem	reportagem	NOUN	NOUN	_	58	nsubj	_	TokenRange=480:490
+58	informou	informar	VERB	VERB	_	36	parataxis	_	TokenRange=491:499
+59	pagamento	pagamento	NOUN	NOUN	_	58	obj	_	TokenRange=500:509
+60	feito	_	VERB	VERB	_	59	acl	_	TokenRange=510:515
+61	segundo	_	ADP	ADP	_	62	case	_	TokenRange=516:523
+62	depoimento	depoimento	NOUN	NOUN	_	60	nmod	_	TokenRange=524:534
+63	delatores	delator	ADJ	ADJ	_	62	amod	_	TokenRange=535:544
+64	pedido	pedido	NOUN	NOUN	_	62	appos	_	TokenRange=545:551
+65	direto	direto	ADJ	ADJ	_	64	amod	_	TokenRange=552:558
+66	coordenadores	coordenador	NOUN	NOUN	_	64	amod	_	TokenRange=559:572
+67	campanha	campanha	NOUN	NOUN	_	70	nsubj	_	TokenRange=573:581
+68	pt	_	ADP	NOUN	_	69	amod	_	TokenRange=582:584
+69	andrade	andrade	NOUN	NOUN	_	67	amod	_	TokenRange=585:592
+70	produziu	produzir	VERB	VERB	_	58	parataxis	_	TokenRange=593:601
+71	contrato	contrato	NOUN	NOUN	_	70	obj	_	TokenRange=602:610
+72	ficticio	ficticio	ADJ	ADJ	_	71	amod	_	TokenRange=611:619
+73	agencia	agencia	NOUN	NOUN	_	71	appos	_	TokenRange=620:627
+74	pepper	pepper	NOUN	NOUN	_	71	flat	_	TokenRange=628:634
+75	dar	dar	VERB	VERB	_	71	acl:inf	_	TokenRange=635:638
+76	aspecto	aspecto	NOUN	NOUN	_	75	obj	_	TokenRange=639:646
+77	regularidade	regularidade	NOUN	NOUN	_	75	obj	_	TokenRange=647:659
+78	pagamento	pagamento	NOUN	NOUN	_	77	appos	_	TokenRange=660:669
+79	contabilidade	contabilidade	NOUN	NOUN	_	77	appos	_	TokenRange=670:683
+80	valor	valor	ADJ	ADJ	_	79	amod	_	TokenRange=684:689
+81	acordo	acordo	NOUN	NOUN	_	79	amod	_	TokenRange=690:696
+82	relato	relato	ADJ	ADJ	_	30	amod	_	TokenRange=697:703
+83	superou	superar	VERB	VERB	_	70	parataxis	_	TokenRange=704:711
+84	r	r	NOUN	NOUN	_	83	obj	_	TokenRange=712:713
+85	5	_	NUM	NUM	NumType=Card	86	nummod	_	TokenRange=714:715
+86	milhoes	_	NUM	NUM	NumType=Card	87	nummod	_	TokenRange=716:723
+87	epoca	epoca	NOUN	NOUN	_	83	obj	_	SpaceAfter=No|TokenRange=724:729
+

@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 5 fevereiro bom dia aqui principais noticias comecar dia beminformado hora decisao sobre previdencia congresso volta recesso governo joga ultimas fichas tentar aprovar reforma apos encontrar presidente temer ontem relator proposta deputado arthur
+1	segundafeira	_	NOUN	NOUN	_	20	parataxis	_	TokenRange=0:12
+2	5	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=13:14
+3	fevereiro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:24
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=25:28
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=29:32
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=33:37
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=38:48
+8	noticias	noticia	NOUN	NOUN	_	9	nsubj	_	TokenRange=49:57
+9	comecar	comecar	VERB	VERB	_	5	acl:relcl	_	TokenRange=58:65
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=66:69
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=70:82
+12	hora	hora	NOUN	NOUN	_	9	appos	_	TokenRange=83:87
+13	decisao	decisao	NOUN	NOUN	_	12	appos	_	TokenRange=88:95
+14	sobre	_	ADP	ADP	_	15	case	_	TokenRange=96:101
+15	previdencia	previdencia	NOUN	NOUN	_	13	nmod	_	TokenRange=102:113
+16	congresso	congresso	NOUN	NOUN	_	15	amod	_	TokenRange=114:123
+17	volta	volta	NOUN	NOUN	_	20	parataxis	_	TokenRange=124:129
+18	recesso	recesso	ADJ	ADJ	_	19	amod	_	TokenRange=130:137
+19	governo	governo	NOUN	NOUN	_	20	nsubj	_	TokenRange=138:145
+20	joga	jogar	VERB	VERB	_	0	root	_	TokenRange=146:150
+21	ultimas	ultimo	ADJ	ADJ	_	22	amod	_	TokenRange=151:158
+22	fichas	ficha	NOUN	NOUN	_	20	obj	_	TokenRange=159:165
+23	tentar	tentar	VERB	VERB	_	20	ccomp	_	TokenRange=166:172
+24	aprovar	aprovar	VERB	VERB	_	23	xcomp	_	TokenRange=173:180
+25	reforma	reforma	NOUN	NOUN	_	24	obj	_	TokenRange=181:188
+26	apos	_	ADP	ADP	_	27	mark	_	TokenRange=189:193
+27	encontrar	encontrar	VERB	VERB	_	23	advcl	_	TokenRange=194:203
+28	presidente	presidente	NOUN	NOUN	_	27	obj	_	TokenRange=204:214
+29	temer	temer	NOUN	NOUN	_	28	appos	_	TokenRange=215:220
+30	ontem	ontem	ADV	ADV	_	31	advmod	_	TokenRange=221:226
+31	relator	relator	NOUN	NOUN	_	20	parataxis	_	TokenRange=227:234
+32	proposta	_	NOUN	NOUN	_	31	appos	_	TokenRange=235:243
+33	deputado	deputado	NOUN	NOUN	_	31	appos	_	TokenRange=244:252
+34	arthur	arthur	NOUN	NOUN	_	33	appos	_	SpaceAfter=No|TokenRange=253:259
+

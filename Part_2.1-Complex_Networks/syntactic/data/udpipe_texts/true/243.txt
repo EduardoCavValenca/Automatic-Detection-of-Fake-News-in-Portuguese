@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rodrigo maia anuncia votacao reforma previdencia fevereiro camara presidente camara afirmou marcara discussao proposta dia 5 votacao 19 fevereiro diz data governo reunira votos necessarios aprovar presidente camara rodrigo maia demrj informou nesta quintafeira 14 discussao votacao reforma previdencia plenario camara ficou fevereiro previsao rodrigo maia fazer discussao proposta dia 5 votacao dia 19 fevereiro anuncio votacao ficaria fevereiro sido feito nesta quartafeira 13 lider governo senado romero juca antecipacao anuncio senador provocou constrangimento palavras deputado carlos marun pmdbms futuro ministro secretaria governo pasta responsavel articulacao politica horas fala
+1	rodrigo	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	maia	_	NOUN	NOUN	_	1	flat	_	TokenRange=8:12
+3	anuncia	anunciar	VERB	VERB	_	0	root	_	TokenRange=13:20
+4	votacao	votacao	NOUN	NOUN	_	3	obj	_	TokenRange=21:28
+5	reforma	reforma	NOUN	NOUN	_	3	obj	_	TokenRange=29:36
+6	previdencia	previdencia	NOUN	NOUN	_	5	flat	_	TokenRange=37:48
+7	fevereiro	_	PROPN	PNOUN	_	5	appos	_	TokenRange=49:58
+8	camara	camara	NOUN	NOUN	_	11	nsubj	_	TokenRange=59:65
+9	presidente	presidente	NOUN	NOUN	_	8	flat	_	TokenRange=66:76
+10	camara	camara	NOUN	NOUN	_	9	flat	_	TokenRange=77:83
+11	afirmou	afirmar	VERB	VERB	_	3	conj	_	TokenRange=84:91
+12	marcara	marcar	VERB	VERB	_	11	xcomp	_	TokenRange=92:99
+13	discussao	discussao	NOUN	NOUN	_	12	obj	_	TokenRange=100:109
+14	proposta	_	ADJ	ADJ	_	13	amod	_	TokenRange=110:118
+15	dia	dia	NOUN	NOUN	_	12	nmod	_	TokenRange=119:122
+16	5	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=123:124
+17	votacao	votacao	NOUN	NOUN	_	15	appos	_	TokenRange=125:132
+18	19	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=133:135
+19	fevereiro	_	PROPN	PNOUN	_	20	nsubj	_	TokenRange=136:145
+20	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=146:149
+21	data	data	NOUN	NOUN	_	20	obj	_	TokenRange=150:154
+22	governo	governo	NOUN	NOUN	_	21	flat	_	TokenRange=155:162
+23	reunira	reunir	VERB	VERB	_	20	ccomp	_	TokenRange=163:170
+24	votos	voto	NOUN	NOUN	_	23	obj	_	TokenRange=171:176
+25	necessarios	necessario	ADJ	ADJ	_	24	amod	_	TokenRange=177:188
+26	aprovar	aprovar	VERB	VERB	_	23	ccomp	_	TokenRange=189:196
+27	presidente	presidente	NOUN	NOUN	_	26	obj	_	TokenRange=197:207
+28	camara	camara	ADJ	ADJ	_	27	amod	_	TokenRange=208:214
+29	rodrigo	_	NOUN	NOUN	_	27	appos	_	TokenRange=215:222
+30	maia	maia	NOUN	NOUN	_	29	flat	_	TokenRange=223:227
+31	demrj	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=228:233
+32	informou	informar	VERB	VERB	_	3	parataxis	_	TokenRange=234:242
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=243:248
+34	quintafeira	quintafeira	NOUN	NOUN	_	32	nmod	_	TokenRange=249:260
+35	14	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=261:263
+36	discussao	discussao	NOUN	NOUN	_	32	obj	_	TokenRange=264:273
+37	votacao	votacao	NOUN	NOUN	_	36	amod	_	TokenRange=274:281
+38	reforma	reforma	NOUN	NOUN	_	36	appos	_	TokenRange=282:289
+39	previdencia	previdencia	NOUN	NOUN	_	38	flat	_	TokenRange=290:301
+40	plenario	plenario	ADJ	ADJ	_	38	amod	_	TokenRange=302:310
+41	camara	camara	NOUN	NOUN	_	42	nsubj	_	TokenRange=311:317
+42	ficou	ficar	VERB	VERB	_	32	parataxis	_	TokenRange=318:323
+43	fevereiro	_	PROPN	PNOUN	_	42	nsubj	_	TokenRange=324:333
+44	previsao	previsao	NOUN	NOUN	_	42	nsubj	_	TokenRange=334:342
+45	rodrigo	_	NOUN	PNOUN	_	47	nsubj	_	TokenRange=343:350
+46	maia	_	NOUN	NOUN	_	45	flat	_	TokenRange=351:355
+47	fazer	fazer	VERB	VERB	_	44	acl:inf	_	TokenRange=356:361
+48	discussao	discussao	NOUN	NOUN	_	47	obj	_	TokenRange=362:371
+49	proposta	_	ADJ	ADJ	_	48	amod	_	TokenRange=372:380
+50	dia	dia	NOUN	NOUN	_	47	nmod	_	TokenRange=381:384
+51	5	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=385:386
+52	votacao	votacao	NOUN	NOUN	_	50	appos	_	TokenRange=387:394
+53	dia	dia	NOUN	NOUN	_	47	nmod	_	TokenRange=395:398
+54	19	_	NUM	NUM	NumType=Card	53	appos	_	TokenRange=399:401
+55	fevereiro	_	PROPN	PNOUN	_	53	flat	_	TokenRange=402:411
+56	anuncio	anuncio	ADJ	ADJ	_	57	amod	_	TokenRange=412:419
+57	votacao	votacao	NOUN	NOUN	_	58	nsubj	_	TokenRange=420:427
+58	ficaria	ficar	VERB	VERB	_	47	parataxis	_	TokenRange=428:435
+59	fevereiro	_	PROPN	PNOUN	_	58	obj	_	TokenRange=436:445
+60	sido	ser	AUX	AUX	_	61	aux:pass	_	TokenRange=446:450
+61	feito	_	VERB	VERB	_	58	acl	_	TokenRange=451:456
+62	nesta	_	ADP	ADP	_	63	case	_	TokenRange=457:462
+63	quartafeira	quartafeira	NOUN	NOUN	_	61	nmod	_	TokenRange=463:474
+64	13	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=475:477
+65	lider	lider	NOUN	NOUN	_	63	appos	_	TokenRange=478:483
+66	governo	governo	NOUN	NOUN	_	65	flat	_	TokenRange=484:491
+67	senado	senado	NOUN	NOUN	_	65	appos	_	TokenRange=492:498
+68	romero	romero	NOUN	NOUN	_	65	appos	_	TokenRange=499:505
+69	juca	juca	NOUN	NOUN	_	68	flat	_	TokenRange=506:510
+70	antecipacao	_	NOUN	NOUN	_	68	flat	_	TokenRange=511:522
+71	anuncio	anuncio	ADJ	ADJ	_	72	amod	_	TokenRange=523:530
+72	senador	senador	NOUN	NOUN	_	73	nsubj	_	TokenRange=531:538
+73	provocou	provocar	VERB	VERB	_	3	parataxis	_	TokenRange=539:547
+74	constrangimento	constrangimento	NOUN	NOUN	_	73	obj	_	TokenRange=548:563
+75	palavras	palavra	NOUN	NOUN	_	74	flat	_	TokenRange=564:572
+76	deputado	deputado	NOUN	NOUN	_	74	appos	_	TokenRange=573:581
+77	carlos	carlo	NOUN	NOUN	_	76	flat	_	TokenRange=582:588
+78	marun	_	NOUN	NOUN	_	76	flat	_	TokenRange=589:594
+79	pmdbms	_	NOUN	NOUN	_	81	flat	_	TokenRange=595:601
+80	futuro	futuro	ADJ	ADJ	_	81	amod	_	TokenRange=602:608
+81	ministro	ministro	NOUN	NOUN	_	76	conj	_	TokenRange=609:617
+82	secretaria	secretaria	NOUN	NOUN	_	81	appos	_	TokenRange=618:628
+83	governo	governo	NOUN	NOUN	_	84	flat	_	TokenRange=629:636
+84	pasta	pasta	NOUN	NOUN	_	81	appos	_	TokenRange=637:642
+85	responsavel	responsavel	ADJ	ADJ	_	84	amod	_	TokenRange=643:654
+86	articulacao	articulacao	NOUN	NOUN	_	84	amod	_	TokenRange=655:666
+87	politica	politico	ADJ	ADJ	_	86	amod	_	TokenRange=667:675
+88	horas	hora	NOUN	NOUN	_	89	nsubj	_	TokenRange=676:681
+89	fala	_	VERB	VERB	_	73	parataxis	_	SpaceAfter=No|TokenRange=682:686
+

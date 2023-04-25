@@ -1,0 +1,17 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = melhor viagem alguem pode fazer viagem sonhos pode muitas
+1	melhor	melhor	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	viagem	viagem	NOUN	NOUN	_	5	nsubj	_	TokenRange=7:13
+3	alguem	_	PRON	PRON	_	5	nsubj	_	TokenRange=14:20
+4	pode	_	AUX	AUX	_	5	aux	_	TokenRange=21:25
+5	fazer	fazer	VERB	VERB	_	0	root	_	TokenRange=26:31
+6	viagem	viagem	NOUN	NOUN	_	5	obj	_	TokenRange=32:38
+7	sonhos	sonho	NOUN	NOUN	_	9	nsubj	_	TokenRange=39:45
+8	pode	_	AUX	AUX	_	9	cop	_	TokenRange=46:50
+9	muitas	_	PRON	PRON	_	5	det	_	SpaceAfter=No|TokenRange=51:57
+

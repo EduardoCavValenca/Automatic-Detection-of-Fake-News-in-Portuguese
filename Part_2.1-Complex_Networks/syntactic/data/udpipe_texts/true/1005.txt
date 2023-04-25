@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = equipamento protecao individual epi x aposentadoria especial entenda diferencas hilario bocchi junior esclarece uso exclui direito beneficio algumas atividades risco saude integridade fisica inerente exercicio profissao facil provar tempo servico aposentadoria ainda dificil trabalho daqueles colocam risco saude trabalhador vezes empresa documento certo diz fornecia epi
+1	equipamento	equipamento	NOUN	NOUN	_	44	nsubj	_	TokenRange=0:11
+2	protecao	protecao	NOUN	NOUN	_	1	appos	_	TokenRange=12:20
+3	individual	individual	ADJ	ADJ	_	2	amod	_	TokenRange=21:31
+4	epi	_	NOUN	NOUN	_	1	appos	_	TokenRange=32:35
+5	x	_	PUNCT	.	_	6	punct	_	TokenRange=36:37
+6	aposentadoria	aposentadoria	NOUN	NOUN	_	1	appos	_	TokenRange=38:51
+7	especial	especial	ADJ	ADJ	_	6	amod	_	TokenRange=52:60
+8	entenda	entender	VERB	VERB	_	1	acl:relcl	_	TokenRange=61:68
+9	diferencas	_	NOUN	NOUN	_	8	obj	_	TokenRange=69:79
+10	hilario	hilario	NOUN	NOUN	_	9	appos	_	TokenRange=80:87
+11	bocchi	_	NOUN	NOUN	_	10	flat	_	TokenRange=88:94
+12	junior	_	ADJ	ADJ	_	10	amod	_	TokenRange=95:101
+13	esclarece	esclarecer	VERB	VERB	_	1	acl:relcl	_	TokenRange=102:111
+14	uso	uso	NOUN	NOUN	_	13	obj	_	TokenRange=112:115
+15	exclui	excluir	VERB	VERB	_	14	acl:relcl	_	TokenRange=116:122
+16	direito	direito	NOUN	NOUN	_	15	obj	_	TokenRange=123:130
+17	beneficio	beneficio	ADJ	ADJ	_	16	amod	_	TokenRange=131:140
+18	algumas	_	DET	DET	_	19	det	_	TokenRange=141:148
+19	atividades	atividade	NOUN	NOUN	_	13	obj	_	TokenRange=149:159
+20	risco	risco	ADJ	ADJ	_	19	appos	_	TokenRange=160:165
+21	saude	saude	NOUN	NOUN	_	22	amod	_	TokenRange=166:171
+22	integridade	integridade	NOUN	NOUN	_	19	appos	_	TokenRange=172:183
+23	fisica	fisico	ADJ	ADJ	_	22	amod	_	TokenRange=184:190
+24	inerente	inerente	ADJ	ADJ	_	25	amod	_	TokenRange=191:199
+25	exercicio	exercicio	NOUN	NOUN	_	22	appos	_	TokenRange=200:209
+26	profissao	profissao	ADJ	ADJ	_	25	amod	_	TokenRange=210:219
+27	facil	facil	ADJ	ADJ	_	25	amod	_	TokenRange=220:225
+28	provar	provar	VERB	VERB	_	22	acl:relcl	_	TokenRange=226:232
+29	tempo	tempo	NOUN	NOUN	_	28	obj	_	TokenRange=233:238
+30	servico	servico	ADJ	ADJ	_	29	amod	_	TokenRange=239:246
+31	aposentadoria	aposentadoria	NOUN	NOUN	_	29	appos	_	TokenRange=247:260
+32	ainda	ainda	ADV	ADV	_	33	advmod	_	TokenRange=261:266
+33	dificil	dificil	ADJ	ADJ	_	34	amod	_	TokenRange=267:274
+34	trabalho	trabalho	NOUN	NOUN	_	28	nsubj	_	TokenRange=275:283
+35	daqueles	_	X	ADPPRON	_	34	nmod	_	TokenRange=284:292
+36	colocam	colocar	VERB	VERB	_	34	nmod	_	TokenRange=293:300
+37	risco	risco	NOUN	NOUN	_	36	obj	_	TokenRange=301:306
+38	saude	saude	NOUN	NOUN	_	37	flat	_	TokenRange=307:312
+39	trabalhador	trabalhador	ADJ	ADJ	_	38	amod	_	TokenRange=313:324
+40	vezes	vez	NOUN	NOUN	_	41	nmod	_	TokenRange=325:330
+41	empresa	empresa	NOUN	NOUN	_	36	nsubj	_	TokenRange=331:338
+42	documento	documento	NOUN	NOUN	_	44	nsubj	_	TokenRange=339:348
+43	certo	certo	ADV	ADV	_	44	advmod	_	TokenRange=349:354
+44	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=355:358
+45	fornecia	fornecer	VERB	VERB	_	44	ccomp	_	TokenRange=359:367
+46	epi	epi	NOUN	NOUN	_	45	obj	_	SpaceAfter=No|TokenRange=368:371
+

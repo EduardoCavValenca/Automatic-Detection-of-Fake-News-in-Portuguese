@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = plebiscito criar novo pais estados sul 95 sim votacao sim alcancou 95 aprovacao consulta defende separacao rio grande sul santa catarina parana formacao novo pais processo ocorreu ultimo sabado 1 cerca duas 2 mil urnas coordenacao movimento alega 500 mil pessoas participaram votacao novas consultas deverao realizadas 2017 movimento pretende levar proposta onu organizacao nacoes unidas leia
+1	plebiscito	plebiscito	NOUN	NOUN	_	57	nsubj	_	TokenRange=0:10
+2	criar	criar	VERB	VERB	_	1	acl:inf	_	TokenRange=11:16
+3	novo	novo	ADJ	ADJ	_	4	amod	_	TokenRange=17:21
+4	pais	_	NOUN	NOUN	_	2	obj	_	TokenRange=22:26
+5	estados	estado	NOUN	NOUN	_	2	obj	_	TokenRange=27:34
+6	sul	sul	ADJ	ADJ	_	5	amod	_	TokenRange=35:38
+7	95	_	NUM	NUM	NumType=Card	5	appos	_	TokenRange=39:41
+8	sim	sim	ADV	ADV	_	11	advmod	_	TokenRange=42:45
+9	votacao	votacao	NOUN	NOUN	_	2	obj	_	TokenRange=46:53
+10	sim	sim	ADV	ADV	_	11	advmod	_	TokenRange=54:57
+11	alcancou	alcancar	VERB	VERB	_	2	conj	_	TokenRange=58:66
+12	95	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=67:69
+13	aprovacao	aprovacao	NOUN	NOUN	_	11	obj	_	TokenRange=70:79
+14	consulta	consulta	NOUN	NOUN	_	13	appos	_	TokenRange=80:88
+15	defende	defender	VERB	VERB	_	11	parataxis	_	TokenRange=89:96
+16	separacao	separacao	NOUN	NOUN	_	15	obj	_	TokenRange=97:106
+17	rio	rio	NOUN	NOUN	_	16	appos	_	TokenRange=107:110
+18	grande	grande	ADJ	ADJ	_	17	amod	_	TokenRange=111:117
+19	sul	sul	ADJ	ADJ	_	17	amod	_	TokenRange=118:121
+20	santa	santo	ADJ	ADJ	_	21	amod	_	TokenRange=122:127
+21	catarina	catarina	NOUN	NOUN	_	17	appos	_	TokenRange=128:136
+22	parana	parana	ADJ	ADJ	_	21	amod	_	TokenRange=137:143
+23	formacao	formacao	NOUN	NOUN	_	15	appos	_	TokenRange=144:152
+24	novo	novo	ADJ	ADJ	_	25	amod	_	TokenRange=153:157
+25	pais	_	NOUN	NOUN	_	23	appos	_	TokenRange=158:162
+26	processo	processo	NOUN	NOUN	_	23	appos	_	TokenRange=163:171
+27	ocorreu	ocorrer	VERB	VERB	_	15	parataxis	_	TokenRange=172:179
+28	ultimo	_	ADJ	ADJ	_	29	amod	_	TokenRange=180:186
+29	sabado	_	NOUN	NOUN	_	27	nmod	_	TokenRange=187:193
+30	1	_	NUM	NUM	NumType=Card	29	appos	_	TokenRange=194:195
+31	cerca	cerca	ADV	ADV	_	34	advmod	_	TokenRange=196:201
+32	duas	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=202:206
+33	2	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=207:208
+34	mil	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=209:212
+35	urnas	urna	NOUN	NOUN	_	27	nsubj	_	TokenRange=213:218
+36	coordenacao	coordenacao	ADJ	ADJ	_	35	amod	_	TokenRange=219:230
+37	movimento	movimento	NOUN	NOUN	_	38	nsubj	_	TokenRange=231:240
+38	alega	alegar	VERB	VERB	_	27	parataxis	_	TokenRange=241:246
+39	500	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=247:250
+40	mil	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=251:254
+41	pessoas	pessoa	NOUN	NOUN	_	42	nsubj	_	TokenRange=255:262
+42	participaram	participar	VERB	VERB	_	38	ccomp	_	TokenRange=263:275
+43	votacao	votacao	NOUN	NOUN	_	42	obj	_	TokenRange=276:283
+44	novas	novo	ADJ	ADJ	_	45	amod	_	TokenRange=284:289
+45	consultas	consulta	NOUN	NOUN	_	47	nsubj:pass	_	TokenRange=290:299
+46	deverao	dever	AUX	AUX	_	47	aux	_	TokenRange=300:307
+47	realizadas	realizar	VERB	VERB	_	42	parataxis	_	TokenRange=308:318
+48	2017	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=319:323
+49	movimento	movimento	NOUN	NOUN	_	50	nsubj	_	TokenRange=324:333
+50	pretende	pretender	VERB	VERB	_	38	parataxis	_	TokenRange=334:342
+51	levar	levar	VERB	VERB	_	50	xcomp	_	TokenRange=343:348
+52	proposta	_	NOUN	NOUN	_	51	obj	_	TokenRange=349:357
+53	onu	_	NOUN	NOUN	_	52	appos	_	TokenRange=358:361
+54	organizacao	_	ADJ	ADJ	_	55	amod	_	TokenRange=362:373
+55	nacoes	_	NOUN	NOUN	_	52	appos	_	TokenRange=374:380
+56	unidas	unido	ADJ	ADJ	_	55	amod	_	TokenRange=381:387
+57	leia	ler	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=388:392
+

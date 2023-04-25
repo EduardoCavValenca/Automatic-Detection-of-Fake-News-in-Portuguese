@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = entrevista lindbergh diz ronaldo caiado sujo pau galinheiro lindinho ataca ronaldo caiado novamente entrevista tv senado lindbergh soltou cara sujo pau galinheiro tal caiado envolvido corrupcao envolvido carlinhos cachoeira lindbergh usa velha tatica comunista mudar foco assunto principal impeachment dilma alguma denuncia contra senador ronaldo caiado faca orgaos responsaveis
+1	entrevista	entrevista	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	lindbergh	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:20
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=21:24
+4	ronaldo	ronaldo	NOUN	NOUN	_	3	obj	_	TokenRange=25:32
+5	caiado	caiado	ADJ	ADJ	_	4	amod	_	TokenRange=33:39
+6	sujo	sujo	DET	DET	_	7	det	_	TokenRange=40:44
+7	pau	pau	NOUN	NOUN	_	4	appos	_	TokenRange=45:48
+8	galinheiro	galinheiro	NOUN	NOUN	_	7	flat	_	TokenRange=49:59
+9	lindinho	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=60:68
+10	ataca	atacar	VERB	VERB	_	3	conj	_	TokenRange=69:74
+11	ronaldo	ronaldo	NOUN	NOUN	_	10	obj	_	TokenRange=75:82
+12	caiado	caiado	ADJ	ADJ	_	11	amod	_	TokenRange=83:89
+13	novamente	novamente	ADV	ADV	_	10	advmod	_	TokenRange=90:99
+14	entrevista	entrevista	NOUN	NOUN	_	10	obj	_	TokenRange=100:110
+15	tv	_	DET	DET	_	16	det	_	TokenRange=111:113
+16	senado	senado	NOUN	NOUN	_	18	nsubj	_	TokenRange=114:120
+17	lindbergh	_	NOUN	NOUN	_	16	appos	_	TokenRange=121:130
+18	soltou	soltar	VERB	VERB	_	3	parataxis	_	TokenRange=131:137
+19	cara	cara	NOUN	NOUN	_	18	obj	_	TokenRange=138:142
+20	sujo	sujo	ADJ	ADJ	_	19	amod	_	TokenRange=143:147
+21	pau	pau	NOUN	NOUN	_	19	appos	_	TokenRange=148:151
+22	galinheiro	galinheiro	NOUN	NOUN	_	21	flat	_	TokenRange=152:162
+23	tal	_	DET	DET	_	24	det	_	TokenRange=163:166
+24	caiado	caiado	NOUN	NOUN	_	18	nsubj	_	TokenRange=167:173
+25	envolvido	envolver	VERB	VERB	_	24	acl	_	TokenRange=174:183
+26	corrupcao	corrupcao	NOUN	NOUN	_	25	obj	_	TokenRange=184:193
+27	envolvido	envolver	VERB	VERB	_	24	acl	_	TokenRange=194:203
+28	carlinhos	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=204:213
+29	cachoeira	cachoeira	NOUN	NOUN	_	28	flat	_	TokenRange=214:223
+30	lindbergh	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=224:233
+31	usa	usar	VERB	VERB	_	3	parataxis	_	TokenRange=234:237
+32	velha	velho	ADJ	ADJ	_	33	amod	_	TokenRange=238:243
+33	tatica	tatica	NOUN	NOUN	_	31	obj	_	TokenRange=244:250
+34	comunista	comunista	ADJ	ADJ	_	33	amod	_	TokenRange=251:260
+35	mudar	mudar	VERB	VERB	_	31	xcomp	_	TokenRange=261:266
+36	foco	foco	NOUN	NOUN	_	35	obj	_	TokenRange=267:271
+37	assunto	assunto	NOUN	NOUN	_	36	appos	_	TokenRange=272:279
+38	principal	principal	ADJ	ADJ	_	37	amod	_	TokenRange=280:289
+39	impeachment	impeachment	NOUN	NOUN	_	35	obj	_	TokenRange=290:301
+40	dilma	dilma	NOUN	NOUN	_	39	appos	_	TokenRange=302:307
+41	alguma	_	DET	DET	_	42	det	_	TokenRange=308:314
+42	denuncia	denuncia	NOUN	NOUN	_	35	obj	_	TokenRange=315:323
+43	contra	_	ADP	ADP	_	44	case	_	TokenRange=324:330
+44	senador	senador	NOUN	NOUN	_	42	nmod	_	TokenRange=331:338
+45	ronaldo	ronaldo	NOUN	NOUN	_	44	appos	_	TokenRange=339:346
+46	caiado	caiado	ADJ	ADJ	_	44	amod	_	TokenRange=347:353
+47	faca	facar	VERB	VERB	_	3	parataxis	_	TokenRange=354:358
+48	orgaos	orgao	NOUN	NOUN	_	47	obj	_	TokenRange=359:365
+49	responsaveis	responsavel	ADJ	ADJ	_	48	amod	_	SpaceAfter=No|TokenRange=366:378
+

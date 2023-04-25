@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maranhao possui maior proporcao pessoas condicoes pobreza extrema segundo ibge dados 2016 sintese indicadores sociais brasil divulgados nesta sextafeira 15 apresentou panorama condicoes pais referentes trabalho condicoes moradia educacao saneamento basico nesta sextafeira 15 instituto brasileiro geografia estatistica ibge divulgou sintese indicadores sociais analise condicoes vida populacao brasileira busca retratar realidade social pais partir
+1	maranhao	maranhao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	possui	possuir	VERB	VERB	_	0	root	_	TokenRange=9:15
+3	maior	maior	ADJ	ADJ	_	4	amod	_	TokenRange=16:21
+4	proporcao	proporcao	NOUN	NOUN	_	2	obj	_	TokenRange=22:31
+5	pessoas	pessoa	NOUN	NOUN	_	4	appos	_	TokenRange=32:39
+6	condicoes	_	ADJ	ADJ	_	4	amod	_	TokenRange=40:49
+7	pobreza	pobreza	NOUN	NOUN	_	4	appos	_	TokenRange=50:57
+8	extrema	extremo	ADJ	ADJ	_	7	amod	_	TokenRange=58:65
+9	segundo	_	ADP	ADP	_	10	case	_	TokenRange=66:73
+10	ibge	ibge	NOUN	NOUN	_	2	nmod	_	TokenRange=74:78
+11	dados	dado	NOUN	NOUN	_	10	appos	_	TokenRange=79:84
+12	2016	_	NUM	NUM	NumType=Card	11	nmod	_	TokenRange=85:89
+13	sintese	sintese	NOUN	NOUN	_	2	nsubj	_	TokenRange=90:97
+14	indicadores	indicador	NOUN	NOUN	_	13	appos	_	TokenRange=98:109
+15	sociais	social	ADJ	ADJ	_	14	amod	_	TokenRange=110:117
+16	brasil	brasil	NOUN	NOUN	_	14	amod	_	TokenRange=118:124
+17	divulgados	divulgar	VERB	VERB	_	14	acl	_	TokenRange=125:135
+18	nesta	_	ADP	ADP	_	19	case	_	TokenRange=136:141
+19	sextafeira	sextafeira	NOUN	NOUN	_	17	nmod	_	TokenRange=142:152
+20	15	_	NUM	NUM	NumType=Card	19	appos	_	TokenRange=153:155
+21	apresentou	apresentar	VERB	VERB	_	2	parataxis	_	TokenRange=156:166
+22	panorama	panorama	NOUN	NOUN	_	21	obj	_	TokenRange=167:175
+23	condicoes	_	NOUN	NOUN	_	22	appos	_	TokenRange=176:185
+24	pais	_	NOUN	NOUN	_	22	appos	_	TokenRange=186:190
+25	referentes	referente	ADJ	ADJ	_	23	amod	_	TokenRange=191:201
+26	trabalho	trabalho	NOUN	NOUN	_	23	appos	_	TokenRange=202:210
+27	condicoes	_	NOUN	NOUN	_	26	appos	_	TokenRange=211:220
+28	moradia	moradia	NOUN	NOUN	_	23	appos	_	TokenRange=221:228
+29	educacao	educacao	ADJ	ADJ	_	30	amod	_	TokenRange=229:237
+30	saneamento	saneamento	NOUN	NOUN	_	23	appos	_	TokenRange=238:248
+31	basico	basico	ADJ	ADJ	_	30	amod	_	TokenRange=249:255
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=256:261
+33	sextafeira	sextafeira	NOUN	NOUN	_	40	nmod	_	TokenRange=262:272
+34	15	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=273:275
+35	instituto	instituto	NOUN	NOUN	_	40	nsubj	_	TokenRange=276:285
+36	brasileiro	brasileiro	ADJ	ADJ	_	35	amod	_	TokenRange=286:296
+37	geografia	geografia	NOUN	NOUN	_	35	appos	_	TokenRange=297:306
+38	estatistica	estatistico	ADJ	ADJ	_	35	amod	_	TokenRange=307:318
+39	ibge	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=319:323
+40	divulgou	divulgar	VERB	VERB	_	2	parataxis	_	TokenRange=324:332
+41	sintese	sintese	NOUN	NOUN	_	40	obj	_	TokenRange=333:340
+42	indicadores	indicador	NOUN	NOUN	_	41	appos	_	TokenRange=341:352
+43	sociais	social	ADJ	ADJ	_	42	amod	_	TokenRange=353:360
+44	analise	analise	NOUN	NOUN	_	40	parataxis	_	TokenRange=361:368
+45	condicoes	_	NOUN	NOUN	_	44	obj	_	TokenRange=369:378
+46	vida	vida	NOUN	NOUN	_	45	flat	_	TokenRange=379:383
+47	populacao	populacao	NOUN	NOUN	_	49	nsubj	_	TokenRange=384:393
+48	brasileira	brasileiro	ADJ	ADJ	_	47	amod	_	TokenRange=394:404
+49	busca	buscar	VERB	VERB	_	40	parataxis	_	TokenRange=405:410
+50	retratar	retratar	VERB	VERB	_	49	xcomp	_	TokenRange=411:419
+51	realidade	realidade	NOUN	NOUN	_	50	obj	_	TokenRange=420:429
+52	social	social	ADJ	ADJ	_	51	amod	_	TokenRange=430:436
+53	pais	_	NOUN	NOUN	_	51	appos	_	TokenRange=437:441
+54	partir	partir	VERB	VERB	_	50	ccomp	_	SpaceAfter=No|TokenRange=442:448
+

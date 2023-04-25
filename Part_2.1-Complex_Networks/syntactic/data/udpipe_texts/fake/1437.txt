@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maior estatal servicos pais vai demitir 20 mil colaboradores estatal simbolo eficiencia brasil mundo acumula prejuizo ultrapassa r 55 bilhoes ultimos 4 anos empresa brasileira correios ira demitir cerca 25000 colaboradores tentar sanar contas varias cidades pais postos sendo fechados somente 3 primeiros meses 2017 empresa acumula prejuizo meio bilhao reais plano demissao voluntaria lancado expectativa atrair cerca 8 mil funcionarios idade acima 55 anos tempo servico suficiente aposentar agora pouco 55 mil funcionarios aderiram pdv
+1	maior	maior	ADJ	ADJ	_	3	amod	_	TokenRange=0:5
+2	estatal	estatal	ADJ	ADJ	_	3	amod	_	TokenRange=6:13
+3	servicos	servico	NOUN	NOUN	_	6	nsubj	_	TokenRange=14:22
+4	pais	_	NOUN	NOUN	_	3	flat	_	TokenRange=23:27
+5	vai	ir	AUX	AUX	_	6	aux	_	TokenRange=28:31
+6	demitir	demitir	VERB	VERB	_	0	root	_	TokenRange=32:39
+7	20	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=40:42
+8	mil	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=43:46
+9	colaboradores	colaborador	NOUN	NOUN	_	6	obj	_	TokenRange=47:60
+10	estatal	estatal	ADJ	ADJ	_	9	amod	_	TokenRange=61:68
+11	simbolo	simbolo	NOUN	NOUN	_	9	appos	_	TokenRange=69:76
+12	eficiencia	_	NOUN	NOUN	_	9	flat	_	TokenRange=77:87
+13	brasil	brasil	ADJ	ADJ	_	15	amod	_	TokenRange=88:94
+14	mundo	mundo	NOUN	NOUN	_	15	nsubj	_	TokenRange=95:100
+15	acumula	acumular	VERB	VERB	_	6	conj	_	TokenRange=101:108
+16	prejuizo	prejuizo	NOUN	NOUN	_	15	obj	_	TokenRange=109:117
+17	ultrapassa	_	VERB	VERB	_	16	amod	_	TokenRange=118:128
+18	r	r	NOUN	NOUN	_	17	obj	_	TokenRange=129:130
+19	55	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=131:133
+20	bilhoes	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=134:141
+21	ultimos	_	ADJ	ADJ	_	23	amod	_	TokenRange=142:149
+22	4	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=150:151
+23	anos	ano	NOUN	NOUN	_	28	nmod	_	TokenRange=152:156
+24	empresa	empresa	NOUN	NOUN	_	28	nsubj	_	TokenRange=157:164
+25	brasileira	brasileiro	ADJ	ADJ	_	24	amod	_	TokenRange=165:175
+26	correios	correio	NOUN	NOUN	_	24	appos	_	TokenRange=176:184
+27	ira	_	AUX	AUX	_	28	aux	_	TokenRange=185:188
+28	demitir	demitir	VERB	VERB	_	6	conj	_	TokenRange=189:196
+29	cerca	cerca	ADV	ADV	_	30	advmod	_	TokenRange=197:202
+30	25000	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=203:208
+31	colaboradores	colaborador	NOUN	NOUN	_	28	obj	_	TokenRange=209:222
+32	tentar	tentar	VERB	VERB	_	28	ccomp	_	TokenRange=223:229
+33	sanar	sanar	VERB	VERB	_	32	xcomp	_	TokenRange=230:235
+34	contas	conta	NOUN	NOUN	_	33	obj	_	TokenRange=236:242
+35	varias	_	DET	DET	_	36	det	_	TokenRange=243:249
+36	cidades	cidade	NOUN	NOUN	_	33	nmod	_	TokenRange=250:257
+37	pais	_	NOUN	NOUN	_	36	appos	_	TokenRange=258:262
+38	postos	posto	NOUN	NOUN	_	47	nsubj	_	TokenRange=263:269
+39	sendo	ser	AUX	AUX	_	40	aux:pass	_	TokenRange=270:275
+40	fechados	fechar	VERB	VERB	_	38	acl	_	TokenRange=276:284
+41	somente	somente	ADV	ADV	_	42	advmod	_	TokenRange=285:292
+42	3	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=293:294
+43	primeiros	primeiro	ADJ	ADJ	_	44	amod	_	TokenRange=295:304
+44	meses	mês	NOUN	NOUN	_	47	nmod	_	TokenRange=305:310
+45	2017	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=311:315
+46	empresa	empresa	NOUN	NOUN	_	47	nsubj	_	TokenRange=316:323
+47	acumula	acumular	VERB	VERB	_	6	parataxis	_	TokenRange=324:331
+48	prejuizo	prejuizo	NOUN	NOUN	_	47	obj	_	TokenRange=332:340
+49	meio	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=341:345
+50	bilhao	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=346:352
+51	reais	real	NOUN	NOUN	_	48	appos	_	TokenRange=353:358
+52	plano	plano	NOUN	NOUN	_	53	amod	_	TokenRange=359:364
+53	demissao	demissao	NOUN	NOUN	_	47	nsubj	_	TokenRange=365:373
+54	voluntaria	voluntaria	NOUN	NOUN	_	53	amod	_	TokenRange=374:384
+55	lancado	lancar	VERB	VERB	_	56	acl	_	TokenRange=385:392
+56	expectativa	expectativa	NOUN	NOUN	_	53	appos	_	TokenRange=393:404
+57	atrair	atrair	VERB	VERB	_	56	acl:inf	_	TokenRange=405:411
+58	cerca	cerca	ADV	ADV	_	60	advmod	_	TokenRange=412:417
+59	8	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=418:419
+60	mil	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=420:423
+61	funcionarios	funcionario	NOUN	NOUN	_	57	obj	_	TokenRange=424:436
+62	idade	idade	NOUN	NOUN	_	61	appos	_	TokenRange=437:442
+63	acima	acima	ADV	ADV	_	60	advmod	_	TokenRange=443:448
+64	55	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=449:451
+65	anos	ano	NOUN	NOUN	_	62	appos	_	TokenRange=452:456
+66	tempo	tempo	NOUN	NOUN	_	61	appos	_	TokenRange=457:462
+67	servico	servico	NOUN	NOUN	_	66	appos	_	TokenRange=463:470
+68	suficiente	suficiente	ADJ	ADJ	_	67	amod	_	TokenRange=471:481
+69	aposentar	aposentar	VERB	VERB	_	75	csubj	_	TokenRange=482:491
+70	agora	agora	ADV	ADV	_	75	advmod	_	TokenRange=492:497
+71	pouco	pouco	ADV	ADV	_	73	advmod	_	TokenRange=498:503
+72	55	_	NUM	NUM	NumType=Card	73	nummod	_	TokenRange=504:506
+73	mil	_	NUM	NUM	NumType=Card	74	nummod	_	TokenRange=507:510
+74	funcionarios	funcionario	NOUN	NOUN	_	75	nsubj	_	TokenRange=511:523
+75	aderiram	aderir	VERB	VERB	_	47	parataxis	_	TokenRange=524:532
+76	pdv	pdv	NOUN	NOUN	_	75	obj	_	SpaceAfter=No|TokenRange=533:536
+

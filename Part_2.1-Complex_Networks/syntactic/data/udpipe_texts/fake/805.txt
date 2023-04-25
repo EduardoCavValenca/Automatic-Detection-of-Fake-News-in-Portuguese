@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joesley xingando supremo precisamos organizar stf gente grampeia fpd joesley batista falando sobre exministro petista surtou causa ze porque sabe entregar ze entrega supremo diz joesley audio referindo jose eduardo cardozo exministro justica veja empresario arrogante conivente crime refere ministros supremo fazemos pra grampear fdp minuto 130 video
+1	joesley	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	xingando	xingar	VERB	VERB	_	1	acl	_	TokenRange=8:16
+3	supremo	supremo	NOUN	NOUN	_	2	obj	_	TokenRange=17:24
+4	precisamos	precisar	VERB	VERB	_	25	ccomp	_	TokenRange=25:35
+5	organizar	organizar	VERB	VERB	_	4	xcomp	_	TokenRange=36:45
+6	stf	_	NOUN	NOUN	_	5	obj	_	TokenRange=46:49
+7	gente	gente	NOUN	NOUN	_	5	obj	_	TokenRange=50:55
+8	grampeia	grampeio	ADJ	ADJ	_	7	amod	_	TokenRange=56:64
+9	fpd	_	NOUN	NOUN	_	7	appos	_	TokenRange=65:68
+10	joesley	_	NOUN	NOUN	_	7	appos	_	TokenRange=69:76
+11	batista	batista	NOUN	NOUN	_	10	flat	_	TokenRange=77:84
+12	falando	falar	VERB	VERB	_	10	acl	_	TokenRange=85:92
+13	sobre	_	ADP	ADP	_	14	case	_	TokenRange=93:98
+14	exministro	exministro	NOUN	NOUN	_	12	nmod	_	TokenRange=99:109
+15	petista	petista	NOUN	NOUN	_	14	amod	_	TokenRange=110:117
+16	surtou	surtar	VERB	VERB	_	12	conj	_	TokenRange=118:124
+17	causa	causa	NOUN	NOUN	_	16	obj	_	TokenRange=125:130
+18	ze	_	PRON	PRON	_	17	appos	_	TokenRange=131:133
+19	porque	_	CCONJ	CONJ	_	20	mark	_	TokenRange=134:140
+20	sabe	saber	VERB	VERB	_	16	advcl	_	TokenRange=141:145
+21	entregar	entregar	VERB	VERB	_	20	xcomp	_	TokenRange=146:154
+22	ze	_	PRON	PRON	_	23	obj	_	TokenRange=155:157
+23	entrega	entrega	VERB	VERB	_	21	ccomp	_	TokenRange=158:165
+24	supremo	supremo	ADJ	ADJ	_	23	amod	_	TokenRange=166:173
+25	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=174:177
+26	joesley	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=178:185
+27	audio	audio	NOUN	NOUN	_	26	appos	_	TokenRange=186:191
+28	referindo	referir	VERB	VERB	_	27	acl	_	TokenRange=192:201
+29	jose	jose	NOUN	NOUN	_	28	obj	_	TokenRange=202:206
+30	eduardo	eduardo	ADJ	ADJ	_	29	flat	_	TokenRange=207:214
+31	cardozo	cardozo	NOUN	NOUN	_	29	flat	_	TokenRange=215:222
+32	exministro	exministro	NOUN	NOUN	_	29	appos	_	TokenRange=223:233
+33	justica	justico	ADJ	ADJ	_	32	amod	_	TokenRange=234:241
+34	veja	ver	VERB	VERB	_	28	parataxis	_	TokenRange=242:246
+35	empresario	empresario	NOUN	NOUN	_	34	obj	_	TokenRange=247:257
+36	arrogante	arrogante	ADJ	ADJ	_	35	amod	_	TokenRange=258:267
+37	conivente	conivente	ADJ	ADJ	_	38	amod	_	TokenRange=268:277
+38	crime	crime	NOUN	NOUN	_	35	appos	_	TokenRange=278:283
+39	refere	referir	VERB	VERB	_	34	conj	_	TokenRange=284:290
+40	ministros	ministro	NOUN	NOUN	_	39	obj	_	TokenRange=291:300
+41	supremo	supremo	ADJ	ADJ	_	40	amod	_	TokenRange=301:308
+42	fazemos	fazer	VERB	VERB	_	34	conj	_	TokenRange=309:316
+43	pra	_	ADP	ADP	_	44	mark	_	TokenRange=317:320
+44	grampear	grampear	VERB	VERB	_	42	nmod	_	TokenRange=321:329
+45	fdp	_	NOUN	NOUN	_	44	obj	_	TokenRange=330:333
+46	minuto	minuto	NOUN	NOUN	_	44	obj	_	TokenRange=334:340
+47	130	_	NUM	NUM	NumType=Card	48	appos	_	TokenRange=341:344
+48	video	video	NOUN	NOUN	_	44	parataxis	_	SpaceAfter=No|TokenRange=345:350
+

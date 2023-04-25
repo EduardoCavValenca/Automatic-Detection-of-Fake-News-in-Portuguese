@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = passageira voo hostiliza eduardo cunha aplaudida roubou brasil inteiro apodreca cadeia exdeputado eduardo cunha esculachado durante voo rio janeiro paulo nesta segunda 19 passageira filmava cunha preparando guardar bagagens comecou hostilizacao senhor eduardo cunha obrigado roubar brasil inteiro todos aqui gratos senhor fez obrigada espero senhor apodreca cadeia disse passageiros voo aplaudiram moca eduardo cunha ficou imovel
+1	passageira	passageiro	NOUN	NOUN	_	0	root	_	TokenRange=0:10
+2	voo	voo	NOUN	NOUN	_	1	appos	_	TokenRange=11:14
+3	hostiliza	hostiliza	NOUN	NOUN	_	1	appos	_	TokenRange=15:24
+4	eduardo	eduardo	NOUN	NOUN	_	7	nsubj	_	TokenRange=25:32
+5	cunha	_	NOUN	NOUN	_	4	flat	_	TokenRange=33:38
+6	aplaudida	aplaudido	ADJ	ADJ	_	4	amod	_	TokenRange=39:48
+7	roubou	roubar	VERB	VERB	_	1	acl:relcl	_	TokenRange=49:55
+8	brasil	brasil	NOUN	NOUN	_	7	obj	_	TokenRange=56:62
+9	inteiro	inteiro	ADJ	ADJ	_	8	amod	_	TokenRange=63:70
+10	apodreca	apodreco	NOUN	NOUN	_	11	amod	_	TokenRange=71:79
+11	cadeia	cadeia	NOUN	NOUN	_	8	appos	_	TokenRange=80:86
+12	exdeputado	exdeputado	NOUN	NOUN	_	11	amod	_	TokenRange=87:97
+13	eduardo	eduardo	NOUN	NOUN	_	11	appos	_	TokenRange=98:105
+14	cunha	_	NOUN	NOUN	_	13	flat	_	TokenRange=106:111
+15	esculachado	esculachar	VERB	VERB	_	11	acl	_	TokenRange=112:123
+16	durante	_	ADP	ADP	_	17	case	_	TokenRange=124:131
+17	voo	voo	NOUN	NOUN	_	15	nmod	_	TokenRange=132:135
+18	rio	_	NOUN	NOUN	_	17	appos	_	TokenRange=136:139
+19	janeiro	_	PROPN	PNOUN	_	18	appos	_	TokenRange=140:147
+20	paulo	_	NOUN	NOUN	_	18	flat	_	TokenRange=148:153
+21	nesta	_	ADP	ADP	_	24	case	_	TokenRange=154:159
+22	segunda	_	ADJ	ADJ	_	24	amod	_	TokenRange=160:167
+23	19	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=168:170
+24	passageira	passageiro	NOUN	NOUN	_	25	nmod	_	TokenRange=171:181
+25	filmava	filmar	VERB	VERB	_	7	conj	_	TokenRange=182:189
+26	cunha	cunha	NOUN	NOUN	_	25	obj	_	TokenRange=190:195
+27	preparando	preparar	VERB	VERB	_	25	acl	_	TokenRange=196:206
+28	guardar	guardar	VERB	VERB	_	27	xcomp	_	TokenRange=207:214
+29	bagagens	bagagem	NOUN	NOUN	_	28	obj	_	TokenRange=215:223
+30	comecou	comecar	VERB	VERB	_	25	parataxis	_	TokenRange=224:231
+31	hostilizacao	hostilizacao	ADJ	ADJ	_	32	amod	_	TokenRange=232:244
+32	senhor	senhor	NOUN	NOUN	_	30	nsubj	_	TokenRange=245:251
+33	eduardo	_	NOUN	NOUN	_	32	appos	_	TokenRange=252:259
+34	cunha	_	ADJ	ADJ	_	33	flat	_	TokenRange=260:265
+35	obrigado	obrigado	ADJ	ADJ	_	32	amod	_	TokenRange=266:274
+36	roubar	roubar	VERB	VERB	_	32	acl:inf	_	TokenRange=275:281
+37	brasil	brasil	NOUN	NOUN	_	36	obj	_	TokenRange=282:288
+38	inteiro	inteiro	ADJ	ADJ	_	37	amod	_	TokenRange=289:296
+39	todos	_	PRON	PRON	_	43	nsubj	_	TokenRange=297:302
+40	aqui	aqui	ADV	ADV	_	43	advmod	_	TokenRange=303:307
+41	gratos	grato	ADJ	ADJ	_	42	amod	_	TokenRange=308:314
+42	senhor	senhor	NOUN	NOUN	_	43	nsubj	_	TokenRange=315:321
+43	fez	fazer	VERB	VERB	_	36	parataxis	_	TokenRange=322:325
+44	obrigada	obrigado	ADJ	ADJ	_	43	xcomp	_	TokenRange=326:334
+45	espero	esperar	VERB	VERB	_	43	parataxis	_	TokenRange=335:341
+46	senhor	senhor	NOUN	NOUN	_	45	obj	_	TokenRange=342:348
+47	apodreca	apodreco	ADJ	ADJ	_	46	amod	_	TokenRange=349:357
+48	cadeia	cadeia	NOUN	NOUN	_	46	flat	_	TokenRange=358:364
+49	disse	dizer	VERB	VERB	_	43	parataxis	_	TokenRange=365:370
+50	passageiros	passageiro	NOUN	NOUN	_	49	nsubj	_	TokenRange=371:382
+51	voo	voo	NOUN	NOUN	_	52	nsubj	_	TokenRange=383:386
+52	aplaudiram	aplaudir	VERB	VERB	_	50	acl:relcl	_	TokenRange=387:397
+53	moca	moca	NOUN	NOUN	_	52	obj	_	TokenRange=398:402
+54	eduardo	eduardo	PROPN	PNOUN	_	56	nsubj	_	TokenRange=403:410
+55	cunha	_	PROPN	NOUN	_	54	flat	_	TokenRange=411:416
+56	ficou	ficar	VERB	VERB	_	49	ccomp	_	TokenRange=417:422
+57	imovel	imovel	ADJ	ADJ	_	56	xcomp	_	SpaceAfter=No|TokenRange=423:429
+

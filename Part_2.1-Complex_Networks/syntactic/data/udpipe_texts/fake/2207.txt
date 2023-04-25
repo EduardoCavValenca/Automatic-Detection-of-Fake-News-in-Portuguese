@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rr soares igreja pagar imposto coisa demoniaca viva eduardo cunha lutamos muita gente lutou conosco deputado eduardo cunha cunha votou conseguiu livrar daquela cobranca exdruxula demoniaca safada nome jesus disse missionario orem porque digno completou rr soares confira video abaixo
+1	rr	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:2
+2	soares	_	ADJ	ADJ	_	1	amod	_	TokenRange=3:9
+3	igreja	igreja	NOUN	NOUN	_	1	flat	_	TokenRange=10:16
+4	pagar	pagar	VERB	VERB	_	1	acl:relcl	_	TokenRange=17:22
+5	imposto	_	ADJ	ADJ	_	6	amod	_	TokenRange=23:30
+6	coisa	coisa	NOUN	NOUN	_	4	obj	_	TokenRange=31:36
+7	demoniaca	demoniaco	ADJ	ADJ	_	6	amod	_	TokenRange=37:46
+8	viva	vivo	ADJ	ADJ	_	6	amod	_	TokenRange=47:51
+9	eduardo	_	NOUN	NOUN	_	8	appos	_	TokenRange=52:59
+10	cunha	_	PROPN	PNOUN	_	9	flat	_	TokenRange=60:65
+11	lutamos	lutar	VERB	VERB	_	0	root	_	TokenRange=66:73
+12	muita	_	DET	DET	_	13	det	_	TokenRange=74:79
+13	gente	gente	NOUN	NOUN	_	11	obj	_	TokenRange=80:85
+14	lutou	lutar	VERB	VERB	_	11	parataxis	_	TokenRange=86:91
+15	conosco	_	DET	DET	_	16	det	_	TokenRange=92:99
+16	deputado	deputado	NOUN	NOUN	_	14	nsubj	_	TokenRange=100:108
+17	eduardo	eduardo	NOUN	NOUN	_	16	appos	_	TokenRange=109:116
+18	cunha	cunha	NOUN	NOUN	_	17	flat	_	TokenRange=117:122
+19	cunha	cunha	NOUN	NOUN	_	17	flat	_	TokenRange=123:128
+20	votou	votar	VERB	VERB	_	14	conj	_	TokenRange=129:134
+21	conseguiu	conseguir	VERB	VERB	_	20	xcomp	_	TokenRange=135:144
+22	livrar	livrar	VERB	VERB	_	21	xcomp	_	TokenRange=145:151
+23	daquela	_	ADP	ADP	_	24	case	_	TokenRange=152:159
+24	cobranca	cobranca	NOUN	NOUN	_	22	nmod	_	TokenRange=160:168
+25	exdruxula	exdruxula	NOUN	NOUN	_	22	obj	_	TokenRange=169:178
+26	demoniaca	demoniaco	ADJ	ADJ	_	25	amod	_	TokenRange=179:188
+27	safada	safar	ADJ	ADJ	_	28	amod	_	TokenRange=189:195
+28	nome	nome	NOUN	NOUN	_	30	nsubj	_	TokenRange=196:200
+29	jesus	jesus	NOUN	NOUN	_	28	flat	_	TokenRange=201:206
+30	disse	dizer	VERB	VERB	_	21	conj	_	TokenRange=207:212
+31	missionario	missionario	NOUN	NOUN	_	30	obj	_	TokenRange=213:224
+32	orem	_	NOUN	NOUN	_	31	appos	_	TokenRange=225:229
+33	porque	_	CCONJ	CONJ	_	35	mark	_	TokenRange=230:236
+34	digno	digno	ADJ	ADJ	_	35	nsubj	_	TokenRange=237:242
+35	completou	completar	VERB	VERB	_	30	advcl	_	TokenRange=243:252
+36	rr	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=253:255
+37	soares	_	NOUN	NOUN	_	36	flat	_	TokenRange=256:262
+38	confira	conferir	VERB	VERB	_	30	parataxis	_	TokenRange=263:270
+39	video	video	NOUN	NOUN	_	38	obj	_	TokenRange=271:276
+40	abaixo	abaixo	ADV	ADV	_	38	advmod	_	SpaceAfter=No|TokenRange=277:283
+

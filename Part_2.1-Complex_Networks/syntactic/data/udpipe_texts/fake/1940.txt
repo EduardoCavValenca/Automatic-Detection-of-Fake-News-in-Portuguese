@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = angelica revela defeitos marido chatinho solta pum angelica luciano huck palco programa esquenta tv globo revelaram detalhes intimos casamento dura 12 anos cerimonias angelica aproveitou momento entregar podres luciano gostoso maravilhoso vezes meio chatinho trabalho amo solta pum disse angelica luciano huck entrou brincadeira jogou lenha fogueira linda loira inteligente gata talentosa gente fina parceira amiga mae solta pum brava bom sentido faz vida melhor ultimos 12 anos disse
+1	angelica	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	revela	revelar	VERB	VERB	_	69	ccomp	_	TokenRange=9:15
+3	defeitos	defeito	NOUN	NOUN	_	2	obj	_	TokenRange=16:24
+4	marido	marido	NOUN	NOUN	_	3	appos	_	TokenRange=25:31
+5	chatinho	chatinho	NOUN	NOUN	_	3	appos	_	TokenRange=32:40
+6	solta	solto	NOUN	NOUN	_	3	amod	_	TokenRange=41:46
+7	pum	_	X	NOUN	_	8	flat	_	TokenRange=47:50
+8	angelica	_	NOUN	NOUN	_	3	appos	_	TokenRange=51:59
+9	luciano	luciano	NOUN	NOUN	_	8	appos	_	TokenRange=60:67
+10	huck	_	NOUN	NOUN	_	9	flat	_	TokenRange=68:72
+11	palco	palco	NOUN	NOUN	_	3	appos	_	TokenRange=73:78
+12	programa	programa	NOUN	NOUN	_	11	appos	_	TokenRange=79:87
+13	esquenta	esquento	ADJ	ADJ	_	12	amod	_	TokenRange=88:96
+14	tv	_	NOUN	NOUN	_	12	appos	_	TokenRange=97:99
+15	globo	globo	NOUN	NOUN	_	14	flat	_	TokenRange=100:105
+16	revelaram	revelar	VERB	VERB	_	2	parataxis	_	TokenRange=106:115
+17	detalhes	detalhe	NOUN	NOUN	_	16	obj	_	TokenRange=116:124
+18	intimos	intimo	ADJ	ADJ	_	17	amod	_	TokenRange=125:132
+19	casamento	casamento	NOUN	NOUN	_	17	appos	_	TokenRange=133:142
+20	dura	durar	VERB	VERB	_	17	acl:relcl	_	TokenRange=143:147
+21	12	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=148:150
+22	anos	ano	NOUN	NOUN	_	20	obj	_	TokenRange=151:155
+23	cerimonias	cerimonia	NOUN	NOUN	_	25	obj	_	TokenRange=156:166
+24	angelica	angelico	ADJ	ADJ	_	23	amod	_	TokenRange=167:175
+25	aproveitou	aproveitar	VERB	VERB	_	16	parataxis	_	TokenRange=176:186
+26	momento	momento	NOUN	NOUN	_	25	obj	_	TokenRange=187:194
+27	entregar	entregar	VERB	VERB	_	25	parataxis	_	TokenRange=195:203
+28	podres	podre	NOUN	NOUN	_	27	obj	_	TokenRange=204:210
+29	luciano	luciano	NOUN	NOUN	_	28	amod	_	TokenRange=211:218
+30	gostoso	gostoso	ADJ	ADJ	_	28	amod	_	TokenRange=219:226
+31	maravilhoso	maravilhoso	ADJ	ADJ	_	32	amod	_	TokenRange=227:238
+32	vezes	vez	NOUN	NOUN	_	27	nmod	_	TokenRange=239:244
+33	meio	meio	NOUN	NOUN	_	34	advmod	_	TokenRange=245:249
+34	chatinho	chatinho	NOUN	NOUN	_	32	appos	_	TokenRange=250:258
+35	trabalho	trabalho	NOUN	NOUN	_	34	appos	_	TokenRange=259:267
+36	amo	amo	NOUN	NOUN	_	34	appos	_	TokenRange=268:271
+37	solta	solto	ADJ	ADJ	_	36	amod	_	TokenRange=272:277
+38	pum	_	X	ADP	_	39	mark	_	TokenRange=278:281
+39	disse	dizer	VERB	VERB	_	36	acl:relcl	_	TokenRange=282:287
+40	angelica	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=288:296
+41	luciano	luciano	NOUN	NOUN	_	40	appos	_	TokenRange=297:304
+42	huck	huck	NOUN	NOUN	_	41	flat	_	TokenRange=305:309
+43	entrou	entrar	VERB	VERB	_	39	ccomp	_	TokenRange=310:316
+44	brincadeira	brincadeira	NOUN	NOUN	_	43	obj	_	TokenRange=317:328
+45	jogou	jogar	VERB	VERB	_	43	parataxis	_	TokenRange=329:334
+46	lenha	lenha	NOUN	NOUN	_	43	obj	_	TokenRange=335:340
+47	fogueira	fogueira	NOUN	NOUN	_	43	obj	_	TokenRange=341:349
+48	linda	lindo	ADJ	ADJ	_	51	amod	_	TokenRange=350:355
+49	loira	loiro	NOUN	NOUN	_	51	amod	_	TokenRange=356:361
+50	inteligente	inteligente	ADJ	ADJ	_	51	amod	_	TokenRange=362:373
+51	gata	gata	NOUN	NOUN	_	46	appos	_	TokenRange=374:378
+52	talentosa	talentoso	ADJ	ADJ	_	53	amod	_	TokenRange=379:388
+53	gente	gente	NOUN	NOUN	_	51	appos	_	TokenRange=389:394
+54	fina	fino	ADJ	ADJ	_	53	amod	_	TokenRange=395:399
+55	parceira	parceiro	ADJ	ADJ	_	51	amod	_	TokenRange=400:408
+56	amiga	amigo	ADJ	ADJ	_	53	amod	_	TokenRange=409:414
+57	mae	mae	NOUN	NOUN	_	63	nsubj	_	TokenRange=415:418
+58	solta	solto	ADJ	ADJ	_	57	amod	_	TokenRange=419:424
+59	pum	_	X	ADP	_	62	case	_	TokenRange=425:428
+60	brava	bravo	ADJ	ADJ	_	62	amod	_	TokenRange=429:434
+61	bom	bom	ADJ	ADJ	_	62	amod	_	TokenRange=435:438
+62	sentido	sentido	NOUN	NOUN	_	63	nsubj	_	TokenRange=439:446
+63	faz	fazer	VERB	VERB	_	69	ccomp	_	TokenRange=447:450
+64	vida	vida	NOUN	NOUN	_	63	obj	_	TokenRange=451:455
+65	melhor	melhor	ADJ	ADJ	_	64	amod	_	TokenRange=456:462
+66	ultimos	_	ADJ	ADJ	_	68	amod	_	TokenRange=463:470
+67	12	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=471:473
+68	anos	ano	NOUN	NOUN	_	63	nmod	_	TokenRange=474:478
+69	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=479:484
+

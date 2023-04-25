@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministerio publico federal mpf brasilia denunciou expresidente luiz inacio lula silva exministro gilberto carvalho cinco pessoas venda medida provisoria 2009 setor automotivo envolvidos acusados corrupcao elaboracao edicao mp 471 prorrogou incentivos fiscais montadoras instaladas norte nordeste centrooeste caso revelado estado outubro 2015 investigado operacao zelotes denuncia enviada 10 vara justica federal brasilia procuradores republica frederico paiva hebert mesquita sustentam representantes montadoras prometeram pagamento vantagens indevidas intermediarios esquema agentes politicos lula carvalho marcondes mautoni empreendimentos empresa lobista mauro marcondes machado representava caoa hyundai mmc automotores mitsubishi brasil ofertado r
+1	ministerio	ministerio	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:10
+2	publico	publico	ADJ	ADJ	_	1	amod	_	TokenRange=11:18
+3	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=19:26
+4	mpf	_	NOUN	NOUN	_	1	appos	_	TokenRange=27:30
+5	brasilia	brasilia	NOUN	NOUN	_	4	flat	_	TokenRange=31:39
+6	denunciou	denunciar	VERB	VERB	_	0	root	_	TokenRange=40:49
+7	expresidente	expresidente	NOUN	NOUN	_	6	obj	_	TokenRange=50:62
+8	luiz	luiz	ADJ	ADJ	_	7	amod	_	TokenRange=63:67
+9	inacio	_	NOUN	NOUN	_	7	appos	_	TokenRange=68:74
+10	lula	_	NOUN	NOUN	_	7	appos	_	TokenRange=75:79
+11	silva	silva	NOUN	NOUN	_	9	flat	_	TokenRange=80:85
+12	exministro	exministro	NOUN	NOUN	_	6	obj	_	TokenRange=86:96
+13	gilberto	gilberto	NOUN	NOUN	_	12	appos	_	TokenRange=97:105
+14	carvalho	carvalho	NOUN	NOUN	_	13	flat	_	TokenRange=106:114
+15	cinco	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=115:120
+16	pessoas	pessoa	NOUN	NOUN	_	6	obj	_	TokenRange=121:128
+17	venda	venda	VERB	VERB	_	6	parataxis	_	TokenRange=129:134
+18	medida	medida	NOUN	NOUN	_	17	obj	_	TokenRange=135:141
+19	provisoria	provisorio	ADJ	ADJ	_	18	amod	_	TokenRange=142:152
+20	2009	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=153:157
+21	setor	setor	NOUN	NOUN	_	18	appos	_	TokenRange=158:163
+22	automotivo	automotivo	ADJ	ADJ	_	21	amod	_	TokenRange=164:174
+23	envolvidos	envolvido	ADJ	ADJ	_	21	amod	_	TokenRange=175:185
+24	acusados	acusar	VERB	VERB	_	21	acl	_	TokenRange=186:194
+25	corrupcao	corrupcao	NOUN	NOUN	_	24	amod	_	TokenRange=195:204
+26	elaboracao	_	ADJ	ADJ	_	27	amod	_	TokenRange=205:215
+27	edicao	edicao	NOUN	NOUN	_	24	nsubj	_	TokenRange=216:222
+28	mp	_	PROPN	PNOUN	_	27	appos	_	TokenRange=223:225
+29	471	_	NUM	NUM	NumType=Card	28	appos	_	TokenRange=226:229
+30	prorrogou	prorrogar	VERB	VERB	_	6	parataxis	_	TokenRange=230:239
+31	incentivos	incentivo	NOUN	NOUN	_	30	obj	_	TokenRange=240:250
+32	fiscais	fiscal	ADJ	ADJ	_	31	amod	_	TokenRange=251:258
+33	montadoras	montador	ADJ	ADJ	_	31	amod	_	TokenRange=259:269
+34	instaladas	instalado	ADJ	ADJ	_	31	amod	_	TokenRange=270:280
+35	norte	norte	NOUN	NOUN	_	36	amod	_	TokenRange=281:286
+36	nordeste	nordeste	ADJ	ADJ	_	31	amod	_	TokenRange=287:295
+37	centrooeste	_	ADJ	NOUN	_	38	amod	_	TokenRange=296:307
+38	caso	caso	NOUN	NOUN	_	30	nmod	_	TokenRange=308:312
+39	revelado	revelar	ADJ	ADJ	_	38	acl	_	TokenRange=313:321
+40	estado	estado	NOUN	NOUN	_	38	appos	_	TokenRange=322:328
+41	outubro	_	PROPN	PNOUN	_	40	appos	_	TokenRange=329:336
+42	2015	_	NUM	NUM	NumType=Card	41	nmod	_	TokenRange=337:341
+43	investigado	investigar	VERB	VERB	_	1	acl	_	TokenRange=342:353
+44	operacao	operacao	NOUN	NOUN	_	43	obj	_	TokenRange=354:362
+45	zelotes	zelote	ADJ	ADJ	_	46	amod	_	TokenRange=363:370
+46	denuncia	denuncia	NOUN	NOUN	_	43	nsubj	_	TokenRange=371:379
+47	enviada	enviar	VERB	VERB	_	46	acl	_	TokenRange=380:387
+48	10	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=388:390
+49	vara	vara	NOUN	NOUN	_	47	nmod	_	TokenRange=391:395
+50	justica	_	NOUN	NOUN	_	49	appos	_	TokenRange=396:403
+51	federal	federal	ADJ	ADJ	_	50	amod	_	TokenRange=404:411
+52	brasilia	brasilia	ADJ	ADJ	_	53	amod	_	TokenRange=412:420
+53	procuradores	procurador	NOUN	NOUN	_	59	nsubj	_	TokenRange=421:433
+54	republica	republico	ADJ	ADJ	_	53	amod	_	TokenRange=434:443
+55	frederico	frederico	NOUN	NOUN	_	53	appos	_	TokenRange=444:453
+56	paiva	paiva	NOUN	NOUN	_	53	flat	_	TokenRange=454:459
+57	hebert	_	NOUN	NOUN	_	53	appos	_	TokenRange=460:466
+58	mesquita	_	NOUN	NOUN	_	57	flat	_	TokenRange=467:475
+59	sustentam	sustentar	VERB	VERB	_	6	parataxis	_	TokenRange=476:485
+60	representantes	representante	NOUN	NOUN	_	59	obj	_	TokenRange=486:500
+61	montadoras	montador	ADJ	ADJ	_	60	amod	_	TokenRange=501:511
+62	prometeram	prometer	VERB	VERB	_	59	parataxis	_	TokenRange=512:522
+63	pagamento	pagamento	NOUN	NOUN	_	62	obj	_	TokenRange=523:532
+64	vantagens	vantagem	NOUN	NOUN	_	63	appos	_	TokenRange=533:542
+65	indevidas	indevido	ADJ	ADJ	_	64	amod	_	TokenRange=543:552
+66	intermediarios	intermediario	ADJ	NOUN	_	63	amod	_	TokenRange=553:567
+67	esquema	esquema	NOUN	NOUN	_	63	appos	_	TokenRange=568:575
+68	agentes	agente	NOUN	NOUN	_	63	appos	_	TokenRange=576:583
+69	politicos	politico	ADJ	ADJ	_	68	amod	_	TokenRange=584:593
+70	lula	lula	NOUN	NOUN	_	68	appos	_	TokenRange=594:598
+71	carvalho	carvalho	NOUN	NOUN	_	68	flat	_	TokenRange=599:607
+72	marcondes	marconde	ADJ	ADJ	_	68	amod	_	TokenRange=608:617
+73	mautoni	_	ADJ	ADJ	_	68	amod	_	TokenRange=618:625
+74	empreendimentos	empreendimento	NOUN	NOUN	_	68	appos	_	TokenRange=626:641
+75	empresa	empresa	NOUN	NOUN	_	80	nsubj	_	TokenRange=642:649
+76	lobista	lobista	ADJ	ADJ	_	75	amod	_	TokenRange=650:657
+77	mauro	mauro	NOUN	NOUN	_	75	appos	_	TokenRange=658:663
+78	marcondes	marconde	NOUN	NOUN	_	77	flat	_	TokenRange=664:673
+79	machado	machado	ADJ	ADJ	_	77	amod	_	TokenRange=674:681
+80	representava	representar	VERB	VERB	_	62	parataxis	_	TokenRange=682:694
+81	caoa	caoa	NOUN	NOUN	_	80	obj	_	TokenRange=695:699
+82	hyundai	_	NOUN	NOUN	_	80	obj	_	TokenRange=700:707
+83	mmc	_	X	X	_	82	flat	_	TokenRange=708:711
+84	automotores	automotor	NOUN	NOUN	_	82	flat	_	TokenRange=712:723
+85	mitsubishi	_	NOUN	NOUN	_	82	appos	_	TokenRange=724:734
+86	brasil	brasil	ADJ	ADJ	_	85	flat	_	TokenRange=735:741
+87	ofertado	ofertar	VERB	VERB	_	80	acl	_	TokenRange=742:750
+88	r	_	PUNCT	.	_	80	punct	_	SpaceAfter=No|TokenRange=751:752
+

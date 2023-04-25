@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video mostra cupula vaticano adorando lucifer cristo filho voltou inferno portal americano abc religion news assustou mundo divulgar conteudo cantico usado celebracao vaticano todas comunidades religiosas assustadas membros propria religiao catolica jamais imaginavam conteudo dessas cancoes disse patrick swartz especialista latim video abaixo 2014 somente agora divulgado redes sociais filmagens traducao consta legenda feita latim portugues
+1	video	video	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	cupula	cupula	NOUN	NOUN	_	2	obj	_	TokenRange=13:19
+4	vaticano	vaticano	ADJ	ADJ	_	3	amod	_	TokenRange=20:28
+5	adorando	adorar	VERB	VERB	_	3	acl	_	TokenRange=29:37
+6	lucifer	lucifer	NOUN	NOUN	_	5	obj	_	TokenRange=38:45
+7	cristo	cristo	NOUN	NOUN	_	10	amod	_	TokenRange=46:52
+8	filho	filho	NOUN	NOUN	_	10	nsubj	_	TokenRange=53:58
+9	voltou	voltar	AUX	VERB	_	10	cop	_	TokenRange=59:65
+10	inferno	inferno	NOUN	NOUN	_	2	parataxis	_	TokenRange=66:73
+11	portal	portal	NOUN	NOUN	_	10	appos	_	TokenRange=74:80
+12	americano	americano	ADJ	ADJ	_	11	amod	_	TokenRange=81:90
+13	abc	_	NOUN	NOUN	_	11	appos	_	TokenRange=91:94
+14	religion	_	NOUN	NOUN	_	11	appos	_	TokenRange=95:103
+15	news	_	X	NOUN	_	13	flat	_	TokenRange=104:108
+16	assustou	assustar	VERB	VERB	_	2	parataxis	_	TokenRange=109:117
+17	mundo	mundo	NOUN	NOUN	_	16	obj	_	TokenRange=118:123
+18	divulgar	divulgar	VERB	VERB	_	16	ccomp	_	TokenRange=124:132
+19	conteudo	conteudo	NOUN	NOUN	_	18	obj	_	TokenRange=133:141
+20	cantico	cantico	ADJ	ADJ	_	19	amod	_	TokenRange=142:149
+21	usado	usar	VERB	VERB	_	19	acl	_	TokenRange=150:155
+22	celebracao	celebracao	NOUN	NOUN	_	21	obj	_	TokenRange=156:166
+23	vaticano	vaticano	ADJ	ADJ	_	22	amod	_	TokenRange=167:175
+24	todas	_	DET	DET	_	25	det	_	TokenRange=176:181
+25	comunidades	comunidade	NOUN	NOUN	_	33	nsubj	_	TokenRange=182:193
+26	religiosas	religioso	ADJ	ADJ	_	25	amod	_	TokenRange=194:204
+27	assustadas	assustado	ADJ	ADJ	_	25	amod	_	TokenRange=205:215
+28	membros	membro	NOUN	NOUN	_	25	appos	_	TokenRange=216:223
+29	propria	proprio	ADJ	ADJ	_	30	amod	_	TokenRange=224:231
+30	religiao	religiao	NOUN	NOUN	_	28	appos	_	TokenRange=232:240
+31	catolica	catolico	ADJ	ADJ	_	30	amod	_	TokenRange=241:249
+32	jamais	jamais	ADV	ADV	_	33	advmod	_	TokenRange=250:256
+33	imaginavam	imaginar	VERB	VERB	_	2	parataxis	_	TokenRange=257:267
+34	conteudo	conteudo	NOUN	NOUN	_	33	obj	_	TokenRange=268:276
+35	dessas	_	ADP	ADP	_	36	case	_	TokenRange=277:283
+36	cancoes	cancoe	NOUN	NOUN	_	34	nmod	_	TokenRange=284:291
+37	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=292:297
+38	patrick	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=298:305
+39	swartz	swartz	NOUN	NOUN	_	38	flat	_	TokenRange=306:312
+40	especialista	especialista	NOUN	NOUN	_	38	appos	_	TokenRange=313:325
+41	latim	latim	NOUN	NOUN	_	38	appos	_	TokenRange=326:331
+42	video	video	NOUN	NOUN	_	38	appos	_	TokenRange=332:337
+43	abaixo	abaixo	ADV	ADV	_	47	advmod	_	TokenRange=338:344
+44	2014	_	NUM	NUM	NumType=Card	42	appos	_	TokenRange=345:349
+45	somente	somente	ADV	ADV	_	47	advmod	_	TokenRange=350:357
+46	agora	agora	ADV	ADV	_	47	advmod	_	TokenRange=358:363
+47	divulgado	divulgar	VERB	VERB	_	42	acl	_	TokenRange=364:373
+48	redes	rede	NOUN	NOUN	_	47	nsubj	_	TokenRange=374:379
+49	sociais	social	ADJ	ADJ	_	48	amod	_	TokenRange=380:387
+50	filmagens	filmagem	ADJ	ADJ	_	48	amod	_	TokenRange=388:397
+51	traducao	traducao	NOUN	NOUN	_	52	nsubj	_	TokenRange=398:406
+52	consta	constar	VERB	VERB	_	37	parataxis	_	TokenRange=407:413
+53	legenda	legenda	NOUN	NOUN	_	52	obj	_	TokenRange=414:421
+54	feita	_	VERB	VERB	_	53	acl	_	TokenRange=422:427
+55	latim	latim	NOUN	NOUN	_	54	obj	_	TokenRange=428:433
+56	portugues	portugue	ADJ	ADJ	_	55	amod	_	SpaceAfter=No|TokenRange=434:443
+

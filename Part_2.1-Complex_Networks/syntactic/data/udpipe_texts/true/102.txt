@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rapaz preso flagrante apos arrombar casa propria mae furtar r 50 jovem 24 anos localizado policiais militares ainda dentro imovel crime registrado jardim kennedy dracena rapaz 24 anos preso flagrante madrugada desta quartafeira 3 apos arrombar portas casa propria mae furtar r 50 caso ocorreu jardim kennedy dracena segundo informacoes policia militar volta 0h10 equipe local onde individuo morador residencia arrombado porta sala mae aproveitou ninguem imovel furtou dinheiro jovem localizado ainda dentro residencia acabou algemado integrantes corporacao conduzido plantao policia civil onde prisao ratificada permaneceu disposicao justica
+1	rapaz	rapaz	NOUN	NOUN	_	45	nsubj	_	TokenRange=0:5
+2	preso	_	VERB	VERB	_	1	acl	_	TokenRange=6:11
+3	flagrante	flagrante	NOUN	NOUN	_	2	amod	_	TokenRange=12:21
+4	apos	_	ADP	ADP	_	5	mark	_	TokenRange=22:26
+5	arrombar	arrombar	VERB	VERB	_	2	advcl	_	TokenRange=27:35
+6	casa	casa	NOUN	NOUN	_	5	obj	_	TokenRange=36:40
+7	propria	proprio	ADJ	ADJ	_	6	amod	_	TokenRange=41:48
+8	mae	mae	NOUN	NOUN	_	6	appos	_	TokenRange=49:52
+9	furtar	furtar	VERB	VERB	_	1	appos	_	TokenRange=53:59
+10	r	r	NOUN	NOUN	_	9	obj	_	TokenRange=60:61
+11	50	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=62:64
+12	jovem	jovem	NOUN	NOUN	_	6	amod	_	TokenRange=65:70
+13	24	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=71:73
+14	anos	ano	NOUN	NOUN	_	9	appos	_	TokenRange=74:78
+15	localizado	localizar	VERB	VERB	_	1	acl	_	TokenRange=79:89
+16	policiais	policial	NOUN	NOUN	_	15	obj	_	TokenRange=90:99
+17	militares	militar	ADJ	ADJ	_	16	amod	_	TokenRange=100:109
+18	ainda	ainda	ADV	ADV	_	19	advmod	_	TokenRange=110:115
+19	dentro	dentro	ADV	ADV	_	15	advmod	_	TokenRange=116:122
+20	imovel	imovel	ADJ	ADJ	_	21	amod	_	TokenRange=123:129
+21	crime	crime	NOUN	NOUN	_	15	nsubj	_	TokenRange=130:135
+22	registrado	registrar	VERB	VERB	_	21	acl	_	TokenRange=136:146
+23	jardim	jardim	NOUN	NOUN	_	22	obj	_	TokenRange=147:153
+24	kennedy	_	NOUN	NOUN	_	23	flat	_	TokenRange=154:161
+25	dracena	draceno	ADJ	ADJ	_	23	amod	_	TokenRange=162:169
+26	rapaz	rapaz	NOUN	NOUN	_	21	appos	_	TokenRange=170:175
+27	24	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=176:178
+28	anos	ano	NOUN	NOUN	_	26	appos	_	TokenRange=179:183
+29	preso	_	VERB	VERB	_	21	acl	_	TokenRange=184:189
+30	flagrante	flagrante	ADJ	ADJ	_	31	amod	_	TokenRange=190:199
+31	madrugada	madrugada	NOUN	NOUN	_	29	obj	_	TokenRange=200:209
+32	desta	_	ADP	ADP	_	33	case	_	TokenRange=210:215
+33	quartafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=216:227
+34	3	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=228:229
+35	apos	_	ADP	ADP	_	36	mark	_	TokenRange=230:234
+36	arrombar	arrombar	VERB	VERB	_	29	advcl	_	TokenRange=235:243
+37	portas	porta	NOUN	NOUN	_	36	obj	_	TokenRange=244:250
+38	casa	casa	NOUN	NOUN	_	37	appos	_	TokenRange=251:255
+39	propria	proprio	ADJ	ADJ	_	38	amod	_	TokenRange=256:263
+40	mae	mae	NOUN	NOUN	_	38	appos	_	TokenRange=264:267
+41	furtar	furtar	NOUN	NOUN	_	38	appos	_	TokenRange=268:274
+42	r	r	NOUN	NOUN	_	41	appos	_	TokenRange=275:276
+43	50	_	NUM	NUM	NumType=Card	42	appos	_	TokenRange=277:279
+44	caso	caso	NOUN	NOUN	_	41	appos	_	TokenRange=280:284
+45	ocorreu	ocorrer	VERB	VERB	_	0	root	_	TokenRange=285:292
+46	jardim	jardim	NOUN	NOUN	_	45	nmod	_	TokenRange=293:299
+47	kennedy	_	NOUN	NOUN	_	46	flat	_	TokenRange=300:307
+48	dracena	_	NOUN	NOUN	_	46	flat	_	TokenRange=308:315
+49	segundo	_	ADP	ADP	_	50	case	_	TokenRange=316:323
+50	informacoes	informacoe	NOUN	NOUN	_	45	nmod	_	TokenRange=324:335
+51	policia	policia	NOUN	NOUN	_	50	appos	_	TokenRange=336:343
+52	militar	militar	ADJ	ADJ	_	51	amod	_	TokenRange=344:351
+53	volta	volta	NOUN	NOUN	_	51	appos	_	TokenRange=352:357
+54	0h10	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=358:362
+55	equipe	equipe	NOUN	NOUN	_	53	appos	_	TokenRange=363:369
+56	local	local	ADJ	ADJ	_	55	amod	_	TokenRange=370:375
+57	onde	onde	ADV	ADV	_	58	advmod	_	TokenRange=376:380
+58	individuo	individuo	VERB	VERB	_	55	acl:relcl	_	TokenRange=381:390
+59	morador	morador	NOUN	NOUN	_	58	obj	_	TokenRange=391:398
+60	residencia	residencia	NOUN	NOUN	_	59	appos	_	TokenRange=399:409
+61	arrombado	arrombar	ADJ	ADJ	_	62	amod	_	TokenRange=410:419
+62	porta	porta	NOUN	NOUN	_	59	appos	_	TokenRange=420:425
+63	sala	sala	NOUN	NOUN	_	62	flat	_	TokenRange=426:430
+64	mae	mae	PRON	NOUN	_	65	nsubj	_	TokenRange=431:434
+65	aproveitou	aproveitar	VERB	VERB	_	55	acl:relcl	_	TokenRange=435:445
+66	ninguem	_	PRON	PRON	_	65	obj	_	TokenRange=446:453
+67	imovel	imovel	ADJ	ADJ	_	66	amod	_	TokenRange=454:460
+68	furtou	furtar	VERB	VERB	_	55	acl:relcl	_	TokenRange=461:467
+69	dinheiro	dinheiro	NOUN	NOUN	_	68	obj	_	TokenRange=468:476
+70	jovem	jovem	ADJ	ADJ	_	69	amod	_	TokenRange=477:482
+71	localizado	localizar	VERB	VERB	_	69	acl	_	TokenRange=483:493
+72	ainda	ainda	ADV	ADV	_	73	advmod	_	TokenRange=494:499
+73	dentro	dentro	ADV	ADV	_	71	advmod	_	TokenRange=500:506
+74	residencia	residencia	NOUN	NOUN	_	75	nsubj	_	TokenRange=507:517
+75	acabou	acabar	VERB	VERB	_	69	acl:relcl	_	TokenRange=518:524
+76	algemado	algemado	ADJ	ADJ	_	75	xcomp	_	TokenRange=525:533
+77	integrantes	_	ADJ	ADJ	_	78	amod	_	TokenRange=534:545
+78	corporacao	corporacao	NOUN	NOUN	_	75	nsubj	_	TokenRange=546:556
+79	conduzido	conduzir	VERB	VERB	_	78	acl	_	TokenRange=557:566
+80	plantao	plantao	NOUN	NOUN	_	78	amod	_	TokenRange=567:574
+81	policia	policia	NOUN	NOUN	_	78	appos	_	TokenRange=575:582
+82	civil	civil	ADJ	ADJ	_	81	amod	_	TokenRange=583:588
+83	onde	onde	ADV	ADV	_	86	advmod	_	TokenRange=589:593
+84	prisao	prisao	NOUN	NOUN	_	86	nsubj	_	TokenRange=594:600
+85	ratificada	ratificado	ADJ	ADJ	_	84	amod	_	TokenRange=601:611
+86	permaneceu	permanecer	VERB	VERB	_	81	acl:relcl	_	TokenRange=612:622
+87	disposicao	disposicao	NOUN	NOUN	_	86	obj	_	TokenRange=623:633
+88	justica	justico	ADJ	ADJ	_	87	amod	_	SpaceAfter=No|TokenRange=634:641
+

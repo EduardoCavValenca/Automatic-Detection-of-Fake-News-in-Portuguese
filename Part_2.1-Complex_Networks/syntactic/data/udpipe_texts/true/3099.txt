@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trf4 nega novo pedido defesa lula afastar moro processo lava jato defesa pedia juiz afastado conducao processo expresidente investigado receber imovel terreno odebrecht 8 turma tribunal regional federal 4 regiao trf4 negou nesta quartafeira 28 pedido defesa expresidente luiz inacio lula silva afastar juiz federal sergio moro conducao processo reu recebimento propina odebrecht corte julgado pedidos excecao suspeicao contra juiz federal anteriormente ultimo dezembro ano passado todos negados
+1	trf4	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	novo	novo	ADJ	ADJ	_	4	amod	_	TokenRange=10:14
+4	pedido	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+5	defesa	_	NOUN	NOUN	_	4	appos	_	TokenRange=22:28
+6	lula	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=29:33
+7	afastar	afastar	VERB	VERB	_	2	ccomp	_	TokenRange=34:41
+8	moro	moro	NOUN	NOUN	_	7	obj	_	TokenRange=42:46
+9	processo	processo	NOUN	NOUN	_	7	obj	_	TokenRange=47:55
+10	lava	lava	NOUN	NOUN	_	9	appos	_	TokenRange=56:60
+11	jato	jato	NOUN	NOUN	_	10	flat	_	TokenRange=61:65
+12	defesa	_	NOUN	NOUN	_	7	appos	_	TokenRange=66:72
+13	pedia	_	NOUN	NOUN	_	14	case	_	TokenRange=73:78
+14	juiz	juiz	NOUN	NOUN	_	12	appos	_	TokenRange=79:83
+15	afastado	afastado	ADJ	ADJ	_	14	amod	_	TokenRange=84:92
+16	conducao	conducao	ADJ	ADJ	_	17	amod	_	TokenRange=93:101
+17	processo	processo	NOUN	NOUN	_	14	appos	_	TokenRange=102:110
+18	expresidente	expresidente	NOUN	NOUN	_	17	appos	_	TokenRange=111:123
+19	investigado	investigar	VERB	VERB	_	17	acl	_	TokenRange=124:135
+20	receber	receber	VERB	VERB	_	19	xcomp	_	TokenRange=136:143
+21	imovel	imovel	NOUN	NOUN	_	20	obj	_	TokenRange=144:150
+22	terreno	terreno	NOUN	NOUN	_	21	flat	_	TokenRange=151:158
+23	odebrecht	_	NOUN	NOUN	_	21	appos	_	TokenRange=159:168
+24	8	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=169:170
+25	turma	turma	NOUN	NOUN	_	21	appos	_	TokenRange=171:176
+26	tribunal	tribunal	NOUN	NOUN	_	25	appos	_	TokenRange=177:185
+27	regional	regional	ADJ	ADJ	_	26	amod	_	TokenRange=186:194
+28	federal	federal	ADJ	ADJ	_	26	amod	_	TokenRange=195:202
+29	4	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=203:204
+30	regiao	regiao	NOUN	NOUN	_	26	appos	_	TokenRange=205:211
+31	trf4	_	NOUN	NOUN	_	30	appos	_	TokenRange=212:216
+32	negou	negar	VERB	VERB	_	2	parataxis	_	TokenRange=217:222
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=223:228
+34	quartafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=229:240
+35	28	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=241:243
+36	pedido	pedido	NOUN	NOUN	_	32	nsubj	_	TokenRange=244:250
+37	defesa	_	ADJ	ADJ	_	36	amod	_	TokenRange=251:257
+38	expresidente	expresidente	NOUN	NOUN	_	32	nsubj	_	TokenRange=258:270
+39	luiz	luiz	ADJ	ADJ	_	38	appos	_	TokenRange=271:275
+40	inacio	_	NOUN	NOUN	_	38	appos	_	TokenRange=276:282
+41	lula	_	NOUN	NOUN	_	39	flat	_	TokenRange=283:287
+42	silva	silva	ADJ	ADJ	_	39	flat	_	TokenRange=288:293
+43	afastar	afastar	VERB	VERB	_	32	ccomp	_	TokenRange=294:301
+44	juiz	juiz	NOUN	NOUN	_	43	obj	_	TokenRange=302:306
+45	federal	federal	ADJ	ADJ	_	44	amod	_	TokenRange=307:314
+46	sergio	sergio	NOUN	NOUN	_	44	appos	_	TokenRange=315:321
+47	moro	moro	NOUN	NOUN	_	46	flat	_	TokenRange=322:326
+48	conducao	conducao	ADJ	ADJ	_	49	amod	_	TokenRange=327:335
+49	processo	processo	NOUN	NOUN	_	44	appos	_	TokenRange=336:344
+50	reu	reu	ADJ	ADJ	_	49	amod	_	TokenRange=345:348
+51	recebimento	recebimento	NOUN	NOUN	_	49	appos	_	TokenRange=349:360
+52	propina	propino	ADJ	ADJ	_	51	flat	_	TokenRange=361:368
+53	odebrecht	odebrecht	ADJ	ADJ	_	54	amod	_	TokenRange=369:378
+54	corte	corte	NOUN	NOUN	_	51	appos	_	TokenRange=379:384
+55	julgado	julgado	ADJ	ADJ	_	56	amod	_	TokenRange=385:392
+56	pedidos	pedido	NOUN	NOUN	_	54	appos	_	TokenRange=393:400
+57	excecao	excecao	ADJ	ADJ	_	56	amod	_	TokenRange=401:408
+58	suspeicao	suspeicao	NOUN	NOUN	_	56	appos	_	TokenRange=409:418
+59	contra	_	ADP	ADP	_	60	case	_	TokenRange=419:425
+60	juiz	juiz	NOUN	NOUN	_	58	nmod	_	TokenRange=426:430
+61	federal	federal	ADJ	ADJ	_	60	amod	_	TokenRange=431:438
+62	anteriormente	anteriormente	ADV	ADV	_	68	advmod	_	TokenRange=439:452
+63	ultimo	ultimo	ADJ	ADJ	_	64	amod	_	TokenRange=453:459
+64	dezembro	_	PROPN	PNOUN	_	60	nmod	_	TokenRange=460:468
+65	ano	ano	NOUN	NOUN	_	58	nmod	_	TokenRange=469:472
+66	passado	passado	ADJ	ADJ	_	65	amod	_	TokenRange=473:480
+67	todos	_	PRON	PRON	_	68	nsubj	_	TokenRange=481:486
+68	negados	negar	VERB	VERB	_	65	acl	_	SpaceAfter=No|TokenRange=487:494
+

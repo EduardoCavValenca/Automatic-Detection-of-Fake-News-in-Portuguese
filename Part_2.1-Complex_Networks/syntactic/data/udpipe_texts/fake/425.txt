@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = homem vai banco pagar indenizacao injuria racial xinga funcionario macaco caso aconteceu interior sp cidade jose rio preto localizada cerca 442 km capital paulista
+1	homem	homem	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	vai	ir	AUX	AUX	_	3	cop	_	TokenRange=6:9
+3	banco	banco	NOUN	NOUN	_	0	root	_	TokenRange=10:15
+4	pagar	pagar	VERB	VERB	_	3	csubj	_	TokenRange=16:21
+5	indenizacao	indenizacao	ADJ	ADJ	_	6	amod	_	TokenRange=22:33
+6	injuria	injuria	NOUN	NOUN	_	4	obj	_	TokenRange=34:41
+7	racial	racial	ADJ	ADJ	_	6	amod	_	TokenRange=42:48
+8	xinga	xinga	ADJ	ADJ	_	9	amod	_	TokenRange=49:54
+9	funcionario	funcionario	NOUN	NOUN	_	6	appos	_	TokenRange=55:66
+10	macaco	macaco	ADJ	ADJ	_	9	amod	_	TokenRange=67:73
+11	caso	caso	NOUN	NOUN	_	9	appos	_	TokenRange=74:78
+12	aconteceu	acontecer	VERB	VERB	_	3	conj	_	TokenRange=79:88
+13	interior	interior	NOUN	NOUN	_	12	nsubj	_	TokenRange=89:97
+14	sp	_	ADJ	ADJ	_	15	amod	_	TokenRange=98:100
+15	cidade	cidade	NOUN	NOUN	_	12	nsubj	_	TokenRange=101:107
+16	jose	jose	ADJ	ADJ	_	15	amod	_	TokenRange=108:112
+17	rio	rio	NOUN	NOUN	_	15	appos	_	TokenRange=113:116
+18	preto	preto	ADJ	ADJ	_	17	amod	_	TokenRange=117:122
+19	localizada	localizar	VERB	VERB	_	15	acl	_	TokenRange=123:133
+20	cerca	cerca	ADV	ADV	_	21	advmod	_	TokenRange=134:139
+21	442	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=140:143
+22	km	km	NOUN	NOUN	_	19	nmod	_	TokenRange=144:146
+23	capital	capital	NOUN	NOUN	_	22	flat	_	TokenRange=147:154
+24	paulista	paulista	ADJ	ADJ	_	23	amod	_	SpaceAfter=No|TokenRange=155:163
+

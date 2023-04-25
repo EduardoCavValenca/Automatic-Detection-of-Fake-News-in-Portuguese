@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nojo assista video saiba feitas famosas jujubinhas video produzido tv belga viralizando mundo inteiro sabe balinha conhece jujuba pois bem docinho bonitinho colorido feito partir porcos porquinho abatido exclusivamente fazer jujubinhas claro outras partes animal carne aproveitadas assista abaixo
+1	nojo	nojo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	assista	assistir	VERB	VERB	_	38	ccomp	_	TokenRange=5:12
+3	video	video	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	saiba	_	NOUN	NOUN	_	3	appos	_	TokenRange=19:24
+5	feitas	_	VERB	VERB	_	3	acl	_	TokenRange=25:31
+6	famosas	famoso	ADJ	ADJ	_	7	amod	_	TokenRange=32:39
+7	jujubinhas	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=40:50
+8	video	video	NOUN	NOUN	_	7	appos	_	TokenRange=51:56
+9	produzido	produzir	VERB	VERB	_	8	acl	_	TokenRange=57:66
+10	tv	tv	NOUN	NOUN	_	9	nmod	_	TokenRange=67:69
+11	belga	belga	ADJ	ADJ	_	10	amod	_	TokenRange=70:75
+12	viralizando	viralizar	VERB	VERB	_	8	acl	_	TokenRange=76:87
+13	mundo	mundo	NOUN	NOUN	_	12	obj	_	TokenRange=88:93
+14	inteiro	inteiro	ADJ	ADJ	_	13	amod	_	TokenRange=94:101
+15	sabe	saber	VERB	VERB	_	2	parataxis	_	TokenRange=102:106
+16	balinha	_	NOUN	NOUN	_	15	obj	_	TokenRange=107:114
+17	conhece	conhecer	VERB	VERB	_	15	ccomp	_	TokenRange=115:122
+18	jujuba	jujuba	NOUN	NOUN	_	17	obj	_	TokenRange=123:129
+19	pois	_	CCONJ	CONJ	_	21	mark	_	TokenRange=130:134
+20	bem	bem	ADV	ADV	_	21	advmod	_	TokenRange=135:138
+21	docinho	_	ADJ	ADJ	_	17	advcl	_	TokenRange=139:146
+22	bonitinho	bonito	NOUN	NOUN	_	17	nsubj	_	TokenRange=147:156
+23	colorido	colorido	ADJ	ADJ	_	22	amod	_	TokenRange=157:165
+24	feito	_	VERB	VERB	_	22	acl	_	TokenRange=166:171
+25	partir	partir	VERB	VERB	_	22	acl	_	TokenRange=172:178
+26	porcos	porco	NOUN	NOUN	_	25	obj	_	TokenRange=179:185
+27	porquinho	_	NOUN	NOUN	_	26	amod	_	TokenRange=186:195
+28	abatido	abater	VERB	VERB	_	26	acl	_	TokenRange=196:203
+29	exclusivamente	exclusivamente	ADV	ADV	_	30	advmod	_	TokenRange=204:218
+30	fazer	fazer	VERB	VERB	_	22	acl:relcl	_	TokenRange=219:224
+31	jujubinhas	_	NOUN	NOUN	_	30	obj	_	TokenRange=225:235
+32	claro	claro	ADJ	ADJ	_	34	amod	_	TokenRange=236:241
+33	outras	_	DET	DET	_	34	det	_	TokenRange=242:248
+34	partes	_	NOUN	NOUN	_	30	obj	_	TokenRange=249:255
+35	animal	animal	ADJ	ADJ	_	34	amod	_	TokenRange=256:262
+36	carne	carne	NOUN	NOUN	_	34	appos	_	TokenRange=263:268
+37	aproveitadas	aproveitar	VERB	VERB	_	34	acl	_	TokenRange=269:281
+38	assista	assistir	VERB	VERB	_	0	root	_	TokenRange=282:289
+39	abaixo	abaixo	ADV	ADV	_	38	advmod	_	SpaceAfter=No|TokenRange=290:296
+

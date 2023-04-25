@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = idoso deficiencia comemora ida cinema 1 vez 80 anos sabia alexandre jose silva atrofia pernas consegue caminhar desde 15 anos idade filha idoso visitou zoobotanico parque cidadania circo primeira vez alexandre jose silva 80 anos cinema primeira vez cinema teresina semana idoso possui dificuldade locomocao filha rosany caetano conseguiu cadeira rodas recentemente permitido varias descobertas ida circo zoologico recentemente cinema disse g1 sabia pudesse iria todos dias emocao experiencia registrada palavras simples idoso achei bom demais lindo nunca assistido tela grande faz friozinho gostei filme movimento povo
+1	idoso	idoso	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	deficiencia	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=6:17
+3	comemora	comemorar	VERB	VERB	_	0	root	_	TokenRange=18:26
+4	ida	ida	NOUN	NOUN	_	3	obj	_	TokenRange=27:30
+5	cinema	cinema	NOUN	NOUN	_	4	flat	_	TokenRange=31:37
+6	1	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=38:39
+7	vez	vez	NOUN	NOUN	_	3	nmod	_	TokenRange=40:43
+8	80	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=44:46
+9	anos	ano	NOUN	NOUN	_	10	nsubj	_	TokenRange=47:51
+10	sabia	saber	VERB	VERB	_	4	acl:relcl	_	TokenRange=52:57
+11	alexandre	alexandre	NOUN	NOUN	_	10	obj	_	TokenRange=58:67
+12	jose	jose	NOUN	NOUN	_	11	flat	_	TokenRange=68:72
+13	silva	silva	NOUN	NOUN	_	11	flat	_	TokenRange=73:78
+14	atrofia	atrofia	NOUN	NOUN	_	16	nsubj	_	TokenRange=79:86
+15	pernas	perna	NOUN	NOUN	_	16	nsubj	_	TokenRange=87:93
+16	consegue	conseguir	VERB	VERB	_	4	acl:relcl	_	TokenRange=94:102
+17	caminhar	caminhar	VERB	VERB	_	16	xcomp	_	TokenRange=103:111
+18	desde	_	ADP	ADP	_	20	case	_	TokenRange=112:117
+19	15	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=118:120
+20	anos	ano	NOUN	NOUN	_	17	nmod	_	TokenRange=121:125
+21	idade	idade	NOUN	NOUN	_	20	appos	_	TokenRange=126:131
+22	filha	filho	NOUN	NOUN	_	24	nsubj	_	TokenRange=132:137
+23	idoso	idoso	ADJ	ADJ	_	22	amod	_	TokenRange=138:143
+24	visitou	visitar	VERB	VERB	_	3	conj	_	TokenRange=144:151
+25	zoobotanico	_	NOUN	NOUN	_	24	obj	_	TokenRange=152:163
+26	parque	parque	NOUN	NOUN	_	25	appos	_	TokenRange=164:170
+27	cidadania	cidadania	NOUN	NOUN	_	26	flat	_	TokenRange=171:180
+28	circo	circo	NOUN	NOUN	_	25	appos	_	TokenRange=181:186
+29	primeira	primeiro	ADJ	ADJ	_	30	amod	_	TokenRange=187:195
+30	vez	vez	NOUN	NOUN	_	24	nmod	_	TokenRange=196:199
+31	alexandre	alexandre	NOUN	NOUN	_	25	appos	_	TokenRange=200:209
+32	jose	jose	NOUN	NOUN	_	31	flat	_	TokenRange=210:214
+33	silva	silva	NOUN	NOUN	_	31	flat	_	TokenRange=215:220
+34	80	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=221:223
+35	anos	ano	NOUN	NOUN	_	31	appos	_	TokenRange=224:228
+36	cinema	cinema	NOUN	NOUN	_	35	appos	_	TokenRange=229:235
+37	primeira	primeiro	ADJ	ADJ	_	38	amod	_	TokenRange=236:244
+38	vez	vez	NOUN	NOUN	_	36	nmod	_	TokenRange=245:248
+39	cinema	cinema	NOUN	NOUN	_	24	appos	_	TokenRange=249:255
+40	teresina	teresino	ADJ	ADJ	_	41	amod	_	TokenRange=256:264
+41	semana	semana	NOUN	NOUN	_	39	appos	_	TokenRange=265:271
+42	idoso	idoso	ADJ	ADJ	_	46	amod	_	TokenRange=272:277
+43	possui	possuir	VERB	VERB	_	24	parataxis	_	TokenRange=278:284
+44	dificuldade	dificuldade	NOUN	NOUN	_	43	obj	_	TokenRange=285:296
+45	locomocao	locomocao	ADJ	ADJ	_	46	amod	_	TokenRange=297:306
+46	filha	filho	NOUN	NOUN	_	49	nsubj	_	TokenRange=307:312
+47	rosany	_	NOUN	NOUN	_	46	appos	_	TokenRange=313:319
+48	caetano	caetano	ADJ	NOUN	_	47	flat	_	TokenRange=320:327
+49	conseguiu	conseguir	VERB	VERB	_	43	parataxis	_	TokenRange=328:337
+50	cadeira	cadeira	NOUN	NOUN	_	49	obj	_	TokenRange=338:345
+51	rodas	roda	NOUN	NOUN	_	50	flat	_	TokenRange=346:351
+52	recentemente	recentemente	ADV	ADV	_	53	advmod	_	TokenRange=352:364
+53	permitido	permitir	VERB	VERB	_	50	acl	_	TokenRange=365:374
+54	varias	_	DET	DET	_	55	det	_	TokenRange=375:381
+55	descobertas	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=382:393
+56	ida	ida	NOUN	NOUN	_	55	appos	_	TokenRange=394:397
+57	circo	circo	NOUN	NOUN	_	56	appos	_	TokenRange=398:403
+58	zoologico	_	ADJ	ADJ	_	56	amod	_	TokenRange=404:413
+59	recentemente	recentemente	ADV	ADV	_	61	advmod	_	TokenRange=414:426
+60	cinema	cinema	NOUN	NOUN	_	61	nsubj	_	TokenRange=427:433
+61	disse	dizer	VERB	VERB	_	56	acl:relcl	_	TokenRange=434:439
+62	g1	_	PRON	PRON	_	61	nsubj	_	TokenRange=440:442
+63	sabia	saber	NOUN	NOUN	_	61	ccomp	_	TokenRange=443:448
+64	pudesse	poder	AUX	AUX	_	65	aux	_	TokenRange=449:456
+65	iria	_	NOUN	NOUN	_	61	ccomp	_	TokenRange=457:461
+66	todos	_	DET	DET	_	67	det	_	TokenRange=462:467
+67	dias	dia	NOUN	NOUN	_	65	nsubj	_	TokenRange=468:472
+68	emocao	emocao	ADJ	ADJ	_	69	amod	_	TokenRange=473:479
+69	experiencia	experiencia	NOUN	NOUN	_	65	nsubj	_	TokenRange=480:491
+70	registrada	registrado	ADJ	ADJ	_	71	amod	_	TokenRange=492:502
+71	palavras	palavra	NOUN	NOUN	_	65	nsubj	_	TokenRange=503:511
+72	simples	simples	ADJ	ADJ	_	71	amod	_	TokenRange=512:519
+73	idoso	idoso	ADJ	ADJ	_	74	amod	_	TokenRange=520:525
+74	achei	achar	VERB	VERB	_	71	acl:relcl	_	TokenRange=526:531
+75	bom	bom	ADJ	ADJ	_	74	xcomp	_	TokenRange=532:535
+76	demais	demais	ADV	ADV	_	75	advmod	_	TokenRange=536:542
+77	lindo	lindo	ADJ	ADJ	_	74	amod	_	TokenRange=543:548
+78	nunca	nunca	ADV	ADV	_	79	advmod	_	TokenRange=549:554
+79	assistido	assistir	VERB	VERB	_	80	acl	_	TokenRange=555:564
+80	tela	tela	NOUN	NOUN	_	82	nsubj	_	TokenRange=565:569
+81	grande	grande	ADJ	ADJ	_	80	amod	_	TokenRange=570:576
+82	faz	fazer	VERB	VERB	_	74	conj	_	TokenRange=577:580
+83	friozinho	friozinho	NOUN	NOUN	_	82	obj	_	TokenRange=581:590
+84	gostei	gostar	VERB	VERB	_	74	conj	_	TokenRange=591:597
+85	filme	filme	NOUN	NOUN	_	84	obj	_	TokenRange=598:603
+86	movimento	movimento	NOUN	NOUN	_	84	obj	_	TokenRange=604:613
+87	povo	povo	ADJ	ADJ	_	86	amod	_	SpaceAfter=No|TokenRange=614:618
+

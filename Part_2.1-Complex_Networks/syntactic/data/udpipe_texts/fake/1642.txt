@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = beto barbosa preso fortaleza reage tira algema mim vai dar problema pais rei lambada beto barbosa detido manha hoje fortaleza ce acordo informacoes jornal tribuna ceara policiais deram voz prisao algemaram musico encaminharam delegacia video feito 2 distrito policial beto demonstra indignacao fiz precisava algemado disse vagabundo secretaria seguranca publica defesa social estado manifestou pm acionada ocorrencia cantor desentendeu seguranca supermercado ambos encaminhados 2 dp afim esclarecer fatos tanta gente precisando algemada brasilia atualizado 1851 hs
+1	beto	beto	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:4
+2	barbosa	barboso	ADJ	ADJ	_	1	flat	_	TokenRange=5:12
+3	preso	_	VERB	VERB	_	1	acl	_	TokenRange=13:18
+4	fortaleza	fortaleza	NOUN	NOUN	_	1	appos	_	TokenRange=19:28
+5	reage	_	VERB	VERB	_	1	acl:relcl	_	TokenRange=29:34
+6	tira	tira	NOUN	NOUN	_	1	appos	_	TokenRange=35:39
+7	algema	algema	NOUN	NOUN	_	6	obj	_	TokenRange=40:46
+8	mim	_	PRON	PRON	_	10	nsubj	_	TokenRange=47:50
+9	vai	ir	AUX	AUX	_	10	aux	_	TokenRange=51:54
+10	dar	dar	VERB	VERB	_	0	root	_	TokenRange=55:58
+11	problema	problema	NOUN	NOUN	_	10	obj	_	TokenRange=59:67
+12	pais	_	NOUN	NOUN	_	13	flat	_	TokenRange=68:72
+13	rei	rei	NOUN	NOUN	_	10	parataxis	_	TokenRange=73:76
+14	lambada	lambado	ADJ	ADJ	_	13	amod	_	TokenRange=77:84
+15	beto	beto	NOUN	NOUN	_	10	parataxis	_	TokenRange=85:89
+16	barbosa	barbosa	NOUN	NOUN	_	15	flat	_	TokenRange=90:97
+17	detido	deter	VERB	VERB	_	15	acl	_	TokenRange=98:104
+18	manha	manha	NOUN	NOUN	_	17	nmod	_	TokenRange=105:110
+19	hoje	hoje	ADV	ADV	_	18	advmod	_	TokenRange=111:115
+20	fortaleza	fortaleza	NOUN	NOUN	_	17	parataxis	_	TokenRange=116:125
+21	ce	_	ADP	DET	_	22	case	_	TokenRange=126:128
+22	acordo	acordo	NOUN	NOUN	_	20	appos	_	TokenRange=129:135
+23	informacoes	_	NOUN	NOUN	_	22	flat	_	TokenRange=136:147
+24	jornal	jornal	NOUN	NOUN	_	22	appos	_	TokenRange=148:154
+25	tribuna	tribuna	NOUN	NOUN	_	24	flat	_	TokenRange=155:162
+26	ceara	_	ADJ	ADJ	_	27	amod	_	TokenRange=163:168
+27	policiais	policial	NOUN	NOUN	_	28	nsubj	_	TokenRange=169:178
+28	deram	dar	VERB	VERB	_	10	parataxis	_	TokenRange=179:184
+29	voz	voz	NOUN	NOUN	_	28	obj	_	TokenRange=185:188
+30	prisao	prisao	ADJ	ADJ	_	29	amod	_	TokenRange=189:195
+31	algemaram	algemar	NOUN	NOUN	_	28	nsubj	_	TokenRange=196:205
+32	musico	musico	NOUN	NOUN	_	33	nsubj	_	TokenRange=206:212
+33	encaminharam	encaminhar	VERB	VERB	_	29	acl:relcl	_	TokenRange=213:225
+34	delegacia	delegacia	NOUN	NOUN	_	33	obj	_	TokenRange=226:235
+35	video	video	NOUN	NOUN	_	34	appos	_	TokenRange=236:241
+36	feito	_	VERB	VERB	_	35	acl	_	TokenRange=242:247
+37	2	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=248:249
+38	distrito	distrito	NOUN	NOUN	_	36	nsubj	_	TokenRange=250:258
+39	policial	policial	ADJ	ADJ	_	38	amod	_	TokenRange=259:267
+40	beto	beto	NOUN	NOUN	_	41	nsubj	_	TokenRange=268:272
+41	demonstra	demonstrar	VERB	VERB	_	38	acl:relcl	_	TokenRange=273:282
+42	indignacao	indignacao	NOUN	NOUN	_	41	obj	_	TokenRange=283:293
+43	fiz	fazer	NOUN	NOUN	_	44	nsubj	_	TokenRange=294:297
+44	precisava	precisar	VERB	VERB	_	41	ccomp	_	TokenRange=298:307
+45	algemado	algemado	NOUN	NOUN	_	44	obj	_	TokenRange=308:316
+46	disse	dizer	VERB	VERB	_	41	parataxis	_	TokenRange=317:322
+47	vagabundo	vagabundo	NOUN	NOUN	_	46	nsubj	_	TokenRange=323:332
+48	secretaria	secretaria	NOUN	NOUN	_	46	nsubj	_	TokenRange=333:343
+49	seguranca	_	NOUN	NOUN	_	48	amod	_	TokenRange=344:353
+50	publica	publico	ADJ	ADJ	_	51	amod	_	TokenRange=354:361
+51	defesa	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=362:368
+52	social	social	ADJ	ADJ	_	51	amod	_	TokenRange=369:375
+53	estado	estado	NOUN	NOUN	_	54	nsubj	_	TokenRange=376:382
+54	manifestou	manifestar	VERB	VERB	_	41	parataxis	_	TokenRange=383:393
+55	pm	_	NOUN	NOUN	_	54	obj	_	TokenRange=394:396
+56	acionada	acionado	ADJ	ADJ	_	57	amod	_	TokenRange=397:405
+57	ocorrencia	ocorrencia	NOUN	NOUN	_	59	nsubj	_	TokenRange=406:416
+58	cantor	cantor	NOUN	NOUN	_	57	flat	_	TokenRange=417:423
+59	desentendeu	desentender	VERB	VERB	_	54	parataxis	_	TokenRange=424:435
+60	seguranca	_	NOUN	NOUN	_	59	obj	_	TokenRange=436:445
+61	supermercado	supermercado	ADJ	ADJ	_	60	amod	_	TokenRange=446:458
+62	ambos	_	PRON	PRON	_	63	nsubj	_	TokenRange=459:464
+63	encaminhados	encaminhar	VERB	VERB	_	59	acl	_	TokenRange=465:477
+64	2	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=478:479
+65	dp	_	NOUN	NOUN	_	63	nmod	_	TokenRange=480:482
+66	afim	afim	ADV	ADV	_	67	advmod	_	TokenRange=483:487
+67	esclarecer	esclarecer	VERB	VERB	_	54	ccomp	_	TokenRange=488:498
+68	fatos	fato	NOUN	NOUN	_	67	obj	_	TokenRange=499:504
+69	tanta	_	DET	DET	_	70	det	_	TokenRange=505:510
+70	gente	gente	NOUN	NOUN	_	67	obj	_	TokenRange=511:516
+71	precisando	precisar	VERB	VERB	_	70	acl	_	TokenRange=517:527
+72	algemada	algemado	ADJ	ADJ	_	73	amod	_	TokenRange=528:536
+73	brasilia	brasilia	NOUN	NOUN	_	71	obj	_	TokenRange=537:545
+74	atualizado	atualizar	VERB	VERB	_	70	acl	_	TokenRange=546:556
+75	1851	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=557:561
+76	hs	_	NOUN	NOUN	_	74	nmod	_	SpaceAfter=No|TokenRange=562:564
+

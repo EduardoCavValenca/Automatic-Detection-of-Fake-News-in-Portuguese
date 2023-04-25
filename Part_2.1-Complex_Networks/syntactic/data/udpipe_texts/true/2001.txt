@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = empresario 41 anos desaparece vitoria conquista preocupados diz irma familia busca informacoes sobre paradeiro george cardoso couto policia investiga empresario ramo imobiliario esportivo 41 anos desaparecido 48h cidade vitoria conquista sudoeste bahia familiares amigos buscam informacoes sobre paradeiro policia civil investiga caso george cardoso couto saiu casa tarde sextafeira 2 celular voltou
+1	empresario	empresario	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	41	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=11:13
+3	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=14:18
+4	desaparece	desaparecer	VERB	VERB	_	0	root	_	TokenRange=19:29
+5	vitoria	vitoria	NOUN	NOUN	_	4	obj	_	TokenRange=30:37
+6	conquista	conquista	NOUN	NOUN	_	5	amod	_	TokenRange=38:47
+7	preocupados	preocupado	ADJ	ADJ	_	5	amod	_	TokenRange=48:59
+8	diz	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=60:63
+9	irma	irma	NOUN	NOUN	_	4	obj	_	TokenRange=64:68
+10	familia	familia	NOUN	NOUN	_	11	nsubj	_	TokenRange=69:76
+11	busca	buscar	VERB	VERB	_	4	parataxis	_	TokenRange=77:82
+12	informacoes	informacoe	NOUN	NOUN	_	11	obj	_	TokenRange=83:94
+13	sobre	_	ADP	ADP	_	14	case	_	TokenRange=95:100
+14	paradeiro	paradeiro	NOUN	NOUN	_	12	nmod	_	TokenRange=101:110
+15	george	george	NOUN	NOUN	_	14	appos	_	TokenRange=111:117
+16	cardoso	cardoso	NOUN	NOUN	_	15	flat	_	TokenRange=118:125
+17	couto	couto	NOUN	NOUN	_	18	flat	_	TokenRange=126:131
+18	policia	policia	NOUN	NOUN	_	15	appos	_	TokenRange=132:139
+19	investiga	investigar	VERB	VERB	_	4	conj	_	TokenRange=140:149
+20	empresario	empresario	NOUN	NOUN	_	19	obj	_	TokenRange=150:160
+21	ramo	ramo	NOUN	NOUN	_	20	appos	_	TokenRange=161:165
+22	imobiliario	imobiliario	ADJ	ADJ	_	21	amod	_	TokenRange=166:177
+23	esportivo	esportivo	ADJ	ADJ	_	21	amod	_	TokenRange=178:187
+24	41	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=188:190
+25	anos	ano	NOUN	NOUN	_	20	appos	_	TokenRange=191:195
+26	desaparecido	desaparecer	ADJ	ADJ	_	25	acl	_	TokenRange=196:208
+27	48h	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=209:212
+28	cidade	cidade	NOUN	NOUN	_	35	nmod	_	TokenRange=213:219
+29	vitoria	vitoria	ADJ	ADJ	_	28	amod	_	TokenRange=220:227
+30	conquista	conquista	NOUN	NOUN	_	28	appos	_	TokenRange=228:237
+31	sudoeste	sudoeste	ADJ	ADJ	_	30	amod	_	TokenRange=238:246
+32	bahia	bahia	NOUN	NOUN	_	30	appos	_	TokenRange=247:252
+33	familiares	familiar	ADJ	ADJ	_	32	amod	_	TokenRange=253:263
+34	amigos	amigo	NOUN	NOUN	_	32	amod	_	TokenRange=264:270
+35	buscam	buscar	VERB	VERB	_	4	parataxis	_	TokenRange=271:277
+36	informacoes	informacoe	NOUN	NOUN	_	35	obj	_	TokenRange=278:289
+37	sobre	_	ADP	ADP	_	38	case	_	TokenRange=290:295
+38	paradeiro	paradeiro	NOUN	NOUN	_	36	nmod	_	TokenRange=296:305
+39	policia	policia	NOUN	NOUN	_	38	appos	_	TokenRange=306:313
+40	civil	civil	ADJ	ADJ	_	39	amod	_	TokenRange=314:319
+41	investiga	investigar	VERB	VERB	_	35	parataxis	_	TokenRange=320:329
+42	caso	caso	NOUN	NOUN	_	52	obj	_	TokenRange=330:334
+43	george	george	NOUN	NOUN	_	42	appos	_	TokenRange=335:341
+44	cardoso	cardoso	NOUN	NOUN	_	43	flat	_	TokenRange=342:349
+45	couto	couto	NOUN	NOUN	_	43	flat	_	TokenRange=350:355
+46	saiu	sair	VERB	VERB	_	41	ccomp	_	TokenRange=356:360
+47	casa	casa	NOUN	NOUN	_	48	case	_	TokenRange=361:365
+48	tarde	tarde	NOUN	NOUN	_	52	nmod	_	TokenRange=366:371
+49	sextafeira	sextafeira	NOUN	NOUN	_	52	nsubj	_	TokenRange=372:382
+50	2	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=383:384
+51	celular	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=385:392
+52	voltou	voltar	VERB	VERB	_	35	parataxis	_	SpaceAfter=No|TokenRange=393:399
+

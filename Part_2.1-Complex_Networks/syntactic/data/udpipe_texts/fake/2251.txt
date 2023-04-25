@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acharam lula ficou dor barriga apos chegada pf senado policia federal chegou senado reforcar seguranca lula desapareceu calma encontraram petista wc alguem banheiro avisou expresidente poderia sair permanecer recinto medo tentando disfarcar petista comecou esfregar maos barriga demonstrar pouco indisposto dor barriga hein lula susto
+1	acharam	achar	VERB	VERB	_	0	root	_	TokenRange=0:7
+2	lula	_	NOUN	NOUN	_	1	obj	_	TokenRange=8:12
+3	ficou	ficar	VERB	VERB	_	1	ccomp	_	TokenRange=13:18
+4	dor	dor	ADJ	ADJ	_	3	xcomp	_	TokenRange=19:22
+5	barriga	barriga	NOUN	NOUN	_	3	nsubj	_	TokenRange=23:30
+6	apos	_	ADP	ADP	_	7	case	_	TokenRange=31:35
+7	chegada	chegada	NOUN	NOUN	_	3	nmod	_	TokenRange=36:43
+8	pf	_	X	CONJ	_	12	nsubj	_	TokenRange=44:46
+9	senado	senado	NOUN	NOUN	_	12	nsubj	_	TokenRange=47:53
+10	policia	policia	NOUN	NOUN	_	12	nsubj	_	TokenRange=54:61
+11	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=62:69
+12	chegou	chegar	VERB	VERB	_	1	conj	_	TokenRange=70:76
+13	senado	senado	NOUN	NOUN	_	12	obj	_	TokenRange=77:83
+14	reforcar	reforcar	VERB	VERB	_	12	xcomp	_	TokenRange=84:92
+15	seguranca	_	NOUN	NOUN	_	14	obj	_	TokenRange=93:102
+16	lula	lula	NOUN	NOUN	_	17	nsubj	_	TokenRange=103:107
+17	desapareceu	desaparecer	VERB	VERB	_	12	parataxis	_	TokenRange=108:119
+18	calma	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=120:125
+19	encontraram	encontrar	VERB	VERB	_	12	parataxis	_	TokenRange=126:137
+20	petista	petista	NOUN	NOUN	_	19	obj	_	TokenRange=138:145
+21	wc	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=146:148
+22	alguem	_	DET	DET	_	23	det	_	TokenRange=149:155
+23	banheiro	banheiro	NOUN	NOUN	_	24	nsubj	_	TokenRange=156:164
+24	avisou	avisar	VERB	VERB	_	19	ccomp	_	TokenRange=165:171
+25	expresidente	expresidente	NOUN	NOUN	_	24	obj	_	TokenRange=172:184
+26	poderia	poder	AUX	AUX	_	27	aux	_	TokenRange=185:192
+27	sair	sair	VERB	VERB	_	24	ccomp	_	TokenRange=193:197
+28	permanecer	permanecer	VERB	VERB	_	27	xcomp	_	TokenRange=198:208
+29	recinto	recinto	NOUN	NOUN	_	28	obj	_	TokenRange=209:216
+30	medo	medo	NOUN	NOUN	_	29	amod	_	TokenRange=217:221
+31	tentando	tentar	VERB	VERB	_	27	acl	_	TokenRange=222:230
+32	disfarcar	disfarcar	VERB	VERB	_	31	xcomp	_	TokenRange=231:240
+33	petista	petista	NOUN	NOUN	_	32	obj	_	TokenRange=241:248
+34	comecou	comecar	VERB	VERB	_	27	conj	_	TokenRange=249:256
+35	esfregar	esfregar	VERB	VERB	_	34	xcomp	_	TokenRange=257:265
+36	maos	mao	NOUN	NOUN	_	35	obj	_	TokenRange=266:270
+37	barriga	barriga	NOUN	NOUN	_	36	flat	_	TokenRange=271:278
+38	demonstrar	demonstrar	VERB	VERB	_	35	ccomp	_	TokenRange=279:289
+39	pouco	pouco	ADV	ADV	_	40	advmod	_	TokenRange=290:295
+40	indisposto	indisposto	ADJ	ADJ	_	38	xcomp	_	TokenRange=296:306
+41	dor	dor	NOUN	NOUN	_	45	obj	_	TokenRange=307:310
+42	barriga	barriga	NOUN	NOUN	_	41	flat	_	TokenRange=311:318
+43	hein	_	PART	PRT	_	45	nsubj	_	TokenRange=319:323
+44	lula	_	NOUN	NOUN	_	45	obj	_	TokenRange=324:328
+45	susto	sustar	VERB	VERB	_	34	conj	_	SpaceAfter=No|TokenRange=329:334
+

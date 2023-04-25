@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tribunal federal nega pedido paulo okamotto anular sentenca expresidente instituto lula absolvido juiz sergio moro crime lavagem dinheiro falta provas assim defesa recorreu sentenca 8 turma tribunal regional federal trf 4 regiao negou nesta quintafeira 19 pedido habeas corpus defesa expresidente instituto lula paulo tarciso okamotto tentava anulacao sentenca processo levou condenacao nove anos meio expresidente republica luiz inacio lula silva corrupcao passiva
+1	tribunal	tribunal	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+3	nega	negar	VERB	VERB	_	0	root	_	TokenRange=17:21
+4	pedido	pedido	NOUN	NOUN	_	3	obj	_	TokenRange=22:28
+5	paulo	paulo	NOUN	NOUN	_	7	mark	_	TokenRange=29:34
+6	okamotto	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=35:43
+7	anular	anular	VERB	VERB	_	4	nmod	_	TokenRange=44:50
+8	sentenca	_	NOUN	NOUN	_	7	obj	_	TokenRange=51:59
+9	expresidente	expresidente	NOUN	NOUN	_	7	obj	_	TokenRange=60:72
+10	instituto	instituto	NOUN	NOUN	_	9	appos	_	TokenRange=73:82
+11	lula	lula	NOUN	NOUN	_	10	flat	_	TokenRange=83:87
+12	absolvido	absolver	VERB	VERB	_	13	acl	_	TokenRange=88:97
+13	juiz	juiz	NOUN	NOUN	_	7	obj	_	TokenRange=98:102
+14	sergio	sergio	ADJ	ADJ	_	13	amod	_	TokenRange=103:109
+15	moro	moro	NOUN	NOUN	_	13	amod	_	TokenRange=110:114
+16	crime	crime	NOUN	NOUN	_	13	appos	_	TokenRange=115:120
+17	lavagem	lavagem	NOUN	NOUN	_	16	appos	_	TokenRange=121:128
+18	dinheiro	dinheiro	NOUN	NOUN	_	17	flat	_	TokenRange=129:137
+19	falta	_	VERB	VERB	_	3	parataxis	_	TokenRange=138:143
+20	provas	prova	NOUN	NOUN	_	19	obj	_	TokenRange=144:150
+21	assim	assim	ADV	ADV	_	23	advmod	_	TokenRange=151:156
+22	defesa	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=157:163
+23	recorreu	recorrer	VERB	VERB	_	20	acl:relcl	_	TokenRange=164:172
+24	sentenca	_	NOUN	NOUN	_	23	obj	_	TokenRange=173:181
+25	8	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=182:183
+26	turma	turma	NOUN	NOUN	_	23	nsubj	_	TokenRange=184:189
+27	tribunal	tribunal	NOUN	NOUN	_	24	appos	_	TokenRange=190:198
+28	regional	regional	ADJ	ADJ	_	27	amod	_	TokenRange=199:207
+29	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=208:215
+30	trf	trf	NOUN	NOUN	_	27	appos	_	TokenRange=216:219
+31	4	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=220:221
+32	regiao	regiao	NOUN	NOUN	_	30	appos	_	TokenRange=222:228
+33	negou	negar	VERB	VERB	_	23	parataxis	_	TokenRange=229:234
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=235:240
+35	quintafeira	quintafeira	NOUN	NOUN	_	33	nmod	_	TokenRange=241:252
+36	19	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=253:255
+37	pedido	pedido	NOUN	NOUN	_	35	appos	_	TokenRange=256:262
+38	habeas	habeas	NOUN	NOUN	_	37	appos	_	TokenRange=263:269
+39	corpus	corpus	NOUN	NOUN	_	38	flat	_	TokenRange=270:276
+40	defesa	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=277:283
+41	expresidente	expresidente	NOUN	NOUN	_	40	appos	_	TokenRange=284:296
+42	instituto	instituto	NOUN	NOUN	_	41	appos	_	TokenRange=297:306
+43	lula	lula	ADJ	ADJ	_	42	amod	_	TokenRange=307:311
+44	paulo	paulo	NOUN	NOUN	_	41	appos	_	TokenRange=312:317
+45	tarciso	tarciso	ADJ	NOUN	_	44	flat	_	TokenRange=318:325
+46	okamotto	_	NOUN	NOUN	_	44	flat	_	TokenRange=326:334
+47	tentava	tentar	VERB	VERB	_	33	parataxis	_	TokenRange=335:342
+48	anulacao	anulacao	ADJ	ADJ	_	47	xcomp	_	TokenRange=343:351
+49	sentenca	sentenco	ADJ	ADJ	_	47	obj	_	TokenRange=352:360
+50	processo	processo	NOUN	NOUN	_	47	nsubj	_	TokenRange=361:369
+51	levou	levar	VERB	VERB	_	47	parataxis	_	TokenRange=370:375
+52	condenacao	condenacao	NOUN	NOUN	_	51	obj	_	TokenRange=376:386
+53	nove	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=387:391
+54	anos	ano	NOUN	NOUN	_	51	nmod	_	TokenRange=392:396
+55	meio	meio	ADJ	ADJ	_	54	amod	_	TokenRange=397:401
+56	expresidente	expresidente	NOUN	NOUN	_	54	appos	_	TokenRange=402:414
+57	republica	republico	ADJ	ADJ	_	56	amod	_	TokenRange=415:424
+58	luiz	luiz	NOUN	NOUN	_	56	appos	_	TokenRange=425:429
+59	inacio	_	NOUN	NOUN	_	58	flat	_	TokenRange=430:436
+60	lula	lula	ADJ	ADJ	_	58	flat	_	TokenRange=437:441
+61	silva	silva	ADJ	ADJ	_	58	flat	_	TokenRange=442:447
+62	corrupcao	corrupcao	NOUN	NOUN	_	51	obj	_	TokenRange=448:457
+63	passiva	passivo	ADJ	ADJ	_	62	amod	_	SpaceAfter=No|TokenRange=458:465
+

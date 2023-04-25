@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = homenagem constante diz viuva domingos montagner morto ano ator morreu afogado rio francisco sergipe grupo laminima apresenta peca la carte criada montagner sesc 24 maio nesta sexta 15 familia amigos ator domingos montagner morreu acidente rio francisco sergipe ano relembram diariamente perda artista pretendem
+1	homenagem	homenagem	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	constante	constante	ADJ	ADJ	_	1	amod	_	TokenRange=10:19
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=20:23
+4	viuva	_	NOUN	NOUN	_	3	obj	_	TokenRange=24:29
+5	domingos	_	PROPN	PNOUN	_	4	appos	_	TokenRange=30:38
+6	montagner	_	NOUN	NOUN	_	5	flat	_	TokenRange=39:48
+7	morto	morto	ADJ	ADJ	_	8	amod	_	TokenRange=49:54
+8	ano	ano	NOUN	NOUN	_	10	nmod	_	TokenRange=55:58
+9	ator	ator	NOUN	NOUN	_	10	nsubj	_	TokenRange=59:63
+10	morreu	morrer	VERB	VERB	_	4	acl:relcl	_	TokenRange=64:70
+11	afogado	afogado	ADJ	ADJ	_	10	xcomp	_	TokenRange=71:78
+12	rio	rio	NOUN	NOUN	_	10	nsubj	_	TokenRange=79:82
+13	francisco	francisco	ADJ	ADJ	_	12	amod	_	TokenRange=83:92
+14	sergipe	sergipe	ADJ	ADJ	_	15	amod	_	TokenRange=93:100
+15	grupo	grupo	NOUN	NOUN	_	17	nsubj	_	TokenRange=101:106
+16	laminima	laminimo	ADJ	ADJ	_	15	amod	_	TokenRange=107:115
+17	apresenta	apresentar	VERB	VERB	_	3	conj	_	TokenRange=116:125
+18	peca	peca	NOUN	NOUN	_	17	obj	_	TokenRange=126:130
+19	la	_	DET	DET	_	20	det	_	TokenRange=131:133
+20	carte	carte	NOUN	NOUN	_	18	appos	_	TokenRange=134:139
+21	criada	criar	ADJ	ADJ	_	20	amod	_	TokenRange=140:146
+22	montagner	_	NOUN	NOUN	_	20	appos	_	TokenRange=147:156
+23	sesc	_	PROPN	PNOUN	_	18	appos	_	TokenRange=157:161
+24	24	_	NUM	NUM	NumType=Card	23	appos	_	TokenRange=162:164
+25	maio	_	PROPN	PNOUN	_	23	nmod	_	TokenRange=165:169
+26	nesta	_	ADP	ADP	_	27	case	_	TokenRange=170:175
+27	sexta	_	PROPN	PNOUN	_	23	nmod	_	TokenRange=176:181
+28	15	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=182:184
+29	familia	familia	NOUN	NOUN	_	34	nsubj	_	TokenRange=185:192
+30	amigos	amigo	ADJ	ADJ	_	29	amod	_	TokenRange=193:199
+31	ator	ator	NOUN	NOUN	_	44	nsubj	_	TokenRange=200:204
+32	domingos	_	PROPN	PNOUN	_	31	appos	_	TokenRange=205:213
+33	montagner	_	NOUN	NOUN	_	31	flat	_	TokenRange=214:223
+34	morreu	morrer	VERB	VERB	_	3	parataxis	_	TokenRange=224:230
+35	acidente	acidente	NOUN	NOUN	_	34	xcomp	_	TokenRange=231:239
+36	rio	rio	NOUN	NOUN	_	35	appos	_	TokenRange=240:243
+37	francisco	francisco	ADJ	ADJ	_	36	amod	_	TokenRange=244:253
+38	sergipe	sergipe	ADJ	ADJ	_	39	amod	_	TokenRange=254:261
+39	ano	ano	NOUN	NOUN	_	36	appos	_	TokenRange=262:265
+40	relembram	relembrar	VERB	VERB	_	3	parataxis	_	TokenRange=266:275
+41	diariamente	diariamente	ADV	ADV	_	44	advmod	_	TokenRange=276:287
+42	perda	perda	NOUN	NOUN	_	44	obj	_	TokenRange=288:293
+43	artista	artista	NOUN	NOUN	_	42	flat	_	TokenRange=294:301
+44	pretendem	pretender	VERB	VERB	_	40	parataxis	_	SpaceAfter=No|TokenRange=302:311
+

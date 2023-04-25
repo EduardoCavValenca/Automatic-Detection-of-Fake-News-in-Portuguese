@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = engenheiro glaucos costamarques afirmou interrogatorio perante juiz federal sergio moro 6 setembro recebeu alugueis apartamento 121 edificio hill house bernardo campo sp ocupado expresidente lula nesta segundafeira 25 petista apresentou recibos comprovariam pagamento imovel sido adquirido empreiteira odebrecht meio glaucos suposto laranja expresidente negocio forma propina lula reu nesta acao penal corrupcao passiva lavagem dinheiro lava jato afirma pagamento aluguel fevereiro 2011 novembro 2015 recebi disse glaucos taxativamente interrogatorio engenheiro declarou pagamento atrasados recibos entregues defesa expresidente contestam versao procuradores segundo documentacao
+1	engenheiro	engenheiro	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	glaucos	glauco	ADJ	ADJ	_	1	amod	_	TokenRange=11:18
+3	costamarques	costamarque	NOUN	NOUN	_	1	flat	_	TokenRange=19:31
+4	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=32:39
+5	interrogatorio	interrogatorio	NOUN	NOUN	_	4	obj	_	TokenRange=40:54
+6	perante	_	ADP	ADP	_	7	case	_	TokenRange=55:62
+7	juiz	juiz	NOUN	NOUN	_	4	nmod	_	TokenRange=63:67
+8	federal	federal	ADJ	ADJ	_	7	amod	_	TokenRange=68:75
+9	sergio	sergio	NOUN	NOUN	_	7	appos	_	TokenRange=76:82
+10	moro	moro	NOUN	NOUN	_	9	flat	_	TokenRange=83:87
+11	6	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=88:89
+12	setembro	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=90:98
+13	recebeu	receber	VERB	VERB	_	4	parataxis	_	TokenRange=99:106
+14	alugueis	aluguel	ADJ	ADJ	_	15	amod	_	TokenRange=107:115
+15	apartamento	apartamento	NOUN	NOUN	_	13	obj	_	TokenRange=116:127
+16	121	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=128:131
+17	edificio	edificio	NOUN	NOUN	_	15	appos	_	TokenRange=132:140
+18	hill	_	NOUN	NOUN	_	17	appos	_	TokenRange=141:145
+19	house	house	NOUN	NOUN	_	17	flat	_	TokenRange=146:151
+20	bernardo	bernardo	NOUN	NOUN	_	17	appos	_	TokenRange=152:160
+21	campo	campo	NOUN	NOUN	_	20	flat	_	TokenRange=161:166
+22	sp	_	NOUN	NOUN	_	24	amod	_	TokenRange=167:169
+23	ocupado	ocupar	VERB	VERB	_	17	acl	_	TokenRange=170:177
+24	expresidente	expresidente	NOUN	NOUN	_	23	nsubj	_	TokenRange=178:190
+25	lula	_	ADJ	ADJ	_	24	amod	_	TokenRange=191:195
+26	nesta	_	ADP	ADP	_	27	case	_	TokenRange=196:201
+27	segundafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=202:214
+28	25	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=215:217
+29	petista	petista	NOUN	NOUN	_	30	nsubj	_	TokenRange=218:225
+30	apresentou	apresentar	VERB	VERB	_	4	parataxis	_	TokenRange=226:236
+31	recibos	recibo	NOUN	NOUN	_	30	obj	_	TokenRange=237:244
+32	comprovariam	comprovar	VERB	VERB	_	30	parataxis	_	TokenRange=245:257
+33	pagamento	pagamento	NOUN	NOUN	_	32	obj	_	TokenRange=258:267
+34	imovel	imovel	ADJ	ADJ	_	33	amod	_	TokenRange=268:274
+35	sido	ser	AUX	AUX	_	36	aux:pass	_	TokenRange=275:279
+36	adquirido	adquirir	VERB	VERB	_	33	acl	_	TokenRange=280:289
+37	empreiteira	empreiteiro	NOUN	NOUN	_	36	nsubj:pass	_	TokenRange=290:301
+38	odebrecht	_	NOUN	NOUN	_	37	appos	_	TokenRange=302:311
+39	meio	meio	NOUN	NOUN	_	40	amod	_	TokenRange=312:316
+40	glaucos	glauco	NOUN	NOUN	_	37	appos	_	TokenRange=317:324
+41	suposto	suposto	ADJ	ADJ	_	42	amod	_	TokenRange=325:332
+42	laranja	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=333:340
+43	expresidente	expresidente	NOUN	NOUN	_	42	appos	_	TokenRange=341:353
+44	negocio	negocio	NOUN	NOUN	_	42	appos	_	TokenRange=354:361
+45	forma	forma	NOUN	NOUN	_	42	appos	_	TokenRange=362:367
+46	propina	propino	ADJ	ADJ	_	45	amod	_	TokenRange=368:375
+47	lula	_	NOUN	NOUN	_	45	appos	_	TokenRange=376:380
+48	reu	_	NOUN	NOUN	_	45	appos	_	TokenRange=381:384
+49	nesta	_	ADP	ADP	_	50	case	_	TokenRange=385:390
+50	acao	acao	NOUN	NOUN	_	13	nmod	_	TokenRange=391:395
+51	penal	penal	ADJ	ADJ	_	50	amod	_	TokenRange=396:401
+52	corrupcao	corrupcao	NOUN	NOUN	_	50	appos	_	TokenRange=402:411
+53	passiva	passivo	ADJ	ADJ	_	50	amod	_	TokenRange=412:419
+54	lavagem	lavagem	NOUN	NOUN	_	58	nsubj	_	TokenRange=420:427
+55	dinheiro	dinheiro	NOUN	NOUN	_	54	flat	_	TokenRange=428:436
+56	lava	lava	NOUN	NOUN	_	54	appos	_	TokenRange=437:441
+57	jato	jato	NOUN	NOUN	_	54	flat	_	TokenRange=442:446
+58	afirma	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=447:453
+59	pagamento	pagamento	NOUN	NOUN	_	58	obj	_	TokenRange=454:463
+60	aluguel	aluguel	ADJ	ADJ	_	59	amod	_	TokenRange=464:471
+61	fevereiro	_	PROPN	PNOUN	_	59	appos	_	TokenRange=472:481
+62	2011	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=482:486
+63	novembro	_	PROPN	PNOUN	_	58	nmod	_	TokenRange=487:495
+64	2015	_	NUM	NUM	NumType=Card	63	nmod	_	TokenRange=496:500
+65	recebi	receber	NOUN	NOUN	_	66	nsubj	_	TokenRange=501:507
+66	disse	dizer	VERB	VERB	_	58	parataxis	_	TokenRange=508:513
+67	glaucos	glauco	NOUN	NOUN	_	66	obj	_	TokenRange=514:521
+68	taxativamente	taxativamente	ADV	ADV	_	69	advmod	_	TokenRange=522:535
+69	interrogatorio	interrogatorio	NOUN	NOUN	_	67	amod	_	TokenRange=536:550
+70	engenheiro	engenheiro	NOUN	NOUN	_	69	appos	_	TokenRange=551:561
+71	declarou	declarar	VERB	VERB	_	66	ccomp	_	TokenRange=562:570
+72	pagamento	pagamento	NOUN	NOUN	_	71	obj	_	TokenRange=571:580
+73	atrasados	atrasado	ADJ	ADJ	_	72	amod	_	TokenRange=581:590
+74	recibos	recibo	NOUN	NOUN	_	71	obj	_	TokenRange=591:598
+75	entregues	entregar	ADJ	ADJ	_	76	amod	_	TokenRange=599:608
+76	defesa	_	NOUN	NOUN	_	71	obj	_	TokenRange=609:615
+77	expresidente	expresidente	NOUN	NOUN	_	76	amod	_	TokenRange=616:628
+78	contestam	contestar	VERB	VERB	_	66	parataxis	_	TokenRange=629:638
+79	versao	versao	NOUN	NOUN	_	78	obj	_	TokenRange=639:645
+80	procuradores	procurador	NOUN	NOUN	_	78	obj	_	TokenRange=646:658
+81	segundo	_	ADP	ADP	_	82	case	_	TokenRange=659:666
+82	documentacao	documentacao	NOUN	NOUN	_	78	nmod	_	SpaceAfter=No|TokenRange=667:679
+

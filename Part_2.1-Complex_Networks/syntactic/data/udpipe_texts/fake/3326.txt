@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estado islamico mata 135 sequestra outros 400 civis grupo terrorista estado islamico sequestrou cerca 400 civis quais mulheres criancas ataque sabado cidade deir ezzor siria durante matou 135 pessoas divulgou hoje organizacao naogovernamental diretor observatorio sirio direitos humanos osdh rami abdel rahmane disse agencia noticias francesa afp cerca 400 civis levados bairro albaghaliyeh outros proximos regioes controladas estado islamico ei sequestrados incluemse mulheres criancas familias combatentes proregime disse responsavel ong
+1	estado	estado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	islamico	islamico	ADJ	ADJ	_	1	amod	_	TokenRange=7:15
+3	mata	matar	VERB	VERB	_	0	root	_	TokenRange=16:20
+4	135	_	NUM	NUM	NumType=Card	3	obj	_	TokenRange=21:24
+5	sequestra	sequestrar	VERB	VERB	_	3	ccomp	_	TokenRange=25:34
+6	outros	_	DET	DET	_	8	det	_	TokenRange=35:41
+7	400	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=42:45
+8	civis	civil	NOUN	NOUN	_	5	obj	_	TokenRange=46:51
+9	grupo	grupo	NOUN	NOUN	_	13	nsubj	_	TokenRange=52:57
+10	terrorista	terrorista	ADJ	ADJ	_	9	amod	_	TokenRange=58:68
+11	estado	estado	NOUN	NOUN	_	9	appos	_	TokenRange=69:75
+12	islamico	islamico	ADJ	ADJ	_	11	amod	_	TokenRange=76:84
+13	sequestrou	sequestrar	VERB	VERB	_	3	parataxis	_	TokenRange=85:95
+14	cerca	cerca	ADV	ADV	_	15	advmod	_	TokenRange=96:101
+15	400	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=102:105
+16	civis	civil	NOUN	NOUN	_	13	obj	_	TokenRange=106:111
+17	quais	_	DET	DET	_	18	det	_	TokenRange=112:117
+18	mulheres	mulher	NOUN	NOUN	_	13	nsubj	_	TokenRange=118:126
+19	criancas	crianca	ADJ	ADJ	_	18	amod	_	TokenRange=127:135
+20	ataque	ataque	NOUN	NOUN	_	13	parataxis	_	TokenRange=136:142
+21	sabado	_	ADJ	ADJ	_	22	amod	_	TokenRange=143:149
+22	cidade	cidade	NOUN	NOUN	_	20	appos	_	TokenRange=150:156
+23	deir	deir	NOUN	NOUN	_	22	appos	_	TokenRange=157:161
+24	ezzor	ezzor	NOUN	NOUN	_	23	flat	_	TokenRange=162:167
+25	siria	_	ADJ	ADJ	_	22	amod	_	TokenRange=168:173
+26	durante	_	ADP	ADP	_	27	mark	_	TokenRange=174:181
+27	matou	matar	VERB	VERB	_	13	advcl	_	TokenRange=182:187
+28	135	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=188:191
+29	pessoas	pessoa	NOUN	NOUN	_	27	obj	_	TokenRange=192:199
+30	divulgou	divulgar	VERB	VERB	_	13	parataxis	_	TokenRange=200:208
+31	hoje	hoje	ADV	ADV	_	30	advmod	_	TokenRange=209:213
+32	organizacao	organizacao	NOUN	NOUN	_	30	nsubj	_	TokenRange=214:225
+33	naogovernamental	naogovernamental	ADJ	ADJ	_	32	amod	_	TokenRange=226:242
+34	diretor	diretor	ADJ	ADJ	_	32	amod	_	TokenRange=243:250
+35	observatorio	observatorio	NOUN	NOUN	_	32	appos	_	TokenRange=251:263
+36	sirio	sirio	ADJ	ADJ	_	35	amod	_	TokenRange=264:269
+37	direitos	direito	NOUN	NOUN	_	35	appos	_	TokenRange=270:278
+38	humanos	humano	ADJ	ADJ	_	37	amod	_	TokenRange=279:286
+39	osdh	_	NOUN	NOUN	_	40	appos	_	TokenRange=287:291
+40	rami	rami	NOUN	NOUN	_	43	nsubj	_	TokenRange=292:296
+41	abdel	_	NOUN	NOUN	_	40	flat	_	TokenRange=297:302
+42	rahmane	_	NOUN	NOUN	_	40	flat	_	TokenRange=303:310
+43	disse	dizer	VERB	VERB	_	13	parataxis	_	TokenRange=311:316
+44	agencia	agencia	NOUN	NOUN	_	43	obj	_	TokenRange=317:324
+45	noticias	_	NOUN	NOUN	_	44	flat	_	TokenRange=325:333
+46	francesa	francês	ADJ	ADJ	_	44	amod	_	TokenRange=334:342
+47	afp	afp	NOUN	NOUN	_	44	appos	_	TokenRange=343:346
+48	cerca	cerca	ADV	ADV	_	49	advmod	_	TokenRange=347:352
+49	400	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=353:356
+50	civis	civil	NOUN	NOUN	_	68	nsubj	_	TokenRange=357:362
+51	levados	levar	VERB	VERB	_	50	acl	_	TokenRange=363:370
+52	bairro	bairro	NOUN	NOUN	_	50	appos	_	TokenRange=371:377
+53	albaghaliyeh	_	ADJ	ADJ	_	52	amod	_	TokenRange=378:390
+54	outros	_	DET	DET	_	56	det	_	TokenRange=391:397
+55	proximos	proximo	ADJ	ADJ	_	56	amod	_	TokenRange=398:406
+56	regioes	regioe	NOUN	NOUN	_	52	appos	_	TokenRange=407:414
+57	controladas	controlar	VERB	VERB	_	56	acl	_	TokenRange=415:426
+58	estado	estado	NOUN	NOUN	_	56	appos	_	TokenRange=427:433
+59	islamico	islamico	ADJ	ADJ	_	58	amod	_	TokenRange=434:442
+60	ei	_	CCONJ	PRON	_	61	nsubj:pass	_	TokenRange=443:445
+61	sequestrados	sequestrar	VERB	VERB	_	56	acl	_	TokenRange=446:458
+62	incluemse	_	ADV	VERB	_	63	amod	_	TokenRange=459:468
+63	mulheres	mulher	NOUN	NOUN	_	61	obj	_	TokenRange=469:477
+64	criancas	crianca	ADJ	NOUN	_	63	amod	_	TokenRange=478:486
+65	familias	familia	NOUN	NOUN	_	63	amod	_	TokenRange=487:495
+66	combatentes	combatente	ADJ	ADJ	_	63	amod	_	TokenRange=496:507
+67	proregime	proregime	ADJ	ADJ	_	63	amod	_	TokenRange=508:517
+68	disse	dizer	VERB	VERB	_	43	parataxis	_	TokenRange=518:523
+69	responsavel	responsavel	ADJ	ADJ	_	68	xcomp	_	TokenRange=524:535
+70	ong	ong	ADV	ADV	_	68	advmod	_	SpaceAfter=No|TokenRange=536:539
+

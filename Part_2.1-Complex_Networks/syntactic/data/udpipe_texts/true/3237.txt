@@ -1,0 +1,22 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cristovam buarque avalia deixar vida publica senador pps chama ciro bolsonaro extremos atrasados critica
+1	cristovam	cristovar	VERB	VERB	_	0	root	_	TokenRange=0:9
+2	buarque	buarque	NOUN	NOUN	_	3	nsubj	_	TokenRange=10:17
+3	avalia	avaliar	VERB	VERB	_	1	ccomp	_	TokenRange=18:24
+4	deixar	deixar	VERB	VERB	_	3	xcomp	_	TokenRange=25:31
+5	vida	vida	NOUN	NOUN	_	4	obj	_	TokenRange=32:36
+6	publica	publico	ADJ	ADJ	_	5	amod	_	TokenRange=37:44
+7	senador	senador	NOUN	NOUN	_	9	nsubj	_	TokenRange=45:52
+8	pps	_	NOUN	NOUN	_	7	appos	_	TokenRange=53:56
+9	chama	chamar	VERB	VERB	_	3	parataxis	_	TokenRange=57:62
+10	ciro	ciro	NOUN	NOUN	_	9	obj	_	TokenRange=63:67
+11	bolsonaro	bolsonaro	ADJ	ADJ	_	10	amod	_	TokenRange=68:77
+12	extremos	extremo	NOUN	NOUN	_	10	appos	_	TokenRange=78:86
+13	atrasados	atrasado	ADJ	ADJ	_	12	amod	_	TokenRange=87:96
+14	critica	_	ADJ	ADJ	_	12	amod	_	SpaceAfter=No|TokenRange=97:104
+

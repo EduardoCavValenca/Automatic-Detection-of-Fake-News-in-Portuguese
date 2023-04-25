@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aecio sobe tribuna nega crimes diz condenado chance defesa senador psdb afastado mandato desde 18 maio decisao edson fachin tucano discursou 20 minutos criticou delacao aplaudido senadores senador aecio neves psdbmg subiu tribuna senado nesta tercafeira 3 defender acusacoes ministerio publico federal contra durante pronunciamento durou 20 minutos tucano afirmou cometeu crimes disse indignado chamou injustica afirmou condenado previamente chance defesa aecio retornou senado nesta terca apos mes afastado atividades
+1	aecio	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	sobe	subir	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	tribuna	tribuna	NOUN	NOUN	_	2	obj	_	TokenRange=11:18
+4	nega	_	VERB	VERB	_	5	case	_	TokenRange=19:23
+5	crimes	crime	NOUN	NOUN	_	2	obj	_	TokenRange=24:30
+6	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=31:34
+7	condenado	condenado	ADJ	ADJ	_	8	amod	_	TokenRange=35:44
+8	chance	chance	NOUN	NOUN	_	2	obj	_	TokenRange=45:51
+9	defesa	_	ADJ	ADJ	_	8	amod	_	TokenRange=52:58
+10	senador	senador	NOUN	NOUN	_	8	appos	_	TokenRange=59:66
+11	psdb	_	PROPN	PNOUN	_	10	appos	_	TokenRange=67:71
+12	afastado	afastado	ADJ	ADJ	_	10	amod	_	TokenRange=72:80
+13	mandato	mandato	NOUN	NOUN	_	10	appos	_	TokenRange=81:88
+14	desde	_	ADP	ADP	_	16	case	_	TokenRange=89:94
+15	18	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=95:97
+16	maio	_	PROPN	PNOUN	_	21	nmod	_	TokenRange=98:102
+17	decisao	decisao	NOUN	NOUN	_	21	nsubj	_	TokenRange=103:110
+18	edson	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=111:116
+19	fachin	_	NOUN	NOUN	_	18	flat	_	TokenRange=117:123
+20	tucano	tucano	NOUN	NOUN	_	18	flat	_	TokenRange=124:130
+21	discursou	discursar	VERB	VERB	_	2	conj	_	TokenRange=131:140
+22	20	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=141:143
+23	minutos	minuto	NOUN	NOUN	_	21	nmod	_	TokenRange=144:151
+24	criticou	criticar	VERB	VERB	_	21	parataxis	_	TokenRange=152:160
+25	delacao	_	NOUN	NOUN	_	24	obj	_	TokenRange=161:168
+26	aplaudido	aplaudido	ADJ	ADJ	_	25	amod	_	TokenRange=169:178
+27	senadores	senador	NOUN	NOUN	_	24	nsubj	_	TokenRange=179:188
+28	senador	senador	NOUN	NOUN	_	32	nsubj	_	TokenRange=189:196
+29	aecio	_	NOUN	NOUN	_	28	appos	_	TokenRange=197:202
+30	neves	neve	ADJ	ADJ	_	29	flat	_	TokenRange=203:208
+31	psdbmg	_	NOUN	NOUN	_	28	flat	_	TokenRange=209:215
+32	subiu	subir	VERB	VERB	_	21	parataxis	_	TokenRange=216:221
+33	tribuna	tribuna	NOUN	NOUN	_	32	obj	_	TokenRange=222:229
+34	senado	senado	NOUN	NOUN	_	33	appos	_	TokenRange=230:236
+35	nesta	_	ADP	ADP	_	36	case	_	TokenRange=237:242
+36	tercafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=243:253
+37	3	_	NUM	NUM	NumType=Card	36	appos	_	TokenRange=254:255
+38	defender	defender	VERB	VERB	_	32	parataxis	_	TokenRange=256:264
+39	acusacoes	acusacoe	NOUN	NOUN	_	38	obj	_	TokenRange=265:274
+40	ministerio	ministerio	NOUN	NOUN	_	39	appos	_	TokenRange=275:285
+41	publico	_	ADJ	ADJ	_	40	amod	_	TokenRange=286:293
+42	federal	federal	ADJ	ADJ	_	40	amod	_	TokenRange=294:301
+43	contra	_	ADV	CONJ	_	46	mark	_	TokenRange=302:308
+44	durante	_	ADP	ADP	_	45	case	_	TokenRange=309:316
+45	pronunciamento	pronunciamento	NOUN	NOUN	_	46	nmod	_	TokenRange=317:331
+46	durou	durar	VERB	VERB	_	32	advcl	_	TokenRange=332:337
+47	20	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=338:340
+48	minutos	minuto	NOUN	NOUN	_	46	nmod	_	TokenRange=341:348
+49	tucano	tucano	NOUN	NOUN	_	50	nsubj	_	TokenRange=349:355
+50	afirmou	afirmar	VERB	VERB	_	46	conj	_	TokenRange=356:363
+51	cometeu	cometer	VERB	VERB	_	50	xcomp	_	TokenRange=364:371
+52	crimes	crime	NOUN	NOUN	_	51	obj	_	TokenRange=372:378
+53	disse	dizer	VERB	VERB	_	51	parataxis	_	TokenRange=379:384
+54	indignado	indignado	ADJ	ADJ	_	53	xcomp	_	TokenRange=385:394
+55	chamou	chamar	VERB	VERB	_	53	conj	_	TokenRange=395:401
+56	injustica	injustico	ADJ	ADJ	_	55	xcomp	_	TokenRange=402:411
+57	afirmou	afirmar	VERB	VERB	_	50	parataxis	_	TokenRange=412:419
+58	condenado	condenar	VERB	VERB	_	63	xcomp	_	TokenRange=420:429
+59	previamente	previamente	ADV	ADV	_	58	advmod	_	TokenRange=430:441
+60	chance	chance	NOUN	NOUN	_	63	obj	_	TokenRange=442:448
+61	defesa	_	NOUN	NOUN	_	60	amod	_	TokenRange=449:455
+62	aecio	_	PROPN	PNOUN	_	63	nsubj	_	TokenRange=456:461
+63	retornou	retornar	VERB	VERB	_	57	parataxis	_	TokenRange=462:470
+64	senado	senado	NOUN	NOUN	_	63	obj	_	TokenRange=471:477
+65	nesta	_	ADP	ADP	_	66	case	_	TokenRange=478:483
+66	terca	_	PROPN	PNOUN	_	63	nmod	_	TokenRange=484:489
+67	apos	_	ADP	ADP	_	68	case	_	TokenRange=490:494
+68	mes	me	NOUN	NOUN	_	69	nmod	_	TokenRange=495:498
+69	afastado	afastado	ADJ	ADJ	_	63	xcomp	_	TokenRange=499:507
+70	atividades	atividade	NOUN	NOUN	_	63	obj	_	SpaceAfter=No|TokenRange=508:518
+

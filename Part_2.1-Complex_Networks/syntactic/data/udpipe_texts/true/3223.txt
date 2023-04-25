@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alvo mandado conducao coercitiva operacao janus policia federal nesta sextafeira 20 empresario taiguara rodrigues santos afirmou cpi bndes outubro ano passado empresa exergia brasil recebeu us 18 milhao us 2 milhoes servicos prestados odebrecht obra ampliacao modernizacao hidreletrica cambambe angola policia federal investiga pagamentos empresa taiguara utilizados recebimento propinas ocasiao executivo falou quatro horas comissao disse valor referente servicos sondagem avaliacao topografia gerenciamento obras prestados empresa segundo todos contratos obtidos meio licitacoes dentro empreiteira investigacao comecou envio pf procedimento investigacao criminal
+1	alvo	alvo	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:4
+2	mandado	mandado	VERB	VERB	_	1	acl	_	TokenRange=5:12
+3	conducao	conducao	NOUN	NOUN	_	1	appos	_	TokenRange=13:21
+4	coercitiva	coercitivo	ADJ	ADJ	_	3	amod	_	TokenRange=22:32
+5	operacao	operacao	NOUN	NOUN	_	1	appos	_	TokenRange=33:41
+6	janus	_	NOUN	NOUN	_	5	flat	_	TokenRange=42:47
+7	policia	policia	NOUN	NOUN	_	1	appos	_	TokenRange=48:55
+8	federal	federal	ADJ	ADJ	_	7	amod	_	TokenRange=56:63
+9	nesta	_	ADP	ADP	_	10	case	_	TokenRange=64:69
+10	sextafeira	sextafeira	NOUN	NOUN	_	16	nmod	_	TokenRange=70:80
+11	20	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=81:83
+12	empresario	empresario	NOUN	NOUN	_	16	nsubj	_	TokenRange=84:94
+13	taiguara	taiguar	NOUN	NOUN	_	12	appos	_	TokenRange=95:103
+14	rodrigues	_	NOUN	NOUN	_	13	flat	_	TokenRange=104:113
+15	santos	santo	ADJ	ADJ	_	13	amod	_	TokenRange=114:120
+16	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=121:128
+17	cpi	cpi	NOUN	NOUN	_	16	obj	_	TokenRange=129:132
+18	bndes	bndes	NOUN	NOUN	_	17	flat	_	TokenRange=133:138
+19	outubro	_	PROPN	PNOUN	_	20	amod	_	TokenRange=139:146
+20	ano	ano	NOUN	NOUN	_	17	nmod	_	TokenRange=147:150
+21	passado	passado	ADJ	ADJ	_	20	amod	_	TokenRange=151:158
+22	empresa	empresa	NOUN	NOUN	_	16	nsubj	_	TokenRange=159:166
+23	exergia	exergia	NOUN	NOUN	_	22	appos	_	TokenRange=167:174
+24	brasil	brasil	ADJ	ADJ	_	23	amod	_	TokenRange=175:181
+25	recebeu	receber	VERB	VERB	_	16	parataxis	_	TokenRange=182:189
+26	us	_	NOUN	NOUN	_	28	det	_	TokenRange=190:192
+27	18	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=193:195
+28	milhao	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=196:202
+29	us	_	NOUN	NOUN	_	32	det	_	TokenRange=203:205
+30	2	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=206:207
+31	milhoes	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=208:215
+32	servicos	servico	NOUN	NOUN	_	25	obj	_	TokenRange=216:224
+33	prestados	prestar	VERB	VERB	_	32	acl	_	TokenRange=225:234
+34	odebrecht	_	NOUN	NOUN	_	32	appos	_	TokenRange=235:244
+35	obra	obra	NOUN	NOUN	_	32	appos	_	TokenRange=245:249
+36	ampliacao	ampliacao	ADJ	ADJ	_	37	amod	_	TokenRange=250:259
+37	modernizacao	_	NOUN	NOUN	_	34	appos	_	TokenRange=260:272
+38	hidreletrica	_	ADJ	ADJ	_	37	amod	_	TokenRange=273:285
+39	cambambe	cambambe	NOUN	NOUN	_	37	appos	_	TokenRange=286:294
+40	angola	angolo	ADJ	ADJ	_	41	amod	_	TokenRange=295:301
+41	policia	policia	NOUN	NOUN	_	43	nsubj	_	TokenRange=302:309
+42	federal	federal	ADJ	ADJ	_	41	amod	_	TokenRange=310:317
+43	investiga	investigar	VERB	VERB	_	16	parataxis	_	TokenRange=318:327
+44	pagamentos	pagamento	NOUN	NOUN	_	43	obj	_	TokenRange=328:338
+45	empresa	empresa	NOUN	NOUN	_	44	appos	_	TokenRange=339:346
+46	taiguara	taiguar	ADJ	ADJ	_	45	amod	_	TokenRange=347:355
+47	utilizados	utilizar	VERB	VERB	_	44	acl	_	TokenRange=356:366
+48	recebimento	recebimento	NOUN	NOUN	_	47	obj	_	TokenRange=367:378
+49	propinas	propina	NOUN	NOUN	_	48	flat	_	TokenRange=379:387
+50	ocasiao	ocasiao	NOUN	NOUN	_	48	appos	_	TokenRange=388:395
+51	executivo	executivo	ADJ	ADJ	_	50	amod	_	TokenRange=396:405
+52	falou	falar	VERB	VERB	_	43	parataxis	_	TokenRange=406:411
+53	quatro	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=412:418
+54	horas	hora	NOUN	NOUN	_	52	nmod	_	TokenRange=419:424
+55	comissao	comissao	NOUN	NOUN	_	52	nsubj	_	TokenRange=425:433
+56	disse	dizer	VERB	VERB	_	52	parataxis	_	TokenRange=434:439
+57	valor	valor	NOUN	NOUN	_	56	obj	_	TokenRange=440:445
+58	referente	referente	ADJ	ADJ	_	57	amod	_	TokenRange=446:455
+59	servicos	servico	ADJ	ADJ	_	57	amod	_	TokenRange=456:464
+60	sondagem	sondagem	NOUN	NOUN	_	57	appos	_	TokenRange=465:473
+61	avaliacao	avaliacao	ADJ	ADJ	_	60	amod	_	TokenRange=474:483
+62	topografia	topografia	NOUN	NOUN	_	61	obj	_	TokenRange=484:494
+63	gerenciamento	gerenciamento	NOUN	NOUN	_	62	appos	_	TokenRange=495:508
+64	obras	obra	NOUN	NOUN	_	63	appos	_	TokenRange=509:514
+65	prestados	prestar	VERB	VERB	_	64	acl	_	TokenRange=515:524
+66	empresa	empresa	NOUN	NOUN	_	65	nsubj	_	TokenRange=525:532
+67	segundo	_	ADP	ADP	_	69	case	_	TokenRange=533:540
+68	todos	_	DET	DET	_	69	det	_	TokenRange=541:546
+69	contratos	contrato	NOUN	NOUN	_	66	nmod	_	TokenRange=547:556
+70	obtidos	obter	VERB	VERB	_	69	acl	_	TokenRange=557:564
+71	meio	meio	NOUN	NOUN	_	70	nsubj	_	TokenRange=565:569
+72	licitacoes	_	NOUN	NOUN	_	69	appos	_	TokenRange=570:580
+73	dentro	dentro	ADV	ADV	_	74	advmod	_	TokenRange=581:587
+74	empreiteira	empreiteiro	ADJ	ADJ	_	72	amod	_	TokenRange=588:599
+75	investigacao	investigacao	ADJ	ADJ	_	74	amod	_	TokenRange=600:612
+76	comecou	comecar	VERB	VERB	_	56	parataxis	_	TokenRange=613:620
+77	envio	envio	NOUN	NOUN	_	76	obj	_	TokenRange=621:626
+78	pf	_	ADP	ADP	_	79	case	_	TokenRange=627:629
+79	procedimento	procedimento	NOUN	NOUN	_	77	nmod	_	TokenRange=630:642
+80	investigacao	investigacao	ADJ	ADJ	_	79	amod	_	TokenRange=643:655
+81	criminal	criminal	ADJ	ADJ	_	79	amod	_	SpaceAfter=No|TokenRange=656:664
+

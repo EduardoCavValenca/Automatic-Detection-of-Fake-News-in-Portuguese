@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = audio renan calheiros sergio machado michel assumiria garantiria dilma lula audio senador renan calheiros conversando expresidente transpetro tire proprias conclusoes minuto 138 renan diz sergio porque odebrecht falar mulher joao santana falar posto
+1	audio	audio	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:5
+2	renan	_	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	calheiros	calheiro	NOUN	NOUN	_	2	flat	_	TokenRange=12:21
+4	sergio	_	NOUN	NOUN	_	1	appos	_	TokenRange=22:28
+5	machado	machado	NOUN	NOUN	_	2	flat	_	TokenRange=29:36
+6	michel	_	NOUN	NOUN	_	4	flat	_	TokenRange=37:43
+7	assumiria	assumir	VERB	VERB	_	1	acl:relcl	_	TokenRange=44:53
+8	garantiria	garantir	VERB	VERB	_	0	root	_	TokenRange=54:64
+9	dilma	dilma	NOUN	NOUN	_	8	obj	_	TokenRange=65:70
+10	lula	_	NOUN	NOUN	_	9	flat	_	TokenRange=71:75
+11	audio	audio	NOUN	NOUN	_	8	nsubj	_	TokenRange=76:81
+12	senador	senador	NOUN	NOUN	_	8	nsubj	_	TokenRange=82:89
+13	renan	_	NOUN	NOUN	_	12	appos	_	TokenRange=90:95
+14	calheiros	calheiro	NOUN	NOUN	_	12	flat	_	TokenRange=96:105
+15	conversando	conversar	VERB	VERB	_	12	acl	_	TokenRange=106:117
+16	expresidente	expresidente	NOUN	NOUN	_	15	obj	_	TokenRange=118:130
+17	transpetro	transpetro	ADJ	ADJ	_	16	amod	_	TokenRange=131:141
+18	tire	tirar	VERB	VERB	_	8	parataxis	_	TokenRange=142:146
+19	proprias	proprio	ADJ	ADJ	_	20	amod	_	TokenRange=147:155
+20	conclusoes	_	NOUN	NOUN	_	18	obj	_	TokenRange=156:166
+21	minuto	minuto	NOUN	NOUN	_	18	nmod	_	TokenRange=167:173
+22	138	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=174:177
+23	renan	renan	NOUN	NOUN	_	24	nsubj	_	TokenRange=178:183
+24	diz	dizer	VERB	VERB	_	18	parataxis	_	TokenRange=184:187
+25	sergio	_	NOUN	NOUN	_	24	obj	_	TokenRange=188:194
+26	porque	_	CCONJ	CONJ	_	28	mark	_	TokenRange=195:201
+27	odebrecht	_	PROPN	PNOUN	_	28	nsubj	_	TokenRange=202:211
+28	falar	falar	VERB	VERB	_	24	advcl	_	TokenRange=212:217
+29	mulher	mulher	NOUN	NOUN	_	28	obj	_	TokenRange=218:224
+30	joao	joao	NOUN	NOUN	_	32	nsubj	_	TokenRange=225:229
+31	santana	santana	NOUN	NOUN	_	30	flat	_	TokenRange=230:237
+32	falar	falar	VERB	VERB	_	28	ccomp	_	TokenRange=238:243
+33	posto	posto	NOUN	NOUN	_	32	obj	_	SpaceAfter=No|TokenRange=244:249
+

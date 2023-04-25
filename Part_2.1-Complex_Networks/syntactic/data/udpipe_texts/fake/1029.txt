@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado diz sergio moro carater condenou lula 9 anos porque 9 dedos todos conhecem jean wyllys atitudes infantis fato alem pessimo parlamentar representa anseios populacao brasileira jean esconde atras foro privilegiado atacar autoridades pais coisa tipica comunista apos divulgacao sentenca expresidente lula deputado big brother divulgou video decidiu vomitar asneiras internet confira festival besteiras
+1	deputado	deputado	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=9:12
+3	sergio	sergio	NOUN	NOUN	_	2	obj	_	TokenRange=13:19
+4	moro	moro	NOUN	NOUN	_	3	flat	_	TokenRange=20:24
+5	carater	carater	NOUN	NOUN	_	3	flat	_	TokenRange=25:32
+6	condenou	condenar	VERB	VERB	_	2	ccomp	_	TokenRange=33:41
+7	lula	lula	NOUN	NOUN	_	6	obj	_	TokenRange=42:46
+8	9	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=47:48
+9	anos	ano	NOUN	NOUN	_	6	obj	_	TokenRange=49:53
+10	porque	_	CCONJ	CONJ	_	14	mark	_	TokenRange=54:60
+11	9	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=61:62
+12	dedos	dedo	NOUN	NOUN	_	14	nsubj	_	TokenRange=63:68
+13	todos	_	PRON	PRON	_	14	nsubj	_	TokenRange=69:74
+14	conhecem	conhecer	VERB	VERB	_	6	advcl	_	TokenRange=75:83
+15	jean	jean	NOUN	NOUN	_	14	obj	_	TokenRange=84:88
+16	wyllys	_	NOUN	NOUN	_	15	flat	_	TokenRange=89:95
+17	atitudes	atitude	NOUN	NOUN	_	15	appos	_	TokenRange=96:104
+18	infantis	infantil	ADJ	ADJ	_	17	amod	_	TokenRange=105:113
+19	fato	fato	NOUN	NOUN	_	17	appos	_	TokenRange=114:118
+20	alem	alem	NOUN	NOUN	_	21	advmod	_	TokenRange=119:123
+21	pessimo	pessimo	ADJ	ADJ	_	19	amod	_	TokenRange=124:131
+22	parlamentar	parlamentar	ADJ	ADJ	_	19	amod	_	TokenRange=132:143
+23	representa	representar	VERB	VERB	_	6	parataxis	_	TokenRange=144:154
+24	anseios	anseio	NOUN	NOUN	_	23	obj	_	TokenRange=155:162
+25	populacao	populacao	NOUN	NOUN	_	24	appos	_	TokenRange=163:172
+26	brasileira	brasileiro	ADJ	ADJ	_	25	amod	_	TokenRange=173:183
+27	jean	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=184:188
+28	esconde	esconder	VERB	VERB	_	23	parataxis	_	TokenRange=189:196
+29	atras	_	ADV	ADV	_	28	advmod	_	TokenRange=197:202
+30	foro	foro	NOUN	NOUN	_	28	nsubj	_	TokenRange=203:207
+31	privilegiado	privilegiado	ADJ	ADJ	_	30	amod	_	TokenRange=208:220
+32	atacar	atacar	VERB	VERB	_	28	xcomp	_	TokenRange=221:227
+33	autoridades	autoridade	NOUN	NOUN	_	32	obj	_	TokenRange=228:239
+34	pais	_	NOUN	NOUN	_	35	amod	_	TokenRange=240:244
+35	coisa	coisa	NOUN	NOUN	_	33	appos	_	TokenRange=245:250
+36	tipica	tipico	ADJ	ADJ	_	35	amod	_	TokenRange=251:257
+37	comunista	comunista	ADJ	ADJ	_	35	amod	_	TokenRange=258:267
+38	apos	_	ADP	ADP	_	39	case	_	TokenRange=268:272
+39	divulgacao	divulgacao	NOUN	NOUN	_	46	nmod	_	TokenRange=273:283
+40	sentenca	sentenco	ADJ	ADJ	_	41	amod	_	TokenRange=284:292
+41	expresidente	expresidente	NOUN	NOUN	_	39	appos	_	TokenRange=293:305
+42	lula	lula	ADJ	ADJ	_	41	amod	_	TokenRange=306:310
+43	deputado	deputado	NOUN	NOUN	_	46	nsubj	_	TokenRange=311:319
+44	big	_	ADJ	ADJ	_	45	amod	_	TokenRange=320:323
+45	brother	brother	NOUN	NOUN	_	43	appos	_	TokenRange=324:331
+46	divulgou	divulgar	VERB	VERB	_	2	parataxis	_	TokenRange=332:340
+47	video	video	NOUN	NOUN	_	46	obj	_	TokenRange=341:346
+48	decidiu	decidir	VERB	VERB	_	46	parataxis	_	TokenRange=347:354
+49	vomitar	vomitar	VERB	VERB	_	48	xcomp	_	TokenRange=355:362
+50	asneiras	_	NOUN	NOUN	_	49	obj	_	TokenRange=363:371
+51	internet	_	PROPN	PNOUN	_	50	appos	_	TokenRange=372:380
+52	confira	conferir	VERB	VERB	_	46	parataxis	_	TokenRange=381:388
+53	festival	festival	NOUN	NOUN	_	52	obj	_	TokenRange=389:397
+54	besteiras	besteira	NOUN	NOUN	_	53	flat	_	SpaceAfter=No|TokenRange=398:407
+

@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = preocupado delacoes pmdb quer aliado vicepresidencia senado favorito suceder renan calheiros comando casa eunicio oliveira pmdbce alvo denuncias lava jato cupula pmdb quer senador tucano vaga vice dono maior bancada senado pmdb preocupado futuro provavel sucessor renan calheiros pmdbal comando casa atual lider partido eunicio
+1	preocupado	preocupado	ADJ	ADJ	_	2	amod	_	TokenRange=0:10
+2	delacoes	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=11:19
+3	pmdb	_	NOUN	NOUN	_	2	appos	_	TokenRange=20:24
+4	quer	_	CCONJ	CONJ	_	5	cc	_	TokenRange=25:29
+5	aliado	aliado	NOUN	NOUN	_	2	conj	_	TokenRange=30:36
+6	vicepresidencia	_	NOUN	NOUN	_	5	flat	_	TokenRange=37:52
+7	senado	senado	NOUN	NOUN	_	2	appos	_	TokenRange=53:59
+8	favorito	favorito	ADJ	ADJ	_	7	amod	_	TokenRange=60:68
+9	suceder	suceder	VERB	VERB	_	2	acl:relcl	_	TokenRange=69:76
+10	renan	_	NOUN	NOUN	_	9	obj	_	TokenRange=77:82
+11	calheiros	calheiro	NOUN	NOUN	_	10	flat	_	TokenRange=83:92
+12	comando	comandar	NOUN	NOUN	_	2	appos	_	TokenRange=93:100
+13	casa	casa	NOUN	NOUN	_	12	obj	_	TokenRange=101:105
+14	eunicio	_	NOUN	NOUN	_	13	appos	_	TokenRange=106:113
+15	oliveira	_	NOUN	NOUN	_	13	appos	_	TokenRange=114:122
+16	pmdbce	_	NOUN	NOUN	_	0	root	_	TokenRange=123:129
+17	alvo	alvo	ADJ	ADJ	_	16	amod	_	TokenRange=130:134
+18	denuncias	_	NOUN	NOUN	_	16	flat	_	TokenRange=135:144
+19	lava	lavar	VERB	VERB	_	16	parataxis	_	TokenRange=145:149
+20	jato	jato	NOUN	NOUN	_	19	obj	_	TokenRange=150:154
+21	cupula	cupula	NOUN	NOUN	_	19	obj	_	TokenRange=155:161
+22	pmdb	_	NOUN	NOUN	_	21	appos	_	TokenRange=162:166
+23	quer	quer	CCONJ	CONJ	_	24	cc	_	TokenRange=167:171
+24	senador	senador	NOUN	NOUN	_	22	conj	_	TokenRange=172:179
+25	tucano	tucano	ADJ	ADJ	_	24	amod	_	TokenRange=180:186
+26	vaga	vaga	NOUN	NOUN	_	24	appos	_	TokenRange=187:191
+27	vice	_	PART	PRT	_	28	amod	_	TokenRange=192:196
+28	dono	dono	NOUN	NOUN	_	24	appos	_	TokenRange=197:201
+29	maior	maior	ADJ	ADJ	_	28	amod	_	TokenRange=202:207
+30	bancada	bancada	NOUN	NOUN	_	28	appos	_	TokenRange=208:215
+31	senado	senado	ADJ	ADJ	_	30	amod	_	TokenRange=216:222
+32	pmdb	_	NOUN	NOUN	_	28	appos	_	TokenRange=223:227
+33	preocupado	preocupado	ADJ	ADJ	_	32	amod	_	TokenRange=228:238
+34	futuro	futuro	ADJ	ADJ	_	36	amod	_	TokenRange=239:245
+35	provavel	provavel	ADJ	ADJ	_	36	amod	_	TokenRange=246:254
+36	sucessor	sucessor	NOUN	NOUN	_	32	amod	_	TokenRange=255:263
+37	renan	_	NOUN	NOUN	_	36	appos	_	TokenRange=264:269
+38	calheiros	calheiro	NOUN	NOUN	_	37	flat	_	TokenRange=270:279
+39	pmdbal	_	ADJ	ADJ	_	36	amod	_	TokenRange=280:286
+40	comando	comandar	VERB	VERB	_	36	appos	_	TokenRange=287:294
+41	casa	casa	NOUN	NOUN	_	40	obj	_	TokenRange=295:299
+42	atual	atual	ADJ	ADJ	_	44	amod	_	TokenRange=300:305
+43	lider	lider	NOUN	NOUN	_	40	obj	_	TokenRange=306:311
+44	partido	partido	NOUN	NOUN	_	43	appos	_	TokenRange=312:319
+45	eunicio	eunicio	ADJ	ADJ	_	44	amod	_	SpaceAfter=No|TokenRange=320:327
+

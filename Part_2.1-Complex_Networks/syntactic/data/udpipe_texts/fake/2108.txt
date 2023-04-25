@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria responde lula sobre casa vive comprei dinheiro diferente filhos lula fez declaracao sobre entao candidato prefeitura paulo joao doria jr declaracao povo induzido imprensa gostar mim porque mulher comprou cisne filho vai votar joao doria mora casa vale 10 milhoes cisnes casaco daria comprar dois cisnes marisa dois barquinhos resposta doria
+1	doria	doria	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	responde	responder	VERB	VERB	_	0	root	_	TokenRange=6:14
+3	lula	lula	NOUN	NOUN	_	2	obj	_	TokenRange=15:19
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=20:25
+5	casa	casa	NOUN	NOUN	_	2	nmod	_	TokenRange=26:30
+6	vive	_	VERB	VERB	_	2	advcl	_	TokenRange=31:35
+7	comprei	comprar	VERB	VERB	_	2	ccomp	_	TokenRange=36:43
+8	dinheiro	dinheiro	NOUN	NOUN	_	7	obj	_	TokenRange=44:52
+9	diferente	_	ADJ	ADJ	_	10	amod	_	TokenRange=53:62
+10	filhos	filho	NOUN	NOUN	_	7	nsubj	_	TokenRange=63:69
+11	lula	_	NOUN	NOUN	_	10	appos	_	TokenRange=70:74
+12	fez	fazer	VERB	VERB	_	2	conj	_	TokenRange=75:78
+13	declaracao	declaracao	NOUN	NOUN	_	12	obj	_	TokenRange=79:89
+14	sobre	_	ADP	ADP	_	16	case	_	TokenRange=90:95
+15	entao	entao	ADV	ADV	_	16	advmod	_	TokenRange=96:101
+16	candidato	candidato	NOUN	NOUN	_	13	nmod	_	TokenRange=102:111
+17	prefeitura	prefeitura	NOUN	NOUN	_	16	amod	_	TokenRange=112:122
+18	paulo	paulo	NOUN	NOUN	_	16	appos	_	TokenRange=123:128
+19	joao	joao	NOUN	NOUN	_	16	appos	_	TokenRange=129:133
+20	doria	doria	NOUN	NOUN	_	19	flat	_	TokenRange=134:139
+21	jr	jr	NOUN	NOUN	_	19	flat	_	TokenRange=140:142
+22	declaracao	declaracao	NOUN	NOUN	_	16	appos	_	TokenRange=143:153
+23	povo	povo	NOUN	NOUN	_	22	nsubj	_	TokenRange=154:158
+24	induzido	induzido	ADJ	ADJ	_	23	amod	_	TokenRange=159:167
+25	imprensa	imprensa	NOUN	NOUN	_	23	appos	_	TokenRange=168:176
+26	gostar	gostar	VERB	VERB	_	22	ccomp	_	TokenRange=177:183
+27	mim	_	PRON	PRON	_	26	obj	_	TokenRange=184:187
+28	porque	_	CCONJ	CONJ	_	30	mark	_	TokenRange=188:194
+29	mulher	mulher	NOUN	NOUN	_	30	nsubj	_	TokenRange=195:201
+30	comprou	comprar	VERB	VERB	_	26	advcl	_	TokenRange=202:209
+31	cisne	cisne	NOUN	NOUN	_	30	obj	_	TokenRange=210:215
+32	filho	filho	ADJ	NOUN	_	31	amod	_	TokenRange=216:221
+33	vai	ir	AUX	AUX	_	34	aux	_	TokenRange=222:225
+34	votar	votar	VERB	VERB	_	30	ccomp	_	TokenRange=226:231
+35	joao	joao	NOUN	NOUN	_	34	obj	_	TokenRange=232:236
+36	doria	doria	NOUN	NOUN	_	35	flat	_	TokenRange=237:242
+37	mora	morar	VERB	VERB	_	34	ccomp	_	TokenRange=243:247
+38	casa	casa	NOUN	NOUN	_	39	nsubj	_	TokenRange=248:252
+39	vale	_	VERB	VERB	_	34	ccomp	_	TokenRange=253:257
+40	10	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=258:260
+41	milhoes	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=261:268
+42	cisnes	cisne	NOUN	NOUN	_	39	nsubj	_	TokenRange=269:275
+43	casaco	casaco	NOUN	NOUN	_	42	amod	_	TokenRange=276:282
+44	daria	dar	VERB	VERB	_	34	conj	_	TokenRange=283:288
+45	comprar	comprar	VERB	VERB	_	44	xcomp	_	TokenRange=289:296
+46	dois	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=297:301
+47	cisnes	cisne	NOUN	NOUN	_	45	obj	_	TokenRange=302:308
+48	marisa	marisa	NOUN	NOUN	_	47	appos	_	TokenRange=309:315
+49	dois	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=316:320
+50	barquinhos	barquinho	NOUN	NOUN	_	51	appos	_	TokenRange=321:331
+51	resposta	resposta	NOUN	NOUN	_	44	parataxis	_	TokenRange=332:340
+52	doria	doria	NOUN	NOUN	_	51	flat	_	SpaceAfter=No|TokenRange=341:346
+

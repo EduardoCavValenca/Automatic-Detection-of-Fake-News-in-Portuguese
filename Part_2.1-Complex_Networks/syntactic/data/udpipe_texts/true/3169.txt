@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mercado eventos cresce sinal verde corretoras seguro segundo sindicato corretores seguros sergipe sincorse procura seguro eventos aumentou ainda considerada pequena mercado show business brasil movimenta economia nacional ano inteiro segundo associacao brasileira empresas eventos abeoc crescimento medio 14 ano giro financeiro r 2092 bilhoes fatia mercado corretoras seguro observam tentativa conquistar novos clientes aquisicao apolices seguro eventos tipo servico pode bastante util promotores festas evitando grandes prejuizos financeiros causado acidentes ocorrido dia 7 outubro festa fantasia odonto fantasy realizada aracaju 20 anos durante show cantora ivete
+1	mercado	mercado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	eventos	evento	NOUN	NOUN	_	1	flat	_	TokenRange=8:15
+3	cresce	crescer	VERB	VERB	_	0	root	_	TokenRange=16:22
+4	sinal	sinal	NOUN	NOUN	_	3	obj	_	TokenRange=23:28
+5	verde	verde	ADJ	ADJ	_	4	amod	_	TokenRange=29:34
+6	corretoras	corretora	NOUN	NOUN	_	4	appos	_	TokenRange=35:45
+7	seguro	seguro	ADJ	ADJ	_	6	amod	_	TokenRange=46:52
+8	segundo	_	ADP	ADP	_	9	case	_	TokenRange=53:60
+9	sindicato	sindicato	NOUN	NOUN	_	3	nmod	_	TokenRange=61:70
+10	corretores	corretor	ADJ	ADJ	_	9	amod	_	TokenRange=71:81
+11	seguros	seguro	ADJ	ADJ	_	9	amod	_	TokenRange=82:89
+12	sergipe	sergipe	ADJ	ADJ	_	9	amod	_	TokenRange=90:97
+13	sincorse	sincorse	ADJ	NOUN	_	14	amod	_	TokenRange=98:106
+14	procura	procura	NOUN	NOUN	_	1	appos	_	TokenRange=107:114
+15	seguro	seguro	ADJ	ADJ	_	14	amod	_	TokenRange=115:121
+16	eventos	evento	NOUN	NOUN	_	14	flat	_	TokenRange=122:129
+17	aumentou	aumentar	VERB	VERB	_	3	parataxis	_	TokenRange=130:138
+18	ainda	ainda	ADV	ADV	_	19	advmod	_	TokenRange=139:144
+19	considerada	considerar	VERB	AUX	_	21	acl	_	TokenRange=145:156
+20	pequena	pequeno	ADJ	ADJ	_	21	amod	_	TokenRange=157:164
+21	mercado	mercado	NOUN	NOUN	_	17	nsubj	_	TokenRange=165:172
+22	show	show	NOUN	NOUN	_	21	flat	_	TokenRange=173:177
+23	business	_	NOUN	NOUN	_	21	flat	_	TokenRange=178:186
+24	brasil	brasil	NOUN	NOUN	_	21	flat	_	TokenRange=187:193
+25	movimenta	movimentar	VERB	VERB	_	3	parataxis	_	TokenRange=194:203
+26	economia	economia	NOUN	NOUN	_	25	obj	_	TokenRange=204:212
+27	nacional	nacional	ADJ	ADJ	_	26	amod	_	TokenRange=213:221
+28	ano	ano	NOUN	NOUN	_	26	appos	_	TokenRange=222:225
+29	inteiro	inteiro	ADJ	ADJ	_	28	amod	_	TokenRange=226:233
+30	segundo	_	ADP	ADP	_	31	case	_	TokenRange=234:241
+31	associacao	associacao	NOUN	NOUN	_	25	nmod	_	TokenRange=242:252
+32	brasileira	brasileiro	ADJ	ADJ	_	31	amod	_	TokenRange=253:263
+33	empresas	empresa	NOUN	NOUN	_	31	appos	_	TokenRange=264:272
+34	eventos	evento	NOUN	NOUN	_	33	flat	_	TokenRange=273:280
+35	abeoc	_	NOUN	NOUN	_	33	appos	_	TokenRange=281:286
+36	crescimento	crescimento	NOUN	NOUN	_	35	appos	_	TokenRange=287:298
+37	medio	medio	ADJ	ADJ	_	40	amod	_	TokenRange=299:304
+38	14	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=305:307
+39	ano	ano	NOUN	NOUN	_	36	appos	_	TokenRange=308:311
+40	giro	giro	NOUN	NOUN	_	36	appos	_	TokenRange=312:316
+41	financeiro	financeiro	ADJ	ADJ	_	40	amod	_	TokenRange=317:327
+42	r	r	NOUN	NOUN	_	40	appos	_	TokenRange=328:329
+43	2092	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=330:334
+44	bilhoes	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=335:342
+45	fatia	_	NOUN	NOUN	_	46	appos	_	TokenRange=343:348
+46	mercado	mercado	NOUN	NOUN	_	49	nsubj	_	TokenRange=349:356
+47	corretoras	_	NOUN	NOUN	_	46	amod	_	TokenRange=357:367
+48	seguro	seguro	ADJ	ADJ	_	46	amod	_	TokenRange=368:374
+49	observam	observar	VERB	VERB	_	3	parataxis	_	TokenRange=375:383
+50	tentativa	_	NOUN	NOUN	_	49	obj	_	TokenRange=384:393
+51	conquistar	conquistar	VERB	VERB	_	50	acl:inf	_	TokenRange=394:404
+52	novos	novo	ADJ	ADJ	_	53	amod	_	TokenRange=405:410
+53	clientes	cliente	NOUN	NOUN	_	51	obj	_	TokenRange=411:419
+54	aquisicao	aquisicao	NOUN	NOUN	_	55	appos	_	TokenRange=420:429
+55	apolices	_	NOUN	NOUN	_	51	obj	_	TokenRange=430:438
+56	seguro	seguro	ADJ	ADJ	_	55	amod	_	TokenRange=439:445
+57	eventos	evento	NOUN	NOUN	_	55	appos	_	TokenRange=446:453
+58	tipo	tipo	NOUN	NOUN	_	55	appos	_	TokenRange=454:458
+59	servico	servico	NOUN	NOUN	_	58	flat	_	TokenRange=459:466
+60	pode	_	VERB	VERB	_	49	parataxis	_	TokenRange=467:471
+61	bastante	bastante	ADV	ADV	_	62	advmod	_	TokenRange=472:480
+62	util	util	ADJ	ADJ	_	60	xcomp	_	TokenRange=481:485
+63	promotores	promotor	NOUN	NOUN	_	60	nmod	_	TokenRange=486:496
+64	festas	festa	NOUN	NOUN	_	60	nsubj	_	TokenRange=497:503
+65	evitando	evitar	VERB	VERB	_	64	acl	_	TokenRange=504:512
+66	grandes	grande	ADJ	ADJ	_	67	amod	_	TokenRange=513:520
+67	prejuizos	prejuízo	NOUN	NOUN	_	65	obj	_	TokenRange=521:530
+68	financeiros	financeiro	ADJ	ADJ	_	67	amod	_	TokenRange=531:542
+69	causado	causar	VERB	VERB	_	64	acl	_	TokenRange=543:550
+70	acidentes	acidente	NOUN	NOUN	_	69	obj	_	TokenRange=551:560
+71	ocorrido	ocorrer	VERB	VERB	_	70	acl	_	TokenRange=561:569
+72	dia	dia	NOUN	NOUN	_	71	nmod	_	TokenRange=570:573
+73	7	_	NUM	NUM	NumType=Card	72	appos	_	TokenRange=574:575
+74	outubro	_	PROPN	PNOUN	_	72	nmod	_	TokenRange=576:583
+75	festa	festa	NOUN	NOUN	_	72	appos	_	TokenRange=584:589
+76	fantasia	fantasia	NOUN	NOUN	_	75	appos	_	TokenRange=590:598
+77	odonto	odonto	NOUN	NOUN	_	75	appos	_	TokenRange=599:605
+78	fantasy	fantasy	NOUN	NOUN	_	77	flat	_	TokenRange=606:613
+79	realizada	realizar	VERB	VERB	_	77	acl	_	TokenRange=614:623
+80	aracaju	_	VERB	VERB	_	79	nmod	_	TokenRange=624:631
+81	20	_	NUM	NUM	NumType=Card	82	nummod	_	TokenRange=632:634
+82	anos	ano	NOUN	NOUN	_	79	nmod	_	TokenRange=635:639
+83	durante	_	ADP	ADP	_	84	case	_	TokenRange=640:647
+84	show	show	NOUN	NOUN	_	79	nmod	_	TokenRange=648:652
+85	cantora	cantor	NOUN	NOUN	_	79	nsubj	_	TokenRange=653:660
+86	ivete	ivete	NOUN	NOUN	_	85	appos	_	SpaceAfter=No|TokenRange=661:666
+

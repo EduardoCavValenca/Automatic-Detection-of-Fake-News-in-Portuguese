@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dia globo passou vergonha tomou licao moral vivo durante reportagem realizada canal tv cabo globo news indio desmascarou reportagem globo fato indios estarem usando mascaras contra gas reportagem acordo especulava estariam comercializando drogas confrontada reporter ficou imovel
+1	dia	dia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:3
+2	globo	globo	NOUN	NOUN	_	1	flat	_	TokenRange=4:9
+3	passou	passar	VERB	VERB	_	0	root	_	TokenRange=10:16
+4	vergonha	vergonha	NOUN	NOUN	_	3	obj	_	TokenRange=17:25
+5	tomou	tomar	VERB	VERB	_	3	parataxis	_	TokenRange=26:31
+6	licao	licao	NOUN	NOUN	_	5	obj	_	TokenRange=32:37
+7	moral	moral	ADJ	ADJ	_	6	amod	_	TokenRange=38:43
+8	vivo	vivo	ADJ	ADJ	_	6	amod	_	TokenRange=44:48
+9	durante	_	ADP	ADP	_	10	case	_	TokenRange=49:56
+10	reportagem	reportagem	NOUN	NOUN	_	5	nmod	_	TokenRange=57:67
+11	realizada	realizar	VERB	VERB	_	10	acl	_	TokenRange=68:77
+12	canal	canal	NOUN	NOUN	_	11	nsubj	_	TokenRange=78:83
+13	tv	tv	NOUN	NOUN	_	12	flat	_	TokenRange=84:86
+14	cabo	cabo	NOUN	NOUN	_	12	flat	_	TokenRange=87:91
+15	globo	globo	NOUN	NOUN	_	12	appos	_	TokenRange=92:97
+16	news	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=98:102
+17	indio	indio	NOUN	NOUN	_	18	nsubj	_	TokenRange=103:108
+18	desmascarou	desmascarar	VERB	VERB	_	10	acl:relcl	_	TokenRange=109:120
+19	reportagem	reportagem	NOUN	NOUN	_	18	obj	_	TokenRange=121:131
+20	globo	globo	ADJ	ADJ	_	19	amod	_	TokenRange=132:137
+21	fato	fato	NOUN	NOUN	_	24	nsubj	_	TokenRange=138:142
+22	indios	indio	NOUN	NOUN	_	24	nsubj	_	TokenRange=143:149
+23	estarem	estar	AUX	AUX	_	24	aux	_	TokenRange=150:157
+24	usando	usar	VERB	VERB	_	18	ccomp	_	TokenRange=158:164
+25	mascaras	mascara	NOUN	NOUN	_	24	obj	_	TokenRange=165:173
+26	contra	_	ADP	ADP	_	27	case	_	TokenRange=174:180
+27	gas	_	NOUN	NOUN	_	25	nmod	_	TokenRange=181:184
+28	reportagem	reportagem	NOUN	NOUN	_	24	nsubj	_	TokenRange=185:195
+29	acordo	acordo	NOUN	NOUN	_	28	appos	_	TokenRange=196:202
+30	especulava	especular	VERB	VERB	_	28	acl:relcl	_	TokenRange=203:213
+31	estariam	estar	AUX	AUX	_	32	aux	_	TokenRange=214:222
+32	comercializando	comercializar	VERB	VERB	_	24	conj	_	TokenRange=223:238
+33	drogas	droga	NOUN	NOUN	_	32	obj	_	TokenRange=239:245
+34	confrontada	confrontado	ADJ	ADJ	_	33	amod	_	TokenRange=246:257
+35	reporter	reporter	NOUN	NOUN	_	36	nsubj	_	TokenRange=258:266
+36	ficou	ficar	VERB	VERB	_	3	parataxis	_	TokenRange=267:272
+37	imovel	imovel	ADJ	ADJ	_	36	xcomp	_	SpaceAfter=No|TokenRange=273:279
+

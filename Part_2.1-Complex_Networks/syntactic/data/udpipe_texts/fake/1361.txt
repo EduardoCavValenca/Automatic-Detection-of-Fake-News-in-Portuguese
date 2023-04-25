@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula dilma fhc aparecem lista janot investigados detalhe foro fhc lula dilma citados lista pgr rodrigo janot casos investigados instancias inferiores onde juizes concursados coisa realmente funciona 3 expresidentes possuem foro privilegiado luiz inacio lula silva alvo cinco peticoes alem petista citados irmao frei chico filho lula luis claudio frei chico apontado recebedor mesada r 5 mil paga odebrecht durante periodo dez anos informou revista veja informacao faz parte acordo delacao firmado alexandrino alencar exexecutivo ligado odebrecht publicada folha dizia ilustre jornalista joao mariano cercarmos brasilia grades belo presidio
+1	lula	lula	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	dilma	_	ADJ	ADJ	_	1	flat	_	TokenRange=5:10
+3	fhc	_	NOUN	NOUN	_	1	appos	_	TokenRange=11:14
+4	aparecem	aparecer	VERB	VERB	_	0	root	_	TokenRange=15:23
+5	lista	lista	NOUN	NOUN	_	4	obj	_	TokenRange=24:29
+6	janot	_	NOUN	NOUN	_	5	flat	_	TokenRange=30:35
+7	investigados	investigar	VERB	VERB	_	5	acl	_	TokenRange=36:48
+8	detalhe	detalhe	NOUN	NOUN	_	5	appos	_	TokenRange=49:56
+9	foro	foro	NOUN	NOUN	_	5	appos	_	TokenRange=57:61
+10	fhc	_	NOUN	NOUN	_	9	appos	_	TokenRange=62:65
+11	lula	lula	NOUN	NOUN	_	9	appos	_	TokenRange=66:70
+12	dilma	_	NOUN	NOUN	_	11	flat	_	TokenRange=71:76
+13	citados	citar	VERB	VERB	_	14	acl	_	TokenRange=77:84
+14	lista	lista	NOUN	NOUN	_	4	nsubj	_	TokenRange=85:90
+15	pgr	_	NOUN	NOUN	_	14	appos	_	TokenRange=91:94
+16	rodrigo	_	NOUN	NOUN	_	14	appos	_	TokenRange=95:102
+17	janot	_	NOUN	NOUN	_	16	flat	_	TokenRange=103:108
+18	casos	caso	NOUN	NOUN	_	14	appos	_	TokenRange=109:114
+19	investigados	investigar	VERB	VERB	_	18	acl	_	TokenRange=115:127
+20	instancias	instancia	NOUN	NOUN	_	19	obj	_	TokenRange=128:138
+21	inferiores	inferior	ADJ	ADJ	_	20	amod	_	TokenRange=139:149
+22	onde	onde	ADV	ADV	_	27	advmod	_	TokenRange=150:154
+23	juizes	juiz	NOUN	NOUN	_	27	nsubj	_	TokenRange=155:161
+24	concursados	concursado	ADJ	ADJ	_	23	amod	_	TokenRange=162:173
+25	coisa	coisa	NOUN	NOUN	_	27	nsubj	_	TokenRange=174:179
+26	realmente	realmente	ADV	ADV	_	27	advmod	_	TokenRange=180:189
+27	funciona	funcionar	VERB	VERB	_	20	acl:relcl	_	TokenRange=190:198
+28	3	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=199:200
+29	expresidentes	expresidente	NOUN	NOUN	_	30	nsubj	_	TokenRange=201:214
+30	possuem	possuir	VERB	VERB	_	20	acl:relcl	_	TokenRange=215:222
+31	foro	foro	NOUN	NOUN	_	30	obj	_	TokenRange=223:227
+32	privilegiado	privilegiado	ADJ	ADJ	_	31	amod	_	TokenRange=228:240
+33	luiz	luiz	NOUN	NOUN	_	30	appos	_	TokenRange=241:245
+34	inacio	_	NOUN	NOUN	_	33	flat	_	TokenRange=246:252
+35	lula	_	NOUN	NOUN	_	33	flat	_	TokenRange=253:257
+36	silva	silva	NOUN	NOUN	_	34	flat	_	TokenRange=258:263
+37	alvo	alvo	NOUN	NOUN	_	30	parataxis	_	TokenRange=264:268
+38	cinco	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=269:274
+39	peticoes	peticoe	NOUN	NOUN	_	30	obj	_	TokenRange=275:283
+40	alem	_	ADV	ADV	_	41	advmod	_	TokenRange=284:288
+41	petista	petista	NOUN	NOUN	_	39	appos	_	TokenRange=289:296
+42	citados	citar	VERB	VERB	_	39	acl	_	TokenRange=297:304
+43	irmao	irmao	NOUN	NOUN	_	30	nsubj	_	TokenRange=305:310
+44	frei	_	NOUN	NOUN	_	43	flat	_	TokenRange=311:315
+45	chico	chico	NOUN	NOUN	_	43	flat	_	TokenRange=316:321
+46	filho	filho	NOUN	NOUN	_	43	flat	_	TokenRange=322:327
+47	lula	_	NOUN	NOUN	_	43	appos	_	TokenRange=328:332
+48	luis	_	NOUN	NOUN	_	43	appos	_	TokenRange=333:337
+49	claudio	claudio	NOUN	NOUN	_	48	flat	_	TokenRange=338:345
+50	frei	_	NOUN	NOUN	_	47	appos	_	TokenRange=346:350
+51	chico	chico	NOUN	NOUN	_	48	flat	_	TokenRange=351:356
+52	apontado	apontar	VERB	VERB	_	43	acl	_	TokenRange=357:365
+53	recebedor	recebedor	ADJ	ADJ	_	52	xcomp	_	TokenRange=366:375
+54	mesada	mesada	NOUN	NOUN	_	52	nsubj	_	TokenRange=376:382
+55	r	r	NOUN	NOUN	_	54	flat	_	TokenRange=383:384
+56	5	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=385:386
+57	mil	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=387:390
+58	paga	paga	NOUN	NOUN	_	54	appos	_	TokenRange=391:395
+59	odebrecht	odebrecht	NOUN	NOUN	_	58	appos	_	TokenRange=396:405
+60	durante	_	ADP	ADP	_	61	case	_	TokenRange=406:413
+61	periodo	periodo	NOUN	NOUN	_	58	nmod	_	TokenRange=414:421
+62	dez	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=422:425
+63	anos	ano	NOUN	NOUN	_	61	nmod	_	TokenRange=426:430
+64	informou	informar	VERB	VERB	_	4	parataxis	_	TokenRange=431:439
+65	revista	revista	NOUN	NOUN	_	64	obj	_	TokenRange=440:447
+66	veja	veja	ADJ	ADJ	_	65	amod	_	TokenRange=448:452
+67	informacao	informacao	NOUN	NOUN	_	65	appos	_	TokenRange=453:463
+68	faz	fazer	VERB	VERB	_	64	parataxis	_	TokenRange=464:467
+69	parte	parte	NOUN	NOUN	_	68	obj	_	TokenRange=468:473
+70	acordo	acordo	NOUN	NOUN	_	68	nsubj	_	TokenRange=474:480
+71	delacao	_	NOUN	NOUN	_	70	amod	_	TokenRange=481:488
+72	firmado	firmar	VERB	VERB	_	70	acl	_	TokenRange=489:496
+73	alexandrino	alexandrino	NOUN	NOUN	_	72	amod	_	TokenRange=497:508
+74	alencar	alencar	NOUN	NOUN	_	70	appos	_	TokenRange=509:516
+75	exexecutivo	exexecutivo	NOUN	NOUN	_	72	amod	_	TokenRange=517:528
+76	ligado	ligado	ADJ	ADJ	_	70	amod	_	TokenRange=529:535
+77	odebrecht	odebrecht	NOUN	NOUN	_	72	appos	_	TokenRange=536:545
+78	publicada	publicar	VERB	ADJ	_	79	acl	_	TokenRange=546:555
+79	folha	folha	NOUN	NOUN	_	72	nsubj	_	TokenRange=556:561
+80	dizia	dizer	VERB	VERB	_	82	cop	_	TokenRange=562:567
+81	ilustre	ilustre	ADJ	ADJ	_	82	amod	_	TokenRange=568:575
+82	jornalista	jornalista	NOUN	NOUN	_	68	nsubj	_	TokenRange=576:586
+83	joao	joao	ADJ	ADJ	_	89	appos	_	TokenRange=587:591
+84	mariano	mariano	NOUN	NOUN	_	83	flat	_	TokenRange=592:599
+85	cercarmos	cercar	VERB	VERB	_	82	acl:relcl	_	TokenRange=600:609
+86	brasilia	brasilia	NOUN	NOUN	_	85	obj	_	TokenRange=610:618
+87	grades	grade	NOUN	NOUN	_	89	amod	_	TokenRange=619:625
+88	belo	belo	ADJ	ADJ	_	89	amod	_	TokenRange=626:630
+89	presidio	presidio	NOUN	NOUN	_	85	obj	_	SpaceAfter=No|TokenRange=631:639
+

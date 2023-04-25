@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cantor vai boate luxo gasta r 5 mil reclama conta instagram sertanejo disse queria conhecer lugar diferente namorada repente acabou bordel luxo engano zeze di camargo postou instagram madrugada ontem 2 foto entrando possante luxo mercedes slk conversivel custa perto r 200 mil apos sair tal danceteria disse cantor sai casa hoje divertir indicaram lugar chamado scandalo pensando danceteria cheguei boate classe alta tomei alguns drinques namorada fiquei surpreso vi conta contou zeze
+1	cantor	cantor	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	vai	ir	AUX	AUX	_	72	ccomp	_	TokenRange=7:10
+3	boate	boate	NOUN	NOUN	_	2	obj	_	TokenRange=11:16
+4	luxo	luxo	NOUN	NOUN	_	5	nsubj	_	TokenRange=17:21
+5	gasta	gastar	VERB	VERB	_	3	acl:relcl	_	TokenRange=22:27
+6	r	r	NOUN	NOUN	_	5	obj	_	TokenRange=28:29
+7	5	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=30:31
+8	mil	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=32:35
+9	reclama	reclama	NOUN	NOUN	_	5	obj	_	TokenRange=36:43
+10	conta	conta	NOUN	NOUN	_	9	appos	_	TokenRange=44:49
+11	instagram	instagram	NOUN	NOUN	_	10	flat	_	TokenRange=50:59
+12	sertanejo	sertanejo	NOUN	NOUN	_	13	nsubj	_	TokenRange=60:69
+13	disse	dizer	VERB	VERB	_	1	acl:relcl	_	TokenRange=70:75
+14	queria	querer	VERB	VERB	_	13	xcomp	_	TokenRange=76:82
+15	conhecer	conhecer	VERB	VERB	_	14	xcomp	_	TokenRange=83:91
+16	lugar	lugar	NOUN	NOUN	_	15	obj	_	TokenRange=92:97
+17	diferente	diferente	ADJ	ADJ	_	16	amod	_	TokenRange=98:107
+18	namorada	_	NOUN	NOUN	_	16	appos	_	TokenRange=108:116
+19	repente	repente	NOUN	NOUN	_	20	nsubj	_	TokenRange=117:124
+20	acabou	acabar	VERB	VERB	_	16	acl:relcl	_	TokenRange=125:131
+21	bordel	bordel	NOUN	NOUN	_	20	obj	_	TokenRange=132:138
+22	luxo	luxo	NOUN	NOUN	_	21	appos	_	TokenRange=139:143
+23	engano	engano	NOUN	NOUN	_	21	flat	_	TokenRange=144:150
+24	zeze	zeze	NOUN	NOUN	_	27	nsubj	_	TokenRange=151:155
+25	di	_	ADP	ADP	_	26	case	_	TokenRange=156:158
+26	camargo	camargo	NOUN	NOUN	_	24	nmod	_	TokenRange=159:166
+27	postou	postar	VERB	VERB	_	20	parataxis	_	TokenRange=167:173
+28	instagram	instagram	NOUN	NOUN	_	27	obj	_	TokenRange=174:183
+29	madrugada	madrugada	NOUN	NOUN	_	27	nsubj	_	TokenRange=184:193
+30	ontem	ontem	ADV	ADV	_	27	advmod	_	TokenRange=194:199
+31	2	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=200:201
+32	foto	foto	NOUN	NOUN	_	27	obj	_	TokenRange=202:206
+33	entrando	entrar	VERB	VERB	_	32	acl	_	TokenRange=207:215
+34	possante	_	ADJ	ADJ	_	33	advmod	_	TokenRange=216:224
+35	luxo	luxo	NOUN	NOUN	_	33	obj	_	TokenRange=225:229
+36	mercedes	mercede	NOUN	NOUN	_	35	appos	_	TokenRange=230:238
+37	slk	_	NOUN	NOUN	_	36	flat	_	TokenRange=239:242
+38	conversivel	_	ADJ	ADJ	_	36	amod	_	TokenRange=243:254
+39	custa	custar	VERB	VERB	_	27	conj	_	TokenRange=255:260
+40	perto	perto	ADV	ADV	_	39	advmod	_	TokenRange=261:266
+41	r	r	NOUN	NOUN	_	39	nsubj	_	TokenRange=267:268
+42	200	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=269:272
+43	mil	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=273:276
+44	apos	_	ADP	ADP	_	45	mark	_	TokenRange=277:281
+45	sair	sair	VERB	VERB	_	39	advcl	_	TokenRange=282:286
+46	tal	_	DET	DET	_	47	det	_	TokenRange=287:290
+47	danceteria	danceteria	NOUN	NOUN	_	45	obj	_	TokenRange=291:301
+48	disse	dizer	VERB	VERB	_	45	parataxis	_	TokenRange=302:307
+49	cantor	cantor	NOUN	NOUN	_	48	nsubj	_	TokenRange=308:314
+50	sai	_	VERB	VERB	_	48	ccomp	_	TokenRange=315:318
+51	casa	casa	NOUN	NOUN	_	50	obj	_	TokenRange=319:323
+52	hoje	hoje	ADV	ADV	_	54	advmod	_	TokenRange=324:328
+53	divertir	divertir	VERB	VERB	_	55	acl:relcl	_	TokenRange=329:337
+54	indicaram	indicar	VERB	VERB	_	51	acl:relcl	_	TokenRange=338:347
+55	lugar	lugar	NOUN	NOUN	_	54	obj	_	TokenRange=348:353
+56	chamado	chamado	ADJ	ADJ	_	55	amod	_	TokenRange=354:361
+57	scandalo	scandalo	NOUN	NOUN	_	55	amod	_	TokenRange=362:370
+58	pensando	pensar	VERB	VERB	_	55	acl	_	TokenRange=371:379
+59	danceteria	danceteria	NOUN	NOUN	_	58	obj	_	TokenRange=380:390
+60	cheguei	chegar	VERB	VERB	_	61	acl:relcl	_	TokenRange=391:398
+61	boate	boate	NOUN	NOUN	_	54	nsubj	_	TokenRange=399:404
+62	classe	classe	NOUN	NOUN	_	61	appos	_	TokenRange=405:411
+63	alta	_	NOUN	NOUN	_	61	amod	_	TokenRange=412:416
+64	tomei	tomar	VERB	VERB	_	54	parataxis	_	TokenRange=417:422
+65	alguns	_	DET	DET	_	66	det	_	TokenRange=423:429
+66	drinques	drinque	NOUN	NOUN	_	64	obj	_	TokenRange=430:438
+67	namorada	_	NOUN	NOUN	_	66	amod	_	TokenRange=439:447
+68	fiquei	ficar	VERB	VERB	_	72	ccomp	_	TokenRange=448:454
+69	surpreso	surpreso	ADJ	ADJ	_	68	xcomp	_	TokenRange=455:463
+70	vi	_	X	PRT	_	72	nsubj	_	TokenRange=464:466
+71	conta	contar	VERB	VERB	_	72	ccomp	_	TokenRange=467:472
+72	contou	contar	VERB	VERB	_	0	root	_	TokenRange=473:479
+73	zeze	zeze	NOUN	NOUN	_	72	nsubj	_	SpaceAfter=No|TokenRange=480:484
+

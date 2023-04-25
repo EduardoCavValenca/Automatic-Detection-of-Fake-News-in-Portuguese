@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula desembarca rj hostilizado populacao hospede surpreende lula dentro hotel ai ladrao sob gritos lula ladrao lugar prisao expresidente desembarcou aeroporto rio janeiro ultima quintafeira petista incomodou elogios ainda colocou sorriso amarelado cara pois lula queria justica ruas tendo leia
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	desembarca	desembarcar	VERB	VERB	_	0	root	_	TokenRange=5:15
+3	rj	_	NOUN	NOUN	_	2	obj	_	TokenRange=16:18
+4	hostilizado	hostilizado	ADJ	ADJ	_	1	amod	_	TokenRange=19:30
+5	populacao	populacao	NOUN	NOUN	_	2	nsubj	_	TokenRange=31:40
+6	hospede	hospede	NOUN	NOUN	_	5	flat	_	TokenRange=41:48
+7	surpreende	surpreender	VERB	VERB	_	2	parataxis	_	TokenRange=49:59
+8	lula	lula	NOUN	NOUN	_	7	obj	_	TokenRange=60:64
+9	dentro	dentro	ADV	ADV	_	7	advmod	_	TokenRange=65:71
+10	hotel	hotel	NOUN	NOUN	_	9	nmod	_	TokenRange=72:77
+11	ai	_	ADP	ADP	_	12	det	_	TokenRange=78:80
+12	ladrao	ladrao	NOUN	NOUN	_	10	appos	_	TokenRange=81:87
+13	sob	_	ADP	ADP	_	14	case	_	TokenRange=88:91
+14	gritos	grito	NOUN	NOUN	_	12	nmod	_	TokenRange=92:98
+15	lula	lula	NOUN	NOUN	_	10	appos	_	TokenRange=99:103
+16	ladrao	ladrao	NOUN	NOUN	_	17	amod	_	TokenRange=104:110
+17	lugar	lugar	NOUN	NOUN	_	15	appos	_	TokenRange=111:116
+18	prisao	prisao	ADJ	ADJ	_	17	amod	_	TokenRange=117:123
+19	expresidente	expresidente	NOUN	NOUN	_	17	amod	_	TokenRange=124:136
+20	desembarcou	desembarcar	VERB	VERB	_	2	parataxis	_	TokenRange=137:148
+21	aeroporto	aeroporto	NOUN	NOUN	_	20	obj	_	TokenRange=149:158
+22	rio	rio	ADJ	ADJ	_	21	appos	_	TokenRange=159:162
+23	janeiro	_	PROPN	PNOUN	_	22	flat	_	TokenRange=163:170
+24	ultima	_	ADJ	ADJ	_	25	amod	_	TokenRange=171:177
+25	quintafeira	quintafeira	NOUN	NOUN	_	20	nsubj	_	TokenRange=178:189
+26	petista	petista	ADJ	ADJ	_	25	amod	_	TokenRange=190:197
+27	incomodou	incomodar	VERB	VERB	_	2	parataxis	_	TokenRange=198:207
+28	elogios	elogio	NOUN	NOUN	_	27	obj	_	TokenRange=208:215
+29	ainda	ainda	ADV	ADV	_	30	advmod	_	TokenRange=216:221
+30	colocou	colocar	VERB	VERB	_	27	parataxis	_	TokenRange=222:229
+31	sorriso	sorriso	NOUN	NOUN	_	30	obj	_	TokenRange=230:237
+32	amarelado	amarelado	ADJ	ADJ	_	31	amod	_	TokenRange=238:247
+33	cara	cara	NOUN	NOUN	_	30	advmod	_	TokenRange=248:252
+34	pois	_	CCONJ	CONJ	_	36	mark	_	TokenRange=253:257
+35	lula	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=258:262
+36	queria	querer	VERB	VERB	_	30	advcl	_	TokenRange=263:269
+37	justica	justico	ADJ	ADJ	_	36	obj	_	TokenRange=270:277
+38	ruas	rua	NOUN	NOUN	_	36	obj	_	TokenRange=278:282
+39	tendo	_	VERB	VERB	_	36	acl	_	TokenRange=283:288
+40	leia	ler	NOUN	NOUN	_	39	obj	_	SpaceAfter=No|TokenRange=289:293
+

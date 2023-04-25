@@ -1,0 +1,25 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = juizes promotores piracicaba fazem manifestacao contra projeto lei sobre abuso autoridade comissao constituicao justica senado pode votar
+1	juizes	juiz	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	promotores	promotor	ADJ	ADJ	_	1	amod	_	TokenRange=7:17
+3	piracicaba	piracicabo	ADJ	ADJ	_	1	amod	_	TokenRange=18:28
+4	fazem	fazer	VERB	VERB	_	0	root	_	TokenRange=29:34
+5	manifestacao	manifestacao	NOUN	NOUN	_	4	obj	_	TokenRange=35:47
+6	contra	_	ADP	ADP	_	7	case	_	TokenRange=48:54
+7	projeto	projeto	NOUN	NOUN	_	5	nmod	_	TokenRange=55:62
+8	lei	lei	NOUN	NOUN	_	7	flat	_	TokenRange=63:66
+9	sobre	_	ADP	ADP	_	10	case	_	TokenRange=67:72
+10	abuso	abuso	NOUN	NOUN	_	7	nmod	_	TokenRange=73:78
+11	autoridade	autoridade	NOUN	NOUN	_	10	flat	_	TokenRange=79:89
+12	comissao	comissao	NOUN	NOUN	_	17	nsubj	_	TokenRange=90:98
+13	constituicao	constituicao	NOUN	NOUN	_	12	amod	_	TokenRange=99:111
+14	justica	justico	ADJ	ADJ	_	15	amod	_	TokenRange=112:119
+15	senado	senado	NOUN	NOUN	_	17	nsubj	_	TokenRange=120:126
+16	pode	_	AUX	AUX	_	17	aux	_	TokenRange=127:131
+17	votar	votar	VERB	VERB	_	4	parataxis	_	SpaceAfter=No|TokenRange=132:137
+

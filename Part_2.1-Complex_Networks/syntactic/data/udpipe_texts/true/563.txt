@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciberataques virar vitima siga 10 mandamentos atualizar software copias arquivos abrir anexos vao confira outras dicas vitima ataques virus wannacry atingiu 300 mil computadores usar computadores celulares forma segura pergunta nunca tao alta quanto desta sextafeira 12 apos virus wannacry comecar mega ataque 300 mil computadores afetados driblar armadilhas exige muita atencao tao dificil assim preciso especialista g1 reuniu dez orientacoes principais ficar livre ciberataque veja 10 mandamentos seguranca abaixo receita principal usar sempre versao atual sistema operacional traducao maioria usuarios ignore avisos atualizacao
+1	ciberataques	ciberataque	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:12
+2	virar	virar	VERB	VERB	_	1	acl:relcl	_	TokenRange=13:18
+3	vitima	_	NOUN	NOUN	_	2	obj	_	TokenRange=19:25
+4	siga	seguir	VERB	VERB	_	0	root	_	TokenRange=26:30
+5	10	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=31:33
+6	mandamentos	mandamento	NOUN	NOUN	_	4	obj	_	TokenRange=34:45
+7	atualizar	atualizar	VERB	VERB	_	4	ccomp	_	TokenRange=46:55
+8	software	software	NOUN	NOUN	_	7	obj	_	TokenRange=56:64
+9	copias	copia	NOUN	NOUN	_	8	flat	_	TokenRange=65:71
+10	arquivos	arquivo	NOUN	NOUN	_	9	flat	_	TokenRange=72:80
+11	abrir	abrir	VERB	VERB	_	2	conj	_	TokenRange=81:86
+12	anexos	anexo	NOUN	NOUN	_	11	obj	_	TokenRange=87:93
+13	vao	_	AUX	AUX	_	14	obj	_	TokenRange=94:97
+14	confira	conferir	VERB	VERB	_	4	conj	_	TokenRange=98:105
+15	outras	_	DET	DET	_	16	det	_	TokenRange=106:112
+16	dicas	dica	NOUN	NOUN	_	14	obj	_	TokenRange=113:118
+17	vitima	_	ADJ	ADJ	_	18	amod	_	TokenRange=119:125
+18	ataques	ataque	NOUN	NOUN	_	21	nsubj	_	TokenRange=126:133
+19	virus	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=134:139
+20	wannacry	_	NOUN	NOUN	_	19	flat	_	TokenRange=140:148
+21	atingiu	atingir	VERB	VERB	_	4	parataxis	_	TokenRange=149:156
+22	300	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=157:160
+23	mil	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=161:164
+24	computadores	computador	NOUN	NOUN	_	21	obj	_	TokenRange=165:177
+25	usar	usar	VERB	VERB	_	21	xcomp	_	TokenRange=178:182
+26	computadores	computador	NOUN	NOUN	_	25	obj	_	TokenRange=183:195
+27	celulares	celular	ADJ	ADJ	_	26	amod	_	TokenRange=196:205
+28	forma	forma	NOUN	NOUN	_	25	obj	_	TokenRange=206:211
+29	segura	seguro	ADJ	ADJ	_	28	amod	_	TokenRange=212:218
+30	pergunta	pergunta	NOUN	NOUN	_	25	obj	_	TokenRange=219:227
+31	nunca	nunca	ADV	ADV	_	33	advmod	_	TokenRange=228:233
+32	tao	tao	ADV	ADV	_	33	advmod	_	TokenRange=234:237
+33	alta	alto	ADJ	ADJ	_	30	amod	_	TokenRange=238:242
+34	quanto	_	ADV	ADV	_	33	advmod	_	TokenRange=243:249
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=250:255
+36	sextafeira	_	NOUN	NOUN	_	34	nmod	_	TokenRange=256:266
+37	12	_	NUM	NUM	NumType=Card	41	nmod	_	TokenRange=267:269
+38	apos	_	ADP	ADP	_	41	mark	_	TokenRange=270:274
+39	virus	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=275:280
+40	wannacry	_	NOUN	NOUN	_	39	flat	_	TokenRange=281:289
+41	comecar	comecar	VERB	VERB	_	36	acl:relcl	_	TokenRange=290:297
+42	mega	_	ADJ	ADJ	_	43	amod	_	TokenRange=298:302
+43	ataque	ataque	NOUN	NOUN	_	41	obj	_	TokenRange=303:309
+44	300	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=310:313
+45	mil	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=314:317
+46	computadores	computador	NOUN	NOUN	_	41	nsubj	_	TokenRange=318:330
+47	afetados	afetar	VERB	VERB	_	46	acl	_	TokenRange=331:339
+48	driblar	driblar	VERB	VERB	_	47	xcomp	_	TokenRange=340:347
+49	armadilhas	armadilha	NOUN	NOUN	_	48	obj	_	TokenRange=348:358
+50	exige	exigir	VERB	VERB	_	4	parataxis	_	TokenRange=359:364
+51	muita	_	DET	DET	_	52	det	_	TokenRange=365:370
+52	atencao	atencao	NOUN	NOUN	_	50	obj	_	TokenRange=371:378
+53	tao	tao	ADV	ADV	_	54	advmod	_	TokenRange=379:382
+54	dificil	dificil	ADJ	ADJ	_	52	amod	_	TokenRange=383:390
+55	assim	assim	ADV	ADV	_	56	advmod	_	TokenRange=391:396
+56	preciso	preciso	ADJ	ADJ	_	59	amod	_	TokenRange=397:404
+57	especialista	especialista	NOUN	NOUN	_	59	nsubj	_	TokenRange=405:417
+58	g1	_	NOUN	NOUN	_	59	nsubj	_	TokenRange=418:420
+59	reuniu	reunir	VERB	VERB	_	50	parataxis	_	TokenRange=421:427
+60	dez	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=428:431
+61	orientacoes	_	NOUN	NOUN	_	59	obj	_	TokenRange=432:443
+62	principais	principal	ADJ	ADJ	_	61	amod	_	TokenRange=444:454
+63	ficar	ficar	VERB	VERB	_	59	ccomp	_	TokenRange=455:460
+64	livre	livre	ADJ	ADJ	_	63	xcomp	_	TokenRange=461:466
+65	ciberataque	ciberataque	NOUN	NOUN	_	63	nsubj	_	TokenRange=467:478
+66	veja	ver	VERB	VERB	_	59	parataxis	_	TokenRange=479:483
+67	10	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=484:486
+68	mandamentos	mandamento	NOUN	NOUN	_	66	obj	_	TokenRange=487:498
+69	seguranca	_	NOUN	NOUN	_	68	appos	_	TokenRange=499:508
+70	abaixo	abaixo	ADV	ADV	_	82	advmod	_	TokenRange=509:515
+71	receita	receita	NOUN	NOUN	_	66	nsubj	_	TokenRange=516:523
+72	principal	principal	ADJ	ADJ	_	71	amod	_	TokenRange=524:533
+73	usar	usar	VERB	VERB	_	71	acl:inf	_	TokenRange=534:538
+74	sempre	sempre	ADV	ADV	_	73	advmod	_	TokenRange=539:545
+75	versao	versao	NOUN	NOUN	_	73	obj	_	TokenRange=546:552
+76	atual	atual	ADJ	ADJ	_	75	amod	_	TokenRange=553:558
+77	sistema	sistema	NOUN	NOUN	_	73	obj	_	TokenRange=559:566
+78	operacional	operacional	ADJ	ADJ	_	77	amod	_	TokenRange=567:578
+79	traducao	traducao	ADJ	ADJ	_	77	amod	_	TokenRange=579:587
+80	maioria	maioria	ADJ	ADJ	_	81	amod	_	TokenRange=588:595
+81	usuarios	usuario	NOUN	NOUN	_	82	nsubj	_	TokenRange=596:604
+82	ignore	ignorar	VERB	VERB	_	66	parataxis	_	TokenRange=605:611
+83	avisos	aviso	NOUN	NOUN	_	82	obj	_	TokenRange=612:618
+84	atualizacao	atualizacao	ADJ	ADJ	_	83	amod	_	SpaceAfter=No|TokenRange=619:630
+

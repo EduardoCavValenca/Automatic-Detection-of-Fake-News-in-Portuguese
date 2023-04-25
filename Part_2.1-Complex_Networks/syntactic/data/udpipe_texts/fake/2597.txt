@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vergonha folha paulo publica noticia falsa conteudo saiu site efarsas folha sp maiores veiculos comunicacao pais publicou hoje 24 noticia duvidosa clique imagem acima entrar materia folha suposta garota programa sofrido suposto infarto atender cliente cidade birigui sp descobriu proprio marido site especializado farsas portal cidade birigui/sp confirmaram trata noticia 100 falsa foto acompanha boato captura video publicado site g1 reportagem falava sobre determinacao judicial mandava birigui solucionar problemas pronto socorro ano 2014 vergonha folha sp
+1	vergonha	vergonha	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	folha	folha	NOUN	NOUN	_	1	appos	_	TokenRange=9:14
+3	paulo	paulo	NOUN	NOUN	_	1	flat	_	TokenRange=15:20
+4	publica	_	VERB	VERB	_	0	root	_	TokenRange=21:28
+5	noticia	noticia	NOUN	NOUN	_	4	obj	_	TokenRange=29:36
+6	falsa	falso	ADJ	ADJ	_	5	amod	_	TokenRange=37:42
+7	conteudo	conteudo	NOUN	NOUN	_	5	appos	_	TokenRange=43:51
+8	saiu	sair	VERB	VERB	_	1	acl:relcl	_	TokenRange=52:56
+9	site	site	NOUN	NOUN	_	8	obj	_	TokenRange=57:61
+10	efarsas	_	NOUN	NOUN	_	9	amod	_	TokenRange=62:69
+11	folha	folha	NOUN	NOUN	_	9	appos	_	TokenRange=70:75
+12	sp	_	X	CONJ	_	14	amod	_	TokenRange=76:78
+13	maiores	maior	ADJ	ADJ	_	14	amod	_	TokenRange=79:86
+14	veiculos	veiculo	NOUN	NOUN	_	1	appos	_	TokenRange=87:95
+15	comunicacao	comunicacao	NOUN	NOUN	_	14	appos	_	TokenRange=96:107
+16	pais	_	NOUN	NOUN	_	15	flat	_	TokenRange=108:112
+17	publicou	publicar	VERB	VERB	_	4	parataxis	_	TokenRange=113:121
+18	hoje	hoje	ADV	ADV	_	17	advmod	_	TokenRange=122:126
+19	24	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=127:129
+20	noticia	noticia	NOUN	NOUN	_	17	obj	_	TokenRange=130:137
+21	duvidosa	duvidoso	ADJ	ADJ	_	20	amod	_	TokenRange=138:146
+22	clique	clique	NOUN	NOUN	_	17	parataxis	_	TokenRange=147:153
+23	imagem	imagem	NOUN	NOUN	_	22	nsubj	_	TokenRange=154:160
+24	acima	acima	ADV	ADV	_	25	advmod	_	TokenRange=161:166
+25	entrar	entrar	VERB	VERB	_	23	acl:relcl	_	TokenRange=167:173
+26	materia	materia	NOUN	NOUN	_	25	obj	_	TokenRange=174:181
+27	folha	folha	NOUN	NOUN	_	26	appos	_	TokenRange=182:187
+28	suposta	suposto	ADJ	ADJ	_	30	amod	_	TokenRange=188:195
+29	garota	garoto	ADJ	NOUN	_	26	amod	_	TokenRange=196:202
+30	programa	programa	NOUN	NOUN	_	25	nsubj	_	TokenRange=203:211
+31	sofrido	sofrer	VERB	VERB	_	30	acl	_	TokenRange=212:219
+32	suposto	suposto	ADJ	ADJ	_	33	amod	_	TokenRange=220:227
+33	infarto	infarto	NOUN	NOUN	_	34	nsubj	_	TokenRange=228:235
+34	atender	atender	VERB	VERB	_	30	acl:inf	_	TokenRange=236:243
+35	cliente	cliente	NOUN	NOUN	_	34	obj	_	TokenRange=244:251
+36	cidade	cidade	NOUN	NOUN	_	34	nsubj	_	TokenRange=252:258
+37	birigui	birigui	NOUN	NOUN	_	36	flat	_	TokenRange=259:266
+38	sp	_	PART	PRT	_	34	nsubj	_	TokenRange=267:269
+39	descobriu	descobrir	VERB	VERB	_	25	parataxis	_	TokenRange=270:279
+40	proprio	proprio	ADJ	ADJ	_	41	amod	_	TokenRange=280:287
+41	marido	marido	NOUN	NOUN	_	39	obj	_	TokenRange=288:294
+42	site	site	NOUN	NOUN	_	39	nsubj	_	TokenRange=295:299
+43	especializado	especializado	ADJ	ADJ	_	42	amod	_	TokenRange=300:313
+44	farsas	farsa	NOUN	NOUN	_	39	nsubj	_	TokenRange=314:320
+45	portal	portal	ADJ	NOUN	_	46	amod	_	TokenRange=321:327
+46	cidade	cidade	NOUN	NOUN	_	44	appos	_	TokenRange=328:334
+47	birigui/sp	birigui/sp	ADJ	ADJ	_	46	amod	_	TokenRange=335:345
+48	confirmaram	confirmar	VERB	VERB	_	39	parataxis	_	TokenRange=346:357
+49	trata	trata	NOUN	NOUN	_	48	obj	_	TokenRange=358:363
+50	noticia	noticia	NOUN	NOUN	_	49	flat	_	TokenRange=364:371
+51	100	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=372:375
+52	falsa	falso	ADJ	ADJ	_	53	amod	_	TokenRange=376:381
+53	foto	foto	NOUN	NOUN	_	49	appos	_	TokenRange=382:386
+54	acompanha	acompanhar	VERB	VERB	_	48	parataxis	_	TokenRange=387:396
+55	boato	boato	NOUN	NOUN	_	54	obj	_	TokenRange=397:402
+56	captura	captura	NOUN	NOUN	_	55	appos	_	TokenRange=403:410
+57	video	video	NOUN	NOUN	_	56	flat	_	TokenRange=411:416
+58	publicado	publicar	VERB	VERB	_	57	acl	_	TokenRange=417:426
+59	site	site	NOUN	NOUN	_	58	nmod	_	TokenRange=427:431
+60	g1	_	NUM	NUM	_	61	amod	_	TokenRange=432:434
+61	reportagem	reportagem	NOUN	NOUN	_	62	nsubj	_	TokenRange=435:445
+62	falava	falar	VERB	VERB	_	48	parataxis	_	TokenRange=446:452
+63	sobre	_	ADP	ADP	_	64	case	_	TokenRange=453:458
+64	determinacao	_	NOUN	NOUN	_	62	nmod	_	TokenRange=459:471
+65	judicial	judicial	ADJ	ADJ	_	64	amod	_	TokenRange=472:480
+66	mandava	mandar	VERB	VERB	_	62	parataxis	_	TokenRange=481:488
+67	birigui	birigui	NOUN	NOUN	_	66	obj	_	TokenRange=489:496
+68	solucionar	solucionar	VERB	VERB	_	66	ccomp	_	TokenRange=497:507
+69	problemas	problema	NOUN	NOUN	_	68	obj	_	TokenRange=508:517
+70	pronto	pronto	ADJ	ADJ	_	71	amod	_	TokenRange=518:524
+71	socorro	socorro	NOUN	NOUN	_	69	appos	_	TokenRange=525:532
+72	ano	ano	NOUN	NOUN	_	68	nmod	_	TokenRange=533:536
+73	2014	_	NUM	NUM	NumType=Card	72	nmod	_	TokenRange=537:541
+74	vergonha	vergonha	ADJ	NOUN	_	75	amod	_	TokenRange=542:550
+75	folha	folha	NOUN	NOUN	_	66	parataxis	_	TokenRange=551:556
+76	sp	_	PUNCT	.	_	75	amod	_	SpaceAfter=No|TokenRange=557:559
+

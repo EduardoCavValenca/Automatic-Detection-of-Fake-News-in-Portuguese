@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = envenenado filha exespiao russo perdido esposa filho desde preso russia liberado acordo troca espioes reino unido sergei skripal viveu varias tragedias familiares yulia unica parente proxima ainda viva morava moscou visitando pai dois estado grave hospital envenenamento exagente duplo russo filha 33 anos chocou mundo estremeceu relacoes russia reino unido vida pessoal sergei skripal internado estado grave filha yulia 33 anos episodio talvez ultimo sequencia tragedias 2012 perdeu esposa diagnosticada cancer julho ano passado deu adeus filho 43 anos falencia repentina figado ultimo domingo
+1	envenenado	envenenado	ADJ	ADJ	_	2	amod	_	TokenRange=0:10
+2	filha	filho	NOUN	NOUN	_	19	nsubj	_	TokenRange=11:16
+3	exespiao	exespiao	ADJ	ADJ	_	2	amod	_	TokenRange=17:25
+4	russo	russo	ADJ	ADJ	_	2	amod	_	TokenRange=26:31
+5	perdido	perdido	ADJ	ADJ	_	2	amod	_	TokenRange=32:39
+6	esposa	esposo	NOUN	NOUN	_	2	appos	_	TokenRange=40:46
+7	filho	filho	NOUN	NOUN	_	6	amod	_	TokenRange=47:52
+8	desde	_	ADP	ADP	_	9	case	_	TokenRange=53:58
+9	preso	_	NOUN	NOUN	_	6	nmod	_	TokenRange=59:64
+10	russia	russia	NOUN	NOUN	_	2	appos	_	TokenRange=65:71
+11	liberado	liberar	ADJ	ADJ	_	12	amod	_	TokenRange=72:80
+12	acordo	acordo	NOUN	NOUN	_	2	appos	_	TokenRange=81:87
+13	troca	_	NOUN	NOUN	_	14	case	_	TokenRange=88:93
+14	espioes	espioe	NOUN	NOUN	_	12	nmod	_	TokenRange=94:101
+15	reino	reino	NOUN	NOUN	_	12	appos	_	TokenRange=102:107
+16	unido	unido	ADJ	ADJ	_	15	amod	_	TokenRange=108:113
+17	sergei	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=114:120
+18	skripal	_	ADJ	ADJ	_	17	amod	_	TokenRange=121:128
+19	viveu	viver	VERB	VERB	_	0	root	_	TokenRange=129:134
+20	varias	_	DET	DET	_	21	det	_	TokenRange=135:141
+21	tragedias	tragedia	NOUN	NOUN	_	19	obj	_	TokenRange=142:151
+22	familiares	familiar	ADJ	ADJ	_	21	amod	_	TokenRange=152:162
+23	yulia	_	NOUN	NOUN	_	21	appos	_	TokenRange=163:168
+24	unica	unico	ADJ	ADJ	_	25	amod	_	TokenRange=169:174
+25	parente	parente	NOUN	NOUN	_	21	appos	_	TokenRange=175:182
+26	proxima	proximo	ADJ	ADJ	_	25	amod	_	TokenRange=183:190
+27	ainda	ainda	ADV	ADV	_	28	advmod	_	TokenRange=191:196
+28	viva	vivo	ADJ	ADJ	_	25	amod	_	TokenRange=197:201
+29	morava	morar	VERB	VERB	_	19	parataxis	_	TokenRange=202:208
+30	moscou	moscar	NOUN	NOUN	_	29	nsubj	_	TokenRange=209:215
+31	visitando	visitar	VERB	VERB	_	29	acl	_	TokenRange=216:225
+32	pai	pai	NOUN	NOUN	_	31	obj	_	TokenRange=226:229
+33	dois	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=230:234
+34	estado	estado	NOUN	NOUN	_	31	nmod	_	TokenRange=235:241
+35	grave	grave	ADJ	ADJ	_	34	amod	_	TokenRange=242:247
+36	hospital	hospital	NOUN	NOUN	_	34	appos	_	TokenRange=248:256
+37	envenenamento	envenenamento	NOUN	NOUN	_	31	nsubj	_	TokenRange=257:270
+38	exagente	exagente	ADJ	ADJ	_	37	amod	_	TokenRange=271:279
+39	duplo	duplo	ADJ	ADJ	_	37	amod	_	TokenRange=280:285
+40	russo	russo	ADJ	ADJ	_	37	amod	_	TokenRange=286:291
+41	filha	filho	NOUN	NOUN	_	37	appos	_	TokenRange=292:297
+42	33	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=298:300
+43	anos	ano	NOUN	NOUN	_	44	nsubj	_	TokenRange=301:305
+44	chocou	chocar	VERB	VERB	_	19	parataxis	_	TokenRange=306:312
+45	mundo	mundo	NOUN	NOUN	_	44	obj	_	TokenRange=313:318
+46	estremeceu	estremecer	VERB	VERB	_	44	parataxis	_	TokenRange=319:329
+47	relacoes	relacoe	NOUN	NOUN	_	46	obj	_	TokenRange=330:338
+48	russia	russia	NOUN	NOUN	_	47	appos	_	TokenRange=339:345
+49	reino	reino	NOUN	NOUN	_	47	amod	_	TokenRange=346:351
+50	unido	unido	ADJ	ADJ	_	51	amod	_	TokenRange=352:357
+51	vida	vida	NOUN	NOUN	_	47	appos	_	TokenRange=358:362
+52	pessoal	pessoal	ADJ	ADJ	_	51	amod	_	TokenRange=363:370
+53	sergei	sergei	NOUN	NOUN	_	51	appos	_	TokenRange=371:377
+54	skripal	skripal	ADJ	ADJ	_	51	amod	_	TokenRange=378:385
+55	internado	internado	ADJ	ADJ	_	51	amod	_	TokenRange=386:395
+56	estado	estado	NOUN	NOUN	_	53	appos	_	TokenRange=396:402
+57	grave	grave	ADJ	ADJ	_	56	amod	_	TokenRange=403:408
+58	filha	filho	NOUN	NOUN	_	56	appos	_	TokenRange=409:414
+59	yulia	_	NOUN	NOUN	_	58	appos	_	TokenRange=415:420
+60	33	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=421:423
+61	anos	ano	NOUN	NOUN	_	59	appos	_	TokenRange=424:428
+62	episodio	episodio	NOUN	NOUN	_	68	parataxis	_	TokenRange=429:437
+63	talvez	talvez	ADV	ADV	_	64	advmod	_	TokenRange=438:444
+64	ultimo	_	ADJ	ADJ	_	66	amod	_	TokenRange=445:451
+65	sequencia	_	NOUN	NOUN	_	62	appos	_	TokenRange=452:461
+66	tragedias	tragedia	NOUN	NOUN	_	68	nsubj	_	TokenRange=462:471
+67	2012	_	NUM	NUM	NumType=Card	66	nmod	_	TokenRange=472:476
+68	perdeu	perder	VERB	VERB	_	19	parataxis	_	TokenRange=477:483
+69	esposa	esposo	NOUN	NOUN	_	68	obj	_	TokenRange=484:490
+70	diagnosticada	diagnosticar	VERB	VERB	_	69	acl	_	TokenRange=491:504
+71	cancer	cancer	NOUN	NOUN	_	70	nsubj	_	TokenRange=505:511
+72	julho	_	PROPN	PNOUN	_	73	case	_	TokenRange=512:517
+73	ano	ano	NOUN	NOUN	_	75	nmod	_	TokenRange=518:521
+74	passado	passado	ADJ	ADJ	_	73	amod	_	TokenRange=522:529
+75	deu	dar	VERB	VERB	_	68	parataxis	_	TokenRange=530:533
+76	adeus	adeu	NOUN	NOUN	_	75	obj	_	TokenRange=534:539
+77	filho	filho	NOUN	NOUN	_	76	flat	_	TokenRange=540:545
+78	43	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=546:548
+79	anos	ano	NOUN	NOUN	_	80	nmod	_	TokenRange=549:553
+80	falencia	falencia	NOUN	NOUN	_	75	parataxis	_	TokenRange=554:562
+81	repentina	repentino	ADJ	ADJ	_	80	amod	_	TokenRange=563:572
+82	figado	figado	ADJ	ADJ	_	84	amod	_	TokenRange=573:579
+83	ultimo	_	ADJ	ADJ	_	84	amod	_	TokenRange=580:586
+84	domingo	_	PROPN	PNOUN	_	75	nmod	_	SpaceAfter=No|TokenRange=587:594
+

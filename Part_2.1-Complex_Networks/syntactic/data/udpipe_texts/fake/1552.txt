@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delator confirma repassou r 21 milhoes pt pmdb propinas usina belo monte delator lavajato luiz carlos martins engenheiro ligado camargo correa confirmou repassado cerca r 21 milhoes propina pt pmdb referentes obras usina belo monte luiz carlos declarou 2011 levou presidente camargo correa dalton avancini cobranca sido feita entao presidente andrade gutierrez energia flavio barra sentido 1 valores desembolsados contrato obras civis belo monte deveria encaminhado partido trabalhadores pt partido movimento democratico brasileiro pmdb relatou
+1	delator	delator	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	confirma	confirmar	VERB	VERB	_	0	root	_	TokenRange=8:16
+3	repassou	repassar	VERB	VERB	_	2	xcomp	_	TokenRange=17:25
+4	r	r	NOUN	NOUN	_	3	nmod	_	TokenRange=26:27
+5	21	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=28:30
+6	milhoes	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=31:38
+7	pt	_	ADP	ADP	_	8	case	_	TokenRange=39:41
+8	pmdb	_	NOUN	NOUN	_	3	nmod	_	TokenRange=42:46
+9	propinas	propina	NOUN	NOUN	_	3	obj	_	TokenRange=47:55
+10	usina	usina	NOUN	NOUN	_	9	amod	_	TokenRange=56:61
+11	belo	belo	ADJ	ADJ	_	12	amod	_	TokenRange=62:66
+12	monte	monte	NOUN	NOUN	_	4	appos	_	TokenRange=67:72
+13	delator	delator	NOUN	NOUN	_	14	appos	_	TokenRange=73:80
+14	lavajato	lavajato	NOUN	NOUN	_	9	appos	_	TokenRange=81:89
+15	luiz	luiz	NOUN	NOUN	_	14	appos	_	TokenRange=90:94
+16	carlos	_	NOUN	NOUN	_	15	flat	_	TokenRange=95:101
+17	martins	_	NOUN	NOUN	_	18	flat	_	TokenRange=102:109
+18	engenheiro	engenheiro	NOUN	NOUN	_	14	appos	_	TokenRange=110:120
+19	ligado	ligado	ADJ	ADJ	_	18	amod	_	TokenRange=121:127
+20	camargo	camargo	NOUN	NOUN	_	18	appos	_	TokenRange=128:135
+21	correa	correa	ADJ	ADJ	_	20	amod	_	TokenRange=136:142
+22	confirmou	confirmar	VERB	VERB	_	2	conj	_	TokenRange=143:152
+23	repassado	repassado	ADJ	ADJ	_	22	xcomp	_	TokenRange=153:162
+24	cerca	cerca	ADV	ADV	_	27	advmod	_	TokenRange=163:168
+25	r	r	NOUN	NOUN	_	23	nmod	_	TokenRange=169:170
+26	21	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=171:173
+27	milhoes	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=174:181
+28	propina	propina	NOUN	NOUN	_	23	obj	_	TokenRange=182:189
+29	pt	_	ADP	ADP	_	30	case	_	TokenRange=190:192
+30	pmdb	_	NOUN	NOUN	_	28	nmod	_	TokenRange=193:197
+31	referentes	referente	ADJ	ADJ	_	32	amod	_	TokenRange=198:208
+32	obras	obra	NOUN	NOUN	_	38	nsubj	_	TokenRange=209:214
+33	usina	usina	NOUN	NOUN	_	32	appos	_	TokenRange=215:220
+34	belo	belo	ADJ	ADJ	_	35	amod	_	TokenRange=221:225
+35	monte	monte	NOUN	NOUN	_	33	appos	_	TokenRange=226:231
+36	luiz	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=232:236
+37	carlos	carlo	NOUN	NOUN	_	36	flat	_	TokenRange=237:243
+38	declarou	declarar	VERB	VERB	_	22	parataxis	_	TokenRange=244:252
+39	2011	_	NUM	NUM	NumType=Card	38	nmod	_	TokenRange=253:257
+40	levou	levar	VERB	VERB	_	38	ccomp	_	TokenRange=258:263
+41	presidente	presidente	NOUN	NOUN	_	40	obj	_	TokenRange=264:274
+42	camargo	camargo	ADJ	ADJ	_	41	amod	_	TokenRange=275:282
+43	correa	correa	NOUN	NOUN	_	41	flat	_	TokenRange=283:289
+44	dalton	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=290:296
+45	avancini	_	NOUN	NOUN	_	44	flat	_	TokenRange=297:305
+46	cobranca	cobranca	NOUN	NOUN	_	44	flat	_	TokenRange=306:314
+47	sido	ser	AUX	AUX	_	48	aux:pass	_	TokenRange=315:319
+48	feita	_	VERB	VERB	_	41	acl	_	TokenRange=320:325
+49	entao	entao	ADV	ADV	_	50	advmod	_	TokenRange=326:331
+50	presidente	presidente	NOUN	NOUN	_	48	nmod	_	TokenRange=332:342
+51	andrade	andrade	NOUN	NOUN	_	50	appos	_	TokenRange=343:350
+52	gutierrez	gutierrez	NOUN	NOUN	_	51	flat	_	TokenRange=351:360
+53	energia	energia	NOUN	NOUN	_	50	appos	_	TokenRange=361:368
+54	flavio	flavio	NOUN	NOUN	_	50	appos	_	TokenRange=369:375
+55	barra	barra	NOUN	NOUN	_	54	flat	_	TokenRange=376:381
+56	sentido	sentido	NOUN	NOUN	_	53	appos	_	TokenRange=382:389
+57	1	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=390:391
+58	valores	_	NOUN	NOUN	_	56	appos	_	TokenRange=392:399
+59	desembolsados	desembolsar	ADJ	ADJ	_	58	amod	_	TokenRange=400:413
+60	contrato	contrato	NOUN	NOUN	_	75	obj	_	TokenRange=414:422
+61	obras	obra	NOUN	NOUN	_	66	nsubj	_	TokenRange=423:428
+62	civis	civil	ADJ	ADJ	_	61	amod	_	TokenRange=429:434
+63	belo	belo	ADJ	ADJ	_	64	amod	_	TokenRange=435:439
+64	monte	monte	NOUN	NOUN	_	61	appos	_	TokenRange=440:445
+65	deveria	dever	AUX	AUX	_	66	aux	_	TokenRange=446:453
+66	encaminhado	encaminhar	VERB	VERB	_	75	ccomp	_	TokenRange=454:465
+67	partido	partido	NOUN	NOUN	_	75	obj	_	TokenRange=466:473
+68	trabalhadores	trabalhador	ADJ	ADJ	_	67	amod	_	TokenRange=474:487
+69	pt	_	ADP	ADP	_	70	cc	_	TokenRange=488:490
+70	partido	partido	NOUN	NOUN	_	67	appos	_	TokenRange=491:498
+71	movimento	movimento	ADJ	ADJ	_	70	amod	_	TokenRange=499:508
+72	democratico	democratico	ADJ	ADJ	_	70	amod	_	TokenRange=509:520
+73	brasileiro	brasileiro	ADJ	ADJ	_	70	amod	_	TokenRange=521:531
+74	pmdb	_	NOUN	NOUN	_	75	nsubj	_	TokenRange=532:536
+75	relatou	relatar	VERB	VERB	_	2	parataxis	_	SpaceAfter=No|TokenRange=537:544
+

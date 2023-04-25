@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = melhor jair acostumando bolsonaro dispara intencoes voto santa catarina jair bolsonaro dispara lideranca intencoes voto presidente santa catarina levantamento feito instituto parana pesquisas pesquisa traz dois cenarios distintos primeiro governador geraldo alckmin segundo joao doria
+1	melhor	melhor	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	jair	jair	NOUN	NOUN	_	5	nsubj	_	TokenRange=7:11
+3	acostumando	acostumar	VERB	VERB	_	2	acl	_	TokenRange=12:23
+4	bolsonaro	bolsonaro	NOUN	NOUN	_	3	obj	_	TokenRange=24:33
+5	dispara	disparar	VERB	VERB	_	25	ccomp	_	TokenRange=34:41
+6	intencoes	_	NOUN	NOUN	_	5	obj	_	TokenRange=42:51
+7	voto	voto	NOUN	NOUN	_	6	appos	_	TokenRange=52:56
+8	santa	santo	ADJ	ADJ	_	9	amod	_	TokenRange=57:62
+9	catarina	catarina	NOUN	NOUN	_	7	amod	_	TokenRange=63:71
+10	jair	jair	NOUN	NOUN	_	12	nsubj	_	TokenRange=72:76
+11	bolsonaro	bolsonaro	NOUN	NOUN	_	10	flat	_	TokenRange=77:86
+12	dispara	disparar	VERB	VERB	_	5	parataxis	_	TokenRange=87:94
+13	lideranca	lideranca	NOUN	NOUN	_	12	obj	_	TokenRange=95:104
+14	intencoes	_	ADJ	ADJ	_	13	amod	_	TokenRange=105:114
+15	voto	voto	NOUN	NOUN	_	13	appos	_	TokenRange=115:119
+16	presidente	presidente	NOUN	NOUN	_	13	appos	_	TokenRange=120:130
+17	santa	santo	ADJ	ADJ	_	16	amod	_	TokenRange=131:136
+18	catarina	catarina	ADJ	ADJ	_	16	amod	_	TokenRange=137:145
+19	levantamento	levantamento	NOUN	NOUN	_	12	obj	_	TokenRange=146:158
+20	feito	_	VERB	VERB	_	19	acl	_	TokenRange=159:164
+21	instituto	instituto	NOUN	NOUN	_	19	appos	_	TokenRange=165:174
+22	parana	parana	ADJ	ADJ	_	23	amod	_	TokenRange=175:181
+23	pesquisas	pesquisa	NOUN	NOUN	_	21	appos	_	TokenRange=182:191
+24	pesquisa	pesquisa	NOUN	NOUN	_	21	appos	_	TokenRange=192:200
+25	traz	trazer	VERB	VERB	_	0	root	_	TokenRange=201:205
+26	dois	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=206:210
+27	cenarios	cenario	NOUN	NOUN	_	25	obj	_	TokenRange=211:219
+28	distintos	distinto	ADJ	ADJ	_	27	amod	_	TokenRange=220:229
+29	primeiro	primeiro	ADJ	ADJ	_	30	amod	_	TokenRange=230:238
+30	governador	governador	NOUN	NOUN	_	25	obj	_	TokenRange=239:249
+31	geraldo	geraldo	ADJ	ADJ	_	30	amod	_	TokenRange=250:257
+32	alckmin	_	NOUN	NOUN	_	30	appos	_	TokenRange=258:265
+33	segundo	_	ADP	ADP	_	34	case	_	TokenRange=266:273
+34	joao	joao	NOUN	NOUN	_	25	nmod	_	TokenRange=274:278
+35	doria	doria	NOUN	NOUN	_	34	flat	_	SpaceAfter=No|TokenRange=279:284
+

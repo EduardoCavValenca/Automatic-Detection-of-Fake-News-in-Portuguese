@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sextafeira 2 marco bom dia aqui principais assuntos comecar dia beminformado pf sob novo comando novo diretorgeral rogerio galloro toma posse hoje manha tarde reune nova equipe apresentar diretrizes nova gestao policia federal pretende fazer fim 2018 g1 acompanhou venezuelanos trajeto 215 km fronteira brasil boa vista dinheiro perspectivas imigrantes fogem
+1	sextafeira	sextafeira	NOUN	NOUN	_	34	nsubj	_	TokenRange=0:10
+2	2	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=11:12
+3	marco	marco	NOUN	NOUN	_	1	appos	_	TokenRange=13:18
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=19:22
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=23:26
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=27:31
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=32:42
+8	assuntos	assunto	NOUN	NOUN	_	1	appos	_	TokenRange=43:51
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=52:59
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=60:63
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=64:76
+12	pf	_	NOUN	NOUN	_	9	obj	_	TokenRange=77:79
+13	sob	_	ADP	ADP	_	15	case	_	TokenRange=80:83
+14	novo	novo	ADJ	ADJ	_	15	amod	_	TokenRange=84:88
+15	comando	comando	NOUN	NOUN	_	12	nmod	_	TokenRange=89:96
+16	novo	novo	ADJ	ADJ	_	17	amod	_	TokenRange=97:101
+17	diretorgeral	diretorgeral	NOUN	NOUN	_	12	appos	_	TokenRange=102:114
+18	rogerio	rogerio	NOUN	NOUN	_	17	appos	_	TokenRange=115:122
+19	galloro	galloro	NOUN	NOUN	_	18	flat	_	TokenRange=123:130
+20	toma	_	VERB	VERB	_	17	appos	_	TokenRange=131:135
+21	posse	posse	NOUN	NOUN	_	20	obj	_	TokenRange=136:141
+22	hoje	hoje	ADV	ADV	_	20	advmod	_	TokenRange=142:146
+23	manha	manha	NOUN	NOUN	_	20	nsubj	_	TokenRange=147:152
+24	tarde	tarde	NOUN	NOUN	_	23	flat	_	TokenRange=153:158
+25	reune	_	VERB	VERB	_	20	conj	_	TokenRange=159:164
+26	nova	novo	ADJ	ADJ	_	27	amod	_	TokenRange=165:169
+27	equipe	equipe	NOUN	NOUN	_	25	obj	_	TokenRange=170:176
+28	apresentar	apresentar	VERB	VERB	_	34	csubj	_	TokenRange=177:187
+29	diretrizes	diretriz	NOUN	NOUN	_	28	obj	_	TokenRange=188:198
+30	nova	novo	ADJ	ADJ	_	31	amod	_	TokenRange=199:203
+31	gestao	gestao	NOUN	NOUN	_	28	obj	_	TokenRange=204:210
+32	policia	policia	NOUN	NOUN	_	28	nsubj	_	TokenRange=211:218
+33	federal	federal	ADJ	ADJ	_	32	amod	_	TokenRange=219:226
+34	pretende	pretender	VERB	VERB	_	0	root	_	TokenRange=227:235
+35	fazer	fazer	VERB	VERB	_	34	xcomp	_	TokenRange=236:241
+36	fim	fim	NOUN	NOUN	_	35	obj	_	TokenRange=242:245
+37	2018	_	NUM	NUM	NumType=Card	36	nmod	_	TokenRange=246:250
+38	g1	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=251:253
+39	acompanhou	acompanhar	VERB	VERB	_	35	parataxis	_	TokenRange=254:264
+40	venezuelanos	_	ADJ	ADJ	_	41	amod	_	TokenRange=265:277
+41	trajeto	trajeto	NOUN	NOUN	_	39	obj	_	TokenRange=278:285
+42	215	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=286:289
+43	km	km	NOUN	NOUN	_	41	appos	_	TokenRange=290:292
+44	fronteira	_	NOUN	NOUN	_	41	appos	_	TokenRange=293:302
+45	brasil	brasil	ADJ	ADJ	_	47	amod	_	TokenRange=303:309
+46	boa	bom	ADJ	ADJ	_	47	amod	_	TokenRange=310:313
+47	vista	vista	NOUN	NOUN	_	44	appos	_	TokenRange=314:319
+48	dinheiro	dinheiro	NOUN	NOUN	_	49	amod	_	TokenRange=320:328
+49	perspectivas	perspectiva	NOUN	NOUN	_	51	nsubj	_	TokenRange=329:341
+50	imigrantes	imigrante	ADJ	ADJ	_	49	amod	_	TokenRange=342:352
+51	fogem	_	VERB	VERB	_	34	parataxis	_	SpaceAfter=No|TokenRange=353:358
+

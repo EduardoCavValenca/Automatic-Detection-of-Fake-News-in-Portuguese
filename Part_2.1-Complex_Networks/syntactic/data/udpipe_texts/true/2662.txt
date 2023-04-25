@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delacao joesley batista diz aecio pediu comprar imoveis rio bh pagar dividas apartamento cobertura fica bairro conrado rio condominio r 18 mil outro predio regiao centrosul capital mineira funcionava jornal hoje dia senador afastado aecio neves psdb divulgou nessa semana video dizendo jamais ganhou dinheiro vida publica acordo delacao empresario joesley batista dono jbs milhoes reais repassados senador esquema envolvia compra venda imoveis diversas cidades ultimo dia 18 policia federal pf deflagrou operacao patmos cumpriu mandados busca apreensao enderecos ligados aecio ocasiao irma senador andrea neves
+1	delacao	delacao	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	joesley	_	NOUN	NOUN	_	1	appos	_	TokenRange=8:15
+3	batista	batista	ADJ	ADJ	_	2	flat	_	TokenRange=16:23
+4	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=24:27
+5	aecio	_	NOUN	NOUN	_	4	obj	_	TokenRange=28:33
+6	pediu	pedir	VERB	VERB	_	4	ccomp	_	TokenRange=34:39
+7	comprar	comprar	VERB	VERB	_	6	xcomp	_	TokenRange=40:47
+8	imoveis	_	NOUN	NOUN	_	7	obj	_	TokenRange=48:55
+9	rio	rio	NOUN	NOUN	_	8	appos	_	TokenRange=56:59
+10	bh	_	NOUN	NOUN	_	35	flat	_	TokenRange=60:62
+11	pagar	pagar	VERB	VERB	_	6	ccomp	_	TokenRange=63:68
+12	dividas	divida	NOUN	NOUN	_	11	obj	_	TokenRange=69:76
+13	apartamento	apartamento	NOUN	NOUN	_	12	appos	_	TokenRange=77:88
+14	cobertura	cobertura	NOUN	NOUN	_	16	appos	_	TokenRange=89:98
+15	fica	ficar	AUX	VERB	_	16	cop	_	TokenRange=99:103
+16	bairro	bairro	NOUN	NOUN	_	6	parataxis	_	TokenRange=104:110
+17	conrado	conrado	ADJ	ADJ	_	16	amod	_	TokenRange=111:118
+18	rio	rio	NOUN	NOUN	_	16	appos	_	TokenRange=119:122
+19	condominio	condominio	NOUN	NOUN	_	16	appos	_	TokenRange=123:133
+20	r	r	NOUN	NOUN	_	19	appos	_	TokenRange=134:135
+21	18	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=136:138
+22	mil	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=139:142
+23	outro	_	DET	DET	_	24	det	_	TokenRange=143:148
+24	predio	predio	NOUN	NOUN	_	6	nsubj	_	TokenRange=149:155
+25	regiao	regiao	NOUN	NOUN	_	24	appos	_	TokenRange=156:162
+26	centrosul	_	ADJ	ADJ	_	27	amod	_	TokenRange=163:172
+27	capital	capital	NOUN	NOUN	_	24	appos	_	TokenRange=173:180
+28	mineira	mineiro	ADJ	ADJ	_	27	amod	_	TokenRange=181:188
+29	funcionava	funcionar	VERB	VERB	_	6	parataxis	_	TokenRange=189:199
+30	jornal	jornal	NOUN	NOUN	_	29	obj	_	TokenRange=200:206
+31	hoje	hoje	ADV	ADV	_	32	advmod	_	TokenRange=207:211
+32	dia	dia	NOUN	NOUN	_	30	appos	_	TokenRange=212:215
+33	senador	senador	NOUN	NOUN	_	30	appos	_	TokenRange=216:223
+34	afastado	afastado	ADJ	ADJ	_	33	amod	_	TokenRange=224:232
+35	aecio	_	NOUN	NOUN	_	33	appos	_	TokenRange=233:238
+36	neves	neve	ADJ	ADJ	_	35	flat	_	TokenRange=239:244
+37	psdb	_	PROPN	PNOUN	_	35	flat	_	TokenRange=245:249
+38	divulgou	divulgar	VERB	VERB	_	29	parataxis	_	TokenRange=250:258
+39	nessa	_	ADP	ADP	_	40	case	_	TokenRange=259:264
+40	semana	semana	NOUN	NOUN	_	38	nmod	_	TokenRange=265:271
+41	video	video	NOUN	NOUN	_	38	obj	_	TokenRange=272:277
+42	dizendo	dizer	VERB	VERB	_	41	acl	_	TokenRange=278:285
+43	jamais	jamais	ADV	ADV	_	44	advmod	_	TokenRange=286:292
+44	ganhou	ganhar	VERB	VERB	_	42	xcomp	_	TokenRange=293:299
+45	dinheiro	dinheiro	NOUN	NOUN	_	44	obj	_	TokenRange=300:308
+46	vida	vida	NOUN	NOUN	_	44	obj	_	TokenRange=309:313
+47	publica	publico	ADJ	ADJ	_	46	amod	_	TokenRange=314:321
+48	acordo	acordo	NOUN	NOUN	_	44	nsubj	_	TokenRange=322:328
+49	delacao	delacao	ADJ	ADJ	_	50	amod	_	TokenRange=329:336
+50	empresario	empresario	NOUN	NOUN	_	48	appos	_	TokenRange=337:347
+51	joesley	_	NOUN	NOUN	_	50	appos	_	TokenRange=348:355
+52	batista	batista	ADJ	ADJ	_	51	flat	_	TokenRange=356:363
+53	dono	donar	VERB	VERB	_	50	acl:relcl	_	TokenRange=364:368
+54	jbs	_	NOUN	NOUN	_	55	nummod	_	TokenRange=369:372
+55	milhoes	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=373:380
+56	reais	real	NOUN	NOUN	_	53	obj	_	TokenRange=381:386
+57	repassados	repassado	ADJ	ADJ	_	56	amod	_	TokenRange=387:397
+58	senador	senador	NOUN	NOUN	_	60	nsubj	_	TokenRange=398:405
+59	esquema	esquema	NOUN	NOUN	_	58	flat	_	TokenRange=406:413
+60	envolvia	envolver	VERB	VERB	_	53	parataxis	_	TokenRange=414:422
+61	compra	compra	NOUN	NOUN	_	60	obj	_	TokenRange=423:429
+62	venda	venda	NOUN	NOUN	_	61	flat	_	TokenRange=430:435
+63	imoveis	imovel	NOUN	NOUN	_	62	flat	_	TokenRange=436:443
+64	diversas	_	DET	DET	_	65	det	_	TokenRange=444:452
+65	cidades	cidade	NOUN	NOUN	_	61	nmod	_	TokenRange=453:460
+66	ultimo	_	ADJ	ADJ	_	67	amod	_	TokenRange=461:467
+67	dia	dia	NOUN	NOUN	_	60	nmod	_	TokenRange=468:471
+68	18	_	NUM	NUM	NumType=Card	67	appos	_	TokenRange=472:474
+69	policia	policia	NOUN	NOUN	_	72	nsubj	_	TokenRange=475:482
+70	federal	federal	ADJ	ADJ	_	69	amod	_	TokenRange=483:490
+71	pf	_	NOUN	NOUN	_	69	appos	_	TokenRange=491:493
+72	deflagrou	deflagrar	VERB	VERB	_	4	parataxis	_	TokenRange=494:503
+73	operacao	operacao	NOUN	NOUN	_	72	obj	_	TokenRange=504:512
+74	patmos	_	NOUN	NOUN	_	73	flat	_	TokenRange=513:519
+75	cumpriu	cumprir	VERB	VERB	_	72	parataxis	_	TokenRange=520:527
+76	mandados	mandado	NOUN	NOUN	_	75	obj	_	TokenRange=528:536
+77	busca	busca	NOUN	NOUN	_	76	appos	_	TokenRange=537:542
+78	apreensao	apreensao	ADJ	ADJ	_	76	amod	_	TokenRange=543:552
+79	enderecos	endereco	NOUN	NOUN	_	76	appos	_	TokenRange=553:562
+80	ligados	ligado	ADJ	ADJ	_	79	amod	_	TokenRange=563:570
+81	aecio	_	NOUN	NOUN	_	75	nsubj	_	TokenRange=571:576
+82	ocasiao	ocasiao	ADJ	ADJ	_	84	amod	_	TokenRange=577:584
+83	irma	irmo	NOUN	NOUN	_	84	amod	_	TokenRange=585:589
+84	senador	senador	NOUN	NOUN	_	81	appos	_	TokenRange=590:597
+85	andrea	_	NOUN	NOUN	_	84	appos	_	TokenRange=598:604
+86	neves	_	NOUN	NOUN	_	85	flat	_	SpaceAfter=No|TokenRange=605:610
+

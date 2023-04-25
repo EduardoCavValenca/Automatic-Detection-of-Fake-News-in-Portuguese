@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = levantamento instituto parana mostra 1 cada 3 brasileiros apoia intervencao militar levantamento realizado instituto parana pesquisas revela 351 brasileiros apoiam intervencao militar provisoria brasil apoiam tipo iniciativa somam 592 59 sabem responderam maior percentual pessoas defendem volta intervencao militar faixa etaria 45 59 anos 396 acima 60 anos 393 pessoas vivenciaram ditadura militar brasil parana pesquisas entrevistou 2016 pessoas 152 cidades 24 estados dias 6 8
+1	levantamento	levantamento	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:12
+2	instituto	instituto	NOUN	NOUN	_	1	appos	_	TokenRange=13:22
+3	parana	parana	ADJ	ADJ	_	1	amod	_	TokenRange=23:29
+4	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=30:36
+5	1	_	NUM	NUM	NumType=Card	9	obj	_	TokenRange=37:38
+6	cada	_	DET	DET	_	8	det	_	TokenRange=39:43
+7	3	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=44:45
+8	brasileiros	brasileiro	NOUN	NOUN	_	9	nsubj	_	TokenRange=46:57
+9	apoia	apoiar	VERB	VERB	_	4	ccomp	_	TokenRange=58:63
+10	intervencao	intervencao	NOUN	NOUN	_	9	obj	_	TokenRange=64:75
+11	militar	militar	ADJ	ADJ	_	10	amod	_	TokenRange=76:83
+12	levantamento	levantamento	NOUN	NOUN	_	9	nsubj	_	TokenRange=84:96
+13	realizado	realizar	VERB	VERB	_	12	acl	_	TokenRange=97:106
+14	instituto	instituto	NOUN	NOUN	_	13	nsubj	_	TokenRange=107:116
+15	parana	parana	ADJ	ADJ	_	16	amod	_	TokenRange=117:123
+16	pesquisas	pesquisa	NOUN	NOUN	_	14	appos	_	TokenRange=124:133
+17	revela	revelar	VERB	VERB	_	4	parataxis	_	TokenRange=134:140
+18	351	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=141:144
+19	brasileiros	brasileiro	NOUN	NOUN	_	20	nsubj	_	TokenRange=145:156
+20	apoiam	apoiar	VERB	VERB	_	17	ccomp	_	TokenRange=157:163
+21	intervencao	intervencao	NOUN	NOUN	_	20	obj	_	TokenRange=164:175
+22	militar	militar	ADJ	ADJ	_	21	amod	_	TokenRange=176:183
+23	provisoria	provisorio	ADJ	ADJ	_	21	amod	_	TokenRange=184:194
+24	brasil	brasil	ADJ	ADJ	_	25	nsubj	_	TokenRange=195:201
+25	apoiam	apoiar	VERB	VERB	_	20	parataxis	_	TokenRange=202:208
+26	tipo	tipo	NOUN	NOUN	_	25	obj	_	TokenRange=209:213
+27	iniciativa	iniciativa	NOUN	NOUN	_	26	flat	_	TokenRange=214:224
+28	somam	somar	VERB	VERB	_	25	parataxis	_	TokenRange=225:230
+29	592	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=231:234
+30	59	_	NUM	NUM	NumType=Card	31	nsubj	_	TokenRange=235:237
+31	sabem	saber	VERB	VERB	_	28	ccomp	_	TokenRange=238:243
+32	responderam	responder	VERB	VERB	_	31	xcomp	_	TokenRange=244:255
+33	maior	maior	ADJ	ADJ	_	35	amod	_	TokenRange=256:261
+34	percentual	_	ADJ	ADJ	_	35	amod	_	TokenRange=262:272
+35	pessoas	pessoa	NOUN	NOUN	_	36	nsubj	_	TokenRange=273:280
+36	defendem	defender	VERB	VERB	_	28	parataxis	_	TokenRange=281:289
+37	volta	volta	NOUN	NOUN	_	36	obj	_	TokenRange=290:295
+38	intervencao	intervencao	NOUN	NOUN	_	37	appos	_	TokenRange=296:307
+39	militar	militar	ADJ	ADJ	_	38	amod	_	TokenRange=308:315
+40	faixa	faixa	NOUN	NOUN	_	36	nsubj	_	TokenRange=316:321
+41	etaria	etaria	NOUN	NOUN	_	40	flat	_	TokenRange=322:328
+42	45	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=329:331
+43	59	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=332:334
+44	anos	ano	NOUN	NOUN	_	40	appos	_	TokenRange=335:339
+45	396	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=340:343
+46	acima	acima	ADV	ADV	_	47	advmod	_	TokenRange=344:349
+47	60	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=350:352
+48	anos	ano	NOUN	NOUN	_	40	appos	_	TokenRange=353:357
+49	393	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=358:361
+50	pessoas	pessoa	NOUN	NOUN	_	51	nsubj	_	TokenRange=362:369
+51	vivenciaram	vivenciar	VERB	VERB	_	40	acl:relcl	_	TokenRange=370:381
+52	ditadura	ditadura	NOUN	NOUN	_	51	obj	_	TokenRange=382:390
+53	militar	militar	ADJ	ADJ	_	52	amod	_	TokenRange=391:398
+54	brasil	brasil	NOUN	NOUN	_	57	nsubj	_	TokenRange=399:405
+55	parana	parana	ADJ	ADJ	_	56	amod	_	TokenRange=406:412
+56	pesquisas	pesquisa	NOUN	NOUN	_	54	flat	_	TokenRange=413:422
+57	entrevistou	entrevistar	VERB	VERB	_	4	parataxis	_	TokenRange=423:434
+58	2016	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=435:439
+59	pessoas	pessoa	NOUN	NOUN	_	57	obj	_	TokenRange=440:447
+60	152	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=448:451
+61	cidades	cidade	NOUN	NOUN	_	57	nsubj	_	TokenRange=452:459
+62	24	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=460:462
+63	estados	estado	NOUN	NOUN	_	61	appos	_	TokenRange=463:470
+64	dias	dia	NOUN	NOUN	_	63	flat	_	TokenRange=471:475
+65	6	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=476:477
+66	8	_	NUM	NUM	NumType=Card	63	nummod	_	SpaceAfter=No|TokenRange=478:479
+

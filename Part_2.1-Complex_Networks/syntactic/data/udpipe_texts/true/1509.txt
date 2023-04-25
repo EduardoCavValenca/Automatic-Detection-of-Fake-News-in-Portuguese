@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = parto ivete titi ile declaracoes preta claudia roupa alinne paris dj marcam 3 dia carnaval beijo carla xanddy solange almeida trio cordas famosos integram destaques folia neste sabado 10 terceiro dia carnaval salvador neste sabado 10 reuniu grandes destaques circuitos dodo barraondina osmar campo grande onde ocorre folia 50 atracoes desfilaram la nascimento gemeas ivete sangalo pontos serem ressaltados alem parto musa pequena titi curtindo saida bloco afro ile aiye
+1	parto	parto	NOUN	NOUN	_	24	parataxis	_	TokenRange=0:5
+2	ivete	ivete	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	titi	_	NOUN	NOUN	_	1	appos	_	TokenRange=12:16
+4	ile	_	NOUN	NOUN	_	1	appos	_	TokenRange=17:20
+5	declaracoes	_	NOUN	NOUN	_	1	appos	_	TokenRange=21:32
+6	preta	preto	ADJ	ADJ	_	5	amod	_	TokenRange=33:38
+7	claudia	claudia	NOUN	NOUN	_	1	appos	_	TokenRange=39:46
+8	roupa	roupa	NOUN	NOUN	_	7	flat	_	TokenRange=47:52
+9	alinne	_	NOUN	NOUN	_	7	appos	_	TokenRange=53:59
+10	paris	_	NOUN	NOUN	_	9	flat	_	TokenRange=60:65
+11	dj	_	NOUN	NOUN	_	9	flat	_	TokenRange=66:68
+12	marcam	marcar	VERB	VERB	_	1	parataxis	_	TokenRange=69:75
+13	3	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=76:77
+14	dia	dia	NOUN	NOUN	_	12	nmod	_	TokenRange=78:81
+15	carnaval	carnaval	ADJ	ADJ	_	14	amod	_	TokenRange=82:90
+16	beijo	beijo	NOUN	NOUN	_	1	appos	_	TokenRange=91:96
+17	carla	_	NOUN	NOUN	_	16	appos	_	TokenRange=97:102
+18	xanddy	_	NOUN	NOUN	_	16	flat	_	TokenRange=103:109
+19	solange	solange	NOUN	NOUN	_	16	appos	_	TokenRange=110:117
+20	almeida	almeida	ADJ	NOUN	_	19	flat	_	TokenRange=118:125
+21	trio	_	NOUN	NOUN	_	22	flat	_	TokenRange=126:130
+22	cordas	corda	NOUN	NOUN	_	7	flat	_	TokenRange=131:137
+23	famosos	famoso	ADJ	ADJ	_	22	amod	_	TokenRange=138:145
+24	integram	integrar	VERB	VERB	_	0	root	_	TokenRange=146:154
+25	destaques	destaque	NOUN	NOUN	_	24	obj	_	TokenRange=155:164
+26	folia	_	ADJ	ADJ	_	25	appos	_	TokenRange=165:170
+27	neste	_	ADP	ADP	_	28	case	_	TokenRange=171:176
+28	sabado	_	PROPN	PNOUN	_	24	nmod	_	TokenRange=177:183
+29	10	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=184:186
+30	terceiro	_	ADJ	ADJ	_	31	amod	_	TokenRange=187:195
+31	dia	dia	NOUN	NOUN	_	28	appos	_	TokenRange=196:199
+32	carnaval	carnaval	ADJ	ADJ	_	31	amod	_	TokenRange=200:208
+33	salvador	salvador	NOUN	NOUN	_	31	appos	_	TokenRange=209:217
+34	neste	_	ADP	ADP	_	35	case	_	TokenRange=218:223
+35	sabado	_	PROPN	PNOUN	_	37	nmod	_	TokenRange=224:230
+36	10	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=231:233
+37	reuniu	reunir	VERB	VERB	_	24	parataxis	_	TokenRange=234:240
+38	grandes	grande	ADJ	ADJ	_	39	amod	_	TokenRange=241:248
+39	destaques	destaque	NOUN	NOUN	_	37	obj	_	TokenRange=249:258
+40	circuitos	circuito	NOUN	NOUN	_	39	appos	_	TokenRange=259:268
+41	dodo	_	NOUN	NOUN	_	39	appos	_	TokenRange=269:273
+42	barraondina	_	NOUN	NOUN	_	41	flat	_	TokenRange=274:285
+43	osmar	osmar	NOUN	NOUN	_	41	appos	_	TokenRange=286:291
+44	campo	campo	NOUN	NOUN	_	41	appos	_	TokenRange=292:297
+45	grande	grande	ADJ	ADJ	_	44	amod	_	TokenRange=298:304
+46	onde	onde	ADV	ADV	_	47	advmod	_	TokenRange=305:309
+47	ocorre	ocorrer	VERB	VERB	_	44	acl:relcl	_	TokenRange=310:316
+48	folia	folia	NOUN	NOUN	_	47	nsubj	_	TokenRange=317:322
+49	50	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=323:325
+50	atracoes	atracoe	NOUN	NOUN	_	51	nsubj	_	TokenRange=326:334
+51	desfilaram	desfilar	VERB	VERB	_	37	parataxis	_	TokenRange=335:345
+52	la	_	DET	DET	_	53	det	_	TokenRange=346:348
+53	nascimento	nascimento	NOUN	NOUN	_	51	nsubj	_	TokenRange=349:359
+54	gemeas	gemea	NOUN	NOUN	_	53	flat	_	TokenRange=360:366
+55	ivete	ivete	NOUN	NOUN	_	53	appos	_	TokenRange=367:372
+56	sangalo	sangalo	ADJ	ADJ	_	55	amod	_	TokenRange=373:380
+57	pontos	ponto	NOUN	NOUN	_	55	flat	_	TokenRange=381:387
+58	serem	ser	AUX	AUX	_	59	aux:pass	_	TokenRange=388:393
+59	ressaltados	ressaltar	VERB	VERB	_	51	ccomp	_	TokenRange=394:405
+60	alem	alem	ADV	ADV	_	61	advmod	_	TokenRange=406:410
+61	parto	parto	NOUN	NOUN	_	59	nsubj:pass	_	TokenRange=411:416
+62	musa	musa	NOUN	NOUN	_	59	nsubj:pass	_	TokenRange=417:421
+63	pequena	pequeno	ADJ	ADJ	_	62	amod	_	TokenRange=422:429
+64	titi	_	NOUN	NOUN	_	62	appos	_	TokenRange=430:434
+65	curtindo	curtir	VERB	VERB	_	62	acl	_	TokenRange=435:443
+66	saida	saida	NOUN	NOUN	_	65	obj	_	TokenRange=444:449
+67	bloco	bloco	NOUN	NOUN	_	62	appos	_	TokenRange=450:455
+68	afro	_	NOUN	NOUN	_	67	appos	_	TokenRange=456:460
+69	ile	_	NOUN	NOUN	_	70	flat	_	TokenRange=461:464
+70	aiye	_	NOUN	NOUN	_	68	flat	_	SpaceAfter=No|TokenRange=465:469
+

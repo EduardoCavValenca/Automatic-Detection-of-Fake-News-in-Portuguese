@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = trf nega pedido lula adiar depoimento expresidente depor amanha tribunal regional federal 4 regiao trf4 indeferiu agora pouco pedido suspensao depoimento lula marcado amanha advogados expresidente protocolaram ontem pedido trf4 suspender prazo processo tempo fazer melhor analise documentos segunda vez defesa petista tenta adiar depoimento primeira ocasiao sergio moro negou pedido desta vez negativa veio juiz federal nivaldo bonini confirmado lula prestar depoimento amanha 14 hs
+1	trf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=4:8
+3	pedido	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=9:15
+4	lula	_	ADJ	NOUN	_	5	obj	_	TokenRange=16:20
+5	adiar	adiar	VERB	VERB	_	3	acl:inf	_	TokenRange=21:26
+6	depoimento	depoimento	NOUN	NOUN	_	5	obj	_	TokenRange=27:37
+7	expresidente	expresidente	NOUN	NOUN	_	6	amod	_	TokenRange=38:50
+8	depor	depor	VERB	VERB	_	5	nmod	_	TokenRange=51:56
+9	amanha	amanha	ADV	ADV	_	8	advmod	_	TokenRange=57:63
+10	tribunal	tribunal	NOUN	NOUN	_	5	obj	_	TokenRange=64:72
+11	regional	regional	ADJ	ADJ	_	10	amod	_	TokenRange=73:81
+12	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=82:89
+13	4	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=90:91
+14	regiao	regiao	NOUN	NOUN	_	10	appos	_	TokenRange=92:98
+15	trf4	_	NOUN	NOUN	_	14	appos	_	TokenRange=99:103
+16	indeferiu	indeferir	VERB	VERB	_	2	parataxis	_	TokenRange=104:113
+17	agora	agora	ADV	ADV	_	16	advmod	_	TokenRange=114:119
+18	pouco	_	DET	DET	_	19	det	_	TokenRange=120:125
+19	pedido	pedido	NOUN	NOUN	_	16	obj	_	TokenRange=126:132
+20	suspensao	suspensao	ADJ	ADJ	_	19	amod	_	TokenRange=133:142
+21	depoimento	depoimento	NOUN	NOUN	_	16	nsubj	_	TokenRange=143:153
+22	lula	lula	NOUN	NOUN	_	21	appos	_	TokenRange=154:158
+23	marcado	marcar	VERB	VERB	_	21	acl	_	TokenRange=159:166
+24	amanha	amanha	ADV	ADV	_	23	advmod	_	TokenRange=167:173
+25	advogados	advogado	NOUN	NOUN	_	23	nsubj	_	TokenRange=174:183
+26	expresidente	expresidente	NOUN	NOUN	_	25	amod	_	TokenRange=184:196
+27	protocolaram	protocolar	VERB	VERB	_	16	parataxis	_	TokenRange=197:209
+28	ontem	ontem	ADV	ADV	_	27	advmod	_	TokenRange=210:215
+29	pedido	pedido	NOUN	NOUN	_	27	obj	_	TokenRange=216:222
+30	trf4	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=223:227
+31	suspender	suspender	VERB	VERB	_	29	acl:relcl	_	TokenRange=228:237
+32	prazo	prazo	NOUN	NOUN	_	31	obj	_	TokenRange=238:243
+33	processo	processo	NOUN	NOUN	_	31	obj	_	TokenRange=244:252
+34	tempo	tempo	NOUN	NOUN	_	35	nsubj	_	TokenRange=253:258
+35	fazer	fazer	VERB	VERB	_	31	ccomp	_	TokenRange=259:264
+36	melhor	melhor	ADJ	ADJ	_	37	amod	_	TokenRange=265:271
+37	analise	analise	NOUN	NOUN	_	35	obj	_	TokenRange=272:279
+38	documentos	documento	NOUN	NOUN	_	35	obj	_	TokenRange=280:290
+39	segunda	segundo	ADJ	ADJ	_	41	amod	_	TokenRange=291:298
+40	vez	vez	NOUN	NOUN	_	35	nmod	_	TokenRange=299:302
+41	defesa	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=303:309
+42	petista	petista	ADJ	ADJ	_	41	amod	_	TokenRange=310:317
+43	tenta	tentar	VERB	VERB	_	27	parataxis	_	TokenRange=318:323
+44	adiar	adiar	VERB	VERB	_	43	xcomp	_	TokenRange=324:329
+45	depoimento	depoimento	NOUN	NOUN	_	44	obj	_	TokenRange=330:340
+46	primeira	primeiro	ADJ	ADJ	_	47	amod	_	TokenRange=341:349
+47	ocasiao	ocasiao	NOUN	NOUN	_	50	nsubj	_	TokenRange=350:357
+48	sergio	sergio	NOUN	NOUN	_	47	appos	_	TokenRange=358:364
+49	moro	moro	NOUN	NOUN	_	48	flat	_	TokenRange=365:369
+50	negou	negar	VERB	VERB	_	43	parataxis	_	TokenRange=370:375
+51	pedido	pedido	NOUN	NOUN	_	50	obj	_	TokenRange=376:382
+52	desta	_	ADP	ADP	_	53	case	_	TokenRange=383:388
+53	vez	vez	NOUN	NOUN	_	50	nmod	_	TokenRange=389:392
+54	negativa	negativo	ADJ	ADJ	_	56	amod	_	TokenRange=393:401
+55	veio	_	VERB	VERB	_	56	cop	_	TokenRange=402:406
+56	juiz	juiz	NOUN	NOUN	_	50	nsubj	_	TokenRange=407:411
+57	federal	federal	ADJ	ADJ	_	56	amod	_	TokenRange=412:419
+58	nivaldo	nivaldo	ADJ	ADJ	_	56	amod	_	TokenRange=420:427
+59	bonini	_	NOUN	NOUN	_	56	flat	_	TokenRange=428:434
+60	confirmado	confirmar	VERB	VERB	_	56	acl	_	TokenRange=435:445
+61	lula	_	NOUN	NOUN	_	62	nsubj	_	TokenRange=446:450
+62	prestar	prestar	VERB	VERB	_	56	acl:inf	_	TokenRange=451:458
+63	depoimento	depoimento	NOUN	NOUN	_	62	obj	_	TokenRange=459:469
+64	amanha	amanha	NOUN	NOUN	_	62	parataxis	_	TokenRange=470:476
+65	14	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=477:479
+66	hs	_	NOUN	NOUN	_	64	nmod	_	SpaceAfter=No|TokenRange=480:482
+

@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = julgamento recurso lula trf4 ocorre nesta quartafeira porto alegre expresidente recorreu decisao juiz sergio moro caso triplex mpf quer aumento pena defesa pede absolvicao lula julgamento recurso expresidente luiz inacio lula silva pt caso triplex guaruja sp realizado partir 8h30 desta quartafeira 24 tribunal regional federal 4 regiao trf4 porto alegre g1 transmite vivo julgamento assista lula condenado juiz federal sergio moro 13 vara federal curitiba responsavel processo lava jato primeira instancia expresidente recorre liberdade sentenca
+1	julgamento	julgamento	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:10
+2	recurso	recurso	NOUN	NOUN	_	1	appos	_	TokenRange=11:18
+3	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=19:23
+4	trf4	_	NOUN	NOUN	_	1	appos	_	TokenRange=24:28
+5	ocorre	ocorrer	VERB	VERB	_	0	root	_	TokenRange=29:35
+6	nesta	_	ADP	ADP	_	7	case	_	TokenRange=36:41
+7	quartafeira	_	NOUN	NOUN	_	5	nmod	_	TokenRange=42:53
+8	porto	_	NOUN	NOUN	_	11	nmod	_	TokenRange=54:59
+9	alegre	alegre	ADJ	ADJ	_	10	amod	_	TokenRange=60:66
+10	expresidente	expresidente	NOUN	NOUN	_	11	nsubj	_	TokenRange=67:79
+11	recorreu	recorrer	VERB	VERB	_	5	parataxis	_	TokenRange=80:88
+12	decisao	decisao	NOUN	NOUN	_	11	obj	_	TokenRange=89:96
+13	juiz	juiz	NOUN	NOUN	_	11	obj	_	TokenRange=97:101
+14	sergio	_	NOUN	NOUN	_	13	amod	_	TokenRange=102:108
+15	moro	moro	NOUN	NOUN	_	13	flat	_	TokenRange=109:113
+16	caso	_	NOUN	NOUN	_	17	case	_	TokenRange=114:118
+17	triplex	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=119:126
+18	mpf	_	NOUN	NOUN	_	17	flat	_	TokenRange=127:130
+19	quer	querer	VERB	VERB	_	17	conj	_	TokenRange=131:135
+20	aumento	aumento	NOUN	NOUN	_	19	obj	_	TokenRange=136:143
+21	pena	_	NOUN	NOUN	_	20	flat	_	TokenRange=144:148
+22	defesa	_	NOUN	NOUN	_	20	flat	_	TokenRange=149:155
+23	pede	pedir	VERB	VERB	_	11	conj	_	TokenRange=156:160
+24	absolvicao	_	NOUN	NOUN	_	23	obj	_	TokenRange=161:171
+25	lula	lula	ADJ	ADJ	_	24	amod	_	TokenRange=172:176
+26	julgamento	julgamento	NOUN	NOUN	_	23	nsubj	_	TokenRange=177:187
+27	recurso	recurso	NOUN	NOUN	_	26	amod	_	TokenRange=188:195
+28	expresidente	expresidente	ADJ	ADJ	_	26	amod	_	TokenRange=196:208
+29	luiz	luiz	ADJ	NOUN	_	26	appos	_	TokenRange=209:213
+30	inacio	_	NOUN	NOUN	_	29	flat	_	TokenRange=214:220
+31	lula	_	NOUN	NOUN	_	29	flat	_	TokenRange=221:225
+32	silva	silva	ADJ	ADJ	_	29	flat	_	TokenRange=226:231
+33	pt	_	PROPN	PNOUN	_	34	appos	_	TokenRange=232:234
+34	caso	caso	NOUN	NOUN	_	26	appos	_	TokenRange=235:239
+35	triplex	_	NOUN	NOUN	_	34	appos	_	TokenRange=240:247
+36	guaruja	guaruja	NOUN	NOUN	_	34	flat	_	TokenRange=248:255
+37	sp	_	ADJ	ADJ	_	36	amod	_	TokenRange=256:258
+38	realizado	realizar	VERB	VERB	_	34	acl	_	TokenRange=259:268
+39	partir	partir	VERB	VERB	_	38	nmod	_	TokenRange=269:275
+40	8h30	_	NUM	NUM	NumType=Card	39	nmod	_	TokenRange=276:280
+41	desta	_	ADP	ADP	_	42	case	_	TokenRange=281:286
+42	quartafeira	quartafeira	NOUN	NOUN	_	40	nmod	_	TokenRange=287:298
+43	24	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=299:301
+44	tribunal	tribunal	NOUN	NOUN	_	42	appos	_	TokenRange=302:310
+45	regional	regional	ADJ	ADJ	_	44	amod	_	TokenRange=311:319
+46	federal	federal	ADJ	ADJ	_	44	amod	_	TokenRange=320:327
+47	4	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=328:329
+48	regiao	regiao	NOUN	NOUN	_	44	appos	_	TokenRange=330:336
+49	trf4	_	NOUN	NOUN	_	48	appos	_	TokenRange=337:341
+50	porto	_	NOUN	NOUN	_	48	appos	_	TokenRange=342:347
+51	alegre	alegre	ADJ	ADJ	_	50	amod	_	TokenRange=348:354
+52	g1	_	PROPN	PNOUN	_	53	nsubj	_	TokenRange=355:357
+53	transmite	transmitir	VERB	VERB	_	11	parataxis	_	TokenRange=358:367
+54	vivo	vivo	ADJ	ADJ	_	53	xcomp	_	TokenRange=368:372
+55	julgamento	julgamento	NOUN	NOUN	_	53	obj	_	TokenRange=373:383
+56	assista	assistir	VERB	VERB	_	55	case	_	TokenRange=384:391
+57	lula	lula	NOUN	NOUN	_	56	obj	_	TokenRange=392:396
+58	condenado	condenado	ADJ	ADJ	_	59	amod	_	TokenRange=397:406
+59	juiz	juiz	NOUN	NOUN	_	56	nsubj	_	TokenRange=407:411
+60	federal	federal	ADJ	ADJ	_	59	amod	_	TokenRange=412:419
+61	sergio	sergio	NOUN	NOUN	_	59	appos	_	TokenRange=420:426
+62	moro	moro	NOUN	NOUN	_	61	flat	_	TokenRange=427:431
+63	13	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=432:434
+64	vara	vara	NOUN	NOUN	_	59	appos	_	TokenRange=435:439
+65	federal	federal	ADJ	ADJ	_	64	amod	_	TokenRange=440:447
+66	curitiba	curitiba	NOUN	NOUN	_	64	appos	_	TokenRange=448:456
+67	responsavel	responsavel	ADJ	ADJ	_	64	amod	_	TokenRange=457:468
+68	processo	processo	NOUN	NOUN	_	69	nsubj	_	TokenRange=469:477
+69	lava	lavar	VERB	VERB	_	64	conj	_	TokenRange=478:482
+70	jato	jato	NOUN	NOUN	_	69	obj	_	TokenRange=483:487
+71	primeira	primeiro	ADJ	ADJ	_	72	amod	_	TokenRange=488:496
+72	instancia	instancia	NOUN	NOUN	_	74	nsubj	_	TokenRange=497:506
+73	expresidente	expresidente	NOUN	NOUN	_	74	nsubj	_	TokenRange=507:519
+74	recorre	recorrer	VERB	VERB	_	53	parataxis	_	TokenRange=520:527
+75	liberdade	liberdade	NOUN	NOUN	_	74	obj	_	TokenRange=528:537
+76	sentenca	sentenco	ADJ	ADJ	_	75	amod	_	SpaceAfter=No|TokenRange=538:546
+

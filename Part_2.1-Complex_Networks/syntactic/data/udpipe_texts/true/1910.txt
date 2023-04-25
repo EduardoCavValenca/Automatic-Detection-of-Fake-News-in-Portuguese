@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = poeta guardanapos fala sobre literatura internet flipocos primeira rede social balcao bar pedro gabriel popularizou internet publicando fotos poesias guardanapos pagina chamo antonio muitos artistas escrita pedro gabriel sempre andava caderninho bolso naquele dia 2012 cabeca pipocando inspiracao tal caderninho esquecido casa precisava anotar todas ideias algum lugar entao parou cafe lamas ficava meio caminho
+1	poeta	poeta	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	guardanapos	guardanapo	NOUN	NOUN	_	1	flat	_	TokenRange=6:17
+3	fala	_	VERB	VERB	_	0	root	_	TokenRange=18:22
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=23:28
+5	literatura	literatura	NOUN	NOUN	_	3	nmod	_	TokenRange=29:39
+6	internet	_	PROPN	PNOUN	_	5	appos	_	TokenRange=40:48
+7	flipocos	flipoco	NOUN	NOUN	_	9	amod	_	TokenRange=49:57
+8	primeira	primeiro	ADJ	ADJ	_	9	amod	_	TokenRange=58:66
+9	rede	rede	NOUN	NOUN	_	3	obj	_	TokenRange=67:71
+10	social	social	ADJ	ADJ	_	9	amod	_	TokenRange=72:78
+11	balcao	_	ADJ	ADJ	_	12	amod	_	TokenRange=79:85
+12	bar	bar	NOUN	NOUN	_	15	nsubj	_	TokenRange=86:89
+13	pedro	pedro	NOUN	NOUN	_	12	appos	_	TokenRange=90:95
+14	gabriel	gabriel	ADJ	ADJ	_	13	amod	_	TokenRange=96:103
+15	popularizou	popularizar	VERB	VERB	_	3	parataxis	_	TokenRange=104:115
+16	internet	_	PROPN	PNOUN	_	15	obj	_	TokenRange=116:124
+17	publicando	publicar	VERB	VERB	_	15	acl	_	TokenRange=125:135
+18	fotos	foto	NOUN	NOUN	_	17	obj	_	TokenRange=136:141
+19	poesias	poesia	NOUN	NOUN	_	18	amod	_	TokenRange=142:149
+20	guardanapos	guardanapo	NOUN	NOUN	_	18	amod	_	TokenRange=150:161
+21	pagina	pagina	NOUN	NOUN	_	18	appos	_	TokenRange=162:168
+22	chamo	_	VERB	VERB	_	21	acl:relcl	_	TokenRange=169:174
+23	antonio	antonio	NOUN	NOUN	_	22	obj	_	TokenRange=175:182
+24	muitos	_	DET	DET	_	25	det	_	TokenRange=183:189
+25	artistas	artista	NOUN	NOUN	_	22	obj	_	TokenRange=190:198
+26	escrita	escrever	VERB	VERB	_	25	acl	_	TokenRange=199:206
+27	pedro	pedro	NOUN	NOUN	_	30	nsubj	_	TokenRange=207:212
+28	gabriel	gabriel	ADJ	ADJ	_	27	amod	_	TokenRange=213:220
+29	sempre	sempre	ADV	ADV	_	30	advmod	_	TokenRange=221:227
+30	andava	andar	VERB	VERB	_	15	conj	_	TokenRange=228:234
+31	caderninho	caderninho	NOUN	NOUN	_	30	obj	_	TokenRange=235:245
+32	bolso	bolso	ADJ	ADJ	_	31	amod	_	TokenRange=246:251
+33	naquele	_	ADP	ADP	_	34	case	_	TokenRange=252:259
+34	dia	dia	NOUN	NOUN	_	30	nmod	_	TokenRange=260:263
+35	2012	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=264:268
+36	cabeca	cabeca	NOUN	NOUN	_	30	nsubj	_	TokenRange=269:275
+37	pipocando	pipocar	VERB	VERB	_	36	acl	_	TokenRange=276:285
+38	inspiracao	inspiracao	NOUN	NOUN	_	37	obj	_	TokenRange=286:296
+39	tal	_	DET	DET	_	40	det	_	TokenRange=297:300
+40	caderninho	caderninho	NOUN	NOUN	_	37	obj	_	TokenRange=301:311
+41	esquecido	esquecer	ADJ	ADJ	_	40	amod	_	TokenRange=312:321
+42	casa	casa	NOUN	NOUN	_	43	nsubj	_	TokenRange=322:326
+43	precisava	precisar	VERB	VERB	_	30	parataxis	_	TokenRange=327:336
+44	anotar	anotar	VERB	VERB	_	43	xcomp	_	TokenRange=337:343
+45	todas	_	DET	DET	_	46	det	_	TokenRange=344:349
+46	ideias	ideia	NOUN	NOUN	_	44	obj	_	TokenRange=350:356
+47	algum	_	DET	DET	_	48	det	_	TokenRange=357:362
+48	lugar	lugar	NOUN	NOUN	_	44	obj	_	TokenRange=363:368
+49	entao	entao	ADV	ADV	_	50	advmod	_	TokenRange=369:374
+50	parou	parar	VERB	VERB	_	43	advcl	_	TokenRange=375:380
+51	cafe	cafe	NOUN	NOUN	_	50	nsubj	_	TokenRange=381:385
+52	lamas	lama	NOUN	NOUN	_	51	flat	_	TokenRange=386:391
+53	ficava	ficar	VERB	VERB	_	43	conj	_	TokenRange=392:398
+54	meio	meio	ADJ	ADJ	_	55	amod	_	TokenRange=399:403
+55	caminho	caminho	NOUN	NOUN	_	53	obj	_	SpaceAfter=No|TokenRange=404:411
+

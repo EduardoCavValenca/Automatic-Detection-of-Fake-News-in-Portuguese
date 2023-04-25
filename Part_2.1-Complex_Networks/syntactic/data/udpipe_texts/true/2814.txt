@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = politicos comentam decisao stf manter renan presidencia senado supremo rejeitou afastar renan calheiros comando casa proibiu assumir presidencia republica veja politicos avaliaram decisao supremo tribunal federal desta quartafeira 7 manter renan calheiros pmdbal presidencia senado apos
+1	politicos	politico	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	comentam	comentar	VERB	VERB	_	0	root	_	TokenRange=10:18
+3	decisao	decisao	NOUN	NOUN	_	2	obj	_	TokenRange=19:26
+4	stf	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=27:30
+5	manter	manter	VERB	VERB	_	3	acl:relcl	_	TokenRange=31:37
+6	renan	_	NOUN	NOUN	_	5	obj	_	TokenRange=38:43
+7	presidencia	presidencia	NOUN	NOUN	_	5	obj	_	TokenRange=44:55
+8	senado	senado	NOUN	NOUN	_	5	nsubj	_	TokenRange=56:62
+9	supremo	supremo	ADJ	ADJ	_	8	amod	_	TokenRange=63:70
+10	rejeitou	rejeitar	VERB	VERB	_	2	parataxis	_	TokenRange=71:79
+11	afastar	afastar	VERB	VERB	_	10	xcomp	_	TokenRange=80:87
+12	renan	renan	NOUN	NOUN	_	11	obj	_	TokenRange=88:93
+13	calheiros	calheiro	NOUN	NOUN	_	12	amod	_	TokenRange=94:103
+14	comando	comando	NOUN	NOUN	_	16	nsubj	_	TokenRange=104:111
+15	casa	casa	NOUN	NOUN	_	14	flat	_	TokenRange=112:116
+16	proibiu	proibir	VERB	VERB	_	12	acl:relcl	_	TokenRange=117:124
+17	assumir	assumir	VERB	VERB	_	16	xcomp	_	TokenRange=125:132
+18	presidencia	presidencia	NOUN	NOUN	_	17	obj	_	TokenRange=133:144
+19	republica	republico	ADJ	ADJ	_	18	amod	_	TokenRange=145:154
+20	veja	ver	VERB	VERB	_	22	parataxis	_	TokenRange=155:159
+21	politicos	politico	NOUN	NOUN	_	22	nsubj	_	TokenRange=160:169
+22	avaliaram	avaliar	VERB	VERB	_	2	parataxis	_	TokenRange=170:179
+23	decisao	decisao	NOUN	NOUN	_	22	obj	_	TokenRange=180:187
+24	supremo	supremo	ADJ	ADJ	_	25	amod	_	TokenRange=188:195
+25	tribunal	tribunal	NOUN	NOUN	_	23	appos	_	TokenRange=196:204
+26	federal	federal	ADJ	ADJ	_	25	amod	_	TokenRange=205:212
+27	desta	_	ADP	ADP	_	28	case	_	TokenRange=213:218
+28	quartafeira	quartafeira	NOUN	NOUN	_	23	nmod	_	TokenRange=219:230
+29	7	_	NUM	NUM	NumType=Card	28	appos	_	TokenRange=231:232
+30	manter	manter	VERB	VERB	_	22	ccomp	_	TokenRange=233:239
+31	renan	_	NOUN	NOUN	_	30	obj	_	TokenRange=240:245
+32	calheiros	calheiro	NOUN	NOUN	_	31	flat	_	TokenRange=246:255
+33	pmdbal	pmdbal	ADJ	ADJ	_	34	amod	_	TokenRange=256:262
+34	presidencia	presidencia	NOUN	NOUN	_	30	obj	_	TokenRange=263:274
+35	senado	senado	ADJ	ADJ	_	34	amod	_	TokenRange=275:281
+36	apos	apos	ADV	ADV	_	30	advmod	_	SpaceAfter=No|TokenRange=282:286
+

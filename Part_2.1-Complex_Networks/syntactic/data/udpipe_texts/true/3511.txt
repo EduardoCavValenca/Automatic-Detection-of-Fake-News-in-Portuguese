@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = declinio biodiversidade todo planeta ameaca bemestar humanidade alerta relatorio lancado painel internacional cientistas avaliou problema todas regioes planeta americas 65 contribuicao natureza humanidade queda paulo biodiversidade todo mundo forte declinio processo perda especies atinge todas regioes planeta reduz capacidade natureza contribuir bemestar humanidade vez afeta producao alimentos geracao agua limpa energia impactando economias meios subsistencia alerta quatro
+1	declinio	declinio	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	biodiversidade	biodiversidade	NOUN	NOUN	_	5	nsubj	_	TokenRange=9:23
+3	todo	_	DET	DET	_	4	det	_	TokenRange=24:28
+4	planeta	planeta	NOUN	NOUN	_	5	nsubj	_	TokenRange=29:36
+5	ameaca	ameacar	VERB	VERB	_	0	root	_	TokenRange=37:43
+6	bemestar	bemestar	VERB	VERB	_	5	xcomp	_	TokenRange=44:52
+7	humanidade	humanidade	NOUN	NOUN	_	6	obj	_	TokenRange=53:63
+8	alerta	alerta	ADJ	ADJ	_	9	amod	_	TokenRange=64:70
+9	relatorio	relatorio	NOUN	NOUN	_	5	nsubj	_	TokenRange=71:80
+10	lancado	lancar	VERB	VERB	_	11	acl	_	TokenRange=81:88
+11	painel	painel	NOUN	NOUN	_	14	nsubj	_	TokenRange=89:95
+12	internacional	internacional	ADJ	ADJ	_	11	amod	_	TokenRange=96:109
+13	cientistas	cientista	NOUN	NOUN	_	11	appos	_	TokenRange=110:120
+14	avaliou	avaliar	VERB	VERB	_	5	parataxis	_	TokenRange=121:128
+15	problema	problema	NOUN	NOUN	_	14	obj	_	TokenRange=129:137
+16	todas	_	DET	DET	_	17	det	_	TokenRange=138:143
+17	regioes	regioe	NOUN	NOUN	_	14	obj	_	TokenRange=144:151
+18	planeta	planeta	NOUN	NOUN	_	17	appos	_	TokenRange=152:159
+19	americas	_	NOUN	NOUN	_	17	appos	_	TokenRange=160:168
+20	65	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=169:171
+21	contribuicao	contribuicao	NOUN	NOUN	_	17	appos	_	TokenRange=172:184
+22	natureza	natureza	NOUN	NOUN	_	21	appos	_	TokenRange=185:193
+23	humanidade	humanidade	NOUN	NOUN	_	21	amod	_	TokenRange=194:204
+24	queda	queda	NOUN	NOUN	_	14	parataxis	_	TokenRange=205:210
+25	paulo	_	ADJ	ADJ	_	24	flat	_	TokenRange=211:216
+26	biodiversidade	biodiversidade	NOUN	NOUN	_	24	appos	_	TokenRange=217:231
+27	todo	_	DET	DET	_	28	det	_	TokenRange=232:236
+28	mundo	mundo	NOUN	NOUN	_	24	appos	_	TokenRange=237:242
+29	forte	forte	ADJ	ADJ	_	28	amod	_	TokenRange=243:248
+30	declinio	declinio	NOUN	NOUN	_	34	nsubj	_	TokenRange=249:257
+31	processo	processo	NOUN	NOUN	_	34	nsubj	_	TokenRange=258:266
+32	perda	perda	NOUN	NOUN	_	31	appos	_	TokenRange=267:272
+33	especies	_	NOUN	NOUN	_	31	flat	_	TokenRange=273:281
+34	atinge	atingir	VERB	VERB	_	24	acl:relcl	_	TokenRange=282:288
+35	todas	_	DET	DET	_	36	det	_	TokenRange=289:294
+36	regioes	regioe	NOUN	NOUN	_	34	obj	_	TokenRange=295:302
+37	planeta	planeta	NOUN	NOUN	_	34	nsubj	_	TokenRange=303:310
+38	reduz	reduzir	VERB	VERB	_	34	conj	_	TokenRange=311:316
+39	capacidade	capacidade	NOUN	NOUN	_	38	obj	_	TokenRange=317:327
+40	natureza	natureza	NOUN	NOUN	_	39	flat	_	TokenRange=328:336
+41	contribuir	contribuir	VERB	VERB	_	39	acl:inf	_	TokenRange=337:347
+42	bemestar	bemestar	VERB	VERB	_	41	xcomp	_	TokenRange=348:356
+43	humanidade	humanidade	NOUN	NOUN	_	42	obj	_	TokenRange=357:367
+44	vez	vez	NOUN	NOUN	_	45	nsubj	_	TokenRange=368:371
+45	afeta	afetar	VERB	VERB	_	41	conj	_	TokenRange=372:377
+46	producao	producao	NOUN	NOUN	_	45	obj	_	TokenRange=378:386
+47	alimentos	alimento	NOUN	NOUN	_	46	appos	_	TokenRange=387:396
+48	geracao	geracao	ADJ	ADJ	_	49	amod	_	TokenRange=397:404
+49	agua	agua	NOUN	NOUN	_	46	appos	_	TokenRange=405:409
+50	limpa	limpo	ADJ	ADJ	_	49	amod	_	TokenRange=410:415
+51	energia	energia	NOUN	NOUN	_	49	appos	_	TokenRange=416:423
+52	impactando	impactar	VERB	VERB	_	47	acl	_	TokenRange=424:434
+53	economias	economia	NOUN	NOUN	_	52	obj	_	TokenRange=435:444
+54	meios	_	ADJ	ADJ	_	53	amod	_	TokenRange=445:450
+55	subsistencia	subsistencia	NOUN	NOUN	_	53	appos	_	TokenRange=451:463
+56	alerta	alerta	NOUN	NOUN	_	53	appos	_	TokenRange=464:470
+57	quatro	_	NUM	NUM	NumType=Card	56	appos	_	SpaceAfter=No|TokenRange=471:477
+

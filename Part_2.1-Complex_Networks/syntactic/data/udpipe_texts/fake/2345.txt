@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = documento pedia cassacao registro pt 2015 sumiu misteriosamente dentro stf informacao divulgada nesta tarde site antagonista ministro gilmar mendes disse encontrou oficio pedia instauracao processo cassacao registro pt remetido corregedoria ano 2015 documento enviado ministro dias toffoli sumiu escafedeu ninguem viu desapareceu dissipouse gilmar mendes comentou tampouco identificada adocao eventual providencia onde documento parar sr ministro dias toffoli
+1	documento	documento	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:9
+2	pedia	pedio	ADJ	ADJ	_	1	amod	_	TokenRange=10:15
+3	cassacao	cassacao	NOUN	NOUN	_	1	appos	_	TokenRange=16:24
+4	registro	registro	NOUN	NOUN	_	1	appos	_	TokenRange=25:33
+5	pt	_	ADP	ADP	_	4	nmod	_	TokenRange=34:36
+6	2015	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=37:41
+7	sumiu	sumir	VERB	VERB	_	0	root	_	TokenRange=42:47
+8	misteriosamente	misteriosamente	ADV	ADV	_	7	advmod	_	TokenRange=48:63
+9	dentro	dentro	ADV	ADV	_	7	advmod	_	TokenRange=64:70
+10	stf	_	X	NOUN	_	9	nmod	_	TokenRange=71:74
+11	informacao	informacao	NOUN	NOUN	_	7	obj	_	TokenRange=75:85
+12	divulgada	divulgar	VERB	VERB	_	11	acl	_	TokenRange=86:95
+13	nesta	_	ADP	ADP	_	14	case	_	TokenRange=96:101
+14	tarde	tarde	NOUN	NOUN	_	12	nmod	_	TokenRange=102:107
+15	site	site	NOUN	NOUN	_	20	nsubj	_	TokenRange=108:112
+16	antagonista	antagonista	ADJ	ADJ	_	17	amod	_	TokenRange=113:124
+17	ministro	ministro	NOUN	NOUN	_	20	nsubj	_	TokenRange=125:133
+18	gilmar	gilmar	NOUN	NOUN	_	17	appos	_	TokenRange=134:140
+19	mendes	_	ADJ	ADJ	_	17	amod	_	TokenRange=141:147
+20	disse	dizer	VERB	VERB	_	7	parataxis	_	TokenRange=148:153
+21	encontrou	encontrar	VERB	VERB	_	20	xcomp	_	TokenRange=154:163
+22	oficio	oficio	NOUN	NOUN	_	21	obj	_	TokenRange=164:170
+23	pedia	pedia	NOUN	NOUN	_	22	flat	_	TokenRange=171:176
+24	instauracao	instauracao	ADJ	ADJ	_	25	amod	_	TokenRange=177:188
+25	processo	processo	NOUN	NOUN	_	21	obj	_	TokenRange=189:197
+26	cassacao	cassacao	ADJ	ADJ	_	25	amod	_	TokenRange=198:206
+27	registro	registro	NOUN	NOUN	_	25	appos	_	TokenRange=207:215
+28	pt	_	X	NOUN	_	27	flat	_	TokenRange=216:218
+29	remetido	remeter	VERB	VERB	_	25	acl	_	TokenRange=219:227
+30	corregedoria	corregedoria	NOUN	NOUN	_	29	amod	_	TokenRange=228:240
+31	ano	ano	NOUN	NOUN	_	29	nmod	_	TokenRange=241:244
+32	2015	_	NUM	NUM	NumType=Card	31	nmod	_	TokenRange=245:249
+33	documento	documento	NOUN	NOUN	_	46	nsubj	_	TokenRange=250:259
+34	enviado	enviado	ADJ	ADJ	_	33	amod	_	TokenRange=260:267
+35	ministro	ministro	NOUN	NOUN	_	38	nsubj	_	TokenRange=268:276
+36	dias	dia	NOUN	NOUN	_	35	flat	_	TokenRange=277:281
+37	toffoli	_	NOUN	NOUN	_	35	flat	_	TokenRange=282:289
+38	sumiu	sumir	VERB	VERB	_	33	acl:relcl	_	TokenRange=290:295
+39	escafedeu	escafeder	VERB	VERB	_	38	xcomp	_	TokenRange=296:305
+40	ninguem	_	PRON	PRON	_	41	nsubj	_	TokenRange=306:313
+41	viu	ver	VERB	VERB	_	39	acl:relcl	_	TokenRange=314:317
+42	desapareceu	desaparecer	VERB	VERB	_	41	ccomp	_	TokenRange=318:329
+43	dissipouse	dissipouse	NOUN	NOUN	_	46	nsubj	_	TokenRange=330:340
+44	gilmar	gilmar	NOUN	NOUN	_	46	nsubj	_	TokenRange=341:347
+45	mendes	_	ADJ	ADJ	_	44	flat	_	TokenRange=348:354
+46	comentou	comentar	VERB	VERB	_	7	conj	_	TokenRange=355:363
+47	tampouco	tampouco	ADV	ADV	_	48	advmod	_	TokenRange=364:372
+48	identificada	identificado	ADJ	ADJ	_	46	xcomp	_	TokenRange=373:385
+49	adocao	adocao	NOUN	NOUN	_	48	nsubj	_	TokenRange=386:392
+50	eventual	eventual	ADJ	ADJ	_	49	amod	_	TokenRange=393:401
+51	providencia	providencia	NOUN	NOUN	_	49	appos	_	TokenRange=402:413
+52	onde	onde	ADV	ADV	_	54	advmod	_	TokenRange=414:418
+53	documento	documento	NOUN	NOUN	_	54	nsubj	_	TokenRange=419:428
+54	parar	parar	VERB	VERB	_	51	acl:relcl	_	TokenRange=429:434
+55	sr	_	ADV	PRT	_	56	amod	_	TokenRange=435:437
+56	ministro	ministro	NOUN	NOUN	_	54	obj	_	TokenRange=438:446
+57	dias	dia	NOUN	NOUN	_	56	flat	_	TokenRange=447:451
+58	toffoli	_	NOUN	NOUN	_	56	flat	_	SpaceAfter=No|TokenRange=452:459
+

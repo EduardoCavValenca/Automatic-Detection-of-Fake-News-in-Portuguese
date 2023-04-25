@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = expresidente ignora justica diz voltar vai fazer diante plateia formada professores estudantes sindicalistas petista disse hoje 12 brasilia quero fazer pais andar cuidem porque voltar presidencia republica fazer fizemos lula voltar vai fazer emprestimos bndes paises comunistas dinheiro publico desviado empreiteiras 12 milhoes desempregados beneficios particulares depositos acomodar tralhas pertencem patrimonio presidencia sitios apartamentos praia criminosos ultimos 10 anos populacao carceraria cresceu 85 vai catar lula logo logo unica coisa sobrara pais pedra mato pt roubou tudo
+1	expresidente	expresidente	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:12
+2	ignora	ignorar	VERB	VERB	_	0	root	_	TokenRange=13:19
+3	justica	_	NOUN	NOUN	_	2	obj	_	TokenRange=20:27
+4	diz	dizer	VERB	VERB	_	2	ccomp	_	TokenRange=28:31
+5	voltar	voltar	VERB	VERB	_	7	aux	_	TokenRange=32:38
+6	vai	ir	AUX	AUX	_	7	aux	_	TokenRange=39:42
+7	fazer	fazer	VERB	VERB	_	4	ccomp	_	TokenRange=43:48
+8	diante	diante	ADV	ADV	_	7	advmod	_	TokenRange=49:55
+9	plateia	plateia	NOUN	NOUN	_	7	obj	_	TokenRange=56:63
+10	formada	formar	VERB	VERB	_	11	acl	_	TokenRange=64:71
+11	professores	professor	NOUN	NOUN	_	7	nsubj	_	TokenRange=72:83
+12	estudantes	estudante	NOUN	NOUN	_	11	appos	_	TokenRange=84:94
+13	sindicalistas	sindicalista	ADJ	ADJ	_	11	amod	_	TokenRange=95:108
+14	petista	petista	ADJ	ADJ	_	11	amod	_	TokenRange=109:116
+15	disse	dizer	VERB	VERB	_	2	conj	_	TokenRange=117:122
+16	hoje	hoje	ADV	ADV	_	15	advmod	_	TokenRange=123:127
+17	12	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=128:130
+18	brasilia	brasilia	NOUN	NOUN	_	19	nsubj	_	TokenRange=131:139
+19	quero	querer	VERB	VERB	_	15	ccomp	_	TokenRange=140:145
+20	fazer	fazer	VERB	VERB	_	19	xcomp	_	TokenRange=146:151
+21	pais	_	NOUN	NOUN	_	20	obj	_	TokenRange=152:156
+22	andar	andar	VERB	VERB	_	23	ccomp	_	TokenRange=157:162
+23	cuidem	cuidar	VERB	VERB	_	20	ccomp	_	TokenRange=163:169
+24	porque	_	CCONJ	CONJ	_	25	mark	_	TokenRange=170:176
+25	voltar	voltar	VERB	VERB	_	23	advcl	_	TokenRange=177:183
+26	presidencia	presidencia	NOUN	NOUN	_	25	obj	_	TokenRange=184:195
+27	republica	republico	ADJ	ADJ	_	26	amod	_	TokenRange=196:205
+28	fazer	fazer	VERB	VERB	_	25	ccomp	_	TokenRange=206:211
+29	fizemos	fazer	VERB	VERB	_	25	ccomp	_	TokenRange=212:219
+30	lula	lula	NOUN	NOUN	_	33	nsubj	_	TokenRange=220:224
+31	voltar	voltar	AUX	AUX	_	33	aux	_	TokenRange=225:231
+32	vai	ir	AUX	AUX	_	33	aux	_	TokenRange=232:235
+33	fazer	fazer	VERB	VERB	_	19	conj	_	TokenRange=236:241
+34	emprestimos	emprestimo	NOUN	NOUN	_	33	obj	_	TokenRange=242:253
+35	bndes	bnde	ADJ	ADJ	_	36	amod	_	TokenRange=254:259
+36	paises	paise	NOUN	NOUN	_	33	nsubj	_	TokenRange=260:266
+37	comunistas	comunista	ADJ	ADJ	_	36	amod	_	TokenRange=267:277
+38	dinheiro	dinheiro	NOUN	NOUN	_	33	nsubj	_	TokenRange=278:286
+39	publico	_	ADJ	ADJ	_	36	amod	_	TokenRange=287:294
+40	desviado	desviado	ADJ	ADJ	_	38	amod	_	TokenRange=295:303
+41	empreiteiras	empreiteiro	NOUN	NOUN	_	38	appos	_	TokenRange=304:316
+42	12	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=317:319
+43	milhoes	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=320:327
+44	desempregados	desempregado	ADJ	ADJ	_	45	amod	_	TokenRange=328:341
+45	beneficios	beneficio	NOUN	NOUN	_	33	nsubj	_	TokenRange=342:352
+46	particulares	particular	ADJ	ADJ	_	45	amod	_	TokenRange=353:365
+47	depositos	deposito	NOUN	NOUN	_	45	amod	_	TokenRange=366:375
+48	acomodar	acomodar	VERB	VERB	_	45	acl:relcl	_	TokenRange=376:384
+49	tralhas	tralha	NOUN	NOUN	_	48	obj	_	TokenRange=385:392
+50	pertencem	pertencer	VERB	VERB	_	45	acl:relcl	_	TokenRange=393:402
+51	patrimonio	patrimonio	NOUN	NOUN	_	50	obj	_	TokenRange=403:413
+52	presidencia	presidencia	NOUN	NOUN	_	50	obj	_	TokenRange=414:425
+53	sitios	sitio	NOUN	NOUN	_	54	amod	_	TokenRange=426:432
+54	apartamentos	apartamento	NOUN	NOUN	_	51	appos	_	TokenRange=433:445
+55	praia	praia	NOUN	NOUN	_	54	appos	_	TokenRange=446:451
+56	criminosos	criminoso	NOUN	NOUN	_	54	amod	_	TokenRange=452:462
+57	ultimos	ultimo	ADJ	ADJ	_	59	amod	_	TokenRange=463:470
+58	10	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=471:473
+59	anos	ano	NOUN	NOUN	_	50	nmod	_	TokenRange=474:478
+60	populacao	populacao	NOUN	NOUN	_	62	nsubj	_	TokenRange=479:488
+61	carceraria	carceraria	NOUN	NOUN	_	60	amod	_	TokenRange=489:499
+62	cresceu	crescer	VERB	VERB	_	50	parataxis	_	TokenRange=500:507
+63	85	_	NUM	NUM	NumType=Card	62	nsubj	_	TokenRange=508:510
+64	vai	ir	AUX	AUX	_	65	aux	_	TokenRange=511:514
+65	catar	catar	VERB	VERB	_	62	ccomp	_	TokenRange=515:520
+66	lula	lula	NOUN	NOUN	_	65	obj	_	TokenRange=521:525
+67	logo	logo	ADV	ADV	_	68	advmod	_	TokenRange=526:530
+68	logo	logo	ADV	ADV	_	70	advmod	_	TokenRange=531:535
+69	unica	unico	ADJ	ADJ	_	70	amod	_	TokenRange=536:541
+70	coisa	coisa	NOUN	NOUN	_	76	nsubj	_	TokenRange=542:547
+71	sobrara	sobrar	AUX	AUX	_	72	cop	_	TokenRange=548:555
+72	pais	_	NOUN	NOUN	_	76	obj	_	TokenRange=556:560
+73	pedra	pedra	NOUN	NOUN	_	72	appos	_	TokenRange=561:566
+74	mato	mato	ADJ	ADJ	_	73	flat	_	TokenRange=567:571
+75	pt	_	PROPN	PNOUN	_	76	nsubj	_	TokenRange=572:574
+76	roubou	roubar	VERB	VERB	_	65	conj	_	TokenRange=575:581
+77	tudo	_	PRON	PRON	_	76	obj	_	SpaceAfter=No|TokenRange=582:586
+

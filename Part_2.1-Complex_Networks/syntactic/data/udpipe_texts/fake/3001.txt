@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = urgente presidente oferecido r 1 milhao cada deputado votasse contra impeachment acordo site revista representacao feita contra suposta atitude tomada presidente protocolada procuradoria geral republica dilma oferecido r 1 milhao cada deputado votar favor jornal globo publicou ontem 31 governo negociado deputados votarem contra impeachment camara atitude apontada muitos suborno funcionaria seguinte maneira cada deputado publicamente dissesse contra impedimento dilma receberia r 1 milhao serem revertidos obras estadio mostrassem indecisos abstivessem sessao historica receberiam r 400 mil informacao ainda comentada palacio planalto
+1	urgente	urgente	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	presidente	presidente	NOUN	NOUN	_	9	nsubj	_	TokenRange=8:18
+3	oferecido	oferecer	VERB	VERB	_	2	acl	_	TokenRange=19:28
+4	r	r	NOUN	NOUN	_	3	obj	_	TokenRange=29:30
+5	1	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=31:32
+6	milhao	_	NUM	NUM	NumType=Card	3	obj	_	TokenRange=33:39
+7	cada	_	DET	DET	_	8	det	_	TokenRange=40:44
+8	deputado	deputado	NOUN	NOUN	_	9	nsubj	_	TokenRange=45:53
+9	votasse	votar	VERB	VERB	_	0	root	_	TokenRange=54:61
+10	contra	_	ADP	ADP	_	11	case	_	TokenRange=62:68
+11	impeachment	impeachment	NOUN	NOUN	_	9	nmod	_	TokenRange=69:80
+12	acordo	acordo	NOUN	NOUN	_	11	appos	_	TokenRange=81:87
+13	site	site	NOUN	NOUN	_	14	amod	_	TokenRange=88:92
+14	revista	revista	NOUN	NOUN	_	9	obj	_	TokenRange=93:100
+15	representacao	_	NOUN	NOUN	_	14	appos	_	TokenRange=101:114
+16	feita	_	VERB	VERB	_	14	acl	_	TokenRange=115:120
+17	contra	_	ADP	ADP	_	19	case	_	TokenRange=121:127
+18	suposta	suposto	ADJ	ADJ	_	19	amod	_	TokenRange=128:135
+19	atitude	atitude	NOUN	NOUN	_	16	nmod	_	TokenRange=136:143
+20	tomada	tomar	VERB	VERB	_	19	acl	_	TokenRange=144:150
+21	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=151:161
+22	protocolada	protocolado	ADJ	ADJ	_	21	amod	_	TokenRange=162:173
+23	procuradoria	procuradoria	NOUN	NOUN	_	21	appos	_	TokenRange=174:186
+24	geral	geral	ADJ	ADJ	_	21	amod	_	TokenRange=187:192
+25	republica	republico	ADJ	ADJ	_	21	amod	_	TokenRange=193:202
+26	dilma	dilma	ADJ	ADJ	_	21	amod	_	TokenRange=203:208
+27	oferecido	oferecer	VERB	VERB	_	21	acl	_	TokenRange=209:218
+28	r	r	NOUN	NOUN	_	27	obj	_	TokenRange=219:220
+29	1	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=221:222
+30	milhao	_	NUM	NUM	NumType=Card	33	obj	_	TokenRange=223:229
+31	cada	_	DET	DET	_	32	det	_	TokenRange=230:234
+32	deputado	deputado	NOUN	NOUN	_	33	nsubj	_	TokenRange=235:243
+33	votar	votar	VERB	VERB	_	27	ccomp	_	TokenRange=244:249
+34	favor	favor	NOUN	NOUN	_	33	obj	_	TokenRange=250:255
+35	jornal	jornal	NOUN	NOUN	_	33	nsubj	_	TokenRange=256:262
+36	globo	globo	NOUN	NOUN	_	35	amod	_	TokenRange=263:268
+37	publicou	publicar	VERB	VERB	_	9	parataxis	_	TokenRange=269:277
+38	ontem	ontem	ADV	ADV	_	37	advmod	_	TokenRange=278:283
+39	31	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=284:286
+40	governo	governo	NOUN	NOUN	_	37	obj	_	TokenRange=287:294
+41	negociado	negociar	VERB	VERB	_	40	acl	_	TokenRange=295:304
+42	deputados	deputado	NOUN	NOUN	_	43	nsubj	_	TokenRange=305:314
+43	votarem	votar	VERB	VERB	_	40	acl:inf	_	TokenRange=315:322
+44	contra	_	ADP	ADP	_	45	case	_	TokenRange=323:329
+45	impeachment	impeachment	NOUN	NOUN	_	43	nmod	_	TokenRange=330:341
+46	camara	camara	NOUN	NOUN	_	45	amod	_	TokenRange=342:348
+47	atitude	atitude	NOUN	NOUN	_	43	obj	_	TokenRange=349:356
+48	apontada	apontado	ADJ	ADJ	_	47	amod	_	TokenRange=357:365
+49	muitos	_	DET	DET	_	50	det	_	TokenRange=366:372
+50	suborno	suborno	NOUN	NOUN	_	51	nsubj	_	TokenRange=373:380
+51	funcionaria	funcionar	VERB	VERB	_	37	parataxis	_	TokenRange=381:392
+52	seguinte	seguinte	ADJ	ADJ	_	53	amod	_	TokenRange=393:401
+53	maneira	maneira	NOUN	NOUN	_	51	nmod	_	TokenRange=402:409
+54	cada	_	DET	DET	_	55	det	_	TokenRange=410:414
+55	deputado	deputado	NOUN	NOUN	_	57	nsubj	_	TokenRange=415:423
+56	publicamente	publicamente	ADV	ADV	_	57	advmod	_	TokenRange=424:436
+57	dissesse	dissessir	VERB	VERB	_	51	ccomp	_	TokenRange=437:445
+58	contra	_	ADP	ADP	_	59	case	_	TokenRange=446:452
+59	impedimento	impedimento	NOUN	NOUN	_	57	nmod	_	TokenRange=453:464
+60	dilma	dilma	NOUN	NOUN	_	59	amod	_	TokenRange=465:470
+61	receberia	receber	VERB	VERB	_	57	ccomp	_	TokenRange=471:480
+62	r	r	NOUN	NOUN	_	61	obj	_	TokenRange=481:482
+63	1	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=483:484
+64	milhao	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=485:491
+65	serem	ser	AUX	AUX	_	66	aux:pass	_	TokenRange=492:497
+66	revertidos	reverter	VERB	VERB	_	61	ccomp	_	TokenRange=498:508
+67	obras	obra	NOUN	NOUN	_	66	nsubj:pass	_	TokenRange=509:514
+68	estadio	estadio	NOUN	NOUN	_	67	amod	_	TokenRange=515:522
+69	mostrassem	mostrar	VERB	VERB	_	67	acl:relcl	_	TokenRange=523:533
+70	indecisos	_	ADJ	ADJ	_	69	nsubj	_	TokenRange=534:543
+71	abstivessem	abstar	VERB	VERB	_	69	ccomp	_	TokenRange=544:555
+72	sessao	sessao	NOUN	NOUN	_	71	obj	_	TokenRange=556:562
+73	historica	historico	ADJ	ADJ	_	72	amod	_	TokenRange=563:572
+74	receberiam	receber	VERB	VERB	_	61	parataxis	_	TokenRange=573:583
+75	r	r	NOUN	NOUN	_	74	obj	_	TokenRange=584:585
+76	400	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=586:589
+77	mil	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=590:593
+78	informacao	informacao	NOUN	NOUN	_	74	obj	_	TokenRange=594:604
+79	ainda	ainda	ADV	ADV	_	80	advmod	_	TokenRange=605:610
+80	comentada	comentar	VERB	VERB	_	78	acl	_	TokenRange=611:620
+81	palacio	palacio	NOUN	NOUN	_	80	nsubj	_	TokenRange=621:628
+82	planalto	planalto	ADJ	ADJ	_	81	amod	_	SpaceAfter=No|TokenRange=629:637
+

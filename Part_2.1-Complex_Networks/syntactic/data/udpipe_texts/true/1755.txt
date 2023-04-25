@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = interventor pegara sistema prisional fluminense superlotado degradado cadeias estarao sob comando general braga netto unidade baixada fluminense passou rebeliao domingo passado forcas armadas realizaram inspecao 502 mil presos onde cabem 284 mil sistema penitenciario rio janeiro problemas comuns cadeias outros estados brasileiros alem superlotacao dificuldades espalham area assistencia medica ressocializacao falar disseminacao poder faccoes criminosas intervencao comecou rebeliao unidade baixada fluminense domingo passado vida general braga netto deve
+1	interventor	interventor	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	pegara	pegar	VERB	VERB	_	0	root	_	TokenRange=12:18
+3	sistema	sistema	NOUN	NOUN	_	2	obj	_	TokenRange=19:26
+4	prisional	prisional	ADJ	ADJ	_	3	amod	_	TokenRange=27:36
+5	fluminense	fluminense	ADJ	ADJ	_	3	amod	_	TokenRange=37:47
+6	superlotado	_	ADJ	ADJ	_	3	amod	_	TokenRange=48:59
+7	degradado	degradado	ADJ	ADJ	_	8	amod	_	TokenRange=60:69
+8	cadeias	cadeia	NOUN	NOUN	_	1	appos	_	TokenRange=70:77
+9	estarao	estar	VERB	VERB	_	3	acl:relcl	_	TokenRange=78:85
+10	sob	_	ADP	ADP	_	11	case	_	TokenRange=86:89
+11	comando	comando	NOUN	NOUN	_	9	nmod	_	TokenRange=90:97
+12	general	general	ADJ	ADJ	_	11	amod	_	TokenRange=98:105
+13	braga	braga	NOUN	NOUN	_	11	appos	_	TokenRange=106:111
+14	netto	_	ADJ	ADJ	_	15	amod	_	TokenRange=112:117
+15	unidade	unidade	NOUN	NOUN	_	11	appos	_	TokenRange=118:125
+16	baixada	baixado	ADJ	ADJ	_	15	amod	_	TokenRange=126:133
+17	fluminense	fluminense	ADJ	ADJ	_	15	amod	_	TokenRange=134:144
+18	passou	passar	VERB	VERB	_	2	parataxis	_	TokenRange=145:151
+19	rebeliao	rebeliao	NOUN	NOUN	_	18	obj	_	TokenRange=152:160
+20	domingo	_	PROPN	PNOUN	_	18	nmod	_	TokenRange=161:168
+21	passado	passado	ADJ	ADJ	_	20	amod	_	TokenRange=169:176
+22	forcas	forca	NOUN	NOUN	_	24	nsubj	_	TokenRange=177:183
+23	armadas	armado	ADJ	ADJ	_	22	amod	_	TokenRange=184:191
+24	realizaram	realizar	VERB	VERB	_	19	acl:relcl	_	TokenRange=192:202
+25	inspecao	inspecao	NOUN	NOUN	_	24	obj	_	TokenRange=203:211
+26	502	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=212:215
+27	mil	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=216:219
+28	presos	preso	NOUN	NOUN	_	24	obj	_	TokenRange=220:226
+29	onde	onde	ADV	ADV	_	30	advmod	_	TokenRange=227:231
+30	cabem	caber	VERB	VERB	_	28	acl:relcl	_	TokenRange=232:237
+31	284	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=238:241
+32	mil	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=242:245
+33	sistema	sistema	NOUN	NOUN	_	30	nsubj	_	TokenRange=246:253
+34	penitenciario	penitenciario	ADJ	ADJ	_	33	amod	_	TokenRange=254:267
+35	rio	_	NOUN	NOUN	_	33	appos	_	TokenRange=268:271
+36	janeiro	_	PROPN	PNOUN	_	33	appos	_	TokenRange=272:279
+37	problemas	problema	NOUN	NOUN	_	33	appos	_	TokenRange=280:289
+38	comuns	comum	ADJ	ADJ	_	37	amod	_	TokenRange=290:296
+39	cadeias	cadeia	NOUN	NOUN	_	41	amod	_	TokenRange=297:304
+40	outros	_	DET	DET	_	41	det	_	TokenRange=305:311
+41	estados	estado	NOUN	NOUN	_	33	appos	_	TokenRange=312:319
+42	brasileiros	brasileiro	ADJ	ADJ	_	41	amod	_	TokenRange=320:331
+43	alem	alem	ADV	ADV	_	46	advmod	_	TokenRange=332:336
+44	superlotacao	_	ADJ	ADJ	_	45	amod	_	TokenRange=337:349
+45	dificuldades	dificuldade	NOUN	NOUN	_	46	nsubj	_	TokenRange=350:362
+46	espalham	espalhar	VERB	VERB	_	41	acl:relcl	_	TokenRange=363:371
+47	area	area	NOUN	NOUN	_	46	obj	_	TokenRange=372:376
+48	assistencia	assistencia	NOUN	NOUN	_	46	nsubj	_	TokenRange=377:388
+49	medica	medico	ADJ	ADJ	_	48	amod	_	TokenRange=389:395
+50	ressocializacao	ressocializacao	ADJ	ADJ	_	51	amod	_	TokenRange=396:411
+51	falar	falar	VERB	VERB	_	48	acl:relcl	_	TokenRange=412:417
+52	disseminacao	disseminacao	NOUN	NOUN	_	51	obj	_	TokenRange=418:430
+53	poder	poder	NOUN	NOUN	_	54	amod	_	TokenRange=431:436
+54	faccoes	faccoe	NOUN	NOUN	_	51	obj	_	TokenRange=437:444
+55	criminosas	criminoso	ADJ	ADJ	_	54	amod	_	TokenRange=445:455
+56	intervencao	intervencao	NOUN	NOUN	_	51	nsubj	_	TokenRange=456:467
+57	comecou	comecar	VERB	VERB	_	51	parataxis	_	TokenRange=468:475
+58	rebeliao	rebeliao	NOUN	NOUN	_	57	obj	_	TokenRange=476:484
+59	unidade	unidade	NOUN	NOUN	_	57	obj	_	TokenRange=485:492
+60	baixada	baixado	ADJ	ADJ	_	59	amod	_	TokenRange=493:500
+61	fluminense	fluminense	ADJ	ADJ	_	59	amod	_	TokenRange=501:511
+62	domingo	domingo	NOUN	NOUN	_	59	nmod	_	TokenRange=512:519
+63	passado	passado	ADJ	ADJ	_	64	amod	_	TokenRange=520:527
+64	vida	vida	NOUN	NOUN	_	57	nsubj	_	TokenRange=528:532
+65	general	general	ADJ	ADJ	_	64	amod	_	TokenRange=533:540
+66	braga	braga	NOUN	NOUN	_	64	appos	_	TokenRange=541:546
+67	netto	netto	ADJ	ADJ	_	66	flat	_	TokenRange=547:552
+68	deve	dever	VERB	AUX	_	57	aux	_	SpaceAfter=No|TokenRange=553:557
+

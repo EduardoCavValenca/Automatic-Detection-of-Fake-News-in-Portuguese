@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estudante combate bullying bom humor apos virar meme crise risos ave maria aceitei nilson meira votorantim viralizou 2014 atualmente video original 3 milhoes visualizacoes 3 anos nilson meira levantava ir escola calada madrugada tornado nova celebridade internet estudante hoje 13 anos batizado internautas gordinho ave maria conseguir segurar gargalhadas vivo durante oracao transmitida canal tv comunitaria morador bairro votocel votorantim sp jovem recebeu g1 casa simpatico sorridente todo momento diz aceitado meme aprendido lidar situacoes sucederam fama web abordado desconhecidos alvo bullying adolescente rotina comum 10 anos
+1	estudante	estudante	NOUN	NOUN	_	17	nsubj	_	TokenRange=0:9
+2	combate	combate	NOUN	NOUN	_	1	appos	_	TokenRange=10:17
+3	bullying	_	NOUN	NOUN	_	1	flat	_	TokenRange=18:26
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=27:30
+5	humor	humor	NOUN	NOUN	_	1	appos	_	TokenRange=31:36
+6	apos	_	ADP	ADP	_	8	mark	_	TokenRange=37:41
+7	virar	_	AUX	AUX	_	8	cop	_	TokenRange=42:47
+8	meme	meme	NOUN	NOUN	_	1	nmod	_	TokenRange=48:52
+9	crise	crise	NOUN	NOUN	_	8	obj	_	TokenRange=53:58
+10	risos	riso	NOUN	NOUN	_	9	flat	_	TokenRange=59:64
+11	ave	ave	NOUN	NOUN	_	13	nsubj	_	TokenRange=65:68
+12	maria	_	NOUN	NOUN	_	11	flat	_	TokenRange=69:74
+13	aceitei	aceitar	VERB	VERB	_	17	parataxis	_	TokenRange=75:82
+14	nilson	_	NOUN	NOUN	_	13	obj	_	TokenRange=83:89
+15	meira	_	NOUN	NOUN	_	14	flat	_	TokenRange=90:95
+16	votorantim	_	NOUN	NOUN	_	14	flat	_	TokenRange=96:106
+17	viralizou	viralizar	VERB	VERB	_	0	root	_	TokenRange=107:116
+18	2014	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=117:121
+19	atualmente	atualmente	ADV	ADV	_	17	advmod	_	TokenRange=122:132
+20	video	video	NOUN	NOUN	_	17	obj	_	TokenRange=133:138
+21	original	original	ADJ	ADJ	_	20	amod	_	TokenRange=139:147
+22	3	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=148:149
+23	milhoes	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=150:157
+24	visualizacoes	_	NOUN	NOUN	_	20	amod	_	TokenRange=158:171
+25	3	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=172:173
+26	anos	ano	NOUN	NOUN	_	29	nsubj	_	TokenRange=174:178
+27	nilson	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=179:185
+28	meira	_	NOUN	NOUN	_	27	flat	_	TokenRange=186:191
+29	levantava	levantar	VERB	VERB	_	20	acl:relcl	_	TokenRange=192:201
+30	ir	ir	AUX	AUX	_	29	aux	_	TokenRange=202:204
+31	escola	escola	NOUN	NOUN	_	29	xcomp	_	TokenRange=205:211
+32	calada	calado	ADJ	ADJ	_	33	amod	_	TokenRange=212:218
+33	madrugada	madrugada	NOUN	NOUN	_	31	appos	_	TokenRange=219:228
+34	tornado	tornado	ADJ	ADJ	_	36	amod	_	TokenRange=229:236
+35	nova	novo	ADJ	ADJ	_	36	amod	_	TokenRange=237:241
+36	celebridade	celebridade	NOUN	NOUN	_	31	appos	_	TokenRange=242:253
+37	internet	_	PROPN	PNOUN	_	36	appos	_	TokenRange=254:262
+38	estudante	estudante	NOUN	NOUN	_	37	flat	_	TokenRange=263:272
+39	hoje	hoje	ADV	ADV	_	42	advmod	_	TokenRange=273:277
+40	13	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=278:280
+41	anos	ano	NOUN	NOUN	_	37	appos	_	TokenRange=281:285
+42	batizado	batizar	VERB	VERB	_	43	acl	_	TokenRange=286:294
+43	internautas	internauta	NOUN	NOUN	_	29	nsubj	_	TokenRange=295:306
+44	gordinho	_	ADJ	ADJ	_	43	amod	_	TokenRange=307:315
+45	ave	ave	NOUN	NOUN	_	47	nsubj	_	TokenRange=316:319
+46	maria	_	NOUN	NOUN	_	45	flat	_	TokenRange=320:325
+47	conseguir	conseguir	VERB	VERB	_	43	acl:relcl	_	TokenRange=326:335
+48	segurar	segurar	VERB	VERB	_	47	xcomp	_	TokenRange=336:343
+49	gargalhadas	gargalhada	NOUN	NOUN	_	48	obj	_	TokenRange=344:355
+50	vivo	vivo	ADJ	ADJ	_	49	amod	_	TokenRange=356:360
+51	durante	_	ADP	ADP	_	52	case	_	TokenRange=361:368
+52	oracao	oracao	NOUN	NOUN	_	48	nmod	_	TokenRange=369:375
+53	transmitida	transmitir	VERB	VERB	_	52	acl	_	TokenRange=376:387
+54	canal	canal	NOUN	NOUN	_	52	appos	_	TokenRange=388:393
+55	tv	tv	NOUN	NOUN	_	54	amod	_	TokenRange=394:396
+56	comunitaria	comunitaria	ADJ	ADJ	_	54	amod	_	TokenRange=397:408
+57	morador	morador	ADJ	ADJ	_	54	amod	_	TokenRange=409:416
+58	bairro	bairro	NOUN	NOUN	_	54	appos	_	TokenRange=417:423
+59	votocel	votocel	ADJ	NOUN	_	58	amod	_	TokenRange=424:431
+60	votorantim	_	NOUN	NOUN	_	58	appos	_	TokenRange=432:442
+61	sp	_	NOUN	NOUN	_	63	nsubj	_	TokenRange=443:445
+62	jovem	jovem	ADJ	ADJ	_	58	amod	_	TokenRange=446:451
+63	recebeu	receber	VERB	VERB	_	17	parataxis	_	TokenRange=452:459
+64	g1	_	X	DET	_	65	amod	_	TokenRange=460:462
+65	casa	casa	NOUN	NOUN	_	63	obj	_	TokenRange=463:467
+66	simpatico	simpatico	ADJ	ADJ	_	65	amod	_	TokenRange=468:477
+67	sorridente	sorridente	ADJ	ADJ	_	65	amod	_	TokenRange=478:488
+68	todo	_	DET	DET	_	69	det	_	TokenRange=489:493
+69	momento	momento	NOUN	NOUN	_	70	nsubj	_	TokenRange=494:501
+70	diz	dizer	VERB	VERB	_	63	parataxis	_	TokenRange=502:505
+71	aceitado	aceitado	ADJ	ADJ	_	70	xcomp	_	TokenRange=506:514
+72	meme	meme	NOUN	NOUN	_	70	nsubj	_	TokenRange=515:519
+73	aprendido	aprender	VERB	VERB	_	72	acl	_	TokenRange=520:529
+74	lidar	lidar	VERB	VERB	_	73	xcomp	_	TokenRange=530:535
+75	situacoes	_	NOUN	NOUN	_	74	obj	_	TokenRange=536:545
+76	sucederam	suceder	VERB	VERB	_	72	acl:relcl	_	TokenRange=546:555
+77	fama	fama	NOUN	NOUN	_	76	obj	_	TokenRange=556:560
+78	web	_	NOUN	NOUN	_	77	flat	_	TokenRange=561:564
+79	abordado	abordar	VERB	VERB	_	81	acl	_	TokenRange=565:573
+80	desconhecidos	desconhecido	ADJ	ADJ	_	81	amod	_	TokenRange=574:587
+81	alvo	alvo	NOUN	NOUN	_	77	appos	_	TokenRange=588:592
+82	bullying	_	NOUN	NOUN	_	81	flat	_	TokenRange=593:601
+83	adolescente	adolescente	ADJ	ADJ	_	84	amod	_	TokenRange=602:613
+84	rotina	rotina	NOUN	NOUN	_	81	appos	_	TokenRange=614:620
+85	comum	comum	ADJ	ADJ	_	84	amod	_	TokenRange=621:626
+86	10	_	NUM	NUM	NumType=Card	87	nummod	_	TokenRange=627:629
+87	anos	ano	NOUN	NOUN	_	84	appos	_	SpaceAfter=No|TokenRange=630:634
+

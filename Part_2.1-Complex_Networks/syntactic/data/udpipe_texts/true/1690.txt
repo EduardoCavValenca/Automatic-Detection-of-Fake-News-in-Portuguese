@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 1 inaugurado exatos 60 anos janeiro 1957 ginasio ibirapuera verdade complexo esportivo conjunto desportivo constancio vaz guimaraes 95 mil metros quadrados ficam ginasio geraldo jose almeida apelidado ginasio ibirapuera estadio icaro castro mello conjunto aquatico caio pompeu toledo ginasio poliesportivo mauro pinheiro palacio judo 2 complexo onde fica ginasio ibirapuera oficialmente chama conjunto desportivo constancio vaz guimaraes homenagem advogado procurador fiscal constancio vaz guimaraes grande entusiasta atletismo presidente delegacao olimpica brasileira jogos berlim 1936 3 nome oficial ginasio ibirapuera
+1	1	_	NUM	NUM	NumType=Card	22	nsubj	_	TokenRange=0:1
+2	inaugurado	inaugurar	VERB	VERB	_	1	acl	_	TokenRange=2:12
+3	exatos	exato	ADJ	ADJ	_	5	amod	_	TokenRange=13:19
+4	60	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=20:22
+5	anos	ano	NOUN	NOUN	_	2	nmod	_	TokenRange=23:27
+6	janeiro	_	PROPN	PNOUN	_	5	appos	_	TokenRange=28:35
+7	1957	_	NUM	NUM	NumType=Card	6	nmod	_	TokenRange=36:40
+8	ginasio	ginasio	NOUN	NOUN	_	2	appos	_	TokenRange=41:48
+9	ibirapuera	_	ADJ	ADJ	_	8	amod	_	TokenRange=49:59
+10	verdade	verdade	NOUN	NOUN	_	8	appos	_	TokenRange=60:67
+11	complexo	complexo	NOUN	NOUN	_	23	appos	_	TokenRange=68:76
+12	esportivo	esportivo	ADJ	ADJ	_	13	amod	_	TokenRange=77:86
+13	conjunto	conjunto	NOUN	NOUN	_	11	appos	_	TokenRange=87:95
+14	desportivo	desportivo	ADJ	ADJ	_	13	amod	_	TokenRange=96:106
+15	constancio	constancio	NOUN	NOUN	_	13	appos	_	TokenRange=107:117
+16	vaz	vaz	NOUN	NOUN	_	15	flat	_	TokenRange=118:121
+17	guimaraes	guimarae	ADJ	ADJ	_	15	flat	_	TokenRange=122:131
+18	95	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=132:134
+19	mil	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=135:138
+20	metros	metro	NOUN	NOUN	_	13	appos	_	TokenRange=139:145
+21	quadrados	quadrado	ADJ	ADJ	_	20	amod	_	TokenRange=146:155
+22	ficam	ficar	VERB	VERB	_	0	root	_	TokenRange=156:161
+23	ginasio	ginasio	NOUN	NOUN	_	22	nsubj	_	TokenRange=162:169
+24	geraldo	geraldo	NOUN	NOUN	_	23	amod	_	TokenRange=170:177
+25	jose	jose	NOUN	NOUN	_	23	flat	_	TokenRange=178:182
+26	almeida	almeida	NOUN	NOUN	_	24	flat	_	TokenRange=183:190
+27	apelidado	apelidar	AUX	AUX	_	28	cop	_	TokenRange=191:200
+28	ginasio	ginasio	NOUN	NOUN	_	23	appos	_	TokenRange=201:208
+29	ibirapuera	_	ADJ	ADJ	_	30	amod	_	TokenRange=209:219
+30	estadio	estadio	NOUN	NOUN	_	28	appos	_	TokenRange=220:227
+31	icaro	icaro	NOUN	NOUN	_	30	appos	_	TokenRange=228:233
+32	castro	castro	NOUN	NOUN	_	30	flat	_	TokenRange=234:240
+33	mello	mello	ADJ	ADJ	_	34	amod	_	TokenRange=241:246
+34	conjunto	conjunto	NOUN	NOUN	_	23	appos	_	TokenRange=247:255
+35	aquatico	aquatico	ADJ	ADJ	_	34	amod	_	TokenRange=256:264
+36	caio	caio	NOUN	NOUN	_	34	appos	_	TokenRange=265:269
+37	pompeu	pompeu	NOUN	NOUN	_	36	flat	_	TokenRange=270:276
+38	toledo	_	ADJ	NOUN	_	39	amod	_	TokenRange=277:283
+39	ginasio	ginasio	NOUN	NOUN	_	34	appos	_	TokenRange=284:291
+40	poliesportivo	poliesportivo	ADJ	ADJ	_	39	amod	_	TokenRange=292:305
+41	mauro	mauro	NOUN	NOUN	_	39	appos	_	TokenRange=306:311
+42	pinheiro	pinheiro	ADJ	ADJ	_	41	flat	_	TokenRange=312:320
+43	palacio	palacio	NOUN	NOUN	_	39	appos	_	TokenRange=321:328
+44	judo	judo	NOUN	NOUN	_	41	flat	_	TokenRange=329:333
+45	2	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=334:335
+46	complexo	complexo	NOUN	NOUN	_	39	appos	_	TokenRange=336:344
+47	onde	onde	ADV	ADV	_	48	advmod	_	TokenRange=345:349
+48	fica	ficar	VERB	VERB	_	46	acl:relcl	_	TokenRange=350:354
+49	ginasio	ginasio	NOUN	NOUN	_	48	nsubj	_	TokenRange=355:362
+50	ibirapuera	_	ADJ	ADJ	_	49	amod	_	TokenRange=363:373
+51	oficialmente	oficialmente	ADV	ADV	_	52	advmod	_	TokenRange=374:386
+52	chama	chamar	VERB	VERB	_	22	parataxis	_	TokenRange=387:392
+53	conjunto	conjunto	NOUN	NOUN	_	52	obj	_	TokenRange=393:401
+54	desportivo	desportivo	ADJ	ADJ	_	53	amod	_	TokenRange=402:412
+55	constancio	constancio	NOUN	NOUN	_	53	appos	_	TokenRange=413:423
+56	vaz	vaz	NOUN	NOUN	_	53	flat	_	TokenRange=424:427
+57	guimaraes	guimarae	ADJ	ADJ	_	53	amod	_	TokenRange=428:437
+58	homenagem	homenagem	NOUN	NOUN	_	53	appos	_	TokenRange=438:447
+59	advogado	advogado	ADJ	NOUN	_	58	amod	_	TokenRange=448:456
+60	procurador	procurador	NOUN	NOUN	_	58	appos	_	TokenRange=457:467
+61	fiscal	fiscal	ADJ	ADJ	_	58	amod	_	TokenRange=468:474
+62	constancio	constancio	NOUN	NOUN	_	58	appos	_	TokenRange=475:485
+63	vaz	vaz	NOUN	NOUN	_	62	flat	_	TokenRange=486:489
+64	guimaraes	guimaraes	ADJ	ADJ	_	62	flat	_	TokenRange=490:499
+65	grande	grande	ADJ	ADJ	_	66	amod	_	TokenRange=500:506
+66	entusiasta	entusiasta	NOUN	NOUN	_	58	amod	_	TokenRange=507:517
+67	atletismo	atletismo	NOUN	NOUN	_	66	amod	_	TokenRange=518:527
+68	presidente	presidente	NOUN	NOUN	_	66	appos	_	TokenRange=528:538
+69	delegacao	delegacao	NOUN	NOUN	_	66	amod	_	TokenRange=539:548
+70	olimpica	olimpico	ADJ	ADJ	_	69	amod	_	TokenRange=549:557
+71	brasileira	brasileiro	ADJ	ADJ	_	69	amod	_	TokenRange=558:568
+72	jogos	jogo	NOUN	NOUN	_	68	appos	_	TokenRange=569:574
+73	berlim	berlim	ADJ	ADJ	_	72	appos	_	TokenRange=575:581
+74	1936	_	NUM	NUM	NumType=Card	72	nmod	_	TokenRange=582:586
+75	3	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=587:588
+76	nome	nome	NOUN	NOUN	_	23	appos	_	TokenRange=589:593
+77	oficial	oficial	ADJ	ADJ	_	76	amod	_	TokenRange=594:601
+78	ginasio	ginasio	NOUN	NOUN	_	76	appos	_	TokenRange=602:609
+79	ibirapuera	_	ADJ	ADJ	_	76	appos	_	SpaceAfter=No|TokenRange=610:620
+

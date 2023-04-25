@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = janaina paschoal flagrada cantando show heavy metal janaina sim musa impeachment interpretando heavy metal diario brasil mostra clipe serie mestres edicao dessa vez conseguimos unir politica musica combinou claro tudo passa brincadeira competentissima dra janaina diario brasil manda recado musa impeachment tamo junto assista
+1	janaina	janaina	NOUN	NOUN	_	17	nsubj	_	TokenRange=0:7
+2	paschoal	paschoal	ADJ	ADJ	_	1	amod	_	TokenRange=8:16
+3	flagrada	_	NOUN	NOUN	_	1	appos	_	TokenRange=17:25
+4	cantando	cantar	VERB	VERB	_	1	acl	_	TokenRange=26:34
+5	show	show	NOUN	NOUN	_	4	obj	_	TokenRange=35:39
+6	heavy	_	NOUN	NOUN	_	7	amod	_	TokenRange=40:45
+7	metal	metal	NOUN	NOUN	_	5	appos	_	TokenRange=46:51
+8	janaina	_	NOUN	NOUN	_	1	appos	_	TokenRange=52:59
+9	sim	sim	ADV	ADV	_	10	advmod	_	TokenRange=60:63
+10	musa	musa	NOUN	NOUN	_	1	appos	_	TokenRange=64:68
+11	impeachment	impeachment	NOUN	NOUN	_	10	flat	_	TokenRange=69:80
+12	interpretando	interpretar	VERB	VERB	_	10	acl	_	TokenRange=81:94
+13	heavy	_	ADJ	ADJ	_	14	amod	_	TokenRange=95:100
+14	metal	metal	NOUN	NOUN	_	12	obj	_	TokenRange=101:106
+15	diario	diario	NOUN	NOUN	_	14	appos	_	TokenRange=107:113
+16	brasil	brasil	ADJ	ADJ	_	15	amod	_	TokenRange=114:120
+17	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=121:127
+18	clipe	clipe	NOUN	NOUN	_	17	obj	_	TokenRange=128:133
+19	serie	_	NOUN	NOUN	_	18	appos	_	TokenRange=134:139
+20	mestres	mestre	NOUN	NOUN	_	19	flat	_	TokenRange=140:147
+21	edicao	edicao	NOUN	NOUN	_	24	nsubj	_	TokenRange=148:154
+22	dessa	_	ADP	ADP	_	23	case	_	TokenRange=155:160
+23	vez	vez	NOUN	NOUN	_	24	nmod	_	TokenRange=161:164
+24	conseguimos	conseguir	VERB	VERB	_	18	acl:relcl	_	TokenRange=165:176
+25	unir	unir	VERB	VERB	_	24	xcomp	_	TokenRange=177:181
+26	politica	_	NOUN	NOUN	_	25	obj	_	TokenRange=182:190
+27	musica	_	NOUN	NOUN	_	25	obj	_	TokenRange=191:197
+28	combinou	combinar	VERB	VERB	_	25	parataxis	_	TokenRange=198:206
+29	claro	claro	ADJ	ADJ	_	28	advmod	_	TokenRange=207:212
+30	tudo	_	PRON	PRON	_	31	nsubj	_	TokenRange=213:217
+31	passa	passar	VERB	VERB	_	28	parataxis	_	TokenRange=218:223
+32	brincadeira	brincadeira	NOUN	NOUN	_	28	nsubj	_	TokenRange=224:235
+33	competentissima	competentissimo	ADJ	ADJ	_	32	amod	_	TokenRange=236:251
+34	dra	_	NOUN	NOUN	_	38	nsubj	_	TokenRange=252:255
+35	janaina	janaina	NOUN	NOUN	_	34	flat	_	TokenRange=256:263
+36	diario	diario	NOUN	NOUN	_	34	appos	_	TokenRange=264:270
+37	brasil	brasil	ADJ	ADJ	_	36	amod	_	TokenRange=271:277
+38	manda	mandar	VERB	VERB	_	17	parataxis	_	TokenRange=278:283
+39	recado	recado	NOUN	NOUN	_	44	obj	_	TokenRange=284:290
+40	musa	musa	NOUN	NOUN	_	44	obj	_	TokenRange=291:295
+41	impeachment	impeachment	NOUN	NOUN	_	44	obj	_	TokenRange=296:307
+42	tamo	_	NOUN	NOUN	_	44	obj	_	TokenRange=308:312
+43	junto	junto	ADV	ADV	_	44	advmod	_	TokenRange=313:318
+44	assista	assistir	VERB	VERB	_	38	conj	_	SpaceAfter=No|TokenRange=319:326
+

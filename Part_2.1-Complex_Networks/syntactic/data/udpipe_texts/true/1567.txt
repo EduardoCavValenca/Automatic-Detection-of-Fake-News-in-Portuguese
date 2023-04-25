@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reformas temer pacote anticorrupcao uber devem agitar congresso 2017 retornar recesso fevereiro camara senado escolherao novos presidentes duas casas legislativas resultado eleicoes internas crucial governabilidade temer apos protagonizarem 2016 anos agitados ultimas decadas cenario politico deputados senadores retornarao recesso parlamentar fevereiro temas espinhosos tratar longo 2017 pautas polemicas congressistas lidar neste ano reformas propostas presidente michel temer areas previdenciaria trabalhista discussao pacote anticorrupcao socorro estados beira falencia regulamentacao aplicativo uber recesso desde 23 dezembro congresso nacional ira retomar atividades inicio fevereiro antes debrucarem sobre pautas legislativas
+1	reformas	reforma	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:8
+2	temer	temer	NOUN	NOUN	_	1	flat	_	TokenRange=9:14
+3	pacote	pacote	NOUN	NOUN	_	1	appos	_	TokenRange=15:21
+4	anticorrupcao	anticorrupcao	ADJ	ADJ	_	3	amod	_	TokenRange=22:35
+5	uber	uber	NOUN	NOUN	_	3	amod	_	TokenRange=36:40
+6	devem	_	AUX	AUX	_	7	aux	_	TokenRange=41:46
+7	agitar	agitar	VERB	VERB	_	0	root	_	TokenRange=47:53
+8	congresso	congresso	NOUN	NOUN	_	7	obj	_	TokenRange=54:63
+9	2017	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=64:68
+10	retornar	retornar	VERB	VERB	_	7	ccomp	_	TokenRange=69:77
+11	recesso	recesso	NOUN	NOUN	_	10	obj	_	TokenRange=78:85
+12	fevereiro	_	PROPN	PNOUN	_	13	amod	_	TokenRange=86:95
+13	camara	camara	NOUN	NOUN	_	15	nsubj	_	TokenRange=96:102
+14	senado	senado	NOUN	NOUN	_	13	flat	_	TokenRange=103:109
+15	escolherao	escolher	VERB	VERB	_	7	parataxis	_	TokenRange=110:120
+16	novos	novo	ADJ	ADJ	_	17	amod	_	TokenRange=121:126
+17	presidentes	presidente	NOUN	NOUN	_	15	obj	_	TokenRange=127:138
+18	duas	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=139:143
+19	casas	casa	NOUN	NOUN	_	15	obj	_	TokenRange=144:149
+20	legislativas	legislativo	ADJ	ADJ	_	19	amod	_	TokenRange=150:162
+21	resultado	resultado	NOUN	NOUN	_	19	appos	_	TokenRange=163:172
+22	eleicoes	eleicoe	NOUN	NOUN	_	19	appos	_	TokenRange=173:181
+23	internas	interno	ADJ	ADJ	_	22	amod	_	TokenRange=182:190
+24	crucial	crucial	ADJ	ADJ	_	25	amod	_	TokenRange=191:198
+25	governabilidade	governabilidade	NOUN	NOUN	_	19	appos	_	TokenRange=199:214
+26	temer	temer	NOUN	NOUN	_	25	amod	_	TokenRange=215:220
+27	apos	_	ADP	ADP	_	28	mark	_	TokenRange=221:225
+28	protagonizarem	protagonizar	VERB	VERB	_	15	advcl	_	TokenRange=226:240
+29	2016	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=241:245
+30	anos	ano	NOUN	NOUN	_	28	nmod	_	TokenRange=246:250
+31	agitados	agitado	ADJ	ADJ	_	30	amod	_	TokenRange=251:259
+32	ultimas	ultimo	ADJ	ADJ	_	34	amod	_	TokenRange=260:267
+33	decadas	_	NOUN	NOUN	_	34	amod	_	TokenRange=268:275
+34	cenario	cenario	NOUN	NOUN	_	38	nsubj	_	TokenRange=276:283
+35	politico	politico	ADJ	ADJ	_	34	amod	_	TokenRange=284:292
+36	deputados	deputado	NOUN	NOUN	_	38	nsubj	_	TokenRange=293:302
+37	senadores	senador	ADJ	ADJ	_	36	amod	_	TokenRange=303:312
+38	retornarao	retornar	VERB	VERB	_	7	parataxis	_	TokenRange=313:323
+39	recesso	recesso	NOUN	NOUN	_	38	obj	_	TokenRange=324:331
+40	parlamentar	parlamentar	ADJ	ADJ	_	39	amod	_	TokenRange=332:343
+41	fevereiro	_	PROPN	PNOUN	_	42	amod	_	TokenRange=344:353
+42	temas	tema	NOUN	NOUN	_	38	nsubj	_	TokenRange=354:359
+43	espinhosos	espinhoso	ADJ	ADJ	_	42	amod	_	TokenRange=360:370
+44	tratar	tratar	VERB	VERB	_	38	ccomp	_	TokenRange=371:377
+45	longo	longo	ADJ	ADJ	_	44	advmod	_	TokenRange=378:383
+46	2017	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=384:388
+47	pautas	pauta	NOUN	NOUN	_	44	obj	_	TokenRange=389:395
+48	polemicas	polemico	ADJ	ADJ	_	47	amod	_	TokenRange=396:405
+49	congressistas	congressista	ADJ	NOUN	_	47	amod	_	TokenRange=406:419
+50	lidar	lidar	VERB	VERB	_	47	acl	_	TokenRange=420:425
+51	neste	_	ADP	ADP	_	52	case	_	TokenRange=426:431
+52	ano	ano	NOUN	NOUN	_	50	nmod	_	TokenRange=432:435
+53	reformas	reforma	NOUN	NOUN	_	50	obj	_	TokenRange=436:444
+54	propostas	_	ADJ	ADJ	_	53	amod	_	TokenRange=445:454
+55	presidente	presidente	NOUN	NOUN	_	53	appos	_	TokenRange=455:465
+56	michel	michel	ADJ	ADJ	_	55	amod	_	TokenRange=466:472
+57	temer	temer	NOUN	NOUN	_	55	appos	_	TokenRange=473:478
+58	areas	_	NOUN	NOUN	_	53	appos	_	TokenRange=479:484
+59	previdenciaria	_	ADJ	ADJ	_	58	amod	_	TokenRange=485:499
+60	trabalhista	trabalhista	ADJ	ADJ	_	58	amod	_	TokenRange=500:511
+61	discussao	discussao	VERB	VERB	_	58	appos	_	TokenRange=512:521
+62	pacote	pacote	NOUN	NOUN	_	50	obj	_	TokenRange=522:528
+63	anticorrupcao	anticorrupcao	ADJ	ADJ	_	62	amod	_	TokenRange=529:542
+64	socorro	socorro	NOUN	NOUN	_	62	appos	_	TokenRange=543:550
+65	estados	estado	NOUN	NOUN	_	62	appos	_	TokenRange=551:558
+66	beira	beira	NOUN	NOUN	_	62	appos	_	TokenRange=559:564
+67	falencia	falencia	NOUN	NOUN	_	62	appos	_	TokenRange=565:573
+68	regulamentacao	regulamentacao	NOUN	NOUN	_	67	flat	_	TokenRange=574:588
+69	aplicativo	aplicativo	ADJ	ADJ	_	68	amod	_	TokenRange=589:599
+70	uber	uber	ADJ	ADJ	_	71	amod	_	TokenRange=600:604
+71	recesso	recesso	NOUN	NOUN	_	68	appos	_	TokenRange=605:612
+72	desde	_	ADP	ADP	_	74	case	_	TokenRange=613:618
+73	23	_	NUM	NUM	NumType=Card	74	nummod	_	TokenRange=619:621
+74	dezembro	_	PROPN	PNOUN	_	78	nmod	_	TokenRange=622:630
+75	congresso	congresso	NOUN	NOUN	_	78	nsubj	_	TokenRange=631:640
+76	nacional	nacional	ADJ	ADJ	_	75	amod	_	TokenRange=641:649
+77	ira	_	AUX	AUX	_	78	aux	_	TokenRange=650:653
+78	retomar	retomar	VERB	VERB	_	15	parataxis	_	TokenRange=654:661
+79	atividades	atividade	NOUN	NOUN	_	78	obj	_	TokenRange=662:672
+80	inicio	_	ADJ	ADJ	_	79	appos	_	TokenRange=673:679
+81	fevereiro	_	PROPN	PNOUN	_	80	nmod	_	TokenRange=680:689
+82	antes	antes	ADV	ADV	_	83	advmod	_	TokenRange=690:695
+83	debrucarem	debrucar	VERB	VERB	_	78	parataxis	_	TokenRange=696:706
+84	sobre	_	ADP	ADP	_	85	case	_	TokenRange=707:712
+85	pautas	pauta	NOUN	NOUN	_	83	nmod	_	TokenRange=713:719
+86	legislativas	legislativo	ADJ	ADJ	_	85	amod	_	SpaceAfter=No|TokenRange=720:732
+

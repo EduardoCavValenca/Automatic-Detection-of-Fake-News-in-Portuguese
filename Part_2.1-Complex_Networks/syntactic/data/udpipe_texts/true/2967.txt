@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = concurso pm deve ficar suspenso proximas eleicoes diz procurador geral clenan renaut explicou decisao temporaria procurador entrou acao evitar atos governador cassado marcelo miranda levem estado ruina concurso policia militar suspenso neste domingo 25 deve continuar realizacao proxima eleicao tocantins vai definir governara estado fim ano durante mandato tampao informacoes procurador geral justica tocantins clenan renaut fez pedido
+1	concurso	concurso	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	pm	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:11
+3	deve	dever	AUX	AUX	_	4	aux	_	TokenRange=12:16
+4	ficar	ficar	VERB	VERB	_	0	root	_	TokenRange=17:22
+5	suspenso	suspenso	ADJ	ADJ	_	4	xcomp	_	TokenRange=23:31
+6	proximas	proximo	ADJ	ADJ	_	7	amod	_	TokenRange=32:40
+7	eleicoes	eleicoe	NOUN	NOUN	_	4	nsubj	_	TokenRange=41:49
+8	diz	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=50:53
+9	procurador	procurador	NOUN	NOUN	_	4	nsubj	_	TokenRange=54:64
+10	geral	geral	ADJ	ADJ	_	9	amod	_	TokenRange=65:70
+11	clenan	clenan	NOUN	NOUN	_	13	nsubj	_	TokenRange=71:77
+12	renaut	renaut	NOUN	NOUN	_	11	flat	_	TokenRange=78:84
+13	explicou	explicar	VERB	VERB	_	4	conj	_	TokenRange=85:93
+14	decisao	decisao	NOUN	NOUN	_	13	obj	_	TokenRange=94:101
+15	temporaria	temporar	ADJ	ADJ	_	14	amod	_	TokenRange=102:112
+16	procurador	procurador	NOUN	NOUN	_	17	nsubj	_	TokenRange=113:123
+17	entrou	entrar	VERB	VERB	_	13	ccomp	_	TokenRange=124:130
+18	acao	acao	NOUN	NOUN	_	19	obj	_	TokenRange=131:135
+19	evitar	evitar	VERB	VERB	_	17	ccomp	_	TokenRange=136:142
+20	atos	ato	NOUN	NOUN	_	19	obj	_	TokenRange=143:147
+21	governador	governador	NOUN	NOUN	_	20	appos	_	TokenRange=148:158
+22	cassado	cassado	ADJ	ADJ	_	21	amod	_	TokenRange=159:166
+23	marcelo	marcelo	NOUN	NOUN	_	25	nsubj	_	TokenRange=167:174
+24	miranda	miranda	ADJ	NOUN	_	23	flat	_	TokenRange=175:182
+25	levem	levar	VERB	VERB	_	17	conj	_	TokenRange=183:188
+26	estado	estado	NOUN	NOUN	_	25	obj	_	TokenRange=189:195
+27	ruina	ruino	ADJ	ADJ	_	26	amod	_	TokenRange=196:201
+28	concurso	concurso	NOUN	NOUN	_	26	appos	_	TokenRange=202:210
+29	policia	policia	NOUN	NOUN	_	26	appos	_	TokenRange=211:218
+30	militar	militar	ADJ	ADJ	_	29	amod	_	TokenRange=219:226
+31	suspenso	suspenso	ADJ	ADJ	_	29	amod	_	TokenRange=227:235
+32	neste	_	ADP	ADP	_	33	case	_	TokenRange=236:241
+33	domingo	_	PROPN	PNOUN	_	36	nmod	_	TokenRange=242:249
+34	25	_	NUM	NUM	NumType=Card	36	nsubj	_	TokenRange=250:252
+35	deve	dever	AUX	AUX	_	36	aux	_	TokenRange=253:257
+36	continuar	continuar	VERB	VERB	_	25	conj	_	TokenRange=258:267
+37	realizacao	realizacao	NOUN	NOUN	_	36	obj	_	TokenRange=268:278
+38	proxima	proximo	ADJ	ADJ	_	39	amod	_	TokenRange=279:286
+39	eleicao	eleicao	NOUN	NOUN	_	36	nsubj	_	TokenRange=287:294
+40	tocantins	tocantim	ADJ	ADJ	_	39	amod	_	TokenRange=295:304
+41	vai	ir	AUX	AUX	_	42	aux	_	TokenRange=305:308
+42	definir	definir	VERB	VERB	_	36	conj	_	TokenRange=309:316
+43	governara	governar	VERB	VERB	_	42	xcomp	_	TokenRange=317:326
+44	estado	estado	NOUN	NOUN	_	43	obj	_	TokenRange=327:333
+45	fim	fim	NOUN	NOUN	_	44	amod	_	TokenRange=334:337
+46	ano	ano	NOUN	NOUN	_	44	nmod	_	TokenRange=338:341
+47	durante	_	ADP	ADP	_	48	case	_	TokenRange=342:349
+48	mandato	mandato	NOUN	NOUN	_	43	nmod	_	TokenRange=350:357
+49	tampao	tampao	ADJ	ADJ	_	50	amod	_	TokenRange=358:364
+50	informacoes	informacoe	NOUN	NOUN	_	57	nsubj	_	TokenRange=365:376
+51	procurador	procurador	NOUN	NOUN	_	50	appos	_	TokenRange=377:387
+52	geral	geral	ADJ	ADJ	_	51	amod	_	TokenRange=388:393
+53	justica	_	NOUN	ADJ	_	57	nsubj	_	TokenRange=394:401
+54	tocantins	tocantim	ADJ	ADJ	_	51	amod	_	TokenRange=402:411
+55	clenan	clenan	ADJ	ADJ	_	51	amod	_	TokenRange=412:418
+56	renaut	renaut	NOUN	NOUN	_	55	flat	_	TokenRange=419:425
+57	fez	fazer	VERB	VERB	_	36	parataxis	_	TokenRange=426:429
+58	pedido	pedido	NOUN	NOUN	_	57	obj	_	SpaceAfter=No|TokenRange=430:436
+

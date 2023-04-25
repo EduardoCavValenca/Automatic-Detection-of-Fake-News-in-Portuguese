@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = missil precisao entra fase final exercito retoma voos testes mtc300 capaz atingir alvo 300 km distancia primeiras entregas previstas 2023 primeiro missil brasileiro cruzeiro mtc300 300 km alcance precisao escala 50 metros entra fase final desenvolvimento ano retomada voos teste primeiras entregas exercito previstas 2020 encomenda inicial 100 unidades definida 2016 sendo negociada entregue lotes sequenciais 2023 investimento programa estimado r 245 bilhoes
+1	missil	missil	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	precisao	precisao	ADJ	ADJ	_	1	amod	_	TokenRange=7:15
+3	entra	entrar	VERB	VERB	_	0	root	_	TokenRange=16:21
+4	fase	fase	NOUN	NOUN	_	3	obj	_	TokenRange=22:26
+5	final	final	ADJ	ADJ	_	4	amod	_	TokenRange=27:32
+6	exercito	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=33:41
+7	retoma	retomar	VERB	VERB	_	1	acl:relcl	_	TokenRange=42:48
+8	voos	voo	NOUN	NOUN	_	7	obj	_	TokenRange=49:53
+9	testes	teste	NOUN	NOUN	_	8	amod	_	TokenRange=54:60
+10	mtc300	_	NOUN	NOUN	_	8	appos	_	TokenRange=61:67
+11	capaz	capaz	ADJ	ADJ	_	1	amod	_	TokenRange=68:73
+12	atingir	atingir	VERB	VERB	_	7	xcomp	_	TokenRange=74:81
+13	alvo	alvo	NOUN	NOUN	_	12	obj	_	TokenRange=82:86
+14	300	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=87:90
+15	km	km	NOUN	NOUN	_	12	obj	_	TokenRange=91:93
+16	distancia	distanciar	VERB	VERB	_	7	parataxis	_	TokenRange=94:103
+17	primeiras	primeiro	ADJ	ADJ	_	18	amod	_	TokenRange=104:113
+18	entregas	entrega	NOUN	NOUN	_	16	nsubj	_	TokenRange=114:122
+19	previstas	previsto	ADJ	ADJ	_	18	amod	_	TokenRange=123:132
+20	2023	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=133:137
+21	primeiro	primeiro	ADJ	ADJ	_	22	amod	_	TokenRange=138:146
+22	missil	missil	NOUN	NOUN	_	7	nsubj	_	TokenRange=147:153
+23	brasileiro	brasileiro	ADJ	ADJ	_	22	amod	_	TokenRange=154:164
+24	cruzeiro	cruzeiro	NOUN	NOUN	_	22	appos	_	TokenRange=165:173
+25	mtc300	_	NUM	NUM	_	22	appos	_	TokenRange=174:180
+26	300	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=181:184
+27	km	km	NOUN	NOUN	_	22	appos	_	TokenRange=185:187
+28	alcance	alcance	NOUN	NOUN	_	22	appos	_	TokenRange=188:195
+29	precisao	precisao	ADJ	ADJ	_	28	amod	_	TokenRange=196:204
+30	escala	escalar	VERB	VERB	_	22	acl:relcl	_	TokenRange=205:211
+31	50	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=212:214
+32	metros	metro	NOUN	NOUN	_	30	obj	_	TokenRange=215:221
+33	entra	entrar	VERB	VERB	_	34	parataxis	_	TokenRange=222:227
+34	fase	fase	NOUN	NOUN	_	30	nmod	_	TokenRange=228:232
+35	final	final	ADJ	ADJ	_	34	amod	_	TokenRange=233:238
+36	desenvolvimento	desenvolvimento	NOUN	NOUN	_	34	appos	_	TokenRange=239:254
+37	ano	ano	NOUN	NOUN	_	36	flat	_	TokenRange=255:258
+38	retomada	retomar	VERB	VERB	_	34	acl	_	TokenRange=259:267
+39	voos	voo	NOUN	NOUN	_	38	obj	_	TokenRange=268:272
+40	teste	teste	NOUN	NOUN	_	39	amod	_	TokenRange=273:278
+41	primeiras	primeiro	ADJ	ADJ	_	42	amod	_	TokenRange=279:288
+42	entregas	entrega	NOUN	NOUN	_	33	nsubj	_	TokenRange=289:297
+43	exercito	_	NOUN	NOUN	_	42	appos	_	TokenRange=298:306
+44	previstas	previsto	ADJ	ADJ	_	42	acl	_	TokenRange=307:316
+45	2020	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=317:321
+46	encomenda	encomenda	NOUN	NOUN	_	44	nsubj	_	TokenRange=322:331
+47	inicial	inicial	ADJ	ADJ	_	46	amod	_	TokenRange=332:339
+48	100	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=340:343
+49	unidades	unidade	NOUN	NOUN	_	46	appos	_	TokenRange=344:352
+50	definida	definir	VERB	VERB	_	49	acl	_	TokenRange=353:361
+51	2016	_	NUM	NUM	NumType=Card	50	nmod	_	TokenRange=362:366
+52	sendo	ser	AUX	AUX	_	53	aux:pass	_	TokenRange=367:372
+53	negociada	negociar	VERB	VERB	_	46	acl	_	TokenRange=373:382
+54	entregue	entregar	VERB	VERB	_	53	parataxis	_	TokenRange=383:391
+55	lotes	lote	NOUN	NOUN	_	54	nsubj:pass	_	TokenRange=392:397
+56	sequenciais	sequencial	ADJ	ADJ	_	55	amod	_	TokenRange=398:409
+57	2023	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=410:414
+58	investimento	investimento	NOUN	NOUN	_	55	appos	_	TokenRange=415:427
+59	programa	programa	NOUN	NOUN	_	58	flat	_	TokenRange=428:436
+60	estimado	estimar	VERB	VERB	_	58	acl	_	TokenRange=437:445
+61	r	r	NOUN	NOUN	_	60	obj	_	TokenRange=446:447
+62	245	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=448:451
+63	bilhoes	_	NUM	NUM	NumType=Card	61	nummod	_	SpaceAfter=No|TokenRange=452:459
+

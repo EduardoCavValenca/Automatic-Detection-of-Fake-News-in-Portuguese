@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = missil nortecoreano sobrevoa japao eleva risco guerra leste asia governo japones reage irritacao manobra ocorria desde 2009 aciona protocolo seguranca habitantes ilha hokkaido toquio nova acao programa balistico coreia norte lancou manha tercafeira 29 horario local missil sobrevoou territorio japones ampliou tensoes leste asia governo japones reagiu irritacao manobra ocorria desde 2009 projetil sobrevoou ilha hokkaido desmanchou tres partes antes cair oceano pacifico rapido pronunciamento imprensa premie japones shinzo abe prometeu tomar maiores
+1	missil	missil	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:6
+2	nortecoreano	nortecoreano	ADJ	ADJ	_	1	amod	_	TokenRange=7:19
+3	sobrevoa	sobrevoar	VERB	VERB	_	1	acl:relcl	_	TokenRange=20:28
+4	japao	japao	NOUN	NOUN	_	3	obj	_	TokenRange=29:34
+5	eleva	elevar	VERB	VERB	_	0	root	_	TokenRange=35:40
+6	risco	risco	NOUN	NOUN	_	5	obj	_	TokenRange=41:46
+7	guerra	guerra	NOUN	NOUN	_	5	obj	_	TokenRange=47:53
+8	leste	leste	ADJ	ADJ	_	9	amod	_	TokenRange=54:59
+9	asia	asia	NOUN	NOUN	_	5	nsubj	_	TokenRange=60:64
+10	governo	governo	NOUN	NOUN	_	12	nsubj	_	TokenRange=65:72
+11	japones	japone	ADJ	ADJ	_	10	amod	_	TokenRange=73:80
+12	reage	reagir	VERB	VERB	_	1	acl:relcl	_	TokenRange=81:86
+13	irritacao	_	ADJ	ADJ	_	14	amod	_	TokenRange=87:96
+14	manobra	manobra	NOUN	NOUN	_	12	obj	_	TokenRange=97:104
+15	ocorria	ocorrer	VERB	VERB	_	14	amod	_	TokenRange=105:112
+16	desde	_	ADP	ADP	_	17	case	_	TokenRange=113:118
+17	2009	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=119:123
+18	aciona	acionar	VERB	VERB	_	5	parataxis	_	TokenRange=124:130
+19	protocolo	protocolo	NOUN	NOUN	_	18	obj	_	TokenRange=131:140
+20	seguranca	_	ADJ	ADJ	_	19	amod	_	TokenRange=141:150
+21	habitantes	habitante	NOUN	NOUN	_	19	appos	_	TokenRange=151:161
+22	ilha	ilha	NOUN	NOUN	_	19	appos	_	TokenRange=162:166
+23	hokkaido	_	ADJ	ADJ	_	22	amod	_	TokenRange=167:175
+24	toquio	toquio	NOUN	NOUN	_	18	nsubj	_	TokenRange=176:182
+25	nova	novo	ADJ	ADJ	_	26	amod	_	TokenRange=183:187
+26	acao	acao	NOUN	NOUN	_	18	nsubj	_	TokenRange=188:192
+27	programa	programa	NOUN	NOUN	_	26	appos	_	TokenRange=193:201
+28	balistico	balistico	ADJ	ADJ	_	27	amod	_	TokenRange=202:211
+29	coreia	coreia	NOUN	NOUN	_	31	nsubj	_	TokenRange=212:218
+30	norte	norte	ADJ	ADJ	_	29	amod	_	TokenRange=219:224
+31	lancou	lancar	VERB	VERB	_	26	acl:relcl	_	TokenRange=225:231
+32	manha	manha	NOUN	NOUN	_	31	obj	_	TokenRange=232:237
+33	tercafeira	_	NOUN	NOUN	_	32	flat	_	TokenRange=238:248
+34	29	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=249:251
+35	horario	horario	NOUN	NOUN	_	32	appos	_	TokenRange=252:259
+36	local	local	ADJ	ADJ	_	35	amod	_	TokenRange=260:265
+37	missil	missil	NOUN	NOUN	_	38	nsubj	_	TokenRange=266:272
+38	sobrevoou	sobrevoar	VERB	VERB	_	31	parataxis	_	TokenRange=273:282
+39	territorio	territorio	NOUN	NOUN	_	38	obj	_	TokenRange=283:293
+40	japones	japone	ADJ	ADJ	_	39	amod	_	TokenRange=294:301
+41	ampliou	ampliar	VERB	VERB	_	31	parataxis	_	TokenRange=302:309
+42	tensoes	tensoe	NOUN	NOUN	_	41	obj	_	TokenRange=310:317
+43	leste	leste	ADJ	ADJ	_	44	amod	_	TokenRange=318:323
+44	asia	asia	NOUN	NOUN	_	41	nsubj	_	TokenRange=324:328
+45	governo	governo	NOUN	NOUN	_	47	nsubj	_	TokenRange=329:336
+46	japones	japone	ADJ	ADJ	_	45	amod	_	TokenRange=337:344
+47	reagiu	reagir	VERB	VERB	_	41	parataxis	_	TokenRange=345:351
+48	irritacao	_	ADJ	ADJ	_	49	amod	_	TokenRange=352:361
+49	manobra	manobra	NOUN	NOUN	_	47	nsubj	_	TokenRange=362:369
+50	ocorria	ocorrer	VERB	VERB	_	49	acl	_	TokenRange=370:377
+51	desde	_	ADP	ADP	_	52	case	_	TokenRange=378:383
+52	2009	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=384:388
+53	projetil	projetil	NOUN	NOUN	_	54	nsubj	_	TokenRange=389:397
+54	sobrevoou	sobrevoar	VERB	VERB	_	47	conj	_	TokenRange=398:407
+55	ilha	ilha	NOUN	NOUN	_	54	obj	_	TokenRange=408:412
+56	hokkaido	_	ADJ	ADJ	_	55	amod	_	TokenRange=413:421
+57	desmanchou	desmanchar	VERB	VERB	_	47	conj	_	TokenRange=422:432
+58	tres	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=433:437
+59	partes	_	NOUN	NOUN	_	57	nmod	_	TokenRange=438:444
+60	antes	antes	ADV	ADV	_	61	advmod	_	TokenRange=445:450
+61	cair	cair	VERB	VERB	_	57	advcl	_	TokenRange=451:455
+62	oceano	oceano	NOUN	NOUN	_	61	obj	_	TokenRange=456:462
+63	pacifico	pacifico	ADJ	ADJ	_	62	amod	_	TokenRange=463:471
+64	rapido	rapido	ADJ	ADJ	_	65	amod	_	TokenRange=472:478
+65	pronunciamento	pronunciamento	NOUN	NOUN	_	61	nsubj	_	TokenRange=479:493
+66	imprensa	imprensa	NOUN	NOUN	_	65	amod	_	TokenRange=494:502
+67	premie	premie	NOUN	NOUN	_	65	appos	_	TokenRange=503:509
+68	japones	japone	ADJ	ADJ	_	67	amod	_	TokenRange=510:517
+69	shinzo	_	PROPN	PNOUN	_	71	nsubj	_	TokenRange=518:524
+70	abe	_	PROPN	PNOUN	_	69	flat	_	TokenRange=525:528
+71	prometeu	prometer	VERB	VERB	_	47	parataxis	_	TokenRange=529:537
+72	tomar	tomar	VERB	VERB	_	71	xcomp	_	TokenRange=538:543
+73	maiores	_	NOUN	NOUN	_	72	obj	_	SpaceAfter=No|TokenRange=544:551
+

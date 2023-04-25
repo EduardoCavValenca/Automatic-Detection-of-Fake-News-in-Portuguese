@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = roberto teixeira diz influencia nenhuma sobre eventual imovel instituto lula advogado prestou depoimento manha desta tercafeira 19 advogado roberto teixeira disse depoimento juiz federal sergio moro manha desta tercafeira 19 influencia nenhuma sobre eventual imovel instituto lula afirmou todo envolvimento caso juridico nada ver declarou acordo forcatarefa lava jato teixeira advogado compadre expresidente luiz inacio lula
+1	roberto	roberto	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	teixeira	teixeiro	NOUN	NOUN	_	1	flat	_	TokenRange=8:16
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=17:20
+4	influencia	_	NOUN	NOUN	_	3	obj	_	TokenRange=21:31
+5	nenhuma	_	DET	DET	_	4	det	_	TokenRange=32:39
+6	sobre	_	ADP	ADP	_	9	case	_	TokenRange=40:45
+7	eventual	eventual	ADJ	ADJ	_	9	amod	_	TokenRange=46:54
+8	imovel	imovel	ADJ	ADJ	_	4	nmod	_	TokenRange=55:61
+9	instituto	instituto	NOUN	NOUN	_	4	nmod	_	TokenRange=62:71
+10	lula	lula	ADJ	ADJ	_	9	amod	_	TokenRange=72:76
+11	advogado	advogado	NOUN	NOUN	_	12	nsubj	_	TokenRange=77:85
+12	prestou	prestar	VERB	VERB	_	3	parataxis	_	TokenRange=86:93
+13	depoimento	depoimento	NOUN	NOUN	_	12	obj	_	TokenRange=94:104
+14	manha	manha	NOUN	NOUN	_	13	appos	_	TokenRange=105:110
+15	desta	_	ADP	ADP	_	16	case	_	TokenRange=111:116
+16	tercafeira	tercafeira	NOUN	NOUN	_	13	nmod	_	TokenRange=117:127
+17	19	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=128:130
+18	advogado	advogado	NOUN	NOUN	_	21	nsubj	_	TokenRange=131:139
+19	roberto	roberto	ADJ	ADJ	_	18	appos	_	TokenRange=140:147
+20	teixeira	teixeiro	NOUN	NOUN	_	19	flat	_	TokenRange=148:156
+21	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=157:162
+22	depoimento	depoimento	NOUN	NOUN	_	21	obj	_	TokenRange=163:173
+23	juiz	juiz	NOUN	NOUN	_	22	appos	_	TokenRange=174:178
+24	federal	federal	ADJ	ADJ	_	23	amod	_	TokenRange=179:186
+25	sergio	sergio	NOUN	NOUN	_	22	appos	_	TokenRange=187:193
+26	moro	moro	NOUN	NOUN	_	25	flat	_	TokenRange=194:198
+27	manha	manha	NOUN	NOUN	_	22	appos	_	TokenRange=199:204
+28	desta	_	ADP	ADP	_	29	case	_	TokenRange=205:210
+29	tercafeira	tercafeira	NOUN	NOUN	_	27	nmod	_	TokenRange=211:221
+30	19	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=222:224
+31	influencia	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=225:235
+32	nenhuma	_	DET	DET	_	31	det	_	TokenRange=236:243
+33	sobre	_	ADP	ADP	_	36	case	_	TokenRange=244:249
+34	eventual	eventual	ADJ	ADJ	_	36	amod	_	TokenRange=250:258
+35	imovel	imovel	ADJ	ADJ	_	36	amod	_	TokenRange=259:265
+36	instituto	instituto	NOUN	NOUN	_	31	nmod	_	TokenRange=266:275
+37	lula	lula	ADJ	ADJ	_	36	amod	_	TokenRange=276:280
+38	afirmou	afirmar	VERB	VERB	_	3	conj	_	TokenRange=281:288
+39	todo	_	DET	DET	_	40	det	_	TokenRange=289:293
+40	envolvimento	envolvimento	NOUN	NOUN	_	38	obj	_	TokenRange=294:306
+41	caso	caso	NOUN	NOUN	_	38	obj	_	TokenRange=307:311
+42	juridico	juridico	ADJ	ADJ	_	41	amod	_	TokenRange=312:320
+43	nada	_	ADV	PRON	_	44	advmod	_	TokenRange=321:325
+44	ver	ver	VERB	VERB	_	41	acl:relcl	_	TokenRange=326:329
+45	declarou	declarar	VERB	VERB	_	38	parataxis	_	TokenRange=330:338
+46	acordo	acordo	NOUN	NOUN	_	45	obj	_	TokenRange=339:345
+47	forcatarefa	forcatarefa	NOUN	NOUN	_	46	appos	_	TokenRange=346:357
+48	lava	lava	NOUN	NOUN	_	45	parataxis	_	TokenRange=358:362
+49	jato	jato	NOUN	NOUN	_	45	obj	_	TokenRange=363:367
+50	teixeira	teixeiro	ADJ	ADJ	_	49	flat	_	TokenRange=368:376
+51	advogado	advogado	NOUN	NOUN	_	49	appos	_	TokenRange=377:385
+52	compadre	compadre	ADJ	ADJ	_	53	amod	_	TokenRange=386:394
+53	expresidente	expresidente	NOUN	NOUN	_	49	appos	_	TokenRange=395:407
+54	luiz	luiz	NOUN	NOUN	_	53	appos	_	TokenRange=408:412
+55	inacio	_	NOUN	NOUN	_	54	flat	_	TokenRange=413:419
+56	lula	_	NOUN	NOUN	_	54	flat	_	SpaceAfter=No|TokenRange=420:424
+

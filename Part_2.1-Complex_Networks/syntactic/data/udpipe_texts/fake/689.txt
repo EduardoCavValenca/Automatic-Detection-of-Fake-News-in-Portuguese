@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = neymar recebe perdao receita federal divida astronomica vai pro espaco atraves advogados neymar conseguiu vitoria processo onde divida reduzida r 8 milhoes leu divida reduzida aproximadamente 95 governo federal atraves pgfn simplesmente declarou pgfn procuradoriageral fazenda nacional presta informacoes sobre andamentos processos acerca processo solicitado podemos informar caso qualquer decisao desfavoravel fazenda nacional analisaremos possibilidade interposicao recursos cabiveis informou jornal folha sp dizia oscar wilde jovem pensava dinheiro coisa importante mundo hoje certeza materia epoca feita tv cultura
+1	neymar	neymar	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	recebe	receber	VERB	VERB	_	0	root	_	TokenRange=7:13
+3	perdao	perdao	NOUN	NOUN	_	2	obj	_	TokenRange=14:20
+4	receita	receita	NOUN	NOUN	_	2	obj	_	TokenRange=21:28
+5	federal	federal	ADJ	ADJ	_	4	amod	_	TokenRange=29:36
+6	divida	divida	NOUN	NOUN	_	2	obj	_	TokenRange=37:43
+7	astronomica	astronomico	ADJ	ADJ	_	6	amod	_	TokenRange=44:55
+8	vai	ir	VERB	VERB	_	2	parataxis	_	TokenRange=56:59
+9	pro	_	ADP	ADP	_	10	case	_	TokenRange=60:63
+10	espaco	espaco	NOUN	NOUN	_	8	nmod	_	TokenRange=64:70
+11	atraves	_	ADV	ADV	_	14	mark	_	TokenRange=71:78
+12	advogados	advogado	NOUN	NOUN	_	14	nsubj	_	TokenRange=79:88
+13	neymar	neymar	ADJ	ADJ	_	12	appos	_	TokenRange=89:95
+14	conseguiu	conseguir	VERB	VERB	_	2	conj	_	TokenRange=96:105
+15	vitoria	vitoria	NOUN	NOUN	_	14	obj	_	TokenRange=106:113
+16	processo	processo	NOUN	NOUN	_	14	obj	_	TokenRange=114:122
+17	onde	onde	ADV	ADV	_	18	advmod	_	TokenRange=123:127
+18	divida	dividir	VERB	VERB	_	16	acl:relcl	_	TokenRange=128:134
+19	reduzida	reduzido	ADJ	ADJ	_	18	xcomp	_	TokenRange=135:143
+20	r	r	NOUN	NOUN	_	23	nsubj	_	TokenRange=144:145
+21	8	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=146:147
+22	milhoes	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=148:155
+23	leu	ler	VERB	VERB	_	16	acl:relcl	_	TokenRange=156:159
+24	divida	divida	NOUN	NOUN	_	23	obj	_	TokenRange=160:166
+25	reduzida	reduzido	ADJ	ADJ	_	24	amod	_	TokenRange=167:175
+26	aproximadamente	aproximadamente	ADV	ADV	_	27	advmod	_	TokenRange=176:191
+27	95	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=192:194
+28	governo	governo	NOUN	NOUN	_	23	nsubj	_	TokenRange=195:202
+29	federal	federal	ADJ	ADJ	_	28	amod	_	TokenRange=203:210
+30	atraves	_	ADV	ADV	_	33	advmod	_	TokenRange=211:218
+31	pgfn	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=219:223
+32	simplesmente	simplesmente	ADV	ADV	_	33	advmod	_	TokenRange=224:236
+33	declarou	declarar	VERB	VERB	_	28	acl:relcl	_	TokenRange=237:245
+34	pgfn	pgfn	NOUN	NOUN	_	33	obj	_	TokenRange=246:250
+35	procuradoriageral	procuradoriageral	ADJ	ADJ	_	36	amod	_	TokenRange=251:268
+36	fazenda	fazenda	NOUN	NOUN	_	38	nsubj	_	TokenRange=269:276
+37	nacional	nacional	ADJ	ADJ	_	36	amod	_	TokenRange=277:285
+38	presta	prestar	VERB	VERB	_	33	parataxis	_	TokenRange=286:292
+39	informacoes	informacoe	NOUN	NOUN	_	38	obj	_	TokenRange=293:304
+40	sobre	_	ADP	ADP	_	41	case	_	TokenRange=305:310
+41	andamentos	andamento	NOUN	NOUN	_	39	nmod	_	TokenRange=311:321
+42	processos	processo	NOUN	NOUN	_	41	flat	_	TokenRange=322:331
+43	acerca	acerca	ADV	ADV	_	44	advmod	_	TokenRange=332:338
+44	processo	processo	NOUN	NOUN	_	41	appos	_	TokenRange=339:347
+45	solicitado	solicitar	VERB	VERB	_	44	amod	_	TokenRange=348:358
+46	podemos	_	AUX	AUX	_	47	aux	_	TokenRange=359:366
+47	informar	informar	VERB	VERB	_	33	parataxis	_	TokenRange=367:375
+48	caso	_	CCONJ	CONJ	_	54	mark	_	TokenRange=376:380
+49	qualquer	_	DET	DET	_	50	det	_	TokenRange=381:389
+50	decisao	decisao	NOUN	NOUN	_	54	nsubj	_	TokenRange=390:397
+51	desfavoravel	desfavoravel	ADJ	ADJ	_	50	amod	_	TokenRange=398:410
+52	fazenda	fazenda	NOUN	NOUN	_	54	nsubj	_	TokenRange=411:418
+53	nacional	nacional	ADJ	ADJ	_	52	amod	_	TokenRange=419:427
+54	analisaremos	analisar	VERB	VERB	_	47	advcl	_	TokenRange=428:440
+55	possibilidade	possibilidade	NOUN	NOUN	_	54	obj	_	TokenRange=441:454
+56	interposicao	_	ADJ	ADJ	_	55	amod	_	TokenRange=455:467
+57	recursos	recurso	NOUN	NOUN	_	54	nsubj	_	TokenRange=468:476
+58	cabiveis	cabivel	ADJ	ADJ	_	57	amod	_	TokenRange=477:485
+59	informou	informar	VERB	VERB	_	47	parataxis	_	TokenRange=486:494
+60	jornal	jornal	NOUN	NOUN	_	59	nsubj	_	TokenRange=495:501
+61	folha	folha	ADJ	ADJ	_	60	amod	_	TokenRange=502:507
+62	sp	sp	ADJ	ADJ	_	60	amod	_	TokenRange=508:510
+63	dizia	dizer	VERB	VERB	_	60	acl:relcl	_	TokenRange=511:516
+64	oscar	oscar	NOUN	NOUN	_	67	nsubj	_	TokenRange=517:522
+65	wilde	wilde	NOUN	NOUN	_	64	flat	_	TokenRange=523:528
+66	jovem	jovem	ADJ	ADJ	_	64	amod	_	TokenRange=529:534
+67	pensava	pensar	VERB	VERB	_	63	ccomp	_	TokenRange=535:542
+68	dinheiro	dinheiro	NOUN	NOUN	_	67	obj	_	TokenRange=543:551
+69	coisa	coisa	NOUN	NOUN	_	67	obj	_	TokenRange=552:557
+70	importante	importante	ADJ	ADJ	_	69	amod	_	TokenRange=558:568
+71	mundo	mundo	NOUN	NOUN	_	67	nsubj	_	TokenRange=569:574
+72	hoje	hoje	ADV	ADV	_	73	advmod	_	TokenRange=575:579
+73	certeza	certeza	ADJ	NOUN	_	71	amod	_	TokenRange=580:587
+74	materia	materia	NOUN	NOUN	_	71	appos	_	TokenRange=588:595
+75	epoca	epoca	NOUN	NOUN	_	73	appos	_	TokenRange=596:601
+76	feita	_	VERB	VERB	_	75	acl	_	TokenRange=602:607
+77	tv	_	X	_	_	78	appos	_	TokenRange=608:610
+78	cultura	cultura	NOUN	NOUN	_	76	obj	_	SpaceAfter=No|TokenRange=611:618
+

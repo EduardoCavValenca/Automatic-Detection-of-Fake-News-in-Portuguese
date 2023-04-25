@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = meio crise cartorios arrecadam r 14 bilhoes 2017 2016 valor captado chegou perto arrecadacao todas rodovias privatizadas pais arrecadacao continuou crescendo durante crise tarefas analista administrativo luis fujiura 36 anos resolver pendencias paroquia catolica trabalha cartorios paulo visita diariamente registros bairros itaim bibi zona oeste ipiranga zona sul alem 16 tabeliao notas perto cruzamento rua augusta avenida paulista centro
+1	meio	meio	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	crise	crise	NOUN	NOUN	_	4	nsubj	_	TokenRange=5:10
+3	cartorios	cartorio	NOUN	NOUN	_	2	appos	_	TokenRange=11:20
+4	arrecadam	arrecadar	VERB	VERB	_	0	root	_	TokenRange=21:30
+5	r	r	NOUN	NOUN	_	4	obj	_	TokenRange=31:32
+6	14	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=33:35
+7	bilhoes	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=36:43
+8	2017	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=44:48
+9	2016	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=49:53
+10	valor	valor	NOUN	NOUN	_	4	nsubj	_	TokenRange=54:59
+11	captado	captar	VERB	VERB	_	10	acl	_	TokenRange=60:67
+12	chegou	chegar	VERB	VERB	_	4	parataxis	_	TokenRange=68:74
+13	perto	perto	ADV	ADV	_	12	advmod	_	TokenRange=75:80
+14	arrecadacao	arrecadacao	ADJ	ADJ	_	12	xcomp	_	TokenRange=81:92
+15	todas	_	DET	DET	_	16	det	_	TokenRange=93:98
+16	rodovias	rodovia	NOUN	NOUN	_	12	nsubj	_	TokenRange=99:107
+17	privatizadas	privatizar	ADJ	ADJ	_	16	acl	_	TokenRange=108:120
+18	pais	_	NOUN	NOUN	_	16	appos	_	TokenRange=121:125
+19	arrecadacao	arrecadacao	NOUN	NOUN	_	16	appos	_	TokenRange=126:137
+20	continuou	continuar	AUX	AUX	_	21	aux	_	TokenRange=138:147
+21	crescendo	crescer	VERB	VERB	_	4	conj	_	TokenRange=148:157
+22	durante	_	ADP	ADP	_	23	case	_	TokenRange=158:165
+23	crise	crise	NOUN	NOUN	_	21	nmod	_	TokenRange=166:171
+24	tarefas	tarefa	NOUN	NOUN	_	21	nsubj	_	TokenRange=172:179
+25	analista	analista	NOUN	NOUN	_	24	appos	_	TokenRange=180:188
+26	administrativo	administrativo	ADJ	ADJ	_	24	amod	_	TokenRange=189:203
+27	luis	_	NOUN	NOUN	_	24	appos	_	TokenRange=204:208
+28	fujiura	fujiura	NOUN	NOUN	_	27	flat	_	TokenRange=209:216
+29	36	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=217:219
+30	anos	ano	NOUN	NOUN	_	31	nsubj	_	TokenRange=220:224
+31	resolver	resolver	VERB	VERB	_	24	acl:relcl	_	TokenRange=225:233
+32	pendencias	_	NOUN	NOUN	_	31	obj	_	TokenRange=234:244
+33	paroquia	paroquia	NOUN	NOUN	_	31	nsubj	_	TokenRange=245:253
+34	catolica	catolico	ADJ	ADJ	_	33	amod	_	TokenRange=254:262
+35	trabalha	trabalhar	VERB	VERB	_	33	acl:relcl	_	TokenRange=263:271
+36	cartorios	cartorio	NOUN	NOUN	_	35	obj	_	TokenRange=272:281
+37	paulo	paulo	NOUN	NOUN	_	36	flat	_	TokenRange=282:287
+38	visita	visitar	VERB	VERB	_	4	parataxis	_	TokenRange=288:294
+39	diariamente	diariamente	ADV	ADV	_	38	advmod	_	TokenRange=295:306
+40	registros	registro	NOUN	NOUN	_	38	obj	_	TokenRange=307:316
+41	bairros	bairro	NOUN	NOUN	_	38	obj	_	TokenRange=317:324
+42	itaim	itaim	NOUN	NOUN	_	41	appos	_	TokenRange=325:330
+43	bibi	bibi	ADJ	NOUN	_	44	amod	_	TokenRange=331:335
+44	zona	zona	NOUN	NOUN	_	41	appos	_	TokenRange=336:340
+45	oeste	oeste	ADJ	ADJ	_	44	amod	_	TokenRange=341:346
+46	ipiranga	ipiranga	ADJ	ADJ	_	44	amod	_	TokenRange=347:355
+47	zona	zona	NOUN	NOUN	_	44	appos	_	TokenRange=356:360
+48	sul	sul	ADJ	ADJ	_	47	amod	_	TokenRange=361:364
+49	alem	alem	NOUN	NOUN	_	51	appos	_	TokenRange=365:369
+50	16	_	NUM	NUM	NumType=Card	49	appos	_	TokenRange=370:372
+51	tabeliao	tabeliao	NOUN	NOUN	_	38	parataxis	_	TokenRange=373:381
+52	notas	nota	NOUN	NOUN	_	38	parataxis	_	TokenRange=382:387
+53	perto	perto	ADV	ADV	_	54	advmod	_	TokenRange=388:393
+54	cruzamento	cruzamento	NOUN	NOUN	_	52	appos	_	TokenRange=394:404
+55	rua	rua	NOUN	NOUN	_	54	appos	_	TokenRange=405:408
+56	augusta	augusto	ADJ	ADJ	_	55	amod	_	TokenRange=409:416
+57	avenida	avenida	NOUN	NOUN	_	55	appos	_	TokenRange=417:424
+58	paulista	paulista	ADJ	ADJ	_	59	amod	_	TokenRange=425:433
+59	centro	centro	NOUN	NOUN	_	55	appos	_	SpaceAfter=No|TokenRange=434:440
+

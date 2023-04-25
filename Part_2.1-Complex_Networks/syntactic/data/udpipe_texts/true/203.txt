@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maioria politicos investigados precisara preocupar lava jato stf 2018 longo ano 2017 aposta analistas investigadores acompanhavam andamento operacao lava jato supremo tribunal federal stf comecaria ainda ano passado julgar casos operacao envolvendo politicos aconteceu analise profunda mostra maioria desses investigados ainda precisa preocupar cem inqueritos dois prontos serem julgados pratica existencia chamado foro privilegiado politicos mandato adia risco punicoes muitos casos evitara investigados lava jato enquadrados lei ficha limpa poderia excluilos eleicoes deste ano norma impede condenados segunda instancia certos crimes candidatos cargo momento
+1	maioria	maioria	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	politicos	politico	ADJ	ADJ	_	1	amod	_	TokenRange=8:17
+3	investigados	investigar	VERB	VERB	_	1	acl	_	TokenRange=18:30
+4	precisara	precisar	VERB	VERB	_	0	root	_	TokenRange=31:40
+5	preocupar	preocupar	VERB	VERB	_	4	xcomp	_	TokenRange=41:50
+6	lava	lava	NOUN	NOUN	_	5	obj	_	TokenRange=51:55
+7	jato	jato	NOUN	NOUN	_	6	flat	_	TokenRange=56:60
+8	stf	_	NOUN	NOUN	_	5	nmod	_	TokenRange=61:64
+9	2018	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=65:69
+10	longo	longo	ADJ	ADJ	_	11	amod	_	TokenRange=70:75
+11	ano	ano	NOUN	NOUN	_	5	nmod	_	TokenRange=76:79
+12	2017	_	NUM	NUM	NumType=Card	11	nmod	_	TokenRange=80:84
+13	aposta	_	VERB	VERB	_	4	parataxis	_	TokenRange=85:91
+14	analistas	analista	NOUN	NOUN	_	13	nsubj	_	TokenRange=92:101
+15	investigadores	investigador	ADJ	ADJ	_	14	amod	_	TokenRange=102:116
+16	acompanhavam	acompanhar	VERB	VERB	_	4	parataxis	_	TokenRange=117:129
+17	andamento	andamento	NOUN	NOUN	_	16	obj	_	TokenRange=130:139
+18	operacao	operacao	ADJ	ADJ	_	19	amod	_	TokenRange=140:148
+19	lava	lava	NOUN	NOUN	_	17	appos	_	TokenRange=149:153
+20	jato	jato	NOUN	NOUN	_	19	flat	_	TokenRange=154:158
+21	supremo	supremo	ADJ	ADJ	_	22	amod	_	TokenRange=159:166
+22	tribunal	tribunal	NOUN	NOUN	_	19	appos	_	TokenRange=167:175
+23	federal	federal	ADJ	ADJ	_	22	amod	_	TokenRange=176:183
+24	stf	_	NOUN	NOUN	_	22	appos	_	TokenRange=184:187
+25	comecaria	comecar	VERB	VERB	_	4	parataxis	_	TokenRange=188:197
+26	ainda	ainda	ADV	ADV	_	27	advmod	_	TokenRange=198:203
+27	ano	ano	NOUN	NOUN	_	25	nmod	_	TokenRange=204:207
+28	passado	passado	ADJ	ADJ	_	27	amod	_	TokenRange=208:215
+29	julgar	julgar	VERB	VERB	_	25	csubj	_	TokenRange=216:222
+30	casos	caso	NOUN	NOUN	_	29	obj	_	TokenRange=223:228
+31	operacao	operacao	NOUN	NOUN	_	30	appos	_	TokenRange=229:237
+32	envolvendo	envolver	VERB	VERB	_	31	acl	_	TokenRange=238:248
+33	politicos	_	NOUN	NOUN	_	32	obj	_	TokenRange=249:258
+34	aconteceu	acontecer	VERB	VERB	_	25	parataxis	_	TokenRange=259:268
+35	analise	analise	NOUN	NOUN	_	34	nsubj	_	TokenRange=269:276
+36	profunda	profundo	ADJ	ADJ	_	35	amod	_	TokenRange=277:285
+37	mostra	mostrar	VERB	VERB	_	34	parataxis	_	TokenRange=286:292
+38	maioria	maioria	NOUN	NOUN	_	42	nsubj	_	TokenRange=293:300
+39	desses	_	ADP	ADP	_	40	case	_	TokenRange=301:307
+40	investigados	investigado	NOUN	NOUN	_	38	nmod	_	TokenRange=308:320
+41	ainda	ainda	ADV	ADV	_	42	advmod	_	TokenRange=321:326
+42	precisa	precisar	VERB	VERB	_	37	parataxis	_	TokenRange=327:334
+43	preocupar	preocupar	VERB	VERB	_	42	xcomp	_	TokenRange=335:344
+44	cem	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=345:348
+45	inqueritos	inquerito	NOUN	NOUN	_	43	obj	_	TokenRange=349:359
+46	dois	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=360:364
+47	prontos	pronto	ADJ	ADJ	_	49	nsubj:pass	_	TokenRange=365:372
+48	serem	ser	AUX	AUX	_	49	aux:pass	_	TokenRange=373:378
+49	julgados	julgar	VERB	VERB	_	45	acl:relcl	_	TokenRange=379:387
+50	pratica	_	ADJ	ADJ	_	51	amod	_	TokenRange=388:395
+51	existencia	existencia	NOUN	NOUN	_	49	nsubj:pass	_	TokenRange=396:406
+52	chamado	chamar	ADJ	ADJ	_	53	cop	_	TokenRange=407:414
+53	foro	foro	NOUN	NOUN	_	51	acl	_	TokenRange=415:419
+54	privilegiado	privilegiado	ADJ	ADJ	_	53	amod	_	TokenRange=420:432
+55	politicos	politico	ADJ	ADJ	_	53	amod	_	TokenRange=433:442
+56	mandato	mandato	NOUN	NOUN	_	53	appos	_	TokenRange=443:450
+57	adia	_	NOUN	NOUN	_	56	flat	_	TokenRange=451:455
+58	risco	risco	NOUN	NOUN	_	56	flat	_	TokenRange=456:461
+59	punicoes	_	NOUN	NOUN	_	58	flat	_	TokenRange=462:470
+60	muitos	_	DET	DET	_	61	det	_	TokenRange=471:477
+61	casos	caso	NOUN	NOUN	_	62	nsubj	_	TokenRange=478:483
+62	evitara	evitar	VERB	VERB	_	43	ccomp	_	TokenRange=484:491
+63	investigados	investigado	ADJ	ADJ	_	62	xcomp	_	TokenRange=492:504
+64	lava	lava	NOUN	NOUN	_	62	nsubj	_	TokenRange=505:509
+65	jato	jato	NOUN	NOUN	_	64	flat	_	TokenRange=510:514
+66	enquadrados	enquadrado	ADJ	ADJ	_	68	amod	_	TokenRange=515:526
+67	lei	lei	NOUN	NOUN	_	64	appos	_	TokenRange=527:530
+68	ficha	ficha	NOUN	NOUN	_	64	appos	_	TokenRange=531:536
+69	limpa	limpo	ADJ	ADJ	_	68	amod	_	TokenRange=537:542
+70	poderia	poder	AUX	AUX	_	76	aux	_	TokenRange=543:550
+71	excluilos	excluilo	VERB	VERB	_	64	acl:relcl	_	TokenRange=551:560
+72	eleicoes	eleicoe	NOUN	NOUN	_	76	obj	_	TokenRange=561:569
+73	deste	_	ADP	ADP	_	74	case	_	TokenRange=570:575
+74	ano	ano	NOUN	NOUN	_	72	nmod	_	TokenRange=576:579
+75	norma	norma	NOUN	NOUN	_	72	appos	_	TokenRange=580:585
+76	impede	impedir	VERB	VERB	_	62	parataxis	_	TokenRange=586:592
+77	condenados	condenado	VERB	NOUN	_	79	amod	_	TokenRange=593:603
+78	segunda	segundo	ADJ	ADJ	_	79	amod	_	TokenRange=604:611
+79	instancia	instancia	NOUN	NOUN	_	76	obj	_	TokenRange=612:621
+80	certos	_	DET	DET	_	81	det	_	TokenRange=622:628
+81	crimes	crime	NOUN	NOUN	_	76	obj	_	TokenRange=629:635
+82	candidatos	candidato	NOUN	NOUN	_	76	obj	_	TokenRange=636:646
+83	cargo	cargo	NOUN	ADJ	_	84	amod	_	TokenRange=647:652
+84	momento	momento	NOUN	NOUN	_	82	appos	_	SpaceAfter=No|TokenRange=653:660
+

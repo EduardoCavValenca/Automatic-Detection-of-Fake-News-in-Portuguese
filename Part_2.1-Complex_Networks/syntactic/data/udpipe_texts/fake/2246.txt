@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gleisi irrita janaina cita deus gleisi hoffmann conforma derrota dilma senado senadora petista desabafou janaina advogada acusacao chorou citou nome deus deus nada ver aqui cena aqui fazendo encenacao lamentavel ora senadora comunistas gostam pessoas citem deus outra coisa cena sim tanto fazendo filme dentro instalacoes senado
+1	gleisi	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	irrita	irritar	VERB	VERB	_	0	root	_	TokenRange=7:13
+3	janaina	janaina	NOUN	NOUN	_	2	obj	_	TokenRange=14:21
+4	cita	citar	VERB	VERB	_	2	parataxis	_	TokenRange=22:26
+5	deus	deu	NOUN	NOUN	_	4	obj	_	TokenRange=27:31
+6	gleisi	_	NOUN	NOUN	_	4	obj	_	TokenRange=32:38
+7	hoffmann	_	NOUN	NOUN	_	6	flat	_	TokenRange=39:47
+8	conforma	_	ADP	ADP	_	9	case	_	TokenRange=48:56
+9	derrota	derrota	NOUN	NOUN	_	4	obj	_	TokenRange=57:64
+10	dilma	dilma	ADJ	ADJ	_	9	amod	_	TokenRange=65:70
+11	senado	senado	NOUN	NOUN	_	9	appos	_	TokenRange=71:77
+12	senadora	senador	NOUN	NOUN	_	9	appos	_	TokenRange=78:86
+13	petista	petista	ADJ	ADJ	_	12	amod	_	TokenRange=87:94
+14	desabafou	desabafar	VERB	VERB	_	9	acl:relcl	_	TokenRange=95:104
+15	janaina	janaina	NOUN	NOUN	_	14	obj	_	TokenRange=105:112
+16	advogada	advogado	ADJ	ADJ	_	17	amod	_	TokenRange=113:121
+17	acusacao	acusacao	NOUN	NOUN	_	14	nsubj	_	TokenRange=122:130
+18	chorou	chorar	AUX	AUX	_	19	aux	_	TokenRange=131:137
+19	citou	citar	VERB	VERB	_	14	conj	_	TokenRange=138:143
+20	nome	nome	NOUN	NOUN	_	19	obj	_	TokenRange=144:148
+21	deus	_	NOUN	NOUN	_	20	flat	_	TokenRange=149:153
+22	deus	_	NOUN	NOUN	_	24	obj	_	TokenRange=154:158
+23	nada	_	PRON	PRON	_	24	nsubj	_	TokenRange=159:163
+24	ver	ver	VERB	VERB	_	20	acl:relcl	_	TokenRange=164:167
+25	aqui	aqui	ADV	ADV	_	24	advmod	_	TokenRange=168:172
+26	cena	cena	NOUN	NOUN	_	19	obj	_	TokenRange=173:177
+27	aqui	aqui	ADV	ADV	_	28	advmod	_	TokenRange=178:182
+28	fazendo	fazer	VERB	VERB	_	26	acl	_	TokenRange=183:190
+29	encenacao	encenacao	NOUN	NOUN	_	28	obj	_	TokenRange=191:200
+30	lamentavel	lamentavel	ADJ	ADJ	_	29	amod	_	TokenRange=201:211
+31	ora	ora	ADV	ADV	_	34	advmod	_	TokenRange=212:215
+32	senadora	senador	NOUN	NOUN	_	34	nsubj	_	TokenRange=216:224
+33	comunistas	comunista	ADJ	ADJ	_	32	amod	_	TokenRange=225:235
+34	gostam	gostar	VERB	VERB	_	28	conj	_	TokenRange=236:242
+35	pessoas	pessoa	NOUN	NOUN	_	34	obj	_	TokenRange=243:250
+36	citem	citar	VERB	VERB	_	28	conj	_	TokenRange=251:256
+37	deus	deus	NOUN	NOUN	_	36	obj	_	TokenRange=257:261
+38	outra	_	DET	DET	_	39	det	_	TokenRange=262:267
+39	coisa	coisa	NOUN	NOUN	_	36	obj	_	TokenRange=268:273
+40	cena	cena	NOUN	NOUN	_	36	parataxis	_	TokenRange=274:278
+41	sim	sim	ADV	ADV	_	42	advmod	_	TokenRange=279:282
+42	tanto	tanto	ADV	ADV	_	43	advmod	_	TokenRange=283:288
+43	fazendo	fazer	VERB	VERB	_	36	acl	_	TokenRange=289:296
+44	filme	filme	NOUN	NOUN	_	43	obj	_	TokenRange=297:302
+45	dentro	dentro	ADV	ADV	_	43	advmod	_	TokenRange=303:309
+46	instalacoes	instalacoe	NOUN	NOUN	_	43	obj	_	TokenRange=310:321
+47	senado	senado	ADJ	ADJ	_	46	amod	_	SpaceAfter=No|TokenRange=322:328
+

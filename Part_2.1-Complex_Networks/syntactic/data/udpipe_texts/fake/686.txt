@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = louco batman ator exagera festa globo sai carregado colegas jornal extra grupo globo divulgou ontem 29 algumas fotos ator global nelson freitas apos festa rio janeiro acordo jornal estabelecimento bairro recreio bandeirantes promoveu encontro comemorar estreia nova novela seis tempo amar acontece ator andou exagerando pouquinho biritas carregado colegas globais colocaram dentro taxi imagens parece farra boas ressaca ator vai durar bom tempo
+1	louco	louco	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	batman	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=6:12
+3	ator	ator	NOUN	NOUN	_	2	appos	_	TokenRange=13:17
+4	exagera	exagera	VERB	VERB	_	2	acl:relcl	_	TokenRange=18:25
+5	festa	festa	NOUN	NOUN	_	4	obj	_	TokenRange=26:31
+6	globo	globo	NOUN	NOUN	_	5	appos	_	TokenRange=32:37
+7	sai	_	AUX	AUX	_	9	cop	_	TokenRange=38:41
+8	carregado	carregado	ADJ	ADJ	_	9	amod	_	TokenRange=42:51
+9	colegas	colega	NOUN	NOUN	_	5	appos	_	TokenRange=52:59
+10	jornal	jornal	NOUN	NOUN	_	9	appos	_	TokenRange=60:66
+11	extra	extra	ADJ	ADJ	_	12	amod	_	TokenRange=67:72
+12	grupo	grupo	NOUN	NOUN	_	9	appos	_	TokenRange=73:78
+13	globo	globo	NOUN	NOUN	_	12	flat	_	TokenRange=79:84
+14	divulgou	divulgar	VERB	VERB	_	0	root	_	TokenRange=85:93
+15	ontem	ontem	ADV	ADV	_	14	advmod	_	TokenRange=94:99
+16	29	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=100:102
+17	algumas	_	DET	DET	_	18	det	_	TokenRange=103:110
+18	fotos	foto	NOUN	NOUN	_	14	obj	_	TokenRange=111:116
+19	ator	ator	NOUN	NOUN	_	18	appos	_	TokenRange=117:121
+20	global	global	ADJ	ADJ	_	19	amod	_	TokenRange=122:128
+21	nelson	_	NOUN	NOUN	_	19	appos	_	TokenRange=129:135
+22	freitas	_	NOUN	NOUN	_	21	flat	_	TokenRange=136:143
+23	apos	_	ADP	ADP	_	24	case	_	TokenRange=144:148
+24	festa	festa	NOUN	NOUN	_	19	nmod	_	TokenRange=149:154
+25	rio	_	NOUN	NOUN	_	24	appos	_	TokenRange=155:158
+26	janeiro	_	PROPN	PNOUN	_	25	appos	_	TokenRange=159:166
+27	acordo	acordo	NOUN	NOUN	_	33	nsubj	_	TokenRange=167:173
+28	jornal	jornal	NOUN	NOUN	_	27	appos	_	TokenRange=174:180
+29	estabelecimento	estabelecimento	NOUN	NOUN	_	30	amod	_	TokenRange=181:196
+30	bairro	bairro	NOUN	NOUN	_	27	appos	_	TokenRange=197:203
+31	recreio	recreio	ADJ	ADJ	_	30	amod	_	TokenRange=204:211
+32	bandeirantes	bandeirante	ADJ	ADJ	_	30	amod	_	TokenRange=212:224
+33	promoveu	promover	VERB	VERB	_	14	parataxis	_	TokenRange=225:233
+34	encontro	encontro	NOUN	NOUN	_	33	obj	_	TokenRange=234:242
+35	comemorar	comemorar	VERB	VERB	_	34	acl:inf	_	TokenRange=243:252
+36	estreia	estreia	NOUN	NOUN	_	35	obj	_	TokenRange=253:260
+37	nova	novo	ADJ	ADJ	_	38	amod	_	TokenRange=261:265
+38	novela	novela	NOUN	NOUN	_	36	appos	_	TokenRange=266:272
+39	seis	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=273:277
+40	tempo	tempo	NOUN	NOUN	_	33	nsubj	_	TokenRange=278:283
+41	amar	amar	NOUN	NOUN	_	42	nsubj	_	TokenRange=284:288
+42	acontece	acontecer	VERB	VERB	_	40	acl:relcl	_	TokenRange=289:297
+43	ator	ator	NOUN	NOUN	_	42	nsubj	_	TokenRange=298:302
+44	andou	andar	AUX	AUX	_	45	aux	_	TokenRange=303:308
+45	exagerando	exagerar	VERB	VERB	_	42	ccomp	_	TokenRange=309:319
+46	pouquinho	_	NOUN	NOUN	_	47	det	_	TokenRange=320:329
+47	biritas	birita	NOUN	NOUN	_	45	nsubj	_	TokenRange=330:337
+48	carregado	carregado	ADJ	ADJ	_	49	amod	_	TokenRange=338:347
+49	colegas	colega	NOUN	NOUN	_	47	appos	_	TokenRange=348:355
+50	globais	global	ADJ	ADJ	_	49	amod	_	TokenRange=356:363
+51	colocaram	colocar	VERB	VERB	_	42	parataxis	_	TokenRange=364:373
+52	dentro	dentro	ADV	ADV	_	51	advmod	_	TokenRange=374:380
+53	taxi	taxi	NOUN	NOUN	_	51	nsubj	_	TokenRange=381:385
+54	imagens	imagem	NOUN	NOUN	_	55	nsubj	_	TokenRange=386:393
+55	parece	parecer	VERB	VERB	_	51	parataxis	_	TokenRange=394:400
+56	farra	farra	VERB	VERB	_	55	xcomp	_	TokenRange=401:406
+57	boas	bom	ADJ	ADJ	_	63	amod	_	TokenRange=407:411
+58	ressaca	ressaca	NOUN	NOUN	_	61	obj	_	TokenRange=412:419
+59	ator	ator	NOUN	NOUN	_	61	nsubj	_	TokenRange=420:424
+60	vai	ir	AUX	AUX	_	61	aux	_	TokenRange=425:428
+61	durar	durar	VERB	VERB	_	51	conj	_	TokenRange=429:434
+62	bom	bom	ADJ	ADJ	_	63	amod	_	TokenRange=435:438
+63	tempo	tempo	NOUN	NOUN	_	61	obj	_	SpaceAfter=No|TokenRange=439:444
+

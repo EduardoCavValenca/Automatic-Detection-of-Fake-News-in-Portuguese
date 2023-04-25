@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = teori zavascki relator lava jato stf veja perfil magistrado morreu 68 anos apos queda aviao paraty rj catarinense ingressado suprema corte 2012 indicado entao presidente dilma rousseff queda aviao king air c90 prsom litoral sul rio janeiro nesta quintafeira 19 ceifou carreira 46 anos ministro supremo tribunal federal stf teori zavascki relator lava jato alta corte pais magistrado 68 anos tres vitimas fatais aeronave voava paulo paraty rj catarinense faxinal
+1	teori	teori	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:5
+2	zavascki	_	X	NOUN	_	1	flat	_	TokenRange=6:14
+3	relator	relator	NOUN	NOUN	_	1	appos	_	TokenRange=15:22
+4	lava	lava	NOUN	NOUN	_	1	appos	_	TokenRange=23:27
+5	jato	jato	NOUN	NOUN	_	4	flat	_	TokenRange=28:32
+6	stf	_	NOUN	NOUN	_	1	flat	_	TokenRange=33:36
+7	veja	ver	VERB	VERB	_	0	root	_	TokenRange=37:41
+8	perfil	perfil	NOUN	NOUN	_	7	obj	_	TokenRange=42:48
+9	magistrado	magistrado	ADJ	ADJ	_	8	amod	_	TokenRange=49:59
+10	morreu	morrer	VERB	VERB	_	7	ccomp	_	TokenRange=60:66
+11	68	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=67:69
+12	anos	ano	NOUN	NOUN	_	10	nmod	_	TokenRange=70:74
+13	apos	_	ADP	ADP	_	14	case	_	TokenRange=75:79
+14	queda	queda	NOUN	NOUN	_	10	nmod	_	TokenRange=80:85
+15	aviao	aviao	NOUN	NOUN	_	14	flat	_	TokenRange=86:91
+16	paraty	paraty	NOUN	NOUN	_	14	appos	_	TokenRange=92:98
+17	rj	_	NOUN	NOUN	_	16	flat	_	TokenRange=99:101
+18	catarinense	catarinense	ADJ	ADJ	_	16	amod	_	TokenRange=102:113
+19	ingressado	ingressar	VERB	VERB	_	14	acl	_	TokenRange=114:124
+20	suprema	supremo	ADJ	ADJ	_	21	amod	_	TokenRange=125:132
+21	corte	corte	NOUN	NOUN	_	19	obj	_	TokenRange=133:138
+22	2012	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=139:143
+23	indicado	indicar	VERB	VERB	_	21	acl	_	TokenRange=144:152
+24	entao	entao	ADV	ADV	_	25	advmod	_	TokenRange=153:158
+25	presidente	presidente	NOUN	NOUN	_	23	nsubj	_	TokenRange=159:169
+26	dilma	dilma	ADJ	NOUN	_	25	appos	_	TokenRange=170:175
+27	rousseff	rousseff	NOUN	NOUN	_	25	appos	_	TokenRange=176:184
+28	queda	queda	NOUN	NOUN	_	25	appos	_	TokenRange=185:190
+29	aviao	aviao	NOUN	NOUN	_	28	appos	_	TokenRange=191:196
+30	king	_	NOUN	NOUN	_	29	appos	_	TokenRange=197:201
+31	air	_	NOUN	NOUN	_	30	flat	_	TokenRange=202:205
+32	c90	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=206:209
+33	prsom	_	NOUN	NOUN	_	29	appos	_	TokenRange=210:215
+34	litoral	litoral	NOUN	NOUN	_	33	amod	_	TokenRange=216:223
+35	sul	sul	ADJ	ADJ	_	36	amod	_	TokenRange=224:227
+36	rio	_	NOUN	NOUN	_	33	appos	_	TokenRange=228:231
+37	janeiro	_	PROPN	PNOUN	_	36	flat	_	TokenRange=232:239
+38	nesta	_	ADP	ADP	_	39	case	_	TokenRange=240:245
+39	quintafeira	quintafeira	NOUN	NOUN	_	41	nmod	_	TokenRange=246:257
+40	19	_	NUM	NUM	NumType=Card	39	appos	_	TokenRange=258:260
+41	ceifou	ceifar	VERB	VERB	_	7	parataxis	_	TokenRange=261:267
+42	carreira	_	NOUN	NOUN	_	41	obj	_	TokenRange=268:276
+43	46	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=277:279
+44	anos	ano	NOUN	NOUN	_	41	nmod	_	TokenRange=280:284
+45	ministro	ministro	NOUN	NOUN	_	41	appos	_	TokenRange=285:293
+46	supremo	supremo	ADJ	ADJ	_	47	amod	_	TokenRange=294:301
+47	tribunal	tribunal	NOUN	NOUN	_	41	appos	_	TokenRange=302:310
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=311:318
+49	stf	_	NOUN	NOUN	_	50	appos	_	TokenRange=319:322
+50	teori	teori	NOUN	NOUN	_	65	nsubj	_	TokenRange=323:328
+51	zavascki	_	PROPN	PNOUN	_	50	flat	_	TokenRange=329:337
+52	relator	relator	NOUN	NOUN	_	50	appos	_	TokenRange=338:345
+53	lava	lava	VERB	VERB	_	50	appos	_	TokenRange=346:350
+54	jato	jato	NOUN	NOUN	_	53	flat	_	TokenRange=351:355
+55	alta	alto	ADJ	ADJ	_	56	amod	_	TokenRange=356:360
+56	corte	corte	NOUN	NOUN	_	53	obj	_	TokenRange=361:366
+57	pais	_	NOUN	NOUN	_	56	appos	_	TokenRange=367:371
+58	magistrado	magistrado	ADJ	ADJ	_	62	amod	_	TokenRange=372:382
+59	68	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=383:385
+60	anos	ano	NOUN	NOUN	_	56	nmod	_	TokenRange=386:390
+61	tres	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=391:395
+62	vitimas	vitima	NOUN	NOUN	_	65	nsubj	_	TokenRange=396:403
+63	fatais	fatal	ADJ	ADJ	_	62	amod	_	TokenRange=404:410
+64	aeronave	aeronave	NOUN	NOUN	_	62	appos	_	TokenRange=411:419
+65	voava	voar	VERB	VERB	_	10	parataxis	_	TokenRange=420:425
+66	paulo	paulo	NOUN	NOUN	_	65	nmod	_	TokenRange=426:431
+67	paraty	_	NOUN	NOUN	_	66	appos	_	TokenRange=432:438
+68	rj	_	NOUN	NOUN	_	67	flat	_	TokenRange=439:441
+69	catarinense	catarinense	ADJ	ADJ	_	67	amod	_	TokenRange=442:453
+70	faxinal	faxinal	ADJ	ADJ	_	67	amod	_	SpaceAfter=No|TokenRange=454:461
+

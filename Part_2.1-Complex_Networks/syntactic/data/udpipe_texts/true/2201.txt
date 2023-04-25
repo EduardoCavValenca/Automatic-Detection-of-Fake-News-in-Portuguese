@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = italiana bracos pernas luta esgrima esquia fala tv sobre vida barato apos pernas bracos amputados 11 anos beatrice vio superou depressao tornou atleta paralimpica apresentadora tv apos bracos pernas amputados consequencia meningite c manifestar vontade suicidar beatrice vio 11 anos ouviu pai frase
+1	italiana	italiano	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	bracos	braco	NOUN	NOUN	_	7	nsubj	_	TokenRange=9:15
+3	pernas	perna	ADJ	ADJ	_	2	amod	_	TokenRange=16:22
+4	luta	luta	NOUN	NOUN	_	2	appos	_	TokenRange=23:27
+5	esgrima	_	NOUN	NOUN	_	4	obj	_	TokenRange=28:35
+6	esquia	esquia	NOUN	NOUN	_	2	flat	_	TokenRange=36:42
+7	fala	_	VERB	VERB	_	0	root	_	TokenRange=43:47
+8	tv	tv	NOUN	NOUN	_	7	obj	_	TokenRange=48:50
+9	sobre	_	ADP	ADP	_	10	case	_	TokenRange=51:56
+10	vida	vida	NOUN	NOUN	_	7	nmod	_	TokenRange=57:61
+11	barato	barato	ADJ	ADJ	_	10	amod	_	TokenRange=62:68
+12	apos	_	ADP	ADP	_	13	case	_	TokenRange=69:73
+13	pernas	perna	NOUN	NOUN	_	20	nmod	_	TokenRange=74:80
+14	bracos	braco	ADJ	NOUN	_	13	amod	_	TokenRange=81:87
+15	amputados	amputar	VERB	ADJ	_	13	acl	_	TokenRange=88:97
+16	11	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=98:100
+17	anos	ano	NOUN	NOUN	_	20	nsubj	_	TokenRange=101:105
+18	beatrice	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=106:114
+19	vio	_	NOUN	NOUN	_	18	flat	_	TokenRange=115:118
+20	superou	superar	VERB	VERB	_	7	parataxis	_	TokenRange=119:126
+21	depressao	depressao	NOUN	NOUN	_	20	obj	_	TokenRange=127:136
+22	tornou	tornar	AUX	AUX	_	23	cop	_	TokenRange=137:143
+23	atleta	atleta	NOUN	NOUN	_	20	parataxis	_	TokenRange=144:150
+24	paralimpica	paralimpico	ADJ	ADJ	_	23	amod	_	TokenRange=151:162
+25	apresentadora	apresentador	NOUN	NOUN	_	23	appos	_	TokenRange=163:176
+26	tv	tv	NOUN	NOUN	_	23	appos	_	TokenRange=177:179
+27	apos	_	ADP	ADP	_	28	case	_	TokenRange=180:184
+28	bracos	braco	NOUN	NOUN	_	23	nmod	_	TokenRange=185:191
+29	pernas	perna	NOUN	NOUN	_	28	flat	_	TokenRange=192:198
+30	amputados	amputar	VERB	VERB	_	28	acl	_	TokenRange=199:208
+31	consequencia	_	NOUN	NOUN	_	20	parataxis	_	TokenRange=209:221
+32	meningite	meningite	NOUN	NOUN	_	31	obj	_	TokenRange=222:231
+33	c	_	ADP	ADP	_	34	mark	_	TokenRange=232:233
+34	manifestar	manifestar	VERB	VERB	_	32	nmod	_	TokenRange=234:244
+35	vontade	vontade	NOUN	NOUN	_	34	obj	_	TokenRange=245:252
+36	suicidar	suicidar	VERB	VERB	_	34	ccomp	_	TokenRange=253:261
+37	beatrice	_	NOUN	NOUN	_	36	obj	_	TokenRange=262:270
+38	vio	vio	ADJ	ADJ	_	37	amod	_	TokenRange=271:274
+39	11	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=275:277
+40	anos	ano	NOUN	NOUN	_	37	nmod	_	TokenRange=278:282
+41	ouviu	ouvir	VERB	VERB	_	23	parataxis	_	TokenRange=283:288
+42	pai	pai	NOUN	NOUN	_	41	obj	_	TokenRange=289:292
+43	frase	frase	NOUN	NOUN	_	42	flat	_	SpaceAfter=No|TokenRange=293:298
+

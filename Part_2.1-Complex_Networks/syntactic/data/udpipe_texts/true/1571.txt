@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gdf vai parcelar salarios acima r 75 mil setembro medida anunciada nesta terca preve duas datas pagamento quase 45 mil servidores pedidos aposentadoria cresceram diz governo governador distrito federal rodrigo rollemberg anunciou tarde desta tercafeira 22 vai parcelar salario agosto depositado inicio setembro servidores ganham acima r 75 mil segundo governo condicoes garantir pagamento integral salarios pensoes aposentadorias deste mes acordo governo 78 servidores vencimentos inferiores r 75 mil continuarao recebendo normalmente percentual corresponde 1558 mil funcionarios publicos concursados comissionados outros 44953 funcionarios
+1	gdf	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:3
+2	vai	ir	AUX	AUX	_	3	aux	_	TokenRange=4:7
+3	parcelar	parcelar	VERB	VERB	_	0	root	_	TokenRange=8:16
+4	salarios	salario	NOUN	NOUN	_	3	obj	_	TokenRange=17:25
+5	acima	acima	ADV	ADV	_	8	advmod	_	TokenRange=26:31
+6	r	r	NOUN	NOUN	_	4	flat	_	TokenRange=32:33
+7	75	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=34:36
+8	mil	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=37:40
+9	setembro	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=41:49
+10	medida	medida	NOUN	NOUN	_	32	nsubj	_	TokenRange=50:56
+11	anunciada	anunciar	VERB	VERB	_	10	acl	_	TokenRange=57:66
+12	nesta	_	ADP	ADP	_	13	case	_	TokenRange=67:72
+13	terca	terca	NOUN	NOUN	_	11	nmod	_	TokenRange=73:78
+14	preve	prever	VERB	VERB	_	3	parataxis	_	TokenRange=79:84
+15	duas	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=85:89
+16	datas	data	NOUN	NOUN	_	14	obj	_	TokenRange=90:95
+17	pagamento	pagamento	NOUN	NOUN	_	16	appos	_	TokenRange=96:105
+18	quase	quase	ADV	ADV	_	20	advmod	_	TokenRange=106:111
+19	45	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=112:114
+20	mil	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=115:118
+21	servidores	servidor	NOUN	NOUN	_	17	appos	_	TokenRange=119:129
+22	pedidos	pedido	ADJ	ADJ	_	23	amod	_	TokenRange=130:137
+23	aposentadoria	aposentadoria	NOUN	NOUN	_	21	appos	_	TokenRange=138:151
+24	cresceram	crescer	VERB	VERB	_	3	parataxis	_	TokenRange=152:161
+25	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=162:165
+26	governo	governo	NOUN	NOUN	_	32	nsubj	_	TokenRange=166:173
+27	governador	governador	NOUN	NOUN	_	26	appos	_	TokenRange=174:184
+28	distrito	distrito	NOUN	NOUN	_	26	appos	_	TokenRange=185:193
+29	federal	federal	ADJ	ADJ	_	28	amod	_	TokenRange=194:201
+30	rodrigo	rodrigo	NOUN	NOUN	_	10	appos	_	TokenRange=202:209
+31	rollemberg	_	NOUN	NOUN	_	30	flat	_	TokenRange=210:220
+32	anunciou	anunciar	VERB	VERB	_	3	parataxis	_	TokenRange=221:229
+33	tarde	tarde	ADV	ADV	_	32	advmod	_	TokenRange=230:235
+34	desta	_	ADP	ADP	_	35	case	_	TokenRange=236:241
+35	tercafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=242:252
+36	22	_	NUM	NUM	NumType=Card	38	nsubj	_	TokenRange=253:255
+37	vai	ir	AUX	AUX	_	38	aux	_	TokenRange=256:259
+38	parcelar	parcelar	VERB	VERB	_	35	acl:relcl	_	TokenRange=260:268
+39	salario	salario	NOUN	NOUN	_	38	obj	_	TokenRange=269:276
+40	agosto	_	PROPN	PNOUN	_	39	appos	_	TokenRange=277:283
+41	depositado	depositado	ADJ	ADJ	_	38	xcomp	_	TokenRange=284:294
+42	inicio	_	ADJ	ADJ	_	43	amod	_	TokenRange=295:301
+43	setembro	_	PROPN	PNOUN	_	38	nmod	_	TokenRange=302:310
+44	servidores	servidor	NOUN	NOUN	_	45	nsubj	_	TokenRange=311:321
+45	ganham	ganhar	VERB	VERB	_	38	parataxis	_	TokenRange=322:328
+46	acima	acima	ADV	ADV	_	45	advmod	_	TokenRange=329:334
+47	r	r	NOUN	NOUN	_	45	obj	_	TokenRange=335:336
+48	75	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=337:339
+49	mil	_	NUM	NUM	NumType=Card	45	obj	_	TokenRange=340:343
+50	segundo	_	ADP	ADP	_	51	case	_	TokenRange=344:351
+51	governo	governo	NOUN	NOUN	_	45	nmod	_	TokenRange=352:359
+52	condicoes	_	ADJ	NOUN	_	51	amod	_	TokenRange=360:369
+53	garantir	garantir	VERB	VERB	_	38	parataxis	_	TokenRange=370:378
+54	pagamento	pagamento	NOUN	NOUN	_	53	obj	_	TokenRange=379:388
+55	integral	integral	ADJ	ADJ	_	54	amod	_	TokenRange=389:397
+56	salarios	salario	NOUN	NOUN	_	54	appos	_	TokenRange=398:406
+57	pensoes	penso	ADJ	ADJ	_	56	amod	_	TokenRange=407:414
+58	aposentadorias	aposentadoria	NOUN	NOUN	_	54	appos	_	TokenRange=415:429
+59	deste	_	ADP	ADP	_	60	case	_	TokenRange=430:435
+60	mes	mes	NOUN	NOUN	_	54	nmod	_	TokenRange=436:439
+61	acordo	acordo	NOUN	NOUN	_	53	obj	_	TokenRange=440:446
+62	governo	governo	NOUN	NOUN	_	61	flat	_	TokenRange=447:454
+63	78	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=455:457
+64	servidores	servidor	NOUN	NOUN	_	71	nsubj	_	TokenRange=458:468
+65	vencimentos	vencimento	NOUN	NOUN	_	64	appos	_	TokenRange=469:480
+66	inferiores	inferior	ADJ	ADJ	_	65	amod	_	TokenRange=481:491
+67	r	r	NOUN	NOUN	_	71	punct	_	TokenRange=492:493
+68	75	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=494:496
+69	mil	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=497:500
+70	continuarao	continuar	AUX	AUX	_	71	aux	_	TokenRange=501:512
+71	recebendo	receber	VERB	VERB	_	14	conj	_	TokenRange=513:522
+72	normalmente	normalmente	ADV	ADV	_	71	advmod	_	TokenRange=523:534
+73	percentual	_	NOUN	NOUN	_	71	obj	_	TokenRange=535:545
+74	corresponde	corresponder	VERB	VERB	_	71	parataxis	_	TokenRange=546:557
+75	1558	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=558:562
+76	mil	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=563:566
+77	funcionarios	funcionario	NOUN	NOUN	_	74	nsubj	_	TokenRange=567:579
+78	publicos	publico	ADJ	ADJ	_	77	amod	_	TokenRange=580:588
+79	concursados	concursado	ADJ	ADJ	_	77	amod	_	TokenRange=589:600
+80	comissionados	comissionado	ADJ	ADJ	_	83	amod	_	TokenRange=601:614
+81	outros	_	DET	DET	_	83	det	_	TokenRange=615:621
+82	44953	_	NUM	NUM	NumType=Card	83	nummod	_	TokenRange=622:627
+83	funcionarios	funcionario	NOUN	NOUN	_	77	appos	_	SpaceAfter=No|TokenRange=628:640
+

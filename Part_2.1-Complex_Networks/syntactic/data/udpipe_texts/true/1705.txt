@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = classico terror exorcista retorna cinemas pais longa pode visto neste sabado domingo quartafeira pinoquio cresceram orelhas burro conseguiu passar tal impressao bestialidade contrario boneco collodi queria menino exibiu toda parvoice parecia apalermado regan diferente garota possuida demonio exorcista vomita bilis verde cospe palavroes masturbase crucifixo levita sobre
+1	classico	classico	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	terror	terror	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:15
+3	exorcista	exorcista	ADJ	ADJ	_	2	amod	_	TokenRange=16:25
+4	retorna	retornar	VERB	VERB	_	0	root	_	TokenRange=26:33
+5	cinemas	cinema	NOUN	NOUN	_	4	obj	_	TokenRange=34:41
+6	pais	_	NOUN	NOUN	_	9	nsubj:pass	_	TokenRange=42:46
+7	longa	longo	ADJ	ADJ	_	6	amod	_	TokenRange=47:52
+8	pode	_	AUX	AUX	_	9	aux	_	TokenRange=53:57
+9	visto	_	VERB	VERB	_	2	acl:relcl	_	TokenRange=58:63
+10	neste	_	ADP	ADP	_	11	case	_	TokenRange=64:69
+11	sabado	_	PROPN	PNOUN	_	9	nmod	_	TokenRange=70:76
+12	domingo	_	PROPN	PNOUN	_	15	nmod	_	TokenRange=77:84
+13	quartafeira	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=85:96
+14	pinoquio	pinoquio	NOUN	NOUN	_	15	nsubj	_	TokenRange=97:105
+15	cresceram	crescer	VERB	VERB	_	4	parataxis	_	TokenRange=106:115
+16	orelhas	orelha	NOUN	NOUN	_	15	nsubj	_	TokenRange=116:123
+17	burro	burro	ADJ	ADJ	_	16	amod	_	TokenRange=124:129
+18	conseguiu	conseguir	VERB	VERB	_	15	parataxis	_	TokenRange=130:139
+19	passar	passar	VERB	VERB	_	18	xcomp	_	TokenRange=140:146
+20	tal	_	DET	DET	_	21	det	_	TokenRange=147:150
+21	impressao	impressao	NOUN	NOUN	_	19	obj	_	TokenRange=151:160
+22	bestialidade	bestialidade	NOUN	NOUN	_	18	nsubj	_	TokenRange=161:173
+23	contrario	contrario	ADJ	ADJ	_	22	amod	_	TokenRange=174:183
+24	boneco	boneco	NOUN	NOUN	_	22	appos	_	TokenRange=184:190
+25	collodi	_	NOUN	NOUN	_	24	flat	_	TokenRange=191:198
+26	queria	querer	VERB	VERB	_	22	acl:relcl	_	TokenRange=199:205
+27	menino	menino	NOUN	NOUN	_	26	obj	_	TokenRange=206:212
+28	exibiu	exibir	VERB	VERB	_	26	conj	_	TokenRange=213:219
+29	toda	_	DET	DET	_	30	det	_	TokenRange=220:224
+30	parvoice	parvoice	NOUN	NOUN	_	28	obj	_	TokenRange=225:233
+31	parecia	parecer	AUX	AUX	_	28	aux	_	TokenRange=234:241
+32	apalermado	apalermado	ADJ	ADJ	_	33	amod	_	TokenRange=242:252
+33	regan	regan	NOUN	NOUN	_	28	nsubj	_	TokenRange=253:258
+34	diferente	diferente	ADJ	ADJ	_	35	amod	_	TokenRange=259:268
+35	garota	garoto	NOUN	NOUN	_	33	appos	_	TokenRange=269:275
+36	possuida	possuido	ADJ	ADJ	_	35	amod	_	TokenRange=276:284
+37	demonio	demonio	NOUN	NOUN	_	33	appos	_	TokenRange=285:292
+38	exorcista	exorcista	ADJ	ADJ	_	37	amod	_	TokenRange=293:302
+39	vomita	vomito	ADJ	ADJ	_	40	amod	_	TokenRange=303:309
+40	bilis	_	NOUN	NOUN	_	35	appos	_	TokenRange=310:315
+41	verde	verde	ADJ	ADJ	_	40	amod	_	TokenRange=316:321
+42	cospe	_	VERB	VERB	_	46	nmod	_	TokenRange=322:327
+43	palavroes	_	NOUN	NOUN	_	40	amod	_	TokenRange=328:337
+44	masturbase	masturbase	NOUN	NOUN	_	40	flat	_	TokenRange=338:348
+45	crucifixo	crucifixo	ADJ	ADJ	_	46	amod	_	TokenRange=349:358
+46	levita	levitar	VERB	VERB	_	28	conj	_	TokenRange=359:365
+47	sobre	_	ADP	ADP	_	19	mark	_	SpaceAfter=No|TokenRange=366:371
+

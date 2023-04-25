@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = resende brasil justica cara mundo sergio moro trabalhando abre aspas veja possivel viver brasil veja possivel gente conviver gente vive politica nesse momento justica cara mundo justica empata suica populacao 25 menor renda per capita 5 vezes maior justica hoje parece sergio moro trabalhando passa mao caminha passa fica parado fecha aspas
+1	resende	resender	VERB	VERB	_	0	root	_	TokenRange=0:7
+2	brasil	brasil	NOUN	NOUN	_	1	obj	_	TokenRange=8:14
+3	justica	_	NOUN	NOUN	_	1	nsubj	_	TokenRange=15:22
+4	cara	cara	NOUN	NOUN	_	5	amod	_	TokenRange=23:27
+5	mundo	mundo	NOUN	NOUN	_	3	nmod	_	TokenRange=28:33
+6	sergio	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=34:40
+7	moro	moro	NOUN	NOUN	_	6	flat	_	TokenRange=41:45
+8	trabalhando	trabalhar	VERB	VERB	_	6	acl	_	TokenRange=46:57
+9	abre	abrir	VERB	VERB	_	1	ccomp	_	TokenRange=58:62
+10	aspas	aspa	NOUN	NOUN	_	9	obj	_	TokenRange=63:68
+11	veja	ver	VERB	VERB	_	9	ccomp	_	TokenRange=69:73
+12	possivel	_	ADJ	ADJ	_	11	xcomp	_	TokenRange=74:82
+13	viver	viver	VERB	VERB	_	11	csubj	_	TokenRange=83:88
+14	brasil	brasil	NOUN	NOUN	_	13	obj	_	TokenRange=89:95
+15	veja	ver	VERB	VERB	_	13	ccomp	_	TokenRange=96:100
+16	possivel	_	ADJ	ADJ	_	17	amod	_	TokenRange=101:109
+17	gente	gente	NOUN	NOUN	_	18	nsubj	_	TokenRange=110:115
+18	conviver	conviver	VERB	VERB	_	15	csubj	_	TokenRange=116:124
+19	gente	gente	NOUN	NOUN	_	18	obj	_	TokenRange=125:130
+20	vive	_	VERB	VERB	_	1	parataxis	_	TokenRange=131:135
+21	politica	_	NOUN	NOUN	_	20	obj	_	TokenRange=136:144
+22	nesse	_	ADP	ADP	_	23	case	_	TokenRange=145:150
+23	momento	momento	NOUN	NOUN	_	20	nmod	_	TokenRange=151:158
+24	justica	_	ADJ	ADJ	_	28	amod	_	TokenRange=159:166
+25	cara	cara	NOUN	NOUN	_	26	amod	_	TokenRange=167:171
+26	mundo	mundo	NOUN	NOUN	_	24	nmod	_	TokenRange=172:177
+27	justica	_	ADJ	ADJ	_	28	amod	_	TokenRange=178:185
+28	empata	empata	NOUN	NOUN	_	20	parataxis	_	TokenRange=186:192
+29	suica	_	NOUN	NOUN	_	28	amod	_	TokenRange=193:198
+30	populacao	populacao	NOUN	NOUN	_	28	appos	_	TokenRange=199:208
+31	25	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=209:211
+32	menor	menor	ADJ	ADJ	_	33	amod	_	TokenRange=212:217
+33	renda	renda	NOUN	NOUN	_	28	appos	_	TokenRange=218:223
+34	per	per	ADP	ADP	_	35	case	_	TokenRange=224:227
+35	capita	capita	NOUN	NOUN	_	33	nmod	_	TokenRange=228:234
+36	5	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=235:236
+37	vezes	vez	NOUN	NOUN	_	41	nmod	_	TokenRange=237:242
+38	maior	maior	ADJ	ADJ	_	39	amod	_	TokenRange=243:248
+39	justica	_	NOUN	NOUN	_	33	appos	_	TokenRange=249:256
+40	hoje	hoje	ADV	ADV	_	41	advmod	_	TokenRange=257:261
+41	parece	parecer	VERB	VERB	_	33	acl:relcl	_	TokenRange=262:268
+42	sergio	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=269:275
+43	moro	moro	NOUN	NOUN	_	42	flat	_	TokenRange=276:280
+44	trabalhando	trabalhar	VERB	VERB	_	42	acl	_	TokenRange=281:292
+45	passa	passar	VERB	VERB	_	42	acl:relcl	_	TokenRange=293:298
+46	mao	mao	NOUN	NOUN	_	45	nsubj	_	TokenRange=299:302
+47	caminha	caminha	NOUN	NOUN	_	49	nsubj	_	TokenRange=303:310
+48	passa	passar	VERB	VERB	_	49	csubj	_	TokenRange=311:316
+49	fica	ficar	VERB	VERB	_	41	conj	_	TokenRange=317:321
+50	parado	parado	ADJ	ADJ	_	49	xcomp	_	TokenRange=322:328
+51	fecha	fechar	VERB	VERB	_	41	conj	_	TokenRange=329:334
+52	aspas	aspa	NOUN	NOUN	_	51	obj	_	SpaceAfter=No|TokenRange=335:340
+

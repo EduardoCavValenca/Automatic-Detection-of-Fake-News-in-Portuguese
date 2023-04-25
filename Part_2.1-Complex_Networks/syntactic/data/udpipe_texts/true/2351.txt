@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = morre 76 anos paulo marco aurelio garcia exassessor lula dilma assessor especial assuntos internacionais governos luiz inacio lula silva dilma rousseff sofreu infarto nesta quintafeira paulo assessor especial assuntos internacionais governos luiz inacio lula silva dilma rousseff marco aurelio garcia morreu 76 anos nesta quintafeira 20 paulo vitima infarto informou pt marco aurelio garcia fundadores pt ocupou funcao secretario relacoes internacionais partido professor aposentado historia universidade campinas unicamp enquanto
+1	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	76	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=6:8
+3	anos	ano	NOUN	NOUN	_	1	nsubj	_	TokenRange=9:13
+4	paulo	paulo	NOUN	NOUN	_	1	nsubj	_	TokenRange=14:19
+5	marco	marco	NOUN	NOUN	_	3	appos	_	TokenRange=20:25
+6	aurelio	aurelio	ADJ	ADJ	_	5	flat	_	TokenRange=26:33
+7	garcia	garcia	NOUN	NOUN	_	5	flat	_	TokenRange=34:40
+8	exassessor	exassessor	NOUN	NOUN	_	5	appos	_	TokenRange=41:51
+9	lula	_	NOUN	NOUN	_	5	appos	_	TokenRange=52:56
+10	dilma	_	ADJ	ADJ	_	9	flat	_	TokenRange=57:62
+11	assessor	assessor	NOUN	NOUN	_	9	appos	_	TokenRange=63:71
+12	especial	especial	ADJ	ADJ	_	13	amod	_	TokenRange=72:80
+13	assuntos	assunto	NOUN	NOUN	_	9	appos	_	TokenRange=81:89
+14	internacionais	internacional	ADJ	ADJ	_	13	amod	_	TokenRange=90:104
+15	governos	governo	NOUN	NOUN	_	13	appos	_	TokenRange=105:113
+16	luiz	luiz	NOUN	NOUN	_	15	appos	_	TokenRange=114:118
+17	inacio	_	NOUN	NOUN	_	16	flat	_	TokenRange=119:125
+18	lula	_	ADJ	ADJ	_	16	amod	_	TokenRange=126:130
+19	silva	silva	NOUN	NOUN	_	20	flat	_	TokenRange=131:136
+20	dilma	dilma	NOUN	NOUN	_	22	nsubj	_	TokenRange=137:142
+21	rousseff	rousseff	NOUN	NOUN	_	20	flat	_	TokenRange=143:151
+22	sofreu	sofrer	VERB	VERB	_	1	conj	_	TokenRange=152:158
+23	infarto	infarto	NOUN	NOUN	_	22	obj	_	TokenRange=159:166
+24	nesta	_	ADP	ADP	_	25	case	_	TokenRange=167:172
+25	quintafeira	quintafeira	NOUN	NOUN	_	22	nmod	_	TokenRange=173:184
+26	paulo	paulo	NOUN	NOUN	_	27	amod	_	TokenRange=185:190
+27	assessor	assessor	NOUN	NOUN	_	25	appos	_	TokenRange=191:199
+28	especial	especial	ADJ	ADJ	_	27	amod	_	TokenRange=200:208
+29	assuntos	assunto	NOUN	NOUN	_	27	appos	_	TokenRange=209:217
+30	internacionais	internacional	ADJ	ADJ	_	29	amod	_	TokenRange=218:232
+31	governos	governo	NOUN	NOUN	_	27	amod	_	TokenRange=233:241
+32	luiz	luiz	NOUN	NOUN	_	27	appos	_	TokenRange=242:246
+33	inacio	_	NOUN	NOUN	_	32	appos	_	TokenRange=247:253
+34	lula	_	NOUN	NOUN	_	32	flat	_	TokenRange=254:258
+35	silva	silva	NOUN	NOUN	_	32	flat	_	TokenRange=259:264
+36	dilma	dilma	ADJ	NOUN	_	27	appos	_	TokenRange=265:270
+37	rousseff	rousseff	NOUN	NOUN	_	38	flat	_	TokenRange=271:279
+38	marco	marco	NOUN	NOUN	_	41	nsubj	_	TokenRange=280:285
+39	aurelio	aurelio	NOUN	NOUN	_	38	flat	_	TokenRange=286:293
+40	garcia	garcia	NOUN	NOUN	_	38	flat	_	TokenRange=294:300
+41	morreu	morrer	VERB	VERB	_	1	conj	_	TokenRange=301:307
+42	76	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=308:310
+43	anos	ano	NOUN	NOUN	_	41	nmod	_	TokenRange=311:315
+44	nesta	_	ADP	ADP	_	45	case	_	TokenRange=316:321
+45	quintafeira	quintafeira	NOUN	NOUN	_	41	nmod	_	TokenRange=322:333
+46	20	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=334:336
+47	paulo	paulo	NOUN	NOUN	_	46	flat	_	TokenRange=337:342
+48	vitima	vitima	ADJ	ADJ	_	49	amod	_	TokenRange=343:349
+49	infarto	infarto	NOUN	NOUN	_	50	nsubj	_	TokenRange=350:357
+50	informou	informar	VERB	VERB	_	41	parataxis	_	TokenRange=358:366
+51	pt	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=367:369
+52	marco	marco	NOUN	NOUN	_	51	appos	_	TokenRange=370:375
+53	aurelio	aurelio	NOUN	NOUN	_	52	flat	_	TokenRange=376:383
+54	garcia	garcia	NOUN	NOUN	_	52	flat	_	TokenRange=384:390
+55	fundadores	fundador	NOUN	NOUN	_	52	amod	_	TokenRange=391:401
+56	pt	_	PROPN	PNOUN	_	52	appos	_	TokenRange=402:404
+57	ocupou	ocupar	VERB	VERB	_	50	parataxis	_	TokenRange=405:411
+58	funcao	funcao	NOUN	NOUN	_	57	obj	_	TokenRange=412:418
+59	secretario	_	NOUN	NOUN	_	58	appos	_	TokenRange=419:429
+60	relacoes	relacoe	NOUN	NOUN	_	58	flat	_	TokenRange=430:438
+61	internacionais	internacional	ADJ	ADJ	_	60	amod	_	TokenRange=439:453
+62	partido	partido	NOUN	NOUN	_	57	obj	_	TokenRange=454:461
+63	professor	professor	NOUN	NOUN	_	62	flat	_	TokenRange=462:471
+64	aposentado	aposentado	ADJ	ADJ	_	62	amod	_	TokenRange=472:482
+65	historia	historia	NOUN	NOUN	_	62	appos	_	TokenRange=483:491
+66	universidade	universidade	NOUN	NOUN	_	62	appos	_	TokenRange=492:504
+67	campinas	campina	ADJ	ADJ	_	66	amod	_	TokenRange=505:513
+68	unicamp	unicampr	VERB	VERB	_	50	parataxis	_	TokenRange=514:521
+69	enquanto	_	CCONJ	CONJ	_	68	mark	_	SpaceAfter=No|TokenRange=522:530
+

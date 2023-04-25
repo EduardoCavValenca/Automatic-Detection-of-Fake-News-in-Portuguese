@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer diz reforma previdencia pode aprovada todo conjunto sabe conseguimos dar avanco certo ponto permita venha fazer adiante nova revisao disse presidente lideres governistas palacio planalto presidente michel temer afirmou nesta segundafeira 6 durante reuniao palacio
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	30	ccomp	_	TokenRange=6:9
+3	reforma	reforma	NOUN	NOUN	_	2	obj	_	TokenRange=10:17
+4	previdencia	previdencia	NOUN	NOUN	_	3	amod	_	TokenRange=18:29
+5	pode	_	AUX	AUX	_	6	aux	_	TokenRange=30:34
+6	aprovada	aprovar	VERB	VERB	_	2	ccomp	_	TokenRange=35:43
+7	todo	_	DET	DET	_	8	det	_	TokenRange=44:48
+8	conjunto	conjunto	NOUN	NOUN	_	9	nsubj	_	TokenRange=49:57
+9	sabe	saber	VERB	VERB	_	2	ccomp	_	TokenRange=58:62
+10	conseguimos	conseguir	VERB	VERB	_	9	xcomp	_	TokenRange=63:74
+11	dar	dar	VERB	VERB	_	10	xcomp	_	TokenRange=75:78
+12	avanco	avanco	NOUN	NOUN	_	11	obj	_	TokenRange=79:85
+13	certo	_	DET	DET	_	14	det	_	TokenRange=86:91
+14	ponto	ponto	NOUN	NOUN	_	15	nsubj	_	TokenRange=92:97
+15	permita	permitir	VERB	VERB	_	10	conj	_	TokenRange=98:105
+16	venha	vir	AUX	AUX	_	17	aux	_	TokenRange=106:111
+17	fazer	fazer	VERB	VERB	_	15	xcomp	_	TokenRange=112:117
+18	adiante	adiante	ADV	ADV	_	17	advmod	_	TokenRange=118:125
+19	nova	novo	ADJ	ADJ	_	20	amod	_	TokenRange=126:130
+20	revisao	revisao	NOUN	NOUN	_	17	obj	_	TokenRange=131:138
+21	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=139:144
+22	presidente	presidente	NOUN	NOUN	_	30	nsubj	_	TokenRange=145:155
+23	lideres	lider	NOUN	NOUN	_	22	appos	_	TokenRange=156:163
+24	governistas	governista	ADJ	ADJ	_	23	amod	_	TokenRange=164:175
+25	palacio	palacio	NOUN	NOUN	_	22	amod	_	TokenRange=176:183
+26	planalto	planalto	ADJ	ADJ	_	27	amod	_	TokenRange=184:192
+27	presidente	presidente	NOUN	NOUN	_	22	appos	_	TokenRange=193:203
+28	michel	michel	ADJ	ADJ	_	29	amod	_	TokenRange=204:210
+29	temer	temer	NOUN	NOUN	_	27	appos	_	TokenRange=211:216
+30	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=217:224
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=225:230
+32	segundafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=231:243
+33	6	_	NUM	NUM	NumType=Card	32	appos	_	TokenRange=244:245
+34	durante	_	ADP	ADP	_	35	case	_	TokenRange=246:253
+35	reuniao	reuniao	NOUN	NOUN	_	30	nmod	_	TokenRange=254:261
+36	palacio	palacio	NOUN	NOUN	_	35	appos	_	SpaceAfter=No|TokenRange=262:269
+

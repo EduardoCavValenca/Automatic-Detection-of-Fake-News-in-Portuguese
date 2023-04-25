@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fubango homenageia fidel castro diretamente sitio coisa linda lula usou redes sociais expressar amor ditador sanguinario atraves redes sociais petista divulgou video sitio los fubangos sinceramente cidadao desse conseguiu chegar presidencia republica fez teste pezinho crianca curiosidade fubango acordo dicionario portugues ferra situacao sujeito estorva atrapalha outros desagradavel
+1	fubango	fubango	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	homenageia	homenagear	VERB	VERB	_	0	root	_	TokenRange=8:18
+3	fidel	fidel	NOUN	NOUN	_	2	obj	_	TokenRange=19:24
+4	castro	castro	NOUN	NOUN	_	3	flat	_	TokenRange=25:31
+5	diretamente	diretamente	ADV	ADV	_	10	advmod	_	TokenRange=32:43
+6	sitio	sitio	NOUN	NOUN	_	7	amod	_	TokenRange=44:49
+7	coisa	coisa	NOUN	NOUN	_	2	appos	_	TokenRange=50:55
+8	linda	lindo	ADJ	ADJ	_	7	amod	_	TokenRange=56:61
+9	lula	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=62:66
+10	usou	usar	VERB	VERB	_	2	parataxis	_	TokenRange=67:71
+11	redes	rede	NOUN	NOUN	_	10	obj	_	TokenRange=72:77
+12	sociais	social	ADJ	ADJ	_	11	amod	_	TokenRange=78:85
+13	expressar	expressar	VERB	VERB	_	10	xcomp	_	TokenRange=86:95
+14	amor	amor	NOUN	NOUN	_	13	obj	_	TokenRange=96:100
+15	ditador	ditador	NOUN	NOUN	_	14	appos	_	TokenRange=101:108
+16	sanguinario	sanguinario	ADJ	ADJ	_	15	amod	_	TokenRange=109:120
+17	atraves	_	ADP	ADP	_	18	case	_	TokenRange=121:128
+18	redes	rede	NOUN	NOUN	_	13	nmod	_	TokenRange=129:134
+19	sociais	social	ADJ	ADJ	_	18	amod	_	TokenRange=135:142
+20	petista	petista	NOUN	NOUN	_	18	amod	_	TokenRange=143:150
+21	divulgou	divulgar	VERB	VERB	_	2	parataxis	_	TokenRange=151:159
+22	video	video	NOUN	NOUN	_	21	obj	_	TokenRange=160:165
+23	sitio	sitio	NOUN	NOUN	_	22	appos	_	TokenRange=166:171
+24	los	_	DET	DET	_	25	det	_	TokenRange=172:175
+25	fubangos	fubango	NOUN	NOUN	_	21	nsubj	_	TokenRange=176:184
+26	sinceramente	sinceramente	ADV	ADV	_	27	advmod	_	TokenRange=185:197
+27	cidadao	cidadao	NOUN	NOUN	_	25	appos	_	TokenRange=198:205
+28	desse	_	X	ADPPRON	_	29	mark	_	TokenRange=206:211
+29	conseguiu	conseguir	VERB	VERB	_	27	nmod	_	TokenRange=212:221
+30	chegar	chegar	VERB	VERB	_	29	xcomp	_	TokenRange=222:228
+31	presidencia	presidencia	NOUN	NOUN	_	30	obj	_	TokenRange=229:240
+32	republica	republico	ADJ	ADJ	_	31	amod	_	TokenRange=241:250
+33	fez	fazer	VERB	VERB	_	2	parataxis	_	TokenRange=251:254
+34	teste	teste	NOUN	NOUN	_	33	obj	_	TokenRange=255:260
+35	pezinho	pezinho	NOUN	NOUN	_	34	appos	_	TokenRange=261:268
+36	crianca	crianco	ADJ	ADJ	_	34	amod	_	TokenRange=269:276
+37	curiosidade	curiosidade	NOUN	NOUN	_	33	nsubj	_	TokenRange=277:288
+38	fubango	fubango	ADJ	ADJ	_	37	amod	_	TokenRange=289:296
+39	acordo	acordo	NOUN	NOUN	_	37	appos	_	TokenRange=297:303
+40	dicionario	dicionario	NOUN	NOUN	_	39	appos	_	TokenRange=304:314
+41	portugues	_	ADJ	ADJ	_	40	amod	_	TokenRange=315:324
+42	ferra	ferra	ADJ	ADJ	_	43	amod	_	TokenRange=325:330
+43	situacao	situacao	NOUN	NOUN	_	39	appos	_	TokenRange=331:339
+44	sujeito	sujeito	ADJ	ADJ	_	43	amod	_	TokenRange=340:347
+45	estorva	estorva	NOUN	NOUN	_	46	nsubj	_	TokenRange=348:355
+46	atrapalha	atrapalhar	VERB	VERB	_	33	parataxis	_	TokenRange=356:365
+47	outros	_	DET	DET	_	48	det	_	TokenRange=366:372
+48	desagradavel	desagradavel	NOUN	NOUN	_	46	obj	_	SpaceAfter=No|TokenRange=373:385
+

@@ -1,0 +1,36 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = circuito interno tv flagra estudantes invasores fazendo especie orgia camara sp estudantes anarquistas ocupavam plenario camara municipal sp desde ultimo dia 9 deixaram local inicio tarde hoje 11
+1	circuito	circuito	NOUN	NOUN	_	14	nsubj	_	TokenRange=0:8
+2	interno	interno	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+3	tv	_	NOUN	NOUN	_	1	appos	_	TokenRange=17:19
+4	flagra	flagrar	VERB	VERB	_	1	acl:relcl	_	TokenRange=20:26
+5	estudantes	estudante	NOUN	NOUN	_	4	obj	_	TokenRange=27:37
+6	invasores	invasor	ADJ	ADJ	_	5	amod	_	TokenRange=38:47
+7	fazendo	fazer	VERB	VERB	_	5	acl	_	TokenRange=48:55
+8	especie	especie	NOUN	NOUN	_	7	obj	_	TokenRange=56:63
+9	orgia	orgia	NOUN	NOUN	_	8	flat	_	TokenRange=64:69
+10	camara	camara	NOUN	NOUN	_	8	appos	_	TokenRange=70:76
+11	sp	_	NOUN	NOUN	_	12	appos	_	TokenRange=77:79
+12	estudantes	estudante	NOUN	NOUN	_	10	appos	_	TokenRange=80:90
+13	anarquistas	anarquista	ADJ	ADJ	_	12	amod	_	TokenRange=91:102
+14	ocupavam	ocupar	VERB	VERB	_	0	root	_	TokenRange=103:111
+15	plenario	plenario	NOUN	NOUN	_	14	obj	_	TokenRange=112:120
+16	camara	camara	NOUN	NOUN	_	14	obj	_	TokenRange=121:127
+17	municipal	municipal	ADJ	ADJ	_	16	amod	_	TokenRange=128:137
+18	sp	_	ADJ	ADJ	_	16	amod	_	TokenRange=138:140
+19	desde	_	ADP	ADP	_	21	case	_	TokenRange=141:146
+20	ultimo	_	ADJ	ADJ	_	21	amod	_	TokenRange=147:153
+21	dia	dia	NOUN	NOUN	_	14	nmod	_	TokenRange=154:157
+22	9	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=158:159
+23	deixaram	deixar	VERB	VERB	_	14	parataxis	_	TokenRange=160:168
+24	local	local	NOUN	NOUN	_	23	obj	_	TokenRange=169:174
+25	inicio	_	NOUN	NOUN	_	23	parataxis	_	TokenRange=175:181
+26	tarde	tarde	NOUN	NOUN	_	23	nmod	_	TokenRange=182:187
+27	hoje	hoje	ADV	ADV	_	26	advmod	_	TokenRange=188:192
+28	11	_	NUM	NUM	NumType=Card	26	nmod	_	SpaceAfter=No|TokenRange=193:195
+

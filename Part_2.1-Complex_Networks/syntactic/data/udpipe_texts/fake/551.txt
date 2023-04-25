@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = consultoria internacional elege temer presidente impopular planeta temer cara conseguiu facanha mundial superar dilma rousseff quesito impopularidade peemedebista considerado presidente maior taxa rejeicao planeta perdendo presidente venezuela nicolas maduro pesquisa executada grupo eurasia coletou dados durante meses agosto setembro deste ano michel homem prometeu estancar sangria consegiu miseros 3 aprovacao popular menor taxa mundo seguido jacob zuma africa sul corrupto 18 apoio popular nicolas maduro tirano venezula 23 enrique pena nieto mexico 28 theresa may primeiraministra reino unido 31 donald trump eua 37 emmanuel macron franca 45
+1	consultoria	consultoria	NOUN	NOUN	_	34	nsubj	_	TokenRange=0:11
+2	internacional	internacional	ADJ	ADJ	_	1	amod	_	TokenRange=12:25
+3	elege	_	VERB	VERB	_	1	acl:relcl	_	TokenRange=26:31
+4	temer	temer	NOUN	NOUN	_	3	obj	_	TokenRange=32:37
+5	presidente	presidente	NOUN	NOUN	_	3	obj	_	TokenRange=38:48
+6	impopular	impopular	ADJ	ADJ	_	5	amod	_	TokenRange=49:58
+7	planeta	planeta	NOUN	NOUN	_	5	appos	_	TokenRange=59:66
+8	temer	temer	VERB	VERB	_	1	acl:relcl	_	TokenRange=67:72
+9	cara	cara	NOUN	NOUN	_	8	obj	_	TokenRange=73:77
+10	conseguiu	conseguir	VERB	VERB	_	3	ccomp	_	TokenRange=78:87
+11	facanha	facanha	NOUN	NOUN	_	10	obj	_	TokenRange=88:95
+12	mundial	mundial	ADJ	ADJ	_	11	amod	_	TokenRange=96:103
+13	superar	superar	VERB	VERB	_	11	acl:inf	_	TokenRange=104:111
+14	dilma	_	NOUN	NOUN	_	13	obj	_	TokenRange=112:117
+15	rousseff	rousseff	NOUN	NOUN	_	14	flat	_	TokenRange=118:126
+16	quesito	quesito	NOUN	NOUN	_	15	appos	_	TokenRange=127:134
+17	impopularidade	impopularidade	NOUN	NOUN	_	16	flat	_	TokenRange=135:149
+18	peemedebista	_	ADJ	ADJ	_	17	amod	_	TokenRange=150:162
+19	considerado	considerar	AUX	AUX	_	20	cop	_	TokenRange=163:174
+20	presidente	presidente	NOUN	NOUN	_	17	acl	_	TokenRange=175:185
+21	maior	maior	ADJ	ADJ	_	22	amod	_	TokenRange=186:191
+22	taxa	taxa	NOUN	NOUN	_	20	appos	_	TokenRange=192:196
+23	rejeicao	rejeicao	NOUN	NOUN	_	22	appos	_	TokenRange=197:205
+24	planeta	planeta	NOUN	NOUN	_	22	appos	_	TokenRange=206:213
+25	perdendo	perder	VERB	VERB	_	22	acl	_	TokenRange=214:222
+26	presidente	presidente	NOUN	NOUN	_	25	obj	_	TokenRange=223:233
+27	venezuela	_	ADJ	ADJ	_	26	amod	_	TokenRange=234:243
+28	nicolas	_	NOUN	NOUN	_	26	appos	_	TokenRange=244:251
+29	maduro	maduro	ADJ	ADJ	_	32	amod	_	TokenRange=252:258
+30	pesquisa	pesquisa	NOUN	NOUN	_	25	nsubj	_	TokenRange=259:267
+31	executada	executar	VERB	VERB	_	30	acl	_	TokenRange=268:277
+32	grupo	grupo	NOUN	NOUN	_	25	obj	_	TokenRange=278:283
+33	eurasia	_	ADJ	ADJ	_	32	amod	_	TokenRange=284:291
+34	coletou	coletar	VERB	VERB	_	0	root	_	TokenRange=292:299
+35	dados	dado	NOUN	NOUN	_	34	obj	_	TokenRange=300:305
+36	durante	_	ADP	ADP	_	37	case	_	TokenRange=306:313
+37	meses	mês	NOUN	NOUN	_	34	nmod	_	TokenRange=314:319
+38	agosto	_	PROPN	PNOUN	_	37	appos	_	TokenRange=320:326
+39	setembro	_	PROPN	PNOUN	_	38	flat	_	TokenRange=327:335
+40	deste	_	ADP	ADP	_	41	case	_	TokenRange=336:341
+41	ano	ano	NOUN	NOUN	_	38	nmod	_	TokenRange=342:345
+42	michel	michel	ADJ	ADJ	_	43	amod	_	TokenRange=346:352
+43	homem	homem	NOUN	NOUN	_	44	nsubj	_	TokenRange=353:358
+44	prometeu	prometer	VERB	VERB	_	34	parataxis	_	TokenRange=359:367
+45	estancar	estancar	VERB	VERB	_	44	xcomp	_	TokenRange=368:376
+46	sangria	sangria	NOUN	NOUN	_	45	obj	_	TokenRange=377:384
+47	consegiu	consegir	VERB	VERB	_	44	parataxis	_	TokenRange=385:393
+48	miseros	_	NOUN	NOUN	_	47	obj	_	TokenRange=394:401
+49	3	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=402:403
+50	aprovacao	aprovacao	NOUN	NOUN	_	47	nsubj	_	TokenRange=404:413
+51	popular	popular	ADJ	ADJ	_	50	amod	_	TokenRange=414:421
+52	menor	menor	ADJ	ADJ	_	53	amod	_	TokenRange=422:427
+53	taxa	taxa	NOUN	NOUN	_	50	appos	_	TokenRange=428:432
+54	mundo	mundo	NOUN	NOUN	_	53	appos	_	TokenRange=433:438
+55	seguido	seguido	ADJ	ADJ	_	54	amod	_	TokenRange=439:446
+56	jacob	_	PROPN	PNOUN	_	53	appos	_	TokenRange=447:452
+57	zuma	_	NOUN	NOUN	_	56	flat	_	TokenRange=453:457
+58	africa	_	NOUN	NOUN	_	56	flat	_	TokenRange=458:464
+59	sul	sul	ADJ	ADJ	_	62	amod	_	TokenRange=465:468
+60	corrupto	corrupto	ADJ	ADJ	_	62	amod	_	TokenRange=469:477
+61	18	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=478:480
+62	apoio	apoio	NOUN	NOUN	_	47	nsubj	_	TokenRange=481:486
+63	popular	popular	ADJ	ADJ	_	62	amod	_	TokenRange=487:494
+64	nicolas	nicola	ADJ	ADJ	_	62	amod	_	TokenRange=495:502
+65	maduro	maduro	ADJ	ADJ	_	62	amod	_	TokenRange=503:509
+66	tirano	tirano	ADJ	ADJ	_	62	amod	_	TokenRange=510:516
+67	venezula	venezulo	ADJ	ADJ	_	62	amod	_	TokenRange=517:525
+68	23	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=526:528
+69	enrique	enrique	NOUN	NOUN	_	62	appos	_	TokenRange=529:536
+70	pena	_	NOUN	NOUN	_	69	flat	_	TokenRange=537:541
+71	nieto	nieto	ADJ	ADJ	_	69	flat	_	TokenRange=542:547
+72	mexico	mexico	NOUN	NOUN	_	62	appos	_	TokenRange=548:554
+73	28	_	NUM	NUM	NumType=Card	74	appos	_	TokenRange=555:557
+74	theresa	_	NOUN	NOUN	_	62	appos	_	TokenRange=558:565
+75	may	_	NOUN	NOUN	_	74	flat	_	TokenRange=566:569
+76	primeiraministra	_	NOUN	NOUN	_	74	flat	_	TokenRange=570:586
+77	reino	reino	NOUN	NOUN	_	74	appos	_	TokenRange=587:592
+78	unido	unido	ADJ	ADJ	_	77	amod	_	TokenRange=593:598
+79	31	_	NUM	NUM	NumType=Card	80	nummod	_	TokenRange=599:601
+80	donald	_	NOUN	NOUN	_	74	appos	_	TokenRange=602:608
+81	trump	_	NOUN	NOUN	_	80	flat	_	TokenRange=609:614
+82	eua	_	DET	DET	_	84	cc	_	TokenRange=615:618
+83	37	_	NUM	NUM	NumType=Card	84	nummod	_	TokenRange=619:621
+84	emmanuel	emmanuel	NOUN	NOUN	_	74	conj	_	TokenRange=622:630
+85	macron	_	NOUN	NOUN	_	84	flat	_	TokenRange=631:637
+86	franca	franco	ADJ	ADJ	_	84	amod	_	TokenRange=638:644
+87	45	_	NUM	NUM	NumType=Card	84	nummod	_	SpaceAfter=No|TokenRange=645:647
+

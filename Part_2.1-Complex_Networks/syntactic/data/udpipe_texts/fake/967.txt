@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 10 imagens mostram porque evaristo costa rei redes sociais evaristo costa apresentador jornal hoje encantado seguidores redes sociais jornalista globo publica imagens dia dia responde perguntas internautas sempre usando bom senso humor perfil twitter quase 1 milhao seguidores facebook numero fas ultrapassa 2 milhoes instagram 5 milhoes confira melhores postagens evaristo costa
+1	10	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:2
+2	imagens	imagem	NOUN	NOUN	_	3	nsubj	_	TokenRange=3:10
+3	mostram	mostrar	VERB	VERB	_	0	root	_	TokenRange=11:18
+4	porque	_	CCONJ	CONJ	_	7	mark	_	TokenRange=19:25
+5	evaristo	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=26:34
+6	costa	costa	NOUN	NOUN	_	5	flat	_	TokenRange=35:40
+7	rei	rei	VERB	VERB	_	3	ccomp	_	TokenRange=41:44
+8	redes	rede	NOUN	NOUN	_	7	obj	_	TokenRange=45:50
+9	sociais	social	ADJ	ADJ	_	8	amod	_	TokenRange=51:58
+10	evaristo	evaristo	NOUN	NOUN	_	8	appos	_	TokenRange=59:67
+11	costa	costa	NOUN	NOUN	_	8	appos	_	TokenRange=68:73
+12	apresentador	apresentador	NOUN	NOUN	_	8	appos	_	TokenRange=74:86
+13	jornal	jornal	NOUN	NOUN	_	8	appos	_	TokenRange=87:93
+14	hoje	hoje	ADV	ADV	_	15	advmod	_	TokenRange=94:98
+15	encantado	encantado	ADJ	ADJ	_	13	amod	_	TokenRange=99:108
+16	seguidores	seguidor	ADJ	ADJ	_	17	amod	_	TokenRange=109:119
+17	redes	rede	NOUN	NOUN	_	15	nsubj	_	TokenRange=120:125
+18	sociais	social	ADJ	ADJ	_	17	amod	_	TokenRange=126:133
+19	jornalista	jornalista	NOUN	NOUN	_	21	nsubj	_	TokenRange=134:144
+20	globo	globo	NOUN	NOUN	_	19	flat	_	TokenRange=145:150
+21	publica	_	VERB	VERB	_	17	acl:relcl	_	TokenRange=151:158
+22	imagens	imagem	NOUN	NOUN	_	21	obj	_	TokenRange=159:166
+23	dia	dia	NOUN	NOUN	_	25	nmod	_	TokenRange=167:170
+24	dia	dia	NOUN	NOUN	_	25	nmod	_	TokenRange=171:174
+25	responde	responder	VERB	VERB	_	22	acl:relcl	_	TokenRange=175:183
+26	perguntas	pergunta	NOUN	NOUN	_	25	obj	_	TokenRange=184:193
+27	internautas	internauta	NOUN	NOUN	_	26	amod	_	TokenRange=194:205
+28	sempre	sempre	ADV	ADV	_	29	advmod	_	TokenRange=206:212
+29	usando	usar	VERB	VERB	_	25	acl	_	TokenRange=213:219
+30	bom	bom	ADJ	ADJ	_	31	amod	_	TokenRange=220:223
+31	senso	senso	NOUN	NOUN	_	29	obj	_	TokenRange=224:229
+32	humor	humor	NOUN	NOUN	_	31	appos	_	TokenRange=230:235
+33	perfil	perfil	NOUN	NOUN	_	29	nsubj	_	TokenRange=236:242
+34	twitter	_	PROPN	PNOUN	_	33	appos	_	TokenRange=243:250
+35	quase	quase	ADV	ADV	_	37	advmod	_	TokenRange=251:256
+36	1	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=257:258
+37	milhao	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=259:265
+38	seguidores	seguidor	NOUN	NOUN	_	42	nsubj	_	TokenRange=266:276
+39	facebook	_	PROPN	PNOUN	_	42	nsubj	_	TokenRange=277:285
+40	numero	_	NOUN	NOUN	_	38	amod	_	TokenRange=286:292
+41	fas	_	NOUN	NOUN	_	42	nsubj	_	TokenRange=293:296
+42	ultrapassa	ultrapassar	VERB	VERB	_	3	parataxis	_	TokenRange=297:307
+43	2	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=308:309
+44	milhoes	_	NOUN	NOUN	_	42	obj	_	TokenRange=310:317
+45	instagram	instagrar	VERB	VERB	_	42	parataxis	_	TokenRange=318:327
+46	5	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=328:329
+47	milhoes	_	NUM	NUM	NumType=Card	48	obj	_	TokenRange=330:337
+48	confira	conferir	VERB	VERB	_	3	parataxis	_	TokenRange=338:345
+49	melhores	melhor	ADJ	ADJ	_	50	amod	_	TokenRange=346:354
+50	postagens	postagem	NOUN	NOUN	_	48	obj	_	TokenRange=355:364
+51	evaristo	evaristo	ADJ	ADJ	_	48	nsubj	_	TokenRange=365:373
+52	costa	costa	NOUN	NOUN	_	51	flat	_	SpaceAfter=No|TokenRange=374:379
+

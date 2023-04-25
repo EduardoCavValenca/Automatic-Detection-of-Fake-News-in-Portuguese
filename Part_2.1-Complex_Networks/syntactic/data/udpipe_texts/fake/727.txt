@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eua canais tv invadidos mensagem cita armagedon sinto fim chegou mensagem bizarra sons estranhos alertava espectadores tragedia inevitavel programacao transmitida tvs area condado orange arredores centenas milhares usuarios servicos tv cabo cox spectrum afetados informou orange county register video transmitido posteriormente postado youtube trazia voz homem desesperado quase folego dizia seguinte programa espacial fez contato vao destruir dizem todos infiltrados varios estabelecimentos militares especificamente area 51 desastres virao tudo destruido sinto militares governo sabe tudo fontemsn
+1	eua	_	DET	DET	_	2	det	_	TokenRange=0:3
+2	canais	canal	NOUN	NOUN	_	15	nsubj	_	TokenRange=4:10
+3	tv	_	NOUN	NOUN	_	2	flat	_	TokenRange=11:13
+4	invadidos	invadido	ADJ	ADJ	_	5	amod	_	TokenRange=14:23
+5	mensagem	mensagem	NOUN	NOUN	_	2	appos	_	TokenRange=24:32
+6	cita	cito	ADJ	ADJ	_	5	amod	_	TokenRange=33:37
+7	armagedon	_	NOUN	NOUN	_	5	appos	_	TokenRange=38:47
+8	sinto	sentir	VERB	VERB	_	5	appos	_	TokenRange=48:53
+9	fim	fim	NOUN	NOUN	_	5	appos	_	TokenRange=54:57
+10	chegou	chegar	VERB	VERB	_	5	acl:relcl	_	TokenRange=58:64
+11	mensagem	mensagem	NOUN	NOUN	_	15	obj	_	TokenRange=65:73
+12	bizarra	bizarro	ADJ	ADJ	_	11	amod	_	TokenRange=74:81
+13	sons	som	NOUN	NOUN	_	10	nsubj	_	TokenRange=82:86
+14	estranhos	estranho	ADJ	ADJ	_	13	amod	_	TokenRange=87:96
+15	alertava	alertar	VERB	VERB	_	0	root	_	TokenRange=97:105
+16	espectadores	espectador	NOUN	NOUN	_	15	obj	_	TokenRange=106:118
+17	tragedia	tragedia	NOUN	NOUN	_	16	appos	_	TokenRange=119:127
+18	inevitavel	inevitavel	ADJ	ADJ	_	17	amod	_	TokenRange=128:138
+19	programacao	programacao	NOUN	NOUN	_	2	appos	_	TokenRange=139:150
+20	transmitida	transmitir	VERB	VERB	_	19	acl	_	TokenRange=151:162
+21	tvs	_	NOUN	NOUN	_	19	appos	_	TokenRange=163:166
+22	area	area	NOUN	NOUN	_	21	flat	_	TokenRange=167:171
+23	condado	condado	NOUN	NOUN	_	21	appos	_	TokenRange=172:179
+24	orange	orange	ADJ	ADJ	_	23	amod	_	TokenRange=180:186
+25	arredores	_	ADJ	ADJ	_	28	amod	_	TokenRange=187:196
+26	centenas	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=197:205
+27	milhares	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=206:214
+28	usuarios	usuario	NOUN	NOUN	_	21	appos	_	TokenRange=215:223
+29	servicos	servico	ADJ	ADJ	_	28	amod	_	TokenRange=224:232
+30	tv	_	NOUN	NOUN	_	28	appos	_	TokenRange=233:235
+31	cabo	cabo	NOUN	NOUN	_	28	appos	_	TokenRange=236:240
+32	cox	_	NOUN	NOUN	_	33	case	_	TokenRange=241:244
+33	spectrum	spectrum	NOUN	NOUN	_	31	appos	_	TokenRange=245:253
+34	afetados	afetar	VERB	VERB	_	33	acl	_	TokenRange=254:262
+35	informou	informar	VERB	VERB	_	15	parataxis	_	TokenRange=263:271
+36	orange	orange	NOUN	NOUN	_	35	obj	_	TokenRange=272:278
+37	county	_	NOUN	NOUN	_	36	flat	_	TokenRange=279:285
+38	register	_	NOUN	NOUN	_	36	flat	_	TokenRange=286:294
+39	video	video	NOUN	NOUN	_	36	appos	_	TokenRange=295:300
+40	transmitido	transmitir	VERB	VERB	_	39	acl	_	TokenRange=301:312
+41	posteriormente	posteriormente	ADV	ADV	_	42	advmod	_	TokenRange=313:327
+42	postado	postar	VERB	VERB	_	39	acl	_	TokenRange=328:335
+43	youtube	_	PROPN	PNOUN	_	44	nsubj	_	TokenRange=336:343
+44	trazia	trazer	VERB	VERB	_	40	conj	_	TokenRange=344:350
+45	voz	voz	NOUN	NOUN	_	44	obj	_	TokenRange=351:354
+46	homem	homem	NOUN	NOUN	_	45	appos	_	TokenRange=355:360
+47	desesperado	desesperado	ADJ	ADJ	_	46	amod	_	TokenRange=361:372
+48	quase	quase	ADV	ADV	_	49	advmod	_	TokenRange=373:378
+49	folego	folego	NOUN	NOUN	_	50	xcomp	_	TokenRange=379:385
+50	dizia	dizer	VERB	VERB	_	35	conj	_	TokenRange=386:391
+51	seguinte	seguinte	ADJ	ADJ	_	52	amod	_	TokenRange=392:400
+52	programa	programa	NOUN	NOUN	_	50	nsubj	_	TokenRange=401:409
+53	espacial	espacial	ADJ	ADJ	_	52	amod	_	TokenRange=410:418
+54	fez	fazer	VERB	VERB	_	50	ccomp	_	TokenRange=419:422
+55	contato	contato	NOUN	NOUN	_	54	obj	_	TokenRange=423:430
+56	vao	_	PRON	PRON	_	57	mark	_	TokenRange=431:434
+57	destruir	destruir	VERB	VERB	_	52	acl:relcl	_	TokenRange=435:443
+58	dizem	dizer	VERB	VERB	_	54	conj	_	TokenRange=444:449
+59	todos	_	PRON	PRON	_	60	nsubj	_	TokenRange=450:455
+60	infiltrados	infiltrado	ADJ	ADJ	_	58	xcomp	_	TokenRange=456:467
+61	varios	_	DET	DET	_	62	det	_	TokenRange=468:474
+62	estabelecimentos	estabelecimento	NOUN	NOUN	_	58	nsubj	_	TokenRange=475:491
+63	militares	militar	ADJ	ADJ	_	62	amod	_	TokenRange=492:501
+64	especificamente	especificamente	ADV	ADV	_	65	advmod	_	TokenRange=502:517
+65	area	area	NOUN	NOUN	_	62	appos	_	TokenRange=518:522
+66	51	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=523:525
+67	desastres	desastre	NOUN	NOUN	_	65	appos	_	TokenRange=526:535
+68	virao	_	AUX	VERB	_	65	acl:relcl	_	TokenRange=536:541
+69	tudo	_	PRON	PRON	_	70	nsubj	_	TokenRange=542:546
+70	destruido	destruido	ADJ	ADJ	_	65	acl	_	TokenRange=547:556
+71	sinto	sentir	VERB	VERB	_	74	parataxis	_	TokenRange=557:562
+72	militares	militar	NOUN	NOUN	_	74	nsubj	_	TokenRange=563:572
+73	governo	governo	NOUN	NOUN	_	74	nsubj	_	TokenRange=573:580
+74	sabe	saber	VERB	VERB	_	50	parataxis	_	TokenRange=581:585
+75	tudo	_	PRON	PRON	_	76	obj	_	TokenRange=586:590
+76	fontemsn	_	NOUN	NOUN	_	74	obj	_	SpaceAfter=No|TokenRange=591:599
+

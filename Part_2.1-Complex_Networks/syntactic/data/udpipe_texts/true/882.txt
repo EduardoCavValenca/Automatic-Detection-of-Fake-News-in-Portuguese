@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cassado demostenes torres protocola stf pedido voltar senado cassado julho 2012 quebra decoro parlamentar inelegivel 2027 demostenes acusado usar mandato favorecer bicheiro carlos augusto ramos carlinhos cachoeira defesa exsenador demostenes torres pdtgo protocolou nesta quintafeira 1 supremo tribunal federal stf pedido anulacao processo cassacao ocorrido
+1	cassado	cassado	ADJ	ADJ	_	33	amod	_	TokenRange=0:7
+2	demostenes	demostene	NOUN	NOUN	_	1	appos	_	TokenRange=8:18
+3	torres	_	ADJ	ADJ	_	2	amod	_	TokenRange=19:25
+4	protocola	protocola	NOUN	NOUN	_	2	appos	_	TokenRange=26:35
+5	stf	_	NOUN	NOUN	_	4	flat	_	TokenRange=36:39
+6	pedido	pedido	NOUN	NOUN	_	2	appos	_	TokenRange=40:46
+7	voltar	voltar	VERB	VERB	_	4	acl	_	TokenRange=47:53
+8	senado	senado	NOUN	NOUN	_	7	obj	_	TokenRange=54:60
+9	cassado	cassado	ADJ	ADJ	_	8	amod	_	TokenRange=61:68
+10	julho	_	PROPN	PNOUN	_	7	nmod	_	TokenRange=69:74
+11	2012	_	NUM	NUM	NumType=Card	10	nmod	_	TokenRange=75:79
+12	quebra	quebrar	VERB	VERB	_	33	parataxis	_	TokenRange=80:86
+13	decoro	decoro	NOUN	NOUN	_	12	obj	_	TokenRange=87:93
+14	parlamentar	parlamentar	ADJ	ADJ	_	13	amod	_	TokenRange=94:105
+15	inelegivel	inelegivel	ADJ	ADJ	_	13	amod	_	TokenRange=106:116
+16	2027	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=117:121
+17	demostenes	demostene	NOUN	NOUN	_	12	nsubj	_	TokenRange=122:132
+18	acusado	acusar	VERB	VERB	_	17	acl	_	TokenRange=133:140
+19	usar	usar	VERB	VERB	_	18	xcomp	_	TokenRange=141:145
+20	mandato	mandato	NOUN	NOUN	_	19	obj	_	TokenRange=146:153
+21	favorecer	favorecer	VERB	VERB	_	20	acl:inf	_	TokenRange=154:163
+22	bicheiro	bicheiro	NOUN	NOUN	_	21	obj	_	TokenRange=164:172
+23	carlos	carlo	NOUN	NOUN	_	22	appos	_	TokenRange=173:179
+24	augusto	_	NOUN	NOUN	_	23	flat	_	TokenRange=180:187
+25	ramos	ramo	NOUN	NOUN	_	23	flat	_	TokenRange=188:193
+26	carlinhos	_	NOUN	NOUN	_	22	appos	_	TokenRange=194:203
+27	cachoeira	cachoeiro	ADJ	ADJ	_	28	amod	_	TokenRange=204:213
+28	defesa	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=214:220
+29	exsenador	exsenador	NOUN	NOUN	_	28	appos	_	TokenRange=221:230
+30	demostenes	_	NOUN	NOUN	_	28	appos	_	TokenRange=231:241
+31	torres	_	ADJ	ADJ	_	30	flat	_	TokenRange=242:248
+32	pdtgo	pdtgo	NOUN	NOUN	_	30	flat	_	TokenRange=249:254
+33	protocolou	protocolar	VERB	VERB	_	0	root	_	TokenRange=255:265
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=266:271
+35	quintafeira	quintafeira	NOUN	NOUN	_	33	nmod	_	TokenRange=272:283
+36	1	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=284:285
+37	supremo	supremo	ADJ	ADJ	_	38	amod	_	TokenRange=286:293
+38	tribunal	tribunal	NOUN	NOUN	_	33	obj	_	TokenRange=294:302
+39	federal	federal	ADJ	ADJ	_	38	amod	_	TokenRange=303:310
+40	stf	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=311:314
+41	pedido	pedido	NOUN	NOUN	_	33	parataxis	_	TokenRange=315:321
+42	anulacao	anulacao	ADJ	ADJ	_	43	amod	_	TokenRange=322:330
+43	processo	processo	NOUN	NOUN	_	41	obj	_	TokenRange=331:339
+44	cassacao	cassacao	NOUN	NOUN	_	43	flat	_	TokenRange=340:348
+45	ocorrido	ocorrer	VERB	VERB	_	43	acl	_	SpaceAfter=No|TokenRange=349:357
+

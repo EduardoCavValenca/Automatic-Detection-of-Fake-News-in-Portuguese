@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = petista doente ameacou sergio moro twitter continua provocar alvo agora policia federal militante pt ameacou juiz sergio moro postagem twitter tentou explicar publicacao absurda acabou complicando ainda
+1	petista	petista	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	doente	doente	ADJ	ADJ	_	1	amod	_	TokenRange=8:14
+3	ameacou	ameacar	VERB	VERB	_	0	root	_	TokenRange=15:22
+4	sergio	_	NOUN	NOUN	_	3	obj	_	TokenRange=23:29
+5	moro	moro	NOUN	NOUN	_	4	flat	_	TokenRange=30:34
+6	twitter	_	PROPN	PNOUN	_	7	nsubj	_	TokenRange=35:42
+7	continua	continuar	VERB	VERB	_	3	ccomp	_	TokenRange=43:51
+8	provocar	provocar	VERB	VERB	_	7	xcomp	_	TokenRange=52:60
+9	alvo	alvo	NOUN	NOUN	_	8	obj	_	TokenRange=61:65
+10	agora	agora	ADV	ADV	_	15	advmod	_	TokenRange=66:71
+11	policia	policia	NOUN	NOUN	_	15	nsubj	_	TokenRange=72:79
+12	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=80:87
+13	militante	militante	ADJ	ADJ	_	11	amod	_	TokenRange=88:97
+14	pt	_	ADJ	ADJ	_	11	amod	_	TokenRange=98:100
+15	ameacou	ameacar	VERB	VERB	_	3	conj	_	TokenRange=101:108
+16	juiz	juiz	NOUN	NOUN	_	15	obj	_	TokenRange=109:113
+17	sergio	sergio	ADJ	NOUN	_	16	appos	_	TokenRange=114:120
+18	moro	moro	NOUN	NOUN	_	16	flat	_	TokenRange=121:125
+19	postagem	postagem	NOUN	NOUN	_	21	nsubj	_	TokenRange=126:134
+20	twitter	_	PROPN	PNOUN	_	19	appos	_	TokenRange=135:142
+21	tentou	tentar	VERB	VERB	_	15	parataxis	_	TokenRange=143:149
+22	explicar	explicar	VERB	VERB	_	21	xcomp	_	TokenRange=150:158
+23	publicacao	publicacao	NOUN	NOUN	_	22	obj	_	TokenRange=159:169
+24	absurda	absurdo	ADJ	ADJ	_	23	amod	_	TokenRange=170:177
+25	acabou	acabar	AUX	AUX	_	26	aux	_	TokenRange=178:184
+26	complicando	complicar	VERB	VERB	_	15	parataxis	_	TokenRange=185:196
+27	ainda	ainda	ADV	ADV	_	26	advmod	_	SpaceAfter=No|TokenRange=197:202
+

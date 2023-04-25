@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = taxista vive momentos panico refem assaltantes passaram passageiros santarem fato aconteceu noite quintafeira 15 taxista agredido dentro proprio carro pertences levados suspeitos taxista cooperativa taxistas shopping rio tapajos santarem oeste viveu momentos panico noite quintafeira 15 dois homens passaram passageiros solicitaram corrida shopping vila balnearia alter chao caminho anunciaram assalto
+1	taxista	taxista	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	vive	_	VERB	VERB	_	0	root	_	TokenRange=8:12
+3	momentos	momento	NOUN	NOUN	_	2	obj	_	TokenRange=13:21
+4	panico	panico	ADJ	ADJ	_	3	amod	_	TokenRange=22:28
+5	refem	refem	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+6	assaltantes	assaltante	NOUN	NOUN	_	1	appos	_	TokenRange=35:46
+7	passaram	passar	VERB	VERB	_	1	acl:relcl	_	TokenRange=47:55
+8	passageiros	passageiro	NOUN	NOUN	_	7	obj	_	TokenRange=56:67
+9	santarem	santar	NOUN	NOUN	_	8	appos	_	TokenRange=68:76
+10	fato	fato	NOUN	NOUN	_	9	flat	_	TokenRange=77:81
+11	aconteceu	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=82:91
+12	noite	noite	NOUN	NOUN	_	11	nmod	_	TokenRange=92:97
+13	quintafeira	quintafeira	NOUN	NOUN	_	12	appos	_	TokenRange=98:109
+14	15	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=110:112
+15	taxista	taxista	NOUN	NOUN	_	11	nsubj	_	TokenRange=113:120
+16	agredido	agredir	VERB	VERB	_	15	acl	_	TokenRange=121:129
+17	dentro	dentro	ADV	ADV	_	16	advmod	_	TokenRange=130:136
+18	proprio	proprio	ADJ	ADJ	_	19	amod	_	TokenRange=137:144
+19	carro	carro	NOUN	NOUN	_	16	obj	_	TokenRange=145:150
+20	pertences	pertence	NOUN	NOUN	_	19	appos	_	TokenRange=151:160
+21	levados	levar	VERB	VERB	_	19	acl	_	TokenRange=161:168
+22	suspeitos	suspeito	NOUN	NOUN	_	23	amod	_	TokenRange=169:178
+23	taxista	taxista	NOUN	NOUN	_	19	appos	_	TokenRange=179:186
+24	cooperativa	cooperativo	ADJ	ADJ	_	23	amod	_	TokenRange=187:198
+25	taxistas	taxista	NOUN	NOUN	_	29	nsubj	_	TokenRange=199:207
+26	shopping	shopping	NOUN	NOUN	_	25	flat	_	TokenRange=208:216
+27	rio	_	NOUN	NOUN	_	25	appos	_	TokenRange=217:220
+28	tapajos	tapajo	NOUN	NOUN	_	25	flat	_	TokenRange=221:228
+29	santarem	santar	VERB	VERB	_	23	appos	_	TokenRange=229:237
+30	oeste	oeste	NOUN	NOUN	_	29	obj	_	TokenRange=238:243
+31	viveu	viver	VERB	VERB	_	29	parataxis	_	TokenRange=244:249
+32	momentos	momento	NOUN	NOUN	_	31	obj	_	TokenRange=250:258
+33	panico	panico	ADJ	ADJ	_	32	amod	_	TokenRange=259:265
+34	noite	noite	NOUN	NOUN	_	31	obj	_	TokenRange=266:271
+35	quintafeira	quintafeira	NOUN	NOUN	_	34	appos	_	TokenRange=272:283
+36	15	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=284:286
+37	dois	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=287:291
+38	homens	homem	NOUN	NOUN	_	39	nsubj	_	TokenRange=292:298
+39	passaram	passar	VERB	VERB	_	41	parataxis	_	TokenRange=299:307
+40	passageiros	passageiro	NOUN	NOUN	_	41	nsubj	_	TokenRange=308:319
+41	solicitaram	solicitar	VERB	VERB	_	29	parataxis	_	TokenRange=320:331
+42	corrida	corrida	NOUN	NOUN	_	41	obj	_	TokenRange=332:339
+43	shopping	shopping	NOUN	NOUN	_	42	flat	_	TokenRange=340:348
+44	vila	vila	NOUN	NOUN	_	42	appos	_	TokenRange=349:353
+45	balnearia	balnearia	ADJ	ADJ	_	44	amod	_	TokenRange=354:363
+46	alter	alter	ADJ	ADJ	_	47	amod	_	TokenRange=364:369
+47	chao	_	NOUN	NOUN	_	44	flat	_	TokenRange=370:374
+48	caminho	caminho	NOUN	NOUN	_	49	nsubj	_	TokenRange=375:382
+49	anunciaram	anunciar	VERB	VERB	_	31	parataxis	_	TokenRange=383:393
+50	assalto	assalto	NOUN	NOUN	_	49	obj	_	SpaceAfter=No|TokenRange=394:401
+

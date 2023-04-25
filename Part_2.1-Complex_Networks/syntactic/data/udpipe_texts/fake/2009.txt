@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vergonha tv espanhola mostra neymar empurrando zagueiro escada vestiario neymar desentendeu zagueiro ruben vezo dentro campo resolveu estender confusao vestiario imagens emissora espanhola mostram briga entrada vestiario onde neymar empurrou rubem escada abaixo neymar nervoso causa baixo salario recebe
+1	vergonha	vergonha	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	tv	tv	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:11
+3	espanhola	espanhol	ADJ	ADJ	_	2	amod	_	TokenRange=12:21
+4	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=22:28
+5	neymar	neymar	NOUN	NOUN	_	4	obj	_	TokenRange=29:35
+6	empurrando	empurrar	VERB	VERB	_	4	acl	_	TokenRange=36:46
+7	zagueiro	zagueiro	NOUN	NOUN	_	6	obj	_	TokenRange=47:55
+8	escada	escada	NOUN	NOUN	_	7	amod	_	TokenRange=56:62
+9	vestiario	vestiario	NOUN	NOUN	_	11	nsubj	_	TokenRange=63:72
+10	neymar	neymar	NOUN	NOUN	_	11	nsubj	_	TokenRange=73:79
+11	desentendeu	desentender	VERB	VERB	_	4	conj	_	TokenRange=80:91
+12	zagueiro	zagueiro	NOUN	NOUN	_	11	obj	_	TokenRange=92:100
+13	ruben	_	NOUN	NOUN	_	12	appos	_	TokenRange=101:106
+14	vezo	_	NOUN	NOUN	_	12	flat	_	TokenRange=107:111
+15	dentro	dentro	ADV	ADV	_	11	advmod	_	TokenRange=112:118
+16	campo	campo	NOUN	NOUN	_	11	nsubj	_	TokenRange=119:124
+17	resolveu	resolver	VERB	VERB	_	4	conj	_	TokenRange=125:133
+18	estender	estender	VERB	VERB	_	17	xcomp	_	TokenRange=134:142
+19	confusao	confusao	NOUN	NOUN	_	18	obj	_	TokenRange=143:151
+20	vestiario	vestiario	ADJ	NOUN	_	19	amod	_	TokenRange=152:161
+21	imagens	imagem	NOUN	NOUN	_	17	nsubj	_	TokenRange=162:169
+22	emissora	_	NOUN	NOUN	_	21	appos	_	TokenRange=170:178
+23	espanhola	espanhol	ADJ	ADJ	_	22	amod	_	TokenRange=179:188
+24	mostram	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=189:196
+25	briga	briga	NOUN	NOUN	_	24	obj	_	TokenRange=197:202
+26	entrada	entrada	NOUN	NOUN	_	25	appos	_	TokenRange=203:210
+27	vestiario	vestiario	NOUN	NOUN	_	26	appos	_	TokenRange=211:220
+28	onde	onde	ADV	ADV	_	30	advmod	_	TokenRange=221:225
+29	neymar	_	PROPN	PNOUN	_	30	nsubj	_	TokenRange=226:232
+30	empurrou	empurrar	VERB	VERB	_	27	acl:relcl	_	TokenRange=233:241
+31	rubem	rubar	VERB	VERB	_	30	ccomp	_	TokenRange=242:247
+32	escada	escada	NOUN	NOUN	_	31	obj	_	TokenRange=248:254
+33	abaixo	abaixo	ADV	ADV	_	31	advmod	_	TokenRange=255:261
+34	neymar	neymar	NOUN	NOUN	_	36	nsubj	_	TokenRange=262:268
+35	nervoso	nervoso	ADJ	ADJ	_	34	amod	_	TokenRange=269:276
+36	causa	causar	VERB	VERB	_	39	ccomp	_	TokenRange=277:282
+37	baixo	baixo	ADJ	ADJ	_	38	amod	_	TokenRange=283:288
+38	salario	salario	NOUN	NOUN	_	39	obj	_	TokenRange=289:296
+39	recebe	receber	VERB	VERB	_	24	parataxis	_	SpaceAfter=No|TokenRange=297:303
+

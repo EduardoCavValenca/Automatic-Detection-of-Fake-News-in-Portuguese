@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma sofre amnesia moral diz santana marqueteiro afirma tse infelizmente presidente cassada sabia caixa 2 sentia chantageada marcelo odebrecht brasilia uso caixa 2 campanha eleitoral dilma rousseff pt 2014 reforcou percepcao politicos brasileiros sofrem amnesia moral disse depoimento sigiloso justica eleitoral marqueteiro joao santana responsavel campanhas pt presidencia republica 2006 2010 2014 segundo publicitario dilma infelizmente sabia uso recursos contabilizados campanha
+1	dilma	dilma	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	sofre	sofrer	VERB	VERB	_	0	root	_	TokenRange=6:11
+3	amnesia	amnesia	NOUN	NOUN	_	2	obj	_	TokenRange=12:19
+4	moral	moral	ADJ	ADJ	_	3	amod	_	TokenRange=20:25
+5	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=26:29
+6	santana	santana	NOUN	NOUN	_	2	obj	_	TokenRange=30:37
+7	marqueteiro	marqueteiro	NOUN	NOUN	_	11	flat	_	TokenRange=38:49
+8	afirma	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=50:56
+9	tse	_	NOUN	NOUN	_	8	obj	_	TokenRange=57:60
+10	infelizmente	infelizmente	ADV	ADV	_	11	advmod	_	TokenRange=61:73
+11	presidente	presidente	NOUN	NOUN	_	8	obj	_	TokenRange=74:84
+12	cassada	cassado	ADJ	ADJ	_	11	amod	_	TokenRange=85:92
+13	sabia	saber	NOUN	NOUN	_	11	appos	_	TokenRange=93:98
+14	caixa	caixa	NOUN	NOUN	_	13	appos	_	TokenRange=99:104
+15	2	_	NUM	NUM	NumType=Card	14	appos	_	TokenRange=105:106
+16	sentia	sentir	VERB	VERB	_	13	parataxis	_	TokenRange=107:113
+17	chantageada	chantageado	ADJ	ADJ	_	16	xcomp	_	TokenRange=114:125
+18	marcelo	marcelo	NOUN	NOUN	_	17	appos	_	TokenRange=126:133
+19	odebrecht	_	NOUN	NOUN	_	18	flat	_	TokenRange=134:143
+20	brasilia	brasilia	NOUN	NOUN	_	18	flat	_	TokenRange=144:152
+21	uso	uso	NOUN	NOUN	_	16	parataxis	_	TokenRange=153:156
+22	caixa	caixa	NOUN	NOUN	_	21	appos	_	TokenRange=157:162
+23	2	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=163:164
+24	campanha	campanha	NOUN	NOUN	_	21	appos	_	TokenRange=165:173
+25	eleitoral	eleitoral	ADJ	ADJ	_	24	amod	_	TokenRange=174:183
+26	dilma	dilma	NOUN	NOUN	_	24	appos	_	TokenRange=184:189
+27	rousseff	rousseff	NOUN	NOUN	_	24	appos	_	TokenRange=190:198
+28	pt	_	PROPN	NOUN	_	30	nsubj	_	TokenRange=199:201
+29	2014	_	NUM	NUM	NumType=Card	30	nsubj	_	TokenRange=202:206
+30	reforcou	reforcar	VERB	VERB	_	24	acl:relcl	_	TokenRange=207:215
+31	percepcao	percepcao	NOUN	NOUN	_	30	obj	_	TokenRange=216:225
+32	politicos	politico	NOUN	NOUN	_	31	amod	_	TokenRange=226:235
+33	brasileiros	brasileiro	ADJ	ADJ	_	32	amod	_	TokenRange=236:247
+34	sofrem	sofrer	VERB	VERB	_	24	acl:relcl	_	TokenRange=248:254
+35	amnesia	amnesia	NOUN	NOUN	_	34	obj	_	TokenRange=255:262
+36	moral	moral	ADJ	ADJ	_	35	amod	_	TokenRange=263:268
+37	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=269:274
+38	depoimento	depoimento	NOUN	NOUN	_	37	obj	_	TokenRange=275:285
+39	sigiloso	sigiloso	ADJ	ADJ	_	38	amod	_	TokenRange=286:294
+40	justica	_	NOUN	NOUN	_	38	appos	_	TokenRange=295:302
+41	eleitoral	eleitoral	ADJ	ADJ	_	40	amod	_	TokenRange=303:312
+42	marqueteiro	marqueteiro	ADJ	ADJ	_	38	amod	_	TokenRange=313:324
+43	joao	joao	NOUN	NOUN	_	40	appos	_	TokenRange=325:329
+44	santana	santana	ADJ	ADJ	_	43	flat	_	TokenRange=330:337
+45	responsavel	responsavel	ADJ	ADJ	_	46	amod	_	TokenRange=338:349
+46	campanhas	campanha	NOUN	NOUN	_	43	appos	_	TokenRange=350:359
+47	pt	_	NOUN	NOUN	_	48	appos	_	TokenRange=360:362
+48	presidencia	presidencia	NOUN	NOUN	_	46	appos	_	TokenRange=363:374
+49	republica	republico	ADJ	ADJ	_	48	amod	_	TokenRange=375:384
+50	2006	_	NUM	NUM	NumType=Card	48	nmod	_	TokenRange=385:389
+51	2010	_	NUM	NUM	NumType=Card	48	nmod	_	TokenRange=390:394
+52	2014	_	NUM	NUM	NumType=Card	48	nmod	_	TokenRange=395:399
+53	segundo	segundo	ADJ	ADJ	_	54	amod	_	TokenRange=400:407
+54	publicitario	publicitario	NOUN	NOUN	_	48	appos	_	TokenRange=408:420
+55	dilma	dilma	NOUN	NOUN	_	54	appos	_	TokenRange=421:426
+56	infelizmente	infelizmente	ADV	ADV	_	57	advmod	_	TokenRange=427:439
+57	sabia	saber	VERB	VERB	_	58	parataxis	_	TokenRange=440:445
+58	uso	uso	VERB	VERB	_	37	parataxis	_	TokenRange=446:449
+59	recursos	recurso	NOUN	NOUN	_	58	obj	_	TokenRange=450:458
+60	contabilizados	contabilizado	ADJ	ADJ	_	59	amod	_	TokenRange=459:473
+61	campanha	campanha	NOUN	NOUN	_	58	obj	_	SpaceAfter=No|TokenRange=474:482
+

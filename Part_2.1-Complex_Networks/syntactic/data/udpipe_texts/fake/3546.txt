@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = denuncia caiado espioes cubanos disfarcados medicos alimentar comunismo petista caixa 2 fraude trouxe espioes cubanos credenciados medicos forjada ditadura cubana receba r 1 4 bilhao enquanto medicos cubanos ficam r 170 milhoes arthur chioro precisa explicar papel ministro saude fazer politica contra oposicao
+1	denuncia	denuncia	NOUN	NOUN	_	21	nsubj	_	TokenRange=0:8
+2	caiado	caiado	ADJ	ADJ	_	3	amod	_	TokenRange=9:15
+3	espioes	espioe	NOUN	NOUN	_	1	appos	_	TokenRange=16:23
+4	cubanos	cubano	ADJ	ADJ	_	3	amod	_	TokenRange=24:31
+5	disfarcados	disfarcado	ADJ	ADJ	_	3	amod	_	TokenRange=32:43
+6	medicos	medico	NOUN	NOUN	_	3	appos	_	TokenRange=44:51
+7	alimentar	alimentar	ADJ	ADJ	_	3	amod	_	TokenRange=52:61
+8	comunismo	comunismo	ADJ	NOUN	_	3	amod	_	TokenRange=62:71
+9	petista	petista	ADJ	NOUN	_	3	amod	_	TokenRange=72:79
+10	caixa	caixa	NOUN	NOUN	_	3	appos	_	TokenRange=80:85
+11	2	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=86:87
+12	fraude	fraude	NOUN	NOUN	_	13	nsubj	_	TokenRange=88:94
+13	trouxe	trazer	VERB	VERB	_	1	parataxis	_	TokenRange=95:101
+14	espioes	espioe	NOUN	NOUN	_	13	obj	_	TokenRange=102:109
+15	cubanos	cubano	ADJ	ADJ	_	14	amod	_	TokenRange=110:117
+16	credenciados	credenciado	ADJ	ADJ	_	14	amod	_	TokenRange=118:130
+17	medicos	medico	NOUN	NOUN	_	14	appos	_	TokenRange=131:138
+18	forjada	forjado	ADJ	ADJ	_	19	amod	_	TokenRange=139:146
+19	ditadura	ditadura	NOUN	NOUN	_	17	appos	_	TokenRange=147:155
+20	cubana	cubano	ADJ	ADJ	_	19	amod	_	TokenRange=156:162
+21	receba	receber	VERB	VERB	_	0	root	_	TokenRange=163:169
+22	r	r	NOUN	NOUN	_	21	obj	_	TokenRange=170:171
+23	1	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=172:173
+24	4	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=174:175
+25	bilhao	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=176:182
+26	enquanto	_	CCONJ	CONJ	_	29	mark	_	TokenRange=183:191
+27	medicos	medico	NOUN	NOUN	_	29	nsubj	_	TokenRange=192:199
+28	cubanos	cubano	ADJ	ADJ	_	27	amod	_	TokenRange=200:207
+29	ficam	ficar	VERB	VERB	_	21	advcl	_	TokenRange=208:213
+30	r	r	NOUN	NOUN	_	29	obj	_	TokenRange=214:215
+31	170	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=216:219
+32	milhoes	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=220:227
+33	arthur	arthur	NOUN	NOUN	_	29	nsubj	_	TokenRange=228:234
+34	chioro	chioro	NOUN	NOUN	_	33	flat	_	TokenRange=235:241
+35	precisa	precisar	VERB	VERB	_	21	parataxis	_	TokenRange=242:249
+36	explicar	explicar	VERB	VERB	_	35	xcomp	_	TokenRange=250:258
+37	papel	papel	NOUN	NOUN	_	36	obj	_	TokenRange=259:264
+38	ministro	ministro	NOUN	NOUN	_	37	appos	_	TokenRange=265:273
+39	saude	saude	NOUN	NOUN	_	38	flat	_	TokenRange=274:279
+40	fazer	fazer	VERB	VERB	_	35	xcomp	_	TokenRange=280:285
+41	politica	_	NOUN	NOUN	_	40	obj	_	TokenRange=286:294
+42	contra	_	ADP	ADP	_	43	case	_	TokenRange=295:301
+43	oposicao	_	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No|TokenRange=302:310
+

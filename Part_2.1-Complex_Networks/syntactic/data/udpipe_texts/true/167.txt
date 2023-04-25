@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = whatsapp bate recorde mensagens trocadas ano novo 75 bilhoes mensagens todo mundo whatsapp bateu recorde troca mensagens vespera ano novo 75 bilhoes todo mundo informou servico batepapo nesta quintafeira 4 marca atingida 12h 23h59 domingo 31 mensagens 13 bilhoes imagens enviadas 5 bilhoes videos durante ultimo dia 2017 usuarios aplicativo todo mundo relataram problemas enviar receber mensagens instabilidade confirmada propria empresa pediu desculpas inconveniencia 120 milhoes brasileiros possuem conta whatsapp responsaveis enviar 10 bilhoes mensagens 9h dia 31 9h
+1	whatsapp	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	bate	bater	VERB	VERB	_	0	root	_	TokenRange=9:13
+3	recorde	recorde	NOUN	NOUN	_	2	obj	_	TokenRange=14:21
+4	mensagens	mensagem	NOUN	NOUN	_	3	appos	_	TokenRange=22:31
+5	trocadas	trocar	VERB	VERB	_	3	acl	_	TokenRange=32:40
+6	ano	ano	NOUN	NOUN	_	5	nmod	_	TokenRange=41:44
+7	novo	novo	ADJ	ADJ	_	6	amod	_	TokenRange=45:49
+8	75	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=50:52
+9	bilhoes	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=53:60
+10	mensagens	mensagem	NOUN	NOUN	_	2	obj	_	TokenRange=61:70
+11	todo	_	DET	DET	_	12	det	_	TokenRange=71:75
+12	mundo	mundo	NOUN	NOUN	_	14	nsubj	_	TokenRange=76:81
+13	whatsapp	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=82:90
+14	bateu	bater	VERB	VERB	_	2	parataxis	_	TokenRange=91:96
+15	recorde	recorde	NOUN	NOUN	_	14	obj	_	TokenRange=97:104
+16	troca	_	NOUN	NOUN	_	17	appos	_	TokenRange=105:110
+17	mensagens	mensagem	NOUN	NOUN	_	15	appos	_	TokenRange=111:120
+18	vespera	_	ADJ	NOUN	_	14	nmod	_	TokenRange=121:128
+19	ano	ano	NOUN	NOUN	_	14	nmod	_	TokenRange=129:132
+20	novo	novo	ADJ	ADJ	_	19	amod	_	TokenRange=133:137
+21	75	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=138:140
+22	bilhoes	_	NOUN	NOUN	_	19	appos	_	TokenRange=141:148
+23	todo	_	DET	DET	_	24	det	_	TokenRange=149:153
+24	mundo	mundo	NOUN	NOUN	_	25	nsubj	_	TokenRange=154:159
+25	informou	informar	VERB	VERB	_	2	parataxis	_	TokenRange=160:168
+26	servico	servico	NOUN	NOUN	_	25	obj	_	TokenRange=169:176
+27	batepapo	_	NOUN	NOUN	_	26	appos	_	TokenRange=177:185
+28	nesta	_	ADP	ADP	_	29	case	_	TokenRange=186:191
+29	quintafeira	quintafeira	NOUN	NOUN	_	25	nmod	_	TokenRange=192:203
+30	4	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=204:205
+31	marca	marca	NOUN	NOUN	_	29	appos	_	TokenRange=206:211
+32	atingida	atingir	VERB	VERB	_	25	acl	_	TokenRange=212:220
+33	12h	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=221:224
+34	23h59	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=225:230
+35	domingo	_	PROPN	PNOUN	_	32	nmod	_	TokenRange=231:238
+36	31	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=239:241
+37	mensagens	mensagem	NOUN	NOUN	_	25	nsubj	_	TokenRange=242:251
+38	13	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=252:254
+39	bilhoes	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=255:262
+40	imagens	imagem	NOUN	NOUN	_	53	nsubj	_	TokenRange=263:270
+41	enviadas	enviar	VERB	VERB	_	40	acl	_	TokenRange=271:279
+42	5	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=280:281
+43	bilhoes	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=282:289
+44	videos	video	NOUN	NOUN	_	41	obj	_	TokenRange=290:296
+45	durante	_	ADP	ADP	_	47	case	_	TokenRange=297:304
+46	ultimo	_	ADJ	ADJ	_	47	amod	_	TokenRange=305:311
+47	dia	dia	NOUN	NOUN	_	41	nmod	_	TokenRange=312:315
+48	2017	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=316:320
+49	usuarios	usuario	NOUN	NOUN	_	53	nsubj	_	TokenRange=321:329
+50	aplicativo	aplicativo	ADJ	ADJ	_	49	amod	_	TokenRange=330:340
+51	todo	_	DET	DET	_	52	det	_	TokenRange=341:345
+52	mundo	mundo	NOUN	NOUN	_	49	appos	_	TokenRange=346:351
+53	relataram	relatar	VERB	VERB	_	2	parataxis	_	TokenRange=352:361
+54	problemas	problema	NOUN	NOUN	_	53	obj	_	TokenRange=362:371
+55	enviar	enviar	VERB	VERB	_	54	acl:inf	_	TokenRange=372:378
+56	receber	receber	VERB	VERB	_	55	xcomp	_	TokenRange=379:386
+57	mensagens	mensagem	NOUN	NOUN	_	56	obj	_	TokenRange=387:396
+58	instabilidade	instabilidade	NOUN	NOUN	_	57	appos	_	TokenRange=397:410
+59	confirmada	confirmar	VERB	VERB	_	57	acl	_	TokenRange=411:421
+60	propria	proprio	ADJ	ADJ	_	61	amod	_	TokenRange=422:429
+61	empresa	empresa	NOUN	NOUN	_	59	nsubj	_	TokenRange=430:437
+62	pediu	pedir	VERB	VERB	_	53	parataxis	_	TokenRange=438:443
+63	desculpas	desculpa	NOUN	NOUN	_	62	obj	_	TokenRange=444:453
+64	inconveniencia	inconveniencia	NOUN	NOUN	_	63	flat	_	TokenRange=454:468
+65	120	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=469:472
+66	milhoes	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=473:480
+67	brasileiros	brasileiro	ADJ	ADJ	_	68	nsubj	_	TokenRange=481:492
+68	possuem	possuir	VERB	VERB	_	53	parataxis	_	TokenRange=493:500
+69	conta	conta	NOUN	NOUN	_	68	obj	_	TokenRange=501:506
+70	whatsapp	_	NOUN	NOUN	_	69	appos	_	TokenRange=507:515
+71	responsaveis	responsavel	ADJ	ADJ	_	69	amod	_	TokenRange=516:528
+72	enviar	enviar	VERB	VERB	_	68	xcomp	_	TokenRange=529:535
+73	10	_	NUM	NUM	NumType=Card	74	nummod	_	TokenRange=536:538
+74	bilhoes	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=539:546
+75	mensagens	mensagem	NOUN	NOUN	_	72	obj	_	TokenRange=547:556
+76	9h	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=557:559
+77	dia	dia	NOUN	NOUN	_	72	nmod	_	TokenRange=560:563
+78	31	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=564:566
+79	9h	_	NUM	NUM	NumType=Card	77	nmod	_	SpaceAfter=No|TokenRange=567:569
+

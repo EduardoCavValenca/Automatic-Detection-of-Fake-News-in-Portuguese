@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segunda gravacao mostra joesley negociando 50 milhoes propina temer site antagonista soltou missil balistico lombo michel temer empresario joesley batista entregou segunda gravacao pgr tudo maos janot video joesley negocia pagamento r 50 milhoes propina presidente republica dono jbs relatou pgr acerto feito rocha loures assessor especial michel temer pagamento referente 5 sobre faturamento termoeletrica valor divido pago parcelas aposentadoria temer disse antagonista reuniao ocorrido dia 7 abril palacio planalto verdade temer perder cargo ir cadeia
+1	segunda	segundo	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	gravacao	gravacao	NOUN	NOUN	_	3	nsubj	_	TokenRange=8:16
+3	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=17:23
+4	joesley	_	NOUN	NOUN	_	3	obj	_	TokenRange=24:31
+5	negociando	negociar	VERB	VERB	_	4	acl	_	TokenRange=32:42
+6	50	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=43:45
+7	milhoes	_	NUM	NUM	NumType=Card	5	obj	_	TokenRange=46:53
+8	propina	propino	NOUN	NOUN	_	5	obj	_	TokenRange=54:61
+9	temer	temer	NOUN	NOUN	_	8	flat	_	TokenRange=62:67
+10	site	site	NOUN	NOUN	_	5	appos	_	TokenRange=68:72
+11	antagonista	antagonista	ADJ	NOUN	_	10	amod	_	TokenRange=73:84
+12	soltou	soltar	VERB	VERB	_	3	parataxis	_	TokenRange=85:91
+13	missil	missil	NOUN	NOUN	_	12	obj	_	TokenRange=92:98
+14	balistico	balistico	ADJ	ADJ	_	13	amod	_	TokenRange=99:108
+15	lombo	lombo	NOUN	NOUN	_	13	amod	_	TokenRange=109:114
+16	michel	_	ADJ	DET	_	17	amod	_	TokenRange=115:121
+17	temer	temer	NOUN	NOUN	_	12	nsubj	_	TokenRange=122:127
+18	empresario	empresario	NOUN	NOUN	_	17	appos	_	TokenRange=128:138
+19	joesley	_	NOUN	NOUN	_	17	appos	_	TokenRange=139:146
+20	batista	batista	ADJ	ADJ	_	19	amod	_	TokenRange=147:154
+21	entregou	entregar	VERB	VERB	_	3	parataxis	_	TokenRange=155:163
+22	segunda	segundo	ADJ	ADJ	_	23	amod	_	TokenRange=164:171
+23	gravacao	gravacao	NOUN	NOUN	_	21	obj	_	TokenRange=172:180
+24	pgr	_	NOUN	NOUN	_	21	nmod	_	TokenRange=181:184
+25	tudo	_	PRON	PRON	_	26	det	_	TokenRange=185:189
+26	maos	mao	NOUN	NOUN	_	21	nmod	_	TokenRange=190:194
+27	janot	_	NOUN	NOUN	_	26	flat	_	TokenRange=195:200
+28	video	video	NOUN	NOUN	_	30	nsubj	_	TokenRange=201:206
+29	joesley	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=207:214
+30	negocia	negociar	VERB	VERB	_	21	parataxis	_	TokenRange=215:222
+31	pagamento	pagamento	NOUN	NOUN	_	30	obj	_	TokenRange=223:232
+32	r	r	NOUN	NOUN	_	31	flat	_	TokenRange=233:234
+33	50	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=235:237
+34	milhoes	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=238:245
+35	propina	propino	NOUN	NOUN	_	36	amod	_	TokenRange=246:253
+36	presidente	presidente	NOUN	NOUN	_	30	nsubj	_	TokenRange=254:264
+37	republica	republico	ADJ	ADJ	_	36	amod	_	TokenRange=265:274
+38	dono	dono	NOUN	NOUN	_	36	appos	_	TokenRange=275:279
+39	jbs	_	NOUN	NOUN	_	36	appos	_	TokenRange=280:283
+40	relatou	relatar	VERB	VERB	_	30	parataxis	_	TokenRange=284:291
+41	pgr	_	NOUN	NOUN	_	40	obj	_	TokenRange=292:295
+42	acerto	acerto	NOUN	NOUN	_	41	appos	_	TokenRange=296:302
+43	feito	_	NOUN	NOUN	_	42	flat	_	TokenRange=303:308
+44	rocha	rocha	NOUN	NOUN	_	42	appos	_	TokenRange=309:314
+45	loures	_	ADJ	NOUN	_	44	flat	_	TokenRange=315:321
+46	assessor	assessor	NOUN	NOUN	_	40	obj	_	TokenRange=322:330
+47	especial	especial	ADJ	ADJ	_	46	amod	_	TokenRange=331:339
+48	michel	michel	ADJ	ADJ	_	49	amod	_	TokenRange=340:346
+49	temer	temer	NOUN	NOUN	_	50	appos	_	TokenRange=347:352
+50	pagamento	pagamento	NOUN	NOUN	_	46	appos	_	TokenRange=353:362
+51	referente	referente	ADJ	ADJ	_	50	amod	_	TokenRange=363:372
+52	5	_	NUM	NUM	NumType=Card	50	appos	_	TokenRange=373:374
+53	sobre	_	ADP	ADP	_	54	case	_	TokenRange=375:380
+54	faturamento	faturamento	NOUN	NOUN	_	50	nmod	_	TokenRange=381:392
+55	termoeletrica	termoeletrico	ADJ	ADJ	_	54	amod	_	TokenRange=393:406
+56	valor	valor	NOUN	NOUN	_	54	appos	_	TokenRange=407:412
+57	divido	divido	ADJ	ADJ	_	56	amod	_	TokenRange=413:419
+58	pago	pagar	VERB	VERB	_	56	acl	_	TokenRange=420:424
+59	parcelas	parcela	NOUN	NOUN	_	58	obj	_	TokenRange=425:433
+60	aposentadoria	aposentadoria	NOUN	NOUN	_	59	flat	_	TokenRange=434:447
+61	temer	temer	NOUN	NOUN	_	59	flat	_	TokenRange=448:453
+62	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=454:459
+63	antagonista	antagonista	NOUN	NOUN	_	62	obj	_	TokenRange=460:471
+64	reuniao	reuniao	NOUN	NOUN	_	62	nsubj	_	TokenRange=472:479
+65	ocorrido	ocorrer	VERB	VERB	_	64	acl	_	TokenRange=480:488
+66	dia	dia	NOUN	NOUN	_	65	nmod	_	TokenRange=489:492
+67	7	_	NUM	NUM	NumType=Card	66	appos	_	TokenRange=493:494
+68	abril	_	PROPN	PNOUN	_	67	nmod	_	TokenRange=495:500
+69	palacio	palacio	NOUN	NOUN	_	66	appos	_	TokenRange=501:508
+70	planalto	planalto	ADJ	ADJ	_	71	amod	_	TokenRange=509:517
+71	verdade	verdade	NOUN	NOUN	_	73	nsubj	_	TokenRange=518:525
+72	temer	temer	VERB	VERB	_	73	nsubj	_	TokenRange=526:531
+73	perder	perder	VERB	VERB	_	64	acl:inf	_	TokenRange=532:538
+74	cargo	cargo	NOUN	NOUN	_	73	obj	_	TokenRange=539:544
+75	ir	ir	VERB	VERB	_	76	cop	_	TokenRange=545:547
+76	cadeia	cadeia	NOUN	NOUN	_	73	obj	_	SpaceAfter=No|TokenRange=548:554
+

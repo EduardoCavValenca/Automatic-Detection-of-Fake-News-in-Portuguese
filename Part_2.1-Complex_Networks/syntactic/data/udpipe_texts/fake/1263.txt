@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moro grava video manda recado povo brasileiro venham curitiba dia 10 sergio moro gravou video algo comum pediu encarecidamente apoiadores operacao lavajato comparecam curitiba proximo dia 10 juiz agradeceu todo apoio recebido redes sociais demonstrou zela seguranca pessoas apoio sempre importante nessa data necessario vamos evitar confusao conflito quero ninguem machuque justica vai fazer trabalho instituicoes vao trabalhar normalmente
+1	moro	moro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	grava	gravar	VERB	VERB	_	0	root	_	TokenRange=5:10
+3	video	video	NOUN	NOUN	_	2	obj	_	TokenRange=11:16
+4	manda	manda	NOUN	NOUN	_	3	appos	_	TokenRange=17:22
+5	recado	_	NOUN	NOUN	_	6	amod	_	TokenRange=23:29
+6	povo	povo	NOUN	NOUN	_	4	appos	_	TokenRange=30:34
+7	brasileiro	brasileiro	ADJ	ADJ	_	6	amod	_	TokenRange=35:45
+8	venham	vir	VERB	VERB	_	2	parataxis	_	TokenRange=46:52
+9	curitiba	curitiba	NOUN	NOUN	_	8	obj	_	TokenRange=53:61
+10	dia	dia	NOUN	NOUN	_	8	nmod	_	TokenRange=62:65
+11	10	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=66:68
+12	sergio	sergio	NOUN	NOUN	_	14	nsubj	_	TokenRange=69:75
+13	moro	moro	NOUN	NOUN	_	12	flat	_	TokenRange=76:80
+14	gravou	gravar	VERB	VERB	_	2	conj	_	TokenRange=81:87
+15	video	video	NOUN	NOUN	_	14	obj	_	TokenRange=88:93
+16	algo	_	PRON	PRON	_	18	nsubj	_	TokenRange=94:98
+17	comum	comum	ADJ	ADJ	_	15	amod	_	TokenRange=99:104
+18	pediu	pedir	VERB	VERB	_	15	acl:relcl	_	TokenRange=105:110
+19	encarecidamente	encarecidamente	ADV	ADV	_	18	advmod	_	TokenRange=111:126
+20	apoiadores	_	NOUN	NOUN	_	18	obj	_	TokenRange=127:137
+21	operacao	operacao	NOUN	NOUN	_	20	appos	_	TokenRange=138:146
+22	lavajato	lavajato	NOUN	NOUN	_	20	appos	_	TokenRange=147:155
+23	comparecam	comparecar	VERB	VERB	_	18	parataxis	_	TokenRange=156:166
+24	curitiba	curitiba	NOUN	NOUN	_	23	obj	_	TokenRange=167:175
+25	proximo	proximo	ADJ	ADJ	_	26	amod	_	TokenRange=176:183
+26	dia	dia	NOUN	NOUN	_	23	nmod	_	TokenRange=184:187
+27	10	_	NUM	NUM	NumType=Card	26	nmod	_	TokenRange=188:190
+28	juiz	juiz	NOUN	NOUN	_	29	nsubj	_	TokenRange=191:195
+29	agradeceu	agradecer	VERB	VERB	_	23	conj	_	TokenRange=196:205
+30	todo	_	DET	DET	_	31	det	_	TokenRange=206:210
+31	apoio	apoio	NOUN	NOUN	_	29	obj	_	TokenRange=211:216
+32	recebido	receber	VERB	VERB	_	31	acl	_	TokenRange=217:225
+33	redes	rede	NOUN	NOUN	_	32	nsubj	_	TokenRange=226:231
+34	sociais	social	ADJ	ADJ	_	33	amod	_	TokenRange=232:239
+35	demonstrou	demonstrar	VERB	VERB	_	29	parataxis	_	TokenRange=240:250
+36	zela	_	NOUN	NOUN	_	35	obj	_	TokenRange=251:255
+37	seguranca	_	NOUN	NOUN	_	36	flat	_	TokenRange=256:265
+38	pessoas	pessoa	NOUN	NOUN	_	39	amod	_	TokenRange=266:273
+39	apoio	apoio	NOUN	NOUN	_	35	obj	_	TokenRange=274:279
+40	sempre	sempre	ADV	ADV	_	41	advmod	_	TokenRange=280:286
+41	importante	importante	ADJ	ADJ	_	39	amod	_	TokenRange=287:297
+42	nessa	_	ADP	ADP	_	43	case	_	TokenRange=298:303
+43	data	data	NOUN	NOUN	_	46	nmod	_	TokenRange=304:308
+44	necessario	necessario	ADJ	ADJ	_	43	amod	_	TokenRange=309:319
+45	vamos	ir	AUX	AUX	_	46	aux	_	TokenRange=320:325
+46	evitar	evitar	VERB	VERB	_	35	parataxis	_	TokenRange=326:332
+47	confusao	confusao	NOUN	NOUN	_	46	obj	_	TokenRange=333:341
+48	conflito	conflito	NOUN	NOUN	_	47	flat	_	TokenRange=342:350
+49	quero	querer	VERB	VERB	_	47	acl:relcl	_	TokenRange=351:356
+50	ninguem	_	PRON	PRON	_	49	obj	_	TokenRange=357:364
+51	machuque	machuque	VERB	VERB	_	49	ccomp	_	TokenRange=365:373
+52	justica	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=374:381
+53	vai	ir	AUX	AUX	_	54	aux	_	TokenRange=382:385
+54	fazer	fazer	VERB	VERB	_	49	ccomp	_	TokenRange=386:391
+55	trabalho	trabalho	NOUN	NOUN	_	54	obj	_	TokenRange=392:400
+56	instituicoes	instituicoe	ADJ	ADJ	_	54	nsubj	_	TokenRange=401:413
+57	vao	ir	AUX	AUX	_	58	aux	_	TokenRange=414:417
+58	trabalhar	trabalhar	VERB	VERB	_	46	parataxis	_	TokenRange=418:427
+59	normalmente	normalmente	ADV	ADV	_	58	advmod	_	SpaceAfter=No|TokenRange=428:439
+

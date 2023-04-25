@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo deve usar recursos reoneracao folha custear intervencao rio confirma meirelles ministerio planejamento anunciou domingo uniao vai destinar cerca r 1 bilhao intervencao recemcriado ministerio seguranca publica ministro fazenda henrique meirelles confirmou nesta segundafeira 19 entrevista radio cbn governo federal pode usar recursos obtidos reoneracao folha pagamento custear intervencao
+1	governo	governo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	deve	dever	AUX	AUX	_	3	aux	_	TokenRange=8:12
+3	usar	usar	VERB	VERB	_	0	root	_	TokenRange=13:17
+4	recursos	recurso	NOUN	NOUN	_	3	obj	_	TokenRange=18:26
+5	reoneracao	_	ADJ	ADJ	_	4	amod	_	TokenRange=27:37
+6	folha	folha	NOUN	NOUN	_	3	nsubj	_	TokenRange=38:43
+7	custear	custear	NOUN	VERB	_	3	parataxis	_	TokenRange=44:51
+8	intervencao	intervencao	NOUN	NOUN	_	7	obj	_	TokenRange=52:63
+9	rio	rio	NOUN	NOUN	_	10	nsubj	_	TokenRange=64:67
+10	confirma	confirmar	VERB	VERB	_	3	parataxis	_	TokenRange=68:76
+11	meirelles	_	NOUN	NOUN	_	10	obj	_	TokenRange=77:86
+12	ministerio	ministerio	NOUN	NOUN	_	11	amod	_	TokenRange=87:97
+13	planejamento	planejamento	NOUN	NOUN	_	15	flat	_	TokenRange=98:110
+14	anunciou	anunciar	VERB	VERB	_	3	parataxis	_	TokenRange=111:119
+15	domingo	_	PROPN	PNOUN	_	14	nsubj	_	TokenRange=120:127
+16	uniao	_	PROPN	NOUN	_	15	flat	_	TokenRange=128:133
+17	vai	ir	AUX	AUX	_	18	aux	_	TokenRange=134:137
+18	destinar	destinar	VERB	VERB	_	14	ccomp	_	TokenRange=138:146
+19	cerca	cerca	ADV	ADV	_	22	advmod	_	TokenRange=147:152
+20	r	r	ADP	NOUN	_	19	case	_	TokenRange=153:154
+21	1	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=155:156
+22	bilhao	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=157:163
+23	intervencao	intervencao	NOUN	NOUN	_	18	obj	_	TokenRange=164:175
+24	recemcriado	recemcriado	ADJ	ADJ	_	25	amod	_	TokenRange=176:187
+25	ministerio	ministerio	NOUN	NOUN	_	23	appos	_	TokenRange=188:198
+26	seguranca	_	ADJ	ADJ	_	25	amod	_	TokenRange=199:208
+27	publica	publico	ADJ	ADJ	_	28	amod	_	TokenRange=209:216
+28	ministro	ministro	NOUN	NOUN	_	18	nsubj	_	TokenRange=217:225
+29	fazenda	fazenda	NOUN	NOUN	_	28	flat	_	TokenRange=226:233
+30	henrique	henrique	NOUN	NOUN	_	28	appos	_	TokenRange=234:242
+31	meirelles	_	NOUN	NOUN	_	28	flat	_	TokenRange=243:252
+32	confirmou	confirmar	VERB	VERB	_	3	parataxis	_	TokenRange=253:262
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=263:268
+34	segundafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=269:281
+35	19	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=282:284
+36	entrevista	entrevista	NOUN	NOUN	_	32	obj	_	TokenRange=285:295
+37	radio	radio	NOUN	NOUN	_	36	appos	_	TokenRange=296:301
+38	cbn	_	X	NOUN	_	37	flat	_	TokenRange=302:305
+39	governo	governo	NOUN	NOUN	_	42	nsubj	_	TokenRange=306:313
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=314:321
+41	pode	_	AUX	AUX	_	42	aux	_	TokenRange=322:326
+42	usar	usar	VERB	VERB	_	32	parataxis	_	TokenRange=327:331
+43	recursos	recurso	NOUN	NOUN	_	42	obj	_	TokenRange=332:340
+44	obtidos	obter	VERB	VERB	_	43	acl	_	TokenRange=341:348
+45	reoneracao	reoneracao	ADJ	ADJ	_	44	xcomp	_	TokenRange=349:359
+46	folha	folha	NOUN	NOUN	_	42	parataxis	_	TokenRange=360:365
+47	pagamento	pagamento	NOUN	NOUN	_	46	appos	_	TokenRange=366:375
+48	custear	custear	VERB	VERB	_	47	amod	_	TokenRange=376:383
+49	intervencao	intervencao	NOUN	NOUN	_	48	obj	_	SpaceAfter=No|TokenRange=384:395
+

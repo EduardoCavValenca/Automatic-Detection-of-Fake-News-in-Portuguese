@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pec 10/2013 preciso muita pressao povo brasileiro acabar blindagem politicos palavras senador paranaense alvaro dias duvida fim foro privilegiado avanco civilizatorio estaremos caminhando direcao nova justica pais aprovado projeto preciso muita pressao pressao passara sentindo dificuldades resistencia necessario muita pressao redes sociais muita pressao povo brasileiro projeto votado senado federal autoria senador alvaro dias outros ementa altera arts 102 105 108 125 constituicao federal extinguir foro especial prerrogativa funcao casos crimes comuns explicacao ementa altera constituicao federal extinguir foro especial prerrogativa funcao casos crimes comuns
+1	pec	_	NOUN	NOUN	_	16	parataxis	_	TokenRange=0:3
+2	10/2013	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=4:11
+3	preciso	_	ADJ	ADJ	_	1	amod	_	TokenRange=12:19
+4	muita	_	DET	DET	_	5	det	_	TokenRange=20:25
+5	pressao	pressao	NOUN	NOUN	_	1	appos	_	TokenRange=26:33
+6	povo	povo	NOUN	NOUN	_	8	nsubj	_	TokenRange=34:38
+7	brasileiro	brasileiro	ADJ	ADJ	_	6	amod	_	TokenRange=39:49
+8	acabar	acabar	VERB	VERB	_	1	parataxis	_	TokenRange=50:56
+9	blindagem	blindagem	NOUN	NOUN	_	8	obj	_	TokenRange=57:66
+10	politicos	politico	ADJ	ADJ	_	9	amod	_	TokenRange=67:76
+11	palavras	palavra	NOUN	NOUN	_	9	appos	_	TokenRange=77:85
+12	senador	senador	NOUN	NOUN	_	11	appos	_	TokenRange=86:93
+13	paranaense	paranaense	ADJ	ADJ	_	12	amod	_	TokenRange=94:104
+14	alvaro	alvaro	NOUN	NOUN	_	5	appos	_	TokenRange=105:111
+15	dias	dia	NOUN	NOUN	_	14	flat	_	TokenRange=112:116
+16	duvida	duvidar	VERB	VERB	_	0	root	_	TokenRange=117:123
+17	fim	fim	NOUN	NOUN	_	16	obj	_	TokenRange=124:127
+18	foro	foro	NOUN	NOUN	_	17	appos	_	TokenRange=128:132
+19	privilegiado	privilegiado	ADJ	ADJ	_	20	amod	_	TokenRange=133:145
+20	avanco	avanco	NOUN	NOUN	_	17	appos	_	TokenRange=146:152
+21	civilizatorio	civilizatorio	ADJ	ADJ	_	20	amod	_	TokenRange=153:166
+22	estaremos	estar	AUX	AUX	_	23	aux	_	TokenRange=167:176
+23	caminhando	caminhar	VERB	VERB	_	8	parataxis	_	TokenRange=177:187
+24	direcao	direcao	NOUN	NOUN	_	23	obj	_	TokenRange=188:195
+25	nova	novo	ADJ	ADJ	_	26	amod	_	TokenRange=196:200
+26	justica	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=201:208
+27	pais	_	NOUN	NOUN	_	29	appos	_	TokenRange=209:213
+28	aprovado	aprovado	ADJ	ADJ	_	29	amod	_	TokenRange=214:222
+29	projeto	projeto	NOUN	NOUN	_	35	nsubj	_	TokenRange=223:230
+30	preciso	preciso	ADJ	ADJ	_	29	amod	_	TokenRange=231:238
+31	muita	_	DET	DET	_	32	det	_	TokenRange=239:244
+32	pressao	pressao	NOUN	NOUN	_	29	appos	_	TokenRange=245:252
+33	pressao	pressao	ADJ	ADJ	_	32	amod	_	TokenRange=253:260
+34	passara	passar	AUX	AUX	_	35	aux	_	TokenRange=261:268
+35	sentindo	sentir	VERB	VERB	_	16	parataxis	_	TokenRange=269:277
+36	dificuldades	dificuldade	NOUN	NOUN	_	35	obj	_	TokenRange=278:290
+37	resistencia	resistencia	NOUN	NOUN	_	36	appos	_	TokenRange=291:302
+38	necessario	necessario	ADJ	ADJ	_	36	amod	_	TokenRange=303:313
+39	muita	_	DET	DET	_	40	det	_	TokenRange=314:319
+40	pressao	pressao	NOUN	NOUN	_	35	nmod	_	TokenRange=320:327
+41	redes	rede	NOUN	NOUN	_	35	nsubj	_	TokenRange=328:333
+42	sociais	social	ADJ	ADJ	_	41	amod	_	TokenRange=334:341
+43	muita	_	DET	DET	_	44	det	_	TokenRange=342:347
+44	pressao	pressao	NOUN	NOUN	_	35	nsubj	_	TokenRange=348:355
+45	povo	povo	NOUN	NOUN	_	44	appos	_	TokenRange=356:360
+46	brasileiro	brasileiro	ADJ	ADJ	_	44	amod	_	TokenRange=361:371
+47	projeto	projeto	NOUN	NOUN	_	35	parataxis	_	TokenRange=372:379
+48	votado	votado	ADJ	ADJ	_	49	amod	_	TokenRange=380:386
+49	senado	senado	NOUN	NOUN	_	44	appos	_	TokenRange=387:393
+50	federal	federal	ADJ	ADJ	_	49	amod	_	TokenRange=394:401
+51	autoria	autoria	NOUN	NOUN	_	49	appos	_	TokenRange=402:409
+52	senador	senador	NOUN	NOUN	_	51	appos	_	TokenRange=410:417
+53	alvaro	alvaro	ADJ	ADJ	_	52	amod	_	TokenRange=418:424
+54	dias	dia	NOUN	NOUN	_	52	flat	_	TokenRange=425:429
+55	outros	_	DET	DET	_	56	det	_	TokenRange=430:436
+56	ementa	ementa	NOUN	NOUN	_	57	nsubj	_	TokenRange=437:443
+57	altera	alterar	VERB	VERB	_	16	parataxis	_	TokenRange=444:450
+58	arts	_	NOUN	NOUN	_	57	obj	_	TokenRange=451:455
+59	102	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=456:459
+60	105	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=460:463
+61	108	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=464:467
+62	125	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=468:471
+63	constituicao	constituicao	NOUN	NOUN	_	57	nsubj	_	TokenRange=472:484
+64	federal	federal	ADJ	ADJ	_	63	amod	_	TokenRange=485:492
+65	extinguir	extinguir	VERB	VERB	_	57	ccomp	_	TokenRange=493:502
+66	foro	foro	NOUN	NOUN	_	65	obj	_	TokenRange=503:507
+67	especial	especial	ADJ	ADJ	_	66	amod	_	TokenRange=508:516
+68	prerrogativa	prerrogativa	ADJ	ADJ	_	66	amod	_	TokenRange=517:529
+69	funcao	funcao	ADJ	ADJ	_	66	amod	_	TokenRange=530:536
+70	casos	caso	NOUN	NOUN	_	66	appos	_	TokenRange=537:542
+71	crimes	crime	NOUN	NOUN	_	70	flat	_	TokenRange=543:549
+72	comuns	comum	ADJ	ADJ	_	70	amod	_	TokenRange=550:556
+73	explicacao	explicacao	ADJ	ADJ	_	74	amod	_	TokenRange=557:567
+74	ementa	ementa	NOUN	NOUN	_	75	nsubj	_	TokenRange=568:574
+75	altera	alterar	VERB	VERB	_	66	acl:relcl	_	TokenRange=575:581
+76	constituicao	constituicao	NOUN	NOUN	_	75	obj	_	TokenRange=582:594
+77	federal	federal	ADJ	ADJ	_	76	amod	_	TokenRange=595:602
+78	extinguir	extinguir	VERB	VERB	_	75	ccomp	_	TokenRange=603:612
+79	foro	foro	NOUN	NOUN	_	78	obj	_	TokenRange=613:617
+80	especial	especial	ADJ	ADJ	_	79	amod	_	TokenRange=618:626
+81	prerrogativa	prerrogativa	ADJ	ADJ	_	79	amod	_	TokenRange=627:639
+82	funcao	funcao	ADJ	ADJ	_	79	amod	_	TokenRange=640:646
+83	casos	caso	NOUN	NOUN	_	79	appos	_	TokenRange=647:652
+84	crimes	crime	NOUN	NOUN	_	79	appos	_	TokenRange=653:659
+85	comuns	comum	ADJ	ADJ	_	83	amod	_	SpaceAfter=No|TokenRange=660:666
+

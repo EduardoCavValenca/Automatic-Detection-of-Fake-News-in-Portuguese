@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = amistoso panama suica mostra vai alem defesa primeiro rival brasil mundial goleia selecao caribenha mostra defesa solida alem diferenciar defesa solida dificilmente sofre gols suica ataque capaz incomodar adversarios primeiros rivais brasil copa mostraram amistosos antes convocacoes finais vencer grecia 1 0 sextafeira casa adversario suicos trituraram panama goleada 6 0 dentro casa atuando time reserva selecao peruana mantem embalo vence islandia amistoso eua titular
+1	amistoso	_	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	panama	panama	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:15
+3	suica	_	ADJ	ADJ	_	2	amod	_	TokenRange=16:21
+4	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=22:28
+5	vai	ir	AUX	AUX	_	4	aux	_	TokenRange=29:32
+6	alem	alem	ADV	ADV	_	4	advmod	_	TokenRange=33:37
+7	defesa	_	NOUN	NOUN	_	4	obj	_	TokenRange=38:44
+8	primeiro	primeiro	ADJ	ADJ	_	9	amod	_	TokenRange=45:53
+9	rival	rival	NOUN	NOUN	_	4	nsubj	_	TokenRange=54:59
+10	brasil	brasil	ADJ	ADJ	_	9	amod	_	TokenRange=60:66
+11	mundial	mundial	ADJ	ADJ	_	9	amod	_	TokenRange=67:74
+12	goleia	goleia	ADJ	ADJ	_	9	amod	_	TokenRange=75:81
+13	selecao	selecao	NOUN	NOUN	_	15	nsubj	_	TokenRange=82:89
+14	caribenha	caribenha	ADJ	ADJ	_	13	amod	_	TokenRange=90:99
+15	mostra	mostrar	VERB	VERB	_	4	conj	_	TokenRange=100:106
+16	defesa	_	NOUN	NOUN	_	15	obj	_	TokenRange=107:113
+17	solida	solido	ADJ	ADJ	_	16	amod	_	TokenRange=114:120
+18	alem	alem	ADV	ADV	_	19	advmod	_	TokenRange=121:125
+19	diferenciar	diferenciar	VERB	VERB	_	15	advcl	_	TokenRange=126:137
+20	defesa	_	NOUN	NOUN	_	19	obj	_	TokenRange=138:144
+21	solida	solido	ADJ	ADJ	_	20	amod	_	TokenRange=145:151
+22	dificilmente	dificilmente	ADV	ADV	_	23	advmod	_	TokenRange=152:164
+23	sofre	sofrer	VERB	VERB	_	15	parataxis	_	TokenRange=165:170
+24	gols	gol	NOUN	NOUN	_	23	obj	_	TokenRange=171:175
+25	suica	suico	ADJ	ADJ	_	26	amod	_	TokenRange=176:181
+26	ataque	ataque	NOUN	NOUN	_	23	nsubj	_	TokenRange=182:188
+27	capaz	capaz	ADJ	ADJ	_	26	amod	_	TokenRange=189:194
+28	incomodar	incomodar	VERB	VERB	_	26	acl:inf	_	TokenRange=195:204
+29	adversarios	adversario	NOUN	NOUN	_	28	obj	_	TokenRange=205:216
+30	primeiros	primeiro	ADJ	ADJ	_	31	amod	_	TokenRange=217:226
+31	rivais	rival	NOUN	NOUN	_	28	obj	_	TokenRange=227:233
+32	brasil	brasil	ADJ	ADJ	_	31	amod	_	TokenRange=234:240
+33	copa	copa	NOUN	NOUN	_	31	appos	_	TokenRange=241:245
+34	mostraram	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=246:255
+35	amistosos	_	NOUN	NOUN	_	34	obj	_	TokenRange=256:265
+36	antes	antes	ADV	ADV	_	39	advmod	_	TokenRange=266:271
+37	convocacoes	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=272:283
+38	finais	final	ADJ	ADJ	_	37	amod	_	TokenRange=284:290
+39	vencer	vencer	VERB	VERB	_	35	acl:relcl	_	TokenRange=291:297
+40	grecia	grecia	NOUN	NOUN	_	39	obj	_	TokenRange=298:304
+41	1	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=305:306
+42	0	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=307:308
+43	sextafeira	sextafeira	NOUN	NOUN	_	40	appos	_	TokenRange=309:319
+44	casa	casa	NOUN	NOUN	_	47	nsubj	_	TokenRange=320:324
+45	adversario	adversario	ADJ	ADJ	_	44	amod	_	TokenRange=325:335
+46	suicos	suico	ADJ	NOUN	_	44	amod	_	TokenRange=336:342
+47	trituraram	triturar	VERB	VERB	_	34	conj	_	TokenRange=343:353
+48	panama	panama	NOUN	NOUN	_	47	obj	_	TokenRange=354:360
+49	goleada	goleada	NOUN	NOUN	_	48	appos	_	TokenRange=361:368
+50	6	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=369:370
+51	0	_	NUM	NUM	NumType=Card	49	appos	_	TokenRange=371:372
+52	dentro	dentro	ADV	ADV	_	47	advmod	_	TokenRange=373:379
+53	casa	casa	NOUN	NOUN	_	52	nmod	_	TokenRange=380:384
+54	atuando	atuar	VERB	VERB	_	48	acl	_	TokenRange=385:392
+55	time	time	NOUN	NOUN	_	54	obj	_	TokenRange=393:397
+56	reserva	reserva	ADJ	ADJ	_	55	amod	_	TokenRange=398:405
+57	selecao	selecao	NOUN	NOUN	_	59	nsubj	_	TokenRange=406:413
+58	peruana	peruano	ADJ	ADJ	_	57	amod	_	TokenRange=414:421
+59	mantem	mantar	VERB	VERB	_	47	parataxis	_	TokenRange=422:428
+60	embalo	embalo	NOUN	NOUN	_	59	obj	_	TokenRange=429:435
+61	vence	vencer	VERB	VERB	_	59	parataxis	_	TokenRange=436:441
+62	islandia	islandia	NOUN	NOUN	_	61	obj	_	TokenRange=442:450
+63	amistoso	amistoso	ADJ	ADJ	_	62	amod	_	TokenRange=451:459
+64	eua	_	DET	DET	_	65	det	_	TokenRange=460:463
+65	titular	titular	NOUN	NOUN	_	62	amod	_	SpaceAfter=No|TokenRange=464:471
+

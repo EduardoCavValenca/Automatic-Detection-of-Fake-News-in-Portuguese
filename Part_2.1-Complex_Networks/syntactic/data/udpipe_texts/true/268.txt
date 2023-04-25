@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moro decide soltar exdeputado federal candido vaccarezza exige fianca r 15 milhao politico preso 44 fase operacao lava jato juiz federal sergio moro decidiu nesta tercafeira 22 soltar exdeputado federal expetista candido vaccarezza atualmente partido avante politico detido sextafeira 18 carater temporario durante deflagracao 44 fase operacao lava jato batizada abate despacho moro determinou politico devera pagar fianca r 152270000 pagamento podera feito 10 dias saida cadeia direito habeas corpus assinou termo compromisso garantindo podera depositar dinheiro prazo determinado
+1	moro	moro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	decide	decidir	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	soltar	soltar	VERB	VERB	_	2	xcomp	_	TokenRange=12:18
+4	exdeputado	exdeputado	NOUN	NOUN	_	3	obj	_	TokenRange=19:29
+5	federal	federal	ADJ	ADJ	_	4	amod	_	TokenRange=30:37
+6	candido	candido	ADJ	ADJ	_	7	amod	_	TokenRange=38:45
+7	vaccarezza	vaccarezza	NOUN	NOUN	_	4	appos	_	TokenRange=46:56
+8	exige	exigir	VERB	VERB	_	2	parataxis	_	TokenRange=57:62
+9	fianca	fianca	NOUN	NOUN	_	8	obj	_	TokenRange=63:69
+10	r	r	NOUN	NOUN	_	9	flat	_	TokenRange=70:71
+11	15	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=72:74
+12	milhao	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=75:81
+13	politico	politico	NOUN	NOUN	_	9	appos	_	TokenRange=82:90
+14	preso	preso	VERB	VERB	_	2	acl	_	TokenRange=91:96
+15	44	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=97:99
+16	fase	fase	NOUN	NOUN	_	14	nmod	_	TokenRange=100:104
+17	operacao	operacao	NOUN	NOUN	_	16	appos	_	TokenRange=105:113
+18	lava	lava	NOUN	NOUN	_	16	appos	_	TokenRange=114:118
+19	jato	jato	NOUN	NOUN	_	20	amod	_	TokenRange=119:123
+20	juiz	juiz	NOUN	NOUN	_	18	appos	_	TokenRange=124:128
+21	federal	federal	ADJ	ADJ	_	20	amod	_	TokenRange=129:136
+22	sergio	_	NOUN	NOUN	_	20	appos	_	TokenRange=137:143
+23	moro	moro	NOUN	NOUN	_	20	flat	_	TokenRange=144:148
+24	decidiu	decidir	VERB	VERB	_	2	parataxis	_	TokenRange=149:156
+25	nesta	_	ADP	ADP	_	26	case	_	TokenRange=157:162
+26	tercafeira	_	NOUN	NOUN	_	24	nmod	_	TokenRange=163:173
+27	22	_	NUM	NUM	NumType=Card	28	nsubj	_	TokenRange=174:176
+28	soltar	soltar	VERB	VERB	_	24	ccomp	_	TokenRange=177:183
+29	exdeputado	exdeputado	NOUN	NOUN	_	28	obj	_	TokenRange=184:194
+30	federal	federal	ADJ	ADJ	_	29	amod	_	TokenRange=195:202
+31	expetista	expetista	ADJ	ADJ	_	29	amod	_	TokenRange=203:212
+32	candido	candido	NOUN	NOUN	_	29	appos	_	TokenRange=213:220
+33	vaccarezza	vaccarezza	NOUN	NOUN	_	32	flat	_	TokenRange=221:231
+34	atualmente	atualmente	ADV	ADV	_	35	advmod	_	TokenRange=232:242
+35	partido	partido	NOUN	NOUN	_	28	obj	_	TokenRange=243:250
+36	avante	avante	ADJ	ADJ	_	35	amod	_	TokenRange=251:257
+37	politico	politico	ADJ	ADJ	_	35	amod	_	TokenRange=258:266
+38	detido	deter	VERB	VERB	_	35	acl	_	TokenRange=267:273
+39	sextafeira	sextafeira	NOUN	NOUN	_	28	nmod	_	TokenRange=274:284
+40	18	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=285:287
+41	carater	carater	NOUN	NOUN	_	39	appos	_	TokenRange=288:295
+42	temporario	temporario	ADJ	ADJ	_	41	amod	_	TokenRange=296:306
+43	durante	_	ADP	ADP	_	44	case	_	TokenRange=307:314
+44	deflagracao	deflagracao	NOUN	NOUN	_	28	nmod	_	TokenRange=315:326
+45	44	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=327:329
+46	fase	fase	NOUN	NOUN	_	44	appos	_	TokenRange=330:334
+47	operacao	operacao	NOUN	NOUN	_	46	appos	_	TokenRange=335:343
+48	lava	lava	NOUN	NOUN	_	46	appos	_	TokenRange=344:348
+49	jato	jato	NOUN	NOUN	_	48	flat	_	TokenRange=349:353
+50	batizada	batizado	ADJ	ADJ	_	51	amod	_	TokenRange=354:362
+51	abate	abate	NOUN	NOUN	_	54	nsubj	_	TokenRange=363:368
+52	despacho	despacho	NOUN	NOUN	_	51	appos	_	TokenRange=369:377
+53	moro	moro	NOUN	NOUN	_	51	flat	_	TokenRange=378:382
+54	determinou	determinar	VERB	VERB	_	2	parataxis	_	TokenRange=383:393
+55	politico	_	NOUN	NOUN	_	54	obj	_	TokenRange=394:402
+56	devera	_	AUX	AUX	_	57	aux	_	TokenRange=403:409
+57	pagar	pagar	VERB	VERB	_	54	ccomp	_	TokenRange=410:415
+58	fianca	fianca	NOUN	NOUN	_	57	obj	_	TokenRange=416:422
+59	r	r	NOUN	NOUN	_	58	appos	_	TokenRange=423:424
+60	152270000	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=425:434
+61	pagamento	pagamento	NOUN	NOUN	_	63	nsubj	_	TokenRange=435:444
+62	podera	_	AUX	AUX	_	63	aux	_	TokenRange=445:451
+63	feito	_	VERB	VERB	_	57	parataxis	_	TokenRange=452:457
+64	10	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=458:460
+65	dias	dia	NOUN	NOUN	_	63	nmod	_	TokenRange=461:465
+66	saida	saido	ADJ	ADJ	_	67	amod	_	TokenRange=466:471
+67	cadeia	cadeia	NOUN	NOUN	_	63	nsubj	_	TokenRange=472:478
+68	direito	direito	ADJ	ADJ	_	67	amod	_	TokenRange=479:486
+69	habeas	habeas	NOUN	NOUN	_	71	nsubj	_	TokenRange=487:493
+70	corpus	corpus	NOUN	NOUN	_	69	flat	_	TokenRange=494:500
+71	assinou	assinar	VERB	VERB	_	63	parataxis	_	TokenRange=501:508
+72	termo	termo	NOUN	NOUN	_	71	obj	_	TokenRange=509:514
+73	compromisso	compromisso	NOUN	NOUN	_	71	obj	_	TokenRange=515:526
+74	garantindo	garantir	VERB	VERB	_	73	acl	_	TokenRange=527:537
+75	podera	poder	AUX	AUX	_	76	aux	_	TokenRange=538:544
+76	depositar	depositar	VERB	VERB	_	71	parataxis	_	TokenRange=545:554
+77	dinheiro	dinheiro	NOUN	NOUN	_	76	obj	_	TokenRange=555:563
+78	prazo	prazo	NOUN	NOUN	_	76	obj	_	TokenRange=564:569
+79	determinado	determinar	VERB	VERB	_	78	acl	_	SpaceAfter=No|TokenRange=570:581
+

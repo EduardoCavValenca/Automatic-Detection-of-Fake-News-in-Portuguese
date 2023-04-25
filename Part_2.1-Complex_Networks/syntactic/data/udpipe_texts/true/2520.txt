@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ofensa ciencia diz medico especialista drogas intimado depor apologia crime 87 anos cientista elisaldo carlini dedicase seis decadas estudo efeito drogas maconha medicinal alvo inquerito investiga cometeu crime enquanto organizava simposio sobre cannabis ano passado setembro ano passado medico elisaldo carlini surpreendido correspondencia
+1	ofensa	ofenso	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	ciencia	ciencia	NOUN	NOUN	_	3	nsubj	_	TokenRange=7:14
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=15:18
+4	medico	medico	NOUN	NOUN	_	3	obj	_	TokenRange=19:25
+5	especialista	especialista	ADJ	ADJ	_	4	amod	_	TokenRange=26:38
+6	drogas	droga	NOUN	NOUN	_	4	appos	_	TokenRange=39:45
+7	intimado	intimado	ADJ	ADJ	_	6	amod	_	TokenRange=46:54
+8	depor	depor	VERB	VERB	_	6	acl	_	TokenRange=55:60
+9	apologia	apologia	NOUN	NOUN	_	8	obj	_	TokenRange=61:69
+10	crime	crime	NOUN	NOUN	_	9	flat	_	TokenRange=70:75
+11	87	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=76:78
+12	anos	ano	NOUN	NOUN	_	9	appos	_	TokenRange=79:83
+13	cientista	cientista	NOUN	NOUN	_	12	amod	_	TokenRange=84:93
+14	elisaldo	elisaldo	NOUN	NOUN	_	12	appos	_	TokenRange=94:102
+15	carlini	_	NOUN	NOUN	_	14	flat	_	TokenRange=103:110
+16	dedicase	dedicaser	VERB	VERB	_	3	parataxis	_	TokenRange=111:119
+17	seis	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=120:124
+18	decadas	_	NOUN	NOUN	_	16	nmod	_	TokenRange=125:132
+19	estudo	estudo	NOUN	NOUN	_	16	obj	_	TokenRange=133:139
+20	efeito	efeito	NOUN	NOUN	_	19	appos	_	TokenRange=140:146
+21	drogas	droga	NOUN	NOUN	_	20	flat	_	TokenRange=147:153
+22	maconha	maconha	NOUN	NOUN	_	19	appos	_	TokenRange=154:161
+23	medicinal	medicinal	ADJ	ADJ	_	22	amod	_	TokenRange=162:171
+24	alvo	alvo	ADJ	ADJ	_	22	amod	_	TokenRange=172:176
+25	inquerito	inquerito	ADJ	ADJ	_	22	amod	_	TokenRange=177:186
+26	investiga	investigo	ADJ	NOUN	_	27	nsubj	_	TokenRange=187:196
+27	cometeu	cometer	VERB	VERB	_	3	parataxis	_	TokenRange=197:204
+28	crime	crime	NOUN	NOUN	_	27	obj	_	TokenRange=205:210
+29	enquanto	_	CCONJ	CONJ	_	30	mark	_	TokenRange=211:219
+30	organizava	organizar	VERB	VERB	_	27	advcl	_	TokenRange=220:230
+31	simposio	simposio	NOUN	NOUN	_	30	obj	_	TokenRange=231:239
+32	sobre	_	ADP	ADP	_	33	case	_	TokenRange=240:245
+33	cannabis	cannabi	NOUN	NOUN	_	31	nmod	_	TokenRange=246:254
+34	ano	ano	NOUN	NOUN	_	31	nmod	_	TokenRange=255:258
+35	passado	passado	ADJ	ADJ	_	34	amod	_	TokenRange=259:266
+36	setembro	_	PROPN	PNOUN	_	37	amod	_	TokenRange=267:275
+37	ano	ano	NOUN	NOUN	_	31	nmod	_	TokenRange=276:279
+38	passado	passado	ADJ	ADJ	_	37	amod	_	TokenRange=280:287
+39	medico	medico	NOUN	NOUN	_	31	appos	_	TokenRange=288:294
+40	elisaldo	elisaldo	NOUN	NOUN	_	39	appos	_	TokenRange=295:303
+41	carlini	_	NOUN	NOUN	_	43	flat	_	TokenRange=304:311
+42	surpreendido	surpreendido	ADJ	ADJ	_	43	amod	_	TokenRange=312:324
+43	correspondencia	correspondencia	NOUN	NOUN	_	39	appos	_	SpaceAfter=No|TokenRange=325:340
+

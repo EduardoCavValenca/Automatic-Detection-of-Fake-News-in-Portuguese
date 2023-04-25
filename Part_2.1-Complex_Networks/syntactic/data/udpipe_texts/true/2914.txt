@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = conselho etica camara arquiva processos sobre eduardo bolsonaro pt moveu duas representacoes pediu conselho apurar suposta quebra decoro parlamentar episodio cuspiu jean wyllys caso envolvendo video divulgado web conselho etica camara arquivou nesta quartafeira 7 dois processos sobre deputado eduardo bolsonaro pscsp representacoes pt acusava parlamentar quebrado decoro parlamentar cuspir 2016 deputado jean wyllys psolrj sessao camara analisou processo impeachment entao presidente dilma rousseff relembre abaixo outra representacao contra eduardo bolsonaro pt afirmava deputado
+1	conselho	conselho	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	etica	etico	ADJ	ADJ	_	1	amod	_	TokenRange=9:14
+3	camara	camara	NOUN	NOUN	_	1	appos	_	TokenRange=15:21
+4	arquiva	arquivar	VERB	VERB	_	0	root	_	TokenRange=22:29
+5	processos	processo	NOUN	NOUN	_	4	obj	_	TokenRange=30:39
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=40:45
+7	eduardo	eduardo	NOUN	NOUN	_	10	nsubj	_	TokenRange=46:53
+8	bolsonaro	bolsonaro	ADJ	ADJ	_	7	amod	_	TokenRange=54:63
+9	pt	_	NOUN	NOUN	_	7	flat	_	TokenRange=64:66
+10	moveu	mover	VERB	VERB	_	1	acl:relcl	_	TokenRange=67:72
+11	duas	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=73:77
+12	representacoes	representacoe	NOUN	NOUN	_	10	obj	_	TokenRange=78:92
+13	pediu	pedir	VERB	VERB	_	4	ccomp	_	TokenRange=93:98
+14	conselho	conselho	NOUN	NOUN	_	13	obj	_	TokenRange=99:107
+15	apurar	apurar	VERB	VERB	_	13	ccomp	_	TokenRange=108:114
+16	suposta	suposto	ADJ	ADJ	_	17	amod	_	TokenRange=115:122
+17	quebra	quebra	NOUN	NOUN	_	15	obj	_	TokenRange=123:129
+18	decoro	decoro	NOUN	NOUN	_	17	appos	_	TokenRange=130:136
+19	parlamentar	parlamentar	ADJ	ADJ	_	18	amod	_	TokenRange=137:148
+20	episodio	episodio	NOUN	NOUN	_	18	appos	_	TokenRange=149:157
+21	cuspiu	cuspir	VERB	VERB	_	18	appos	_	TokenRange=158:164
+22	jean	_	NOUN	NOUN	_	21	appos	_	TokenRange=165:169
+23	wyllys	_	NOUN	NOUN	_	22	flat	_	TokenRange=170:176
+24	caso	caso	NOUN	NOUN	_	22	flat	_	TokenRange=177:181
+25	envolvendo	envolver	VERB	VERB	_	20	acl	_	TokenRange=182:192
+26	video	video	NOUN	NOUN	_	25	obj	_	TokenRange=193:198
+27	divulgado	divulgado	ADJ	ADJ	_	26	amod	_	TokenRange=199:208
+28	web	_	X	X	_	26	appos	_	TokenRange=209:212
+29	conselho	conselho	NOUN	NOUN	_	32	nsubj	_	TokenRange=213:221
+30	etica	etico	ADJ	ADJ	_	29	amod	_	TokenRange=222:227
+31	camara	camara	NOUN	NOUN	_	29	amod	_	TokenRange=228:234
+32	arquivou	arquivar	VERB	VERB	_	4	conj	_	TokenRange=235:243
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=244:249
+34	quartafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=250:261
+35	7	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=262:263
+36	dois	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=264:268
+37	processos	processo	NOUN	NOUN	_	32	obj	_	TokenRange=269:278
+38	sobre	_	ADP	ADP	_	39	case	_	TokenRange=279:284
+39	deputado	deputado	NOUN	NOUN	_	37	nmod	_	TokenRange=285:293
+40	eduardo	eduardo	NOUN	NOUN	_	39	appos	_	TokenRange=294:301
+41	bolsonaro	bolsonaro	NOUN	NOUN	_	39	amod	_	TokenRange=302:311
+42	pscsp	_	NOUN	NOUN	_	39	appos	_	TokenRange=312:317
+43	representacoes	representacoe	NOUN	NOUN	_	42	flat	_	TokenRange=318:332
+44	pt	_	PROPN	PNOUN	_	42	flat	_	TokenRange=333:335
+45	acusava	acusar	VERB	VERB	_	32	parataxis	_	TokenRange=336:343
+46	parlamentar	parlamentar	NOUN	NOUN	_	45	obj	_	TokenRange=344:355
+47	quebrado	quebrado	ADJ	ADJ	_	48	amod	_	TokenRange=356:364
+48	decoro	decoro	NOUN	NOUN	_	45	nsubj	_	TokenRange=365:371
+49	parlamentar	parlamentar	ADJ	ADJ	_	48	amod	_	TokenRange=372:383
+50	cuspir	cuspir	NOUN	NOUN	_	45	parataxis	_	TokenRange=384:390
+51	2016	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=391:395
+52	deputado	deputado	NOUN	NOUN	_	58	nsubj	_	TokenRange=396:404
+53	jean	_	NOUN	NOUN	_	52	appos	_	TokenRange=405:409
+54	wyllys	_	NOUN	NOUN	_	53	flat	_	TokenRange=410:416
+55	psolrj	_	NOUN	NOUN	_	52	appos	_	TokenRange=417:423
+56	sessao	_	NOUN	NOUN	_	52	appos	_	TokenRange=424:430
+57	camara	camara	NOUN	NOUN	_	53	flat	_	TokenRange=431:437
+58	analisou	analisar	VERB	VERB	_	45	conj	_	TokenRange=438:446
+59	processo	processo	NOUN	NOUN	_	58	obj	_	TokenRange=447:455
+60	impeachment	impeachment	NOUN	NOUN	_	59	flat	_	TokenRange=456:467
+61	entao	entao	ADV	ADV	_	62	advmod	_	TokenRange=468:473
+62	presidente	presidente	NOUN	NOUN	_	59	appos	_	TokenRange=474:484
+63	dilma	dilma	ADJ	ADJ	_	62	appos	_	TokenRange=485:490
+64	rousseff	rousseff	NOUN	NOUN	_	62	appos	_	TokenRange=491:499
+65	relembre	relembre	NOUN	NOUN	_	62	appos	_	TokenRange=500:508
+66	abaixo	abaixo	ADV	ADV	_	73	advmod	_	TokenRange=509:515
+67	outra	_	DET	DET	_	68	det	_	TokenRange=516:521
+68	representacao	representacao	NOUN	NOUN	_	58	nsubj	_	TokenRange=522:535
+69	contra	_	ADP	ADP	_	70	case	_	TokenRange=536:542
+70	eduardo	eduardo	NOUN	NOUN	_	68	nmod	_	TokenRange=543:550
+71	bolsonaro	bolsonaro	ADJ	ADJ	_	70	amod	_	TokenRange=551:560
+72	pt	_	PROPN	PNOUN	_	70	appos	_	TokenRange=561:563
+73	afirmava	afirmar	VERB	VERB	_	58	parataxis	_	TokenRange=564:572
+74	deputado	deputado	NOUN	NOUN	_	73	obj	_	SpaceAfter=No|TokenRange=573:581
+

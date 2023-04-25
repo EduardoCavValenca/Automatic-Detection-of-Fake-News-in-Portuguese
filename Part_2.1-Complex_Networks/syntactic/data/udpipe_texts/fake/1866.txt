@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = porque ministro stf porta dessa forma criou 10 medidas cretino absoluto querendo julgar juiz porque papel magistrado deve portar dessa forma durante dia ontem ministro supremo gilmar mendes classificou cretino criou proposta combate corrupcao defendida juiz federal sergio moro coordenador lavajato parana deltan dallagnol coisa delirio veja dez propostas apresentaram faz proposta dessa conhece nada sistema cretino absoluto cretino absoluto imagina amanha posso justificar tortura porque fiz boafe
+1	porque	_	CCONJ	CONJ	_	4	mark	_	TokenRange=0:6
+2	ministro	ministro	NOUN	NOUN	_	4	nsubj	_	TokenRange=7:15
+3	stf	_	NOUN	NOUN	_	2	flat	_	TokenRange=16:19
+4	porta	portar	VERB	VERB	_	7	advcl	_	TokenRange=20:25
+5	dessa	_	ADP	ADP	_	6	case	_	TokenRange=26:31
+6	forma	forma	NOUN	NOUN	_	4	nmod	_	TokenRange=32:37
+7	criou	criar	VERB	VERB	_	0	root	_	TokenRange=38:43
+8	10	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=44:46
+9	medidas	medida	NOUN	NOUN	_	7	obj	_	TokenRange=47:54
+10	cretino	cretino	NOUN	NOUN	_	7	nsubj	_	TokenRange=55:62
+11	absoluto	absoluto	ADJ	ADJ	_	10	amod	_	TokenRange=63:71
+12	querendo	querer	VERB	VERB	_	7	acl	_	TokenRange=72:80
+13	julgar	julgar	VERB	VERB	_	12	xcomp	_	TokenRange=81:87
+14	juiz	juiz	NOUN	NOUN	_	13	obj	_	TokenRange=88:92
+15	porque	_	CCONJ	CONJ	_	19	mark	_	TokenRange=93:99
+16	papel	papel	NOUN	NOUN	_	19	nsubj	_	TokenRange=100:105
+17	magistrado	magistrado	ADJ	ADJ	_	16	amod	_	TokenRange=106:116
+18	deve	dever	AUX	AUX	_	19	aux	_	TokenRange=117:121
+19	portar	portar	VERB	VERB	_	7	advcl	_	TokenRange=122:128
+20	dessa	_	ADP	ADP	_	21	case	_	TokenRange=129:134
+21	forma	forma	NOUN	NOUN	_	19	nmod	_	TokenRange=135:140
+22	durante	_	ADP	ADP	_	23	case	_	TokenRange=141:148
+23	dia	dia	NOUN	NOUN	_	19	nmod	_	TokenRange=149:152
+24	ontem	ontem	ADV	ADV	_	29	advmod	_	TokenRange=153:158
+25	ministro	ministro	NOUN	NOUN	_	19	nsubj	_	TokenRange=159:167
+26	supremo	supremo	ADJ	ADJ	_	25	amod	_	TokenRange=168:175
+27	gilmar	gilmar	NOUN	NOUN	_	25	appos	_	TokenRange=176:182
+28	mendes	_	ADJ	ADJ	_	25	amod	_	TokenRange=183:189
+29	classificou	classificar	VERB	VERB	_	25	acl:relcl	_	TokenRange=190:201
+30	cretino	cretino	NOUN	NOUN	_	29	obj	_	TokenRange=202:209
+31	criou	criar	VERB	VERB	_	29	parataxis	_	TokenRange=210:215
+32	proposta	_	NOUN	NOUN	_	31	obj	_	TokenRange=216:224
+33	combate	combate	NOUN	NOUN	_	32	appos	_	TokenRange=225:232
+34	corrupcao	corrupcao	NOUN	NOUN	_	32	amod	_	TokenRange=233:242
+35	defendida	defender	ADJ	ADJ	_	36	amod	_	TokenRange=243:252
+36	juiz	juiz	NOUN	NOUN	_	32	appos	_	TokenRange=253:257
+37	federal	federal	ADJ	ADJ	_	36	amod	_	TokenRange=258:265
+38	sergio	sergio	NOUN	NOUN	_	36	appos	_	TokenRange=266:272
+39	moro	moro	NOUN	NOUN	_	38	flat	_	TokenRange=273:277
+40	coordenador	coordenador	NOUN	NOUN	_	36	appos	_	TokenRange=278:289
+41	lavajato	lavajato	NOUN	NOUN	_	36	appos	_	TokenRange=290:298
+42	parana	parana	ADJ	ADJ	_	41	amod	_	TokenRange=299:305
+43	deltan	_	NOUN	NOUN	_	41	appos	_	TokenRange=306:312
+44	dallagnol	dallagnol	ADJ	ADJ	_	45	amod	_	TokenRange=313:322
+45	coisa	coisa	NOUN	NOUN	_	41	appos	_	TokenRange=323:328
+46	delirio	delirio	ADJ	ADJ	_	45	amod	_	TokenRange=329:336
+47	veja	ver	VERB	VERB	_	7	parataxis	_	TokenRange=337:341
+48	dez	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=342:345
+49	propostas	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=346:355
+50	apresentaram	apresentar	VERB	VERB	_	47	parataxis	_	TokenRange=356:368
+51	faz	fazer	VERB	VERB	_	50	xcomp	_	TokenRange=369:372
+52	proposta	_	NOUN	NOUN	_	51	obj	_	TokenRange=373:381
+53	dessa	_	X	ADPPRON	_	54	mark	_	TokenRange=382:387
+54	conhece	conhecer	VERB	VERB	_	52	nmod	_	TokenRange=388:395
+55	nada	_	DET	DET	_	56	det	_	TokenRange=396:400
+56	sistema	sistema	NOUN	NOUN	_	54	obj	_	TokenRange=401:408
+57	cretino	cretino	ADJ	ADJ	_	56	amod	_	TokenRange=409:416
+58	absoluto	absoluto	ADJ	ADJ	_	57	amod	_	TokenRange=417:425
+59	cretino	cretino	ADJ	NOUN	_	56	appos	_	TokenRange=426:433
+60	absoluto	absoluto	ADJ	ADJ	_	59	amod	_	TokenRange=434:442
+61	imagina	imaginar	VERB	VERB	_	54	conj	_	TokenRange=443:450
+62	amanha	amanha	ADV	ADV	_	61	advmod	_	TokenRange=451:457
+63	posso	_	AUX	AUX	_	64	aux	_	TokenRange=458:463
+64	justificar	justificar	VERB	VERB	_	61	ccomp	_	TokenRange=464:474
+65	tortura	tortura	NOUN	NOUN	_	64	obj	_	TokenRange=475:482
+66	porque	_	CCONJ	CONJ	_	67	mark	_	TokenRange=483:489
+67	fiz	fazer	VERB	VERB	_	61	advcl	_	TokenRange=490:493
+68	boafe	boafe	NOUN	NOUN	_	67	obj	_	SpaceAfter=No|TokenRange=494:499
+

@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sob pressao aliados temer cancela agenda oficial desta quinta segundo globo dono jbs gravou temer dando aval comprar silencio cunha presidente decidiu cancelar 17 compromissos oficiais reuniu nucleo politico governo presidente michel temer decidiu cancelar todos compromissos constavam agenda oficial nesta quintafeira 18 recebeu ministros nucleo politico gabinete palacio planalto decisao cancelar compromissos tomada dia apos colunista jornal
+1	sob	_	ADP	ADP	_	2	case	_	TokenRange=0:3
+2	pressao	pressao	NOUN	NOUN	_	5	nmod	_	TokenRange=4:11
+3	aliados	aliado	ADJ	NOUN	_	2	amod	_	TokenRange=12:19
+4	temer	temer	NOUN	NOUN	_	5	nsubj	_	TokenRange=20:25
+5	cancela	cancelar	VERB	VERB	_	0	root	_	TokenRange=26:33
+6	agenda	agenda	NOUN	NOUN	_	5	obj	_	TokenRange=34:40
+7	oficial	oficial	ADJ	ADJ	_	6	amod	_	TokenRange=41:48
+8	desta	_	ADP	ADP	_	9	case	_	TokenRange=49:54
+9	quinta	_	PROPN	PNOUN	_	6	nmod	_	TokenRange=55:61
+10	segundo	_	ADP	ADP	_	11	case	_	TokenRange=62:69
+11	globo	globo	NOUN	NOUN	_	5	nmod	_	TokenRange=70:75
+12	dono	dono	NOUN	NOUN	_	14	nsubj	_	TokenRange=76:80
+13	jbs	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=81:84
+14	gravou	gravar	VERB	VERB	_	5	conj	_	TokenRange=85:91
+15	temer	temer	NOUN	NOUN	_	14	obj	_	TokenRange=92:97
+16	dando	dar	VERB	VERB	_	14	acl	_	TokenRange=98:103
+17	aval	aval	NOUN	NOUN	_	16	obj	_	TokenRange=104:108
+18	comprar	comprar	VERB	VERB	_	16	ccomp	_	TokenRange=109:116
+19	silencio	silencio	NOUN	NOUN	_	18	obj	_	TokenRange=117:125
+20	cunha	_	DET	DET	_	21	det	_	TokenRange=126:131
+21	presidente	presidente	NOUN	NOUN	_	22	nsubj	_	TokenRange=132:142
+22	decidiu	decidir	VERB	VERB	_	5	conj	_	TokenRange=143:150
+23	cancelar	cancelar	VERB	VERB	_	22	xcomp	_	TokenRange=151:159
+24	17	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=160:162
+25	compromissos	compromisso	NOUN	NOUN	_	23	obj	_	TokenRange=163:175
+26	oficiais	oficial	ADJ	ADJ	_	25	amod	_	TokenRange=176:184
+27	reuniu	reunir	VERB	VERB	_	22	parataxis	_	TokenRange=185:191
+28	nucleo	nucleo	NOUN	NOUN	_	27	obj	_	TokenRange=192:198
+29	politico	politico	ADJ	ADJ	_	28	amod	_	TokenRange=199:207
+30	governo	governo	NOUN	NOUN	_	34	nsubj	_	TokenRange=208:215
+31	presidente	presidente	NOUN	NOUN	_	28	appos	_	TokenRange=216:226
+32	michel	michel	ADJ	ADJ	_	33	amod	_	TokenRange=227:233
+33	temer	temer	NOUN	NOUN	_	34	nsubj	_	TokenRange=234:239
+34	decidiu	decidir	VERB	VERB	_	27	conj	_	TokenRange=240:247
+35	cancelar	cancelar	VERB	VERB	_	34	xcomp	_	TokenRange=248:256
+36	todos	_	DET	DET	_	37	det	_	TokenRange=257:262
+37	compromissos	compromisso	NOUN	NOUN	_	35	obj	_	TokenRange=263:275
+38	constavam	constar	VERB	VERB	_	34	ccomp	_	TokenRange=276:285
+39	agenda	agenda	NOUN	NOUN	_	38	nsubj	_	TokenRange=286:292
+40	oficial	oficial	ADJ	ADJ	_	39	amod	_	TokenRange=293:300
+41	nesta	_	ADP	ADP	_	42	case	_	TokenRange=301:306
+42	quintafeira	quintafeira	NOUN	NOUN	_	38	nmod	_	TokenRange=307:318
+43	18	_	NUM	NUM	NumType=Card	42	appos	_	TokenRange=319:321
+44	recebeu	receber	VERB	VERB	_	38	parataxis	_	TokenRange=322:329
+45	ministros	ministro	NOUN	NOUN	_	44	obj	_	TokenRange=330:339
+46	nucleo	nucleo	NOUN	NOUN	_	48	amod	_	TokenRange=340:346
+47	politico	politico	ADJ	ADJ	_	48	amod	_	TokenRange=347:355
+48	gabinete	gabinete	NOUN	NOUN	_	44	nsubj	_	TokenRange=356:364
+49	palacio	palacio	NOUN	NOUN	_	48	flat	_	TokenRange=365:372
+50	planalto	planalto	ADJ	ADJ	_	48	amod	_	TokenRange=373:381
+51	decisao	decisao	NOUN	NOUN	_	44	parataxis	_	TokenRange=382:389
+52	cancelar	cancelar	VERB	VERB	_	51	xcomp	_	TokenRange=390:398
+53	compromissos	compromisso	NOUN	NOUN	_	52	obj	_	TokenRange=399:411
+54	tomada	tomar	VERB	VERB	_	55	acl	_	TokenRange=412:418
+55	dia	dia	NOUN	NOUN	_	52	nmod	_	TokenRange=419:422
+56	apos	apos	ADP	ADP	_	57	case	_	TokenRange=423:427
+57	colunista	colunista	ADJ	ADJ	_	55	amod	_	TokenRange=428:437
+58	jornal	jornal	NOUN	NOUN	_	55	appos	_	SpaceAfter=No|TokenRange=438:444
+

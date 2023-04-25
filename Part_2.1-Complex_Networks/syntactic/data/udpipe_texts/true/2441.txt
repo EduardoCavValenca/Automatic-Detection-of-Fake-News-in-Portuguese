@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dividas atingem metade catarinenses diz fecomercio 2 reportagem serie dinheiro vale veja exemplos pessoas conseguiram livrar endividamento alerta economistas metade catarinenses endividados segundo pesquisa fecomercio 59 consumidores desses 19 inadimplentes vermelho 9 vao conseguir pagar contas cartao credito maior vilao vem famosos carnes financiamentos segunda reportagem serie dinheiro vale bom dia santa catarina mostra exemplos pessoas conseguiram livrar endividamento alerta fazem
+1	dividas	divida	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	atingem	atingir	VERB	VERB	_	0	root	_	TokenRange=8:15
+3	metade	metade	NOUN	NOUN	_	2	obj	_	TokenRange=16:22
+4	catarinenses	catarinense	ADJ	ADJ	_	3	amod	_	TokenRange=23:35
+5	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=36:39
+6	fecomercio	fecomercio	NOUN	NOUN	_	2	obj	_	TokenRange=40:50
+7	2	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=51:52
+8	reportagem	reportagem	NOUN	NOUN	_	2	nsubj	_	TokenRange=53:63
+9	serie	_	NOUN	NOUN	_	10	amod	_	TokenRange=64:69
+10	dinheiro	dinheiro	NOUN	NOUN	_	8	appos	_	TokenRange=70:78
+11	vale	_	NOUN	NOUN	_	10	flat	_	TokenRange=79:83
+12	veja	ver	VERB	VERB	_	8	acl:relcl	_	TokenRange=84:88
+13	exemplos	exemplo	NOUN	NOUN	_	12	obj	_	TokenRange=89:97
+14	pessoas	pessoa	NOUN	NOUN	_	15	nsubj	_	TokenRange=98:105
+15	conseguiram	conseguir	VERB	VERB	_	13	acl:relcl	_	TokenRange=106:117
+16	livrar	livrar	VERB	VERB	_	15	xcomp	_	TokenRange=118:124
+17	endividamento	endividamento	NOUN	NOUN	_	16	obj	_	TokenRange=125:138
+18	alerta	alerta	NOUN	NOUN	_	16	parataxis	_	TokenRange=139:145
+19	economistas	economista	NOUN	NOUN	_	20	amod	_	TokenRange=146:157
+20	metade	metade	NOUN	NOUN	_	18	appos	_	TokenRange=158:164
+21	catarinenses	catarinense	ADJ	ADJ	_	20	amod	_	TokenRange=165:177
+22	endividados	endividado	ADJ	ADJ	_	20	amod	_	TokenRange=178:189
+23	segundo	_	ADP	ADP	_	24	case	_	TokenRange=190:197
+24	pesquisa	pesquisa	NOUN	NOUN	_	15	nmod	_	TokenRange=198:206
+25	fecomercio	_	NOUN	NOUN	_	24	appos	_	TokenRange=207:217
+26	59	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=218:220
+27	consumidores	consumidor	NOUN	NOUN	_	34	nsubj	_	TokenRange=221:233
+28	desses	_	ADP	ADP	_	30	case	_	TokenRange=234:240
+29	19	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=241:243
+30	inadimplentes	inadimplente	NOUN	NOUN	_	27	nmod	_	TokenRange=244:257
+31	vermelho	vermelho	ADJ	ADJ	_	30	amod	_	TokenRange=258:266
+32	9	_	NUM	NUM	NumType=Card	30	appos	_	TokenRange=267:268
+33	vao	ir	AUX	AUX	_	34	aux	_	TokenRange=269:272
+34	conseguir	conseguir	VERB	VERB	_	24	acl:relcl	_	TokenRange=273:282
+35	pagar	pagar	VERB	VERB	_	34	xcomp	_	TokenRange=283:288
+36	contas	conta	NOUN	NOUN	_	35	obj	_	TokenRange=289:295
+37	cartao	cartao	NOUN	NOUN	_	36	appos	_	TokenRange=296:302
+38	credito	credito	NOUN	NOUN	_	36	appos	_	TokenRange=303:310
+39	maior	maior	ADJ	ADJ	_	40	amod	_	TokenRange=311:316
+40	vilao	vilao	NOUN	NOUN	_	41	nsubj	_	TokenRange=317:322
+41	vem	vir	VERB	VERB	_	35	parataxis	_	TokenRange=323:326
+42	famosos	famoso	ADJ	ADJ	_	43	amod	_	TokenRange=327:334
+43	carnes	carne	NOUN	NOUN	_	41	nsubj	_	TokenRange=335:341
+44	financiamentos	financiamento	NOUN	NOUN	_	43	amod	_	TokenRange=342:356
+45	segunda	segundo	ADJ	ADJ	_	46	amod	_	TokenRange=357:364
+46	reportagem	reportagem	NOUN	NOUN	_	41	nsubj	_	TokenRange=365:375
+47	serie	_	NOUN	NOUN	_	46	appos	_	TokenRange=376:381
+48	dinheiro	dinheiro	NOUN	NOUN	_	46	appos	_	TokenRange=382:390
+49	vale	_	VERB	VERB	_	46	acl:relcl	_	TokenRange=391:395
+50	bom	bom	ADJ	ADJ	_	51	amod	_	TokenRange=396:399
+51	dia	dia	NOUN	NOUN	_	49	obj	_	TokenRange=400:403
+52	santa	santo	ADJ	ADJ	_	51	amod	_	TokenRange=404:409
+53	catarina	catarina	NOUN	NOUN	_	54	nsubj	_	TokenRange=410:418
+54	mostra	mostrar	VERB	VERB	_	41	parataxis	_	TokenRange=419:425
+55	exemplos	exemplo	NOUN	NOUN	_	61	obj	_	TokenRange=426:434
+56	pessoas	pessoa	NOUN	NOUN	_	57	nsubj	_	TokenRange=435:442
+57	conseguiram	conseguir	VERB	VERB	_	54	ccomp	_	TokenRange=443:454
+58	livrar	livrar	VERB	VERB	_	57	xcomp	_	TokenRange=455:461
+59	endividamento	endividamento	NOUN	NOUN	_	58	obj	_	TokenRange=462:475
+60	alerta	alerta	ADJ	ADJ	_	61	obj	_	TokenRange=476:482
+61	fazem	fazer	VERB	VERB	_	54	parataxis	_	SpaceAfter=No|TokenRange=483:488
+

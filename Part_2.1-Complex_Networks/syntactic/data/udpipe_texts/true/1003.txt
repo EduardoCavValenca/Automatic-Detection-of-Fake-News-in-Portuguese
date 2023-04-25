@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dony nuccio assume bancada jornal hoje lado sandra annenberg renata lo prete passa apresentar jornal dez globonews jornalista dony nuccio atual ancora jornal dez globonews vai assumir bancada jornal hoje lado sandra annenberg proximas semanas substituira jornalista evaristo costa deixou telejornal nesta semana j10 passara apresentado renata lo prete exerce funcoes editora comentarista politica telejornal alem nova funcao renata continuara substituir william
+1	dony	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	nuccio	_	NOUN	NOUN	_	1	flat	_	TokenRange=5:11
+3	assume	assumir	VERB	VERB	_	0	root	_	TokenRange=12:18
+4	bancada	bancada	NOUN	NOUN	_	3	obj	_	TokenRange=19:26
+5	jornal	jornal	NOUN	NOUN	_	4	appos	_	TokenRange=27:33
+6	hoje	hoje	ADV	ADV	_	3	advmod	_	TokenRange=34:38
+7	lado	lado	NOUN	NOUN	_	3	nmod	_	TokenRange=39:43
+8	sandra	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=44:50
+9	annenberg	_	NOUN	NOUN	_	8	flat	_	TokenRange=51:60
+10	renata	renata	NOUN	NOUN	_	14	nsubj	_	TokenRange=61:67
+11	lo	_	DET	DET	_	12	det	_	TokenRange=68:70
+12	prete	_	NOUN	NOUN	_	10	appos	_	TokenRange=71:76
+13	passa	passar	AUX	AUX	_	14	aux	_	TokenRange=77:82
+14	apresentar	apresentar	VERB	VERB	_	3	parataxis	_	TokenRange=83:93
+15	jornal	jornal	NOUN	NOUN	_	14	obj	_	TokenRange=94:100
+16	dez	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=101:104
+17	globonews	_	NOUN	NOUN	_	15	appos	_	TokenRange=105:114
+18	jornalista	jornalista	NOUN	NOUN	_	15	appos	_	TokenRange=115:125
+19	dony	_	NOUN	NOUN	_	18	appos	_	TokenRange=126:130
+20	nuccio	_	NOUN	NOUN	_	19	flat	_	TokenRange=131:137
+21	atual	atual	ADJ	ADJ	_	22	amod	_	TokenRange=138:143
+22	ancora	ancora	NOUN	NOUN	_	18	appos	_	TokenRange=144:150
+23	jornal	jornal	NOUN	NOUN	_	22	appos	_	TokenRange=151:157
+24	dez	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=158:161
+25	globonews	_	NOUN	NOUN	_	23	appos	_	TokenRange=162:171
+26	vai	ir	AUX	AUX	_	27	aux	_	TokenRange=172:175
+27	assumir	assumir	VERB	VERB	_	3	parataxis	_	TokenRange=176:183
+28	bancada	bancada	NOUN	NOUN	_	27	obj	_	TokenRange=184:191
+29	jornal	jornal	NOUN	NOUN	_	28	appos	_	TokenRange=192:198
+30	hoje	hoje	ADV	ADV	_	27	advmod	_	TokenRange=199:203
+31	lado	lado	NOUN	NOUN	_	27	nsubj	_	TokenRange=204:208
+32	sandra	sandra	NOUN	NOUN	_	27	nsubj	_	TokenRange=209:215
+33	annenberg	_	NOUN	NOUN	_	32	flat	_	TokenRange=216:225
+34	proximas	proximo	ADJ	ADJ	_	35	amod	_	TokenRange=226:234
+35	semanas	semana	NOUN	NOUN	_	32	appos	_	TokenRange=235:242
+36	substituira	substituir	VERB	VERB	_	27	parataxis	_	TokenRange=243:254
+37	jornalista	jornalista	NOUN	NOUN	_	36	obj	_	TokenRange=255:265
+38	evaristo	evaristo	NOUN	NOUN	_	37	appos	_	TokenRange=266:274
+39	costa	costa	NOUN	NOUN	_	32	flat	_	TokenRange=275:280
+40	deixou	deixar	VERB	VERB	_	36	parataxis	_	TokenRange=281:287
+41	telejornal	telejornal	NOUN	NOUN	_	40	obj	_	TokenRange=288:298
+42	nesta	_	ADP	ADP	_	43	case	_	TokenRange=299:304
+43	semana	semana	NOUN	NOUN	_	40	nmod	_	TokenRange=305:311
+44	j10	_	NUM	NUM	NumType=Card	46	nsubj	_	TokenRange=312:315
+45	passara	passar	AUX	AUX	_	46	aux	_	TokenRange=316:323
+46	apresentado	apresentar	VERB	ADJ	_	40	parataxis	_	TokenRange=324:335
+47	renata	renata	NOUN	NOUN	_	50	nsubj	_	TokenRange=336:342
+48	lo	_	DET	DET	_	49	det	_	TokenRange=343:345
+49	prete	prete	NOUN	NOUN	_	47	appos	_	TokenRange=346:351
+50	exerce	exercer	VERB	VERB	_	46	parataxis	_	TokenRange=352:358
+51	funcoes	funcoe	NOUN	NOUN	_	50	obj	_	TokenRange=359:366
+52	editora	_	NOUN	NOUN	_	51	appos	_	TokenRange=367:374
+53	comentarista	comentarista	NOUN	NOUN	_	51	appos	_	TokenRange=375:387
+54	politica	politico	ADJ	ADJ	_	53	amod	_	TokenRange=388:396
+55	telejornal	telejornal	ADJ	ADJ	_	53	amod	_	TokenRange=397:407
+56	alem	alem	ADV	ADV	_	61	advmod	_	TokenRange=408:412
+57	nova	novo	ADJ	ADJ	_	58	amod	_	TokenRange=413:417
+58	funcao	funcao	NOUN	NOUN	_	61	obj	_	TokenRange=418:424
+59	renata	renata	NOUN	NOUN	_	61	nsubj	_	TokenRange=425:431
+60	continuara	continuar	AUX	AUX	_	61	aux	_	TokenRange=432:442
+61	substituir	substituir	VERB	VERB	_	50	parataxis	_	TokenRange=443:453
+62	william	_	PROPN	PNOUN	_	61	obj	_	SpaceAfter=No|TokenRange=454:461
+

@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tiroteio durante churrasco zona leste deixa 1 morto 3 feridos familiares amigos participavam festa porta casa sapopemba dois homens anunciaram assalto paulo churrasco feito moradores vila nova pauliceia regiao sapopemba zona leste capital terminou tiroteio apos grupo sofrer tentativa assalto noite deste domingo 9 dois bandidos baleados morreu local dona casa 45 anos vitima disparo cabeca homem 40 anos alvejado mao sob condicao anonimato testemunha tiroteio afirmou estado policial militar folga participava churrasco reagido ataque criminosos segundo testemunha agente morador regiao circunstancias sido relatadas
+1	tiroteio	tiroteio	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:8
+2	durante	_	ADP	ADP	_	3	case	_	TokenRange=9:16
+3	churrasco	churrasco	NOUN	NOUN	_	6	nmod	_	TokenRange=17:26
+4	zona	zona	NOUN	NOUN	_	3	appos	_	TokenRange=27:31
+5	leste	leste	ADJ	ADJ	_	4	amod	_	TokenRange=32:37
+6	deixa	deixar	VERB	VERB	_	0	root	_	TokenRange=38:43
+7	1	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=44:45
+8	morto	morto	NOUN	NOUN	_	6	obj	_	TokenRange=46:51
+9	3	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=52:53
+10	feridos	ferido	NOUN	NOUN	_	6	obj	_	TokenRange=54:61
+11	familiares	familiar	ADJ	ADJ	_	10	amod	_	TokenRange=62:72
+12	amigos	amigo	NOUN	NOUN	_	10	amod	_	TokenRange=73:79
+13	participavam	participar	VERB	VERB	_	6	parataxis	_	TokenRange=80:92
+14	festa	festa	NOUN	NOUN	_	13	obj	_	TokenRange=93:98
+15	porta	porta	NOUN	NOUN	_	16	case	_	TokenRange=99:104
+16	casa	casa	NOUN	NOUN	_	14	appos	_	TokenRange=105:109
+17	sapopemba	sapopemba	NOUN	NOUN	_	16	flat	_	TokenRange=110:119
+18	dois	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=120:124
+19	homens	homem	NOUN	NOUN	_	20	nsubj	_	TokenRange=125:131
+20	anunciaram	anunciar	VERB	VERB	_	6	parataxis	_	TokenRange=132:142
+21	assalto	assalto	NOUN	NOUN	_	20	obj	_	TokenRange=143:150
+22	paulo	paulo	NOUN	NOUN	_	21	appos	_	TokenRange=151:156
+23	churrasco	churrasco	NOUN	NOUN	_	21	appos	_	TokenRange=157:166
+24	feito	_	NOUN	NOUN	_	21	appos	_	TokenRange=167:172
+25	moradores	morador	NOUN	NOUN	_	24	flat	_	TokenRange=173:182
+26	vila	vila	NOUN	NOUN	_	24	appos	_	TokenRange=183:187
+27	nova	novo	ADJ	ADJ	_	26	amod	_	TokenRange=188:192
+28	pauliceia	pauliceia	NOUN	NOUN	_	26	amod	_	TokenRange=193:202
+29	regiao	regiao	NOUN	NOUN	_	26	appos	_	TokenRange=203:209
+30	sapopemba	sapopemba	ADJ	ADJ	_	31	amod	_	TokenRange=210:219
+31	zona	zona	NOUN	NOUN	_	26	appos	_	TokenRange=220:224
+32	leste	leste	ADJ	ADJ	_	31	amod	_	TokenRange=225:230
+33	capital	capital	NOUN	NOUN	_	31	amod	_	TokenRange=231:238
+34	terminou	terminar	VERB	VERB	_	6	conj	_	TokenRange=239:247
+35	tiroteio	tiroteio	NOUN	NOUN	_	34	obj	_	TokenRange=248:256
+36	apos	_	ADP	ADP	_	38	mark	_	TokenRange=257:261
+37	grupo	grupo	NOUN	NOUN	_	38	nsubj	_	TokenRange=262:267
+38	sofrer	sofrer	VERB	VERB	_	34	advcl	_	TokenRange=268:274
+39	tentativa	_	NOUN	NOUN	_	38	obj	_	TokenRange=275:284
+40	assalto	assalto	NOUN	NOUN	_	39	appos	_	TokenRange=285:292
+41	noite	noite	NOUN	NOUN	_	38	appos	_	TokenRange=293:298
+42	deste	_	ADP	ADP	_	43	case	_	TokenRange=299:304
+43	domingo	_	PROPN	PNOUN	_	41	nmod	_	TokenRange=305:312
+44	9	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=313:314
+45	dois	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=315:319
+46	bandidos	bandido	NOUN	NOUN	_	48	nsubj	_	TokenRange=320:328
+47	baleados	baleado	ADJ	ADJ	_	46	amod	_	TokenRange=329:337
+48	morreu	morrer	VERB	VERB	_	34	parataxis	_	TokenRange=338:344
+49	local	local	NOUN	NOUN	_	48	obj	_	TokenRange=345:350
+50	dona	_	NOUN	NOUN	_	49	amod	_	TokenRange=351:355
+51	casa	casa	NOUN	NOUN	_	49	appos	_	TokenRange=356:360
+52	45	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=361:363
+53	anos	ano	NOUN	NOUN	_	49	appos	_	TokenRange=364:368
+54	vitima	vitimo	ADJ	ADJ	_	55	amod	_	TokenRange=369:375
+55	disparo	disparo	NOUN	NOUN	_	49	appos	_	TokenRange=376:383
+56	cabeca	cabeca	NOUN	NOUN	_	55	flat	_	TokenRange=384:390
+57	homem	homem	NOUN	NOUN	_	55	flat	_	TokenRange=391:396
+58	40	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=397:399
+59	anos	ano	NOUN	NOUN	_	55	appos	_	TokenRange=400:404
+60	alvejado	alvejado	ADJ	ADJ	_	59	amod	_	TokenRange=405:413
+61	mao	mao	NOUN	NOUN	_	60	nsubj	_	TokenRange=414:417
+62	sob	_	ADP	ADP	_	63	case	_	TokenRange=418:421
+63	condicao	condicao	NOUN	NOUN	_	60	nmod	_	TokenRange=422:430
+64	anonimato	anonimato	ADJ	ADJ	_	63	amod	_	TokenRange=431:440
+65	testemunha	testemunha	NOUN	NOUN	_	67	nsubj	_	TokenRange=441:451
+66	tiroteio	tiroteio	NOUN	NOUN	_	65	flat	_	TokenRange=452:460
+67	afirmou	afirmar	VERB	VERB	_	6	parataxis	_	TokenRange=461:468
+68	estado	estado	NOUN	NOUN	_	67	obj	_	TokenRange=469:475
+69	policial	policial	ADJ	ADJ	_	68	amod	_	TokenRange=476:484
+70	militar	militar	ADJ	ADJ	_	68	amod	_	TokenRange=485:492
+71	folga	folga	NOUN	NOUN	_	68	appos	_	TokenRange=493:498
+72	participava	participar	VERB	VERB	_	67	parataxis	_	TokenRange=499:510
+73	churrasco	churrasco	NOUN	NOUN	_	72	obj	_	TokenRange=511:520
+74	reagido	reagido	ADJ	ADJ	_	68	amod	_	TokenRange=521:528
+75	ataque	ataque	NOUN	NOUN	_	72	nsubj	_	TokenRange=529:535
+76	criminosos	criminoso	ADJ	ADJ	_	75	amod	_	TokenRange=536:546
+77	segundo	_	ADP	ADP	_	78	case	_	TokenRange=547:554
+78	testemunha	testemunha	NOUN	NOUN	_	84	nmod	_	TokenRange=555:565
+79	agente	agente	NOUN	NOUN	_	78	appos	_	TokenRange=566:572
+80	morador	morador	ADJ	ADJ	_	79	amod	_	TokenRange=573:580
+81	regiao	regiao	ADJ	ADJ	_	82	amod	_	TokenRange=581:587
+82	circunstancias	circunstancia	NOUN	NOUN	_	84	nsubj:pass	_	TokenRange=588:602
+83	sido	ser	AUX	AUX	_	84	aux:pass	_	TokenRange=603:607
+84	relatadas	relatar	VERB	VERB	_	72	acl	_	SpaceAfter=No|TokenRange=608:617
+

@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = atualizada 21h40 advogado cristiano zanin martins orientou expresidente lula voltasse falar sobre encontro exdiretor servicos petrobras renato duque cota pt esquema corrupcao estatal durante interrogatorio nesta quartafeira 13 procurador republica antonio carlos welter questionou motivo petista reunido 2014 duque hangar aeroporto congonhas paulo encontro sido questionado juiz federal sergio moro durante interrogatorio caso triplex 10 maio ocasiao expresidente confirmou juizo procurou exdiretor saber sobre conta secreta suica investigada lava jato sala congonhas fiz pergunta simples materias jornais denuncias dinheiro exterior ta pegando petrobras colocando exterior conta exterior disse
+1	atualizada	atualizar	VERB	VERB	_	3	acl	_	TokenRange=0:10
+2	21h40	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=11:16
+3	advogado	advogado	NOUN	NOUN	_	7	nsubj	_	TokenRange=17:25
+4	cristiano	cristiano	ADJ	ADJ	_	3	amod	_	TokenRange=26:35
+5	zanin	_	NOUN	NOUN	_	3	appos	_	TokenRange=36:41
+6	martins	_	ADJ	ADJ	_	5	amod	_	TokenRange=42:49
+7	orientou	orientar	VERB	VERB	_	88	ccomp	_	TokenRange=50:58
+8	expresidente	expresidente	NOUN	NOUN	_	7	obj	_	TokenRange=59:71
+9	lula	lula	ADJ	ADJ	_	8	flat	_	TokenRange=72:76
+10	voltasse	voltar	AUX	AUX	_	11	aux	_	TokenRange=77:85
+11	falar	falar	VERB	VERB	_	7	xcomp	_	TokenRange=86:91
+12	sobre	_	ADP	ADP	_	13	case	_	TokenRange=92:97
+13	encontro	encontro	NOUN	NOUN	_	11	nmod	_	TokenRange=98:106
+14	exdiretor	exdiretor	NOUN	NOUN	_	13	amod	_	TokenRange=107:116
+15	servicos	servico	NOUN	NOUN	_	13	appos	_	TokenRange=117:125
+16	petrobras	petrobra	NOUN	NOUN	_	15	flat	_	TokenRange=126:135
+17	renato	renato	NOUN	NOUN	_	13	appos	_	TokenRange=136:142
+18	duque	_	NOUN	NOUN	_	19	flat	_	TokenRange=143:148
+19	cota	cotar	NOUN	NOUN	_	17	conj	_	TokenRange=149:153
+20	pt	_	NOUN	NOUN	_	19	flat	_	TokenRange=154:156
+21	esquema	esquema	NOUN	NOUN	_	19	obj	_	TokenRange=157:164
+22	corrupcao	corrupcao	NOUN	NOUN	_	21	appos	_	TokenRange=165:174
+23	estatal	estatal	ADJ	ADJ	_	21	amod	_	TokenRange=175:182
+24	durante	_	ADP	ADP	_	25	case	_	TokenRange=183:190
+25	interrogatorio	interrogatorio	NOUN	NOUN	_	11	nmod	_	TokenRange=191:205
+26	nesta	_	ADP	ADP	_	27	case	_	TokenRange=206:211
+27	quartafeira	_	NOUN	NOUN	_	25	nmod	_	TokenRange=212:223
+28	13	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=224:226
+29	procurador	procurador	NOUN	NOUN	_	34	nsubj	_	TokenRange=227:237
+30	republica	republico	ADJ	ADJ	_	29	amod	_	TokenRange=238:247
+31	antonio	antonio	NOUN	NOUN	_	29	appos	_	TokenRange=248:255
+32	carlos	carlo	NOUN	NOUN	_	31	flat	_	TokenRange=256:262
+33	welter	_	PROPN	PNOUN	_	31	flat	_	TokenRange=263:269
+34	questionou	questionar	VERB	VERB	_	7	conj	_	TokenRange=270:280
+35	motivo	motivo	NOUN	NOUN	_	34	obj	_	TokenRange=281:287
+36	petista	petista	NOUN	NOUN	_	35	flat	_	TokenRange=288:295
+37	reunido	reunir	VERB	VERB	_	35	acl	_	TokenRange=296:303
+38	2014	_	NUM	NUM	NumType=Card	37	nmod	_	TokenRange=304:308
+39	duque	_	NOUN	NOUN	_	40	case	_	TokenRange=309:314
+40	hangar	hangar	NOUN	NOUN	_	38	appos	_	TokenRange=315:321
+41	aeroporto	aeroporto	NOUN	NOUN	_	40	appos	_	TokenRange=322:331
+42	congonhas	congonha	ADJ	ADJ	_	41	amod	_	TokenRange=332:341
+43	paulo	paulo	ADJ	ADJ	_	44	amod	_	TokenRange=342:347
+44	encontro	encontro	NOUN	NOUN	_	34	nsubj	_	TokenRange=348:356
+45	sido	ser	AUX	AUX	_	46	aux:pass	_	TokenRange=357:361
+46	questionado	questionar	VERB	VERB	_	13	acl	_	TokenRange=362:373
+47	juiz	juiz	NOUN	NOUN	_	46	nsubj:pass	_	TokenRange=374:378
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=379:386
+49	sergio	sergio	NOUN	NOUN	_	47	appos	_	TokenRange=387:393
+50	moro	moro	NOUN	NOUN	_	49	flat	_	TokenRange=394:398
+51	durante	_	ADP	ADP	_	52	case	_	TokenRange=399:406
+52	interrogatorio	interrogatorio	NOUN	NOUN	_	46	nmod	_	TokenRange=407:421
+53	caso	caso	NOUN	NOUN	_	52	appos	_	TokenRange=422:426
+54	triplex	_	NOUN	NOUN	_	53	flat	_	TokenRange=427:434
+55	10	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=435:437
+56	maio	_	PROPN	PNOUN	_	59	nmod	_	TokenRange=438:442
+57	ocasiao	ocasiao	ADJ	ADJ	_	58	amod	_	TokenRange=443:450
+58	expresidente	expresidente	NOUN	NOUN	_	59	nsubj	_	TokenRange=451:463
+59	confirmou	confirmar	VERB	VERB	_	53	acl:relcl	_	TokenRange=464:473
+60	juizo	juizo	NOUN	NOUN	_	59	obj	_	TokenRange=474:479
+61	procurou	procurar	VERB	VERB	_	59	ccomp	_	TokenRange=480:488
+62	exdiretor	exdiretor	NOUN	NOUN	_	61	obj	_	TokenRange=489:498
+63	saber	saber	VERB	VERB	_	61	ccomp	_	TokenRange=499:504
+64	sobre	_	ADP	ADP	_	65	case	_	TokenRange=505:510
+65	conta	conta	NOUN	NOUN	_	63	nmod	_	TokenRange=511:516
+66	secreta	secreto	ADJ	ADJ	_	65	amod	_	TokenRange=517:524
+67	suica	suico	ADJ	ADJ	_	65	amod	_	TokenRange=525:530
+68	investigada	investigar	VERB	ADJ	_	65	acl	_	TokenRange=531:542
+69	lava	lava	NOUN	NOUN	_	65	appos	_	TokenRange=543:547
+70	jato	jato	NOUN	NOUN	_	71	flat	_	TokenRange=548:552
+71	sala	sala	NOUN	NOUN	_	65	appos	_	TokenRange=553:557
+72	congonhas	congonha	NOUN	NOUN	_	71	amod	_	TokenRange=558:567
+73	fiz	fazer	VERB	VERB	_	65	acl:relcl	_	TokenRange=568:571
+74	pergunta	pergunta	NOUN	NOUN	_	73	obj	_	TokenRange=572:580
+75	simples	simples	ADJ	ADJ	_	76	amod	_	TokenRange=581:588
+76	materias	materia	NOUN	NOUN	_	73	obj	_	TokenRange=589:597
+77	jornais	jornal	ADJ	ADJ	_	76	amod	_	TokenRange=598:605
+78	denuncias	denuncio	ADJ	ADJ	_	76	amod	_	TokenRange=606:615
+79	dinheiro	dinheiro	NOUN	NOUN	_	76	appos	_	TokenRange=616:624
+80	exterior	exterior	ADJ	ADJ	_	79	amod	_	TokenRange=625:633
+81	ta	_	PRON	AUX	_	82	aux	_	TokenRange=634:636
+82	pegando	pegar	VERB	VERB	_	73	acl	_	TokenRange=637:644
+83	petrobras	petrobra	NOUN	NOUN	_	82	obj	_	TokenRange=645:654
+84	colocando	colocar	VERB	VERB	_	82	acl	_	TokenRange=655:664
+85	exterior	exterior	ADJ	ADJ	_	84	xcomp	_	TokenRange=665:673
+86	conta	conta	NOUN	NOUN	_	84	obj	_	TokenRange=674:679
+87	exterior	exterior	ADJ	ADJ	_	86	amod	_	TokenRange=680:688
+88	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=689:694
+

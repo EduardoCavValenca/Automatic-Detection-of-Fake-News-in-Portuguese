@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja repercussao imprensa internacional condenacao lula 2 instancia trf4 extraordinaria mudanca sorte petista opiniao britanico the guardian americano the washington post decisao potencial fim carreira politica expresidente imprensa internacional noticiou amplamente decisao unanime desembargadores 8 turma tribunal regional federal 4 regiao trf4 porto alegre favor manter condenacao ampliar pena prisao expresidente luiz inacio lula silva corrupcao passiva lavagem dinheiro caso triplex guaruja sp veja abaixo veiculos estrangeiros disseram jornal
+1	veja	ver	VERB	VERB	_	68	parataxis	_	TokenRange=0:4
+2	repercussao	repercussao	NOUN	NOUN	_	1	obj	_	TokenRange=5:16
+3	imprensa	imprensa	NOUN	NOUN	_	2	appos	_	TokenRange=17:25
+4	internacional	internacional	ADJ	ADJ	_	3	amod	_	TokenRange=26:39
+5	condenacao	condenacao	NOUN	NOUN	_	2	appos	_	TokenRange=40:50
+6	lula	lula	NOUN	NOUN	_	5	flat	_	TokenRange=51:55
+7	2	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=56:57
+8	instancia	instancia	NOUN	NOUN	_	5	appos	_	TokenRange=58:67
+9	trf4	_	NOUN	NOUN	_	8	appos	_	TokenRange=68:72
+10	extraordinaria	extraordinar	ADJ	ADJ	_	11	amod	_	TokenRange=73:87
+11	mudanca	mudanca	NOUN	NOUN	_	8	appos	_	TokenRange=88:95
+12	sorte	sorte	NOUN	NOUN	_	11	appos	_	TokenRange=96:101
+13	petista	petista	NOUN	NOUN	_	12	flat	_	TokenRange=102:109
+14	opiniao	opiniao	NOUN	NOUN	_	12	appos	_	TokenRange=110:117
+15	britanico	britanico	ADJ	ADJ	_	14	amod	_	TokenRange=118:127
+16	the	_	DET	DET	_	17	det	_	TokenRange=128:131
+17	guardian	guardian	NOUN	NOUN	_	14	appos	_	TokenRange=132:140
+18	americano	americano	ADJ	ADJ	_	17	amod	_	TokenRange=141:150
+19	the	_	DET	DET	_	20	det	_	TokenRange=151:154
+20	washington	_	NOUN	NOUN	_	17	appos	_	TokenRange=155:165
+21	post	_	NOUN	NOUN	_	20	flat	_	TokenRange=166:170
+22	decisao	decisao	NOUN	NOUN	_	17	appos	_	TokenRange=171:178
+23	potencial	potencial	ADJ	ADJ	_	22	amod	_	TokenRange=179:188
+24	fim	fim	NOUN	NOUN	_	22	appos	_	TokenRange=189:192
+25	carreira	_	NOUN	NOUN	_	22	appos	_	TokenRange=193:201
+26	politica	politico	ADJ	ADJ	_	25	amod	_	TokenRange=202:210
+27	expresidente	expresidente	NOUN	NOUN	_	25	amod	_	TokenRange=211:223
+28	imprensa	imprensa	NOUN	NOUN	_	25	appos	_	TokenRange=224:232
+29	internacional	internacional	ADJ	ADJ	_	28	amod	_	TokenRange=233:246
+30	noticiou	noticiar	VERB	VERB	_	1	parataxis	_	TokenRange=247:255
+31	amplamente	amplamente	ADV	ADV	_	30	advmod	_	TokenRange=256:266
+32	decisao	decisao	NOUN	NOUN	_	30	obj	_	TokenRange=267:274
+33	unanime	unanime	ADJ	ADJ	_	32	amod	_	TokenRange=275:282
+34	desembargadores	desembargador	NOUN	NOUN	_	32	appos	_	TokenRange=283:298
+35	8	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=299:300
+36	turma	turma	NOUN	NOUN	_	32	appos	_	TokenRange=301:306
+37	tribunal	tribunal	NOUN	NOUN	_	36	appos	_	TokenRange=307:315
+38	regional	regional	ADJ	ADJ	_	37	amod	_	TokenRange=316:324
+39	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=325:332
+40	4	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=333:334
+41	regiao	regiao	NOUN	NOUN	_	37	appos	_	TokenRange=335:341
+42	trf4	_	NOUN	NOUN	_	41	appos	_	TokenRange=342:346
+43	porto	_	NOUN	NOUN	_	41	appos	_	TokenRange=347:352
+44	alegre	alegre	ADJ	ADJ	_	43	amod	_	TokenRange=353:359
+45	favor	favor	NOUN	NOUN	_	46	nsubj	_	TokenRange=360:365
+46	manter	manter	VERB	VERB	_	32	acl:relcl	_	TokenRange=366:372
+47	condenacao	_	NOUN	NOUN	_	46	obj	_	TokenRange=373:383
+48	ampliar	ampliar	VERB	VERB	_	47	acl:inf	_	TokenRange=384:391
+49	pena	_	NOUN	NOUN	_	48	obj	_	TokenRange=392:396
+50	prisao	prisao	ADJ	ADJ	_	49	amod	_	TokenRange=397:403
+51	expresidente	expresidente	NOUN	NOUN	_	49	appos	_	TokenRange=404:416
+52	luiz	luiz	NOUN	NOUN	_	49	appos	_	TokenRange=417:421
+53	inacio	_	NOUN	NOUN	_	49	appos	_	TokenRange=422:428
+54	lula	_	NOUN	NOUN	_	49	appos	_	TokenRange=429:433
+55	silva	silva	ADJ	NOUN	_	49	amod	_	TokenRange=434:439
+56	corrupcao	corrupcao	NOUN	NOUN	_	48	obj	_	TokenRange=440:449
+57	passiva	passivo	ADJ	ADJ	_	56	amod	_	TokenRange=450:457
+58	lavagem	lavagem	NOUN	NOUN	_	56	appos	_	TokenRange=458:465
+59	dinheiro	dinheiro	NOUN	NOUN	_	58	flat	_	TokenRange=466:474
+60	caso	caso	NOUN	NOUN	_	64	nmod	_	TokenRange=475:479
+61	triplex	_	NOUN	NOUN	_	56	appos	_	TokenRange=480:487
+62	guaruja	guaruja	NOUN	NOUN	_	61	flat	_	TokenRange=488:495
+63	sp	_	ADJ	ADJ	_	64	dep	_	TokenRange=496:498
+64	veja	ver	VERB	VERB	_	68	parataxis	_	TokenRange=499:503
+65	abaixo	abaixo	ADV	ADV	_	64	advmod	_	TokenRange=504:510
+66	veiculos	veiculo	NOUN	NOUN	_	68	nsubj	_	TokenRange=511:519
+67	estrangeiros	estrangeiro	ADJ	ADJ	_	66	amod	_	TokenRange=520:532
+68	disseram	dizer	VERB	VERB	_	0	root	_	TokenRange=533:541
+69	jornal	jornal	NOUN	NOUN	_	68	obj	_	SpaceAfter=No|TokenRange=542:548
+

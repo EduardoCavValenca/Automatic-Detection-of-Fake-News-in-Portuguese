@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dinheiro publico 2010 lula doou r 25 milhoes grupo extremista hamas atraves decreto pt atraves expresidente lula doou dinheiro publico dinheiro brasileiros terror dinheiro deveria usado saneamento basico saude educacaoseguranca infraestrutura combate microcefaliaetc duvida site planalto diario oficial uniao dou dinheiro destinado partir criacao lei 12292 2010 veja lei site pl analto http
+1	dinheiro	dinheiro	NOUN	NOUN	_	48	nsubj	_	TokenRange=0:8
+2	publico	_	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+3	2010	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=17:21
+4	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=22:26
+5	doou	doar	VERB	VERB	_	1	acl:relcl	_	TokenRange=27:31
+6	r	r	NOUN	NOUN	_	5	obj	_	TokenRange=32:33
+7	25	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=34:36
+8	milhoes	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=37:44
+9	grupo	grupo	NOUN	NOUN	_	5	obj	_	TokenRange=45:50
+10	extremista	extremista	ADJ	ADJ	_	9	amod	_	TokenRange=51:61
+11	hamas	_	NOUN	NOUN	_	9	appos	_	TokenRange=62:67
+12	atraves	_	ADV	ADV	_	13	advmod	_	TokenRange=68:75
+13	decreto	decreto	NOUN	NOUN	_	5	parataxis	_	TokenRange=76:83
+14	pt	_	PROPN	PNOUN	_	13	appos	_	TokenRange=84:86
+15	atraves	_	ADV	ADV	_	16	advmod	_	TokenRange=87:94
+16	expresidente	expresidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=95:107
+17	lula	_	NOUN	NOUN	_	16	flat	_	TokenRange=108:112
+18	doou	doar	VERB	VERB	_	13	acl:relcl	_	TokenRange=113:117
+19	dinheiro	dinheiro	NOUN	NOUN	_	18	obj	_	TokenRange=118:126
+20	publico	publico	ADJ	ADJ	_	19	amod	_	TokenRange=127:134
+21	dinheiro	dinheiro	NOUN	NOUN	_	18	obj	_	TokenRange=135:143
+22	brasileiros	brasileiro	ADJ	ADJ	_	21	amod	_	TokenRange=144:155
+23	terror	terror	NOUN	NOUN	_	21	amod	_	TokenRange=156:162
+24	dinheiro	dinheiro	NOUN	NOUN	_	26	nsubj	_	TokenRange=163:171
+25	deveria	dever	AUX	AUX	_	26	aux	_	TokenRange=172:179
+26	usado	usar	VERB	VERB	_	18	parataxis	_	TokenRange=180:185
+27	saneamento	saneamento	NOUN	NOUN	_	26	obj	_	TokenRange=186:196
+28	basico	basico	ADJ	ADJ	_	27	amod	_	TokenRange=197:203
+29	saude	saude	NOUN	NOUN	_	27	appos	_	TokenRange=204:209
+30	educacaoseguranca	_	NOUN	NOUN	_	27	appos	_	TokenRange=210:227
+31	infraestrutura	infraestrutura	NOUN	NOUN	_	27	appos	_	TokenRange=228:242
+32	combate	combate	NOUN	NOUN	_	30	appos	_	TokenRange=243:250
+33	microcefaliaetc	_	NOUN	NOUN	_	32	flat	_	TokenRange=251:266
+34	duvida	duvido	ADJ	ADJ	_	35	amod	_	TokenRange=267:273
+35	site	site	NOUN	NOUN	_	48	nsubj	_	TokenRange=274:278
+36	planalto	planalto	ADJ	ADJ	_	37	amod	_	TokenRange=279:287
+37	diario	diario	NOUN	NOUN	_	35	appos	_	TokenRange=288:294
+38	oficial	oficial	ADJ	ADJ	_	37	amod	_	TokenRange=295:302
+39	uniao	uniao	NOUN	NOUN	_	37	appos	_	TokenRange=303:308
+40	dou	_	ADP	ADP	_	41	case	_	TokenRange=309:312
+41	dinheiro	dinheiro	NOUN	NOUN	_	39	nmod	_	TokenRange=313:321
+42	destinado	destinar	VERB	VERB	_	41	acl	_	TokenRange=322:331
+43	partir	partir	VERB	VERB	_	42	xcomp	_	TokenRange=332:338
+44	criacao	criacao	NOUN	NOUN	_	43	obj	_	TokenRange=339:346
+45	lei	lei	NOUN	NOUN	_	44	appos	_	TokenRange=347:350
+46	12292	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=351:356
+47	2010	_	NUM	NUM	NumType=Card	45	nmod	_	TokenRange=357:361
+48	veja	ver	VERB	VERB	_	0	root	_	TokenRange=362:366
+49	lei	lei	NOUN	NOUN	_	48	obj	_	TokenRange=367:370
+50	site	site	NOUN	NOUN	_	49	appos	_	TokenRange=371:375
+51	pl	_	X	X	_	50	appos	_	TokenRange=376:378
+52	analto	_	NOUN	NOUN	_	51	flat	_	TokenRange=379:385
+53	http	_	X	X	_	48	dep	_	SpaceAfter=No|TokenRange=386:390
+

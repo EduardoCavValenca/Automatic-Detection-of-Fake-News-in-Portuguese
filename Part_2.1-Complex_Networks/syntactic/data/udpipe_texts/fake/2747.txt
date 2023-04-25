@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jantar presidente senado diz aliados sei posso preso qualquer momento jantar ocorreu casa senador tasso jereissati psdbce acabou inicio madrugada dia 10 marco 2016 presidente senado renan calheiros pmdbal durante jantar senadores psdb pmdb fez desabafo surpreendeu todos recinto comentar sobre imprevisibilidade operacao lava jato renan desabafou sei posso preso qualquer momento dois anos tentando
+1	jantar	jantar	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	presidente	presidente	NOUN	NOUN	_	4	nsubj	_	TokenRange=7:17
+3	senado	senado	ADJ	ADJ	_	2	amod	_	TokenRange=18:24
+4	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=25:28
+5	aliados	aliado	NOUN	NOUN	_	4	obj	_	TokenRange=29:36
+6	sei	saber	AUX	AUX	_	8	aux	_	TokenRange=37:40
+7	posso	_	AUX	AUX	_	8	aux	_	TokenRange=41:46
+8	preso	_	VERB	VERB	_	4	ccomp	_	TokenRange=47:52
+9	qualquer	_	DET	DET	_	10	det	_	TokenRange=53:61
+10	momento	momento	NOUN	NOUN	_	8	nmod	_	TokenRange=62:69
+11	jantar	jantar	NOUN	NOUN	_	12	nsubj	_	TokenRange=70:76
+12	ocorreu	ocorrer	VERB	VERB	_	4	parataxis	_	TokenRange=77:84
+13	casa	casa	NOUN	NOUN	_	12	obj	_	TokenRange=85:89
+14	senador	senador	NOUN	NOUN	_	13	appos	_	TokenRange=90:97
+15	tasso	tasso	NOUN	NOUN	_	13	appos	_	TokenRange=98:103
+16	jereissati	_	NOUN	NOUN	_	15	flat	_	TokenRange=104:114
+17	psdbce	_	NOUN	NOUN	_	15	flat	_	TokenRange=115:121
+18	acabou	acabar	VERB	VERB	_	4	parataxis	_	TokenRange=122:128
+19	inicio	_	ADJ	ADJ	_	18	nmod	_	TokenRange=129:135
+20	madrugada	madrugada	NOUN	NOUN	_	18	nmod	_	TokenRange=136:145
+21	dia	dia	NOUN	NOUN	_	18	nmod	_	TokenRange=146:149
+22	10	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=150:152
+23	marco	marco	NOUN	NOUN	_	21	nmod	_	TokenRange=153:158
+24	2016	_	NUM	NUM	NumType=Card	23	nmod	_	TokenRange=159:163
+25	presidente	presidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=164:174
+26	senado	senado	ADJ	ADJ	_	25	amod	_	TokenRange=175:181
+27	renan	_	NOUN	NOUN	_	25	appos	_	TokenRange=182:187
+28	calheiros	calheiro	NOUN	NOUN	_	27	flat	_	TokenRange=188:197
+29	pmdbal	_	NOUN	NOUN	_	27	flat	_	TokenRange=198:204
+30	durante	_	ADP	ADP	_	31	case	_	TokenRange=205:212
+31	jantar	jantar	NOUN	NOUN	_	35	nmod	_	TokenRange=213:219
+32	senadores	senador	NOUN	NOUN	_	31	flat	_	TokenRange=220:229
+33	psdb	_	PROPN	PNOUN	_	35	nsubj	_	TokenRange=230:234
+34	pmdb	_	PROPN	PNOUN	_	33	flat	_	TokenRange=235:239
+35	fez	fazer	VERB	VERB	_	4	parataxis	_	TokenRange=240:243
+36	desabafo	desabafo	NOUN	NOUN	_	37	obj	_	TokenRange=244:252
+37	surpreendeu	surpreender	VERB	VERB	_	35	ccomp	_	TokenRange=253:264
+38	todos	_	PRON	PRON	_	39	det	_	TokenRange=265:270
+39	recinto	recinto	NOUN	NOUN	_	37	obj	_	TokenRange=271:278
+40	comentar	comentar	VERB	VERB	_	37	xcomp	_	TokenRange=279:287
+41	sobre	_	ADP	ADP	_	42	case	_	TokenRange=288:293
+42	imprevisibilidade	imprevisibilidade	NOUN	NOUN	_	40	nmod	_	TokenRange=294:311
+43	operacao	operacao	ADJ	ADJ	_	42	appos	_	TokenRange=312:320
+44	lava	lava	NOUN	NOUN	_	42	appos	_	TokenRange=321:325
+45	jato	jato	NOUN	NOUN	_	47	advmod	_	TokenRange=326:330
+46	renan	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=331:336
+47	desabafou	desabafar	VERB	VERB	_	37	conj	_	TokenRange=337:346
+48	sei	saber	AUX	AUX	_	50	nsubj	_	TokenRange=347:350
+49	posso	_	AUX	AUX	_	50	aux	_	TokenRange=351:356
+50	preso	_	VERB	VERB	_	47	ccomp	_	TokenRange=357:362
+51	qualquer	_	DET	DET	_	52	det	_	TokenRange=363:371
+52	momento	momento	NOUN	NOUN	_	50	nmod	_	TokenRange=372:379
+53	dois	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=380:384
+54	anos	ano	NOUN	NOUN	_	55	obj	_	TokenRange=385:389
+55	tentando	tentar	VERB	VERB	_	47	acl	_	SpaceAfter=No|TokenRange=390:398
+

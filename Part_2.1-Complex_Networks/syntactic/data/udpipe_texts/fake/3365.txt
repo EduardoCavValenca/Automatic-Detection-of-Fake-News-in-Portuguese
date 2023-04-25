@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = industria crime sustentada governo pt lider teto mtst desfila carrao r 60 mil alem desta lider existem outros tantos lideres movimentos terra moram mansoes desfilam carroes luxo possuem conta bancaria bastante recheada bruno maranhao levou ovelhas invadir congresso nacional fez pai pobres epoca desembolsasse cofres publicos quantia 500 milhoes reais mst invadisse congresso
+1	industria	industria	NOUN	NOUN	_	17	nsubj	_	TokenRange=0:9
+2	crime	crime	NOUN	NOUN	_	1	appos	_	TokenRange=10:15
+3	sustentada	sustentar	ADJ	ADJ	_	1	amod	_	TokenRange=16:26
+4	governo	governo	NOUN	NOUN	_	1	appos	_	TokenRange=27:34
+5	pt	_	NOUN	NOUN	_	6	appos	_	TokenRange=35:37
+6	lider	lider	NOUN	NOUN	_	1	appos	_	TokenRange=38:43
+7	teto	teto	NOUN	NOUN	_	6	flat	_	TokenRange=44:48
+8	mtst	_	NOUN	NOUN	_	6	flat	_	TokenRange=49:53
+9	desfila	desfilar	VERB	VERB	_	0	root	_	TokenRange=54:61
+10	carrao	carrao	NOUN	NOUN	_	9	obj	_	TokenRange=62:68
+11	r	r	NOUN	NOUN	_	10	appos	_	TokenRange=69:70
+12	60	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=71:73
+13	mil	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=74:77
+14	alem	alem	ADV	NOUN	_	9	advmod	_	TokenRange=78:82
+15	desta	_	ADP	ADP	_	16	case	_	TokenRange=83:88
+16	lider	lider	NOUN	NOUN	_	14	nmod	_	TokenRange=89:94
+17	existem	existir	VERB	VERB	_	9	parataxis	_	TokenRange=95:102
+18	outros	_	DET	DET	_	20	det	_	TokenRange=103:109
+19	tantos	_	DET	DET	_	20	det	_	TokenRange=110:116
+20	lideres	lider	NOUN	NOUN	_	17	nsubj	_	TokenRange=117:124
+21	movimentos	movimento	NOUN	NOUN	_	20	appos	_	TokenRange=125:135
+22	terra	terra	NOUN	NOUN	_	23	nsubj	_	TokenRange=136:141
+23	moram	morar	VERB	VERB	_	20	acl:relcl	_	TokenRange=142:147
+24	mansoes	mansoe	NOUN	NOUN	_	23	nsubj	_	TokenRange=148:155
+25	desfilam	desfilar	VERB	VERB	_	23	parataxis	_	TokenRange=156:164
+26	carroes	carroe	NOUN	NOUN	_	25	nsubj	_	TokenRange=165:172
+27	luxo	luxo	ADJ	NOUN	_	26	amod	_	TokenRange=173:177
+28	possuem	possuir	VERB	VERB	_	25	conj	_	TokenRange=178:185
+29	conta	conta	NOUN	NOUN	_	28	obj	_	TokenRange=186:191
+30	bancaria	bancario	ADJ	ADJ	_	29	amod	_	TokenRange=192:200
+31	bastante	bastante	ADV	ADV	_	32	advmod	_	TokenRange=201:209
+32	recheada	recheado	ADJ	ADJ	_	29	amod	_	TokenRange=210:218
+33	bruno	bruno	NOUN	NOUN	_	35	nsubj	_	TokenRange=219:224
+34	maranhao	maranhao	NOUN	NOUN	_	33	flat	_	TokenRange=225:233
+35	levou	levar	VERB	VERB	_	28	parataxis	_	TokenRange=234:239
+36	ovelhas	ovelha	NOUN	NOUN	_	35	obj	_	TokenRange=240:247
+37	invadir	invadir	VERB	VERB	_	36	acl:inf	_	TokenRange=248:255
+38	congresso	congresso	NOUN	NOUN	_	37	obj	_	TokenRange=256:265
+39	nacional	nacional	ADJ	ADJ	_	38	amod	_	TokenRange=266:274
+40	fez	fazer	VERB	VERB	_	35	parataxis	_	TokenRange=275:278
+41	pai	pai	NOUN	NOUN	_	40	obj	_	TokenRange=279:282
+42	pobres	pobre	ADJ	ADJ	_	41	amod	_	TokenRange=283:289
+43	epoca	epoca	NOUN	NOUN	_	44	nsubj	_	TokenRange=290:295
+44	desembolsasse	desembolsar	VERB	VERB	_	40	ccomp	_	TokenRange=296:309
+45	cofres	cofre	NOUN	NOUN	_	44	obj	_	TokenRange=310:316
+46	publicos	publico	ADJ	ADJ	_	45	amod	_	TokenRange=317:325
+47	quantia	quantir	VERB	VERB	_	52	parataxis	_	TokenRange=326:333
+48	500	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=334:337
+49	milhoes	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=338:345
+50	reais	real	NOUN	NOUN	_	52	obj	_	TokenRange=346:351
+51	mst	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=352:355
+52	invadisse	invadir	VERB	VERB	_	40	parataxis	_	TokenRange=356:365
+53	congresso	congresso	NOUN	NOUN	_	52	obj	_	SpaceAfter=No|TokenRange=366:375
+

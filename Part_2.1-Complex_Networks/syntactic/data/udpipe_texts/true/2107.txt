@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = testemunhas dizem sabem palocci agiu beneficio grupo odebrecht palocci preso setembro 2016 durante 35 fase operacao lava jato responde crimes corrupcao passiva lavagem dinheiro testemunhas defesa antonio palocci ouvidas nesta quartafeira 29 processo relacionado operacao lava jato parana disseram sabem conhecimento exministro agido beneficiar alguma empresa especificamente organizacoes ligadas grupo odebrecht enquanto deputado federal periodo ministro deputados federais arlindo chinaglia ptsp paulo pimenta ptrs senador lindberg farias ptrj prestaram depoimento nesta quartafeira 29 videoconferencia
+1	testemunhas	testemunha	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	dizem	dizer	VERB	VERB	_	0	root	_	TokenRange=12:17
+3	sabem	saber	VERB	VERB	_	2	xcomp	_	TokenRange=18:23
+4	palocci	_	NOUN	NOUN	_	3	obj	_	TokenRange=24:31
+5	agiu	agir	VERB	VERB	_	3	ccomp	_	TokenRange=32:36
+6	beneficio	beneficio	NOUN	NOUN	_	5	obj	_	TokenRange=37:46
+7	grupo	grupo	NOUN	NOUN	_	5	obj	_	TokenRange=47:52
+8	odebrecht	_	NOUN	NOUN	_	7	appos	_	TokenRange=53:62
+9	palocci	_	NOUN	NOUN	_	7	appos	_	TokenRange=63:70
+10	preso	_	VERB	VERB	_	7	acl	_	TokenRange=71:76
+11	setembro	_	PROPN	PNOUN	_	5	nmod	_	TokenRange=77:85
+12	2016	_	NUM	NUM	NumType=Card	11	nmod	_	TokenRange=86:90
+13	durante	_	ADP	ADP	_	15	case	_	TokenRange=91:98
+14	35	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=99:101
+15	fase	fase	NOUN	NOUN	_	19	nmod	_	TokenRange=102:106
+16	operacao	operacao	NOUN	NOUN	_	15	appos	_	TokenRange=107:115
+17	lava	lava	NOUN	NOUN	_	19	nsubj	_	TokenRange=116:120
+18	jato	jato	NOUN	NOUN	_	17	flat	_	TokenRange=121:125
+19	responde	responder	VERB	VERB	_	3	parataxis	_	TokenRange=126:134
+20	crimes	crime	NOUN	NOUN	_	19	obj	_	TokenRange=135:141
+21	corrupcao	corrupcao	ADJ	ADJ	_	20	amod	_	TokenRange=142:151
+22	passiva	passivo	ADJ	ADJ	_	20	amod	_	TokenRange=152:159
+23	lavagem	lavagem	NOUN	NOUN	_	19	obj	_	TokenRange=160:167
+24	dinheiro	dinheiro	NOUN	NOUN	_	23	amod	_	TokenRange=168:176
+25	testemunhas	testemunha	NOUN	NOUN	_	23	appos	_	TokenRange=177:188
+26	defesa	_	NOUN	NOUN	_	25	appos	_	TokenRange=189:195
+27	antonio	antonio	NOUN	NOUN	_	25	appos	_	TokenRange=196:203
+28	palocci	_	NOUN	NOUN	_	27	flat	_	TokenRange=204:211
+29	ouvidas	ouvir	VERB	VERB	_	27	acl	_	TokenRange=212:219
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=220:225
+31	quartafeira	quartafeira	NOUN	NOUN	_	29	nmod	_	TokenRange=226:237
+32	29	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=238:240
+33	processo	processo	NOUN	NOUN	_	31	appos	_	TokenRange=241:249
+34	relacionado	relacionado	ADJ	ADJ	_	33	amod	_	TokenRange=250:261
+35	operacao	operacao	ADJ	NOUN	_	33	amod	_	TokenRange=262:270
+36	lava	lava	NOUN	NOUN	_	33	appos	_	TokenRange=271:275
+37	jato	jato	NOUN	NOUN	_	36	flat	_	TokenRange=276:280
+38	parana	parana	ADJ	ADJ	_	36	amod	_	TokenRange=281:287
+39	disseram	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=288:296
+40	sabem	saber	VERB	VERB	_	39	ccomp	_	TokenRange=297:302
+41	conhecimento	conhecimento	NOUN	NOUN	_	40	obj	_	TokenRange=303:315
+42	exministro	exministro	NOUN	NOUN	_	41	amod	_	TokenRange=316:326
+43	agido	_	ADJ	ADJ	_	41	amod	_	TokenRange=327:332
+44	beneficiar	beneficiar	VERB	VERB	_	41	acl:inf	_	TokenRange=333:343
+45	alguma	_	DET	DET	_	46	det	_	TokenRange=344:350
+46	empresa	empresa	NOUN	NOUN	_	44	obj	_	TokenRange=351:358
+47	especificamente	especificamente	ADV	ADV	_	48	advmod	_	TokenRange=359:374
+48	organizacoes	organizacoe	NOUN	NOUN	_	46	appos	_	TokenRange=375:387
+49	ligadas	ligado	ADJ	ADJ	_	48	amod	_	TokenRange=388:395
+50	grupo	grupo	NOUN	NOUN	_	48	appos	_	TokenRange=396:401
+51	odebrecht	_	NOUN	NOUN	_	50	flat	_	TokenRange=402:411
+52	enquanto	_	ADP	ADP	_	53	case	_	TokenRange=412:420
+53	deputado	deputado	NOUN	NOUN	_	44	nmod	_	TokenRange=421:429
+54	federal	federal	ADJ	ADJ	_	53	amod	_	TokenRange=430:437
+55	periodo	periodo	NOUN	NOUN	_	56	amod	_	TokenRange=438:445
+56	ministro	ministro	NOUN	NOUN	_	53	appos	_	TokenRange=446:454
+57	deputados	deputado	NOUN	NOUN	_	56	appos	_	TokenRange=455:464
+58	federais	federal	ADJ	ADJ	_	57	amod	_	TokenRange=465:473
+59	arlindo	arlindo	NOUN	NOUN	_	69	nsubj	_	TokenRange=474:481
+60	chinaglia	chinaglia	NOUN	NOUN	_	59	flat	_	TokenRange=482:491
+61	ptsp	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=492:496
+62	paulo	_	NOUN	NOUN	_	61	appos	_	TokenRange=497:502
+63	pimenta	pimenta	ADJ	ADJ	_	61	amod	_	TokenRange=503:510
+64	ptrs	_	NOUN	NOUN	_	61	appos	_	TokenRange=511:515
+65	senador	senador	NOUN	NOUN	_	61	appos	_	TokenRange=516:523
+66	lindberg	_	NOUN	NOUN	_	65	appos	_	TokenRange=524:532
+67	farias	_	ADJ	ADJ	_	66	flat	_	TokenRange=533:539
+68	ptrj	_	PROPN	PNOUN	_	66	flat	_	TokenRange=540:544
+69	prestaram	prestar	VERB	VERB	_	2	parataxis	_	TokenRange=545:554
+70	depoimento	depoimento	NOUN	NOUN	_	69	obj	_	TokenRange=555:565
+71	nesta	_	ADP	ADP	_	72	case	_	TokenRange=566:571
+72	quartafeira	quartafeira	NOUN	NOUN	_	69	nmod	_	TokenRange=572:583
+73	29	_	NUM	NUM	NumType=Card	72	appos	_	TokenRange=584:586
+74	videoconferencia	_	NOUN	NOUN	_	69	parataxis	_	SpaceAfter=No|TokenRange=587:603
+

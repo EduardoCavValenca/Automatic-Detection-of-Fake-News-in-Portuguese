@@ -1,0 +1,26 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = autor impeachment dilma precisou 30 juristas pra responder tudo firula autores pedido impeachment considerou reuniao presidente especialistas elogio
+1	autor	autor	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	impeachment	impeachment	NOUN	NOUN	_	1	flat	_	TokenRange=6:17
+3	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=18:23
+4	precisou	precisar	VERB	VERB	_	0	root	_	TokenRange=24:32
+5	30	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=33:35
+6	juristas	jurista	NOUN	NOUN	_	4	obj	_	TokenRange=36:44
+7	pra	_	ADP	ADP	_	8	mark	_	TokenRange=45:48
+8	responder	responder	VERB	VERB	_	4	advcl	_	TokenRange=49:58
+9	tudo	_	PRON	PRON	_	10	nsubj	_	TokenRange=59:63
+10	firula	firular	VERB	VERB	_	8	ccomp	_	TokenRange=64:70
+11	autores	autor	NOUN	NOUN	_	10	nsubj	_	TokenRange=71:78
+12	pedido	pedir	VERB	VERB	_	11	acl	_	TokenRange=79:85
+13	impeachment	impeachment	NOUN	NOUN	_	12	obj	_	TokenRange=86:97
+14	considerou	considerar	VERB	VERB	_	4	parataxis	_	TokenRange=98:108
+15	reuniao	reuniao	NOUN	NOUN	_	14	obj	_	TokenRange=109:116
+16	presidente	presidente	NOUN	NOUN	_	15	flat	_	TokenRange=117:127
+17	especialistas	especialista	NOUN	NOUN	_	15	flat	_	TokenRange=128:141
+18	elogio	elogio	NOUN	NOUN	_	15	appos	_	SpaceAfter=No|TokenRange=142:148
+

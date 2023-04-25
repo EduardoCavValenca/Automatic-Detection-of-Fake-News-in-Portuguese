@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer suspende bilhoes iria cuba vai investir saude brasil interrupcao envio dinheiro cuba anunciada presidente michel temer temer disse vamos investir saude medicos brasil podemos acobertar intencao favorecer ditadura cubana meio programa medicos futuro governo devera rever contratos medicos cubanos visando assegurarlhes direitos profissionais remuneracao adequada pais cerca 50 espioes cubanos enviados brasil fiscalizar profissionais deverao extraditados
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	suspende	suspender	VERB	VERB	_	0	root	_	TokenRange=6:14
+3	bilhoes	bilhoe	NOUN	NOUN	_	2	obj	_	TokenRange=15:22
+4	iria	_	ADJ	ADJ	_	2	obj	_	TokenRange=23:27
+5	cuba	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=28:32
+6	vai	ir	AUX	AUX	_	7	aux	_	TokenRange=33:36
+7	investir	investir	VERB	VERB	_	2	ccomp	_	TokenRange=37:45
+8	saude	saude	NOUN	NOUN	_	7	obj	_	TokenRange=46:51
+9	brasil	brasil	ADJ	ADJ	_	8	amod	_	TokenRange=52:58
+10	interrupcao	interrupcao	NOUN	NOUN	_	11	nsubj	_	TokenRange=59:70
+11	envio	enviar	VERB	VERB	_	7	conj	_	TokenRange=71:76
+12	dinheiro	dinheiro	NOUN	NOUN	_	11	obj	_	TokenRange=77:85
+13	cuba	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=86:90
+14	anunciada	anunciar	VERB	ADJ	_	15	acl	_	TokenRange=91:100
+15	presidente	presidente	NOUN	NOUN	_	19	nsubj	_	TokenRange=101:111
+16	michel	michel	ADJ	ADJ	_	15	amod	_	TokenRange=112:118
+17	temer	temer	NOUN	NOUN	_	15	appos	_	TokenRange=119:124
+18	temer	temer	NOUN	NOUN	_	15	appos	_	TokenRange=125:130
+19	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=131:136
+20	vamos	ir	AUX	AUX	_	21	aux	_	TokenRange=137:142
+21	investir	investir	VERB	VERB	_	19	ccomp	_	TokenRange=143:151
+22	saude	saude	NOUN	NOUN	_	21	obj	_	TokenRange=152:157
+23	medicos	medico	ADJ	ADJ	_	22	amod	_	TokenRange=158:165
+24	brasil	brasil	ADJ	ADJ	_	26	nsubj	_	TokenRange=166:172
+25	podemos	_	AUX	AUX	_	26	aux	_	TokenRange=173:180
+26	acobertar	acobertar	VERB	VERB	_	21	ccomp	_	TokenRange=181:190
+27	intencao	_	ADJ	NOUN	_	26	xcomp	_	TokenRange=191:199
+28	favorecer	favorecer	VERB	VERB	_	26	ccomp	_	TokenRange=200:209
+29	ditadura	ditadura	NOUN	NOUN	_	28	obj	_	TokenRange=210:218
+30	cubana	cubano	ADJ	ADJ	_	29	amod	_	TokenRange=219:225
+31	meio	meio	ADJ	ADJ	_	32	amod	_	TokenRange=226:230
+32	programa	programa	NOUN	NOUN	_	29	appos	_	TokenRange=231:239
+33	medicos	medico	ADJ	ADJ	_	32	amod	_	TokenRange=240:247
+34	futuro	futuro	ADJ	ADJ	_	35	amod	_	TokenRange=248:254
+35	governo	governo	NOUN	NOUN	_	37	nsubj	_	TokenRange=255:262
+36	devera	_	AUX	AUX	_	37	aux	_	TokenRange=263:269
+37	rever	rever	VERB	VERB	_	26	parataxis	_	TokenRange=270:275
+38	contratos	contrato	NOUN	NOUN	_	37	obj	_	TokenRange=276:285
+39	medicos	medico	ADJ	ADJ	_	38	amod	_	TokenRange=286:293
+40	cubanos	cubano	ADJ	ADJ	_	38	amod	_	TokenRange=294:301
+41	visando	visar	VERB	VERB	_	38	acl	_	TokenRange=302:309
+42	assegurarlhes	assegurarlhe	ADJ	NOUN	_	41	xcomp	_	TokenRange=310:323
+43	direitos	direito	NOUN	NOUN	_	41	obj	_	TokenRange=324:332
+44	profissionais	profissional	ADJ	ADJ	_	43	amod	_	TokenRange=333:346
+45	remuneracao	remuneracao	NOUN	NOUN	_	43	appos	_	TokenRange=347:358
+46	adequada	adequado	ADJ	ADJ	_	43	amod	_	TokenRange=359:367
+47	pais	_	NOUN	NOUN	_	57	nsubj:pass	_	TokenRange=368:372
+48	cerca	cerca	ADV	ADV	_	49	advmod	_	TokenRange=373:378
+49	50	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=379:381
+50	espioes	espioe	NOUN	NOUN	_	57	nsubj:pass	_	TokenRange=382:389
+51	cubanos	cubano	ADJ	ADJ	_	50	amod	_	TokenRange=390:397
+52	enviados	enviar	VERB	VERB	_	50	acl	_	TokenRange=398:406
+53	brasil	brasil	ADJ	NOUN	_	54	advmod	_	TokenRange=407:413
+54	fiscalizar	fiscalizar	VERB	VERB	_	52	xcomp	_	TokenRange=414:424
+55	profissionais	profissional	NOUN	NOUN	_	54	obj	_	TokenRange=425:438
+56	deverao	dever	AUX	AUX	_	57	aux:pass	_	TokenRange=439:446
+57	extraditados	extraditar	VERB	VERB	_	38	acl	_	SpaceAfter=No|TokenRange=447:459
+

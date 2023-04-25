@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ccj camara encerra fase debates denuncia contra temer finalizada discussao parecer relator advogado defesa 20 minutos ultima manifestacao antes votacao dois deputados vao falar favor denuncia outros dois contra comissao constituicao justica ccj camara concluiu inicio tarde desta quintafeira 13 fase discussao relatorio deputado sergio zveiter pmdbrj recomenda prosseguimento denuncia corrupcao apresentada contra presidente michel temer antes parecer votado integrantes ccj relator 20
+1	ccj	_	DET	DET	_	2	det	_	TokenRange=0:3
+2	camara	camara	NOUN	NOUN	_	3	nsubj	_	TokenRange=4:10
+3	encerra	encerrar	VERB	VERB	_	0	root	_	TokenRange=11:18
+4	fase	fase	NOUN	NOUN	_	3	obj	_	TokenRange=19:23
+5	debates	debate	NOUN	NOUN	_	4	flat	_	TokenRange=24:31
+6	denuncia	denuncia	NOUN	NOUN	_	3	obj	_	TokenRange=32:40
+7	contra	_	ADP	ADP	_	8	case	_	TokenRange=41:47
+8	temer	temer	NOUN	NOUN	_	6	nmod	_	TokenRange=48:53
+9	finalizada	finalizar	ADJ	ADJ	_	10	amod	_	TokenRange=54:64
+10	discussao	discussao	NOUN	NOUN	_	3	nmod	_	TokenRange=65:74
+11	parecer	parecer	NOUN	NOUN	_	10	appos	_	TokenRange=75:82
+12	relator	relator	NOUN	NOUN	_	10	appos	_	TokenRange=83:90
+13	advogado	advogado	NOUN	NOUN	_	10	appos	_	TokenRange=91:99
+14	defesa	_	NOUN	NOUN	_	13	flat	_	TokenRange=100:106
+15	20	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=107:109
+16	minutos	minuto	NOUN	NOUN	_	13	nmod	_	TokenRange=110:117
+17	ultima	ultimo	ADJ	ADJ	_	18	amod	_	TokenRange=118:124
+18	manifestacao	manifestacao	NOUN	NOUN	_	13	appos	_	TokenRange=125:137
+19	antes	antes	ADV	ADV	_	24	advmod	_	TokenRange=138:143
+20	votacao	_	NOUN	NOUN	_	18	nmod	_	TokenRange=144:151
+21	dois	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=152:156
+22	deputados	deputado	NOUN	NOUN	_	24	nsubj	_	TokenRange=157:166
+23	vao	ir	AUX	AUX	_	24	aux	_	TokenRange=167:170
+24	falar	falar	VERB	VERB	_	3	parataxis	_	TokenRange=171:176
+25	favor	favor	NOUN	NOUN	_	24	obj	_	TokenRange=177:182
+26	denuncia	_	NOUN	NOUN	_	24	obj	_	TokenRange=183:191
+27	outros	_	DET	DET	_	28	det	_	TokenRange=192:198
+28	dois	_	NUM	NUM	NumType=Card	24	nsubj	_	TokenRange=199:203
+29	contra	_	ADP	ADP	_	30	case	_	TokenRange=204:210
+30	comissao	comissao	NOUN	NOUN	_	28	nmod	_	TokenRange=211:219
+31	constituicao	constituicao	NOUN	NOUN	_	30	amod	_	TokenRange=220:232
+32	justica	justico	ADJ	ADJ	_	30	amod	_	TokenRange=233:240
+33	ccj	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=241:244
+34	camara	camara	NOUN	NOUN	_	35	nsubj	_	TokenRange=245:251
+35	concluiu	concluir	VERB	VERB	_	24	conj	_	TokenRange=252:260
+36	inicio	_	NOUN	NOUN	_	35	obj	_	TokenRange=261:267
+37	tarde	tarde	NOUN	NOUN	_	35	obj	_	TokenRange=268:273
+38	desta	_	ADP	ADP	_	39	case	_	TokenRange=274:279
+39	quintafeira	quintafeira	NOUN	NOUN	_	37	nmod	_	TokenRange=280:291
+40	13	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=292:294
+41	fase	fase	NOUN	NOUN	_	35	obj	_	TokenRange=295:299
+42	discussao	discussao	NOUN	NOUN	_	41	amod	_	TokenRange=300:309
+43	relatorio	relatorio	NOUN	NOUN	_	41	appos	_	TokenRange=310:319
+44	deputado	deputado	NOUN	NOUN	_	41	appos	_	TokenRange=320:328
+45	sergio	sergio	NOUN	NOUN	_	44	flat	_	TokenRange=329:335
+46	zveiter	zveiter	NOUN	NOUN	_	44	flat	_	TokenRange=336:343
+47	pmdbrj	_	PROPN	PNOUN	_	44	appos	_	TokenRange=344:350
+48	recomenda	recomendar	VERB	VERB	_	3	parataxis	_	TokenRange=351:360
+49	prosseguimento	prosseguimento	NOUN	NOUN	_	48	obj	_	TokenRange=361:375
+50	denuncia	denuncio	ADJ	ADJ	_	49	amod	_	TokenRange=376:384
+51	corrupcao	corrupcao	NOUN	NOUN	_	49	amod	_	TokenRange=385:394
+52	apresentada	apresentar	VERB	VERB	_	49	acl	_	TokenRange=395:406
+53	contra	_	ADP	ADP	_	54	case	_	TokenRange=407:413
+54	presidente	presidente	NOUN	NOUN	_	52	nmod	_	TokenRange=414:424
+55	michel	michel	ADJ	ADJ	_	54	amod	_	TokenRange=425:431
+56	temer	temer	NOUN	NOUN	_	54	flat	_	TokenRange=432:437
+57	antes	antes	ADV	ADV	_	58	advmod	_	TokenRange=438:443
+58	parecer	parecer	NOUN	NOUN	_	52	nmod	_	TokenRange=444:451
+59	votado	votado	ADJ	ADJ	_	58	amod	_	TokenRange=452:458
+60	integrantes	_	ADJ	ADJ	_	58	amod	_	TokenRange=459:470
+61	ccj	_	PROPN	PNOUN	_	58	appos	_	TokenRange=471:474
+62	relator	relator	NOUN	NOUN	_	61	flat	_	TokenRange=475:482
+63	20	_	NUM	NUM	NumType=Card	61	appos	_	SpaceAfter=No|TokenRange=483:485
+

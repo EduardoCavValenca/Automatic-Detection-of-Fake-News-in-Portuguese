@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = coluna atualizada acrescimo informacao area tecnica camara convencida jose dirceu direito receber aposentadoria exdeputado condenado 30 anos prisao lava jato petista cassado 2005 envolver mensalao casa aceitou pedido considerar 11 anos ficou anistiado tempo mandato ajudou obter periodo minimo requerer beneficio decisao final sobre direito aposentar tendo sido cassado politica cabera presidente camara rodrigo maia cofrinho calculos ainda feitos consultores camara disseram coluna conseguir beneficio dirceu deve receber minimo r 17 mil mensais tempo anistia contar calculo beneficio rodrigo maia afirma
+1	coluna	coluna	NOUN	NOUN	_	81	nsubj	_	TokenRange=0:6
+2	atualizada	atualizado	ADJ	ADJ	_	1	amod	_	TokenRange=7:17
+3	acrescimo	acrescimar	VERB	VERB	_	1	acl	_	TokenRange=18:27
+4	informacao	informacao	NOUN	NOUN	_	3	obj	_	TokenRange=28:38
+5	area	area	NOUN	NOUN	_	4	appos	_	TokenRange=39:43
+6	tecnica	tecnico	ADJ	ADJ	_	5	amod	_	TokenRange=44:51
+7	camara	camara	NOUN	NOUN	_	1	appos	_	TokenRange=52:58
+8	convencida	convencido	ADJ	ADJ	_	7	amod	_	TokenRange=59:69
+9	jose	jose	NOUN	NOUN	_	12	obj	_	TokenRange=70:74
+10	dirceu	_	NOUN	NOUN	_	9	flat	_	TokenRange=75:81
+11	direito	direito	NOUN	NOUN	_	12	nsubj	_	TokenRange=82:89
+12	receber	receber	VERB	VERB	_	7	acl:relcl	_	TokenRange=90:97
+13	aposentadoria	aposentadoria	NOUN	NOUN	_	12	obj	_	TokenRange=98:111
+14	exdeputado	exdeputado	ADJ	ADJ	_	13	amod	_	TokenRange=112:122
+15	condenado	condenar	VERB	VERB	_	13	acl	_	TokenRange=123:132
+16	30	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=133:135
+17	anos	ano	NOUN	NOUN	_	15	obj	_	TokenRange=136:140
+18	prisao	prisao	NOUN	NOUN	_	17	appos	_	TokenRange=141:147
+19	lava	lavar	VERB	VERB	_	3	parataxis	_	TokenRange=148:152
+20	jato	jato	NOUN	NOUN	_	19	obj	_	TokenRange=153:157
+21	petista	petista	NOUN	NOUN	_	19	obj	_	TokenRange=158:165
+22	cassado	cassado	ADJ	ADJ	_	19	xcomp	_	TokenRange=166:173
+23	2005	_	NUM	NUM	NumType=Card	24	nsubj	_	TokenRange=174:178
+24	envolver	envolver	VERB	VERB	_	27	advcl	_	TokenRange=179:187
+25	mensalao	_	NOUN	NOUN	_	24	obj	_	TokenRange=188:196
+26	casa	casa	NOUN	NOUN	_	24	obj	_	TokenRange=197:201
+27	aceitou	aceitar	VERB	VERB	_	19	parataxis	_	TokenRange=202:209
+28	pedido	pedido	NOUN	NOUN	_	27	obj	_	TokenRange=210:216
+29	considerar	considerar	VERB	VERB	_	27	ccomp	_	TokenRange=217:227
+30	11	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=228:230
+31	anos	ano	NOUN	NOUN	_	29	obj	_	TokenRange=231:235
+32	ficou	ficar	VERB	VERB	_	27	ccomp	_	TokenRange=236:241
+33	anistiado	anistiado	ADJ	ADJ	_	32	xcomp	_	TokenRange=242:251
+34	tempo	tempo	NOUN	NOUN	_	32	nsubj	_	TokenRange=252:257
+35	mandato	mandato	NOUN	NOUN	_	34	flat	_	TokenRange=258:265
+36	ajudou	ajudar	VERB	VERB	_	32	conj	_	TokenRange=266:272
+37	obter	obter	VERB	VERB	_	32	csubj	_	TokenRange=273:278
+38	periodo	periodo	NOUN	NOUN	_	37	obj	_	TokenRange=279:286
+39	minimo	minimo	ADJ	ADJ	_	38	amod	_	TokenRange=287:293
+40	requerer	requerer	VERB	VERB	_	52	csubj	_	TokenRange=294:302
+41	beneficio	beneficio	NOUN	NOUN	_	40	obj	_	TokenRange=303:312
+42	decisao	decisao	NOUN	NOUN	_	52	appos	_	TokenRange=313:320
+43	final	final	ADJ	ADJ	_	42	amod	_	TokenRange=321:326
+44	sobre	_	ADP	ADP	_	49	mark	_	TokenRange=327:332
+45	direito	direito	NOUN	NOUN	_	40	nmod	_	TokenRange=333:340
+46	aposentar	aposentar	VERB	VERB	_	45	case	_	TokenRange=341:350
+47	tendo	_	AUX	AUX	_	49	aux	_	TokenRange=351:356
+48	sido	ser	AUX	AUX	_	49	aux:pass	_	TokenRange=357:361
+49	cassado	cassar	VERB	VERB	_	36	acl	_	TokenRange=362:369
+50	politica	_	NOUN	NOUN	_	49	nsubj:pass	_	TokenRange=370:378
+51	cabera	caber	VERB	VERB	_	32	conj	_	TokenRange=379:385
+52	presidente	presidente	NOUN	NOUN	_	51	nsubj	_	TokenRange=386:396
+53	camara	camara	ADJ	ADJ	_	52	amod	_	TokenRange=397:403
+54	rodrigo	_	NOUN	NOUN	_	52	appos	_	TokenRange=404:411
+55	maia	maia	NOUN	NOUN	_	54	flat	_	TokenRange=412:416
+56	cofrinho	_	ADJ	ADJ	_	52	appos	_	TokenRange=417:425
+57	calculos	calculo	NOUN	NOUN	_	52	appos	_	TokenRange=426:434
+58	ainda	ainda	ADV	ADV	_	59	advmod	_	TokenRange=435:440
+59	feitos	fazer	VERB	VERB	_	57	acl	_	TokenRange=441:447
+60	consultores	consultor	NOUN	NOUN	_	62	nsubj	_	TokenRange=448:459
+61	camara	camara	ADJ	ADJ	_	60	amod	_	TokenRange=460:466
+62	disseram	dizer	VERB	VERB	_	52	acl:relcl	_	TokenRange=467:475
+63	coluna	coluna	NOUN	NOUN	_	62	obj	_	TokenRange=476:482
+64	conseguir	conseguir	VERB	VERB	_	63	acl:inf	_	TokenRange=483:492
+65	beneficio	beneficio	NOUN	NOUN	_	64	obj	_	TokenRange=493:502
+66	dirceu	dirceu	ADJ	ADJ	_	68	nsubj	_	TokenRange=503:509
+67	deve	dever	AUX	AUX	_	68	aux	_	TokenRange=510:514
+68	receber	receber	VERB	VERB	_	63	acl:relcl	_	TokenRange=515:522
+69	minimo	minimo	NOUN	NOUN	_	68	obj	_	TokenRange=523:529
+70	r	r	NOUN	NOUN	_	68	obj	_	TokenRange=530:531
+71	17	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=532:534
+72	mil	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=535:538
+73	mensais	mensal	ADJ	ADJ	_	74	amod	_	TokenRange=539:546
+74	tempo	tempo	NOUN	NOUN	_	68	obj	_	TokenRange=547:552
+75	anistia	anistia	NOUN	NOUN	_	74	flat	_	TokenRange=553:560
+76	contar	contar	VERB	VERB	_	68	csubj	_	TokenRange=561:567
+77	calculo	calculo	NOUN	NOUN	_	76	obj	_	TokenRange=568:575
+78	beneficio	beneficio	NOUN	NOUN	_	77	flat	_	TokenRange=576:585
+79	rodrigo	_	NOUN	PNOUN	_	81	nsubj	_	TokenRange=586:593
+80	maia	maia	NOUN	NOUN	_	79	flat	_	TokenRange=594:598
+81	afirma	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=599:605
+

@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fas amanhecem ribeirao country fest 2017 som sucessos sertanejos mix estilos festival ribeirao preto sp terminou manha deste domingo 17 energia israel novaes simone simaria jorge mateus matheus kauan passaram palcos sertanejo versatil pode afirmar apos 12 horas musica ribeirao country fest 2017 ribeirao preto sp publico amanheceu parque permanente exposicoes neste domingo 17 viu dois palcos desfile ritmos estilos escolha artistas repertorio mescla pouco tudo talvez prova festival celebracao neste caso bons anfitrioes devem agradar todos
+1	fas	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	amanhecem	amanhecer	VERB	VERB	_	0	root	_	TokenRange=4:13
+3	ribeirao	ribeirao	NOUN	NOUN	_	4	amod	_	TokenRange=14:22
+4	country	_	NOUN	NOUN	_	2	obj	_	TokenRange=23:30
+5	fest	_	NOUN	NOUN	_	4	flat	_	TokenRange=31:35
+6	2017	_	NUM	NUM	NumType=Card	4	appos	_	TokenRange=36:40
+7	som	som	NOUN	NOUN	_	4	appos	_	TokenRange=41:44
+8	sucessos	sucesso	NOUN	NOUN	_	4	appos	_	TokenRange=45:53
+9	sertanejos	sertanejo	ADJ	ADJ	_	8	amod	_	TokenRange=54:64
+10	mix	_	ADJ	ADJ	_	11	amod	_	TokenRange=65:68
+11	estilos	estilo	NOUN	NOUN	_	8	appos	_	TokenRange=69:76
+12	festival	festival	ADJ	ADJ	_	11	amod	_	TokenRange=77:85
+13	ribeirao	ribeirao	ADJ	ADJ	_	11	amod	_	TokenRange=86:94
+14	preto	preto	ADJ	ADJ	_	13	amod	_	TokenRange=95:100
+15	sp	_	ADJ	ADJ	_	13	amod	_	TokenRange=101:103
+16	terminou	terminar	VERB	VERB	_	2	parataxis	_	TokenRange=104:112
+17	manha	manha	NOUN	NOUN	_	16	nmod	_	TokenRange=113:118
+18	deste	_	ADP	ADP	_	19	case	_	TokenRange=119:124
+19	domingo	_	PROPN	PNOUN	_	17	nmod	_	TokenRange=125:132
+20	17	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=133:135
+21	energia	energia	NOUN	NOUN	_	16	obj	_	TokenRange=136:143
+22	israel	israel	NOUN	NOUN	_	21	appos	_	TokenRange=144:150
+23	novaes	_	NOUN	NOUN	_	22	flat	_	TokenRange=151:157
+24	simone	simone	NOUN	NOUN	_	21	appos	_	TokenRange=158:164
+25	simaria	simaria	NOUN	NOUN	_	24	flat	_	TokenRange=165:172
+26	jorge	jorge	NOUN	NOUN	_	24	appos	_	TokenRange=173:178
+27	mateus	_	NOUN	NOUN	_	26	flat	_	TokenRange=179:185
+28	matheus	_	NOUN	NOUN	_	26	flat	_	TokenRange=186:193
+29	kauan	_	NOUN	NOUN	_	26	flat	_	TokenRange=194:199
+30	passaram	passar	VERB	VERB	_	2	parataxis	_	TokenRange=200:208
+31	palcos	palco	NOUN	NOUN	_	30	obj	_	TokenRange=209:215
+32	sertanejo	sertanejo	ADJ	ADJ	_	31	amod	_	TokenRange=216:225
+33	versatil	versatil	ADJ	ADJ	_	31	amod	_	TokenRange=226:234
+34	pode	_	AUX	AUX	_	35	aux	_	TokenRange=235:239
+35	afirmar	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=240:247
+36	apos	_	ADP	ADP	_	38	case	_	TokenRange=248:252
+37	12	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=253:255
+38	horas	hora	NOUN	NOUN	_	35	nmod	_	TokenRange=256:261
+39	musica	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=262:268
+40	ribeirao	ribeirao	NOUN	NOUN	_	39	appos	_	TokenRange=269:277
+41	country	_	NOUN	NOUN	_	39	appos	_	TokenRange=278:285
+42	fest	_	NOUN	NOUN	_	41	flat	_	TokenRange=286:290
+43	2017	_	NUM	NUM	NumType=Card	41	appos	_	TokenRange=291:295
+44	ribeirao	ribeirao	NOUN	NOUN	_	41	appos	_	TokenRange=296:304
+45	preto	preto	ADJ	ADJ	_	44	amod	_	TokenRange=305:310
+46	sp	_	ADJ	ADJ	_	44	amod	_	TokenRange=311:313
+47	publico	_	NOUN	NOUN	_	44	amod	_	TokenRange=314:321
+48	amanheceu	amanhecer	VERB	VERB	_	2	parataxis	_	TokenRange=322:331
+49	parque	parque	NOUN	NOUN	_	48	obj	_	TokenRange=332:338
+50	permanente	permanente	ADJ	ADJ	_	49	amod	_	TokenRange=339:349
+51	exposicoes	_	NOUN	NOUN	_	49	appos	_	TokenRange=350:360
+52	neste	_	ADP	ADP	_	53	case	_	TokenRange=361:366
+53	domingo	_	PROPN	PNOUN	_	55	nmod	_	TokenRange=367:374
+54	17	_	NUM	NUM	NumType=Card	55	nsubj	_	TokenRange=375:377
+55	viu	ver	VERB	VERB	_	48	parataxis	_	TokenRange=378:381
+56	dois	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=382:386
+57	palcos	palco	NOUN	NOUN	_	55	obj	_	TokenRange=387:393
+58	desfile	_	VERB	VERB	_	55	parataxis	_	TokenRange=394:401
+59	ritmos	ritmo	NOUN	NOUN	_	55	obj	_	TokenRange=402:408
+60	estilos	estilo	NOUN	NOUN	_	59	flat	_	TokenRange=409:416
+61	escolha	escolhar	VERB	VERB	_	59	acl:relcl	_	TokenRange=417:424
+62	artistas	artista	NOUN	NOUN	_	61	obj	_	TokenRange=425:433
+63	repertorio	repertorio	NOUN	NOUN	_	62	appos	_	TokenRange=434:444
+64	mescla	mesclar	VERB	VERB	_	61	conj	_	TokenRange=445:451
+65	pouco	_	ADV	ADV	_	66	det	_	TokenRange=452:457
+66	tudo	_	PRON	PRON	_	64	obj	_	TokenRange=458:462
+67	talvez	talvez	ADV	ADV	_	68	advmod	_	TokenRange=463:469
+68	prova	provar	VERB	VERB	_	64	parataxis	_	TokenRange=470:475
+69	festival	festival	NOUN	NOUN	_	64	obj	_	TokenRange=476:484
+70	celebracao	celebracao	NOUN	NOUN	_	69	appos	_	TokenRange=485:495
+71	neste	_	ADP	ADP	_	72	case	_	TokenRange=496:501
+72	caso	caso	NOUN	NOUN	_	76	nmod	_	TokenRange=502:506
+73	bons	bom	ADJ	ADJ	_	74	amod	_	TokenRange=507:511
+74	anfitrioes	_	NOUN	NOUN	_	76	nsubj	_	TokenRange=512:522
+75	devem	_	AUX	AUX	_	76	aux	_	TokenRange=523:528
+76	agradar	agradar	VERB	VERB	_	55	conj	_	TokenRange=529:536
+77	todos	_	PRON	PRON	_	76	obj	_	SpaceAfter=No|TokenRange=537:542
+

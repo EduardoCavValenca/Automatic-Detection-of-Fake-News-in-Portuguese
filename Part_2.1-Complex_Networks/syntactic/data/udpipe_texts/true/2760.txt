@@ -1,0 +1,20 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brega rap polo carnaval recife abrem discussao sobre representatividade mc tocha primeiro
+1	brega	brega	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	rap	rap	NOUN	NOUN	_	1	flat	_	TokenRange=6:9
+3	polo	_	ADP	ADP	_	4	case	_	TokenRange=10:14
+4	carnaval	carnaval	NOUN	NOUN	_	1	nmod	_	TokenRange=15:23
+5	recife	recife	NOUN	NOUN	_	4	flat	_	TokenRange=24:30
+6	abrem	abrir	VERB	VERB	_	0	root	_	TokenRange=31:36
+7	discussao	discussao	NOUN	NOUN	_	6	obj	_	TokenRange=37:46
+8	sobre	_	ADP	ADP	_	9	case	_	TokenRange=47:52
+9	representatividade	representatividade	NOUN	NOUN	_	7	nmod	_	TokenRange=53:71
+10	mc	_	NOUN	NOUN	_	9	appos	_	TokenRange=72:74
+11	tocha	_	NOUN	NOUN	_	10	flat	_	TokenRange=75:80
+12	primeiro	primeiro	ADJ	ADJ	_	10	amod	_	SpaceAfter=No|TokenRange=81:89
+

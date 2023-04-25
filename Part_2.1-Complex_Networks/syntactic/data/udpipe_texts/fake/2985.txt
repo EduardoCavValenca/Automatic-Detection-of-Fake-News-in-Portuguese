@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = manifestantes picham predio dilma porto alegre matou celso daniel sextafeira deflagrada fase carbono 14 operacao lava jato morte celso daniel voltou assombrar petistas foto mostra predio presidente dilma rousseff apartamento zona sul porto alegre seguinte pergunta pichada fachada edificio matou celso daniel ministerio publico federal policia federal sustentam r 6 milhoes r 12 milhoes emprestimo contraido pt banco schahin jose carlos bumlai laranja serviram pagar pessoas chantageando cupula pt ameacando envolvela assassinato via veja
+1	manifestantes	manifestante	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:13
+2	picham	pichar	VERB	VERB	_	0	root	_	TokenRange=14:20
+3	predio	predio	NOUN	NOUN	_	2	obj	_	TokenRange=21:27
+4	dilma	dilma	NOUN	NOUN	_	3	amod	_	TokenRange=28:33
+5	porto	porto	NOUN	NOUN	_	3	appos	_	TokenRange=34:39
+6	alegre	alegre	ADJ	ADJ	_	5	amod	_	TokenRange=40:46
+7	matou	matar	VERB	VERB	_	3	acl:relcl	_	TokenRange=47:52
+8	celso	_	NOUN	NOUN	_	7	obj	_	TokenRange=53:58
+9	daniel	daniel	NOUN	NOUN	_	8	flat	_	TokenRange=59:65
+10	sextafeira	sextafeira	NOUN	NOUN	_	7	obj	_	TokenRange=66:76
+11	deflagrada	deflagrado	ADJ	ADJ	_	12	amod	_	TokenRange=77:87
+12	fase	fase	NOUN	NOUN	_	7	obj	_	TokenRange=88:92
+13	carbono	carbono	NOUN	NOUN	_	12	appos	_	TokenRange=93:100
+14	14	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=101:103
+15	operacao	operacao	NOUN	NOUN	_	12	appos	_	TokenRange=104:112
+16	lava	lava	NOUN	NOUN	_	15	flat	_	TokenRange=113:117
+17	jato	jato	ADJ	NOUN	_	18	amod	_	TokenRange=118:122
+18	morte	morte	NOUN	NOUN	_	22	nsubj	_	TokenRange=123:128
+19	celso	_	NOUN	NOUN	_	18	appos	_	TokenRange=129:134
+20	daniel	_	NOUN	NOUN	_	19	flat	_	TokenRange=135:141
+21	voltou	voltar	AUX	AUX	_	22	aux	_	TokenRange=142:148
+22	assombrar	assombrar	VERB	VERB	_	2	parataxis	_	TokenRange=149:158
+23	petistas	petista	NOUN	NOUN	_	22	obj	_	TokenRange=159:167
+24	foto	foto	NOUN	NOUN	_	22	nsubj	_	TokenRange=168:172
+25	mostra	mostrar	VERB	VERB	_	22	parataxis	_	TokenRange=173:179
+26	predio	predio	NOUN	NOUN	_	25	obj	_	TokenRange=180:186
+27	presidente	presidente	NOUN	NOUN	_	26	appos	_	TokenRange=187:197
+28	dilma	dilma	ADJ	ADJ	_	30	amod	_	TokenRange=198:203
+29	rousseff	rousseff	NOUN	NOUN	_	26	appos	_	TokenRange=204:212
+30	apartamento	apartamento	NOUN	NOUN	_	26	appos	_	TokenRange=213:224
+31	zona	zona	NOUN	NOUN	_	30	appos	_	TokenRange=225:229
+32	sul	sul	ADJ	ADJ	_	31	amod	_	TokenRange=230:233
+33	porto	porto	NOUN	NOUN	_	30	appos	_	TokenRange=234:239
+34	alegre	alegre	ADJ	ADJ	_	31	amod	_	TokenRange=240:246
+35	seguinte	seguinte	ADJ	ADJ	_	36	amod	_	TokenRange=247:255
+36	pergunta	pergunta	NOUN	NOUN	_	25	appos	_	TokenRange=256:264
+37	pichada	pichado	ADJ	ADJ	_	36	amod	_	TokenRange=265:272
+38	fachada	fachada	NOUN	NOUN	_	36	appos	_	TokenRange=273:280
+39	edificio	edificio	NOUN	NOUN	_	38	appos	_	TokenRange=281:289
+40	matou	matar	VERB	VERB	_	36	appos	_	TokenRange=290:295
+41	celso	_	NOUN	NOUN	_	40	obj	_	TokenRange=296:301
+42	daniel	daniel	NOUN	NOUN	_	43	flat	_	TokenRange=302:308
+43	ministerio	ministerio	NOUN	NOUN	_	40	obj	_	TokenRange=309:319
+44	publico	publico	ADJ	ADJ	_	43	amod	_	TokenRange=320:327
+45	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=328:335
+46	policia	policia	NOUN	NOUN	_	48	nsubj	_	TokenRange=336:343
+47	federal	federal	ADJ	ADJ	_	46	amod	_	TokenRange=344:351
+48	sustentam	sustentar	VERB	VERB	_	2	parataxis	_	TokenRange=352:361
+49	r	r	NOUN	NOUN	_	48	obj	_	TokenRange=362:363
+50	6	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=364:365
+51	milhoes	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=366:373
+52	r	r	NOUN	NOUN	_	55	flat	_	TokenRange=374:375
+53	12	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=376:378
+54	milhoes	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=379:386
+55	emprestimo	emprestimo	NOUN	NOUN	_	48	obj	_	TokenRange=387:397
+56	contraido	_	ADJ	ADJ	_	55	amod	_	TokenRange=398:407
+57	pt	_	ADV	NOUN	_	58	flat	_	TokenRange=408:410
+58	banco	banco	NOUN	NOUN	_	64	nsubj	_	TokenRange=411:416
+59	schahin	_	NOUN	NOUN	_	58	flat	_	TokenRange=417:424
+60	jose	jose	NOUN	NOUN	_	58	appos	_	TokenRange=425:429
+61	carlos	_	NOUN	NOUN	_	60	flat	_	TokenRange=430:436
+62	bumlai	_	ADJ	ADJ	_	60	flat	_	TokenRange=437:443
+63	laranja	_	NOUN	NOUN	_	60	flat	_	TokenRange=444:451
+64	serviram	servir	VERB	VERB	_	48	parataxis	_	TokenRange=452:460
+65	pagar	pagar	VERB	VERB	_	64	xcomp	_	TokenRange=461:466
+66	pessoas	pessoa	NOUN	NOUN	_	65	obj	_	TokenRange=467:474
+67	chantageando	chantagear	VERB	VERB	_	65	acl	_	TokenRange=475:487
+68	cupula	cupula	NOUN	NOUN	_	67	obj	_	TokenRange=488:494
+69	pt	_	PROPN	PNOUN	_	68	appos	_	TokenRange=495:497
+70	ameacando	ameacar	VERB	VERB	_	67	acl	_	TokenRange=498:507
+71	envolvela	envolvelo	ADJ	ADJ	_	70	xcomp	_	TokenRange=508:517
+72	assassinato	assassinato	NOUN	NOUN	_	70	obj	_	TokenRange=518:529
+73	via	_	ADP	ADP	_	74	case	_	TokenRange=530:533
+74	veja	veja	NOUN	NOUN	_	70	nmod	_	SpaceAfter=No|TokenRange=534:538
+

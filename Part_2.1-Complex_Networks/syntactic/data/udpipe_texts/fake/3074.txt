@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lavajato ia pedir prisao lula hoje 17 fato fez dilma acelerar posse petista acordo informacao revista veja lava jato pronta pedir prisao lula sabe certo dilma avisada alguem dentro pf proprio judiciario outra posse agendada cancelada posse lula marcada pressas hoje 10 manha veja ainda informou pedido sendo ultimado apresentado juiz sergio moro nesta quintafeira conversa criminosa dilma lula divulgada provavelmente fato
+1	lavajato	lavajato	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	ia	ir	AUX	AUX	_	3	aux	_	TokenRange=9:11
+3	pedir	pedir	VERB	VERB	_	0	root	_	TokenRange=12:17
+4	prisao	prisao	NOUN	NOUN	_	3	obj	_	TokenRange=18:24
+5	lula	_	NOUN	NOUN	_	4	appos	_	TokenRange=25:29
+6	hoje	hoje	ADV	ADV	_	3	advmod	_	TokenRange=30:34
+7	17	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=35:37
+8	fato	fato	NOUN	NOUN	_	9	nsubj	_	TokenRange=38:42
+9	fez	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=43:46
+10	dilma	_	NOUN	NOUN	_	11	obj	_	TokenRange=47:52
+11	acelerar	acelerar	VERB	VERB	_	9	ccomp	_	TokenRange=53:61
+12	posse	posse	NOUN	NOUN	_	11	obj	_	TokenRange=62:67
+13	petista	petista	ADJ	ADJ	_	12	amod	_	TokenRange=68:75
+14	acordo	acordo	NOUN	NOUN	_	11	obj	_	TokenRange=76:82
+15	informacao	informacao	ADJ	ADJ	_	16	amod	_	TokenRange=83:93
+16	revista	revista	NOUN	NOUN	_	18	nsubj	_	TokenRange=94:101
+17	veja	veja	NOUN	NOUN	_	16	flat	_	TokenRange=102:106
+18	lava	lavar	VERB	VERB	_	3	parataxis	_	TokenRange=107:111
+19	jato	jato	NOUN	NOUN	_	18	obj	_	TokenRange=112:116
+20	pronta	pronto	ADJ	ADJ	_	16	amod	_	TokenRange=117:123
+21	pedir	pedir	VERB	VERB	_	18	ccomp	_	TokenRange=124:129
+22	prisao	prisao	NOUN	NOUN	_	21	obj	_	TokenRange=130:136
+23	lula	_	ADJ	ADJ	_	24	nsubj	_	TokenRange=137:141
+24	sabe	saber	VERB	VERB	_	21	parataxis	_	TokenRange=142:146
+25	certo	certo	ADV	ADV	_	24	advmod	_	TokenRange=147:152
+26	dilma	dilma	NOUN	NOUN	_	24	nsubj	_	TokenRange=153:158
+27	avisada	avisar	VERB	VERB	_	24	acl	_	TokenRange=159:166
+28	alguem	_	PRON	PRON	_	27	nsubj	_	TokenRange=167:173
+29	dentro	dentro	ADV	ADV	_	27	advmod	_	TokenRange=174:180
+30	pf	_	ADP	ADP	_	32	case	_	TokenRange=181:183
+31	proprio	proprio	ADJ	ADJ	_	32	amod	_	TokenRange=184:191
+32	judiciario	judiciario	NOUN	NOUN	_	29	nmod	_	TokenRange=192:202
+33	outra	_	DET	DET	_	34	det	_	TokenRange=203:208
+34	posse	posse	NOUN	NOUN	_	27	nsubj	_	TokenRange=209:214
+35	agendada	agendar	VERB	VERB	_	34	acl	_	TokenRange=215:223
+36	cancelada	cancelar	VERB	ADJ	_	34	acl	_	TokenRange=224:233
+37	posse	posse	NOUN	NOUN	_	39	nsubj	_	TokenRange=234:239
+38	lula	lula	NOUN	NOUN	_	37	appos	_	TokenRange=240:244
+39	marcada	marcar	VERB	VERB	_	34	acl	_	TokenRange=245:252
+40	pressas	pressa	NOUN	NOUN	_	39	nsubj	_	TokenRange=253:260
+41	hoje	hoje	ADV	ADV	_	39	advmod	_	TokenRange=261:265
+42	10	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=266:268
+43	manha	manha	NOUN	NOUN	_	46	nsubj	_	TokenRange=269:274
+44	veja	veja	NOUN	NOUN	_	43	appos	_	TokenRange=275:279
+45	ainda	ainda	ADV	ADV	_	46	advmod	_	TokenRange=280:285
+46	informou	informar	VERB	VERB	_	3	parataxis	_	TokenRange=286:294
+47	pedido	pedido	NOUN	NOUN	_	46	obj	_	TokenRange=295:301
+48	sendo	ser	AUX	AUX	_	50	aux:pass	_	TokenRange=302:307
+49	ultimado	ultimar	VERB	AUX	_	47	acl	_	TokenRange=308:316
+50	apresentado	apresentar	VERB	VERB	_	47	acl	_	TokenRange=317:328
+51	juiz	juiz	NOUN	NOUN	_	50	nsubj:pass	_	TokenRange=329:333
+52	sergio	sergio	ADJ	ADJ	_	51	amod	_	TokenRange=334:340
+53	moro	moro	NOUN	NOUN	_	51	flat	_	TokenRange=341:345
+54	nesta	_	ADP	ADP	_	55	case	_	TokenRange=346:351
+55	quintafeira	quintafeira	ADJ	ADJ	_	50	nmod	_	TokenRange=352:363
+56	conversa	_	NOUN	NOUN	_	50	nmod	_	TokenRange=364:372
+57	criminosa	criminoso	ADJ	ADJ	_	56	amod	_	TokenRange=373:382
+58	dilma	dilma	NOUN	NOUN	_	56	appos	_	TokenRange=383:388
+59	lula	lula	NOUN	NOUN	_	58	flat	_	TokenRange=389:393
+60	divulgada	divulgar	VERB	VERB	_	56	acl	_	TokenRange=394:403
+61	provavelmente	provavelmente	ADV	ADV	_	62	advmod	_	TokenRange=404:417
+62	fato	fato	NOUN	NOUN	_	60	obj	_	SpaceAfter=No|TokenRange=418:422
+

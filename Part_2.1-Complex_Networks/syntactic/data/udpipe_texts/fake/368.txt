@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado pt convida juiz participar lula 2018 toma escracho historico deputado federal reginaldo lopes pt minas gerais todo empolgado lancamento campanha lula2018 decidiu convidar magistrado participar solenidade helio martins juiz comarca joao del rei deu chulapada parlamentar tudo maior toque classe confira
+1	deputado	deputado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	pt	_	NOUN	NOUN	_	1	flat	_	TokenRange=9:11
+3	convida	convidar	VERB	VERB	_	0	root	_	TokenRange=12:19
+4	juiz	juiz	NOUN	NOUN	_	3	obj	_	TokenRange=20:24
+5	participar	participar	VERB	VERB	_	4	acl:inf	_	TokenRange=25:35
+6	lula	lula	NOUN	NOUN	_	5	obj	_	TokenRange=36:40
+7	2018	_	NUM	NUM	NumType=Card	5	nmod	_	TokenRange=41:45
+8	toma	tomar	VERB	VERB	_	3	parataxis	_	TokenRange=46:50
+9	escracho	escracho	NOUN	NOUN	_	8	obj	_	TokenRange=51:59
+10	historico	historico	ADJ	ADJ	_	11	amod	_	TokenRange=60:69
+11	deputado	deputado	NOUN	NOUN	_	9	appos	_	TokenRange=70:78
+12	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=79:86
+13	reginaldo	_	NOUN	NOUN	_	11	appos	_	TokenRange=87:96
+14	lopes	_	NOUN	NOUN	_	13	flat	_	TokenRange=97:102
+15	pt	_	ADP	NOUN	_	16	case	_	TokenRange=103:105
+16	minas	mina	NOUN	NOUN	_	11	appos	_	TokenRange=106:111
+17	gerais	geral	ADJ	ADJ	_	16	amod	_	TokenRange=112:118
+18	todo	_	DET	DET	_	20	det	_	TokenRange=119:123
+19	empolgado	empolgado	ADJ	ADJ	_	16	amod	_	TokenRange=124:133
+20	lancamento	lancamento	NOUN	NOUN	_	23	nsubj	_	TokenRange=134:144
+21	campanha	campanha	NOUN	NOUN	_	20	appos	_	TokenRange=145:153
+22	lula2018	_	NUM	NUM	_	21	appos	_	TokenRange=154:162
+23	decidiu	decidir	VERB	VERB	_	16	acl:relcl	_	TokenRange=163:170
+24	convidar	convidar	VERB	VERB	_	23	xcomp	_	TokenRange=171:179
+25	magistrado	magistrado	NOUN	NOUN	_	26	obj	_	TokenRange=180:190
+26	participar	participar	VERB	VERB	_	24	ccomp	_	TokenRange=191:201
+27	solenidade	solenidade	NOUN	NOUN	_	26	obj	_	TokenRange=202:212
+28	helio	helio	NOUN	NOUN	_	27	appos	_	TokenRange=213:218
+29	martins	_	NOUN	NOUN	_	28	flat	_	TokenRange=219:226
+30	juiz	juiz	NOUN	NOUN	_	28	flat	_	TokenRange=227:231
+31	comarca	comarca	NOUN	NOUN	_	30	appos	_	TokenRange=232:239
+32	joao	joao	NOUN	NOUN	_	31	appos	_	TokenRange=240:244
+33	del	_	ADP	ADP	_	34	case	_	TokenRange=245:248
+34	rei	rei	NOUN	NOUN	_	32	nmod	_	TokenRange=249:252
+35	deu	dar	VERB	VERB	_	23	parataxis	_	TokenRange=253:256
+36	chulapada	chulapada	NOUN	NOUN	_	35	obj	_	TokenRange=257:266
+37	parlamentar	parlamentar	ADJ	ADJ	_	36	amod	_	TokenRange=267:278
+38	tudo	_	PRON	PRON	_	39	det	_	TokenRange=279:283
+39	maior	maior	ADJ	ADJ	_	36	amod	_	TokenRange=284:289
+40	toque	toque	DET	DET	_	42	obj	_	TokenRange=290:295
+41	classe	classe	NOUN	NOUN	_	42	obj	_	TokenRange=296:302
+42	confira	conferir	VERB	VERB	_	23	parataxis	_	SpaceAfter=No|TokenRange=303:310
+

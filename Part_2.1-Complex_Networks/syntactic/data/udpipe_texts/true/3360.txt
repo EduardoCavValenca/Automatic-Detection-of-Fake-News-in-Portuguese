@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula outros seis reus entregam alegacoes finais processo sobre triplex guaruja advogados lula dizem apartamento pertence caixa economica federal alem expresidente oas reu processo advogados expresidente luiz inacio lula silva entregaram noite desta tercafeira 20 alegacoes finais processo politico acusado receber propina construtora oas defesas outros seis reus entregaram ultimos argumentos justica longo dia segundo denuncia propina paga meio entrega apartamento triplex guaruja cidade litoral paulista pagamento guarda
+1	lula	lula	NOUN	NOUN	_	5	parataxis	_	TokenRange=0:4
+2	outros	_	DET	DET	_	4	det	_	TokenRange=5:11
+3	seis	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=12:16
+4	reus	reu	NOUN	NOUN	_	5	nsubj	_	TokenRange=17:21
+5	entregam	entregar	VERB	VERB	_	0	root	_	TokenRange=22:30
+6	alegacoes	alegacoe	NOUN	NOUN	_	5	obj	_	TokenRange=31:40
+7	finais	final	ADJ	ADJ	_	6	amod	_	TokenRange=41:47
+8	processo	processo	NOUN	NOUN	_	5	obj	_	TokenRange=48:56
+9	sobre	_	ADP	ADP	_	10	case	_	TokenRange=57:62
+10	triplex	_	NOUN	NOUN	_	8	nmod	_	TokenRange=63:70
+11	guaruja	guaruja	NOUN	NOUN	_	10	flat	_	TokenRange=71:78
+12	advogados	advogado	NOUN	NOUN	_	14	nsubj	_	TokenRange=79:88
+13	lula	_	ADJ	NOUN	_	12	flat	_	TokenRange=89:93
+14	dizem	dizer	VERB	VERB	_	10	acl:relcl	_	TokenRange=94:99
+15	apartamento	apartamento	NOUN	NOUN	_	14	obj	_	TokenRange=100:111
+16	pertence	pertence	NOUN	NOUN	_	15	amod	_	TokenRange=112:120
+17	caixa	caixa	NOUN	NOUN	_	15	appos	_	TokenRange=121:126
+18	economica	economico	ADJ	ADJ	_	17	amod	_	TokenRange=127:136
+19	federal	federal	ADJ	ADJ	_	17	amod	_	TokenRange=137:144
+20	alem	alem	ADV	ADV	_	21	advmod	_	TokenRange=145:149
+21	expresidente	expresidente	NOUN	NOUN	_	14	obj	_	TokenRange=150:162
+22	oas	_	CCONJ	CONJ	_	21	cc	_	TokenRange=163:166
+23	reu	reu	NOUN	NOUN	_	21	conj	_	TokenRange=167:170
+24	processo	processo	NOUN	NOUN	_	31	nsubj	_	TokenRange=171:179
+25	advogados	advogado	NOUN	NOUN	_	24	amod	_	TokenRange=180:189
+26	expresidente	expresidente	NOUN	NOUN	_	24	amod	_	TokenRange=190:202
+27	luiz	luiz	NOUN	NOUN	_	24	appos	_	TokenRange=203:207
+28	inacio	_	NOUN	NOUN	_	27	flat	_	TokenRange=208:214
+29	lula	_	NOUN	NOUN	_	27	flat	_	TokenRange=215:219
+30	silva	silva	NOUN	NOUN	_	27	flat	_	TokenRange=220:225
+31	entregaram	entregar	VERB	VERB	_	5	parataxis	_	TokenRange=226:236
+32	noite	noite	NOUN	NOUN	_	31	obj	_	TokenRange=237:242
+33	desta	_	ADP	ADP	_	34	case	_	TokenRange=243:248
+34	tercafeira	tercafeira	NOUN	NOUN	_	32	nmod	_	TokenRange=249:259
+35	20	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=260:262
+36	alegacoes	alegacoe	NOUN	NOUN	_	31	obj	_	TokenRange=263:272
+37	finais	final	ADJ	ADJ	_	36	amod	_	TokenRange=273:279
+38	processo	processo	NOUN	NOUN	_	31	nsubj	_	TokenRange=280:288
+39	politico	politico	ADJ	ADJ	_	38	amod	_	TokenRange=289:297
+40	acusado	acusar	VERB	VERB	_	38	acl	_	TokenRange=298:305
+41	receber	receber	VERB	VERB	_	40	xcomp	_	TokenRange=306:313
+42	propina	propina	NOUN	NOUN	_	41	obj	_	TokenRange=314:321
+43	construtora	construtor	ADJ	NOUN	_	42	amod	_	TokenRange=322:333
+44	oas	_	CCONJ	DET	_	49	cc	_	TokenRange=334:337
+45	defesas	_	NOUN	NOUN	_	49	nsubj	_	TokenRange=338:345
+46	outros	_	DET	DET	_	48	det	_	TokenRange=346:352
+47	seis	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=353:357
+48	reus	reu	NOUN	NOUN	_	49	nsubj	_	TokenRange=358:362
+49	entregaram	entregar	VERB	VERB	_	31	parataxis	_	TokenRange=363:373
+50	ultimos	ultimo	ADJ	ADJ	_	51	amod	_	TokenRange=374:381
+51	argumentos	argumento	NOUN	NOUN	_	49	obj	_	TokenRange=382:392
+52	justica	justico	ADJ	ADJ	_	51	amod	_	TokenRange=393:400
+53	longo	longo	ADJ	ADJ	_	54	amod	_	TokenRange=401:406
+54	dia	dia	NOUN	NOUN	_	49	nmod	_	TokenRange=407:410
+55	segundo	segundo	ADJ	ADJ	_	56	case	_	TokenRange=411:418
+56	denuncia	denuncia	NOUN	NOUN	_	54	nmod	_	TokenRange=419:427
+57	propina	propina	NOUN	NOUN	_	56	flat	_	TokenRange=428:435
+58	paga	pagar	VERB	VERB	_	51	acl:relcl	_	TokenRange=436:440
+59	meio	meio	ADJ	NOUN	_	60	amod	_	TokenRange=441:445
+60	entrega	entrega	NOUN	NOUN	_	58	obj	_	TokenRange=446:453
+61	apartamento	apartamento	NOUN	NOUN	_	60	appos	_	TokenRange=454:465
+62	triplex	_	ADJ	ADJ	_	61	amod	_	TokenRange=466:473
+63	guaruja	guaruja	NOUN	NOUN	_	64	flat	_	TokenRange=474:481
+64	cidade	cidade	NOUN	NOUN	_	61	appos	_	TokenRange=482:488
+65	litoral	litoral	ADJ	ADJ	_	64	amod	_	TokenRange=489:496
+66	paulista	paulista	ADJ	ADJ	_	64	amod	_	TokenRange=497:505
+67	pagamento	pagamento	NOUN	NOUN	_	60	appos	_	TokenRange=506:515
+68	guarda	guarda	NOUN	NOUN	_	67	flat	_	SpaceAfter=No|TokenRange=516:522
+

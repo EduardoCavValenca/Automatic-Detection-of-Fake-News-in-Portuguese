@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = unb preve demissao 11 mil estagiarios conter deficit r 92 milhoes mudanca gestao contratos tres medidas anunciadas reduzir gastos 11 mil estagiarios contratados universidade brasilia unb podem demitidos partir dia 30 abril falta verbas previsao deficit orcamentario r 92 milhoes ano reitoria unb informou responsabilidade financeira sobre contratos passara
+1	unb	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:3
+2	preve	prever	VERB	VERB	_	0	root	_	TokenRange=4:9
+3	demissao	demissao	NOUN	NOUN	_	2	obj	_	TokenRange=10:18
+4	11	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=19:21
+5	mil	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=22:25
+6	estagiarios	estagiario	NOUN	NOUN	_	7	nsubj	_	TokenRange=26:37
+7	conter	conter	VERB	VERB	_	2	ccomp	_	TokenRange=38:44
+8	deficit	deficit	NOUN	NOUN	_	7	obj	_	TokenRange=45:52
+9	r	r	NOUN	NOUN	_	8	appos	_	TokenRange=53:54
+10	92	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=55:57
+11	milhoes	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=58:65
+12	mudanca	mudanca	NOUN	NOUN	_	7	obj	_	TokenRange=66:73
+13	gestao	gestao	NOUN	NOUN	_	12	flat	_	TokenRange=74:80
+14	contratos	contrato	NOUN	NOUN	_	12	flat	_	TokenRange=81:90
+15	tres	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=91:95
+16	medidas	medida	NOUN	NOUN	_	12	nsubj	_	TokenRange=96:103
+17	anunciadas	anunciar	VERB	VERB	_	16	acl	_	TokenRange=104:114
+18	reduzir	reduzir	VERB	VERB	_	17	xcomp	_	TokenRange=115:122
+19	gastos	gasto	NOUN	NOUN	_	18	obj	_	TokenRange=123:129
+20	11	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=130:132
+21	mil	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=133:136
+22	estagiarios	estagiario	NOUN	NOUN	_	18	obj	_	TokenRange=137:148
+23	contratados	contratar	VERB	VERB	_	22	acl	_	TokenRange=149:160
+24	universidade	universidade	NOUN	NOUN	_	22	appos	_	TokenRange=161:173
+25	brasilia	brasilio	ADJ	ADJ	_	24	amod	_	TokenRange=174:182
+26	unb	_	PRON	PRON	_	28	nsubj:pass	_	TokenRange=183:186
+27	podem	_	AUX	AUX	_	28	aux	_	TokenRange=187:192
+28	demitidos	demitir	VERB	VERB	_	2	parataxis	_	TokenRange=193:202
+29	partir	partir	VERB	VERB	_	28	xcomp	_	TokenRange=203:209
+30	dia	dia	NOUN	NOUN	_	29	nmod	_	TokenRange=210:213
+31	30	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=214:216
+32	abril	_	PROPN	PNOUN	_	31	nmod	_	TokenRange=217:222
+33	falta	_	VERB	VERB	_	28	parataxis	_	TokenRange=223:228
+34	verbas	verba	NOUN	NOUN	_	33	nsubj	_	TokenRange=229:235
+35	previsao	previsao	ADJ	ADJ	_	34	amod	_	TokenRange=236:244
+36	deficit	deficit	NOUN	NOUN	_	33	nsubj	_	TokenRange=245:252
+37	orcamentario	orcamentario	ADJ	ADJ	_	36	amod	_	TokenRange=253:265
+38	r	r	NOUN	NOUN	_	36	appos	_	TokenRange=266:267
+39	92	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=268:270
+40	milhoes	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=271:278
+41	ano	ano	NOUN	NOUN	_	36	appos	_	TokenRange=279:282
+42	reitoria	reitoria	NOUN	NOUN	_	41	flat	_	TokenRange=283:291
+43	unb	_	PRON	PRON	_	44	nsubj	_	TokenRange=292:295
+44	informou	informar	VERB	VERB	_	2	parataxis	_	TokenRange=296:304
+45	responsabilidade	responsabilidade	NOUN	NOUN	_	44	obj	_	TokenRange=305:321
+46	financeira	financeiro	ADJ	ADJ	_	45	amod	_	TokenRange=322:332
+47	sobre	_	ADP	ADP	_	48	case	_	TokenRange=333:338
+48	contratos	contrato	NOUN	NOUN	_	45	nmod	_	TokenRange=339:348
+49	passara	passar	VERB	VERB	_	44	parataxis	_	SpaceAfter=No|TokenRange=349:356
+

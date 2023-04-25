@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = carmen lucia diz prisao apos condenacao segunda instancia voltara pauta stf 2016 supremo autorizou prisao condenado segunda instancia caso expresidente lula condenacao primeira instancia confirmada trf4 segunda instancia presidente supremo tribunal federal ministra carmen lucia disse nesta tercafeira 30 vai colocar pauta rediscussao prisao condenado apos julgamento segunda instancia carmem lucia afirmou questao decidida 2016 supremo autorizou prisoes partir segunda instancia voltar assunto agora jantar nesta segundafeira 29 jornalistas perguntada condenacao
+1	carmen	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	lucia	lucia	NOUN	NOUN	_	1	flat	_	TokenRange=7:12
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=13:16
+4	prisao	prisao	NOUN	NOUN	_	3	obj	_	TokenRange=17:23
+5	apos	_	ADP	ADP	_	6	case	_	TokenRange=24:28
+6	condenacao	_	NOUN	NOUN	_	3	nmod	_	TokenRange=29:39
+7	segunda	segundo	ADJ	ADJ	_	8	amod	_	TokenRange=40:47
+8	instancia	instancia	NOUN	NOUN	_	9	nsubj	_	TokenRange=48:57
+9	voltara	voltar	VERB	VERB	_	3	parataxis	_	TokenRange=58:65
+10	pauta	pauta	NOUN	NOUN	_	9	obj	_	TokenRange=66:71
+11	stf	_	NOUN	NOUN	_	10	appos	_	TokenRange=72:75
+12	2016	_	NUM	NUM	NumType=Card	14	nsubj	_	TokenRange=76:80
+13	supremo	supremo	NOUN	NOUN	_	14	nsubj	_	TokenRange=81:88
+14	autorizou	autorizar	VERB	VERB	_	3	parataxis	_	TokenRange=89:98
+15	prisao	prisao	NOUN	NOUN	_	14	obj	_	TokenRange=99:105
+16	condenado	condenado	VERB	ADJ	_	15	acl	_	TokenRange=106:115
+17	segunda	segundo	ADJ	ADJ	_	18	amod	_	TokenRange=116:123
+18	instancia	instancia	NOUN	NOUN	_	15	appos	_	TokenRange=124:133
+19	caso	caso	NOUN	NOUN	_	20	appos	_	TokenRange=134:138
+20	expresidente	expresidente	NOUN	NOUN	_	15	appos	_	TokenRange=139:151
+21	lula	lula	NOUN	NOUN	_	20	flat	_	TokenRange=152:156
+22	condenacao	_	NOUN	NOUN	_	20	appos	_	TokenRange=157:167
+23	primeira	primeiro	ADJ	ADJ	_	24	amod	_	TokenRange=168:176
+24	instancia	instancia	NOUN	NOUN	_	14	obj	_	TokenRange=177:186
+25	confirmada	confirmar	VERB	VERB	_	24	acl	_	TokenRange=187:197
+26	trf4	_	NOUN	NOUN	_	25	appos	_	TokenRange=198:202
+27	segunda	segundo	ADJ	ADJ	_	28	amod	_	TokenRange=203:210
+28	instancia	instancia	NOUN	NOUN	_	36	nsubj	_	TokenRange=211:220
+29	presidente	presidente	NOUN	NOUN	_	36	nsubj	_	TokenRange=221:231
+30	supremo	supremo	ADJ	ADJ	_	31	amod	_	TokenRange=232:239
+31	tribunal	tribunal	NOUN	NOUN	_	29	appos	_	TokenRange=240:248
+32	federal	federal	ADJ	ADJ	_	31	amod	_	TokenRange=249:256
+33	ministra	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=257:265
+34	carmen	_	NOUN	NOUN	_	29	appos	_	TokenRange=266:272
+35	lucia	lucia	NOUN	NOUN	_	34	flat	_	TokenRange=273:278
+36	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=279:284
+37	nesta	_	ADP	ADP	_	38	case	_	TokenRange=285:290
+38	tercafeira	_	NOUN	NOUN	_	36	nmod	_	TokenRange=291:301
+39	30	_	NUM	NUM	NumType=Card	38	appos	_	TokenRange=302:304
+40	vai	ir	AUX	AUX	_	41	aux	_	TokenRange=305:308
+41	colocar	colocar	VERB	VERB	_	36	ccomp	_	TokenRange=309:316
+42	pauta	pauta	NOUN	NOUN	_	41	obj	_	TokenRange=317:322
+43	rediscussao	rediscussao	ADJ	ADJ	_	42	amod	_	TokenRange=323:334
+44	prisao	prisao	NOUN	NOUN	_	41	nsubj	_	TokenRange=335:341
+45	condenado	condenar	VERB	VERB	_	44	acl	_	TokenRange=342:351
+46	apos	_	ADP	ADP	_	47	case	_	TokenRange=352:356
+47	julgamento	julgamento	NOUN	NOUN	_	45	nmod	_	TokenRange=357:367
+48	segunda	segundo	ADJ	ADJ	_	49	amod	_	TokenRange=368:375
+49	instancia	instancia	NOUN	NOUN	_	52	nsubj	_	TokenRange=376:385
+50	carmem	carmem	NOUN	NOUN	_	52	nsubj	_	TokenRange=386:392
+51	lucia	_	NOUN	NOUN	_	50	flat	_	TokenRange=393:398
+52	afirmou	afirmar	VERB	VERB	_	41	parataxis	_	TokenRange=399:406
+53	questao	questao	NOUN	NOUN	_	52	obj	_	TokenRange=407:414
+54	decidida	decidido	ADJ	ADJ	_	53	amod	_	TokenRange=415:423
+55	2016	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=424:428
+56	supremo	supremo	NOUN	NOUN	_	57	nsubj	_	TokenRange=429:436
+57	autorizou	autorizar	VERB	VERB	_	52	parataxis	_	TokenRange=437:446
+58	prisoes	_	NOUN	NOUN	_	57	obj	_	TokenRange=447:454
+59	partir	partir	VERB	VERB	_	57	ccomp	_	TokenRange=455:461
+60	segunda	segundo	ADJ	ADJ	_	61	amod	_	TokenRange=462:469
+61	instancia	instancia	NOUN	NOUN	_	59	obj	_	TokenRange=470:479
+62	voltar	voltar	VERB	VERB	_	57	ccomp	_	TokenRange=480:486
+63	assunto	assunto	NOUN	NOUN	_	62	obj	_	TokenRange=487:494
+64	agora	agora	ADV	ADV	_	65	advmod	_	TokenRange=495:500
+65	jantar	jantar	VERB	VERB	_	57	ccomp	_	TokenRange=501:507
+66	nesta	_	ADP	ADP	_	67	case	_	TokenRange=508:513
+67	segundafeira	segundafeira	NOUN	NOUN	_	65	nmod	_	TokenRange=514:526
+68	29	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=527:529
+69	jornalistas	jornalista	NOUN	NOUN	_	65	nsubj	_	TokenRange=530:541
+70	perguntada	perguntar	VERB	VERB	_	65	acl	_	TokenRange=542:552
+71	condenacao	condenacao	NOUN	NOUN	_	65	obj	_	SpaceAfter=No|TokenRange=553:563
+

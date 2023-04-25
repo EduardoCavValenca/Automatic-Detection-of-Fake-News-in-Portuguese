@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcelo odebrecht deve deixar prisao nesta terca apos dois anos meio preso durante 14 fase operacao lava jato herdeiro maiores empresas brasil monitorado tornozeleira eletronica apos dois anos meio cadeia marcelo odebrecht expresidente grupo odebrecht deve deixar carceragem policia federal curitiba nesta tercafeira 19 herdeiro maiores empresas pais preso 19 junho 2015 deflagrada 14 fase operacao lava jato batizada erga omnes condenado 31 anos 6
+1	marcelo	marcelo	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	odebrecht	_	PROPN	PNOUN	_	1	flat	_	TokenRange=8:17
+3	deve	dever	AUX	AUX	_	4	aux	_	TokenRange=18:22
+4	deixar	deixar	VERB	VERB	_	0	root	_	TokenRange=23:29
+5	prisao	prisao	NOUN	NOUN	_	4	obj	_	TokenRange=30:36
+6	nesta	_	ADP	ADP	_	7	case	_	TokenRange=37:42
+7	terca	terca	NOUN	NOUN	_	4	nmod	_	TokenRange=43:48
+8	apos	_	VERB	VERB	_	10	case	_	TokenRange=49:53
+9	dois	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=54:58
+10	anos	ano	NOUN	NOUN	_	4	nmod	_	TokenRange=59:63
+11	meio	meio	ADJ	NOUN	_	10	amod	_	TokenRange=64:68
+12	preso	_	VERB	VERB	_	4	acl	_	TokenRange=69:74
+13	durante	_	ADP	ADP	_	15	case	_	TokenRange=75:82
+14	14	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=83:85
+15	fase	fase	NOUN	NOUN	_	4	nmod	_	TokenRange=86:90
+16	operacao	operacao	ADJ	ADJ	_	17	amod	_	TokenRange=91:99
+17	lava	lava	NOUN	NOUN	_	15	appos	_	TokenRange=100:104
+18	jato	jato	NOUN	NOUN	_	17	flat	_	TokenRange=105:109
+19	herdeiro	herdeiro	NOUN	NOUN	_	17	appos	_	TokenRange=110:118
+20	maiores	maior	ADJ	ADJ	_	21	amod	_	TokenRange=119:126
+21	empresas	empresa	NOUN	NOUN	_	17	appos	_	TokenRange=127:135
+22	brasil	brasil	ADJ	ADJ	_	21	amod	_	TokenRange=136:142
+23	monitorado	_	VERB	VERB	_	21	acl	_	TokenRange=143:153
+24	tornozeleira	tornozeleira	NOUN	NOUN	_	23	obj	_	TokenRange=154:166
+25	eletronica	eletronico	ADJ	ADJ	_	24	amod	_	TokenRange=167:177
+26	apos	_	ADP	VERB	_	28	case	_	TokenRange=178:182
+27	dois	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=183:187
+28	anos	ano	NOUN	NOUN	_	37	nmod	_	TokenRange=188:192
+29	meio	meio	ADJ	ADJ	_	28	amod	_	TokenRange=193:197
+30	cadeia	cadeia	NOUN	NOUN	_	28	appos	_	TokenRange=198:204
+31	marcelo	marcelo	NOUN	NOUN	_	37	nsubj	_	TokenRange=205:212
+32	odebrecht	_	PROPN	PNOUN	_	31	flat	_	TokenRange=213:222
+33	expresidente	expresidente	ADJ	ADJ	_	34	amod	_	TokenRange=223:235
+34	grupo	grupo	NOUN	NOUN	_	31	appos	_	TokenRange=236:241
+35	odebrecht	_	PROPN	PNOUN	_	34	appos	_	TokenRange=242:251
+36	deve	dever	AUX	AUX	_	37	aux	_	TokenRange=252:256
+37	deixar	deixar	VERB	VERB	_	4	parataxis	_	TokenRange=257:263
+38	carceragem	carceragem	NOUN	NOUN	_	37	obj	_	TokenRange=264:274
+39	policia	policia	NOUN	NOUN	_	38	appos	_	TokenRange=275:282
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=283:290
+41	curitiba	curitiba	NOUN	NOUN	_	39	amod	_	TokenRange=291:299
+42	nesta	_	ADP	ADP	_	43	case	_	TokenRange=300:305
+43	tercafeira	tercafeira	NOUN	NOUN	_	37	nmod	_	TokenRange=306:316
+44	19	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=317:319
+45	herdeiro	herdeiro	NOUN	NOUN	_	43	appos	_	TokenRange=320:328
+46	maiores	maior	ADJ	ADJ	_	47	amod	_	TokenRange=329:336
+47	empresas	empresa	NOUN	NOUN	_	45	appos	_	TokenRange=337:345
+48	pais	_	NOUN	NOUN	_	47	appos	_	TokenRange=346:350
+49	preso	_	VERB	VERB	_	4	acl	_	TokenRange=351:356
+50	19	_	NUM	NUM	NumType=Card	49	nmod	_	TokenRange=357:359
+51	junho	_	PROPN	PNOUN	_	49	nmod	_	TokenRange=360:365
+52	2015	_	NUM	NUM	NumType=Card	51	nmod	_	TokenRange=366:370
+53	deflagrada	deflagrar	VERB	VERB	_	49	acl	_	TokenRange=371:381
+54	14	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=382:384
+55	fase	fase	NOUN	NOUN	_	53	nmod	_	TokenRange=385:389
+56	operacao	operacao	NOUN	NOUN	_	55	appos	_	TokenRange=390:398
+57	lava	lava	NOUN	NOUN	_	56	appos	_	TokenRange=399:403
+58	jato	jato	NOUN	NOUN	_	57	flat	_	TokenRange=404:408
+59	batizada	batizar	VERB	VERB	_	57	acl	_	TokenRange=409:417
+60	erga	_	NOUN	NOUN	_	59	nsubj	_	TokenRange=418:422
+61	omnes	_	NOUN	NOUN	_	60	flat	_	TokenRange=423:428
+62	condenado	condenar	VERB	VERB	_	56	acl	_	TokenRange=429:438
+63	31	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=439:441
+64	anos	ano	NOUN	NOUN	_	62	nmod	_	TokenRange=442:446
+65	6	_	NUM	NUM	NumType=Card	64	appos	_	SpaceAfter=No|TokenRange=447:448
+

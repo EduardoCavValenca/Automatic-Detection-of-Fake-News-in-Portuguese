@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = manifestacoes afetam transito transporte publico ribeirao preto franca centrais sindicais realizaram interdicoes passeatas nesta sextafeira 28 contra reformas trabalhista previdencia protestos afetaram funcionamento escolas bancos poder judiciario protestos paralisacoes organizados centrais sindicais contra reformas trabalhista previdencia afetaram transito transporte publico ribeirao preto sp franca sp manha desta
+1	manifestacoes	manifestacoe	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:13
+2	afetam	afetar	VERB	VERB	_	0	root	_	TokenRange=14:20
+3	transito	transito	NOUN	NOUN	_	2	obj	_	TokenRange=21:29
+4	transporte	transporte	NOUN	NOUN	_	3	appos	_	TokenRange=30:40
+5	publico	_	ADJ	ADJ	_	4	amod	_	TokenRange=41:48
+6	ribeirao	ribeirao	NOUN	NOUN	_	3	appos	_	TokenRange=49:57
+7	preto	preto	ADJ	ADJ	_	4	amod	_	TokenRange=58:63
+8	franca	franco	ADJ	ADJ	_	9	amod	_	TokenRange=64:70
+9	centrais	central	NOUN	NOUN	_	11	nsubj	_	TokenRange=71:79
+10	sindicais	sindical	ADJ	ADJ	_	9	amod	_	TokenRange=80:89
+11	realizaram	realizar	VERB	VERB	_	2	parataxis	_	TokenRange=90:100
+12	interdicoes	_	NOUN	NOUN	_	11	obj	_	TokenRange=101:112
+13	passeatas	_	NOUN	NOUN	_	12	amod	_	TokenRange=113:122
+14	nesta	_	ADP	ADP	_	15	case	_	TokenRange=123:128
+15	sextafeira	sextafeira	NOUN	NOUN	_	11	nmod	_	TokenRange=129:139
+16	28	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=140:142
+17	contra	_	ADP	ADP	_	18	case	_	TokenRange=143:149
+18	reformas	reforma	NOUN	NOUN	_	11	nmod	_	TokenRange=150:158
+19	trabalhista	trabalhista	ADJ	ADJ	_	18	amod	_	TokenRange=159:170
+20	previdencia	_	ADJ	ADJ	_	18	amod	_	TokenRange=171:182
+21	protestos	protesto	NOUN	NOUN	_	22	nsubj	_	TokenRange=183:192
+22	afetaram	afetar	VERB	VERB	_	2	parataxis	_	TokenRange=193:201
+23	funcionamento	funcionamento	NOUN	NOUN	_	22	obj	_	TokenRange=202:215
+24	escolas	escola	NOUN	NOUN	_	23	appos	_	TokenRange=216:223
+25	bancos	banco	NOUN	NOUN	_	23	appos	_	TokenRange=224:230
+26	poder	poder	NOUN	NOUN	_	23	appos	_	TokenRange=231:236
+27	judiciario	judiciario	ADJ	ADJ	_	26	amod	_	TokenRange=237:247
+28	protestos	protesto	NOUN	NOUN	_	26	amod	_	TokenRange=248:257
+29	paralisacoes	paralisacoe	NOUN	NOUN	_	28	amod	_	TokenRange=258:270
+30	organizados	organizar	VERB	VERB	_	31	acl	_	TokenRange=271:282
+31	centrais	central	NOUN	NOUN	_	37	nsubj	_	TokenRange=283:291
+32	sindicais	sindical	ADJ	ADJ	_	31	amod	_	TokenRange=292:301
+33	contra	_	ADP	ADP	_	34	case	_	TokenRange=302:308
+34	reformas	reforma	NOUN	NOUN	_	31	nmod	_	TokenRange=309:317
+35	trabalhista	trabalhista	ADJ	ADJ	_	34	amod	_	TokenRange=318:329
+36	previdencia	previdencia	ADJ	NOUN	_	34	amod	_	TokenRange=330:341
+37	afetaram	afetar	VERB	VERB	_	2	parataxis	_	TokenRange=342:350
+38	transito	transito	NOUN	NOUN	_	37	obj	_	TokenRange=351:359
+39	transporte	transporte	NOUN	NOUN	_	38	appos	_	TokenRange=360:370
+40	publico	publico	ADJ	ADJ	_	39	amod	_	TokenRange=371:378
+41	ribeirao	ribeirao	ADJ	NOUN	_	38	appos	_	TokenRange=379:387
+42	preto	preto	ADJ	ADJ	_	39	amod	_	TokenRange=388:393
+43	sp	_	NOUN	NOUN	_	38	appos	_	TokenRange=394:396
+44	franca	franco	ADJ	ADJ	_	39	amod	_	TokenRange=397:403
+45	sp	_	ADJ	ADJ	_	46	amod	_	TokenRange=404:406
+46	manha	manha	NOUN	NOUN	_	37	parataxis	_	TokenRange=407:412
+47	desta	_	X	ADPPRON	_	46	nmod	_	SpaceAfter=No|TokenRange=413:418
+

@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma condena michel temer diz guerrilheira vai lutar fim presidente dilma disse vice michel temer cumplice eduardo cunha golpe pois beneficiase processo impeachment durante cerimonia planalto ultima sextafeira dilma associou temer eduardo cunha pmdbrj afastado mandato deputado federal tom ameaca dilma falou plateia beneficiarios casa vida disse futuro governo temer podera tirar 36 milhoes pessoas bolsa familia bolsa familia hoje contempla 47 milhoes pessoas entao fazer 10 milhoes tirar 36 milhoes deixalos margem declarou presidente encerrar discurso dilma enfatizou travei batalhas duras vida acostumada guerrilhas desistirei lutarei fim
+1	dilma	dilma	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	condena	condenar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	michel	michel	ADJ	DET	_	4	amod	_	TokenRange=14:20
+4	temer	temer	NOUN	NOUN	_	2	obj	_	TokenRange=21:26
+5	diz	dizer	VERB	VERB	_	2	ccomp	_	TokenRange=27:30
+6	guerrilheira	guerrilheira	NOUN	NOUN	_	8	obj	_	TokenRange=31:43
+7	vai	ir	AUX	AUX	_	8	aux	_	TokenRange=44:47
+8	lutar	lutar	VERB	VERB	_	2	ccomp	_	TokenRange=48:53
+9	fim	fim	NOUN	NOUN	_	8	advmod	_	TokenRange=54:57
+10	presidente	presidente	NOUN	NOUN	_	8	nsubj	_	TokenRange=58:68
+11	dilma	dilma	NOUN	NOUN	_	10	amod	_	TokenRange=69:74
+12	disse	dizer	VERB	VERB	_	2	conj	_	TokenRange=75:80
+13	vice	vice	NOUN	NOUN	_	16	obj	_	TokenRange=81:85
+14	michel	michel	ADJ	ADJ	_	15	amod	_	TokenRange=86:92
+15	temer	temer	NOUN	NOUN	_	16	nsubj	_	TokenRange=93:98
+16	cumplice	cumplicar	VERB	VERB	_	12	ccomp	_	TokenRange=99:107
+17	eduardo	eduardo	NOUN	NOUN	_	16	nmod	_	TokenRange=108:115
+18	cunha	cunha	ADJ	ADJ	_	17	flat	_	TokenRange=116:121
+19	golpe	golpe	NOUN	NOUN	_	16	obj	_	TokenRange=122:127
+20	pois	_	CCONJ	CONJ	_	21	mark	_	TokenRange=128:132
+21	beneficiase	beneficiar	VERB	VERB	_	16	advcl	_	TokenRange=133:144
+22	processo	processo	NOUN	NOUN	_	21	obj	_	TokenRange=145:153
+23	impeachment	impeachment	NOUN	NOUN	_	22	flat	_	TokenRange=154:165
+24	durante	_	ADP	ADP	_	25	case	_	TokenRange=166:173
+25	cerimonia	cerimonia	NOUN	NOUN	_	21	nmod	_	TokenRange=174:183
+26	planalto	planalto	ADJ	ADJ	_	28	amod	_	TokenRange=184:192
+27	ultima	_	ADJ	ADJ	_	28	amod	_	TokenRange=193:199
+28	sextafeira	sextafeira	NOUN	NOUN	_	25	appos	_	TokenRange=200:210
+29	dilma	dilma	NOUN	NOUN	_	28	amod	_	TokenRange=211:216
+30	associou	associar	VERB	VERB	_	16	parataxis	_	TokenRange=217:225
+31	temer	temer	NOUN	NOUN	_	30	obj	_	TokenRange=226:231
+32	eduardo	eduardo	NOUN	NOUN	_	31	appos	_	TokenRange=232:239
+33	cunha	cunha	NOUN	NOUN	_	32	flat	_	TokenRange=240:245
+34	pmdbrj	_	NOUN	NOUN	_	32	flat	_	TokenRange=246:252
+35	afastado	afastar	VERB	VERB	_	36	acl	_	TokenRange=253:261
+36	mandato	mandato	NOUN	NOUN	_	30	obj	_	TokenRange=262:269
+37	deputado	deputado	NOUN	NOUN	_	30	nsubj	_	TokenRange=270:278
+38	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=279:286
+39	tom	tom	NOUN	NOUN	_	42	nsubj	_	TokenRange=287:290
+40	ameaca	ameaca	NOUN	NOUN	_	37	flat	_	TokenRange=291:297
+41	dilma	dilma	NOUN	NOUN	_	42	nsubj	_	TokenRange=298:303
+42	falou	falar	VERB	VERB	_	30	parataxis	_	TokenRange=304:309
+43	plateia	plateia	NOUN	NOUN	_	42	obj	_	TokenRange=310:317
+44	beneficiarios	beneficiario	ADJ	ADJ	_	43	amod	_	TokenRange=318:331
+45	casa	casa	NOUN	NOUN	_	46	det	_	TokenRange=332:336
+46	vida	vida	NOUN	NOUN	_	43	appos	_	TokenRange=337:341
+47	disse	dizer	VERB	VERB	_	42	parataxis	_	TokenRange=342:347
+48	futuro	futuro	ADJ	ADJ	_	49	amod	_	TokenRange=348:354
+49	governo	governo	NOUN	NOUN	_	47	nsubj	_	TokenRange=355:362
+50	temer	temer	NOUN	NOUN	_	49	appos	_	TokenRange=363:368
+51	podera	_	AUX	AUX	_	52	aux	_	TokenRange=369:375
+52	tirar	tirar	VERB	VERB	_	49	acl:relcl	_	TokenRange=376:381
+53	36	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=382:384
+54	milhoes	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=385:392
+55	pessoas	pessoa	NOUN	NOUN	_	52	obj	_	TokenRange=393:400
+56	bolsa	bolsa	ADJ	NOUN	_	55	appos	_	TokenRange=401:406
+57	familia	familia	NOUN	NOUN	_	56	flat	_	TokenRange=407:414
+58	bolsa	bolsa	ADJ	ADJ	_	55	amod	_	TokenRange=415:420
+59	familia	familia	NOUN	NOUN	_	56	flat	_	TokenRange=421:428
+60	hoje	hoje	ADV	ADV	_	61	advmod	_	TokenRange=429:433
+61	contempla	contemplar	VERB	VERB	_	52	parataxis	_	TokenRange=434:443
+62	47	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=444:446
+63	milhoes	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=447:454
+64	pessoas	pessoa	NOUN	NOUN	_	61	obj	_	TokenRange=455:462
+65	entao	entao	ADV	ADV	_	66	advmod	_	TokenRange=463:468
+66	fazer	fazer	VERB	VERB	_	61	csubj	_	TokenRange=469:474
+67	10	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=475:477
+68	milhoes	_	NOUN	NOUN	_	66	obj	_	TokenRange=478:485
+69	tirar	tirar	VERB	VERB	_	66	ccomp	_	TokenRange=486:491
+70	36	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=492:494
+71	milhoes	_	NUM	NUM	NumType=Card	69	obj	_	TokenRange=495:502
+72	deixalos	deixalo	ADJ	NOUN	_	71	amod	_	TokenRange=503:511
+73	margem	margem	NOUN	NOUN	_	69	obj	_	TokenRange=512:518
+74	declarou	declarar	VERB	VERB	_	61	parataxis	_	TokenRange=519:527
+75	presidente	presidente	NOUN	NOUN	_	74	nsubj	_	TokenRange=528:538
+76	encerrar	encerrar	VERB	VERB	_	75	acl:inf	_	TokenRange=539:547
+77	discurso	discurso	NOUN	NOUN	_	76	obj	_	TokenRange=548:556
+78	dilma	dilma	ADJ	ADJ	_	79	nsubj	_	TokenRange=557:562
+79	enfatizou	enfatizar	VERB	VERB	_	66	ccomp	_	TokenRange=563:572
+80	travei	travar	VERB	VERB	_	79	xcomp	_	TokenRange=573:579
+81	batalhas	batalha	NOUN	NOUN	_	80	obj	_	TokenRange=580:588
+82	duras	duro	ADJ	ADJ	_	81	amod	_	TokenRange=589:594
+83	vida	vida	NOUN	NOUN	_	81	appos	_	TokenRange=595:599
+84	acostumada	acostumado	ADJ	ADJ	_	83	amod	_	TokenRange=600:610
+85	guerrilhas	guerrilha	NOUN	NOUN	_	81	appos	_	TokenRange=611:621
+86	desistirei	desistir	VERB	VERB	_	79	ccomp	_	TokenRange=622:632
+87	lutarei	lutar	VERB	VERB	_	86	xcomp	_	TokenRange=633:640
+88	fim	fim	NOUN	NOUN	_	87	obj	_	SpaceAfter=No|TokenRange=641:644
+

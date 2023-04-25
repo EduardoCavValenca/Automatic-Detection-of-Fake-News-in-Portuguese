@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = garoto 16 anos morre escola parana participava protesto contra pec 241 garoto dezesseis anos morreu colegio safel curitiba tarde hoje 24 corpo bombeiros informou corte clavicula encontrava obito socorro chegou vitima objeto cortante politica comunista irresponsavel escola ocupada estudantes protestam contra pec 241 apresentada presidente temer ocupacao escolas parana ocupadas vinte dias alunos protestam contra reforma ensino medio pec teto gastos publicos total 850 escolas 14 universidades ocupadas
+1	garoto	garoto	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	16	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=7:9
+3	anos	ano	NOUN	NOUN	_	4	nsubj	_	TokenRange=10:14
+4	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=15:20
+5	escola	escola	NOUN	NOUN	_	4	nsubj	_	TokenRange=21:27
+6	parana	parana	ADJ	ADJ	_	5	amod	_	TokenRange=28:34
+7	participava	participar	VERB	VERB	_	4	parataxis	_	TokenRange=35:46
+8	protesto	protesto	NOUN	NOUN	_	4	obj	_	TokenRange=47:55
+9	contra	_	ADP	ADP	_	10	case	_	TokenRange=56:62
+10	pec	pec	NOUN	NOUN	_	8	nmod	_	TokenRange=63:66
+11	241	_	NUM	NUM	NumType=Card	10	appos	_	TokenRange=67:70
+12	garoto	garoto	NOUN	NOUN	_	15	nsubj	_	TokenRange=71:77
+13	dezesseis	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=78:87
+14	anos	ano	NOUN	NOUN	_	10	appos	_	TokenRange=88:92
+15	morreu	morrer	VERB	VERB	_	10	acl:relcl	_	TokenRange=93:99
+16	colegio	colegio	NOUN	NOUN	_	15	nmod	_	TokenRange=100:107
+17	safel	safel	NOUN	NOUN	_	16	amod	_	TokenRange=108:113
+18	curitiba	curitiba	NOUN	NOUN	_	16	appos	_	TokenRange=114:122
+19	tarde	tarde	NOUN	NOUN	_	24	advmod	_	TokenRange=123:128
+20	hoje	hoje	ADV	ADV	_	24	advmod	_	TokenRange=129:133
+21	24	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=134:136
+22	corpo	corpo	NOUN	NOUN	_	24	nsubj	_	TokenRange=137:142
+23	bombeiros	bombeiro	NOUN	NOUN	_	22	flat	_	TokenRange=143:152
+24	informou	informar	VERB	VERB	_	4	parataxis	_	TokenRange=153:161
+25	corte	corte	NOUN	NOUN	_	24	obj	_	TokenRange=162:167
+26	clavicula	_	NOUN	NOUN	_	25	flat	_	TokenRange=168:177
+27	encontrava	encontrar	VERB	VERB	_	24	parataxis	_	TokenRange=178:188
+28	obito	obito	NOUN	NOUN	_	27	obj	_	TokenRange=189:194
+29	socorro	socorro	NOUN	NOUN	_	27	nsubj	_	TokenRange=195:202
+30	chegou	chegar	VERB	VERB	_	27	parataxis	_	TokenRange=203:209
+31	vitima	_	ADJ	ADJ	_	32	amod	_	TokenRange=210:216
+32	objeto	objeto	NOUN	NOUN	_	27	nsubj	_	TokenRange=217:223
+33	cortante	cortante	ADJ	ADJ	_	32	amod	_	TokenRange=224:232
+34	politica	_	NOUN	NOUN	_	32	appos	_	TokenRange=233:241
+35	comunista	comunista	ADJ	ADJ	_	34	amod	_	TokenRange=242:251
+36	irresponsavel	irresponsavel	ADJ	ADJ	_	37	amod	_	TokenRange=252:265
+37	escola	escola	NOUN	NOUN	_	40	nsubj	_	TokenRange=266:272
+38	ocupada	ocupado	ADJ	ADJ	_	37	amod	_	TokenRange=273:280
+39	estudantes	estudante	NOUN	NOUN	_	37	amod	_	TokenRange=281:291
+40	protestam	protestar	VERB	VERB	_	4	parataxis	_	TokenRange=292:301
+41	contra	_	ADP	ADP	_	42	case	_	TokenRange=302:308
+42	pec	pec	NOUN	NOUN	_	40	nmod	_	TokenRange=309:312
+43	241	_	NUM	NUM	NumType=Card	42	appos	_	TokenRange=313:316
+44	apresentada	apresentar	VERB	VERB	_	45	acl	_	TokenRange=317:328
+45	presidente	presidente	NOUN	NOUN	_	40	nsubj	_	TokenRange=329:339
+46	temer	temer	NOUN	NOUN	_	45	flat	_	TokenRange=340:345
+47	ocupacao	ocupacao	ADJ	ADJ	_	48	amod	_	TokenRange=346:354
+48	escolas	escola	NOUN	NOUN	_	45	appos	_	TokenRange=355:362
+49	parana	parana	ADJ	ADJ	_	48	amod	_	TokenRange=363:369
+50	ocupadas	ocupado	ADJ	ADJ	_	48	amod	_	TokenRange=370:378
+51	vinte	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=379:384
+52	dias	dia	NOUN	NOUN	_	48	nmod	_	TokenRange=385:389
+53	alunos	aluno	NOUN	NOUN	_	54	nsubj	_	TokenRange=390:396
+54	protestam	protestar	VERB	VERB	_	40	parataxis	_	TokenRange=397:406
+55	contra	_	ADP	ADP	_	56	case	_	TokenRange=407:413
+56	reforma	reforma	NOUN	NOUN	_	54	nmod	_	TokenRange=414:421
+57	ensino	ensino	NOUN	NOUN	_	56	appos	_	TokenRange=422:428
+58	medio	medio	NOUN	NOUN	_	57	amod	_	TokenRange=429:434
+59	pec	_	NOUN	NOUN	_	56	nmod	_	TokenRange=435:438
+60	teto	teto	NOUN	NOUN	_	59	flat	_	TokenRange=439:443
+61	gastos	gasto	NOUN	NOUN	_	56	appos	_	TokenRange=444:450
+62	publicos	publico	ADJ	ADJ	_	61	amod	_	TokenRange=451:459
+63	total	total	ADJ	ADJ	_	61	amod	_	TokenRange=460:465
+64	850	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=466:469
+65	escolas	escola	NOUN	NOUN	_	54	nsubj	_	TokenRange=470:477
+66	14	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=478:480
+67	universidades	universidade	NOUN	NOUN	_	54	obj	_	TokenRange=481:494
+68	ocupadas	ocupado	ADJ	ADJ	_	67	amod	_	SpaceAfter=No|TokenRange=495:503
+

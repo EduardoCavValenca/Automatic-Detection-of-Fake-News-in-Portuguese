@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf conclui inquerito sobre gleisi ve indicios corrupcao lavagem senadora presidente pt investigada recebido repasses odebrecht durante campanha senado 2014 defesa petista negou qualquer irregularidade policia federal concluiu inquerito investigou senadora gleisi hoffmann ptpr apontou indicio crimes corrupcao passiva lavagem dinheiro nota divulgada nesta segundafeira 7 pf informou senadora recebeu propina odebrecht disfarcada doacao eleitoral 2014 alem desse inquerito gleisi re supremo tribunal federal stf acusada receber r 1 milhao dinheiro desviado petrobras advogado rodrigo mudrovitsch defende senadora afirmou gleisi cometeu qualquer irregularidade defesa entende elementos
+1	pf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	conclui	concluir	VERB	VERB	_	85	ccomp	_	TokenRange=3:10
+3	inquerito	inquerito	NOUN	NOUN	_	2	obj	_	TokenRange=11:20
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=21:26
+5	gleisi	_	NOUN	NOUN	_	3	nmod	_	TokenRange=27:33
+6	ve	_	VERB	VERB	_	2	advcl	_	TokenRange=34:36
+7	indicios	indicio	NOUN	NOUN	_	6	obj	_	TokenRange=37:45
+8	corrupcao	corrupcao	ADJ	ADJ	_	9	amod	_	TokenRange=46:55
+9	lavagem	lavagem	NOUN	NOUN	_	7	appos	_	TokenRange=56:63
+10	senadora	senador	NOUN	NOUN	_	9	amod	_	TokenRange=64:72
+11	presidente	presidente	NOUN	NOUN	_	9	appos	_	TokenRange=73:83
+12	pt	_	NOUN	NOUN	_	11	appos	_	TokenRange=84:86
+13	investigada	investigar	VERB	VERB	_	63	acl	_	TokenRange=87:98
+14	recebido	receber	VERB	VERB	_	2	acl	_	TokenRange=99:107
+15	repasses	repasse	NOUN	NOUN	_	14	obj	_	TokenRange=108:116
+16	odebrecht	_	PROPN	PNOUN	_	15	appos	_	TokenRange=117:126
+17	durante	_	ADP	ADP	_	18	case	_	TokenRange=127:134
+18	campanha	campanha	NOUN	NOUN	_	14	nmod	_	TokenRange=135:143
+19	senado	senado	NOUN	NOUN	_	18	appos	_	TokenRange=144:150
+20	2014	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=151:155
+21	defesa	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=156:162
+22	petista	petista	ADJ	ADJ	_	21	amod	_	TokenRange=163:170
+23	negou	negar	VERB	VERB	_	2	parataxis	_	TokenRange=171:176
+24	qualquer	_	DET	DET	_	25	det	_	TokenRange=177:185
+25	irregularidade	irregularidade	NOUN	NOUN	_	23	obj	_	TokenRange=186:200
+26	policia	policia	NOUN	NOUN	_	28	nsubj	_	TokenRange=201:208
+27	federal	federal	ADJ	ADJ	_	26	amod	_	TokenRange=209:216
+28	concluiu	concluir	VERB	VERB	_	23	ccomp	_	TokenRange=217:225
+29	inquerito	inquerito	NOUN	NOUN	_	30	obj	_	TokenRange=226:235
+30	investigou	investigar	VERB	VERB	_	28	ccomp	_	TokenRange=236:246
+31	senadora	senador	NOUN	NOUN	_	30	obj	_	TokenRange=247:255
+32	gleisi	_	NOUN	NOUN	_	31	appos	_	TokenRange=256:262
+33	hoffmann	hoffmann	NOUN	NOUN	_	32	flat	_	TokenRange=263:271
+34	ptpr	ptpr	NOUN	NOUN	_	35	nsubj	_	TokenRange=272:276
+35	apontou	apontar	VERB	VERB	_	30	conj	_	TokenRange=277:284
+36	indicio	indicio	NOUN	NOUN	_	35	obj	_	TokenRange=285:292
+37	crimes	crime	NOUN	NOUN	_	35	obj	_	TokenRange=293:299
+38	corrupcao	corrupcao	NOUN	NOUN	_	37	amod	_	TokenRange=300:309
+39	passiva	passivo	ADJ	ADJ	_	40	amod	_	TokenRange=310:317
+40	lavagem	lavagem	NOUN	NOUN	_	35	obj	_	TokenRange=318:325
+41	dinheiro	dinheiro	ADJ	ADJ	_	40	amod	_	TokenRange=326:334
+42	nota	nota	NOUN	NOUN	_	35	obj	_	TokenRange=335:339
+43	divulgada	divulgar	VERB	VERB	_	42	acl	_	TokenRange=340:349
+44	nesta	_	ADP	ADP	_	45	case	_	TokenRange=350:355
+45	segundafeira	_	NOUN	NOUN	_	43	nmod	_	TokenRange=356:368
+46	7	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=369:370
+47	pf	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=371:373
+48	informou	informar	VERB	VERB	_	2	parataxis	_	TokenRange=374:382
+49	senadora	senador	NOUN	NOUN	_	48	obj	_	TokenRange=383:391
+50	recebeu	receber	VERB	VERB	_	48	ccomp	_	TokenRange=392:399
+51	propina	propina	NOUN	NOUN	_	50	obj	_	TokenRange=400:407
+52	odebrecht	_	NOUN	NOUN	_	51	appos	_	TokenRange=408:417
+53	disfarcada	disfarcado	ADJ	ADJ	_	51	amod	_	TokenRange=418:428
+54	doacao	doacao	NOUN	NOUN	_	50	obj	_	TokenRange=429:435
+55	eleitoral	eleitoral	ADJ	ADJ	_	54	amod	_	TokenRange=436:445
+56	2014	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=446:450
+57	alem	alem	ADV	ADV	_	48	advmod	_	TokenRange=451:455
+58	desse	_	ADP	ADP	_	59	case	_	TokenRange=456:461
+59	inquerito	inquerito	NOUN	NOUN	_	57	nmod	_	TokenRange=462:471
+60	gleisi	gleisi	ADJ	ADJ	_	59	amod	_	TokenRange=472:478
+61	re	_	ADJ	ADJ	_	63	amod	_	TokenRange=479:481
+62	supremo	supremo	ADJ	ADJ	_	63	amod	_	TokenRange=482:489
+63	tribunal	tribunal	NOUN	NOUN	_	60	appos	_	TokenRange=490:498
+64	federal	federal	ADJ	ADJ	_	63	amod	_	TokenRange=499:506
+65	stf	_	NOUN	NOUN	_	63	appos	_	TokenRange=507:510
+66	acusada	acusar	VERB	VERB	_	63	acl	_	TokenRange=511:518
+67	receber	receber	VERB	VERB	_	66	xcomp	_	TokenRange=519:526
+68	r	r	NOUN	NOUN	_	67	obj	_	TokenRange=527:528
+69	1	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=529:530
+70	milhao	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=531:537
+71	dinheiro	dinheiro	NOUN	NOUN	_	67	obj	_	TokenRange=538:546
+72	desviado	desviar	VERB	VERB	_	71	acl	_	TokenRange=547:555
+73	petrobras	petrobra	NOUN	NOUN	_	72	nsubj	_	TokenRange=556:565
+74	advogado	advogado	NOUN	NOUN	_	68	appos	_	TokenRange=566:574
+75	rodrigo	_	NOUN	NOUN	_	74	appos	_	TokenRange=575:582
+76	mudrovitsch	_	NOUN	NOUN	_	75	flat	_	TokenRange=583:594
+77	defende	defender	VERB	VERB	_	67	conj	_	TokenRange=595:602
+78	senadora	senador	NOUN	NOUN	_	77	obj	_	TokenRange=603:611
+79	afirmou	afirmar	VERB	VERB	_	77	parataxis	_	TokenRange=612:619
+80	gleisi	gleisi	NOUN	NOUN	_	81	nsubj	_	TokenRange=620:626
+81	cometeu	cometer	VERB	VERB	_	79	ccomp	_	TokenRange=627:634
+82	qualquer	_	DET	DET	_	83	det	_	TokenRange=635:643
+83	irregularidade	irregularidade	NOUN	NOUN	_	81	obj	_	TokenRange=644:658
+84	defesa	_	NOUN	NOUN	_	81	nsubj	_	TokenRange=659:665
+85	entende	entender	VERB	VERB	_	0	root	_	TokenRange=666:673
+86	elementos	elemento	NOUN	NOUN	_	85	obj	_	SpaceAfter=No|TokenRange=674:683
+

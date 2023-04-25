@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = candidato vomita ve pobres vence eleicao prefeito curitiba candidato pmn rafael greca eleito prefeito curitiba hoje 30 final apuracao greca 53 25 votos validos venceu ney leprevost psd deve assumir cargo janeiro 2017 questionado sobre fara relacao crescente numero moradores rua cidade disse nunca cuidei pobres francisco assis primeira vez tentei carregar pobre dentro carro vomitei causa cheiro disse greca durante evento promovido curso jornalismo escola comunicacao artes ultima pesquisa ibope aponta greca 45 intencoes voto seguido gustavo fruet pdt aparece 19
+1	candidato	candidato	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:9
+2	vomita	vomito	NOUN	NOUN	_	1	appos	_	TokenRange=10:16
+3	ve	_	VERB	VERB	_	4	case	_	TokenRange=17:19
+4	pobres	pobre	NOUN	NOUN	_	1	nmod	_	TokenRange=20:26
+5	vence	vencer	VERB	VERB	_	0	root	_	TokenRange=27:32
+6	eleicao	eleicao	NOUN	NOUN	_	5	obj	_	TokenRange=33:40
+7	prefeito	prefeito	NOUN	NOUN	_	6	appos	_	TokenRange=41:49
+8	curitiba	curitiba	ADJ	ADJ	_	9	amod	_	TokenRange=50:58
+9	candidato	candidato	NOUN	NOUN	_	5	obj	_	TokenRange=59:68
+10	pmn	_	NOUN	NOUN	_	9	flat	_	TokenRange=69:72
+11	rafael	_	NOUN	NOUN	_	9	appos	_	TokenRange=73:79
+12	greca	_	NOUN	NOUN	_	9	flat	_	TokenRange=80:85
+13	eleito	eleger	VERB	VERB	_	14	acl	_	TokenRange=86:92
+14	prefeito	prefeito	NOUN	NOUN	_	9	appos	_	TokenRange=93:101
+15	curitiba	curitiba	ADJ	ADJ	_	14	amod	_	TokenRange=102:110
+16	hoje	hoje	ADV	ADV	_	14	advmod	_	TokenRange=111:115
+17	30	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=116:118
+18	final	final	NOUN	NOUN	_	14	appos	_	TokenRange=119:124
+19	apuracao	apuracao	NOUN	NOUN	_	18	appos	_	TokenRange=125:133
+20	greca	_	NOUN	NOUN	_	19	appos	_	TokenRange=134:139
+21	53	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=140:142
+22	25	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=143:145
+23	votos	voto	NOUN	NOUN	_	19	appos	_	TokenRange=146:151
+24	validos	valido	ADJ	ADJ	_	23	amod	_	TokenRange=152:159
+25	venceu	vencer	VERB	VERB	_	5	parataxis	_	TokenRange=160:166
+26	ney	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=167:170
+27	leprevost	_	NOUN	NOUN	_	26	flat	_	TokenRange=171:180
+28	psd	_	PROPN	PNOUN	_	30	nsubj	_	TokenRange=181:184
+29	deve	dever	AUX	AUX	_	30	aux	_	TokenRange=185:189
+30	assumir	assumir	VERB	VERB	_	25	ccomp	_	TokenRange=190:197
+31	cargo	cargo	NOUN	NOUN	_	30	obj	_	TokenRange=198:203
+32	janeiro	_	PROPN	PNOUN	_	30	nmod	_	TokenRange=204:211
+33	2017	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=212:216
+34	questionado	questionar	VERB	VERB	_	30	acl	_	TokenRange=217:228
+35	sobre	_	ADP	ADP	_	37	case	_	TokenRange=229:234
+36	fara	_	ADJ	ADJ	_	37	amod	_	TokenRange=235:239
+37	relacao	relacao	NOUN	NOUN	_	34	nmod	_	TokenRange=240:247
+38	crescente	crescente	ADJ	ADJ	_	37	amod	_	TokenRange=248:257
+39	numero	_	NOUN	NOUN	_	37	appos	_	TokenRange=258:264
+40	moradores	morador	NOUN	NOUN	_	39	flat	_	TokenRange=265:274
+41	rua	rua	NOUN	NOUN	_	43	nsubj	_	TokenRange=275:278
+42	cidade	cidade	NOUN	NOUN	_	43	nsubj	_	TokenRange=279:285
+43	disse	dizer	VERB	VERB	_	30	parataxis	_	TokenRange=286:291
+44	nunca	nunca	ADV	ADV	_	45	advmod	_	TokenRange=292:297
+45	cuidei	cuidar	VERB	VERB	_	43	ccomp	_	TokenRange=298:304
+46	pobres	pobre	NOUN	NOUN	_	45	obj	_	TokenRange=305:311
+47	francisco	francisco	NOUN	NOUN	_	45	dep	_	TokenRange=312:321
+48	assis	assis	ADV	ADV	_	45	advmod	_	TokenRange=322:327
+49	primeira	primeiro	ADJ	ADJ	_	50	amod	_	TokenRange=328:336
+50	vez	vez	NOUN	NOUN	_	51	nmod	_	TokenRange=337:340
+51	tentei	tentar	VERB	VERB	_	45	conj	_	TokenRange=341:347
+52	carregar	carregar	VERB	VERB	_	51	xcomp	_	TokenRange=348:356
+53	pobre	pobre	NOUN	NOUN	_	52	obj	_	TokenRange=357:362
+54	dentro	dentro	ADV	ADV	_	52	advmod	_	TokenRange=363:369
+55	carro	carro	NOUN	NOUN	_	56	nsubj	_	TokenRange=370:375
+56	vomitei	vomitar	VERB	VERB	_	51	conj	_	TokenRange=376:383
+57	causa	causa	NOUN	NOUN	_	56	obj	_	TokenRange=384:389
+58	cheiro	cheiro	NOUN	NOUN	_	57	amod	_	TokenRange=390:396
+59	disse	dizer	VERB	VERB	_	45	conj	_	TokenRange=397:402
+60	greca	_	NOUN	NOUN	_	59	obj	_	TokenRange=403:408
+61	durante	_	ADP	ADP	_	62	case	_	TokenRange=409:416
+62	evento	evento	NOUN	NOUN	_	59	nmod	_	TokenRange=417:423
+63	promovido	promover	VERB	VERB	_	62	acl	_	TokenRange=424:433
+64	curso	curso	NOUN	NOUN	_	62	appos	_	TokenRange=434:439
+65	jornalismo	jornalismo	NOUN	NOUN	_	64	flat	_	TokenRange=440:450
+66	escola	escola	NOUN	NOUN	_	64	appos	_	TokenRange=451:457
+67	comunicacao	comunicacao	NOUN	NOUN	_	66	flat	_	TokenRange=458:469
+68	artes	arte	NOUN	NOUN	_	66	flat	_	TokenRange=470:475
+69	ultima	_	ADJ	ADJ	_	70	amod	_	TokenRange=476:482
+70	pesquisa	pesquisa	NOUN	NOUN	_	72	nsubj	_	TokenRange=483:491
+71	ibope	_	NOUN	NOUN	_	70	appos	_	TokenRange=492:497
+72	aponta	apontar	VERB	VERB	_	59	parataxis	_	TokenRange=498:504
+73	greca	_	NOUN	NOUN	_	72	obj	_	TokenRange=505:510
+74	45	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=511:513
+75	intencoes	_	NOUN	NOUN	_	76	amod	_	TokenRange=514:523
+76	voto	voto	NOUN	NOUN	_	72	obj	_	TokenRange=524:528
+77	seguido	seguido	ADJ	ADJ	_	76	amod	_	TokenRange=529:536
+78	gustavo	gustavo	NOUN	NOUN	_	81	nsubj	_	TokenRange=537:544
+79	fruet	fruet	NOUN	NOUN	_	78	flat	_	TokenRange=545:550
+80	pdt	_	NOUN	NOUN	_	78	flat	_	TokenRange=551:554
+81	aparece	aparecer	VERB	VERB	_	72	parataxis	_	TokenRange=555:562
+82	19	_	NUM	NUM	NumType=Card	81	nmod	_	SpaceAfter=No|TokenRange=563:565
+

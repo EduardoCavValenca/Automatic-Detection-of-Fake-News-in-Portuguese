@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = uniao sovietica influenciou surgimento expansao radicalismo islamico profundo papel desempenhado isla revolucao russa cem anos atras posteriormente urss sobretudo conta relacoes afeganistao chechenia triunfo revolucao russa 1917 cem anos poucos aspectos historia seculo 20 escaparam influencia superpotencia entao nascida isla sociedades islamicas excecao momento colapso uniao sovietica urss inicio
+1	uniao	uniao	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	sovietica	sovietico	ADJ	ADJ	_	1	amod	_	TokenRange=6:15
+3	influenciou	influenciar	VERB	VERB	_	0	root	_	TokenRange=16:27
+4	surgimento	surgimento	NOUN	NOUN	_	3	obj	_	TokenRange=28:38
+5	expansao	expansao	ADJ	ADJ	_	6	amod	_	TokenRange=39:47
+6	radicalismo	radicalismo	NOUN	NOUN	_	3	obj	_	TokenRange=48:59
+7	islamico	islamico	ADJ	ADJ	_	6	amod	_	TokenRange=60:68
+8	profundo	profundo	ADJ	ADJ	_	9	amod	_	TokenRange=69:77
+9	papel	papel	NOUN	NOUN	_	6	appos	_	TokenRange=78:83
+10	desempenhado	desempenhar	VERB	ADJ	_	11	case	_	TokenRange=84:96
+11	isla	_	NOUN	NOUN	_	9	appos	_	TokenRange=97:101
+12	revolucao	revolucao	NOUN	NOUN	_	11	appos	_	TokenRange=102:111
+13	russa	russo	ADJ	ADJ	_	12	amod	_	TokenRange=112:117
+14	cem	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=118:121
+15	anos	ano	NOUN	NOUN	_	12	nmod	_	TokenRange=122:126
+16	atras	atra	ADV	ADV	_	15	advmod	_	TokenRange=127:132
+17	posteriormente	posteriormente	ADV	ADV	_	20	advmod	_	TokenRange=133:147
+18	urss	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=148:152
+19	sobretudo	sobretudo	ADV	ADV	_	20	advmod	_	TokenRange=153:162
+20	conta	contar	VERB	VERB	_	3	parataxis	_	TokenRange=163:168
+21	relacoes	relacoe	NOUN	NOUN	_	20	obj	_	TokenRange=169:177
+22	afeganistao	_	NOUN	NOUN	_	21	amod	_	TokenRange=178:189
+23	chechenia	chechenia	NOUN	NOUN	_	21	appos	_	TokenRange=190:199
+24	triunfo	triunfo	NOUN	NOUN	_	21	appos	_	TokenRange=200:207
+25	revolucao	revolucao	NOUN	NOUN	_	21	appos	_	TokenRange=208:217
+26	russa	russo	ADJ	ADJ	_	25	amod	_	TokenRange=218:223
+27	1917	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=224:228
+28	cem	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=229:232
+29	anos	ano	NOUN	NOUN	_	25	nmod	_	TokenRange=233:237
+30	poucos	_	DET	DET	_	31	det	_	TokenRange=238:244
+31	aspectos	aspecto	NOUN	NOUN	_	35	nsubj	_	TokenRange=245:253
+32	historia	historia	NOUN	NOUN	_	31	appos	_	TokenRange=254:262
+33	seculo	seculo	NOUN	NOUN	_	32	appos	_	TokenRange=263:269
+34	20	_	NUM	NUM	NumType=Card	33	appos	_	TokenRange=270:272
+35	escaparam	escapar	VERB	VERB	_	3	parataxis	_	TokenRange=273:282
+36	influencia	_	NOUN	NOUN	_	35	obj	_	TokenRange=283:293
+37	superpotencia	superpotencia	NOUN	NOUN	_	36	amod	_	TokenRange=294:307
+38	entao	entao	ADV	ADV	_	39	advmod	_	TokenRange=308:313
+39	nascida	nascer	VERB	ADJ	_	36	amod	_	TokenRange=314:321
+40	isla	_	NOUN	NOUN	_	36	appos	_	TokenRange=322:326
+41	sociedades	sociedade	NOUN	NOUN	_	35	parataxis	_	TokenRange=327:337
+42	islamicas	islamico	ADJ	ADJ	_	41	amod	_	TokenRange=338:347
+43	excecao	excecao	ADJ	VERB	_	44	case	_	TokenRange=348:355
+44	momento	momento	NOUN	NOUN	_	41	nmod	_	TokenRange=356:363
+45	colapso	colapso	ADJ	ADJ	_	44	amod	_	TokenRange=364:371
+46	uniao	uniao	NOUN	NOUN	_	49	appos	_	TokenRange=372:377
+47	sovietica	sovietico	ADJ	ADJ	_	46	amod	_	TokenRange=378:387
+48	urss	_	NOUN	NOUN	_	44	appos	_	TokenRange=388:392
+49	inicio	_	NOUN	NOUN	_	44	appos	_	SpaceAfter=No|TokenRange=393:399
+

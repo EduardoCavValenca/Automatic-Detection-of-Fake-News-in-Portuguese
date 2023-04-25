@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = operacao prende dona casa prostituicao apreende adolescentes motel casa shows policiais encontraram casal dentro quarto bar fachada aparecida goiania delegada investiga trafico mulheres exploracao sexual criancas adolescentes operacao policia rodoviaria federal prf contra exploracao sexual trafico pessoas prendeu noite sextafeira 23 dona bar verdade casa prostituicao aparecida goiania regiao metropolitana capital agentes resgataram duas adolescentes sendo 15 anos ia entrar motel outra 17 anos dentro casa shows operacao realizada apoio
+1	operacao	operacao	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:8
+2	prende	_	VERB	VERB	_	1	acl	_	TokenRange=9:15
+3	dona	_	ADJ	ADJ	_	4	amod	_	TokenRange=16:20
+4	casa	casa	NOUN	NOUN	_	2	obj	_	TokenRange=21:25
+5	prostituicao	_	ADJ	NOUN	_	4	amod	_	TokenRange=26:38
+6	apreende	apreender	VERB	VERB	_	1	parataxis	_	TokenRange=39:47
+7	adolescentes	adolescente	NOUN	NOUN	_	6	obj	_	TokenRange=48:60
+8	motel	motel	NOUN	NOUN	_	6	nmod	_	TokenRange=61:66
+9	casa	casa	NOUN	NOUN	_	8	appos	_	TokenRange=67:71
+10	shows	show	NOUN	NOUN	_	9	flat	_	TokenRange=72:77
+11	policiais	policial	NOUN	NOUN	_	1	amod	_	TokenRange=78:87
+12	encontraram	encontrar	VERB	VERB	_	0	root	_	TokenRange=88:99
+13	casal	casal	NOUN	NOUN	_	12	obj	_	TokenRange=100:105
+14	dentro	dentro	ADV	ADV	_	16	advmod	_	TokenRange=106:112
+15	quarto	_	ADJ	ADJ	_	16	amod	_	TokenRange=113:119
+16	bar	bar	NOUN	NOUN	_	12	nmod	_	TokenRange=120:123
+17	fachada	fachada	NOUN	NOUN	_	16	appos	_	TokenRange=124:131
+18	aparecida	aparecido	ADJ	ADJ	_	16	amod	_	TokenRange=132:141
+19	goiania	goiania	NOUN	NOUN	_	16	appos	_	TokenRange=142:149
+20	delegada	delegado	NOUN	NOUN	_	19	amod	_	TokenRange=150:158
+21	investiga	investigar	VERB	VERB	_	16	acl:relcl	_	TokenRange=159:168
+22	trafico	trafico	NOUN	NOUN	_	21	obj	_	TokenRange=169:176
+23	mulheres	mulher	NOUN	NOUN	_	22	flat	_	TokenRange=177:185
+24	exploracao	exploracao	NOUN	NOUN	_	22	appos	_	TokenRange=186:196
+25	sexual	sexual	ADJ	ADJ	_	26	amod	_	TokenRange=197:203
+26	criancas	crianca	NOUN	NOUN	_	22	appos	_	TokenRange=204:212
+27	adolescentes	adolescente	ADJ	ADJ	_	26	amod	_	TokenRange=213:225
+28	operacao	operacao	NOUN	NOUN	_	29	appos	_	TokenRange=226:234
+29	policia	policia	NOUN	NOUN	_	26	appos	_	TokenRange=235:242
+30	rodoviaria	rodoviario	ADJ	ADJ	_	29	amod	_	TokenRange=243:253
+31	federal	federal	ADJ	ADJ	_	29	amod	_	TokenRange=254:261
+32	prf	_	NOUN	NOUN	_	29	appos	_	TokenRange=262:265
+33	contra	_	ADP	ADP	_	34	case	_	TokenRange=266:272
+34	exploracao	exploracao	NOUN	NOUN	_	32	nmod	_	TokenRange=273:283
+35	sexual	sexual	ADJ	ADJ	_	34	amod	_	TokenRange=284:290
+36	trafico	trafico	NOUN	NOUN	_	34	appos	_	TokenRange=291:298
+37	pessoas	pessoa	NOUN	NOUN	_	38	nsubj	_	TokenRange=299:306
+38	prendeu	prender	VERB	VERB	_	12	parataxis	_	TokenRange=307:314
+39	noite	noite	NOUN	NOUN	_	38	obj	_	TokenRange=315:320
+40	sextafeira	sextafeira	NOUN	NOUN	_	38	nmod	_	TokenRange=321:331
+41	23	_	NUM	NUM	NumType=Card	40	appos	_	TokenRange=332:334
+42	dona	_	NOUN	NOUN	_	40	appos	_	TokenRange=335:339
+43	bar	bar	NOUN	NOUN	_	42	flat	_	TokenRange=340:343
+44	verdade	verdade	NOUN	NOUN	_	45	flat	_	TokenRange=344:351
+45	casa	casa	NOUN	NOUN	_	40	appos	_	TokenRange=352:356
+46	prostituicao	_	ADJ	ADJ	_	45	amod	_	TokenRange=357:369
+47	aparecida	aparecido	ADJ	ADJ	_	45	amod	_	TokenRange=370:379
+48	goiania	goiania	NOUN	NOUN	_	45	appos	_	TokenRange=380:387
+49	regiao	regiao	NOUN	NOUN	_	48	appos	_	TokenRange=388:394
+50	metropolitana	metropolitano	ADJ	ADJ	_	49	amod	_	TokenRange=395:408
+51	capital	capital	ADJ	ADJ	_	49	amod	_	TokenRange=409:416
+52	agentes	agente	NOUN	NOUN	_	53	nsubj	_	TokenRange=417:424
+53	resgataram	resgatar	VERB	VERB	_	12	parataxis	_	TokenRange=425:435
+54	duas	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=436:440
+55	adolescentes	adolescente	NOUN	NOUN	_	53	obj	_	TokenRange=441:453
+56	sendo	ser	VERB	VERB	_	55	acl	_	TokenRange=454:459
+57	15	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=460:462
+58	anos	ano	NOUN	NOUN	_	60	nsubj	_	TokenRange=463:467
+59	ia	ir	AUX	AUX	_	60	aux	_	TokenRange=468:470
+60	entrar	entrar	VERB	VERB	_	53	parataxis	_	TokenRange=471:477
+61	motel	motel	NOUN	NOUN	_	60	obj	_	TokenRange=478:483
+62	outra	_	DET	DET	_	64	det	_	TokenRange=484:489
+63	17	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=490:492
+64	anos	ano	NOUN	NOUN	_	60	nmod	_	TokenRange=493:497
+65	dentro	dentro	ADV	ADV	_	60	advmod	_	TokenRange=498:504
+66	casa	casa	NOUN	NOUN	_	60	nmod	_	TokenRange=505:509
+67	shows	show	NOUN	NOUN	_	66	flat	_	TokenRange=510:515
+68	operacao	operacao	NOUN	NOUN	_	60	nsubj	_	TokenRange=516:524
+69	realizada	realizar	VERB	VERB	_	68	acl	_	TokenRange=525:534
+70	apoio	apoio	NOUN	NOUN	_	69	obj	_	SpaceAfter=No|TokenRange=535:540
+

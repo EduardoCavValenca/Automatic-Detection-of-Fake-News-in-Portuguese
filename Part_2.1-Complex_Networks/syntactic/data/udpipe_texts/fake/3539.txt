@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = russia entra briga contra estado islamico putin avisa vamos castigar criminosos
+1	russia	russia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	entra	entrar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	briga	briga	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	contra	_	ADP	ADP	_	5	case	_	TokenRange=19:25
+5	estado	estado	NOUN	NOUN	_	3	nmod	_	TokenRange=26:32
+6	islamico	islamico	ADJ	ADJ	_	5	amod	_	TokenRange=33:41
+7	putin	_	PROPN	PNOUN	_	8	nsubj	_	TokenRange=42:47
+8	avisa	avisar	VERB	VERB	_	2	conj	_	TokenRange=48:53
+9	vamos	ir	AUX	AUX	_	10	aux	_	TokenRange=54:59
+10	castigar	castigar	VERB	VERB	_	8	ccomp	_	TokenRange=60:68
+11	criminosos	criminoso	NOUN	NOUN	_	10	obj	_	SpaceAfter=No|TokenRange=69:79
+

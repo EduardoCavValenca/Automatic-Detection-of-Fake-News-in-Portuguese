@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma quer transformar defesa senado micareta chico buarque convidado honra petista cantor chico buarque petista roxo defensor futura expresidenta dilma rousseff estara presente sessao amanha 29 senado chico devera comparecer senado ouvir mimimi dilma rousseff apresentara defesa pessoalmente perante toda nacao trinta cinco convidados acompanharao defesa petista segundo informacao globo cantor devera ficar tribuna senado local reservado convidados presidenta afastada vai show leia
+1	dilma	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	quer	querer	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	transformar	transformar	VERB	VERB	_	2	xcomp	_	TokenRange=11:22
+4	defesa	_	NOUN	NOUN	_	3	obj	_	TokenRange=23:29
+5	senado	senado	NOUN	NOUN	_	4	appos	_	TokenRange=30:36
+6	micareta	micareta	NOUN	NOUN	_	4	appos	_	TokenRange=37:45
+7	chico	chico	NOUN	NOUN	_	4	appos	_	TokenRange=46:51
+8	buarque	buarque	NOUN	NOUN	_	7	flat	_	TokenRange=52:59
+9	convidado	convidado	NOUN	NOUN	_	7	amod	_	TokenRange=60:69
+10	honra	honra	NOUN	NOUN	_	9	flat	_	TokenRange=70:75
+11	petista	petista	NOUN	NOUN	_	9	amod	_	TokenRange=76:83
+12	cantor	cantor	NOUN	NOUN	_	9	appos	_	TokenRange=84:90
+13	chico	chico	NOUN	NOUN	_	12	appos	_	TokenRange=91:96
+14	buarque	buarque	NOUN	NOUN	_	15	amod	_	TokenRange=97:104
+15	petista	petista	NOUN	NOUN	_	12	appos	_	TokenRange=105:112
+16	roxo	roxo	ADJ	ADJ	_	15	amod	_	TokenRange=113:117
+17	defensor	defensor	NOUN	NOUN	_	15	appos	_	TokenRange=118:126
+18	futura	futuro	ADJ	ADJ	_	19	amod	_	TokenRange=127:133
+19	expresidenta	_	NOUN	NOUN	_	15	appos	_	TokenRange=134:146
+20	dilma	_	NOUN	NOUN	_	19	appos	_	TokenRange=147:152
+21	rousseff	rousseff	NOUN	NOUN	_	19	flat	_	TokenRange=153:161
+22	estara	estar	VERB	VERB	_	2	parataxis	_	TokenRange=162:168
+23	presente	presente	ADJ	ADJ	_	22	xcomp	_	TokenRange=169:177
+24	sessao	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=178:184
+25	amanha	amanha	NOUN	NOUN	_	30	nmod	_	TokenRange=185:191
+26	29	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=192:194
+27	senado	senado	NOUN	NOUN	_	30	nsubj	_	TokenRange=195:201
+28	chico	chico	NOUN	NOUN	_	30	nsubj	_	TokenRange=202:207
+29	devera	dever	AUX	AUX	_	30	aux	_	TokenRange=208:214
+30	comparecer	comparecer	VERB	VERB	_	22	parataxis	_	TokenRange=215:225
+31	senado	senado	NOUN	NOUN	_	30	obj	_	TokenRange=226:232
+32	ouvir	ouvir	VERB	VERB	_	30	ccomp	_	TokenRange=233:238
+33	mimimi	_	NOUN	NOUN	_	32	obj	_	TokenRange=239:245
+34	dilma	dilma	NOUN	NOUN	_	33	appos	_	TokenRange=246:251
+35	rousseff	rousseff	NOUN	NOUN	_	34	flat	_	TokenRange=252:260
+36	apresentara	apresentar	VERB	VERB	_	30	parataxis	_	TokenRange=261:272
+37	defesa	_	NOUN	NOUN	_	36	obj	_	TokenRange=273:279
+38	pessoalmente	pessoalmente	ADV	ADV	_	36	advmod	_	TokenRange=280:292
+39	perante	_	ADP	ADP	_	41	case	_	TokenRange=293:300
+40	toda	_	DET	DET	_	41	det	_	TokenRange=301:305
+41	nacao	nacao	NOUN	NOUN	_	36	nmod	_	TokenRange=306:311
+42	trinta	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=312:318
+43	cinco	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=319:324
+44	convidados	convidado	NOUN	NOUN	_	45	nsubj	_	TokenRange=325:335
+45	acompanharao	acompanhar	VERB	VERB	_	36	parataxis	_	TokenRange=336:348
+46	defesa	_	NOUN	NOUN	_	45	obj	_	TokenRange=349:355
+47	petista	petista	NOUN	NOUN	_	46	amod	_	TokenRange=356:363
+48	segundo	_	ADP	ADP	_	49	case	_	TokenRange=364:371
+49	informacao	informacao	NOUN	NOUN	_	45	nmod	_	TokenRange=372:382
+50	globo	globo	NOUN	NOUN	_	49	flat	_	TokenRange=383:388
+51	cantor	cantor	NOUN	NOUN	_	55	nsubj	_	TokenRange=389:395
+52	devera	dever	AUX	AUX	_	62	aux	_	TokenRange=396:402
+53	ficar	ficar	AUX	AUX	_	62	cop	_	TokenRange=403:408
+54	tribuna	tribuna	NOUN	NOUN	_	55	amod	_	TokenRange=409:416
+55	senado	senado	NOUN	NOUN	_	62	nsubj	_	TokenRange=417:423
+56	local	local	ADJ	ADJ	_	55	amod	_	TokenRange=424:429
+57	reservado	reservado	ADJ	ADJ	_	55	amod	_	TokenRange=430:439
+58	convidados	convidado	NOUN	NOUN	_	55	amod	_	TokenRange=440:450
+59	presidenta	_	ADJ	ADJ	_	55	amod	_	TokenRange=451:461
+60	afastada	afastado	ADJ	ADJ	_	55	amod	_	TokenRange=462:470
+61	vai	ir	AUX	AUX	_	62	cop	_	TokenRange=471:474
+62	show	show	NOUN	NOUN	_	45	conj	_	TokenRange=475:479
+63	leia	leia	ADJ	ADJ	_	62	amod	_	SpaceAfter=No|TokenRange=480:484
+

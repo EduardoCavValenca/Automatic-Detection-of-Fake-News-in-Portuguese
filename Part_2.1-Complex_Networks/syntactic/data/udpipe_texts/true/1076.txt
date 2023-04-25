@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = amigos envolvidos projeto jovem sumido acre fizeram pacto sigilo diz delegado delegado disse ainda descartar jovem usado celulares numeros diferentes localizado bruno borges desaparecido desde ultimo dia 27 marco responsavel investigacoes desaparecimento acreano bruno borges 24 anos delegado fabrizzio sobreira coordenador delegacia investigacao criminal dic diz amigos ajudaram jovem escrituras quarto criptografia 14 livros feito pacto sigilo revelar
+1	amigos	amigo	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:6
+2	envolvidos	envolvido	ADJ	ADJ	_	1	acl	_	TokenRange=7:17
+3	projeto	projeto	NOUN	NOUN	_	1	appos	_	TokenRange=18:25
+4	jovem	jovem	ADJ	ADJ	_	3	amod	_	TokenRange=26:31
+5	sumido	sumir	ADJ	ADJ	_	1	amod	_	TokenRange=32:38
+6	acre	_	NOUN	NOUN	_	3	appos	_	TokenRange=39:43
+7	fizeram	fazer	VERB	VERB	_	1	acl:relcl	_	TokenRange=44:51
+8	pacto	pacto	NOUN	NOUN	_	7	obj	_	TokenRange=52:57
+9	sigilo	sigilo	NOUN	NOUN	_	8	flat	_	TokenRange=58:64
+10	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=65:68
+11	delegado	delegado	NOUN	NOUN	_	13	nsubj	_	TokenRange=69:77
+12	delegado	delegado	ADJ	ADJ	_	11	amod	_	TokenRange=78:86
+13	disse	dizer	VERB	VERB	_	10	ccomp	_	TokenRange=87:92
+14	ainda	ainda	ADV	ADV	_	13	advmod	_	TokenRange=93:98
+15	descartar	descartar	VERB	VERB	_	13	xcomp	_	TokenRange=99:108
+16	jovem	jovem	NOUN	NOUN	_	15	obj	_	TokenRange=109:114
+17	usado	usar	VERB	VERB	_	16	acl	_	TokenRange=115:120
+18	celulares	_	NOUN	NOUN	_	17	obj	_	TokenRange=121:130
+19	numeros	numero	NOUN	NOUN	_	18	appos	_	TokenRange=131:138
+20	diferentes	diferente	ADJ	ADJ	_	19	amod	_	TokenRange=139:149
+21	localizado	localizar	VERB	VERB	_	16	acl	_	TokenRange=150:160
+22	bruno	bruno	NOUN	NOUN	_	21	nmod	_	TokenRange=161:166
+23	borges	borge	NOUN	NOUN	_	22	flat	_	TokenRange=167:173
+24	desaparecido	desaparecer	VERB	VERB	_	22	acl	_	TokenRange=174:186
+25	desde	_	ADP	ADP	_	27	case	_	TokenRange=187:192
+26	ultimo	_	ADJ	ADJ	_	27	amod	_	TokenRange=193:199
+27	dia	dia	NOUN	NOUN	_	24	nmod	_	TokenRange=200:203
+28	27	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=204:206
+29	marco	marco	NOUN	NOUN	_	27	nmod	_	TokenRange=207:212
+30	responsavel	responsavel	ADJ	ADJ	_	31	amod	_	TokenRange=213:224
+31	investigacoes	investigacoe	NOUN	NOUN	_	27	appos	_	TokenRange=225:238
+32	desaparecimento	desaparecimento	NOUN	NOUN	_	31	appos	_	TokenRange=239:254
+33	acreano	acreano	ADJ	ADJ	_	32	amod	_	TokenRange=255:262
+34	bruno	bruno	NOUN	NOUN	_	31	appos	_	TokenRange=263:268
+35	borges	borge	NOUN	NOUN	_	34	flat	_	TokenRange=269:275
+36	24	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=276:278
+37	anos	ano	NOUN	NOUN	_	34	appos	_	TokenRange=279:283
+38	delegado	delegado	NOUN	NOUN	_	37	appos	_	TokenRange=284:292
+39	fabrizzio	fabrizzio	ADJ	ADJ	_	38	amod	_	TokenRange=293:302
+40	sobreira	_	ADJ	ADJ	_	38	amod	_	TokenRange=303:311
+41	coordenador	coordenador	ADJ	ADJ	_	42	amod	_	TokenRange=312:323
+42	delegacia	delegacia	NOUN	NOUN	_	38	appos	_	TokenRange=324:333
+43	investigacao	investigacao	ADJ	ADJ	_	42	amod	_	TokenRange=334:346
+44	criminal	criminal	ADJ	ADJ	_	42	amod	_	TokenRange=347:355
+45	dic	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=356:359
+46	diz	dizer	VERB	VERB	_	13	parataxis	_	TokenRange=360:363
+47	amigos	amigo	NOUN	NOUN	_	46	obj	_	TokenRange=364:370
+48	ajudaram	ajudar	VERB	VERB	_	46	ccomp	_	TokenRange=371:379
+49	jovem	jovem	ADJ	ADJ	_	48	xcomp	_	TokenRange=380:385
+50	escrituras	escritura	NOUN	NOUN	_	48	obj	_	TokenRange=386:396
+51	quarto	_	ADJ	ADJ	_	52	amod	_	TokenRange=397:403
+52	criptografia	criptografia	NOUN	NOUN	_	50	appos	_	TokenRange=404:416
+53	14	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=417:419
+54	livros	livro	NOUN	NOUN	_	55	nsubj	_	TokenRange=420:426
+55	feito	_	VERB	VERB	_	50	acl	_	TokenRange=427:432
+56	pacto	pacto	NOUN	NOUN	_	58	obj	_	TokenRange=433:438
+57	sigilo	sigilo	NOUN	NOUN	_	56	flat	_	TokenRange=439:445
+58	revelar	revelar	VERB	VERB	_	55	ccomp	_	SpaceAfter=No|TokenRange=446:453
+

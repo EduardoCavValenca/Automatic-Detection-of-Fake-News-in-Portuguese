@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = serie animal traz biologo age bicho trama ambientada cidade misteriosa onde ocorrem varios crimes atualizado 14h16 gala tv edson celulari cansou chamado gato agora subiu posto escala felinos cabeca edson parecia puma opina paulo nascimento autor diretor serie animal estreia marcada 23 h dia 6 agosto gnt producao ator dr joao paulo gil biologo sofre teriantropia disturbio faz comportar bicho descrito criador historia transforma atitude fera pode matar pessoa lembra nada
+1	serie	serie	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	animal	animal	ADJ	ADJ	_	1	amod	_	TokenRange=6:12
+3	traz	trazer	VERB	VERB	_	0	root	_	TokenRange=13:17
+4	biologo	biologo	NOUN	NOUN	_	3	obj	_	TokenRange=18:25
+5	age	_	NOUN	NOUN	_	4	appos	_	TokenRange=26:29
+6	bicho	bicho	NOUN	NOUN	_	5	flat	_	TokenRange=30:35
+7	trama	trama	NOUN	NOUN	_	4	appos	_	TokenRange=36:41
+8	ambientada	ambientar	VERB	VERB	_	9	acl	_	TokenRange=42:52
+9	cidade	cidade	NOUN	NOUN	_	1	appos	_	TokenRange=53:59
+10	misteriosa	misterioso	ADJ	ADJ	_	9	amod	_	TokenRange=60:70
+11	onde	onde	ADV	ADV	_	12	advmod	_	TokenRange=71:75
+12	ocorrem	ocorrer	VERB	VERB	_	9	acl:relcl	_	TokenRange=76:83
+13	varios	_	DET	DET	_	14	det	_	TokenRange=84:90
+14	crimes	crime	NOUN	NOUN	_	12	nsubj	_	TokenRange=91:97
+15	atualizado	atualizar	VERB	VERB	_	14	acl	_	TokenRange=98:108
+16	14h16	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=109:114
+17	gala	gala	NOUN	NOUN	_	15	nmod	_	TokenRange=115:119
+18	tv	_	NOUN	NOUN	_	17	flat	_	TokenRange=120:122
+19	edson	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=123:128
+20	celulari	_	NOUN	NOUN	_	19	flat	_	TokenRange=129:137
+21	cansou	cansar	AUX	AUX	_	23	cop	_	TokenRange=138:144
+22	chamado	chamado	ADJ	ADJ	_	23	amod	_	TokenRange=145:152
+23	gato	gato	NOUN	NOUN	_	19	appos	_	TokenRange=153:157
+24	agora	agora	ADV	ADV	_	25	advmod	_	TokenRange=158:163
+25	subiu	subir	VERB	VERB	_	3	parataxis	_	TokenRange=164:169
+26	posto	posto	NOUN	NOUN	_	25	obj	_	TokenRange=170:175
+27	escala	escala	NOUN	NOUN	_	25	nmod	_	TokenRange=176:182
+28	felinos	felino	NOUN	NOUN	_	27	flat	_	TokenRange=183:190
+29	cabeca	cabeca	NOUN	NOUN	_	27	appos	_	TokenRange=191:197
+30	edson	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=198:203
+31	parecia	parecer	VERB	VERB	_	25	parataxis	_	TokenRange=204:211
+32	puma	_	NOUN	NOUN	_	25	obj	_	TokenRange=212:216
+33	opina	opina	NOUN	NOUN	_	25	obj	_	TokenRange=217:222
+34	paulo	paulo	NOUN	NOUN	_	33	appos	_	TokenRange=223:228
+35	nascimento	nascimento	NOUN	NOUN	_	34	flat	_	TokenRange=229:239
+36	autor	autor	NOUN	NOUN	_	33	appos	_	TokenRange=240:245
+37	diretor	diretor	NOUN	NOUN	_	33	appos	_	TokenRange=246:253
+38	serie	serie	NOUN	NOUN	_	33	appos	_	TokenRange=254:259
+39	animal	animal	ADJ	ADJ	_	38	amod	_	TokenRange=260:266
+40	estreia	estreia	NOUN	NOUN	_	31	appos	_	TokenRange=267:274
+41	marcada	marcar	VERB	VERB	_	40	acl	_	TokenRange=275:282
+42	23	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=283:285
+43	h	h	NOUN	NOUN	_	41	nmod	_	TokenRange=286:287
+44	dia	dia	NOUN	NOUN	_	41	nmod	_	TokenRange=288:291
+45	6	_	NUM	NUM	NumType=Card	44	appos	_	TokenRange=292:293
+46	agosto	_	PROPN	PNOUN	_	44	appos	_	TokenRange=294:300
+47	gnt	_	NOUN	NOUN	_	55	nsubj	_	TokenRange=301:304
+48	producao	producao	NOUN	NOUN	_	55	nsubj	_	TokenRange=305:313
+49	ator	ator	NOUN	NOUN	_	55	nsubj	_	TokenRange=314:318
+50	dr	dr	NOUN	NOUN	_	49	appos	_	TokenRange=319:321
+51	joao	joao	NOUN	NOUN	_	50	flat	_	TokenRange=322:326
+52	paulo	_	X	NOUN	_	50	flat	_	TokenRange=327:332
+53	gil	_	ADJ	ADJ	_	50	flat	_	TokenRange=333:336
+54	biologo	biologo	NOUN	NOUN	_	55	nsubj	_	TokenRange=337:344
+55	sofre	sofrer	VERB	VERB	_	3	parataxis	_	TokenRange=345:350
+56	teriantropia	_	NOUN	NOUN	_	55	obj	_	TokenRange=351:363
+57	disturbio	disturbio	NOUN	NOUN	_	56	flat	_	TokenRange=364:373
+58	faz	fazer	VERB	VERB	_	55	parataxis	_	TokenRange=374:377
+59	comportar	comportar	VERB	VERB	_	58	xcomp	_	TokenRange=378:387
+60	bicho	bicho	NOUN	NOUN	_	59	obj	_	TokenRange=388:393
+61	descrito	descrito	ADJ	ADJ	_	60	amod	_	TokenRange=394:402
+62	criador	criador	NOUN	NOUN	_	60	appos	_	TokenRange=403:410
+63	historia	historia	NOUN	NOUN	_	62	flat	_	TokenRange=411:419
+64	transforma	transformar	VERB	VERB	_	60	acl:relcl	_	TokenRange=420:430
+65	atitude	atitude	NOUN	NOUN	_	70	obj	_	TokenRange=431:438
+66	fera	_	NOUN	NOUN	_	68	nsubj	_	TokenRange=439:443
+67	pode	_	AUX	AUX	_	68	aux	_	TokenRange=444:448
+68	matar	matar	VERB	VERB	_	60	acl:relcl	_	TokenRange=449:454
+69	pessoa	pessoa	NOUN	NOUN	_	70	obj	_	TokenRange=455:461
+70	lembra	lembrar	VERB	VERB	_	55	parataxis	_	TokenRange=462:468
+71	nada	_	PRON	PRON	_	70	obj	_	SpaceAfter=No|TokenRange=469:473
+

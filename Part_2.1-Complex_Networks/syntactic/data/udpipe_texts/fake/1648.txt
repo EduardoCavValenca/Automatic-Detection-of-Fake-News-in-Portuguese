@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = esposa filho eike deixaram pais esposa eike batista flavia sampaio viajou outro pais informacao jornalista lauro jardim globo embarcou ontem 25 encontrar marido eua filho casal batista 3 anos idade embarcou mae suspeitas alguem vazou empresario preso eike possui curso superior deixou pais usando passaporte alemao
+1	esposa	esposo	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	filho	filho	NOUN	NOUN	_	1	flat	_	TokenRange=7:12
+3	eike	_	PRON	PRON	_	1	appos	_	TokenRange=13:17
+4	deixaram	deixar	VERB	VERB	_	0	root	_	TokenRange=18:26
+5	pais	_	NOUN	NOUN	_	4	obj	_	TokenRange=27:31
+6	esposa	esposo	NOUN	NOUN	_	4	nsubj	_	TokenRange=32:38
+7	eike	_	NOUN	NOUN	_	1	appos	_	TokenRange=39:43
+8	batista	batista	ADJ	ADJ	_	7	amod	_	TokenRange=44:51
+9	flavia	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=52:58
+10	sampaio	sampaio	NOUN	NOUN	_	9	flat	_	TokenRange=59:66
+11	viajou	viajar	VERB	VERB	_	4	conj	_	TokenRange=67:73
+12	outro	_	DET	DET	_	13	det	_	TokenRange=74:79
+13	pais	_	NOUN	NOUN	_	11	obj	_	TokenRange=80:84
+14	informacao	informacao	NOUN	NOUN	_	13	amod	_	TokenRange=85:95
+15	jornalista	jornalista	NOUN	NOUN	_	11	nsubj	_	TokenRange=96:106
+16	lauro	lauro	NOUN	NOUN	_	15	appos	_	TokenRange=107:112
+17	jardim	jardim	NOUN	NOUN	_	15	flat	_	TokenRange=113:119
+18	globo	globo	NOUN	NOUN	_	15	flat	_	TokenRange=120:125
+19	embarcou	embarcar	VERB	VERB	_	4	parataxis	_	TokenRange=126:134
+20	ontem	ontem	ADV	ADV	_	19	advmod	_	TokenRange=135:140
+21	25	_	NUM	NUM	NumType=Card	22	obj	_	TokenRange=141:143
+22	encontrar	encontrar	VERB	VERB	_	19	ccomp	_	TokenRange=144:153
+23	marido	marido	NOUN	NOUN	_	22	obj	_	TokenRange=154:160
+24	eua	_	CCONJ	CONJ	_	25	cc	_	TokenRange=161:164
+25	filho	filho	NOUN	NOUN	_	23	conj	_	TokenRange=165:170
+26	casal	casal	NOUN	NOUN	_	25	appos	_	TokenRange=171:176
+27	batista	batista	ADJ	ADJ	_	25	amod	_	TokenRange=177:184
+28	3	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=185:186
+29	anos	ano	NOUN	NOUN	_	31	nsubj	_	TokenRange=187:191
+30	idade	idade	NOUN	NOUN	_	29	flat	_	TokenRange=192:197
+31	embarcou	embarcar	VERB	VERB	_	19	parataxis	_	TokenRange=198:206
+32	mae	mae	NOUN	NOUN	_	31	obj	_	TokenRange=207:210
+33	suspeitas	_	NOUN	NOUN	_	32	amod	_	TokenRange=211:220
+34	alguem	_	PRON	PRON	_	35	nsubj	_	TokenRange=221:227
+35	vazou	vazar	VERB	VERB	_	31	ccomp	_	TokenRange=228:233
+36	empresario	empresario	NOUN	NOUN	_	35	obj	_	TokenRange=234:244
+37	preso	preso	ADJ	ADJ	_	36	amod	_	TokenRange=245:250
+38	eike	_	PRON	PRON	_	39	nsubj	_	TokenRange=251:255
+39	possui	possuir	VERB	VERB	_	35	parataxis	_	TokenRange=256:262
+40	curso	curso	NOUN	NOUN	_	39	obj	_	TokenRange=263:268
+41	superior	superior	ADJ	ADJ	_	40	amod	_	TokenRange=269:277
+42	deixou	deixar	VERB	VERB	_	35	parataxis	_	TokenRange=278:284
+43	pais	_	NOUN	NOUN	_	42	obj	_	TokenRange=285:289
+44	usando	usar	VERB	VERB	_	42	acl	_	TokenRange=290:296
+45	passaporte	passaporte	NOUN	NOUN	_	44	obj	_	TokenRange=297:307
+46	alemao	alemao	ADJ	ADJ	_	45	amod	_	SpaceAfter=No|TokenRange=308:314
+

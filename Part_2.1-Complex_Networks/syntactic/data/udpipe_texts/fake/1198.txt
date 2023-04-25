@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sr friboi registra pf nova ameaca passarinho come pedra sabe fiofo joesley batista registrou policia federal ameaca recebeu via celular mensagem chegado atraves numero telefone identificado cidadao cidada fez ameaca informou amigo pessoa proxima joesley declarou sucesso luta final feliz passarinho come pedra sabe fiofo informacao antagonista
+1	sr	sr	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:2
+2	friboi	_	NOUN	NOUN	_	1	flat	_	TokenRange=3:9
+3	registra	registrar	VERB	VERB	_	0	root	_	TokenRange=10:18
+4	pf	_	NOUN	NOUN	_	3	obj	_	TokenRange=19:21
+5	nova	novo	ADJ	ADJ	_	6	amod	_	TokenRange=22:26
+6	ameaca	ameaca	NOUN	NOUN	_	3	obj	_	TokenRange=27:33
+7	passarinho	pássaro	NOUN	NOUN	_	10	nsubj	_	TokenRange=34:44
+8	come	_	ADP	ADP	_	9	case	_	TokenRange=45:49
+9	pedra	pedra	NOUN	NOUN	_	10	nsubj	_	TokenRange=50:55
+10	sabe	saber	VERB	VERB	_	6	acl:relcl	_	TokenRange=56:60
+11	fiofo	fiofo	NOUN	NOUN	_	10	obj	_	TokenRange=61:66
+12	joesley	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=67:74
+13	batista	batista	NOUN	NOUN	_	12	flat	_	TokenRange=75:82
+14	registrou	registrar	VERB	VERB	_	3	conj	_	TokenRange=83:92
+15	policia	policia	NOUN	NOUN	_	14	obj	_	TokenRange=93:100
+16	federal	federal	ADJ	ADJ	_	15	amod	_	TokenRange=101:108
+17	ameaca	ameaca	NOUN	NOUN	_	18	nsubj	_	TokenRange=109:115
+18	recebeu	receber	VERB	VERB	_	3	conj	_	TokenRange=116:123
+19	via	_	NOUN	NOUN	_	18	nmod	_	TokenRange=124:127
+20	celular	_	ADJ	ADJ	_	19	amod	_	TokenRange=128:135
+21	mensagem	mensagem	NOUN	NOUN	_	18	obj	_	TokenRange=136:144
+22	chegado	chegado	VERB	VERB	_	21	acl	_	TokenRange=145:152
+23	atraves	_	NOUN	NOUN	_	21	appos	_	TokenRange=153:160
+24	numero	_	NOUN	NOUN	_	23	appos	_	TokenRange=161:167
+25	telefone	telefone	NOUN	NOUN	_	23	appos	_	TokenRange=168:176
+26	identificado	identificar	VERB	VERB	_	25	acl	_	TokenRange=177:189
+27	cidadao	cidadao	NOUN	NOUN	_	29	nsubj	_	TokenRange=190:197
+28	cidada	cidado	NOUN	NOUN	_	27	amod	_	TokenRange=198:204
+29	fez	fazer	VERB	VERB	_	31	parataxis	_	TokenRange=205:208
+30	ameaca	ameaca	NOUN	NOUN	_	29	obj	_	TokenRange=209:215
+31	informou	informar	VERB	VERB	_	3	parataxis	_	TokenRange=216:224
+32	amigo	amigo	NOUN	NOUN	_	31	obj	_	TokenRange=225:230
+33	pessoa	pessoa	NOUN	NOUN	_	32	appos	_	TokenRange=231:237
+34	proxima	proximo	ADJ	ADJ	_	33	amod	_	TokenRange=238:245
+35	joesley	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=246:253
+36	declarou	declarar	VERB	VERB	_	31	parataxis	_	TokenRange=254:262
+37	sucesso	sucesso	NOUN	NOUN	_	36	obj	_	TokenRange=263:270
+38	luta	luta	NOUN	NOUN	_	37	appos	_	TokenRange=271:275
+39	final	final	ADJ	ADJ	_	38	amod	_	TokenRange=276:281
+40	feliz	feliz	ADJ	ADJ	_	38	amod	_	TokenRange=282:287
+41	passarinho	pássaro	NOUN	NOUN	_	44	nsubj	_	TokenRange=288:298
+42	come	come	ADP	ADP	_	43	case	_	TokenRange=299:303
+43	pedra	pedra	NOUN	NOUN	_	41	nmod	_	TokenRange=304:309
+44	sabe	saber	VERB	VERB	_	36	parataxis	_	TokenRange=310:314
+45	fiofo	fiofo	ADJ	ADJ	_	46	amod	_	TokenRange=315:320
+46	informacao	informacao	NOUN	NOUN	_	44	obj	_	TokenRange=321:331
+47	antagonista	antagonista	ADJ	ADJ	_	46	amod	_	SpaceAfter=No|TokenRange=332:343
+

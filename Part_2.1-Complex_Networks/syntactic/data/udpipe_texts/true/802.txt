@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = grupo brf alvo operacao trapaca terceira fase carne fraca deflagrada nesta segundafeira 5 processado exsupervisora laboratorio adriana marques carvalho moveu acao trabalhista relatou justica sofria pressao superiores alterar resultado analises apresentavam diagnostico contaminacao expresidente brf pedro andrade faria preso conducao coercitiva testemunhas legitima afirma juiz operacao trapaca exsupervisora trabalhou brf 14 anos segundo investigacao nova fase carne fraca antes desligada
+1	grupo	grupo	NOUN	NOUN	_	20	nsubj	_	TokenRange=0:5
+2	brf	_	ADJ	ADJ	_	1	amod	_	TokenRange=6:9
+3	alvo	alvo	ADJ	NOUN	_	1	amod	_	TokenRange=10:14
+4	operacao	operacao	NOUN	NOUN	_	1	appos	_	TokenRange=15:23
+5	trapaca	_	ADJ	ADJ	_	4	amod	_	TokenRange=24:31
+6	terceira	_	ADJ	ADJ	_	7	amod	_	TokenRange=32:40
+7	fase	fase	NOUN	NOUN	_	1	appos	_	TokenRange=41:45
+8	carne	carne	NOUN	NOUN	_	1	appos	_	TokenRange=46:51
+9	fraca	fraco	ADJ	ADJ	_	8	amod	_	TokenRange=52:57
+10	deflagrada	deflagrar	VERB	VERB	_	8	acl	_	TokenRange=58:68
+11	nesta	_	ADP	ADP	_	12	case	_	TokenRange=69:74
+12	segundafeira	_	NOUN	NOUN	_	10	nmod	_	TokenRange=75:87
+13	5	_	NUM	NUM	NumType=Card	12	appos	_	TokenRange=88:89
+14	processado	processar	VERB	VERB	_	12	acl	_	TokenRange=90:100
+15	exsupervisora	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=101:114
+16	laboratorio	laboratorio	NOUN	NOUN	_	15	appos	_	TokenRange=115:126
+17	adriana	_	NOUN	NOUN	_	16	appos	_	TokenRange=127:134
+18	marques	marque	NOUN	NOUN	_	16	flat	_	TokenRange=135:142
+19	carvalho	carvalho	NOUN	NOUN	_	17	flat	_	TokenRange=143:151
+20	moveu	mover	VERB	VERB	_	0	root	_	TokenRange=152:157
+21	acao	acao	NOUN	NOUN	_	20	obj	_	TokenRange=158:162
+22	trabalhista	trabalhista	ADJ	ADJ	_	21	amod	_	TokenRange=163:174
+23	relatou	relatar	VERB	VERB	_	20	parataxis	_	TokenRange=175:182
+24	justica	_	NOUN	NOUN	_	23	obj	_	TokenRange=183:190
+25	sofria	sofrer	VERB	VERB	_	23	ccomp	_	TokenRange=191:197
+26	pressao	pressao	NOUN	NOUN	_	25	obj	_	TokenRange=198:205
+27	superiores	superior	ADJ	ADJ	_	26	amod	_	TokenRange=206:216
+28	alterar	alterar	VERB	VERB	_	25	csubj	_	TokenRange=217:224
+29	resultado	resultado	NOUN	NOUN	_	28	obj	_	TokenRange=225:234
+30	analises	analise	NOUN	NOUN	_	29	amod	_	TokenRange=235:243
+31	apresentavam	apresentar	VERB	VERB	_	23	parataxis	_	TokenRange=244:256
+32	diagnostico	diagnostico	NOUN	NOUN	_	31	obj	_	TokenRange=257:268
+33	contaminacao	_	ADJ	ADJ	_	34	amod	_	TokenRange=269:281
+34	expresidente	expresidente	NOUN	NOUN	_	32	appos	_	TokenRange=282:294
+35	brf	_	NOUN	NOUN	_	34	flat	_	TokenRange=295:298
+36	pedro	pedro	NOUN	NOUN	_	34	appos	_	TokenRange=299:304
+37	andrade	andrade	NOUN	NOUN	_	36	flat	_	TokenRange=305:312
+38	faria	fazer	NOUN	NOUN	_	36	flat	_	TokenRange=313:318
+39	preso	preso	ADJ	ADJ	_	36	amod	_	TokenRange=319:324
+40	conducao	conducao	NOUN	NOUN	_	39	nsubj	_	TokenRange=325:333
+41	coercitiva	coercitivo	ADJ	ADJ	_	40	amod	_	TokenRange=334:344
+42	testemunhas	testemunha	NOUN	NOUN	_	40	appos	_	TokenRange=345:356
+43	legitima	_	ADJ	ADJ	_	42	amod	_	TokenRange=357:365
+44	afirma	afirmar	VERB	VERB	_	40	acl:relcl	_	TokenRange=366:372
+45	juiz	juiz	NOUN	NOUN	_	44	obj	_	TokenRange=373:377
+46	operacao	operacao	NOUN	NOUN	_	45	appos	_	TokenRange=378:386
+47	trapaca	trapaca	ADJ	NOUN	_	46	amod	_	TokenRange=387:394
+48	exsupervisora	_	NOUN	NOUN	_	45	amod	_	TokenRange=395:408
+49	trabalhou	trabalhar	VERB	VERB	_	45	acl:relcl	_	TokenRange=409:418
+50	brf	_	NOUN	NOUN	_	49	obj	_	TokenRange=419:422
+51	14	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=423:425
+52	anos	ano	NOUN	NOUN	_	49	nmod	_	TokenRange=426:430
+53	segundo	_	ADP	ADP	_	54	case	_	TokenRange=431:438
+54	investigacao	investigacao	NOUN	NOUN	_	49	nmod	_	TokenRange=439:451
+55	nova	novo	ADJ	ADJ	_	56	amod	_	TokenRange=452:456
+56	fase	fase	NOUN	NOUN	_	54	appos	_	TokenRange=457:461
+57	carne	carne	NOUN	NOUN	_	49	nsubj	_	TokenRange=462:467
+58	fraca	fraco	ADJ	ADJ	_	57	amod	_	TokenRange=468:473
+59	antes	antes	ADV	ADV	_	60	advmod	_	TokenRange=474:479
+60	desligada	desligar	VERB	VERB	_	57	acl	_	SpaceAfter=No|TokenRange=480:489
+

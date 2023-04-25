@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2014 bolsonaro recusou aceitar doacao r 300 mil jbs publicacao deputado jair bolsonaro feita 14 setembro 2014 redes sociais presidente pp depositou r300 mil conta campanha saber doador originario jbsfriboi devolvi importancia pois preferia fazer campanha parcos recursos epoca valor transferido bolsonaro originario empresa jbsfriboi relacoes estreitas governo corrupto pt/pmdb empresa beneficiaria milhoes reais atraves emprestimos bndes
+1	2014	_	NUM	NUM	NumType=Card	3	nsubj	_	TokenRange=0:4
+2	bolsonaro	bolsonaro	NOUN	NOUN	_	3	nsubj	_	TokenRange=5:14
+3	recusou	recusar	VERB	VERB	_	0	root	_	TokenRange=15:22
+4	aceitar	aceitar	VERB	VERB	_	3	xcomp	_	TokenRange=23:30
+5	doacao	doacao	NOUN	NOUN	_	4	obj	_	TokenRange=31:37
+6	r	r	NOUN	NOUN	_	5	appos	_	TokenRange=38:39
+7	300	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=40:43
+8	mil	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=44:47
+9	jbs	_	NOUN	NOUN	_	5	appos	_	TokenRange=48:51
+10	publicacao	publicacao	NOUN	NOUN	_	9	appos	_	TokenRange=52:62
+11	deputado	deputado	NOUN	NOUN	_	9	appos	_	TokenRange=63:71
+12	jair	jair	NOUN	NOUN	_	11	appos	_	TokenRange=72:76
+13	bolsonaro	bolsonaro	NOUN	NOUN	_	12	flat	_	TokenRange=77:86
+14	feita	_	VERB	VERB	_	9	acl	_	TokenRange=87:92
+15	14	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=93:95
+16	setembro	_	PROPN	PNOUN	_	14	nmod	_	TokenRange=96:104
+17	2014	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=105:109
+18	redes	rede	NOUN	NOUN	_	14	nsubj	_	TokenRange=110:115
+19	sociais	social	ADJ	ADJ	_	18	amod	_	TokenRange=116:123
+20	presidente	presidente	NOUN	NOUN	_	22	nsubj	_	TokenRange=124:134
+21	pp	_	ADJ	NOUN	_	20	appos	_	TokenRange=135:137
+22	depositou	depositar	VERB	VERB	_	3	parataxis	_	TokenRange=138:147
+23	r300	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=148:152
+24	mil	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=153:156
+25	conta	conta	NOUN	NOUN	_	22	obj	_	TokenRange=157:162
+26	campanha	campanha	NOUN	NOUN	_	22	nsubj	_	TokenRange=163:171
+27	saber	saber	VERB	VERB	_	25	acl:relcl	_	TokenRange=172:177
+28	doador	doador	NOUN	NOUN	_	27	obj	_	TokenRange=178:184
+29	originario	originario	ADJ	ADJ	_	28	amod	_	TokenRange=185:195
+30	jbsfriboi	_	ADJ	ADJ	_	28	amod	_	TokenRange=196:205
+31	devolvi	devolver	VERB	VERB	_	3	parataxis	_	TokenRange=206:213
+32	importancia	importancia	NOUN	NOUN	_	31	obj	_	TokenRange=214:225
+33	pois	_	CCONJ	CONJ	_	34	mark	_	TokenRange=226:230
+34	preferia	preferir	VERB	VERB	_	31	advcl	_	TokenRange=231:239
+35	fazer	fazer	VERB	VERB	_	34	xcomp	_	TokenRange=240:245
+36	campanha	campanha	NOUN	NOUN	_	35	obj	_	TokenRange=246:254
+37	parcos	_	ADJ	ADJ	_	36	amod	_	TokenRange=255:261
+38	recursos	recurso	NOUN	NOUN	_	36	appos	_	TokenRange=262:270
+39	epoca	epoca	ADJ	NOUN	_	40	case	_	TokenRange=271:276
+40	valor	valor	NOUN	NOUN	_	35	obj	_	TokenRange=277:282
+41	transferido	transferido	ADJ	ADJ	_	40	amod	_	TokenRange=283:294
+42	bolsonaro	bolsonaro	ADJ	ADJ	_	40	amod	_	TokenRange=295:304
+43	originario	originario	ADJ	ADJ	_	40	amod	_	TokenRange=305:315
+44	empresa	empresa	NOUN	NOUN	_	40	appos	_	TokenRange=316:323
+45	jbsfriboi	_	ADJ	ADJ	_	44	amod	_	TokenRange=324:333
+46	relacoes	relacoe	NOUN	NOUN	_	44	appos	_	TokenRange=334:342
+47	estreitas	estreito	ADJ	ADJ	_	46	amod	_	TokenRange=343:352
+48	governo	governo	NOUN	NOUN	_	46	appos	_	TokenRange=353:360
+49	corrupto	corrupto	ADJ	ADJ	_	46	amod	_	TokenRange=361:369
+50	pt/pmdb	_	ADJ	ADJ	_	46	appos	_	TokenRange=370:377
+51	empresa	empresa	NOUN	NOUN	_	50	flat	_	TokenRange=378:385
+52	beneficiaria	beneficiar	VERB	VERB	_	3	parataxis	_	TokenRange=386:398
+53	milhoes	_	NUM	NUM	_	54	nummod	_	TokenRange=399:406
+54	reais	real	NOUN	NOUN	_	52	obj	_	TokenRange=407:412
+55	atraves	_	ADP	ADP	_	56	case	_	TokenRange=413:420
+56	emprestimos	emprestimo	NOUN	NOUN	_	52	nmod	_	TokenRange=421:432
+57	bndes	bndes	ADJ	ADJ	_	56	amod	_	SpaceAfter=No|TokenRange=433:438
+

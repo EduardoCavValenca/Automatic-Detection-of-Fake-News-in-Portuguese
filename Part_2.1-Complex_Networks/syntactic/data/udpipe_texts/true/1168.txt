@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = discussao sobre nova lei abuso autoridade inadequada retaliacao lava jato afirma procuradorgeral mpms paulo cezar passos diz projeto sendo discutido politicos sendo investigados delatados interesse prejudicar lava jato discussao sobre projeto nova lei abuso autoridade voltada servidores publicos militares
+1	discussao	discussao	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:9
+2	sobre	_	ADP	ADP	_	4	case	_	TokenRange=10:15
+3	nova	novo	ADJ	ADJ	_	4	amod	_	TokenRange=16:20
+4	lei	lei	NOUN	NOUN	_	1	nmod	_	TokenRange=21:24
+5	abuso	abuso	ADJ	ADJ	_	4	amod	_	TokenRange=25:30
+6	autoridade	autoridade	NOUN	NOUN	_	4	appos	_	TokenRange=31:41
+7	inadequada	inadequado	ADJ	ADJ	_	6	amod	_	TokenRange=42:52
+8	retaliacao	retaliacao	NOUN	NOUN	_	1	appos	_	TokenRange=53:63
+9	lava	lava	NOUN	NOUN	_	11	nsubj	_	TokenRange=64:68
+10	jato	jato	NOUN	NOUN	_	9	flat	_	TokenRange=69:73
+11	afirma	afirmar	VERB	VERB	_	0	root	_	TokenRange=74:80
+12	procuradorgeral	procuradorgeral	NOUN	NOUN	_	11	obj	_	TokenRange=81:96
+13	mpms	_	NOUN	NOUN	_	12	appos	_	TokenRange=97:101
+14	paulo	paulo	NOUN	NOUN	_	12	appos	_	TokenRange=102:107
+15	cezar	cezar	NOUN	NOUN	_	14	flat	_	TokenRange=108:113
+16	passos	passo	NOUN	NOUN	_	14	flat	_	TokenRange=114:120
+17	diz	dizer	VERB	VERB	_	11	parataxis	_	TokenRange=121:124
+18	projeto	projeto	NOUN	NOUN	_	17	obj	_	TokenRange=125:132
+19	sendo	ser	AUX	AUX	_	20	aux:pass	_	TokenRange=133:138
+20	discutido	discutir	VERB	VERB	_	18	acl	_	TokenRange=139:148
+21	politicos	politico	NOUN	NOUN	_	20	nsubj:pass	_	TokenRange=149:158
+22	sendo	ser	AUX	AUX	_	23	aux:pass	_	TokenRange=159:164
+23	investigados	investigar	VERB	VERB	_	18	acl	_	TokenRange=165:177
+24	delatados	delatar	ADJ	ADJ	_	25	acl	_	TokenRange=178:187
+25	interesse	interesse	NOUN	NOUN	_	23	nsubj:pass	_	TokenRange=188:197
+26	prejudicar	prejudicar	VERB	VERB	_	25	acl:inf	_	TokenRange=198:208
+27	lava	lava	NOUN	NOUN	_	26	obj	_	TokenRange=209:213
+28	jato	jato	NOUN	NOUN	_	27	flat	_	TokenRange=214:218
+29	discussao	discussao	VERB	VERB	_	11	conj	_	TokenRange=219:228
+30	sobre	_	ADP	ADP	_	31	case	_	TokenRange=229:234
+31	projeto	projeto	NOUN	NOUN	_	29	nmod	_	TokenRange=235:242
+32	nova	novo	ADJ	ADJ	_	33	amod	_	TokenRange=243:247
+33	lei	lei	NOUN	NOUN	_	31	appos	_	TokenRange=248:251
+34	abuso	abuso	ADJ	ADJ	_	35	amod	_	TokenRange=252:257
+35	autoridade	autoridade	NOUN	NOUN	_	31	appos	_	TokenRange=258:268
+36	voltada	voltado	ADJ	ADJ	_	35	amod	_	TokenRange=269:276
+37	servidores	servidor	NOUN	NOUN	_	31	appos	_	TokenRange=277:287
+38	publicos	publico	ADJ	ADJ	_	37	amod	_	TokenRange=288:296
+39	militares	militar	ADJ	ADJ	_	37	amod	_	SpaceAfter=No|TokenRange=297:306
+

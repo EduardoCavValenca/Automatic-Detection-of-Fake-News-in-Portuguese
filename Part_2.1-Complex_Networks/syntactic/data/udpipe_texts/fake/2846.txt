@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senadora ana amelia partido iremos tolerar desordem pais fez tumultuar inclusive economia periodo 11 milhoes desempregados senadora pp/rs ana amelia mostrou indignada tentativa anulacao impeachment feita presidente exercicio camara deputado waldir maranhao ana amelia disse pode tolerar deputado sozinho anule decisao tomada 367 deputados certeza presidente senado renan calheiros chegara aqui dara andamento processo impeachment normalmente disse
+1	senadora	senador	NOUN	NOUN	_	21	nsubj	_	TokenRange=0:8
+2	ana	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:12
+3	amelia	amelia	NOUN	NOUN	_	2	flat	_	TokenRange=13:19
+4	partido	partido	NOUN	NOUN	_	1	appos	_	TokenRange=20:27
+5	iremos	_	AUX	AUX	_	6	aux	_	TokenRange=28:34
+6	tolerar	tolerar	VERB	VERB	_	1	acl:relcl	_	TokenRange=35:42
+7	desordem	desordem	NOUN	NOUN	_	6	obj	_	TokenRange=43:51
+8	pais	_	NOUN	NOUN	_	9	nsubj	_	TokenRange=52:56
+9	fez	fazer	VERB	VERB	_	1	acl:relcl	_	TokenRange=57:60
+10	tumultuar	tumultuar	VERB	VERB	_	9	xcomp	_	TokenRange=61:70
+11	inclusive	inclusive	ADV	ADV	_	10	advmod	_	TokenRange=71:80
+12	economia	economia	NOUN	NOUN	_	10	obj	_	TokenRange=81:89
+13	periodo	periodo	NOUN	NOUN	_	12	appos	_	TokenRange=90:97
+14	11	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=98:100
+15	milhoes	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=101:108
+16	desempregados	desempregado	ADJ	ADJ	_	17	amod	_	TokenRange=109:122
+17	senadora	senador	NOUN	NOUN	_	21	nsubj	_	TokenRange=123:131
+18	pp/rs	_	NOUN	NOUN	_	17	appos	_	TokenRange=132:137
+19	ana	_	NOUN	NOUN	_	17	appos	_	TokenRange=138:141
+20	amelia	amelia	NOUN	NOUN	_	19	flat	_	TokenRange=142:148
+21	mostrou	mostrar	VERB	VERB	_	57	ccomp	_	TokenRange=149:156
+22	indignada	indignado	ADJ	ADJ	_	23	amod	_	TokenRange=157:166
+23	tentativa	_	NOUN	NOUN	_	21	obj	_	TokenRange=167:176
+24	anulacao	anulacao	ADJ	ADJ	_	23	amod	_	TokenRange=177:185
+25	impeachment	impeachment	NOUN	NOUN	_	21	nsubj	_	TokenRange=186:197
+26	feita	_	VERB	VERB	_	27	acl	_	TokenRange=198:203
+27	presidente	presidente	NOUN	NOUN	_	25	appos	_	TokenRange=204:214
+28	exercicio	exercicio	ADJ	ADJ	_	27	amod	_	TokenRange=215:224
+29	camara	camara	NOUN	NOUN	_	27	appos	_	TokenRange=225:231
+30	deputado	deputado	NOUN	NOUN	_	27	appos	_	TokenRange=232:240
+31	waldir	_	NOUN	NOUN	_	30	appos	_	TokenRange=241:247
+32	maranhao	maranhao	NOUN	NOUN	_	31	flat	_	TokenRange=248:256
+33	ana	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=257:260
+34	amelia	amelia	NOUN	NOUN	_	33	flat	_	TokenRange=261:267
+35	disse	dizer	VERB	VERB	_	21	parataxis	_	TokenRange=268:273
+36	pode	_	AUX	AUX	_	37	aux	_	TokenRange=274:278
+37	tolerar	tolerar	VERB	VERB	_	35	ccomp	_	TokenRange=279:286
+38	deputado	deputado	NOUN	NOUN	_	37	obj	_	TokenRange=287:295
+39	sozinho	só	ADJ	ADJ	_	38	amod	_	TokenRange=296:303
+40	anule	anular	VERB	VERB	_	37	ccomp	_	TokenRange=304:309
+41	decisao	decisao	NOUN	NOUN	_	40	obj	_	TokenRange=310:317
+42	tomada	tomar	VERB	VERB	_	41	acl	_	TokenRange=318:324
+43	367	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=325:328
+44	deputados	deputado	NOUN	NOUN	_	40	nsubj	_	TokenRange=329:338
+45	certeza	certeza	NOUN	NOUN	_	46	amod	_	TokenRange=339:346
+46	presidente	presidente	NOUN	NOUN	_	40	nsubj	_	TokenRange=347:357
+47	senado	senado	ADJ	ADJ	_	46	amod	_	TokenRange=358:364
+48	renan	renan	NOUN	NOUN	_	50	nsubj	_	TokenRange=365:370
+49	calheiros	calheiro	NOUN	NOUN	_	46	flat	_	TokenRange=371:380
+50	chegara	chegar	VERB	VERB	_	46	acl:relcl	_	TokenRange=381:388
+51	aqui	aqui	ADV	ADV	_	52	advmod	_	TokenRange=389:393
+52	dara	_	VERB	VERB	_	50	parataxis	_	TokenRange=394:398
+53	andamento	andamento	NOUN	NOUN	_	52	obj	_	TokenRange=399:408
+54	processo	processo	NOUN	NOUN	_	52	nsubj	_	TokenRange=409:417
+55	impeachment	impeachment	NOUN	NOUN	_	54	flat	_	TokenRange=418:429
+56	normalmente	normalmente	ADV	ADV	_	57	advmod	_	TokenRange=430:441
+57	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=442:447
+

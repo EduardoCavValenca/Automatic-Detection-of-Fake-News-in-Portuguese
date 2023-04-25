@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = morreu exercicio profissao sp ladrao tenta roubar farmacia passa mal morre ultimo domingo 17 assaltante tentava tenta roubar farmacia bateu botas meliante flagrado circuito interno tv fingiu estar armado anunciou assalto dirigiu lado interno balcao chegou proximo funcionaria caixa passou mal caiu chao bandido morreu local caso aconteceu zona leste paulo assista video momento exato 145 min
+1	morreu	morrer	VERB	VERB	_	0	root	_	TokenRange=0:6
+2	exercicio	exercicio	NOUN	NOUN	_	1	nsubj	_	TokenRange=7:16
+3	profissao	profissao	ADJ	ADJ	_	2	amod	_	TokenRange=17:26
+4	sp	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=27:29
+5	ladrao	ladrao	NOUN	NOUN	_	6	nsubj	_	TokenRange=30:36
+6	tenta	tentar	VERB	VERB	_	2	acl:relcl	_	TokenRange=37:42
+7	roubar	roubar	VERB	VERB	_	6	xcomp	_	TokenRange=43:49
+8	farmacia	farmacia	NOUN	NOUN	_	7	obj	_	TokenRange=50:58
+9	passa	passar	VERB	VERB	_	6	parataxis	_	TokenRange=59:64
+10	mal	mal	ADV	ADV	_	9	advmod	_	TokenRange=65:68
+11	morre	morrer	VERB	VERB	_	1	conj	_	TokenRange=69:74
+12	ultimo	_	ADJ	ADJ	_	13	amod	_	TokenRange=75:81
+13	domingo	_	PROPN	PNOUN	_	11	nsubj	_	TokenRange=82:89
+14	17	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=90:92
+15	assaltante	assaltante	NOUN	NOUN	_	16	nsubj	_	TokenRange=93:103
+16	tentava	tentar	VERB	VERB	_	13	acl:relcl	_	TokenRange=104:111
+17	tenta	tentar	VERB	VERB	_	16	xcomp	_	TokenRange=112:117
+18	roubar	roubar	VERB	VERB	_	17	xcomp	_	TokenRange=118:124
+19	farmacia	farmacia	NOUN	NOUN	_	18	obj	_	TokenRange=125:133
+20	bateu	bater	VERB	VERB	_	17	conj	_	TokenRange=134:139
+21	botas	bota	NOUN	NOUN	_	20	obj	_	TokenRange=140:145
+22	meliante	meliante	ADJ	NOUN	_	21	amod	_	TokenRange=146:154
+23	flagrado	flagrado	ADJ	ADJ	_	24	amod	_	TokenRange=155:163
+24	circuito	circuito	NOUN	NOUN	_	20	nsubj	_	TokenRange=164:172
+25	interno	interno	ADJ	ADJ	_	24	amod	_	TokenRange=173:180
+26	tv	_	PRON	NOUN	_	24	amod	_	TokenRange=181:183
+27	fingiu	fingir	VERB	VERB	_	24	acl:relcl	_	TokenRange=184:190
+28	estar	estar	VERB	VERB	_	27	xcomp	_	TokenRange=191:196
+29	armado	armado	ADJ	ADJ	_	28	xcomp	_	TokenRange=197:203
+30	anunciou	anunciar	VERB	VERB	_	20	parataxis	_	TokenRange=204:212
+31	assalto	assalto	NOUN	NOUN	_	30	nsubj	_	TokenRange=213:220
+32	dirigiu	dirigir	VERB	VERB	_	31	acl:relcl	_	TokenRange=221:228
+33	lado	lado	NOUN	NOUN	_	36	nsubj	_	TokenRange=229:233
+34	interno	interno	ADJ	ADJ	_	33	amod	_	TokenRange=234:241
+35	balcao	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=242:248
+36	chegou	chegar	VERB	VERB	_	31	acl:relcl	_	TokenRange=249:255
+37	proximo	proximo	ADV	ADV	_	36	advmod	_	TokenRange=256:263
+38	funcionaria	funcionaria	NOUN	NOUN	_	36	nsubj	_	TokenRange=264:275
+39	caixa	caixa	NOUN	NOUN	_	36	nsubj	_	TokenRange=276:281
+40	passou	passar	VERB	VERB	_	36	conj	_	TokenRange=282:288
+41	mal	mal	ADV	ADV	_	42	advmod	_	TokenRange=289:292
+42	caiu	cair	VERB	VERB	_	36	conj	_	TokenRange=293:297
+43	chao	chao	NOUN	NOUN	_	42	obj	_	TokenRange=298:302
+44	bandido	bandido	ADJ	ADJ	_	43	amod	_	TokenRange=303:310
+45	morreu	morrer	VERB	VERB	_	42	conj	_	TokenRange=311:317
+46	local	local	ADJ	ADJ	_	45	xcomp	_	TokenRange=318:323
+47	caso	caso	NOUN	CONJ	_	48	mark	_	TokenRange=324:328
+48	aconteceu	acontecer	VERB	VERB	_	45	advcl	_	TokenRange=329:338
+49	zona	zona	NOUN	NOUN	_	48	nsubj	_	TokenRange=339:343
+50	leste	leste	ADJ	ADJ	_	49	amod	_	TokenRange=344:349
+51	paulo	paulo	NOUN	NOUN	_	52	nsubj	_	TokenRange=350:355
+52	assista	assistir	VERB	VERB	_	45	conj	_	TokenRange=356:363
+53	video	video	NOUN	NOUN	_	52	obj	_	TokenRange=364:369
+54	momento	momento	NOUN	NOUN	_	52	obj	_	TokenRange=370:377
+55	exato	exato	ADJ	ADJ	_	54	amod	_	TokenRange=378:383
+56	145	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=384:387
+57	min	_	NUM	NUM	NumType=Card	54	appos	_	SpaceAfter=No|TokenRange=388:391
+

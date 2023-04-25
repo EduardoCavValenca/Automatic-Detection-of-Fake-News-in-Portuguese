@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sextafeira 23 fevereiro 2018 boa noite aqui principais noticias terminar dia beminformado importante agencia classificacao risco rebaixou nota brasil deixou pais longe selo bom pagador poderia atrair investidores mercados pais corte esperado mercado apos desistencia governo tentar aprovar reforma previdencia bovespa pareceu influenciada noticia bolsa paulista fechou alta renovou maxima historica quarto pregao seguido agencia internacional risco fitch rebaixou nota credito soberano brasil
+1	sextafeira	sextafeira	NOUN	NOUN	_	17	parataxis	_	TokenRange=0:10
+2	23	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=11:13
+3	fevereiro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:23
+4	2018	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=24:28
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=29:32
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=33:38
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=39:43
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=44:54
+9	noticias	_	NOUN	NOUN	_	1	appos	_	TokenRange=55:63
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=64:72
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=73:76
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=77:89
+13	importante	importante	ADJ	ADJ	_	14	amod	_	TokenRange=90:100
+14	agencia	agencia	NOUN	NOUN	_	17	nsubj	_	TokenRange=101:108
+15	classificacao	_	NOUN	NOUN	_	14	amod	_	TokenRange=109:122
+16	risco	risco	NOUN	NOUN	_	14	flat	_	TokenRange=123:128
+17	rebaixou	rebaixar	VERB	VERB	_	0	root	_	TokenRange=129:137
+18	nota	nota	NOUN	NOUN	_	17	obj	_	TokenRange=138:142
+19	brasil	brasil	NOUN	NOUN	_	18	appos	_	TokenRange=143:149
+20	deixou	deixar	VERB	VERB	_	17	parataxis	_	TokenRange=150:156
+21	pais	_	NOUN	NOUN	_	20	obj	_	TokenRange=157:161
+22	longe	longe	ADV	ADV	_	20	advmod	_	TokenRange=162:167
+23	selo	selo	NOUN	NOUN	_	27	nsubj	_	TokenRange=168:172
+24	bom	bom	ADJ	ADJ	_	25	amod	_	TokenRange=173:176
+25	pagador	pagador	NOUN	NOUN	_	23	appos	_	TokenRange=177:184
+26	poderia	poder	AUX	AUX	_	27	aux	_	TokenRange=185:192
+27	atrair	atrair	VERB	VERB	_	17	parataxis	_	TokenRange=193:199
+28	investidores	investidor	NOUN	NOUN	_	27	obj	_	TokenRange=200:212
+29	mercados	mercado	NOUN	NOUN	_	28	appos	_	TokenRange=213:221
+30	pais	_	NOUN	NOUN	_	28	amod	_	TokenRange=222:226
+31	corte	corte	NOUN	NOUN	_	27	nmod	_	TokenRange=227:232
+32	esperado	esperado	ADJ	ADJ	_	33	amod	_	TokenRange=233:241
+33	mercado	mercado	NOUN	NOUN	_	31	appos	_	TokenRange=242:249
+34	apos	_	ADP	ADP	_	37	mark	_	TokenRange=250:254
+35	desistencia	desistencia	NOUN	NOUN	_	37	nsubj	_	TokenRange=255:266
+36	governo	governo	NOUN	NOUN	_	37	nsubj	_	TokenRange=267:274
+37	tentar	tentar	VERB	VERB	_	27	advcl	_	TokenRange=275:281
+38	aprovar	aprovar	VERB	VERB	_	37	xcomp	_	TokenRange=282:289
+39	reforma	reforma	NOUN	NOUN	_	38	obj	_	TokenRange=290:297
+40	previdencia	previdencia	ADJ	ADJ	_	39	amod	_	TokenRange=298:309
+41	bovespa	_	NOUN	NOUN	_	39	amod	_	TokenRange=310:317
+42	pareceu	parecer	VERB	VERB	_	38	parataxis	_	TokenRange=318:325
+43	influenciada	influenciado	ADJ	ADJ	_	42	xcomp	_	TokenRange=326:338
+44	noticia	noticia	NOUN	NOUN	_	42	nsubj	_	TokenRange=339:346
+45	bolsa	bolsa	NOUN	NOUN	_	44	appos	_	TokenRange=347:352
+46	paulista	paulista	ADJ	ADJ	_	45	amod	_	TokenRange=353:361
+47	fechou	fechar	VERB	VERB	_	44	acl:relcl	_	TokenRange=362:368
+48	alta	_	NOUN	NOUN	_	47	obj	_	TokenRange=369:373
+49	renovou	renovar	VERB	VERB	_	47	parataxis	_	TokenRange=374:381
+50	maxima	maxima	NOUN	NOUN	_	49	obj	_	TokenRange=382:388
+51	historica	historico	ADJ	ADJ	_	50	amod	_	TokenRange=389:398
+52	quarto	_	ADJ	ADJ	_	53	amod	_	TokenRange=399:405
+53	pregao	pregao	NOUN	NOUN	_	50	appos	_	TokenRange=406:412
+54	seguido	seguido	ADJ	ADJ	_	53	amod	_	TokenRange=413:420
+55	agencia	agencia	NOUN	NOUN	_	53	appos	_	TokenRange=421:428
+56	internacional	internacional	ADJ	ADJ	_	55	amod	_	TokenRange=429:442
+57	risco	risco	NOUN	NOUN	_	55	amod	_	TokenRange=443:448
+58	fitch	_	NOUN	NOUN	_	55	appos	_	TokenRange=449:454
+59	rebaixou	rebaixar	VERB	VERB	_	42	parataxis	_	TokenRange=455:463
+60	nota	nota	NOUN	NOUN	_	59	obj	_	TokenRange=464:468
+61	credito	credito	NOUN	NOUN	_	59	obj	_	TokenRange=469:476
+62	soberano	soberano	ADJ	ADJ	_	61	amod	_	TokenRange=477:485
+63	brasil	brasil	ADJ	ADJ	_	61	amod	_	SpaceAfter=No|TokenRange=486:492
+

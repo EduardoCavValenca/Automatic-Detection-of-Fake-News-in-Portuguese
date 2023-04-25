@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delacao premiada homologada supremo tribunal federal lucio funaro relatou presidente michel temer recebeu propina jbs troca ajuda mudanca regras ministerio agricultura segundo delator jbs repassado r 7 milhoes grupo politico pmdb camara desse valor entao ministro agricultura atual vicegovernador minas gerais antonio andrade pmdb recebido r 3 milhoes propina paga
+1	delacao	delacao	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:7
+2	premiada	premiar	VERB	ADJ	_	1	amod	_	TokenRange=8:16
+3	homologada	homologado	ADJ	ADJ	_	1	acl	_	TokenRange=17:27
+4	supremo	supremo	ADJ	ADJ	_	5	amod	_	TokenRange=28:35
+5	tribunal	tribunal	NOUN	NOUN	_	1	appos	_	TokenRange=36:44
+6	federal	federal	ADJ	ADJ	_	5	amod	_	TokenRange=45:52
+7	lucio	lucio	NOUN	NOUN	_	5	appos	_	TokenRange=53:58
+8	funaro	funaro	NOUN	NOUN	_	7	flat	_	TokenRange=59:65
+9	relatou	relatar	VERB	VERB	_	0	root	_	TokenRange=66:73
+10	presidente	presidente	NOUN	NOUN	_	9	obj	_	TokenRange=74:84
+11	michel	michel	ADJ	ADJ	_	12	amod	_	TokenRange=85:91
+12	temer	temer	NOUN	NOUN	_	10	appos	_	TokenRange=92:97
+13	recebeu	receber	VERB	VERB	_	9	ccomp	_	TokenRange=98:105
+14	propina	propina	NOUN	NOUN	_	13	obj	_	TokenRange=106:113
+15	jbs	_	NOUN	NOUN	_	14	appos	_	TokenRange=114:117
+16	troca	_	NOUN	NOUN	_	14	appos	_	TokenRange=118:123
+17	ajuda	ajuda	NOUN	NOUN	_	14	appos	_	TokenRange=124:129
+18	mudanca	_	NOUN	NOUN	_	17	flat	_	TokenRange=130:137
+19	regras	regra	NOUN	NOUN	_	13	obj	_	TokenRange=138:144
+20	ministerio	ministerio	NOUN	NOUN	_	19	appos	_	TokenRange=145:155
+21	agricultura	agricultura	NOUN	NOUN	_	20	flat	_	TokenRange=156:167
+22	segundo	_	ADP	ADP	_	23	case	_	TokenRange=168:175
+23	delator	delator	NOUN	NOUN	_	13	nmod	_	TokenRange=176:183
+24	jbs	_	NOUN	NOUN	_	23	appos	_	TokenRange=184:187
+25	repassado	repassar	VERB	VERB	_	23	acl	_	TokenRange=188:197
+26	r	r	NOUN	NOUN	_	25	nmod	_	TokenRange=198:199
+27	7	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=200:201
+28	milhoes	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=202:209
+29	grupo	grupo	NOUN	NOUN	_	25	obj	_	TokenRange=210:215
+30	politico	politico	ADJ	ADJ	_	29	amod	_	TokenRange=216:224
+31	pmdb	_	NOUN	NOUN	_	29	appos	_	TokenRange=225:229
+32	camara	camara	NOUN	NOUN	_	29	appos	_	TokenRange=230:236
+33	desse	_	ADP	ADP	_	34	case	_	TokenRange=237:242
+34	valor	valor	NOUN	NOUN	_	32	nmod	_	TokenRange=243:248
+35	entao	entao	ADV	ADV	_	36	advmod	_	TokenRange=249:254
+36	ministro	ministro	NOUN	NOUN	_	13	parataxis	_	TokenRange=255:263
+37	agricultura	agricultura	NOUN	NOUN	_	36	flat	_	TokenRange=264:275
+38	atual	atual	ADJ	ADJ	_	39	amod	_	TokenRange=276:281
+39	vicegovernador	vicegovernador	NOUN	NOUN	_	36	appos	_	TokenRange=282:296
+40	minas	mina	NOUN	NOUN	_	39	appos	_	TokenRange=297:302
+41	gerais	geral	ADJ	ADJ	_	40	amod	_	TokenRange=303:309
+42	antonio	antonio	ADJ	ADJ	_	36	appos	_	TokenRange=310:317
+43	andrade	andrade	NOUN	NOUN	_	42	flat	_	TokenRange=318:325
+44	pmdb	_	PROPN	PNOUN	_	42	flat	_	TokenRange=326:330
+45	recebido	receber	VERB	VERB	_	36	acl	_	TokenRange=331:339
+46	r	r	NOUN	NOUN	_	45	obj	_	TokenRange=340:341
+47	3	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=342:343
+48	milhoes	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=344:351
+49	propina	propina	NOUN	NOUN	_	45	obj	_	TokenRange=352:359
+50	paga	pagar	VERB	VERB	_	49	acl	_	SpaceAfter=No|TokenRange=360:364
+

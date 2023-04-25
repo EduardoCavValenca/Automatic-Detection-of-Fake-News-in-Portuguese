@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = casos aumentam estupro ainda crime subnotificado lei alterada 2009 abarcar todo constrangimento violencia fins libidinosos paulo numero casos registrados policia primeiro semestre 2017 cresceu 31 recente caso assedio sexual transporte publico paulo repercussao decisao justica ministerio publico liberar agressor trouxeram tona debate violencia genero razao homem menos 15 passagens policia solto apos ejacular pescoco mulher dentro onibus crime registrado policia civil estupro convertido juiz contravencao penal considerado delito menor gravidade diz lei caracteriza crime estupro vitimas devem proceder casos abuso quais entraves combater tais crimes aparato seguranca
+1	casos	caso	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	aumentam	aumentar	VERB	VERB	_	0	root	_	TokenRange=6:14
+3	estupro	estupro	NOUN	NOUN	_	2	obj	_	TokenRange=15:22
+4	ainda	ainda	ADV	ADV	_	2	advmod	_	TokenRange=23:28
+5	crime	crime	NOUN	NOUN	_	2	obj	_	TokenRange=29:34
+6	subnotificado	subnotificado	ADJ	ADJ	_	5	amod	_	TokenRange=35:48
+7	lei	lei	NOUN	NOUN	_	5	appos	_	TokenRange=49:52
+8	alterada	alterado	ADJ	ADJ	_	7	amod	_	TokenRange=53:61
+9	2009	_	NUM	NUM	NumType=Card	7	nmod	_	TokenRange=62:66
+10	abarcar	abarcar	VERB	VERB	_	2	parataxis	_	TokenRange=67:74
+11	todo	_	DET	DET	_	12	det	_	TokenRange=75:79
+12	constrangimento	constrangimento	NOUN	NOUN	_	10	obj	_	TokenRange=80:95
+13	violencia	violencia	ADJ	ADJ	_	12	amod	_	TokenRange=96:105
+14	fins	fim	NOUN	NOUN	_	10	obj	_	TokenRange=106:110
+15	libidinosos	libidinoso	ADJ	ADJ	_	14	amod	_	TokenRange=111:122
+16	paulo	paulo	NOUN	NOUN	_	14	appos	_	TokenRange=123:128
+17	numero	_	ADJ	ADJ	_	18	amod	_	TokenRange=129:135
+18	casos	caso	NOUN	NOUN	_	14	appos	_	TokenRange=136:141
+19	registrados	registrar	VERB	VERB	_	18	acl	_	TokenRange=142:153
+20	policia	policia	NOUN	NOUN	_	24	nsubj	_	TokenRange=154:161
+21	primeiro	primeiro	ADJ	ADJ	_	22	amod	_	TokenRange=162:170
+22	semestre	semestre	NOUN	NOUN	_	18	appos	_	TokenRange=171:179
+23	2017	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=180:184
+24	cresceu	crescer	VERB	VERB	_	2	parataxis	_	TokenRange=185:192
+25	31	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=193:195
+26	recente	recente	ADJ	ADJ	_	27	amod	_	TokenRange=196:203
+27	caso	caso	NOUN	NOUN	_	24	nsubj	_	TokenRange=204:208
+28	assedio	assedio	NOUN	NOUN	_	27	appos	_	TokenRange=209:216
+29	sexual	sexual	ADJ	ADJ	_	28	amod	_	TokenRange=217:223
+30	transporte	transporte	NOUN	NOUN	_	27	appos	_	TokenRange=224:234
+31	publico	_	ADJ	ADJ	_	30	amod	_	TokenRange=235:242
+32	paulo	paulo	ADJ	ADJ	_	33	amod	_	TokenRange=243:248
+33	repercussao	repercussao	NOUN	NOUN	_	30	appos	_	TokenRange=249:260
+34	decisao	decisao	NOUN	NOUN	_	33	appos	_	TokenRange=261:268
+35	justica	_	ADJ	ADJ	_	36	amod	_	TokenRange=269:276
+36	ministerio	ministerio	NOUN	NOUN	_	24	nsubj	_	TokenRange=277:287
+37	publico	_	ADJ	ADJ	_	36	amod	_	TokenRange=288:295
+38	liberar	liberar	VERB	VERB	_	24	csubj	_	TokenRange=296:303
+39	agressor	agressor	NOUN	NOUN	_	38	obj	_	TokenRange=304:312
+40	trouxeram	sauxer	VERB	VERB	_	38	parataxis	_	TokenRange=313:322
+41	tona	_	NOUN	NOUN	_	40	obj	_	TokenRange=323:327
+42	debate	debate	NOUN	NOUN	_	40	obj	_	TokenRange=328:334
+43	violencia	violencia	NOUN	NOUN	_	42	appos	_	TokenRange=335:344
+44	genero	genero	NOUN	NOUN	_	42	appos	_	TokenRange=345:351
+45	razao	razao	NOUN	NOUN	_	44	flat	_	TokenRange=352:357
+46	homem	homem	NOUN	NOUN	_	44	appos	_	TokenRange=358:363
+47	menos	menos	ADV	ADV	_	48	advmod	_	TokenRange=364:369
+48	15	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=370:372
+49	passagens	passagem	NOUN	NOUN	_	40	nsubj	_	TokenRange=373:382
+50	policia	policia	NOUN	NOUN	_	49	appos	_	TokenRange=383:390
+51	solto	solto	ADJ	ADJ	_	50	amod	_	TokenRange=391:396
+52	apos	_	ADP	ADP	_	53	mark	_	TokenRange=397:401
+53	ejacular	ejacular	VERB	VERB	_	50	nmod	_	TokenRange=402:410
+54	pescoco	pescoco	NOUN	NOUN	_	53	obj	_	TokenRange=411:418
+55	mulher	mulher	NOUN	NOUN	_	54	appos	_	TokenRange=419:425
+56	dentro	dentro	ADV	ADV	_	57	advmod	_	TokenRange=426:432
+57	onibus	_	NOUN	NOUN	_	54	appos	_	TokenRange=433:439
+58	crime	crime	NOUN	NOUN	_	54	appos	_	TokenRange=440:445
+59	registrado	registrar	VERB	VERB	_	60	acl	_	TokenRange=446:456
+60	policia	policia	NOUN	NOUN	_	58	appos	_	TokenRange=457:464
+61	civil	civil	ADJ	ADJ	_	60	amod	_	TokenRange=465:470
+62	estupro	estupro	NOUN	NOUN	_	60	appos	_	TokenRange=471:478
+63	convertido	convertido	ADJ	ADJ	_	64	amod	_	TokenRange=479:489
+64	juiz	juiz	NOUN	NOUN	_	60	appos	_	TokenRange=490:494
+65	contravencao	contravencao	NOUN	NOUN	_	64	appos	_	TokenRange=495:507
+66	penal	penal	ADJ	ADJ	_	65	amod	_	TokenRange=508:513
+67	considerado	considerar	AUX	AUX	_	68	cop	_	TokenRange=514:525
+68	delito	delito	NOUN	NOUN	_	64	acl	_	TokenRange=526:532
+69	menor	menor	ADJ	ADJ	_	68	amod	_	TokenRange=533:538
+70	gravidade	gravidade	NOUN	NOUN	_	68	nsubj:pass	_	TokenRange=539:548
+71	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=549:552
+72	lei	lei	NOUN	NOUN	_	78	obj	_	TokenRange=553:556
+73	caracteriza	caracterizo	ADJ	ADJ	_	72	amod	_	TokenRange=557:568
+74	crime	crime	NOUN	NOUN	_	78	nsubj	_	TokenRange=569:574
+75	estupro	estupro	NOUN	NOUN	_	74	flat	_	TokenRange=575:582
+76	vitimas	_	NOUN	NOUN	_	74	appos	_	TokenRange=583:590
+77	devem	_	AUX	AUX	_	78	aux	_	TokenRange=591:596
+78	proceder	proceder	VERB	VERB	_	2	parataxis	_	TokenRange=597:605
+79	casos	caso	NOUN	NOUN	_	78	obj	_	TokenRange=606:611
+80	abuso	abuso	ADJ	ADJ	_	79	amod	_	TokenRange=612:617
+81	quais	_	DET	DET	_	82	det	_	TokenRange=618:623
+82	entraves	entrave	NOUN	NOUN	_	78	nsubj	_	TokenRange=624:632
+83	combater	combater	VERB	VERB	_	78	csubj	_	TokenRange=633:641
+84	tais	_	DET	DET	_	85	det	_	TokenRange=642:646
+85	crimes	crime	NOUN	NOUN	_	83	obj	_	TokenRange=647:653
+86	aparato	aparato	NOUN	NOUN	_	83	obj	_	TokenRange=654:661
+87	seguranca	_	NOUN	NOUN	_	86	amod	_	SpaceAfter=No|TokenRange=662:671
+

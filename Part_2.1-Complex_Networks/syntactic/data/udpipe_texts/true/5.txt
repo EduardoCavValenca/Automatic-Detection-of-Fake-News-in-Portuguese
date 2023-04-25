@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gustavo pedreira ferraz admitiu buscar malas dinheiro geddel vieira lima afirmou pf trabalhado campanha presidencial 2014 entao candidato aecio neves psdb exdiretor defesa civil salvador bahia resolveu colaborar investigacoes sobre bunker r 51 milhoes digitais ferraz encontradas cedulas r 50 r 100 rechearam malas caixas dinheiro encontradas maior apreensao historia pf meio assessoria senador nega gustavo trabalhado campanha conselheiro etica pmdb bahia ferraz admitiu 2012 buscou mala dinheiro hotel paulo exministro afirma ainda voltou salvador voo fretado
+1	gustavo	gustavo	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	pedreira	pedreiro	NOUN	NOUN	_	1	flat	_	TokenRange=8:16
+3	ferraz	ferraz	NOUN	NOUN	_	1	flat	_	TokenRange=17:23
+4	admitiu	admitir	VERB	VERB	_	0	root	_	TokenRange=24:31
+5	buscar	buscar	VERB	VERB	_	4	xcomp	_	TokenRange=32:38
+6	malas	malo	ADJ	ADJ	_	7	amod	_	TokenRange=39:44
+7	dinheiro	dinheiro	NOUN	NOUN	_	5	obj	_	TokenRange=45:53
+8	geddel	_	NOUN	NOUN	_	7	appos	_	TokenRange=54:60
+9	vieira	vieira	NOUN	NOUN	_	8	flat	_	TokenRange=61:67
+10	lima	lima	ADJ	NOUN	_	8	flat	_	TokenRange=68:72
+11	afirmou	afirmar	VERB	VERB	_	4	conj	_	TokenRange=73:80
+12	pf	_	NOUN	NOUN	_	11	obj	_	TokenRange=81:83
+13	trabalhado	trabalhar	VERB	VERB	_	14	acl	_	TokenRange=84:94
+14	campanha	campanha	NOUN	NOUN	_	5	obj	_	TokenRange=95:103
+15	presidencial	presidencial	ADJ	ADJ	_	14	amod	_	TokenRange=104:116
+16	2014	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=117:121
+17	entao	entao	ADV	ADV	_	18	advmod	_	TokenRange=122:127
+18	candidato	candidato	NOUN	NOUN	_	11	nsubj	_	TokenRange=128:137
+19	aecio	_	NOUN	NOUN	_	18	appos	_	TokenRange=138:143
+20	neves	neve	ADJ	ADJ	_	18	amod	_	TokenRange=144:149
+21	psdb	_	NOUN	NOUN	_	18	appos	_	TokenRange=150:154
+22	exdiretor	exdiretor	NOUN	NOUN	_	18	amod	_	TokenRange=155:164
+23	defesa	_	NOUN	NOUN	_	18	appos	_	TokenRange=165:171
+24	civil	civil	ADJ	ADJ	_	23	amod	_	TokenRange=172:177
+25	salvador	salvador	ADJ	ADJ	_	23	appos	_	TokenRange=178:186
+26	bahia	_	NOUN	NOUN	_	25	flat	_	TokenRange=187:192
+27	resolveu	resolver	VERB	VERB	_	4	conj	_	TokenRange=193:201
+28	colaborar	colaborar	VERB	VERB	_	27	xcomp	_	TokenRange=202:211
+29	investigacoes	investigacoe	NOUN	NOUN	_	28	obj	_	TokenRange=212:225
+30	sobre	_	ADP	ADP	_	31	case	_	TokenRange=226:231
+31	bunker	bunker	NOUN	NOUN	_	29	nmod	_	TokenRange=232:238
+32	r	r	NOUN	NOUN	_	31	flat	_	TokenRange=239:240
+33	51	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=241:243
+34	milhoes	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=244:251
+35	digitais	digital	ADJ	ADJ	_	34	amod	_	TokenRange=252:260
+36	ferraz	ferraz	NOUN	NOUN	_	34	amod	_	TokenRange=261:267
+37	encontradas	encontrar	VERB	VERB	_	38	acl	_	TokenRange=268:279
+38	cedulas	cedula	NOUN	NOUN	_	43	nsubj	_	TokenRange=280:287
+39	r	r	NOUN	NOUN	_	43	nsubj	_	TokenRange=288:289
+40	50	_	NUM	NUM	NumType=Card	38	appos	_	TokenRange=290:292
+41	r	r	NOUN	NOUN	_	43	nsubj	_	TokenRange=293:294
+42	100	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=295:298
+43	rechearam	rechear	VERB	VERB	_	31	acl:relcl	_	TokenRange=299:308
+44	malas	malo	ADJ	ADJ	_	45	amod	_	TokenRange=309:314
+45	caixas	caixa	NOUN	NOUN	_	43	obj	_	TokenRange=315:321
+46	dinheiro	dinheiro	NOUN	NOUN	_	45	flat	_	TokenRange=322:330
+47	encontradas	encontrar	VERB	VERB	_	45	acl	_	TokenRange=331:342
+48	maior	maior	ADJ	ADJ	_	49	amod	_	TokenRange=343:348
+49	apreensao	apreensao	NOUN	NOUN	_	43	obj	_	TokenRange=349:358
+50	historia	historia	NOUN	NOUN	_	49	appos	_	TokenRange=359:367
+51	pf	_	NOUN	NOUN	_	49	appos	_	TokenRange=368:370
+52	meio	meio	ADJ	ADJ	_	49	amod	_	TokenRange=371:375
+53	assessoria	assessoria	NOUN	NOUN	_	49	appos	_	TokenRange=376:386
+54	senador	senador	NOUN	NOUN	_	49	appos	_	TokenRange=387:394
+55	nega	_	NOUN	NOUN	_	53	appos	_	TokenRange=395:399
+56	gustavo	gustavo	NOUN	NOUN	_	54	appos	_	TokenRange=400:407
+57	trabalhado	trabalhado	ADJ	ADJ	_	58	amod	_	TokenRange=408:418
+58	campanha	campanha	NOUN	NOUN	_	64	nsubj	_	TokenRange=419:427
+59	conselheiro	conselheiro	NOUN	NOUN	_	58	appos	_	TokenRange=428:439
+60	etica	etico	ADJ	ADJ	_	59	amod	_	TokenRange=440:445
+61	pmdb	_	NOUN	NOUN	_	58	appos	_	TokenRange=446:450
+62	bahia	_	NOUN	NOUN	_	61	flat	_	TokenRange=451:456
+63	ferraz	ferraz	ADJ	ADJ	_	62	amod	_	TokenRange=457:463
+64	admitiu	admitir	VERB	VERB	_	4	parataxis	_	TokenRange=464:471
+65	2012	_	NUM	NUM	NumType=Card	66	nmod	_	TokenRange=472:476
+66	buscou	buscar	VERB	VERB	_	64	parataxis	_	TokenRange=477:483
+67	mala	malo	ADJ	ADJ	_	68	amod	_	TokenRange=484:488
+68	dinheiro	dinheiro	NOUN	NOUN	_	66	obj	_	TokenRange=489:497
+69	hotel	hotel	NOUN	NOUN	_	66	nsubj	_	TokenRange=498:503
+70	paulo	paulo	NOUN	NOUN	_	69	flat	_	TokenRange=504:509
+71	exministro	exministro	NOUN	NOUN	_	69	flat	_	TokenRange=510:520
+72	afirma	afirmar	VERB	VERB	_	66	parataxis	_	TokenRange=521:527
+73	ainda	ainda	ADV	ADV	_	74	advmod	_	TokenRange=528:533
+74	voltou	voltar	VERB	VERB	_	72	ccomp	_	TokenRange=534:540
+75	salvador	salvador	NOUN	NOUN	_	74	obj	_	TokenRange=541:549
+76	voo	voo	NOUN	NOUN	_	74	obj	_	TokenRange=550:553
+77	fretado	fretado	ADJ	ADJ	_	76	amod	_	SpaceAfter=No|TokenRange=554:561
+

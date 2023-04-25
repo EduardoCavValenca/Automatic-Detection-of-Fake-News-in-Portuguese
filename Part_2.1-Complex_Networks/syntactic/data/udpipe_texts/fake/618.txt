@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marca sabao po faz publicidade genero criancas 98 internautas desaprovam grande marca sabao po inves continuar vendendo sabao po quis meter nariz onde chamada omo lancou comunicado urgente pais maes pagina facebook
+1	marca	marca	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	sabao	sabao	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	po	_	NOUN	NOUN	_	2	flat	_	TokenRange=12:14
+4	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=15:18
+5	publicidade	publicidade	NOUN	NOUN	_	4	obj	_	TokenRange=19:30
+6	genero	genero	NOUN	NOUN	_	5	appos	_	TokenRange=31:37
+7	criancas	crianca	NOUN	NOUN	_	5	appos	_	TokenRange=38:46
+8	98	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=47:49
+9	internautas	internauta	NOUN	NOUN	_	4	nsubj	_	TokenRange=50:61
+10	desaprovam	desaprovar	VERB	VERB	_	4	parataxis	_	TokenRange=62:72
+11	grande	grande	ADJ	ADJ	_	12	amod	_	TokenRange=73:79
+12	marca	marca	NOUN	NOUN	_	10	obj	_	TokenRange=80:85
+13	sabao	sabao	NOUN	NOUN	_	12	appos	_	TokenRange=86:91
+14	po	_	NOUN	NOUN	_	17	obj	_	TokenRange=92:94
+15	inves	inve	ADJ	ADJ	_	17	nsubj	_	TokenRange=95:100
+16	continuar	continuar	AUX	AUX	_	17	aux	_	TokenRange=101:110
+17	vendendo	vender	VERB	VERB	_	12	acl:relcl	_	TokenRange=111:119
+18	sabao	sabao	NOUN	NOUN	_	17	obj	_	TokenRange=120:125
+19	po	_	X	ADV	_	20	nsubj	_	TokenRange=126:128
+20	quis	querer	VERB	VERB	_	18	acl:relcl	_	TokenRange=129:133
+21	meter	meter	VERB	VERB	_	20	xcomp	_	TokenRange=134:139
+22	nariz	nariz	NOUN	NOUN	_	21	obj	_	TokenRange=140:145
+23	onde	onde	ADV	ADV	_	26	advmod	_	TokenRange=146:150
+24	chamada	chamar	VERB	VERB	_	25	acl	_	TokenRange=151:158
+25	omo	omo	NOUN	NOUN	_	26	nsubj	_	TokenRange=159:162
+26	lancou	lancar	VERB	VERB	_	22	acl:relcl	_	TokenRange=163:169
+27	comunicado	comunicado	NOUN	NOUN	_	26	obj	_	TokenRange=170:180
+28	urgente	urgente	ADJ	ADJ	_	27	amod	_	TokenRange=181:188
+29	pais	_	ADP	ADP	_	31	appos	_	TokenRange=189:193
+30	maes	_	ADJ	ADJ	_	31	amod	_	TokenRange=194:198
+31	pagina	pagina	NOUN	NOUN	_	27	appos	_	TokenRange=199:205
+32	facebook	_	PROPN	PNOUN	_	31	appos	_	TokenRange=206:214
+
+# sent_id = 2
+# text = youtube marca convocou todos filhos fazerem recall todas brincadeiras reforcem cliches sobre genero modo disfarcado impor questoes genero crianca resultado veja imagem abaixo link youtube
+1	youtube	_	DET	DET	_	3	nsubj	_	TokenRange=215:222
+2	marca	marca	NOUN	NOUN	_	3	nsubj	_	TokenRange=223:228
+3	convocou	convocar	VERB	VERB	_	0	root	_	TokenRange=229:237
+4	todos	_	DET	DET	_	5	det	_	TokenRange=238:243
+5	filhos	filho	NOUN	NOUN	_	6	obj	_	TokenRange=244:250
+6	fazerem	fazer	VERB	VERB	_	3	ccomp	_	TokenRange=251:258
+7	recall	_	NOUN	NOUN	_	6	obj	_	TokenRange=259:265
+8	todas	_	DET	DET	_	9	det	_	TokenRange=266:271
+9	brincadeiras	brincadeira	NOUN	NOUN	_	6	obj	_	TokenRange=272:284
+10	reforcem	reforcer	VERB	VERB	_	3	parataxis	_	TokenRange=285:293
+11	cliches	cliche	NOUN	NOUN	_	10	obj	_	TokenRange=294:301
+12	sobre	_	ADP	ADP	_	13	case	_	TokenRange=302:307
+13	genero	genero	NOUN	NOUN	_	11	nmod	_	TokenRange=308:314
+14	modo	modo	NOUN	NOUN	_	11	appos	_	TokenRange=315:319
+15	disfarcado	disfarcado	ADJ	ADJ	_	14	amod	_	TokenRange=320:330
+16	impor	impor	VERB	VERB	_	14	acl	_	TokenRange=331:336
+17	questoes	questoe	NOUN	NOUN	_	16	obj	_	TokenRange=337:345
+18	genero	genero	NOUN	NOUN	_	17	appos	_	TokenRange=346:352
+19	crianca	crianco	ADJ	ADJ	_	18	amod	_	TokenRange=353:360
+20	resultado	resultado	NOUN	NOUN	_	17	appos	_	TokenRange=361:370
+21	veja	ver	VERB	VERB	_	3	parataxis	_	TokenRange=371:375
+22	imagem	imagem	NOUN	NOUN	_	21	obj	_	TokenRange=376:382
+23	abaixo	abaixo	ADV	ADV	_	24	advmod	_	TokenRange=383:389
+24	link	_	VERB	VERB	_	21	parataxis	_	TokenRange=390:394
+25	youtube	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No|TokenRange=395:402
+

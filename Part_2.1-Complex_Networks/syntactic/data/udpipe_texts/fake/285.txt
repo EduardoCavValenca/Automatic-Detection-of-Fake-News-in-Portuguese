@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = previsoes carlinhos 2017/2018 lula preso temer alvaro dias presidente novo acidente aereo vidente conhecido brasil participou programa balanco geral carlinhos disse novo acidente aereo ira abalar pais acordo aviao cerca 200 pessoas caira quatro maiores cidades brasil paulo rio janeiro brasilia salvador final 2017 mes marco 2018 repare video apresentador cita cidade belo horizonte porem capital mineira 4 maiores cidades pais adivinho comentou sobre futuro politico pais lula preso michel temer vai cair alvaro dias novo presidente pais
+1	previsoes	previsoe	NOUN	NOUN	_	16	parataxis	_	TokenRange=0:9
+2	carlinhos	carlinho	NOUN	NOUN	_	1	appos	_	TokenRange=10:19
+3	2017/2018	_	NUM	NUM	NumType=Card	2	appos	_	TokenRange=20:29
+4	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=30:34
+5	preso	_	ADJ	ADJ	_	6	amod	_	TokenRange=35:40
+6	temer	temer	NOUN	NOUN	_	1	appos	_	TokenRange=41:46
+7	alvaro	alvaro	NOUN	NOUN	_	6	appos	_	TokenRange=47:53
+8	dias	dia	NOUN	NOUN	_	7	flat	_	TokenRange=54:58
+9	presidente	presidente	NOUN	NOUN	_	1	appos	_	TokenRange=59:69
+10	novo	novo	ADJ	ADJ	_	11	amod	_	TokenRange=70:74
+11	acidente	acidente	NOUN	NOUN	_	1	appos	_	TokenRange=75:83
+12	aereo	aereo	ADJ	ADJ	_	11	amod	_	TokenRange=84:89
+13	vidente	vidente	NOUN	NOUN	_	1	appos	_	TokenRange=90:97
+14	conhecido	conhecido	ADJ	ADJ	_	11	amod	_	TokenRange=98:107
+15	brasil	brasil	NOUN	NOUN	_	11	amod	_	TokenRange=108:114
+16	participou	participar	VERB	VERB	_	0	root	_	TokenRange=115:125
+17	programa	programa	NOUN	NOUN	_	16	obj	_	TokenRange=126:134
+18	balanco	balanco	NOUN	NOUN	_	17	appos	_	TokenRange=135:142
+19	geral	geral	ADJ	ADJ	_	23	amod	_	TokenRange=143:148
+20	carlinhos	_	NOUN	NOUN	_	17	appos	_	TokenRange=149:158
+21	disse	dizer	VERB	VERB	_	16	parataxis	_	TokenRange=159:164
+22	novo	novo	ADJ	ADJ	_	23	amod	_	TokenRange=165:169
+23	acidente	acidente	NOUN	NOUN	_	26	obj	_	TokenRange=170:178
+24	aereo	aereo	ADJ	ADJ	_	23	amod	_	TokenRange=179:184
+25	ira	_	AUX	AUX	_	26	aux	_	TokenRange=185:188
+26	abalar	abalar	VERB	VERB	_	21	ccomp	_	TokenRange=189:195
+27	pais	_	NOUN	NOUN	_	26	obj	_	TokenRange=196:200
+28	acordo	acordo	NOUN	NOUN	_	26	obj	_	TokenRange=201:207
+29	aviao	aviao	NOUN	NOUN	_	28	flat	_	TokenRange=208:213
+30	cerca	cerca	ADV	ADV	_	31	advmod	_	TokenRange=214:219
+31	200	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=220:223
+32	pessoas	pessoa	NOUN	NOUN	_	33	nsubj	_	TokenRange=224:231
+33	caira	_	VERB	VERB	_	28	acl:relcl	_	TokenRange=232:237
+34	quatro	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=238:244
+35	maiores	maior	ADJ	ADJ	_	36	amod	_	TokenRange=245:252
+36	cidades	cidade	NOUN	NOUN	_	33	nsubj	_	TokenRange=253:260
+37	brasil	brasil	NOUN	NOUN	_	36	appos	_	TokenRange=261:267
+38	paulo	_	NOUN	NOUN	_	36	appos	_	TokenRange=268:273
+39	rio	_	NOUN	NOUN	_	36	appos	_	TokenRange=274:277
+40	janeiro	_	PROPN	PNOUN	_	39	flat	_	TokenRange=278:285
+41	brasilia	brasilia	NOUN	NOUN	_	38	appos	_	TokenRange=286:294
+42	salvador	salvador	NOUN	NOUN	_	36	appos	_	TokenRange=295:303
+43	final	final	NOUN	NOUN	_	42	appos	_	TokenRange=304:309
+44	2017	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=310:314
+45	mes	_	NOUN	NOUN	_	48	nmod	_	TokenRange=315:318
+46	marco	_	PROPN	PNOUN	_	45	nmod	_	TokenRange=319:324
+47	2018	_	NUM	NUM	NumType=Card	46	nmod	_	TokenRange=325:329
+48	repare	repare	VERB	VERB	_	33	parataxis	_	TokenRange=330:336
+49	video	video	NOUN	NOUN	_	48	nsubj	_	TokenRange=337:342
+50	apresentador	apresentador	NOUN	NOUN	_	49	flat	_	TokenRange=343:355
+51	cita	citar	VERB	VERB	_	48	parataxis	_	TokenRange=356:360
+52	cidade	cidade	NOUN	NOUN	_	51	obj	_	TokenRange=361:367
+53	belo	belo	ADJ	ADJ	_	54	amod	_	TokenRange=368:372
+54	horizonte	horizonte	NOUN	NOUN	_	52	appos	_	TokenRange=373:382
+55	porem	_	ADP	ADP	_	56	case	_	TokenRange=383:388
+56	capital	capital	NOUN	NOUN	_	52	nmod	_	TokenRange=389:396
+57	mineira	mineiro	ADJ	ADJ	_	56	amod	_	TokenRange=397:404
+58	4	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=405:406
+59	maiores	maior	ADJ	ADJ	_	60	amod	_	TokenRange=407:414
+60	cidades	cidade	NOUN	NOUN	_	63	obj	_	TokenRange=415:422
+61	pais	_	NOUN	NOUN	_	60	amod	_	TokenRange=423:427
+62	adivinho	_	NOUN	NOUN	_	60	amod	_	TokenRange=428:436
+63	comentou	comentar	VERB	VERB	_	51	parataxis	_	TokenRange=437:445
+64	sobre	_	ADP	ADP	_	65	case	_	TokenRange=446:451
+65	futuro	futuro	NOUN	NOUN	_	63	nmod	_	TokenRange=452:458
+66	politico	politico	ADJ	ADJ	_	65	amod	_	TokenRange=459:467
+67	pais	_	NOUN	NOUN	_	65	appos	_	TokenRange=468:472
+68	lula	lula	NOUN	NOUN	_	73	nsubj	_	TokenRange=473:477
+69	preso	preso	ADJ	ADJ	_	68	amod	_	TokenRange=478:483
+70	michel	michel	ADJ	DET	_	71	amod	_	TokenRange=484:490
+71	temer	temer	NOUN	NOUN	_	73	nsubj	_	TokenRange=491:496
+72	vai	ir	AUX	AUX	_	73	aux	_	TokenRange=497:500
+73	cair	cair	VERB	VERB	_	63	parataxis	_	TokenRange=501:505
+74	alvaro	alvaro	ADP	ADJ	_	77	amod	_	TokenRange=506:512
+75	dias	dia	NOUN	NOUN	_	77	nmod	_	TokenRange=513:517
+76	novo	novo	ADJ	ADJ	_	77	amod	_	TokenRange=518:522
+77	presidente	presidente	NOUN	NOUN	_	73	obj	_	TokenRange=523:533
+78	pais	_	NOUN	NOUN	_	77	appos	_	SpaceAfter=No|TokenRange=534:538
+

@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joesley batista diz pf fez gesto dinheiro dedos durante encontro temer empresario falou pf nesta quinta segundo joesley gesto feito perguntar temer podia tratar todos assuntos loures planalto diz mentiras desmascaradas empresario joesley batista dono grupo jf afirmou nesta quintafeira 15 depoimento policia federal fez gesto dinheiro dedos durante encontro presidente michel temer marco ano passado palacio
+1	joesley	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	batista	batista	NOUN	NOUN	_	1	amod	_	TokenRange=8:15
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=16:19
+4	pf	_	NOUN	NOUN	_	3	obj	_	TokenRange=20:22
+5	fez	fazer	VERB	VERB	_	3	parataxis	_	TokenRange=23:26
+6	gesto	gesto	NOUN	NOUN	_	5	obj	_	TokenRange=27:32
+7	dinheiro	dinheiro	NOUN	NOUN	_	6	appos	_	TokenRange=33:41
+8	dedos	dedo	ADJ	ADJ	_	7	amod	_	TokenRange=42:47
+9	durante	_	ADP	ADP	_	10	case	_	TokenRange=48:55
+10	encontro	encontro	NOUN	NOUN	_	5	nmod	_	TokenRange=56:64
+11	temer	temer	ADJ	ADJ	_	10	amod	_	TokenRange=65:70
+12	empresario	empresario	NOUN	NOUN	_	13	nsubj	_	TokenRange=71:81
+13	falou	falar	VERB	VERB	_	10	acl:relcl	_	TokenRange=82:87
+14	pf	_	NOUN	NOUN	_	13	obj	_	TokenRange=88:90
+15	nesta	_	ADP	ADP	_	16	case	_	TokenRange=91:96
+16	quinta	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=97:103
+17	segundo	_	ADP	ADP	_	18	case	_	TokenRange=104:111
+18	joesley	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=112:119
+19	gesto	gesto	NOUN	NOUN	_	13	nsubj	_	TokenRange=120:125
+20	feito	_	VERB	VERB	_	19	acl	_	TokenRange=126:131
+21	perguntar	perguntar	VERB	VERB	_	19	acl	_	TokenRange=132:141
+22	temer	temer	NOUN	NOUN	_	24	nsubj	_	TokenRange=142:147
+23	podia	poder	AUX	AUX	_	24	aux	_	TokenRange=148:153
+24	tratar	tratar	VERB	VERB	_	21	ccomp	_	TokenRange=154:160
+25	todos	_	DET	DET	_	26	det	_	TokenRange=161:166
+26	assuntos	assunto	NOUN	NOUN	_	24	obj	_	TokenRange=167:175
+27	loures	loure	ADJ	ADJ	_	26	amod	_	TokenRange=176:182
+28	planalto	planalto	NOUN	NOUN	_	26	amod	_	TokenRange=183:191
+29	diz	dizer	VERB	VERB	_	13	conj	_	TokenRange=192:195
+30	mentiras	mentira	NOUN	NOUN	_	29	obj	_	TokenRange=196:204
+31	desmascaradas	desmascarado	ADJ	ADJ	_	30	amod	_	TokenRange=205:218
+32	empresario	empresario	NOUN	NOUN	_	38	nsubj	_	TokenRange=219:229
+33	joesley	_	NOUN	NOUN	_	32	appos	_	TokenRange=230:237
+34	batista	batista	ADJ	ADJ	_	33	flat	_	TokenRange=238:245
+35	dono	dono	ADJ	ADJ	_	36	amod	_	TokenRange=246:250
+36	grupo	grupo	NOUN	NOUN	_	33	appos	_	TokenRange=251:256
+37	jf	_	NOUN	NOUN	_	36	appos	_	TokenRange=257:259
+38	afirmou	afirmar	VERB	VERB	_	29	parataxis	_	TokenRange=260:267
+39	nesta	_	ADP	ADP	_	40	case	_	TokenRange=268:273
+40	quintafeira	quintafeira	NOUN	NOUN	_	38	nmod	_	TokenRange=274:285
+41	15	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=286:288
+42	depoimento	depoimento	NOUN	NOUN	_	45	obj	_	TokenRange=289:299
+43	policia	policia	NOUN	NOUN	_	45	nsubj	_	TokenRange=300:307
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=308:315
+45	fez	fazer	VERB	VERB	_	38	parataxis	_	TokenRange=316:319
+46	gesto	gesto	NOUN	NOUN	_	45	obj	_	TokenRange=320:325
+47	dinheiro	dinheiro	NOUN	NOUN	_	46	appos	_	TokenRange=326:334
+48	dedos	dedo	ADJ	ADJ	_	46	amod	_	TokenRange=335:340
+49	durante	_	ADP	ADP	_	50	case	_	TokenRange=341:348
+50	encontro	encontro	NOUN	NOUN	_	45	nmod	_	TokenRange=349:357
+51	presidente	presidente	NOUN	NOUN	_	50	appos	_	TokenRange=358:368
+52	michel	michel	ADJ	ADJ	_	53	amod	_	TokenRange=369:375
+53	temer	temer	NOUN	NOUN	_	50	appos	_	TokenRange=376:381
+54	marco	marco	ADJ	ADJ	_	50	appos	_	TokenRange=382:387
+55	ano	ano	NOUN	NOUN	_	54	nmod	_	TokenRange=388:391
+56	passado	passado	ADJ	ADJ	_	57	amod	_	TokenRange=392:399
+57	palacio	palacio	NOUN	NOUN	_	50	appos	_	SpaceAfter=No|TokenRange=400:407
+

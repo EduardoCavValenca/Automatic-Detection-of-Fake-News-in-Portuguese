@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = angustiado doente russo morre 85 anos globo covarde abandonaram antonio pedro souza dedicou 45 anos vida rede globo faleceu 85 anos vitima pneumonia 2015 globo comemorava 50 anos russo demitido globo desabafou deixaram pai mae covardes queria parar trabalhar descanse paz antonio pedro povo sabe sempre valorizou
+1	angustiado	angustiado	ADJ	ADJ	_	3	amod	_	TokenRange=0:10
+2	doente	doente	ADJ	ADJ	_	3	amod	_	TokenRange=11:17
+3	russo	russo	NOUN	NOUN	_	4	nsubj	_	TokenRange=18:23
+4	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=24:29
+5	85	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=30:32
+6	anos	ano	NOUN	NOUN	_	4	obj	_	TokenRange=33:37
+7	globo	globo	NOUN	NOUN	_	4	nsubj	_	TokenRange=38:43
+8	covarde	covarde	NOUN	NOUN	_	7	amod	_	TokenRange=44:51
+9	abandonaram	abandonar	VERB	VERB	_	4	conj	_	TokenRange=52:63
+10	antonio	antonio	NOUN	NOUN	_	9	obj	_	TokenRange=64:71
+11	pedro	pedro	NOUN	NOUN	_	10	flat	_	TokenRange=72:77
+12	souza	_	NOUN	NOUN	_	10	flat	_	TokenRange=78:83
+13	dedicou	dedicar	VERB	VERB	_	4	conj	_	TokenRange=84:91
+14	45	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=92:94
+15	anos	ano	NOUN	NOUN	_	13	obj	_	TokenRange=95:99
+16	vida	vida	NOUN	NOUN	_	13	nsubj	_	TokenRange=100:104
+17	rede	rede	NOUN	NOUN	_	16	appos	_	TokenRange=105:109
+18	globo	globo	ADJ	ADJ	_	17	amod	_	TokenRange=110:115
+19	faleceu	falecer	VERB	VERB	_	13	parataxis	_	TokenRange=116:123
+20	85	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=124:126
+21	anos	ano	NOUN	NOUN	_	19	nmod	_	TokenRange=127:131
+22	vitima	vitima	ADJ	ADJ	_	19	xcomp	_	TokenRange=132:138
+23	pneumonia	pneumonia	NOUN	NOUN	_	19	nsubj	_	TokenRange=139:148
+24	2015	_	NUM	NUM	NumType=Card	23	nmod	_	TokenRange=149:153
+25	globo	globo	NOUN	NOUN	_	26	nsubj	_	TokenRange=154:159
+26	comemorava	comemorar	VERB	VERB	_	19	conj	_	TokenRange=160:170
+27	50	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=171:173
+28	anos	ano	NOUN	NOUN	_	26	obj	_	TokenRange=174:178
+29	russo	russo	NOUN	NOUN	_	28	amod	_	TokenRange=179:184
+30	demitido	demitido	ADJ	ADJ	_	31	amod	_	TokenRange=185:193
+31	globo	globo	NOUN	NOUN	_	33	nsubj	_	TokenRange=194:199
+32	desabafou	desabafar	VERB	VERB	_	33	nsubj	_	TokenRange=200:209
+33	deixaram	deixar	VERB	VERB	_	26	parataxis	_	TokenRange=210:218
+34	pai	pai	NOUN	NOUN	_	33	obj	_	TokenRange=219:222
+35	mae	mae	NOUN	NOUN	_	37	nsubj	_	TokenRange=223:226
+36	covardes	covarde	NOUN	NOUN	_	35	flat	_	TokenRange=227:235
+37	queria	querer	VERB	VERB	_	33	ccomp	_	TokenRange=236:242
+38	parar	parar	VERB	VERB	_	37	xcomp	_	TokenRange=243:248
+39	trabalhar	trabalhar	VERB	VERB	_	38	xcomp	_	TokenRange=249:258
+40	descanse	descanse	VERB	VERB	_	39	obj	_	TokenRange=259:267
+41	paz	paz	NOUN	NOUN	_	40	obj	_	TokenRange=268:271
+42	antonio	antonio	NOUN	NOUN	_	40	appos	_	TokenRange=272:279
+43	pedro	pedro	NOUN	NOUN	_	42	flat	_	TokenRange=280:285
+44	povo	povo	NOUN	NOUN	_	42	flat	_	TokenRange=286:290
+45	sabe	saber	VERB	VERB	_	26	parataxis	_	TokenRange=291:295
+46	sempre	sempre	ADV	ADV	_	47	advmod	_	TokenRange=296:302
+47	valorizou	valorizar	VERB	VERB	_	45	parataxis	_	SpaceAfter=No|TokenRange=303:312
+

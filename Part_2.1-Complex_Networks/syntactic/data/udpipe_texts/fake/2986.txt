@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estado islamico ameaca derrubar torre eiffel paris destruir cidade roma italia video divulgado foruns jihadistas membros ei estado islamico ameacaram derrubar torre eiffel paris ai terroristas doentes prometem destruir nacao cruz referencia cidade roma italia abriga vaticano citar italia extremistas advertem convertamse isla paguem preco grupo voltou reivindicar atentado bruxelas ocorrido 22 marco afirmou acao causada soldados califado
+1	estado	estado	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	islamico	islamico	ADJ	ADJ	_	1	amod	_	TokenRange=7:15
+3	ameaca	ameacar	VERB	VERB	_	54	ccomp	_	TokenRange=16:22
+4	derrubar	derrubar	VERB	VERB	_	3	xcomp	_	TokenRange=23:31
+5	torre	torre	NOUN	NOUN	_	4	obj	_	TokenRange=32:37
+6	eiffel	eiffel	NOUN	NOUN	_	5	amod	_	TokenRange=38:44
+7	paris	_	NOUN	NOUN	_	8	advmod	_	TokenRange=45:50
+8	destruir	destruir	VERB	VERB	_	4	ccomp	_	TokenRange=51:59
+9	cidade	cidade	NOUN	NOUN	_	8	obj	_	TokenRange=60:66
+10	roma	roma	ADJ	ADJ	_	9	amod	_	TokenRange=67:71
+11	italia	italia	ADJ	ADJ	_	9	amod	_	TokenRange=72:78
+12	video	video	NOUN	NOUN	_	20	nsubj	_	TokenRange=79:84
+13	divulgado	divulgar	VERB	VERB	_	14	acl	_	TokenRange=85:94
+14	foruns	forum	NOUN	NOUN	_	20	nsubj	_	TokenRange=95:101
+15	jihadistas	jihadista	ADJ	ADJ	_	14	amod	_	TokenRange=102:112
+16	membros	membro	NOUN	NOUN	_	20	nsubj	_	TokenRange=113:120
+17	ei	_	ADP	ADP	_	18	case	_	TokenRange=121:123
+18	estado	estado	NOUN	NOUN	_	16	nmod	_	TokenRange=124:130
+19	islamico	islamico	ADJ	ADJ	_	18	amod	_	TokenRange=131:139
+20	ameacaram	ameacar	VERB	VERB	_	3	parataxis	_	TokenRange=140:149
+21	derrubar	derrubar	VERB	VERB	_	20	xcomp	_	TokenRange=150:158
+22	torre	torre	NOUN	NOUN	_	21	obj	_	TokenRange=159:164
+23	eiffel	eiffel	ADJ	NOUN	_	22	amod	_	TokenRange=165:171
+24	paris	_	NOUN	NOUN	_	20	obj	_	TokenRange=172:177
+25	ai	_	DET	DET	_	26	det	_	TokenRange=178:180
+26	terroristas	terrorista	NOUN	NOUN	_	28	nsubj	_	TokenRange=181:192
+27	doentes	doente	ADJ	ADJ	_	26	amod	_	TokenRange=193:200
+28	prometem	prometer	VERB	VERB	_	20	parataxis	_	TokenRange=201:209
+29	destruir	destruir	VERB	VERB	_	28	xcomp	_	TokenRange=210:218
+30	nacao	nacao	NOUN	NOUN	_	29	obj	_	TokenRange=219:224
+31	cruz	cruz	NOUN	NOUN	_	30	flat	_	TokenRange=225:229
+32	referencia	_	VERB	VERB	_	28	nsubj	_	TokenRange=230:240
+33	cidade	cidade	NOUN	NOUN	_	36	obj	_	TokenRange=241:247
+34	roma	roma	ADJ	ADJ	_	33	amod	_	TokenRange=248:252
+35	italia	italia	NOUN	NOUN	_	33	amod	_	TokenRange=253:259
+36	abriga	abrigar	VERB	VERB	_	28	conj	_	TokenRange=260:266
+37	vaticano	vaticano	NOUN	NOUN	_	36	obj	_	TokenRange=267:275
+38	citar	citar	VERB	VERB	_	36	ccomp	_	TokenRange=276:281
+39	italia	_	NOUN	NOUN	_	38	obj	_	TokenRange=282:288
+40	extremistas	_	NOUN	NOUN	_	33	amod	_	TokenRange=289:300
+41	advertem	advertir	VERB	VERB	_	36	parataxis	_	TokenRange=301:309
+42	convertamse	_	ADV	NOUN	_	41	obj	_	TokenRange=310:321
+43	isla	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=322:326
+44	paguem	_	VERB	VERB	_	41	ccomp	_	TokenRange=327:333
+45	preco	preco	ADJ	ADJ	_	44	xcomp	_	TokenRange=334:339
+46	grupo	grupo	NOUN	NOUN	_	48	nsubj	_	TokenRange=340:345
+47	voltou	voltar	AUX	AUX	_	48	aux	_	TokenRange=346:352
+48	reivindicar	reivindicar	VERB	VERB	_	44	ccomp	_	TokenRange=353:364
+49	atentado	atentado	NOUN	NOUN	_	48	obj	_	TokenRange=365:373
+50	bruxelas	bruxela	ADJ	ADJ	_	49	amod	_	TokenRange=374:382
+51	ocorrido	ocorrer	VERB	VERB	_	49	acl	_	TokenRange=383:391
+52	22	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=392:394
+53	marco	marco	NOUN	NOUN	_	51	nmod	_	TokenRange=395:400
+54	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=401:408
+55	acao	acao	NOUN	NOUN	_	54	obj	_	TokenRange=409:413
+56	causada	causar	VERB	ADJ	_	55	acl	_	TokenRange=414:421
+57	soldados	soldado	NOUN	NOUN	_	54	nsubj	_	TokenRange=422:430
+58	califado	califar	VERB	ADJ	_	57	acl	_	SpaceAfter=No|TokenRange=431:439
+

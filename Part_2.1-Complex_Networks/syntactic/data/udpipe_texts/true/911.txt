@@ -1,0 +1,33 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vandal verdade rapper salvador prepara novo disco 2018 parceiro baianasystem varios produtores cidade musico destaca sons ideias originais busca construcao sonora identidade terra vandal verdade
+1	vandal	vandal	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	verdade	verdade	NOUN	NOUN	_	5	nsubj	_	TokenRange=7:14
+3	rapper	rapper	NOUN	NOUN	_	2	appos	_	TokenRange=15:21
+4	salvador	salvador	NOUN	NOUN	_	3	flat	_	TokenRange=22:30
+5	prepara	preparar	VERB	VERB	_	0	root	_	TokenRange=31:38
+6	novo	novo	ADJ	ADJ	_	7	amod	_	TokenRange=39:43
+7	disco	disco	NOUN	NOUN	_	5	obj	_	TokenRange=44:49
+8	2018	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=50:54
+9	parceiro	parceiro	NOUN	NOUN	_	5	obj	_	TokenRange=55:63
+10	baianasystem	_	ADJ	ADJ	_	9	amod	_	TokenRange=64:76
+11	varios	_	DET	DET	_	12	det	_	TokenRange=77:83
+12	produtores	produtor	NOUN	NOUN	_	5	obj	_	TokenRange=84:94
+13	cidade	cidade	NOUN	NOUN	_	12	appos	_	TokenRange=95:101
+14	musico	musico	ADJ	ADJ	_	13	amod	_	TokenRange=102:108
+15	destaca	destacar	VERB	VERB	_	5	parataxis	_	TokenRange=109:116
+16	sons	som	NOUN	NOUN	_	15	obj	_	TokenRange=117:121
+17	ideias	ideia	NOUN	NOUN	_	16	appos	_	TokenRange=122:128
+18	originais	original	ADJ	ADJ	_	17	amod	_	TokenRange=129:138
+19	busca	buscar	VERB	VERB	_	15	parataxis	_	TokenRange=139:144
+20	construcao	construcao	NOUN	NOUN	_	19	obj	_	TokenRange=145:155
+21	sonora	sonoro	ADJ	ADJ	_	20	amod	_	TokenRange=156:162
+22	identidade	identidade	NOUN	NOUN	_	20	amod	_	TokenRange=163:173
+23	terra	terra	NOUN	NOUN	_	20	flat	_	TokenRange=174:179
+24	vandal	vandal	ADJ	ADJ	_	25	amod	_	TokenRange=180:186
+25	verdade	verdade	NOUN	NOUN	_	22	appos	_	SpaceAfter=No|TokenRange=187:194
+

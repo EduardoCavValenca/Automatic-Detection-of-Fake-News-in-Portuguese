@@ -1,0 +1,31 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cantora elza soares 80 anos passageiros aviao pegou fogo ar fiquei paralisada incidente aconteceu madrugada ultima sextafeira 4 durante voo empresa american airlines
+1	cantora	cantor	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:7
+2	elza	elza	NOUN	NOUN	_	1	appos	_	TokenRange=8:12
+3	soares	_	ADJ	ADJ	_	2	amod	_	TokenRange=13:19
+4	80	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=20:22
+5	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=23:27
+6	passageiros	passageiro	NOUN	NOUN	_	5	amod	_	TokenRange=28:39
+7	aviao	aviao	NOUN	NOUN	_	8	nsubj	_	TokenRange=40:45
+8	pegou	pegar	VERB	VERB	_	0	root	_	TokenRange=46:51
+9	fogo	fogo	NOUN	NOUN	_	8	obj	_	TokenRange=52:56
+10	ar	ar	NOUN	NOUN	_	11	case	_	TokenRange=57:59
+11	fiquei	ficar	NOUN	NOUN	_	8	nmod	_	TokenRange=60:66
+12	paralisada	paralisado	ADJ	ADJ	_	11	amod	_	TokenRange=67:77
+13	incidente	incidente	NOUN	NOUN	_	8	nsubj	_	TokenRange=78:87
+14	aconteceu	acontecer	VERB	VERB	_	8	parataxis	_	TokenRange=88:97
+15	madrugada	madrugada	NOUN	NOUN	_	14	nmod	_	TokenRange=98:107
+16	ultima	ultimo	ADJ	ADJ	_	17	amod	_	TokenRange=108:114
+17	sextafeira	sextafeira	NOUN	NOUN	_	14	nsubj	_	TokenRange=115:125
+18	4	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=126:127
+19	durante	_	ADP	ADP	_	20	case	_	TokenRange=128:135
+20	voo	voo	NOUN	NOUN	_	14	nmod	_	TokenRange=136:139
+21	empresa	empresa	NOUN	NOUN	_	20	appos	_	TokenRange=140:147
+22	american	american	ADJ	ADJ	_	23	amod	_	TokenRange=148:156
+23	airlines	_	NOUN	NOUN	_	21	appos	_	SpaceAfter=No|TokenRange=157:165
+

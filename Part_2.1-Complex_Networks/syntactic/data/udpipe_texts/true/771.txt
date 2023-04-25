@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidenciaveis lamentam ataque caravana expresidente lula parana dois onibus caravana atingidos tres tiros trajeto quedas iguacu laranjeiras sul parana lula nenhum dois veiculos precandidatos presidencia republica eleicoes outubro deste ano manifestaram nesta quartafeira 28 contra ataque sofrido caravana
+1	presidenciaveis	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:15
+2	lamentam	lamentar	VERB	VERB	_	0	root	_	TokenRange=16:24
+3	ataque	ataque	NOUN	NOUN	_	2	obj	_	TokenRange=25:31
+4	caravana	caravano	ADJ	ADJ	_	3	amod	_	TokenRange=32:40
+5	expresidente	expresidente	NOUN	NOUN	_	3	appos	_	TokenRange=41:53
+6	lula	_	NOUN	NOUN	_	5	flat	_	TokenRange=54:58
+7	parana	parana	NOUN	NOUN	_	5	flat	_	TokenRange=59:65
+8	dois	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=66:70
+9	onibus	_	NOUN	NOUN	_	3	appos	_	TokenRange=71:77
+10	caravana	caravana	ADJ	ADJ	_	9	amod	_	TokenRange=78:86
+11	atingidos	atingir	VERB	VERB	_	9	acl	_	TokenRange=87:96
+12	tres	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=97:101
+13	tiros	tiro	NOUN	NOUN	_	11	nmod	_	TokenRange=102:107
+14	trajeto	trajeto	NOUN	NOUN	_	13	appos	_	TokenRange=108:115
+15	quedas	queda	NOUN	NOUN	_	13	appos	_	TokenRange=116:122
+16	iguacu	_	ADJ	ADJ	_	17	amod	_	TokenRange=123:129
+17	laranjeiras	laranjeiro	NOUN	NOUN	_	15	appos	_	TokenRange=130:141
+18	sul	sul	ADJ	ADJ	_	17	amod	_	TokenRange=142:145
+19	parana	parana	ADJ	NOUN	_	17	amod	_	TokenRange=146:152
+20	lula	lula	NOUN	NOUN	_	17	appos	_	TokenRange=153:157
+21	nenhum	_	DET	DET	_	23	det	_	TokenRange=158:164
+22	dois	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=165:169
+23	veiculos	veiculo	NOUN	NOUN	_	31	nsubj	_	TokenRange=170:178
+24	precandidatos	precandidato	ADJ	ADJ	_	23	amod	_	TokenRange=179:192
+25	presidencia	presidencia	NOUN	NOUN	_	23	appos	_	TokenRange=193:204
+26	republica	republico	ADJ	ADJ	_	23	amod	_	TokenRange=205:214
+27	eleicoes	eleicoe	NOUN	NOUN	_	31	nsubj	_	TokenRange=215:223
+28	outubro	_	PROPN	PNOUN	_	27	appos	_	TokenRange=224:231
+29	deste	_	ADP	ADP	_	30	case	_	TokenRange=232:237
+30	ano	ano	NOUN	NOUN	_	28	nmod	_	TokenRange=238:241
+31	manifestaram	manifestar	VERB	VERB	_	2	parataxis	_	TokenRange=242:254
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=255:260
+33	quartafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=261:272
+34	28	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=273:275
+35	contra	_	ADP	ADP	_	36	case	_	TokenRange=276:282
+36	ataque	ataque	NOUN	NOUN	_	31	nmod	_	TokenRange=283:289
+37	sofrido	sofrer	VERB	VERB	_	36	acl	_	TokenRange=290:297
+38	caravana	caravana	NOUN	NOUN	_	37	obj	_	SpaceAfter=No|TokenRange=298:306
+

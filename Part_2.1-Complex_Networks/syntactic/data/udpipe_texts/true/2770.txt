@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delacao donos grupo jf levou apocalipse politico brasilia fecha temporada acordos colaboracao premiada investigacoes operacao lava jato contrario investigadores advogados ouvidos estadao esperam aumento fila candidatos delator especial politicos assessores cerca 15 negociacoes andamento curitiba origem escandalo petrobras delacao jbs amplitude politica revelacoes deve gerar avalanche procura acordos avalia procurador regional republica carlos fernando santos lima forcatarefa lava jato curitiba 158 acordos delacao 10 leniencia especie delacao pessoas juridicas empresas fechados capital paranaense pouco tres anos investigacoes lava
+1	delacao	delacao	NOUN	NOUN	_	23	nsubj	_	TokenRange=0:7
+2	donos	dono	NOUN	NOUN	_	1	flat	_	TokenRange=8:13
+3	grupo	grupo	NOUN	NOUN	_	1	appos	_	TokenRange=14:19
+4	jf	_	NOUN	NOUN	_	3	appos	_	TokenRange=20:22
+5	levou	levar	VERB	VERB	_	1	acl:relcl	_	TokenRange=23:28
+6	apocalipse	apocalipse	NOUN	NOUN	_	5	obj	_	TokenRange=29:39
+7	politico	politico	ADJ	ADJ	_	6	amod	_	TokenRange=40:48
+8	brasilia	brasilia	NOUN	NOUN	_	6	appos	_	TokenRange=49:57
+9	fecha	_	ADJ	ADJ	_	10	amod	_	TokenRange=58:63
+10	temporada	temporada	NOUN	NOUN	_	5	obj	_	TokenRange=64:73
+11	acordos	acordo	NOUN	NOUN	_	10	appos	_	TokenRange=74:81
+12	colaboracao	colaboracao	ADJ	ADJ	_	1	amod	_	TokenRange=82:93
+13	premiada	premiado	ADJ	ADJ	_	10	amod	_	TokenRange=94:102
+14	investigacoes	investigacoe	NOUN	NOUN	_	1	amod	_	TokenRange=103:116
+15	operacao	_	NOUN	NOUN	_	16	appos	_	TokenRange=117:125
+16	lava	lava	NOUN	NOUN	_	14	appos	_	TokenRange=126:130
+17	jato	jato	NOUN	NOUN	_	16	flat	_	TokenRange=131:135
+18	contrario	contrario	ADJ	ADJ	_	16	amod	_	TokenRange=136:145
+19	investigadores	investigador	NOUN	NOUN	_	16	appos	_	TokenRange=146:160
+20	advogados	advogado	NOUN	NOUN	_	19	appos	_	TokenRange=161:170
+21	ouvidos	ouvido	ADJ	ADJ	_	20	amod	_	TokenRange=171:178
+22	estadao	estadao	NOUN	NOUN	_	20	appos	_	TokenRange=179:186
+23	esperam	esperar	VERB	VERB	_	0	root	_	TokenRange=187:194
+24	aumento	aumento	NOUN	NOUN	_	23	obj	_	TokenRange=195:202
+25	fila	fila	NOUN	NOUN	_	24	flat	_	TokenRange=203:207
+26	candidatos	candidato	NOUN	NOUN	_	24	appos	_	TokenRange=208:218
+27	delator	delator	NOUN	NOUN	_	24	appos	_	TokenRange=219:226
+28	especial	especial	ADJ	ADJ	_	27	amod	_	TokenRange=227:235
+29	politicos	politico	ADJ	ADJ	_	27	amod	_	TokenRange=236:245
+30	assessores	assessor	NOUN	NOUN	_	27	appos	_	TokenRange=246:256
+31	cerca	cerca	ADV	ADV	_	32	advmod	_	TokenRange=257:262
+32	15	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=263:265
+33	negociacoes	negociacoe	NOUN	NOUN	_	24	appos	_	TokenRange=266:277
+34	andamento	andamento	NOUN	NOUN	_	33	appos	_	TokenRange=278:287
+35	curitiba	curitiba	ADJ	NOUN	_	34	amod	_	TokenRange=288:296
+36	origem	origem	NOUN	NOUN	_	34	appos	_	TokenRange=297:303
+37	escandalo	escandalo	NOUN	NOUN	_	34	appos	_	TokenRange=304:313
+38	petrobras	_	NOUN	NOUN	_	37	flat	_	TokenRange=314:323
+39	delacao	_	NOUN	NOUN	_	37	appos	_	TokenRange=324:331
+40	jbs	_	NOUN	NOUN	_	37	appos	_	TokenRange=332:335
+41	amplitude	amplitude	NOUN	NOUN	_	37	appos	_	TokenRange=336:345
+42	politica	_	ADJ	ADJ	_	41	amod	_	TokenRange=346:354
+43	revelacoes	revelacoe	NOUN	NOUN	_	45	nsubj	_	TokenRange=355:365
+44	deve	dever	AUX	AUX	_	45	aux	_	TokenRange=366:370
+45	gerar	gerar	VERB	VERB	_	23	parataxis	_	TokenRange=371:376
+46	avalanche	avalanche	NOUN	NOUN	_	45	obj	_	TokenRange=377:386
+47	procura	procurar	NOUN	NOUN	_	45	parataxis	_	TokenRange=387:394
+48	acordos	acordo	NOUN	NOUN	_	49	nsubj	_	TokenRange=395:402
+49	avalia	avaliar	VERB	VERB	_	45	parataxis	_	TokenRange=403:409
+50	procurador	procurador	NOUN	NOUN	_	49	obj	_	TokenRange=410:420
+51	regional	regional	ADJ	ADJ	_	50	amod	_	TokenRange=421:429
+52	republica	republico	ADJ	ADJ	_	50	amod	_	TokenRange=430:439
+53	carlos	carlo	NOUN	NOUN	_	50	appos	_	TokenRange=440:446
+54	fernando	fernando	NOUN	NOUN	_	50	appos	_	TokenRange=447:455
+55	santos	santo	ADJ	NOUN	_	54	flat	_	TokenRange=456:462
+56	lima	lima	ADJ	ADJ	_	54	amod	_	TokenRange=463:467
+57	forcatarefa	forcatarefa	NOUN	NOUN	_	58	nsubj	_	TokenRange=468:479
+58	lava	lavar	VERB	VERB	_	45	parataxis	_	TokenRange=480:484
+59	jato	jato	NOUN	NOUN	_	58	obj	_	TokenRange=485:489
+60	curitiba	curitiba	NOUN	NOUN	_	59	flat	_	TokenRange=490:498
+61	158	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=499:502
+62	acordos	acordo	NOUN	NOUN	_	58	obj	_	TokenRange=503:510
+63	delacao	delacao	ADJ	ADJ	_	62	amod	_	TokenRange=511:518
+64	10	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=519:521
+65	leniencia	leniencia	NOUN	NOUN	_	62	appos	_	TokenRange=522:531
+66	especie	especie	NOUN	NOUN	_	65	flat	_	TokenRange=532:539
+67	delacao	_	NOUN	NOUN	_	65	flat	_	TokenRange=540:547
+68	pessoas	pessoa	NOUN	NOUN	_	65	appos	_	TokenRange=548:555
+69	juridicas	juridico	ADJ	ADJ	_	68	amod	_	TokenRange=556:565
+70	empresas	empresa	NOUN	NOUN	_	65	appos	_	TokenRange=566:574
+71	fechados	fechar	VERB	VERB	_	70	acl	_	TokenRange=575:583
+72	capital	capital	NOUN	NOUN	_	71	obj	_	TokenRange=584:591
+73	paranaense	paranaense	ADJ	ADJ	_	72	amod	_	TokenRange=592:602
+74	pouco	pouco	ADV	ADV	_	75	advmod	_	TokenRange=603:608
+75	tres	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=609:613
+76	anos	ano	NOUN	NOUN	_	78	nmod	_	TokenRange=614:618
+77	investigacoes	investigacoe	NOUN	NOUN	_	62	appos	_	TokenRange=619:632
+78	lava	lava	NOUN	ADJ	_	77	amod	_	SpaceAfter=No|TokenRange=633:637
+

@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula iguala selecao brasileira agora penta petista torna reu quinta vez sergio moro acatou denuncia contra lula manha hoje 19 quinto processo expresidente torna reu nesta acao lula acusado responsavel orcrim comandar estrutura ilicita captacao apoio parlamentar valores propinas resultantes contratos celebrados petrobras odebrecht s/a passam r 75 milhoes acordo denuncia parte lula lavada compra imovel localizado sp capital usado instalacao instituto lula propina petista sido intermediada antonio palocci compra imovel realizada nome dag construtora gastos incluindo aquisicao manutencao cerca r 12 milhoes
+1	lula	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	iguala	igualar	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	selecao	selecao	NOUN	NOUN	_	2	obj	_	TokenRange=12:19
+4	brasileira	brasileiro	ADJ	ADJ	_	3	amod	_	TokenRange=20:30
+5	agora	agora	ADV	ADV	_	2	advmod	_	TokenRange=31:36
+6	penta	penta	ADJ	ADJ	_	7	amod	_	TokenRange=37:42
+7	petista	petista	NOUN	NOUN	_	2	nsubj	_	TokenRange=43:50
+8	torna	tornar	VERB	VERB	_	9	cop	_	TokenRange=51:56
+9	reu	reu	ADJ	ADJ	_	7	amod	_	TokenRange=57:60
+10	quinta	_	ADJ	ADJ	_	11	amod	_	TokenRange=61:67
+11	vez	vez	NOUN	NOUN	_	14	nmod	_	TokenRange=68:71
+12	sergio	sergio	NOUN	NOUN	_	14	nsubj	_	TokenRange=72:78
+13	moro	moro	NOUN	NOUN	_	12	flat	_	TokenRange=79:83
+14	acatou	acatar	VERB	VERB	_	2	parataxis	_	TokenRange=84:90
+15	denuncia	denuncia	NOUN	NOUN	_	14	obj	_	TokenRange=91:99
+16	contra	_	ADP	ADP	_	17	case	_	TokenRange=100:106
+17	lula	_	NOUN	NOUN	_	15	nmod	_	TokenRange=107:111
+18	manha	manha	NOUN	NOUN	_	17	appos	_	TokenRange=112:117
+19	hoje	hoje	ADV	ADV	_	20	advmod	_	TokenRange=118:122
+20	19	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=123:125
+21	quinto	_	ADJ	ADJ	_	22	amod	_	TokenRange=126:132
+22	processo	processo	NOUN	NOUN	_	24	nsubj	_	TokenRange=133:141
+23	expresidente	expresidente	NOUN	NOUN	_	22	amod	_	TokenRange=142:154
+24	torna	tornar	VERB	VERB	_	2	parataxis	_	TokenRange=155:160
+25	reu	reu	NOUN	NOUN	_	24	obj	_	TokenRange=161:164
+26	nesta	_	ADP	ADP	_	27	case	_	TokenRange=165:170
+27	acao	acao	NOUN	NOUN	_	24	nmod	_	TokenRange=171:175
+28	lula	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=176:180
+29	acusado	acusar	VERB	VERB	_	27	acl	_	TokenRange=181:188
+30	responsavel	responsavel	ADJ	ADJ	_	29	xcomp	_	TokenRange=189:200
+31	orcrim	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=201:207
+32	comandar	comandar	VERB	VERB	_	29	ccomp	_	TokenRange=208:216
+33	estrutura	estrutura	NOUN	NOUN	_	32	obj	_	TokenRange=217:226
+34	ilicita	ilicito	ADJ	ADJ	_	33	amod	_	TokenRange=227:234
+35	captacao	_	VERB	VERB	_	36	case	_	TokenRange=235:243
+36	apoio	apoio	NOUN	NOUN	_	32	obj	_	TokenRange=244:249
+37	parlamentar	parlamentar	ADJ	ADJ	_	36	amod	_	TokenRange=250:261
+38	valores	_	NOUN	NOUN	_	36	appos	_	TokenRange=262:269
+39	propinas	propina	ADJ	NOUN	_	38	amod	_	TokenRange=270:278
+40	resultantes	resultante	ADJ	ADJ	_	41	amod	_	TokenRange=279:290
+41	contratos	contrato	NOUN	NOUN	_	38	appos	_	TokenRange=291:300
+42	celebrados	celebrar	VERB	VERB	_	41	acl	_	TokenRange=301:311
+43	petrobras	petrobra	NOUN	NOUN	_	41	amod	_	TokenRange=312:321
+44	odebrecht	_	NOUN	NOUN	_	41	appos	_	TokenRange=322:331
+45	s/a	_	PRON	PRON	_	44	flat	_	TokenRange=332:335
+46	passam	passar	VERB	VERB	_	2	parataxis	_	TokenRange=336:342
+47	r	r	NOUN	NOUN	_	46	nmod	_	TokenRange=343:344
+48	75	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=345:347
+49	milhoes	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=348:355
+50	acordo	acordo	NOUN	NOUN	_	46	obj	_	TokenRange=356:362
+51	denuncia	denuncio	ADJ	ADJ	_	52	amod	_	TokenRange=363:371
+52	parte	parte	NOUN	NOUN	_	46	nsubj	_	TokenRange=372:377
+53	lula	_	NOUN	NOUN	_	52	appos	_	TokenRange=378:382
+54	lavada	_	ADJ	ADJ	_	52	amod	_	TokenRange=383:389
+55	compra	compra	NOUN	NOUN	_	50	appos	_	TokenRange=390:396
+56	imovel	imovel	NOUN	NOUN	_	55	obj	_	TokenRange=397:403
+57	localizado	localizar	VERB	VERB	_	56	acl	_	TokenRange=404:414
+58	sp	_	NOUN	NOUN	_	56	appos	_	TokenRange=415:417
+59	capital	capital	NOUN	NOUN	_	58	flat	_	TokenRange=418:425
+60	usado	usar	VERB	VERB	_	56	acl	_	TokenRange=426:431
+61	instalacao	instalacao	NOUN	NOUN	_	60	obj	_	TokenRange=432:442
+62	instituto	instituto	NOUN	NOUN	_	61	flat	_	TokenRange=443:452
+63	lula	_	ADJ	ADJ	_	64	amod	_	TokenRange=453:457
+64	propina	propina	NOUN	NOUN	_	61	appos	_	TokenRange=458:465
+65	petista	petista	ADJ	ADJ	_	64	amod	_	TokenRange=466:473
+66	sido	ser	AUX	AUX	_	67	aux:pass	_	TokenRange=474:478
+67	intermediada	intermediar	VERB	VERB	_	64	acl	_	TokenRange=479:491
+68	antonio	antonio	NOUN	NOUN	_	67	nsubj:pass	_	TokenRange=492:499
+69	palocci	_	NOUN	NOUN	_	68	flat	_	TokenRange=500:507
+70	compra	comprar	VERB	VERB	_	2	parataxis	_	TokenRange=508:514
+71	imovel	imovel	NOUN	NOUN	_	70	obj	_	TokenRange=515:521
+72	realizada	realizar	VERB	VERB	_	71	acl	_	TokenRange=522:531
+73	nome	nome	NOUN	NOUN	_	72	obj	_	TokenRange=532:536
+74	dag	_	NOUN	NOUN	_	73	appos	_	TokenRange=537:540
+75	construtora	construtor	NOUN	NOUN	_	71	flat	_	TokenRange=541:552
+76	gastos	gasto	NOUN	NOUN	_	70	obj	_	TokenRange=553:559
+77	incluindo	incluir	VERB	VERB	_	71	acl	_	TokenRange=560:569
+78	aquisicao	aquisicao	NOUN	NOUN	_	77	obj	_	TokenRange=570:579
+79	manutencao	manutencao	ADJ	ADJ	_	78	amod	_	TokenRange=580:590
+80	cerca	cerca	ADV	ADV	_	83	advmod	_	TokenRange=591:596
+81	r	r	NOUN	NOUN	_	78	appos	_	TokenRange=597:598
+82	12	_	NUM	NUM	NumType=Card	83	nummod	_	TokenRange=599:601
+83	milhoes	_	NUM	NUM	NumType=Card	78	nummod	_	SpaceAfter=No|TokenRange=602:609
+

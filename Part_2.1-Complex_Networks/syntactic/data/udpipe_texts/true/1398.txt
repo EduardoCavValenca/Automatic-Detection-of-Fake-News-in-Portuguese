@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = relator pede suspensao mandato jean wyllys cuspe bolsonaro ricardo izar ppsp recomendou conselho etica deputado psol fique afastado cargo eletivo 120 dias colegiado ainda analisar sugestao relator relator conselho etica processo apura jean wyllys psolrj quebrou decoro parlamentar cuspir jair bolsonaro pscrj plenario camara deputado ricardo izar ppsp recomendou nesta tercafeira 13 suspensao mandato parlamentar psol 120 dias izar acolheu sugestao corregedorgeral camara deputado carlos manato sdes analisar caso recomendou mesa diretora suspensao mandato wyllys jean wyllys
+1	relator	relator	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=8:12
+3	suspensao	suspensao	NOUN	NOUN	_	2	obj	_	TokenRange=13:22
+4	mandato	mandato	NOUN	NOUN	_	2	obj	_	TokenRange=23:30
+5	jean	_	NOUN	NOUN	_	4	appos	_	TokenRange=31:35
+6	wyllys	_	NOUN	NOUN	_	5	flat	_	TokenRange=36:42
+7	cuspe	cuspe	NOUN	NOUN	_	5	appos	_	TokenRange=43:48
+8	bolsonaro	bolsonaro	ADJ	ADJ	_	7	amod	_	TokenRange=49:58
+9	ricardo	ricardo	ADJ	ADJ	_	10	amod	_	TokenRange=59:66
+10	izar	izar	NOUN	NOUN	_	7	appos	_	TokenRange=67:71
+11	ppsp	_	NOUN	NOUN	_	10	flat	_	TokenRange=72:76
+12	recomendou	recomendar	VERB	VERB	_	2	conj	_	TokenRange=77:87
+13	conselho	conselho	NOUN	NOUN	_	12	obj	_	TokenRange=88:96
+14	etica	etico	ADJ	ADJ	_	13	amod	_	TokenRange=97:102
+15	deputado	deputado	NOUN	NOUN	_	17	nsubj	_	TokenRange=103:111
+16	psol	psol	NOUN	NOUN	_	15	flat	_	TokenRange=112:116
+17	fique	ficar	VERB	VERB	_	2	conj	_	TokenRange=117:122
+18	afastado	afastado	ADJ	ADJ	_	17	xcomp	_	TokenRange=123:131
+19	cargo	cargo	NOUN	NOUN	_	18	nsubj	_	TokenRange=132:137
+20	eletivo	eletivo	ADJ	ADJ	_	19	amod	_	TokenRange=138:145
+21	120	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=146:149
+22	dias	dia	NOUN	NOUN	_	17	nmod	_	TokenRange=150:154
+23	colegiado	colegiado	ADJ	ADJ	_	22	amod	_	TokenRange=155:164
+24	ainda	ainda	ADV	ADV	_	25	advmod	_	TokenRange=165:170
+25	analisar	analisar	VERB	VERB	_	17	parataxis	_	TokenRange=171:179
+26	sugestao	sugestao	NOUN	NOUN	_	25	obj	_	TokenRange=180:188
+27	relator	relator	NOUN	NOUN	_	26	appos	_	TokenRange=189:196
+28	relator	relator	NOUN	NOUN	_	26	appos	_	TokenRange=197:204
+29	conselho	conselho	NOUN	NOUN	_	26	appos	_	TokenRange=205:213
+30	etica	etico	ADJ	ADJ	_	29	amod	_	TokenRange=214:219
+31	processo	processo	NOUN	NOUN	_	32	nsubj	_	TokenRange=220:228
+32	apura	apurar	VERB	VERB	_	26	acl:relcl	_	TokenRange=229:234
+33	jean	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=235:239
+34	wyllys	_	NOUN	NOUN	_	33	flat	_	TokenRange=240:246
+35	psolrj	_	NOUN	NOUN	_	33	flat	_	TokenRange=247:253
+36	quebrou	quebrar	VERB	VERB	_	32	parataxis	_	TokenRange=254:261
+37	decoro	decoro	NOUN	NOUN	_	36	obj	_	TokenRange=262:268
+38	parlamentar	parlamentar	ADJ	ADJ	_	37	amod	_	TokenRange=269:280
+39	cuspir	cuspir	NOUN	NOUN	_	36	nsubj	_	TokenRange=281:287
+40	jair	jair	NOUN	NOUN	_	37	appos	_	TokenRange=288:292
+41	bolsonaro	bolsonaro	NOUN	NOUN	_	40	flat	_	TokenRange=293:302
+42	pscrj	_	NOUN	NOUN	_	40	appos	_	TokenRange=303:308
+43	plenario	plenario	ADJ	ADJ	_	45	amod	_	TokenRange=309:317
+44	camara	camara	NOUN	NOUN	_	42	flat	_	TokenRange=318:324
+45	deputado	deputado	NOUN	NOUN	_	36	nsubj	_	TokenRange=325:333
+46	ricardo	ricardo	ADJ	ADJ	_	45	amod	_	TokenRange=334:341
+47	izar	izar	NOUN	NOUN	_	45	appos	_	TokenRange=342:346
+48	ppsp	_	NOUN	NOUN	_	47	flat	_	TokenRange=347:351
+49	recomendou	recomendar	VERB	VERB	_	2	conj	_	TokenRange=352:362
+50	nesta	_	ADP	ADP	_	51	case	_	TokenRange=363:368
+51	tercafeira	_	NOUN	NOUN	_	49	nmod	_	TokenRange=369:379
+52	13	_	NUM	NUM	NumType=Card	51	appos	_	TokenRange=380:382
+53	suspensao	suspensao	ADJ	ADJ	_	54	amod	_	TokenRange=383:392
+54	mandato	mandato	NOUN	NOUN	_	49	obj	_	TokenRange=393:400
+55	parlamentar	parlamentar	ADJ	ADJ	_	54	amod	_	TokenRange=401:412
+56	psol	psol	NOUN	NOUN	_	54	amod	_	TokenRange=413:417
+57	120	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=418:421
+58	dias	dia	NOUN	NOUN	_	60	nmod	_	TokenRange=422:426
+59	izar	izar	NOUN	PNOUN	_	60	nsubj	_	TokenRange=427:431
+60	acolheu	acolher	VERB	VERB	_	49	parataxis	_	TokenRange=432:439
+61	sugestao	sugestao	NOUN	NOUN	_	60	obj	_	TokenRange=440:448
+62	corregedorgeral	corregedorgeral	ADJ	ADJ	_	61	amod	_	TokenRange=449:464
+63	camara	camara	NOUN	NOUN	_	60	nsubj	_	TokenRange=465:471
+64	deputado	deputado	NOUN	NOUN	_	60	nsubj	_	TokenRange=472:480
+65	carlos	carlo	NOUN	NOUN	_	64	flat	_	TokenRange=481:487
+66	manato	manato	NOUN	NOUN	_	64	flat	_	TokenRange=488:494
+67	sdes	_	NOUN	NOUN	_	64	flat	_	TokenRange=495:499
+68	analisar	analisar	VERB	VERB	_	64	acl:relcl	_	TokenRange=500:508
+69	caso	caso	NOUN	NOUN	_	70	obj	_	TokenRange=509:513
+70	recomendou	recomendar	VERB	VERB	_	68	ccomp	_	TokenRange=514:524
+71	mesa	mesa	NOUN	NOUN	_	70	obj	_	TokenRange=525:529
+72	diretora	diretor	ADJ	ADJ	_	71	amod	_	TokenRange=530:538
+73	suspensao	suspensao	VERB	VERB	_	74	acl	_	TokenRange=539:548
+74	mandato	mandato	NOUN	NOUN	_	70	obj	_	TokenRange=549:556
+75	wyllys	_	PROPN	PNOUN	_	74	appos	_	TokenRange=557:563
+76	jean	_	PROPN	PNOUN	_	74	appos	_	TokenRange=564:568
+77	wyllys	_	PROPN	PNOUN	_	76	flat	_	SpaceAfter=No|TokenRange=569:575
+

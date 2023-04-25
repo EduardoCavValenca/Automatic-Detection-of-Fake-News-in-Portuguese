@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = novo vice camara popular colegas oferecer galinhada sessoes deputado fabio ramalho pmdbmg venceu eleicao vicepresidencia nesta quintafeira 2 deixou tras candidato oficial partido eleito primeiro vicepresidente camara nesta quintafeira 2 deputado fabio ramalho pmdbmg popular colegas oferecer galinhada leitao pururuca sessoes casa atravessam madrugada terceiro mandato deputado federal ramalho eleito segundo turno 265 votos contra 204 votos obtidos deputado osmar serraglio pmdbpr ano passado presidia comissao constituicao justica ccj importante camara venceu deputado lucio vieira lima pmdbba candidato oficial bancada pmdb apoio palacio planalto
+1	novo	novo	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	vice	vice	NOUN	NOUN	_	13	nsubj	_	TokenRange=5:9
+3	camara	camara	NOUN	NOUN	_	2	appos	_	TokenRange=10:16
+4	popular	popular	ADJ	ADJ	_	2	amod	_	TokenRange=17:24
+5	colegas	colega	NOUN	NOUN	_	2	appos	_	TokenRange=25:32
+6	oferecer	oferecer	VERB	VERB	_	2	acl:relcl	_	TokenRange=33:41
+7	galinhada	_	NOUN	NOUN	_	6	obj	_	TokenRange=42:51
+8	sessoes	_	NOUN	NOUN	_	6	obj	_	TokenRange=52:59
+9	deputado	deputado	NOUN	NOUN	_	6	obj	_	TokenRange=60:68
+10	fabio	fabio	NOUN	NOUN	_	9	appos	_	TokenRange=69:74
+11	ramalho	ramalho	NOUN	NOUN	_	9	flat	_	TokenRange=75:82
+12	pmdbmg	_	NOUN	NOUN	_	9	appos	_	TokenRange=83:89
+13	venceu	vencer	VERB	VERB	_	0	root	_	TokenRange=90:96
+14	eleicao	eleicao	NOUN	NOUN	_	13	obj	_	TokenRange=97:104
+15	vicepresidencia	vicepresidencia	NOUN	NOUN	_	14	flat	_	TokenRange=105:120
+16	nesta	_	ADP	ADP	_	17	case	_	TokenRange=121:126
+17	quintafeira	quintafeira	NOUN	NOUN	_	13	nmod	_	TokenRange=127:138
+18	2	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=139:140
+19	deixou	deixar	VERB	VERB	_	13	parataxis	_	TokenRange=141:147
+20	tras	_	ADV	ADV	_	19	advmod	_	TokenRange=148:152
+21	candidato	candidato	NOUN	NOUN	_	13	obj	_	TokenRange=153:162
+22	oficial	oficial	ADJ	ADJ	_	21	amod	_	TokenRange=163:170
+23	partido	partido	NOUN	NOUN	_	21	appos	_	TokenRange=171:178
+24	eleito	eleger	ADJ	ADJ	_	26	amod	_	TokenRange=179:185
+25	primeiro	primeiro	ADJ	ADJ	_	26	amod	_	TokenRange=186:194
+26	vicepresidente	vicepresidente	NOUN	NOUN	_	21	appos	_	TokenRange=195:209
+27	camara	camara	NOUN	NOUN	_	26	appos	_	TokenRange=210:216
+28	nesta	_	ADP	ADP	_	29	case	_	TokenRange=217:222
+29	quintafeira	quintafeira	NOUN	NOUN	_	26	nmod	_	TokenRange=223:234
+30	2	_	NUM	NUM	NumType=Card	29	appos	_	TokenRange=235:236
+31	deputado	deputado	NOUN	NOUN	_	29	appos	_	TokenRange=237:245
+32	fabio	fabio	NOUN	NOUN	_	31	appos	_	TokenRange=246:251
+33	ramalho	ramalho	NOUN	NOUN	_	32	flat	_	TokenRange=252:259
+34	pmdbmg	_	NOUN	NOUN	_	31	appos	_	TokenRange=260:266
+35	popular	popular	ADJ	ADJ	_	34	amod	_	TokenRange=267:274
+36	colegas	colega	NOUN	NOUN	_	34	appos	_	TokenRange=275:282
+37	oferecer	oferecer	VERB	VERB	_	31	acl:relcl	_	TokenRange=283:291
+38	galinhada	galinhada	NOUN	NOUN	_	37	obj	_	TokenRange=292:301
+39	leitao	leitao	NOUN	NOUN	_	38	flat	_	TokenRange=302:308
+40	pururuca	_	NOUN	NOUN	_	38	flat	_	TokenRange=309:317
+41	sessoes	sessoe	NOUN	NOUN	_	42	amod	_	TokenRange=318:325
+42	casa	casa	NOUN	NOUN	_	43	nsubj	_	TokenRange=326:330
+43	atravessam	atravessar	VERB	VERB	_	13	parataxis	_	TokenRange=331:341
+44	madrugada	madrugada	NOUN	NOUN	_	43	obj	_	TokenRange=342:351
+45	terceiro	_	ADJ	ADJ	_	46	amod	_	TokenRange=352:360
+46	mandato	mandato	NOUN	NOUN	_	43	obj	_	TokenRange=361:368
+47	deputado	deputado	NOUN	NOUN	_	43	nsubj	_	TokenRange=369:377
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=378:385
+49	ramalho	ramalho	ADJ	NOUN	_	47	amod	_	TokenRange=386:393
+50	eleito	eleger	ADJ	ADJ	_	47	amod	_	TokenRange=394:400
+51	segundo	segundo	ADJ	ADJ	_	52	amod	_	TokenRange=401:408
+52	turno	turno	NOUN	NOUN	_	47	appos	_	TokenRange=409:414
+53	265	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=415:418
+54	votos	voto	NOUN	NOUN	_	43	nsubj	_	TokenRange=419:424
+55	contra	_	ADP	ADP	_	57	case	_	TokenRange=425:431
+56	204	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=432:435
+57	votos	voto	NOUN	NOUN	_	54	nmod	_	TokenRange=436:441
+58	obtidos	obter	VERB	VERB	_	57	acl	_	TokenRange=442:449
+59	deputado	deputado	NOUN	NOUN	_	65	nsubj	_	TokenRange=450:458
+60	osmar	osmar	NOUN	NOUN	_	59	appos	_	TokenRange=459:464
+61	serraglio	serraglio	NOUN	NOUN	_	60	flat	_	TokenRange=465:474
+62	pmdbpr	pmdbpr	ADJ	ADJ	_	63	amod	_	TokenRange=475:481
+63	ano	ano	NOUN	NOUN	_	65	nmod	_	TokenRange=482:485
+64	passado	passado	ADJ	ADJ	_	63	amod	_	TokenRange=486:493
+65	presidia	presidir	VERB	VERB	_	13	parataxis	_	TokenRange=494:502
+66	comissao	comissao	NOUN	NOUN	_	65	obj	_	TokenRange=503:511
+67	constituicao	constituicao	ADJ	ADJ	_	66	amod	_	TokenRange=512:524
+68	justica	justico	ADJ	ADJ	_	66	amod	_	TokenRange=525:532
+69	ccj	_	NOUN	NOUN	_	66	appos	_	TokenRange=533:536
+70	importante	importante	ADJ	ADJ	_	71	amod	_	TokenRange=537:547
+71	camara	camara	NOUN	NOUN	_	72	nsubj	_	TokenRange=548:554
+72	venceu	vencer	VERB	VERB	_	13	parataxis	_	TokenRange=555:561
+73	deputado	deputado	NOUN	NOUN	_	72	obj	_	TokenRange=562:570
+74	lucio	lucio	NOUN	NOUN	_	73	appos	_	TokenRange=571:576
+75	vieira	vieira	NOUN	NOUN	_	74	flat	_	TokenRange=577:583
+76	lima	lima	ADJ	ADJ	_	74	flat	_	TokenRange=584:588
+77	pmdbba	_	ADJ	ADJ	_	78	amod	_	TokenRange=589:595
+78	candidato	candidato	NOUN	NOUN	_	73	appos	_	TokenRange=596:605
+79	oficial	oficial	ADJ	ADJ	_	78	amod	_	TokenRange=606:613
+80	bancada	bancada	NOUN	NOUN	_	78	appos	_	TokenRange=614:621
+81	pmdb	_	NOUN	NOUN	_	78	appos	_	TokenRange=622:626
+82	apoio	apoio	NOUN	NOUN	_	78	appos	_	TokenRange=627:632
+83	palacio	palacio	NOUN	NOUN	_	82	flat	_	TokenRange=633:640
+84	planalto	planalto	ADJ	ADJ	_	83	amod	_	SpaceAfter=No|TokenRange=641:649
+

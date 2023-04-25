@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 26 julho 2017 boa noite aqui principais noticias terminar dia beminformado gasolina agora vai aumentar liminar judicial impedia alta sobre tributo combustiveis derrubada decreto temer volta valer taxa basica juros voltou ficar abaixo 10 1 vez desde final 2013 boa noticiario economico contraponto rombo r 56 bilhoes contas governo pior 1 semestre 21 anos volta valer decreto presidencial elevou aliquota pis/cofins sobre gasolina diesel etanol presidente tribunal regional federal
+1	quartafeira	quartafeira	NOUN	NOUN	_	16	parataxis	_	TokenRange=0:11
+2	26	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:14
+3	julho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:20
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=21:25
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=26:29
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=36:40
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=41:51
+9	noticias	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=52:60
+10	terminar	terminar	VERB	VERB	_	6	acl:relcl	_	TokenRange=61:69
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=70:73
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=74:86
+13	gasolina	gasolina	NOUN	NOUN	_	10	nsubj	_	TokenRange=87:95
+14	agora	agora	ADV	ADV	_	16	advmod	_	TokenRange=96:101
+15	vai	ir	AUX	AUX	_	16	aux	_	TokenRange=102:105
+16	aumentar	aumentar	VERB	VERB	_	0	root	_	TokenRange=106:114
+17	liminar	liminar	NOUN	NOUN	_	16	obj	_	TokenRange=115:122
+18	judicial	judicial	ADJ	ADJ	_	17	amod	_	TokenRange=123:131
+19	impedia	impedir	VERB	VERB	_	16	parataxis	_	TokenRange=132:139
+20	alta	_	NOUN	NOUN	_	19	obj	_	TokenRange=140:144
+21	sobre	_	ADP	ADP	_	22	case	_	TokenRange=145:150
+22	tributo	tributo	NOUN	NOUN	_	20	nmod	_	TokenRange=151:158
+23	combustiveis	combustivel	ADJ	ADJ	_	22	amod	_	TokenRange=159:171
+24	derrubada	derrubado	ADJ	ADJ	_	25	amod	_	TokenRange=172:181
+25	decreto	decreto	NOUN	NOUN	_	33	nsubj	_	TokenRange=182:189
+26	temer	temer	NOUN	NOUN	_	25	appos	_	TokenRange=190:195
+27	volta	volta	NOUN	NOUN	_	25	appos	_	TokenRange=196:201
+28	valer	valer	VERB	VERB	_	25	amod	_	TokenRange=202:207
+29	taxa	taxa	NOUN	NOUN	_	28	obj	_	TokenRange=208:212
+30	basica	basico	ADJ	ADJ	_	29	amod	_	TokenRange=213:219
+31	juros	juro	NOUN	NOUN	_	33	nsubj	_	TokenRange=220:225
+32	voltou	voltar	AUX	AUX	_	33	aux	_	TokenRange=226:232
+33	ficar	ficar	VERB	VERB	_	16	conj	_	TokenRange=233:238
+34	abaixo	abaixo	ADV	ADV	_	33	advmod	_	TokenRange=239:245
+35	10	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=246:248
+36	1	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=249:250
+37	vez	vez	NOUN	NOUN	_	33	nmod	_	TokenRange=251:254
+38	desde	_	ADP	ADP	_	39	case	_	TokenRange=255:260
+39	final	final	NOUN	NOUN	_	33	nmod	_	TokenRange=261:266
+40	2013	_	NUM	NUM	NumType=Card	39	nmod	_	TokenRange=267:271
+41	boa	bom	ADJ	ADJ	_	42	amod	_	TokenRange=272:275
+42	noticiario	noticiario	NOUN	NOUN	_	33	nsubj	_	TokenRange=276:286
+43	economico	economico	ADJ	ADJ	_	42	amod	_	TokenRange=287:296
+44	contraponto	contraponto	NOUN	NOUN	_	42	appos	_	TokenRange=297:308
+45	rombo	rombo	NOUN	NOUN	_	42	appos	_	TokenRange=309:314
+46	r	r	NOUN	NOUN	_	45	flat	_	TokenRange=315:316
+47	56	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=317:319
+48	bilhoes	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=320:327
+49	contas	conta	NOUN	NOUN	_	45	appos	_	TokenRange=328:334
+50	governo	governo	NOUN	NOUN	_	49	flat	_	TokenRange=335:342
+51	pior	pior	ADJ	ADJ	_	49	amod	_	TokenRange=343:347
+52	1	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=348:349
+53	semestre	semestre	NOUN	NOUN	_	49	appos	_	TokenRange=350:358
+54	21	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=359:361
+55	anos	ano	NOUN	NOUN	_	60	nsubj	_	TokenRange=362:366
+56	volta	volta	NOUN	NOUN	_	60	nsubj	_	TokenRange=367:372
+57	valer	valer	ADJ	ADJ	_	58	amod	_	TokenRange=373:378
+58	decreto	decreto	NOUN	NOUN	_	60	nsubj	_	TokenRange=379:386
+59	presidencial	presidencial	ADJ	ADJ	_	58	amod	_	TokenRange=387:399
+60	elevou	elevar	VERB	VERB	_	16	parataxis	_	TokenRange=400:406
+61	aliquota	_	NOUN	NOUN	_	60	obj	_	TokenRange=407:415
+62	pis/cofins	_	NOUN	NOUN	_	61	flat	_	TokenRange=416:426
+63	sobre	_	ADP	ADP	_	64	case	_	TokenRange=427:432
+64	gasolina	gasolina	NOUN	NOUN	_	62	nmod	_	TokenRange=433:441
+65	diesel	diesel	ADJ	ADJ	_	64	amod	_	TokenRange=442:448
+66	etanol	etanol	NOUN	NOUN	_	64	appos	_	TokenRange=449:455
+67	presidente	presidente	NOUN	NOUN	_	61	appos	_	TokenRange=456:466
+68	tribunal	tribunal	NOUN	NOUN	_	67	amod	_	TokenRange=467:475
+69	regional	regional	ADJ	ADJ	_	68	amod	_	TokenRange=476:484
+70	federal	federal	ADJ	ADJ	_	68	amod	_	SpaceAfter=No|TokenRange=485:492
+

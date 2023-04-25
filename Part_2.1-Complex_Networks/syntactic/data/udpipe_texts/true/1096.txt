@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tercafeira 18 abril 2017 boa noite aqui principais noticias terminar dia beminformado projeto governo regras aposentadoria sendo alterado camara texto ainda fechado relator anunciou intencao reduzir exemplo idade minima aposentadoria mulheres passaria 65 62 anos dia tenso
+1	tercafeira	tercafeira	NOUN	NOUN	_	0	root	_	TokenRange=0:10
+2	18	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=11:13
+3	abril	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:19
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=20:24
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=25:28
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=35:39
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=40:50
+9	noticias	noticia	NOUN	NOUN	_	6	appos	_	TokenRange=51:59
+10	terminar	terminar	VERB	VERB	_	6	acl:relcl	_	TokenRange=60:68
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=69:72
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=73:85
+13	projeto	projeto	NOUN	NOUN	_	10	nsubj	_	TokenRange=86:93
+14	governo	governo	NOUN	NOUN	_	13	flat	_	TokenRange=94:101
+15	regras	regra	NOUN	NOUN	_	13	appos	_	TokenRange=102:108
+16	aposentadoria	aposentadoria	NOUN	NOUN	_	13	appos	_	TokenRange=109:122
+17	sendo	ser	AUX	AUX	_	18	aux:pass	_	TokenRange=123:128
+18	alterado	alterar	VERB	VERB	_	13	acl	_	TokenRange=129:137
+19	camara	camara	NOUN	NOUN	_	18	nsubj:pass	_	TokenRange=138:144
+20	texto	texto	NOUN	NOUN	_	19	appos	_	TokenRange=145:150
+21	ainda	ainda	ADV	ADV	_	22	advmod	_	TokenRange=151:156
+22	fechado	fechar	VERB	VERB	_	23	acl	_	TokenRange=157:164
+23	relator	relator	NOUN	NOUN	_	24	nsubj	_	TokenRange=165:172
+24	anunciou	anunciar	VERB	VERB	_	1	parataxis	_	TokenRange=173:181
+25	intencao	intencao	NOUN	NOUN	_	24	obj	_	TokenRange=182:190
+26	reduzir	reduzir	VERB	VERB	_	25	acl:inf	_	TokenRange=191:198
+27	exemplo	exemplo	NOUN	NOUN	_	26	obj	_	TokenRange=199:206
+28	idade	idade	NOUN	NOUN	_	26	obj	_	TokenRange=207:212
+29	minima	minimo	ADJ	ADJ	_	28	amod	_	TokenRange=213:219
+30	aposentadoria	aposentadoria	NOUN	NOUN	_	28	appos	_	TokenRange=220:233
+31	mulheres	mulher	NOUN	NOUN	_	28	appos	_	TokenRange=234:242
+32	passaria	passar	VERB	VERB	_	24	parataxis	_	TokenRange=243:251
+33	65	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=252:254
+34	62	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=255:257
+35	anos	ano	NOUN	NOUN	_	32	obj	_	TokenRange=258:262
+36	dia	dia	NOUN	NOUN	_	32	nmod	_	TokenRange=263:266
+37	tenso	tenso	ADJ	ADJ	_	36	amod	_	SpaceAfter=No|TokenRange=267:272
+

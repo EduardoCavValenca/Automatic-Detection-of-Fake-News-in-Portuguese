@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = atriz global define lula cinco palavras entrevista radio jovem pan ouca entrevista radio jovem pan fm atriz rosamaria murinho acusou lula distorcer fatos mentir jornal internacional alem covarde idiota atriz comentou motivacoes manifestacoes ocorridas brasil opiniao respeito disto ouca abaixo
+1	atriz	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	global	global	ADJ	ADJ	_	1	amod	_	TokenRange=6:12
+3	define	definir	VERB	VERB	_	0	root	_	TokenRange=13:19
+4	lula	lula	NOUN	NOUN	_	3	obj	_	TokenRange=20:24
+5	cinco	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=25:30
+6	palavras	palavra	NOUN	NOUN	_	3	obj	_	TokenRange=31:39
+7	entrevista	entrevista	NOUN	NOUN	_	3	parataxis	_	TokenRange=40:50
+8	radio	radio	NOUN	NOUN	_	7	appos	_	TokenRange=51:56
+9	jovem	jovem	ADJ	ADJ	_	8	amod	_	TokenRange=57:62
+10	pan	_	NOUN	NOUN	_	8	appos	_	TokenRange=63:66
+11	ouca	_	DET	DET	_	12	det	_	TokenRange=67:71
+12	entrevista	entrevista	NOUN	NOUN	_	3	nsubj	_	TokenRange=72:82
+13	radio	radio	NOUN	NOUN	_	12	appos	_	TokenRange=83:88
+14	jovem	jovem	ADJ	ADJ	_	13	amod	_	TokenRange=89:94
+15	pan	_	NOUN	NOUN	_	12	appos	_	TokenRange=95:98
+16	fm	_	NOUN	NOUN	_	17	amod	_	TokenRange=99:101
+17	atriz	_	NOUN	NOUN	_	12	appos	_	TokenRange=102:107
+18	rosamaria	rosamaria	NOUN	NOUN	_	17	appos	_	TokenRange=108:117
+19	murinho	_	NOUN	NOUN	_	18	flat	_	TokenRange=118:125
+20	acusou	acusar	VERB	VERB	_	3	parataxis	_	TokenRange=126:132
+21	lula	_	NOUN	NOUN	_	20	obj	_	TokenRange=133:137
+22	distorcer	distorcer	VERB	VERB	_	20	ccomp	_	TokenRange=138:147
+23	fatos	fato	NOUN	NOUN	_	22	obj	_	TokenRange=148:153
+24	mentir	mentir	VERB	VERB	_	23	acl:inf	_	TokenRange=154:160
+25	jornal	jornal	NOUN	NOUN	_	24	obj	_	TokenRange=161:167
+26	internacional	internacional	ADJ	ADJ	_	25	amod	_	TokenRange=168:181
+27	alem	alem	ADV	ADV	_	25	advmod	_	TokenRange=182:186
+28	covarde	covarde	ADJ	ADJ	_	30	amod	_	TokenRange=187:194
+29	idiota	idiota	ADJ	ADJ	_	30	amod	_	TokenRange=195:201
+30	atriz	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=202:207
+31	comentou	comentar	VERB	VERB	_	3	conj	_	TokenRange=208:216
+32	motivacoes	motivacoe	NOUN	NOUN	_	31	obj	_	TokenRange=217:227
+33	manifestacoes	manifestacoe	NOUN	NOUN	_	32	amod	_	TokenRange=228:241
+34	ocorridas	ocorrer	VERB	VERB	_	32	acl	_	TokenRange=242:251
+35	brasil	brasil	NOUN	NOUN	_	34	nmod	_	TokenRange=252:258
+36	opiniao	opiniao	ADJ	ADJ	_	37	amod	_	TokenRange=259:266
+37	respeito	respeito	NOUN	NOUN	_	31	obj	_	TokenRange=267:275
+38	disto	_	X	ADPPRON	_	37	nmod	_	TokenRange=276:281
+39	ouca	_	PRON	PRON	_	37	nmod	_	TokenRange=282:286
+40	abaixo	abaixo	ADV	ADV	_	31	advmod	_	SpaceAfter=No|TokenRange=287:293
+

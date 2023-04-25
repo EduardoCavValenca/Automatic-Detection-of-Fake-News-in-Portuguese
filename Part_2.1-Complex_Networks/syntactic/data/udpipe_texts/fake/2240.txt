@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senador bauer quiser ver grande obra pt viajar cuba angola senador paulo bauer sc discursou agora pouco tribuna senado palavras bauer quiser ver grande obra governo petista deve ir cuba angola alguns outros paises africanos todas obras iniciadas acabadas construidas dinheiro cofres publicos brasil sim golpe
+1	senador	senador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	bauer	bauer	ADJ	ADJ	_	1	amod	_	TokenRange=8:13
+3	quiser	querer	VERB	VERB	_	0	root	_	TokenRange=14:20
+4	ver	ver	VERB	VERB	_	3	xcomp	_	TokenRange=21:24
+5	grande	grande	ADJ	ADJ	_	6	amod	_	TokenRange=25:31
+6	obra	obra	NOUN	NOUN	_	4	obj	_	TokenRange=32:36
+7	pt	_	PROPN	PNOUN	_	8	nsubj	_	TokenRange=37:39
+8	viajar	viajar	VERB	VERB	_	3	advcl	_	TokenRange=40:46
+9	cuba	_	NOUN	NOUN	_	8	obj	_	TokenRange=47:51
+10	angola	_	NOUN	NOUN	_	8	obj	_	TokenRange=52:58
+11	senador	senador	NOUN	NOUN	_	15	nsubj	_	TokenRange=59:66
+12	paulo	paulo	NOUN	NOUN	_	11	appos	_	TokenRange=67:72
+13	bauer	bauer	NOUN	NOUN	_	12	flat	_	TokenRange=73:78
+14	sc	_	X	X	_	12	flat	_	TokenRange=79:81
+15	discursou	discursar	VERB	VERB	_	3	conj	_	TokenRange=82:91
+16	agora	agora	ADV	ADV	_	15	advmod	_	TokenRange=92:97
+17	pouco	_	DET	DET	_	18	det	_	TokenRange=98:103
+18	tribuna	tribuna	NOUN	NOUN	_	15	obj	_	TokenRange=104:111
+19	senado	senado	NOUN	NOUN	_	18	appos	_	TokenRange=112:118
+20	palavras	palavra	NOUN	NOUN	_	15	nsubj	_	TokenRange=119:127
+21	bauer	bauer	ADJ	ADJ	_	20	amod	_	TokenRange=128:133
+22	quiser	querer	VERB	VERB	_	20	acl:relcl	_	TokenRange=134:140
+23	ver	ver	VERB	VERB	_	22	xcomp	_	TokenRange=141:144
+24	grande	grande	ADJ	ADJ	_	25	amod	_	TokenRange=145:151
+25	obra	obra	NOUN	NOUN	_	23	obj	_	TokenRange=152:156
+26	governo	governo	NOUN	NOUN	_	29	nsubj	_	TokenRange=157:164
+27	petista	petista	ADJ	ADJ	_	26	amod	_	TokenRange=165:172
+28	deve	dever	AUX	AUX	_	29	aux	_	TokenRange=173:177
+29	ir	ir	VERB	VERB	_	22	conj	_	TokenRange=178:180
+30	cuba	_	NOUN	NOUN	_	29	nmod	_	TokenRange=181:185
+31	angola	_	NOUN	NOUN	_	29	nmod	_	TokenRange=186:192
+32	alguns	_	DET	DET	_	34	det	_	TokenRange=193:199
+33	outros	_	DET	DET	_	34	det	_	TokenRange=200:206
+34	paises	paise	NOUN	NOUN	_	29	nsubj	_	TokenRange=207:213
+35	africanos	africano	ADJ	ADJ	_	34	amod	_	TokenRange=214:223
+36	todas	_	DET	DET	_	37	det	_	TokenRange=224:229
+37	obras	obra	NOUN	NOUN	_	34	appos	_	TokenRange=230:235
+38	iniciadas	iniciar	VERB	VERB	_	37	acl	_	TokenRange=236:245
+39	acabadas	acabar	VERB	ADJ	_	37	acl	_	TokenRange=246:254
+40	construidas	construido	ADJ	ADJ	_	37	acl	_	TokenRange=255:266
+41	dinheiro	dinheiro	NOUN	NOUN	_	37	appos	_	TokenRange=267:275
+42	cofres	cofre	NOUN	NOUN	_	37	appos	_	TokenRange=276:282
+43	publicos	publico	ADJ	ADJ	_	42	amod	_	TokenRange=283:291
+44	brasil	brasil	NOUN	NOUN	_	46	appos	_	TokenRange=292:298
+45	sim	sim	ADV	ADV	_	46	advmod	_	TokenRange=299:302
+46	golpe	golpe	NOUN	NOUN	_	42	appos	_	SpaceAfter=No|TokenRange=303:308
+

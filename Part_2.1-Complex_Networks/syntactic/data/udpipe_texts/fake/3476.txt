@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apresentadora sbt diz aguenta nojo vai chegar lula apresentadora sbt cristina rocha disse lula maiores decepcoes brasil poder saber usar poder chegar lula chega corrupcao disse cristina
+1	apresentadora	apresentador	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:13
+2	sbt	_	NOUN	NOUN	_	1	appos	_	TokenRange=14:17
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=18:21
+4	aguenta	aguento	ADJ	ADJ	_	3	obj	_	TokenRange=22:29
+5	nojo	nojo	NOUN	NOUN	_	7	nsubj	_	TokenRange=30:34
+6	vai	ir	AUX	AUX	_	7	aux	_	TokenRange=35:38
+7	chegar	chegar	VERB	VERB	_	3	ccomp	_	TokenRange=39:45
+8	lula	lula	NOUN	NOUN	_	7	nsubj	_	TokenRange=46:50
+9	apresentadora	apresentador	NOUN	NOUN	_	7	nsubj	_	TokenRange=51:64
+10	sbt	sbt	NOUN	NOUN	_	9	appos	_	TokenRange=65:68
+11	cristina	cristino	ADJ	ADJ	_	9	amod	_	TokenRange=69:77
+12	rocha	rocha	NOUN	NOUN	_	13	nsubj	_	TokenRange=78:83
+13	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=84:89
+14	lula	lula	NOUN	NOUN	_	13	obj	_	TokenRange=90:94
+15	maiores	maior	ADJ	ADJ	_	16	amod	_	TokenRange=95:102
+16	decepcoes	_	NOUN	NOUN	_	13	obj	_	TokenRange=103:112
+17	brasil	brasil	NOUN	NOUN	_	16	appos	_	TokenRange=113:119
+18	poder	poder	AUX	AUX	_	19	aux	_	TokenRange=120:125
+19	saber	saber	VERB	VERB	_	16	acl:relcl	_	TokenRange=126:131
+20	usar	usar	VERB	VERB	_	19	xcomp	_	TokenRange=132:136
+21	poder	poder	AUX	AUX	_	22	aux	_	TokenRange=137:142
+22	chegar	chegar	VERB	VERB	_	19	xcomp	_	TokenRange=143:149
+23	lula	lula	NOUN	NOUN	_	24	nsubj	_	TokenRange=150:154
+24	chega	chegar	VERB	VERB	_	19	ccomp	_	TokenRange=155:160
+25	corrupcao	corrupcao	NOUN	NOUN	_	24	nsubj	_	TokenRange=161:170
+26	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=171:176
+27	cristina	cristina	NOUN	NOUN	_	26	obj	_	SpaceAfter=No|TokenRange=177:185
+

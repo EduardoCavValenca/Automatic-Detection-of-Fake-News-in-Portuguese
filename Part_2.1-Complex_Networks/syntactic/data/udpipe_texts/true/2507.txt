@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apenas doze horas supremo tribunal federal impedir prisao menos conclusao julgamento habeas corpus preventivo marcado dia 4 expresidente lula voltou desafiar forcatarefa operacao lava jato atribuiu mentiras voltou negar veemencia dono apartamento triplex guaruja pivo condenacao 12 anos mes prisao clamou quero suprema corte analise merito
+1	apenas	apenas	ADV	ADV	_	2	advmod	_	TokenRange=0:6
+2	doze	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=7:11
+3	horas	hora	NOUN	NOUN	_	21	nmod	_	TokenRange=12:17
+4	supremo	supremo	ADJ	ADJ	_	5	amod	_	TokenRange=18:25
+5	tribunal	tribunal	NOUN	NOUN	_	3	appos	_	TokenRange=26:34
+6	federal	federal	ADJ	ADJ	_	5	amod	_	TokenRange=35:42
+7	impedir	impedir	VERB	VERB	_	5	acl	_	TokenRange=43:50
+8	prisao	prisao	NOUN	NOUN	_	7	obj	_	TokenRange=51:57
+9	menos	menos	ADV	ADV	_	10	advmod	_	TokenRange=58:63
+10	conclusao	conclusao	ADJ	ADJ	_	11	amod	_	TokenRange=64:73
+11	julgamento	julgamento	NOUN	NOUN	_	7	obj	_	TokenRange=74:84
+12	habeas	habeas	NOUN	NOUN	_	11	appos	_	TokenRange=85:91
+13	corpus	corpus	NOUN	NOUN	_	12	flat	_	TokenRange=92:98
+14	preventivo	preventivo	ADJ	ADJ	_	11	amod	_	TokenRange=99:109
+15	marcado	marcar	VERB	VERB	_	11	acl	_	TokenRange=110:117
+16	dia	dia	NOUN	NOUN	_	15	nmod	_	TokenRange=118:121
+17	4	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=122:123
+18	expresidente	expresidente	NOUN	NOUN	_	15	nsubj	_	TokenRange=124:136
+19	lula	_	NOUN	NOUN	_	18	appos	_	TokenRange=137:141
+20	voltou	voltar	AUX	AUX	_	21	aux	_	TokenRange=142:148
+21	desafiar	desafiar	VERB	VERB	_	0	root	_	TokenRange=149:157
+22	forcatarefa	forcatarefa	NOUN	NOUN	_	21	obj	_	TokenRange=158:169
+23	operacao	operacao	NOUN	NOUN	_	22	appos	_	TokenRange=170:178
+24	lava	lava	NOUN	NOUN	_	23	flat	_	TokenRange=179:183
+25	jato	jato	NOUN	NOUN	_	26	nsubj	_	TokenRange=184:188
+26	atribuiu	atribuir	VERB	VERB	_	22	acl:relcl	_	TokenRange=189:197
+27	mentiras	mentira	NOUN	NOUN	_	26	obj	_	TokenRange=198:206
+28	voltou	voltar	AUX	AUX	_	29	aux	_	TokenRange=207:213
+29	negar	negar	VERB	VERB	_	26	ccomp	_	TokenRange=214:219
+30	veemencia	veemencia	NOUN	NOUN	_	29	obj	_	TokenRange=220:229
+31	dono	dono	NOUN	NOUN	_	30	appos	_	TokenRange=230:234
+32	apartamento	apartamento	NOUN	NOUN	_	30	appos	_	TokenRange=235:246
+33	triplex	_	NOUN	NOUN	_	32	flat	_	TokenRange=247:254
+34	guaruja	guaruja	NOUN	NOUN	_	32	appos	_	TokenRange=255:262
+35	pivo	pivo	ADJ	ADJ	_	34	flat	_	TokenRange=263:267
+36	condenacao	condenacao	NOUN	NOUN	_	34	flat	_	TokenRange=268:278
+37	12	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=279:281
+38	anos	ano	NOUN	NOUN	_	36	appos	_	TokenRange=282:286
+39	mes	_	DET	DET	_	40	det	_	TokenRange=287:290
+40	prisao	prisao	NOUN	NOUN	_	42	nsubj	_	TokenRange=291:297
+41	clamou	clamar	VERB	VERB	_	42	aux	_	TokenRange=298:304
+42	quero	querer	VERB	VERB	_	21	parataxis	_	TokenRange=305:310
+43	suprema	supremo	ADJ	ADJ	_	44	amod	_	TokenRange=311:318
+44	corte	corte	NOUN	NOUN	_	42	obj	_	TokenRange=319:324
+45	analise	analise	NOUN	NOUN	_	42	obj	_	TokenRange=325:332
+46	merito	merito	ADJ	ADJ	_	45	amod	_	SpaceAfter=No|TokenRange=333:339
+

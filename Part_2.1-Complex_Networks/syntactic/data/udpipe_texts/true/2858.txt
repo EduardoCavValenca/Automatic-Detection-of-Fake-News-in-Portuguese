@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = duque diz estar disposto devolver 20 milhoes euros recebidos propina exdiretor petrobras reconheceu crimes desvendados operacao lava jato disse lula pleno conhecimento exdiretor area servicos petrobras renato duque afirmou juiz sergio moro responsavel processos operacao lava jato primeira instancia disposto devolver 20 milhoes euros cerca r 69 milhoes recebeu propina dinheiro segundo duas contas exterior gostaria novamente enfatizar interesse assinar repatriacao necessario dinheiro venha volte ai pra direito disse duque afirmacao faz parte interrogatorio sextafeira 5 primeira vez falou sobre esquema corrupcao descoberto petrobras exdiretor servicos
+1	duque	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	estar	estar	VERB	VERB	_	2	xcomp	_	TokenRange=10:15
+4	disposto	disposto	ADJ	ADJ	_	3	xcomp	_	TokenRange=16:24
+5	devolver	devolver	VERB	VERB	_	3	csubj	_	TokenRange=25:33
+6	20	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=34:36
+7	milhoes	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=37:44
+8	euros	euro	NOUN	NOUN	_	5	obj	_	TokenRange=45:50
+9	recebidos	receber	VERB	VERB	_	8	acl	_	TokenRange=51:60
+10	propina	propina	NOUN	NOUN	_	9	obj	_	TokenRange=61:68
+11	exdiretor	exdiretor	ADJ	ADJ	_	8	amod	_	TokenRange=69:78
+12	petrobras	petrobra	NOUN	NOUN	_	10	amod	_	TokenRange=79:88
+13	reconheceu	reconhecer	VERB	VERB	_	3	conj	_	TokenRange=89:99
+14	crimes	crime	NOUN	NOUN	_	13	obj	_	TokenRange=100:106
+15	desvendados	desvendado	ADJ	ADJ	_	14	acl	_	TokenRange=107:118
+16	operacao	operacao	NOUN	NOUN	_	13	nsubj	_	TokenRange=119:127
+17	lava	lava	NOUN	NOUN	_	14	appos	_	TokenRange=128:132
+18	jato	jato	NOUN	NOUN	_	17	flat	_	TokenRange=133:137
+19	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=138:143
+20	lula	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=144:148
+21	pleno	pleno	ADJ	ADJ	_	22	amod	_	TokenRange=149:154
+22	conhecimento	conhecimento	NOUN	NOUN	_	19	nsubj	_	TokenRange=155:167
+23	exdiretor	exdiretor	ADJ	ADJ	_	22	amod	_	TokenRange=168:177
+24	area	_	NOUN	NOUN	_	22	appos	_	TokenRange=178:182
+25	servicos	servico	ADJ	ADJ	_	24	amod	_	TokenRange=183:191
+26	petrobras	petrobra	NOUN	NOUN	_	24	amod	_	TokenRange=192:201
+27	renato	renato	NOUN	NOUN	_	22	appos	_	TokenRange=202:208
+28	duque	_	NOUN	NOUN	_	27	flat	_	TokenRange=209:214
+29	afirmou	afirmar	VERB	VERB	_	22	acl:relcl	_	TokenRange=215:222
+30	juiz	juiz	NOUN	NOUN	_	29	obj	_	TokenRange=223:227
+31	sergio	sergio	ADJ	NOUN	_	30	appos	_	TokenRange=228:234
+32	moro	moro	NOUN	NOUN	_	30	flat	_	TokenRange=235:239
+33	responsavel	responsavel	ADJ	ADJ	_	30	amod	_	TokenRange=240:251
+34	processos	processo	NOUN	NOUN	_	30	appos	_	TokenRange=252:261
+35	operacao	operacao	NOUN	NOUN	_	34	appos	_	TokenRange=262:270
+36	lava	lava	NOUN	NOUN	_	35	appos	_	TokenRange=271:275
+37	jato	jato	NOUN	NOUN	_	36	flat	_	TokenRange=276:280
+38	primeira	primeiro	ADJ	ADJ	_	39	amod	_	TokenRange=281:289
+39	instancia	instancia	NOUN	NOUN	_	29	nsubj	_	TokenRange=290:299
+40	disposto	disposto	ADJ	ADJ	_	39	amod	_	TokenRange=300:308
+41	devolver	devolver	VERB	VERB	_	39	acl:inf	_	TokenRange=309:317
+42	20	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=318:320
+43	milhoes	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=321:328
+44	euros	euro	NOUN	NOUN	_	41	obj	_	TokenRange=329:334
+45	cerca	cerca	ADV	ADV	_	48	advmod	_	TokenRange=335:340
+46	r	r	NOUN	NOUN	_	49	nsubj	_	TokenRange=341:342
+47	69	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=343:345
+48	milhoes	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=346:353
+49	recebeu	receber	VERB	VERB	_	30	acl:relcl	_	TokenRange=354:361
+50	propina	propina	NOUN	NOUN	_	49	obj	_	TokenRange=362:369
+51	dinheiro	dinheiro	NOUN	NOUN	_	50	flat	_	TokenRange=370:378
+52	segundo	_	ADP	ADP	_	54	case	_	TokenRange=379:386
+53	duas	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=387:391
+54	contas	conta	NOUN	NOUN	_	49	nmod	_	TokenRange=392:398
+55	exterior	exterior	ADJ	ADJ	_	54	amod	_	TokenRange=399:407
+56	gostaria	gostar	VERB	VERB	_	49	conj	_	TokenRange=408:416
+57	novamente	novamente	ADV	ADV	_	56	advmod	_	TokenRange=417:426
+58	enfatizar	enfatizar	VERB	VERB	_	56	xcomp	_	TokenRange=427:436
+59	interesse	interesse	NOUN	NOUN	_	58	obj	_	TokenRange=437:446
+60	assinar	assinar	VERB	VERB	_	59	acl:inf	_	TokenRange=447:454
+61	repatriacao	repatriacao	NOUN	NOUN	_	60	obj	_	TokenRange=455:466
+62	necessario	necessario	ADJ	ADJ	_	61	amod	_	TokenRange=467:477
+63	dinheiro	dinheiro	NOUN	NOUN	_	64	nsubj	_	TokenRange=478:486
+64	venha	vir	VERB	VERB	_	60	conj	_	TokenRange=487:492
+65	volte	volte	NOUN	NOUN	_	64	obj	_	TokenRange=493:498
+66	ai	_	ADP	ADP	_	65	nmod	_	TokenRange=499:501
+67	pra	_	ADP	ADP	_	68	case	_	TokenRange=502:505
+68	direito	direito	NOUN	NOUN	_	65	nmod	_	TokenRange=506:513
+69	disse	dizer	VERB	VERB	_	56	conj	_	TokenRange=514:519
+70	duque	duque	NOUN	NOUN	_	69	nsubj	_	TokenRange=520:525
+71	afirmacao	afirmacao	NOUN	NOUN	_	69	nsubj	_	TokenRange=526:535
+72	faz	fazer	VERB	VERB	_	69	ccomp	_	TokenRange=536:539
+73	parte	parte	NOUN	NOUN	_	72	obj	_	TokenRange=540:545
+74	interrogatorio	interrogatorio	ADJ	ADJ	_	73	amod	_	TokenRange=546:560
+75	sextafeira	sextafeira	NOUN	NOUN	_	72	nsubj	_	TokenRange=561:571
+76	5	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=572:573
+77	primeira	primeiro	ADJ	ADJ	_	78	amod	_	TokenRange=574:582
+78	vez	vez	NOUN	NOUN	_	79	nmod	_	TokenRange=583:586
+79	falou	falar	VERB	VERB	_	69	parataxis	_	TokenRange=587:592
+80	sobre	_	ADP	ADP	_	81	case	_	TokenRange=593:598
+81	esquema	esquema	NOUN	NOUN	_	79	nmod	_	TokenRange=599:606
+82	corrupcao	corrupcao	ADJ	ADJ	_	81	amod	_	TokenRange=607:616
+83	descoberto	descobrir	VERB	VERB	_	81	acl	_	TokenRange=617:627
+84	petrobras	petrobra	NOUN	NOUN	_	81	appos	_	TokenRange=628:637
+85	exdiretor	exdiretor	NOUN	NOUN	_	84	appos	_	TokenRange=638:647
+86	servicos	servico	ADJ	ADJ	_	85	amod	_	SpaceAfter=No|TokenRange=648:656
+

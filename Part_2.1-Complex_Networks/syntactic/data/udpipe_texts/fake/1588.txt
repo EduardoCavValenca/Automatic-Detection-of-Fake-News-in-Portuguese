@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = excandidata vereadora psdb flagrada carregando produtos furto espirito santo excandidata vereadora psdb ultimas eleicoes surpreendida carregando produtos saqueados apos varias lojas serem invadidas cidade cachoeiro interior espirito santo flagra divulgado jornal folha espirito santo acordo materia imagens marcela ranocchia captadas ontem 06 saia loja varias sacolas maos psdb cachoeiro divulgou nota repudio crime praticado filiada
+1	excandidata	excandidato	NOUN	NOUN	_	50	nsubj	_	TokenRange=0:11
+2	vereadora	vereador	NOUN	NOUN	_	1	amod	_	TokenRange=12:21
+3	psdb	_	NOUN	NOUN	_	1	appos	_	TokenRange=22:26
+4	flagrada	_	ADJ	NOUN	_	1	amod	_	TokenRange=27:35
+5	carregando	carregar	VERB	VERB	_	1	acl	_	TokenRange=36:46
+6	produtos	produto	NOUN	NOUN	_	5	obj	_	TokenRange=47:55
+7	furto	furto	ADJ	ADJ	_	6	amod	_	TokenRange=56:61
+8	espirito	espirito	ADJ	ADJ	_	10	amod	_	TokenRange=62:70
+9	santo	santo	ADJ	ADJ	_	10	amod	_	TokenRange=71:76
+10	excandidata	excandidato	NOUN	NOUN	_	1	appos	_	TokenRange=77:88
+11	vereadora	vereador	NOUN	NOUN	_	10	amod	_	TokenRange=89:98
+12	psdb	_	PROPN	PNOUN	_	14	appos	_	TokenRange=99:103
+13	ultimas	_	ADJ	ADJ	_	14	amod	_	TokenRange=104:111
+14	eleicoes	eleicoe	NOUN	NOUN	_	10	appos	_	TokenRange=112:120
+15	surpreendida	surpreender	VERB	VERB	_	14	acl	_	TokenRange=121:133
+16	carregando	carregar	VERB	VERB	_	14	acl	_	TokenRange=134:144
+17	produtos	produto	NOUN	NOUN	_	16	obj	_	TokenRange=145:153
+18	saqueados	saqueado	ADJ	ADJ	_	17	amod	_	TokenRange=154:163
+19	apos	_	ADP	ADP	_	23	mark	_	TokenRange=164:168
+20	varias	_	DET	DET	_	21	det	_	TokenRange=169:175
+21	lojas	loja	NOUN	NOUN	_	23	nsubj:pass	_	TokenRange=176:181
+22	serem	ser	AUX	AUX	_	23	aux:pass	_	TokenRange=182:187
+23	invadidas	invadir	VERB	VERB	_	16	advcl	_	TokenRange=188:197
+24	cidade	cidade	NOUN	NOUN	_	23	nsubj:pass	_	TokenRange=198:204
+25	cachoeiro	cachoeiro	ADJ	ADJ	_	24	amod	_	TokenRange=205:214
+26	interior	interior	ADJ	ADJ	_	24	amod	_	TokenRange=215:223
+27	espirito	espirito	ADJ	ADJ	_	24	amod	_	TokenRange=224:232
+28	santo	santo	ADJ	ADJ	_	24	amod	_	TokenRange=233:238
+29	flagra	flagra	NOUN	NOUN	_	24	appos	_	TokenRange=239:245
+30	divulgado	divulgado	ADJ	ADJ	_	31	amod	_	TokenRange=246:255
+31	jornal	jornal	NOUN	NOUN	_	24	appos	_	TokenRange=256:262
+32	folha	folha	NOUN	NOUN	_	31	flat	_	TokenRange=263:268
+33	espirito	espirito	NOUN	NOUN	_	31	appos	_	TokenRange=269:277
+34	santo	santo	ADJ	ADJ	_	31	amod	_	TokenRange=278:283
+35	acordo	acordo	NOUN	NOUN	_	29	appos	_	TokenRange=284:290
+36	materia	materia	NOUN	NOUN	_	35	appos	_	TokenRange=291:298
+37	imagens	imagem	NOUN	NOUN	_	35	flat	_	TokenRange=299:306
+38	marcela	marcela	NOUN	NOUN	_	35	appos	_	TokenRange=307:314
+39	ranocchia	_	NOUN	NOUN	_	38	flat	_	TokenRange=315:324
+40	captadas	captar	VERB	VERB	_	38	acl	_	TokenRange=325:333
+41	ontem	ontem	ADV	ADV	_	40	advmod	_	TokenRange=334:339
+42	06	_	NUM	NUM	NumType=Card	41	nmod	_	TokenRange=340:342
+43	saia	sair	VERB	VERB	_	50	parataxis	_	TokenRange=343:347
+44	loja	loja	NOUN	NOUN	_	43	obj	_	TokenRange=348:352
+45	varias	_	DET	DET	_	46	det	_	TokenRange=353:359
+46	sacolas	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=360:367
+47	maos	mao	NOUN	NOUN	_	46	appos	_	TokenRange=368:372
+48	psdb	_	NOUN	NOUN	_	46	appos	_	TokenRange=373:377
+49	cachoeiro	cachoeiro	NOUN	NOUN	_	48	flat	_	TokenRange=378:387
+50	divulgou	divulgar	VERB	VERB	_	0	root	_	TokenRange=388:396
+51	nota	nota	NOUN	NOUN	_	50	obj	_	TokenRange=397:401
+52	repudio	repudio	ADJ	ADJ	_	51	amod	_	TokenRange=402:409
+53	crime	crime	NOUN	NOUN	_	51	appos	_	TokenRange=410:415
+54	praticado	praticar	VERB	VERB	_	53	acl	_	TokenRange=416:425
+55	filiada	filiado	NOUN	ADJ	_	54	xcomp	_	SpaceAfter=No|TokenRange=426:433
+

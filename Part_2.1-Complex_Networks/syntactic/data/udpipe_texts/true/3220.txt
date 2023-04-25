@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pezao admite falha planejamento seguranca carnaval preparados governador disse falha dois primeiros dias policiamento reforcado acho erro afirmou governador rio luiz fernando pezao pmdb admitiu falha planejamento seguranca durante carnaval preparados falha dois primeiros dias gente reforcou policiamento acho erro disse nesta quartafeira 14 dimensionamos acho sempre aprimoramento gente sempre aprimorar alegou governador respeito casos violencia estado dias carnaval diversos episodios violencia registrados arrastoes assaltos blocos saque supermercado outros crimes zona sul zona norte
+1	pezao	pezao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	admite	admitir	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	falha	_	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	planejamento	planejamento	NOUN	NOUN	_	2	obj	_	TokenRange=19:31
+5	seguranca	_	ADJ	ADJ	_	4	amod	_	TokenRange=32:41
+6	carnaval	carnaval	NOUN	NOUN	_	2	nsubj	_	TokenRange=42:50
+7	preparados	preparado	ADJ	ADJ	_	6	amod	_	TokenRange=51:61
+8	governador	governador	NOUN	NOUN	_	9	nsubj	_	TokenRange=62:72
+9	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=73:78
+10	falha	_	ADJ	ADJ	_	13	amod	_	TokenRange=79:84
+11	dois	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=85:89
+12	primeiros	primeiro	ADJ	ADJ	_	13	amod	_	TokenRange=90:99
+13	dias	dia	NOUN	NOUN	_	9	obj	_	TokenRange=100:104
+14	policiamento	policiamento	NOUN	NOUN	_	9	obj	_	TokenRange=105:117
+15	reforcado	reforcado	ADJ	ADJ	_	14	amod	_	TokenRange=118:127
+16	acho	acho	NOUN	NOUN	_	13	appos	_	TokenRange=128:132
+17	erro	erro	NOUN	NOUN	_	16	flat	_	TokenRange=133:137
+18	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=138:145
+19	governador	governador	NOUN	NOUN	_	18	obj	_	TokenRange=146:156
+20	rio	rio	NOUN	NOUN	_	19	appos	_	TokenRange=157:160
+21	luiz	luiz	NOUN	NOUN	_	20	flat	_	TokenRange=161:165
+22	fernando	fernando	NOUN	NOUN	_	19	appos	_	TokenRange=166:174
+23	pezao	pezao	NOUN	NOUN	_	22	flat	_	TokenRange=175:180
+24	pmdb	_	NOUN	NOUN	_	22	flat	_	TokenRange=181:185
+25	admitiu	admitir	VERB	VERB	_	2	conj	_	TokenRange=186:193
+26	falha	_	ADJ	NOUN	_	27	amod	_	TokenRange=194:199
+27	planejamento	planejamento	NOUN	NOUN	_	25	obj	_	TokenRange=200:212
+28	seguranca	_	ADJ	ADJ	_	27	amod	_	TokenRange=213:222
+29	durante	_	ADP	ADP	_	30	case	_	TokenRange=223:230
+30	carnaval	carnaval	NOUN	NOUN	_	27	nmod	_	TokenRange=231:239
+31	preparados	preparado	ADJ	ADJ	_	30	amod	_	TokenRange=240:250
+32	falha	_	VERB	VERB	_	37	advcl	_	TokenRange=251:256
+33	dois	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=257:261
+34	primeiros	primeiro	ADJ	ADJ	_	35	amod	_	TokenRange=262:271
+35	dias	dia	NOUN	NOUN	_	37	nsubj	_	TokenRange=272:276
+36	gente	gente	NOUN	NOUN	_	37	nsubj	_	TokenRange=277:282
+37	reforcou	reforcar	VERB	VERB	_	25	conj	_	TokenRange=283:291
+38	policiamento	policiamento	NOUN	NOUN	_	37	obj	_	TokenRange=292:304
+39	acho	acho	NOUN	NOUN	_	37	nsubj	_	TokenRange=305:309
+40	erro	erro	NOUN	NOUN	_	39	flat	_	TokenRange=310:314
+41	disse	dizer	VERB	VERB	_	37	parataxis	_	TokenRange=315:320
+42	nesta	_	ADP	ADP	_	43	case	_	TokenRange=321:326
+43	quartafeira	_	NOUN	NOUN	_	41	nmod	_	TokenRange=327:338
+44	14	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=339:341
+45	dimensionamos	dimensionar	VERB	VERB	_	41	ccomp	_	TokenRange=342:355
+46	acho	acho	NOUN	NOUN	_	45	obj	_	TokenRange=356:360
+47	sempre	sempre	ADV	ADV	_	51	advmod	_	TokenRange=361:367
+48	aprimoramento	aprimoramento	NOUN	NOUN	_	46	appos	_	TokenRange=368:381
+49	gente	gente	NOUN	NOUN	_	48	appos	_	TokenRange=382:387
+50	sempre	sempre	ADV	ADV	_	51	advmod	_	TokenRange=388:394
+51	aprimorar	aprimorar	VERB	VERB	_	46	amod	_	TokenRange=395:404
+52	alegou	alegar	VERB	VERB	_	41	parataxis	_	TokenRange=405:411
+53	governador	governador	NOUN	NOUN	_	52	obj	_	TokenRange=412:422
+54	respeito	respeito	NOUN	NOUN	_	53	appos	_	TokenRange=423:431
+55	casos	caso	NOUN	NOUN	_	53	appos	_	TokenRange=432:437
+56	violencia	violencia	ADJ	ADJ	_	55	amod	_	TokenRange=438:447
+57	estado	estado	NOUN	NOUN	_	55	appos	_	TokenRange=448:454
+58	dias	dia	NOUN	NOUN	_	57	flat	_	TokenRange=455:459
+59	carnaval	carnaval	NOUN	NOUN	_	57	flat	_	TokenRange=460:468
+60	diversos	_	DET	DET	_	61	det	_	TokenRange=469:477
+61	episodios	episodio	NOUN	NOUN	_	52	obj	_	TokenRange=478:487
+62	violencia	violencia	NOUN	NOUN	_	61	appos	_	TokenRange=488:497
+63	registrados	registrar	VERB	VERB	_	61	acl	_	TokenRange=498:509
+64	arrastoes	arrastoe	NOUN	NOUN	_	61	appos	_	TokenRange=510:519
+65	assaltos	assalto	ADJ	ADJ	_	66	amod	_	TokenRange=520:528
+66	blocos	bloco	NOUN	NOUN	_	64	appos	_	TokenRange=529:535
+67	saque	saque	NOUN	NOUN	_	64	appos	_	TokenRange=536:541
+68	supermercado	supermercado	NOUN	NOUN	_	67	flat	_	TokenRange=542:554
+69	outros	_	DET	DET	_	70	det	_	TokenRange=555:561
+70	crimes	crime	NOUN	NOUN	_	71	appos	_	TokenRange=562:568
+71	zona	zona	NOUN	NOUN	_	61	appos	_	TokenRange=569:573
+72	sul	sul	ADJ	ADJ	_	73	amod	_	TokenRange=574:577
+73	zona	zona	NOUN	NOUN	_	71	appos	_	TokenRange=578:582
+74	norte	norte	ADJ	ADJ	_	73	amod	_	SpaceAfter=No|TokenRange=583:588
+

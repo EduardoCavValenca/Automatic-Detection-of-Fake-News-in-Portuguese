@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = passaporte alemao novidade ninguem cachorro eike possui companheiro fiel parceiro viagens aereas empresario possui passaporte eric pastor alemao possui passaporte alemao desculpem redundancia acordo portal terra duas pessoas responsaveis adestramento cao curioso treinaram cachorro lingua oficial hitler
+1	passaporte	passaporte	NOUN	NOUN	_	33	nsubj	_	TokenRange=0:10
+2	alemao	alemao	ADJ	ADJ	_	1	amod	_	TokenRange=11:17
+3	novidade	novidade	NOUN	NOUN	_	1	appos	_	TokenRange=18:26
+4	ninguem	_	DET	DET	_	5	det	_	TokenRange=27:34
+5	cachorro	cachorro	NOUN	NOUN	_	1	appos	_	TokenRange=35:43
+6	eike	_	PRON	PRON	_	5	appos	_	TokenRange=44:48
+7	possui	possuir	VERB	VERB	_	1	acl:relcl	_	TokenRange=49:55
+8	companheiro	companheiro	NOUN	NOUN	_	7	obj	_	TokenRange=56:67
+9	fiel	fiel	ADJ	ADJ	_	8	amod	_	TokenRange=68:72
+10	parceiro	parceiro	NOUN	NOUN	_	8	appos	_	TokenRange=73:81
+11	viagens	viagem	NOUN	NOUN	_	8	appos	_	TokenRange=82:89
+12	aereas	aereo	ADJ	ADJ	_	11	amod	_	TokenRange=90:96
+13	empresario	empresario	NOUN	NOUN	_	10	appos	_	TokenRange=97:107
+14	possui	possuir	VERB	VERB	_	1	acl:relcl	_	TokenRange=108:114
+15	passaporte	passaporte	NOUN	NOUN	_	14	obj	_	TokenRange=115:125
+16	eric	_	NOUN	NOUN	_	17	appos	_	TokenRange=126:130
+17	pastor	pastor	NOUN	NOUN	_	15	appos	_	TokenRange=131:137
+18	alemao	alemao	ADJ	ADJ	_	17	amod	_	TokenRange=138:144
+19	possui	possuir	VERB	VERB	_	15	acl:relcl	_	TokenRange=145:151
+20	passaporte	passaporte	NOUN	NOUN	_	19	obj	_	TokenRange=152:162
+21	alemao	alemao	ADJ	ADJ	_	20	amod	_	TokenRange=163:169
+22	desculpem	_	VERB	VERB	_	20	appos	_	TokenRange=170:179
+23	redundancia	_	NOUN	NOUN	_	22	obj	_	TokenRange=180:191
+24	acordo	acordo	NOUN	NOUN	_	23	flat	_	TokenRange=192:198
+25	portal	portal	NOUN	NOUN	_	23	appos	_	TokenRange=199:205
+26	terra	terra	NOUN	NOUN	_	25	flat	_	TokenRange=206:211
+27	duas	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=212:216
+28	pessoas	pessoa	NOUN	NOUN	_	33	nsubj	_	TokenRange=217:224
+29	responsaveis	responsavel	ADJ	ADJ	_	28	amod	_	TokenRange=225:237
+30	adestramento	adestramento	NOUN	NOUN	_	33	nsubj	_	TokenRange=238:250
+31	cao	cao	NOUN	NOUN	_	30	appos	_	TokenRange=251:254
+32	curioso	curioso	ADJ	ADJ	_	30	amod	_	TokenRange=255:262
+33	treinaram	treinar	VERB	VERB	_	0	root	_	TokenRange=263:272
+34	cachorro	cachorro	NOUN	NOUN	_	33	obj	_	TokenRange=273:281
+35	lingua	lingua	NOUN	NOUN	_	33	obj	_	TokenRange=282:288
+36	oficial	oficial	ADJ	ADJ	_	35	amod	_	TokenRange=289:296
+37	hitler	hitler	ADJ	ADJ	_	35	amod	_	SpaceAfter=No|TokenRange=297:303
+

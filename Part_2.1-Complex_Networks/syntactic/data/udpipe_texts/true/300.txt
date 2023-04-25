@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aeronautica analisa helices helicoptero levava noiva bateram arvore helicoptero caiu domingo 5 matando quatro pessoas noiva caminho altar major caio batalha investigador servico regional investigacao prevencao acidentes aeronauticos seripa 4 disse nesta segundafeira 5 copas arvores local onde helicoptero robinson 44 caiu quebradas indicaria helices aeronave colidiram arvores helicoptero caiu domingo 5 matando quatro pessoas noiva caminho altar posso afirmar caiu causa disso todos fatores contribuintes analisados copa arvores quebradas pode copas quebraram causa cconsequencia queda helices bateram
+1	aeronautica	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=0:11
+2	analisa	analisar	VERB	VERB	_	1	acl	_	TokenRange=12:19
+3	helices	helice	NOUN	NOUN	_	2	obj	_	TokenRange=20:27
+4	helicoptero	helicoptero	NOUN	NOUN	_	3	appos	_	TokenRange=28:39
+5	levava	levar	VERB	VERB	_	3	acl:relcl	_	TokenRange=40:46
+6	noiva	noivo	NOUN	NOUN	_	5	obj	_	TokenRange=47:52
+7	bateram	bater	VERB	VERB	_	3	acl:relcl	_	TokenRange=53:60
+8	arvore	arvore	NOUN	NOUN	_	7	obj	_	TokenRange=61:67
+9	helicoptero	helicoptero	NOUN	NOUN	_	8	appos	_	TokenRange=68:79
+10	caiu	_	NOUN	NOUN	_	3	appos	_	TokenRange=80:84
+11	domingo	_	PROPN	PNOUN	_	10	appos	_	TokenRange=85:92
+12	5	_	NUM	NUM	NumType=Card	11	appos	_	TokenRange=93:94
+13	matando	matar	VERB	VERB	_	10	acl	_	TokenRange=95:102
+14	quatro	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=103:109
+15	pessoas	pessoa	NOUN	NOUN	_	13	obj	_	TokenRange=110:117
+16	noiva	noivo	ADJ	ADJ	_	17	amod	_	TokenRange=118:123
+17	caminho	caminho	NOUN	NOUN	_	15	appos	_	TokenRange=124:131
+18	altar	altar	NOUN	NOUN	_	17	appos	_	TokenRange=132:137
+19	major	major	NOUN	NOUN	_	18	flat	_	TokenRange=138:143
+20	caio	_	NOUN	NOUN	_	17	appos	_	TokenRange=144:148
+21	batalha	batalha	NOUN	NOUN	_	18	flat	_	TokenRange=149:156
+22	investigador	investigador	ADJ	ADJ	_	23	amod	_	TokenRange=157:169
+23	servico	servico	NOUN	NOUN	_	17	appos	_	TokenRange=170:177
+24	regional	regional	ADJ	ADJ	_	23	amod	_	TokenRange=178:186
+25	investigacao	investigacao	ADJ	ADJ	_	23	amod	_	TokenRange=187:199
+26	prevencao	prevencao	ADJ	ADJ	_	23	amod	_	TokenRange=200:209
+27	acidentes	acidente	NOUN	NOUN	_	23	appos	_	TokenRange=210:219
+28	aeronauticos	aeronautico	ADJ	ADJ	_	27	amod	_	TokenRange=220:232
+29	seripa	_	NOUN	NOUN	_	27	appos	_	TokenRange=233:239
+30	4	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=240:241
+31	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=242:247
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=248:253
+33	segundafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=254:266
+34	5	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=267:268
+35	copas	copa	NOUN	NOUN	_	31	nsubj	_	TokenRange=269:274
+36	arvores	arvor	NOUN	NOUN	_	35	appos	_	TokenRange=275:282
+37	local	local	ADJ	ADJ	_	35	amod	_	TokenRange=283:288
+38	onde	onde	ADV	ADV	_	42	advmod	_	TokenRange=289:293
+39	helicoptero	helicoptero	NOUN	NOUN	_	42	nsubj	_	TokenRange=294:305
+40	robinson	_	NOUN	NOUN	_	39	appos	_	TokenRange=306:314
+41	44	_	NUM	NUM	NumType=Card	42	nsubj	_	TokenRange=315:317
+42	caiu	cair	VERB	VERB	_	35	acl:relcl	_	TokenRange=318:322
+43	quebradas	quebrado	ADJ	ADJ	_	42	xcomp	_	TokenRange=323:332
+44	indicaria	indicar	VERB	VERB	_	31	ccomp	_	TokenRange=333:342
+45	helices	helice	NOUN	NOUN	_	44	obj	_	TokenRange=343:350
+46	aeronave	aeronave	NOUN	NOUN	_	45	flat	_	TokenRange=351:359
+47	colidiram	colidir	VERB	VERB	_	45	acl:relcl	_	TokenRange=360:369
+48	arvores	arvor	NOUN	NOUN	_	47	nsubj	_	TokenRange=370:377
+49	helicoptero	helicoptero	NOUN	NOUN	_	48	appos	_	TokenRange=378:389
+50	caiu	caiu	NOUN	NOUN	_	48	appos	_	TokenRange=390:394
+51	domingo	_	PROPN	PNOUN	_	50	nmod	_	TokenRange=395:402
+52	5	_	NUM	NUM	NumType=Card	51	appos	_	TokenRange=403:404
+53	matando	matar	VERB	VERB	_	50	acl	_	TokenRange=405:412
+54	quatro	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=413:419
+55	pessoas	pessoa	NOUN	NOUN	_	53	obj	_	TokenRange=420:427
+56	noiva	noivo	ADJ	ADJ	_	57	amod	_	TokenRange=428:433
+57	caminho	caminho	NOUN	NOUN	_	55	appos	_	TokenRange=434:441
+58	altar	altar	NOUN	NOUN	_	57	appos	_	TokenRange=442:447
+59	posso	_	AUX	AUX	_	60	aux	_	TokenRange=448:453
+60	afirmar	afirmar	VERB	VERB	_	47	parataxis	_	TokenRange=454:461
+61	caiu	cair	VERB	VERB	_	60	ccomp	_	TokenRange=462:466
+62	causa	causa	NOUN	NOUN	_	61	nmod	_	TokenRange=467:472
+63	disso	_	X	ADPPRON	_	62	fixed	_	TokenRange=473:478
+64	todos	_	DET	DET	_	65	det	_	TokenRange=479:484
+65	fatores	fator	NOUN	NOUN	_	61	nsubj	_	TokenRange=485:492
+66	contribuintes	contribuinte	NOUN	NOUN	_	65	amod	_	TokenRange=493:506
+67	analisados	analisar	VERB	VERB	_	65	acl	_	TokenRange=507:517
+68	copa	copa	NOUN	NOUN	_	78	obj	_	TokenRange=518:522
+69	arvores	arvor	NOUN	NOUN	_	68	appos	_	TokenRange=523:530
+70	quebradas	quebrado	ADJ	ADJ	_	69	amod	_	TokenRange=531:540
+71	pode	_	AUX	AUX	_	78	aux	_	TokenRange=541:545
+72	copas	copa	NOUN	NOUN	_	78	nsubj	_	TokenRange=546:551
+73	quebraram	quebrar	VERB	VERB	_	65	acl:relcl	_	TokenRange=552:561
+74	causa	causa	NOUN	NOUN	_	78	obj	_	TokenRange=562:567
+75	cconsequencia	cconsequencio	ADJ	ADJ	_	74	amod	_	TokenRange=568:581
+76	queda	queda	NOUN	NOUN	_	78	obj	_	TokenRange=582:587
+77	helices	helice	NOUN	NOUN	_	78	nsubj	_	TokenRange=588:595
+78	bateram	bater	VERB	VERB	_	73	parataxis	_	SpaceAfter=No|TokenRange=596:603
+

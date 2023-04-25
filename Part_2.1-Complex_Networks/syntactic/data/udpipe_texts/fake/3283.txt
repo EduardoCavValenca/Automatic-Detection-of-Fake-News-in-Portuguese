@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = forum economico davos doze soldados exercito suico flagrados entorpecentes soldados suicos encarregados proteger forum economico mundial davos dispensados apos testes deteccao drogas darem resultado positivo uso cocaina nota publicada exercito suico cinco mandados casa outros sete disciplinados consumo cannabis todos 12 serem suspeitos intoxicacao todos 12 soldados haviam consumido cannabis cinco adicionalmente consumido cocaina disse portavoz exercito suico stefan holder cinco soldados enviados casa expulsos servico militar acrescentou holder descoberto cerca tres gramas cocaina enfrentar consequencias legais civis multa detencao outros sete consumiram cannabis receberao punicao disciplinar
+1	forum	forum	NOUN	NOUN	_	55	nsubj	_	TokenRange=0:5
+2	economico	economico	ADJ	ADJ	_	1	amod	_	TokenRange=6:15
+3	davos	davo	ADJ	ADJ	_	1	amod	_	TokenRange=16:21
+4	doze	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=22:26
+5	soldados	soldado	NOUN	NOUN	_	1	appos	_	TokenRange=27:35
+6	exercito	exercito	ADJ	ADJ	_	5	amod	_	TokenRange=36:44
+7	suico	suico	ADJ	ADJ	_	5	amod	_	TokenRange=45:50
+8	flagrados	flagrar	VERB	VERB	_	5	acl	_	TokenRange=51:60
+9	entorpecentes	entorpecente	ADJ	ADJ	_	10	amod	_	TokenRange=61:74
+10	soldados	soldado	NOUN	NOUN	_	8	nsubj	_	TokenRange=75:83
+11	suicos	suico	ADJ	ADJ	_	10	amod	_	TokenRange=84:90
+12	encarregados	encarregar	VERB	VERB	_	5	acl	_	TokenRange=91:103
+13	proteger	proteger	VERB	VERB	_	12	xcomp	_	TokenRange=104:112
+14	forum	forum	NOUN	NOUN	_	13	obj	_	TokenRange=113:118
+15	economico	economico	ADJ	ADJ	_	14	amod	_	TokenRange=119:128
+16	mundial	mundial	ADJ	ADJ	_	14	amod	_	TokenRange=129:136
+17	davos	davo	NOUN	NOUN	_	18	nmod	_	TokenRange=137:142
+18	dispensados	dispensar	VERB	VERB	_	5	acl	_	TokenRange=143:154
+19	apos	_	ADP	ADP	_	20	case	_	TokenRange=155:159
+20	testes	teste	NOUN	NOUN	_	18	nmod	_	TokenRange=160:166
+21	deteccao	_	NOUN	NOUN	_	20	flat	_	TokenRange=167:175
+22	drogas	droga	NOUN	NOUN	_	20	appos	_	TokenRange=176:182
+23	darem	dar	VERB	VERB	_	18	advcl	_	TokenRange=183:188
+24	resultado	resultado	NOUN	NOUN	_	23	obj	_	TokenRange=189:198
+25	positivo	positivo	ADJ	ADJ	_	24	amod	_	TokenRange=199:207
+26	uso	uso	NOUN	NOUN	_	23	obj	_	TokenRange=208:211
+27	cocaina	cocaina	NOUN	NOUN	_	26	amod	_	TokenRange=212:219
+28	nota	nota	NOUN	NOUN	_	23	parataxis	_	TokenRange=220:224
+29	publicada	publicar	VERB	VERB	_	28	acl	_	TokenRange=225:234
+30	exercito	exercito	NOUN	NOUN	_	29	nmod	_	TokenRange=235:243
+31	suico	suico	ADJ	ADJ	_	30	amod	_	TokenRange=244:249
+32	cinco	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=250:255
+33	mandados	mandado	NOUN	NOUN	_	30	appos	_	TokenRange=256:264
+34	casa	casa	NOUN	NOUN	_	33	nmod	_	TokenRange=265:269
+35	outros	_	DET	DET	_	36	det	_	TokenRange=270:276
+36	sete	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=277:281
+37	disciplinados	disciplinado	ADJ	ADJ	_	38	acl	_	TokenRange=282:295
+38	consumo	consumo	VERB	VERB	_	23	parataxis	_	TokenRange=296:303
+39	cannabis	cannabis	NOUN	NOUN	_	38	obj	_	TokenRange=304:312
+40	todos	_	DET	DET	_	47	det	_	TokenRange=313:318
+41	12	_	NUM	NUM	NumType=Card	42	nsubj	_	TokenRange=319:321
+42	serem	ser	VERB	VERB	_	38	ccomp	_	TokenRange=322:327
+43	suspeitos	suspeito	ADJ	ADJ	_	42	xcomp	_	TokenRange=328:337
+44	intoxicacao	intoxicacao	ADJ	ADJ	_	49	xcomp	_	TokenRange=338:349
+45	todos	_	DET	DET	_	47	det	_	TokenRange=350:355
+46	12	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=356:358
+47	soldados	soldado	NOUN	NOUN	_	49	nsubj	_	TokenRange=359:367
+48	haviam	haver	AUX	AUX	_	49	aux	_	TokenRange=368:374
+49	consumido	consumir	VERB	VERB	_	38	acl:relcl	_	TokenRange=375:384
+50	cannabis	cannabi	NOUN	NOUN	_	49	obj	_	TokenRange=385:393
+51	cinco	_	NUM	NUM	NumType=Card	49	nsubj	_	TokenRange=394:399
+52	adicionalmente	adicionalmente	ADV	ADV	_	53	advmod	_	TokenRange=400:414
+53	consumido	consumir	VERB	VERB	_	49	acl	_	TokenRange=415:424
+54	cocaina	cocaina	NOUN	NOUN	_	53	obj	_	TokenRange=425:432
+55	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=433:438
+56	portavoz	portavoz	NOUN	NOUN	_	55	nsubj	_	TokenRange=439:447
+57	exercito	exercito	ADJ	ADJ	_	56	amod	_	TokenRange=448:456
+58	suico	suico	ADJ	ADJ	_	56	amod	_	TokenRange=457:462
+59	stefan	_	NOUN	NOUN	_	56	appos	_	TokenRange=463:469
+60	holder	holder	NOUN	NOUN	_	59	flat	_	TokenRange=470:476
+61	cinco	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=477:482
+62	soldados	soldado	NOUN	NOUN	_	56	appos	_	TokenRange=483:491
+63	enviados	enviar	VERB	VERB	_	62	acl	_	TokenRange=492:500
+64	casa	casa	NOUN	NOUN	_	63	nmod	_	TokenRange=501:505
+65	expulsos	expulso	ADJ	ADJ	_	66	amod	_	TokenRange=506:514
+66	servico	servico	NOUN	NOUN	_	63	nsubj	_	TokenRange=515:522
+67	militar	militar	ADJ	ADJ	_	66	amod	_	TokenRange=523:530
+68	acrescentou	acrescentar	VERB	VERB	_	55	parataxis	_	TokenRange=531:542
+69	holder	holder	NOUN	NOUN	_	68	obj	_	TokenRange=543:549
+70	descoberto	descobrir	VERB	VERB	_	69	acl	_	TokenRange=550:560
+71	cerca	cerca	ADV	ADV	_	72	advmod	_	TokenRange=561:566
+72	tres	_	NUM	NUM	NumType=Card	73	nummod	_	TokenRange=567:571
+73	gramas	grama	NOUN	NOUN	_	70	obj	_	TokenRange=572:578
+74	cocaina	cocaina	NOUN	NOUN	_	73	flat	_	TokenRange=579:586
+75	enfrentar	enfrentar	VERB	VERB	_	73	acl:inf	_	TokenRange=587:596
+76	consequencias	_	NOUN	NOUN	_	75	obj	_	TokenRange=597:610
+77	legais	legal	ADJ	ADJ	_	76	amod	_	TokenRange=611:617
+78	civis	civil	ADJ	ADJ	_	76	amod	_	TokenRange=618:623
+79	multa	multa	NOUN	ADJ	_	76	appos	_	TokenRange=624:629
+80	detencao	detencao	NOUN	NOUN	_	83	obj	_	TokenRange=630:638
+81	outros	_	DET	DET	_	82	det	_	TokenRange=639:645
+82	sete	_	NUM	NUM	NumType=Card	83	nsubj	_	TokenRange=646:650
+83	consumiram	consumir	VERB	VERB	_	79	acl:relcl	_	TokenRange=651:661
+84	cannabis	cannabi	NOUN	NOUN	_	83	obj	_	TokenRange=662:670
+85	receberao	receber	VERB	VERB	_	68	ccomp	_	TokenRange=671:680
+86	punicao	punicao	NOUN	NOUN	_	85	obj	_	TokenRange=681:688
+87	disciplinar	disciplinar	ADJ	ADJ	_	86	amod	_	SpaceAfter=No|TokenRange=689:700
+

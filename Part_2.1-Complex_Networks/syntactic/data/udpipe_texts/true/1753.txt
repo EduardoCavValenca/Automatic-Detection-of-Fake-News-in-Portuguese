@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moro nega pedido lula suspensao pericia sobre sistema propina odebrecht nesta quintafeira 15 moro disse suspensao pericia suspeita fraude faz menor sentido juiz federal sergio moro responsavel processos lava jato primeira instancia negou tarde desta quintafeira 15 pedido defesa expresidente luiz inacio lula silva suspender pericia sistema propina odebrecht moro suspensao faz menor sentido defesa protocolou pedido quartafeira 14 sob argumento suspeita fraude manipulacao software mywebday desenvolvido grupo odebrecht gerenciar contabilidade
+1	moro	moro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	pedido	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	lula	lula	ADJ	ADJ	_	3	amod	_	TokenRange=17:21
+5	suspensao	suspensao	VERB	VERB	_	3	amod	_	TokenRange=22:31
+6	pericia	pericia	NOUN	NOUN	_	5	obj	_	TokenRange=32:39
+7	sobre	_	ADP	ADP	_	8	case	_	TokenRange=40:45
+8	sistema	sistema	NOUN	NOUN	_	6	nmod	_	TokenRange=46:53
+9	propina	propino	ADJ	ADJ	_	8	amod	_	TokenRange=54:61
+10	odebrecht	_	NOUN	NOUN	_	8	appos	_	TokenRange=62:71
+11	nesta	_	ADP	ADP	_	12	case	_	TokenRange=72:77
+12	quintafeira	quintafeira	NOUN	NOUN	_	2	nmod	_	TokenRange=78:89
+13	15	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=90:92
+14	moro	moro	NOUN	NOUN	_	15	nsubj	_	TokenRange=93:97
+15	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=98:103
+16	suspensao	suspensao	NOUN	NOUN	_	15	obj	_	TokenRange=104:113
+17	pericia	pericia	NOUN	NOUN	_	15	obj	_	TokenRange=114:121
+18	suspeita	suspeito	ADJ	ADJ	_	19	amod	_	TokenRange=122:130
+19	fraude	fraude	NOUN	NOUN	_	20	nsubj	_	TokenRange=131:137
+20	faz	fazer	VERB	VERB	_	15	parataxis	_	TokenRange=138:141
+21	menor	menor	ADJ	ADJ	_	22	amod	_	TokenRange=142:147
+22	sentido	sentido	NOUN	NOUN	_	20	obj	_	TokenRange=148:155
+23	juiz	juiz	NOUN	NOUN	_	20	nsubj	_	TokenRange=156:160
+24	federal	federal	ADJ	ADJ	_	23	amod	_	TokenRange=161:168
+25	sergio	sergio	NOUN	NOUN	_	23	appos	_	TokenRange=169:175
+26	moro	moro	NOUN	NOUN	_	25	flat	_	TokenRange=176:180
+27	responsavel	responsavel	ADJ	ADJ	_	28	amod	_	TokenRange=181:192
+28	processos	processo	NOUN	NOUN	_	29	obj	_	TokenRange=193:202
+29	lava	lavar	VERB	VERB	_	20	parataxis	_	TokenRange=203:207
+30	jato	jato	ADV	NOUN	_	33	advmod	_	TokenRange=208:212
+31	primeira	primeiro	ADJ	ADJ	_	32	amod	_	TokenRange=213:221
+32	instancia	instancia	NOUN	NOUN	_	29	nsubj	_	TokenRange=222:231
+33	negou	negar	VERB	VERB	_	2	conj	_	TokenRange=232:237
+34	tarde	tarde	NOUN	NOUN	_	33	advmod	_	TokenRange=238:243
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=244:249
+36	quintafeira	quintafeira	NOUN	NOUN	_	33	nmod	_	TokenRange=250:261
+37	15	_	NUM	NUM	NumType=Card	36	appos	_	TokenRange=262:264
+38	pedido	pedido	NOUN	NOUN	_	33	nsubj	_	TokenRange=265:271
+39	defesa	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=272:278
+40	expresidente	expresidente	NOUN	NOUN	_	38	appos	_	TokenRange=279:291
+41	luiz	luiz	NOUN	NOUN	_	40	appos	_	TokenRange=292:296
+42	inacio	_	NOUN	NOUN	_	41	flat	_	TokenRange=297:303
+43	lula	_	NOUN	NOUN	_	41	flat	_	TokenRange=304:308
+44	silva	silva	ADJ	ADJ	_	41	flat	_	TokenRange=309:314
+45	suspender	suspender	VERB	VERB	_	33	conj	_	TokenRange=315:324
+46	pericia	pericia	NOUN	NOUN	_	45	obj	_	TokenRange=325:332
+47	sistema	sistema	NOUN	NOUN	_	46	appos	_	TokenRange=333:340
+48	propina	propino	ADJ	ADJ	_	47	amod	_	TokenRange=341:348
+49	odebrecht	_	NOUN	NOUN	_	47	appos	_	TokenRange=349:358
+50	moro	moro	NOUN	NOUN	_	51	amod	_	TokenRange=359:363
+51	suspensao	suspensao	NOUN	NOUN	_	47	appos	_	TokenRange=364:373
+52	faz	fazer	VERB	VERB	_	47	acl:relcl	_	TokenRange=374:377
+53	menor	menor	ADJ	ADJ	_	54	amod	_	TokenRange=378:383
+54	sentido	sentido	NOUN	NOUN	_	52	obj	_	TokenRange=384:391
+55	defesa	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=392:398
+56	protocolou	protocolar	VERB	VERB	_	2	parataxis	_	TokenRange=399:409
+57	pedido	pedido	NOUN	NOUN	_	56	obj	_	TokenRange=410:416
+58	quartafeira	_	NOUN	NOUN	_	57	appos	_	TokenRange=417:428
+59	14	_	NUM	NUM	NumType=Card	58	appos	_	TokenRange=429:431
+60	sob	_	ADP	ADP	_	61	case	_	TokenRange=432:435
+61	argumento	argumento	NOUN	NOUN	_	56	nmod	_	TokenRange=436:445
+62	suspeita	suspeito	ADJ	ADJ	_	63	amod	_	TokenRange=446:454
+63	fraude	fraude	NOUN	NOUN	_	56	obj	_	TokenRange=455:461
+64	manipulacao	manipulacao	ADJ	ADJ	_	63	amod	_	TokenRange=462:473
+65	software	software	NOUN	NOUN	_	63	amod	_	TokenRange=474:482
+66	mywebday	_	NOUN	NOUN	_	63	appos	_	TokenRange=483:491
+67	desenvolvido	desenvolver	VERB	VERB	_	63	acl	_	TokenRange=492:504
+68	grupo	grupo	NOUN	NOUN	_	67	obj	_	TokenRange=505:510
+69	odebrecht	_	NOUN	NOUN	_	68	appos	_	TokenRange=511:520
+70	gerenciar	gerenciar	VERB	VERB	_	67	ccomp	_	TokenRange=521:530
+71	contabilidade	contabilidade	NOUN	NOUN	_	70	obj	_	SpaceAfter=No|TokenRange=531:544
+

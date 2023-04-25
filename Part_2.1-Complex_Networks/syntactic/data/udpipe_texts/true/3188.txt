@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = andre esteves proibido ingressar btg executivo recebeu alvara soltura podera participar atividades banco qualquer empresa envolvida denuncias operacao lava jato alvara soltura andre esteves expedido supremo tribunal federal stf qualquer momento exbanqueiro pode deixar presidio bangu 8 zona oeste rio onde cumpre 21 dias prisao preventiva passar dois dias sede policia federal ministro teori zavascki revogou nesta quintafeira 17 prisao substituiu recolhimento domiciliar esteves preso durante investigacoes operacao lava jato sob suspeita participar
+1	andre	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:5
+2	esteves	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:13
+3	proibido	proibido	ADJ	ADJ	_	1	amod	_	TokenRange=14:22
+4	ingressar	ingressar	VERB	VERB	_	1	acl	_	TokenRange=23:32
+5	btg	_	NOUN	NOUN	_	4	obj	_	TokenRange=33:36
+6	executivo	executivo	ADJ	ADJ	_	5	amod	_	TokenRange=37:46
+7	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=47:54
+8	alvara	alvara	NOUN	NOUN	_	7	obj	_	TokenRange=55:61
+9	soltura	soltura	NOUN	NOUN	_	8	flat	_	TokenRange=62:69
+10	podera	_	AUX	AUX	_	11	aux	_	TokenRange=70:76
+11	participar	participar	VERB	VERB	_	7	parataxis	_	TokenRange=77:87
+12	atividades	atividade	NOUN	NOUN	_	11	obj	_	TokenRange=88:98
+13	banco	banco	NOUN	NOUN	_	12	flat	_	TokenRange=99:104
+14	qualquer	_	DET	DET	_	15	det	_	TokenRange=105:113
+15	empresa	empresa	NOUN	NOUN	_	11	obj	_	TokenRange=114:121
+16	envolvida	envolver	VERB	VERB	_	15	acl	_	TokenRange=122:131
+17	denuncias	_	NOUN	NOUN	_	15	appos	_	TokenRange=132:141
+18	operacao	operacao	ADJ	ADJ	_	19	amod	_	TokenRange=142:150
+19	lava	lava	NOUN	NOUN	_	17	appos	_	TokenRange=151:155
+20	jato	jato	NOUN	NOUN	_	19	flat	_	TokenRange=156:160
+21	alvara	alvara	NOUN	NOUN	_	19	appos	_	TokenRange=161:167
+22	soltura	soltura	NOUN	NOUN	_	19	flat	_	TokenRange=168:175
+23	andre	andre	NOUN	NOUN	_	19	appos	_	TokenRange=176:181
+24	esteves	_	NOUN	NOUN	_	23	flat	_	TokenRange=182:189
+25	expedido	expedido	ADJ	ADJ	_	27	amod	_	TokenRange=190:198
+26	supremo	supremo	ADJ	ADJ	_	27	amod	_	TokenRange=199:206
+27	tribunal	tribunal	NOUN	NOUN	_	7	obj	_	TokenRange=207:215
+28	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=216:223
+29	stf	_	CCONJ	NOUN	_	34	mark	_	TokenRange=224:227
+30	qualquer	_	DET	DET	_	31	det	_	TokenRange=228:236
+31	momento	momento	NOUN	NOUN	_	34	nsubj	_	TokenRange=237:244
+32	exbanqueiro	exbanqueiro	ADJ	ADJ	_	31	amod	_	TokenRange=245:256
+33	pode	_	AUX	AUX	_	34	aux	_	TokenRange=257:261
+34	deixar	deixar	VERB	VERB	_	7	parataxis	_	TokenRange=262:268
+35	presidio	presidio	NOUN	NOUN	_	34	obj	_	TokenRange=269:277
+36	bangu	bangu	NOUN	NOUN	_	35	flat	_	TokenRange=278:283
+37	8	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=284:285
+38	zona	zona	NOUN	NOUN	_	35	appos	_	TokenRange=286:290
+39	oeste	oeste	ADJ	ADJ	_	38	amod	_	TokenRange=291:296
+40	rio	rio	NOUN	NOUN	_	38	appos	_	TokenRange=297:300
+41	onde	onde	ADV	ADV	_	42	advmod	_	TokenRange=301:305
+42	cumpre	cumprir	VERB	VERB	_	40	acl:relcl	_	TokenRange=306:312
+43	21	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=313:315
+44	dias	dia	NOUN	NOUN	_	42	obj	_	TokenRange=316:320
+45	prisao	prisao	NOUN	NOUN	_	42	nsubj	_	TokenRange=321:327
+46	preventiva	preventivo	ADJ	ADJ	_	45	amod	_	TokenRange=328:338
+47	passar	passar	VERB	VERB	_	45	acl:inf	_	TokenRange=339:345
+48	dois	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=346:350
+49	dias	dia	NOUN	NOUN	_	47	nmod	_	TokenRange=351:355
+50	sede	sede	NOUN	NOUN	_	49	appos	_	TokenRange=356:360
+51	policia	policia	NOUN	NOUN	_	50	appos	_	TokenRange=361:368
+52	federal	federal	ADJ	ADJ	_	51	amod	_	TokenRange=369:376
+53	ministro	ministro	NOUN	NOUN	_	50	appos	_	TokenRange=377:385
+54	teori	_	PROPN	NOUN	_	53	appos	_	TokenRange=386:391
+55	zavascki	_	PROPN	PNOUN	_	54	flat	_	TokenRange=392:400
+56	revogou	revogar	VERB	VERB	_	42	conj	_	TokenRange=401:408
+57	nesta	_	ADP	ADP	_	58	case	_	TokenRange=409:414
+58	quintafeira	quintafeira	NOUN	NOUN	_	56	nmod	_	TokenRange=415:426
+59	17	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=427:429
+60	prisao	prisao	NOUN	NOUN	_	61	obj	_	TokenRange=430:436
+61	substituiu	substituir	VERB	VERB	_	56	parataxis	_	TokenRange=437:447
+62	recolhimento	recolhimento	NOUN	NOUN	_	61	obj	_	TokenRange=448:460
+63	domiciliar	domiciliar	ADJ	ADJ	_	62	amod	_	TokenRange=461:471
+64	esteves	_	NOUN	NOUN	_	61	nsubj	_	TokenRange=472:479
+65	preso	_	VERB	VERB	_	62	acl	_	TokenRange=480:485
+66	durante	_	ADP	ADP	_	67	case	_	TokenRange=486:493
+67	investigacoes	investigacoe	NOUN	NOUN	_	65	nmod	_	TokenRange=494:507
+68	operacao	operacao	ADJ	ADJ	_	67	appos	_	TokenRange=508:516
+69	lava	lava	NOUN	NOUN	_	67	appos	_	TokenRange=517:521
+70	jato	jato	NOUN	NOUN	_	69	flat	_	TokenRange=522:526
+71	sob	_	ADP	ADP	_	72	case	_	TokenRange=527:530
+72	suspeita	_	NOUN	NOUN	_	73	nmod	_	TokenRange=531:539
+73	participar	participar	VERB	VERB	_	67	acl	_	SpaceAfter=No|TokenRange=540:550
+

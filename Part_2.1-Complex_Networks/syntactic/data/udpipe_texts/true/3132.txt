@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = suspeitos matar apos briga cachorros tentaram sequestrar torturar vitimas diz policia delegado diz policia recebendo varias denuncias checando possivel paradeiro suspeitos envolvidos devem responder menos 3 crimes policia civil continua nesta quintafeira 29 buscas suspeitos matar jovem 21 anos agredir amigos apos briga cachorros campo grande segundo delegado sergio luiz duarte responsavel investigacoes agressores tentaram sequestrar torturar adolescente 17
+1	suspeitos	suspeito	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:9
+2	matar	matar	VERB	VERB	_	1	acl	_	TokenRange=10:15
+3	apos	_	ADP	ADP	_	4	case	_	TokenRange=16:20
+4	briga	briga	NOUN	NOUN	_	2	nmod	_	TokenRange=21:26
+5	cachorros	cachorro	NOUN	NOUN	_	4	flat	_	TokenRange=27:36
+6	tentaram	tentar	VERB	VERB	_	2	advcl	_	TokenRange=37:45
+7	sequestrar	sequestrar	VERB	VERB	_	6	xcomp	_	TokenRange=46:56
+8	torturar	torturar	VERB	VERB	_	7	xcomp	_	TokenRange=57:65
+9	vitimas	_	NOUN	NOUN	_	8	obj	_	TokenRange=66:73
+10	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=74:77
+11	policia	policia	NOUN	NOUN	_	13	nsubj	_	TokenRange=78:85
+12	delegado	delegado	NOUN	NOUN	_	13	nsubj	_	TokenRange=86:94
+13	diz	dizer	VERB	VERB	_	10	ccomp	_	TokenRange=95:98
+14	policia	policia	NOUN	NOUN	_	13	obj	_	TokenRange=99:106
+15	recebendo	receber	VERB	VERB	_	13	acl	_	TokenRange=107:116
+16	varias	_	DET	DET	_	17	det	_	TokenRange=117:123
+17	denuncias	_	NOUN	NOUN	_	15	obj	_	TokenRange=124:133
+18	checando	checar	VERB	VERB	_	15	acl	_	TokenRange=134:142
+19	possivel	_	ADJ	ADJ	_	20	amod	_	TokenRange=143:151
+20	paradeiro	paradeiro	NOUN	NOUN	_	18	obj	_	TokenRange=152:161
+21	suspeitos	suspeito	NOUN	NOUN	_	24	nsubj	_	TokenRange=162:171
+22	envolvidos	envolvido	ADJ	ADJ	_	21	amod	_	TokenRange=172:182
+23	devem	_	AUX	AUX	_	24	aux	_	TokenRange=183:188
+24	responder	responder	VERB	VERB	_	18	parataxis	_	TokenRange=189:198
+25	menos	menos	ADV	ADV	_	26	advmod	_	TokenRange=199:204
+26	3	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=205:206
+27	crimes	crime	NOUN	NOUN	_	24	obj	_	TokenRange=207:213
+28	policia	policia	NOUN	NOUN	_	24	nsubj	_	TokenRange=214:221
+29	civil	civil	ADJ	ADJ	_	28	amod	_	TokenRange=222:227
+30	continua	continuar	VERB	VERB	_	13	parataxis	_	TokenRange=228:236
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=237:242
+32	quintafeira	quintafeira	NOUN	NOUN	_	30	nmod	_	TokenRange=243:254
+33	29	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=255:257
+34	buscas	busca	NOUN	NOUN	_	30	nsubj	_	TokenRange=258:264
+35	suspeitos	suspeito	ADJ	ADJ	_	34	amod	_	TokenRange=265:274
+36	matar	matar	VERB	VERB	_	34	acl:relcl	_	TokenRange=275:280
+37	jovem	jovem	NOUN	NOUN	_	36	obj	_	TokenRange=281:286
+38	21	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=287:289
+39	anos	ano	NOUN	NOUN	_	36	nmod	_	TokenRange=290:294
+40	agredir	agredir	VERB	VERB	_	36	ccomp	_	TokenRange=295:302
+41	amigos	amigo	NOUN	NOUN	_	40	obj	_	TokenRange=303:309
+42	apos	_	ADP	ADP	_	43	case	_	TokenRange=310:314
+43	briga	briga	NOUN	NOUN	_	40	nmod	_	TokenRange=315:320
+44	cachorros	cachorro	ADJ	NOUN	_	43	amod	_	TokenRange=321:330
+45	campo	campo	NOUN	NOUN	_	43	appos	_	TokenRange=331:336
+46	grande	grande	ADJ	ADJ	_	45	amod	_	TokenRange=337:343
+47	segundo	_	ADP	ADP	_	48	case	_	TokenRange=344:351
+48	delegado	delegado	NOUN	NOUN	_	40	nmod	_	TokenRange=352:360
+49	sergio	sergio	ADJ	ADJ	_	48	appos	_	TokenRange=361:367
+50	luiz	luiz	NOUN	NOUN	_	49	flat	_	TokenRange=368:372
+51	duarte	duarte	ADJ	ADJ	_	49	flat	_	TokenRange=373:379
+52	responsavel	responsavel	ADJ	ADJ	_	48	amod	_	TokenRange=380:391
+53	investigacoes	investigacoe	NOUN	NOUN	_	55	nsubj	_	TokenRange=392:405
+54	agressores	agressor	NOUN	NOUN	_	55	nsubj	_	TokenRange=406:416
+55	tentaram	tentar	VERB	VERB	_	30	parataxis	_	TokenRange=417:425
+56	sequestrar	sequestrar	VERB	VERB	_	55	xcomp	_	TokenRange=426:436
+57	torturar	torturar	VERB	VERB	_	56	xcomp	_	TokenRange=437:445
+58	adolescente	adolescente	NOUN	NOUN	_	57	obj	_	TokenRange=446:457
+59	17	_	NUM	NUM	NumType=Card	58	nummod	_	SpaceAfter=No|TokenRange=458:460
+

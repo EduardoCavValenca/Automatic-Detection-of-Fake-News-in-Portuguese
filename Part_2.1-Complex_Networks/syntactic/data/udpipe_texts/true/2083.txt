@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procuradorgeral republica rodrigo janot manifestou contra beneficio prisao domiciliar expresidente camara eduardo cunha pmdb/rj condenado operacao lava jato 15 anos quatro meses prisao corrupcao passiva lavagem dinheiro parecer supremo tribunal federal sobre pedido defesa cunha cumprir pena aconchego lar janot destacou
+1	procuradorgeral	procuradorgeral	NOUN	NOUN	_	41	nsubj	_	TokenRange=0:15
+2	republica	republico	ADJ	ADJ	_	1	amod	_	TokenRange=16:25
+3	rodrigo	_	NOUN	NOUN	_	1	appos	_	TokenRange=26:33
+4	janot	_	NOUN	NOUN	_	3	flat	_	TokenRange=34:39
+5	manifestou	manifestar	VERB	VERB	_	41	ccomp	_	TokenRange=40:50
+6	contra	_	ADP	ADP	_	7	case	_	TokenRange=51:57
+7	beneficio	beneficio	NOUN	NOUN	_	5	nmod	_	TokenRange=58:67
+8	prisao	prisao	NOUN	NOUN	_	5	obj	_	TokenRange=68:74
+9	domiciliar	domiciliar	ADJ	ADJ	_	8	amod	_	TokenRange=75:85
+10	expresidente	expresidente	NOUN	NOUN	_	8	appos	_	TokenRange=86:98
+11	camara	camara	NOUN	NOUN	_	10	flat	_	TokenRange=99:105
+12	eduardo	eduardo	NOUN	NOUN	_	10	appos	_	TokenRange=106:113
+13	cunha	cunha	NOUN	NOUN	_	12	flat	_	TokenRange=114:119
+14	pmdb/rj	_	NOUN	NOUN	_	12	flat	_	TokenRange=120:127
+15	condenado	condenar	VERB	VERB	_	8	acl	_	TokenRange=128:137
+16	operacao	operacao	NOUN	NOUN	_	15	obj	_	TokenRange=138:146
+17	lava	lava	NOUN	NOUN	_	16	flat	_	TokenRange=147:151
+18	jato	jato	NOUN	NOUN	_	16	flat	_	TokenRange=152:156
+19	15	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=157:159
+20	anos	ano	NOUN	NOUN	_	16	appos	_	TokenRange=160:164
+21	quatro	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=165:171
+22	meses	mês	NOUN	NOUN	_	23	appos	_	TokenRange=172:177
+23	prisao	prisao	NOUN	NOUN	_	16	appos	_	TokenRange=178:184
+24	corrupcao	corrupcao	ADJ	ADJ	_	23	amod	_	TokenRange=185:194
+25	passiva	passivo	ADJ	ADJ	_	26	amod	_	TokenRange=195:202
+26	lavagem	lavagem	NOUN	NOUN	_	23	appos	_	TokenRange=203:210
+27	dinheiro	dinheiro	NOUN	NOUN	_	26	flat	_	TokenRange=211:219
+28	parecer	parecer	NOUN	NOUN	_	26	appos	_	TokenRange=220:227
+29	supremo	supremo	ADJ	ADJ	_	30	amod	_	TokenRange=228:235
+30	tribunal	tribunal	NOUN	NOUN	_	26	appos	_	TokenRange=236:244
+31	federal	federal	ADJ	ADJ	_	30	amod	_	TokenRange=245:252
+32	sobre	_	ADP	ADP	_	33	case	_	TokenRange=253:258
+33	pedido	pedido	NOUN	NOUN	_	30	nmod	_	TokenRange=259:265
+34	defesa	_	NOUN	NOUN	_	33	appos	_	TokenRange=266:272
+35	cunha	_	NOUN	NOUN	_	34	flat	_	TokenRange=273:278
+36	cumprir	cumprir	VERB	VERB	_	33	acl:relcl	_	TokenRange=279:286
+37	pena	_	NOUN	NOUN	_	36	obj	_	TokenRange=287:291
+38	aconchego	aconchego	NOUN	NOUN	_	37	amod	_	TokenRange=292:301
+39	lar	lar	NOUN	NOUN	_	41	nsubj	_	TokenRange=302:305
+40	janot	_	PROPN	PNOUN	_	41	nsubj	_	TokenRange=306:311
+41	destacou	destacar	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=312:320
+

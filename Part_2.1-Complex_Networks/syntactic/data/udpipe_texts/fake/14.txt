@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = raquel dodge faz janot fazia pediu prisao senadora petista gleisi procuradorageral republica raquel dodge pediu condenacao senadora petista gleisi hoffmann ambito lava jato pgr gleisi cometeu crimes corrupcao passiva lavagem dinheiro detalhe dodge quer gleisi devolva r 4 milhoes cofres publicos perca mandato abaixo alegacoes raquel dodge parece saida pgr rodrigo janot passou fase motivacao apenas tentar prender senadores adversarios pt exigindo prisao gleisi hoffmann tempo
+1	raquel	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	dodge	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:12
+3	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=13:16
+4	janot	_	NOUN	NOUN	_	3	obj	_	TokenRange=17:22
+5	fazia	_	NOUN	NOUN	_	3	obj	_	TokenRange=23:28
+6	pediu	pedir	VERB	VERB	_	3	conj	_	TokenRange=29:34
+7	prisao	prisao	NOUN	NOUN	_	6	obj	_	TokenRange=35:41
+8	senadora	senador	NOUN	NOUN	_	7	amod	_	TokenRange=42:50
+9	petista	petista	NOUN	NOUN	_	7	appos	_	TokenRange=51:58
+10	gleisi	_	NOUN	NOUN	_	9	appos	_	TokenRange=59:65
+11	procuradorageral	procuradorageral	ADJ	ADJ	_	9	amod	_	TokenRange=66:82
+12	republica	republico	ADJ	ADJ	_	10	amod	_	TokenRange=83:92
+13	raquel	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=93:99
+14	dodge	_	NOUN	NOUN	_	13	flat	_	TokenRange=100:105
+15	pediu	pedir	VERB	VERB	_	3	parataxis	_	TokenRange=106:111
+16	condenacao	_	NOUN	NOUN	_	15	obj	_	TokenRange=112:122
+17	senadora	senador	ADJ	ADJ	_	16	amod	_	TokenRange=123:131
+18	petista	petista	NOUN	NOUN	_	16	appos	_	TokenRange=132:139
+19	gleisi	_	NOUN	NOUN	_	16	appos	_	TokenRange=140:146
+20	hoffmann	_	NOUN	NOUN	_	19	flat	_	TokenRange=147:155
+21	ambito	ambito	NOUN	NOUN	_	22	obj	_	TokenRange=156:162
+22	lava	lava	VERB	VERB	_	15	parataxis	_	TokenRange=163:167
+23	jato	jato	NOUN	NOUN	_	22	obj	_	TokenRange=168:172
+24	pgr	_	NOUN	NOUN	_	26	nsubj	_	TokenRange=173:176
+25	gleisi	_	NOUN	NOUN	_	24	flat	_	TokenRange=177:183
+26	cometeu	cometer	VERB	VERB	_	22	conj	_	TokenRange=184:191
+27	crimes	crime	NOUN	NOUN	_	26	obj	_	TokenRange=192:198
+28	corrupcao	corrupcao	ADJ	ADJ	_	27	amod	_	TokenRange=199:208
+29	passiva	passivo	ADJ	ADJ	_	27	amod	_	TokenRange=209:216
+30	lavagem	lavagem	NOUN	NOUN	_	26	obj	_	TokenRange=217:224
+31	dinheiro	dinheiro	NOUN	NOUN	_	30	flat	_	TokenRange=225:233
+32	detalhe	detalhe	NOUN	NOUN	_	26	parataxis	_	TokenRange=234:241
+33	dodge	_	NOUN	NOUN	_	36	dep	_	TokenRange=242:247
+34	quer	quer	CCONJ	CONJ	_	36	cc	_	TokenRange=248:252
+35	gleisi	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=253:259
+36	devolva	devolver	VERB	VERB	_	32	acl:relcl	_	TokenRange=260:267
+37	r	r	NOUN	NOUN	_	36	obj	_	TokenRange=268:269
+38	4	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=270:271
+39	milhoes	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=272:279
+40	cofres	cofre	NOUN	NOUN	_	36	obj	_	TokenRange=280:286
+41	publicos	publico	ADJ	ADJ	_	40	amod	_	TokenRange=287:295
+42	perca	perder	VERB	VERB	_	36	parataxis	_	TokenRange=296:301
+43	mandato	mandato	NOUN	NOUN	_	42	obj	_	TokenRange=302:309
+44	abaixo	abaixo	ADV	ADV	_	48	advmod	_	TokenRange=310:316
+45	alegacoes	alegacoe	NOUN	NOUN	_	48	nsubj	_	TokenRange=317:326
+46	raquel	raquel	NOUN	NOUN	_	45	appos	_	TokenRange=327:333
+47	dodge	_	NOUN	NOUN	_	46	flat	_	TokenRange=334:339
+48	parece	parecer	VERB	VERB	_	42	parataxis	_	TokenRange=340:346
+49	saida	_	NOUN	NOUN	_	48	obj	_	TokenRange=347:352
+50	pgr	_	X	NOUN	_	53	nsubj	_	TokenRange=353:356
+51	rodrigo	_	NOUN	NOUN	_	49	appos	_	TokenRange=357:364
+52	janot	_	NOUN	NOUN	_	51	flat	_	TokenRange=365:370
+53	passou	passar	VERB	VERB	_	48	parataxis	_	TokenRange=371:377
+54	fase	fase	NOUN	NOUN	_	53	obj	_	TokenRange=378:382
+55	motivacao	motivacao	ADJ	ADJ	_	54	amod	_	TokenRange=383:392
+56	apenas	apenas	ADV	ADV	_	57	advmod	_	TokenRange=393:399
+57	tentar	tentar	VERB	VERB	_	53	xcomp	_	TokenRange=400:406
+58	prender	prender	VERB	VERB	_	57	xcomp	_	TokenRange=407:414
+59	senadores	senador	NOUN	NOUN	_	58	obj	_	TokenRange=415:424
+60	adversarios	adversario	ADJ	ADJ	_	59	amod	_	TokenRange=425:436
+61	pt	_	PROPN	PNOUN	_	62	obj	_	TokenRange=437:439
+62	exigindo	exigir	VERB	VERB	_	57	acl	_	TokenRange=440:448
+63	prisao	prisao	NOUN	NOUN	_	62	obj	_	TokenRange=449:455
+64	gleisi	gleisi	NOUN	NOUN	_	63	appos	_	TokenRange=456:462
+65	hoffmann	hoffmann	ADJ	ADJ	_	66	flat	_	TokenRange=463:471
+66	tempo	tempo	NOUN	NOUN	_	62	obj	_	SpaceAfter=No|TokenRange=472:477
+

@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = arquivos governo apontam dilma mentiu sobre encontro marcelo odebrecht entrevista folha dilma questionada sobre quantidade encontros manteve marcelo odebrecht recebi nunca marcelo palacio alvorada afirmou dilma planalto lembro completou dilma arquivos eletronicos encontrados computadores planalto mostram dilma recepcionou odebrecht menos quatro vezes desde eleita quatro visitas marcelo duas ocorreram palacio alvorada 2014 policia federal procuradoria republica trabalham responder indagacao dilma verdade reuniram bom lote evidencias indicam muita grana fluiu debaixo panos odebrecht marqueteiro dilma sabia tudo informacoes josias souza
+1	arquivos	arquivo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	governo	governo	NOUN	NOUN	_	1	flat	_	TokenRange=9:16
+3	apontam	apontar	VERB	VERB	_	0	root	_	TokenRange=17:24
+4	dilma	dilma	NOUN	NOUN	_	3	obj	_	TokenRange=25:30
+5	mentiu	mentir	VERB	VERB	_	3	parataxis	_	TokenRange=31:37
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=38:43
+7	encontro	encontro	NOUN	NOUN	_	5	nmod	_	TokenRange=44:52
+8	marcelo	marcelo	NOUN	NOUN	_	7	appos	_	TokenRange=53:60
+9	odebrecht	_	NOUN	NOUN	_	8	flat	_	TokenRange=61:70
+10	entrevista	entrevista	NOUN	NOUN	_	7	appos	_	TokenRange=71:81
+11	folha	folha	NOUN	NOUN	_	10	amod	_	TokenRange=82:87
+12	dilma	dilma	NOUN	NOUN	_	10	appos	_	TokenRange=88:93
+13	questionada	questionar	VERB	VERB	_	1	acl	_	TokenRange=94:105
+14	sobre	_	ADP	ADP	_	15	case	_	TokenRange=106:111
+15	quantidade	quantidade	NOUN	NOUN	_	13	nmod	_	TokenRange=112:122
+16	encontros	encontro	NOUN	NOUN	_	15	flat	_	TokenRange=123:132
+17	manteve	manter	VERB	VERB	_	15	acl:relcl	_	TokenRange=133:140
+18	marcelo	marcelo	NOUN	NOUN	_	17	obj	_	TokenRange=141:148
+19	odebrecht	_	PROPN	PNOUN	_	18	flat	_	TokenRange=149:158
+20	recebi	receber	VERB	VERB	_	17	ccomp	_	TokenRange=159:165
+21	nunca	nunca	ADV	ADV	_	20	advmod	_	TokenRange=166:171
+22	marcelo	marcelo	NOUN	NOUN	_	20	obj	_	TokenRange=172:179
+23	palacio	palacio	NOUN	NOUN	_	22	appos	_	TokenRange=180:187
+24	alvorada	alvorada	ADJ	ADJ	_	23	amod	_	TokenRange=188:196
+25	afirmou	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=197:204
+26	dilma	dilma	NOUN	NOUN	_	25	obj	_	TokenRange=205:210
+27	planalto	planalto	ADJ	ADJ	_	28	amod	_	TokenRange=211:219
+28	lembro	lembro	NOUN	NOUN	_	29	nsubj	_	TokenRange=220:226
+29	completou	completar	VERB	VERB	_	25	ccomp	_	TokenRange=227:236
+30	dilma	_	NOUN	NOUN	_	29	obj	_	TokenRange=237:242
+31	arquivos	arquivo	NOUN	NOUN	_	29	obj	_	TokenRange=243:251
+32	eletronicos	eletronico	ADJ	ADJ	_	31	amod	_	TokenRange=252:263
+33	encontrados	encontrar	VERB	VERB	_	31	acl	_	TokenRange=264:275
+34	computadores	computador	NOUN	NOUN	_	29	nsubj	_	TokenRange=276:288
+35	planalto	planalto	ADJ	ADJ	_	34	amod	_	TokenRange=289:297
+36	mostram	mostrar	VERB	VERB	_	29	parataxis	_	TokenRange=298:305
+37	dilma	dilma	NOUN	NOUN	_	38	obj	_	TokenRange=306:311
+38	recepcionou	recepcionar	VERB	VERB	_	36	ccomp	_	TokenRange=312:323
+39	odebrecht	_	NOUN	NOUN	_	38	obj	_	TokenRange=324:333
+40	menos	menos	ADV	ADV	_	41	advmod	_	TokenRange=334:339
+41	quatro	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=340:346
+42	vezes	vez	NOUN	NOUN	_	38	nmod	_	TokenRange=347:352
+43	desde	_	ADP	ADP	_	44	case	_	TokenRange=353:358
+44	eleita	_	NOUN	NOUN	_	38	nmod	_	TokenRange=359:365
+45	quatro	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=366:372
+46	visitas	visita	NOUN	NOUN	_	44	appos	_	TokenRange=373:380
+47	marcelo	marcelo	NOUN	NOUN	_	46	appos	_	TokenRange=381:388
+48	duas	_	NUM	NUM	NumType=Card	46	appos	_	TokenRange=389:393
+49	ocorreram	ocorrer	VERB	VERB	_	46	acl:relcl	_	TokenRange=394:403
+50	palacio	palacio	NOUN	NOUN	_	49	nmod	_	TokenRange=404:411
+51	alvorada	alvorada	ADJ	ADJ	_	50	amod	_	TokenRange=412:420
+52	2014	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=421:425
+53	policia	policia	NOUN	NOUN	_	49	nsubj	_	TokenRange=426:433
+54	federal	federal	ADJ	ADJ	_	53	amod	_	TokenRange=434:441
+55	procuradoria	procuradoria	NOUN	NOUN	_	53	appos	_	TokenRange=442:454
+56	republica	republico	ADJ	ADJ	_	53	amod	_	TokenRange=455:464
+57	trabalham	trabalhar	VERB	VERB	_	53	acl:relcl	_	TokenRange=465:474
+58	responder	responder	VERB	VERB	_	57	xcomp	_	TokenRange=475:484
+59	indagacao	indagacao	NOUN	NOUN	_	58	obj	_	TokenRange=485:494
+60	dilma	dilma	ADJ	ADJ	_	61	amod	_	TokenRange=495:500
+61	verdade	verdade	NOUN	NOUN	_	59	appos	_	TokenRange=501:508
+62	reuniram	reunir	VERB	VERB	_	58	ccomp	_	TokenRange=509:517
+63	bom	bom	ADJ	ADJ	_	64	amod	_	TokenRange=518:521
+64	lote	lote	NOUN	NOUN	_	62	obj	_	TokenRange=522:526
+65	evidencias	_	NOUN	NOUN	_	66	nsubj	_	TokenRange=527:537
+66	indicam	indicar	VERB	VERB	_	62	conj	_	TokenRange=538:545
+67	muita	_	DET	DET	_	68	det	_	TokenRange=546:551
+68	grana	grana	NOUN	NOUN	_	66	obj	_	TokenRange=552:557
+69	fluiu	fluir	VERB	VERB	_	66	ccomp	_	TokenRange=558:563
+70	debaixo	debaixo	ADV	ADV	_	69	advmod	_	TokenRange=564:571
+71	panos	pano	NOUN	NOUN	_	69	nsubj	_	TokenRange=572:577
+72	odebrecht	_	ADJ	ADJ	_	71	amod	_	TokenRange=578:587
+73	marqueteiro	marqueteiro	NOUN	NOUN	_	71	flat	_	TokenRange=588:599
+74	dilma	dilma	NOUN	NOUN	_	71	appos	_	TokenRange=600:605
+75	sabia	saber	VERB	VERB	_	69	conj	_	TokenRange=606:611
+76	tudo	_	DET	DET	_	77	det	_	TokenRange=612:616
+77	informacoes	informacoe	NOUN	NOUN	_	75	obj	_	TokenRange=617:628
+78	josias	_	NOUN	NOUN	_	75	appos	_	TokenRange=629:635
+79	souza	_	VERB	VERB	_	78	flat	_	SpaceAfter=No|TokenRange=636:641
+

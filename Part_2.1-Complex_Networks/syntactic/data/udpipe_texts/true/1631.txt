@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cabeca raspada eike batista transferido presidio empresario preso desembarcar galeao manha desta segundafeira 30 apos triagem ary franco eike transferido bangu 9 empresario eike batista deixou presidio ary franco zona norte rio volta 13h30 desta segundafeira 30 cabeca raspada uniforme detento colocado dentro viatura carregando travesseiro mao rumo complexo penitenciario gericino bangu zona oeste empresario considerado foragido nova york preso desembarcar galeao
+1	cabeca	cabeca	NOUN	NOUN	_	26	nsubj	_	TokenRange=0:6
+2	raspada	raspado	ADJ	ADJ	_	1	amod	_	TokenRange=7:14
+3	eike	_	NOUN	NOUN	_	1	appos	_	TokenRange=15:19
+4	batista	batista	ADJ	ADJ	_	3	flat	_	TokenRange=20:27
+5	transferido	transferir	VERB	VERB	_	1	acl	_	TokenRange=28:39
+6	presidio	presidio	NOUN	NOUN	_	5	obj	_	TokenRange=40:48
+7	empresario	empresario	ADJ	ADJ	_	6	amod	_	TokenRange=49:59
+8	preso	_	ADJ	ADJ	_	6	amod	_	TokenRange=60:65
+9	desembarcar	desembarcar	VERB	VERB	_	5	parataxis	_	TokenRange=66:77
+10	galeao	galeao	NOUN	NOUN	_	9	obj	_	TokenRange=78:84
+11	manha	manha	NOUN	NOUN	_	9	nmod	_	TokenRange=85:90
+12	desta	_	ADP	ADP	_	13	case	_	TokenRange=91:96
+13	segundafeira	_	NOUN	NOUN	_	11	nmod	_	TokenRange=97:109
+14	30	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=110:112
+15	apos	_	ADP	ADP	_	16	case	_	TokenRange=113:117
+16	triagem	triagem	NOUN	NOUN	_	5	nmod	_	TokenRange=118:125
+17	ary	_	NOUN	NOUN	_	16	appos	_	TokenRange=126:129
+18	franco	_	ADJ	ADJ	_	17	flat	_	TokenRange=130:136
+19	eike	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=137:141
+20	transferido	transferir	VERB	VERB	_	1	acl	_	TokenRange=142:153
+21	bangu	_	NOUN	NOUN	_	20	obj	_	TokenRange=154:159
+22	9	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=160:161
+23	empresario	empresario	NOUN	NOUN	_	20	nsubj	_	TokenRange=162:172
+24	eike	_	NOUN	NOUN	_	23	appos	_	TokenRange=173:177
+25	batista	batista	ADJ	NOUN	_	24	flat	_	TokenRange=178:185
+26	deixou	deixar	VERB	VERB	_	0	root	_	TokenRange=186:192
+27	presidio	presidio	NOUN	NOUN	_	26	obj	_	TokenRange=193:201
+28	ary	_	NOUN	NOUN	_	27	appos	_	TokenRange=202:205
+29	franco	franco	ADJ	ADJ	_	28	amod	_	TokenRange=206:212
+30	zona	zona	NOUN	NOUN	_	27	appos	_	TokenRange=213:217
+31	norte	norte	ADJ	ADJ	_	30	amod	_	TokenRange=218:223
+32	rio	rio	NOUN	NOUN	_	26	parataxis	_	TokenRange=224:227
+33	volta	volta	NOUN	NOUN	_	32	flat	_	TokenRange=228:233
+34	13h30	_	NUM	NUM	NumType=Card	32	appos	_	TokenRange=234:239
+35	desta	_	ADP	ADP	_	36	case	_	TokenRange=240:245
+36	segundafeira	_	NOUN	NOUN	_	34	nmod	_	TokenRange=246:258
+37	30	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=259:261
+38	cabeca	cabeca	NOUN	NOUN	_	26	parataxis	_	TokenRange=262:268
+39	raspada	raspado	ADJ	ADJ	_	38	amod	_	TokenRange=269:276
+40	uniforme	uniforme	NOUN	NOUN	_	26	nsubj	_	TokenRange=277:285
+41	detento	detento	NOUN	NOUN	_	40	appos	_	TokenRange=286:293
+42	colocado	colocar	VERB	VERB	_	40	acl	_	TokenRange=294:302
+43	dentro	dentro	ADV	ADV	_	42	advmod	_	TokenRange=303:309
+44	viatura	viatura	NOUN	NOUN	_	42	nmod	_	TokenRange=310:317
+45	carregando	carregar	VERB	VERB	_	42	acl	_	TokenRange=318:328
+46	travesseiro	travesseiro	NOUN	NOUN	_	45	obj	_	TokenRange=329:340
+47	mao	mao	NOUN	NOUN	_	50	appos	_	TokenRange=341:344
+48	rumo	rumo	NOUN	NOUN	_	50	case	_	TokenRange=345:349
+49	complexo	complexo	ADJ	ADJ	_	50	amod	_	TokenRange=350:358
+50	penitenciario	penitenciario	NOUN	NOUN	_	46	amod	_	TokenRange=359:372
+51	gericino	gericino	ADJ	ADJ	_	50	amod	_	TokenRange=373:381
+52	bangu	_	NOUN	NOUN	_	53	case	_	TokenRange=382:387
+53	zona	zona	NOUN	NOUN	_	50	appos	_	TokenRange=388:392
+54	oeste	oeste	ADJ	ADJ	_	53	amod	_	TokenRange=393:398
+55	empresario	empresario	NOUN	NOUN	_	53	appos	_	TokenRange=399:409
+56	considerado	considerar	VERB	VERB	_	55	acl	_	TokenRange=410:421
+57	foragido	foragido	ADJ	ADJ	_	56	xcomp	_	TokenRange=422:430
+58	nova	novo	ADJ	ADJ	_	59	amod	_	TokenRange=431:435
+59	york	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=436:440
+60	preso	_	VERB	VERB	_	61	acl	_	TokenRange=441:446
+61	desembarcar	desembarcar	VERB	VERB	_	56	xcomp	_	TokenRange=447:458
+62	galeao	galeao	NOUN	NOUN	_	61	obj	_	SpaceAfter=No|TokenRange=459:465
+

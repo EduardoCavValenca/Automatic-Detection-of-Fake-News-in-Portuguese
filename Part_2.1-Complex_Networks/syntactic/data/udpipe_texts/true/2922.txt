@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exdeputado sandro mabel recebeu doacoes campanha via caixa dois dizem delatores odebrecht relatos exexecutivos empreiteira apontam repasses r 140 mil 2010 nome citado delacao sobre aprovacao emenda manutencao diretores furnas exdeputado federal sandro antonio scodro conhecido sandro mabel pmdb recebeu r 140 mil via caixa dois empreiteira odebrecht campanha 2010 segundo delacao exexecutivo empresa benedicto barbosa
+1	exdeputado	exdeputado	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	sandro	sandro	NOUN	NOUN	_	1	appos	_	TokenRange=11:17
+3	mabel	_	NOUN	NOUN	_	2	flat	_	TokenRange=18:23
+4	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=24:31
+5	doacoes	doacoe	NOUN	NOUN	_	4	obj	_	TokenRange=32:39
+6	campanha	campanha	NOUN	NOUN	_	5	appos	_	TokenRange=40:48
+7	via	_	ADP	ADP	_	8	case	_	TokenRange=49:52
+8	caixa	caixa	NOUN	NOUN	_	6	nmod	_	TokenRange=53:58
+9	dois	_	NUM	NUM	NumType=Card	8	appos	_	TokenRange=59:63
+10	dizem	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=64:69
+11	delatores	delator	NOUN	NOUN	_	10	obj	_	TokenRange=70:79
+12	odebrecht	_	ADJ	ADJ	_	13	amod	_	TokenRange=80:89
+13	relatos	relato	NOUN	NOUN	_	16	nsubj	_	TokenRange=90:97
+14	exexecutivos	exexecutivo	ADJ	ADJ	_	13	amod	_	TokenRange=98:110
+15	empreiteira	empreiteiro	NOUN	NOUN	_	13	amod	_	TokenRange=111:122
+16	apontam	apontar	VERB	VERB	_	4	parataxis	_	TokenRange=123:130
+17	repasses	repasse	NOUN	NOUN	_	16	obj	_	TokenRange=131:139
+18	r	r	NOUN	NOUN	_	17	appos	_	TokenRange=140:141
+19	140	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=142:145
+20	mil	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=146:149
+21	2010	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=150:154
+22	nome	nome	NOUN	NOUN	_	16	obj	_	TokenRange=155:159
+23	citado	citar	VERB	VERB	_	22	acl	_	TokenRange=160:166
+24	delacao	delacao	NOUN	NOUN	_	23	nsubj	_	TokenRange=167:174
+25	sobre	_	ADP	ADP	_	26	case	_	TokenRange=175:180
+26	aprovacao	aprovacao	NOUN	NOUN	_	24	nmod	_	TokenRange=181:190
+27	emenda	emenda	NOUN	NOUN	_	26	appos	_	TokenRange=191:197
+28	manutencao	manutencao	ADJ	ADJ	_	29	amod	_	TokenRange=198:208
+29	diretores	diretor	NOUN	NOUN	_	27	appos	_	TokenRange=209:218
+30	furnas	furno	ADJ	ADJ	_	29	amod	_	TokenRange=219:225
+31	exdeputado	exdeputado	NOUN	NOUN	_	27	appos	_	TokenRange=226:236
+32	federal	federal	ADJ	ADJ	_	31	amod	_	TokenRange=237:244
+33	sandro	sandro	NOUN	NOUN	_	31	appos	_	TokenRange=245:251
+34	antonio	antonio	ADJ	ADJ	_	33	flat	_	TokenRange=252:259
+35	scodro	scodro	ADJ	NOUN	_	33	flat	_	TokenRange=260:266
+36	conhecido	conhecido	ADJ	ADJ	_	37	amod	_	TokenRange=267:276
+37	sandro	sandro	NOUN	NOUN	_	31	appos	_	TokenRange=277:283
+38	mabel	_	ADJ	NOUN	_	37	flat	_	TokenRange=284:289
+39	pmdb	_	PROPN	PNOUN	_	37	flat	_	TokenRange=290:294
+40	recebeu	receber	VERB	VERB	_	4	parataxis	_	TokenRange=295:302
+41	r	r	NOUN	NOUN	_	40	obj	_	TokenRange=303:304
+42	140	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=305:308
+43	mil	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=309:312
+44	via	_	ADP	ADP	_	45	case	_	TokenRange=313:316
+45	caixa	caixa	NOUN	NOUN	_	40	nmod	_	TokenRange=317:322
+46	dois	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=323:327
+47	empreiteira	empreiteiro	NOUN	NOUN	_	45	appos	_	TokenRange=328:339
+48	odebrecht	_	ADJ	ADJ	_	47	appos	_	TokenRange=340:349
+49	campanha	campanha	NOUN	NOUN	_	47	appos	_	TokenRange=350:358
+50	2010	_	NUM	NUM	NumType=Card	49	appos	_	TokenRange=359:363
+51	segundo	_	ADP	ADP	_	52	case	_	TokenRange=364:371
+52	delacao	delacao	NOUN	NOUN	_	40	nmod	_	TokenRange=372:379
+53	exexecutivo	exexecutivo	ADJ	ADJ	_	52	amod	_	TokenRange=380:391
+54	empresa	empresa	NOUN	NOUN	_	52	appos	_	TokenRange=392:399
+55	benedicto	benedicto	NOUN	NOUN	_	54	appos	_	TokenRange=400:409
+56	barbosa	barboso	ADJ	ADJ	_	55	amod	_	SpaceAfter=No|TokenRange=410:417
+

@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = historiadores dizem sobre real aparencia jesus esqueca cabelos compridos olhos azuis pesquisadores pele olhos escuros cabelos curtos seculos seculos eurocentrismo tanto arte quanto religiao sedimentasse imagem conhecida jesus cristo homem branco barbudo longos cabelos castanhos claros olhos azuis apesar retrato conhecido maior
+1	historiadores	historiador	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:13
+2	dizem	dizer	VERB	VERB	_	0	root	_	TokenRange=14:19
+3	sobre	_	ADP	ADP	_	5	case	_	TokenRange=20:25
+4	real	real	ADJ	ADJ	_	5	amod	_	TokenRange=26:30
+5	aparencia	aparencia	NOUN	NOUN	_	2	nmod	_	TokenRange=31:40
+6	jesus	jesus	NOUN	NOUN	_	7	nsubj	_	TokenRange=41:46
+7	esqueca	esquecar	VERB	VERB	_	2	ccomp	_	TokenRange=47:54
+8	cabelos	cabelo	NOUN	NOUN	_	7	obj	_	TokenRange=55:62
+9	compridos	comprido	ADJ	ADJ	_	8	amod	_	TokenRange=63:72
+10	olhos	olho	NOUN	NOUN	_	8	appos	_	TokenRange=73:78
+11	azuis	azul	ADJ	ADJ	_	10	amod	_	TokenRange=79:84
+12	pesquisadores	pesquisador	ADJ	ADJ	_	8	amod	_	TokenRange=85:98
+13	pele	pele	NOUN	NOUN	_	8	appos	_	TokenRange=99:103
+14	olhos	olho	NOUN	NOUN	_	13	appos	_	TokenRange=104:109
+15	escuros	escuro	ADJ	ADJ	_	16	amod	_	TokenRange=110:117
+16	cabelos	cabelo	NOUN	NOUN	_	14	appos	_	TokenRange=118:125
+17	curtos	curto	ADJ	ADJ	_	16	amod	_	TokenRange=126:132
+18	seculos	_	ADJ	ADJ	_	19	amod	_	TokenRange=133:140
+19	seculos	seculo	NOUN	NOUN	_	16	nmod	_	TokenRange=141:148
+20	eurocentrismo	eurocentrismo	ADJ	ADJ	_	16	amod	_	TokenRange=149:162
+21	tanto	_	CCONJ	CONJ	_	22	cc	_	TokenRange=163:168
+22	arte	arte	NOUN	NOUN	_	25	nsubj	_	TokenRange=169:173
+23	quanto	_	CCONJ	CONJ	_	24	cc	_	TokenRange=174:180
+24	religiao	religiao	NOUN	NOUN	_	22	conj	_	TokenRange=181:189
+25	sedimentasse	sedimentar	VERB	VERB	_	2	conj	_	TokenRange=190:202
+26	imagem	imagem	NOUN	NOUN	_	25	obj	_	TokenRange=203:209
+27	conhecida	conhecido	ADJ	ADJ	_	26	amod	_	TokenRange=210:219
+28	jesus	jesus	NOUN	NOUN	_	30	appos	_	TokenRange=220:225
+29	cristo	cristo	ADJ	ADJ	_	30	amod	_	TokenRange=226:232
+30	homem	homem	NOUN	NOUN	_	25	nsubj	_	TokenRange=233:238
+31	branco	branco	ADJ	ADJ	_	30	amod	_	TokenRange=239:245
+32	barbudo	barbudo	ADJ	ADJ	_	30	amod	_	TokenRange=246:253
+33	longos	longo	ADJ	ADJ	_	34	amod	_	TokenRange=254:260
+34	cabelos	cabelo	NOUN	NOUN	_	30	appos	_	TokenRange=261:268
+35	castanhos	castanho	ADJ	ADJ	_	34	amod	_	TokenRange=269:278
+36	claros	claro	ADJ	ADJ	_	34	amod	_	TokenRange=279:285
+37	olhos	olho	NOUN	NOUN	_	34	appos	_	TokenRange=286:291
+38	azuis	azul	ADJ	ADJ	_	37	amod	_	TokenRange=292:297
+39	apesar	apesar	ADV	ADV	_	40	advmod	_	TokenRange=298:304
+40	retrato	retrato	NOUN	NOUN	_	25	nmod	_	TokenRange=305:312
+41	conhecido	conhecido	ADJ	ADJ	_	40	amod	_	TokenRange=313:322
+42	maior	maior	ADJ	ADJ	_	40	amod	_	SpaceAfter=No|TokenRange=323:328
+

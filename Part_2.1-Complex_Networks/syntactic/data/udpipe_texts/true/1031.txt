@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = homem preso apos matar vizinho 20 facadas alega legitima defesa sp criminoso contraria testemunhas depoimento caso ocorreu santos litoral paulista anderson alencar santos preso nesta tercafeira 13 apos admitir matado vizinho 20 facadas bairro vila nova santos litoral paulo crime inicio hotel desativado rua bras cubas terminou rua doutor joao eboli onde vitima socorrida suspeito alegou legitima defesa
+1	homem	homem	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:5
+2	preso	_	VERB	VERB	_	1	acl	_	TokenRange=6:11
+3	apos	_	ADP	ADP	_	4	mark	_	TokenRange=12:16
+4	matar	matar	VERB	VERB	_	2	nmod	_	TokenRange=17:22
+5	vizinho	vizinho	NOUN	NOUN	_	4	obj	_	TokenRange=23:30
+6	20	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=31:33
+7	facadas	facada	NOUN	NOUN	_	4	obj	_	TokenRange=34:41
+8	alega	alegar	VERB	VERB	_	0	root	_	TokenRange=42:47
+9	legitima	legitimo	ADJ	ADJ	_	10	amod	_	TokenRange=48:56
+10	defesa	_	NOUN	NOUN	_	8	obj	_	TokenRange=57:63
+11	sp	_	NOUN	NOUN	_	14	case	_	TokenRange=64:66
+12	criminoso	criminoso	NOUN	NOUN	_	13	nsubj	_	TokenRange=67:76
+13	contraria	contrar	VERB	VERB	_	14	amod	_	TokenRange=77:86
+14	testemunhas	testemunha	NOUN	NOUN	_	8	obj	_	TokenRange=87:98
+15	depoimento	depoimento	ADJ	ADJ	_	14	amod	_	TokenRange=99:109
+16	caso	caso	NOUN	NOUN	_	17	nsubj	_	TokenRange=110:114
+17	ocorreu	ocorrer	VERB	VERB	_	14	acl:relcl	_	TokenRange=115:122
+18	santos	santo	NOUN	NOUN	_	17	nsubj	_	TokenRange=123:129
+19	litoral	litoral	ADJ	ADJ	_	18	amod	_	TokenRange=130:137
+20	paulista	paulista	ADJ	ADJ	_	18	amod	_	TokenRange=138:146
+21	anderson	_	NOUN	NOUN	_	18	appos	_	TokenRange=147:155
+22	alencar	alencar	NOUN	NOUN	_	21	flat	_	TokenRange=156:163
+23	santos	santo	NOUN	NOUN	_	22	flat	_	TokenRange=164:170
+24	preso	_	VERB	VERB	_	21	acl	_	TokenRange=171:176
+25	nesta	_	ADP	ADP	_	26	case	_	TokenRange=177:182
+26	tercafeira	_	NOUN	NOUN	_	24	nmod	_	TokenRange=183:193
+27	13	_	NUM	NUM	NumType=Card	26	appos	_	TokenRange=194:196
+28	apos	_	ADP	ADP	_	29	mark	_	TokenRange=197:201
+29	admitir	admitir	VERB	VERB	_	24	advcl	_	TokenRange=202:209
+30	matado	matar	VERB	VERB	_	29	acl	_	TokenRange=210:216
+31	vizinho	vizinho	NOUN	NOUN	_	30	obj	_	TokenRange=217:224
+32	20	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=225:227
+33	facadas	facada	NOUN	NOUN	_	31	appos	_	TokenRange=228:235
+34	bairro	bairro	NOUN	NOUN	_	31	appos	_	TokenRange=236:242
+35	vila	vila	NOUN	NOUN	_	34	appos	_	TokenRange=243:247
+36	nova	novo	ADJ	ADJ	_	37	amod	_	TokenRange=248:252
+37	santos	santo	NOUN	NOUN	_	34	appos	_	TokenRange=253:259
+38	litoral	litoral	NOUN	NOUN	_	34	appos	_	TokenRange=260:267
+39	paulo	paulo	ADJ	ADJ	_	37	amod	_	TokenRange=268:273
+40	crime	crime	NOUN	NOUN	_	37	appos	_	TokenRange=274:279
+41	inicio	_	ADJ	ADJ	_	42	amod	_	TokenRange=280:286
+42	hotel	hotel	NOUN	NOUN	_	40	appos	_	TokenRange=287:292
+43	desativado	desativado	ADJ	ADJ	_	42	amod	_	TokenRange=293:303
+44	rua	rua	NOUN	NOUN	_	47	nsubj	_	TokenRange=304:307
+45	bras	bra	NOUN	NOUN	_	44	flat	_	TokenRange=308:312
+46	cubas	_	NOUN	NOUN	_	44	flat	_	TokenRange=313:318
+47	terminou	terminar	VERB	VERB	_	42	acl:relcl	_	TokenRange=319:327
+48	rua	rua	NOUN	NOUN	_	47	obj	_	TokenRange=328:331
+49	doutor	doutor	NOUN	NOUN	_	48	appos	_	TokenRange=332:338
+50	joao	joao	NOUN	NOUN	_	48	flat	_	TokenRange=339:343
+51	eboli	_	NOUN	NOUN	_	50	flat	_	TokenRange=344:349
+52	onde	onde	ADV	ADV	_	56	advmod	_	TokenRange=350:354
+53	vitima	vitima	NOUN	NOUN	_	56	nsubj	_	TokenRange=355:361
+54	socorrida	socorrer	ADJ	ADJ	_	53	acl	_	TokenRange=362:371
+55	suspeito	suspeito	NOUN	NOUN	_	53	amod	_	TokenRange=372:380
+56	alegou	alegar	VERB	VERB	_	48	acl:relcl	_	TokenRange=381:387
+57	legitima	legitimo	ADJ	ADJ	_	58	amod	_	TokenRange=388:396
+58	defesa	_	NOUN	NOUN	_	56	obj	_	SpaceAfter=No|TokenRange=397:403
+

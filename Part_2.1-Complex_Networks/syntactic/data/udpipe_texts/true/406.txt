@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maio deste ano alunos 8 ano ensino fundamental ii oswald fizeram viagem estudo meio mariana minas gerais analisar perto impactos causados rompimento barragem mineradora samarco reportagem abaixo faz parte iniciativa correspondentesestudodomeio parceria estudantes coordenacao pedagogica equipe comunicacao escola confira texto andre banvolgyi aluno 8 selecao legendas fotos maya matta lopes natalia zabotto udiloff alunas 8 laura nassar coordenadora pedagogica edicao laura nassar coordenadora pedagogica priscila kesselring jornalista admitir ansiosos ir paracatu primeiros
+1	maio	_	PROPN	PNOUN	_	28	nmod	_	TokenRange=0:4
+2	deste	_	ADP	ADP	_	3	case	_	TokenRange=5:10
+3	ano	ano	NOUN	NOUN	_	1	nmod	_	TokenRange=11:14
+4	alunos	aluno	NOUN	NOUN	_	1	appos	_	TokenRange=15:21
+5	8	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=22:23
+6	ano	ano	NOUN	NOUN	_	4	appos	_	TokenRange=24:27
+7	ensino	ensino	NOUN	NOUN	_	4	appos	_	TokenRange=28:34
+8	fundamental	fundamental	ADJ	ADJ	_	7	amod	_	TokenRange=35:46
+9	ii	_	NUM	NUM	NumType=Card	7	appos	_	TokenRange=47:49
+10	oswald	_	NOUN	NOUN	_	7	appos	_	TokenRange=50:56
+11	fizeram	fazer	VERB	VERB	_	28	parataxis	_	TokenRange=57:64
+12	viagem	viagem	NOUN	NOUN	_	11	obj	_	TokenRange=65:71
+13	estudo	estudo	NOUN	NOUN	_	12	appos	_	TokenRange=72:78
+14	meio	meio	NOUN	NOUN	_	12	appos	_	TokenRange=79:83
+15	mariana	_	ADJ	ADJ	_	14	amod	_	TokenRange=84:91
+16	minas	mina	NOUN	NOUN	_	11	appos	_	TokenRange=92:97
+17	gerais	geral	ADJ	ADJ	_	16	amod	_	TokenRange=98:104
+18	analisar	analisar	VERB	VERB	_	11	parataxis	_	TokenRange=105:113
+19	perto	perto	ADV	ADV	_	18	advmod	_	TokenRange=114:119
+20	impactos	impacto	NOUN	NOUN	_	18	obj	_	TokenRange=120:128
+21	causados	causar	VERB	VERB	_	20	acl	_	TokenRange=129:137
+22	rompimento	rompimento	NOUN	NOUN	_	21	obj	_	TokenRange=138:148
+23	barragem	barragem	NOUN	NOUN	_	20	appos	_	TokenRange=149:157
+24	mineradora	_	ADJ	ADJ	_	23	amod	_	TokenRange=158:168
+25	samarco	samarco	VERB	VERB	_	23	appos	_	TokenRange=169:176
+26	reportagem	reportagem	NOUN	NOUN	_	28	obj	_	TokenRange=177:187
+27	abaixo	abaixo	ADV	ADV	_	28	advmod	_	TokenRange=188:194
+28	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=195:198
+29	parte	parte	NOUN	NOUN	_	28	obj	_	TokenRange=199:204
+30	iniciativa	iniciativa	NOUN	NOUN	_	29	appos	_	TokenRange=205:215
+31	correspondentesestudodomeio	_	NOUN	NOUN	_	30	appos	_	TokenRange=216:243
+32	parceria	parceria	NOUN	NOUN	_	30	appos	_	TokenRange=244:252
+33	estudantes	estudante	NOUN	NOUN	_	32	flat	_	TokenRange=253:263
+34	coordenacao	_	NOUN	NOUN	_	32	appos	_	TokenRange=264:275
+35	pedagogica	pedagogico	ADJ	ADJ	_	34	amod	_	TokenRange=276:286
+36	equipe	equipe	NOUN	NOUN	_	39	nsubj	_	TokenRange=287:293
+37	comunicacao	comunicacao	ADJ	ADJ	_	36	amod	_	TokenRange=294:305
+38	escola	escola	NOUN	NOUN	_	36	appos	_	TokenRange=306:312
+39	confira	conferir	VERB	VERB	_	28	parataxis	_	TokenRange=313:320
+40	texto	texto	NOUN	NOUN	_	39	obj	_	TokenRange=321:326
+41	andre	andre	NOUN	NOUN	_	40	appos	_	TokenRange=327:332
+42	banvolgyi	_	NOUN	NOUN	_	41	flat	_	TokenRange=333:342
+43	aluno	aluno	NOUN	NOUN	_	41	appos	_	TokenRange=343:348
+44	8	_	NUM	NUM	NumType=Card	43	appos	_	TokenRange=349:350
+45	selecao	selecao	NOUN	NOUN	_	43	appos	_	TokenRange=351:358
+46	legendas	legenda	ADJ	ADJ	_	47	amod	_	TokenRange=359:367
+47	fotos	foto	NOUN	NOUN	_	39	obj	_	TokenRange=368:373
+48	maya	_	NOUN	NOUN	_	47	appos	_	TokenRange=374:378
+49	matta	_	NOUN	NOUN	_	48	flat	_	TokenRange=379:384
+50	lopes	_	NOUN	NOUN	_	48	flat	_	TokenRange=385:390
+51	natalia	_	NOUN	NOUN	_	48	appos	_	TokenRange=391:398
+52	zabotto	_	NOUN	NOUN	_	51	flat	_	TokenRange=399:406
+53	udiloff	_	NOUN	NOUN	_	51	flat	_	TokenRange=407:414
+54	alunas	aluna	NOUN	NOUN	_	51	appos	_	TokenRange=415:421
+55	8	_	NUM	NUM	NumType=Card	54	appos	_	TokenRange=422:423
+56	laura	laura	NOUN	NOUN	_	54	appos	_	TokenRange=424:429
+57	nassar	nassar	X	X	_	56	flat	_	TokenRange=430:436
+58	coordenadora	coordenador	NOUN	NOUN	_	56	appos	_	TokenRange=437:449
+59	pedagogica	pedagogico	ADJ	ADJ	_	58	amod	_	TokenRange=450:460
+60	edicao	edicao	NOUN	NOUN	_	56	appos	_	TokenRange=461:467
+61	laura	laura	NOUN	NOUN	_	56	appos	_	TokenRange=468:473
+62	nassar	nassar	X	AUX	_	61	flat	_	TokenRange=474:480
+63	coordenadora	coordenador	NOUN	NOUN	_	61	appos	_	TokenRange=481:493
+64	pedagogica	pedagogico	ADJ	ADJ	_	63	amod	_	TokenRange=494:504
+65	priscila	_	ADJ	ADJ	_	63	appos	_	TokenRange=505:513
+66	kesselring	_	NOUN	NOUN	_	65	flat	_	TokenRange=514:524
+67	jornalista	jornalista	NOUN	NOUN	_	65	flat	_	TokenRange=525:535
+68	admitir	admitir	VERB	VERB	_	28	parataxis	_	TokenRange=536:543
+69	ansiosos	ansioso	ADJ	ADJ	_	68	xcomp	_	TokenRange=544:552
+70	ir	ir	VERB	VERB	_	68	ccomp	_	TokenRange=553:555
+71	paracatu	_	NOUN	NOUN	_	70	obj	_	TokenRange=556:564
+72	primeiros	primeiro	ADJ	ADJ	_	71	amod	_	SpaceAfter=No|TokenRange=565:574
+

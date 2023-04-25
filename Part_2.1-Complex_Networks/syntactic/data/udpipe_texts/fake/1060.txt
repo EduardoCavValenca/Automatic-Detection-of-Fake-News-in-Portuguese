@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cidadao chamou petistas meliantes condenado pagar indenizacao r 100 real corretor imoveis piracicaba interior sp condenado indenizar pt r 1 hum real bruno prata fez publicacao jornal cidade usou expressao meliantes referir petistas diretorio pt local abriu processo contra corretor acabou condenado juiz sentenca juiz eduardo velho neto 1 vara civel local estabeleceu r 100 indenizacao paga bruno juiz ainda destacou sentenca ouso dizer pt unico partido quer ambito nacional internacional dentre filiados unica alma pura existente face terra abaixo print sentenca
+1	cidadao	cidadao	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	chamou	chamar	VERB	VERB	_	0	root	_	TokenRange=8:14
+3	petistas	petista	NOUN	NOUN	_	2	obj	_	TokenRange=15:23
+4	meliantes	meliante	ADJ	ADJ	_	3	amod	_	TokenRange=24:33
+5	condenado	condenar	VERB	VERB	_	3	acl	_	TokenRange=34:43
+6	pagar	pagar	VERB	VERB	_	5	xcomp	_	TokenRange=44:49
+7	indenizacao	_	NOUN	NOUN	_	6	obj	_	TokenRange=50:61
+8	r	r	NOUN	NOUN	_	11	appos	_	TokenRange=62:63
+9	100	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=64:67
+10	real	real	ADJ	ADJ	_	11	amod	_	TokenRange=68:72
+11	corretor	corretor	NOUN	NOUN	_	7	appos	_	TokenRange=73:81
+12	imoveis	imoveis	NOUN	NOUN	_	11	amod	_	TokenRange=82:89
+13	piracicaba	piracicaba	ADJ	ADJ	_	11	amod	_	TokenRange=90:100
+14	interior	interior	ADJ	ADJ	_	11	amod	_	TokenRange=101:109
+15	sp	_	X	X	_	16	nsubj	_	TokenRange=110:112
+16	condenado	condenar	VERB	VERB	_	11	acl	_	TokenRange=113:122
+17	indenizar	indenizar	VERB	VERB	_	16	xcomp	_	TokenRange=123:132
+18	pt	_	NOUN	NOUN	_	17	obj	_	TokenRange=133:135
+19	r	r	NOUN	NOUN	_	18	appos	_	TokenRange=136:137
+20	1	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=138:139
+21	hum	hum	NOUN	NOUN	_	17	obj	_	TokenRange=140:143
+22	real	real	ADJ	ADJ	_	21	amod	_	TokenRange=144:148
+23	bruno	bruno	NOUN	NOUN	_	25	nsubj	_	TokenRange=149:154
+24	prata	prata	NOUN	NOUN	_	21	flat	_	TokenRange=155:160
+25	fez	fazer	VERB	VERB	_	16	conj	_	TokenRange=161:164
+26	publicacao	publicacao	NOUN	NOUN	_	25	obj	_	TokenRange=165:175
+27	jornal	jornal	NOUN	NOUN	_	26	appos	_	TokenRange=176:182
+28	cidade	cidade	NOUN	NOUN	_	26	flat	_	TokenRange=183:189
+29	usou	usar	VERB	VERB	_	25	parataxis	_	TokenRange=190:194
+30	expressao	expressao	NOUN	NOUN	_	29	obj	_	TokenRange=195:204
+31	meliantes	meliante	NOUN	NOUN	_	32	obj	_	TokenRange=205:214
+32	referir	referir	VERB	VERB	_	30	acl:inf	_	TokenRange=215:222
+33	petistas	petista	NOUN	NOUN	_	32	obj	_	TokenRange=223:231
+34	diretorio	diretorio	NOUN	NOUN	_	33	amod	_	TokenRange=232:241
+35	pt	_	NOUN	NOUN	_	32	obj	_	TokenRange=242:244
+36	local	local	ADJ	ADJ	_	34	amod	_	TokenRange=245:250
+37	abriu	abrir	VERB	VERB	_	32	parataxis	_	TokenRange=251:256
+38	processo	processo	NOUN	NOUN	_	37	obj	_	TokenRange=257:265
+39	contra	_	ADP	ADP	_	40	case	_	TokenRange=266:272
+40	corretor	corretor	NOUN	NOUN	_	38	nmod	_	TokenRange=273:281
+41	acabou	acabar	AUX	AUX	_	43	cop	_	TokenRange=282:288
+42	condenado	condenado	ADJ	ADJ	_	43	amod	_	TokenRange=289:298
+43	juiz	juiz	NOUN	NOUN	_	37	parataxis	_	TokenRange=299:303
+44	sentenca	_	ADJ	ADJ	_	45	amod	_	TokenRange=304:312
+45	juiz	juiz	NOUN	NOUN	_	37	nsubj	_	TokenRange=313:317
+46	eduardo	eduardo	NOUN	NOUN	_	45	appos	_	TokenRange=318:325
+47	velho	velho	ADJ	ADJ	_	50	amod	_	TokenRange=326:331
+48	neto	neto	ADJ	NOUN	_	46	flat	_	TokenRange=332:336
+49	1	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=337:338
+50	vara	vara	NOUN	NOUN	_	53	nsubj	_	TokenRange=339:343
+51	civel	civel	ADJ	ADJ	_	50	amod	_	TokenRange=344:349
+52	local	local	ADJ	ADJ	_	50	amod	_	TokenRange=350:355
+53	estabeleceu	estabelecer	VERB	VERB	_	37	conj	_	TokenRange=356:367
+54	r	r	NOUN	NOUN	_	53	obj	_	TokenRange=368:369
+55	100	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=370:373
+56	indenizacao	_	NOUN	NOUN	_	53	obj	_	TokenRange=374:385
+57	paga	paga	NOUN	NOUN	_	56	flat	_	TokenRange=386:390
+58	bruno	bruno	ADJ	ADJ	_	59	amod	_	TokenRange=391:396
+59	juiz	juiz	NOUN	NOUN	_	56	flat	_	TokenRange=397:401
+60	ainda	ainda	ADV	ADV	_	61	advmod	_	TokenRange=402:407
+61	destacou	destacar	VERB	VERB	_	2	conj	_	TokenRange=408:416
+62	sentenca	_	NOUN	NOUN	_	61	obj	_	TokenRange=417:425
+63	ouso	_	ADV	PRON	_	64	obj	_	TokenRange=426:430
+64	dizer	dizer	VERB	VERB	_	62	acl:inf	_	TokenRange=431:436
+65	pt	_	PROPN	PNOUN	_	64	obj	_	TokenRange=437:439
+66	unico	unico	ADJ	ADJ	_	67	amod	_	TokenRange=440:445
+67	partido	partido	NOUN	NOUN	_	64	obj	_	TokenRange=446:453
+68	quer	querer	VERB	VERB	_	62	acl:relcl	_	TokenRange=454:458
+69	ambito	ambito	NOUN	NOUN	_	64	obj	_	TokenRange=459:465
+70	nacional	nacional	ADJ	ADJ	_	69	amod	_	TokenRange=466:474
+71	internacional	internacional	ADJ	ADJ	_	69	amod	_	TokenRange=475:488
+72	dentre	_	ADP	ADP	_	73	case	_	TokenRange=489:495
+73	filiados	filiado	NOUN	NOUN	_	75	nmod	_	TokenRange=496:504
+74	unica	unico	ADJ	ADJ	_	75	amod	_	TokenRange=505:510
+75	alma	alma	NOUN	NOUN	_	69	appos	_	TokenRange=511:515
+76	pura	puro	ADJ	ADJ	_	75	amod	_	TokenRange=516:520
+77	existente	existente	ADJ	ADJ	_	75	amod	_	TokenRange=521:530
+78	face	_	ADV	ADP	_	79	case	_	TokenRange=531:535
+79	terra	terra	NOUN	NOUN	_	75	nmod	_	TokenRange=536:541
+80	abaixo	abaixo	ADV	ADV	_	79	advmod	_	TokenRange=542:548
+81	print	_	ADJ	ADJ	_	82	amod	_	TokenRange=549:554
+82	sentenca	_	NOUN	NOUN	_	61	obj	_	SpaceAfter=No|TokenRange=555:563
+

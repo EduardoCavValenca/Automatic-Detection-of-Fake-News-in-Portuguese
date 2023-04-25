@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = manifestacoes pedem temer 19 estados df faixas exigem eleicoes diretas protestos registrados 19 estados distrito federal neste domingo 21 pedindo renuncia presidente michel temer convocados pt outros partidos cut central unica trabalhadores grupos esquerda movimentos sociais outras centrais sindicais atos motivados delacao premiada empresarios joesley wesley batista donos jbs sabado 20 temer disse continua presidencia pediu suspensao inquerito investiga 19h registro protestos acre amazonas bahia ceara distrito
+1	manifestacoes	manifestacoe	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:13
+2	pedem	pedir	VERB	VERB	_	0	root	_	TokenRange=14:19
+3	temer	temer	NOUN	NOUN	_	2	obj	_	TokenRange=20:25
+4	19	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=26:28
+5	estados	estado	NOUN	NOUN	_	2	obj	_	TokenRange=29:36
+6	df	_	ADP	ADP	_	7	case	_	TokenRange=37:39
+7	faixas	faixa	NOUN	NOUN	_	8	nsubj	_	TokenRange=40:46
+8	exigem	exigir	VERB	VERB	_	2	parataxis	_	TokenRange=47:53
+9	eleicoes	eleicoe	NOUN	NOUN	_	8	obj	_	TokenRange=54:62
+10	diretas	direto	ADJ	ADJ	_	9	amod	_	TokenRange=63:70
+11	protestos	protesto	NOUN	NOUN	_	8	obj	_	TokenRange=71:80
+12	registrados	registrar	VERB	VERB	_	11	acl	_	TokenRange=81:92
+13	19	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=93:95
+14	estados	estado	NOUN	NOUN	_	12	nmod	_	TokenRange=96:103
+15	distrito	distrito	NOUN	NOUN	_	14	appos	_	TokenRange=104:112
+16	federal	federal	ADJ	ADJ	_	15	amod	_	TokenRange=113:120
+17	neste	_	ADP	ADP	_	18	case	_	TokenRange=121:126
+18	domingo	_	PROPN	PNOUN	_	8	nmod	_	TokenRange=127:134
+19	21	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=135:137
+20	pedindo	pedir	VERB	VERB	_	8	acl	_	TokenRange=138:145
+21	renuncia	renuncia	NOUN	NOUN	_	20	obj	_	TokenRange=146:154
+22	presidente	presidente	NOUN	NOUN	_	21	appos	_	TokenRange=155:165
+23	michel	michel	ADJ	ADJ	_	22	amod	_	TokenRange=166:172
+24	temer	temer	NOUN	NOUN	_	22	appos	_	TokenRange=173:178
+25	convocados	convocado	ADJ	ADJ	_	28	amod	_	TokenRange=179:189
+26	pt	_	ADP	ADP	_	28	case	_	TokenRange=190:192
+27	outros	_	DET	DET	_	28	det	_	TokenRange=193:199
+28	partidos	partido	NOUN	NOUN	_	20	nsubj	_	TokenRange=200:208
+29	cut	_	NOUN	NOUN	_	28	appos	_	TokenRange=209:212
+30	central	central	ADJ	ADJ	_	29	amod	_	TokenRange=213:220
+31	unica	_	ADJ	ADJ	_	32	amod	_	TokenRange=221:226
+32	trabalhadores	trabalhador	NOUN	NOUN	_	28	appos	_	TokenRange=227:240
+33	grupos	grupo	NOUN	NOUN	_	28	appos	_	TokenRange=241:247
+34	esquerda	esquerdo	ADJ	ADJ	_	35	amod	_	TokenRange=248:256
+35	movimentos	movimento	NOUN	NOUN	_	28	appos	_	TokenRange=257:267
+36	sociais	social	ADJ	ADJ	_	35	amod	_	TokenRange=268:275
+37	outras	_	DET	DET	_	38	det	_	TokenRange=276:282
+38	centrais	central	NOUN	NOUN	_	35	appos	_	TokenRange=283:291
+39	sindicais	sindical	ADJ	ADJ	_	38	amod	_	TokenRange=292:301
+40	atos	ato	NOUN	NOUN	_	38	appos	_	TokenRange=302:306
+41	motivados	motivado	ADJ	ADJ	_	38	amod	_	TokenRange=307:316
+42	delacao	_	NOUN	NOUN	_	38	appos	_	TokenRange=317:324
+43	premiada	premiado	ADJ	ADJ	_	44	amod	_	TokenRange=325:333
+44	empresarios	empresario	NOUN	NOUN	_	38	appos	_	TokenRange=334:345
+45	joesley	_	NOUN	NOUN	_	44	appos	_	TokenRange=346:353
+46	wesley	_	NOUN	NOUN	_	44	appos	_	TokenRange=354:360
+47	batista	batista	NOUN	NOUN	_	44	flat	_	TokenRange=361:368
+48	donos	dono	NOUN	NOUN	_	44	appos	_	TokenRange=369:374
+49	jbs	_	NOUN	NOUN	_	48	appos	_	TokenRange=375:378
+50	sabado	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=379:385
+51	20	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=386:388
+52	temer	temer	NOUN	NOUN	_	53	nsubj	_	TokenRange=389:394
+53	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=395:400
+54	continua	continuo	ADJ	ADJ	_	55	amod	_	TokenRange=401:409
+55	presidencia	presidencia	NOUN	NOUN	_	56	obj	_	TokenRange=410:421
+56	pediu	pedir	VERB	VERB	_	53	ccomp	_	TokenRange=422:427
+57	suspensao	suspensao	NOUN	NOUN	_	56	obj	_	TokenRange=428:437
+58	inquerito	inquerito	ADJ	ADJ	_	57	amod	_	TokenRange=438:447
+59	investiga	investigar	VERB	VERB	_	56	parataxis	_	TokenRange=448:457
+60	19h	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=458:461
+61	registro	registro	NOUN	NOUN	_	59	parataxis	_	TokenRange=462:470
+62	protestos	protesto	NOUN	NOUN	_	61	obj	_	TokenRange=471:480
+63	acre	acre	NOUN	NOUN	_	61	appos	_	TokenRange=481:485
+64	amazonas	amazona	ADJ	ADJ	_	63	flat	_	TokenRange=486:494
+65	bahia	bahia	NOUN	NOUN	_	63	flat	_	TokenRange=495:500
+66	ceara	ceara	ADJ	ADJ	_	67	amod	_	TokenRange=501:506
+67	distrito	distrito	NOUN	NOUN	_	63	flat	_	SpaceAfter=No|TokenRange=507:515
+

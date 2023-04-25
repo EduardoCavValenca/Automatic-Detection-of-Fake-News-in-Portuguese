@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delator diz temer recebeu r 15 milhoes guardou 1 milhao bolso ricardo saud jbs disse repasse feito pedido pt financiar campanha temer entao vice dilma dinheiro saiu cota r 300 milhoes pt presidente nega presidente michel temer recebido r 15 milhoes partido trabalhadores financiar campanha vicepresidencia 2014 decidiu guardar r 1 milhao segundo afirmou roberto saud diretor jbs depoimento ministerio publico federal procurada g1 assessoria temer respondeu presidente pediu recebeu dinheiro ilegal detalhes video 23 minutos faz parte
+1	delator	delator	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	temer	temer	NOUN	NOUN	_	2	obj	_	TokenRange=12:17
+4	recebeu	receber	VERB	VERB	_	2	ccomp	_	TokenRange=18:25
+5	r	r	NOUN	NOUN	_	4	obj	_	TokenRange=26:27
+6	15	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=28:30
+7	milhoes	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=31:38
+8	guardou	guardar	VERB	VERB	_	4	conj	_	TokenRange=39:46
+9	1	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=47:48
+10	milhao	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=49:55
+11	bolso	bolso	NOUN	NOUN	_	8	obj	_	TokenRange=56:61
+12	ricardo	ricardo	NOUN	NOUN	_	11	appos	_	TokenRange=62:69
+13	saud	_	NOUN	NOUN	_	12	flat	_	TokenRange=70:74
+14	jbs	_	NOUN	NOUN	_	12	flat	_	TokenRange=75:78
+15	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=79:84
+16	repasse	repasse	NOUN	NOUN	_	15	obj	_	TokenRange=85:92
+17	feito	_	VERB	VERB	_	16	acl	_	TokenRange=93:98
+18	pedido	pedido	NOUN	NOUN	_	17	obj	_	TokenRange=99:105
+19	pt	_	ADP	ADP	_	20	mark	_	TokenRange=106:108
+20	financiar	financiar	VERB	VERB	_	18	nmod	_	TokenRange=109:118
+21	campanha	campanha	NOUN	NOUN	_	20	obj	_	TokenRange=119:127
+22	temer	temer	NOUN	NOUN	_	21	appos	_	TokenRange=128:133
+23	entao	entao	ADV	ADV	_	27	advmod	_	TokenRange=134:139
+24	vice	vice	NOUN	NOUN	_	27	nsubj	_	TokenRange=140:144
+25	dilma	_	NOUN	NOUN	_	24	flat	_	TokenRange=145:150
+26	dinheiro	dinheiro	NOUN	NOUN	_	27	nsubj	_	TokenRange=151:159
+27	saiu	sair	VERB	VERB	_	20	conj	_	TokenRange=160:164
+28	cota	cota	NOUN	NOUN	_	27	obj	_	TokenRange=165:169
+29	r	r	NOUN	NOUN	_	28	flat	_	TokenRange=170:171
+30	300	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=172:175
+31	milhoes	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=176:183
+32	pt	_	CCONJ	CONJ	_	33	det	_	TokenRange=184:186
+33	presidente	presidente	NOUN	NOUN	_	34	nsubj	_	TokenRange=187:197
+34	nega	negar	VERB	VERB	_	27	conj	_	TokenRange=198:202
+35	presidente	presidente	NOUN	NOUN	_	34	obj	_	TokenRange=203:213
+36	michel	michel	ADJ	ADJ	_	37	amod	_	TokenRange=214:220
+37	temer	temer	NOUN	NOUN	_	35	appos	_	TokenRange=221:226
+38	recebido	receber	VERB	VERB	_	35	acl	_	TokenRange=227:235
+39	r	r	NOUN	NOUN	_	38	obj	_	TokenRange=236:237
+40	15	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=238:240
+41	milhoes	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=241:248
+42	partido	partido	NOUN	NOUN	_	38	nsubj	_	TokenRange=249:256
+43	trabalhadores	trabalhador	ADJ	ADJ	_	42	amod	_	TokenRange=257:270
+44	financiar	financiar	VERB	VERB	_	42	acl:relcl	_	TokenRange=271:280
+45	campanha	campanha	NOUN	NOUN	_	44	obj	_	TokenRange=281:289
+46	vicepresidencia	_	NOUN	NOUN	_	45	appos	_	TokenRange=290:305
+47	2014	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=306:310
+48	decidiu	decidir	VERB	VERB	_	2	parataxis	_	TokenRange=311:318
+49	guardar	guardar	VERB	VERB	_	48	xcomp	_	TokenRange=319:326
+50	r	r	NOUN	NOUN	_	49	obj	_	TokenRange=327:328
+51	1	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=329:330
+52	milhao	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=331:337
+53	segundo	_	CCONJ	CONJ	_	54	mark	_	TokenRange=338:345
+54	afirmou	afirmar	VERB	VERB	_	48	advcl	_	TokenRange=346:353
+55	roberto	roberto	NOUN	NOUN	_	54	nsubj	_	TokenRange=354:361
+56	saud	_	ADJ	ADJ	_	55	flat	_	TokenRange=362:366
+57	diretor	diretor	NOUN	NOUN	_	55	appos	_	TokenRange=367:374
+58	jbs	_	X	X	_	55	appos	_	TokenRange=375:378
+59	depoimento	depoimento	NOUN	NOUN	_	55	flat	_	TokenRange=379:389
+60	ministerio	ministerio	NOUN	NOUN	_	55	appos	_	TokenRange=390:400
+61	publico	publico	ADJ	ADJ	_	60	amod	_	TokenRange=401:408
+62	federal	federal	ADJ	ADJ	_	60	amod	_	TokenRange=409:416
+63	procurada	procurar	VERB	VERB	_	60	acl	_	TokenRange=417:426
+64	g1	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=427:429
+65	assessoria	assessoria	NOUN	NOUN	_	67	nsubj	_	TokenRange=430:440
+66	temer	temer	ADJ	NOUN	_	65	amod	_	TokenRange=441:446
+67	respondeu	responder	VERB	VERB	_	63	conj	_	TokenRange=447:456
+68	presidente	presidente	NOUN	NOUN	_	67	obj	_	TokenRange=457:467
+69	pediu	pedir	VERB	VERB	_	67	ccomp	_	TokenRange=468:473
+70	recebeu	receber	VERB	VERB	_	69	xcomp	_	TokenRange=474:481
+71	dinheiro	dinheiro	NOUN	NOUN	_	70	obj	_	TokenRange=482:490
+72	ilegal	ilegal	ADJ	ADJ	_	71	amod	_	TokenRange=491:497
+73	detalhes	detalhe	NOUN	NOUN	_	70	obj	_	TokenRange=498:506
+74	video	video	ADJ	ADJ	_	73	amod	_	TokenRange=507:512
+75	23	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=513:515
+76	minutos	minuto	NOUN	NOUN	_	77	nmod	_	TokenRange=516:523
+77	faz	fazer	VERB	VERB	_	67	parataxis	_	TokenRange=524:527
+78	parte	parte	NOUN	NOUN	_	77	obj	_	SpaceAfter=No|TokenRange=528:533
+

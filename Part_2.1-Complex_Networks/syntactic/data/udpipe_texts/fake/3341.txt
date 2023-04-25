@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mensagem viraliza whatsapp dizendo governo federal ira saquear poupancas proximo dia 18 mensagem viralizando nesse inicio 2016 atraves whatsapp voz feminina alerta confisco todo dinheiro poupancas brasil mulher identifica parece estar assustada informacoes conseguido chefe banco brasil estados unidos segundo governo ira trancar tudo partir dia 18 tornando impossivel venda alimentos combustivel abaixo trecho transcricao audio pode ouvido nesse link boato datado voz diz apenas saqueamento poupancas ira acontecer dia 18 diz mes ano texto apresenta nenhuma prova veracidade dados apresentados
+1	mensagem	mensagem	NOUN	NOUN	_	72	nsubj	_	TokenRange=0:8
+2	viraliza	viralizar	ADJ	ADJ	_	1	amod	_	TokenRange=9:17
+3	whatsapp	_	NOUN	NOUN	_	1	appos	_	TokenRange=18:26
+4	dizendo	dizer	VERB	VERB	_	1	acl	_	TokenRange=27:34
+5	governo	governo	NOUN	NOUN	_	4	obj	_	TokenRange=35:42
+6	federal	federal	ADJ	ADJ	_	5	amod	_	TokenRange=43:50
+7	ira	_	AUX	AUX	_	8	aux	_	TokenRange=51:54
+8	saquear	saquear	VERB	VERB	_	1	acl:relcl	_	TokenRange=55:62
+9	poupancas	poupanca	NOUN	NOUN	_	8	obj	_	TokenRange=63:72
+10	proximo	proximo	ADJ	ADJ	_	11	amod	_	TokenRange=73:80
+11	dia	dia	NOUN	NOUN	_	8	nmod	_	TokenRange=81:84
+12	18	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=85:87
+13	mensagem	mensagem	NOUN	NOUN	_	8	obj	_	TokenRange=88:96
+14	viralizando	viralizar	VERB	VERB	_	13	acl	_	TokenRange=97:108
+15	nesse	_	ADP	ADP	_	16	case	_	TokenRange=109:114
+16	inicio	_	NOUN	NOUN	_	14	nmod	_	TokenRange=115:121
+17	2016	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=122:126
+18	atraves	atrave	ADV	ADV	_	30	advmod	_	TokenRange=127:134
+19	whatsapp	_	NOUN	NOUN	_	20	appos	_	TokenRange=135:143
+20	voz	voz	NOUN	NOUN	_	30	nsubj	_	TokenRange=144:147
+21	feminina	feminino	ADJ	ADJ	_	20	amod	_	TokenRange=148:156
+22	alerta	alertar	VERB	VERB	_	30	parataxis	_	TokenRange=157:163
+23	confisco	confisco	NOUN	NOUN	_	22	obj	_	TokenRange=164:172
+24	todo	_	DET	DET	_	25	det	_	TokenRange=173:177
+25	dinheiro	dinheiro	NOUN	NOUN	_	23	appos	_	TokenRange=178:186
+26	poupancas	_	NOUN	NOUN	_	25	appos	_	TokenRange=187:196
+27	brasil	brasil	ADJ	ADJ	_	28	amod	_	TokenRange=197:203
+28	mulher	mulher	NOUN	NOUN	_	26	appos	_	TokenRange=204:210
+29	identifica	_	ADJ	VERB	_	28	amod	_	TokenRange=211:221
+30	parece	parecer	VERB	VERB	_	8	parataxis	_	TokenRange=222:228
+31	estar	estar	VERB	VERB	_	30	xcomp	_	TokenRange=229:234
+32	assustada	assustado	ADJ	ADJ	_	31	xcomp	_	TokenRange=235:244
+33	informacoes	informacoe	NOUN	NOUN	_	31	nsubj	_	TokenRange=245:256
+34	conseguido	conseguir	VERB	VERB	_	33	acl	_	TokenRange=257:267
+35	chefe	chefe	NOUN	NOUN	_	34	nsubj	_	TokenRange=268:273
+36	banco	banco	NOUN	NOUN	_	33	appos	_	TokenRange=274:279
+37	brasil	brasil	ADJ	ADJ	_	36	amod	_	TokenRange=280:286
+38	estados	estado	NOUN	NOUN	_	36	appos	_	TokenRange=287:294
+39	unidos	unido	ADJ	ADJ	_	38	amod	_	TokenRange=295:301
+40	segundo	_	ADP	ADP	_	41	case	_	TokenRange=302:309
+41	governo	governo	NOUN	NOUN	_	43	nsubj	_	TokenRange=310:317
+42	ira	_	AUX	AUX	_	43	aux	_	TokenRange=318:321
+43	trancar	trancar	VERB	VERB	_	30	csubj	_	TokenRange=322:329
+44	tudo	_	PRON	PRON	_	45	nsubj	_	TokenRange=330:334
+45	partir	partir	VERB	VERB	_	43	ccomp	_	TokenRange=335:341
+46	dia	dia	NOUN	NOUN	_	45	nmod	_	TokenRange=342:345
+47	18	_	NUM	NUM	NumType=Card	46	appos	_	TokenRange=346:348
+48	tornando	tornar	VERB	VERB	_	43	acl	_	TokenRange=349:357
+49	impossivel	impossivel	ADJ	ADJ	_	48	xcomp	_	TokenRange=358:368
+50	venda	venda	NOUN	NOUN	_	48	obj	_	TokenRange=369:374
+51	alimentos	alimento	NOUN	NOUN	_	50	appos	_	TokenRange=375:384
+52	combustivel	combustivel	ADJ	ADJ	_	51	amod	_	TokenRange=385:396
+53	abaixo	abaixo	ADV	ADV	_	58	advmod	_	TokenRange=397:403
+54	trecho	trecho	NOUN	NOUN	_	58	nsubj:pass	_	TokenRange=404:410
+55	transcricao	transcricao	NOUN	NOUN	_	54	appos	_	TokenRange=411:422
+56	audio	audio	NOUN	NOUN	_	55	amod	_	TokenRange=423:428
+57	pode	_	AUX	AUX	_	58	aux	_	TokenRange=429:433
+58	ouvido	ouvir	VERB	VERB	_	43	parataxis	_	TokenRange=434:440
+59	nesse	_	ADP	ADP	_	60	case	_	TokenRange=441:446
+60	link	link	NOUN	NOUN	_	58	nmod	_	TokenRange=447:451
+61	boato	boato	NOUN	NOUN	_	58	nsubj:pass	_	TokenRange=452:457
+62	datado	datar	VERB	VERB	_	61	acl	_	TokenRange=458:464
+63	voz	voz	NOUN	NOUN	_	64	nsubj	_	TokenRange=465:468
+64	diz	dizer	VERB	VERB	_	58	conj	_	TokenRange=469:472
+65	apenas	apenas	ADV	ADV	_	64	advmod	_	TokenRange=473:479
+66	saqueamento	saqueamento	NOUN	NOUN	_	64	nsubj	_	TokenRange=480:491
+67	poupancas	_	NOUN	NOUN	_	66	amod	_	TokenRange=492:501
+68	ira	_	AUX	AUX	_	69	aux	_	TokenRange=502:505
+69	acontecer	acontecer	VERB	VERB	_	66	acl:relcl	_	TokenRange=506:515
+70	dia	dia	NOUN	NOUN	_	69	nmod	_	TokenRange=516:519
+71	18	_	NUM	NUM	NumType=Card	70	appos	_	TokenRange=520:522
+72	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=523:526
+73	mes	_	NOUN	NOUN	_	74	det	_	TokenRange=527:530
+74	ano	ano	NOUN	NOUN	_	72	nmod	_	TokenRange=531:534
+75	texto	texto	NOUN	NOUN	_	76	nsubj	_	TokenRange=535:540
+76	apresenta	apresentar	VERB	VERB	_	58	parataxis	_	TokenRange=541:550
+77	nenhuma	_	DET	DET	_	78	det	_	TokenRange=551:558
+78	prova	prova	NOUN	NOUN	_	76	obj	_	TokenRange=559:564
+79	veracidade	veracidade	NOUN	NOUN	_	76	obj	_	TokenRange=565:575
+80	dados	dado	NOUN	NOUN	_	76	obj	_	TokenRange=576:581
+81	apresentados	apresentar	VERB	VERB	_	80	acl	_	SpaceAfter=No|TokenRange=582:594
+

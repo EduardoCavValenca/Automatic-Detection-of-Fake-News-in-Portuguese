@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joaquim barbosa disse pretende disputar presidencia republica 2018 expresidente supremo tribunal federal joaquim barbosa disse pretende disputar presidencia republica 2018 afiliado nenhum partido daqui uns dias pretendo posicionar quero grandes campanhas existem outros mecanismos eficazes honestidade pessoa perfil conservador acredito grandes chances lutar pais sentirei honrado declarou barbosa exministro criticou processo impeachment presidente dilma rousseff disse pais deve retomar rumos 2018 eleicao novo presidente republica
+1	joaquim	joaquim	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	barbosa	barboso	NOUN	NOUN	_	1	flat	_	TokenRange=8:15
+3	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=16:21
+4	pretende	pretender	VERB	VERB	_	3	xcomp	_	TokenRange=22:30
+5	disputar	disputar	VERB	VERB	_	4	xcomp	_	TokenRange=31:39
+6	presidencia	presidencia	NOUN	NOUN	_	5	obj	_	TokenRange=40:51
+7	republica	republico	ADJ	ADJ	_	6	amod	_	TokenRange=52:61
+8	2018	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=62:66
+9	expresidente	expresidente	NOUN	NOUN	_	6	appos	_	TokenRange=67:79
+10	supremo	supremo	ADJ	ADJ	_	11	amod	_	TokenRange=80:87
+11	tribunal	tribunal	NOUN	NOUN	_	9	appos	_	TokenRange=88:96
+12	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=97:104
+13	joaquim	joaquim	NOUN	NOUN	_	15	nsubj	_	TokenRange=105:112
+14	barbosa	barbosa	NOUN	NOUN	_	13	flat	_	TokenRange=113:120
+15	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=121:126
+16	pretende	pretender	VERB	VERB	_	15	xcomp	_	TokenRange=127:135
+17	disputar	disputar	VERB	VERB	_	16	xcomp	_	TokenRange=136:144
+18	presidencia	presidencia	NOUN	NOUN	_	17	obj	_	TokenRange=145:156
+19	republica	republico	ADJ	ADJ	_	18	amod	_	TokenRange=157:166
+20	2018	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=167:171
+21	afiliado	afiliado	NOUN	NOUN	_	18	amod	_	TokenRange=172:180
+22	nenhum	_	DET	DET	_	23	det	_	TokenRange=181:187
+23	partido	partido	NOUN	NOUN	_	17	obj	_	TokenRange=188:195
+24	daqui	_	ADP	ADP	_	27	mark	_	TokenRange=196:201
+25	uns	_	DET	DET	_	26	det	_	TokenRange=202:205
+26	dias	dia	NOUN	NOUN	_	27	nmod	_	TokenRange=206:210
+27	pretendo	pretender	VERB	VERB	_	23	acl	_	TokenRange=211:219
+28	posicionar	posicionar	VERB	VERB	_	27	xcomp	_	TokenRange=220:230
+29	quero	querer	VERB	VERB	_	27	ccomp	_	TokenRange=231:236
+30	grandes	grande	ADJ	ADJ	_	31	amod	_	TokenRange=237:244
+31	campanhas	campanha	NOUN	NOUN	_	29	obj	_	TokenRange=245:254
+32	existem	existir	VERB	VERB	_	29	parataxis	_	TokenRange=255:262
+33	outros	_	DET	DET	_	34	det	_	TokenRange=263:269
+34	mecanismos	mecanismo	NOUN	NOUN	_	32	nsubj	_	TokenRange=270:280
+35	eficazes	eficaz	ADJ	ADJ	_	34	amod	_	TokenRange=281:289
+36	honestidade	honestidade	NOUN	NOUN	_	32	nsubj	_	TokenRange=290:301
+37	pessoa	pessoa	NOUN	NOUN	_	36	appos	_	TokenRange=302:308
+38	perfil	perfil	NOUN	NOUN	_	32	nsubj	_	TokenRange=309:315
+39	conservador	conservador	ADJ	ADJ	_	38	amod	_	TokenRange=316:327
+40	acredito	acreditar	VERB	VERB	_	38	acl:relcl	_	TokenRange=328:336
+41	grandes	grande	ADJ	ADJ	_	42	amod	_	TokenRange=337:344
+42	chances	chance	NOUN	NOUN	_	40	obj	_	TokenRange=345:352
+43	lutar	lutar	VERB	VERB	_	40	ccomp	_	TokenRange=353:358
+44	pais	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=359:363
+45	sentirei	sentir	VERB	VERB	_	43	ccomp	_	TokenRange=364:372
+46	honrado	honrado	ADJ	ADJ	_	45	xcomp	_	TokenRange=373:380
+47	declarou	declarar	VERB	VERB	_	45	parataxis	_	TokenRange=381:389
+48	barbosa	barboso	ADJ	ADJ	_	47	nsubj	_	TokenRange=390:397
+49	exministro	exministro	NOUN	NOUN	_	50	nsubj	_	TokenRange=398:408
+50	criticou	criticar	VERB	VERB	_	47	parataxis	_	TokenRange=409:417
+51	processo	processo	NOUN	NOUN	_	50	obj	_	TokenRange=418:426
+52	impeachment	impeachment	ADJ	ADJ	_	51	amod	_	TokenRange=427:438
+53	presidente	presidente	NOUN	NOUN	_	59	nsubj	_	TokenRange=439:449
+54	dilma	dilma	ADJ	ADJ	_	53	amod	_	TokenRange=450:455
+55	rousseff	rousseff	NOUN	NOUN	_	53	appos	_	TokenRange=456:464
+56	disse	dizer	VERB	VERB	_	50	parataxis	_	TokenRange=465:470
+57	pais	_	NOUN	NOUN	_	59	nsubj	_	TokenRange=471:475
+58	deve	dever	AUX	AUX	_	59	aux	_	TokenRange=476:480
+59	retomar	retomar	VERB	VERB	_	56	ccomp	_	TokenRange=481:488
+60	rumos	rumo	NOUN	NOUN	_	59	obj	_	TokenRange=489:494
+61	2018	_	NUM	NUM	NumType=Card	60	nmod	_	TokenRange=495:499
+62	eleicao	eleicao	NOUN	NOUN	_	59	obj	_	TokenRange=500:507
+63	novo	novo	ADJ	ADJ	_	64	amod	_	TokenRange=508:512
+64	presidente	presidente	NOUN	NOUN	_	59	obj	_	TokenRange=513:523
+65	republica	republico	ADJ	ADJ	_	64	amod	_	SpaceAfter=No|TokenRange=524:533
+

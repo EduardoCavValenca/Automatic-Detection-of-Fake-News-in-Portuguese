@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil beira intervencao militar acordo general romulo bini pereira brasil devera ficar alerta pois grande possibilidade intervencao forcas armadas clamor grande pedindo intervencao militar pedindo acao militares nesses ultimos dias inumeras cidades pedindo fim roubalheira todos brasileiros obviamente contra corrupcao aprovam intervencao motivo grandes chances forcas armadas intervirem
+1	brasil	brasil	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	beira	beirar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	intervencao	intervencao	NOUN	NOUN	_	2	obj	_	TokenRange=13:24
+4	militar	militar	ADJ	ADJ	_	3	amod	_	TokenRange=25:32
+5	acordo	acordo	NOUN	NOUN	_	3	appos	_	TokenRange=33:39
+6	general	general	ADJ	ADJ	_	5	amod	_	TokenRange=40:47
+7	romulo	romulo	NOUN	NOUN	_	5	appos	_	TokenRange=48:54
+8	bini	_	NOUN	NOUN	_	7	flat	_	TokenRange=55:59
+9	pereira	_	NOUN	NOUN	_	7	flat	_	TokenRange=60:67
+10	brasil	brasil	NOUN	NOUN	_	12	nsubj	_	TokenRange=68:74
+11	devera	_	AUX	AUX	_	12	aux	_	TokenRange=75:81
+12	ficar	ficar	VERB	VERB	_	2	parataxis	_	TokenRange=82:87
+13	alerta	alerto	ADJ	ADJ	_	12	xcomp	_	TokenRange=88:94
+14	pois	_	CCONJ	CONJ	_	12	mark	_	TokenRange=95:99
+15	grande	grande	ADJ	ADJ	_	16	amod	_	TokenRange=100:106
+16	possibilidade	possibilidade	NOUN	NOUN	_	12	nmod	_	TokenRange=107:120
+17	intervencao	intervencao	VERB	VERB	_	16	case	_	TokenRange=121:132
+18	forcas	forca	NOUN	NOUN	_	12	nsubj	_	TokenRange=133:139
+19	armadas	armado	ADJ	ADJ	_	18	amod	_	TokenRange=140:147
+20	clamor	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=148:154
+21	grande	grande	ADJ	ADJ	_	18	amod	_	TokenRange=155:161
+22	pedindo	pedir	VERB	VERB	_	20	acl	_	TokenRange=162:169
+23	intervencao	intervencao	NOUN	NOUN	_	22	obj	_	TokenRange=170:181
+24	militar	militar	ADJ	ADJ	_	23	amod	_	TokenRange=182:189
+25	pedindo	pedir	VERB	VERB	_	23	acl	_	TokenRange=190:197
+26	acao	acao	NOUN	NOUN	_	25	obj	_	TokenRange=198:202
+27	militares	militar	ADJ	ADJ	_	26	amod	_	TokenRange=203:212
+28	nesses	_	ADP	ADP	_	30	case	_	TokenRange=213:219
+29	ultimos	ultimo	ADJ	ADJ	_	30	amod	_	TokenRange=220:227
+30	dias	dia	NOUN	NOUN	_	25	nmod	_	TokenRange=228:232
+31	inumeras	inumero	ADJ	ADJ	_	32	amod	_	TokenRange=233:241
+32	cidades	cidade	NOUN	NOUN	_	25	nsubj	_	TokenRange=242:249
+33	pedindo	pedir	VERB	VERB	_	32	acl	_	TokenRange=250:257
+34	fim	fim	NOUN	NOUN	_	33	obj	_	TokenRange=258:261
+35	roubalheira	roubalheira	NOUN	NOUN	_	34	flat	_	TokenRange=262:273
+36	todos	_	DET	DET	_	37	det	_	TokenRange=274:279
+37	brasileiros	brasileiro	NOUN	NOUN	_	41	nsubj	_	TokenRange=280:291
+38	obviamente	obviamente	ADV	ADV	_	40	advmod	_	TokenRange=292:302
+39	contra	_	ADP	ADP	_	40	case	_	TokenRange=303:309
+40	corrupcao	corrupcao	NOUN	NOUN	_	41	nmod	_	TokenRange=310:319
+41	aprovam	aprovar	VERB	VERB	_	33	parataxis	_	TokenRange=320:327
+42	intervencao	intervencao	NOUN	NOUN	_	41	obj	_	TokenRange=328:339
+43	motivo	motivo	NOUN	NOUN	_	42	flat	_	TokenRange=340:346
+44	grandes	grande	ADJ	ADJ	_	45	amod	_	TokenRange=347:354
+45	chances	chance	NOUN	NOUN	_	48	nsubj	_	TokenRange=355:362
+46	forcas	forca	NOUN	NOUN	_	48	nsubj	_	TokenRange=363:369
+47	armadas	armado	ADJ	ADJ	_	45	amod	_	TokenRange=370:377
+48	intervirem	intervir	VERB	VERB	_	41	ccomp	_	SpaceAfter=No|TokenRange=378:388
+

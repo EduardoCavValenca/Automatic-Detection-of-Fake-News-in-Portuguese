@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 14 junho 2017 boa noite aqui principais noticias terminar dia beminformado quartafeira ritmo feriado deputado cassado expresidente camara eduardo cunha pmdbrj prestou depoimento cerca 1h30 sede pf curitiba falou inquerito investiga presidente michel temer pmdb deixar pf advogado cunha disse reafirmou silencio nunca venda nunca procurado temer interlocutores propostas nesse sentido cunha chegou pf volta 10h depoimento marcado 11h entrou salas 11h15 segundo advogado rodrigo rios feitas 47 perguntas
+1	quartafeira	quartafeira	NOUN	NOUN	_	23	parataxis	_	TokenRange=0:11
+2	14	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:14
+3	junho	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=15:20
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=21:25
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=26:29
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=30:35
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=36:40
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=41:51
+9	noticias	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=52:60
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=61:69
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=70:73
+12	beminformado	beminformado	ADJ	ADJ	_	11	amod	_	TokenRange=74:86
+13	quartafeira	_	NOUN	NOUN	_	10	appos	_	TokenRange=87:98
+14	ritmo	ritmo	NOUN	NOUN	_	23	parataxis	_	TokenRange=99:104
+15	feriado	feriado	ADJ	ADJ	_	16	amod	_	TokenRange=105:112
+16	deputado	deputado	NOUN	NOUN	_	23	nsubj	_	TokenRange=113:121
+17	cassado	cassado	ADJ	ADJ	_	16	amod	_	TokenRange=122:129
+18	expresidente	expresidente	NOUN	NOUN	_	16	appos	_	TokenRange=130:142
+19	camara	camara	NOUN	NOUN	_	18	flat	_	TokenRange=143:149
+20	eduardo	eduardo	NOUN	NOUN	_	18	appos	_	TokenRange=150:157
+21	cunha	_	PROPN	PNOUN	_	20	flat	_	TokenRange=158:163
+22	pmdbrj	_	PROPN	PNOUN	_	20	flat	_	TokenRange=164:170
+23	prestou	prestar	VERB	VERB	_	0	root	_	TokenRange=171:178
+24	depoimento	depoimento	NOUN	NOUN	_	23	obj	_	TokenRange=179:189
+25	cerca	cerca	ADV	ADV	_	26	advmod	_	TokenRange=190:195
+26	1h30	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=196:200
+27	sede	sede	NOUN	NOUN	_	23	nsubj	_	TokenRange=201:205
+28	pf	_	NOUN	NOUN	_	27	appos	_	TokenRange=206:208
+29	curitiba	curitiba	NOUN	NOUN	_	27	appos	_	TokenRange=209:217
+30	falou	falar	VERB	VERB	_	23	parataxis	_	TokenRange=218:223
+31	inquerito	inquerito	NOUN	NOUN	_	30	obj	_	TokenRange=224:233
+32	investiga	investigar	VERB	VERB	_	30	ccomp	_	TokenRange=234:243
+33	presidente	presidente	NOUN	NOUN	_	30	nsubj	_	TokenRange=244:254
+34	michel	michel	ADJ	ADJ	_	33	appos	_	TokenRange=255:261
+35	temer	temer	NOUN	NOUN	_	33	appos	_	TokenRange=262:267
+36	pmdb	_	NOUN	NOUN	_	33	appos	_	TokenRange=268:272
+37	deixar	deixar	VERB	VERB	_	33	acl:relcl	_	TokenRange=273:279
+38	pf	_	NOUN	NOUN	_	37	obj	_	TokenRange=280:282
+39	advogado	advogado	NOUN	NOUN	_	37	nsubj	_	TokenRange=283:291
+40	cunha	_	PRON	PRON	_	41	nsubj	_	TokenRange=292:297
+41	disse	dizer	VERB	VERB	_	33	acl:relcl	_	TokenRange=298:303
+42	reafirmou	reafirmar	VERB	VERB	_	41	ccomp	_	TokenRange=304:313
+43	silencio	silencio	NOUN	NOUN	_	42	obj	_	TokenRange=314:322
+44	nunca	nunca	ADV	ADV	_	47	advmod	_	TokenRange=323:328
+45	venda	venda	NOUN	NOUN	_	43	appos	_	TokenRange=329:334
+46	nunca	nunca	ADV	ADV	_	47	advmod	_	TokenRange=335:340
+47	procurado	procurar	VERB	VERB	_	43	acl	_	TokenRange=341:350
+48	temer	temer	VERB	VERB	_	47	xcomp	_	TokenRange=351:356
+49	interlocutores	interlocutor	NOUN	NOUN	_	48	obj	_	TokenRange=357:371
+50	propostas	_	NOUN	NOUN	_	49	appos	_	TokenRange=372:381
+51	nesse	_	ADP	ADP	_	52	case	_	TokenRange=382:387
+52	sentido	sentido	NOUN	NOUN	_	50	nmod	_	TokenRange=388:395
+53	cunha	_	PROPN	PNOUN	_	54	nsubj	_	TokenRange=396:401
+54	chegou	chegar	VERB	VERB	_	47	conj	_	TokenRange=402:408
+55	pf	_	ADV	ADP	_	54	advmod	_	TokenRange=409:411
+56	volta	volta	NOUN	NOUN	_	54	nmod	_	TokenRange=412:417
+57	10h	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=418:421
+58	depoimento	depoimento	NOUN	NOUN	_	54	nsubj	_	TokenRange=422:432
+59	marcado	marcar	VERB	VERB	_	58	acl	_	TokenRange=433:440
+60	11h	_	NUM	NUM	NumType=Card	61	nsubj	_	TokenRange=441:444
+61	entrou	entrar	VERB	VERB	_	54	parataxis	_	TokenRange=445:451
+62	salas	sala	NOUN	NOUN	_	61	obj	_	TokenRange=452:457
+63	11h15	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=458:463
+64	segundo	_	ADP	ADP	_	65	case	_	TokenRange=464:471
+65	advogado	advogado	NOUN	NOUN	_	61	nmod	_	TokenRange=472:480
+66	rodrigo	_	PROPN	PNOUN	_	65	appos	_	TokenRange=481:488
+67	rios	rio	NOUN	NOUN	_	66	flat	_	TokenRange=489:493
+68	feitas	_	VERB	VERB	_	61	acl	_	TokenRange=494:500
+69	47	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=501:503
+70	perguntas	pergunta	NOUN	NOUN	_	68	obj	_	SpaceAfter=No|TokenRange=504:513
+

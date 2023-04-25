@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vaza video diretor brf admitindo alimentos qualidade esperada produtos qualidade gente esperava diretor executivo global brf publicou video onde pasmem admite alguns alimento produzidos grupo 2016 qualidade mensagem direcionada 100 mil funcionarios empresa divulgacao vazou redes sociais brf alvo operacao carne fraca pf investiga irregularidades praticadas fiscais agropecuarios corruptos principais executivos empresa detidos
+1	vaza	_	NOUN	NOUN	_	0	root	_	TokenRange=0:4
+2	video	video	NOUN	NOUN	_	1	appos	_	TokenRange=5:10
+3	diretor	diretor	NOUN	NOUN	_	2	appos	_	TokenRange=11:18
+4	brf	_	ADJ	ADJ	_	3	amod	_	TokenRange=19:22
+5	admitindo	admitir	VERB	VERB	_	2	acl	_	TokenRange=23:32
+6	alimentos	alimento	NOUN	NOUN	_	5	obj	_	TokenRange=33:42
+7	qualidade	qualidade	NOUN	NOUN	_	5	obj	_	TokenRange=43:52
+8	esperada	esperado	ADJ	ADJ	_	9	amod	_	TokenRange=53:61
+9	produtos	produto	NOUN	NOUN	_	5	obj	_	TokenRange=62:70
+10	qualidade	qualidade	NOUN	NOUN	_	9	amod	_	TokenRange=71:80
+11	gente	gente	NOUN	NOUN	_	12	nsubj	_	TokenRange=81:86
+12	esperava	esperar	VERB	VERB	_	2	acl:relcl	_	TokenRange=87:95
+13	diretor	diretor	NOUN	NOUN	_	12	obj	_	TokenRange=96:103
+14	executivo	executivo	ADJ	ADJ	_	13	amod	_	TokenRange=104:113
+15	global	global	ADJ	ADJ	_	13	amod	_	TokenRange=114:120
+16	brf	_	NOUN	NOUN	_	13	amod	_	TokenRange=121:124
+17	publicou	publicar	VERB	VERB	_	13	acl:relcl	_	TokenRange=125:133
+18	video	video	NOUN	NOUN	_	17	obj	_	TokenRange=134:139
+19	onde	onde	ADV	ADV	_	21	advmod	_	TokenRange=140:144
+20	pasmem	pasmar	NOUN	NOUN	_	21	nsubj	_	TokenRange=145:151
+21	admite	admitir	VERB	VERB	_	18	acl:relcl	_	TokenRange=152:158
+22	alguns	_	DET	DET	_	23	det	_	TokenRange=159:165
+23	alimento	alimento	NOUN	NOUN	_	21	obj	_	TokenRange=166:174
+24	produzidos	produzir	VERB	VERB	_	23	acl	_	TokenRange=175:185
+25	grupo	grupo	NOUN	NOUN	_	21	nmod	_	TokenRange=186:191
+26	2016	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=192:196
+27	qualidade	qualidade	NOUN	NOUN	_	21	nsubj	_	TokenRange=197:206
+28	mensagem	mensagem	NOUN	NOUN	_	27	appos	_	TokenRange=207:215
+29	direcionada	direcionado	ADJ	ADJ	_	28	amod	_	TokenRange=216:227
+30	100	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=228:231
+31	mil	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=232:235
+32	funcionarios	funcionario	NOUN	NOUN	_	28	appos	_	TokenRange=236:248
+33	empresa	empresa	NOUN	NOUN	_	32	appos	_	TokenRange=249:256
+34	divulgacao	divulgacao	ADJ	ADJ	_	33	amod	_	TokenRange=257:267
+35	vazou	vazar	VERB	VERB	_	2	acl:relcl	_	TokenRange=268:273
+36	redes	rede	NOUN	NOUN	_	35	obj	_	TokenRange=274:279
+37	sociais	social	ADJ	ADJ	_	36	amod	_	TokenRange=280:287
+38	brf	_	NOUN	NOUN	_	36	appos	_	TokenRange=288:291
+39	alvo	alvo	NOUN	NOUN	_	36	appos	_	TokenRange=292:296
+40	operacao	operacao	NOUN	NOUN	_	39	appos	_	TokenRange=297:305
+41	carne	carne	NOUN	NOUN	_	39	flat	_	TokenRange=306:311
+42	fraca	fraco	ADJ	ADJ	_	41	amod	_	TokenRange=312:317
+43	pf	_	NOUN	NOUN	_	40	appos	_	TokenRange=318:320
+44	investiga	investigar	VERB	VERB	_	17	parataxis	_	TokenRange=321:330
+45	irregularidades	irregularidade	NOUN	NOUN	_	44	obj	_	TokenRange=331:346
+46	praticadas	praticar	VERB	VERB	_	45	acl	_	TokenRange=347:357
+47	fiscais	fiscal	ADJ	ADJ	_	46	xcomp	_	TokenRange=358:365
+48	agropecuarios	agropecuario	ADJ	ADJ	_	52	amod	_	TokenRange=366:379
+49	corruptos	corrupto	ADJ	ADJ	_	52	amod	_	TokenRange=380:389
+50	principais	principal	ADJ	ADJ	_	52	amod	_	TokenRange=390:400
+51	executivos	executivo	ADJ	ADJ	_	52	amod	_	TokenRange=401:411
+52	empresa	empresa	NOUN	NOUN	_	45	appos	_	TokenRange=412:419
+53	detidos	deter	VERB	VERB	_	52	acl	_	SpaceAfter=No|TokenRange=420:427
+

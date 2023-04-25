@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saiba politicos reagiram indicacao alexandre moraes stf moraes oficialmente indicado presidente michel temer nesta segunda 6 nomeado aprovado sabatinas comissao constituicao justica plenario senado leia abaixo opinioes politicos governistas oposicao ordem alfabetica sobre indicacao ministro justica alexandre moraes vaga ministro supremo tribunal federal nomeado moraes
+1	saiba	saber	VERB	VERB	_	3	nsubj	_	TokenRange=0:5
+2	politicos	politico	NOUN	NOUN	_	1	nsubj	_	TokenRange=6:15
+3	reagiram	reagir	VERB	VERB	_	0	root	_	TokenRange=16:24
+4	indicacao	indicacao	NOUN	NOUN	_	3	obj	_	TokenRange=25:34
+5	alexandre	alexandre	NOUN	NOUN	_	4	appos	_	TokenRange=35:44
+6	moraes	_	NOUN	NOUN	_	5	flat	_	TokenRange=45:51
+7	stf	_	NOUN	NOUN	_	8	appos	_	TokenRange=52:55
+8	moraes	_	NOUN	NOUN	_	5	flat	_	TokenRange=56:62
+9	oficialmente	oficialmente	ADV	ADV	_	10	advmod	_	TokenRange=63:75
+10	indicado	indicar	VERB	VERB	_	8	acl	_	TokenRange=76:84
+11	presidente	presidente	NOUN	NOUN	_	10	obj	_	TokenRange=85:95
+12	michel	michel	ADJ	ADJ	_	11	amod	_	TokenRange=96:102
+13	temer	temer	NOUN	NOUN	_	11	appos	_	TokenRange=103:108
+14	nesta	_	ADP	ADP	_	16	case	_	TokenRange=109:114
+15	segunda	segundo	ADJ	ADJ	_	16	amod	_	TokenRange=115:122
+16	6	_	NUM	NUM	NumType=Card	10	nmod	_	TokenRange=123:124
+17	nomeado	nomear	AUX	AUX	_	19	cop	_	TokenRange=125:132
+18	aprovado	aprovar	VERB	VERB	_	19	acl	_	TokenRange=133:141
+19	sabatinas	_	NOUN	NOUN	_	16	appos	_	TokenRange=142:151
+20	comissao	comissao	NOUN	NOUN	_	19	appos	_	TokenRange=152:160
+21	constituicao	constituicao	ADJ	ADJ	_	20	amod	_	TokenRange=161:173
+22	justica	_	NOUN	NOUN	_	20	appos	_	TokenRange=174:181
+23	plenario	plenario	ADJ	ADJ	_	20	amod	_	TokenRange=182:190
+24	senado	senado	NOUN	NOUN	_	20	appos	_	TokenRange=191:197
+25	leia	ler	VERB	VERB	_	3	parataxis	_	TokenRange=198:202
+26	abaixo	abaixo	ADV	ADV	_	25	advmod	_	TokenRange=203:209
+27	opinioes	opinioe	NOUN	NOUN	_	25	obj	_	TokenRange=210:218
+28	politicos	politico	ADJ	ADJ	_	27	amod	_	TokenRange=219:228
+29	governistas	governista	ADJ	ADJ	_	27	amod	_	TokenRange=229:240
+30	oposicao	oposicao	ADJ	ADJ	_	27	amod	_	TokenRange=241:249
+31	ordem	ordem	NOUN	NOUN	_	27	appos	_	TokenRange=250:255
+32	alfabetica	alfabetico	ADJ	ADJ	_	31	amod	_	TokenRange=256:266
+33	sobre	_	ADP	ADP	_	35	case	_	TokenRange=267:272
+34	indicacao	indicacao	NOUN	NOUN	_	35	nmod	_	TokenRange=273:282
+35	ministro	ministro	NOUN	NOUN	_	31	nmod	_	TokenRange=283:291
+36	justica	justico	ADJ	ADJ	_	35	amod	_	TokenRange=292:299
+37	alexandre	alexandre	NOUN	NOUN	_	35	appos	_	TokenRange=300:309
+38	moraes	_	ADJ	ADJ	_	37	flat	_	TokenRange=310:316
+39	vaga	vaga	ADJ	ADJ	_	40	amod	_	TokenRange=317:321
+40	ministro	ministro	NOUN	NOUN	_	35	appos	_	TokenRange=322:330
+41	supremo	supremo	ADJ	ADJ	_	42	amod	_	TokenRange=331:338
+42	tribunal	tribunal	NOUN	NOUN	_	40	appos	_	TokenRange=339:347
+43	federal	federal	ADJ	ADJ	_	42	amod	_	TokenRange=348:355
+44	nomeado	nomear	VERB	VERB	_	40	acl	_	TokenRange=356:363
+45	moraes	_	NOUN	NOUN	_	44	obj	_	SpaceAfter=No|TokenRange=364:370
+

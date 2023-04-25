@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = papa pede europa ativa combate antissemitismo indiferenca virus perigosamente contagioso tempo afirmou pontifice papa francisco pediu nesta segundafeira 29 paises europeus facam combater antissemitismo dizendo indiferenca virus pode permitir ideias odio racial espalhem francisco pronunciou durante discurso
+1	papa	papa	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	pede	pedir	VERB	VERB	_	35	ccomp	_	TokenRange=5:9
+3	europa	europa	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	ativa	ativo	ADJ	ADJ	_	3	amod	_	TokenRange=17:22
+5	combate	combater	VERB	VERB	_	2	parataxis	_	TokenRange=23:30
+6	antissemitismo	antissemitismo	NOUN	NOUN	_	5	obj	_	TokenRange=31:45
+7	indiferenca	_	ADJ	NOUN	_	6	amod	_	TokenRange=46:57
+8	virus	_	NOUN	NOUN	_	6	appos	_	TokenRange=58:63
+9	perigosamente	perigosamente	ADV	ADV	_	10	advmod	_	TokenRange=64:77
+10	contagioso	contagioso	ADJ	ADJ	_	11	amod	_	TokenRange=78:88
+11	tempo	tempo	NOUN	NOUN	_	12	nsubj	_	TokenRange=89:94
+12	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=95:102
+13	pontifice	pontifice	NOUN	NOUN	_	12	nsubj	_	TokenRange=103:112
+14	papa	papa	NOUN	NOUN	_	13	appos	_	TokenRange=113:117
+15	francisco	francisco	NOUN	NOUN	_	20	amod	_	TokenRange=118:127
+16	pediu	pedir	VERB	VERB	_	13	acl:relcl	_	TokenRange=128:133
+17	nesta	_	ADP	ADP	_	18	case	_	TokenRange=134:139
+18	segundafeira	_	NOUN	NOUN	_	16	nmod	_	TokenRange=140:152
+19	29	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=153:155
+20	paises	paise	NOUN	NOUN	_	16	nsubj	_	TokenRange=156:162
+21	europeus	europeu	ADJ	ADJ	_	20	amod	_	TokenRange=163:171
+22	facam	facar	VERB	VERB	_	16	ccomp	_	TokenRange=172:177
+23	combater	combater	VERB	VERB	_	16	xcomp	_	TokenRange=178:186
+24	antissemitismo	antissemitismo	NOUN	NOUN	_	23	obj	_	TokenRange=187:201
+25	dizendo	dizer	VERB	VERB	_	20	acl	_	TokenRange=202:209
+26	indiferenca	indiferenca	NOUN	NOUN	_	25	obj	_	TokenRange=210:221
+27	virus	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=222:227
+28	pode	_	AUX	AUX	_	29	aux	_	TokenRange=228:232
+29	permitir	permitir	VERB	VERB	_	25	ccomp	_	TokenRange=233:241
+30	ideias	ideia	NOUN	NOUN	_	29	obj	_	TokenRange=242:248
+31	odio	odio	NOUN	NOUN	_	29	obj	_	TokenRange=249:253
+32	racial	racial	ADJ	ADJ	_	31	amod	_	TokenRange=254:260
+33	espalhem	_	VERB	VERB	_	29	parataxis	_	TokenRange=261:269
+34	francisco	francisco	NOUN	NOUN	_	35	nsubj	_	TokenRange=270:279
+35	pronunciou	pronunciar	VERB	VERB	_	0	root	_	TokenRange=280:290
+36	durante	_	ADP	ADP	_	37	case	_	TokenRange=291:298
+37	discurso	discurso	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No|TokenRange=299:307
+

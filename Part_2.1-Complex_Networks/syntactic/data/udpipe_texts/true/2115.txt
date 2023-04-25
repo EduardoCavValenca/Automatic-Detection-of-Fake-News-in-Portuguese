@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sextafeira 24 marco 2017 boa noite aqui principais noticias terminar dia beminformado carne brasileira frigorificos investigados operacao caminho paises uniao europeia rejeitada voltar pais informou bloco anunciado suspensao importacoes maiores mercados brasileiros hong kong retirou mercado carne importada brasil pais proibido importacoes brasil carne tres estabelecimentos recolhida supermercados consumidores exportadores frango suinos estimam perdas us 40 milhoes semana exassessor parlamentar disse pf
+1	sextafeira	sextafeira	NOUN	NOUN	_	61	nmod	_	TokenRange=0:10
+2	24	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=11:13
+3	marco	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:19
+4	2017	_	NUM	NUM	NumType=Card	3	nmod	_	TokenRange=20:24
+5	boa	bom	ADJ	ADJ	_	6	amod	_	TokenRange=25:28
+6	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=29:34
+7	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=35:39
+8	principais	principal	ADJ	ADJ	_	9	amod	_	TokenRange=40:50
+9	noticias	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=51:59
+10	terminar	terminar	VERB	VERB	_	1	parataxis	_	TokenRange=60:68
+11	dia	dia	NOUN	NOUN	_	10	obj	_	TokenRange=69:72
+12	beminformado	beminformado	ADJ	ADJ	_	13	amod	_	TokenRange=73:85
+13	carne	carne	NOUN	NOUN	_	10	nsubj	_	TokenRange=86:91
+14	brasileira	brasileiro	ADJ	ADJ	_	13	amod	_	TokenRange=92:102
+15	frigorificos	frigorifico	NOUN	NOUN	_	13	amod	_	TokenRange=103:115
+16	investigados	investigado	VERB	ADJ	_	13	acl	_	TokenRange=116:128
+17	operacao	_	NOUN	NOUN	_	18	appos	_	TokenRange=129:137
+18	caminho	caminho	NOUN	NOUN	_	16	nsubj	_	TokenRange=138:145
+19	paises	paise	NOUN	NOUN	_	18	flat	_	TokenRange=146:152
+20	uniao	uniao	NOUN	NOUN	_	18	appos	_	TokenRange=153:158
+21	europeia	europeu	ADJ	ADJ	_	20	amod	_	TokenRange=159:167
+22	rejeitada	rejeitar	VERB	VERB	_	13	acl	_	TokenRange=168:177
+23	voltar	voltar	VERB	VERB	_	22	xcomp	_	TokenRange=178:184
+24	pais	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=185:189
+25	informou	informar	VERB	VERB	_	23	parataxis	_	TokenRange=190:198
+26	bloco	bloco	NOUN	NOUN	_	25	obj	_	TokenRange=199:204
+27	anunciado	anunciado	ADJ	ADJ	_	26	amod	_	TokenRange=205:214
+28	suspensao	suspensao	NOUN	NOUN	_	26	amod	_	TokenRange=215:224
+29	importacoes	importacoe	NOUN	NOUN	_	28	flat	_	TokenRange=225:236
+30	maiores	maior	ADJ	ADJ	_	31	amod	_	TokenRange=237:244
+31	mercados	mercado	NOUN	NOUN	_	28	appos	_	TokenRange=245:253
+32	brasileiros	brasileiro	ADJ	ADJ	_	31	amod	_	TokenRange=254:265
+33	hong	hong	NOUN	NOUN	_	35	nsubj	_	TokenRange=266:270
+34	kong	_	NOUN	NOUN	_	33	flat	_	TokenRange=271:275
+35	retirou	retirar	VERB	VERB	_	25	parataxis	_	TokenRange=276:283
+36	mercado	mercado	NOUN	NOUN	_	35	obj	_	TokenRange=284:291
+37	carne	carne	NOUN	NOUN	_	36	flat	_	TokenRange=292:297
+38	importada	importar	VERB	VERB	_	36	acl	_	TokenRange=298:307
+39	brasil	brasil	NOUN	NOUN	_	36	amod	_	TokenRange=308:314
+40	pais	_	NOUN	NOUN	_	36	appos	_	TokenRange=315:319
+41	proibido	proibido	ADJ	ADJ	_	40	amod	_	TokenRange=320:328
+42	importacoes	importacoe	NOUN	NOUN	_	36	appos	_	TokenRange=329:340
+43	brasil	brasil	ADJ	ADJ	_	44	amod	_	TokenRange=341:347
+44	carne	carne	NOUN	NOUN	_	42	appos	_	TokenRange=348:353
+45	tres	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=354:358
+46	estabelecimentos	estabelecimento	NOUN	NOUN	_	44	appos	_	TokenRange=359:375
+47	recolhida	recolher	ADJ	ADJ	_	46	amod	_	TokenRange=376:385
+48	supermercados	supermercado	NOUN	NOUN	_	47	nsubj	_	TokenRange=386:399
+49	consumidores	consumidor	ADJ	ADJ	_	48	amod	_	TokenRange=400:412
+50	exportadores	exportador	ADJ	ADJ	_	48	amod	_	TokenRange=413:425
+51	frango	frango	NOUN	NOUN	_	48	appos	_	TokenRange=426:432
+52	suinos	suino	ADJ	ADJ	_	51	amod	_	TokenRange=433:439
+53	estimam	estimar	VERB	VERB	_	35	parataxis	_	TokenRange=440:447
+54	perdas	perda	NOUN	NOUN	_	53	obj	_	TokenRange=448:454
+55	us	_	DET	DET	_	57	case	_	TokenRange=455:457
+56	40	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=458:460
+57	milhoes	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=461:468
+58	semana	semana	NOUN	NOUN	_	54	appos	_	TokenRange=469:475
+59	exassessor	exassessor	NOUN	NOUN	_	53	nsubj	_	TokenRange=476:486
+60	parlamentar	parlamentar	ADJ	ADJ	_	59	amod	_	TokenRange=487:498
+61	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=499:504
+62	pf	_	NOUN	NOUN	_	61	obj	_	SpaceAfter=No|TokenRange=505:507
+

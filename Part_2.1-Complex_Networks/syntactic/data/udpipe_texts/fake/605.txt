@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = foto peladoes tirada brasilia citada exterior pais indios corruptos gente tira roupa 115 pessoas homens mulheres decidiram ficar totalmente pelados participar ato praca museu republica brasilia aberracao aberracao falta vergonha cara atentado pudor falta limites desrespeito populacao etc aconteceu manha hoje 2/09
+1	foto	foto	NOUN	NOUN	_	39	nsubj	_	TokenRange=0:4
+2	peladoes	peladoe	NOUN	NOUN	_	1	appos	_	TokenRange=5:13
+3	tirada	tirar	VERB	VERB	_	1	acl	_	TokenRange=14:20
+4	brasilia	brasilia	NOUN	NOUN	_	1	appos	_	TokenRange=21:29
+5	citada	citar	ADJ	ADJ	_	1	acl	_	TokenRange=30:36
+6	exterior	exterior	NOUN	NOUN	_	1	appos	_	TokenRange=37:45
+7	pais	_	NOUN	NOUN	_	6	appos	_	TokenRange=46:50
+8	indios	indio	NOUN	NOUN	_	7	amod	_	TokenRange=51:57
+9	corruptos	corrupto	ADJ	ADJ	_	6	amod	_	TokenRange=58:67
+10	gente	gente	NOUN	NOUN	_	7	appos	_	TokenRange=68:73
+11	tira	_	NOUN	NOUN	_	1	parataxis	_	TokenRange=74:78
+12	roupa	roupa	NOUN	NOUN	_	11	obj	_	TokenRange=79:84
+13	115	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=85:88
+14	pessoas	pessoa	NOUN	NOUN	_	17	nsubj	_	TokenRange=89:96
+15	homens	homem	NOUN	NOUN	_	14	appos	_	TokenRange=97:103
+16	mulheres	mulher	NOUN	NOUN	_	15	flat	_	TokenRange=104:112
+17	decidiram	decidir	VERB	VERB	_	1	acl:relcl	_	TokenRange=113:122
+18	ficar	ficar	VERB	VERB	_	17	xcomp	_	TokenRange=123:128
+19	totalmente	totalmente	ADV	ADV	_	18	advmod	_	TokenRange=129:139
+20	pelados	pelado	ADJ	ADJ	_	18	xcomp	_	TokenRange=140:147
+21	participar	participar	VERB	VERB	_	18	csubj	_	TokenRange=148:158
+22	ato	ato	NOUN	NOUN	_	21	obj	_	TokenRange=159:162
+23	praca	_	NOUN	NOUN	_	22	flat	_	TokenRange=163:168
+24	museu	museu	NOUN	NOUN	_	22	appos	_	TokenRange=169:174
+25	republica	republico	ADJ	ADJ	_	22	amod	_	TokenRange=175:184
+26	brasilia	brasilia	NOUN	NOUN	_	22	appos	_	TokenRange=185:193
+27	aberracao	aberracao	NOUN	NOUN	_	22	amod	_	TokenRange=194:203
+28	aberracao	aberracao	ADJ	ADJ	_	29	amod	_	TokenRange=204:213
+29	falta	_	NOUN	NOUN	_	22	appos	_	TokenRange=214:219
+30	vergonha	vergonha	NOUN	NOUN	_	29	flat	_	TokenRange=220:228
+31	cara	cara	ADJ	ADJ	_	32	amod	_	TokenRange=229:233
+32	atentado	atentado	NOUN	NOUN	_	29	appos	_	TokenRange=234:242
+33	pudor	pudor	ADJ	ADJ	_	35	amod	_	TokenRange=243:248
+34	falta	_	ADJ	NOUN	_	35	amod	_	TokenRange=249:254
+35	limites	limite	NOUN	NOUN	_	32	appos	_	TokenRange=255:262
+36	desrespeito	desrespeito	NOUN	NOUN	_	32	appos	_	TokenRange=263:274
+37	populacao	populacao	NOUN	NOUN	_	39	nsubj	_	TokenRange=275:284
+38	etc	_	X	X	_	39	nsubj	_	TokenRange=285:288
+39	aconteceu	acontecer	VERB	VERB	_	0	root	_	TokenRange=289:298
+40	manha	manha	NOUN	NOUN	_	39	nmod	_	TokenRange=299:304
+41	hoje	hoje	ADV	ADV	_	39	advmod	_	TokenRange=305:309
+42	2/09	_	NUM	NUM	NumType=Card	40	nmod	_	SpaceAfter=No|TokenRange=310:314
+

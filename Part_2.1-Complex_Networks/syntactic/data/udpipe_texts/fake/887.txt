@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = steve jackson alerta atentado contra donald trump nova ordem mundial tentara eliminalo 1990 steve jackson inventor rpgs planejando novo jogo denominaria jogo cartas previu atentados 11 setembro morte princesa diana acordo especialistas suposta tentativa assassinato donald trump ocorrera breve algumas cartas jogo detalham acontecimentos forma precisa devem vistos meras coincidencias acaso inwo revela eventos planejados envolvendo bioterrorismo desastres combinados anarquia provocada grandes cidades forma derrubar velha ordem estabelecida
+1	steve	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	jackson	_	PROPN	PNOUN	_	1	flat	_	TokenRange=6:13
+3	alerta	alertar	VERB	VERB	_	0	root	_	TokenRange=14:20
+4	atentado	atentado	NOUN	NOUN	_	3	obj	_	TokenRange=21:29
+5	contra	_	ADP	ADP	_	6	case	_	TokenRange=30:36
+6	donald	_	NOUN	NOUN	_	4	nmod	_	TokenRange=37:43
+7	trump	_	NOUN	NOUN	_	6	flat	_	TokenRange=44:49
+8	nova	novo	ADJ	ADJ	_	9	amod	_	TokenRange=50:54
+9	ordem	ordem	NOUN	NOUN	_	6	appos	_	TokenRange=55:60
+10	mundial	mundial	ADJ	ADJ	_	9	amod	_	TokenRange=61:68
+11	tentara	tentar	VERB	VERB	_	3	parataxis	_	TokenRange=69:76
+12	eliminalo	eliminalo	NOUN	NOUN	_	11	obj	_	TokenRange=77:86
+13	1990	_	NUM	NUM	NumType=Card	12	appos	_	TokenRange=87:91
+14	steve	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=92:97
+15	jackson	_	NOUN	NOUN	_	14	flat	_	TokenRange=98:105
+16	inventor	_	NOUN	NOUN	_	14	appos	_	TokenRange=106:114
+17	rpgs	rpg	NOUN	NOUN	_	16	obj	_	TokenRange=115:119
+18	planejando	planejar	VERB	VERB	_	17	acl	_	TokenRange=120:130
+19	novo	novo	ADJ	ADJ	_	20	amod	_	TokenRange=131:135
+20	jogo	jogo	NOUN	NOUN	_	18	obj	_	TokenRange=136:140
+21	denominaria	denominar	VERB	VERB	_	3	parataxis	_	TokenRange=141:152
+22	jogo	jogo	NOUN	NOUN	_	21	obj	_	TokenRange=153:157
+23	cartas	carta	NOUN	NOUN	_	22	appos	_	TokenRange=158:164
+24	previu	prever	ADJ	ADJ	_	22	amod	_	TokenRange=165:171
+25	atentados	atentado	NOUN	NOUN	_	22	appos	_	TokenRange=172:181
+26	11	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=182:184
+27	setembro	_	PROPN	PNOUN	_	25	appos	_	TokenRange=185:193
+28	morte	morte	NOUN	NOUN	_	22	appos	_	TokenRange=194:199
+29	princesa	_	NOUN	NOUN	_	28	appos	_	TokenRange=200:208
+30	diana	diano	ADJ	ADJ	_	29	amod	_	TokenRange=209:214
+31	acordo	acordo	NOUN	NOUN	_	22	appos	_	TokenRange=215:221
+32	especialistas	especialista	ADJ	NOUN	_	31	amod	_	TokenRange=222:235
+33	suposta	suposto	ADJ	ADJ	_	34	amod	_	TokenRange=236:243
+34	tentativa	_	NOUN	NOUN	_	31	appos	_	TokenRange=244:253
+35	assassinato	assassinato	NOUN	NOUN	_	34	appos	_	TokenRange=254:265
+36	donald	_	NOUN	NOUN	_	34	appos	_	TokenRange=266:272
+37	trump	_	NOUN	NOUN	_	36	flat	_	TokenRange=273:278
+38	ocorrera	ocorrer	VERB	VERB	_	21	parataxis	_	TokenRange=279:287
+39	breve	breve	ADJ	ADJ	_	38	xcomp	_	TokenRange=288:293
+40	algumas	_	DET	DET	_	41	det	_	TokenRange=294:301
+41	cartas	carta	NOUN	NOUN	_	43	nsubj	_	TokenRange=302:308
+42	jogo	jogo	NOUN	NOUN	_	41	appos	_	TokenRange=309:313
+43	detalham	detalhar	VERB	VERB	_	38	parataxis	_	TokenRange=314:322
+44	acontecimentos	acontecimento	NOUN	NOUN	_	43	obj	_	TokenRange=323:337
+45	forma	forma	NOUN	NOUN	_	43	nsubj	_	TokenRange=338:343
+46	precisa	preciso	ADJ	ADJ	_	45	amod	_	TokenRange=344:351
+47	devem	_	AUX	AUX	_	48	aux	_	TokenRange=352:357
+48	vistos	ver	VERB	VERB	_	43	parataxis	_	TokenRange=358:364
+49	meras	mero	ADJ	ADJ	_	50	amod	_	TokenRange=365:370
+50	coincidencias	coincidencia	NOUN	NOUN	_	48	nsubj	_	TokenRange=371:384
+51	acaso	acaso	NOUN	NOUN	_	53	nsubj	_	TokenRange=385:390
+52	inwo	_	X	ADPPRON	_	51	nmod	_	TokenRange=391:395
+53	revela	revelar	VERB	VERB	_	43	parataxis	_	TokenRange=396:402
+54	eventos	evento	NOUN	NOUN	_	53	obj	_	TokenRange=403:410
+55	planejados	planejar	VERB	VERB	_	54	acl	_	TokenRange=411:421
+56	envolvendo	envolver	VERB	VERB	_	54	acl	_	TokenRange=422:432
+57	bioterrorismo	_	NOUN	NOUN	_	56	obj	_	TokenRange=433:446
+58	desastres	desastre	NOUN	NOUN	_	56	obj	_	TokenRange=447:456
+59	combinados	combinar	VERB	ADJ	_	60	acl	_	TokenRange=457:467
+60	anarquia	anarquia	NOUN	NOUN	_	58	appos	_	TokenRange=468:476
+61	provocada	provocar	ADJ	ADJ	_	60	acl	_	TokenRange=477:486
+62	grandes	grande	ADJ	ADJ	_	63	amod	_	TokenRange=487:494
+63	cidades	cidade	NOUN	NOUN	_	60	amod	_	TokenRange=495:502
+64	forma	forma	NOUN	NOUN	_	65	nsubj	_	TokenRange=503:508
+65	derrubar	derrubar	VERB	VERB	_	54	acl:inf	_	TokenRange=509:517
+66	velha	velho	ADJ	ADJ	_	67	amod	_	TokenRange=518:523
+67	ordem	ordem	NOUN	NOUN	_	65	obj	_	TokenRange=524:529
+68	estabelecida	estabelecer	VERB	VERB	_	67	acl	_	SpaceAfter=No|TokenRange=530:542
+

@@ -1,0 +1,26 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = morre 78 anos ator humorista paulo silvino faleceu manha hoje 17 decorrencia cancer ator humorista global paulo silvino
+1	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	78	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=6:8
+3	anos	ano	NOUN	NOUN	_	1	nsubj	_	TokenRange=9:13
+4	ator	ator	NOUN	NOUN	_	1	nsubj	_	TokenRange=14:18
+5	humorista	humorista	ADJ	ADJ	_	4	amod	_	TokenRange=19:28
+6	paulo	paulo	NOUN	NOUN	_	8	nsubj	_	TokenRange=29:34
+7	silvino	silvino	ADJ	ADJ	_	6	amod	_	TokenRange=35:42
+8	faleceu	falecer	VERB	VERB	_	1	parataxis	_	TokenRange=43:50
+9	manha	manha	NOUN	NOUN	_	8	nmod	_	TokenRange=51:56
+10	hoje	hoje	ADV	ADV	_	9	advmod	_	TokenRange=57:61
+11	17	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=62:64
+12	decorrencia	decorrencia	NOUN	NOUN	_	8	nmod	_	TokenRange=65:76
+13	cancer	cancer	NOUN	NOUN	_	12	flat	_	TokenRange=77:83
+14	ator	ator	NOUN	NOUN	_	8	nsubj	_	TokenRange=84:88
+15	humorista	humorista	ADJ	ADJ	_	14	amod	_	TokenRange=89:98
+16	global	global	ADJ	ADJ	_	14	amod	_	TokenRange=99:105
+17	paulo	paulo	NOUN	NOUN	_	14	appos	_	TokenRange=106:111
+18	silvino	silvino	ADJ	ADJ	_	17	amod	_	SpaceAfter=No|TokenRange=112:119
+

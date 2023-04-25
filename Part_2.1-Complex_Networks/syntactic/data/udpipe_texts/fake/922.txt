@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = kelly key publico acha recebo pensao milionaria ex kelly key entrevista jornalista leo dias tarde hoje 15 disse publico impressao milionaria pessoas acham milionaria gracas pensao latino exmarido completou vou viver 1 salario minimo cantora disse pensao ex diretamente filha casal salario minimo diretamente pra revelou encerrar kelly disse mete bedelho relacao latino filha porem garantiu pai quase interessa vida
+1	kelly	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	key	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:9
+3	publico	_	NOUN	NOUN	_	1	flat	_	TokenRange=10:17
+4	acha	achar	VERB	VERB	_	0	root	_	TokenRange=18:22
+5	recebo	recebo	NOUN	NOUN	_	4	obj	_	TokenRange=23:29
+6	pensao	pensao	NOUN	NOUN	_	4	obj	_	TokenRange=30:36
+7	milionaria	milionaria	NOUN	NOUN	_	6	flat	_	TokenRange=37:47
+8	ex	_	X	X	_	9	appos	_	TokenRange=48:50
+9	kelly	_	NOUN	NOUN	_	4	nmod	_	TokenRange=51:56
+10	key	_	NOUN	NOUN	_	9	flat	_	TokenRange=57:60
+11	entrevista	entrevista	NOUN	NOUN	_	9	appos	_	TokenRange=61:71
+12	jornalista	jornalista	NOUN	NOUN	_	9	flat	_	TokenRange=72:82
+13	leo	_	NOUN	NOUN	_	14	appos	_	TokenRange=83:86
+14	dias	dia	NOUN	NOUN	_	9	appos	_	TokenRange=87:91
+15	tarde	tarde	NOUN	NOUN	_	14	advmod	_	TokenRange=92:97
+16	hoje	hoje	ADV	ADV	_	18	advmod	_	TokenRange=98:102
+17	15	_	NUM	NUM	NumType=Card	14	appos	_	TokenRange=103:105
+18	disse	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=106:111
+19	publico	_	ADJ	ADJ	_	20	amod	_	TokenRange=112:119
+20	impressao	impressao	NOUN	NOUN	_	18	nsubj	_	TokenRange=120:129
+21	milionaria	milionario	ADJ	ADJ	_	20	amod	_	TokenRange=130:140
+22	pessoas	pessoa	NOUN	NOUN	_	23	nsubj	_	TokenRange=141:148
+23	acham	achar	VERB	VERB	_	20	acl:relcl	_	TokenRange=149:154
+24	milionaria	milionaria	NOUN	NOUN	_	23	obj	_	TokenRange=155:165
+25	gracas	graco	ADJ	ADJ	_	26	amod	_	TokenRange=166:172
+26	pensao	pensao	NOUN	NOUN	_	23	nsubj	_	TokenRange=173:179
+27	latino	_	NOUN	NOUN	_	26	amod	_	TokenRange=180:186
+28	exmarido	exmarido	ADJ	ADJ	_	26	amod	_	TokenRange=187:195
+29	completou	completar	VERB	VERB	_	23	conj	_	TokenRange=196:205
+30	vou	ir	AUX	AUX	_	31	aux	_	TokenRange=206:209
+31	viver	viver	VERB	VERB	_	29	ccomp	_	TokenRange=210:215
+32	1	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=216:217
+33	salario	salario	NOUN	NOUN	_	31	obj	_	TokenRange=218:225
+34	minimo	minimo	ADJ	ADJ	_	33	amod	_	TokenRange=226:232
+35	cantora	cantor	NOUN	NOUN	_	36	nsubj	_	TokenRange=233:240
+36	disse	dizer	VERB	VERB	_	29	parataxis	_	TokenRange=241:246
+37	pensao	pensao	NOUN	NOUN	_	36	obj	_	TokenRange=247:253
+38	ex	_	PART	PRT	_	40	appos	_	TokenRange=254:256
+39	diretamente	diretamente	ADV	ADV	_	40	advmod	_	TokenRange=257:268
+40	filha	filho	NOUN	NOUN	_	37	conj	_	TokenRange=269:274
+41	casal	casal	NOUN	NOUN	_	40	amod	_	TokenRange=275:280
+42	salario	salario	NOUN	NOUN	_	40	appos	_	TokenRange=281:288
+43	minimo	minimo	ADJ	ADJ	_	42	amod	_	TokenRange=289:295
+44	diretamente	diretamente	ADV	ADV	_	46	advmod	_	TokenRange=296:307
+45	pra	_	ADP	ADP	_	46	mark	_	TokenRange=308:311
+46	revelou	revelar	VERB	VERB	_	36	advcl	_	TokenRange=312:319
+47	encerrar	encerrar	VERB	VERB	_	46	xcomp	_	TokenRange=320:328
+48	kelly	_	NOUN	NOUN	_	47	obj	_	TokenRange=329:334
+49	disse	dizer	VERB	VERB	_	46	conj	_	TokenRange=335:340
+50	mete	mete	NOUN	NOUN	_	49	xcomp	_	TokenRange=341:345
+51	bedelho	bedelho	ADJ	ADJ	_	52	amod	_	TokenRange=346:353
+52	relacao	relacao	NOUN	NOUN	_	50	obj	_	TokenRange=354:361
+53	latino	latino	ADJ	ADJ	_	52	amod	_	TokenRange=362:368
+54	filha	filho	NOUN	NOUN	_	52	amod	_	TokenRange=369:374
+55	porem	_	ADV	ADV	_	56	advmod	_	TokenRange=375:380
+56	garantiu	garantir	VERB	VERB	_	49	conj	_	TokenRange=381:389
+57	pai	pai	NOUN	NOUN	_	56	obj	_	TokenRange=390:393
+58	quase	quase	ADV	ADV	_	59	advmod	_	TokenRange=394:399
+59	interessa	interessar	VERB	VERB	_	56	ccomp	_	TokenRange=400:409
+60	vida	vida	NOUN	NOUN	_	59	obj	_	SpaceAfter=No|TokenRange=410:414
+

@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marido senadora petista bancada chupeta preso pf paulo bernardo exministro ministro governo lula governo dilma preso hoje 23 paulo marido senadora gleisi hoffmann 18 fase operacao cumpre 65 mandados judiciais paulo parana rio grande sul pernambuco distrito federal desses mandados busca sendo cumprido casa senadora gleisi hoffmann bairro agua verde curitiba pf sede pt paulo gleisi hoffmann ptpr marido suspeitos terem recebido dinheiro desviado petrobras abastecer campanha senadora 2010 pf afirma indicios suficientes contra gleisi marido exministro paulo bernardo suposto envolvimento crime corrupcao cuida senadora discurso moralista chegou fim
+1	marido	marido	NOUN	NOUN	_	71	nsubj	_	TokenRange=0:6
+2	senadora	senador	NOUN	NOUN	_	1	flat	_	TokenRange=7:15
+3	petista	petista	NOUN	NOUN	_	1	amod	_	TokenRange=16:23
+4	bancada	bancada	NOUN	NOUN	_	1	appos	_	TokenRange=24:31
+5	chupeta	_	NOUN	NOUN	_	4	flat	_	TokenRange=32:39
+6	preso	_	ADJ	ADJ	_	1	acl	_	TokenRange=40:45
+7	pf	_	NOUN	NOUN	_	6	appos	_	TokenRange=46:48
+8	paulo	paulo	NOUN	NOUN	_	7	appos	_	TokenRange=49:54
+9	bernardo	bernardo	NOUN	NOUN	_	7	flat	_	TokenRange=55:63
+10	exministro	exministro	NOUN	NOUN	_	29	amod	_	TokenRange=64:74
+11	ministro	ministro	NOUN	NOUN	_	1	appos	_	TokenRange=75:83
+12	governo	governo	NOUN	NOUN	_	11	flat	_	TokenRange=84:91
+13	lula	_	ADJ	ADJ	_	14	amod	_	TokenRange=92:96
+14	governo	governo	NOUN	NOUN	_	1	appos	_	TokenRange=97:104
+15	dilma	dilma	ADJ	NOUN	_	14	amod	_	TokenRange=105:110
+16	preso	_	VERB	VERB	_	1	acl	_	TokenRange=111:116
+17	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=117:121
+18	23	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=122:124
+19	paulo	paulo	NOUN	NOUN	_	17	nmod	_	TokenRange=125:130
+20	marido	marido	NOUN	NOUN	_	19	appos	_	TokenRange=131:137
+21	senadora	senador	NOUN	NOUN	_	19	appos	_	TokenRange=138:146
+22	gleisi	_	NOUN	NOUN	_	19	appos	_	TokenRange=147:153
+23	hoffmann	_	NOUN	NOUN	_	22	flat	_	TokenRange=154:162
+24	18	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=163:165
+25	fase	fase	NOUN	NOUN	_	27	nsubj	_	TokenRange=166:170
+26	operacao	_	NOUN	NOUN	_	25	appos	_	TokenRange=171:179
+27	cumpre	cumprir	VERB	VERB	_	71	parataxis	_	TokenRange=180:186
+28	65	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=187:189
+29	mandados	mandado	NOUN	NOUN	_	27	obj	_	TokenRange=190:198
+30	judiciais	judicial	ADJ	ADJ	_	29	amod	_	TokenRange=199:208
+31	paulo	paulo	NOUN	NOUN	_	29	appos	_	TokenRange=209:214
+32	parana	parana	NOUN	NOUN	_	31	flat	_	TokenRange=215:221
+33	rio	rio	NOUN	NOUN	_	29	appos	_	TokenRange=222:225
+34	grande	grande	ADJ	ADJ	_	33	amod	_	TokenRange=226:232
+35	sul	sul	ADJ	ADJ	_	33	amod	_	TokenRange=233:236
+36	pernambuco	pernambuco	ADJ	NOUN	_	33	appos	_	TokenRange=237:247
+37	distrito	distrito	NOUN	NOUN	_	31	appos	_	TokenRange=248:256
+38	federal	federal	ADJ	ADJ	_	37	amod	_	TokenRange=257:264
+39	desses	_	ADP	ADP	_	40	case	_	TokenRange=265:271
+40	mandados	mandado	NOUN	NOUN	_	37	nmod	_	TokenRange=272:280
+41	busca	buscar	VERB	VERB	_	71	aux	_	TokenRange=281:286
+42	sendo	ser	AUX	AUX	_	43	aux:pass	_	TokenRange=287:292
+43	cumprido	cumprir	VERB	VERB	_	41	acl	_	TokenRange=293:301
+44	casa	casa	NOUN	NOUN	_	43	nsubj:pass	_	TokenRange=302:306
+45	senadora	senador	NOUN	NOUN	_	44	amod	_	TokenRange=307:315
+46	gleisi	_	NOUN	NOUN	_	44	appos	_	TokenRange=316:322
+47	hoffmann	_	NOUN	NOUN	_	46	flat	_	TokenRange=323:331
+48	bairro	bairro	NOUN	NOUN	_	44	appos	_	TokenRange=332:338
+49	agua	_	NOUN	NOUN	_	48	appos	_	TokenRange=339:343
+50	verde	verde	ADJ	ADJ	_	49	amod	_	TokenRange=344:349
+51	curitiba	curitiba	NOUN	NOUN	_	43	appos	_	TokenRange=350:358
+52	pf	_	X	NOUN	_	53	appos	_	TokenRange=359:361
+53	sede	sede	NOUN	NOUN	_	71	nsubj	_	TokenRange=362:366
+54	pt	_	NOUN	NOUN	_	53	appos	_	TokenRange=367:369
+55	paulo	_	NOUN	NOUN	_	53	appos	_	TokenRange=370:375
+56	gleisi	_	NOUN	NOUN	_	53	appos	_	TokenRange=376:382
+57	hoffmann	_	NOUN	NOUN	_	55	flat	_	TokenRange=383:391
+58	ptpr	ptpr	NOUN	NOUN	_	53	appos	_	TokenRange=392:396
+59	marido	marido	NOUN	NOUN	_	58	flat	_	TokenRange=397:403
+60	suspeitos	suspeito	ADJ	ADJ	_	53	amod	_	TokenRange=404:413
+61	terem	ter	AUX	AUX	_	62	aux	_	TokenRange=414:419
+62	recebido	receber	VERB	VERB	_	53	acl:relcl	_	TokenRange=420:428
+63	dinheiro	dinheiro	NOUN	NOUN	_	62	obj	_	TokenRange=429:437
+64	desviado	desviar	VERB	ADJ	_	63	acl	_	TokenRange=438:446
+65	petrobras	petrobra	NOUN	NOUN	_	66	nsubj	_	TokenRange=447:456
+66	abastecer	abastecer	VERB	VERB	_	62	ccomp	_	TokenRange=457:466
+67	campanha	campanha	NOUN	NOUN	_	66	obj	_	TokenRange=467:475
+68	senadora	senador	ADJ	ADJ	_	67	amod	_	TokenRange=476:484
+69	2010	_	NUM	NUM	NumType=Card	67	nmod	_	TokenRange=485:489
+70	pf	_	NOUN	NOUN	_	67	appos	_	TokenRange=490:492
+71	afirma	afirmar	VERB	VERB	_	0	root	_	TokenRange=493:499
+72	indicios	_	NOUN	NOUN	_	71	obj	_	TokenRange=500:508
+73	suficientes	suficiente	ADJ	ADJ	_	72	amod	_	TokenRange=509:520
+74	contra	_	ADP	ADP	_	75	case	_	TokenRange=521:527
+75	gleisi	gleisi	NOUN	NOUN	_	72	nmod	_	TokenRange=528:534
+76	marido	marido	NOUN	NOUN	_	75	flat	_	TokenRange=535:541
+77	exministro	exministro	NOUN	NOUN	_	75	flat	_	TokenRange=542:552
+78	paulo	paulo	NOUN	NOUN	_	75	appos	_	TokenRange=553:558
+79	bernardo	bernardo	NOUN	NOUN	_	78	flat	_	TokenRange=559:567
+80	suposto	suposto	ADJ	ADJ	_	81	amod	_	TokenRange=568:575
+81	envolvimento	envolvimento	NOUN	NOUN	_	75	appos	_	TokenRange=576:588
+82	crime	crime	NOUN	NOUN	_	81	appos	_	TokenRange=589:594
+83	corrupcao	corrupcao	ADJ	ADJ	_	81	amod	_	TokenRange=595:604
+84	cuida	cuidar	VERB	VERB	_	81	amod	_	TokenRange=605:610
+85	senadora	senador	NOUN	NOUN	_	88	nsubj	_	TokenRange=611:619
+86	discurso	discurso	NOUN	NOUN	_	88	nsubj	_	TokenRange=620:628
+87	moralista	moralista	ADJ	ADJ	_	86	amod	_	TokenRange=629:638
+88	chegou	chegar	VERB	VERB	_	71	parataxis	_	TokenRange=639:645
+89	fim	fim	NOUN	NOUN	_	88	obj	_	SpaceAfter=No|TokenRange=646:649
+

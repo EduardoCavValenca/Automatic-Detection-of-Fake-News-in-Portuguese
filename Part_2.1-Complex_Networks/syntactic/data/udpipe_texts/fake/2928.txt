@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = paparazzi flagra dilma andando pra ca pra la desespero tomou conta planalto dilma lado expresidente lula assistindo votacao impeachment expresidente nervosa chama todos traidores medico presidencia plantao acalmar nelvos petista jornal oglobo informou expresidenta acompanha votacao impeachment palacio alvorada principal auxiliar assessor especial giles azevedo jaques wagner ricardo berzoini planalto estima apenas 130 votos 172 necessarios barrar impeachment
+1	paparazzi	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	flagra	flagrar	VERB	VERB	_	0	root	_	TokenRange=10:16
+3	dilma	dilma	NOUN	NOUN	_	2	obj	_	TokenRange=17:22
+4	andando	andar	VERB	VERB	_	3	acl	_	TokenRange=23:30
+5	pra	_	ADP	ADP	_	6	case	_	TokenRange=31:34
+6	ca	_	NOUN	NOUN	_	4	nmod	_	TokenRange=35:37
+7	pra	_	ADP	ADP	_	9	case	_	TokenRange=38:41
+8	la	_	DET	DET	_	9	det	_	TokenRange=42:44
+9	desespero	desespero	NOUN	NOUN	_	4	nmod	_	TokenRange=45:54
+10	tomou	tomar	VERB	VERB	_	2	conj	_	TokenRange=55:60
+11	conta	conta	NOUN	NOUN	_	10	obj	_	TokenRange=61:66
+12	planalto	planalto	NOUN	NOUN	_	10	nsubj	_	TokenRange=67:75
+13	dilma	_	ADJ	NOUN	_	14	amod	_	TokenRange=76:81
+14	lado	lado	NOUN	NOUN	_	10	nsubj	_	TokenRange=82:86
+15	expresidente	expresidente	NOUN	NOUN	_	14	appos	_	TokenRange=87:99
+16	lula	_	NOUN	NOUN	_	14	flat	_	TokenRange=100:104
+17	assistindo	assistir	VERB	VERB	_	2	acl	_	TokenRange=105:115
+18	votacao	votacao	NOUN	NOUN	_	17	obj	_	TokenRange=116:123
+19	impeachment	impeachment	NOUN	NOUN	_	18	amod	_	TokenRange=124:135
+20	expresidente	expresidente	NOUN	NOUN	_	18	appos	_	TokenRange=136:148
+21	nervosa	nervoso	ADJ	ADJ	_	20	amod	_	TokenRange=149:156
+22	chama	chamar	VERB	VERB	_	2	parataxis	_	TokenRange=157:162
+23	todos	_	DET	DET	_	24	det	_	TokenRange=163:168
+24	traidores	traidor	NOUN	NOUN	_	22	obj	_	TokenRange=169:178
+25	medico	medico	NOUN	NOUN	_	24	appos	_	TokenRange=179:185
+26	presidencia	presidencia	NOUN	NOUN	_	22	nsubj	_	TokenRange=186:197
+27	plantao	_	NOUN	NOUN	_	26	flat	_	TokenRange=198:205
+28	acalmar	acalmar	VERB	VERB	_	26	acl:relcl	_	TokenRange=206:213
+29	nelvos	nelvo	ADJ	ADJ	_	30	amod	_	TokenRange=214:220
+30	petista	petista	NOUN	NOUN	_	28	obj	_	TokenRange=221:228
+31	jornal	jornal	NOUN	NOUN	_	30	appos	_	TokenRange=229:235
+32	oglobo	oglobo	NOUN	NOUN	_	31	flat	_	TokenRange=236:242
+33	informou	informar	VERB	VERB	_	2	parataxis	_	TokenRange=243:251
+34	expresidenta	_	NOUN	NOUN	_	33	obj	_	TokenRange=252:264
+35	acompanha	acompanhar	VERB	VERB	_	33	parataxis	_	TokenRange=265:274
+36	votacao	votacao	NOUN	NOUN	_	35	obj	_	TokenRange=275:282
+37	impeachment	impeachment	NOUN	NOUN	_	36	flat	_	TokenRange=283:294
+38	palacio	palacio	NOUN	NOUN	_	36	appos	_	TokenRange=295:302
+39	alvorada	alvorada	ADJ	ADJ	_	36	amod	_	TokenRange=303:311
+40	principal	principal	ADJ	ADJ	_	41	amod	_	TokenRange=312:321
+41	auxiliar	auxiliar	NOUN	NOUN	_	36	appos	_	TokenRange=322:330
+42	assessor	assessor	NOUN	NOUN	_	41	appos	_	TokenRange=331:339
+43	especial	especial	ADJ	ADJ	_	42	amod	_	TokenRange=340:348
+44	giles	_	NOUN	NOUN	_	41	appos	_	TokenRange=349:354
+45	azevedo	azevedo	ADJ	NOUN	_	46	amod	_	TokenRange=355:362
+46	jaques	jaque	NOUN	NOUN	_	44	appos	_	TokenRange=363:369
+47	wagner	wagner	NOUN	NOUN	_	46	flat	_	TokenRange=370:376
+48	ricardo	ricardo	NOUN	NOUN	_	46	appos	_	TokenRange=377:384
+49	berzoini	berzoini	ADJ	ADJ	_	48	flat	_	TokenRange=385:393
+50	planalto	planalto	NOUN	NOUN	_	48	flat	_	TokenRange=394:402
+51	estima	estimar	VERB	VERB	_	2	parataxis	_	TokenRange=403:409
+52	apenas	apenas	ADV	ADV	_	53	advmod	_	TokenRange=410:416
+53	130	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=417:420
+54	votos	voto	NOUN	NOUN	_	51	obj	_	TokenRange=421:426
+55	172	_	NUM	NUM	NumType=Card	54	appos	_	TokenRange=427:430
+56	necessarios	necessario	ADJ	ADJ	_	54	amod	_	TokenRange=431:442
+57	barrar	barrar	VERB	VERB	_	51	xcomp	_	TokenRange=443:449
+58	impeachment	impeachment	NOUN	NOUN	_	57	obj	_	SpaceAfter=No|TokenRange=450:461
+

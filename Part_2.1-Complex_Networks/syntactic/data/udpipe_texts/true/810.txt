@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = felipe massao invariavelmente primeiras coisas aparece conversa europeu clima brasileiro la estacao faz calor faz frio chove outra estio digo maneira quase protocolar enfatizando quatro estacoes ano vemos bem definidas exemplo europa apenas grande verao grande inverno complicar assunto parece vivemos sim hoje primavera permanente desde abril 2013 porque tempos mudaram nesse novo ambiente clima deixou oscilar
+1	felipe	felipe	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:6
+2	massao	massao	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	invariavelmente	invariavelmente	ADV	ADV	_	6	advmod	_	TokenRange=14:29
+4	primeiras	primeiro	ADJ	ADJ	_	5	amod	_	TokenRange=30:39
+5	coisas	coisa	NOUN	NOUN	_	1	appos	_	TokenRange=40:46
+6	aparece	aparecer	VERB	VERB	_	0	root	_	TokenRange=47:54
+7	conversa	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=55:63
+8	europeu	europeu	ADJ	ADJ	_	9	amod	_	TokenRange=64:71
+9	clima	clima	NOUN	NOUN	_	6	nsubj	_	TokenRange=72:77
+10	brasileiro	brasileiro	ADJ	ADJ	_	9	amod	_	TokenRange=78:88
+11	la	_	DET	DET	_	12	det	_	TokenRange=89:91
+12	estacao	estacao	NOUN	NOUN	_	13	nsubj	_	TokenRange=92:99
+13	faz	fazer	VERB	VERB	_	7	acl:relcl	_	TokenRange=100:103
+14	calor	calor	NOUN	NOUN	_	13	obj	_	TokenRange=104:109
+15	faz	fazer	VERB	VERB	_	13	ccomp	_	TokenRange=110:113
+16	frio	frio	NOUN	NOUN	_	15	obj	_	TokenRange=114:118
+17	chove	chovar	VERB	VERB	_	13	conj	_	TokenRange=119:124
+18	outra	_	DET	DET	_	19	det	_	TokenRange=125:130
+19	estio	estio	NOUN	NOUN	_	17	nsubj	_	TokenRange=131:136
+20	digo	dizer	VERB	VERB	_	6	parataxis	_	TokenRange=137:141
+21	maneira	maneira	NOUN	NOUN	_	20	obj	_	TokenRange=142:149
+22	quase	quase	ADV	ADV	_	23	advmod	_	TokenRange=150:155
+23	protocolar	protocolar	ADJ	ADJ	_	21	amod	_	TokenRange=156:166
+24	enfatizando	enfatizar	VERB	VERB	_	21	acl	_	TokenRange=167:178
+25	quatro	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=179:185
+26	estacoes	estacoe	NOUN	NOUN	_	24	obj	_	TokenRange=186:194
+27	ano	ano	NOUN	NOUN	_	26	appos	_	TokenRange=195:198
+28	vemos	ver	VERB	VERB	_	26	acl:relcl	_	TokenRange=199:204
+29	bem	bem	ADV	ADV	_	30	advmod	_	TokenRange=205:208
+30	definidas	definido	ADJ	ADJ	_	28	xcomp	_	TokenRange=209:218
+31	exemplo	exemplo	NOUN	NOUN	_	28	nsubj	_	TokenRange=219:226
+32	europa	_	NOUN	NOUN	_	31	appos	_	TokenRange=227:233
+33	apenas	apenas	ADV	ADV	_	34	advmod	_	TokenRange=234:240
+34	grande	grande	ADJ	ADJ	_	35	amod	_	TokenRange=241:247
+35	verao	verao	NOUN	NOUN	_	31	appos	_	TokenRange=248:253
+36	grande	grande	ADJ	ADJ	_	37	amod	_	TokenRange=254:260
+37	inverno	inverno	NOUN	NOUN	_	31	appos	_	TokenRange=261:268
+38	complicar	complicar	VERB	VERB	_	31	acl:relcl	_	TokenRange=269:278
+39	assunto	assunto	NOUN	NOUN	_	38	obj	_	TokenRange=279:286
+40	parece	parecer	VERB	VERB	_	28	parataxis	_	TokenRange=287:293
+41	vivemos	_	VERB	VERB	_	40	parataxis	_	TokenRange=294:301
+42	sim	sim	ADV	ADV	_	41	advmod	_	TokenRange=302:305
+43	hoje	hoje	ADV	ADV	_	41	advmod	_	TokenRange=306:310
+44	primavera	_	PROPN	PNOUN	_	41	obj	_	TokenRange=311:320
+45	permanente	permanente	ADJ	ADJ	_	44	amod	_	TokenRange=321:331
+46	desde	_	ADP	ADP	_	47	case	_	TokenRange=332:337
+47	abril	_	PROPN	PNOUN	_	41	nmod	_	TokenRange=338:343
+48	2013	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=344:348
+49	porque	_	CCONJ	CONJ	_	51	mark	_	TokenRange=349:355
+50	tempos	tempo	NOUN	NOUN	_	51	nsubj	_	TokenRange=356:362
+51	mudaram	mudar	VERB	VERB	_	41	advcl	_	TokenRange=363:370
+52	nesse	_	ADP	ADP	_	54	case	_	TokenRange=371:376
+53	novo	novo	ADJ	ADJ	_	54	amod	_	TokenRange=377:381
+54	ambiente	ambiente	NOUN	NOUN	_	51	nmod	_	TokenRange=382:390
+55	clima	clima	NOUN	NOUN	_	57	nsubj	_	TokenRange=391:396
+56	deixou	deixar	VERB	VERB	_	57	aux	_	TokenRange=397:403
+57	oscilar	oscilar	VERB	VERB	_	51	xcomp	_	SpaceAfter=No|TokenRange=404:411
+

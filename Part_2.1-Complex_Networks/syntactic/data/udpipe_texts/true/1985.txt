@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 8 fevereiro bom dia aqui principais noticias comecar dia beminformado violencia tregua vitima bala perdida rio janeiro luta vida crianca 4 anos baleada ontem noite goncalo regiao metropolitana internada estado grave hoje enterrado jeremias moraes silva menino 13 anos morreu apos tiroteio complexo mare
+1	quintafeira	quintafeira	NOUN	NOUN	_	41	parataxis	_	TokenRange=0:11
+2	8	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=12:13
+3	fevereiro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=14:23
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=24:27
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=28:31
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=32:36
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=37:47
+8	noticias	noticia	NOUN	NOUN	_	9	nsubj	_	TokenRange=48:56
+9	comecar	comecar	VERB	VERB	_	5	acl:relcl	_	TokenRange=57:64
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=65:68
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=69:81
+12	violencia	violencia	NOUN	NOUN	_	9	obj	_	TokenRange=82:91
+13	tregua	tregua	NOUN	NOUN	_	12	appos	_	TokenRange=92:98
+14	vitima	_	ADJ	ADJ	_	15	amod	_	TokenRange=99:105
+15	bala	bala	NOUN	NOUN	_	12	appos	_	TokenRange=106:110
+16	perdida	perder	VERB	ADJ	_	15	acl	_	TokenRange=111:118
+17	rio	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=119:122
+18	janeiro	_	PROPN	PNOUN	_	17	flat	_	TokenRange=123:130
+19	luta	lutar	VERB	VERB	_	41	parataxis	_	TokenRange=131:135
+20	vida	vida	NOUN	NOUN	_	19	obj	_	TokenRange=136:140
+21	crianca	crianco	ADJ	ADJ	_	20	amod	_	TokenRange=141:148
+22	4	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=149:150
+23	anos	ano	NOUN	NOUN	_	19	nmod	_	TokenRange=151:155
+24	baleada	balear	VERB	VERB	_	19	acl	_	TokenRange=156:163
+25	ontem	ontem	ADV	ADV	_	24	advmod	_	TokenRange=164:169
+26	noite	noite	NOUN	NOUN	_	24	nmod	_	TokenRange=170:175
+27	goncalo	goncalo	ADJ	ADJ	_	28	amod	_	TokenRange=176:183
+28	regiao	regiao	NOUN	NOUN	_	26	appos	_	TokenRange=184:190
+29	metropolitana	metropolitano	ADJ	ADJ	_	28	amod	_	TokenRange=191:204
+30	internada	internado	ADJ	ADJ	_	31	amod	_	TokenRange=205:214
+31	estado	estado	NOUN	NOUN	_	28	appos	_	TokenRange=215:221
+32	grave	grave	ADJ	ADJ	_	31	amod	_	TokenRange=222:227
+33	hoje	hoje	ADV	ADV	_	34	advmod	_	TokenRange=228:232
+34	enterrado	enterrar	VERB	VERB	_	31	acl	_	TokenRange=233:242
+35	jeremias	jeremia	NOUN	NOUN	_	41	nsubj	_	TokenRange=243:251
+36	moraes	_	ADJ	ADJ	_	35	flat	_	TokenRange=252:258
+37	silva	silva	NOUN	NOUN	_	35	flat	_	TokenRange=259:264
+38	menino	menino	NOUN	NOUN	_	35	appos	_	TokenRange=265:271
+39	13	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=272:274
+40	anos	ano	NOUN	NOUN	_	35	appos	_	TokenRange=275:279
+41	morreu	morrer	VERB	VERB	_	0	root	_	TokenRange=280:286
+42	apos	_	ADP	ADP	_	43	case	_	TokenRange=287:291
+43	tiroteio	tiroteio	NOUN	NOUN	_	41	nmod	_	TokenRange=292:300
+44	complexo	complexo	ADJ	ADJ	_	45	amod	_	TokenRange=301:309
+45	mare	mare	NOUN	NOUN	_	43	appos	_	SpaceAfter=No|TokenRange=310:314
+

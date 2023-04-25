@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula penta somente neste ano 2016 nobre luiz inacio conseguiu recorde petista conquistou proeza denunciado 5 vezes ministerio publico somente operacao lava jato 3 denuncias outras duas denuncias provenientes operacoes zelotes janus agora expresidente tenta montar teoria conspiracao provar tese perseguicao politica voltamos alertar justica prender passaporte desse cidadao vai fugir pais
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	penta	pentar	VERB	VERB	_	0	root	_	TokenRange=5:10
+3	somente	somente	ADV	ADV	_	2	advmod	_	TokenRange=11:18
+4	neste	_	ADP	ADP	_	5	case	_	TokenRange=19:24
+5	ano	ano	NOUN	NOUN	_	2	nmod	_	TokenRange=25:28
+6	2016	_	NUM	NUM	NumType=Card	5	nmod	_	TokenRange=29:33
+7	nobre	nobre	NOUN	NOUN	_	2	nsubj	_	TokenRange=34:39
+8	luiz	luiz	NOUN	NOUN	_	7	appos	_	TokenRange=40:44
+9	inacio	_	NOUN	NOUN	_	8	flat	_	TokenRange=45:51
+10	conseguiu	conseguir	VERB	VERB	_	2	parataxis	_	TokenRange=52:61
+11	recorde	recorde	NOUN	NOUN	_	10	obj	_	TokenRange=62:69
+12	petista	petista	NOUN	NOUN	_	11	amod	_	TokenRange=70:77
+13	conquistou	conquistar	VERB	VERB	_	10	parataxis	_	TokenRange=78:88
+14	proeza	proeza	NOUN	NOUN	_	13	obj	_	TokenRange=89:95
+15	denunciado	denunciar	VERB	VERB	_	13	acl	_	TokenRange=96:106
+16	5	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=107:108
+17	vezes	vez	NOUN	NOUN	_	15	nmod	_	TokenRange=109:114
+18	ministerio	ministerio	NOUN	NOUN	_	13	appos	_	TokenRange=115:125
+19	publico	_	ADJ	ADJ	_	18	amod	_	TokenRange=126:133
+20	somente	somente	ADV	ADV	_	21	advmod	_	TokenRange=134:141
+21	operacao	operacao	NOUN	NOUN	_	18	appos	_	TokenRange=142:150
+22	lava	lava	NOUN	NOUN	_	21	flat	_	TokenRange=151:155
+23	jato	jato	NOUN	NOUN	_	21	flat	_	TokenRange=156:160
+24	3	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=161:162
+25	denuncias	_	NOUN	NOUN	_	21	appos	_	TokenRange=163:172
+26	outras	_	DET	DET	_	28	det	_	TokenRange=173:179
+27	duas	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=180:184
+28	denuncias	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=185:194
+29	provenientes	proveniente	ADJ	ADJ	_	28	amod	_	TokenRange=195:207
+30	operacoes	_	NOUN	NOUN	_	28	appos	_	TokenRange=208:217
+31	zelotes	zelote	NOUN	NOUN	_	30	appos	_	TokenRange=218:225
+32	janus	_	NOUN	NOUN	_	31	flat	_	TokenRange=226:231
+33	agora	agora	ADV	ADV	_	35	advmod	_	TokenRange=232:237
+34	expresidente	expresidente	NOUN	NOUN	_	35	nsubj	_	TokenRange=238:250
+35	tenta	tentar	VERB	VERB	_	2	parataxis	_	TokenRange=251:256
+36	montar	montar	VERB	VERB	_	35	xcomp	_	TokenRange=257:263
+37	teoria	teoria	NOUN	NOUN	_	36	obj	_	TokenRange=264:270
+38	conspiracao	conspiracao	NOUN	NOUN	_	37	appos	_	TokenRange=271:282
+39	provar	provar	VERB	VERB	_	37	acl:inf	_	TokenRange=283:289
+40	tese	tese	NOUN	NOUN	_	39	obj	_	TokenRange=290:294
+41	perseguicao	perseguicao	NOUN	NOUN	_	39	obj	_	TokenRange=295:306
+42	politica	_	ADJ	ADJ	_	41	amod	_	TokenRange=307:315
+43	voltamos	voltar	AUX	AUX	_	44	aux	_	TokenRange=316:324
+44	alertar	alertar	VERB	VERB	_	39	ccomp	_	TokenRange=325:332
+45	justica	_	NOUN	NOUN	_	46	obj	_	TokenRange=333:340
+46	prender	prender	VERB	VERB	_	44	ccomp	_	TokenRange=341:348
+47	passaporte	passaporte	NOUN	NOUN	_	46	obj	_	TokenRange=349:359
+48	desse	_	ADP	ADP	_	49	case	_	TokenRange=360:365
+49	cidadao	cidadao	NOUN	NOUN	_	47	nmod	_	TokenRange=366:373
+50	vai	ir	AUX	AUX	_	51	aux	_	TokenRange=374:377
+51	fugir	fugir	VERB	VERB	_	36	conj	_	TokenRange=378:383
+52	pais	_	NOUN	NOUN	_	51	obj	_	SpaceAfter=No|TokenRange=384:388
+

@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = risco registro urbano febre amarela pequeno dizem especialistas tipo doenca visto desde 1942 exigiria ainda mosquitos muitos contaminados insetos preparados paulo aumento casos febre amarela pessoas contaminando franjas matas regioes metropolitanas paulo rio janeiro belo horizonte reacende velho medo surge cada novo ciclo febre amarela pode voltar doenca urbana possibilidade existe pequena defendem especialistas ouvidos estado base pesquisas sobre
+1	risco	risco	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:5
+2	registro	registro	NOUN	NOUN	_	1	appos	_	TokenRange=6:14
+3	urbano	urbano	ADJ	ADJ	_	2	amod	_	TokenRange=15:21
+4	febre	febre	NOUN	NOUN	_	1	appos	_	TokenRange=22:27
+5	amarela	amarelo	ADJ	ADJ	_	4	amod	_	TokenRange=28:35
+6	pequeno	pequeno	ADJ	ADJ	_	4	amod	_	TokenRange=36:43
+7	dizem	dizer	VERB	VERB	_	0	root	_	TokenRange=44:49
+8	especialistas	especialista	NOUN	NOUN	_	7	obj	_	TokenRange=50:63
+9	tipo	tipo	NOUN	NOUN	_	8	appos	_	TokenRange=64:68
+10	doenca	doenca	NOUN	NOUN	_	9	flat	_	TokenRange=69:75
+11	visto	_	VERB	VERB	_	9	acl	_	TokenRange=76:81
+12	desde	_	ADP	ADP	_	13	case	_	TokenRange=82:87
+13	1942	_	NUM	NUM	NumType=Card	11	nmod	_	TokenRange=88:92
+14	exigiria	exigir	VERB	VERB	_	7	ccomp	_	TokenRange=93:101
+15	ainda	ainda	ADV	ADV	_	14	advmod	_	TokenRange=102:107
+16	mosquitos	mosquito	NOUN	NOUN	_	14	obj	_	TokenRange=108:117
+17	muitos	_	DET	DET	_	19	det	_	TokenRange=118:124
+18	contaminados	contaminado	ADJ	ADJ	_	19	amod	_	TokenRange=125:137
+19	insetos	inseto	NOUN	NOUN	_	16	appos	_	TokenRange=138:145
+20	preparados	preparado	ADJ	ADJ	_	19	amod	_	TokenRange=146:156
+21	paulo	_	NOUN	NOUN	_	22	appos	_	TokenRange=157:162
+22	aumento	aumento	NOUN	NOUN	_	14	nmod	_	TokenRange=163:170
+23	casos	caso	NOUN	NOUN	_	22	appos	_	TokenRange=171:176
+24	febre	febre	NOUN	NOUN	_	22	appos	_	TokenRange=177:182
+25	amarela	amarelo	ADJ	ADJ	_	24	amod	_	TokenRange=183:190
+26	pessoas	pessoa	NOUN	NOUN	_	22	appos	_	TokenRange=191:198
+27	contaminando	contaminar	VERB	VERB	_	22	acl	_	TokenRange=199:211
+28	franjas	_	NOUN	NOUN	_	27	obj	_	TokenRange=212:219
+29	matas	mata	ADJ	ADJ	_	28	amod	_	TokenRange=220:225
+30	regioes	regioe	NOUN	NOUN	_	27	obj	_	TokenRange=226:233
+31	metropolitanas	metropolitano	ADJ	ADJ	_	30	amod	_	TokenRange=234:248
+32	paulo	_	NOUN	NOUN	_	30	appos	_	TokenRange=249:254
+33	rio	_	NOUN	NOUN	_	30	appos	_	TokenRange=255:258
+34	janeiro	_	PROPN	PNOUN	_	33	flat	_	TokenRange=259:266
+35	belo	belo	ADJ	ADJ	_	36	amod	_	TokenRange=267:271
+36	horizonte	horizonte	NOUN	NOUN	_	37	nsubj	_	TokenRange=272:281
+37	reacende	reacender	VERB	VERB	_	14	parataxis	_	TokenRange=282:290
+38	velho	velho	ADJ	ADJ	_	39	amod	_	TokenRange=291:296
+39	medo	medo	NOUN	NOUN	_	40	nsubj	_	TokenRange=297:301
+40	surge	surgir	VERB	VERB	_	37	parataxis	_	TokenRange=302:307
+41	cada	_	DET	DET	_	43	det	_	TokenRange=308:312
+42	novo	novo	ADJ	ADJ	_	43	amod	_	TokenRange=313:317
+43	ciclo	ciclo	NOUN	NOUN	_	40	nsubj	_	TokenRange=318:323
+44	febre	febre	NOUN	NOUN	_	47	nsubj	_	TokenRange=324:329
+45	amarela	amarelo	ADJ	ADJ	_	44	amod	_	TokenRange=330:337
+46	pode	_	AUX	AUX	_	47	aux	_	TokenRange=338:342
+47	voltar	voltar	VERB	VERB	_	40	csubj	_	TokenRange=343:349
+48	doenca	doenca	NOUN	NOUN	_	47	obj	_	TokenRange=350:356
+49	urbana	urbano	ADJ	ADJ	_	48	amod	_	TokenRange=357:363
+50	possibilidade	possibilidade	NOUN	NOUN	_	51	nsubj	_	TokenRange=364:377
+51	existe	existir	VERB	VERB	_	40	parataxis	_	TokenRange=378:384
+52	pequena	pequeno	ADJ	ADJ	_	51	xcomp	_	TokenRange=385:392
+53	defendem	defender	VERB	VERB	_	51	parataxis	_	TokenRange=393:401
+54	especialistas	especialista	NOUN	NOUN	_	53	nsubj	_	TokenRange=402:415
+55	ouvidos	ouvir	ADJ	ADJ	_	56	amod	_	TokenRange=416:423
+56	estado	estado	NOUN	NOUN	_	54	appos	_	TokenRange=424:430
+57	base	base	NOUN	NOUN	_	56	flat	_	TokenRange=431:435
+58	pesquisas	pesquisa	NOUN	NOUN	_	53	obj	_	TokenRange=436:445
+59	sobre	_	ADP	ADP	_	53	mark	_	SpaceAfter=No|TokenRange=446:451
+

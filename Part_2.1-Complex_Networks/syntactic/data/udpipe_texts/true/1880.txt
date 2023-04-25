@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senado inicia discussao projeto sobre abuso autoridade proposta apresentada presidente senado renan calheiros estabelece punicoes juizes procuradores plenario senado comecou discutir noite desta quartafeira 14 projeto endurece punicoes casos abuso autoridade proposta apresentada presidente senado renan calheiros pmdbal revoga legislacao vigente estabelece novas punicoes juizes procuradores
+1	senado	senado	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	inicia	iniciar	VERB	VERB	_	0	root	_	TokenRange=7:13
+3	discussao	discussao	NOUN	NOUN	_	2	obj	_	TokenRange=14:23
+4	projeto	projeto	NOUN	NOUN	_	3	appos	_	TokenRange=24:31
+5	sobre	_	ADP	ADP	_	6	case	_	TokenRange=32:37
+6	abuso	abuso	NOUN	NOUN	_	3	nmod	_	TokenRange=38:43
+7	autoridade	autoridade	NOUN	NOUN	_	6	flat	_	TokenRange=44:54
+8	proposta	_	ADJ	ADJ	_	10	amod	_	TokenRange=55:63
+9	apresentada	apresentar	VERB	VERB	_	10	acl	_	TokenRange=64:75
+10	presidente	presidente	NOUN	NOUN	_	14	nsubj	_	TokenRange=76:86
+11	senado	senado	ADJ	ADJ	_	10	amod	_	TokenRange=87:93
+12	renan	renan	NOUN	NOUN	_	14	nsubj	_	TokenRange=94:99
+13	calheiros	calheiro	NOUN	NOUN	_	12	flat	_	TokenRange=100:109
+14	estabelece	estabelecer	VERB	VERB	_	2	parataxis	_	TokenRange=110:120
+15	punicoes	_	NOUN	NOUN	_	14	obj	_	TokenRange=121:129
+16	juizes	_	NOUN	NOUN	_	15	appos	_	TokenRange=130:136
+17	procuradores	procurador	NOUN	NOUN	_	16	amod	_	TokenRange=137:149
+18	plenario	plenario	ADJ	ADJ	_	19	amod	_	TokenRange=150:158
+19	senado	senado	NOUN	NOUN	_	14	nsubj	_	TokenRange=159:165
+20	comecou	comecar	AUX	AUX	_	21	aux	_	TokenRange=166:173
+21	discutir	discutir	VERB	VERB	_	14	parataxis	_	TokenRange=174:182
+22	noite	noite	NOUN	NOUN	_	21	obj	_	TokenRange=183:188
+23	desta	_	ADP	ADP	_	24	case	_	TokenRange=189:194
+24	quartafeira	_	NOUN	NOUN	_	22	nmod	_	TokenRange=195:206
+25	14	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=207:209
+26	projeto	projeto	NOUN	NOUN	_	27	nsubj	_	TokenRange=210:217
+27	endurece	endurecer	VERB	VERB	_	21	parataxis	_	TokenRange=218:226
+28	punicoes	_	NOUN	NOUN	_	27	obj	_	TokenRange=227:235
+29	casos	caso	NOUN	NOUN	_	28	appos	_	TokenRange=236:241
+30	abuso	abuso	ADJ	ADJ	_	31	amod	_	TokenRange=242:247
+31	autoridade	autoridade	NOUN	NOUN	_	28	appos	_	TokenRange=248:258
+32	proposta	_	ADJ	ADJ	_	31	amod	_	TokenRange=259:267
+33	apresentada	apresentar	VERB	VERB	_	34	acl	_	TokenRange=268:279
+34	presidente	presidente	NOUN	NOUN	_	39	nsubj	_	TokenRange=280:290
+35	senado	senado	ADJ	ADJ	_	34	amod	_	TokenRange=291:297
+36	renan	renan	NOUN	NOUN	_	34	appos	_	TokenRange=298:303
+37	calheiros	calheiro	NOUN	NOUN	_	34	appos	_	TokenRange=304:313
+38	pmdbal	_	ADJ	ADJ	_	34	amod	_	TokenRange=314:320
+39	revoga	revogar	VERB	VERB	_	2	parataxis	_	TokenRange=321:327
+40	legislacao	legislacao	NOUN	NOUN	_	39	obj	_	TokenRange=328:338
+41	vigente	vigente	ADJ	ADJ	_	40	amod	_	TokenRange=339:346
+42	estabelece	estabelecer	VERB	VERB	_	39	parataxis	_	TokenRange=347:357
+43	novas	novo	ADJ	ADJ	_	44	amod	_	TokenRange=358:363
+44	punicoes	_	NOUN	NOUN	_	42	obj	_	TokenRange=364:372
+45	juizes	juiz	NOUN	NOUN	_	44	appos	_	TokenRange=373:379
+46	procuradores	procurador	ADJ	ADJ	_	45	amod	_	SpaceAfter=No|TokenRange=380:392
+

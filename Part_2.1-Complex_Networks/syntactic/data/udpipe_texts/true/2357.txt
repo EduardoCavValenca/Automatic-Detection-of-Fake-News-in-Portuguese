@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo federal decide decretar intervencao seguranca publica rj decreto publicado nesta sextafeira 16 segundo presidente senado eunicio oliveira decisao tomada meio escalada violencia capital carioca presidente michel temer decidiu decretar intervencao seguranca publica estado rio janeiro decreto deve assinado inicio tarde desta sextafeira 16 medida forcas armadas assumem responsabilidade comando policias civil militar estado rio
+1	governo	governo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	federal	federal	ADJ	ADJ	_	1	amod	_	TokenRange=8:15
+3	decide	decidir	VERB	VERB	_	0	root	_	TokenRange=16:22
+4	decretar	decretar	VERB	VERB	_	3	xcomp	_	TokenRange=23:31
+5	intervencao	intervencao	NOUN	NOUN	_	4	obj	_	TokenRange=32:43
+6	seguranca	_	NOUN	NOUN	_	5	amod	_	TokenRange=44:53
+7	publica	publico	ADJ	ADJ	_	5	amod	_	TokenRange=54:61
+8	rj	_	ADJ	NOUN	_	9	amod	_	TokenRange=62:64
+9	decreto	decreto	NOUN	NOUN	_	4	obj	_	TokenRange=65:72
+10	publicado	publicar	VERB	VERB	_	9	acl	_	TokenRange=73:82
+11	nesta	_	ADP	ADP	_	12	case	_	TokenRange=83:88
+12	sextafeira	sextafeira	NOUN	NOUN	_	10	nmod	_	TokenRange=89:99
+13	16	_	NUM	NUM	NumType=Card	12	nmod	_	TokenRange=100:102
+14	segundo	_	ADP	ADP	_	15	case	_	TokenRange=103:110
+15	presidente	presidente	NOUN	NOUN	_	10	nmod	_	TokenRange=111:121
+16	senado	senado	ADJ	ADJ	_	15	amod	_	TokenRange=122:128
+17	eunicio	_	NOUN	NOUN	_	15	appos	_	TokenRange=129:136
+18	oliveira	oliveira	ADJ	NOUN	_	17	flat	_	TokenRange=137:145
+19	decisao	decisao	NOUN	NOUN	_	15	appos	_	TokenRange=146:153
+20	tomada	tomar	VERB	VERB	_	19	acl	_	TokenRange=154:160
+21	meio	meio	NOUN	NOUN	_	20	advmod	_	TokenRange=161:165
+22	escalada	escalado	ADJ	ADJ	_	23	amod	_	TokenRange=166:174
+23	violencia	violencia	NOUN	NOUN	_	21	appos	_	TokenRange=175:184
+24	capital	capital	NOUN	NOUN	_	23	appos	_	TokenRange=185:192
+25	carioca	carioca	ADJ	ADJ	_	26	amod	_	TokenRange=193:200
+26	presidente	presidente	NOUN	NOUN	_	29	nsubj	_	TokenRange=201:211
+27	michel	michel	ADJ	ADJ	_	26	amod	_	TokenRange=212:218
+28	temer	temer	NOUN	NOUN	_	26	appos	_	TokenRange=219:224
+29	decidiu	decidir	VERB	VERB	_	3	parataxis	_	TokenRange=225:232
+30	decretar	decretar	VERB	VERB	_	29	xcomp	_	TokenRange=233:241
+31	intervencao	intervencao	NOUN	NOUN	_	30	obj	_	TokenRange=242:253
+32	seguranca	_	NOUN	NOUN	_	31	amod	_	TokenRange=254:263
+33	publica	publico	ADJ	ADJ	_	31	amod	_	TokenRange=264:271
+34	estado	estado	NOUN	NOUN	_	31	appos	_	TokenRange=272:278
+35	rio	rio	ADJ	ADJ	_	34	amod	_	TokenRange=279:282
+36	janeiro	_	PROPN	PNOUN	_	34	amod	_	TokenRange=283:290
+37	decreto	decreto	NOUN	NOUN	_	39	nsubj	_	TokenRange=291:298
+38	deve	dever	AUX	AUX	_	39	aux	_	TokenRange=299:303
+39	assinado	assinar	VERB	VERB	_	29	parataxis	_	TokenRange=304:312
+40	inicio	_	NOUN	NOUN	_	39	obj	_	TokenRange=313:319
+41	tarde	tarde	NOUN	NOUN	_	40	advmod	_	TokenRange=320:325
+42	desta	_	ADP	ADP	_	43	case	_	TokenRange=326:331
+43	sextafeira	sextafeira	NOUN	NOUN	_	40	nmod	_	TokenRange=332:342
+44	16	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=343:345
+45	medida	medida	NOUN	NOUN	_	48	nsubj	_	TokenRange=346:352
+46	forcas	forca	NOUN	NOUN	_	48	nsubj	_	TokenRange=353:359
+47	armadas	armado	ADJ	ADJ	_	46	amod	_	TokenRange=360:367
+48	assumem	assumir	VERB	VERB	_	39	parataxis	_	TokenRange=368:375
+49	responsabilidade	responsabilidade	NOUN	NOUN	_	48	obj	_	TokenRange=376:392
+50	comando	comando	NOUN	NOUN	_	48	parataxis	_	TokenRange=393:400
+51	policias	policia	NOUN	NOUN	_	48	obj	_	TokenRange=401:409
+52	civil	civil	ADJ	ADJ	_	51	amod	_	TokenRange=410:415
+53	militar	militar	ADJ	ADJ	_	51	amod	_	TokenRange=416:423
+54	estado	estado	NOUN	NOUN	_	51	appos	_	TokenRange=424:430
+55	rio	rio	ADJ	ADJ	_	54	appos	_	SpaceAfter=No|TokenRange=431:434
+

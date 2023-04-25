@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria anuncia boni beltrame uip conselheiros prefeitura sp trio vai presidir conselhos secretarias cultura seguranca saude respectivamente prefeito eleito anunciou ultimos secretarios nesta quinta prefeito eleito paulo joao doria psdb anunciou nesta quintafeira 24 nome oito especialistas vao presidir conselhos gestores pretende implementar cada 22 secretarias municipais publicitario diretor televisao jose bonifacio oliveira sobrinho boni
+1	doria	doria	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	anuncia	anunciar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	boni	_	NOUN	NOUN	_	2	obj	_	TokenRange=14:18
+4	beltrame	_	NOUN	NOUN	_	3	flat	_	TokenRange=19:27
+5	uip	_	NOUN	NOUN	_	3	appos	_	TokenRange=28:31
+6	conselheiros	conselheiro	NOUN	NOUN	_	3	flat	_	TokenRange=32:44
+7	prefeitura	prefeitura	NOUN	NOUN	_	3	flat	_	TokenRange=45:55
+8	sp	_	ADJ	ADJ	_	9	amod	_	TokenRange=56:58
+9	trio	trio	NOUN	NOUN	_	11	nsubj	_	TokenRange=59:63
+10	vai	ir	AUX	AUX	_	11	aux	_	TokenRange=64:67
+11	presidir	presidir	VERB	VERB	_	2	parataxis	_	TokenRange=68:76
+12	conselhos	conselho	NOUN	NOUN	_	11	obj	_	TokenRange=77:86
+13	secretarias	secretaria	NOUN	NOUN	_	12	appos	_	TokenRange=87:98
+14	cultura	cultura	NOUN	NOUN	_	12	appos	_	TokenRange=99:106
+15	seguranca	_	NOUN	NOUN	_	14	appos	_	TokenRange=107:116
+16	saude	saude	NOUN	NOUN	_	13	appos	_	TokenRange=117:122
+17	respectivamente	respectivamente	ADV	ADV	_	20	advmod	_	TokenRange=123:138
+18	prefeito	prefeito	NOUN	NOUN	_	20	nsubj	_	TokenRange=139:147
+19	eleito	eleito	ADJ	ADJ	_	18	amod	_	TokenRange=148:154
+20	anunciou	anunciar	VERB	VERB	_	2	parataxis	_	TokenRange=155:163
+21	ultimos	ultimo	ADJ	ADJ	_	22	amod	_	TokenRange=164:171
+22	secretarios	secretario	NOUN	NOUN	_	20	obj	_	TokenRange=172:183
+23	nesta	_	ADP	ADP	_	25	case	_	TokenRange=184:189
+24	quinta	_	ADJ	ADJ	_	25	amod	_	TokenRange=190:196
+25	prefeito	prefeito	NOUN	NOUN	_	20	nmod	_	TokenRange=197:205
+26	eleito	eleito	ADJ	ADJ	_	25	amod	_	TokenRange=206:212
+27	paulo	paulo	NOUN	NOUN	_	25	appos	_	TokenRange=213:218
+28	joao	joao	NOUN	NOUN	_	27	flat	_	TokenRange=219:223
+29	doria	doria	NOUN	NOUN	_	27	flat	_	TokenRange=224:229
+30	psdb	_	PROPN	PNOUN	_	27	appos	_	TokenRange=230:234
+31	anunciou	anunciar	VERB	VERB	_	20	conj	_	TokenRange=235:243
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=244:249
+33	quintafeira	quintafeira	NOUN	NOUN	_	31	nmod	_	TokenRange=250:261
+34	24	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=262:264
+35	nome	nome	NOUN	NOUN	_	39	obj	_	TokenRange=265:269
+36	oito	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=270:274
+37	especialistas	especialista	NOUN	NOUN	_	39	nsubj	_	TokenRange=275:288
+38	vao	ir	AUX	AUX	_	39	aux	_	TokenRange=289:292
+39	presidir	presidir	VERB	VERB	_	31	ccomp	_	TokenRange=293:301
+40	conselhos	conselho	NOUN	NOUN	_	39	obj	_	TokenRange=302:311
+41	gestores	gestor	ADJ	ADJ	_	40	amod	_	TokenRange=312:320
+42	pretende	pretender	VERB	VERB	_	39	parataxis	_	TokenRange=321:329
+43	implementar	implementar	VERB	VERB	_	42	xcomp	_	TokenRange=330:341
+44	cada	_	DET	DET	_	46	det	_	TokenRange=342:346
+45	22	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=347:349
+46	secretarias	secretaria	NOUN	NOUN	_	43	obj	_	TokenRange=350:361
+47	municipais	municipal	ADJ	ADJ	_	46	amod	_	TokenRange=362:372
+48	publicitario	publicitario	ADJ	ADJ	_	46	amod	_	TokenRange=373:385
+49	diretor	diretor	NOUN	NOUN	_	46	appos	_	TokenRange=386:393
+50	televisao	televisao	ADJ	ADJ	_	49	amod	_	TokenRange=394:403
+51	jose	jose	NOUN	NOUN	_	46	appos	_	TokenRange=404:408
+52	bonifacio	_	NOUN	NOUN	_	51	flat	_	TokenRange=409:418
+53	oliveira	oliveira	ADJ	ADJ	_	51	flat	_	TokenRange=419:427
+54	sobrinho	_	NOUN	NOUN	_	51	flat	_	TokenRange=428:436
+55	boni	boni	NOUN	NOUN	_	51	flat	_	SpaceAfter=No|TokenRange=437:441
+

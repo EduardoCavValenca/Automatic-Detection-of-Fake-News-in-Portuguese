@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pais falta aviao fab perdeuse vida crianca precisava fazer transplante coracao gabriel 12 anos internado unidade terapia intensiva uti hospital brasilia espera transplante brasilia fila espera surgiu oportunidade unica vida conseguiu transportado acabou morrendo infelizmente enquanto relembramos fato senador renan calheiros usado aviao fab cheio combustivel claro tratamento estetico nordeste materia globo link materia folha link
+1	pais	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:4
+2	falta	_	NOUN	NOUN	_	1	appos	_	TokenRange=5:10
+3	aviao	aviao	NOUN	NOUN	_	8	nsubj	_	TokenRange=11:16
+4	fab	_	NOUN	NOUN	_	3	flat	_	TokenRange=17:20
+5	perdeuse	_	VERB	VERB	_	3	acl:relcl	_	TokenRange=21:29
+6	vida	vida	NOUN	NOUN	_	5	obj	_	TokenRange=30:34
+7	crianca	crianco	ADJ	ADJ	_	6	amod	_	TokenRange=35:42
+8	precisava	precisar	VERB	VERB	_	0	root	_	TokenRange=43:52
+9	fazer	fazer	VERB	VERB	_	8	xcomp	_	TokenRange=53:58
+10	transplante	transplante	NOUN	NOUN	_	9	obj	_	TokenRange=59:70
+11	coracao	coracao	NOUN	NOUN	_	10	appos	_	TokenRange=71:78
+12	gabriel	gabriel	NOUN	NOUN	_	11	flat	_	TokenRange=79:86
+13	12	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=87:89
+14	anos	ano	NOUN	NOUN	_	9	nmod	_	TokenRange=90:94
+15	internado	internado	ADJ	ADJ	_	16	amod	_	TokenRange=95:104
+16	unidade	unidade	NOUN	NOUN	_	8	nsubj	_	TokenRange=105:112
+17	terapia	terapia	NOUN	NOUN	_	16	appos	_	TokenRange=113:120
+18	intensiva	intensivo	ADJ	ADJ	_	17	amod	_	TokenRange=121:130
+19	uti	_	NOUN	NOUN	_	20	appos	_	TokenRange=131:134
+20	hospital	hospital	NOUN	NOUN	_	16	appos	_	TokenRange=135:143
+21	brasilia	brasilia	ADJ	ADJ	_	20	amod	_	TokenRange=144:152
+22	espera	espera	NOUN	NOUN	_	20	appos	_	TokenRange=153:159
+23	transplante	transplante	NOUN	NOUN	_	20	appos	_	TokenRange=160:171
+24	brasilia	brasilia	ADJ	ADJ	_	25	amod	_	TokenRange=172:180
+25	fila	fila	NOUN	NOUN	_	20	appos	_	TokenRange=181:185
+26	espera	espera	NOUN	NOUN	_	25	flat	_	TokenRange=186:192
+27	surgiu	surgir	VERB	VERB	_	25	acl:relcl	_	TokenRange=193:199
+28	oportunidade	oportunidade	NOUN	NOUN	_	27	obj	_	TokenRange=200:212
+29	unica	unico	ADJ	ADJ	_	30	amod	_	TokenRange=213:218
+30	vida	vida	NOUN	NOUN	_	31	nsubj	_	TokenRange=219:223
+31	conseguiu	conseguir	VERB	VERB	_	8	parataxis	_	TokenRange=224:233
+32	transportado	_	ADJ	NOUN	_	31	xcomp	_	TokenRange=234:246
+33	acabou	acabar	AUX	AUX	_	34	aux	_	TokenRange=247:253
+34	morrendo	morrer	VERB	VERB	_	8	parataxis	_	TokenRange=254:262
+35	infelizmente	infelizmente	ADV	ADV	_	34	advmod	_	TokenRange=263:275
+36	enquanto	_	CCONJ	CONJ	_	37	mark	_	TokenRange=276:284
+37	relembramos	relembrar	VERB	VERB	_	34	advcl	_	TokenRange=285:296
+38	fato	fato	NOUN	NOUN	_	37	obj	_	TokenRange=297:301
+39	senador	senador	NOUN	NOUN	_	38	appos	_	TokenRange=302:309
+40	renan	_	NOUN	NOUN	_	39	appos	_	TokenRange=310:315
+41	calheiros	calheiro	NOUN	NOUN	_	39	flat	_	TokenRange=316:325
+42	usado	usar	VERB	VERB	_	43	acl	_	TokenRange=326:331
+43	aviao	aviao	NOUN	NOUN	_	39	appos	_	TokenRange=332:337
+44	fab	_	NOUN	NOUN	_	43	flat	_	TokenRange=338:341
+45	cheio	cheio	ADJ	ADJ	_	48	amod	_	TokenRange=342:347
+46	combustivel	combustivel	ADJ	ADJ	_	43	amod	_	TokenRange=348:359
+47	claro	claro	ADJ	ADJ	_	48	amod	_	TokenRange=360:365
+48	tratamento	tratamento	NOUN	NOUN	_	46	appos	_	TokenRange=366:376
+49	estetico	estetico	ADJ	ADJ	_	48	amod	_	TokenRange=377:385
+50	nordeste	nordeste	ADJ	ADJ	_	48	amod	_	TokenRange=386:394
+51	materia	materia	NOUN	NOUN	_	48	appos	_	TokenRange=395:402
+52	globo	globo	NOUN	NOUN	_	51	flat	_	TokenRange=403:408
+53	link	link	ADJ	ADJ	_	51	amod	_	TokenRange=409:413
+54	materia	materia	NOUN	NOUN	_	51	appos	_	TokenRange=414:421
+55	folha	folha	NOUN	NOUN	_	51	appos	_	TokenRange=422:427
+56	link	link	NOUN	NOUN	_	55	flat	_	SpaceAfter=No|TokenRange=428:432
+

@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acordo delacao premiada jbs beneficios outros criterios usados entenda irmaos donos jbs receberam imunidade total troca informacoes sobre esquema criminoso presos compare delacao outros lava jato acordo delacao premiada grupo jf feito donos jbs joesley wesley batista outros cinco delatores preve imunidade total irmaos vao responder criminalmente esquema propinas revelaram procuradores republica dez anos pagar multa r 225 milhoes termos sido classificados beneficos comparacao acordados outros delatores operacao lava jato segundo especialistas beneficios concedidos delata pares esquema criminoso dependem criterios previstos lei analise cada caso
+1	acordo	acordo	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:6
+2	delacao	delacao	ADJ	ADJ	_	1	amod	_	TokenRange=7:14
+3	premiada	premiar	VERB	VERB	_	1	acl	_	TokenRange=15:23
+4	jbs	_	X	X	_	5	appos	_	TokenRange=24:27
+5	beneficios	_	NOUN	NOUN	_	1	appos	_	TokenRange=28:38
+6	outros	_	DET	DET	_	7	det	_	TokenRange=39:45
+7	criterios	criterio	NOUN	NOUN	_	3	nsubj	_	TokenRange=46:55
+8	usados	usar	VERB	VERB	_	7	acl	_	TokenRange=56:62
+9	entenda	entender	VERB	VERB	_	0	root	_	TokenRange=63:70
+10	irmaos	irmao	NOUN	NOUN	_	9	obj	_	TokenRange=71:77
+11	donos	dono	NOUN	NOUN	_	10	amod	_	TokenRange=78:83
+12	jbs	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=84:87
+13	receberam	receber	VERB	VERB	_	1	acl:relcl	_	TokenRange=88:97
+14	imunidade	imunidade	NOUN	NOUN	_	13	obj	_	TokenRange=98:107
+15	total	total	ADJ	ADJ	_	14	amod	_	TokenRange=108:113
+16	troca	_	VERB	VERB	_	9	parataxis	_	TokenRange=114:119
+17	informacoes	informacoe	NOUN	NOUN	_	9	obj	_	TokenRange=120:131
+18	sobre	_	ADP	ADP	_	19	case	_	TokenRange=132:137
+19	esquema	esquema	NOUN	NOUN	_	17	nmod	_	TokenRange=138:145
+20	criminoso	criminoso	ADJ	ADJ	_	19	amod	_	TokenRange=146:155
+21	presos	preso	NOUN	NOUN	_	19	appos	_	TokenRange=156:162
+22	compare	_	VERB	VERB	_	9	parataxis	_	TokenRange=163:170
+23	delacao	_	NOUN	NOUN	_	22	obj	_	TokenRange=171:178
+24	outros	_	DET	DET	_	25	det	_	TokenRange=179:185
+25	lava	lava	NOUN	NOUN	_	22	obj	_	TokenRange=186:190
+26	jato	jato	NOUN	NOUN	_	25	flat	_	TokenRange=191:195
+27	acordo	acordo	NOUN	NOUN	_	22	nsubj	_	TokenRange=196:202
+28	delacao	delacao	ADJ	ADJ	_	27	amod	_	TokenRange=203:210
+29	premiada	premiado	ADJ	ADJ	_	27	amod	_	TokenRange=211:219
+30	grupo	grupo	NOUN	NOUN	_	27	appos	_	TokenRange=220:225
+31	jf	_	NOUN	NOUN	_	30	flat	_	TokenRange=226:228
+32	feito	_	VERB	VERB	_	30	acl	_	TokenRange=229:234
+33	donos	dono	NOUN	NOUN	_	32	obj	_	TokenRange=235:240
+34	jbs	_	NOUN	NOUN	_	33	appos	_	TokenRange=241:244
+35	joesley	_	NOUN	NOUN	_	33	appos	_	TokenRange=245:252
+36	wesley	_	NOUN	NOUN	_	34	flat	_	TokenRange=253:259
+37	batista	batista	ADJ	ADJ	_	35	flat	_	TokenRange=260:267
+38	outros	_	DET	DET	_	40	det	_	TokenRange=268:274
+39	cinco	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=275:280
+40	delatores	delator	NOUN	NOUN	_	46	nsubj	_	TokenRange=281:290
+41	preve	_	VERB	VERB	_	46	parataxis	_	TokenRange=291:296
+42	imunidade	imunidade	NOUN	NOUN	_	41	obj	_	TokenRange=297:306
+43	total	total	ADJ	ADJ	_	42	amod	_	TokenRange=307:312
+44	irmaos	irmao	NOUN	NOUN	_	46	nsubj	_	TokenRange=313:319
+45	vao	ir	AUX	AUX	_	46	aux	_	TokenRange=320:323
+46	responder	responder	VERB	VERB	_	9	parataxis	_	TokenRange=324:333
+47	criminalmente	criminalmente	ADV	ADV	_	46	advmod	_	TokenRange=334:347
+48	esquema	esquema	NOUN	NOUN	_	46	obj	_	TokenRange=348:355
+49	propinas	propina	NOUN	NOUN	_	48	flat	_	TokenRange=356:364
+50	revelaram	revelar	VERB	VERB	_	46	parataxis	_	TokenRange=365:374
+51	procuradores	procurador	NOUN	NOUN	_	50	obj	_	TokenRange=375:387
+52	republica	_	ADJ	ADJ	_	48	amod	_	TokenRange=388:397
+53	dez	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=398:401
+54	anos	ano	NOUN	NOUN	_	55	nmod	_	TokenRange=402:406
+55	pagar	pagar	VERB	VERB	_	46	ccomp	_	TokenRange=407:412
+56	multa	multa	NOUN	NOUN	_	55	obj	_	TokenRange=413:418
+57	r	r	NOUN	NOUN	_	56	appos	_	TokenRange=419:420
+58	225	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=421:424
+59	milhoes	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=425:432
+60	termos	termo	NOUN	NOUN	_	55	nsubj	_	TokenRange=433:439
+61	sido	ser	AUX	AUX	_	62	aux:pass	_	TokenRange=440:444
+62	classificados	classificar	VERB	VERB	_	56	acl	_	TokenRange=445:458
+63	beneficos	benefico	ADJ	ADJ	_	62	xcomp	_	TokenRange=459:468
+64	comparacao	_	AUX	VERB	_	79	mark	_	TokenRange=469:479
+65	acordados	acordar	VERB	VERB	_	67	acl	_	TokenRange=480:489
+66	outros	_	DET	DET	_	67	det	_	TokenRange=490:496
+67	delatores	delator	NOUN	NOUN	_	79	nsubj	_	TokenRange=497:506
+68	operacao	operacao	ADJ	ADJ	_	67	amod	_	TokenRange=507:515
+69	lava	lava	NOUN	NOUN	_	67	appos	_	TokenRange=516:520
+70	jato	jato	NOUN	NOUN	_	69	flat	_	TokenRange=521:525
+71	segundo	_	ADP	ADP	_	72	case	_	TokenRange=526:533
+72	especialistas	especialista	NOUN	NOUN	_	79	nmod	_	TokenRange=534:547
+73	beneficios	beneficio	NOUN	NOUN	_	72	flat	_	TokenRange=548:558
+74	concedidos	conceder	VERB	VERB	_	72	acl	_	TokenRange=559:569
+75	delata	_	ADP	ADP	_	77	case	_	TokenRange=570:576
+76	pares	par	ADJ	ADJ	_	77	amod	_	TokenRange=577:582
+77	esquema	esquema	NOUN	NOUN	_	74	obj	_	TokenRange=583:590
+78	criminoso	criminoso	ADJ	ADJ	_	77	amod	_	TokenRange=591:600
+79	dependem	depender	VERB	VERB	_	50	parataxis	_	TokenRange=601:609
+80	criterios	criterio	NOUN	NOUN	_	79	nsubj	_	TokenRange=610:619
+81	previstos	prever	VERB	VERB	_	80	acl	_	TokenRange=620:629
+82	lei	lei	NOUN	NOUN	_	81	nsubj	_	TokenRange=630:633
+83	analise	analise	NOUN	NOUN	_	80	flat	_	TokenRange=634:641
+84	cada	_	DET	DET	_	85	det	_	TokenRange=642:646
+85	caso	caso	NOUN	NOUN	_	79	obj	_	SpaceAfter=No|TokenRange=647:651
+

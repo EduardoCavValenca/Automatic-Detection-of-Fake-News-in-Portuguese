@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogado cristiano zanin martins entregou nesta sextafeira 26 policia federal paulo passaporte expresidente luiz inacio lula silva criminalista chegou superintendencia pf 10h25 ficou cerca 1 hora local entrega passaporte cumprindo decisao brasilia entendemos indevida restricao direito ir vir expresidente lula justifica porque baseado processo sob jurisdicao
+1	advogado	advogado	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	cristiano	cristiano	ADJ	ADJ	_	1	amod	_	TokenRange=9:18
+3	zanin	_	NOUN	NOUN	_	1	appos	_	TokenRange=19:24
+4	martins	_	ADJ	ADJ	_	3	flat	_	TokenRange=25:32
+5	entregou	entregar	VERB	VERB	_	0	root	_	TokenRange=33:41
+6	nesta	_	ADP	ADP	_	7	case	_	TokenRange=42:47
+7	sextafeira	sextafeira	NOUN	NOUN	_	5	nmod	_	TokenRange=48:58
+8	26	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=59:61
+9	policia	policia	NOUN	NOUN	_	5	obj	_	TokenRange=62:69
+10	federal	federal	ADJ	ADJ	_	9	amod	_	TokenRange=70:77
+11	paulo	paulo	NOUN	NOUN	_	9	appos	_	TokenRange=78:83
+12	passaporte	passaporte	NOUN	NOUN	_	9	appos	_	TokenRange=84:94
+13	expresidente	expresidente	NOUN	NOUN	_	9	appos	_	TokenRange=95:107
+14	luiz	luiz	ADJ	ADJ	_	13	amod	_	TokenRange=108:112
+15	inacio	_	NOUN	NOUN	_	14	flat	_	TokenRange=113:119
+16	lula	_	NOUN	NOUN	_	14	flat	_	TokenRange=120:124
+17	silva	silva	NOUN	NOUN	_	14	flat	_	TokenRange=125:130
+18	criminalista	criminalista	ADJ	ADJ	_	19	nsubj	_	TokenRange=131:143
+19	chegou	chegar	VERB	VERB	_	5	conj	_	TokenRange=144:150
+20	superintendencia	superintendencia	NOUN	NOUN	_	19	obj	_	TokenRange=151:167
+21	pf	_	NOUN	NOUN	_	20	appos	_	TokenRange=168:170
+22	10h25	_	NUM	NUM	NumType=Card	20	appos	_	TokenRange=171:176
+23	ficou	ficar	VERB	VERB	_	19	parataxis	_	TokenRange=177:182
+24	cerca	cerca	ADV	ADV	_	25	advmod	_	TokenRange=183:188
+25	1	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=189:190
+26	hora	hora	NOUN	NOUN	_	23	nmod	_	TokenRange=191:195
+27	local	local	ADJ	ADJ	_	26	amod	_	TokenRange=196:201
+28	entrega	entrega	NOUN	NOUN	_	23	nsubj	_	TokenRange=202:209
+29	passaporte	passaporte	NOUN	NOUN	_	28	flat	_	TokenRange=210:220
+30	cumprindo	cumprir	VERB	VERB	_	28	acl	_	TokenRange=221:230
+31	decisao	decisao	NOUN	NOUN	_	30	obj	_	TokenRange=231:238
+32	brasilia	brasilia	NOUN	NOUN	_	31	amod	_	TokenRange=239:247
+33	entendemos	entender	VERB	VERB	_	23	parataxis	_	TokenRange=248:258
+34	indevida	indevido	ADJ	ADJ	_	33	xcomp	_	TokenRange=259:267
+35	restricao	restricao	ADJ	NOUN	_	33	obj	_	TokenRange=268:277
+36	direito	direito	NOUN	NOUN	_	33	nsubj	_	TokenRange=278:285
+37	ir	ir	AUX	AUX	_	41	aux	_	TokenRange=286:288
+38	vir	_	AUX	VERB	_	36	dep	_	TokenRange=289:292
+39	expresidente	expresidente	NOUN	NOUN	_	38	obj	_	TokenRange=293:305
+40	lula	lula	ADJ	ADJ	_	39	flat	_	TokenRange=306:310
+41	justifica	justificar	VERB	VERB	_	33	ccomp	_	TokenRange=311:320
+42	porque	_	CCONJ	CONJ	_	43	mark	_	TokenRange=321:327
+43	baseado	basear	VERB	VERB	_	41	advcl	_	TokenRange=328:335
+44	processo	processo	NOUN	NOUN	_	43	obj	_	TokenRange=336:344
+45	sob	_	ADP	ADP	_	46	case	_	TokenRange=345:348
+46	jurisdicao	jurisdicao	NOUN	NOUN	_	44	nmod	_	SpaceAfter=No|TokenRange=349:359
+

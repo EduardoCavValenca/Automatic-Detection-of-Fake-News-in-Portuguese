@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer admite possibilidade derrota reforma previdencia temer reconheceu principal reforma pais pode sequer votada governo resignado fez apelo parlamentares tentem votar conjunto pacote menos alguns pontos propostos planalto brasilia presidente republica michel temer admitiu nesta segundafeira6 primeira vez possibilidade derrota governo tentar aprovar
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	admite	admitir	VERB	VERB	_	0	root	_	TokenRange=6:12
+3	possibilidade	possibilidade	NOUN	NOUN	_	2	obj	_	TokenRange=13:26
+4	derrota	derrota	ADJ	ADJ	_	3	amod	_	TokenRange=27:34
+5	reforma	reforma	NOUN	NOUN	_	2	nsubj	_	TokenRange=35:42
+6	previdencia	_	ADJ	ADJ	_	5	amod	_	TokenRange=43:54
+7	temer	temer	NOUN	NOUN	_	8	nsubj	_	TokenRange=55:60
+8	reconheceu	reconhecer	VERB	VERB	_	2	ccomp	_	TokenRange=61:71
+9	principal	principal	ADJ	ADJ	_	10	amod	_	TokenRange=72:81
+10	reforma	reforma	NOUN	NOUN	_	8	obj	_	TokenRange=82:89
+11	pais	_	NOUN	NOUN	_	14	nsubj:pass	_	TokenRange=90:94
+12	pode	_	AUX	AUX	_	14	aux	_	TokenRange=95:99
+13	sequer	sequer	ADV	ADV	_	14	advmod	_	TokenRange=100:106
+14	votada	votar	VERB	VERB	_	8	advcl	_	TokenRange=107:113
+15	governo	governo	NOUN	NOUN	_	17	nsubj	_	TokenRange=114:121
+16	resignado	resignar	VERB	VERB	_	15	acl	_	TokenRange=122:131
+17	fez	fazer	VERB	VERB	_	8	conj	_	TokenRange=132:135
+18	apelo	apelo	NOUN	NOUN	_	17	obj	_	TokenRange=136:141
+19	parlamentares	parlamentar	ADJ	ADJ	_	18	amod	_	TokenRange=142:155
+20	tentem	tentar	VERB	VERB	_	17	ccomp	_	TokenRange=156:162
+21	votar	votar	VERB	VERB	_	20	xcomp	_	TokenRange=163:168
+22	conjunto	conjunto	NOUN	NOUN	_	21	obj	_	TokenRange=169:177
+23	pacote	pacote	NOUN	NOUN	_	22	flat	_	TokenRange=178:184
+24	menos	menos	ADV	ADV	_	26	advmod	_	TokenRange=185:190
+25	alguns	_	DET	DET	_	26	det	_	TokenRange=191:197
+26	pontos	ponto	NOUN	NOUN	_	22	appos	_	TokenRange=198:204
+27	propostos	propor	VERB	VERB	_	26	acl	_	TokenRange=205:214
+28	planalto	planalto	NOUN	NOUN	_	26	amod	_	TokenRange=215:223
+29	brasilia	brasilia	ADJ	ADJ	_	30	amod	_	TokenRange=224:232
+30	presidente	presidente	NOUN	NOUN	_	26	appos	_	TokenRange=233:243
+31	republica	republico	ADJ	ADJ	_	30	amod	_	TokenRange=244:253
+32	michel	_	DET	DET	_	33	amod	_	TokenRange=254:260
+33	temer	temer	NOUN	NOUN	_	34	nsubj	_	TokenRange=261:266
+34	admitiu	admitir	VERB	VERB	_	2	parataxis	_	TokenRange=267:274
+35	nesta	_	ADP	ADP	_	38	case	_	TokenRange=275:280
+36	segundafeira6	_	ADJ	ADJ	_	34	nmod	_	TokenRange=281:294
+37	primeira	primeiro	ADJ	ADJ	_	38	amod	_	TokenRange=295:303
+38	vez	vez	NOUN	NOUN	_	34	nmod	_	TokenRange=304:307
+39	possibilidade	possibilidade	NOUN	NOUN	_	34	obj	_	TokenRange=308:321
+40	derrota	derrota	ADJ	ADJ	_	39	amod	_	TokenRange=322:329
+41	governo	governo	NOUN	NOUN	_	42	nsubj	_	TokenRange=330:337
+42	tentar	tentar	VERB	VERB	_	34	ccomp	_	TokenRange=338:344
+43	aprovar	aprovar	VERB	VERB	_	42	xcomp	_	SpaceAfter=No|TokenRange=345:352
+

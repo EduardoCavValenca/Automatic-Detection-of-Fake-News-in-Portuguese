@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bh pastor evangelico tentou xavecar fiel casada deu mal video rodando whatsapp dando falar imagens mostram suposto pastor igreja evangelica marcado encontro fiel lugar reservado pois bem moca armou arapuca homem deus marcou tal encontro shopping belo horizonte mandou marido lugar video 500 mil visualizacoes reparem tamanho negao apareceu encontro reservado corrigido nome marido junior joao
+1	bh	_	X	ADJ	_	2	amod	_	TokenRange=0:2
+2	pastor	pastor	NOUN	NOUN	_	4	nsubj	_	TokenRange=3:9
+3	evangelico	evangelico	ADJ	ADJ	_	2	amod	_	TokenRange=10:20
+4	tentou	tentar	VERB	VERB	_	49	csubj	_	TokenRange=21:27
+5	xavecar	xavecar	VERB	VERB	_	4	xcomp	_	TokenRange=28:35
+6	fiel	fiel	ADJ	ADJ	_	7	amod	_	TokenRange=36:40
+7	casada	_	NOUN	NOUN	_	5	obj	_	TokenRange=41:47
+8	deu	dar	VERB	VERB	_	4	parataxis	_	TokenRange=48:51
+9	mal	mal	ADV	ADV	_	8	advmod	_	TokenRange=52:55
+10	video	video	NOUN	NOUN	_	8	obj	_	TokenRange=56:61
+11	rodando	rodar	VERB	VERB	_	10	acl	_	TokenRange=62:69
+12	whatsapp	_	NOUN	NOUN	_	11	obj	_	TokenRange=70:78
+13	dando	dar	VERB	VERB	_	10	acl	_	TokenRange=79:84
+14	falar	falar	VERB	VERB	_	11	xcomp	_	TokenRange=85:90
+15	imagens	imagem	NOUN	NOUN	_	14	obj	_	TokenRange=91:98
+16	mostram	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=99:106
+17	suposto	suposto	ADJ	ADJ	_	18	amod	_	TokenRange=107:114
+18	pastor	pastor	NOUN	NOUN	_	16	obj	_	TokenRange=115:121
+19	igreja	igreja	NOUN	NOUN	_	18	appos	_	TokenRange=122:128
+20	evangelica	evangelico	ADJ	ADJ	_	19	amod	_	TokenRange=129:139
+21	marcado	marcar	VERB	VERB	_	22	acl	_	TokenRange=140:147
+22	encontro	encontro	NOUN	NOUN	_	18	appos	_	TokenRange=148:156
+23	fiel	fiel	ADJ	ADJ	_	22	amod	_	TokenRange=157:161
+24	lugar	lugar	NOUN	NOUN	_	22	appos	_	TokenRange=162:167
+25	reservado	reservado	ADJ	ADJ	_	24	amod	_	TokenRange=168:177
+26	pois	_	CCONJ	CONJ	_	29	mark	_	TokenRange=178:182
+27	bem	bem	ADV	ADV	_	28	advmod	_	TokenRange=183:186
+28	moca	moco	ADJ	NOUN	_	29	nsubj	_	TokenRange=187:191
+29	armou	armar	VERB	VERB	_	16	advcl	_	TokenRange=192:197
+30	arapuca	arapuca	NOUN	NOUN	_	29	obj	_	TokenRange=198:205
+31	homem	homem	NOUN	NOUN	_	33	nsubj	_	TokenRange=206:211
+32	deus	deus	NOUN	NOUN	_	31	flat	_	TokenRange=212:216
+33	marcou	marcar	VERB	VERB	_	29	ccomp	_	TokenRange=217:223
+34	tal	_	DET	DET	_	35	det	_	TokenRange=224:227
+35	encontro	encontro	NOUN	NOUN	_	33	obj	_	TokenRange=228:236
+36	shopping	shopping	NOUN	NOUN	_	39	nmod	_	TokenRange=237:245
+37	belo	belo	ADJ	ADJ	_	38	amod	_	TokenRange=246:250
+38	horizonte	horizonte	NOUN	NOUN	_	39	nsubj	_	TokenRange=251:260
+39	mandou	mandar	VERB	VERB	_	33	conj	_	TokenRange=261:267
+40	marido	marido	NOUN	NOUN	_	39	obj	_	TokenRange=268:274
+41	lugar	lugar	NOUN	NOUN	_	39	obj	_	TokenRange=275:280
+42	video	video	ADJ	ADJ	_	41	amod	_	TokenRange=281:286
+43	500	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=287:290
+44	mil	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=291:294
+45	visualizacoes	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=295:308
+46	reparem	repar	VERB	VERB	_	39	parataxis	_	TokenRange=309:316
+47	tamanho	tamanho	NOUN	NOUN	_	46	obj	_	TokenRange=317:324
+48	negao	negao	ADJ	ADJ	_	47	amod	_	TokenRange=325:330
+49	apareceu	aparecer	VERB	VERB	_	0	root	_	TokenRange=331:339
+50	encontro	encontro	NOUN	NOUN	_	49	obj	_	TokenRange=340:348
+51	reservado	reservado	ADJ	ADJ	_	50	amod	_	TokenRange=349:358
+52	corrigido	corrigido	ADJ	ADJ	_	53	amod	_	TokenRange=359:368
+53	nome	nome	NOUN	NOUN	_	50	appos	_	TokenRange=369:373
+54	marido	marido	NOUN	NOUN	_	53	flat	_	TokenRange=374:380
+55	junior	junior	ADJ	ADJ	_	53	appos	_	TokenRange=381:387
+56	joao	joao	ADJ	ADJ	_	55	amod	_	SpaceAfter=No|TokenRange=388:392
+

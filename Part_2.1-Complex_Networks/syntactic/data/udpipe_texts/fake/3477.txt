@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = paris dilma contradiz sobre tragedia mariana desastre natural presidenta desastre mariana presidente dilma rousseff disse hoje paris desastre ambiental mariana mg maior historia brasil afirmou responsaveis sendo punidos ainda destacou pais pretende acabar desmatamento ilegal recuperar 12 milhoes hectares floresta cabe acordo paris propiciar todos paises desenvolvimento possam trilhar caminho economia baixo carbono superando pobreza extrema disse dilma ultimo dia 18 8 dias apos incidente mariana dilma promulgou decreto rompimento barragens passasse considerado desastre natural fica aqui duvida desastre natural entao porque presidenta disse paris culpados punidos
+1	paris	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	dilma	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:11
+3	contradiz	_	VERB	VERB	_	0	root	_	TokenRange=12:21
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=22:27
+5	tragedia	tragedia	NOUN	NOUN	_	3	nmod	_	TokenRange=28:36
+6	mariana	mariano	ADJ	ADJ	_	5	amod	_	TokenRange=37:44
+7	desastre	desastre	NOUN	NOUN	_	5	appos	_	TokenRange=45:53
+8	natural	natural	ADJ	ADJ	_	7	amod	_	TokenRange=54:61
+9	presidenta	_	ADJ	ADJ	_	7	amod	_	TokenRange=62:72
+10	desastre	desastre	NOUN	NOUN	_	5	appos	_	TokenRange=73:81
+11	mariana	mariano	ADJ	ADJ	_	10	amod	_	TokenRange=82:89
+12	presidente	presidente	NOUN	NOUN	_	15	nsubj	_	TokenRange=90:100
+13	dilma	dilma	NOUN	NOUN	_	12	appos	_	TokenRange=101:106
+14	rousseff	rousseff	NOUN	NOUN	_	12	appos	_	TokenRange=107:115
+15	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=116:121
+16	hoje	hoje	ADV	ADV	_	15	advmod	_	TokenRange=122:126
+17	paris	_	ADJ	NOUN	_	18	amod	_	TokenRange=127:132
+18	desastre	desastre	NOUN	NOUN	_	15	obj	_	TokenRange=133:141
+19	ambiental	ambiental	ADJ	ADJ	_	18	amod	_	TokenRange=142:151
+20	mariana	mariano	ADJ	ADJ	_	18	amod	_	TokenRange=152:159
+21	mg	_	DET	DET	_	23	det	_	TokenRange=160:162
+22	maior	maior	ADJ	ADJ	_	23	amod	_	TokenRange=163:168
+23	historia	historia	NOUN	NOUN	_	25	nsubj	_	TokenRange=169:177
+24	brasil	brasil	ADJ	ADJ	_	23	amod	_	TokenRange=178:184
+25	afirmou	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=185:192
+26	responsaveis	responsavel	NOUN	NOUN	_	25	obj	_	TokenRange=193:205
+27	sendo	ser	AUX	AUX	_	28	aux:pass	_	TokenRange=206:211
+28	punidos	punir	VERB	VERB	_	26	acl	_	TokenRange=212:219
+29	ainda	ainda	ADV	ADV	_	30	advmod	_	TokenRange=220:225
+30	destacou	destacar	VERB	VERB	_	25	parataxis	_	TokenRange=226:234
+31	pais	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=235:239
+32	pretende	pretender	VERB	VERB	_	30	ccomp	_	TokenRange=240:248
+33	acabar	acabar	VERB	VERB	_	32	xcomp	_	TokenRange=249:255
+34	desmatamento	desmatamento	NOUN	NOUN	_	33	obj	_	TokenRange=256:268
+35	ilegal	ilegal	ADJ	ADJ	_	34	amod	_	TokenRange=269:275
+36	recuperar	recuperar	VERB	VERB	_	32	xcomp	_	TokenRange=276:285
+37	12	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=286:288
+38	milhoes	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=289:296
+39	hectares	hectare	NOUN	NOUN	_	36	obj	_	TokenRange=297:305
+40	floresta	floresta	NOUN	NOUN	_	39	appos	_	TokenRange=306:314
+41	cabe	caber	VERB	VERB	_	30	parataxis	_	TokenRange=315:319
+42	acordo	acordo	NOUN	NOUN	_	41	nsubj	_	TokenRange=320:326
+43	paris	_	ADJ	ADJ	_	42	amod	_	TokenRange=327:332
+44	propiciar	propiciar	VERB	VERB	_	41	csubj	_	TokenRange=333:342
+45	todos	_	DET	DET	_	46	det	_	TokenRange=343:348
+46	paises	paise	NOUN	NOUN	_	44	obj	_	TokenRange=349:355
+47	desenvolvimento	desenvolvimento	ADJ	ADJ	_	46	amod	_	TokenRange=356:371
+48	possam	_	AUX	AUX	_	49	aux	_	TokenRange=372:378
+49	trilhar	trilhar	VERB	VERB	_	44	ccomp	_	TokenRange=379:386
+50	caminho	caminho	NOUN	NOUN	_	49	obj	_	TokenRange=387:394
+51	economia	economia	NOUN	NOUN	_	49	obj	_	TokenRange=395:403
+52	baixo	baixo	ADJ	ADJ	_	53	amod	_	TokenRange=404:409
+53	carbono	carbono	NOUN	NOUN	_	51	amod	_	TokenRange=410:417
+54	superando	superar	VERB	VERB	_	49	acl	_	TokenRange=418:427
+55	pobreza	pobreza	NOUN	NOUN	_	54	obj	_	TokenRange=428:435
+56	extrema	extremo	ADJ	ADJ	_	55	amod	_	TokenRange=436:443
+57	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=444:449
+58	dilma	dilma	NOUN	NOUN	_	57	nsubj	_	TokenRange=450:455
+59	ultimo	_	ADJ	ADJ	_	60	amod	_	TokenRange=456:462
+60	dia	dia	NOUN	NOUN	_	57	nmod	_	TokenRange=463:466
+61	18	_	NUM	NUM	NumType=Card	60	appos	_	TokenRange=467:469
+62	8	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=470:471
+63	dias	dia	NOUN	NOUN	_	68	nmod	_	TokenRange=472:476
+64	apos	_	ADP	ADP	_	65	case	_	TokenRange=477:481
+65	incidente	incidente	NOUN	NOUN	_	63	nmod	_	TokenRange=482:491
+66	mariana	mariano	ADJ	ADJ	_	65	amod	_	TokenRange=492:499
+67	dilma	dilma	NOUN	NOUN	_	68	nsubj	_	TokenRange=500:505
+68	promulgou	promulgar	VERB	VERB	_	57	parataxis	_	TokenRange=506:515
+69	decreto	decreto	NOUN	NOUN	_	68	obj	_	TokenRange=516:523
+70	rompimento	rompimento	NOUN	NOUN	_	69	amod	_	TokenRange=524:534
+71	barragens	barragem	NOUN	NOUN	_	69	flat	_	TokenRange=535:544
+72	passasse	passar	AUX	AUX	_	74	aux	_	TokenRange=545:553
+73	considerado	considerar	AUX	AUX	_	74	cop	_	TokenRange=554:565
+74	desastre	desastre	NOUN	NOUN	_	69	acl	_	TokenRange=566:574
+75	natural	natural	ADJ	ADJ	_	74	amod	_	TokenRange=575:582
+76	fica	ficar	VERB	VERB	_	57	parataxis	_	TokenRange=583:587
+77	aqui	aqui	ADV	ADV	_	76	advmod	_	TokenRange=588:592
+78	duvida	duvido	ADJ	ADJ	_	79	amod	_	TokenRange=593:599
+79	desastre	desastre	NOUN	NOUN	_	76	nsubj	_	TokenRange=600:608
+80	natural	natural	ADJ	ADJ	_	79	amod	_	TokenRange=609:616
+81	entao	entao	ADV	ADV	_	84	advmod	_	TokenRange=617:622
+82	porque	_	CCONJ	CONJ	_	84	mark	_	TokenRange=623:629
+83	presidenta	_	NOUN	NOUN	_	84	nsubj	_	TokenRange=630:640
+84	disse	dizer	VERB	VERB	_	76	advcl	_	TokenRange=641:646
+85	paris	_	NOUN	NOUN	_	84	obj	_	TokenRange=647:652
+86	culpados	culpado	NOUN	NOUN	_	84	obj	_	TokenRange=653:661
+87	punidos	punir	VERB	VERB	_	86	acl	_	SpaceAfter=No|TokenRange=662:669
+

@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = processo documentario sobre impeachment dilma rousseff exibido festival berlim filme maria augusta ramos acompanhou durante duas semanas momento politico brasilia abril 2016 abril 2016 cineasta maria augusta ramos decidiu filmar duas semanas momentos turbulencia politica vivida entao presidente dilma rousseff imaginava acabaria fazendo documentario exclusivo sobre impeachment dilma tal viveu defesa processo apresentado nesta quartafeira 21 68 festival internacional cinema berlim exibicao aconteceu mostra panorama programacao
+1	processo	processo	NOUN	NOUN	_	14	nsubj	_	TokenRange=0:8
+2	documentario	documentario	NOUN	NOUN	_	1	amod	_	TokenRange=9:21
+3	sobre	_	ADP	ADP	_	4	case	_	TokenRange=22:27
+4	impeachment	impeachment	NOUN	NOUN	_	1	nmod	_	TokenRange=28:39
+5	dilma	_	NOUN	NOUN	_	4	appos	_	TokenRange=40:45
+6	rousseff	rousseff	NOUN	NOUN	_	4	flat	_	TokenRange=46:54
+7	exibido	exibir	VERB	VERB	_	1	acl	_	TokenRange=55:62
+8	festival	festival	NOUN	NOUN	_	7	obj	_	TokenRange=63:71
+9	berlim	berlim	ADJ	ADJ	_	8	amod	_	TokenRange=72:78
+10	filme	filme	NOUN	NOUN	_	14	nsubj	_	TokenRange=79:84
+11	maria	_	NOUN	NOUN	_	10	appos	_	TokenRange=85:90
+12	augusta	_	NOUN	NOUN	_	11	flat	_	TokenRange=91:98
+13	ramos	_	NOUN	NOUN	_	11	flat	_	TokenRange=99:104
+14	acompanhou	acompanhar	VERB	VERB	_	0	root	_	TokenRange=105:115
+15	durante	_	ADP	ADP	_	17	case	_	TokenRange=116:123
+16	duas	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=124:128
+17	semanas	semana	NOUN	NOUN	_	14	nmod	_	TokenRange=129:136
+18	momento	momento	NOUN	NOUN	_	14	obj	_	TokenRange=137:144
+19	politico	politico	ADJ	ADJ	_	18	amod	_	TokenRange=145:153
+20	brasilia	brasilia	NOUN	NOUN	_	18	appos	_	TokenRange=154:162
+21	abril	_	PROPN	PNOUN	_	18	appos	_	TokenRange=163:168
+22	2016	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=169:173
+23	abril	_	PROPN	PNOUN	_	21	nmod	_	TokenRange=174:179
+24	2016	_	NUM	NUM	NumType=Card	23	nmod	_	TokenRange=180:184
+25	cineasta	cineasta	NOUN	NOUN	_	29	nsubj	_	TokenRange=185:193
+26	maria	_	NOUN	NOUN	_	25	appos	_	TokenRange=194:199
+27	augusta	_	NOUN	NOUN	_	26	flat	_	TokenRange=200:207
+28	ramos	_	NOUN	NOUN	_	26	flat	_	TokenRange=208:213
+29	decidiu	decidir	VERB	VERB	_	14	conj	_	TokenRange=214:221
+30	filmar	filmar	VERB	VERB	_	29	xcomp	_	TokenRange=222:228
+31	duas	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=229:233
+32	semanas	semana	NOUN	NOUN	_	30	nmod	_	TokenRange=234:241
+33	momentos	momento	NOUN	NOUN	_	30	obj	_	TokenRange=242:250
+34	turbulencia	turbulencia	NOUN	NOUN	_	33	appos	_	TokenRange=251:262
+35	politica	politico	ADJ	ADJ	_	34	amod	_	TokenRange=263:271
+36	vivida	viver	VERB	VERB	_	33	acl	_	TokenRange=272:278
+37	entao	entao	ADV	ADV	_	41	advmod	_	TokenRange=279:284
+38	presidente	presidente	NOUN	NOUN	_	41	nsubj	_	TokenRange=285:295
+39	dilma	dilmo	ADJ	ADJ	_	38	amod	_	TokenRange=296:301
+40	rousseff	rousseff	NOUN	NOUN	_	38	appos	_	TokenRange=302:310
+41	imaginava	imaginar	VERB	VERB	_	34	acl:relcl	_	TokenRange=311:320
+42	acabaria	acabar	AUX	AUX	_	43	aux	_	TokenRange=321:329
+43	fazendo	fazer	VERB	VERB	_	41	xcomp	_	TokenRange=330:337
+44	documentario	documentario	NOUN	NOUN	_	43	obj	_	TokenRange=338:350
+45	exclusivo	exclusivo	ADJ	ADJ	_	44	amod	_	TokenRange=351:360
+46	sobre	_	ADP	ADP	_	47	case	_	TokenRange=361:366
+47	impeachment	impeachment	NOUN	NOUN	_	44	nmod	_	TokenRange=367:378
+48	dilma	_	NOUN	NOUN	_	47	flat	_	TokenRange=379:384
+49	tal	_	ADV	PRON	_	50	advmod	_	TokenRange=385:388
+50	viveu	viver	VERB	VERB	_	47	acl:relcl	_	TokenRange=389:394
+51	defesa	_	NOUN	NOUN	_	50	obj	_	TokenRange=395:401
+52	processo	processo	NOUN	NOUN	_	50	obj	_	TokenRange=402:410
+53	apresentado	apresentar	VERB	VERB	_	52	acl	_	TokenRange=411:422
+54	nesta	_	ADP	ADP	_	55	case	_	TokenRange=423:428
+55	quartafeira	quartafeira	NOUN	NOUN	_	53	nmod	_	TokenRange=429:440
+56	21	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=441:443
+57	68	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=444:446
+58	festival	festival	NOUN	NOUN	_	55	appos	_	TokenRange=447:455
+59	internacional	internacional	ADJ	ADJ	_	60	amod	_	TokenRange=456:469
+60	cinema	cinema	NOUN	NOUN	_	58	appos	_	TokenRange=470:476
+61	berlim	berlim	ADJ	ADJ	_	60	amod	_	TokenRange=477:483
+62	exibicao	exibicao	NOUN	NOUN	_	63	nsubj	_	TokenRange=484:492
+63	aconteceu	acontecer	VERB	VERB	_	14	parataxis	_	TokenRange=493:502
+64	mostra	mostra	NOUN	NOUN	_	63	nsubj	_	TokenRange=503:509
+65	panorama	panorama	NOUN	NOUN	_	64	flat	_	TokenRange=510:518
+66	programacao	programacao	NOUN	NOUN	_	64	flat	_	SpaceAfter=No|TokenRange=519:530
+

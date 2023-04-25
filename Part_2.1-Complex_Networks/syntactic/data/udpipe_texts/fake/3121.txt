@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf vasculha forro instituto lula apreende celulares pen drives computadores funcionarias instituto lula informaram meio nota imprensa pf levou computadores celulares pendrives instituicao aproximadamente 60 homens participaram operacao policiais deram busca forro predio onde instituto funciona reviraram arquivos durante busca secretaria recepcionista advogada disseram entregar aparelhos celular ficassem incomunicaveis registrassem imagens operacao clara ant organizadora agenda expresidente entregou dois celulares dois computadores agendas agentes policia federal noticia divulgada catia seabra folha
+1	pf	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=0:2
+2	vasculha	vasculha	NOUN	NOUN	_	1	appos	_	TokenRange=3:11
+3	forro	forro	ADJ	ADJ	_	4	amod	_	TokenRange=12:17
+4	instituto	instituto	NOUN	NOUN	_	2	appos	_	TokenRange=18:27
+5	lula	lula	ADJ	ADJ	_	4	amod	_	TokenRange=28:32
+6	apreende	apreender	VERB	VERB	_	2	acl:relcl	_	TokenRange=33:41
+7	celulares	_	NOUN	NOUN	_	6	obj	_	TokenRange=42:51
+8	pen	_	NOUN	NOUN	_	7	appos	_	TokenRange=52:55
+9	drives	_	NOUN	NOUN	_	8	flat	_	TokenRange=56:62
+10	computadores	computador	NOUN	NOUN	_	7	appos	_	TokenRange=63:75
+11	funcionarias	funcionaria	ADJ	ADJ	_	10	amod	_	TokenRange=76:88
+12	instituto	instituto	NOUN	NOUN	_	6	nsubj	_	TokenRange=89:98
+13	lula	lula	NOUN	NOUN	_	12	amod	_	TokenRange=99:103
+14	informaram	informar	VERB	VERB	_	0	root	_	TokenRange=104:114
+15	meio	meio	NOUN	NOUN	_	14	obj	_	TokenRange=115:119
+16	nota	nota	NOUN	NOUN	_	14	obj	_	TokenRange=120:124
+17	imprensa	imprensa	NOUN	NOUN	_	14	nsubj	_	TokenRange=125:133
+18	pf	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=134:136
+19	levou	levar	VERB	VERB	_	2	acl:relcl	_	TokenRange=137:142
+20	computadores	computador	NOUN	NOUN	_	19	obj	_	TokenRange=143:155
+21	celulares	celular	ADJ	ADJ	_	20	amod	_	TokenRange=156:165
+22	pendrives	pendrive	ADJ	ADJ	_	20	amod	_	TokenRange=166:175
+23	instituicao	instituicao	ADJ	ADJ	_	20	amod	_	TokenRange=176:187
+24	aproximadamente	aproximadamente	ADV	ADV	_	25	advmod	_	TokenRange=188:203
+25	60	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=204:206
+26	homens	homem	NOUN	NOUN	_	27	nsubj	_	TokenRange=207:213
+27	participaram	participar	VERB	VERB	_	14	ccomp	_	TokenRange=214:226
+28	operacao	operacao	NOUN	NOUN	_	27	obj	_	TokenRange=227:235
+29	policiais	policial	NOUN	NOUN	_	30	nsubj	_	TokenRange=236:245
+30	deram	dar	VERB	VERB	_	27	ccomp	_	TokenRange=246:251
+31	busca	busca	NOUN	NOUN	_	30	obj	_	TokenRange=252:257
+32	forro	forro	ADJ	ADJ	_	33	amod	_	TokenRange=258:263
+33	predio	predio	NOUN	NOUN	_	30	nsubj	_	TokenRange=264:270
+34	onde	onde	ADV	ADV	_	36	advmod	_	TokenRange=271:275
+35	instituto	instituto	NOUN	NOUN	_	36	nsubj	_	TokenRange=276:285
+36	funciona	funcionar	VERB	VERB	_	33	acl:relcl	_	TokenRange=286:294
+37	reviraram	revirar	VERB	VERB	_	33	acl:relcl	_	TokenRange=295:304
+38	arquivos	arquivo	NOUN	NOUN	_	37	obj	_	TokenRange=305:313
+39	durante	_	ADP	ADP	_	40	case	_	TokenRange=314:321
+40	busca	busca	NOUN	NOUN	_	37	nmod	_	TokenRange=322:327
+41	secretaria	secretaria	NOUN	NOUN	_	40	appos	_	TokenRange=328:338
+42	recepcionista	recepcionista	ADJ	ADJ	_	41	amod	_	TokenRange=339:352
+43	advogada	advogado	NOUN	NOUN	_	41	amod	_	TokenRange=353:361
+44	disseram	dizer	VERB	VERB	_	33	acl:relcl	_	TokenRange=362:370
+45	entregar	entregar	VERB	VERB	_	44	xcomp	_	TokenRange=371:379
+46	aparelhos	aparelho	NOUN	NOUN	_	45	obj	_	TokenRange=380:389
+47	celular	_	ADJ	ADJ	_	46	amod	_	TokenRange=390:397
+48	ficassem	ficar	VERB	VERB	_	45	ccomp	_	TokenRange=398:406
+49	incomunicaveis	incomunicavel	ADJ	ADJ	_	48	xcomp	_	TokenRange=407:421
+50	registrassem	registrar	VERB	VERB	_	48	ccomp	_	TokenRange=422:434
+51	imagens	imagem	NOUN	NOUN	_	50	obj	_	TokenRange=435:442
+52	operacao	operacao	NOUN	NOUN	_	51	appos	_	TokenRange=443:451
+53	clara	claro	ADJ	ADJ	_	52	amod	_	TokenRange=452:457
+54	ant	ant	NOUN	NOUN	_	50	nsubj	_	TokenRange=458:461
+55	organizadora	organizador	ADJ	ADJ	_	56	amod	_	TokenRange=462:474
+56	agenda	agenda	NOUN	NOUN	_	51	conj	_	TokenRange=475:481
+57	expresidente	expresidente	NOUN	NOUN	_	56	amod	_	TokenRange=482:494
+58	entregou	entregar	VERB	VERB	_	50	conj	_	TokenRange=495:503
+59	dois	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=504:508
+60	celulares	_	NOUN	NOUN	_	58	obj	_	TokenRange=509:518
+61	dois	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=519:523
+62	computadores	computador	NOUN	NOUN	_	58	obj	_	TokenRange=524:536
+63	agendas	agenda	ADJ	ADJ	_	62	amod	_	TokenRange=537:544
+64	agentes	agente	NOUN	NOUN	_	62	amod	_	TokenRange=545:552
+65	policia	policia	NOUN	NOUN	_	67	appos	_	TokenRange=553:560
+66	federal	federal	ADJ	ADJ	_	67	amod	_	TokenRange=561:568
+67	noticia	noticia	NOUN	NOUN	_	58	obj	_	TokenRange=569:576
+68	divulgada	divulgar	VERB	VERB	_	67	acl	_	TokenRange=577:586
+69	catia	catia	NOUN	NOUN	_	68	obj	_	TokenRange=587:592
+70	seabra	seabra	NOUN	NOUN	_	69	flat	_	TokenRange=593:599
+71	folha	folha	NOUN	NOUN	_	69	flat	_	SpaceAfter=No|TokenRange=600:605
+

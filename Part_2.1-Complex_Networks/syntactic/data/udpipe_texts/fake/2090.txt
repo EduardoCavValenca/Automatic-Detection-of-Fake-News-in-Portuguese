@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos cantar 3 musicas anitta desentende fas encerra show publico reagiu jogou bebidas palco show cantora anitta acabou confusao madrugada hoje 12 acordo materia g1 cantora entrou palco proximo 4h manha encerrou show atingida latas copos bebidas jogadas espectadores organizacao evento realizado cabo frio/rj confirmou alguns fas tentaram agredir cantora area reservada g1 ainda confirmou artista subiu palco 358 cantou 3 musicas retirou 405 antes show cantora recebido alguns fas camarim tratou todos extrema grosseria confusao encerrada apos cantora deixar local ajuda segurancas
+1	apos	_	ADP	ADP	_	2	mark	_	TokenRange=0:4
+2	cantar	cantar	VERB	VERB	_	6	advcl	_	TokenRange=5:11
+3	3	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=12:13
+4	musicas	_	NOUN	NOUN	_	2	obj	_	TokenRange=14:21
+5	anitta	anitta	NOUN	NOUN	_	6	nsubj	_	TokenRange=22:28
+6	desentende	desentender	VERB	VERB	_	18	advcl	_	TokenRange=29:39
+7	fas	_	NOUN	NOUN	_	6	obj	_	TokenRange=40:43
+8	encerra	encerrar	VERB	VERB	_	6	ccomp	_	TokenRange=44:51
+9	show	show	NOUN	NOUN	_	6	obj	_	TokenRange=52:56
+10	publico	_	ADJ	ADJ	_	9	amod	_	TokenRange=57:64
+11	reagiu	reagir	VERB	VERB	_	6	parataxis	_	TokenRange=65:71
+12	jogou	jogar	VERB	VERB	_	6	ccomp	_	TokenRange=72:77
+13	bebidas	bebida	NOUN	NOUN	_	12	obj	_	TokenRange=78:85
+14	palco	palco	NOUN	NOUN	_	13	appos	_	TokenRange=86:91
+15	show	show	NOUN	NOUN	_	14	flat	_	TokenRange=92:96
+16	cantora	cantor	NOUN	NOUN	_	14	appos	_	TokenRange=97:104
+17	anitta	anitta	NOUN	NOUN	_	16	flat	_	TokenRange=105:111
+18	acabou	acabar	VERB	VERB	_	0	root	_	TokenRange=112:118
+19	confusao	confusao	ADJ	ADJ	_	18	xcomp	_	TokenRange=119:127
+20	madrugada	madrugada	NOUN	NOUN	_	18	nmod	_	TokenRange=128:137
+21	hoje	hoje	ADV	ADV	_	20	advmod	_	TokenRange=138:142
+22	12	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=143:145
+23	acordo	acordo	NOUN	NOUN	_	18	nsubj	_	TokenRange=146:152
+24	materia	materia	NOUN	NOUN	_	23	appos	_	TokenRange=153:160
+25	g1	_	NUM	NUM	_	24	appos	_	TokenRange=161:163
+26	cantora	cantor	NOUN	NOUN	_	27	nsubj	_	TokenRange=164:171
+27	entrou	entrar	VERB	VERB	_	23	acl:relcl	_	TokenRange=172:178
+28	palco	palco	NOUN	NOUN	_	27	obj	_	TokenRange=179:184
+29	proximo	proximo	ADJ	ADJ	_	31	amod	_	TokenRange=185:192
+30	4h	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=193:195
+31	manha	manha	NOUN	NOUN	_	32	nsubj	_	TokenRange=196:201
+32	encerrou	encerrar	VERB	VERB	_	27	parataxis	_	TokenRange=202:210
+33	show	show	NOUN	NOUN	_	32	obj	_	TokenRange=211:215
+34	atingida	atingido	ADJ	ADJ	_	35	amod	_	TokenRange=216:224
+35	latas	lata	NOUN	NOUN	_	32	nsubj	_	TokenRange=225:230
+36	copos	copo	NOUN	NOUN	_	35	appos	_	TokenRange=231:236
+37	bebidas	bebida	NOUN	NOUN	_	35	appos	_	TokenRange=237:244
+38	jogadas	jogado	ADJ	ADJ	_	37	amod	_	TokenRange=245:252
+39	espectadores	espectador	NOUN	NOUN	_	37	appos	_	TokenRange=253:265
+40	organizacao	organizacao	ADJ	ADJ	_	41	amod	_	TokenRange=266:277
+41	evento	evento	NOUN	NOUN	_	27	nsubj	_	TokenRange=278:284
+42	realizado	realizar	VERB	VERB	_	41	acl	_	TokenRange=285:294
+43	cabo	cabo	NOUN	NOUN	_	42	nsubj	_	TokenRange=295:299
+44	frio/rj	_	ADJ	ADJ	_	43	amod	_	TokenRange=300:307
+45	confirmou	confirmar	VERB	VERB	_	48	parataxis	_	TokenRange=308:317
+46	alguns	_	DET	DET	_	47	det	_	TokenRange=318:324
+47	fas	fa	NOUN	NOUN	_	48	nsubj	_	TokenRange=325:328
+48	tentaram	tentar	VERB	VERB	_	41	acl:relcl	_	TokenRange=329:337
+49	agredir	agredir	VERB	VERB	_	48	xcomp	_	TokenRange=338:345
+50	cantora	cantor	NOUN	NOUN	_	49	obj	_	TokenRange=346:353
+51	area	area	NOUN	NOUN	_	50	appos	_	TokenRange=354:358
+52	reservada	reservado	ADJ	ADJ	_	51	amod	_	TokenRange=359:368
+53	g1	_	NUM	NUM	_	55	nsubj	_	TokenRange=369:371
+54	ainda	ainda	ADV	ADV	_	55	advmod	_	TokenRange=372:377
+55	confirmou	confirmar	VERB	VERB	_	45	parataxis	_	TokenRange=378:387
+56	artista	artista	NOUN	NOUN	_	55	obj	_	TokenRange=388:395
+57	subiu	subir	VERB	VERB	_	55	ccomp	_	TokenRange=396:401
+58	palco	palco	NOUN	NOUN	_	57	obj	_	TokenRange=402:407
+59	358	_	NUM	NUM	NumType=Card	60	nsubj	_	TokenRange=408:411
+60	cantou	cantar	VERB	VERB	_	57	conj	_	TokenRange=412:418
+61	3	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=419:420
+62	musicas	_	NOUN	NOUN	_	60	obj	_	TokenRange=421:428
+63	retirou	retirar	VERB	VERB	_	57	conj	_	TokenRange=429:436
+64	405	_	NUM	NUM	NumType=Card	63	obj	_	TokenRange=437:440
+65	antes	antes	ADV	ADV	_	68	advmod	_	TokenRange=441:446
+66	show	show	NOUN	NOUN	_	63	nsubj	_	TokenRange=447:451
+67	cantora	cantor	NOUN	NOUN	_	66	appos	_	TokenRange=452:459
+68	recebido	receber	VERB	VERB	_	66	acl	_	TokenRange=460:468
+69	alguns	_	DET	DET	_	70	det	_	TokenRange=469:475
+70	fas	fa	NOUN	NOUN	_	68	obj	_	TokenRange=476:479
+71	camarim	camarim	NOUN	NOUN	_	72	nsubj	_	TokenRange=480:487
+72	tratou	tratar	VERB	VERB	_	68	conj	_	TokenRange=488:494
+73	todos	_	DET	DET	_	75	det	_	TokenRange=495:500
+74	extrema	extremo	ADJ	ADJ	_	75	amod	_	TokenRange=501:508
+75	grosseria	_	NOUN	NOUN	_	72	obj	_	TokenRange=509:518
+76	confusao	confusao	NOUN	NOUN	_	72	nsubj	_	TokenRange=519:527
+77	encerrada	encerrar	VERB	VERB	_	76	acl	_	TokenRange=528:537
+78	apos	_	ADP	ADP	_	80	mark	_	TokenRange=538:542
+79	cantora	cantor	NOUN	NOUN	_	80	nsubj	_	TokenRange=543:550
+80	deixar	deixar	VERB	VERB	_	77	nmod	_	TokenRange=551:557
+81	local	local	NOUN	NOUN	_	80	obj	_	TokenRange=558:563
+82	ajuda	ajudar	VERB	VERB	_	72	parataxis	_	TokenRange=564:569
+83	segurancas	_	NOUN	NOUN	_	82	obj	_	SpaceAfter=No|TokenRange=570:580
+

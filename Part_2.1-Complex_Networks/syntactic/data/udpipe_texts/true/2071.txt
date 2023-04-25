@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = menos seis ficam feridos confusao durante ato camara sp cinco servidores idoso participava protesto agredidos pms guardas menos seis pessoas ficaram feridas confusao ocorrida durante protesto professores frente camara municipal paulo tarde desta quartafeira 14 segundo advogado cleiton leite coutinho defende sindicato geral servidores sindsep feridos socorridos levados hospital municipal servidor publico cinco funcionarios publicos idoso participava manifestacao ato contra reforma previdencia servidores municipais autoria gestao joao doria psdb projeto lei pretende outros
+1	menos	menos	DET	DET	_	2	det	_	TokenRange=0:5
+2	seis	_	NUM	NUM	NumType=Card	3	nsubj	_	TokenRange=6:10
+3	ficam	ficar	VERB	VERB	_	0	root	_	TokenRange=11:16
+4	feridos	ferido	ADJ	ADJ	_	3	xcomp	_	TokenRange=17:24
+5	confusao	confusao	ADJ	ADJ	_	3	xcomp	_	TokenRange=25:33
+6	durante	_	ADP	ADP	_	7	case	_	TokenRange=34:41
+7	ato	ato	NOUN	NOUN	_	3	nmod	_	TokenRange=42:45
+8	camara	camara	NOUN	NOUN	_	7	appos	_	TokenRange=46:52
+9	sp	_	ADJ	ADJ	_	7	amod	_	TokenRange=53:55
+10	cinco	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=56:61
+11	servidores	servidor	NOUN	NOUN	_	3	nsubj	_	TokenRange=62:72
+12	idoso	idoso	ADJ	ADJ	_	11	amod	_	TokenRange=73:78
+13	participava	participar	VERB	VERB	_	3	parataxis	_	TokenRange=79:90
+14	protesto	protesto	NOUN	NOUN	_	13	obj	_	TokenRange=91:99
+15	agredidos	agredido	ADJ	ADJ	_	14	amod	_	TokenRange=100:109
+16	pms	_	ADP	ADP	_	17	case	_	TokenRange=110:113
+17	guardas	guarda	NOUN	NOUN	_	14	nmod	_	TokenRange=114:121
+18	menos	menos	ADV	ADV	_	19	advmod	_	TokenRange=122:127
+19	seis	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=128:132
+20	pessoas	pessoa	NOUN	NOUN	_	21	nsubj	_	TokenRange=133:140
+21	ficaram	ficar	VERB	VERB	_	3	parataxis	_	TokenRange=141:148
+22	feridas	ferido	ADJ	ADJ	_	21	xcomp	_	TokenRange=149:156
+23	confusao	confusao	ADJ	ADJ	_	21	xcomp	_	TokenRange=157:165
+24	ocorrida	ocorrer	VERB	VERB	_	23	acl	_	TokenRange=166:174
+25	durante	_	ADP	ADP	_	26	case	_	TokenRange=175:182
+26	protesto	protesto	NOUN	NOUN	_	24	nmod	_	TokenRange=183:191
+27	professores	professor	NOUN	NOUN	_	26	appos	_	TokenRange=192:203
+28	frente	frente	NOUN	NOUN	_	29	amod	_	TokenRange=204:210
+29	camara	camara	NOUN	NOUN	_	26	appos	_	TokenRange=211:217
+30	municipal	municipal	ADJ	ADJ	_	29	amod	_	TokenRange=218:227
+31	paulo	paulo	NOUN	NOUN	_	29	appos	_	TokenRange=228:233
+32	tarde	tarde	NOUN	NOUN	_	26	appos	_	TokenRange=234:239
+33	desta	_	ADP	ADP	_	34	case	_	TokenRange=240:245
+34	quartafeira	quartafeira	NOUN	NOUN	_	32	nmod	_	TokenRange=246:257
+35	14	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=258:260
+36	segundo	_	ADP	ADP	_	37	case	_	TokenRange=261:268
+37	advogado	advogado	NOUN	NOUN	_	41	nmod	_	TokenRange=269:277
+38	cleiton	_	NOUN	NOUN	_	37	appos	_	TokenRange=278:285
+39	leite	leite	NOUN	NOUN	_	38	flat	_	TokenRange=286:291
+40	coutinho	_	NOUN	NOUN	_	38	flat	_	TokenRange=292:300
+41	defende	defender	VERB	VERB	_	3	conj	_	TokenRange=301:308
+42	sindicato	sindicato	NOUN	NOUN	_	41	obj	_	TokenRange=309:318
+43	geral	geral	ADJ	ADJ	_	42	amod	_	TokenRange=319:324
+44	servidores	servidor	NOUN	NOUN	_	42	appos	_	TokenRange=325:335
+45	sindsep	sindsep	ADJ	ADJ	_	46	amod	_	TokenRange=336:343
+46	feridos	ferido	NOUN	NOUN	_	42	appos	_	TokenRange=344:351
+47	socorridos	socorrer	VERB	VERB	_	46	acl	_	TokenRange=352:362
+48	levados	levar	VERB	VERB	_	49	acl	_	TokenRange=363:370
+49	hospital	hospital	NOUN	NOUN	_	46	appos	_	TokenRange=371:379
+50	municipal	municipal	ADJ	ADJ	_	49	amod	_	TokenRange=380:389
+51	servidor	servidor	NOUN	NOUN	_	49	appos	_	TokenRange=390:398
+52	publico	publico	ADJ	ADJ	_	49	amod	_	TokenRange=399:406
+53	cinco	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=407:412
+54	funcionarios	funcionario	NOUN	NOUN	_	57	nsubj	_	TokenRange=413:425
+55	publicos	publico	ADJ	ADJ	_	54	amod	_	TokenRange=426:434
+56	idoso	idoso	ADJ	ADJ	_	54	amod	_	TokenRange=435:440
+57	participava	participar	VERB	VERB	_	3	parataxis	_	TokenRange=441:452
+58	manifestacao	manifestacao	ADJ	ADJ	_	59	amod	_	TokenRange=453:465
+59	ato	ato	NOUN	NOUN	_	57	obj	_	TokenRange=466:469
+60	contra	_	ADP	ADP	_	61	case	_	TokenRange=470:476
+61	reforma	reforma	NOUN	NOUN	_	59	nmod	_	TokenRange=477:484
+62	previdencia	previdencio	ADJ	ADJ	_	61	amod	_	TokenRange=485:496
+63	servidores	servidor	NOUN	NOUN	_	59	appos	_	TokenRange=497:507
+64	municipais	municipal	ADJ	ADJ	_	63	amod	_	TokenRange=508:518
+65	autoria	autoria	NOUN	NOUN	_	59	appos	_	TokenRange=519:526
+66	gestao	gestao	NOUN	NOUN	_	59	appos	_	TokenRange=527:533
+67	joao	joao	NOUN	NOUN	_	66	appos	_	TokenRange=534:538
+68	doria	doria	NOUN	NOUN	_	67	flat	_	TokenRange=539:544
+69	psdb	_	PROPN	PNOUN	_	72	nsubj	_	TokenRange=545:549
+70	projeto	projeto	NOUN	NOUN	_	72	nsubj	_	TokenRange=550:557
+71	lei	lei	NOUN	NOUN	_	70	flat	_	TokenRange=558:561
+72	pretende	pretender	VERB	VERB	_	59	conj	_	TokenRange=562:570
+73	outros	_	PRON	PRON	_	72	obj	_	SpaceAfter=No|TokenRange=571:577
+

@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = recadinho basico joao doria lula covarde semvergonha cara pau mensagem marco 2016 postada logo apos expresidente dilma oferecer ministerio petista pudesse obter foro privilegiado mensagem vai luiz inacio lula silva vergonha cara pau agora descobri covarde covarde c maiusculo porque vai esconder atras ministerio inibir acao juiz sergio moro esconder embaixo cargo publico falta coragem afirmou doria video
+1	recadinho	recadinho	NOUN	NOUN	_	56	parataxis	_	TokenRange=0:9
+2	basico	basico	ADJ	ADJ	_	1	amod	_	TokenRange=10:16
+3	joao	joao	NOUN	NOUN	_	1	appos	_	TokenRange=17:21
+4	doria	_	NOUN	NOUN	_	3	flat	_	TokenRange=22:27
+5	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=28:32
+6	covarde	covarde	NOUN	NOUN	_	1	appos	_	TokenRange=33:40
+7	semvergonha	semvergonha	ADJ	ADJ	_	8	amod	_	TokenRange=41:52
+8	cara	cara	NOUN	NOUN	_	3	appos	_	TokenRange=53:57
+9	pau	_	NOUN	NOUN	_	8	flat	_	TokenRange=58:61
+10	mensagem	mensagem	NOUN	NOUN	_	1	appos	_	TokenRange=62:70
+11	marco	marco	NOUN	NOUN	_	10	appos	_	TokenRange=71:76
+12	2016	_	NUM	NUM	NumType=Card	11	nmod	_	TokenRange=77:81
+13	postada	postar	VERB	VERB	_	1	acl	_	TokenRange=82:89
+14	logo	logo	ADV	ADV	_	22	advmod	_	TokenRange=90:94
+15	apos	_	ADP	ADP	_	18	mark	_	TokenRange=95:99
+16	expresidente	expresidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=100:112
+17	dilma	_	ADJ	ADJ	_	16	amod	_	TokenRange=113:118
+18	oferecer	oferecer	VERB	VERB	_	22	advcl	_	TokenRange=119:127
+19	ministerio	ministerio	NOUN	NOUN	_	18	obj	_	TokenRange=128:138
+20	petista	petista	ADJ	ADJ	_	19	amod	_	TokenRange=139:146
+21	pudesse	poder	AUX	AUX	_	22	aux	_	TokenRange=147:154
+22	obter	obter	VERB	VERB	_	13	ccomp	_	TokenRange=155:160
+23	foro	foro	NOUN	NOUN	_	22	obj	_	TokenRange=161:165
+24	privilegiado	privilegiado	ADJ	ADJ	_	23	amod	_	TokenRange=166:178
+25	mensagem	mensagem	NOUN	NOUN	_	22	obj	_	TokenRange=179:187
+26	vai	ir	AUX	AUX	_	27	cop	_	TokenRange=188:191
+27	luiz	luiz	NOUN	NOUN	_	22	parataxis	_	TokenRange=192:196
+28	inacio	_	NOUN	NOUN	_	27	flat	_	TokenRange=197:203
+29	lula	_	NOUN	NOUN	_	27	flat	_	TokenRange=204:208
+30	silva	silva	NOUN	NOUN	_	27	flat	_	TokenRange=209:214
+31	vergonha	vergonha	NOUN	NOUN	_	27	appos	_	TokenRange=215:223
+32	cara	cara	NOUN	NOUN	_	27	appos	_	TokenRange=224:228
+33	pau	pau	NOUN	NOUN	_	32	flat	_	TokenRange=229:232
+34	agora	agora	ADV	ADV	_	35	advmod	_	TokenRange=233:238
+35	descobri	descobrir	VERB	VERB	_	22	conj	_	TokenRange=239:247
+36	covarde	covarde	NOUN	NOUN	_	35	obj	_	TokenRange=248:255
+37	covarde	covarde	NOUN	NOUN	_	36	flat	_	TokenRange=256:263
+38	c	_	ADP	ADP	_	39	case	_	TokenRange=264:265
+39	maiusculo	maiusculo	NOUN	NOUN	_	35	nmod	_	TokenRange=266:275
+40	porque	_	CCONJ	CONJ	_	42	mark	_	TokenRange=276:282
+41	vai	ir	AUX	AUX	_	42	aux	_	TokenRange=283:286
+42	esconder	esconder	VERB	VERB	_	35	advcl	_	TokenRange=287:295
+43	atras	_	ADV	ADV	_	42	advmod	_	TokenRange=296:301
+44	ministerio	ministerio	NOUN	NOUN	_	42	obj	_	TokenRange=302:312
+45	inibir	inibir	VERB	VERB	_	42	ccomp	_	TokenRange=313:319
+46	acao	acao	NOUN	NOUN	_	47	amod	_	TokenRange=320:324
+47	juiz	juiz	NOUN	NOUN	_	45	nsubj	_	TokenRange=325:329
+48	sergio	sergio	ADJ	ADJ	_	47	amod	_	TokenRange=330:336
+49	moro	moro	NOUN	NOUN	_	47	amod	_	TokenRange=337:341
+50	esconder	esconder	VERB	VERB	_	45	ccomp	_	TokenRange=342:350
+51	embaixo	embaixo	ADV	ADV	_	52	advmod	_	TokenRange=351:358
+52	cargo	cargo	NOUN	NOUN	_	50	obj	_	TokenRange=359:364
+53	publico	publico	ADJ	ADJ	_	52	amod	_	TokenRange=365:372
+54	falta	_	ADJ	ADJ	_	55	amod	_	TokenRange=373:378
+55	coragem	coragem	NOUN	NOUN	_	56	nsubj	_	TokenRange=379:386
+56	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=387:394
+57	doria	doria	NOUN	NOUN	_	56	obj	_	TokenRange=395:400
+58	video	video	NOUN	NOUN	_	56	obj	_	SpaceAfter=No|TokenRange=401:406
+

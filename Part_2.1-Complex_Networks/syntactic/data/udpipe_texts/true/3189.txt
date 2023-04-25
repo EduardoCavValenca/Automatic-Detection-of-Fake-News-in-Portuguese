@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sp atos pro contra lula dia julgamento recurso manifestantes contra expresidente fecharam paulista grupo prolula reuniu praca republica cidade paulo atos contra favor expresidente luiz inacio lula silva pt nesta quartafeira 24 dia julgamento recurso tribunal regional federal 4 regiao trf4 tres desembargadores decidiram manter condenacao aumentaram pena 12 anos mes avenida paulista manifestantes contra lula reuniram frente masp protestar cartazes bonecos imagem lula preso roupas cores verde amarela manifestantes pediam confirmacao
+1	sp	_	ADP	ADP	_	2	case	_	TokenRange=0:2
+2	atos	ato	NOUN	NOUN	_	16	parataxis	_	TokenRange=3:7
+3	pro	_	ADP	ADP	_	2	nmod	_	TokenRange=8:11
+4	contra	_	ADP	ADP	_	5	case	_	TokenRange=12:18
+5	lula	_	NOUN	NOUN	_	2	nmod	_	TokenRange=19:23
+6	dia	dia	NOUN	NOUN	_	2	nmod	_	TokenRange=24:27
+7	julgamento	julgamento	NOUN	NOUN	_	2	appos	_	TokenRange=28:38
+8	recurso	recurso	NOUN	NOUN	_	2	appos	_	TokenRange=39:46
+9	manifestantes	manifestante	ADJ	ADJ	_	8	amod	_	TokenRange=47:60
+10	contra	_	ADP	ADP	_	11	case	_	TokenRange=61:67
+11	expresidente	expresidente	NOUN	NOUN	_	8	nmod	_	TokenRange=68:80
+12	fecharam	fechar	VERB	VERB	_	2	parataxis	_	TokenRange=81:89
+13	paulista	paulista	ADJ	ADJ	_	14	amod	_	TokenRange=90:98
+14	grupo	grupo	NOUN	NOUN	_	12	nsubj	_	TokenRange=99:104
+15	prolula	prolula	NOUN	NOUN	_	14	flat	_	TokenRange=105:112
+16	reuniu	reunir	VERB	VERB	_	0	root	_	TokenRange=113:119
+17	praca	praca	NOUN	NOUN	_	16	obj	_	TokenRange=120:125
+18	republica	republico	ADJ	ADJ	_	17	amod	_	TokenRange=126:135
+19	cidade	cidade	NOUN	NOUN	_	17	appos	_	TokenRange=136:142
+20	paulo	paulo	ADJ	ADJ	_	19	amod	_	TokenRange=143:148
+21	atos	ato	NOUN	NOUN	_	16	obj	_	TokenRange=149:153
+22	contra	_	ADP	ADP	_	23	case	_	TokenRange=154:160
+23	favor	favor	NOUN	NOUN	_	21	nmod	_	TokenRange=161:166
+24	expresidente	expresidente	NOUN	NOUN	_	23	appos	_	TokenRange=167:179
+25	luiz	luiz	NOUN	NOUN	_	24	appos	_	TokenRange=180:184
+26	inacio	_	NOUN	NOUN	_	25	flat	_	TokenRange=185:191
+27	lula	_	NOUN	NOUN	_	25	flat	_	TokenRange=192:196
+28	silva	silva	NOUN	NOUN	_	25	flat	_	TokenRange=197:202
+29	pt	_	NOUN	PNOUN	_	16	parataxis	_	TokenRange=203:205
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=206:211
+31	quartafeira	quartafeira	NOUN	NOUN	_	16	nmod	_	TokenRange=212:223
+32	24	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=224:226
+33	dia	dia	NOUN	NOUN	_	31	nmod	_	TokenRange=227:230
+34	julgamento	julgamento	NOUN	NOUN	_	33	appos	_	TokenRange=231:241
+35	recurso	recurso	NOUN	NOUN	_	36	appos	_	TokenRange=242:249
+36	tribunal	tribunal	NOUN	NOUN	_	34	appos	_	TokenRange=250:258
+37	regional	regional	ADJ	ADJ	_	36	amod	_	TokenRange=259:267
+38	federal	federal	ADJ	ADJ	_	36	amod	_	TokenRange=268:275
+39	4	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=276:277
+40	regiao	regiao	NOUN	NOUN	_	36	appos	_	TokenRange=278:284
+41	trf4	_	NUM	NOUN	_	40	appos	_	TokenRange=285:289
+42	tres	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=290:294
+43	desembargadores	desembargador	NOUN	NOUN	_	44	nsubj	_	TokenRange=295:310
+44	decidiram	decidir	VERB	VERB	_	36	acl:relcl	_	TokenRange=311:320
+45	manter	manter	VERB	VERB	_	44	xcomp	_	TokenRange=321:327
+46	condenacao	_	NOUN	NOUN	_	45	obj	_	TokenRange=328:338
+47	aumentaram	aumentar	VERB	VERB	_	36	acl:relcl	_	TokenRange=339:349
+48	pena	_	NOUN	NOUN	_	47	obj	_	TokenRange=350:354
+49	12	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=355:357
+50	anos	ano	NOUN	NOUN	_	47	nmod	_	TokenRange=358:362
+51	mes	_	DET	DET	_	52	det	_	TokenRange=363:366
+52	avenida	avenida	NOUN	NOUN	_	57	nsubj	_	TokenRange=367:374
+53	paulista	paulista	ADJ	ADJ	_	52	amod	_	TokenRange=375:383
+54	manifestantes	manifestante	NOUN	NOUN	_	57	nsubj	_	TokenRange=384:397
+55	contra	_	ADP	ADP	_	56	case	_	TokenRange=398:404
+56	lula	lula	NOUN	NOUN	_	54	nmod	_	TokenRange=405:409
+57	reuniram	reunir	VERB	VERB	_	47	parataxis	_	TokenRange=410:418
+58	frente	frente	NOUN	NOUN	_	57	obj	_	TokenRange=419:425
+59	masp	_	NOUN	NOUN	_	61	appos	_	TokenRange=426:430
+60	protestar	protestar	VERB	VERB	_	57	conj	_	TokenRange=431:440
+61	cartazes	cartaz	NOUN	NOUN	_	60	obj	_	TokenRange=441:449
+62	bonecos	boneco	ADJ	ADJ	_	61	amod	_	TokenRange=450:457
+63	imagem	imagem	NOUN	NOUN	_	61	appos	_	TokenRange=458:464
+64	lula	_	NOUN	NOUN	_	63	appos	_	TokenRange=465:469
+65	preso	_	VERB	VERB	_	63	acl	_	TokenRange=470:475
+66	roupas	roupa	NOUN	NOUN	_	65	obj	_	TokenRange=476:482
+67	cores	cor	ADJ	ADJ	_	66	amod	_	TokenRange=483:488
+68	verde	verde	ADJ	ADJ	_	66	amod	_	TokenRange=489:494
+69	amarela	amarelo	ADJ	ADJ	_	66	amod	_	TokenRange=495:502
+70	manifestantes	manifestante	NOUN	NOUN	_	71	nsubj	_	TokenRange=503:516
+71	pediam	pedir	VERB	VERB	_	47	parataxis	_	TokenRange=517:523
+72	confirmacao	confirmacao	NOUN	NOUN	_	71	obj	_	SpaceAfter=No|TokenRange=524:535
+

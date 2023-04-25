@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = michel temer podera candidato 2018 impeachment trapaca presidente camara deputados rodrigo maia afirmou michel temer candidatara presidencia 2018 caso bem avaliado pesquisas rodrigo unico confirmar possivel confirmacao golpe sim agora podemos falar golpe caso michel temer disposto concorrer cargo presidente processo impeachment farsa dilma voltar brasil precisara novas eleicoes folha s paulo informou menos tres ministros proeminentes presidente interino mencionam conversas reservadas nome disputar eleicao 2018 michel temer parece preocupado salvar pais dito discursos tudo indica peemedebista passara resto mandato tampao preparando candidatura dilma rousseff praticou crime michel
+1	michel	michel	ADJ	DET	_	2	amod	_	TokenRange=0:6
+2	temer	temer	NOUN	NOUN	_	4	nsubj	_	TokenRange=7:12
+3	podera	_	AUX	AUX	_	4	cop	_	TokenRange=13:19
+4	candidato	candidato	NOUN	NOUN	_	86	ccomp	_	TokenRange=20:29
+5	2018	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=30:34
+6	impeachment	impeachment	NOUN	NOUN	_	4	appos	_	TokenRange=35:46
+7	trapaca	_	NOUN	NOUN	_	4	flat	_	TokenRange=47:54
+8	presidente	presidente	NOUN	NOUN	_	4	appos	_	TokenRange=55:65
+9	camara	camara	ADJ	ADJ	_	10	amod	_	TokenRange=66:72
+10	deputados	deputado	NOUN	NOUN	_	8	appos	_	TokenRange=73:82
+11	rodrigo	_	NOUN	ADJ	_	10	appos	_	TokenRange=83:90
+12	maia	_	NOUN	NOUN	_	11	flat	_	TokenRange=91:95
+13	afirmou	afirmar	VERB	VERB	_	4	parataxis	_	TokenRange=96:103
+14	michel	michel	DET	DET	_	15	amod	_	TokenRange=104:110
+15	temer	temer	NOUN	NOUN	_	16	nsubj	_	TokenRange=111:116
+16	candidatara	candidatar	VERB	VERB	_	13	ccomp	_	TokenRange=117:128
+17	presidencia	presidencia	NOUN	NOUN	_	16	obj	_	TokenRange=129:140
+18	2018	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=141:145
+19	caso	caso	NOUN	NOUN	_	21	mark	_	TokenRange=146:150
+20	bem	bem	ADV	ADV	_	21	advmod	_	TokenRange=151:154
+21	avaliado	avaliar	VERB	VERB	_	16	advcl	_	TokenRange=155:163
+22	pesquisas	pesquisa	NOUN	NOUN	_	21	nsubj	_	TokenRange=164:173
+23	rodrigo	_	NOUN	NOUN	_	22	appos	_	TokenRange=174:181
+24	unico	unico	ADJ	ADJ	_	23	amod	_	TokenRange=182:187
+25	confirmar	confirmar	VERB	VERB	_	13	parataxis	_	TokenRange=188:197
+26	possivel	_	ADJ	ADJ	_	27	amod	_	TokenRange=198:206
+27	confirmacao	_	NOUN	NOUN	_	25	obj	_	TokenRange=207:218
+28	golpe	golpe	NOUN	NOUN	_	25	obj	_	TokenRange=219:224
+29	sim	sim	ADV	ADV	_	32	advmod	_	TokenRange=225:228
+30	agora	agora	ADV	ADV	_	32	advmod	_	TokenRange=229:234
+31	podemos	_	AUX	AUX	_	32	aux	_	TokenRange=235:242
+32	falar	falar	VERB	VERB	_	25	parataxis	_	TokenRange=243:248
+33	golpe	golpe	NOUN	NOUN	_	32	obj	_	TokenRange=249:254
+34	caso	_	CCONJ	CONJ	_	32	mark	_	TokenRange=255:259
+35	michel	_	DET	DET	_	36	det	_	TokenRange=260:266
+36	temer	temer	NOUN	NOUN	_	32	nsubj	_	TokenRange=267:272
+37	disposto	disposto	ADJ	ADJ	_	36	amod	_	TokenRange=273:281
+38	concorrer	concorrer	VERB	VERB	_	32	advcl	_	TokenRange=282:291
+39	cargo	cargo	NOUN	NOUN	_	38	obj	_	TokenRange=292:297
+40	presidente	presidente	NOUN	NOUN	_	39	amod	_	TokenRange=298:308
+41	processo	processo	NOUN	NOUN	_	36	appos	_	TokenRange=309:317
+42	impeachment	impeachment	NOUN	NOUN	_	41	flat	_	TokenRange=318:329
+43	farsa	farsa	NOUN	NOUN	_	47	nsubj	_	TokenRange=330:335
+44	dilma	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=336:341
+45	voltar	voltar	VERB	VERB	_	43	acl:relcl	_	TokenRange=342:348
+46	brasil	brasil	NOUN	NOUN	_	45	obj	_	TokenRange=349:355
+47	precisara	precisar	VERB	VERB	_	32	parataxis	_	TokenRange=356:365
+48	novas	novo	ADJ	ADJ	_	49	amod	_	TokenRange=366:371
+49	eleicoes	eleicoe	NOUN	NOUN	_	47	obj	_	TokenRange=372:380
+50	folha	folha	NOUN	NOUN	_	47	nsubj	_	TokenRange=381:386
+51	s	_	ADP	NOUN	_	52	case	_	TokenRange=387:388
+52	paulo	paulo	NOUN	NOUN	_	50	nmod	_	TokenRange=389:394
+53	informou	informar	VERB	VERB	_	32	parataxis	_	TokenRange=395:403
+54	menos	menos	ADV	ADV	_	55	advmod	_	TokenRange=404:409
+55	tres	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=410:414
+56	ministros	ministro	NOUN	NOUN	_	53	obj	_	TokenRange=415:424
+57	proeminentes	proeminente	ADJ	ADJ	_	56	amod	_	TokenRange=425:437
+58	presidente	presidente	NOUN	NOUN	_	56	appos	_	TokenRange=438:448
+59	interino	interino	ADJ	ADJ	_	58	amod	_	TokenRange=449:457
+60	mencionam	mencionar	VERB	VERB	_	53	ccomp	_	TokenRange=458:467
+61	conversas	_	NOUN	NOUN	_	60	obj	_	TokenRange=468:477
+62	reservadas	reservado	ADJ	ADJ	_	61	amod	_	TokenRange=478:488
+63	nome	nome	NOUN	NOUN	_	69	nsubj	_	TokenRange=489:493
+64	disputar	disputar	VERB	VERB	_	61	acl:inf	_	TokenRange=494:502
+65	eleicao	eleicao	NOUN	NOUN	_	64	obj	_	TokenRange=503:510
+66	2018	_	NUM	NUM	NumType=Card	65	nmod	_	TokenRange=511:515
+67	michel	michel	DET	DET	_	68	amod	_	TokenRange=516:522
+68	temer	temer	NOUN	NOUN	_	69	nsubj	_	TokenRange=523:528
+69	parece	parecer	VERB	VERB	_	60	parataxis	_	TokenRange=529:535
+70	preocupado	preocupado	ADJ	ADJ	_	69	xcomp	_	TokenRange=536:546
+71	salvar	salvar	VERB	VERB	_	69	csubj	_	TokenRange=547:553
+72	pais	_	NOUN	NOUN	_	71	obj	_	TokenRange=554:558
+73	dito	_	VERB	VERB	_	74	det	_	TokenRange=559:563
+74	discursos	discurso	NOUN	NOUN	_	71	obj	_	TokenRange=564:573
+75	tudo	_	PRON	PRON	_	76	nsubj	_	TokenRange=574:578
+76	indica	indicar	VERB	VERB	_	74	acl:relcl	_	TokenRange=579:585
+77	peemedebista	_	NOUN	NOUN	_	76	nsubj	_	TokenRange=586:598
+78	passara	passar	VERB	VERB	_	69	conj	_	TokenRange=599:606
+79	resto	resto	NOUN	NOUN	_	78	obj	_	TokenRange=607:612
+80	mandato	mandato	NOUN	NOUN	_	79	flat	_	TokenRange=613:620
+81	tampao	tampao	NOUN	NOUN	_	79	flat	_	TokenRange=621:627
+82	preparando	preparar	VERB	VERB	_	79	acl	_	TokenRange=628:638
+83	candidatura	candidatura	NOUN	NOUN	_	82	obj	_	TokenRange=639:650
+84	dilma	dilma	ADJ	ADJ	_	83	amod	_	TokenRange=651:656
+85	rousseff	rousseff	NOUN	NOUN	_	87	amod	_	TokenRange=657:665
+86	praticou	praticar	VERB	VERB	_	0	root	_	TokenRange=666:674
+87	crime	crime	NOUN	NOUN	_	86	obj	_	TokenRange=675:680
+88	michel	michel	ADJ	ADJ	_	87	appos	_	SpaceAfter=No|TokenRange=681:687
+

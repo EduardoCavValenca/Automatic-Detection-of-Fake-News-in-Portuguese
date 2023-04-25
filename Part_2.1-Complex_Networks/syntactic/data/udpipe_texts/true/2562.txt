@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = disparada acoes eletrobras ganha r 913 bilhoes valor mercado valor mercado estatal subiu r 2930 bilhoes ante r 2017 bilhoes fechamento pregao vespera disparada acoes eletrobras nesta tercafeira 22 apos governo anunciar plano privatizacao estatal setor eletrico companhia viu valor mercado aumentar r 913 bilhoes unico dia segundo dados provedora informacoes financeiras economatica acoes ordinarias eletrobras dao direito acionistas voto assembleias subiram 493 r 2120 acoes preferenciais dao acionistas prioridade recebimento lucros empresa avancavam
+1	disparada	disparar	VERB	VERB	_	2	acl	_	TokenRange=0:9
+2	acoes	acoe	NOUN	NOUN	_	4	nsubj	_	TokenRange=10:15
+3	eletrobras	eletrobro	ADJ	ADJ	_	2	amod	_	TokenRange=16:26
+4	ganha	ganhar	VERB	VERB	_	0	root	_	TokenRange=27:32
+5	r	r	NOUN	NOUN	_	4	obj	_	TokenRange=33:34
+6	913	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=35:38
+7	bilhoes	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=39:46
+8	valor	valor	NOUN	NOUN	_	4	obj	_	TokenRange=47:52
+9	mercado	mercado	NOUN	NOUN	_	8	flat	_	TokenRange=53:60
+10	valor	valor	NOUN	NOUN	_	8	appos	_	TokenRange=61:66
+11	mercado	mercado	NOUN	NOUN	_	8	flat	_	TokenRange=67:74
+12	estatal	estatal	ADJ	ADJ	_	10	amod	_	TokenRange=75:82
+13	subiu	subir	VERB	VERB	_	4	parataxis	_	TokenRange=83:88
+14	r	r	NOUN	NOUN	_	13	nmod	_	TokenRange=89:90
+15	2930	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=91:95
+16	bilhoes	_	NOUN	NOUN	_	13	obj	_	TokenRange=96:103
+17	ante	_	ADP	ADP	_	18	case	_	TokenRange=104:108
+18	r	_	NOUN	NOUN	_	13	nmod	_	TokenRange=109:110
+19	2017	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=111:115
+20	bilhoes	_	NOUN	NOUN	_	21	appos	_	TokenRange=116:123
+21	fechamento	fechamento	NOUN	NOUN	_	13	appos	_	TokenRange=124:134
+22	pregao	pregao	NOUN	NOUN	_	21	appos	_	TokenRange=135:141
+23	vespera	vesper	NOUN	NOUN	_	21	flat	_	TokenRange=142:149
+24	disparada	disparar	VERB	VERB	_	25	acl	_	TokenRange=150:159
+25	acoes	acoe	NOUN	NOUN	_	13	nsubj	_	TokenRange=160:165
+26	eletrobras	_	ADJ	ADJ	_	25	amod	_	TokenRange=166:176
+27	nesta	_	ADP	ADP	_	28	case	_	TokenRange=177:182
+28	tercafeira	_	NOUN	NOUN	_	25	nmod	_	TokenRange=183:193
+29	22	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=194:196
+30	apos	_	ADP	ADP	_	32	mark	_	TokenRange=197:201
+31	governo	governo	NOUN	NOUN	_	32	nsubj	_	TokenRange=202:209
+32	anunciar	anunciar	VERB	VERB	_	25	nmod	_	TokenRange=210:218
+33	plano	plano	NOUN	NOUN	_	32	obj	_	TokenRange=219:224
+34	privatizacao	privatizacao	ADJ	ADJ	_	33	amod	_	TokenRange=225:237
+35	estatal	estatal	ADJ	ADJ	_	33	amod	_	TokenRange=238:245
+36	setor	setor	NOUN	NOUN	_	33	appos	_	TokenRange=246:251
+37	eletrico	eletrico	ADJ	ADJ	_	36	amod	_	TokenRange=252:260
+38	companhia	companhia	NOUN	NOUN	_	39	nsubj	_	TokenRange=261:270
+39	viu	ver	VERB	VERB	_	4	parataxis	_	TokenRange=271:274
+40	valor	valor	NOUN	NOUN	_	39	obj	_	TokenRange=275:280
+41	mercado	mercado	NOUN	NOUN	_	40	flat	_	TokenRange=281:288
+42	aumentar	aumentar	VERB	VERB	_	40	acl:inf	_	TokenRange=289:297
+43	r	r	NOUN	NOUN	_	42	nmod	_	TokenRange=298:299
+44	913	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=300:303
+45	bilhoes	_	NOUN	NOUN	_	43	appos	_	TokenRange=304:311
+46	unico	_	ADJ	ADJ	_	47	amod	_	TokenRange=312:317
+47	dia	dia	NOUN	NOUN	_	42	nmod	_	TokenRange=318:321
+48	segundo	_	ADP	ADP	_	49	case	_	TokenRange=322:329
+49	dados	dado	NOUN	NOUN	_	42	nmod	_	TokenRange=330:335
+50	provedora	provedor	ADJ	ADJ	_	49	amod	_	TokenRange=336:345
+51	informacoes	informacoe	NOUN	NOUN	_	39	nsubj	_	TokenRange=346:357
+52	financeiras	financeiro	ADJ	ADJ	_	51	amod	_	TokenRange=358:369
+53	economatica	_	ADJ	ADJ	_	51	amod	_	TokenRange=370:381
+54	acoes	acoe	NOUN	NOUN	_	51	appos	_	TokenRange=382:387
+55	ordinarias	ordinario	ADJ	ADJ	_	54	amod	_	TokenRange=388:398
+56	eletrobras	_	ADJ	NOUN	_	54	amod	_	TokenRange=399:409
+57	dao	_	VERB	VERB	_	54	acl	_	TokenRange=410:413
+58	direito	direito	NOUN	NOUN	_	57	obj	_	TokenRange=414:421
+59	acionistas	_	ADJ	ADJ	_	58	amod	_	TokenRange=422:432
+60	voto	voto	NOUN	NOUN	_	54	appos	_	TokenRange=433:437
+61	assembleias	assembleia	NOUN	NOUN	_	54	appos	_	TokenRange=438:449
+62	subiram	subir	VERB	VERB	_	4	parataxis	_	TokenRange=450:457
+63	493	_	NUM	NUM	NumType=Card	62	nmod	_	TokenRange=458:461
+64	r	r	NOUN	NOUN	_	62	punct	_	TokenRange=462:463
+65	2120	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=464:468
+66	acoes	acoe	NOUN	NOUN	_	62	nsubj	_	TokenRange=469:474
+67	preferenciais	preferencial	ADJ	ADJ	_	66	amod	_	TokenRange=475:488
+68	dao	_	VERB	VERB	_	74	parataxis	_	TokenRange=489:492
+69	acionistas	_	NOUN	NOUN	_	74	obj	_	TokenRange=493:503
+70	prioridade	prioridade	NOUN	NOUN	_	74	obj	_	TokenRange=504:514
+71	recebimento	recebimento	ADJ	ADJ	_	70	amod	_	TokenRange=515:526
+72	lucros	lucro	ADJ	ADJ	_	73	amod	_	TokenRange=527:533
+73	empresa	empresa	NOUN	NOUN	_	74	nsubj	_	TokenRange=534:541
+74	avancavam	avancar	VERB	VERB	_	62	parataxis	_	SpaceAfter=No|TokenRange=542:551
+

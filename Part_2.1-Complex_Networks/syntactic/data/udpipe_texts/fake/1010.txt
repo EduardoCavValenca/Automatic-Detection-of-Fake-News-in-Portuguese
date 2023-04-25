@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula recebe intimacao justica escreve letras esgarranchadas pretendo recorrer lula recebeu oficial justica residencia bernardo vez demonstrou desprezo sistema judiciario brasileiro documento expedido juiz federal sergio moro consta intimacao oficial petista condenacao 95 anos prisao unica coisa expresidente fazer assinar documento contentou fez rabisco horroroso mensagem moro letras esgarranchadas condenado escreveu intimacao pretendo recorrer
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	recebe	receber	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	intimacao	intimacao	NOUN	NOUN	_	2	obj	_	TokenRange=12:21
+4	justica	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=22:29
+5	escreve	escrever	VERB	VERB	_	2	ccomp	_	TokenRange=30:37
+6	letras	_	NOUN	NOUN	_	5	obj	_	TokenRange=38:44
+7	esgarranchadas	esgarranchado	ADJ	ADJ	_	6	amod	_	TokenRange=45:59
+8	pretendo	pretender	VERB	VERB	_	5	acl	_	TokenRange=60:68
+9	recorrer	recorrer	VERB	VERB	_	8	xcomp	_	TokenRange=69:77
+10	lula	_	NOUN	NOUN	_	9	obj	_	TokenRange=78:82
+11	recebeu	receber	VERB	VERB	_	2	conj	_	TokenRange=83:90
+12	oficial	oficial	ADJ	ADJ	_	13	amod	_	TokenRange=91:98
+13	justica	_	NOUN	NOUN	_	11	obj	_	TokenRange=99:106
+14	residencia	residencia	NOUN	NOUN	_	11	obj	_	TokenRange=107:117
+15	bernardo	bernardo	ADJ	ADJ	_	16	amod	_	TokenRange=118:126
+16	vez	vez	NOUN	NOUN	_	17	nmod	_	TokenRange=127:130
+17	demonstrou	demonstrar	VERB	VERB	_	11	parataxis	_	TokenRange=131:141
+18	desprezo	desprezo	NOUN	NOUN	_	17	obj	_	TokenRange=142:150
+19	sistema	sistema	NOUN	NOUN	_	18	appos	_	TokenRange=151:158
+20	judiciario	judiciario	ADJ	ADJ	_	19	amod	_	TokenRange=159:169
+21	brasileiro	brasileiro	ADJ	ADJ	_	19	amod	_	TokenRange=170:180
+22	documento	documento	NOUN	NOUN	_	17	nsubj	_	TokenRange=181:190
+23	expedido	expedido	ADJ	ADJ	_	24	amod	_	TokenRange=191:199
+24	juiz	juiz	NOUN	NOUN	_	22	appos	_	TokenRange=200:204
+25	federal	federal	ADJ	ADJ	_	24	amod	_	TokenRange=205:212
+26	sergio	sergio	NOUN	NOUN	_	24	appos	_	TokenRange=213:219
+27	moro	moro	NOUN	NOUN	_	24	flat	_	TokenRange=220:224
+28	consta	constar	VERB	VERB	_	2	parataxis	_	TokenRange=225:231
+29	intimacao	intimacao	NOUN	NOUN	_	28	obj	_	TokenRange=232:241
+30	oficial	oficial	ADJ	ADJ	_	29	amod	_	TokenRange=242:249
+31	petista	petista	NOUN	NOUN	_	29	appos	_	TokenRange=250:257
+32	condenacao	_	NOUN	NOUN	_	29	amod	_	TokenRange=258:268
+33	95	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=269:271
+34	anos	ano	NOUN	NOUN	_	29	appos	_	TokenRange=272:276
+35	prisao	prisao	NOUN	NOUN	_	28	nsubj	_	TokenRange=277:283
+36	unica	unico	ADJ	ADJ	_	37	amod	_	TokenRange=284:289
+37	coisa	coisa	NOUN	NOUN	_	28	nsubj	_	TokenRange=290:295
+38	expresidente	expresidente	ADJ	ADJ	_	37	amod	_	TokenRange=296:308
+39	fazer	fazer	VERB	VERB	_	37	acl:relcl	_	TokenRange=309:314
+40	assinar	assinar	VERB	VERB	_	39	xcomp	_	TokenRange=315:322
+41	documento	documento	NOUN	NOUN	_	40	obj	_	TokenRange=323:332
+42	contentou	contentar	ADJ	ADJ	_	41	amod	_	TokenRange=333:342
+43	fez	fazer	VERB	VERB	_	39	parataxis	_	TokenRange=343:346
+44	rabisco	rabisco	NOUN	NOUN	_	43	obj	_	TokenRange=347:354
+45	horroroso	horroroso	ADJ	ADJ	_	46	amod	_	TokenRange=355:364
+46	mensagem	mensagem	NOUN	NOUN	_	43	nsubj	_	TokenRange=365:373
+47	moro	moro	ADJ	ADJ	_	46	amod	_	TokenRange=374:378
+48	letras	_	NOUN	NOUN	_	46	appos	_	TokenRange=379:385
+49	esgarranchadas	esgarranchado	ADJ	ADJ	_	48	amod	_	TokenRange=386:400
+50	condenado	condenar	VERB	VERB	_	48	acl	_	TokenRange=401:410
+51	escreveu	escrever	VERB	VERB	_	28	parataxis	_	TokenRange=411:419
+52	intimacao	intimacao	NOUN	NOUN	_	51	obj	_	TokenRange=420:429
+53	pretendo	pretender	VERB	VERB	_	51	acl	_	TokenRange=430:438
+54	recorrer	recorrer	VERB	VERB	_	53	xcomp	_	SpaceAfter=No|TokenRange=439:447
+

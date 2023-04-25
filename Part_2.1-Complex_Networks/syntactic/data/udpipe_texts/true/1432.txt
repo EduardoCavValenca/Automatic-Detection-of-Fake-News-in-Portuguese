@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf prende geddel vieira lima apos apreensao r 51 mi dinheiro especie escondido malas apartamento utilizado exministro cumpria mandado prisao domiciliar salvador brasilia policia federal prendeu exministro geddel vieira lima pmdb decisao 10 vara brasilia manha desta sextafeira 8 medida fase operacao cui bono desdobramento
+1	pf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	prende	_	VERB	VERB	_	0	root	_	TokenRange=3:9
+3	geddel	_	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	vieira	vieira	NOUN	NOUN	_	3	flat	_	TokenRange=17:23
+5	lima	lima	ADJ	ADJ	_	3	flat	_	TokenRange=24:28
+6	apos	_	ADP	ADP	_	7	case	_	TokenRange=29:33
+7	apreensao	apreensao	NOUN	NOUN	_	2	nmod	_	TokenRange=34:43
+8	r	r	NOUN	NOUN	_	7	appos	_	TokenRange=44:45
+9	51	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=46:48
+10	mi	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=49:51
+11	dinheiro	dinheiro	NOUN	NOUN	_	8	appos	_	TokenRange=52:60
+12	especie	especie	NOUN	NOUN	_	11	appos	_	TokenRange=61:68
+13	escondido	escondido	ADJ	ADJ	_	15	amod	_	TokenRange=69:78
+14	malas	malo	ADJ	ADJ	_	15	amod	_	TokenRange=79:84
+15	apartamento	apartamento	NOUN	NOUN	_	26	nsubj	_	TokenRange=85:96
+16	utilizado	utilizar	VERB	VERB	_	15	acl	_	TokenRange=97:106
+17	exministro	exministro	NOUN	NOUN	_	15	appos	_	TokenRange=107:117
+18	cumpria	cumprir	VERB	VERB	_	15	acl	_	TokenRange=118:125
+19	mandado	mandado	NOUN	NOUN	_	18	obj	_	TokenRange=126:133
+20	prisao	prisao	NOUN	NOUN	_	19	appos	_	TokenRange=134:140
+21	domiciliar	domiciliar	ADJ	ADJ	_	20	amod	_	TokenRange=141:151
+22	salvador	salvador	NOUN	NOUN	_	19	appos	_	TokenRange=152:160
+23	brasilia	brasilia	ADJ	ADJ	_	24	amod	_	TokenRange=161:169
+24	policia	policia	NOUN	NOUN	_	26	nsubj	_	TokenRange=170:177
+25	federal	federal	ADJ	ADJ	_	24	amod	_	TokenRange=178:185
+26	prendeu	prender	VERB	VERB	_	2	conj	_	TokenRange=186:193
+27	exministro	exministro	NOUN	NOUN	_	26	obj	_	TokenRange=194:204
+28	geddel	_	NOUN	NOUN	_	27	appos	_	TokenRange=205:211
+29	vieira	vieira	NOUN	NOUN	_	28	flat	_	TokenRange=212:218
+30	lima	lima	ADJ	ADJ	_	28	amod	_	TokenRange=219:223
+31	pmdb	_	NOUN	NOUN	_	27	appos	_	TokenRange=224:228
+32	decisao	decisao	NOUN	NOUN	_	27	appos	_	TokenRange=229:236
+33	10	_	NUM	NUM	NumType=Card	32	appos	_	TokenRange=237:239
+34	vara	vara	NOUN	NOUN	_	26	parataxis	_	TokenRange=240:244
+35	brasilia	brasilia	NOUN	NOUN	_	34	flat	_	TokenRange=245:253
+36	manha	manha	NOUN	NOUN	_	34	appos	_	TokenRange=254:259
+37	desta	_	ADP	ADP	_	38	case	_	TokenRange=260:265
+38	sextafeira	sextafeira	NOUN	NOUN	_	36	nmod	_	TokenRange=266:276
+39	8	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=277:278
+40	medida	medida	NOUN	NOUN	_	38	appos	_	TokenRange=279:285
+41	fase	fase	NOUN	NOUN	_	38	flat	_	TokenRange=286:290
+42	operacao	operacao	NOUN	NOUN	_	34	appos	_	TokenRange=291:299
+43	cui	_	PART	PRT	_	45	appos	_	TokenRange=300:303
+44	bono	bono	ADJ	ADJ	_	42	flat	_	TokenRange=304:308
+45	desdobramento	desdobramento	NOUN	NOUN	_	42	flat	_	SpaceAfter=No|TokenRange=309:322
+

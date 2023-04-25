@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reforco comunista cacas venezuela flagrados sobrevoando territorio brasileiro nicolas maduro colocou disposicao lula tentar derrubar michel temer possui 23 cacas russos sukhoi su30 potentes mundo forca aerea venezuela feito sobrevoos ultimos dias potentes cacas regiao amazonica fronteira brasil noticia divulgada portal uol aparentemente sobrevoos podem tratar exercicio aereo considerado raro regiao outras informacoes dao conta voos podem devaneio presidente comunista aloprado nicolas maduro forca aerea brasileira apenas 2 cacas f5 alcance menor aposentados mirage base anapolis go 100 km capital brasilia cacas bolivarianos podem chegar brasilia apenas 3 horas
+1	reforco	reforco	NOUN	NOUN	_	18	nsubj	_	TokenRange=0:7
+2	comunista	comunista	ADJ	ADJ	_	1	amod	_	TokenRange=8:17
+3	cacas	caca	NOUN	NOUN	_	1	appos	_	TokenRange=18:23
+4	venezuela	_	ADJ	ADJ	_	1	amod	_	TokenRange=24:33
+5	flagrados	flagrar	ADJ	ADJ	_	1	acl	_	TokenRange=34:43
+6	sobrevoando	sobrevoar	VERB	VERB	_	1	acl	_	TokenRange=44:55
+7	territorio	territorio	NOUN	NOUN	_	6	obj	_	TokenRange=56:66
+8	brasileiro	brasileiro	ADJ	ADJ	_	7	amod	_	TokenRange=67:77
+9	nicolas	_	ADJ	ADJ	_	1	amod	_	TokenRange=78:85
+10	maduro	maduro	NOUN	NOUN	_	1	amod	_	TokenRange=86:92
+11	colocou	colocar	VERB	VERB	_	1	acl:relcl	_	TokenRange=93:100
+12	disposicao	disposicao	NOUN	NOUN	_	11	obj	_	TokenRange=101:111
+13	lula	_	ADJ	ADJ	_	12	amod	_	TokenRange=112:116
+14	tentar	tentar	VERB	VERB	_	11	ccomp	_	TokenRange=117:123
+15	derrubar	derrubar	VERB	VERB	_	14	xcomp	_	TokenRange=124:132
+16	michel	michel	ADJ	ADJ	_	17	amod	_	TokenRange=133:139
+17	temer	temer	NOUN	NOUN	_	15	obj	_	TokenRange=140:145
+18	possui	possuir	VERB	VERB	_	0	root	_	TokenRange=146:152
+19	23	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=153:155
+20	cacas	caca	NOUN	NOUN	_	18	obj	_	TokenRange=156:161
+21	russos	russo	ADJ	ADJ	_	20	amod	_	TokenRange=162:168
+22	sukhoi	_	NOUN	NOUN	_	20	appos	_	TokenRange=169:175
+23	su30	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=176:180
+24	potentes	potente	ADJ	ADJ	_	25	amod	_	TokenRange=181:189
+25	mundo	mundo	NOUN	NOUN	_	18	nsubj	_	TokenRange=190:195
+26	forca	forca	NOUN	NOUN	_	25	appos	_	TokenRange=196:201
+27	aerea	aereo	ADJ	ADJ	_	26	amod	_	TokenRange=202:207
+28	venezuela	_	ADJ	ADJ	_	26	amod	_	TokenRange=208:217
+29	feito	_	VERB	VERB	_	11	parataxis	_	TokenRange=218:223
+30	sobrevoos	sobrevoo	NOUN	NOUN	_	29	obj	_	TokenRange=224:233
+31	ultimos	_	ADJ	ADJ	_	32	amod	_	TokenRange=234:241
+32	dias	dia	NOUN	NOUN	_	29	nmod	_	TokenRange=242:246
+33	potentes	potente	ADJ	ADJ	_	34	amod	_	TokenRange=247:255
+34	cacas	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=256:261
+35	regiao	regiao	NOUN	NOUN	_	34	appos	_	TokenRange=262:268
+36	amazonica	amazonico	ADJ	ADJ	_	35	amod	_	TokenRange=269:278
+37	fronteira	_	NOUN	NOUN	_	34	appos	_	TokenRange=279:288
+38	brasil	brasil	ADJ	ADJ	_	34	amod	_	TokenRange=289:295
+39	noticia	noticia	NOUN	NOUN	_	46	nsubj	_	TokenRange=296:303
+40	divulgada	divulgar	VERB	VERB	_	34	acl	_	TokenRange=304:313
+41	portal	portal	NOUN	NOUN	_	46	acl	_	TokenRange=314:320
+42	uol	_	PRON	PRON	_	41	appos	_	TokenRange=321:324
+43	aparentemente	aparentemente	ADV	ADV	_	44	advmod	_	TokenRange=325:338
+44	sobrevoos	sobrevoo	NOUN	NOUN	_	46	nsubj	_	TokenRange=339:348
+45	podem	_	AUX	AUX	_	46	aux	_	TokenRange=349:354
+46	tratar	tratar	VERB	VERB	_	11	parataxis	_	TokenRange=355:361
+47	exercicio	exercicio	NOUN	NOUN	_	46	obj	_	TokenRange=362:371
+48	aereo	aereo	ADJ	ADJ	_	47	amod	_	TokenRange=372:377
+49	considerado	considerar	VERB	VERB	_	46	acl	_	TokenRange=378:389
+50	raro	raro	ADJ	ADJ	_	51	amod	_	TokenRange=390:394
+51	regiao	regiao	NOUN	NOUN	_	49	nmod	_	TokenRange=395:401
+52	outras	_	DET	DET	_	53	det	_	TokenRange=402:408
+53	informacoes	informacoe	NOUN	NOUN	_	54	nsubj	_	TokenRange=409:420
+54	dao	daar	VERB	VERB	_	46	parataxis	_	TokenRange=421:424
+55	conta	conta	NOUN	NOUN	_	54	obj	_	TokenRange=425:430
+56	voos	voo	NOUN	NOUN	_	54	nsubj	_	TokenRange=431:435
+57	podem	_	AUX	AUX	_	58	aux	_	TokenRange=436:441
+58	devaneio	devaneio	VERB	VERB	_	54	ccomp	_	TokenRange=442:450
+59	presidente	presidente	NOUN	NOUN	_	58	obj	_	TokenRange=451:461
+60	comunista	comunista	ADJ	ADJ	_	59	amod	_	TokenRange=462:471
+61	aloprado	aloprado	ADJ	ADJ	_	59	amod	_	TokenRange=472:480
+62	nicolas	nicola	ADJ	ADJ	_	59	amod	_	TokenRange=481:488
+63	maduro	maduro	ADJ	ADJ	_	59	amod	_	TokenRange=489:495
+64	forca	forca	NOUN	NOUN	_	59	appos	_	TokenRange=496:501
+65	aerea	aereo	ADJ	ADJ	_	64	amod	_	TokenRange=502:507
+66	brasileira	brasileiro	ADJ	ADJ	_	64	amod	_	TokenRange=508:518
+67	apenas	apenas	ADV	ADV	_	68	advmod	_	TokenRange=519:525
+68	2	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=526:527
+69	cacas	caca	NOUN	NOUN	_	85	nsubj	_	TokenRange=528:533
+70	f5	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=534:536
+71	alcance	alcance	NOUN	NOUN	_	69	appos	_	TokenRange=537:544
+72	menor	menor	ADJ	ADJ	_	71	amod	_	TokenRange=545:550
+73	aposentados	aposentado	ADJ	NOUN	_	69	amod	_	TokenRange=551:562
+74	mirage	_	NOUN	NOUN	_	69	appos	_	TokenRange=563:569
+75	base	base	NOUN	NOUN	_	69	appos	_	TokenRange=570:574
+76	anapolis	_	NOUN	NOUN	_	75	flat	_	TokenRange=575:583
+77	go	_	NOUN	NOUN	_	79	appos	_	TokenRange=584:586
+78	100	_	NUM	NUM	NumType=Card	79	nummod	_	TokenRange=587:590
+79	km	km	NOUN	NOUN	_	69	appos	_	TokenRange=591:593
+80	capital	capital	NOUN	NOUN	_	79	amod	_	TokenRange=594:601
+81	brasilia	brasilia	ADJ	ADJ	_	82	amod	_	TokenRange=602:610
+82	cacas	caca	NOUN	NOUN	_	85	nsubj	_	TokenRange=611:616
+83	bolivarianos	bolivariano	ADJ	ADJ	_	82	amod	_	TokenRange=617:629
+84	podem	_	AUX	AUX	_	85	aux	_	TokenRange=630:635
+85	chegar	chegar	VERB	VERB	_	18	parataxis	_	TokenRange=636:642
+86	brasilia	brasilia	NOUN	NOUN	_	85	obj	_	TokenRange=643:651
+87	apenas	apenas	ADV	ADV	_	88	advmod	_	TokenRange=652:658
+88	3	_	NUM	NUM	NumType=Card	89	nummod	_	TokenRange=659:660
+89	horas	hora	NOUN	NOUN	_	85	nmod	_	SpaceAfter=No|TokenRange=661:666
+

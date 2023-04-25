@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = chile vai urnas eleger sucessor bachelet expresidente pinera favorito sebastian pinera apoio centrodireita 444 intencoes voto enfrenta outros sete candidatos chilenos vao urnas neste domingo 19 escolher substituto michelle bachelet presidencia alem renovar parlamento conselhos regionais favorito suceder segundo mandato bachelet expresidente sebastian pinera lider alianca direita chile vamos aparece primeiro lugar
+1	chile	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	vai	ir	AUX	AUX	_	3	cop	_	TokenRange=6:9
+3	urnas	urna	NOUN	NOUN	_	50	nsubj	_	TokenRange=10:15
+4	eleger	eleger	VERB	VERB	_	3	csubj	_	TokenRange=16:22
+5	sucessor	sucessor	NOUN	NOUN	_	4	obj	_	TokenRange=23:31
+6	bachelet	_	NOUN	NOUN	_	5	appos	_	TokenRange=32:40
+7	expresidente	expresidente	NOUN	NOUN	_	5	appos	_	TokenRange=41:53
+8	pinera	pinera	ADJ	ADJ	_	7	amod	_	TokenRange=54:60
+9	favorito	favorito	ADJ	ADJ	_	7	amod	_	TokenRange=61:69
+10	sebastian	_	NOUN	NOUN	_	7	amod	_	TokenRange=70:79
+11	pinera	pinera	ADJ	ADJ	_	12	amod	_	TokenRange=80:86
+12	apoio	apoio	NOUN	NOUN	_	4	obj	_	TokenRange=87:92
+13	centrodireita	_	ADJ	ADJ	_	12	amod	_	TokenRange=93:106
+14	444	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=107:110
+15	intencoes	_	NOUN	NOUN	_	12	appos	_	TokenRange=111:120
+16	voto	voto	NOUN	NOUN	_	15	flat	_	TokenRange=121:125
+17	enfrenta	enfrentar	VERB	VERB	_	4	conj	_	TokenRange=126:134
+18	outros	_	DET	DET	_	20	det	_	TokenRange=135:141
+19	sete	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=142:146
+20	candidatos	candidato	NOUN	NOUN	_	17	obj	_	TokenRange=147:157
+21	chilenos	chileno	ADJ	ADJ	_	20	amod	_	TokenRange=158:166
+22	vao	ir	VERB	VERB	_	17	parataxis	_	TokenRange=167:170
+23	urnas	urna	NOUN	NOUN	_	22	obj	_	TokenRange=171:176
+24	neste	_	ADP	ADP	_	25	case	_	TokenRange=177:182
+25	domingo	_	PROPN	PNOUN	_	22	nmod	_	TokenRange=183:190
+26	19	_	NUM	NUM	NumType=Card	25	nmod	_	TokenRange=191:193
+27	escolher	escolher	VERB	VERB	_	22	csubj	_	TokenRange=194:202
+28	substituto	substituto	NOUN	NOUN	_	27	obj	_	TokenRange=203:213
+29	michelle	_	NOUN	NOUN	_	28	appos	_	TokenRange=214:222
+30	bachelet	_	NOUN	NOUN	_	29	flat	_	TokenRange=223:231
+31	presidencia	presidencia	NOUN	NOUN	_	29	flat	_	TokenRange=232:243
+32	alem	alem	ADV	ADV	_	33	advmod	_	TokenRange=244:248
+33	renovar	renovar	VERB	VERB	_	22	advcl	_	TokenRange=249:256
+34	parlamento	parlamento	NOUN	NOUN	_	33	obj	_	TokenRange=257:267
+35	conselhos	conselho	NOUN	NOUN	_	34	appos	_	TokenRange=268:277
+36	regionais	regional	ADJ	ADJ	_	35	amod	_	TokenRange=278:287
+37	favorito	favorito	ADJ	ADJ	_	35	amod	_	TokenRange=288:296
+38	suceder	suceder	VERB	VERB	_	35	acl:inf	_	TokenRange=297:304
+39	segundo	segundo	ADJ	ADJ	_	40	amod	_	TokenRange=305:312
+40	mandato	mandato	NOUN	NOUN	_	38	obj	_	TokenRange=313:320
+41	bachelet	_	ADJ	ADJ	_	40	appos	_	TokenRange=321:329
+42	expresidente	expresidente	NOUN	NOUN	_	40	appos	_	TokenRange=330:342
+43	sebastian	_	ADJ	ADJ	_	40	amod	_	TokenRange=343:352
+44	pinera	pinera	ADJ	ADJ	_	42	amod	_	TokenRange=353:359
+45	lider	lider	NOUN	NOUN	_	42	amod	_	TokenRange=360:365
+46	alianca	alianca	NOUN	NOUN	_	42	appos	_	TokenRange=366:373
+47	direita	direito	ADJ	ADJ	_	46	amod	_	TokenRange=374:381
+48	chile	_	NOUN	NOUN	_	46	appos	_	TokenRange=382:387
+49	vamos	ir	AUX	AUX	_	50	aux	_	TokenRange=388:393
+50	aparece	aparecer	VERB	VERB	_	0	root	_	TokenRange=394:401
+51	primeiro	primeiro	ADJ	ADJ	_	52	amod	_	TokenRange=402:410
+52	lugar	lugar	NOUN	NOUN	_	50	obj	_	SpaceAfter=No|TokenRange=411:416
+

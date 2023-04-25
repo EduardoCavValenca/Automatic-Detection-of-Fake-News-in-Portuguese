@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = avo neta gravida morta retirada bebe mg desabafa quero justica crime registrado dezembro bairro monte hebron uberlandia crianca recebeu alta hcufu duas semanas sob cuidados familia paterna faz tres meses pensionista maria aparecida silva 63 anos convive dor aflicao perder neta forma cruel pudesse imaginar jovem gabrielle barcelos assassinada vizinha bairro monte hebron uberlandia bebe oito meses arrancado barriga re confessa aline roberta fagundes indiciada arquitetado morte gestante 18 anos cometido assassinato poder roubar
+1	avo	avo	NOUN	NOUN	_	19	nsubj	_	TokenRange=0:3
+2	neta	neto	NOUN	NOUN	_	1	amod	_	TokenRange=4:8
+3	gravida	_	ADJ	ADJ	_	1	amod	_	TokenRange=9:16
+4	morta	morto	ADJ	ADJ	_	1	amod	_	TokenRange=17:22
+5	retirada	retirar	VERB	VERB	_	1	acl	_	TokenRange=23:31
+6	bebe	bebe	NOUN	NOUN	_	1	appos	_	TokenRange=32:36
+7	mg	_	NOUN	NOUN	_	6	flat	_	TokenRange=37:39
+8	desabafa	_	NOUN	NOUN	_	1	appos	_	TokenRange=40:48
+9	quero	quero	NOUN	NOUN	_	0	root	_	TokenRange=49:54
+10	justica	_	ADJ	ADJ	_	11	amod	_	TokenRange=55:62
+11	crime	crime	NOUN	NOUN	_	9	appos	_	TokenRange=63:68
+12	registrado	registrar	VERB	VERB	_	1	acl	_	TokenRange=69:79
+13	dezembro	_	PROPN	PNOUN	_	12	nmod	_	TokenRange=80:88
+14	bairro	bairro	NOUN	NOUN	_	13	appos	_	TokenRange=89:95
+15	monte	monte	NOUN	NOUN	_	14	flat	_	TokenRange=96:101
+16	hebron	_	NOUN	NOUN	_	14	flat	_	TokenRange=102:108
+17	uberlandia	uberlandia	NOUN	NOUN	_	14	appos	_	TokenRange=109:119
+18	crianca	crianco	ADJ	NOUN	_	17	amod	_	TokenRange=120:127
+19	recebeu	receber	VERB	VERB	_	9	parataxis	_	TokenRange=128:135
+20	alta	_	NOUN	NOUN	_	19	obj	_	TokenRange=136:140
+21	hcufu	_	VERB	VERB	_	20	appos	_	TokenRange=141:146
+22	duas	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=147:151
+23	semanas	semana	NOUN	NOUN	_	19	nsubj	_	TokenRange=152:159
+24	sob	_	ADP	ADP	_	25	case	_	TokenRange=160:163
+25	cuidados	cuidado	NOUN	NOUN	_	23	nmod	_	TokenRange=164:172
+26	familia	familia	NOUN	NOUN	_	28	nsubj	_	TokenRange=173:180
+27	paterna	paterno	ADJ	ADJ	_	26	amod	_	TokenRange=181:188
+28	faz	fazer	VERB	VERB	_	19	advcl	_	TokenRange=189:192
+29	tres	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=193:197
+30	meses	mês	NOUN	NOUN	_	28	obj	_	TokenRange=198:203
+31	pensionista	pensionista	ADJ	ADJ	_	30	amod	_	TokenRange=204:215
+32	maria	maria	NOUN	NOUN	_	37	nsubj	_	TokenRange=216:221
+33	aparecida	aparecido	ADJ	ADJ	_	32	amod	_	TokenRange=222:231
+34	silva	silva	NOUN	NOUN	_	32	flat	_	TokenRange=232:237
+35	63	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=238:240
+36	anos	ano	NOUN	NOUN	_	37	nsubj	_	TokenRange=241:245
+37	convive	conviver	VERB	VERB	_	19	parataxis	_	TokenRange=246:253
+38	dor	dor	NOUN	NOUN	_	37	obj	_	TokenRange=254:257
+39	aflicao	aflicao	ADJ	ADJ	_	42	amod	_	TokenRange=258:265
+40	perder	perder	VERB	VERB	_	37	ccomp	_	TokenRange=266:272
+41	neta	neto	NOUN	NOUN	_	42	amod	_	TokenRange=273:277
+42	forma	forma	NOUN	NOUN	_	40	obj	_	TokenRange=278:283
+43	cruel	cruel	ADJ	ADJ	_	42	amod	_	TokenRange=284:289
+44	pudesse	poder	AUX	AUX	_	45	aux	_	TokenRange=290:297
+45	imaginar	imaginar	VERB	VERB	_	37	ccomp	_	TokenRange=298:306
+46	jovem	jovem	NOUN	NOUN	_	45	obj	_	TokenRange=307:312
+47	gabrielle	_	NOUN	NOUN	_	45	obj	_	TokenRange=313:322
+48	barcelos	barcelo	NOUN	NOUN	_	47	flat	_	TokenRange=323:331
+49	assassinada	assassinar	VERB	VERB	_	47	acl	_	TokenRange=332:343
+50	vizinha	vizinho	ADJ	ADJ	_	51	amod	_	TokenRange=344:351
+51	bairro	bairro	NOUN	NOUN	_	47	appos	_	TokenRange=352:358
+52	monte	monte	NOUN	NOUN	_	51	appos	_	TokenRange=359:364
+53	hebron	_	NOUN	NOUN	_	51	flat	_	TokenRange=365:371
+54	uberlandia	uberlandia	NOUN	NOUN	_	51	appos	_	TokenRange=372:382
+55	bebe	bebe	NOUN	NOUN	_	54	flat	_	TokenRange=383:387
+56	oito	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=388:392
+57	meses	mês	NOUN	NOUN	_	54	appos	_	TokenRange=393:398
+58	arrancado	arrancado	ADJ	ADJ	_	57	amod	_	TokenRange=399:408
+59	barriga	barriga	NOUN	NOUN	_	61	nsubj	_	TokenRange=409:416
+60	re	_	PRON	PRON	_	61	nsubj	_	TokenRange=417:419
+61	confessa	confessar	VERB	VERB	_	58	conj	_	TokenRange=420:428
+62	aline	aline	NOUN	NOUN	_	61	obj	_	TokenRange=429:434
+63	roberta	roberta	NOUN	NOUN	_	62	appos	_	TokenRange=435:442
+64	fagundes	_	ADJ	ADJ	_	63	amod	_	TokenRange=443:451
+65	indiciada	indiciar	ADJ	ADJ	_	63	amod	_	TokenRange=452:461
+66	arquitetado	arquitetar	ADJ	ADJ	_	67	acl	_	TokenRange=462:473
+67	morte	morte	NOUN	NOUN	_	65	nsubj	_	TokenRange=474:479
+68	gestante	gestante	ADJ	ADJ	_	67	amod	_	TokenRange=480:488
+69	18	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=489:491
+70	anos	ano	NOUN	NOUN	_	67	nmod	_	TokenRange=492:496
+71	cometido	cometer	VERB	VERB	_	67	acl	_	TokenRange=497:505
+72	assassinato	assassinato	NOUN	NOUN	_	74	obj	_	TokenRange=506:517
+73	poder	poder	AUX	AUX	_	74	aux	_	TokenRange=518:523
+74	roubar	roubar	VERB	VERB	_	71	ccomp	_	SpaceAfter=No|TokenRange=524:530
+

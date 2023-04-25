@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf indiciou presidente bradesco luiz carlos trabuco dois executivos banco inquerito operacao zelotes investiga compra decisoes carf conselho administrativo recursos fiscais investigacoes mostraram grupo investigado corromper integrantes carf conversou executivos banco respeito contrato anular debito r 3 bi receita federal pf apontado relatorio trabuco outros dois executivos instituicao financeira encontraram emissarios organizacao criminosa discutir atuacao orgao pf indiciou auditor receita federal eduardo cerqueira leite articulado reuniao integrantes
+1	pf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	indiciou	indiciar	VERB	VERB	_	0	root	_	TokenRange=3:11
+3	presidente	presidente	NOUN	NOUN	_	2	obj	_	TokenRange=12:22
+4	bradesco	bradesco	ADJ	ADJ	_	3	amod	_	TokenRange=23:31
+5	luiz	luiz	NOUN	NOUN	_	3	appos	_	TokenRange=32:36
+6	carlos	_	NOUN	NOUN	_	5	flat	_	TokenRange=37:43
+7	trabuco	trabuco	NOUN	NOUN	_	5	flat	_	TokenRange=44:51
+8	dois	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=52:56
+9	executivos	executivo	NOUN	NOUN	_	3	appos	_	TokenRange=57:67
+10	banco	banco	NOUN	NOUN	_	3	appos	_	TokenRange=68:73
+11	inquerito	inquerito	ADJ	ADJ	_	10	amod	_	TokenRange=74:83
+12	operacao	operacao	ADJ	NOUN	_	13	amod	_	TokenRange=84:92
+13	zelotes	zelote	NOUN	NOUN	_	10	appos	_	TokenRange=93:100
+14	investiga	investigar	VERB	VERB	_	2	parataxis	_	TokenRange=101:110
+15	compra	compra	NOUN	NOUN	_	14	obj	_	TokenRange=111:117
+16	decisoes	_	NOUN	NOUN	_	15	flat	_	TokenRange=118:126
+17	carf	_	NOUN	NOUN	_	18	appos	_	TokenRange=127:131
+18	conselho	conselho	NOUN	NOUN	_	15	appos	_	TokenRange=132:140
+19	administrativo	administrativo	ADJ	ADJ	_	18	amod	_	TokenRange=141:155
+20	recursos	recurso	NOUN	NOUN	_	18	appos	_	TokenRange=156:164
+21	fiscais	fiscal	ADJ	ADJ	_	20	amod	_	TokenRange=165:172
+22	investigacoes	investigacoe	ADJ	ADJ	_	18	amod	_	TokenRange=173:186
+23	mostraram	mostrar	VERB	VERB	_	2	parataxis	_	TokenRange=187:196
+24	grupo	grupo	NOUN	NOUN	_	23	obj	_	TokenRange=197:202
+25	investigado	investigado	ADJ	ADJ	_	24	amod	_	TokenRange=203:214
+26	corromper	corromper	VERB	VERB	_	24	acl:inf	_	TokenRange=215:224
+27	integrantes	_	NOUN	NOUN	_	26	obj	_	TokenRange=225:236
+28	carf	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=237:241
+29	conversou	conversar	VERB	VERB	_	24	acl:relcl	_	TokenRange=242:251
+30	executivos	executivo	NOUN	NOUN	_	29	obj	_	TokenRange=252:262
+31	banco	banco	NOUN	NOUN	_	29	obj	_	TokenRange=263:268
+32	respeito	respeito	NOUN	NOUN	_	31	flat	_	TokenRange=269:277
+33	contrato	contrato	NOUN	NOUN	_	29	nsubj	_	TokenRange=278:286
+34	anular	anular	VERB	VERB	_	31	amod	_	TokenRange=287:293
+35	debito	debito	NOUN	NOUN	_	34	obj	_	TokenRange=294:300
+36	r	r	NOUN	NOUN	_	35	appos	_	TokenRange=301:302
+37	3	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=303:304
+38	bi	_	NUM	NUM	_	39	nummod	_	TokenRange=305:307
+39	receita	receita	NOUN	NOUN	_	35	conj	_	TokenRange=308:315
+40	federal	federal	ADJ	ADJ	_	39	amod	_	TokenRange=316:323
+41	pf	_	NOUN	NOUN	_	39	appos	_	TokenRange=324:326
+42	apontado	apontar	VERB	VERB	_	39	acl	_	TokenRange=327:335
+43	relatorio	relatorio	NOUN	NOUN	_	42	nsubj	_	TokenRange=336:345
+44	trabuco	trabuco	ADJ	ADJ	_	43	amod	_	TokenRange=346:353
+45	outros	_	DET	DET	_	47	det	_	TokenRange=354:360
+46	dois	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=361:365
+47	executivos	executivo	NOUN	NOUN	_	50	nsubj	_	TokenRange=366:376
+48	instituicao	instituicao	NOUN	NOUN	_	47	appos	_	TokenRange=377:388
+49	financeira	financeiro	ADJ	ADJ	_	48	amod	_	TokenRange=389:399
+50	encontraram	encontrar	VERB	VERB	_	2	parataxis	_	TokenRange=400:411
+51	emissarios	emissario	NOUN	NOUN	_	50	obj	_	TokenRange=412:422
+52	organizacao	organizacao	ADJ	ADJ	_	51	amod	_	TokenRange=423:434
+53	criminosa	criminoso	ADJ	ADJ	_	52	amod	_	TokenRange=435:444
+54	discutir	discutir	VERB	VERB	_	51	acl:inf	_	TokenRange=445:453
+55	atuacao	atuacao	NOUN	NOUN	_	54	obj	_	TokenRange=454:461
+56	orgao	orgao	NOUN	NOUN	_	54	obj	_	TokenRange=462:467
+57	pf	_	NOUN	NOUN	_	56	flat	_	TokenRange=468:470
+58	indiciou	indiciar	VERB	VERB	_	50	parataxis	_	TokenRange=471:479
+59	auditor	auditor	NOUN	NOUN	_	58	obj	_	TokenRange=480:487
+60	receita	receita	NOUN	NOUN	_	59	appos	_	TokenRange=488:495
+61	federal	federal	ADJ	ADJ	_	60	amod	_	TokenRange=496:503
+62	eduardo	eduardo	NOUN	NOUN	_	59	appos	_	TokenRange=504:511
+63	cerqueira	cerqueira	NOUN	NOUN	_	62	flat	_	TokenRange=512:521
+64	leite	leite	ADJ	NOUN	_	63	flat	_	TokenRange=522:527
+65	articulado	articulado	ADJ	ADJ	_	66	amod	_	TokenRange=528:538
+66	reuniao	reuniao	NOUN	NOUN	_	58	obj	_	TokenRange=539:546
+67	integrantes	_	ADJ	ADJ	_	66	amod	_	SpaceAfter=No|TokenRange=547:558
+

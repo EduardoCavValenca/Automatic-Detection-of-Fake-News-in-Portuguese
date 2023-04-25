@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aconteceu novo sergio moro aclamado teatro lotado sergio moro juiz responsavel operacao lava jato ovacionado ontem 26 durante show cantor fagner primeira vez aconteceu cantor raimundo fagner fez agradecimento juiz reverenciou publico delirio comecou aplaudir sergio moro show aconteceu teatro guaira curitiba viu politico ovacionado dessa forma
+1	aconteceu	acontecer	VERB	VERB	_	0	root	_	TokenRange=0:9
+2	novo	novo	ADJ	ADJ	_	3	amod	_	TokenRange=10:14
+3	sergio	_	NOUN	NOUN	_	1	nsubj	_	TokenRange=15:21
+4	moro	moro	NOUN	NOUN	_	3	flat	_	TokenRange=22:26
+5	aclamado	aclamado	ADJ	ADJ	_	6	amod	_	TokenRange=27:35
+6	teatro	teatro	NOUN	NOUN	_	3	appos	_	TokenRange=36:42
+7	lotado	lotado	ADJ	ADJ	_	6	amod	_	TokenRange=43:49
+8	sergio	sergio	ADJ	ADJ	_	6	amod	_	TokenRange=50:56
+9	moro	moro	NOUN	NOUN	_	6	appos	_	TokenRange=57:61
+10	juiz	juiz	NOUN	NOUN	_	6	appos	_	TokenRange=62:66
+11	responsavel	responsavel	ADJ	ADJ	_	10	amod	_	TokenRange=67:78
+12	operacao	operacao	NOUN	NOUN	_	10	appos	_	TokenRange=79:87
+13	lava	lava	NOUN	NOUN	_	10	appos	_	TokenRange=88:92
+14	jato	jato	NOUN	NOUN	_	13	flat	_	TokenRange=93:97
+15	ovacionado	_	ADJ	ADJ	_	10	appos	_	TokenRange=98:108
+16	ontem	ontem	ADV	ADV	_	15	advmod	_	TokenRange=109:114
+17	26	_	NUM	NUM	NumType=Card	16	appos	_	TokenRange=115:117
+18	durante	_	ADP	ADP	_	19	case	_	TokenRange=118:125
+19	show	show	NOUN	NOUN	_	15	nmod	_	TokenRange=126:130
+20	cantor	cantor	NOUN	NOUN	_	19	appos	_	TokenRange=131:137
+21	fagner	fagner	NOUN	NOUN	_	20	flat	_	TokenRange=138:144
+22	primeira	primeiro	ADJ	ADJ	_	23	amod	_	TokenRange=145:153
+23	vez	vez	NOUN	NOUN	_	24	nmod	_	TokenRange=154:157
+24	aconteceu	acontecer	VERB	VERB	_	20	acl:relcl	_	TokenRange=158:167
+25	cantor	cantor	NOUN	NOUN	_	24	nsubj	_	TokenRange=168:174
+26	raimundo	raimundo	NOUN	NOUN	_	25	appos	_	TokenRange=175:183
+27	fagner	fagner	NOUN	NOUN	_	26	flat	_	TokenRange=184:190
+28	fez	fazer	VERB	VERB	_	25	acl:relcl	_	TokenRange=191:194
+29	agradecimento	agradecimento	NOUN	NOUN	_	28	obj	_	TokenRange=195:208
+30	juiz	juiz	NOUN	NOUN	_	31	nsubj	_	TokenRange=209:213
+31	reverenciou	reverenciar	VERB	VERB	_	29	appos	_	TokenRange=214:225
+32	publico	_	NOUN	NOUN	_	31	obj	_	TokenRange=226:233
+33	delirio	delirio	NOUN	NOUN	_	31	nsubj	_	TokenRange=234:241
+34	comecou	comecar	AUX	AUX	_	35	aux	_	TokenRange=242:249
+35	aplaudir	aplaudir	VERB	VERB	_	28	ccomp	_	TokenRange=250:258
+36	sergio	_	NOUN	NOUN	_	35	obj	_	TokenRange=259:265
+37	moro	moro	NOUN	NOUN	_	36	flat	_	TokenRange=266:270
+38	show	show	NOUN	NOUN	_	36	flat	_	TokenRange=271:275
+39	aconteceu	acontecer	VERB	VERB	_	1	parataxis	_	TokenRange=276:285
+40	teatro	teatro	NOUN	NOUN	_	39	nsubj	_	TokenRange=286:292
+41	guaira	guaira	ADJ	ADJ	_	40	amod	_	TokenRange=293:299
+42	curitiba	curitiba	NOUN	NOUN	_	40	appos	_	TokenRange=300:308
+43	viu	ver	VERB	VERB	_	39	parataxis	_	TokenRange=309:312
+44	politico	_	NOUN	NOUN	_	43	obj	_	TokenRange=313:321
+45	ovacionado	ovacionado	ADJ	ADJ	_	43	xcomp	_	TokenRange=322:332
+46	dessa	_	ADP	ADP	_	47	case	_	TokenRange=333:338
+47	forma	forma	NOUN	NOUN	_	45	nmod	_	SpaceAfter=No|TokenRange=339:344
+

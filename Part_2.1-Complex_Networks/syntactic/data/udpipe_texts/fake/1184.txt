@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = internautas revoltam corte verbas pf preciso faremos varias vaquinhas michel temer acabando operacoes pf pmdb conseguindo estancar sangria atraves congresso decidiu agir outra maneira cortar financiamento policia federal estimase reducao recursos destinados orgao ultrapasse casa 44 trocando miudos 44 dinheiro pf golpe sujo contra unicas instituicoes trabalha seriamente neste pais revoltados situacao internautas organizando grupos redes sociais objetivo mobilizar populacao favor pf maior desses grupos possui 70 mil pessoas fez alerta brinquem policia federal necessario faremos diversas vaquinhas virtuais continuar trabalho orgulhado povo brasileiro breve postaremos links todos grupos
+1	internautas	internauta	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	revoltam	revoltar	VERB	VERB	_	0	root	_	TokenRange=12:20
+3	corte	corte	NOUN	NOUN	_	2	obj	_	TokenRange=21:26
+4	verbas	verba	NOUN	NOUN	_	3	flat	_	TokenRange=27:33
+5	pf	_	NOUN	NOUN	_	3	appos	_	TokenRange=34:36
+6	preciso	preciso	ADJ	ADJ	_	3	amod	_	TokenRange=37:44
+7	faremos	_	VERB	VERB	_	2	conj	_	TokenRange=45:52
+8	varias	_	DET	DET	_	9	det	_	TokenRange=53:59
+9	vaquinhas	_	NOUN	NOUN	_	7	obj	_	TokenRange=60:69
+10	michel	michel	ADJ	ADJ	_	9	amod	_	TokenRange=70:76
+11	temer	temer	NOUN	NOUN	_	7	nsubj	_	TokenRange=77:82
+12	acabando	acabar	VERB	VERB	_	7	acl	_	TokenRange=83:91
+13	operacoes	operacoe	NOUN	NOUN	_	12	obj	_	TokenRange=92:101
+14	pf	_	X	X	_	47	nsubj	_	TokenRange=102:104
+15	pmdb	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=105:109
+16	conseguindo	conseguir	VERB	VERB	_	1	acl	_	TokenRange=110:121
+17	estancar	estancar	VERB	VERB	_	16	xcomp	_	TokenRange=122:130
+18	sangria	sangria	NOUN	NOUN	_	17	obj	_	TokenRange=131:138
+19	atraves	_	ADV	ADV	_	20	advmod	_	TokenRange=139:146
+20	congresso	congresso	NOUN	NOUN	_	21	nsubj	_	TokenRange=147:156
+21	decidiu	decidir	VERB	VERB	_	2	conj	_	TokenRange=157:164
+22	agir	agir	VERB	VERB	_	21	xcomp	_	TokenRange=165:169
+23	outra	_	DET	DET	_	24	det	_	TokenRange=170:175
+24	maneira	maneira	NOUN	NOUN	_	25	nmod	_	TokenRange=176:183
+25	cortar	cortar	VERB	VERB	_	21	ccomp	_	TokenRange=184:190
+26	financiamento	financiamento	NOUN	NOUN	_	25	obj	_	TokenRange=191:204
+27	policia	policia	NOUN	NOUN	_	26	appos	_	TokenRange=205:212
+28	federal	federal	ADJ	ADJ	_	27	amod	_	TokenRange=213:220
+29	estimase	estimase	VERB	VERB	_	25	parataxis	_	TokenRange=221:229
+30	reducao	reducao	ADJ	ADJ	_	31	amod	_	TokenRange=230:237
+31	recursos	recurso	NOUN	NOUN	_	29	obj	_	TokenRange=238:246
+32	destinados	destinar	VERB	VERB	_	31	acl	_	TokenRange=247:257
+33	orgao	orgao	NOUN	NOUN	_	34	nsubj	_	TokenRange=258:263
+34	ultrapasse	ultrapar	VERB	VERB	_	31	acl:relcl	_	TokenRange=264:274
+35	casa	casa	NOUN	NOUN	_	34	obj	_	TokenRange=275:279
+36	44	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=280:282
+37	trocando	trocar	VERB	VERB	_	34	acl	_	TokenRange=283:291
+38	miudos	miudo	NOUN	NOUN	_	37	obj	_	TokenRange=292:298
+39	44	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=299:301
+40	dinheiro	dinheiro	NOUN	NOUN	_	38	appos	_	TokenRange=302:310
+41	pf	_	NOUN	NOUN	_	42	flat	_	TokenRange=311:313
+42	golpe	golpe	NOUN	NOUN	_	47	nsubj	_	TokenRange=314:319
+43	sujo	sujo	ADJ	ADJ	_	42	amod	_	TokenRange=320:324
+44	contra	_	ADP	ADP	_	46	case	_	TokenRange=325:331
+45	unicas	unico	ADJ	ADJ	_	46	amod	_	TokenRange=332:338
+46	instituicoes	instituicoe	NOUN	NOUN	_	42	nmod	_	TokenRange=339:351
+47	trabalha	trabalhar	VERB	VERB	_	37	parataxis	_	TokenRange=352:360
+48	seriamente	seriamente	ADV	ADV	_	47	advmod	_	TokenRange=361:371
+49	neste	_	ADP	ADP	_	50	case	_	TokenRange=372:377
+50	pais	_	NOUN	NOUN	_	47	nmod	_	TokenRange=378:382
+51	revoltados	revoltado	ADJ	ADJ	_	50	amod	_	TokenRange=383:393
+52	situacao	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=394:402
+53	internautas	internauta	NOUN	NOUN	_	52	appos	_	TokenRange=403:414
+54	organizando	organizar	VERB	VERB	_	52	acl	_	TokenRange=415:426
+55	grupos	grupo	NOUN	NOUN	_	54	obj	_	TokenRange=427:433
+56	redes	rede	NOUN	NOUN	_	52	appos	_	TokenRange=434:439
+57	sociais	social	ADJ	ADJ	_	56	amod	_	TokenRange=440:447
+58	objetivo	objetivo	NOUN	NOUN	_	56	amod	_	TokenRange=448:456
+59	mobilizar	mobilizar	VERB	VERB	_	47	csubj	_	TokenRange=457:466
+60	populacao	populacao	NOUN	NOUN	_	59	obj	_	TokenRange=467:476
+61	favor	favor	NOUN	NOUN	_	60	appos	_	TokenRange=477:482
+62	pf	_	X	.	_	61	flat	_	TokenRange=483:485
+63	maior	maior	ADJ	ADJ	_	61	amod	_	TokenRange=486:491
+64	desses	_	ADP	ADP	_	65	case	_	TokenRange=492:498
+65	grupos	grupo	NOUN	NOUN	_	63	nmod	_	TokenRange=499:505
+66	possui	possuir	VERB	VERB	_	59	parataxis	_	TokenRange=506:512
+67	70	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=513:515
+68	mil	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=516:519
+69	pessoas	pessoa	NOUN	NOUN	_	66	obj	_	TokenRange=520:527
+70	fez	fazer	VERB	VERB	_	66	parataxis	_	TokenRange=528:531
+71	alerta	alerta	NOUN	NOUN	_	70	obj	_	TokenRange=532:538
+72	brinquem	brincar	ADJ	NOUN	_	73	amod	_	TokenRange=539:547
+73	policia	policia	NOUN	NOUN	_	76	nsubj	_	TokenRange=548:555
+74	federal	federal	ADJ	ADJ	_	73	amod	_	TokenRange=556:563
+75	necessario	necessario	ADJ	ADJ	_	73	amod	_	TokenRange=564:574
+76	faremos	_	VERB	VERB	_	70	ccomp	_	TokenRange=575:582
+77	diversas	_	DET	DET	_	78	det	_	TokenRange=583:591
+78	vaquinhas	vaqua	NOUN	NOUN	_	76	obj	_	TokenRange=592:601
+79	virtuais	virtual	ADJ	ADJ	_	78	amod	_	TokenRange=602:610
+80	continuar	continuar	VERB	VERB	_	78	acl:inf	_	TokenRange=611:620
+81	trabalho	trabalho	NOUN	NOUN	_	80	obj	_	TokenRange=621:629
+82	orgulhado	orgulhado	ADJ	ADJ	_	83	amod	_	TokenRange=630:639
+83	povo	povo	NOUN	NOUN	_	80	obj	_	TokenRange=640:644
+84	brasileiro	brasileiro	ADJ	ADJ	_	83	amod	_	TokenRange=645:655
+85	breve	breve	ADJ	ADJ	_	83	amod	_	TokenRange=656:661
+86	postaremos	postar	VERB	VERB	_	47	parataxis	_	TokenRange=662:672
+87	links	_	NOUN	NOUN	_	86	obj	_	TokenRange=673:678
+88	todos	_	DET	DET	_	89	det	_	TokenRange=679:684
+89	grupos	grupo	NOUN	NOUN	_	86	obj	_	SpaceAfter=No|TokenRange=685:691
+

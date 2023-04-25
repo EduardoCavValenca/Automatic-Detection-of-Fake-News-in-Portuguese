@@ -1,0 +1,29 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = hora falar nada diz janot sobre delacoes odebrecht presidente stf carmen lucia homologou delacoes 77 executivos exexecutivos empreiteira ambito lava jato
+1	hora	hora	NOUN	NOUN	_	20	nsubj	_	TokenRange=0:4
+2	falar	falar	VERB	VERB	_	1	acl:relcl	_	TokenRange=5:10
+3	nada	_	PRON	PRON	_	4	nsubj	_	TokenRange=11:15
+4	diz	dizer	VERB	VERB	_	2	ccomp	_	TokenRange=16:19
+5	janot	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=20:25
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=26:31
+7	delacoes	delacoe	NOUN	NOUN	_	4	nmod	_	TokenRange=32:40
+8	odebrecht	_	ADJ	NOUN	_	7	appos	_	TokenRange=41:50
+9	presidente	presidente	NOUN	NOUN	_	7	appos	_	TokenRange=51:61
+10	stf	_	NOUN	NOUN	_	9	appos	_	TokenRange=62:65
+11	carmen	_	NOUN	NOUN	_	9	appos	_	TokenRange=66:72
+12	lucia	lucia	NOUN	NOUN	_	11	flat	_	TokenRange=73:78
+13	homologou	homologar	VERB	VERB	_	7	acl:relcl	_	TokenRange=79:88
+14	delacoes	delacoe	NOUN	NOUN	_	13	obj	_	TokenRange=89:97
+15	77	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=98:100
+16	executivos	executivo	NOUN	NOUN	_	14	appos	_	TokenRange=101:111
+17	exexecutivos	exexecutivo	ADJ	ADJ	_	16	amod	_	TokenRange=112:124
+18	empreiteira	empreiteiro	ADJ	ADJ	_	20	nsubj	_	TokenRange=125:136
+19	ambito	ambito	NOUN	NOUN	_	18	flat	_	TokenRange=137:143
+20	lava	lavar	VERB	VERB	_	0	root	_	TokenRange=144:148
+21	jato	jato	NOUN	NOUN	_	20	obj	_	SpaceAfter=No|TokenRange=149:153
+

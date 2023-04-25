@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procuradorageral republica nomeada raquel dodge divulgou nesta tercafeira 22 nomes equipe mandato inicio 18 setembro definidos dois vices procuradoresgerais republica titular secretaria geral mpu secretarias ligadas gabinete luciano mariz maia exercera funcao viceprocuradorgeral republica humberto jacques medeiros viceprocuradorgeral eleitoral zani cajueiro secretariageral mpu todo anunciados
+1	procuradorageral	procuradorageral	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:16
+2	republica	republico	ADJ	ADJ	_	1	amod	_	TokenRange=17:26
+3	nomeada	nomear	VERB	VERB	_	1	acl	_	TokenRange=27:34
+4	raquel	raquel	NOUN	NOUN	_	3	obj	_	TokenRange=35:41
+5	dodge	_	NOUN	NOUN	_	4	flat	_	TokenRange=42:47
+6	divulgou	divulgar	VERB	VERB	_	0	root	_	TokenRange=48:56
+7	nesta	_	ADP	ADP	_	8	case	_	TokenRange=57:62
+8	tercafeira	_	NOUN	NOUN	_	6	nmod	_	TokenRange=63:73
+9	22	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=74:76
+10	nomes	nome	NOUN	NOUN	_	6	obj	_	TokenRange=77:82
+11	equipe	equipe	NOUN	NOUN	_	10	appos	_	TokenRange=83:89
+12	mandato	mandato	NOUN	NOUN	_	11	appos	_	TokenRange=90:97
+13	inicio	_	NOUN	NOUN	_	11	appos	_	TokenRange=98:104
+14	18	_	NUM	NUM	NumType=Card	13	appos	_	TokenRange=105:107
+15	setembro	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=108:116
+16	definidos	definir	VERB	VERB	_	6	acl	_	TokenRange=117:126
+17	dois	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=127:131
+18	vices	vice	NOUN	NOUN	_	16	nsubj	_	TokenRange=132:137
+19	procuradoresgerais	procuradoresgeral	ADJ	ADJ	_	18	amod	_	TokenRange=138:156
+20	republica	_	NOUN	NOUN	_	18	amod	_	TokenRange=157:166
+21	titular	titular	ADJ	ADJ	_	18	amod	_	TokenRange=167:174
+22	secretaria	secretaria	NOUN	NOUN	_	18	appos	_	TokenRange=175:185
+23	geral	geral	ADJ	ADJ	_	22	amod	_	TokenRange=186:191
+24	mpu	_	NOUN	NOUN	_	25	appos	_	TokenRange=192:195
+25	secretarias	secretaria	NOUN	NOUN	_	18	appos	_	TokenRange=196:207
+26	ligadas	ligado	ADJ	ADJ	_	25	amod	_	TokenRange=208:215
+27	gabinete	gabinete	NOUN	NOUN	_	31	nsubj	_	TokenRange=216:224
+28	luciano	luciano	NOUN	NOUN	_	27	amod	_	TokenRange=225:232
+29	mariz	_	NOUN	NOUN	_	27	appos	_	TokenRange=233:238
+30	maia	_	ADJ	NOUN	_	29	flat	_	TokenRange=239:243
+31	exercera	exercer	VERB	VERB	_	6	conj	_	TokenRange=244:252
+32	funcao	funcao	NOUN	NOUN	_	31	obj	_	TokenRange=253:259
+33	viceprocuradorgeral	_	ADJ	ADJ	_	32	amod	_	TokenRange=260:279
+34	republica	republico	ADJ	ADJ	_	32	amod	_	TokenRange=280:289
+35	humberto	humberto	NOUN	NOUN	_	32	appos	_	TokenRange=290:298
+36	jacques	_	NOUN	NOUN	_	35	flat	_	TokenRange=299:306
+37	medeiros	_	NOUN	NOUN	_	35	flat	_	TokenRange=307:315
+38	viceprocuradorgeral	_	NOUN	NOUN	_	35	appos	_	TokenRange=316:335
+39	eleitoral	eleitoral	ADJ	ADJ	_	38	amod	_	TokenRange=336:345
+40	zani	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=346:350
+41	cajueiro	cajueiro	NOUN	NOUN	_	40	flat	_	TokenRange=351:359
+42	secretariageral	_	ADJ	ADJ	_	40	amod	_	TokenRange=360:375
+43	mpu	mpu	NOUN	NOUN	_	40	flat	_	TokenRange=376:379
+44	todo	todo	ADV	ADV	_	45	advmod	_	TokenRange=380:384
+45	anunciados	anunciar	VERB	VERB	_	6	acl	_	SpaceAfter=No|TokenRange=385:395
+

@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = balanco 2017 governador acre diz seguranca publica area grave governador tiao viana ptac falou sobre acoes 2017 planos ano vem balanco gestao 2017 governador acre tiao viana ptac afirmou entrevista g1 nesta quartafeira 27 seguranca publica area ainda preocupa estado viana fez balanco acoes ano destacou planos terminar mandato 2018 segundo governador violencia estado acreano resultado livre acesso fronteira afirmou fronteiras fechadas acre estados pacificos brasil narcotrafico vindo peru bolivia invadindo pressionando acre contaminando juventude violencia cresceu progressao aritmetica
+1	balanco	balanco	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:7
+2	2017	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=8:12
+3	governador	governador	NOUN	NOUN	_	5	nsubj	_	TokenRange=13:23
+4	acre	acre	NOUN	NOUN	_	3	flat	_	TokenRange=24:28
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=29:32
+6	seguranca	_	NOUN	NOUN	_	5	obj	_	TokenRange=33:42
+7	publica	publico	ADJ	ADJ	_	6	amod	_	TokenRange=43:50
+8	area	area	NOUN	NOUN	_	5	obj	_	TokenRange=51:55
+9	grave	grave	ADJ	ADJ	_	8	amod	_	TokenRange=56:61
+10	governador	governador	NOUN	NOUN	_	5	nsubj	_	TokenRange=62:72
+11	tiao	tiao	NOUN	NOUN	_	10	flat	_	TokenRange=73:77
+12	viana	viano	ADJ	ADJ	_	10	amod	_	TokenRange=78:83
+13	ptac	_	NOUN	NOUN	_	10	flat	_	TokenRange=84:88
+14	falou	falar	VERB	VERB	_	5	parataxis	_	TokenRange=89:94
+15	sobre	_	ADP	ADP	_	16	case	_	TokenRange=95:100
+16	acoes	acoe	NOUN	NOUN	_	14	nmod	_	TokenRange=101:106
+17	2017	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=107:111
+18	planos	plano	NOUN	NOUN	_	16	appos	_	TokenRange=112:118
+19	ano	ano	NOUN	NOUN	_	18	flat	_	TokenRange=119:122
+20	vem	vir	VERB	VERB	_	16	acl:relcl	_	TokenRange=123:126
+21	balanco	balanco	NOUN	NOUN	_	20	obj	_	TokenRange=127:134
+22	gestao	gestao	NOUN	NOUN	_	21	appos	_	TokenRange=135:141
+23	2017	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=142:146
+24	governador	governador	NOUN	NOUN	_	29	nsubj	_	TokenRange=147:157
+25	acre	acre	NOUN	NOUN	_	24	flat	_	TokenRange=158:162
+26	tiao	tiao	NOUN	NOUN	_	24	appos	_	TokenRange=163:167
+27	viana	viano	NOUN	NOUN	_	24	flat	_	TokenRange=168:173
+28	ptac	_	NOUN	NOUN	_	26	flat	_	TokenRange=174:178
+29	afirmou	afirmar	VERB	VERB	_	5	parataxis	_	TokenRange=179:186
+30	entrevista	entrevista	NOUN	NOUN	_	29	obj	_	TokenRange=187:197
+31	g1	_	X	NUM	_	30	appos	_	TokenRange=198:200
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=201:206
+33	quartafeira	_	NOUN	NOUN	_	29	nmod	_	TokenRange=207:218
+34	27	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=219:221
+35	seguranca	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=222:231
+36	publica	publico	ADJ	ADJ	_	35	amod	_	TokenRange=232:239
+37	area	area	NOUN	NOUN	_	39	nsubj	_	TokenRange=240:244
+38	ainda	ainda	ADV	ADV	_	39	advmod	_	TokenRange=245:250
+39	preocupa	preocupar	VERB	VERB	_	29	parataxis	_	TokenRange=251:259
+40	estado	estado	NOUN	NOUN	_	39	obj	_	TokenRange=260:266
+41	viana	viano	ADJ	ADJ	_	40	amod	_	TokenRange=267:272
+42	fez	fazer	VERB	VERB	_	39	parataxis	_	TokenRange=273:276
+43	balanco	balanco	NOUN	NOUN	_	42	obj	_	TokenRange=277:284
+44	acoes	_	NOUN	NOUN	_	46	nsubj	_	TokenRange=285:290
+45	ano	ano	NOUN	NOUN	_	46	nsubj	_	TokenRange=291:294
+46	destacou	destacar	VERB	VERB	_	42	parataxis	_	TokenRange=295:303
+47	planos	plano	NOUN	NOUN	_	46	obj	_	TokenRange=304:310
+48	terminar	terminar	VERB	VERB	_	46	xcomp	_	TokenRange=311:319
+49	mandato	mandato	NOUN	NOUN	_	48	obj	_	TokenRange=320:327
+50	2018	_	NUM	NUM	NumType=Card	49	nmod	_	TokenRange=328:332
+51	segundo	_	ADP	ADP	_	52	case	_	TokenRange=333:340
+52	governador	governador	NOUN	NOUN	_	46	nmod	_	TokenRange=341:351
+53	violencia	violencia	ADJ	ADJ	_	52	amod	_	TokenRange=352:361
+54	estado	estado	NOUN	NOUN	_	52	appos	_	TokenRange=362:368
+55	acreano	acreano	ADJ	ADJ	_	54	amod	_	TokenRange=369:376
+56	resultado	resultado	NOUN	NOUN	_	52	appos	_	TokenRange=377:386
+57	livre	livre	ADJ	ADJ	_	54	amod	_	TokenRange=387:392
+58	acesso	acesso	NOUN	NOUN	_	60	nsubj	_	TokenRange=393:399
+59	fronteira	_	ADJ	ADJ	_	58	amod	_	TokenRange=400:409
+60	afirmou	afirmar	VERB	VERB	_	5	parataxis	_	TokenRange=410:417
+61	fronteiras	_	NOUN	NOUN	_	60	obj	_	TokenRange=418:428
+62	fechadas	fechado	ADJ	ADJ	_	61	amod	_	TokenRange=429:437
+63	acre	_	NOUN	NOUN	_	64	amod	_	TokenRange=438:442
+64	estados	estado	NOUN	NOUN	_	61	appos	_	TokenRange=443:450
+65	pacificos	pacifico	ADJ	ADJ	_	64	amod	_	TokenRange=451:460
+66	brasil	brasil	ADJ	ADJ	_	67	amod	_	TokenRange=461:467
+67	narcotrafico	narcotrafico	NOUN	NOUN	_	64	appos	_	TokenRange=468:480
+68	vindo	vir	VERB	VERB	_	67	acl	_	TokenRange=481:486
+69	peru	peru	NOUN	NOUN	_	68	obj	_	TokenRange=487:491
+70	bolivia	bolivia	NOUN	NOUN	_	67	appos	_	TokenRange=492:499
+71	invadindo	invadir	VERB	VERB	_	72	aux	_	TokenRange=500:509
+72	pressionando	pressionar	VERB	VERB	_	68	acl	_	TokenRange=510:522
+73	acre	acre	NOUN	NOUN	_	72	obj	_	TokenRange=523:527
+74	contaminando	contaminar	VERB	VERB	_	72	acl	_	TokenRange=528:540
+75	juventude	juventude	NOUN	NOUN	_	74	obj	_	TokenRange=541:550
+76	violencia	violencia	NOUN	NOUN	_	74	obj	_	TokenRange=551:560
+77	cresceu	crescer	VERB	VERB	_	60	parataxis	_	TokenRange=561:568
+78	progressao	progressao	NOUN	NOUN	_	77	obj	_	TokenRange=569:579
+79	aritmetica	aritmetico	ADJ	ADJ	_	78	amod	_	SpaceAfter=No|TokenRange=580:590
+

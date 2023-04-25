@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = papa francisco lamenta massacre las vegas veja repercussao massacre deixou 59 mortos 500 feridos registros brasileiros vitimas diz itamaraty papa francisco alem outra personalidades governos lamentaram nesta segundafeira 2 massacre ocorrido las vegas morreram 59 pessoas 500 ficaram feridas papa franciso qualificou episodio tragedia sentido enviou condolencias feridos familias vitimas acompanhe cobertura tempo real vaticano explicou comunicado francisco enviou telegrama bispo las vegas joseph anthony pepe
+1	papa	papa	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	francisco	francisco	NOUN	NOUN	_	1	flat	_	TokenRange=5:14
+3	lamenta	lamentar	VERB	VERB	_	0	root	_	TokenRange=15:22
+4	massacre	massacre	NOUN	NOUN	_	3	obj	_	TokenRange=23:31
+5	las	_	DET	DET	_	6	det	_	TokenRange=32:35
+6	vegas	vega	NOUN	NOUN	_	3	nmod	_	TokenRange=36:41
+7	veja	ver	VERB	VERB	_	3	parataxis	_	TokenRange=42:46
+8	repercussao	repercussao	NOUN	NOUN	_	3	obj	_	TokenRange=47:58
+9	massacre	massacre	NOUN	NOUN	_	15	amod	_	TokenRange=59:67
+10	deixou	deixar	VERB	VERB	_	3	parataxis	_	TokenRange=68:74
+11	59	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=75:77
+12	mortos	morto	NOUN	NOUN	_	10	obj	_	TokenRange=78:84
+13	500	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=85:88
+14	feridos	ferido	ADJ	ADJ	_	15	amod	_	TokenRange=89:96
+15	registros	registro	NOUN	NOUN	_	10	nsubj	_	TokenRange=97:106
+16	brasileiros	brasileiro	ADJ	ADJ	_	15	amod	_	TokenRange=107:118
+17	vitimas	vitima	ADJ	ADJ	_	15	amod	_	TokenRange=119:126
+18	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=127:130
+19	itamaraty	itamaraty	NOUN	NOUN	_	18	obj	_	TokenRange=131:140
+20	papa	papa	NOUN	NOUN	_	26	nsubj	_	TokenRange=141:145
+21	francisco	francisco	ADJ	ADJ	_	20	flat	_	TokenRange=146:155
+22	alem	alem	ADV	ADV	_	26	advmod	_	TokenRange=156:160
+23	outra	_	DET	DET	_	24	det	_	TokenRange=161:166
+24	personalidades	personalidade	NOUN	NOUN	_	26	nsubj	_	TokenRange=167:181
+25	governos	governo	ADJ	NOUN	_	24	amod	_	TokenRange=182:190
+26	lamentaram	lamentar	VERB	VERB	_	18	ccomp	_	TokenRange=191:201
+27	nesta	_	ADP	ADP	_	28	case	_	TokenRange=202:207
+28	segundafeira	_	NOUN	NOUN	_	26	nmod	_	TokenRange=208:220
+29	2	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=221:222
+30	massacre	massacre	NOUN	NOUN	_	26	nsubj	_	TokenRange=223:231
+31	ocorrido	ocorrer	VERB	VERB	_	30	acl	_	TokenRange=232:240
+32	las	_	DET	DET	_	33	det	_	TokenRange=241:244
+33	vegas	vega	NOUN	NOUN	_	31	nmod	_	TokenRange=245:250
+34	morreram	morrer	VERB	VERB	_	26	conj	_	TokenRange=251:259
+35	59	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=260:262
+36	pessoas	pessoa	NOUN	NOUN	_	34	nsubj	_	TokenRange=263:270
+37	500	_	NUM	NUM	NumType=Card	38	nsubj	_	TokenRange=271:274
+38	ficaram	ficar	VERB	VERB	_	34	parataxis	_	TokenRange=275:282
+39	feridas	ferido	ADJ	ADJ	_	38	xcomp	_	TokenRange=283:290
+40	papa	papa	NOUN	NOUN	_	38	nsubj	_	TokenRange=291:295
+41	franciso	franciso	ADJ	ADJ	_	42	amod	_	TokenRange=296:304
+42	qualificou	qualificar	VERB	VERB	_	38	advcl	_	TokenRange=305:315
+43	episodio	episodio	NOUN	NOUN	_	42	obj	_	TokenRange=316:324
+44	tragedia	tragedia	NOUN	NOUN	_	43	appos	_	TokenRange=325:333
+45	sentido	sentido	NOUN	NOUN	_	49	flat	_	TokenRange=334:341
+46	enviou	enviar	VERB	VERB	_	42	conj	_	TokenRange=342:348
+47	condolencias	condolencia	NOUN	NOUN	_	46	obj	_	TokenRange=349:361
+48	feridos	ferido	ADJ	ADJ	_	49	amod	_	TokenRange=362:369
+49	familias	familia	NOUN	NOUN	_	46	nsubj	_	TokenRange=370:378
+50	vitimas	vitimo	ADJ	ADJ	_	49	amod	_	TokenRange=379:386
+51	acompanhe	acompanhar	VERB	VERB	_	46	parataxis	_	TokenRange=387:396
+52	cobertura	cobertura	NOUN	NOUN	_	51	obj	_	TokenRange=397:406
+53	tempo	tempo	NOUN	NOUN	_	52	appos	_	TokenRange=407:412
+54	real	real	ADJ	ADJ	_	53	amod	_	TokenRange=413:417
+55	vaticano	vaticano	ADJ	NOUN	_	56	nsubj	_	TokenRange=418:426
+56	explicou	explicar	VERB	VERB	_	51	parataxis	_	TokenRange=427:435
+57	comunicado	comunicado	NOUN	NOUN	_	56	obj	_	TokenRange=436:446
+58	francisco	francisco	ADJ	ADJ	_	57	amod	_	TokenRange=447:456
+59	enviou	enviar	VERB	VERB	_	56	parataxis	_	TokenRange=457:463
+60	telegrama	telegrama	NOUN	NOUN	_	59	obj	_	TokenRange=464:473
+61	bispo	bispo	NOUN	NOUN	_	59	nmod	_	TokenRange=474:479
+62	las	_	DET	DET	_	63	det	_	TokenRange=480:483
+63	vegas	vega	NOUN	NOUN	_	61	nmod	_	TokenRange=484:489
+64	joseph	_	NOUN	NOUN	_	59	obj	_	TokenRange=490:496
+65	anthony	_	NOUN	NOUN	_	64	flat	_	TokenRange=497:504
+66	pepe	_	NOUN	NOUN	_	64	flat	_	SpaceAfter=No|TokenRange=505:509
+

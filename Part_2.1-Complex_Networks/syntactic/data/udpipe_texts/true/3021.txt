@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = galloro reune todas condicoes comandar pf diz entidade delegados atual secretario nacional justica substituira fernando segovia chefia policia federal associacao peritos diz ver troca atencao agentes manifestaram total apoio associacao nacional delegados policia federal adpf divulgou nota nesta tercafeira 27 avaliou novo diretorgeral pf rogerio galloro reune todas condicoes tecnicas comandar corporacao nota associacao
+1	galloro	galloro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	reune	reune	VERB	VERB	_	0	root	_	TokenRange=8:13
+3	todas	_	DET	DET	_	4	det	_	TokenRange=14:19
+4	condicoes	_	NOUN	NOUN	_	2	obj	_	TokenRange=20:29
+5	comandar	comandar	VERB	VERB	_	2	ccomp	_	TokenRange=30:38
+6	pf	_	NOUN	NOUN	_	5	obj	_	TokenRange=39:41
+7	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=42:45
+8	entidade	entidade	NOUN	NOUN	_	7	nsubj	_	TokenRange=46:54
+9	delegados	delegado	ADJ	ADJ	_	8	amod	_	TokenRange=55:64
+10	atual	atual	ADJ	ADJ	_	11	amod	_	TokenRange=65:70
+11	secretario	secretario	NOUN	NOUN	_	14	nsubj	_	TokenRange=71:81
+12	nacional	nacional	ADJ	ADJ	_	11	amod	_	TokenRange=82:90
+13	justica	justico	ADJ	ADJ	_	11	amod	_	TokenRange=91:98
+14	substituira	substituir	VERB	VERB	_	8	acl:relcl	_	TokenRange=99:110
+15	fernando	fernando	NOUN	NOUN	_	14	obj	_	TokenRange=111:119
+16	segovia	segovia	NOUN	NOUN	_	15	flat	_	TokenRange=120:127
+17	chefia	chefer	VERB	VERB	_	14	parataxis	_	TokenRange=128:134
+18	policia	policia	NOUN	NOUN	_	17	obj	_	TokenRange=135:142
+19	federal	federal	ADJ	ADJ	_	18	amod	_	TokenRange=143:150
+20	associacao	associacao	NOUN	NOUN	_	22	nsubj	_	TokenRange=151:161
+21	peritos	perito	NOUN	NOUN	_	20	flat	_	TokenRange=162:169
+22	diz	dizer	VERB	VERB	_	17	conj	_	TokenRange=170:173
+23	ver	ver	VERB	VERB	_	22	xcomp	_	TokenRange=174:177
+24	troca	_	NOUN	NOUN	_	23	obj	_	TokenRange=178:183
+25	atencao	atencao	NOUN	NOUN	_	24	flat	_	TokenRange=184:191
+26	agentes	agente	NOUN	NOUN	_	27	nsubj	_	TokenRange=192:199
+27	manifestaram	manifestar	VERB	VERB	_	24	acl:relcl	_	TokenRange=200:212
+28	total	total	ADJ	ADJ	_	29	amod	_	TokenRange=213:218
+29	apoio	apoio	NOUN	NOUN	_	27	obj	_	TokenRange=219:224
+30	associacao	associacao	NOUN	NOUN	_	29	appos	_	TokenRange=225:235
+31	nacional	nacional	ADJ	ADJ	_	30	amod	_	TokenRange=236:244
+32	delegados	delegado	ADJ	ADJ	_	33	amod	_	TokenRange=245:254
+33	policia	policia	NOUN	NOUN	_	30	appos	_	TokenRange=255:262
+34	federal	federal	ADJ	ADJ	_	33	amod	_	TokenRange=263:270
+35	adpf	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=271:275
+36	divulgou	divulgar	VERB	VERB	_	22	parataxis	_	TokenRange=276:284
+37	nota	nota	NOUN	NOUN	_	36	obj	_	TokenRange=285:289
+38	nesta	_	ADP	ADP	_	39	case	_	TokenRange=290:295
+39	tercafeira	_	NOUN	NOUN	_	36	nmod	_	TokenRange=296:306
+40	27	_	NUM	NUM	NumType=Card	39	appos	_	TokenRange=307:309
+41	avaliou	avaliar	VERB	VERB	_	36	parataxis	_	TokenRange=310:317
+42	novo	novo	ADJ	ADJ	_	43	amod	_	TokenRange=318:322
+43	diretorgeral	diretorgeral	NOUN	NOUN	_	41	obj	_	TokenRange=323:335
+44	pf	_	NOUN	NOUN	_	43	appos	_	TokenRange=336:338
+45	rogerio	rogerio	NOUN	NOUN	_	43	appos	_	TokenRange=339:346
+46	galloro	galloro	NOUN	NOUN	_	43	flat	_	TokenRange=347:354
+47	reune	reunar	VERB	VERB	_	41	parataxis	_	TokenRange=355:360
+48	todas	_	DET	DET	_	49	det	_	TokenRange=361:366
+49	condicoes	_	NOUN	NOUN	_	47	obj	_	TokenRange=367:376
+50	tecnicas	tecnico	ADJ	ADJ	_	49	amod	_	TokenRange=377:385
+51	comandar	comandar	VERB	VERB	_	47	xcomp	_	TokenRange=386:394
+52	corporacao	corporacao	NOUN	NOUN	_	51	obj	_	TokenRange=395:405
+53	nota	nota	NOUN	NOUN	_	51	obj	_	TokenRange=406:410
+54	associacao	associacao	NOUN	NOUN	_	53	flat	_	SpaceAfter=No|TokenRange=411:421
+

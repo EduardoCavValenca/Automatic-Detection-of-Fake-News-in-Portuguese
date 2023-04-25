@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = urgente van atropela varias pessoas porta mesquita londres aljazeera veiculo atingiu pedestres deixando varias vitimas feridas seven sisters road norte londres informou policia local autoridades confirmaram diversas pessoas recebendo tratamento medico local atropelamento conhecido finsbury park pessoa suspeita presa servico ambulancia londres disse enviou serie recursos local
+1	urgente	urgente	ADJ	ADJ	_	3	amod	_	TokenRange=0:7
+2	van	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=8:11
+3	atropela	atropelar	VERB	VERB	_	43	ccomp	_	TokenRange=12:20
+4	varias	_	DET	DET	_	5	det	_	TokenRange=21:27
+5	pessoas	pessoa	NOUN	NOUN	_	3	obj	_	TokenRange=28:35
+6	porta	porta	VERB	VERB	_	3	parataxis	_	TokenRange=36:41
+7	mesquita	mesquita	NOUN	NOUN	_	6	obj	_	TokenRange=42:50
+8	londres	londr	ADJ	ADJ	_	7	amod	_	TokenRange=51:58
+9	aljazeera	aljazeera	NOUN	NOUN	_	11	nsubj	_	TokenRange=59:68
+10	veiculo	veiculo	NOUN	NOUN	_	11	nsubj	_	TokenRange=69:76
+11	atingiu	atingir	VERB	VERB	_	3	conj	_	TokenRange=77:84
+12	pedestres	pedestre	NOUN	NOUN	_	11	obj	_	TokenRange=85:94
+13	deixando	deixar	VERB	VERB	_	11	acl	_	TokenRange=95:103
+14	varias	_	DET	DET	_	15	det	_	TokenRange=104:110
+15	vitimas	_	NOUN	NOUN	_	13	obj	_	TokenRange=111:118
+16	feridas	ferido	ADJ	ADJ	_	15	amod	_	TokenRange=119:126
+17	seven	_	DET	DET	_	18	det	_	TokenRange=127:132
+18	sisters	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=133:140
+19	road	_	NOUN	NOUN	_	18	appos	_	TokenRange=141:145
+20	norte	norte	ADJ	ADJ	_	21	amod	_	TokenRange=146:151
+21	londres	londr	ADJ	ADJ	_	18	amod	_	TokenRange=152:159
+22	informou	informar	VERB	VERB	_	3	parataxis	_	TokenRange=160:168
+23	policia	policia	NOUN	NOUN	_	22	obj	_	TokenRange=169:176
+24	local	local	ADJ	ADJ	_	23	amod	_	TokenRange=177:182
+25	autoridades	autoridade	NOUN	NOUN	_	26	nsubj	_	TokenRange=183:194
+26	confirmaram	confirmar	VERB	VERB	_	22	ccomp	_	TokenRange=195:206
+27	diversas	_	DET	DET	_	28	det	_	TokenRange=207:215
+28	pessoas	pessoa	NOUN	NOUN	_	26	obj	_	TokenRange=216:223
+29	recebendo	receber	VERB	VERB	_	28	acl	_	TokenRange=224:233
+30	tratamento	tratamento	NOUN	NOUN	_	29	obj	_	TokenRange=234:244
+31	medico	medico	ADJ	ADJ	_	30	amod	_	TokenRange=245:251
+32	local	local	ADJ	ADJ	_	30	amod	_	TokenRange=252:257
+33	atropelamento	atropelamento	NOUN	NOUN	_	30	appos	_	TokenRange=258:271
+34	conhecido	conhecido	ADJ	ADJ	_	33	amod	_	TokenRange=272:281
+35	finsbury	finsbury	NOUN	NOUN	_	33	amod	_	TokenRange=282:290
+36	park	_	NOUN	NOUN	_	35	flat	_	TokenRange=291:295
+37	pessoa	pessoa	NOUN	NOUN	_	33	appos	_	TokenRange=296:302
+38	suspeita	suspeito	ADJ	ADJ	_	37	amod	_	TokenRange=303:311
+39	presa	_	ADJ	ADJ	_	37	amod	_	TokenRange=312:317
+40	servico	servico	NOUN	NOUN	_	43	nsubj	_	TokenRange=318:325
+41	ambulancia	_	NOUN	NOUN	_	40	flat	_	TokenRange=326:336
+42	londres	londr	ADJ	ADJ	_	40	amod	_	TokenRange=337:344
+43	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=345:350
+44	enviou	enviar	VERB	VERB	_	43	ccomp	_	TokenRange=351:357
+45	serie	_	NOUN	NOUN	_	46	amod	_	TokenRange=358:363
+46	recursos	recurso	NOUN	NOUN	_	44	obj	_	TokenRange=364:372
+47	local	local	ADJ	ADJ	_	46	amod	_	SpaceAfter=No|TokenRange=373:378
+

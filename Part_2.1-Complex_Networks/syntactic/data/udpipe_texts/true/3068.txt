@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = entenda pec fim foro privilegiado 7 perguntas respostas senado pode concluir analise proposta nesta quarta 10 votacao segundo turno existe porem possibilidade votacao ocorra somente proxima semana senado pode votar nesta quartafeira 10 segundo turno proposta emenda constituicao pec extingue foro especial prerrogativa funcao chamado foro privilegiado casos crimes comuns roubo lavagem
+1	entenda	entender	VERB	VERB	_	0	root	_	TokenRange=0:7
+2	pec	_	NOUN	NOUN	_	1	obj	_	TokenRange=8:11
+3	fim	fim	NOUN	NOUN	_	2	appos	_	TokenRange=12:15
+4	foro	foro	NOUN	NOUN	_	2	appos	_	TokenRange=16:20
+5	privilegiado	privilegiado	ADJ	ADJ	_	4	amod	_	TokenRange=21:33
+6	7	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=34:35
+7	perguntas	pergunta	NOUN	NOUN	_	4	appos	_	TokenRange=36:45
+8	respostas	resposta	ADJ	ADJ	_	7	amod	_	TokenRange=46:55
+9	senado	senado	NOUN	NOUN	_	11	nsubj	_	TokenRange=56:62
+10	pode	_	AUX	AUX	_	11	aux	_	TokenRange=63:67
+11	concluir	concluir	VERB	VERB	_	1	parataxis	_	TokenRange=68:76
+12	analise	analise	NOUN	NOUN	_	11	obj	_	TokenRange=77:84
+13	proposta	_	ADJ	ADJ	_	12	amod	_	TokenRange=85:93
+14	nesta	_	ADP	ADP	_	17	case	_	TokenRange=94:99
+15	quarta	_	ADJ	ADJ	_	17	amod	_	TokenRange=100:106
+16	10	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=107:109
+17	votacao	votacao	NOUN	NOUN	_	11	nmod	_	TokenRange=110:117
+18	segundo	segundo	ADJ	ADJ	_	19	amod	_	TokenRange=118:125
+19	turno	turno	NOUN	NOUN	_	17	nmod	_	TokenRange=126:131
+20	existe	existir	VERB	VERB	_	11	parataxis	_	TokenRange=132:138
+21	porem	_	ADV	CONJ	_	24	mark	_	TokenRange=139:144
+22	possibilidade	possibilidade	NOUN	NOUN	_	24	nsubj	_	TokenRange=145:158
+23	votacao	_	ADJ	ADJ	_	22	amod	_	TokenRange=159:166
+24	ocorra	ocorrer	VERB	VERB	_	20	ccomp	_	TokenRange=167:173
+25	somente	somente	ADV	ADV	_	27	advmod	_	TokenRange=174:181
+26	proxima	proximo	ADJ	ADJ	_	27	amod	_	TokenRange=182:189
+27	semana	semana	NOUN	NOUN	_	24	nmod	_	TokenRange=190:196
+28	senado	senado	NOUN	NOUN	_	24	nsubj	_	TokenRange=197:203
+29	pode	_	AUX	AUX	_	30	aux	_	TokenRange=204:208
+30	votar	votar	VERB	VERB	_	20	conj	_	TokenRange=209:214
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=215:220
+32	quartafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=221:232
+33	10	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=233:235
+34	segundo	segundo	ADJ	ADJ	_	35	amod	_	TokenRange=236:243
+35	turno	turno	NOUN	NOUN	_	32	appos	_	TokenRange=244:249
+36	proposta	_	NOUN	NOUN	_	35	appos	_	TokenRange=250:258
+37	emenda	emenda	NOUN	NOUN	_	40	nsubj	_	TokenRange=259:265
+38	constituicao	constituicao	ADJ	ADJ	_	37	amod	_	TokenRange=266:278
+39	pec	_	NOUN	NOUN	_	37	appos	_	TokenRange=279:282
+40	extingue	extinguir	VERB	VERB	_	20	parataxis	_	TokenRange=283:291
+41	foro	foro	NOUN	NOUN	_	40	obj	_	TokenRange=292:296
+42	especial	especial	ADJ	ADJ	_	41	amod	_	TokenRange=297:305
+43	prerrogativa	prerrogativa	ADJ	ADJ	_	41	amod	_	TokenRange=306:318
+44	funcao	funcao	NOUN	NOUN	_	41	amod	_	TokenRange=319:325
+45	chamado	chamado	ADJ	AUX	_	46	cop	_	TokenRange=326:333
+46	foro	foro	NOUN	NOUN	_	41	acl	_	TokenRange=334:338
+47	privilegiado	privilegiado	ADJ	ADJ	_	46	amod	_	TokenRange=339:351
+48	casos	caso	ADJ	ADJ	_	49	amod	_	TokenRange=352:357
+49	crimes	crime	NOUN	NOUN	_	46	appos	_	TokenRange=358:364
+50	comuns	comum	ADJ	ADJ	_	49	amod	_	TokenRange=365:371
+51	roubo	roubo	VERB	VERB	_	52	amod	_	TokenRange=372:377
+52	lavagem	lavagem	NOUN	NOUN	_	40	obj	_	SpaceAfter=No|TokenRange=378:385
+

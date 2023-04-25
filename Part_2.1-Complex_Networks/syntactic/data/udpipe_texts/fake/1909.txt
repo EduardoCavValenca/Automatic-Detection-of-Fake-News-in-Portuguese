@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tiroteio ohio eua universidade usa twitter alertar estudantes fujam escondam lutem univerdidade estadual ohio ohio state university osu eua alerta presenca atirador instalacoes osu causando panico estudantes conta twitter universidade pediu estudantes fugirem esconderem lutarem autoridades confirmaram sete pessoas feridas duas vitimas estaveis estado outras cinco ainda desconhecido acordo bombeiros ainda sabe identidade paradeiro atirador atiradores daily mail acabou informar u m suspeito morto nove pessoas feridas ainda confirmacao dessa noticia
+1	tiroteio	tiroteio	NOUN	NOUN	_	37	nsubj	_	TokenRange=0:8
+2	ohio	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:13
+3	eua	_	DET	DET	_	4	det	_	TokenRange=14:17
+4	universidade	universidade	NOUN	NOUN	_	1	appos	_	TokenRange=18:30
+5	usa	_	ADJ	ADJ	_	4	amod	_	TokenRange=31:34
+6	twitter	_	PROPN	PNOUN	_	5	obj	_	TokenRange=35:42
+7	alertar	alertar	VERB	VERB	_	1	acl:relcl	_	TokenRange=43:50
+8	estudantes	estudante	NOUN	NOUN	_	7	obj	_	TokenRange=51:61
+9	fujam	_	AUX	AUX	_	10	aux	_	TokenRange=62:67
+10	escondam	escondar	VERB	VERB	_	1	acl:relcl	_	TokenRange=68:76
+11	lutem	_	ADV	ADV	_	10	advmod	_	TokenRange=77:82
+12	univerdidade	univerdidade	NOUN	NOUN	_	10	obj	_	TokenRange=83:95
+13	estadual	estadual	ADJ	ADJ	_	12	amod	_	TokenRange=96:104
+14	ohio	_	NOUN	NOUN	_	12	appos	_	TokenRange=105:109
+15	ohio	_	NOUN	NOUN	_	12	appos	_	TokenRange=110:114
+16	state	state	NOUN	NOUN	_	15	flat	_	TokenRange=115:120
+17	university	_	NOUN	NOUN	_	15	flat	_	TokenRange=121:131
+18	osu	_	NOUN	NOUN	_	12	appos	_	TokenRange=132:135
+19	eua	_	PRON	PRON	_	20	nsubj	_	TokenRange=136:139
+20	alerta	alertar	VERB	VERB	_	18	acl:relcl	_	TokenRange=140:146
+21	presenca	presenca	NOUN	NOUN	_	20	obj	_	TokenRange=147:155
+22	atirador	atirador	NOUN	NOUN	_	21	flat	_	TokenRange=156:164
+23	instalacoes	instalacoe	NOUN	NOUN	_	21	appos	_	TokenRange=165:176
+24	osu	_	NOUN	NOUN	_	23	appos	_	TokenRange=177:180
+25	causando	causar	VERB	VERB	_	23	acl	_	TokenRange=181:189
+26	panico	panico	NOUN	NOUN	_	25	obj	_	TokenRange=190:196
+27	estudantes	estudante	NOUN	NOUN	_	25	nsubj	_	TokenRange=197:207
+28	conta	contar	VERB	VERB	_	25	parataxis	_	TokenRange=208:213
+29	twitter	_	PROPN	PNOUN	_	28	nsubj	_	TokenRange=214:221
+30	universidade	universidade	NOUN	NOUN	_	31	nsubj	_	TokenRange=222:234
+31	pediu	pedir	VERB	VERB	_	28	ccomp	_	TokenRange=235:240
+32	estudantes	estudante	NOUN	NOUN	_	34	obj	_	TokenRange=241:251
+33	fugirem	fugir	VERB	VERB	_	31	ccomp	_	TokenRange=252:259
+34	esconderem	esconder	VERB	VERB	_	33	xcomp	_	TokenRange=260:270
+35	lutarem	lutar	VERB	VERB	_	34	xcomp	_	TokenRange=271:278
+36	autoridades	autoridade	NOUN	NOUN	_	35	nsubj	_	TokenRange=279:290
+37	confirmaram	confirmar	VERB	VERB	_	0	root	_	TokenRange=291:302
+38	sete	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=303:307
+39	pessoas	pessoa	NOUN	NOUN	_	37	obj	_	TokenRange=308:315
+40	feridas	ferido	ADJ	ADJ	_	39	amod	_	TokenRange=316:323
+41	duas	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=324:328
+42	vitimas	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=329:336
+43	estaveis	estavel	ADJ	ADJ	_	42	amod	_	TokenRange=337:345
+44	estado	estado	NOUN	NOUN	_	37	nmod	_	TokenRange=346:352
+45	outras	_	DET	DET	_	46	det	_	TokenRange=353:359
+46	cinco	_	NUM	NUM	NumType=Card	37	nsubj	_	TokenRange=360:365
+47	ainda	ainda	ADV	ADV	_	48	advmod	_	TokenRange=366:371
+48	desconhecido	desconhecido	ADJ	ADJ	_	49	amod	_	TokenRange=372:384
+49	acordo	acordo	NOUN	NOUN	_	37	nsubj	_	TokenRange=385:391
+50	bombeiros	bombeiro	NOUN	NOUN	_	49	flat	_	TokenRange=392:401
+51	ainda	ainda	ADV	ADV	_	52	advmod	_	TokenRange=402:407
+52	sabe	saber	VERB	VERB	_	37	parataxis	_	TokenRange=408:412
+53	identidade	identidade	NOUN	NOUN	_	52	obj	_	TokenRange=413:423
+54	paradeiro	paradeiro	NOUN	NOUN	_	53	amod	_	TokenRange=424:433
+55	atirador	atirador	NOUN	NOUN	_	53	appos	_	TokenRange=434:442
+56	atiradores	atirador	NOUN	NOUN	_	55	flat	_	TokenRange=443:453
+57	daily	_	ADJ	ADJ	_	58	amod	_	TokenRange=454:459
+58	mail	mail	NOUN	NOUN	_	60	nsubj	_	TokenRange=460:464
+59	acabou	acabar	AUX	AUX	_	60	aux	_	TokenRange=465:471
+60	informar	informar	VERB	VERB	_	52	parataxis	_	TokenRange=472:480
+61	u	u	DET	DET	_	62	det	_	TokenRange=481:482
+62	m	m	NOUN	NOUN	_	60	obj	_	TokenRange=483:484
+63	suspeito	suspeito	ADJ	ADJ	_	62	amod	_	TokenRange=485:493
+64	morto	morto	ADJ	ADJ	_	62	amod	_	TokenRange=494:499
+65	nove	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=500:504
+66	pessoas	pessoa	NOUN	NOUN	_	60	obj	_	TokenRange=505:512
+67	feridas	ferido	ADJ	ADJ	_	66	amod	_	TokenRange=513:520
+68	ainda	ainda	ADV	ADV	_	69	advmod	_	TokenRange=521:526
+69	confirmacao	confirmacao	VERB	VERB	_	60	parataxis	_	TokenRange=527:538
+70	dessa	_	ADP	ADP	_	71	case	_	TokenRange=539:544
+71	noticia	noticia	NOUN	NOUN	_	69	nmod	_	SpaceAfter=No|TokenRange=545:552
+

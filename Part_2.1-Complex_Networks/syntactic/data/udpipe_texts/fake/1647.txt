@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vergonha concessionaria corta energia maracana falta pagamento consorcio maracana/odebrecht deu calote light desde setembro ano 2016 contas energia pagas divida total ultrapassa r 3 milhoes reais ultima copa mundo realizada brasil gastos aproximadamente r 13 bilhao estadio politicos alem roubarem descaradamente dinheiro publico agora querem tirar momentos lazer brasileiros caso futebol
+1	vergonha	vergonha	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:8
+2	concessionaria	concessionaria	NOUN	NOUN	_	1	flat	_	TokenRange=9:23
+3	corta	corto	ADJ	ADJ	_	4	amod	_	TokenRange=24:29
+4	energia	energia	NOUN	NOUN	_	1	appos	_	TokenRange=30:37
+5	maracana	maracana	ADJ	ADJ	_	4	amod	_	TokenRange=38:46
+6	falta	_	VERB	VERB	_	1	appos	_	TokenRange=47:52
+7	pagamento	pagamento	NOUN	NOUN	_	10	obj	_	TokenRange=53:62
+8	consorcio	consorcio	ADJ	ADJ	_	7	amod	_	TokenRange=63:72
+9	maracana/odebrecht	_	NOUN	NOUN	_	7	appos	_	TokenRange=73:91
+10	deu	dar	VERB	VERB	_	0	root	_	TokenRange=92:95
+11	calote	calote	NOUN	NOUN	_	10	obj	_	TokenRange=96:102
+12	light	_	NOUN	NOUN	_	11	flat	_	TokenRange=103:108
+13	desde	_	ADP	ADP	_	14	case	_	TokenRange=109:114
+14	setembro	_	PROPN	PNOUN	_	10	nmod	_	TokenRange=115:123
+15	ano	ano	NOUN	NOUN	_	14	nmod	_	TokenRange=124:127
+16	2016	_	NUM	NUM	NumType=Card	15	nmod	_	TokenRange=128:132
+17	contas	conta	NOUN	NOUN	_	10	obj	_	TokenRange=133:139
+18	energia	energia	NOUN	NOUN	_	17	appos	_	TokenRange=140:147
+19	pagas	pago	ADJ	ADJ	_	20	amod	_	TokenRange=148:153
+20	divida	divida	NOUN	NOUN	_	22	nsubj	_	TokenRange=154:160
+21	total	total	ADJ	ADJ	_	20	amod	_	TokenRange=161:166
+22	ultrapassa	ultrapassar	VERB	VERB	_	10	parataxis	_	TokenRange=167:177
+23	r	r	NOUN	NOUN	_	22	obj	_	TokenRange=178:179
+24	3	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=180:181
+25	milhoes	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=182:189
+26	reais	real	NOUN	NOUN	_	22	obj	_	TokenRange=190:195
+27	ultima	_	ADJ	ADJ	_	28	amod	_	TokenRange=196:202
+28	copa	copa	NOUN	NOUN	_	22	nsubj	_	TokenRange=203:207
+29	mundo	mundo	ADJ	NOUN	_	28	flat	_	TokenRange=208:213
+30	realizada	realizar	VERB	VERB	_	28	acl	_	TokenRange=214:223
+31	brasil	brasil	ADJ	ADJ	_	32	amod	_	TokenRange=224:230
+32	gastos	gasto	NOUN	NOUN	_	30	obj	_	TokenRange=231:237
+33	aproximadamente	aproximadamente	ADV	ADV	_	36	advmod	_	TokenRange=238:253
+34	r	r	NOUN	NOUN	_	37	appos	_	TokenRange=254:255
+35	13	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=256:258
+36	bilhao	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=259:265
+37	estadio	estadio	NOUN	NOUN	_	40	nsubj	_	TokenRange=266:273
+38	politicos	politico	ADJ	ADJ	_	37	amod	_	TokenRange=274:283
+39	alem	alem	ADV	ADV	_	40	advmod	_	TokenRange=284:288
+40	roubarem	roubar	VERB	VERB	_	32	acl:relcl	_	TokenRange=289:297
+41	descaradamente	descaradamente	ADV	ADV	_	40	advmod	_	TokenRange=298:312
+42	dinheiro	dinheiro	NOUN	NOUN	_	40	obj	_	TokenRange=313:321
+43	publico	_	ADJ	ADJ	_	42	amod	_	TokenRange=322:329
+44	agora	agora	ADV	ADV	_	45	advmod	_	TokenRange=330:335
+45	querem	querer	VERB	VERB	_	10	parataxis	_	TokenRange=336:342
+46	tirar	tirar	VERB	VERB	_	45	xcomp	_	TokenRange=343:348
+47	momentos	momento	NOUN	NOUN	_	46	obj	_	TokenRange=349:357
+48	lazer	lazer	NOUN	NOUN	_	46	obj	_	TokenRange=358:363
+49	brasileiros	brasileiro	ADJ	ADJ	_	48	amod	_	TokenRange=364:375
+50	caso	caso	VERB	VERB	_	51	case	_	TokenRange=376:380
+51	futebol	futebol	NOUN	NOUN	_	48	conj	_	SpaceAfter=No|TokenRange=381:388
+

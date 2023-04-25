@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = coreia norte faz nova ameaca japao necessario vamos afundar 4 ilhas mar coreia norte ameacou usar arma nuclear contra japao aumentando ainda tensoes norte asia necessario japao exista perto golpe decisivo deve dado ainda acreditam forca destruicao icbm missil nuclear afirmou agencia estatal coreana noticias kcna noite ontem 14 quatro ilhas arquipelago devem afundadas mar bomba nuclear disse estatal referencia ideologia regime autosuficiencia secretario gabinete japones yoshihide suga disse ameacas extremamente provocadoras
+1	coreia	coreia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	norte	norte	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	faz	fazer	VERB	VERB	_	41	ccomp	_	TokenRange=13:16
+4	nova	novo	ADJ	ADJ	_	5	amod	_	TokenRange=17:21
+5	ameaca	ameaca	NOUN	NOUN	_	3	obj	_	TokenRange=22:28
+6	japao	japao	NOUN	NOUN	_	3	obj	_	TokenRange=29:34
+7	necessario	necessario	ADJ	ADJ	_	6	amod	_	TokenRange=35:45
+8	vamos	ir	AUX	AUX	_	9	aux	_	TokenRange=46:51
+9	afundar	afundar	VERB	VERB	_	3	ccomp	_	TokenRange=52:59
+10	4	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=60:61
+11	ilhas	ilha	NOUN	NOUN	_	9	obj	_	TokenRange=62:67
+12	mar	mar	ADJ	ADJ	_	11	amod	_	TokenRange=68:71
+13	coreia	coreia	NOUN	NOUN	_	15	nsubj	_	TokenRange=72:78
+14	norte	norte	ADJ	ADJ	_	13	amod	_	TokenRange=79:84
+15	ameacou	ameacar	VERB	VERB	_	3	conj	_	TokenRange=85:92
+16	usar	usar	VERB	VERB	_	15	xcomp	_	TokenRange=93:97
+17	arma	arma	NOUN	NOUN	_	16	obj	_	TokenRange=98:102
+18	nuclear	nuclear	ADJ	ADJ	_	17	amod	_	TokenRange=103:110
+19	contra	_	ADP	ADP	_	20	case	_	TokenRange=111:117
+20	japao	japao	NOUN	NOUN	_	17	nmod	_	TokenRange=118:123
+21	aumentando	aumentar	VERB	VERB	_	16	acl	_	TokenRange=124:134
+22	ainda	ainda	ADV	ADV	_	21	advmod	_	TokenRange=135:140
+23	tensoes	tensoe	NOUN	NOUN	_	21	obj	_	TokenRange=141:148
+24	norte	norte	ADJ	ADJ	_	23	amod	_	TokenRange=149:154
+25	asia	asia	NOUN	NOUN	_	23	appos	_	TokenRange=155:159
+26	necessario	necessario	ADJ	ADJ	_	25	amod	_	TokenRange=160:170
+27	japao	japao	NOUN	NOUN	_	28	nsubj	_	TokenRange=171:176
+28	exista	existir	VERB	VERB	_	9	conj	_	TokenRange=177:183
+29	perto	perto	ADV	ADV	_	28	advmod	_	TokenRange=184:189
+30	golpe	golpe	NOUN	NOUN	_	28	nsubj	_	TokenRange=190:195
+31	decisivo	decisivo	ADJ	ADJ	_	30	amod	_	TokenRange=196:204
+32	deve	dever	AUX	AUX	_	33	aux	_	TokenRange=205:209
+33	dado	dar	VERB	VERB	_	28	parataxis	_	TokenRange=210:214
+34	ainda	ainda	ADV	ADV	_	35	advmod	_	TokenRange=215:220
+35	acreditam	acreditar	VERB	VERB	_	28	parataxis	_	TokenRange=221:230
+36	forca	forca	NOUN	NOUN	_	35	nsubj	_	TokenRange=231:236
+37	destruicao	destruicao	ADJ	ADJ	_	36	amod	_	TokenRange=237:247
+38	icbm	_	NOUN	NOUN	_	39	amod	_	TokenRange=248:252
+39	missil	missil	NOUN	NOUN	_	36	appos	_	TokenRange=253:259
+40	nuclear	nuclear	ADJ	ADJ	_	39	amod	_	TokenRange=260:267
+41	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=268:275
+42	agencia	agencia	NOUN	NOUN	_	41	nsubj	_	TokenRange=276:283
+43	estatal	estatal	ADJ	ADJ	_	42	amod	_	TokenRange=284:291
+44	coreana	coreano	ADJ	ADJ	_	42	amod	_	TokenRange=292:299
+45	noticias	noticia	NOUN	NOUN	_	42	appos	_	TokenRange=300:308
+46	kcna	_	ADJ	ADJ	_	42	appos	_	TokenRange=309:313
+47	noite	noite	NOUN	NOUN	_	54	nsubj	_	TokenRange=314:319
+48	ontem	ontem	ADV	ADV	_	54	advmod	_	TokenRange=320:325
+49	14	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=326:328
+50	quatro	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=329:335
+51	ilhas	ilha	NOUN	NOUN	_	54	nsubj	_	TokenRange=336:341
+52	arquipelago	arquipelago	ADJ	ADJ	_	51	amod	_	TokenRange=342:353
+53	devem	_	AUX	AUX	_	54	aux	_	TokenRange=354:359
+54	afundadas	afundado	VERB	VERB	_	42	acl:relcl	_	TokenRange=360:369
+55	mar	mar	ADJ	NOUN	_	56	amod	_	TokenRange=370:373
+56	bomba	bomba	NOUN	NOUN	_	54	nsubj	_	TokenRange=374:379
+57	nuclear	nuclear	ADJ	ADJ	_	56	amod	_	TokenRange=380:387
+58	disse	dizer	VERB	VERB	_	41	parataxis	_	TokenRange=388:393
+59	estatal	estatal	ADJ	ADJ	_	58	xcomp	_	TokenRange=394:401
+60	referencia	referencia	NOUN	NOUN	_	58	nsubj	_	TokenRange=402:412
+61	ideologia	ideologia	NOUN	NOUN	_	60	appos	_	TokenRange=413:422
+62	regime	regime	NOUN	NOUN	_	60	appos	_	TokenRange=423:429
+63	autosuficiencia	autosuficiencio	ADJ	ADJ	_	62	amod	_	TokenRange=430:445
+64	secretario	_	NOUN	NOUN	_	65	amod	_	TokenRange=446:456
+65	gabinete	gabinete	NOUN	NOUN	_	60	appos	_	TokenRange=457:465
+66	japones	japones	ADJ	ADJ	_	65	amod	_	TokenRange=466:473
+67	yoshihide	_	PROPN	PNOUN	_	65	appos	_	TokenRange=474:483
+68	suga	_	NOUN	NOUN	_	67	flat	_	TokenRange=484:488
+69	disse	dizer	VERB	VERB	_	42	acl:relcl	_	TokenRange=489:494
+70	ameacas	ameaca	NOUN	NOUN	_	69	obj	_	TokenRange=495:502
+71	extremamente	extremamente	ADV	ADV	_	72	advmod	_	TokenRange=503:515
+72	provocadoras	provocador	ADJ	ADJ	_	70	amod	_	SpaceAfter=No|TokenRange=516:528
+

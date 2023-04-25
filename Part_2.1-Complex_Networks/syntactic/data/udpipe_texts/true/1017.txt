@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maia diz acreditar condicoes votar reforma apos eventual segunda denuncia contra temer presidente camara participou evento nesta quinta rio minimizou derrota governo conclusao votacao meta fiscal presidente camara deputados rodrigo maia dem minimizou nesta quintafeira 31 derrota governo dia antes congresso conclusao votacao meta fiscal negou demonstracao racha base aliada afirmou ainda
+1	maia	maia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	diz	dizer	VERB	VERB	_	51	ccomp	_	TokenRange=5:8
+3	acreditar	acreditar	VERB	VERB	_	2	xcomp	_	TokenRange=9:18
+4	condicoes	_	NOUN	NOUN	_	3	obj	_	TokenRange=19:28
+5	votar	votar	VERB	VERB	_	3	ccomp	_	TokenRange=29:34
+6	reforma	reforma	NOUN	NOUN	_	5	obj	_	TokenRange=35:42
+7	apos	_	ADP	ADP	_	10	case	_	TokenRange=43:47
+8	eventual	eventual	ADJ	ADJ	_	10	amod	_	TokenRange=48:56
+9	segunda	segundo	ADJ	ADJ	_	10	amod	_	TokenRange=57:64
+10	denuncia	denuncia	NOUN	NOUN	_	5	nmod	_	TokenRange=65:73
+11	contra	_	ADP	ADP	_	12	case	_	TokenRange=74:80
+12	temer	temer	NOUN	NOUN	_	10	nmod	_	TokenRange=81:86
+13	presidente	presidente	NOUN	NOUN	_	15	nsubj	_	TokenRange=87:97
+14	camara	camara	NOUN	NOUN	_	13	flat	_	TokenRange=98:104
+15	participou	participar	VERB	VERB	_	10	acl:relcl	_	TokenRange=105:115
+16	evento	evento	NOUN	NOUN	_	15	obj	_	TokenRange=116:122
+17	nesta	_	ADP	ADP	_	19	case	_	TokenRange=123:128
+18	quinta	_	PROPN	PNOUN	_	20	nmod	_	TokenRange=129:135
+19	rio	_	NOUN	NOUN	_	20	nmod	_	TokenRange=136:139
+20	minimizou	minimizar	VERB	VERB	_	15	parataxis	_	TokenRange=140:149
+21	derrota	derrota	NOUN	NOUN	_	20	obj	_	TokenRange=150:157
+22	governo	governo	NOUN	NOUN	_	21	flat	_	TokenRange=158:165
+23	conclusao	conclusao	NOUN	NOUN	_	20	mark	_	TokenRange=166:175
+24	votacao	votacao	NOUN	NOUN	_	20	nsubj	_	TokenRange=176:183
+25	meta	meta	NOUN	NOUN	_	20	nsubj	_	TokenRange=184:188
+26	fiscal	fiscal	ADJ	ADJ	_	25	amod	_	TokenRange=189:195
+27	presidente	presidente	NOUN	NOUN	_	33	nsubj	_	TokenRange=196:206
+28	camara	camara	ADJ	ADJ	_	27	amod	_	TokenRange=207:213
+29	deputados	deputado	NOUN	NOUN	_	27	appos	_	TokenRange=214:223
+30	rodrigo	_	NOUN	NOUN	_	27	appos	_	TokenRange=224:231
+31	maia	maia	NOUN	NOUN	_	30	flat	_	TokenRange=232:236
+32	dem	_	ADP	ADP	_	33	obj	_	TokenRange=237:240
+33	minimizou	minimizar	VERB	VERB	_	20	conj	_	TokenRange=241:250
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=251:256
+35	quintafeira	quintafeira	NOUN	NOUN	_	33	nmod	_	TokenRange=257:268
+36	31	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=269:271
+37	derrota	derrota	NOUN	NOUN	_	35	appos	_	TokenRange=272:279
+38	governo	governo	NOUN	NOUN	_	37	appos	_	TokenRange=280:287
+39	dia	dia	NOUN	NOUN	_	40	nmod	_	TokenRange=288:291
+40	antes	antes	ADV	ADV	_	42	advmod	_	TokenRange=292:297
+41	congresso	congresso	NOUN	NOUN	_	40	fixed	_	TokenRange=298:307
+42	conclusao	conclusao	VERB	VERB	_	33	acl	_	TokenRange=308:317
+43	votacao	votacao	NOUN	NOUN	_	42	nsubj	_	TokenRange=318:325
+44	meta	meta	NOUN	NOUN	_	46	nsubj	_	TokenRange=326:330
+45	fiscal	fiscal	ADJ	ADJ	_	44	amod	_	TokenRange=331:337
+46	negou	negar	VERB	VERB	_	33	parataxis	_	TokenRange=338:343
+47	demonstracao	demonstracao	NOUN	NOUN	_	46	obj	_	TokenRange=344:356
+48	racha	racho	ADJ	ADJ	_	49	amod	_	TokenRange=357:362
+49	base	base	NOUN	NOUN	_	47	appos	_	TokenRange=363:367
+50	aliada	aliado	ADJ	ADJ	_	49	amod	_	TokenRange=368:374
+51	afirmou	afirmar	VERB	VERB	_	0	root	_	TokenRange=375:382
+52	ainda	ainda	ADV	ADV	_	51	advmod	_	SpaceAfter=No|TokenRange=383:388
+

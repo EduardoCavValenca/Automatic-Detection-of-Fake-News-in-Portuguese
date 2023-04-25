@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governo oferece 24 mil unidades habitacionais familias mtst ocupacao abc movimento terreno bernardo campo desde 1 setembro justica suspendeu reintegracao grupo deixar area 10 abril secretaria habitacao estado paulo apresentou proposta viabilizar 24 mil unidades habitacionais familias ocupacao povo medo organizada movimento trabalhadores teto mtst bairro planalto bernardo campo abc paulista desde 1 setembro ano passado
+1	governo	governo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	oferece	oferecer	VERB	VERB	_	0	root	_	TokenRange=8:15
+3	24	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=16:18
+4	mil	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=19:22
+5	unidades	unidade	NOUN	NOUN	_	2	obj	_	TokenRange=23:31
+6	habitacionais	habitacional	ADJ	ADJ	_	5	amod	_	TokenRange=32:45
+7	familias	familia	NOUN	NOUN	_	5	appos	_	TokenRange=46:54
+8	mtst	_	NOUN	NOUN	_	5	appos	_	TokenRange=55:59
+9	ocupacao	ocupacao	ADJ	NOUN	_	8	appos	_	TokenRange=60:68
+10	abc	_	NOUN	NOUN	_	8	appos	_	TokenRange=69:72
+11	movimento	movimento	NOUN	NOUN	_	8	appos	_	TokenRange=73:82
+12	terreno	terreno	ADJ	ADJ	_	11	amod	_	TokenRange=83:90
+13	bernardo	bernardo	NOUN	NOUN	_	11	appos	_	TokenRange=91:99
+14	campo	campo	NOUN	NOUN	_	13	flat	_	TokenRange=100:105
+15	desde	_	ADP	ADP	_	17	case	_	TokenRange=106:111
+16	1	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=112:113
+17	setembro	_	PROPN	PNOUN	_	19	nmod	_	TokenRange=114:122
+18	justica	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=123:130
+19	suspendeu	suspender	VERB	VERB	_	2	conj	_	TokenRange=131:140
+20	reintegracao	_	ADJ	ADJ	_	19	xcomp	_	TokenRange=141:153
+21	grupo	grupo	NOUN	NOUN	_	19	obj	_	TokenRange=154:159
+22	deixar	deixar	VERB	VERB	_	19	ccomp	_	TokenRange=160:166
+23	area	area	NOUN	NOUN	_	22	obj	_	TokenRange=167:171
+24	10	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=172:174
+25	abril	_	PROPN	PNOUN	_	22	nmod	_	TokenRange=175:180
+26	secretaria	secretaria	NOUN	NOUN	_	22	nsubj	_	TokenRange=181:191
+27	habitacao	habitacao	ADJ	ADJ	_	26	amod	_	TokenRange=192:201
+28	estado	estado	NOUN	NOUN	_	26	appos	_	TokenRange=202:208
+29	paulo	paulo	ADJ	ADJ	_	28	amod	_	TokenRange=209:214
+30	apresentou	apresentar	VERB	VERB	_	2	parataxis	_	TokenRange=215:225
+31	proposta	_	NOUN	NOUN	_	30	obj	_	TokenRange=226:234
+32	viabilizar	viabilizar	VERB	VERB	_	31	acl:inf	_	TokenRange=235:245
+33	24	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=246:248
+34	mil	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=249:252
+35	unidades	unidade	NOUN	NOUN	_	32	obj	_	TokenRange=253:261
+36	habitacionais	habitacional	ADJ	ADJ	_	35	amod	_	TokenRange=262:275
+37	familias	familia	NOUN	NOUN	_	35	amod	_	TokenRange=276:284
+38	ocupacao	ocupacao	ADJ	ADJ	_	35	amod	_	TokenRange=285:293
+39	povo	povo	ADJ	ADJ	_	35	amod	_	TokenRange=294:298
+40	medo	medo	NOUN	NOUN	_	35	appos	_	TokenRange=299:303
+41	organizada	organizado	ADJ	ADJ	_	40	amod	_	TokenRange=304:314
+42	movimento	movimento	NOUN	NOUN	_	35	appos	_	TokenRange=315:324
+43	trabalhadores	trabalhador	NOUN	NOUN	_	35	amod	_	TokenRange=325:338
+44	teto	teto	NOUN	NOUN	_	42	flat	_	TokenRange=339:343
+45	mtst	_	NOUN	NOUN	_	42	appos	_	TokenRange=344:348
+46	bairro	bairro	NOUN	NOUN	_	42	appos	_	TokenRange=349:355
+47	planalto	planalto	ADJ	ADJ	_	46	amod	_	TokenRange=356:364
+48	bernardo	bernardo	NOUN	NOUN	_	46	appos	_	TokenRange=365:373
+49	campo	campo	NOUN	NOUN	_	48	flat	_	TokenRange=374:379
+50	abc	_	NOUN	NOUN	_	42	appos	_	TokenRange=380:383
+51	paulista	paulista	ADJ	ADJ	_	50	amod	_	TokenRange=384:392
+52	desde	_	ADP	ADP	_	54	case	_	TokenRange=393:398
+53	1	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=399:400
+54	setembro	_	PROPN	PNOUN	_	55	nmod	_	TokenRange=401:409
+55	ano	ano	NOUN	NOUN	_	2	nmod	_	TokenRange=410:413
+56	passado	passado	ADJ	ADJ	_	55	amod	_	SpaceAfter=No|TokenRange=414:421
+

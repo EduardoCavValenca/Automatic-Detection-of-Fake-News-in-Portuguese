@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan calheiros anuncia deixa lideranca pmdb senado expresidente congresso renan passou ocupar posto inicio deste ano adotou postura contraria governo temer discurso disse serve marionete senador renan calheiros al anunciou nesta quartafeira 28 plenario decidiu deixar lideranca pmdb senado
+1	renan	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	calheiros	calheiro	NOUN	NOUN	_	1	flat	_	TokenRange=6:15
+3	anuncia	anunciar	VERB	VERB	_	0	root	_	TokenRange=16:23
+4	deixa	_	NOUN	NOUN	_	5	case	_	TokenRange=24:29
+5	lideranca	lideranca	NOUN	NOUN	_	3	obj	_	TokenRange=30:39
+6	pmdb	_	NOUN	NOUN	_	5	appos	_	TokenRange=40:44
+7	senado	senado	NOUN	NOUN	_	5	appos	_	TokenRange=45:51
+8	expresidente	expresidente	NOUN	NOUN	_	5	appos	_	TokenRange=52:64
+9	congresso	congresso	NOUN	NOUN	_	8	amod	_	TokenRange=65:74
+10	renan	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=75:80
+11	passou	passar	AUX	AUX	_	12	aux	_	TokenRange=81:87
+12	ocupar	ocupar	VERB	VERB	_	3	conj	_	TokenRange=88:94
+13	posto	posto	NOUN	NOUN	_	12	obj	_	TokenRange=95:100
+14	inicio	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=101:107
+15	deste	_	ADP	ADP	_	16	case	_	TokenRange=108:113
+16	ano	ano	NOUN	NOUN	_	14	nmod	_	TokenRange=114:117
+17	adotou	adotar	VERB	VERB	_	3	conj	_	TokenRange=118:124
+18	postura	postura	NOUN	NOUN	_	17	obj	_	TokenRange=125:132
+19	contraria	contrario	ADJ	ADJ	_	18	amod	_	TokenRange=133:142
+20	governo	governo	NOUN	NOUN	_	17	nsubj	_	TokenRange=143:150
+21	temer	temer	NOUN	NOUN	_	20	appos	_	TokenRange=151:156
+22	discurso	discurso	NOUN	NOUN	_	23	nsubj	_	TokenRange=157:165
+23	disse	dizer	VERB	VERB	_	17	parataxis	_	TokenRange=166:171
+24	serve	serve	NOUN	NOUN	_	23	obj	_	TokenRange=172:177
+25	marionete	marionete	NOUN	NOUN	_	24	flat	_	TokenRange=178:187
+26	senador	senador	NOUN	NOUN	_	30	nsubj	_	TokenRange=188:195
+27	renan	_	NOUN	NOUN	_	26	appos	_	TokenRange=196:201
+28	calheiros	calheiro	NOUN	NOUN	_	27	flat	_	TokenRange=202:211
+29	al	_	ADV	PRON	_	30	advmod	_	TokenRange=212:214
+30	anunciou	anunciar	VERB	VERB	_	23	parataxis	_	TokenRange=215:223
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=224:229
+32	quartafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=230:241
+33	28	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=242:244
+34	plenario	plenario	NOUN	NOUN	_	35	nsubj	_	TokenRange=245:253
+35	decidiu	decidir	VERB	VERB	_	23	parataxis	_	TokenRange=254:261
+36	deixar	deixar	VERB	VERB	_	35	xcomp	_	TokenRange=262:268
+37	lideranca	lideranca	NOUN	NOUN	_	36	obj	_	TokenRange=269:278
+38	pmdb	_	NOUN	NOUN	_	36	nmod	_	TokenRange=279:283
+39	senado	senado	NOUN	NOUN	_	38	flat	_	SpaceAfter=No|TokenRange=284:290
+

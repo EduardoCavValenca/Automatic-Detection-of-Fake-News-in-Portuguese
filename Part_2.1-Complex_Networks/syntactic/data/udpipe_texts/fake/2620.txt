@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joao santana recebeu r 55 milhoes eleger lula dilma vinicius borin relatou delacao premiada offshore empresas paraiso fiscal joao santana marqueteiro dilma lula recebido r 55 milhoes atraves escritorio propinas odebrecht repasses identificados acordo documentos fornecidos administrador banco odebrecht caribe somam us 16633510 propinas lavajato identificou marqueteiro esposa monica moura recebido brasil outros r 23 5 milhoes momento lavajato rastreado 4 6 milhoes dolares pagamentos ilegais marqueteiro petista precisa dilma lula eleitos dinheiro propinas eleitos dinheiro roubado empresas publicas
+1	joao	joao	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	santana	santana	NOUN	NOUN	_	1	flat	_	TokenRange=5:12
+3	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=13:20
+4	r	r	NOUN	NOUN	_	3	obj	_	TokenRange=21:22
+5	55	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=23:25
+6	milhoes	_	NOUN	NOUN	_	3	obj	_	TokenRange=26:33
+7	eleger	eleger	VERB	VERB	_	3	ccomp	_	TokenRange=34:40
+8	lula	lula	NOUN	NOUN	_	7	obj	_	TokenRange=41:45
+9	dilma	dilma	NOUN	NOUN	_	8	appos	_	TokenRange=46:51
+10	vinicius	_	NOUN	NOUN	_	9	flat	_	TokenRange=52:60
+11	borin	_	NOUN	NOUN	_	9	flat	_	TokenRange=61:66
+12	relatou	relatar	VERB	VERB	_	3	conj	_	TokenRange=67:74
+13	delacao	delacao	NOUN	NOUN	_	12	obj	_	TokenRange=75:82
+14	premiada	premiado	ADJ	ADJ	_	13	amod	_	TokenRange=83:91
+15	offshore	_	ADJ	ADJ	_	16	amod	_	TokenRange=92:100
+16	empresas	empresa	NOUN	NOUN	_	13	appos	_	TokenRange=101:109
+17	paraiso	paraiso	NOUN	NOUN	_	16	appos	_	TokenRange=110:117
+18	fiscal	fiscal	ADJ	ADJ	_	17	amod	_	TokenRange=118:124
+19	joao	joao	NOUN	NOUN	_	16	appos	_	TokenRange=125:129
+20	santana	santana	NOUN	NOUN	_	19	flat	_	TokenRange=130:137
+21	marqueteiro	marqueteiro	NOUN	NOUN	_	19	flat	_	TokenRange=138:149
+22	dilma	dilma	NOUN	NOUN	_	19	appos	_	TokenRange=150:155
+23	lula	lula	NOUN	NOUN	_	22	flat	_	TokenRange=156:160
+24	recebido	receber	VERB	VERB	_	16	acl	_	TokenRange=161:169
+25	r	r	NOUN	NOUN	_	24	obj	_	TokenRange=170:171
+26	55	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=172:174
+27	milhoes	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=175:182
+28	atraves	_	ADP	ADP	_	29	case	_	TokenRange=183:190
+29	escritorio	escritorio	NOUN	NOUN	_	24	nmod	_	TokenRange=191:201
+30	propinas	propina	NOUN	NOUN	_	29	appos	_	TokenRange=202:210
+31	odebrecht	_	ADJ	ADJ	_	32	amod	_	TokenRange=211:220
+32	repasses	repasse	NOUN	NOUN	_	29	appos	_	TokenRange=221:229
+33	identificados	identificar	ADJ	ADJ	_	32	amod	_	TokenRange=230:243
+34	acordo	acordo	ADJ	ADJ	_	35	amod	_	TokenRange=244:250
+35	documentos	documento	NOUN	NOUN	_	29	appos	_	TokenRange=251:261
+36	fornecidos	fornecer	VERB	VERB	_	35	acl	_	TokenRange=262:272
+37	administrador	administrador	ADJ	ADJ	_	38	amod	_	TokenRange=273:286
+38	banco	banco	NOUN	NOUN	_	41	nsubj	_	TokenRange=287:292
+39	odebrecht	_	NOUN	NOUN	_	38	appos	_	TokenRange=293:302
+40	caribe	caribe	NOUN	NOUN	_	38	flat	_	TokenRange=303:309
+41	somam	somar	VERB	VERB	_	3	parataxis	_	TokenRange=310:315
+42	us	_	DET	DET	_	41	obj	_	TokenRange=316:318
+43	16633510	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=319:327
+44	propinas	propina	NOUN	NOUN	_	41	obj	_	TokenRange=328:336
+45	lavajato	lavajato	ADJ	ADJ	_	44	amod	_	TokenRange=337:345
+46	identificou	identificar	VERB	VERB	_	41	parataxis	_	TokenRange=346:357
+47	marqueteiro	marqueteiro	NOUN	NOUN	_	46	obj	_	TokenRange=358:369
+48	esposa	esposo	NOUN	NOUN	_	47	amod	_	TokenRange=370:376
+49	monica	_	NOUN	NOUN	_	47	appos	_	TokenRange=377:383
+50	moura	mouro	ADJ	ADJ	_	49	flat	_	TokenRange=384:389
+51	recebido	receber	VERB	VERB	_	46	acl	_	TokenRange=390:398
+52	brasil	brasil	NOUN	NOUN	_	51	obj	_	TokenRange=399:405
+53	outros	_	DET	DET	_	54	det	_	TokenRange=406:412
+54	r	r	NOUN	NOUN	_	51	obj	_	TokenRange=413:414
+55	23	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=415:417
+56	5	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=418:419
+57	milhoes	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=420:427
+58	momento	momento	NOUN	NOUN	_	54	appos	_	TokenRange=428:435
+59	lavajato	lavajato	ADJ	ADJ	_	58	amod	_	TokenRange=436:444
+60	rastreado	rastrear	VERB	ADJ	_	58	acl	_	TokenRange=445:454
+61	4	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=455:456
+62	6	_	NUM	NUM	NumType=Card	63	nummod	_	TokenRange=457:458
+63	milhoes	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=459:466
+64	dolares	dolar	NOUN	NOUN	_	58	appos	_	TokenRange=467:474
+65	pagamentos	pagamento	NOUN	NOUN	_	58	appos	_	TokenRange=475:485
+66	ilegais	ilegal	ADJ	ADJ	_	65	amod	_	TokenRange=486:493
+67	marqueteiro	marqueteiro	ADJ	ADJ	_	68	amod	_	TokenRange=494:505
+68	petista	petista	NOUN	NOUN	_	65	appos	_	TokenRange=506:513
+69	precisa	preciso	ADJ	ADJ	_	68	amod	_	TokenRange=514:521
+70	dilma	dilma	NOUN	NOUN	_	68	appos	_	TokenRange=522:527
+71	lula	lula	NOUN	NOUN	_	70	flat	_	TokenRange=528:532
+72	eleitos	eleger	VERB	ADJ	_	73	acl	_	TokenRange=533:540
+73	dinheiro	dinheiro	NOUN	NOUN	_	68	appos	_	TokenRange=541:549
+74	propinas	propina	NOUN	NOUN	_	68	appos	_	TokenRange=550:558
+75	eleitos	eleger	VERB	VERB	_	76	acl	_	TokenRange=559:566
+76	dinheiro	dinheiro	NOUN	NOUN	_	74	appos	_	TokenRange=567:575
+77	roubado	roubar	VERB	VERB	_	78	acl	_	TokenRange=576:583
+78	empresas	empresa	NOUN	NOUN	_	74	appos	_	TokenRange=584:592
+79	publicas	publico	ADJ	ADJ	_	78	amod	_	SpaceAfter=No|TokenRange=593:601
+

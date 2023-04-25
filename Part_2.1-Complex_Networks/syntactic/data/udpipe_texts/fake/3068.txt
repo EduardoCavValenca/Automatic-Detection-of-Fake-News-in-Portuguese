@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = suspensao nomeacao lula perde foro privilegiado pode preso qualquer momento liminar suspendendo ato posse lula petista perde temporariamente foro privilegiado lula passa foro cidadao comum deve continuara responder primeira instancia todos crimes praticados segundo liminar juiz itagiba catta preta neto existem indicios cometimento crime responsabilidade presidente republica dilma rousseff
+1	suspensao	suspensao	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:9
+2	nomeacao	nomeacao	NOUN	NOUN	_	1	obj	_	TokenRange=10:18
+3	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=19:23
+4	perde	perder	VERB	VERB	_	0	root	_	TokenRange=24:29
+5	foro	foro	NOUN	NOUN	_	4	obj	_	TokenRange=30:34
+6	privilegiado	privilegiado	ADJ	ADJ	_	5	amod	_	TokenRange=35:47
+7	pode	_	AUX	AUX	_	8	aux	_	TokenRange=48:52
+8	preso	_	VERB	VERB	_	4	conj	_	TokenRange=53:58
+9	qualquer	_	DET	DET	_	10	det	_	TokenRange=59:67
+10	momento	momento	NOUN	NOUN	_	8	nmod	_	TokenRange=68:75
+11	liminar	liminar	ADJ	ADJ	_	10	amod	_	TokenRange=76:83
+12	suspendendo	suspender	VERB	VERB	_	8	acl	_	TokenRange=84:95
+13	ato	ato	NOUN	NOUN	_	12	obj	_	TokenRange=96:99
+14	posse	posse	NOUN	NOUN	_	13	flat	_	TokenRange=100:105
+15	lula	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=106:110
+16	petista	petista	NOUN	NOUN	_	17	nsubj	_	TokenRange=111:118
+17	perde	perder	VERB	VERB	_	12	conj	_	TokenRange=119:124
+18	temporariamente	temporariamente	ADV	ADV	_	17	advmod	_	TokenRange=125:140
+19	foro	foro	NOUN	NOUN	_	17	obj	_	TokenRange=141:145
+20	privilegiado	privilegiado	ADJ	ADJ	_	19	amod	_	TokenRange=146:158
+21	lula	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=159:163
+22	passa	passar	VERB	VERB	_	17	parataxis	_	TokenRange=164:169
+23	foro	foro	NOUN	NOUN	_	22	obj	_	TokenRange=170:174
+24	cidadao	cidadao	NOUN	NOUN	_	23	appos	_	TokenRange=175:182
+25	comum	comum	ADJ	ADJ	_	24	amod	_	TokenRange=183:188
+26	deve	dever	AUX	AUX	_	28	aux	_	TokenRange=189:193
+27	continuara	continuar	AUX	AUX	_	28	aux	_	TokenRange=194:204
+28	responder	responder	VERB	VERB	_	4	conj	_	TokenRange=205:214
+29	primeira	primeiro	ADJ	ADJ	_	30	amod	_	TokenRange=215:223
+30	instancia	instancia	NOUN	NOUN	_	28	nmod	_	TokenRange=224:233
+31	todos	_	DET	DET	_	32	det	_	TokenRange=234:239
+32	crimes	crime	NOUN	NOUN	_	28	nsubj	_	TokenRange=240:246
+33	praticados	praticar	VERB	VERB	_	32	acl	_	TokenRange=247:257
+34	segundo	_	ADP	ADP	_	35	case	_	TokenRange=258:265
+35	liminar	liminar	NOUN	NOUN	_	33	nmod	_	TokenRange=266:273
+36	juiz	juiz	NOUN	NOUN	_	33	nmod	_	TokenRange=274:278
+37	itagiba	itagiba	NOUN	NOUN	_	36	appos	_	TokenRange=279:286
+38	catta	_	NOUN	NOUN	_	36	appos	_	TokenRange=287:292
+39	preta	preto	ADJ	ADJ	_	38	amod	_	TokenRange=293:298
+40	neto	neto	NOUN	NOUN	_	38	amod	_	TokenRange=299:303
+41	existem	existir	VERB	VERB	_	28	parataxis	_	TokenRange=304:311
+42	indicios	_	NOUN	NOUN	_	41	nsubj	_	TokenRange=312:320
+43	cometimento	cometimento	ADJ	NOUN	_	42	amod	_	TokenRange=321:332
+44	crime	crime	NOUN	NOUN	_	42	flat	_	TokenRange=333:338
+45	responsabilidade	responsabilidade	NOUN	NOUN	_	42	appos	_	TokenRange=339:355
+46	presidente	presidente	NOUN	NOUN	_	42	appos	_	TokenRange=356:366
+47	republica	republico	ADJ	ADJ	_	46	amod	_	TokenRange=367:376
+48	dilma	dilma	NOUN	NOUN	_	46	appos	_	TokenRange=377:382
+49	rousseff	rousseff	NOUN	NOUN	_	48	flat	_	SpaceAfter=No|TokenRange=383:391
+

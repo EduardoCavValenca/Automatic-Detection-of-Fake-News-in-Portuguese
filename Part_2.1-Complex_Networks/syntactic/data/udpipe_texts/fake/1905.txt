@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aviao 97 passageiros faz pouso emergencia aeroporto brasilia aviao acabou fazer pouso emergencia aeroporto jk aeronave precisou executar pouso forcado devido pane voo avianca partiu guarulhos sp destino cidade juazeiro norte ce acordo informacoes preliminares globo news fumaca bordo passageiros entraram panico vitimas pouso ocorreu seguranca aeronave sendo rebocada neste exato momento 97 passageiros bordo nota avianca enviada diario brasil 1932
+1	aviao	aviao	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	97	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=6:8
+3	passageiros	passageiro	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:20
+4	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=21:24
+5	pouso	pouso	NOUN	NOUN	_	4	obj	_	TokenRange=25:30
+6	emergencia	emergencia	NOUN	NOUN	_	5	amod	_	TokenRange=31:41
+7	aeroporto	aeroporto	NOUN	NOUN	_	4	nsubj	_	TokenRange=42:51
+8	brasilia	brasilia	ADJ	NOUN	_	7	amod	_	TokenRange=52:60
+9	aviao	aviao	NOUN	NOUN	_	11	nsubj	_	TokenRange=61:66
+10	acabou	acabar	AUX	AUX	_	11	aux	_	TokenRange=67:73
+11	fazer	fazer	VERB	VERB	_	4	conj	_	TokenRange=74:79
+12	pouso	pouso	NOUN	NOUN	_	11	obj	_	TokenRange=80:85
+13	emergencia	emergencia	ADJ	ADJ	_	12	amod	_	TokenRange=86:96
+14	aeroporto	aeroporto	NOUN	NOUN	_	11	nsubj	_	TokenRange=97:106
+15	jk	_	NOUN	NOUN	_	14	appos	_	TokenRange=107:109
+16	aeronave	aeronave	NOUN	NOUN	_	14	appos	_	TokenRange=110:118
+17	precisou	precisar	VERB	VERB	_	4	conj	_	TokenRange=119:127
+18	executar	executar	VERB	VERB	_	17	xcomp	_	TokenRange=128:136
+19	pouso	pouso	NOUN	NOUN	_	18	obj	_	TokenRange=137:142
+20	forcado	forcado	ADJ	ADJ	_	19	amod	_	TokenRange=143:150
+21	devido	dever	VERB	VERB	_	25	mark	_	TokenRange=151:157
+22	pane	_	ADP	ADP	_	21	fixed	_	TokenRange=158:162
+23	voo	voo	NOUN	NOUN	_	25	nsubj	_	TokenRange=163:166
+24	avianca	_	NOUN	NOUN	_	23	appos	_	TokenRange=167:174
+25	partiu	partir	VERB	VERB	_	17	advcl	_	TokenRange=175:181
+26	guarulhos	guarulho	NOUN	NOUN	_	25	obj	_	TokenRange=182:191
+27	sp	_	NOUN	NOUN	_	26	appos	_	TokenRange=192:194
+28	destino	destino	NOUN	NOUN	_	26	appos	_	TokenRange=195:202
+29	cidade	cidade	NOUN	NOUN	_	28	flat	_	TokenRange=203:209
+30	juazeiro	juazeiro	NOUN	NOUN	_	28	appos	_	TokenRange=210:218
+31	norte	norte	ADJ	ADJ	_	30	amod	_	TokenRange=219:224
+32	ce	_	ADP	DET	_	33	case	_	TokenRange=225:227
+33	acordo	acordo	NOUN	NOUN	_	25	nsubj	_	TokenRange=228:234
+34	informacoes	informacoe	NOUN	NOUN	_	33	appos	_	TokenRange=235:246
+35	preliminares	preliminar	ADJ	ADJ	_	34	amod	_	TokenRange=247:259
+36	globo	globo	NOUN	NOUN	_	33	appos	_	TokenRange=260:265
+37	news	_	NOUN	NOUN	_	36	flat	_	TokenRange=266:270
+38	fumaca	_	NOUN	NOUN	_	34	appos	_	TokenRange=271:277
+39	bordo	bordo	ADJ	ADJ	_	40	amod	_	TokenRange=278:283
+40	passageiros	passageiro	NOUN	NOUN	_	41	nsubj	_	TokenRange=284:295
+41	entraram	entrar	VERB	VERB	_	25	conj	_	TokenRange=296:304
+42	panico	panico	NOUN	NOUN	_	41	obj	_	TokenRange=305:311
+43	vitimas	_	ADJ	ADJ	_	44	amod	_	TokenRange=312:319
+44	pouso	pouso	NOUN	NOUN	_	45	nsubj	_	TokenRange=320:325
+45	ocorreu	ocorrer	VERB	VERB	_	4	conj	_	TokenRange=326:333
+46	seguranca	_	ADJ	ADJ	_	47	amod	_	TokenRange=334:343
+47	aeronave	aeronave	NOUN	NOUN	_	45	nsubj	_	TokenRange=344:352
+48	sendo	ser	AUX	AUX	_	49	aux:pass	_	TokenRange=353:358
+49	rebocada	rebocar	VERB	VERB	_	45	acl	_	TokenRange=359:367
+50	neste	_	ADP	ADP	_	52	case	_	TokenRange=368:373
+51	exato	exato	ADJ	ADJ	_	52	amod	_	TokenRange=374:379
+52	momento	momento	NOUN	NOUN	_	49	nmod	_	TokenRange=380:387
+53	97	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=388:390
+54	passageiros	passageiro	NOUN	NOUN	_	49	nsubj:pass	_	TokenRange=391:402
+55	bordo	bordo	ADJ	ADJ	_	56	amod	_	TokenRange=403:408
+56	nota	nota	NOUN	NOUN	_	49	parataxis	_	TokenRange=409:413
+57	avianca	_	NOUN	NOUN	_	56	appos	_	TokenRange=414:421
+58	enviada	enviar	VERB	VERB	_	56	acl	_	TokenRange=422:429
+59	diario	diario	NOUN	NOUN	_	58	nmod	_	TokenRange=430:436
+60	brasil	brasil	NOUN	NOUN	_	59	flat	_	TokenRange=437:443
+61	1932	_	NUM	NUM	NumType=Card	59	nmod	_	SpaceAfter=No|TokenRange=444:448
+

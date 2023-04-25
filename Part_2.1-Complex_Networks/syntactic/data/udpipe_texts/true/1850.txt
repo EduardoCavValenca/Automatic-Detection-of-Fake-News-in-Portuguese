@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = hackers acessavam dados vitimas enviando emails virus nome instituicoes diz delegado operacao policia federal prendeu seis pessoas suspeitas participar quadrilha duas consideradas foragidas desviado r 10 milhoes contas bancarias pernambuco paulo goias tocantins quadrilha presa durante operacao codigo reverso policia federal mandava emails virus nome instituicoes financeiras acesso computadores correntistas informacao chefe delegacia repressao crimes fazendarios luiz felipe silva explicou vitimas acessavam emails desta forma permitiam grupo acesso computadores operacao realizada nesta
+1	hackers	hacker	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	acessavam	acessar	VERB	VERB	_	0	root	_	TokenRange=8:17
+3	dados	dado	NOUN	NOUN	_	2	obj	_	TokenRange=18:23
+4	vitimas	vitimo	ADJ	ADJ	_	3	amod	_	TokenRange=24:31
+5	enviando	enviar	VERB	VERB	_	3	acl	_	TokenRange=32:40
+6	emails	email	NOUN	NOUN	_	5	obj	_	TokenRange=41:47
+7	virus	_	NOUN	NOUN	_	6	amod	_	TokenRange=48:53
+8	nome	nome	NOUN	NOUN	_	6	appos	_	TokenRange=54:58
+9	instituicoes	instituicoe	NOUN	NOUN	_	8	flat	_	TokenRange=59:71
+10	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=72:75
+11	delegado	delegado	NOUN	NOUN	_	15	obj	_	TokenRange=76:84
+12	operacao	operacao	ADJ	ADJ	_	13	amod	_	TokenRange=85:93
+13	policia	policia	NOUN	NOUN	_	15	nsubj	_	TokenRange=94:101
+14	federal	federal	ADJ	ADJ	_	13	amod	_	TokenRange=102:109
+15	prendeu	prender	VERB	VERB	_	2	parataxis	_	TokenRange=110:117
+16	seis	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=118:122
+17	pessoas	pessoa	NOUN	NOUN	_	15	obj	_	TokenRange=123:130
+18	suspeitas	suspeito	ADJ	ADJ	_	17	amod	_	TokenRange=131:140
+19	participar	participar	VERB	VERB	_	15	xcomp	_	TokenRange=141:151
+20	quadrilha	quadrilha	NOUN	NOUN	_	19	obj	_	TokenRange=152:161
+21	duas	_	NUM	NUM	NumType=Card	20	appos	_	TokenRange=162:166
+22	consideradas	considerar	VERB	VERB	_	20	acl	_	TokenRange=167:179
+23	foragidas	foragido	ADJ	ADJ	_	22	xcomp	_	TokenRange=180:189
+24	desviado	desviar	VERB	VERB	_	20	acl	_	TokenRange=190:198
+25	r	r	NOUN	NOUN	_	24	obj	_	TokenRange=199:200
+26	10	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=201:203
+27	milhoes	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=204:211
+28	contas	conta	NOUN	NOUN	_	24	obj	_	TokenRange=212:218
+29	bancarias	bancario	ADJ	ADJ	_	28	amod	_	TokenRange=219:228
+30	pernambuco	pernambuco	NOUN	NOUN	_	28	appos	_	TokenRange=229:239
+31	paulo	_	NOUN	NOUN	_	28	appos	_	TokenRange=240:245
+32	goias	goia	NOUN	NOUN	_	28	flat	_	TokenRange=246:251
+33	tocantins	tocantim	ADJ	ADJ	_	34	amod	_	TokenRange=252:261
+34	quadrilha	quadrilha	NOUN	NOUN	_	28	appos	_	TokenRange=262:271
+35	presa	_	VERB	VERB	_	34	acl	_	TokenRange=272:277
+36	durante	_	ADP	ADP	_	37	case	_	TokenRange=278:285
+37	operacao	operacao	NOUN	NOUN	_	42	nmod	_	TokenRange=286:294
+38	codigo	codigo	NOUN	NOUN	_	37	appos	_	TokenRange=295:301
+39	reverso	reverso	ADJ	ADJ	_	38	amod	_	TokenRange=302:309
+40	policia	policia	NOUN	NOUN	_	42	nsubj	_	TokenRange=310:317
+41	federal	federal	ADJ	ADJ	_	40	amod	_	TokenRange=318:325
+42	mandava	mandar	VERB	VERB	_	15	parataxis	_	TokenRange=326:333
+43	emails	email	NOUN	NOUN	_	42	obj	_	TokenRange=334:340
+44	virus	_	NOUN	NOUN	_	43	flat	_	TokenRange=341:346
+45	nome	nome	NOUN	NOUN	_	43	appos	_	TokenRange=347:351
+46	instituicoes	instituicoe	NOUN	NOUN	_	43	appos	_	TokenRange=352:364
+47	financeiras	financeiro	ADJ	ADJ	_	46	amod	_	TokenRange=365:376
+48	acesso	acesso	NOUN	NOUN	_	42	obj	_	TokenRange=377:383
+49	computadores	computador	NOUN	NOUN	_	48	appos	_	TokenRange=384:396
+50	correntistas	correntista	ADJ	ADJ	_	49	amod	_	TokenRange=397:409
+51	informacao	informacao	NOUN	NOUN	_	48	appos	_	TokenRange=410:420
+52	chefe	chefe	NOUN	NOUN	_	51	flat	_	TokenRange=421:426
+53	delegacia	delegacia	NOUN	NOUN	_	52	flat	_	TokenRange=427:436
+54	repressao	repressao	ADJ	ADJ	_	55	amod	_	TokenRange=437:446
+55	crimes	crime	NOUN	NOUN	_	51	appos	_	TokenRange=447:453
+56	fazendarios	fazendario	ADJ	ADJ	_	55	amod	_	TokenRange=454:465
+57	luiz	luiz	NOUN	NOUN	_	60	nsubj	_	TokenRange=466:470
+58	felipe	felipe	NOUN	NOUN	_	57	flat	_	TokenRange=471:477
+59	silva	silva	ADJ	ADJ	_	57	flat	_	TokenRange=478:483
+60	explicou	explicar	VERB	VERB	_	2	parataxis	_	TokenRange=484:492
+61	vitimas	vitima	NOUN	NOUN	_	60	obj	_	TokenRange=493:500
+62	acessavam	acessar	VERB	VERB	_	60	ccomp	_	TokenRange=501:510
+63	emails	email	NOUN	NOUN	_	62	obj	_	TokenRange=511:517
+64	desta	_	ADP	ADP	_	65	case	_	TokenRange=518:523
+65	forma	forma	NOUN	NOUN	_	66	nmod	_	TokenRange=524:529
+66	permitiam	permitir	VERB	VERB	_	60	parataxis	_	TokenRange=530:539
+67	grupo	grupo	NOUN	NOUN	_	66	obj	_	TokenRange=540:545
+68	acesso	acesso	NOUN	NOUN	_	66	obj	_	TokenRange=546:552
+69	computadores	computador	NOUN	NOUN	_	68	flat	_	TokenRange=553:565
+70	operacao	operacao	NOUN	NOUN	_	66	obj	_	TokenRange=566:574
+71	realizada	realizar	VERB	VERB	_	70	acl	_	TokenRange=575:584
+72	nesta	_	ADP	ADP	_	66	nmod	_	SpaceAfter=No|TokenRange=585:590
+

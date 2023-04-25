@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = russia desloca forca militar fronteira coreia norte fronteira russia coreia norte acordo definicao oficial russa consiste 17 quilometros fronteira terrestre 221 quilometros fronteira maritima curta fronteiras internacionais russia movimento confirmado oficialmente governo russo detectado moradores cidade fronteirica publicado redes sociais coreia norte alertou preparada guerra total eua enquanto china ainda pede dois paises recuem escalada guerra proporcoes devastadoras
+1	russia	russia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	desloca	deslocar	VERB	VERB	_	43	parataxis	_	TokenRange=7:14
+3	forca	forca	NOUN	NOUN	_	2	obj	_	TokenRange=15:20
+4	militar	militar	ADJ	ADJ	_	3	amod	_	TokenRange=21:28
+5	fronteira	_	NOUN	NOUN	_	3	appos	_	TokenRange=29:38
+6	coreia	coreia	NOUN	NOUN	_	3	appos	_	TokenRange=39:45
+7	norte	norte	ADJ	ADJ	_	3	amod	_	TokenRange=46:51
+8	fronteira	_	NOUN	NOUN	_	3	appos	_	TokenRange=52:61
+9	russia	russia	NOUN	NOUN	_	3	appos	_	TokenRange=62:68
+10	coreia	coreia	NOUN	NOUN	_	8	appos	_	TokenRange=69:75
+11	norte	norte	ADJ	ADJ	_	12	amod	_	TokenRange=76:81
+12	acordo	acordo	NOUN	NOUN	_	16	nsubj	_	TokenRange=82:88
+13	definicao	definicao	ADJ	ADJ	_	12	amod	_	TokenRange=89:98
+14	oficial	oficial	ADJ	ADJ	_	12	amod	_	TokenRange=99:106
+15	russa	russo	ADJ	ADJ	_	12	amod	_	TokenRange=107:112
+16	consiste	consistir	VERB	VERB	_	2	parataxis	_	TokenRange=113:121
+17	17	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=122:124
+18	quilometros	quilometro	NOUN	NOUN	_	16	obj	_	TokenRange=125:136
+19	fronteira	_	NOUN	NOUN	_	18	appos	_	TokenRange=137:146
+20	terrestre	terrestre	ADJ	ADJ	_	19	amod	_	TokenRange=147:156
+21	221	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=157:160
+22	quilometros	quilometro	NOUN	NOUN	_	18	appos	_	TokenRange=161:172
+23	fronteira	_	NOUN	NOUN	_	18	appos	_	TokenRange=173:182
+24	maritima	maritimo	ADJ	ADJ	_	23	amod	_	TokenRange=183:191
+25	curta	curto	ADJ	ADJ	_	26	amod	_	TokenRange=192:197
+26	fronteiras	_	NOUN	NOUN	_	23	appos	_	TokenRange=198:208
+27	internacionais	internacional	ADJ	ADJ	_	26	amod	_	TokenRange=209:223
+28	russia	russia	ADJ	ADJ	_	29	amod	_	TokenRange=224:230
+29	movimento	movimento	NOUN	NOUN	_	16	nsubj	_	TokenRange=231:240
+30	confirmado	confirmar	ADJ	ADJ	_	29	acl	_	TokenRange=241:251
+31	oficialmente	oficialmente	ADV	ADV	_	32	advmod	_	TokenRange=252:264
+32	governo	governo	NOUN	NOUN	_	29	appos	_	TokenRange=265:272
+33	russo	russo	ADJ	ADJ	_	32	amod	_	TokenRange=273:278
+34	detectado	detectar	VERB	VERB	_	32	acl	_	TokenRange=279:288
+35	moradores	morador	NOUN	NOUN	_	34	obj	_	TokenRange=289:298
+36	cidade	cidade	NOUN	NOUN	_	35	appos	_	TokenRange=299:305
+37	fronteirica	fronteirico	ADJ	ADJ	_	36	amod	_	TokenRange=306:317
+38	publicado	publicar	VERB	VERB	_	29	acl	_	TokenRange=318:327
+39	redes	rede	NOUN	NOUN	_	38	obj	_	TokenRange=328:333
+40	sociais	social	ADJ	ADJ	_	39	amod	_	TokenRange=334:341
+41	coreia	coreia	NOUN	NOUN	_	43	nsubj	_	TokenRange=342:348
+42	norte	norte	ADJ	ADJ	_	41	amod	_	TokenRange=349:354
+43	alertou	alertar	VERB	VERB	_	0	root	_	TokenRange=355:362
+44	preparada	preparado	ADJ	ADJ	_	45	amod	_	TokenRange=363:372
+45	guerra	guerra	NOUN	NOUN	_	43	obj	_	TokenRange=373:379
+46	total	total	ADJ	ADJ	_	45	amod	_	TokenRange=380:385
+47	eua	_	PRON	PRON	_	43	nsubj	_	TokenRange=386:389
+48	enquanto	_	CCONJ	CONJ	_	51	mark	_	TokenRange=390:398
+49	china	china	NOUN	NOUN	_	51	nsubj	_	TokenRange=399:404
+50	ainda	ainda	ADV	ADV	_	51	advmod	_	TokenRange=405:410
+51	pede	pedir	VERB	VERB	_	43	advcl	_	TokenRange=411:415
+52	dois	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=416:420
+53	paises	paise	NOUN	NOUN	_	51	obj	_	TokenRange=421:427
+54	recuem	recar	VERB	VERB	_	51	ccomp	_	TokenRange=428:434
+55	escalada	escalado	ADJ	ADJ	_	56	amod	_	TokenRange=435:443
+56	guerra	guerra	NOUN	NOUN	_	54	obj	_	TokenRange=444:450
+57	proporcoes	proporcoe	NOUN	NOUN	_	54	obj	_	TokenRange=451:461
+58	devastadoras	devastador	ADJ	ADJ	_	57	amod	_	SpaceAfter=No|TokenRange=462:474
+

@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogados professores direito penal consultados reportagem estadao informaram preso lula podera ficar prisao especial tendo diploma curso superior condenado segunda instancia 12 anos mes prisao caso triplex guaruja expresidente pode preso proxima segundafeira 26 tribunal regional federal 4 regiao trf4 vai julgar recurso decisivo petista embargos declaracao contestam sentenca constitucionalistas criminalistas avaliam fato lula possuir curso superior
+1	advogados	advogado	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:9
+2	professores	professor	ADJ	ADJ	_	1	amod	_	TokenRange=10:21
+3	direito	direito	NOUN	NOUN	_	1	amod	_	TokenRange=22:29
+4	penal	penal	ADJ	ADJ	_	3	amod	_	TokenRange=30:35
+5	consultados	consultar	VERB	ADJ	_	1	acl	_	TokenRange=36:47
+6	reportagem	reportagem	NOUN	NOUN	_	1	appos	_	TokenRange=48:58
+7	estadao	estadao	NOUN	NOUN	_	6	appos	_	TokenRange=59:66
+8	informaram	informar	VERB	VERB	_	0	root	_	TokenRange=67:77
+9	preso	preso	ADJ	ADJ	_	12	xcomp	_	TokenRange=78:83
+10	lula	lula	NOUN	NOUN	_	12	nsubj	_	TokenRange=84:88
+11	podera	_	AUX	AUX	_	12	aux	_	TokenRange=89:95
+12	ficar	ficar	VERB	VERB	_	8	ccomp	_	TokenRange=96:101
+13	prisao	prisao	ADJ	ADJ	_	12	xcomp	_	TokenRange=102:108
+14	especial	especial	ADJ	ADJ	_	13	amod	_	TokenRange=109:117
+15	tendo	_	VERB	VERB	_	12	acl	_	TokenRange=118:123
+16	diploma	diploma	NOUN	NOUN	_	15	obj	_	TokenRange=124:131
+17	curso	curso	NOUN	NOUN	_	16	appos	_	TokenRange=132:137
+18	superior	superior	ADJ	ADJ	_	17	amod	_	TokenRange=138:146
+19	condenado	condenar	VERB	VERB	_	16	acl	_	TokenRange=147:156
+20	segunda	segundo	ADJ	ADJ	_	21	amod	_	TokenRange=157:164
+21	instancia	instancia	NOUN	NOUN	_	15	obj	_	TokenRange=165:174
+22	12	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=175:177
+23	anos	ano	NOUN	NOUN	_	19	nmod	_	TokenRange=178:182
+24	mes	_	DET	DET	_	25	case	_	TokenRange=183:186
+25	prisao	prisao	NOUN	NOUN	_	19	nsubj	_	TokenRange=187:193
+26	caso	caso	NOUN	NOUN	_	31	nsubj	_	TokenRange=194:198
+27	triplex	_	NOUN	NOUN	_	31	nsubj	_	TokenRange=199:206
+28	guaruja	guaruja	NOUN	NOUN	_	27	flat	_	TokenRange=207:214
+29	expresidente	expresidente	NOUN	NOUN	_	27	flat	_	TokenRange=215:227
+30	pode	_	AUX	AUX	_	31	aux	_	TokenRange=228:232
+31	preso	_	VERB	VERB	_	25	acl:relcl	_	TokenRange=233:238
+32	proxima	proximo	ADJ	ADJ	_	33	amod	_	TokenRange=239:246
+33	segundafeira	_	NOUN	NOUN	_	31	obj	_	TokenRange=247:259
+34	26	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=260:262
+35	tribunal	tribunal	NOUN	NOUN	_	31	nsubj	_	TokenRange=263:271
+36	regional	regional	ADJ	ADJ	_	35	amod	_	TokenRange=272:280
+37	federal	federal	ADJ	ADJ	_	35	amod	_	TokenRange=281:288
+38	4	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=289:290
+39	regiao	regiao	NOUN	NOUN	_	35	appos	_	TokenRange=291:297
+40	trf4	_	NOUN	NOUN	_	39	appos	_	TokenRange=298:302
+41	vai	ir	AUX	AUX	_	42	aux	_	TokenRange=303:306
+42	julgar	julgar	VERB	VERB	_	8	conj	_	TokenRange=307:313
+43	recurso	recurso	NOUN	NOUN	_	42	obj	_	TokenRange=314:321
+44	decisivo	decisivo	ADJ	ADJ	_	43	amod	_	TokenRange=322:330
+45	petista	petista	NOUN	NOUN	_	43	amod	_	TokenRange=331:338
+46	embargos	embargo	NOUN	NOUN	_	43	appos	_	TokenRange=339:347
+47	declaracao	declaracao	NOUN	NOUN	_	46	flat	_	TokenRange=348:358
+48	contestam	contestar	VERB	VERB	_	42	parataxis	_	TokenRange=359:368
+49	sentenca	_	NOUN	NOUN	_	48	obj	_	TokenRange=369:377
+50	constitucionalistas	constitucionalista	ADJ	ADJ	_	49	amod	_	TokenRange=378:397
+51	criminalistas	_	ADJ	ADJ	_	49	amod	_	TokenRange=398:411
+52	avaliam	avaliar	VERB	VERB	_	48	parataxis	_	TokenRange=412:419
+53	fato	fato	NOUN	NOUN	_	52	obj	_	TokenRange=420:424
+54	lula	_	NOUN	NOUN	_	55	nsubj	_	TokenRange=425:429
+55	possuir	possuir	VERB	VERB	_	53	acl:inf	_	TokenRange=430:437
+56	curso	curso	NOUN	NOUN	_	55	obj	_	TokenRange=438:443
+57	superior	superior	ADJ	ADJ	_	56	amod	_	SpaceAfter=No|TokenRange=444:452
+

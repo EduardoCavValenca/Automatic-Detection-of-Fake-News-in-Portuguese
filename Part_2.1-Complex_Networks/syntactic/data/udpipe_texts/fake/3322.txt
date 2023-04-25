@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornalista petralha chama pf suposta policia diz sergio moro faz justica veja cinismo paulo henrique amorim puxasaquismo limites jornalista relacao partido trabalhadores sergio moro criou sistema fazer justica conluio moro ministerio publico suposta policia federal policia federal policia politica
+1	jornalista	jornalista	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	petralha	petralha	NOUN	NOUN	_	1	flat	_	TokenRange=11:19
+3	chama	chamar	VERB	VERB	_	0	root	_	TokenRange=20:25
+4	pf	_	NOUN	NOUN	_	3	obj	_	TokenRange=26:28
+5	suposta	suposto	ADJ	ADJ	_	6	amod	_	TokenRange=29:36
+6	policia	policia	NOUN	NOUN	_	3	nsubj	_	TokenRange=37:44
+7	diz	dizer	VERB	VERB	_	3	ccomp	_	TokenRange=45:48
+8	sergio	_	NOUN	NOUN	_	10	obj	_	TokenRange=49:55
+9	moro	moro	NOUN	NOUN	_	8	flat	_	TokenRange=56:60
+10	faz	fazer	VERB	VERB	_	7	ccomp	_	TokenRange=61:64
+11	justica	_	NOUN	NOUN	_	10	obj	_	TokenRange=65:72
+12	veja	veja	NOUN	NOUN	_	10	parataxis	_	TokenRange=73:77
+13	cinismo	cinismo	NOUN	NOUN	_	10	obj	_	TokenRange=78:85
+14	paulo	paulo	NOUN	NOUN	_	13	appos	_	TokenRange=86:91
+15	henrique	_	NOUN	NOUN	_	14	flat	_	TokenRange=92:100
+16	amorim	amorim	NOUN	NOUN	_	14	flat	_	TokenRange=101:107
+17	puxasaquismo	_	NOUN	NOUN	_	14	appos	_	TokenRange=108:120
+18	limites	limite	NOUN	NOUN	_	17	flat	_	TokenRange=121:128
+19	jornalista	jornalista	NOUN	NOUN	_	17	appos	_	TokenRange=129:139
+20	relacao	relacao	NOUN	NOUN	_	19	appos	_	TokenRange=140:147
+21	partido	partido	NOUN	NOUN	_	19	appos	_	TokenRange=148:155
+22	trabalhadores	trabalhador	ADJ	ADJ	_	21	amod	_	TokenRange=156:169
+23	sergio	sergio	NOUN	NOUN	_	25	nsubj	_	TokenRange=170:176
+24	moro	moro	NOUN	NOUN	_	23	flat	_	TokenRange=177:181
+25	criou	criar	VERB	VERB	_	3	parataxis	_	TokenRange=182:187
+26	sistema	sistema	NOUN	NOUN	_	25	obj	_	TokenRange=188:195
+27	fazer	fazer	VERB	VERB	_	26	acl:inf	_	TokenRange=196:201
+28	justica	_	NOUN	NOUN	_	27	obj	_	TokenRange=202:209
+29	conluio	conluio	NOUN	NOUN	_	28	appos	_	TokenRange=210:217
+30	moro	moro	NOUN	NOUN	_	31	amod	_	TokenRange=218:222
+31	ministerio	ministerio	NOUN	NOUN	_	34	appos	_	TokenRange=223:233
+32	publico	publico	ADJ	ADJ	_	34	amod	_	TokenRange=234:241
+33	suposta	suposto	ADJ	ADJ	_	34	amod	_	TokenRange=242:249
+34	policia	policia	NOUN	NOUN	_	25	nsubj	_	TokenRange=250:257
+35	federal	federal	ADJ	ADJ	_	34	amod	_	TokenRange=258:265
+36	policia	policia	NOUN	NOUN	_	34	appos	_	TokenRange=266:273
+37	federal	federal	ADJ	ADJ	_	38	amod	_	TokenRange=274:281
+38	policia	policia	NOUN	NOUN	_	34	appos	_	TokenRange=282:289
+39	politica	politico	ADJ	ADJ	_	38	amod	_	SpaceAfter=No|TokenRange=290:298
+

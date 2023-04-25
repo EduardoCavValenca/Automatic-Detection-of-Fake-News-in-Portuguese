@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = monstro manaus medico flagrado motel abusando filha 7 meses ambos presos flagrante encaminhados delegacia especializada protecao crianca adolescente depca bebe passou exames iml abuso constatado delegacia mae disse medico demonstrava amor paternal crianca presenciado outras atitudes suspeitas criminoso contra vitima incrivel pareca identidade dois monstros preservada policia informacoes g1 / manaus jornal tempo
+1	monstro	monstro	NOUN	NOUN	_	21	nsubj	_	TokenRange=0:7
+2	manaus	manaus	NOUN	NOUN	_	1	flat	_	TokenRange=8:14
+3	medico	medico	NOUN	NOUN	_	1	appos	_	TokenRange=15:21
+4	flagrado	flagrado	ADJ	ADJ	_	1	amod	_	TokenRange=22:30
+5	motel	motel	NOUN	NOUN	_	1	appos	_	TokenRange=31:36
+6	abusando	abusar	VERB	VERB	_	1	acl	_	TokenRange=37:45
+7	filha	filho	NOUN	NOUN	_	6	obj	_	TokenRange=46:51
+8	7	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=52:53
+9	meses	mês	NOUN	NOUN	_	6	nmod	_	TokenRange=54:59
+10	ambos	_	DET	DET	_	11	det	_	TokenRange=60:65
+11	presos	preso	NOUN	NOUN	_	1	appos	_	TokenRange=66:72
+12	flagrante	flagrante	ADJ	ADJ	_	11	amod	_	TokenRange=73:82
+13	encaminhados	encaminhar	VERB	VERB	_	14	acl	_	TokenRange=83:95
+14	delegacia	delegacia	NOUN	NOUN	_	21	nsubj	_	TokenRange=96:105
+15	especializada	especializado	ADJ	ADJ	_	14	amod	_	TokenRange=106:119
+16	protecao	protecao	NOUN	NOUN	_	14	appos	_	TokenRange=120:128
+17	crianca	crianco	NOUN	NOUN	_	16	appos	_	TokenRange=129:136
+18	adolescente	adolescente	ADJ	ADJ	_	16	amod	_	TokenRange=137:148
+19	depca	_	ADP	ADP	_	20	case	_	TokenRange=149:154
+20	bebe	bebe	NOUN	NOUN	_	16	nmod	_	TokenRange=155:159
+21	passou	passar	VERB	VERB	_	0	root	_	TokenRange=160:166
+22	exames	exame	NOUN	NOUN	_	21	obj	_	TokenRange=167:173
+23	iml	iml	ADJ	ADJ	_	22	amod	_	TokenRange=174:177
+24	abuso	abuso	NOUN	NOUN	_	22	appos	_	TokenRange=178:183
+25	constatado	constatado	ADJ	ADJ	_	24	amod	_	TokenRange=184:194
+26	delegacia	delegacia	NOUN	NOUN	_	30	nsubj	_	TokenRange=195:204
+27	mae	mae	NOUN	NOUN	_	26	appos	_	TokenRange=205:208
+28	disse	dizer	VERB	VERB	_	24	acl:relcl	_	TokenRange=209:214
+29	medico	medico	NOUN	NOUN	_	30	nsubj	_	TokenRange=215:221
+30	demonstrava	demonstrar	VERB	VERB	_	21	parataxis	_	TokenRange=222:233
+31	amor	amor	NOUN	NOUN	_	30	obj	_	TokenRange=234:238
+32	paternal	paternal	ADJ	ADJ	_	31	amod	_	TokenRange=239:247
+33	crianca	crianca	NOUN	NOUN	_	31	appos	_	TokenRange=248:255
+34	presenciado	presenciar	VERB	VERB	_	31	acl	_	TokenRange=256:267
+35	outras	_	DET	DET	_	36	det	_	TokenRange=268:274
+36	atitudes	atitude	NOUN	NOUN	_	30	obj	_	TokenRange=275:283
+37	suspeitas	suspeito	ADJ	ADJ	_	36	amod	_	TokenRange=284:293
+38	criminoso	criminoso	NOUN	NOUN	_	36	appos	_	TokenRange=294:303
+39	contra	_	ADP	ADP	_	40	case	_	TokenRange=304:310
+40	vitima	vitima	NOUN	NOUN	_	38	nmod	_	TokenRange=311:317
+41	incrivel	incrivel	ADJ	ADJ	_	40	amod	_	TokenRange=318:326
+42	pareca	pareco	ADJ	ADJ	_	43	amod	_	TokenRange=327:333
+43	identidade	identidade	NOUN	NOUN	_	40	appos	_	TokenRange=334:344
+44	dois	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=345:349
+45	monstros	monstro	NOUN	NOUN	_	43	appos	_	TokenRange=350:358
+46	preservada	preservar	ADJ	ADJ	_	45	acl	_	TokenRange=359:369
+47	policia	policia	NOUN	NOUN	_	45	appos	_	TokenRange=370:377
+48	informacoes	informacoe	NOUN	NOUN	_	45	appos	_	TokenRange=378:389
+49	g1	_	PART	PRT	_	48	appos	_	TokenRange=390:392
+50	/	/	PUNCT	.	_	49	punct	_	TokenRange=393:394
+51	manaus	_	NOUN	NOUN	_	49	flat	_	TokenRange=395:401
+52	jornal	jornal	NOUN	NOUN	_	48	appos	_	TokenRange=402:408
+53	tempo	tempo	NOUN	NOUN	_	52	flat	_	SpaceAfter=No|TokenRange=409:414
+

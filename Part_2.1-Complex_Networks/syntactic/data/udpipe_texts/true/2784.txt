@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma notificada nesta manha temer assume presidencia seguida apesar suspensa funcoes presidente dilma vai morar palacio alvorada julgamento final impeachment brasilia terminada fase admissibilidade impeachment congresso proximos passos posse presidente interino michel temer abertura julgamento senado cujo prazo maximo 180 dias 9h30 10h presidente dilma rousseff deve oficialmente notificada sobre decisao congresso missao cabera primeirosecretario senado vicentinho alves prto deve seguida notificar vicepresidente michel temer palacio jaburu seguida presidente dilma deixa oficialmente palacio planalto deve fazer
+1	dilma	dilma	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	notificada	notificar	VERB	VERB	_	1	acl	_	TokenRange=6:16
+3	nesta	_	ADP	ADP	_	4	case	_	TokenRange=17:22
+4	manha	manha	NOUN	NOUN	_	2	nmod	_	TokenRange=23:28
+5	temer	temer	NOUN	NOUN	_	4	flat	_	TokenRange=29:34
+6	assume	assumir	VERB	VERB	_	0	root	_	TokenRange=35:41
+7	presidencia	presidencia	NOUN	NOUN	_	6	obj	_	TokenRange=42:53
+8	seguida	seguido	ADJ	ADJ	_	6	xcomp	_	TokenRange=54:61
+9	apesar	apesar	ADV	ADV	_	15	mark	_	TokenRange=62:68
+10	suspensa	suspender	ADJ	ADJ	_	11	amod	_	TokenRange=69:77
+11	funcoes	funcoe	NOUN	NOUN	_	15	nsubj	_	TokenRange=78:85
+12	presidente	presidente	NOUN	NOUN	_	15	nsubj	_	TokenRange=86:96
+13	dilma	dilma	NOUN	NOUN	_	12	flat	_	TokenRange=97:102
+14	vai	ir	AUX	AUX	_	15	aux	_	TokenRange=103:106
+15	morar	morar	VERB	VERB	_	6	advcl	_	TokenRange=107:112
+16	palacio	palacio	NOUN	NOUN	_	15	obj	_	TokenRange=113:120
+17	alvorada	alvorado	ADJ	ADJ	_	16	amod	_	TokenRange=121:129
+18	julgamento	julgamento	NOUN	NOUN	_	15	obj	_	TokenRange=130:140
+19	final	final	ADJ	ADJ	_	18	amod	_	TokenRange=141:146
+20	impeachment	impeachment	NOUN	NOUN	_	18	appos	_	TokenRange=147:158
+21	brasilia	brasilia	NOUN	NOUN	_	18	amod	_	TokenRange=159:167
+22	terminada	terminado	ADJ	ADJ	_	23	amod	_	TokenRange=168:177
+23	fase	fase	NOUN	NOUN	_	18	appos	_	TokenRange=178:182
+24	admissibilidade	admissibilidade	NOUN	NOUN	_	23	appos	_	TokenRange=183:198
+25	impeachment	impeachment	NOUN	NOUN	_	23	appos	_	TokenRange=199:210
+26	congresso	congresso	NOUN	NOUN	_	24	appos	_	TokenRange=211:220
+27	proximos	proximo	ADJ	ADJ	_	28	amod	_	TokenRange=221:229
+28	passos	passo	NOUN	NOUN	_	24	appos	_	TokenRange=230:236
+29	posse	posse	NOUN	NOUN	_	30	flat	_	TokenRange=237:242
+30	presidente	presidente	NOUN	NOUN	_	28	appos	_	TokenRange=243:253
+31	interino	interino	ADJ	ADJ	_	30	amod	_	TokenRange=254:262
+32	michel	michel	ADJ	ADJ	_	33	amod	_	TokenRange=263:269
+33	temer	temer	NOUN	NOUN	_	30	appos	_	TokenRange=270:275
+34	abertura	abertura	NOUN	NOUN	_	6	parataxis	_	TokenRange=276:284
+35	julgamento	julgamento	NOUN	NOUN	_	34	appos	_	TokenRange=285:295
+36	senado	senado	ADJ	ADJ	_	35	amod	_	TokenRange=296:302
+37	cujo	_	DET	DET	_	38	det	_	TokenRange=303:307
+38	prazo	prazo	NOUN	NOUN	_	49	nsubj:pass	_	TokenRange=308:313
+39	maximo	maximo	ADJ	ADJ	_	38	amod	_	TokenRange=314:320
+40	180	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=321:324
+41	dias	dia	NOUN	NOUN	_	38	nmod	_	TokenRange=325:329
+42	9h30	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=330:334
+43	10h	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=335:338
+44	presidente	presidente	NOUN	NOUN	_	49	nsubj:pass	_	TokenRange=339:349
+45	dilma	dilma	ADJ	ADJ	_	44	amod	_	TokenRange=350:355
+46	rousseff	rousseff	NOUN	NOUN	_	44	appos	_	TokenRange=356:364
+47	deve	dever	AUX	AUX	_	49	aux	_	TokenRange=365:369
+48	oficialmente	oficialmente	ADV	ADV	_	49	advmod	_	TokenRange=370:382
+49	notificada	notificar	VERB	VERB	_	34	acl:relcl	_	TokenRange=383:393
+50	sobre	_	ADP	ADP	_	51	case	_	TokenRange=394:399
+51	decisao	decisao	NOUN	NOUN	_	49	nmod	_	TokenRange=400:407
+52	congresso	congresso	ADJ	ADJ	_	51	amod	_	TokenRange=408:417
+53	missao	missao	NOUN	NOUN	_	54	nsubj	_	TokenRange=418:424
+54	cabera	caber	VERB	VERB	_	49	parataxis	_	TokenRange=425:431
+55	primeirosecretario	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=432:450
+56	senado	senado	NOUN	NOUN	_	55	flat	_	TokenRange=451:457
+57	vicentinho	_	NOUN	NOUN	_	55	appos	_	TokenRange=458:468
+58	alves	_	NOUN	NOUN	_	57	flat	_	TokenRange=469:474
+59	prto	_	NOUN	NOUN	_	57	flat	_	TokenRange=475:479
+60	deve	dever	AUX	AUX	_	62	aux	_	TokenRange=480:484
+61	seguida	_	NOUN	NOUN	_	62	nmod	_	TokenRange=485:492
+62	notificar	notificar	VERB	VERB	_	54	parataxis	_	TokenRange=493:502
+63	vicepresidente	vicepresidente	NOUN	NOUN	_	62	obj	_	TokenRange=503:517
+64	michel	michel	ADJ	ADJ	_	65	amod	_	TokenRange=518:524
+65	temer	temer	NOUN	NOUN	_	63	appos	_	TokenRange=525:530
+66	palacio	palacio	NOUN	NOUN	_	63	appos	_	TokenRange=531:538
+67	jaburu	jaburu	ADJ	ADJ	_	66	flat	_	TokenRange=539:545
+68	seguida	_	ADJ	ADJ	_	69	amod	_	TokenRange=546:553
+69	presidente	presidente	NOUN	NOUN	_	76	nsubj	_	TokenRange=554:564
+70	dilma	dilma	ADJ	ADJ	_	69	amod	_	TokenRange=565:570
+71	deixa	deixar	VERB	VERB	_	76	parataxis	_	TokenRange=571:576
+72	oficialmente	oficialmente	ADV	ADV	_	76	advmod	_	TokenRange=577:589
+73	palacio	palacio	NOUN	NOUN	_	76	obj	_	TokenRange=590:597
+74	planalto	planalto	ADJ	ADJ	_	73	amod	_	TokenRange=598:606
+75	deve	dever	AUX	AUX	_	76	aux	_	TokenRange=607:611
+76	fazer	fazer	VERB	VERB	_	62	conj	_	SpaceAfter=No|TokenRange=612:617
+

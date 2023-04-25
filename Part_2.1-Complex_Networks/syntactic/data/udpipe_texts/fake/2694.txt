@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma diz quer voltar consultar populacao sobre novas eleicoes presidenciais necessario consultar populacao remontar pacto vinha desde constituicao 1988 rompido processo impeachment disse dilma entrevista exibida tv brasil consulta devera feita lavar enxaguar lambanca sendo governo temer petista disse feita consulta popular durante ultima campanha eleicoes 2014 dilma prometeu mundos fundos venceu tomou posse cargo esqueceu tudo prometido pra acreditar nessa senhora dessa vez
+1	dilma	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	quer	quer	VERB	VERB	_	2	xcomp	_	TokenRange=10:14
+4	voltar	voltar	VERB	VERB	_	2	ccomp	_	TokenRange=15:21
+5	consultar	consultar	VERB	VERB	_	4	xcomp	_	TokenRange=22:31
+6	populacao	populacao	NOUN	NOUN	_	5	obj	_	TokenRange=32:41
+7	sobre	_	ADP	ADP	_	9	case	_	TokenRange=42:47
+8	novas	novo	ADJ	ADJ	_	9	amod	_	TokenRange=48:53
+9	eleicoes	eleicoe	NOUN	NOUN	_	5	nmod	_	TokenRange=54:62
+10	presidenciais	presidencial	ADJ	ADJ	_	9	amod	_	TokenRange=63:76
+11	necessario	necessario	ADJ	ADJ	_	9	amod	_	TokenRange=77:87
+12	consultar	consultar	VERB	VERB	_	9	acl:relcl	_	TokenRange=88:97
+13	populacao	populacao	NOUN	NOUN	_	14	obj	_	TokenRange=98:107
+14	remontar	remontar	VERB	VERB	_	12	ccomp	_	TokenRange=108:116
+15	pacto	pacto	NOUN	NOUN	_	14	obj	_	TokenRange=117:122
+16	vinha	vir	VERB	VERB	_	15	acl	_	TokenRange=123:128
+17	desde	_	ADP	ADP	_	18	case	_	TokenRange=129:134
+18	constituicao	constituicao	NOUN	NOUN	_	16	nmod	_	TokenRange=135:147
+19	1988	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=148:152
+20	rompido	romper	VERB	VERB	_	18	acl	_	TokenRange=153:160
+21	processo	processo	NOUN	NOUN	_	20	nsubj	_	TokenRange=161:169
+22	impeachment	impeachment	NOUN	NOUN	_	21	amod	_	TokenRange=170:181
+23	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=182:187
+24	dilma	dilma	NOUN	NOUN	_	23	nsubj	_	TokenRange=188:193
+25	entrevista	entrevista	NOUN	NOUN	_	23	nsubj	_	TokenRange=194:204
+26	exibida	exibir	VERB	VERB	_	25	acl	_	TokenRange=205:212
+27	tv	_	NOUN	NOUN	_	25	appos	_	TokenRange=213:215
+28	brasil	brasil	ADJ	NOUN	_	29	amod	_	TokenRange=216:222
+29	consulta	consulta	NOUN	NOUN	_	32	nsubj	_	TokenRange=223:231
+30	devera	dever	AUX	AUX	_	31	aux	_	TokenRange=232:238
+31	feita	_	VERB	VERB	_	25	acl:relcl	_	TokenRange=239:244
+32	lavar	lavar	VERB	VERB	_	25	acl:relcl	_	TokenRange=245:250
+33	enxaguar	enxaguar	VERB	VERB	_	32	xcomp	_	TokenRange=251:259
+34	lambanca	_	NOUN	NOUN	_	33	obj	_	TokenRange=260:268
+35	sendo	ser	AUX	AUX	_	36	cop	_	TokenRange=269:274
+36	governo	governo	NOUN	NOUN	_	39	nsubj	_	TokenRange=275:282
+37	temer	temer	ADJ	ADJ	_	36	amod	_	TokenRange=283:288
+38	petista	petista	NOUN	NOUN	_	36	amod	_	TokenRange=289:296
+39	disse	dizer	VERB	VERB	_	32	parataxis	_	TokenRange=297:302
+40	feita	_	ADJ	ADJ	_	39	xcomp	_	TokenRange=303:308
+41	consulta	consulta	NOUN	NOUN	_	39	nsubj	_	TokenRange=309:317
+42	popular	popular	ADJ	ADJ	_	41	amod	_	TokenRange=318:325
+43	durante	_	ADP	ADP	_	45	case	_	TokenRange=326:333
+44	ultima	_	ADJ	ADJ	_	45	amod	_	TokenRange=334:340
+45	campanha	campanha	NOUN	NOUN	_	49	nmod	_	TokenRange=341:349
+46	eleicoes	eleicoe	NOUN	NOUN	_	45	appos	_	TokenRange=350:358
+47	2014	_	NUM	NUM	NumType=Card	45	nmod	_	TokenRange=359:363
+48	dilma	dilma	NOUN	NOUN	_	49	nsubj	_	TokenRange=364:369
+49	prometeu	prometer	VERB	VERB	_	39	parataxis	_	TokenRange=370:378
+50	mundos	mundo	NOUN	NOUN	_	49	obj	_	TokenRange=379:385
+51	fundos	_	ADJ	ADJ	_	50	amod	_	TokenRange=386:392
+52	venceu	vencer	VERB	VERB	_	49	ccomp	_	TokenRange=393:399
+53	tomou	tomar	VERB	VERB	_	49	ccomp	_	TokenRange=400:405
+54	posse	posse	NOUN	NOUN	_	53	obj	_	TokenRange=406:411
+55	cargo	cargo	NOUN	NOUN	_	56	nsubj	_	TokenRange=412:417
+56	esqueceu	esquecer	VERB	VERB	_	49	conj	_	TokenRange=418:426
+57	tudo	_	PRON	PRON	_	58	nsubj	_	TokenRange=427:431
+58	prometido	prometer	VERB	VERB	_	56	xcomp	_	TokenRange=432:441
+59	pra	_	ADP	ADP	_	60	mark	_	TokenRange=442:445
+60	acreditar	acreditar	VERB	VERB	_	58	nmod	_	TokenRange=446:455
+61	nessa	_	ADP	ADP	_	62	case	_	TokenRange=456:461
+62	senhora	senhora	NOUN	NOUN	_	60	nmod	_	TokenRange=462:469
+63	dessa	_	ADP	ADP	_	64	case	_	TokenRange=470:475
+64	vez	vez	NOUN	NOUN	_	60	nmod	_	SpaceAfter=No|TokenRange=476:479
+

@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado pmdb preso aeroporto brasilia foro privilegiado salvou policia federal prendeu pouco 1 hora deputado federal celso jacob pmdb / rj parlamentar detido assim desembarcou aeroporto brasilia ministro stf edson fachin decretado prisao deputado tres semanas pf aguardou momento certo dar bote jacob condenado 7 anos reclusao falsificacao documento publico dispensa licitacao preso presenca outros parlamentares voo ninguem ousou defender politico pf determinacao coragem fachin colocando ordem pais informacao jornalista lauro jardim
+1	deputado	deputado	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:8
+2	pmdb	_	NOUN	NOUN	_	1	flat	_	TokenRange=9:13
+3	preso	_	VERB	VERB	_	1	acl	_	TokenRange=14:19
+4	aeroporto	aeroporto	NOUN	NOUN	_	1	appos	_	TokenRange=20:29
+5	brasilia	brasilia	ADJ	ADJ	_	4	amod	_	TokenRange=30:38
+6	foro	foro	NOUN	NOUN	_	1	appos	_	TokenRange=39:43
+7	privilegiado	privilegiado	ADJ	ADJ	_	6	amod	_	TokenRange=44:56
+8	salvou	salvar	VERB	VERB	_	1	acl:relcl	_	TokenRange=57:63
+9	policia	policia	NOUN	NOUN	_	8	obj	_	TokenRange=64:71
+10	federal	federal	ADJ	ADJ	_	9	amod	_	TokenRange=72:79
+11	prendeu	prender	VERB	VERB	_	0	root	_	TokenRange=80:87
+12	pouco	pouco	ADV	ADV	_	13	advmod	_	TokenRange=88:93
+13	1	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=94:95
+14	hora	hora	NOUN	NOUN	_	11	nmod	_	TokenRange=96:100
+15	deputado	deputado	NOUN	NOUN	_	11	obj	_	TokenRange=101:109
+16	federal	federal	ADJ	ADJ	_	15	amod	_	TokenRange=110:117
+17	celso	_	NOUN	NOUN	_	15	appos	_	TokenRange=118:123
+18	jacob	_	PROPN	PNOUN	_	17	flat	_	TokenRange=124:129
+19	pmdb	_	PROPN	PNOUN	_	17	flat	_	TokenRange=130:134
+20	/	/	PUNCT	.	_	21	punct	_	TokenRange=135:136
+21	rj	_	PROPN	PNOUN	_	17	conj	_	TokenRange=137:139
+22	parlamentar	parlamentar	NOUN	NOUN	_	21	flat	_	TokenRange=140:151
+23	detido	deter	VERB	VERB	_	17	acl	_	TokenRange=152:158
+24	assim	assim	ADV	ADV	_	25	advmod	_	TokenRange=159:164
+25	desembarcou	desembarcar	VERB	VERB	_	11	conj	_	TokenRange=165:176
+26	aeroporto	aeroporto	NOUN	NOUN	_	25	obj	_	TokenRange=177:186
+27	brasilia	brasilia	ADJ	ADJ	_	26	amod	_	TokenRange=187:195
+28	ministro	ministro	NOUN	NOUN	_	26	appos	_	TokenRange=196:204
+29	stf	_	NOUN	NOUN	_	28	appos	_	TokenRange=205:208
+30	edson	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=209:214
+31	fachin	_	NOUN	NOUN	_	30	flat	_	TokenRange=215:221
+32	decretado	decretado	ADJ	ADJ	_	28	amod	_	TokenRange=222:231
+33	prisao	prisao	NOUN	NOUN	_	38	obj	_	TokenRange=232:238
+34	deputado	deputado	NOUN	NOUN	_	38	nsubj	_	TokenRange=239:247
+35	tres	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=248:252
+36	semanas	semana	NOUN	NOUN	_	38	nsubj	_	TokenRange=253:260
+37	pf	_	NOUN	NOUN	_	36	appos	_	TokenRange=261:263
+38	aguardou	aguardar	VERB	VERB	_	11	parataxis	_	TokenRange=264:272
+39	momento	momento	NOUN	NOUN	_	38	obj	_	TokenRange=273:280
+40	certo	certo	ADJ	ADJ	_	39	amod	_	TokenRange=281:286
+41	dar	dar	VERB	VERB	_	38	ccomp	_	TokenRange=287:290
+42	bote	bote	NOUN	NOUN	_	41	obj	_	TokenRange=291:295
+43	jacob	_	PROPN	PNOUN	_	42	flat	_	TokenRange=296:301
+44	condenado	condenar	VERB	VERB	_	38	acl	_	TokenRange=302:311
+45	7	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=312:313
+46	anos	ano	NOUN	NOUN	_	44	nmod	_	TokenRange=314:318
+47	reclusao	reclusao	ADJ	ADJ	_	46	amod	_	TokenRange=319:327
+48	falsificacao	falsificacao	ADJ	ADJ	_	49	amod	_	TokenRange=328:340
+49	documento	documento	NOUN	NOUN	_	38	nsubj	_	TokenRange=341:350
+50	publico	publico	ADJ	ADJ	_	49	amod	_	TokenRange=351:358
+51	dispensa	dispensar	VERB	VERB	_	49	amod	_	TokenRange=359:367
+52	licitacao	licitacao	NOUN	NOUN	_	49	appos	_	TokenRange=368:377
+53	preso	_	VERB	VERB	_	52	acl	_	TokenRange=378:383
+54	presenca	presenca	NOUN	NOUN	_	51	nmod	_	TokenRange=384:392
+55	outros	_	DET	DET	_	56	det	_	TokenRange=393:399
+56	parlamentares	parlamentar	NOUN	NOUN	_	51	nsubj	_	TokenRange=400:413
+57	voo	_	NOUN	NOUN	_	56	appos	_	TokenRange=414:417
+58	ninguem	_	PRON	PRON	_	59	nsubj	_	TokenRange=418:425
+59	ousou	ousar	VERB	VERB	_	57	acl:relcl	_	TokenRange=426:431
+60	defender	defender	VERB	VERB	_	59	xcomp	_	TokenRange=432:440
+61	politico	politico	NOUN	NOUN	_	60	obj	_	TokenRange=441:449
+62	pf	_	X	NOUN	_	61	appos	_	TokenRange=450:452
+63	determinacao	_	VERB	ADJ	_	64	amod	_	TokenRange=453:465
+64	coragem	coragem	NOUN	NOUN	_	60	obj	_	TokenRange=466:473
+65	fachin	_	ADJ	ADJ	_	64	appos	_	TokenRange=474:480
+66	colocando	colocar	VERB	VERB	_	64	acl	_	TokenRange=481:490
+67	ordem	ordem	NOUN	NOUN	_	66	obj	_	TokenRange=491:496
+68	pais	_	NOUN	NOUN	_	67	flat	_	TokenRange=497:501
+69	informacao	informacao	ADJ	ADJ	_	70	amod	_	TokenRange=502:512
+70	jornalista	jornalista	NOUN	NOUN	_	64	appos	_	TokenRange=513:523
+71	lauro	lauro	NOUN	NOUN	_	70	appos	_	TokenRange=524:529
+72	jardim	jardim	NOUN	NOUN	_	71	flat	_	SpaceAfter=No|TokenRange=530:536
+

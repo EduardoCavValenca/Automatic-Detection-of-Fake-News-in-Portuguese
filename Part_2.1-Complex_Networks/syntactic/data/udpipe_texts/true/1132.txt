@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = debate tribunal superior eleitoral tse pode cassar mandato presidente michel temer deve norteado artigo 23 lei trata inelegibilidade todas apostas meio juridico ministro herman benjamin relator processo deve usar trecho lei respaldar uso depoimentos executivos odebrecht marqueteiro pt joao
+1	debate	debate	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:6
+2	tribunal	tribunal	NOUN	NOUN	_	1	appos	_	TokenRange=7:15
+3	superior	superior	ADJ	ADJ	_	2	amod	_	TokenRange=16:24
+4	eleitoral	eleitoral	ADJ	ADJ	_	2	amod	_	TokenRange=25:34
+5	tse	_	PRON	PRON	_	7	nsubj	_	TokenRange=35:38
+6	pode	_	AUX	AUX	_	7	aux	_	TokenRange=39:43
+7	cassar	cassar	VERB	VERB	_	0	root	_	TokenRange=44:50
+8	mandato	mandato	NOUN	NOUN	_	7	obj	_	TokenRange=51:58
+9	presidente	presidente	NOUN	NOUN	_	8	appos	_	TokenRange=59:69
+10	michel	michel	ADJ	ADJ	_	11	amod	_	TokenRange=70:76
+11	temer	temer	NOUN	NOUN	_	9	appos	_	TokenRange=77:82
+12	deve	dever	AUX	AUX	_	13	aux	_	TokenRange=83:87
+13	norteado	nortear	VERB	VERB	_	7	parataxis	_	TokenRange=88:96
+14	artigo	artigo	NOUN	NOUN	_	13	obj	_	TokenRange=97:103
+15	23	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=104:106
+16	lei	lei	NOUN	NOUN	_	17	nsubj	_	TokenRange=107:110
+17	trata	tratar	VERB	VERB	_	13	parataxis	_	TokenRange=111:116
+18	inelegibilidade	inelegibilidade	NOUN	NOUN	_	17	obj	_	TokenRange=117:132
+19	todas	_	DET	DET	_	20	det	_	TokenRange=133:138
+20	apostas	aposta	NOUN	NOUN	_	17	nsubj	_	TokenRange=139:146
+21	meio	meio	NOUN	NOUN	_	20	appos	_	TokenRange=147:151
+22	juridico	juridico	ADJ	ADJ	_	21	amod	_	TokenRange=152:160
+23	ministro	ministro	NOUN	NOUN	_	21	appos	_	TokenRange=161:169
+24	herman	_	NOUN	NOUN	_	23	appos	_	TokenRange=170:176
+25	benjamin	_	NOUN	NOUN	_	24	flat	_	TokenRange=177:185
+26	relator	relator	NOUN	NOUN	_	24	flat	_	TokenRange=186:193
+27	processo	processo	NOUN	NOUN	_	24	flat	_	TokenRange=194:202
+28	deve	dever	AUX	AUX	_	29	aux	_	TokenRange=203:207
+29	usar	usar	VERB	VERB	_	7	parataxis	_	TokenRange=208:212
+30	trecho	trecho	NOUN	NOUN	_	29	obj	_	TokenRange=213:219
+31	lei	lei	NOUN	NOUN	_	30	flat	_	TokenRange=220:223
+32	respaldar	respaldar	VERB	VERB	_	29	ccomp	_	TokenRange=224:233
+33	uso	uso	NOUN	NOUN	_	32	obj	_	TokenRange=234:237
+34	depoimentos	depoimento	NOUN	NOUN	_	33	appos	_	TokenRange=238:249
+35	executivos	executivo	ADJ	ADJ	_	34	amod	_	TokenRange=250:260
+36	odebrecht	odebrecht	NOUN	NOUN	_	32	parataxis	_	TokenRange=261:270
+37	marqueteiro	marqueteiro	NOUN	NOUN	_	36	flat	_	TokenRange=271:282
+38	pt	_	NOUN	PNOUN	_	36	appos	_	TokenRange=283:285
+39	joao	joao	NOUN	NOUN	_	38	flat	_	SpaceAfter=No|TokenRange=286:290
+

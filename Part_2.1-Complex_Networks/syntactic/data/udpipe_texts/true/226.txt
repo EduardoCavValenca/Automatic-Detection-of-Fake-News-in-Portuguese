@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ccj senado aprova projeto endurece regras saidao presos proposta tempo cumprimento pena acesso beneficio dobra quarto metade brasilia comissao constituicao justica cidadania ccj senado aprovou nesta quartafeira 6 projeto endurece criterios concessao saidas temporarias presos popularmente conhecidas saidao origem camara materia ainda precisa passar plenario senado proposta tempo cumprimento pena acesso beneficio dobraria quarto 25 metade 50 duracao saidas diminuiria semana
+1	ccj	_	NOUN	NOUN	_	2	det	_	TokenRange=0:3
+2	senado	senado	NOUN	NOUN	_	3	nsubj	_	TokenRange=4:10
+3	aprova	aprovar	VERB	VERB	_	0	root	_	TokenRange=11:17
+4	projeto	projeto	NOUN	NOUN	_	3	obj	_	TokenRange=18:25
+5	endurece	endurecer	VERB	VERB	_	4	amod	_	TokenRange=26:34
+6	regras	regra	NOUN	NOUN	_	3	obj	_	TokenRange=35:41
+7	saidao	_	NOUN	NOUN	_	6	appos	_	TokenRange=42:48
+8	presos	preso	NOUN	NOUN	_	7	flat	_	TokenRange=49:55
+9	proposta	_	VERB	VERB	_	10	appos	_	TokenRange=56:64
+10	tempo	tempo	NOUN	NOUN	_	6	appos	_	TokenRange=65:70
+11	cumprimento	cumprimento	NOUN	NOUN	_	10	flat	_	TokenRange=71:82
+12	pena	_	NOUN	NOUN	_	10	appos	_	TokenRange=83:87
+13	acesso	acesso	NOUN	NOUN	_	10	appos	_	TokenRange=88:94
+14	beneficio	beneficio	NOUN	NOUN	_	10	flat	_	TokenRange=95:104
+15	dobra	_	NOUN	NOUN	_	10	appos	_	TokenRange=105:110
+16	quarto	_	ADJ	ADJ	_	17	amod	_	TokenRange=111:117
+17	metade	metade	NOUN	NOUN	_	10	appos	_	TokenRange=118:124
+18	brasilia	brasilia	NOUN	NOUN	_	17	amod	_	TokenRange=125:133
+19	comissao	comissao	NOUN	NOUN	_	10	appos	_	TokenRange=134:142
+20	constituicao	constituicao	ADJ	ADJ	_	19	amod	_	TokenRange=143:155
+21	justica	_	ADJ	ADJ	_	19	amod	_	TokenRange=156:163
+22	cidadania	cidadania	NOUN	NOUN	_	19	appos	_	TokenRange=164:173
+23	ccj	_	ADJ	ADJ	_	22	amod	_	TokenRange=174:177
+24	senado	senado	NOUN	NOUN	_	22	appos	_	TokenRange=178:184
+25	aprovou	aprovar	VERB	VERB	_	3	parataxis	_	TokenRange=185:192
+26	nesta	_	ADP	ADP	_	27	case	_	TokenRange=193:198
+27	quartafeira	_	NOUN	NOUN	_	25	nmod	_	TokenRange=199:210
+28	6	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=211:212
+29	projeto	projeto	NOUN	NOUN	_	25	obj	_	TokenRange=213:220
+30	endurece	endurecer	VERB	VERB	_	25	parataxis	_	TokenRange=221:229
+31	criterios	criterio	NOUN	NOUN	_	30	obj	_	TokenRange=230:239
+32	concessao	_	ADJ	ADJ	_	33	amod	_	TokenRange=240:249
+33	saidas	saida	NOUN	NOUN	_	30	nsubj	_	TokenRange=250:256
+34	temporarias	temporaria	ADJ	ADJ	_	33	amod	_	TokenRange=257:268
+35	presos	preso	NOUN	NOUN	_	33	amod	_	TokenRange=269:275
+36	popularmente	popularmente	ADV	ADV	_	37	advmod	_	TokenRange=276:288
+37	conhecidas	conhecer	VERB	VERB	_	33	acl	_	TokenRange=289:299
+38	saidao	saidao	NOUN	NOUN	_	33	appos	_	TokenRange=300:306
+39	origem	origem	NOUN	NOUN	_	38	flat	_	TokenRange=307:313
+40	camara	camara	NOUN	NOUN	_	41	amod	_	TokenRange=314:320
+41	materia	materia	NOUN	NOUN	_	38	appos	_	TokenRange=321:328
+42	ainda	ainda	ADV	ADV	_	43	advmod	_	TokenRange=329:334
+43	precisa	precisar	VERB	VERB	_	25	parataxis	_	TokenRange=335:342
+44	passar	passar	VERB	VERB	_	43	xcomp	_	TokenRange=343:349
+45	plenario	plenario	NOUN	NOUN	_	44	obj	_	TokenRange=350:358
+46	senado	senado	NOUN	NOUN	_	45	appos	_	TokenRange=359:365
+47	proposta	_	NOUN	NOUN	_	48	amod	_	TokenRange=366:374
+48	tempo	tempo	NOUN	NOUN	_	43	nsubj	_	TokenRange=375:380
+49	cumprimento	cumprimento	ADJ	ADJ	_	48	amod	_	TokenRange=381:392
+50	pena	_	NOUN	NOUN	_	48	amod	_	TokenRange=393:397
+51	acesso	acesso	NOUN	NOUN	_	48	appos	_	TokenRange=398:404
+52	beneficio	beneficio	NOUN	NOUN	_	51	flat	_	TokenRange=405:414
+53	dobraria	dobrar	VERB	VERB	_	48	conj	_	TokenRange=415:423
+54	quarto	_	ADJ	ADJ	_	56	amod	_	TokenRange=424:430
+55	25	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=431:433
+56	metade	metade	NOUN	NOUN	_	53	nmod	_	TokenRange=434:440
+57	50	_	NUM	NUM	NumType=Card	56	appos	_	TokenRange=441:443
+58	duracao	duracao	ADJ	ADJ	_	56	amod	_	TokenRange=444:451
+59	saidas	saida	NOUN	NOUN	_	60	nsubj	_	TokenRange=452:458
+60	diminuiria	diminuir	VERB	VERB	_	3	parataxis	_	TokenRange=459:469
+61	semana	semana	NOUN	NOUN	_	60	obj	_	SpaceAfter=No|TokenRange=470:476
+

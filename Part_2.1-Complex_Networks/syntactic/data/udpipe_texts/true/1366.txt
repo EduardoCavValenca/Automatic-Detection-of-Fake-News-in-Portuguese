@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reuniao casa branca trump theresa may discutem cooperacao acho senhor confirmou 100 otan diz premie britanica sobre trump presidente americano donald trump reuniu nesta sextafeira 27 primeiraministra britanica theresa may casa branca primeiro encontro lider estrangeiro desde tomou posse semana coletiva imprensa apos encontro may disse dois concordaram aumentar cooperacao militar economica eua grabretanha discutiram sobre passos praticos podem tomar facilitar acordos empresas dois paises alem combate grupo jihadista estado islamico ei extremismo islamico duas nacoes liderando esforcos encarar desafio fazendo progresso ei
+1	reuniao	reuniao	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:7
+2	casa	casa	NOUN	NOUN	_	1	appos	_	TokenRange=8:12
+3	branca	branco	ADJ	ADJ	_	1	amod	_	TokenRange=13:19
+4	trump	_	NOUN	NOUN	_	1	appos	_	TokenRange=20:25
+5	theresa	_	NOUN	NOUN	_	1	appos	_	TokenRange=26:33
+6	may	_	PROPN	PNOUN	_	5	flat	_	TokenRange=34:37
+7	discutem	discutir	VERB	VERB	_	0	root	_	TokenRange=38:46
+8	cooperacao	cooperacao	NOUN	NOUN	_	7	obj	_	TokenRange=47:57
+9	acho	acho	NOUN	NOUN	_	7	nsubj	_	TokenRange=58:62
+10	senhor	senhor	NOUN	NOUN	_	11	nsubj	_	TokenRange=63:69
+11	confirmou	confirmar	VERB	VERB	_	1	acl:relcl	_	TokenRange=70:79
+12	100	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=80:83
+13	otan	_	NOUN	NOUN	_	11	obj	_	TokenRange=84:88
+14	diz	dizer	VERB	VERB	_	7	ccomp	_	TokenRange=89:92
+15	premie	premie	NOUN	NOUN	_	14	obj	_	TokenRange=93:99
+16	britanica	britanico	ADJ	ADJ	_	15	amod	_	TokenRange=100:109
+17	sobre	_	ADP	ADP	_	18	case	_	TokenRange=110:115
+18	trump	_	NOUN	NOUN	_	14	nmod	_	TokenRange=116:121
+19	presidente	presidente	NOUN	NOUN	_	14	nsubj	_	TokenRange=122:132
+20	americano	americano	ADJ	ADJ	_	19	amod	_	TokenRange=133:142
+21	donald	donald	NOUN	NOUN	_	19	appos	_	TokenRange=143:149
+22	trump	_	NOUN	NOUN	_	19	appos	_	TokenRange=150:155
+23	reuniu	reunir	VERB	VERB	_	14	parataxis	_	TokenRange=156:162
+24	nesta	_	ADP	ADP	_	25	case	_	TokenRange=163:168
+25	sextafeira	_	NOUN	NOUN	_	23	nmod	_	TokenRange=169:179
+26	27	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=180:182
+27	primeiraministra	_	NOUN	NOUN	_	23	obj	_	TokenRange=183:199
+28	britanica	britanico	ADJ	ADJ	_	27	amod	_	TokenRange=200:209
+29	theresa	_	NOUN	NOUN	_	27	appos	_	TokenRange=210:217
+30	may	_	NOUN	NOUN	_	29	flat	_	TokenRange=218:221
+31	casa	casa	NOUN	NOUN	_	23	obj	_	TokenRange=222:226
+32	branca	branco	ADJ	ADJ	_	31	amod	_	TokenRange=227:233
+33	primeiro	primeiro	ADJ	ADJ	_	34	amod	_	TokenRange=234:242
+34	encontro	encontro	NOUN	NOUN	_	23	obj	_	TokenRange=243:251
+35	lider	lider	NOUN	NOUN	_	34	appos	_	TokenRange=252:257
+36	estrangeiro	estrangeiro	ADJ	ADJ	_	35	amod	_	TokenRange=258:269
+37	desde	_	ADP	ADP	_	38	mark	_	TokenRange=270:275
+38	tomou	tomar	VERB	VERB	_	23	advcl	_	TokenRange=276:281
+39	posse	posse	NOUN	NOUN	_	38	obj	_	TokenRange=282:287
+40	semana	semana	NOUN	NOUN	_	38	nmod	_	TokenRange=288:294
+41	coletiva	coletivo	ADJ	ADJ	_	40	amod	_	TokenRange=295:303
+42	imprensa	imprensa	NOUN	NOUN	_	46	nsubj	_	TokenRange=304:312
+43	apos	_	ADP	ADP	_	44	case	_	TokenRange=313:317
+44	encontro	encontro	NOUN	NOUN	_	55	nmod	_	TokenRange=318:326
+45	may	_	PROPN	PNOUN	_	44	amod	_	TokenRange=327:330
+46	disse	dizer	VERB	VERB	_	23	parataxis	_	TokenRange=331:336
+47	dois	_	NUM	NUM	NumType=Card	48	nsubj	_	TokenRange=337:341
+48	concordaram	concordar	VERB	VERB	_	46	ccomp	_	TokenRange=342:353
+49	aumentar	aumentar	VERB	VERB	_	48	xcomp	_	TokenRange=354:362
+50	cooperacao	cooperacao	NOUN	NOUN	_	49	obj	_	TokenRange=363:373
+51	militar	militar	ADJ	ADJ	_	50	amod	_	TokenRange=374:381
+52	economica	economico	ADJ	ADJ	_	50	amod	_	TokenRange=382:391
+53	eua	_	DET	DET	_	54	det	_	TokenRange=392:395
+54	grabretanha	_	NOUN	NOUN	_	55	nsubj	_	TokenRange=396:407
+55	discutiram	discutir	VERB	VERB	_	46	ccomp	_	TokenRange=408:418
+56	sobre	_	ADP	ADP	_	57	case	_	TokenRange=419:424
+57	passos	passo	NOUN	NOUN	_	55	nmod	_	TokenRange=425:431
+58	praticos	pratico	ADJ	ADJ	_	57	amod	_	TokenRange=432:440
+59	podem	_	AUX	AUX	_	60	aux	_	TokenRange=441:446
+60	tomar	tomar	VERB	VERB	_	57	acl:relcl	_	TokenRange=447:452
+61	facilitar	facilitar	VERB	VERB	_	60	xcomp	_	TokenRange=453:462
+62	acordos	acordo	NOUN	NOUN	_	61	obj	_	TokenRange=463:470
+63	empresas	empresa	NOUN	NOUN	_	62	appos	_	TokenRange=471:479
+64	dois	_	NUM	NUM	NumType=Card	65	nummod	_	TokenRange=480:484
+65	paises	paise	NOUN	NOUN	_	62	appos	_	TokenRange=485:491
+66	alem	alem	ADV	ADV	_	67	advmod	_	TokenRange=492:496
+67	combate	combate	NOUN	NOUN	_	65	appos	_	TokenRange=497:504
+68	grupo	grupo	NOUN	NOUN	_	55	nsubj	_	TokenRange=505:510
+69	jihadista	jihadista	ADJ	ADJ	_	68	amod	_	TokenRange=511:520
+70	estado	estado	NOUN	NOUN	_	68	appos	_	TokenRange=521:527
+71	islamico	islamico	ADJ	ADJ	_	70	amod	_	TokenRange=528:536
+72	ei	_	CCONJ	CONJ	_	73	cc	_	TokenRange=537:539
+73	extremismo	extremismo	NOUN	NOUN	_	70	conj	_	TokenRange=540:550
+74	islamico	islamico	ADJ	ADJ	_	73	amod	_	TokenRange=551:559
+75	duas	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=560:564
+76	nacoes	nacoe	NOUN	NOUN	_	73	appos	_	TokenRange=565:571
+77	liderando	liderar	VERB	VERB	_	76	acl	_	TokenRange=572:581
+78	esforcos	esforco	NOUN	NOUN	_	77	obj	_	TokenRange=582:590
+79	encarar	encarar	VERB	VERB	_	77	ccomp	_	TokenRange=591:598
+80	desafio	desafio	NOUN	NOUN	_	79	obj	_	TokenRange=599:606
+81	fazendo	fazer	VERB	VERB	_	76	acl	_	TokenRange=607:614
+82	progresso	progresso	NOUN	NOUN	_	81	obj	_	TokenRange=615:624
+83	ei	_	X	X	_	77	obj	_	SpaceAfter=No|TokenRange=625:627
+

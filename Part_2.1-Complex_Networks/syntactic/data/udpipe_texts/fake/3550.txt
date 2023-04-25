@@ -1,0 +1,17 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = paris sextafeira 13 panico tiroteios explosoes quatro pessoas morreram
+1	paris	_	NOUN	NOUN	_	9	parataxis	_	TokenRange=0:5
+2	sextafeira	sextafeira	NOUN	NOUN	_	9	parataxis	_	TokenRange=6:16
+3	13	_	NUM	NUM	NumType=Card	2	appos	_	TokenRange=17:19
+4	panico	panico	ADJ	ADJ	_	2	amod	_	TokenRange=20:26
+5	tiroteios	tiroteio	NOUN	NOUN	_	9	nsubj	_	TokenRange=27:36
+6	explosoes	exploso	ADJ	ADJ	_	8	amod	_	TokenRange=37:46
+7	quatro	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=47:53
+8	pessoas	pessoa	NOUN	NOUN	_	9	nsubj	_	TokenRange=54:61
+9	morreram	morrer	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=62:70
+

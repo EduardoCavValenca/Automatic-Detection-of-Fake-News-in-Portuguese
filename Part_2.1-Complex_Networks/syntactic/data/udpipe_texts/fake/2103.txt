@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delcidio confirma versao tiririca sido citado lavajato delcidio amaral passo homologar delacao premiada comecou jogar email protected ventilador 254 paginas 21 termos senador absolutamente ninguem acordo exsenador petista deputado francisco everardo tiririca sido convidado fazer parte conluio deputados missao barrar cpi petrobras oferecido palhaco quantia r 500 mil votasse contra instauracao cpi estatal delacao delcidio conta tiririca alterado ameacado partir briga operador petrolao esperava mala cheia dinheiro operador corrupto expulso empurroes xingamentos apos episodio tiririca enviado mensagem delcidio
+1	delcidio	delcidio	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	confirma	confirmar	VERB	VERB	_	0	root	_	TokenRange=9:17
+3	versao	versao	NOUN	NOUN	_	2	obj	_	TokenRange=18:24
+4	tiririca	tiririco	ADJ	ADJ	_	3	amod	_	TokenRange=25:33
+5	sido	ser	AUX	AUX	_	6	aux:pass	_	TokenRange=34:38
+6	citado	citar	VERB	VERB	_	3	acl	_	TokenRange=39:45
+7	lavajato	lavajato	NOUN	NOUN	_	6	advmod	_	TokenRange=46:54
+8	delcidio	delcidio	NOUN	NOUN	_	6	nmod	_	TokenRange=55:63
+9	amaral	amaral	ADJ	ADJ	_	10	amod	_	TokenRange=64:70
+10	passo	passo	NOUN	NOUN	_	15	nsubj	_	TokenRange=71:76
+11	homologar	homologar	VERB	VERB	_	10	amod	_	TokenRange=77:86
+12	delacao	_	NOUN	NOUN	_	11	obj	_	TokenRange=87:94
+13	premiada	premiado	ADJ	ADJ	_	12	amod	_	TokenRange=95:103
+14	comecou	comecar	VERB	VERB	_	2	conj	_	TokenRange=104:111
+15	jogar	jogar	VERB	VERB	_	2	parataxis	_	TokenRange=112:117
+16	email	email	NOUN	NOUN	_	15	obj	_	TokenRange=118:123
+17	protected	_	NOUN	NOUN	_	16	flat	_	TokenRange=124:133
+18	ventilador	_	NOUN	NOUN	_	16	appos	_	TokenRange=134:144
+19	254	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=145:148
+20	paginas	pagina	NOUN	NOUN	_	16	appos	_	TokenRange=149:156
+21	21	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=157:159
+22	termos	termo	NOUN	NOUN	_	20	appos	_	TokenRange=160:166
+23	senador	senador	NOUN	NOUN	_	20	appos	_	TokenRange=167:174
+24	absolutamente	absolutamente	ADV	ADV	_	25	advmod	_	TokenRange=175:188
+25	ninguem	_	ADJ	DET	_	22	amod	_	TokenRange=189:196
+26	acordo	acordo	NOUN	NOUN	_	23	appos	_	TokenRange=197:203
+27	exsenador	exsenador	NOUN	NOUN	_	26	amod	_	TokenRange=204:213
+28	petista	petista	ADJ	ADJ	_	29	amod	_	TokenRange=214:221
+29	deputado	deputado	NOUN	NOUN	_	34	nsubj:pass	_	TokenRange=222:230
+30	francisco	francisco	ADJ	NOUN	_	29	amod	_	TokenRange=231:240
+31	everardo	everardo	ADJ	ADJ	_	29	amod	_	TokenRange=241:249
+32	tiririca	tiririco	NOUN	NOUN	_	29	appos	_	TokenRange=250:258
+33	sido	ser	AUX	AUX	_	34	aux:pass	_	TokenRange=259:263
+34	convidado	convidar	VERB	VERB	_	2	parataxis	_	TokenRange=264:273
+35	fazer	fazer	VERB	VERB	_	34	xcomp	_	TokenRange=274:279
+36	parte	parte	NOUN	NOUN	_	35	obj	_	TokenRange=280:285
+37	conluio	_	NOUN	NOUN	_	36	appos	_	TokenRange=286:293
+38	deputados	deputado	NOUN	NOUN	_	37	flat	_	TokenRange=294:303
+39	missao	_	NOUN	NOUN	_	40	nsubj	_	TokenRange=304:310
+40	barrar	barrar	VERB	VERB	_	35	ccomp	_	TokenRange=311:317
+41	cpi	_	NOUN	NOUN	_	40	obj	_	TokenRange=318:321
+42	petrobras	petrobra	NOUN	NOUN	_	41	flat	_	TokenRange=322:331
+43	oferecido	oferecer	VERB	VERB	_	41	acl	_	TokenRange=332:341
+44	palhaco	palhaco	NOUN	NOUN	_	43	nsubj	_	TokenRange=342:349
+45	quantia	quantia	NOUN	NOUN	_	49	nsubj	_	TokenRange=350:357
+46	r	r	NOUN	NOUN	_	45	flat	_	TokenRange=358:359
+47	500	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=360:363
+48	mil	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=364:367
+49	votasse	votar	VERB	VERB	_	40	ccomp	_	TokenRange=368:375
+50	contra	_	ADP	ADP	_	51	case	_	TokenRange=376:382
+51	instauracao	instauracao	NOUN	NOUN	_	49	nmod	_	TokenRange=383:394
+52	cpi	cpi	NOUN	NOUN	_	51	appos	_	TokenRange=395:398
+53	estatal	estatal	ADJ	ADJ	_	52	amod	_	TokenRange=399:406
+54	delacao	_	NOUN	NOUN	_	56	appos	_	TokenRange=407:414
+55	delcidio	delcidio	ADJ	NOUN	_	56	amod	_	TokenRange=415:423
+56	conta	conta	NOUN	NOUN	_	49	nsubj	_	TokenRange=424:429
+57	tiririca	tiririco	NOUN	NOUN	_	56	appos	_	TokenRange=430:438
+58	alterado	alterado	ADJ	ADJ	_	56	amod	_	TokenRange=439:447
+59	ameacado	ameacado	ADJ	ADJ	_	60	xcomp	_	TokenRange=448:456
+60	partir	partir	VERB	VERB	_	64	csubj	_	TokenRange=457:463
+61	briga	briga	NOUN	NOUN	_	60	obj	_	TokenRange=464:469
+62	operador	operador	NOUN	NOUN	_	61	appos	_	TokenRange=470:478
+63	petrolao	petrolao	NOUN	NOUN	_	61	amod	_	TokenRange=479:487
+64	esperava	esperar	VERB	VERB	_	56	acl:relcl	_	TokenRange=488:496
+65	mala	mala	NOUN	NOUN	_	64	obj	_	TokenRange=497:501
+66	cheia	cheio	ADJ	ADJ	_	67	amod	_	TokenRange=502:507
+67	dinheiro	dinheiro	NOUN	NOUN	_	64	obj	_	TokenRange=508:516
+68	operador	operador	NOUN	NOUN	_	64	nsubj	_	TokenRange=517:525
+69	corrupto	corrupto	ADJ	ADJ	_	68	amod	_	TokenRange=526:534
+70	expulso	expulsar	VERB	VERB	_	68	acl	_	TokenRange=535:542
+71	empurroes	empurroe	NOUN	NOUN	_	70	obj	_	TokenRange=543:552
+72	xingamentos	xingamento	NOUN	NOUN	_	68	appos	_	TokenRange=553:564
+73	apos	_	ADP	ADP	_	74	case	_	TokenRange=565:569
+74	episodio	episodio	NOUN	NOUN	_	76	nmod	_	TokenRange=570:578
+75	tiririca	tiririco	NOUN	NOUN	_	74	amod	_	TokenRange=579:587
+76	enviado	enviar	VERB	VERB	_	64	parataxis	_	TokenRange=588:595
+77	mensagem	mensagem	NOUN	NOUN	_	76	obj	_	TokenRange=596:604
+78	delcidio	delcidio	ADJ	ADJ	_	77	amod	_	SpaceAfter=No|TokenRange=605:613
+

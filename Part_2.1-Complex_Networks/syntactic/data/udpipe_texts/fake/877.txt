@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = peticao online pedindo impeachment mendes ultrapassa 800 mil assinaturas meta 1 milhao apos recentes episodios envolvendo decisoes polemicas parte alta cupula magistratura brasileira especificamente tse internautas decidiram agir protocolaram peticao online site changeorg pedindo impeachment presidente instituicao diz texto ministro stf presidente tse gilmar mendes novamente centro polemica parou brasil soltar acusados corrupcao transporte rio janeiro gilmar mendes alvo varios pedidos impeachment supremo acha processo deste tipo deve andar objetivo documento digital obter cerca 1 milhao assinaturas presente momento 802 mil brasileiros assinaram peticao clique aqui assinar documento
+1	peticao	peticao	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:7
+2	online	online	ADJ	ADJ	_	1	amod	_	TokenRange=8:14
+3	pedindo	pedir	VERB	VERB	_	1	acl	_	TokenRange=15:22
+4	impeachment	impeachment	NOUN	NOUN	_	3	obj	_	TokenRange=23:34
+5	mendes	_	ADJ	ADJ	_	4	amod	_	TokenRange=35:41
+6	ultrapassa	ultrapassar	VERB	VERB	_	0	root	_	TokenRange=42:52
+7	800	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=53:56
+8	mil	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=57:60
+9	assinaturas	assinatura	NOUN	NOUN	_	6	obj	_	TokenRange=61:72
+10	meta	meta	NOUN	NOUN	_	6	parataxis	_	TokenRange=73:77
+11	1	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=78:79
+12	milhao	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=80:86
+13	apos	_	ADP	ADP	_	15	case	_	TokenRange=87:91
+14	recentes	recente	ADJ	ADJ	_	15	amod	_	TokenRange=92:100
+15	episodios	episodio	NOUN	NOUN	_	6	nmod	_	TokenRange=101:110
+16	envolvendo	envolver	VERB	VERB	_	15	acl	_	TokenRange=111:121
+17	decisoes	decisoe	NOUN	NOUN	_	16	obj	_	TokenRange=122:130
+18	polemicas	polemico	ADJ	ADJ	_	17	amod	_	TokenRange=131:140
+19	parte	parte	NOUN	NOUN	_	16	obj	_	TokenRange=141:146
+20	alta	alto	ADJ	ADJ	_	21	amod	_	TokenRange=147:151
+21	cupula	cupula	NOUN	NOUN	_	19	appos	_	TokenRange=152:158
+22	magistratura	magistratura	NOUN	NOUN	_	21	appos	_	TokenRange=159:171
+23	brasileira	brasileiro	ADJ	ADJ	_	22	amod	_	TokenRange=172:182
+24	especificamente	especificamente	ADV	ADV	_	27	advmod	_	TokenRange=183:198
+25	tse	_	DET	DET	_	26	det	_	TokenRange=199:202
+26	internautas	internauta	NOUN	NOUN	_	27	nsubj	_	TokenRange=203:214
+27	decidiram	decidir	VERB	VERB	_	6	parataxis	_	TokenRange=215:224
+28	agir	agir	VERB	VERB	_	27	xcomp	_	TokenRange=225:229
+29	protocolaram	protocolar	VERB	VERB	_	6	parataxis	_	TokenRange=230:242
+30	peticao	peticao	NOUN	NOUN	_	29	obj	_	TokenRange=243:250
+31	online	online	ADJ	ADJ	_	30	amod	_	TokenRange=251:257
+32	site	site	NOUN	NOUN	_	29	nsubj	_	TokenRange=258:262
+33	changeorg	_	NOUN	NOUN	_	32	flat	_	TokenRange=263:272
+34	pedindo	pedir	VERB	VERB	_	32	acl	_	TokenRange=273:280
+35	impeachment	impeachment	NOUN	NOUN	_	34	obj	_	TokenRange=281:292
+36	presidente	presidente	NOUN	NOUN	_	34	obj	_	TokenRange=293:303
+37	instituicao	instituicao	ADJ	ADJ	_	36	amod	_	TokenRange=304:315
+38	diz	dizer	VERB	VERB	_	29	parataxis	_	TokenRange=316:319
+39	texto	texto	NOUN	NOUN	_	38	obj	_	TokenRange=320:325
+40	ministro	ministro	NOUN	NOUN	_	39	appos	_	TokenRange=326:334
+41	stf	_	NOUN	NOUN	_	42	appos	_	TokenRange=335:338
+42	presidente	presidente	NOUN	NOUN	_	40	appos	_	TokenRange=339:349
+43	tse	_	NOUN	NOUN	_	44	flat	_	TokenRange=350:353
+44	gilmar	gilmar	NOUN	NOUN	_	40	appos	_	TokenRange=354:360
+45	mendes	_	ADJ	ADJ	_	44	flat	_	TokenRange=361:367
+46	novamente	novamente	ADV	ADV	_	47	advmod	_	TokenRange=368:377
+47	centro	centro	NOUN	NOUN	_	6	nsubj	_	TokenRange=378:384
+48	polemica	polemico	ADJ	ADJ	_	47	amod	_	TokenRange=385:393
+49	parou	parar	VERB	VERB	_	47	acl:relcl	_	TokenRange=394:399
+50	brasil	brasil	NOUN	NOUN	_	51	nsubj	_	TokenRange=400:406
+51	soltar	soltar	VERB	VERB	_	47	acl:inf	_	TokenRange=407:413
+52	acusados	acusado	NOUN	NOUN	_	51	obj	_	TokenRange=414:422
+53	corrupcao	corrupcao	ADJ	ADJ	_	52	amod	_	TokenRange=423:432
+54	transporte	transporte	NOUN	NOUN	_	52	appos	_	TokenRange=433:443
+55	rio	rio	NOUN	NOUN	_	54	appos	_	TokenRange=444:447
+56	janeiro	_	NOUN	NOUN	_	54	amod	_	TokenRange=448:455
+57	gilmar	gilmar	NOUN	NOUN	_	54	appos	_	TokenRange=456:462
+58	mendes	_	ADJ	ADJ	_	57	flat	_	TokenRange=463:469
+59	alvo	alvo	NOUN	NOUN	_	57	flat	_	TokenRange=470:474
+60	varios	_	DET	DET	_	61	det	_	TokenRange=475:481
+61	pedidos	pedido	NOUN	NOUN	_	64	obj	_	TokenRange=482:489
+62	impeachment	impeachment	NOUN	NOUN	_	61	appos	_	TokenRange=490:501
+63	supremo	supremo	ADJ	ADJ	_	61	amod	_	TokenRange=502:509
+64	acha	achar	VERB	VERB	_	6	parataxis	_	TokenRange=510:514
+65	processo	processo	NOUN	NOUN	_	64	obj	_	TokenRange=515:523
+66	deste	_	ADP	ADP	_	67	case	_	TokenRange=524:529
+67	tipo	tipo	NOUN	NOUN	_	65	nmod	_	TokenRange=530:534
+68	deve	dever	AUX	AUX	_	69	aux	_	TokenRange=535:539
+69	andar	andar	VERB	VERB	_	65	acl:relcl	_	TokenRange=540:545
+70	objetivo	objetivo	NOUN	NOUN	_	69	obj	_	TokenRange=546:554
+71	documento	documento	NOUN	NOUN	_	69	nsubj	_	TokenRange=555:564
+72	digital	digital	ADJ	ADJ	_	71	amod	_	TokenRange=565:572
+73	obter	obter	VERB	VERB	_	71	acl:inf	_	TokenRange=573:578
+74	cerca	cerca	ADV	ADV	_	76	advmod	_	TokenRange=579:584
+75	1	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=585:586
+76	milhao	_	NUM	NUM	NumType=Card	77	nummod	_	TokenRange=587:593
+77	assinaturas	assinatura	NOUN	NOUN	_	73	obj	_	TokenRange=594:605
+78	presente	presente	ADJ	ADJ	_	79	amod	_	TokenRange=606:614
+79	momento	momento	NOUN	NOUN	_	77	appos	_	TokenRange=615:622
+80	802	_	NUM	NUM	NumType=Card	81	nummod	_	TokenRange=623:626
+81	mil	_	NUM	NUM	NumType=Card	82	nummod	_	TokenRange=627:630
+82	brasileiros	brasileiro	NOUN	NOUN	_	83	nsubj	_	TokenRange=631:642
+83	assinaram	assinar	VERB	VERB	_	69	parataxis	_	TokenRange=643:652
+84	peticao	peticao	NOUN	NOUN	_	83	obj	_	TokenRange=653:660
+85	clique	clicar	VERB	VERB	_	83	parataxis	_	TokenRange=661:667
+86	aqui	aqui	ADV	ADV	_	87	advmod	_	TokenRange=668:672
+87	assinar	assinar	VERB	VERB	_	85	ccomp	_	TokenRange=673:680
+88	documento	documento	NOUN	NOUN	_	87	obj	_	SpaceAfter=No|TokenRange=681:690
+

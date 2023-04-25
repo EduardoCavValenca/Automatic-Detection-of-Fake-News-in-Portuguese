@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sergio moro bloqueia transferencia veiculos cunha quatro nome jesus juiz federal determinou bloqueio r 220 milhoes exdeputado eduardo cunha preso hoje 19 pf bens bloqueados cunha aparecem seis carros luxo familia dois porsches cayenne nome esposa exdeputado empresa chamada jesus propaganda ford fusion ford edge v6 propriedade jesus filha danielle tiguan hyundai tucson passat
+1	sergio	sergio	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	moro	moro	NOUN	NOUN	_	1	flat	_	TokenRange=7:11
+3	bloqueia	bloquer	VERB	VERB	_	0	root	_	TokenRange=12:20
+4	transferencia	_	NOUN	NOUN	_	3	obj	_	TokenRange=21:34
+5	veiculos	veiculo	NOUN	NOUN	_	4	flat	_	TokenRange=35:43
+6	cunha	_	ADP	ADP	_	12	mark	_	TokenRange=44:49
+7	quatro	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=50:56
+8	nome	nome	NOUN	NOUN	_	3	nmod	_	TokenRange=57:61
+9	jesus	jesu	ADJ	ADJ	_	10	amod	_	TokenRange=62:67
+10	juiz	juiz	NOUN	NOUN	_	12	nsubj	_	TokenRange=68:72
+11	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=73:80
+12	determinou	determinar	VERB	VERB	_	3	parataxis	_	TokenRange=81:91
+13	bloqueio	bloqueio	NOUN	NOUN	_	12	obj	_	TokenRange=92:100
+14	r	r	NOUN	NOUN	_	13	appos	_	TokenRange=101:102
+15	220	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=103:106
+16	milhoes	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=107:114
+17	exdeputado	exdeputado	NOUN	NOUN	_	13	appos	_	TokenRange=115:125
+18	eduardo	eduardo	NOUN	NOUN	_	17	appos	_	TokenRange=126:133
+19	cunha	_	NOUN	NOUN	_	18	flat	_	TokenRange=134:139
+20	preso	_	VERB	VERB	_	17	acl	_	TokenRange=140:145
+21	hoje	hoje	ADV	ADV	_	20	advmod	_	TokenRange=146:150
+22	19	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=151:153
+23	pf	_	NOUN	NOUN	_	20	nsubj	_	TokenRange=154:156
+24	bens	bem	NOUN	NOUN	_	23	appos	_	TokenRange=157:161
+25	bloqueados	bloquear	VERB	VERB	_	23	acl	_	TokenRange=162:172
+26	cunha	_	ADJ	ADJ	_	25	nsubj	_	TokenRange=173:178
+27	aparecem	aparecer	VERB	VERB	_	3	parataxis	_	TokenRange=179:187
+28	seis	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=188:192
+29	carros	carro	NOUN	NOUN	_	27	nsubj	_	TokenRange=193:199
+30	luxo	luxo	ADJ	ADJ	_	29	amod	_	TokenRange=200:204
+31	familia	familia	NOUN	NOUN	_	29	appos	_	TokenRange=205:212
+32	dois	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=213:217
+33	porsches	_	NOUN	NOUN	_	29	appos	_	TokenRange=218:226
+34	cayenne	_	ADJ	ADJ	_	33	amod	_	TokenRange=227:234
+35	nome	nome	NOUN	NOUN	_	33	appos	_	TokenRange=235:239
+36	esposa	esposo	NOUN	NOUN	_	33	appos	_	TokenRange=240:246
+37	exdeputado	exdeputado	ADJ	ADJ	_	38	amod	_	TokenRange=247:257
+38	empresa	empresa	NOUN	NOUN	_	27	nsubj	_	TokenRange=258:265
+39	chamada	chamar	AUX	AUX	_	40	cop	_	TokenRange=266:273
+40	jesus	_	NOUN	NOUN	_	38	acl	_	TokenRange=274:279
+41	propaganda	propaganda	NOUN	NOUN	_	38	appos	_	TokenRange=280:290
+42	ford	_	NOUN	NOUN	_	41	appos	_	TokenRange=291:295
+43	fusion	_	NOUN	NOUN	_	42	flat	_	TokenRange=296:302
+44	ford	_	NOUN	NOUN	_	42	flat	_	TokenRange=303:307
+45	edge	_	NOUN	NOUN	_	42	conj	_	TokenRange=308:312
+46	v6	_	ADJ	ADJ	_	47	appos	_	TokenRange=313:315
+47	propriedade	propriedade	NOUN	NOUN	_	42	appos	_	TokenRange=316:327
+48	jesus	_	ADJ	DET	_	49	det:poss	_	TokenRange=328:333
+49	filha	filho	NOUN	NOUN	_	47	appos	_	TokenRange=334:339
+50	danielle	_	NOUN	PNOUN	_	49	appos	_	TokenRange=340:348
+51	tiguan	_	NOUN	PNOUN	_	50	flat	_	TokenRange=349:355
+52	hyundai	_	PROPN	PNOUN	_	49	appos	_	TokenRange=356:363
+53	tucson	_	PROPN	PNOUN	_	52	flat	_	TokenRange=364:370
+54	passat	_	PROPN	PNOUN	_	50	flat	_	SpaceAfter=No|TokenRange=371:377
+

@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente peru determina odebrecht venda projetos deixe pais pedro paulo kuczynski disse empresa contaminada corrupcao semana passada governo colombia sinalizou pretende expulsar empreiteira pais lima presidente peru pedro pablo kuczynski disse nesta tercafeira 24 odebrecht deve vender projetos deixar pais apos reconhecer pagamento propina somam us 29 milhoes troca licitacoes obras publicas 2005 2014 infelizmente contaminados corrupcao disse semana passada governo colombia sinalizou pretende expulsar odebrecht pais odebrecht vender projetos peru alguns
+1	presidente	presidente	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	peru	peru	NOUN	NOUN	_	1	flat	_	TokenRange=11:15
+3	determina	determinar	VERB	VERB	_	0	root	_	TokenRange=16:25
+4	odebrecht	_	NOUN	NOUN	_	3	obj	_	TokenRange=26:35
+5	venda	_	VERB	VERB	_	3	ccomp	_	TokenRange=36:41
+6	projetos	projeto	NOUN	NOUN	_	5	obj	_	TokenRange=42:50
+7	deixe	deixar	VERB	VERB	_	3	conj	_	TokenRange=51:56
+8	pais	_	NOUN	NOUN	_	7	obj	_	TokenRange=57:61
+9	pedro	pedro	NOUN	NOUN	_	12	nsubj	_	TokenRange=62:67
+10	paulo	paulo	NOUN	NOUN	_	9	flat	_	TokenRange=68:73
+11	kuczynski	_	NOUN	NOUN	_	9	flat	_	TokenRange=74:83
+12	disse	dizer	VERB	VERB	_	3	conj	_	TokenRange=84:89
+13	empresa	empresa	NOUN	NOUN	_	12	obj	_	TokenRange=90:97
+14	contaminada	contaminado	ADJ	ADJ	_	13	amod	_	TokenRange=98:109
+15	corrupcao	corrupcao	ADJ	ADJ	_	16	amod	_	TokenRange=110:119
+16	semana	semana	NOUN	NOUN	_	12	nmod	_	TokenRange=120:126
+17	passada	passado	ADJ	ADJ	_	16	amod	_	TokenRange=127:134
+18	governo	governo	NOUN	NOUN	_	12	nsubj	_	TokenRange=135:142
+19	colombia	colombia	ADJ	ADJ	_	18	amod	_	TokenRange=143:151
+20	sinalizou	sinalizar	VERB	VERB	_	3	parataxis	_	TokenRange=152:161
+21	pretende	pretender	VERB	VERB	_	20	ccomp	_	TokenRange=162:170
+22	expulsar	expulsar	VERB	VERB	_	21	xcomp	_	TokenRange=171:179
+23	empreiteira	empreiteiro	NOUN	NOUN	_	22	obj	_	TokenRange=180:191
+24	pais	_	NOUN	NOUN	_	23	appos	_	TokenRange=192:196
+25	lima	_	ADJ	ADJ	_	26	amod	_	TokenRange=197:201
+26	presidente	presidente	NOUN	NOUN	_	31	nsubj	_	TokenRange=202:212
+27	peru	peru	ADJ	ADJ	_	26	amod	_	TokenRange=213:217
+28	pedro	pedro	NOUN	NOUN	_	26	appos	_	TokenRange=218:223
+29	pablo	pablo	NOUN	NOUN	_	28	flat	_	TokenRange=224:229
+30	kuczynski	_	PROPN	PNOUN	_	28	flat	_	TokenRange=230:239
+31	disse	dizer	VERB	VERB	_	21	conj	_	TokenRange=240:245
+32	nesta	_	ADP	ADP	_	33	case	_	TokenRange=246:251
+33	tercafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=252:262
+34	24	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=263:265
+35	odebrecht	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=266:275
+36	deve	dever	AUX	AUX	_	37	aux	_	TokenRange=276:280
+37	vender	vender	VERB	VERB	_	31	ccomp	_	TokenRange=281:287
+38	projetos	projeto	NOUN	NOUN	_	37	obj	_	TokenRange=288:296
+39	deixar	deixar	VERB	VERB	_	37	ccomp	_	TokenRange=297:303
+40	pais	_	NOUN	NOUN	_	39	obj	_	TokenRange=304:308
+41	apos	_	ADP	ADP	_	42	mark	_	TokenRange=309:313
+42	reconhecer	reconhecer	VERB	VERB	_	37	advcl	_	TokenRange=314:324
+43	pagamento	pagamento	NOUN	NOUN	_	42	obj	_	TokenRange=325:334
+44	propina	propino	ADJ	ADJ	_	43	amod	_	TokenRange=335:342
+45	somam	somar	VERB	VERB	_	43	acl:relcl	_	TokenRange=343:348
+46	us	_	NOUN	NOUN	_	45	obj	_	TokenRange=349:351
+47	29	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=352:354
+48	milhoes	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=355:362
+49	troca	_	VERB	VERB	_	45	ccomp	_	TokenRange=363:368
+50	licitacoes	_	NOUN	NOUN	_	49	obj	_	TokenRange=369:379
+51	obras	obra	NOUN	NOUN	_	50	appos	_	TokenRange=380:385
+52	publicas	publico	ADJ	ADJ	_	51	amod	_	TokenRange=386:394
+53	2005	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=395:399
+54	2014	_	NUM	NUM	NumType=Card	49	nmod	_	TokenRange=400:404
+55	infelizmente	infelizmente	ADV	ADV	_	56	advmod	_	TokenRange=405:417
+56	contaminados	contaminado	ADJ	ADJ	_	54	acl	_	TokenRange=418:430
+57	corrupcao	corrupcao	NOUN	NOUN	_	58	nsubj	_	TokenRange=431:440
+58	disse	dizer	VERB	VERB	_	54	acl:relcl	_	TokenRange=441:446
+59	semana	semana	NOUN	NOUN	_	58	nmod	_	TokenRange=447:453
+60	passada	passado	ADJ	ADJ	_	59	amod	_	TokenRange=454:461
+61	governo	governo	NOUN	NOUN	_	63	nsubj	_	TokenRange=462:469
+62	colombia	colombia	ADJ	ADJ	_	61	amod	_	TokenRange=470:478
+63	sinalizou	sinalizar	VERB	VERB	_	58	parataxis	_	TokenRange=479:488
+64	pretende	pretender	VERB	VERB	_	63	xcomp	_	TokenRange=489:497
+65	expulsar	expulsar	VERB	VERB	_	64	xcomp	_	TokenRange=498:506
+66	odebrecht	_	NOUN	NOUN	_	65	obj	_	TokenRange=507:516
+67	pais	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=517:521
+68	odebrecht	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=522:531
+69	vender	vender	VERB	VERB	_	65	ccomp	_	TokenRange=532:538
+70	projetos	projeto	NOUN	NOUN	_	69	obj	_	TokenRange=539:547
+71	peru	pear	VERB	VERB	_	64	parataxis	_	TokenRange=548:552
+72	alguns	_	DET	DET	_	70	det	_	SpaceAfter=No|TokenRange=553:559
+

@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = inteligencia exercito brasileiro monitorando mst evitar quebradeiras presidente pt rui falcao conclamando militancia vermelha ocupar ruas defender expresidente lula site antagonista informou inteligencia exercito acompanhando movimentacao mst evitar atos violencia vandalismo quebradeira assim papel ordem pais estara mantido afim proteger populacao vandalos comunistas
+1	inteligencia	inteligencia	NOUN	NOUN	_	22	nsubj	_	TokenRange=0:12
+2	exercito	exercito	NOUN	NOUN	_	1	amod	_	TokenRange=13:21
+3	brasileiro	brasileiro	ADJ	ADJ	_	1	amod	_	TokenRange=22:32
+4	monitorando	monitorar	VERB	VERB	_	1	acl	_	TokenRange=33:44
+5	mst	_	NOUN	NOUN	_	4	obj	_	TokenRange=45:48
+6	evitar	evitar	VERB	VERB	_	4	ccomp	_	TokenRange=49:55
+7	quebradeiras	quebradeira	NOUN	NOUN	_	6	obj	_	TokenRange=56:68
+8	presidente	presidente	NOUN	NOUN	_	7	appos	_	TokenRange=69:79
+9	pt	_	NOUN	NOUN	_	8	flat	_	TokenRange=80:82
+10	rui	rui	NOUN	NOUN	_	8	appos	_	TokenRange=83:86
+11	falcao	_	NOUN	NOUN	_	10	flat	_	TokenRange=87:93
+12	conclamando	conclamar	VERB	VERB	_	8	acl	_	TokenRange=94:105
+13	militancia	militancia	NOUN	NOUN	_	12	obj	_	TokenRange=106:116
+14	vermelha	vermelho	ADJ	ADJ	_	13	amod	_	TokenRange=117:125
+15	ocupar	ocupar	VERB	VERB	_	13	acl:inf	_	TokenRange=126:132
+16	ruas	rua	NOUN	NOUN	_	15	obj	_	TokenRange=133:137
+17	defender	defender	VERB	VERB	_	15	ccomp	_	TokenRange=138:146
+18	expresidente	expresidente	NOUN	NOUN	_	17	obj	_	TokenRange=147:159
+19	lula	lula	ADJ	ADJ	_	18	amod	_	TokenRange=160:164
+20	site	site	NOUN	NOUN	_	22	nsubj	_	TokenRange=165:169
+21	antagonista	antagonista	NOUN	NOUN	_	20	amod	_	TokenRange=170:181
+22	informou	informar	VERB	VERB	_	0	root	_	TokenRange=182:190
+23	inteligencia	inteligencia	NOUN	NOUN	_	22	obj	_	TokenRange=191:203
+24	exercito	exercito	ADJ	ADJ	_	23	amod	_	TokenRange=204:212
+25	acompanhando	acompanhar	VERB	VERB	_	23	acl	_	TokenRange=213:225
+26	movimentacao	_	NOUN	NOUN	_	25	obj	_	TokenRange=226:238
+27	mst	_	NOUN	NOUN	_	26	appos	_	TokenRange=239:242
+28	evitar	evitar	VERB	VERB	_	25	ccomp	_	TokenRange=243:249
+29	atos	ato	NOUN	NOUN	_	28	obj	_	TokenRange=250:254
+30	violencia	violencia	ADJ	ADJ	_	29	amod	_	TokenRange=255:264
+31	vandalismo	vandalismo	NOUN	NOUN	_	28	obj	_	TokenRange=265:275
+32	quebradeira	quebradeira	NOUN	NOUN	_	31	amod	_	TokenRange=276:287
+33	assim	assim	ADV	ADV	_	37	advmod	_	TokenRange=288:293
+34	papel	papel	NOUN	NOUN	_	37	nsubj	_	TokenRange=294:299
+35	ordem	ordem	NOUN	NOUN	_	34	appos	_	TokenRange=300:305
+36	pais	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=306:310
+37	estara	estar	VERB	VERB	_	22	parataxis	_	TokenRange=311:317
+38	mantido	mantido	ADJ	ADJ	_	37	xcomp	_	TokenRange=318:325
+39	afim	afim	ADV	ADV	_	40	advmod	_	TokenRange=326:330
+40	proteger	proteger	VERB	VERB	_	37	advcl	_	TokenRange=331:339
+41	populacao	populacao	NOUN	NOUN	_	40	obj	_	TokenRange=340:349
+42	vandalos	vandalo	NOUN	NOUN	_	41	appos	_	TokenRange=350:358
+43	comunistas	comunista	ADJ	ADJ	_	42	amod	_	SpaceAfter=No|TokenRange=359:369
+

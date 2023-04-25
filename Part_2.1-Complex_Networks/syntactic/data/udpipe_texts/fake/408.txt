@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil decada 60 esquadrao morte cada policial morto dez bandidos morriam tempos atuais numero policiais mortos ruas bandidos alarmante infelizmente esforcos acabe paulo rio janeiro durante decada 60 situacao resolvia menos assim cada policial morto dez bandidos vao morrer lema esquadrao morte esquadrao 30 policiais contava participacao civis advogados medicos dentistas juizes promotores enfim gente todas atividades imagine deputada maria rosario vivido nessa epoca
+1	brasil	brasil	NOUN	NOUN	_	11	parataxis	_	TokenRange=0:6
+2	decada	_	NOUN	NOUN	_	1	appos	_	TokenRange=7:13
+3	60	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=14:16
+4	esquadrao	esquadrao	NOUN	NOUN	_	1	appos	_	TokenRange=17:26
+5	morte	morte	NOUN	NOUN	_	4	flat	_	TokenRange=27:32
+6	cada	_	DET	DET	_	7	det	_	TokenRange=33:37
+7	policial	policial	NOUN	NOUN	_	11	nsubj	_	TokenRange=38:46
+8	morto	_	VERB	VERB	_	7	acl	_	TokenRange=47:52
+9	dez	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=53:56
+10	bandidos	bandido	NOUN	NOUN	_	7	appos	_	TokenRange=57:65
+11	morriam	morrer	VERB	VERB	_	0	root	_	TokenRange=66:73
+12	tempos	tempo	NOUN	NOUN	_	11	nmod	_	TokenRange=74:80
+13	atuais	atual	ADJ	ADJ	_	12	amod	_	TokenRange=81:87
+14	numero	_	NOUN	NOUN	_	15	amod	_	TokenRange=88:94
+15	policiais	policial	NOUN	NOUN	_	11	nsubj	_	TokenRange=95:104
+16	mortos	morto	ADJ	ADJ	_	15	amod	_	TokenRange=105:111
+17	ruas	rua	NOUN	NOUN	_	15	appos	_	TokenRange=112:116
+18	bandidos	bandido	ADJ	ADJ	_	17	amod	_	TokenRange=117:125
+19	alarmante	alarmante	ADJ	ADJ	_	17	amod	_	TokenRange=126:135
+20	infelizmente	infelizmente	ADV	ADV	_	21	advmod	_	TokenRange=136:148
+21	esforcos	esforco	NOUN	NOUN	_	17	appos	_	TokenRange=149:157
+22	acabe	acaber	VERB	VERB	_	11	parataxis	_	TokenRange=158:163
+23	paulo	paulo	NOUN	NOUN	_	22	obj	_	TokenRange=164:169
+24	rio	_	NOUN	NOUN	_	22	nmod	_	TokenRange=170:173
+25	janeiro	_	PROPN	PNOUN	_	24	flat	_	TokenRange=174:181
+26	durante	_	ADP	ADP	_	27	case	_	TokenRange=182:189
+27	decada	decada	NOUN	NOUN	_	22	nmod	_	TokenRange=190:196
+28	60	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=197:199
+29	situacao	situacao	NOUN	NOUN	_	30	nsubj	_	TokenRange=200:208
+30	resolvia	resolver	VERB	VERB	_	22	parataxis	_	TokenRange=209:217
+31	menos	menos	ADV	ADV	_	32	advmod	_	TokenRange=218:223
+32	assim	assim	ADV	ADV	_	30	advmod	_	TokenRange=224:229
+33	cada	_	DET	DET	_	34	det	_	TokenRange=230:234
+34	policial	policial	NOUN	NOUN	_	39	nsubj	_	TokenRange=235:243
+35	morto	morto	ADJ	ADJ	_	34	amod	_	TokenRange=244:249
+36	dez	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=250:253
+37	bandidos	bandido	NOUN	NOUN	_	39	nsubj	_	TokenRange=254:262
+38	vao	ir	AUX	AUX	_	39	aux	_	TokenRange=263:266
+39	morrer	morrer	VERB	VERB	_	30	ccomp	_	TokenRange=267:273
+40	lema	lema	NOUN	NOUN	_	39	nmod	_	TokenRange=274:278
+41	esquadrao	esquadrao	NOUN	NOUN	_	39	nsubj	_	TokenRange=279:288
+42	morte	morte	NOUN	NOUN	_	41	amod	_	TokenRange=289:294
+43	esquadrao	esquadrao	NOUN	NOUN	_	39	nsubj	_	TokenRange=295:304
+44	30	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=305:307
+45	policiais	policial	NOUN	NOUN	_	46	nsubj	_	TokenRange=308:317
+46	contava	contar	VERB	VERB	_	39	parataxis	_	TokenRange=318:325
+47	participacao	participacao	NOUN	NOUN	_	46	obj	_	TokenRange=326:338
+48	civis	civil	ADJ	ADJ	_	47	amod	_	TokenRange=339:344
+49	advogados	advogado	NOUN	NOUN	_	46	nsubj	_	TokenRange=345:354
+50	medicos	medico	ADJ	ADJ	_	49	amod	_	TokenRange=355:362
+51	dentistas	dentista	ADJ	ADJ	_	49	amod	_	TokenRange=363:372
+52	juizes	_	NOUN	NOUN	_	49	amod	_	TokenRange=373:379
+53	promotores	promotor	ADJ	ADJ	_	49	amod	_	TokenRange=380:390
+54	enfim	_	ADV	ADV	_	55	advmod	_	TokenRange=391:396
+55	gente	gente	NOUN	NOUN	_	52	appos	_	TokenRange=397:402
+56	todas	_	DET	DET	_	57	det	_	TokenRange=403:408
+57	atividades	atividade	NOUN	NOUN	_	58	nsubj	_	TokenRange=409:419
+58	imagine	imaginar	VERB	VERB	_	11	parataxis	_	TokenRange=420:427
+59	deputada	deputado	NOUN	NOUN	_	58	obj	_	TokenRange=428:436
+60	maria	mario	ADJ	NOUN	_	59	appos	_	TokenRange=437:442
+61	rosario	rosario	NOUN	NOUN	_	60	flat	_	TokenRange=443:450
+62	vivido	viver	VERB	VERB	_	59	acl	_	TokenRange=451:457
+63	nessa	_	ADP	ADP	_	64	case	_	TokenRange=458:463
+64	epoca	epoca	NOUN	NOUN	_	62	nmod	_	SpaceAfter=No|TokenRange=464:469
+

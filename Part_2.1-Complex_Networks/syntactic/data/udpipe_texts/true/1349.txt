@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = seul pyongyang marcam reuniao cupula dia 27 abril encontro realizado panmunjom cenario assinatura cessarfogo guerra coreia kim jongun primeiro lider nortecoreano pisar territorio sulcoreano desde fim conflito seul reuniao cupula governantes coreia sul coreia norte moon jaein kim jongun realizada dia 27 abril anunciaram nesta quintafeira 29 autoridades seul apos serie encontros duas partes zona desmilitarizada dmz artigo encontro xi kim
+1	seul	_	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	pyongyang	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=5:14
+3	marcam	marcar	VERB	VERB	_	0	root	_	TokenRange=15:21
+4	reuniao	reuniao	NOUN	NOUN	_	3	obj	_	TokenRange=22:29
+5	cupula	cupula	ADJ	ADJ	_	4	amod	_	TokenRange=30:36
+6	dia	dia	NOUN	NOUN	_	3	nmod	_	TokenRange=37:40
+7	27	_	NUM	NUM	NumType=Card	6	appos	_	TokenRange=41:43
+8	abril	_	PROPN	PNOUN	_	6	nmod	_	TokenRange=44:49
+9	encontro	encontro	NOUN	NOUN	_	3	obj	_	TokenRange=50:58
+10	realizado	realizar	VERB	VERB	_	9	acl	_	TokenRange=59:68
+11	panmunjom	_	NOUN	NOUN	_	10	obj	_	TokenRange=69:78
+12	cenario	cenario	NOUN	NOUN	_	4	appos	_	TokenRange=79:86
+13	assinatura	assinatura	NOUN	NOUN	_	12	flat	_	TokenRange=87:97
+14	cessarfogo	cessarfogo	ADJ	ADJ	_	15	amod	_	TokenRange=98:108
+15	guerra	guerra	NOUN	NOUN	_	12	appos	_	TokenRange=109:115
+16	coreia	coreia	ADJ	ADJ	_	15	amod	_	TokenRange=116:122
+17	kim	_	NOUN	NOUN	_	22	nsubj	_	TokenRange=123:126
+18	jongun	_	NOUN	NOUN	_	17	flat	_	TokenRange=127:133
+19	primeiro	primeiro	ADJ	ADJ	_	20	amod	_	TokenRange=134:142
+20	lider	lider	NOUN	NOUN	_	17	appos	_	TokenRange=143:148
+21	nortecoreano	nortecoreano	ADJ	ADJ	_	20	amod	_	TokenRange=149:161
+22	pisar	pisar	VERB	VERB	_	3	parataxis	_	TokenRange=162:167
+23	territorio	territorio	NOUN	NOUN	_	22	obj	_	TokenRange=168:178
+24	sulcoreano	sulcoreano	ADJ	ADJ	_	23	amod	_	TokenRange=179:189
+25	desde	_	ADP	ADP	_	26	case	_	TokenRange=190:195
+26	fim	fim	NOUN	NOUN	_	22	nmod	_	TokenRange=196:199
+27	conflito	conflito	NOUN	NOUN	_	22	nmod	_	TokenRange=200:208
+28	seul	seul	ADJ	ADJ	_	29	amod	_	TokenRange=209:213
+29	reuniao	reuniao	NOUN	NOUN	_	27	amod	_	TokenRange=214:221
+30	cupula	cupula	NOUN	NOUN	_	29	amod	_	TokenRange=222:228
+31	governantes	governante	ADJ	ADJ	_	30	amod	_	TokenRange=229:240
+32	coreia	coreia	NOUN	NOUN	_	30	appos	_	TokenRange=241:247
+33	sul	sul	ADJ	ADJ	_	34	amod	_	TokenRange=248:251
+34	coreia	coreia	NOUN	NOUN	_	32	appos	_	TokenRange=252:258
+35	norte	norte	ADJ	ADJ	_	34	amod	_	TokenRange=259:264
+36	moon	_	NOUN	NOUN	_	34	appos	_	TokenRange=265:269
+37	jaein	_	NOUN	NOUN	_	36	flat	_	TokenRange=270:275
+38	kim	_	NOUN	NOUN	_	36	appos	_	TokenRange=276:279
+39	jongun	_	NOUN	NOUN	_	36	flat	_	TokenRange=280:286
+40	realizada	realizar	VERB	VERB	_	34	acl	_	TokenRange=287:296
+41	dia	dia	NOUN	NOUN	_	40	nmod	_	TokenRange=297:300
+42	27	_	NUM	NUM	NumType=Card	41	appos	_	TokenRange=301:303
+43	abril	_	PROPN	PNOUN	_	41	appos	_	TokenRange=304:309
+44	anunciaram	anunciar	VERB	VERB	_	3	parataxis	_	TokenRange=310:320
+45	nesta	_	ADP	ADP	_	46	case	_	TokenRange=321:326
+46	quintafeira	quintafeira	NOUN	NOUN	_	44	nmod	_	TokenRange=327:338
+47	29	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=339:341
+48	autoridades	autoridade	NOUN	NOUN	_	44	obj	_	TokenRange=342:353
+49	seul	_	ADJ	ADJ	_	48	appos	_	TokenRange=354:358
+50	apos	_	ADP	ADP	_	52	case	_	TokenRange=359:363
+51	serie	_	ADJ	ADJ	_	52	amod	_	TokenRange=364:369
+52	encontros	encontro	NOUN	NOUN	_	44	nmod	_	TokenRange=370:379
+53	duas	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=380:384
+54	partes	_	NOUN	NOUN	_	52	appos	_	TokenRange=385:391
+55	zona	zona	NOUN	NOUN	_	44	obj	_	TokenRange=392:396
+56	desmilitarizada	desmilitarizado	ADJ	ADJ	_	55	amod	_	TokenRange=397:412
+57	dmz	_	VERB	VERB	_	58	case	_	TokenRange=413:416
+58	artigo	artigo	NOUN	NOUN	_	44	parataxis	_	TokenRange=417:423
+59	encontro	encontro	NOUN	NOUN	_	44	parataxis	_	TokenRange=424:432
+60	xi	_	PROPN	PNOUN	_	59	appos	_	TokenRange=433:435
+61	kim	_	PROPN	PNOUN	_	60	flat	_	SpaceAfter=No|TokenRange=436:439
+

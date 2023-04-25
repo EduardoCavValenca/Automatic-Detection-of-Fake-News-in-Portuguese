@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = michel temer propoe fim carnaval 20 anos pec gastos michel temer afirmou deve haver gastos aparatos superfluos pensar primeiramente educacao brasil medida pretende cancelar carnaval 2018 nota michel temer afirmou pais verdadeiramente mergulha rigidez estrutural possui momento motivo adequado gastos carnavalescos alem gerar inumeras consequencias pensar primeiramente necessidades principais ninguem autorizado realizar financiamentos carnavais principalmente prefeitos cidades calendario trabalhista continuara normal nenhuma excessao
+1	michel	michel	ADJ	ADJ	_	2	amod	_	TokenRange=0:6
+2	temer	temer	NOUN	NOUN	_	3	nsubj	_	TokenRange=7:12
+3	propoe	propoer	VERB	VERB	_	0	root	_	TokenRange=13:19
+4	fim	fim	NOUN	NOUN	_	3	obj	_	TokenRange=20:23
+5	carnaval	carnaval	NOUN	NOUN	_	4	flat	_	TokenRange=24:32
+6	20	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=33:35
+7	anos	ano	NOUN	NOUN	_	3	nmod	_	TokenRange=36:40
+8	pec	_	ADP	ADP	_	9	case	_	TokenRange=41:44
+9	gastos	gasto	NOUN	NOUN	_	3	nmod	_	TokenRange=45:51
+10	michel	_	DET	DET	_	11	det	_	TokenRange=52:58
+11	temer	temer	NOUN	NOUN	_	12	nsubj	_	TokenRange=59:64
+12	afirmou	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=65:72
+13	deve	dever	AUX	AUX	_	14	aux	_	TokenRange=73:77
+14	haver	haver	VERB	VERB	_	12	ccomp	_	TokenRange=78:83
+15	gastos	gasto	NOUN	NOUN	_	14	obj	_	TokenRange=84:90
+16	aparatos	aparato	NOUN	NOUN	_	15	amod	_	TokenRange=91:99
+17	superfluos	superfluo	ADJ	ADJ	_	15	amod	_	TokenRange=100:110
+18	pensar	pensar	VERB	VERB	_	14	ccomp	_	TokenRange=111:117
+19	primeiramente	primeiramente	ADV	ADV	_	18	advmod	_	TokenRange=118:131
+20	educacao	educacao	NOUN	NOUN	_	18	obj	_	TokenRange=132:140
+21	brasil	brasil	ADJ	ADJ	_	20	amod	_	TokenRange=141:147
+22	medida	medida	NOUN	NOUN	_	23	nsubj	_	TokenRange=148:154
+23	pretende	pretender	VERB	VERB	_	18	parataxis	_	TokenRange=155:163
+24	cancelar	cancelar	VERB	VERB	_	23	xcomp	_	TokenRange=164:172
+25	carnaval	carnaval	NOUN	NOUN	_	24	obj	_	TokenRange=173:181
+26	2018	_	NUM	NUM	NumType=Card	25	nmod	_	TokenRange=182:186
+27	nota	nota	NOUN	NOUN	_	23	nsubj	_	TokenRange=187:191
+28	michel	_	DET	DET	_	29	det	_	TokenRange=192:198
+29	temer	temer	NOUN	NOUN	_	30	nsubj	_	TokenRange=199:204
+30	afirmou	afirmar	VERB	VERB	_	27	acl:relcl	_	TokenRange=205:212
+31	pais	_	NOUN	NOUN	_	30	obj	_	TokenRange=213:217
+32	verdadeiramente	verdadeiramente	ADV	ADV	_	33	advmod	_	TokenRange=218:233
+33	mergulha	mergulha	ADJ	ADJ	_	31	amod	_	TokenRange=234:242
+34	rigidez	rigidez	NOUN	NOUN	_	36	obj	_	TokenRange=243:250
+35	estrutural	estrutural	ADJ	ADJ	_	34	amod	_	TokenRange=251:261
+36	possui	possuir	VERB	VERB	_	30	ccomp	_	TokenRange=262:268
+37	momento	momento	NOUN	NOUN	_	36	obj	_	TokenRange=269:276
+38	motivo	motivo	NOUN	NOUN	_	37	appos	_	TokenRange=277:283
+39	adequado	adequado	ADJ	ADJ	_	40	amod	_	TokenRange=284:292
+40	gastos	gasto	NOUN	NOUN	_	36	obj	_	TokenRange=293:299
+41	carnavalescos	carnavalesco	ADJ	ADJ	_	40	amod	_	TokenRange=300:313
+42	alem	alem	ADV	ADV	_	43	advmod	_	TokenRange=314:318
+43	gerar	gerar	VERB	VERB	_	36	ccomp	_	TokenRange=319:324
+44	inumeras	inumero	ADJ	ADJ	_	45	amod	_	TokenRange=325:333
+45	consequencias	_	NOUN	NOUN	_	43	obj	_	TokenRange=334:347
+46	pensar	pensar	VERB	VERB	_	43	ccomp	_	TokenRange=348:354
+47	primeiramente	primeiramente	ADV	ADV	_	46	advmod	_	TokenRange=355:368
+48	necessidades	necessidade	NOUN	NOUN	_	46	obj	_	TokenRange=369:381
+49	principais	principal	ADJ	ADJ	_	48	amod	_	TokenRange=382:392
+50	ninguem	_	PRON	PRON	_	51	nsubj	_	TokenRange=393:400
+51	autorizado	autorizado	ADJ	ADJ	_	48	amod	_	TokenRange=401:411
+52	realizar	realizar	VERB	VERB	_	48	acl:inf	_	TokenRange=412:420
+53	financiamentos	financiamento	NOUN	NOUN	_	52	obj	_	TokenRange=421:435
+54	carnavais	carnaval	ADJ	ADJ	_	53	amod	_	TokenRange=436:445
+55	principalmente	principalmente	ADV	ADV	_	52	advmod	_	TokenRange=446:460
+56	prefeitos	prefeito	NOUN	NOUN	_	53	amod	_	TokenRange=461:470
+57	cidades	cidade	NOUN	NOUN	_	58	amod	_	TokenRange=471:478
+58	calendario	calendario	NOUN	NOUN	_	60	nsubj	_	TokenRange=479:489
+59	trabalhista	trabalhista	ADJ	ADJ	_	58	amod	_	TokenRange=490:501
+60	continuara	continuar	VERB	VERB	_	46	conj	_	TokenRange=502:512
+61	normal	normal	ADJ	ADJ	_	60	xcomp	_	TokenRange=513:519
+62	nenhuma	_	DET	DET	_	63	det	_	TokenRange=520:527
+63	excessao	excessao	NOUN	NOUN	_	60	obj	_	SpaceAfter=No|TokenRange=528:536
+

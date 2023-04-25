@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = terreno instituto lula comprado dinheiro propina lula vai fugir pais depoimento marcelo odebrecht acordo delacao premiada comecou ontem 13 curitiba empresario preso capital paranaense ano faz parte grupo 77 executivos firmaram acordos colaboracao mpf acordo informacao antagonista marcelo admitiu procuradoria geral republica compra terreno construcao sede instituto lula feita odebrecht atraves esquema repasse propinas pf indiciou ontem 12 expresidente luiz inacio antonio palocci dona marisa leticia 4 pessoas ambito operacao lava jato lula acusado crime corrupcao passiva todos demais denunciados lavagem dinheiro lula preso logo vai fugir
+1	terreno	terreno	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:7
+2	instituto	instituto	NOUN	NOUN	_	1	appos	_	TokenRange=8:17
+3	lula	lula	NOUN	NOUN	_	2	flat	_	TokenRange=18:22
+4	comprado	comprar	VERB	VERB	_	1	acl	_	TokenRange=23:31
+5	dinheiro	dinheiro	NOUN	NOUN	_	4	obj	_	TokenRange=32:40
+6	propina	propino	NOUN	NOUN	_	5	flat	_	TokenRange=41:48
+7	lula	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=49:53
+8	vai	ir	AUX	AUX	_	9	aux	_	TokenRange=54:57
+9	fugir	fugir	VERB	VERB	_	0	root	_	TokenRange=58:63
+10	pais	_	NOUN	NOUN	_	9	obj	_	TokenRange=64:68
+11	depoimento	depoimento	NOUN	NOUN	_	9	obj	_	TokenRange=69:79
+12	marcelo	marcelo	NOUN	NOUN	_	11	appos	_	TokenRange=80:87
+13	odebrecht	_	ADJ	ADJ	_	14	amod	_	TokenRange=88:97
+14	acordo	acordo	NOUN	NOUN	_	9	nsubj	_	TokenRange=98:104
+15	delacao	_	ADJ	ADJ	_	14	amod	_	TokenRange=105:112
+16	premiada	premiado	ADJ	ADJ	_	14	amod	_	TokenRange=113:121
+17	comecou	comecar	VERB	VERB	_	9	parataxis	_	TokenRange=122:129
+18	ontem	ontem	ADV	ADV	_	17	advmod	_	TokenRange=130:135
+19	13	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=136:138
+20	curitiba	curitiba	NOUN	NOUN	_	17	nsubj	_	TokenRange=139:147
+21	empresario	empresario	NOUN	NOUN	_	20	appos	_	TokenRange=148:158
+22	preso	preso	ADJ	ADJ	_	23	amod	_	TokenRange=159:164
+23	capital	capital	NOUN	NOUN	_	20	appos	_	TokenRange=165:172
+24	paranaense	paranaense	ADJ	ADJ	_	23	amod	_	TokenRange=173:183
+25	ano	ano	NOUN	NOUN	_	26	nsubj	_	TokenRange=184:187
+26	faz	fazer	VERB	VERB	_	9	parataxis	_	TokenRange=188:191
+27	parte	parte	NOUN	NOUN	_	26	obj	_	TokenRange=192:197
+28	grupo	grupo	NOUN	NOUN	_	27	appos	_	TokenRange=198:203
+29	77	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=204:206
+30	executivos	executivo	NOUN	NOUN	_	28	appos	_	TokenRange=207:217
+31	firmaram	firmar	VERB	VERB	_	9	parataxis	_	TokenRange=218:226
+32	acordos	acordo	NOUN	NOUN	_	31	obj	_	TokenRange=227:234
+33	colaboracao	colaboracao	ADJ	ADJ	_	32	amod	_	TokenRange=235:246
+34	mpf	_	X	NOUN	_	35	appos	_	TokenRange=247:250
+35	acordo	acordo	NOUN	NOUN	_	31	nsubj	_	TokenRange=251:257
+36	informacao	informacao	NOUN	NOUN	_	35	appos	_	TokenRange=258:268
+37	antagonista	antagonista	ADJ	ADJ	_	35	amod	_	TokenRange=269:280
+38	marcelo	marcelo	NOUN	NOUN	_	35	appos	_	TokenRange=281:288
+39	admitiu	admitir	VERB	VERB	_	35	acl:relcl	_	TokenRange=289:296
+40	procuradoria	procuradoria	NOUN	NOUN	_	39	obj	_	TokenRange=297:309
+41	geral	geral	ADJ	ADJ	_	40	amod	_	TokenRange=310:315
+42	republica	_	NOUN	NOUN	_	43	nsubj	_	TokenRange=316:325
+43	compra	comprar	NOUN	NOUN	_	39	parataxis	_	TokenRange=326:332
+44	terreno	terreno	NOUN	NOUN	_	43	obj	_	TokenRange=333:340
+45	construcao	construcao	NOUN	NOUN	_	44	amod	_	TokenRange=341:351
+46	sede	sede	NOUN	NOUN	_	44	appos	_	TokenRange=352:356
+47	instituto	instituto	NOUN	NOUN	_	43	appos	_	TokenRange=357:366
+48	lula	lula	ADJ	ADJ	_	47	amod	_	TokenRange=367:371
+49	feita	_	VERB	VERB	_	47	acl	_	TokenRange=372:377
+50	odebrecht	_	NOUN	NOUN	_	49	obj	_	TokenRange=378:387
+51	atraves	_	ADP	ADP	_	52	case	_	TokenRange=388:395
+52	esquema	esquema	NOUN	NOUN	_	49	nmod	_	TokenRange=396:403
+53	repasse	repasse	NOUN	NOUN	_	52	appos	_	TokenRange=404:411
+54	propinas	propina	NOUN	NOUN	_	53	appos	_	TokenRange=412:420
+55	pf	_	PROPN	PNOUN	_	53	appos	_	TokenRange=421:423
+56	indiciou	indiciar	VERB	VERB	_	9	parataxis	_	TokenRange=424:432
+57	ontem	ontem	ADV	ADV	_	56	advmod	_	TokenRange=433:438
+58	12	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=439:441
+59	expresidente	expresidente	NOUN	NOUN	_	56	obj	_	TokenRange=442:454
+60	luiz	luiz	ADJ	ADJ	_	59	appos	_	TokenRange=455:459
+61	inacio	_	NOUN	NOUN	_	59	flat	_	TokenRange=460:466
+62	antonio	antonio	ADJ	NOUN	_	59	appos	_	TokenRange=467:474
+63	palocci	_	NOUN	NOUN	_	60	flat	_	TokenRange=475:482
+64	dona	_	NOUN	NOUN	_	59	appos	_	TokenRange=483:487
+65	marisa	_	NOUN	NOUN	_	64	flat	_	TokenRange=488:494
+66	leticia	leticia	NOUN	NOUN	_	64	flat	_	TokenRange=495:502
+67	4	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=503:504
+68	pessoas	pessoa	NOUN	NOUN	_	56	obj	_	TokenRange=505:512
+69	ambito	ambito	NOUN	NOUN	_	56	nsubj	_	TokenRange=513:519
+70	operacao	operacao	NOUN	NOUN	_	69	appos	_	TokenRange=520:528
+71	lava	lava	NOUN	NOUN	_	70	flat	_	TokenRange=529:533
+72	jato	jato	NOUN	NOUN	_	70	flat	_	TokenRange=534:538
+73	lula	_	NOUN	NOUN	_	70	appos	_	TokenRange=539:543
+74	acusado	acusar	VERB	VERB	_	70	acl	_	TokenRange=544:551
+75	crime	crime	NOUN	NOUN	_	74	obj	_	TokenRange=552:557
+76	corrupcao	corrupcao	ADJ	ADJ	_	75	amod	_	TokenRange=558:567
+77	passiva	passivo	ADJ	ADJ	_	76	amod	_	TokenRange=568:575
+78	todos	_	DET	DET	_	81	det	_	TokenRange=576:581
+79	demais	_	ADV	DET	_	80	advmod	_	TokenRange=582:588
+80	denunciados	denunciado	ADJ	ADJ	_	87	xcomp	_	TokenRange=589:600
+81	lavagem	lavagem	NOUN	NOUN	_	87	obj	_	TokenRange=601:608
+82	dinheiro	dinheiro	NOUN	NOUN	_	81	amod	_	TokenRange=609:617
+83	lula	lula	NOUN	NOUN	_	81	appos	_	TokenRange=618:622
+84	preso	_	ADJ	ADJ	_	81	acl	_	TokenRange=623:628
+85	logo	logo	ADV	ADV	_	87	advmod	_	TokenRange=629:633
+86	vai	ir	AUX	AUX	_	87	aux	_	TokenRange=634:637
+87	fugir	fugir	VERB	VERB	_	74	conj	_	SpaceAfter=No|TokenRange=638:643
+

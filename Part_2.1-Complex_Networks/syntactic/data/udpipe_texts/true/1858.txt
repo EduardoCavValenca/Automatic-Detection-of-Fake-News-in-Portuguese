@@ -1,0 +1,23 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fachin rejeita queixacrime onyx lorenzoni contra renan calheiros senador chamou lorenzoni lorenzetti referencia marca chuveiros
+1	fachin	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	rejeita	rejeitar	VERB	VERB	_	0	root	_	TokenRange=7:14
+3	queixacrime	queixacrime	NOUN	NOUN	_	2	obj	_	TokenRange=15:26
+4	onyx	_	NOUN	NOUN	_	3	appos	_	TokenRange=27:31
+5	lorenzoni	_	NOUN	NOUN	_	4	flat	_	TokenRange=32:41
+6	contra	_	ADP	ADP	_	7	case	_	TokenRange=42:48
+7	renan	renan	NOUN	NOUN	_	4	nmod	_	TokenRange=49:54
+8	calheiros	calheiro	ADJ	ADJ	_	7	amod	_	TokenRange=55:64
+9	senador	senador	NOUN	NOUN	_	7	flat	_	TokenRange=65:72
+10	chamou	chamar	VERB	VERB	_	2	parataxis	_	TokenRange=73:79
+11	lorenzoni	lorenzoni	NOUN	NOUN	_	10	obj	_	TokenRange=80:89
+12	lorenzetti	_	NOUN	NOUN	_	11	flat	_	TokenRange=90:100
+13	referencia	_	NOUN	NOUN	_	10	parataxis	_	TokenRange=101:111
+14	marca	marca	NOUN	NOUN	_	13	flat	_	TokenRange=112:117
+15	chuveiros	chuveiro	NOUN	NOUN	_	14	flat	_	SpaceAfter=No|TokenRange=118:127
+

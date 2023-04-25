@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil registra quase 60 mil pessoas assassinadas 2017 59103 homicidios latrocinios lesoes corporais seguidas morte numero maior ultimos anos g1 lanca nesta quintafeira 22 novo projeto monitor violencia ira acompanhar mes mes dados crimes violentos pais indice nacional homicidios brasil ano passado 59103 vitimas assassinadas cada 9 minutos media mostra levantamento feito g1 base dados oficiais 26 estados distrito federal dado inedito contabiliza todos homicidios dolosos latrocinios lesoes corporais seguidas morte juntos compoem chamados
+1	brasil	brasil	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	registra	registrar	VERB	VERB	_	0	root	_	TokenRange=7:15
+3	quase	quase	ADV	ADV	_	5	advmod	_	TokenRange=16:21
+4	60	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=22:24
+5	mil	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=25:28
+6	pessoas	pessoa	NOUN	NOUN	_	2	obj	_	TokenRange=29:36
+7	assassinadas	assassinado	ADJ	ADJ	_	6	amod	_	TokenRange=37:49
+8	2017	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=50:54
+9	59103	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=55:60
+10	homicidios	homicidio	NOUN	NOUN	_	2	nsubj	_	TokenRange=61:71
+11	latrocinios	latrocinio	ADJ	ADJ	_	10	amod	_	TokenRange=72:83
+12	lesoes	lesoe	NOUN	NOUN	_	10	appos	_	TokenRange=84:90
+13	corporais	corporal	ADJ	ADJ	_	12	amod	_	TokenRange=91:100
+14	seguidas	seguido	ADJ	ADJ	_	15	amod	_	TokenRange=101:109
+15	morte	morte	NOUN	NOUN	_	10	appos	_	TokenRange=110:115
+16	numero	_	ADJ	ADJ	_	19	amod	_	TokenRange=116:122
+17	maior	maior	ADJ	ADJ	_	19	amod	_	TokenRange=123:128
+18	ultimos	_	ADJ	ADJ	_	19	amod	_	TokenRange=129:136
+19	anos	ano	NOUN	NOUN	_	21	nsubj	_	TokenRange=137:141
+20	g1	_	PROPN	PNOUN	_	21	nsubj	_	TokenRange=142:144
+21	lanca	lancar	VERB	VERB	_	2	parataxis	_	TokenRange=145:150
+22	nesta	_	ADP	ADP	_	23	case	_	TokenRange=151:156
+23	quintafeira	quintafeira	NOUN	NOUN	_	21	nmod	_	TokenRange=157:168
+24	22	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=169:171
+25	novo	novo	ADJ	ADJ	_	26	amod	_	TokenRange=172:176
+26	projeto	projeto	NOUN	NOUN	_	21	nsubj	_	TokenRange=177:184
+27	monitor	_	ADJ	VERB	_	26	appos	_	TokenRange=185:192
+28	violencia	violencia	NOUN	NOUN	_	30	nsubj	_	TokenRange=193:202
+29	ira	_	AUX	AUX	_	30	aux	_	TokenRange=203:206
+30	acompanhar	acompanhar	VERB	VERB	_	26	acl:relcl	_	TokenRange=207:217
+31	mes	_	DET	DET	_	32	det	_	TokenRange=218:221
+32	mes	_	NOUN	NOUN	_	30	obj	_	TokenRange=222:225
+33	dados	dar	VERB	VERB	_	26	acl	_	TokenRange=226:231
+34	crimes	crime	NOUN	NOUN	_	30	obj	_	TokenRange=232:238
+35	violentos	violento	ADJ	ADJ	_	34	amod	_	TokenRange=239:248
+36	pais	_	ADJ	ADJ	_	37	amod	_	TokenRange=249:253
+37	indice	indice	NOUN	NOUN	_	26	appos	_	TokenRange=254:260
+38	nacional	nacional	ADJ	ADJ	_	37	amod	_	TokenRange=261:269
+39	homicidios	homicidio	NOUN	NOUN	_	37	appos	_	TokenRange=270:280
+40	brasil	brasil	ADJ	ADJ	_	41	amod	_	TokenRange=281:287
+41	ano	ano	NOUN	NOUN	_	37	appos	_	TokenRange=288:291
+42	passado	passado	ADJ	ADJ	_	41	amod	_	TokenRange=292:299
+43	59103	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=300:305
+44	vitimas	vitima	NOUN	NOUN	_	37	appos	_	TokenRange=306:313
+45	assassinadas	assassinar	ADJ	ADJ	_	44	amod	_	TokenRange=314:326
+46	cada	_	DET	DET	_	48	det	_	TokenRange=327:331
+47	9	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=332:333
+48	minutos	minuto	NOUN	NOUN	_	50	nmod	_	TokenRange=334:341
+49	media	media	NOUN	NOUN	_	50	nsubj	_	TokenRange=342:347
+50	mostra	mostrar	VERB	VERB	_	2	parataxis	_	TokenRange=348:354
+51	levantamento	levantamento	NOUN	NOUN	_	50	obj	_	TokenRange=355:367
+52	feito	_	VERB	VERB	_	51	acl	_	TokenRange=368:373
+53	g1	_	NOUN	NOUN	_	52	appos	_	TokenRange=374:376
+54	base	base	NOUN	NOUN	_	50	nsubj	_	TokenRange=377:381
+55	dados	dado	NOUN	NOUN	_	54	appos	_	TokenRange=382:387
+56	oficiais	oficial	ADJ	ADJ	_	55	amod	_	TokenRange=388:396
+57	26	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=397:399
+58	estados	estado	NOUN	NOUN	_	63	nsubj	_	TokenRange=400:407
+59	distrito	distrito	NOUN	NOUN	_	58	appos	_	TokenRange=408:416
+60	federal	federal	ADJ	ADJ	_	59	amod	_	TokenRange=417:424
+61	dado	dado	NOUN	NOUN	_	63	nsubj	_	TokenRange=425:429
+62	inedito	inedito	NOUN	NOUN	_	61	amod	_	TokenRange=430:437
+63	contabiliza	contabilizar	VERB	VERB	_	50	parataxis	_	TokenRange=438:449
+64	todos	_	DET	DET	_	65	det	_	TokenRange=450:455
+65	homicidios	homicidio	NOUN	NOUN	_	63	obj	_	TokenRange=456:466
+66	dolosos	doloso	ADJ	ADJ	_	65	amod	_	TokenRange=467:474
+67	latrocinios	latrocinio	ADJ	ADJ	_	65	amod	_	TokenRange=475:486
+68	lesoes	lesoe	NOUN	NOUN	_	65	amod	_	TokenRange=487:493
+69	corporais	corporal	ADJ	ADJ	_	68	amod	_	TokenRange=494:503
+70	seguidas	seguido	ADJ	ADJ	_	71	amod	_	TokenRange=504:512
+71	morte	morte	NOUN	NOUN	_	68	appos	_	TokenRange=513:518
+72	juntos	junto	ADJ	ADJ	_	68	amod	_	TokenRange=519:525
+73	compoem	compoer	VERB	VERB	_	50	parataxis	_	TokenRange=526:533
+74	chamados	chamado	NOUN	NOUN	_	73	obj	_	SpaceAfter=No|TokenRange=534:542
+

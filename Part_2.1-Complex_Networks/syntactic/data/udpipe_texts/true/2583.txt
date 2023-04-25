@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delacao odebrecht envolve 24 senadores veja citados executivos exdirigentes construtora narraram suspeitas delacoes premiadas ministro edson fachin relator operacao lava jato supremo tribunal federal autorizou procuradoria geral republica pgr investigar 24 senadores alem 8 ministros 3 governadores 39 deputados pedidos baseiam chamada lista janot feita base delacoes exexecutivos odebrecht lista fachin veja investigado dizem suspeita acordo delacao
+1	delacao	delacao	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	odebrecht	_	PROPN	PNOUN	_	1	appos	_	TokenRange=8:17
+3	envolve	envolver	VERB	VERB	_	0	root	_	TokenRange=18:25
+4	24	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=26:28
+5	senadores	senador	NOUN	NOUN	_	3	obj	_	TokenRange=29:38
+6	veja	ver	AUX	VERB	_	3	mark	_	TokenRange=39:43
+7	citados	citar	VERB	VERB	_	3	acl	_	TokenRange=44:51
+8	executivos	executivo	NOUN	NOUN	_	11	nsubj	_	TokenRange=52:62
+9	exdirigentes	exdirigente	ADJ	ADJ	_	8	amod	_	TokenRange=63:75
+10	construtora	construtor	NOUN	NOUN	_	11	nsubj	_	TokenRange=76:87
+11	narraram	narrar	VERB	VERB	_	3	parataxis	_	TokenRange=88:96
+12	suspeitas	suspeito	ADJ	ADJ	_	13	amod	_	TokenRange=97:106
+13	delacoes	delacoe	NOUN	NOUN	_	11	obj	_	TokenRange=107:115
+14	premiadas	premiar	ADJ	ADJ	_	13	acl	_	TokenRange=116:125
+15	ministro	ministro	NOUN	NOUN	_	13	appos	_	TokenRange=126:134
+16	edson	_	NOUN	NOUN	_	15	appos	_	TokenRange=135:140
+17	fachin	_	NOUN	NOUN	_	16	flat	_	TokenRange=141:147
+18	relator	relator	NOUN	NOUN	_	15	appos	_	TokenRange=148:155
+19	operacao	operacao	NOUN	NOUN	_	15	appos	_	TokenRange=156:164
+20	lava	lava	NOUN	NOUN	_	19	appos	_	TokenRange=165:169
+21	jato	jato	ADJ	ADJ	_	20	amod	_	TokenRange=170:174
+22	supremo	supremo	ADJ	ADJ	_	23	amod	_	TokenRange=175:182
+23	tribunal	tribunal	NOUN	NOUN	_	25	nsubj	_	TokenRange=183:191
+24	federal	federal	ADJ	ADJ	_	23	amod	_	TokenRange=192:199
+25	autorizou	autorizar	VERB	VERB	_	3	conj	_	TokenRange=200:209
+26	procuradoria	procuradoria	NOUN	NOUN	_	25	obj	_	TokenRange=210:222
+27	geral	geral	ADJ	ADJ	_	26	amod	_	TokenRange=223:228
+28	republica	republico	ADJ	ADJ	_	26	amod	_	TokenRange=229:238
+29	pgr	_	NOUN	NOUN	_	26	amod	_	TokenRange=239:242
+30	investigar	investigar	VERB	VERB	_	25	ccomp	_	TokenRange=243:253
+31	24	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=254:256
+32	senadores	senador	NOUN	NOUN	_	30	obj	_	TokenRange=257:266
+33	alem	alem	ADV	ADV	_	35	advmod	_	TokenRange=267:271
+34	8	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=272:273
+35	ministros	ministro	NOUN	NOUN	_	30	obj	_	TokenRange=274:283
+36	3	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=284:285
+37	governadores	governador	NOUN	NOUN	_	35	appos	_	TokenRange=286:298
+38	39	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=299:301
+39	deputados	deputado	NOUN	NOUN	_	37	appos	_	TokenRange=302:311
+40	pedidos	pedido	NOUN	NOUN	_	39	amod	_	TokenRange=312:319
+41	baseiam	basear	VERB	VERB	_	25	parataxis	_	TokenRange=320:327
+42	chamada	chamado	ADJ	ADJ	_	43	amod	_	TokenRange=328:335
+43	lista	lista	NOUN	NOUN	_	41	nsubj	_	TokenRange=336:341
+44	janot	_	NOUN	NOUN	_	43	appos	_	TokenRange=342:347
+45	feita	_	VERB	VERB	_	43	acl	_	TokenRange=348:353
+46	base	base	NOUN	NOUN	_	45	obj	_	TokenRange=354:358
+47	delacoes	_	NOUN	NOUN	_	46	appos	_	TokenRange=359:367
+48	exexecutivos	exexecutivo	ADJ	ADJ	_	47	amod	_	TokenRange=368:380
+49	odebrecht	_	ADJ	ADJ	_	50	amod	_	TokenRange=381:390
+50	lista	lista	NOUN	NOUN	_	46	appos	_	TokenRange=391:396
+51	fachin	_	NOUN	NOUN	_	50	flat	_	TokenRange=397:403
+52	veja	ver	VERB	VERB	_	54	parataxis	_	TokenRange=404:408
+53	investigado	investigar	VERB	VERB	_	52	xcomp	_	TokenRange=409:420
+54	dizem	dizer	VERB	VERB	_	41	parataxis	_	TokenRange=421:426
+55	suspeita	suspeito	ADJ	ADJ	_	56	amod	_	TokenRange=427:435
+56	acordo	acordo	NOUN	NOUN	_	54	obj	_	TokenRange=436:442
+57	delacao	_	ADJ	ADJ	_	56	amod	_	SpaceAfter=No|TokenRange=443:450
+

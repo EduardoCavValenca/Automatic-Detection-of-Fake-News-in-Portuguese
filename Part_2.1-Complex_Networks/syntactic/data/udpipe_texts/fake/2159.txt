@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = boechat fez coisas boas pais acha salvoconduto cometer atos ilicitos vamos investigar supostos atos ilicitos lula vamos continuar tratandoo santo programa cafe jornal band jornalista ricardo boechat traca paralelo interessante lula papa assista atencao criticou perfis falsos falam nome afirma ninguem deve condenado evidencias concretas
+1	boechat	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	fez	fazer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	coisas	coisa	NOUN	NOUN	_	2	obj	_	TokenRange=12:18
+4	boas	bom	ADJ	ADJ	_	3	amod	_	TokenRange=19:23
+5	pais	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=24:28
+6	acha	achar	VERB	VERB	_	2	ccomp	_	TokenRange=29:33
+7	salvoconduto	salvoconduto	NOUN	NOUN	_	6	obj	_	TokenRange=34:46
+8	cometer	cometer	VERB	VERB	_	6	ccomp	_	TokenRange=47:54
+9	atos	ato	NOUN	NOUN	_	8	obj	_	TokenRange=55:59
+10	ilicitos	ilicito	ADJ	ADJ	_	9	amod	_	TokenRange=60:68
+11	vamos	ir	AUX	AUX	_	12	aux	_	TokenRange=69:74
+12	investigar	investigar	VERB	VERB	_	2	conj	_	TokenRange=75:85
+13	supostos	suposto	ADJ	ADJ	_	14	amod	_	TokenRange=86:94
+14	atos	ato	NOUN	NOUN	_	12	obj	_	TokenRange=95:99
+15	ilicitos	ilicito	ADJ	ADJ	_	14	amod	_	TokenRange=100:108
+16	lula	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=109:113
+17	vamos	ir	AUX	AUX	_	19	aux	_	TokenRange=114:119
+18	continuar	continuar	AUX	AUX	_	19	aux	_	TokenRange=120:129
+19	tratandoo	tratandoo	VERB	VERB	_	12	conj	_	TokenRange=130:139
+20	santo	santo	ADJ	ADJ	_	21	amod	_	TokenRange=140:145
+21	programa	programa	NOUN	NOUN	_	19	obj	_	TokenRange=146:154
+22	cafe	cafe	NOUN	NOUN	_	21	appos	_	TokenRange=155:159
+23	jornal	jornal	NOUN	NOUN	_	21	appos	_	TokenRange=160:166
+24	band	_	NOUN	NOUN	_	23	flat	_	TokenRange=167:171
+25	jornalista	jornalista	NOUN	NOUN	_	23	flat	_	TokenRange=172:182
+26	ricardo	ricardo	NOUN	NOUN	_	25	amod	_	TokenRange=183:190
+27	boechat	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=191:198
+28	traca	_	VERB	VERB	_	19	parataxis	_	TokenRange=199:204
+29	paralelo	paralelo	NOUN	NOUN	_	28	obj	_	TokenRange=205:213
+30	interessante	interessante	ADJ	ADJ	_	29	amod	_	TokenRange=214:226
+31	lula	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=227:231
+32	papa	papa	NOUN	NOUN	_	33	nsubj	_	TokenRange=232:236
+33	assista	assistir	VERB	VERB	_	28	conj	_	TokenRange=237:244
+34	atencao	atencao	NOUN	NOUN	_	33	obj	_	TokenRange=245:252
+35	criticou	criticar	VERB	VERB	_	28	conj	_	TokenRange=253:261
+36	perfis	perfil	NOUN	NOUN	_	35	obj	_	TokenRange=262:268
+37	falsos	falso	ADJ	ADJ	_	36	amod	_	TokenRange=269:275
+38	falam	_	VERB	VERB	_	35	parataxis	_	TokenRange=276:281
+39	nome	nome	NOUN	NOUN	_	38	obj	_	TokenRange=282:286
+40	afirma	afirmar	VERB	VERB	_	38	parataxis	_	TokenRange=287:293
+41	ninguem	_	PRON	PRON	_	43	nsubj	_	TokenRange=294:301
+42	deve	dever	AUX	AUX	_	43	aux	_	TokenRange=302:306
+43	condenado	condenar	VERB	VERB	_	40	ccomp	_	TokenRange=307:316
+44	evidencias	_	NOUN	NOUN	_	43	obj	_	TokenRange=317:327
+45	concretas	concreto	ADJ	ADJ	_	44	amod	_	SpaceAfter=No|TokenRange=328:337
+

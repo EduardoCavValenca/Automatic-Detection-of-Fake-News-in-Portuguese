@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = temer pede 30 maio congresso autorize fechar orcamento r 170 bilhoes deficit primario abismo separa dever haver contas previstas 30 maio r 2 bilhoes gastos federais ano cultura parecem ninharia 12 aritmetica serve medir pesar mesma fita metrica mesma balanca trata ganancia organizacao criminosa reuniu assaltar cofres publicos somando ganancia usura punhado beneficiarios unica explicacao razoavel celeuma criada contra anunciada extincao presidente exercicio secretaria cultura anexada ministerio educacao cultura viuva porcina roque santeiro nunca sido merce oitavo recuo michel temer extinto permitir participasse simbolicamente
+1	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	30	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=11:13
+4	maio	_	PROPN	PNOUN	_	2	obj	_	TokenRange=14:18
+5	congresso	congresso	NOUN	NOUN	_	6	nsubj	_	TokenRange=19:28
+6	autorize	autorizar	VERB	VERB	_	2	ccomp	_	TokenRange=29:37
+7	fechar	fechar	VERB	VERB	_	6	xcomp	_	TokenRange=38:44
+8	orcamento	orcamento	NOUN	NOUN	_	7	obj	_	TokenRange=45:54
+9	r	r	NOUN	NOUN	_	8	appos	_	TokenRange=55:56
+10	170	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=57:60
+11	bilhoes	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=61:68
+12	deficit	deficit	NOUN	NOUN	_	8	appos	_	TokenRange=69:76
+13	primario	primario	ADJ	ADJ	_	12	amod	_	TokenRange=77:85
+14	abismo	abismo	NOUN	NOUN	_	15	nsubj	_	TokenRange=86:92
+15	separa	separar	VERB	VERB	_	12	acl:relcl	_	TokenRange=93:99
+16	dever	dever	AUX	AUX	_	17	aux	_	TokenRange=100:105
+17	haver	haver	VERB	VERB	_	15	xcomp	_	TokenRange=106:111
+18	contas	conta	NOUN	NOUN	_	17	obj	_	TokenRange=112:118
+19	previstas	previsto	ADJ	ADJ	_	18	amod	_	TokenRange=119:128
+20	30	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=129:131
+21	maio	_	PROPN	PNOUN	_	18	appos	_	TokenRange=132:136
+22	r	r	NOUN	NOUN	_	29	dep	_	TokenRange=137:138
+23	2	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=139:140
+24	bilhoes	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=141:148
+25	gastos	gasto	NOUN	NOUN	_	29	nsubj	_	TokenRange=149:155
+26	federais	federal	ADJ	ADJ	_	25	amod	_	TokenRange=156:164
+27	ano	ano	NOUN	NOUN	_	25	appos	_	TokenRange=165:168
+28	cultura	cultura	NOUN	NOUN	_	25	flat	_	TokenRange=169:176
+29	parecem	parecer	VERB	VERB	_	2	parataxis	_	TokenRange=177:184
+30	ninharia	_	NOUN	NOUN	_	29	obj	_	TokenRange=185:193
+31	12	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=194:196
+32	aritmetica	_	NOUN	NOUN	_	29	nsubj	_	TokenRange=197:207
+33	serve	servir	VERB	VERB	_	29	parataxis	_	TokenRange=208:213
+34	medir	medir	VERB	VERB	_	29	ccomp	_	TokenRange=214:219
+35	pesar	pesar	VERB	VERB	_	34	obj	_	TokenRange=220:225
+36	mesma	mesmo	ADJ	ADJ	_	37	amod	_	TokenRange=226:231
+37	fita	fita	NOUN	NOUN	_	34	nsubj	_	TokenRange=232:236
+38	metrica	metrico	ADJ	ADJ	_	37	amod	_	TokenRange=237:244
+39	mesma	mesmo	ADJ	ADJ	_	40	amod	_	TokenRange=245:250
+40	balanca	balanca	NOUN	NOUN	_	41	nsubj	_	TokenRange=251:258
+41	trata	tratar	VERB	VERB	_	34	parataxis	_	TokenRange=259:264
+42	ganancia	ganancia	NOUN	NOUN	_	41	obj	_	TokenRange=265:273
+43	organizacao	organizacao	NOUN	NOUN	_	41	nsubj	_	TokenRange=274:285
+44	criminosa	criminoso	ADJ	ADJ	_	43	amod	_	TokenRange=286:295
+45	reuniu	reunir	VERB	VERB	_	29	parataxis	_	TokenRange=296:302
+46	assaltar	assaltar	VERB	VERB	_	45	xcomp	_	TokenRange=303:311
+47	cofres	cofre	NOUN	NOUN	_	46	obj	_	TokenRange=312:318
+48	publicos	publico	ADJ	ADJ	_	47	amod	_	TokenRange=319:327
+49	somando	somar	VERB	VERB	_	46	acl	_	TokenRange=328:335
+50	ganancia	ganancia	NOUN	NOUN	_	49	obj	_	TokenRange=336:344
+51	usura	usura	NOUN	NOUN	_	50	flat	_	TokenRange=345:350
+52	punhado	punhar	VERB	VERB	_	50	acl	_	TokenRange=351:358
+53	beneficiarios	beneficiario	NOUN	NOUN	_	50	conj	_	TokenRange=359:372
+54	unica	unico	ADJ	ADJ	_	55	amod	_	TokenRange=373:378
+55	explicacao	explicacao	NOUN	NOUN	_	50	appos	_	TokenRange=379:389
+56	razoavel	razoavel	ADJ	ADJ	_	55	amod	_	TokenRange=390:398
+57	celeuma	_	NOUN	NOUN	_	55	appos	_	TokenRange=399:406
+58	criada	criar	VERB	VERB	_	57	acl	_	TokenRange=407:413
+59	contra	_	ADP	ADP	_	61	case	_	TokenRange=414:420
+60	anunciada	anunciado	ADJ	ADJ	_	61	amod	_	TokenRange=421:430
+61	extincao	extincao	NOUN	NOUN	_	58	nmod	_	TokenRange=431:439
+62	presidente	presidente	NOUN	NOUN	_	61	appos	_	TokenRange=440:450
+63	exercicio	exercicio	ADJ	ADJ	_	62	amod	_	TokenRange=451:460
+64	secretaria	secretaria	NOUN	NOUN	_	62	appos	_	TokenRange=461:471
+65	cultura	cultura	NOUN	NOUN	_	64	flat	_	TokenRange=472:479
+66	anexada	anexado	ADJ	ADJ	_	67	amod	_	TokenRange=480:487
+67	ministerio	ministerio	NOUN	NOUN	_	62	appos	_	TokenRange=488:498
+68	educacao	educacao	ADJ	ADJ	_	67	amod	_	TokenRange=499:507
+69	cultura	cultura	NOUN	NOUN	_	67	appos	_	TokenRange=508:515
+70	viuva	viuvo	ADJ	ADJ	_	67	amod	_	TokenRange=516:521
+71	porcina	_	NOUN	NOUN	_	67	amod	_	TokenRange=522:529
+72	roque	roque	NOUN	NOUN	_	78	nsubj	_	TokenRange=530:535
+73	santeiro	santeiro	NOUN	NOUN	_	72	flat	_	TokenRange=536:544
+74	nunca	nunca	ADV	ADV	_	78	advmod	_	TokenRange=545:550
+75	sido	ser	AUX	AUX	_	78	cop	_	TokenRange=551:555
+76	merce	merce	ADJ	ADJ	_	78	amod	_	TokenRange=556:561
+77	oitavo	_	ADJ	ADJ	_	78	amod	_	TokenRange=562:568
+78	recuo	recuo	NOUN	NOUN	_	83	nsubj	_	TokenRange=569:574
+79	michel	michel	ADJ	ADJ	_	80	amod	_	TokenRange=575:581
+80	temer	temer	NOUN	NOUN	_	78	appos	_	TokenRange=582:587
+81	extinto	extinto	ADJ	ADJ	_	78	amod	_	TokenRange=588:595
+82	permitir	permitir	VERB	VERB	_	58	xcomp	_	TokenRange=596:604
+83	participasse	participar	VERB	VERB	_	82	ccomp	_	TokenRange=605:617
+84	simbolicamente	simbolicamente	ADV	ADV	_	83	advmod	_	SpaceAfter=No|TokenRange=618:632
+

@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = golpe dilma golpista publica diario oficial extra nomeia 100 cargos dilma mandou publicar diario oficial ontem 15 nomeacao 100 cargos comissionados segundo escalao mudancas aconteceram 19 ministerios folha informou feitas alteracoes agu 13 trocas agricultura 12 mudancas ciencia tecnologia 7 desenvolvimento agrario 6 relacoes exteriores 3 transportes 2 defesa 1 ministerio justica realizadas cerca 50 mudancas cargos dane brasil importante presidenta manter poder vamos rifar pais
+1	golpe	golpe	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:5
+2	dilma	dilma	ADJ	ADJ	_	1	amod	_	TokenRange=6:11
+3	golpista	golpista	ADJ	ADJ	_	1	amod	_	TokenRange=12:20
+4	publica	publico	ADJ	ADJ	_	1	amod	_	TokenRange=21:28
+5	diario	diario	NOUN	NOUN	_	1	appos	_	TokenRange=29:35
+6	oficial	oficial	ADJ	ADJ	_	5	amod	_	TokenRange=36:43
+7	extra	_	ADJ	ADJ	_	5	amod	_	TokenRange=44:49
+8	nomeia	_	VERB	VERB	_	0	root	_	TokenRange=50:56
+9	100	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=57:60
+10	cargos	cargo	NOUN	NOUN	_	8	obj	_	TokenRange=61:67
+11	dilma	dilma	NOUN	NOUN	_	12	nsubj	_	TokenRange=68:73
+12	mandou	mandar	VERB	VERB	_	8	conj	_	TokenRange=74:80
+13	publicar	publicar	VERB	VERB	_	12	xcomp	_	TokenRange=81:89
+14	diario	diario	NOUN	NOUN	_	13	obj	_	TokenRange=90:96
+15	oficial	oficial	ADJ	ADJ	_	14	amod	_	TokenRange=97:104
+16	ontem	ontem	ADV	ADV	_	13	advmod	_	TokenRange=105:110
+17	15	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=111:113
+18	nomeacao	_	NOUN	NOUN	_	13	obj	_	TokenRange=114:122
+19	100	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=123:126
+20	cargos	cargo	NOUN	NOUN	_	18	appos	_	TokenRange=127:133
+21	comissionados	comissionar	VERB	VERB	_	20	acl	_	TokenRange=134:147
+22	segundo	_	ADP	ADP	_	23	case	_	TokenRange=148:155
+23	escalao	escalao	NOUN	NOUN	_	21	nmod	_	TokenRange=156:163
+24	mudancas	mudanca	NOUN	NOUN	_	25	nsubj	_	TokenRange=164:172
+25	aconteceram	acontecer	VERB	VERB	_	8	conj	_	TokenRange=173:184
+26	19	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=185:187
+27	ministerios	ministerio	NOUN	NOUN	_	25	nsubj	_	TokenRange=188:199
+28	folha	folha	NOUN	NOUN	_	27	appos	_	TokenRange=200:205
+29	informou	informar	VERB	VERB	_	8	parataxis	_	TokenRange=206:214
+30	feitas	_	VERB	VERB	_	29	xcomp	_	TokenRange=215:221
+31	alteracoes	_	NOUN	NOUN	_	30	obj	_	TokenRange=222:232
+32	agu	_	NOUN	NOUN	_	31	appos	_	TokenRange=233:236
+33	13	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=237:239
+34	trocas	_	NOUN	NOUN	_	31	appos	_	TokenRange=240:246
+35	agricultura	agricultura	NOUN	NOUN	_	34	flat	_	TokenRange=247:258
+36	12	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=259:261
+37	mudancas	mudanca	NOUN	NOUN	_	31	appos	_	TokenRange=262:270
+38	ciencia	ciencia	NOUN	NOUN	_	37	appos	_	TokenRange=271:278
+39	tecnologia	tecnologia	NOUN	NOUN	_	38	flat	_	TokenRange=279:289
+40	7	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=290:291
+41	desenvolvimento	desenvolvimento	NOUN	NOUN	_	31	conj	_	TokenRange=292:307
+42	agrario	agrario	ADJ	ADJ	_	41	amod	_	TokenRange=308:315
+43	6	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=316:317
+44	relacoes	relacoe	NOUN	NOUN	_	41	appos	_	TokenRange=318:326
+45	exteriores	exterior	ADJ	ADJ	_	44	amod	_	TokenRange=327:337
+46	3	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=338:339
+47	transportes	transporte	NOUN	NOUN	_	44	appos	_	TokenRange=340:351
+48	2	_	NUM	NUM	NumType=Card	49	nummod	_	TokenRange=352:353
+49	defesa	_	NOUN	NOUN	_	47	appos	_	TokenRange=354:360
+50	1	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=361:362
+51	ministerio	ministerio	NOUN	NOUN	_	47	appos	_	TokenRange=363:373
+52	justica	justico	ADJ	ADJ	_	51	amod	_	TokenRange=374:381
+53	realizadas	realizar	VERB	VERB	_	29	acl	_	TokenRange=382:392
+54	cerca	cerca	ADV	ADV	_	55	advmod	_	TokenRange=393:398
+55	50	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=399:401
+56	mudancas	mudanca	NOUN	NOUN	_	53	nsubj	_	TokenRange=402:410
+57	cargos	cargo	NOUN	NOUN	_	56	flat	_	TokenRange=411:417
+58	dane	danar	VERB	VERB	_	53	parataxis	_	TokenRange=418:422
+59	brasil	brasil	NOUN	NOUN	_	65	obj	_	TokenRange=423:429
+60	importante	importante	ADJ	ADJ	_	61	amod	_	TokenRange=430:440
+61	presidenta	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=441:451
+62	manter	manter	VERB	VERB	_	56	acl:inf	_	TokenRange=452:458
+63	poder	poder	NOUN	NOUN	_	62	obj	_	TokenRange=459:464
+64	vamos	ir	AUX	AUX	_	65	aux	_	TokenRange=465:470
+65	rifar	rifar	VERB	VERB	_	58	ccomp	_	TokenRange=471:476
+66	pais	_	NOUN	NOUN	_	65	obj	_	SpaceAfter=No|TokenRange=477:481
+

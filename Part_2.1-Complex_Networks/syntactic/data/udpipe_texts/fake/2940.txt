@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alexandre garcia quase atropelado df fazia materia sobre educacao transito garcia falava microfone citava respeito motoristas df pedestres reporter alexandre garcia fazer reportagem sobre faixa pedestre brasilia confiando motorista ia parar quase atropelado quase global partiu dessa melhor confira
+1	alexandre	alexandre	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:9
+2	garcia	garcia	NOUN	NOUN	_	1	flat	_	TokenRange=10:16
+3	quase	quase	ADV	ADV	_	4	advmod	_	TokenRange=17:22
+4	atropelado	atropelado	ADJ	ADJ	_	1	amod	_	TokenRange=23:33
+5	df	_	NOUN	NOUN	_	1	appos	_	TokenRange=34:36
+6	fazia	fazer	VERB	VERB	_	0	root	_	TokenRange=37:42
+7	materia	materia	NOUN	NOUN	_	6	obj	_	TokenRange=43:50
+8	sobre	_	ADP	ADP	_	9	case	_	TokenRange=51:56
+9	educacao	educacao	NOUN	NOUN	_	7	nmod	_	TokenRange=57:65
+10	transito	transito	NOUN	NOUN	_	9	flat	_	TokenRange=66:74
+11	garcia	garcia	NOUN	NOUN	_	12	nsubj	_	TokenRange=75:81
+12	falava	falar	VERB	VERB	_	6	conj	_	TokenRange=82:88
+13	microfone	microfone	NOUN	NOUN	_	12	obj	_	TokenRange=89:98
+14	citava	citar	VERB	VERB	_	6	parataxis	_	TokenRange=99:105
+15	respeito	respeito	NOUN	NOUN	_	14	obj	_	TokenRange=106:114
+16	motoristas	motorista	NOUN	NOUN	_	15	amod	_	TokenRange=115:125
+17	df	_	ADP	ADP	_	18	case	_	TokenRange=126:128
+18	pedestres	pedestre	NOUN	NOUN	_	15	appos	_	TokenRange=129:138
+19	reporter	reporter	NOUN	NOUN	_	18	appos	_	TokenRange=139:147
+20	alexandre	alexandre	NOUN	NOUN	_	22	nsubj	_	TokenRange=148:157
+21	garcia	garcia	NOUN	NOUN	_	20	flat	_	TokenRange=158:164
+22	fazer	fazer	VERB	VERB	_	18	acl:relcl	_	TokenRange=165:170
+23	reportagem	reportagem	NOUN	NOUN	_	22	obj	_	TokenRange=171:181
+24	sobre	_	ADP	ADP	_	25	case	_	TokenRange=182:187
+25	faixa	faixa	NOUN	NOUN	_	23	nmod	_	TokenRange=188:193
+26	pedestre	pedestre	ADJ	ADJ	_	25	amod	_	TokenRange=194:202
+27	brasilia	brasilia	NOUN	NOUN	_	25	appos	_	TokenRange=203:211
+28	confiando	confiar	VERB	VERB	_	25	acl	_	TokenRange=212:221
+29	motorista	motorista	NOUN	NOUN	_	28	obj	_	TokenRange=222:231
+30	ia	ir	AUX	AUX	_	31	aux	_	TokenRange=232:234
+31	parar	parar	VERB	VERB	_	28	ccomp	_	TokenRange=235:240
+32	quase	quase	ADV	ADV	_	33	advmod	_	TokenRange=241:246
+33	atropelado	atropelado	ADJ	ADJ	_	31	xcomp	_	TokenRange=247:257
+34	quase	quase	ADV	ADV	_	35	advmod	_	TokenRange=258:263
+35	global	global	ADJ	ADJ	_	31	xcomp	_	TokenRange=264:270
+36	partiu	partir	VERB	VERB	_	31	parataxis	_	TokenRange=271:277
+37	dessa	_	ADP	ADP	_	38	case	_	TokenRange=278:283
+38	melhor	melhor	NOUN	NOUN	_	36	nmod	_	TokenRange=284:290
+39	confira	conferir	VERB	VERB	_	6	parataxis	_	SpaceAfter=No|TokenRange=291:298
+

@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 24 janeiro bom dia aqui principais noticias comecar dia beminformado futuro politico expresidente lula comeca tracado hoje porto alegre trf4 julga recurso petista contra sentenca 9 anos meio prisao juiz sergio moro caso triplex atiradores elite 150 cameras seguranca bloqueio aereo isolamento area tribunal vao garantir seguranca audiencia ontem apoiadores lula manifestantes favoraveis condenacao sairam ruas varias cidades pais g1 transmite sessao prevista comecar 8h30 resultado julgamento impacto direto eleicoes
+1	quartafeira	quartafeira	NOUN	NOUN	_	16	parataxis	_	TokenRange=0:11
+2	24	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:14
+3	janeiro	_	PROPN	PNOUN	_	1	appos	_	TokenRange=15:22
+4	bom	bom	ADJ	ADJ	_	5	amod	_	TokenRange=23:26
+5	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=27:30
+6	aqui	aqui	ADV	ADV	_	9	advmod	_	TokenRange=31:35
+7	principais	principal	ADJ	ADJ	_	8	amod	_	TokenRange=36:46
+8	noticias	_	NOUN	NOUN	_	1	appos	_	TokenRange=47:55
+9	comecar	comecar	VERB	VERB	_	1	parataxis	_	TokenRange=56:63
+10	dia	dia	NOUN	NOUN	_	9	obj	_	TokenRange=64:67
+11	beminformado	beminformado	ADJ	ADJ	_	10	amod	_	TokenRange=68:80
+12	futuro	futuro	ADJ	ADJ	_	13	amod	_	TokenRange=81:87
+13	politico	politico	NOUN	NOUN	_	9	nsubj	_	TokenRange=88:96
+14	expresidente	expresidente	NOUN	NOUN	_	13	amod	_	TokenRange=97:109
+15	lula	_	ADJ	ADJ	_	13	amod	_	TokenRange=110:114
+16	comeca	comecar	VERB	VERB	_	0	root	_	TokenRange=115:121
+17	tracado	tracado	NOUN	NOUN	_	16	obj	_	TokenRange=122:129
+18	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=130:134
+19	porto	porto	NOUN	NOUN	_	22	obj	_	TokenRange=135:140
+20	alegre	alegre	ADJ	ADJ	_	19	amod	_	TokenRange=141:147
+21	trf4	_	NOUN	NOUN	_	19	appos	_	TokenRange=148:152
+22	julga	julgar	VERB	VERB	_	16	parataxis	_	TokenRange=153:158
+23	recurso	recurso	NOUN	NOUN	_	22	obj	_	TokenRange=159:166
+24	petista	petista	ADJ	ADJ	_	23	amod	_	TokenRange=167:174
+25	contra	_	ADP	ADP	_	26	case	_	TokenRange=175:181
+26	sentenca	_	NOUN	NOUN	_	23	nmod	_	TokenRange=182:190
+27	9	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=191:192
+28	anos	ano	NOUN	NOUN	_	26	appos	_	TokenRange=193:197
+29	meio	meio	ADJ	ADJ	_	28	amod	_	TokenRange=198:202
+30	prisao	prisao	ADJ	NOUN	_	28	amod	_	TokenRange=203:209
+31	juiz	juiz	NOUN	NOUN	_	22	obj	_	TokenRange=210:214
+32	sergio	sergio	NOUN	NOUN	_	31	appos	_	TokenRange=215:221
+33	moro	moro	NOUN	NOUN	_	31	flat	_	TokenRange=222:226
+34	caso	caso	NOUN	NOUN	_	31	appos	_	TokenRange=227:231
+35	triplex	_	NOUN	NOUN	_	31	flat	_	TokenRange=232:239
+36	atiradores	atirador	NOUN	NOUN	_	31	appos	_	TokenRange=240:250
+37	elite	elite	NOUN	NOUN	_	36	appos	_	TokenRange=251:256
+38	150	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=257:260
+39	cameras	camera	NOUN	NOUN	_	36	appos	_	TokenRange=261:268
+40	seguranca	_	NOUN	NOUN	_	41	appos	_	TokenRange=269:278
+41	bloqueio	bloqueio	NOUN	NOUN	_	39	appos	_	TokenRange=279:287
+42	aereo	aereo	ADJ	ADJ	_	41	amod	_	TokenRange=288:293
+43	isolamento	isolamento	NOUN	NOUN	_	41	appos	_	TokenRange=294:304
+44	area	area	NOUN	NOUN	_	41	appos	_	TokenRange=305:309
+45	tribunal	tribunal	NOUN	NOUN	_	43	flat	_	TokenRange=310:318
+46	vao	ir	AUX	AUX	_	47	aux	_	TokenRange=319:322
+47	garantir	garantir	VERB	VERB	_	16	parataxis	_	TokenRange=323:331
+48	seguranca	_	NOUN	NOUN	_	47	obj	_	TokenRange=332:341
+49	audiencia	audiencia	NOUN	NOUN	_	47	obj	_	TokenRange=342:351
+50	ontem	ontem	ADV	ADV	_	47	advmod	_	TokenRange=352:357
+51	apoiadores	_	NOUN	NOUN	_	49	amod	_	TokenRange=358:368
+52	lula	_	NOUN	NOUN	_	51	flat	_	TokenRange=369:373
+53	manifestantes	manifestante	NOUN	NOUN	_	51	flat	_	TokenRange=374:387
+54	favoraveis	favoravel	ADJ	ADJ	_	53	amod	_	TokenRange=388:398
+55	condenacao	_	ADJ	NOUN	_	53	amod	_	TokenRange=399:409
+56	sairam	sair	VERB	VERB	_	47	parataxis	_	TokenRange=410:416
+57	ruas	rua	NOUN	NOUN	_	56	obj	_	TokenRange=417:421
+58	varias	_	DET	DET	_	59	det	_	TokenRange=422:428
+59	cidades	cidade	NOUN	NOUN	_	56	nsubj	_	TokenRange=429:436
+60	pais	_	NOUN	NOUN	_	59	appos	_	TokenRange=437:441
+61	g1	_	PROPN	PNOUN	_	59	appos	_	TokenRange=442:444
+62	transmite	transmitir	VERB	VERB	_	16	parataxis	_	TokenRange=445:454
+63	sessao	sessao	NOUN	NOUN	_	62	obj	_	TokenRange=455:461
+64	prevista	previsto	ADJ	ADJ	_	63	amod	_	TokenRange=462:470
+65	comecar	comecar	VERB	VERB	_	63	acl:inf	_	TokenRange=471:478
+66	8h30	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=479:483
+67	resultado	resultado	NOUN	NOUN	_	65	obj	_	TokenRange=484:493
+68	julgamento	julgamento	ADJ	ADJ	_	67	amod	_	TokenRange=494:504
+69	impacto	impacto	NOUN	NOUN	_	67	appos	_	TokenRange=505:512
+70	direto	direto	ADJ	ADJ	_	71	amod	_	TokenRange=513:519
+71	eleicoes	eleicoe	NOUN	NOUN	_	69	appos	_	SpaceAfter=No|TokenRange=520:528
+

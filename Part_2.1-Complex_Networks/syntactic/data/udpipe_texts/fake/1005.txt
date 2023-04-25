@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = boechat sobre lula alma pode honesta governo fezse diabo lula todo direito dizer alma pode honesta porem significa nada disse apresentador governo fezse diabo partido fezse diabo tesoureiro pt vaccari sr tentou isentar cana ze dirceu figura importante partido cana disse boechat confira
+1	boechat	boechat	NOUN	NOUN	_	43	nsubj	_	TokenRange=0:7
+2	sobre	_	ADP	ADP	_	3	case	_	TokenRange=8:13
+3	lula	_	NOUN	NOUN	_	1	nmod	_	TokenRange=14:18
+4	alma	alma	NOUN	NOUN	_	7	appos	_	TokenRange=19:23
+5	pode	_	AUX	AUX	_	6	cop	_	TokenRange=24:28
+6	honesta	honesto	ADJ	ADJ	_	7	amod	_	TokenRange=29:36
+7	governo	governo	NOUN	NOUN	_	1	appos	_	TokenRange=37:44
+8	fezse	fezse	ADJ	ADJ	_	7	amod	_	TokenRange=45:50
+9	diabo	diabo	NOUN	NOUN	_	7	appos	_	TokenRange=51:56
+10	lula	lula	NOUN	NOUN	_	7	appos	_	TokenRange=57:61
+11	todo	_	DET	DET	_	12	det	_	TokenRange=62:66
+12	direito	direito	NOUN	NOUN	_	13	nsubj	_	TokenRange=67:74
+13	dizer	dizer	VERB	VERB	_	7	acl:relcl	_	TokenRange=75:80
+14	alma	alma	NOUN	NOUN	_	13	obj	_	TokenRange=81:85
+15	pode	_	VERB	VERB	_	16	cop	_	TokenRange=86:90
+16	honesta	honesto	ADJ	ADJ	_	14	amod	_	TokenRange=91:98
+17	porem	_	CCONJ	CONJ	_	18	mark	_	TokenRange=99:104
+18	significa	significar	VERB	VERB	_	13	advcl	_	TokenRange=105:114
+19	nada	_	PRON	PRON	_	18	obj	_	TokenRange=115:119
+20	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=120:125
+21	apresentador	apresentador	NOUN	NOUN	_	20	nsubj	_	TokenRange=126:138
+22	governo	governo	NOUN	NOUN	_	21	appos	_	TokenRange=139:146
+23	fezse	fezse	ADJ	ADJ	_	21	amod	_	TokenRange=147:152
+24	diabo	diabo	NOUN	NOUN	_	21	appos	_	TokenRange=153:158
+25	partido	partido	NOUN	NOUN	_	21	appos	_	TokenRange=159:166
+26	fezse	fezse	ADJ	ADJ	_	25	amod	_	TokenRange=167:172
+27	diabo	diabo	NOUN	NOUN	_	25	appos	_	TokenRange=173:178
+28	tesoureiro	tesoureiro	NOUN	NOUN	_	32	nsubj	_	TokenRange=179:189
+29	pt	_	ADJ	NOUN	_	30	amod	_	TokenRange=190:192
+30	vaccari	vaccar	NOUN	NOUN	_	32	nsubj	_	TokenRange=193:200
+31	sr	_	ADJ	ADJ	_	30	amod	_	TokenRange=201:203
+32	tentou	tentar	VERB	VERB	_	20	ccomp	_	TokenRange=204:210
+33	isentar	isentar	VERB	VERB	_	32	xcomp	_	TokenRange=211:218
+34	cana	cana	NOUN	NOUN	_	33	obj	_	TokenRange=219:223
+35	ze	_	PRON	PRON	_	37	appos	_	TokenRange=224:226
+36	dirceu	_	VERB	VERB	_	37	acl:relcl	_	TokenRange=227:233
+37	figura	figura	NOUN	NOUN	_	33	obj	_	TokenRange=234:240
+38	importante	importante	ADJ	ADJ	_	37	amod	_	TokenRange=241:251
+39	partido	partido	NOUN	NOUN	_	37	appos	_	TokenRange=252:259
+40	cana	cana	ADJ	ADJ	_	39	amod	_	TokenRange=260:264
+41	disse	dizer	VERB	VERB	_	32	parataxis	_	TokenRange=265:270
+42	boechat	boechat	NOUN	NOUN	_	43	nsubj	_	TokenRange=271:278
+43	confira	conferir	VERB	VERB	_	41	ccomp	_	SpaceAfter=No|TokenRange=279:286
+

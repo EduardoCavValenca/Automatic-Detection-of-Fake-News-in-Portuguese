@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delegacia mulher investiga denuncia abuso sexual camara vereadores montes claros crime sido cometido chefe setor comunicacao contra assessoras orgao camara criou comissao especial apurar denuncia delegacia mulher instaurou inquerito nesta sextafeira 2 investigar denuncia abuso sexual ocorrido dentro camara vereadores montes claros chefe setor comunicacao contra assessoras orgao jornalista registrou boletim ocorrencia ultima segundafeira 26 ouvida delegacia nesta sexta inquerito deve concluido 30 dias disse vinha fazendo gracinhas meio comentarios mensagens dia fato jornalista sozinha sala dois trabalham homem chegou perguntou atraso alguem queria falar
+1	delegacia	delegacia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	mulher	mulher	NOUN	NOUN	_	1	flat	_	TokenRange=10:16
+3	investiga	investigar	VERB	VERB	_	0	root	_	TokenRange=17:26
+4	denuncia	_	NOUN	NOUN	_	3	obj	_	TokenRange=27:35
+5	abuso	abuso	NOUN	NOUN	_	4	appos	_	TokenRange=36:41
+6	sexual	sexual	ADJ	ADJ	_	5	amod	_	TokenRange=42:48
+7	camara	camara	NOUN	NOUN	_	4	appos	_	TokenRange=49:55
+8	vereadores	vereador	NOUN	NOUN	_	5	appos	_	TokenRange=56:66
+9	montes	monte	NOUN	NOUN	_	5	appos	_	TokenRange=67:73
+10	claros	claro	ADJ	ADJ	_	9	amod	_	TokenRange=74:80
+11	crime	crime	NOUN	NOUN	_	28	nsubj	_	TokenRange=81:86
+12	sido	ser	AUX	AUX	_	13	aux:pass	_	TokenRange=87:91
+13	cometido	cometer	VERB	VERB	_	1	acl	_	TokenRange=92:100
+14	chefe	chefe	NOUN	NOUN	_	13	nsubj:pass	_	TokenRange=101:106
+15	setor	setor	NOUN	NOUN	_	14	appos	_	TokenRange=107:112
+16	comunicacao	comunicacao	NOUN	NOUN	_	15	amod	_	TokenRange=113:124
+17	contra	_	ADP	ADP	_	18	case	_	TokenRange=125:131
+18	assessoras	assessor	NOUN	NOUN	_	15	nmod	_	TokenRange=132:142
+19	orgao	orgao	ADJ	NOUN	_	18	appos	_	TokenRange=143:148
+20	camara	camara	NOUN	NOUN	_	18	flat	_	TokenRange=149:155
+21	criou	criar	VERB	VERB	_	3	conj	_	TokenRange=156:161
+22	comissao	comissao	NOUN	NOUN	_	21	obj	_	TokenRange=162:170
+23	especial	especial	ADJ	ADJ	_	22	amod	_	TokenRange=171:179
+24	apurar	apurar	VERB	VERB	_	21	ccomp	_	TokenRange=180:186
+25	denuncia	_	NOUN	NOUN	_	24	obj	_	TokenRange=187:195
+26	delegacia	delegacia	NOUN	NOUN	_	28	nsubj	_	TokenRange=196:205
+27	mulher	mulher	NOUN	NOUN	_	26	flat	_	TokenRange=206:212
+28	instaurou	instaurar	VERB	VERB	_	25	acl:relcl	_	TokenRange=213:222
+29	inquerito	inquerito	NOUN	NOUN	_	28	obj	_	TokenRange=223:232
+30	nesta	_	ADP	ADP	_	31	case	_	TokenRange=233:238
+31	sextafeira	sextafeira	NOUN	NOUN	_	28	nmod	_	TokenRange=239:249
+32	2	_	NUM	NUM	NumType=Card	31	appos	_	TokenRange=250:251
+33	investigar	investigar	VERB	VERB	_	28	parataxis	_	TokenRange=252:262
+34	denuncia	_	NOUN	NOUN	_	33	obj	_	TokenRange=263:271
+35	abuso	abuso	NOUN	NOUN	_	34	appos	_	TokenRange=272:277
+36	sexual	sexual	ADJ	ADJ	_	35	amod	_	TokenRange=278:284
+37	ocorrido	ocorrer	VERB	VERB	_	34	acl	_	TokenRange=285:293
+38	dentro	dentro	ADV	ADV	_	37	advmod	_	TokenRange=294:300
+39	camara	camara	NOUN	NOUN	_	37	nmod	_	TokenRange=301:307
+40	vereadores	vereador	NOUN	NOUN	_	39	amod	_	TokenRange=308:318
+41	montes	monte	NOUN	NOUN	_	39	appos	_	TokenRange=319:325
+42	claros	claro	ADJ	ADJ	_	41	amod	_	TokenRange=326:332
+43	chefe	chefe	NOUN	NOUN	_	50	nsubj	_	TokenRange=333:338
+44	setor	setor	NOUN	NOUN	_	43	appos	_	TokenRange=339:344
+45	comunicacao	comunicacao	ADJ	ADJ	_	44	amod	_	TokenRange=345:356
+46	contra	_	ADP	ADP	_	47	case	_	TokenRange=357:363
+47	assessoras	assessor	NOUN	NOUN	_	43	nmod	_	TokenRange=364:374
+48	orgao	orgao	ADJ	NOUN	_	47	amod	_	TokenRange=375:380
+49	jornalista	jornalista	NOUN	NOUN	_	47	flat	_	TokenRange=381:391
+50	registrou	registrar	VERB	VERB	_	3	parataxis	_	TokenRange=392:401
+51	boletim	boletim	NOUN	NOUN	_	50	obj	_	TokenRange=402:409
+52	ocorrencia	_	NOUN	NOUN	_	51	appos	_	TokenRange=410:420
+53	ultima	_	ADJ	ADJ	_	54	amod	_	TokenRange=421:427
+54	segundafeira	_	NOUN	NOUN	_	51	appos	_	TokenRange=428:440
+55	26	_	NUM	NUM	NumType=Card	54	appos	_	TokenRange=441:443
+56	ouvida	ouvido	ADJ	ADJ	_	57	amod	_	TokenRange=444:450
+57	delegacia	delegacia	NOUN	NOUN	_	50	nsubj	_	TokenRange=451:460
+58	nesta	_	ADP	ADP	_	60	case	_	TokenRange=461:466
+59	sexta	_	ADJ	PNOUN	_	60	amod	_	TokenRange=467:472
+60	inquerito	inquerito	NOUN	NOUN	_	62	nmod	_	TokenRange=473:482
+61	deve	dever	AUX	AUX	_	62	aux	_	TokenRange=483:487
+62	concluido	concluir	VERB	VERB	_	65	ccomp	_	TokenRange=488:497
+63	30	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=498:500
+64	dias	dia	NOUN	NOUN	_	62	nmod	_	TokenRange=501:505
+65	disse	dizer	VERB	VERB	_	50	parataxis	_	TokenRange=506:511
+66	vinha	vir	AUX	AUX	_	67	aux	_	TokenRange=512:517
+67	fazendo	fazer	VERB	VERB	_	65	ccomp	_	TokenRange=518:525
+68	gracinhas	graça	NOUN	NOUN	_	67	obj	_	TokenRange=526:535
+69	meio	meio	NOUN	NOUN	_	70	amod	_	TokenRange=536:540
+70	comentarios	comentario	NOUN	NOUN	_	68	appos	_	TokenRange=541:552
+71	mensagens	mensagem	NOUN	NOUN	_	68	appos	_	TokenRange=553:562
+72	dia	dia	NOUN	NOUN	_	71	appos	_	TokenRange=563:566
+73	fato	fato	NOUN	NOUN	_	72	flat	_	TokenRange=567:571
+74	jornalista	jornalista	NOUN	NOUN	_	72	flat	_	TokenRange=572:582
+75	sozinha	só	ADJ	ADJ	_	74	amod	_	TokenRange=583:590
+76	sala	sala	NOUN	NOUN	_	71	appos	_	TokenRange=591:595
+77	dois	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=596:600
+78	trabalham	trabalhar	NOUN	NOUN	_	76	appos	_	TokenRange=601:610
+79	homem	homem	NOUN	NOUN	_	81	nsubj	_	TokenRange=611:616
+80	chegou	chegar	AUX	AUX	_	81	aux	_	TokenRange=617:623
+81	perguntou	perguntar	VERB	VERB	_	67	conj	_	TokenRange=624:633
+82	atraso	atraso	NOUN	NOUN	_	81	obj	_	TokenRange=634:640
+83	alguem	_	PRON	PRON	_	84	nsubj	_	TokenRange=641:647
+84	queria	querer	VERB	VERB	_	81	ccomp	_	TokenRange=648:654
+85	falar	falar	VERB	VERB	_	84	xcomp	_	SpaceAfter=No|TokenRange=655:660
+

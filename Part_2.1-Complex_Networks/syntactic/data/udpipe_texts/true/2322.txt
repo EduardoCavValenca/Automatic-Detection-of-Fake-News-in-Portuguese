@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cidades interior rio programacao especial dia internacional mulher 8 marco comemorado dia internacional mulher confira cidades eventos comemorativos dia 8 marco comemorado dia internacional mulher algumas cidades regiao lagos interior rio divulgaram calendarios programacao comemoracao data cabo frio acoes comecam
+1	cidades	cidade	NOUN	NOUN	_	32	parataxis	_	TokenRange=0:7
+2	interior	interior	ADJ	ADJ	_	1	amod	_	TokenRange=8:16
+3	rio	rio	ADJ	ADJ	_	1	amod	_	TokenRange=17:20
+4	programacao	programacao	NOUN	NOUN	_	1	appos	_	TokenRange=21:32
+5	especial	especial	ADJ	ADJ	_	4	amod	_	TokenRange=33:41
+6	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=42:45
+7	internacional	internacional	ADJ	ADJ	_	6	amod	_	TokenRange=46:59
+8	mulher	mulher	NOUN	NOUN	_	6	appos	_	TokenRange=60:66
+9	8	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=67:68
+10	marco	marco	NOUN	NOUN	_	6	appos	_	TokenRange=69:74
+11	comemorado	comemorado	ADJ	ADJ	_	12	amod	_	TokenRange=75:85
+12	dia	dia	NOUN	NOUN	_	6	appos	_	TokenRange=86:89
+13	internacional	internacional	ADJ	ADJ	_	12	amod	_	TokenRange=90:103
+14	mulher	mulher	NOUN	NOUN	_	12	appos	_	TokenRange=104:110
+15	confira	conferir	VERB	VERB	_	12	acl:relcl	_	TokenRange=111:118
+16	cidades	cidade	NOUN	NOUN	_	15	obj	_	TokenRange=119:126
+17	eventos	evento	NOUN	NOUN	_	16	appos	_	TokenRange=127:134
+18	comemorativos	comemorativo	ADJ	ADJ	_	17	amod	_	TokenRange=135:148
+19	dia	dia	NOUN	NOUN	_	17	appos	_	TokenRange=149:152
+20	8	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=153:154
+21	marco	marco	NOUN	NOUN	_	19	appos	_	TokenRange=155:160
+22	comemorado	comemorar	AUX	AUX	_	23	acl	_	TokenRange=161:171
+23	dia	dia	NOUN	NOUN	_	19	appos	_	TokenRange=172:175
+24	internacional	internacional	ADJ	ADJ	_	23	amod	_	TokenRange=176:189
+25	mulher	mulher	NOUN	NOUN	_	23	appos	_	TokenRange=190:196
+26	algumas	_	DET	DET	_	27	det	_	TokenRange=197:204
+27	cidades	cidade	NOUN	NOUN	_	32	nsubj	_	TokenRange=205:212
+28	regiao	regiao	NOUN	NOUN	_	27	appos	_	TokenRange=213:219
+29	lagos	lago	NOUN	NOUN	_	28	flat	_	TokenRange=220:225
+30	interior	interior	ADJ	ADJ	_	27	amod	_	TokenRange=226:234
+31	rio	rio	ADJ	ADJ	_	30	amod	_	TokenRange=235:238
+32	divulgaram	divulgar	VERB	VERB	_	0	root	_	TokenRange=239:249
+33	calendarios	calendario	NOUN	NOUN	_	40	obj	_	TokenRange=250:261
+34	programacao	programacao	NOUN	NOUN	_	33	appos	_	TokenRange=262:273
+35	comemoracao	comemoracao	NOUN	NOUN	_	34	amod	_	TokenRange=274:285
+36	data	data	NOUN	NOUN	_	33	appos	_	TokenRange=286:290
+37	cabo	cabo	NOUN	NOUN	_	36	appos	_	TokenRange=291:295
+38	frio	frio	ADJ	ADJ	_	37	amod	_	TokenRange=296:300
+39	acoes	acoe	NOUN	NOUN	_	40	nsubj	_	TokenRange=301:306
+40	comecam	comecer	VERB	VERB	_	32	parataxis	_	SpaceAfter=No|TokenRange=307:314
+

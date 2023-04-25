@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caca governo turco derruba helicoptero forcas militares disparava contra civis informacao afp f16 forca aerea turca derrubou noite hoje 15 helicoptero forcas exercito anunciaram tomada poder turquia helicoptero modelo sikorsky fazia disparos contra civis outro confronto 17 policiais mortos quartelgeneral forcas especiais exercito ancara acordo agencia oficial anatolia estadomaior exercito turquia anunciou nesta sextafeira 15 tomou controle pais golpe contra primeiroministro presidente erdogan recuperar direitos humanos constitucionais democraticos oficialmente assumindo controle pais disse nota emitida forcasarmadas
+1	caca	caca	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:4
+2	governo	governo	NOUN	NOUN	_	1	flat	_	TokenRange=5:12
+3	turco	turco	ADJ	ADJ	_	1	amod	_	TokenRange=13:18
+4	derruba	derrubar	VERB	VERB	_	1	acl:relcl	_	TokenRange=19:26
+5	helicoptero	helicoptero	NOUN	NOUN	_	4	obj	_	TokenRange=27:38
+6	forcas	forca	NOUN	NOUN	_	5	appos	_	TokenRange=39:45
+7	militares	militar	ADJ	ADJ	_	14	amod	_	TokenRange=46:55
+8	disparava	disparar	VERB	VERB	_	73	ccomp	_	TokenRange=56:65
+9	contra	_	ADP	ADP	_	10	case	_	TokenRange=66:72
+10	civis	civil	NOUN	NOUN	_	8	nmod	_	TokenRange=73:78
+11	informacao	informacao	NOUN	NOUN	_	8	obj	_	TokenRange=79:89
+12	afp	afp	NOUN	NOUN	_	17	nsubj	_	TokenRange=90:93
+13	f16	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=94:97
+14	forca	forca	NOUN	NOUN	_	17	nsubj	_	TokenRange=98:103
+15	aerea	aereo	ADJ	ADJ	_	14	amod	_	TokenRange=104:109
+16	turca	turco	ADJ	ADJ	_	14	amod	_	TokenRange=110:115
+17	derrubou	derrubar	VERB	VERB	_	8	parataxis	_	TokenRange=116:124
+18	noite	noite	NOUN	NOUN	_	17	nmod	_	TokenRange=125:130
+19	hoje	hoje	ADV	ADV	_	17	advmod	_	TokenRange=131:135
+20	15	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=136:138
+21	helicoptero	helicoptero	NOUN	NOUN	_	24	nsubj	_	TokenRange=139:150
+22	forcas	forca	NOUN	NOUN	_	21	appos	_	TokenRange=151:157
+23	exercito	exercito	ADJ	ADJ	_	21	amod	_	TokenRange=158:166
+24	anunciaram	anunciar	VERB	VERB	_	8	parataxis	_	TokenRange=167:177
+25	tomada	tomar	ADJ	ADJ	_	26	amod	_	TokenRange=178:184
+26	poder	poder	NOUN	NOUN	_	24	obj	_	TokenRange=185:190
+27	turquia	turquia	ADJ	ADJ	_	26	amod	_	TokenRange=191:198
+28	helicoptero	helicoptero	NOUN	NOUN	_	31	nsubj	_	TokenRange=199:210
+29	modelo	modelo	NOUN	NOUN	_	28	appos	_	TokenRange=211:217
+30	sikorsky	_	NOUN	NOUN	_	29	flat	_	TokenRange=218:226
+31	fazia	fazer	VERB	VERB	_	24	parataxis	_	TokenRange=227:232
+32	disparos	disparo	NOUN	NOUN	_	31	obj	_	TokenRange=233:241
+33	contra	_	ADP	ADP	_	34	case	_	TokenRange=242:248
+34	civis	civil	NOUN	NOUN	_	32	nmod	_	TokenRange=249:254
+35	outro	_	DET	DET	_	36	det	_	TokenRange=255:260
+36	confronto	confronto	NOUN	NOUN	_	31	obj	_	TokenRange=261:270
+37	17	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=271:273
+38	policiais	policial	NOUN	NOUN	_	31	nsubj	_	TokenRange=274:283
+39	mortos	morto	ADJ	ADJ	_	38	amod	_	TokenRange=284:290
+40	quartelgeneral	quartelgeneral	ADJ	ADJ	_	38	amod	_	TokenRange=291:305
+41	forcas	forca	NOUN	NOUN	_	38	appos	_	TokenRange=306:312
+42	especiais	especial	ADJ	ADJ	_	41	amod	_	TokenRange=313:322
+43	exercito	exercito	NOUN	NOUN	_	41	appos	_	TokenRange=323:331
+44	ancara	ancara	ADJ	ADJ	_	41	amod	_	TokenRange=332:338
+45	acordo	acordo	NOUN	NOUN	_	38	appos	_	TokenRange=339:345
+46	agencia	agencia	NOUN	NOUN	_	45	appos	_	TokenRange=346:353
+47	oficial	oficial	ADJ	ADJ	_	46	amod	_	TokenRange=354:361
+48	anatolia	anatolia	NOUN	NOUN	_	46	amod	_	TokenRange=362:370
+49	estadomaior	_	ADJ	ADJ	_	46	amod	_	TokenRange=371:382
+50	exercito	exercito	ADJ	ADJ	_	46	amod	_	TokenRange=383:391
+51	turquia	turquia	NOUN	NOUN	_	46	amod	_	TokenRange=392:399
+52	anunciou	anunciar	VERB	VERB	_	8	parataxis	_	TokenRange=400:408
+53	nesta	_	ADP	ADP	_	54	case	_	TokenRange=409:414
+54	sextafeira	_	PROPN	PNOUN	_	52	nmod	_	TokenRange=415:425
+55	15	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=426:428
+56	tomou	tomar	VERB	VERB	_	52	ccomp	_	TokenRange=429:434
+57	controle	_	NOUN	NOUN	_	56	obj	_	TokenRange=435:443
+58	pais	_	ADJ	ADJ	_	57	amod	_	TokenRange=444:448
+59	golpe	golpe	NOUN	NOUN	_	56	nsubj	_	TokenRange=449:454
+60	contra	_	ADP	ADP	_	61	case	_	TokenRange=455:461
+61	primeiroministro	primeiroministro	NOUN	NOUN	_	59	nmod	_	TokenRange=462:478
+62	presidente	presidente	NOUN	NOUN	_	61	flat	_	TokenRange=479:489
+63	erdogan	_	ADJ	NOUN	_	61	flat	_	TokenRange=490:497
+64	recuperar	recuperar	VERB	VERB	_	59	nmod	_	TokenRange=498:507
+65	direitos	direito	NOUN	NOUN	_	64	obj	_	TokenRange=508:516
+66	humanos	humano	ADJ	ADJ	_	65	amod	_	TokenRange=517:524
+67	constitucionais	constitucional	ADJ	ADJ	_	65	amod	_	TokenRange=525:540
+68	democraticos	democratico	ADJ	ADJ	_	65	amod	_	TokenRange=541:553
+69	oficialmente	oficialmente	ADV	ADV	_	70	advmod	_	TokenRange=554:566
+70	assumindo	assumir	VERB	VERB	_	64	acl	_	TokenRange=567:576
+71	controle	_	NOUN	NOUN	_	70	obj	_	TokenRange=577:585
+72	pais	_	ADJ	ADJ	_	71	amod	_	TokenRange=586:590
+73	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=591:596
+74	nota	nota	NOUN	NOUN	_	73	nsubj	_	TokenRange=597:601
+75	emitida	emitir	VERB	VERB	_	74	acl	_	TokenRange=602:609
+76	forcasarmadas	_	VERB	VERB	_	75	acl	_	SpaceAfter=No|TokenRange=610:623
+

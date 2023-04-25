@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = prisao guido mantega retirado pf dentro centro cirurgico albert einstein agentes policia federal retiraram exministro fazenda guido mantega dentro hospital israelita albert einstein exministro fazenda centro cirurgico hospital acompanhando esposa passa cirurgia informacao jornal bom dia brasil tv globo mantega devera levado ainda hoje curitiba sede investigacoes lava jato
+1	prisao	prisao	NOUN	NOUN	_	14	nsubj	_	TokenRange=0:6
+2	guido	guido	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	mantega	mantega	NOUN	NOUN	_	1	appos	_	TokenRange=13:20
+4	retirado	retirar	VERB	VERB	_	1	acl	_	TokenRange=21:29
+5	pf	_	NOUN	NOUN	_	4	nmod	_	TokenRange=30:32
+6	dentro	dentro	ADV	ADV	_	7	advmod	_	TokenRange=33:39
+7	centro	centro	NOUN	NOUN	_	1	appos	_	TokenRange=40:46
+8	cirurgico	cirurgico	ADJ	ADJ	_	7	amod	_	TokenRange=47:56
+9	albert	_	NOUN	NOUN	_	7	appos	_	TokenRange=57:63
+10	einstein	einstein	NOUN	NOUN	_	9	flat	_	TokenRange=64:72
+11	agentes	agente	NOUN	NOUN	_	14	nsubj	_	TokenRange=73:80
+12	policia	policia	NOUN	NOUN	_	11	appos	_	TokenRange=81:88
+13	federal	federal	ADJ	ADJ	_	11	amod	_	TokenRange=89:96
+14	retiraram	retirar	VERB	VERB	_	0	root	_	TokenRange=97:106
+15	exministro	exministro	NOUN	NOUN	_	14	obj	_	TokenRange=107:117
+16	fazenda	fazenda	NOUN	NOUN	_	15	appos	_	TokenRange=118:125
+17	guido	guido	NOUN	NOUN	_	16	appos	_	TokenRange=126:131
+18	mantega	mantega	NOUN	NOUN	_	15	appos	_	TokenRange=132:139
+19	dentro	dentro	ADV	ADV	_	20	advmod	_	TokenRange=140:146
+20	hospital	hospital	NOUN	NOUN	_	15	appos	_	TokenRange=147:155
+21	israelita	israelita	ADJ	ADJ	_	20	amod	_	TokenRange=156:165
+22	albert	_	NOUN	NOUN	_	20	appos	_	TokenRange=166:172
+23	einstein	einstein	NOUN	NOUN	_	22	flat	_	TokenRange=173:181
+24	exministro	exministro	ADJ	ADJ	_	20	amod	_	TokenRange=182:192
+25	fazenda	fazenda	NOUN	NOUN	_	20	appos	_	TokenRange=193:200
+26	centro	centro	NOUN	NOUN	_	20	appos	_	TokenRange=201:207
+27	cirurgico	cirurgico	ADJ	ADJ	_	26	amod	_	TokenRange=208:217
+28	hospital	hospital	NOUN	NOUN	_	26	appos	_	TokenRange=218:226
+29	acompanhando	acompanhar	VERB	VERB	_	26	acl	_	TokenRange=227:239
+30	esposa	esposo	NOUN	NOUN	_	29	obj	_	TokenRange=240:246
+31	passa	passar	VERB	VERB	_	14	parataxis	_	TokenRange=247:252
+32	cirurgia	cirurgia	NOUN	NOUN	_	31	obj	_	TokenRange=253:261
+33	informacao	informacao	ADJ	ADJ	_	32	amod	_	TokenRange=262:272
+34	jornal	jornal	NOUN	NOUN	_	31	nsubj	_	TokenRange=273:279
+35	bom	bom	ADJ	ADJ	_	36	amod	_	TokenRange=280:283
+36	dia	dia	NOUN	NOUN	_	34	appos	_	TokenRange=284:287
+37	brasil	brasil	ADJ	ADJ	_	36	amod	_	TokenRange=288:294
+38	tv	tv	NOUN	NOUN	_	42	nsubj	_	TokenRange=295:297
+39	globo	globo	ADJ	ADJ	_	38	amod	_	TokenRange=298:303
+40	mantega	mantega	NOUN	NOUN	_	38	appos	_	TokenRange=304:311
+41	devera	dever	AUX	AUX	_	42	aux	_	TokenRange=312:318
+42	levado	levar	VERB	VERB	_	14	conj	_	TokenRange=319:325
+43	ainda	ainda	ADV	ADV	_	44	advmod	_	TokenRange=326:331
+44	hoje	hoje	ADV	ADV	_	42	advmod	_	TokenRange=332:336
+45	curitiba	curitiba	NOUN	NOUN	_	48	obj	_	TokenRange=337:345
+46	sede	sede	NOUN	NOUN	_	48	nsubj	_	TokenRange=346:350
+47	investigacoes	investigacoe	NOUN	NOUN	_	46	amod	_	TokenRange=351:364
+48	lava	lavar	VERB	VERB	_	42	parataxis	_	TokenRange=365:369
+49	jato	jato	NOUN	NOUN	_	48	obj	_	SpaceAfter=No|TokenRange=370:374
+

@@ -1,0 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula autodeclara inocente diz lavajato palhacada patricia moraes carvalho diario brasil obrigados escutar discurso patetico recheado mentiras chamar lavajato palhacada acontece simples cidada confrontar policial federal chefe ministerio publico juiz chamar palhaco
+1	lula	lula	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:4
+2	autodeclara	autodeclara	NOUN	NOUN	_	1	amod	_	TokenRange=5:16
+3	inocente	inocente	ADJ	ADJ	_	1	amod	_	TokenRange=17:25
+4	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=26:29
+5	lavajato	lavajato	NOUN	NOUN	_	4	obj	_	TokenRange=30:38
+6	palhacada	palhacado	ADJ	ADJ	_	5	amod	_	TokenRange=39:48
+7	patricia	patricia	NOUN	NOUN	_	4	nsubj	_	TokenRange=49:57
+8	moraes	_	NOUN	NOUN	_	7	flat	_	TokenRange=58:64
+9	carvalho	carvalho	ADJ	ADJ	_	10	amod	_	TokenRange=65:73
+10	diario	diario	NOUN	NOUN	_	7	appos	_	TokenRange=74:80
+11	brasil	brasil	ADJ	ADJ	_	10	amod	_	TokenRange=81:87
+12	obrigados	obrigado	ADJ	ADJ	_	10	amod	_	TokenRange=88:97
+13	escutar	escutar	VERB	VERB	_	10	acl:inf	_	TokenRange=98:105
+14	discurso	discurso	NOUN	NOUN	_	13	obj	_	TokenRange=106:114
+15	patetico	patetico	ADJ	ADJ	_	14	amod	_	TokenRange=115:123
+16	recheado	recheado	ADJ	ADJ	_	17	amod	_	TokenRange=124:132
+17	mentiras	mentira	NOUN	NOUN	_	18	nsubj	_	TokenRange=133:141
+18	chamar	chamar	VERB	VERB	_	14	acl:relcl	_	TokenRange=142:148
+19	lavajato	lavajato	NOUN	NOUN	_	18	obj	_	TokenRange=149:157
+20	palhacada	_	ADJ	ADJ	_	19	amod	_	TokenRange=158:167
+21	acontece	acontecer	VERB	VERB	_	4	parataxis	_	TokenRange=168:176
+22	simples	simples	ADJ	ADJ	_	23	amod	_	TokenRange=177:184
+23	cidada	cidado	NOUN	NOUN	_	24	nsubj	_	TokenRange=185:191
+24	confrontar	confrontar	VERB	VERB	_	21	csubj	_	TokenRange=192:202
+25	policial	policial	NOUN	NOUN	_	24	obj	_	TokenRange=203:211
+26	federal	federal	ADJ	ADJ	_	25	amod	_	TokenRange=212:219
+27	chefe	chefe	NOUN	NOUN	_	25	appos	_	TokenRange=220:225
+28	ministerio	ministerio	NOUN	NOUN	_	25	appos	_	TokenRange=226:236
+29	publico	publico	ADJ	ADJ	_	28	amod	_	TokenRange=237:244
+30	juiz	juiz	NOUN	NOUN	_	25	conj	_	TokenRange=245:249
+31	chamar	chamar	VERB	VERB	_	30	csubj	_	TokenRange=250:256
+32	palhaco	palhaco	NOUN	NOUN	_	31	obj	_	SpaceAfter=No|TokenRange=257:264
+

@@ -1,0 +1,16 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segovia escolhe exassessor parlamentar pf chefe gabinete delegado
+1	segovia	segovia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	escolhe	escolher	VERB	VERB	_	0	root	_	TokenRange=8:15
+3	exassessor	exassessor	NOUN	NOUN	_	2	obj	_	TokenRange=16:26
+4	parlamentar	parlamentar	ADJ	ADJ	_	3	amod	_	TokenRange=27:38
+5	pf	_	CCONJ	CONJ	_	6	cc	_	TokenRange=39:41
+6	chefe	chefe	NOUN	NOUN	_	3	conj	_	TokenRange=42:47
+7	gabinete	gabinete	NOUN	NOUN	_	6	flat	_	TokenRange=48:56
+8	delegado	delegado	NOUN	NOUN	_	7	amod	_	SpaceAfter=No|TokenRange=57:65
+

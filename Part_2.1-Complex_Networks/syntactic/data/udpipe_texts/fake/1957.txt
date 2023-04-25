@@ -1,0 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornalista mauricio kubrusly sofre infarto 71 anos reporter passou mal ultimo sabado 14 acordo informacoes revista veja kubrusly recupera bem assessoria imprensa globo informou profissional deve voltar trabalho breve mauricio 71 anos
+1	jornalista	jornalista	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	mauricio	mauricio	ADJ	ADJ	_	1	amod	_	TokenRange=11:19
+3	kubrusly	_	NOUN	NOUN	_	1	appos	_	TokenRange=20:28
+4	sofre	sofrer	VERB	VERB	_	0	root	_	TokenRange=29:34
+5	infarto	infarto	NOUN	NOUN	_	4	obj	_	TokenRange=35:42
+6	71	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=43:45
+7	anos	ano	NOUN	NOUN	_	5	appos	_	TokenRange=46:50
+8	reporter	reporter	NOUN	NOUN	_	7	appos	_	TokenRange=51:59
+9	passou	passar	VERB	VERB	_	4	parataxis	_	TokenRange=60:66
+10	mal	mal	ADV	ADV	_	9	advmod	_	TokenRange=67:70
+11	ultimo	_	ADJ	ADJ	_	12	amod	_	TokenRange=71:77
+12	sabado	_	NOUN	NOUN	_	9	nmod	_	TokenRange=78:84
+13	14	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=85:87
+14	acordo	acordo	NOUN	NOUN	_	9	nsubj	_	TokenRange=88:94
+15	informacoes	informacoe	ADJ	ADJ	_	14	amod	_	TokenRange=95:106
+16	revista	revista	NOUN	NOUN	_	19	nsubj	_	TokenRange=107:114
+17	veja	veja	ADJ	NOUN	_	16	amod	_	TokenRange=115:119
+18	kubrusly	_	NOUN	NOUN	_	19	nsubj	_	TokenRange=120:128
+19	recupera	recuperar	VERB	VERB	_	4	parataxis	_	TokenRange=129:137
+20	bem	bem	ADV	ADV	_	19	advmod	_	TokenRange=138:141
+21	assessoria	assessoria	NOUN	NOUN	_	19	obj	_	TokenRange=142:152
+22	imprensa	imprensa	ADJ	ADJ	_	21	amod	_	TokenRange=153:161
+23	globo	globo	NOUN	NOUN	_	24	nsubj	_	TokenRange=162:167
+24	informou	informar	VERB	VERB	_	19	parataxis	_	TokenRange=168:176
+25	profissional	profissional	NOUN	NOUN	_	27	nsubj	_	TokenRange=177:189
+26	deve	dever	AUX	AUX	_	27	aux	_	TokenRange=190:194
+27	voltar	voltar	VERB	VERB	_	19	parataxis	_	TokenRange=195:201
+28	trabalho	trabalho	NOUN	NOUN	_	27	obj	_	TokenRange=202:210
+29	breve	breve	ADJ	ADJ	_	28	amod	_	TokenRange=211:216
+30	mauricio	_	ADJ	ADJ	_	27	parataxis	_	TokenRange=217:225
+31	71	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=226:228
+32	anos	ano	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No|TokenRange=229:233
+

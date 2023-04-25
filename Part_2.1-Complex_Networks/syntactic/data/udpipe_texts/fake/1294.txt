@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = coreia norte lanca missil balistico avisa havera outros durante fim semana
+1	coreia	coreia	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	norte	norte	ADJ	ADJ	_	1	amod	_	TokenRange=7:12
+3	lanca	lancar	VERB	VERB	_	0	root	_	TokenRange=13:18
+4	missil	missil	NOUN	NOUN	_	3	obj	_	TokenRange=19:25
+5	balistico	balistico	ADJ	ADJ	_	4	amod	_	TokenRange=26:35
+6	avisa	avisar	VERB	VERB	_	3	parataxis	_	TokenRange=36:41
+7	havera	haver	VERB	VERB	_	6	ccomp	_	TokenRange=42:48
+8	outros	_	PRON	PRON	_	7	obj	_	TokenRange=49:55
+9	durante	_	ADP	ADP	_	10	case	_	TokenRange=56:63
+10	fim	fim	NOUN	NOUN	_	7	nmod	_	TokenRange=64:67
+11	semana	semana	NOUN	NOUN	_	10	flat	_	SpaceAfter=No|TokenRange=68:74
+

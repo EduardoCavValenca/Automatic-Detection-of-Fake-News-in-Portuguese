@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = obama promete ajuda fundacao expansao projetos jovens lideres brasileiros encontro paulo 11 jovens brasileiros tarde desta quintafeira 5 expresidente americano ouviu iniciativas prometeu ajuda disse busca parcerias fundacoes universidades barack obama pessoa extremamente humana extremamente doce escuta pessoas afirmou g1 tabata amaral pontes 23 anos momentos apos encontralo pessoalmente primeira vez tarde desta quintafeira 5 paulo exaluna escola publica paulo formou ciencias politicas astrofisica universidade harvard hoje trabalha projetos educacao multinacional 11 jovens brasileiros convidados encontro expresidente americano conversa obama fez questao escutar jovens antes oferecer contribuicoes
+1	obama	obama	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	promete	prometer	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	ajuda	ajuda	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	fundacao	fundacao	ADJ	ADJ	_	3	amod	_	TokenRange=20:28
+5	expansao	expansao	NOUN	NOUN	_	6	amod	_	TokenRange=29:37
+6	projetos	projeto	NOUN	NOUN	_	3	appos	_	TokenRange=38:46
+7	jovens	jovem	ADJ	ADJ	_	8	amod	_	TokenRange=47:53
+8	lideres	lider	NOUN	NOUN	_	6	appos	_	TokenRange=54:61
+9	brasileiros	brasileiro	ADJ	ADJ	_	8	amod	_	TokenRange=62:73
+10	encontro	encontro	NOUN	NOUN	_	2	obj	_	TokenRange=74:82
+11	paulo	paulo	NOUN	NOUN	_	10	flat	_	TokenRange=83:88
+12	11	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=89:91
+13	jovens	jovem	NOUN	NOUN	_	10	appos	_	TokenRange=92:98
+14	brasileiros	brasileiro	ADJ	ADJ	_	13	amod	_	TokenRange=99:110
+15	tarde	tarde	NOUN	NOUN	_	21	advmod	_	TokenRange=111:116
+16	desta	_	ADP	ADP	_	17	case	_	TokenRange=117:122
+17	quintafeira	quintafeira	NOUN	NOUN	_	15	nmod	_	TokenRange=123:134
+18	5	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=135:136
+19	expresidente	expresidente	NOUN	NOUN	_	17	appos	_	TokenRange=137:149
+20	americano	americano	ADJ	ADJ	_	19	amod	_	TokenRange=150:159
+21	ouviu	ouvir	VERB	VERB	_	2	parataxis	_	TokenRange=160:165
+22	iniciativas	iniciativa	NOUN	NOUN	_	21	obj	_	TokenRange=166:177
+23	prometeu	prometer	VERB	VERB	_	21	parataxis	_	TokenRange=178:186
+24	ajuda	ajuda	NOUN	NOUN	_	23	obj	_	TokenRange=187:192
+25	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=193:198
+26	busca	busca	NOUN	NOUN	_	21	obj	_	TokenRange=199:204
+27	parcerias	parceria	NOUN	NOUN	_	26	flat	_	TokenRange=205:214
+28	fundacoes	_	ADJ	NOUN	_	26	amod	_	TokenRange=215:224
+29	universidades	universidade	NOUN	NOUN	_	26	appos	_	TokenRange=225:238
+30	barack	_	NOUN	NOUN	_	29	appos	_	TokenRange=239:245
+31	obama	_	NOUN	NOUN	_	30	flat	_	TokenRange=246:251
+32	pessoa	pessoa	NOUN	NOUN	_	30	appos	_	TokenRange=252:258
+33	extremamente	extremamente	ADV	ADV	_	34	advmod	_	TokenRange=259:271
+34	humana	humano	ADJ	ADJ	_	32	amod	_	TokenRange=272:278
+35	extremamente	extremamente	ADV	ADV	_	36	advmod	_	TokenRange=279:291
+36	doce	doce	ADJ	ADJ	_	32	amod	_	TokenRange=292:296
+37	escuta	escutar	VERB	VERB	_	2	parataxis	_	TokenRange=297:303
+38	pessoas	pessoa	NOUN	NOUN	_	37	obj	_	TokenRange=304:311
+39	afirmou	afirmar	VERB	VERB	_	37	parataxis	_	TokenRange=312:319
+40	g1	g1	NOUN	NOUN	_	39	obj	_	TokenRange=320:322
+41	tabata	tabata	NOUN	NOUN	_	40	appos	_	TokenRange=323:329
+42	amaral	amaral	ADJ	ADJ	_	41	amod	_	TokenRange=330:336
+43	pontes	ponte	NOUN	NOUN	_	41	flat	_	TokenRange=337:343
+44	23	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=344:346
+45	anos	ano	NOUN	NOUN	_	41	appos	_	TokenRange=347:351
+46	momentos	momento	NOUN	NOUN	_	41	appos	_	TokenRange=352:360
+47	apos	_	ADP	ADP	_	48	mark	_	TokenRange=361:365
+48	encontralo	encontralo	VERB	VERB	_	39	advcl	_	TokenRange=366:376
+49	pessoalmente	pessoalmente	ADV	ADV	_	48	advmod	_	TokenRange=377:389
+50	primeira	primeiro	ADJ	ADJ	_	51	amod	_	TokenRange=390:398
+51	vez	vez	NOUN	NOUN	_	48	nmod	_	TokenRange=399:402
+52	tarde	tarde	NOUN	NOUN	_	39	advmod	_	TokenRange=403:408
+53	desta	_	ADP	ADP	_	54	case	_	TokenRange=409:414
+54	quintafeira	quintafeira	NOUN	NOUN	_	52	nmod	_	TokenRange=415:426
+55	5	_	NUM	NUM	NumType=Card	54	appos	_	TokenRange=427:428
+56	paulo	paulo	NOUN	NOUN	_	54	appos	_	TokenRange=429:434
+57	exaluna	exaluno	ADJ	ADJ	_	58	amod	_	TokenRange=435:442
+58	escola	escola	NOUN	NOUN	_	68	nsubj	_	TokenRange=443:449
+59	publica	publico	ADJ	ADJ	_	58	amod	_	TokenRange=450:457
+60	paulo	_	NOUN	NOUN	_	58	appos	_	TokenRange=458:463
+61	formou	formar	VERB	VERB	_	58	acl:relcl	_	TokenRange=464:470
+62	ciencias	ciencia	NOUN	NOUN	_	61	obj	_	TokenRange=471:479
+63	politicas	politico	ADJ	ADJ	_	62	amod	_	TokenRange=480:489
+64	astrofisica	_	ADJ	ADJ	_	65	amod	_	TokenRange=490:501
+65	universidade	universidade	NOUN	NOUN	_	61	nsubj	_	TokenRange=502:514
+66	harvard	harvard	ADJ	ADJ	_	65	amod	_	TokenRange=515:522
+67	hoje	hoje	ADV	ADV	_	68	advmod	_	TokenRange=523:527
+68	trabalha	trabalhar	VERB	VERB	_	21	parataxis	_	TokenRange=528:536
+69	projetos	projeto	NOUN	NOUN	_	68	obj	_	TokenRange=537:545
+70	educacao	educacao	NOUN	NOUN	_	69	appos	_	TokenRange=546:554
+71	multinacional	multinacional	ADJ	ADJ	_	73	amod	_	TokenRange=555:568
+72	11	_	NUM	NUM	NumType=Card	73	nummod	_	TokenRange=569:571
+73	jovens	jovem	NOUN	NOUN	_	68	nsubj	_	TokenRange=572:578
+74	brasileiros	brasileiro	ADJ	ADJ	_	73	amod	_	TokenRange=579:590
+75	convidados	convidado	ADJ	ADJ	_	73	amod	_	TokenRange=591:601
+76	encontro	encontro	NOUN	NOUN	_	73	appos	_	TokenRange=602:610
+77	expresidente	expresidente	NOUN	NOUN	_	76	amod	_	TokenRange=611:623
+78	americano	americano	ADJ	ADJ	_	76	amod	_	TokenRange=624:633
+79	conversa	_	NOUN	NOUN	_	76	appos	_	TokenRange=634:642
+80	obama	obama	NOUN	NOUN	_	81	nsubj	_	TokenRange=643:648
+81	fez	fazer	VERB	VERB	_	2	parataxis	_	TokenRange=649:652
+82	questao	questao	NOUN	NOUN	_	81	obj	_	TokenRange=653:660
+83	escutar	escutar	VERB	VERB	_	82	acl:inf	_	TokenRange=661:668
+84	jovens	jovem	NOUN	NOUN	_	83	obj	_	TokenRange=669:675
+85	antes	antes	ADV	ADV	_	86	mark	_	TokenRange=676:681
+86	oferecer	oferecer	VERB	VERB	_	83	advcl	_	TokenRange=682:690
+87	contribuicoes	contribuicoe	NOUN	NOUN	_	86	obj	_	SpaceAfter=No|TokenRange=691:704
+

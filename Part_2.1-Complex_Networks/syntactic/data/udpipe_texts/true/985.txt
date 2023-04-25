@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 2 fase operacao ouro verde cumpre mandados prisao apreende veiculos luxo campinas rio preto campinas exdiretor prefeitura exservidor presos medico preso jose rio preto advogado alvo mandado prisao ainda localizado todos ligacao vitale administrava hospital ouro verde ministerio publico policia militar cumpriram manha desta quintafeira 22 quatro mandados prisao temporaria cinco busca apreensao campinas sp jose rio preto sp acoes fazem parte 2 fase operacao ouro verde batizada caduceu investiga desvio menos r 45 milhoes
+1	2	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:1
+2	fase	fase	NOUN	NOUN	_	6	nsubj	_	TokenRange=2:6
+3	operacao	operacao	ADJ	ADJ	_	2	amod	_	TokenRange=7:15
+4	ouro	ouro	NOUN	NOUN	_	2	appos	_	TokenRange=16:20
+5	verde	verde	ADJ	ADJ	_	4	amod	_	TokenRange=21:26
+6	cumpre	cumprir	VERB	VERB	_	0	root	_	TokenRange=27:33
+7	mandados	mandado	NOUN	NOUN	_	6	obj	_	TokenRange=34:42
+8	prisao	prisao	ADJ	ADJ	_	7	amod	_	TokenRange=43:49
+9	apreende	apreender	VERB	VERB	_	2	acl:relcl	_	TokenRange=50:58
+10	veiculos	veiculo	NOUN	NOUN	_	9	obj	_	TokenRange=59:67
+11	luxo	luxo	NOUN	NOUN	_	10	amod	_	TokenRange=68:72
+12	campinas	campina	NOUN	NOUN	_	10	appos	_	TokenRange=73:81
+13	rio	_	NOUN	NOUN	_	12	appos	_	TokenRange=82:85
+14	preto	preto	ADJ	ADJ	_	15	amod	_	TokenRange=86:91
+15	campinas	campina	NOUN	NOUN	_	10	appos	_	TokenRange=92:100
+16	exdiretor	exdiretor	ADJ	ADJ	_	19	amod	_	TokenRange=101:110
+17	prefeitura	prefeitura	NOUN	NOUN	_	15	appos	_	TokenRange=111:121
+18	exservidor	exservidor	ADJ	ADJ	_	19	amod	_	TokenRange=122:132
+19	presos	preso	NOUN	NOUN	_	17	appos	_	TokenRange=133:139
+20	medico	medico	ADJ	ADJ	_	19	amod	_	TokenRange=140:146
+21	preso	preso	ADJ	ADJ	_	19	amod	_	TokenRange=147:152
+22	jose	jose	NOUN	NOUN	_	19	appos	_	TokenRange=153:157
+23	rio	_	NOUN	NOUN	_	22	flat	_	TokenRange=158:161
+24	preto	preto	ADJ	ADJ	_	23	amod	_	TokenRange=162:167
+25	advogado	advogado	NOUN	NOUN	_	6	parataxis	_	TokenRange=168:176
+26	alvo	alvo	NOUN	NOUN	_	25	appos	_	TokenRange=177:181
+27	mandado	mandado	ADJ	ADJ	_	28	amod	_	TokenRange=182:189
+28	prisao	prisao	NOUN	NOUN	_	25	appos	_	TokenRange=190:196
+29	ainda	ainda	ADV	ADV	_	30	advmod	_	TokenRange=197:202
+30	localizado	localizar	VERB	ADJ	_	28	acl	_	TokenRange=203:213
+31	todos	_	DET	DET	_	32	det	_	TokenRange=214:219
+32	ligacao	ligacao	NOUN	NOUN	_	34	nsubj	_	TokenRange=220:227
+33	vitale	vitale	ADJ	ADJ	_	32	amod	_	TokenRange=228:234
+34	administrava	administrar	VERB	VERB	_	28	parataxis	_	TokenRange=235:247
+35	hospital	hospital	NOUN	NOUN	_	34	obj	_	TokenRange=248:256
+36	ouro	ouro	NOUN	NOUN	_	35	appos	_	TokenRange=257:261
+37	verde	verde	ADJ	ADJ	_	35	amod	_	TokenRange=262:267
+38	ministerio	ministerio	NOUN	NOUN	_	35	appos	_	TokenRange=268:278
+39	publico	publico	ADJ	ADJ	_	38	amod	_	TokenRange=279:286
+40	policia	policia	NOUN	NOUN	_	42	nsubj	_	TokenRange=287:294
+41	militar	militar	ADJ	ADJ	_	40	amod	_	TokenRange=295:302
+42	cumpriram	cumprir	VERB	VERB	_	6	parataxis	_	TokenRange=303:312
+43	manha	manha	NOUN	NOUN	_	42	obj	_	TokenRange=313:318
+44	desta	_	ADP	ADP	_	45	case	_	TokenRange=319:324
+45	quintafeira	quintafeira	NOUN	NOUN	_	43	nmod	_	TokenRange=325:336
+46	22	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=337:339
+47	quatro	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=340:346
+48	mandados	mandado	NOUN	NOUN	_	43	appos	_	TokenRange=347:355
+49	prisao	prisao	NOUN	NOUN	_	48	appos	_	TokenRange=356:362
+50	temporaria	temporaria	ADJ	ADJ	_	48	amod	_	TokenRange=363:373
+51	cinco	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=374:379
+52	busca	busca	NOUN	NOUN	_	48	appos	_	TokenRange=380:385
+53	apreensao	apreensao	NOUN	NOUN	_	52	flat	_	TokenRange=386:395
+54	campinas	campina	NOUN	NOUN	_	52	appos	_	TokenRange=396:404
+55	sp	_	ADJ	ADJ	_	56	amod	_	TokenRange=405:407
+56	jose	jose	NOUN	NOUN	_	52	appos	_	TokenRange=408:412
+57	rio	_	NOUN	NOUN	_	56	flat	_	TokenRange=413:416
+58	preto	preto	ADJ	ADJ	_	56	amod	_	TokenRange=417:422
+59	sp	_	ADJ	ADJ	_	56	amod	_	TokenRange=423:425
+60	acoes	acoe	NOUN	NOUN	_	61	nsubj	_	TokenRange=426:431
+61	fazem	fazer	VERB	VERB	_	42	parataxis	_	TokenRange=432:437
+62	parte	parte	NOUN	NOUN	_	61	obj	_	TokenRange=438:443
+63	2	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=444:445
+64	fase	fase	NOUN	NOUN	_	61	nsubj	_	TokenRange=446:450
+65	operacao	operacao	NOUN	NOUN	_	64	appos	_	TokenRange=451:459
+66	ouro	ouro	NOUN	NOUN	_	65	appos	_	TokenRange=460:464
+67	verde	verde	ADJ	ADJ	_	66	amod	_	TokenRange=465:470
+68	batizada	batizado	ADJ	ADJ	_	66	amod	_	TokenRange=471:479
+69	caduceu	_	NOUN	NOUN	_	65	appos	_	TokenRange=480:487
+70	investiga	investigar	VERB	VERB	_	61	parataxis	_	TokenRange=488:497
+71	desvio	desvio	NOUN	NOUN	_	70	obj	_	TokenRange=498:504
+72	menos	menos	ADV	ADV	_	75	advmod	_	TokenRange=505:510
+73	r	r	NOUN	NOUN	_	71	appos	_	TokenRange=511:512
+74	45	_	NUM	NUM	NumType=Card	75	nummod	_	TokenRange=513:515
+75	milhoes	_	NUM	NUM	NumType=Card	73	nummod	_	SpaceAfter=No|TokenRange=516:523
+

@@ -1,0 +1,33 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = site diz nadador americano inventou assalto gandaia mulheres pf cola pf cumpriu manha hoje 17 mandado busca apreensao passaportes nadadores americanos ryan lochte james feigen
+1	site	site	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=5:8
+3	nadador	nadador	NOUN	NOUN	_	2	obj	_	TokenRange=9:16
+4	americano	americano	ADJ	ADJ	_	3	amod	_	TokenRange=17:26
+5	inventou	inventar	VERB	VERB	_	2	ccomp	_	TokenRange=27:35
+6	assalto	assalto	NOUN	NOUN	_	5	obj	_	TokenRange=36:43
+7	gandaia	gandaia	NOUN	NOUN	_	6	appos	_	TokenRange=44:51
+8	mulheres	mulher	NOUN	NOUN	_	6	appos	_	TokenRange=52:60
+9	pf	_	X	NOUN	_	10	appos	_	TokenRange=61:63
+10	cola	_	NOUN	NOUN	_	8	appos	_	TokenRange=64:68
+11	pf	_	NOUN	NOUN	_	10	flat	_	TokenRange=69:71
+12	cumpriu	cumprir	VERB	VERB	_	5	conj	_	TokenRange=72:79
+13	manha	manha	NOUN	NOUN	_	12	obj	_	TokenRange=80:85
+14	hoje	hoje	ADV	ADV	_	12	advmod	_	TokenRange=86:90
+15	17	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=91:93
+16	mandado	mandado	NOUN	NOUN	_	17	nsubj	_	TokenRange=94:101
+17	busca	buscar	VERB	VERB	_	2	parataxis	_	TokenRange=102:107
+18	apreensao	apreensao	NOUN	NOUN	_	17	obj	_	TokenRange=108:117
+19	passaportes	passaporte	ADJ	NOUN	_	20	amod	_	TokenRange=118:129
+20	nadadores	nadador	NOUN	NOUN	_	17	obj	_	TokenRange=130:139
+21	americanos	americano	ADJ	ADJ	_	20	amod	_	TokenRange=140:150
+22	ryan	_	NOUN	NOUN	_	20	appos	_	TokenRange=151:155
+23	lochte	_	NOUN	NOUN	_	22	flat	_	TokenRange=156:162
+24	james	_	NOUN	NOUN	_	22	appos	_	TokenRange=163:168
+25	feigen	_	NOUN	NOUN	_	24	flat	_	SpaceAfter=No|TokenRange=169:175
+

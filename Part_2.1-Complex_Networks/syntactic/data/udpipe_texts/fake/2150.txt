@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = angelina jolie pediu divorcio brad pitt devido uso abusivo alcool ervas parte ator site tmz publicou hoje 20 angelina jolie pedido divorcio ator brad pitt acordo tmz angelina pediu separacao devido abuso substancias toxicas brad pitt jolie exausta excesso alcool ervas parte ator atriz acreditou marido tornado presenca perigosa filhos brad angelina casaramse oficialmente 2014 pais seis criancas fontes informaram atriz pediu guarda todos filhos
+1	angelina	angelino	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	jolie	_	NOUN	NOUN	_	1	flat	_	TokenRange=9:14
+3	pediu	pedir	VERB	VERB	_	0	root	_	TokenRange=15:20
+4	divorcio	divorcio	NOUN	NOUN	_	3	obj	_	TokenRange=21:29
+5	brad	_	NOUN	NOUN	_	4	appos	_	TokenRange=30:34
+6	pitt	_	NOUN	NOUN	_	5	flat	_	TokenRange=35:39
+7	devido	dever	VERB	VERB	_	8	case	_	TokenRange=40:46
+8	uso	uso	NOUN	NOUN	_	3	nmod	_	TokenRange=47:50
+9	abusivo	abusivo	ADJ	ADJ	_	8	amod	_	TokenRange=51:58
+10	alcool	alcool	NOUN	NOUN	_	8	appos	_	TokenRange=59:65
+11	ervas	erva	ADJ	ADJ	_	12	amod	_	TokenRange=66:71
+12	parte	parte	NOUN	NOUN	_	8	appos	_	TokenRange=72:77
+13	ator	ator	NOUN	NOUN	_	12	flat	_	TokenRange=78:82
+14	site	site	NOUN	NOUN	_	16	nsubj	_	TokenRange=83:87
+15	tmz	_	NOUN	NOUN	_	14	appos	_	TokenRange=88:91
+16	publicou	publicar	VERB	VERB	_	3	parataxis	_	TokenRange=92:100
+17	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=101:105
+18	20	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=106:108
+19	angelina	_	NOUN	NOUN	_	16	obj	_	TokenRange=109:117
+20	jolie	_	NOUN	NOUN	_	19	flat	_	TokenRange=118:123
+21	pedido	pedir	VERB	VERB	_	19	acl	_	TokenRange=124:130
+22	divorcio	divorcio	NOUN	NOUN	_	21	obj	_	TokenRange=131:139
+23	ator	ator	NOUN	NOUN	_	22	appos	_	TokenRange=140:144
+24	brad	_	NOUN	NOUN	_	22	appos	_	TokenRange=145:149
+25	pitt	_	NOUN	NOUN	_	24	flat	_	TokenRange=150:154
+26	acordo	acordo	NOUN	NOUN	_	29	nsubj	_	TokenRange=155:161
+27	tmz	tmz	NOUN	NOUN	_	26	appos	_	TokenRange=162:165
+28	angelina	angelino	NOUN	NOUN	_	26	amod	_	TokenRange=166:174
+29	pediu	pedir	VERB	VERB	_	3	parataxis	_	TokenRange=175:180
+30	separacao	separacao	NOUN	NOUN	_	29	obj	_	TokenRange=181:190
+31	devido	dever	VERB	VERB	_	33	case	_	TokenRange=191:197
+32	abuso	abuso	NOUN	NOUN	_	29	nmod	_	TokenRange=198:203
+33	substancias	substancia	NOUN	NOUN	_	29	nmod	_	TokenRange=204:215
+34	toxicas	toxico	ADJ	ADJ	_	33	amod	_	TokenRange=216:223
+35	brad	_	NOUN	NOUN	_	33	appos	_	TokenRange=224:228
+36	pitt	_	NOUN	NOUN	_	33	appos	_	TokenRange=229:233
+37	jolie	_	NOUN	NOUN	_	36	flat	_	TokenRange=234:239
+38	exausta	exausto	ADJ	ADJ	_	39	amod	_	TokenRange=240:247
+39	excesso	excesso	NOUN	NOUN	_	45	obj	_	TokenRange=248:255
+40	alcool	alcool	NOUN	NOUN	_	39	appos	_	TokenRange=256:262
+41	ervas	erva	ADJ	ADJ	_	42	amod	_	TokenRange=263:268
+42	parte	parte	NOUN	NOUN	_	45	nsubj	_	TokenRange=269:274
+43	ator	ator	NOUN	NOUN	_	42	flat	_	TokenRange=275:279
+44	atriz	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=280:285
+45	acreditou	acreditar	VERB	VERB	_	3	parataxis	_	TokenRange=286:295
+46	marido	marido	NOUN	NOUN	_	45	obj	_	TokenRange=296:302
+47	tornado	tornado	ADJ	ADJ	_	48	amod	_	TokenRange=303:310
+48	presenca	presenca	NOUN	NOUN	_	46	appos	_	TokenRange=311:319
+49	perigosa	perigoso	ADJ	ADJ	_	48	amod	_	TokenRange=320:328
+50	filhos	filho	NOUN	NOUN	_	45	obj	_	TokenRange=329:335
+51	brad	_	NOUN	NOUN	_	50	appos	_	TokenRange=336:340
+52	angelina	_	NOUN	NOUN	_	50	flat	_	TokenRange=341:349
+53	casaramse	casarar	VERB	VERB	_	45	parataxis	_	TokenRange=350:359
+54	oficialmente	oficialmente	ADV	ADV	_	53	advmod	_	TokenRange=360:372
+55	2014	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=373:377
+56	pais	_	NOUN	NOUN	_	60	nsubj	_	TokenRange=378:382
+57	seis	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=383:387
+58	criancas	crianca	NOUN	NOUN	_	56	appos	_	TokenRange=388:396
+59	fontes	fonte	NOUN	NOUN	_	56	appos	_	TokenRange=397:403
+60	informaram	informar	VERB	VERB	_	53	parataxis	_	TokenRange=404:414
+61	atriz	_	NOUN	NOUN	_	60	obj	_	TokenRange=415:420
+62	pediu	pedir	VERB	VERB	_	60	ccomp	_	TokenRange=421:426
+63	guarda	guarda	NOUN	NOUN	_	62	obj	_	TokenRange=427:433
+64	todos	_	DET	DET	_	65	det	_	TokenRange=434:439
+65	filhos	filho	NOUN	NOUN	_	63	obj	_	SpaceAfter=No|TokenRange=440:446
+

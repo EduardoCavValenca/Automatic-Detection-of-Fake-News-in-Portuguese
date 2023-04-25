@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja pontoschave decisao moro sobre recurso lula defesa expresidente apresentou embargos declaracao contra sentenca condenou lula corrupcao passiva lavagem dinheiro recurso negado juiz sergio moro negou nesta tercafeira 18 primeiro recurso defesa expresidente luiz inacio lula silva contra sentenca condenou 9 anos 6 meses prisao corrupcao passiva lavagem dinheiro processo apura triplex guaruja litoral paulo propina paga oas lula meio contratos petrobras defesa ainda pode apresentar apelacao recurso vai analisado trf
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	pontoschave	_	NOUN	NOUN	_	1	obj	_	TokenRange=5:16
+3	decisao	decisao	NOUN	NOUN	_	1	nsubj	_	TokenRange=17:24
+4	moro	moro	NOUN	NOUN	_	3	flat	_	TokenRange=25:29
+5	sobre	_	ADP	ADP	_	6	case	_	TokenRange=30:35
+6	recurso	recurso	NOUN	NOUN	_	3	nmod	_	TokenRange=36:43
+7	lula	lulo	ADJ	ADJ	_	6	amod	_	TokenRange=44:48
+8	defesa	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=49:55
+9	expresidente	expresidente	NOUN	NOUN	_	10	nsubj	_	TokenRange=56:68
+10	apresentou	apresentar	VERB	VERB	_	1	ccomp	_	TokenRange=69:79
+11	embargos	embargo	NOUN	NOUN	_	10	obj	_	TokenRange=80:88
+12	declaracao	declaracao	NOUN	NOUN	_	11	appos	_	TokenRange=89:99
+13	contra	_	ADP	ADP	_	14	case	_	TokenRange=100:106
+14	sentenca	_	NOUN	NOUN	_	15	nmod	_	TokenRange=107:115
+15	condenou	condenar	VERB	VERB	_	10	parataxis	_	TokenRange=116:124
+16	lula	_	NOUN	NOUN	_	15	obj	_	TokenRange=125:129
+17	corrupcao	corrupcao	NOUN	NOUN	_	15	obj	_	TokenRange=130:139
+18	passiva	passivo	ADJ	ADJ	_	19	amod	_	TokenRange=140:147
+19	lavagem	lavagem	NOUN	NOUN	_	15	obj	_	TokenRange=148:155
+20	dinheiro	dinheiro	ADJ	ADJ	_	19	amod	_	TokenRange=156:164
+21	recurso	recurso	NOUN	NOUN	_	15	obj	_	TokenRange=165:172
+22	negado	negado	ADJ	ADJ	_	21	amod	_	TokenRange=173:179
+23	juiz	juiz	NOUN	NOUN	_	26	nsubj	_	TokenRange=180:184
+24	sergio	sergio	ADJ	ADJ	_	23	amod	_	TokenRange=185:191
+25	moro	moro	NOUN	NOUN	_	23	amod	_	TokenRange=192:196
+26	negou	negar	VERB	VERB	_	1	conj	_	TokenRange=197:202
+27	nesta	_	ADP	ADP	_	28	case	_	TokenRange=203:208
+28	tercafeira	_	NOUN	NOUN	_	26	nmod	_	TokenRange=209:219
+29	18	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=220:222
+30	primeiro	primeiro	ADJ	ADJ	_	31	amod	_	TokenRange=223:231
+31	recurso	recurso	NOUN	NOUN	_	26	obj	_	TokenRange=232:239
+32	defesa	_	ADJ	ADJ	_	31	amod	_	TokenRange=240:246
+33	expresidente	expresidente	NOUN	NOUN	_	40	nsubj	_	TokenRange=247:259
+34	luiz	luiz	ADJ	NOUN	_	33	appos	_	TokenRange=260:264
+35	inacio	_	NOUN	NOUN	_	34	flat	_	TokenRange=265:271
+36	lula	_	NOUN	NOUN	_	34	flat	_	TokenRange=272:276
+37	silva	silva	NOUN	NOUN	_	34	flat	_	TokenRange=277:282
+38	contra	_	ADP	ADP	_	39	case	_	TokenRange=283:289
+39	sentenca	_	NOUN	NOUN	_	40	nmod	_	TokenRange=290:298
+40	condenou	condenar	VERB	VERB	_	26	parataxis	_	TokenRange=299:307
+41	9	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=308:309
+42	anos	ano	NOUN	NOUN	_	40	obj	_	TokenRange=310:314
+43	6	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=315:316
+44	meses	mês	NOUN	NOUN	_	40	nmod	_	TokenRange=317:322
+45	prisao	prisao	NOUN	NOUN	_	40	obj	_	TokenRange=323:329
+46	corrupcao	corrupcao	ADJ	NOUN	_	45	amod	_	TokenRange=330:339
+47	passiva	passivo	ADJ	ADJ	_	48	amod	_	TokenRange=340:347
+48	lavagem	lavagem	NOUN	NOUN	_	40	nsubj	_	TokenRange=348:355
+49	dinheiro	dinheiro	ADJ	ADJ	_	48	amod	_	TokenRange=356:364
+50	processo	processo	NOUN	NOUN	_	51	nsubj	_	TokenRange=365:373
+51	apura	apurar	VERB	VERB	_	40	parataxis	_	TokenRange=374:379
+52	triplex	_	NOUN	NOUN	_	51	obj	_	TokenRange=380:387
+53	guaruja	guaruja	NOUN	NOUN	_	52	flat	_	TokenRange=388:395
+54	litoral	litoral	ADJ	ADJ	_	53	amod	_	TokenRange=396:403
+55	paulo	paulo	NOUN	NOUN	_	52	appos	_	TokenRange=404:409
+56	propina	propina	NOUN	NOUN	_	55	flat	_	TokenRange=410:417
+57	paga	pagar	VERB	VERB	_	52	conj	_	TokenRange=418:422
+58	oas	_	CCONJ	CONJ	_	57	nsubj	_	TokenRange=423:426
+59	lula	_	NOUN	NOUN	_	66	nsubj	_	TokenRange=427:431
+60	meio	meio	ADJ	ADJ	_	61	amod	_	TokenRange=432:436
+61	contratos	contrato	NOUN	NOUN	_	66	obj	_	TokenRange=437:446
+62	petrobras	petrobra	ADJ	ADJ	_	61	amod	_	TokenRange=447:456
+63	defesa	_	NOUN	NOUN	_	66	nsubj	_	TokenRange=457:463
+64	ainda	ainda	ADV	ADV	_	66	advmod	_	TokenRange=464:469
+65	pode	_	AUX	AUX	_	70	aux	_	TokenRange=470:474
+66	apresentar	apresentar	VERB	VERB	_	51	conj	_	TokenRange=475:485
+67	apelacao	apelacao	NOUN	NOUN	_	70	obj	_	TokenRange=486:494
+68	recurso	recurso	NOUN	NOUN	_	70	nsubj:pass	_	TokenRange=495:502
+69	vai	ir	AUX	AUX	_	70	aux	_	TokenRange=503:506
+70	analisado	analisar	VERB	VERB	_	51	parataxis	_	TokenRange=507:516
+71	trf	_	NOUN	NOUN	_	70	nmod	_	SpaceAfter=No|TokenRange=517:520
+

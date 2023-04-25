@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = algoritmos rede sociais promovem preconceito desigualdade diz matematica harvard pesquisadora americana defende algoritmos regulam redes sociais mercados vies universidades devem monitorar atuacao empresas tecnologia toda parte formularios preenchemos vagas emprego analises risco submetidos contratos bancos seguradoras servicos solicitamos smartphones propagandas noticias personalizadas abarrotam redes sociais aprofundando fosso
+1	algoritmos	algoritmo	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	rede	rede	NOUN	NOUN	_	1	appos	_	TokenRange=11:15
+3	sociais	social	ADJ	ADJ	_	2	amod	_	TokenRange=16:23
+4	promovem	promover	VERB	VERB	_	0	root	_	TokenRange=24:32
+5	preconceito	preconceito	NOUN	NOUN	_	4	obj	_	TokenRange=33:44
+6	desigualdade	desigualdade	NOUN	NOUN	_	5	amod	_	TokenRange=45:57
+7	diz	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=58:61
+8	matematica	_	NOUN	NOUN	_	7	obj	_	TokenRange=62:72
+9	harvard	_	NOUN	NOUN	_	12	nsubj	_	TokenRange=73:80
+10	pesquisadora	pesquisador	NOUN	NOUN	_	12	nsubj	_	TokenRange=81:93
+11	americana	americano	ADJ	ADJ	_	10	amod	_	TokenRange=94:103
+12	defende	defender	VERB	VERB	_	4	parataxis	_	TokenRange=104:111
+13	algoritmos	algoritmo	NOUN	NOUN	_	14	obj	_	TokenRange=112:122
+14	regulam	regular	VERB	VERB	_	12	ccomp	_	TokenRange=123:130
+15	redes	rede	NOUN	NOUN	_	14	obj	_	TokenRange=131:136
+16	sociais	social	ADJ	ADJ	_	15	amod	_	TokenRange=137:144
+17	mercados	mercado	NOUN	NOUN	_	14	nsubj	_	TokenRange=145:153
+18	vies	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=154:158
+19	universidades	universidade	NOUN	NOUN	_	21	nsubj	_	TokenRange=159:172
+20	devem	_	AUX	AUX	_	21	aux	_	TokenRange=173:178
+21	monitorar	_	VERB	VERB	_	14	parataxis	_	TokenRange=179:188
+22	atuacao	_	NOUN	NOUN	_	21	obj	_	TokenRange=189:196
+23	empresas	empresa	NOUN	NOUN	_	21	obj	_	TokenRange=197:205
+24	tecnologia	tecnologia	NOUN	NOUN	_	23	flat	_	TokenRange=206:216
+25	toda	_	DET	DET	_	26	det	_	TokenRange=217:221
+26	parte	parte	NOUN	NOUN	_	21	nsubj	_	TokenRange=222:227
+27	formularios	formulario	NOUN	NOUN	_	26	amod	_	TokenRange=228:239
+28	preenchemos	preencher	VERB	VERB	_	21	parataxis	_	TokenRange=240:251
+29	vagas	vaga	NOUN	NOUN	_	28	obj	_	TokenRange=252:257
+30	emprego	emprego	NOUN	NOUN	_	29	appos	_	TokenRange=258:265
+31	analises	analise	NOUN	NOUN	_	29	amod	_	TokenRange=266:274
+32	risco	risco	NOUN	NOUN	_	30	appos	_	TokenRange=275:280
+33	submetidos	submeter	ADJ	ADJ	_	34	amod	_	TokenRange=281:291
+34	contratos	contrato	NOUN	NOUN	_	31	amod	_	TokenRange=292:301
+35	bancos	banco	NOUN	NOUN	_	34	appos	_	TokenRange=302:308
+36	seguradoras	segurador	ADJ	ADJ	_	35	amod	_	TokenRange=309:320
+37	servicos	servico	ADJ	ADJ	_	35	amod	_	TokenRange=321:329
+38	solicitamos	solicitar	VERB	VERB	_	28	parataxis	_	TokenRange=330:341
+39	smartphones	_	NOUN	NOUN	_	38	obj	_	TokenRange=342:353
+40	propagandas	propaganda	NOUN	NOUN	_	41	amod	_	TokenRange=354:365
+41	noticias	noticia	NOUN	NOUN	_	43	nsubj	_	TokenRange=366:374
+42	personalizadas	personalizado	ADJ	ADJ	_	41	amod	_	TokenRange=375:389
+43	abarrotam	abarrotar	VERB	VERB	_	38	parataxis	_	TokenRange=390:399
+44	redes	rede	NOUN	NOUN	_	43	obj	_	TokenRange=400:405
+45	sociais	social	ADJ	ADJ	_	44	amod	_	TokenRange=406:413
+46	aprofundando	aprofundar	VERB	VERB	_	43	acl	_	TokenRange=414:426
+47	fosso	_	NOUN	NOUN	_	46	obj	_	SpaceAfter=No|TokenRange=427:432
+

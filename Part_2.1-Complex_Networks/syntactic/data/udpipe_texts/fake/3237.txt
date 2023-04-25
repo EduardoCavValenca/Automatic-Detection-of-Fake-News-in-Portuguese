@@ -1,0 +1,17 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mente lula estadao pode alguem levar mudanca sitio outros
+1	mente	mente	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	lula	lula	NOUN	NOUN	_	1	amod	_	TokenRange=6:10
+3	estadao	estadao	NOUN	NOUN	_	1	appos	_	TokenRange=11:18
+4	pode	_	AUX	AUX	_	5	aux	_	TokenRange=19:23
+5	alguem	_	PRON	PRON	_	0	root	_	TokenRange=24:30
+6	levar	levar	VERB	VERB	_	5	xcomp	_	TokenRange=31:36
+7	mudanca	mudanca	NOUN	NOUN	_	6	obj	_	TokenRange=37:44
+8	sitio	_	ADP	ADP	_	9	case	_	TokenRange=45:50
+9	outros	_	PRON	PRON	_	6	iobj	_	SpaceAfter=No|TokenRange=51:57
+

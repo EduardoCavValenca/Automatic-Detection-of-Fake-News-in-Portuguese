@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornal ingles apavora mundo diz apocalipse podera acontecer breve titulo c ristaos preveem mundo vai terminar neste fim semana texto mistura politica religiao diz presidente eleito donald trump responsavel desgraca mundial abaixo texto the sun leia
+1	jornal	jornal	NOUN	NOUN	_	36	nsubj	_	TokenRange=0:6
+2	ingles	ingle	ADJ	ADJ	_	1	amod	_	TokenRange=7:13
+3	apavora	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=14:21
+4	mundo	mundo	NOUN	NOUN	_	5	nsubj	_	TokenRange=22:27
+5	diz	dizer	VERB	VERB	_	1	acl:relcl	_	TokenRange=28:31
+6	apocalipse	apocalipse	NOUN	NOUN	_	5	obj	_	TokenRange=32:42
+7	podera	_	AUX	AUX	_	8	aux	_	TokenRange=43:49
+8	acontecer	acontecer	VERB	VERB	_	5	ccomp	_	TokenRange=50:59
+9	breve	breve	ADJ	ADJ	_	10	amod	_	TokenRange=60:65
+10	titulo	titulo	NOUN	NOUN	_	8	nsubj	_	TokenRange=66:72
+11	c	_	ADP	ADP	_	12	case	_	TokenRange=73:74
+12	ristaos	ristao	NOUN	NOUN	_	13	nsubj	_	TokenRange=75:82
+13	preveem	prever	VERB	VERB	_	10	acl:relcl	_	TokenRange=83:90
+14	mundo	mundo	NOUN	NOUN	_	16	nsubj	_	TokenRange=91:96
+15	vai	ir	AUX	AUX	_	16	aux	_	TokenRange=97:100
+16	terminar	terminar	VERB	VERB	_	13	conj	_	TokenRange=101:109
+17	neste	_	ADP	ADP	_	18	case	_	TokenRange=110:115
+18	fim	fim	NOUN	NOUN	_	16	nmod	_	TokenRange=116:119
+19	semana	semana	NOUN	NOUN	_	18	nmod	_	TokenRange=120:126
+20	texto	texto	NOUN	NOUN	_	24	nsubj	_	TokenRange=127:132
+21	mistura	mistura	NOUN	NOUN	_	24	nsubj	_	TokenRange=133:140
+22	politica	politico	ADJ	ADJ	_	21	amod	_	TokenRange=141:149
+23	religiao	religiao	NOUN	NOUN	_	21	appos	_	TokenRange=150:158
+24	diz	dizer	VERB	VERB	_	16	parataxis	_	TokenRange=159:162
+25	presidente	presidente	NOUN	NOUN	_	24	obj	_	TokenRange=163:173
+26	eleito	eleito	ADJ	ADJ	_	25	amod	_	TokenRange=174:180
+27	donald	donald	NOUN	NOUN	_	25	appos	_	TokenRange=181:187
+28	trump	_	NOUN	NOUN	_	27	flat	_	TokenRange=188:193
+29	responsavel	responsavel	ADJ	ADJ	_	30	amod	_	TokenRange=194:205
+30	desgraca	desgraca	NOUN	NOUN	_	25	appos	_	TokenRange=206:214
+31	mundial	mundial	ADJ	ADJ	_	30	amod	_	TokenRange=215:222
+32	abaixo	abaixo	ADV	ADV	_	36	advmod	_	TokenRange=223:229
+33	texto	texto	NOUN	NOUN	_	36	obj	_	TokenRange=230:235
+34	the	_	DET	DET	_	35	det	_	TokenRange=236:239
+35	sun	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=240:243
+36	leia	ler	VERB	VERB	_	0	root	_	SpaceAfter=No|TokenRange=244:248
+

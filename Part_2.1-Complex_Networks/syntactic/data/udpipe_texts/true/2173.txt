@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = relator operacao lava jato tribunal regional eleitoral 4 regiao desembargador joao pedro gebran neto comecou ler voto julgamento expresidente lula volta 10h30 desta quartafeira 24 3 0 contra lula 2 1 lulaentenda cada placar possivel julgamento entenda cenarios lula apos julgamento tribunal lava jato lula pode preso especialistas respondem triplex alvo promotoria mpf toda investigacao artigo lula deve julgado acordo lei isonomia julgadores lula procuradores atuam 2 instancia dentro triplex veja fotos imovel veja
+1	relator	relator	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:7
+2	operacao	operacao	NOUN	ADJ	_	1	amod	_	TokenRange=8:16
+3	lava	lava	NOUN	NOUN	_	1	appos	_	TokenRange=17:21
+4	jato	jato	NOUN	NOUN	_	5	amod	_	TokenRange=22:26
+5	tribunal	tribunal	NOUN	NOUN	_	1	appos	_	TokenRange=27:35
+6	regional	regional	ADJ	ADJ	_	5	amod	_	TokenRange=36:44
+7	eleitoral	eleitoral	ADJ	ADJ	_	5	amod	_	TokenRange=45:54
+8	4	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=55:56
+9	regiao	regiao	NOUN	NOUN	_	5	appos	_	TokenRange=57:63
+10	desembargador	desembargador	NOUN	NOUN	_	9	amod	_	TokenRange=64:77
+11	joao	joao	ADJ	ADJ	_	9	appos	_	TokenRange=78:82
+12	pedro	pedro	NOUN	NOUN	_	11	flat	_	TokenRange=83:88
+13	gebran	_	NOUN	NOUN	_	11	flat	_	TokenRange=89:95
+14	neto	neto	ADJ	NOUN	_	11	flat	_	TokenRange=96:100
+15	comecou	comecar	VERB	VERB	_	0	root	_	TokenRange=101:108
+16	ler	ler	VERB	VERB	_	15	xcomp	_	TokenRange=109:112
+17	voto	voto	NOUN	NOUN	_	16	obj	_	TokenRange=113:117
+18	julgamento	julgamento	NOUN	NOUN	_	17	appos	_	TokenRange=118:128
+19	expresidente	expresidente	NOUN	NOUN	_	17	appos	_	TokenRange=129:141
+20	lula	lula	NOUN	NOUN	_	19	appos	_	TokenRange=142:146
+21	volta	volta	NOUN	NOUN	_	19	appos	_	TokenRange=147:152
+22	10h30	_	NUM	NUM	NumType=Card	21	appos	_	TokenRange=153:158
+23	desta	_	ADP	ADP	_	24	case	_	TokenRange=159:164
+24	quartafeira	_	NOUN	NOUN	_	22	nmod	_	TokenRange=165:176
+25	24	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=177:179
+26	3	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=180:181
+27	0	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=182:183
+28	contra	_	ADP	ADP	_	29	case	_	TokenRange=184:190
+29	lula	_	NOUN	NOUN	_	32	nmod	_	TokenRange=191:195
+30	2	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=196:197
+31	1	_	NUM	NUM	NumType=Card	29	appos	_	TokenRange=198:199
+32	lulaentenda	_	VERB	VERB	_	15	parataxis	_	TokenRange=200:211
+33	cada	_	DET	DET	_	34	det	_	TokenRange=212:216
+34	placar	placar	NOUN	NOUN	_	32	obj	_	TokenRange=217:223
+35	possivel	possivel	ADJ	ADJ	_	34	amod	_	TokenRange=224:232
+36	julgamento	julgamento	NOUN	NOUN	_	32	nsubj	_	TokenRange=233:243
+37	entenda	entender	VERB	VERB	_	32	parataxis	_	TokenRange=244:251
+38	cenarios	cenario	NOUN	NOUN	_	37	obj	_	TokenRange=252:260
+39	lula	_	NOUN	NOUN	_	38	appos	_	TokenRange=261:265
+40	apos	_	ADP	ADP	_	41	case	_	TokenRange=266:270
+41	julgamento	julgamento	NOUN	NOUN	_	37	nmod	_	TokenRange=271:281
+42	tribunal	tribunal	NOUN	NOUN	_	41	appos	_	TokenRange=282:290
+43	lava	lava	NOUN	NOUN	_	41	amod	_	TokenRange=291:295
+44	jato	jato	NOUN	NOUN	_	43	flat	_	TokenRange=296:300
+45	lula	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=301:305
+46	pode	_	AUX	AUX	_	47	aux	_	TokenRange=306:310
+47	preso	_	VERB	VERB	_	41	acl:relcl	_	TokenRange=311:316
+48	especialistas	especialista	NOUN	NOUN	_	49	nsubj	_	TokenRange=317:330
+49	respondem	responder	VERB	VERB	_	47	parataxis	_	TokenRange=331:340
+50	triplex	_	NOUN	NOUN	_	49	obj	_	TokenRange=341:348
+51	alvo	alvo	NOUN	NOUN	_	50	flat	_	TokenRange=349:353
+52	promotoria	promotoria	NOUN	NOUN	_	50	flat	_	TokenRange=354:364
+53	mpf	_	NOUN	NOUN	_	50	flat	_	TokenRange=365:368
+54	toda	_	DET	DET	_	55	det	_	TokenRange=369:373
+55	investigacao	investigacao	NOUN	NOUN	_	49	nsubj	_	TokenRange=374:386
+56	artigo	artigo	NOUN	NOUN	_	59	nsubj	_	TokenRange=387:393
+57	lula	_	NOUN	NOUN	_	59	nsubj	_	TokenRange=394:398
+58	deve	dever	AUX	AUX	_	59	aux	_	TokenRange=399:403
+59	julgado	julgar	VERB	VERB	_	50	acl:relcl	_	TokenRange=404:411
+60	acordo	acordo	NOUN	NOUN	_	59	obj	_	TokenRange=412:418
+61	lei	lei	NOUN	NOUN	_	60	flat	_	TokenRange=419:422
+62	isonomia	isonomia	NOUN	NOUN	_	60	flat	_	TokenRange=423:431
+63	julgadores	julgador	NOUN	NOUN	_	60	flat	_	TokenRange=432:442
+64	lula	_	ADJ	ADJ	_	63	amod	_	TokenRange=443:447
+65	procuradores	procurador	NOUN	NOUN	_	66	nsubj	_	TokenRange=448:460
+66	atuam	_	VERB	VERB	_	59	parataxis	_	TokenRange=461:466
+67	2	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=467:468
+68	instancia	instancia	NOUN	NOUN	_	66	nmod	_	TokenRange=469:478
+69	dentro	dentro	ADV	ADV	_	66	advmod	_	TokenRange=479:485
+70	triplex	_	NOUN	NOUN	_	74	nsubj	_	TokenRange=486:493
+71	veja	ver	VERB	VERB	_	66	parataxis	_	TokenRange=494:498
+72	fotos	foto	NOUN	NOUN	_	74	obj	_	TokenRange=499:504
+73	imovel	imovel	ADJ	ADJ	_	72	amod	_	TokenRange=505:511
+74	veja	ver	VERB	VERB	_	71	parataxis	_	SpaceAfter=No|TokenRange=512:516
+

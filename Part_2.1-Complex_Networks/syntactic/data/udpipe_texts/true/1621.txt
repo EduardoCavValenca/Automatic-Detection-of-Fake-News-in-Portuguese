@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exgovernador mt condenado desvio dinheiro publico cursando teologia autoconhecimento silval barbosa pmdb disse iniciado curso distancia autoconhecimento passou quase dois anos preso agora regime domiciliar exgovernador mato grosso silval barbosa pmdb cumpre prisao domiciliar apos dois anos preso sob acusacao liderar organizacao criminosa desviou dinheiro publico cursando teologia distancia universidade biblia paulo condenado 13 anos prisao formacao quadrilha concussao lavagem dinheiro silval disse curso bacharel teologia fazendo carga horaria 2800 horas busca autoconhecimento fazer curso autoconhecimento
+1	exgovernador	exgovernador	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:12
+2	mt	_	NOUN	NOUN	_	1	appos	_	TokenRange=13:15
+3	condenado	condenar	VERB	VERB	_	1	acl	_	TokenRange=16:25
+4	desvio	desvio	NOUN	NOUN	_	3	obj	_	TokenRange=26:32
+5	dinheiro	dinheiro	NOUN	NOUN	_	4	flat	_	TokenRange=33:41
+6	publico	_	ADJ	ADJ	_	5	amod	_	TokenRange=42:49
+7	cursando	cursar	VERB	VERB	_	1	acl	_	TokenRange=50:58
+8	teologia	teologia	NOUN	NOUN	_	7	obj	_	TokenRange=59:67
+9	autoconhecimento	autoconhecimento	NOUN	NOUN	_	8	appos	_	TokenRange=68:84
+10	silval	silval	NOUN	NOUN	_	1	appos	_	TokenRange=85:91
+11	barbosa	barboso	ADJ	ADJ	_	10	amod	_	TokenRange=92:99
+12	pmdb	_	NOUN	NOUN	_	10	appos	_	TokenRange=100:104
+13	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=105:110
+14	iniciado	iniciar	ADJ	ADJ	_	13	xcomp	_	TokenRange=111:119
+15	curso	curso	NOUN	NOUN	_	13	obj	_	TokenRange=120:125
+16	distancia	_	NOUN	NOUN	_	15	appos	_	TokenRange=126:135
+17	autoconhecimento	autoconhecimento	NOUN	NOUN	_	16	flat	_	TokenRange=136:152
+18	passou	passar	VERB	VERB	_	13	parataxis	_	TokenRange=153:159
+19	quase	quase	ADV	ADV	_	20	advmod	_	TokenRange=160:165
+20	dois	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=166:170
+21	anos	ano	NOUN	NOUN	_	18	nmod	_	TokenRange=171:175
+22	preso	_	VERB	VERB	_	18	acl	_	TokenRange=176:181
+23	agora	agora	ADV	ADV	_	32	advmod	_	TokenRange=182:187
+24	regime	regime	NOUN	NOUN	_	18	appos	_	TokenRange=188:194
+25	domiciliar	domiciliar	ADJ	ADJ	_	24	amod	_	TokenRange=195:205
+26	exgovernador	exgovernador	NOUN	NOUN	_	24	amod	_	TokenRange=206:218
+27	mato	mato	NOUN	NOUN	_	24	appos	_	TokenRange=219:223
+28	grosso	grosso	ADJ	ADJ	_	29	amod	_	TokenRange=224:230
+29	silval	silval	ADJ	ADJ	_	32	nsubj	_	TokenRange=231:237
+30	barbosa	barboso	ADJ	ADJ	_	29	amod	_	TokenRange=238:245
+31	pmdb	_	PROPN	NOUN	_	29	appos	_	TokenRange=246:250
+32	cumpre	cumprir	VERB	VERB	_	13	parataxis	_	TokenRange=251:257
+33	prisao	prisao	NOUN	NOUN	_	32	obj	_	TokenRange=258:264
+34	domiciliar	domiciliar	ADJ	ADJ	_	33	amod	_	TokenRange=265:275
+35	apos	_	ADP	ADP	_	37	case	_	TokenRange=276:280
+36	dois	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=281:285
+37	anos	ano	NOUN	NOUN	_	32	nmod	_	TokenRange=286:290
+38	preso	_	VERB	VERB	_	37	acl	_	TokenRange=291:296
+39	sob	_	ADP	ADP	_	40	case	_	TokenRange=297:300
+40	acusacao	acusacao	NOUN	NOUN	_	41	nmod	_	TokenRange=301:309
+41	liderar	liderar	VERB	VERB	_	32	advcl	_	TokenRange=310:317
+42	organizacao	organizacao	NOUN	NOUN	_	41	obj	_	TokenRange=318:329
+43	criminosa	criminoso	ADJ	ADJ	_	42	amod	_	TokenRange=330:339
+44	desviou	desviar	VERB	VERB	_	32	parataxis	_	TokenRange=340:347
+45	dinheiro	dinheiro	NOUN	NOUN	_	44	obj	_	TokenRange=348:356
+46	publico	_	ADJ	ADJ	_	45	amod	_	TokenRange=357:364
+47	cursando	cursar	VERB	VERB	_	44	acl	_	TokenRange=365:373
+48	teologia	teologia	NOUN	NOUN	_	47	obj	_	TokenRange=374:382
+49	distancia	_	ADJ	ADJ	_	50	amod	_	TokenRange=383:392
+50	universidade	universidade	NOUN	NOUN	_	47	obj	_	TokenRange=393:405
+51	biblia	biblia	NOUN	NOUN	_	50	appos	_	TokenRange=406:412
+52	paulo	paulo	NOUN	NOUN	_	50	flat	_	TokenRange=413:418
+53	condenado	condenar	VERB	VERB	_	50	acl	_	TokenRange=419:428
+54	13	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=429:431
+55	anos	ano	NOUN	NOUN	_	53	nmod	_	TokenRange=432:436
+56	prisao	prisao	ADJ	ADJ	_	55	amod	_	TokenRange=437:443
+57	formacao	formacao	NOUN	NOUN	_	53	nsubj	_	TokenRange=444:452
+58	quadrilha	quadrilha	NOUN	NOUN	_	57	flat	_	TokenRange=453:462
+59	concussao	concussao	ADJ	ADJ	_	60	amod	_	TokenRange=463:472
+60	lavagem	lavagem	NOUN	NOUN	_	57	appos	_	TokenRange=473:480
+61	dinheiro	dinheiro	NOUN	NOUN	_	60	flat	_	TokenRange=481:489
+62	silval	silval	ADJ	ADJ	_	60	amod	_	TokenRange=490:496
+63	disse	dizer	VERB	VERB	_	13	conj	_	TokenRange=497:502
+64	curso	curso	NOUN	NOUN	_	63	obj	_	TokenRange=503:508
+65	bacharel	bacharel	ADJ	ADJ	_	64	amod	_	TokenRange=509:517
+66	teologia	teologia	NOUN	NOUN	_	64	flat	_	TokenRange=518:526
+67	fazendo	fazer	VERB	VERB	_	64	acl	_	TokenRange=527:534
+68	carga	carga	NOUN	NOUN	_	67	obj	_	TokenRange=535:540
+69	horaria	horaria	ADJ	ADJ	_	68	amod	_	TokenRange=541:548
+70	2800	_	NUM	NUM	NumType=Card	71	nummod	_	TokenRange=549:553
+71	horas	hora	NOUN	NOUN	_	67	nmod	_	TokenRange=554:559
+72	busca	buscar	VERB	VERB	_	63	parataxis	_	TokenRange=560:565
+73	autoconhecimento	autoconhecimento	NOUN	NOUN	_	72	obj	_	TokenRange=566:582
+74	fazer	fazer	VERB	VERB	_	72	ccomp	_	TokenRange=583:588
+75	curso	curso	NOUN	NOUN	_	74	obj	_	TokenRange=589:594
+76	autoconhecimento	autoconhecimento	NOUN	NOUN	_	75	flat	_	SpaceAfter=No|TokenRange=595:611
+

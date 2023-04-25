@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jbs vende minerva negocios argentina paraguai uruguai operacao fechada us 300 milhoes primeira venda ativos empresa desde escandalos corrupcao envolvendo governo jbs maior processadora carnes mundo vendeu us 300 milhoes equivalente r 983 milhoes cambio atual todas acoes subsidiarias operacoes carne bovina argentina paraguai uruguai empresas controladas segunda maior empresa carne bovina brasil minerva acordo fato relevante divulgado nesta tercafeira 6 leia
+1	jbs	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	vende	_	VERB	VERB	_	0	root	_	TokenRange=4:9
+3	minerva	minerva	NOUN	NOUN	_	4	amod	_	TokenRange=10:17
+4	negocios	negocio	NOUN	NOUN	_	2	obj	_	TokenRange=18:26
+5	argentina	argentino	ADJ	ADJ	_	4	amod	_	TokenRange=27:36
+6	paraguai	paraguai	ADJ	ADJ	_	4	amod	_	TokenRange=37:45
+7	uruguai	uruguai	ADJ	ADJ	_	4	amod	_	TokenRange=46:53
+8	operacao	operacao	NOUN	NOUN	_	4	appos	_	TokenRange=54:62
+9	fechada	fechado	ADJ	ADJ	_	8	amod	_	TokenRange=63:70
+10	us	_	DET	DET	_	12	det	_	TokenRange=71:73
+11	300	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=74:77
+12	milhoes	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=78:85
+13	primeira	primeiro	ADJ	ADJ	_	14	amod	_	TokenRange=86:94
+14	venda	venda	NOUN	NOUN	_	2	obj	_	TokenRange=95:100
+15	ativos	ativo	ADJ	ADJ	_	14	amod	_	TokenRange=101:107
+16	empresa	empresa	NOUN	NOUN	_	14	appos	_	TokenRange=108:115
+17	desde	_	ADP	ADP	_	18	case	_	TokenRange=116:121
+18	escandalos	escandalo	NOUN	NOUN	_	16	nmod	_	TokenRange=122:132
+19	corrupcao	corrupcao	ADJ	ADJ	_	18	amod	_	TokenRange=133:142
+20	envolvendo	envolver	VERB	VERB	_	18	acl	_	TokenRange=143:153
+21	governo	governo	NOUN	NOUN	_	20	obj	_	TokenRange=154:161
+22	jbs	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=162:165
+23	maior	maior	ADJ	ADJ	_	24	amod	_	TokenRange=166:171
+24	processadora	processador	NOUN	NOUN	_	22	appos	_	TokenRange=172:184
+25	carnes	carne	NOUN	NOUN	_	24	appos	_	TokenRange=185:191
+26	mundo	mundo	ADJ	NOUN	_	24	amod	_	TokenRange=192:197
+27	vendeu	vender	VERB	VERB	_	2	parataxis	_	TokenRange=198:204
+28	us	_	DET	DET	_	30	det	_	TokenRange=205:207
+29	300	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=208:211
+30	milhoes	_	NUM	NUM	NumType=Card	27	obj	_	TokenRange=212:219
+31	equivalente	equivalente	ADJ	ADJ	_	27	xcomp	_	TokenRange=220:231
+32	r	r	NOUN	NOUN	_	31	nmod	_	TokenRange=232:233
+33	983	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=234:237
+34	milhoes	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=238:245
+35	cambio	cambio	NOUN	NOUN	_	27	obj	_	TokenRange=246:252
+36	atual	atual	ADJ	ADJ	_	35	amod	_	TokenRange=253:258
+37	todas	_	DET	DET	_	38	det	_	TokenRange=259:264
+38	acoes	acoe	NOUN	NOUN	_	27	nsubj	_	TokenRange=265:270
+39	subsidiarias	subsidiario	ADJ	ADJ	_	38	amod	_	TokenRange=271:283
+40	operacoes	_	ADJ	ADJ	_	38	amod	_	TokenRange=284:293
+41	carne	carne	NOUN	NOUN	_	38	appos	_	TokenRange=294:299
+42	bovina	bovino	ADJ	ADJ	_	41	amod	_	TokenRange=300:306
+43	argentina	argentino	ADJ	ADJ	_	41	amod	_	TokenRange=307:316
+44	paraguai	paraguai	ADJ	ADJ	_	41	amod	_	TokenRange=317:325
+45	uruguai	_	ADJ	ADJ	_	46	amod	_	TokenRange=326:333
+46	empresas	empresa	NOUN	NOUN	_	41	appos	_	TokenRange=334:342
+47	controladas	controlar	VERB	VERB	_	50	acl	_	TokenRange=343:354
+48	segunda	segundo	ADJ	ADJ	_	50	amod	_	TokenRange=355:362
+49	maior	maior	ADJ	ADJ	_	50	amod	_	TokenRange=363:368
+50	empresa	empresa	NOUN	NOUN	_	46	appos	_	TokenRange=369:376
+51	carne	carne	NOUN	NOUN	_	50	appos	_	TokenRange=377:382
+52	bovina	bovino	ADJ	ADJ	_	51	amod	_	TokenRange=383:389
+53	brasil	brasil	ADJ	ADJ	_	50	amod	_	TokenRange=390:396
+54	minerva	minerva	ADJ	ADJ	_	50	amod	_	TokenRange=397:404
+55	acordo	acordo	NOUN	NOUN	_	2	obj	_	TokenRange=405:411
+56	fato	fato	NOUN	NOUN	_	55	appos	_	TokenRange=412:416
+57	relevante	relevante	ADJ	ADJ	_	56	amod	_	TokenRange=417:426
+58	divulgado	divulgar	VERB	VERB	_	56	acl	_	TokenRange=427:436
+59	nesta	_	ADP	ADP	_	60	case	_	TokenRange=437:442
+60	tercafeira	_	NOUN	NOUN	_	58	nmod	_	TokenRange=443:453
+61	6	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=454:455
+62	leia	leia	NOUN	NOUN	_	60	appos	_	SpaceAfter=No|TokenRange=456:460
+

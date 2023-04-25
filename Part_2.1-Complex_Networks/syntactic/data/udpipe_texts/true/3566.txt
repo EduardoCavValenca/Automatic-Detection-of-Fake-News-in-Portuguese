@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vai parar diz delegado bo junho homem ejaculou mulher onibus homem menos 15 passagens policia incluindo tres prisoes estupro menos tres registros abuso sexual delegacia metro boletim ocorrencia junho 2017 crime diego ferreira novais 27 anos homem ejaculou mulher onibus avenida paulista delegado afirmou ira parar abusador preso tres vezes flagrante estupro ocorrencia
+1	vai	ir	AUX	AUX	_	2	aux	_	TokenRange=0:3
+2	parar	parar	VERB	VERB	_	0	root	_	TokenRange=4:9
+3	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=10:13
+4	delegado	delegado	NOUN	NOUN	_	3	nsubj	_	TokenRange=14:22
+5	bo	bo	ADJ	ADJ	_	4	amod	_	TokenRange=23:25
+6	junho	_	PROPN	PNOUN	_	4	appos	_	TokenRange=26:31
+7	homem	homem	NOUN	NOUN	_	4	appos	_	TokenRange=32:37
+8	ejaculou	ejacular	VERB	VERB	_	4	acl:relcl	_	TokenRange=38:46
+9	mulher	mulher	NOUN	NOUN	_	8	obj	_	TokenRange=47:53
+10	onibus	_	NOUN	NOUN	_	9	flat	_	TokenRange=54:60
+11	homem	homem	NOUN	NOUN	_	9	appos	_	TokenRange=61:66
+12	menos	menos	ADV	ADV	_	13	advmod	_	TokenRange=67:72
+13	15	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=73:75
+14	passagens	passagem	NOUN	NOUN	_	8	obj	_	TokenRange=76:85
+15	policia	policia	NOUN	NOUN	_	14	flat	_	TokenRange=86:93
+16	incluindo	incluir	VERB	VERB	_	14	acl	_	TokenRange=94:103
+17	tres	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=104:108
+18	prisoes	_	NOUN	NOUN	_	16	obj	_	TokenRange=109:116
+19	estupro	estupro	ADJ	ADJ	_	18	amod	_	TokenRange=117:124
+20	menos	menos	ADV	ADV	_	21	advmod	_	TokenRange=125:130
+21	tres	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=131:135
+22	registros	registro	NOUN	NOUN	_	18	appos	_	TokenRange=136:145
+23	abuso	abuso	NOUN	NOUN	_	22	appos	_	TokenRange=146:151
+24	sexual	sexual	ADJ	ADJ	_	23	amod	_	TokenRange=152:158
+25	delegacia	delegacia	NOUN	NOUN	_	22	appos	_	TokenRange=159:168
+26	metro	metro	NOUN	NOUN	_	25	appos	_	TokenRange=169:174
+27	boletim	boletim	NOUN	NOUN	_	26	flat	_	TokenRange=175:182
+28	ocorrencia	_	NOUN	NOUN	_	25	appos	_	TokenRange=183:193
+29	junho	_	PROPN	PNOUN	_	28	nmod	_	TokenRange=194:199
+30	2017	_	NUM	NUM	NumType=Card	29	nmod	_	TokenRange=200:204
+31	crime	crime	NOUN	NOUN	_	28	appos	_	TokenRange=205:210
+32	diego	diego	NOUN	NOUN	_	31	appos	_	TokenRange=211:216
+33	ferreira	_	NOUN	NOUN	_	32	flat	_	TokenRange=217:225
+34	novais	noval	ADJ	ADJ	_	32	amod	_	TokenRange=226:232
+35	27	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=233:235
+36	anos	ano	NOUN	NOUN	_	32	appos	_	TokenRange=236:240
+37	homem	homem	NOUN	NOUN	_	31	appos	_	TokenRange=241:246
+38	ejaculou	ejacular	NOUN	NOUN	_	37	appos	_	TokenRange=247:255
+39	mulher	mulher	NOUN	NOUN	_	38	obj	_	TokenRange=256:262
+40	onibus	_	NOUN	NOUN	_	39	flat	_	TokenRange=263:269
+41	avenida	avenida	NOUN	NOUN	_	37	appos	_	TokenRange=270:277
+42	paulista	paulista	ADJ	ADJ	_	41	amod	_	TokenRange=278:286
+43	delegado	delegado	NOUN	NOUN	_	44	nsubj	_	TokenRange=287:295
+44	afirmou	afirmar	VERB	VERB	_	3	parataxis	_	TokenRange=296:303
+45	ira	_	AUX	AUX	_	46	aux	_	TokenRange=304:307
+46	parar	parar	VERB	VERB	_	44	xcomp	_	TokenRange=308:313
+47	abusador	abusador	NOUN	NOUN	_	46	obj	_	TokenRange=314:322
+48	preso	_	VERB	VERB	_	46	acl	_	TokenRange=323:328
+49	tres	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=329:333
+50	vezes	vez	NOUN	NOUN	_	48	nmod	_	TokenRange=334:339
+51	flagrante	flagrante	ADJ	ADJ	_	52	amod	_	TokenRange=340:349
+52	estupro	estupro	NOUN	NOUN	_	46	nsubj	_	TokenRange=350:357
+53	ocorrencia	ocorrencia	NOUN	NOUN	_	44	parataxis	_	SpaceAfter=No|TokenRange=358:368
+

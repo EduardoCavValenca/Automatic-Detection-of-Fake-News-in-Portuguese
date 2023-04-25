@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moro participa reuniao petistas brasilia mulher grita cuidado carteira juiz federal sergio moro congresso federal manha hoje 04 moro participar audiencia analisar projeto lei 4850/2016 conhecido 10 medidas contra corrupcao magistrado aplaudido vaiado alem sido alvo duras criticas alguns deputados pt participaram audiencia pessoas lado sala onde ocorreu reuniao revoltaram conseguir entrar mulher irritou gritou bem alto petista pode entrar gente moro tomar cuidado carteira petista area disse moca
+1	moro	moro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	participa	participar	VERB	VERB	_	0	root	_	TokenRange=5:14
+3	reuniao	reuniao	NOUN	NOUN	_	2	obj	_	TokenRange=15:22
+4	petistas	petista	ADJ	ADJ	_	3	amod	_	TokenRange=23:31
+5	brasilia	brasilia	NOUN	NOUN	_	2	nsubj	_	TokenRange=32:40
+6	mulher	mulher	NOUN	NOUN	_	2	nsubj	_	TokenRange=41:47
+7	grita	_	NOUN	NOUN	_	6	amod	_	TokenRange=48:53
+8	cuidado	cuidado	NOUN	NOUN	_	6	appos	_	TokenRange=54:61
+9	carteira	_	NOUN	NOUN	_	10	amod	_	TokenRange=62:70
+10	juiz	juiz	NOUN	NOUN	_	6	appos	_	TokenRange=71:75
+11	federal	federal	ADJ	ADJ	_	10	amod	_	TokenRange=76:83
+12	sergio	sergio	NOUN	NOUN	_	10	appos	_	TokenRange=84:90
+13	moro	moro	NOUN	NOUN	_	10	appos	_	TokenRange=91:95
+14	congresso	congresso	NOUN	NOUN	_	10	appos	_	TokenRange=96:105
+15	federal	federal	ADJ	ADJ	_	14	amod	_	TokenRange=106:113
+16	manha	manha	NOUN	NOUN	_	10	appos	_	TokenRange=114:119
+17	hoje	hoje	ADV	ADV	_	16	advmod	_	TokenRange=120:124
+18	04	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=125:127
+19	moro	moro	NOUN	NOUN	_	20	nsubj	_	TokenRange=128:132
+20	participar	participar	VERB	VERB	_	16	acl:inf	_	TokenRange=133:143
+21	audiencia	_	NOUN	NOUN	_	20	obj	_	TokenRange=144:153
+22	analisar	analisar	VERB	VERB	_	20	ccomp	_	TokenRange=154:162
+23	projeto	projeto	NOUN	NOUN	_	22	obj	_	TokenRange=163:170
+24	lei	lei	NOUN	NOUN	_	23	appos	_	TokenRange=171:174
+25	4850/2016	_	NUM	NUM	NumType=Card	24	appos	_	TokenRange=175:184
+26	conhecido	conhecer	VERB	VERB	_	23	acl	_	TokenRange=185:194
+27	10	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=195:197
+28	medidas	medida	NOUN	NOUN	_	26	obj	_	TokenRange=198:205
+29	contra	_	ADP	ADP	_	30	case	_	TokenRange=206:212
+30	corrupcao	corrupcao	NOUN	NOUN	_	28	nmod	_	TokenRange=213:222
+31	magistrado	magistrado	ADJ	ADJ	_	30	amod	_	TokenRange=223:233
+32	aplaudido	aplaudido	ADJ	ADJ	_	30	amod	_	TokenRange=234:243
+33	vaiado	vaiado	ADJ	NOUN	_	30	amod	_	TokenRange=244:250
+34	alem	alem	ADV	ADV	_	36	advmod	_	TokenRange=251:255
+35	sido	ser	AUX	AUX	_	36	cop	_	TokenRange=256:260
+36	alvo	alvo	NOUN	NOUN	_	42	parataxis	_	TokenRange=261:265
+37	duras	duro	ADJ	ADJ	_	38	amod	_	TokenRange=266:271
+38	criticas	_	NOUN	NOUN	_	36	nsubj	_	TokenRange=272:280
+39	alguns	_	DET	DET	_	40	det	_	TokenRange=281:287
+40	deputados	deputado	NOUN	NOUN	_	42	nsubj	_	TokenRange=288:297
+41	pt	_	NOUN	NOUN	_	40	appos	_	TokenRange=298:300
+42	participaram	participar	VERB	VERB	_	2	parataxis	_	TokenRange=301:313
+43	audiencia	_	NOUN	NOUN	_	42	obj	_	TokenRange=314:323
+44	pessoas	pessoa	NOUN	NOUN	_	42	nsubj	_	TokenRange=324:331
+45	lado	lado	NOUN	NOUN	_	43	appos	_	TokenRange=332:336
+46	sala	sala	NOUN	NOUN	_	45	flat	_	TokenRange=337:341
+47	onde	onde	ADV	ADV	_	48	advmod	_	TokenRange=342:346
+48	ocorreu	ocorrer	VERB	VERB	_	45	acl:relcl	_	TokenRange=347:354
+49	reuniao	reuniao	NOUN	NOUN	_	48	nsubj	_	TokenRange=355:362
+50	revoltaram	revoltar	VERB	VERB	_	45	acl:relcl	_	TokenRange=363:373
+51	conseguir	conseguir	VERB	VERB	_	50	xcomp	_	TokenRange=374:383
+52	entrar	entrar	VERB	VERB	_	51	xcomp	_	TokenRange=384:390
+53	mulher	mulher	NOUN	NOUN	_	50	nsubj	_	TokenRange=391:397
+54	irritou	irritar	VERB	VERB	_	45	acl:relcl	_	TokenRange=398:405
+55	gritou	gritar	VERB	VERB	_	50	parataxis	_	TokenRange=406:412
+56	bem	bem	ADV	ADV	_	57	advmod	_	TokenRange=413:416
+57	alto	alto	ADJ	ADJ	_	58	amod	_	TokenRange=417:421
+58	petista	petista	NOUN	NOUN	_	60	nsubj	_	TokenRange=422:429
+59	pode	_	AUX	AUX	_	60	aux	_	TokenRange=430:434
+60	entrar	entrar	VERB	VERB	_	55	ccomp	_	TokenRange=435:441
+61	gente	gente	NOUN	NOUN	_	63	obj	_	TokenRange=442:447
+62	moro	moro	NOUN	NOUN	_	63	nsubj	_	TokenRange=448:452
+63	tomar	tomar	VERB	VERB	_	60	csubj	_	TokenRange=453:458
+64	cuidado	cuidado	NOUN	NOUN	_	63	obj	_	TokenRange=459:466
+65	carteira	_	ADJ	ADJ	_	63	obj	_	TokenRange=467:475
+66	petista	petista	ADJ	ADJ	_	69	amod	_	TokenRange=476:483
+67	area	area	NOUN	NOUN	_	68	nsubj	_	TokenRange=484:488
+68	disse	dizer	VERB	VERB	_	42	parataxis	_	TokenRange=489:494
+69	moca	moca	NOUN	NOUN	_	68	obj	_	SpaceAfter=No|TokenRange=495:499
+
