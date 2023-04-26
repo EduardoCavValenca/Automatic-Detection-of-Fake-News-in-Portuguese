@@ -217,3 +217,11 @@ def run_sequential(text):
     # convert back into array of tuples (subject, verb, object)
     tuples = [tuple(x) for x in result_df.to_numpy()]
     return tuples
+
+def get_all_text_from_folder(folder_path: str):
+    texts = []
+    for filename in os.listdir(folder_path):
+        with open(os.path.join(folder_path, filename), 'r', encoding='utf-8') as f:
+            texts.append(preprocess_text(f.read()))
+    texts_df = pd.DataFrame(texts, columns=['content'])
+    return texts_df
