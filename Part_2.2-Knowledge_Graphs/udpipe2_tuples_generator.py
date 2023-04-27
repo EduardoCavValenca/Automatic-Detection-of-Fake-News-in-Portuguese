@@ -195,8 +195,11 @@ def run_with_threads(number_of_threads, texts, name):
 def break_text_into_sentences(text: str):
     def validate_sentence(sentence: str):
         # remove sentences that end with ? or are too short
-        return len(sentence) > 30 and sentence[-1] != '?'
+        return len(sentence) > 10 and sentence[-1] != '?'
 
+    if type(text) != str:
+        return []
+    
     # split sentences by punctuation (., !, ?) and write each sentence in a new line
     sentences = []
     for sentence in re.split(r'([.!?])', text):
@@ -205,18 +208,22 @@ def break_text_into_sentences(text: str):
     
     return sentences
 
-def run_sequential(text): 
-    udpipe2_output = run_udpipe2_client(text)
-    tuples = parse_udpipe2_output(udpipe2_output)
-    result_df = pd.DataFrame(tuples, columns=['subject', 'verb', 'object'])
-    result_df.drop_duplicates(inplace=True)
-    result_df.dropna(inplace=True)
-    result_df.sort_values(by=['subject', 'verb', 'object'], inplace=True)
-    result_df.reset_index(drop=True, inplace=True)
+def run_sequential(text):
+    try: 
+        udpipe2_output = run_udpipe2_client(text)
+        tuples = parse_udpipe2_output(udpipe2_output)
+        result_df = pd.DataFrame(tuples, columns=['subject', 'verb', 'object'])
+        result_df.drop_duplicates(inplace=True)
+        result_df.dropna(inplace=True)
+        result_df.sort_values(by=['subject', 'verb', 'object'], inplace=True)
+        result_df.reset_index(drop=True, inplace=True)
 
-    # convert back into array of tuples (subject, verb, object)
-    tuples = [tuple(x) for x in result_df.to_numpy()]
-    return tuples
+        # convert back into array of tuples (subject, verb, object)
+        tuples = [tuple(x) for x in result_df.to_numpy()]
+        return tuples
+    except Exception as e:
+        print(f'Error {e} when running UDPipe2 client on text\n{text}')
+        return []
 
 def get_all_text_from_folder(folder_path: str):
     texts = []
