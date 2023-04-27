@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bradesco lanca espaco de inovacao que reune startups e grandes empresas veja video inovabra habitat fica em sao paulo e foi criado para incentivar desenvolvimento de novas tecnologias para o banco e gerar negocios com o objetivo de impulsionar o desenvolvimento de tecnologias que ajudem a transformar o seu negocio o bradesco inaugurou na quartafeira 7 em sao paulo o inovabra seu espaco de inovacao compartilhada
+1	bradesco	bradesco	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	lanca	lancar	VERB	VERB	_	0	root	_	TokenRange=9:14
+3	espaco	espaco	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=22:24
+5	inovacao	inovacao	NOUN	NOUN	_	3	nmod	_	TokenRange=25:33
+6	que	_	PRON	PRON	_	7	nsubj	_	TokenRange=34:37
+7	reune	_	VERB	VERB	_	3	acl:relcl	_	TokenRange=38:43
+8	startups	_	NOUN	NOUN	_	7	obj	_	TokenRange=44:52
+9	e	e	CCONJ	CONJ	_	11	cc	_	TokenRange=53:54
+10	grandes	grande	ADJ	ADJ	_	11	amod	_	TokenRange=55:62
+11	empresas	empresa	NOUN	NOUN	_	8	conj	_	TokenRange=63:71
+12	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=72:76
+13	video	video	NOUN	NOUN	_	12	obj	_	TokenRange=77:82
+14	inovabra	_	NOUN	NOUN	_	13	appos	_	TokenRange=83:91
+15	habitat	_	NOUN	NOUN	_	13	flat	_	TokenRange=92:99
+16	fica	ficar	VERB	VERB	_	13	acl:relcl	_	TokenRange=100:104
+17	em	em	ADP	ADP	_	18	case	_	TokenRange=105:107
+18	sao	sao	NOUN	NOUN	_	16	nmod	_	TokenRange=108:111
+19	paulo	paulo	NOUN	NOUN	_	18	flat	_	TokenRange=112:117
+20	e	e	CCONJ	CONJ	_	22	cc	_	TokenRange=118:119
+21	foi	_	AUX	AUX	_	22	aux:pass	_	TokenRange=120:123
+22	criado	criar	VERB	VERB	_	16	conj	_	TokenRange=124:130
+23	para	_	ADP	ADP	_	24	mark	_	TokenRange=131:135
+24	incentivar	incentivar	VERB	VERB	_	22	advcl	_	TokenRange=136:146
+25	desenvolvimento	desenvolvimento	NOUN	NOUN	_	24	obj	_	TokenRange=147:162
+26	de	de	ADP	ADP	_	28	case	_	TokenRange=163:165
+27	novas	novo	ADJ	ADJ	_	28	amod	_	TokenRange=166:171
+28	tecnologias	tecnologia	NOUN	NOUN	_	25	nmod	_	TokenRange=172:183
+29	para	para	ADP	ADP	_	31	case	_	TokenRange=184:188
+30	o	o	DET	DET	_	31	det	_	TokenRange=189:190
+31	banco	banco	NOUN	NOUN	_	25	nmod	_	TokenRange=191:196
+32	e	e	CCONJ	CONJ	_	33	cc	_	TokenRange=197:198
+33	gerar	gerar	VERB	VERB	_	24	conj	_	TokenRange=199:204
+34	negocios	negocio	NOUN	NOUN	_	33	obj	_	TokenRange=205:213
+35	com	_	ADP	ADP	_	39	mark	_	TokenRange=214:217
+36	o	_	DET	DET	_	35	fixed	_	TokenRange=218:219
+37	objetivo	objetivo	NOUN	NOUN	_	35	fixed	_	TokenRange=220:228
+38	de	_	ADP	ADP	_	35	fixed	_	TokenRange=229:231
+39	impulsionar	impulsionar	VERB	VERB	_	22	advcl	_	TokenRange=232:243
+40	o	o	DET	DET	_	41	det	_	TokenRange=244:245
+41	desenvolvimento	desenvolvimento	NOUN	NOUN	_	39	obj	_	TokenRange=246:261
+42	de	de	ADP	ADP	_	43	case	_	TokenRange=262:264
+43	tecnologias	tecnologia	NOUN	NOUN	_	41	nmod	_	TokenRange=265:276
+44	que	_	PRON	PRON	_	45	nsubj	_	TokenRange=277:280
+45	ajudem	ajudar	VERB	VERB	_	43	acl:relcl	_	TokenRange=281:287
+46	a	_	ADP	ADP	_	47	mark	_	TokenRange=288:289
+47	transformar	transformar	VERB	VERB	_	45	nmod	_	TokenRange=290:301
+48	o	o	DET	DET	_	50	det	_	TokenRange=302:303
+49	seu	_	DET	DET	_	50	det:poss	_	TokenRange=304:307
+50	negocio	negocio	NOUN	NOUN	_	47	obj	_	TokenRange=308:315
+51	o	o	DET	DET	_	52	det	_	TokenRange=316:317
+52	bradesco	bradesco	NOUN	NOUN	_	53	nsubj	_	TokenRange=318:326
+53	inaugurou	inaugurar	VERB	VERB	_	39	parataxis	_	TokenRange=327:336
+54-55	na	_	_	_	_	_	_	_	TokenRange=337:339
+54	em	em	ADP	ADP	_	56	case	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	quartafeira	quartafeira	NOUN	NOUN	_	53	nmod	_	TokenRange=340:351
+57	7	_	NUM	NUM	NumType=Card	56	appos	_	TokenRange=352:353
+58	em	em	ADP	ADP	_	59	case	_	TokenRange=354:356
+59	sao	_	PROPN	PNOUN	_	53	nmod	_	TokenRange=357:360
+60	paulo	_	PROPN	PNOUN	_	59	flat	_	TokenRange=361:366
+61	o	o	DET	DET	_	62	det	_	TokenRange=367:368
+62	inovabra	inovabra	NOUN	NOUN	_	53	obj	_	TokenRange=369:377
+63	seu	_	DET	DET	_	64	det:poss	_	TokenRange=378:381
+64	espaco	espaco	NOUN	NOUN	_	53	obj	_	TokenRange=382:388
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=389:391
+66	inovacao	inovacao	NOUN	NOUN	_	64	nmod	_	TokenRange=392:400
+67	compartilhada	compartilhar	VERB	VERB	_	66	acl	_	SpacesAfter=\s\s|TokenRange=401:414
+

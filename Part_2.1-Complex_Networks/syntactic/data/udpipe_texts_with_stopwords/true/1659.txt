@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nao e hora de falar nada diz janot sobre delacoes da odebrecht presidente do stf carmen lucia homologou delacoes de 77 executivos e exexecutivos da empreiteira no ambito da lava jato
+1	nao	nao	ADV	ADV	Polarity=Neg	3	advmod	_	TokenRange=0:3
+2	e	_	CCONJ	CONJ	_	3	cc	_	TokenRange=4:5
+3	hora	hora	NOUN	NOUN	_	7	nsubj	_	TokenRange=6:10
+4	de	_	ADP	ADP	_	5	mark	_	TokenRange=11:13
+5	falar	falar	VERB	VERB	_	3	nmod	_	TokenRange=14:19
+6	nada	_	PRON	PRON	_	5	obj	_	TokenRange=20:24
+7	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=25:28
+8	janot	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=29:34
+9	sobre	_	ADP	ADP	_	10	case	_	TokenRange=35:40
+10	delacoes	delacoe	NOUN	NOUN	_	8	nmod	_	TokenRange=41:49
+11-12	da	_	_	_	_	_	_	_	TokenRange=50:52
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	odebrecht	odebrecht	NOUN	NOUN	_	10	nmod	_	TokenRange=53:62
+14	presidente	presidente	NOUN	NOUN	_	13	appos	_	TokenRange=63:73
+15-16	do	_	_	_	_	_	_	_	TokenRange=74:76
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	stf	_	NOUN	NOUN	_	14	nmod	_	TokenRange=77:80
+18	carmen	carmen	NOUN	NOUN	_	13	appos	_	TokenRange=81:87
+19	lucia	_	ADJ	ADJ	_	18	flat	_	TokenRange=88:93
+20	homologou	homologar	VERB	VERB	_	7	parataxis	_	TokenRange=94:103
+21	delacoes	delacoe	NOUN	NOUN	_	20	obj	_	TokenRange=104:112
+22	de	de	ADP	ADP	_	24	case	_	TokenRange=113:115
+23	77	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=116:118
+24	executivos	executivo	NOUN	NOUN	_	21	nmod	_	TokenRange=119:129
+25	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=130:131
+26	exexecutivos	exexecutivo	NOUN	NOUN	_	24	conj	_	TokenRange=132:144
+27-28	da	_	_	_	_	_	_	_	TokenRange=145:147
+27	de	de	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	empreiteira	empreiteiro	NOUN	NOUN	_	24	nmod	_	TokenRange=148:159
+30-31	no	_	_	_	_	_	_	_	TokenRange=160:162
+30	em	em	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ambito	ambito	NOUN	NOUN	_	20	nmod	_	TokenRange=163:169
+33-34	da	_	_	_	_	_	_	_	TokenRange=170:172
+33	de	de	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	lava	lava	NOUN	NOUN	_	32	nmod	_	TokenRange=173:177
+36	jato	jato	NOUN	NOUN	_	35	flat	_	SpacesAfter=\s\s|TokenRange=178:182
+

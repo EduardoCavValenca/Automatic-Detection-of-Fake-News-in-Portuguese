@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = acao no tse oficial de justica notifica temer dilma escapou mas so por hoje o tse pretendia notificar dilma rousseff hoje na acao eleitoral aime 761 que pode cassar o mandato de sua chapa o oficial de justica conseguiu encontrar o vicepresidente michel temer e entregou a notificacao ao politico ja a presidenta dilma rousseff nao foi encontrada no palacio do planalto ela passou a tarde no congresso amanha ela nao escapa
+1	acao	acao	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:4
+2-3	no	_	_	_	_	_	_	_	TokenRange=5:7
+2	em	em	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tse	tse	NOUN	NOUN	_	1	nmod	_	TokenRange=8:11
+5	oficial	oficial	ADJ	ADJ	_	4	amod	_	TokenRange=12:19
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=20:22
+7	justica	_	NOUN	NOUN	_	5	nmod	_	TokenRange=23:30
+8	notifica	notificar	VERB	VERB	_	0	root	_	TokenRange=31:39
+9	temer	temer	NOUN	NOUN	_	8	obj	_	TokenRange=40:45
+10	dilma	dilma	NOUN	NOUN	_	11	nsubj	_	TokenRange=46:51
+11	escapou	escapar	VERB	VERB	_	8	ccomp	_	TokenRange=52:59
+12	mas	mas	CCONJ	CONJ	_	18	cc	_	TokenRange=60:63
+13	so	so	ADV	ADV	_	18	advmod	_	TokenRange=64:66
+14	por	_	ADP	ADP	_	15	mark	_	TokenRange=67:70
+15	hoje	hoje	ADV	ADV	_	18	nmod	_	TokenRange=71:75
+16	o	o	DET	DET	_	17	det	_	TokenRange=76:77
+17	tse	tse	NOUN	NOUN	_	18	nsubj	_	TokenRange=78:81
+18	pretendia	pretender	VERB	VERB	_	11	conj	_	TokenRange=82:91
+19	notificar	notificar	VERB	VERB	_	18	xcomp	_	TokenRange=92:101
+20	dilma	dilma	NOUN	NOUN	_	19	obj	_	TokenRange=102:107
+21	rousseff	rousseff	NOUN	NOUN	_	20	flat	_	TokenRange=108:116
+22	hoje	hoje	ADV	ADV	_	19	advmod	_	TokenRange=117:121
+23-24	na	_	_	_	_	_	_	_	TokenRange=122:124
+23	em	em	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	acao	acao	NOUN	NOUN	_	19	nmod	_	TokenRange=125:129
+26	eleitoral	eleitoral	ADJ	ADJ	_	25	amod	_	TokenRange=130:139
+27	aime	aime	ADV	ADV	_	25	appos	_	TokenRange=140:144
+28	761	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=145:148
+29	que	_	PRON	PRON	_	31	nsubj	_	TokenRange=149:152
+30	pode	_	AUX	AUX	_	31	aux	_	TokenRange=153:157
+31	cassar	cassar	VERB	VERB	_	28	acl:relcl	_	TokenRange=158:164
+32	o	o	DET	DET	_	33	det	_	TokenRange=165:166
+33	mandato	mandato	NOUN	NOUN	_	31	obj	_	TokenRange=167:174
+34	de	de	ADP	ADP	_	36	case	_	TokenRange=175:177
+35	sua	_	DET	DET	_	36	det:poss	_	TokenRange=178:181
+36	chapa	chapa	NOUN	NOUN	_	33	nmod	_	TokenRange=182:187
+37	o	o	DET	DET	_	38	det	_	TokenRange=188:189
+38	oficial	oficial	NOUN	NOUN	_	41	nsubj	_	TokenRange=190:197
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=198:200
+40	justica	_	NOUN	NOUN	_	38	nmod	_	TokenRange=201:208
+41	conseguiu	conseguir	VERB	VERB	_	8	parataxis	_	TokenRange=209:218
+42	encontrar	encontrar	VERB	VERB	_	41	xcomp	_	TokenRange=219:228
+43	o	o	DET	DET	_	44	det	_	TokenRange=229:230
+44	vicepresidente	vicepresidente	NOUN	NOUN	_	42	obj	_	TokenRange=231:245
+45	michel	_	ADJ	ADJ	_	44	appos	_	TokenRange=246:252
+46	temer	temer	NOUN	NOUN	_	45	flat	_	TokenRange=253:258
+47	e	e	CCONJ	CONJ	_	48	cc	_	TokenRange=259:260
+48	entregou	entregar	VERB	VERB	_	41	conj	_	TokenRange=261:269
+49	a	o	DET	DET	_	50	det	_	TokenRange=270:271
+50	notificacao	notificacao	NOUN	NOUN	_	48	obj	_	TokenRange=272:283
+51-52	ao	_	_	_	_	_	_	_	TokenRange=284:286
+51	a	a	ADP	ADP	_	53	case	_	_
+52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	politico	politico	NOUN	NOUN	_	48	iobj	_	TokenRange=287:295
+54	ja	ja	ADV	ADV	_	61	advmod	_	TokenRange=296:298
+55	a	o	DET	DET	_	56	det	_	TokenRange=299:300
+56	presidenta	_	NOUN	NOUN	_	61	nsubj:pass	_	TokenRange=301:311
+57	dilma	dilma	NOUN	NOUN	_	56	appos	_	TokenRange=312:317
+58	rousseff	rousseff	NOUN	NOUN	_	57	flat	_	TokenRange=318:326
+59	nao	nao	ADV	ADV	Polarity=Neg	61	advmod	_	TokenRange=327:330
+60	foi	_	AUX	AUX	_	61	aux:pass	_	TokenRange=331:334
+61	encontrada	encontrar	VERB	VERB	_	48	ccomp	_	TokenRange=335:345
+62-63	no	_	_	_	_	_	_	_	TokenRange=346:348
+62	em	em	ADP	ADP	_	64	case	_	_
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	palacio	palacio	NOUN	NOUN	_	61	nmod	_	TokenRange=349:356
+65-66	do	_	_	_	_	_	_	_	TokenRange=357:359
+65	de	de	ADP	ADP	_	67	case	_	_
+66	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	planalto	planalto	NOUN	NOUN	_	64	nmod	_	TokenRange=360:368
+68	ela	_	PRON	PRON	_	78	nsubj	_	TokenRange=369:372
+69	passou	passar	VERB	VERB	_	61	conj	_	TokenRange=373:379
+70	a	o	DET	DET	_	71	det	_	TokenRange=380:381
+71	tarde	tarde	NOUN	NOUN	_	78	obj	_	TokenRange=382:387
+72-73	no	_	_	_	_	_	_	_	TokenRange=388:390
+72	em	em	ADP	ADP	_	74	case	_	_
+73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+74	congresso	congresso	NOUN	NOUN	_	78	nmod	_	TokenRange=391:400
+75	amanha	amanha	ADV	ADV	_	78	advmod	_	TokenRange=401:407
+76	ela	_	PRON	PRON	_	78	nsubj	_	TokenRange=408:411
+77	nao	nao	ADV	ADV	Polarity=Neg	78	advmod	_	TokenRange=412:415
+78	escapa	escapar	VERB	VERB	_	61	conj	_	TokenRange=416:422
+

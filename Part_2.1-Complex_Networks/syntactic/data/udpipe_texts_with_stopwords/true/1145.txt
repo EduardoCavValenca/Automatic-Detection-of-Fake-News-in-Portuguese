@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eua coreia do sul e japao pedem que coreia do norte acabe com provocacoes irresponsaveis declaracao foi divulgada apos encontro de autoridades militares no havai neste fim de
+1	eua	_	DET	DET	_	2	det	_	TokenRange=0:3
+2	coreia	coreia	NOUN	NOUN	_	8	nsubj	_	TokenRange=4:10
+3-4	do	_	_	_	_	_	_	_	TokenRange=11:13
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sul	sul	NOUN	NOUN	_	2	nmod	_	TokenRange=14:17
+6	e	e	CCONJ	CONJ	_	7	cc	_	TokenRange=18:19
+7	japao	japao	NOUN	NOUN	_	2	conj	_	TokenRange=20:25
+8	pedem	pedir	VERB	VERB	_	0	root	_	TokenRange=26:31
+9	que	que	CCONJ	CONJ	_	14	mark	_	TokenRange=32:35
+10	coreia	coreia	NOUN	NOUN	_	14	nsubj	_	TokenRange=36:42
+11-12	do	_	_	_	_	_	_	_	TokenRange=43:45
+11	de	de	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	norte	norte	NOUN	NOUN	_	10	nmod	_	TokenRange=46:51
+14	acabe	acabar	VERB	VERB	_	8	ccomp	_	TokenRange=52:57
+15	com	com	ADP	ADP	_	16	case	_	TokenRange=58:61
+16	provocacoes	provocacoe	NOUN	NOUN	_	14	nmod	_	TokenRange=62:73
+17	irresponsaveis	irresponsavel	ADJ	ADJ	_	16	amod	_	TokenRange=74:88
+18	declaracao	declaracao	NOUN	NOUN	_	20	nsubj:pass	_	TokenRange=89:99
+19	foi	_	AUX	AUX	_	20	aux:pass	_	TokenRange=100:103
+20	divulgada	divulgar	VERB	VERB	_	8	parataxis	_	TokenRange=104:113
+21	apos	_	ADP	ADP	_	22	case	_	TokenRange=114:118
+22	encontro	encontro	NOUN	NOUN	_	20	nmod	_	TokenRange=119:127
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=128:130
+24	autoridades	autoridade	NOUN	NOUN	_	22	nmod	_	TokenRange=131:142
+25	militares	militar	ADJ	ADJ	_	24	amod	_	TokenRange=143:152
+26-27	no	_	_	_	_	_	_	_	TokenRange=153:155
+26	em	em	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	havai	havai	NOUN	NOUN	_	22	nmod	_	TokenRange=156:161
+29	neste	_	ADP	ADP	_	30	case	_	TokenRange=162:167
+30	fim	fim	NOUN	NOUN	_	20	nmod	_	TokenRange=168:171
+31	de	de	ADP	ADP	_	30	case	_	SpacesAfter=\s\s|TokenRange=172:174
+

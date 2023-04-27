@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nova fase da lavajato policia federal esta nas ruas novamente a policia federal esta nas ruas desde as primeira horas desta madrugada e a 39 fase da operacao lava jato varios mandados foram expedidos pelo juiz federal sergio moro e estao sendo cumpridos em curitiba/pr e tambem no rio de janeiro capital onde ha um mandado de prisao a capital brasilia esta fora desta fase ao menos por enquanto
+1	nova	novo	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	fase	fase	NOUN	NOUN	_	8	nsubj	_	TokenRange=5:9
+3-4	da	_	_	_	_	_	_	_	TokenRange=10:12
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lavajato	lavajato	NOUN	NOUN	_	2	nmod	_	TokenRange=13:21
+6	policia	policia	NOUN	NOUN	_	2	appos	_	TokenRange=22:29
+7	federal	federal	ADJ	ADJ	_	6	amod	_	TokenRange=30:37
+8	esta	_	VERB	VERB	_	0	root	_	TokenRange=38:42
+9-10	nas	_	_	_	_	_	_	_	TokenRange=43:46
+9	em	em	ADP	ADP	_	11	case	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	ruas	rua	NOUN	NOUN	_	8	nmod	_	TokenRange=47:51
+12	novamente	novamente	ADV	ADV	_	16	advmod	_	TokenRange=52:61
+13	a	o	DET	DET	_	14	det	_	TokenRange=62:63
+14	policia	policia	NOUN	NOUN	_	16	nsubj	_	TokenRange=64:71
+15	federal	federal	ADJ	ADJ	_	14	amod	_	TokenRange=72:79
+16	esta	_	VERB	VERB	_	8	parataxis	_	TokenRange=80:84
+17-18	nas	_	_	_	_	_	_	_	TokenRange=85:88
+17	em	em	ADP	ADP	_	19	case	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	ruas	rua	NOUN	NOUN	_	16	nmod	_	TokenRange=89:93
+20	desde	_	ADP	ADP	_	23	case	_	TokenRange=94:99
+21	as	o	DET	DET	_	23	det	_	TokenRange=100:102
+22	primeira	primeiro	ADJ	ADJ	_	23	amod	_	TokenRange=103:111
+23	horas	hora	NOUN	NOUN	_	16	nmod	_	TokenRange=112:117
+24	desta	_	ADP	ADP	_	25	case	_	TokenRange=118:123
+25	madrugada	madrugada	NOUN	NOUN	_	23	nmod	_	TokenRange=124:133
+26	e	e	CCONJ	CONJ	_	29	cc	_	TokenRange=134:135
+27	a	o	DET	DET	_	29	det	_	TokenRange=136:137
+28	39	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=138:140
+29	fase	fase	NOUN	NOUN	_	16	conj	_	TokenRange=141:145
+30-31	da	_	_	_	_	_	_	_	TokenRange=146:148
+30	de	de	ADP	ADP	_	32	case	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	operacao	operacao	NOUN	NOUN	_	29	nmod	_	TokenRange=149:157
+33	lava	lava	NOUN	NOUN	_	32	flat	_	TokenRange=158:162
+34	jato	jato	NOUN	NOUN	_	33	flat	_	TokenRange=163:167
+35	varios	_	DET	DET	_	36	det	_	TokenRange=168:174
+36	mandados	mandado	NOUN	NOUN	_	38	nsubj:pass	_	TokenRange=175:183
+37	foram	_	AUX	AUX	_	38	aux:pass	_	TokenRange=184:189
+38	expedidos	expedir	VERB	VERB	_	8	conj	_	TokenRange=190:199
+39-40	pelo	_	_	_	_	_	_	_	TokenRange=200:204
+39	por	por	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	juiz	juiz	NOUN	NOUN	_	38	nmod	_	TokenRange=205:209
+42	federal	federal	ADJ	ADJ	_	41	amod	_	TokenRange=210:217
+43	sergio	sergio	NOUN	NOUN	_	41	appos	_	TokenRange=218:224
+44	moro	moro	NOUN	NOUN	_	43	flat	_	TokenRange=225:229
+45	e	e	CCONJ	CONJ	_	48	cc	_	TokenRange=230:231
+46	estao	_	AUX	AUX	_	48	aux	_	TokenRange=232:237
+47	sendo	ser	AUX	AUX	_	48	aux:pass	_	TokenRange=238:243
+48	cumpridos	cumprir	VERB	VERB	_	38	conj	_	TokenRange=244:253
+49	em	em	ADP	ADP	_	50	case	_	TokenRange=254:256
+50	curitiba/pr	curitiba/pr	NOUN	NOUN	_	48	nmod	_	TokenRange=257:268
+51	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=269:270
+52	tambem	tambem	ADV	ADV	_	55	advmod	_	TokenRange=271:277
+53-54	no	_	_	_	_	_	_	_	TokenRange=278:280
+53	em	em	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	rio	rio	NOUN	NOUN	_	50	conj	_	TokenRange=281:284
+56	de	de	ADP	ADP	_	57	case	_	TokenRange=285:287
+57	janeiro	_	PROPN	PNOUN	_	55	nmod	_	TokenRange=288:295
+58	capital	capital	NOUN	ADJ	_	55	amod	_	TokenRange=296:303
+59	onde	onde	ADV	ADV	_	60	advmod	_	TokenRange=304:308
+60	ha	har	VERB	VERB	_	55	acl:relcl	_	TokenRange=309:311
+61	um	um	DET	DET	_	62	det	_	TokenRange=312:314
+62	mandado	mandado	NOUN	NOUN	_	60	obj	_	TokenRange=315:322
+63	de	de	ADP	ADP	_	64	case	_	TokenRange=323:325
+64	prisao	prisao	NOUN	NOUN	_	62	nmod	_	TokenRange=326:332
+65	a	o	DET	DET	_	66	det	_	TokenRange=333:334
+66	capital	capital	NOUN	NOUN	_	60	nsubj	_	TokenRange=335:342
+67	brasilia	brasilia	ADJ	ADJ	_	66	amod	_	TokenRange=343:351
+68	esta	_	VERB	VERB	_	55	acl:relcl	_	TokenRange=352:356
+69	fora	fora	ADV	ADV	_	68	advmod	_	TokenRange=357:361
+70	desta	_	ADP	ADP	_	71	case	_	TokenRange=362:367
+71	fase	fase	NOUN	NOUN	_	69	nmod	_	TokenRange=368:372
+72-73	ao	_	_	_	_	_	_	_	TokenRange=373:375
+72	a	a	ADP	ADP	_	74	case	_	_
+73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+74	menos	menos	ADV	ADV	_	69	nmod	_	TokenRange=376:381
+75	por	_	ADP	ADP	_	76	mark	_	TokenRange=382:385
+76	enquanto	enquanto	ADV	ADV	_	68	nmod	_	TokenRange=386:394
+

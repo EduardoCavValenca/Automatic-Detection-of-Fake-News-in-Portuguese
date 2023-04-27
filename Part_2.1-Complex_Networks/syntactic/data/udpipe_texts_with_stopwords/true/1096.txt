@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tercafeira 18 de abril de 2017 boa noite aqui estao as principais noticias para voce terminar o dia beminformado o projeto do governo para as regras da aposentadoria esta sendo alterado na camara o texto ainda nao foi fechado mas o relator anunciou a intencao de reduzir por exemplo a idade minima de aposentadoria para mulheres que passaria de 65 para 62 anos o dia foi tenso no
+1	tercafeira	tercafeira	NOUN	NOUN	_	10	parataxis	_	TokenRange=0:10
+2	18	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=11:13
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=14:16
+4	abril	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=17:22
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=23:25
+6	2017	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=26:30
+7	boa	bom	ADJ	ADJ	_	8	amod	_	TokenRange=31:34
+8	noite	noite	NOUN	NOUN	_	10	nsubj	_	TokenRange=35:40
+9	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=41:45
+10	estao	_	VERB	VERB	_	0	root	_	TokenRange=46:51
+11	as	o	DET	DET	_	13	det	_	TokenRange=52:54
+12	principais	principal	ADJ	ADJ	_	13	amod	_	TokenRange=55:65
+13	noticias	noticia	NOUN	NOUN	_	10	nsubj	_	TokenRange=66:74
+14	para	_	ADP	ADP	_	16	mark	_	TokenRange=75:79
+15	voce	_	PRON	PRON	_	16	nsubj	_	TokenRange=80:84
+16	terminar	terminar	VERB	VERB	_	13	nmod	_	TokenRange=85:93
+17	o	o	DET	DET	_	18	det	_	TokenRange=94:95
+18	dia	dia	NOUN	NOUN	_	16	obj	_	TokenRange=96:99
+19	beminformado	beminformado	ADJ	ADJ	_	18	amod	_	TokenRange=100:112
+20	o	o	DET	DET	_	21	det	_	TokenRange=113:114
+21	projeto	projeto	NOUN	NOUN	_	33	nsubj:pass	_	TokenRange=115:122
+22-23	do	_	_	_	_	_	_	_	TokenRange=123:125
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	governo	governo	NOUN	NOUN	_	21	nmod	_	TokenRange=126:133
+25	para	para	ADP	ADP	_	27	case	_	TokenRange=134:138
+26	as	o	DET	DET	_	27	det	_	TokenRange=139:141
+27	regras	regra	NOUN	NOUN	_	21	nmod	_	TokenRange=142:148
+28-29	da	_	_	_	_	_	_	_	TokenRange=149:151
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	aposentadoria	aposentadoria	NOUN	NOUN	_	27	nmod	_	TokenRange=152:165
+31	esta	_	AUX	AUX	_	33	aux	_	TokenRange=166:170
+32	sendo	ser	AUX	AUX	_	33	aux:pass	_	TokenRange=171:176
+33	alterado	alterar	VERB	VERB	_	10	parataxis	_	TokenRange=177:185
+34-35	na	_	_	_	_	_	_	_	TokenRange=186:188
+34	em	em	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	camara	camara	NOUN	NOUN	_	33	nmod	_	TokenRange=189:195
+37	o	o	DET	DET	_	38	det	_	TokenRange=196:197
+38	texto	texto	NOUN	NOUN	_	33	nsubj:pass	_	TokenRange=198:203
+39	ainda	ainda	ADV	ADV	_	42	advmod	_	TokenRange=204:209
+40	nao	nao	ADV	ADV	Polarity=Neg	42	advmod	_	TokenRange=210:213
+41	foi	_	AUX	AUX	_	42	aux:pass	_	TokenRange=214:217
+42	fechado	fechar	VERB	VERB	_	33	parataxis	_	TokenRange=218:225
+43	mas	mas	CCONJ	CONJ	_	46	cc	_	TokenRange=226:229
+44	o	o	DET	DET	_	45	det	_	TokenRange=230:231
+45	relator	relator	NOUN	NOUN	_	46	nsubj	_	TokenRange=232:239
+46	anunciou	anunciar	VERB	VERB	_	42	conj	_	TokenRange=240:248
+47	a	o	DET	DET	_	48	det	_	TokenRange=249:250
+48	intencao	intencao	NOUN	NOUN	_	46	obj	_	TokenRange=251:259
+49	de	_	ADP	ADP	_	50	mark	_	TokenRange=260:262
+50	reduzir	reduzir	VERB	VERB	_	48	nmod	_	TokenRange=263:270
+51	por	por	ADP	ADP	_	52	case	_	TokenRange=271:274
+52	exemplo	exemplo	NOUN	NOUN	_	50	nmod	_	TokenRange=275:282
+53	a	o	DET	DET	_	54	det	_	TokenRange=283:284
+54	idade	idade	NOUN	NOUN	_	50	obj	_	TokenRange=285:290
+55	minima	minimo	ADJ	ADJ	_	54	amod	_	TokenRange=291:297
+56	de	de	ADP	ADP	_	57	case	_	TokenRange=298:300
+57	aposentadoria	aposentadoria	NOUN	NOUN	_	54	nmod	_	TokenRange=301:314
+58	para	para	ADP	ADP	_	59	case	_	TokenRange=315:319
+59	mulheres	mulher	NOUN	NOUN	_	54	nmod	_	TokenRange=320:328
+60	que	_	PRON	PRON	_	61	nsubj	_	TokenRange=329:332
+61	passaria	passar	VERB	VERB	_	59	acl:relcl	_	TokenRange=333:341
+62	de	de	ADP	ADP	_	63	case	_	TokenRange=342:344
+63	65	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=345:347
+64	para	para	ADP	ADP	_	66	case	_	TokenRange=348:352
+65	62	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=353:355
+66	anos	ano	NOUN	NOUN	_	61	nmod	_	TokenRange=356:360
+67	o	o	DET	DET	_	68	det	_	TokenRange=361:362
+68	dia	dia	NOUN	NOUN	_	69	nsubj	_	TokenRange=363:366
+69	foi	_	VERB	VERB	_	46	parataxis	_	TokenRange=367:370
+70	tenso	tenso	ADJ	ADJ	_	69	xcomp	_	TokenRange=371:376
+71-72	no	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=377:379
+71	em	em	ADP	ADP	_	69	case	_	_
+72	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+

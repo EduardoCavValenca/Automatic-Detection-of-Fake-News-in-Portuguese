@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = chargista mais famoso do pais aconselha moro da um jeito de prender uns tucanozinhos pra gente acreditar em voce mauricio ricardo e um dos chargistas mais respeitados e criativos do pais atraves de um video divulgado nas redes sociais mauricio questiona uma suposta parcialidade de sergio moro na conducao da lavajato e nao e que o argumento do chargista tem fundamento confira
+1	chargista	chargista	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:9
+2	mais	mais	ADV	ADV	_	3	advmod	_	TokenRange=10:14
+3	famoso	famoso	ADJ	ADJ	_	1	amod	_	TokenRange=15:21
+4-5	do	_	_	_	_	_	_	_	TokenRange=22:24
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pais	_	NOUN	NOUN	_	1	nmod	_	TokenRange=25:29
+7	aconselha	aconselhar	VERB	VERB	_	0	root	_	TokenRange=30:39
+8	moro	moro	NOUN	NOUN	_	7	obj	_	TokenRange=40:44
+9-10	da	_	_	_	_	_	_	_	TokenRange=45:47
+9	de	de	ADP	ADP	_	12	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	um	um	DET	DET	_	12	det	_	TokenRange=48:50
+12	jeito	jeito	NOUN	NOUN	_	7	nmod	_	TokenRange=51:56
+13	de	_	ADP	ADP	_	14	mark	_	TokenRange=57:59
+14	prender	prender	VERB	VERB	_	12	nmod	_	TokenRange=60:67
+15	uns	_	DET	DET	_	16	det	_	TokenRange=68:71
+16	tucanozinhos	_	NOUN	NOUN	_	14	obj	_	TokenRange=72:84
+17	pra	_	ADP	ADP	_	19	mark	_	TokenRange=85:88
+18	gente	gente	NOUN	NOUN	_	19	nsubj	_	TokenRange=89:94
+19	acreditar	acreditar	VERB	VERB	_	14	advcl	_	TokenRange=95:104
+20	em	em	ADP	ADP	_	21	case	_	TokenRange=105:107
+21	voce	_	PRON	PRON	_	19	nmod	_	TokenRange=108:112
+22	mauricio	mauricio	NOUN	NOUN	_	19	obj	_	TokenRange=113:121
+23	ricardo	ricardo	NOUN	NOUN	_	22	appos	_	TokenRange=122:129
+24	e	e	CCONJ	CONJ	_	25	cc	_	TokenRange=130:131
+25	um	_	PRON	PRON	_	7	conj	_	TokenRange=132:134
+26-27	dos	_	_	_	_	_	_	_	TokenRange=135:138
+26	de	de	ADP	ADP	_	28	case	_	_
+27	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	chargistas	chargista	NOUN	NOUN	_	25	nmod	_	TokenRange=139:149
+29	mais	mais	ADV	ADV	_	30	advmod	_	TokenRange=150:154
+30	respeitados	respeitado	ADJ	ADJ	_	28	amod	_	TokenRange=155:166
+31	e	e	CCONJ	CONJ	_	32	cc	_	TokenRange=167:168
+32	criativos	criativo	ADJ	ADJ	_	30	conj	_	TokenRange=169:178
+33-34	do	_	_	_	_	_	_	_	TokenRange=179:181
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	pais	_	NOUN	NOUN	_	28	nmod	_	TokenRange=182:186
+36	atraves	atrave	ADV	ADV	_	25	advmod	_	TokenRange=187:194
+37	de	de	ADP	ADP	_	39	case	_	TokenRange=195:197
+38	um	um	DET	DET	_	39	det	_	TokenRange=198:200
+39	video	video	NOUN	NOUN	_	36	nmod	_	TokenRange=201:206
+40	divulgado	divulgar	VERB	VERB	_	39	acl	_	TokenRange=207:216
+41-42	nas	_	_	_	_	_	_	_	TokenRange=217:220
+41	em	em	ADP	ADP	_	43	case	_	_
+42	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	redes	rede	NOUN	NOUN	_	40	nmod	_	TokenRange=221:226
+44	sociais	social	ADJ	ADJ	_	43	amod	_	TokenRange=227:234
+45	mauricio	_	PROPN	PNOUN	_	46	nsubj	_	TokenRange=235:243
+46	questiona	questionar	VERB	VERB	_	7	parataxis	_	TokenRange=244:253
+47	uma	um	DET	DET	_	49	det	_	TokenRange=254:257
+48	suposta	suposto	ADJ	ADJ	_	49	amod	_	TokenRange=258:265
+49	parcialidade	parcialidade	NOUN	NOUN	_	46	obj	_	TokenRange=266:278
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=279:281
+51	sergio	_	NOUN	NOUN	_	49	nmod	_	TokenRange=282:288
+52	moro	moro	NOUN	NOUN	_	51	flat	_	TokenRange=289:293
+53-54	na	_	_	_	_	_	_	_	TokenRange=294:296
+53	em	em	ADP	ADP	_	55	case	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	conducao	conducao	NOUN	NOUN	_	49	nmod	_	TokenRange=297:305
+56-57	da	_	_	_	_	_	_	_	TokenRange=306:308
+56	de	de	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	lavajato	lavajato	NOUN	NOUN	_	55	nmod	_	TokenRange=309:317
+59	e	e	CCONJ	CONJ	_	68	cc	_	TokenRange=318:319
+60	nao	nao	ADV	ADV	Polarity=Neg	46	advmod	_	TokenRange=320:323
+61	e	e	CCONJ	CONJ	_	68	cc	_	TokenRange=324:325
+62	que	que	CCONJ	CONJ	_	68	mark	_	TokenRange=326:329
+63	o	o	DET	DET	_	64	det	_	TokenRange=330:331
+64	argumento	argumento	NOUN	NOUN	_	68	nsubj	_	TokenRange=332:341
+65-66	do	_	_	_	_	_	_	_	TokenRange=342:344
+65	de	de	ADP	ADP	_	67	case	_	_
+66	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	chargista	chargista	NOUN	NOUN	_	64	nmod	_	TokenRange=345:354
+68	tem	ter	VERB	VERB	_	46	conj	_	TokenRange=355:358
+69	fundamento	fundamento	NOUN	NOUN	_	68	obj	_	TokenRange=359:369
+70	confira	conferir	ADJ	ADJ	_	68	xcomp	_	TokenRange=370:377
+

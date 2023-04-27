@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = a blogueira sumiu a blogueira dilma rousseff nao fez nenhum comentario sobre as prisoes de conducao coercitiva de seus exministros paulo bernardo e carlos gabas a ultima vez que a blogueira presidenta postou algo em sua rede social ela festejava as denuncias da lava jato contra os ministros do governo michel temer dilma acredita piamente na justica desde que prejudique os partidos de oposicao justica contra o pt e atendado a democracia
+1	a	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	blogueira	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=2:11
+3	sumiu	sumir	VERB	VERB	_	0	root	_	TokenRange=12:17
+4	a	o	DET	DET	_	5	det	_	TokenRange=18:19
+5	blogueira	_	NOUN	NOUN	_	3	obj	_	TokenRange=20:29
+6	dilma	dilma	NOUN	NOUN	_	5	appos	_	TokenRange=30:35
+7	rousseff	rousseff	NOUN	NOUN	_	6	flat	_	TokenRange=36:44
+8	nao	nao	ADV	ADV	Polarity=Neg	9	advmod	_	TokenRange=45:48
+9	fez	fazer	VERB	VERB	_	3	conj	_	TokenRange=49:52
+10	nenhum	_	DET	DET	_	11	det	_	TokenRange=53:59
+11	comentario	comentario	NOUN	NOUN	_	9	obj	_	TokenRange=60:70
+12	sobre	_	ADP	ADP	_	14	case	_	TokenRange=71:76
+13	as	o	DET	DET	_	14	det	_	TokenRange=77:79
+14	prisoes	_	NOUN	NOUN	_	11	nmod	_	TokenRange=80:87
+15	de	de	ADP	ADP	_	16	case	_	TokenRange=88:90
+16	conducao	conducao	NOUN	NOUN	_	14	nmod	_	TokenRange=91:99
+17	coercitiva	coercitivo	ADJ	ADJ	_	16	amod	_	TokenRange=100:110
+18	de	de	ADP	ADP	_	20	case	_	TokenRange=111:113
+19	seus	_	DET	DET	_	20	det:poss	_	TokenRange=114:118
+20	exministros	exministro	NOUN	NOUN	_	14	nmod	_	TokenRange=119:130
+21	paulo	paulo	NOUN	NOUN	_	20	appos	_	TokenRange=131:136
+22	bernardo	bernardo	NOUN	NOUN	_	21	flat	_	TokenRange=137:145
+23	e	e	CCONJ	CONJ	_	24	cc	_	TokenRange=146:147
+24	carlos	carlo	NOUN	NOUN	_	21	conj	_	TokenRange=148:154
+25	gabas	gaba	NOUN	NOUN	_	24	flat	_	TokenRange=155:160
+26	a	o	DET	DET	_	33	mark	_	TokenRange=161:162
+27	ultima	_	ADJ	ADJ	_	26	fixed	_	TokenRange=163:169
+28	vez	vez	NOUN	NOUN	_	26	fixed	_	TokenRange=170:173
+29	que	_	CCONJ	CONJ	_	26	fixed	_	TokenRange=174:177
+30	a	o	DET	DET	_	31	det	_	TokenRange=178:179
+31	blogueira	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=180:189
+32	presidenta	_	ADJ	ADJ	_	31	amod	_	TokenRange=190:200
+33	postou	postar	VERB	VERB	_	3	advcl	_	TokenRange=201:207
+34	algo	_	PRON	PRON	_	33	obj	_	TokenRange=208:212
+35	em	em	ADP	ADP	_	37	case	_	TokenRange=213:215
+36	sua	_	DET	DET	_	37	det:poss	_	TokenRange=216:219
+37	rede	rede	NOUN	NOUN	_	33	nmod	_	TokenRange=220:224
+38	social	social	ADJ	ADJ	_	37	amod	_	TokenRange=225:231
+39	ela	_	PRON	PRON	_	40	nsubj	_	TokenRange=232:235
+40	festejava	festejar	VERB	VERB	_	33	conj	_	TokenRange=236:245
+41	as	o	DET	DET	_	42	det	_	TokenRange=246:248
+42	denuncias	_	NOUN	NOUN	_	40	obj	_	TokenRange=249:258
+43-44	da	_	_	_	_	_	_	_	TokenRange=259:261
+43	de	de	ADP	ADP	_	45	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	lava	lava	NOUN	NOUN	_	42	nmod	_	TokenRange=262:266
+46	jato	jato	NOUN	NOUN	_	45	flat	_	TokenRange=267:271
+47	contra	_	ADP	ADP	_	49	case	_	TokenRange=272:278
+48	os	o	DET	DET	_	49	det	_	TokenRange=279:281
+49	ministros	ministro	NOUN	NOUN	_	42	nmod	_	TokenRange=282:291
+50-51	do	_	_	_	_	_	_	_	TokenRange=292:294
+50	de	de	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	governo	governo	NOUN	NOUN	_	49	nmod	_	TokenRange=295:302
+53	michel	michel	ADJ	ADJ	_	52	amod	_	TokenRange=303:309
+54	temer	temer	NOUN	NOUN	_	52	appos	_	TokenRange=310:315
+55	dilma	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=316:321
+56	acredita	acreditar	VERB	VERB	_	40	parataxis	_	TokenRange=322:330
+57	piamente	piamente	ADV	ADV	_	56	advmod	_	TokenRange=331:339
+58-59	na	_	_	_	_	_	_	_	TokenRange=340:342
+58	em	em	ADP	ADP	_	60	case	_	_
+59	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	justica	_	NOUN	NOUN	_	56	nmod	_	TokenRange=343:350
+61	desde	_	ADP	ADP	_	63	mark	_	TokenRange=351:356
+62	que	_	CCONJ	CONJ	_	61	fixed	_	TokenRange=357:360
+63	prejudique	prejudicar	VERB	VERB	_	56	advcl	_	TokenRange=361:371
+64	os	o	DET	DET	_	65	det	_	TokenRange=372:374
+65	partidos	partido	NOUN	NOUN	_	63	obj	_	TokenRange=375:383
+66	de	de	ADP	ADP	_	67	case	_	TokenRange=384:386
+67	oposicao	oposicao	NOUN	NOUN	_	65	nmod	_	TokenRange=387:395
+68	justica	justico	ADJ	ADJ	_	65	appos	_	TokenRange=396:403
+69	contra	_	ADP	ADP	_	71	case	_	TokenRange=404:410
+70	o	o	DET	DET	_	71	det	_	TokenRange=411:412
+71	pt	pt	NOUN	NOUN	_	68	nmod	_	TokenRange=413:415
+72	e	e	CCONJ	CONJ	_	73	cc	_	TokenRange=416:417
+73	atendado	atendar	VERB	VERB	_	63	conj	_	TokenRange=418:426
+74	a	o	DET	DET	_	75	det	_	TokenRange=427:428
+75	democracia	democracia	NOUN	NOUN	_	73	obj	_	SpacesAfter=\s\s|TokenRange=429:439
+

@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exdeputado sandro mabel recebeu doacoes para campanha via caixa dois dizem delatores da odebrecht relatos de exexecutivos da empreiteira apontam repasses de ate r 140 mil em 2010 nome dele tambem foi citado em delacao sobre aprovacao de emenda e manutencao de diretores em furnas o exdeputado federal sandro antonio scodro conhecido como sandro mabel pmdb recebeu r 140 mil via caixa dois da empreiteira odebrecht para sua campanha em 2010 segundo delacao do exexecutivo da empresa benedicto barbosa
+1	exdeputado	exdeputado	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	sandro	sandro	NOUN	NOUN	_	1	appos	_	TokenRange=11:17
+3	mabel	_	NOUN	NOUN	_	2	flat	_	TokenRange=18:23
+4	recebeu	receber	VERB	VERB	_	0	root	_	TokenRange=24:31
+5	doacoes	_	NOUN	NOUN	_	4	obj	_	TokenRange=32:39
+6	para	para	ADP	ADP	_	7	case	_	TokenRange=40:44
+7	campanha	campanha	NOUN	NOUN	_	5	nmod	_	TokenRange=45:53
+8	via	_	ADP	ADP	_	9	case	_	TokenRange=54:57
+9	caixa	caixa	NOUN	NOUN	_	4	nmod	_	TokenRange=58:63
+10	dois	_	NUM	NUM	NumType=Card	9	appos	_	TokenRange=64:68
+11	dizem	dizer	VERB	VERB	_	4	parataxis	_	TokenRange=69:74
+12	delatores	delator	NOUN	NOUN	_	11	obj	_	TokenRange=75:84
+13-14	da	_	_	_	_	_	_	_	TokenRange=85:87
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	odebrecht	odebrecht	NOUN	NOUN	_	12	nmod	_	TokenRange=88:97
+16	relatos	relato	NOUN	NOUN	_	22	nsubj	_	TokenRange=98:105
+17	de	de	ADP	ADP	_	18	case	_	TokenRange=106:108
+18	exexecutivos	exexecutivo	NOUN	NOUN	_	16	nmod	_	TokenRange=109:121
+19-20	da	_	_	_	_	_	_	_	TokenRange=122:124
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	empreiteira	empreiteiro	NOUN	NOUN	_	18	nmod	_	TokenRange=125:136
+22	apontam	apontar	VERB	VERB	_	4	parataxis	_	TokenRange=137:144
+23	repasses	repasse	NOUN	NOUN	_	22	obj	_	TokenRange=145:153
+24	de	de	ADP	ADP	_	26	case	_	TokenRange=154:156
+25	ate	ate	ADV	ADV	_	28	advmod	_	TokenRange=157:160
+26	r	r	NOUN	NOUN	_	23	nmod	_	TokenRange=161:162
+27	140	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=163:166
+28	mil	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=167:170
+29	em	em	ADP	ADP	_	30	case	_	TokenRange=171:173
+30	2010	_	NUM	NUM	NumType=Card	22	nmod	_	TokenRange=174:178
+31	nome	nome	NOUN	NOUN	_	35	nsubj:pass	_	TokenRange=179:183
+32	dele	_	X	ADPPRON	_	31	det:poss	_	TokenRange=184:188
+33	tambem	tambem	ADV	ADV	_	35	advmod	_	TokenRange=189:195
+34	foi	_	AUX	AUX	_	35	aux:pass	_	TokenRange=196:199
+35	citado	citar	VERB	VERB	_	4	parataxis	_	TokenRange=200:206
+36	em	em	ADP	ADP	_	37	case	_	TokenRange=207:209
+37	delacao	delacao	NOUN	NOUN	_	35	nmod	_	TokenRange=210:217
+38	sobre	_	ADP	ADP	_	39	case	_	TokenRange=218:223
+39	aprovacao	aprovacao	NOUN	NOUN	_	37	nmod	_	TokenRange=224:233
+40	de	de	ADP	ADP	_	41	case	_	TokenRange=234:236
+41	emenda	emenda	NOUN	NOUN	_	39	nmod	_	TokenRange=237:243
+42	e	e	CCONJ	CONJ	_	43	cc	_	TokenRange=244:245
+43	manutencao	manutencao	NOUN	NOUN	_	41	conj	_	TokenRange=246:256
+44	de	de	ADP	ADP	_	45	case	_	TokenRange=257:259
+45	diretores	diretor	NOUN	NOUN	_	41	nmod	_	TokenRange=260:269
+46	em	em	ADP	ADP	_	47	case	_	TokenRange=270:272
+47	furnas	furna	NOUN	NOUN	_	35	nmod	_	TokenRange=273:279
+48	o	o	DET	DET	_	49	det	_	TokenRange=280:281
+49	exdeputado	exdeputado	NOUN	NOUN	_	35	nsubj:pass	_	TokenRange=282:292
+50	federal	federal	ADJ	ADJ	_	49	amod	_	TokenRange=293:300
+51	sandro	sandro	NOUN	NOUN	_	49	appos	_	TokenRange=301:307
+52	antonio	antonio	ADJ	ADJ	_	51	flat	_	TokenRange=308:315
+53	scodro	scodro	ADJ	ADJ	_	51	flat	_	TokenRange=316:322
+54	conhecido	conhecer	VERB	VERB	_	49	acl	_	TokenRange=323:332
+55	como	como	ADP	ADP	_	56	case	_	TokenRange=333:337
+56	sandro	sandro	NOUN	NOUN	_	54	nmod	_	TokenRange=338:344
+57	mabel	mabel	ADJ	ADJ	_	56	flat	_	TokenRange=345:350
+58	pmdb	_	PROPN	PNOUN	_	56	appos	_	TokenRange=351:355
+59	recebeu	receber	VERB	VERB	_	35	parataxis	_	TokenRange=356:363
+60	r	r	NOUN	NOUN	_	59	obj	_	TokenRange=364:365
+61	140	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=366:369
+62	mil	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=370:373
+63	via	_	ADP	ADP	_	64	case	_	TokenRange=374:377
+64	caixa	caixa	NOUN	NOUN	_	59	nmod	_	TokenRange=378:383
+65	dois	_	NUM	NUM	NumType=Card	64	appos	_	TokenRange=384:388
+66-67	da	_	_	_	_	_	_	_	TokenRange=389:391
+66	de	de	ADP	ADP	_	68	case	_	_
+67	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
+68	empreiteira	empreiteiro	NOUN	NOUN	_	64	nmod	_	TokenRange=392:403
+69	odebrecht	_	PROPN	PNOUN	_	68	appos	_	TokenRange=404:413
+70	para	para	ADP	ADP	_	72	case	_	TokenRange=414:418
+71	sua	_	DET	DET	_	72	det:poss	_	TokenRange=419:422
+72	campanha	campanha	NOUN	NOUN	_	59	nmod	_	TokenRange=423:431
+73	em	em	ADP	ADP	_	74	case	_	TokenRange=432:434
+74	2010	_	NUM	NUM	NumType=Card	72	nmod	_	TokenRange=435:439
+75	segundo	_	ADP	ADP	_	76	case	_	TokenRange=440:447
+76	delacao	delacao	NOUN	NOUN	_	59	nmod	_	TokenRange=448:455
+77-78	do	_	_	_	_	_	_	_	TokenRange=456:458
+77	de	de	ADP	ADP	_	79	case	_	_
+78	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	_
+79	exexecutivo	exexecutivo	NOUN	NOUN	_	76	nmod	_	TokenRange=459:470
+80-81	da	_	_	_	_	_	_	_	TokenRange=471:473
+80	de	de	ADP	ADP	_	82	case	_	_
+81	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	82	det	_	_
+82	empresa	empresa	NOUN	NOUN	_	79	nmod	_	TokenRange=474:481
+83	benedicto	benedicto	NOUN	NOUN	_	82	appos	_	TokenRange=482:491
+84	barbosa	barboso	ADJ	ADJ	_	83	amod	_	SpacesAfter=\s\s|TokenRange=492:499
+

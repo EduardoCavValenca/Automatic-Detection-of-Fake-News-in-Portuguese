@@ -1,0 +1,26 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = governador evita falar sobre punicao para pms presos por desvio de verba para vitimas de enchentes em pernambuco
+1	governador	governador	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	evita	evitar	VERB	VERB	_	0	root	_	TokenRange=11:16
+3	falar	falar	VERB	VERB	_	2	xcomp	_	TokenRange=17:22
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=23:28
+5	punicao	punicao	NOUN	NOUN	_	3	nmod	_	TokenRange=29:36
+6	para	para	ADP	ADP	_	7	case	_	TokenRange=37:41
+7	pms	_	NOUN	NOUN	_	5	nmod	_	TokenRange=42:45
+8	presos	preso	NOUN	VERB	_	7	acl	_	TokenRange=46:52
+9	por	por	ADP	ADP	_	10	case	_	TokenRange=53:56
+10	desvio	desvio	NOUN	NOUN	_	8	nmod	_	TokenRange=57:63
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=64:66
+12	verba	verba	NOUN	NOUN	_	10	nmod	_	TokenRange=67:72
+13	para	para	ADP	ADP	_	14	case	_	TokenRange=73:77
+14	vitimas	vitima	NOUN	NOUN	_	10	nmod	_	TokenRange=78:85
+15	de	de	ADP	ADP	_	16	case	_	TokenRange=86:88
+16	enchentes	enchente	NOUN	NOUN	_	14	nmod	_	TokenRange=89:98
+17	em	em	ADP	ADP	_	18	case	_	TokenRange=99:101
+18	pernambuco	pernambuco	NOUN	NOUN	_	14	nmod	_	SpacesAfter=\s\s|TokenRange=102:112
+

@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = paulo henrique amorim aecio neves e um gangster filhinho de papai e provavel que o marcola e o fernandinho beiramar tenham uma linguagem mais elevada que aecio dessa vez temos que tirar o chapeu para pha pha que e petista de carteirinha e ja possui diversos processos no lombo soltou o verbo contra o senador aecio neves
+1	paulo	_	NOUN	NOUN	_	0	root	_	TokenRange=0:5
+2	henrique	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:14
+3	amorim	amorim	NOUN	NOUN	_	1	flat	_	TokenRange=15:21
+4	aecio	_	PROPN	PNOUN	_	1	appos	_	TokenRange=22:27
+5	neves	_	PROPN	PNOUN	_	4	flat	_	TokenRange=28:33
+6	e	e	CCONJ	CONJ	_	8	cc	_	TokenRange=34:35
+7	um	um	DET	DET	_	8	det	_	TokenRange=36:38
+8	gangster	gangster	NOUN	NOUN	_	1	conj	_	TokenRange=39:47
+9	filhinho	filhinho	ADJ	ADJ	_	8	amod	_	TokenRange=48:56
+10	de	de	ADP	ADP	_	11	case	_	TokenRange=57:59
+11	papai	papai	NOUN	NOUN	_	8	nmod	_	TokenRange=60:65
+12	e	e	CCONJ	CONJ	_	13	cc	_	TokenRange=66:67
+13	provavel	provavel	ADJ	ADJ	_	1	conj	_	TokenRange=68:76
+14	que	que	CCONJ	CONJ	_	21	mark	_	TokenRange=77:80
+15	o	o	DET	DET	_	16	det	_	TokenRange=81:82
+16	marcola	marcola	NOUN	NOUN	_	21	nsubj	_	TokenRange=83:90
+17	e	e	CCONJ	CONJ	_	19	cc	_	TokenRange=91:92
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	TokenRange=93:94
+19	fernandinho	_	NOUN	NOUN	_	16	conj	_	TokenRange=95:106
+20	beiramar	beiramar	ADJ	ADJ	_	19	amod	_	TokenRange=107:115
+21	tenham	ter	VERB	VERB	_	13	csubj	_	TokenRange=116:122
+22	uma	um	DET	DET	_	23	det	_	TokenRange=123:126
+23	linguagem	linguagem	NOUN	NOUN	_	21	obj	_	TokenRange=127:136
+24	mais	mais	ADV	ADV	_	25	advmod	_	TokenRange=137:141
+25	elevada	elevado	ADJ	ADJ	_	23	amod	_	TokenRange=142:149
+26	que	_	ADP	ADP	_	27	case	_	TokenRange=150:153
+27	aecio	aecio	NOUN	NOUN	_	21	nmod	_	TokenRange=154:159
+28	dessa	_	ADP	ADP	_	29	case	_	TokenRange=160:165
+29	vez	vez	NOUN	NOUN	_	32	nmod	_	TokenRange=166:169
+30	temos	ter	AUX	AUX	_	32	aux	_	TokenRange=170:175
+31	que	que	CCONJ	CONJ	_	32	mark	_	TokenRange=176:179
+32	tirar	tirar	VERB	VERB	_	1	conj	_	TokenRange=180:185
+33	o	o	DET	DET	_	34	det	_	TokenRange=186:187
+34	chapeu	chapeu	NOUN	NOUN	_	32	obj	_	TokenRange=188:194
+35	para	para	ADP	ADP	_	36	case	_	TokenRange=195:199
+36	pha	_	NOUN	NOUN	_	32	nmod	_	TokenRange=200:203
+37	pha	_	NOUN	NOUN	_	36	flat	_	TokenRange=204:207
+38	que	_	PRON	PRON	_	40	nsubj	_	TokenRange=208:211
+39	e	e	CCONJ	CONJ	_	40	cc	_	TokenRange=212:213
+40	petista	petista	NOUN	NOUN	_	36	acl:relcl	_	TokenRange=214:221
+41	de	de	ADP	ADP	_	42	case	_	TokenRange=222:224
+42	carteirinha	_	NOUN	NOUN	_	40	nmod	_	TokenRange=225:236
+43	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=237:238
+44	ja	ja	ADV	ADV	_	45	advmod	_	TokenRange=239:241
+45	possui	possuir	VERB	VERB	_	32	conj	_	TokenRange=242:248
+46	diversos	_	DET	DET	_	47	det	_	TokenRange=249:257
+47	processos	processo	NOUN	NOUN	_	45	obj	_	TokenRange=258:267
+48-49	no	_	_	_	_	_	_	_	TokenRange=268:270
+48	em	em	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	lombo	lombo	NOUN	NOUN	_	51	nmod	_	TokenRange=271:276
+51	soltou	soltar	VERB	VERB	_	45	conj	_	TokenRange=277:283
+52	o	o	DET	DET	_	53	det	_	TokenRange=284:285
+53	verbo	verbo	NOUN	NOUN	_	51	obj	_	TokenRange=286:291
+54	contra	_	ADP	ADP	_	56	case	_	TokenRange=292:298
+55	o	o	DET	DET	_	56	det	_	TokenRange=299:300
+56	senador	senador	NOUN	NOUN	_	51	nmod	_	TokenRange=301:308
+57	aecio	_	PROPN	PNOUN	_	56	appos	_	TokenRange=309:314
+58	neves	_	PROPN	PNOUN	_	57	flat	_	TokenRange=315:320
+

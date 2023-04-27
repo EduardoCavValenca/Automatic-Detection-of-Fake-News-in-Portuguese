@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = russia e ira condenam ataque dos eua que pedem saida de assad do comando da siria putin e rouhani pediram investigacao sobre ataque com
+1	russia	russia	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	e	e	CCONJ	CONJ	_	3	cc	_	TokenRange=7:8
+3	ira	ira	NOUN	NOUN	_	1	conj	_	TokenRange=9:12
+4	condenam	condenar	VERB	VERB	_	0	root	_	TokenRange=13:21
+5	ataque	ataque	NOUN	NOUN	_	4	obj	_	TokenRange=22:28
+6-7	dos	_	_	_	_	_	_	_	TokenRange=29:32
+6	de	de	ADP	ADP	_	8	case	_	_
+7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	eua	_	NOUN	NOUN	_	5	nmod	_	TokenRange=33:36
+9	que	_	PRON	PRON	_	10	nsubj	_	TokenRange=37:40
+10	pedem	pedir	VERB	VERB	_	5	acl:relcl	_	TokenRange=41:46
+11	saida	saida	NOUN	NOUN	_	10	obj	_	TokenRange=47:52
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=53:55
+13	assad	_	NOUN	NOUN	_	11	nmod	_	TokenRange=56:61
+14-15	do	_	_	_	_	_	_	_	TokenRange=62:64
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	comando	comando	NOUN	NOUN	_	11	nmod	_	TokenRange=65:72
+17-18	da	_	_	_	_	_	_	_	TokenRange=73:75
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	siria	_	NOUN	NOUN	_	16	nmod	_	TokenRange=76:81
+20	putin	_	PROPN	PNOUN	_	23	nsubj	_	TokenRange=82:87
+21	e	e	CCONJ	CONJ	_	22	cc	_	TokenRange=88:89
+22	rouhani	_	NOUN	NOUN	_	20	conj	_	TokenRange=90:97
+23	pediram	pedir	VERB	VERB	_	4	conj	_	TokenRange=98:105
+24	investigacao	investigacao	NOUN	NOUN	_	23	obj	_	TokenRange=106:118
+25	sobre	_	ADP	ADP	_	26	case	_	TokenRange=119:124
+26	ataque	ataque	NOUN	NOUN	_	24	nmod	_	TokenRange=125:131
+27	com	com	ADP	ADP	_	26	case	_	SpacesAfter=\s\s|TokenRange=132:135
+

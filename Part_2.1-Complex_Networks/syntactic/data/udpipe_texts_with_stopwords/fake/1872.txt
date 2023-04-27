@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ao vivo sergio moro dando aula de direito para os senadores o juiz federal sergio moro da uma aula de direito no senado ele participa da discussao da alteracao na lei de abuso de autoridade detalhe os senadores petistas sumiram
+1-2	ao	_	_	_	_	_	_	_	TokenRange=0:2
+1	a	a	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vivo	vivo	ADJ	ADJ	_	4	amod	_	TokenRange=3:7
+4	sergio	sergio	NOUN	NOUN	_	46	nsubj	_	TokenRange=8:14
+5	moro	moro	NOUN	NOUN	_	4	flat	_	TokenRange=15:19
+6	dando	dar	VERB	VERB	_	4	acl	_	TokenRange=20:25
+7	aula	aula	NOUN	NOUN	_	6	obj	_	TokenRange=26:30
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=31:33
+9	direito	direito	NOUN	NOUN	_	7	nmod	_	TokenRange=34:41
+10	para	para	ADP	ADP	_	12	case	_	TokenRange=42:46
+11	os	o	DET	DET	_	12	det	_	TokenRange=47:49
+12	senadores	senador	NOUN	NOUN	_	6	nmod	_	TokenRange=50:59
+13	o	o	DET	DET	_	14	det	_	TokenRange=60:61
+14	juiz	juiz	NOUN	NOUN	_	46	nsubj	_	TokenRange=62:66
+15	federal	federal	ADJ	ADJ	_	14	amod	_	TokenRange=67:74
+16	sergio	sergio	NOUN	NOUN	_	14	appos	_	TokenRange=75:81
+17	moro	moro	NOUN	NOUN	_	16	flat	_	TokenRange=82:86
+18-19	da	_	_	_	_	_	_	_	TokenRange=87:89
+18	de	de	ADP	ADP	_	21	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	uma	um	DET	DET	_	21	det	_	TokenRange=90:93
+21	aula	aula	NOUN	NOUN	_	14	nmod	_	TokenRange=94:98
+22	de	de	ADP	ADP	_	23	case	_	TokenRange=99:101
+23	direito	direito	NOUN	NOUN	_	21	nmod	_	TokenRange=102:109
+24-25	no	_	_	_	_	_	_	_	TokenRange=110:112
+24	em	em	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	senado	senado	NOUN	NOUN	_	21	nmod	_	TokenRange=113:119
+27	ele	_	PRON	PRON	_	46	nsubj	_	TokenRange=120:123
+28	participa	participar	VERB	VERB	_	0	root	_	TokenRange=124:133
+29-30	da	_	_	_	_	_	_	_	TokenRange=134:136
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	discussao	discussao	NOUN	NOUN	_	46	nmod	_	TokenRange=137:146
+32-33	da	_	_	_	_	_	_	_	TokenRange=147:149
+32	de	de	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	alteracao	alteracao	NOUN	NOUN	_	31	nmod	_	TokenRange=150:159
+35-36	na	_	_	_	_	_	_	_	TokenRange=160:162
+35	em	em	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	lei	lei	NOUN	NOUN	_	34	nmod	_	TokenRange=163:166
+38	de	de	ADP	ADP	_	39	case	_	TokenRange=167:169
+39	abuso	abuso	NOUN	NOUN	_	37	nmod	_	TokenRange=170:175
+40	de	de	ADP	ADP	_	41	case	_	TokenRange=176:178
+41	autoridade	autoridade	NOUN	NOUN	_	39	nmod	_	TokenRange=179:189
+42	detalhe	detalhe	ADJ	ADJ	_	46	xcomp	_	TokenRange=190:197
+43	os	o	DET	DET	_	44	det	_	TokenRange=198:200
+44	senadores	senador	NOUN	NOUN	_	46	nsubj	_	TokenRange=201:210
+45	petistas	petista	ADJ	ADJ	_	44	amod	_	TokenRange=211:219
+46	sumiram	sumir	VERB	VERB	_	28	parataxis	_	TokenRange=220:227
+

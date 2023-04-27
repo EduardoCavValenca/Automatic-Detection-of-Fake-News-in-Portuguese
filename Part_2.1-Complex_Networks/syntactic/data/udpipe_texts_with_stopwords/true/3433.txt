@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ccj da camara retoma debates sobre segunda denuncia contra temer apos debate sobre acusacao comissao deve votar parecer de relator favoravel ao arquivamento da peca brasilia a comissao de constituicao e
+1	ccj	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:3
+2-3	da	_	_	_	_	_	_	_	TokenRange=4:6
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	camara	camara	NOUN	NOUN	_	1	nmod	_	TokenRange=7:13
+5	retoma	retomar	VERB	VERB	_	0	root	_	TokenRange=14:20
+6	debates	debate	NOUN	NOUN	_	5	obj	_	TokenRange=21:28
+7	sobre	_	ADP	ADP	_	9	case	_	TokenRange=29:34
+8	segunda	segundo	ADJ	ADJ	_	9	amod	_	TokenRange=35:42
+9	denuncia	denuncia	NOUN	NOUN	_	6	nmod	_	TokenRange=43:51
+10	contra	_	ADP	ADP	_	11	case	_	TokenRange=52:58
+11	temer	temer	NOUN	NOUN	_	9	nmod	_	TokenRange=59:64
+12	apos	_	ADP	ADP	_	13	case	_	TokenRange=65:69
+13	debate	debate	NOUN	NOUN	_	18	nmod	_	TokenRange=70:76
+14	sobre	_	ADP	ADP	_	15	case	_	TokenRange=77:82
+15	acusacao	acusacao	NOUN	NOUN	_	13	nmod	_	TokenRange=83:91
+16	comissao	comissao	NOUN	NOUN	_	15	amod	_	TokenRange=92:100
+17	deve	dever	AUX	AUX	_	18	aux	_	TokenRange=101:105
+18	votar	votar	VERB	VERB	_	5	conj	_	TokenRange=106:111
+19	parecer	parecer	NOUN	NOUN	_	18	obj	_	TokenRange=112:119
+20	de	de	ADP	ADP	_	21	case	_	TokenRange=120:122
+21	relator	relator	NOUN	NOUN	_	19	nmod	_	TokenRange=123:130
+22	favoravel	favoravel	ADJ	ADJ	_	19	amod	_	TokenRange=131:140
+23-24	ao	_	_	_	_	_	_	_	TokenRange=141:143
+23	a	a	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	arquivamento	arquivamento	NOUN	NOUN	_	22	nmod	_	TokenRange=144:156
+26-27	da	_	_	_	_	_	_	_	TokenRange=157:159
+26	de	de	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	peca	peca	NOUN	NOUN	_	25	nmod	_	TokenRange=160:164
+29	brasilia	brasilio	ADJ	ADJ	_	28	amod	_	TokenRange=165:173
+30	a	o	DET	DET	_	31	det	_	TokenRange=174:175
+31	comissao	comissao	NOUN	NOUN	_	5	nsubj	_	TokenRange=176:184
+32	de	de	ADP	ADP	_	33	case	_	TokenRange=185:187
+33	constituicao	constituicao	NOUN	NOUN	_	31	nmod	_	TokenRange=188:200
+34	e	e	CCONJ	CONJ	_	18	cc	_	SpacesAfter=\s\s|TokenRange=201:202
+

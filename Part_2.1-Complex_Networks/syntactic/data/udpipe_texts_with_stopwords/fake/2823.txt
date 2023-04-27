@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o video que virou piada na internet os 4 patetas comemorando a anulacao do impeachment abaixo o video gravado ontem por lindbergh farias em companhia da senadora vanessa da investigada gleisi hoffmann e de paulo rocha lindberg gleisi vanessa e paulo ja concorrem ao melhor video de comedia do ano de 2016 ahhhesses adolescentes nao podem ter um iphone que ja saem filmando tudo coitadinhos rsrsrs
+1	o	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	video	video	NOUN	NOUN	_	47	nsubj	_	TokenRange=2:7
+3	que	_	PRON	PRON	_	5	nsubj	_	TokenRange=8:11
+4	virou	virar	AUX	AUX	_	5	cop	_	TokenRange=12:17
+5	piada	piada	NOUN	NOUN	_	2	acl:relcl	_	TokenRange=18:23
+6-7	na	_	_	_	_	_	_	_	TokenRange=24:26
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	internet	_	PROPN	PNOUN	_	5	nmod	_	TokenRange=27:35
+9	os	o	DET	DET	_	11	det	_	TokenRange=36:38
+10	4	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=39:40
+11	patetas	pateta	NOUN	NOUN	_	47	nsubj	_	TokenRange=41:48
+12	comemorando	comemorar	VERB	VERB	_	11	acl	_	TokenRange=49:60
+13	a	o	DET	DET	_	14	det	_	TokenRange=61:62
+14	anulacao	anulacao	NOUN	NOUN	_	12	obj	_	TokenRange=63:71
+15-16	do	_	_	_	_	_	_	_	TokenRange=72:74
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	impeachment	impeachment	NOUN	NOUN	_	14	nmod	_	TokenRange=75:86
+18	abaixo	abaixo	ADV	ADV	_	20	advmod	_	TokenRange=87:93
+19	o	o	DET	DET	_	20	det	_	TokenRange=94:95
+20	video	video	NOUN	NOUN	_	11	appos	_	TokenRange=96:101
+21	gravado	gravar	VERB	VERB	_	20	acl	_	TokenRange=102:109
+22	ontem	ontem	ADV	ADV	_	21	advmod	_	TokenRange=110:115
+23	por	por	ADP	ADP	_	24	case	_	TokenRange=116:119
+24	lindbergh	_	NOUN	NOUN	_	21	nmod	_	TokenRange=120:129
+25	farias	faria	ADJ	ADJ	_	24	amod	_	TokenRange=130:136
+26	em	em	ADP	ADP	_	27	case	_	TokenRange=137:139
+27	companhia	companhia	NOUN	NOUN	_	21	nmod	_	TokenRange=140:149
+28-29	da	_	_	_	_	_	_	_	TokenRange=150:152
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	senadora	senador	NOUN	NOUN	_	27	nmod	_	TokenRange=153:161
+31	vanessa	_	NOUN	NOUN	_	30	appos	_	TokenRange=162:169
+32-33	da	_	_	_	_	_	_	_	TokenRange=170:172
+32	de	de	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	investigada	investigado	NOUN	NOUN	_	30	nmod	_	TokenRange=173:184
+35	gleisi	_	NOUN	NOUN	_	30	appos	_	TokenRange=185:191
+36	hoffmann	_	NOUN	NOUN	_	35	flat	_	TokenRange=192:200
+37	e	e	CCONJ	CONJ	_	39	cc	_	TokenRange=201:202
+38	de	de	ADP	ADP	_	39	case	_	TokenRange=203:205
+39	paulo	paulo	NOUN	NOUN	_	30	conj	_	TokenRange=206:211
+40	rocha	rocha	NOUN	NOUN	_	39	flat	_	TokenRange=212:217
+41	lindberg	_	NOUN	NOUN	_	39	appos	_	TokenRange=218:226
+42	gleisi	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=227:233
+43	vanessa	_	NOUN	NOUN	_	42	appos	_	TokenRange=234:241
+44	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=242:243
+45	paulo	paulo	NOUN	NOUN	_	43	conj	_	TokenRange=244:249
+46	ja	ja	ADV	ADV	_	47	advmod	_	TokenRange=250:252
+47	concorrem	concorrer	VERB	VERB	_	0	root	_	TokenRange=253:262
+48-49	ao	_	_	_	_	_	_	_	TokenRange=263:265
+48	a	a	ADP	ADP	_	51	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+50	melhor	melhor	ADJ	ADJ	_	51	amod	_	TokenRange=266:272
+51	video	video	NOUN	NOUN	_	47	nmod	_	TokenRange=273:278
+52	de	de	ADP	ADP	_	53	case	_	TokenRange=279:281
+53	comedia	comedia	NOUN	NOUN	_	51	nmod	_	TokenRange=282:289
+54-55	do	_	_	_	_	_	_	_	TokenRange=290:292
+54	de	de	ADP	ADP	_	56	case	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	ano	ano	NOUN	NOUN	_	51	nmod	_	TokenRange=293:296
+57	de	de	ADP	ADP	_	58	case	_	TokenRange=297:299
+58	2016	_	NUM	NUM	NumType=Card	56	nmod	_	TokenRange=300:304
+59	ahhhesses	_	NOUN	NOUN	_	63	nsubj	_	TokenRange=305:314
+60	adolescentes	adolescente	ADJ	NOUN	_	59	amod	_	TokenRange=315:327
+61	nao	nao	ADV	ADV	Polarity=Neg	63	advmod	_	TokenRange=328:331
+62	podem	_	AUX	AUX	_	63	aux	_	TokenRange=332:337
+63	ter	ter	VERB	VERB	_	47	parataxis	_	TokenRange=338:341
+64	um	um	DET	DET	_	65	det	_	TokenRange=342:344
+65	iphone	_	NOUN	NOUN	_	63	obj	_	TokenRange=345:351
+66	que	_	PRON	PRON	_	69	nsubj	_	TokenRange=352:355
+67	ja	ja	ADV	ADV	_	69	advmod	_	TokenRange=356:358
+68	saem	sair	AUX	AUX	_	69	aux	_	TokenRange=359:363
+69	filmando	filmar	VERB	VERB	_	65	acl:relcl	_	TokenRange=364:372
+70	tudo	_	PRON	PRON	_	71	nsubj	_	TokenRange=373:377
+71	coitadinhos	coitado	VERB	VERB	_	69	xcomp	_	TokenRange=378:389
+72	rsrsrs	_	NOUN	NOUN	_	69	obj	_	TokenRange=390:396
+

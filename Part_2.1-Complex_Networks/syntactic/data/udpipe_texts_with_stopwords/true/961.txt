@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dificil de acreditar diz morador que teve casa atingida por aviao em rio preto aposentado ia cuidar da criacao de passaros quando aviao caiu no quintal da casa tres pessoas que estavam no aviao morreram
+1	dificil	dificil	ADJ	ADJ	_	4	xcomp	_	TokenRange=0:7
+2	de	_	ADP	ADP	_	3	mark	_	TokenRange=8:10
+3	acreditar	acreditar	VERB	VERB	_	1	nmod	_	TokenRange=11:20
+4	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=21:24
+5	morador	morador	NOUN	NOUN	_	4	nsubj	_	TokenRange=25:32
+6	que	que	CCONJ	CONJ	_	7	mark	_	TokenRange=33:36
+7	teve	ter	VERB	VERB	_	5	acl:relcl	_	TokenRange=37:41
+8	casa	casa	NOUN	NOUN	_	7	obj	_	TokenRange=42:46
+9	atingida	atingir	VERB	VERB	_	8	acl	_	TokenRange=47:55
+10	por	por	ADP	ADP	_	11	case	_	TokenRange=56:59
+11	aviao	aviao	NOUN	NOUN	_	9	nmod	_	TokenRange=60:65
+12	em	em	ADP	ADP	_	13	case	_	TokenRange=66:68
+13	rio	rio	NOUN	NOUN	_	9	nmod	_	TokenRange=69:72
+14	preto	preto	ADJ	ADJ	_	13	amod	_	TokenRange=73:78
+15	aposentado	aposentado	ADJ	ADJ	_	13	amod	_	TokenRange=79:89
+16	ia	ir	AUX	AUX	_	17	aux	_	TokenRange=90:92
+17	cuidar	cuidar	VERB	VERB	_	4	ccomp	_	TokenRange=93:99
+18-19	da	_	_	_	_	_	_	_	TokenRange=100:102
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	criacao	criacao	NOUN	NOUN	_	17	nmod	_	TokenRange=103:110
+21	de	de	ADP	ADP	_	22	case	_	TokenRange=111:113
+22	passaros	passaro	NOUN	NOUN	_	20	nmod	_	TokenRange=114:122
+23	quando	_	CCONJ	CONJ	_	25	mark	_	TokenRange=123:129
+24	aviao	aviao	NOUN	NOUN	_	25	nsubj	_	TokenRange=130:135
+25	caiu	cair	VERB	VERB	_	17	advcl	_	TokenRange=136:140
+26-27	no	_	_	_	_	_	_	_	TokenRange=141:143
+26	em	em	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	quintal	quintal	NOUN	NOUN	_	25	nmod	_	TokenRange=144:151
+29-30	da	_	_	_	_	_	_	_	TokenRange=152:154
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	casa	casa	NOUN	NOUN	_	28	nmod	_	TokenRange=155:159
+32	tres	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=160:164
+33	pessoas	pessoa	NOUN	NOUN	_	39	nsubj	_	TokenRange=165:172
+34	que	_	PRON	PRON	_	35	nsubj	_	TokenRange=173:176
+35	estavam	estar	VERB	VERB	_	33	acl:relcl	_	TokenRange=177:184
+36-37	no	_	_	_	_	_	_	_	TokenRange=185:187
+36	em	em	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	aviao	aviao	NOUN	NOUN	_	35	nmod	_	TokenRange=188:193
+39	morreram	morrer	VERB	VERB	_	4	ccomp	_	SpacesAfter=\s\s|TokenRange=194:202
+

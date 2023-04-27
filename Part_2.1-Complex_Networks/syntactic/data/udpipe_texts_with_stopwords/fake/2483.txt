@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = janaina paschoal e flagrada cantando em show de heavy metal janaina sim a nossa musa do impeachment interpretando um heavy metal o diario do brasil mostra mais um clipe da serie mestres da edicao dessa vez conseguimos unir politica e musica sera que combinou e claro que tudo nao passa de uma brincadeira com a competentissima dra janaina o diario do brasil manda um recado para a musa do impeachment tamo junto assista tambem
+1	janaina	janaina	NOUN	NOUN	_	28	nsubj	_	TokenRange=0:7
+2	paschoal	paschoal	ADJ	ADJ	_	1	amod	_	TokenRange=8:16
+3	e	e	CCONJ	CONJ	_	4	cc	_	TokenRange=17:18
+4	flagrada	flagrado	NOUN	NOUN	_	1	conj	_	TokenRange=19:27
+5	cantando	cantar	VERB	VERB	_	1	acl	_	TokenRange=28:36
+6	em	em	ADP	ADP	_	7	case	_	TokenRange=37:39
+7	show	show	NOUN	NOUN	_	5	nmod	_	TokenRange=40:44
+8	de	de	ADP	ADP	_	10	case	_	TokenRange=45:47
+9	heavy	heavy	ADJ	ADJ	_	10	amod	_	TokenRange=48:53
+10	metal	metal	NOUN	NOUN	_	7	nmod	_	TokenRange=54:59
+11	janaina	_	NOUN	NOUN	_	1	appos	_	TokenRange=60:67
+12	sim	sim	ADV	ADV	_	15	advmod	_	TokenRange=68:71
+13	a	o	DET	DET	_	15	det	_	TokenRange=72:73
+14	nossa	_	DET	DET	_	15	det:poss	_	TokenRange=74:79
+15	musa	musa	NOUN	NOUN	_	1	appos	_	TokenRange=80:84
+16-17	do	_	_	_	_	_	_	_	TokenRange=85:87
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	impeachment	impeachment	NOUN	NOUN	_	15	nmod	_	TokenRange=88:99
+19	interpretando	interpretar	VERB	VERB	_	15	acl	_	TokenRange=100:113
+20	um	um	DET	DET	_	22	det	_	TokenRange=114:116
+21	heavy	heavy	ADJ	ADJ	_	22	amod	_	TokenRange=117:122
+22	metal	metal	NOUN	NOUN	_	19	obj	_	TokenRange=123:128
+23	o	o	DET	DET	_	24	det	_	TokenRange=129:130
+24	diario	diario	NOUN	NOUN	_	28	nsubj	_	TokenRange=131:137
+25-26	do	_	_	_	_	_	_	_	TokenRange=138:140
+25	de	de	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	brasil	brasil	NOUN	NOUN	_	24	nmod	_	TokenRange=141:147
+28	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=148:154
+29	mais	mais	ADV	ADV	_	30	advmod	_	TokenRange=155:159
+30	um	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=160:162
+31	clipe	clipe	NOUN	NOUN	_	28	obj	_	TokenRange=163:168
+32-33	da	_	_	_	_	_	_	_	TokenRange=169:171
+32	de	de	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	serie	serie	NOUN	NOUN	_	31	nmod	_	TokenRange=172:177
+35	mestres	mestre	NOUN	NOUN	_	34	appos	_	TokenRange=178:185
+36-37	da	_	_	_	_	_	_	_	TokenRange=186:188
+36	de	de	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	edicao	edicao	NOUN	NOUN	_	34	nmod	_	TokenRange=189:195
+39	dessa	_	ADP	ADP	_	40	case	_	TokenRange=196:201
+40	vez	vez	NOUN	NOUN	_	41	nmod	_	TokenRange=202:205
+41	conseguimos	conseguir	VERB	VERB	_	28	parataxis	_	TokenRange=206:217
+42	unir	unir	VERB	VERB	_	41	xcomp	_	TokenRange=218:222
+43	politica	_	NOUN	NOUN	_	42	obj	_	TokenRange=223:231
+44	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=232:233
+45	musica	_	NOUN	NOUN	_	43	conj	_	TokenRange=234:240
+46	sera	_	VERB	VERB	_	42	ccomp	_	TokenRange=241:245
+47	que	que	CCONJ	CONJ	_	48	mark	_	TokenRange=246:249
+48	combinou	combinar	VERB	VERB	_	46	csubj	_	TokenRange=250:258
+49	e	e	CCONJ	CONJ	_	50	cc	_	TokenRange=259:260
+50	claro	claro	ADJ	ADJ	_	48	conj	_	TokenRange=261:266
+51	que	que	CCONJ	CONJ	_	54	mark	_	TokenRange=267:270
+52	tudo	_	PRON	PRON	_	54	nsubj	_	TokenRange=271:275
+53	nao	nao	ADV	ADV	Polarity=Neg	54	advmod	_	TokenRange=276:279
+54	passa	passar	VERB	VERB	_	48	ccomp	_	TokenRange=280:285
+55	de	de	ADP	ADP	_	57	case	_	TokenRange=286:288
+56	uma	um	DET	DET	_	57	det	_	TokenRange=289:292
+57	brincadeira	brincadeira	NOUN	NOUN	_	54	nmod	_	TokenRange=293:304
+58	com	com	ADP	ADP	_	61	case	_	TokenRange=305:308
+59	a	o	DET	DET	_	61	det	_	TokenRange=309:310
+60	competentissima	competentissimo	ADJ	ADJ	_	61	amod	_	TokenRange=311:326
+61	dra	_	NOUN	NOUN	_	57	nmod	_	TokenRange=327:330
+62	janaina	janaino	NOUN	NOUN	_	61	flat	_	TokenRange=331:338
+63	o	o	DET	DET	_	64	det	_	TokenRange=339:340
+64	diario	diario	NOUN	NOUN	_	68	nsubj	_	TokenRange=341:347
+65-66	do	_	_	_	_	_	_	_	TokenRange=348:350
+65	de	de	ADP	ADP	_	67	case	_	_
+66	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	brasil	brasil	NOUN	NOUN	_	64	nmod	_	TokenRange=351:357
+68	manda	mandar	VERB	VERB	_	48	conj	_	TokenRange=358:363
+69	um	um	DET	DET	_	70	det	_	TokenRange=364:366
+70	recado	recado	NOUN	NOUN	_	68	obj	_	TokenRange=367:373
+71	para	para	ADP	ADP	_	73	case	_	TokenRange=374:378
+72	a	o	DET	DET	_	73	det	_	TokenRange=379:380
+73	musa	musa	NOUN	NOUN	_	68	nmod	_	TokenRange=381:385
+74-75	do	_	_	_	_	_	_	_	TokenRange=386:388
+74	de	de	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	impeachment	impeachment	NOUN	NOUN	_	73	nmod	_	TokenRange=389:400
+77	tamo	_	ADV	NOUN	_	79	dep	_	TokenRange=401:405
+78	junto	junto	ADV	ADV	_	79	advmod	_	TokenRange=406:411
+79	assista	assistir	VERB	VERB	_	68	conj	_	TokenRange=412:419
+80	tambem	tambem	ADV	ADV	_	79	advmod	_	TokenRange=420:426
+

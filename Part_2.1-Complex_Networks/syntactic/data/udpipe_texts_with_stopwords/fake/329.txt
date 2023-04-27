@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bispo pede oracao para lula prepare ai seu pao com mortadela aleluia prepare ai seu pao com mortadela seu copo de cocacola e coloque proximo a sua televisao vamos orar pela vida do expresidente aleluia meu pai arruma uma cela bonita pra ele com as paredes bonitas ahhh meu pai que ele possa ser bem alimentado com arroz feijao e ovo carne nao
+1	bispo	bispo	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=6:10
+3	oracao	oracao	NOUN	NOUN	_	2	obj	_	TokenRange=11:17
+4	para	para	ADP	ADP	_	6	mark	_	TokenRange=18:22
+5	lula	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=23:27
+6	prepare	preparar	VERB	VERB	_	2	advcl	_	TokenRange=28:35
+7	ai	_	ADV	ADV	_	6	advmod	_	TokenRange=36:38
+8	seu	_	DET	DET	_	9	det:poss	_	TokenRange=39:42
+9	pao	pao	NOUN	NOUN	_	6	obj	_	TokenRange=43:46
+10	com	com	ADP	ADP	_	11	case	_	TokenRange=47:50
+11	mortadela	_	NOUN	NOUN	_	6	nmod	_	TokenRange=51:60
+12	aleluia	aleluia	NOUN	NOUN	_	13	nsubj	_	TokenRange=61:68
+13	prepare	preparar	VERB	VERB	_	6	conj	_	TokenRange=69:76
+14	ai	_	ADP	DET	_	16	case	_	TokenRange=77:79
+15	seu	_	DET	DET	_	16	det:poss	_	TokenRange=80:83
+16	pao	pao	NOUN	NOUN	_	13	obj	_	TokenRange=84:87
+17	com	com	ADP	ADP	_	18	case	_	TokenRange=88:91
+18	mortadela	mortadela	NOUN	NOUN	_	13	nmod	_	TokenRange=92:101
+19	seu	_	DET	DET	_	20	det:poss	_	TokenRange=102:105
+20	copo	copo	NOUN	NOUN	_	13	obj	_	TokenRange=106:110
+21	de	de	ADP	ADP	_	22	case	_	TokenRange=111:113
+22	cocacola	cocacola	NOUN	NOUN	_	20	nmod	_	TokenRange=114:122
+23	e	e	CCONJ	CONJ	_	24	cc	_	TokenRange=123:124
+24	coloque	colocar	VERB	VERB	_	13	conj	_	TokenRange=125:132
+25	proximo	proximo	ADV	ADV	_	24	advmod	_	TokenRange=133:140
+26	a	_	ADP	ADP	_	28	case	_	TokenRange=141:142
+27	sua	_	DET	DET	_	28	det:poss	_	TokenRange=143:146
+28	televisao	televisao	NOUN	NOUN	_	25	nmod	_	TokenRange=147:156
+29	vamos	ir	AUX	AUX	_	30	aux	_	TokenRange=157:162
+30	orar	orar	VERB	VERB	_	2	conj	_	TokenRange=163:167
+31-32	pela	_	_	_	_	_	_	_	TokenRange=168:172
+31	por	por	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	vida	vida	NOUN	NOUN	_	30	nmod	_	TokenRange=173:177
+34-35	do	_	_	_	_	_	_	_	TokenRange=178:180
+34	de	de	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	expresidente	expresidente	NOUN	NOUN	_	33	nmod	_	TokenRange=181:193
+37	aleluia	aleluia	NOUN	ADJ	_	36	appos	_	TokenRange=194:201
+38	meu	_	DET	DET	_	39	det:poss	_	TokenRange=202:205
+39	pai	pai	NOUN	NOUN	_	40	nsubj	_	TokenRange=206:209
+40	arruma	arrumar	VERB	VERB	_	30	parataxis	_	TokenRange=210:216
+41	uma	um	DET	DET	_	42	det	_	TokenRange=217:220
+42	cela	cela	NOUN	NOUN	_	40	obj	_	TokenRange=221:225
+43	bonita	bonito	ADJ	ADJ	_	42	amod	_	TokenRange=226:232
+44	pra	_	ADP	ADP	_	45	case	_	TokenRange=233:236
+45	ele	_	PRON	PRON	_	40	nmod	_	TokenRange=237:240
+46	com	com	ADP	ADP	_	48	case	_	TokenRange=241:244
+47	as	o	DET	DET	_	48	det	_	TokenRange=245:247
+48	paredes	parede	NOUN	NOUN	_	45	nmod	_	TokenRange=248:255
+49	bonitas	bonito	ADJ	ADJ	_	48	amod	_	TokenRange=256:263
+50	ahhh	ahhar	VERB	VERB	_	40	conj	_	TokenRange=264:268
+51	meu	_	DET	DET	_	52	det:poss	_	TokenRange=269:272
+52	pai	pai	NOUN	NOUN	_	50	obj	_	TokenRange=273:276
+53	que	que	CCONJ	CONJ	_	58	mark	_	TokenRange=277:280
+54	ele	_	PRON	PRON	_	58	nsubj:pass	_	TokenRange=281:284
+55	possa	_	AUX	AUX	_	58	aux	_	TokenRange=285:290
+56	ser	ser	AUX	AUX	_	58	aux:pass	_	TokenRange=291:294
+57	bem	bem	ADV	ADV	_	58	advmod	_	TokenRange=295:298
+58	alimentado	alimentar	VERB	VERB	_	50	ccomp	_	TokenRange=299:309
+59	com	com	ADP	ADP	_	60	case	_	TokenRange=310:313
+60	arroz	arroz	NOUN	NOUN	_	58	nmod	_	TokenRange=314:319
+61	feijao	feijao	NOUN	NOUN	_	60	flat	_	TokenRange=320:326
+62	e	e	CCONJ	CONJ	_	63	cc	_	TokenRange=327:328
+63	ovo	ovo	NOUN	NOUN	_	60	conj	_	TokenRange=329:332
+64	carne	carne	NOUN	NOUN	_	60	appos	_	TokenRange=333:338
+65	nao	nao	ADV	ADV	Polarity=Neg	58	advmod	_	TokenRange=339:342
+

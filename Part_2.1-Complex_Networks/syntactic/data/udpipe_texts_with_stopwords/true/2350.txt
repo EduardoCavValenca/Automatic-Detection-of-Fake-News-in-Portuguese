@@ -1,0 +1,24 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria fecha 1 ano de gestao com 126 mais queixas que 1 ano de haddad reclamacoes
+1	doria	doria	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	fecha	fechar	VERB	VERB	_	0	root	_	TokenRange=6:11
+3	1	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=12:13
+4	ano	ano	NOUN	NOUN	_	2	obj	_	TokenRange=14:17
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=18:20
+6	gestao	gestao	NOUN	NOUN	_	4	nmod	_	TokenRange=21:27
+7	com	com	ADP	ADP	_	10	case	_	TokenRange=28:31
+8	126	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=32:35
+9	mais	_	DET	DET	_	10	det	_	TokenRange=36:40
+10	queixas	queixa	NOUN	NOUN	_	2	nmod	_	TokenRange=41:48
+11	que	_	ADP	ADP	_	13	case	_	TokenRange=49:52
+12	1	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=53:54
+13	ano	ano	NOUN	NOUN	_	10	nmod	_	TokenRange=55:58
+14	de	de	ADP	ADP	_	15	case	_	TokenRange=59:61
+15	haddad	_	PROPN	PNOUN	_	13	nmod	_	TokenRange=62:68
+16	reclamacoes	_	NOUN	NOUN	_	13	appos	_	SpacesAfter=\s\s|TokenRange=69:80
+

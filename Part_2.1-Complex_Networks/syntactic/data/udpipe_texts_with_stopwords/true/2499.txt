@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = unicamp abre inscricoes do curso do golpe para discutir impeachment de dilma curso livre sera realizado
+1	unicamp	unicamp	NOUN	NOUN	_	18	nsubj:pass	_	TokenRange=0:7
+2	abre	abrir	VERB	VERB	_	0	root	_	TokenRange=8:12
+3	inscricoes	inscricoe	NOUN	NOUN	_	18	nsubj:pass	_	TokenRange=13:23
+4-5	do	_	_	_	_	_	_	_	TokenRange=24:26
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	curso	curso	NOUN	NOUN	_	3	nmod	_	TokenRange=27:32
+7-8	do	_	_	_	_	_	_	_	TokenRange=33:35
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	golpe	golpe	NOUN	NOUN	_	6	nmod	_	TokenRange=36:41
+10	para	_	ADP	ADP	_	11	mark	_	TokenRange=42:46
+11	discutir	discutir	VERB	VERB	_	18	advcl	_	TokenRange=47:55
+12	impeachment	impeachment	NOUN	NOUN	_	11	obj	_	TokenRange=56:67
+13	de	de	ADP	ADP	_	14	case	_	TokenRange=68:70
+14	dilma	dilma	NOUN	NOUN	_	12	nmod	_	TokenRange=71:76
+15	curso	curso	NOUN	NOUN	_	18	nsubj:pass	_	TokenRange=77:82
+16	livre	livre	ADJ	ADJ	_	15	amod	_	TokenRange=83:88
+17	sera	_	AUX	AUX	_	18	aux:pass	_	TokenRange=89:93
+18	realizado	realizar	VERB	VERB	_	2	parataxis	_	SpacesAfter=\s\s|TokenRange=94:103
+

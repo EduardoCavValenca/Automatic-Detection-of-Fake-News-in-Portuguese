@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = freud e salvador dali se encontram no palco do theatro da paz em belem peca dirigida por jo soares sera encenada em belem entre os dias 24 e 25 de junho o que aconteceria se o pai da psicanalise ao se refugiar em londres para fugir do nazismo se encontrasse com salvador
+1	freud	freud	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	e	e	CCONJ	CONJ	_	3	cc	_	TokenRange=6:7
+3	salvador	salvador	NOUN	NOUN	_	1	conj	_	TokenRange=8:16
+4	dali	_	PROPN	PNOUN	_	3	flat	_	TokenRange=17:21
+5	se	_	PRON	PRON	_	6	obj	_	TokenRange=22:24
+6	encontram	encontrar	VERB	VERB	_	0	root	_	TokenRange=25:34
+7-8	no	_	_	_	_	_	_	_	TokenRange=35:37
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	palco	palco	NOUN	NOUN	_	6	nmod	_	TokenRange=38:43
+10-11	do	_	_	_	_	_	_	_	TokenRange=44:46
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	theatro	theatro	NOUN	NOUN	_	9	nmod	_	TokenRange=47:54
+13-14	da	_	_	_	_	_	_	_	TokenRange=55:57
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	paz	paz	NOUN	NOUN	_	12	nmod	_	TokenRange=58:61
+16	em	em	ADP	ADP	_	17	case	_	TokenRange=62:64
+17	belem	belem	NOUN	NOUN	_	6	nmod	_	TokenRange=65:70
+18	peca	peca	NOUN	NOUN	_	6	nsubj	_	TokenRange=71:75
+19	dirigida	dirigir	VERB	VERB	_	18	acl	_	TokenRange=76:84
+20	por	por	ADP	ADP	_	21	case	_	TokenRange=85:88
+21	jo	jo	NOUN	NOUN	_	19	nmod	_	TokenRange=89:91
+22	soares	_	ADJ	NOUN	_	21	flat	_	TokenRange=92:98
+23	sera	_	AUX	AUX	_	24	aux:pass	_	TokenRange=99:103
+24	encenada	encenar	VERB	VERB	_	6	parataxis	_	TokenRange=104:112
+25	em	em	ADP	ADP	_	26	case	_	TokenRange=113:115
+26	belem	_	NOUN	NOUN	_	24	nmod	_	TokenRange=116:121
+27	entre	_	ADP	ADP	_	29	case	_	TokenRange=122:127
+28	os	o	DET	DET	_	29	det	_	TokenRange=128:130
+29	dias	dia	NOUN	NOUN	_	24	nmod	_	TokenRange=131:135
+30	24	_	NUM	NUM	NumType=Card	29	nmod	_	TokenRange=136:138
+31	e	e	CCONJ	CONJ	_	32	cc	_	TokenRange=139:140
+32	25	_	NUM	NUM	NumType=Card	30	conj	_	TokenRange=141:143
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=144:146
+34	junho	_	PROPN	PNOUN	_	30	nmod	_	TokenRange=147:152
+35	o	o	DET	DET	_	36	det	_	TokenRange=153:154
+36	que	_	PRON	PRON	_	37	nsubj	_	TokenRange=155:158
+37	aconteceria	acontecer	VERB	VERB	_	24	parataxis	_	TokenRange=159:170
+38	se	_	CCONJ	CONJ	_	56	mark	_	TokenRange=171:173
+39	o	o	DET	DET	_	40	det	_	TokenRange=174:175
+40	pai	pai	NOUN	NOUN	_	56	nsubj	_	TokenRange=176:179
+41-42	da	_	_	_	_	_	_	_	TokenRange=180:182
+41	de	de	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	psicanalise	psicanalise	NOUN	NOUN	_	40	nmod	_	TokenRange=183:194
+44-45	ao	_	_	_	_	_	_	_	TokenRange=195:197
+44	a	a	ADP	ADP	_	47	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+46	se	_	PRON	PRON	_	47	obj	_	TokenRange=198:200
+47	refugiar	refugiar	VERB	VERB	_	37	advcl	_	TokenRange=201:209
+48	em	em	ADP	ADP	_	49	case	_	TokenRange=210:212
+49	londres	londr	NOUN	NOUN	_	47	nmod	_	TokenRange=213:220
+50	para	_	ADP	ADP	_	51	mark	_	TokenRange=221:225
+51	fugir	fugir	VERB	VERB	_	47	advcl	_	TokenRange=226:231
+52-53	do	_	_	_	_	_	_	_	TokenRange=232:234
+52	de	de	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	nazismo	nazismo	NOUN	NOUN	_	51	nmod	_	TokenRange=235:242
+55	se	_	PRON	PRON	_	56	expl:pv	_	TokenRange=243:245
+56	encontrasse	encontrar	VERB	VERB	_	37	advcl	_	TokenRange=246:257
+57	com	com	ADP	ADP	_	58	case	_	TokenRange=258:261
+58	salvador	salvador	NOUN	NOUN	_	56	nmod	_	SpacesAfter=\s\s|TokenRange=262:270
+

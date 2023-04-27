@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = planeta atlantida 2018 g1 lista os destaques da segunda noite festival no rio grande do sul reuniu cerca de 74 mil pessoas entre sexta 2 e sabado 3 evento teve simone e simaria o rappa anitta luan santana pabllo vittar e a banda francesa phoenix entre outros em dois dias o planeta atlantida reuniu 74 mil pessoas entre sextafeira
+1	planeta	planeta	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:7
+2	atlantida	atlantido	ADJ	ADJ	_	1	amod	_	TokenRange=8:17
+3	2018	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=18:22
+4	g1	_	NOUN	NOUN	_	1	appos	_	TokenRange=23:25
+5	lista	listar	VERB	VERB	_	0	root	_	TokenRange=26:31
+6	os	o	DET	DET	_	7	det	_	TokenRange=32:34
+7	destaques	destaque	NOUN	NOUN	_	5	obj	_	TokenRange=35:44
+8-9	da	_	_	_	_	_	_	_	TokenRange=45:47
+8	de	de	ADP	ADP	_	11	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	segunda	segundo	ADJ	ADJ	_	11	amod	_	TokenRange=48:55
+11	noite	noite	NOUN	NOUN	_	7	nmod	_	TokenRange=56:61
+12	festival	festival	NOUN	NOUN	_	11	amod	_	TokenRange=62:70
+13-14	no	_	_	_	_	_	_	_	TokenRange=71:73
+13	em	em	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	rio	rio	NOUN	NOUN	_	20	nmod	_	TokenRange=74:77
+16	grande	grande	ADJ	ADJ	_	15	amod	_	TokenRange=78:84
+17-18	do	_	_	_	_	_	_	_	TokenRange=85:87
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sul	sul	NOUN	NOUN	_	15	nmod	_	TokenRange=88:91
+20	reuniu	reunir	VERB	VERB	_	5	parataxis	_	TokenRange=92:98
+21	cerca	cerca	ADV	ADV	_	24	advmod	_	TokenRange=99:104
+22	de	de	ADP	ADP	_	21	case	_	TokenRange=105:107
+23	74	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=108:110
+24	mil	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=111:114
+25	pessoas	pessoa	NOUN	NOUN	_	20	obj	_	TokenRange=115:122
+26	entre	_	ADP	ADP	_	27	case	_	TokenRange=123:128
+27	sexta	_	PROPN	PNOUN	_	20	nmod	_	TokenRange=129:134
+28	2	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=135:136
+29	e	e	CCONJ	CONJ	_	30	cc	_	TokenRange=137:138
+30	sabado	_	PROPN	PNOUN	_	28	conj	_	TokenRange=139:145
+31	3	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=146:147
+32	evento	evento	NOUN	NOUN	_	33	nsubj	_	TokenRange=148:154
+33	teve	ter	VERB	VERB	_	20	conj	_	TokenRange=155:159
+34	simone	simone	NOUN	NOUN	_	33	obj	_	TokenRange=160:166
+35	e	e	CCONJ	CONJ	_	36	cc	_	TokenRange=167:168
+36	simaria	simaria	NOUN	NOUN	_	34	conj	_	TokenRange=169:176
+37	o	o	DET	DET	_	38	det	_	TokenRange=177:178
+38	rappa	rappa	NOUN	NOUN	_	33	obj	_	TokenRange=179:184
+39	anitta	anitta	NOUN	NOUN	_	38	appos	_	TokenRange=185:191
+40	luan	_	NOUN	NOUN	_	38	appos	_	TokenRange=192:196
+41	santana	santana	NOUN	NOUN	_	40	flat	_	TokenRange=197:204
+42	pabllo	_	NOUN	NOUN	_	38	appos	_	TokenRange=205:211
+43	vittar	vittar	NOUN	NOUN	_	42	flat	_	TokenRange=212:218
+44	e	e	CCONJ	CONJ	_	46	cc	_	TokenRange=219:220
+45	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	TokenRange=221:222
+46	banda	banda	NOUN	NOUN	_	38	conj	_	TokenRange=223:228
+47	francesa	francês	ADJ	ADJ	_	46	amod	_	TokenRange=229:237
+48	phoenix	_	PROPN	PNOUN	_	46	appos	_	TokenRange=238:245
+49	entre	_	ADP	ADP	_	50	case	_	TokenRange=246:251
+50	outros	_	PRON	PRON	_	46	nmod	_	TokenRange=252:258
+51	em	em	ADP	ADP	_	53	case	_	TokenRange=259:261
+52	dois	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=262:266
+53	dias	dia	NOUN	NOUN	_	57	nmod	_	TokenRange=267:271
+54	o	o	DET	DET	_	55	det	_	TokenRange=272:273
+55	planeta	planeta	NOUN	NOUN	_	57	nsubj	_	TokenRange=274:281
+56	atlantida	atlantido	ADJ	ADJ	_	55	amod	_	TokenRange=282:291
+57	reuniu	reunir	VERB	VERB	_	33	parataxis	_	TokenRange=292:298
+58	74	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=299:301
+59	mil	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=302:305
+60	pessoas	pessoa	NOUN	NOUN	_	57	obj	_	TokenRange=306:313
+61	entre	_	ADP	ADP	_	62	case	_	TokenRange=314:319
+62	sextafeira	_	PROPN	PNOUN	_	57	nmod	_	SpacesAfter=\s\s|TokenRange=320:330
+

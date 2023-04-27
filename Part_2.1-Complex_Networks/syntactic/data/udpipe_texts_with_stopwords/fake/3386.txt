@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = eduardo cunha ganha apelido entre agentes da pf angelica
+1	eduardo	eduardo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	cunha	_	PROPN	PNOUN	_	1	flat	_	TokenRange=8:13
+3	ganha	ganhar	VERB	VERB	_	0	root	_	TokenRange=14:19
+4	apelido	apelido	NOUN	NOUN	_	3	obj	_	TokenRange=20:27
+5	entre	_	ADP	ADP	_	6	case	_	TokenRange=28:33
+6	agentes	agente	NOUN	NOUN	_	3	nmod	_	TokenRange=34:41
+7-8	da	_	_	_	_	_	_	_	TokenRange=42:44
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	pf	_	NOUN	NOUN	_	6	nmod	_	TokenRange=45:47
+10	angelica	angelico	ADJ	ADJ	_	3	xcomp	_	SpacesAfter=\s\s|TokenRange=48:56
+

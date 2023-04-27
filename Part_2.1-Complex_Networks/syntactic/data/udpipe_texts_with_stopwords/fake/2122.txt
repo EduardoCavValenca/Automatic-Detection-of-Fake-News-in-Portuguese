@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senadora da republica aparece em video apoiando uma promoter de festas regadas a entorpecentes a senadora vanessa graziotin lider do pcdob do amazonas aparece apoiando uma tal de srta andreza candidata pelo pc do b de belem de acordo com a senadora vanessa a srta andreza pode representar muito bem a juventude as mulheres e os estudantes assista o video e tire suas conclusoes
+1	senadora	senador	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2-3	da	_	_	_	_	_	_	_	TokenRange=9:11
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	republica	_	NOUN	NOUN	_	1	nmod	_	TokenRange=12:21
+5	aparece	aparecer	VERB	VERB	_	0	root	_	TokenRange=22:29
+6	em	em	ADP	ADP	_	7	case	_	TokenRange=30:32
+7	video	video	NOUN	NOUN	_	5	nmod	_	TokenRange=33:38
+8	apoiando	apoiar	VERB	VERB	_	5	acl	_	TokenRange=39:47
+9	uma	um	DET	DET	_	10	det	_	TokenRange=48:51
+10	promoter	promoter	NOUN	NOUN	_	8	obj	_	TokenRange=52:60
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=61:63
+12	festas	festa	NOUN	NOUN	_	10	nmod	_	TokenRange=64:70
+13	regadas	regar	VERB	VERB	_	12	acl	_	TokenRange=71:78
+14	a	_	ADP	ADP	_	15	case	_	TokenRange=79:80
+15	entorpecentes	_	NOUN	NOUN	_	13	nmod	_	TokenRange=81:94
+16	a	o	DET	DET	_	17	det	_	TokenRange=95:96
+17	senadora	senador	NOUN	NOUN	_	27	nsubj	_	TokenRange=97:105
+18	vanessa	_	NOUN	NOUN	_	17	appos	_	TokenRange=106:113
+19	graziotin	_	ADJ	ADJ	_	18	flat	_	TokenRange=114:123
+20	lider	lider	NOUN	NOUN	_	17	appos	_	TokenRange=124:129
+21-22	do	_	_	_	_	_	_	_	TokenRange=130:132
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	pcdob	_	NOUN	NOUN	_	20	nmod	_	TokenRange=133:138
+24-25	do	_	_	_	_	_	_	_	TokenRange=139:141
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	amazonas	amazona	NOUN	NOUN	_	23	nmod	_	TokenRange=142:150
+27	aparece	aparecer	VERB	VERB	_	5	parataxis	_	TokenRange=151:158
+28	apoiando	apoiar	VERB	VERB	_	27	acl	_	TokenRange=159:167
+29	uma	um	DET	DET	_	30	det	_	TokenRange=168:171
+30	tal	_	PRON	PRON	_	28	obj	_	TokenRange=172:175
+31	de	de	ADP	ADP	_	32	case	_	TokenRange=176:178
+32	srta	srta	NOUN	NOUN	_	30	nmod	_	TokenRange=179:183
+33	andreza	andreza	NOUN	NOUN	_	32	flat	_	TokenRange=184:191
+34	candidata	candidato	NOUN	NOUN	_	32	amod	_	TokenRange=192:201
+35-36	pelo	_	_	_	_	_	_	_	TokenRange=202:206
+35	por	por	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	pc	_	NOUN	NOUN	_	34	nmod	_	TokenRange=207:209
+38-39	do	_	_	_	_	_	_	_	TokenRange=210:212
+38	de	de	ADP	ADP	_	40	case	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	b	_	NOUN	NOUN	_	37	nmod	_	TokenRange=213:214
+41	de	de	ADP	ADP	_	42	case	_	TokenRange=215:217
+42	belem	_	NOUN	NOUN	_	40	nmod	_	TokenRange=218:223
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=224:226
+44	acordo	acordo	NOUN	NOUN	_	34	nmod	_	TokenRange=227:233
+45	com	com	ADP	ADP	_	47	case	_	TokenRange=234:237
+46	a	o	DET	DET	_	47	det	_	TokenRange=238:239
+47	senadora	senador	NOUN	NOUN	_	44	nmod	_	TokenRange=240:248
+48	vanessa	_	ADJ	ADJ	_	47	appos	_	TokenRange=249:256
+49	a	o	DET	DET	_	50	det	_	TokenRange=257:258
+50	srta	srta	NOUN	NOUN	_	53	nsubj	_	TokenRange=259:263
+51	andreza	andreza	NOUN	NOUN	_	50	flat	_	TokenRange=264:271
+52	pode	_	AUX	AUX	_	53	aux	_	TokenRange=272:276
+53	representar	representar	VERB	VERB	_	5	parataxis	_	TokenRange=277:288
+54	muito	muito	ADV	ADV	_	55	advmod	_	TokenRange=289:294
+55	bem	bem	ADV	ADV	_	53	advmod	_	TokenRange=295:298
+56	a	o	DET	DET	_	57	det	_	TokenRange=299:300
+57	juventude	juventude	NOUN	NOUN	_	53	obj	_	TokenRange=301:310
+58	as	o	DET	DET	_	59	det	_	TokenRange=311:313
+59	mulheres	mulher	NOUN	NOUN	_	63	nsubj	_	TokenRange=314:322
+60	e	e	CCONJ	CONJ	_	62	cc	_	TokenRange=323:324
+61	os	o	DET	DET	_	62	det	_	TokenRange=325:327
+62	estudantes	estudante	NOUN	NOUN	_	59	conj	_	TokenRange=328:338
+63	assista	assistir	VERB	VERB	_	53	conj	_	TokenRange=339:346
+64	o	o	DET	DET	_	65	det	_	TokenRange=347:348
+65	video	video	NOUN	NOUN	_	63	obj	_	TokenRange=349:354
+66	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=355:356
+67	tire	tirar	VERB	VERB	_	63	conj	_	TokenRange=357:361
+68	suas	_	DET	DET	_	69	det:poss	_	TokenRange=362:366
+69	conclusoes	conclusoe	NOUN	NOUN	_	67	obj	_	TokenRange=367:377
+

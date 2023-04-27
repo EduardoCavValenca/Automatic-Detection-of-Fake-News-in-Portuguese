@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pedido de vista adia julgamento de acao penal contra o deputado gilmar sossella no trers parlamentar e
+1	pedido	pedido	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=7:9
+3	vista	vista	NOUN	NOUN	_	1	nmod	_	TokenRange=10:15
+4	adia	adiar	VERB	VERB	_	0	root	_	TokenRange=16:20
+5	julgamento	julgamento	NOUN	NOUN	_	4	obj	_	TokenRange=21:31
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=32:34
+7	acao	acao	NOUN	NOUN	_	5	nmod	_	TokenRange=35:39
+8	penal	penal	ADJ	ADJ	_	7	amod	_	TokenRange=40:45
+9	contra	_	ADP	ADP	_	11	case	_	TokenRange=46:52
+10	o	o	DET	DET	_	11	det	_	TokenRange=53:54
+11	deputado	deputado	NOUN	NOUN	_	5	nmod	_	TokenRange=55:63
+12	gilmar	gilmar	NOUN	NOUN	_	11	appos	_	TokenRange=64:70
+13	sossella	_	NOUN	NOUN	_	12	flat	_	TokenRange=71:79
+14-15	no	_	_	_	_	_	_	_	TokenRange=80:82
+14	em	em	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	trers	trers	NOUN	NOUN	_	5	nmod	_	TokenRange=83:88
+17	parlamentar	parlamentar	ADJ	ADJ	_	16	amod	_	TokenRange=89:100
+18	e	e	CCONJ	CONJ	_	4	cc	_	SpacesAfter=\s\s|TokenRange=101:102
+

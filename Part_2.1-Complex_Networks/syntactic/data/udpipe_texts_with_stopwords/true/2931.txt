@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = com valesca daniela mercury e pabllo parada lgbti movimenta orla de copacabana seis trios eletricos percorreram a avenida atlantica desde o comeco da manha sem apoio da prefeitura do rio evento quase foi cancelado com cerca de um mes de atraso e sem o aporte direto da prefeitura carioca a praia de copacabana na zona
+1	com	com	ADP	ADP	_	2	case	_	TokenRange=0:3
+2	valesca	_	NOUN	NOUN	_	9	nmod	_	TokenRange=4:11
+3	daniela	daniela	NOUN	NOUN	_	2	appos	_	TokenRange=12:19
+4	mercury	mercury	NOUN	NOUN	_	3	flat	_	TokenRange=20:27
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=28:29
+6	pabllo	pabllo	NOUN	NOUN	_	3	conj	_	TokenRange=30:36
+7	parada	parada	NOUN	NOUN	_	6	appos	_	TokenRange=37:43
+8	lgbti	_	NOUN	NOUN	_	7	amod	_	TokenRange=44:49
+9	movimenta	movimentar	VERB	VERB	_	0	root	_	TokenRange=50:59
+10	orla	orla	NOUN	NOUN	_	9	obj	_	TokenRange=60:64
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=65:67
+12	copacabana	copacabana	NOUN	NOUN	_	10	nmod	_	TokenRange=68:78
+13	seis	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=79:83
+14	trios	trio	NOUN	NOUN	_	16	nsubj	_	TokenRange=84:89
+15	eletricos	eletrico	ADJ	ADJ	_	14	amod	_	TokenRange=90:99
+16	percorreram	percorrer	VERB	VERB	_	10	acl:relcl	_	TokenRange=100:111
+17	a	o	DET	DET	_	18	det	_	TokenRange=112:113
+18	avenida	avenida	NOUN	NOUN	_	16	obj	_	TokenRange=114:121
+19	atlantica	atlantico	ADJ	ADJ	_	18	amod	_	TokenRange=122:131
+20	desde	_	ADP	ADP	_	22	case	_	TokenRange=132:137
+21	o	o	DET	DET	_	22	det	_	TokenRange=138:139
+22	comeco	comeco	NOUN	NOUN	_	16	nmod	_	TokenRange=140:146
+23-24	da	_	_	_	_	_	_	_	TokenRange=147:149
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	manha	manha	NOUN	NOUN	_	22	nmod	_	TokenRange=150:155
+26	sem	_	ADP	ADP	_	27	case	_	TokenRange=156:159
+27	apoio	apoio	NOUN	NOUN	_	16	nmod	_	TokenRange=160:165
+28-29	da	_	_	_	_	_	_	_	TokenRange=166:168
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	prefeitura	prefeitura	NOUN	NOUN	_	27	nmod	_	TokenRange=169:179
+31-32	do	_	_	_	_	_	_	_	TokenRange=180:182
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	rio	rio	NOUN	NOUN	_	30	nmod	_	TokenRange=183:186
+34	evento	evento	NOUN	NOUN	_	37	nsubj:pass	_	TokenRange=187:193
+35	quase	quase	ADV	ADV	_	37	advmod	_	TokenRange=194:199
+36	foi	_	AUX	AUX	_	37	aux:pass	_	TokenRange=200:203
+37	cancelado	cancelar	VERB	VERB	_	9	parataxis	_	TokenRange=204:213
+38	com	com	ADP	ADP	_	42	case	_	TokenRange=214:217
+39	cerca	cerca	ADV	ADV	_	41	advmod	_	TokenRange=218:223
+40	de	de	ADP	ADP	_	39	case	_	TokenRange=224:226
+41	um	_	NUM	NUM	NumType=Card	42	nummod	_	TokenRange=227:229
+42	mes	me	NOUN	NOUN	_	37	nmod	_	TokenRange=230:233
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=234:236
+44	atraso	atraso	NOUN	NOUN	_	42	nmod	_	TokenRange=237:243
+45	e	e	CCONJ	CONJ	_	48	cc	_	TokenRange=244:245
+46	sem	_	ADP	ADP	_	48	case	_	TokenRange=246:249
+47	o	o	DET	DET	_	48	det	_	TokenRange=250:251
+48	aporte	aporte	NOUN	NOUN	_	42	conj	_	TokenRange=252:258
+49	direto	direto	ADJ	ADJ	_	48	amod	_	TokenRange=259:265
+50-51	da	_	_	_	_	_	_	_	TokenRange=266:268
+50	de	de	ADP	ADP	_	52	case	_	_
+51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	prefeitura	prefeitura	NOUN	NOUN	_	48	nmod	_	TokenRange=269:279
+53	carioca	carioca	ADJ	ADJ	_	52	amod	_	TokenRange=280:287
+54	a	o	DET	DET	_	55	det	_	TokenRange=288:289
+55	praia	praia	NOUN	NOUN	_	48	appos	_	TokenRange=290:295
+56	de	de	ADP	ADP	_	57	case	_	TokenRange=296:298
+57	copacabana	copacabana	NOUN	NOUN	_	55	nmod	_	TokenRange=299:309
+58-59	na	_	_	_	_	_	_	_	TokenRange=310:312
+58	em	em	ADP	ADP	_	60	case	_	_
+59	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	zona	zona	NOUN	NOUN	_	55	nmod	_	SpacesAfter=\s\s|TokenRange=313:317
+

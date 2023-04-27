@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = e melhor jair se acostumando bolsonaro dispara nas intencoes de voto em santa catarina jair bolsonaro dispara na lideranca das intencoes de voto para presidente em santa catarina o levantamento foi feito pelo instituto parana pesquisas a pesquisa traz dois cenarios distintos o primeiro com o governador geraldo alckmin ja o segundo com joao doria
+1	e	_	CCONJ	CONJ	_	7	cc	_	TokenRange=0:1
+2	melhor	melhor	ADJ	ADJ	_	3	amod	_	TokenRange=2:8
+3	jair	jair	NOUN	NOUN	_	7	nsubj	_	TokenRange=9:13
+4	se	_	PRON	PRON	_	5	obj	_	TokenRange=14:16
+5	acostumando	acostumar	VERB	VERB	_	3	acl:relcl	_	TokenRange=17:28
+6	bolsonaro	bolsonaro	NOUN	NOUN	_	5	obj	_	TokenRange=29:38
+7	dispara	disparar	VERB	VERB	_	0	root	_	TokenRange=39:46
+8-9	nas	_	_	_	_	_	_	_	TokenRange=47:50
+8	em	em	ADP	ADP	_	10	case	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	intencoes	_	NOUN	NOUN	_	7	nmod	_	TokenRange=51:60
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=61:63
+12	voto	voto	NOUN	NOUN	_	10	nmod	_	TokenRange=64:68
+13	em	em	ADP	ADP	_	14	case	_	TokenRange=69:71
+14	santa	santo	NOUN	NOUN	_	7	nmod	_	TokenRange=72:77
+15	catarina	catarino	ADJ	ADJ	_	14	amod	_	TokenRange=78:86
+16	jair	jair	NOUN	NOUN	_	18	nsubj	_	TokenRange=87:91
+17	bolsonaro	bolsonaro	NOUN	NOUN	_	16	flat	_	TokenRange=92:101
+18	dispara	disparar	VERB	VERB	_	7	conj	_	TokenRange=102:109
+19-20	na	_	_	_	_	_	_	_	TokenRange=110:112
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	lideranca	lideranca	NOUN	NOUN	_	18	nmod	_	TokenRange=113:122
+22-23	das	_	_	_	_	_	_	_	TokenRange=123:126
+22	de	de	ADP	ADP	_	24	case	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	intencoes	_	NOUN	NOUN	_	21	nmod	_	TokenRange=127:136
+25	de	de	ADP	ADP	_	26	case	_	TokenRange=137:139
+26	voto	voto	NOUN	NOUN	_	24	nmod	_	TokenRange=140:144
+27	para	para	ADP	ADP	_	28	case	_	TokenRange=145:149
+28	presidente	presidente	NOUN	NOUN	_	24	nmod	_	TokenRange=150:160
+29	em	em	ADP	ADP	_	30	case	_	TokenRange=161:163
+30	santa	santa	NOUN	NOUN	_	18	nmod	_	TokenRange=164:169
+31	catarina	catarino	ADJ	ADJ	_	30	amod	_	TokenRange=170:178
+32	o	o	DET	DET	_	33	det	_	TokenRange=179:180
+33	levantamento	levantamento	NOUN	NOUN	_	35	nsubj:pass	_	TokenRange=181:193
+34	foi	_	AUX	AUX	_	35	aux:pass	_	TokenRange=194:197
+35	feito	_	VERB	VERB	_	7	parataxis	_	TokenRange=198:203
+36-37	pelo	_	_	_	_	_	_	_	TokenRange=204:208
+36	por	por	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	instituto	instituto	NOUN	NOUN	_	35	nmod	_	TokenRange=209:218
+39	parana	parana	ADJ	ADJ	_	38	amod	_	TokenRange=219:225
+40	pesquisas	pesquisa	NOUN	NOUN	_	38	appos	_	TokenRange=226:235
+41	a	o	DET	DET	_	42	det	_	TokenRange=236:237
+42	pesquisa	pesquisa	NOUN	NOUN	_	43	nsubj	_	TokenRange=238:246
+43	traz	trazer	VERB	VERB	_	35	parataxis	_	TokenRange=247:251
+44	dois	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=252:256
+45	cenarios	cenario	NOUN	NOUN	_	43	obj	_	TokenRange=257:265
+46	distintos	distinto	ADJ	ADJ	_	45	amod	_	TokenRange=266:275
+47	o	o	DET	DET	_	48	det	_	TokenRange=276:277
+48	primeiro	primeiro	NOUN	NOUN	_	43	nsubj	_	TokenRange=278:286
+49	com	com	ADP	ADP	_	51	case	_	TokenRange=287:290
+50	o	o	DET	DET	_	51	det	_	TokenRange=291:292
+51	governador	governador	NOUN	NOUN	_	48	nmod	_	TokenRange=293:303
+52	geraldo	geraldo	ADJ	ADJ	_	51	amod	_	TokenRange=304:311
+53	alckmin	_	NOUN	NOUN	_	51	flat	_	TokenRange=312:319
+54	ja	ja	CCONJ	CONJ	_	56	cc	_	TokenRange=320:322
+55	o	o	DET	DET	_	56	det	_	TokenRange=323:324
+56	segundo	segundo	NOUN	NOUN	_	48	conj	_	TokenRange=325:332
+57	com	com	ADP	ADP	_	58	case	_	TokenRange=333:336
+58	joao	joao	NOUN	NOUN	_	56	nmod	_	TokenRange=337:341
+59	doria	doria	NOUN	NOUN	_	58	flat	_	TokenRange=342:347
+

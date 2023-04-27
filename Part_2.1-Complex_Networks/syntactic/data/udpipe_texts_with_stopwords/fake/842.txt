@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = general diz que constituicao foi abandidada os militares saberao resolver nosso grave problema em uma publicacao feita ontem chagas destacou que a constituicao brasileira foi abandidada a atual cf promulgada apos o fim do regime militar transformou a liberdade em libertinagem e instrumentalizou a impunidade
+1	general	general	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	que	que	CCONJ	CONJ	_	6	mark	_	TokenRange=12:15
+4	constituicao	constituicao	NOUN	NOUN	_	6	nsubj:pass	_	TokenRange=16:28
+5	foi	_	AUX	AUX	_	6	aux:pass	_	TokenRange=29:32
+6	abandidada	abandidar	VERB	VERB	_	2	ccomp	_	TokenRange=33:43
+7	os	o	DET	DET	_	8	det	_	TokenRange=44:46
+8	militares	militar	NOUN	NOUN	_	9	nsubj	_	TokenRange=47:56
+9	saberao	saber	VERB	VERB	_	2	ccomp	_	TokenRange=57:64
+10	resolver	resolver	VERB	VERB	_	9	xcomp	_	TokenRange=65:73
+11	nosso	_	DET	DET	_	13	det:poss	_	TokenRange=74:79
+12	grave	grave	ADJ	ADJ	_	13	amod	_	TokenRange=80:85
+13	problema	problema	NOUN	NOUN	_	10	obj	_	TokenRange=86:94
+14	em	em	ADP	ADP	_	16	case	_	TokenRange=95:97
+15	uma	um	DET	DET	_	16	det	_	TokenRange=98:101
+16	publicacao	publicacao	NOUN	NOUN	_	10	nmod	_	TokenRange=102:112
+17	feita	_	VERB	VERB	_	16	acl	_	TokenRange=113:118
+18	ontem	ontem	ADV	ADV	_	17	advmod	_	TokenRange=119:124
+19	chagas	chaga	NOUN	NOUN	_	20	nsubj	_	TokenRange=125:131
+20	destacou	destacar	VERB	VERB	_	2	parataxis	_	TokenRange=132:140
+21	que	que	CCONJ	CONJ	_	26	mark	_	TokenRange=141:144
+22	a	o	DET	DET	_	23	det	_	TokenRange=145:146
+23	constituicao	constituicao	NOUN	NOUN	_	26	nsubj:pass	_	TokenRange=147:159
+24	brasileira	brasileiro	ADJ	ADJ	_	23	amod	_	TokenRange=160:170
+25	foi	_	AUX	AUX	_	26	aux:pass	_	TokenRange=171:174
+26	abandidada	abandidar	VERB	VERB	_	20	ccomp	_	TokenRange=175:185
+27	a	o	DET	DET	_	29	det	_	TokenRange=186:187
+28	atual	atual	ADJ	ADJ	_	29	amod	_	TokenRange=188:193
+29	cf	cf	NOUN	NOUN	_	26	nsubj:pass	_	TokenRange=194:196
+30	promulgada	promulgar	VERB	VERB	_	29	acl	_	TokenRange=197:207
+31	apos	_	ADP	ADP	_	33	case	_	TokenRange=208:212
+32	o	o	DET	DET	_	33	det	_	TokenRange=213:214
+33	fim	fim	NOUN	NOUN	_	30	nmod	_	TokenRange=215:218
+34-35	do	_	_	_	_	_	_	_	TokenRange=219:221
+34	de	de	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	regime	regime	NOUN	NOUN	_	33	nmod	_	TokenRange=222:228
+37	militar	militar	ADJ	ADJ	_	36	amod	_	TokenRange=229:236
+38	transformou	transformar	VERB	VERB	_	20	ccomp	_	TokenRange=237:248
+39	a	o	DET	DET	_	40	det	_	TokenRange=249:250
+40	liberdade	liberdade	NOUN	NOUN	_	38	obj	_	TokenRange=251:260
+41	em	em	ADP	ADP	_	42	case	_	TokenRange=261:263
+42	libertinagem	libertinagem	NOUN	NOUN	_	38	nmod	_	TokenRange=264:276
+43	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=277:278
+44	instrumentalizou	instrumentalizar	VERB	VERB	_	38	conj	_	TokenRange=279:295
+45	a	o	DET	DET	_	46	det	_	TokenRange=296:297
+46	impunidade	impunidade	NOUN	NOUN	_	44	obj	_	TokenRange=298:308
+

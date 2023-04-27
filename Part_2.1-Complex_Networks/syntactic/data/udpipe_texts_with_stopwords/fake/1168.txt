@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula se autodeclara inocente e diz que a lavajato e uma palhacada patricia moraes carvalho para o diario do brasil ate quando seremos obrigados a escutar esse discurso patetico e recheado de mentiras chamar a lavajato de palhacada o que acontece se eu uma simples cidada confrontar um policial federal ou um chefe do ministerio publico ou um juiz e o chamar de palhaco
+1	lula	lula	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	se	_	PRON	PRON	_	3	expl:pv	_	TokenRange=5:7
+3	autodeclara	autodeclarar	VERB	VERB	_	0	root	_	TokenRange=8:19
+4	inocente	inocente	ADJ	ADJ	_	3	xcomp	_	TokenRange=20:28
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=29:30
+6	diz	dizer	VERB	VERB	_	3	conj	_	TokenRange=31:34
+7	que	que	CCONJ	CONJ	_	12	mark	_	TokenRange=35:38
+8	a	o	DET	DET	_	9	det	_	TokenRange=39:40
+9	lavajato	lavajato	NOUN	NOUN	_	12	nsubj	_	TokenRange=41:49
+10	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=50:51
+11	uma	um	DET	DET	_	12	det	_	TokenRange=52:55
+12	palhacada	_	NOUN	NOUN	_	6	ccomp	_	TokenRange=56:65
+13	patricia	patricia	NOUN	NOUN	_	12	appos	_	TokenRange=66:74
+14	moraes	_	NOUN	NOUN	_	13	flat	_	TokenRange=75:81
+15	carvalho	carvalho	NOUN	NOUN	_	13	flat	_	TokenRange=82:90
+16	para	para	ADP	ADP	_	18	case	_	TokenRange=91:95
+17	o	o	DET	DET	_	18	det	_	TokenRange=96:97
+18	diario	diario	NOUN	NOUN	_	12	nmod	_	TokenRange=98:104
+19-20	do	_	_	_	_	_	_	_	TokenRange=105:107
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	brasil	brasil	NOUN	NOUN	_	18	nmod	_	TokenRange=108:114
+22	ate	_	ADV	ADV	_	25	mark	_	TokenRange=115:118
+23	quando	_	CCONJ	CONJ	_	25	mark	_	TokenRange=119:125
+24	seremos	ser	AUX	AUX	_	25	aux:pass	_	TokenRange=126:133
+25	obrigados	obrigar	VERB	VERB	_	6	advcl	_	TokenRange=134:143
+26	a	_	ADP	ADP	_	27	mark	_	TokenRange=144:145
+27	escutar	escutar	VERB	VERB	_	25	nmod	_	TokenRange=146:153
+28	esse	_	DET	DET	_	29	det	_	TokenRange=154:158
+29	discurso	discurso	NOUN	NOUN	_	27	obj	_	TokenRange=159:167
+30	patetico	patetico	ADJ	ADJ	_	29	amod	_	TokenRange=168:176
+31	e	e	CCONJ	CONJ	_	32	cc	_	TokenRange=177:178
+32	recheado	recheado	ADJ	ADJ	_	30	conj	_	TokenRange=179:187
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=188:190
+34	mentiras	mentira	NOUN	NOUN	_	32	nmod	_	TokenRange=191:199
+35	chamar	chamar	VERB	VERB	_	27	conj	_	TokenRange=200:206
+36	a	o	DET	DET	_	37	det	_	TokenRange=207:208
+37	lavajato	lavajato	NOUN	NOUN	_	35	obj	_	TokenRange=209:217
+38	de	de	ADP	ADP	_	39	case	_	TokenRange=218:220
+39	palhacada	_	NOUN	NOUN	_	35	nmod	_	TokenRange=221:230
+40	o	o	DET	PRON	_	41	det	_	TokenRange=231:232
+41	que	_	PRON	PRON	_	42	nsubj	_	TokenRange=233:236
+42	acontece	acontecer	VERB	VERB	_	35	parataxis	_	TokenRange=237:245
+43	se	_	CCONJ	CONJ	_	48	mark	_	TokenRange=246:248
+44	eu	_	PRON	PRON	_	48	nsubj	_	TokenRange=249:251
+45	uma	um	DET	DET	_	47	det	_	TokenRange=252:255
+46	simples	simples	ADJ	ADJ	_	47	amod	_	TokenRange=256:263
+47	cidada	cidado	NOUN	NOUN	_	48	nsubj	_	TokenRange=264:270
+48	confrontar	confrontar	VERB	VERB	_	42	advcl	_	TokenRange=271:281
+49	um	um	DET	DET	_	50	det	_	TokenRange=282:284
+50	policial	policial	NOUN	NOUN	_	48	obj	_	TokenRange=285:293
+51	federal	federal	ADJ	ADJ	_	50	amod	_	TokenRange=294:301
+52	ou	ou	CCONJ	CONJ	_	54	cc	_	TokenRange=302:304
+53	um	um	DET	DET	_	54	det	_	TokenRange=305:307
+54	chefe	chefe	NOUN	NOUN	_	50	conj	_	TokenRange=308:313
+55-56	do	_	_	_	_	_	_	_	TokenRange=314:316
+55	de	de	ADP	ADP	_	57	case	_	_
+56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	ministerio	ministerio	NOUN	NOUN	_	54	nmod	_	TokenRange=317:327
+58	publico	publico	ADJ	ADJ	_	57	amod	_	TokenRange=328:335
+59	ou	ou	CCONJ	CONJ	_	61	cc	_	TokenRange=336:338
+60	um	um	DET	DET	_	61	det	_	TokenRange=339:341
+61	juiz	juiz	NOUN	NOUN	_	50	conj	_	TokenRange=342:346
+62	e	e	CCONJ	CONJ	_	64	cc	_	TokenRange=347:348
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	TokenRange=349:350
+64	chamar	chamar	VERB	VERB	_	48	conj	_	TokenRange=351:357
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=358:360
+66	palhaco	palhaco	NOUN	NOUN	_	64	nmod	_	TokenRange=361:368
+

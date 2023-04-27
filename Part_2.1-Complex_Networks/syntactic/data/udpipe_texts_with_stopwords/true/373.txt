@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saiba como o meio politico reagiu a decisao do tse sobre a chapa dilmatemer por 4 votos a 3 tribunal rejeitou nesta sextafeira 9 a acao movida pelo psdb que pedia a cassacao da chapa formada por dilma rousseff e michel temer em 2014 por abuso de poder por 4 votos a 3 o tribunal superior eleitoral tse rejeitou nesta sextafeira 9 a cassacao da chapa formada por dilma rousseff e michel temer em 2014 o tse analisaram uma
+1	saiba	saber	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:5
+2	como	como	ADP	ADP	_	4	case	_	TokenRange=6:10
+3	o	o	DET	DET	_	4	det	_	TokenRange=11:12
+4	meio	meio	NOUN	NOUN	_	1	nmod	_	TokenRange=13:17
+5	politico	politico	ADJ	ADJ	_	4	amod	_	TokenRange=18:26
+6	reagiu	reagir	VERB	VERB	_	0	root	_	TokenRange=27:33
+7	a	o	DET	DET	_	8	det	_	TokenRange=34:35
+8	decisao	decisao	NOUN	NOUN	_	6	obj	_	TokenRange=36:43
+9-10	do	_	_	_	_	_	_	_	TokenRange=44:46
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tse	tse	NOUN	NOUN	_	8	nmod	_	TokenRange=47:50
+12	sobre	_	ADP	ADP	_	14	case	_	TokenRange=51:56
+13	a	o	DET	DET	_	14	det	_	TokenRange=57:58
+14	chapa	chapa	NOUN	NOUN	_	8	nmod	_	TokenRange=59:64
+15	dilmatemer	dilmatemer	NOUN	NOUN	_	14	flat	_	TokenRange=65:75
+16	por	por	ADP	ADP	_	18	case	_	TokenRange=76:79
+17	4	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=80:81
+18	votos	voto	NOUN	NOUN	_	22	nmod	_	TokenRange=82:87
+19	a	_	ADP	ADP	_	21	case	_	TokenRange=88:89
+20	3	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=90:91
+21	tribunal	tribunal	NOUN	NOUN	_	22	nsubj	_	TokenRange=92:100
+22	rejeitou	rejeitar	VERB	VERB	_	6	parataxis	_	TokenRange=101:109
+23	nesta	_	ADP	ADP	_	24	case	_	TokenRange=110:115
+24	sextafeira	_	PROPN	PNOUN	_	22	nmod	_	TokenRange=116:126
+25	9	_	NUM	NUM	NumType=Card	24	nmod	_	TokenRange=127:128
+26	a	o	DET	DET	_	27	det	_	TokenRange=129:130
+27	acao	acao	NOUN	NOUN	_	22	obj	_	TokenRange=131:135
+28	movida	mover	VERB	VERB	_	27	acl	_	TokenRange=136:142
+29-30	pelo	_	_	_	_	_	_	_	TokenRange=143:147
+29	por	por	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	psdb	_	NOUN	NOUN	_	28	nmod	_	TokenRange=148:152
+32	que	_	PRON	PRON	_	33	nsubj	_	TokenRange=153:156
+33	pedia	pedir	VERB	VERB	_	27	acl:relcl	_	TokenRange=157:162
+34	a	o	DET	DET	_	35	det	_	TokenRange=163:164
+35	cassacao	cassacao	NOUN	NOUN	_	33	obj	_	TokenRange=165:173
+36-37	da	_	_	_	_	_	_	_	TokenRange=174:176
+36	de	de	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	chapa	chapa	NOUN	NOUN	_	35	nmod	_	TokenRange=177:182
+39	formada	formar	VERB	VERB	_	38	acl	_	TokenRange=183:190
+40	por	por	ADP	ADP	_	41	case	_	TokenRange=191:194
+41	dilma	dilma	NOUN	NOUN	_	39	nmod	_	TokenRange=195:200
+42	rousseff	rousseff	NOUN	NOUN	_	41	flat	_	TokenRange=201:209
+43	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=210:211
+44	michel	michel	NOUN	NOUN	_	41	conj	_	TokenRange=212:218
+45	temer	temer	NOUN	NOUN	_	44	flat	_	TokenRange=219:224
+46	em	em	ADP	ADP	_	47	case	_	TokenRange=225:227
+47	2014	_	NUM	NUM	NumType=Card	39	nmod	_	TokenRange=228:232
+48	por	por	ADP	ADP	_	49	case	_	TokenRange=233:236
+49	abuso	abuso	NOUN	NOUN	_	33	nmod	_	TokenRange=237:242
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=243:245
+51	poder	poder	NOUN	NOUN	_	49	nmod	_	TokenRange=246:251
+52	por	por	ADP	ADP	_	54	case	_	TokenRange=252:255
+53	4	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=256:257
+54	votos	voto	NOUN	NOUN	_	39	nmod	_	TokenRange=258:263
+55	a	_	ADP	ADP	_	56	case	_	TokenRange=264:265
+56	3	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=266:267
+57	o	o	DET	DET	_	58	det	_	TokenRange=268:269
+58	tribunal	tribunal	NOUN	NOUN	_	62	nsubj	_	TokenRange=270:278
+59	superior	superior	ADJ	ADJ	_	58	amod	_	TokenRange=279:287
+60	eleitoral	eleitoral	ADJ	ADJ	_	58	amod	_	TokenRange=288:297
+61	tse	_	PRON	PRON	_	58	appos	_	TokenRange=298:301
+62	rejeitou	rejeitar	VERB	VERB	_	6	conj	_	TokenRange=302:310
+63	nesta	_	ADP	ADP	_	64	case	_	TokenRange=311:316
+64	sextafeira	sextafeira	NOUN	NOUN	_	62	nmod	_	TokenRange=317:327
+65	9	_	NUM	NUM	NumType=Card	64	nmod	_	TokenRange=328:329
+66	a	o	DET	DET	_	67	det	_	TokenRange=330:331
+67	cassacao	cassacao	NOUN	NOUN	_	82	obj	_	TokenRange=332:340
+68-69	da	_	_	_	_	_	_	_	TokenRange=341:343
+68	de	de	ADP	ADP	_	70	case	_	_
+69	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
+70	chapa	chapa	NOUN	NOUN	_	67	nmod	_	TokenRange=344:349
+71	formada	formar	VERB	VERB	_	70	acl	_	TokenRange=350:357
+72	por	por	ADP	ADP	_	73	case	_	TokenRange=358:361
+73	dilma	dilma	NOUN	NOUN	_	71	nmod	_	TokenRange=362:367
+74	rousseff	rousseff	NOUN	NOUN	_	73	flat	_	TokenRange=368:376
+75	e	e	CCONJ	CONJ	_	76	cc	_	TokenRange=377:378
+76	michel	michel	ADJ	NOUN	_	73	conj	_	TokenRange=379:385
+77	temer	temer	NOUN	NOUN	_	76	flat	_	TokenRange=386:391
+78	em	em	ADP	ADP	_	79	case	_	TokenRange=392:394
+79	2014	_	NUM	NUM	NumType=Card	71	nmod	_	TokenRange=395:399
+80	o	o	DET	DET	_	81	det	_	TokenRange=400:401
+81	tse	tse	NOUN	NOUN	_	82	nsubj	_	TokenRange=402:405
+82	analisaram	analisar	VERB	VERB	_	62	parataxis	_	TokenRange=406:416
+83	uma	um	DET	DET	_	67	det	_	SpacesAfter=\s\s|TokenRange=417:420
+

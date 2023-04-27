@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = contraste enquanto manifestantes e pm se confrontavam engravatados se divertiam em um regabofe do lado de dentro um divertido coquetel acontecia nas dependencias da camara dos deputados do lado de fora a pm confrontava manifestantes a foto de gisele arthur resume o que acontece em nosso pais
+1	contraste	contraste	NOUN	NOUN	_	0	root	_	TokenRange=0:9
+2	enquanto	_	CCONJ	CONJ	_	7	mark	_	TokenRange=10:18
+3	manifestantes	manifestante	NOUN	NOUN	_	7	nsubj	_	TokenRange=19:32
+4	e	e	CCONJ	CONJ	_	5	cc	_	TokenRange=33:34
+5	pm	pm	NOUN	NOUN	_	3	conj	_	TokenRange=35:37
+6	se	_	PRON	PRON	_	7	obj	_	TokenRange=38:40
+7	confrontavam	confrontar	VERB	VERB	_	1	advcl	_	TokenRange=41:53
+8	engravatados	engravatado	ADJ	ADJ	_	7	xcomp	_	TokenRange=54:66
+9	se	_	PRON	PRON	_	10	obj	_	TokenRange=67:69
+10	divertiam	divertir	VERB	VERB	_	7	advcl	_	TokenRange=70:79
+11	em	em	ADP	ADP	_	13	case	_	TokenRange=80:82
+12	um	um	DET	DET	_	13	det	_	TokenRange=83:85
+13	regabofe	regabofe	NOUN	NOUN	_	10	nmod	_	TokenRange=86:94
+14-15	do	_	_	_	_	_	_	_	TokenRange=95:97
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	lado	lado	NOUN	NOUN	_	13	nmod	_	TokenRange=98:102
+17	de	_	ADP	ADP	_	18	mark	_	TokenRange=103:105
+18	dentro	dentro	ADV	ADV	_	16	nmod	_	TokenRange=106:112
+19	um	um	DET	DET	_	21	det	_	TokenRange=113:115
+20	divertido	divertido	ADJ	ADJ	_	21	amod	_	TokenRange=116:125
+21	coquetel	coquetel	NOUN	NOUN	_	22	nsubj	_	TokenRange=126:134
+22	acontecia	acontecer	VERB	VERB	_	7	parataxis	_	TokenRange=135:144
+23-24	nas	_	_	_	_	_	_	_	TokenRange=145:148
+23	em	em	ADP	ADP	_	25	case	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	dependencias	dependencia	NOUN	NOUN	_	22	nmod	_	TokenRange=149:161
+26-27	da	_	_	_	_	_	_	_	TokenRange=162:164
+26	de	de	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	camara	camara	NOUN	NOUN	_	25	nmod	_	TokenRange=165:171
+29-30	dos	_	_	_	_	_	_	_	TokenRange=172:175
+29	de	de	ADP	ADP	_	31	case	_	_
+30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	deputados	deputado	NOUN	NOUN	_	28	nmod	_	TokenRange=176:185
+32-33	do	_	_	_	_	_	_	_	TokenRange=186:188
+32	de	de	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	lado	lado	NOUN	NOUN	_	28	nmod	_	TokenRange=189:193
+35	de	_	ADP	ADP	_	36	mark	_	TokenRange=194:196
+36	fora	fora	ADV	ADV	_	34	nmod	_	TokenRange=197:201
+37	a	o	DET	DET	_	38	det	_	TokenRange=202:203
+38	pm	pm	NOUN	NOUN	_	39	nsubj	_	TokenRange=204:206
+39	confrontava	confrontar	VERB	VERB	_	22	conj	_	TokenRange=207:218
+40	manifestantes	manifestante	NOUN	NOUN	_	39	obj	_	TokenRange=219:232
+41	a	o	DET	DET	_	42	det	_	TokenRange=233:234
+42	foto	foto	NOUN	NOUN	_	46	nsubj	_	TokenRange=235:239
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=240:242
+44	gisele	gisele	NOUN	NOUN	_	42	nmod	_	TokenRange=243:249
+45	arthur	_	PROPN	PNOUN	_	44	flat	_	TokenRange=250:256
+46	resume	resumir	VERB	VERB	_	39	parataxis	_	TokenRange=257:263
+47	o	_	PRON	PRON	_	46	obj	_	TokenRange=264:265
+48	que	_	PRON	PRON	_	49	nsubj	_	TokenRange=266:269
+49	acontece	acontecer	VERB	VERB	_	47	acl:relcl	_	TokenRange=270:278
+50	em	em	ADP	ADP	_	52	case	_	TokenRange=279:281
+51	nosso	_	DET	DET	_	52	det:poss	_	TokenRange=282:287
+52	pais	_	NOUN	NOUN	_	49	nmod	_	TokenRange=288:292
+

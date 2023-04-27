@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o mito aos 86 anos apresentador surpreende silvio parou seu carro e deu carona para um fa silvio santos continua sendo um mito vivo wesley oliveira aguiar fa do apresentador do sbt conseguiu encontrar silvio dirigindo seu proprio veiculo nas ruas de sp silvio santos simplesmente parou o carro e deu uma carona ao rapaz que registrou o momento historico em um video feito com seu celular
+1	o	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	mito	mito	NOUN	NOUN	_	8	nsubj	_	TokenRange=2:6
+3-4	aos	_	_	_	_	_	_	_	TokenRange=7:10
+3	a	a	ADP	ADP	_	6	case	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	86	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=11:13
+6	anos	ano	NOUN	NOUN	_	2	nmod	_	TokenRange=14:18
+7	apresentador	apresentador	NOUN	NOUN	_	6	flat	_	TokenRange=19:31
+8	surpreende	surpreender	VERB	VERB	_	0	root	_	TokenRange=32:42
+9	silvio	silvio	NOUN	NOUN	_	8	obj	_	TokenRange=43:49
+10	parou	parar	VERB	VERB	_	8	ccomp	_	TokenRange=50:55
+11	seu	_	DET	DET	_	12	det:poss	_	TokenRange=56:59
+12	carro	carro	NOUN	NOUN	_	10	obj	_	TokenRange=60:65
+13	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=66:67
+14	deu	dar	VERB	VERB	_	10	conj	_	TokenRange=68:71
+15	carona	carona	NOUN	NOUN	_	14	obj	_	TokenRange=72:78
+16	para	para	ADP	ADP	_	18	case	_	TokenRange=79:83
+17	um	um	DET	DET	_	18	det	_	TokenRange=84:86
+18	fa	fa	NOUN	NOUN	_	14	nmod	_	TokenRange=87:89
+19	silvio	silvio	NOUN	NOUN	_	18	appos	_	TokenRange=90:96
+20	santos	santo	ADJ	NOUN	_	19	amod	_	TokenRange=97:103
+21	continua	continuar	AUX	AUX	_	24	aux	_	TokenRange=104:112
+22	sendo	ser	AUX	AUX	_	24	cop	_	TokenRange=113:118
+23	um	um	DET	DET	_	24	det	_	TokenRange=119:121
+24	mito	mito	NOUN	NOUN	_	8	conj	_	TokenRange=122:126
+25	vivo	vivo	ADJ	ADJ	_	24	amod	_	TokenRange=127:131
+26	wesley	_	NOUN	NOUN	_	24	nsubj	_	TokenRange=132:138
+27	oliveira	_	PROPN	PNOUN	_	26	flat	_	TokenRange=139:147
+28	aguiar	aguiar	NOUN	NOUN	_	26	flat	_	TokenRange=148:154
+29	fa	fa	NOUN	NOUN	_	26	appos	_	TokenRange=155:157
+30-31	do	_	_	_	_	_	_	_	TokenRange=158:160
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	apresentador	apresentador	NOUN	NOUN	_	29	nmod	_	TokenRange=161:173
+33-34	do	_	_	_	_	_	_	_	TokenRange=174:176
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	sbt	_	PROPN	PNOUN	_	32	nmod	_	TokenRange=177:180
+36	conseguiu	conseguir	VERB	VERB	_	24	conj	_	TokenRange=181:190
+37	encontrar	encontrar	VERB	VERB	_	36	xcomp	_	TokenRange=191:200
+38	silvio	silvio	NOUN	NOUN	_	37	obj	_	TokenRange=201:207
+39	dirigindo	dirigir	VERB	VERB	_	37	acl	_	TokenRange=208:217
+40	seu	_	DET	DET	_	42	det:poss	_	TokenRange=218:221
+41	proprio	proprio	ADJ	ADJ	_	42	amod	_	TokenRange=222:229
+42	veiculo	veiculo	NOUN	NOUN	_	39	obj	_	TokenRange=230:237
+43-44	nas	_	_	_	_	_	_	_	TokenRange=238:241
+43	em	em	ADP	ADP	_	45	case	_	_
+44	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
+45	ruas	rua	NOUN	NOUN	_	39	nmod	_	TokenRange=242:246
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=247:249
+47	sp	_	NOUN	NOUN	_	45	nmod	_	TokenRange=250:252
+48	silvio	silvio	ADJ	ADJ	_	51	nsubj	_	TokenRange=253:259
+49	santos	santo	ADJ	ADJ	_	48	flat	_	TokenRange=260:266
+50	simplesmente	simplesmente	ADV	ADV	_	51	advmod	_	TokenRange=267:279
+51	parou	parar	VERB	VERB	_	36	conj	_	TokenRange=280:285
+52	o	o	DET	DET	_	53	det	_	TokenRange=286:287
+53	carro	carro	NOUN	NOUN	_	51	obj	_	TokenRange=288:293
+54	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=294:295
+55	deu	dar	VERB	VERB	_	51	conj	_	TokenRange=296:299
+56	uma	um	DET	DET	_	57	det	_	TokenRange=300:303
+57	carona	carona	NOUN	NOUN	_	55	obj	_	TokenRange=304:310
+58-59	ao	_	_	_	_	_	_	_	TokenRange=311:313
+58	a	a	ADP	ADP	_	60	case	_	_
+59	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	rapaz	rapaz	NOUN	NOUN	_	55	iobj	_	TokenRange=314:319
+61	que	_	PRON	PRON	_	62	nsubj	_	TokenRange=320:323
+62	registrou	registrar	VERB	VERB	_	60	acl:relcl	_	TokenRange=324:333
+63	o	o	DET	DET	_	64	det	_	TokenRange=334:335
+64	momento	momento	NOUN	NOUN	_	62	obj	_	TokenRange=336:343
+65	historico	historico	ADJ	ADJ	_	64	amod	_	TokenRange=344:353
+66	em	em	ADP	ADP	_	68	case	_	TokenRange=354:356
+67	um	um	DET	DET	_	68	det	_	TokenRange=357:359
+68	video	video	NOUN	NOUN	_	62	nmod	_	TokenRange=360:365
+69	feito	_	VERB	VERB	_	68	acl	_	TokenRange=366:371
+70	com	com	ADP	ADP	_	72	case	_	TokenRange=372:375
+71	seu	_	DET	DET	_	72	det:poss	_	TokenRange=376:379
+72	celular	_	NOUN	NOUN	_	69	nmod	_	TokenRange=380:387
+

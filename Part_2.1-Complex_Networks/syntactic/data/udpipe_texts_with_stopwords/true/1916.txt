@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcelo odebrecht confirma em depoimento a moro que lula e amigo empresario prestou depoimento nesta segundafeira em processo envolvendo o exministro antonio palocci instituto lula diz que expresidente nao tem conhecimento com qualquer planilha o empresario marcelo odebrecht afirmou que o codinome amigo das planilhas da propina da empreiteira referiase ao expresidente luiz inacio lula da silva em depoimento prestado ao juiz federal
+1	marcelo	marcelo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	odebrecht	_	NOUN	NOUN	_	1	flat	_	TokenRange=8:17
+3	confirma	confirmar	VERB	VERB	_	0	root	_	TokenRange=18:26
+4	em	em	ADP	ADP	_	5	case	_	TokenRange=27:29
+5	depoimento	depoimento	NOUN	NOUN	_	3	nmod	_	TokenRange=30:40
+6	a	_	ADP	ADP	_	7	case	_	TokenRange=41:42
+7	moro	moro	NOUN	NOUN	_	3	iobj	_	TokenRange=43:47
+8	que	que	CCONJ	CONJ	_	13	mark	_	TokenRange=48:51
+9	lula	lula	NOUN	NOUN	_	13	nsubj	_	TokenRange=52:56
+10	e	e	CCONJ	CONJ	_	11	cc	_	TokenRange=57:58
+11	amigo	amigo	NOUN	NOUN	_	9	conj	_	TokenRange=59:64
+12	empresario	empresario	NOUN	NOUN	_	11	flat	_	TokenRange=65:75
+13	prestou	prestar	VERB	VERB	_	3	ccomp	_	TokenRange=76:83
+14	depoimento	depoimento	NOUN	NOUN	_	13	obj	_	TokenRange=84:94
+15	nesta	_	ADP	ADP	_	16	case	_	TokenRange=95:100
+16	segundafeira	_	NOUN	NOUN	_	13	nmod	_	TokenRange=101:113
+17	em	em	ADP	ADP	_	18	case	_	TokenRange=114:116
+18	processo	processo	NOUN	NOUN	_	13	nmod	_	TokenRange=117:125
+19	envolvendo	envolver	VERB	VERB	_	18	acl	_	TokenRange=126:136
+20	o	o	DET	DET	_	21	det	_	TokenRange=137:138
+21	exministro	exministro	NOUN	NOUN	_	19	obj	_	TokenRange=139:149
+22	antonio	antonio	NOUN	NOUN	_	21	appos	_	TokenRange=150:157
+23	palocci	_	NOUN	NOUN	_	22	flat	_	TokenRange=158:165
+24	instituto	instituto	NOUN	NOUN	_	26	nsubj	_	TokenRange=166:175
+25	lula	_	NOUN	NOUN	_	24	flat	_	TokenRange=176:180
+26	diz	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=181:184
+27	que	que	CCONJ	CONJ	_	30	mark	_	TokenRange=185:188
+28	expresidente	expresidente	NOUN	NOUN	_	30	nsubj	_	TokenRange=189:201
+29	nao	nao	ADV	ADV	Polarity=Neg	30	advmod	_	TokenRange=202:205
+30	tem	ter	VERB	VERB	_	26	ccomp	_	TokenRange=206:209
+31	conhecimento	conhecimento	NOUN	NOUN	_	30	obj	_	TokenRange=210:222
+32	com	com	ADP	ADP	_	34	case	_	TokenRange=223:226
+33	qualquer	_	DET	DET	_	34	det	_	TokenRange=227:235
+34	planilha	planilha	NOUN	NOUN	_	31	nmod	_	TokenRange=236:244
+35	o	o	DET	DET	_	36	det	_	TokenRange=245:246
+36	empresario	empresario	NOUN	NOUN	_	30	nsubj	_	TokenRange=247:257
+37	marcelo	marcelo	NOUN	NOUN	_	36	appos	_	TokenRange=258:265
+38	odebrecht	_	PROPN	PNOUN	_	37	flat	_	TokenRange=266:275
+39	afirmou	afirmar	VERB	VERB	_	26	parataxis	_	TokenRange=276:283
+40	que	que	CCONJ	CONJ	_	53	mark	_	TokenRange=284:287
+41	o	o	DET	DET	_	42	det	_	TokenRange=288:289
+42	codinome	codinome	NOUN	NOUN	_	53	nsubj	_	TokenRange=290:298
+43	amigo	amigo	NOUN	NOUN	_	42	flat	_	TokenRange=299:304
+44-45	das	_	_	_	_	_	_	_	TokenRange=305:308
+44	de	de	ADP	ADP	_	46	case	_	_
+45	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+46	planilhas	planilha	NOUN	NOUN	_	42	nmod	_	TokenRange=309:318
+47-48	da	_	_	_	_	_	_	_	TokenRange=319:321
+47	de	de	ADP	ADP	_	49	case	_	_
+48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	propina	propina	NOUN	NOUN	_	46	nmod	_	TokenRange=322:329
+50-51	da	_	_	_	_	_	_	_	TokenRange=330:332
+50	de	de	ADP	ADP	_	52	case	_	_
+51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	empreiteira	empreiteiro	NOUN	NOUN	_	49	nmod	_	TokenRange=333:344
+53	referiase	referir	VERB	VERB	_	39	ccomp	_	TokenRange=345:354
+54-55	ao	_	_	_	_	_	_	_	TokenRange=355:357
+54	a	a	ADP	ADP	_	56	case	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	expresidente	expresidente	NOUN	NOUN	_	53	iobj	_	TokenRange=358:370
+57	luiz	luiz	ADJ	ADJ	_	56	appos	_	TokenRange=371:375
+58	inacio	_	NOUN	NOUN	_	57	flat	_	TokenRange=376:382
+59	lula	_	PROPN	PNOUN	_	57	flat	_	TokenRange=383:387
+60-61	da	_	_	_	_	_	_	_	TokenRange=388:390
+60	de	de	ADP	ADP	_	62	case	_	_
+61	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+62	silva	silva	NOUN	NOUN	_	57	nmod	_	TokenRange=391:396
+63	em	em	ADP	ADP	_	64	case	_	TokenRange=397:399
+64	depoimento	depoimento	NOUN	NOUN	_	53	nmod	_	TokenRange=400:410
+65	prestado	prestar	VERB	VERB	_	64	acl	_	TokenRange=411:419
+66-67	ao	_	_	_	_	_	_	_	TokenRange=420:422
+66	a	a	ADP	ADP	_	68	case	_	_
+67	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+68	juiz	juiz	NOUN	NOUN	_	65	nmod	_	TokenRange=423:427
+69	federal	federal	ADJ	ADJ	_	68	amod	_	SpacesAfter=\s\s|TokenRange=428:435
+

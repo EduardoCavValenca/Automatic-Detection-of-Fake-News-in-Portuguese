@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = camara ja tem maioria de votos para afundar dilma veja quem vota contra e quem vota a favor do governo a comissao da camara que analisara o impeachment de dilma rousseff tera pelo menos 31 votos contrarios ao governo a favor do impeachment outros 28 deputados querem enterrar o processo contra o impeachment 6 estao indefinidos o colegiado tem 65 membros
+1	camara	camara	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	ja	ja	ADV	ADV	_	3	advmod	_	TokenRange=7:9
+3	tem	ter	VERB	VERB	_	0	root	_	TokenRange=10:13
+4	maioria	maioria	NOUN	NOUN	_	3	obj	_	TokenRange=14:21
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=22:24
+6	votos	voto	NOUN	NOUN	_	4	nmod	_	TokenRange=25:30
+7	para	_	ADP	ADP	_	8	mark	_	TokenRange=31:35
+8	afundar	afundar	VERB	VERB	_	3	advcl	_	TokenRange=36:43
+9	dilma	_	NOUN	NOUN	_	8	obj	_	TokenRange=44:49
+10	veja	ver	VERB	VERB	_	3	parataxis	_	TokenRange=50:54
+11	quem	_	PRON	PRON	_	12	nsubj	_	TokenRange=55:59
+12	vota	votar	VERB	VERB	_	10	ccomp	_	TokenRange=60:64
+13	contra	_	ADV	ADV	_	12	advmod	_	TokenRange=65:71
+14	e	e	CCONJ	CONJ	_	16	cc	_	TokenRange=72:73
+15	quem	_	PRON	PRON	_	16	nsubj	_	TokenRange=74:78
+16	vota	votar	VERB	VERB	_	12	conj	_	TokenRange=79:83
+17	a	_	ADP	ADP	_	18	case	_	TokenRange=84:85
+18	favor	favor	NOUN	NOUN	_	16	nmod	_	TokenRange=86:91
+19-20	do	_	_	_	_	_	_	_	TokenRange=92:94
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	governo	governo	NOUN	NOUN	_	18	nmod	_	TokenRange=95:102
+22	a	o	DET	DET	_	23	det	_	TokenRange=103:104
+23	comissao	comissao	NOUN	NOUN	_	34	nsubj	_	TokenRange=105:113
+24-25	da	_	_	_	_	_	_	_	TokenRange=114:116
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	camara	camara	NOUN	NOUN	_	23	nmod	_	TokenRange=117:123
+27	que	_	PRON	PRON	_	28	nsubj	_	TokenRange=124:127
+28	analisara	analisar	VERB	VERB	_	23	acl:relcl	_	TokenRange=128:137
+29	o	o	DET	DET	_	30	det	_	TokenRange=138:139
+30	impeachment	impeachment	NOUN	NOUN	_	28	obj	_	TokenRange=140:151
+31	de	de	ADP	ADP	_	32	case	_	TokenRange=152:154
+32	dilma	dilma	NOUN	NOUN	_	30	nmod	_	TokenRange=155:160
+33	rousseff	rousseff	NOUN	NOUN	_	32	flat	_	TokenRange=161:169
+34	tera	terar	VERB	VERB	_	10	ccomp	_	TokenRange=170:174
+35-36	pelo	_	_	_	_	_	_	_	TokenRange=175:179
+35	por	por	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	menos	menos	ADV	ADV	_	38	advmod	_	TokenRange=180:185
+38	31	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=186:188
+39	votos	voto	NOUN	NOUN	_	34	obj	_	TokenRange=189:194
+40	contrarios	contrario	ADJ	ADJ	_	39	amod	_	TokenRange=195:205
+41-42	ao	_	_	_	_	_	_	_	TokenRange=206:208
+41	a	a	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	governo	governo	NOUN	NOUN	_	40	nmod	_	TokenRange=209:216
+44	a	_	ADP	ADP	_	45	case	_	TokenRange=217:218
+45	favor	favor	NOUN	NOUN	_	40	nmod	_	TokenRange=219:224
+46-47	do	_	_	_	_	_	_	_	TokenRange=225:227
+46	de	de	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	impeachment	impeachment	NOUN	NOUN	_	45	nmod	_	TokenRange=228:239
+49	outros	_	DET	DET	_	51	det	_	TokenRange=240:246
+50	28	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=247:249
+51	deputados	deputado	NOUN	NOUN	_	52	nsubj	_	TokenRange=250:259
+52	querem	querer	VERB	VERB	_	34	parataxis	_	TokenRange=260:266
+53	enterrar	enterrar	VERB	VERB	_	52	xcomp	_	TokenRange=267:275
+54	o	o	DET	DET	_	55	det	_	TokenRange=276:277
+55	processo	processo	NOUN	NOUN	_	53	obj	_	TokenRange=278:286
+56	contra	_	ADP	ADP	_	58	case	_	TokenRange=287:293
+57	o	o	DET	DET	_	58	det	_	TokenRange=294:295
+58	impeachment	impeachment	NOUN	NOUN	_	55	nmod	_	TokenRange=296:307
+59	6	_	NUM	NUM	NumType=Card	58	appos	_	TokenRange=308:309
+60	estao	_	VERB	VERB	_	52	parataxis	_	TokenRange=310:315
+61	indefinidos	indefinido	ADJ	ADJ	_	60	xcomp	_	TokenRange=316:327
+62	o	o	DET	DET	_	63	det	_	TokenRange=328:329
+63	colegiado	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=330:339
+64	tem	ter	VERB	VERB	_	52	parataxis	_	TokenRange=340:343
+65	65	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=344:346
+66	membros	membro	NOUN	NOUN	_	64	obj	_	TokenRange=347:354
+

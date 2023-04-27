@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senado inicia discussao de projeto sobre abuso de autoridade proposta apresentada pelo presidente do senado renan calheiros estabelece punicoes a juizes e procuradores o plenario do senado comecou a discutir na noite desta quartafeira 14 o projeto que endurece as punicoes em casos de abuso de autoridade a proposta apresentada pelo presidente do senado renan calheiros pmdbal revoga a legislacao vigente e estabelece novas punicoes a juizes e procuradores
+1	senado	senado	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	inicia	iniciar	VERB	VERB	_	0	root	_	TokenRange=7:13
+3	discussao	discussao	NOUN	NOUN	_	2	obj	_	TokenRange=14:23
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=24:26
+5	projeto	projeto	NOUN	NOUN	_	3	nmod	_	TokenRange=27:34
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=35:40
+7	abuso	abuso	NOUN	NOUN	_	5	nmod	_	TokenRange=41:46
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=47:49
+9	autoridade	autoridade	NOUN	NOUN	_	7	nmod	_	TokenRange=50:60
+10	proposta	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=61:69
+11	apresentada	apresentar	VERB	VERB	_	10	acl	_	TokenRange=70:81
+12-13	pelo	_	_	_	_	_	_	_	TokenRange=82:86
+12	por	por	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	presidente	presidente	NOUN	NOUN	_	11	nmod	_	TokenRange=87:97
+15-16	do	_	_	_	_	_	_	_	TokenRange=98:100
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	senado	senado	NOUN	NOUN	_	14	nmod	_	TokenRange=101:107
+18	renan	renan	NOUN	NOUN	_	20	nsubj	_	TokenRange=108:113
+19	calheiros	calheiro	NOUN	NOUN	_	18	flat	_	TokenRange=114:123
+20	estabelece	estabelecer	VERB	VERB	_	2	parataxis	_	TokenRange=124:134
+21	punicoes	punicoe	NOUN	NOUN	_	20	obj	_	TokenRange=135:143
+22	a	_	ADP	ADP	_	23	case	_	TokenRange=144:145
+23	juizes	juiz	NOUN	NOUN	_	20	iobj	_	TokenRange=146:152
+24	e	e	CCONJ	CONJ	_	25	cc	_	TokenRange=153:154
+25	procuradores	procurador	NOUN	NOUN	_	23	conj	_	TokenRange=155:167
+26	o	o	DET	DET	_	27	det	_	TokenRange=168:169
+27	plenario	plenario	NOUN	NOUN	_	33	nsubj	_	TokenRange=170:178
+28-29	do	_	_	_	_	_	_	_	TokenRange=179:181
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	senado	senado	NOUN	NOUN	_	27	nmod	_	TokenRange=182:188
+31	comecou	comecar	AUX	AUX	_	33	aux	_	TokenRange=189:196
+32	a	_	ADP	ADP	_	33	mark	_	TokenRange=197:198
+33	discutir	discutir	VERB	VERB	_	2	parataxis	_	TokenRange=199:207
+34-35	na	_	_	_	_	_	_	_	TokenRange=208:210
+34	em	em	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	noite	noite	NOUN	NOUN	_	33	nmod	_	TokenRange=211:216
+37	desta	_	ADP	ADP	_	38	case	_	TokenRange=217:222
+38	quartafeira	_	NOUN	NOUN	_	36	nmod	_	TokenRange=223:234
+39	14	_	NUM	NUM	NumType=Card	38	nmod	_	TokenRange=235:237
+40	o	o	DET	DET	_	41	det	_	TokenRange=238:239
+41	projeto	projeto	NOUN	NOUN	_	33	obj	_	TokenRange=240:247
+42	que	_	PRON	PRON	_	43	nsubj	_	TokenRange=248:251
+43	endurece	endurecer	VERB	VERB	_	41	acl:relcl	_	TokenRange=252:260
+44	as	o	DET	DET	_	45	det	_	TokenRange=261:263
+45	punicoes	punicoe	NOUN	NOUN	_	43	obj	_	TokenRange=264:272
+46	em	em	ADP	ADP	_	47	case	_	TokenRange=273:275
+47	casos	caso	NOUN	NOUN	_	43	nmod	_	TokenRange=276:281
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=282:284
+49	abuso	abuso	NOUN	NOUN	_	47	nmod	_	TokenRange=285:290
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=291:293
+51	autoridade	autoridade	NOUN	NOUN	_	49	nmod	_	TokenRange=294:304
+52	a	o	DET	DET	_	53	det	_	TokenRange=305:306
+53	proposta	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=307:315
+54	apresentada	apresentar	VERB	VERB	_	53	acl	_	TokenRange=316:327
+55-56	pelo	_	_	_	_	_	_	_	TokenRange=328:332
+55	por	por	ADP	ADP	_	57	case	_	_
+56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	presidente	presidente	NOUN	NOUN	_	54	nmod	_	TokenRange=333:343
+58-59	do	_	_	_	_	_	_	_	TokenRange=344:346
+58	de	de	ADP	ADP	_	60	case	_	_
+59	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	senado	senado	NOUN	NOUN	_	57	nmod	_	TokenRange=347:353
+61	renan	renan	NOUN	NOUN	_	53	appos	_	TokenRange=354:359
+62	calheiros	calheiro	NOUN	NOUN	_	61	flat	_	TokenRange=360:369
+63	pmdbal	_	ADJ	ADJ	_	61	amod	_	TokenRange=370:376
+64	revoga	revogar	VERB	VERB	_	41	acl:relcl	_	TokenRange=377:383
+65	a	o	DET	DET	_	66	det	_	TokenRange=384:385
+66	legislacao	legislacao	NOUN	NOUN	_	64	obj	_	TokenRange=386:396
+67	vigente	vigente	ADJ	ADJ	_	66	amod	_	TokenRange=397:404
+68	e	e	CCONJ	CONJ	_	69	cc	_	TokenRange=405:406
+69	estabelece	estabelecer	VERB	VERB	_	64	conj	_	TokenRange=407:417
+70	novas	novo	ADJ	ADJ	_	71	amod	_	TokenRange=418:423
+71	punicoes	punicoe	NOUN	NOUN	_	69	obj	_	TokenRange=424:432
+72	a	_	ADP	ADP	_	73	case	_	TokenRange=433:434
+73	juizes	juiz	NOUN	NOUN	_	69	iobj	_	TokenRange=435:441
+74	e	e	CCONJ	CONJ	_	75	cc	_	TokenRange=442:443
+75	procuradores	procurador	NOUN	NOUN	_	73	conj	_	SpacesAfter=\s\s|TokenRange=444:456
+

@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o presidente da camara rodrigo maia disse nesta quarta 31 que se a reforma da previdencia nao for votada ate fevereiro nao ira mais colocar o assunto em pauta sem a reforma a gente nao sabe o que vai acontecer com o brasil mas nao vou ficar nessa agenda a vida inteira nao da para carregar isso alem do mes de fevereiro votou em fevereiro votou nao votou sera a agenda da
+1	o	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	presidente	presidente	NOUN	NOUN	_	8	nsubj	_	TokenRange=2:12
+3-4	da	_	_	_	_	_	_	_	TokenRange=13:15
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	camara	camara	NOUN	NOUN	_	2	nmod	_	TokenRange=16:22
+6	rodrigo	_	PROPN	PNOUN	_	2	appos	_	TokenRange=23:30
+7	maia	_	NOUN	NOUN	_	6	flat	_	TokenRange=31:35
+8	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=36:41
+9	nesta	_	ADP	ADP	_	11	case	_	TokenRange=42:47
+10	quarta	_	PROPN	PNOUN	_	11	amod	_	TokenRange=48:54
+11	31	_	NUM	NUM	NumType=Card	8	nmod	_	TokenRange=55:57
+12	que	que	CCONJ	CONJ	_	27	mark	_	TokenRange=58:61
+13	se	_	CCONJ	CONJ	_	21	mark	_	TokenRange=62:64
+14	a	o	DET	DET	_	15	det	_	TokenRange=65:66
+15	reforma	reforma	NOUN	NOUN	_	21	nsubj:pass	_	TokenRange=67:74
+16-17	da	_	_	_	_	_	_	_	TokenRange=75:77
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	previdencia	previdencia	NOUN	NOUN	_	15	nmod	_	TokenRange=78:89
+19	nao	nao	ADV	ADV	Polarity=Neg	21	advmod	_	TokenRange=90:93
+20	for	_	AUX	AUX	_	21	aux:pass	_	TokenRange=94:97
+21	votada	votar	VERB	VERB	_	27	advcl	_	TokenRange=98:104
+22	ate	_	ADP	ADP	_	23	case	_	TokenRange=105:108
+23	fevereiro	_	PROPN	PNOUN	_	21	nmod	_	TokenRange=109:118
+24	nao	nao	ADV	ADV	Polarity=Neg	27	advmod	_	TokenRange=119:122
+25	ira	_	AUX	AUX	_	27	aux	_	TokenRange=123:126
+26	mais	mais	ADV	ADV	_	27	advmod	_	TokenRange=127:131
+27	colocar	colocar	VERB	VERB	_	8	ccomp	_	TokenRange=132:139
+28	o	o	DET	DET	_	29	det	_	TokenRange=140:141
+29	assunto	assunto	NOUN	NOUN	_	27	obj	_	TokenRange=142:149
+30	em	em	ADP	ADP	_	31	case	_	TokenRange=150:152
+31	pauta	pauta	NOUN	NOUN	_	27	nmod	_	TokenRange=153:158
+32	sem	_	ADP	ADP	_	34	case	_	TokenRange=159:162
+33	a	o	DET	DET	_	34	det	_	TokenRange=163:164
+34	reforma	reforma	NOUN	NOUN	_	27	nmod	_	TokenRange=165:172
+35	a	o	DET	DET	_	36	det	_	TokenRange=173:174
+36	gente	gente	NOUN	NOUN	_	38	nsubj	_	TokenRange=175:180
+37	nao	nao	ADV	ADV	Polarity=Neg	38	advmod	_	TokenRange=181:184
+38	sabe	saber	VERB	VERB	_	8	ccomp	_	TokenRange=185:189
+39	o	_	PRON	PRON	_	38	obj	_	TokenRange=190:191
+40	que	_	PRON	PRON	_	42	nsubj	_	TokenRange=192:195
+41	vai	ir	AUX	AUX	_	42	aux	_	TokenRange=196:199
+42	acontecer	acontecer	VERB	VERB	_	39	acl:relcl	_	TokenRange=200:209
+43	com	com	ADP	ADP	_	45	case	_	TokenRange=210:213
+44	o	o	DET	DET	_	45	det	_	TokenRange=214:215
+45	brasil	brasil	NOUN	NOUN	_	42	nmod	_	TokenRange=216:222
+46	mas	mas	CCONJ	CONJ	_	49	cc	_	TokenRange=223:226
+47	nao	nao	ADV	ADV	Polarity=Neg	49	advmod	_	TokenRange=227:230
+48	vou	ir	AUX	AUX	_	49	aux	_	TokenRange=231:234
+49	ficar	ficar	VERB	VERB	_	38	conj	_	TokenRange=235:240
+50	nessa	_	ADP	ADP	_	51	case	_	TokenRange=241:246
+51	agenda	agenda	NOUN	NOUN	_	49	nmod	_	TokenRange=247:253
+52	a	o	DET	DET	_	53	det	_	TokenRange=254:255
+53	vida	vida	NOUN	NOUN	_	49	nsubj	_	TokenRange=256:260
+54	inteira	inteiro	ADJ	ADJ	_	53	amod	_	TokenRange=261:268
+55	nao	nao	ADV	ADV	_	49	advmod	_	TokenRange=269:272
+56-57	da	_	_	_	_	_	_	_	TokenRange=273:275
+56	de	de	ADP	ADP	_	59	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+58	para	_	ADP	ADP	_	59	mark	_	TokenRange=276:280
+59	carregar	carregar	VERB	VERB	_	49	advcl	_	TokenRange=281:289
+60	isso	_	PRON	PRON	_	59	obj	_	TokenRange=290:294
+61	alem	alem	ADV	ADV	_	59	advmod	_	TokenRange=295:299
+62-63	do	_	_	_	_	_	_	_	TokenRange=300:302
+62	de	de	ADP	ADP	_	64	case	_	_
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	mes	mes	NOUN	NOUN	_	61	nmod	_	TokenRange=303:306
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=307:309
+66	fevereiro	_	PROPN	PNOUN	_	64	nmod	_	TokenRange=310:319
+67	votou	votar	VERB	VERB	_	59	parataxis	_	TokenRange=320:325
+68	em	em	ADP	ADP	_	69	case	_	TokenRange=326:328
+69	fevereiro	_	PROPN	PNOUN	_	67	nmod	_	TokenRange=329:338
+70	votou	votar	VERB	VERB	_	67	conj	_	TokenRange=339:344
+71	nao	nao	ADV	ADV	Polarity=Neg	72	advmod	_	TokenRange=345:348
+72	votou	votar	VERB	VERB	_	70	ccomp	_	TokenRange=349:354
+73	sera	_	VERB	VERB	_	72	ccomp	_	TokenRange=355:359
+74	a	o	DET	DET	_	75	det	_	TokenRange=360:361
+75	agenda	agenda	NOUN	NOUN	_	72	nsubj	_	TokenRange=362:368
+76-77	da	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=369:371
+76	de	de	ADP	ADP	_	75	case	_	_
+77	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	75	det	_	_
+

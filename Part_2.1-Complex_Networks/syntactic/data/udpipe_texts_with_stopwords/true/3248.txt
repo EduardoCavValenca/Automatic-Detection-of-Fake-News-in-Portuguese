@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = unb preve demissao de 11 mil estagiarios para conter deficit de r 92 milhoes mudanca na gestao de contratos e uma das tres medidas anunciadas para reduzir gastos os 11 mil estagiarios contratados pela universidade de brasilia unb podem ser demitidos a partir do dia 30 de abril por falta de verbas com previsao de um deficit orcamentario de r 92 milhoes para o ano a reitoria da unb informou que a responsabilidade financeira sobre os contratos passara a
+1	unb	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:3
+2	preve	prever	VERB	VERB	_	0	root	_	TokenRange=4:9
+3	demissao	demissao	NOUN	NOUN	_	2	obj	_	TokenRange=10:18
+4	de	de	ADP	ADP	_	7	case	_	TokenRange=19:21
+5	11	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=22:24
+6	mil	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=25:28
+7	estagiarios	estagiario	NOUN	NOUN	_	3	nmod	_	TokenRange=29:40
+8	para	_	ADP	ADP	_	9	mark	_	TokenRange=41:45
+9	conter	conter	VERB	VERB	_	2	advcl	_	TokenRange=46:52
+10	deficit	deficit	NOUN	NOUN	_	9	obj	_	TokenRange=53:60
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=61:63
+12	r	r	NOUN	NOUN	_	10	nmod	_	TokenRange=64:65
+13	92	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=66:68
+14	milhoes	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=69:76
+15	mudanca	mudanca	NOUN	NOUN	_	9	obj	_	TokenRange=77:84
+16-17	na	_	_	_	_	_	_	_	TokenRange=85:87
+16	em	em	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	gestao	gestao	NOUN	NOUN	_	15	nmod	_	TokenRange=88:94
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=95:97
+20	contratos	contrato	NOUN	NOUN	_	18	nmod	_	TokenRange=98:107
+21	e	e	CCONJ	CONJ	_	22	cc	_	TokenRange=108:109
+22	uma	_	PRON	PRON	_	44	nsubj:pass	_	TokenRange=110:113
+23-24	das	_	_	_	_	_	_	_	TokenRange=114:117
+23	de	de	ADP	ADP	_	26	case	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+25	tres	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=118:122
+26	medidas	medida	NOUN	NOUN	_	22	nmod	_	TokenRange=123:130
+27	anunciadas	anunciar	VERB	VERB	_	26	acl	_	TokenRange=131:141
+28	para	_	ADP	ADP	_	29	mark	_	TokenRange=142:146
+29	reduzir	reduzir	VERB	VERB	_	27	advcl	_	TokenRange=147:154
+30	gastos	gasto	NOUN	NOUN	_	29	obj	_	TokenRange=155:161
+31	os	o	DET	DET	_	34	det	_	TokenRange=162:164
+32	11	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=165:167
+33	mil	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=168:171
+34	estagiarios	estagiario	NOUN	NOUN	_	44	nsubj:pass	_	TokenRange=172:183
+35	contratados	contratar	VERB	VERB	_	34	acl	_	TokenRange=184:195
+36-37	pela	_	_	_	_	_	_	_	TokenRange=196:200
+36	por	por	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	universidade	universidade	NOUN	NOUN	_	35	nmod	_	TokenRange=201:213
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=214:216
+40	brasilia	brasilia	NOUN	NOUN	_	38	nmod	_	TokenRange=217:225
+41	unb	_	PROPN	PNOUN	_	38	appos	_	TokenRange=226:229
+42	podem	_	AUX	AUX	_	44	aux	_	TokenRange=230:235
+43	ser	ser	AUX	AUX	_	44	aux:pass	_	TokenRange=236:239
+44	demitidos	demitir	VERB	VERB	_	2	parataxis	_	TokenRange=240:249
+45	a	_	ADP	ADP	_	46	mark	_	TokenRange=250:251
+46	partir	partir	VERB	VERB	_	44	nmod	_	TokenRange=252:258
+47-48	do	_	_	_	_	_	_	_	TokenRange=259:261
+47	de	de	ADP	ADP	_	49	case	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	dia	dia	NOUN	NOUN	_	46	nmod	_	TokenRange=262:265
+50	30	_	NUM	NUM	NumType=Card	49	nmod	_	TokenRange=266:268
+51	de	de	ADP	ADP	_	52	case	_	TokenRange=269:271
+52	abril	_	PROPN	PNOUN	_	50	nmod	_	TokenRange=272:277
+53	por	por	ADP	ADP	_	54	case	_	TokenRange=278:281
+54	falta	_	NOUN	NOUN	_	44	nmod	_	TokenRange=282:287
+55	de	de	ADP	ADP	_	56	case	_	TokenRange=288:290
+56	verbas	verba	NOUN	NOUN	_	54	nmod	_	TokenRange=291:297
+57	com	com	ADP	ADP	_	58	case	_	TokenRange=298:301
+58	previsao	previsao	NOUN	NOUN	_	44	nmod	_	TokenRange=302:310
+59	de	de	ADP	ADP	_	61	case	_	TokenRange=311:313
+60	um	um	DET	DET	_	61	det	_	TokenRange=314:316
+61	deficit	deficit	NOUN	NOUN	_	58	nmod	_	TokenRange=317:324
+62	orcamentario	orcamentario	ADJ	ADJ	_	61	amod	_	TokenRange=325:337
+63	de	de	ADP	ADP	_	64	case	_	TokenRange=338:340
+64	r	r	NOUN	NOUN	_	61	nmod	_	TokenRange=341:342
+65	92	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=343:345
+66	milhoes	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=346:353
+67	para	para	ADP	ADP	_	69	case	_	TokenRange=354:358
+68	o	o	DET	DET	_	69	det	_	TokenRange=359:360
+69	ano	ano	NOUN	NOUN	_	61	nmod	_	TokenRange=361:364
+70	a	o	DET	DET	_	71	det	_	TokenRange=365:366
+71	reitoria	reitoria	NOUN	NOUN	_	75	nsubj	_	TokenRange=367:375
+72-73	da	_	_	_	_	_	_	_	TokenRange=376:378
+72	de	de	ADP	ADP	_	74	case	_	_
+73	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
+74	unb	_	PROPN	PNOUN	_	71	nmod	_	TokenRange=379:382
+75	informou	informar	VERB	VERB	_	2	parataxis	_	TokenRange=383:391
+76	que	que	CCONJ	CONJ	_	83	mark	_	TokenRange=392:395
+77	a	o	DET	DET	_	78	det	_	TokenRange=396:397
+78	responsabilidade	responsabilidade	NOUN	NOUN	_	83	nsubj	_	TokenRange=398:414
+79	financeira	financeiro	ADJ	ADJ	_	78	amod	_	TokenRange=415:425
+80	sobre	_	ADP	ADP	_	82	case	_	TokenRange=426:431
+81	os	o	DET	DET	_	82	det	_	TokenRange=432:434
+82	contratos	contrato	NOUN	NOUN	_	78	nmod	_	TokenRange=435:444
+83	passara	passar	VERB	VERB	_	75	ccomp	_	TokenRange=445:452
+84	a	_	ADP	ADP	_	83	case	_	SpacesAfter=\s\s|TokenRange=453:454
+

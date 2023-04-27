@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro massacre o cara e preso e nem precisa trabalhar eu queria que matassem 200 mil vagabundos palavras do deputado jair bolsonaro eu gostaria que cada estado tivesse sua legislacao penal como acontece nos eua temos uma porcaria de uma constituicao no que diz respeito a direitos humanos nao ha pena de morte aqui o cara nao teme nada o canalha nem precisa trabalhar fica sugando o estado no tempo que esta detido eu queria que matassem 200 mil vagabundos
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	12	nsubj	_	TokenRange=0:9
+2	massacre	massacre	NOUN	NOUN	_	12	nsubj	_	TokenRange=10:18
+3	o	o	DET	DET	_	4	det	_	TokenRange=19:20
+4	cara	cara	NOUN	NOUN	_	2	nsubj	_	TokenRange=21:25
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=26:27
+6	preso	_	VERB	VERB	_	2	conj	_	TokenRange=28:33
+7	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=34:35
+8	nem	_	ADV	ADV	_	9	advmod	_	TokenRange=36:39
+9	precisa	precisar	VERB	VERB	_	2	conj	_	TokenRange=40:47
+10	trabalhar	trabalhar	VERB	VERB	_	9	xcomp	_	TokenRange=48:57
+11	eu	_	PRON	PRON	_	12	nsubj	_	TokenRange=58:60
+12	queria	querer	VERB	VERB	_	0	root	_	TokenRange=61:67
+13	que	que	CCONJ	CONJ	_	14	mark	_	TokenRange=68:71
+14	matassem	matar	VERB	VERB	_	12	ccomp	_	TokenRange=72:80
+15	200	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=81:84
+16	mil	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=85:88
+17	vagabundos	vagabundo	NOUN	NOUN	_	14	obj	_	TokenRange=89:99
+18	palavras	palavra	NOUN	NOUN	_	17	appos	_	TokenRange=100:108
+19-20	do	_	_	_	_	_	_	_	TokenRange=109:111
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	deputado	deputado	NOUN	NOUN	_	18	nmod	_	TokenRange=112:120
+22	jair	jair	NOUN	NOUN	_	21	appos	_	TokenRange=121:125
+23	bolsonaro	bolsonaro	ADJ	ADJ	_	22	amod	_	TokenRange=126:135
+24	eu	_	PRON	PRON	_	25	nsubj	_	TokenRange=136:138
+25	gostaria	gostar	VERB	VERB	_	12	ccomp	_	TokenRange=139:147
+26	que	que	CCONJ	CONJ	_	29	mark	_	TokenRange=148:151
+27	cada	_	DET	DET	_	28	det	_	TokenRange=152:156
+28	estado	estado	NOUN	NOUN	_	29	nsubj	_	TokenRange=157:163
+29	tivesse	ter	VERB	VERB	_	25	ccomp	_	TokenRange=164:171
+30	sua	_	DET	DET	_	31	det:poss	_	TokenRange=172:175
+31	legislacao	legislacao	NOUN	NOUN	_	29	obj	_	TokenRange=176:186
+32	penal	penal	ADJ	ADJ	_	31	amod	_	TokenRange=187:192
+33	como	_	CCONJ	CONJ	_	34	mark	_	TokenRange=193:197
+34	acontece	acontecer	VERB	VERB	_	29	advcl	_	TokenRange=198:206
+35-36	nos	_	_	_	_	_	_	_	TokenRange=207:210
+35	em	em	ADP	ADP	_	37	case	_	_
+36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	eua	_	NOUN	NOUN	_	34	nmod	_	TokenRange=211:214
+38	temos	ter	VERB	VERB	_	25	ccomp	_	TokenRange=215:220
+39	uma	um	DET	DET	_	40	det	_	TokenRange=221:224
+40	porcaria	porcaria	NOUN	NOUN	_	38	obj	_	TokenRange=225:233
+41	de	de	ADP	ADP	_	43	case	_	TokenRange=234:236
+42	uma	um	DET	DET	_	43	det	_	TokenRange=237:240
+43	constituicao	constituicao	NOUN	NOUN	_	40	nmod	_	TokenRange=241:253
+44-45	no	_	_	_	_	_	_	_	TokenRange=254:256
+44	em	em	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	que	_	PRON	PRON	_	47	nmod	_	TokenRange=257:260
+47	diz	dizer	VERB	VERB	_	40	acl:relcl	_	TokenRange=261:264
+48	respeito	respeito	NOUN	NOUN	_	47	obj	_	TokenRange=265:273
+49	a	_	ADP	ADP	_	50	case	_	TokenRange=274:275
+50	direitos	direito	NOUN	NOUN	_	48	nmod	_	TokenRange=276:284
+51	humanos	humano	ADJ	ADJ	_	50	amod	_	TokenRange=285:292
+52	nao	nao	ADV	ADV	Polarity=Neg	53	advmod	_	TokenRange=293:296
+53	ha	har	VERB	VERB	_	38	conj	_	TokenRange=297:299
+54	pena	_	NOUN	NOUN	_	53	obj	_	TokenRange=300:304
+55	de	de	ADP	ADP	_	56	case	_	TokenRange=305:307
+56	morte	morte	NOUN	NOUN	_	54	nmod	_	TokenRange=308:313
+57	aqui	aqui	ADV	ADV	_	53	advmod	_	TokenRange=314:318
+58	o	o	DET	DET	_	59	det	_	TokenRange=319:320
+59	cara	cara	NOUN	NOUN	_	61	nsubj	_	TokenRange=321:325
+60	nao	nao	ADV	ADV	Polarity=Neg	61	advmod	_	TokenRange=326:329
+61	teme	temer	VERB	VERB	_	53	parataxis	_	TokenRange=330:334
+62	nada	_	PRON	PRON	_	61	obj	_	TokenRange=335:339
+63	o	o	DET	DET	_	64	det	_	TokenRange=340:341
+64	canalha	canalha	NOUN	NOUN	_	61	nsubj	_	TokenRange=342:349
+65	nem	_	CCONJ	CONJ	_	66	cc	_	TokenRange=350:353
+66	precisa	precisar	VERB	VERB	_	61	conj	_	TokenRange=354:361
+67	trabalhar	trabalhar	VERB	VERB	_	66	xcomp	_	TokenRange=362:371
+68	fica	ficar	AUX	AUX	_	69	aux	_	TokenRange=372:376
+69	sugando	sugar	VERB	VERB	_	66	ccomp	_	TokenRange=377:384
+70	o	o	DET	DET	_	71	det	_	TokenRange=385:386
+71	estado	estado	NOUN	NOUN	_	69	nsubj	_	TokenRange=387:393
+72-73	no	_	_	_	_	_	_	_	TokenRange=394:396
+72	em	em	ADP	ADP	_	74	case	_	_
+73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+74	tempo	tempo	NOUN	NOUN	_	69	nmod	_	TokenRange=397:402
+75	que	_	PRON	PRON	_	76	nsubj	_	TokenRange=403:406
+76	esta	_	VERB	VERB	_	74	acl:relcl	_	TokenRange=407:411
+77	detido	detido	ADJ	ADJ	_	76	xcomp	_	TokenRange=412:418
+78	eu	_	PRON	PRON	_	79	nsubj	_	TokenRange=419:421
+79	queria	querer	VERB	VERB	_	53	parataxis	_	TokenRange=422:428
+80	que	que	CCONJ	CONJ	_	81	mark	_	TokenRange=429:432
+81	matassem	matar	VERB	VERB	_	79	ccomp	_	TokenRange=433:441
+82	200	_	NUM	NUM	NumType=Card	83	nummod	_	TokenRange=442:445
+83	mil	_	NUM	NUM	NumType=Card	84	nummod	_	TokenRange=446:449
+84	vagabundos	vagabundo	NOUN	NOUN	_	81	obj	_	TokenRange=450:460
+

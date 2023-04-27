@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = a jovem jornalista que escreveu sobre dilma e cunha e ganhou 100 mil likes no facebook priscila chammas e uma jornalista que escreveu um desabafo nas redes sociais e calou a petralhada abaixo a postagem que ja recebeu mais de 100 mil curtidas
+1	a	o	DET	DET	_	3	det	_	TokenRange=0:1
+2	jovem	jovem	ADJ	ADJ	_	3	amod	_	TokenRange=2:7
+3	jornalista	jornalista	NOUN	NOUN	_	0	root	_	TokenRange=8:18
+4	que	_	PRON	PRON	_	5	nsubj	_	TokenRange=19:22
+5	escreveu	escrever	VERB	VERB	_	3	acl:relcl	_	TokenRange=23:31
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=32:37
+7	dilma	dilma	NOUN	NOUN	_	5	nmod	_	TokenRange=38:43
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=44:45
+9	cunha	cunha	NOUN	NOUN	_	7	conj	_	TokenRange=46:51
+10	e	e	CCONJ	CONJ	_	11	cc	_	TokenRange=52:53
+11	ganhou	ganhar	VERB	VERB	_	5	conj	_	TokenRange=54:60
+12	100	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=61:64
+13	mil	_	NUM	NUM	NumType=Card	14	nummod	_	TokenRange=65:68
+14	likes	_	NOUN	NOUN	_	11	obj	_	TokenRange=69:74
+15-16	no	_	_	_	_	_	_	_	TokenRange=75:77
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	facebook	_	PROPN	PNOUN	_	11	nmod	_	TokenRange=78:86
+18	priscila	_	NOUN	NOUN	_	3	appos	_	TokenRange=87:95
+19	chammas	_	NOUN	NOUN	_	18	flat	_	TokenRange=96:103
+20	e	e	CCONJ	CONJ	_	22	cc	_	TokenRange=104:105
+21	uma	um	DET	DET	_	22	det	_	TokenRange=106:109
+22	jornalista	jornalista	NOUN	NOUN	_	18	conj	_	TokenRange=110:120
+23	que	_	PRON	PRON	_	24	nsubj	_	TokenRange=121:124
+24	escreveu	escrever	VERB	VERB	_	22	acl:relcl	_	TokenRange=125:133
+25	um	um	DET	DET	_	26	det	_	TokenRange=134:136
+26	desabafo	desabafo	NOUN	NOUN	_	24	obj	_	TokenRange=137:145
+27-28	nas	_	_	_	_	_	_	_	TokenRange=146:149
+27	em	em	ADP	ADP	_	29	case	_	_
+28	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	redes	rede	NOUN	NOUN	_	24	nmod	_	TokenRange=150:155
+30	sociais	social	ADJ	ADJ	_	29	amod	_	TokenRange=156:163
+31	e	e	CCONJ	CONJ	_	32	cc	_	TokenRange=164:165
+32	calou	calar	VERB	VERB	_	24	conj	_	TokenRange=166:171
+33	a	o	DET	DET	_	34	det	_	TokenRange=172:173
+34	petralhada	_	NOUN	NOUN	_	32	obj	_	TokenRange=174:184
+35	abaixo	abaixo	ADV	ADV	_	32	advmod	_	TokenRange=185:191
+36	a	o	DET	DET	_	37	det	_	TokenRange=192:193
+37	postagem	postagem	NOUN	NOUN	_	32	obj	_	TokenRange=194:202
+38	que	_	PRON	PRON	_	40	nsubj	_	TokenRange=203:206
+39	ja	ja	ADV	ADV	_	40	advmod	_	TokenRange=207:209
+40	recebeu	receber	VERB	VERB	_	37	acl:relcl	_	TokenRange=210:217
+41	mais	mais	ADV	ADV	_	44	advmod	_	TokenRange=218:222
+42	de	de	ADP	ADP	_	41	case	_	TokenRange=223:225
+43	100	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=226:229
+44	mil	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=230:233
+45	curtidas	curtida	NOUN	NOUN	_	40	obj	_	TokenRange=234:242
+

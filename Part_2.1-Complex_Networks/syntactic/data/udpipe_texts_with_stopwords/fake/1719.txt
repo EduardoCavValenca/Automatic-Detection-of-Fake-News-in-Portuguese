@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos chamar brasileiros de babacas neymar aparece em festa regada a bebidas e mulheres retrospectiva2017 no mesmo dia em que xingou com palavroes os criticos da selecao brasileira o atacante neymar apareceu em um video nas redes sociais participando de uma festa com os parcas a balada foi filmada em las vegas nos estados unidos e foi regada com espumante musica eletronica e muitas mulheres numa especie de resort para ricacos
+1	apos	_	ADP	ADP	_	2	mark	_	TokenRange=0:4
+2	chamar	chamar	VERB	VERB	_	7	advcl	_	TokenRange=5:11
+3	brasileiros	brasileiro	NOUN	NOUN	_	2	obj	_	TokenRange=12:23
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=24:26
+5	babacas	babaca	NOUN	NOUN	_	3	nmod	_	TokenRange=27:34
+6	neymar	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=35:41
+7	aparece	aparecer	VERB	VERB	_	0	root	_	TokenRange=42:49
+8	em	em	ADP	ADP	_	9	case	_	TokenRange=50:52
+9	festa	festa	NOUN	NOUN	_	7	nmod	_	TokenRange=53:58
+10	regada	regado	VERB	ADJ	_	9	acl	_	TokenRange=59:65
+11	a	_	ADP	ADP	_	12	case	_	TokenRange=66:67
+12	bebidas	bebida	NOUN	NOUN	_	10	nmod	_	TokenRange=68:75
+13	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=76:77
+14	mulheres	mulher	NOUN	NOUN	_	12	conj	_	TokenRange=78:86
+15	retrospectiva2017	_	NOUN	NOUN	_	14	appos	_	TokenRange=87:104
+16-17	no	_	_	_	_	_	_	_	TokenRange=105:107
+16	em	em	ADP	ADP	_	19	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mesmo	mesmo	ADJ	ADJ	_	19	amod	_	TokenRange=108:113
+19	dia	dia	NOUN	NOUN	_	7	nmod	_	TokenRange=114:117
+20	em	em	ADP	ADP	_	21	case	_	TokenRange=118:120
+21	que	_	PRON	PRON	_	22	nmod	_	TokenRange=121:124
+22	xingou	xingar	VERB	VERB	_	19	acl:relcl	_	TokenRange=125:131
+23	com	com	ADP	ADP	_	24	case	_	TokenRange=132:135
+24	palavroes	palavroe	NOUN	NOUN	_	22	nmod	_	TokenRange=136:145
+25	os	o	DET	DET	_	26	det	_	TokenRange=146:148
+26	criticos	critico	NOUN	NOUN	_	22	obj	_	TokenRange=149:157
+27-28	da	_	_	_	_	_	_	_	TokenRange=158:160
+27	de	de	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	selecao	selecao	NOUN	NOUN	_	26	nmod	_	TokenRange=161:168
+30	brasileira	brasileiro	ADJ	ADJ	_	29	amod	_	TokenRange=169:179
+31	o	o	DET	DET	_	32	det	_	TokenRange=180:181
+32	atacante	atacante	NOUN	NOUN	_	34	nsubj	_	TokenRange=182:190
+33	neymar	neymar	ADJ	ADJ	_	32	appos	_	TokenRange=191:197
+34	apareceu	aparecer	VERB	VERB	_	7	parataxis	_	TokenRange=198:206
+35	em	em	ADP	ADP	_	37	case	_	TokenRange=207:209
+36	um	um	DET	DET	_	37	det	_	TokenRange=210:212
+37	video	video	NOUN	NOUN	_	34	nmod	_	TokenRange=213:218
+38-39	nas	_	_	_	_	_	_	_	TokenRange=219:222
+38	em	em	ADP	ADP	_	40	case	_	_
+39	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	redes	rede	NOUN	NOUN	_	34	nmod	_	TokenRange=223:228
+41	sociais	social	ADJ	ADJ	_	40	amod	_	TokenRange=229:236
+42	participando	participar	VERB	VERB	_	34	acl	_	TokenRange=237:249
+43	de	de	ADP	ADP	_	45	case	_	TokenRange=250:252
+44	uma	um	DET	DET	_	45	det	_	TokenRange=253:256
+45	festa	festa	NOUN	NOUN	_	42	nmod	_	TokenRange=257:262
+46	com	com	ADP	ADP	_	48	case	_	TokenRange=263:266
+47	os	o	DET	DET	_	48	det	_	TokenRange=267:269
+48	parcas	parca	NOUN	NOUN	_	45	nmod	_	TokenRange=270:276
+49	a	o	DET	DET	_	50	det	_	TokenRange=277:278
+50	balada	balada	NOUN	NOUN	_	52	nsubj:pass	_	TokenRange=279:285
+51	foi	_	AUX	AUX	_	52	aux:pass	_	TokenRange=286:289
+52	filmada	filmar	VERB	VERB	_	34	parataxis	_	TokenRange=290:297
+53	em	em	ADP	ADP	_	55	case	_	TokenRange=298:300
+54	las	_	DET	DET	_	55	det	_	TokenRange=301:304
+55	vegas	vega	NOUN	NOUN	_	52	nmod	_	TokenRange=305:310
+56-57	nos	_	_	_	_	_	_	_	TokenRange=311:314
+56	em	em	ADP	ADP	_	58	case	_	_
+57	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
+58	estados	estado	NOUN	NOUN	_	52	nmod	_	TokenRange=315:322
+59	unidos	unido	ADJ	ADJ	_	58	amod	_	TokenRange=323:329
+60	e	e	CCONJ	CONJ	_	62	cc	_	TokenRange=330:331
+61	foi	_	AUX	AUX	_	62	aux:pass	_	TokenRange=332:335
+62	regada	regar	VERB	VERB	_	52	conj	_	TokenRange=336:342
+63	com	com	ADP	ADP	_	65	case	_	TokenRange=343:346
+64	espumante	espumante	ADJ	ADJ	_	65	amod	_	TokenRange=347:356
+65	musica	_	NOUN	NOUN	_	62	nmod	_	TokenRange=357:363
+66	eletronica	eletronico	ADJ	ADJ	_	65	amod	_	TokenRange=364:374
+67	e	e	CCONJ	CONJ	_	69	cc	_	TokenRange=375:376
+68	muitas	_	DET	DET	_	69	det	_	TokenRange=377:383
+69	mulheres	mulher	NOUN	NOUN	_	65	conj	_	TokenRange=384:392
+70-71	numa	_	_	_	_	_	_	_	TokenRange=393:397
+70	em	em	ADP	ADP	_	72	case	_	_
+71	uma	um	DET	DET	_	72	det	_	_
+72	especie	especie	NOUN	NOUN	_	62	nmod	_	TokenRange=398:405
+73	de	de	ADP	ADP	_	74	case	_	TokenRange=406:408
+74	resort	resort	NOUN	NOUN	_	72	nmod	_	TokenRange=409:415
+75	para	para	ADP	ADP	_	76	case	_	TokenRange=416:420
+76	ricacos	ricaco	NOUN	NOUN	_	74	nmod	_	TokenRange=421:428
+

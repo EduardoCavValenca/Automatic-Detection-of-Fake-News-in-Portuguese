@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aposentado mineiro baleado em protesto contra temer sai da uti carlos cirilo segue internado no hospital de base em brasilia ele levou um tiro nos rosto durante confronto entre manifestantes e policiais no dia 24 de maio o servidor aposentado de minas gerais carlos geovani cirilo de 61 anos baleado no rosto durante um
+1	aposentado	aposentado	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:10
+2	mineiro	mineiro	ADJ	ADJ	_	1	amod	_	TokenRange=11:18
+3	baleado	balear	VERB	VERB	_	1	acl	_	TokenRange=19:26
+4	em	em	ADP	ADP	_	5	case	_	TokenRange=27:29
+5	protesto	protesto	NOUN	NOUN	_	3	nmod	_	TokenRange=30:38
+6	contra	_	ADP	ADP	_	7	case	_	TokenRange=39:45
+7	temer	temer	NOUN	NOUN	_	5	nmod	_	TokenRange=46:51
+8	sai	sair	VERB	VERB	_	0	root	_	TokenRange=52:55
+9-10	da	_	_	_	_	_	_	_	TokenRange=56:58
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	uti	uti	NOUN	NOUN	_	8	nmod	_	TokenRange=59:62
+12	carlos	carlo	NOUN	NOUN	_	14	nsubj	_	TokenRange=63:69
+13	cirilo	cirilo	NOUN	NOUN	_	12	flat	_	TokenRange=70:76
+14	segue	_	VERB	VERB	_	8	parataxis	_	TokenRange=77:82
+15	internado	internado	ADJ	ADJ	_	14	xcomp	_	TokenRange=83:92
+16-17	no	_	_	_	_	_	_	_	TokenRange=93:95
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	hospital	hospital	NOUN	NOUN	_	15	nmod	_	TokenRange=96:104
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=105:107
+20	base	base	NOUN	NOUN	_	18	nmod	_	TokenRange=108:112
+21	em	em	ADP	ADP	_	22	case	_	TokenRange=113:115
+22	brasilia	brasilia	NOUN	NOUN	_	14	nmod	_	TokenRange=116:124
+23	ele	_	PRON	PRON	_	24	nsubj	_	TokenRange=125:128
+24	levou	levar	VERB	VERB	_	14	parataxis	_	TokenRange=129:134
+25	um	um	DET	DET	_	26	det	_	TokenRange=135:137
+26	tiro	tiro	NOUN	NOUN	_	24	obj	_	TokenRange=138:142
+27-28	nos	_	_	_	_	_	_	_	TokenRange=143:146
+27	em	em	ADP	ADP	_	29	case	_	_
+28	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	rosto	rosto	NOUN	NOUN	_	24	nmod	_	TokenRange=147:152
+30	durante	_	ADP	ADP	_	31	case	_	TokenRange=153:160
+31	confronto	confronto	NOUN	NOUN	_	24	nmod	_	TokenRange=161:170
+32	entre	_	ADP	ADP	_	33	case	_	TokenRange=171:176
+33	manifestantes	manifestante	NOUN	NOUN	_	31	nmod	_	TokenRange=177:190
+34	e	e	CCONJ	CONJ	_	35	cc	_	TokenRange=191:192
+35	policiais	policial	NOUN	NOUN	_	33	conj	_	TokenRange=193:202
+36-37	no	_	_	_	_	_	_	_	TokenRange=203:205
+36	em	em	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	dia	dia	NOUN	NOUN	_	24	nmod	_	TokenRange=206:209
+39	24	_	NUM	NUM	NumType=Card	38	nmod	_	TokenRange=210:212
+40	de	de	ADP	ADP	_	41	case	_	TokenRange=213:215
+41	maio	_	PROPN	PNOUN	_	39	nmod	_	TokenRange=216:220
+42	o	o	DET	DET	_	43	det	_	TokenRange=221:222
+43	servidor	servidor	NOUN	NOUN	_	24	nsubj	_	TokenRange=223:231
+44	aposentado	aposentado	ADJ	ADJ	_	43	amod	_	TokenRange=232:242
+45	de	de	ADP	ADP	_	46	case	_	TokenRange=243:245
+46	minas	mina	NOUN	NOUN	_	43	nmod	_	TokenRange=246:251
+47	gerais	geral	ADJ	ADJ	_	46	amod	_	TokenRange=252:258
+48	carlos	carlo	NOUN	NOUN	_	43	appos	_	TokenRange=259:265
+49	geovani	_	NOUN	NOUN	_	43	appos	_	TokenRange=266:273
+50	cirilo	cirilo	NOUN	NOUN	_	48	flat	_	TokenRange=274:280
+51	de	de	ADP	ADP	_	53	case	_	TokenRange=281:283
+52	61	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=284:286
+53	anos	ano	NOUN	NOUN	_	43	nmod	_	TokenRange=287:291
+54	baleado	balear	VERB	VERB	_	43	acl	_	TokenRange=292:299
+55-56	no	_	_	_	_	_	_	_	TokenRange=300:302
+55	em	em	ADP	ADP	_	57	case	_	_
+56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	rosto	rosto	NOUN	NOUN	_	54	nmod	_	TokenRange=303:308
+58	durante	_	ADP	ADP	_	59	case	_	TokenRange=309:316
+59	um	_	DET	DET	_	54	det	_	SpacesAfter=\s\s|TokenRange=317:319
+

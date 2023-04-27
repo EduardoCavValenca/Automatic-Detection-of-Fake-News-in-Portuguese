@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aecio pediu r 2 milhoes para joesley e disse a gente mata o entregador antes dele fazer a delacao
+1	aecio	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	pediu	pedir	VERB	VERB	_	0	root	_	TokenRange=6:11
+3	r	r	NOUN	NOUN	_	2	obj	_	TokenRange=12:13
+4	2	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=14:15
+5	milhoes	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=16:23
+6	para	para	ADP	ADP	_	7	case	_	TokenRange=24:28
+7	joesley	_	NOUN	NOUN	_	2	nmod	_	TokenRange=29:36
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=37:38
+9	disse	dizer	VERB	VERB	_	2	conj	_	TokenRange=39:44
+10	a	o	DET	DET	_	11	det	_	TokenRange=45:46
+11	gente	gente	NOUN	NOUN	_	12	nsubj	_	TokenRange=47:52
+12	mata	matar	VERB	VERB	_	9	ccomp	_	TokenRange=53:57
+13	o	o	DET	DET	_	14	det	_	TokenRange=58:59
+14	entregador	entregador	NOUN	NOUN	_	12	obj	_	TokenRange=60:70
+15	antes	antes	ADV	ADV	_	17	mark	_	TokenRange=71:76
+16	dele	_	X	ADPPRON	_	15	fixed	_	TokenRange=77:81
+17	fazer	fazer	VERB	VERB	_	12	advcl	_	TokenRange=82:87
+18	a	o	DET	DET	_	19	det	_	TokenRange=88:89
+19	delacao	delacao	NOUN	NOUN	_	17	obj	_	SpacesAfter=\s\s|TokenRange=90:97
+

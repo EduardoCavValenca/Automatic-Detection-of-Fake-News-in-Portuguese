@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video de paula fernandes incorporando a pomba gira durante show bomba nas redes depois de ser mordida por um cavalo que nao aguentou sua chatisse paula fernandes agora bomba nas redes sociais por outro motivo uma danca esquisita ao som da musica man i feel like woman explodiu nas redes sociais a coreografia pra la de bizarra foi postada por uma fa e esta rendendo os mais variados comentarios
+1	video	video	NOUN	NOUN	_	52	nsubj	_	TokenRange=0:5
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=6:8
+3	paula	paula	NOUN	NOUN	_	1	nmod	_	TokenRange=9:14
+4	fernandes	fernande	ADJ	ADJ	_	3	amod	_	TokenRange=15:24
+5	incorporando	incorporar	VERB	VERB	_	1	acl	_	TokenRange=25:37
+6	a	o	DET	DET	_	7	det	_	TokenRange=38:39
+7	pomba	pomba	NOUN	NOUN	_	5	obj	_	TokenRange=40:45
+8	gira	_	VERB	VERB	_	3	appos	_	TokenRange=46:50
+9	durante	_	ADP	ADP	_	10	case	_	TokenRange=51:58
+10	show	show	NOUN	NOUN	_	8	nmod	_	TokenRange=59:63
+11	bomba	bomba	NOUN	NOUN	_	10	flat	_	TokenRange=64:69
+12-13	nas	_	_	_	_	_	_	_	TokenRange=70:73
+12	em	em	ADP	ADP	_	14	case	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	redes	rede	NOUN	NOUN	_	10	nmod	_	TokenRange=74:79
+15	depois	depois	ADV	ADV	_	18	mark	_	TokenRange=80:86
+16	de	_	ADP	ADP	_	15	fixed	_	TokenRange=87:89
+17	ser	ser	AUX	AUX	_	18	aux:pass	_	TokenRange=90:93
+18	mordida	morder	VERB	VERB	_	5	advcl	_	TokenRange=94:101
+19	por	por	ADP	ADP	_	21	case	_	TokenRange=102:105
+20	um	um	DET	DET	_	21	det	_	TokenRange=106:108
+21	cavalo	cavalo	NOUN	NOUN	_	18	nmod	_	TokenRange=109:115
+22	que	_	PRON	PRON	_	24	nsubj	_	TokenRange=116:119
+23	nao	nao	ADV	ADV	Polarity=Neg	24	advmod	_	TokenRange=120:123
+24	aguentou	aguentar	VERB	VERB	_	21	acl:relcl	_	TokenRange=124:132
+25	sua	_	DET	DET	_	26	det:poss	_	TokenRange=133:136
+26	chatisse	chatisse	NOUN	NOUN	_	24	obj	_	TokenRange=137:145
+27	paula	paula	NOUN	NOUN	_	24	obj	_	TokenRange=146:151
+28	fernandes	fernande	NOUN	NOUN	_	27	flat	_	TokenRange=152:161
+29	agora	agora	ADV	ADV	_	30	advmod	_	TokenRange=162:167
+30	bomba	bomba	NOUN	NOUN	_	27	appos	_	TokenRange=168:173
+31-32	nas	_	_	_	_	_	_	_	TokenRange=174:177
+31	em	em	ADP	ADP	_	33	case	_	_
+32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	redes	rede	NOUN	NOUN	_	30	nmod	_	TokenRange=178:183
+34	sociais	social	ADJ	ADJ	_	33	amod	_	TokenRange=184:191
+35	por	por	ADP	ADP	_	37	case	_	TokenRange=192:195
+36	outro	_	DET	DET	_	37	det	_	TokenRange=196:201
+37	motivo	motivo	NOUN	NOUN	_	30	nmod	_	TokenRange=202:208
+38	uma	um	DET	DET	_	39	det	_	TokenRange=209:212
+39	danca	danca	NOUN	NOUN	_	52	nsubj	_	TokenRange=213:218
+40	esquisita	esquisitar	ADJ	ADJ	_	39	amod	_	TokenRange=219:228
+41-42	ao	_	_	_	_	_	_	_	TokenRange=229:231
+41	a	a	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	som	som	NOUN	NOUN	_	40	nmod	_	TokenRange=232:235
+44-45	da	_	_	_	_	_	_	_	TokenRange=236:238
+44	de	de	ADP	ADP	_	46	case	_	_
+45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	musica	_	NOUN	NOUN	_	43	nmod	_	TokenRange=239:245
+47	man	_	PROPN	PNOUN	_	46	appos	_	TokenRange=246:249
+48	i	_	PROPN	PNOUN	_	49	nsubj	_	TokenRange=250:251
+49	feel	_	PROPN	PNOUN	_	47	appos	_	TokenRange=252:256
+50	like	_	PROPN	PNOUN	_	51	case	_	TokenRange=257:261
+51	woman	_	PROPN	PNOUN	_	47	nmod	_	TokenRange=262:267
+52	explodiu	explodir	VERB	VERB	_	0	root	_	TokenRange=268:276
+53-54	nas	_	_	_	_	_	_	_	TokenRange=277:280
+53	em	em	ADP	ADP	_	55	case	_	_
+54	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	55	det	_	_
+55	redes	rede	NOUN	NOUN	_	52	nmod	_	TokenRange=281:286
+56	sociais	social	ADJ	ADJ	_	55	amod	_	TokenRange=287:294
+57	a	o	DET	DET	_	58	det	_	TokenRange=295:296
+58	coreografia	coreografia	NOUN	NOUN	_	64	nsubj:pass	_	TokenRange=297:308
+59	pra	_	ADP	ADP	_	60	case	_	TokenRange=309:312
+60	la	_	PRON	PRON	_	58	nmod	_	TokenRange=313:315
+61	de	de	ADP	ADP	_	62	case	_	TokenRange=316:318
+62	bizarra	bizarra	NOUN	NOUN	_	60	nmod	_	TokenRange=319:326
+63	foi	_	AUX	AUX	_	64	aux:pass	_	TokenRange=327:330
+64	postada	postar	VERB	VERB	_	52	parataxis	_	TokenRange=331:338
+65	por	por	ADP	ADP	_	67	case	_	TokenRange=339:342
+66	uma	um	DET	DET	_	67	det	_	TokenRange=343:346
+67	fa	fa	NOUN	NOUN	_	64	nmod	_	TokenRange=347:349
+68	e	e	CCONJ	CONJ	_	70	cc	_	TokenRange=350:351
+69	esta	_	PRON	PRON	_	70	nsubj	_	TokenRange=352:356
+70	rendendo	render	VERB	VERB	_	64	conj	_	TokenRange=357:365
+71	os	o	DET	DET	_	74	det	_	TokenRange=366:368
+72	mais	mais	ADV	ADV	_	73	advmod	_	TokenRange=369:373
+73	variados	variado	ADJ	ADJ	_	74	amod	_	TokenRange=374:382
+74	comentarios	comentario	NOUN	NOUN	_	70	obj	_	TokenRange=383:394
+

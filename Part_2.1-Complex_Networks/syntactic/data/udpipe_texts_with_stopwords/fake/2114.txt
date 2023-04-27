@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jose mayer estou cansado da impunidade da corrupcao de nao receber nada em troca o ator global deu sua declaracao de apoio ao projeto liderado pelo procurador deltan dallagnol estou cansado da impunidade da corrupcao de nao receber nada em troca apoie o projeto das 10 medidas contra a corrupcao do ministerio publico voce nao estara ajudando esse ou aquele partido voce estara apoiando o brasil disse mayer
+1	jose	_	PROPN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	mayer	_	PROPN	PNOUN	_	1	flat	_	TokenRange=5:10
+3	estou	estar	VERB	VERB	_	0	root	_	TokenRange=11:16
+4	cansado	cansado	ADJ	ADJ	_	3	xcomp	_	TokenRange=17:24
+5-6	da	_	_	_	_	_	_	_	TokenRange=25:27
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	impunidade	impunidade	NOUN	NOUN	_	4	nmod	_	TokenRange=28:38
+8-9	da	_	_	_	_	_	_	_	TokenRange=39:41
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	corrupcao	corrupcao	NOUN	NOUN	_	7	nmod	_	TokenRange=42:51
+11	de	_	ADP	ADP	_	13	mark	_	TokenRange=52:54
+12	nao	nao	ADV	ADV	Polarity=Neg	13	advmod	_	TokenRange=55:58
+13	receber	receber	VERB	VERB	_	3	advcl	_	TokenRange=59:66
+14	nada	_	PRON	PRON	_	13	obj	_	TokenRange=67:71
+15	em	em	ADP	ADP	_	16	case	_	TokenRange=72:74
+16	troca	_	NOUN	NOUN	_	13	nmod	_	TokenRange=75:80
+17	o	o	DET	DET	_	18	det	_	TokenRange=81:82
+18	ator	ator	NOUN	NOUN	_	20	nsubj	_	TokenRange=83:87
+19	global	global	ADJ	ADJ	_	18	amod	_	TokenRange=88:94
+20	deu	dar	VERB	VERB	_	3	conj	_	TokenRange=95:98
+21	sua	_	DET	DET	_	22	det:poss	_	TokenRange=99:102
+22	declaracao	declaracao	NOUN	NOUN	_	20	obj	_	TokenRange=103:113
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=114:116
+24	apoio	apoio	NOUN	NOUN	_	22	nmod	_	TokenRange=117:122
+25-26	ao	_	_	_	_	_	_	_	TokenRange=123:125
+25	a	a	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	projeto	projeto	NOUN	NOUN	_	24	nmod	_	TokenRange=126:133
+28	liderado	liderar	VERB	VERB	_	27	acl	_	TokenRange=134:142
+29-30	pelo	_	_	_	_	_	_	_	TokenRange=143:147
+29	por	por	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	procurador	procurador	NOUN	NOUN	_	28	nmod	_	TokenRange=148:158
+32	deltan	_	NOUN	NOUN	_	31	appos	_	TokenRange=159:165
+33	dallagnol	_	NOUN	NOUN	_	31	amod	_	TokenRange=166:175
+34	estou	estar	VERB	VERB	_	20	conj	_	TokenRange=176:181
+35	cansado	cansado	ADJ	ADJ	_	34	xcomp	_	TokenRange=182:189
+36-37	da	_	_	_	_	_	_	_	TokenRange=190:192
+36	de	de	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	impunidade	impunidade	NOUN	NOUN	_	35	nmod	_	TokenRange=193:203
+39-40	da	_	_	_	_	_	_	_	TokenRange=204:206
+39	de	de	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	corrupcao	corrupcao	NOUN	NOUN	_	38	nmod	_	TokenRange=207:216
+42	de	_	ADP	ADP	_	44	mark	_	TokenRange=217:219
+43	nao	nao	ADV	ADV	Polarity=Neg	44	advmod	_	TokenRange=220:223
+44	receber	receber	VERB	VERB	_	38	nmod	_	TokenRange=224:231
+45	nada	_	PRON	PRON	_	44	obj	_	TokenRange=232:236
+46	em	em	ADP	ADP	_	47	case	_	TokenRange=237:239
+47	troca	_	NOUN	NOUN	_	44	nmod	_	TokenRange=240:245
+48	apoie	apoiar	VERB	VERB	_	34	conj	_	TokenRange=246:251
+49	o	o	DET	DET	_	50	det	_	TokenRange=252:253
+50	projeto	projeto	NOUN	NOUN	_	48	obj	_	TokenRange=254:261
+51-52	das	_	_	_	_	_	_	_	TokenRange=262:265
+51	de	de	ADP	ADP	_	54	case	_	_
+52	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+53	10	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=266:268
+54	medidas	medida	NOUN	NOUN	_	50	nmod	_	TokenRange=269:276
+55	contra	_	ADP	ADP	_	57	case	_	TokenRange=277:283
+56	a	o	DET	DET	_	57	det	_	TokenRange=284:285
+57	corrupcao	corrupcao	NOUN	NOUN	_	54	nmod	_	TokenRange=286:295
+58-59	do	_	_	_	_	_	_	_	TokenRange=296:298
+58	de	de	ADP	ADP	_	60	case	_	_
+59	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	ministerio	ministerio	NOUN	NOUN	_	54	nmod	_	TokenRange=299:309
+61	publico	publico	ADJ	ADJ	_	60	amod	_	TokenRange=310:317
+62	voce	_	PRON	PRON	_	65	nsubj	_	TokenRange=318:322
+63	nao	nao	ADV	ADV	Polarity=Neg	65	advmod	_	TokenRange=323:326
+64	estara	estar	AUX	AUX	_	65	aux	_	TokenRange=327:333
+65	ajudando	ajudar	VERB	VERB	_	48	ccomp	_	TokenRange=334:342
+66	esse	_	DET	DET	_	69	det	_	TokenRange=343:347
+67	ou	ou	CCONJ	CONJ	_	69	cc	_	TokenRange=348:350
+68	aquele	_	DET	DET	_	69	det	_	TokenRange=351:357
+69	partido	partido	NOUN	NOUN	_	65	obj	_	TokenRange=358:365
+70	voce	_	PRON	PRON	_	72	nsubj	_	TokenRange=366:370
+71	estara	estar	AUX	AUX	_	72	aux	_	TokenRange=371:377
+72	apoiando	apoiar	VERB	VERB	_	65	ccomp	_	TokenRange=378:386
+73	o	o	DET	DET	_	74	det	_	TokenRange=387:388
+74	brasil	brasil	NOUN	NOUN	_	72	obj	_	TokenRange=389:395
+75	disse	dizer	VERB	VERB	_	65	parataxis	_	TokenRange=396:401
+76	mayer	mayer	NOUN	NOUN	_	75	nsubj	_	TokenRange=402:407
+

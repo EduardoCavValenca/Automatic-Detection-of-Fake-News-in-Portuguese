@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = a melhor escolha de richard linklater esta entre as estreias da semana longa narra a historia de tres amigos que se reunem para buscar o corpo do filho de um deles morto no iraque veja o que chega as telonas a melhor escolha bom muitos anos depois de terem lutado no vietna tres amigos voltam a se reencontrar a circunstancia nao e festiva o filho de um deles foi morto no iraque larry doc shepherd steve carell
+1	a	o	DET	DET	_	3	det	_	TokenRange=0:1
+2	melhor	melhor	ADJ	ADJ	_	3	amod	_	TokenRange=2:8
+3	escolha	escolha	NOUN	NOUN	_	7	nsubj	_	TokenRange=9:16
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=17:19
+5	richard	_	NOUN	NOUN	_	3	nmod	_	TokenRange=20:27
+6	linklater	_	NOUN	NOUN	_	5	flat	_	TokenRange=28:37
+7	esta	_	VERB	PRON	_	0	root	_	TokenRange=38:42
+8	entre	_	ADP	ADP	_	10	case	_	TokenRange=43:48
+9	as	o	DET	DET	_	10	det	_	TokenRange=49:51
+10	estreias	estreia	NOUN	NOUN	_	7	nmod	_	TokenRange=52:60
+11-12	da	_	_	_	_	_	_	_	TokenRange=61:63
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	semana	semana	NOUN	NOUN	_	10	nmod	_	TokenRange=64:70
+14	longa	longo	ADJ	ADJ	_	13	amod	_	TokenRange=71:76
+15	narra	narrar	VERB	VERB	_	7	parataxis	_	TokenRange=77:82
+16	a	o	DET	DET	_	17	det	_	TokenRange=83:84
+17	historia	historia	NOUN	NOUN	_	15	obj	_	TokenRange=85:93
+18	de	de	ADP	ADP	_	20	case	_	TokenRange=94:96
+19	tres	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=97:101
+20	amigos	amigo	NOUN	NOUN	_	17	nmod	_	TokenRange=102:108
+21	que	_	PRON	PRON	_	23	nsubj	_	TokenRange=109:112
+22	se	_	PRON	PRON	_	23	obj	_	TokenRange=113:115
+23	reunem	_	VERB	VERB	_	20	acl:relcl	_	TokenRange=116:122
+24	para	_	ADP	ADP	_	25	mark	_	TokenRange=123:127
+25	buscar	buscar	VERB	VERB	_	23	advcl	_	TokenRange=128:134
+26	o	o	DET	DET	_	27	det	_	TokenRange=135:136
+27	corpo	corpo	NOUN	NOUN	_	25	obj	_	TokenRange=137:142
+28-29	do	_	_	_	_	_	_	_	TokenRange=143:145
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	filho	filho	NOUN	NOUN	_	27	nmod	_	TokenRange=146:151
+31	de	de	ADP	ADP	_	32	case	_	TokenRange=152:154
+32	um	_	PRON	PRON	_	30	nmod	_	TokenRange=155:157
+33	deles	_	X	ADPPRON	_	32	nmod	_	TokenRange=158:163
+34	morto	_	VERB	VERB	_	30	acl	_	TokenRange=164:169
+35-36	no	_	_	_	_	_	_	_	TokenRange=170:172
+35	em	em	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	iraque	iraque	NOUN	NOUN	_	34	nmod	_	TokenRange=173:179
+38	veja	ver	VERB	VERB	_	15	parataxis	_	TokenRange=180:184
+39	o	_	PRON	PRON	_	38	obj	_	TokenRange=185:186
+40	que	_	PRON	PRON	_	41	nsubj	_	TokenRange=187:190
+41	chega	chegar	VERB	VERB	_	39	acl:relcl	_	TokenRange=191:196
+42	as	o	DET	DET	_	43	det	_	TokenRange=197:199
+43	telonas	telona	NOUN	NOUN	_	41	nmod	_	TokenRange=200:207
+44	a	o	DET	DET	_	46	det	_	TokenRange=208:209
+45	melhor	melhor	ADJ	ADJ	_	46	amod	_	TokenRange=210:216
+46	escolha	escolha	NOUN	NOUN	_	41	nsubj	_	TokenRange=217:224
+47	bom	bom	ADJ	ADJ	_	46	amod	_	TokenRange=225:228
+48	muitos	_	DET	DET	_	49	det	_	TokenRange=229:235
+49	anos	ano	NOUN	NOUN	_	41	nmod	_	TokenRange=236:240
+50	depois	depois	ADV	ADV	_	53	mark	_	TokenRange=241:247
+51	de	_	ADP	ADP	_	50	fixed	_	TokenRange=248:250
+52	terem	ter	AUX	AUX	_	53	aux	_	TokenRange=251:256
+53	lutado	lutar	VERB	VERB	_	62	advcl	_	TokenRange=257:263
+54-55	no	_	_	_	_	_	_	_	TokenRange=264:266
+54	em	em	ADP	ADP	_	56	case	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	vietna	vietna	NOUN	NOUN	_	53	nmod	_	TokenRange=267:273
+57	tres	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=274:278
+58	amigos	amigo	NOUN	NOUN	_	62	nsubj	_	TokenRange=279:285
+59	voltam	voltar	AUX	AUX	_	62	aux	_	TokenRange=286:292
+60	a	_	ADP	ADP	_	62	mark	_	TokenRange=293:294
+61	se	_	PRON	PRON	_	62	expl:pv	_	TokenRange=295:297
+62	reencontrar	reencontrar	VERB	VERB	_	38	ccomp	_	TokenRange=298:309
+63	a	o	DET	DET	_	64	det	_	TokenRange=310:311
+64	circunstancia	circunstancia	NOUN	NOUN	_	62	nsubj	_	TokenRange=312:325
+65	nao	nao	ADV	ADV	Polarity=Neg	62	advmod	_	TokenRange=326:329
+66	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=330:331
+67	festiva	festivo	ADJ	ADJ	_	65	conj	_	TokenRange=332:339
+68	o	o	DET	DET	_	69	det	_	TokenRange=340:341
+69	filho	filho	NOUN	NOUN	_	74	nsubj:pass	_	TokenRange=342:347
+70	de	de	ADP	ADP	_	71	case	_	TokenRange=348:350
+71	um	_	PRON	PRON	_	69	nmod	_	TokenRange=351:353
+72	deles	_	X	ADPPRON	_	71	nmod	_	TokenRange=354:359
+73	foi	_	AUX	AUX	_	74	aux:pass	_	TokenRange=360:363
+74	morto	_	VERB	VERB	_	64	acl:relcl	_	TokenRange=364:369
+75-76	no	_	_	_	_	_	_	_	TokenRange=370:372
+75	em	em	ADP	ADP	_	77	case	_	_
+76	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
+77	iraque	iraque	NOUN	NOUN	_	74	nmod	_	TokenRange=373:379
+78	larry	_	NOUN	NOUN	_	74	nsubj:pass	_	TokenRange=380:385
+79	doc	_	PROPN	PNOUN	_	78	flat	_	TokenRange=386:389
+80	shepherd	_	PROPN	PNOUN	_	78	flat	_	TokenRange=390:398
+81	steve	_	PROPN	PNOUN	_	74	parataxis	_	TokenRange=399:404
+82	carell	_	PROPN	PNOUN	_	81	flat	_	SpacesAfter=\s\s|TokenRange=405:411
+

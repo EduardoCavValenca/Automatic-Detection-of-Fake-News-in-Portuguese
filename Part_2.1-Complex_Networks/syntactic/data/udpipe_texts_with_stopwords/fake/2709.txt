@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = em nota oficial governo diz que dilma gastou r 3 mil/dia com alimentacao lula e a militancia petista se prestaram a reclamar que o presidente em exercicio michel temer estaria fazendo dilma passar fome o governo temer oficializou a resposta para a ladainha petista dilma rousseff vinha em 2016 gastando r 62 mil por mes com comida em 18 dias afastada do cargo gastaria r 54 mil ou r 3 mil por dia sera que dilma esta comendo tanto assim tempos atras ela estava de regime ue
+1	em	em	ADP	ADP	_	2	case	_	TokenRange=0:2
+2	nota	nota	NOUN	NOUN	_	5	nmod	_	TokenRange=3:7
+3	oficial	oficial	ADJ	ADJ	_	2	amod	_	TokenRange=8:15
+4	governo	governo	NOUN	NOUN	_	5	nsubj	_	TokenRange=16:23
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=24:27
+6	que	que	CCONJ	CONJ	_	8	mark	_	TokenRange=28:31
+7	dilma	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=32:37
+8	gastou	gastar	VERB	VERB	_	5	ccomp	_	TokenRange=38:44
+9	r	r	NOUN	NOUN	_	8	obj	_	TokenRange=45:46
+10	3	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=47:48
+11	mil/dia	_	NOUN	NOUN	_	9	appos	_	TokenRange=49:56
+12	com	com	ADP	ADP	_	13	case	_	TokenRange=57:60
+13	alimentacao	alimentacao	NOUN	NOUN	_	8	nmod	_	TokenRange=61:72
+14	lula	_	NOUN	NOUN	_	13	appos	_	TokenRange=73:77
+15	e	e	CCONJ	CONJ	_	17	cc	_	TokenRange=78:79
+16	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	TokenRange=80:81
+17	militancia	militancia	NOUN	NOUN	_	20	nsubj	_	TokenRange=82:92
+18	petista	petista	ADJ	ADJ	_	17	amod	_	TokenRange=93:100
+19	se	_	PRON	PRON	_	20	obj	_	TokenRange=101:103
+20	prestaram	prestar	VERB	VERB	_	8	conj	_	TokenRange=104:113
+21	a	_	ADP	ADP	_	22	mark	_	TokenRange=114:115
+22	reclamar	reclamar	VERB	VERB	_	20	nmod	_	TokenRange=116:124
+23	que	que	CCONJ	CONJ	_	31	mark	_	TokenRange=125:128
+24	o	o	DET	DET	_	25	det	_	TokenRange=129:130
+25	presidente	presidente	NOUN	NOUN	_	31	nsubj	_	TokenRange=131:141
+26	em	em	ADP	ADP	_	27	case	_	TokenRange=142:144
+27	exercicio	exercicio	NOUN	NOUN	_	25	nmod	_	TokenRange=145:154
+28	michel	michel	ADJ	ADJ	_	25	appos	_	TokenRange=155:161
+29	temer	temer	NOUN	NOUN	_	25	appos	_	TokenRange=162:167
+30	estaria	estar	AUX	AUX	_	31	aux	_	TokenRange=168:175
+31	fazendo	fazer	VERB	VERB	_	22	ccomp	_	TokenRange=176:183
+32	dilma	_	NOUN	NOUN	_	31	obj	_	TokenRange=184:189
+33	passar	passar	VERB	VERB	_	31	xcomp	_	TokenRange=190:196
+34	fome	fome	NOUN	NOUN	_	33	obj	_	TokenRange=197:201
+35	o	o	DET	DET	_	36	det	_	TokenRange=202:203
+36	governo	governo	NOUN	NOUN	_	31	nsubj	_	TokenRange=204:211
+37	temer	temer	NOUN	NOUN	_	36	flat	_	TokenRange=212:217
+38	oficializou	oficializar	VERB	VERB	_	5	parataxis	_	TokenRange=218:229
+39	a	o	DET	DET	_	40	det	_	TokenRange=230:231
+40	resposta	resposta	NOUN	NOUN	_	38	obj	_	TokenRange=232:240
+41	para	para	ADP	ADP	_	43	case	_	TokenRange=241:245
+42	a	o	DET	DET	_	43	det	_	TokenRange=246:247
+43	ladainha	_	NOUN	NOUN	_	40	nmod	_	TokenRange=248:256
+44	petista	petista	ADJ	ADJ	_	43	amod	_	TokenRange=257:264
+45	dilma	dilma	NOUN	NOUN	_	47	nsubj	_	TokenRange=265:270
+46	rousseff	rousseff	NOUN	NOUN	_	45	flat	_	TokenRange=271:279
+47	vinha	vir	VERB	VERB	_	43	acl:relcl	_	TokenRange=280:285
+48	em	em	ADP	ADP	_	49	case	_	TokenRange=286:288
+49	2016	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=289:293
+50	gastando	gastar	VERB	VERB	_	47	acl	_	TokenRange=294:302
+51	r	r	NOUN	NOUN	_	50	obj	_	TokenRange=303:304
+52	62	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=305:307
+53	mil	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=308:311
+54	por	por	ADP	ADP	_	55	case	_	TokenRange=312:315
+55	mes	me	NOUN	NOUN	_	50	nmod	_	TokenRange=316:319
+56	com	com	ADP	ADP	_	57	case	_	TokenRange=320:323
+57	comida	comida	NOUN	NOUN	_	50	nmod	_	TokenRange=324:330
+58	em	em	ADP	ADP	_	60	case	_	TokenRange=331:333
+59	18	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=334:336
+60	dias	dia	NOUN	NOUN	_	50	nmod	_	TokenRange=337:341
+61	afastada	afastar	VERB	VERB	_	60	acl	_	TokenRange=342:350
+62-63	do	_	_	_	_	_	_	_	TokenRange=351:353
+62	de	de	ADP	ADP	_	64	case	_	_
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	cargo	cargo	NOUN	NOUN	_	61	nmod	_	TokenRange=354:359
+65	gastaria	gastar	VERB	VERB	_	47	parataxis	_	TokenRange=360:368
+66	r	r	NOUN	NOUN	_	65	obj	_	TokenRange=369:370
+67	54	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=371:373
+68	mil	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=374:377
+69	ou	ou	CCONJ	CONJ	_	70	cc	_	TokenRange=378:380
+70	r	r	NOUN	NOUN	_	66	conj	_	TokenRange=381:382
+71	3	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=383:384
+72	mil	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=385:388
+73	por	por	ADP	ADP	_	74	case	_	TokenRange=389:392
+74	dia	dia	NOUN	NOUN	_	70	nmod	_	TokenRange=393:396
+75	sera	_	VERB	VERB	_	65	parataxis	_	TokenRange=397:401
+76	que	que	CCONJ	CONJ	_	79	mark	_	TokenRange=402:405
+77	dilma	_	NOUN	NOUN	_	79	nsubj	_	TokenRange=406:411
+78	esta	_	AUX	AUX	_	79	aux	_	TokenRange=412:416
+79	comendo	comer	VERB	VERB	_	75	csubj	_	TokenRange=417:424
+80	tanto	tanto	ADV	ADV	_	85	advmod	_	TokenRange=425:430
+81	assim	assim	ADV	ADV	_	85	advmod	_	TokenRange=431:436
+82	tempos	tempo	NOUN	NOUN	_	85	nmod	_	TokenRange=437:443
+83	atras	atras	ADV	ADV	_	82	advmod	_	TokenRange=444:449
+84	ela	_	PRON	PRON	_	85	nsubj	_	TokenRange=450:453
+85	estava	estar	VERB	VERB	_	79	advcl	_	TokenRange=454:460
+86	de	de	ADP	ADP	_	87	case	_	TokenRange=461:463
+87	regime	regime	NOUN	NOUN	_	85	nmod	_	TokenRange=464:470
+88	ue	_	CCONJ	CONJ	_	85	dep	_	TokenRange=471:473
+

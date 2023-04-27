@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = submarino americano deixa seul em alerta chegada do uss michigan leva ainda mais tensao a regiao o presidente eleito da coreia do sul moon jaein acredita que a presenca do submarino nuclear americano uss727 michigan atracado ha 20 dias no porto de busan e um fator de preocupacao mais que de tranquilidade o gigante de aco negro 170 metros de comprimento e 187 mil toneladas integra a poderosa forcatarefa
+1	submarino	submarino	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	americano	americano	ADJ	ADJ	_	1	amod	_	TokenRange=10:19
+3	deixa	deixar	VERB	VERB	_	0	root	_	TokenRange=20:25
+4	seul	_	NOUN	NOUN	_	3	obj	_	TokenRange=26:30
+5	em	em	ADP	ADP	_	6	case	_	TokenRange=31:33
+6	alerta	alerta	NOUN	NOUN	_	3	nmod	_	TokenRange=34:40
+7	chegada	chegada	NOUN	NOUN	_	3	obj	_	TokenRange=41:48
+8-9	do	_	_	_	_	_	_	_	TokenRange=49:51
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	uss	_	NOUN	NOUN	_	7	nmod	_	TokenRange=52:55
+11	michigan	_	NOUN	NOUN	_	10	flat	_	TokenRange=56:64
+12	leva	levar	VERB	VERB	_	3	parataxis	_	TokenRange=65:69
+13	ainda	ainda	ADV	ADV	_	14	advmod	_	TokenRange=70:75
+14	mais	_	DET	DET	_	15	det	_	TokenRange=76:80
+15	tensao	tensao	NOUN	NOUN	_	12	obj	_	TokenRange=81:87
+16	a	_	ADP	ADP	_	17	case	_	TokenRange=88:89
+17	regiao	regiao	NOUN	NOUN	_	12	nmod	_	TokenRange=90:96
+18	o	o	DET	DET	_	19	det	_	TokenRange=97:98
+19	presidente	presidente	NOUN	NOUN	_	12	nsubj	_	TokenRange=99:109
+20	eleito	eleger	VERB	VERB	_	19	acl	_	TokenRange=110:116
+21-22	da	_	_	_	_	_	_	_	TokenRange=117:119
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	coreia	coreia	NOUN	NOUN	_	19	nmod	_	TokenRange=120:126
+24-25	do	_	_	_	_	_	_	_	TokenRange=127:129
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	sul	sul	NOUN	NOUN	_	23	nmod	_	TokenRange=130:133
+27	moon	_	NOUN	NOUN	_	19	appos	_	TokenRange=134:138
+28	jaein	_	PROPN	PNOUN	_	27	flat	_	TokenRange=139:144
+29	acredita	acreditar	VERB	VERB	_	12	parataxis	_	TokenRange=145:153
+30	que	que	CCONJ	CONJ	_	71	mark	_	TokenRange=154:157
+31	a	o	DET	DET	_	32	det	_	TokenRange=158:159
+32	presenca	presenca	NOUN	NOUN	_	71	nsubj	_	TokenRange=160:168
+33-34	do	_	_	_	_	_	_	_	TokenRange=169:171
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	submarino	submarino	NOUN	NOUN	_	32	nmod	_	TokenRange=172:181
+36	nuclear	nuclear	ADJ	ADJ	_	35	amod	_	TokenRange=182:189
+37	americano	americano	ADJ	ADJ	_	35	amod	_	TokenRange=190:199
+38	uss727	uss727	NOUN	NOUN	_	35	appos	_	TokenRange=200:206
+39	michigan	michigan	ADJ	ADJ	_	38	flat	_	TokenRange=207:215
+40	atracado	atracar	VERB	VERB	_	35	acl	_	TokenRange=216:224
+41	ha	_	VERB	VERB	_	40	advcl	_	TokenRange=225:227
+42	20	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=228:230
+43	dias	dia	NOUN	NOUN	_	41	nmod	_	TokenRange=231:235
+44-45	no	_	_	_	_	_	_	_	TokenRange=236:238
+44	em	em	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	porto	porto	NOUN	NOUN	_	40	nmod	_	TokenRange=239:244
+47	de	de	ADP	ADP	_	48	case	_	TokenRange=245:247
+48	busan	busan	NOUN	NOUN	_	46	nmod	_	TokenRange=248:253
+49	e	e	CCONJ	CONJ	_	51	cc	_	TokenRange=254:255
+50	um	um	DET	DET	_	51	det	_	TokenRange=256:258
+51	fator	fator	NOUN	NOUN	_	29	ccomp	_	TokenRange=259:264
+52	de	de	ADP	ADP	_	53	case	_	TokenRange=265:267
+53	preocupacao	preocupacao	NOUN	NOUN	_	51	nmod	_	TokenRange=268:279
+54	mais	mais	ADV	ADV	_	53	advmod	_	TokenRange=280:284
+55	que	_	ADP	ADP	_	57	case	_	TokenRange=285:288
+56	de	de	ADP	ADP	_	57	case	_	TokenRange=289:291
+57	tranquilidade	tranquilidade	NOUN	NOUN	_	54	nmod	_	TokenRange=292:305
+58	o	o	DET	DET	_	59	det	_	TokenRange=306:307
+59	gigante	gigante	NOUN	NOUN	_	71	nsubj	_	TokenRange=308:315
+60	de	de	ADP	ADP	_	61	case	_	TokenRange=316:318
+61	aco	aco	NOUN	NOUN	_	59	nmod	_	TokenRange=319:322
+62	negro	negro	ADJ	ADJ	_	61	amod	_	TokenRange=323:328
+63	170	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=329:332
+64	metros	metro	NOUN	NOUN	_	59	appos	_	TokenRange=333:339
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=340:342
+66	comprimento	comprimento	NOUN	NOUN	_	64	nmod	_	TokenRange=343:354
+67	e	e	CCONJ	CONJ	_	70	cc	_	TokenRange=355:356
+68	187	_	NUM	NUM	NumType=Card	69	nummod	_	TokenRange=357:360
+69	mil	_	NUM	NUM	NumType=Card	70	nummod	_	TokenRange=361:364
+70	toneladas	tonelada	NOUN	NOUN	_	64	conj	_	TokenRange=365:374
+71	integra	integrar	VERB	VERB	_	51	acl:relcl	_	TokenRange=375:382
+72	a	o	DET	DET	_	74	det	_	TokenRange=383:384
+73	poderosa	poderoso	ADJ	ADJ	_	74	amod	_	TokenRange=385:393
+74	forcatarefa	forcatarefa	NOUN	NOUN	_	71	obj	_	SpacesAfter=\s\s|TokenRange=394:405
+

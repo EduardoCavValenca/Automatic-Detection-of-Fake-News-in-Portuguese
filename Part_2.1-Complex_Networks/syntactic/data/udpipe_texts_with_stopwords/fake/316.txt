@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasileiros invadem pagina do exercito no facebook e clamam por socorro apos as recentes e polemicas decisoes do ministro gilmar mendes o brasileiro decidiu recorrer a sua ultima esperanca o exercito brasileiro
+1	brasileiros	brasileiro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:11
+2	invadem	invadir	VERB	VERB	_	0	root	_	TokenRange=12:19
+3	pagina	pagina	NOUN	NOUN	_	2	obj	_	TokenRange=20:26
+4-5	do	_	_	_	_	_	_	_	TokenRange=27:29
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	exercito	exercito	NOUN	NOUN	_	3	nmod	_	TokenRange=30:38
+7-8	no	_	_	_	_	_	_	_	TokenRange=39:41
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	facebook	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=42:50
+10	e	e	CCONJ	CONJ	_	11	cc	_	TokenRange=51:52
+11	clamam	clamar	VERB	VERB	_	2	conj	_	TokenRange=53:59
+12	por	por	ADP	ADP	_	13	case	_	TokenRange=60:63
+13	socorro	socorro	NOUN	NOUN	_	11	nmod	_	TokenRange=64:71
+14	apos	_	ADP	ADP	_	19	case	_	TokenRange=72:76
+15	as	o	DET	DET	_	19	det	_	TokenRange=77:79
+16	recentes	recente	ADJ	ADJ	_	19	amod	_	TokenRange=80:88
+17	e	e	CCONJ	CONJ	_	18	cc	_	TokenRange=89:90
+18	polemicas	polemico	ADJ	ADJ	_	16	conj	_	TokenRange=91:100
+19	decisoes	decisoe	NOUN	NOUN	_	11	nmod	_	TokenRange=101:109
+20-21	do	_	_	_	_	_	_	_	TokenRange=110:112
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ministro	ministro	NOUN	NOUN	_	19	nmod	_	TokenRange=113:121
+23	gilmar	gilmar	NOUN	NOUN	_	22	appos	_	TokenRange=122:128
+24	mendes	_	ADJ	ADJ	_	22	amod	_	TokenRange=129:135
+25	o	o	DET	DET	_	26	det	_	TokenRange=136:137
+26	brasileiro	brasileiro	NOUN	NOUN	_	27	nsubj	_	TokenRange=138:148
+27	decidiu	decidir	VERB	VERB	_	2	conj	_	TokenRange=149:156
+28	recorrer	recorrer	VERB	VERB	_	27	xcomp	_	TokenRange=157:165
+29	a	_	ADP	ADP	_	32	case	_	TokenRange=166:167
+30	sua	_	DET	DET	_	32	det:poss	_	TokenRange=168:171
+31	ultima	_	ADJ	ADJ	_	32	amod	_	TokenRange=172:178
+32	esperanca	esperanca	NOUN	NOUN	_	28	nmod	_	TokenRange=179:188
+33	o	o	DET	DET	_	34	det	_	TokenRange=189:190
+34	exercito	exercito	NOUN	NOUN	_	28	obj	_	TokenRange=191:199
+35	brasileiro	brasileiro	ADJ	ADJ	_	34	amod	_	SpacesAfter=\s\s|TokenRange=200:210
+

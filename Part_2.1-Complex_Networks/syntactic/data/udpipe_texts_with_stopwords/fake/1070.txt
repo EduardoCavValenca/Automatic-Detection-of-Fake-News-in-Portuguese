@@ -1,0 +1,30 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = stf manda soltar homem da mala edson fachin ministro do stf mandou soltar o exdeputado rodrigo rocha loures
+1	stf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	manda	mandar	VERB	VERB	_	0	root	_	TokenRange=4:9
+3	soltar	soltar	VERB	VERB	_	2	xcomp	_	TokenRange=10:16
+4	homem	homem	NOUN	NOUN	_	3	obj	_	TokenRange=17:22
+5-6	da	_	_	_	_	_	_	_	TokenRange=23:25
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mala	mala	NOUN	NOUN	_	4	nmod	_	TokenRange=26:30
+8	edson	edson	NOUN	NOUN	_	14	nsubj	_	TokenRange=31:36
+9	fachin	_	NOUN	NOUN	_	8	flat	_	TokenRange=37:43
+10	ministro	ministro	NOUN	NOUN	_	8	flat	_	TokenRange=44:52
+11-12	do	_	_	_	_	_	_	_	TokenRange=53:55
+11	de	de	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	stf	_	NOUN	NOUN	_	10	nmod	_	TokenRange=56:59
+14	mandou	mandar	VERB	VERB	_	2	parataxis	_	TokenRange=60:66
+15	soltar	soltar	VERB	VERB	_	14	xcomp	_	TokenRange=67:73
+16	o	o	DET	DET	_	17	det	_	TokenRange=74:75
+17	exdeputado	exdeputado	NOUN	NOUN	_	15	obj	_	TokenRange=76:86
+18	rodrigo	rodrigo	NOUN	NOUN	_	17	appos	_	TokenRange=87:94
+19	rocha	rocha	NOUN	NOUN	_	18	flat	_	TokenRange=95:100
+20	loures	_	NOUN	NOUN	_	18	flat	_	SpacesAfter=\s\s|TokenRange=101:107
+

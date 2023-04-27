@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = carmen lucia embarca para porto alegre para participar do funeral de teori ministro morreu nesta quinta 19 aos 68 anos apos queda de aviao em paraty rj segundo a familia corpo que sera levado de fab deve ser enterrado neste sabado 21 a presidente do supremo tribunal federal stf carmen lucia embarcou no inicio da tarde desta sextafeira 20 para porto alegre rs para participar do velorio do ministro teori zavascki teori morreu
+1	carmen	carmen	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	lucia	_	ADJ	NOUN	_	1	flat	_	TokenRange=7:12
+3	embarca	embarcar	VERB	VERB	_	0	root	_	TokenRange=13:20
+4	para	para	ADP	ADP	_	5	case	_	TokenRange=21:25
+5	porto	porto	NOUN	NOUN	_	3	nmod	_	TokenRange=26:31
+6	alegre	alegre	ADJ	ADJ	_	5	amod	_	TokenRange=32:38
+7	para	_	ADP	ADP	_	8	mark	_	TokenRange=39:43
+8	participar	participar	VERB	VERB	_	3	advcl	_	TokenRange=44:54
+9-10	do	_	_	_	_	_	_	_	TokenRange=55:57
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	funeral	funeral	NOUN	NOUN	_	8	nmod	_	TokenRange=58:65
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=66:68
+13	teori	_	NOUN	NOUN	_	11	nmod	_	TokenRange=69:74
+14	ministro	ministro	NOUN	NOUN	_	13	flat	_	TokenRange=75:83
+15	morreu	morrer	VERB	VERB	_	3	parataxis	_	TokenRange=84:90
+16	nesta	_	ADP	ADP	_	17	case	_	TokenRange=91:96
+17	quinta	_	PROPN	PNOUN	_	15	nmod	_	TokenRange=97:103
+18	19	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=104:106
+19-20	aos	_	_	_	_	_	_	_	TokenRange=107:110
+19	a	a	ADP	ADP	_	22	case	_	_
+20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	68	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=111:113
+22	anos	ano	NOUN	NOUN	_	15	nmod	_	TokenRange=114:118
+23	apos	_	ADP	ADP	_	24	case	_	TokenRange=119:123
+24	queda	queda	NOUN	NOUN	_	15	nmod	_	TokenRange=124:129
+25	de	de	ADP	ADP	_	26	case	_	TokenRange=130:132
+26	aviao	aviao	NOUN	NOUN	_	24	nmod	_	TokenRange=133:138
+27	em	em	ADP	ADP	_	28	case	_	TokenRange=139:141
+28	paraty	paraty	NOUN	NOUN	_	15	nmod	_	TokenRange=142:148
+29	rj	_	ADV	ADV	_	28	advmod	_	TokenRange=149:151
+30	segundo	_	ADP	ADP	_	32	case	_	TokenRange=152:159
+31	a	o	DET	DET	_	32	det	_	TokenRange=160:161
+32	familia	familia	NOUN	NOUN	_	15	nmod	_	TokenRange=162:169
+33	corpo	corpo	NOUN	NOUN	_	15	nsubj	_	TokenRange=170:175
+34	que	_	PRON	PRON	_	36	nsubj:pass	_	TokenRange=176:179
+35	sera	_	AUX	AUX	_	36	aux:pass	_	TokenRange=180:184
+36	levado	levar	VERB	VERB	_	33	acl:relcl	_	TokenRange=185:191
+37	de	de	ADP	ADP	_	38	case	_	TokenRange=192:194
+38	fab	_	NOUN	NOUN	_	36	nmod	_	TokenRange=195:198
+39	deve	dever	AUX	AUX	_	41	aux	_	TokenRange=199:203
+40	ser	ser	AUX	AUX	_	41	aux:pass	_	TokenRange=204:207
+41	enterrado	enterrar	VERB	VERB	_	3	parataxis	_	TokenRange=208:217
+42	neste	_	ADP	ADP	_	43	case	_	TokenRange=218:223
+43	sabado	_	NOUN	NOUN	_	41	nmod	_	TokenRange=224:230
+44	21	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=231:233
+45	a	o	DET	DET	_	46	det	_	TokenRange=234:235
+46	presidente	presidente	NOUN	NOUN	_	55	nsubj	_	TokenRange=236:246
+47-48	do	_	_	_	_	_	_	_	TokenRange=247:249
+47	de	de	ADP	ADP	_	50	case	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+49	supremo	supremo	ADJ	ADJ	_	50	amod	_	TokenRange=250:257
+50	tribunal	tribunal	NOUN	NOUN	_	46	nmod	_	TokenRange=258:266
+51	federal	federal	ADJ	ADJ	_	50	amod	_	TokenRange=267:274
+52	stf	_	NOUN	NOUN	_	50	appos	_	TokenRange=275:278
+53	carmen	_	NOUN	NOUN	_	55	nsubj	_	TokenRange=279:285
+54	lucia	_	NOUN	NOUN	_	53	flat	_	TokenRange=286:291
+55	embarcou	embarcar	VERB	VERB	_	15	parataxis	_	TokenRange=292:300
+56-57	no	_	_	_	_	_	_	_	TokenRange=301:303
+56	em	em	ADP	ADP	_	58	case	_	_
+57	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	inicio	_	NOUN	NOUN	_	55	nmod	_	TokenRange=304:310
+59-60	da	_	_	_	_	_	_	_	TokenRange=311:313
+59	de	de	ADP	ADP	_	61	case	_	_
+60	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	tarde	tarde	NOUN	NOUN	_	58	nmod	_	TokenRange=314:319
+62	desta	_	ADP	ADP	_	63	case	_	TokenRange=320:325
+63	sextafeira	sextafeira	NOUN	NOUN	_	61	nmod	_	TokenRange=326:336
+64	20	_	NUM	NUM	NumType=Card	63	nmod	_	TokenRange=337:339
+65	para	para	ADP	ADP	_	66	case	_	TokenRange=340:344
+66	porto	porto	NOUN	NOUN	_	55	nmod	_	TokenRange=345:350
+67	alegre	alegre	ADJ	ADJ	_	66	amod	_	TokenRange=351:357
+68	rs	_	ADV	ADV	_	66	appos	_	TokenRange=358:360
+69	para	_	ADP	ADP	_	70	mark	_	TokenRange=361:365
+70	participar	participar	VERB	VERB	_	55	advcl	_	TokenRange=366:376
+71-72	do	_	_	_	_	_	_	_	TokenRange=377:379
+71	de	de	ADP	ADP	_	73	case	_	_
+72	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
+73	velorio	velorio	NOUN	NOUN	_	70	nmod	_	TokenRange=380:387
+74-75	do	_	_	_	_	_	_	_	TokenRange=388:390
+74	de	de	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	ministro	ministro	NOUN	NOUN	_	73	nmod	_	TokenRange=391:399
+77	teori	_	NOUN	NOUN	_	76	appos	_	TokenRange=400:405
+78	zavascki	_	PROPN	PNOUN	_	77	flat	_	TokenRange=406:414
+79	teori	_	NOUN	NOUN	_	80	nsubj	_	TokenRange=415:420
+80	morreu	morrer	VERB	VERB	_	55	parataxis	_	SpacesAfter=\s\s|TokenRange=421:427
+

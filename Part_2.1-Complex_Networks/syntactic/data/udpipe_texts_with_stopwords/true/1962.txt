@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mp faz nova pericia e constata interferencia na gravacao das imagens do dia de suposta agressao a garotinho peritos identificaram que tres cameras no presidio foram desligadas e uma teve a imagem congelada exgovernador disse que vai processar o estado o ministerio publico estadual fez uma nova pericia no sistema de cameras da cadeia de
+1	mp	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=3:6
+3	nova	novo	ADJ	ADJ	_	4	amod	_	TokenRange=7:11
+4	pericia	pericia	NOUN	NOUN	_	2	obj	_	TokenRange=12:19
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=20:21
+6	constata	constatar	VERB	VERB	_	2	conj	_	TokenRange=22:30
+7	interferencia	_	NOUN	NOUN	_	6	obj	_	TokenRange=31:44
+8-9	na	_	_	_	_	_	_	_	TokenRange=45:47
+8	em	em	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	gravacao	gravacao	NOUN	NOUN	_	7	nmod	_	TokenRange=48:56
+11-12	das	_	_	_	_	_	_	_	TokenRange=57:60
+11	de	de	ADP	ADP	_	13	case	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	imagens	imagem	NOUN	NOUN	_	10	nmod	_	TokenRange=61:68
+14-15	do	_	_	_	_	_	_	_	TokenRange=69:71
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	dia	dia	NOUN	NOUN	_	13	nmod	_	TokenRange=72:75
+17	de	de	ADP	ADP	_	19	case	_	TokenRange=76:78
+18	suposta	suposto	ADJ	ADJ	_	19	amod	_	TokenRange=79:86
+19	agressao	agressao	NOUN	NOUN	_	16	nmod	_	TokenRange=87:95
+20	a	_	ADP	ADP	_	21	case	_	TokenRange=96:97
+21	garotinho	garoto	NOUN	NOUN	_	19	nmod	_	TokenRange=98:107
+22	peritos	perito	NOUN	NOUN	_	21	amod	_	TokenRange=108:115
+23	identificaram	identificar	VERB	VERB	_	2	parataxis	_	TokenRange=116:129
+24	que	que	CCONJ	CONJ	_	31	mark	_	TokenRange=130:133
+25	tres	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=134:138
+26	cameras	camera	NOUN	NOUN	_	31	nsubj:pass	_	TokenRange=139:146
+27-28	no	_	_	_	_	_	_	_	TokenRange=147:149
+27	em	em	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	presidio	presidio	NOUN	NOUN	_	26	nmod	_	TokenRange=150:158
+30	foram	_	AUX	AUX	_	31	aux:pass	_	TokenRange=159:164
+31	desligadas	desligar	VERB	VERB	_	23	ccomp	_	TokenRange=165:175
+32	e	e	CCONJ	CONJ	_	34	cc	_	TokenRange=176:177
+33	uma	_	PRON	PRON	_	34	nsubj	_	TokenRange=178:181
+34	teve	ter	VERB	VERB	_	31	conj	_	TokenRange=182:186
+35	a	o	DET	DET	_	36	det	_	TokenRange=187:188
+36	imagem	imagem	NOUN	NOUN	_	34	obj	_	TokenRange=189:195
+37	congelada	congelado	ADJ	ADJ	_	34	xcomp	_	TokenRange=196:205
+38	exgovernador	exgovernador	NOUN	NOUN	_	39	nsubj	_	TokenRange=206:218
+39	disse	dizer	VERB	VERB	_	2	conj	_	TokenRange=219:224
+40	que	que	CCONJ	CONJ	_	42	mark	_	TokenRange=225:228
+41	vai	ir	AUX	AUX	_	42	aux	_	TokenRange=229:232
+42	processar	processar	VERB	VERB	_	39	ccomp	_	TokenRange=233:242
+43	o	o	DET	DET	_	44	det	_	TokenRange=243:244
+44	estado	estado	NOUN	NOUN	_	42	obj	_	TokenRange=245:251
+45	o	o	DET	DET	_	46	det	_	TokenRange=252:253
+46	ministerio	ministerio	NOUN	NOUN	_	49	nsubj	_	TokenRange=254:264
+47	publico	_	ADJ	ADJ	_	46	amod	_	TokenRange=265:272
+48	estadual	estadual	ADJ	ADJ	_	46	amod	_	TokenRange=273:281
+49	fez	fazer	VERB	VERB	_	39	ccomp	_	TokenRange=282:285
+50	uma	um	DET	DET	_	52	det	_	TokenRange=286:289
+51	nova	novo	ADJ	ADJ	_	52	amod	_	TokenRange=290:294
+52	pericia	pericia	NOUN	NOUN	_	49	obj	_	TokenRange=295:302
+53-54	no	_	_	_	_	_	_	_	TokenRange=303:305
+53	em	em	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	sistema	sistema	NOUN	NOUN	_	52	nmod	_	TokenRange=306:313
+56	de	de	ADP	ADP	_	57	case	_	TokenRange=314:316
+57	cameras	camera	NOUN	NOUN	_	55	nmod	_	TokenRange=317:324
+58-59	da	_	_	_	_	_	_	_	TokenRange=325:327
+58	de	de	ADP	ADP	_	60	case	_	_
+59	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	cadeia	cadeia	NOUN	NOUN	_	55	nmod	_	TokenRange=328:334
+61	de	de	ADP	ADP	_	49	mark	_	SpacesAfter=\s\s|TokenRange=335:337
+

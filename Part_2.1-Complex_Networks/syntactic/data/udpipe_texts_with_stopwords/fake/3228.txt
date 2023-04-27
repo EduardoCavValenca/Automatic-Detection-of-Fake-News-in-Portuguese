@@ -1,0 +1,20 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fiocruz alerta que virus zika pode ser transmitido por saliva e urina
+1	fiocruz	fiocruz	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	alerta	alertar	VERB	VERB	_	0	root	_	TokenRange=8:14
+3	que	que	CCONJ	CONJ	_	8	mark	_	TokenRange=15:18
+4	virus	_	NOUN	NOUN	_	8	nsubj:pass	_	TokenRange=19:24
+5	zika	_	NOUN	NOUN	_	4	flat	_	TokenRange=25:29
+6	pode	_	AUX	AUX	_	8	aux	_	TokenRange=30:34
+7	ser	ser	AUX	AUX	_	8	aux:pass	_	TokenRange=35:38
+8	transmitido	transmitir	VERB	VERB	_	2	ccomp	_	TokenRange=39:50
+9	por	por	ADP	ADP	_	10	case	_	TokenRange=51:54
+10	saliva	saliva	NOUN	NOUN	_	8	nmod	_	TokenRange=55:61
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=62:63
+12	urina	urina	NOUN	NOUN	_	10	conj	_	SpacesAfter=\s\s|TokenRange=64:69
+

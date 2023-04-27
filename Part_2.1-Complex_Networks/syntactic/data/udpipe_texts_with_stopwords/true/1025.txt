@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = corpo de marco aurelio garcia exassessor de lula e dilma e cremado em sao paulo marco aurelio morreu na quintafeira vitima de infarto expresidentes participaram de velorio e elogiaram trabalho em assuntos internacionais do exassessor o corpo de marco aurelio garcia assessor especial para assuntos internacionais dos governos luiz inacio lula da silva e dilma rousseff foi cremado a 1h30 deste sabado 22 em sao paulo o corpo foi velado durante a sextafeira
+1	corpo	corpo	NOUN	NOUN	_	18	nsubj	_	TokenRange=0:5
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=6:8
+3	marco	marco	NOUN	NOUN	_	1	nmod	_	TokenRange=9:14
+4	aurelio	aurelio	ADJ	ADJ	_	3	amod	_	TokenRange=15:22
+5	garcia	garcia	NOUN	NOUN	_	3	flat	_	TokenRange=23:29
+6	exassessor	exassessor	NOUN	NOUN	_	3	appos	_	TokenRange=30:40
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=41:43
+8	lula	lula	NOUN	NOUN	_	6	nmod	_	TokenRange=44:48
+9	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=49:50
+10	dilma	_	NOUN	NOUN	_	8	conj	_	TokenRange=51:56
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=57:58
+12	cremado	cremar	VERB	VERB	_	3	conj	_	TokenRange=59:66
+13	em	em	ADP	ADP	_	14	case	_	TokenRange=67:69
+14	sao	sao	PROPN	NOUN	_	12	nmod	_	TokenRange=70:73
+15	paulo	_	NOUN	NOUN	_	14	flat	_	TokenRange=74:79
+16	marco	marco	NOUN	NOUN	_	1	appos	_	TokenRange=80:85
+17	aurelio	aurelio	NOUN	NOUN	_	16	flat	_	TokenRange=86:93
+18	morreu	morrer	VERB	VERB	_	0	root	_	TokenRange=94:100
+19-20	na	_	_	_	_	_	_	_	TokenRange=101:103
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	quintafeira	quintafeira	NOUN	NOUN	_	18	nmod	_	TokenRange=104:115
+22	vitima	vitima	NOUN	NOUN	_	21	appos	_	TokenRange=116:122
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=123:125
+24	infarto	infarto	NOUN	NOUN	_	22	nmod	_	TokenRange=126:133
+25	expresidentes	expresidente	NOUN	NOUN	_	26	nsubj	_	TokenRange=134:147
+26	participaram	participar	VERB	VERB	_	18	parataxis	_	TokenRange=148:160
+27	de	de	ADP	ADP	_	28	case	_	TokenRange=161:163
+28	velorio	velorio	NOUN	NOUN	_	26	nmod	_	TokenRange=164:171
+29	e	e	CCONJ	CONJ	_	30	cc	_	TokenRange=172:173
+30	elogiaram	elogiar	VERB	VERB	_	26	conj	_	TokenRange=174:183
+31	trabalho	trabalho	NOUN	NOUN	_	30	obj	_	TokenRange=184:192
+32	em	em	ADP	ADP	_	33	case	_	TokenRange=193:195
+33	assuntos	assunto	NOUN	NOUN	_	31	nmod	_	TokenRange=196:204
+34	internacionais	internacional	ADJ	ADJ	_	33	amod	_	TokenRange=205:219
+35-36	do	_	_	_	_	_	_	_	TokenRange=220:222
+35	de	de	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	exassessor	exassessor	NOUN	NOUN	_	33	nmod	_	TokenRange=223:233
+38	o	o	DET	DET	_	39	det	_	TokenRange=234:235
+39	corpo	corpo	NOUN	NOUN	_	26	nsubj	_	TokenRange=236:241
+40	de	de	ADP	ADP	_	41	case	_	TokenRange=242:244
+41	marco	marco	NOUN	NOUN	_	39	nmod	_	TokenRange=245:250
+42	aurelio	aurelio	ADJ	NOUN	_	41	amod	_	TokenRange=251:258
+43	garcia	garcia	NOUN	NOUN	_	41	flat	_	TokenRange=259:265
+44	assessor	assessor	NOUN	NOUN	_	41	appos	_	TokenRange=266:274
+45	especial	especial	ADJ	ADJ	_	44	amod	_	TokenRange=275:283
+46	para	para	ADP	ADP	_	47	case	_	TokenRange=284:288
+47	assuntos	assunto	NOUN	NOUN	_	44	nmod	_	TokenRange=289:297
+48	internacionais	internacional	ADJ	ADJ	_	47	amod	_	TokenRange=298:312
+49-50	dos	_	_	_	_	_	_	_	TokenRange=313:316
+49	de	de	ADP	ADP	_	51	case	_	_
+50	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+51	governos	governo	NOUN	NOUN	_	44	nmod	_	TokenRange=317:325
+52	luiz	luiz	NOUN	NOUN	_	51	appos	_	TokenRange=326:330
+53	inacio	_	NOUN	NOUN	_	52	flat	_	TokenRange=331:337
+54	lula	_	NOUN	NOUN	_	52	flat	_	TokenRange=338:342
+55-56	da	_	_	_	_	_	_	_	TokenRange=343:345
+55	de	de	ADP	ADP	_	57	case	_	_
+56	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	silva	silva	NOUN	NOUN	_	52	nmod	_	TokenRange=346:351
+58	e	e	CCONJ	CONJ	_	59	cc	_	TokenRange=352:353
+59	dilma	dilma	NOUN	NOUN	_	52	conj	_	TokenRange=354:359
+60	rousseff	rousseff	NOUN	NOUN	_	59	amod	_	TokenRange=360:368
+61	foi	_	AUX	AUX	_	62	aux:pass	_	TokenRange=369:372
+62	cremado	cremar	VERB	VERB	_	18	conj	_	TokenRange=373:380
+63	a	_	ADP	ADP	_	64	case	_	TokenRange=381:382
+64	1h30	_	NUM	NUM	NumType=Card	62	nmod	_	TokenRange=383:387
+65	deste	_	ADP	ADP	_	66	case	_	TokenRange=388:393
+66	sabado	_	PROPN	PNOUN	_	64	nmod	_	TokenRange=394:400
+67	22	_	NUM	NUM	NumType=Card	66	nmod	_	TokenRange=401:403
+68	em	em	ADP	ADP	_	69	case	_	TokenRange=404:406
+69	sao	_	PROPN	PNOUN	_	74	nmod	_	TokenRange=407:410
+70	paulo	_	PROPN	PNOUN	_	69	flat	_	TokenRange=411:416
+71	o	o	DET	DET	_	72	det	_	TokenRange=417:418
+72	corpo	corpo	NOUN	NOUN	_	74	nsubj:pass	_	TokenRange=419:424
+73	foi	_	AUX	AUX	_	74	aux:pass	_	TokenRange=425:428
+74	velado	velar	VERB	VERB	_	18	parataxis	_	TokenRange=429:435
+75	durante	_	ADP	ADP	_	77	case	_	TokenRange=436:443
+76	a	o	DET	DET	_	77	det	_	TokenRange=444:445
+77	sextafeira	sextafeira	NOUN	NOUN	_	74	nmod	_	SpacesAfter=\s\s|TokenRange=446:456
+

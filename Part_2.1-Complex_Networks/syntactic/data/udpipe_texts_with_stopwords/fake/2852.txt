@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos quebrar a petrobras dilma esta acabando com a cef a cef caixa economica federal registou uma queda de 45 9 no lucro liquido durante os meses de jan/fev/mar 2016 no ano passado o lucro registrado no primeiro trimestre foi de r 1 548 bilhao no primeiro trimestre de 2016 o lucro foi de r 838 milhoes assim como fez com a petrobras o governo do pt esta quebrando um dos maiores bancos do pais
+1	apos	_	ADP	ADP	_	2	mark	_	TokenRange=0:4
+2	quebrar	quebrar	VERB	VERB	_	16	advcl	_	TokenRange=5:12
+3	a	o	DET	DET	_	4	det	_	TokenRange=13:14
+4	petrobras	petrobra	NOUN	NOUN	_	2	obj	_	TokenRange=15:24
+5	dilma	dilma	ADJ	ADJ	_	4	amod	_	TokenRange=25:30
+6	esta	_	AUX	AUX	_	7	aux	_	TokenRange=31:35
+7	acabando	acabar	VERB	VERB	_	0	root	_	TokenRange=36:44
+8	com	com	ADP	ADP	_	10	case	_	TokenRange=45:48
+9	a	o	DET	DET	_	10	det	_	TokenRange=49:50
+10	cef	_	NOUN	NOUN	_	7	nmod	_	TokenRange=51:54
+11	a	o	DET	DET	_	12	det	_	TokenRange=55:56
+12	cef	cef	NOUN	NOUN	_	7	nsubj	_	TokenRange=57:60
+13	caixa	caixa	NOUN	NOUN	_	12	appos	_	TokenRange=61:66
+14	economica	economico	ADJ	ADJ	_	13	amod	_	TokenRange=67:76
+15	federal	federal	ADJ	ADJ	_	13	amod	_	TokenRange=77:84
+16	registou	registar	VERB	VERB	_	7	parataxis	_	TokenRange=85:93
+17	uma	um	DET	DET	_	18	det	_	TokenRange=94:97
+18	queda	queda	NOUN	NOUN	_	16	obj	_	TokenRange=98:103
+19	de	de	ADP	ADP	_	21	case	_	TokenRange=104:106
+20	45	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=107:109
+21	9	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=110:111
+22-23	no	_	_	_	_	_	_	_	TokenRange=112:114
+22	em	em	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	lucro	lucro	NOUN	NOUN	_	18	nmod	_	TokenRange=115:120
+25	liquido	liquido	ADJ	ADJ	_	24	amod	_	TokenRange=121:128
+26	durante	_	ADP	ADP	_	28	case	_	TokenRange=129:136
+27	os	o	DET	DET	_	28	det	_	TokenRange=137:139
+28	meses	mês	NOUN	NOUN	_	18	nmod	_	TokenRange=140:145
+29	de	de	ADP	ADP	_	30	case	_	TokenRange=146:148
+30	jan/fev/mar	_	PROPN	NOUN	_	28	nmod	_	TokenRange=149:160
+31	2016	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=161:165
+32-33	no	_	_	_	_	_	_	_	TokenRange=166:168
+32	em	em	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	ano	ano	NOUN	NOUN	_	16	nmod	_	TokenRange=169:172
+35	passado	passado	ADJ	ADJ	_	34	amod	_	TokenRange=173:180
+36	o	o	DET	DET	_	37	det	_	TokenRange=181:182
+37	lucro	lucro	NOUN	NOUN	_	43	nsubj	_	TokenRange=183:188
+38	registrado	registrar	VERB	VERB	_	37	acl	_	TokenRange=189:199
+39-40	no	_	_	_	_	_	_	_	TokenRange=200:202
+39	em	em	ADP	ADP	_	42	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	primeiro	primeiro	ADJ	ADJ	_	42	amod	_	TokenRange=203:211
+42	trimestre	trimestre	NOUN	NOUN	_	38	nmod	_	TokenRange=212:221
+43	foi	_	VERB	VERB	_	16	parataxis	_	TokenRange=222:225
+44	de	de	ADP	ADP	_	45	case	_	TokenRange=226:228
+45	r	r	NOUN	NOUN	_	43	nmod	_	TokenRange=229:230
+46	1	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=231:232
+47	548	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=233:236
+48	bilhao	_	NUM	NUM	NumType=Card	45	nummod	_	TokenRange=237:243
+49-50	no	_	_	_	_	_	_	_	TokenRange=244:246
+49	em	em	ADP	ADP	_	52	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	primeiro	primeiro	ADJ	ADJ	_	52	amod	_	TokenRange=247:255
+52	trimestre	trimestre	NOUN	NOUN	_	43	nmod	_	TokenRange=256:265
+53	de	de	ADP	ADP	_	54	case	_	TokenRange=266:268
+54	2016	_	NUM	NUM	NumType=Card	52	nmod	_	TokenRange=269:273
+55	o	o	DET	DET	_	56	det	_	TokenRange=274:275
+56	lucro	lucro	NOUN	NOUN	_	57	nsubj	_	TokenRange=276:281
+57	foi	_	VERB	VERB	_	16	parataxis	_	TokenRange=282:285
+58	de	de	ADP	ADP	_	59	case	_	TokenRange=286:288
+59	r	r	NOUN	NOUN	_	57	nmod	_	TokenRange=289:290
+60	838	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=291:294
+61	milhoes	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=295:302
+62	assim	assim	ADV	ADV	_	64	mark	_	TokenRange=303:308
+63	como	_	CCONJ	CONJ	_	62	fixed	_	TokenRange=309:313
+64	fez	fazer	VERB	VERB	_	57	advcl	_	TokenRange=314:317
+65	com	com	ADP	ADP	_	67	case	_	TokenRange=318:321
+66	a	o	DET	DET	_	67	det	_	TokenRange=322:323
+67	petrobras	petrobra	NOUN	NOUN	_	64	nmod	_	TokenRange=324:333
+68	o	o	DET	DET	_	69	det	_	TokenRange=334:335
+69	governo	governo	NOUN	NOUN	_	74	nsubj	_	TokenRange=336:343
+70-71	do	_	_	_	_	_	_	_	TokenRange=344:346
+70	de	de	ADP	ADP	_	72	case	_	_
+71	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	pt	pt	NOUN	NOUN	_	69	nmod	_	TokenRange=347:349
+73	esta	_	AUX	AUX	_	74	aux	_	TokenRange=350:354
+74	quebrando	quebrar	VERB	VERB	_	57	advcl	_	TokenRange=355:364
+75	um	_	PRON	PRON	_	74	obj	_	TokenRange=365:367
+76-77	dos	_	_	_	_	_	_	_	TokenRange=368:371
+76	de	de	ADP	ADP	_	79	case	_	_
+77	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	79	det	_	_
+78	maiores	maior	ADJ	ADJ	_	79	amod	_	TokenRange=372:379
+79	bancos	banco	NOUN	NOUN	_	75	nmod	_	TokenRange=380:386
+80-81	do	_	_	_	_	_	_	_	TokenRange=387:389
+80	de	de	ADP	ADP	_	82	case	_	_
+81	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
+82	pais	_	NOUN	NOUN	_	79	nmod	_	TokenRange=390:394
+

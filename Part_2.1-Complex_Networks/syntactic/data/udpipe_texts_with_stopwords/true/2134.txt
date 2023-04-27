@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o expresidente luiz inacio lula da silva tem no zelador jose afonso pinheiro um eleitor arrependido mais do que isso afonso torce para que o petista seja condenado pelo tribunal regional federal da 4 regiao trf4 na quartafeira 24 a corte de apelacao da lava jato vai julgar recurso de lula contra a sentenca de 9 anos e seis meses de prisao por corrupcao e lavagem de dinheiro imposta pelo juiz
+1	o	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	expresidente	expresidente	NOUN	NOUN	_	9	nsubj	_	TokenRange=2:14
+3	luiz	luiz	ADJ	ADJ	_	2	appos	_	TokenRange=15:19
+4	inacio	_	NOUN	NOUN	_	2	flat	_	TokenRange=20:26
+5	lula	_	NOUN	NOUN	_	2	appos	_	TokenRange=27:31
+6-7	da	_	_	_	_	_	_	_	TokenRange=32:34
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	silva	silva	NOUN	NOUN	_	3	nmod	_	TokenRange=35:40
+9	tem	ter	VERB	VERB	_	0	root	_	TokenRange=41:44
+10-11	no	_	_	_	_	_	_	_	TokenRange=45:47
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	zelador	zelador	NOUN	NOUN	_	9	nmod	_	TokenRange=48:55
+13	jose	jose	NOUN	NOUN	_	12	appos	_	TokenRange=56:60
+14	afonso	afonso	NOUN	NOUN	_	13	flat	_	TokenRange=61:67
+15	pinheiro	pinheiro	NOUN	NOUN	_	13	flat	_	TokenRange=68:76
+16	um	um	DET	DET	_	17	det	_	TokenRange=77:79
+17	eleitor	eleitor	NOUN	NOUN	_	9	obj	_	TokenRange=80:87
+18	arrependido	arrependido	ADJ	ADJ	_	17	amod	_	TokenRange=88:99
+19	mais	mais	ADV	ADV	_	17	advmod	_	TokenRange=100:104
+20-21	do	_	_	_	_	_	_	_	TokenRange=105:107
+20	de	de	ADP	ADP	_	25	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+22	que	_	CCONJ	CONJ	_	20	fixed	_	TokenRange=108:111
+23	isso	_	PRON	PRON	_	25	nsubj	_	TokenRange=112:116
+24	afonso	afonso	NOUN	NOUN	_	23	amod	_	TokenRange=117:123
+25	torce	torcer	VERB	VERB	_	9	advcl	_	TokenRange=124:129
+26	para	_	ADP	ADP	_	31	mark	_	TokenRange=130:134
+27	que	_	CCONJ	CONJ	_	26	fixed	_	TokenRange=135:138
+28	o	o	DET	DET	_	29	det	_	TokenRange=139:140
+29	petista	petista	NOUN	NOUN	_	31	nsubj:pass	_	TokenRange=141:148
+30	seja	ser	AUX	AUX	_	31	aux:pass	_	TokenRange=149:153
+31	condenado	condenar	VERB	VERB	_	25	advcl	_	TokenRange=154:163
+32-33	pelo	_	_	_	_	_	_	_	TokenRange=164:168
+32	por	por	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	tribunal	tribunal	NOUN	NOUN	_	31	nmod	_	TokenRange=169:177
+35	regional	regional	ADJ	ADJ	_	34	amod	_	TokenRange=178:186
+36	federal	federal	ADJ	ADJ	_	34	amod	_	TokenRange=187:194
+37-38	da	_	_	_	_	_	_	_	TokenRange=195:197
+37	de	de	ADP	ADP	_	40	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	4	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=198:199
+40	regiao	regiao	NOUN	NOUN	_	34	nmod	_	TokenRange=200:206
+41	trf4	_	NOUN	NOUN	_	31	nmod	_	TokenRange=207:211
+42-43	na	_	_	_	_	_	_	_	TokenRange=212:214
+42	em	em	ADP	ADP	_	44	case	_	_
+43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	quartafeira	_	NOUN	NOUN	_	31	nmod	_	TokenRange=215:226
+45	24	_	NUM	NUM	NumType=Card	44	nmod	_	TokenRange=227:229
+46	a	o	DET	DET	_	47	det	_	TokenRange=230:231
+47	corte	corte	NOUN	NOUN	_	55	nsubj	_	TokenRange=232:237
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=238:240
+49	apelacao	apelacao	NOUN	NOUN	_	47	nmod	_	TokenRange=241:249
+50-51	da	_	_	_	_	_	_	_	TokenRange=250:252
+50	de	de	ADP	ADP	_	52	case	_	_
+51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	lava	lava	NOUN	NOUN	_	47	nmod	_	TokenRange=253:257
+53	jato	jato	ADJ	ADJ	_	52	amod	_	TokenRange=258:262
+54	vai	ir	AUX	AUX	_	55	aux	_	TokenRange=263:266
+55	julgar	julgar	VERB	VERB	_	9	parataxis	_	TokenRange=267:273
+56	recurso	recurso	NOUN	NOUN	_	55	obj	_	TokenRange=274:281
+57	de	de	ADP	ADP	_	58	case	_	TokenRange=282:284
+58	lula	lula	NOUN	NOUN	_	56	nmod	_	TokenRange=285:289
+59	contra	_	ADP	ADP	_	61	case	_	TokenRange=290:296
+60	a	o	DET	DET	_	61	det	_	TokenRange=297:298
+61	sentenca	_	NOUN	NOUN	_	56	nmod	_	TokenRange=299:307
+62	de	de	ADP	ADP	_	64	case	_	TokenRange=308:310
+63	9	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=311:312
+64	anos	ano	NOUN	NOUN	_	61	nmod	_	TokenRange=313:317
+65	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=318:319
+66	seis	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=320:324
+67	meses	mês	NOUN	NOUN	_	64	conj	_	TokenRange=325:330
+68	de	de	ADP	ADP	_	69	case	_	TokenRange=331:333
+69	prisao	prisao	NOUN	NOUN	_	67	nmod	_	TokenRange=334:340
+70	por	por	ADP	ADP	_	71	case	_	TokenRange=341:344
+71	corrupcao	corrupcao	NOUN	NOUN	_	61	nmod	_	TokenRange=345:354
+72	e	e	CCONJ	CONJ	_	73	cc	_	TokenRange=355:356
+73	lavagem	lavagem	NOUN	NOUN	_	71	conj	_	TokenRange=357:364
+74	de	de	ADP	ADP	_	75	case	_	TokenRange=365:367
+75	dinheiro	dinheiro	NOUN	NOUN	_	73	nmod	_	TokenRange=368:376
+76	imposta	_	VERB	VERB	_	71	acl	_	TokenRange=377:384
+77-78	pelo	_	_	_	_	_	_	_	TokenRange=385:389
+77	por	por	ADP	ADP	_	79	case	_	_
+78	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	_
+79	juiz	juiz	NOUN	NOUN	_	76	nmod	_	SpacesAfter=\s\s|TokenRange=390:394
+

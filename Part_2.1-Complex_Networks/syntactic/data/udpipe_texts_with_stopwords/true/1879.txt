@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 5 de fevereiro bom dia aqui estao as principais noticias para voce comecar o dia beminformado e a hora da decisao sobre a previdencia o congresso volta do recesso e o governo joga suas ultimas fichas para tentar aprovar a reforma apos se encontrar com o presidente temer ontem o relator da proposta deputado arthur
+1	segundafeira	_	NOUN	NOUN	_	8	parataxis	_	TokenRange=0:12
+2	5	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=13:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	fevereiro	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=18:27
+5	bom	bom	ADJ	ADJ	_	6	amod	_	TokenRange=28:31
+6	dia	dia	NOUN	NOUN	_	2	appos	_	TokenRange=32:35
+7	aqui	aqui	ADV	ADV	_	8	advmod	_	TokenRange=36:40
+8	estao	_	VERB	VERB	_	0	root	_	TokenRange=41:46
+9	as	o	DET	DET	_	11	det	_	TokenRange=47:49
+10	principais	principal	ADJ	ADJ	_	11	amod	_	TokenRange=50:60
+11	noticias	noticia	NOUN	NOUN	_	8	nsubj	_	TokenRange=61:69
+12	para	_	ADP	ADP	_	14	mark	_	TokenRange=70:74
+13	voce	_	PRON	PRON	_	14	nsubj	_	TokenRange=75:79
+14	comecar	comecar	VERB	VERB	_	11	nmod	_	TokenRange=80:87
+15	o	o	DET	DET	_	16	det	_	TokenRange=88:89
+16	dia	dia	NOUN	NOUN	_	14	obj	_	TokenRange=90:93
+17	beminformado	beminformado	ADJ	ADJ	_	16	amod	_	TokenRange=94:106
+18	e	e	CCONJ	CONJ	_	20	cc	_	TokenRange=107:108
+19	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	TokenRange=109:110
+20	hora	hora	NOUN	NOUN	_	16	conj	_	TokenRange=111:115
+21-22	da	_	_	_	_	_	_	_	TokenRange=116:118
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	decisao	decisao	NOUN	NOUN	_	20	nmod	_	TokenRange=119:126
+24	sobre	_	ADP	ADP	_	26	case	_	TokenRange=127:132
+25	a	o	DET	DET	_	26	det	_	TokenRange=133:134
+26	previdencia	previdencia	NOUN	NOUN	_	23	nmod	_	TokenRange=135:146
+27	o	o	DET	DET	_	28	det	_	TokenRange=147:148
+28	congresso	congresso	NOUN	NOUN	_	29	nsubj	_	TokenRange=149:158
+29	volta	voltar	VERB	VERB	_	8	parataxis	_	TokenRange=159:164
+30-31	do	_	_	_	_	_	_	_	TokenRange=165:167
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	recesso	recesso	NOUN	NOUN	_	29	nmod	_	TokenRange=168:175
+33	e	e	CCONJ	CONJ	_	36	cc	_	TokenRange=176:177
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	TokenRange=178:179
+35	governo	governo	NOUN	NOUN	_	36	nsubj	_	TokenRange=180:187
+36	joga	jogar	VERB	VERB	_	29	conj	_	TokenRange=188:192
+37	suas	_	DET	DET	_	39	det:poss	_	TokenRange=193:197
+38	ultimas	ultimo	ADJ	ADJ	_	39	amod	_	TokenRange=198:205
+39	fichas	ficha	NOUN	NOUN	_	36	obj	_	TokenRange=206:212
+40	para	_	ADP	ADP	_	41	mark	_	TokenRange=213:217
+41	tentar	tentar	VERB	VERB	_	36	advcl	_	TokenRange=218:224
+42	aprovar	aprovar	VERB	VERB	_	41	xcomp	_	TokenRange=225:232
+43	a	o	DET	DET	_	44	det	_	TokenRange=233:234
+44	reforma	reforma	NOUN	NOUN	_	42	obj	_	TokenRange=235:242
+45	apos	_	ADP	ADP	_	47	mark	_	TokenRange=243:247
+46	se	_	PRON	PRON	_	47	obj	_	TokenRange=248:250
+47	encontrar	encontrar	VERB	VERB	_	36	advcl	_	TokenRange=251:260
+48	com	com	ADP	ADP	_	50	case	_	TokenRange=261:264
+49	o	o	DET	DET	_	50	det	_	TokenRange=265:266
+50	presidente	presidente	NOUN	NOUN	_	47	nmod	_	TokenRange=267:277
+51	temer	temer	PROPN	PNOUN	_	50	appos	_	TokenRange=278:283
+52	ontem	ontem	ADV	ADV	_	47	advmod	_	TokenRange=284:289
+53	o	o	DET	DET	_	54	det	_	TokenRange=290:291
+54	relator	relator	NOUN	NOUN	_	47	obj	_	TokenRange=292:299
+55-56	da	_	_	_	_	_	_	_	TokenRange=300:302
+55	de	de	ADP	ADP	_	57	case	_	_
+56	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	proposta	_	NOUN	NOUN	_	54	nmod	_	TokenRange=303:311
+58	deputado	deputado	NOUN	NOUN	_	54	appos	_	TokenRange=312:320
+59	arthur	arthur	NOUN	NOUN	_	58	appos	_	SpacesAfter=\s\s|TokenRange=321:327
+

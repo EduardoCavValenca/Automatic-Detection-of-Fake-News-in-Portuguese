@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = macron toma posse como presidente da franca centrista de 39 anos sucede o socialista francois hollande ele e o presidente mais jovem a comandar o palacio do eliseu o presidente eleito da franca emmanuel macron assume o cargo neste domingo 14 em uma cerimonia no palacio do eliseu a posse comecou pontualmente as 10h 5h no horario de brasilia e segue um protocolo rigoroso na eleicao do
+1	macron	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	toma	tomar	VERB	VERB	_	0	root	_	TokenRange=7:11
+3	posse	posse	NOUN	NOUN	_	2	obj	_	TokenRange=12:17
+4	como	como	ADP	ADP	_	5	case	_	TokenRange=18:22
+5	presidente	presidente	NOUN	NOUN	_	13	nmod	_	TokenRange=23:33
+6-7	da	_	_	_	_	_	_	_	TokenRange=34:36
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	franca	_	NOUN	NOUN	_	5	nmod	_	TokenRange=37:43
+9	centrista	centrista	ADJ	ADJ	_	8	amod	_	TokenRange=44:53
+10	de	de	ADP	ADP	_	12	case	_	TokenRange=54:56
+11	39	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=57:59
+12	anos	ano	NOUN	NOUN	_	5	nmod	_	TokenRange=60:64
+13	sucede	suceder	VERB	VERB	_	2	parataxis	_	TokenRange=65:71
+14	o	o	DET	DET	_	15	det	_	TokenRange=72:73
+15	socialista	socialista	NOUN	NOUN	_	13	obj	_	TokenRange=74:84
+16	francois	francois	NOUN	NOUN	_	15	appos	_	TokenRange=85:93
+17	hollande	hollande	ADJ	ADJ	_	15	amod	_	TokenRange=94:102
+18	ele	_	PRON	PRON	_	13	nsubj	_	TokenRange=103:106
+19	e	e	CCONJ	CONJ	_	21	cc	_	TokenRange=107:108
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	TokenRange=109:110
+21	presidente	presidente	NOUN	NOUN	_	18	conj	_	TokenRange=111:121
+22	mais	mais	ADV	ADV	_	23	advmod	_	TokenRange=122:126
+23	jovem	jovem	ADJ	ADJ	_	21	amod	_	TokenRange=127:132
+24	a	_	ADP	ADP	_	25	mark	_	TokenRange=133:134
+25	comandar	comandar	VERB	VERB	_	21	nmod	_	TokenRange=135:143
+26	o	o	DET	DET	_	27	det	_	TokenRange=144:145
+27	palacio	palacio	NOUN	NOUN	_	25	obj	_	TokenRange=146:153
+28-29	do	_	_	_	_	_	_	_	TokenRange=154:156
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	eliseu	_	NOUN	NOUN	_	27	nmod	_	TokenRange=157:163
+31	o	o	DET	DET	_	32	det	_	TokenRange=164:165
+32	presidente	presidente	NOUN	NOUN	_	39	nsubj	_	TokenRange=166:176
+33	eleito	eleger	VERB	VERB	_	32	acl	_	TokenRange=177:183
+34-35	da	_	_	_	_	_	_	_	TokenRange=184:186
+34	de	de	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	franca	_	NOUN	NOUN	_	32	nmod	_	TokenRange=187:193
+37	emmanuel	emmanuel	NOUN	NOUN	_	32	appos	_	TokenRange=194:202
+38	macron	_	PROPN	NOUN	_	37	flat	_	TokenRange=203:209
+39	assume	assumir	VERB	VERB	_	2	parataxis	_	TokenRange=210:216
+40	o	o	DET	DET	_	41	det	_	TokenRange=217:218
+41	cargo	cargo	NOUN	NOUN	_	39	obj	_	TokenRange=219:224
+42	neste	_	ADP	ADP	_	43	case	_	TokenRange=225:230
+43	domingo	_	PROPN	PNOUN	_	39	nmod	_	TokenRange=231:238
+44	14	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=239:241
+45	em	em	ADP	ADP	_	47	case	_	TokenRange=242:244
+46	uma	um	DET	DET	_	47	det	_	TokenRange=245:248
+47	cerimonia	cerimonia	NOUN	NOUN	_	39	nmod	_	TokenRange=249:258
+48-49	no	_	_	_	_	_	_	_	TokenRange=259:261
+48	em	em	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	palacio	palacio	NOUN	NOUN	_	47	nmod	_	TokenRange=262:269
+51-52	do	_	_	_	_	_	_	_	TokenRange=270:272
+51	de	de	ADP	ADP	_	53	case	_	_
+52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	eliseu	eliseu	NOUN	NOUN	_	50	nmod	_	TokenRange=273:279
+54	a	o	DET	DET	_	55	det	_	TokenRange=280:281
+55	posse	posse	NOUN	NOUN	_	56	nsubj	_	TokenRange=282:287
+56	comecou	comecar	VERB	VERB	_	2	parataxis	_	TokenRange=288:295
+57	pontualmente	pontualmente	ADV	ADV	_	56	advmod	_	TokenRange=296:308
+58	as	o	DET	DET	_	60	det	_	TokenRange=309:311
+59	10h	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=312:315
+60	5h	_	NUM	NUM	NumType=Card	56	nmod	_	TokenRange=316:318
+61-62	no	_	_	_	_	_	_	_	TokenRange=319:321
+61	em	em	ADP	ADP	_	63	case	_	_
+62	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	horario	horario	NOUN	NOUN	_	56	nmod	_	TokenRange=322:329
+64	de	de	ADP	ADP	_	65	case	_	TokenRange=330:332
+65	brasilia	brasilia	NOUN	NOUN	_	63	nmod	_	TokenRange=333:341
+66	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=342:343
+67	segue	_	VERB	VERB	_	56	conj	_	TokenRange=344:349
+68	um	um	DET	DET	_	69	det	_	TokenRange=350:352
+69	protocolo	protocolo	NOUN	NOUN	_	67	obj	_	TokenRange=353:362
+70	rigoroso	rigoroso	ADJ	ADJ	_	69	amod	_	TokenRange=363:371
+71-72	na	_	_	_	_	_	_	_	TokenRange=372:374
+71	em	em	ADP	ADP	_	73	case	_	_
+72	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
+73	eleicao	eleicao	NOUN	NOUN	_	67	nmod	_	TokenRange=375:382
+74-75	do	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=383:385
+74	de	de	ADP	ADP	_	30	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+

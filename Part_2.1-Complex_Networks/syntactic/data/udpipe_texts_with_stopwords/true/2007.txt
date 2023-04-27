@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sologamia por que cada vez mais pessoas estao casando consigo mesmas muitas pessoas decidem se casar consigo mesmas em cerimonias com trajes proprios bolo padrinhos nas quais celebram entre outras coisas o amorproprio empresas do ramo de casamentos tentam se ajustar a nova moda no verao de 2000 a artista gabrielle penabaz de nova york decidiu dar uma
+1	sologamia	sologamia	NOUN	NOUN	_	59	nsubj	_	TokenRange=0:9
+2	por	_	ADP	ADP	_	9	mark	_	TokenRange=10:13
+3	que	_	CCONJ	CONJ	_	2	fixed	_	TokenRange=14:17
+4	cada	_	DET	DET	_	5	det	_	TokenRange=18:22
+5	vez	vez	NOUN	NOUN	_	6	nmod	_	TokenRange=23:26
+6	mais	mais	DET	DET	_	7	det	_	TokenRange=27:31
+7	pessoas	pessoa	NOUN	NOUN	_	9	nsubj	_	TokenRange=32:39
+8	estao	_	AUX	AUX	_	9	aux	_	TokenRange=40:45
+9	casando	casar	VERB	VERB	_	14	advcl	_	TokenRange=46:53
+10	consigo	_	X	ADPPRON	_	9	nmod	_	TokenRange=54:61
+11	mesmas	mesmo	ADJ	ADJ	_	10	amod	_	TokenRange=62:68
+12	muitas	_	DET	DET	_	13	det	_	TokenRange=69:75
+13	pessoas	pessoa	NOUN	NOUN	_	14	nsubj	_	TokenRange=76:83
+14	decidem	decidir	VERB	VERB	_	1	acl:relcl	_	TokenRange=84:91
+15	se	_	PRON	PRON	_	16	obj	_	TokenRange=92:94
+16	casar	casar	VERB	VERB	_	14	xcomp	_	TokenRange=95:100
+17	consigo	_	X	ADPPRON	_	16	nmod	_	TokenRange=101:108
+18	mesmas	mesmo	ADJ	ADJ	_	17	amod	_	TokenRange=109:115
+19	em	em	ADP	ADP	_	20	case	_	TokenRange=116:118
+20	cerimonias	cerimonia	NOUN	NOUN	_	16	nmod	_	TokenRange=119:129
+21	com	com	ADP	ADP	_	22	case	_	TokenRange=130:133
+22	trajes	traje	NOUN	NOUN	_	20	nmod	_	TokenRange=134:140
+23	proprios	proprio	ADJ	ADJ	_	22	amod	_	TokenRange=141:149
+24	bolo	bolo	NOUN	NOUN	_	25	amod	_	TokenRange=150:154
+25	padrinhos	_	NOUN	NOUN	_	22	appos	_	TokenRange=155:164
+26-27	nas	_	_	_	_	_	_	_	TokenRange=165:168
+26	em	em	ADP	ADP	_	28	case	_	_
+27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	quais	_	PRON	PRON	_	29	nmod	_	TokenRange=169:174
+29	celebram	celebrar	VERB	VERB	_	22	acl:relcl	_	TokenRange=175:183
+30	entre	_	ADP	ADP	_	32	case	_	TokenRange=184:189
+31	outras	_	DET	DET	_	32	det	_	TokenRange=190:196
+32	coisas	coisa	NOUN	NOUN	_	29	nmod	_	TokenRange=197:203
+33	o	o	DET	DET	_	34	det	_	TokenRange=204:205
+34	amorproprio	amorproprio	NOUN	NOUN	_	29	nsubj	_	TokenRange=206:217
+35	empresas	empresa	NOUN	NOUN	_	41	nsubj	_	TokenRange=218:226
+36-37	do	_	_	_	_	_	_	_	TokenRange=227:229
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	ramo	ramo	NOUN	NOUN	_	35	nmod	_	TokenRange=230:234
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=235:237
+40	casamentos	casamento	NOUN	NOUN	_	38	nmod	_	TokenRange=238:248
+41	tentam	tentar	VERB	VERB	_	14	parataxis	_	TokenRange=249:255
+42	se	_	PRON	PRON	_	43	obj	_	TokenRange=256:258
+43	ajustar	ajustar	VERB	VERB	_	41	xcomp	_	TokenRange=259:266
+44	a	o	DET	DET	_	46	det	_	TokenRange=267:268
+45	nova	novo	ADJ	ADJ	_	46	amod	_	TokenRange=269:273
+46	moda	moda	NOUN	NOUN	_	43	obj	_	TokenRange=274:278
+47-48	no	_	_	_	_	_	_	_	TokenRange=279:281
+47	em	em	ADP	ADP	_	49	case	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	verao	verao	PROPN	PNOUN	_	41	nmod	_	TokenRange=282:287
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=288:290
+51	2000	_	NUM	NUM	NumType=Card	49	nmod	_	TokenRange=291:295
+52	a	o	DET	DET	_	53	det	_	TokenRange=296:297
+53	artista	artista	NOUN	NOUN	_	59	nsubj	_	TokenRange=298:305
+54	gabrielle	_	PROPN	PNOUN	_	53	appos	_	TokenRange=306:315
+55	penabaz	_	NOUN	NOUN	_	54	flat	_	TokenRange=316:323
+56	de	de	ADP	ADP	_	58	case	_	TokenRange=324:326
+57	nova	novo	ADJ	ADJ	_	58	amod	_	TokenRange=327:331
+58	york	_	PROPN	PNOUN	_	54	nmod	_	TokenRange=332:336
+59	decidiu	decidir	VERB	VERB	_	0	root	_	TokenRange=337:344
+60	dar	dar	VERB	VERB	_	59	xcomp	_	TokenRange=345:348
+61	uma	um	DET	DET	_	53	det	_	SpacesAfter=\s\s|TokenRange=349:352
+

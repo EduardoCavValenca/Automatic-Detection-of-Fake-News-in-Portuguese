@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nas redes sociais joaquim barbosa cobrou investigacoes sobre morte de teori na noite de ontem 19 joaquim barbosa emitiu sua opiniao sobre o tragico acidente aereo que vitimou o ministro teori zavascki relator da lavajato abre aspas o que mais precisa acontecer para definitivamente nos conscientizarmos de que estamos sendo governados por criminosos em confirmado este crime esta mais do que na hora da min carmen lucia pedir a intervencao fecha aspas leia tambem
+1-2	nas	_	_	_	_	_	_	_	TokenRange=0:3
+1	em	em	ADP	ADP	_	3	case	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	redes	rede	NOUN	NOUN	_	7	nmod	_	TokenRange=4:9
+4	sociais	social	ADJ	ADJ	_	3	amod	_	TokenRange=10:17
+5	joaquim	joaquim	NOUN	NOUN	_	7	nsubj	_	TokenRange=18:25
+6	barbosa	barbosa	NOUN	NOUN	_	5	flat	_	TokenRange=26:33
+7	cobrou	cobrar	VERB	VERB	_	0	root	_	TokenRange=34:40
+8	investigacoes	investigacoe	NOUN	NOUN	_	7	obj	_	TokenRange=41:54
+9	sobre	_	ADP	ADP	_	10	case	_	TokenRange=55:60
+10	morte	morte	NOUN	NOUN	_	8	nmod	_	TokenRange=61:66
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=67:69
+12	teori	teori	NOUN	NOUN	_	10	nmod	_	TokenRange=70:75
+13-14	na	_	_	_	_	_	_	_	TokenRange=76:78
+13	em	em	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	noite	noite	NOUN	NOUN	_	7	nmod	_	TokenRange=79:84
+16	de	_	ADP	ADP	_	17	mark	_	TokenRange=85:87
+17	ontem	ontem	ADV	ADV	_	15	nmod	_	TokenRange=88:93
+18	19	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=94:96
+19	joaquim	joaquim	NOUN	NOUN	_	21	nsubj	_	TokenRange=97:104
+20	barbosa	barboso	NOUN	NOUN	_	19	flat	_	TokenRange=105:112
+21	emitiu	emitir	VERB	VERB	_	7	conj	_	TokenRange=113:119
+22	sua	_	DET	DET	_	23	det:poss	_	TokenRange=120:123
+23	opiniao	opiniao	NOUN	NOUN	_	21	obj	_	TokenRange=124:131
+24	sobre	_	ADP	ADP	_	27	case	_	TokenRange=132:137
+25	o	o	DET	DET	_	27	det	_	TokenRange=138:139
+26	tragico	tragico	ADJ	ADJ	_	27	amod	_	TokenRange=140:147
+27	acidente	acidente	NOUN	NOUN	_	23	nmod	_	TokenRange=148:156
+28	aereo	aereo	ADJ	ADJ	_	27	amod	_	TokenRange=157:162
+29	que	_	PRON	PRON	_	30	nsubj	_	TokenRange=163:166
+30	vitimou	vitimar	VERB	VERB	_	27	acl:relcl	_	TokenRange=167:174
+31	o	o	DET	DET	_	32	det	_	TokenRange=175:176
+32	ministro	ministro	NOUN	NOUN	_	30	obj	_	TokenRange=177:185
+33	teori	teori	NOUN	NOUN	_	32	appos	_	TokenRange=186:191
+34	zavascki	_	NOUN	NOUN	_	32	appos	_	TokenRange=192:200
+35	relator	relator	NOUN	NOUN	_	39	nsubj	_	TokenRange=201:208
+36-37	da	_	_	_	_	_	_	_	TokenRange=209:211
+36	de	de	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	lavajato	lavajato	NOUN	NOUN	_	35	nmod	_	TokenRange=212:220
+39	abre	abrir	VERB	VERB	_	27	acl:relcl	_	TokenRange=221:225
+40	aspas	aspa	NOUN	NOUN	_	39	obj	_	TokenRange=226:231
+41	o	_	PRON	PRON	_	39	obj	_	TokenRange=232:233
+42	que	_	PRON	PRON	_	44	nsubj	_	TokenRange=234:237
+43	mais	mais	ADV	ADV	_	44	advmod	_	TokenRange=238:242
+44	precisa	precisar	VERB	VERB	_	41	acl:relcl	_	TokenRange=243:250
+45	acontecer	acontecer	VERB	VERB	_	44	xcomp	_	TokenRange=251:260
+46	para	_	ADP	ADP	_	50	mark	_	TokenRange=261:265
+47	definitivamente	definitivamente	ADV	ADV	_	50	advmod	_	TokenRange=266:281
+48-49	nos	_	_	_	_	_	_	_	TokenRange=282:285
+48	em	em	ADP	ADP	_	50	case	_	_
+49	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	conscientizarmos	conscientizar	VERB	VERB	_	45	nmod	_	TokenRange=286:302
+51	de	_	ADP	ADP	_	55	mark	_	TokenRange=303:305
+52	que	que	CCONJ	CONJ	_	55	mark	_	TokenRange=306:309
+53	estamos	estar	AUX	AUX	_	55	aux	_	TokenRange=310:317
+54	sendo	ser	AUX	AUX	_	55	aux:pass	_	TokenRange=318:323
+55	governados	governar	VERB	VERB	_	50	nmod	_	TokenRange=324:334
+56	por	por	ADP	ADP	_	57	case	_	TokenRange=335:338
+57	criminosos	criminoso	NOUN	NOUN	_	55	nmod	_	TokenRange=339:349
+58	em	_	ADP	ADP	_	59	mark	_	TokenRange=350:352
+59	confirmado	confirmado	ADJ	ADJ	_	55	nmod	_	TokenRange=353:363
+60	este	_	DET	DET	_	61	det	_	TokenRange=364:368
+61	crime	crime	NOUN	NOUN	_	62	nsubj	_	TokenRange=369:374
+62	esta	_	VERB	VERB	_	50	nmod	_	TokenRange=375:379
+63	mais	mais	ADV	ADV	_	62	advmod	_	TokenRange=380:384
+64-65	do	_	_	_	_	_	_	_	TokenRange=385:387
+64	de	de	ADP	ADP	_	69	case	_	_
+65	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+66	que	_	ADP	ADP	_	64	fixed	_	TokenRange=388:391
+67-68	na	_	_	_	_	_	_	_	TokenRange=392:394
+67	em	em	ADP	ADP	_	69	case	_	_
+68	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	hora	hora	NOUN	NOUN	_	62	nmod	_	TokenRange=395:399
+70-71	da	_	_	_	_	_	_	_	TokenRange=400:402
+70	de	de	ADP	ADP	_	75	case	_	_
+71	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+72	min	_	NOUN	NOUN	_	75	nsubj	_	TokenRange=403:406
+73	carmen	_	NOUN	NOUN	_	72	flat	_	TokenRange=407:413
+74	lucia	_	NOUN	NOUN	_	72	flat	_	TokenRange=414:419
+75	pedir	pedir	VERB	VERB	_	69	nmod	_	TokenRange=420:425
+76	a	o	DET	DET	_	77	det	_	TokenRange=426:427
+77	intervencao	intervencao	NOUN	NOUN	_	75	obj	_	TokenRange=428:439
+78	fecha	fecho	ADJ	ADJ	_	77	amod	_	TokenRange=440:445
+79	aspas	aspas	NOUN	NOUN	_	75	obj	_	TokenRange=446:451
+80	leia	ler	VERB	VERB	_	45	parataxis	_	TokenRange=452:456
+81	tambem	tambem	ADV	ADV	_	80	advmod	_	TokenRange=457:463
+

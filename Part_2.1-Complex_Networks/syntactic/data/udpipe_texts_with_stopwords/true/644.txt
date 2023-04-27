@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tropkillaz como o duo produziu vai malandra e continua a unir rap funk e musica eletronica saiba como um veterano do rap e um dj prodigio fizeram trap a brasileira abriram a cabeca para o funk deram forma ao hit de anitta assinaram contrato mundial e vao contra djs bonzinhos no lolla os djs zegon 48 anos e andre laudz 25 explicam o inicio do tropkillaz do mesmo
+1	tropkillaz	tropkillaz	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:10
+2	como	como	ADP	ADP	_	5	mark	_	TokenRange=11:15
+3	o	o	DET	DET	_	4	det	_	TokenRange=16:17
+4	duo	duo	NOUN	NOUN	_	5	nsubj	_	TokenRange=18:21
+5	produziu	produzir	VERB	VERB	_	0	root	_	TokenRange=22:30
+6	vai	ir	AUX	AUX	_	5	obj	_	TokenRange=31:34
+7	malandra	malandra	NOUN	NOUN	_	5	obj	_	TokenRange=35:43
+8	e	e	CCONJ	CONJ	_	11	cc	_	TokenRange=44:45
+9	continua	continuar	AUX	AUX	_	11	aux	_	TokenRange=46:54
+10	a	_	ADP	ADP	_	11	mark	_	TokenRange=55:56
+11	unir	unir	VERB	VERB	_	5	conj	_	TokenRange=57:61
+12	rap	rap	NOUN	NOUN	_	11	obj	_	TokenRange=62:65
+13	funk	funk	NOUN	NOUN	_	12	flat	_	TokenRange=66:70
+14	e	e	CCONJ	CONJ	_	15	cc	_	TokenRange=71:72
+15	musica	_	NOUN	NOUN	_	12	conj	_	TokenRange=73:79
+16	eletronica	eletronico	ADJ	ADJ	_	15	amod	_	TokenRange=80:90
+17	saiba	saber	VERB	VERB	_	11	acl	_	TokenRange=91:96
+18	como	como	ADP	ADP	_	20	case	_	TokenRange=97:101
+19	um	um	DET	DET	_	20	det	_	TokenRange=102:104
+20	veterano	veterano	NOUN	NOUN	_	28	nmod	_	TokenRange=105:113
+21-22	do	_	_	_	_	_	_	_	TokenRange=114:116
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	rap	rap	NOUN	NOUN	_	20	nmod	_	TokenRange=117:120
+24	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=121:122
+25	um	um	DET	DET	_	26	det	_	TokenRange=123:125
+26	dj	dj	NOUN	NOUN	_	20	conj	_	TokenRange=126:128
+27	prodigio	prodigio	ADJ	ADJ	_	26	amod	_	TokenRange=129:137
+28	fizeram	fazer	VERB	VERB	_	5	conj	_	TokenRange=138:145
+29	trap	trap	NOUN	NOUN	_	28	obj	_	TokenRange=146:150
+30	a	o	DET	DET	_	31	det	_	TokenRange=151:152
+31	brasileira	brasileiro	NOUN	NOUN	_	32	nsubj	_	TokenRange=153:163
+32	abriram	abrir	VERB	VERB	_	28	ccomp	_	TokenRange=164:171
+33	a	o	DET	DET	_	34	det	_	TokenRange=172:173
+34	cabeca	cabeca	NOUN	NOUN	_	32	obj	_	TokenRange=174:180
+35	para	para	ADP	ADP	_	37	case	_	TokenRange=181:185
+36	o	o	DET	DET	_	37	det	_	TokenRange=186:187
+37	funk	funk	NOUN	NOUN	_	38	nmod	_	TokenRange=188:192
+38	deram	dar	VERB	VERB	_	32	conj	_	TokenRange=193:198
+39	forma	forma	NOUN	NOUN	_	38	obj	_	TokenRange=199:204
+40-41	ao	_	_	_	_	_	_	_	TokenRange=205:207
+40	a	a	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	hit	hit	NOUN	NOUN	_	38	iobj	_	TokenRange=208:211
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=212:214
+44	anitta	anitta	NOUN	NOUN	_	42	nmod	_	TokenRange=215:221
+45	assinaram	assinar	VERB	VERB	_	32	parataxis	_	TokenRange=222:231
+46	contrato	contrato	NOUN	NOUN	_	45	obj	_	TokenRange=232:240
+47	mundial	mundial	ADJ	ADJ	_	46	amod	_	TokenRange=241:248
+48	e	e	CCONJ	CONJ	_	49	cc	_	TokenRange=249:250
+49	vao	ir	VERB	VERB	_	45	conj	_	TokenRange=251:254
+50	contra	_	ADP	ADP	_	51	case	_	TokenRange=255:261
+51	djs	dj	NOUN	NOUN	_	49	nmod	_	TokenRange=262:265
+52	bonzinhos	bonzinho	ADJ	ADJ	_	51	amod	_	TokenRange=266:275
+53-54	no	_	_	_	_	_	_	_	TokenRange=276:278
+53	em	em	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	lolla	_	NOUN	NOUN	_	49	nmod	_	TokenRange=279:284
+56	os	o	DET	DET	_	57	det	_	TokenRange=285:287
+57	djs	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=288:291
+58	zegon	_	NOUN	NOUN	_	57	appos	_	TokenRange=292:297
+59	48	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=298:300
+60	anos	ano	NOUN	NOUN	_	58	appos	_	TokenRange=301:305
+61	e	e	CCONJ	CONJ	_	62	cc	_	TokenRange=306:307
+62	andre	andre	NOUN	NOUN	_	57	conj	_	TokenRange=308:313
+63	laudz	laudz	NOUN	NOUN	_	62	flat	_	TokenRange=314:319
+64	25	_	NUM	NUM	NumType=Card	62	appos	_	TokenRange=320:322
+65	explicam	explicar	VERB	VERB	_	45	conj	_	TokenRange=323:331
+66	o	o	DET	DET	_	67	det	_	TokenRange=332:333
+67	inicio	inicio	NOUN	NOUN	_	65	obj	_	TokenRange=334:340
+68-69	do	_	_	_	_	_	_	_	TokenRange=341:343
+68	de	de	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	tropkillaz	_	NOUN	NOUN	_	67	nmod	_	TokenRange=344:354
+71-72	do	_	_	_	_	_	_	_	TokenRange=355:357
+71	de	de	ADP	ADP	_	73	case	_	_
+72	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
+73	mesmo	mesmo	NOUN	ADJ	_	70	nmod	_	SpacesAfter=\s\s|TokenRange=358:363
+

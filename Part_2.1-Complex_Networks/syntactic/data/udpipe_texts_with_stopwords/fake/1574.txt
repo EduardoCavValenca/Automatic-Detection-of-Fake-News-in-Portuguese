@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = filha de exministro do stf alertou carmen lucia sera a coveira do stf magda e filha de paulo brossard 1924/2015 retrospectiva2017 asmaislidas2017 paulo brossard de souza pinto foi um jurista advogado magistrado professor politico e ministro do stf entre os anos de 1989 a 1994 homem publico como poucos ele foi um dos maiores juristas de sua geracao atraves de seu twitter magda filha de brossard fez questao de comentar o desapontamento com o stf
+1	filha	filho	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:5
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=6:8
+3	exministro	exministro	NOUN	NOUN	_	1	nmod	_	TokenRange=9:19
+4-5	do	_	_	_	_	_	_	_	TokenRange=20:22
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stf	_	NOUN	NOUN	_	3	nmod	_	TokenRange=23:26
+7	alertou	alertar	VERB	VERB	_	0	root	_	TokenRange=27:34
+8	carmen	carmen	NOUN	NOUN	_	7	obj	_	TokenRange=35:41
+9	lucia	_	NOUN	NOUN	_	8	flat	_	TokenRange=42:47
+10	sera	_	AUX	AUX	_	12	cop	_	TokenRange=48:52
+11	a	o	DET	DET	_	12	det	_	TokenRange=53:54
+12	coveira	_	NOUN	NOUN	_	7	ccomp	_	TokenRange=55:62
+13-14	do	_	_	_	_	_	_	_	TokenRange=63:65
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	stf	_	NOUN	NOUN	_	12	nmod	_	TokenRange=66:69
+16	magda	magda	NOUN	NOUN	_	12	appos	_	TokenRange=70:75
+17	e	e	CCONJ	CONJ	_	18	cc	_	TokenRange=76:77
+18	filha	filho	NOUN	NOUN	_	16	conj	_	TokenRange=78:83
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=84:86
+20	paulo	paulo	NOUN	NOUN	_	18	nmod	_	TokenRange=87:92
+21	brossard	_	NOUN	NOUN	_	20	flat	_	TokenRange=93:101
+22	1924/2015	_	NUM	NUM	NumType=Card	20	appos	_	TokenRange=102:111
+23	retrospectiva2017	_	NOUN	NOUN	_	20	appos	_	TokenRange=112:129
+24	asmaislidas2017	_	NOUN	NOUN	_	23	appos	_	TokenRange=130:145
+25	paulo	paulo	NOUN	NOUN	_	32	appos	_	TokenRange=146:151
+26	brossard	_	NOUN	NOUN	_	25	flat	_	TokenRange=152:160
+27	de	de	ADP	ADP	_	28	case	_	TokenRange=161:163
+28	souza	souza	NOUN	NOUN	_	25	nmod	_	TokenRange=164:169
+29	pinto	pinto	ADJ	ADJ	_	28	amod	_	TokenRange=170:175
+30	foi	_	AUX	AUX	_	32	cop	_	TokenRange=176:179
+31	um	um	DET	DET	_	32	det	_	TokenRange=180:182
+32	jurista	jurista	NOUN	NOUN	_	12	conj	_	TokenRange=183:190
+33	advogado	advogado	NOUN	NOUN	_	32	amod	_	TokenRange=191:199
+34	magistrado	magistrado	ADJ	ADJ	_	32	amod	_	TokenRange=200:210
+35	professor	professor	NOUN	NOUN	_	32	appos	_	TokenRange=211:220
+36	politico	politico	ADJ	ADJ	_	35	amod	_	TokenRange=221:229
+37	e	e	CCONJ	CONJ	_	38	cc	_	TokenRange=230:231
+38	ministro	ministro	NOUN	NOUN	_	35	conj	_	TokenRange=232:240
+39-40	do	_	_	_	_	_	_	_	TokenRange=241:243
+39	de	de	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	stf	stf	NOUN	NOUN	_	38	nmod	_	TokenRange=244:247
+42	entre	_	ADP	ADP	_	44	case	_	TokenRange=248:253
+43	os	o	DET	DET	_	44	det	_	TokenRange=254:256
+44	anos	ano	NOUN	NOUN	_	32	nmod	_	TokenRange=257:261
+45	de	de	ADP	ADP	_	46	case	_	TokenRange=262:264
+46	1989	_	NUM	NUM	NumType=Card	44	nmod	_	TokenRange=265:269
+47	a	_	ADP	ADP	_	48	case	_	TokenRange=270:271
+48	1994	_	NUM	NUM	NumType=Card	46	nmod	_	TokenRange=272:276
+49	homem	homem	NOUN	NOUN	_	55	appos	_	TokenRange=277:282
+50	publico	publico	ADJ	ADJ	_	49	amod	_	TokenRange=283:290
+51	como	como	ADP	ADP	_	52	case	_	TokenRange=291:295
+52	poucos	_	PRON	PRON	_	49	nmod	_	TokenRange=296:302
+53	ele	_	PRON	PRON	_	55	nsubj	_	TokenRange=303:306
+54	foi	_	AUX	AUX	_	55	cop	_	TokenRange=307:310
+55	um	_	PRON	PRON	_	32	parataxis	_	TokenRange=311:313
+56-57	dos	_	_	_	_	_	_	_	TokenRange=314:317
+56	de	de	ADP	ADP	_	59	case	_	_
+57	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
+58	maiores	maior	ADJ	ADJ	_	59	amod	_	TokenRange=318:325
+59	juristas	jurista	NOUN	NOUN	_	55	nmod	_	TokenRange=326:334
+60	de	de	ADP	ADP	_	62	case	_	TokenRange=335:337
+61	sua	_	DET	DET	_	62	det:poss	_	TokenRange=338:341
+62	geracao	geracao	NOUN	NOUN	_	59	nmod	_	TokenRange=342:349
+63	atraves	atraves	ADV	ADV	_	55	advmod	_	TokenRange=350:357
+64	de	de	ADP	ADP	_	66	case	_	TokenRange=358:360
+65	seu	_	DET	DET	_	66	det:poss	_	TokenRange=361:364
+66	twitter	_	PROPN	PNOUN	_	63	nmod	_	TokenRange=365:372
+67	magda	magda	NOUN	NOUN	_	71	nsubj	_	TokenRange=373:378
+68	filha	filho	NOUN	NOUN	_	67	appos	_	TokenRange=379:384
+69	de	de	ADP	ADP	_	70	case	_	TokenRange=385:387
+70	brossard	_	NOUN	NOUN	_	68	nmod	_	TokenRange=388:396
+71	fez	fazer	VERB	VERB	_	55	parataxis	_	TokenRange=397:400
+72	questao	questao	NOUN	NOUN	_	71	obj	_	TokenRange=401:408
+73	de	_	ADP	ADP	_	74	mark	_	TokenRange=409:411
+74	comentar	comentar	VERB	VERB	_	72	nmod	_	TokenRange=412:420
+75	o	o	DET	DET	_	76	det	_	TokenRange=421:422
+76	desapontamento	desapontamento	NOUN	NOUN	_	74	obj	_	TokenRange=423:437
+77	com	com	ADP	ADP	_	79	case	_	TokenRange=438:441
+78	o	o	DET	DET	_	79	det	_	TokenRange=442:443
+79	stf	stf	NOUN	NOUN	_	76	nmod	_	TokenRange=444:447
+

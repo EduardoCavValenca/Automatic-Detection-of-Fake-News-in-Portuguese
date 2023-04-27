@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joaquim barbosa tera de indenizar jornalista em r 20 mil reafirma justica do df em 2013 exministro do stf mandou profissional ir chafurdar no lixo ele tentava recorrer de condenacao a justica do distrito federal negou um recurso do exministro joaquim barbosa do supremo tribunal federal stf e manteve a obrigacao de ele indenizar em r 20 mil o jornalista felipe recondo por supostas ofensas proferidas em 2013
+1	joaquim	joaquim	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:7
+2	barbosa	barboso	ADJ	ADJ	_	1	flat	_	TokenRange=8:15
+3	tera	terar	AUX	AUX	_	5	aux	_	TokenRange=16:20
+4	de	_	ADP	ADP	_	5	mark	_	TokenRange=21:23
+5	indenizar	indenizar	VERB	VERB	_	0	root	_	TokenRange=24:33
+6	jornalista	jornalista	NOUN	NOUN	_	5	obj	_	TokenRange=34:44
+7	em	em	ADP	ADP	_	8	case	_	TokenRange=45:47
+8	r	r	NOUN	NOUN	_	5	nmod	_	TokenRange=48:49
+9	20	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=50:52
+10	mil	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=53:56
+11	reafirma	reafirmar	VERB	VERB	_	5	parataxis	_	TokenRange=57:65
+12	justica	_	NOUN	NOUN	_	11	obj	_	TokenRange=66:73
+13-14	do	_	_	_	_	_	_	_	TokenRange=74:76
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	df	df	NOUN	NOUN	_	12	nmod	_	TokenRange=77:79
+16	em	em	ADP	ADP	_	17	case	_	TokenRange=80:82
+17	2013	_	NUM	NUM	NumType=Card	22	nmod	_	TokenRange=83:87
+18	exministro	exministro	NOUN	NOUN	_	22	nsubj	_	TokenRange=88:98
+19-20	do	_	_	_	_	_	_	_	TokenRange=99:101
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	stf	_	NOUN	NOUN	_	18	nmod	_	TokenRange=102:105
+22	mandou	mandar	VERB	VERB	_	5	parataxis	_	TokenRange=106:112
+23	profissional	profissional	NOUN	NOUN	_	22	obj	_	TokenRange=113:125
+24	ir	ir	AUX	VERB	_	25	aux	_	TokenRange=126:128
+25	chafurdar	chafurdar	VERB	VERB	_	23	acl:inf	_	TokenRange=129:138
+26-27	no	_	_	_	_	_	_	_	TokenRange=139:141
+26	em	em	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	lixo	lixo	NOUN	NOUN	_	25	nmod	_	TokenRange=142:146
+29	ele	_	PRON	PRON	_	30	nsubj	_	TokenRange=147:150
+30	tentava	tentar	VERB	VERB	_	22	ccomp	_	TokenRange=151:158
+31	recorrer	recorrer	VERB	VERB	_	30	xcomp	_	TokenRange=159:167
+32	de	de	ADP	ADP	_	33	case	_	TokenRange=168:170
+33	condenacao	condenacao	NOUN	NOUN	_	31	nmod	_	TokenRange=171:181
+34	a	o	DET	DET	_	35	det	_	TokenRange=182:183
+35	justica	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=184:191
+36-37	do	_	_	_	_	_	_	_	TokenRange=192:194
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	distrito	distrito	NOUN	NOUN	_	35	nmod	_	TokenRange=195:203
+39	federal	federal	ADJ	ADJ	_	38	amod	_	TokenRange=204:211
+40	negou	negar	VERB	VERB	_	22	conj	_	TokenRange=212:217
+41	um	um	DET	DET	_	42	det	_	TokenRange=218:220
+42	recurso	recurso	NOUN	NOUN	_	40	obj	_	TokenRange=221:228
+43-44	do	_	_	_	_	_	_	_	TokenRange=229:231
+43	de	de	ADP	ADP	_	45	case	_	_
+44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	exministro	exministro	NOUN	NOUN	_	42	nmod	_	TokenRange=232:242
+46	joaquim	joaquim	NOUN	NOUN	_	45	appos	_	TokenRange=243:250
+47	barbosa	barboso	NOUN	NOUN	_	46	flat	_	TokenRange=251:258
+48-49	do	_	_	_	_	_	_	_	TokenRange=259:261
+48	de	de	ADP	ADP	_	51	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+50	supremo	supremo	ADJ	ADJ	_	51	amod	_	TokenRange=262:269
+51	tribunal	tribunal	NOUN	NOUN	_	45	nmod	_	TokenRange=270:278
+52	federal	federal	ADJ	ADJ	_	51	amod	_	TokenRange=279:286
+53	stf	_	NOUN	NOUN	_	51	appos	_	TokenRange=287:290
+54	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=291:292
+55	manteve	manter	VERB	VERB	_	40	conj	_	TokenRange=293:300
+56	a	o	DET	DET	_	57	det	_	TokenRange=301:302
+57	obrigacao	obrigacao	NOUN	NOUN	_	55	obj	_	TokenRange=303:312
+58	de	_	ADP	ADP	_	60	mark	_	TokenRange=313:315
+59	ele	_	PRON	PRON	_	60	nsubj	_	TokenRange=316:319
+60	indenizar	indenizar	VERB	VERB	_	57	nmod	_	TokenRange=320:329
+61	em	em	ADP	ADP	_	62	case	_	TokenRange=330:332
+62	r	r	NOUN	NOUN	_	60	nmod	_	TokenRange=333:334
+63	20	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=335:337
+64	mil	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=338:341
+65	o	o	DET	DET	_	66	det	_	TokenRange=342:343
+66	jornalista	jornalista	NOUN	NOUN	_	60	obj	_	TokenRange=344:354
+67	felipe	felipe	NOUN	NOUN	_	66	appos	_	TokenRange=355:361
+68	recondo	recondar	VERB	VERB	_	66	acl	_	TokenRange=362:369
+69	por	por	ADP	ADP	_	71	case	_	TokenRange=370:373
+70	supostas	suposto	ADJ	ADJ	_	71	amod	_	TokenRange=374:382
+71	ofensas	ofensa	NOUN	NOUN	_	68	nmod	_	TokenRange=383:390
+72	proferidas	proferir	VERB	VERB	_	71	acl	_	TokenRange=391:401
+73	em	em	ADP	ADP	_	74	case	_	TokenRange=402:404
+74	2013	_	NUM	NUM	NumType=Card	72	nmod	_	SpacesAfter=\s\s|TokenRange=405:409
+

@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = festejos ao dois de julho reunem familias e tem manifestacoes na bahia celebracoes pela independencia do brasil na bahia ocorreram na manha deste domingo 2 em salvador governo do presidente michel temer foi alvo de protestos alinhado com as discussoes politicas nacionais e locais o desfile civico do dois de julho
+1	festejos	festejo	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:8
+2-3	ao	_	_	_	_	_	_	_	TokenRange=9:11
+2	a	a	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	dois	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:16
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=17:19
+6	julho	_	PROPN	PNOUN	_	4	nmod	_	TokenRange=20:25
+7	reunem	_	VERB	VERB	_	0	root	_	TokenRange=26:32
+8	familias	familia	NOUN	NOUN	_	7	obj	_	TokenRange=33:41
+9	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=42:43
+10	tem	ter	VERB	VERB	_	7	conj	_	TokenRange=44:47
+11	manifestacoes	manifestacoe	NOUN	NOUN	_	10	obj	_	TokenRange=48:61
+12-13	na	_	_	_	_	_	_	_	TokenRange=62:64
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	bahia	bahia	NOUN	NOUN	_	7	nmod	_	TokenRange=65:70
+15	celebracoes	celebracoe	NOUN	NOUN	_	25	nsubj	_	TokenRange=71:82
+16-17	pela	_	_	_	_	_	_	_	TokenRange=83:87
+16	por	por	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	independencia	_	NOUN	NOUN	_	15	nmod	_	TokenRange=88:101
+19-20	do	_	_	_	_	_	_	_	TokenRange=102:104
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	brasil	brasil	NOUN	NOUN	_	18	nmod	_	TokenRange=105:111
+22-23	na	_	_	_	_	_	_	_	TokenRange=112:114
+22	em	em	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	bahia	bahia	NOUN	NOUN	_	25	nmod	_	TokenRange=115:120
+25	ocorreram	ocorrer	VERB	VERB	_	7	parataxis	_	TokenRange=121:130
+26-27	na	_	_	_	_	_	_	_	TokenRange=131:133
+26	em	em	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	manha	manha	NOUN	NOUN	_	25	nmod	_	TokenRange=134:139
+29	deste	_	ADP	ADP	_	30	case	_	TokenRange=140:145
+30	domingo	_	PROPN	PNOUN	_	28	nmod	_	TokenRange=146:153
+31	2	_	NUM	NUM	NumType=Card	30	nmod	_	TokenRange=154:155
+32	em	em	ADP	ADP	_	33	case	_	TokenRange=156:158
+33	salvador	salvador	PROPN	PNOUN	_	25	nmod	_	TokenRange=159:167
+34	governo	governo	NOUN	NOUN	_	41	nsubj	_	TokenRange=168:175
+35-36	do	_	_	_	_	_	_	_	TokenRange=176:178
+35	de	de	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	presidente	presidente	NOUN	NOUN	_	34	nmod	_	TokenRange=179:189
+38	michel	michel	ADJ	ADJ	_	37	amod	_	TokenRange=190:196
+39	temer	temer	NOUN	NOUN	_	37	appos	_	TokenRange=197:202
+40	foi	_	AUX	AUX	_	41	cop	_	TokenRange=203:206
+41	alvo	alvo	NOUN	NOUN	_	7	parataxis	_	TokenRange=207:211
+42	de	de	ADP	ADP	_	43	case	_	TokenRange=212:214
+43	protestos	protesto	NOUN	NOUN	_	41	nmod	_	TokenRange=215:224
+44	alinhado	alinhado	ADJ	ADJ	_	43	amod	_	TokenRange=225:233
+45	com	com	ADP	ADP	_	47	case	_	TokenRange=234:237
+46	as	o	DET	DET	_	47	det	_	TokenRange=238:240
+47	discussoes	discussoe	NOUN	NOUN	_	44	nmod	_	TokenRange=241:251
+48	politicas	politico	ADJ	ADJ	_	47	amod	_	TokenRange=252:261
+49	nacionais	nacional	ADJ	ADJ	_	47	amod	_	TokenRange=262:271
+50	e	e	CCONJ	CONJ	_	51	cc	_	TokenRange=272:273
+51	locais	local	ADJ	ADJ	_	49	conj	_	TokenRange=274:280
+52	o	o	DET	DET	_	53	det	_	TokenRange=281:282
+53	desfile	desfile	NOUN	NOUN	_	41	nsubj	_	TokenRange=283:290
+54	civico	civico	ADJ	ADJ	_	53	amod	_	TokenRange=291:297
+55-56	do	_	_	_	_	_	_	_	TokenRange=298:300
+55	de	de	ADP	ADP	_	57	case	_	_
+56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	dois	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=301:305
+58	de	de	ADP	ADP	_	59	case	_	TokenRange=306:308
+59	julho	_	PROPN	PNOUN	_	57	nmod	_	SpacesAfter=\s\s|TokenRange=309:314
+

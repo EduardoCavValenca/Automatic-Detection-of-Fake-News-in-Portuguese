@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma ja caiu nao mas o dente de renan calheiros sim senador perde dente durante entrevista durante uma uma entrevista coletiva um dente do presidente do senado renan calheiros caiu apesar do fato inusitado o senador continuou falando normalmente para os jornalistas sera que a fadinha dos dentes vai aparecer no senado assista o video
+1	dilma	dilma	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	ja	ja	ADV	ADV	_	3	advmod	_	TokenRange=6:8
+3	caiu	cair	VERB	VERB	_	0	root	_	TokenRange=9:13
+4	nao	nao	ADV	ADV	Polarity=Neg	3	advmod	_	TokenRange=14:17
+5	mas	mas	CCONJ	CONJ	_	13	cc	_	TokenRange=18:21
+6	o	o	DET	DET	_	7	det	_	TokenRange=22:23
+7	dente	dente	NOUN	NOUN	_	13	nsubj	_	TokenRange=24:29
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=30:32
+9	renan	renan	NOUN	NOUN	_	7	nmod	_	TokenRange=33:38
+10	calheiros	calheiro	NOUN	NOUN	_	9	flat	_	TokenRange=39:48
+11	sim	sim	ADV	ADV	_	12	advmod	_	TokenRange=49:52
+12	senador	senador	NOUN	NOUN	_	13	nsubj	_	TokenRange=53:60
+13	perde	perder	VERB	VERB	_	3	conj	_	TokenRange=61:66
+14	dente	dente	NOUN	NOUN	_	13	obj	_	TokenRange=67:72
+15	durante	_	ADP	ADP	_	16	case	_	TokenRange=73:80
+16	entrevista	entrevista	NOUN	NOUN	_	13	nmod	_	TokenRange=81:91
+17	durante	_	ADP	ADP	_	20	case	_	TokenRange=92:99
+18	uma	um	DET	DET	_	20	det	_	TokenRange=100:103
+19	uma	um	DET	DET	_	20	det	_	TokenRange=104:107
+20	entrevista	entrevista	NOUN	NOUN	_	13	nmod	_	TokenRange=108:118
+21	coletiva	coletivo	ADJ	ADJ	_	20	amod	_	TokenRange=119:127
+22	um	um	DET	DET	_	23	det	_	TokenRange=128:130
+23	dente	dente	NOUN	NOUN	_	32	nsubj	_	TokenRange=131:136
+24-25	do	_	_	_	_	_	_	_	TokenRange=137:139
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	presidente	presidente	NOUN	NOUN	_	23	nmod	_	TokenRange=140:150
+27-28	do	_	_	_	_	_	_	_	TokenRange=151:153
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	senado	senado	NOUN	NOUN	_	26	nmod	_	TokenRange=154:160
+30	renan	renan	NOUN	NOUN	_	23	appos	_	TokenRange=161:166
+31	calheiros	calheiro	NOUN	NOUN	_	30	flat	_	TokenRange=167:176
+32	caiu	cair	VERB	VERB	_	3	conj	_	TokenRange=177:181
+33	apesar	apesar	ADV	ADV	_	36	case	_	TokenRange=182:188
+34-35	do	_	_	_	_	_	_	_	TokenRange=189:191
+34	de	de	ADP	ADP	_	33	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+36	fato	fato	NOUN	NOUN	_	32	nmod	_	TokenRange=192:196
+37	inusitado	inusitado	ADJ	ADJ	_	36	amod	_	TokenRange=197:206
+38	o	o	DET	DET	_	39	det	_	TokenRange=207:208
+39	senador	senador	NOUN	NOUN	_	41	nsubj	_	TokenRange=209:216
+40	continuou	continuar	AUX	AUX	_	41	aux	_	TokenRange=217:226
+41	falando	falar	VERB	VERB	_	32	advcl	_	TokenRange=227:234
+42	normalmente	normalmente	ADV	ADV	_	41	advmod	_	TokenRange=235:246
+43	para	para	ADP	ADP	_	45	case	_	TokenRange=247:251
+44	os	o	DET	DET	_	45	det	_	TokenRange=252:254
+45	jornalistas	jornalista	NOUN	NOUN	_	41	nmod	_	TokenRange=255:266
+46	sera	_	AUX	AUX	_	41	cop	_	TokenRange=267:271
+47	que	que	CCONJ	CONJ	_	58	mark	_	TokenRange=272:275
+48	a	o	DET	DET	_	49	det	_	TokenRange=276:277
+49	fadinha	fadinha	NOUN	NOUN	_	54	nsubj	_	TokenRange=278:285
+50-51	dos	_	_	_	_	_	_	_	TokenRange=286:289
+50	de	de	ADP	ADP	_	52	case	_	_
+51	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	dentes	dente	NOUN	NOUN	_	49	nmod	_	TokenRange=290:296
+53	vai	ir	AUX	AUX	_	54	aux	_	TokenRange=297:300
+54	aparecer	aparecer	VERB	VERB	_	46	csubj	_	TokenRange=301:309
+55-56	no	_	_	_	_	_	_	_	TokenRange=310:312
+55	em	em	ADP	ADP	_	57	case	_	_
+56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	senado	senado	NOUN	NOUN	_	54	nmod	_	TokenRange=313:319
+58	assista	assistir	VERB	VERB	_	41	ccomp	_	TokenRange=320:327
+59	o	o	DET	DET	_	60	det	_	TokenRange=328:329
+60	video	video	NOUN	NOUN	_	58	obj	_	TokenRange=330:335
+

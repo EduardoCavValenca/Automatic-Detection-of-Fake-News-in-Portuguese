@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro vamos abrir seus arquivos dilma vamos mostrar os assaltos e os assassinatos que voce participou no plenario da camara bolsonaro se irritou e disse
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	vamos	ir	AUX	AUX	_	3	aux	_	TokenRange=10:15
+3	abrir	abrir	VERB	VERB	_	0	root	_	TokenRange=16:21
+4	seus	_	DET	DET	_	5	det:poss	_	TokenRange=22:26
+5	arquivos	arquivo	NOUN	NOUN	_	3	obj	_	TokenRange=27:35
+6	dilma	dilma	NOUN	NOUN	_	8	obj	_	TokenRange=36:41
+7	vamos	ir	AUX	AUX	_	8	aux	_	TokenRange=42:47
+8	mostrar	mostrar	VERB	VERB	_	3	ccomp	_	TokenRange=48:55
+9	os	o	DET	DET	_	10	det	_	TokenRange=56:58
+10	assaltos	assalto	NOUN	NOUN	_	8	obj	_	TokenRange=59:67
+11	e	e	CCONJ	CONJ	_	13	cc	_	TokenRange=68:69
+12	os	o	DET	DET	_	13	det	_	TokenRange=70:72
+13	assassinatos	assassinato	NOUN	NOUN	_	10	conj	_	TokenRange=73:85
+14	que	_	PRON	PRON	_	16	obj	_	TokenRange=86:89
+15	voce	_	PRON	PRON	_	16	nsubj	_	TokenRange=90:94
+16	participou	participar	VERB	VERB	_	10	acl:relcl	_	TokenRange=95:105
+17-18	no	_	_	_	_	_	_	_	TokenRange=106:108
+17	em	em	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	plenario	plenario	NOUN	NOUN	_	16	nmod	_	TokenRange=109:117
+20-21	da	_	_	_	_	_	_	_	TokenRange=118:120
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	camara	camara	NOUN	NOUN	_	19	nmod	_	TokenRange=121:127
+23	bolsonaro	bolsonaro	ADJ	ADJ	_	25	nsubj	_	TokenRange=128:137
+24	se	_	PRON	PRON	_	25	obj	_	TokenRange=138:140
+25	irritou	irritar	VERB	VERB	_	3	parataxis	_	TokenRange=141:148
+26	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=149:150
+27	disse	dizer	VERB	VERB	_	25	conj	_	SpacesAfter=\s\s|TokenRange=151:156
+

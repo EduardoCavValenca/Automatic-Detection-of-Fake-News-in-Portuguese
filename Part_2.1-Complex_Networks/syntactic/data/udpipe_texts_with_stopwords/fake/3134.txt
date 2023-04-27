@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sitio de atibaia pf investiga se lula pegou objetos que pertencem ao palacio do planalto os mandados de busca e apreensao da pf visam tambem vasculhar containers num deposito em sao bernardo do campo pagos pela oas que guardam uma grande quantidade de objetos pessoais de lula
+1	sitio	sitio	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:5
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=6:8
+3	atibaia	atibaia	NOUN	NOUN	_	1	nmod	_	TokenRange=9:16
+4	pf	_	NOUN	NOUN	_	1	appos	_	TokenRange=17:19
+5	investiga	investigar	VERB	VERB	_	0	root	_	TokenRange=20:29
+6	se	_	CCONJ	CONJ	_	8	mark	_	TokenRange=30:32
+7	lula	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=33:37
+8	pegou	pegar	VERB	VERB	_	5	ccomp	_	TokenRange=38:43
+9	objetos	objeto	NOUN	NOUN	_	8	obj	_	TokenRange=44:51
+10	que	_	PRON	PRON	_	11	nsubj	_	TokenRange=52:55
+11	pertencem	pertencer	VERB	VERB	_	9	acl:relcl	_	TokenRange=56:65
+12-13	ao	_	_	_	_	_	_	_	TokenRange=66:68
+12	a	a	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	palacio	palacio	NOUN	NOUN	_	11	nmod	_	TokenRange=69:76
+15-16	do	_	_	_	_	_	_	_	TokenRange=77:79
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	planalto	planalto	NOUN	NOUN	_	14	nmod	_	TokenRange=80:88
+18	os	o	DET	DET	_	19	det	_	TokenRange=89:91
+19	mandados	mandado	NOUN	NOUN	_	27	nsubj	_	TokenRange=92:100
+20	de	de	ADP	ADP	_	21	case	_	TokenRange=101:103
+21	busca	busca	NOUN	NOUN	_	19	nmod	_	TokenRange=104:109
+22	e	e	CCONJ	CONJ	_	23	cc	_	TokenRange=110:111
+23	apreensao	apreensao	NOUN	NOUN	_	21	conj	_	TokenRange=112:121
+24-25	da	_	_	_	_	_	_	_	TokenRange=122:124
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	pf	_	NOUN	NOUN	_	19	nmod	_	TokenRange=125:127
+27	visam	visar	VERB	VERB	_	5	ccomp	_	TokenRange=128:133
+28	tambem	tambem	ADV	ADV	_	27	advmod	_	TokenRange=134:140
+29	vasculhar	vasculhar	VERB	VERB	_	27	xcomp	_	TokenRange=141:150
+30	containers	container	NOUN	NOUN	_	29	obj	_	TokenRange=151:161
+31-32	num	_	_	_	_	_	_	_	TokenRange=162:165
+31	em	em	ADP	ADP	_	33	case	_	_
+32	um	um	DET	DET	_	33	det	_	_
+33	deposito	deposito	NOUN	NOUN	_	29	nmod	_	TokenRange=166:174
+34	em	em	ADP	ADP	_	36	case	_	TokenRange=175:177
+35	sao	sao	ADJ	ADJ	_	36	amod	_	TokenRange=178:181
+36	bernardo	bernardo	NOUN	NOUN	_	33	nmod	_	TokenRange=182:190
+37-38	do	_	_	_	_	_	_	_	TokenRange=191:193
+37	de	de	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	campo	campo	NOUN	NOUN	_	36	nmod	_	TokenRange=194:199
+40	pagos	pagar	VERB	VERB	_	33	acl	_	TokenRange=200:205
+41-42	pela	_	_	_	_	_	_	_	TokenRange=206:210
+41	por	por	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	oas	_	NOUN	NOUN	_	40	nmod	_	TokenRange=211:214
+44	que	_	PRON	PRON	_	45	nsubj	_	TokenRange=215:218
+45	guardam	guardar	VERB	VERB	_	43	acl:relcl	_	TokenRange=219:226
+46	uma	um	DET	DET	_	48	det	_	TokenRange=227:230
+47	grande	grande	ADJ	ADJ	_	48	amod	_	TokenRange=231:237
+48	quantidade	quantidade	NOUN	NOUN	_	45	obj	_	TokenRange=238:248
+49	de	de	ADP	ADP	_	50	case	_	TokenRange=249:251
+50	objetos	objeto	NOUN	NOUN	_	48	nmod	_	TokenRange=252:259
+51	pessoais	pessoal	ADJ	ADJ	_	50	amod	_	TokenRange=260:268
+52	de	de	ADP	ADP	_	53	case	_	TokenRange=269:271
+53	lula	lula	NOUN	NOUN	_	50	nmod	_	SpacesAfter=\s\s|TokenRange=272:276
+

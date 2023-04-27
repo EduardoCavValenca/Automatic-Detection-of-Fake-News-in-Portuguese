@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro lula e um covarde que tem medo de ir a luta quando o assunto e o pt bolsonaro nao poupa palavras e rasga o verbo em discurso recente o deputado jair bolsonaro chamou lula de covarde e disse que o expresidente possui um exercito de mortadelas o povo reagiu e comecou a cantar em coro lula cachaceiro devolve o meu dinheiro confira
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	34	nsubj	_	TokenRange=0:9
+2	lula	lula	NOUN	NOUN	_	1	appos	_	TokenRange=10:14
+3	e	e	CCONJ	CONJ	_	5	cc	_	TokenRange=15:16
+4	um	um	DET	DET	_	5	det	_	TokenRange=17:19
+5	covarde	covarde	NOUN	NOUN	_	1	conj	_	TokenRange=20:27
+6	que	_	PRON	PRON	_	7	nsubj	_	TokenRange=28:31
+7	tem	ter	VERB	VERB	_	5	acl:relcl	_	TokenRange=32:35
+8	medo	medo	NOUN	NOUN	_	7	obj	_	TokenRange=36:40
+9	de	_	ADP	ADP	_	10	mark	_	TokenRange=41:43
+10	ir	ir	VERB	VERB	_	8	nmod	_	TokenRange=44:46
+11	a	o	DET	DET	_	12	det	_	TokenRange=47:48
+12	luta	luta	NOUN	NOUN	_	10	obj	_	TokenRange=49:53
+13	quando	_	CCONJ	CONJ	_	21	mark	_	TokenRange=54:60
+14	o	o	DET	DET	_	15	det	_	TokenRange=61:62
+15	assunto	assunto	NOUN	NOUN	_	21	nmod	_	TokenRange=63:70
+16	e	e	CCONJ	CONJ	_	18	cc	_	TokenRange=71:72
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	TokenRange=73:74
+18	pt	_	NOUN	NOUN	_	15	conj	_	TokenRange=75:77
+19	bolsonaro	bolsonaro	NOUN	NOUN	_	18	appos	_	TokenRange=78:87
+20	nao	nao	ADV	ADV	Polarity=Neg	21	advmod	_	TokenRange=88:91
+21	poupa	poupar	VERB	VERB	_	7	advcl	_	TokenRange=92:97
+22	palavras	palavra	NOUN	NOUN	_	21	obj	_	TokenRange=98:106
+23	e	e	CCONJ	CONJ	_	24	cc	_	TokenRange=107:108
+24	rasga	rasgar	VERB	VERB	_	21	conj	_	TokenRange=109:114
+25	o	o	DET	DET	_	26	det	_	TokenRange=115:116
+26	verbo	verbo	NOUN	NOUN	_	24	obj	_	TokenRange=117:122
+27	em	em	ADP	ADP	_	28	case	_	TokenRange=123:125
+28	discurso	discurso	NOUN	NOUN	_	24	nmod	_	TokenRange=126:134
+29	recente	recente	ADJ	ADJ	_	28	amod	_	TokenRange=135:142
+30	o	o	DET	DET	_	31	det	_	TokenRange=143:144
+31	deputado	deputado	NOUN	NOUN	_	34	nsubj	_	TokenRange=145:153
+32	jair	jair	NOUN	NOUN	_	31	appos	_	TokenRange=154:158
+33	bolsonaro	bolsonaro	NOUN	NOUN	_	32	flat	_	TokenRange=159:168
+34	chamou	chamar	VERB	VERB	_	0	root	_	TokenRange=169:175
+35	lula	_	NOUN	NOUN	_	34	obj	_	TokenRange=176:180
+36	de	de	ADP	ADP	_	37	case	_	TokenRange=181:183
+37	covarde	covarde	NOUN	NOUN	_	34	nmod	_	TokenRange=184:191
+38	e	e	CCONJ	CONJ	_	39	cc	_	TokenRange=192:193
+39	disse	dizer	VERB	VERB	_	34	conj	_	TokenRange=194:199
+40	que	que	CCONJ	CONJ	_	43	mark	_	TokenRange=200:203
+41	o	o	DET	DET	_	42	det	_	TokenRange=204:205
+42	expresidente	expresidente	NOUN	NOUN	_	43	nsubj	_	TokenRange=206:218
+43	possui	possuir	VERB	VERB	_	39	ccomp	_	TokenRange=219:225
+44	um	um	DET	DET	_	45	det	_	TokenRange=226:228
+45	exercito	exercito	NOUN	NOUN	_	43	obj	_	TokenRange=229:237
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=238:240
+47	mortadelas	_	NOUN	NOUN	_	45	nmod	_	TokenRange=241:251
+48	o	o	DET	DET	_	49	det	_	TokenRange=252:253
+49	povo	povo	NOUN	NOUN	_	50	nsubj	_	TokenRange=254:258
+50	reagiu	reagir	VERB	VERB	_	39	ccomp	_	TokenRange=259:265
+51	e	e	CCONJ	CONJ	_	54	cc	_	TokenRange=266:267
+52	comecou	comecar	AUX	AUX	_	54	aux	_	TokenRange=268:275
+53	a	_	ADP	ADP	_	54	mark	_	TokenRange=276:277
+54	cantar	cantar	VERB	VERB	_	50	conj	_	TokenRange=278:284
+55	em	em	ADP	ADP	_	56	case	_	TokenRange=285:287
+56	coro	coro	NOUN	NOUN	_	54	nmod	_	TokenRange=288:292
+57	lula	lula	NOUN	NOUN	_	59	nsubj	_	TokenRange=293:297
+58	cachaceiro	cachaceiro	NOUN	NOUN	_	59	nsubj	_	TokenRange=298:308
+59	devolve	devolver	VERB	VERB	_	54	conj	_	TokenRange=309:316
+60	o	o	DET	DET	_	62	det	_	TokenRange=317:318
+61	meu	_	DET	DET	_	62	det:poss	_	TokenRange=319:322
+62	dinheiro	dinheiro	NOUN	NOUN	_	63	obj	_	TokenRange=323:331
+63	confira	conferir	VERB	VERB	_	59	conj	_	SpacesAfter=\s\s|TokenRange=332:339
+

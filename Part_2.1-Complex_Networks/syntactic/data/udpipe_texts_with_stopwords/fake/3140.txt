@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = inteligencia do exercito brasileiro ja esta monitorando o mst para evitar quebradeiras o presidente do pt rui falcao esta conclamando a militancia vermelha para ocupar as ruas e defender o expresidente lula o site do antagonista informou que a inteligencia do exercito esta acompanhando a movimentacao do mst para evitar atos de violencia vandalismo e quebradeira assim o papel da ordem no pais estara mantido afim de proteger a populacao dos vandalos comunistas
+1	inteligencia	inteligencia	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:12
+2-3	do	_	_	_	_	_	_	_	TokenRange=13:15
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	exercito	exercito	NOUN	NOUN	_	1	nmod	_	TokenRange=16:24
+5	brasileiro	brasileiro	ADJ	ADJ	_	4	amod	_	TokenRange=25:35
+6	ja	ja	ADV	ADV	_	8	advmod	_	TokenRange=36:38
+7	esta	_	AUX	AUX	_	8	aux	_	TokenRange=39:43
+8	monitorando	monitorar	VERB	VERB	_	0	root	_	TokenRange=44:55
+9	o	o	DET	DET	_	10	det	_	TokenRange=56:57
+10	mst	mst	NOUN	NOUN	_	8	obj	_	TokenRange=58:61
+11	para	_	ADP	ADP	_	12	mark	_	TokenRange=62:66
+12	evitar	evitar	VERB	VERB	_	8	advcl	_	TokenRange=67:73
+13	quebradeiras	quebradeira	NOUN	NOUN	_	12	obj	_	TokenRange=74:86
+14	o	o	DET	DET	_	15	det	_	TokenRange=87:88
+15	presidente	presidente	NOUN	NOUN	_	22	nsubj	_	TokenRange=89:99
+16-17	do	_	_	_	_	_	_	_	TokenRange=100:102
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pt	_	NOUN	NOUN	_	15	nmod	_	TokenRange=103:105
+19	rui	rui	NOUN	NOUN	_	15	appos	_	TokenRange=106:109
+20	falcao	_	NOUN	NOUN	_	19	flat	_	TokenRange=110:116
+21	esta	_	AUX	AUX	_	22	aux	_	TokenRange=117:121
+22	conclamando	conclamar	VERB	VERB	_	8	parataxis	_	TokenRange=122:133
+23	a	o	DET	DET	_	24	det	_	TokenRange=134:135
+24	militancia	militancia	NOUN	NOUN	_	22	obj	_	TokenRange=136:146
+25	vermelha	vermelho	ADJ	ADJ	_	24	amod	_	TokenRange=147:155
+26	para	_	ADP	ADP	_	27	mark	_	TokenRange=156:160
+27	ocupar	ocupar	VERB	VERB	_	22	advcl	_	TokenRange=161:167
+28	as	o	DET	DET	_	29	det	_	TokenRange=168:170
+29	ruas	rua	NOUN	NOUN	_	27	obj	_	TokenRange=171:175
+30	e	e	CCONJ	CONJ	_	31	cc	_	TokenRange=176:177
+31	defender	defender	VERB	VERB	_	27	conj	_	TokenRange=178:186
+32	o	o	DET	DET	_	33	det	_	TokenRange=187:188
+33	expresidente	expresidente	NOUN	NOUN	_	31	obj	_	TokenRange=189:201
+34	lula	lula	ADJ	ADJ	_	33	amod	_	TokenRange=202:206
+35	o	o	DET	DET	_	36	det	_	TokenRange=207:208
+36	site	site	NOUN	NOUN	_	40	nsubj	_	TokenRange=209:213
+37-38	do	_	_	_	_	_	_	_	TokenRange=214:216
+37	de	de	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	antagonista	antagonista	NOUN	NOUN	_	36	nmod	_	TokenRange=217:228
+40	informou	informar	VERB	VERB	_	8	parataxis	_	TokenRange=229:237
+41	que	que	CCONJ	CONJ	_	48	mark	_	TokenRange=238:241
+42	a	o	DET	DET	_	43	det	_	TokenRange=242:243
+43	inteligencia	inteligencia	NOUN	NOUN	_	48	nsubj	_	TokenRange=244:256
+44-45	do	_	_	_	_	_	_	_	TokenRange=257:259
+44	de	de	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	exercito	exercito	NOUN	NOUN	_	43	nmod	_	TokenRange=260:268
+47	esta	_	AUX	AUX	_	48	aux	_	TokenRange=269:273
+48	acompanhando	acompanhar	VERB	VERB	_	40	ccomp	_	TokenRange=274:286
+49	a	o	DET	DET	_	50	det	_	TokenRange=287:288
+50	movimentacao	_	NOUN	NOUN	_	48	obj	_	TokenRange=289:301
+51-52	do	_	_	_	_	_	_	_	TokenRange=302:304
+51	de	de	ADP	ADP	_	53	case	_	_
+52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	mst	mst	NOUN	NOUN	_	50	nmod	_	TokenRange=305:308
+54	para	_	ADP	ADP	_	55	mark	_	TokenRange=309:313
+55	evitar	evitar	VERB	VERB	_	48	advcl	_	TokenRange=314:320
+56	atos	ato	NOUN	NOUN	_	55	obj	_	TokenRange=321:325
+57	de	de	ADP	ADP	_	58	case	_	TokenRange=326:328
+58	violencia	violencia	NOUN	NOUN	_	56	nmod	_	TokenRange=329:338
+59	vandalismo	vandalismo	NOUN	NOUN	_	56	appos	_	TokenRange=339:349
+60	e	e	CCONJ	CONJ	_	61	cc	_	TokenRange=350:351
+61	quebradeira	quebradeira	NOUN	NOUN	_	56	conj	_	TokenRange=352:363
+62	assim	assim	ADV	ADV	_	71	advmod	_	TokenRange=364:369
+63	o	o	DET	DET	_	64	det	_	TokenRange=370:371
+64	papel	papel	NOUN	NOUN	_	71	nsubj	_	TokenRange=372:377
+65-66	da	_	_	_	_	_	_	_	TokenRange=378:380
+65	de	de	ADP	ADP	_	67	case	_	_
+66	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	ordem	ordem	NOUN	NOUN	_	64	nmod	_	TokenRange=381:386
+68-69	no	_	_	_	_	_	_	_	TokenRange=387:389
+68	em	em	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	pais	_	NOUN	NOUN	_	64	nmod	_	TokenRange=390:394
+71	estara	estar	VERB	VERB	_	48	conj	_	TokenRange=395:401
+72	mantido	mantido	ADJ	ADJ	_	71	xcomp	_	TokenRange=402:409
+73	afim	afim	ADV	ADV	_	75	mark	_	TokenRange=410:414
+74	de	_	ADP	ADP	_	73	fixed	_	TokenRange=415:417
+75	proteger	proteger	VERB	VERB	_	71	advcl	_	TokenRange=418:426
+76	a	o	DET	DET	_	77	det	_	TokenRange=427:428
+77	populacao	populacao	NOUN	NOUN	_	75	obj	_	TokenRange=429:438
+78-79	dos	_	_	_	_	_	_	_	TokenRange=439:442
+78	de	de	ADP	ADP	_	80	case	_	_
+79	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	80	det	_	_
+80	vandalos	vandalo	NOUN	NOUN	_	77	nmod	_	TokenRange=443:451
+81	comunistas	comunista	ADJ	ADJ	_	80	amod	_	TokenRange=452:462
+

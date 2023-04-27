@@ -1,0 +1,34 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = hospital de base transforma rio preto em referencia medica no pais por ano o complexo faz quase 650 mil atendimentos que ainda tem hospital
+1	hospital	hospital	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:8
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=9:11
+3	base	base	NOUN	NOUN	_	1	nmod	_	TokenRange=12:16
+4	transforma	transformar	VERB	VERB	_	0	root	_	TokenRange=17:27
+5	rio	rio	NOUN	NOUN	_	4	obj	_	TokenRange=28:31
+6	preto	preto	ADJ	ADJ	_	5	amod	_	TokenRange=32:37
+7	em	em	ADP	ADP	_	8	case	_	TokenRange=38:40
+8	referencia	referencia	NOUN	NOUN	_	4	nmod	_	TokenRange=41:51
+9	medica	medico	ADJ	ADJ	_	8	amod	_	TokenRange=52:58
+10-11	no	_	_	_	_	_	_	_	TokenRange=59:61
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pais	_	NOUN	NOUN	_	8	nmod	_	TokenRange=62:66
+13	por	por	ADP	ADP	_	14	case	_	TokenRange=67:70
+14	ano	ano	NOUN	NOUN	_	4	nmod	_	TokenRange=71:74
+15	o	o	DET	DET	_	16	det	_	TokenRange=75:76
+16	complexo	complexo	NOUN	NOUN	_	4	nsubj	_	TokenRange=77:85
+17	faz	fazer	VERB	VERB	_	4	parataxis	_	TokenRange=86:89
+18	quase	quase	ADV	ADV	_	20	advmod	_	TokenRange=90:95
+19	650	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=96:99
+20	mil	_	NUM	NUM	NumType=Card	21	nummod	_	TokenRange=100:103
+21	atendimentos	atendimento	NOUN	NOUN	_	17	obj	_	TokenRange=104:116
+22	que	_	PRON	PRON	_	24	nsubj	_	TokenRange=117:120
+23	ainda	ainda	ADV	ADV	_	24	advmod	_	TokenRange=121:126
+24	tem	ter	VERB	VERB	_	21	acl:relcl	_	TokenRange=127:130
+25	hospital	hospital	NOUN	NOUN	_	24	obj	_	SpacesAfter=\s\s|TokenRange=131:139
+

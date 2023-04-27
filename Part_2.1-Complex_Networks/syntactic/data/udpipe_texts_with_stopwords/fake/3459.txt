@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exmarido de dilma a gente assaltava bancos e roubava quarteis para pegar armas era muito romantico segundo araujo o grupo praticou assaltos a banco roubos de caminhoes de carne alem de acoes em quarteis para pegar armas
+1	exmarido	exmarir	VERB	VERB	_	6	acl	_	TokenRange=0:8
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=9:11
+3	dilma	dilma	NOUN	NOUN	_	1	nmod	_	TokenRange=12:17
+4	a	o	DET	DET	_	5	det	_	TokenRange=18:19
+5	gente	gente	NOUN	NOUN	_	6	nsubj	_	TokenRange=20:25
+6	assaltava	assaltar	VERB	VERB	_	0	root	_	TokenRange=26:35
+7	bancos	banco	NOUN	NOUN	_	6	obj	_	TokenRange=36:42
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=43:44
+9	roubava	roubar	VERB	VERB	_	6	conj	_	TokenRange=45:52
+10	quarteis	quartei	NOUN	NOUN	_	9	obj	_	TokenRange=53:61
+11	para	_	ADP	ADP	_	12	mark	_	TokenRange=62:66
+12	pegar	pegar	VERB	VERB	_	9	advcl	_	TokenRange=67:72
+13	armas	arma	NOUN	NOUN	_	12	obj	_	TokenRange=73:78
+14	era	_	VERB	VERB	_	6	conj	_	TokenRange=79:82
+15	muito	muito	ADV	ADV	_	16	advmod	_	TokenRange=83:88
+16	romantico	romantico	ADJ	ADJ	_	14	xcomp	_	TokenRange=89:98
+17	segundo	_	ADP	ADP	_	18	case	_	TokenRange=99:106
+18	araujo	araujo	NOUN	NOUN	_	14	nmod	_	TokenRange=107:113
+19	o	o	DET	DET	_	20	det	_	TokenRange=114:115
+20	grupo	grupo	NOUN	NOUN	_	21	nsubj	_	TokenRange=116:121
+21	praticou	praticar	VERB	VERB	_	6	conj	_	TokenRange=122:130
+22	assaltos	assalto	NOUN	NOUN	_	21	obj	_	TokenRange=131:139
+23	a	_	ADP	ADP	_	24	case	_	TokenRange=140:141
+24	banco	banco	NOUN	NOUN	_	22	nmod	_	TokenRange=142:147
+25	roubos	roubo	NOUN	NOUN	_	22	appos	_	TokenRange=148:154
+26	de	de	ADP	ADP	_	27	case	_	TokenRange=155:157
+27	caminhoes	caminhoe	NOUN	NOUN	_	25	nmod	_	TokenRange=158:167
+28	de	de	ADP	ADP	_	29	case	_	TokenRange=168:170
+29	carne	carne	NOUN	NOUN	_	27	nmod	_	TokenRange=171:176
+30	alem	alem	ADV	ADV	_	21	advmod	_	TokenRange=177:181
+31	de	de	ADP	ADP	_	32	case	_	TokenRange=182:184
+32	acoes	acoe	NOUN	NOUN	_	30	nmod	_	TokenRange=185:190
+33	em	em	ADP	ADP	_	34	case	_	TokenRange=191:193
+34	quarteis	quartei	NOUN	NOUN	_	32	nmod	_	TokenRange=194:202
+35	para	_	ADP	ADP	_	36	mark	_	TokenRange=203:207
+36	pegar	pegar	VERB	VERB	_	34	nmod	_	TokenRange=208:213
+37	armas	arma	NOUN	NOUN	_	36	obj	_	SpacesAfter=\s\s|TokenRange=214:219
+

@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rr soares igreja nao tem que pagar imposto isso e coisa demoniaca viva eduardo cunha nos lutamos muito teve muita gente que lutou conosco entre elas o deputado eduardo cunha cunha votou e conseguiu nos livrar daquela cobranca exdruxula e demoniaca e safada em nome de jesus disse o missionario orem por ele porque ele e digno completou rr soares confira no video abaixo
+1	rr	_	X	X	_	20	nsubj	_	TokenRange=0:2
+2	soares	_	ADJ	ADJ	_	1	amod	_	TokenRange=3:9
+3	igreja	igreja	NOUN	NOUN	_	1	flat	_	TokenRange=10:16
+4	nao	nao	ADV	ADV	Polarity=Neg	7	advmod	_	TokenRange=17:20
+5	tem	ter	AUX	AUX	_	7	aux	_	TokenRange=21:24
+6	que	que	CCONJ	CONJ	_	7	mark	_	TokenRange=25:28
+7	pagar	pagar	VERB	VERB	_	1	acl:relcl	_	TokenRange=29:34
+8	imposto	_	NOUN	NOUN	_	7	obj	_	TokenRange=35:42
+9	isso	_	PRON	PRON	_	7	obj	_	TokenRange=43:47
+10	e	e	CCONJ	CONJ	_	11	cc	_	TokenRange=48:49
+11	coisa	coisa	NOUN	NOUN	_	9	conj	_	TokenRange=50:55
+12	demoniaca	demoniaco	ADJ	ADJ	_	11	amod	_	TokenRange=56:65
+13	viva	vivo	ADJ	ADJ	_	11	amod	_	TokenRange=66:70
+14	eduardo	eduardo	NOUN	NOUN	_	13	nsubj	_	TokenRange=71:78
+15	cunha	cunha	NOUN	NOUN	_	14	flat	_	TokenRange=79:84
+16-17	nos	_	_	_	_	_	_	_	TokenRange=85:88
+16	em	em	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	lutamos	lutamo	NOUN	NOUN	_	13	nmod	_	TokenRange=89:96
+19	muito	muito	ADV	ADV	_	20	advmod	_	TokenRange=97:102
+20	teve	ter	VERB	VERB	_	0	root	_	TokenRange=103:107
+21	muita	_	DET	DET	_	22	det	_	TokenRange=108:113
+22	gente	gente	NOUN	NOUN	_	20	obj	_	TokenRange=114:119
+23	que	_	PRON	PRON	_	24	nsubj	_	TokenRange=120:123
+24	lutou	lutar	VERB	VERB	_	22	acl:relcl	_	TokenRange=124:129
+25	conosco	_	X	ADPPRON	_	24	nmod	_	TokenRange=130:137
+26	entre	_	ADP	ADP	_	27	case	_	TokenRange=138:143
+27	elas	_	PRON	PRON	_	33	nmod	_	TokenRange=144:148
+28	o	o	DET	DET	_	29	det	_	TokenRange=149:150
+29	deputado	deputado	NOUN	NOUN	_	33	nsubj	_	TokenRange=151:159
+30	eduardo	eduardo	ADJ	ADJ	_	29	appos	_	TokenRange=160:167
+31	cunha	cunha	NOUN	NOUN	_	30	flat	_	TokenRange=168:173
+32	cunha	cunha	PROPN	ADJ	_	30	flat	_	TokenRange=174:179
+33	votou	votar	VERB	VERB	_	20	parataxis	_	TokenRange=180:185
+34	e	e	CCONJ	CONJ	_	35	cc	_	TokenRange=186:187
+35	conseguiu	conseguir	VERB	VERB	_	33	conj	_	TokenRange=188:197
+36-37	nos	_	_	_	_	_	_	_	TokenRange=198:201
+36	em	em	ADP	ADP	_	38	case	_	_
+37	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	livrar	livrar	VERB	VERB	_	35	nmod	_	TokenRange=202:208
+39	daquela	_	ADP	ADP	_	40	case	_	TokenRange=209:216
+40	cobranca	cobranca	NOUN	NOUN	_	38	nmod	_	TokenRange=217:225
+41	exdruxula	exdruxulo	ADJ	ADJ	_	40	amod	_	TokenRange=226:235
+42	e	e	CCONJ	CONJ	_	43	cc	_	TokenRange=236:237
+43	demoniaca	demoniaco	ADJ	ADJ	_	41	conj	_	TokenRange=238:247
+44	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=248:249
+45	safada	safado	ADJ	ADJ	_	41	conj	_	TokenRange=250:256
+46	em	em	ADP	ADP	_	47	case	_	TokenRange=257:259
+47	nome	nome	NOUN	NOUN	_	45	nmod	_	TokenRange=260:264
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=265:267
+49	jesus	jesus	NOUN	NOUN	_	47	nmod	_	TokenRange=268:273
+50	disse	dizer	VERB	VERB	_	33	conj	_	TokenRange=274:279
+51	o	o	DET	DET	_	52	det	_	TokenRange=280:281
+52	missionario	missionario	NOUN	NOUN	_	50	nsubj	_	TokenRange=282:293
+53	orem	_	NOUN	NOUN	_	52	appos	_	TokenRange=294:298
+54	por	por	ADP	ADP	_	55	case	_	TokenRange=299:302
+55	ele	_	PRON	PRON	_	53	nmod	_	TokenRange=303:306
+56	porque	_	CCONJ	CONJ	_	60	mark	_	TokenRange=307:313
+57	ele	_	PRON	PRON	_	60	nsubj	_	TokenRange=314:317
+58	e	e	CCONJ	CONJ	_	59	cc	_	TokenRange=318:319
+59	digno	digno	ADJ	ADJ	_	57	conj	_	TokenRange=320:325
+60	completou	completar	VERB	VERB	_	50	advcl	_	TokenRange=326:335
+61	rr	_	NOUN	NOUN	_	63	nsubj	_	TokenRange=336:338
+62	soares	_	NOUN	NOUN	_	61	flat	_	TokenRange=339:345
+63	confira	conferir	VERB	VERB	_	50	ccomp	_	TokenRange=346:353
+64-65	no	_	_	_	_	_	_	_	TokenRange=354:356
+64	em	em	ADP	ADP	_	66	case	_	_
+65	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
+66	video	video	NOUN	NOUN	_	63	nmod	_	TokenRange=357:362
+67	abaixo	abaixo	ADV	ADV	_	63	advmod	_	TokenRange=363:369
+

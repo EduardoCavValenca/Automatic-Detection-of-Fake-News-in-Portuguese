@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = alexandre garcia quase e atropelado no df ele fazia uma materia sobre educacao no transito garcia falava ao microfone e citava o respeito que os motoristas do df tem com os pedestres o reporter alexandre garcia foi fazer na uma reportagem sobre a faixa de pedestre em brasilia confiando que o motorista ia parar e quase foi atropelado quase que o global partiu dessa para melhor confira
+1	alexandre	alexandre	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:9
+2	garcia	garcia	NOUN	NOUN	_	1	flat	_	TokenRange=10:16
+3	quase	quase	ADV	ADV	_	5	advmod	_	TokenRange=17:22
+4	e	e	CCONJ	CONJ	_	5	cc	_	TokenRange=23:24
+5	atropelado	atropelar	ADJ	VERB	_	1	conj	_	TokenRange=25:35
+6-7	no	_	_	_	_	_	_	_	TokenRange=36:38
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	df	_	NOUN	NOUN	_	5	nmod	_	TokenRange=39:41
+9	ele	_	PRON	PRON	_	10	nsubj	_	TokenRange=42:45
+10	fazia	fazer	VERB	VERB	_	0	root	_	TokenRange=46:51
+11	uma	um	DET	DET	_	12	det	_	TokenRange=52:55
+12	materia	materia	NOUN	NOUN	_	10	obj	_	TokenRange=56:63
+13	sobre	_	ADP	ADP	_	14	case	_	TokenRange=64:69
+14	educacao	educacao	NOUN	NOUN	_	12	nmod	_	TokenRange=70:78
+15-16	no	_	_	_	_	_	_	_	TokenRange=79:81
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	transito	transito	NOUN	NOUN	_	14	nmod	_	TokenRange=82:90
+18	garcia	garcia	NOUN	NOUN	_	19	nsubj	_	TokenRange=91:97
+19	falava	falar	VERB	VERB	_	10	conj	_	TokenRange=98:104
+20-21	ao	_	_	_	_	_	_	_	TokenRange=105:107
+20	a	a	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	microfone	microfone	NOUN	NOUN	_	19	nmod	_	TokenRange=108:117
+23	e	e	CCONJ	CONJ	_	24	cc	_	TokenRange=118:119
+24	citava	citar	VERB	VERB	_	19	conj	_	TokenRange=120:126
+25	o	o	DET	DET	_	26	det	_	TokenRange=127:128
+26	respeito	respeito	NOUN	NOUN	_	24	obj	_	TokenRange=129:137
+27	que	_	PRON	PRON	_	33	obj	_	TokenRange=138:141
+28	os	o	DET	DET	_	29	det	_	TokenRange=142:144
+29	motoristas	motorista	NOUN	NOUN	_	33	nsubj	_	TokenRange=145:155
+30-31	do	_	_	_	_	_	_	_	TokenRange=156:158
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	df	_	NOUN	NOUN	_	29	nmod	_	TokenRange=159:161
+33	tem	ter	VERB	VERB	_	26	acl:relcl	_	TokenRange=162:165
+34	com	com	ADP	ADP	_	36	case	_	TokenRange=166:169
+35	os	o	DET	DET	_	36	det	_	TokenRange=170:172
+36	pedestres	pedestre	NOUN	NOUN	_	33	nmod	_	TokenRange=173:182
+37	o	o	DET	DET	_	38	det	_	TokenRange=183:184
+38	reporter	reporter	NOUN	NOUN	_	42	nsubj	_	TokenRange=185:193
+39	alexandre	alexandre	NOUN	NOUN	_	38	appos	_	TokenRange=194:203
+40	garcia	garcia	ADJ	NOUN	_	39	flat	_	TokenRange=204:210
+41	foi	_	AUX	AUX	_	42	aux	_	TokenRange=211:214
+42	fazer	fazer	VERB	VERB	_	10	conj	_	TokenRange=215:220
+43-44	na	_	_	_	_	_	_	_	TokenRange=221:223
+43	em	em	ADP	ADP	_	46	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	uma	um	DET	DET	_	46	det	_	TokenRange=224:227
+46	reportagem	reportagem	NOUN	NOUN	_	42	nmod	_	TokenRange=228:238
+47	sobre	_	ADP	ADP	_	49	case	_	TokenRange=239:244
+48	a	o	DET	DET	_	49	det	_	TokenRange=245:246
+49	faixa	faixa	NOUN	NOUN	_	46	nmod	_	TokenRange=247:252
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=253:255
+51	pedestre	pedestre	NOUN	NOUN	_	49	nmod	_	TokenRange=256:264
+52	em	em	ADP	ADP	_	53	case	_	TokenRange=265:267
+53	brasilia	brasilia	NOUN	NOUN	_	49	nmod	_	TokenRange=268:276
+54	confiando	confiar	VERB	VERB	_	42	acl	_	TokenRange=277:286
+55	que	que	CCONJ	CONJ	_	59	mark	_	TokenRange=287:290
+56	o	o	DET	DET	_	57	det	_	TokenRange=291:292
+57	motorista	motorista	NOUN	NOUN	_	59	nsubj	_	TokenRange=293:302
+58	ia	ir	AUX	AUX	_	59	aux	_	TokenRange=303:305
+59	parar	parar	VERB	VERB	_	54	ccomp	_	TokenRange=306:311
+60	e	e	CCONJ	CONJ	_	63	cc	_	TokenRange=312:313
+61	quase	quase	ADV	ADV	_	63	advmod	_	TokenRange=314:319
+62	foi	_	AUX	AUX	_	63	aux:pass	_	TokenRange=320:323
+63	atropelado	atropelar	VERB	VERB	_	59	conj	_	TokenRange=324:334
+64	quase	quase	ADV	ADV	_	72	advmod	_	TokenRange=335:340
+65	que	_	CCONJ	CONJ	_	72	mark	_	TokenRange=341:344
+66	o	o	DET	DET	_	67	det	_	TokenRange=345:346
+67	global	global	NOUN	NOUN	_	68	nsubj	_	TokenRange=347:353
+68	partiu	partir	VERB	VERB	_	63	advcl	_	TokenRange=354:360
+69	dessa	_	X	ADPPRON	_	68	nmod	_	TokenRange=361:366
+70	para	_	ADP	ADP	_	71	mark	_	TokenRange=367:371
+71	melhor	melhor	ADV	ADV	_	72	nmod	_	TokenRange=372:378
+72	confira	conferir	VERB	VERB	_	63	advcl	_	TokenRange=379:386
+

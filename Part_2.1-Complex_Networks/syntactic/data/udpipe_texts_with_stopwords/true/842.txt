@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = autora de livro peppa fala sobre acusacao de racismo crime que nao cometi livro de silvana rando foi retirado do acervo da editora apos polemica na internet autora de sorocaba sp diz que foi alvo de ataques nas redes sociais sensacao e de fazer uma coisa
+1	autora	autor	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:6
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=7:9
+3	livro	livro	NOUN	NOUN	_	1	nmod	_	TokenRange=10:15
+4	peppa	_	NOUN	NOUN	_	1	appos	_	TokenRange=16:21
+5	fala	_	VERB	VERB	_	0	root	_	TokenRange=22:26
+6	sobre	_	ADP	ADP	_	7	case	_	TokenRange=27:32
+7	acusacao	acusacao	NOUN	NOUN	_	5	nmod	_	TokenRange=33:41
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=42:44
+9	racismo	racismo	NOUN	NOUN	_	7	nmod	_	TokenRange=45:52
+10	crime	crime	NOUN	NOUN	_	9	appos	_	TokenRange=53:58
+11	que	_	PRON	PRON	_	13	nsubj	_	TokenRange=59:62
+12	nao	nao	ADV	ADV	Polarity=Neg	13	advmod	_	TokenRange=63:66
+13	cometi	cometir	VERB	VERB	_	10	acl:relcl	_	TokenRange=67:73
+14	livro	livro	NOUN	NOUN	_	13	obj	_	TokenRange=74:79
+15	de	de	ADP	ADP	_	16	case	_	TokenRange=80:82
+16	silvana	silvano	NOUN	NOUN	_	14	nmod	_	TokenRange=83:90
+17	rando	rando	NOUN	NOUN	_	16	flat	_	TokenRange=91:96
+18	foi	_	AUX	AUX	_	19	aux:pass	_	TokenRange=97:100
+19	retirado	retirar	VERB	VERB	_	5	parataxis	_	TokenRange=101:109
+20-21	do	_	_	_	_	_	_	_	TokenRange=110:112
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	acervo	acervo	NOUN	NOUN	_	19	nmod	_	TokenRange=113:119
+23-24	da	_	_	_	_	_	_	_	TokenRange=120:122
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	editora	_	NOUN	NOUN	_	22	nmod	_	TokenRange=123:130
+26	apos	_	ADP	ADP	_	27	case	_	TokenRange=131:135
+27	polemica	_	NOUN	NOUN	_	19	nmod	_	TokenRange=136:144
+28-29	na	_	_	_	_	_	_	_	TokenRange=145:147
+28	em	em	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	internet	_	PROPN	PNOUN	_	27	nmod	_	TokenRange=148:156
+31	autora	autor	NOUN	NOUN	_	35	nsubj	_	TokenRange=157:163
+32	de	de	ADP	ADP	_	33	case	_	TokenRange=164:166
+33	sorocaba	sorocaba	NOUN	NOUN	_	31	nmod	_	TokenRange=167:175
+34	sp	_	PART	PRT	_	33	appos	_	TokenRange=176:178
+35	diz	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=179:182
+36	que	que	CCONJ	CONJ	_	38	mark	_	TokenRange=183:186
+37	foi	_	AUX	AUX	_	38	cop	_	TokenRange=187:190
+38	alvo	alvo	NOUN	NOUN	_	35	ccomp	_	TokenRange=191:195
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=196:198
+40	ataques	ataque	NOUN	NOUN	_	38	nmod	_	TokenRange=199:206
+41-42	nas	_	_	_	_	_	_	_	TokenRange=207:210
+41	em	em	ADP	ADP	_	43	case	_	_
+42	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	redes	rede	NOUN	NOUN	_	40	nmod	_	TokenRange=211:216
+44	sociais	social	ADJ	ADJ	_	43	amod	_	TokenRange=217:224
+45	sensacao	sensacao	NOUN	NOUN	_	38	appos	_	TokenRange=225:233
+46	e	e	CCONJ	CONJ	_	48	cc	_	TokenRange=234:235
+47	de	_	ADP	ADP	_	48	mark	_	TokenRange=236:238
+48	fazer	fazer	VERB	VERB	_	45	conj	_	TokenRange=239:244
+49	uma	um	DET	DET	_	50	det	_	TokenRange=245:248
+50	coisa	coisa	NOUN	NOUN	_	48	obj	_	SpacesAfter=\s\s|TokenRange=249:254
+

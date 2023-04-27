@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = fato historico sergio moro foi ovacionado ao votar ate o presidente da sessao parou para aplaudir o juiz nao era pra menos ao chegar em sua zona eleitoral para votar o juiz federal sergio moro foi ovacionado pelos eleitores presentes moto votou em um clube no bairro bacacheri em curitiba o juiz foi aplaudido por jornalistas pelos mesarios e ate pelo presidente da sessao
+1	fato	fato	NOUN	NOUN	_	6	parataxis	_	TokenRange=0:4
+2	historico	historico	ADJ	ADJ	_	1	amod	_	TokenRange=5:14
+3	sergio	_	NOUN	NOUN	_	1	appos	_	TokenRange=15:21
+4	moro	moro	NOUN	NOUN	_	3	flat	_	TokenRange=22:26
+5	foi	_	AUX	AUX	_	6	aux:pass	_	TokenRange=27:30
+6	ovacionado	ovacionar	VERB	VERB	_	0	root	_	TokenRange=31:41
+7-8	ao	_	_	_	_	_	_	_	TokenRange=42:44
+7	a	a	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	votar	votar	VERB	VERB	_	6	advcl	_	TokenRange=45:50
+10	ate	_	CCONJ	CONJ	_	16	mark	_	TokenRange=51:54
+11	o	o	DET	DET	_	12	det	_	TokenRange=55:56
+12	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=57:67
+13-14	da	_	_	_	_	_	_	_	TokenRange=68:70
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	sessao	sessao	NOUN	NOUN	_	12	nmod	_	TokenRange=71:77
+16	parou	parar	VERB	VERB	_	9	ccomp	_	TokenRange=78:83
+17	para	_	ADP	ADP	_	18	mark	_	TokenRange=84:88
+18	aplaudir	aplaudir	VERB	VERB	_	16	advcl	_	TokenRange=89:97
+19	o	o	DET	DET	_	20	det	_	TokenRange=98:99
+20	juiz	juiz	NOUN	NOUN	_	18	obj	_	TokenRange=100:104
+21	nao	nao	ADV	ADV	Polarity=Neg	22	advmod	_	TokenRange=105:108
+22	era	_	VERB	VERB	_	18	ccomp	_	TokenRange=109:112
+23	pra	_	ADP	ADP	_	24	mark	_	TokenRange=113:116
+24	menos	menos	ADV	ADV	_	22	nmod	_	TokenRange=117:122
+25-26	ao	_	_	_	_	_	_	_	TokenRange=123:125
+25	a	a	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	chegar	chegar	VERB	VERB	_	22	advcl	_	TokenRange=126:132
+28	em	em	ADP	ADP	_	30	case	_	TokenRange=133:135
+29	sua	_	DET	DET	_	30	det:poss	_	TokenRange=136:139
+30	zona	zona	NOUN	NOUN	_	27	nmod	_	TokenRange=140:144
+31	eleitoral	eleitoral	ADJ	ADJ	_	30	amod	_	TokenRange=145:154
+32	para	_	ADP	ADP	_	33	mark	_	TokenRange=155:159
+33	votar	votar	VERB	VERB	_	27	advcl	_	TokenRange=160:165
+34	o	o	DET	DET	_	35	det	_	TokenRange=166:167
+35	juiz	juiz	NOUN	NOUN	_	33	obj	_	TokenRange=168:172
+36	federal	federal	ADJ	ADJ	_	35	amod	_	TokenRange=173:180
+37	sergio	sergio	NOUN	NOUN	_	35	appos	_	TokenRange=181:187
+38	moro	moro	NOUN	NOUN	_	35	flat	_	TokenRange=188:192
+39	foi	_	AUX	AUX	_	40	aux:pass	_	TokenRange=193:196
+40	ovacionado	ovacionar	VERB	VERB	_	22	conj	_	TokenRange=197:207
+41-42	pelos	_	_	_	_	_	_	_	TokenRange=208:213
+41	por	por	ADP	ADP	_	43	case	_	_
+42	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	eleitores	eleitor	NOUN	NOUN	_	40	nmod	_	TokenRange=214:223
+44	presentes	presente	ADJ	ADJ	_	43	amod	_	TokenRange=224:233
+45	moto	moto	NOUN	NOUN	_	46	nsubj	_	TokenRange=234:238
+46	votou	votar	VERB	VERB	_	40	conj	_	TokenRange=239:244
+47	em	em	ADP	ADP	_	49	case	_	TokenRange=245:247
+48	um	um	DET	DET	_	49	det	_	TokenRange=248:250
+49	clube	clube	NOUN	NOUN	_	46	nmod	_	TokenRange=251:256
+50-51	no	_	_	_	_	_	_	_	TokenRange=257:259
+50	em	em	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	bairro	bairro	NOUN	NOUN	_	46	nmod	_	TokenRange=260:266
+53	bacacheri	_	NOUN	NOUN	_	52	appos	_	TokenRange=267:276
+54	em	em	ADP	ADP	_	55	case	_	TokenRange=277:279
+55	curitiba	curitiba	NOUN	NOUN	_	46	nmod	_	TokenRange=280:288
+56	o	o	DET	DET	_	57	det	_	TokenRange=289:290
+57	juiz	juiz	NOUN	NOUN	_	59	nsubj:pass	_	TokenRange=291:295
+58	foi	_	AUX	AUX	_	59	aux:pass	_	TokenRange=296:299
+59	aplaudido	aplaudir	VERB	VERB	_	6	parataxis	_	TokenRange=300:309
+60	por	por	ADP	ADP	_	61	case	_	TokenRange=310:313
+61	jornalistas	jornalista	NOUN	NOUN	_	59	nmod	_	TokenRange=314:325
+62-63	pelos	_	_	_	_	_	_	_	TokenRange=326:331
+62	por	por	ADP	ADP	_	64	case	_	_
+63	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	64	det	_	_
+64	mesarios	mesario	NOUN	NOUN	_	61	nmod	_	TokenRange=332:340
+65	e	e	CCONJ	CONJ	_	69	cc	_	TokenRange=341:342
+66	ate	ate	ADV	ADV	_	69	advmod	_	TokenRange=343:346
+67-68	pelo	_	_	_	_	_	_	_	TokenRange=347:351
+67	por	por	ADP	ADP	_	69	case	_	_
+68	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+69	presidente	presidente	NOUN	NOUN	_	61	conj	_	TokenRange=352:362
+70-71	da	_	_	_	_	_	_	_	TokenRange=363:365
+70	de	de	ADP	ADP	_	72	case	_	_
+71	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+72	sessao	sessao	NOUN	NOUN	_	69	nmod	_	TokenRange=366:372
+

@@ -1,0 +1,18 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = stf nega pedido de liberdade de exdeputado eduardo cunha peemedebista
+1	stf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	nega	negar	VERB	VERB	_	0	root	_	TokenRange=4:8
+3	pedido	pedido	NOUN	NOUN	_	2	obj	_	TokenRange=9:15
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=16:18
+5	liberdade	liberdade	NOUN	NOUN	_	3	nmod	_	TokenRange=19:28
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=29:31
+7	exdeputado	exdeputado	NOUN	NOUN	_	3	nmod	_	TokenRange=32:42
+8	eduardo	eduardo	NOUN	NOUN	_	7	appos	_	TokenRange=43:50
+9	cunha	cunha	NOUN	NOUN	_	10	flat	_	TokenRange=51:56
+10	peemedebista	peemedebista	NOUN	NOUN	_	8	amod	_	SpacesAfter=\s\s|TokenRange=57:69
+

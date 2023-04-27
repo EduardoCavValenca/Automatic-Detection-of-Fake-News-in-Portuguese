@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = artes que usam tela como suporte sao foco de evento gratuito na unb no df nomes internacionais como o diretor do museu de arte contemporanea de lyon na franca vao
+1	artes	arte	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:5
+2	que	_	PRON	PRON	_	3	nsubj	_	TokenRange=6:9
+3	usam	usar	VERB	VERB	_	1	acl:relcl	_	TokenRange=10:14
+4	tela	tela	NOUN	NOUN	_	3	obj	_	TokenRange=15:19
+5	como	como	ADP	ADP	_	6	case	_	TokenRange=20:24
+6	suporte	suporte	NOUN	NOUN	_	3	nmod	_	TokenRange=25:32
+7	sao	_	AUX	AUX	_	8	cop	_	TokenRange=33:36
+8	foco	foco	NOUN	NOUN	_	0	root	_	TokenRange=37:41
+9	de	de	ADP	ADP	_	10	case	_	TokenRange=42:44
+10	evento	evento	NOUN	NOUN	_	8	nmod	_	TokenRange=45:51
+11	gratuito	gratuito	ADJ	ADJ	_	10	amod	_	TokenRange=52:60
+12-13	na	_	_	_	_	_	_	_	TokenRange=61:63
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	unb	_	NOUN	NOUN	_	8	nmod	_	TokenRange=64:67
+15-16	no	_	_	_	_	_	_	_	TokenRange=68:70
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	df	_	NOUN	NOUN	_	14	nmod	_	TokenRange=71:73
+18	nomes	nome	NOUN	NOUN	_	8	nsubj	_	TokenRange=74:79
+19	internacionais	internacional	ADJ	ADJ	_	18	amod	_	TokenRange=80:94
+20	como	como	ADP	ADP	_	22	case	_	TokenRange=95:99
+21	o	o	DET	DET	_	22	det	_	TokenRange=100:101
+22	diretor	diretor	NOUN	NOUN	_	18	nmod	_	TokenRange=102:109
+23-24	do	_	_	_	_	_	_	_	TokenRange=110:112
+23	de	de	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	museu	museu	NOUN	NOUN	_	22	nmod	_	TokenRange=113:118
+26	de	de	ADP	ADP	_	27	case	_	TokenRange=119:121
+27	arte	arte	NOUN	NOUN	_	25	nmod	_	TokenRange=122:126
+28	contemporanea	contemporaneo	ADJ	ADJ	_	27	amod	_	TokenRange=127:140
+29	de	de	ADP	ADP	_	30	case	_	TokenRange=141:143
+30	lyon	_	NOUN	NOUN	_	25	nmod	_	TokenRange=144:148
+31-32	na	_	_	_	_	_	_	_	TokenRange=149:151
+31	em	em	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	franca	_	NOUN	NOUN	_	25	nmod	_	TokenRange=152:158
+34	vao	ir	VERB	AUX	_	8	cop	_	SpacesAfter=\s\s|TokenRange=159:162
+

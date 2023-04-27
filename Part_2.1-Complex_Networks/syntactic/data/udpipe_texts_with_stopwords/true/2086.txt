@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = morre flavio gikovate psiquiatra e escritor ele tinha 73 anos e lutava desde abril contra um cancer ha um mes lancou para ser feliz no amor medico psiquiatra psicoterapeuta conferencista e escritor favio gikovate morreu ontem 13 as 18h30 depois de uma curta batalha contra um cancer de pancreas descoberto em abril ele estava internado desde o inicio da semana passada autor de inumeros livros que se tornaram bestsellers ele apresentava o programa no diva do gikovate na
+1	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	flavio	flavio	ADJ	ADJ	_	3	amod	_	TokenRange=6:12
+3	gikovate	gikovate	NOUN	NOUN	_	1	nsubj	_	TokenRange=13:21
+4	psiquiatra	_	NOUN	NOUN	_	3	appos	_	TokenRange=22:32
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=33:34
+6	escritor	escritor	NOUN	NOUN	_	4	conj	_	TokenRange=35:43
+7	ele	_	PRON	PRON	_	8	nsubj	_	TokenRange=44:47
+8	tinha	ter	VERB	VERB	_	1	ccomp	_	TokenRange=48:53
+9	73	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=54:56
+10	anos	ano	NOUN	NOUN	_	8	obj	_	TokenRange=57:61
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=62:63
+12	lutava	lutar	VERB	VERB	_	8	conj	_	TokenRange=64:70
+13	desde	_	ADP	ADP	_	14	case	_	TokenRange=71:76
+14	abril	_	PROPN	PNOUN	_	12	nmod	_	TokenRange=77:82
+15	contra	_	ADP	ADP	_	17	case	_	TokenRange=83:89
+16	um	um	DET	DET	_	17	det	_	TokenRange=90:92
+17	cancer	cancer	NOUN	NOUN	_	12	nmod	_	TokenRange=93:99
+18	ha	_	VERB	VERB	_	21	advcl	_	TokenRange=100:102
+19	um	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=103:105
+20	mes	mes	NOUN	NOUN	_	18	nmod	_	TokenRange=106:109
+21	lancou	lancar	VERB	VERB	_	8	conj	_	TokenRange=110:116
+22	para	_	ADP	ADP	_	23	mark	_	TokenRange=117:121
+23	ser	ser	VERB	VERB	_	21	nmod	_	TokenRange=122:125
+24	feliz	feliz	ADJ	ADJ	_	23	xcomp	_	TokenRange=126:131
+25-26	no	_	_	_	_	_	_	_	TokenRange=132:134
+25	em	em	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	amor	amor	NOUN	NOUN	_	24	nmod	_	TokenRange=135:139
+28	medico	medico	ADJ	ADJ	_	27	amod	_	TokenRange=140:146
+29	psiquiatra	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=147:157
+30	psicoterapeuta	psicoterapeuta	NOUN	NOUN	_	29	flat	_	TokenRange=158:172
+31	conferencista	conferencista	ADJ	ADJ	_	29	amod	_	TokenRange=173:186
+32	e	e	CCONJ	CONJ	_	33	cc	_	TokenRange=187:188
+33	escritor	escritor	NOUN	NOUN	_	31	conj	_	TokenRange=189:197
+34	favio	_	ADJ	ADJ	_	29	appos	_	TokenRange=198:203
+35	gikovate	gikovate	NOUN	NOUN	_	34	flat	_	TokenRange=204:212
+36	morreu	morrer	VERB	VERB	_	1	conj	_	TokenRange=213:219
+37	ontem	ontem	ADV	ADV	_	36	advmod	_	TokenRange=220:225
+38	13	_	NUM	NUM	NumType=Card	36	nmod	_	TokenRange=226:228
+39	as	o	DET	DET	_	40	det	_	TokenRange=229:231
+40	18h30	_	NUM	NUM	NumType=Card	38	nmod	_	TokenRange=232:237
+41	depois	depois	ADV	ADV	_	45	case	_	TokenRange=238:244
+42	de	_	ADP	ADP	_	41	fixed	_	TokenRange=245:247
+43	uma	um	DET	DET	_	45	det	_	TokenRange=248:251
+44	curta	curto	ADJ	ADJ	_	45	amod	_	TokenRange=252:257
+45	batalha	batalha	NOUN	NOUN	_	36	nmod	_	TokenRange=258:265
+46	contra	_	ADP	ADP	_	48	case	_	TokenRange=266:272
+47	um	um	DET	DET	_	48	det	_	TokenRange=273:275
+48	cancer	cancer	NOUN	NOUN	_	45	nmod	_	TokenRange=276:282
+49	de	de	ADP	ADP	_	50	case	_	TokenRange=283:285
+50	pancreas	_	NOUN	NOUN	_	48	nmod	_	TokenRange=286:294
+51	descoberto	descobrir	VERB	VERB	_	48	acl	_	TokenRange=295:305
+52	em	em	ADP	ADP	_	53	case	_	TokenRange=306:308
+53	abril	_	PROPN	PNOUN	_	51	nmod	_	TokenRange=309:314
+54	ele	_	PRON	PRON	_	55	nsubj	_	TokenRange=315:318
+55	estava	estar	VERB	VERB	_	36	parataxis	_	TokenRange=319:325
+56	internado	internado	ADJ	ADJ	_	55	xcomp	_	TokenRange=326:335
+57	desde	_	ADP	ADP	_	59	case	_	TokenRange=336:341
+58	o	o	DET	DET	_	59	det	_	TokenRange=342:343
+59	inicio	_	NOUN	NOUN	_	55	nmod	_	TokenRange=344:350
+60-61	da	_	_	_	_	_	_	_	TokenRange=351:353
+60	de	de	ADP	ADP	_	62	case	_	_
+61	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+62	semana	semana	NOUN	NOUN	_	59	nmod	_	TokenRange=354:360
+63	passada	passado	ADJ	ADJ	_	62	amod	_	TokenRange=361:368
+64	autor	autor	NOUN	NOUN	_	55	nsubj	_	TokenRange=369:374
+65	de	de	ADP	ADP	_	67	case	_	TokenRange=375:377
+66	inumeros	inumero	ADJ	ADJ	_	67	amod	_	TokenRange=378:386
+67	livros	livro	NOUN	NOUN	_	64	nmod	_	TokenRange=387:393
+68	que	_	PRON	PRON	_	70	nsubj	_	TokenRange=394:397
+69	se	_	PART	PRT	_	71	expl:pv	_	TokenRange=398:400
+70	tornaram	tornar	VERB	VERB	_	67	acl:relcl	_	TokenRange=401:409
+71	bestsellers	bestseller	ADJ	ADJ	_	67	acl:relcl	_	TokenRange=410:421
+72	ele	_	PRON	PRON	_	73	nsubj	_	TokenRange=422:425
+73	apresentava	apresentar	VERB	VERB	_	55	parataxis	_	TokenRange=426:437
+74	o	o	DET	DET	_	75	det	_	TokenRange=438:439
+75	programa	programa	NOUN	NOUN	_	73	obj	_	TokenRange=440:448
+76-77	no	_	_	_	_	_	_	_	TokenRange=449:451
+76	em	em	ADP	ADP	_	78	case	_	_
+77	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	78	det	_	_
+78	diva	diva	NOUN	NOUN	_	73	nmod	_	TokenRange=452:456
+79-80	do	_	_	_	_	_	_	_	TokenRange=457:459
+79	de	de	ADP	ADP	_	81	case	_	_
+80	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	81	det	_	_
+81	gikovate	gikovate	NOUN	NOUN	_	78	nmod	_	TokenRange=460:468
+82-83	na	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=469:471
+82	em	em	ADP	ADP	_	78	case	_	_
+83	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	78	det	_	_
+

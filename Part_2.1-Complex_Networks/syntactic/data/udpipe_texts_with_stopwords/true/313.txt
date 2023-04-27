@@ -1,0 +1,26 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = samarco prorroga layoff de cerca de 800 funcionarios suspensao temporaria dos contratos de trabalho comecou em
+1	samarco	samarco	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	prorroga	prorrogar	VERB	VERB	_	0	root	_	TokenRange=8:16
+3	layoff	_	NOUN	NOUN	_	2	obj	_	TokenRange=17:23
+4	de	de	ADP	ADP	_	8	case	_	TokenRange=24:26
+5	cerca	cerca	ADV	ADV	_	7	advmod	_	TokenRange=27:32
+6	de	de	ADP	ADP	_	5	case	_	TokenRange=33:35
+7	800	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=36:39
+8	funcionarios	funcionario	NOUN	NOUN	_	3	nmod	_	TokenRange=40:52
+9	suspensao	suspensao	NOUN	NOUN	_	16	nsubj	_	TokenRange=53:62
+10	temporaria	temporaria	NOUN	NOUN	_	9	amod	_	TokenRange=63:73
+11-12	dos	_	_	_	_	_	_	_	TokenRange=74:77
+11	de	de	ADP	ADP	_	13	case	_	_
+12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	contratos	contrato	NOUN	NOUN	_	9	nmod	_	TokenRange=78:87
+14	de	de	ADP	ADP	_	15	case	_	TokenRange=88:90
+15	trabalho	trabalho	NOUN	NOUN	_	13	nmod	_	TokenRange=91:99
+16	comecou	comecar	VERB	VERB	_	2	parataxis	_	TokenRange=100:107
+17	em	em	ADP	ADP	_	8	case	_	SpacesAfter=\s\s|TokenRange=108:110
+

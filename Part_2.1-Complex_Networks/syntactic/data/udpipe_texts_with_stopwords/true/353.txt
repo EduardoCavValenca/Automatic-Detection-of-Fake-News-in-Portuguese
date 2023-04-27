@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = papa pede que europa seja mais ativa no combate ao antissemitismo a indiferenca e um virus que e perigosamente contagioso em nosso tempo afirmou o pontifice o papa francisco pediu nesta segundafeira 29 que paises europeus facam mais para combater o antissemitismo dizendo que a indiferenca e um virus que pode permitir que ideias de odio racial se espalhem francisco se pronunciou durante discurso em
+1	papa	papa	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	que	que	CCONJ	CONJ	_	5	mark	_	TokenRange=10:13
+4	europa	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=14:20
+5	seja	ser	VERB	VERB	_	2	ccomp	_	TokenRange=21:25
+6	mais	mais	ADV	ADV	_	7	advmod	_	TokenRange=26:30
+7	ativa	ativo	ADJ	ADJ	_	5	xcomp	_	TokenRange=31:36
+8-9	no	_	_	_	_	_	_	_	TokenRange=37:39
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	combate	combate	NOUN	NOUN	_	7	nmod	_	TokenRange=40:47
+11-12	ao	_	_	_	_	_	_	_	TokenRange=48:50
+11	a	a	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	antissemitismo	antissemitismo	NOUN	NOUN	_	10	nmod	_	TokenRange=51:65
+14	a	o	DET	DET	_	15	det	_	TokenRange=66:67
+15	indiferenca	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=68:79
+16	e	e	CCONJ	CONJ	_	18	cc	_	TokenRange=80:81
+17	um	um	DET	DET	_	18	det	_	TokenRange=82:84
+18	virus	virus	NOUN	NOUN	_	15	conj	_	TokenRange=85:90
+19	que	_	PRON	PRON	_	22	nsubj	_	TokenRange=91:94
+20	e	_	CCONJ	CONJ	_	22	cc	_	TokenRange=95:96
+21	perigosamente	perigosamente	ADV	ADV	_	22	advmod	_	TokenRange=97:110
+22	contagioso	contagioso	ADJ	ADJ	_	18	amod	_	TokenRange=111:121
+23	em	em	ADP	ADP	_	25	case	_	TokenRange=122:124
+24	nosso	_	DET	DET	_	25	det:poss	_	TokenRange=125:130
+25	tempo	tempo	NOUN	NOUN	_	22	nmod	_	TokenRange=131:136
+26	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=137:144
+27	o	o	DET	DET	_	28	det	_	TokenRange=145:146
+28	pontifice	pontifice	NOUN	NOUN	_	26	nsubj	_	TokenRange=147:156
+29	o	o	DET	DET	_	30	det	_	TokenRange=157:158
+30	papa	papa	NOUN	NOUN	_	32	nsubj	_	TokenRange=159:163
+31	francisco	francisco	ADJ	ADJ	_	30	amod	_	TokenRange=164:173
+32	pediu	pedir	VERB	VERB	_	2	parataxis	_	TokenRange=174:179
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=180:185
+34	segundafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=186:198
+35	29	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=199:201
+36	que	que	CCONJ	CONJ	_	39	mark	_	TokenRange=202:205
+37	paises	paise	NOUN	NOUN	_	39	nsubj	_	TokenRange=206:212
+38	europeus	europeu	ADJ	ADJ	_	37	amod	_	TokenRange=213:221
+39	facam	facar	VERB	VERB	_	32	ccomp	_	TokenRange=222:227
+40	mais	mais	ADV	ADV	_	39	advmod	_	TokenRange=228:232
+41	para	_	ADP	ADP	_	42	mark	_	TokenRange=233:237
+42	combater	combater	VERB	VERB	_	39	advcl	_	TokenRange=238:246
+43	o	o	DET	DET	_	44	det	_	TokenRange=247:248
+44	antissemitismo	antissemitismo	NOUN	NOUN	_	42	obj	_	TokenRange=249:263
+45	dizendo	dizer	VERB	VERB	_	39	acl	_	TokenRange=264:271
+46	que	que	CCONJ	CONJ	_	51	mark	_	TokenRange=272:275
+47	a	o	DET	DET	_	48	det	_	TokenRange=276:277
+48	indiferenca	_	NOUN	NOUN	_	51	nsubj	_	TokenRange=278:289
+49	e	e	CCONJ	AUX	_	51	cc	_	TokenRange=290:291
+50	um	um	DET	DET	_	51	det	_	TokenRange=292:294
+51	virus	virus	NOUN	NOUN	_	45	ccomp	_	TokenRange=295:300
+52	que	_	PRON	PRON	_	54	nsubj	_	TokenRange=301:304
+53	pode	_	AUX	AUX	_	54	aux	_	TokenRange=305:309
+54	permitir	permitir	VERB	VERB	_	51	acl:relcl	_	TokenRange=310:318
+55	que	que	CCONJ	CONJ	_	61	mark	_	TokenRange=319:322
+56	ideias	ideia	NOUN	NOUN	_	61	nsubj	_	TokenRange=323:329
+57	de	de	ADP	ADP	_	58	case	_	TokenRange=330:332
+58	odio	odio	NOUN	NOUN	_	56	nmod	_	TokenRange=333:337
+59	racial	racial	ADJ	ADJ	_	58	amod	_	TokenRange=338:344
+60	se	_	PRON	PRON	_	61	expl:pv	_	TokenRange=345:347
+61	espalhem	espalhar	VERB	VERB	_	54	ccomp	_	TokenRange=348:356
+62	francisco	francisco	NOUN	NOUN	_	61	nsubj	_	TokenRange=357:366
+63	se	_	PRON	PRON	_	64	obj	_	TokenRange=367:369
+64	pronunciou	pronunciar	VERB	VERB	_	45	ccomp	_	TokenRange=370:380
+65	durante	_	ADP	ADP	_	66	case	_	TokenRange=381:388
+66	discurso	discurso	NOUN	NOUN	_	64	nmod	_	TokenRange=389:397
+67	em	em	ADP	ADP	_	66	case	_	SpacesAfter=\s\s|TokenRange=398:400
+

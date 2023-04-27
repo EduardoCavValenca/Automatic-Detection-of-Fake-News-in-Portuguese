@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria anuncia boni beltrame e uip como conselheiros da prefeitura de sp trio vai presidir conselhos de secretarias de cultura seguranca e saude respectivamente prefeito eleito anunciou ultimos secretarios nesta quinta o prefeito eleito de sao paulo joao doria psdb anunciou nesta quintafeira 24 o nome de mais oito especialistas que vao presidir os conselhos gestores que ele pretende implementar em cada uma de suas 22 secretarias municipais entre eles estao o publicitario e diretor de televisao jose bonifacio de oliveira sobrinho o boni
+1	doria	doria	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	anuncia	anunciar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	boni	_	NOUN	NOUN	_	2	obj	_	TokenRange=14:18
+4	beltrame	beltrame	NOUN	NOUN	_	3	flat	_	TokenRange=19:27
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=28:29
+6	uip	_	NOUN	NOUN	_	3	conj	_	TokenRange=30:33
+7	como	como	ADP	ADP	_	8	case	_	TokenRange=34:38
+8	conselheiros	conselheiro	NOUN	NOUN	_	2	nmod	_	TokenRange=39:51
+9-10	da	_	_	_	_	_	_	_	TokenRange=52:54
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	prefeitura	prefeitura	NOUN	NOUN	_	8	nmod	_	TokenRange=55:65
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=66:68
+13	sp	sp	NOUN	NOUN	_	11	nmod	_	TokenRange=69:71
+14	trio	trio	NOUN	NOUN	_	16	nsubj	_	TokenRange=72:76
+15	vai	ir	AUX	AUX	_	16	aux	_	TokenRange=77:80
+16	presidir	presidir	VERB	VERB	_	2	ccomp	_	TokenRange=81:89
+17	conselhos	conselho	NOUN	NOUN	_	16	obj	_	TokenRange=90:99
+18	de	de	ADP	ADP	_	19	case	_	TokenRange=100:102
+19	secretarias	secretaria	NOUN	NOUN	_	17	nmod	_	TokenRange=103:114
+20	de	de	ADP	ADP	_	21	case	_	TokenRange=115:117
+21	cultura	cultura	NOUN	NOUN	_	19	nmod	_	TokenRange=118:125
+22	seguranca	_	NOUN	NOUN	_	19	appos	_	TokenRange=126:135
+23	e	e	CCONJ	CONJ	_	24	cc	_	TokenRange=136:137
+24	saude	saude	NOUN	NOUN	_	22	conj	_	TokenRange=138:143
+25	respectivamente	respectivamente	ADV	ADV	_	28	advmod	_	TokenRange=144:159
+26	prefeito	prefeito	NOUN	NOUN	_	28	nsubj	_	TokenRange=160:168
+27	eleito	eleito	ADJ	ADJ	_	26	amod	_	TokenRange=169:175
+28	anunciou	anunciar	VERB	VERB	_	16	parataxis	_	TokenRange=176:184
+29	ultimos	ultimo	ADJ	ADJ	_	30	amod	_	TokenRange=185:192
+30	secretarios	secretario	NOUN	NOUN	_	28	obj	_	TokenRange=193:204
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=205:210
+32	quinta	_	PROPN	PNOUN	_	28	nmod	_	TokenRange=211:217
+33	o	o	DET	DET	_	34	det	_	TokenRange=218:219
+34	prefeito	prefeito	NOUN	NOUN	_	28	obj	_	TokenRange=220:228
+35	eleito	eleito	ADJ	ADJ	_	34	amod	_	TokenRange=229:235
+36	de	de	ADP	ADP	_	37	case	_	TokenRange=236:238
+37	sao	sao	NOUN	NOUN	_	34	nmod	_	TokenRange=239:242
+38	paulo	paulo	NOUN	NOUN	_	37	flat	_	TokenRange=243:248
+39	joao	joao	NOUN	NOUN	_	34	appos	_	TokenRange=249:253
+40	doria	doria	NOUN	NOUN	_	39	flat	_	TokenRange=254:259
+41	psdb	_	PROPN	PNOUN	_	39	appos	_	TokenRange=260:264
+42	anunciou	anunciar	VERB	VERB	_	2	parataxis	_	TokenRange=265:273
+43	nesta	_	ADP	ADP	_	44	case	_	TokenRange=274:279
+44	quintafeira	_	PROPN	PNOUN	_	42	nmod	_	TokenRange=280:291
+45	24	_	NUM	NUM	NumType=Card	44	nmod	_	TokenRange=292:294
+46	o	o	DET	DET	_	47	det	_	TokenRange=295:296
+47	nome	nome	NOUN	NOUN	_	42	obj	_	TokenRange=297:301
+48	de	de	ADP	ADP	_	51	case	_	TokenRange=302:304
+49	mais	mais	ADV	ADV	_	50	advmod	_	TokenRange=305:309
+50	oito	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=310:314
+51	especialistas	especialista	NOUN	NOUN	_	47	nmod	_	TokenRange=315:328
+52	que	_	PRON	PRON	_	54	nsubj	_	TokenRange=329:332
+53	vao	ir	AUX	AUX	_	54	aux	_	TokenRange=333:336
+54	presidir	presidir	VERB	VERB	_	51	acl:relcl	_	TokenRange=337:345
+55	os	o	DET	DET	_	56	det	_	TokenRange=346:348
+56	conselhos	conselho	NOUN	NOUN	_	54	obj	_	TokenRange=349:358
+57	gestores	gestor	ADJ	ADJ	_	56	amod	_	TokenRange=359:367
+58	que	_	PRON	PRON	_	60	obj	_	TokenRange=368:371
+59	ele	_	PRON	PRON	_	60	nsubj	_	TokenRange=372:375
+60	pretende	pretender	VERB	VERB	_	56	acl:relcl	_	TokenRange=376:384
+61	implementar	implementar	VERB	VERB	_	60	xcomp	_	TokenRange=385:396
+62	em	em	ADP	ADP	_	64	case	_	TokenRange=397:399
+63	cada	_	DET	DET	_	64	det	_	TokenRange=400:404
+64	uma	_	PRON	PRON	_	61	nmod	_	TokenRange=405:408
+65	de	de	ADP	ADP	_	68	case	_	TokenRange=409:411
+66	suas	_	DET	DET	_	68	det:poss	_	TokenRange=412:416
+67	22	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=417:419
+68	secretarias	secretaria	NOUN	NOUN	_	64	nmod	_	TokenRange=420:431
+69	municipais	municipal	ADJ	ADJ	_	68	amod	_	TokenRange=432:442
+70	entre	_	ADP	ADP	_	71	case	_	TokenRange=443:448
+71	eles	_	PRON	PRON	_	72	nmod	_	TokenRange=449:453
+72	estao	_	VERB	VERB	_	56	acl:relcl	_	TokenRange=454:459
+73	o	o	DET	DET	_	74	det	_	TokenRange=460:461
+74	publicitario	publicitario	NOUN	NOUN	_	72	nsubj	_	TokenRange=462:474
+75	e	e	CCONJ	CONJ	_	76	cc	_	TokenRange=475:476
+76	diretor	diretor	NOUN	NOUN	_	74	conj	_	TokenRange=477:484
+77	de	de	ADP	ADP	_	78	case	_	TokenRange=485:487
+78	televisao	televisao	NOUN	NOUN	_	76	nmod	_	TokenRange=488:497
+79	jose	jose	NOUN	NOUN	_	74	appos	_	TokenRange=498:502
+80	bonifacio	_	NOUN	NOUN	_	79	flat	_	TokenRange=503:512
+81	de	de	ADP	ADP	_	82	case	_	TokenRange=513:515
+82	oliveira	oliveira	NOUN	NOUN	_	79	nmod	_	TokenRange=516:524
+83	sobrinho	_	ADJ	ADJ	_	79	flat	_	TokenRange=525:533
+84	o	o	DET	DET	_	85	det	_	TokenRange=534:535
+85	boni	boni	NOUN	NOUN	_	79	appos	_	SpacesAfter=\s\s|TokenRange=536:540
+

@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = standup dilma presidenta comete mais um crime assassinato da lingua portuguesa dilma fez mais um de seus discursos indecifraveis dessa vez a vitima da presidenta foi a tocha dos jogos olimpicos a tocha olimpica e bonita e muito fantastica eu digo diante da tocha uma insistencia que o galileu disse diante da inquisicao aos 321 minutos do video dilma chama as olimpiadas de copa do mundo
+1	standup	standup	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	dilma	dilma	NOUN	NOUN	_	1	flat	_	TokenRange=8:13
+3	presidenta	_	NOUN	NOUN	_	1	flat	_	TokenRange=14:24
+4	comete	cometer	VERB	VERB	_	0	root	_	TokenRange=25:31
+5	mais	mais	ADV	ADV	_	6	advmod	_	TokenRange=32:36
+6	um	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=37:39
+7	crime	crime	NOUN	NOUN	_	4	obj	_	TokenRange=40:45
+8	assassinato	assassinato	NOUN	NOUN	_	7	appos	_	TokenRange=46:57
+9-10	da	_	_	_	_	_	_	_	TokenRange=58:60
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lingua	lingua	NOUN	NOUN	_	8	nmod	_	TokenRange=61:67
+12	portuguesa	português	ADJ	ADJ	_	11	amod	_	TokenRange=68:78
+13	dilma	dilma	NOUN	NOUN	_	14	nsubj	_	TokenRange=79:84
+14	fez	fazer	VERB	VERB	_	4	conj	_	TokenRange=85:88
+15	mais	mais	ADV	DET	_	16	det	_	TokenRange=89:93
+16	um	_	NUM	NUM	NumType=Card	14	obj	_	TokenRange=94:96
+17	de	de	ADP	ADP	_	19	case	_	TokenRange=97:99
+18	seus	_	DET	DET	_	19	det:poss	_	TokenRange=100:104
+19	discursos	discurso	NOUN	NOUN	_	16	nmod	_	TokenRange=105:114
+20	indecifraveis	indecifravel	ADJ	ADJ	_	19	amod	_	TokenRange=115:128
+21	dessa	_	ADP	ADP	_	22	case	_	TokenRange=129:134
+22	vez	vez	NOUN	NOUN	_	14	nmod	_	TokenRange=135:138
+23	a	o	DET	DET	_	24	det	_	TokenRange=139:140
+24	vitima	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=141:147
+25-26	da	_	_	_	_	_	_	_	TokenRange=148:150
+25	de	de	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	presidenta	_	NOUN	NOUN	_	24	nmod	_	TokenRange=151:161
+28	foi	_	AUX	AUX	_	30	cop	_	TokenRange=162:165
+29	a	o	DET	DET	_	30	det	_	TokenRange=166:167
+30	tocha	tocha	NOUN	NOUN	_	4	conj	_	TokenRange=168:173
+31-32	dos	_	_	_	_	_	_	_	TokenRange=174:177
+31	de	de	ADP	ADP	_	33	case	_	_
+32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	jogos	jogo	NOUN	NOUN	_	30	nmod	_	TokenRange=178:183
+34	olimpicos	olimpico	ADJ	ADJ	_	33	amod	_	TokenRange=184:193
+35	a	o	DET	DET	_	36	det	_	TokenRange=194:195
+36	tocha	tocha	NOUN	NOUN	_	30	nsubj	_	TokenRange=196:201
+37	olimpica	olimpico	ADJ	ADJ	_	36	amod	_	TokenRange=202:210
+38	e	e	CCONJ	CONJ	_	39	cc	_	TokenRange=211:212
+39	bonita	bonito	ADJ	ADJ	_	37	conj	_	TokenRange=213:219
+40	e	e	CCONJ	CONJ	_	42	cc	_	TokenRange=220:221
+41	muito	muito	ADV	ADV	_	42	advmod	_	TokenRange=222:227
+42	fantastica	fantastico	ADJ	ADJ	_	37	conj	_	TokenRange=228:238
+43	eu	_	PRON	PRON	_	44	nsubj	_	TokenRange=239:241
+44	digo	dizer	VERB	VERB	_	30	conj	_	TokenRange=242:246
+45	diante	diante	ADV	ADV	_	44	advmod	_	TokenRange=247:253
+46-47	da	_	_	_	_	_	_	_	TokenRange=254:256
+46	de	de	ADP	ADP	_	48	case	_	_
+47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	tocha	tocha	NOUN	NOUN	_	45	nmod	_	TokenRange=257:262
+49	uma	um	DET	DET	_	50	det	_	TokenRange=263:266
+50	insistencia	insistencia	NOUN	NOUN	_	44	obj	_	TokenRange=267:278
+51	que	_	PRON	PRON	_	54	obj	_	TokenRange=279:282
+52	o	o	DET	DET	_	53	det	_	TokenRange=283:284
+53	galileu	galileu	NOUN	NOUN	_	54	nsubj	_	TokenRange=285:292
+54	disse	dizer	VERB	VERB	_	50	acl:relcl	_	TokenRange=293:298
+55	diante	diante	ADV	ADV	_	54	advmod	_	TokenRange=299:305
+56-57	da	_	_	_	_	_	_	_	TokenRange=306:308
+56	de	de	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	inquisicao	inquisicao	NOUN	NOUN	_	55	nmod	_	TokenRange=309:319
+59-60	aos	_	_	_	_	_	_	_	TokenRange=320:323
+59	a	a	ADP	ADP	_	62	case	_	_
+60	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
+61	321	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=324:327
+62	minutos	minuto	NOUN	NOUN	_	54	nmod	_	TokenRange=328:335
+63-64	do	_	_	_	_	_	_	_	TokenRange=336:338
+63	de	de	ADP	ADP	_	65	case	_	_
+64	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	video	video	NOUN	NOUN	_	62	nmod	_	TokenRange=339:344
+66	dilma	_	PROPN	PNOUN	_	67	nsubj	_	TokenRange=345:350
+67	chama	chamar	VERB	VERB	_	54	parataxis	_	TokenRange=351:356
+68	as	o	DET	DET	_	69	det	_	TokenRange=357:359
+69	olimpiadas	_	NOUN	NOUN	_	67	obj	_	TokenRange=360:370
+70	de	de	ADP	ADP	_	71	case	_	TokenRange=371:373
+71	copa	copa	NOUN	NOUN	_	69	nmod	_	TokenRange=374:378
+72-73	do	_	_	_	_	_	_	_	TokenRange=379:381
+72	de	de	ADP	ADP	_	74	case	_	_
+73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+74	mundo	mundo	NOUN	NOUN	_	71	nmod	_	TokenRange=382:387
+

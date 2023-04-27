@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = chinaglia e arthur maia se xingam de caloteiro e vagabundo deputado do pt e relator da reforma da previdencia trocam insultos apos discussao sobre ministro da fazenda brasilia os deputados arlindo chinaglia ptsp e arthur maia sdba trocaram insultos durante audiencia na comissao especial da reforma da
+1	chinaglia	chinaglia	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:9
+2	e	e	CCONJ	CONJ	_	3	cc	_	TokenRange=10:11
+3	arthur	arthur	NOUN	NOUN	_	1	conj	_	TokenRange=12:18
+4	maia	maia	NOUN	NOUN	_	3	flat	_	TokenRange=19:23
+5	se	_	PRON	PRON	_	6	obj	_	TokenRange=24:26
+6	xingam	xingar	VERB	VERB	_	0	root	_	TokenRange=27:33
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=34:36
+8	caloteiro	caloteiro	NOUN	NOUN	_	6	nmod	_	TokenRange=37:46
+9	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=47:48
+10	vagabundo	vagabundo	NOUN	NOUN	_	8	conj	_	TokenRange=49:58
+11	deputado	deputado	NOUN	NOUN	_	23	nsubj	_	TokenRange=59:67
+12-13	do	_	_	_	_	_	_	_	TokenRange=68:70
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pt	pt	NOUN	NOUN	_	11	nmod	_	TokenRange=71:73
+15	e	e	CCONJ	CONJ	_	16	cc	_	TokenRange=74:75
+16	relator	relator	NOUN	NOUN	_	11	conj	_	TokenRange=76:83
+17-18	da	_	_	_	_	_	_	_	TokenRange=84:86
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	reforma	reforma	NOUN	NOUN	_	16	nmod	_	TokenRange=87:94
+20-21	da	_	_	_	_	_	_	_	TokenRange=95:97
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	previdencia	previdencia	NOUN	NOUN	_	19	nmod	_	TokenRange=98:109
+23	trocam	trocar	VERB	VERB	_	6	conj	_	TokenRange=110:116
+24	insultos	insulto	NOUN	NOUN	_	23	obj	_	TokenRange=117:125
+25	apos	_	ADP	ADP	_	26	case	_	TokenRange=126:130
+26	discussao	discussao	NOUN	NOUN	_	23	nmod	_	TokenRange=131:140
+27	sobre	_	ADP	ADP	_	28	case	_	TokenRange=141:146
+28	ministro	ministro	NOUN	NOUN	_	26	nmod	_	TokenRange=147:155
+29-30	da	_	_	_	_	_	_	_	TokenRange=156:158
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	fazenda	fazenda	NOUN	NOUN	_	28	nmod	_	TokenRange=159:166
+32	brasilia	brasilia	ADJ	ADJ	_	31	amod	_	TokenRange=167:175
+33	os	o	DET	DET	_	34	det	_	TokenRange=176:178
+34	deputados	deputado	NOUN	NOUN	_	42	nsubj	_	TokenRange=179:188
+35	arlindo	arlindo	NOUN	NOUN	_	34	appos	_	TokenRange=189:196
+36	chinaglia	chinaglia	NOUN	NOUN	_	35	flat	_	TokenRange=197:206
+37	ptsp	_	NOUN	NOUN	_	35	appos	_	TokenRange=207:211
+38	e	e	CCONJ	CONJ	_	39	cc	_	TokenRange=212:213
+39	arthur	arthur	NOUN	NOUN	_	35	conj	_	TokenRange=214:220
+40	maia	maia	ADJ	NOUN	_	39	flat	_	TokenRange=221:225
+41	sdba	sdba	NOUN	NOUN	_	39	appos	_	TokenRange=226:230
+42	trocaram	trocar	VERB	VERB	_	23	parataxis	_	TokenRange=231:239
+43	insultos	insulto	NOUN	NOUN	_	42	obj	_	TokenRange=240:248
+44	durante	_	ADP	ADP	_	45	case	_	TokenRange=249:256
+45	audiencia	audiencia	NOUN	NOUN	_	42	nmod	_	TokenRange=257:266
+46-47	na	_	_	_	_	_	_	_	TokenRange=267:269
+46	em	em	ADP	ADP	_	48	case	_	_
+47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	comissao	comissao	NOUN	NOUN	_	45	nmod	_	TokenRange=270:278
+49	especial	especial	ADJ	ADJ	_	48	amod	_	TokenRange=279:287
+50-51	da	_	_	_	_	_	_	_	TokenRange=288:290
+50	de	de	ADP	ADP	_	52	case	_	_
+51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	reforma	reforma	NOUN	NOUN	_	48	nmod	_	TokenRange=291:298
+53-54	da	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=299:301
+53	de	de	ADP	ADP	_	31	case	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+

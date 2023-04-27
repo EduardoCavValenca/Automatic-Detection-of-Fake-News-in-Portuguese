@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula dizendo que jose sarney e o dono da globo esqueca do luiz inacio politico e tente analisar o luiz inacio pessoa assista o video abaixo e nos diga se o expresidente e uma pessoa que bate bem dos pinos confira
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	dizendo	dizer	VERB	VERB	_	0	root	_	TokenRange=5:12
+3	que	que	CCONJ	CONJ	_	12	mark	_	TokenRange=13:16
+4	jose	jose	NOUN	NOUN	_	12	nsubj	_	TokenRange=17:21
+5	sarney	_	NOUN	NOUN	_	4	flat	_	TokenRange=22:28
+6	e	e	CCONJ	CONJ	_	8	cc	_	TokenRange=29:30
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	TokenRange=31:32
+8	dono	dono	NOUN	NOUN	_	4	conj	_	TokenRange=33:37
+9-10	da	_	_	_	_	_	_	_	TokenRange=38:40
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	globo	globo	NOUN	NOUN	_	8	nmod	_	TokenRange=41:46
+12	esqueca	esquecar	VERB	VERB	_	2	ccomp	_	TokenRange=47:54
+13-14	do	_	_	_	_	_	_	_	TokenRange=55:57
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	luiz	luiz	NOUN	NOUN	_	12	nmod	_	TokenRange=58:62
+16	inacio	_	NOUN	NOUN	_	15	flat	_	TokenRange=63:69
+17	politico	politico	ADJ	ADJ	_	15	amod	_	TokenRange=70:78
+18	e	e	CCONJ	CONJ	_	19	cc	_	TokenRange=79:80
+19	tente	tentar	VERB	VERB	_	12	conj	_	TokenRange=81:86
+20	analisar	analisar	VERB	VERB	_	19	xcomp	_	TokenRange=87:95
+21	o	o	DET	DET	_	22	det	_	TokenRange=96:97
+22	luiz	luiz	NOUN	NOUN	_	20	obj	_	TokenRange=98:102
+23	inacio	_	ADJ	ADJ	_	22	amod	_	TokenRange=103:109
+24	pessoa	pessoa	NOUN	NOUN	_	22	flat	_	TokenRange=110:116
+25	assista	assistir	VERB	VERB	_	2	conj	_	TokenRange=117:124
+26	o	o	DET	DET	_	27	det	_	TokenRange=125:126
+27	video	video	NOUN	NOUN	_	25	obj	_	TokenRange=127:132
+28	abaixo	abaixo	ADV	ADV	_	25	advmod	_	TokenRange=133:139
+29	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=140:141
+30-31	nos	_	_	_	_	_	_	_	TokenRange=142:145
+30	em	em	ADP	ADP	_	32	case	_	_
+31	os	o	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	obj	_	_
+32	diga	dizer	VERB	VERB	_	45	advcl	_	TokenRange=146:150
+33	se	_	CCONJ	CONJ	_	45	mark	_	TokenRange=151:153
+34	o	o	DET	DET	_	35	det	_	TokenRange=154:155
+35	expresidente	expresidente	NOUN	NOUN	_	45	nsubj	_	TokenRange=156:168
+36	e	e	CCONJ	CONJ	_	38	cc	_	TokenRange=169:170
+37	uma	um	DET	DET	_	38	det	_	TokenRange=171:174
+38	pessoa	pessoa	NOUN	NOUN	_	35	conj	_	TokenRange=175:181
+39	que	_	PRON	PRON	_	40	nsubj	_	TokenRange=182:185
+40	bate	bater	VERB	VERB	_	38	acl:relcl	_	TokenRange=186:190
+41	bem	bem	ADV	ADV	_	40	advmod	_	TokenRange=191:194
+42-43	dos	_	_	_	_	_	_	_	TokenRange=195:198
+42	de	de	ADP	ADP	_	44	case	_	_
+43	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+44	pinos	pino	NOUN	NOUN	_	40	nmod	_	TokenRange=199:204
+45	confira	conferir	VERB	VERB	_	2	ccomp	_	TokenRange=205:212
+

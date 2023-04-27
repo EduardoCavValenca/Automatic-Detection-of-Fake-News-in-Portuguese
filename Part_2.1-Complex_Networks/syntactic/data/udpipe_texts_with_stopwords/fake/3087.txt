@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = video dilma esta obstruindo a justica ela deve ser presa por muito menos delcidio foi para a cadeia dilma deve ser presa imediatamente assim como aconteceu com o senador delcidio do amaral ela foi flagrada pela pf tentando obstruir a justica leia mais um internauta disponibilizou um video da globo news confira
+1	video	video	NOUN	NOUN	_	10	nsubj:pass	_	TokenRange=0:5
+2	dilma	_	NOUN	NOUN	_	1	appos	_	TokenRange=6:11
+3	esta	_	PRON	AUX	_	4	aux	_	TokenRange=12:16
+4	obstruindo	obstruir	VERB	VERB	_	1	acl:relcl	_	TokenRange=17:27
+5	a	o	DET	DET	_	6	det	_	TokenRange=28:29
+6	justica	_	NOUN	NOUN	_	4	obj	_	TokenRange=30:37
+7	ela	_	PRON	PRON	_	10	nsubj:pass	_	TokenRange=38:41
+8	deve	dever	AUX	AUX	_	10	aux	_	TokenRange=42:46
+9	ser	ser	AUX	AUX	_	10	aux:pass	_	TokenRange=47:50
+10	presa	_	VERB	VERB	_	55	ccomp	_	TokenRange=51:56
+11	por	por	ADP	ADP	_	13	case	_	TokenRange=57:60
+12	muito	muito	DET	DET	_	13	det	_	TokenRange=61:66
+13	menos	menos	ADV	ADV	_	10	nmod	_	TokenRange=67:72
+14	delcidio	delcidio	NOUN	NOUN	_	15	nsubj	_	TokenRange=73:81
+15	foi	_	VERB	VERB	_	10	advcl	_	TokenRange=82:85
+16	para	para	ADP	ADP	_	18	case	_	TokenRange=86:90
+17	a	o	DET	DET	_	18	det	_	TokenRange=91:92
+18	cadeia	cadeia	NOUN	NOUN	_	15	nmod	_	TokenRange=93:99
+19	dilma	dilma	NOUN	NOUN	_	22	nsubj:pass	_	TokenRange=100:105
+20	deve	dever	AUX	AUX	_	22	aux	_	TokenRange=106:110
+21	ser	ser	AUX	AUX	_	22	aux:pass	_	TokenRange=111:114
+22	presa	_	VERB	VERB	_	10	conj	_	TokenRange=115:120
+23	imediatamente	imediatamente	ADV	ADV	_	22	advmod	_	TokenRange=121:134
+24	assim	assim	ADV	ADV	_	26	mark	_	TokenRange=135:140
+25	como	_	CCONJ	CONJ	_	24	fixed	_	TokenRange=141:145
+26	aconteceu	acontecer	VERB	VERB	_	22	advcl	_	TokenRange=146:155
+27	com	com	ADP	ADP	_	29	case	_	TokenRange=156:159
+28	o	o	DET	DET	_	29	det	_	TokenRange=160:161
+29	senador	senador	NOUN	NOUN	_	26	nmod	_	TokenRange=162:169
+30	delcidio	delcidio	ADJ	ADJ	_	29	amod	_	TokenRange=170:178
+31-32	do	_	_	_	_	_	_	_	TokenRange=179:181
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	amaral	amaral	NOUN	NOUN	_	29	nmod	_	TokenRange=182:188
+34	ela	_	PRON	PRON	_	36	nsubj:pass	_	TokenRange=189:192
+35	foi	_	AUX	AUX	_	36	aux:pass	_	TokenRange=193:196
+36	flagrada	flagrar	VERB	VERB	_	22	conj	_	TokenRange=197:205
+37-38	pela	_	_	_	_	_	_	_	TokenRange=206:210
+37	por	por	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	pf	_	NOUN	NOUN	_	36	nmod	_	TokenRange=211:213
+40	tentando	tentar	VERB	VERB	_	36	acl	_	TokenRange=214:222
+41	obstruir	obstruir	VERB	VERB	_	40	xcomp	_	TokenRange=223:231
+42	a	o	DET	DET	_	43	det	_	TokenRange=232:233
+43	justica	_	NOUN	NOUN	_	41	obj	_	TokenRange=234:241
+44	leia	ler	VERB	VERB	_	48	xcomp	_	TokenRange=242:246
+45	mais	mais	ADV	ADV	_	46	advmod	_	TokenRange=247:251
+46	um	_	NUM	NUM	NumType=Card	47	nummod	_	TokenRange=252:254
+47	internauta	internauta	NOUN	NOUN	_	48	nsubj	_	TokenRange=255:265
+48	disponibilizou	disponibilizar	VERB	VERB	_	36	parataxis	_	TokenRange=266:280
+49	um	um	DET	DET	_	50	det	_	TokenRange=281:283
+50	video	video	NOUN	NOUN	_	48	obj	_	TokenRange=284:289
+51-52	da	_	_	_	_	_	_	_	TokenRange=290:292
+51	de	de	ADP	ADP	_	53	case	_	_
+52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	globo	globo	NOUN	NOUN	_	50	nmod	_	TokenRange=293:298
+54	news	_	NOUN	NOUN	_	53	flat	_	TokenRange=299:303
+55	confira	conferir	VERB	VERB	_	0	root	_	TokenRange=304:311
+

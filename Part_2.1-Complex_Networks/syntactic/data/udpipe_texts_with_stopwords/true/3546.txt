@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = doria diz estar com consciencia tranquila apos adiamento da reforma da previdencia de sp projeto foi retirado da pauta na camara na terca 27 para discussoes medida representa derrota do prefeito que chegou a dizer que projeto seria aprovado o prefeito joao doria disse nesta quarta 28 que cumpriu seu papel na questao da reforma da previdencia municipal de sao paulo e que esta com a consciencia tranquila
+1	doria	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=6:9
+3	estar	estar	VERB	VERB	_	2	xcomp	_	TokenRange=10:15
+4	com	com	ADP	ADP	_	5	case	_	TokenRange=16:19
+5	consciencia	consciencia	NOUN	NOUN	_	3	nmod	_	TokenRange=20:31
+6	tranquila	tranquilo	ADJ	ADJ	_	5	amod	_	TokenRange=32:41
+7	apos	_	ADP	ADP	_	8	case	_	TokenRange=42:46
+8	adiamento	adiamento	NOUN	NOUN	_	19	nmod	_	TokenRange=47:56
+9-10	da	_	_	_	_	_	_	_	TokenRange=57:59
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	reforma	reforma	NOUN	NOUN	_	8	nmod	_	TokenRange=60:67
+12-13	da	_	_	_	_	_	_	_	TokenRange=68:70
+12	de	de	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	previdencia	previdencia	NOUN	NOUN	_	11	nmod	_	TokenRange=71:82
+15	de	de	ADP	ADP	_	16	case	_	TokenRange=83:85
+16	sp	_	NOUN	NOUN	_	14	nmod	_	TokenRange=86:88
+17	projeto	projeto	NOUN	NOUN	_	19	nsubj:pass	_	TokenRange=89:96
+18	foi	_	AUX	AUX	_	19	aux:pass	_	TokenRange=97:100
+19	retirado	retirar	VERB	VERB	_	2	ccomp	_	TokenRange=101:109
+20-21	da	_	_	_	_	_	_	_	TokenRange=110:112
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	pauta	pauta	NOUN	NOUN	_	19	nmod	_	TokenRange=113:118
+23-24	na	_	_	_	_	_	_	_	TokenRange=119:121
+23	em	em	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	camara	camara	NOUN	NOUN	_	19	nmod	_	TokenRange=122:128
+26-27	na	_	_	_	_	_	_	_	TokenRange=129:131
+26	em	em	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	terca	terca	NOUN	NOUN	_	19	nmod	_	TokenRange=132:137
+29	27	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=138:140
+30	para	para	ADP	ADP	_	31	case	_	TokenRange=141:145
+31	discussoes	discussoe	NOUN	NOUN	_	19	nmod	_	TokenRange=146:156
+32	medida	medida	NOUN	NOUN	_	33	nsubj	_	TokenRange=157:163
+33	representa	representar	VERB	VERB	_	19	parataxis	_	TokenRange=164:174
+34	derrota	derrota	NOUN	NOUN	_	33	obj	_	TokenRange=175:182
+35-36	do	_	_	_	_	_	_	_	TokenRange=183:185
+35	de	de	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	prefeito	prefeito	NOUN	NOUN	_	34	nmod	_	TokenRange=186:194
+38	que	_	PRON	PRON	_	41	nsubj	_	TokenRange=195:198
+39	chegou	chegar	AUX	AUX	_	41	aux	_	TokenRange=199:205
+40	a	_	ADP	ADP	_	41	mark	_	TokenRange=206:207
+41	dizer	dizer	VERB	VERB	_	37	acl:relcl	_	TokenRange=208:213
+42	que	que	CCONJ	CONJ	_	45	mark	_	TokenRange=214:217
+43	projeto	projeto	NOUN	NOUN	_	45	nsubj:pass	_	TokenRange=218:225
+44	seria	_	AUX	AUX	_	45	aux:pass	_	TokenRange=226:231
+45	aprovado	aprovar	VERB	VERB	_	41	ccomp	_	TokenRange=232:240
+46	o	o	DET	DET	_	47	det	_	TokenRange=241:242
+47	prefeito	prefeito	NOUN	NOUN	_	50	nsubj	_	TokenRange=243:251
+48	joao	joao	ADJ	ADJ	_	47	appos	_	TokenRange=252:256
+49	doria	_	NOUN	NOUN	_	47	flat	_	TokenRange=257:262
+50	disse	dizer	VERB	VERB	_	41	conj	_	TokenRange=263:268
+51	nesta	_	ADP	ADP	_	53	case	_	TokenRange=269:274
+52	quarta	_	PROPN	PNOUN	_	53	amod	_	TokenRange=275:281
+53	28	_	NUM	NUM	NumType=Card	50	nmod	_	TokenRange=282:284
+54	que	que	CCONJ	CONJ	_	55	mark	_	TokenRange=285:288
+55	cumpriu	cumprir	VERB	VERB	_	50	ccomp	_	TokenRange=289:296
+56	seu	_	DET	DET	_	57	det:poss	_	TokenRange=297:300
+57	papel	papel	NOUN	NOUN	_	55	obj	_	TokenRange=301:306
+58-59	na	_	_	_	_	_	_	_	TokenRange=307:309
+58	em	em	ADP	ADP	_	60	case	_	_
+59	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	questao	questao	NOUN	NOUN	_	55	nmod	_	TokenRange=310:317
+61-62	da	_	_	_	_	_	_	_	TokenRange=318:320
+61	de	de	ADP	ADP	_	63	case	_	_
+62	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	reforma	reforma	NOUN	NOUN	_	60	nmod	_	TokenRange=321:328
+64-65	da	_	_	_	_	_	_	_	TokenRange=329:331
+64	de	de	ADP	ADP	_	66	case	_	_
+65	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	previdencia	previdencia	NOUN	NOUN	_	63	nmod	_	TokenRange=332:343
+67	municipal	municipal	ADJ	ADJ	_	66	amod	_	TokenRange=344:353
+68	de	de	ADP	ADP	_	69	case	_	TokenRange=354:356
+69	sao	sao	NOUN	NOUN	_	63	nmod	_	TokenRange=357:360
+70	paulo	paulo	ADJ	ADJ	_	69	amod	_	TokenRange=361:366
+71	e	e	CCONJ	CONJ	_	73	cc	_	TokenRange=367:368
+72	que	que	CCONJ	CONJ	_	73	mark	_	TokenRange=369:372
+73	esta	_	PRON	PRON	_	55	conj	_	TokenRange=373:377
+74	com	com	ADP	ADP	_	76	case	_	TokenRange=378:381
+75	a	o	DET	DET	_	76	det	_	TokenRange=382:383
+76	consciencia	consciencia	NOUN	NOUN	_	73	nmod	_	TokenRange=384:395
+77	tranquila	tranquilo	ADJ	ADJ	_	76	amod	_	SpacesAfter=\s\s|TokenRange=396:405
+

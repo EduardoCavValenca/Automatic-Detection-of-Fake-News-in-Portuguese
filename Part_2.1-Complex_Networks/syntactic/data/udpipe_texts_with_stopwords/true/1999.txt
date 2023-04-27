@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = segundafeira 5 de marco de 2018 boa noite aqui estao as principais noticias para voce terminar o dia beminformado uma nova fase da operacao carne fraca prendeu o exdiretorpresidente global da brf brasil foods pedro de andrade faria fabricas do grupo fraudavam laudos relacionados a presenca de salmonela em alimentos para exportacao veja tambem detalhes do roubo cinematografico de us 5 milhoes no aeroporto de viracopos em
+1	segundafeira	_	NOUN	NOUN	_	10	parataxis	_	TokenRange=0:12
+2	5	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=13:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	marco	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=18:23
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=24:26
+6	2018	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=27:31
+7	boa	bom	ADJ	ADJ	_	8	amod	_	TokenRange=32:35
+8	noite	noite	NOUN	NOUN	_	10	nsubj	_	TokenRange=36:41
+9	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=42:46
+10	estao	_	VERB	VERB	_	0	root	_	TokenRange=47:52
+11	as	o	DET	DET	_	13	det	_	TokenRange=53:55
+12	principais	principal	ADJ	ADJ	_	13	amod	_	TokenRange=56:66
+13	noticias	noticia	NOUN	NOUN	_	10	nsubj	_	TokenRange=67:75
+14	para	_	ADP	ADP	_	16	mark	_	TokenRange=76:80
+15	voce	_	PRON	PRON	_	16	nsubj	_	TokenRange=81:85
+16	terminar	terminar	VERB	VERB	_	13	nmod	_	TokenRange=86:94
+17	o	o	DET	DET	_	18	det	_	TokenRange=95:96
+18	dia	dia	NOUN	NOUN	_	16	obj	_	TokenRange=97:100
+19	beminformado	beminformado	ADJ	ADJ	_	18	amod	_	TokenRange=101:113
+20	uma	um	DET	DET	_	22	det	_	TokenRange=114:117
+21	nova	novo	ADJ	ADJ	_	22	amod	_	TokenRange=118:122
+22	fase	fase	NOUN	NOUN	_	28	nsubj	_	TokenRange=123:127
+23-24	da	_	_	_	_	_	_	_	TokenRange=128:130
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	operacao	operacao	NOUN	NOUN	_	22	nmod	_	TokenRange=131:139
+26	carne	carne	NOUN	NOUN	_	25	flat	_	TokenRange=140:145
+27	fraca	fraco	ADJ	ADJ	_	25	amod	_	TokenRange=146:151
+28	prendeu	prender	VERB	VERB	_	10	parataxis	_	TokenRange=152:159
+29	o	o	DET	DET	_	30	det	_	TokenRange=160:161
+30	exdiretorpresidente	exdiretorpresidente	NOUN	NOUN	_	28	obj	_	TokenRange=162:181
+31	global	global	ADJ	ADJ	_	30	amod	_	TokenRange=182:188
+32-33	da	_	_	_	_	_	_	_	TokenRange=189:191
+32	de	de	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	brf	brf	NOUN	NOUN	_	30	nmod	_	TokenRange=192:195
+35	brasil	brasil	NOUN	NOUN	_	34	amod	_	TokenRange=196:202
+36	foods	_	NOUN	NOUN	_	34	appos	_	TokenRange=203:208
+37	pedro	pedro	NOUN	NOUN	_	30	appos	_	TokenRange=209:214
+38	de	de	ADP	ADP	_	39	case	_	TokenRange=215:217
+39	andrade	andrade	NOUN	NOUN	_	37	nmod	_	TokenRange=218:225
+40	faria	faria	NOUN	NOUN	_	37	flat	_	TokenRange=226:231
+41	fabricas	_	NOUN	NOUN	_	45	nsubj	_	TokenRange=232:240
+42-43	do	_	_	_	_	_	_	_	TokenRange=241:243
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	grupo	grupo	NOUN	NOUN	_	41	nmod	_	TokenRange=244:249
+45	fraudavam	fraudar	VERB	VERB	_	28	parataxis	_	TokenRange=250:259
+46	laudos	laudo	NOUN	NOUN	_	45	obj	_	TokenRange=260:266
+47	relacionados	relacionado	ADJ	ADJ	_	46	amod	_	TokenRange=267:279
+48	a	_	ADP	ADP	_	49	case	_	TokenRange=280:281
+49	presenca	presenca	NOUN	NOUN	_	47	nmod	_	TokenRange=282:290
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=291:293
+51	salmonela	salmonela	NOUN	NOUN	_	49	nmod	_	TokenRange=294:303
+52	em	em	ADP	ADP	_	53	case	_	TokenRange=304:306
+53	alimentos	alimento	NOUN	NOUN	_	49	nmod	_	TokenRange=307:316
+54	para	para	ADP	ADP	_	55	case	_	TokenRange=317:321
+55	exportacao	exportacao	NOUN	NOUN	_	53	nmod	_	TokenRange=322:332
+56	veja	ver	VERB	VERB	_	45	parataxis	_	TokenRange=333:337
+57	tambem	tambem	ADV	ADV	_	56	advmod	_	TokenRange=338:344
+58	detalhes	detalhe	NOUN	NOUN	_	56	obj	_	TokenRange=345:353
+59-60	do	_	_	_	_	_	_	_	TokenRange=354:356
+59	de	de	ADP	ADP	_	61	case	_	_
+60	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	roubo	roubo	NOUN	NOUN	_	58	nmod	_	TokenRange=357:362
+62	cinematografico	cinematografico	ADJ	ADJ	_	61	amod	_	TokenRange=363:378
+63	de	de	ADP	ADP	_	64	case	_	TokenRange=379:381
+64	us	_	NOUN	NOUN	_	61	nmod	_	TokenRange=382:384
+65	5	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=385:386
+66	milhoes	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=387:394
+67-68	no	_	_	_	_	_	_	_	TokenRange=395:397
+67	em	em	ADP	ADP	_	69	case	_	_
+68	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+69	aeroporto	aeroporto	NOUN	NOUN	_	61	nmod	_	TokenRange=398:407
+70	de	de	ADP	ADP	_	71	case	_	TokenRange=408:410
+71	viracopos	viracopo	NOUN	NOUN	_	69	nmod	_	TokenRange=411:420
+72	em	em	ADP	ADP	_	69	case	_	SpacesAfter=\s\s|TokenRange=421:423
+

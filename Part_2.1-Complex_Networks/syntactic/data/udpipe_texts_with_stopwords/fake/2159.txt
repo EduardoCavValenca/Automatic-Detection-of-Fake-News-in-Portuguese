@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = boechat fez coisas boas para o pais mas acha que tem salvoconduto para cometer atos ilicitos sera que vamos investigar os supostos atos ilicitos de lula ou vamos continuar tratandoo como santo no programa cafe com jornal da band o jornalista ricardo boechat traca um paralelo interessante entre lula e o papa assista com atencao ele tambem criticou os perfis falsos que falam em seu nome e afirma que ninguem deve ser condenado sem evidencias concretas
+1	boechat	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	fez	fazer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	coisas	coisa	NOUN	NOUN	_	2	obj	_	TokenRange=12:18
+4	boas	bom	ADJ	ADJ	_	3	amod	_	TokenRange=19:23
+5	para	para	ADP	ADP	_	7	case	_	TokenRange=24:28
+6	o	o	DET	DET	_	7	det	_	TokenRange=29:30
+7	pais	_	NOUN	NOUN	_	2	nmod	_	TokenRange=31:35
+8	mas	mas	CCONJ	CONJ	_	9	cc	_	TokenRange=36:39
+9	acha	achar	VERB	VERB	_	2	conj	_	TokenRange=40:44
+10	que	que	CCONJ	CONJ	_	11	mark	_	TokenRange=45:48
+11	tem	ter	VERB	VERB	_	9	ccomp	_	TokenRange=49:52
+12	salvoconduto	salvoconduto	NOUN	NOUN	_	11	obj	_	TokenRange=53:65
+13	para	_	ADP	ADP	_	14	mark	_	TokenRange=66:70
+14	cometer	cometer	VERB	VERB	_	11	advcl	_	TokenRange=71:78
+15	atos	ato	NOUN	NOUN	_	14	obj	_	TokenRange=79:83
+16	ilicitos	ilicito	ADJ	ADJ	_	15	amod	_	TokenRange=84:92
+17	sera	_	VERB	VERB	_	2	parataxis	_	TokenRange=93:97
+18	que	que	CCONJ	CONJ	_	20	mark	_	TokenRange=98:101
+19	vamos	ir	AUX	AUX	_	20	aux	_	TokenRange=102:107
+20	investigar	investigar	VERB	VERB	_	17	csubj	_	TokenRange=108:118
+21	os	o	DET	DET	_	23	det	_	TokenRange=119:121
+22	supostos	suposto	ADJ	ADJ	_	23	amod	_	TokenRange=122:130
+23	atos	ato	NOUN	NOUN	_	20	obj	_	TokenRange=131:135
+24	ilicitos	ilicito	ADJ	ADJ	_	23	amod	_	TokenRange=136:144
+25	de	de	ADP	ADP	_	26	case	_	TokenRange=145:147
+26	lula	lula	NOUN	NOUN	_	23	nmod	_	TokenRange=148:152
+27	ou	ou	CCONJ	CONJ	_	30	cc	_	TokenRange=153:155
+28	vamos	ir	AUX	AUX	_	30	aux	_	TokenRange=156:161
+29	continuar	continuar	AUX	AUX	_	30	aux	_	TokenRange=162:171
+30	tratandoo	_	VERB	VERB	_	20	conj	_	TokenRange=172:181
+31	como	como	ADP	ADP	_	32	case	_	TokenRange=182:186
+32	santo	santo	NOUN	NOUN	_	30	nmod	_	TokenRange=187:192
+33-34	no	_	_	_	_	_	_	_	TokenRange=193:195
+33	em	em	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	programa	programa	NOUN	NOUN	_	30	nmod	_	TokenRange=196:204
+36	cafe	cafe	NOUN	NOUN	_	35	appos	_	TokenRange=205:209
+37	com	com	ADP	ADP	_	38	case	_	TokenRange=210:213
+38	jornal	jornal	NOUN	NOUN	_	36	nmod	_	TokenRange=214:220
+39-40	da	_	_	_	_	_	_	_	TokenRange=221:223
+39	de	de	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	band	band	NOUN	NOUN	_	38	nmod	_	TokenRange=224:228
+42	o	o	DET	DET	_	43	det	_	TokenRange=229:230
+43	jornalista	jornalista	NOUN	NOUN	_	46	nsubj	_	TokenRange=231:241
+44	ricardo	ricardo	ADJ	ADJ	_	43	appos	_	TokenRange=242:249
+45	boechat	_	NOUN	NOUN	_	43	appos	_	TokenRange=250:257
+46	traca	tracar	VERB	VERB	_	2	parataxis	_	TokenRange=258:263
+47	um	um	DET	DET	_	48	det	_	TokenRange=264:266
+48	paralelo	paralelo	NOUN	NOUN	_	46	obj	_	TokenRange=267:275
+49	interessante	interessante	ADJ	ADJ	_	48	amod	_	TokenRange=276:288
+50	entre	_	ADP	ADP	_	51	case	_	TokenRange=289:294
+51	lula	lula	NOUN	NOUN	_	48	nmod	_	TokenRange=295:299
+52	e	e	CCONJ	CONJ	_	54	cc	_	TokenRange=300:301
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	TokenRange=302:303
+54	papa	papa	NOUN	NOUN	_	51	conj	_	TokenRange=304:308
+55	assista	assistir	VERB	VERB	_	48	acl:relcl	_	TokenRange=309:316
+56	com	com	ADP	ADP	_	57	case	_	TokenRange=317:320
+57	atencao	atencao	NOUN	NOUN	_	55	nmod	_	TokenRange=321:328
+58	ele	_	PRON	PRON	_	60	nsubj	_	TokenRange=329:332
+59	tambem	tambem	ADV	ADV	_	60	advmod	_	TokenRange=333:339
+60	criticou	criticar	VERB	VERB	_	46	conj	_	TokenRange=340:348
+61	os	o	DET	DET	_	62	det	_	TokenRange=349:351
+62	perfis	perfil	NOUN	NOUN	_	60	obj	_	TokenRange=352:358
+63	falsos	falso	ADJ	ADJ	_	62	amod	_	TokenRange=359:365
+64	que	_	PRON	PRON	_	65	nsubj	_	TokenRange=366:369
+65	falam	_	VERB	VERB	_	62	acl:relcl	_	TokenRange=370:375
+66	em	em	ADP	ADP	_	68	case	_	TokenRange=376:378
+67	seu	_	DET	DET	_	68	det:poss	_	TokenRange=379:382
+68	nome	nome	NOUN	NOUN	_	65	nmod	_	TokenRange=383:387
+69	e	e	CCONJ	CONJ	_	70	cc	_	TokenRange=388:389
+70	afirma	afirmar	VERB	VERB	_	60	conj	_	TokenRange=390:396
+71	que	que	CCONJ	CONJ	_	75	mark	_	TokenRange=397:400
+72	ninguem	_	PRON	PRON	_	75	nsubj:pass	_	TokenRange=401:408
+73	deve	dever	AUX	AUX	_	75	aux	_	TokenRange=409:413
+74	ser	ser	AUX	AUX	_	75	aux:pass	_	TokenRange=414:417
+75	condenado	condenar	VERB	VERB	_	70	ccomp	_	TokenRange=418:427
+76	sem	_	ADP	ADP	_	77	case	_	TokenRange=428:431
+77	evidencias	_	NOUN	NOUN	_	75	nmod	_	TokenRange=432:442
+78	concretas	concreto	ADJ	ADJ	_	77	amod	_	TokenRange=443:452
+

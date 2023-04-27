@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = a italiana sem bracos e pernas que luta esgrima esquia e fala na tv sobre como a vida e um barato apos ter pernas e bracos amputados aos 11 anos beatrice vio superou a depressao e se tornou atleta paralimpica e apresentadora de tv apos ter os bracos e as pernas amputados em consequencia de uma meningite c e manifestar a vontade de se suicidar beatrice vio de 11 anos ouviu do pai uma frase
+1	a	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	italiana	italiano	NOUN	NOUN	_	10	nsubj	_	TokenRange=2:10
+3	sem	_	ADP	ADP	_	4	case	_	TokenRange=11:14
+4	bracos	braco	NOUN	NOUN	_	2	nmod	_	TokenRange=15:21
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=22:23
+6	pernas	perna	NOUN	NOUN	_	4	conj	_	TokenRange=24:30
+7	que	_	PRON	PRON	_	8	nsubj	_	TokenRange=31:34
+8	luta	lutar	VERB	VERB	_	2	acl:relcl	_	TokenRange=35:39
+9	esgrima	_	NOUN	NOUN	_	8	obj	_	TokenRange=40:47
+10	esquia	esquir	VERB	VERB	_	0	root	_	TokenRange=48:54
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=55:56
+12	fala	_	VERB	VERB	_	10	conj	_	TokenRange=57:61
+13-14	na	_	_	_	_	_	_	_	TokenRange=62:64
+13	em	em	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	tv	tv	NOUN	NOUN	_	12	nmod	_	TokenRange=65:67
+16	sobre	_	ADP	ADP	_	22	mark	_	TokenRange=68:73
+17	como	como	ADV	ADV	_	22	advmod	_	TokenRange=74:78
+18	a	o	DET	DET	_	19	det	_	TokenRange=79:80
+19	vida	vida	NOUN	NOUN	_	22	nsubj	_	TokenRange=81:85
+20	e	e	CCONJ	CONJ	_	22	cop	_	TokenRange=86:87
+21	um	um	DET	DET	_	22	det	_	TokenRange=88:90
+22	barato	barato	NOUN	NOUN	_	12	nmod	_	TokenRange=91:97
+23	apos	_	ADP	ADP	_	24	mark	_	TokenRange=98:102
+24	ter	ter	VERB	VERB	_	22	advcl	_	TokenRange=103:106
+25	pernas	perna	NOUN	NOUN	_	24	obj	_	TokenRange=107:113
+26	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=114:115
+27	bracos	braco	NOUN	NOUN	_	25	conj	_	TokenRange=116:122
+28	amputados	amputar	VERB	VERB	_	25	acl	_	TokenRange=123:132
+29-30	aos	_	_	_	_	_	_	_	TokenRange=133:136
+29	a	a	ADP	ADP	_	32	case	_	_
+30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	11	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=137:139
+32	anos	ano	NOUN	NOUN	_	28	nmod	_	TokenRange=140:144
+33	beatrice	_	NOUN	NOUN	_	35	nsubj	_	TokenRange=145:153
+34	vio	_	ADJ	ADJ	_	33	flat	_	TokenRange=154:157
+35	superou	superar	VERB	VERB	_	10	advcl	_	TokenRange=158:165
+36	a	o	DET	DET	_	37	det	_	TokenRange=166:167
+37	depressao	depressao	NOUN	NOUN	_	35	obj	_	TokenRange=168:177
+38	e	e	CCONJ	CONJ	_	41	cc	_	TokenRange=178:179
+39	se	_	PART	PRT	_	41	expl:pv	_	TokenRange=180:182
+40	tornou	tornar	AUX	AUX	_	41	cop	_	TokenRange=183:189
+41	atleta	atleta	NOUN	NOUN	_	35	conj	_	TokenRange=190:196
+42	paralimpica	paralimpico	ADJ	ADJ	_	41	amod	_	TokenRange=197:208
+43	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=209:210
+44	apresentadora	apresentador	NOUN	NOUN	_	41	conj	_	TokenRange=211:224
+45	de	de	ADP	ADP	_	46	case	_	TokenRange=225:227
+46	tv	tv	NOUN	NOUN	_	44	nmod	_	TokenRange=228:230
+47	apos	_	ADP	ADP	_	48	mark	_	TokenRange=231:235
+48	ter	ter	VERB	VERB	_	41	advcl	_	TokenRange=236:239
+49	os	o	DET	DET	_	50	det	_	TokenRange=240:242
+50	bracos	braco	NOUN	NOUN	_	48	obj	_	TokenRange=243:249
+51	e	e	CCONJ	CONJ	_	53	cc	_	TokenRange=250:251
+52	as	o	DET	DET	_	53	det	_	TokenRange=252:254
+53	pernas	perna	NOUN	NOUN	_	50	conj	_	TokenRange=255:261
+54	amputados	amputar	VERB	VERB	_	48	acl	_	TokenRange=262:271
+55	em	em	ADP	ADP	_	56	case	_	TokenRange=272:274
+56	consequencia	_	NOUN	NOUN	_	54	nmod	_	TokenRange=275:287
+57	de	de	ADP	ADP	_	59	case	_	TokenRange=288:290
+58	uma	um	DET	DET	_	59	det	_	TokenRange=291:294
+59	meningite	meningite	NOUN	NOUN	_	56	nmod	_	TokenRange=295:304
+60	c	_	X	X	_	59	appos	_	TokenRange=305:306
+61	e	e	CCONJ	CONJ	_	62	cc	_	TokenRange=307:308
+62	manifestar	manifestar	VERB	VERB	_	48	conj	_	TokenRange=309:319
+63	a	o	DET	DET	_	64	det	_	TokenRange=320:321
+64	vontade	vontade	NOUN	NOUN	_	62	obj	_	TokenRange=322:329
+65	de	_	ADP	ADP	_	67	mark	_	TokenRange=330:332
+66	se	_	PRON	PRON	_	67	expl:pv	_	TokenRange=333:335
+67	suicidar	suicidar	VERB	VERB	_	64	nmod	_	TokenRange=336:344
+68	beatrice	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=345:353
+69	vio	_	ADJ	ADJ	_	68	flat	_	TokenRange=354:357
+70	de	de	ADP	ADP	_	72	case	_	TokenRange=358:360
+71	11	_	NUM	NUM	NumType=Card	72	nummod	_	TokenRange=361:363
+72	anos	ano	NOUN	NOUN	_	68	nmod	_	TokenRange=364:368
+73	ouviu	ouvir	VERB	VERB	_	48	parataxis	_	TokenRange=369:374
+74-75	do	_	_	_	_	_	_	_	TokenRange=375:377
+74	de	de	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	pai	pai	NOUN	NOUN	_	73	nmod	_	TokenRange=378:381
+77	uma	um	DET	DET	_	78	det	_	TokenRange=382:385
+78	frase	frase	NOUN	NOUN	_	73	obj	_	SpacesAfter=\s\s|TokenRange=386:391
+

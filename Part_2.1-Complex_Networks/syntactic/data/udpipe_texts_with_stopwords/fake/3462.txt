@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quebracabeca da lava jato se completa e lula o chefao podera ver o sol nascer quadrado mais uma vez o site o antagonista sai na vanguarda da noticia e divulga com exclusividade o destemido e corajoso jornalista diogo mainardi continua com sua ardua luta para provar para o povo brasileiro que o pt nao passa de uma faccao criminosa
+1	quebracabeca	quebracabeca	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:12
+2-3	da	_	_	_	_	_	_	_	TokenRange=13:15
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lava	lava	NOUN	NOUN	_	1	nmod	_	TokenRange=16:20
+5	jato	jato	NOUN	NOUN	_	4	flat	_	TokenRange=21:25
+6	se	_	PRON	PRON	_	7	expl:pv	_	TokenRange=26:28
+7	completa	completar	VERB	VERB	_	0	root	_	TokenRange=29:37
+8	e	e	CCONJ	CONJ	_	13	cc	_	TokenRange=38:39
+9	lula	_	VERB	VERB	_	13	conj	_	TokenRange=40:44
+10	o	o	DET	DET	_	11	det	_	TokenRange=45:46
+11	chefao	chefao	NOUN	NOUN	_	13	nsubj	_	TokenRange=47:53
+12	podera	_	AUX	AUX	_	13	aux	_	TokenRange=54:60
+13	ver	ver	VERB	VERB	_	7	conj	_	TokenRange=61:64
+14	o	o	DET	DET	_	15	det	_	TokenRange=65:66
+15	sol	sol	NOUN	NOUN	_	13	obj	_	TokenRange=67:70
+16	nascer	nascer	VERB	VERB	_	13	ccomp	_	TokenRange=71:77
+17	quadrado	quadrado	NOUN	NOUN	_	16	xcomp	_	TokenRange=78:86
+18	mais	mais	ADV	ADV	_	19	advmod	_	TokenRange=87:91
+19	uma	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=92:95
+20	vez	vez	NOUN	NOUN	_	16	nmod	_	TokenRange=96:99
+21	o	o	DET	DET	_	22	det	_	TokenRange=100:101
+22	site	site	NOUN	NOUN	_	13	obj	_	TokenRange=102:106
+23	o	o	DET	DET	_	24	det	_	TokenRange=107:108
+24	antagonista	antagonista	NOUN	NOUN	_	25	nsubj	_	TokenRange=109:120
+25	sai	sair	VERB	VERB	_	7	parataxis	_	TokenRange=121:124
+26-27	na	_	_	_	_	_	_	_	TokenRange=125:127
+26	em	em	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	vanguarda	vanguarda	NOUN	NOUN	_	25	nmod	_	TokenRange=128:137
+29-30	da	_	_	_	_	_	_	_	TokenRange=138:140
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	noticia	noticia	NOUN	NOUN	_	28	nmod	_	TokenRange=141:148
+32	e	e	CCONJ	CONJ	_	33	cc	_	TokenRange=149:150
+33	divulga	divulgar	VERB	VERB	_	25	conj	_	TokenRange=151:158
+34	com	com	ADP	ADP	_	35	case	_	TokenRange=159:162
+35	exclusividade	exclusividade	NOUN	NOUN	_	33	nmod	_	TokenRange=163:176
+36	o	o	DET	DET	_	40	det	_	TokenRange=177:178
+37	destemido	destemido	ADJ	ADJ	_	40	amod	_	TokenRange=179:188
+38	e	e	CCONJ	CONJ	_	39	cc	_	TokenRange=189:190
+39	corajoso	corajoso	ADJ	ADJ	_	37	conj	_	TokenRange=191:199
+40	jornalista	jornalista	NOUN	NOUN	_	33	obj	_	TokenRange=200:210
+41	diogo	diogo	X	NOUN	_	40	appos	_	TokenRange=211:216
+42	mainardi	_	NOUN	NOUN	_	41	flat	_	TokenRange=217:225
+43	continua	continuar	VERB	VERB	_	25	conj	_	TokenRange=226:234
+44	com	com	ADP	ADP	_	47	case	_	TokenRange=235:238
+45	sua	_	DET	DET	_	47	det:poss	_	TokenRange=239:242
+46	ardua	arduo	ADJ	ADJ	_	47	amod	_	TokenRange=243:248
+47	luta	luta	NOUN	NOUN	_	43	nmod	_	TokenRange=249:253
+48	para	_	ADP	ADP	_	49	mark	_	TokenRange=254:258
+49	provar	provar	VERB	VERB	_	43	advcl	_	TokenRange=259:265
+50	para	para	ADP	ADP	_	52	case	_	TokenRange=266:270
+51	o	o	DET	DET	_	52	det	_	TokenRange=271:272
+52	povo	povo	NOUN	NOUN	_	49	nmod	_	TokenRange=273:277
+53	brasileiro	brasileiro	ADJ	ADJ	_	52	amod	_	TokenRange=278:288
+54	que	que	CCONJ	CONJ	_	58	mark	_	TokenRange=289:292
+55	o	o	DET	DET	_	56	det	_	TokenRange=293:294
+56	pt	_	PROPN	PNOUN	_	58	nsubj	_	TokenRange=295:297
+57	nao	nao	ADV	ADV	Polarity=Neg	58	advmod	_	TokenRange=298:301
+58	passa	passar	VERB	VERB	_	43	csubj	_	TokenRange=302:307
+59	de	de	ADP	ADP	_	61	case	_	TokenRange=308:310
+60	uma	um	DET	DET	_	61	det	_	TokenRange=311:314
+61	faccao	faccao	NOUN	NOUN	_	58	nmod	_	TokenRange=315:321
+62	criminosa	criminoso	ADJ	ADJ	_	61	amod	_	TokenRange=322:331
+

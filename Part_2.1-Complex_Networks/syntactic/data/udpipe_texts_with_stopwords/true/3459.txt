@@ -1,0 +1,52 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = prefeitura de maringa abre licitacao para compra de armas de fogo para a guarda municipal edital para a aquisicao de 14 espingardas calibre 12 foi aberto na segundafeira 18 a prefeitura de maringa no norte do parana abriu
+1	prefeitura	prefeitura	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=11:13
+3	maringa	maringa	NOUN	NOUN	_	1	nmod	_	TokenRange=14:21
+4	abre	abrir	VERB	VERB	_	0	root	_	TokenRange=22:26
+5	licitacao	licitacao	NOUN	NOUN	_	4	obj	_	TokenRange=27:36
+6	para	para	ADP	ADP	_	7	case	_	TokenRange=37:41
+7	compra	compra	NOUN	NOUN	_	5	nmod	_	TokenRange=42:48
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=49:51
+9	armas	arma	NOUN	NOUN	_	7	nmod	_	TokenRange=52:57
+10	de	de	ADP	ADP	_	11	case	_	TokenRange=58:60
+11	fogo	fogo	NOUN	NOUN	_	9	nmod	_	TokenRange=61:65
+12	para	para	ADP	ADP	_	14	case	_	TokenRange=66:70
+13	a	o	DET	DET	_	14	det	_	TokenRange=71:72
+14	guarda	guarda	NOUN	NOUN	_	4	nmod	_	TokenRange=73:79
+15	municipal	municipal	ADJ	ADJ	_	14	amod	_	TokenRange=80:89
+16	edital	edital	NOUN	NOUN	_	14	appos	_	TokenRange=90:96
+17	para	para	ADP	ADP	_	19	case	_	TokenRange=97:101
+18	a	o	DET	DET	_	19	det	_	TokenRange=102:103
+19	aquisicao	aquisicao	NOUN	NOUN	_	16	nmod	_	TokenRange=104:113
+20	de	de	ADP	ADP	_	22	case	_	TokenRange=114:116
+21	14	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=117:119
+22	espingardas	espingarda	NOUN	NOUN	_	19	nmod	_	TokenRange=120:131
+23	calibre	calibre	NOUN	NOUN	_	22	appos	_	TokenRange=132:139
+24	12	_	NUM	NUM	NumType=Card	23	appos	_	TokenRange=140:142
+25	foi	_	AUX	AUX	_	26	aux:pass	_	TokenRange=143:146
+26	aberto	abrir	VERB	VERB	_	4	parataxis	_	TokenRange=147:153
+27-28	na	_	_	_	_	_	_	_	TokenRange=154:156
+27	em	em	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	segundafeira	_	NOUN	NOUN	_	41	nmod	_	TokenRange=157:169
+30	18	_	NUM	NUM	NumType=Card	29	nmod	_	TokenRange=170:172
+31	a	o	DET	DET	_	32	det	_	TokenRange=173:174
+32	prefeitura	prefeitura	NOUN	NOUN	_	41	nsubj	_	TokenRange=175:185
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=186:188
+34	maringa	maringa	NOUN	NOUN	_	32	nmod	_	TokenRange=189:196
+35-36	no	_	_	_	_	_	_	_	TokenRange=197:199
+35	em	em	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	norte	norte	NOUN	NOUN	_	32	nmod	_	TokenRange=200:205
+38-39	do	_	_	_	_	_	_	_	TokenRange=206:208
+38	de	de	ADP	ADP	_	40	case	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	parana	parana	NOUN	NOUN	_	37	nmod	_	TokenRange=209:215
+41	abriu	abrir	VERB	VERB	_	4	parataxis	_	SpacesAfter=\s\s|TokenRange=216:221
+

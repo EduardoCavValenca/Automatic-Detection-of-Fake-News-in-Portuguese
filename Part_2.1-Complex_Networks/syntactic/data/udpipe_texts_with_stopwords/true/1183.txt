@@ -1,0 +1,61 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = previdencia dos servidores de ms deve ir a 2 votacao nesta terca secretario fala sobre o projeto o projeto do governo muda alguns pontos importantes como o aumento da aliquota de contribuicao dos servidores que passa de 11 para 14 a reforma da
+1	previdencia	previdencia	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:11
+2-3	dos	_	_	_	_	_	_	_	TokenRange=12:15
+2	de	de	ADP	ADP	_	4	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	servidores	servidor	NOUN	NOUN	_	1	nmod	_	TokenRange=16:26
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=27:29
+6	ms	m	NOUN	NOUN	_	4	nmod	_	TokenRange=30:32
+7	deve	dever	AUX	AUX	_	8	aux	_	TokenRange=33:37
+8	ir	ir	VERB	VERB	_	0	root	_	TokenRange=38:40
+9	a	_	ADP	ADP	_	11	case	_	TokenRange=41:42
+10	2	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=43:44
+11	votacao	votacao	NOUN	NOUN	_	8	nmod	_	TokenRange=45:52
+12	nesta	_	ADP	ADP	_	14	case	_	TokenRange=53:58
+13	terca	_	PROPN	PNOUN	_	14	amod	_	TokenRange=59:64
+14	secretario	_	PROPN	PNOUN	_	15	nmod	_	TokenRange=65:75
+15	fala	_	VERB	VERB	_	8	parataxis	_	TokenRange=76:80
+16	sobre	_	ADP	ADP	_	18	case	_	TokenRange=81:86
+17	o	o	DET	DET	_	18	det	_	TokenRange=87:88
+18	projeto	projeto	NOUN	NOUN	_	15	nmod	_	TokenRange=89:96
+19	o	o	DET	DET	_	20	det	_	TokenRange=97:98
+20	projeto	projeto	NOUN	NOUN	_	24	nsubj	_	TokenRange=99:106
+21-22	do	_	_	_	_	_	_	_	TokenRange=107:109
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	governo	governo	NOUN	NOUN	_	20	nmod	_	TokenRange=110:117
+24	muda	mudar	VERB	VERB	_	8	parataxis	_	TokenRange=118:122
+25	alguns	_	DET	DET	_	26	det	_	TokenRange=123:129
+26	pontos	ponto	NOUN	NOUN	_	24	obj	_	TokenRange=130:136
+27	importantes	importante	ADJ	ADJ	_	26	amod	_	TokenRange=137:148
+28	como	como	ADP	ADP	_	30	case	_	TokenRange=149:153
+29	o	o	DET	DET	_	30	det	_	TokenRange=154:155
+30	aumento	aumento	NOUN	NOUN	_	26	nmod	_	TokenRange=156:163
+31-32	da	_	_	_	_	_	_	_	TokenRange=164:166
+31	de	de	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	aliquota	aliquota	NOUN	NOUN	_	30	nmod	_	TokenRange=167:175
+34	de	de	ADP	ADP	_	35	case	_	TokenRange=176:178
+35	contribuicao	contribuicao	NOUN	NOUN	_	33	nmod	_	TokenRange=179:191
+36-37	dos	_	_	_	_	_	_	_	TokenRange=192:195
+36	de	de	ADP	ADP	_	38	case	_	_
+37	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	servidores	servidor	NOUN	NOUN	_	33	nmod	_	TokenRange=196:206
+39	que	_	PRON	PRON	_	40	nsubj	_	TokenRange=207:210
+40	passa	passar	VERB	VERB	_	30	acl:relcl	_	TokenRange=211:216
+41	de	de	ADP	ADP	_	42	case	_	TokenRange=217:219
+42	11	_	NUM	NUM	NumType=Card	40	nmod	_	TokenRange=220:222
+43	para	para	ADP	ADP	_	44	case	_	TokenRange=223:227
+44	14	_	NUM	NUM	NumType=Card	40	nmod	_	TokenRange=228:230
+45	a	o	DET	DET	_	46	det	_	TokenRange=231:232
+46	reforma	reforma	NOUN	NOUN	_	30	appos	_	TokenRange=233:240
+47-48	da	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=241:243
+47	de	de	ADP	ADP	_	46	case	_	_
+48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+

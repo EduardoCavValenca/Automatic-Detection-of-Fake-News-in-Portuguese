@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pf prende geddel vieira lima apos apreensao de r 51 mi dinheiro em especie foi escondido em malas em apartamento que seria utilizado por ele exministro cumpria mandado de prisao domiciliar em salvador brasilia a policia federal prendeu o exministro geddel vieira lima pmdb por decisao da 10 vara de brasilia na manha desta sextafeira 8 a medida e mais uma fase da operacao cui bono um desdobramento da
+1	pf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	prende	_	VERB	VERB	_	0	root	_	TokenRange=3:9
+3	geddel	_	NOUN	NOUN	_	2	obj	_	TokenRange=10:16
+4	vieira	vieira	NOUN	NOUN	_	3	appos	_	TokenRange=17:23
+5	lima	lima	NOUN	NOUN	_	3	flat	_	TokenRange=24:28
+6	apos	_	ADP	ADP	_	7	case	_	TokenRange=29:33
+7	apreensao	apreensao	NOUN	NOUN	_	16	nmod	_	TokenRange=34:43
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=44:46
+9	r	r	NOUN	NOUN	_	7	nmod	_	TokenRange=47:48
+10	51	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=49:51
+11	mi	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=52:54
+12	dinheiro	dinheiro	NOUN	NOUN	_	9	appos	_	TokenRange=55:63
+13	em	em	ADP	ADP	_	14	case	_	TokenRange=64:66
+14	especie	especie	NOUN	NOUN	_	12	nmod	_	TokenRange=67:74
+15	foi	_	AUX	AUX	_	16	aux:pass	_	TokenRange=75:78
+16	escondido	esconder	VERB	VERB	_	2	parataxis	_	TokenRange=79:88
+17	em	em	ADP	ADP	_	18	case	_	TokenRange=89:91
+18	malas	mala	NOUN	NOUN	_	16	nmod	_	TokenRange=92:97
+19	em	em	ADP	ADP	_	20	case	_	TokenRange=98:100
+20	apartamento	apartamento	NOUN	NOUN	_	16	nmod	_	TokenRange=101:112
+21	que	_	PRON	PRON	_	23	nsubj:pass	_	TokenRange=113:116
+22	seria	_	AUX	AUX	_	23	aux:pass	_	TokenRange=117:122
+23	utilizado	utilizar	VERB	VERB	_	20	acl:relcl	_	TokenRange=123:132
+24	por	por	ADP	ADP	_	25	case	_	TokenRange=133:136
+25	ele	_	PRON	PRON	_	23	nmod	_	TokenRange=137:140
+26	exministro	exministro	NOUN	NOUN	_	23	nsubj:pass	_	TokenRange=141:151
+27	cumpria	cumprir	VERB	VERB	_	20	acl:relcl	_	TokenRange=152:159
+28	mandado	mandado	NOUN	NOUN	_	27	obj	_	TokenRange=160:167
+29	de	de	ADP	ADP	_	30	case	_	TokenRange=168:170
+30	prisao	prisao	NOUN	NOUN	_	28	nmod	_	TokenRange=171:177
+31	domiciliar	domiciliar	ADJ	ADJ	_	30	amod	_	TokenRange=178:188
+32	em	em	ADP	ADP	_	33	case	_	TokenRange=189:191
+33	salvador	salvador	NOUN	NOUN	_	27	nmod	_	TokenRange=192:200
+34	brasilia	brasilia	ADJ	ADJ	_	33	amod	_	TokenRange=201:209
+35	a	o	DET	DET	_	36	det	_	TokenRange=210:211
+36	policia	policia	NOUN	NOUN	_	38	nsubj	_	TokenRange=212:219
+37	federal	federal	ADJ	ADJ	_	36	amod	_	TokenRange=220:227
+38	prendeu	prender	VERB	VERB	_	2	conj	_	TokenRange=228:235
+39	o	o	DET	DET	_	40	det	_	TokenRange=236:237
+40	exministro	exministro	NOUN	NOUN	_	38	obj	_	TokenRange=238:248
+41	geddel	_	NOUN	NOUN	_	40	appos	_	TokenRange=249:255
+42	vieira	vieira	NOUN	NOUN	_	41	flat	_	TokenRange=256:262
+43	lima	lima	ADJ	ADJ	_	41	flat	_	TokenRange=263:267
+44	pmdb	_	NOUN	NOUN	_	38	obj	_	TokenRange=268:272
+45	por	por	ADP	ADP	_	46	case	_	TokenRange=273:276
+46	decisao	decisao	NOUN	NOUN	_	38	nmod	_	TokenRange=277:284
+47-48	da	_	_	_	_	_	_	_	TokenRange=285:287
+47	de	de	ADP	ADP	_	50	case	_	_
+48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+49	10	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=288:290
+50	vara	vara	NOUN	NOUN	_	46	nmod	_	TokenRange=291:295
+51	de	de	ADP	ADP	_	52	case	_	TokenRange=296:298
+52	brasilia	brasilia	NOUN	NOUN	_	50	nmod	_	TokenRange=299:307
+53-54	na	_	_	_	_	_	_	_	TokenRange=308:310
+53	em	em	ADP	ADP	_	55	case	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	manha	manha	NOUN	NOUN	_	38	nmod	_	TokenRange=311:316
+56	desta	_	ADP	ADP	_	57	case	_	TokenRange=317:322
+57	sextafeira	_	PROPN	PNOUN	_	55	nmod	_	TokenRange=323:333
+58	8	_	NUM	NUM	NumType=Card	57	nmod	_	TokenRange=334:335
+59	a	o	DET	DET	_	60	det	_	TokenRange=336:337
+60	medida	medida	NOUN	NOUN	_	69	nsubj	_	TokenRange=338:344
+61	e	e	CCONJ	CONJ	_	64	cc	_	TokenRange=345:346
+62	mais	mais	ADV	ADV	_	63	advmod	_	TokenRange=347:351
+63	uma	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=352:355
+64	fase	fase	NOUN	NOUN	_	60	conj	_	TokenRange=356:360
+65-66	da	_	_	_	_	_	_	_	TokenRange=361:363
+65	de	de	ADP	ADP	_	67	case	_	_
+66	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	operacao	operacao	NOUN	NOUN	_	64	nmod	_	TokenRange=364:372
+68	cui	_	ADV	ADV	_	69	dep	_	TokenRange=373:376
+69	bono	bonar	VERB	VERB	_	2	parataxis	_	TokenRange=377:381
+70	um	um	DET	DET	_	71	det	_	TokenRange=382:384
+71	desdobramento	desdobramento	NOUN	NOUN	_	69	obj	_	TokenRange=385:398
+72-73	da	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=399:401
+72	de	de	ADP	ADP	_	67	case	_	_
+73	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+

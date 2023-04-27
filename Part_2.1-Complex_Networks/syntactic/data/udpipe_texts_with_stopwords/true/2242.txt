@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = manifestacoes afetam o transito e o transporte publico em ribeirao preto e franca centrais sindicais realizaram interdicoes e passeatas nesta sextafeira 28 contra as reformas trabalhista e da previdencia protestos afetaram o funcionamento de escolas bancos e do poder judiciario protestos e paralisacoes organizados por centrais sindicais contra as reformas trabalhista e da previdencia afetaram o transito e o transporte publico em ribeirao preto sp e franca sp na manha desta
+1	manifestacoes	manifestacoe	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:13
+2	afetam	afetar	VERB	VERB	_	0	root	_	TokenRange=14:20
+3	o	o	DET	DET	_	4	det	_	TokenRange=21:22
+4	transito	transito	NOUN	NOUN	_	2	obj	_	TokenRange=23:31
+5	e	e	CCONJ	CONJ	_	7	cc	_	TokenRange=32:33
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	TokenRange=34:35
+7	transporte	transporte	NOUN	NOUN	_	4	conj	_	TokenRange=36:46
+8	publico	publico	ADJ	ADJ	_	7	amod	_	TokenRange=47:54
+9	em	em	ADP	ADP	_	10	case	_	TokenRange=55:57
+10	ribeirao	ribeirao	NOUN	NOUN	_	2	nmod	_	TokenRange=58:66
+11	preto	preto	ADJ	ADJ	_	10	amod	_	TokenRange=67:72
+12	e	e	CCONJ	CONJ	_	13	cc	_	TokenRange=73:74
+13	franca	franco	ADJ	ADJ	_	10	conj	_	TokenRange=75:81
+14	centrais	central	NOUN	NOUN	_	16	nsubj	_	TokenRange=82:90
+15	sindicais	sindical	ADJ	ADJ	_	14	amod	_	TokenRange=91:100
+16	realizaram	realizar	VERB	VERB	_	2	parataxis	_	TokenRange=101:111
+17	interdicoes	_	NOUN	NOUN	_	16	obj	_	TokenRange=112:123
+18	e	e	CCONJ	CONJ	_	19	cc	_	TokenRange=124:125
+19	passeatas	_	NOUN	NOUN	_	17	conj	_	TokenRange=126:135
+20	nesta	_	ADP	ADP	_	21	case	_	TokenRange=136:141
+21	sextafeira	sextafeira	NOUN	NOUN	_	16	nmod	_	TokenRange=142:152
+22	28	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=153:155
+23	contra	_	ADP	ADP	_	25	case	_	TokenRange=156:162
+24	as	o	DET	DET	_	25	det	_	TokenRange=163:165
+25	reformas	reforma	NOUN	NOUN	_	16	nmod	_	TokenRange=166:174
+26	trabalhista	trabalhista	ADJ	ADJ	_	25	amod	_	TokenRange=175:186
+27	e	e	CCONJ	CONJ	_	30	cc	_	TokenRange=187:188
+28-29	da	_	_	_	_	_	_	_	TokenRange=189:191
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	previdencia	_	NOUN	NOUN	_	25	conj	_	TokenRange=192:203
+31	protestos	protesto	NOUN	NOUN	_	32	nsubj	_	TokenRange=204:213
+32	afetaram	afetar	VERB	VERB	_	16	conj	_	TokenRange=214:222
+33	o	o	DET	DET	_	34	det	_	TokenRange=223:224
+34	funcionamento	funcionamento	NOUN	NOUN	_	32	obj	_	TokenRange=225:238
+35	de	de	ADP	ADP	_	36	case	_	TokenRange=239:241
+36	escolas	escola	NOUN	NOUN	_	34	nmod	_	TokenRange=242:249
+37	bancos	banco	NOUN	NOUN	_	36	amod	_	TokenRange=250:256
+38	e	e	CCONJ	CONJ	_	41	cc	_	TokenRange=257:258
+39-40	do	_	_	_	_	_	_	_	TokenRange=259:261
+39	de	de	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	poder	poder	NOUN	NOUN	_	36	conj	_	TokenRange=262:267
+42	judiciario	judiciario	ADJ	ADJ	_	41	amod	_	TokenRange=268:278
+43	protestos	protesto	NOUN	NOUN	_	32	nsubj	_	TokenRange=279:288
+44	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=289:290
+45	paralisacoes	_	NOUN	NOUN	_	43	conj	_	TokenRange=291:303
+46	organizados	organizar	VERB	VERB	_	43	acl	_	TokenRange=304:315
+47	por	por	ADP	ADP	_	48	case	_	TokenRange=316:319
+48	centrais	central	NOUN	NOUN	_	46	nmod	_	TokenRange=320:328
+49	sindicais	sindical	ADJ	ADJ	_	48	amod	_	TokenRange=329:338
+50	contra	_	ADP	ADP	_	52	case	_	TokenRange=339:345
+51	as	o	DET	DET	_	52	det	_	TokenRange=346:348
+52	reformas	reforma	NOUN	NOUN	_	48	nmod	_	TokenRange=349:357
+53	trabalhista	trabalhista	ADJ	ADJ	_	52	amod	_	TokenRange=358:369
+54	e	e	CCONJ	CONJ	_	57	cc	_	TokenRange=370:371
+55-56	da	_	_	_	_	_	_	_	TokenRange=372:374
+55	de	de	ADP	ADP	_	57	case	_	_
+56	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	previdencia	previdencia	NOUN	NOUN	_	52	conj	_	TokenRange=375:386
+58	afetaram	afetar	VERB	VERB	_	2	conj	_	TokenRange=387:395
+59	o	o	DET	DET	_	60	det	_	TokenRange=396:397
+60	transito	transito	NOUN	NOUN	_	58	obj	_	TokenRange=398:406
+61	e	e	CCONJ	CONJ	_	63	cc	_	TokenRange=407:408
+62	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	TokenRange=409:410
+63	transporte	transporte	NOUN	NOUN	_	60	conj	_	TokenRange=411:421
+64	publico	publico	ADJ	ADJ	_	63	amod	_	TokenRange=422:429
+65	em	em	ADP	ADP	_	66	case	_	TokenRange=430:432
+66	ribeirao	ribeirao	NOUN	NOUN	_	58	nmod	_	TokenRange=433:441
+67	preto	preto	ADJ	ADJ	_	66	amod	_	TokenRange=442:447
+68	sp	_	ADJ	ADJ	_	66	amod	_	TokenRange=448:450
+69	e	e	CCONJ	CONJ	_	70	cc	_	TokenRange=451:452
+70	franca	_	NOUN	NOUN	_	66	conj	_	TokenRange=453:459
+71	sp	sp	ADJ	ADJ	_	70	amod	_	TokenRange=460:462
+72-73	na	_	_	_	_	_	_	_	TokenRange=463:465
+72	em	em	ADP	ADP	_	74	case	_	_
+73	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
+74	manha	manha	NOUN	NOUN	_	58	nmod	_	TokenRange=466:471
+75	desta	_	X	ADPPRON	_	74	nmod	_	SpacesAfter=\s\s|TokenRange=472:477
+

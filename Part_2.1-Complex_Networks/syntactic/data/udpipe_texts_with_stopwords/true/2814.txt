@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = politicos comentam decisao do stf de manter renan na presidencia do senado supremo rejeitou afastar renan calheiros do comando da casa mas o proibiu de assumir a presidencia da republica veja como os politicos avaliaram a decisao do supremo tribunal federal desta quartafeira 7 de manter renan calheiros pmdbal na presidencia do senado mesmo apos o
+1	politicos	politico	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	comentam	comentar	VERB	VERB	_	0	root	_	TokenRange=10:18
+3	decisao	decisao	NOUN	NOUN	_	2	obj	_	TokenRange=19:26
+4-5	do	_	_	_	_	_	_	_	TokenRange=27:29
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stf	_	NOUN	NOUN	_	3	nmod	_	TokenRange=30:33
+7	de	_	ADP	ADP	_	8	mark	_	TokenRange=34:36
+8	manter	manter	VERB	VERB	_	3	nmod	_	TokenRange=37:43
+9	renan	_	NOUN	NOUN	_	8	obj	_	TokenRange=44:49
+10-11	na	_	_	_	_	_	_	_	TokenRange=50:52
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	presidencia	presidencia	NOUN	NOUN	_	8	nmod	_	TokenRange=53:64
+13-14	do	_	_	_	_	_	_	_	TokenRange=65:67
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	senado	senado	NOUN	NOUN	_	12	nmod	_	TokenRange=68:74
+16	supremo	supremo	ADJ	ADJ	_	15	amod	_	TokenRange=75:82
+17	rejeitou	rejeitar	VERB	VERB	_	2	ccomp	_	TokenRange=83:91
+18	afastar	afastar	VERB	VERB	_	17	xcomp	_	TokenRange=92:99
+19	renan	renan	NOUN	NOUN	_	18	obj	_	TokenRange=100:105
+20	calheiros	calheiro	NOUN	NOUN	_	19	flat	_	TokenRange=106:115
+21-22	do	_	_	_	_	_	_	_	TokenRange=116:118
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	comando	comando	NOUN	NOUN	_	18	nmod	_	TokenRange=119:126
+24-25	da	_	_	_	_	_	_	_	TokenRange=127:129
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	casa	casa	NOUN	NOUN	_	23	nmod	_	TokenRange=130:134
+27	mas	mas	CCONJ	CONJ	_	29	cc	_	TokenRange=135:138
+28	o	_	PRON	PRON	_	29	obj	_	TokenRange=139:140
+29	proibiu	proibir	VERB	VERB	_	17	conj	_	TokenRange=141:148
+30	de	_	ADP	ADP	_	31	mark	_	TokenRange=149:151
+31	assumir	assumir	VERB	VERB	_	29	nmod	_	TokenRange=152:159
+32	a	o	DET	DET	_	33	det	_	TokenRange=160:161
+33	presidencia	presidencia	NOUN	NOUN	_	31	obj	_	TokenRange=162:173
+34-35	da	_	_	_	_	_	_	_	TokenRange=174:176
+34	de	de	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	republica	_	NOUN	NOUN	_	33	nmod	_	TokenRange=177:186
+37	veja	ver	VERB	VERB	_	2	parataxis	_	TokenRange=187:191
+38	como	como	ADV	ADV	_	41	advmod	_	TokenRange=192:196
+39	os	o	DET	DET	_	40	det	_	TokenRange=197:199
+40	politicos	politico	NOUN	NOUN	_	41	nsubj	_	TokenRange=200:209
+41	avaliaram	avaliar	VERB	VERB	_	37	ccomp	_	TokenRange=210:219
+42	a	o	DET	DET	_	43	det	_	TokenRange=220:221
+43	decisao	decisao	NOUN	NOUN	_	41	obj	_	TokenRange=222:229
+44-45	do	_	_	_	_	_	_	_	TokenRange=230:232
+44	de	de	ADP	ADP	_	47	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+46	supremo	supremo	ADJ	ADJ	_	47	amod	_	TokenRange=233:240
+47	tribunal	tribunal	NOUN	NOUN	_	43	nmod	_	TokenRange=241:249
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=250:257
+49	desta	_	ADP	ADP	_	50	case	_	TokenRange=258:263
+50	quartafeira	quartafeira	NOUN	NOUN	_	47	nmod	_	TokenRange=264:275
+51	7	_	NUM	NUM	NumType=Card	50	appos	_	TokenRange=276:277
+52	de	_	ADP	ADP	_	53	mark	_	TokenRange=278:280
+53	manter	manter	VERB	VERB	_	43	nmod	_	TokenRange=281:287
+54	renan	_	NOUN	NOUN	_	53	obj	_	TokenRange=288:293
+55	calheiros	calheiro	NOUN	NOUN	_	54	flat	_	TokenRange=294:303
+56	pmdbal	_	ADJ	ADJ	_	54	amod	_	TokenRange=304:310
+57-58	na	_	_	_	_	_	_	_	TokenRange=311:313
+57	em	em	ADP	ADP	_	59	case	_	_
+58	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	presidencia	presidencia	NOUN	NOUN	_	53	nmod	_	TokenRange=314:325
+60-61	do	_	_	_	_	_	_	_	TokenRange=326:328
+60	de	de	ADP	ADP	_	62	case	_	_
+61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	senado	senado	NOUN	NOUN	_	59	nmod	_	TokenRange=329:335
+63	mesmo	mesmo	ADV	ADV	_	64	advmod	_	TokenRange=336:341
+64	apos	_	ADP	ADP	_	53	case	_	TokenRange=342:346
+65	o	o	DET	DET	_	59	det	_	SpacesAfter=\s\s|TokenRange=347:348
+

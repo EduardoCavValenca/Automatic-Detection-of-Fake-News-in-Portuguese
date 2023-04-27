@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ja atingiram meu olho mas nao vao me calar professora agredida por aluno denuncia mensagens de odio exposicao do caso nas redes sociais desencadeou uma nova onda de ataques contra marcia friggi o sangue que escorria de uma abertura do supercilio manchava o rosto de marcia friggi de 51 anos do olho esquerdo brotavam lagrimas ja que o direito atingido por um soco estava tao inchado que a professora de
+1	ja	ja	ADV	ADV	_	2	advmod	_	TokenRange=0:2
+2	atingiram	atingir	VERB	VERB	_	26	ccomp	_	TokenRange=3:12
+3	meu	_	DET	DET	_	4	det:poss	_	TokenRange=13:16
+4	olho	olho	NOUN	NOUN	_	2	obj	_	TokenRange=17:21
+5	mas	mas	CCONJ	CONJ	_	9	cc	_	TokenRange=22:25
+6	nao	nao	ADV	ADV	Polarity=Neg	9	advmod	_	TokenRange=26:29
+7	vao	ir	AUX	AUX	_	9	aux	_	TokenRange=30:33
+8	me	_	PRON	PRON	_	9	obj	_	TokenRange=34:36
+9	calar	calar	VERB	VERB	_	2	conj	_	TokenRange=37:42
+10	professora	professor	NOUN	NOUN	_	9	obj	_	TokenRange=43:53
+11	agredida	agredir	VERB	VERB	_	10	acl	_	TokenRange=54:62
+12	por	por	ADP	ADP	_	13	case	_	TokenRange=63:66
+13	aluno	aluno	NOUN	NOUN	_	11	nmod	_	TokenRange=67:72
+14	denuncia	denunciar	VERB	VERB	_	2	parataxis	_	TokenRange=73:81
+15	mensagens	mensagem	NOUN	NOUN	_	14	obj	_	TokenRange=82:91
+16	de	de	ADP	ADP	_	17	case	_	TokenRange=92:94
+17	odio	odio	NOUN	NOUN	_	15	nmod	_	TokenRange=95:99
+18	exposicao	exposicao	NOUN	NOUN	_	14	obj	_	TokenRange=100:109
+19-20	do	_	_	_	_	_	_	_	TokenRange=110:112
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	caso	caso	NOUN	NOUN	_	18	nmod	_	TokenRange=113:117
+22-23	nas	_	_	_	_	_	_	_	TokenRange=118:121
+22	em	em	ADP	ADP	_	24	case	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	redes	rede	NOUN	NOUN	_	14	nmod	_	TokenRange=122:127
+25	sociais	social	ADJ	ADJ	_	24	amod	_	TokenRange=128:135
+26	desencadeou	desencadear	VERB	VERB	_	0	root	_	TokenRange=136:147
+27	uma	um	DET	DET	_	29	det	_	TokenRange=148:151
+28	nova	novo	ADJ	ADJ	_	29	amod	_	TokenRange=152:156
+29	onda	onda	NOUN	NOUN	_	26	obj	_	TokenRange=157:161
+30	de	de	ADP	ADP	_	31	case	_	TokenRange=162:164
+31	ataques	ataque	NOUN	NOUN	_	29	nmod	_	TokenRange=165:172
+32	contra	_	ADP	ADP	_	33	case	_	TokenRange=173:179
+33	marcia	marcia	NOUN	NOUN	_	29	nmod	_	TokenRange=180:186
+34	friggi	friggi	ADJ	ADJ	_	33	flat	_	TokenRange=187:193
+35	o	o	DET	DET	_	36	det	_	TokenRange=194:195
+36	sangue	sangue	NOUN	NOUN	_	45	nsubj	_	TokenRange=196:202
+37	que	_	PRON	PRON	_	38	nsubj	_	TokenRange=203:206
+38	escorria	escorrer	VERB	VERB	_	36	acl:relcl	_	TokenRange=207:215
+39	de	de	ADP	ADP	_	41	case	_	TokenRange=216:218
+40	uma	um	DET	DET	_	41	det	_	TokenRange=219:222
+41	abertura	abertura	NOUN	NOUN	_	38	nmod	_	TokenRange=223:231
+42-43	do	_	_	_	_	_	_	_	TokenRange=232:234
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	supercilio	supercilio	NOUN	NOUN	_	41	nmod	_	TokenRange=235:245
+45	manchava	manchar	VERB	VERB	_	26	parataxis	_	TokenRange=246:254
+46	o	o	DET	DET	_	47	det	_	TokenRange=255:256
+47	rosto	rosto	NOUN	NOUN	_	45	obj	_	TokenRange=257:262
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=263:265
+49	marcia	marcia	NOUN	NOUN	_	47	nmod	_	TokenRange=266:272
+50	friggi	friggi	ADJ	ADJ	_	49	flat	_	TokenRange=273:279
+51	de	de	ADP	ADP	_	53	case	_	TokenRange=280:282
+52	51	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=283:285
+53	anos	ano	NOUN	NOUN	_	49	nmod	_	TokenRange=286:290
+54-55	do	_	_	_	_	_	_	_	TokenRange=291:293
+54	de	de	ADP	ADP	_	56	case	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	olho	olho	NOUN	NOUN	_	58	nmod	_	TokenRange=294:298
+57	esquerdo	esquerdo	ADJ	ADJ	_	56	amod	_	TokenRange=299:307
+58	brotavam	brotar	VERB	VERB	_	45	parataxis	_	TokenRange=308:316
+59	lagrimas	lagrima	NOUN	NOUN	_	58	nsubj	_	TokenRange=317:325
+60	ja	ja	ADV	ADV	_	68	mark	_	TokenRange=326:328
+61	que	_	CCONJ	CONJ	_	60	fixed	_	TokenRange=329:332
+62	o	o	DET	DET	_	63	det	_	TokenRange=333:334
+63	direito	direito	NOUN	NOUN	_	68	nsubj	_	TokenRange=335:342
+64	atingido	atingir	VERB	VERB	_	63	acl	_	TokenRange=343:351
+65	por	por	ADP	ADP	_	67	case	_	TokenRange=352:355
+66	um	um	DET	DET	_	67	det	_	TokenRange=356:358
+67	soco	soco	NOUN	NOUN	_	64	nmod	_	TokenRange=359:363
+68	estava	estar	VERB	VERB	_	58	advcl	_	TokenRange=364:370
+69	tao	tao	ADV	ADV	_	70	advmod	_	TokenRange=371:374
+70	inchado	inchado	ADJ	ADJ	_	68	xcomp	_	TokenRange=375:382
+71	que	_	ADP	ADP	_	73	case	_	TokenRange=383:386
+72	a	o	DET	DET	_	73	det	_	TokenRange=387:388
+73	professora	professor	NOUN	NOUN	_	68	nmod	_	TokenRange=389:399
+74	de	de	ADP	ADP	_	68	mark	_	SpacesAfter=\s\s|TokenRange=400:402
+

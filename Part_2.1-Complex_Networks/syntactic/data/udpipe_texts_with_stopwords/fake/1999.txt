@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estadio do manchester city na inglaterra e evacuado as pressas nenhuma explicacao oficial foi dada para a evacuacao mas ha um relato de estado de emergencia um portavoz do clube disse a evacuacao terminou e o estadio agora esta seguro o gerente de midia social do clube tuitou abaixo para dizer que todos tinham retornado com seguranca ao estadio a informacao e do jornal the sun
+1	estadio	estadio	NOUN	NOUN	_	17	nsubj:pass	_	TokenRange=0:7
+2-3	do	_	_	_	_	_	_	_	TokenRange=8:10
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	manchester	manchester	NOUN	NOUN	_	1	nmod	_	TokenRange=11:21
+5	city	_	ADJ	ADJ	_	4	amod	_	TokenRange=22:26
+6-7	na	_	_	_	_	_	_	_	TokenRange=27:29
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	inglaterra	inglaterra	NOUN	NOUN	_	1	nmod	_	TokenRange=30:40
+9	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=41:42
+10	evacuado	evacuar	VERB	VERB	_	1	conj	_	TokenRange=43:51
+11	as	_	ADP	ADP	_	12	case	_	TokenRange=52:54
+12	pressas	pressa	NOUN	NOUN	_	10	nmod	_	TokenRange=55:62
+13	nenhuma	_	DET	DET	_	14	det	_	TokenRange=63:70
+14	explicacao	explicacao	NOUN	NOUN	_	17	nsubj:pass	_	TokenRange=71:81
+15	oficial	oficial	ADJ	ADJ	_	14	amod	_	TokenRange=82:89
+16	foi	_	AUX	AUX	_	17	aux:pass	_	TokenRange=90:93
+17	dada	dar	VERB	VERB	_	0	root	_	TokenRange=94:98
+18	para	para	ADP	ADP	_	20	case	_	TokenRange=99:103
+19	a	o	DET	DET	_	20	det	_	TokenRange=104:105
+20	evacuacao	evacuacao	NOUN	NOUN	_	17	nmod	_	TokenRange=106:115
+21	mas	mas	CCONJ	CONJ	_	22	cc	_	TokenRange=116:119
+22	ha	_	VERB	VERB	_	17	conj	_	TokenRange=120:122
+23	um	um	DET	DET	_	24	det	_	TokenRange=123:125
+24	relato	relato	NOUN	NOUN	_	22	obj	_	TokenRange=126:132
+25	de	de	ADP	ADP	_	26	case	_	TokenRange=133:135
+26	estado	estado	NOUN	NOUN	_	24	nmod	_	TokenRange=136:142
+27	de	de	ADP	ADP	_	28	case	_	TokenRange=143:145
+28	emergencia	emergencia	NOUN	NOUN	_	26	nmod	_	TokenRange=146:156
+29	um	um	DET	DET	_	30	det	_	TokenRange=157:159
+30	portavoz	portavoz	NOUN	NOUN	_	34	nsubj	_	TokenRange=160:168
+31-32	do	_	_	_	_	_	_	_	TokenRange=169:171
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	clube	clube	NOUN	NOUN	_	30	nmod	_	TokenRange=172:177
+34	disse	dizer	VERB	VERB	_	17	conj	_	TokenRange=178:183
+35	a	o	DET	DET	_	36	det	_	TokenRange=184:185
+36	evacuacao	evacuacao	NOUN	NOUN	_	37	nsubj	_	TokenRange=186:195
+37	terminou	terminar	VERB	VERB	_	34	ccomp	_	TokenRange=196:204
+38	e	e	CCONJ	CONJ	_	42	cc	_	TokenRange=205:206
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	TokenRange=207:208
+40	estadio	estadio	NOUN	NOUN	_	42	nsubj	_	TokenRange=209:216
+41	agora	agora	ADV	ADV	_	42	advmod	_	TokenRange=217:222
+42	esta	_	VERB	VERB	_	37	conj	_	TokenRange=223:227
+43	seguro	seguro	ADJ	ADJ	_	42	xcomp	_	TokenRange=228:234
+44	o	o	DET	DET	_	45	det	_	TokenRange=235:236
+45	gerente	gerente	NOUN	NOUN	_	52	nsubj	_	TokenRange=237:244
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=245:247
+47	midia	midia	NOUN	NOUN	_	45	nmod	_	TokenRange=248:253
+48	social	social	ADJ	ADJ	_	47	amod	_	TokenRange=254:260
+49-50	do	_	_	_	_	_	_	_	TokenRange=261:263
+49	de	de	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	clube	clube	NOUN	NOUN	_	45	nmod	_	TokenRange=264:269
+52	tuitou	tuitar	VERB	VERB	_	34	conj	_	TokenRange=270:276
+53	abaixo	abaixo	ADV	ADV	_	52	advmod	_	TokenRange=277:283
+54	para	_	ADP	ADP	_	55	mark	_	TokenRange=284:288
+55	dizer	dizer	VERB	VERB	_	52	advcl	_	TokenRange=289:294
+56	que	que	CCONJ	CONJ	_	59	mark	_	TokenRange=295:298
+57	todos	_	PRON	PRON	_	59	nsubj	_	TokenRange=299:304
+58	tinham	ter	AUX	AUX	_	59	aux	_	TokenRange=305:311
+59	retornado	retornar	VERB	VERB	_	55	ccomp	_	TokenRange=312:321
+60	com	com	ADP	ADP	_	61	case	_	TokenRange=322:325
+61	seguranca	_	NOUN	NOUN	_	59	nmod	_	TokenRange=326:335
+62-63	ao	_	_	_	_	_	_	_	TokenRange=336:338
+62	a	a	ADP	ADP	_	64	case	_	_
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	estadio	estadio	NOUN	NOUN	_	59	nmod	_	TokenRange=339:346
+65	a	o	DET	DET	_	66	det	_	TokenRange=347:348
+66	informacao	informacao	NOUN	NOUN	_	59	obj	_	TokenRange=349:359
+67	e	e	CCONJ	CONJ	_	70	cc	_	TokenRange=360:361
+68-69	do	_	_	_	_	_	_	_	TokenRange=362:364
+68	de	de	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	jornal	jornal	NOUN	NOUN	_	66	conj	_	TokenRange=365:371
+71	the	_	DET	DET	_	72	det	_	TokenRange=372:375
+72	sun	_	NOUN	NOUN	_	70	appos	_	SpacesAfter=\s\s|TokenRange=376:379
+

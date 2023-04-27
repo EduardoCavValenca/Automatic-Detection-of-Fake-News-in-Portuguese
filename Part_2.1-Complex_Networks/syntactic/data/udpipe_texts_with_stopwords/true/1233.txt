@@ -1,0 +1,35 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogado pede ao supremo para derrubar inquerito que investiga temer ministro edson fachin autorizou abertura de inquerito para investigar presidente segundo pgr temer deu anuencia
+1	advogado	advogado	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=9:13
+3-4	ao	_	_	_	_	_	_	_	TokenRange=14:16
+3	a	a	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	supremo	supremo	NOUN	NOUN	_	2	iobj	_	TokenRange=17:24
+6	para	_	ADP	ADP	_	7	mark	_	TokenRange=25:29
+7	derrubar	derrubar	VERB	VERB	_	2	advcl	_	TokenRange=30:38
+8	inquerito	inquerito	NOUN	NOUN	_	7	obj	_	TokenRange=39:48
+9	que	_	PRON	PRON	_	10	nsubj	_	TokenRange=49:52
+10	investiga	investigar	VERB	VERB	_	8	acl:relcl	_	TokenRange=53:62
+11	temer	temer	NOUN	NOUN	_	10	obj	_	TokenRange=63:68
+12	ministro	ministro	NOUN	NOUN	_	15	nsubj	_	TokenRange=69:77
+13	edson	_	NOUN	NOUN	_	12	appos	_	TokenRange=78:83
+14	fachin	_	ADJ	ADJ	_	13	flat	_	TokenRange=84:90
+15	autorizou	autorizar	VERB	VERB	_	2	parataxis	_	TokenRange=91:100
+16	abertura	abertura	NOUN	NOUN	_	15	obj	_	TokenRange=101:109
+17	de	de	ADP	ADP	_	18	case	_	TokenRange=110:112
+18	inquerito	inquerito	NOUN	NOUN	_	16	nmod	_	TokenRange=113:122
+19	para	_	ADP	ADP	_	20	mark	_	TokenRange=123:127
+20	investigar	investigar	VERB	VERB	_	15	advcl	_	TokenRange=128:138
+21	presidente	presidente	NOUN	NOUN	_	20	obj	_	TokenRange=139:149
+22	segundo	_	ADP	ADP	_	23	case	_	TokenRange=150:157
+23	pgr	pgr	NOUN	NOUN	_	25	nmod	_	TokenRange=158:161
+24	temer	temer	NOUN	NOUN	_	25	nsubj	_	TokenRange=162:167
+25	deu	dar	VERB	VERB	_	2	parataxis	_	TokenRange=168:171
+26	anuencia	anuencia	NOUN	NOUN	_	25	obj	_	SpacesAfter=\s\s|TokenRange=172:180
+

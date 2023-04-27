@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = datena manda recado para a rede globo oportunistasquero que voces se explodam os caras apoiam a ditadura e depois vem querer encher o saco porque sao uns oportunistas do caramba nunca mais eu volto a passar perto dessa emissora eu quero que voces se explodam eu nem vejo voces se tiver alguem vendo a globo na minha casa eu chuto a televisao
+1	datena	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	manda	mandar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	recado	recado	NOUN	NOUN	_	2	obj	_	TokenRange=13:19
+4	para	para	ADP	ADP	_	6	case	_	TokenRange=20:24
+5	a	o	DET	DET	_	6	det	_	TokenRange=25:26
+6	rede	rede	NOUN	NOUN	_	2	nmod	_	TokenRange=27:31
+7	globo	globo	ADJ	ADJ	_	6	amod	_	TokenRange=32:37
+8	oportunistasquero	_	ADJ	ADJ	_	2	obj	_	TokenRange=38:55
+9	que	que	CCONJ	CONJ	_	15	mark	_	TokenRange=56:59
+10	voces	_	PRON	PRON	_	12	nsubj	_	TokenRange=60:65
+11	se	_	PRON	PRON	_	12	expl:pv	_	TokenRange=66:68
+12	explodam	explodar	VERB	VERB	_	15	ccomp	_	TokenRange=69:77
+13	os	o	DET	DET	_	14	det	_	TokenRange=78:80
+14	caras	cara	NOUN	NOUN	_	15	nsubj	_	TokenRange=81:86
+15	apoiam	apoiar	VERB	VERB	_	2	ccomp	_	TokenRange=87:93
+16	a	o	DET	DET	_	17	det	_	TokenRange=94:95
+17	ditadura	ditadura	NOUN	NOUN	_	15	obj	_	TokenRange=96:104
+18	e	e	CCONJ	CONJ	_	21	cc	_	TokenRange=105:106
+19	depois	depois	ADV	ADV	_	21	advmod	_	TokenRange=107:113
+20	vem	vir	AUX	AUX	_	21	aux	_	TokenRange=114:117
+21	querer	querer	VERB	VERB	_	15	conj	_	TokenRange=118:124
+22	encher	encher	VERB	VERB	_	21	xcomp	_	TokenRange=125:131
+23	o	o	DET	DET	_	24	det	_	TokenRange=132:133
+24	saco	saco	NOUN	NOUN	_	22	obj	_	TokenRange=134:138
+25	porque	_	CCONJ	CONJ	_	28	mark	_	TokenRange=139:145
+26	sao	_	AUX	AUX	_	28	cop	_	TokenRange=146:149
+27	uns	_	DET	DET	_	28	det	_	TokenRange=150:153
+28	oportunistas	oportunista	NOUN	NOUN	_	21	advcl	_	TokenRange=154:166
+29-30	do	_	_	_	_	_	_	_	TokenRange=167:169
+29	de	de	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	caramba	caramba	NOUN	NOUN	_	28	nmod	_	TokenRange=170:177
+32	nunca	nunca	ADV	ADV	_	33	advmod	_	TokenRange=178:183
+33	mais	mais	ADV	ADV	_	37	advmod	_	TokenRange=184:188
+34	eu	_	PRON	PRON	_	37	nsubj	_	TokenRange=189:191
+35	volto	voltar	AUX	AUX	_	37	aux	_	TokenRange=192:197
+36	a	_	ADP	ADP	_	37	mark	_	TokenRange=198:199
+37	passar	passar	VERB	VERB	_	28	nmod	_	TokenRange=200:206
+38	perto	perto	ADV	ADV	_	37	advmod	_	TokenRange=207:212
+39	dessa	_	ADP	ADP	_	40	case	_	TokenRange=213:218
+40	emissora	_	NOUN	NOUN	_	38	nmod	_	TokenRange=219:227
+41	eu	_	PRON	PRON	_	42	nsubj	_	TokenRange=228:230
+42	quero	querer	VERB	VERB	_	2	parataxis	_	TokenRange=231:236
+43	que	que	CCONJ	CONJ	_	46	mark	_	TokenRange=237:240
+44	voces	_	PRON	PRON	_	46	nsubj	_	TokenRange=241:246
+45	se	_	PRON	PRON	_	46	expl:pv	_	TokenRange=247:249
+46	explodam	explodar	VERB	VERB	_	42	ccomp	_	TokenRange=250:258
+47	eu	_	PRON	PRON	_	46	nsubj	_	TokenRange=259:261
+48	nem	_	ADV	ADV	_	49	advmod	_	TokenRange=262:265
+49	vejo	ver	VERB	VERB	_	42	ccomp	_	TokenRange=266:270
+50	voces	_	PRON	PRON	_	49	nsubj	_	TokenRange=271:276
+51	se	_	CCONJ	CONJ	_	52	mark	_	TokenRange=277:279
+52	tiver	ter	VERB	VERB	_	49	advcl	_	TokenRange=280:285
+53	alguem	_	PRON	PRON	_	52	obj	_	TokenRange=286:292
+54	vendo	_	VERB	VERB	_	52	acl	_	TokenRange=293:298
+55	a	o	DET	DET	_	56	det	_	TokenRange=299:300
+56	globo	globo	NOUN	NOUN	_	54	obj	_	TokenRange=301:306
+57-58	na	_	_	_	_	_	_	_	TokenRange=307:309
+57	em	em	ADP	ADP	_	60	case	_	_
+58	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+59	minha	_	DET	DET	_	60	det:poss	_	TokenRange=310:315
+60	casa	casa	NOUN	NOUN	_	54	nmod	_	TokenRange=316:320
+61	eu	_	PRON	PRON	_	62	nsubj	_	TokenRange=321:323
+62	chuto	chutar	VERB	VERB	_	42	ccomp	_	TokenRange=324:329
+63	a	o	DET	DET	_	64	det	_	TokenRange=330:331
+64	televisao	televisao	NOUN	NOUN	_	62	obj	_	SpacesAfter=\s\s|TokenRange=332:341
+

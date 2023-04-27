@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = vergonha tv espanhola mostra neymar empurrando zagueiro na escada do vestiario neymar se desentendeu com o zagueiro ruben vezo dentro de campo e resolveu estender a confusao para o vestiario as imagens da emissora espanhola mostram que a briga foi ate a entrada do vestiario onde neymar empurrou rubem escada abaixo sera que neymar esta nervoso por causa do baixo salario que recebe
+1	vergonha	vergonha	ADJ	ADJ	_	2	amod	_	TokenRange=0:8
+2	tv	tv	NOUN	NOUN	_	4	nsubj	_	TokenRange=9:11
+3	espanhola	espanhol	ADJ	ADJ	_	2	amod	_	TokenRange=12:21
+4	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=22:28
+5	neymar	neymar	NOUN	NOUN	_	4	obj	_	TokenRange=29:35
+6	empurrando	empurrar	VERB	VERB	_	5	acl	_	TokenRange=36:46
+7	zagueiro	zagueiro	NOUN	NOUN	_	6	obj	_	TokenRange=47:55
+8-9	na	_	_	_	_	_	_	_	TokenRange=56:58
+8	em	em	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	escada	escada	NOUN	NOUN	_	6	nmod	_	TokenRange=59:65
+11-12	do	_	_	_	_	_	_	_	TokenRange=66:68
+11	de	de	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vestiario	vestiario	NOUN	NOUN	_	10	nmod	_	TokenRange=69:78
+14	neymar	neymar	PROPN	NOUN	_	16	nsubj	_	TokenRange=79:85
+15	se	_	PRON	PRON	_	16	obj	_	TokenRange=86:88
+16	desentendeu	desentender	VERB	VERB	_	4	parataxis	_	TokenRange=89:100
+17	com	com	ADP	ADP	_	19	case	_	TokenRange=101:104
+18	o	o	DET	DET	_	19	det	_	TokenRange=105:106
+19	zagueiro	zagueiro	NOUN	NOUN	_	16	nmod	_	TokenRange=107:115
+20	ruben	ruben	NOUN	NOUN	_	19	appos	_	TokenRange=116:121
+21	vezo	_	NOUN	NOUN	_	20	flat	_	TokenRange=122:126
+22	dentro	dentro	ADV	ADV	_	16	advmod	_	TokenRange=127:133
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=134:136
+24	campo	campo	NOUN	NOUN	_	22	nmod	_	TokenRange=137:142
+25	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=143:144
+26	resolveu	resolver	VERB	VERB	_	16	conj	_	TokenRange=145:153
+27	estender	estender	VERB	VERB	_	26	xcomp	_	TokenRange=154:162
+28	a	o	DET	DET	_	29	det	_	TokenRange=163:164
+29	confusao	confusao	NOUN	NOUN	_	27	obj	_	TokenRange=165:173
+30	para	para	ADP	ADP	_	32	case	_	TokenRange=174:178
+31	o	o	DET	DET	_	32	det	_	TokenRange=179:180
+32	vestiario	vestiario	NOUN	NOUN	_	27	nmod	_	TokenRange=181:190
+33	as	o	DET	DET	_	34	det	_	TokenRange=191:193
+34	imagens	imagem	NOUN	NOUN	_	39	nsubj	_	TokenRange=194:201
+35-36	da	_	_	_	_	_	_	_	TokenRange=202:204
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	emissora	_	NOUN	NOUN	_	34	nmod	_	TokenRange=205:213
+38	espanhola	espanhol	ADJ	ADJ	_	37	amod	_	TokenRange=214:223
+39	mostram	mostrar	VERB	VERB	_	4	parataxis	_	TokenRange=224:231
+40	que	que	CCONJ	CONJ	_	43	mark	_	TokenRange=232:235
+41	a	o	DET	DET	_	42	det	_	TokenRange=236:237
+42	briga	briga	NOUN	NOUN	_	43	nsubj	_	TokenRange=238:243
+43	foi	_	VERB	VERB	_	39	ccomp	_	TokenRange=244:247
+44	ate	_	ADP	ADP	_	46	case	_	TokenRange=248:251
+45	a	o	DET	DET	_	46	det	_	TokenRange=252:253
+46	entrada	entrada	NOUN	NOUN	_	43	nmod	_	TokenRange=254:261
+47-48	do	_	_	_	_	_	_	_	TokenRange=262:264
+47	de	de	ADP	ADP	_	49	case	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	vestiario	vestiario	NOUN	NOUN	_	46	nmod	_	TokenRange=265:274
+50	onde	onde	ADV	ADV	_	52	advmod	_	TokenRange=275:279
+51	neymar	_	PROPN	PNOUN	_	52	nsubj	_	TokenRange=280:286
+52	empurrou	empurrar	VERB	VERB	_	49	acl:relcl	_	TokenRange=287:295
+53	rubem	_	VERB	VERB	_	52	obj	_	TokenRange=296:301
+54	escada	escada	NOUN	NOUN	_	53	obj	_	TokenRange=302:308
+55	abaixo	abaixo	ADV	ADV	_	54	advmod	_	TokenRange=309:315
+56	sera	_	VERB	VERB	_	54	cop	_	TokenRange=316:320
+57	que	que	CCONJ	CONJ	_	59	mark	_	TokenRange=321:324
+58	neymar	neymar	NOUN	NOUN	_	59	nsubj	_	TokenRange=325:331
+59	esta	_	VERB	VERB	_	56	csubj	_	TokenRange=332:336
+60	nervoso	nervoso	ADJ	ADJ	_	59	xcomp	_	TokenRange=337:344
+61	por	por	ADP	ADP	_	66	case	_	TokenRange=345:348
+62	causa	causa	NOUN	NOUN	_	61	fixed	_	TokenRange=349:354
+63-64	do	_	_	_	_	_	_	_	TokenRange=355:357
+63	de	de	ADP	ADP	_	61	case	_	_
+64	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+65	baixo	baixo	ADJ	ADJ	_	66	amod	_	TokenRange=358:363
+66	salario	salario	NOUN	NOUN	_	59	nmod	_	TokenRange=364:371
+67	que	_	PRON	PRON	_	68	obj	_	TokenRange=372:375
+68	recebe	receber	VERB	VERB	_	66	acl:relcl	_	TokenRange=376:382
+

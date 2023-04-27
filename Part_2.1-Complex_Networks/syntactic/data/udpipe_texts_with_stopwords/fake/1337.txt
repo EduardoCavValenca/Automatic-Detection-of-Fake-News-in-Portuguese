@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = policiais invadem o congresso nacional em protesto contra a reforma da previdencia policia x policia sindicalistas invadiram a chapelaria local onde senadores e deputados entram para o congresso varios policiais conseguiram passar pela porta principal e entraram em confronto com a policia legislativa eles protestam contra a reforma da previdencia imposta pelo governo temer os videos abaixo sao de diego amorim
+1	policiais	policial	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	invadem	invadir	VERB	VERB	_	0	root	_	TokenRange=10:17
+3	o	o	DET	DET	_	4	det	_	TokenRange=18:19
+4	congresso	congresso	NOUN	NOUN	_	2	obj	_	TokenRange=20:29
+5	nacional	nacional	ADJ	ADJ	_	4	amod	_	TokenRange=30:38
+6	em	em	ADP	ADP	_	7	case	_	TokenRange=39:41
+7	protesto	protesto	NOUN	NOUN	_	2	nmod	_	TokenRange=42:50
+8	contra	_	ADP	ADP	_	10	case	_	TokenRange=51:57
+9	a	o	DET	DET	_	10	det	_	TokenRange=58:59
+10	reforma	reforma	NOUN	NOUN	_	7	nmod	_	TokenRange=60:67
+11-12	da	_	_	_	_	_	_	_	TokenRange=68:70
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	previdencia	previdencia	NOUN	NOUN	_	10	nmod	_	TokenRange=71:82
+14	policia	policia	NOUN	NOUN	_	10	appos	_	TokenRange=83:90
+15	x	_	PUNCT	.	_	16	punct	_	TokenRange=91:92
+16	policia	policia	NOUN	NOUN	_	18	nsubj	_	TokenRange=93:100
+17	sindicalistas	sindicalista	ADJ	ADJ	_	16	amod	_	TokenRange=101:114
+18	invadiram	invadir	VERB	VERB	_	2	conj	_	TokenRange=115:124
+19	a	o	DET	DET	_	20	det	_	TokenRange=125:126
+20	chapelaria	chapelaria	NOUN	NOUN	_	18	obj	_	TokenRange=127:137
+21	local	local	ADJ	ADJ	_	20	amod	_	TokenRange=138:143
+22	onde	onde	ADV	ADV	_	26	advmod	_	TokenRange=144:148
+23	senadores	senador	NOUN	NOUN	_	26	nsubj	_	TokenRange=149:158
+24	e	e	CCONJ	CONJ	_	25	cc	_	TokenRange=159:160
+25	deputados	deputado	NOUN	NOUN	_	23	conj	_	TokenRange=161:170
+26	entram	entrar	VERB	VERB	_	20	acl:relcl	_	TokenRange=171:177
+27	para	para	ADP	ADP	_	29	case	_	TokenRange=178:182
+28	o	o	DET	DET	_	29	det	_	TokenRange=183:184
+29	congresso	congresso	NOUN	NOUN	_	26	nmod	_	TokenRange=185:194
+30	varios	_	DET	DET	_	31	det	_	TokenRange=195:201
+31	policiais	policial	NOUN	NOUN	_	32	nsubj	_	TokenRange=202:211
+32	conseguiram	conseguir	VERB	VERB	_	18	ccomp	_	TokenRange=212:223
+33	passar	passar	VERB	VERB	_	32	xcomp	_	TokenRange=224:230
+34-35	pela	_	_	_	_	_	_	_	TokenRange=231:235
+34	por	por	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	porta	porta	NOUN	NOUN	_	33	nmod	_	TokenRange=236:241
+37	principal	principal	ADJ	ADJ	_	36	amod	_	TokenRange=242:251
+38	e	e	CCONJ	CONJ	_	39	cc	_	TokenRange=252:253
+39	entraram	entrar	VERB	VERB	_	32	conj	_	TokenRange=254:262
+40	em	em	ADP	ADP	_	41	case	_	TokenRange=263:265
+41	confronto	confronto	NOUN	NOUN	_	39	nmod	_	TokenRange=266:275
+42	com	com	ADP	ADP	_	44	case	_	TokenRange=276:279
+43	a	o	DET	DET	_	44	det	_	TokenRange=280:281
+44	policia	policia	NOUN	NOUN	_	41	nmod	_	TokenRange=282:289
+45	legislativa	legislativo	ADJ	ADJ	_	44	amod	_	TokenRange=290:301
+46	eles	_	PRON	PRON	_	47	nsubj	_	TokenRange=302:306
+47	protestam	protestar	VERB	VERB	_	32	conj	_	TokenRange=307:316
+48	contra	_	ADP	ADP	_	50	case	_	TokenRange=317:323
+49	a	o	DET	DET	_	50	det	_	TokenRange=324:325
+50	reforma	reforma	NOUN	NOUN	_	47	nmod	_	TokenRange=326:333
+51-52	da	_	_	_	_	_	_	_	TokenRange=334:336
+51	de	de	ADP	ADP	_	53	case	_	_
+52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	previdencia	previdencia	NOUN	NOUN	_	50	nmod	_	TokenRange=337:348
+54	imposta	_	VERB	VERB	_	50	acl	_	TokenRange=349:356
+55-56	pelo	_	_	_	_	_	_	_	TokenRange=357:361
+55	por	por	ADP	ADP	_	57	case	_	_
+56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	governo	governo	NOUN	NOUN	_	54	nmod	_	TokenRange=362:369
+58	temer	temer	NOUN	NOUN	_	57	appos	_	TokenRange=370:375
+59	os	o	DET	DET	_	60	det	_	TokenRange=376:378
+60	videos	video	NOUN	NOUN	_	62	nsubj	_	TokenRange=379:385
+61	abaixo	abaixo	ADV	ADV	_	62	advmod	_	TokenRange=386:392
+62	sao	_	VERB	VERB	_	47	parataxis	_	TokenRange=393:396
+63	de	de	ADP	ADP	_	64	case	_	TokenRange=397:399
+64	diego	diego	NOUN	NOUN	_	62	nmod	_	TokenRange=400:405
+65	amorim	amorim	NOUN	NOUN	_	64	flat	_	TokenRange=406:412
+

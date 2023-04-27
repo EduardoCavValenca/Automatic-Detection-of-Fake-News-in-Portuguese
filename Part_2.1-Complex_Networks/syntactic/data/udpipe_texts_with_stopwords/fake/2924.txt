@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = psdb podera dar o golpe de misericordia de acordo com a contagem final tudo aponta que o voto numero 342 sera do maior rival do pt e uma loteria mas tudo indica que quem ira afundar de vez o pt sera o psdb fora dilma
+1	psdb	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	podera	poder	AUX	AUX	_	3	aux	_	TokenRange=5:11
+3	dar	dar	VERB	VERB	_	0	root	_	TokenRange=12:15
+4	o	o	DET	DET	_	5	det	_	TokenRange=16:17
+5	golpe	golpe	NOUN	NOUN	_	3	obj	_	TokenRange=18:23
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=24:26
+7	misericordia	misericordia	NOUN	NOUN	_	5	nmod	_	TokenRange=27:39
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=40:42
+9	acordo	acordo	NOUN	NOUN	_	3	nmod	_	TokenRange=43:49
+10	com	com	ADP	ADP	_	12	case	_	TokenRange=50:53
+11	a	o	DET	DET	_	12	det	_	TokenRange=54:55
+12	contagem	contagem	NOUN	NOUN	_	9	nmod	_	TokenRange=56:64
+13	final	final	ADJ	ADJ	_	12	amod	_	TokenRange=65:70
+14	tudo	_	PRON	PRON	_	15	nsubj	_	TokenRange=71:75
+15	aponta	apontar	VERB	VERB	_	3	parataxis	_	TokenRange=76:82
+16	que	que	CCONJ	CONJ	_	21	mark	_	TokenRange=83:86
+17	o	o	DET	DET	_	18	det	_	TokenRange=87:88
+18	voto	voto	NOUN	NOUN	_	21	nsubj	_	TokenRange=89:93
+19	numero	numero	ADJ	ADJ	_	18	amod	_	TokenRange=94:100
+20	342	_	NUM	NUM	NumType=Card	18	appos	_	TokenRange=101:104
+21	sera	_	VERB	VERB	_	15	ccomp	_	TokenRange=105:109
+22-23	do	_	_	_	_	_	_	_	TokenRange=110:112
+22	de	de	ADP	ADP	_	25	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	maior	maior	ADJ	ADJ	_	25	amod	_	TokenRange=113:118
+25	rival	rival	NOUN	NOUN	_	21	nmod	_	TokenRange=119:124
+26-27	do	_	_	_	_	_	_	_	TokenRange=125:127
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	pt	_	PROPN	PNOUN	_	25	nmod	_	TokenRange=128:130
+29	e	e	CCONJ	CONJ	_	31	cc	_	TokenRange=131:132
+30	uma	um	DET	DET	_	31	det	_	TokenRange=133:136
+31	loteria	loteria	NOUN	NOUN	_	25	conj	_	TokenRange=137:144
+32	mas	mas	CCONJ	CONJ	_	34	cc	_	TokenRange=145:148
+33	tudo	_	PRON	PRON	_	34	nsubj	_	TokenRange=149:153
+34	indica	indicar	VERB	VERB	_	21	conj	_	TokenRange=154:160
+35	que	que	CCONJ	CONJ	_	45	mark	_	TokenRange=161:164
+36	quem	_	PRON	PRON	_	38	nsubj	_	TokenRange=165:169
+37	ira	_	AUX	AUX	_	38	aux	_	TokenRange=170:173
+38	afundar	afundar	VERB	VERB	_	45	csubj	_	TokenRange=174:181
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=182:184
+40	vez	vez	NOUN	NOUN	_	38	nmod	_	TokenRange=185:188
+41	o	o	DET	DET	_	42	det	_	TokenRange=189:190
+42	pt	pt	NOUN	NOUN	_	38	obj	_	TokenRange=191:193
+43	sera	_	AUX	AUX	_	45	cop	_	TokenRange=194:198
+44	o	o	DET	DET	_	45	det	_	TokenRange=199:200
+45	psdb	_	NOUN	NOUN	_	34	ccomp	_	TokenRange=201:205
+46	fora	fora	ADV	ADV	_	45	advmod	_	TokenRange=206:210
+47	dilma	_	NOUN	NOUN	_	45	appos	_	TokenRange=211:216
+

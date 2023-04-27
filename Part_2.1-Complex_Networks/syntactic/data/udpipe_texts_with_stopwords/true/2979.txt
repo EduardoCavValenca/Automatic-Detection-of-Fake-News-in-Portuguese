@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = julio andrade explica que atuar e uma via de mao dupla em que o interprete cede e ganha ator conversou com o estado sobre seus filmes na mostra series e as proximas estreias julio andrade acredita na troca nao e so o que ele como ator entrega para o personagem e o que o personagem tambem lhe da sempre fui meio covarde pra essa coisa de sangue e em sob pressao tenho de fazer cirurgias de peito aberto em meio
+1	julio	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	andrade	andrade	NOUN	NOUN	_	1	flat	_	TokenRange=6:13
+3	explica	explicar	VERB	VERB	_	0	root	_	TokenRange=14:21
+4	que	que	CCONJ	CONJ	_	5	mark	_	TokenRange=22:25
+5	atuar	atuar	VERB	VERB	_	3	ccomp	_	TokenRange=26:31
+6	e	e	CCONJ	CONJ	_	8	cc	_	TokenRange=32:33
+7	uma	um	DET	DET	_	8	det	_	TokenRange=34:37
+8	via	via	NOUN	NOUN	_	5	conj	_	TokenRange=38:41
+9	de	de	ADP	ADP	_	10	case	_	TokenRange=42:44
+10	mao	mao	NOUN	NOUN	_	8	nmod	_	TokenRange=45:48
+11	dupla	duplo	ADJ	ADJ	_	10	amod	_	TokenRange=49:54
+12	em	em	ADP	ADP	_	13	case	_	TokenRange=55:57
+13	que	_	PRON	PRON	_	16	nmod	_	TokenRange=58:61
+14	o	o	DET	DET	_	15	det	_	TokenRange=62:63
+15	interprete	interprete	NOUN	NOUN	_	16	nsubj	_	TokenRange=64:74
+16	cede	ceder	VERB	VERB	_	8	acl:relcl	_	TokenRange=75:79
+17	e	e	CCONJ	CONJ	_	18	cc	_	TokenRange=80:81
+18	ganha	ganhar	VERB	VERB	_	16	conj	_	TokenRange=82:87
+19	ator	ator	NOUN	NOUN	_	18	obj	_	TokenRange=88:92
+20	conversou	conversar	VERB	VERB	_	3	ccomp	_	TokenRange=93:102
+21	com	com	ADP	ADP	_	23	case	_	TokenRange=103:106
+22	o	o	DET	DET	_	23	det	_	TokenRange=107:108
+23	estado	estado	NOUN	NOUN	_	20	nmod	_	TokenRange=109:115
+24	sobre	_	ADP	ADP	_	26	case	_	TokenRange=116:121
+25	seus	_	DET	DET	_	26	det:poss	_	TokenRange=122:126
+26	filmes	filme	NOUN	NOUN	_	23	nmod	_	TokenRange=127:133
+27-28	na	_	_	_	_	_	_	_	TokenRange=134:136
+27	em	em	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	mostra	mostra	NOUN	NOUN	_	20	nmod	_	TokenRange=137:143
+30	series	_	NOUN	NOUN	_	29	flat	_	TokenRange=144:150
+31	e	e	CCONJ	CONJ	_	34	cc	_	TokenRange=151:152
+32	as	o	DET	DET	_	34	det	_	TokenRange=153:155
+33	proximas	proximo	ADJ	ADJ	_	34	amod	_	TokenRange=156:164
+34	estreias	estreia	NOUN	NOUN	_	29	conj	_	TokenRange=165:173
+35	julio	_	PROPN	PNOUN	_	37	nsubj	_	TokenRange=174:179
+36	andrade	andrade	NOUN	NOUN	_	35	flat	_	TokenRange=180:187
+37	acredita	acreditar	VERB	VERB	_	3	conj	_	TokenRange=188:196
+38-39	na	_	_	_	_	_	_	_	TokenRange=197:199
+38	em	em	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	troca	_	NOUN	NOUN	_	37	nmod	_	TokenRange=200:205
+41	nao	nao	ADV	ADV	Polarity=Neg	44	advmod	_	TokenRange=206:209
+42	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=210:211
+43	so	so	ADV	ADV	_	44	advmod	_	TokenRange=212:214
+44	o	_	PRON	PRON	_	37	conj	_	TokenRange=215:216
+45	que	_	PRON	PRON	_	49	obj	_	TokenRange=217:220
+46	ele	_	PRON	PRON	_	49	nsubj	_	TokenRange=221:224
+47	como	como	ADP	ADP	_	48	case	_	TokenRange=225:229
+48	ator	ator	NOUN	NOUN	_	46	nmod	_	TokenRange=230:234
+49	entrega	entregar	VERB	VERB	_	44	acl:relcl	_	TokenRange=235:242
+50	para	para	ADP	ADP	_	52	case	_	TokenRange=243:247
+51	o	o	DET	DET	_	52	det	_	TokenRange=248:249
+52	personagem	personagem	NOUN	NOUN	_	49	nmod	_	TokenRange=250:260
+53	e	e	CCONJ	CONJ	_	63	cc	_	TokenRange=261:262
+54	o	o	DET	DET	_	44	det	_	TokenRange=263:264
+55	que	_	PRON	PRON	_	63	obj	_	TokenRange=265:268
+56	o	o	DET	DET	_	57	det	_	TokenRange=269:270
+57	personagem	personagem	NOUN	NOUN	_	63	nsubj	_	TokenRange=271:281
+58	tambem	tambem	ADV	ADV	_	63	advmod	_	TokenRange=282:288
+59	lhe	_	PRON	PRON	_	63	iobj	_	TokenRange=289:292
+60-61	da	_	_	_	_	_	_	_	TokenRange=293:295
+60	de	de	ADP	ADP	_	63	case	_	_
+61	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+62	sempre	sempre	ADV	ADV	_	63	advmod	_	TokenRange=296:302
+63	fui	_	VERB	VERB	_	44	conj	_	TokenRange=303:306
+64	meio	meio	ADV	ADV	_	65	advmod	_	TokenRange=307:311
+65	covarde	covarde	ADJ	ADJ	_	63	xcomp	_	TokenRange=312:319
+66	pra	_	ADP	ADP	_	68	case	_	TokenRange=320:323
+67	essa	_	DET	DET	_	68	det	_	TokenRange=324:328
+68	coisa	coisa	NOUN	NOUN	_	65	nmod	_	TokenRange=329:334
+69	de	de	ADP	ADP	_	70	case	_	TokenRange=335:337
+70	sangue	sangue	NOUN	NOUN	_	68	nmod	_	TokenRange=338:344
+71	e	e	CCONJ	CONJ	_	77	cc	_	TokenRange=345:346
+72	em	_	ADP	ADP	_	77	nmod	_	TokenRange=347:349
+73	sob	_	ADP	ADP	_	74	case	_	TokenRange=350:353
+74	pressao	pressao	NOUN	NOUN	_	77	nmod	_	TokenRange=354:361
+75	tenho	ter	AUX	AUX	_	77	aux	_	TokenRange=362:367
+76	de	_	ADP	ADP	_	77	mark	_	TokenRange=368:370
+77	fazer	fazer	VERB	VERB	_	63	conj	_	TokenRange=371:376
+78	cirurgias	cirurgia	NOUN	NOUN	_	77	obj	_	TokenRange=377:386
+79	de	de	ADP	ADP	_	80	case	_	TokenRange=387:389
+80	peito	peito	NOUN	NOUN	_	78	nmod	_	TokenRange=390:395
+81	aberto	aberto	ADJ	ADJ	_	80	amod	_	TokenRange=396:402
+82	em	em	ADP	ADP	_	83	case	_	TokenRange=403:405
+83	meio	meio	NOUN	NOUN	_	77	nmod	_	SpacesAfter=\s\s|TokenRange=406:410
+

@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = discussao sobre nova lei de abuso de autoridade e inadequada e retaliacao a lava jato afirma procuradorgeral do mpms paulo cezar dos passos diz que projeto esta sendo discutido por politicos que estao sendo investigados ou delatados e que tem interesse em prejudicar a lava jato a discussao sobre o projeto de uma nova lei de abuso de autoridade voltada a servidores publicos e militares
+1	discussao	discussao	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:9
+2	sobre	_	ADP	ADP	_	4	case	_	TokenRange=10:15
+3	nova	novo	ADJ	ADJ	_	4	amod	_	TokenRange=16:20
+4	lei	lei	NOUN	NOUN	_	1	nmod	_	TokenRange=21:24
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=25:27
+6	abuso	abuso	NOUN	NOUN	_	4	nmod	_	TokenRange=28:33
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=34:36
+8	autoridade	autoridade	NOUN	NOUN	_	6	nmod	_	TokenRange=37:47
+9	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=48:49
+10	inadequada	inadequado	ADJ	ADJ	_	4	conj	_	TokenRange=50:60
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=61:62
+12	retaliacao	retaliacao	NOUN	NOUN	_	4	conj	_	TokenRange=63:73
+13	a	_	DET	DET	_	14	case	_	TokenRange=74:75
+14	lava	lava	NOUN	NOUN	_	12	nmod	_	TokenRange=76:80
+15	jato	jato	NOUN	NOUN	_	14	flat	_	TokenRange=81:85
+16	afirma	afirmar	VERB	VERB	_	0	root	_	TokenRange=86:92
+17	procuradorgeral	procuradorgeral	NOUN	NOUN	_	16	obj	_	TokenRange=93:108
+18-19	do	_	_	_	_	_	_	_	TokenRange=109:111
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mpms	mpms	NOUN	NOUN	_	17	nmod	_	TokenRange=112:116
+21	paulo	paulo	NOUN	NOUN	_	26	nsubj	_	TokenRange=117:122
+22	cezar	cezar	NOUN	NOUN	_	21	flat	_	TokenRange=123:128
+23-24	dos	_	_	_	_	_	_	_	TokenRange=129:132
+23	de	de	ADP	ADP	_	25	case	_	_
+24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	passos	passo	NOUN	NOUN	_	22	nmod	_	TokenRange=133:139
+26	diz	dizer	VERB	VERB	_	16	parataxis	_	TokenRange=140:143
+27	que	que	CCONJ	CONJ	_	31	mark	_	TokenRange=144:147
+28	projeto	projeto	NOUN	NOUN	_	31	nsubj:pass	_	TokenRange=148:155
+29	esta	_	AUX	AUX	_	31	aux	_	TokenRange=156:160
+30	sendo	ser	AUX	AUX	_	31	aux:pass	_	TokenRange=161:166
+31	discutido	discutir	VERB	VERB	_	26	ccomp	_	TokenRange=167:176
+32	por	por	ADP	ADP	_	33	case	_	TokenRange=177:180
+33	politicos	politico	NOUN	NOUN	_	31	nmod	_	TokenRange=181:190
+34	que	_	PRON	PRON	_	37	nsubj:pass	_	TokenRange=191:194
+35	estao	_	AUX	AUX	_	37	aux	_	TokenRange=195:200
+36	sendo	ser	AUX	AUX	_	37	aux:pass	_	TokenRange=201:206
+37	investigados	investigar	VERB	VERB	_	33	acl:relcl	_	TokenRange=207:219
+38	ou	ou	CCONJ	CONJ	_	39	cc	_	TokenRange=220:222
+39	delatados	delatar	VERB	VERB	_	37	conj	_	TokenRange=223:232
+40	e	e	CCONJ	CONJ	_	42	cc	_	TokenRange=233:234
+41	que	_	PRON	PRON	_	42	nsubj	_	TokenRange=235:238
+42	tem	ter	VERB	VERB	_	37	conj	_	TokenRange=239:242
+43	interesse	interesse	NOUN	NOUN	_	42	obj	_	TokenRange=243:252
+44	em	_	ADP	ADP	_	45	mark	_	TokenRange=253:255
+45	prejudicar	prejudicar	VERB	VERB	_	43	nmod	_	TokenRange=256:266
+46	a	o	DET	DET	_	47	det	_	TokenRange=267:268
+47	lava	lava	NOUN	NOUN	_	45	obj	_	TokenRange=269:273
+48	jato	jato	NOUN	NOUN	_	47	flat	_	TokenRange=274:278
+49	a	o	DET	DET	_	50	det	_	TokenRange=279:280
+50	discussao	discussao	NOUN	NOUN	_	42	obj	_	TokenRange=281:290
+51	sobre	_	ADP	ADP	_	53	case	_	TokenRange=291:296
+52	o	o	DET	DET	_	53	det	_	TokenRange=297:298
+53	projeto	projeto	NOUN	NOUN	_	50	nmod	_	TokenRange=299:306
+54	de	de	ADP	ADP	_	57	case	_	TokenRange=307:309
+55	uma	um	DET	DET	_	57	det	_	TokenRange=310:313
+56	nova	novo	ADJ	ADJ	_	57	amod	_	TokenRange=314:318
+57	lei	lei	NOUN	NOUN	_	53	nmod	_	TokenRange=319:322
+58	de	de	ADP	ADP	_	59	case	_	TokenRange=323:325
+59	abuso	abuso	NOUN	NOUN	_	57	nmod	_	TokenRange=326:331
+60	de	de	ADP	ADP	_	61	case	_	TokenRange=332:334
+61	autoridade	autoridade	NOUN	NOUN	_	59	nmod	_	TokenRange=335:345
+62	voltada	voltado	ADJ	ADJ	_	57	amod	_	TokenRange=346:353
+63	a	_	ADP	ADP	_	64	case	_	TokenRange=354:355
+64	servidores	servidor	NOUN	NOUN	_	62	nmod	_	TokenRange=356:366
+65	publicos	publico	ADJ	ADJ	_	64	amod	_	TokenRange=367:375
+66	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=376:377
+67	militares	militar	ADJ	ADJ	_	65	conj	_	SpacesAfter=\s\s|TokenRange=378:387
+

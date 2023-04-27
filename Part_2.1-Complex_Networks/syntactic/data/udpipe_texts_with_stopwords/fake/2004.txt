@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = urgente baderneiros invadem nucleo de educacao em curitiba blackblocs invadiram a sede do nucleo regional de educacao em curitiba a informacao e da tv educativa eparana os invasores estao encapuzados e estariam causando panico entre os funcionarios a pm esta tentando negociar a liberacao do local ate o momento nao ha informacoes sobre prejuizos e/ou feridos sera que esse povinho ainda nao entendeu a diferenca entre manifestacao e invasao
+1	urgente	urgente	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	baderneiros	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=8:19
+3	invadem	invadir	VERB	VERB	_	0	root	_	TokenRange=20:27
+4	nucleo	nucleo	NOUN	NOUN	_	3	obj	_	TokenRange=28:34
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=35:37
+6	educacao	educacao	NOUN	NOUN	_	4	nmod	_	TokenRange=38:46
+7	em	em	ADP	ADP	_	8	case	_	TokenRange=47:49
+8	curitiba	curitiba	NOUN	NOUN	_	3	nmod	_	TokenRange=50:58
+9	blackblocs	_	NOUN	NOUN	_	8	flat	_	TokenRange=59:69
+10	invadiram	invadir	VERB	VERB	_	3	parataxis	_	TokenRange=70:79
+11	a	o	DET	DET	_	12	det	_	TokenRange=80:81
+12	sede	sede	NOUN	NOUN	_	10	obj	_	TokenRange=82:86
+13-14	do	_	_	_	_	_	_	_	TokenRange=87:89
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	nucleo	nucleo	NOUN	NOUN	_	12	nmod	_	TokenRange=90:96
+16	regional	regional	ADJ	ADJ	_	15	amod	_	TokenRange=97:105
+17	de	de	ADP	ADP	_	18	case	_	TokenRange=106:108
+18	educacao	educacao	NOUN	NOUN	_	15	nmod	_	TokenRange=109:117
+19	em	em	ADP	ADP	_	20	case	_	TokenRange=118:120
+20	curitiba	curitiba	NOUN	NOUN	_	10	nmod	_	TokenRange=121:129
+21	a	o	DET	DET	_	22	det	_	TokenRange=130:131
+22	informacao	informacao	NOUN	NOUN	_	10	nsubj	_	TokenRange=132:142
+23	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=143:144
+24-25	da	_	_	_	_	_	_	_	TokenRange=145:147
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	tv	tv	NOUN	NOUN	_	22	conj	_	TokenRange=148:150
+27	educativa	educativo	ADJ	ADJ	_	26	amod	_	TokenRange=151:160
+28	eparana	eparano	ADJ	ADJ	_	26	amod	_	TokenRange=161:168
+29	os	o	DET	DET	_	30	det	_	TokenRange=169:171
+30	invasores	invasor	NOUN	NOUN	_	31	nsubj	_	TokenRange=172:181
+31	estao	_	VERB	VERB	_	3	parataxis	_	TokenRange=182:187
+32	encapuzados	encapuzado	ADJ	ADJ	_	31	xcomp	_	TokenRange=188:199
+33	e	e	CCONJ	CONJ	_	35	cc	_	TokenRange=200:201
+34	estariam	estar	AUX	AUX	_	35	aux	_	TokenRange=202:210
+35	causando	causar	VERB	VERB	_	31	conj	_	TokenRange=211:219
+36	panico	panico	NOUN	NOUN	_	35	obj	_	TokenRange=220:226
+37	entre	_	ADP	ADP	_	39	case	_	TokenRange=227:232
+38	os	o	DET	DET	_	39	det	_	TokenRange=233:235
+39	funcionarios	funcionario	NOUN	NOUN	_	35	nmod	_	TokenRange=236:248
+40	a	o	DET	DET	_	41	det	_	TokenRange=249:250
+41	pm	pm	NOUN	NOUN	_	43	nsubj	_	TokenRange=251:253
+42	esta	_	AUX	AUX	_	43	aux	_	TokenRange=254:258
+43	tentando	tentar	VERB	VERB	_	31	conj	_	TokenRange=259:267
+44	negociar	negociar	VERB	VERB	_	43	xcomp	_	TokenRange=268:276
+45	a	o	DET	DET	_	46	det	_	TokenRange=277:278
+46	liberacao	liberacao	NOUN	NOUN	_	44	obj	_	TokenRange=279:288
+47-48	do	_	_	_	_	_	_	_	TokenRange=289:291
+47	de	de	ADP	ADP	_	49	case	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	local	local	NOUN	NOUN	_	46	nmod	_	TokenRange=292:297
+50	ate	_	ADP	ADP	_	52	case	_	TokenRange=298:301
+51	o	o	DET	DET	_	52	det	_	TokenRange=302:303
+52	momento	momento	NOUN	NOUN	_	54	nmod	_	TokenRange=304:311
+53	nao	nao	ADV	ADV	Polarity=Neg	54	advmod	_	TokenRange=312:315
+54	ha	har	VERB	VERB	_	43	conj	_	TokenRange=316:318
+55	informacoes	informacoe	NOUN	NOUN	_	54	obj	_	TokenRange=319:330
+56	sobre	_	ADP	ADP	_	57	case	_	TokenRange=331:336
+57	prejuizos	prejuízo	NOUN	NOUN	_	55	nmod	_	TokenRange=337:346
+58	e/ou	e/ou	CCONJ	CONJ	_	59	cc	_	TokenRange=347:351
+59	feridos	ferido	NOUN	NOUN	_	57	conj	_	TokenRange=352:359
+60	sera	_	VERB	VERB	_	54	parataxis	_	TokenRange=360:364
+61	que	que	CCONJ	CONJ	_	66	mark	_	TokenRange=365:368
+62	esse	_	DET	DET	_	63	det	_	TokenRange=369:373
+63	povinho	povinho	NOUN	NOUN	_	66	nsubj	_	TokenRange=374:381
+64	ainda	ainda	ADV	ADV	_	66	advmod	_	TokenRange=382:387
+65	nao	nao	ADV	ADV	Polarity=Neg	66	advmod	_	TokenRange=388:391
+66	entendeu	entender	VERB	VERB	_	60	csubj	_	TokenRange=392:400
+67	a	o	DET	DET	_	68	det	_	TokenRange=401:402
+68	diferenca	_	NOUN	NOUN	_	66	obj	_	TokenRange=403:412
+69	entre	_	ADP	ADP	_	70	case	_	TokenRange=413:418
+70	manifestacao	manifestacao	NOUN	NOUN	_	68	nmod	_	TokenRange=419:431
+71	e	e	CCONJ	CONJ	_	72	cc	_	TokenRange=432:433
+72	invasao	invasao	NOUN	NOUN	_	70	conj	_	SpacesAfter=\s\s|TokenRange=434:441
+

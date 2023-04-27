@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = urgente lavagem de dinheiro no instituto lula expresidente acaba de ser indiciado pela pf o g1 acabou de informar que a pf indiciou o expresidente luiz inacio antonio palocci dona marisa leticia e mais 4 pessoas no ambito operacao lava jato lula e acusado pelo crime de corrupcao passiva todos os demais foram denunciados por lavagem de dinheiro a policia federal defende que o caso se trata de pagamento de propina da construtora odebrecht ao expresidente
+1	urgente	urgente	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	lavagem	lavagem	NOUN	NOUN	_	13	nsubj:pass	_	TokenRange=8:15
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=16:18
+4	dinheiro	dinheiro	NOUN	NOUN	_	2	nmod	_	TokenRange=19:27
+5-6	no	_	_	_	_	_	_	_	TokenRange=28:30
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	instituto	instituto	NOUN	NOUN	_	2	nmod	_	TokenRange=31:40
+8	lula	lula	ADJ	ADJ	_	7	amod	_	TokenRange=41:45
+9	expresidente	expresidente	NOUN	NOUN	_	2	appos	_	TokenRange=46:58
+10	acaba	acabar	AUX	AUX	_	13	aux	_	TokenRange=59:64
+11	de	_	ADP	ADP	_	13	mark	_	TokenRange=65:67
+12	ser	ser	AUX	AUX	_	13	aux:pass	_	TokenRange=68:71
+13	indiciado	indiciar	VERB	VERB	_	0	root	_	TokenRange=72:81
+14-15	pela	_	_	_	_	_	_	_	TokenRange=82:86
+14	por	por	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	pf	_	NOUN	NOUN	_	13	nmod	_	TokenRange=87:89
+17	o	o	DET	DET	_	18	det	_	TokenRange=90:91
+18	g1	g1	NOUN	NOUN	_	21	nsubj	_	TokenRange=92:94
+19	acabou	acabar	AUX	AUX	_	21	aux	_	TokenRange=95:101
+20	de	_	ADP	ADP	_	21	mark	_	TokenRange=102:104
+21	informar	informar	VERB	VERB	_	13	conj	_	TokenRange=105:113
+22	que	que	CCONJ	CONJ	_	25	mark	_	TokenRange=114:117
+23	a	o	DET	DET	_	24	det	_	TokenRange=118:119
+24	pf	_	NOUN	NOUN	_	25	nsubj	_	TokenRange=120:122
+25	indiciou	indiciar	VERB	VERB	_	21	ccomp	_	TokenRange=123:131
+26	o	o	DET	DET	_	27	det	_	TokenRange=132:133
+27	expresidente	expresidente	NOUN	NOUN	_	25	obj	_	TokenRange=134:146
+28	luiz	luiz	ADJ	ADJ	_	27	appos	_	TokenRange=147:151
+29	inacio	_	NOUN	NOUN	_	27	appos	_	TokenRange=152:158
+30	antonio	antonio	ADJ	NOUN	_	27	amod	_	TokenRange=159:166
+31	palocci	_	NOUN	NOUN	_	28	flat	_	TokenRange=167:174
+32	dona	_	NOUN	NOUN	_	27	appos	_	TokenRange=175:179
+33	marisa	_	NOUN	NOUN	_	32	flat	_	TokenRange=180:186
+34	leticia	leticia	NOUN	NOUN	_	33	flat	_	TokenRange=187:194
+35	e	e	CCONJ	CONJ	_	38	cc	_	TokenRange=195:196
+36	mais	mais	ADV	ADV	_	37	advmod	_	TokenRange=197:201
+37	4	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=202:203
+38	pessoas	pessoa	NOUN	NOUN	_	27	conj	_	TokenRange=204:211
+39-40	no	_	_	_	_	_	_	_	TokenRange=212:214
+39	em	em	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	ambito	ambito	NOUN	NOUN	_	25	nmod	_	TokenRange=215:221
+42	operacao	operacao	NOUN	NOUN	_	41	appos	_	TokenRange=222:230
+43	lava	lava	NOUN	NOUN	_	41	appos	_	TokenRange=231:235
+44	jato	jato	NOUN	NOUN	_	43	flat	_	TokenRange=236:240
+45	lula	_	NOUN	NOUN	_	43	appos	_	TokenRange=241:245
+46	e	e	CCONJ	CONJ	_	47	cc	_	TokenRange=246:247
+47	acusado	acusar	VERB	VERB	_	25	conj	_	TokenRange=248:255
+48-49	pelo	_	_	_	_	_	_	_	TokenRange=256:260
+48	por	por	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	crime	crime	NOUN	NOUN	_	47	nmod	_	TokenRange=261:266
+51	de	de	ADP	ADP	_	52	case	_	TokenRange=267:269
+52	corrupcao	corrupcao	NOUN	NOUN	_	50	nmod	_	TokenRange=270:279
+53	passiva	passivo	ADJ	ADJ	_	52	amod	_	TokenRange=280:287
+54	todos	_	DET	DET	_	56	det	_	TokenRange=288:293
+55	os	o	DET	DET	_	56	det	_	TokenRange=294:296
+56	demais	_	PRON	PRON	_	58	nsubj:pass	_	TokenRange=297:303
+57	foram	_	AUX	AUX	_	58	aux:pass	_	TokenRange=304:309
+58	denunciados	denunciar	VERB	VERB	_	21	ccomp	_	TokenRange=310:321
+59	por	por	ADP	ADP	_	60	case	_	TokenRange=322:325
+60	lavagem	lavagem	NOUN	NOUN	_	58	nmod	_	TokenRange=326:333
+61	de	de	ADP	ADP	_	62	case	_	TokenRange=334:336
+62	dinheiro	dinheiro	NOUN	NOUN	_	60	nmod	_	TokenRange=337:345
+63	a	o	DET	DET	_	64	det	_	TokenRange=346:347
+64	policia	policia	NOUN	NOUN	_	58	nsubj:pass	_	TokenRange=348:355
+65	federal	federal	ADJ	ADJ	_	64	amod	_	TokenRange=356:363
+66	defende	defender	VERB	VERB	_	21	parataxis	_	TokenRange=364:371
+67	que	que	CCONJ	CONJ	_	71	mark	_	TokenRange=372:375
+68	o	o	DET	DET	_	69	det	_	TokenRange=376:377
+69	caso	caso	NOUN	NOUN	_	71	nsubj	_	TokenRange=378:382
+70	se	_	PRON	PRON	_	71	expl:pv	_	TokenRange=383:385
+71	trata	tratar	VERB	VERB	_	66	ccomp	_	TokenRange=386:391
+72	de	de	ADP	ADP	_	73	case	_	TokenRange=392:394
+73	pagamento	pagamento	NOUN	NOUN	_	71	nmod	_	TokenRange=395:404
+74	de	de	ADP	ADP	_	75	case	_	TokenRange=405:407
+75	propina	propina	NOUN	NOUN	_	73	nmod	_	TokenRange=408:415
+76-77	da	_	_	_	_	_	_	_	TokenRange=416:418
+76	de	de	ADP	ADP	_	78	case	_	_
+77	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	78	det	_	_
+78	construtora	construtor	NOUN	NOUN	_	73	nmod	_	TokenRange=419:430
+79	odebrecht	_	NOUN	NOUN	_	78	appos	_	TokenRange=431:440
+80-81	ao	_	_	_	_	_	_	_	TokenRange=441:443
+80	a	a	ADP	ADP	_	82	case	_	_
+81	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
+82	expresidente	expresidente	NOUN	NOUN	_	73	nmod	_	TokenRange=444:456
+

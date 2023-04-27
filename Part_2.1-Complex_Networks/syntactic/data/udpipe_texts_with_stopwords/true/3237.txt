@@ -1,0 +1,29 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cristovam buarque avalia deixar a vida publica senador do pps chama ciro e bolsonaro de extremos atrasados e critica
+1	cristovam	cristovar	VERB	VERB	_	0	root	_	TokenRange=0:9
+2	buarque	buarque	NOUN	NOUN	_	1	nsubj	_	TokenRange=10:17
+3	avalia	avaliar	VERB	VERB	_	1	ccomp	_	TokenRange=18:24
+4	deixar	deixar	VERB	VERB	_	3	xcomp	_	TokenRange=25:31
+5	a	o	DET	DET	_	6	det	_	TokenRange=32:33
+6	vida	vida	NOUN	NOUN	_	4	obj	_	TokenRange=34:38
+7	publica	publico	ADJ	ADJ	_	6	amod	_	TokenRange=39:46
+8	senador	senador	NOUN	NOUN	_	12	nsubj	_	TokenRange=47:54
+9-10	do	_	_	_	_	_	_	_	TokenRange=55:57
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pps	_	NOUN	NOUN	_	8	nmod	_	TokenRange=58:61
+12	chama	chamar	VERB	VERB	_	3	parataxis	_	TokenRange=62:67
+13	ciro	ciro	NOUN	NOUN	_	12	obj	_	TokenRange=68:72
+14	e	e	CCONJ	CONJ	_	15	cc	_	TokenRange=73:74
+15	bolsonaro	bolsonaro	ADJ	ADJ	_	13	conj	_	TokenRange=75:84
+16	de	de	ADP	ADP	_	17	case	_	TokenRange=85:87
+17	extremos	extremo	NOUN	NOUN	_	15	nmod	_	TokenRange=88:96
+18	atrasados	atrasado	ADJ	ADJ	_	17	amod	_	TokenRange=97:106
+19	e	e	CCONJ	CONJ	_	20	cc	_	TokenRange=107:108
+20	critica	critico	NOUN	ADJ	_	18	conj	_	SpacesAfter=\s\s|TokenRange=109:116
+

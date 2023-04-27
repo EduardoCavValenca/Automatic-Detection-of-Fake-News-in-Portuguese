@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = se a esposa do marqueteiro falar tudo o que sabe dilma morre politicamente nas gravacoes de sergio machado expresidente da transpetro renan calheiros diz que se a odebrecht resolver falar e a mulher de joao santana contar tudo o que sabe dilma estara fora do cenario politico para sempre o presidente do senado estima que a propria presidente tenha nocao de toda essa situacao
+1	se	_	CCONJ	CONJ	_	7	mark	_	TokenRange=0:2
+2	a	o	DET	DET	_	3	det	_	TokenRange=3:4
+3	esposa	esposo	NOUN	NOUN	_	13	nsubj	_	TokenRange=5:11
+4-5	do	_	_	_	_	_	_	_	TokenRange=12:14
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	marqueteiro	marqueteiro	NOUN	NOUN	_	3	nmod	_	TokenRange=15:26
+7	falar	falar	VERB	VERB	_	13	advcl	_	TokenRange=27:32
+8	tudo	_	PRON	PRON	_	9	det	_	TokenRange=33:37
+9	o	_	PRON	PRON	_	7	obj	_	TokenRange=38:39
+10	que	_	PRON	PRON	_	11	nsubj	_	TokenRange=40:43
+11	sabe	saber	VERB	VERB	_	9	acl:relcl	_	TokenRange=44:48
+12	dilma	_	NOUN	NOUN	_	11	obj	_	TokenRange=49:54
+13	morre	morrer	VERB	VERB	_	27	ccomp	_	TokenRange=55:60
+14	politicamente	politicamente	ADV	ADV	_	13	advmod	_	TokenRange=61:74
+15-16	nas	_	_	_	_	_	_	_	TokenRange=75:78
+15	em	em	ADP	ADP	_	17	case	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	gravacoes	_	NOUN	NOUN	_	13	nmod	_	TokenRange=79:88
+18	de	de	ADP	ADP	_	19	case	_	TokenRange=89:91
+19	sergio	sergio	NOUN	NOUN	_	17	nmod	_	TokenRange=92:98
+20	machado	machado	ADJ	ADJ	_	19	amod	_	TokenRange=99:106
+21	expresidente	expresidente	NOUN	NOUN	_	13	nsubj	_	TokenRange=107:119
+22-23	da	_	_	_	_	_	_	_	TokenRange=120:122
+22	de	de	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	transpetro	transpetro	NOUN	NOUN	_	21	nmod	_	TokenRange=123:133
+25	renan	_	NOUN	NOUN	_	27	nsubj	_	TokenRange=134:139
+26	calheiros	calheiro	NOUN	NOUN	_	25	flat	_	TokenRange=140:149
+27	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=150:153
+28	que	que	CCONJ	CONJ	_	46	mark	_	TokenRange=154:157
+29	se	_	CCONJ	CONJ	_	32	mark	_	TokenRange=158:160
+30	a	o	DET	DET	_	31	det	_	TokenRange=161:162
+31	odebrecht	odebrecht	NOUN	NOUN	_	32	nsubj	_	TokenRange=163:172
+32	resolver	resolver	VERB	VERB	_	46	advcl	_	TokenRange=173:181
+33	falar	falar	VERB	VERB	_	32	xcomp	_	TokenRange=182:187
+34	e	e	CCONJ	CONJ	_	40	cc	_	TokenRange=188:189
+35	a	o	DET	DET	_	40	det	_	TokenRange=190:191
+36	mulher	mulher	NOUN	NOUN	_	46	nsubj	_	TokenRange=192:198
+37	de	de	ADP	ADP	_	38	case	_	TokenRange=199:201
+38	joao	joao	NOUN	NOUN	_	36	nmod	_	TokenRange=202:206
+39	santana	santano	ADJ	ADJ	_	38	amod	_	TokenRange=207:214
+40	contar	contar	VERB	VERB	_	32	conj	_	TokenRange=215:221
+41	tudo	_	PRON	PRON	_	42	det	_	TokenRange=222:226
+42	o	_	PRON	PRON	_	40	obj	_	TokenRange=227:228
+43	que	_	PRON	PRON	_	44	nsubj	_	TokenRange=229:232
+44	sabe	saber	VERB	VERB	_	42	acl:relcl	_	TokenRange=233:237
+45	dilma	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=238:243
+46	estara	estar	VERB	VERB	_	27	ccomp	_	TokenRange=244:250
+47	fora	fora	ADV	ADV	_	46	advmod	_	TokenRange=251:255
+48-49	do	_	_	_	_	_	_	_	TokenRange=256:258
+48	de	de	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	cenario	cenario	NOUN	NOUN	_	47	nmod	_	TokenRange=259:266
+51	politico	politico	ADJ	ADJ	_	50	amod	_	TokenRange=267:275
+52	para	_	ADP	ADP	_	53	mark	_	TokenRange=276:280
+53	sempre	sempre	ADV	ADV	_	46	nmod	_	TokenRange=281:287
+54	o	o	DET	DET	_	55	det	_	TokenRange=288:289
+55	presidente	presidente	NOUN	NOUN	_	59	nsubj	_	TokenRange=290:300
+56-57	do	_	_	_	_	_	_	_	TokenRange=301:303
+56	de	de	ADP	ADP	_	58	case	_	_
+57	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	senado	senado	NOUN	NOUN	_	55	nmod	_	TokenRange=304:310
+59	estima	estimar	VERB	VERB	_	27	ccomp	_	TokenRange=311:317
+60	que	que	CCONJ	CONJ	_	64	mark	_	TokenRange=318:321
+61	a	o	DET	DET	_	63	det	_	TokenRange=322:323
+62	propria	proprio	ADJ	ADJ	_	63	amod	_	TokenRange=324:331
+63	presidente	presidente	NOUN	NOUN	_	64	nsubj	_	TokenRange=332:342
+64	tenha	ter	VERB	VERB	_	59	ccomp	_	TokenRange=343:348
+65	nocao	nocao	NOUN	NOUN	_	64	obj	_	TokenRange=349:354
+66	de	de	ADP	ADP	_	69	case	_	TokenRange=355:357
+67	toda	_	DET	DET	_	69	det	_	TokenRange=358:362
+68	essa	_	DET	DET	_	69	det	_	TokenRange=363:367
+69	situacao	_	NOUN	NOUN	_	65	nmod	_	TokenRange=368:376
+

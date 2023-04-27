@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = furacao irma deixa rastro de destruicao fotos furacao deixou 44 mortos no caribe e nos eua siga em tempo real
+1	furacao	furacao	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	irma	irmo	ADJ	ADJ	_	1	amod	_	TokenRange=8:12
+3	deixa	deixar	VERB	VERB	_	0	root	_	TokenRange=13:18
+4	rastro	rastro	NOUN	NOUN	_	3	obj	_	TokenRange=19:25
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=26:28
+6	destruicao	destruicao	NOUN	NOUN	_	4	nmod	_	TokenRange=29:39
+7	fotos	foto	NOUN	NOUN	_	9	nsubj	_	TokenRange=40:45
+8	furacao	furacao	NOUN	NOUN	_	9	nsubj	_	TokenRange=46:53
+9	deixou	deixar	VERB	VERB	_	3	conj	_	TokenRange=54:60
+10	44	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=61:63
+11	mortos	morto	NOUN	NOUN	_	9	obj	_	TokenRange=64:70
+12-13	no	_	_	_	_	_	_	_	TokenRange=71:73
+12	em	em	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	caribe	caribe	NOUN	NOUN	_	9	nmod	_	TokenRange=74:80
+15	e	e	CCONJ	CONJ	_	18	cc	_	TokenRange=81:82
+16-17	nos	_	_	_	_	_	_	_	TokenRange=83:86
+16	em	em	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	eua	_	NOUN	NOUN	_	14	conj	_	TokenRange=87:90
+19	siga	seguir	VERB	VERB	_	9	conj	_	TokenRange=91:95
+20	em	em	ADP	ADP	_	21	case	_	TokenRange=96:98
+21	tempo	tempo	NOUN	NOUN	_	19	nmod	_	TokenRange=99:104
+22	real	real	ADJ	ADJ	_	21	amod	_	TokenRange=105:109
+

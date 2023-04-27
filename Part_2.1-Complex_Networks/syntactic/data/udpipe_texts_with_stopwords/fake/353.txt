@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = francisco sobre conflito mundial eles lucram bilhoes com o sangue dos inocentes o pontifice nao poupou palavras em seu discurso feito no vaticano francisco clamou para que o mundo contenha os senhores da guerra eles lucram com a violencia e a guerra se beneficiam com o sangue dos inocentes o papa fez um apelo para que se evite um conflito de proporcoes mundiais
+1	francisco	francisco	NOUN	NOUN	_	6	parataxis	_	TokenRange=0:9
+2	sobre	_	ADP	ADP	_	3	case	_	TokenRange=10:15
+3	conflito	conflito	NOUN	NOUN	_	1	nmod	_	TokenRange=16:24
+4	mundial	mundial	ADJ	ADJ	_	3	amod	_	TokenRange=25:32
+5	eles	_	PRON	PRON	_	6	nsubj	_	TokenRange=33:37
+6	lucram	lucrar	VERB	VERB	_	0	root	_	TokenRange=38:44
+7	bilhoes	_	NOUN	NOUN	_	6	obj	_	TokenRange=45:52
+8	com	com	ADP	ADP	_	10	case	_	TokenRange=53:56
+9	o	o	DET	DET	_	10	det	_	TokenRange=57:58
+10	sangue	sangue	NOUN	NOUN	_	6	nmod	_	TokenRange=59:65
+11-12	dos	_	_	_	_	_	_	_	TokenRange=66:69
+11	de	de	ADP	ADP	_	13	case	_	_
+12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	inocentes	inocente	NOUN	NOUN	_	10	nmod	_	TokenRange=70:79
+14	o	o	DET	DET	_	15	det	_	TokenRange=80:81
+15	pontifice	pontifice	NOUN	NOUN	_	17	nsubj	_	TokenRange=82:91
+16	nao	nao	ADV	ADV	Polarity=Neg	17	advmod	_	TokenRange=92:95
+17	poupou	poupar	VERB	VERB	_	6	conj	_	TokenRange=96:102
+18	palavras	palavra	NOUN	NOUN	_	17	obj	_	TokenRange=103:111
+19	em	em	ADP	ADP	_	21	case	_	TokenRange=112:114
+20	seu	_	DET	DET	_	21	det:poss	_	TokenRange=115:118
+21	discurso	discurso	NOUN	NOUN	_	17	nmod	_	TokenRange=119:127
+22	feito	_	VERB	VERB	_	21	acl	_	TokenRange=128:133
+23-24	no	_	_	_	_	_	_	_	TokenRange=134:136
+23	em	em	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vaticano	vaticano	NOUN	NOUN	_	22	nmod	_	TokenRange=137:145
+26	francisco	francisco	NOUN	NOUN	_	27	nsubj	_	TokenRange=146:155
+27	clamou	clamar	VERB	VERB	_	6	conj	_	TokenRange=156:162
+28	para	_	ADP	ADP	_	32	mark	_	TokenRange=163:167
+29	que	que	CCONJ	CONJ	_	32	mark	_	TokenRange=168:171
+30	o	o	DET	DET	_	31	det	_	TokenRange=172:173
+31	mundo	mundo	NOUN	NOUN	_	32	nsubj	_	TokenRange=174:179
+32	contenha	conter	VERB	VERB	_	27	nmod	_	TokenRange=180:188
+33	os	o	DET	DET	_	34	det	_	TokenRange=189:191
+34	senhores	senhor	NOUN	NOUN	_	32	obj	_	TokenRange=192:200
+35-36	da	_	_	_	_	_	_	_	TokenRange=201:203
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	guerra	guerra	NOUN	NOUN	_	34	nmod	_	TokenRange=204:210
+38	eles	_	PRON	PRON	_	39	nsubj	_	TokenRange=211:215
+39	lucram	lucrar	VERB	VERB	_	27	nmod	_	TokenRange=216:222
+40	com	com	ADP	ADP	_	42	case	_	TokenRange=223:226
+41	a	o	DET	DET	_	42	det	_	TokenRange=227:228
+42	violencia	violencia	NOUN	NOUN	_	39	nmod	_	TokenRange=229:238
+43	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=239:240
+44	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	TokenRange=241:242
+45	guerra	guerra	NOUN	NOUN	_	42	conj	_	TokenRange=243:249
+46	se	_	PRON	PRON	_	47	expl:pv	_	TokenRange=250:252
+47	beneficiam	beneficiar	VERB	VERB	_	39	conj	_	TokenRange=253:263
+48	com	com	ADP	ADP	_	50	case	_	TokenRange=264:267
+49	o	o	DET	DET	_	50	det	_	TokenRange=268:269
+50	sangue	sangue	NOUN	NOUN	_	47	nmod	_	TokenRange=270:276
+51-52	dos	_	_	_	_	_	_	_	TokenRange=277:280
+51	de	de	ADP	ADP	_	53	case	_	_
+52	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	det	_	_
+53	inocentes	inocente	NOUN	NOUN	_	50	nmod	_	TokenRange=281:290
+54	o	o	DET	DET	_	55	det	_	TokenRange=291:292
+55	papa	papa	NOUN	NOUN	_	56	nsubj	_	TokenRange=293:297
+56	fez	fazer	VERB	VERB	_	27	parataxis	_	TokenRange=298:301
+57	um	um	DET	DET	_	58	det	_	TokenRange=302:304
+58	apelo	apelo	NOUN	NOUN	_	56	obj	_	TokenRange=305:310
+59	para	_	ADP	ADP	_	62	mark	_	TokenRange=311:315
+60	que	que	CCONJ	CONJ	_	62	mark	_	TokenRange=316:319
+61	se	_	PRON	PRON	_	62	expl:pv	_	TokenRange=320:322
+62	evite	evitar	VERB	VERB	_	56	advcl	_	TokenRange=323:328
+63	um	um	DET	DET	_	64	det	_	TokenRange=329:331
+64	conflito	conflito	NOUN	NOUN	_	62	nsubj	_	TokenRange=332:340
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=341:343
+66	proporcoes	proporcoe	NOUN	NOUN	_	64	nmod	_	TokenRange=344:354
+67	mundiais	mundial	ADJ	ADJ	_	66	amod	_	TokenRange=355:363
+

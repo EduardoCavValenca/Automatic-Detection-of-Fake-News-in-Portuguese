@@ -1,0 +1,39 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saiu a resposta oficial de dilma para a carta de temer pimentorium in anus outrem refrescus vazou a carta da dilma para o temer pimentorium in anus outrem refrescus
+1	saiu	sair	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	a	o	DET	DET	_	3	det	_	TokenRange=5:6
+3	resposta	resposta	NOUN	NOUN	_	1	nsubj	_	TokenRange=7:15
+4	oficial	oficial	ADJ	ADJ	_	3	amod	_	TokenRange=16:23
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=24:26
+6	dilma	dilma	NOUN	NOUN	_	3	nmod	_	TokenRange=27:32
+7	para	para	ADP	ADP	_	9	case	_	TokenRange=33:37
+8	a	o	DET	DET	_	9	det	_	TokenRange=38:39
+9	carta	carta	NOUN	NOUN	_	3	nmod	_	TokenRange=40:45
+10	de	_	ADP	ADP	_	11	mark	_	TokenRange=46:48
+11	temer	temer	VERB	VERB	_	9	nmod	_	TokenRange=49:54
+12	pimentorium	pimentorium	NOUN	NOUN	_	11	obj	_	TokenRange=55:66
+13	in	_	ADP	ADP	_	14	case	_	TokenRange=67:69
+14	anus	_	NOUN	NOUN	_	12	nmod	_	TokenRange=70:74
+15	outrem	_	DET	DET	_	16	det	_	TokenRange=75:81
+16	refrescus	refrescus	NOUN	NOUN	_	12	appos	_	TokenRange=82:91
+17	vazou	vazar	VERB	VERB	_	1	parataxis	_	TokenRange=92:97
+18	a	o	DET	DET	_	19	det	_	TokenRange=98:99
+19	carta	carta	NOUN	NOUN	_	17	obj	_	TokenRange=100:105
+20-21	da	_	_	_	_	_	_	_	TokenRange=106:108
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	dilma	dilma	NOUN	NOUN	_	19	nmod	_	TokenRange=109:114
+23	para	para	ADP	ADP	_	25	case	_	TokenRange=115:119
+24	o	o	DET	DET	_	25	det	_	TokenRange=120:121
+25	temer	temer	NOUN	NOUN	_	19	nmod	_	TokenRange=122:127
+26	pimentorium	pimentorium	NOUN	NOUN	_	25	appos	_	TokenRange=128:139
+27	in	_	ADP	ADP	_	28	case	_	TokenRange=140:142
+28	anus	_	NOUN	NOUN	_	26	nmod	_	TokenRange=143:147
+29	outrem	_	DET	DET	_	30	det	_	TokenRange=148:154
+30	refrescus	_	NOUN	NOUN	_	26	appos	_	TokenRange=155:164
+

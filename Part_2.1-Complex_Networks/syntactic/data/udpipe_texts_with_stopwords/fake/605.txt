@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = foto de peladoes tirada em brasilia e citada no exterior pais de indios corruptos e gente que tira a roupa 115 pessoas entre homens e mulheres decidiram ficar totalmente pelados para participar de um ato na praca do museu da republica em brasilia a aberracao isso mesmo aberracao falta de vergonha na cara atentado ao pudor falta de limites desrespeito a populacao etc aconteceu na manha de hoje 2/09
+1	foto	foto	NOUN	NOUN	_	28	nsubj	_	TokenRange=0:4
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=5:7
+3	peladoes	peladoe	NOUN	NOUN	_	1	nmod	_	TokenRange=8:16
+4	tirada	tirar	VERB	VERB	_	1	acl	_	TokenRange=17:23
+5	em	em	ADP	ADP	_	6	case	_	TokenRange=24:26
+6	brasilia	brasilia	NOUN	NOUN	_	4	nmod	_	TokenRange=27:35
+7	e	e	CCONJ	CONJ	_	8	cc	_	TokenRange=36:37
+8	citada	citar	VERB	VERB	_	4	conj	_	TokenRange=38:44
+9-10	no	_	_	_	_	_	_	_	TokenRange=45:47
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	exterior	exterior	NOUN	NOUN	_	8	nmod	_	TokenRange=48:56
+12	pais	_	NOUN	NOUN	_	11	appos	_	TokenRange=57:61
+13	de	de	ADP	ADP	_	14	case	_	TokenRange=62:64
+14	indios	indio	NOUN	NOUN	_	12	nmod	_	TokenRange=65:71
+15	corruptos	corrupto	ADJ	ADJ	_	14	amod	_	TokenRange=72:81
+16	e	e	CCONJ	CONJ	_	17	cc	_	TokenRange=82:83
+17	gente	gente	NOUN	NOUN	_	14	conj	_	TokenRange=84:89
+18	que	_	PRON	PRON	_	19	nsubj	_	TokenRange=90:93
+19	tira	tirar	VERB	VERB	_	17	acl:relcl	_	TokenRange=94:98
+20	a	o	DET	DET	_	21	det	_	TokenRange=99:100
+21	roupa	roupa	NOUN	NOUN	_	19	obj	_	TokenRange=101:106
+22	115	_	NUM	NUM	NumType=Card	23	nummod	_	TokenRange=107:110
+23	pessoas	pessoa	NOUN	NOUN	_	28	nsubj	_	TokenRange=111:118
+24	entre	_	ADP	ADP	_	25	case	_	TokenRange=119:124
+25	homens	homem	NOUN	NOUN	_	23	nmod	_	TokenRange=125:131
+26	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=132:133
+27	mulheres	mulher	NOUN	NOUN	_	25	conj	_	TokenRange=134:142
+28	decidiram	decidir	VERB	VERB	_	0	root	_	TokenRange=143:152
+29	ficar	ficar	VERB	VERB	_	28	xcomp	_	TokenRange=153:158
+30	totalmente	totalmente	ADV	ADV	_	31	advmod	_	TokenRange=159:169
+31	pelados	pelado	ADJ	ADJ	_	29	xcomp	_	TokenRange=170:177
+32	para	_	ADP	ADP	_	33	mark	_	TokenRange=178:182
+33	participar	participar	VERB	VERB	_	29	advcl	_	TokenRange=183:193
+34	de	de	ADP	ADP	_	36	case	_	TokenRange=194:196
+35	um	um	DET	DET	_	36	det	_	TokenRange=197:199
+36	ato	ato	NOUN	NOUN	_	33	nmod	_	TokenRange=200:203
+37-38	na	_	_	_	_	_	_	_	TokenRange=204:206
+37	em	em	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	praca	praca	NOUN	NOUN	_	36	nmod	_	TokenRange=207:212
+40-41	do	_	_	_	_	_	_	_	TokenRange=213:215
+40	de	de	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	museu	museu	NOUN	NOUN	_	39	nmod	_	TokenRange=216:221
+43-44	da	_	_	_	_	_	_	_	TokenRange=222:224
+43	de	de	ADP	ADP	_	45	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	republica	_	NOUN	NOUN	_	42	nmod	_	TokenRange=225:234
+46	em	em	ADP	ADP	_	47	case	_	TokenRange=235:237
+47	brasilia	brasilia	NOUN	NOUN	_	39	nmod	_	TokenRange=238:246
+48	a	o	DET	DET	_	49	det	_	TokenRange=247:248
+49	aberracao	aberracao	NOUN	NOUN	_	28	nsubj	_	TokenRange=249:258
+50	isso	_	PRON	PRON	_	53	appos	_	TokenRange=259:263
+51	mesmo	mesmo	ADV	ADV	_	52	advmod	_	TokenRange=264:269
+52	aberracao	aberracao	ADJ	ADJ	_	53	amod	_	TokenRange=270:279
+53	falta	_	NOUN	NOUN	_	28	parataxis	_	TokenRange=280:285
+54	de	de	ADP	ADP	_	55	case	_	TokenRange=286:288
+55	vergonha	vergonha	NOUN	NOUN	_	53	nmod	_	TokenRange=289:297
+56-57	na	_	_	_	_	_	_	_	TokenRange=298:300
+56	em	em	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	cara	cara	NOUN	NOUN	_	53	nmod	_	TokenRange=301:305
+59	atentado	atentado	NOUN	NOUN	_	53	appos	_	TokenRange=306:314
+60-61	ao	_	_	_	_	_	_	_	TokenRange=315:317
+60	a	a	ADP	ADP	_	62	case	_	_
+61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	pudor	pudor	NOUN	NOUN	_	59	nmod	_	TokenRange=318:323
+63	falta	_	NOUN	NOUN	_	59	appos	_	TokenRange=324:329
+64	de	de	ADP	ADP	_	65	case	_	TokenRange=330:332
+65	limites	limite	NOUN	NOUN	_	63	nmod	_	TokenRange=333:340
+66	desrespeito	desrespeito	ADJ	ADJ	_	63	amod	_	TokenRange=341:352
+67	a	o	DET	DET	_	68	det	_	TokenRange=353:354
+68	populacao	populacao	NOUN	NOUN	_	70	nsubj	_	TokenRange=355:364
+69	etc	_	X	X	_	68	appos	_	TokenRange=365:368
+70	aconteceu	acontecer	VERB	VERB	_	28	parataxis	_	TokenRange=369:378
+71-72	na	_	_	_	_	_	_	_	TokenRange=379:381
+71	em	em	ADP	ADP	_	73	case	_	_
+72	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
+73	manha	manha	NOUN	NOUN	_	70	nmod	_	TokenRange=382:387
+74	de	_	ADP	ADP	_	75	mark	_	TokenRange=388:390
+75	hoje	hoje	ADV	ADV	_	73	nmod	_	TokenRange=391:395
+76	2/09	_	NUM	NUM	NumType=Card	75	nmod	_	TokenRange=396:400
+

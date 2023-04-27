@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula perde a nocao do ridiculo e ameaca daqui para a frente vou processar todo mundo o que fazem com meu filho e uma violencia como um cidadao tem a desfacatez de mentir daqui para frente vou processar ja tenho um monte de processos e vai ter ainda mais disse ele luis claudio lula da silva filho do expresidente e alvo de investigacoes pela pf e mp
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	perde	perder	VERB	VERB	_	0	root	_	TokenRange=5:10
+3	a	o	DET	DET	_	4	det	_	TokenRange=11:12
+4	nocao	nocao	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+5-6	do	_	_	_	_	_	_	_	TokenRange=19:21
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ridiculo	ridiculo	NOUN	NOUN	_	4	nmod	_	TokenRange=22:30
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=31:32
+9	ameaca	ameacar	VERB	VERB	_	2	conj	_	TokenRange=33:39
+10	daqui	_	ADP	ADP	_	9	nmod	_	TokenRange=40:45
+11	para	_	ADP	ADP	_	13	case	_	TokenRange=46:50
+12	a	o	DET	DET	_	13	det	_	TokenRange=51:52
+13	frente	frente	NOUN	NOUN	_	15	nmod	_	TokenRange=53:59
+14	vou	ir	AUX	AUX	_	15	aux	_	TokenRange=60:63
+15	processar	processar	VERB	VERB	_	2	conj	_	TokenRange=64:73
+16	todo	_	DET	DET	_	17	det	_	TokenRange=74:78
+17	mundo	mundo	NOUN	NOUN	_	15	obj	_	TokenRange=79:84
+18	o	_	PRON	PRON	_	15	obj	_	TokenRange=85:86
+19	que	_	PRON	PRON	_	20	obj	_	TokenRange=87:90
+20	fazem	fazer	VERB	VERB	_	18	acl:relcl	_	TokenRange=91:96
+21	com	com	ADP	ADP	_	23	case	_	TokenRange=97:100
+22	meu	_	DET	DET	_	23	det:poss	_	TokenRange=101:104
+23	filho	filho	NOUN	NOUN	_	20	nmod	_	TokenRange=105:110
+24	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=111:112
+25	uma	um	DET	DET	_	26	det	_	TokenRange=113:116
+26	violencia	violencia	NOUN	NOUN	_	18	conj	_	TokenRange=117:126
+27	como	_	ADP	ADP	_	29	case	_	TokenRange=127:131
+28	um	um	DET	DET	_	29	det	_	TokenRange=132:134
+29	cidadao	cidadao	NOUN	NOUN	_	30	nsubj	_	TokenRange=135:142
+30	tem	ter	VERB	VERB	_	26	acl:relcl	_	TokenRange=143:146
+31	a	o	DET	DET	_	32	det	_	TokenRange=147:148
+32	desfacatez	desfacatez	NOUN	NOUN	_	30	obj	_	TokenRange=149:159
+33	de	_	ADP	ADP	_	34	mark	_	TokenRange=160:162
+34	mentir	mentir	VERB	VERB	_	32	nmod	_	TokenRange=163:169
+35	daqui	_	X	ADP	_	34	nmod	_	TokenRange=170:175
+36	para	para	ADP	ADP	_	37	case	_	TokenRange=176:180
+37	frente	frente	NOUN	NOUN	_	39	nmod	_	TokenRange=181:187
+38	vou	ir	AUX	AUX	_	39	aux	_	TokenRange=188:191
+39	processar	processar	VERB	VERB	_	34	advcl	_	TokenRange=192:201
+40	ja	ja	ADV	ADV	_	41	advmod	_	TokenRange=202:204
+41	tenho	ter	VERB	VERB	_	2	conj	_	TokenRange=205:210
+42	um	um	DET	DET	_	43	det	_	TokenRange=211:213
+43	monte	monte	NOUN	NOUN	_	41	obj	_	TokenRange=214:219
+44	de	de	ADP	ADP	_	45	case	_	TokenRange=220:222
+45	processos	processo	NOUN	NOUN	_	43	nmod	_	TokenRange=223:232
+46	e	e	CCONJ	CONJ	_	51	cc	_	TokenRange=233:234
+47	vai	ir	AUX	AUX	_	48	aux	_	TokenRange=235:238
+48	ter	ter	VERB	VERB	_	41	conj	_	TokenRange=239:242
+49	ainda	ainda	ADV	ADV	_	50	advmod	_	TokenRange=243:248
+50	mais	mais	ADV	ADV	_	51	advmod	_	TokenRange=249:253
+51	disse	dizer	VERB	VERB	_	41	conj	_	TokenRange=254:259
+52	ele	_	PRON	PRON	_	51	nsubj	_	TokenRange=260:263
+53	luis	_	NOUN	NOUN	_	51	obj	_	TokenRange=264:268
+54	claudio	claudio	NOUN	NOUN	_	53	flat	_	TokenRange=269:276
+55	lula	_	NOUN	NOUN	_	53	flat	_	TokenRange=277:281
+56-57	da	_	_	_	_	_	_	_	TokenRange=282:284
+56	de	de	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	silva	silva	NOUN	NOUN	_	55	nmod	_	TokenRange=285:290
+59	filho	filho	NOUN	NOUN	_	53	appos	_	TokenRange=291:296
+60-61	do	_	_	_	_	_	_	_	TokenRange=297:299
+60	de	de	ADP	ADP	_	62	case	_	_
+61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	expresidente	expresidente	NOUN	NOUN	_	59	nmod	_	TokenRange=300:312
+63	e	e	CCONJ	CONJ	_	64	cc	_	TokenRange=313:314
+64	alvo	alvo	NOUN	NOUN	_	59	conj	_	TokenRange=315:319
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=320:322
+66	investigacoes	investigacoe	NOUN	NOUN	_	64	nmod	_	TokenRange=323:336
+67-68	pela	_	_	_	_	_	_	_	TokenRange=337:341
+67	por	por	ADP	ADP	_	69	case	_	_
+68	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	pf	_	NOUN	NOUN	_	64	nmod	_	TokenRange=342:344
+70	e	e	CCONJ	CONJ	_	71	cc	_	TokenRange=345:346
+71	mp	mp	NOUN	NOUN	_	69	conj	_	TokenRange=347:349
+

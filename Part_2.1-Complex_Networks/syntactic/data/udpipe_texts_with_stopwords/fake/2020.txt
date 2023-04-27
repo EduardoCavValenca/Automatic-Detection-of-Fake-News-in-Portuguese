@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aconteceu de novo sergio moro e aclamado em teatro lotado sergio moro o juiz responsavel pela operacao lava jato foi ovacionado ontem 26 durante o show do cantor fagner nao foi a primeira vez que isso aconteceu o cantor raimundo fagner fez um agradecimento ao juiz e o reverenciou o publico foi ao delirio e comecou a aplaudir sergio moro o show aconteceu no teatro guaira em curitiba voce ja viu um politico ser ovacionado dessa forma
+1	aconteceu	acontecer	VERB	VERB	_	0	root	_	TokenRange=0:9
+2	de	_	ADP	ADP	_	4	case	_	TokenRange=10:12
+3	novo	novo	ADJ	ADJ	_	4	amod	_	TokenRange=13:17
+4	sergio	sergio	NOUN	NOUN	_	1	nmod	_	TokenRange=18:24
+5	moro	moro	NOUN	NOUN	_	4	flat	_	TokenRange=25:29
+6	e	e	CCONJ	CONJ	_	7	cc	_	TokenRange=30:31
+7	aclamado	aclamar	VERB	VERB	_	1	conj	_	TokenRange=32:40
+8	em	em	ADP	ADP	_	9	case	_	TokenRange=41:43
+9	teatro	teatro	NOUN	NOUN	_	7	nmod	_	TokenRange=44:50
+10	lotado	lotado	ADJ	ADJ	_	9	amod	_	TokenRange=51:57
+11	sergio	sergio	ADJ	ADJ	_	12	amod	_	TokenRange=58:64
+12	moro	moro	NOUN	NOUN	_	9	appos	_	TokenRange=65:69
+13	o	o	DET	DET	_	14	det	_	TokenRange=70:71
+14	juiz	juiz	NOUN	NOUN	_	22	nsubj:pass	_	TokenRange=72:76
+15	responsavel	responsavel	ADJ	ADJ	_	14	amod	_	TokenRange=77:88
+16-17	pela	_	_	_	_	_	_	_	TokenRange=89:93
+16	por	por	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	operacao	operacao	NOUN	NOUN	_	15	nmod	_	TokenRange=94:102
+19	lava	lava	NOUN	NOUN	_	18	flat	_	TokenRange=103:107
+20	jato	jato	NOUN	NOUN	_	18	flat	_	TokenRange=108:112
+21	foi	_	AUX	AUX	_	22	aux:pass	_	TokenRange=113:116
+22	ovacionado	ovacionar	VERB	VERB	_	1	conj	_	TokenRange=117:127
+23	ontem	ontem	ADV	ADV	_	22	advmod	_	TokenRange=128:133
+24	26	_	NUM	NUM	NumType=Card	23	nmod	_	TokenRange=134:136
+25	durante	_	ADP	ADP	_	27	case	_	TokenRange=137:144
+26	o	o	DET	DET	_	27	det	_	TokenRange=145:146
+27	show	show	NOUN	NOUN	_	22	nmod	_	TokenRange=147:151
+28-29	do	_	_	_	_	_	_	_	TokenRange=152:154
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	cantor	cantor	NOUN	NOUN	_	27	nmod	_	TokenRange=155:161
+31	fagner	fagner	NOUN	NOUN	_	30	appos	_	TokenRange=162:168
+32	nao	nao	ADV	ADV	Polarity=Neg	36	advmod	_	TokenRange=169:172
+33	foi	_	AUX	AUX	_	36	cop	_	TokenRange=173:176
+34	a	o	DET	DET	_	36	det	_	TokenRange=177:178
+35	primeira	primeiro	ADJ	ADJ	_	36	amod	_	TokenRange=179:187
+36	vez	vez	NOUN	NOUN	_	1	conj	_	TokenRange=188:191
+37	que	_	PRON	PRON	_	39	dep	_	TokenRange=192:195
+38	isso	_	PRON	PRON	_	39	nsubj	_	TokenRange=196:200
+39	aconteceu	acontecer	VERB	VERB	_	36	acl:relcl	_	TokenRange=201:210
+40	o	o	DET	DET	_	41	det	_	TokenRange=211:212
+41	cantor	cantor	NOUN	NOUN	_	44	nsubj	_	TokenRange=213:219
+42	raimundo	raimundo	ADJ	ADJ	_	41	amod	_	TokenRange=220:228
+43	fagner	fagner	NOUN	NOUN	_	41	flat	_	TokenRange=229:235
+44	fez	fazer	VERB	VERB	_	36	acl:relcl	_	TokenRange=236:239
+45	um	um	DET	DET	_	46	det	_	TokenRange=240:242
+46	agradecimento	agradecimento	NOUN	NOUN	_	44	obj	_	TokenRange=243:256
+47-48	ao	_	_	_	_	_	_	_	TokenRange=257:259
+47	a	a	ADP	ADP	_	49	case	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	juiz	juiz	NOUN	NOUN	_	44	iobj	_	TokenRange=260:264
+50	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=265:266
+51	o	o	DET	DET	_	52	det	_	TokenRange=267:268
+52	reverenciou	reverenciar	VERB	VERB	_	44	conj	_	TokenRange=269:280
+53	o	o	DET	DET	_	54	det	_	TokenRange=281:282
+54	publico	_	NOUN	NOUN	_	55	nsubj	_	TokenRange=283:290
+55	foi	_	VERB	VERB	_	44	conj	_	TokenRange=291:294
+56-57	ao	_	_	_	_	_	_	_	TokenRange=295:297
+56	a	a	ADP	ADP	_	58	case	_	_
+57	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	delirio	delirio	NOUN	NOUN	_	55	nmod	_	TokenRange=298:305
+59	e	e	CCONJ	CONJ	_	62	cc	_	TokenRange=306:307
+60	comecou	comecar	AUX	AUX	_	62	aux	_	TokenRange=308:315
+61	a	_	ADP	ADP	_	62	mark	_	TokenRange=316:317
+62	aplaudir	aplaudir	VERB	VERB	_	55	conj	_	TokenRange=318:326
+63	sergio	_	NOUN	NOUN	_	62	obj	_	TokenRange=327:333
+64	moro	moro	NOUN	NOUN	_	63	flat	_	TokenRange=334:338
+65	o	o	DET	DET	_	66	det	_	TokenRange=339:340
+66	show	show	NOUN	NOUN	_	67	nsubj	_	TokenRange=341:345
+67	aconteceu	acontecer	VERB	VERB	_	62	conj	_	TokenRange=346:355
+68-69	no	_	_	_	_	_	_	_	TokenRange=356:358
+68	em	em	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	teatro	teatro	NOUN	NOUN	_	67	nmod	_	TokenRange=359:365
+71	guaira	guaira	ADJ	ADJ	_	70	amod	_	TokenRange=366:372
+72	em	em	ADP	ADP	_	73	case	_	TokenRange=373:375
+73	curitiba	curitiba	NOUN	NOUN	_	67	nmod	_	TokenRange=376:384
+74	voce	_	PRON	PRON	_	76	nsubj	_	TokenRange=385:389
+75	ja	ja	ADV	ADV	_	76	advmod	_	TokenRange=390:392
+76	viu	ver	VERB	VERB	_	67	conj	_	TokenRange=393:396
+77	um	um	DET	DET	_	78	det	_	TokenRange=397:399
+78	politico	politico	NOUN	NOUN	_	80	nsubj:pass	_	TokenRange=400:408
+79	ser	ser	AUX	AUX	_	80	aux:pass	_	TokenRange=409:412
+80	ovacionado	ovacionar	VERB	VERB	_	76	ccomp	_	TokenRange=413:423
+81	dessa	_	ADP	ADP	_	82	case	_	TokenRange=424:429
+82	forma	forma	NOUN	NOUN	_	80	nmod	_	TokenRange=430:435
+

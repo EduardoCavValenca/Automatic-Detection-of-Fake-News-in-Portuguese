@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cassado demostenes torres protocola no stf pedido para voltar ao senado ele foi cassado em julho de 2012 por quebra de decoro parlamentar e esta inelegivel ate 2027 demostenes foi acusado de usar o mandato para favorecer o bicheiro carlos augusto ramos o carlinhos cachoeira a defesa do exsenador demostenes torres pdtgo protocolou nesta quintafeira 1 no supremo tribunal federal stf pedido de anulacao de seu processo de cassacao ocorrido
+1	cassado	cassado	ADJ	ADJ	_	2	amod	_	TokenRange=0:7
+2	demostenes	demostene	NOUN	NOUN	_	4	nsubj	_	TokenRange=8:18
+3	torres	_	ADJ	ADJ	_	2	flat	_	TokenRange=19:25
+4	protocola	protocolar	VERB	VERB	_	0	root	_	TokenRange=26:35
+5-6	no	_	_	_	_	_	_	_	TokenRange=36:38
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	stf	_	NOUN	NOUN	_	4	nmod	_	TokenRange=39:42
+8	pedido	pedido	NOUN	NOUN	_	4	obj	_	TokenRange=43:49
+9	para	_	ADP	ADP	_	10	mark	_	TokenRange=50:54
+10	voltar	voltar	VERB	VERB	_	8	nmod	_	TokenRange=55:61
+11-12	ao	_	_	_	_	_	_	_	TokenRange=62:64
+11	a	a	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	senado	senado	NOUN	NOUN	_	10	nmod	_	TokenRange=65:71
+14	ele	_	PRON	PRON	_	16	nsubj:pass	_	TokenRange=72:75
+15	foi	_	AUX	AUX	_	16	aux:pass	_	TokenRange=76:79
+16	cassado	cassar	VERB	VERB	_	4	parataxis	_	TokenRange=80:87
+17	em	em	ADP	ADP	_	18	case	_	TokenRange=88:90
+18	julho	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=91:96
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=97:99
+20	2012	_	NUM	NUM	NumType=Card	18	nmod	_	TokenRange=100:104
+21	por	por	ADP	ADP	_	22	case	_	TokenRange=105:108
+22	quebra	quebra	NOUN	NOUN	_	16	nmod	_	TokenRange=109:115
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=116:118
+24	decoro	decoro	NOUN	NOUN	_	22	nmod	_	TokenRange=119:125
+25	parlamentar	parlamentar	ADJ	ADJ	_	24	amod	_	TokenRange=126:137
+26	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=138:139
+27	esta	_	PRON	PRON	_	16	conj	_	TokenRange=140:144
+28	inelegivel	inelegivel	ADJ	ADJ	_	27	amod	_	TokenRange=145:155
+29	ate	_	ADP	ADP	_	31	case	_	TokenRange=156:159
+30	2027	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=160:164
+31	demostenes	demostene	NOUN	NOUN	_	33	nsubj:pass	_	TokenRange=165:175
+32	foi	_	AUX	AUX	_	33	aux:pass	_	TokenRange=176:179
+33	acusado	acusar	VERB	VERB	_	16	conj	_	TokenRange=180:187
+34	de	_	ADP	ADP	_	35	mark	_	TokenRange=188:190
+35	usar	usar	VERB	VERB	_	33	nmod	_	TokenRange=191:195
+36	o	o	DET	DET	_	37	det	_	TokenRange=196:197
+37	mandato	mandato	NOUN	NOUN	_	35	obj	_	TokenRange=198:205
+38	para	_	ADP	ADP	_	39	mark	_	TokenRange=206:210
+39	favorecer	favorecer	VERB	VERB	_	35	advcl	_	TokenRange=211:220
+40	o	o	DET	DET	_	41	det	_	TokenRange=221:222
+41	bicheiro	bicheiro	NOUN	NOUN	_	39	obj	_	TokenRange=223:231
+42	carlos	carlo	NOUN	NOUN	_	41	appos	_	TokenRange=232:238
+43	augusto	_	NOUN	NOUN	_	42	flat	_	TokenRange=239:246
+44	ramos	_	NOUN	NOUN	_	42	flat	_	TokenRange=247:252
+45	o	o	DET	DET	_	46	det	_	TokenRange=253:254
+46	carlinhos	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=255:264
+47	cachoeira	_	NOUN	NOUN	_	46	flat	_	TokenRange=265:274
+48	a	o	DET	DET	_	49	det	_	TokenRange=275:276
+49	defesa	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=277:283
+50-51	do	_	_	_	_	_	_	_	TokenRange=284:286
+50	de	de	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	exsenador	exsenador	NOUN	NOUN	_	49	nmod	_	TokenRange=287:296
+53	demostenes	_	NOUN	NOUN	_	52	appos	_	TokenRange=297:307
+54	torres	_	ADJ	ADJ	_	53	amod	_	TokenRange=308:314
+55	pdtgo	pdtgo	NOUN	NOUN	_	52	appos	_	TokenRange=315:320
+56	protocolou	protocolar	VERB	VERB	_	16	parataxis	_	TokenRange=321:331
+57	nesta	_	ADP	ADP	_	58	case	_	TokenRange=332:337
+58	quintafeira	quintafeira	NOUN	NOUN	_	56	nmod	_	TokenRange=338:349
+59	1	_	NUM	NUM	NumType=Card	58	appos	_	TokenRange=350:351
+60-61	no	_	_	_	_	_	_	_	TokenRange=352:354
+60	em	em	ADP	ADP	_	63	case	_	_
+61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+62	supremo	supremo	ADJ	ADJ	_	63	amod	_	TokenRange=355:362
+63	tribunal	tribunal	NOUN	NOUN	_	56	nmod	_	TokenRange=363:371
+64	federal	federal	ADJ	ADJ	_	63	amod	_	TokenRange=372:379
+65	stf	_	NOUN	NOUN	_	66	appos	_	TokenRange=380:383
+66	pedido	pedido	NOUN	NOUN	_	56	obj	_	TokenRange=384:390
+67	de	de	ADP	ADP	_	68	case	_	TokenRange=391:393
+68	anulacao	anulacao	NOUN	NOUN	_	66	nmod	_	TokenRange=394:402
+69	de	de	ADP	ADP	_	71	case	_	TokenRange=403:405
+70	seu	_	DET	DET	_	71	det:poss	_	TokenRange=406:409
+71	processo	processo	NOUN	NOUN	_	68	nmod	_	TokenRange=410:418
+72	de	de	ADP	ADP	_	73	case	_	TokenRange=419:421
+73	cassacao	cassacao	NOUN	NOUN	_	71	nmod	_	TokenRange=422:430
+74	ocorrido	ocorrer	VERB	VERB	_	71	acl	_	SpacesAfter=\s\s|TokenRange=431:439
+

@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = caes atacam e matam cachorro que passeava com o dono em fortaleza video advogado foi mordido na mao e ficou com hematomas cachorros de grande porte passeavam sem coleira quando atacaram a caminhada matinal que faz parte da rotina do advogado rubens feitosa 59 foi interrompida em 11 de marco com um ataque de caes de grande porte contra ele e o
+1	caes	cae	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	atacam	atacar	VERB	VERB	_	0	root	_	TokenRange=5:11
+3	e	e	CCONJ	CONJ	_	4	cc	_	TokenRange=12:13
+4	matam	matar	VERB	VERB	_	2	conj	_	TokenRange=14:19
+5	cachorro	cachorro	NOUN	NOUN	_	2	obj	_	TokenRange=20:28
+6	que	_	PRON	PRON	_	7	nsubj	_	TokenRange=29:32
+7	passeava	passear	VERB	VERB	_	5	acl:relcl	_	TokenRange=33:41
+8	com	com	ADP	ADP	_	10	case	_	TokenRange=42:45
+9	o	o	DET	DET	_	10	det	_	TokenRange=46:47
+10	dono	dono	NOUN	NOUN	_	7	nmod	_	TokenRange=48:52
+11	em	em	ADP	ADP	_	12	case	_	TokenRange=53:55
+12	fortaleza	fortaleza	NOUN	NOUN	_	7	nmod	_	TokenRange=56:65
+13	video	video	DET	DET	_	14	det	_	TokenRange=66:71
+14	advogado	advogado	NOUN	NOUN	_	16	nsubj:pass	_	TokenRange=72:80
+15	foi	_	AUX	AUX	_	16	aux:pass	_	TokenRange=81:84
+16	mordido	morder	VERB	VERB	_	2	conj	_	TokenRange=85:92
+17-18	na	_	_	_	_	_	_	_	TokenRange=93:95
+17	em	em	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	mao	mao	NOUN	NOUN	_	16	nmod	_	TokenRange=96:99
+20	e	e	CCONJ	CONJ	_	21	cc	_	TokenRange=100:101
+21	ficou	ficar	VERB	VERB	_	16	conj	_	TokenRange=102:107
+22	com	com	ADP	ADP	_	23	case	_	TokenRange=108:111
+23	hematomas	hematoma	NOUN	NOUN	_	21	nmod	_	TokenRange=112:121
+24	cachorros	cachorro	NOUN	NOUN	_	28	nsubj	_	TokenRange=122:131
+25	de	de	ADP	ADP	_	27	case	_	TokenRange=132:134
+26	grande	grande	ADJ	ADJ	_	27	amod	_	TokenRange=135:141
+27	porte	porte	NOUN	NOUN	_	24	nmod	_	TokenRange=142:147
+28	passeavam	passear	VERB	VERB	_	16	conj	_	TokenRange=148:157
+29	sem	_	ADP	ADP	_	30	case	_	TokenRange=158:161
+30	coleira	coleira	NOUN	NOUN	_	28	nmod	_	TokenRange=162:169
+31	quando	_	CCONJ	CONJ	_	32	mark	_	TokenRange=170:176
+32	atacaram	atacar	VERB	VERB	_	28	advcl	_	TokenRange=177:185
+33	a	o	DET	DET	_	34	det	_	TokenRange=186:187
+34	caminhada	caminhada	NOUN	NOUN	_	32	obj	_	TokenRange=188:197
+35	matinal	matinal	ADJ	ADJ	_	34	amod	_	TokenRange=198:205
+36	que	_	PRON	PRON	_	37	nsubj	_	TokenRange=206:209
+37	faz	fazer	VERB	VERB	_	34	acl:relcl	_	TokenRange=210:213
+38	parte	parte	NOUN	NOUN	_	37	obj	_	TokenRange=214:219
+39-40	da	_	_	_	_	_	_	_	TokenRange=220:222
+39	de	de	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	rotina	rotina	NOUN	NOUN	_	38	nmod	_	TokenRange=223:229
+42-43	do	_	_	_	_	_	_	_	TokenRange=230:232
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	advogado	advogado	NOUN	NOUN	_	41	nmod	_	TokenRange=233:241
+45	rubens	rubem	NOUN	NOUN	_	44	appos	_	TokenRange=242:248
+46	feitosa	_	ADJ	ADJ	_	45	amod	_	TokenRange=249:256
+47	59	_	NUM	NUM	NumType=Card	45	appos	_	TokenRange=257:259
+48	foi	_	AUX	AUX	_	49	aux:pass	_	TokenRange=260:263
+49	interrompida	interromper	VERB	VERB	_	2	parataxis	_	TokenRange=264:276
+50	em	em	ADP	ADP	_	51	case	_	TokenRange=277:279
+51	11	_	NUM	NUM	NumType=Card	49	nmod	_	TokenRange=280:282
+52	de	de	ADP	ADP	_	53	case	_	TokenRange=283:285
+53	marco	_	PROPN	PNOUN	_	51	nmod	_	TokenRange=286:291
+54	com	com	ADP	ADP	_	56	case	_	TokenRange=292:295
+55	um	um	DET	DET	_	56	det	_	TokenRange=296:298
+56	ataque	ataque	NOUN	NOUN	_	49	nmod	_	TokenRange=299:305
+57	de	de	ADP	ADP	_	58	case	_	TokenRange=306:308
+58	caes	cae	NOUN	NOUN	_	56	nmod	_	TokenRange=309:313
+59	de	de	ADP	ADP	_	61	case	_	TokenRange=314:316
+60	grande	grande	ADJ	ADJ	_	61	amod	_	TokenRange=317:323
+61	porte	porte	NOUN	NOUN	_	58	nmod	_	TokenRange=324:329
+62	contra	_	ADP	ADP	_	63	case	_	TokenRange=330:336
+63	ele	_	PRON	PRON	_	56	nmod	_	TokenRange=337:340
+64	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=341:342
+65	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	SpacesAfter=\s\s|TokenRange=343:344
+

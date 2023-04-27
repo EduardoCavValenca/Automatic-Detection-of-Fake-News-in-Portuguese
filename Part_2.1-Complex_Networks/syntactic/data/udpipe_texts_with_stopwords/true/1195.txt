@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputados elegem nesta quinta presidente da camara para os proximos dois anos disputam os votos os seguintes deputados andre figueiredo pdtce jair bolsonaro pscrj jovair arantes ptbgo julio delgado psbmg luiza erundina psolsp e rodrigo maia demrj um dia apos o senado eleger eunicio oliveira pmdbce como novo presidente da casa os deputados se reunirao nesta quintafeira 2 para definir quem comandara a camara pelos proximos
+1	deputados	deputado	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	elegem	eleger	VERB	VERB	_	0	root	_	TokenRange=10:16
+3	nesta	_	ADP	ADP	_	5	case	_	TokenRange=17:22
+4	quinta	_	ADJ	ADJ	_	5	amod	_	TokenRange=23:29
+5	presidente	presidente	NOUN	NOUN	_	2	nmod	_	TokenRange=30:40
+6-7	da	_	_	_	_	_	_	_	TokenRange=41:43
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	camara	camara	NOUN	NOUN	_	5	nmod	_	TokenRange=44:50
+9	para	para	ADP	ADP	_	13	case	_	TokenRange=51:55
+10	os	o	DET	DET	_	13	det	_	TokenRange=56:58
+11	proximos	proximo	ADJ	ADJ	_	13	amod	_	TokenRange=59:67
+12	dois	_	NUM	NUM	NumType=Card	13	nummod	_	TokenRange=68:72
+13	anos	ano	NOUN	NOUN	_	2	nmod	_	TokenRange=73:77
+14	disputam	disputar	VERB	VERB	_	2	parataxis	_	TokenRange=78:86
+15	os	o	DET	DET	_	16	det	_	TokenRange=87:89
+16	votos	voto	NOUN	NOUN	_	14	obj	_	TokenRange=90:95
+17	os	o	DET	DET	_	19	det	_	TokenRange=96:98
+18	seguintes	seguinte	ADJ	ADJ	_	19	amod	_	TokenRange=99:108
+19	deputados	deputado	NOUN	NOUN	_	14	obj	_	TokenRange=109:118
+20	andre	andre	NOUN	NOUN	_	19	appos	_	TokenRange=119:124
+21	figueiredo	figueiredo	ADJ	ADJ	_	19	amod	_	TokenRange=125:135
+22	pdtce	pdtce	NOUN	NOUN	_	19	appos	_	TokenRange=136:141
+23	jair	jair	NOUN	NOUN	_	22	appos	_	TokenRange=142:146
+24	bolsonaro	bolsonaro	NOUN	NOUN	_	22	amod	_	TokenRange=147:156
+25	pscrj	_	NOUN	NOUN	_	22	appos	_	TokenRange=157:162
+26	jovair	jovair	NOUN	NOUN	_	22	appos	_	TokenRange=163:169
+27	arantes	_	NOUN	NOUN	_	26	flat	_	TokenRange=170:177
+28	ptbgo	_	NOUN	NOUN	_	26	flat	_	TokenRange=178:183
+29	julio	_	NOUN	NOUN	_	26	appos	_	TokenRange=184:189
+30	delgado	delgado	NOUN	NOUN	_	31	flat	_	TokenRange=190:197
+31	psbmg	_	NOUN	NOUN	_	22	appos	_	TokenRange=198:203
+32	luiza	_	NOUN	NOUN	_	31	flat	_	TokenRange=204:209
+33	erundina	_	NOUN	NOUN	_	31	flat	_	TokenRange=210:218
+34	psolsp	_	NOUN	NOUN	_	31	flat	_	TokenRange=219:225
+35	e	e	CCONJ	CONJ	_	36	cc	_	TokenRange=226:227
+36	rodrigo	rodrigo	NOUN	NOUN	_	32	conj	_	TokenRange=228:235
+37	maia	_	NOUN	NOUN	_	36	flat	_	TokenRange=236:240
+38	demrj	_	NOUN	NOUN	_	36	flat	_	TokenRange=241:246
+39	um	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=247:249
+40	dia	dia	NOUN	NOUN	_	36	nmod	_	TokenRange=250:253
+41	apos	_	ADP	ADP	_	44	mark	_	TokenRange=254:258
+42	o	o	DET	DET	_	43	det	_	TokenRange=259:260
+43	senado	senado	NOUN	NOUN	_	44	nsubj	_	TokenRange=261:267
+44	eleger	eleger	VERB	VERB	_	57	advcl	_	TokenRange=268:274
+45	eunicio	_	NOUN	NOUN	_	44	obj	_	TokenRange=275:282
+46	oliveira	oliveira	ADJ	ADJ	_	45	flat	_	TokenRange=283:291
+47	pmdbce	_	NOUN	NOUN	_	45	flat	_	TokenRange=292:298
+48	como	como	ADP	ADP	_	50	case	_	TokenRange=299:303
+49	novo	novo	ADJ	ADJ	_	50	amod	_	TokenRange=304:308
+50	presidente	presidente	NOUN	NOUN	_	44	nmod	_	TokenRange=309:319
+51-52	da	_	_	_	_	_	_	_	TokenRange=320:322
+51	de	de	ADP	ADP	_	53	case	_	_
+52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	casa	casa	NOUN	NOUN	_	50	nmod	_	TokenRange=323:327
+54	os	o	DET	DET	_	55	det	_	TokenRange=328:330
+55	deputados	deputado	NOUN	NOUN	_	57	nsubj	_	TokenRange=331:340
+56	se	_	PRON	PRON	_	57	obj	_	TokenRange=341:343
+57	reunirao	reunir	VERB	VERB	_	14	parataxis	_	TokenRange=344:352
+58	nesta	_	ADP	ADP	_	59	case	_	TokenRange=353:358
+59	quintafeira	quintafeira	NOUN	NOUN	_	57	nmod	_	TokenRange=359:370
+60	2	_	NUM	NUM	NumType=Card	59	appos	_	TokenRange=371:372
+61	para	_	ADP	ADP	_	62	mark	_	TokenRange=373:377
+62	definir	definir	VERB	VERB	_	57	advcl	_	TokenRange=378:385
+63	quem	_	PRON	PRON	_	64	nsubj	_	TokenRange=386:390
+64	comandara	comandar	VERB	VERB	_	62	ccomp	_	TokenRange=391:400
+65	a	o	DET	DET	_	66	det	_	TokenRange=401:402
+66	camara	camara	NOUN	NOUN	_	64	obj	_	TokenRange=403:409
+67-68	pelos	_	_	_	_	_	_	_	TokenRange=410:415
+67	por	por	ADP	ADP	_	69	case	_	_
+68	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	69	det	_	_
+69	proximos	proximo	NOUN	NOUN	_	64	nmod	_	SpacesAfter=\s\s|TokenRange=416:424
+

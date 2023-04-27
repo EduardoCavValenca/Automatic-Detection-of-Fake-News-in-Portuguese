@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = stf homologa delacao de joesley e temer passa oficialmente a ser investigado edson fachin determinou que se abra um inquerito para investigar michel temer
+1	stf	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	homologa	homologar	VERB	VERB	_	0	root	_	TokenRange=4:12
+3	delacao	delacao	NOUN	NOUN	_	2	obj	_	TokenRange=13:20
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=21:23
+5	joesley	_	NOUN	NOUN	_	3	nmod	_	TokenRange=24:31
+6	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=32:33
+7	temer	temer	NOUN	NOUN	_	12	nsubj:pass	_	TokenRange=34:39
+8	passa	passar	AUX	AUX	_	12	aux	_	TokenRange=40:45
+9	oficialmente	oficialmente	ADV	ADV	_	12	advmod	_	TokenRange=46:58
+10	a	_	ADP	ADP	_	12	mark	_	TokenRange=59:60
+11	ser	ser	AUX	AUX	_	12	aux:pass	_	TokenRange=61:64
+12	investigado	investigar	VERB	VERB	_	2	conj	_	TokenRange=65:76
+13	edson	_	NOUN	NOUN	_	12	nsubj:pass	_	TokenRange=77:82
+14	fachin	_	NOUN	NOUN	_	13	flat	_	TokenRange=83:89
+15	determinou	determinar	VERB	VERB	_	2	conj	_	TokenRange=90:100
+16	que	que	CCONJ	CONJ	_	18	mark	_	TokenRange=101:104
+17	se	_	PRON	PRON	_	18	expl:pv	_	TokenRange=105:107
+18	abra	abrir	VERB	VERB	_	15	ccomp	_	TokenRange=108:112
+19	um	um	DET	DET	_	20	det	_	TokenRange=113:115
+20	inquerito	inquerito	NOUN	NOUN	_	18	nsubj	_	TokenRange=116:125
+21	para	_	ADP	ADP	_	22	mark	_	TokenRange=126:130
+22	investigar	investigar	VERB	VERB	_	18	advcl	_	TokenRange=131:141
+23	michel	_	PROPN	PNOUN	_	24	amod	_	TokenRange=142:148
+24	temer	temer	PROPN	PNOUN	_	22	obj	_	TokenRange=149:154
+

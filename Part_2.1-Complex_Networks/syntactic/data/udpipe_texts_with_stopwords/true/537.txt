@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 31 de agosto de 2017 boa noite aqui estao as principais noticias para voce terminar o dia beminformado enquanto muitos contestam a decisao de um juiz de sp que liberou um homem com diversas passagens por estupro por abuso dentro de um onibus novos casos de violencia sexual contra mulheres ganham
+1	quintafeira	quintafeira	NOUN	NOUN	_	10	parataxis	_	TokenRange=0:11
+2	31	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	agosto	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=18:24
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=25:27
+6	2017	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=28:32
+7	boa	bom	ADJ	ADJ	_	8	amod	_	TokenRange=33:36
+8	noite	noite	NOUN	NOUN	_	1	appos	_	TokenRange=37:42
+9	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=43:47
+10	estao	_	VERB	VERB	_	0	root	_	TokenRange=48:53
+11	as	o	DET	DET	_	13	det	_	TokenRange=54:56
+12	principais	principal	ADJ	ADJ	_	13	amod	_	TokenRange=57:67
+13	noticias	noticia	NOUN	NOUN	_	10	nsubj	_	TokenRange=68:76
+14	para	_	ADP	ADP	_	16	mark	_	TokenRange=77:81
+15	voce	_	PRON	PRON	_	16	nsubj	_	TokenRange=82:86
+16	terminar	terminar	VERB	VERB	_	13	nmod	_	TokenRange=87:95
+17	o	o	DET	DET	_	18	det	_	TokenRange=96:97
+18	dia	dia	NOUN	NOUN	_	16	obj	_	TokenRange=98:101
+19	beminformado	beminformado	ADJ	ADJ	_	18	amod	_	TokenRange=102:114
+20	enquanto	_	CCONJ	CONJ	_	22	mark	_	TokenRange=115:123
+21	muitos	_	PRON	PRON	_	22	nsubj	_	TokenRange=124:130
+22	contestam	contestar	VERB	VERB	_	10	advcl	_	TokenRange=131:140
+23	a	o	DET	DET	_	24	det	_	TokenRange=141:142
+24	decisao	decisao	NOUN	NOUN	_	22	obj	_	TokenRange=143:150
+25	de	de	ADP	ADP	_	27	case	_	TokenRange=151:153
+26	um	um	DET	DET	_	27	det	_	TokenRange=154:156
+27	juiz	juiz	NOUN	NOUN	_	24	nmod	_	TokenRange=157:161
+28	de	de	ADP	ADP	_	29	case	_	TokenRange=162:164
+29	sp	sp	NOUN	NOUN	_	27	nmod	_	TokenRange=165:167
+30	que	_	PRON	PRON	_	31	nsubj	_	TokenRange=168:171
+31	liberou	liberar	VERB	VERB	_	27	acl:relcl	_	TokenRange=172:179
+32	um	um	DET	DET	_	33	det	_	TokenRange=180:182
+33	homem	homem	NOUN	NOUN	_	31	obj	_	TokenRange=183:188
+34	com	com	ADP	ADP	_	36	case	_	TokenRange=189:192
+35	diversas	_	DET	DET	_	36	det	_	TokenRange=193:201
+36	passagens	passagem	NOUN	NOUN	_	31	nmod	_	TokenRange=202:211
+37	por	por	ADP	ADP	_	38	case	_	TokenRange=212:215
+38	estupro	estupro	NOUN	NOUN	_	36	nmod	_	TokenRange=216:223
+39	por	por	ADP	ADP	_	40	case	_	TokenRange=224:227
+40	abuso	abuso	NOUN	NOUN	_	36	nmod	_	TokenRange=228:233
+41	dentro	dentro	ADV	ADV	_	40	advmod	_	TokenRange=234:240
+42	de	de	ADP	ADP	_	44	case	_	TokenRange=241:243
+43	um	um	DET	DET	_	44	det	_	TokenRange=244:246
+44	onibus	onibus	NOUN	NOUN	_	41	nmod	_	TokenRange=247:253
+45	novos	novo	ADJ	ADJ	_	46	amod	_	TokenRange=254:259
+46	casos	caso	NOUN	NOUN	_	52	nsubj	_	TokenRange=260:265
+47	de	de	ADP	ADP	_	48	case	_	TokenRange=266:268
+48	violencia	violencia	NOUN	NOUN	_	46	nmod	_	TokenRange=269:278
+49	sexual	sexual	ADJ	ADJ	_	48	amod	_	TokenRange=279:285
+50	contra	_	ADP	ADP	_	51	case	_	TokenRange=286:292
+51	mulheres	mulher	NOUN	NOUN	_	48	nmod	_	TokenRange=293:301
+52	ganham	ganhar	VERB	VERB	_	10	parataxis	_	SpacesAfter=\s\s|TokenRange=302:308
+

@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = moro pede a pf que sejam tomadas as providencias necessarias para realizacao da pericia na planilha italiano prazo dado para a pf foi de 30 dias planilha foi apresentada pela odebrecht como a contabilidade de propina para o pt em processo da lava jato o juiz federal sergio moro responsavel pelos processos da operacao lava jato na primeira instancia pediu para a policia federal pf
+1	moro	moro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=5:9
+3	a	_	ADP	ADP	_	4	case	_	TokenRange=10:11
+4	pf	_	NOUN	NOUN	_	2	iobj	_	TokenRange=12:14
+5	que	que	CCONJ	CONJ	_	7	mark	_	TokenRange=15:18
+6	sejam	ser	AUX	AUX	_	7	aux:pass	_	TokenRange=19:24
+7	tomadas	tomar	VERB	VERB	_	2	ccomp	_	TokenRange=25:32
+8	as	o	DET	DET	_	9	det	_	TokenRange=33:35
+9	providencias	_	NOUN	NOUN	_	7	nsubj:pass	_	TokenRange=36:48
+10	necessarias	necessaria	ADJ	ADJ	_	9	amod	_	TokenRange=49:60
+11	para	para	ADP	ADP	_	12	case	_	TokenRange=61:65
+12	realizacao	realizacao	NOUN	NOUN	_	10	nmod	_	TokenRange=66:76
+13-14	da	_	_	_	_	_	_	_	TokenRange=77:79
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pericia	pericia	NOUN	NOUN	_	12	nmod	_	TokenRange=80:87
+16-17	na	_	_	_	_	_	_	_	TokenRange=88:90
+16	em	em	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	planilha	planilha	NOUN	NOUN	_	12	nmod	_	TokenRange=91:99
+19	italiano	italiano	ADJ	ADJ	_	18	amod	_	TokenRange=100:108
+20	prazo	prazo	NOUN	NOUN	_	25	nsubj	_	TokenRange=109:114
+21	dado	dar	VERB	VERB	_	20	acl	_	TokenRange=115:119
+22	para	para	ADP	ADP	_	24	case	_	TokenRange=120:124
+23	a	o	DET	DET	_	24	det	_	TokenRange=125:126
+24	pf	_	NOUN	NOUN	_	21	nmod	_	TokenRange=127:129
+25	foi	_	VERB	VERB	_	2	ccomp	_	TokenRange=130:133
+26	de	de	ADP	ADP	_	28	case	_	TokenRange=134:136
+27	30	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=137:139
+28	dias	dia	NOUN	NOUN	_	25	nmod	_	TokenRange=140:144
+29	planilha	planilha	NOUN	NOUN	_	31	nsubj:pass	_	TokenRange=145:153
+30	foi	_	AUX	AUX	_	31	aux:pass	_	TokenRange=154:157
+31	apresentada	apresentar	VERB	VERB	_	2	ccomp	_	TokenRange=158:169
+32-33	pela	_	_	_	_	_	_	_	TokenRange=170:174
+32	por	por	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	odebrecht	_	NOUN	NOUN	_	31	nmod	_	TokenRange=175:184
+35	como	como	ADP	ADP	_	37	case	_	TokenRange=185:189
+36	a	o	DET	DET	_	37	det	_	TokenRange=190:191
+37	contabilidade	contabilidade	NOUN	NOUN	_	31	nmod	_	TokenRange=192:205
+38	de	de	ADP	ADP	_	39	case	_	TokenRange=206:208
+39	propina	propina	NOUN	NOUN	_	37	nmod	_	TokenRange=209:216
+40	para	para	ADP	ADP	_	42	case	_	TokenRange=217:221
+41	o	o	DET	DET	_	42	det	_	TokenRange=222:223
+42	pt	_	NOUN	NOUN	_	37	nmod	_	TokenRange=224:226
+43	em	em	ADP	ADP	_	44	case	_	TokenRange=227:229
+44	processo	processo	NOUN	NOUN	_	37	nmod	_	TokenRange=230:238
+45-46	da	_	_	_	_	_	_	_	TokenRange=239:241
+45	de	de	ADP	ADP	_	47	case	_	_
+46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	lava	lava	NOUN	NOUN	_	44	nmod	_	TokenRange=242:246
+48	jato	jato	NOUN	NOUN	_	47	flat	_	TokenRange=247:251
+49	o	o	DET	DET	_	50	det	_	TokenRange=252:253
+50	juiz	juiz	NOUN	NOUN	_	67	nsubj	_	TokenRange=254:258
+51	federal	federal	ADJ	ADJ	_	50	amod	_	TokenRange=259:266
+52	sergio	_	NOUN	NOUN	_	50	appos	_	TokenRange=267:273
+53	moro	moro	NOUN	NOUN	_	50	flat	_	TokenRange=274:278
+54	responsavel	responsavel	ADJ	ADJ	_	50	amod	_	TokenRange=279:290
+55-56	pelos	_	_	_	_	_	_	_	TokenRange=291:296
+55	por	por	ADP	ADP	_	57	case	_	_
+56	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	57	det	_	_
+57	processos	processo	NOUN	NOUN	_	54	nmod	_	TokenRange=297:306
+58-59	da	_	_	_	_	_	_	_	TokenRange=307:309
+58	de	de	ADP	ADP	_	60	case	_	_
+59	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	operacao	operacao	NOUN	NOUN	_	57	nmod	_	TokenRange=310:318
+61	lava	lava	NOUN	NOUN	_	60	appos	_	TokenRange=319:323
+62	jato	jato	NOUN	NOUN	_	61	flat	_	TokenRange=324:328
+63-64	na	_	_	_	_	_	_	_	TokenRange=329:331
+63	em	em	ADP	ADP	_	66	case	_	_
+64	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+65	primeira	primeiro	ADJ	ADJ	_	66	amod	_	TokenRange=332:340
+66	instancia	instancia	NOUN	NOUN	_	54	nmod	_	TokenRange=341:350
+67	pediu	pedir	VERB	VERB	_	31	parataxis	_	TokenRange=351:356
+68	para	para	ADP	ADP	_	70	case	_	TokenRange=357:361
+69	a	o	DET	DET	_	70	det	_	TokenRange=362:363
+70	policia	policia	NOUN	NOUN	_	67	nmod	_	TokenRange=364:371
+71	federal	federal	ADJ	ADJ	_	70	amod	_	TokenRange=372:379
+72	pf	_	NOUN	NOUN	_	67	obj	_	SpacesAfter=\s\s|TokenRange=380:382
+

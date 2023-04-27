@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = na duvida de que curso escolher apos o enem especialistas dao dicas de areas promissoras confira dicas de carreiras e profissoes que sao tendencias e continuarao em alta em 2018 muitos alunos que fazem o enem este ano estao ansiosos com a proximidade da segunda e ultima prova que acontecera no proximo domingo 12 seja medicina direito educacao fisica engenharia ou qualquer outro curso muitos ja decidiram qual pretendem seguir mas ainda em uma grande quantidade
+1-2	na	_	_	_	_	_	_	_	TokenRange=0:2
+1	em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	duvida	duvida	NOUN	NOUN	_	17	nmod	_	TokenRange=3:9
+4	de	_	ADP	ADP	_	7	mark	_	TokenRange=10:12
+5	que	que	CCONJ	CONJ	_	7	mark	_	TokenRange=13:16
+6	curso	curso	NOUN	NOUN	_	7	nsubj	_	TokenRange=17:22
+7	escolher	escolher	VERB	VERB	_	3	nmod	_	TokenRange=23:31
+8	apos	_	ADP	ADP	_	10	case	_	TokenRange=32:36
+9	o	o	DET	DET	_	10	det	_	TokenRange=37:38
+10	enem	_	NOUN	NOUN	_	7	nmod	_	TokenRange=39:43
+11	especialistas	especialista	NOUN	NOUN	_	7	nsubj	_	TokenRange=44:57
+12	dao	dar	VERB	VERB	_	3	nmod	_	TokenRange=58:61
+13	dicas	dica	NOUN	NOUN	_	12	obj	_	TokenRange=62:67
+14	de	de	ADP	ADP	_	15	case	_	TokenRange=68:70
+15	areas	_	NOUN	NOUN	_	13	nmod	_	TokenRange=71:76
+16	promissoras	promissor	ADJ	ADJ	_	15	amod	_	TokenRange=77:88
+17	confira	conferir	VERB	VERB	_	0	root	_	TokenRange=89:96
+18	dicas	dica	NOUN	NOUN	_	17	obj	_	TokenRange=97:102
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=103:105
+20	carreiras	_	NOUN	NOUN	_	18	nmod	_	TokenRange=106:115
+21	e	e	CCONJ	CONJ	_	22	cc	_	TokenRange=116:117
+22	profissoes	profissoe	NOUN	NOUN	_	20	conj	_	TokenRange=118:128
+23	que	_	PRON	PRON	_	24	nsubj	_	TokenRange=129:132
+24	sao	_	VERB	VERB	_	20	acl:relcl	_	TokenRange=133:136
+25	tendencias	tendencia	ADJ	ADJ	_	24	xcomp	_	TokenRange=137:147
+26	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=148:149
+27	continuarao	continuar	VERB	VERB	_	24	conj	_	TokenRange=150:161
+28	em	em	ADP	ADP	_	29	case	_	TokenRange=162:164
+29	alta	_	NOUN	NOUN	_	27	nmod	_	TokenRange=165:169
+30	em	em	ADP	ADP	_	31	case	_	TokenRange=170:172
+31	2018	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=173:177
+32	muitos	_	DET	DET	_	33	det	_	TokenRange=178:184
+33	alunos	aluno	NOUN	NOUN	_	40	nsubj	_	TokenRange=185:191
+34	que	_	PRON	PRON	_	35	nsubj	_	TokenRange=192:195
+35	fazem	fazer	VERB	VERB	_	33	acl:relcl	_	TokenRange=196:201
+36	o	o	DET	DET	_	37	det	_	TokenRange=202:203
+37	enem	enem	NOUN	NOUN	_	35	obj	_	TokenRange=204:208
+38	este	_	DET	DET	_	39	det	_	TokenRange=209:213
+39	ano	ano	NOUN	NOUN	_	35	nmod	_	TokenRange=214:217
+40	estao	_	VERB	VERB	_	17	conj	_	TokenRange=218:223
+41	ansiosos	ansioso	ADJ	ADJ	_	40	xcomp	_	TokenRange=224:232
+42	com	com	ADP	ADP	_	44	case	_	TokenRange=233:236
+43	a	o	DET	DET	_	44	det	_	TokenRange=237:238
+44	proximidade	proximidade	NOUN	NOUN	_	41	nmod	_	TokenRange=239:250
+45-46	da	_	_	_	_	_	_	_	TokenRange=251:253
+45	de	de	ADP	ADP	_	50	case	_	_
+46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+47	segunda	segundo	ADJ	ADJ	_	50	amod	_	TokenRange=254:261
+48	e	e	CCONJ	CONJ	_	49	cc	_	TokenRange=262:263
+49	ultima	_	ADJ	ADJ	_	47	conj	_	TokenRange=264:270
+50	prova	prova	NOUN	NOUN	_	44	nmod	_	TokenRange=271:276
+51	que	_	PRON	PRON	_	52	nsubj	_	TokenRange=277:280
+52	acontecera	acontecer	VERB	VERB	_	50	acl:relcl	_	TokenRange=281:291
+53-54	no	_	_	_	_	_	_	_	TokenRange=292:294
+53	em	em	ADP	ADP	_	56	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+55	proximo	proximo	ADJ	ADJ	_	56	amod	_	TokenRange=295:302
+56	domingo	_	PROPN	PNOUN	_	52	nmod	_	TokenRange=303:310
+57	12	_	NUM	NUM	NumType=Card	56	nmod	_	TokenRange=311:313
+58	seja	ser	AUX	AUX	_	59	cop	_	TokenRange=314:318
+59	medicina	medicina	NOUN	NOUN	_	52	parataxis	_	TokenRange=319:327
+60	direito	direito	ADJ	ADJ	_	59	amod	_	TokenRange=328:335
+61	educacao	educacao	NOUN	NOUN	_	59	appos	_	TokenRange=336:344
+62	fisica	fisico	ADJ	ADJ	_	61	amod	_	TokenRange=345:351
+63	engenharia	engenharia	NOUN	NOUN	_	59	appos	_	TokenRange=352:362
+64	ou	ou	CCONJ	CONJ	_	67	cc	_	TokenRange=363:365
+65	qualquer	_	DET	DET	_	67	det	_	TokenRange=366:374
+66	outro	_	DET	DET	_	67	det	_	TokenRange=375:380
+67	curso	curso	NOUN	NOUN	_	59	conj	_	TokenRange=381:386
+68	muitos	_	PRON	PRON	_	70	nsubj	_	TokenRange=387:393
+69	ja	ja	ADV	ADV	_	70	advmod	_	TokenRange=394:396
+70	decidiram	decidir	VERB	VERB	_	17	parataxis	_	TokenRange=397:406
+71	qual	_	PRON	PRON	_	72	nsubj	_	TokenRange=407:411
+72	pretendem	pretender	VERB	VERB	_	70	ccomp	_	TokenRange=412:421
+73	seguir	seguir	VERB	VERB	_	72	xcomp	_	TokenRange=422:428
+74	mas	mas	CCONJ	CONJ	_	79	cc	_	TokenRange=429:432
+75	ainda	ainda	ADV	ADV	_	79	advmod	_	TokenRange=433:438
+76	em	em	ADP	ADP	_	79	case	_	TokenRange=439:441
+77	uma	um	DET	DET	_	79	det	_	TokenRange=442:445
+78	grande	grande	ADJ	ADJ	_	79	amod	_	TokenRange=446:452
+79	quantidade	quantidade	NOUN	NOUN	_	70	conj	_	SpacesAfter=\s\s|TokenRange=453:463
+

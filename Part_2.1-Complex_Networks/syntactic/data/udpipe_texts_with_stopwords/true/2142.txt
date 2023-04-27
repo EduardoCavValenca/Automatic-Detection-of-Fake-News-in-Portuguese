@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = parana sextafeira 9 de marco de 2018 boa noite aqui estao as principais noticias para voce terminar o dia beminformado o exdiretorpresidente global da brf brasil foods pedro de andrade faria foi solto apos ter a prisao temporaria revogada pela justica federal alem de faria outras seis pessoas foram soltas pela policia federal pf nesta sexta entre elas o exdiretor e exvicepresidente helio rubens mendes dos santos junior o juiz sergio moro responsavel
+1	parana	parana	NOUN	NOUN	_	11	parataxis	_	TokenRange=0:6
+2	sextafeira	sextafeira	NOUN	NOUN	_	1	appos	_	TokenRange=7:17
+3	9	_	NUM	NUM	NumType=Card	2	appos	_	TokenRange=18:19
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=20:22
+5	marco	_	PROPN	PNOUN	_	3	nmod	_	TokenRange=23:28
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=29:31
+7	2018	_	NUM	NUM	NumType=Card	5	nmod	_	TokenRange=32:36
+8	boa	bom	ADJ	ADJ	_	9	amod	_	TokenRange=37:40
+9	noite	noite	NOUN	NOUN	_	11	nsubj	_	TokenRange=41:46
+10	aqui	aqui	ADV	ADV	_	11	advmod	_	TokenRange=47:51
+11	estao	_	VERB	VERB	_	0	root	_	TokenRange=52:57
+12	as	o	DET	DET	_	14	det	_	TokenRange=58:60
+13	principais	principal	ADJ	ADJ	_	14	amod	_	TokenRange=61:71
+14	noticias	noticia	NOUN	NOUN	_	11	nsubj	_	TokenRange=72:80
+15	para	_	ADP	ADP	_	17	mark	_	TokenRange=81:85
+16	voce	_	PRON	PRON	_	17	nsubj	_	TokenRange=86:90
+17	terminar	terminar	VERB	VERB	_	14	nmod	_	TokenRange=91:99
+18	o	o	DET	DET	_	19	det	_	TokenRange=100:101
+19	dia	dia	NOUN	NOUN	_	17	obj	_	TokenRange=102:105
+20	beminformado	beminformado	ADJ	ADJ	_	19	amod	_	TokenRange=106:118
+21	o	o	DET	DET	_	22	det	_	TokenRange=119:120
+22	exdiretorpresidente	exdiretorpresidente	NOUN	NOUN	_	34	nsubj:pass	_	TokenRange=121:140
+23	global	global	ADJ	ADJ	_	22	amod	_	TokenRange=141:147
+24-25	da	_	_	_	_	_	_	_	TokenRange=148:150
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	brf	brf	NOUN	NOUN	_	22	nmod	_	TokenRange=151:154
+27	brasil	brasil	NOUN	NOUN	_	26	flat	_	TokenRange=155:161
+28	foods	_	NOUN	NOUN	_	26	flat	_	TokenRange=162:167
+29	pedro	pedro	NOUN	NOUN	_	22	appos	_	TokenRange=168:173
+30	de	de	ADP	ADP	_	31	case	_	TokenRange=174:176
+31	andrade	andrade	NOUN	NOUN	_	29	nmod	_	TokenRange=177:184
+32	faria	fazer	NOUN	NOUN	_	31	flat	_	TokenRange=185:190
+33	foi	_	AUX	AUX	_	34	aux:pass	_	TokenRange=191:194
+34	solto	soltar	VERB	VERB	_	11	parataxis	_	TokenRange=195:200
+35	apos	_	ADP	ADP	_	36	mark	_	TokenRange=201:205
+36	ter	ter	VERB	VERB	_	34	advcl	_	TokenRange=206:209
+37	a	o	DET	DET	_	38	det	_	TokenRange=210:211
+38	prisao	prisao	NOUN	NOUN	_	36	obj	_	TokenRange=212:218
+39	temporaria	temporar	ADJ	ADJ	_	38	amod	_	TokenRange=219:229
+40	revogada	revogar	VERB	VERB	_	38	acl	_	TokenRange=230:238
+41-42	pela	_	_	_	_	_	_	_	TokenRange=239:243
+41	por	por	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	justica	_	NOUN	NOUN	_	40	nmod	_	TokenRange=244:251
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=252:259
+45	alem	alem	ADV	ADV	_	52	advmod	_	TokenRange=260:264
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=265:267
+47	faria	faria	NOUN	NOUN	_	45	nmod	_	TokenRange=268:273
+48	outras	_	DET	DET	_	50	det	_	TokenRange=274:280
+49	seis	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=281:285
+50	pessoas	pessoa	NOUN	NOUN	_	52	nsubj:pass	_	TokenRange=286:293
+51	foram	_	AUX	AUX	_	52	aux:pass	_	TokenRange=294:299
+52	soltas	soltar	VERB	VERB	_	34	parataxis	_	TokenRange=300:306
+53-54	pela	_	_	_	_	_	_	_	TokenRange=307:311
+53	por	por	ADP	ADP	_	55	case	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	policia	policia	NOUN	NOUN	_	52	nmod	_	TokenRange=312:319
+56	federal	federal	ADJ	ADJ	_	55	amod	_	TokenRange=320:327
+57	pf	_	NOUN	NOUN	_	55	appos	_	TokenRange=328:330
+58	nesta	_	ADP	ADP	_	59	case	_	TokenRange=331:336
+59	sexta	_	PROPN	PNOUN	_	52	nmod	_	TokenRange=337:342
+60	entre	_	ADP	ADP	_	61	case	_	TokenRange=343:348
+61	elas	_	PRON	PRON	_	52	nmod	_	TokenRange=349:353
+62	o	o	DET	DET	_	63	det	_	TokenRange=354:355
+63	exdiretor	exdiretor	NOUN	NOUN	_	52	nsubj:pass	_	TokenRange=356:365
+64	e	e	CCONJ	CONJ	_	65	cc	_	TokenRange=366:367
+65	exvicepresidente	exvicepresidente	NOUN	NOUN	_	63	conj	_	TokenRange=368:384
+66	helio	helio	NOUN	NOUN	_	63	appos	_	TokenRange=385:390
+67	rubens	rubem	NOUN	NOUN	_	66	flat	_	TokenRange=391:397
+68	mendes	_	NOUN	NOUN	_	66	flat	_	TokenRange=398:404
+69-70	dos	_	_	_	_	_	_	_	TokenRange=405:408
+69	de	de	ADP	ADP	_	71	case	_	_
+70	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	71	det	_	_
+71	santos	santo	NOUN	NOUN	_	66	nmod	_	TokenRange=409:415
+72	junior	junior	ADJ	ADJ	_	71	amod	_	TokenRange=416:422
+73	o	o	DET	DET	_	74	det	_	TokenRange=423:424
+74	juiz	juiz	NOUN	NOUN	_	63	appos	_	TokenRange=425:429
+75	sergio	sergio	NOUN	NOUN	_	74	appos	_	TokenRange=430:436
+76	moro	moro	NOUN	NOUN	_	75	flat	_	TokenRange=437:441
+77	responsavel	responsavel	ADJ	ADJ	_	74	amod	_	SpacesAfter=\s\s|TokenRange=442:453
+

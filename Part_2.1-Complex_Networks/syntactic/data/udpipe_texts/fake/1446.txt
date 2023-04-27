@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciro lado lula ultimo fim semana 2 anos chamava petista trambiqueiro exgovernador exministro governo lula ciro gomes afirmou moral expresidente frouxa confira minuto 100 video moral lula frouxa dilma lula dizia menos assim povo olha vou fazer aqui uns trambiques poder aquietar caras tirar algumas coisa povo percebia logica ciro classificou administracao dilma ruinosa emendou presidente cometeu nenhum crime justifique impedimento direito mudar
+1	ciro	_	ADJ	ADJ	_	2	amod	_	TokenRange=0:4
+2	lado	lado	NOUN	NOUN	_	10	appos	_	TokenRange=5:9
+3	lula	_	NOUN	NOUN	_	2	flat	_	TokenRange=10:14
+4	ultimo	_	ADJ	ADJ	_	5	amod	_	TokenRange=15:21
+5	fim	fim	NOUN	NOUN	_	2	appos	_	TokenRange=22:25
+6	semana	semana	NOUN	NOUN	_	5	flat	_	TokenRange=26:32
+7	2	_	NUM	NUM	NumType=Card	8	nummod	_	TokenRange=33:34
+8	anos	ano	NOUN	NOUN	_	2	appos	_	TokenRange=35:39
+9	chamava	chamar	AUX	AUX	_	10	cop	_	TokenRange=40:47
+10	petista	petista	NOUN	NOUN	_	0	root	_	TokenRange=48:55
+11	trambiqueiro	trambiqueiro	NOUN	NOUN	_	10	amod	_	TokenRange=56:68
+12	exgovernador	exgovernador	NOUN	NOUN	_	10	amod	_	TokenRange=69:81
+13	exministro	exministro	ADJ	ADJ	_	10	amod	_	TokenRange=82:92
+14	governo	governo	NOUN	NOUN	_	10	appos	_	TokenRange=93:100
+15	lula	lula	ADJ	ADJ	_	14	amod	_	TokenRange=101:105
+16	ciro	ciro	NOUN	NOUN	_	18	nsubj	_	TokenRange=106:110
+17	gomes	gome	NOUN	NOUN	_	16	flat	_	TokenRange=111:116
+18	afirmou	afirmar	VERB	VERB	_	10	parataxis	_	TokenRange=117:124
+19	moral	moral	NOUN	NOUN	_	18	obj	_	TokenRange=125:130
+20	expresidente	expresidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=131:143
+21	frouxa	frouxo	ADJ	ADJ	_	25	amod	_	TokenRange=144:150
+22	confira	conferir	VERB	VERB	_	18	ccomp	_	TokenRange=151:158
+23	minuto	minuto	NOUN	NOUN	_	22	obj	_	TokenRange=159:165
+24	100	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=166:169
+25	video	video	NOUN	NOUN	_	23	appos	_	TokenRange=170:175
+26	moral	moral	ADJ	ADJ	_	25	amod	_	TokenRange=176:181
+27	lula	lula	NOUN	NOUN	_	25	appos	_	TokenRange=182:186
+28	frouxa	frouxo	ADJ	ADJ	_	25	acl:relcl	_	TokenRange=187:193
+29	dilma	dilma	NOUN	NOUN	_	31	nsubj	_	TokenRange=194:199
+30	lula	_	NOUN	NOUN	_	25	appos	_	TokenRange=200:204
+31	dizia	dizer	VERB	VERB	_	18	conj	_	TokenRange=205:210
+32	menos	menos	ADV	ADV	_	33	advmod	_	TokenRange=211:216
+33	assim	assim	ADV	ADV	_	31	advmod	_	TokenRange=217:222
+34	povo	povo	NOUN	NOUN	_	31	nsubj	_	TokenRange=223:227
+35	olha	olha	NOUN	NOUN	_	37	nsubj	_	TokenRange=228:232
+36	vou	ir	AUX	AUX	_	37	aux	_	TokenRange=233:236
+37	fazer	fazer	VERB	VERB	_	31	ccomp	_	TokenRange=237:242
+38	aqui	aqui	ADV	ADV	_	37	advmod	_	TokenRange=243:247
+39	uns	_	DET	DET	_	40	det	_	TokenRange=248:251
+40	trambiques	trambique	NOUN	NOUN	_	42	nsubj	_	TokenRange=252:262
+41	poder	poder	AUX	AUX	_	42	aux	_	TokenRange=263:268
+42	aquietar	aquietar	VERB	VERB	_	37	ccomp	_	TokenRange=269:277
+43	caras	cara	NOUN	NOUN	_	42	obj	_	TokenRange=278:283
+44	tirar	tirar	VERB	VERB	_	42	ccomp	_	TokenRange=284:289
+45	algumas	_	DET	DET	_	46	det	_	TokenRange=290:297
+46	coisa	coisa	NOUN	NOUN	_	44	obj	_	TokenRange=298:303
+47	povo	povo	NOUN	NOUN	_	46	amod	_	TokenRange=304:308
+48	percebia	perceber	VERB	VERB	_	37	conj	_	TokenRange=309:317
+49	logica	_	NOUN	NOUN	_	48	obj	_	TokenRange=318:324
+50	ciro	_	PRON	PRON	_	51	nsubj	_	TokenRange=325:329
+51	classificou	classificar	VERB	VERB	_	48	ccomp	_	TokenRange=330:341
+52	administracao	administracao	NOUN	NOUN	_	51	obj	_	TokenRange=342:355
+53	dilma	dilma	NOUN	ADJ	_	52	amod	_	TokenRange=356:361
+54	ruinosa	ruinoso	ADJ	ADJ	_	52	amod	_	TokenRange=362:369
+55	emendou	emendar	VERB	VERB	_	51	conj	_	TokenRange=370:377
+56	presidente	presidente	NOUN	NOUN	_	57	nsubj	_	TokenRange=378:388
+57	cometeu	cometer	VERB	VERB	_	51	ccomp	_	TokenRange=389:396
+58	nenhum	_	DET	DET	_	59	det	_	TokenRange=397:403
+59	crime	crime	NOUN	NOUN	_	57	obj	_	TokenRange=404:409
+60	justifique	justificar	VERB	VERB	_	57	conj	_	TokenRange=410:420
+61	impedimento	impedimento	NOUN	NOUN	_	60	obj	_	TokenRange=421:432
+62	direito	direito	NOUN	NOUN	_	61	flat	_	TokenRange=433:440
+63	mudar	mudar	VERB	VERB	_	61	acl	_	SpaceAfter=No|TokenRange=441:446
+

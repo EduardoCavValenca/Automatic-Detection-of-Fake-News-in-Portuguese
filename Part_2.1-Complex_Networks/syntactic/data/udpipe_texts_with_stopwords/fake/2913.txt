@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro comenta a cuspida que levou de jean wyllys tinha um cheiro horrivel aquilo eu ainda nao sei o que fazer o cara e completamente desequilibrado apos levar uma cuspida do deputado jean wyllys jair bolsonaro comentou o episodio atraves de um video publicado nas redes sociais eu acho que isso e um caso psiquiatrico porque esse amor e odio para comigo o que sera que esta acontecendo disse bolsonaro confira o video leia tambem
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	comenta	comentar	VERB	VERB	_	0	root	_	TokenRange=10:17
+3	a	o	DET	DET	_	4	det	_	TokenRange=18:19
+4	cuspida	cuspida	NOUN	NOUN	_	2	obj	_	TokenRange=20:27
+5	que	_	PRON	PRON	_	6	obj	_	TokenRange=28:31
+6	levou	levar	VERB	VERB	_	4	acl:relcl	_	TokenRange=32:37
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=38:40
+8	jean	_	NOUN	NOUN	_	6	nmod	_	TokenRange=41:45
+9	wyllys	_	NOUN	NOUN	_	8	flat	_	TokenRange=46:52
+10	tinha	ter	VERB	VERB	_	2	ccomp	_	TokenRange=53:58
+11	um	um	DET	DET	_	12	det	_	TokenRange=59:61
+12	cheiro	cheiro	NOUN	NOUN	_	10	obj	_	TokenRange=62:68
+13	horrivel	horrivel	ADJ	ADJ	_	12	amod	_	TokenRange=69:77
+14	aquilo	_	PRON	PRON	_	18	obj	_	TokenRange=78:84
+15	eu	_	PRON	PRON	_	18	nsubj	_	TokenRange=85:87
+16	ainda	ainda	ADV	ADV	_	18	advmod	_	TokenRange=88:93
+17	nao	nao	ADV	ADV	Polarity=Neg	18	advmod	_	TokenRange=94:97
+18	sei	saber	VERB	VERB	_	10	advcl	_	TokenRange=98:101
+19	o	_	PRON	PRON	_	18	obj	_	TokenRange=102:103
+20	que	_	PRON	PRON	_	21	obj	_	TokenRange=104:107
+21	fazer	fazer	VERB	VERB	_	19	acl:relcl	_	TokenRange=108:113
+22	o	o	DET	DET	_	23	det	_	TokenRange=114:115
+23	cara	cara	NOUN	NOUN	_	21	nsubj	_	TokenRange=116:120
+24	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=121:122
+25	completamente	completamente	ADV	ADV	_	26	advmod	_	TokenRange=123:136
+26	desequilibrado	desequilibrar	VERB	VERB	_	23	conj	_	TokenRange=137:151
+27	apos	_	ADP	ADP	_	28	mark	_	TokenRange=152:156
+28	levar	levar	VERB	VERB	_	38	advcl	_	TokenRange=157:162
+29	uma	um	DET	DET	_	30	det	_	TokenRange=163:166
+30	cuspida	cuspida	NOUN	NOUN	_	28	obj	_	TokenRange=167:174
+31-32	do	_	_	_	_	_	_	_	TokenRange=175:177
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	deputado	deputado	NOUN	NOUN	_	30	nmod	_	TokenRange=178:186
+34	jean	_	NOUN	NOUN	_	33	appos	_	TokenRange=187:191
+35	wyllys	_	NOUN	NOUN	_	34	flat	_	TokenRange=192:198
+36	jair	jair	NOUN	NOUN	_	33	appos	_	TokenRange=199:203
+37	bolsonaro	bolsonaro	NOUN	NOUN	_	36	flat	_	TokenRange=204:213
+38	comentou	comentar	VERB	VERB	_	18	conj	_	TokenRange=214:222
+39	o	o	DET	DET	_	40	det	_	TokenRange=223:224
+40	episodio	episodio	NOUN	NOUN	_	38	obj	_	TokenRange=225:233
+41	atraves	atraves	ADV	ADV	_	38	advmod	_	TokenRange=234:241
+42	de	de	ADP	ADP	_	44	case	_	TokenRange=242:244
+43	um	um	DET	DET	_	44	det	_	TokenRange=245:247
+44	video	video	NOUN	NOUN	_	41	nmod	_	TokenRange=248:253
+45	publicado	publicar	VERB	VERB	_	44	acl	_	TokenRange=254:263
+46-47	nas	_	_	_	_	_	_	_	TokenRange=264:267
+46	em	em	ADP	ADP	_	48	case	_	_
+47	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	redes	rede	NOUN	NOUN	_	45	nmod	_	TokenRange=268:273
+49	sociais	social	ADJ	ADJ	_	48	amod	_	TokenRange=274:281
+50	eu	_	PRON	PRON	_	51	nsubj	_	TokenRange=282:284
+51	acho	achar	VERB	VERB	_	44	acl:relcl	_	TokenRange=285:289
+52	que	que	CCONJ	CONJ	_	56	mark	_	TokenRange=290:293
+53	isso	_	PRON	PRON	_	56	nsubj	_	TokenRange=294:298
+54	e	e	CCONJ	CONJ	_	56	cc	_	TokenRange=299:300
+55	um	um	DET	DET	_	56	det	_	TokenRange=301:303
+56	caso	caso	NOUN	NOUN	_	51	ccomp	_	TokenRange=304:308
+57	psiquiatrico	psiquiatrico	ADJ	ADJ	_	56	amod	_	TokenRange=309:321
+58	porque	_	CCONJ	CONJ	_	71	mark	_	TokenRange=322:328
+59	esse	_	DET	DET	_	60	det	_	TokenRange=329:333
+60	amor	amor	NOUN	NOUN	_	56	nsubj	_	TokenRange=334:338
+61	e	e	CCONJ	CONJ	_	62	cc	_	TokenRange=339:340
+62	odio	odio	NOUN	NOUN	_	60	conj	_	TokenRange=341:345
+63	para	para	ADP	ADP	_	64	case	_	TokenRange=346:350
+64	comigo	_	X	ADPPRON	_	62	nmod	_	TokenRange=351:357
+65	o	_	PRON	PRON	_	60	appos	_	TokenRange=358:359
+66	que	_	PRON	PRON	_	67	nsubj	_	TokenRange=360:363
+67	sera	_	VERB	VERB	_	65	acl:relcl	_	TokenRange=364:368
+68	que	que	CCONJ	CONJ	_	70	mark	_	TokenRange=369:372
+69	esta	_	AUX	AUX	_	70	aux	_	TokenRange=373:377
+70	acontecendo	acontecer	VERB	VERB	_	67	csubj	_	TokenRange=378:389
+71	disse	dizer	VERB	VERB	_	65	acl:relcl	_	TokenRange=390:395
+72	bolsonaro	bolsonaro	NOUN	NOUN	_	73	nsubj	_	TokenRange=396:405
+73	confira	conferir	VERB	VERB	_	71	ccomp	_	TokenRange=406:413
+74	o	o	DET	DET	_	75	det	_	TokenRange=414:415
+75	video	video	NOUN	NOUN	_	73	obj	_	TokenRange=416:421
+76	leia	ler	VERB	VERB	_	73	parataxis	_	TokenRange=422:426
+77	tambem	tambem	ADV	ADV	_	71	advmod	_	TokenRange=427:433
+

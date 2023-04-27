@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = as ultimas palavras de steve jobs que chocaram o mundo um homem com uma riqueza tao grande chocou o mundo com as suas ultimas palavras cheguei ao topo do sucesso nos negocios aos olhos dos outros minha vida tem sido um simbolo de sucesso
+1	as	o	DET	DET	_	3	det	_	TokenRange=0:2
+2	ultimas	ultimo	ADJ	ADJ	_	3	amod	_	TokenRange=3:10
+3	palavras	palavra	NOUN	NOUN	_	18	nsubj	_	TokenRange=11:19
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=20:22
+5	steve	_	PROPN	PNOUN	_	3	nmod	_	TokenRange=23:28
+6	jobs	_	NOUN	NOUN	_	5	flat	_	TokenRange=29:33
+7	que	_	PRON	PRON	_	8	nsubj	_	TokenRange=34:37
+8	chocaram	chocar	VERB	VERB	_	3	acl:relcl	_	TokenRange=38:46
+9	o	o	DET	DET	_	10	det	_	TokenRange=47:48
+10	mundo	mundo	NOUN	NOUN	_	8	obj	_	TokenRange=49:54
+11	um	um	DET	DET	_	12	det	_	TokenRange=55:57
+12	homem	homem	NOUN	NOUN	_	8	nsubj	_	TokenRange=58:63
+13	com	com	ADP	ADP	_	15	case	_	TokenRange=64:67
+14	uma	um	DET	DET	_	15	det	_	TokenRange=68:71
+15	riqueza	riqueza	NOUN	NOUN	_	12	nmod	_	TokenRange=72:79
+16	tao	tao	ADV	ADV	_	17	advmod	_	TokenRange=80:83
+17	grande	grande	ADJ	ADJ	_	15	amod	_	TokenRange=84:90
+18	chocou	chocar	VERB	VERB	_	0	root	_	TokenRange=91:97
+19	o	o	DET	DET	_	20	det	_	TokenRange=98:99
+20	mundo	mundo	NOUN	NOUN	_	18	obj	_	TokenRange=100:105
+21	com	com	ADP	ADP	_	25	case	_	TokenRange=106:109
+22	as	o	DET	DET	_	25	det	_	TokenRange=110:112
+23	suas	_	DET	DET	_	25	det:poss	_	TokenRange=113:117
+24	ultimas	ultimo	ADJ	ADJ	_	25	amod	_	TokenRange=118:125
+25	palavras	palavra	NOUN	NOUN	_	26	nmod	_	TokenRange=126:134
+26	cheguei	chegar	VERB	VERB	_	18	conj	_	TokenRange=135:142
+27-28	ao	_	_	_	_	_	_	_	TokenRange=143:145
+27	a	a	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	topo	topo	NOUN	NOUN	_	26	nmod	_	TokenRange=146:150
+30-31	do	_	_	_	_	_	_	_	TokenRange=151:153
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	sucesso	sucesso	NOUN	NOUN	_	29	nmod	_	TokenRange=154:161
+33-34	nos	_	_	_	_	_	_	_	TokenRange=162:165
+33	em	em	ADP	ADP	_	35	case	_	_
+34	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	negocios	negocio	NOUN	NOUN	_	32	nmod	_	TokenRange=166:174
+36-37	aos	_	_	_	_	_	_	_	TokenRange=175:178
+36	a	a	ADP	ADP	_	38	case	_	_
+37	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	olhos	olho	NOUN	NOUN	_	26	nmod	_	TokenRange=179:184
+39-40	dos	_	_	_	_	_	_	_	TokenRange=185:188
+39	de	de	ADP	ADP	_	41	case	_	_
+40	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	outros	_	PRON	PRON	_	38	nmod	_	TokenRange=189:195
+42	minha	_	DET	DET	_	43	det:poss	_	TokenRange=196:201
+43	vida	vida	NOUN	NOUN	_	47	nsubj	_	TokenRange=202:206
+44	tem	ter	AUX	AUX	_	47	aux	_	TokenRange=207:210
+45	sido	ser	AUX	AUX	_	47	cop	_	TokenRange=211:215
+46	um	um	DET	DET	_	47	det	_	TokenRange=216:218
+47	simbolo	simbolo	NOUN	NOUN	_	18	parataxis	_	TokenRange=219:226
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=227:229
+49	sucesso	sucesso	NOUN	NOUN	_	47	nmod	_	TokenRange=230:237
+

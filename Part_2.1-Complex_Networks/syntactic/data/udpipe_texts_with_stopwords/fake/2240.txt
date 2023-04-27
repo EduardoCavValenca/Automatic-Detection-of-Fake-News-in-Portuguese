@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senador bauer quem quiser ver uma grande obra do pt e so viajar para cuba e angola o senador paulo bauer sc discursou agora pouco na tribuna do senado palavras de bauer quem quiser ver uma grande obra do governo petista deve ir para cuba angola e alguns outros paises africanos todas sao obras iniciadas e acabadas construidas com dinheiro dos cofres publicos do brasil isso sim e golpe
+1	senador	senador	NOUN	NOUN	_	24	nsubj	_	TokenRange=0:7
+2	bauer	bauer	ADJ	ADJ	_	1	amod	_	TokenRange=8:13
+3	quem	_	PRON	PRON	_	4	nsubj	_	TokenRange=14:18
+4	quiser	querer	VERB	VERB	_	1	acl:relcl	_	TokenRange=19:25
+5	ver	ver	VERB	VERB	_	4	xcomp	_	TokenRange=26:29
+6	uma	um	DET	DET	_	8	det	_	TokenRange=30:33
+7	grande	grande	ADJ	ADJ	_	8	amod	_	TokenRange=34:40
+8	obra	obra	NOUN	NOUN	_	5	obj	_	TokenRange=41:45
+9-10	do	_	_	_	_	_	_	_	TokenRange=46:48
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	pt	_	PROPN	NOUN	_	8	nmod	_	TokenRange=49:51
+12	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=52:53
+13	so	so	ADV	ADV	_	14	advmod	_	TokenRange=54:56
+14	viajar	viajar	VERB	VERB	_	5	conj	_	TokenRange=57:63
+15	para	para	ADP	ADP	_	16	case	_	TokenRange=64:68
+16	cuba	cuba	NOUN	NOUN	_	14	nmod	_	TokenRange=69:73
+17	e	e	CCONJ	CONJ	_	18	cc	_	TokenRange=74:75
+18	angola	angola	NOUN	NOUN	_	16	conj	_	TokenRange=76:82
+19	o	o	DET	DET	_	20	det	_	TokenRange=83:84
+20	senador	senador	NOUN	NOUN	_	24	nsubj	_	TokenRange=85:92
+21	paulo	paulo	NOUN	NOUN	_	20	appos	_	TokenRange=93:98
+22	bauer	bauer	NOUN	NOUN	_	21	flat	_	TokenRange=99:104
+23	sc	_	X	X	_	21	flat	_	TokenRange=105:107
+24	discursou	discursar	VERB	VERB	_	0	root	_	TokenRange=108:117
+25	agora	agora	ADV	ADV	_	24	advmod	_	TokenRange=118:123
+26	pouco	pouco	ADV	ADV	_	24	advmod	_	TokenRange=124:129
+27-28	na	_	_	_	_	_	_	_	TokenRange=130:132
+27	em	em	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	tribuna	tribuna	NOUN	NOUN	_	24	nmod	_	TokenRange=133:140
+30-31	do	_	_	_	_	_	_	_	TokenRange=141:143
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	senado	senado	NOUN	NOUN	_	29	nmod	_	TokenRange=144:150
+33	palavras	palavra	NOUN	NOUN	_	24	obj	_	TokenRange=151:159
+34	de	de	ADP	ADP	_	35	case	_	TokenRange=160:162
+35	bauer	bauer	NOUN	NOUN	_	33	nmod	_	TokenRange=163:168
+36	quem	_	PRON	PRON	_	37	nsubj	_	TokenRange=169:173
+37	quiser	querer	VERB	VERB	_	33	acl:relcl	_	TokenRange=174:180
+38	ver	ver	VERB	VERB	_	37	xcomp	_	TokenRange=181:184
+39	uma	um	DET	DET	_	41	det	_	TokenRange=185:188
+40	grande	grande	ADJ	ADJ	_	41	amod	_	TokenRange=189:195
+41	obra	obra	NOUN	NOUN	_	38	obj	_	TokenRange=196:200
+42-43	do	_	_	_	_	_	_	_	TokenRange=201:203
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	governo	governo	NOUN	NOUN	_	41	nmod	_	TokenRange=204:211
+45	petista	petista	ADJ	ADJ	_	44	amod	_	TokenRange=212:219
+46	deve	dever	AUX	AUX	_	47	aux	_	TokenRange=220:224
+47	ir	ir	VERB	VERB	_	33	acl:relcl	_	TokenRange=225:227
+48	para	para	ADP	ADP	_	49	case	_	TokenRange=228:232
+49	cuba	_	NOUN	NOUN	_	47	nmod	_	TokenRange=233:237
+50	angola	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=238:244
+51	e	e	CCONJ	CONJ	_	54	cc	_	TokenRange=245:246
+52	alguns	_	DET	DET	_	54	det	_	TokenRange=247:253
+53	outros	_	DET	DET	_	54	det	_	TokenRange=254:260
+54	paises	paise	NOUN	NOUN	_	50	conj	_	TokenRange=261:267
+55	africanos	africano	ADJ	ADJ	_	54	amod	_	TokenRange=268:277
+56	todas	_	PRON	PRON	_	58	nsubj	_	TokenRange=278:283
+57	sao	_	AUX	AUX	_	58	cop	_	TokenRange=284:287
+58	obras	obra	NOUN	NOUN	_	24	parataxis	_	TokenRange=288:293
+59	iniciadas	iniciado	ADJ	ADJ	_	58	amod	_	TokenRange=294:303
+60	e	e	CCONJ	CONJ	_	61	cc	_	TokenRange=304:305
+61	acabadas	acabado	ADJ	ADJ	_	59	conj	_	TokenRange=306:314
+62	construidas	construir	VERB	VERB	_	58	acl	_	TokenRange=315:326
+63	com	com	ADP	ADP	_	64	case	_	TokenRange=327:330
+64	dinheiro	dinheiro	NOUN	NOUN	_	62	nmod	_	TokenRange=331:339
+65-66	dos	_	_	_	_	_	_	_	TokenRange=340:343
+65	de	de	ADP	ADP	_	67	case	_	_
+66	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	67	det	_	_
+67	cofres	cofre	NOUN	NOUN	_	64	nmod	_	TokenRange=344:350
+68	publicos	publico	ADJ	ADJ	_	67	amod	_	TokenRange=351:359
+69-70	do	_	_	_	_	_	_	_	TokenRange=360:362
+69	de	de	ADP	ADP	_	71	case	_	_
+70	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+71	brasil	brasil	NOUN	NOUN	_	67	nmod	_	TokenRange=363:369
+72	isso	_	PRON	PRON	_	67	appos	_	TokenRange=370:374
+73	sim	sim	ADV	ADV	_	72	advmod	_	TokenRange=375:378
+74	e	e	CCONJ	CONJ	_	75	cc	_	TokenRange=379:380
+75	golpe	golpe	NOUN	NOUN	_	73	conj	_	TokenRange=381:386
+

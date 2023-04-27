@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = marcelo resende fala sobre o cancer as drogas que me aplicam parecem que vao me matar o apresentador usou seu perfil nas redes sociais para mandar uma mensagem ao brasil durante sete dias eu decidi fazer um retiro espiritual eu e deus apenas oracoes leitura de textos sagrados e reflexoes sobre a vida so nao fiz jejum porque as drogas que me aplicam mais parecem que vao me matar do que me salvar estou orando firme e com a certeza que estou curado
+1	marcelo	marcelo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:7
+2	resende	resende	NOUN	NOUN	_	1	flat	_	TokenRange=8:15
+3	fala	_	VERB	VERB	_	0	root	_	TokenRange=16:20
+4	sobre	_	ADP	ADP	_	6	case	_	TokenRange=21:26
+5	o	o	DET	DET	_	6	det	_	TokenRange=27:28
+6	cancer	cancer	NOUN	NOUN	_	3	nmod	_	TokenRange=29:35
+7	as	o	DET	DET	_	8	det	_	TokenRange=36:38
+8	drogas	droga	NOUN	NOUN	_	19	nsubj	_	TokenRange=39:45
+9	que	_	PRON	PRON	_	11	nsubj	_	TokenRange=46:49
+10	me	_	PRON	PRON	_	11	obj	_	TokenRange=50:52
+11	aplicam	aplicar	VERB	VERB	_	8	acl:relcl	_	TokenRange=53:60
+12	parecem	parecer	VERB	VERB	_	3	ccomp	_	TokenRange=61:68
+13	que	que	CCONJ	CONJ	_	16	mark	_	TokenRange=69:72
+14	vao	ir	AUX	AUX	_	16	aux	_	TokenRange=73:76
+15	me	_	PRON	PRON	_	16	obj	_	TokenRange=77:79
+16	matar	matar	VERB	VERB	_	12	ccomp	_	TokenRange=80:85
+17	o	o	DET	DET	_	18	det	_	TokenRange=86:87
+18	apresentador	apresentador	NOUN	NOUN	_	19	nsubj	_	TokenRange=88:100
+19	usou	usar	VERB	VERB	_	3	ccomp	_	TokenRange=101:105
+20	seu	_	DET	DET	_	21	det:poss	_	TokenRange=106:109
+21	perfil	perfil	NOUN	NOUN	_	19	obj	_	TokenRange=110:116
+22-23	nas	_	_	_	_	_	_	_	TokenRange=117:120
+22	em	em	ADP	ADP	_	24	case	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	redes	rede	NOUN	NOUN	_	19	nmod	_	TokenRange=121:126
+25	sociais	social	ADJ	ADJ	_	24	amod	_	TokenRange=127:134
+26	para	_	ADP	ADP	_	27	mark	_	TokenRange=135:139
+27	mandar	mandar	VERB	VERB	_	19	advcl	_	TokenRange=140:146
+28	uma	um	DET	DET	_	29	det	_	TokenRange=147:150
+29	mensagem	mensagem	NOUN	NOUN	_	27	obj	_	TokenRange=151:159
+30-31	ao	_	_	_	_	_	_	_	TokenRange=160:162
+30	a	a	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	brasil	brasil	NOUN	NOUN	_	27	iobj	_	TokenRange=163:169
+33	durante	_	ADP	ADP	_	35	case	_	TokenRange=170:177
+34	sete	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=178:182
+35	dias	dia	NOUN	NOUN	_	27	nmod	_	TokenRange=183:187
+36	eu	_	PRON	PRON	_	37	nsubj	_	TokenRange=188:190
+37	decidi	decidir	VERB	VERB	_	19	advcl	_	TokenRange=191:197
+38	fazer	fazer	VERB	VERB	_	37	xcomp	_	TokenRange=198:203
+39	um	um	DET	DET	_	40	det	_	TokenRange=204:206
+40	retiro	retiro	NOUN	NOUN	_	38	obj	_	TokenRange=207:213
+41	espiritual	espiritual	ADJ	ADJ	_	40	amod	_	TokenRange=214:224
+42	eu	_	PRON	PRON	_	37	nsubj	_	TokenRange=225:227
+43	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=228:229
+44	deus	deus	NOUN	NOUN	_	42	conj	_	TokenRange=230:234
+45	apenas	apenas	ADV	ADV	_	46	advmod	_	TokenRange=235:241
+46	oracoes	oracoe	NOUN	NOUN	_	37	obj	_	TokenRange=242:249
+47	leitura	leitura	NOUN	NOUN	_	46	appos	_	TokenRange=250:257
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=258:260
+49	textos	texto	NOUN	NOUN	_	47	nmod	_	TokenRange=261:267
+50	sagrados	sagrado	ADJ	ADJ	_	49	amod	_	TokenRange=268:276
+51	e	e	CCONJ	CONJ	_	52	cc	_	TokenRange=277:278
+52	reflexoes	reflexoe	NOUN	NOUN	_	49	conj	_	TokenRange=279:288
+53	sobre	_	ADP	ADP	_	55	case	_	TokenRange=289:294
+54	a	o	DET	DET	_	55	det	_	TokenRange=295:296
+55	vida	vida	NOUN	NOUN	_	52	nmod	_	TokenRange=297:301
+56	so	so	ADV	ADV	_	58	advmod	_	TokenRange=302:304
+57	nao	nao	ADV	ADV	Polarity=Neg	58	advmod	_	TokenRange=305:308
+58	fiz	fazer	VERB	VERB	_	37	conj	_	TokenRange=309:312
+59	jejum	jejum	NOUN	NOUN	_	58	obj	_	TokenRange=313:318
+60	porque	_	CCONJ	CONJ	_	67	mark	_	TokenRange=319:325
+61	as	o	DET	DET	_	62	det	_	TokenRange=326:328
+62	drogas	droga	NOUN	NOUN	_	67	nsubj	_	TokenRange=329:335
+63	que	_	PRON	PRON	_	65	nsubj	_	TokenRange=336:339
+64	me	_	PRON	PRON	_	65	obj	_	TokenRange=340:342
+65	aplicam	aplicar	VERB	VERB	_	62	acl:relcl	_	TokenRange=343:350
+66	mais	mais	ADV	ADV	_	65	advmod	_	TokenRange=351:355
+67	parecem	parecer	VERB	VERB	_	58	advcl	_	TokenRange=356:363
+68	que	que	CCONJ	CONJ	_	71	mark	_	TokenRange=364:367
+69	vao	ir	AUX	AUX	_	71	aux	_	TokenRange=368:371
+70	me	_	PRON	PRON	_	71	obj	_	TokenRange=372:374
+71	matar	matar	VERB	VERB	_	67	ccomp	_	TokenRange=375:380
+72-73	do	_	_	_	_	_	_	_	TokenRange=381:383
+72	de	de	ADP	ADP	_	76	case	_	_
+73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+74	que	_	PRON	CONJ	_	72	fixed	_	TokenRange=384:387
+75	me	_	PRON	PRON	_	76	obj	_	TokenRange=388:390
+76	salvar	salvar	VERB	VERB	_	71	advcl	_	TokenRange=391:397
+77	estou	estar	AUX	AUX	_	78	aux	_	TokenRange=398:403
+78	orando	orar	VERB	VERB	_	58	ccomp	_	TokenRange=404:410
+79	firme	firme	ADV	ADV	_	78	advmod	_	TokenRange=411:416
+80	e	e	CCONJ	CONJ	_	83	cc	_	TokenRange=417:418
+81	com	com	ADP	ADP	_	83	case	_	TokenRange=419:422
+82	a	o	DET	DET	_	83	det	_	TokenRange=423:424
+83	certeza	certeza	NOUN	NOUN	_	79	conj	_	TokenRange=425:432
+84	que	que	CCONJ	CONJ	_	85	mark	_	TokenRange=433:436
+85	estou	estar	VERB	VERB	_	78	ccomp	_	TokenRange=437:442
+86	curado	curado	ADJ	ADJ	_	85	xcomp	_	TokenRange=443:449
+

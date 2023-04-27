@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos aperto de maos trump questionou quem e esse senhor esquisito o registro aconteceu durante a reuniao da cupula do g20 em hamburgo na alemanha a verdade e que apos um rapido aperto de maos e meia duzia de palavras trocadas trump se virou para um de seus assessores e questionou quem era aquele senhor esquisitao vejam so a que ponto chegamos ser chamado de esquisito pelo desmiolado donald trump e o fim da picada
+1	apos	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	aperto	aperto	NOUN	NOUN	_	6	nmod	_	TokenRange=5:11
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=12:14
+4	maos	mao	NOUN	NOUN	_	2	nmod	_	TokenRange=15:19
+5	trump	_	NOUN	NOUN	_	6	nsubj	_	TokenRange=20:25
+6	questionou	questionar	VERB	VERB	_	0	root	_	TokenRange=26:36
+7	quem	_	PRON	PRON	_	6	ccomp	_	TokenRange=37:41
+8	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=42:43
+9	esse	_	DET	DET	_	10	det	_	TokenRange=44:48
+10	senhor	senhor	NOUN	NOUN	_	7	conj	_	TokenRange=49:55
+11	esquisito	esquisito	ADJ	ADJ	_	10	amod	_	TokenRange=56:65
+12	o	o	DET	DET	_	13	det	_	TokenRange=66:67
+13	registro	registro	NOUN	NOUN	_	14	nsubj	_	TokenRange=68:76
+14	aconteceu	acontecer	VERB	VERB	_	6	ccomp	_	TokenRange=77:86
+15	durante	_	ADP	ADP	_	17	case	_	TokenRange=87:94
+16	a	o	DET	DET	_	17	det	_	TokenRange=95:96
+17	reuniao	reuniao	NOUN	NOUN	_	14	nmod	_	TokenRange=97:104
+18-19	da	_	_	_	_	_	_	_	TokenRange=105:107
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	cupula	cupula	NOUN	NOUN	_	17	nmod	_	TokenRange=108:114
+21-22	do	_	_	_	_	_	_	_	TokenRange=115:117
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	g20	_	NOUN	NOUN	_	20	nmod	_	TokenRange=118:121
+24	em	em	ADP	ADP	_	25	case	_	TokenRange=122:124
+25	hamburgo	_	PROPN	PNOUN	_	14	nmod	_	TokenRange=125:133
+26-27	na	_	_	_	_	_	_	_	TokenRange=134:136
+26	em	em	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	alemanha	alemanha	NOUN	NOUN	_	14	nmod	_	TokenRange=137:145
+29	a	o	DET	DET	_	30	det	_	TokenRange=146:147
+30	verdade	verdade	NOUN	NOUN	_	6	obj	_	TokenRange=148:155
+31	e	e	CCONJ	CONJ	_	47	cc	_	TokenRange=156:157
+32	que	que	CCONJ	CONJ	_	47	mark	_	TokenRange=158:161
+33	apos	_	ADP	ADP	_	36	case	_	TokenRange=162:166
+34	um	um	DET	DET	_	36	det	_	TokenRange=167:169
+35	rapido	rapido	ADJ	ADJ	_	36	amod	_	TokenRange=170:176
+36	aperto	aperto	NOUN	NOUN	_	47	nmod	_	TokenRange=177:183
+37	de	de	ADP	ADP	_	38	case	_	TokenRange=184:186
+38	maos	mao	NOUN	NOUN	_	36	nmod	_	TokenRange=187:191
+39	e	e	CCONJ	CONJ	_	41	cc	_	TokenRange=192:193
+40	meia	_	ADJ	ADJ	_	41	amod	_	TokenRange=194:198
+41	duzia	_	NOUN	NOUN	_	36	conj	_	TokenRange=199:204
+42	de	de	ADP	ADP	_	43	case	_	TokenRange=205:207
+43	palavras	palavra	NOUN	NOUN	_	41	nmod	_	TokenRange=208:216
+44	trocadas	trocado	ADJ	ADJ	_	43	amod	_	TokenRange=217:225
+45	trump	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=226:231
+46	se	_	PRON	PRON	_	47	obj	_	TokenRange=232:234
+47	virou	virar	VERB	VERB	_	6	conj	_	TokenRange=235:240
+48	para	para	ADP	ADP	_	49	case	_	TokenRange=241:245
+49	um	_	PRON	PRON	_	47	nmod	_	TokenRange=246:248
+50	de	de	ADP	ADP	_	52	case	_	TokenRange=249:251
+51	seus	_	DET	DET	_	52	det:poss	_	TokenRange=252:256
+52	assessores	assessor	NOUN	NOUN	_	49	nmod	_	TokenRange=257:267
+53	e	e	CCONJ	CONJ	_	54	cc	_	TokenRange=268:269
+54	questionou	questionar	VERB	VERB	_	47	conj	_	TokenRange=270:280
+55	quem	_	PRON	PRON	_	54	ccomp	_	TokenRange=281:285
+56	era	_	AUX	AUX	_	55	cop	_	TokenRange=286:289
+57	aquele	_	DET	DET	_	58	det	_	TokenRange=290:296
+58	senhor	senhor	NOUN	NOUN	_	55	nsubj	_	TokenRange=297:303
+59	esquisitao	esquisitao	ADJ	ADJ	_	58	amod	_	TokenRange=304:314
+60	vejam	vejar	VERB	VERB	_	6	parataxis	_	TokenRange=315:320
+61	so	so	ADV	ADV	_	60	advmod	_	TokenRange=321:323
+62	a	_	ADP	ADP	_	64	case	_	TokenRange=324:325
+63	que	_	DET	DET	_	64	det	_	TokenRange=326:329
+64	ponto	ponto	NOUN	NOUN	_	67	nmod	_	TokenRange=330:335
+65	chegamos	chegar	AUX	AUX	_	67	aux	_	TokenRange=336:344
+66	ser	ser	AUX	AUX	_	67	aux:pass	_	TokenRange=345:348
+67	chamado	chamar	VERB	VERB	_	60	ccomp	_	TokenRange=349:356
+68	de	de	ADP	ADP	_	69	case	_	TokenRange=357:359
+69	esquisito	esquisito	NOUN	NOUN	_	67	nmod	_	TokenRange=360:369
+70-71	pelo	_	_	_	_	_	_	_	TokenRange=370:374
+70	por	por	ADP	ADP	_	73	case	_	_
+71	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
+72	desmiolado	desmiolado	ADJ	ADJ	_	73	amod	_	TokenRange=375:385
+73	donald	_	NOUN	NOUN	_	67	nmod	_	TokenRange=386:392
+74	trump	_	NOUN	NOUN	_	73	flat	_	TokenRange=393:398
+75	e	e	CCONJ	CONJ	_	77	cc	_	TokenRange=399:400
+76	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	TokenRange=401:402
+77	fim	fim	NOUN	NOUN	_	73	conj	_	TokenRange=403:406
+78-79	da	_	_	_	_	_	_	_	TokenRange=407:409
+78	de	de	ADP	ADP	_	80	case	_	_
+79	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	80	det	_	_
+80	picada	picada	NOUN	NOUN	_	77	nmod	_	TokenRange=410:416
+

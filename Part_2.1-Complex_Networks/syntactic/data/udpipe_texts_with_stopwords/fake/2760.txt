@@ -1,0 +1,31 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = frota posta foto no instagram e ze o babao cuspidor do pt comeca briga nas redes sociais
+1	frota	frota	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	posta	_	VERB	VERB	_	0	root	_	TokenRange=6:11
+3	foto	foto	NOUN	NOUN	_	2	obj	_	TokenRange=12:16
+4-5	no	_	_	_	_	_	_	_	TokenRange=17:19
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	instagram	instagram	NOUN	NOUN	_	2	nmod	_	TokenRange=20:29
+7	e	e	CCONJ	CONJ	_	15	cc	_	TokenRange=30:31
+8	ze	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=32:34
+9	o	o	DET	DET	_	10	det	_	TokenRange=35:36
+10	babao	babao	NOUN	NOUN	_	15	nsubj	_	TokenRange=37:42
+11	cuspidor	cuspidor	ADJ	ADJ	_	10	amod	_	TokenRange=43:51
+12-13	do	_	_	_	_	_	_	_	TokenRange=52:54
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	pt	_	NOUN	NOUN	_	10	nmod	_	TokenRange=55:57
+15	comeca	comecar	VERB	VERB	_	2	conj	_	TokenRange=58:64
+16	briga	briga	NOUN	NOUN	_	15	obj	_	TokenRange=65:70
+17-18	nas	_	_	_	_	_	_	_	TokenRange=71:74
+17	em	em	ADP	ADP	_	19	case	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	redes	rede	NOUN	NOUN	_	16	nmod	_	TokenRange=75:80
+20	sociais	social	ADJ	ADJ	_	19	amod	_	SpacesAfter=\s\s|TokenRange=81:88
+

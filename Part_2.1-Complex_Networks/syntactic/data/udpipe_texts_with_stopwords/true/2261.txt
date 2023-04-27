@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = familia consegue comprar protese para crianca de campo grande que nasceu com problema em perna reportagem foi essencial para alavancar ainda mais a rifa da familia isis deve andar sozinha a partir de 2018 apos dois anos vivendo com uma ma formacao na perna direita isis vitoria alves deve comecar a andar sozinha quando ganhar a protese que a familia conseguiu comprar com o
+1	familia	familia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	consegue	conseguir	VERB	VERB	_	0	root	_	TokenRange=8:16
+3	comprar	comprar	VERB	VERB	_	2	xcomp	_	TokenRange=17:24
+4	protese	protese	NOUN	NOUN	_	3	obj	_	TokenRange=25:32
+5	para	para	ADP	ADP	_	6	case	_	TokenRange=33:37
+6	crianca	crianca	NOUN	NOUN	_	3	nmod	_	TokenRange=38:45
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=46:48
+8	campo	campo	NOUN	NOUN	_	6	nmod	_	TokenRange=49:54
+9	grande	grande	ADJ	ADJ	_	8	amod	_	TokenRange=55:61
+10	que	_	PRON	PRON	_	11	nsubj	_	TokenRange=62:65
+11	nasceu	nascer	VERB	VERB	_	6	acl:relcl	_	TokenRange=66:72
+12	com	com	ADP	ADP	_	13	case	_	TokenRange=73:76
+13	problema	problema	NOUN	NOUN	_	11	nmod	_	TokenRange=77:85
+14	em	em	ADP	ADP	_	15	case	_	TokenRange=86:88
+15	perna	perna	NOUN	NOUN	_	13	nmod	_	TokenRange=89:94
+16	reportagem	reportagem	NOUN	NOUN	_	11	obj	_	TokenRange=95:105
+17	foi	_	VERB	VERB	_	2	parataxis	_	TokenRange=106:109
+18	essencial	essencial	ADJ	ADJ	_	17	xcomp	_	TokenRange=110:119
+19	para	_	ADP	ADP	_	20	mark	_	TokenRange=120:124
+20	alavancar	_	VERB	VERB	_	18	nmod	_	TokenRange=125:134
+21	ainda	ainda	ADV	ADV	_	22	advmod	_	TokenRange=135:140
+22	mais	mais	ADV	ADV	_	20	advmod	_	TokenRange=141:145
+23	a	o	DET	DET	_	24	det	_	TokenRange=146:147
+24	rifa	rifa	NOUN	NOUN	_	20	obj	_	TokenRange=148:152
+25-26	da	_	_	_	_	_	_	_	TokenRange=153:155
+25	de	de	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	familia	familia	NOUN	NOUN	_	24	nmod	_	TokenRange=156:163
+28	isis	_	PRON	PRON	_	30	nsubj	_	TokenRange=164:168
+29	deve	dever	AUX	AUX	_	30	aux	_	TokenRange=169:173
+30	andar	andar	VERB	VERB	_	17	parataxis	_	TokenRange=174:179
+31	sozinha	só	ADJ	ADJ	_	30	xcomp	_	TokenRange=180:187
+32	a	_	ADP	ADP	_	33	mark	_	TokenRange=188:189
+33	partir	partir	VERB	VERB	_	30	nmod	_	TokenRange=190:196
+34	de	de	ADP	ADP	_	35	case	_	TokenRange=197:199
+35	2018	_	NUM	NUM	NumType=Card	33	nmod	_	TokenRange=200:204
+36	apos	_	VERB	VERB	_	39	mark	_	TokenRange=205:209
+37	dois	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=210:214
+38	anos	ano	NOUN	NOUN	_	39	nmod	_	TokenRange=215:219
+39	vivendo	viver	VERB	VERB	_	30	acl	_	TokenRange=220:227
+40	com	com	ADP	ADP	_	43	case	_	TokenRange=228:231
+41	uma	um	DET	DET	_	43	det	_	TokenRange=232:235
+42	ma	mo	ADJ	ADJ	_	43	amod	_	TokenRange=236:238
+43	formacao	formacao	NOUN	NOUN	_	39	nmod	_	TokenRange=239:247
+44-45	na	_	_	_	_	_	_	_	TokenRange=248:250
+44	em	em	ADP	ADP	_	46	case	_	_
+45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	perna	perna	NOUN	NOUN	_	43	nmod	_	TokenRange=251:256
+47	direita	direito	ADJ	ADJ	_	46	amod	_	TokenRange=257:264
+48	isis	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=265:269
+49	vitoria	vitoria	NOUN	NOUN	_	48	appos	_	TokenRange=270:277
+50	alves	alves	ADJ	ADJ	_	49	amod	_	TokenRange=278:283
+51	deve	dever	AUX	AUX	_	54	aux	_	TokenRange=284:288
+52	comecar	comecar	AUX	AUX	_	54	aux	_	TokenRange=289:296
+53	a	_	ADP	ADP	_	54	mark	_	TokenRange=297:298
+54	andar	andar	VERB	VERB	_	2	parataxis	_	TokenRange=299:304
+55	sozinha	só	ADJ	ADJ	_	54	xcomp	_	TokenRange=305:312
+56	quando	_	CCONJ	CONJ	_	57	mark	_	TokenRange=313:319
+57	ganhar	ganhar	VERB	VERB	_	54	advcl	_	TokenRange=320:326
+58	a	o	DET	DET	_	59	det	_	TokenRange=327:328
+59	protese	protese	NOUN	NOUN	_	57	obj	_	TokenRange=329:336
+60	que	_	PRON	PRON	_	63	obj	_	TokenRange=337:340
+61	a	o	DET	DET	_	62	det	_	TokenRange=341:342
+62	familia	familia	NOUN	NOUN	_	63	nsubj	_	TokenRange=343:350
+63	conseguiu	conseguir	VERB	VERB	_	59	acl:relcl	_	TokenRange=351:360
+64	comprar	comprar	VERB	VERB	_	63	xcomp	_	TokenRange=361:368
+65	com	com	ADP	ADP	_	59	case	_	TokenRange=369:372
+66	o	o	DET	DET	_	59	det	_	SpacesAfter=\s\s|TokenRange=373:374
+

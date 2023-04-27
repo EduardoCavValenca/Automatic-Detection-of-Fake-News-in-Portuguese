@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mais um crime petista assassinato da lingua portuguesa a senadora vanessa graziotin integrante da bancada da chupeta ficou tao brava que desaprendeu a falar corretamente nao e possivel querem levar para o palacio do planalto alguem que nao obteu votos se referindo a michel temer concordamos com vanessa temer nao obteu votos temer obteve votos
+1	mais	mais	ADV	ADV	_	2	advmod	_	TokenRange=0:4
+2	um	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=5:7
+3	crime	crime	NOUN	NOUN	_	21	parataxis	_	TokenRange=8:13
+4	petista	petista	ADJ	ADJ	_	3	amod	_	TokenRange=14:21
+5	assassinato	assassinato	NOUN	NOUN	_	3	appos	_	TokenRange=22:33
+6-7	da	_	_	_	_	_	_	_	TokenRange=34:36
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lingua	lingua	NOUN	NOUN	_	5	nmod	_	TokenRange=37:43
+9	portuguesa	português	ADJ	ADJ	_	8	amod	_	TokenRange=44:54
+10	a	o	DET	DET	_	11	det	_	TokenRange=55:56
+11	senadora	senador	NOUN	NOUN	_	21	nsubj	_	TokenRange=57:65
+12	vanessa	_	NOUN	NOUN	_	11	appos	_	TokenRange=66:73
+13	graziotin	_	ADJ	ADJ	_	12	amod	_	TokenRange=74:83
+14	integrante	_	NOUN	NOUN	_	11	appos	_	TokenRange=84:94
+15-16	da	_	_	_	_	_	_	_	TokenRange=95:97
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	bancada	bancada	NOUN	NOUN	_	14	nmod	_	TokenRange=98:105
+18-19	da	_	_	_	_	_	_	_	TokenRange=106:108
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	chupeta	chupeta	NOUN	NOUN	_	17	nmod	_	TokenRange=109:116
+21	ficou	ficar	VERB	VERB	_	0	root	_	TokenRange=117:122
+22	tao	tao	ADV	ADV	_	23	advmod	_	TokenRange=123:126
+23	brava	bravo	ADJ	ADJ	_	21	xcomp	_	TokenRange=127:132
+24	que	que	CCONJ	CONJ	_	25	mark	_	TokenRange=133:136
+25	desaprendeu	desaprender	VERB	VERB	_	21	advcl	_	TokenRange=137:148
+26	a	_	ADP	ADP	_	27	mark	_	TokenRange=149:150
+27	falar	falar	VERB	VERB	_	25	nmod	_	TokenRange=151:156
+28	corretamente	corretamente	ADV	ADV	_	27	advmod	_	TokenRange=157:169
+29	nao	nao	ADV	ADV	Polarity=Neg	32	advmod	_	TokenRange=170:173
+30	e	e	CCONJ	CONJ	_	31	cc	_	TokenRange=174:175
+31	possivel	_	ADJ	ADJ	_	29	conj	_	TokenRange=176:184
+32	querem	querer	VERB	VERB	_	25	ccomp	_	TokenRange=185:191
+33	levar	levar	VERB	VERB	_	32	xcomp	_	TokenRange=192:197
+34	para	para	ADP	ADP	_	36	case	_	TokenRange=198:202
+35	o	o	DET	DET	_	36	det	_	TokenRange=203:204
+36	palacio	palacio	NOUN	NOUN	_	33	nmod	_	TokenRange=205:212
+37-38	do	_	_	_	_	_	_	_	TokenRange=213:215
+37	de	de	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	planalto	planalto	NOUN	NOUN	_	36	nmod	_	TokenRange=216:224
+40	alguem	_	PRON	PRON	_	32	nsubj	_	TokenRange=225:231
+41	que	_	PRON	PRON	_	43	nsubj	_	TokenRange=232:235
+42	nao	nao	ADV	ADV	Polarity=Neg	43	advmod	_	TokenRange=236:239
+43	obteu	obter	VERB	VERB	_	40	acl:relcl	_	TokenRange=240:245
+44	votos	voto	NOUN	NOUN	_	43	obj	_	TokenRange=246:251
+45	se	_	PRON	PRON	_	46	obj	_	TokenRange=252:254
+46	referindo	referir	VERB	VERB	_	43	advcl	_	TokenRange=255:264
+47	a	_	ADP	ADP	_	49	case	_	TokenRange=265:266
+48	michel	_	DET	DET	_	49	amod	_	TokenRange=267:273
+49	temer	temer	NOUN	NOUN	_	46	nmod	_	TokenRange=274:279
+50	concordamos	concordar	VERB	VERB	_	46	ccomp	_	TokenRange=280:291
+51	com	com	ADP	ADP	_	52	case	_	TokenRange=292:295
+52	vanessa	_	NOUN	NOUN	_	50	nmod	_	TokenRange=296:303
+53	temer	temer	NOUN	NOUN	_	52	flat	_	TokenRange=304:309
+54	nao	nao	ADV	ADV	Polarity=Neg	55	advmod	_	TokenRange=310:313
+55	obteu	obter	VERB	VERB	_	50	conj	_	TokenRange=314:319
+56	votos	voto	NOUN	NOUN	_	55	obj	_	TokenRange=320:325
+57	temer	temer	NOUN	NOUN	_	58	nsubj	_	TokenRange=326:331
+58	obteve	obter	VERB	VERB	_	50	conj	_	TokenRange=332:338
+59	votos	voto	NOUN	NOUN	_	58	obj	_	TokenRange=339:344
+

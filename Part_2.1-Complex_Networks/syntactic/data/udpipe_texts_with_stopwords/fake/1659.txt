@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente do stf autoriza a retomada das delacoes da odebrecht a ministra carmen lucia presidente do stf autorizou a retomada das delacoes da odebrecht no ambito da operacao lava jato
+1	presidente	presidente	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:10
+2-3	do	_	_	_	_	_	_	_	TokenRange=11:13
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	stf	_	NOUN	NOUN	_	1	nmod	_	TokenRange=14:17
+5	autoriza	autorizar	VERB	VERB	_	0	root	_	TokenRange=18:26
+6	a	o	DET	DET	_	7	det	_	TokenRange=27:28
+7	retomada	retomada	NOUN	NOUN	_	5	obj	_	TokenRange=29:37
+8-9	das	_	_	_	_	_	_	_	TokenRange=38:41
+8	de	de	ADP	ADP	_	10	case	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	delacoes	delacoe	NOUN	NOUN	_	7	nmod	_	TokenRange=42:50
+11-12	da	_	_	_	_	_	_	_	TokenRange=51:53
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	odebrecht	odebrecht	NOUN	NOUN	_	10	nmod	_	TokenRange=54:63
+14	a	o	DET	DET	_	15	det	_	TokenRange=64:65
+15	ministra	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=66:74
+16	carmen	_	NOUN	NOUN	_	15	appos	_	TokenRange=75:81
+17	lucia	_	ADJ	ADJ	_	16	flat	_	TokenRange=82:87
+18	presidente	presidente	NOUN	NOUN	_	22	nsubj	_	TokenRange=88:98
+19-20	do	_	_	_	_	_	_	_	TokenRange=99:101
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	stf	_	NOUN	NOUN	_	18	nmod	_	TokenRange=102:105
+22	autorizou	autorizar	VERB	VERB	_	5	parataxis	_	TokenRange=106:115
+23	a	o	DET	DET	_	24	det	_	TokenRange=116:117
+24	retomada	retomada	NOUN	NOUN	_	22	obj	_	TokenRange=118:126
+25-26	das	_	_	_	_	_	_	_	TokenRange=127:130
+25	de	de	ADP	ADP	_	27	case	_	_
+26	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	delacoes	delacoe	NOUN	NOUN	_	24	nmod	_	TokenRange=131:139
+28-29	da	_	_	_	_	_	_	_	TokenRange=140:142
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	odebrecht	_	NOUN	NOUN	_	27	nmod	_	TokenRange=143:152
+31-32	no	_	_	_	_	_	_	_	TokenRange=153:155
+31	em	em	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ambito	ambito	NOUN	NOUN	_	22	nmod	_	TokenRange=156:162
+34-35	da	_	_	_	_	_	_	_	TokenRange=163:165
+34	de	de	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	operacao	operacao	NOUN	NOUN	_	33	nmod	_	TokenRange=166:174
+37	lava	lava	NOUN	NOUN	_	36	appos	_	TokenRange=175:179
+38	jato	jato	NOUN	NOUN	_	37	flat	_	TokenRange=180:184
+

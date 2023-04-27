@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 9 de novembro de 2017 boa noite aqui estao as principais noticias para voce terminar o dia beminformado um novo levantamento feito pelo g1 dentro do projeto monitor da violencia mostrou que dois meses e meio depois 64 do total de casos de morte violenta ocorridos entre 21 e 27 de agosto no brasil continuam em aberto e so 12 registram alguma prisao os dados mostram a dificuldade nas
+1	quintafeira	quintafeira	NOUN	NOUN	_	35	parataxis	_	TokenRange=0:11
+2	9	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:13
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=14:16
+4	novembro	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=17:25
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=26:28
+6	2017	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=29:33
+7	boa	bom	ADJ	ADJ	_	8	amod	_	TokenRange=34:37
+8	noite	noite	NOUN	NOUN	_	10	nsubj	_	TokenRange=38:43
+9	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=44:48
+10	estao	_	VERB	VERB	_	35	ccomp	_	TokenRange=49:54
+11	as	o	DET	DET	_	13	det	_	TokenRange=55:57
+12	principais	principal	ADJ	ADJ	_	13	amod	_	TokenRange=58:68
+13	noticias	noticia	NOUN	NOUN	_	10	nsubj	_	TokenRange=69:77
+14	para	_	ADP	ADP	_	16	mark	_	TokenRange=78:82
+15	voce	_	PRON	PRON	_	16	nsubj	_	TokenRange=83:87
+16	terminar	terminar	VERB	VERB	_	13	nmod	_	TokenRange=88:96
+17	o	o	DET	DET	_	18	det	_	TokenRange=97:98
+18	dia	dia	NOUN	NOUN	_	16	obj	_	TokenRange=99:102
+19	beminformado	beminformado	ADJ	ADJ	_	18	amod	_	TokenRange=103:115
+20	um	um	DET	DET	_	22	det	_	TokenRange=116:118
+21	novo	novo	ADJ	ADJ	_	22	amod	_	TokenRange=119:123
+22	levantamento	levantamento	NOUN	NOUN	_	35	nsubj	_	TokenRange=124:136
+23	feito	_	VERB	VERB	_	22	acl	_	TokenRange=137:142
+24-25	pelo	_	_	_	_	_	_	_	TokenRange=143:147
+24	por	por	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	g1	g1	NOUN	NOUN	_	23	nmod	_	TokenRange=148:150
+27	dentro	dentro	ADV	ADV	_	23	advmod	_	TokenRange=151:157
+28-29	do	_	_	_	_	_	_	_	TokenRange=158:160
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	projeto	projeto	NOUN	NOUN	_	27	nmod	_	TokenRange=161:168
+31	monitor	_	NOUN	NOUN	_	30	appos	_	TokenRange=169:176
+32-33	da	_	_	_	_	_	_	_	TokenRange=177:179
+32	de	de	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	violencia	violencia	NOUN	NOUN	_	30	nmod	_	TokenRange=180:189
+35	mostrou	mostrar	VERB	VERB	_	0	root	_	TokenRange=190:197
+36	que	que	CCONJ	CONJ	_	61	mark	_	TokenRange=198:201
+37	dois	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=202:206
+38	meses	mês	NOUN	NOUN	_	61	nmod	_	TokenRange=207:212
+39	e	e	CCONJ	CONJ	_	40	cc	_	TokenRange=213:214
+40	meio	meio	NOUN	NOUN	_	41	nmod	_	TokenRange=215:219
+41	depois	depois	ADV	ADV	_	38	advmod	_	TokenRange=220:226
+42	64	_	NUM	NUM	NumType=Card	61	nsubj	_	TokenRange=227:229
+43-44	do	_	_	_	_	_	_	_	TokenRange=230:232
+43	de	de	ADP	ADP	_	45	case	_	_
+44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	total	total	NOUN	NOUN	_	42	nmod	_	TokenRange=233:238
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=239:241
+47	casos	caso	NOUN	NOUN	_	45	nmod	_	TokenRange=242:247
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=248:250
+49	morte	morte	NOUN	NOUN	_	47	nmod	_	TokenRange=251:256
+50	violenta	violento	ADJ	ADJ	_	49	amod	_	TokenRange=257:265
+51	ocorridos	ocorrer	VERB	VERB	_	47	acl	_	TokenRange=266:275
+52	entre	_	ADP	ADP	_	53	case	_	TokenRange=276:281
+53	21	_	NUM	NUM	NumType=Card	51	nmod	_	TokenRange=282:284
+54	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=285:286
+55	27	_	NUM	NUM	NumType=Card	53	conj	_	TokenRange=287:289
+56	de	de	ADP	ADP	_	57	case	_	TokenRange=290:292
+57	agosto	_	PROPN	PNOUN	_	53	nmod	_	TokenRange=293:299
+58-59	no	_	_	_	_	_	_	_	TokenRange=300:302
+58	em	em	ADP	ADP	_	60	case	_	_
+59	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	brasil	brasil	NOUN	NOUN	_	51	nmod	_	TokenRange=303:309
+61	continuam	continuar	VERB	VERB	_	35	ccomp	_	TokenRange=310:319
+62	em	_	ADP	ADP	_	63	mark	_	TokenRange=320:322
+63	aberto	aberto	ADJ	ADJ	_	61	nmod	_	TokenRange=323:329
+64	e	e	CCONJ	CONJ	_	72	cc	_	TokenRange=330:331
+65	so	so	ADV	ADV	_	66	advmod	_	TokenRange=332:334
+66	12	_	NUM	NUM	NumType=Card	67	nsubj	_	TokenRange=335:337
+67	registram	registrar	VERB	VERB	_	61	conj	_	TokenRange=338:347
+68	alguma	_	DET	DET	_	69	det	_	TokenRange=348:354
+69	prisao	prisao	NOUN	NOUN	_	67	obj	_	TokenRange=355:361
+70	os	o	DET	DET	_	71	det	_	TokenRange=362:364
+71	dados	dado	NOUN	NOUN	_	72	nsubj	_	TokenRange=365:370
+72	mostram	mostrar	VERB	VERB	_	61	conj	_	TokenRange=371:378
+73	a	o	DET	DET	_	74	det	_	TokenRange=379:380
+74	dificuldade	dificuldade	NOUN	NOUN	_	72	obj	_	TokenRange=381:392
+75-76	nas	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=393:396
+75	em	em	ADP	ADP	_	74	case	_	_
+76	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	74	det	_	_
+

@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ato protesta contra pec do teto e anistia ao caixa 2 na av paulista tramita no senado proposta de emenda a constituicao que preve cortes em saude e educacao governo anunciou hoje ajuste contra ideia de anistia
+1	ato	ato	NOUN	NOUN	_	18	nsubj	_	TokenRange=0:3
+2	protesta	protesta	NOUN	NOUN	_	1	appos	_	TokenRange=4:12
+3	contra	_	ADP	ADP	_	4	case	_	TokenRange=13:19
+4	pec	pec	NOUN	NOUN	_	2	nmod	_	TokenRange=20:23
+5-6	do	_	_	_	_	_	_	_	TokenRange=24:26
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	teto	teto	NOUN	NOUN	_	4	nmod	_	TokenRange=27:31
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=32:33
+9	anistia	anistia	NOUN	NOUN	_	4	conj	_	TokenRange=34:41
+10-11	ao	_	_	_	_	_	_	_	TokenRange=42:44
+10	a	a	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	caixa	caixa	NOUN	NOUN	_	9	nmod	_	TokenRange=45:50
+13	2	_	NUM	NUM	NumType=Card	12	appos	_	TokenRange=51:52
+14-15	na	_	_	_	_	_	_	_	TokenRange=53:55
+14	em	em	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	av	_	NOUN	NOUN	_	9	nmod	_	TokenRange=56:58
+17	paulista	paulista	ADJ	ADJ	_	16	amod	_	TokenRange=59:67
+18	tramita	tramitar	VERB	VERB	_	0	root	_	TokenRange=68:75
+19-20	no	_	_	_	_	_	_	_	TokenRange=76:78
+19	em	em	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	senado	senado	NOUN	NOUN	_	18	nmod	_	TokenRange=79:85
+22	proposta	_	NOUN	NOUN	_	18	obj	_	TokenRange=86:94
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=95:97
+24	emenda	emenda	NOUN	NOUN	_	22	nmod	_	TokenRange=98:104
+25	a	_	ADP	ADP	_	26	case	_	TokenRange=105:106
+26	constituicao	constituicao	NOUN	NOUN	_	22	nmod	_	TokenRange=107:119
+27	que	_	PRON	PRON	_	28	nsubj	_	TokenRange=120:123
+28	preve	prever	VERB	VERB	_	26	acl:relcl	_	TokenRange=124:129
+29	cortes	corte	NOUN	NOUN	_	28	obj	_	TokenRange=130:136
+30	em	em	ADP	ADP	_	31	case	_	TokenRange=137:139
+31	saude	saude	NOUN	NOUN	_	29	nmod	_	TokenRange=140:145
+32	e	e	CCONJ	CONJ	_	33	cc	_	TokenRange=146:147
+33	educacao	educacao	NOUN	NOUN	_	31	conj	_	TokenRange=148:156
+34	governo	governo	NOUN	NOUN	_	35	nsubj	_	TokenRange=157:164
+35	anunciou	anunciar	VERB	VERB	_	18	parataxis	_	TokenRange=165:173
+36	hoje	hoje	ADV	ADV	_	35	advmod	_	TokenRange=174:178
+37	ajuste	ajuste	NOUN	NOUN	_	35	obj	_	TokenRange=179:185
+38	contra	_	ADP	ADP	_	39	case	_	TokenRange=186:192
+39	ideia	ideia	NOUN	NOUN	_	37	nmod	_	TokenRange=193:198
+40	de	de	ADP	ADP	_	41	case	_	TokenRange=199:201
+41	anistia	anistia	NOUN	NOUN	_	39	nmod	_	SpacesAfter=\s\s|TokenRange=202:209
+

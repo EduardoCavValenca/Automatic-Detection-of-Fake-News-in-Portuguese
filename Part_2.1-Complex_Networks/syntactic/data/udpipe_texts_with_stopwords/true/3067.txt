@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dissidencia na base do governo alcanca 20 na votacao da reforma trabalhista dos 415 deputados de partidos da base aliada do governo michel temer 86 votaram contra o projeto aprovado pela camara que altera a legislacao trabalhista considerado prioritario pelo governo michel temer o projeto da reforma trabalhista teve um indice de votos contrarios de 20 entre deputados de partidos da base
+1	dissidencia	dissidencia	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:11
+2-3	na	_	_	_	_	_	_	_	TokenRange=12:14
+2	em	em	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	base	base	NOUN	NOUN	_	1	nmod	_	TokenRange=15:19
+5-6	do	_	_	_	_	_	_	_	TokenRange=20:22
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	governo	governo	NOUN	NOUN	_	4	nmod	_	TokenRange=23:30
+8	alcanca	alcancar	VERB	VERB	_	0	root	_	TokenRange=31:38
+9	20	_	NUM	NUM	NumType=Card	8	obj	_	TokenRange=39:41
+10-11	na	_	_	_	_	_	_	_	TokenRange=42:44
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	votacao	votacao	NOUN	NOUN	_	8	nmod	_	TokenRange=45:52
+13-14	da	_	_	_	_	_	_	_	TokenRange=53:55
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	reforma	reforma	NOUN	NOUN	_	12	nmod	_	TokenRange=56:63
+16	trabalhista	trabalhista	ADJ	ADJ	_	15	amod	_	TokenRange=64:75
+17-18	dos	_	_	_	_	_	_	_	TokenRange=76:79
+17	de	de	ADP	ADP	_	20	case	_	_
+18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	415	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=80:83
+20	deputados	deputado	NOUN	NOUN	_	15	nmod	_	TokenRange=84:93
+21	de	de	ADP	ADP	_	22	case	_	TokenRange=94:96
+22	partidos	partido	NOUN	NOUN	_	20	nmod	_	TokenRange=97:105
+23-24	da	_	_	_	_	_	_	_	TokenRange=106:108
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	base	base	NOUN	NOUN	_	22	nmod	_	TokenRange=109:113
+26	aliada	aliado	ADJ	ADJ	_	20	amod	_	TokenRange=114:120
+27-28	do	_	_	_	_	_	_	_	TokenRange=121:123
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	governo	governo	NOUN	NOUN	_	26	nmod	_	TokenRange=124:131
+30	michel	michel	ADJ	ADJ	_	29	appos	_	TokenRange=132:138
+31	temer	temer	NOUN	NOUN	_	29	appos	_	TokenRange=139:144
+32	86	_	NUM	NUM	NumType=Card	33	nsubj	_	TokenRange=145:147
+33	votaram	votar	VERB	VERB	_	8	parataxis	_	TokenRange=148:155
+34	contra	_	ADP	ADP	_	36	case	_	TokenRange=156:162
+35	o	o	DET	DET	_	36	det	_	TokenRange=163:164
+36	projeto	projeto	NOUN	NOUN	_	33	nmod	_	TokenRange=165:172
+37	aprovado	aprovar	VERB	VERB	_	36	acl	_	TokenRange=173:181
+38-39	pela	_	_	_	_	_	_	_	TokenRange=182:186
+38	por	por	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	camara	camara	NOUN	NOUN	_	37	nmod	_	TokenRange=187:193
+41	que	_	PRON	PRON	_	42	nsubj	_	TokenRange=194:197
+42	altera	alterar	VERB	VERB	_	36	acl:relcl	_	TokenRange=198:204
+43	a	o	DET	DET	_	44	det	_	TokenRange=205:206
+44	legislacao	legislacao	NOUN	NOUN	_	42	obj	_	TokenRange=207:217
+45	trabalhista	trabalhista	ADJ	ADJ	_	44	amod	_	TokenRange=218:229
+46	considerado	considerar	VERB	VERB	_	44	acl	_	TokenRange=230:241
+47	prioritario	prioritario	ADJ	ADJ	_	46	xcomp	_	TokenRange=242:253
+48-49	pelo	_	_	_	_	_	_	_	TokenRange=254:258
+48	por	por	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	governo	governo	NOUN	NOUN	_	46	nmod	_	TokenRange=259:266
+51	michel	michel	ADJ	ADJ	_	50	amod	_	TokenRange=267:273
+52	temer	temer	NOUN	NOUN	_	50	appos	_	TokenRange=274:279
+53	o	o	DET	DET	_	54	det	_	TokenRange=280:281
+54	projeto	projeto	NOUN	NOUN	_	59	nsubj	_	TokenRange=282:289
+55-56	da	_	_	_	_	_	_	_	TokenRange=290:292
+55	de	de	ADP	ADP	_	57	case	_	_
+56	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	reforma	reforma	NOUN	NOUN	_	54	nmod	_	TokenRange=293:300
+58	trabalhista	trabalhista	ADJ	ADJ	_	57	amod	_	TokenRange=301:312
+59	teve	ter	VERB	VERB	_	8	parataxis	_	TokenRange=313:317
+60	um	um	DET	DET	_	61	det	_	TokenRange=318:320
+61	indice	indice	NOUN	NOUN	_	59	obj	_	TokenRange=321:327
+62	de	de	ADP	ADP	_	63	case	_	TokenRange=328:330
+63	votos	voto	NOUN	NOUN	_	61	nmod	_	TokenRange=331:336
+64	contrarios	contrario	ADJ	ADJ	_	63	amod	_	TokenRange=337:347
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=348:350
+66	20	_	NUM	NUM	NumType=Card	63	nmod	_	TokenRange=351:353
+67	entre	_	ADP	ADP	_	68	case	_	TokenRange=354:359
+68	deputados	deputado	NOUN	NOUN	_	61	nmod	_	TokenRange=360:369
+69	de	de	ADP	ADP	_	70	case	_	TokenRange=370:372
+70	partidos	partido	NOUN	NOUN	_	68	nmod	_	TokenRange=373:381
+71-72	da	_	_	_	_	_	_	_	TokenRange=382:384
+71	de	de	ADP	ADP	_	73	case	_	_
+72	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
+73	base	base	NOUN	NOUN	_	70	nmod	_	SpacesAfter=\s\s|TokenRange=385:389
+

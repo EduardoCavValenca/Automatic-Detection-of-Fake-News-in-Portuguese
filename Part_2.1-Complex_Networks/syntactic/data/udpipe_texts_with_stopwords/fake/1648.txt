@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = esposa e filho de eike tambem deixaram o pais a esposa de eike batista flavia sampaio tambem viajou para outro pais a informacao e do jornalista lauro jardim do globo ela embarcou ontem 25 para encontrar o marido nos eua o filho do casal batista de 3 anos de idade tambem embarcou com a mae ha suspeitas de que alguem vazou para o empresario que ele seria preso eike nao possui curso superior e deixou o pais usando um passaporte alemao
+1	esposa	esposo	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:6
+2	e	e	CCONJ	CONJ	_	3	cc	_	TokenRange=7:8
+3	filho	filho	NOUN	NOUN	_	1	conj	_	TokenRange=9:14
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=15:17
+5	eike	_	NOUN	NOUN	_	1	nmod	_	TokenRange=18:22
+6	tambem	tambem	ADV	ADV	_	7	advmod	_	TokenRange=23:29
+7	deixaram	deixar	VERB	VERB	_	0	root	_	TokenRange=30:38
+8	o	o	DET	DET	_	9	det	_	TokenRange=39:40
+9	pais	_	NOUN	NOUN	_	7	obj	_	TokenRange=41:45
+10	a	o	DET	DET	_	11	det	_	TokenRange=46:47
+11	esposa	esposo	NOUN	NOUN	_	7	nsubj	_	TokenRange=48:54
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=55:57
+13	eike	_	NOUN	NOUN	_	11	nmod	_	TokenRange=58:62
+14	batista	batista	ADJ	ADJ	_	13	amod	_	TokenRange=63:70
+15	flavia	flavia	NOUN	NOUN	_	18	nsubj	_	TokenRange=71:77
+16	sampaio	sampaio	NOUN	NOUN	_	15	flat	_	TokenRange=78:85
+17	tambem	tambem	ADV	ADV	_	18	advmod	_	TokenRange=86:92
+18	viajou	viajar	VERB	VERB	_	7	conj	_	TokenRange=93:99
+19	para	para	ADP	ADP	_	21	case	_	TokenRange=100:104
+20	outro	_	DET	DET	_	21	det	_	TokenRange=105:110
+21	pais	_	NOUN	NOUN	_	18	nmod	_	TokenRange=111:115
+22	a	_	DET	DET	_	23	det	_	TokenRange=116:117
+23	informacao	informacao	NOUN	NOUN	_	18	obj	_	TokenRange=118:128
+24	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=129:130
+25-26	do	_	_	_	_	_	_	_	TokenRange=131:133
+25	de	de	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	jornalista	jornalista	NOUN	NOUN	_	23	conj	_	TokenRange=134:144
+28	lauro	lauro	NOUN	NOUN	_	27	appos	_	TokenRange=145:150
+29	jardim	jardim	NOUN	NOUN	_	27	flat	_	TokenRange=151:157
+30-31	do	_	_	_	_	_	_	_	TokenRange=158:160
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	globo	globo	NOUN	NOUN	_	27	nmod	_	TokenRange=161:166
+33	ela	_	PRON	PRON	_	34	nsubj	_	TokenRange=167:170
+34	embarcou	embarcar	VERB	VERB	_	7	conj	_	TokenRange=171:179
+35	ontem	ontem	ADV	ADV	_	34	advmod	_	TokenRange=180:185
+36	25	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=186:188
+37	para	_	ADP	ADP	_	38	mark	_	TokenRange=189:193
+38	encontrar	encontrar	VERB	VERB	_	34	advcl	_	TokenRange=194:203
+39	o	o	DET	DET	_	40	det	_	TokenRange=204:205
+40	marido	marido	NOUN	NOUN	_	38	obj	_	TokenRange=206:212
+41-42	nos	_	_	_	_	_	_	_	TokenRange=213:216
+41	em	em	ADP	ADP	_	43	case	_	_
+42	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	eua	_	NOUN	NOUN	_	38	nmod	_	TokenRange=217:220
+44	o	o	DET	DET	_	45	det	_	TokenRange=221:222
+45	filho	filho	NOUN	NOUN	_	34	nsubj	_	TokenRange=223:228
+46-47	do	_	_	_	_	_	_	_	TokenRange=229:231
+46	de	de	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	casal	casal	NOUN	NOUN	_	45	nmod	_	TokenRange=232:237
+49	batista	batista	ADJ	ADJ	_	48	amod	_	TokenRange=238:245
+50	de	de	ADP	ADP	_	52	case	_	TokenRange=246:248
+51	3	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=249:250
+52	anos	ano	NOUN	NOUN	_	45	nmod	_	TokenRange=251:255
+53	de	de	ADP	ADP	_	54	case	_	TokenRange=256:258
+54	idade	idade	NOUN	NOUN	_	52	nmod	_	TokenRange=259:264
+55	tambem	tambem	ADV	ADV	_	56	advmod	_	TokenRange=265:271
+56	embarcou	embarcar	VERB	VERB	_	7	conj	_	TokenRange=272:280
+57	com	com	ADP	ADP	_	59	case	_	TokenRange=281:284
+58	a	o	DET	DET	_	59	det	_	TokenRange=285:286
+59	mae	mae	NOUN	NOUN	_	56	nmod	_	TokenRange=287:290
+60	ha	_	VERB	VERB	_	56	advcl	_	TokenRange=291:293
+61	suspeitas	_	NOUN	NOUN	_	60	obj	_	TokenRange=294:303
+62	de	_	ADP	ADP	_	65	mark	_	TokenRange=304:306
+63	que	que	CCONJ	CONJ	_	65	mark	_	TokenRange=307:310
+64	alguem	_	PRON	PRON	_	65	nsubj	_	TokenRange=311:317
+65	vazou	vazar	VERB	VERB	_	61	nmod	_	TokenRange=318:323
+66	para	para	ADP	ADP	_	68	case	_	TokenRange=324:328
+67	o	o	DET	DET	_	68	det	_	TokenRange=329:330
+68	empresario	empresario	NOUN	NOUN	_	65	nmod	_	TokenRange=331:341
+69	que	que	CCONJ	CONJ	_	72	mark	_	TokenRange=342:345
+70	ele	_	PRON	PRON	_	72	nsubj:pass	_	TokenRange=346:349
+71	seria	_	AUX	AUX	_	72	aux:pass	_	TokenRange=350:355
+72	preso	_	VERB	VERB	_	65	ccomp	_	TokenRange=356:361
+73	eike	_	PROPN	PNOUN	_	75	nsubj	_	TokenRange=362:366
+74	nao	nao	ADV	ADV	Polarity=Neg	75	advmod	_	TokenRange=367:370
+75	possui	possuir	VERB	VERB	_	56	parataxis	_	TokenRange=371:377
+76	curso	curso	NOUN	NOUN	_	75	obj	_	TokenRange=378:383
+77	superior	superior	ADJ	ADJ	_	76	amod	_	TokenRange=384:392
+78	e	e	CCONJ	CONJ	_	79	cc	_	TokenRange=393:394
+79	deixou	deixar	VERB	VERB	_	75	conj	_	TokenRange=395:401
+80	o	o	DET	DET	_	81	det	_	TokenRange=402:403
+81	pais	_	NOUN	NOUN	_	79	obj	_	TokenRange=404:408
+82	usando	usar	VERB	VERB	_	79	acl	_	TokenRange=409:415
+83	um	um	DET	DET	_	84	det	_	TokenRange=416:418
+84	passaporte	passaporte	NOUN	NOUN	_	82	obj	_	TokenRange=419:429
+85	alemao	alemao	ADJ	ADJ	_	84	amod	_	TokenRange=430:436
+

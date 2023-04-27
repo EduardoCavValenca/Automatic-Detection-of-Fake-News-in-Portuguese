@@ -1,0 +1,22 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = guerra de cuspe video mostra filho de bolsonaro revidando e cuspindo em jean wyllys
+1	guerra	guerra	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:6
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=7:9
+3	cuspe	cuspe	NOUN	NOUN	_	1	nmod	_	TokenRange=10:15
+4	video	video	NOUN	NOUN	_	1	appos	_	TokenRange=16:21
+5	mostra	mostrar	VERB	VERB	_	0	root	_	TokenRange=22:28
+6	filho	filho	NOUN	NOUN	_	5	obj	_	TokenRange=29:34
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=35:37
+8	bolsonaro	bolsonaro	NOUN	NOUN	_	6	nmod	_	TokenRange=38:47
+9	revidando	revidar	VERB	VERB	_	6	acl	_	TokenRange=48:57
+10	e	e	CCONJ	CONJ	_	11	cc	_	TokenRange=58:59
+11	cuspindo	cuspir	VERB	VERB	_	9	conj	_	TokenRange=60:68
+12	em	em	ADP	ADP	_	13	case	_	TokenRange=69:71
+13	jean	_	NOUN	NOUN	_	9	nmod	_	TokenRange=72:76
+14	wyllys	_	PROPN	PNOUN	_	13	flat	_	SpacesAfter=\s\s|TokenRange=77:83
+

@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministro da justica defende lula e diz que oposicao usa investigacoes para atingir petista jose eduardo cardozo afirma ter total confianca de que ele nao se envolveu nem permitira que alguem proximo se envolvesse em desmandos alvo de criticas dentro do pt o ministro da justica jose eduardo cardozo saiu em defesa do expresidente luiz inacio lula
+1	ministro	ministro	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2-3	da	_	_	_	_	_	_	_	TokenRange=9:11
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	justica	_	NOUN	NOUN	_	1	nmod	_	TokenRange=12:19
+5	defende	defender	VERB	VERB	_	0	root	_	TokenRange=20:27
+6	lula	lula	NOUN	NOUN	_	5	obj	_	TokenRange=28:32
+7	e	e	CCONJ	CONJ	_	8	cc	_	TokenRange=33:34
+8	diz	dizer	VERB	VERB	_	5	conj	_	TokenRange=35:38
+9	que	que	CCONJ	CONJ	_	11	mark	_	TokenRange=39:42
+10	oposicao	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=43:51
+11	usa	usar	VERB	VERB	_	8	ccomp	_	TokenRange=52:55
+12	investigacoes	investigacoe	NOUN	NOUN	_	11	obj	_	TokenRange=56:69
+13	para	_	ADP	ADP	_	14	mark	_	TokenRange=70:74
+14	atingir	atingir	VERB	VERB	_	11	advcl	_	TokenRange=75:82
+15	petista	petista	NOUN	NOUN	_	14	obj	_	TokenRange=83:90
+16	jose	jose	NOUN	NOUN	_	19	nsubj	_	TokenRange=91:95
+17	eduardo	eduardo	ADJ	ADJ	_	16	flat	_	TokenRange=96:103
+18	cardozo	cardozo	NOUN	NOUN	_	16	flat	_	TokenRange=104:111
+19	afirma	afirmar	VERB	VERB	_	5	parataxis	_	TokenRange=112:118
+20	ter	ter	VERB	VERB	_	19	xcomp	_	TokenRange=119:122
+21	total	total	ADJ	ADJ	_	22	amod	_	TokenRange=123:128
+22	confianca	confianca	NOUN	NOUN	_	20	obj	_	TokenRange=129:138
+23	de	_	ADP	ADP	_	28	mark	_	TokenRange=139:141
+24	que	que	CCONJ	CONJ	_	28	mark	_	TokenRange=142:145
+25	ele	_	PRON	PRON	_	28	nsubj	_	TokenRange=146:149
+26	nao	nao	ADV	ADV	Polarity=Neg	28	advmod	_	TokenRange=150:153
+27	se	_	PRON	PRON	_	28	obj	_	TokenRange=154:156
+28	envolveu	envolver	VERB	VERB	_	22	nmod	_	TokenRange=157:165
+29	nem	_	CCONJ	CONJ	_	30	cc	_	TokenRange=166:169
+30	permitira	permitir	VERB	VERB	_	28	conj	_	TokenRange=170:179
+31	que	que	CCONJ	CONJ	_	35	mark	_	TokenRange=180:183
+32	alguem	_	PRON	PRON	_	35	nsubj	_	TokenRange=184:190
+33	proximo	proximo	ADJ	ADJ	_	32	amod	_	TokenRange=191:198
+34	se	_	PRON	PRON	_	35	obj	_	TokenRange=199:201
+35	envolvesse	envolver	VERB	VERB	_	30	ccomp	_	TokenRange=202:212
+36	em	em	ADP	ADP	_	37	case	_	TokenRange=213:215
+37	desmandos	desmando	NOUN	NOUN	_	35	nmod	_	TokenRange=216:225
+38	alvo	alvo	NOUN	NOUN	_	35	obj	_	TokenRange=226:230
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=231:233
+40	criticas	_	NOUN	NOUN	_	38	nmod	_	TokenRange=234:242
+41	dentro	dentro	ADV	ADV	_	40	advmod	_	TokenRange=243:249
+42-43	do	_	_	_	_	_	_	_	TokenRange=250:252
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	pt	_	NOUN	NOUN	_	41	nmod	_	TokenRange=253:255
+45	o	o	DET	DET	_	46	det	_	TokenRange=256:257
+46	ministro	ministro	NOUN	NOUN	_	53	nsubj	_	TokenRange=258:266
+47-48	da	_	_	_	_	_	_	_	TokenRange=267:269
+47	de	de	ADP	ADP	_	49	case	_	_
+48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	justica	_	NOUN	NOUN	_	46	nmod	_	TokenRange=270:277
+50	jose	jose	NOUN	NOUN	_	46	appos	_	TokenRange=278:282
+51	eduardo	eduardo	ADJ	ADJ	_	50	flat	_	TokenRange=283:290
+52	cardozo	cardozo	NOUN	NOUN	_	50	flat	_	TokenRange=291:298
+53	saiu	sair	VERB	VERB	_	5	parataxis	_	TokenRange=299:303
+54	em	em	ADP	ADP	_	55	case	_	TokenRange=304:306
+55	defesa	_	NOUN	NOUN	_	53	nmod	_	TokenRange=307:313
+56-57	do	_	_	_	_	_	_	_	TokenRange=314:316
+56	de	de	ADP	ADP	_	58	case	_	_
+57	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	expresidente	expresidente	NOUN	NOUN	_	55	nmod	_	TokenRange=317:329
+59	luiz	luiz	NOUN	NOUN	_	58	appos	_	TokenRange=330:334
+60	inacio	_	NOUN	NOUN	_	59	flat	_	TokenRange=335:341
+61	lula	_	NOUN	NOUN	_	59	flat	_	SpacesAfter=\s\s|TokenRange=342:346
+

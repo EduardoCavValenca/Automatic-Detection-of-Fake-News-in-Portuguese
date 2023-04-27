@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = a denuncia de caiado espioes cubanos disfarcados de medicos para alimentar o comunismo petista e o caixa 2 uma fraude que trouxe espioes cubanos credenciados como medicos forjada para que a ditadura cubana receba r 1 4 bilhao enquanto isso os medicos cubanos ficam com r 170 milhoes e isso que arthur chioro precisa explicar nao e papel do ministro da saude fazer politica contra a oposicao
+1	a	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	denuncia	denuncia	NOUN	NOUN	_	20	nsubj	_	TokenRange=2:10
+3	de	_	ADP	ADP	_	5	case	_	TokenRange=11:13
+4	caiado	caiar	VERB	ADJ	_	5	amod	_	TokenRange=14:20
+5	espioes	espioe	NOUN	NOUN	_	2	nmod	_	TokenRange=21:28
+6	cubanos	cubano	ADJ	ADJ	_	5	amod	_	TokenRange=29:36
+7	disfarcados	disfarcar	VERB	VERB	_	5	acl	_	TokenRange=37:48
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=49:51
+9	medicos	medico	NOUN	NOUN	_	7	nmod	_	TokenRange=52:59
+10	para	_	ADP	ADP	_	11	mark	_	TokenRange=60:64
+11	alimentar	alimentar	VERB	VERB	_	7	advcl	_	TokenRange=65:74
+12	o	o	DET	DET	_	13	det	_	TokenRange=75:76
+13	comunismo	comunismo	NOUN	NOUN	_	11	obj	_	TokenRange=77:86
+14	petista	petista	ADJ	ADJ	_	13	amod	_	TokenRange=87:94
+15	e	e	CCONJ	CONJ	_	17	cc	_	TokenRange=95:96
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	TokenRange=97:98
+17	caixa	caixa	NOUN	NOUN	_	2	conj	_	TokenRange=99:104
+18	2	_	NUM	NUM	NumType=Card	17	appos	_	TokenRange=105:106
+19	uma	um	DET	DET	_	20	det	_	TokenRange=107:110
+20	fraude	fraude	NOUN	NOUN	_	0	root	_	TokenRange=111:117
+21	que	_	PRON	PRON	_	22	nsubj	_	TokenRange=118:121
+22	trouxe	trazer	VERB	VERB	_	20	acl:relcl	_	TokenRange=122:128
+23	espioes	espioe	NOUN	NOUN	_	22	obj	_	TokenRange=129:136
+24	cubanos	cubano	ADJ	ADJ	_	23	amod	_	TokenRange=137:144
+25	credenciados	credenciar	VERB	VERB	_	23	acl	_	TokenRange=145:157
+26	como	como	ADP	ADP	_	27	case	_	TokenRange=158:162
+27	medicos	medico	NOUN	NOUN	_	25	nmod	_	TokenRange=163:170
+28	forjada	forjar	VERB	VERB	_	23	acl	_	TokenRange=171:178
+29	para	_	ADP	ADP	_	34	mark	_	TokenRange=179:183
+30	que	que	CCONJ	CONJ	_	29	fixed	_	TokenRange=184:187
+31	a	o	DET	DET	_	32	det	_	TokenRange=188:189
+32	ditadura	ditadura	NOUN	NOUN	_	34	nsubj	_	TokenRange=190:198
+33	cubana	cubano	ADJ	ADJ	_	32	amod	_	TokenRange=199:205
+34	receba	receber	VERB	VERB	_	22	advcl	_	TokenRange=206:212
+35	r	r	NOUN	NOUN	_	34	obj	_	TokenRange=213:214
+36	1	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=215:216
+37	4	_	NUM	NUM	NumType=Card	38	nummod	_	TokenRange=217:218
+38	bilhao	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=219:225
+39	enquanto	_	CCONJ	CONJ	_	44	mark	_	TokenRange=226:234
+40	isso	_	PRON	PRON	_	44	nmod	_	TokenRange=235:239
+41	os	o	DET	DET	_	42	det	_	TokenRange=240:242
+42	medicos	medico	NOUN	NOUN	_	44	nsubj	_	TokenRange=243:250
+43	cubanos	cubano	ADJ	ADJ	_	42	amod	_	TokenRange=251:258
+44	ficam	ficar	VERB	VERB	_	2	advcl	_	TokenRange=259:264
+45	com	com	ADP	ADP	_	46	case	_	TokenRange=265:268
+46	r	r	NOUN	NOUN	_	44	nmod	_	TokenRange=269:270
+47	170	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=271:274
+48	milhoes	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=275:282
+49	e	e	CCONJ	CONJ	_	50	cc	_	TokenRange=283:284
+50	isso	_	PRON	PRON	_	44	conj	_	TokenRange=285:289
+51	que	_	PRON	PRON	_	54	obj	_	TokenRange=290:293
+52	arthur	_	NOUN	NOUN	_	54	nsubj	_	TokenRange=294:300
+53	chioro	chioro	NOUN	NOUN	_	52	flat	_	TokenRange=301:307
+54	precisa	precisar	VERB	VERB	_	50	acl:relcl	_	TokenRange=308:315
+55	explicar	explicar	VERB	VERB	_	54	xcomp	_	TokenRange=316:324
+56	nao	nao	ADV	ADV	Polarity=Neg	55	advmod	_	TokenRange=325:328
+57	e	e	CCONJ	CONJ	_	58	cc	_	TokenRange=329:330
+58	papel	papel	NOUN	NOUN	_	56	conj	_	TokenRange=331:336
+59-60	do	_	_	_	_	_	_	_	TokenRange=337:339
+59	de	de	ADP	ADP	_	65	case	_	_
+60	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	ministro	ministro	NOUN	NOUN	_	65	nsubj	_	TokenRange=340:348
+62-63	da	_	_	_	_	_	_	_	TokenRange=349:351
+62	de	de	ADP	ADP	_	64	case	_	_
+63	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	saude	saude	NOUN	NOUN	_	61	nmod	_	TokenRange=352:357
+65	fazer	fazer	VERB	VERB	_	58	nmod	_	TokenRange=358:363
+66	politica	_	NOUN	NOUN	_	65	obj	_	TokenRange=364:372
+67	contra	_	ADP	ADP	_	69	case	_	TokenRange=373:379
+68	a	o	DET	DET	_	69	det	_	TokenRange=380:381
+69	oposicao	oposicao	NOUN	NOUN	_	66	nmod	_	TokenRange=382:390
+

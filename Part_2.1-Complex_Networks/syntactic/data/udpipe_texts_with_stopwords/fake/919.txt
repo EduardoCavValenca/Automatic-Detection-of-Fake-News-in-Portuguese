@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = meses apos polemica sobre suposta agressao victor chaves e poliana bagatini se separam o cantor apareceu sem alianca durante uma apresentacao no teatro tom brasil em sao paulo mas nao foi so isso leo parceiro de victor deixou escapar uma dica durante a apresentacao da dupla em determinado momento leo declarou para a plateia
+1	meses	mês	NOUN	NOUN	_	13	nmod	_	TokenRange=0:5
+2	apos	_	ADP	ADP	_	3	case	_	TokenRange=6:10
+3	polemica	_	NOUN	NOUN	_	13	nmod	_	TokenRange=11:19
+4	sobre	_	ADP	ADP	_	6	case	_	TokenRange=20:25
+5	suposta	suposto	ADJ	ADJ	_	6	amod	_	TokenRange=26:33
+6	agressao	agressao	NOUN	NOUN	_	3	nmod	_	TokenRange=34:42
+7	victor	_	PROPN	NOUN	_	6	appos	_	TokenRange=43:49
+8	chaves	chave	NOUN	NOUN	_	7	flat	_	TokenRange=50:56
+9	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=57:58
+10	poliana	_	NOUN	NOUN	_	7	conj	_	TokenRange=59:66
+11	bagatini	_	ADJ	ADJ	_	10	amod	_	TokenRange=67:75
+12	se	_	PRON	PRON	_	13	obj	_	TokenRange=76:78
+13	separam	separar	VERB	VERB	_	0	root	_	TokenRange=79:86
+14	o	o	DET	DET	_	15	det	_	TokenRange=87:88
+15	cantor	cantor	NOUN	NOUN	_	13	nsubj	_	TokenRange=89:95
+16	apareceu	aparecer	VERB	VERB	_	13	parataxis	_	TokenRange=96:104
+17	sem	_	ADP	ADP	_	18	case	_	TokenRange=105:108
+18	alianca	alianca	NOUN	NOUN	_	16	nmod	_	TokenRange=109:116
+19	durante	_	ADP	ADP	_	21	case	_	TokenRange=117:124
+20	uma	um	DET	DET	_	21	det	_	TokenRange=125:128
+21	apresentacao	apresentacao	NOUN	NOUN	_	16	nmod	_	TokenRange=129:141
+22-23	no	_	_	_	_	_	_	_	TokenRange=142:144
+22	em	em	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	teatro	teatro	NOUN	NOUN	_	21	nmod	_	TokenRange=145:151
+25	tom	tom	NOUN	NOUN	_	24	appos	_	TokenRange=152:155
+26	brasil	brasil	NOUN	NOUN	_	25	flat	_	TokenRange=156:162
+27	em	em	ADP	ADP	_	28	case	_	TokenRange=163:165
+28	sao	sao	NOUN	NOUN	_	16	nmod	_	TokenRange=166:169
+29	paulo	paulo	ADJ	NOUN	_	28	amod	_	TokenRange=170:175
+30	mas	mas	CCONJ	CONJ	_	32	cc	_	TokenRange=176:179
+31	nao	nao	ADV	ADV	Polarity=Neg	32	advmod	_	TokenRange=180:183
+32	foi	_	VERB	VERB	_	16	conj	_	TokenRange=184:187
+33	so	so	ADV	ADV	_	32	advmod	_	TokenRange=188:190
+34	isso	_	PRON	PRON	_	39	nsubj	_	TokenRange=191:195
+35	leo	leo	ADJ	ADJ	_	36	amod	_	TokenRange=196:199
+36	parceiro	parceiro	NOUN	NOUN	_	39	nsubj	_	TokenRange=200:208
+37	de	de	ADP	ADP	_	38	case	_	TokenRange=209:211
+38	victor	victor	NOUN	NOUN	_	36	nmod	_	TokenRange=212:218
+39	deixou	deixar	VERB	VERB	_	32	csubj	_	TokenRange=219:225
+40	escapar	escapar	VERB	VERB	_	39	xcomp	_	TokenRange=226:233
+41	uma	um	DET	DET	_	42	det	_	TokenRange=234:237
+42	dica	dica	NOUN	NOUN	_	40	obj	_	TokenRange=238:242
+43	durante	_	ADP	ADP	_	45	case	_	TokenRange=243:250
+44	a	o	DET	DET	_	45	det	_	TokenRange=251:252
+45	apresentacao	apresentacao	NOUN	NOUN	_	40	nmod	_	TokenRange=253:265
+46-47	da	_	_	_	_	_	_	_	TokenRange=266:268
+46	de	de	ADP	ADP	_	48	case	_	_
+47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	dupla	_	NOUN	NOUN	_	45	nmod	_	TokenRange=269:274
+49	em	em	ADP	ADP	_	51	case	_	TokenRange=275:277
+50	determinado	_	DET	DET	_	51	det	_	TokenRange=278:289
+51	momento	momento	NOUN	NOUN	_	53	nmod	_	TokenRange=290:297
+52	leo	_	PRON	PRON	_	53	nsubj	_	TokenRange=298:301
+53	declarou	declarar	VERB	VERB	_	32	parataxis	_	TokenRange=302:310
+54	para	para	ADP	ADP	_	56	case	_	TokenRange=311:315
+55	a	o	DET	DET	_	56	det	_	TokenRange=316:317
+56	plateia	plateia	NOUN	NOUN	_	53	nmod	_	TokenRange=318:325
+

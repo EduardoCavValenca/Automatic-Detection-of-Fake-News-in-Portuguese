@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja as medidas anunciadas pelo governo para incentivar a economia objetivo e ampliar a oferta do credito reduzir o custo de empresas e desburocratizar o comercio exterior o governo federal anunciou nesta quintafeira 15 um pacote de medidas microeconomicas para reduzir custos das empresas aliviar dividas de pessoas fisicas e juridicas e reduzir a burocracia do comercio exterior o ministro da fazenda henrique meirelles disse que o pacote e um
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	as	o	DET	DET	_	3	det	_	TokenRange=5:7
+3	medidas	medida	NOUN	NOUN	_	1	obj	_	TokenRange=8:15
+4	anunciadas	anunciar	VERB	VERB	_	3	acl	_	TokenRange=16:26
+5-6	pelo	_	_	_	_	_	_	_	TokenRange=27:31
+5	por	por	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	governo	governo	NOUN	NOUN	_	4	nmod	_	TokenRange=32:39
+8	para	_	ADP	ADP	_	9	mark	_	TokenRange=40:44
+9	incentivar	incentivar	VERB	VERB	_	4	advcl	_	TokenRange=45:55
+10	a	o	DET	DET	_	11	det	_	TokenRange=56:57
+11	economia	economia	NOUN	NOUN	_	9	obj	_	TokenRange=58:66
+12	objetivo	objetivo	NOUN	NOUN	_	11	amod	_	TokenRange=67:75
+13	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=76:77
+14	ampliar	ampliar	VERB	VERB	_	9	conj	_	TokenRange=78:85
+15	a	o	DET	DET	_	16	det	_	TokenRange=86:87
+16	oferta	oferta	NOUN	NOUN	_	14	obj	_	TokenRange=88:94
+17-18	do	_	_	_	_	_	_	_	TokenRange=95:97
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	credito	credito	NOUN	NOUN	_	16	nmod	_	TokenRange=98:105
+20	reduzir	reduzir	VERB	VERB	_	14	xcomp	_	TokenRange=106:113
+21	o	o	DET	DET	_	22	det	_	TokenRange=114:115
+22	custo	custo	NOUN	NOUN	_	20	obj	_	TokenRange=116:121
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=122:124
+24	empresas	empresa	NOUN	NOUN	_	22	nmod	_	TokenRange=125:133
+25	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=134:135
+26	desburocratizar	desburocratizar	VERB	VERB	_	20	conj	_	TokenRange=136:151
+27	o	o	DET	DET	_	28	det	_	TokenRange=152:153
+28	comercio	comercio	NOUN	NOUN	_	26	obj	_	TokenRange=154:162
+29	exterior	exterior	ADJ	ADJ	_	28	amod	_	TokenRange=163:171
+30	o	o	DET	DET	_	31	det	_	TokenRange=172:173
+31	governo	governo	NOUN	NOUN	_	33	nsubj	_	TokenRange=174:181
+32	federal	federal	ADJ	ADJ	_	31	amod	_	TokenRange=182:189
+33	anunciou	anunciar	VERB	VERB	_	1	parataxis	_	TokenRange=190:198
+34	nesta	_	ADP	ADP	_	35	case	_	TokenRange=199:204
+35	quintafeira	_	NOUN	NOUN	_	33	nmod	_	TokenRange=205:216
+36	15	_	NUM	NUM	NumType=Card	35	nmod	_	TokenRange=217:219
+37	um	um	DET	DET	_	38	det	_	TokenRange=220:222
+38	pacote	pacote	NOUN	NOUN	_	33	obj	_	TokenRange=223:229
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=230:232
+40	medidas	medida	NOUN	NOUN	_	38	nmod	_	TokenRange=233:240
+41	microeconomicas	microeconomico	ADJ	ADJ	_	40	amod	_	TokenRange=241:256
+42	para	_	ADP	ADP	_	43	mark	_	TokenRange=257:261
+43	reduzir	reduzir	VERB	VERB	_	40	nmod	_	TokenRange=262:269
+44	custos	custo	NOUN	NOUN	_	43	obj	_	TokenRange=270:276
+45-46	das	_	_	_	_	_	_	_	TokenRange=277:280
+45	de	de	ADP	ADP	_	47	case	_	_
+46	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+47	empresas	empresa	NOUN	NOUN	_	44	nmod	_	TokenRange=281:289
+48	aliviar	aliviar	VERB	VERB	_	43	ccomp	_	TokenRange=290:297
+49	dividas	divida	NOUN	NOUN	_	48	obj	_	TokenRange=298:305
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=306:308
+51	pessoas	pessoa	NOUN	NOUN	_	49	nmod	_	TokenRange=309:316
+52	fisicas	fisico	ADJ	ADJ	_	51	amod	_	TokenRange=317:324
+53	e	e	CCONJ	CONJ	_	54	cc	_	TokenRange=325:326
+54	juridicas	juridico	ADJ	ADJ	_	52	conj	_	TokenRange=327:336
+55	e	e	CCONJ	CONJ	_	56	cc	_	TokenRange=337:338
+56	reduzir	reduzir	VERB	VERB	_	48	conj	_	TokenRange=339:346
+57	a	o	DET	DET	_	58	det	_	TokenRange=347:348
+58	burocracia	burocracia	NOUN	NOUN	_	56	obj	_	TokenRange=349:359
+59-60	do	_	_	_	_	_	_	_	TokenRange=360:362
+59	de	de	ADP	ADP	_	61	case	_	_
+60	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	comercio	comercio	NOUN	NOUN	_	58	nmod	_	TokenRange=363:371
+62	exterior	exterior	ADJ	ADJ	_	61	amod	_	TokenRange=372:380
+63	o	o	DET	DET	_	64	det	_	TokenRange=381:382
+64	ministro	ministro	NOUN	NOUN	_	70	nsubj	_	TokenRange=383:391
+65-66	da	_	_	_	_	_	_	_	TokenRange=392:394
+65	de	de	ADP	ADP	_	67	case	_	_
+66	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	fazenda	fazenda	NOUN	NOUN	_	64	nmod	_	TokenRange=395:402
+68	henrique	henrique	NOUN	NOUN	_	64	appos	_	TokenRange=403:411
+69	meirelles	_	NOUN	NOUN	_	68	flat	_	TokenRange=412:421
+70	disse	dizer	VERB	VERB	_	33	parataxis	_	TokenRange=422:427
+71	que	que	CCONJ	CONJ	_	70	mark	_	TokenRange=428:431
+72	o	o	DET	DET	_	73	det	_	TokenRange=432:433
+73	pacote	pacote	NOUN	NOUN	_	70	nsubj	_	TokenRange=434:440
+74	e	e	CCONJ	CONJ	_	75	cc	_	TokenRange=441:442
+75	um	um	DET	DET	_	73	det	_	SpacesAfter=\s\s|TokenRange=443:445
+

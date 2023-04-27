@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dois pesos e duas medidas nesta semana levy fidelix foi multado por pratica de discriminacao homofobica ele devera pagar r 25000 por ter feito declaracoes homofobicas durante o debate das eleicoes de 2014 aparelho excretor nao reproduz disse fidelix como e que pode um pai de familia um avo ficar aqui escorado porque tem medo de perder voto disse fidelix agora ouca abaixo o que lula disse em sua campanha em 2001 no dialogo lula pergunta pelotas e cidade polo ne exportadora de viado
+1	dois	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:4
+2	pesos	peso	NOUN	NOUN	_	11	nsubj:pass	_	TokenRange=5:10
+3	e	e	CCONJ	CONJ	_	5	cc	_	TokenRange=11:12
+4	duas	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=13:17
+5	medidas	medida	NOUN	NOUN	_	2	conj	_	TokenRange=18:25
+6	nesta	_	ADP	ADP	_	7	case	_	TokenRange=26:31
+7	semana	semana	NOUN	NOUN	_	11	nmod	_	TokenRange=32:38
+8	levy	levy	NOUN	NOUN	_	11	nsubj:pass	_	TokenRange=39:43
+9	fidelix	_	NOUN	NOUN	_	8	flat	_	TokenRange=44:51
+10	foi	_	AUX	AUX	_	11	aux:pass	_	TokenRange=52:55
+11	multado	multar	VERB	VERB	_	0	root	_	TokenRange=56:63
+12	por	por	ADP	ADP	_	13	case	_	TokenRange=64:67
+13	pratica	_	NOUN	NOUN	_	11	nmod	_	TokenRange=68:75
+14	de	de	ADP	ADP	_	15	case	_	TokenRange=76:78
+15	discriminacao	discriminacao	NOUN	NOUN	_	13	nmod	_	TokenRange=79:92
+16	homofobica	homofobico	ADJ	ADJ	_	15	amod	_	TokenRange=93:103
+17	ele	_	PRON	PRON	_	19	nsubj	_	TokenRange=104:107
+18	devera	dever	AUX	AUX	_	19	aux	_	TokenRange=108:114
+19	pagar	pagar	VERB	VERB	_	11	parataxis	_	TokenRange=115:120
+20	r	r	NOUN	NOUN	_	19	obj	_	TokenRange=121:122
+21	25000	_	NUM	NUM	NumType=Card	20	appos	_	TokenRange=123:128
+22	por	_	ADP	ADP	_	24	mark	_	TokenRange=129:132
+23	ter	ter	AUX	AUX	_	24	aux	_	TokenRange=133:136
+24	feito	_	VERB	VERB	_	19	advcl	_	TokenRange=137:142
+25	declaracoes	declaracoe	NOUN	NOUN	_	24	obj	_	TokenRange=143:154
+26	homofobicas	homofobico	ADJ	ADJ	_	25	amod	_	TokenRange=155:166
+27	durante	_	ADP	ADP	_	29	case	_	TokenRange=167:174
+28	o	o	DET	DET	_	29	det	_	TokenRange=175:176
+29	debate	debate	NOUN	NOUN	_	24	nmod	_	TokenRange=177:183
+30-31	das	_	_	_	_	_	_	_	TokenRange=184:187
+30	de	de	ADP	ADP	_	32	case	_	_
+31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	eleicoes	eleicoe	NOUN	NOUN	_	29	nmod	_	TokenRange=188:196
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=197:199
+34	2014	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=200:204
+35	aparelho	aparelho	NOUN	NOUN	_	38	nsubj	_	TokenRange=205:213
+36	excretor	excretor	ADJ	ADJ	_	35	amod	_	TokenRange=214:222
+37	nao	nao	ADV	ADV	Polarity=Neg	38	advmod	_	TokenRange=223:226
+38	reproduz	reproduzir	VERB	VERB	_	11	conj	_	TokenRange=227:235
+39	disse	dizer	VERB	VERB	_	38	ccomp	_	TokenRange=236:241
+40	fidelix	fidelix	NOUN	NOUN	_	39	obj	_	TokenRange=242:249
+41	como	como	ADV	ADV	_	51	advmod	_	TokenRange=250:254
+42	e	e	CCONJ	CONJ	_	51	cc	_	TokenRange=255:256
+43	que	_	CCONJ	CONJ	_	41	fixed	_	TokenRange=257:260
+44	pode	_	AUX	AUX	_	51	aux	_	TokenRange=261:265
+45	um	um	DET	DET	_	46	det	_	TokenRange=266:268
+46	pai	pai	NOUN	NOUN	_	51	nsubj	_	TokenRange=269:272
+47	de	de	ADP	ADP	_	48	case	_	TokenRange=273:275
+48	familia	familia	NOUN	NOUN	_	46	nmod	_	TokenRange=276:283
+49	um	um	DET	DET	_	50	det	_	TokenRange=284:286
+50	avo	avo	NOUN	NOUN	_	51	nsubj	_	TokenRange=287:290
+51	ficar	ficar	VERB	VERB	_	39	ccomp	_	TokenRange=291:296
+52	aqui	aqui	ADV	ADV	_	53	advmod	_	TokenRange=297:301
+53	escorado	escorado	ADJ	ADJ	_	51	xcomp	_	TokenRange=302:310
+54	porque	_	CCONJ	CONJ	_	55	mark	_	TokenRange=311:317
+55	tem	ter	VERB	VERB	_	51	advcl	_	TokenRange=318:321
+56	medo	medo	NOUN	NOUN	_	55	obj	_	TokenRange=322:326
+57	de	_	ADP	ADP	_	58	mark	_	TokenRange=327:329
+58	perder	perder	VERB	VERB	_	56	nmod	_	TokenRange=330:336
+59	voto	voto	NOUN	NOUN	_	58	obj	_	TokenRange=337:341
+60	disse	dizer	VERB	VERB	_	39	ccomp	_	TokenRange=342:347
+61	fidelix	fidelix	NOUN	NOUN	_	63	nsubj	_	TokenRange=348:355
+62	agora	agora	ADV	ADV	_	63	advmod	_	TokenRange=356:361
+63	ouca	oucar	VERB	VERB	_	60	ccomp	_	TokenRange=362:366
+64	abaixo	abaixo	ADV	ADV	_	63	advmod	_	TokenRange=367:373
+65	o	_	PRON	PRON	_	63	obj	_	TokenRange=374:375
+66	que	_	PRON	PRON	_	68	obj	_	TokenRange=376:379
+67	lula	lula	NOUN	NOUN	_	68	nsubj	_	TokenRange=380:384
+68	disse	dizer	VERB	VERB	_	65	acl:relcl	_	TokenRange=385:390
+69	em	em	ADP	ADP	_	71	case	_	TokenRange=391:393
+70	sua	_	DET	DET	_	71	det:poss	_	TokenRange=394:397
+71	campanha	campanha	NOUN	NOUN	_	68	nmod	_	TokenRange=398:406
+72	em	em	ADP	ADP	_	73	case	_	TokenRange=407:409
+73	2001	_	NUM	NUM	NumType=Card	71	nmod	_	TokenRange=410:414
+74-75	no	_	_	_	_	_	_	_	TokenRange=415:417
+74	em	em	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	dialogo	dialogo	NOUN	NOUN	_	68	nmod	_	TokenRange=418:425
+77	lula	_	NOUN	NOUN	_	78	nsubj	_	TokenRange=426:430
+78	pergunta	perguntar	VERB	VERB	_	63	ccomp	_	TokenRange=431:439
+79	pelotas	pelota	NOUN	NOUN	_	78	obj	_	TokenRange=440:447
+80	e	e	CCONJ	CONJ	_	81	cc	_	TokenRange=448:449
+81	cidade	cidade	NOUN	NOUN	_	79	conj	_	TokenRange=450:456
+82	polo	polo	NOUN	NOUN	_	79	appos	_	TokenRange=457:461
+83	ne	_	CCONJ	CONJ	_	84	cc	_	TokenRange=462:464
+84	exportadora	exportador	NOUN	NOUN	_	79	conj	_	TokenRange=465:476
+85	de	de	ADP	ADP	_	86	case	_	TokenRange=477:479
+86	viado	viado	NOUN	NOUN	_	84	nmod	_	TokenRange=480:485
+

@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maduro diz que predio da suprema corte da venezuela foi atacado por helicoptero presidente diz que acionou as forcas armadas deputados denunciam ataque de civis a parlamento o presidente da venezuela nicolas maduro disse nesta tercafeira 27 que um helicoptero da policia cientifica atacou a suprema corte em caracas segundo ele algumas granadas foram lancadas contra o predio e depois o helicoptero sobrevoou o predio do ministerio do interior o presidente
+1	maduro	maduro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=7:10
+3	que	que	CCONJ	CONJ	_	13	mark	_	TokenRange=11:14
+4	predio	predio	NOUN	NOUN	_	13	nsubj:pass	_	TokenRange=15:21
+5-6	da	_	_	_	_	_	_	_	TokenRange=22:24
+5	de	de	ADP	ADP	_	8	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	suprema	supremo	ADJ	ADJ	_	8	amod	_	TokenRange=25:32
+8	corte	corte	NOUN	NOUN	_	4	nmod	_	TokenRange=33:38
+9-10	da	_	_	_	_	_	_	_	TokenRange=39:41
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	venezuela	_	NOUN	NOUN	_	8	nmod	_	TokenRange=42:51
+12	foi	_	AUX	AUX	_	13	aux:pass	_	TokenRange=52:55
+13	atacado	atacar	VERB	VERB	_	2	ccomp	_	TokenRange=56:63
+14	por	por	ADP	ADP	_	15	case	_	TokenRange=64:67
+15	helicoptero	helicoptero	NOUN	NOUN	_	13	nmod	_	TokenRange=68:79
+16	presidente	presidente	NOUN	NOUN	_	15	flat	_	TokenRange=80:90
+17	diz	dizer	VERB	VERB	_	2	ccomp	_	TokenRange=91:94
+18	que	que	CCONJ	CONJ	_	19	mark	_	TokenRange=95:98
+19	acionou	acionar	VERB	VERB	_	17	ccomp	_	TokenRange=99:106
+20	as	o	DET	DET	_	21	det	_	TokenRange=107:109
+21	forcas	forca	NOUN	NOUN	_	19	obj	_	TokenRange=110:116
+22	armadas	armado	ADJ	ADJ	_	21	amod	_	TokenRange=117:124
+23	deputados	deputado	NOUN	NOUN	_	19	nsubj	_	TokenRange=125:134
+24	denunciam	denunciar	VERB	VERB	_	17	ccomp	_	TokenRange=135:144
+25	ataque	ataque	NOUN	NOUN	_	24	obj	_	TokenRange=145:151
+26	de	de	ADP	ADP	_	27	case	_	TokenRange=152:154
+27	civis	civil	NOUN	NOUN	_	25	nmod	_	TokenRange=155:160
+28	a	_	ADP	ADP	_	29	case	_	TokenRange=161:162
+29	parlamento	parlamento	NOUN	NOUN	_	25	nmod	_	TokenRange=163:173
+30	o	o	DET	DET	_	31	det	_	TokenRange=174:175
+31	presidente	presidente	NOUN	NOUN	_	24	nsubj	_	TokenRange=176:186
+32-33	da	_	_	_	_	_	_	_	TokenRange=187:189
+32	de	de	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	venezuela	_	NOUN	NOUN	_	31	nmod	_	TokenRange=190:199
+35	nicolas	_	ADJ	ADJ	_	31	appos	_	TokenRange=200:207
+36	maduro	maduro	NOUN	NOUN	_	31	appos	_	TokenRange=208:214
+37	disse	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=215:220
+38	nesta	_	ADP	ADP	_	39	case	_	TokenRange=221:226
+39	tercafeira	_	NOUN	NOUN	_	37	nmod	_	TokenRange=227:237
+40	27	_	NUM	NUM	NumType=Card	39	nmod	_	TokenRange=238:240
+41	que	que	CCONJ	CONJ	_	48	mark	_	TokenRange=241:244
+42	um	um	DET	DET	_	43	det	_	TokenRange=245:247
+43	helicoptero	helicoptero	NOUN	NOUN	_	48	nsubj	_	TokenRange=248:259
+44-45	da	_	_	_	_	_	_	_	TokenRange=260:262
+44	de	de	ADP	ADP	_	46	case	_	_
+45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	policia	policia	NOUN	NOUN	_	43	nmod	_	TokenRange=263:270
+47	cientifica	cientifico	ADJ	ADJ	_	46	amod	_	TokenRange=271:281
+48	atacou	atacar	VERB	VERB	_	37	ccomp	_	TokenRange=282:288
+49	a	o	DET	DET	_	51	det	_	TokenRange=289:290
+50	suprema	supremo	ADJ	ADJ	_	51	amod	_	TokenRange=291:298
+51	corte	corte	NOUN	NOUN	_	48	obj	_	TokenRange=299:304
+52	em	em	ADP	ADP	_	53	case	_	TokenRange=305:307
+53	caracas	caraca	NOUN	NOUN	_	48	nmod	_	TokenRange=308:315
+54	segundo	_	ADP	ADP	_	55	case	_	TokenRange=316:323
+55	ele	_	PRON	PRON	_	59	nmod	_	TokenRange=324:327
+56	algumas	_	DET	DET	_	57	det	_	TokenRange=328:335
+57	granadas	granada	NOUN	NOUN	_	59	nsubj:pass	_	TokenRange=336:344
+58	foram	_	AUX	AUX	_	59	aux:pass	_	TokenRange=345:350
+59	lancadas	lancar	VERB	VERB	_	48	conj	_	TokenRange=351:359
+60	contra	_	ADP	ADP	_	62	case	_	TokenRange=360:366
+61	o	o	DET	DET	_	62	det	_	TokenRange=367:368
+62	predio	predio	NOUN	NOUN	_	59	nmod	_	TokenRange=369:375
+63	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=376:377
+64	depois	depois	ADV	ADV	_	67	advmod	_	TokenRange=378:384
+65	o	o	DET	DET	_	66	det	_	TokenRange=385:386
+66	helicoptero	helicoptero	NOUN	NOUN	_	67	nsubj	_	TokenRange=387:398
+67	sobrevoou	sobrevoar	VERB	VERB	_	59	conj	_	TokenRange=399:408
+68	o	o	DET	DET	_	69	det	_	TokenRange=409:410
+69	predio	predio	NOUN	NOUN	_	67	obj	_	TokenRange=411:417
+70-71	do	_	_	_	_	_	_	_	TokenRange=418:420
+70	de	de	ADP	ADP	_	72	case	_	_
+71	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	ministerio	ministerio	NOUN	NOUN	_	69	nmod	_	TokenRange=421:431
+73-74	do	_	_	_	_	_	_	_	TokenRange=432:434
+73	de	de	ADP	ADP	_	75	case	_	_
+74	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
+75	interior	interior	NOUN	NOUN	_	72	nmod	_	TokenRange=435:443
+76	o	o	DET	DET	_	77	det	_	TokenRange=444:445
+77	presidente	presidente	NOUN	NOUN	_	67	obj	_	SpacesAfter=\s\s|TokenRange=446:456
+

@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = honolulu o brasil corre risco de perder oportunidades de acesso a recursos geneticos para melhoria de sua agropecuaria ou de nao ter sua biodiversidade investigada em busca de novos farmacos e ate mesmo de se defender em casos de biopirataria se nao ratificar um acordo internacional que ele mesmo ajudou a construir o prognostico foi feito pelo brasileiro braulio dias secretario executivo da convencao de diversidade biologica cdb das nacoes unidas sobre
+1	honolulu	honoluar	VERB	VERB	_	4	parataxis	_	TokenRange=0:8
+2	o	o	DET	DET	_	3	det	_	TokenRange=9:10
+3	brasil	brasil	NOUN	NOUN	_	4	nsubj	_	TokenRange=11:17
+4	corre	correr	VERB	VERB	_	0	root	_	TokenRange=18:23
+5	risco	risco	NOUN	NOUN	_	4	obj	_	TokenRange=24:29
+6	de	_	ADP	ADP	_	7	mark	_	TokenRange=30:32
+7	perder	perder	VERB	VERB	_	5	nmod	_	TokenRange=33:39
+8	oportunidades	oportunidade	NOUN	NOUN	_	7	obj	_	TokenRange=40:53
+9	de	de	ADP	ADP	_	10	case	_	TokenRange=54:56
+10	acesso	acesso	NOUN	NOUN	_	8	nmod	_	TokenRange=57:63
+11	a	_	ADP	ADP	_	12	case	_	TokenRange=64:65
+12	recursos	recurso	NOUN	NOUN	_	10	nmod	_	TokenRange=66:74
+13	geneticos	genetico	ADJ	ADJ	_	12	amod	_	TokenRange=75:84
+14	para	para	ADP	ADP	_	15	case	_	TokenRange=85:89
+15	melhoria	melhoria	NOUN	NOUN	_	7	nmod	_	TokenRange=90:98
+16	de	de	ADP	ADP	_	18	case	_	TokenRange=99:101
+17	sua	_	DET	DET	_	18	det:poss	_	TokenRange=102:105
+18	agropecuaria	agropecuaria	NOUN	NOUN	_	15	nmod	_	TokenRange=106:118
+19	ou	ou	CCONJ	CONJ	_	22	cc	_	TokenRange=119:121
+20	de	_	ADP	ADP	_	22	mark	_	TokenRange=122:124
+21	nao	nao	ADV	ADV	Polarity=Neg	22	advmod	_	TokenRange=125:128
+22	ter	ter	VERB	VERB	_	7	conj	_	TokenRange=129:132
+23	sua	_	DET	DET	_	24	det:poss	_	TokenRange=133:136
+24	biodiversidade	biodiversidade	NOUN	NOUN	_	22	obj	_	TokenRange=137:151
+25	investigada	investigado	ADJ	ADJ	_	22	xcomp	_	TokenRange=152:163
+26	em	em	ADP	ADP	_	27	case	_	TokenRange=164:166
+27	busca	busca	NOUN	NOUN	_	25	nmod	_	TokenRange=167:172
+28	de	de	ADP	ADP	_	30	case	_	TokenRange=173:175
+29	novos	novo	ADJ	ADJ	_	30	amod	_	TokenRange=176:181
+30	farmacos	farmaco	NOUN	NOUN	_	27	nmod	_	TokenRange=182:190
+31	e	e	CCONJ	CONJ	_	36	cc	_	TokenRange=191:192
+32	ate	ate	ADV	ADV	_	33	advmod	_	TokenRange=193:196
+33	mesmo	mesmo	ADV	ADV	_	36	advmod	_	TokenRange=197:202
+34	de	_	ADP	ADP	_	36	mark	_	TokenRange=203:205
+35	se	_	PRON	PRON	_	36	obj	_	TokenRange=206:208
+36	defender	defender	VERB	VERB	_	7	conj	_	TokenRange=209:217
+37	em	em	ADP	ADP	_	38	case	_	TokenRange=218:220
+38	casos	caso	NOUN	NOUN	_	36	nmod	_	TokenRange=221:226
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=227:229
+40	biopirataria	biopirataria	NOUN	NOUN	_	38	nmod	_	TokenRange=230:242
+41	se	_	CCONJ	CONJ	_	43	mark	_	TokenRange=243:245
+42	nao	nao	ADV	ADV	Polarity=Neg	43	advmod	_	TokenRange=246:249
+43	ratificar	ratificar	VERB	VERB	_	36	advcl	_	TokenRange=250:259
+44	um	um	DET	DET	_	45	det	_	TokenRange=260:262
+45	acordo	acordo	NOUN	NOUN	_	43	obj	_	TokenRange=263:269
+46	internacional	internacional	ADJ	ADJ	_	45	amod	_	TokenRange=270:283
+47	que	_	PRON	PRON	_	50	obj	_	TokenRange=284:287
+48	ele	_	PRON	PRON	_	50	nsubj	_	TokenRange=288:291
+49	mesmo	mesmo	ADJ	ADJ	_	48	amod	_	TokenRange=292:297
+50	ajudou	ajudar	VERB	VERB	_	45	acl:relcl	_	TokenRange=298:304
+51	a	_	ADP	ADP	_	52	mark	_	TokenRange=305:306
+52	construir	construir	VERB	VERB	_	50	nmod	_	TokenRange=307:316
+53	o	o	DET	DET	_	54	det	_	TokenRange=317:318
+54	prognostico	prognostico	NOUN	NOUN	_	52	obj	_	TokenRange=319:330
+55	foi	_	AUX	AUX	_	56	aux:pass	_	TokenRange=331:334
+56	feito	_	VERB	VERB	_	45	acl:relcl	_	TokenRange=335:340
+57-58	pelo	_	_	_	_	_	_	_	TokenRange=341:345
+57	por	por	ADP	ADP	_	59	case	_	_
+58	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	brasileiro	brasileiro	NOUN	NOUN	_	56	nmod	_	TokenRange=346:356
+60	braulio	braulio	ADJ	ADJ	_	59	amod	_	TokenRange=357:364
+61	dias	dia	NOUN	NOUN	_	59	appos	_	TokenRange=365:369
+62	secretario	secretario	NOUN	NOUN	_	59	appos	_	TokenRange=370:380
+63	executivo	executivo	ADJ	ADJ	_	62	amod	_	TokenRange=381:390
+64-65	da	_	_	_	_	_	_	_	TokenRange=391:393
+64	de	de	ADP	ADP	_	66	case	_	_
+65	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	convencao	convencao	NOUN	NOUN	_	62	nmod	_	TokenRange=394:403
+67	de	de	ADP	ADP	_	68	case	_	TokenRange=404:406
+68	diversidade	diversidade	NOUN	NOUN	_	66	nmod	_	TokenRange=407:418
+69	biologica	biologico	ADJ	ADJ	_	68	amod	_	TokenRange=419:428
+70	cdb	cdb	NOUN	NOUN	_	66	appos	_	TokenRange=429:432
+71-72	das	_	_	_	_	_	_	_	TokenRange=433:436
+71	de	de	ADP	ADP	_	73	case	_	_
+72	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	73	det	_	_
+73	nacoes	nacoe	NOUN	NOUN	_	66	nmod	_	TokenRange=437:443
+74	unidas	unido	ADJ	ADJ	_	73	amod	_	TokenRange=444:450
+75	sobre	_	ADP	ADP	_	62	case	_	SpacesAfter=\s\s|TokenRange=451:456
+

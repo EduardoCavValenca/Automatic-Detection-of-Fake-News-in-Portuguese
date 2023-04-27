@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula desembarca no rj e e hostilizado pela populacao hospede surpreende lula dentro de hotel e ai ladrao sob gritos de lula ladrao seu lugar e na prisao o expresidente desembarcou no aeroporto do rio de janeiro na ultima quintafeira o petista nao se incomodou com os elogios e ainda colocou um sorriso amarelado na cara pois e lula queria a justica das ruas e esta tendo leia tambem
+1	lula	lula	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:4
+2	desembarca	desembarcar	VERB	VERB	_	0	root	_	TokenRange=5:15
+3-4	no	_	_	_	_	_	_	_	TokenRange=16:18
+3	em	em	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	rj	rj	NOUN	NOUN	_	2	nmod	_	TokenRange=19:21
+6	e	e	CCONJ	CONJ	_	13	cc	_	TokenRange=22:23
+7	e	e	CCONJ	CONJ	_	8	cc	_	TokenRange=24:25
+8	hostilizado	hostilizar	VERB	VERB	_	2	conj	_	TokenRange=26:37
+9-10	pela	_	_	_	_	_	_	_	TokenRange=38:42
+9	por	por	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	populacao	populacao	NOUN	NOUN	_	8	nmod	_	TokenRange=43:52
+12	hospede	hospede	NOUN	NOUN	_	11	flat	_	TokenRange=53:60
+13	surpreende	surpreender	VERB	VERB	_	2	conj	_	TokenRange=61:71
+14	lula	lula	NOUN	NOUN	_	13	obj	_	TokenRange=72:76
+15	dentro	dentro	ADV	ADV	_	13	advmod	_	TokenRange=77:83
+16	de	de	ADP	ADP	_	17	case	_	TokenRange=84:86
+17	hotel	hotel	NOUN	NOUN	_	15	nmod	_	TokenRange=87:92
+18	e	e	CCONJ	CONJ	_	20	cc	_	TokenRange=93:94
+19	ai	_	ADV	ADV	_	20	advmod	_	TokenRange=95:97
+20	ladrao	ladraar	VERB	VERB	_	13	conj	_	TokenRange=98:104
+21	sob	_	ADP	ADP	_	22	case	_	TokenRange=105:108
+22	gritos	grito	NOUN	NOUN	_	20	nmod	_	TokenRange=109:115
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=116:118
+24	lula	lula	NOUN	NOUN	_	22	nmod	_	TokenRange=119:123
+25	ladrao	_	VERB	VERB	_	20	conj	_	TokenRange=124:130
+26	seu	_	DET	DET	_	27	det:poss	_	TokenRange=131:134
+27	lugar	lugar	NOUN	NOUN	_	25	obj	_	TokenRange=135:140
+28	e	e	CCONJ	CONJ	_	34	cc	_	TokenRange=141:142
+29-30	na	_	_	_	_	_	_	_	TokenRange=143:145
+29	em	em	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	prisao	prisao	NOUN	NOUN	_	34	nmod	_	TokenRange=146:152
+32	o	o	DET	DET	_	33	det	_	TokenRange=153:154
+33	expresidente	expresidente	NOUN	NOUN	_	34	nsubj	_	TokenRange=155:167
+34	desembarcou	desembarcar	VERB	VERB	_	20	conj	_	TokenRange=168:179
+35-36	no	_	_	_	_	_	_	_	TokenRange=180:182
+35	em	em	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	aeroporto	aeroporto	NOUN	NOUN	_	34	nmod	_	TokenRange=183:192
+38-39	do	_	_	_	_	_	_	_	TokenRange=193:195
+38	de	de	ADP	ADP	_	40	case	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	rio	_	PROPN	PNOUN	_	37	nmod	_	TokenRange=196:199
+41	de	de	ADP	ADP	_	42	case	_	TokenRange=200:202
+42	janeiro	_	PROPN	PNOUN	_	40	nmod	_	TokenRange=203:210
+43-44	na	_	_	_	_	_	_	_	TokenRange=211:213
+43	em	em	ADP	ADP	_	46	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+45	ultima	_	ADJ	ADJ	_	46	amod	_	TokenRange=214:220
+46	quintafeira	_	NOUN	NOUN	_	34	nmod	_	TokenRange=221:232
+47	o	o	DET	DET	_	48	det	_	TokenRange=233:234
+48	petista	petista	NOUN	NOUN	_	51	nsubj	_	TokenRange=235:242
+49	nao	nao	ADV	ADV	Polarity=Neg	51	advmod	_	TokenRange=243:246
+50	se	_	PRON	PRON	_	51	obj	_	TokenRange=247:249
+51	incomodou	incomodar	VERB	VERB	_	2	conj	_	TokenRange=250:259
+52	com	com	ADP	ADP	_	54	case	_	TokenRange=260:263
+53	os	o	DET	DET	_	54	det	_	TokenRange=264:266
+54	elogios	elogio	NOUN	NOUN	_	51	nmod	_	TokenRange=267:274
+55	e	e	CCONJ	CONJ	_	57	cc	_	TokenRange=275:276
+56	ainda	ainda	ADV	ADV	_	57	advmod	_	TokenRange=277:282
+57	colocou	colocar	VERB	VERB	_	51	conj	_	TokenRange=283:290
+58	um	um	DET	DET	_	59	det	_	TokenRange=291:293
+59	sorriso	sorriso	NOUN	NOUN	_	57	obj	_	TokenRange=294:301
+60	amarelado	amarelado	ADJ	ADJ	_	59	amod	_	TokenRange=302:311
+61-62	na	_	_	_	_	_	_	_	TokenRange=312:314
+61	em	em	ADP	ADP	_	63	case	_	_
+62	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	cara	cara	NOUN	NOUN	_	57	nmod	_	TokenRange=315:319
+64	pois	_	CCONJ	CONJ	_	67	mark	_	TokenRange=320:324
+65	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=325:326
+66	lula	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=327:331
+67	queria	querer	VERB	VERB	_	57	conj	_	TokenRange=332:338
+68	a	o	DET	DET	_	69	det	_	TokenRange=339:340
+69	justica	_	NOUN	NOUN	_	67	obj	_	TokenRange=341:348
+70-71	das	_	_	_	_	_	_	_	TokenRange=349:352
+70	de	de	ADP	ADP	_	72	case	_	_
+71	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	72	det	_	_
+72	ruas	rua	NOUN	NOUN	_	69	nmod	_	TokenRange=353:357
+73	e	e	CCONJ	CONJ	_	75	cc	_	TokenRange=358:359
+74	esta	_	PRON	PRON	_	75	nsubj	_	TokenRange=360:364
+75	tendo	_	AUX	AUX	_	67	conj	_	TokenRange=365:370
+76	leia	ler	NOUN	NOUN	_	75	obj	_	TokenRange=371:375
+77	tambem	tambem	ADV	ADV	_	75	advmod	_	TokenRange=376:382
+

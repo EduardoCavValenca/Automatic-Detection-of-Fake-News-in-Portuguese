@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma nao fara pronunciamento a nacao hoje quanta falta de responsabilidade a presidente nao tem coragem de enfrentar a derrota como todo petista ela nao aceita que perdeu a coluna radar da veja informou que jaques wagner e jose eduardo cardozo farao um pronunciamento quando acabar a votacao da camara dilma so ira falar na segundafeira provavelmente ira pedir para o marqueteiro do pt que esta preso fazer o seu discurso
+1	dilma	dilma	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	nao	nao	ADV	ADV	Polarity=Neg	3	advmod	_	TokenRange=6:9
+3	fara	_	VERB	VERB	_	0	root	_	TokenRange=10:14
+4	pronunciamento	pronunciamento	NOUN	NOUN	_	3	obj	_	TokenRange=15:29
+5	a	_	ADP	ADP	_	6	case	_	TokenRange=30:31
+6	nacao	nacao	NOUN	NOUN	_	3	nmod	_	TokenRange=32:37
+7	hoje	hoje	ADV	ADV	_	3	advmod	_	TokenRange=38:42
+8	quanta	_	DET	DET	_	9	det	_	TokenRange=43:49
+9	falta	_	NOUN	NOUN	_	3	parataxis	_	TokenRange=50:55
+10	de	de	ADP	ADP	_	11	case	_	TokenRange=56:58
+11	responsabilidade	responsabilidade	NOUN	NOUN	_	9	nmod	_	TokenRange=59:75
+12	a	o	DET	DET	_	13	det	_	TokenRange=76:77
+13	presidente	presidente	NOUN	NOUN	_	15	nsubj	_	TokenRange=78:88
+14	nao	nao	ADV	ADV	Polarity=Neg	15	advmod	_	TokenRange=89:92
+15	tem	ter	VERB	VERB	_	3	parataxis	_	TokenRange=93:96
+16	coragem	coragem	NOUN	NOUN	_	15	obj	_	TokenRange=97:104
+17	de	_	ADP	ADP	_	18	mark	_	TokenRange=105:107
+18	enfrentar	enfrentar	VERB	VERB	_	16	nmod	_	TokenRange=108:117
+19	a	o	DET	DET	_	20	det	_	TokenRange=118:119
+20	derrota	derrota	NOUN	NOUN	_	18	obj	_	TokenRange=120:127
+21	como	como	ADP	ADP	_	23	case	_	TokenRange=128:132
+22	todo	_	DET	DET	_	23	det	_	TokenRange=133:137
+23	petista	petista	NOUN	NOUN	_	18	nmod	_	TokenRange=138:145
+24	ela	_	PRON	PRON	_	26	nsubj	_	TokenRange=146:149
+25	nao	nao	ADV	ADV	Polarity=Neg	26	advmod	_	TokenRange=150:153
+26	aceita	aceitar	VERB	VERB	_	15	conj	_	TokenRange=154:160
+27	que	que	CCONJ	CONJ	_	28	mark	_	TokenRange=161:164
+28	perdeu	perder	VERB	VERB	_	26	ccomp	_	TokenRange=165:171
+29	a	o	DET	DET	_	30	det	_	TokenRange=172:173
+30	coluna	coluna	NOUN	NOUN	_	28	obj	_	TokenRange=174:180
+31	radar	radar	NOUN	NOUN	_	30	appos	_	TokenRange=181:186
+32-33	da	_	_	_	_	_	_	_	TokenRange=187:189
+32	de	de	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	veja	veja	NOUN	NOUN	_	30	nmod	_	TokenRange=190:194
+35	informou	informar	VERB	VERB	_	26	conj	_	TokenRange=195:203
+36	que	que	CCONJ	CONJ	_	43	mark	_	TokenRange=204:207
+37	jaques	jaque	NOUN	NOUN	_	43	nsubj	_	TokenRange=208:214
+38	wagner	_	PROPN	PNOUN	_	37	flat	_	TokenRange=215:221
+39	e	e	CCONJ	CONJ	_	40	cc	_	TokenRange=222:223
+40	jose	jose	NOUN	NOUN	_	37	conj	_	TokenRange=224:228
+41	eduardo	eduardo	ADJ	ADJ	_	40	amod	_	TokenRange=229:236
+42	cardozo	cardozo	NOUN	NOUN	_	40	flat	_	TokenRange=237:244
+43	farao	fazer	VERB	VERB	_	35	ccomp	_	TokenRange=245:250
+44	um	um	DET	DET	_	45	det	_	TokenRange=251:253
+45	pronunciamento	pronunciamento	NOUN	NOUN	_	43	obj	_	TokenRange=254:268
+46	quando	_	CCONJ	CONJ	_	47	mark	_	TokenRange=269:275
+47	acabar	acabar	VERB	VERB	_	43	advcl	_	TokenRange=276:282
+48	a	o	DET	DET	_	49	det	_	TokenRange=283:284
+49	votacao	votacao	NOUN	NOUN	_	47	nsubj	_	TokenRange=285:292
+50-51	da	_	_	_	_	_	_	_	TokenRange=293:295
+50	de	de	ADP	ADP	_	52	case	_	_
+51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	camara	camara	NOUN	NOUN	_	49	nmod	_	TokenRange=296:302
+53	dilma	dilma	NOUN	NOUN	_	56	nsubj	_	TokenRange=303:308
+54	so	so	ADV	ADV	_	56	advmod	_	TokenRange=309:311
+55	ira	_	AUX	AUX	_	56	aux	_	TokenRange=312:315
+56	falar	falar	VERB	VERB	_	43	conj	_	TokenRange=316:321
+57-58	na	_	_	_	_	_	_	_	TokenRange=322:324
+57	em	em	ADP	ADP	_	59	case	_	_
+58	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	segundafeira	segundafeira	NOUN	NOUN	_	56	nmod	_	TokenRange=325:337
+60	provavelmente	provavelmente	ADV	ADV	_	62	advmod	_	TokenRange=338:351
+61	ira	_	AUX	AUX	_	62	aux	_	TokenRange=352:355
+62	pedir	pedir	VERB	VERB	_	56	parataxis	_	TokenRange=356:361
+63	para	para	ADP	ADP	_	65	case	_	TokenRange=362:366
+64	o	o	DET	DET	_	65	det	_	TokenRange=367:368
+65	marqueteiro	marqueteiro	NOUN	NOUN	_	62	nmod	_	TokenRange=369:380
+66-67	do	_	_	_	_	_	_	_	TokenRange=381:383
+66	de	de	ADP	ADP	_	68	case	_	_
+67	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+68	pt	pt	NOUN	NOUN	_	65	nmod	_	TokenRange=384:386
+69	que	que	PRON	PRON	_	70	mark	_	TokenRange=387:390
+70	esta	_	VERB	VERB	_	62	ccomp	_	TokenRange=391:395
+71	preso	preso	ADJ	ADJ	_	70	xcomp	_	TokenRange=396:401
+72	fazer	fazer	VERB	VERB	_	70	csubj	_	TokenRange=402:407
+73	o	o	DET	DET	_	75	det	_	TokenRange=408:409
+74	seu	_	DET	DET	_	75	det:poss	_	TokenRange=410:413
+75	discurso	discurso	NOUN	NOUN	_	72	obj	_	TokenRange=414:422
+

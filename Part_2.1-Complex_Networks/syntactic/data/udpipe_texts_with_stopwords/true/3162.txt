@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o conselho pleno da ordem dos advogados do brasil decidiu nesta tercafeira 7 que a entidade maxima da advocacia vai requerer ao supremo tribunal federal stf o levantamento do sigilo da delacao do expresidente da transpetro sergio machado pivo do pedido de prisao do presidente
+1	o	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	conselho	conselho	NOUN	NOUN	_	13	nsubj	_	TokenRange=2:10
+3	pleno	pleno	ADJ	ADJ	_	2	amod	_	TokenRange=11:16
+4-5	da	_	_	_	_	_	_	_	TokenRange=17:19
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ordem	ordem	NOUN	NOUN	_	2	nmod	_	TokenRange=20:25
+7-8	dos	_	_	_	_	_	_	_	TokenRange=26:29
+7	de	de	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	advogados	advogado	NOUN	NOUN	_	6	nmod	_	TokenRange=30:39
+10-11	do	_	_	_	_	_	_	_	TokenRange=40:42
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	brasil	brasil	NOUN	NOUN	_	6	nmod	_	TokenRange=43:49
+13	decidiu	decidir	VERB	VERB	_	0	root	_	TokenRange=50:57
+14	nesta	_	ADP	ADP	_	15	case	_	TokenRange=58:63
+15	tercafeira	_	NOUN	NOUN	_	13	nmod	_	TokenRange=64:74
+16	7	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=75:76
+17	que	que	CCONJ	CONJ	_	25	mark	_	TokenRange=77:80
+18	a	o	DET	DET	_	19	det	_	TokenRange=81:82
+19	entidade	entidade	NOUN	NOUN	_	25	nsubj	_	TokenRange=83:91
+20	maxima	maximo	ADJ	ADJ	_	19	amod	_	TokenRange=92:98
+21-22	da	_	_	_	_	_	_	_	TokenRange=99:101
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	advocacia	advocacia	NOUN	NOUN	_	19	nmod	_	TokenRange=102:111
+24	vai	ir	AUX	AUX	_	25	aux	_	TokenRange=112:115
+25	requerer	requerer	VERB	VERB	_	13	ccomp	_	TokenRange=116:124
+26-27	ao	_	_	_	_	_	_	_	TokenRange=125:127
+26	a	a	ADP	ADP	_	29	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	supremo	supremo	ADJ	ADJ	_	29	amod	_	TokenRange=128:135
+29	tribunal	tribunal	NOUN	NOUN	_	25	iobj	_	TokenRange=136:144
+30	federal	federal	ADJ	ADJ	_	29	amod	_	TokenRange=145:152
+31	stf	_	NOUN	NOUN	_	25	obj	_	TokenRange=153:156
+32	o	o	DET	DET	_	33	det	_	TokenRange=157:158
+33	levantamento	levantamento	NOUN	NOUN	_	25	obj	_	TokenRange=159:171
+34-35	do	_	_	_	_	_	_	_	TokenRange=172:174
+34	de	de	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	sigilo	sigilo	NOUN	NOUN	_	33	nmod	_	TokenRange=175:181
+37-38	da	_	_	_	_	_	_	_	TokenRange=182:184
+37	de	de	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	delacao	delacao	NOUN	NOUN	_	36	nmod	_	TokenRange=185:192
+40-41	do	_	_	_	_	_	_	_	TokenRange=193:195
+40	de	de	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	expresidente	expresidente	NOUN	NOUN	_	39	nmod	_	TokenRange=196:208
+43-44	da	_	_	_	_	_	_	_	TokenRange=209:211
+43	de	de	ADP	ADP	_	45	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	transpetro	transpetro	NOUN	NOUN	_	42	nmod	_	TokenRange=212:222
+46	sergio	sergio	NOUN	NOUN	_	42	appos	_	TokenRange=223:229
+47	machado	machado	NOUN	NOUN	_	46	flat	_	TokenRange=230:237
+48	pivo	pivo	NOUN	NOUN	_	46	flat	_	TokenRange=238:242
+49-50	do	_	_	_	_	_	_	_	TokenRange=243:245
+49	de	de	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	pedido	pedido	NOUN	NOUN	_	48	nmod	_	TokenRange=246:252
+52	de	de	ADP	ADP	_	53	case	_	TokenRange=253:255
+53	prisao	prisao	NOUN	NOUN	_	51	nmod	_	TokenRange=256:262
+54-55	do	_	_	_	_	_	_	_	TokenRange=263:265
+54	de	de	ADP	ADP	_	56	case	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	presidente	presidente	NOUN	NOUN	_	53	nmod	_	SpacesAfter=\s\s|TokenRange=266:276
+

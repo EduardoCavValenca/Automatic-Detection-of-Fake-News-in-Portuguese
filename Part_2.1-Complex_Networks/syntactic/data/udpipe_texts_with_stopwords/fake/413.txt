@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exdiretor da petrobras conta os podres do governo pt e diz que tem medo de morrer uma coletanea dos depoimentos do exdiretor da petrobras paulo roberto costa de tirar o folego de qualquer brasileiro veja algumas frases colhidas em depoimentos da operacao lavajato em 2020 a situacao da petrobras vai estar caotica tecnicamente falando a petrobras ja e uma empresa quebrada video via tv folha
+1	exdiretor	exdiretor	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:9
+2-3	da	_	_	_	_	_	_	_	TokenRange=10:12
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	petrobras	petrobra	NOUN	NOUN	_	1	nmod	_	TokenRange=13:22
+5	conta	contar	VERB	VERB	_	0	root	_	TokenRange=23:28
+6	os	o	DET	DET	_	7	det	_	TokenRange=29:31
+7	podres	podre	NOUN	NOUN	_	5	obj	_	TokenRange=32:38
+8-9	do	_	_	_	_	_	_	_	TokenRange=39:41
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	NOUN	_	7	nmod	_	TokenRange=42:49
+11	pt	pt	NOUN	NOUN	_	10	appos	_	TokenRange=50:52
+12	e	e	CCONJ	CONJ	_	13	cc	_	TokenRange=53:54
+13	diz	dizer	VERB	VERB	_	5	conj	_	TokenRange=55:58
+14	que	que	CCONJ	CONJ	_	15	mark	_	TokenRange=59:62
+15	tem	ter	VERB	VERB	_	13	ccomp	_	TokenRange=63:66
+16	medo	medo	NOUN	NOUN	_	15	obj	_	TokenRange=67:71
+17	de	_	ADP	ADP	_	18	mark	_	TokenRange=72:74
+18	morrer	morrer	VERB	VERB	_	16	nmod	_	TokenRange=75:81
+19	uma	um	DET	DET	_	20	det	_	TokenRange=82:85
+20	coletanea	coletanea	NOUN	NOUN	_	18	obj	_	TokenRange=86:95
+21-22	dos	_	_	_	_	_	_	_	TokenRange=96:99
+21	de	de	ADP	ADP	_	23	case	_	_
+22	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	depoimentos	depoimento	NOUN	NOUN	_	20	nmod	_	TokenRange=100:111
+24-25	do	_	_	_	_	_	_	_	TokenRange=112:114
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	exdiretor	exdiretor	NOUN	NOUN	_	23	nmod	_	TokenRange=115:124
+27-28	da	_	_	_	_	_	_	_	TokenRange=125:127
+27	de	de	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	petrobras	petrobra	NOUN	NOUN	_	26	nmod	_	TokenRange=128:137
+30	paulo	paulo	NOUN	NOUN	_	23	appos	_	TokenRange=138:143
+31	roberto	roberto	NOUN	NOUN	_	30	flat	_	TokenRange=144:151
+32	costa	costa	NOUN	NOUN	_	30	flat	_	TokenRange=152:157
+33	de	_	ADP	ADP	_	34	mark	_	TokenRange=158:160
+34	tirar	tirar	VERB	VERB	_	23	nmod	_	TokenRange=161:166
+35	o	o	DET	DET	_	36	det	_	TokenRange=167:168
+36	folego	folego	NOUN	NOUN	_	34	obj	_	TokenRange=169:175
+37	de	de	ADP	ADP	_	39	case	_	TokenRange=176:178
+38	qualquer	_	DET	DET	_	39	det	_	TokenRange=179:187
+39	brasileiro	brasileiro	NOUN	NOUN	_	34	nmod	_	TokenRange=188:198
+40	veja	ver	VERB	VERB	_	5	parataxis	_	TokenRange=199:203
+41	algumas	_	DET	DET	_	42	det	_	TokenRange=204:211
+42	frases	frase	NOUN	NOUN	_	40	obj	_	TokenRange=212:218
+43	colhidas	colher	VERB	VERB	_	42	acl	_	TokenRange=219:227
+44	em	em	ADP	ADP	_	45	case	_	TokenRange=228:230
+45	depoimentos	depoimento	NOUN	NOUN	_	43	nmod	_	TokenRange=231:242
+46-47	da	_	_	_	_	_	_	_	TokenRange=243:245
+46	de	de	ADP	ADP	_	48	case	_	_
+47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	operacao	operacao	NOUN	NOUN	_	45	nmod	_	TokenRange=246:254
+49	lavajato	lavajato	NOUN	NOUN	_	48	flat	_	TokenRange=255:263
+50	em	em	ADP	ADP	_	51	case	_	TokenRange=264:266
+51	2020	_	NUM	NUM	NumType=Card	43	nmod	_	TokenRange=267:271
+52	a	o	DET	DET	_	53	det	_	TokenRange=272:273
+53	situacao	situacao	NOUN	NOUN	_	58	nsubj	_	TokenRange=274:282
+54-55	da	_	_	_	_	_	_	_	TokenRange=283:285
+54	de	de	ADP	ADP	_	56	case	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	petrobras	petrobra	NOUN	NOUN	_	53	nmod	_	TokenRange=286:295
+57	vai	ir	AUX	AUX	_	58	aux	_	TokenRange=296:299
+58	estar	estar	VERB	VERB	_	40	parataxis	_	TokenRange=300:305
+59	caotica	caotico	ADJ	ADJ	_	58	xcomp	_	TokenRange=306:313
+60	tecnicamente	tecnicamente	ADV	ADV	_	61	advmod	_	TokenRange=314:326
+61	falando	falar	VERB	VERB	_	58	acl	_	TokenRange=327:334
+62	a	o	DET	DET	_	63	det	_	TokenRange=335:336
+63	petrobras	petrobra	NOUN	NOUN	_	61	nsubj	_	TokenRange=337:346
+64	ja	ja	ADV	ADV	_	67	advmod	_	TokenRange=347:349
+65	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=350:351
+66	uma	um	DET	DET	_	67	det	_	TokenRange=352:355
+67	empresa	empresa	NOUN	NOUN	_	61	conj	_	TokenRange=356:363
+68	quebrada	quebrado	ADJ	ADJ	_	67	amod	_	TokenRange=364:372
+69	video	video	NOUN	NOUN	_	61	obj	_	TokenRange=373:378
+70	via	_	ADP	ADP	_	71	case	_	TokenRange=379:382
+71	tv	tv	NOUN	NOUN	_	69	nmod	_	TokenRange=383:385
+72	folha	folha	NOUN	NOUN	_	71	flat	_	SpacesAfter=\s\s|TokenRange=386:391
+

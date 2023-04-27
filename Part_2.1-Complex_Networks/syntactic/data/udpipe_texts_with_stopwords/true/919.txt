@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cantor victor chaves e indiciado pela policia civil de minas gerais ele e suspeito de agredir a mulher poliana bagatini chaves que esta gravida em depoimento victor negou a agressao o cantor victor chaves da dupla victor leo foi indiciado sob suspeita de agressao contra a mulher dele poliana bagatini chaves de acordo com
+1	cantor	cantor	NOUN	NOUN	_	29	nsubj	_	TokenRange=0:6
+2	victor	_	NOUN	NOUN	_	1	appos	_	TokenRange=7:13
+3	chaves	chave	NOUN	NOUN	_	2	flat	_	TokenRange=14:20
+4	e	_	CCONJ	CONJ	_	5	cc	_	TokenRange=21:22
+5	indiciado	indiciar	VERB	VERB	_	1	conj	_	TokenRange=23:32
+6-7	pela	_	_	_	_	_	_	_	TokenRange=33:37
+6	por	por	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	policia	policia	NOUN	NOUN	_	5	nmod	_	TokenRange=38:45
+9	civil	civil	ADJ	ADJ	_	8	amod	_	TokenRange=46:51
+10	de	de	ADP	ADP	_	11	case	_	TokenRange=52:54
+11	minas	mina	NOUN	NOUN	_	8	nmod	_	TokenRange=55:60
+12	gerais	geral	ADJ	ADJ	_	11	amod	_	TokenRange=61:67
+13	ele	_	PRON	PRON	_	5	nsubj:pass	_	TokenRange=68:71
+14	e	_	CCONJ	CONJ	_	15	cc	_	TokenRange=72:73
+15	suspeito	suspeito	ADJ	ADJ	_	1	conj	_	TokenRange=74:82
+16	de	_	ADP	ADP	_	17	mark	_	TokenRange=83:85
+17	agredir	agredir	VERB	VERB	_	15	nmod	_	TokenRange=86:93
+18	a	o	DET	DET	_	19	det	_	TokenRange=94:95
+19	mulher	mulher	NOUN	NOUN	_	17	obj	_	TokenRange=96:102
+20	poliana	_	NOUN	NOUN	_	19	appos	_	TokenRange=103:110
+21	bagatini	_	NOUN	NOUN	_	20	flat	_	TokenRange=111:119
+22	chaves	chave	NOUN	NOUN	_	20	flat	_	TokenRange=120:126
+23	que	_	PRON	PRON	_	24	nsubj	_	TokenRange=127:130
+24	esta	_	VERB	VERB	_	19	acl:relcl	_	TokenRange=131:135
+25	gravida	gravido	ADJ	ADJ	_	24	xcomp	_	TokenRange=136:143
+26	em	em	ADP	ADP	_	27	case	_	TokenRange=144:146
+27	depoimento	depoimento	NOUN	NOUN	_	25	nmod	_	TokenRange=147:157
+28	victor	victor	ADJ	ADJ	_	29	nsubj	_	TokenRange=158:164
+29	negou	negar	VERB	VERB	_	0	root	_	TokenRange=165:170
+30	a	o	DET	DET	_	31	det	_	TokenRange=171:172
+31	agressao	agressao	NOUN	NOUN	_	29	obj	_	TokenRange=173:181
+32	o	o	DET	DET	_	33	det	_	TokenRange=182:183
+33	cantor	cantor	NOUN	NOUN	_	42	nsubj:pass	_	TokenRange=184:190
+34	victor	_	NOUN	NOUN	_	33	appos	_	TokenRange=191:197
+35	chaves	chave	NOUN	NOUN	_	34	flat	_	TokenRange=198:204
+36-37	da	_	_	_	_	_	_	_	TokenRange=205:207
+36	de	de	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	dupla	_	NOUN	NOUN	_	33	nmod	_	TokenRange=208:213
+39	victor	victor	NOUN	NOUN	_	38	appos	_	TokenRange=214:220
+40	leo	_	NOUN	NOUN	_	39	flat	_	TokenRange=221:224
+41	foi	_	AUX	AUX	_	42	aux:pass	_	TokenRange=225:228
+42	indiciado	indiciar	VERB	VERB	_	29	parataxis	_	TokenRange=229:238
+43	sob	_	ADP	ADP	_	44	case	_	TokenRange=239:242
+44	suspeita	_	NOUN	NOUN	_	42	nmod	_	TokenRange=243:251
+45	de	de	ADP	ADP	_	46	case	_	TokenRange=252:254
+46	agressao	agressao	NOUN	NOUN	_	44	nmod	_	TokenRange=255:263
+47	contra	_	ADP	ADP	_	49	case	_	TokenRange=264:270
+48	a	o	DET	DET	_	49	det	_	TokenRange=271:272
+49	mulher	mulher	NOUN	NOUN	_	46	nmod	_	TokenRange=273:279
+50	dele	_	X	ADPPRON	_	49	det:poss	_	TokenRange=280:284
+51	poliana	poliana	NOUN	NOUN	_	49	appos	_	TokenRange=285:292
+52	bagatini	_	NOUN	NOUN	_	51	flat	_	TokenRange=293:301
+53	chaves	chave	NOUN	NOUN	_	51	flat	_	TokenRange=302:308
+54	de	de	ADP	ADP	_	55	case	_	TokenRange=309:311
+55	acordo	acordo	NOUN	NOUN	_	42	nmod	_	TokenRange=312:318
+56	com	com	ADP	ADP	_	17	case	_	SpacesAfter=\s\s|TokenRange=319:322
+

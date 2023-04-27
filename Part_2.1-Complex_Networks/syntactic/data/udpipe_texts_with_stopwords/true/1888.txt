@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = indios venezuelanos se espalham pelo norte e autoridades suspeitam de exploracao por brasileiros ministerio publico suspeita que brasileiros estao se aproveitando de situacao precaria e vulneravel para explorar indios de etnia warao que migraram em buscam de melhores condicoes de vida um temporal atingia o centro de belem
+1	indios	indio	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	venezuelanos	venezuelano	ADJ	ADJ	_	1	amod	_	TokenRange=7:19
+3	se	_	PRON	PRON	_	4	obj	_	TokenRange=20:22
+4	espalham	espalhar	VERB	VERB	_	0	root	_	TokenRange=23:31
+5-6	pelo	_	_	_	_	_	_	_	TokenRange=32:36
+5	por	por	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	norte	norte	NOUN	NOUN	_	4	nmod	_	TokenRange=37:42
+8	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=43:44
+9	autoridades	autoridade	NOUN	NOUN	_	10	nsubj	_	TokenRange=45:56
+10	suspeitam	suspeitar	VERB	VERB	_	4	conj	_	TokenRange=57:66
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=67:69
+12	exploracao	exploracao	NOUN	NOUN	_	10	nmod	_	TokenRange=70:80
+13	por	por	ADP	ADP	_	14	case	_	TokenRange=81:84
+14	brasileiros	brasileiro	NOUN	NOUN	_	12	nmod	_	TokenRange=85:96
+15	ministerio	ministerio	NOUN	NOUN	_	17	nsubj	_	TokenRange=97:107
+16	publico	_	ADJ	ADJ	_	15	amod	_	TokenRange=108:115
+17	suspeita	suspeitar	VERB	VERB	_	4	parataxis	_	TokenRange=116:124
+18	que	que	CCONJ	CONJ	_	22	mark	_	TokenRange=125:128
+19	brasileiros	brasileiro	NOUN	NOUN	_	22	nsubj	_	TokenRange=129:140
+20	estao	_	AUX	AUX	_	22	aux	_	TokenRange=141:146
+21	se	_	PRON	PRON	_	22	obj	_	TokenRange=147:149
+22	aproveitando	aproveitar	VERB	VERB	_	17	ccomp	_	TokenRange=150:162
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=163:165
+24	situacao	situacao	NOUN	NOUN	_	22	nmod	_	TokenRange=166:174
+25	precaria	precario	ADJ	ADJ	_	24	amod	_	TokenRange=175:183
+26	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=184:185
+27	vulneravel	vulneravel	ADJ	ADJ	_	25	conj	_	TokenRange=186:196
+28	para	_	ADP	ADP	_	29	mark	_	TokenRange=197:201
+29	explorar	explorar	VERB	VERB	_	22	advcl	_	TokenRange=202:210
+30	indios	indio	NOUN	NOUN	_	29	obj	_	TokenRange=211:217
+31	de	de	ADP	ADP	_	32	case	_	TokenRange=218:220
+32	etnia	etnia	NOUN	NOUN	_	30	nmod	_	TokenRange=221:226
+33	warao	warao	NOUN	NOUN	_	32	flat	_	TokenRange=227:232
+34	que	_	PRON	PRON	_	35	nsubj	_	TokenRange=233:236
+35	migraram	migrar	VERB	VERB	_	30	acl:relcl	_	TokenRange=237:245
+36	em	_	ADP	ADP	_	37	mark	_	TokenRange=246:248
+37	buscam	buscar	VERB	VERB	_	35	nmod	_	TokenRange=249:255
+38	de	de	ADP	ADP	_	40	case	_	TokenRange=256:258
+39	melhores	melhor	ADJ	ADJ	_	40	amod	_	TokenRange=259:267
+40	condicoes	condicoe	NOUN	NOUN	_	37	nmod	_	TokenRange=268:277
+41	de	de	ADP	ADP	_	42	case	_	TokenRange=278:280
+42	vida	vida	NOUN	NOUN	_	40	nmod	_	TokenRange=281:285
+43	um	um	DET	DET	_	44	det	_	TokenRange=286:288
+44	temporal	temporal	NOUN	NOUN	_	45	nsubj	_	TokenRange=289:297
+45	atingia	atingir	VERB	VERB	_	17	ccomp	_	TokenRange=298:305
+46	o	o	DET	DET	_	47	det	_	TokenRange=306:307
+47	centro	centro	NOUN	NOUN	_	45	obj	_	TokenRange=308:314
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=315:317
+49	belem	_	NOUN	NOUN	_	47	nmod	_	SpacesAfter=\s\s|TokenRange=318:323
+

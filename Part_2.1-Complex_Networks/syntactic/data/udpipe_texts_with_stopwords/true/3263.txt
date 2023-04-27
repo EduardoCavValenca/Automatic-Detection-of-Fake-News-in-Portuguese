@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mutirao em mogi das cruzes leva multidao aos postos de saude neste sabado acao ocorre em ubs e unidades volantes ate as 17h o sabado 13 foi dia para quem mora em mogi das cruzes se vacinar contra a febre amarela a secretaria municipal de saude informou que ate as 13h foram imunizadas 9786 pessoas a meta era vacinar no sabado 15 mil
+1	mutirao	mutirao	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:7
+2	em	em	ADP	ADP	_	3	case	_	TokenRange=8:10
+3	mogi	_	NOUN	NOUN	_	1	nmod	_	TokenRange=11:15
+4-5	das	_	_	_	_	_	_	_	TokenRange=16:19
+4	de	de	ADP	ADP	_	6	case	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	cruzes	_	NOUN	NOUN	_	3	nmod	_	TokenRange=20:26
+7	leva	levar	VERB	VERB	_	0	root	_	TokenRange=27:31
+8	multidao	multidao	NOUN	NOUN	_	7	obj	_	TokenRange=32:40
+9-10	aos	_	_	_	_	_	_	_	TokenRange=41:44
+9	a	a	ADP	ADP	_	11	case	_	_
+10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	postos	posto	NOUN	NOUN	_	7	nmod	_	TokenRange=45:51
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=52:54
+13	saude	saude	NOUN	NOUN	_	11	nmod	_	TokenRange=55:60
+14	neste	_	ADP	ADP	_	15	case	_	TokenRange=61:66
+15	sabado	_	PROPN	PNOUN	_	7	nmod	_	TokenRange=67:73
+16	acao	acao	NOUN	NOUN	_	17	nsubj	_	TokenRange=74:78
+17	ocorre	ocorrer	VERB	VERB	_	7	parataxis	_	TokenRange=79:85
+18	em	em	ADP	ADP	_	19	case	_	TokenRange=86:88
+19	ubs	_	NOUN	NOUN	_	17	nmod	_	TokenRange=89:92
+20	e	e	CCONJ	CONJ	_	21	cc	_	TokenRange=93:94
+21	unidades	unidade	NOUN	NOUN	_	19	conj	_	TokenRange=95:103
+22	volantes	volante	ADJ	ADJ	_	21	amod	_	TokenRange=104:112
+23	ate	_	ADP	ADP	_	25	case	_	TokenRange=113:116
+24	as	o	DET	DET	_	25	det	_	TokenRange=117:119
+25	17h	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=120:123
+26	o	o	DET	DET	_	27	det	_	TokenRange=124:125
+27	sabado	sabado	NOUN	NOUN	_	17	nsubj	_	TokenRange=126:132
+28	13	_	NUM	NUM	NumType=Card	27	appos	_	TokenRange=133:135
+29	foi	_	AUX	AUX	_	30	cop	_	TokenRange=136:139
+30	dia	dia	NOUN	NOUN	_	7	parataxis	_	TokenRange=140:143
+31	para	_	ADP	ADP	_	33	mark	_	TokenRange=144:148
+32	quem	_	PRON	PRON	_	33	nsubj	_	TokenRange=149:153
+33	mora	morar	VERB	VERB	_	30	nmod	_	TokenRange=154:158
+34	em	em	ADP	ADP	_	35	case	_	TokenRange=159:161
+35	mogi	_	NOUN	NOUN	_	33	nmod	_	TokenRange=162:166
+36-37	das	_	_	_	_	_	_	_	TokenRange=167:170
+36	de	de	ADP	ADP	_	38	case	_	_
+37	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	cruzes	_	NOUN	NOUN	_	35	nmod	_	TokenRange=171:177
+39	se	_	PRON	PRON	_	40	obj	_	TokenRange=178:180
+40	vacinar	vacinar	VERB	VERB	_	30	nmod	_	TokenRange=181:188
+41	contra	_	ADP	ADP	_	43	case	_	TokenRange=189:195
+42	a	o	DET	DET	_	43	det	_	TokenRange=196:197
+43	febre	febre	NOUN	NOUN	_	40	nmod	_	TokenRange=198:203
+44	amarela	amarelo	ADJ	ADJ	_	43	amod	_	TokenRange=204:211
+45	a	o	DET	DET	_	46	det	_	TokenRange=212:213
+46	secretaria	secretaria	NOUN	NOUN	_	50	nsubj	_	TokenRange=214:224
+47	municipal	municipal	ADJ	ADJ	_	46	amod	_	TokenRange=225:234
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=235:237
+49	saude	saude	NOUN	NOUN	_	46	nmod	_	TokenRange=238:243
+50	informou	informar	VERB	VERB	_	7	parataxis	_	TokenRange=244:252
+51	que	que	CCONJ	CONJ	_	56	mark	_	TokenRange=253:256
+52	ate	_	ADP	ADP	_	54	case	_	TokenRange=257:260
+53	as	o	DET	DET	_	54	det	_	TokenRange=261:263
+54	13h	_	NUM	NUM	NumType=Card	56	nmod	_	TokenRange=264:267
+55	foram	_	AUX	AUX	_	56	aux:pass	_	TokenRange=268:273
+56	imunizadas	imunizar	VERB	VERB	_	50	ccomp	_	TokenRange=274:284
+57	9786	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=285:289
+58	pessoas	pessoa	NOUN	NOUN	_	56	nsubj:pass	_	TokenRange=290:297
+59	a	o	DET	DET	_	60	det	_	TokenRange=298:299
+60	meta	meta	NOUN	NOUN	_	50	ccomp	_	TokenRange=300:304
+61	era	_	AUX	AUX	_	60	cop	_	TokenRange=305:308
+62	vacinar	vacinar	VERB	VERB	_	60	csubj	_	TokenRange=309:316
+63-64	no	_	_	_	_	_	_	_	TokenRange=317:319
+63	em	em	ADP	ADP	_	65	case	_	_
+64	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	sabado	sabado	NOUN	NOUN	_	62	nmod	_	TokenRange=320:326
+66	15	_	NUM	NUM	NumType=Card	67	nummod	_	TokenRange=327:329
+67	mil	_	NUM	NUM	NumType=Card	65	nmod	_	SpacesAfter=\s\s|TokenRange=330:333
+

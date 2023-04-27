@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja como votou cada senador na sessao que derrubou afastamento de aecio por 44 votos a 26 senadores derrubaram decisao da primeira turma do supremo eram necessarios 41 votos com isso senador do psdb podera retomar mandato o senado derrubou nesta tercafeira 17 por 44 votos a 26 a decisao da primeira turma do supremo tribunal federal stf que havia determinado o
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	como	como	ADV	ADV	_	3	advmod	_	TokenRange=5:9
+3	votou	votar	VERB	VERB	_	1	ccomp	_	TokenRange=10:15
+4	cada	_	DET	DET	_	5	det	_	TokenRange=16:20
+5	senador	senador	NOUN	NOUN	_	3	nsubj	_	TokenRange=21:28
+6-7	na	_	_	_	_	_	_	_	TokenRange=29:31
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sessao	sessao	NOUN	NOUN	_	3	nmod	_	TokenRange=32:38
+9	que	_	PRON	PRON	_	10	nsubj	_	TokenRange=39:42
+10	derrubou	derrubar	VERB	VERB	_	8	acl:relcl	_	TokenRange=43:51
+11	afastamento	afastamento	NOUN	NOUN	_	10	obj	_	TokenRange=52:63
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=64:66
+13	aecio	aecio	NOUN	NOUN	_	11	nmod	_	TokenRange=67:72
+14	por	por	ADP	ADP	_	16	case	_	TokenRange=73:76
+15	44	_	NUM	NUM	NumType=Card	16	nummod	_	TokenRange=77:79
+16	votos	voto	NOUN	NOUN	_	10	nmod	_	TokenRange=80:85
+17	a	_	ADP	ADP	_	19	case	_	TokenRange=86:87
+18	26	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=88:90
+19	senadores	senador	NOUN	NOUN	_	16	nmod	_	TokenRange=91:100
+20	derrubaram	derrubar	VERB	VERB	_	1	ccomp	_	TokenRange=101:111
+21	decisao	decisao	NOUN	NOUN	_	20	obj	_	TokenRange=112:119
+22-23	da	_	_	_	_	_	_	_	TokenRange=120:122
+22	de	de	ADP	ADP	_	25	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	primeira	primeiro	ADJ	ADJ	_	25	amod	_	TokenRange=123:131
+25	turma	turma	NOUN	NOUN	_	21	nmod	_	TokenRange=132:137
+26-27	do	_	_	_	_	_	_	_	TokenRange=138:140
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	supremo	supremo	NOUN	NOUN	_	25	nmod	_	TokenRange=141:148
+29	eram	_	VERB	VERB	_	20	parataxis	_	TokenRange=149:153
+30	necessarios	necessario	ADJ	ADJ	_	29	xcomp	_	TokenRange=154:165
+31	41	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=166:168
+32	votos	voto	NOUN	NOUN	_	29	nsubj	_	TokenRange=169:174
+33	com	com	ADP	ADP	_	34	case	_	TokenRange=175:178
+34	isso	_	PRON	PRON	_	40	nmod	_	TokenRange=179:183
+35	senador	senador	NOUN	NOUN	_	40	nsubj	_	TokenRange=184:191
+36-37	do	_	_	_	_	_	_	_	TokenRange=192:194
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	psdb	_	NOUN	NOUN	_	35	nmod	_	TokenRange=195:199
+39	podera	_	AUX	AUX	_	40	aux	_	TokenRange=200:206
+40	retomar	retomar	VERB	VERB	_	29	csubj	_	TokenRange=207:214
+41	mandato	mandato	NOUN	NOUN	_	40	obj	_	TokenRange=215:222
+42	o	o	DET	DET	_	43	det	_	TokenRange=223:224
+43	senado	senado	NOUN	NOUN	_	44	nsubj	_	TokenRange=225:231
+44	derrubou	derrubar	VERB	VERB	_	1	ccomp	_	TokenRange=232:240
+45	nesta	_	ADP	ADP	_	46	case	_	TokenRange=241:246
+46	tercafeira	_	NOUN	NOUN	_	44	nmod	_	TokenRange=247:257
+47	17	_	NUM	NUM	NumType=Card	46	appos	_	TokenRange=258:260
+48	por	por	ADP	ADP	_	50	case	_	TokenRange=261:264
+49	44	_	NUM	NUM	NumType=Card	50	nummod	_	TokenRange=265:267
+50	votos	voto	NOUN	NOUN	_	44	nmod	_	TokenRange=268:273
+51	a	_	ADP	ADP	_	52	case	_	TokenRange=274:275
+52	26	_	NUM	NUM	NumType=Card	50	nmod	_	TokenRange=276:278
+53	a	o	DET	DET	_	54	det	_	TokenRange=279:280
+54	decisao	decisao	NOUN	NOUN	_	44	obj	_	TokenRange=281:288
+55-56	da	_	_	_	_	_	_	_	TokenRange=289:291
+55	de	de	ADP	ADP	_	58	case	_	_
+56	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+57	primeira	primeiro	ADJ	ADJ	_	58	amod	_	TokenRange=292:300
+58	turma	turma	NOUN	NOUN	_	54	nmod	_	TokenRange=301:306
+59-60	do	_	_	_	_	_	_	_	TokenRange=307:309
+59	de	de	ADP	ADP	_	62	case	_	_
+60	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+61	supremo	supremo	ADJ	ADJ	_	62	amod	_	TokenRange=310:317
+62	tribunal	tribunal	NOUN	NOUN	_	58	nmod	_	TokenRange=318:326
+63	federal	federal	ADJ	ADJ	_	62	amod	_	TokenRange=327:334
+64	stf	_	NOUN	NOUN	_	62	appos	_	TokenRange=335:338
+65	que	_	PRON	PRON	_	67	nsubj	_	TokenRange=339:342
+66	havia	haver	AUX	AUX	_	67	aux	_	TokenRange=343:348
+67	determinado	determinar	VERB	VERB	_	54	acl:relcl	_	TokenRange=349:360
+68	o	o	DET	DET	_	54	det	_	SpacesAfter=\s\s|TokenRange=361:362
+

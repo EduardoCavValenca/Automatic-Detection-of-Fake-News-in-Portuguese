@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = saiba quem sao os 44 senadores que votaram a favor de aecio neves aecio esta livre leve e solto e podera retomar o mandato alem de escapar do recolhimento noturno determinado pela primeira turma do stf na verdade tudo nao passou de um grande acordo nacional com stf com senado com tudo foram 44 votos favoraveis ao senador e 26 contrarios
+1	saiba	saber	VERB	VERB	_	0	root	_	TokenRange=0:5
+2	quem	_	PRON	PRON	_	15	nsubj	_	TokenRange=6:10
+3	sao	_	AUX	AUX	_	2	cop	_	TokenRange=11:14
+4	os	o	DET	DET	_	6	det	_	TokenRange=15:17
+5	44	_	NUM	NUM	NumType=Card	6	nummod	_	TokenRange=18:20
+6	senadores	senador	NOUN	NOUN	_	15	nsubj	_	TokenRange=21:30
+7	que	_	PRON	PRON	_	8	nsubj	_	TokenRange=31:34
+8	votaram	votar	VERB	VERB	_	6	acl:relcl	_	TokenRange=35:42
+9	a	_	ADP	ADP	_	10	case	_	TokenRange=43:44
+10	favor	favor	NOUN	NOUN	_	8	nmod	_	TokenRange=45:50
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=51:53
+12	aecio	aecio	NOUN	NOUN	_	10	nmod	_	TokenRange=54:59
+13	neves	neve	NOUN	NOUN	_	12	flat	_	TokenRange=60:65
+14	aecio	_	NOUN	NOUN	_	15	nsubj	_	TokenRange=66:71
+15	esta	_	VERB	VERB	_	1	ccomp	_	TokenRange=72:76
+16	livre	livre	ADJ	ADJ	_	15	xcomp	_	TokenRange=77:82
+17	leve	leve	ADJ	ADJ	_	15	xcomp	_	TokenRange=83:87
+18	e	e	CCONJ	CONJ	_	19	cc	_	TokenRange=88:89
+19	solto	solto	ADJ	ADJ	_	17	conj	_	TokenRange=90:95
+20	e	e	CCONJ	CONJ	_	22	cc	_	TokenRange=96:97
+21	podera	poder	AUX	AUX	_	22	aux	_	TokenRange=98:104
+22	retomar	retomar	VERB	VERB	_	15	conj	_	TokenRange=105:112
+23	o	o	DET	DET	_	24	det	_	TokenRange=113:114
+24	mandato	mandato	NOUN	NOUN	_	22	obj	_	TokenRange=115:122
+25	alem	alem	ADV	ADV	_	22	advmod	_	TokenRange=123:127
+26	de	_	ADP	ADP	_	27	mark	_	TokenRange=128:130
+27	escapar	escapar	VERB	VERB	_	25	nmod	_	TokenRange=131:138
+28-29	do	_	_	_	_	_	_	_	TokenRange=139:141
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	recolhimento	recolhimento	NOUN	NOUN	_	27	nmod	_	TokenRange=142:154
+31	noturno	noturno	ADJ	ADJ	_	30	amod	_	TokenRange=155:162
+32	determinado	determinar	VERB	VERB	_	30	acl	_	TokenRange=163:174
+33-34	pela	_	_	_	_	_	_	_	TokenRange=175:179
+33	por	por	ADP	ADP	_	36	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	primeira	primeiro	ADJ	ADJ	_	36	amod	_	TokenRange=180:188
+36	turma	turma	NOUN	NOUN	_	32	nmod	_	TokenRange=189:194
+37-38	do	_	_	_	_	_	_	_	TokenRange=195:197
+37	de	de	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	stf	_	NOUN	NOUN	_	36	nmod	_	TokenRange=198:201
+40-41	na	_	_	_	_	_	_	_	TokenRange=202:204
+40	em	em	ADP	ADP	_	42	case	_	_
+41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	verdade	verdade	NOUN	NOUN	_	32	nmod	_	TokenRange=205:212
+43	tudo	_	PRON	PRON	_	45	nsubj	_	TokenRange=213:217
+44	nao	nao	ADV	ADV	Polarity=Neg	45	advmod	_	TokenRange=218:221
+45	passou	passar	VERB	VERB	_	15	conj	_	TokenRange=222:228
+46	de	de	ADP	ADP	_	49	case	_	TokenRange=229:231
+47	um	um	DET	DET	_	49	det	_	TokenRange=232:234
+48	grande	grande	ADJ	ADJ	_	49	amod	_	TokenRange=235:241
+49	acordo	acordo	NOUN	NOUN	_	45	nmod	_	TokenRange=242:248
+50	nacional	nacional	ADJ	ADJ	_	49	amod	_	TokenRange=249:257
+51	com	com	ADP	ADP	_	52	case	_	TokenRange=258:261
+52	stf	_	NOUN	NOUN	_	49	nmod	_	TokenRange=262:265
+53	com	com	ADP	ADP	_	54	case	_	TokenRange=266:269
+54	senado	senado	NOUN	NOUN	_	49	nmod	_	TokenRange=270:276
+55	com	com	ADP	ADP	_	56	case	_	TokenRange=277:280
+56	tudo	_	PRON	PRON	_	45	nmod	_	TokenRange=281:285
+57	foram	_	VERB	VERB	_	45	parataxis	_	TokenRange=286:291
+58	44	_	NUM	NUM	NumType=Card	59	nummod	_	TokenRange=292:294
+59	votos	voto	NOUN	NOUN	_	57	nsubj	_	TokenRange=295:300
+60	favoraveis	favoravel	ADJ	ADJ	_	59	amod	_	TokenRange=301:311
+61-62	ao	_	_	_	_	_	_	_	TokenRange=312:314
+61	a	a	ADP	ADP	_	63	case	_	_
+62	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	senador	senador	NOUN	NOUN	_	60	nmod	_	TokenRange=315:322
+64	e	e	CCONJ	CONJ	_	66	cc	_	TokenRange=323:324
+65	26	_	NUM	NUM	NumType=Card	66	nummod	_	TokenRange=325:327
+66	contrarios	contrario	NOUN	NOUN	_	59	conj	_	TokenRange=328:338
+

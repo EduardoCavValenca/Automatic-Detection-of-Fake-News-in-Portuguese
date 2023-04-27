@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o saudoso marcelo rezende alertou sao pessoas perversas que so pensam no proprio umbigo ouca com atencao o que diz o apresentador marcelo rezende sobre o presentao de natal que nossos parlamentares e o presidente temer deram para as empresas de telecomunicacoes quantos hospitais poderiam ser construidos quantas vidas poderiam ser salvas se esse dinheiro fosse revertido para a populacao questiona o apresentador leia tambem
+1	o	o	DET	DET	_	3	det	_	TokenRange=0:1
+2	saudoso	saudoso	ADJ	ADJ	_	3	amod	_	TokenRange=2:9
+3	marcelo	marcelo	NOUN	NOUN	_	5	nsubj	_	TokenRange=10:17
+4	rezende	rezende	NOUN	NOUN	_	3	flat	_	TokenRange=18:25
+5	alertou	alertar	VERB	VERB	_	0	root	_	TokenRange=26:33
+6	sao	_	DET	DET	_	7	case	_	TokenRange=34:37
+7	pessoas	pessoa	NOUN	NOUN	_	5	obj	_	TokenRange=38:45
+8	perversas	perverso	ADJ	ADJ	_	7	amod	_	TokenRange=46:55
+9	que	_	PRON	PRON	_	11	nsubj	_	TokenRange=56:59
+10	so	so	ADV	ADV	_	11	advmod	_	TokenRange=60:62
+11	pensam	pensar	VERB	VERB	_	7	acl:relcl	_	TokenRange=63:69
+12-13	no	_	_	_	_	_	_	_	TokenRange=70:72
+12	em	em	ADP	ADP	_	15	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	proprio	proprio	ADJ	ADJ	_	15	amod	_	TokenRange=73:80
+15	umbigo	umbigo	NOUN	NOUN	_	11	nmod	_	TokenRange=81:87
+16	ouca	oucar	VERB	VERB	_	5	ccomp	_	TokenRange=88:92
+17	com	com	ADP	ADP	_	18	case	_	TokenRange=93:96
+18	atencao	atencao	NOUN	NOUN	_	16	nmod	_	TokenRange=97:104
+19	o	_	PRON	PRON	_	16	obj	_	TokenRange=105:106
+20	que	_	PRON	PRON	_	21	obj	_	TokenRange=107:110
+21	diz	dizer	VERB	VERB	_	19	acl:relcl	_	TokenRange=111:114
+22	o	o	DET	DET	_	23	det	_	TokenRange=115:116
+23	apresentador	apresentador	NOUN	NOUN	_	21	nsubj	_	TokenRange=117:129
+24	marcelo	marcelo	NOUN	NOUN	_	23	appos	_	TokenRange=130:137
+25	rezende	rezende	VERB	VERB	_	23	flat	_	TokenRange=138:145
+26	sobre	_	ADP	ADP	_	28	case	_	TokenRange=146:151
+27	o	o	DET	DET	_	28	det	_	TokenRange=152:153
+28	presentao	presentao	NOUN	NOUN	_	21	nmod	_	TokenRange=154:163
+29	de	de	ADP	ADP	_	30	case	_	TokenRange=164:166
+30	natal	_	PROPN	PNOUN	_	28	nmod	_	TokenRange=167:172
+31	que	que	CCONJ	CONJ	_	38	mark	_	TokenRange=173:176
+32	nossos	_	DET	DET	_	33	det:poss	_	TokenRange=177:183
+33	parlamentares	parlamentar	NOUN	NOUN	_	38	nsubj	_	TokenRange=184:197
+34	e	e	CCONJ	CONJ	_	36	cc	_	TokenRange=198:199
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	TokenRange=200:201
+36	presidente	presidente	NOUN	NOUN	_	33	conj	_	TokenRange=202:212
+37	temer	temer	NOUN	NOUN	_	36	flat	_	TokenRange=213:218
+38	deram	dar	VERB	VERB	_	21	ccomp	_	TokenRange=219:224
+39	para	para	ADP	ADP	_	41	case	_	TokenRange=225:229
+40	as	o	DET	DET	_	41	det	_	TokenRange=230:232
+41	empresas	empresa	NOUN	NOUN	_	38	nmod	_	TokenRange=233:241
+42	de	de	ADP	ADP	_	43	case	_	TokenRange=242:244
+43	telecomunicacoes	telecomunicacoe	NOUN	NOUN	_	41	nmod	_	TokenRange=245:261
+44	quantos	_	DET	DET	_	45	det	_	TokenRange=262:269
+45	hospitais	hospital	NOUN	NOUN	_	48	nsubj:pass	_	TokenRange=270:279
+46	poderiam	poder	AUX	AUX	_	48	aux	_	TokenRange=280:288
+47	ser	ser	AUX	AUX	_	48	aux:pass	_	TokenRange=289:292
+48	construidos	construir	VERB	VERB	_	38	ccomp	_	TokenRange=293:304
+49	quantas	_	DET	DET	_	50	det	_	TokenRange=305:312
+50	vidas	vida	NOUN	NOUN	_	53	nsubj:pass	_	TokenRange=313:318
+51	poderiam	poder	AUX	AUX	_	53	aux	_	TokenRange=319:327
+52	ser	ser	AUX	AUX	_	53	aux:pass	_	TokenRange=328:331
+53	salvas	salr	VERB	VERB	_	48	ccomp	_	TokenRange=332:338
+54	se	_	CCONJ	CONJ	_	58	mark	_	TokenRange=339:341
+55	esse	_	DET	DET	_	56	det	_	TokenRange=342:346
+56	dinheiro	dinheiro	NOUN	NOUN	_	58	nsubj:pass	_	TokenRange=347:355
+57	fosse	_	AUX	AUX	_	58	aux:pass	_	TokenRange=356:361
+58	revertido	reverter	VERB	VERB	_	53	advcl	_	TokenRange=362:371
+59	para	para	ADP	ADP	_	61	case	_	TokenRange=372:376
+60	a	o	DET	DET	_	61	det	_	TokenRange=377:378
+61	populacao	populacao	NOUN	NOUN	_	58	nmod	_	TokenRange=379:388
+62	questiona	questionar	VERB	VERB	_	38	advcl	_	TokenRange=389:398
+63	o	o	DET	DET	_	64	det	_	TokenRange=399:400
+64	apresentador	apresentador	NOUN	NOUN	_	65	nsubj	_	TokenRange=401:413
+65	leia	ler	VERB	VERB	_	62	parataxis	_	TokenRange=414:418
+66	tambem	tambem	ADV	ADV	_	62	advmod	_	TokenRange=419:425
+

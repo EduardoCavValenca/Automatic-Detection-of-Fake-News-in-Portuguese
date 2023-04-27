@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joesley diz em depoimento que tem gravacoes ainda nao entregues a pgr dono da jf prestou depoimento na semana passada delacao esta em revisao e beneficios foram temporariamente suspensos segundo joesley frase nao vamos ser presos era mantra o empresario joesley batista um
+1	joesley	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	em	em	ADP	ADP	_	4	case	_	TokenRange=12:14
+4	depoimento	depoimento	NOUN	NOUN	_	2	nmod	_	TokenRange=15:25
+5	que	que	CCONJ	CONJ	_	6	mark	_	TokenRange=26:29
+6	tem	ter	VERB	VERB	_	2	ccomp	_	TokenRange=30:33
+7	gravacoes	_	NOUN	NOUN	_	6	obj	_	TokenRange=34:43
+8	ainda	ainda	ADV	ADV	_	10	advmod	_	TokenRange=44:49
+9	nao	nao	ADV	ADV	Polarity=Neg	10	advmod	_	TokenRange=50:53
+10	entregues	entregar	VERB	VERB	_	7	acl	_	TokenRange=54:63
+11	a	_	ADP	ADP	_	12	case	_	TokenRange=64:65
+12	pgr	_	NOUN	NOUN	_	10	nmod	_	TokenRange=66:69
+13	dono	dono	NOUN	NOUN	_	17	nsubj	_	TokenRange=70:74
+14-15	da	_	_	_	_	_	_	_	TokenRange=75:77
+14	de	de	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	jf	jf	NOUN	NOUN	_	13	nmod	_	TokenRange=78:80
+17	prestou	prestar	VERB	VERB	_	2	ccomp	_	TokenRange=81:88
+18	depoimento	depoimento	NOUN	NOUN	_	17	obj	_	TokenRange=89:99
+19-20	na	_	_	_	_	_	_	_	TokenRange=100:102
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	semana	semana	NOUN	NOUN	_	17	nmod	_	TokenRange=103:109
+22	passada	passado	ADJ	ADJ	_	21	amod	_	TokenRange=110:117
+23	delacao	delacao	NOUN	NOUN	_	17	nsubj	_	TokenRange=118:125
+24	esta	_	PRON	PRON	_	17	parataxis	_	TokenRange=126:130
+25	em	em	ADP	ADP	_	26	case	_	TokenRange=131:133
+26	revisao	revisao	NOUN	NOUN	_	24	nmod	_	TokenRange=134:141
+27	e	e	CCONJ	CONJ	_	31	cc	_	TokenRange=142:143
+28	beneficios	beneficio	NOUN	NOUN	_	31	nsubj:pass	_	TokenRange=144:154
+29	foram	_	AUX	AUX	_	31	aux:pass	_	TokenRange=155:160
+30	temporariamente	temporariamente	ADV	ADV	_	31	advmod	_	TokenRange=161:176
+31	suspensos	suspensder	VERB	VERB	_	17	conj	_	TokenRange=177:186
+32	segundo	_	ADP	ADP	_	33	case	_	TokenRange=187:194
+33	joesley	_	NOUN	NOUN	_	31	nmod	_	TokenRange=195:202
+34	frase	frase	NOUN	NOUN	_	40	nsubj	_	TokenRange=203:208
+35	nao	nao	ADV	ADV	Polarity=Neg	38	advmod	_	TokenRange=209:212
+36	vamos	ir	AUX	AUX	_	38	aux	_	TokenRange=213:218
+37	ser	ser	AUX	AUX	_	38	aux:pass	_	TokenRange=219:222
+38	presos	prender	VERB	VERB	_	33	acl:relcl	_	TokenRange=223:229
+39	era	_	AUX	AUX	_	40	cop	_	TokenRange=230:233
+40	mantra	mantra	NOUN	NOUN	_	2	parataxis	_	TokenRange=234:240
+41	o	o	DET	DET	_	42	det	_	TokenRange=241:242
+42	empresario	empresario	NOUN	NOUN	_	40	nsubj	_	TokenRange=243:253
+43	joesley	_	PROPN	PNOUN	_	42	appos	_	TokenRange=254:261
+44	batista	batista	ADJ	ADJ	_	43	flat	_	TokenRange=262:269
+45	um	_	DET	DET	_	42	det	_	SpacesAfter=\s\s|TokenRange=270:272
+

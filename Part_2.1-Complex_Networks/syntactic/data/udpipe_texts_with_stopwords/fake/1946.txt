@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro fala sobre a possibilidade de intervencao militar o deputado se posicionou com relacao ao posimpeachment de dilma rousseff se dilma sair eu temo que luta armada volte para o coracao do brasil e voce nao vai chamar o pessoal dos direitos humanos para nos livrar do comunismo voce vai se lembrar de militares brilhantes para que novamente cumpram a sua missao que bravamente eles cumpriram muito bem no passado
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	fala	_	VERB	VERB	_	0	root	_	TokenRange=10:14
+3	sobre	_	ADP	ADP	_	5	case	_	TokenRange=15:20
+4	a	o	DET	DET	_	5	det	_	TokenRange=21:22
+5	possibilidade	possibilidade	NOUN	NOUN	_	2	nmod	_	TokenRange=23:36
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=37:39
+7	intervencao	intervencao	NOUN	NOUN	_	5	nmod	_	TokenRange=40:51
+8	militar	militar	ADJ	ADJ	_	7	amod	_	TokenRange=52:59
+9	o	o	DET	DET	_	10	det	_	TokenRange=60:61
+10	deputado	deputado	NOUN	NOUN	_	12	nsubj	_	TokenRange=62:70
+11	se	_	PRON	PRON	_	12	obj	_	TokenRange=71:73
+12	posicionou	posicionar	VERB	VERB	_	2	parataxis	_	TokenRange=74:84
+13	com	com	ADP	ADP	_	14	case	_	TokenRange=85:88
+14	relacao	relacao	NOUN	NOUN	_	12	nmod	_	TokenRange=89:96
+15-16	ao	_	_	_	_	_	_	_	TokenRange=97:99
+15	a	a	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	posimpeachment	_	NOUN	NOUN	_	14	nmod	_	TokenRange=100:114
+18	de	de	ADP	ADP	_	19	case	_	TokenRange=115:117
+19	dilma	dilma	NOUN	NOUN	_	17	nmod	_	TokenRange=118:123
+20	rousseff	rousseff	NOUN	NOUN	_	19	flat	_	TokenRange=124:132
+21	se	_	CCONJ	CONJ	_	23	mark	_	TokenRange=133:135
+22	dilma	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=136:141
+23	sair	sair	VERB	VERB	_	12	advcl	_	TokenRange=142:146
+24	eu	_	PRON	PRON	_	25	nsubj	_	TokenRange=147:149
+25	temo	ter	VERB	VERB	_	2	parataxis	_	TokenRange=150:154
+26	que	que	CCONJ	CONJ	_	29	mark	_	TokenRange=155:158
+27	luta	luta	NOUN	NOUN	_	29	nsubj	_	TokenRange=159:163
+28	armada	armado	ADJ	ADJ	_	27	amod	_	TokenRange=164:170
+29	volte	voltar	VERB	VERB	_	25	ccomp	_	TokenRange=171:176
+30	para	para	ADP	ADP	_	32	case	_	TokenRange=177:181
+31	o	o	DET	DET	_	32	det	_	TokenRange=182:183
+32	coracao	coracao	NOUN	NOUN	_	29	nmod	_	TokenRange=184:191
+33-34	do	_	_	_	_	_	_	_	TokenRange=192:194
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	brasil	brasil	NOUN	NOUN	_	32	nmod	_	TokenRange=195:201
+36	e	e	CCONJ	CONJ	_	40	cc	_	TokenRange=202:203
+37	voce	_	PRON	PRON	_	40	nsubj	_	TokenRange=204:208
+38	nao	nao	ADV	ADV	Polarity=Neg	40	advmod	_	TokenRange=209:212
+39	vai	ir	AUX	AUX	_	40	aux	_	TokenRange=213:216
+40	chamar	chamar	VERB	VERB	_	29	conj	_	TokenRange=217:223
+41	o	o	DET	DET	_	42	det	_	TokenRange=224:225
+42	pessoal	pessoal	NOUN	NOUN	_	40	obj	_	TokenRange=226:233
+43-44	dos	_	_	_	_	_	_	_	TokenRange=234:237
+43	de	de	ADP	ADP	_	45	case	_	_
+44	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	direitos	direito	NOUN	NOUN	_	42	nmod	_	TokenRange=238:246
+46	humanos	humano	ADJ	ADJ	_	45	amod	_	TokenRange=247:254
+47	para	_	ADP	ADP	_	50	mark	_	TokenRange=255:259
+48-49	nos	_	_	_	_	_	_	_	TokenRange=260:263
+48	em	em	ADP	ADP	_	50	mark	_	_
+49	os	_	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	50	obj	_	_
+50	livrar	livrar	VERB	VERB	_	40	advcl	_	TokenRange=264:270
+51-52	do	_	_	_	_	_	_	_	TokenRange=271:273
+51	de	de	ADP	ADP	_	53	case	_	_
+52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	comunismo	comunismo	NOUN	NOUN	_	50	nmod	_	TokenRange=274:283
+54	voce	_	PRON	PRON	_	57	nsubj	_	TokenRange=284:288
+55	vai	ir	AUX	AUX	_	57	aux	_	TokenRange=289:292
+56	se	_	PRON	PRON	_	57	expl:pv	_	TokenRange=293:295
+57	lembrar	lembrar	VERB	VERB	_	40	advcl	_	TokenRange=296:303
+58	de	de	ADP	ADP	_	59	case	_	TokenRange=304:306
+59	militares	militar	NOUN	NOUN	_	57	nmod	_	TokenRange=307:316
+60	brilhantes	brilhante	ADJ	ADJ	_	59	amod	_	TokenRange=317:327
+61	para	_	ADP	ADP	_	64	mark	_	TokenRange=328:332
+62	que	que	CCONJ	CONJ	_	61	fixed	_	TokenRange=333:336
+63	novamente	novamente	ADV	ADV	_	64	advmod	_	TokenRange=337:346
+64	cumpram	cumprir	VERB	VERB	_	57	advcl	_	TokenRange=347:354
+65	a	o	DET	DET	_	67	det	_	TokenRange=355:356
+66	sua	_	DET	DET	_	67	det:poss	_	TokenRange=357:360
+67	missao	missao	NOUN	NOUN	_	64	obj	_	TokenRange=361:367
+68	que	_	PRON	PRON	_	71	mark	_	TokenRange=368:371
+69	bravamente	bravamente	ADV	ADV	_	71	advmod	_	TokenRange=372:382
+70	eles	_	PRON	PRON	_	71	nsubj	_	TokenRange=383:387
+71	cumpriram	cumprir	VERB	VERB	_	64	ccomp	_	TokenRange=388:397
+72	muito	muito	ADV	ADV	_	73	advmod	_	TokenRange=398:403
+73	bem	bem	ADV	ADV	_	71	advmod	_	TokenRange=404:407
+74-75	no	_	_	_	_	_	_	_	TokenRange=408:410
+74	em	em	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	passado	passado	NOUN	NOUN	_	71	nmod	_	TokenRange=411:418
+

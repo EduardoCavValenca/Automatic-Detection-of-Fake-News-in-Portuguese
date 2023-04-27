@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = como alguem que ostenta a ignorancia conseguiu se tornar presidente video trecho de uma entrevista concedida para o canal livre da tv bandeirantes em outubro de 1981 o programa tem a participacao de roberto davila flavio rangel helio pellegrino eduardo suplicy helio silva e outros como e que um trem desses conseguiu virar presidente da republica
+1	como	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	alguem	_	PRON	PRON	_	12	nmod	_	TokenRange=5:11
+3	que	_	PRON	PRON	_	4	nsubj	_	TokenRange=12:15
+4	ostenta	ostentar	VERB	VERB	_	2	acl:relcl	_	TokenRange=16:23
+5	a	o	DET	DET	_	6	det	_	TokenRange=24:25
+6	ignorancia	ignorancia	NOUN	NOUN	_	4	obj	_	TokenRange=26:36
+7	conseguiu	conseguir	AUX	AUX	_	10	aux	_	TokenRange=37:46
+8	se	_	PART	PRT	_	10	expl:pv	_	TokenRange=47:49
+9	tornar	tornar	AUX	AUX	_	10	cop	_	TokenRange=50:56
+10	presidente	presidente	NOUN	NOUN	_	4	xcomp	_	TokenRange=57:67
+11	video	_	AUX	AUX	_	12	cop	_	TokenRange=68:73
+12	trecho	trecho	NOUN	NOUN	_	0	root	_	TokenRange=74:80
+13	de	de	ADP	ADP	_	15	case	_	TokenRange=81:83
+14	uma	um	DET	DET	_	15	det	_	TokenRange=84:87
+15	entrevista	entrevista	NOUN	NOUN	_	12	nmod	_	TokenRange=88:98
+16	concedida	conceder	VERB	VERB	_	15	acl	_	TokenRange=99:108
+17	para	para	ADP	ADP	_	19	case	_	TokenRange=109:113
+18	o	o	DET	DET	_	19	det	_	TokenRange=114:115
+19	canal	canal	NOUN	NOUN	_	16	nmod	_	TokenRange=116:121
+20	livre	livre	ADJ	ADJ	_	19	amod	_	TokenRange=122:127
+21-22	da	_	_	_	_	_	_	_	TokenRange=128:130
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	tv	tv	NOUN	NOUN	_	19	nmod	_	TokenRange=131:133
+24	bandeirantes	bandeirante	ADJ	ADJ	_	23	amod	_	TokenRange=134:146
+25	em	em	ADP	ADP	_	26	case	_	TokenRange=147:149
+26	outubro	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=150:157
+27	de	de	ADP	ADP	_	28	case	_	TokenRange=158:160
+28	1981	_	NUM	NUM	NumType=Card	26	nmod	_	TokenRange=161:165
+29	o	o	DET	DET	_	30	det	_	TokenRange=166:167
+30	programa	programa	NOUN	NOUN	_	31	nsubj	_	TokenRange=168:176
+31	tem	ter	VERB	VERB	_	12	parataxis	_	TokenRange=177:180
+32	a	o	DET	DET	_	33	det	_	TokenRange=181:182
+33	participacao	participacao	NOUN	NOUN	_	31	obj	_	TokenRange=183:195
+34	de	de	ADP	ADP	_	35	case	_	TokenRange=196:198
+35	roberto	roberto	NOUN	NOUN	_	33	nmod	_	TokenRange=199:206
+36	davila	_	NOUN	NOUN	_	35	flat	_	TokenRange=207:213
+37	flavio	flavio	ADJ	NOUN	_	35	amod	_	TokenRange=214:220
+38	rangel	rangel	NOUN	NOUN	_	35	flat	_	TokenRange=221:227
+39	helio	helio	NOUN	NOUN	_	35	appos	_	TokenRange=228:233
+40	pellegrino	_	NOUN	NOUN	_	39	flat	_	TokenRange=234:244
+41	eduardo	eduardo	NOUN	NOUN	_	35	appos	_	TokenRange=245:252
+42	suplicy	_	ADJ	ADJ	_	41	amod	_	TokenRange=253:260
+43	helio	helio	NOUN	NOUN	_	41	appos	_	TokenRange=261:266
+44	silva	silva	NOUN	NOUN	_	43	flat	_	TokenRange=267:272
+45	e	e	CCONJ	CONJ	_	46	cc	_	TokenRange=273:274
+46	outros	_	PRON	PRON	_	35	conj	_	TokenRange=275:281
+47	como	como	ADV	ADV	_	53	advmod	_	TokenRange=282:286
+48	e	e	CCONJ	CONJ	_	53	cc	_	TokenRange=287:288
+49	que	_	CCONJ	CONJ	_	53	mark	_	TokenRange=289:292
+50	um	um	DET	DET	_	51	det	_	TokenRange=293:295
+51	trem	trem	NOUN	NOUN	_	53	nsubj	_	TokenRange=296:300
+52	desses	_	X	ADPPRON	_	51	nmod	_	TokenRange=301:307
+53	conseguiu	conseguir	VERB	VERB	_	46	acl:relcl	_	TokenRange=308:317
+54	virar	virar	AUX	AUX	_	55	cop	_	TokenRange=318:323
+55	presidente	presidente	NOUN	NOUN	_	53	xcomp	_	TokenRange=324:334
+56-57	da	_	_	_	_	_	_	_	TokenRange=335:337
+56	de	de	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	republica	_	NOUN	NOUN	_	55	nmod	_	TokenRange=338:347
+

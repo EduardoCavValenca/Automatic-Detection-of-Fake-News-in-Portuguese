@@ -1,0 +1,30 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procurador da republica parte para o ataque dilma foi eleita ela e a mandataria temer e um ladrao de poder
+1	procurador	procurador	NOUN	NOUN	_	11	nsubj:pass	_	TokenRange=0:10
+2-3	da	_	_	_	_	_	_	_	TokenRange=11:13
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	republica	_	NOUN	NOUN	_	1	nmod	_	TokenRange=14:23
+5	parte	parte	NOUN	NOUN	_	1	appos	_	TokenRange=24:29
+6	para	para	ADP	ADP	_	8	case	_	TokenRange=30:34
+7	o	o	DET	DET	_	8	det	_	TokenRange=35:36
+8	ataque	ataque	NOUN	NOUN	_	5	nmod	_	TokenRange=37:43
+9	dilma	dilma	NOUN	NOUN	_	8	appos	_	TokenRange=44:49
+10	foi	_	AUX	AUX	_	11	aux:pass	_	TokenRange=50:53
+11	eleita	eleger	VERB	VERB	_	0	root	_	TokenRange=54:60
+12	ela	_	PRON	PRON	_	11	nsubj:pass	_	TokenRange=61:64
+13	e	e	CCONJ	CONJ	_	15	cc	_	TokenRange=65:66
+14	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	TokenRange=67:68
+15	mandataria	mandataria	NOUN	NOUN	_	12	conj	_	TokenRange=69:79
+16	temer	temer	NOUN	NOUN	_	15	appos	_	TokenRange=80:85
+17	e	e	CCONJ	CONJ	_	19	cc	_	TokenRange=86:87
+18	um	um	DET	DET	_	19	det	_	TokenRange=88:90
+19	ladrao	ladrao	NOUN	NOUN	_	16	conj	_	TokenRange=91:97
+20	de	de	ADP	ADP	_	21	case	_	TokenRange=98:100
+21	poder	poder	NOUN	NOUN	_	19	nmod	_	SpacesAfter=\s\s|TokenRange=101:106
+

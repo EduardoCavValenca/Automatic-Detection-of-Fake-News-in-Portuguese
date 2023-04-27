@@ -1,0 +1,23 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = sertanejo que vendeu 11 milhoes de discos passa por dificuldades minha mae tem me ajudado
+1	sertanejo	sertanejo	NOUN	NOUN	_	15	nsubj	_	TokenRange=0:9
+2	que	_	PRON	PRON	_	3	nsubj	_	TokenRange=10:13
+3	vendeu	vender	VERB	VERB	_	1	acl:relcl	_	TokenRange=14:20
+4	11	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=21:23
+5	milhoes	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=24:31
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=32:34
+7	discos	disco	NOUN	NOUN	_	3	obj	_	TokenRange=35:41
+8	passa	passar	VERB	VERB	_	0	root	_	TokenRange=42:47
+9	por	por	ADP	ADP	_	10	case	_	TokenRange=48:51
+10	dificuldades	dificuldade	NOUN	NOUN	_	15	nmod	_	TokenRange=52:64
+11	minha	_	DET	DET	_	12	det:poss	_	TokenRange=65:70
+12	mae	mae	NOUN	NOUN	_	15	nsubj	_	TokenRange=71:74
+13	tem	ter	AUX	AUX	_	15	aux	_	TokenRange=75:78
+14	me	_	PRON	PRON	_	15	obj	_	TokenRange=79:81
+15	ajudado	ajudar	VERB	VERB	_	8	conj	_	SpacesAfter=\s\s|TokenRange=82:89
+

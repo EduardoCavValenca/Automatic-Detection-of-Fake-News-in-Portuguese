@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = the voice conheca tapac o ucraniano que ganhou as redes sociais ao cantar a musica tche tcherere de gustavo lima durante sua performance o jovem ucraniano canta a musica tche tcherere do cantor brasileiro gustavo lima a plateia foi ao delirio e os jurados tambem mesmo com sotaque o jovem fez o tche tcherere tche ganhar as redes sociais pelo mundo afora tapac meubhnk estava mais animado que o proprio gustavo lima vale a pena assistir
+1	the	_	DET	DET	_	2	det	_	TokenRange=0:3
+2	voice	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=4:9
+3	conheca	conhecar	VERB	VERB	_	0	root	_	TokenRange=10:17
+4	tapac	_	NOUN	NOUN	_	3	obj	_	TokenRange=18:23
+5	o	o	DET	DET	_	6	det	_	TokenRange=24:25
+6	ucraniano	ucraniano	NOUN	NOUN	_	3	obj	_	TokenRange=26:35
+7	que	_	PRON	PRON	_	8	nsubj	_	TokenRange=36:39
+8	ganhou	ganhar	VERB	VERB	_	6	acl:relcl	_	TokenRange=40:46
+9	as	o	DET	DET	_	10	det	_	TokenRange=47:49
+10	redes	rede	NOUN	NOUN	_	8	obj	_	TokenRange=50:55
+11	sociais	social	ADJ	ADJ	_	10	amod	_	TokenRange=56:63
+12-13	ao	_	_	_	_	_	_	_	TokenRange=64:66
+12	a	a	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cantar	cantar	VERB	VERB	_	8	advcl	_	TokenRange=67:73
+15	a	o	DET	DET	_	16	det	_	TokenRange=74:75
+16	musica	_	NOUN	NOUN	_	14	obj	_	TokenRange=76:82
+17	tche	_	NOUN	NOUN	_	16	appos	_	TokenRange=83:87
+18	tcherere	tcherere	NOUN	NOUN	_	17	flat	_	TokenRange=88:96
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=97:99
+20	gustavo	gustavo	NOUN	NOUN	_	16	nmod	_	TokenRange=100:107
+21	lima	lima	ADJ	ADJ	_	20	flat	_	TokenRange=108:112
+22	durante	_	ADP	ADP	_	24	case	_	TokenRange=113:120
+23	sua	_	DET	DET	_	24	det:poss	_	TokenRange=121:124
+24	performance	performance	NOUN	NOUN	_	14	nmod	_	TokenRange=125:136
+25	o	o	DET	DET	_	26	det	_	TokenRange=137:138
+26	jovem	jovem	NOUN	NOUN	_	28	nsubj	_	TokenRange=139:144
+27	ucraniano	ucraniano	ADJ	ADJ	_	26	amod	_	TokenRange=145:154
+28	canta	cantar	VERB	VERB	_	14	parataxis	_	TokenRange=155:160
+29	a	o	DET	DET	_	30	det	_	TokenRange=161:162
+30	musica	_	NOUN	NOUN	_	28	obj	_	TokenRange=163:169
+31	tche	_	NOUN	NOUN	_	30	appos	_	TokenRange=170:174
+32	tcherere	tcherere	NOUN	NOUN	_	31	flat	_	TokenRange=175:183
+33-34	do	_	_	_	_	_	_	_	TokenRange=184:186
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	cantor	cantor	NOUN	NOUN	_	30	nmod	_	TokenRange=187:193
+36	brasileiro	brasileiro	ADJ	ADJ	_	35	amod	_	TokenRange=194:204
+37	gustavo	gustavo	NOUN	NOUN	_	35	appos	_	TokenRange=205:212
+38	lima	lima	ADJ	ADJ	_	37	flat	_	TokenRange=213:217
+39	a	o	DET	DET	_	40	det	_	TokenRange=218:219
+40	plateia	plateia	NOUN	NOUN	_	41	nsubj	_	TokenRange=220:227
+41	foi	_	VERB	VERB	_	3	parataxis	_	TokenRange=228:231
+42-43	ao	_	_	_	_	_	_	_	TokenRange=232:234
+42	a	a	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	delirio	delirio	NOUN	NOUN	_	41	nmod	_	TokenRange=235:242
+45	e	e	CCONJ	CONJ	_	47	cc	_	TokenRange=243:244
+46	os	o	DET	DET	_	47	det	_	TokenRange=245:247
+47	jurados	jurado	NOUN	NOUN	_	44	conj	_	TokenRange=248:255
+48	tambem	tambem	ADV	ADV	_	41	advmod	_	TokenRange=256:262
+49	mesmo	mesmo	ADV	ADV	_	54	advmod	_	TokenRange=263:268
+50	com	com	ADP	ADP	_	51	case	_	TokenRange=269:272
+51	sotaque	sotaque	NOUN	NOUN	_	54	nmod	_	TokenRange=273:280
+52	o	o	DET	DET	_	53	det	_	TokenRange=281:282
+53	jovem	jovem	NOUN	NOUN	_	54	nsubj	_	TokenRange=283:288
+54	fez	fazer	VERB	VERB	_	41	conj	_	TokenRange=289:292
+55	o	o	DET	DET	_	56	det	_	TokenRange=293:294
+56	tche	tche	NOUN	NOUN	_	54	obj	_	TokenRange=295:299
+57	tcherere	tcherere	NOUN	NOUN	_	56	appos	_	TokenRange=300:308
+58	tche	_	NOUN	NOUN	_	59	obj	_	TokenRange=309:313
+59	ganhar	ganhar	VERB	VERB	_	54	ccomp	_	TokenRange=314:320
+60	as	o	DET	DET	_	61	det	_	TokenRange=321:323
+61	redes	rede	NOUN	NOUN	_	59	obj	_	TokenRange=324:329
+62	sociais	social	ADJ	ADJ	_	61	amod	_	TokenRange=330:337
+63-64	pelo	_	_	_	_	_	_	_	TokenRange=338:342
+63	por	por	ADP	ADP	_	65	case	_	_
+64	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	mundo	mundo	NOUN	NOUN	_	59	nmod	_	TokenRange=343:348
+66	afora	afora	ADV	ADV	_	69	advmod	_	TokenRange=349:354
+67	tapac	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=355:360
+68	meubhnk	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=361:368
+69	estava	estar	VERB	VERB	_	41	conj	_	TokenRange=369:375
+70	mais	mais	ADV	ADV	_	71	advmod	_	TokenRange=376:380
+71	animado	animado	ADJ	ADJ	_	69	xcomp	_	TokenRange=381:388
+72	que	_	ADP	ADP	_	77	mark	_	TokenRange=389:392
+73	o	o	DET	DET	_	75	det	_	TokenRange=393:394
+74	proprio	proprio	ADJ	ADJ	_	75	amod	_	TokenRange=395:402
+75	gustavo	gustavo	NOUN	NOUN	_	77	nmod	_	TokenRange=403:410
+76	lima	lima	ADJ	ADJ	_	75	flat	_	TokenRange=411:415
+77	vale	_	VERB	VERB	_	69	advcl	_	TokenRange=416:420
+78	a	o	DET	DET	_	79	det	_	TokenRange=421:422
+79	pena	_	NOUN	NOUN	_	80	obj	_	TokenRange=423:427
+80	assistir	assistir	VERB	VERB	_	77	csubj	_	TokenRange=428:436
+

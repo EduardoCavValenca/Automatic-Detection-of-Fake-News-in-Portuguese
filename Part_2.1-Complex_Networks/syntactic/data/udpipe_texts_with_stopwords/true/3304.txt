@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 16 de novembro de 2017 boa noite aqui estao as principais noticias para voce terminar o dia beminformado a cupula do pmdb na assembleia legislativa do rio esta presa o presidente da alerj jorge picciani e os deputados paulo melo e edson albertassi se entregaram a pf apos a justica decretar a prisao imediata dos parlamentares os tres sao suspeitos de usar os cargos para corrupcao e lavagem de
+1	quintafeira	quintafeira	NOUN	NOUN	_	32	parataxis	_	TokenRange=0:11
+2	16	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	novembro	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=18:26
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=27:29
+6	2017	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=30:34
+7	boa	bom	ADJ	ADJ	_	8	amod	_	TokenRange=35:38
+8	noite	noite	NOUN	NOUN	_	10	nsubj	_	TokenRange=39:44
+9	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=45:49
+10	estao	_	VERB	VERB	_	1	acl:relcl	_	TokenRange=50:55
+11	as	o	DET	DET	_	13	det	_	TokenRange=56:58
+12	principais	principal	ADJ	ADJ	_	13	amod	_	TokenRange=59:69
+13	noticias	noticia	NOUN	NOUN	_	10	nsubj	_	TokenRange=70:78
+14	para	_	ADP	ADP	_	16	mark	_	TokenRange=79:83
+15	voce	_	PRON	PRON	_	16	nsubj	_	TokenRange=84:88
+16	terminar	terminar	VERB	VERB	_	13	nmod	_	TokenRange=89:97
+17	o	o	DET	DET	_	18	det	_	TokenRange=98:99
+18	dia	dia	NOUN	NOUN	_	16	obj	_	TokenRange=100:103
+19	beminformado	beminformado	ADJ	ADJ	_	18	amod	_	TokenRange=104:116
+20	a	o	DET	DET	_	21	det	_	TokenRange=117:118
+21	cupula	cupula	NOUN	NOUN	_	32	nsubj	_	TokenRange=119:125
+22-23	do	_	_	_	_	_	_	_	TokenRange=126:128
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	pmdb	_	NOUN	NOUN	_	21	nmod	_	TokenRange=129:133
+25-26	na	_	_	_	_	_	_	_	TokenRange=134:136
+25	em	em	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	assembleia	assembleia	NOUN	NOUN	_	21	nmod	_	TokenRange=137:147
+28	legislativa	legislativo	ADJ	ADJ	_	27	amod	_	TokenRange=148:159
+29-30	do	_	_	_	_	_	_	_	TokenRange=160:162
+29	de	de	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	rio	rio	NOUN	NOUN	_	27	nmod	_	TokenRange=163:166
+32	esta	_	VERB	VERB	_	0	root	_	TokenRange=167:171
+33	presa	_	ADJ	ADJ	_	32	xcomp	_	TokenRange=172:177
+34	o	o	DET	DET	_	35	det	_	TokenRange=178:179
+35	presidente	presidente	NOUN	NOUN	_	32	nsubj	_	TokenRange=180:190
+36-37	da	_	_	_	_	_	_	_	TokenRange=191:193
+36	de	de	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	alerj	alerj	NOUN	NOUN	_	35	nmod	_	TokenRange=194:199
+39	jorge	jorge	NOUN	NOUN	_	35	appos	_	TokenRange=200:205
+40	picciani	_	NOUN	NOUN	_	39	flat	_	TokenRange=206:214
+41	e	e	CCONJ	CONJ	_	43	cc	_	TokenRange=215:216
+42	os	o	DET	DET	_	43	det	_	TokenRange=217:219
+43	deputados	deputado	NOUN	NOUN	_	35	conj	_	TokenRange=220:229
+44	paulo	paulo	NOUN	NOUN	_	43	appos	_	TokenRange=230:235
+45	melo	_	PROPN	PNOUN	_	44	flat	_	TokenRange=236:240
+46	e	e	CCONJ	CONJ	_	47	cc	_	TokenRange=241:242
+47	edson	edson	NOUN	NOUN	_	44	conj	_	TokenRange=243:248
+48	albertassi	_	ADJ	ADJ	_	47	flat	_	TokenRange=249:259
+49	se	_	PRON	PRON	_	50	obj	_	TokenRange=260:262
+50	entregaram	entregar	VERB	VERB	_	32	conj	_	TokenRange=263:273
+51	a	_	ADP	ADP	_	52	case	_	TokenRange=274:275
+52	pf	_	NOUN	NOUN	_	50	nmod	_	TokenRange=276:278
+53	apos	_	ADP	ADP	_	56	mark	_	TokenRange=279:283
+54	a	o	DET	DET	_	55	det	_	TokenRange=284:285
+55	justica	_	NOUN	NOUN	_	56	nsubj	_	TokenRange=286:293
+56	decretar	decretar	VERB	VERB	_	65	advcl	_	TokenRange=294:302
+57	a	o	DET	DET	_	58	det	_	TokenRange=303:304
+58	prisao	prisao	NOUN	NOUN	_	56	obj	_	TokenRange=305:311
+59	imediata	imediato	ADJ	ADJ	_	58	amod	_	TokenRange=312:320
+60-61	dos	_	_	_	_	_	_	_	TokenRange=321:324
+60	de	de	ADP	ADP	_	62	case	_	_
+61	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
+62	parlamentares	parlamentar	NOUN	NOUN	_	58	nmod	_	TokenRange=325:338
+63	os	o	DET	DET	_	64	det	_	TokenRange=339:341
+64	tres	_	NOUN	NOUN	_	65	nsubj	_	TokenRange=342:346
+65	sao	_	VERB	VERB	_	50	advcl	_	TokenRange=347:350
+66	suspeitos	suspeito	ADJ	ADJ	_	65	xcomp	_	TokenRange=351:360
+67	de	_	ADP	ADP	_	68	mark	_	TokenRange=361:363
+68	usar	usar	VERB	VERB	_	66	nmod	_	TokenRange=364:368
+69	os	o	DET	DET	_	70	det	_	TokenRange=369:371
+70	cargos	cargo	NOUN	NOUN	_	68	obj	_	TokenRange=372:378
+71	para	para	ADP	ADP	_	72	case	_	TokenRange=379:383
+72	corrupcao	corrupcao	NOUN	NOUN	_	68	nmod	_	TokenRange=384:393
+73	e	e	CCONJ	CONJ	_	74	cc	_	TokenRange=394:395
+74	lavagem	lavagem	NOUN	NOUN	_	72	conj	_	TokenRange=396:403
+75	de	de	ADP	ADP	_	68	mark	_	SpacesAfter=\s\s|TokenRange=404:406
+

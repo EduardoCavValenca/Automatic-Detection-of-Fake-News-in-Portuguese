@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o misterioso assassinato de kim jongnam meioirmao e rival do lider da coreia do norte kim jongun ele foi morto na malasia na segundafeira enquanto esperava
+1	o	o	DET	DET	_	3	det	_	TokenRange=0:1
+2	misterioso	misterioso	ADJ	ADJ	_	3	amod	_	TokenRange=2:12
+3	assassinato	assassinato	NOUN	NOUN	_	23	nsubj:pass	_	TokenRange=13:24
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=25:27
+5	kim	_	NOUN	NOUN	_	3	nmod	_	TokenRange=28:31
+6	jongnam	_	NOUN	NOUN	_	5	flat	_	TokenRange=32:39
+7	meioirmao	meioirmao	NOUN	NOUN	_	5	amod	_	TokenRange=40:49
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=50:51
+9	rival	rival	NOUN	NOUN	_	5	conj	_	TokenRange=52:57
+10-11	do	_	_	_	_	_	_	_	TokenRange=58:60
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lider	lider	NOUN	NOUN	_	9	nmod	_	TokenRange=61:66
+13-14	da	_	_	_	_	_	_	_	TokenRange=67:69
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	coreia	coreia	NOUN	NOUN	_	12	nmod	_	TokenRange=70:76
+16-17	do	_	_	_	_	_	_	_	TokenRange=77:79
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	norte	norte	NOUN	NOUN	_	15	nmod	_	TokenRange=80:85
+19	kim	_	PROPN	PNOUN	_	12	appos	_	TokenRange=86:89
+20	jongun	_	NOUN	NOUN	_	19	flat	_	TokenRange=90:96
+21	ele	_	PRON	PRON	_	23	nsubj:pass	_	TokenRange=97:100
+22	foi	_	AUX	AUX	_	23	aux:pass	_	TokenRange=101:104
+23	morto	_	VERB	VERB	_	0	root	_	TokenRange=105:110
+24-25	na	_	_	_	_	_	_	_	TokenRange=111:113
+24	em	em	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	malasia	malasia	NOUN	NOUN	_	23	nmod	_	TokenRange=114:121
+27-28	na	_	_	_	_	_	_	_	TokenRange=122:124
+27	em	em	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	segundafeira	_	NOUN	NOUN	_	23	nmod	_	TokenRange=125:137
+30	enquanto	_	CCONJ	CONJ	_	31	mark	_	TokenRange=138:146
+31	esperava	esperar	VERB	VERB	_	23	advcl	_	SpacesAfter=\s\s|TokenRange=147:155
+

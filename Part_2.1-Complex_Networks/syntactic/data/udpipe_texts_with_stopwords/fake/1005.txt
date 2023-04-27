@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = boechat sobre lula sua alma pode ser honesta mas no seu governo fezse o diabo lula tem todo o direito de dizer que sua alma pode ser honesta porem isso nao significa nada disse o apresentador no seu governo fezse o diabo no seu partido fezse o diabo o tesoureiro do pt vaccari que o sr tentou isentar esta em cana o ze dirceu figura mais importante do seu partido esta em cana disse boechat confira
+1	boechat	_	NOUN	NOUN	_	7	parataxis	_	TokenRange=0:7
+2	sobre	_	ADP	ADP	_	3	case	_	TokenRange=8:13
+3	lula	lula	NOUN	NOUN	_	7	nmod	_	TokenRange=14:18
+4	sua	_	DET	DET	_	5	det:poss	_	TokenRange=19:22
+5	alma	alma	NOUN	NOUN	_	7	nsubj	_	TokenRange=23:27
+6	pode	_	AUX	AUX	_	7	aux	_	TokenRange=28:32
+7	ser	ser	VERB	VERB	_	0	root	_	TokenRange=33:36
+8	honesta	honesto	ADJ	ADJ	_	7	xcomp	_	TokenRange=37:44
+9	mas	mas	CCONJ	CONJ	_	18	cc	_	TokenRange=45:48
+10-11	no	_	_	_	_	_	_	_	TokenRange=49:51
+10	em	em	ADP	ADP	_	13	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	seu	_	DET	DET	_	13	det:poss	_	TokenRange=52:55
+13	governo	governo	NOUN	NOUN	_	18	nmod	_	TokenRange=56:63
+14	fezse	_	VERB	VERB	_	18	advcl	_	TokenRange=64:69
+15	o	o	DET	DET	_	16	det	_	TokenRange=70:71
+16	diabo	diabo	NOUN	NOUN	_	18	nsubj	_	TokenRange=72:77
+17	lula	_	NOUN	NOUN	_	18	nsubj	_	TokenRange=78:82
+18	tem	ter	VERB	VERB	_	7	conj	_	TokenRange=83:86
+19	todo	_	DET	DET	_	21	det	_	TokenRange=87:91
+20	o	o	DET	DET	_	21	det	_	TokenRange=92:93
+21	direito	direito	NOUN	NOUN	_	18	obj	_	TokenRange=94:101
+22	de	_	ADP	ADP	_	23	mark	_	TokenRange=102:104
+23	dizer	dizer	VERB	VERB	_	21	nmod	_	TokenRange=105:110
+24	que	que	CCONJ	CONJ	_	28	mark	_	TokenRange=111:114
+25	sua	_	DET	DET	_	26	det:poss	_	TokenRange=115:118
+26	alma	alma	NOUN	NOUN	_	28	nsubj	_	TokenRange=119:123
+27	pode	_	AUX	AUX	_	28	aux	_	TokenRange=124:128
+28	ser	ser	VERB	VERB	_	23	ccomp	_	TokenRange=129:132
+29	honesta	honesto	ADJ	ADJ	_	28	xcomp	_	TokenRange=133:140
+30	porem	_	CCONJ	CONJ	_	33	mark	_	TokenRange=141:146
+31	isso	_	PRON	PRON	_	33	nsubj	_	TokenRange=147:151
+32	nao	nao	ADV	ADV	Polarity=Neg	33	advmod	_	TokenRange=152:155
+33	significa	significar	VERB	VERB	_	28	advcl	_	TokenRange=156:165
+34	nada	_	PRON	PRON	_	33	obj	_	TokenRange=166:170
+35	disse	dizer	VERB	VERB	_	33	parataxis	_	TokenRange=171:176
+36	o	o	DET	DET	_	37	det	_	TokenRange=177:178
+37	apresentador	apresentador	NOUN	NOUN	_	35	nsubj	_	TokenRange=179:191
+38-39	no	_	_	_	_	_	_	_	TokenRange=192:194
+38	em	em	ADP	ADP	_	41	case	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	seu	_	DET	DET	_	41	det:poss	_	TokenRange=195:198
+41	governo	governo	NOUN	NOUN	_	37	nmod	_	TokenRange=199:206
+42	fezse	_	VERB	VERB	_	37	acl:relcl	_	TokenRange=207:212
+43	o	o	DET	DET	_	44	det	_	TokenRange=213:214
+44	diabo	diabo	NOUN	NOUN	_	42	nsubj	_	TokenRange=215:220
+45-46	no	_	_	_	_	_	_	_	TokenRange=221:223
+45	em	em	ADP	ADP	_	48	case	_	_
+46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	seu	_	DET	DET	_	48	det:poss	_	TokenRange=224:227
+48	partido	partido	NOUN	NOUN	_	49	nmod	_	TokenRange=228:235
+49	fezse	_	VERB	VERB	_	42	conj	_	TokenRange=236:241
+50	o	o	DET	DET	_	51	det	_	TokenRange=242:243
+51	diabo	diabo	NOUN	NOUN	_	49	obj	_	TokenRange=244:249
+52	o	o	DET	DET	_	53	det	_	TokenRange=250:251
+53	tesoureiro	tesoureiro	NOUN	NOUN	_	49	nsubj	_	TokenRange=252:262
+54-55	do	_	_	_	_	_	_	_	TokenRange=263:265
+54	de	de	ADP	ADP	_	56	case	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	pt	pt	NOUN	NOUN	_	53	nmod	_	TokenRange=266:268
+57	vaccari	_	NOUN	NOUN	_	56	appos	_	TokenRange=269:276
+58	que	_	CCONJ	CONJ	_	61	mark	_	TokenRange=277:280
+59	o	o	DET	DET	_	60	det	_	TokenRange=281:282
+60	sr	sr	NOUN	NOUN	_	61	nsubj	_	TokenRange=283:285
+61	tentou	tentar	VERB	VERB	_	53	acl:relcl	_	TokenRange=286:292
+62	isentar	isentar	VERB	VERB	_	61	xcomp	_	TokenRange=293:300
+63	esta	_	PRON	PRON	_	62	obj	_	TokenRange=301:305
+64	em	em	ADP	ADP	_	65	case	_	TokenRange=306:308
+65	cana	cana	NOUN	NOUN	_	62	nmod	_	TokenRange=309:313
+66	o	o	DET	DET	_	67	det	_	TokenRange=314:315
+67	ze	_	NOUN	NOUN	_	61	nsubj	_	TokenRange=316:318
+68	dirceu	_	ADJ	VERB	_	69	amod	_	TokenRange=319:325
+69	figura	figura	NOUN	NOUN	_	81	nsubj	_	TokenRange=326:332
+70	mais	mais	ADV	ADV	_	71	advmod	_	TokenRange=333:337
+71	importante	importante	ADJ	ADJ	_	69	amod	_	TokenRange=338:348
+72-73	do	_	_	_	_	_	_	_	TokenRange=349:351
+72	de	de	ADP	ADP	_	75	case	_	_
+73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
+74	seu	_	DET	DET	_	75	det:poss	_	TokenRange=352:355
+75	partido	partido	NOUN	NOUN	_	69	nmod	_	TokenRange=356:363
+76	esta	_	PRON	PRON	_	81	nsubj	_	TokenRange=364:368
+77	em	em	ADP	ADP	_	78	case	_	TokenRange=369:371
+78	cana	cana	NOUN	NOUN	_	76	nmod	_	TokenRange=372:376
+79	disse	dizer	VERB	VERB	_	53	acl:relcl	_	TokenRange=377:382
+80	boechat	boechat	NOUN	NOUN	_	81	nsubj	_	TokenRange=383:390
+81	confira	conferir	VERB	VERB	_	79	ccomp	_	SpacesAfter=\s\s|TokenRange=391:398
+

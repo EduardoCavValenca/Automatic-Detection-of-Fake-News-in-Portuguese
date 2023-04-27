@@ -1,0 +1,68 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rn registra 87 mortes violentas desde o inicio da paralisacao de policiais numero e 403 maior do que o registrado no mesmo periodo do ano passado quando foram contabilizadas 62 mortes o rio grande do norte registrou 87 homicidios desde o inicio da paralisacao da policia
+1	rn	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:2
+2	registra	registrar	VERB	VERB	_	0	root	_	TokenRange=3:11
+3	87	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=12:14
+4	mortes	morte	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+5	violentas	violento	ADJ	ADJ	_	4	amod	_	TokenRange=22:31
+6	desde	_	ADP	ADP	_	8	case	_	TokenRange=32:37
+7	o	o	DET	DET	_	8	det	_	TokenRange=38:39
+8	inicio	_	NOUN	NOUN	_	2	nmod	_	TokenRange=40:46
+9-10	da	_	_	_	_	_	_	_	TokenRange=47:49
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	paralisacao	paralisacao	NOUN	NOUN	_	8	nmod	_	TokenRange=50:61
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=62:64
+13	policiais	policial	NOUN	NOUN	_	11	nmod	_	TokenRange=65:74
+14	numero	numero	NOUN	NOUN	_	4	appos	_	TokenRange=75:81
+15	e	e	CCONJ	CONJ	_	16	cc	_	TokenRange=82:83
+16	403	_	NUM	NUM	NumType=Card	14	conj	_	TokenRange=84:87
+17	maior	maior	ADJ	ADJ	_	14	amod	_	TokenRange=88:93
+18-19	do	_	_	_	_	_	_	_	TokenRange=94:96
+18	de	de	ADP	ADP	_	22	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+20	que	_	ADP	ADP	_	18	fixed	_	TokenRange=97:100
+21	o	o	DET	DET	_	22	det	_	TokenRange=101:102
+22	registrado	_	NOUN	NOUN	_	17	nmod	_	TokenRange=103:113
+23-24	no	_	_	_	_	_	_	_	TokenRange=114:116
+23	em	em	ADP	ADP	_	26	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	mesmo	mesmo	ADJ	ADJ	_	26	amod	_	TokenRange=117:122
+26	periodo	periodo	NOUN	NOUN	_	22	nmod	_	TokenRange=123:130
+27-28	do	_	_	_	_	_	_	_	TokenRange=131:133
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ano	ano	NOUN	NOUN	_	26	nmod	_	TokenRange=134:137
+30	passado	passado	ADJ	ADJ	_	29	amod	_	TokenRange=138:145
+31	quando	quando	ADV	ADV	_	33	advmod	_	TokenRange=146:152
+32	foram	_	AUX	AUX	_	33	aux:pass	_	TokenRange=153:158
+33	contabilizadas	contabilizar	VERB	VERB	_	22	acl:relcl	_	TokenRange=159:173
+34	62	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=174:176
+35	mortes	morte	NOUN	NOUN	_	33	nsubj:pass	_	TokenRange=177:183
+36	o	o	DET	DET	_	37	det	_	TokenRange=184:185
+37	rio	rio	NOUN	NOUN	_	42	nsubj	_	TokenRange=186:189
+38	grande	grande	ADJ	ADJ	_	37	amod	_	TokenRange=190:196
+39-40	do	_	_	_	_	_	_	_	TokenRange=197:199
+39	de	de	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	norte	norte	NOUN	NOUN	_	37	nmod	_	TokenRange=200:205
+42	registrou	registrar	VERB	VERB	_	2	parataxis	_	TokenRange=206:215
+43	87	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=216:218
+44	homicidios	homicidio	NOUN	NOUN	_	42	obj	_	TokenRange=219:229
+45	desde	_	ADP	ADP	_	47	case	_	TokenRange=230:235
+46	o	o	DET	DET	_	47	det	_	TokenRange=236:237
+47	inicio	inicio	NOUN	NOUN	_	42	nmod	_	TokenRange=238:244
+48-49	da	_	_	_	_	_	_	_	TokenRange=245:247
+48	de	de	ADP	ADP	_	50	case	_	_
+49	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	paralisacao	paralisacao	NOUN	NOUN	_	47	nmod	_	TokenRange=248:259
+51-52	da	_	_	_	_	_	_	_	TokenRange=260:262
+51	de	de	ADP	ADP	_	53	case	_	_
+52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	policia	policia	NOUN	NOUN	_	50	nmod	_	SpacesAfter=\s\s|TokenRange=263:270
+

@@ -1,0 +1,29 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pronto desde 2007 projeto do contorno ferroviario de divinopolis precisa ser revisado dnit afirma que nao existe recursos orcamentarios
+1	pronto	pronto	ADJ	ADJ	_	11	xcomp	_	TokenRange=0:6
+2	desde	_	ADP	ADP	_	3	case	_	TokenRange=7:12
+3	2007	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=13:17
+4	projeto	projeto	NOUN	NOUN	_	11	nsubj	_	TokenRange=18:25
+5-6	do	_	_	_	_	_	_	_	TokenRange=26:28
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	contorno	contorno	NOUN	NOUN	_	4	nmod	_	TokenRange=29:37
+8	ferroviario	ferroviario	ADJ	ADJ	_	7	amod	_	TokenRange=38:49
+9	de	de	ADP	ADP	_	10	case	_	TokenRange=50:52
+10	divinopolis	_	NOUN	NOUN	_	7	nmod	_	TokenRange=53:64
+11	precisa	precisar	VERB	VERB	_	15	ccomp	_	TokenRange=65:72
+12	ser	ser	AUX	AUX	_	13	aux:pass	_	TokenRange=73:76
+13	revisado	revisar	VERB	VERB	_	11	xcomp	_	TokenRange=77:85
+14	dnit	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=86:90
+15	afirma	afirmar	VERB	VERB	_	0	root	_	TokenRange=91:97
+16	que	que	CCONJ	CONJ	_	18	mark	_	TokenRange=98:101
+17	nao	nao	ADV	ADV	Polarity=Neg	18	advmod	_	TokenRange=102:105
+18	existe	existir	VERB	VERB	_	15	ccomp	_	TokenRange=106:112
+19	recursos	recurso	NOUN	NOUN	_	18	nsubj	_	TokenRange=113:121
+20	orcamentarios	orcamentario	ADJ	ADJ	_	19	amod	_	SpacesAfter=\s\s|TokenRange=122:135
+

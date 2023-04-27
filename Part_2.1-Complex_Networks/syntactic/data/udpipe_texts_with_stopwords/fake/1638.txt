@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = angustiado e doente russo morre aos 85 anos a globo foi covarde eles me abandonaram antonio pedro de souza que dedicou 45 anos de sua vida a rede globo faleceu aos 85 anos vitima de uma pneumonia em 2015 quando a globo comemorava seus 50 anos russo foi demitido da globo e desabafou me deixaram sem pai nem mae foram covardes eu nao queria parar de trabalhar descanse em paz antonio pedro o povo sabe quem foi voce e sempre te valorizou
+1	angustiado	angustiado	ADJ	ADJ	_	5	amod	_	TokenRange=0:10
+2	e	e	CCONJ	CONJ	_	3	cc	_	TokenRange=11:12
+3	doente	doente	ADJ	ADJ	_	1	conj	_	TokenRange=13:19
+4	russo	russo	ADJ	NOUN	_	5	nsubj	_	TokenRange=20:25
+5	morre	morrer	VERB	VERB	_	0	root	_	TokenRange=26:31
+6-7	aos	_	_	_	_	_	_	_	TokenRange=32:35
+6	a	a	ADP	ADP	_	9	case	_	_
+7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	85	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=36:38
+9	anos	ano	NOUN	NOUN	_	5	nmod	_	TokenRange=39:43
+10	a	o	DET	DET	_	11	det	_	TokenRange=44:45
+11	globo	globo	NOUN	NOUN	_	5	nsubj	_	TokenRange=46:51
+12	foi	_	VERB	VERB	_	5	parataxis	_	TokenRange=52:55
+13	covarde	covarde	ADJ	ADJ	_	12	xcomp	_	TokenRange=56:63
+14	eles	_	PRON	PRON	_	16	nsubj	_	TokenRange=64:68
+15	me	_	PRON	PRON	_	16	obj	_	TokenRange=69:71
+16	abandonaram	abandonar	VERB	VERB	_	12	csubj	_	TokenRange=72:83
+17	antonio	antonio	NOUN	NOUN	_	16	nmod	_	TokenRange=84:91
+18	pedro	pedro	NOUN	NOUN	_	17	flat	_	TokenRange=92:97
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=98:100
+20	souza	souza	NOUN	NOUN	_	18	nmod	_	TokenRange=101:106
+21	que	_	PRON	PRON	_	22	nsubj	_	TokenRange=107:110
+22	dedicou	dedicar	VERB	VERB	_	17	acl:relcl	_	TokenRange=111:118
+23	45	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=119:121
+24	anos	ano	NOUN	NOUN	_	22	obj	_	TokenRange=122:126
+25	de	de	ADP	ADP	_	27	case	_	TokenRange=127:129
+26	sua	_	DET	DET	_	27	det:poss	_	TokenRange=130:133
+27	vida	vida	NOUN	NOUN	_	24	nmod	_	TokenRange=134:138
+28	a	_	ADP	ADP	_	29	case	_	TokenRange=139:140
+29	rede	rede	NOUN	NOUN	_	31	nmod	_	TokenRange=141:145
+30	globo	globo	ADJ	ADJ	_	29	amod	_	TokenRange=146:151
+31	faleceu	falecer	VERB	VERB	_	22	conj	_	TokenRange=152:159
+32-33	aos	_	_	_	_	_	_	_	TokenRange=160:163
+32	a	a	ADP	ADP	_	35	case	_	_
+33	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+34	85	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=164:166
+35	anos	ano	NOUN	NOUN	_	31	nmod	_	TokenRange=167:171
+36	vitima	vitima	NOUN	NOUN	_	31	obj	_	TokenRange=172:178
+37	de	de	ADP	ADP	_	39	case	_	TokenRange=179:181
+38	uma	um	DET	DET	_	39	det	_	TokenRange=182:185
+39	pneumonia	pneumonia	NOUN	NOUN	_	36	nmod	_	TokenRange=186:195
+40	em	em	ADP	ADP	_	41	case	_	TokenRange=196:198
+41	2015	_	NUM	NUM	NumType=Card	31	nmod	_	TokenRange=199:203
+42	quando	_	CCONJ	CONJ	_	45	mark	_	TokenRange=204:210
+43	a	o	DET	DET	_	44	det	_	TokenRange=211:212
+44	globo	globo	NOUN	NOUN	_	45	nsubj	_	TokenRange=213:218
+45	comemorava	comemorar	VERB	VERB	_	31	advcl	_	TokenRange=219:229
+46	seus	_	DET	DET	_	48	det:poss	_	TokenRange=230:234
+47	50	_	NUM	NUM	NumType=Card	48	nummod	_	TokenRange=235:237
+48	anos	ano	NOUN	NOUN	_	45	obj	_	TokenRange=238:242
+49	russo	russo	ADJ	ADJ	_	48	amod	_	TokenRange=243:248
+50	foi	_	AUX	AUX	_	51	aux:pass	_	TokenRange=249:252
+51	demitido	demitir	VERB	VERB	_	31	advcl	_	TokenRange=253:261
+52-53	da	_	_	_	_	_	_	_	TokenRange=262:264
+52	de	de	ADP	ADP	_	54	case	_	_
+53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	globo	globo	NOUN	NOUN	_	51	nmod	_	TokenRange=265:270
+55	e	e	CCONJ	CONJ	_	56	cc	_	TokenRange=271:272
+56	desabafou	desabafar	VERB	VERB	_	51	conj	_	TokenRange=273:282
+57	me	_	PRON	PRON	_	58	obj	_	TokenRange=283:285
+58	deixaram	deixar	VERB	VERB	_	56	conj	_	TokenRange=286:294
+59	sem	_	ADP	ADP	_	60	case	_	TokenRange=295:298
+60	pai	pai	NOUN	NOUN	_	58	nmod	_	TokenRange=299:302
+61	nem	_	CCONJ	CONJ	_	62	cc	_	TokenRange=303:306
+62	mae	mae	NOUN	NOUN	_	60	conj	_	TokenRange=307:310
+63	foram	_	VERB	VERB	_	51	conj	_	TokenRange=311:316
+64	covardes	covarde	ADJ	ADJ	_	63	xcomp	_	TokenRange=317:325
+65	eu	_	PRON	PRON	_	67	nsubj	_	TokenRange=326:328
+66	nao	nao	ADV	ADV	Polarity=Neg	67	advmod	_	TokenRange=329:332
+67	queria	querer	VERB	VERB	_	63	csubj	_	TokenRange=333:339
+68	parar	parar	VERB	VERB	_	67	xcomp	_	TokenRange=340:345
+69	de	_	ADP	ADP	_	70	mark	_	TokenRange=346:348
+70	trabalhar	trabalhar	VERB	VERB	_	68	nmod	_	TokenRange=349:358
+71	descanse	descansar	VERB	VERB	_	70	obj	_	TokenRange=359:367
+72	em	em	ADP	ADP	_	73	case	_	TokenRange=368:370
+73	paz	paz	NOUN	NOUN	_	71	nmod	_	TokenRange=371:374
+74	antonio	_	ADJ	NOUN	_	71	nmod	_	TokenRange=375:382
+75	pedro	pedro	NOUN	NOUN	_	74	flat	_	TokenRange=383:388
+76	o	o	DET	DET	_	77	det	_	TokenRange=389:390
+77	povo	povo	NOUN	NOUN	_	78	nsubj	_	TokenRange=391:395
+78	sabe	saber	VERB	VERB	_	51	parataxis	_	TokenRange=396:400
+79	quem	_	PRON	PRON	_	78	ccomp	_	TokenRange=401:405
+80	foi	_	AUX	AUX	_	79	cop	_	TokenRange=406:409
+81	voce	_	PRON	PRON	_	79	nsubj	_	TokenRange=410:414
+82	e	e	CCONJ	CONJ	_	85	cc	_	TokenRange=415:416
+83	sempre	sempre	ADV	ADV	_	85	advmod	_	TokenRange=417:423
+84	te	_	PRON	PRON	_	85	obj	_	TokenRange=424:426
+85	valorizou	valorizar	VERB	VERB	_	79	conj	_	TokenRange=427:436
+

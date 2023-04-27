@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula debocha chama procuradora de querida e leva um fumo historico em primeiro lugar gostariamos de destacar a educacao e o comportamento da procuradora que se refere a lula como senhor expresidente ja lula com aquela educacao de berco e sarcasmo que lhe e peculiar faz deboche quando se refere a terceiros confira
+1	lula	lula	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	debocha	_	NOUN	NOUN	_	1	amod	_	TokenRange=5:12
+3	chama	chamar	VERB	VERB	_	0	root	_	TokenRange=13:18
+4	procuradora	procurador	NOUN	NOUN	_	3	obj	_	TokenRange=19:30
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=31:33
+6	querida	querido	NOUN	NOUN	_	3	nmod	_	TokenRange=34:41
+7	e	e	CCONJ	CONJ	_	8	cc	_	TokenRange=42:43
+8	leva	levar	VERB	VERB	_	3	conj	_	TokenRange=44:48
+9	um	um	DET	DET	_	10	det	_	TokenRange=49:51
+10	fumo	fumo	NOUN	NOUN	_	8	obj	_	TokenRange=52:56
+11	historico	historico	ADJ	ADJ	_	10	amod	_	TokenRange=57:66
+12	em	em	ADP	ADP	_	14	case	_	TokenRange=67:69
+13	primeiro	primeiro	ADJ	ADJ	_	14	amod	_	TokenRange=70:78
+14	lugar	lugar	NOUN	NOUN	_	8	nmod	_	TokenRange=79:84
+15	gostariamos	gostariar	AUX	AUX	_	17	aux	_	TokenRange=85:96
+16	de	_	ADP	ADP	_	17	mark	_	TokenRange=97:99
+17	destacar	destacar	VERB	VERB	_	3	nmod	_	TokenRange=100:108
+18	a	o	DET	DET	_	19	det	_	TokenRange=109:110
+19	educacao	educacao	NOUN	NOUN	_	17	obj	_	TokenRange=111:119
+20	e	e	CCONJ	CONJ	_	22	cc	_	TokenRange=120:121
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	TokenRange=122:123
+22	comportamento	comportamento	NOUN	NOUN	_	19	conj	_	TokenRange=124:137
+23-24	da	_	_	_	_	_	_	_	TokenRange=138:140
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	procuradora	procurador	NOUN	NOUN	_	22	nmod	_	TokenRange=141:152
+26	que	_	PRON	PRON	_	28	nsubj	_	TokenRange=153:156
+27	se	_	PRON	PRON	_	28	expl:pv	_	TokenRange=157:159
+28	refere	referir	VERB	VERB	_	25	acl:relcl	_	TokenRange=160:166
+29	a	_	ADP	ADP	_	30	case	_	TokenRange=167:168
+30	lula	lula	NOUN	NOUN	_	28	nmod	_	TokenRange=169:173
+31	como	como	ADP	ADP	_	32	case	_	TokenRange=174:178
+32	senhor	senhor	NOUN	NOUN	_	28	nmod	_	TokenRange=179:185
+33	expresidente	expresidente	NOUN	NOUN	_	32	amod	_	TokenRange=186:198
+34	ja	ja	ADV	ADV	_	35	cc	_	TokenRange=199:201
+35	lula	_	NOUN	NOUN	_	17	conj	_	TokenRange=202:206
+36	com	com	ADP	ADP	_	38	case	_	TokenRange=207:210
+37	aquela	_	DET	DET	_	38	det	_	TokenRange=211:217
+38	educacao	educacao	NOUN	NOUN	_	35	nmod	_	TokenRange=218:226
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=227:229
+40	berco	berco	NOUN	NOUN	_	38	nmod	_	TokenRange=230:235
+41	e	e	CCONJ	CONJ	_	42	cc	_	TokenRange=236:237
+42	sarcasmo	sarcasmo	NOUN	NOUN	_	38	conj	_	TokenRange=238:246
+43	que	_	PRON	PRON	_	47	nsubj	_	TokenRange=247:250
+44	lhe	_	PRON	PRON	_	46	iobj	_	TokenRange=251:254
+45	e	e	CCONJ	CONJ	_	46	cc	_	TokenRange=255:256
+46	peculiar	peculiar	ADJ	ADJ	_	42	amod	_	TokenRange=257:265
+47	faz	fazer	VERB	VERB	_	35	conj	_	TokenRange=266:269
+48	deboche	deboche	NOUN	NOUN	_	47	obj	_	TokenRange=270:277
+49	quando	_	CCONJ	CONJ	_	51	mark	_	TokenRange=278:284
+50	se	_	PRON	PRON	_	51	expl:pv	_	TokenRange=285:287
+51	refere	referir	VERB	VERB	_	54	advcl	_	TokenRange=288:294
+52	a	_	ADP	ADP	_	53	case	_	TokenRange=295:296
+53	terceiros	terceiro	NOUN	NOUN	_	51	nmod	_	TokenRange=297:306
+54	confira	conferir	VERB	VERB	_	47	advcl	_	TokenRange=307:314
+

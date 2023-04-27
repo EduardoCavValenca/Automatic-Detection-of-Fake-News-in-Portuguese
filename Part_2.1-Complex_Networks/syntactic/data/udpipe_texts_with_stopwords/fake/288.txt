@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = thiago lacerda solta o verbo artistas defendem o pt para nao perder a boquinha na lei rouanet o ator thiago lacerda usou seu twitter e disse tudo aquilo que estava entalado na garganta dele e de muitos brasileiros thiago ja se manifestou outras vezes em suas redes sociais na maioria delas nao defendeu candidato a ou b e sempre disse aquilo que pensa desta vez a cobra fumou sobrou ate para os colegas de profissao
+1	thiago	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	lacerda	lacerda	NOUN	NOUN	_	1	flat	_	TokenRange=7:14
+3	solta	soltar	VERB	VERB	_	0	root	_	TokenRange=15:20
+4	o	o	DET	DET	_	5	det	_	TokenRange=21:22
+5	verbo	verbo	NOUN	NOUN	_	3	obj	_	TokenRange=23:28
+6	artistas	artista	NOUN	NOUN	_	5	appos	_	TokenRange=29:37
+7	defendem	defender	VERB	VERB	_	3	parataxis	_	TokenRange=38:46
+8	o	o	DET	DET	_	9	det	_	TokenRange=47:48
+9	pt	_	NOUN	NOUN	_	7	obj	_	TokenRange=49:51
+10	para	_	ADP	ADP	_	12	mark	_	TokenRange=52:56
+11	nao	nao	ADV	ADV	Polarity=Neg	12	advmod	_	TokenRange=57:60
+12	perder	perder	VERB	VERB	_	7	advcl	_	TokenRange=61:67
+13	a	o	DET	DET	_	14	det	_	TokenRange=68:69
+14	boquinha	boquinha	NOUN	NOUN	_	12	obj	_	TokenRange=70:78
+15-16	na	_	_	_	_	_	_	_	TokenRange=79:81
+15	em	em	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	lei	lei	NOUN	NOUN	_	12	nmod	_	TokenRange=82:85
+18	rouanet	_	ADJ	ADJ	_	17	amod	_	TokenRange=86:93
+19	o	o	DET	DET	_	20	det	_	TokenRange=94:95
+20	ator	ator	NOUN	NOUN	_	23	nsubj	_	TokenRange=96:100
+21	thiago	_	NOUN	NOUN	_	20	appos	_	TokenRange=101:107
+22	lacerda	lacerda	NOUN	NOUN	_	21	flat	_	TokenRange=108:115
+23	usou	usar	VERB	VERB	_	3	parataxis	_	TokenRange=116:120
+24	seu	_	DET	DET	_	25	det:poss	_	TokenRange=121:124
+25	twitter	_	PROPN	PNOUN	_	23	obj	_	TokenRange=125:132
+26	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=133:134
+27	disse	dizer	VERB	VERB	_	23	conj	_	TokenRange=135:140
+28	tudo	_	PRON	PRON	_	29	det	_	TokenRange=141:145
+29	aquilo	_	PRON	PRON	_	27	obj	_	TokenRange=146:152
+30	que	_	PRON	PRON	_	31	nsubj	_	TokenRange=153:156
+31	estava	estar	VERB	VERB	_	29	acl:relcl	_	TokenRange=157:163
+32	entalado	entalado	ADJ	ADJ	_	31	xcomp	_	TokenRange=164:172
+33-34	na	_	_	_	_	_	_	_	TokenRange=173:175
+33	em	em	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	garganta	garganta	NOUN	NOUN	_	31	nmod	_	TokenRange=176:184
+36	dele	_	X	ADPPRON	_	35	det:poss	_	TokenRange=185:189
+37	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=190:191
+38	de	de	ADP	ADP	_	40	case	_	TokenRange=192:194
+39	muitos	_	DET	DET	_	40	det	_	TokenRange=195:201
+40	brasileiros	brasileiro	NOUN	NOUN	_	35	conj	_	TokenRange=202:213
+41	thiago	_	NOUN	NOUN	_	44	nsubj	_	TokenRange=214:220
+42	ja	ja	ADV	ADV	_	44	advmod	_	TokenRange=221:223
+43	se	_	PRON	PRON	_	44	expl:pv	_	TokenRange=224:226
+44	manifestou	manifestar	VERB	VERB	_	23	conj	_	TokenRange=227:237
+45	outras	_	DET	DET	_	46	det	_	TokenRange=238:244
+46	vezes	vez	NOUN	NOUN	_	44	nmod	_	TokenRange=245:250
+47	em	em	ADP	ADP	_	49	case	_	TokenRange=251:253
+48	suas	_	DET	DET	_	49	det:poss	_	TokenRange=254:258
+49	redes	rede	NOUN	NOUN	_	44	nmod	_	TokenRange=259:264
+50	sociais	social	ADJ	ADJ	_	49	amod	_	TokenRange=265:272
+51-52	na	_	_	_	_	_	_	_	TokenRange=273:275
+51	em	em	ADP	ADP	_	53	case	_	_
+52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	maioria	maioria	NOUN	NOUN	_	56	nmod	_	TokenRange=276:283
+54	delas	_	X	ADPPRON	_	53	nmod	_	TokenRange=284:289
+55	nao	nao	ADV	ADV	Polarity=Neg	56	advmod	_	TokenRange=290:293
+56	defendeu	defender	VERB	VERB	_	44	advcl	_	TokenRange=294:302
+57	candidato	candidato	NOUN	NOUN	_	56	obj	_	TokenRange=303:312
+58	a	_	ADP	ADP	_	60	case	_	TokenRange=313:314
+59	ou	ou	CCONJ	CONJ	_	60	cc	_	TokenRange=315:317
+60	b	_	NOUN	NOUN	_	57	conj	_	TokenRange=318:319
+61	e	e	CCONJ	CONJ	_	63	cc	_	TokenRange=320:321
+62	sempre	sempre	ADV	ADV	_	63	advmod	_	TokenRange=322:328
+63	disse	dizer	VERB	VERB	_	56	conj	_	TokenRange=329:334
+64	aquilo	_	PRON	PRON	_	63	obj	_	TokenRange=335:341
+65	que	_	PRON	PRON	_	66	obj	_	TokenRange=342:345
+66	pensa	pensar	VERB	VERB	_	64	acl:relcl	_	TokenRange=346:351
+67	desta	_	ADP	ADP	_	68	case	_	TokenRange=352:357
+68	vez	vez	NOUN	NOUN	_	66	nmod	_	TokenRange=358:361
+69	a	o	DET	DET	_	70	det	_	TokenRange=362:363
+70	cobra	cobra	NOUN	NOUN	_	71	nsubj	_	TokenRange=364:369
+71	fumou	fumar	VERB	VERB	_	63	ccomp	_	TokenRange=370:375
+72	sobrou	sobrar	VERB	VERB	_	63	conj	_	TokenRange=376:382
+73	ate	ate	ADV	ADV	_	72	advmod	_	TokenRange=383:386
+74	para	para	ADP	ADP	_	76	case	_	TokenRange=387:391
+75	os	o	DET	DET	_	76	det	_	TokenRange=392:394
+76	colegas	colega	NOUN	NOUN	_	72	nmod	_	TokenRange=395:402
+77	de	de	ADP	ADP	_	78	case	_	TokenRange=403:405
+78	profissao	profissao	NOUN	NOUN	_	76	nmod	_	TokenRange=406:415
+

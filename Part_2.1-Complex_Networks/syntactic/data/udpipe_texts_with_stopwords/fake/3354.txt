@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos paulo betti propor vaquinha para ajudar dilma ator otavio augusto entra no pareo a infelicidade de paulo betti ao propor que os brasileiros fizessem uma vaquinha para tapar o rombo fiscal do governo dilma leia aqui fez com que seu colega de profissao o ator global otavio augusto entrasse no jogo com uma proposta um pouco mais sensata e inteligente
+1	apos	_	CCONJ	CONJ	_	4	mark	_	TokenRange=0:4
+2	paulo	_	DET	DET	_	4	nsubj	_	TokenRange=5:10
+3	betti	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=11:16
+4	propor	propor	VERB	VERB	_	12	advcl	_	TokenRange=17:23
+5	vaquinha	vaquinha	NOUN	NOUN	_	4	obj	_	TokenRange=24:32
+6	para	_	ADP	ADP	_	7	mark	_	TokenRange=33:37
+7	ajudar	ajudar	VERB	VERB	_	4	advcl	_	TokenRange=38:44
+8	dilma	dilma	NOUN	NOUN	_	7	obj	_	TokenRange=45:50
+9	ator	ator	NOUN	NOUN	_	8	flat	_	TokenRange=51:55
+10	otavio	otavio	NOUN	NOUN	_	9	appos	_	TokenRange=56:62
+11	augusto	_	NOUN	NOUN	_	10	flat	_	TokenRange=63:70
+12	entra	entrar	VERB	VERB	_	0	root	_	TokenRange=71:76
+13-14	no	_	_	_	_	_	_	_	TokenRange=77:79
+13	em	em	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pareo	_	NOUN	NOUN	_	12	nmod	_	TokenRange=80:85
+16	a	o	DET	DET	_	17	det	_	TokenRange=86:87
+17	infelicidade	infelicidade	NOUN	NOUN	_	12	obj	_	TokenRange=88:100
+18	de	de	ADP	ADP	_	19	case	_	TokenRange=101:103
+19	paulo	paulo	NOUN	NOUN	_	17	nmod	_	TokenRange=104:109
+20	betti	_	NOUN	NOUN	_	19	flat	_	TokenRange=110:115
+21-22	ao	_	_	_	_	_	_	_	TokenRange=116:118
+21	a	a	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	propor	propor	VERB	VERB	_	12	advcl	_	TokenRange=119:125
+24	que	que	CCONJ	CONJ	_	27	mark	_	TokenRange=126:129
+25	os	o	DET	DET	_	26	det	_	TokenRange=130:132
+26	brasileiros	brasileiro	NOUN	NOUN	_	27	nsubj	_	TokenRange=133:144
+27	fizessem	fazer	VERB	VERB	_	23	ccomp	_	TokenRange=145:153
+28	uma	um	DET	DET	_	29	det	_	TokenRange=154:157
+29	vaquinha	vaquinha	NOUN	NOUN	_	27	obj	_	TokenRange=158:166
+30	para	_	ADP	ADP	_	31	mark	_	TokenRange=167:171
+31	tapar	tapar	VERB	VERB	_	27	advcl	_	TokenRange=172:177
+32	o	o	DET	DET	_	33	det	_	TokenRange=178:179
+33	rombo	rombo	NOUN	NOUN	_	31	obj	_	TokenRange=180:185
+34	fiscal	fiscal	ADJ	ADJ	_	33	amod	_	TokenRange=186:192
+35-36	do	_	_	_	_	_	_	_	TokenRange=193:195
+35	de	de	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	governo	governo	NOUN	NOUN	_	33	nmod	_	TokenRange=196:203
+38	dilma	dilma	NOUN	NOUN	_	37	appos	_	TokenRange=204:209
+39	leia	ler	VERB	VERB	_	23	ccomp	_	TokenRange=210:214
+40	aqui	aqui	ADV	ADV	_	41	advmod	_	TokenRange=215:219
+41	fez	fazer	VERB	VERB	_	12	parataxis	_	TokenRange=220:223
+42	com	_	ADP	ADP	_	53	mark	_	TokenRange=224:227
+43	que	que	CCONJ	CONJ	_	53	mark	_	TokenRange=228:231
+44	seu	_	DET	DET	_	45	det:poss	_	TokenRange=232:235
+45	colega	colega	NOUN	NOUN	_	53	nsubj	_	TokenRange=236:242
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=243:245
+47	profissao	profissao	NOUN	NOUN	_	45	nmod	_	TokenRange=246:255
+48	o	o	DET	DET	_	49	det	_	TokenRange=256:257
+49	ator	ator	NOUN	NOUN	_	45	appos	_	TokenRange=258:262
+50	global	global	ADJ	ADJ	_	49	amod	_	TokenRange=263:269
+51	otavio	otavio	NOUN	NOUN	_	49	appos	_	TokenRange=270:276
+52	augusto	augusto	ADJ	NOUN	_	51	flat	_	TokenRange=277:284
+53	entrasse	entrar	VERB	VERB	_	41	nmod	_	TokenRange=285:293
+54-55	no	_	_	_	_	_	_	_	TokenRange=294:296
+54	em	em	ADP	ADP	_	56	case	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	jogo	jogo	NOUN	NOUN	_	53	nmod	_	TokenRange=297:301
+57	com	com	ADP	ADP	_	59	case	_	TokenRange=302:305
+58	uma	um	DET	DET	_	59	det	_	TokenRange=306:309
+59	proposta	_	NOUN	NOUN	_	53	nmod	_	TokenRange=310:318
+60	um	um	DET	DET	_	61	det	_	TokenRange=319:321
+61	pouco	pouco	NOUN	NOUN	_	62	advmod	_	TokenRange=322:327
+62	mais	mais	ADV	ADV	_	63	advmod	_	TokenRange=328:332
+63	sensata	sensato	ADJ	ADJ	_	59	amod	_	TokenRange=333:340
+64	e	e	CCONJ	CONJ	_	65	cc	_	TokenRange=341:342
+65	inteligente	inteligente	ADJ	ADJ	_	63	conj	_	TokenRange=343:354
+

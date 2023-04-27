@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = msc inaugura gemeo de navio que fara parte da temporada brasileira em 2018 apesar do forte investimento no mercado brasileiro e da chegada de novos navios armadora se preocupa com as condicoes dos portos brasileiros o porto de santos no litoral de sao paulo ganhara um novo atrativo na proxima temporada de cruzeiros o msc seaview com lancamento previsto para o primeiro semestre de 2018
+1	msc	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	inaugura	inaugurar	VERB	VERB	_	0	root	_	TokenRange=4:12
+3	gemeo	gemeo	NOUN	NOUN	_	2	obj	_	TokenRange=13:18
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=19:21
+5	navio	navio	NOUN	NOUN	_	3	nmod	_	TokenRange=22:27
+6	que	_	PRON	PRON	_	7	nsubj	_	TokenRange=28:31
+7	fara	_	VERB	VERB	_	3	acl:relcl	_	TokenRange=32:36
+8	parte	parte	NOUN	NOUN	_	7	obj	_	TokenRange=37:42
+9-10	da	_	_	_	_	_	_	_	TokenRange=43:45
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	temporada	temporada	NOUN	NOUN	_	8	nmod	_	TokenRange=46:55
+12	brasileira	brasileiro	ADJ	ADJ	_	11	amod	_	TokenRange=56:66
+13	em	em	ADP	ADP	_	14	case	_	TokenRange=67:69
+14	2018	_	NUM	NUM	NumType=Card	7	nmod	_	TokenRange=70:74
+15	apesar	apesar	ADV	ADV	_	19	case	_	TokenRange=75:81
+16-17	do	_	_	_	_	_	_	_	TokenRange=82:84
+16	de	de	ADP	ADP	_	15	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+18	forte	forte	ADJ	ADJ	_	19	amod	_	TokenRange=85:90
+19	investimento	investimento	NOUN	NOUN	_	33	nmod	_	TokenRange=91:103
+20-21	no	_	_	_	_	_	_	_	TokenRange=104:106
+20	em	em	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mercado	mercado	NOUN	NOUN	_	19	nmod	_	TokenRange=107:114
+23	brasileiro	brasileiro	ADJ	ADJ	_	22	amod	_	TokenRange=115:125
+24	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=126:127
+25-26	da	_	_	_	_	_	_	_	TokenRange=128:130
+25	de	de	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	chegada	chegada	NOUN	NOUN	_	19	conj	_	TokenRange=131:138
+28	de	de	ADP	ADP	_	30	case	_	TokenRange=139:141
+29	novos	novo	ADJ	ADJ	_	30	amod	_	TokenRange=142:147
+30	navios	navio	NOUN	NOUN	_	27	nmod	_	TokenRange=148:154
+31	armadora	armador	ADJ	ADJ	_	30	amod	_	TokenRange=155:163
+32	se	_	PRON	PRON	_	33	expl:pv	_	TokenRange=164:166
+33	preocupa	preocupar	VERB	VERB	_	2	conj	_	TokenRange=167:175
+34	com	com	ADP	ADP	_	36	case	_	TokenRange=176:179
+35	as	o	DET	DET	_	36	det	_	TokenRange=180:182
+36	condicoes	_	NOUN	NOUN	_	33	nmod	_	TokenRange=183:192
+37-38	dos	_	_	_	_	_	_	_	TokenRange=193:196
+37	de	de	ADP	ADP	_	39	case	_	_
+38	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	portos	porto	NOUN	NOUN	_	36	nmod	_	TokenRange=197:203
+40	brasileiros	brasileiro	ADJ	ADJ	_	39	amod	_	TokenRange=204:215
+41	o	o	DET	DET	_	42	det	_	TokenRange=216:217
+42	porto	porto	NOUN	NOUN	_	51	nsubj	_	TokenRange=218:223
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=224:226
+44	santos	santo	NOUN	NOUN	_	42	nmod	_	TokenRange=227:233
+45-46	no	_	_	_	_	_	_	_	TokenRange=234:236
+45	em	em	ADP	ADP	_	47	case	_	_
+46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	litoral	litoral	NOUN	NOUN	_	42	nmod	_	TokenRange=237:244
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=245:247
+49	sao	sao	NOUN	NOUN	_	47	nmod	_	TokenRange=248:251
+50	paulo	paulo	ADJ	ADJ	_	49	amod	_	TokenRange=252:257
+51	ganhara	ganhar	VERB	VERB	_	2	parataxis	_	TokenRange=258:265
+52	um	um	DET	DET	_	54	det	_	TokenRange=266:268
+53	novo	novo	ADJ	ADJ	_	54	amod	_	TokenRange=269:273
+54	atrativo	atrativo	NOUN	NOUN	_	51	obj	_	TokenRange=274:282
+55-56	na	_	_	_	_	_	_	_	TokenRange=283:285
+55	em	em	ADP	ADP	_	58	case	_	_
+56	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+57	proxima	proximo	ADJ	ADJ	_	58	amod	_	TokenRange=286:293
+58	temporada	temporada	NOUN	NOUN	_	51	nmod	_	TokenRange=294:303
+59	de	de	ADP	ADP	_	60	case	_	TokenRange=304:306
+60	cruzeiros	cruzeiro	NOUN	NOUN	_	58	nmod	_	TokenRange=307:316
+61	o	o	DET	DET	_	62	det	_	TokenRange=317:318
+62	msc	_	NOUN	NOUN	_	51	obj	_	TokenRange=319:322
+63	seaview	_	NOUN	NOUN	_	62	flat	_	TokenRange=323:330
+64	com	com	ADP	ADP	_	65	case	_	TokenRange=331:334
+65	lancamento	lancamento	NOUN	NOUN	_	62	nmod	_	TokenRange=335:345
+66	previsto	prever	VERB	VERB	_	65	acl	_	TokenRange=346:354
+67	para	para	ADP	ADP	_	70	case	_	TokenRange=355:359
+68	o	o	DET	DET	_	70	det	_	TokenRange=360:361
+69	primeiro	primeiro	ADJ	ADJ	_	70	amod	_	TokenRange=362:370
+70	semestre	semestre	NOUN	NOUN	_	66	nmod	_	TokenRange=371:379
+71	de	de	ADP	ADP	_	72	case	_	TokenRange=380:382
+72	2018	_	NUM	NUM	NumType=Card	70	nmod	_	SpacesAfter=\s\s|TokenRange=383:387
+

@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = menina de 16 anos que motivou campanha na web passa por cirurgia e volta ao coma leslye coelho mora em boituva e esta internada ha mais de 15 dias familia faz campanha para pagar despesas que ja ultrapassam r 100 mil a adolescente leslye
+1	menina	menino	NOUN	NOUN	_	11	nsubj	_	TokenRange=0:6
+2	de	de	ADP	ADP	_	4	case	_	TokenRange=7:9
+3	16	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=10:12
+4	anos	ano	NOUN	NOUN	_	1	nmod	_	TokenRange=13:17
+5	que	_	PRON	PRON	_	6	nsubj	_	TokenRange=18:21
+6	motivou	motivar	VERB	VERB	_	1	acl:relcl	_	TokenRange=22:29
+7	campanha	campanha	NOUN	NOUN	_	6	obj	_	TokenRange=30:38
+8-9	na	_	_	_	_	_	_	_	TokenRange=39:41
+8	em	em	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	web	_	NOUN	NOUN	_	6	nmod	_	TokenRange=42:45
+11	passa	passar	VERB	VERB	_	0	root	_	TokenRange=46:51
+12	por	por	ADP	ADP	_	13	case	_	TokenRange=52:55
+13	cirurgia	cirurgia	NOUN	NOUN	_	11	nmod	_	TokenRange=56:64
+14	e	e	CCONJ	CONJ	_	15	cc	_	TokenRange=65:66
+15	volta	voltar	VERB	VERB	_	11	conj	_	TokenRange=67:72
+16-17	ao	_	_	_	_	_	_	_	TokenRange=73:75
+16	a	a	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	coma	coma	NOUN	NOUN	_	15	nmod	_	TokenRange=76:80
+19	leslye	_	NOUN	NOUN	_	21	nsubj	_	TokenRange=81:87
+20	coelho	coelho	NOUN	NOUN	_	19	flat	_	TokenRange=88:94
+21	mora	morar	VERB	VERB	_	11	conj	_	TokenRange=95:99
+22	em	em	ADP	ADP	_	23	case	_	TokenRange=100:102
+23	boituva	boituva	NOUN	NOUN	_	21	nmod	_	TokenRange=103:110
+24	e	e	CCONJ	CONJ	_	25	cc	_	TokenRange=111:112
+25	esta	_	PRON	PRON	_	21	conj	_	TokenRange=113:117
+26	internada	internado	ADJ	ADJ	_	25	amod	_	TokenRange=118:127
+27	ha	_	VERB	VERB	_	33	advcl	_	TokenRange=128:130
+28	mais	mais	ADV	ADV	_	30	advmod	_	TokenRange=131:135
+29	de	de	ADP	ADP	_	28	case	_	TokenRange=136:138
+30	15	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=139:141
+31	dias	dia	NOUN	NOUN	_	27	nmod	_	TokenRange=142:146
+32	familia	familia	NOUN	NOUN	_	33	nsubj	_	TokenRange=147:154
+33	faz	fazer	VERB	VERB	_	11	conj	_	TokenRange=155:158
+34	campanha	campanha	NOUN	NOUN	_	33	obj	_	TokenRange=159:167
+35	para	_	ADP	ADP	_	36	mark	_	TokenRange=168:172
+36	pagar	pagar	VERB	VERB	_	33	advcl	_	TokenRange=173:178
+37	despesas	despesa	NOUN	NOUN	_	36	obj	_	TokenRange=179:187
+38	que	_	PRON	PRON	_	40	nsubj	_	TokenRange=188:191
+39	ja	ja	ADV	ADV	_	40	advmod	_	TokenRange=192:194
+40	ultrapassam	ultrapassar	VERB	VERB	_	37	acl:relcl	_	TokenRange=195:206
+41	r	r	NOUN	NOUN	_	40	obj	_	TokenRange=207:208
+42	100	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=209:212
+43	mil	_	NUM	NUM	NumType=Card	41	nummod	_	TokenRange=213:216
+44	a	o	DET	DET	_	45	det	_	TokenRange=217:218
+45	adolescente	adolescente	NOUN	NOUN	_	40	iobj	_	TokenRange=219:230
+46	leslye	_	NOUN	NOUN	_	45	appos	_	SpacesAfter=\s\s|TokenRange=231:237
+

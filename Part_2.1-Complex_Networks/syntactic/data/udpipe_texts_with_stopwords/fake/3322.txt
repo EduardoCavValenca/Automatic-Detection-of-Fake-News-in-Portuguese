@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornalista petralha chama pf de suposta policia e diz que sergio moro nao faz justica veja o cinismo de paulo henrique amorim e o puxasaquismo sem limites do jornalista em relacao ao partido dos trabalhadores sergio moro criou um sistema de nao fazer justica ha um conluio entre moro o ministerio publico e a suposta policia federal a policia federal e uma policia politica
+1	jornalista	jornalista	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:10
+2	petralha	petralha	NOUN	NOUN	_	1	amod	_	TokenRange=11:19
+3	chama	chamar	VERB	VERB	_	0	root	_	TokenRange=20:25
+4	pf	_	NOUN	NOUN	_	3	obj	_	TokenRange=26:28
+5	de	de	ADP	ADP	_	7	case	_	TokenRange=29:31
+6	suposta	suposto	ADJ	ADJ	_	7	amod	_	TokenRange=32:39
+7	policia	policia	NOUN	NOUN	_	3	nmod	_	TokenRange=40:47
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=48:49
+9	diz	dizer	VERB	VERB	_	3	conj	_	TokenRange=50:53
+10	que	que	CCONJ	CONJ	_	14	mark	_	TokenRange=54:57
+11	sergio	_	NOUN	NOUN	_	14	nsubj	_	TokenRange=58:64
+12	moro	moro	NOUN	NOUN	_	11	flat	_	TokenRange=65:69
+13	nao	nao	ADV	ADV	Polarity=Neg	14	advmod	_	TokenRange=70:73
+14	faz	fazer	VERB	VERB	_	9	ccomp	_	TokenRange=74:77
+15	justica	_	NOUN	NOUN	_	14	obj	_	TokenRange=78:85
+16	veja	ver	VERB	VERB	_	9	ccomp	_	TokenRange=86:90
+17	o	o	DET	DET	_	18	det	_	TokenRange=91:92
+18	cinismo	cinismo	NOUN	NOUN	_	16	obj	_	TokenRange=93:100
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=101:103
+20	paulo	paulo	NOUN	NOUN	_	18	nmod	_	TokenRange=104:109
+21	henrique	henrique	NOUN	NOUN	_	20	flat	_	TokenRange=110:118
+22	amorim	amorim	NOUN	NOUN	_	20	flat	_	TokenRange=119:125
+23	e	e	CCONJ	CONJ	_	25	cc	_	TokenRange=126:127
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	TokenRange=128:129
+25	puxasaquismo	_	NOUN	NOUN	_	18	conj	_	TokenRange=130:142
+26	sem	_	ADP	ADP	_	27	case	_	TokenRange=143:146
+27	limites	limite	NOUN	NOUN	_	25	nmod	_	TokenRange=147:154
+28-29	do	_	_	_	_	_	_	_	TokenRange=155:157
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	jornalista	jornalista	NOUN	NOUN	_	25	nmod	_	TokenRange=158:168
+31	em	em	ADP	ADP	_	32	case	_	TokenRange=169:171
+32	relacao	relacao	NOUN	NOUN	_	41	nmod	_	TokenRange=172:179
+33-34	ao	_	_	_	_	_	_	_	TokenRange=180:182
+33	a	a	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	partido	partido	NOUN	NOUN	_	32	nmod	_	TokenRange=183:190
+36-37	dos	_	_	_	_	_	_	_	TokenRange=191:194
+36	de	de	ADP	ADP	_	38	case	_	_
+37	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	trabalhadores	trabalhador	NOUN	NOUN	_	35	nmod	_	TokenRange=195:208
+39	sergio	sergio	ADJ	ADJ	_	41	nsubj	_	TokenRange=209:215
+40	moro	moro	NOUN	NOUN	_	39	flat	_	TokenRange=216:220
+41	criou	criar	VERB	VERB	_	9	ccomp	_	TokenRange=221:226
+42	um	um	DET	DET	_	43	det	_	TokenRange=227:229
+43	sistema	sistema	NOUN	NOUN	_	41	obj	_	TokenRange=230:237
+44	de	_	ADP	ADP	_	46	mark	_	TokenRange=238:240
+45	nao	nao	ADV	ADV	Polarity=Neg	46	advmod	_	TokenRange=241:244
+46	fazer	fazer	VERB	VERB	_	43	nmod	_	TokenRange=245:250
+47	justica	_	NOUN	NOUN	_	46	obj	_	TokenRange=251:258
+48	ha	_	VERB	VERB	_	41	parataxis	_	TokenRange=259:261
+49	um	um	DET	DET	_	50	det	_	TokenRange=262:264
+50	conluio	conluio	NOUN	NOUN	_	48	obj	_	TokenRange=265:272
+51	entre	_	ADP	ADP	_	52	case	_	TokenRange=273:278
+52	moro	moro	NOUN	NOUN	_	50	nmod	_	TokenRange=279:283
+53	o	o	DET	DET	_	54	det	_	TokenRange=284:285
+54	ministerio	ministerio	NOUN	NOUN	_	52	appos	_	TokenRange=286:296
+55	publico	publico	ADJ	ADJ	_	54	amod	_	TokenRange=297:304
+56	e	e	CCONJ	CONJ	_	59	cc	_	TokenRange=305:306
+57	a	o	DET	DET	_	59	det	_	TokenRange=307:308
+58	suposta	suposto	ADJ	ADJ	_	59	amod	_	TokenRange=309:316
+59	policia	policia	NOUN	NOUN	_	54	conj	_	TokenRange=317:324
+60	federal	federal	ADJ	ADJ	_	59	amod	_	TokenRange=325:332
+61	a	o	DET	DET	_	62	det	_	TokenRange=333:334
+62	policia	policia	NOUN	NOUN	_	48	nsubj	_	TokenRange=335:342
+63	federal	federal	ADJ	ADJ	_	62	amod	_	TokenRange=343:350
+64	e	e	CCONJ	CONJ	_	66	cc	_	TokenRange=351:352
+65	uma	um	DET	DET	_	66	det	_	TokenRange=353:356
+66	policia	policia	NOUN	NOUN	_	62	conj	_	TokenRange=357:364
+67	politica	politico	ADJ	ADJ	_	66	amod	_	SpacesAfter=\s\s|TokenRange=365:373
+

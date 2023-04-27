@@ -1,0 +1,30 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = diocese de caruaru realiza missa dos santos oleos em santa cruz do capibaribe celebracao aconteceu na
+1	diocese	diocese	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=8:10
+3	caruaru	caruaru	NOUN	NOUN	_	1	nmod	_	TokenRange=11:18
+4	realiza	realizar	VERB	VERB	_	0	root	_	TokenRange=19:26
+5	missa	missa	NOUN	NOUN	_	4	obj	_	TokenRange=27:32
+6-7	dos	_	_	_	_	_	_	_	TokenRange=33:36
+6	de	de	ADP	ADP	_	8	case	_	_
+7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	santos	santo	NOUN	NOUN	_	5	nmod	_	TokenRange=37:43
+9	oleos	oleo	NOUN	NOUN	_	8	amod	_	TokenRange=44:49
+10	em	em	ADP	ADP	_	12	case	_	TokenRange=50:52
+11	santa	santo	ADJ	ADJ	_	12	amod	_	TokenRange=53:58
+12	cruz	cruz	NOUN	NOUN	_	4	nmod	_	TokenRange=59:63
+13-14	do	_	_	_	_	_	_	_	TokenRange=64:66
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	capibaribe	capibaribe	NOUN	NOUN	_	12	nmod	_	TokenRange=67:77
+16	celebracao	celebracao	NOUN	NOUN	_	17	nsubj	_	TokenRange=78:88
+17	aconteceu	acontecer	VERB	VERB	_	4	parataxis	_	TokenRange=89:98
+18-19	na	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=99:101
+18	em	em	ADP	ADP	_	17	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+

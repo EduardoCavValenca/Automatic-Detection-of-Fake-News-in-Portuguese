@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = de volta ao brasil temer discute com ministros novas gravacoes de delatores os fatos acabaram mostrando que eu tinha razao disse temer segundo relato do ministro eliseu padilha ele se referia a exprocurador que de acordo com gravacoes teria negociado com jbs apos chegar a brasilia por volta das 5h50 de viagem a china o presidente michel temer conversou
+1	de	de	ADP	ADP	_	2	case	_	TokenRange=0:2
+2	volta	volta	NOUN	NOUN	_	7	nmod	_	TokenRange=3:8
+3-4	ao	_	_	_	_	_	_	_	TokenRange=9:11
+3	a	a	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	brasil	brasil	NOUN	NOUN	_	2	nmod	_	TokenRange=12:18
+6	temer	temer	NOUN	NOUN	_	7	nsubj	_	TokenRange=19:24
+7	discute	discutir	VERB	VERB	_	0	root	_	TokenRange=25:32
+8	com	com	ADP	ADP	_	9	case	_	TokenRange=33:36
+9	ministros	ministro	NOUN	NOUN	_	7	nmod	_	TokenRange=37:46
+10	novas	novo	ADJ	ADJ	_	11	amod	_	TokenRange=47:52
+11	gravacoes	_	NOUN	NOUN	_	7	obj	_	TokenRange=53:62
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=63:65
+13	delatores	delator	NOUN	NOUN	_	11	nmod	_	TokenRange=66:75
+14	os	o	DET	DET	_	15	det	_	TokenRange=76:78
+15	fatos	fato	NOUN	NOUN	_	17	nsubj	_	TokenRange=79:84
+16	acabaram	acabar	AUX	AUX	_	17	aux	_	TokenRange=85:93
+17	mostrando	mostrar	VERB	VERB	_	7	conj	_	TokenRange=94:103
+18	que	que	CCONJ	CONJ	_	20	mark	_	TokenRange=104:107
+19	eu	_	PRON	PRON	_	20	nsubj	_	TokenRange=108:110
+20	tinha	ter	VERB	VERB	_	17	ccomp	_	TokenRange=111:116
+21	razao	razao	NOUN	NOUN	_	20	obj	_	TokenRange=117:122
+22	disse	dizer	VERB	VERB	_	17	parataxis	_	TokenRange=123:128
+23	temer	temer	NOUN	NOUN	_	22	nsubj	_	TokenRange=129:134
+24	segundo	_	ADP	ADP	_	25	case	_	TokenRange=135:142
+25	relato	relato	NOUN	NOUN	_	62	nmod	_	TokenRange=143:149
+26-27	do	_	_	_	_	_	_	_	TokenRange=150:152
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ministro	ministro	NOUN	NOUN	_	25	nmod	_	TokenRange=153:161
+29	eliseu	eliseu	NOUN	NOUN	_	28	appos	_	TokenRange=162:168
+30	padilha	padilha	NOUN	NOUN	_	29	flat	_	TokenRange=169:176
+31	ele	_	PRON	PRON	_	33	nsubj	_	TokenRange=177:180
+32	se	_	PRON	PRON	_	33	obj	_	TokenRange=181:183
+33	referia	referir	VERB	VERB	_	17	ccomp	_	TokenRange=184:191
+34	a	_	ADP	ADP	_	35	case	_	TokenRange=192:193
+35	exprocurador	exprocurador	NOUN	NOUN	_	33	nmod	_	TokenRange=194:206
+36	que	_	PRON	PRON	_	42	nsubj	_	TokenRange=207:210
+37	de	de	ADP	ADP	_	38	case	_	TokenRange=211:213
+38	acordo	acordo	NOUN	NOUN	_	42	nmod	_	TokenRange=214:220
+39	com	com	ADP	ADP	_	40	case	_	TokenRange=221:224
+40	gravacoes	gravacoe	NOUN	NOUN	_	38	nmod	_	TokenRange=225:234
+41	teria	ter	AUX	AUX	_	42	aux	_	TokenRange=235:240
+42	negociado	negociar	VERB	VERB	_	35	acl:relcl	_	TokenRange=241:250
+43	com	com	ADP	ADP	_	44	case	_	TokenRange=251:254
+44	jbs	_	NOUN	NOUN	_	42	nmod	_	TokenRange=255:258
+45	apos	_	ADP	ADP	_	46	mark	_	TokenRange=259:263
+46	chegar	chegar	VERB	VERB	_	42	advcl	_	TokenRange=264:270
+47	a	_	ADP	ADP	_	48	case	_	TokenRange=271:272
+48	brasilia	brasilia	NOUN	NOUN	_	46	nmod	_	TokenRange=273:281
+49	por	por	ADP	ADP	_	50	case	_	TokenRange=282:285
+50	volta	volta	NOUN	NOUN	_	46	nmod	_	TokenRange=286:291
+51-52	das	_	_	_	_	_	_	_	TokenRange=292:295
+51	de	de	ADP	ADP	_	53	case	_	_
+52	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	5h50	_	NUM	NUM	NumType=Card	50	nmod	_	TokenRange=296:300
+54	de	de	ADP	ADP	_	55	case	_	TokenRange=301:303
+55	viagem	viagem	NOUN	NOUN	_	53	nmod	_	TokenRange=304:310
+56	a	_	ADP	ADP	_	57	case	_	TokenRange=311:312
+57	china	china	NOUN	NOUN	_	55	nmod	_	TokenRange=313:318
+58	o	o	DET	DET	_	59	det	_	TokenRange=319:320
+59	presidente	presidente	NOUN	NOUN	_	62	nsubj	_	TokenRange=321:331
+60	michel	michel	ADJ	ADJ	_	59	amod	_	TokenRange=332:338
+61	temer	temer	NOUN	NOUN	_	59	appos	_	TokenRange=339:344
+62	conversou	conversar	VERB	VERB	_	35	acl:relcl	_	SpacesAfter=\s\s|TokenRange=345:354
+

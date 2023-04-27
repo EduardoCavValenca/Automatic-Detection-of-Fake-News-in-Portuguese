@@ -1,0 +1,81 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = deputado wladimir costa a cada 1 milhao de petistas 999 mil sao bandidos ladroes ou batedores de carteira o deputado wladimir costa polemico como ele so participou mais um bateboca no conselho de etica da camara disse o deputado o pt e um partido lotado de vagabundos e ladroes um partido de gente vagabunda desabafou wladimir aos gritos a sessao quase foi interrompida deputados petistas ficaram inconformados
+1	deputado	deputado	NOUN	NOUN	_	13	nsubj	_	TokenRange=0:8
+2	wladimir	_	NOUN	NOUN	_	1	appos	_	TokenRange=9:17
+3	costa	costa	NOUN	NOUN	_	1	flat	_	TokenRange=18:23
+4	a	_	ADP	ADP	_	9	case	_	TokenRange=24:25
+5	cada	_	DET	DET	_	9	det	_	TokenRange=26:30
+6	1	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=31:32
+7	milhao	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=33:39
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=40:42
+9	petistas	petista	NOUN	NOUN	_	1	nmod	_	TokenRange=43:51
+10	999	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=52:55
+11	mil	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=56:59
+12	sao	_	AUX	AUX	_	13	cop	_	TokenRange=60:63
+13	bandidos	bandido	NOUN	NOUN	_	0	root	_	TokenRange=64:72
+14	ladroes	ladroe	ADJ	NOUN	_	13	amod	_	TokenRange=73:80
+15	ou	ou	CCONJ	CONJ	_	16	cc	_	TokenRange=81:83
+16	batedores	batedor	NOUN	NOUN	_	14	conj	_	TokenRange=84:93
+17	de	de	ADP	ADP	_	18	case	_	TokenRange=94:96
+18	carteira	_	NOUN	NOUN	_	16	nmod	_	TokenRange=97:105
+19	o	o	DET	DET	_	20	det	_	TokenRange=106:107
+20	deputado	deputado	NOUN	NOUN	_	13	nsubj	_	TokenRange=108:116
+21	wladimir	_	ADJ	ADJ	_	20	appos	_	TokenRange=117:125
+22	costa	costa	NOUN	NOUN	_	20	appos	_	TokenRange=126:131
+23	polemico	polemico	ADJ	ADJ	_	20	amod	_	TokenRange=132:140
+24	como	_	CCONJ	CONJ	_	27	mark	_	TokenRange=141:145
+25	ele	_	PRON	PRON	_	27	nsubj	_	TokenRange=146:149
+26	so	_	ADV	ADV	_	27	advmod	_	TokenRange=150:152
+27	participou	participar	VERB	VERB	_	20	acl:relcl	_	TokenRange=153:163
+28	mais	mais	ADV	ADV	_	29	advmod	_	TokenRange=164:168
+29	um	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=169:171
+30	bateboca	_	NOUN	NOUN	_	27	obj	_	TokenRange=172:180
+31-32	no	_	_	_	_	_	_	_	TokenRange=181:183
+31	em	em	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	conselho	conselho	NOUN	NOUN	_	27	nmod	_	TokenRange=184:192
+34	de	de	ADP	ADP	_	35	case	_	TokenRange=193:195
+35	etica	etica	NOUN	NOUN	_	33	nmod	_	TokenRange=196:201
+36-37	da	_	_	_	_	_	_	_	TokenRange=202:204
+36	de	de	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	camara	camara	NOUN	NOUN	_	33	nmod	_	TokenRange=205:211
+39	disse	dizer	VERB	VERB	_	13	parataxis	_	TokenRange=212:217
+40	o	o	DET	DET	_	41	det	_	TokenRange=218:219
+41	deputado	deputado	NOUN	NOUN	_	39	nsubj	_	TokenRange=220:228
+42	o	o	DET	DET	_	43	det	_	TokenRange=229:230
+43	pt	_	NOUN	NOUN	_	39	nsubj	_	TokenRange=231:233
+44	e	e	CCONJ	CONJ	_	46	cc	_	TokenRange=234:235
+45	um	um	DET	DET	_	46	det	_	TokenRange=236:238
+46	partido	partido	NOUN	NOUN	_	43	conj	_	TokenRange=239:246
+47	lotado	lotado	ADJ	ADJ	_	46	amod	_	TokenRange=247:253
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=254:256
+49	vagabundos	vagabundo	NOUN	NOUN	_	47	nmod	_	TokenRange=257:267
+50	e	e	CCONJ	CONJ	_	51	cc	_	TokenRange=268:269
+51	ladroes	ladroe	NOUN	NOUN	_	49	conj	_	TokenRange=270:277
+52	um	um	DET	DET	_	53	det	_	TokenRange=278:280
+53	partido	partido	NOUN	NOUN	_	57	nsubj	_	TokenRange=281:288
+54	de	de	ADP	ADP	_	55	case	_	TokenRange=289:291
+55	gente	gente	NOUN	NOUN	_	53	nmod	_	TokenRange=292:297
+56	vagabunda	vagabundo	ADJ	ADJ	_	55	amod	_	TokenRange=298:307
+57	desabafou	desabafar	VERB	VERB	_	39	ccomp	_	TokenRange=308:317
+58	wladimir	_	NOUN	NOUN	_	57	obj	_	TokenRange=318:326
+59-60	aos	_	_	_	_	_	_	_	TokenRange=327:330
+59	a	a	ADP	ADP	_	61	case	_	_
+60	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	61	det	_	_
+61	gritos	grito	NOUN	NOUN	_	57	nmod	_	TokenRange=331:337
+62	a	o	DET	DET	_	63	det	_	TokenRange=338:339
+63	sessao	sessao	NOUN	NOUN	_	69	nsubj	_	TokenRange=340:346
+64	quase	quase	ADV	ADV	_	66	advmod	_	TokenRange=347:352
+65	foi	_	AUX	AUX	_	66	aux:pass	_	TokenRange=353:356
+66	interrompida	interromper	VERB	VERB	_	57	advcl	_	TokenRange=357:369
+67	deputados	deputado	NOUN	NOUN	_	69	nsubj	_	TokenRange=370:379
+68	petistas	petista	ADJ	ADJ	_	67	amod	_	TokenRange=380:388
+69	ficaram	ficar	VERB	VERB	_	39	ccomp	_	TokenRange=389:396
+70	inconformados	inconformado	ADJ	ADJ	_	69	xcomp	_	TokenRange=397:410
+

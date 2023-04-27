@@ -1,0 +1,71 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = se o brasil nao apoiar a lavajato vagabundos tomarao conta de tudo assista o video da transparencia internacional no brasil foram perdidos bilhoes de dolares devido a corrupcao a lavajato se tornou uma das maiores investigacoes contra corruptos do mundo 118 pessoas ja foram condenadas totalizando 1256 anos de prisao essa operacao nao pode parar
+1	se	_	CCONJ	CONJ	_	5	mark	_	TokenRange=0:2
+2	o	o	DET	DET	_	3	det	_	TokenRange=3:4
+3	brasil	brasil	NOUN	NOUN	_	5	nsubj	_	TokenRange=5:11
+4	nao	nao	ADV	ADV	Polarity=Neg	5	advmod	_	TokenRange=12:15
+5	apoiar	apoiar	VERB	VERB	_	9	advcl	_	TokenRange=16:22
+6	a	o	DET	DET	_	7	det	_	TokenRange=23:24
+7	lavajato	lavajato	NOUN	NOUN	_	5	obj	_	TokenRange=25:33
+8	vagabundos	vagabundo	ADJ	ADJ	_	7	amod	_	TokenRange=34:44
+9	tomarao	tomar	VERB	VERB	_	0	root	_	TokenRange=45:52
+10	conta	conta	NOUN	NOUN	_	9	obj	_	TokenRange=53:58
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=59:61
+12	tudo	_	PRON	PRON	_	10	nmod	_	TokenRange=62:66
+13	assista	assistir	VERB	VERB	_	10	acl:relcl	_	TokenRange=67:74
+14	o	o	DET	DET	_	15	det	_	TokenRange=75:76
+15	video	video	NOUN	NOUN	_	13	nsubj	_	TokenRange=77:82
+16-17	da	_	_	_	_	_	_	_	TokenRange=83:85
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	transparencia	transparencia	NOUN	NOUN	_	15	nmod	_	TokenRange=86:99
+19	internacional	internacional	ADJ	ADJ	_	18	amod	_	TokenRange=100:113
+20-21	no	_	_	_	_	_	_	_	TokenRange=114:116
+20	em	em	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	brasil	brasil	NOUN	NOUN	_	24	nmod	_	TokenRange=117:123
+23	foram	_	AUX	AUX	_	24	aux:pass	_	TokenRange=124:129
+24	perdidos	perder	VERB	VERB	_	9	parataxis	_	TokenRange=130:138
+25	bilhoes	_	NUM	NUM	NumType=Card	27	nummod	_	TokenRange=139:146
+26	de	de	ADP	ADP	_	27	case	_	TokenRange=147:149
+27	dolares	dolar	NOUN	NOUN	_	24	nsubj:pass	_	TokenRange=150:157
+28	devido	dever	VERB	VERB	_	30	case	_	TokenRange=158:164
+29	a	_	ADP	ADP	_	28	fixed	_	TokenRange=165:166
+30	corrupcao	corrupcao	NOUN	NOUN	_	24	nmod	_	TokenRange=167:176
+31	a	o	DET	DET	_	32	det	_	TokenRange=177:178
+32	lavajato	lavajato	NOUN	NOUN	_	35	nsubj	_	TokenRange=179:187
+33	se	_	PART	PRT	_	35	expl:pv	_	TokenRange=188:190
+34	tornou	tornar	AUX	AUX	_	35	cop	_	TokenRange=191:197
+35	uma	_	PRON	PRON	_	24	advcl	_	TokenRange=198:201
+36-37	das	_	_	_	_	_	_	_	TokenRange=202:205
+36	de	de	ADP	ADP	_	39	case	_	_
+37	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+38	maiores	maior	ADJ	ADJ	_	39	amod	_	TokenRange=206:213
+39	investigacoes	investigacoe	NOUN	NOUN	_	35	nmod	_	TokenRange=214:227
+40	contra	_	ADP	ADP	_	41	case	_	TokenRange=228:234
+41	corruptos	corrupto	NOUN	NOUN	_	39	nmod	_	TokenRange=235:244
+42-43	do	_	_	_	_	_	_	_	TokenRange=245:247
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	mundo	mundo	NOUN	NOUN	_	41	nmod	_	TokenRange=248:253
+45	118	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=254:257
+46	pessoas	pessoa	NOUN	NOUN	_	49	nsubj:pass	_	TokenRange=258:265
+47	ja	ja	ADV	ADV	_	49	advmod	_	TokenRange=266:268
+48	foram	_	AUX	AUX	_	49	aux:pass	_	TokenRange=269:274
+49	condenadas	condenar	VERB	VERB	_	35	acl:relcl	_	TokenRange=275:285
+50	totalizando	totalizar	VERB	VERB	_	49	acl	_	TokenRange=286:297
+51	1256	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=298:302
+52	anos	ano	NOUN	NOUN	_	50	obj	_	TokenRange=303:307
+53	de	de	ADP	ADP	_	54	case	_	TokenRange=308:310
+54	prisao	prisao	NOUN	NOUN	_	52	nmod	_	TokenRange=311:317
+55	essa	_	DET	DET	_	56	det	_	TokenRange=318:322
+56	operacao	operacao	NOUN	NOUN	_	59	nsubj	_	TokenRange=323:331
+57	nao	nao	ADV	ADV	Polarity=Neg	59	advmod	_	TokenRange=332:335
+58	pode	_	AUX	AUX	_	59	aux	_	TokenRange=336:340
+59	parar	parar	VERB	VERB	_	49	conj	_	TokenRange=341:346
+

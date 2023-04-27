@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = desembargador acusado de pedir propina gravou um video nu dizendo que apanhou da mulher fato 1 vamos tentar resumir os fatos rapidamente
+1	desembargador	desembargador	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:13
+2	acusado	acusar	VERB	VERB	_	1	acl	_	TokenRange=14:21
+3	de	_	ADP	ADP	_	4	mark	_	TokenRange=22:24
+4	pedir	pedir	VERB	VERB	_	2	nmod	_	TokenRange=25:30
+5	propina	propina	NOUN	NOUN	_	4	obj	_	TokenRange=31:38
+6	gravou	gravar	VERB	VERB	_	0	root	_	TokenRange=39:45
+7	um	um	DET	DET	_	8	det	_	TokenRange=46:48
+8	video	video	NOUN	NOUN	_	6	obj	_	TokenRange=49:54
+9	nu	nu	ADJ	ADJ	_	8	amod	_	TokenRange=55:57
+10	dizendo	dizer	VERB	VERB	_	6	acl	_	TokenRange=58:65
+11	que	que	CCONJ	CONJ	_	12	mark	_	TokenRange=66:69
+12	apanhou	apanhar	VERB	VERB	_	10	ccomp	_	TokenRange=70:77
+13-14	da	_	_	_	_	_	_	_	TokenRange=78:80
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mulher	mulher	NOUN	NOUN	_	12	nmod	_	TokenRange=81:87
+16	fato	fato	NOUN	NOUN	_	12	obj	_	TokenRange=88:92
+17	1	_	NUM	NUM	NumType=Card	16	appos	_	TokenRange=93:94
+18	vamos	ir	AUX	AUX	_	19	aux	_	TokenRange=95:100
+19	tentar	tentar	VERB	VERB	_	6	parataxis	_	TokenRange=101:107
+20	resumir	resumir	VERB	VERB	_	19	xcomp	_	TokenRange=108:115
+21	os	o	DET	DET	_	22	det	_	TokenRange=116:118
+22	fatos	fato	NOUN	NOUN	_	20	obj	_	TokenRange=119:124
+23	rapidamente	rapidamente	ADV	ADV	_	6	advmod	_	TokenRange=125:136
+

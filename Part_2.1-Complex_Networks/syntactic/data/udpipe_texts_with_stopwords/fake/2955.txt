@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = faltam somente 2 votos para dar um pe no traseiro de dilma a farra acabou recado do deputado carlos sampaio para o povo brasileiro amigos apos a importante vitoria de ontem reunimonos hoje pela manha video abaixo para fazermos a contagem dos votos favoraveis ao impeachment ja temos co nfirmados 340 votos e so faltam 2 dos 46 indecisos para colocarmos um fim a este governo corrupto e mentiroso
+1	faltam	faltar	VERB	VERB	_	0	root	_	TokenRange=0:6
+2	somente	somente	ADV	ADV	_	3	advmod	_	TokenRange=7:14
+3	2	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=15:16
+4	votos	voto	NOUN	NOUN	_	1	nsubj	_	TokenRange=17:22
+5	para	_	ADP	ADP	_	6	mark	_	TokenRange=23:27
+6	dar	dar	VERB	VERB	_	1	advcl	_	TokenRange=28:31
+7	um	um	DET	DET	_	8	det	_	TokenRange=32:34
+8	pe	pe	NOUN	NOUN	_	6	obj	_	TokenRange=35:37
+9-10	no	_	_	_	_	_	_	_	TokenRange=38:40
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	traseiro	traseiro	NOUN	NOUN	_	6	nmod	_	TokenRange=41:49
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=50:52
+13	dilma	dilma	NOUN	NOUN	_	11	nmod	_	TokenRange=53:58
+14	a	o	DET	DET	_	15	det	_	TokenRange=59:60
+15	farra	farra	NOUN	NOUN	_	16	nsubj	_	TokenRange=61:66
+16	acabou	acabar	VERB	VERB	_	1	parataxis	_	TokenRange=67:73
+17	recado	recado	NOUN	NOUN	_	16	obj	_	TokenRange=74:80
+18-19	do	_	_	_	_	_	_	_	TokenRange=81:83
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	deputado	deputado	NOUN	NOUN	_	17	nmod	_	TokenRange=84:92
+21	carlos	carlo	NOUN	NOUN	_	20	flat	_	TokenRange=93:99
+22	sampaio	sampaio	NOUN	NOUN	_	20	flat	_	TokenRange=100:107
+23	para	para	ADP	ADP	_	25	case	_	TokenRange=108:112
+24	o	o	DET	DET	_	25	det	_	TokenRange=113:114
+25	povo	povo	NOUN	NOUN	_	16	nmod	_	TokenRange=115:119
+26	brasileiro	brasileiro	ADJ	ADJ	_	25	amod	_	TokenRange=120:130
+27	amigos	amigo	NOUN	NOUN	_	16	nsubj	_	TokenRange=131:137
+28	apos	_	ADP	ADP	_	31	case	_	TokenRange=138:142
+29	a	o	DET	DET	_	31	det	_	TokenRange=143:144
+30	importante	importante	ADJ	ADJ	_	31	amod	_	TokenRange=145:155
+31	vitoria	vitoria	NOUN	NOUN	_	16	nmod	_	TokenRange=156:163
+32	de	_	ADP	ADP	_	33	mark	_	TokenRange=164:166
+33	ontem	ontem	ADV	ADV	_	31	nmod	_	TokenRange=167:172
+34	reunimonos	reunimono	VERB	VERB	_	31	acl:relcl	_	TokenRange=173:183
+35	hoje	hoje	ADV	ADV	_	34	advmod	_	TokenRange=184:188
+36-37	pela	_	_	_	_	_	_	_	TokenRange=189:193
+36	por	por	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	manha	manha	NOUN	NOUN	_	34	nmod	_	TokenRange=194:199
+39	video	video	NOUN	NOUN	_	16	parataxis	_	TokenRange=200:205
+40	abaixo	abaixo	ADV	ADV	_	53	advmod	_	TokenRange=206:212
+41	para	_	ADP	ADP	_	42	mark	_	TokenRange=213:217
+42	fazermos	fazer	VERB	VERB	_	53	advcl	_	TokenRange=218:226
+43	a	o	DET	DET	_	44	det	_	TokenRange=227:228
+44	contagem	contagem	NOUN	NOUN	_	42	obj	_	TokenRange=229:237
+45-46	dos	_	_	_	_	_	_	_	TokenRange=238:241
+45	de	de	ADP	ADP	_	47	case	_	_
+46	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	votos	voto	NOUN	NOUN	_	44	nmod	_	TokenRange=242:247
+48	favoraveis	favoravel	ADJ	ADJ	_	47	amod	_	TokenRange=248:258
+49-50	ao	_	_	_	_	_	_	_	TokenRange=259:261
+49	a	a	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	impeachment	impeachment	NOUN	NOUN	_	48	nmod	_	TokenRange=262:273
+52	ja	ja	ADV	ADV	_	53	advmod	_	TokenRange=274:276
+53	temos	ter	VERB	VERB	_	1	parataxis	_	TokenRange=277:282
+54	co	_	ADV	ADV	_	53	advmod	_	TokenRange=283:285
+55	nfirmados	nfirmado	ADJ	ADJ	_	53	xcomp	_	TokenRange=286:295
+56	340	_	NUM	NUM	NumType=Card	57	nummod	_	TokenRange=296:299
+57	votos	voto	NOUN	NOUN	_	55	nsubj	_	TokenRange=300:305
+58	e	e	CCONJ	CONJ	_	60	cc	_	TokenRange=306:307
+59	so	so	ADV	ADV	_	60	advmod	_	TokenRange=308:310
+60	faltam	faltar	VERB	VERB	_	53	conj	_	TokenRange=311:317
+61	2	_	NUM	NUM	NumType=Card	60	nsubj	_	TokenRange=318:319
+62-63	dos	_	_	_	_	_	_	_	TokenRange=320:323
+62	de	de	ADP	ADP	_	64	case	_	_
+63	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	64	det	_	_
+64	46	_	NUM	NUM	NumType=Card	61	nmod	_	TokenRange=324:326
+65	indecisos	_	ADJ	ADJ	_	61	amod	_	TokenRange=327:336
+66	para	_	ADP	ADP	_	67	mark	_	TokenRange=337:341
+67	colocarmos	colocar	VERB	VERB	_	60	advcl	_	TokenRange=342:352
+68	um	um	DET	DET	_	69	det	_	TokenRange=353:355
+69	fim	fim	NOUN	NOUN	_	67	obj	_	TokenRange=356:359
+70	a	_	ADP	ADP	_	72	case	_	TokenRange=360:361
+71	este	_	DET	DET	_	72	det	_	TokenRange=362:366
+72	governo	governo	NOUN	NOUN	_	67	iobj	_	TokenRange=367:374
+73	corrupto	corrupto	ADJ	ADJ	_	72	amod	_	TokenRange=375:383
+74	e	e	CCONJ	CONJ	_	75	cc	_	TokenRange=384:385
+75	mentiroso	mentiroso	ADJ	ADJ	_	73	conj	_	TokenRange=386:395
+

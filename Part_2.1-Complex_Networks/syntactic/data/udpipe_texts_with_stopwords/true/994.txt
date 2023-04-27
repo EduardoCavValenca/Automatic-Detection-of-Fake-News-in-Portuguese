@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = honda crv 2018 primeiras impressoes novo motor 15 turbo de 190 cavalos agrada na conducao mas preco alto de pacote unico prejudica custobeneficio do suv enquanto o hrv segue na balada do sucesso no brasil seu irmao maior o crv nao consegue um desempenho parecido a chegada da nova geracao do suv pode mudar isso se nao em vendas mas ao menos na imagem do carro
+1	honda	honda	NOUN	NOUN	_	23	nsubj	_	TokenRange=0:5
+2	crv	_	NOUN	NOUN	_	1	flat	_	TokenRange=6:9
+3	2018	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=10:14
+4	primeiras	primeiro	ADJ	ADJ	_	5	amod	_	TokenRange=15:24
+5	impressoes	impressoe	NOUN	NOUN	_	1	appos	_	TokenRange=25:35
+6	novo	novo	ADJ	ADJ	_	7	amod	_	TokenRange=36:40
+7	motor	motor	NOUN	NOUN	_	1	appos	_	TokenRange=41:46
+8	15	_	NUM	NUM	NumType=Card	7	appos	_	TokenRange=47:49
+9	turbo	turbo	NOUN	NOUN	_	1	appos	_	TokenRange=50:55
+10	de	de	ADP	ADP	_	12	case	_	TokenRange=56:58
+11	190	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=59:62
+12	cavalos	cavalo	NOUN	NOUN	_	7	nmod	_	TokenRange=63:70
+13	agrada	_	ADJ	ADJ	_	5	amod	_	TokenRange=71:77
+14-15	na	_	_	_	_	_	_	_	TokenRange=78:80
+14	em	em	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	conducao	conducao	NOUN	NOUN	_	13	nmod	_	TokenRange=81:89
+17	mas	mas	CCONJ	CONJ	_	18	cc	_	TokenRange=90:93
+18	preco	preco	NOUN	NOUN	_	13	conj	_	TokenRange=94:99
+19	alto	alto	ADJ	ADJ	_	18	amod	_	TokenRange=100:104
+20	de	de	ADP	ADP	_	21	case	_	TokenRange=105:107
+21	pacote	pacote	NOUN	NOUN	_	18	nmod	_	TokenRange=108:114
+22	unico	unico	ADJ	ADJ	_	21	amod	_	TokenRange=115:120
+23	prejudica	prejudicar	VERB	VERB	_	0	root	_	TokenRange=121:130
+24	custobeneficio	custobeneficio	NOUN	NOUN	_	23	obj	_	TokenRange=131:145
+25-26	do	_	_	_	_	_	_	_	TokenRange=146:148
+25	de	de	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	suv	_	NOUN	NOUN	_	24	nmod	_	TokenRange=149:152
+28	enquanto	_	CCONJ	CONJ	_	31	mark	_	TokenRange=153:161
+29	o	o	DET	DET	_	30	det	_	TokenRange=162:163
+30	hrv	hrv	NOUN	NOUN	_	31	nsubj	_	TokenRange=164:167
+31	segue	_	VERB	VERB	_	23	advcl	_	TokenRange=168:173
+32-33	na	_	_	_	_	_	_	_	TokenRange=174:176
+32	em	em	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	balada	balada	NOUN	NOUN	_	31	nmod	_	TokenRange=177:183
+35-36	do	_	_	_	_	_	_	_	TokenRange=184:186
+35	de	de	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	sucesso	sucesso	NOUN	NOUN	_	34	nmod	_	TokenRange=187:194
+38-39	no	_	_	_	_	_	_	_	TokenRange=195:197
+38	em	em	ADP	ADP	_	40	case	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	brasil	brasil	NOUN	NOUN	_	34	nmod	_	TokenRange=198:204
+41	seu	_	DET	DET	_	42	det:poss	_	TokenRange=205:208
+42	irmao	irmao	NOUN	NOUN	_	31	nsubj	_	TokenRange=209:214
+43	maior	maior	ADJ	ADJ	_	42	amod	_	TokenRange=215:220
+44	o	o	DET	DET	_	45	det	_	TokenRange=221:222
+45	crv	_	NOUN	NOUN	_	47	nsubj	_	TokenRange=223:226
+46	nao	nao	ADV	ADV	Polarity=Neg	47	advmod	_	TokenRange=227:230
+47	consegue	conseguir	VERB	VERB	_	31	conj	_	TokenRange=231:239
+48	um	um	DET	DET	_	49	det	_	TokenRange=240:242
+49	desempenho	desempenho	NOUN	NOUN	_	47	obj	_	TokenRange=243:253
+50	parecido	parecido	ADJ	ADJ	_	49	amod	_	TokenRange=254:262
+51	a	o	DET	DET	_	52	det	_	TokenRange=263:264
+52	chegada	chegada	NOUN	NOUN	_	61	nsubj	_	TokenRange=265:272
+53-54	da	_	_	_	_	_	_	_	TokenRange=273:275
+53	de	de	ADP	ADP	_	56	case	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+55	nova	novo	ADJ	ADJ	_	56	amod	_	TokenRange=276:280
+56	geracao	geracao	NOUN	NOUN	_	52	nmod	_	TokenRange=281:288
+57-58	do	_	_	_	_	_	_	_	TokenRange=289:291
+57	de	de	ADP	ADP	_	59	case	_	_
+58	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	suv	_	NOUN	NOUN	_	56	nmod	_	TokenRange=292:295
+60	pode	_	AUX	AUX	_	61	aux	_	TokenRange=296:300
+61	mudar	mudar	VERB	VERB	_	47	parataxis	_	TokenRange=301:306
+62	isso	_	PRON	PRON	_	61	obj	_	TokenRange=307:311
+63	se	_	PART	PRT	_	61	expl:pv	_	TokenRange=312:314
+64	nao	nao	ADV	ADV	Polarity=Neg	66	advmod	_	TokenRange=315:318
+65	em	em	ADP	ADP	_	66	case	_	TokenRange=319:321
+66	vendas	venda	NOUN	NOUN	_	61	nmod	_	TokenRange=322:328
+67	mas	mas	CCONJ	CONJ	_	73	cc	_	TokenRange=329:332
+68-69	ao	_	_	_	_	_	_	_	TokenRange=333:335
+68	a	a	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	menos	menos	ADV	ADV	_	73	nmod	_	TokenRange=336:341
+71-72	na	_	_	_	_	_	_	_	TokenRange=342:344
+71	em	em	ADP	ADP	_	73	case	_	_
+72	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
+73	imagem	imagem	NOUN	NOUN	_	66	conj	_	TokenRange=345:351
+74-75	do	_	_	_	_	_	_	_	TokenRange=352:354
+74	de	de	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	carro	carro	NOUN	NOUN	_	73	nmod	_	SpacesAfter=\s\s|TokenRange=355:360
+

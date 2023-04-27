@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 21 de fevereiro bom dia aqui estao os principais assuntos para voce comecar o dia beminformado depois de criticar a pauta economica do governo rodrigo maia deu mais um duro recado a temer o presidente da camara bateu o pe e afirmou que nao colocara em votacao mudancas na previdencia por projeto de lei originalmente a reforma e uma proposta de emenda constitucional no entanto a intervencao federal no rio de janeiro impede qualquer alteracao a
+1	quartafeira	quartafeira	NOUN	NOUN	_	29	parataxis	_	TokenRange=0:11
+2	21	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	fevereiro	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=18:27
+5	bom	bom	ADJ	ADJ	_	6	amod	_	TokenRange=28:31
+6	dia	dia	NOUN	NOUN	_	2	nmod	_	TokenRange=32:35
+7	aqui	aqui	ADV	ADV	_	8	advmod	_	TokenRange=36:40
+8	estao	_	VERB	VERB	_	1	parataxis	_	TokenRange=41:46
+9	os	o	DET	DET	_	11	det	_	TokenRange=47:49
+10	principais	principal	ADJ	ADJ	_	11	amod	_	TokenRange=50:60
+11	assuntos	assunto	NOUN	NOUN	_	8	nsubj	_	TokenRange=61:69
+12	para	_	ADP	ADP	_	14	mark	_	TokenRange=70:74
+13	voce	_	PRON	PRON	_	14	nsubj	_	TokenRange=75:79
+14	comecar	comecar	VERB	VERB	_	11	nmod	_	TokenRange=80:87
+15	o	o	DET	DET	_	16	det	_	TokenRange=88:89
+16	dia	dia	NOUN	NOUN	_	14	obj	_	TokenRange=90:93
+17	beminformado	beminformado	ADJ	ADJ	_	16	amod	_	TokenRange=94:106
+18	depois	depois	ADV	ADV	_	20	mark	_	TokenRange=107:113
+19	de	_	ADP	ADP	_	18	fixed	_	TokenRange=114:116
+20	criticar	criticar	VERB	VERB	_	29	advcl	_	TokenRange=117:125
+21	a	o	DET	DET	_	22	det	_	TokenRange=126:127
+22	pauta	pauta	NOUN	NOUN	_	20	obj	_	TokenRange=128:133
+23	economica	economico	ADJ	ADJ	_	22	amod	_	TokenRange=134:143
+24-25	do	_	_	_	_	_	_	_	TokenRange=144:146
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	governo	governo	NOUN	NOUN	_	22	nmod	_	TokenRange=147:154
+27	rodrigo	_	PROPN	PNOUN	_	29	nsubj	_	TokenRange=155:162
+28	maia	_	NOUN	NOUN	_	27	flat	_	TokenRange=163:167
+29	deu	dar	VERB	VERB	_	0	root	_	TokenRange=168:171
+30	mais	mais	ADV	ADV	_	31	advmod	_	TokenRange=172:176
+31	um	_	NUM	NUM	NumType=Card	33	nummod	_	TokenRange=177:179
+32	duro	duro	ADJ	ADJ	_	33	amod	_	TokenRange=180:184
+33	recado	recado	NOUN	NOUN	_	29	obj	_	TokenRange=185:191
+34	a	_	ADP	ADP	_	35	mark	_	TokenRange=192:193
+35	temer	temer	VERB	VERB	_	29	nmod	_	TokenRange=194:199
+36	o	o	DET	DET	_	37	det	_	TokenRange=200:201
+37	presidente	presidente	NOUN	NOUN	_	41	nsubj	_	TokenRange=202:212
+38-39	da	_	_	_	_	_	_	_	TokenRange=213:215
+38	de	de	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	camara	camara	NOUN	NOUN	_	37	nmod	_	TokenRange=216:222
+41	bateu	bater	VERB	VERB	_	29	parataxis	_	TokenRange=223:228
+42	o	o	DET	DET	_	43	det	_	TokenRange=229:230
+43	pe	pe	NOUN	NOUN	_	41	obj	_	TokenRange=231:233
+44	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=234:235
+45	afirmou	afirmar	VERB	VERB	_	29	conj	_	TokenRange=236:243
+46	que	que	CCONJ	CONJ	_	48	mark	_	TokenRange=244:247
+47	nao	nao	ADV	ADV	Polarity=Neg	48	advmod	_	TokenRange=248:251
+48	colocara	colocar	VERB	VERB	_	45	ccomp	_	TokenRange=252:260
+49	em	em	ADP	ADP	_	50	case	_	TokenRange=261:263
+50	votacao	votacao	NOUN	NOUN	_	48	nmod	_	TokenRange=264:271
+51	mudancas	mudanca	NOUN	NOUN	_	48	obj	_	TokenRange=272:280
+52-53	na	_	_	_	_	_	_	_	TokenRange=281:283
+52	em	em	ADP	ADP	_	54	case	_	_
+53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	previdencia	previdencia	NOUN	NOUN	_	51	nmod	_	TokenRange=284:295
+55	por	por	ADP	ADP	_	56	case	_	TokenRange=296:299
+56	projeto	projeto	NOUN	NOUN	_	48	nmod	_	TokenRange=300:307
+57	de	de	ADP	ADP	_	58	case	_	TokenRange=308:310
+58	lei	lei	NOUN	NOUN	_	56	nmod	_	TokenRange=311:314
+59	originalmente	originalmente	ADV	ADV	_	61	advmod	_	TokenRange=315:328
+60	a	o	DET	DET	_	61	det	_	TokenRange=329:330
+61	reforma	reforma	NOUN	NOUN	_	48	nsubj	_	TokenRange=331:338
+62	e	e	CCONJ	CONJ	_	64	cc	_	TokenRange=339:340
+63	uma	um	DET	DET	_	64	det	_	TokenRange=341:344
+64	proposta	_	NOUN	NOUN	_	61	conj	_	TokenRange=345:353
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=354:356
+66	emenda	emenda	NOUN	NOUN	_	64	nmod	_	TokenRange=357:363
+67	constitucional	constitucional	ADJ	ADJ	_	66	amod	_	TokenRange=364:378
+68-69	no	_	_	_	_	_	_	_	TokenRange=379:381
+68	em	em	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	entanto	entanto	ADV	ADV	_	79	nmod	_	TokenRange=382:389
+71	a	o	DET	DET	_	72	det	_	TokenRange=390:391
+72	intervencao	intervencao	NOUN	NOUN	_	79	nsubj	_	TokenRange=392:403
+73	federal	federal	ADJ	ADJ	_	72	amod	_	TokenRange=404:411
+74-75	no	_	_	_	_	_	_	_	TokenRange=412:414
+74	em	em	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	rio	_	PROPN	PNOUN	_	72	nmod	_	TokenRange=415:418
+77	de	de	ADP	ADP	_	78	case	_	TokenRange=419:421
+78	janeiro	_	PROPN	PNOUN	_	76	nmod	_	TokenRange=422:429
+79	impede	impedir	VERB	VERB	_	48	conj	_	TokenRange=430:436
+80	qualquer	_	DET	DET	_	81	det	_	TokenRange=437:445
+81	alteracao	alteracao	NOUN	NOUN	_	79	obj	_	TokenRange=446:455
+82	a	_	ADP	ADP	_	79	case	_	SpacesAfter=\s\s|TokenRange=456:457
+

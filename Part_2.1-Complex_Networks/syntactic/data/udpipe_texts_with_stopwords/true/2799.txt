@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil fecha 208 mil postos formais de trabalho em 2017 diz governo foi o terceiro ano consecutivo em que o numero de demissoes superou o de criacao de vagas com carteira assinada no pais apesar de negativo resultado foi o melhor desde 2014 a economia brasileira fechou no ano passado 20832 postos de trabalho formais ou seja com carteira assinada informou nesta sextafeira 26 o ministerio do trabalho esse foi o terceiro ano consecutivo
+1	brasil	brasil	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	fecha	fechar	VERB	VERB	_	0	root	_	TokenRange=7:12
+3	208	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=13:16
+4	mil	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=17:20
+5	postos	posto	NOUN	NOUN	_	2	obj	_	TokenRange=21:27
+6	formais	formal	ADJ	ADJ	_	5	amod	_	TokenRange=28:35
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=36:38
+8	trabalho	trabalho	NOUN	NOUN	_	5	nmod	_	TokenRange=39:47
+9	em	em	ADP	ADP	_	10	case	_	TokenRange=48:50
+10	2017	_	NUM	NUM	NumType=Card	2	nmod	_	TokenRange=51:55
+11	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=56:59
+12	governo	governo	NOUN	NOUN	_	16	nsubj	_	TokenRange=60:67
+13	foi	_	AUX	AUX	_	16	cop	_	TokenRange=68:71
+14	o	o	DET	DET	_	16	det	_	TokenRange=72:73
+15	terceiro	_	ADJ	ADJ	_	16	amod	_	TokenRange=74:82
+16	ano	ano	NOUN	NOUN	_	11	ccomp	_	TokenRange=83:86
+17	consecutivo	consecutivo	ADJ	ADJ	_	16	amod	_	TokenRange=87:98
+18	em	em	ADP	ADP	_	19	case	_	TokenRange=99:101
+19	que	_	PRON	PRON	_	24	nmod	_	TokenRange=102:105
+20	o	o	DET	DET	_	21	det	_	TokenRange=106:107
+21	numero	numero	NOUN	NOUN	_	24	nsubj	_	TokenRange=108:114
+22	de	de	ADP	ADP	_	23	case	_	TokenRange=115:117
+23	demissoes	demissoe	NOUN	NOUN	_	21	nmod	_	TokenRange=118:127
+24	superou	superar	VERB	VERB	_	16	acl:relcl	_	TokenRange=128:135
+25	o	_	PRON	PRON	_	24	obj	_	TokenRange=136:137
+26	de	de	ADP	ADP	_	27	case	_	TokenRange=138:140
+27	criacao	criacao	NOUN	NOUN	_	25	nmod	_	TokenRange=141:148
+28	de	de	ADP	ADP	_	29	case	_	TokenRange=149:151
+29	vagas	vaga	NOUN	NOUN	_	27	nmod	_	TokenRange=152:157
+30	com	com	ADP	ADP	_	31	case	_	TokenRange=158:161
+31	carteira	_	NOUN	NOUN	_	29	nmod	_	TokenRange=162:170
+32	assinada	assinado	ADJ	ADJ	_	31	amod	_	TokenRange=171:179
+33-34	no	_	_	_	_	_	_	_	TokenRange=180:182
+33	em	em	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	pais	_	NOUN	NOUN	_	24	nmod	_	TokenRange=183:187
+36	apesar	apesar	ADV	ADV	_	42	mark	_	TokenRange=188:194
+37	de	_	ADP	ADP	_	36	fixed	_	TokenRange=195:197
+38	negativo	negativo	ADJ	ADJ	_	39	amod	_	TokenRange=198:206
+39	resultado	resultado	NOUN	NOUN	_	42	nmod	_	TokenRange=207:216
+40	foi	_	AUX	AUX	_	42	cop	_	TokenRange=217:220
+41	o	o	DET	DET	_	42	det	_	TokenRange=221:222
+42	melhor	melhor	NOUN	NOUN	_	16	advcl	_	TokenRange=223:229
+43	desde	_	ADP	ADP	_	44	case	_	TokenRange=230:235
+44	2014	_	NUM	NUM	NumType=Card	42	nmod	_	TokenRange=236:240
+45	a	o	DET	DET	_	46	det	_	TokenRange=241:242
+46	economia	economia	NOUN	NOUN	_	48	nsubj	_	TokenRange=243:251
+47	brasileira	brasileiro	ADJ	ADJ	_	46	amod	_	TokenRange=252:262
+48	fechou	fechar	VERB	VERB	_	16	acl:relcl	_	TokenRange=263:269
+49-50	no	_	_	_	_	_	_	_	TokenRange=270:272
+49	em	em	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	ano	ano	NOUN	NOUN	_	48	nmod	_	TokenRange=273:276
+52	passado	passado	ADJ	ADJ	_	51	amod	_	TokenRange=277:284
+53	20832	_	NUM	NUM	NumType=Card	54	nummod	_	TokenRange=285:290
+54	postos	posto	NOUN	NOUN	_	48	obj	_	TokenRange=291:297
+55	de	de	ADP	ADP	_	56	case	_	TokenRange=298:300
+56	trabalho	trabalho	NOUN	NOUN	_	54	nmod	_	TokenRange=301:309
+57	formais	formal	ADJ	ADJ	_	54	amod	_	TokenRange=310:317
+58	ou	ou	CCONJ	CONJ	_	63	cc	_	TokenRange=318:320
+59	seja	ser	VERB	VERB	_	58	fixed	_	TokenRange=321:325
+60	com	com	ADP	ADP	_	61	case	_	TokenRange=326:329
+61	carteira	_	NOUN	NOUN	_	57	nmod	_	TokenRange=330:338
+62	assinada	assinado	ADJ	ADJ	_	61	amod	_	TokenRange=339:347
+63	informou	informar	VERB	VERB	_	48	conj	_	TokenRange=348:356
+64	nesta	_	ADP	ADP	_	65	case	_	TokenRange=357:362
+65	sextafeira	_	NOUN	NOUN	_	63	nmod	_	TokenRange=363:373
+66	26	_	NUM	NUM	NumType=Card	65	appos	_	TokenRange=374:376
+67	o	o	DET	DET	_	68	det	_	TokenRange=377:378
+68	ministerio	ministerio	NOUN	NOUN	_	76	nsubj	_	TokenRange=379:389
+69-70	do	_	_	_	_	_	_	_	TokenRange=390:392
+69	de	de	ADP	ADP	_	71	case	_	_
+70	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+71	trabalho	trabalho	NOUN	NOUN	_	68	nmod	_	TokenRange=393:401
+72	esse	_	PRON	PRON	_	76	nsubj	_	TokenRange=402:406
+73	foi	_	AUX	AUX	_	76	cop	_	TokenRange=407:410
+74	o	o	DET	DET	_	76	det	_	TokenRange=411:412
+75	terceiro	_	ADJ	ADJ	_	76	amod	_	TokenRange=413:421
+76	ano	ano	NOUN	NOUN	_	48	parataxis	_	TokenRange=422:425
+77	consecutivo	consecutivo	ADJ	ADJ	_	76	amod	_	SpacesAfter=\s\s|TokenRange=426:437
+

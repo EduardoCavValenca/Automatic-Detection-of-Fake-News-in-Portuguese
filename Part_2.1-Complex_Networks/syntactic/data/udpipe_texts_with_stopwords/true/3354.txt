@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = brasil tem 86 mil estrangeiros aguardando resposta sobre refugio e 14 funcionarios para avaliar pedidos ministerio da justica aumentou funcionarios que processam casos mas demanda cresceu muito entre 2016 e 2017 enquanto esperam migrantes tem garantidos direitos como acesso a saude e educacao publicas no brasil ha atualmente 86 mil estrangeiros que solicitaram refugio no pais e aguardam resposta do governo e o comite
+1	brasil	brasil	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	tem	ter	VERB	VERB	_	0	root	_	TokenRange=7:10
+3	86	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=11:13
+4	mil	_	NUM	NUM	NumType=Card	5	nummod	_	TokenRange=14:17
+5	estrangeiros	estrangeiro	NOUN	NOUN	_	2	obj	_	TokenRange=18:30
+6	aguardando	aguardar	VERB	VERB	_	5	acl	_	TokenRange=31:41
+7	resposta	resposta	NOUN	NOUN	_	6	obj	_	TokenRange=42:50
+8	sobre	_	ADP	ADP	_	9	case	_	TokenRange=51:56
+9	refugio	refugio	NOUN	NOUN	_	7	nmod	_	TokenRange=57:64
+10	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=65:66
+11	14	_	NUM	NUM	NumType=Card	12	nummod	_	TokenRange=67:69
+12	funcionarios	funcionario	NOUN	NOUN	_	5	conj	_	TokenRange=70:82
+13	para	_	ADP	ADP	_	14	mark	_	TokenRange=83:87
+14	avaliar	avaliar	VERB	VERB	_	12	nmod	_	TokenRange=88:95
+15	pedidos	pedido	NOUN	NOUN	_	14	obj	_	TokenRange=96:103
+16	ministerio	ministerio	NOUN	NOUN	_	15	appos	_	TokenRange=104:114
+17-18	da	_	_	_	_	_	_	_	TokenRange=115:117
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	justica	_	NOUN	NOUN	_	16	nmod	_	TokenRange=118:125
+20	aumentou	aumentar	VERB	VERB	_	2	parataxis	_	TokenRange=126:134
+21	funcionarios	funcionario	NOUN	NOUN	_	20	obj	_	TokenRange=135:147
+22	que	_	PRON	PRON	_	23	nsubj	_	TokenRange=148:151
+23	processam	processar	VERB	VERB	_	21	acl:relcl	_	TokenRange=152:161
+24	casos	caso	NOUN	NOUN	_	23	obj	_	TokenRange=162:167
+25	mas	mas	CCONJ	CONJ	_	27	cc	_	TokenRange=168:171
+26	demanda	demanda	NOUN	NOUN	_	27	nsubj	_	TokenRange=172:179
+27	cresceu	crescer	VERB	VERB	_	2	conj	_	TokenRange=180:187
+28	muito	muito	ADV	ADV	_	27	advmod	_	TokenRange=188:193
+29	entre	_	ADP	ADP	_	30	case	_	TokenRange=194:199
+30	2016	_	NUM	NUM	NumType=Card	27	nmod	_	TokenRange=200:204
+31	e	e	CCONJ	CONJ	_	32	cc	_	TokenRange=205:206
+32	2017	_	NUM	NUM	NumType=Card	30	conj	_	TokenRange=207:211
+33	enquanto	_	CCONJ	CONJ	_	34	mark	_	TokenRange=212:220
+34	esperam	esperar	VERB	VERB	_	27	advcl	_	TokenRange=221:228
+35	migrantes	migrante	NOUN	NOUN	_	34	obj	_	TokenRange=229:238
+36	tem	ter	VERB	VERB	_	34	ccomp	_	TokenRange=239:242
+37	garantidos	garantido	ADJ	ADJ	_	38	amod	_	TokenRange=243:253
+38	direitos	direito	NOUN	NOUN	_	36	obj	_	TokenRange=254:262
+39	como	como	ADP	ADP	_	40	case	_	TokenRange=263:267
+40	acesso	acesso	NOUN	NOUN	_	38	nmod	_	TokenRange=268:274
+41	a	_	ADP	ADP	_	42	case	_	TokenRange=275:276
+42	saude	saude	NOUN	NOUN	_	40	nmod	_	TokenRange=277:282
+43	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=283:284
+44	educacao	educacao	NOUN	NOUN	_	42	conj	_	TokenRange=285:293
+45	publicas	publico	ADJ	ADJ	_	44	amod	_	TokenRange=294:302
+46-47	no	_	_	_	_	_	_	_	TokenRange=303:305
+46	em	em	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	brasil	brasil	NOUN	NOUN	_	36	nmod	_	TokenRange=306:312
+49	ha	har	VERB	VERB	_	2	parataxis	_	TokenRange=313:315
+50	atualmente	atualmente	ADV	ADV	_	52	advmod	_	TokenRange=316:326
+51	86	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=327:329
+52	mil	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=330:333
+53	estrangeiros	estrangeiro	NOUN	NOUN	_	49	obj	_	TokenRange=334:346
+54	que	_	PRON	PRON	_	55	nsubj	_	TokenRange=347:350
+55	solicitaram	solicitar	VERB	VERB	_	53	acl:relcl	_	TokenRange=351:362
+56	refugio	refugio	NOUN	NOUN	_	55	obj	_	TokenRange=363:370
+57-58	no	_	_	_	_	_	_	_	TokenRange=371:373
+57	em	em	ADP	ADP	_	59	case	_	_
+58	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	pais	_	NOUN	NOUN	_	55	nmod	_	TokenRange=374:378
+60	e	e	CCONJ	CONJ	_	61	cc	_	TokenRange=379:380
+61	aguardam	aguardar	VERB	VERB	_	55	conj	_	TokenRange=381:389
+62	resposta	resposta	NOUN	NOUN	_	61	obj	_	TokenRange=390:398
+63-64	do	_	_	_	_	_	_	_	TokenRange=399:401
+63	de	de	ADP	ADP	_	65	case	_	_
+64	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	governo	governo	NOUN	NOUN	_	62	nmod	_	TokenRange=402:409
+66	e	e	CCONJ	CONJ	_	68	cc	_	TokenRange=410:411
+67	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	TokenRange=412:413
+68	comite	comite	NOUN	NOUN	_	65	conj	_	SpacesAfter=\s\s|TokenRange=414:420
+

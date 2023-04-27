@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = tse retoma nesta terca julgamento de acao que pede cassacao da chapa dilmatemer os 7 ministros do tribunal vao analisar a partir das 19h acao apresentada pelo psdb apos eleicao de 2014 na qual a campanha de dilma e temer e acusada de abuso de poder o tribunal superior eleitoral tse retomara nesta tercafeira 6 o julgamento da acao que pede a cassacao da chapa formada por dilma rousseff pt e michel temer pmdb
+1	tse	_	PRON	PRON	_	2	nsubj	_	TokenRange=0:3
+2	retoma	retomar	VERB	VERB	_	0	root	_	TokenRange=4:10
+3	nesta	_	ADP	ADP	_	5	case	_	TokenRange=11:16
+4	terca	_	ADJ	ADJ	_	5	amod	_	TokenRange=17:22
+5	julgamento	julgamento	NOUN	NOUN	_	2	nmod	_	TokenRange=23:33
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=34:36
+7	acao	acao	NOUN	NOUN	_	5	nmod	_	TokenRange=37:41
+8	que	_	PRON	PRON	_	9	nsubj	_	TokenRange=42:45
+9	pede	pedir	VERB	VERB	_	5	acl:relcl	_	TokenRange=46:50
+10	cassacao	cassacao	NOUN	NOUN	_	9	obj	_	TokenRange=51:59
+11-12	da	_	_	_	_	_	_	_	TokenRange=60:62
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	chapa	chapa	NOUN	NOUN	_	10	nmod	_	TokenRange=63:68
+14	dilmatemer	dilmatemer	NOUN	NOUN	_	13	flat	_	TokenRange=69:79
+15	os	o	DET	DET	_	17	det	_	TokenRange=80:82
+16	7	_	NUM	NUM	NumType=Card	17	nummod	_	TokenRange=83:84
+17	ministros	ministro	NOUN	NOUN	_	22	nsubj	_	TokenRange=85:94
+18-19	do	_	_	_	_	_	_	_	TokenRange=95:97
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tribunal	tribunal	NOUN	NOUN	_	17	nmod	_	TokenRange=98:106
+21	vao	ir	AUX	AUX	_	22	aux	_	TokenRange=107:110
+22	analisar	analisar	VERB	VERB	_	2	ccomp	_	TokenRange=111:119
+23	a	_	ADP	ADP	_	24	mark	_	TokenRange=120:121
+24	partir	partir	VERB	VERB	_	22	nmod	_	TokenRange=122:128
+25-26	das	_	_	_	_	_	_	_	TokenRange=129:132
+25	de	de	ADP	ADP	_	28	case	_	_
+26	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	19h	_	NUM	NUM	NumType=Card	28	nummod	_	TokenRange=133:136
+28	acao	acao	NOUN	NOUN	_	24	nmod	_	TokenRange=137:141
+29	apresentada	apresentar	VERB	VERB	_	28	acl	_	TokenRange=142:153
+30-31	pelo	_	_	_	_	_	_	_	TokenRange=154:158
+30	por	por	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	psdb	_	PROPN	PNOUN	_	29	nmod	_	TokenRange=159:163
+33	apos	_	ADP	ADP	_	34	case	_	TokenRange=164:168
+34	eleicao	eleicao	NOUN	NOUN	_	29	nmod	_	TokenRange=169:176
+35	de	de	ADP	ADP	_	36	case	_	TokenRange=177:179
+36	2014	_	NUM	NUM	NumType=Card	34	nmod	_	TokenRange=180:184
+37-38	na	_	_	_	_	_	_	_	TokenRange=185:187
+37	em	em	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	qual	_	PRON	PRON	_	47	nmod	_	TokenRange=188:192
+40	a	o	DET	DET	_	41	det	_	TokenRange=193:194
+41	campanha	campanha	NOUN	NOUN	_	47	nsubj:pass	_	TokenRange=195:203
+42	de	de	ADP	ADP	_	43	case	_	TokenRange=204:206
+43	dilma	dilma	NOUN	NOUN	_	41	nmod	_	TokenRange=207:212
+44	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=213:214
+45	temer	temer	NOUN	NOUN	_	43	conj	_	TokenRange=215:220
+46	e	e	AUX	AUX	_	47	aux:pass	_	TokenRange=221:222
+47	acusada	acusar	VERB	VERB	_	34	acl:relcl	_	TokenRange=223:230
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=231:233
+49	abuso	abuso	NOUN	NOUN	_	47	nmod	_	TokenRange=234:239
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=240:242
+51	poder	poder	NOUN	NOUN	_	49	nmod	_	TokenRange=243:248
+52	o	o	DET	DET	_	53	det	_	TokenRange=249:250
+53	tribunal	tribunal	NOUN	NOUN	_	47	nsubj:pass	_	TokenRange=251:259
+54	superior	superior	ADJ	ADJ	_	53	amod	_	TokenRange=260:268
+55	eleitoral	eleitoral	ADJ	ADJ	_	53	amod	_	TokenRange=269:278
+56	tse	_	PRON	PRON	_	57	nsubj	_	TokenRange=279:282
+57	retomara	retomar	VERB	VERB	_	2	parataxis	_	TokenRange=283:291
+58	nesta	_	ADP	ADP	_	59	case	_	TokenRange=292:297
+59	tercafeira	_	NOUN	NOUN	_	57	nmod	_	TokenRange=298:308
+60	6	_	NUM	NUM	NumType=Card	59	appos	_	TokenRange=309:310
+61	o	o	DET	DET	_	62	det	_	TokenRange=311:312
+62	julgamento	julgamento	NOUN	NOUN	_	57	obj	_	TokenRange=313:323
+63-64	da	_	_	_	_	_	_	_	TokenRange=324:326
+63	de	de	ADP	ADP	_	65	case	_	_
+64	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	acao	acao	NOUN	NOUN	_	62	nmod	_	TokenRange=327:331
+66	que	_	PRON	PRON	_	67	nsubj	_	TokenRange=332:335
+67	pede	pedir	VERB	VERB	_	65	acl:relcl	_	TokenRange=336:340
+68	a	o	DET	DET	_	69	det	_	TokenRange=341:342
+69	cassacao	cassacao	NOUN	NOUN	_	67	obj	_	TokenRange=343:351
+70-71	da	_	_	_	_	_	_	_	TokenRange=352:354
+70	de	de	ADP	ADP	_	72	case	_	_
+71	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+72	chapa	chapa	NOUN	NOUN	_	69	nmod	_	TokenRange=355:360
+73	formada	formar	VERB	VERB	_	72	acl	_	TokenRange=361:368
+74	por	por	ADP	ADP	_	75	case	_	TokenRange=369:372
+75	dilma	dilma	NOUN	NOUN	_	73	nmod	_	TokenRange=373:378
+76	rousseff	rousseff	ADJ	ADJ	_	75	amod	_	TokenRange=379:387
+77	pt	_	NOUN	PNOUN	_	75	appos	_	TokenRange=388:390
+78	e	e	CCONJ	CONJ	_	79	cc	_	TokenRange=391:392
+79	michel	michel	ADJ	NOUN	_	75	conj	_	TokenRange=393:399
+80	temer	temer	NOUN	NOUN	_	81	flat	_	TokenRange=400:405
+81	pmdb	_	PROPN	PNOUN	_	75	appos	_	SpacesAfter=\s\s|TokenRange=406:410
+

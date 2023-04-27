@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = estudantes sofrem com onda de assaltos proximo a escola na ponta grossa maceio ha relatos de que os crimes acontecem sempre da mesma maneira cometidos por homens armados em uma motocicleta pm diz que nao recebeu denuncias mas vai reforcar seguranca pais e alunos da escola estadual dr rodriguez de melo na ponta grossa em maceio estao amedrontados com a onda de violencia na regiao a modalidade e sempre a mesma dois homens em uma
+1	estudantes	estudante	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:10
+2	sofrem	sofrer	VERB	VERB	_	0	root	_	TokenRange=11:17
+3	com	com	ADP	ADP	_	4	case	_	TokenRange=18:21
+4	onda	onda	NOUN	NOUN	_	2	nmod	_	TokenRange=22:26
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=27:29
+6	assaltos	assalto	NOUN	NOUN	_	4	nmod	_	TokenRange=30:38
+7	proximo	proximo	ADV	ADV	_	2	advmod	_	TokenRange=39:46
+8	a	_	ADP	ADP	_	9	case	_	TokenRange=47:48
+9	escola	escola	NOUN	NOUN	_	7	nmod	_	TokenRange=49:55
+10-11	na	_	_	_	_	_	_	_	TokenRange=56:58
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ponta	ponta	NOUN	NOUN	_	2	nmod	_	TokenRange=59:64
+13	grossa	grosso	ADJ	ADJ	_	12	amod	_	TokenRange=65:71
+14	maceio	maceio	NOUN	NOUN	_	12	appos	_	TokenRange=72:78
+15	ha	_	VERB	VERB	_	2	parataxis	_	TokenRange=79:81
+16	relatos	relato	NOUN	NOUN	_	15	obj	_	TokenRange=82:89
+17	de	_	ADP	ADP	_	21	mark	_	TokenRange=90:92
+18	que	que	CCONJ	CONJ	_	21	mark	_	TokenRange=93:96
+19	os	o	DET	DET	_	20	det	_	TokenRange=97:99
+20	crimes	crime	NOUN	NOUN	_	21	nsubj	_	TokenRange=100:106
+21	acontecem	acontecer	VERB	VERB	_	16	nmod	_	TokenRange=107:116
+22	sempre	sempre	ADV	ADV	_	21	advmod	_	TokenRange=117:123
+23-24	da	_	_	_	_	_	_	_	TokenRange=124:126
+23	de	de	ADP	ADP	_	26	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	mesma	mesmo	ADJ	ADJ	_	26	amod	_	TokenRange=127:132
+26	maneira	maneira	NOUN	NOUN	_	21	nmod	_	TokenRange=133:140
+27	cometidos	cometer	VERB	VERB	_	26	acl	_	TokenRange=141:150
+28	por	por	ADP	ADP	_	29	case	_	TokenRange=151:154
+29	homens	homem	NOUN	NOUN	_	27	nmod	_	TokenRange=155:161
+30	armados	armado	ADJ	ADJ	_	29	amod	_	TokenRange=162:169
+31	em	em	ADP	ADP	_	33	case	_	TokenRange=170:172
+32	uma	um	DET	DET	_	33	det	_	TokenRange=173:176
+33	motocicleta	motocicleta	NOUN	NOUN	_	27	nmod	_	TokenRange=177:188
+34	pm	_	PROPN	PNOUN	_	35	nsubj	_	TokenRange=189:191
+35	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=192:195
+36	que	que	CCONJ	CONJ	_	38	mark	_	TokenRange=196:199
+37	nao	nao	ADV	ADV	Polarity=Neg	38	advmod	_	TokenRange=200:203
+38	recebeu	receber	VERB	VERB	_	35	ccomp	_	TokenRange=204:211
+39	denuncias	_	NOUN	NOUN	_	38	obj	_	TokenRange=212:221
+40	mas	mas	CCONJ	CONJ	_	42	cc	_	TokenRange=222:225
+41	vai	ir	AUX	AUX	_	42	aux	_	TokenRange=226:229
+42	reforcar	reforcar	VERB	VERB	_	38	conj	_	TokenRange=230:238
+43	seguranca	_	NOUN	NOUN	_	42	obj	_	TokenRange=239:248
+44	pais	_	NOUN	NOUN	_	42	obj	_	TokenRange=249:253
+45	e	e	CCONJ	CONJ	_	61	cc	_	TokenRange=254:255
+46	alunos	aluno	NOUN	NOUN	_	61	nsubj	_	TokenRange=256:262
+47-48	da	_	_	_	_	_	_	_	TokenRange=263:265
+47	de	de	ADP	ADP	_	49	case	_	_
+48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	escola	escola	NOUN	NOUN	_	46	nmod	_	TokenRange=266:272
+50	estadual	estadual	ADJ	ADJ	_	49	amod	_	TokenRange=273:281
+51	dr	dr	NOUN	NOUN	_	49	appos	_	TokenRange=282:284
+52	rodriguez	rodriguez	NOUN	NOUN	_	51	flat	_	TokenRange=285:294
+53	de	de	ADP	ADP	_	54	case	_	TokenRange=295:297
+54	melo	melo	NOUN	NOUN	_	51	nmod	_	TokenRange=298:302
+55-56	na	_	_	_	_	_	_	_	TokenRange=303:305
+55	em	em	ADP	ADP	_	57	case	_	_
+56	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	ponta	ponta	NOUN	NOUN	_	49	nmod	_	TokenRange=306:311
+58	grossa	grosso	ADJ	ADJ	_	57	amod	_	TokenRange=312:318
+59	em	em	ADP	ADP	_	60	case	_	TokenRange=319:321
+60	maceio	maceio	NOUN	NOUN	_	57	nmod	_	TokenRange=322:328
+61	estao	_	VERB	VERB	_	38	conj	_	TokenRange=329:334
+62	amedrontados	amedrontado	ADJ	ADJ	_	61	xcomp	_	TokenRange=335:347
+63	com	com	ADP	ADP	_	65	case	_	TokenRange=348:351
+64	a	o	DET	DET	_	65	det	_	TokenRange=352:353
+65	onda	onda	NOUN	NOUN	_	62	nmod	_	TokenRange=354:358
+66	de	de	ADP	ADP	_	67	case	_	TokenRange=359:361
+67	violencia	violencia	NOUN	NOUN	_	65	nmod	_	TokenRange=362:371
+68-69	na	_	_	_	_	_	_	_	TokenRange=372:374
+68	em	em	ADP	ADP	_	70	case	_	_
+69	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
+70	regiao	regiao	NOUN	NOUN	_	65	nmod	_	TokenRange=375:381
+71	a	o	DET	DET	_	72	det	_	TokenRange=382:383
+72	modalidade	modalidade	NOUN	NOUN	_	61	nsubj	_	TokenRange=384:394
+73	e	e	CCONJ	CONJ	_	78	cc	_	TokenRange=395:396
+74	sempre	sempre	ADV	ADV	_	76	advmod	_	TokenRange=397:403
+75	a	o	DET	DET	_	76	det	_	TokenRange=404:405
+76	mesma	mesmo	PRON	ADJ	_	78	amod	_	TokenRange=406:411
+77	dois	_	NUM	NUM	NumType=Card	78	nummod	_	TokenRange=412:416
+78	homens	homem	NOUN	NOUN	_	72	conj	_	TokenRange=417:423
+79	em	em	ADP	ADP	_	80	case	_	TokenRange=424:426
+80	uma	_	DET	DET	_	78	det	_	SpacesAfter=\s\s|TokenRange=427:430
+

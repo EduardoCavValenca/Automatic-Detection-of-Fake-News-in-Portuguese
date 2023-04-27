@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = em video imperdivel de 1979 lula explica o que e ser um comunista profissional quem diria lula criticando os comunistas e os politicos profissionais entrevista de 1979 palavras de lula o maior charlatao que ja existiu na historia do brasil politicos profissionais sao aqueles que se dizem pobres pregam a distribuicao de renda e na epoca de eleicoes gastam fortunas para se eleger
+1	em	em	ADP	ADP	_	2	case	_	TokenRange=0:2
+2	video	video	NOUN	NOUN	_	7	nmod	_	TokenRange=3:8
+3	imperdivel	imperdivel	ADJ	ADJ	_	2	amod	_	TokenRange=9:19
+4	de	de	ADP	ADP	_	5	case	_	TokenRange=20:22
+5	1979	_	NUM	NUM	NumType=Card	2	nmod	_	TokenRange=23:27
+6	lula	lula	NOUN	NOUN	_	7	nsubj	_	TokenRange=28:32
+7	explica	explicar	VERB	VERB	_	0	root	_	TokenRange=33:40
+8	o	_	PRON	PRON	_	7	obj	_	TokenRange=41:42
+9	que	_	PRON	PRON	_	8	acl:relcl	_	TokenRange=43:46
+10	e	e	CCONJ	CONJ	_	13	cc	_	TokenRange=47:48
+11	ser	ser	AUX	AUX	_	13	cop	_	TokenRange=49:52
+12	um	um	DET	DET	_	13	det	_	TokenRange=53:55
+13	comunista	comunista	NOUN	NOUN	_	9	conj	_	TokenRange=56:65
+14	profissional	profissional	ADJ	ADJ	_	13	amod	_	TokenRange=66:78
+15	quem	_	PRON	PRON	_	16	nsubj	_	TokenRange=79:83
+16	diria	dir	VERB	VERB	_	13	csubj	_	TokenRange=84:89
+17	lula	lula	NOUN	NOUN	_	16	obj	_	TokenRange=90:94
+18	criticando	criticar	VERB	VERB	_	16	acl	_	TokenRange=95:105
+19	os	o	DET	DET	_	20	det	_	TokenRange=106:108
+20	comunistas	comunista	NOUN	NOUN	_	18	obj	_	TokenRange=109:119
+21	e	e	CCONJ	CONJ	_	23	cc	_	TokenRange=120:121
+22	os	o	DET	DET	_	23	det	_	TokenRange=122:124
+23	politicos	_	NOUN	NOUN	_	20	conj	_	TokenRange=125:134
+24	profissionais	profissional	ADJ	ADJ	_	23	amod	_	TokenRange=135:148
+25	entrevista	entrevista	NOUN	NOUN	_	18	obj	_	TokenRange=149:159
+26	de	de	ADP	ADP	_	30	case	_	TokenRange=160:162
+27	1979	_	NUM	NUM	NumType=Card	28	nmod	_	TokenRange=163:167
+28	palavras	palavra	NOUN	NOUN	_	25	appos	_	TokenRange=168:176
+29	de	de	ADP	ADP	_	30	case	_	TokenRange=177:179
+30	lula	lula	NOUN	NOUN	_	28	nmod	_	TokenRange=180:184
+31	o	o	DET	DET	_	33	det	_	TokenRange=185:186
+32	maior	maior	ADJ	ADJ	_	33	amod	_	TokenRange=187:192
+33	charlatao	charlatao	NOUN	NOUN	_	25	appos	_	TokenRange=193:202
+34	que	_	PRON	PRON	_	36	nsubj	_	TokenRange=203:206
+35	ja	ja	ADV	ADV	_	36	advmod	_	TokenRange=207:209
+36	existiu	existir	VERB	VERB	_	33	acl:relcl	_	TokenRange=210:217
+37-38	na	_	_	_	_	_	_	_	TokenRange=218:220
+37	em	em	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	historia	historia	NOUN	NOUN	_	36	nmod	_	TokenRange=221:229
+40-41	do	_	_	_	_	_	_	_	TokenRange=230:232
+40	de	de	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	brasil	brasil	NOUN	NOUN	_	39	nmod	_	TokenRange=233:239
+43	politicos	politico	NOUN	NOUN	_	36	nsubj	_	TokenRange=240:249
+44	profissionais	profissional	ADJ	ADJ	_	43	amod	_	TokenRange=250:263
+45	sao	ser	AUX	AUX	_	46	cop	_	TokenRange=264:267
+46	aqueles	_	PRON	PRON	_	7	ccomp	_	TokenRange=268:275
+47	que	_	PRON	PRON	_	49	nsubj	_	TokenRange=276:279
+48	se	_	PART	PRT	_	49	expl:pv	_	TokenRange=280:282
+49	dizem	dizer	VERB	VERB	_	46	acl:relcl	_	TokenRange=283:288
+50	pobres	pobre	ADJ	ADJ	_	49	xcomp	_	TokenRange=289:295
+51	pregam	pregar	VERB	VERB	_	46	acl:relcl	_	TokenRange=296:302
+52	a	o	DET	DET	_	53	det	_	TokenRange=303:304
+53	distribuicao	distribuicao	NOUN	NOUN	_	51	obj	_	TokenRange=305:317
+54	de	de	ADP	ADP	_	55	case	_	TokenRange=318:320
+55	renda	renda	NOUN	NOUN	_	53	nmod	_	TokenRange=321:326
+56	e	e	CCONJ	CONJ	_	62	cc	_	TokenRange=327:328
+57-58	na	_	_	_	_	_	_	_	TokenRange=329:331
+57	em	em	ADP	ADP	_	59	case	_	_
+58	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	epoca	epoca	NOUN	NOUN	_	62	nmod	_	TokenRange=332:337
+60	de	de	ADP	ADP	_	61	case	_	TokenRange=338:340
+61	eleicoes	eleicoe	NOUN	NOUN	_	59	nmod	_	TokenRange=341:349
+62	gastam	gastar	VERB	VERB	_	51	conj	_	TokenRange=350:356
+63	fortunas	fortuna	NOUN	NOUN	_	62	obj	_	TokenRange=357:365
+64	para	_	ADP	ADP	_	66	mark	_	TokenRange=366:370
+65	se	_	PRON	PRON	_	66	obj	_	TokenRange=371:373
+66	eleger	eleger	VERB	VERB	_	62	advcl	_	SpacesAfter=\s\s|TokenRange=374:380
+

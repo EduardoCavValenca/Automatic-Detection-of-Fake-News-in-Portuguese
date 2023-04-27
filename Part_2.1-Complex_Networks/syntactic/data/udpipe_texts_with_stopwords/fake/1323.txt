@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = leo pinheiro explica para sergio moro quem era o brahma moro em algumas mensagens que foram encontradas no seu celular o senhor utiliza a expressao brahma essa expressao se refere a algua pessoa em particular leo essa expressao se referia ao expresidente lula por causa de um propaganda que existia da cerveja brahma que era a numero um moro porque nao utilizavam o nome dele diretamente leo para nao expor as figuras publicas e nos tinhamos isso como pratica
+1	leo	leo	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:3
+2	pinheiro	pinheiro	NOUN	NOUN	_	1	flat	_	TokenRange=4:12
+3	explica	explicar	VERB	VERB	_	0	root	_	TokenRange=13:20
+4	para	para	ADP	ADP	_	5	case	_	TokenRange=21:25
+5	sergio	_	NOUN	NOUN	_	3	nmod	_	TokenRange=26:32
+6	moro	moro	NOUN	NOUN	_	5	flat	_	TokenRange=33:37
+7	quem	_	PRON	PRON	_	10	nsubj	_	TokenRange=38:42
+8	era	_	AUX	AUX	_	10	cop	_	TokenRange=43:46
+9	o	o	DET	DET	_	10	det	_	TokenRange=47:48
+10	brahma	_	NOUN	NOUN	_	3	ccomp	_	TokenRange=49:55
+11	moro	moro	NOUN	NOUN	_	10	flat	_	TokenRange=56:60
+12	em	em	ADP	ADP	_	14	case	_	TokenRange=61:63
+13	algumas	_	DET	DET	_	14	det	_	TokenRange=64:71
+14	mensagens	mensagem	NOUN	NOUN	_	3	nmod	_	TokenRange=72:81
+15	que	_	PRON	PRON	_	17	nsubj:pass	_	TokenRange=82:85
+16	foram	_	AUX	AUX	_	17	aux:pass	_	TokenRange=86:91
+17	encontradas	encontrar	VERB	VERB	_	14	acl:relcl	_	TokenRange=92:103
+18-19	no	_	_	_	_	_	_	_	TokenRange=104:106
+18	em	em	ADP	ADP	_	21	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	seu	_	DET	DET	_	21	det:poss	_	TokenRange=107:110
+21	celular	_	NOUN	NOUN	_	17	nmod	_	TokenRange=111:118
+22	o	o	DET	DET	_	23	det	_	TokenRange=119:120
+23	senhor	senhor	NOUN	NOUN	_	24	nsubj	_	TokenRange=121:127
+24	utiliza	utilizar	VERB	VERB	_	3	ccomp	_	TokenRange=128:135
+25	a	o	DET	DET	_	26	det	_	TokenRange=136:137
+26	expressao	expressao	NOUN	NOUN	_	24	obj	_	TokenRange=138:147
+27	brahma	brahma	NOUN	NOUN	_	26	appos	_	TokenRange=148:154
+28	essa	_	DET	DET	_	29	det	_	TokenRange=155:159
+29	expressao	expressao	NOUN	NOUN	_	24	nsubj	_	TokenRange=160:169
+30	se	_	PART	PRON	_	31	expl:pv	_	TokenRange=170:172
+31	refere	referir	VERB	VERB	_	24	parataxis	_	TokenRange=173:179
+32	a	_	ADP	ADP	_	34	case	_	TokenRange=180:181
+33	algua	_	ADJ	ADJ	_	34	amod	_	TokenRange=182:187
+34	pessoa	pessoa	NOUN	NOUN	_	31	nmod	_	TokenRange=188:194
+35	em	_	ADP	ADP	_	36	mark	_	TokenRange=195:197
+36	particular	particular	ADJ	ADJ	_	34	nmod	_	TokenRange=198:208
+37	leo	leo	NOUN	NOUN	_	31	nmod	_	TokenRange=209:212
+38	essa	_	DET	DET	_	39	det	_	TokenRange=213:217
+39	expressao	expressao	NOUN	NOUN	_	41	nsubj	_	TokenRange=218:227
+40	se	_	PART	PRT	_	41	expl:pv	_	TokenRange=228:230
+41	referia	referir	VERB	VERB	_	31	parataxis	_	TokenRange=231:238
+42-43	ao	_	_	_	_	_	_	_	TokenRange=239:241
+42	a	a	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	expresidente	expresidente	NOUN	NOUN	_	41	iobj	_	TokenRange=242:254
+45	lula	lula	ADJ	ADJ	_	44	amod	_	TokenRange=255:259
+46	por	por	ADP	ADP	_	50	case	_	TokenRange=260:263
+47	causa	causa	NOUN	NOUN	_	46	fixed	_	TokenRange=264:269
+48	de	_	ADP	ADP	_	46	fixed	_	TokenRange=270:272
+49	um	um	DET	DET	_	50	det	_	TokenRange=273:275
+50	propaganda	propaganda	NOUN	NOUN	_	41	nmod	_	TokenRange=276:286
+51	que	_	PRON	PRON	_	52	nsubj	_	TokenRange=287:290
+52	existia	existir	VERB	VERB	_	50	acl:relcl	_	TokenRange=291:298
+53-54	da	_	_	_	_	_	_	_	TokenRange=299:301
+53	de	de	ADP	ADP	_	55	case	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	cerveja	cerveja	NOUN	NOUN	_	52	nmod	_	TokenRange=302:309
+56	brahma	brahmo	ADJ	ADJ	_	55	amod	_	TokenRange=310:316
+57	que	_	PRON	PRON	_	62	nsubj	_	TokenRange=317:320
+58	era	_	AUX	AUX	_	62	cop	_	TokenRange=321:324
+59	a	o	DET	DET	_	62	det	_	TokenRange=325:326
+60	numero	numero	NOUN	NOUN	_	55	acl:relcl	_	TokenRange=327:333
+61	um	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=334:336
+62	moro	moro	NOUN	NOUN	_	55	acl:relcl	_	TokenRange=337:341
+63	porque	_	CCONJ	CONJ	_	65	mark	_	TokenRange=342:348
+64	nao	nao	ADV	ADV	Polarity=Neg	65	advmod	_	TokenRange=349:352
+65	utilizavam	utilizar	VERB	VERB	_	41	advcl	_	TokenRange=353:363
+66	o	o	DET	DET	_	67	det	_	TokenRange=364:365
+67	nome	nome	NOUN	NOUN	_	65	obj	_	TokenRange=366:370
+68	dele	_	X	ADPPRON	_	67	det:poss	_	TokenRange=371:375
+69	diretamente	diretamente	ADV	ADV	_	65	advmod	_	TokenRange=376:387
+70	leo	_	ADV	PNOUN	_	65	obj	_	TokenRange=388:391
+71	para	_	ADP	ADP	_	73	mark	_	TokenRange=392:396
+72	nao	nao	ADV	ADV	Polarity=Neg	73	advmod	_	TokenRange=397:400
+73	expor	expor	VERB	VERB	_	65	advcl	_	TokenRange=401:406
+74	as	o	DET	DET	_	75	det	_	TokenRange=407:409
+75	figuras	figura	NOUN	NOUN	_	73	obj	_	TokenRange=410:417
+76	publicas	publico	ADJ	ADJ	_	75	amod	_	TokenRange=418:426
+77	e	e	CCONJ	CONJ	_	80	cc	_	TokenRange=427:428
+78-79	nos	_	_	_	_	_	_	_	TokenRange=429:432
+78	em	em	ADP	ADP	_	80	case	_	_
+79	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	80	det	_	_
+80	tinhamos	tinhar	VERB	VERB	_	65	conj	_	TokenRange=433:441
+81	isso	_	PRON	PRON	_	80	obj	_	TokenRange=442:446
+82	como	como	ADP	ADP	_	83	case	_	TokenRange=447:451
+83	pratica	_	NOUN	NOUN	_	80	nmod	_	TokenRange=452:459
+

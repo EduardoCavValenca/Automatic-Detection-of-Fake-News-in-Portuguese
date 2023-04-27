@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = jornalista mauricio kubrusly sofre infarto aos 71 anos o reporter passou mal no ultimo sabado 14 de acordo com informacoes da revista veja kubrusly se recupera bem a assessoria de imprensa da globo informou que o profissional deve voltar ao trabalho em breve mauricio tem 71 anos
+1	jornalista	jornalista	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:10
+2	mauricio	mauricio	ADJ	ADJ	_	1	amod	_	TokenRange=11:19
+3	kubrusly	_	NOUN	NOUN	_	1	appos	_	TokenRange=20:28
+4	sofre	sofrer	VERB	VERB	_	0	root	_	TokenRange=29:34
+5	infarto	infarto	NOUN	NOUN	_	4	obj	_	TokenRange=35:42
+6-7	aos	_	_	_	_	_	_	_	TokenRange=43:46
+6	a	a	ADP	ADP	_	9	case	_	_
+7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	71	_	NUM	NUM	NumType=Card	9	nummod	_	TokenRange=47:49
+9	anos	ano	NOUN	NOUN	_	4	nmod	_	TokenRange=50:54
+10	o	o	DET	DET	_	11	det	_	TokenRange=55:56
+11	reporter	reporter	NOUN	NOUN	_	12	nsubj	_	TokenRange=57:65
+12	passou	passar	VERB	VERB	_	4	parataxis	_	TokenRange=66:72
+13	mal	mal	ADV	ADV	_	12	advmod	_	TokenRange=73:76
+14-15	no	_	_	_	_	_	_	_	TokenRange=77:79
+14	em	em	ADP	ADP	_	17	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	ultimo	_	ADJ	ADJ	_	17	amod	_	TokenRange=80:86
+17	sabado	_	PROPN	PNOUN	_	12	nmod	_	TokenRange=87:93
+18	14	_	NUM	NUM	NumType=Card	17	nmod	_	TokenRange=94:96
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=97:99
+20	acordo	acordo	NOUN	NOUN	_	12	nmod	_	TokenRange=100:106
+21	com	com	ADP	ADP	_	22	case	_	TokenRange=107:110
+22	informacoes	informacoe	NOUN	NOUN	_	20	nmod	_	TokenRange=111:122
+23-24	da	_	_	_	_	_	_	_	TokenRange=123:125
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	revista	revista	NOUN	NOUN	_	22	nmod	_	TokenRange=126:133
+26	veja	veja	NOUN	NOUN	_	25	appos	_	TokenRange=134:138
+27	kubrusly	_	NOUN	NOUN	_	25	appos	_	TokenRange=139:147
+28	se	_	PRON	PRON	_	29	expl:pv	_	TokenRange=148:150
+29	recupera	recuperar	VERB	VERB	_	4	parataxis	_	TokenRange=151:159
+30	bem	bem	ADV	ADV	_	29	advmod	_	TokenRange=160:163
+31	a	o	DET	DET	_	32	det	_	TokenRange=164:165
+32	assessoria	assessoria	NOUN	NOUN	_	29	nsubj	_	TokenRange=166:176
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=177:179
+34	imprensa	imprensa	NOUN	NOUN	_	32	nmod	_	TokenRange=180:188
+35-36	da	_	_	_	_	_	_	_	TokenRange=189:191
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	globo	globo	NOUN	NOUN	_	32	nmod	_	TokenRange=192:197
+38	informou	informar	VERB	VERB	_	4	parataxis	_	TokenRange=198:206
+39	que	que	CCONJ	CONJ	_	43	mark	_	TokenRange=207:210
+40	o	o	DET	DET	_	41	det	_	TokenRange=211:212
+41	profissional	profissional	NOUN	NOUN	_	43	nsubj	_	TokenRange=213:225
+42	deve	dever	AUX	AUX	_	43	aux	_	TokenRange=226:230
+43	voltar	voltar	VERB	VERB	_	38	ccomp	_	TokenRange=231:237
+44-45	ao	_	_	_	_	_	_	_	TokenRange=238:240
+44	a	a	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	trabalho	trabalho	NOUN	NOUN	_	43	nmod	_	TokenRange=241:249
+47	em	_	ADP	ADP	_	48	mark	_	TokenRange=250:252
+48	breve	breve	ADJ	ADJ	_	50	nmod	_	TokenRange=253:258
+49	mauricio	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=259:267
+50	tem	ter	VERB	VERB	_	38	ccomp	_	TokenRange=268:271
+51	71	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=272:274
+52	anos	ano	NOUN	NOUN	_	50	obj	_	TokenRange=275:279
+

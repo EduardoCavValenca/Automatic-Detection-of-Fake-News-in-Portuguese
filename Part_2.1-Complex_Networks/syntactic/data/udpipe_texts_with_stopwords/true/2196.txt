@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mapeamento de eleitores e o novo tempo de tv diz promotor que investiga cambridge analytica no brasil frederico meinberg alerta que eleicao no brasil pode ser definida nas redes sociais e afirma que luta contra fake news nao pode dominar atencoes leia entrevista o facebook sofreu um abalo significativo nesta semana mais precisamente desde a revelacao de que os dados de
+1	mapeamento	mapeamento	NOUN	NOUN	_	10	nsubj	_	TokenRange=0:10
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=11:13
+3	eleitores	eleitor	NOUN	NOUN	_	1	nmod	_	TokenRange=14:23
+4	e	e	CCONJ	CONJ	_	7	cc	_	TokenRange=24:25
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	TokenRange=26:27
+6	novo	novo	ADJ	ADJ	_	7	amod	_	TokenRange=28:32
+7	tempo	tempo	NOUN	NOUN	_	1	conj	_	TokenRange=33:38
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=39:41
+9	tv	tv	NOUN	NOUN	_	7	nmod	_	TokenRange=42:44
+10	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=45:48
+11	promotor	promotor	NOUN	NOUN	_	10	obj	_	TokenRange=49:57
+12	que	_	PRON	PRON	_	13	nsubj	_	TokenRange=58:61
+13	investiga	investigar	VERB	VERB	_	11	acl:relcl	_	TokenRange=62:71
+14	cambridge	cambridge	NOUN	NOUN	_	13	obj	_	TokenRange=72:81
+15	analytica	analytico	ADJ	ADJ	_	14	amod	_	TokenRange=82:91
+16-17	no	_	_	_	_	_	_	_	TokenRange=92:94
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	brasil	brasil	NOUN	NOUN	_	14	nmod	_	TokenRange=95:101
+19	frederico	frederico	NOUN	NOUN	_	21	nsubj	_	TokenRange=102:111
+20	meinberg	_	NOUN	NOUN	_	19	flat	_	TokenRange=112:120
+21	alerta	alertar	VERB	VERB	_	10	parataxis	_	TokenRange=121:127
+22	que	que	CCONJ	CONJ	_	29	mark	_	TokenRange=128:131
+23	eleicao	eleicao	NOUN	NOUN	_	29	nsubj:pass	_	TokenRange=132:139
+24-25	no	_	_	_	_	_	_	_	TokenRange=140:142
+24	em	em	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	brasil	brasil	NOUN	NOUN	_	23	nmod	_	TokenRange=143:149
+27	pode	_	AUX	AUX	_	29	aux	_	TokenRange=150:154
+28	ser	ser	AUX	AUX	_	29	aux:pass	_	TokenRange=155:158
+29	definida	definir	VERB	VERB	_	21	ccomp	_	TokenRange=159:167
+30-31	nas	_	_	_	_	_	_	_	TokenRange=168:171
+30	em	em	ADP	ADP	_	32	case	_	_
+31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	redes	rede	NOUN	NOUN	_	29	nmod	_	TokenRange=172:177
+33	sociais	social	ADJ	ADJ	_	32	amod	_	TokenRange=178:185
+34	e	e	CCONJ	CONJ	_	35	cc	_	TokenRange=186:187
+35	afirma	afirmar	VERB	VERB	_	29	conj	_	TokenRange=188:194
+36	que	que	CCONJ	CONJ	_	49	mark	_	TokenRange=195:198
+37	luta	luta	NOUN	NOUN	_	49	nsubj	_	TokenRange=199:203
+38	contra	_	ADP	ADP	_	39	case	_	TokenRange=204:210
+39	fake	_	NOUN	NOUN	_	37	nmod	_	TokenRange=211:215
+40	news	_	NOUN	NOUN	_	39	flat	_	TokenRange=216:220
+41	nao	nao	ADV	ADV	Polarity=Neg	43	advmod	_	TokenRange=221:224
+42	pode	_	AUX	AUX	_	43	aux	_	TokenRange=225:229
+43	dominar	dominar	VERB	VERB	_	35	ccomp	_	TokenRange=230:237
+44	atencoes	_	NOUN	NOUN	_	43	obj	_	TokenRange=238:246
+45	leia	ler	VERB	VERB	_	49	parataxis	_	TokenRange=247:251
+46	entrevista	entrevista	NOUN	NOUN	_	43	obj	_	TokenRange=252:262
+47	o	o	DET	DET	_	48	det	_	TokenRange=263:264
+48	facebook	_	PROPN	PNOUN	_	49	nsubj	_	TokenRange=265:273
+49	sofreu	sofrer	VERB	VERB	_	35	ccomp	_	TokenRange=274:280
+50	um	um	DET	DET	_	51	det	_	TokenRange=281:283
+51	abalo	abalo	NOUN	NOUN	_	49	obj	_	TokenRange=284:289
+52	significativo	significativo	ADJ	ADJ	_	51	amod	_	TokenRange=290:303
+53	nesta	_	ADP	ADP	_	54	case	_	TokenRange=304:309
+54	semana	semana	NOUN	NOUN	_	49	nmod	_	TokenRange=310:316
+55	mais	mais	ADV	ADV	_	56	advmod	_	TokenRange=317:321
+56	precisamente	precisamente	ADV	ADV	_	59	advmod	_	TokenRange=322:334
+57	desde	_	ADP	ADP	_	59	case	_	TokenRange=335:340
+58	a	o	DET	DET	_	59	det	_	TokenRange=341:342
+59	revelacao	revelacao	NOUN	NOUN	_	49	nmod	_	TokenRange=343:352
+60	de	_	ADP	ADP	_	49	mark	_	TokenRange=353:355
+61	que	que	CCONJ	CONJ	_	49	mark	_	TokenRange=356:359
+62	os	o	DET	DET	_	63	det	_	TokenRange=360:362
+63	dados	dado	NOUN	NOUN	_	49	nsubj	_	TokenRange=363:368
+64	de	de	ADP	ADP	_	39	case	_	SpacesAfter=\s\s|TokenRange=369:371
+

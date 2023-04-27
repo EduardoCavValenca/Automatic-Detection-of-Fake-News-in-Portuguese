@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = agora ate fita sem pericia vale diz gilmar ironizando audios da jbs herman que usou depoimentos como uma das bases para seu voto rebate veja que ele estava calmo ate agora apos quase duas horas sem intervencoes no voto do ministro herman benjamin o ministro gilmar mendes submergiu para falar de outro tema que nao o julgamento da chapa dilmatemer a falta de pericia previa no
+1	agora	agora	ADV	ADV	_	3	advmod	_	TokenRange=0:5
+2	ate	_	ADV	ADV	_	3	advmod	_	TokenRange=6:9
+3	fita	fita	NOUN	NOUN	_	7	parataxis	_	TokenRange=10:14
+4	sem	_	ADP	ADP	_	5	case	_	TokenRange=15:18
+5	pericia	pericia	NOUN	NOUN	_	3	nmod	_	TokenRange=19:26
+6	vale	_	NOUN	NOUN	_	3	appos	_	TokenRange=27:31
+7	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=32:35
+8	gilmar	gilmar	NOUN	NOUN	_	7	nsubj	_	TokenRange=36:42
+9	ironizando	ironizar	VERB	VERB	_	7	acl	_	TokenRange=43:53
+10	audios	audio	NOUN	NOUN	_	9	obj	_	TokenRange=54:60
+11-12	da	_	_	_	_	_	_	_	TokenRange=61:63
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	jbs	_	NOUN	NOUN	_	10	nmod	_	TokenRange=64:67
+14	herman	_	NOUN	NOUN	_	13	flat	_	TokenRange=68:74
+15	que	_	PRON	PRON	_	16	nsubj	_	TokenRange=75:78
+16	usou	usar	VERB	VERB	_	13	acl:relcl	_	TokenRange=79:83
+17	depoimentos	depoimento	NOUN	NOUN	_	16	obj	_	TokenRange=84:95
+18	como	como	ADP	ADP	_	19	case	_	TokenRange=96:100
+19	uma	_	PRON	PRON	_	16	nmod	_	TokenRange=101:104
+20-21	das	_	_	_	_	_	_	_	TokenRange=105:108
+20	de	de	ADP	ADP	_	22	case	_	_
+21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	bases	base	NOUN	NOUN	_	19	nmod	_	TokenRange=109:114
+23	para	para	ADP	ADP	_	25	case	_	TokenRange=115:119
+24	seu	_	DET	DET	_	25	det:poss	_	TokenRange=120:123
+25	voto	voto	NOUN	NOUN	_	22	nmod	_	TokenRange=124:128
+26	rebate	rebate	NOUN	NOUN	_	25	flat	_	TokenRange=129:135
+27	veja	ver	VERB	VERB	_	7	ccomp	_	TokenRange=136:140
+28	que	que	CCONJ	CONJ	_	30	mark	_	TokenRange=141:144
+29	ele	_	PRON	PRON	_	30	nsubj	_	TokenRange=145:148
+30	estava	estar	VERB	VERB	_	27	ccomp	_	TokenRange=149:155
+31	calmo	calmo	ADJ	ADJ	_	30	xcomp	_	TokenRange=156:161
+32	ate	_	ADP	ADP	_	33	mark	_	TokenRange=162:165
+33	agora	agora	ADV	ADV	_	30	nmod	_	TokenRange=166:171
+34	apos	_	VERB	VERB	_	30	advcl	_	TokenRange=172:176
+35	quase	quase	ADV	ADV	_	36	advmod	_	TokenRange=177:182
+36	duas	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=183:187
+37	horas	hora	NOUN	NOUN	_	34	nmod	_	TokenRange=188:193
+38	sem	_	ADP	ADP	_	39	case	_	TokenRange=194:197
+39	intervencoes	intervencoe	NOUN	NOUN	_	34	nmod	_	TokenRange=198:210
+40-41	no	_	_	_	_	_	_	_	TokenRange=211:213
+40	em	em	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	voto	voto	NOUN	NOUN	_	39	nmod	_	TokenRange=214:218
+43-44	do	_	_	_	_	_	_	_	TokenRange=219:221
+43	de	de	ADP	ADP	_	45	case	_	_
+44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	ministro	ministro	NOUN	NOUN	_	42	nmod	_	TokenRange=222:230
+46	herman	_	NOUN	NOUN	_	45	appos	_	TokenRange=231:237
+47	benjamin	_	NOUN	NOUN	_	46	flat	_	TokenRange=238:246
+48	o	o	DET	DET	_	49	det	_	TokenRange=247:248
+49	ministro	ministro	NOUN	NOUN	_	52	nsubj	_	TokenRange=249:257
+50	gilmar	gilmar	NOUN	NOUN	_	49	appos	_	TokenRange=258:264
+51	mendes	_	ADJ	ADJ	_	49	amod	_	TokenRange=265:271
+52	submergiu	submergir	VERB	VERB	_	27	parataxis	_	TokenRange=272:281
+53	para	_	ADP	ADP	_	54	mark	_	TokenRange=282:286
+54	falar	falar	VERB	VERB	_	52	advcl	_	TokenRange=287:292
+55	de	de	ADP	ADP	_	57	case	_	TokenRange=293:295
+56	outro	_	DET	DET	_	57	det	_	TokenRange=296:301
+57	tema	tema	NOUN	NOUN	_	54	nmod	_	TokenRange=302:306
+58	que	_	PRON	PRON	_	61	nsubj	_	TokenRange=307:310
+59	nao	nao	ADV	ADV	_	61	advmod	_	TokenRange=311:314
+60	o	o	DET	DET	_	61	det	_	TokenRange=315:316
+61	julgamento	julgamento	NOUN	NOUN	_	57	acl:relcl	_	TokenRange=317:327
+62-63	da	_	_	_	_	_	_	_	TokenRange=328:330
+62	de	de	ADP	ADP	_	64	case	_	_
+63	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	chapa	chapa	NOUN	NOUN	_	61	nmod	_	TokenRange=331:336
+65	dilmatemer	_	NOUN	NOUN	_	64	flat	_	TokenRange=337:347
+66	a	o	DET	DET	_	67	det	_	TokenRange=348:349
+67	falta	_	NOUN	NOUN	_	61	conj	_	TokenRange=350:355
+68	de	de	ADP	ADP	_	69	case	_	TokenRange=356:358
+69	pericia	pericia	NOUN	NOUN	_	67	nmod	_	TokenRange=359:366
+70	previa	previo	ADJ	ADJ	_	69	amod	_	TokenRange=367:373
+71-72	no	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=374:376
+71	em	em	ADP	ADP	_	67	case	_	_
+72	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+

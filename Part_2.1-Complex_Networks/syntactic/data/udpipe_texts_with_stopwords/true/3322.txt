@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 17 de agosto de 2017 boa noite aqui estao as principais noticias para voce terminar o dia beminformado mais uma vez a europa e abalada pelo terrorismo desta vez foi um dos principais cartoespostais de barcelona las ramblas um motorista em uma van atropelou vitimas durante 600 metros e deixou 13 mortos e 100 feridos de diversas nacionalidades mais uma vez tambem o estado islamico reivindicou o atentado e o
+1	quintafeira	quintafeira	NOUN	NOUN	_	10	parataxis	_	TokenRange=0:11
+2	17	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	agosto	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=18:24
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=25:27
+6	2017	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=28:32
+7	boa	bom	ADJ	ADJ	_	8	amod	_	TokenRange=33:36
+8	noite	noite	NOUN	NOUN	_	10	nsubj	_	TokenRange=37:42
+9	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=43:47
+10	estao	_	VERB	VERB	_	0	root	_	TokenRange=48:53
+11	as	o	DET	DET	_	13	det	_	TokenRange=54:56
+12	principais	principal	ADJ	ADJ	_	13	amod	_	TokenRange=57:67
+13	noticias	noticia	NOUN	NOUN	_	10	nsubj	_	TokenRange=68:76
+14	para	_	ADP	ADP	_	16	mark	_	TokenRange=77:81
+15	voce	_	PRON	PRON	_	16	nsubj	_	TokenRange=82:86
+16	terminar	terminar	VERB	VERB	_	13	nmod	_	TokenRange=87:95
+17	o	o	DET	DET	_	18	det	_	TokenRange=96:97
+18	dia	dia	NOUN	NOUN	_	16	obj	_	TokenRange=98:101
+19	beminformado	beminformado	ADJ	ADJ	_	16	xcomp	_	TokenRange=102:114
+20	mais	mais	ADV	ADV	_	21	advmod	_	TokenRange=115:119
+21	uma	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=120:123
+22	vez	vez	NOUN	NOUN	_	33	nmod	_	TokenRange=124:127
+23	a	o	DET	DET	_	24	det	_	TokenRange=128:129
+24	europa	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=130:136
+25	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=137:138
+26	abalada	abalar	VERB	VERB	_	24	conj	_	TokenRange=139:146
+27-28	pelo	_	_	_	_	_	_	_	TokenRange=147:151
+27	por	por	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	terrorismo	terrorismo	NOUN	NOUN	_	26	nmod	_	TokenRange=152:162
+30	desta	_	ADP	ADP	_	31	case	_	TokenRange=163:168
+31	vez	vez	NOUN	NOUN	_	26	nmod	_	TokenRange=169:172
+32	foi	_	AUX	AUX	_	33	cop	_	TokenRange=173:176
+33	um	_	PRON	PRON	_	10	parataxis	_	TokenRange=177:179
+34-35	dos	_	_	_	_	_	_	_	TokenRange=180:183
+34	de	de	ADP	ADP	_	37	case	_	_
+35	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	principais	principal	ADJ	ADJ	_	37	amod	_	TokenRange=184:194
+37	cartoespostais	cartoespostal	NOUN	NOUN	_	33	nmod	_	TokenRange=195:209
+38	de	de	ADP	ADP	_	39	case	_	TokenRange=210:212
+39	barcelona	barcelona	NOUN	NOUN	_	37	nmod	_	TokenRange=213:222
+40	las	_	DET	DET	_	41	det	_	TokenRange=223:226
+41	ramblas	_	NOUN	NOUN	_	47	nmod	_	TokenRange=227:234
+42	um	um	DET	DET	_	43	det	_	TokenRange=235:237
+43	motorista	motorista	NOUN	NOUN	_	47	nsubj	_	TokenRange=238:247
+44	em	em	ADP	ADP	_	46	case	_	TokenRange=248:250
+45	uma	um	DET	DET	_	46	det	_	TokenRange=251:254
+46	van	_	NOUN	NOUN	_	43	nmod	_	TokenRange=255:258
+47	atropelou	atropelar	VERB	VERB	_	33	parataxis	_	TokenRange=259:268
+48	vitimas	_	NOUN	NOUN	_	47	obj	_	TokenRange=269:276
+49	durante	_	ADP	ADP	_	51	case	_	TokenRange=277:284
+50	600	_	NUM	NUM	NumType=Card	51	nummod	_	TokenRange=285:288
+51	metros	metro	NOUN	NOUN	_	47	nmod	_	TokenRange=289:295
+52	e	e	CCONJ	CONJ	_	53	cc	_	TokenRange=296:297
+53	deixou	deixar	VERB	VERB	_	47	conj	_	TokenRange=298:304
+54	13	_	NUM	NUM	NumType=Card	55	nummod	_	TokenRange=305:307
+55	mortos	morto	NOUN	NOUN	_	53	obj	_	TokenRange=308:314
+56	e	e	CCONJ	CONJ	_	58	cc	_	TokenRange=315:316
+57	100	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=317:320
+58	feridos	ferido	NOUN	NOUN	_	55	conj	_	TokenRange=321:328
+59	de	de	ADP	ADP	_	61	case	_	TokenRange=329:331
+60	diversas	_	DET	DET	_	61	det	_	TokenRange=332:340
+61	nacionalidades	nacionalidade	NOUN	NOUN	_	58	nmod	_	TokenRange=341:355
+62	mais	mais	ADV	ADV	_	63	advmod	_	TokenRange=356:360
+63	uma	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=361:364
+64	vez	vez	NOUN	NOUN	_	69	nmod	_	TokenRange=365:368
+65	tambem	tambem	ADV	ADV	_	69	advmod	_	TokenRange=369:375
+66	o	o	DET	DET	_	67	det	_	TokenRange=376:377
+67	estado	estado	NOUN	NOUN	_	69	nsubj	_	TokenRange=378:384
+68	islamico	islamico	ADJ	ADJ	_	67	amod	_	TokenRange=385:393
+69	reivindicou	reivindicar	VERB	VERB	_	47	conj	_	TokenRange=394:405
+70	o	o	DET	DET	_	71	det	_	TokenRange=406:407
+71	atentado	atentado	NOUN	NOUN	_	69	obj	_	TokenRange=408:416
+72	e	e	CCONJ	CONJ	_	58	cc	_	TokenRange=417:418
+73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	SpacesAfter=\s\s|TokenRange=419:420
+

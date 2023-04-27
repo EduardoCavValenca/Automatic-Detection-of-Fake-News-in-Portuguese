@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o povo nao aguenta mais conta de energia tera reajuste de 43 a aneel aprovou hoje 23 um aumento significativo para nao dizer abusivo na chamada bandeira vermelha a partir do proximo mes
+1	o	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	povo	povo	NOUN	NOUN	_	4	nsubj	_	TokenRange=2:6
+3	nao	nao	ADV	ADV	Polarity=Neg	4	advmod	_	TokenRange=7:10
+4	aguenta	aguentar	VERB	VERB	_	9	parataxis	_	TokenRange=11:18
+5	mais	mais	ADV	ADV	_	6	advmod	_	TokenRange=19:23
+6	conta	conta	NOUN	NOUN	_	4	obj	_	TokenRange=24:29
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=30:32
+8	energia	energia	NOUN	NOUN	_	6	nmod	_	TokenRange=33:40
+9	tera	terar	VERB	VERB	_	0	root	_	TokenRange=41:45
+10	reajuste	reajuste	NOUN	NOUN	_	9	obj	_	TokenRange=46:54
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=55:57
+12	43	_	NUM	NUM	NumType=Card	10	nmod	_	TokenRange=58:60
+13	a	o	DET	DET	_	14	det	_	TokenRange=61:62
+14	aneel	aneel	NOUN	NOUN	_	15	nsubj	_	TokenRange=63:68
+15	aprovou	aprovar	VERB	VERB	_	9	parataxis	_	TokenRange=69:76
+16	hoje	hoje	ADV	ADV	_	15	advmod	_	TokenRange=77:81
+17	23	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=82:84
+18	um	um	DET	DET	_	19	det	_	TokenRange=85:87
+19	aumento	aumento	NOUN	NOUN	_	15	obj	_	TokenRange=88:95
+20	significativo	significativo	ADJ	ADJ	_	19	amod	_	TokenRange=96:109
+21	para	_	ADP	ADP	_	23	mark	_	TokenRange=110:114
+22	nao	nao	ADV	ADV	Polarity=Neg	23	advmod	_	TokenRange=115:118
+23	dizer	dizer	VERB	VERB	_	19	nmod	_	TokenRange=119:124
+24	abusivo	abusivo	NOUN	NOUN	_	23	obj	_	TokenRange=125:132
+25-26	na	_	_	_	_	_	_	_	TokenRange=133:135
+25	em	em	ADP	ADP	_	28	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	chamada	chamado	ADJ	ADJ	_	28	amod	_	TokenRange=136:143
+28	bandeira	bandeira	NOUN	NOUN	_	23	nmod	_	TokenRange=144:152
+29	vermelha	vermelho	ADJ	ADJ	_	28	amod	_	TokenRange=153:161
+30	a	_	ADP	ADP	_	31	mark	_	TokenRange=162:163
+31	partir	partir	VERB	VERB	_	23	nmod	_	TokenRange=164:170
+32-33	do	_	_	_	_	_	_	_	TokenRange=171:173
+32	de	de	ADP	ADP	_	35	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	proximo	proximo	ADJ	ADJ	_	35	amod	_	TokenRange=174:181
+35	mes	_	NUM	NUM	_	31	nmod	_	SpacesAfter=\s\s|TokenRange=182:185
+

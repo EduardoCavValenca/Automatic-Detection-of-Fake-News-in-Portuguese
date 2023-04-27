@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cpi dos maustratos infantis e instalada no senado e define presidente e relator magno malta pres vai presidir a comissao e a relatoria ficara com jose medeiros psdms senadores instalaram nesta quartafeira 9 a comissao parlamentar de inquerito cpi dos maus tratosinfantis na primeira reuniao o colegiado definiu que o senador magno malta pres sera o presidente e
+1	cpi	cpi	NOUN	NOUN	_	7	nsubj:pass	_	TokenRange=0:3
+2-3	dos	_	_	_	_	_	_	_	TokenRange=4:7
+2	de	de	ADP	ADP	_	4	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	maustratos	maustrato	NOUN	NOUN	_	1	nmod	_	TokenRange=8:18
+5	infantis	infantil	ADJ	ADJ	_	4	amod	_	TokenRange=19:27
+6	e	_	AUX	AUX	_	7	aux:pass	_	TokenRange=28:29
+7	instalada	instalar	VERB	VERB	_	0	root	_	TokenRange=30:39
+8-9	no	_	_	_	_	_	_	_	TokenRange=40:42
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	senado	senado	NOUN	NOUN	_	7	nmod	_	TokenRange=43:49
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=50:51
+12	define	definir	VERB	VERB	_	7	conj	_	TokenRange=52:58
+13	presidente	presidente	NOUN	NOUN	_	12	obj	_	TokenRange=59:69
+14	e	e	CCONJ	CONJ	_	15	cc	_	TokenRange=70:71
+15	relator	relator	NOUN	NOUN	_	13	conj	_	TokenRange=72:79
+16	magno	magno	NOUN	NOUN	_	20	nsubj	_	TokenRange=80:85
+17	malta	_	NOUN	NOUN	_	16	flat	_	TokenRange=86:91
+18	pres	_	NOUN	NOUN	_	16	flat	_	TokenRange=92:96
+19	vai	ir	AUX	AUX	_	20	aux	_	TokenRange=97:100
+20	presidir	presidir	VERB	VERB	_	12	conj	_	TokenRange=101:109
+21	a	o	DET	DET	_	22	det	_	TokenRange=110:111
+22	comissao	comissao	NOUN	NOUN	_	20	obj	_	TokenRange=112:120
+23	e	e	CCONJ	CONJ	_	32	cc	_	TokenRange=121:122
+24	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	TokenRange=123:124
+25	relatoria	relatoria	NOUN	NOUN	_	26	nsubj	_	TokenRange=125:134
+26	ficara	ficar	VERB	VERB	_	20	conj	_	TokenRange=135:141
+27	com	com	ADP	ADP	_	28	case	_	TokenRange=142:145
+28	jose	jose	NOUN	NOUN	_	26	nmod	_	TokenRange=146:150
+29	medeiros	medeiro	NOUN	NOUN	_	28	flat	_	TokenRange=151:159
+30	psdms	_	NOUN	NOUN	_	28	flat	_	TokenRange=160:165
+31	senadores	senador	NOUN	NOUN	_	30	flat	_	TokenRange=166:175
+32	instalaram	instalar	VERB	VERB	_	20	conj	_	TokenRange=176:186
+33	nesta	_	ADP	ADP	_	34	case	_	TokenRange=187:192
+34	quartafeira	_	NOUN	NOUN	_	32	nmod	_	TokenRange=193:204
+35	9	_	NUM	NUM	NumType=Card	34	appos	_	TokenRange=205:206
+36	a	o	DET	DET	_	37	det	_	TokenRange=207:208
+37	comissao	comissao	NOUN	NOUN	_	32	obj	_	TokenRange=209:217
+38	parlamentar	parlamentar	ADJ	ADJ	_	37	amod	_	TokenRange=218:229
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=230:232
+40	inquerito	inquerito	NOUN	NOUN	_	37	nmod	_	TokenRange=233:242
+41	cpi	cpi	NOUN	NOUN	_	37	appos	_	TokenRange=243:246
+42-43	dos	_	_	_	_	_	_	_	TokenRange=247:250
+42	de	de	ADP	ADP	_	45	case	_	_
+43	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+44	maus	mau	ADJ	ADJ	_	45	amod	_	TokenRange=251:255
+45	tratosinfantis	_	NOUN	NOUN	_	41	nmod	_	TokenRange=256:270
+46-47	na	_	_	_	_	_	_	_	TokenRange=271:273
+46	em	em	ADP	ADP	_	49	case	_	_
+47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+48	primeira	primeiro	ADJ	ADJ	_	49	amod	_	TokenRange=274:282
+49	reuniao	reuniao	NOUN	NOUN	_	32	nmod	_	TokenRange=283:290
+50	o	o	DET	DET	_	51	det	_	TokenRange=291:292
+51	colegiado	_	NOUN	NOUN	_	52	nsubj	_	TokenRange=293:302
+52	definiu	definir	VERB	VERB	_	7	conj	_	TokenRange=303:310
+53	que	que	CCONJ	CONJ	_	61	mark	_	TokenRange=311:314
+54	o	o	DET	DET	_	55	det	_	TokenRange=315:316
+55	senador	senador	NOUN	NOUN	_	61	nsubj	_	TokenRange=317:324
+56	magno	_	NOUN	NOUN	_	55	appos	_	TokenRange=325:330
+57	malta	_	NOUN	NOUN	_	56	flat	_	TokenRange=331:336
+58	pres	_	NOUN	NOUN	_	56	flat	_	TokenRange=337:341
+59	sera	_	AUX	AUX	_	61	cop	_	TokenRange=342:346
+60	o	o	DET	DET	_	61	det	_	TokenRange=347:348
+61	presidente	presidente	NOUN	NOUN	_	52	ccomp	_	TokenRange=349:359
+62	e	e	CCONJ	CONJ	_	32	cc	_	SpacesAfter=\s\s|TokenRange=360:361
+

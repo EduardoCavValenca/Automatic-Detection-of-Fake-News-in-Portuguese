@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = a 10 vara federal de brasilia determinou o sequestro de bens e o bloqueio de ativos e de recursos em contas bancarias de 103 investigados na operacao greenfield deflagrada nesta segundafeira 5 que apura desvios de r 8 bilhoes nos fundos de pensao
+1	a	o	DET	DET	_	3	det	_	TokenRange=0:1
+2	10	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=2:4
+3	vara	vara	NOUN	NOUN	_	7	nsubj	_	TokenRange=5:9
+4	federal	federal	ADJ	ADJ	_	3	amod	_	TokenRange=10:17
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=18:20
+6	brasilia	brasilia	NOUN	NOUN	_	3	nmod	_	TokenRange=21:29
+7	determinou	determinar	VERB	VERB	_	0	root	_	TokenRange=30:40
+8	o	o	DET	DET	_	9	det	_	TokenRange=41:42
+9	sequestro	sequestro	NOUN	NOUN	_	7	obj	_	TokenRange=43:52
+10	de	de	ADP	ADP	_	11	case	_	TokenRange=53:55
+11	bens	bem	NOUN	NOUN	_	9	nmod	_	TokenRange=56:60
+12	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=61:62
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	TokenRange=63:64
+14	bloqueio	bloqueio	NOUN	NOUN	_	9	conj	_	TokenRange=65:73
+15	de	de	ADP	ADP	_	16	case	_	TokenRange=74:76
+16	ativos	ativo	NOUN	NOUN	_	14	nmod	_	TokenRange=77:83
+17	e	e	CCONJ	CONJ	_	19	cc	_	TokenRange=84:85
+18	de	de	ADP	ADP	_	19	case	_	TokenRange=86:88
+19	recursos	recurso	NOUN	NOUN	_	16	conj	_	TokenRange=89:97
+20	em	em	ADP	ADP	_	21	case	_	TokenRange=98:100
+21	contas	conta	NOUN	NOUN	_	14	nmod	_	TokenRange=101:107
+22	bancarias	bancario	ADJ	ADJ	_	21	amod	_	TokenRange=108:117
+23	de	de	ADP	ADP	_	25	case	_	TokenRange=118:120
+24	103	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=121:124
+25	investigados	investigado	NOUN	NOUN	_	14	nmod	_	TokenRange=125:137
+26-27	na	_	_	_	_	_	_	_	TokenRange=138:140
+26	em	em	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	operacao	operacao	NOUN	NOUN	_	25	nmod	_	TokenRange=141:149
+29	greenfield	_	NOUN	NOUN	_	28	appos	_	TokenRange=150:160
+30	deflagrada	deflagrar	VERB	VERB	_	28	acl	_	TokenRange=161:171
+31	nesta	_	ADP	ADP	_	32	case	_	TokenRange=172:177
+32	segundafeira	_	NOUN	NOUN	_	30	nmod	_	TokenRange=178:190
+33	5	_	NUM	NUM	NumType=Card	32	appos	_	TokenRange=191:192
+34	que	_	PRON	PRON	_	35	nsubj	_	TokenRange=193:196
+35	apura	apurar	VERB	VERB	_	32	acl:relcl	_	TokenRange=197:202
+36	desvios	desvio	NOUN	NOUN	_	35	obj	_	TokenRange=203:210
+37	de	de	ADP	ADP	_	38	case	_	TokenRange=211:213
+38	r	r	NOUN	NOUN	_	36	nmod	_	TokenRange=214:215
+39	8	_	NUM	NUM	NumType=Card	40	nummod	_	TokenRange=216:217
+40	bilhoes	_	NOUN	NUM	_	38	nummod	_	TokenRange=218:225
+41-42	nos	_	_	_	_	_	_	_	TokenRange=226:229
+41	em	em	ADP	ADP	_	43	case	_	_
+42	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	fundos	_	NOUN	NOUN	_	35	nmod	_	TokenRange=230:236
+44	de	de	ADP	ADP	_	45	case	_	TokenRange=237:239
+45	pensao	pensao	NOUN	NOUN	_	43	nmod	_	SpacesAfter=\s\s|TokenRange=240:246
+

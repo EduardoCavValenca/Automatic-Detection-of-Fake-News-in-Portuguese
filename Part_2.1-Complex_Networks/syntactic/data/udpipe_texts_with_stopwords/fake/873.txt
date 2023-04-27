@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = em edicao do jn willian bonner faz pergunta capciosa e grosseira para maju video mostra o jornalista global william bonner colocando as manguinhas de fora em uma edicao do jornal nacional o editorchefe do jn mandou uma indireta um pouco grosseira para a moca do tempo maria julia coutinho o apresentador perguntou para maju se teria mais algum lugar que iria ficar molhadinho maju foi discreta contornou a situacao e respondeu sem malicia leia tambem
+1	em	em	ADP	ADP	_	2	case	_	TokenRange=0:2
+2	edicao	edicao	NOUN	NOUN	_	8	nmod	_	TokenRange=3:9
+3-4	do	_	_	_	_	_	_	_	TokenRange=10:12
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jn	_	NOUN	NOUN	_	2	nmod	_	TokenRange=13:15
+6	willian	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=16:23
+7	bonner	bonner	NOUN	NOUN	_	6	flat	_	TokenRange=24:30
+8	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=31:34
+9	pergunta	pergunta	NOUN	NOUN	_	8	obj	_	TokenRange=35:43
+10	capciosa	capcioso	ADJ	ADJ	_	9	amod	_	TokenRange=44:52
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=53:54
+12	grosseira	grosseiro	ADJ	ADJ	_	10	conj	_	TokenRange=55:64
+13	para	para	ADP	ADP	_	14	case	_	TokenRange=65:69
+14	maju	_	NOUN	NOUN	_	16	nmod	_	TokenRange=70:74
+15	video	video	NOUN	NOUN	_	16	nsubj	_	TokenRange=75:80
+16	mostra	mostrar	VERB	VERB	_	8	parataxis	_	TokenRange=81:87
+17	o	o	DET	DET	_	18	det	_	TokenRange=88:89
+18	jornalista	jornalista	NOUN	NOUN	_	16	obj	_	TokenRange=90:100
+19	global	global	ADJ	ADJ	_	18	amod	_	TokenRange=101:107
+20	william	_	NOUN	NOUN	_	18	appos	_	TokenRange=108:115
+21	bonner	bonner	NOUN	NOUN	_	20	flat	_	TokenRange=116:122
+22	colocando	colocar	VERB	VERB	_	20	acl	_	TokenRange=123:132
+23	as	o	DET	DET	_	24	det	_	TokenRange=133:135
+24	manguinhas	manguinha	NOUN	NOUN	_	22	obj	_	TokenRange=136:146
+25	de	_	ADP	ADP	_	26	mark	_	TokenRange=147:149
+26	fora	fora	ADV	ADV	_	22	nmod	_	TokenRange=150:154
+27	em	em	ADP	ADP	_	29	case	_	TokenRange=155:157
+28	uma	um	DET	DET	_	29	det	_	TokenRange=158:161
+29	edicao	edicao	NOUN	NOUN	_	22	nmod	_	TokenRange=162:168
+30-31	do	_	_	_	_	_	_	_	TokenRange=169:171
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	jornal	jornal	NOUN	NOUN	_	29	nmod	_	TokenRange=172:178
+33	nacional	nacional	ADJ	ADJ	_	32	amod	_	TokenRange=179:187
+34	o	o	DET	DET	_	35	det	_	TokenRange=188:189
+35	editorchefe	editorchefe	NOUN	NOUN	_	39	nsubj	_	TokenRange=190:201
+36-37	do	_	_	_	_	_	_	_	TokenRange=202:204
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	jn	_	NOUN	NOUN	_	35	nmod	_	TokenRange=205:207
+39	mandou	mandar	VERB	VERB	_	8	parataxis	_	TokenRange=208:214
+40	uma	um	DET	DET	_	41	det	_	TokenRange=215:218
+41	indireta	indireta	NOUN	NOUN	_	39	obj	_	TokenRange=219:227
+42	um	um	DET	DET	_	43	det	_	TokenRange=228:230
+43	pouco	pouco	NOUN	NOUN	_	44	nmod	_	TokenRange=231:236
+44	grosseira	_	ADJ	ADJ	_	41	amod	_	TokenRange=237:246
+45	para	para	ADP	ADP	_	47	case	_	TokenRange=247:251
+46	a	o	DET	DET	_	47	det	_	TokenRange=252:253
+47	moca	_	NOUN	NOUN	_	39	nmod	_	TokenRange=254:258
+48-49	do	_	_	_	_	_	_	_	TokenRange=259:261
+48	de	de	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	tempo	tempo	NOUN	NOUN	_	47	nmod	_	TokenRange=262:267
+51	maria	maria	NOUN	NOUN	_	47	appos	_	TokenRange=268:273
+52	julia	_	NOUN	NOUN	_	51	flat	_	TokenRange=274:279
+53	coutinho	_	NOUN	ADJ	_	51	flat	_	TokenRange=280:288
+54	o	o	DET	DET	_	55	det	_	TokenRange=289:290
+55	apresentador	apresentador	NOUN	NOUN	_	56	nsubj	_	TokenRange=291:303
+56	perguntou	perguntar	VERB	VERB	_	39	parataxis	_	TokenRange=304:313
+57	para	para	ADP	ADP	_	58	case	_	TokenRange=314:318
+58	maju	_	PROPN	PNOUN	_	56	nmod	_	TokenRange=319:323
+59	se	_	CCONJ	CONJ	_	60	mark	_	TokenRange=324:326
+60	teria	ter	VERB	VERB	_	56	ccomp	_	TokenRange=327:332
+61	mais	_	DET	DET	_	63	det	_	TokenRange=333:337
+62	algum	_	DET	DET	_	63	det	_	TokenRange=338:343
+63	lugar	lugar	NOUN	NOUN	_	60	obj	_	TokenRange=344:349
+64	que	_	PRON	PRON	_	66	nsubj	_	TokenRange=350:353
+65	iria	_	AUX	AUX	_	66	aux	_	TokenRange=354:358
+66	ficar	ficar	VERB	VERB	_	63	acl:relcl	_	TokenRange=359:364
+67	molhadinho	molhado	ADJ	ADJ	_	66	xcomp	_	TokenRange=365:375
+68	maju	maju	NOUN	NOUN	_	69	nsubj	_	TokenRange=376:380
+69	foi	_	VERB	VERB	_	56	ccomp	_	TokenRange=381:384
+70	discreta	discreto	ADJ	ADJ	_	69	xcomp	_	TokenRange=385:393
+71	contornou	contornar	VERB	VERB	_	56	ccomp	_	TokenRange=394:403
+72	a	o	DET	DET	_	73	det	_	TokenRange=404:405
+73	situacao	situacao	NOUN	NOUN	_	71	obj	_	TokenRange=406:414
+74	e	e	CCONJ	CONJ	_	75	cc	_	TokenRange=415:416
+75	respondeu	responder	VERB	VERB	_	71	conj	_	TokenRange=417:426
+76	sem	_	ADP	ADP	_	77	case	_	TokenRange=427:430
+77	malicia	malicia	NOUN	NOUN	_	75	nmod	_	TokenRange=431:438
+78	leia	ler	ADJ	ADJ	_	75	obj	_	TokenRange=439:443
+79	tambem	tambem	ADV	ADV	_	71	advmod	_	TokenRange=444:450
+

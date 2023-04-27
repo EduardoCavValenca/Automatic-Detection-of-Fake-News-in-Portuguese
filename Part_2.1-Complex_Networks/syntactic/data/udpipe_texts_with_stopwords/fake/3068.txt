@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = com suspensao da nomeacao lula perde o foro privilegiado e pode ser preso a qualquer momento com a liminar suspendendo o ato de posse de lula o petista perde temporariamente o foro privilegiado lula passa a ter foro de cidadao comum como deve ser e continuara a responder em primeira instancia por todos os crimes praticados segundo liminar do juiz itagiba catta preta neto existem indicios de cometimento de crime de responsabilidade pela presidente da republica dilma rousseff
+1	com	com	ADP	ADP	_	2	case	_	TokenRange=0:3
+2	suspensao	suspensao	NOUN	NOUN	_	7	nmod	_	TokenRange=4:13
+3-4	da	_	_	_	_	_	_	_	TokenRange=14:16
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nomeacao	nomeacao	NOUN	NOUN	_	2	nmod	_	TokenRange=17:25
+6	lula	_	NOUN	NOUN	_	7	nsubj	_	TokenRange=26:30
+7	perde	perder	VERB	VERB	_	0	root	_	TokenRange=31:36
+8	o	o	DET	DET	_	9	det	_	TokenRange=37:38
+9	foro	foro	NOUN	NOUN	_	7	obj	_	TokenRange=39:43
+10	privilegiado	privilegiado	ADJ	ADJ	_	9	amod	_	TokenRange=44:56
+11	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=57:58
+12	pode	_	AUX	AUX	_	14	aux	_	TokenRange=59:63
+13	ser	ser	AUX	AUX	_	14	aux:pass	_	TokenRange=64:67
+14	preso	_	VERB	VERB	_	7	conj	_	TokenRange=68:73
+15	a	_	ADP	ADP	_	17	case	_	TokenRange=74:75
+16	qualquer	_	DET	DET	_	17	det	_	TokenRange=76:84
+17	momento	momento	NOUN	NOUN	_	14	nmod	_	TokenRange=85:92
+18	com	com	ADP	ADP	_	20	case	_	TokenRange=93:96
+19	a	o	DET	DET	_	20	det	_	TokenRange=97:98
+20	liminar	liminar	NOUN	NOUN	_	14	nmod	_	TokenRange=99:106
+21	suspendendo	suspender	VERB	VERB	_	14	acl	_	TokenRange=107:118
+22	o	o	DET	DET	_	23	det	_	TokenRange=119:120
+23	ato	ato	NOUN	NOUN	_	21	obj	_	TokenRange=121:124
+24	de	de	ADP	ADP	_	25	case	_	TokenRange=125:127
+25	posse	posse	NOUN	NOUN	_	23	nmod	_	TokenRange=128:133
+26	de	de	ADP	ADP	_	27	case	_	TokenRange=134:136
+27	lula	lula	NOUN	NOUN	_	25	nmod	_	TokenRange=137:141
+28	o	o	DET	DET	_	29	det	_	TokenRange=142:143
+29	petista	petista	NOUN	NOUN	_	30	nsubj	_	TokenRange=144:151
+30	perde	perder	VERB	VERB	_	7	conj	_	TokenRange=152:157
+31	temporariamente	temporariamente	ADV	ADV	_	30	advmod	_	TokenRange=158:173
+32	o	o	DET	DET	_	33	det	_	TokenRange=174:175
+33	foro	foro	NOUN	NOUN	_	30	obj	_	TokenRange=176:180
+34	privilegiado	privilegiado	ADJ	ADJ	_	33	amod	_	TokenRange=181:193
+35	lula	lula	NOUN	NOUN	_	30	nsubj	_	TokenRange=194:198
+36	passa	passar	AUX	AUX	_	38	aux	_	TokenRange=199:204
+37	a	_	ADP	ADP	_	38	mark	_	TokenRange=205:206
+38	ter	ter	VERB	VERB	_	7	conj	_	TokenRange=207:210
+39	foro	foro	NOUN	NOUN	_	38	obj	_	TokenRange=211:215
+40	de	de	ADP	ADP	_	41	case	_	TokenRange=216:218
+41	cidadao	cidadao	NOUN	NOUN	_	39	nmod	_	TokenRange=219:226
+42	comum	comum	ADJ	ADJ	_	41	amod	_	TokenRange=227:232
+43	como	_	CCONJ	CONJ	_	45	mark	_	TokenRange=233:237
+44	deve	dever	AUX	AUX	_	45	aux	_	TokenRange=238:242
+45	ser	ser	VERB	VERB	_	38	advcl	_	TokenRange=243:246
+46	e	e	CCONJ	CONJ	_	49	cc	_	TokenRange=247:248
+47	continuara	continuar	AUX	AUX	_	49	aux	_	TokenRange=249:259
+48	a	_	ADP	ADP	_	49	mark	_	TokenRange=260:261
+49	responder	responder	VERB	VERB	_	38	conj	_	TokenRange=262:271
+50	em	em	ADP	ADP	_	52	case	_	TokenRange=272:274
+51	primeira	primeiro	ADJ	ADJ	_	52	amod	_	TokenRange=275:283
+52	instancia	instancia	NOUN	NOUN	_	49	nmod	_	TokenRange=284:293
+53	por	por	ADP	ADP	_	56	case	_	TokenRange=294:297
+54	todos	_	DET	DET	_	56	det	_	TokenRange=298:303
+55	os	o	DET	DET	_	56	det	_	TokenRange=304:306
+56	crimes	crime	NOUN	NOUN	_	49	nmod	_	TokenRange=307:313
+57	praticados	praticar	VERB	VERB	_	56	acl	_	TokenRange=314:324
+58	segundo	_	ADP	ADP	_	59	case	_	TokenRange=325:332
+59	liminar	liminar	NOUN	NOUN	_	57	nmod	_	TokenRange=333:340
+60-61	do	_	_	_	_	_	_	_	TokenRange=341:343
+60	de	de	ADP	ADP	_	62	case	_	_
+61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	juiz	juiz	NOUN	NOUN	_	59	nmod	_	TokenRange=344:348
+63	itagiba	itagiba	NOUN	NOUN	_	62	appos	_	TokenRange=349:356
+64	catta	_	NOUN	NOUN	_	62	appos	_	TokenRange=357:362
+65	preta	preto	ADJ	ADJ	_	64	amod	_	TokenRange=363:368
+66	neto	neto	ADJ	ADJ	_	64	amod	_	TokenRange=369:373
+67	existem	existir	VERB	VERB	_	7	conj	_	TokenRange=374:381
+68	indicios	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=382:390
+69	de	de	ADP	ADP	_	70	case	_	TokenRange=391:393
+70	cometimento	cometimento	NOUN	NOUN	_	68	nmod	_	TokenRange=394:405
+71	de	de	ADP	ADP	_	72	case	_	TokenRange=406:408
+72	crime	crime	NOUN	NOUN	_	70	nmod	_	TokenRange=409:414
+73	de	de	ADP	ADP	_	74	case	_	TokenRange=415:417
+74	responsabilidade	responsabilidade	NOUN	NOUN	_	72	nmod	_	TokenRange=418:434
+75-76	pela	_	_	_	_	_	_	_	TokenRange=435:439
+75	por	por	ADP	ADP	_	77	case	_	_
+76	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
+77	presidente	presidente	NOUN	NOUN	_	70	nmod	_	TokenRange=440:450
+78-79	da	_	_	_	_	_	_	_	TokenRange=451:453
+78	de	de	ADP	ADP	_	80	case	_	_
+79	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	80	det	_	_
+80	republica	_	NOUN	NOUN	_	77	nmod	_	TokenRange=454:463
+81	dilma	dilma	NOUN	NOUN	_	77	appos	_	TokenRange=464:469
+82	rousseff	rousseff	NOUN	NOUN	_	81	appos	_	TokenRange=470:478
+

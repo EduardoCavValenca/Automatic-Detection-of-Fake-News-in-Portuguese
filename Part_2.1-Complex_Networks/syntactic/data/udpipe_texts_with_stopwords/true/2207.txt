@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = joesley diz que temer e chefe de organizacao criminosa em entrevista a revista epoca empresario afirma que quem nao esta preso esta hoje no planalto o empresario joesley batista do frigorifico jbs afirmou em entrevista a revista epoca que chega as bancas no sabado 17 que o presidente michel temer e chefe de organizacao criminosa o empresario que apos ter acordo de delacao premiada foi morar
+1	joesley	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=8:11
+3	que	que	CCONJ	CONJ	_	6	mark	_	TokenRange=12:15
+4	temer	temer	NOUN	NOUN	_	2	nsubj	_	TokenRange=16:21
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=22:23
+6	chefe	chefe	NOUN	NOUN	_	4	conj	_	TokenRange=24:29
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=30:32
+8	organizacao	organizacao	NOUN	NOUN	_	6	nmod	_	TokenRange=33:44
+9	criminosa	criminoso	ADJ	ADJ	_	8	amod	_	TokenRange=45:54
+10	em	em	ADP	ADP	_	11	case	_	TokenRange=55:57
+11	entrevista	entrevista	NOUN	NOUN	_	2	nmod	_	TokenRange=58:68
+12	a	_	ADP	ADP	_	13	case	_	TokenRange=69:70
+13	revista	revista	NOUN	NOUN	_	11	nmod	_	TokenRange=71:78
+14	epoca	epoca	ADJ	ADJ	_	13	amod	_	TokenRange=79:84
+15	empresario	empresario	NOUN	NOUN	_	16	nsubj	_	TokenRange=85:95
+16	afirma	afirmar	VERB	VERB	_	2	ccomp	_	TokenRange=96:102
+17	que	que	CCONJ	CONJ	_	22	mark	_	TokenRange=103:106
+18	quem	_	PRON	PRON	_	20	nsubj	_	TokenRange=107:111
+19	nao	nao	ADV	ADV	Polarity=Neg	20	advmod	_	TokenRange=112:115
+20	esta	_	VERB	VERB	_	16	ccomp	_	TokenRange=116:120
+21	preso	preso	ADJ	ADJ	_	20	xcomp	_	TokenRange=121:126
+22	esta	_	VERB	VERB	_	16	ccomp	_	TokenRange=127:131
+23	hoje	hoje	ADV	ADV	_	22	advmod	_	TokenRange=132:136
+24-25	no	_	_	_	_	_	_	_	TokenRange=137:139
+24	em	em	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	planalto	planalto	NOUN	NOUN	_	22	nmod	_	TokenRange=140:148
+27	o	o	DET	DET	_	28	det	_	TokenRange=149:150
+28	empresario	empresario	NOUN	NOUN	_	35	nsubj	_	TokenRange=151:161
+29	joesley	_	NOUN	NOUN	_	28	appos	_	TokenRange=162:169
+30	batista	batista	ADJ	ADJ	_	29	amod	_	TokenRange=170:177
+31-32	do	_	_	_	_	_	_	_	TokenRange=178:180
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	frigorifico	frigorifico	NOUN	NOUN	_	28	nmod	_	TokenRange=181:192
+34	jbs	_	NOUN	NOUN	_	33	appos	_	TokenRange=193:196
+35	afirmou	afirmar	VERB	VERB	_	2	conj	_	TokenRange=197:204
+36	em	em	ADP	ADP	_	37	case	_	TokenRange=205:207
+37	entrevista	entrevista	NOUN	NOUN	_	35	nmod	_	TokenRange=208:218
+38	a	_	ADP	ADP	_	39	case	_	TokenRange=219:220
+39	revista	revista	NOUN	NOUN	_	37	nmod	_	TokenRange=221:228
+40	epoca	epoca	ADJ	ADJ	_	39	amod	_	TokenRange=229:234
+41	que	que	CCONJ	CONJ	_	42	mark	_	TokenRange=235:238
+42	chega	chegar	VERB	VERB	_	35	ccomp	_	TokenRange=239:244
+43	as	o	DET	DET	_	44	det	_	TokenRange=245:247
+44	bancas	banca	NOUN	NOUN	_	42	obj	_	TokenRange=248:254
+45-46	no	_	_	_	_	_	_	_	TokenRange=255:257
+45	em	em	ADP	ADP	_	47	case	_	_
+46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	sabado	_	PROPN	PNOUN	_	42	nmod	_	TokenRange=258:264
+48	17	_	NUM	NUM	NumType=Card	47	nmod	_	TokenRange=265:267
+49	que	que	CCONJ	CONJ	_	69	mark	_	TokenRange=268:271
+50	o	o	DET	DET	_	51	det	_	TokenRange=272:273
+51	presidente	presidente	NOUN	NOUN	_	42	nsubj	_	TokenRange=274:284
+52	michel	michel	ADJ	ADJ	_	51	appos	_	TokenRange=285:291
+53	temer	temer	NOUN	NOUN	_	51	appos	_	TokenRange=292:297
+54	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=298:299
+55	chefe	chefe	NOUN	NOUN	_	51	conj	_	TokenRange=300:305
+56	de	de	ADP	ADP	_	57	case	_	TokenRange=306:308
+57	organizacao	organizacao	NOUN	NOUN	_	55	nmod	_	TokenRange=309:320
+58	criminosa	criminoso	ADJ	ADJ	_	57	amod	_	TokenRange=321:330
+59	o	o	DET	DET	_	60	det	_	TokenRange=331:332
+60	empresario	empresario	NOUN	NOUN	_	42	nsubj	_	TokenRange=333:343
+61	que	_	PRON	PRON	_	69	nsubj	_	TokenRange=344:347
+62	apos	_	ADP	ADP	_	63	mark	_	TokenRange=348:352
+63	ter	ter	VERB	VERB	_	69	advcl	_	TokenRange=353:356
+64	acordo	acordo	NOUN	NOUN	_	69	obj	_	TokenRange=357:363
+65	de	de	ADP	ADP	_	66	case	_	TokenRange=364:366
+66	delacao	delacao	NOUN	NOUN	_	64	nmod	_	TokenRange=367:374
+67	premiada	premiado	ADJ	ADJ	_	66	amod	_	TokenRange=375:383
+68	foi	_	AUX	AUX	_	69	aux	_	TokenRange=384:387
+69	morar	morar	VERB	VERB	_	60	acl:relcl	_	SpacesAfter=\s\s|TokenRange=388:393
+

@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = numero de multados por embriaguez no df cresce quase 60 no 1 trimestre entre janeiro e marco deste ano detran autuou 4863 motoristas por dirigirem embriagados montante representa media de 54 pessoas multadas por dia o numero de motoristas multados por embriaguez no distrito federal cresceu 584 entre o primeiro trimestre de 2016 e os primeiros tres meses deste ano entre janeiro e marco do ano
+1	numero	numero	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:6
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=7:9
+3	multados	multado	NOUN	NOUN	_	1	nmod	_	TokenRange=10:18
+4	por	por	ADP	ADP	_	5	case	_	TokenRange=19:22
+5	embriaguez	embriaguez	NOUN	NOUN	_	3	nmod	_	TokenRange=23:33
+6-7	no	_	_	_	_	_	_	_	TokenRange=34:36
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	df	_	NOUN	NOUN	_	3	nmod	_	TokenRange=37:39
+9	cresce	crescer	VERB	VERB	_	0	root	_	TokenRange=40:46
+10	quase	quase	ADV	ADV	_	11	advmod	_	TokenRange=47:52
+11	60	_	NUM	NUM	NumType=Card	9	obj	_	TokenRange=53:55
+12-13	no	_	_	_	_	_	_	_	TokenRange=56:58
+12	em	em	ADP	ADP	_	15	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	1	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=59:60
+15	trimestre	trimestre	NOUN	NOUN	_	9	nmod	_	TokenRange=61:70
+16	entre	_	ADP	ADP	_	17	case	_	TokenRange=71:76
+17	janeiro	_	PROPN	PNOUN	_	15	nmod	_	TokenRange=77:84
+18	e	e	CCONJ	CONJ	_	19	cc	_	TokenRange=85:86
+19	marco	_	PROPN	PNOUN	_	17	conj	_	TokenRange=87:92
+20	deste	_	ADP	ADP	_	21	case	_	TokenRange=93:98
+21	ano	ano	NOUN	NOUN	_	17	nmod	_	TokenRange=99:102
+22	detran	_	NOUN	NOUN	_	23	nsubj	_	TokenRange=103:109
+23	autuou	autuar	VERB	VERB	_	9	conj	_	TokenRange=110:116
+24	4863	_	NUM	NUM	NumType=Card	25	nummod	_	TokenRange=117:121
+25	motoristas	motorista	NOUN	NOUN	_	23	obj	_	TokenRange=122:132
+26	por	_	ADP	ADP	_	27	mark	_	TokenRange=133:136
+27	dirigirem	dirigir	VERB	VERB	_	23	advcl	_	TokenRange=137:146
+28	embriagados	embriagado	ADJ	ADJ	_	27	xcomp	_	TokenRange=147:158
+29	montante	montante	NOUN	NOUN	_	27	nsubj	_	TokenRange=159:167
+30	representa	representar	VERB	VERB	_	9	parataxis	_	TokenRange=168:178
+31	media	media	NOUN	NOUN	_	30	obj	_	TokenRange=179:184
+32	de	de	ADP	ADP	_	34	case	_	TokenRange=185:187
+33	54	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=188:190
+34	pessoas	pessoa	NOUN	NOUN	_	31	nmod	_	TokenRange=191:198
+35	multadas	multar	VERB	VERB	_	34	acl	_	TokenRange=199:207
+36	por	por	ADP	ADP	_	37	case	_	TokenRange=208:211
+37	dia	dia	NOUN	NOUN	_	35	nmod	_	TokenRange=212:215
+38	o	o	DET	DET	_	39	det	_	TokenRange=216:217
+39	numero	numero	NOUN	NOUN	_	49	nsubj	_	TokenRange=218:224
+40	de	de	ADP	ADP	_	41	case	_	TokenRange=225:227
+41	motoristas	motorista	NOUN	NOUN	_	39	nmod	_	TokenRange=228:238
+42	multados	multar	VERB	VERB	_	41	acl	_	TokenRange=239:247
+43	por	por	ADP	ADP	_	44	case	_	TokenRange=248:251
+44	embriaguez	embriaguez	NOUN	NOUN	_	42	nmod	_	TokenRange=252:262
+45-46	no	_	_	_	_	_	_	_	TokenRange=263:265
+45	em	em	ADP	ADP	_	47	case	_	_
+46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	distrito	distrito	NOUN	NOUN	_	42	nmod	_	TokenRange=266:274
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=275:282
+49	cresceu	crescer	VERB	VERB	_	9	parataxis	_	TokenRange=283:290
+50	584	_	NUM	NUM	NumType=Card	49	obj	_	TokenRange=291:294
+51	entre	_	ADP	ADP	_	54	case	_	TokenRange=295:300
+52	o	o	DET	DET	_	54	det	_	TokenRange=301:302
+53	primeiro	primeiro	ADJ	ADJ	_	54	amod	_	TokenRange=303:311
+54	trimestre	trimestre	NOUN	NOUN	_	49	nmod	_	TokenRange=312:321
+55	de	de	ADP	ADP	_	56	case	_	TokenRange=322:324
+56	2016	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=325:329
+57	e	e	CCONJ	CONJ	_	61	cc	_	TokenRange=330:331
+58	os	o	DET	DET	_	61	det	_	TokenRange=332:334
+59	primeiros	primeiro	ADJ	ADJ	_	61	amod	_	TokenRange=335:344
+60	tres	_	NUM	NUM	NumType=Card	61	nummod	_	TokenRange=345:349
+61	meses	mês	NOUN	NOUN	_	54	conj	_	TokenRange=350:355
+62	deste	_	ADP	ADP	_	63	case	_	TokenRange=356:361
+63	ano	ano	NOUN	NOUN	_	61	nmod	_	TokenRange=362:365
+64	entre	_	ADP	ADP	_	65	case	_	TokenRange=366:371
+65	janeiro	_	PROPN	PNOUN	_	61	nmod	_	TokenRange=372:379
+66	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=380:381
+67	marco	_	PROPN	PNOUN	_	65	conj	_	TokenRange=382:387
+68-69	do	_	_	_	_	_	_	_	TokenRange=388:390
+68	de	de	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	ano	ano	NOUN	NOUN	_	65	nmod	_	SpacesAfter=\s\s|TokenRange=391:394
+

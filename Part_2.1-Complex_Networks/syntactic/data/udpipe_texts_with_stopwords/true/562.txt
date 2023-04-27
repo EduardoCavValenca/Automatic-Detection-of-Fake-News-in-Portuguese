@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = conta de luz em novembro no ceara tera tarifa mais cara e com reajuste conta tera o valor da bandeira tarifaria vermelha patamar 2 que custa r 5 a cada 100 kwh de energia
+1	conta	conta	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:5
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=6:8
+3	luz	luz	NOUN	NOUN	_	1	nmod	_	TokenRange=9:12
+4	em	em	ADP	ADP	_	5	case	_	TokenRange=13:15
+5	novembro	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=16:24
+6-7	no	_	_	_	_	_	_	_	TokenRange=25:27
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ceara	ceara	NOUN	NOUN	_	1	nmod	_	TokenRange=28:33
+9	tera	terar	VERB	VERB	_	0	root	_	TokenRange=34:38
+10	tarifa	tarifa	NOUN	NOUN	_	9	obj	_	TokenRange=39:45
+11	mais	mais	ADV	ADV	_	12	advmod	_	TokenRange=46:50
+12	cara	caro	ADJ	ADJ	_	10	amod	_	TokenRange=51:55
+13	e	e	CCONJ	CONJ	_	17	cc	_	TokenRange=56:57
+14	com	com	ADP	ADP	_	15	case	_	TokenRange=58:61
+15	reajuste	reajuste	NOUN	NOUN	_	17	nmod	_	TokenRange=62:70
+16	conta	conta	NOUN	NOUN	_	17	nsubj	_	TokenRange=71:76
+17	tera	terar	VERB	VERB	_	9	conj	_	TokenRange=77:81
+18	o	o	DET	DET	_	19	det	_	TokenRange=82:83
+19	valor	valor	NOUN	NOUN	_	17	obj	_	TokenRange=84:89
+20-21	da	_	_	_	_	_	_	_	TokenRange=90:92
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	bandeira	bandeira	NOUN	NOUN	_	19	nmod	_	TokenRange=93:101
+23	tarifaria	tarifaria	NOUN	NOUN	_	19	appos	_	TokenRange=102:111
+24	vermelha	vermelho	ADJ	ADJ	_	23	amod	_	TokenRange=112:120
+25	patamar	patamar	NOUN	NOUN	_	23	appos	_	TokenRange=121:128
+26	2	_	NUM	NUM	NumType=Card	25	appos	_	TokenRange=129:130
+27	que	_	PRON	PRON	_	28	nsubj	_	TokenRange=131:134
+28	custa	custar	VERB	VERB	_	25	acl:relcl	_	TokenRange=135:140
+29	r	r	NOUN	NOUN	_	28	obj	_	TokenRange=141:142
+30	5	_	NUM	NUM	NumType=Card	29	appos	_	TokenRange=143:144
+31	a	_	ADP	ADP	_	34	case	_	TokenRange=145:146
+32	cada	_	DET	DET	_	34	det	_	TokenRange=147:151
+33	100	_	NUM	NUM	NumType=Card	34	nummod	_	TokenRange=152:155
+34	kwh	kwh	NOUN	NOUN	_	28	nmod	_	TokenRange=156:159
+35	de	de	ADP	ADP	_	36	case	_	TokenRange=160:162
+36	energia	energia	NOUN	NOUN	_	34	nmod	_	SpacesAfter=\s\s|TokenRange=163:170
+

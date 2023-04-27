@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = em audiencia com temer governadora de roraima pede repactuacao de divida do estado suely campos esteve com o presidente na residencia oficial do palacio da alvorada em brasilia ela calcula que negociacao da divida pode dar folego de r 6 milhoes para o estado a governadora de roraima suely campos pp reforcou em audiencia com o presidente michel temer nesta sextafeira 23 no palacio da
+1	em	em	ADP	ADP	_	2	case	_	TokenRange=0:2
+2	audiencia	audiencia	NOUN	NOUN	_	8	nmod	_	TokenRange=3:12
+3	com	com	ADP	ADP	_	4	case	_	TokenRange=13:16
+4	temer	temer	NOUN	NOUN	_	2	nmod	_	TokenRange=17:22
+5	governadora	governador	NOUN	NOUN	_	8	nsubj	_	TokenRange=23:34
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=35:37
+7	roraima	roraima	NOUN	NOUN	_	5	nmod	_	TokenRange=38:45
+8	pede	pedir	VERB	VERB	_	0	root	_	TokenRange=46:50
+9	repactuacao	repactuacao	NOUN	NOUN	_	8	obj	_	TokenRange=51:62
+10	de	de	ADP	ADP	_	11	case	_	TokenRange=63:65
+11	divida	divida	NOUN	NOUN	_	9	nmod	_	TokenRange=66:72
+12-13	do	_	_	_	_	_	_	_	TokenRange=73:75
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	estado	estado	NOUN	NOUN	_	11	nmod	_	TokenRange=76:82
+15	suely	_	ADJ	ADJ	_	16	amod	_	TokenRange=83:88
+16	campos	campo	NOUN	NOUN	_	17	nsubj	_	TokenRange=89:95
+17	esteve	_	VERB	VERB	_	8	parataxis	_	TokenRange=96:102
+18	com	com	ADP	ADP	_	20	case	_	TokenRange=103:106
+19	o	o	DET	DET	_	20	det	_	TokenRange=107:108
+20	presidente	presidente	NOUN	NOUN	_	17	nmod	_	TokenRange=109:119
+21-22	na	_	_	_	_	_	_	_	TokenRange=120:122
+21	em	em	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	residencia	residencia	NOUN	NOUN	_	17	nmod	_	TokenRange=123:133
+24	oficial	oficial	ADJ	ADJ	_	23	amod	_	TokenRange=134:141
+25-26	do	_	_	_	_	_	_	_	TokenRange=142:144
+25	de	de	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	palacio	palacio	NOUN	NOUN	_	23	nmod	_	TokenRange=145:152
+28-29	da	_	_	_	_	_	_	_	TokenRange=153:155
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	alvorada	alvorada	NOUN	NOUN	_	27	nmod	_	TokenRange=156:164
+31	em	em	ADP	ADP	_	32	case	_	TokenRange=165:167
+32	brasilia	brasilia	NOUN	NOUN	_	17	nmod	_	TokenRange=168:176
+33	ela	_	PRON	PRON	_	34	nsubj	_	TokenRange=177:180
+34	calcula	calcular	VERB	VERB	_	17	parataxis	_	TokenRange=181:188
+35	que	que	CCONJ	CONJ	_	41	mark	_	TokenRange=189:192
+36	negociacao	negociacao	NOUN	NOUN	_	41	nsubj	_	TokenRange=193:203
+37-38	da	_	_	_	_	_	_	_	TokenRange=204:206
+37	de	de	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	divida	divida	NOUN	NOUN	_	36	nmod	_	TokenRange=207:213
+40	pode	_	AUX	AUX	_	41	aux	_	TokenRange=214:218
+41	dar	dar	VERB	VERB	_	34	ccomp	_	TokenRange=219:222
+42	folego	folego	NOUN	NOUN	_	41	obj	_	TokenRange=223:229
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=230:232
+44	r	r	NOUN	NOUN	_	42	nmod	_	TokenRange=233:234
+45	6	_	NUM	NUM	NumType=Card	46	nummod	_	TokenRange=235:236
+46	milhoes	_	NUM	NUM	NumType=Card	44	nummod	_	TokenRange=237:244
+47	para	para	ADP	ADP	_	49	case	_	TokenRange=245:249
+48	o	o	DET	DET	_	49	det	_	TokenRange=250:251
+49	estado	estado	NOUN	NOUN	_	41	nmod	_	TokenRange=252:258
+50	a	o	DET	DET	_	51	det	_	TokenRange=259:260
+51	governadora	governador	NOUN	NOUN	_	57	nsubj	_	TokenRange=261:272
+52	de	de	ADP	ADP	_	53	case	_	TokenRange=273:275
+53	roraima	roraima	NOUN	NOUN	_	51	nmod	_	TokenRange=276:283
+54	suely	_	ADJ	ADJ	_	55	amod	_	TokenRange=284:289
+55	campos	campo	NOUN	NOUN	_	51	appos	_	TokenRange=290:296
+56	pp	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=297:299
+57	reforcou	reforcar	VERB	VERB	_	34	parataxis	_	TokenRange=300:308
+58	em	em	ADP	ADP	_	59	case	_	TokenRange=309:311
+59	audiencia	audiencia	NOUN	NOUN	_	57	nmod	_	TokenRange=312:321
+60	com	com	ADP	ADP	_	62	case	_	TokenRange=322:325
+61	o	o	DET	DET	_	62	det	_	TokenRange=326:327
+62	presidente	presidente	NOUN	NOUN	_	59	nmod	_	TokenRange=328:338
+63	michel	michel	ADJ	ADJ	_	62	appos	_	TokenRange=339:345
+64	temer	temer	PROPN	PNOUN	_	62	appos	_	TokenRange=346:351
+65	nesta	_	ADP	ADP	_	66	case	_	TokenRange=352:357
+66	sextafeira	sextafeira	NOUN	NOUN	_	57	nmod	_	TokenRange=358:368
+67	23	_	NUM	NUM	NumType=Card	66	appos	_	TokenRange=369:371
+68-69	no	_	_	_	_	_	_	_	TokenRange=372:374
+68	em	em	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	palacio	palacio	NOUN	NOUN	_	57	nmod	_	TokenRange=375:382
+71-72	da	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=383:385
+71	de	de	ADP	ADP	_	62	case	_	_
+72	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+

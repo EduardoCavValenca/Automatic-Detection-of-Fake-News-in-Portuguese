@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = pec do teto ao vivo comeca o quebrapau no senado comecou no senado a votacao da pec do teto em segundo turno renan esta com pressa e quer votar a toque de caixa assista ao vivo
+1	pec	pec	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:3
+2-3	do	_	_	_	_	_	_	_	TokenRange=4:6
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	teto	teto	NOUN	NOUN	_	1	nmod	_	TokenRange=7:11
+5-6	ao	_	_	_	_	_	_	_	TokenRange=12:14
+5	a	a	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vivo	vivo	NOUN	NOUN	_	1	nmod	_	TokenRange=15:19
+8	comeca	comecar	VERB	VERB	_	0	root	_	TokenRange=20:26
+9	o	o	DET	DET	_	10	det	_	TokenRange=27:28
+10	quebrapau	quebrapau	NOUN	NOUN	_	8	obj	_	TokenRange=29:38
+11-12	no	_	_	_	_	_	_	_	TokenRange=39:41
+11	em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	senado	senado	NOUN	NOUN	_	14	nmod	_	TokenRange=42:48
+14	comecou	comecar	VERB	VERB	_	8	parataxis	_	TokenRange=49:56
+15-16	no	_	_	_	_	_	_	_	TokenRange=57:59
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	senado	senado	NOUN	NOUN	_	14	nmod	_	TokenRange=60:66
+18	a	o	DET	DET	_	19	det	_	TokenRange=67:68
+19	votacao	votacao	NOUN	NOUN	_	14	nsubj	_	TokenRange=69:76
+20-21	da	_	_	_	_	_	_	_	TokenRange=77:79
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	pec	pec	NOUN	NOUN	_	19	nmod	_	TokenRange=80:83
+23-24	do	_	_	_	_	_	_	_	TokenRange=84:86
+23	de	de	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	teto	teto	NOUN	NOUN	_	22	nmod	_	TokenRange=87:91
+26	em	em	ADP	ADP	_	28	case	_	TokenRange=92:94
+27	segundo	segundo	ADJ	ADJ	_	28	amod	_	TokenRange=95:102
+28	turno	turno	NOUN	NOUN	_	19	nmod	_	TokenRange=103:108
+29	renan	_	NOUN	NOUN	_	30	nsubj	_	TokenRange=109:114
+30	esta	_	VERB	VERB	_	8	parataxis	_	TokenRange=115:119
+31	com	com	ADP	ADP	_	32	case	_	TokenRange=120:123
+32	pressa	pressa	NOUN	NOUN	_	30	nmod	_	TokenRange=124:130
+33	e	e	CCONJ	CONJ	_	34	cc	_	TokenRange=131:132
+34	quer	querer	VERB	VERB	_	30	conj	_	TokenRange=133:137
+35	votar	votar	VERB	VERB	_	34	xcomp	_	TokenRange=138:143
+36	a	o	DET	DET	_	37	det	_	TokenRange=144:145
+37	toque	toque	NOUN	NOUN	_	35	obj	_	TokenRange=146:151
+38	de	de	ADP	ADP	_	39	case	_	TokenRange=152:154
+39	caixa	caixa	NOUN	NOUN	_	37	nmod	_	TokenRange=155:160
+40	assista	assistir	VERB	VERB	_	30	conj	_	TokenRange=161:168
+41-42	ao	_	_	_	_	_	_	_	TokenRange=169:171
+41	a	a	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	vivo	vivo	NOUN	NOUN	_	40	nmod	_	TokenRange=172:176
+

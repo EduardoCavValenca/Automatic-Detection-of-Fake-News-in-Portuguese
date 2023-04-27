@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = russia veta resolucao do conselho de seguranca da onu que pede investigacao sobre ataque quimico na siria ataque
+1	russia	russia	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:6
+2	veta	vetar	VERB	VERB	_	0	root	_	TokenRange=7:11
+3	resolucao	resolucao	NOUN	NOUN	_	2	obj	_	TokenRange=12:21
+4-5	do	_	_	_	_	_	_	_	TokenRange=22:24
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	conselho	conselho	NOUN	NOUN	_	3	nmod	_	TokenRange=25:33
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=34:36
+8	seguranca	_	NOUN	NOUN	_	6	nmod	_	TokenRange=37:46
+9-10	da	_	_	_	_	_	_	_	TokenRange=47:49
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	onu	onu	NOUN	NOUN	_	6	nmod	_	TokenRange=50:53
+12	que	_	PRON	PRON	_	13	nsubj	_	TokenRange=54:57
+13	pede	pedir	VERB	VERB	_	6	acl:relcl	_	TokenRange=58:62
+14	investigacao	investigacao	NOUN	NOUN	_	13	obj	_	TokenRange=63:75
+15	sobre	_	ADP	ADP	_	16	case	_	TokenRange=76:81
+16	ataque	ataque	NOUN	NOUN	_	14	nmod	_	TokenRange=82:88
+17	quimico	quimico	ADJ	ADJ	_	16	amod	_	TokenRange=89:96
+18-19	na	_	_	_	_	_	_	_	TokenRange=97:99
+18	em	em	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	siria	_	NOUN	NOUN	_	16	nmod	_	TokenRange=100:105
+21	ataque	ataque	NOUN	NOUN	_	2	parataxis	_	SpacesAfter=\s\s|TokenRange=106:112
+

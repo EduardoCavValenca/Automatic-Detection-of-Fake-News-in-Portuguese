@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan virou um ditador no senado ele esta dando ordens para todo mundo ele nao escuta ninguem renan calheiros nao escuta ninguem ele quer votar agora mesmo o projeto que salva criminosos veja ao vivo o que ele esta fazendo com o pais
+1	renan	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:5
+2	virou	virar	AUX	AUX	_	4	cop	_	TokenRange=6:11
+3	um	um	DET	DET	_	4	det	_	TokenRange=12:14
+4	ditador	_	NOUN	NOUN	_	0	root	_	TokenRange=15:22
+5-6	no	_	_	_	_	_	_	_	TokenRange=23:25
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	senado	senado	NOUN	NOUN	_	4	nmod	_	TokenRange=26:32
+8	ele	_	PRON	PRON	_	10	nsubj	_	TokenRange=33:36
+9	esta	_	AUX	AUX	_	10	aux	_	TokenRange=37:41
+10	dando	dar	VERB	VERB	_	4	acl:relcl	_	TokenRange=42:47
+11	ordens	ordem	NOUN	NOUN	_	10	obj	_	TokenRange=48:54
+12	para	para	ADP	ADP	_	14	case	_	TokenRange=55:59
+13	todo	_	DET	DET	_	14	det	_	TokenRange=60:64
+14	mundo	mundo	NOUN	NOUN	_	10	nmod	_	TokenRange=65:70
+15	ele	_	PRON	PRON	_	17	nsubj	_	TokenRange=71:74
+16	nao	nao	ADV	ADV	Polarity=Neg	17	advmod	_	TokenRange=75:78
+17	escuta	escutar	VERB	VERB	_	10	conj	_	TokenRange=79:85
+18	ninguem	_	PRON	PRON	_	17	obj	_	TokenRange=86:93
+19	renan	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=94:99
+20	calheiros	calheiro	NOUN	NOUN	_	19	amod	_	TokenRange=100:109
+21	nao	nao	ADV	ADV	Polarity=Neg	22	advmod	_	TokenRange=110:113
+22	escuta	escutar	VERB	VERB	_	17	conj	_	TokenRange=114:120
+23	ninguem	_	PRON	PRON	_	22	obj	_	TokenRange=121:128
+24	ele	_	PRON	PRON	_	25	nsubj	_	TokenRange=129:132
+25	quer	querer	VERB	VERB	_	22	parataxis	_	TokenRange=133:137
+26	votar	votar	VERB	VERB	_	25	xcomp	_	TokenRange=138:143
+27	agora	agora	ADV	ADV	_	26	advmod	_	TokenRange=144:149
+28	mesmo	mesmo	ADV	ADV	_	34	advmod	_	TokenRange=150:155
+29	o	o	DET	DET	_	30	det	_	TokenRange=156:157
+30	projeto	projeto	NOUN	NOUN	_	34	nsubj	_	TokenRange=158:165
+31	que	_	PRON	PRON	_	32	nsubj	_	TokenRange=166:169
+32	salva	salvar	VERB	VERB	_	30	acl:relcl	_	TokenRange=170:175
+33	criminosos	criminoso	NOUN	NOUN	_	32	obj	_	TokenRange=176:186
+34	veja	ver	VERB	VERB	_	25	parataxis	_	TokenRange=187:191
+35-36	ao	_	_	_	_	_	_	_	TokenRange=192:194
+35	a	a	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	vivo	vivo	ADJ	ADJ	_	34	nmod	_	TokenRange=195:199
+38	o	_	PRON	PRON	_	34	obj	_	TokenRange=200:201
+39	que	_	PRON	PRON	_	42	obj	_	TokenRange=202:205
+40	ele	_	PRON	PRON	_	42	nsubj	_	TokenRange=206:209
+41	esta	_	AUX	AUX	_	42	aux	_	TokenRange=210:214
+42	fazendo	fazer	VERB	VERB	_	38	acl:relcl	_	TokenRange=215:222
+43	com	com	ADP	ADP	_	45	case	_	TokenRange=223:226
+44	o	o	DET	DET	_	45	det	_	TokenRange=227:228
+45	pais	_	NOUN	NOUN	_	42	nmod	_	TokenRange=229:233
+

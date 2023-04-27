@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = curitiba se prepara para receber a turma da mortadela a capital paranaense se prepara para receber os vermelhinhos revoltados video divulgado nas redes sociais na madrugada desse domingo mostra tanques do exercito se posicionando na republica de curitiba sera que os mortadelas terao coragem de tocar fogo no pais apos o afastamento de dilma
+1	curitiba	curitiba	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	se	_	PRON	PRON	_	3	obj	_	TokenRange=9:11
+3	prepara	preparar	VERB	VERB	_	0	root	_	TokenRange=12:19
+4	para	_	ADP	ADP	_	5	mark	_	TokenRange=20:24
+5	receber	receber	VERB	VERB	_	3	advcl	_	TokenRange=25:32
+6	a	o	DET	DET	_	7	det	_	TokenRange=33:34
+7	turma	turma	NOUN	NOUN	_	5	obj	_	TokenRange=35:40
+8-9	da	_	_	_	_	_	_	_	TokenRange=41:43
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mortadela	_	NOUN	NOUN	_	7	nmod	_	TokenRange=44:53
+11	a	o	DET	DET	_	12	det	_	TokenRange=54:55
+12	capital	capital	NOUN	NOUN	_	15	nsubj	_	TokenRange=56:63
+13	paranaense	paranaense	ADJ	ADJ	_	12	amod	_	TokenRange=64:74
+14	se	_	PRON	PRON	_	15	expl:pv	_	TokenRange=75:77
+15	prepara	preparar	VERB	VERB	_	3	parataxis	_	TokenRange=78:85
+16	para	_	ADP	ADP	_	17	mark	_	TokenRange=86:90
+17	receber	receber	VERB	VERB	_	15	nmod	_	TokenRange=91:98
+18	os	o	DET	DET	_	19	det	_	TokenRange=99:101
+19	vermelhinhos	vermelhinho	NOUN	NOUN	_	17	obj	_	TokenRange=102:114
+20	revoltados	revoltado	ADJ	ADJ	_	19	amod	_	TokenRange=115:125
+21	video	video	NOUN	NOUN	_	15	nsubj	_	TokenRange=126:131
+22	divulgado	divulgar	VERB	VERB	_	21	acl	_	TokenRange=132:141
+23-24	nas	_	_	_	_	_	_	_	TokenRange=142:145
+23	em	em	ADP	ADP	_	25	case	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	redes	rede	NOUN	NOUN	_	22	nmod	_	TokenRange=146:151
+26	sociais	social	ADJ	ADJ	_	25	amod	_	TokenRange=152:159
+27-28	na	_	_	_	_	_	_	_	TokenRange=160:162
+27	em	em	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	madrugada	madrugada	NOUN	NOUN	_	22	nmod	_	TokenRange=163:172
+30	desse	_	ADP	ADP	_	31	case	_	TokenRange=173:178
+31	domingo	_	PROPN	PNOUN	_	29	nmod	_	TokenRange=179:186
+32	mostra	mostrar	VERB	VERB	_	3	parataxis	_	TokenRange=187:193
+33	tanques	tanque	NOUN	NOUN	_	32	obj	_	TokenRange=194:201
+34-35	do	_	_	_	_	_	_	_	TokenRange=202:204
+34	de	de	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	exercito	exercito	NOUN	NOUN	_	33	nmod	_	TokenRange=205:213
+37	se	_	PRON	PRON	_	38	obj	_	TokenRange=214:216
+38	posicionando	posicionar	VERB	VERB	_	33	acl	_	TokenRange=217:229
+39-40	na	_	_	_	_	_	_	_	TokenRange=230:232
+39	em	em	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	republica	_	NOUN	NOUN	_	38	nmod	_	TokenRange=233:242
+42	de	de	ADP	ADP	_	43	case	_	TokenRange=243:245
+43	curitiba	curitiba	NOUN	NOUN	_	41	nmod	_	TokenRange=246:254
+44	sera	_	AUX	AUX	_	32	cop	_	TokenRange=255:259
+45	que	que	CCONJ	CONJ	_	48	mark	_	TokenRange=260:263
+46	os	o	DET	DET	_	47	det	_	TokenRange=264:266
+47	mortadelas	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=267:277
+48	terao	ter	VERB	VERB	_	32	ccomp	_	TokenRange=278:283
+49	coragem	coragem	NOUN	NOUN	_	48	obj	_	TokenRange=284:291
+50	de	_	ADP	ADP	_	51	mark	_	TokenRange=292:294
+51	tocar	tocar	VERB	VERB	_	49	nmod	_	TokenRange=295:300
+52	fogo	fogo	NOUN	NOUN	_	51	obj	_	TokenRange=301:305
+53-54	no	_	_	_	_	_	_	_	TokenRange=306:308
+53	em	em	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	pais	_	NOUN	NOUN	_	51	nmod	_	TokenRange=309:313
+56	apos	_	ADP	ADP	_	58	case	_	TokenRange=314:318
+57	o	o	DET	DET	_	58	det	_	TokenRange=319:320
+58	afastamento	afastamento	NOUN	NOUN	_	51	nmod	_	TokenRange=321:332
+59	de	de	ADP	ADP	_	60	case	_	TokenRange=333:335
+60	dilma	dilma	NOUN	NOUN	_	58	nmod	_	TokenRange=336:341
+

@@ -1,0 +1,72 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma e a arvore parte 2 dilma continua o discurso da arvore voce corta a arvore da democracia com um machado a arvore tem fungos a partir do momento que tudo e possivel tudo passa a ser possivel disse dilma pergunta para a presidenta a arvore e vitima de desmatamento ou a arvore esta doente nao conseguimos entender
+1	dilma	dilma	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:5
+2	e	e	CCONJ	CONJ	_	4	cc	_	TokenRange=6:7
+3	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	TokenRange=8:9
+4	arvore	arvore	NOUN	NOUN	_	1	conj	_	TokenRange=10:16
+5	parte	parte	NOUN	NOUN	_	1	appos	_	TokenRange=17:22
+6	2	_	NUM	NUM	NumType=Card	5	appos	_	TokenRange=23:24
+7	dilma	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=25:30
+8	continua	continuar	VERB	VERB	_	0	root	_	TokenRange=31:39
+9	o	o	DET	DET	_	10	det	_	TokenRange=40:41
+10	discurso	discurso	NOUN	NOUN	_	8	obj	_	TokenRange=42:50
+11-12	da	_	_	_	_	_	_	_	TokenRange=51:53
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	arvore	arvore	NOUN	NOUN	_	10	nmod	_	TokenRange=54:60
+14	voce	_	PRON	PRON	_	15	nsubj	_	TokenRange=61:65
+15	corta	cortar	VERB	VERB	_	8	ccomp	_	TokenRange=66:71
+16	a	o	DET	DET	_	17	det	_	TokenRange=72:73
+17	arvore	arvore	NOUN	NOUN	_	15	obj	_	TokenRange=74:80
+18-19	da	_	_	_	_	_	_	_	TokenRange=81:83
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	democracia	democracia	NOUN	NOUN	_	17	nmod	_	TokenRange=84:94
+21	com	com	ADP	ADP	_	23	case	_	TokenRange=95:98
+22	um	um	DET	DET	_	23	det	_	TokenRange=99:101
+23	machado	machado	NOUN	NOUN	_	15	nmod	_	TokenRange=102:109
+24	a	o	DET	DET	_	25	det	_	TokenRange=110:111
+25	arvore	arvore	NOUN	NOUN	_	26	nsubj	_	TokenRange=112:118
+26	tem	ter	VERB	VERB	_	8	conj	_	TokenRange=119:122
+27	fungos	fungo	NOUN	NOUN	_	26	obj	_	TokenRange=123:129
+28	a	_	ADP	ADP	_	29	mark	_	TokenRange=130:131
+29	partir	partir	VERB	VERB	_	26	nmod	_	TokenRange=132:138
+30-31	do	_	_	_	_	_	_	_	TokenRange=139:141
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	momento	momento	NOUN	NOUN	_	29	nmod	_	TokenRange=142:149
+33	que	_	PRON	PRON	_	40	dep	_	TokenRange=150:153
+34	tudo	_	PRON	PRON	_	40	nsubj	_	TokenRange=154:158
+35	e	_	CCONJ	CONJ	_	36	cc	_	TokenRange=159:160
+36	possivel	_	ADJ	ADJ	_	34	amod	_	TokenRange=161:169
+37	tudo	_	PRON	PRON	_	40	nsubj	_	TokenRange=170:174
+38	passa	passar	AUX	AUX	_	40	aux	_	TokenRange=175:180
+39	a	_	ADP	ADP	_	40	mark	_	TokenRange=181:182
+40	ser	ser	VERB	VERB	_	32	acl:relcl	_	TokenRange=183:186
+41	possivel	_	ADJ	ADJ	_	40	xcomp	_	TokenRange=187:195
+42	disse	dizer	VERB	VERB	_	8	parataxis	_	TokenRange=196:201
+43	dilma	dilma	NOUN	NOUN	_	42	nsubj	_	TokenRange=202:207
+44	pergunta	perguntar	VERB	VERB	_	42	ccomp	_	TokenRange=208:216
+45	para	para	ADP	ADP	_	47	case	_	TokenRange=217:221
+46	a	o	DET	DET	_	47	det	_	TokenRange=222:223
+47	presidenta	_	NOUN	NOUN	_	44	nmod	_	TokenRange=224:234
+48	a	o	DET	DET	_	49	det	_	TokenRange=235:236
+49	arvore	arvore	NOUN	NOUN	_	44	nsubj	_	TokenRange=237:243
+50	e	e	CCONJ	CONJ	_	51	cc	_	TokenRange=244:245
+51	vitima	_	NOUN	NOUN	_	49	conj	_	TokenRange=246:252
+52	de	de	ADP	ADP	_	53	case	_	TokenRange=253:255
+53	desmatamento	desmatamento	NOUN	NOUN	_	51	nmod	_	TokenRange=256:268
+54	ou	ou	CCONJ	CONJ	_	60	cc	_	TokenRange=269:271
+55	a	o	DET	DET	_	56	det	_	TokenRange=272:273
+56	arvore	arvore	NOUN	NOUN	_	57	nsubj	_	TokenRange=274:280
+57	esta	_	VERB	VERB	_	51	conj	_	TokenRange=281:285
+58	doente	doente	ADJ	ADJ	_	57	xcomp	_	TokenRange=286:292
+59	nao	nao	ADV	ADV	Polarity=Neg	60	advmod	_	TokenRange=293:296
+60	conseguimos	conseguir	VERB	VERB	_	42	conj	_	TokenRange=297:308
+61	entender	entender	VERB	VERB	_	60	xcomp	_	TokenRange=309:317
+

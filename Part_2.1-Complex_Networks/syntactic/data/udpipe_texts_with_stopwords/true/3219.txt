@@ -1,0 +1,92 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = gilmar mendes diz que discute com temer proposta de emenda constitucional para semipresidencialismo presidente do tse afirmou que brasil usa impeachment para resolver problemas de governanca e governabilidade o ministro do supremo tribunal federal stf e presidente do tribunal superior eleitoral gilmar mendes afirmou nesta segundafeira 9 em sao paulo que discute com o presidente da republica michel temer uma proposta de emenda a constituicao federal de 1988 para adotar um modelo semipresidencialista no
+1	gilmar	gilmar	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:6
+2	mendes	_	NOUN	NOUN	_	1	flat	_	TokenRange=7:13
+3	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=14:17
+4	que	que	CCONJ	CONJ	_	5	mark	_	TokenRange=18:21
+5	discute	discutir	VERB	VERB	_	3	ccomp	_	TokenRange=22:29
+6	com	com	ADP	ADP	_	7	case	_	TokenRange=30:33
+7	temer	temer	NOUN	NOUN	_	5	nmod	_	TokenRange=34:39
+8	proposta	_	NOUN	NOUN	_	5	obj	_	TokenRange=40:48
+9	de	de	ADP	ADP	_	10	case	_	TokenRange=49:51
+10	emenda	emenda	NOUN	NOUN	_	8	nmod	_	TokenRange=52:58
+11	constitucional	constitucional	ADJ	ADJ	_	10	amod	_	TokenRange=59:73
+12	para	para	ADP	ADP	_	13	case	_	TokenRange=74:78
+13	semipresidencialismo	_	NOUN	NOUN	_	10	nmod	_	TokenRange=79:99
+14	presidente	presidente	NOUN	NOUN	_	18	nsubj	_	TokenRange=100:110
+15-16	do	_	_	_	_	_	_	_	TokenRange=111:113
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tse	_	NOUN	NOUN	_	14	nmod	_	TokenRange=114:117
+18	afirmou	afirmar	VERB	VERB	_	3	ccomp	_	TokenRange=118:125
+19	que	que	CCONJ	CONJ	_	21	mark	_	TokenRange=126:129
+20	brasil	brasil	NOUN	NOUN	_	21	nsubj	_	TokenRange=130:136
+21	usa	usar	VERB	VERB	_	18	ccomp	_	TokenRange=137:140
+22	impeachment	impeachment	NOUN	NOUN	_	21	obj	_	TokenRange=141:152
+23	para	_	ADP	ADP	_	24	mark	_	TokenRange=153:157
+24	resolver	resolver	VERB	VERB	_	21	advcl	_	TokenRange=158:166
+25	problemas	problema	NOUN	NOUN	_	24	obj	_	TokenRange=167:176
+26	de	de	ADP	ADP	_	27	case	_	TokenRange=177:179
+27	governanca	governanca	NOUN	NOUN	_	25	nmod	_	TokenRange=180:190
+28	e	e	CCONJ	CONJ	_	29	cc	_	TokenRange=191:192
+29	governabilidade	governabilidade	NOUN	NOUN	_	27	conj	_	TokenRange=193:208
+30	o	o	DET	DET	_	31	det	_	TokenRange=209:210
+31	ministro	ministro	NOUN	NOUN	_	21	nsubj	_	TokenRange=211:219
+32-33	do	_	_	_	_	_	_	_	TokenRange=220:222
+32	de	de	ADP	ADP	_	35	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	supremo	supremo	ADJ	ADJ	_	35	amod	_	TokenRange=223:230
+35	tribunal	tribunal	NOUN	NOUN	_	31	nmod	_	TokenRange=231:239
+36	federal	federal	ADJ	ADJ	_	35	amod	_	TokenRange=240:247
+37	stf	_	NOUN	NOUN	_	35	appos	_	TokenRange=248:251
+38	e	e	CCONJ	CONJ	_	39	cc	_	TokenRange=252:253
+39	presidente	presidente	NOUN	NOUN	_	31	conj	_	TokenRange=254:264
+40-41	do	_	_	_	_	_	_	_	TokenRange=265:267
+40	de	de	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	tribunal	tribunal	NOUN	NOUN	_	39	nmod	_	TokenRange=268:276
+43	superior	superior	ADJ	ADJ	_	42	amod	_	TokenRange=277:285
+44	eleitoral	eleitoral	ADJ	ADJ	_	42	amod	_	TokenRange=286:295
+45	gilmar	gilmar	NOUN	NOUN	_	31	appos	_	TokenRange=296:302
+46	mendes	_	NOUN	NOUN	_	45	flat	_	TokenRange=303:309
+47	afirmou	afirmar	VERB	VERB	_	3	conj	_	TokenRange=310:317
+48	nesta	_	ADP	ADP	_	49	case	_	TokenRange=318:323
+49	segundafeira	_	NOUN	NOUN	_	47	nmod	_	TokenRange=324:336
+50	9	_	NUM	NUM	NumType=Card	49	appos	_	TokenRange=337:338
+51	em	em	ADP	ADP	_	52	case	_	TokenRange=339:341
+52	sao	_	PROPN	PNOUN	_	47	nmod	_	TokenRange=342:345
+53	paulo	_	PROPN	PNOUN	_	52	flat	_	TokenRange=346:351
+54	que	que	CCONJ	CONJ	_	55	mark	_	TokenRange=352:355
+55	discute	discutir	VERB	VERB	_	47	ccomp	_	TokenRange=356:363
+56	com	com	ADP	ADP	_	58	case	_	TokenRange=364:367
+57	o	o	DET	DET	_	58	det	_	TokenRange=368:369
+58	presidente	presidente	NOUN	NOUN	_	55	nmod	_	TokenRange=370:380
+59-60	da	_	_	_	_	_	_	_	TokenRange=381:383
+59	de	de	ADP	ADP	_	61	case	_	_
+60	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	republica	_	NOUN	NOUN	_	58	nmod	_	TokenRange=384:393
+62	michel	michel	ADJ	ADJ	_	58	appos	_	TokenRange=394:400
+63	temer	temer	NOUN	NOUN	_	62	flat	_	TokenRange=401:406
+64	uma	um	DET	DET	_	65	det	_	TokenRange=407:410
+65	proposta	_	NOUN	NOUN	_	55	obj	_	TokenRange=411:419
+66	de	de	ADP	ADP	_	67	case	_	TokenRange=420:422
+67	emenda	emenda	NOUN	NOUN	_	65	nmod	_	TokenRange=423:429
+68	a	_	ADP	ADP	_	69	case	_	TokenRange=430:431
+69	constituicao	constituicao	NOUN	NOUN	_	67	nmod	_	TokenRange=432:444
+70	federal	federal	ADJ	ADJ	_	69	amod	_	TokenRange=445:452
+71	de	de	ADP	ADP	_	72	case	_	TokenRange=453:455
+72	1988	_	NUM	NUM	NumType=Card	69	nmod	_	TokenRange=456:460
+73	para	_	ADP	ADP	_	74	mark	_	TokenRange=461:465
+74	adotar	adotar	VERB	VERB	_	55	advcl	_	TokenRange=466:472
+75	um	um	DET	DET	_	76	det	_	TokenRange=473:475
+76	modelo	modelo	NOUN	NOUN	_	74	obj	_	TokenRange=476:482
+77	semipresidencialista	semipresidencialista	ADJ	ADJ	_	76	amod	_	TokenRange=483:503
+78-79	no	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=504:506
+78	em	em	ADP	ADP	_	74	case	_	_
+79	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
+

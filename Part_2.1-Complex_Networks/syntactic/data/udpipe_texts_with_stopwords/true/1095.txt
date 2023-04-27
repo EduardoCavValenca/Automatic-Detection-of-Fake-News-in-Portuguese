@@ -1,0 +1,25 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = a melhor viagem que alguem pode fazer a viagem dos sonhos pode ser de muitas
+1	a	o	DET	DET	_	3	det	_	TokenRange=0:1
+2	melhor	melhor	ADJ	ADJ	_	3	amod	_	TokenRange=2:8
+3	viagem	viagem	NOUN	NOUN	_	14	nsubj	_	TokenRange=9:15
+4	que	_	PRON	PRON	_	7	obj	_	TokenRange=16:19
+5	alguem	_	PRON	PRON	_	7	nsubj	_	TokenRange=20:26
+6	pode	_	AUX	AUX	_	7	aux	_	TokenRange=27:31
+7	fazer	fazer	VERB	VERB	_	3	acl:relcl	_	TokenRange=32:37
+8	a	o	DET	DET	_	9	det	_	TokenRange=38:39
+9	viagem	viagem	NOUN	NOUN	_	7	obj	_	TokenRange=40:46
+10-11	dos	_	_	_	_	_	_	_	TokenRange=47:50
+10	de	de	ADP	ADP	_	12	case	_	_
+11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	sonhos	sonho	NOUN	NOUN	_	9	nmod	_	TokenRange=51:57
+13	pode	_	AUX	AUX	_	14	aux	_	TokenRange=58:62
+14	ser	ser	VERB	VERB	_	0	root	_	TokenRange=63:66
+15	de	de	ADP	ADP	_	16	case	_	TokenRange=67:69
+16	muitas	_	DET	DET	_	14	det	_	SpacesAfter=\s\s|TokenRange=70:76
+

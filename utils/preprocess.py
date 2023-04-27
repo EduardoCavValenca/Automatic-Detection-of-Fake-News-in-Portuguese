@@ -57,11 +57,11 @@ def processText(text):
 # Read every file in the size_normalized and preprocess it to pre_normalized
 def readCreateFiles():
     for folder in ['fake', 'true']:
-        for file in os.listdir('size_normalized_texts/' + folder):
-            with open('size_normalized_texts/' + folder + '/' + file, 'r', encoding='utf-8') as f:
+        for file in os.listdir('./data/text_files/size_normalized_texts/' + folder):
+            with open('./data/text_files/size_normalized_texts/' + folder + '/' + file, 'r', encoding='utf-8') as f:
                 text = f.read()
                 text = processText(text)
-                with open('pre_normalized/' + folder + '/' + file, 'w', encoding='utf-8') as f2:
+                with open('./data/text_files/pre_normalized_with_stopwords/' + folder + '/' + file, 'w', encoding='utf-8') as f2:
                     f2.write(text)
 
 #Create new csv file with the pre_normalized text

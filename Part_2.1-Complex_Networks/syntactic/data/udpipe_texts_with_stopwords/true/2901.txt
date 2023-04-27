@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = a primeira turma do stf decidiu adiar para data indefinida as decisoes sobre um novo pedido de prisao do senador aecio neves psdbmg e sobre pedido da defesa para que ele seja autorizado a retomar ao senado os ministros tambem decidiram converter em prisao domiciliar com tornozeleira eletronica a prisao preventiva da irma do senador andrea neves e enquanto temer estava na russia e tendo que responder sobre o inquerito da
+1	a	o	DET	DET	_	3	det	_	TokenRange=0:1
+2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	TokenRange=2:10
+3	turma	turma	NOUN	NOUN	_	7	nsubj	_	TokenRange=11:16
+4-5	do	_	_	_	_	_	_	_	TokenRange=17:19
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stf	_	NOUN	NOUN	_	3	nmod	_	TokenRange=20:23
+7	decidiu	decidir	VERB	VERB	_	0	root	_	TokenRange=24:31
+8	adiar	adiar	VERB	VERB	_	7	xcomp	_	TokenRange=32:37
+9	para	para	ADP	ADP	_	10	case	_	TokenRange=38:42
+10	data	data	NOUN	NOUN	_	8	nmod	_	TokenRange=43:47
+11	indefinida	indefinido	ADJ	ADJ	_	10	amod	_	TokenRange=48:58
+12	as	o	DET	DET	_	13	det	_	TokenRange=59:61
+13	decisoes	decisoe	NOUN	NOUN	_	8	obj	_	TokenRange=62:70
+14	sobre	_	ADP	ADP	_	17	case	_	TokenRange=71:76
+15	um	um	DET	DET	_	17	det	_	TokenRange=77:79
+16	novo	novo	ADJ	ADJ	_	17	amod	_	TokenRange=80:84
+17	pedido	pedido	NOUN	NOUN	_	13	nmod	_	TokenRange=85:91
+18	de	de	ADP	ADP	_	19	case	_	TokenRange=92:94
+19	prisao	prisao	NOUN	NOUN	_	17	nmod	_	TokenRange=95:101
+20-21	do	_	_	_	_	_	_	_	TokenRange=102:104
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	senador	senador	NOUN	NOUN	_	17	nmod	_	TokenRange=105:112
+23	aecio	aecio	NOUN	NOUN	_	22	appos	_	TokenRange=113:118
+24	neves	neve	NOUN	NOUN	_	23	flat	_	TokenRange=119:124
+25	psdbmg	_	NOUN	NOUN	_	23	flat	_	TokenRange=125:131
+26	e	e	CCONJ	CONJ	_	28	cc	_	TokenRange=132:133
+27	sobre	_	ADP	ADP	_	28	case	_	TokenRange=134:139
+28	pedido	pedido	NOUN	NOUN	_	17	conj	_	TokenRange=140:146
+29-30	da	_	_	_	_	_	_	_	TokenRange=147:149
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	defesa	_	NOUN	NOUN	_	28	nmod	_	TokenRange=150:156
+32	para	_	ADP	ADP	_	36	mark	_	TokenRange=157:161
+33	que	_	CCONJ	CONJ	_	32	fixed	_	TokenRange=162:165
+34	ele	_	PRON	PRON	_	36	nsubj:pass	_	TokenRange=166:169
+35	seja	ser	AUX	AUX	_	36	aux:pass	_	TokenRange=170:174
+36	autorizado	autorizar	VERB	VERB	_	28	advcl	_	TokenRange=175:185
+37	a	_	ADP	ADP	_	38	mark	_	TokenRange=186:187
+38	retomar	retomar	VERB	VERB	_	36	nmod	_	TokenRange=188:195
+39-40	ao	_	_	_	_	_	_	_	TokenRange=196:198
+39	a	a	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	senado	senado	NOUN	NOUN	_	38	nmod	_	TokenRange=199:205
+42	os	o	DET	DET	_	43	det	_	TokenRange=206:208
+43	ministros	ministro	NOUN	NOUN	_	45	nsubj	_	TokenRange=209:218
+44	tambem	tambem	ADV	ADV	_	45	advmod	_	TokenRange=219:225
+45	decidiram	decidir	VERB	VERB	_	7	parataxis	_	TokenRange=226:235
+46	converter	converter	VERB	VERB	_	45	xcomp	_	TokenRange=236:245
+47	em	em	ADP	ADP	_	48	case	_	TokenRange=246:248
+48	prisao	prisao	NOUN	NOUN	_	46	nmod	_	TokenRange=249:255
+49	domiciliar	domiciliar	ADJ	ADJ	_	48	amod	_	TokenRange=256:266
+50	com	com	ADP	ADP	_	51	case	_	TokenRange=267:270
+51	tornozeleira	tornozeleira	NOUN	NOUN	_	46	nmod	_	TokenRange=271:283
+52	eletronica	eletronico	ADJ	ADJ	_	51	amod	_	TokenRange=284:294
+53	a	o	DET	DET	_	54	det	_	TokenRange=295:296
+54	prisao	prisao	NOUN	NOUN	_	46	obj	_	TokenRange=297:303
+55	preventiva	preventivo	ADJ	ADJ	_	54	amod	_	TokenRange=304:314
+56-57	da	_	_	_	_	_	_	_	TokenRange=315:317
+56	de	de	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	irma	_	NOUN	NOUN	_	54	nmod	_	TokenRange=318:322
+59-60	do	_	_	_	_	_	_	_	TokenRange=323:325
+59	de	de	ADP	ADP	_	61	case	_	_
+60	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	senador	senador	NOUN	NOUN	_	58	nmod	_	TokenRange=326:333
+62	andrea	andreo	NOUN	NOUN	_	61	appos	_	TokenRange=334:340
+63	neves	neve	NOUN	NOUN	_	62	amod	_	TokenRange=341:346
+64	e	e	CCONJ	CONJ	_	74	cc	_	TokenRange=347:348
+65	enquanto	_	CCONJ	CONJ	_	67	mark	_	TokenRange=349:357
+66	temer	temer	NOUN	NOUN	_	67	nsubj	_	TokenRange=358:363
+67	estava	estar	VERB	VERB	_	45	advcl	_	TokenRange=364:370
+68-69	na	_	_	_	_	_	_	_	TokenRange=371:373
+68	em	em	ADP	ADP	_	70	case	_	_
+69	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
+70	russia	russia	NOUN	NOUN	_	67	nmod	_	TokenRange=374:380
+71	e	e	CCONJ	CONJ	_	74	cc	_	TokenRange=381:382
+72	tendo	_	AUX	AUX	_	74	aux	_	TokenRange=383:388
+73	que	que	CCONJ	CONJ	_	74	mark	_	TokenRange=389:392
+74	responder	responder	VERB	VERB	_	67	conj	_	TokenRange=393:402
+75	sobre	_	ADP	ADP	_	77	case	_	TokenRange=403:408
+76	o	o	DET	DET	_	77	det	_	TokenRange=409:410
+77	inquerito	inquerito	NOUN	NOUN	_	74	nmod	_	TokenRange=411:420
+78-79	da	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=421:423
+78	de	de	ADP	ADP	_	77	case	_	_
+79	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
+

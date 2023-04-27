@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = como christian figueiredo lida com o ego nos altos e baixos do youtube voce e uma referencia e um ano depois nao e as vezes isso mexe com o psicologico diz youtuber que estara no rock in rio relembre em video momentos mais vistos de christian nao se engane a geracao nascida depois dos anos 1990 que domina o youtube repete os mesmos erros do velho universo de celebridades christian figueiredo sabe bem
+1	como	_	CCONJ	CONJ	_	4	mark	_	TokenRange=0:4
+2	christian	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=5:14
+3	figueiredo	figueiredo	ADJ	ADJ	_	2	amod	_	TokenRange=15:25
+4	lida	lidar	VERB	VERB	_	19	advcl	_	TokenRange=26:30
+5	com	com	ADP	ADP	_	7	case	_	TokenRange=31:34
+6	o	o	DET	DET	_	7	det	_	TokenRange=35:36
+7	ego	ego	NOUN	NOUN	_	4	nmod	_	TokenRange=37:40
+8-9	nos	_	_	_	_	_	_	_	TokenRange=41:44
+8	em	em	ADP	ADP	_	10	case	_	_
+9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	altos	alto	NOUN	NOUN	_	4	nmod	_	TokenRange=45:50
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=51:52
+12	baixos	baixo	NOUN	NOUN	_	10	conj	_	TokenRange=53:59
+13-14	do	_	_	_	_	_	_	_	TokenRange=60:62
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	youtube	_	PROPN	PNOUN	_	10	nmod	_	TokenRange=63:70
+16	voce	_	PRON	PRON	_	19	nsubj	_	TokenRange=71:75
+17	e	e	CCONJ	CONJ	_	19	cc	_	TokenRange=76:77
+18	uma	um	DET	DET	_	19	det	_	TokenRange=78:81
+19	referencia	referencia	NOUN	NOUN	_	0	root	_	TokenRange=82:92
+20	e	e	CCONJ	CONJ	_	33	cc	_	TokenRange=93:94
+21	um	_	NUM	NUM	NumType=Card	22	nummod	_	TokenRange=95:97
+22	ano	ano	NOUN	NOUN	_	23	nmod	_	TokenRange=98:101
+23	depois	depois	ADV	ADV	_	33	advmod	_	TokenRange=102:108
+24	nao	nao	ADV	ADV	Polarity=Neg	33	advmod	_	TokenRange=109:112
+25	e	e	CCONJ	CONJ	_	29	cc	_	TokenRange=113:114
+26	as	o	DET	DET	_	27	det	_	TokenRange=115:117
+27	vezes	vez	NOUN	NOUN	_	29	nmod	_	TokenRange=118:123
+28	isso	_	PRON	PRON	_	29	nsubj	_	TokenRange=124:128
+29	mexe	mexer	VERB	VERB	_	4	conj	_	TokenRange=129:133
+30	com	com	ADP	ADP	_	32	case	_	TokenRange=134:137
+31	o	o	DET	DET	_	32	det	_	TokenRange=138:139
+32	psicologico	psicologico	NOUN	NOUN	_	29	nmod	_	TokenRange=140:151
+33	diz	dizer	VERB	VERB	_	19	conj	_	TokenRange=152:155
+34	youtuber	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=156:164
+35	que	que	CCONJ	CONJ	_	36	mark	_	TokenRange=165:168
+36	estara	estar	VERB	VERB	_	33	ccomp	_	TokenRange=169:175
+37-38	no	_	_	_	_	_	_	_	TokenRange=176:178
+37	em	em	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	rock	rock	NOUN	NOUN	_	36	nmod	_	TokenRange=179:183
+40	in	_	ADP	ADP	_	41	case	_	TokenRange=184:186
+41	rio	rio	NOUN	NOUN	_	39	nmod	_	TokenRange=187:190
+42	relembre	relembre	NOUN	NOUN	_	36	parataxis	_	TokenRange=191:199
+43	em	em	ADP	ADP	_	44	case	_	TokenRange=200:202
+44	video	video	NOUN	NOUN	_	42	nmod	_	TokenRange=203:208
+45	momentos	momento	NOUN	NOUN	_	42	nsubj	_	TokenRange=209:217
+46	mais	mais	ADV	ADV	_	47	advmod	_	TokenRange=218:222
+47	vistos	visto	ADJ	ADJ	_	45	amod	_	TokenRange=223:229
+48	de	de	ADP	ADP	_	49	case	_	TokenRange=230:232
+49	christian	_	NOUN	NOUN	_	45	nmod	_	TokenRange=233:242
+50	nao	nao	ADV	ADV	Polarity=Neg	52	advmod	_	TokenRange=243:246
+51	se	_	PRON	PRON	_	52	expl:pv	_	TokenRange=247:249
+52	engane	enganar	VERB	VERB	_	42	acl:relcl	_	TokenRange=250:256
+53	a	o	DET	DET	_	54	det	_	TokenRange=257:258
+54	geracao	geracao	NOUN	NOUN	_	52	nsubj	_	TokenRange=259:266
+55	nascida	nascer	VERB	VERB	_	54	acl	_	TokenRange=267:274
+56	depois	depois	ADV	ADV	_	59	case	_	TokenRange=275:281
+57-58	dos	_	_	_	_	_	_	_	TokenRange=282:285
+57	de	de	ADP	ADP	_	56	case	_	_
+58	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	56	det	_	_
+59	anos	ano	NOUN	NOUN	_	55	nmod	_	TokenRange=286:290
+60	1990	_	NUM	NUM	NumType=Card	59	nmod	_	TokenRange=291:295
+61	que	_	PRON	PRON	_	62	nsubj	_	TokenRange=296:299
+62	domina	dominar	VERB	VERB	_	59	acl:relcl	_	TokenRange=300:306
+63	o	o	DET	DET	_	64	det	_	TokenRange=307:308
+64	youtube	_	PROPN	PNOUN	_	62	obj	_	TokenRange=309:316
+65	repete	repetir	VERB	VERB	_	54	acl:relcl	_	TokenRange=317:323
+66	os	o	DET	DET	_	68	det	_	TokenRange=324:326
+67	mesmos	mesmo	ADJ	ADJ	_	68	amod	_	TokenRange=327:333
+68	erros	erro	NOUN	NOUN	_	65	obj	_	TokenRange=334:339
+69-70	do	_	_	_	_	_	_	_	TokenRange=340:342
+69	de	de	ADP	ADP	_	72	case	_	_
+70	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+71	velho	velho	ADJ	ADJ	_	72	amod	_	TokenRange=343:348
+72	universo	universo	NOUN	NOUN	_	68	nmod	_	TokenRange=349:357
+73	de	de	ADP	ADP	_	74	case	_	TokenRange=358:360
+74	celebridades	celebridade	NOUN	NOUN	_	72	nmod	_	TokenRange=361:373
+75	christian	christian	ADJ	ADJ	_	77	nsubj	_	TokenRange=374:383
+76	figueiredo	figueiredo	ADJ	ADJ	_	75	amod	_	TokenRange=384:394
+77	sabe	saber	VERB	VERB	_	33	parataxis	_	TokenRange=395:399
+78	bem	bem	ADV	ADV	_	77	advmod	_	SpacesAfter=\s\s|TokenRange=400:403
+

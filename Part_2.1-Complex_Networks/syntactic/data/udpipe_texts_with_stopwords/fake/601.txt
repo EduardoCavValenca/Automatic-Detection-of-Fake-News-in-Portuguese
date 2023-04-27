@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = aviao da dupla maiara e maraisa sai da pista durante decolagem segundo informacoes do g1 o jato que levava a dupla sertaneja maiara e maraisa saiu da pista
+1	aviao	aviao	NOUN	NOUN	_	8	nsubj	_	TokenRange=0:5
+2-3	da	_	_	_	_	_	_	_	TokenRange=6:8
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	dupla	_	NOUN	NOUN	_	1	nmod	_	TokenRange=9:14
+5	maiara	maiar	NOUN	NOUN	_	4	appos	_	TokenRange=15:21
+6	e	e	CCONJ	CONJ	_	7	cc	_	TokenRange=22:23
+7	maraisa	maraisa	NOUN	NOUN	_	5	conj	_	TokenRange=24:31
+8	sai	sair	VERB	VERB	_	0	root	_	TokenRange=32:35
+9-10	da	_	_	_	_	_	_	_	TokenRange=36:38
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pista	pista	NOUN	NOUN	_	8	nmod	_	TokenRange=39:44
+12	durante	_	ADP	ADP	_	13	case	_	TokenRange=45:52
+13	decolagem	decolagem	NOUN	NOUN	_	8	nmod	_	TokenRange=53:62
+14	segundo	_	ADP	ADP	_	15	case	_	TokenRange=63:70
+15	informacoes	informacoe	NOUN	NOUN	_	8	nmod	_	TokenRange=71:82
+16-17	do	_	_	_	_	_	_	_	TokenRange=83:85
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	g1	_	PROPN	PNOUN	_	15	nmod	_	TokenRange=86:88
+19	o	o	DET	DET	_	20	det	_	TokenRange=89:90
+20	jato	jato	NOUN	NOUN	_	29	nsubj	_	TokenRange=91:95
+21	que	_	PRON	PRON	_	22	nsubj	_	TokenRange=96:99
+22	levava	levar	VERB	VERB	_	20	acl:relcl	_	TokenRange=100:106
+23	a	o	DET	DET	_	24	det	_	TokenRange=107:108
+24	dupla	_	NOUN	NOUN	_	22	obj	_	TokenRange=109:114
+25	sertaneja	sertanejo	ADJ	ADJ	_	24	amod	_	TokenRange=115:124
+26	maiara	maiar	NOUN	NOUN	_	24	appos	_	TokenRange=125:131
+27	e	e	CCONJ	CONJ	_	28	cc	_	TokenRange=132:133
+28	maraisa	maraisa	NOUN	NOUN	_	26	conj	_	TokenRange=134:141
+29	saiu	sair	VERB	VERB	_	8	conj	_	TokenRange=142:146
+30-31	da	_	_	_	_	_	_	_	TokenRange=147:149
+30	de	de	ADP	ADP	_	32	case	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	pista	pista	NOUN	NOUN	_	29	nmod	_	SpacesAfter=\s\s|TokenRange=150:155
+

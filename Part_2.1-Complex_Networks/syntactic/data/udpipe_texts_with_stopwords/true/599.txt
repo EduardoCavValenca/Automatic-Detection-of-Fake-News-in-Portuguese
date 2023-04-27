@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quintafeira 28 de dezembro de 2017 boa noite aqui estao as principais noticias para voce terminar o dia beminformado foram suspensos os trechos que abrandavam as regras para concessao do indulto de natal e estavam em um contestado decreto
+1	quintafeira	quintafeira	NOUN	NOUN	_	21	nmod	_	TokenRange=0:11
+2	28	_	NUM	NUM	NumType=Card	1	nmod	_	TokenRange=12:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	dezembro	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=18:26
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=27:29
+6	2017	_	NUM	NUM	NumType=Card	4	nmod	_	TokenRange=30:34
+7	boa	bom	ADJ	ADJ	_	8	amod	_	TokenRange=35:38
+8	noite	noite	NOUN	NOUN	_	10	nsubj	_	TokenRange=39:44
+9	aqui	aqui	ADV	ADV	_	10	advmod	_	TokenRange=45:49
+10	estao	_	VERB	VERB	_	21	parataxis	_	TokenRange=50:55
+11	as	o	DET	DET	_	13	det	_	TokenRange=56:58
+12	principais	principal	ADJ	ADJ	_	13	amod	_	TokenRange=59:69
+13	noticias	noticia	NOUN	NOUN	_	10	nsubj	_	TokenRange=70:78
+14	para	_	ADP	ADP	_	16	mark	_	TokenRange=79:83
+15	voce	_	PRON	PRON	_	16	nsubj	_	TokenRange=84:88
+16	terminar	terminar	VERB	VERB	_	13	nmod	_	TokenRange=89:97
+17	o	o	DET	DET	_	18	det	_	TokenRange=98:99
+18	dia	dia	NOUN	NOUN	_	16	obj	_	TokenRange=100:103
+19	beminformado	beminformado	ADJ	ADJ	_	18	amod	_	TokenRange=104:116
+20	foram	_	AUX	AUX	_	21	aux:pass	_	TokenRange=117:122
+21	suspensos	suspensder	VERB	VERB	_	0	root	_	TokenRange=123:132
+22	os	o	DET	DET	_	23	det	_	TokenRange=133:135
+23	trechos	trecho	NOUN	NOUN	_	21	nsubj:pass	_	TokenRange=136:143
+24	que	_	PRON	PRON	_	25	nsubj	_	TokenRange=144:147
+25	abrandavam	abrandar	VERB	VERB	_	23	acl:relcl	_	TokenRange=148:158
+26	as	o	DET	DET	_	27	det	_	TokenRange=159:161
+27	regras	regra	NOUN	NOUN	_	25	obj	_	TokenRange=162:168
+28	para	para	ADP	ADP	_	29	case	_	TokenRange=169:173
+29	concessao	concessao	NOUN	NOUN	_	27	nmod	_	TokenRange=174:183
+30-31	do	_	_	_	_	_	_	_	TokenRange=184:186
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	indulto	indulto	NOUN	NOUN	_	29	nmod	_	TokenRange=187:194
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=195:197
+34	natal	_	PROPN	PNOUN	_	32	nmod	_	TokenRange=198:203
+35	e	e	CCONJ	CONJ	_	36	cc	_	TokenRange=204:205
+36	estavam	estar	VERB	VERB	_	25	conj	_	TokenRange=206:213
+37	em	em	ADP	ADP	_	40	case	_	TokenRange=214:216
+38	um	um	DET	DET	_	40	det	_	TokenRange=217:219
+39	contestado	contestado	ADJ	ADJ	_	40	amod	_	TokenRange=220:230
+40	decreto	decreto	NOUN	NOUN	_	36	nmod	_	SpacesAfter=\s\s|TokenRange=231:238
+

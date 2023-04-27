@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = operacao da pf investiga compra de tablets com verbas do ministerio da saude mandados de busca e apreensao sao realizados em cinco cidades do estado de sao paulo operacao foi deflagrada pela policia federal de marilia a policia federal de marilia sp deflagra nesta quartafeira 7 a operacao
+1	operacao	operacao	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2-3	da	_	_	_	_	_	_	_	TokenRange=9:11
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pf	_	NOUN	NOUN	_	1	nmod	_	TokenRange=12:14
+5	investiga	investigar	VERB	VERB	_	0	root	_	TokenRange=15:24
+6	compra	compra	NOUN	NOUN	_	5	obj	_	TokenRange=25:31
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=32:34
+8	tablets	_	NOUN	NOUN	_	6	nmod	_	TokenRange=35:42
+9	com	com	ADP	ADP	_	10	case	_	TokenRange=43:46
+10	verbas	verba	NOUN	NOUN	_	6	nmod	_	TokenRange=47:53
+11-12	do	_	_	_	_	_	_	_	TokenRange=54:56
+11	de	de	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ministerio	ministerio	NOUN	NOUN	_	10	nmod	_	TokenRange=57:67
+14-15	da	_	_	_	_	_	_	_	TokenRange=68:70
+14	de	de	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	saude	saude	NOUN	NOUN	_	13	nmod	_	TokenRange=71:76
+17	mandados	mandado	NOUN	NOUN	_	23	nsubj:pass	_	TokenRange=77:85
+18	de	de	ADP	ADP	_	19	case	_	TokenRange=86:88
+19	busca	busca	NOUN	NOUN	_	17	nmod	_	TokenRange=89:94
+20	e	e	CCONJ	CONJ	_	21	cc	_	TokenRange=95:96
+21	apreensao	apreensao	NOUN	NOUN	_	19	conj	_	TokenRange=97:106
+22	sao	_	AUX	AUX	_	23	aux:pass	_	TokenRange=107:110
+23	realizados	realizar	VERB	VERB	_	5	parataxis	_	TokenRange=111:121
+24	em	em	ADP	ADP	_	26	case	_	TokenRange=122:124
+25	cinco	_	NUM	NUM	NumType=Card	26	nummod	_	TokenRange=125:130
+26	cidades	cidade	NOUN	NOUN	_	23	nmod	_	TokenRange=131:138
+27-28	do	_	_	_	_	_	_	_	TokenRange=139:141
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	estado	estado	NOUN	NOUN	_	26	nmod	_	TokenRange=142:148
+30	de	de	ADP	ADP	_	31	case	_	TokenRange=149:151
+31	sao	sao	NOUN	NOUN	_	29	nmod	_	TokenRange=152:155
+32	paulo	paulo	ADJ	ADJ	_	31	amod	_	TokenRange=156:161
+33	operacao	operacao	NOUN	NOUN	_	35	nsubj:pass	_	TokenRange=162:170
+34	foi	_	AUX	AUX	_	35	aux:pass	_	TokenRange=171:174
+35	deflagrada	deflagrar	VERB	VERB	_	23	parataxis	_	TokenRange=175:185
+36-37	pela	_	_	_	_	_	_	_	TokenRange=186:190
+36	por	por	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	policia	policia	NOUN	NOUN	_	35	nmod	_	TokenRange=191:198
+39	federal	federal	ADJ	ADJ	_	38	amod	_	TokenRange=199:206
+40	de	de	ADP	ADP	_	41	case	_	TokenRange=207:209
+41	marilia	marilia	NOUN	NOUN	_	38	nmod	_	TokenRange=210:217
+42	a	o	DET	DET	_	43	det	_	TokenRange=218:219
+43	policia	policia	NOUN	NOUN	_	48	nsubj	_	TokenRange=220:227
+44	federal	federal	ADJ	ADJ	_	43	amod	_	TokenRange=228:235
+45	de	de	ADP	ADP	_	46	case	_	TokenRange=236:238
+46	marilia	marilia	NOUN	NOUN	_	43	nmod	_	TokenRange=239:246
+47	sp	_	PRON	PRON	_	43	amod	_	TokenRange=247:249
+48	deflagra	deflagrar	VERB	VERB	_	5	parataxis	_	TokenRange=250:258
+49	nesta	_	ADP	ADP	_	50	case	_	TokenRange=259:264
+50	quartafeira	_	NOUN	NOUN	_	48	nmod	_	TokenRange=265:276
+51	7	_	NUM	NUM	NumType=Card	50	appos	_	TokenRange=277:278
+52	a	o	DET	DET	_	53	det	_	TokenRange=279:280
+53	operacao	operacao	NOUN	NOUN	_	48	obj	_	SpacesAfter=\s\s|TokenRange=281:289
+

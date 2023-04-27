@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = artistas nordestinos ficam indignados com declaracao de lula no rio grande do sul confira o video
+1	artistas	artista	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	nordestinos	nordestino	ADJ	ADJ	_	1	amod	_	TokenRange=9:20
+3	ficam	ficar	VERB	VERB	_	0	root	_	TokenRange=21:26
+4	indignados	indignado	ADJ	ADJ	_	3	xcomp	_	TokenRange=27:37
+5	com	com	ADP	ADP	_	6	case	_	TokenRange=38:41
+6	declaracao	declaracao	NOUN	NOUN	_	4	nmod	_	TokenRange=42:52
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=53:55
+8	lula	lula	NOUN	NOUN	_	6	nmod	_	TokenRange=56:60
+9-10	no	_	_	_	_	_	_	_	TokenRange=61:63
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rio	rio	NOUN	NOUN	_	6	nmod	_	TokenRange=64:67
+12	grande	grande	ADJ	ADJ	_	11	amod	_	TokenRange=68:74
+13-14	do	_	_	_	_	_	_	_	TokenRange=75:77
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sul	sul	NOUN	NOUN	_	11	nmod	_	TokenRange=78:81
+16	confira	conferir	VERB	VERB	_	3	parataxis	_	TokenRange=82:89
+17	o	o	DET	DET	_	18	det	_	TokenRange=90:91
+18	video	video	NOUN	NOUN	_	16	obj	_	TokenRange=92:97
+

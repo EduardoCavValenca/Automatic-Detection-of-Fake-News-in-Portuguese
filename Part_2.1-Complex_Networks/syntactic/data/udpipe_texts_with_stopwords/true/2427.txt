@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = esplanada dos ministerios e fechada para forum mundial da agua transito na area
+1	esplanada	esplanada	NOUN	NOUN	_	0	root	_	TokenRange=0:9
+2-3	dos	_	_	_	_	_	_	_	TokenRange=10:13
+2	de	de	ADP	ADP	_	4	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	ministerios	ministerio	NOUN	NOUN	_	1	nmod	_	TokenRange=14:25
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=26:27
+6	fechada	fechado	ADJ	ADJ	_	1	conj	_	TokenRange=28:35
+7	para	para	ADP	ADP	_	8	case	_	TokenRange=36:40
+8	forum	forum	NOUN	NOUN	_	6	nmod	_	TokenRange=41:46
+9	mundial	mundial	ADJ	ADJ	_	8	amod	_	TokenRange=47:54
+10-11	da	_	_	_	_	_	_	_	TokenRange=55:57
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	agua	agua	NOUN	NOUN	_	8	nmod	_	TokenRange=58:62
+13	transito	transito	NOUN	NOUN	_	1	appos	_	TokenRange=63:71
+14-15	na	_	_	_	_	_	_	_	TokenRange=72:74
+14	em	em	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	area	area	NOUN	NOUN	_	13	nmod	_	SpacesAfter=\s\s|TokenRange=75:79
+

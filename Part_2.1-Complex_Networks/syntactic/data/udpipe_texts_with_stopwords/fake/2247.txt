@@ -1,0 +1,74 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bonner e fatima anunciam separacao em respeito aos amigos e fas comunicamos que estamos nos separando os jornalistas publicaram mensagens nas redes sociais afirmando que se separaram porem continuam bons amigos rumores de que o casamento dos jornalistas ja teria acabado rondam as redes sociais desde o inicio de 2016 porem agora o protagonistas confirmaram o desenlace matrimonial
+1	bonner	bonner	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	e	e	CCONJ	CONJ	_	3	cc	_	TokenRange=7:8
+3	fatima	_	NOUN	NOUN	_	1	conj	_	TokenRange=9:15
+4	anunciam	anunciar	VERB	VERB	_	0	root	_	TokenRange=16:24
+5	separacao	separacao	NOUN	NOUN	_	4	obj	_	TokenRange=25:34
+6	em	em	ADP	ADP	_	7	case	_	TokenRange=35:37
+7	respeito	respeito	NOUN	NOUN	_	4	nmod	_	TokenRange=38:46
+8-9	aos	_	_	_	_	_	_	_	TokenRange=47:50
+8	a	a	ADP	ADP	_	10	case	_	_
+9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	amigos	amigo	NOUN	NOUN	_	7	nmod	_	TokenRange=51:57
+11	e	e	CCONJ	CONJ	_	12	cc	_	TokenRange=58:59
+12	fas	_	NOUN	NOUN	_	10	conj	_	TokenRange=60:63
+13	comunicamos	comunicar	VERB	VERB	_	4	conj	_	TokenRange=64:75
+14	que	que	CCONJ	CONJ	_	21	mark	_	TokenRange=76:79
+15	estamos	estar	AUX	AUX	_	21	aux	_	TokenRange=80:87
+16-17	nos	_	_	_	_	_	_	_	TokenRange=88:91
+16	em	em	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	separando	separar	VERB	VERB	_	13	ccomp	_	TokenRange=92:101
+19	os	o	DET	DET	_	20	det	_	TokenRange=102:104
+20	jornalistas	jornalista	NOUN	NOUN	_	21	nsubj	_	TokenRange=105:116
+21	publicaram	publicar	VERB	VERB	_	4	ccomp	_	TokenRange=117:127
+22	mensagens	mensagem	NOUN	NOUN	_	21	obj	_	TokenRange=128:137
+23-24	nas	_	_	_	_	_	_	_	TokenRange=138:141
+23	em	em	ADP	ADP	_	25	case	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	redes	rede	NOUN	NOUN	_	21	nmod	_	TokenRange=142:147
+26	sociais	social	ADJ	ADJ	_	25	amod	_	TokenRange=148:155
+27	afirmando	afirmar	VERB	VERB	_	21	acl	_	TokenRange=156:165
+28	que	que	CCONJ	CONJ	_	30	mark	_	TokenRange=166:169
+29	se	_	PRON	PRON	_	30	obj	_	TokenRange=170:172
+30	separaram	separar	VERB	VERB	_	27	ccomp	_	TokenRange=173:182
+31	porem	_	ADV	CONJ	_	32	mark	_	TokenRange=183:188
+32	continuam	continuar	VERB	VERB	_	30	advcl	_	TokenRange=189:198
+33	bons	bom	ADJ	ADJ	_	34	amod	_	TokenRange=199:203
+34	amigos	amigo	NOUN	NOUN	_	32	nsubj	_	TokenRange=204:210
+35	rumores	rumor	NOUN	NOUN	_	32	nsubj	_	TokenRange=211:218
+36	de	_	ADP	ADP	_	46	mark	_	TokenRange=219:221
+37	que	que	CCONJ	CONJ	_	46	mark	_	TokenRange=222:225
+38	o	o	DET	DET	_	39	det	_	TokenRange=226:227
+39	casamento	casamento	NOUN	NOUN	_	46	nsubj	_	TokenRange=228:237
+40-41	dos	_	_	_	_	_	_	_	TokenRange=238:241
+40	de	de	ADP	ADP	_	42	case	_	_
+41	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	jornalistas	jornalista	NOUN	NOUN	_	39	nmod	_	TokenRange=242:253
+43	ja	ja	ADV	ADV	_	46	advmod	_	TokenRange=254:256
+44	teria	ter	AUX	AUX	_	46	aux	_	TokenRange=257:262
+45	acabado	acabar	AUX	AUX	_	46	aux	_	TokenRange=263:270
+46	rondam	rondar	VERB	VERB	_	35	nmod	_	TokenRange=271:277
+47	as	o	DET	DET	_	48	det	_	TokenRange=278:280
+48	redes	rede	NOUN	NOUN	_	46	obj	_	TokenRange=281:286
+49	sociais	social	ADJ	ADJ	_	48	amod	_	TokenRange=287:294
+50	desde	_	ADP	ADP	_	52	case	_	TokenRange=295:300
+51	o	o	DET	DET	_	52	det	_	TokenRange=301:302
+52	inicio	_	NOUN	NOUN	_	46	nmod	_	TokenRange=303:309
+53	de	de	ADP	ADP	_	54	case	_	TokenRange=310:312
+54	2016	_	NUM	NUM	NumType=Card	52	nmod	_	TokenRange=313:317
+55	porem	_	CCONJ	CONJ	_	59	mark	_	TokenRange=318:323
+56	agora	agora	ADV	ADV	_	59	advmod	_	TokenRange=324:329
+57	o	o	DET	DET	_	58	det	_	TokenRange=330:331
+58	protagonistas	protagonista	NOUN	NOUN	_	59	nsubj	_	TokenRange=332:345
+59	confirmaram	confirmar	VERB	VERB	_	46	conj	_	TokenRange=346:357
+60	o	o	DET	DET	_	61	det	_	TokenRange=358:359
+61	desenlace	desenlace	NOUN	NOUN	_	59	obj	_	TokenRange=360:369
+62	matrimonial	matrimonial	ADJ	ADJ	_	61	amod	_	TokenRange=370:381
+

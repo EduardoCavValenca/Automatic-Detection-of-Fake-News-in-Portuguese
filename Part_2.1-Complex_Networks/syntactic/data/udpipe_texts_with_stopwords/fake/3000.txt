@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma se irrita e confessa crime fiz porque todos os outros governos anteriores tambem fizeram dilma assume que cometeu crime de responsabilidade e culpa os presidentes anteriores o lider do psdb na camara deputado antonio imbassahy ba rebateu a presidente dilma que disse ontem 01 que cometeu crime de responsabilidade porque presidentes anteriores tambem cometeram essa declaracao da presidente nao se enquadra mais na categoria irresponsabilidade beira a leviandade e a cara de pau chegou a hora deste governo acabar
+1	dilma	dilma	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	se	_	PRON	PRON	_	3	obj	_	TokenRange=6:8
+3	irrita	irritar	VERB	VERB	_	0	root	_	TokenRange=9:15
+4	e	e	CCONJ	CONJ	_	5	cc	_	TokenRange=16:17
+5	confessa	confessar	VERB	VERB	_	3	conj	_	TokenRange=18:26
+6	crime	crime	NOUN	NOUN	_	5	obj	_	TokenRange=27:32
+7	fiz	fazer	VERB	VERB	_	5	ccomp	_	TokenRange=33:36
+8	porque	_	CCONJ	CONJ	_	17	mark	_	TokenRange=37:43
+9	todos	_	DET	DET	_	12	det	_	TokenRange=44:49
+10	os	o	DET	DET	_	12	det	_	TokenRange=50:52
+11	outros	_	DET	DET	_	12	det	_	TokenRange=53:59
+12	governos	governo	NOUN	NOUN	_	15	nsubj	_	TokenRange=60:68
+13	anteriores	anterior	ADJ	ADJ	_	12	amod	_	TokenRange=69:79
+14	tambem	tambem	ADV	ADV	_	15	advmod	_	TokenRange=80:86
+15	fizeram	fazer	VERB	VERB	_	17	advcl	_	TokenRange=87:94
+16	dilma	dilma	NOUN	NOUN	_	15	obj	_	TokenRange=95:100
+17	assume	assumir	VERB	VERB	_	3	advcl	_	TokenRange=101:107
+18	que	que	CCONJ	CONJ	_	19	mark	_	TokenRange=108:111
+19	cometeu	cometer	VERB	VERB	_	17	ccomp	_	TokenRange=112:119
+20	crime	crime	NOUN	NOUN	_	19	obj	_	TokenRange=120:125
+21	de	de	ADP	ADP	_	22	case	_	TokenRange=126:128
+22	responsabilidade	responsabilidade	NOUN	NOUN	_	20	nmod	_	TokenRange=129:145
+23	e	e	CCONJ	CONJ	_	24	cc	_	TokenRange=146:147
+24	culpa	culpar	VERB	VERB	_	19	conj	_	TokenRange=148:153
+25	os	o	DET	DET	_	26	det	_	TokenRange=154:156
+26	presidentes	presidente	NOUN	NOUN	_	24	obj	_	TokenRange=157:168
+27	anteriores	anterior	ADJ	ADJ	_	26	amod	_	TokenRange=169:179
+28	o	o	DET	DET	_	29	det	_	TokenRange=180:181
+29	lider	lider	NOUN	NOUN	_	40	nsubj	_	TokenRange=182:187
+30-31	do	_	_	_	_	_	_	_	TokenRange=188:190
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	psdb	_	NOUN	NOUN	_	29	nmod	_	TokenRange=191:195
+33-34	na	_	_	_	_	_	_	_	TokenRange=196:198
+33	em	em	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	camara	camara	NOUN	NOUN	_	29	nmod	_	TokenRange=199:205
+36	deputado	deputado	NOUN	NOUN	_	29	appos	_	TokenRange=206:214
+37	antonio	antonio	ADJ	ADJ	_	36	appos	_	TokenRange=215:222
+38	imbassahy	_	NOUN	NOUN	_	36	appos	_	TokenRange=223:232
+39	ba	ba	NOUN	NOUN	_	37	flat	_	TokenRange=233:235
+40	rebateu	rebater	VERB	VERB	_	3	conj	_	TokenRange=236:243
+41	a	o	DET	DET	_	42	det	_	TokenRange=244:245
+42	presidente	presidente	NOUN	NOUN	_	40	obj	_	TokenRange=246:256
+43	dilma	dilma	NOUN	NOUN	_	42	appos	_	TokenRange=257:262
+44	que	que	CCONJ	CONJ	_	45	mark	_	TokenRange=263:266
+45	disse	dizer	VERB	VERB	_	40	ccomp	_	TokenRange=267:272
+46	ontem	ontem	ADV	ADV	_	45	advmod	_	TokenRange=273:278
+47	01	_	NUM	NUM	NumType=Card	45	obj	_	TokenRange=279:281
+48	que	que	CCONJ	CONJ	_	49	mark	_	TokenRange=282:285
+49	cometeu	cometer	VERB	VERB	_	45	ccomp	_	TokenRange=286:293
+50	crime	crime	NOUN	NOUN	_	49	obj	_	TokenRange=294:299
+51	de	de	ADP	ADP	_	52	case	_	TokenRange=300:302
+52	responsabilidade	responsabilidade	NOUN	NOUN	_	50	nmod	_	TokenRange=303:319
+53	porque	_	CCONJ	CONJ	_	57	mark	_	TokenRange=320:326
+54	presidentes	presidente	NOUN	NOUN	_	57	nsubj	_	TokenRange=327:338
+55	anteriores	anterior	ADJ	ADJ	_	54	amod	_	TokenRange=339:349
+56	tambem	tambem	ADV	ADV	_	57	advmod	_	TokenRange=350:356
+57	cometeram	cometer	VERB	VERB	_	45	advcl	_	TokenRange=357:366
+58	essa	_	DET	DET	_	59	det	_	TokenRange=367:371
+59	declaracao	declaracao	NOUN	NOUN	_	57	obj	_	TokenRange=372:382
+60-61	da	_	_	_	_	_	_	_	TokenRange=383:385
+60	de	de	ADP	ADP	_	62	case	_	_
+61	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+62	presidente	presidente	NOUN	NOUN	_	59	nmod	_	TokenRange=386:396
+63	nao	nao	ADV	ADV	Polarity=Neg	65	advmod	_	TokenRange=397:400
+64	se	_	PRON	PRON	_	65	expl:pv	_	TokenRange=401:403
+65	enquadra	enquadrar	VERB	VERB	_	57	ccomp	_	TokenRange=404:412
+66	mais	mais	ADV	ADV	_	65	advmod	_	TokenRange=413:417
+67-68	na	_	_	_	_	_	_	_	TokenRange=418:420
+67	em	em	ADP	ADP	_	69	case	_	_
+68	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	categoria	categoria	NOUN	NOUN	_	65	nmod	_	TokenRange=421:430
+70	irresponsabilidade	irresponsabilidade	NOUN	NOUN	_	69	appos	_	TokenRange=431:449
+71	beira	beirar	VERB	VERB	_	65	parataxis	_	TokenRange=450:455
+72	a	o	DET	DET	_	73	det	_	TokenRange=456:457
+73	leviandade	leviandade	NOUN	NOUN	_	71	nsubj	_	TokenRange=458:468
+74	e	e	CCONJ	CONJ	_	76	cc	_	TokenRange=469:470
+75	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	TokenRange=471:472
+76	cara	cara	NOUN	NOUN	_	73	conj	_	TokenRange=473:477
+77	de	de	ADP	ADP	_	78	case	_	TokenRange=478:480
+78	pau	pau	NOUN	NOUN	_	76	nmod	_	TokenRange=481:484
+79	chegou	chegar	VERB	VERB	_	71	conj	_	TokenRange=485:491
+80	a	o	DET	DET	_	81	det	_	TokenRange=492:493
+81	hora	hora	NOUN	NOUN	_	79	nsubj	_	TokenRange=494:498
+82	deste	_	ADP	ADP	_	84	mark	_	TokenRange=499:504
+83	governo	governo	NOUN	NOUN	_	81	nmod	_	TokenRange=505:512
+84	acabar	acabar	VERB	VERB	_	81	nmod	_	SpacesAfter=\s\s|TokenRange=513:519
+

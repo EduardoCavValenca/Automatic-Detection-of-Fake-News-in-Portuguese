@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = amazonas lidera ranking brasileiro de incidencia da tuberculose diz fvs em 2017 foram mais de 3 mil casos em todo o estado neste ano ja sao 497 novas ocorrencias o amazonas ocupa o primeiro lugar no ranking brasileiro em incidencia da tuberculose segundo a
+1	amazonas	amazona	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	lidera	liderar	VERB	VERB	_	0	root	_	TokenRange=9:15
+3	ranking	ranking	NOUN	NOUN	_	2	obj	_	TokenRange=16:23
+4	brasileiro	brasileiro	ADJ	ADJ	_	3	amod	_	TokenRange=24:34
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=35:37
+6	incidencia	incidencia	NOUN	NOUN	_	3	nmod	_	TokenRange=38:48
+7-8	da	_	_	_	_	_	_	_	TokenRange=49:51
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tuberculose	tuberculose	NOUN	NOUN	_	6	nmod	_	TokenRange=52:63
+10	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=64:67
+11	fvs	_	NOUN	NOUN	_	10	obj	_	TokenRange=68:71
+12	em	em	ADP	ADP	_	13	case	_	TokenRange=72:74
+13	2017	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=75:79
+14	foram	_	VERB	VERB	_	2	parataxis	_	TokenRange=80:85
+15	mais	mais	ADV	ADV	_	18	advmod	_	TokenRange=86:90
+16	de	de	ADP	ADP	_	15	case	_	TokenRange=91:93
+17	3	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=94:95
+18	mil	_	NUM	NUM	NumType=Card	19	nummod	_	TokenRange=96:99
+19	casos	caso	NOUN	NOUN	_	14	nsubj	_	TokenRange=100:105
+20	em	em	ADP	ADP	_	23	case	_	TokenRange=106:108
+21	todo	_	DET	DET	_	23	det	_	TokenRange=109:113
+22	o	o	DET	DET	_	23	det	_	TokenRange=114:115
+23	estado	estado	NOUN	NOUN	_	14	nmod	_	TokenRange=116:122
+24	neste	_	ADP	ADP	_	25	case	_	TokenRange=123:128
+25	ano	ano	NOUN	NOUN	_	14	nmod	_	TokenRange=129:132
+26	ja	ja	ADV	ADV	_	33	advmod	_	TokenRange=133:135
+27	sao	_	VERB	VERB	_	14	parataxis	_	TokenRange=136:139
+28	497	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=140:143
+29	novas	novo	ADJ	ADJ	_	30	amod	_	TokenRange=144:149
+30	ocorrencias	ocorrencia	NOUN	NOUN	_	33	nsubj	_	TokenRange=150:161
+31	o	o	DET	DET	_	32	det	_	TokenRange=162:163
+32	amazonas	amazona	NOUN	NOUN	_	33	nsubj	_	TokenRange=164:172
+33	ocupa	ocupar	VERB	VERB	_	2	parataxis	_	TokenRange=173:178
+34	o	o	DET	DET	_	36	det	_	TokenRange=179:180
+35	primeiro	primeiro	ADJ	ADJ	_	36	amod	_	TokenRange=181:189
+36	lugar	lugar	NOUN	NOUN	_	33	obj	_	TokenRange=190:195
+37-38	no	_	_	_	_	_	_	_	TokenRange=196:198
+37	em	em	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	ranking	ranking	NOUN	NOUN	_	36	nmod	_	TokenRange=199:206
+40	brasileiro	brasileiro	ADJ	ADJ	_	39	amod	_	TokenRange=207:217
+41	em	em	ADP	ADP	_	42	case	_	TokenRange=218:220
+42	incidencia	incidencia	NOUN	NOUN	_	39	nmod	_	TokenRange=221:231
+43-44	da	_	_	_	_	_	_	_	TokenRange=232:234
+43	de	de	ADP	ADP	_	45	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	tuberculose	tuberculose	NOUN	NOUN	_	42	nmod	_	TokenRange=235:246
+46	segundo	_	ADP	ADP	_	39	case	_	TokenRange=247:254
+47	a	o	DET	DET	_	39	det	_	SpacesAfter=\s\s|TokenRange=255:256
+

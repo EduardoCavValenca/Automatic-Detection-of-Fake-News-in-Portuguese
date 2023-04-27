@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bolsonaro chega a belem e multidao ovaciona o deputado quando voce se deparar com aquela noticia de intencao de votos publicado por um instituto famoso nao se engane veja o deputado jair bolsonaro sendo recepcionado hoje 05 pela populacao de belem e responda quem sera o proximo presidente do pais detalhe ninguem recebeu o kit pao com mortadela 30 reais para gritar o nome do mito
+1	bolsonaro	bolsonaro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:9
+2	chega	chegar	VERB	VERB	_	0	root	_	TokenRange=10:15
+3	a	_	ADP	ADP	_	4	case	_	TokenRange=16:17
+4	belem	belem	NOUN	NOUN	_	2	nmod	_	TokenRange=18:23
+5	e	e	CCONJ	CONJ	_	7	cc	_	TokenRange=24:25
+6	multidao	multidao	NOUN	NOUN	_	7	nsubj	_	TokenRange=26:34
+7	ovaciona	ovacionar	VERB	VERB	_	2	conj	_	TokenRange=35:43
+8	o	o	DET	DET	_	9	det	_	TokenRange=44:45
+9	deputado	deputado	NOUN	NOUN	_	7	obj	_	TokenRange=46:54
+10	quando	_	CCONJ	CONJ	_	13	mark	_	TokenRange=55:61
+11	voce	_	PRON	PRON	_	13	nsubj	_	TokenRange=62:66
+12	se	_	PRON	PRON	_	13	obj	_	TokenRange=67:69
+13	deparar	deparar	VERB	VERB	_	7	advcl	_	TokenRange=70:77
+14	com	com	ADP	ADP	_	16	case	_	TokenRange=78:81
+15	aquela	_	DET	DET	_	16	det	_	TokenRange=82:88
+16	noticia	noticia	NOUN	NOUN	_	13	nmod	_	TokenRange=89:96
+17	de	de	ADP	ADP	_	18	case	_	TokenRange=97:99
+18	intencao	intencao	NOUN	NOUN	_	16	nmod	_	TokenRange=100:108
+19	de	de	ADP	ADP	_	20	case	_	TokenRange=109:111
+20	votos	voto	NOUN	NOUN	_	18	nmod	_	TokenRange=112:117
+21	publicado	publicar	VERB	VERB	_	16	acl	_	TokenRange=118:127
+22	por	por	ADP	ADP	_	24	case	_	TokenRange=128:131
+23	um	um	DET	DET	_	24	det	_	TokenRange=132:134
+24	instituto	instituto	NOUN	NOUN	_	21	nmod	_	TokenRange=135:144
+25	famoso	famoso	ADJ	ADJ	_	24	amod	_	TokenRange=145:151
+26	nao	nao	ADV	ADV	Polarity=Neg	28	advmod	_	TokenRange=152:155
+27	se	_	PRON	PRON	_	28	expl:pv	_	TokenRange=156:158
+28	engane	enganar	VERB	VERB	_	7	advcl	_	TokenRange=159:165
+29	veja	ver	VERB	VERB	_	2	conj	_	TokenRange=166:170
+30	o	o	DET	DET	_	31	det	_	TokenRange=171:172
+31	deputado	deputado	NOUN	NOUN	_	29	nsubj	_	TokenRange=173:181
+32	jair	jair	NOUN	NOUN	_	31	appos	_	TokenRange=182:186
+33	bolsonaro	bolsonaro	NOUN	NOUN	_	32	flat	_	TokenRange=187:196
+34	sendo	ser	AUX	AUX	_	35	aux:pass	_	TokenRange=197:202
+35	recepcionado	recepcionar	VERB	VERB	_	31	acl	_	TokenRange=203:215
+36	hoje	hoje	ADV	ADV	_	35	advmod	_	TokenRange=216:220
+37	05	_	NUM	NUM	NumType=Card	36	nmod	_	TokenRange=221:223
+38-39	pela	_	_	_	_	_	_	_	TokenRange=224:228
+38	por	por	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	populacao	populacao	NOUN	NOUN	_	35	nmod	_	TokenRange=229:238
+41	de	de	ADP	ADP	_	42	case	_	TokenRange=239:241
+42	belem	belem	NOUN	NOUN	_	40	nmod	_	TokenRange=242:247
+43	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=248:249
+44	responda	responder	VERB	VERB	_	35	conj	_	TokenRange=250:258
+45	quem	_	PRON	PRON	_	44	ccomp	_	TokenRange=259:263
+46	sera	_	AUX	AUX	_	45	cop	_	TokenRange=264:268
+47	o	o	DET	DET	_	49	det	_	TokenRange=269:270
+48	proximo	proximo	ADJ	ADJ	_	49	amod	_	TokenRange=271:278
+49	presidente	presidente	NOUN	NOUN	_	45	nsubj	_	TokenRange=279:289
+50-51	do	_	_	_	_	_	_	_	TokenRange=290:292
+50	de	de	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	pais	_	NOUN	NOUN	_	49	nmod	_	TokenRange=293:297
+53	detalhe	detalhar	VERB	VERB	_	44	ccomp	_	TokenRange=298:305
+54	ninguem	_	PRON	PRON	_	55	nsubj	_	TokenRange=306:313
+55	recebeu	receber	VERB	VERB	_	44	ccomp	_	TokenRange=314:321
+56	o	o	DET	DET	_	57	det	_	TokenRange=322:323
+57	kit	kit	NOUN	NOUN	_	55	obj	_	TokenRange=324:327
+58	pao	pao	NOUN	NOUN	_	57	flat	_	TokenRange=328:331
+59	com	com	ADP	ADP	_	60	case	_	TokenRange=332:335
+60	mortadela	mortadela	NOUN	NOUN	_	55	nmod	_	TokenRange=336:345
+61	30	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=346:348
+62	reais	real	NOUN	NOUN	_	60	appos	_	TokenRange=349:354
+63	para	_	ADP	ADP	_	64	mark	_	TokenRange=355:359
+64	gritar	gritar	VERB	VERB	_	55	advcl	_	TokenRange=360:366
+65	o	o	DET	DET	_	66	det	_	TokenRange=367:368
+66	nome	nome	NOUN	NOUN	_	64	obj	_	TokenRange=369:373
+67-68	do	_	_	_	_	_	_	_	TokenRange=374:376
+67	de	de	ADP	ADP	_	69	case	_	_
+68	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
+69	mito	mito	NOUN	NOUN	_	66	nmod	_	TokenRange=377:381
+

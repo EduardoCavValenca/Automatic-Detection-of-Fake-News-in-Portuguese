@@ -1,0 +1,34 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = apos arquivar todos os processos em 2017 conselho de etica da camara comecara 2018 com caso lucio vieira lima orgao recebeu 5 representacoes contra
+1	apos	_	ADP	ADP	_	2	mark	_	TokenRange=0:4
+2	arquivar	arquivar	VERB	VERB	_	14	advcl	_	TokenRange=5:13
+3	todos	_	DET	DET	_	5	det	_	TokenRange=14:19
+4	os	o	DET	DET	_	5	det	_	TokenRange=20:22
+5	processos	processo	NOUN	NOUN	_	2	obj	_	TokenRange=23:32
+6	em	em	ADP	ADP	_	7	case	_	TokenRange=33:35
+7	2017	_	NUM	NUM	NumType=Card	2	nmod	_	TokenRange=36:40
+8	conselho	conselho	NOUN	NOUN	_	2	nsubj	_	TokenRange=41:49
+9	de	de	ADP	ADP	_	10	case	_	TokenRange=50:52
+10	etica	etica	NOUN	NOUN	_	8	nmod	_	TokenRange=53:58
+11-12	da	_	_	_	_	_	_	_	TokenRange=59:61
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	camara	camara	NOUN	NOUN	_	8	nmod	_	TokenRange=62:68
+14	comecara	comecar	VERB	VERB	_	0	root	_	TokenRange=69:77
+15	2018	_	NUM	NUM	NumType=Card	14	nmod	_	TokenRange=78:82
+16	com	com	ADP	ADP	_	17	case	_	TokenRange=83:86
+17	caso	caso	NOUN	NOUN	_	14	nmod	_	TokenRange=87:91
+18	lucio	lucio	NOUN	NOUN	_	17	appos	_	TokenRange=92:97
+19	vieira	vieira	NOUN	NOUN	_	17	appos	_	TokenRange=98:104
+20	lima	lima	ADJ	ADJ	_	19	amod	_	TokenRange=105:109
+21	orgao	orgao	NOUN	NOUN	_	18	flat	_	TokenRange=110:115
+22	recebeu	receber	VERB	VERB	_	14	parataxis	_	TokenRange=116:123
+23	5	_	NUM	NUM	NumType=Card	24	nummod	_	TokenRange=124:125
+24	representacoes	representacoe	NOUN	NOUN	_	22	obj	_	TokenRange=126:140
+25	contra	_	ADP	ADP	_	22	mark	_	SpacesAfter=\s\s|TokenRange=141:147
+

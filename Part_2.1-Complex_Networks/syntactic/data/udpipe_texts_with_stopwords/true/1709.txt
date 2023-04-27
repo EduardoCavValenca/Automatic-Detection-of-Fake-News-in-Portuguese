@@ -1,0 +1,31 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = falta de quorum adia para agosto leitura de parecer sobre temer na camara parlamentares entram em recesso nesta terca 18 e
+1	falta	_	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:5
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=6:8
+3	quorum	quorum	NOUN	NOUN	_	1	nmod	_	TokenRange=9:15
+4	adia	adia	NOUN	NOUN	_	1	appos	_	TokenRange=16:20
+5	para	para	ADP	ADP	_	6	case	_	TokenRange=21:25
+6	agosto	_	PROPN	PNOUN	_	4	nmod	_	TokenRange=26:32
+7	leitura	leitura	NOUN	NOUN	_	16	nsubj	_	TokenRange=33:40
+8	de	de	ADP	ADP	_	9	case	_	TokenRange=41:43
+9	parecer	parecer	NOUN	NOUN	_	7	nmod	_	TokenRange=44:51
+10	sobre	_	ADP	ADP	_	11	case	_	TokenRange=52:57
+11	temer	temer	NOUN	NOUN	_	9	nmod	_	TokenRange=58:63
+12-13	na	_	_	_	_	_	_	_	TokenRange=64:66
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	camara	camara	NOUN	NOUN	_	11	nmod	_	TokenRange=67:73
+15	parlamentares	parlamentar	ADJ	ADJ	_	14	amod	_	TokenRange=74:87
+16	entram	entrar	VERB	VERB	_	0	root	_	TokenRange=88:94
+17	em	em	ADP	ADP	_	18	case	_	TokenRange=95:97
+18	recesso	recesso	NOUN	NOUN	_	16	nmod	_	TokenRange=98:105
+19	nesta	_	ADP	ADP	_	20	case	_	TokenRange=106:111
+20	terca	_	PROPN	PNOUN	_	16	nmod	_	TokenRange=112:117
+21	18	_	NUM	NUM	NumType=Card	20	nmod	_	TokenRange=118:120
+22	e	e	CCONJ	CONJ	_	16	cc	_	SpacesAfter=\s\s|TokenRange=121:122
+

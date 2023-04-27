@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula e o cara se eu soubesse que a odebrecht era corrupta nao teria feito palestras para eles o diario do brasil esta se tornando fa numero 1 de lula ele e muito engracado em mais uma de suas apresentacoes no estilo standup comedy lula sacou sua arma favorita o microfone e deu sua punhalada se eu soubesse que a odebrecht era tao corrupta nao teria feito palestras para eles e o velhobrahma despertando o temido barba iscariotes que existe dentro dele
+1	lula	lula	NOUN	NOUN	_	0	root	_	TokenRange=0:4
+2	e	e	CCONJ	CONJ	_	4	cc	_	TokenRange=5:6
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	TokenRange=7:8
+4	cara	cara	NOUN	NOUN	_	1	conj	_	TokenRange=9:13
+5	se	_	CCONJ	CONJ	_	7	mark	_	TokenRange=14:16
+6	eu	_	PRON	PRON	_	7	nsubj	_	TokenRange=17:19
+7	soubesse	saber	VERB	VERB	_	15	advcl	_	TokenRange=20:28
+8	que	que	CCONJ	CONJ	_	11	mark	_	TokenRange=29:32
+9	a	o	DET	DET	_	10	det	_	TokenRange=33:34
+10	odebrecht	_	NOUN	NOUN	_	11	nsubj	_	TokenRange=35:44
+11	era	_	VERB	VERB	_	7	ccomp	_	TokenRange=45:48
+12	corrupta	corrupto	ADJ	ADJ	_	11	xcomp	_	TokenRange=49:57
+13	nao	nao	ADV	ADV	Polarity=Neg	15	advmod	_	TokenRange=58:61
+14	teria	ter	AUX	AUX	_	15	aux	_	TokenRange=62:67
+15	feito	_	VERB	VERB	_	1	conj	_	TokenRange=68:73
+16	palestras	palestra	NOUN	NOUN	_	15	obj	_	TokenRange=74:83
+17	para	para	ADP	ADP	_	18	case	_	TokenRange=84:88
+18	eles	_	PRON	PRON	_	15	nmod	_	TokenRange=89:93
+19	o	o	DET	DET	_	20	det	_	TokenRange=94:95
+20	diario	diario	NOUN	NOUN	_	15	nsubj	_	TokenRange=96:102
+21-22	do	_	_	_	_	_	_	_	TokenRange=103:105
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	brasil	brasil	NOUN	NOUN	_	20	nmod	_	TokenRange=106:112
+24	esta	_	AUX	AUX	_	27	aux	_	TokenRange=113:117
+25	se	_	PART	PRT	_	27	expl:pv	_	TokenRange=118:120
+26	tornando	tornar	AUX	AUX	_	27	cop	_	TokenRange=121:129
+27	fa	fa	NOUN	NOUN	_	1	acl:relcl	_	TokenRange=130:132
+28	numero	_	NOUN	NOUN	_	27	flat	_	TokenRange=133:139
+29	1	_	NUM	NUM	NumType=Card	28	appos	_	TokenRange=140:141
+30	de	de	ADP	ADP	_	31	case	_	TokenRange=142:144
+31	lula	lula	NOUN	NOUN	_	27	nmod	_	TokenRange=145:149
+32	ele	_	PRON	PRON	_	27	nsubj	_	TokenRange=150:153
+33	e	e	CCONJ	CONJ	_	35	cc	_	TokenRange=154:155
+34	muito	muito	ADV	ADV	_	35	advmod	_	TokenRange=156:161
+35	engracado	engracado	ADJ	ADJ	_	32	conj	_	TokenRange=162:171
+36	em	em	ADP	ADP	_	38	case	_	TokenRange=172:174
+37	mais	_	DET	DET	_	38	det	_	TokenRange=175:179
+38	uma	_	NUM	NUM	NumType=Card	48	nmod	_	TokenRange=180:183
+39	de	de	ADP	ADP	_	41	case	_	TokenRange=184:186
+40	suas	_	DET	DET	_	41	det:poss	_	TokenRange=187:191
+41	apresentacoes	apresentacoe	NOUN	NOUN	_	38	nmod	_	TokenRange=192:205
+42-43	no	_	_	_	_	_	_	_	TokenRange=206:208
+42	em	em	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	estilo	estilo	NOUN	NOUN	_	41	nmod	_	TokenRange=209:215
+45	standup	_	NOUN	NOUN	_	44	flat	_	TokenRange=216:223
+46	comedy	_	NOUN	NOUN	_	44	flat	_	TokenRange=224:230
+47	lula	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=231:235
+48	sacou	sacar	VERB	VERB	_	15	parataxis	_	TokenRange=236:241
+49	sua	_	DET	DET	_	50	det:poss	_	TokenRange=242:245
+50	arma	arma	NOUN	NOUN	_	48	obj	_	TokenRange=246:250
+51	favorita	favorito	ADJ	ADJ	_	50	amod	_	TokenRange=251:259
+52	o	o	DET	DET	_	53	det	_	TokenRange=260:261
+53	microfone	microfone	NOUN	NOUN	_	48	obj	_	TokenRange=262:271
+54	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=272:273
+55	deu	dar	VERB	VERB	_	48	conj	_	TokenRange=274:277
+56	sua	_	DET	DET	_	57	det:poss	_	TokenRange=278:281
+57	punhalada	_	NOUN	NOUN	_	55	obj	_	TokenRange=282:291
+58	se	_	CCONJ	CONJ	_	60	mark	_	TokenRange=292:294
+59	eu	_	PRON	PRON	_	60	nsubj	_	TokenRange=295:297
+60	soubesse	saber	VERB	VERB	_	55	advcl	_	TokenRange=298:306
+61	que	que	CCONJ	CONJ	_	64	mark	_	TokenRange=307:310
+62	a	o	DET	DET	_	63	det	_	TokenRange=311:312
+63	odebrecht	_	NOUN	NOUN	_	64	nsubj	_	TokenRange=313:322
+64	era	_	VERB	VERB	_	60	ccomp	_	TokenRange=323:326
+65	tao	tao	ADV	ADV	_	66	advmod	_	TokenRange=327:330
+66	corrupta	corrupto	ADJ	ADJ	_	64	xcomp	_	TokenRange=331:339
+67	nao	nao	ADV	ADV	Polarity=Neg	69	advmod	_	TokenRange=340:343
+68	teria	ter	AUX	AUX	_	69	aux	_	TokenRange=344:349
+69	feito	_	VERB	VERB	_	64	conj	_	TokenRange=350:355
+70	palestras	palestra	NOUN	NOUN	_	69	obj	_	TokenRange=356:365
+71	para	para	ADP	ADP	_	72	case	_	TokenRange=366:370
+72	eles	_	PRON	PRON	_	69	nmod	_	TokenRange=371:375
+73	e	e	CCONJ	CONJ	_	76	cc	_	TokenRange=376:377
+74	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	TokenRange=378:379
+75	velhobrahma	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=380:391
+76	despertando	despertar	VERB	VERB	_	69	acl	_	TokenRange=392:403
+77	o	o	DET	DET	_	79	det	_	TokenRange=404:405
+78	temido	temido	ADJ	ADJ	_	79	amod	_	TokenRange=406:412
+79	barba	barba	NOUN	NOUN	_	76	obj	_	TokenRange=413:418
+80	iscariotes	iscariote	ADJ	ADJ	_	79	amod	_	TokenRange=419:429
+81	que	_	PRON	PRON	_	82	nsubj	_	TokenRange=430:433
+82	existe	existir	VERB	VERB	_	79	acl:relcl	_	TokenRange=434:440
+83	dentro	dentro	ADV	ADV	_	82	advmod	_	TokenRange=441:447
+84	dele	_	X	ADPPRON	_	83	nmod	_	TokenRange=448:452
+

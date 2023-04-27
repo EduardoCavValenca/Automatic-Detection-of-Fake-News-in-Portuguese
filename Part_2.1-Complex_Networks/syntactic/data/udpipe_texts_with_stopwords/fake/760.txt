@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = o michel nao esta conseguindo estancar a sangria da lavajato renan esta desesperado em discurso no senado calheiros disse so vamos contestar os abusos se nos nao tivermos uma decisao rapida do guardiao da constituicao que e o supremo tribunal federal calma renan vai dar tudo certo o supremo vai guardar a constituicao e guardar voce tambem na papuda calheiros esperneia porque sabe que o stf aparentemente esta acordando de um sono profundo e comecando a agir
+1	o	o	DET	DET	_	2	det	_	TokenRange=0:1
+2	michel	michel	NOUN	NOUN	_	5	nsubj	_	TokenRange=2:8
+3	nao	nao	ADV	ADV	Polarity=Neg	5	advmod	_	TokenRange=9:12
+4	esta	_	AUX	AUX	_	5	aux	_	TokenRange=13:17
+5	conseguindo	conseguir	VERB	VERB	_	0	root	_	TokenRange=18:29
+6	estancar	estancar	VERB	VERB	_	5	xcomp	_	TokenRange=30:38
+7	a	o	DET	DET	_	8	det	_	TokenRange=39:40
+8	sangria	sangria	NOUN	NOUN	_	6	obj	_	TokenRange=41:48
+9-10	da	_	_	_	_	_	_	_	TokenRange=49:51
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	lavajato	lavajato	NOUN	NOUN	_	8	nmod	_	TokenRange=52:60
+12	renan	_	NOUN	NOUN	_	13	nsubj	_	TokenRange=61:66
+13	esta	_	VERB	VERB	_	5	parataxis	_	TokenRange=67:71
+14	desesperado	desesperado	ADJ	ADJ	_	13	xcomp	_	TokenRange=72:83
+15	em	em	ADP	ADP	_	16	case	_	TokenRange=84:86
+16	discurso	discurso	NOUN	NOUN	_	13	nmod	_	TokenRange=87:95
+17-18	no	_	_	_	_	_	_	_	TokenRange=96:98
+17	em	em	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	senado	senado	NOUN	NOUN	_	16	nmod	_	TokenRange=99:105
+20	calheiros	calheiro	NOUN	NOUN	_	21	nsubj	_	TokenRange=106:115
+21	disse	dizer	VERB	VERB	_	5	parataxis	_	TokenRange=116:121
+22	so	so	ADV	ADV	_	24	advmod	_	TokenRange=122:124
+23	vamos	ir	AUX	AUX	_	24	aux	_	TokenRange=125:130
+24	contestar	contestar	VERB	VERB	_	21	ccomp	_	TokenRange=131:140
+25	os	o	DET	DET	_	26	det	_	TokenRange=141:143
+26	abusos	abuso	NOUN	NOUN	_	24	obj	_	TokenRange=144:150
+27	se	_	CCONJ	CONJ	_	31	mark	_	TokenRange=151:153
+28-29	nos	_	_	_	_	_	_	_	TokenRange=154:157
+28	em	em	ADP	ADP	_	31	case	_	_
+29	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	nao	nao	ADV	ADV	Polarity=Neg	31	advmod	_	TokenRange=158:161
+31	tivermos	ter	VERB	VERB	_	24	advcl	_	TokenRange=162:170
+32	uma	um	DET	DET	_	33	det	_	TokenRange=171:174
+33	decisao	decisao	NOUN	NOUN	_	31	obj	_	TokenRange=175:182
+34	rapida	rapido	ADJ	ADJ	_	33	amod	_	TokenRange=183:189
+35-36	do	_	_	_	_	_	_	_	TokenRange=190:192
+35	de	de	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	guardiao	guardiao	NOUN	NOUN	_	33	nmod	_	TokenRange=193:201
+38-39	da	_	_	_	_	_	_	_	TokenRange=202:204
+38	de	de	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	constituicao	constituicao	NOUN	NOUN	_	37	nmod	_	TokenRange=205:217
+41	que	_	PRON	PRON	_	45	nsubj	_	TokenRange=218:221
+42	e	e	CCONJ	CONJ	_	45	cc	_	TokenRange=222:223
+43	o	o	DET	DET	_	45	det	_	TokenRange=224:225
+44	supremo	supremo	ADJ	ADJ	_	45	amod	_	TokenRange=226:233
+45	tribunal	tribunal	NOUN	NOUN	_	37	acl:relcl	_	TokenRange=234:242
+46	federal	federal	ADJ	ADJ	_	45	amod	_	TokenRange=243:250
+47	calma	_	NOUN	NOUN	_	45	appos	_	TokenRange=251:256
+48	renan	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=257:262
+49	vai	ir	AUX	AUX	_	50	aux	_	TokenRange=263:266
+50	dar	dar	VERB	VERB	_	21	ccomp	_	TokenRange=267:270
+51	tudo	_	PRON	PRON	_	50	obj	_	TokenRange=271:275
+52	certo	certo	ADV	ADV	_	50	advmod	_	TokenRange=276:281
+53	o	o	DET	DET	_	54	det	_	TokenRange=282:283
+54	supremo	supremo	NOUN	NOUN	_	50	nsubj	_	TokenRange=284:291
+55	vai	ir	AUX	AUX	_	56	aux	_	TokenRange=292:295
+56	guardar	guardar	VERB	VERB	_	50	parataxis	_	TokenRange=296:303
+57	a	o	DET	DET	_	58	det	_	TokenRange=304:305
+58	constituicao	constituicao	NOUN	NOUN	_	56	obj	_	TokenRange=306:318
+59	e	e	CCONJ	CONJ	_	60	cc	_	TokenRange=319:320
+60	guardar	guardar	VERB	VERB	_	56	conj	_	TokenRange=321:328
+61	voce	_	PRON	PRON	_	60	obj	_	TokenRange=329:333
+62	tambem	tambem	ADV	ADV	_	60	advmod	_	TokenRange=334:340
+63-64	na	_	_	_	_	_	_	_	TokenRange=341:343
+63	em	em	ADP	ADP	_	65	case	_	_
+64	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	papuda	papuda	NOUN	NOUN	_	60	nmod	_	TokenRange=344:350
+66	calheiros	calheiro	NOUN	NOUN	_	67	nsubj	_	TokenRange=351:360
+67	esperneia	_	VERB	VERB	_	50	conj	_	TokenRange=361:370
+68	porque	_	CCONJ	CONJ	_	69	mark	_	TokenRange=371:377
+69	sabe	saber	VERB	VERB	_	67	advcl	_	TokenRange=378:382
+70	que	que	CCONJ	CONJ	_	75	mark	_	TokenRange=383:386
+71	o	o	DET	DET	_	72	det	_	TokenRange=387:388
+72	stf	_	NOUN	NOUN	_	75	nsubj	_	TokenRange=389:392
+73	aparentemente	aparentemente	ADV	ADV	_	75	advmod	_	TokenRange=393:406
+74	esta	_	AUX	AUX	_	75	aux	_	TokenRange=407:411
+75	acordando	acordar	VERB	VERB	_	69	ccomp	_	TokenRange=412:421
+76	de	de	ADP	ADP	_	78	case	_	TokenRange=422:424
+77	um	um	DET	DET	_	78	det	_	TokenRange=425:427
+78	sono	sono	NOUN	NOUN	_	75	nmod	_	TokenRange=428:432
+79	profundo	profundo	ADJ	ADJ	_	78	amod	_	TokenRange=433:441
+80	e	e	CCONJ	CONJ	_	83	cc	_	TokenRange=442:443
+81	comecando	comecar	AUX	AUX	_	83	aux	_	TokenRange=444:453
+82	a	_	ADP	ADP	_	83	mark	_	TokenRange=454:455
+83	agir	agir	VERB	VERB	_	75	conj	_	TokenRange=456:460
+

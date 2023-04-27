@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma convida pablo escobar para compor conselhao do governo o governo acredita que o ator tem um importante trabalho na sociedade e pode contribuir com propostas para o pais dilma decidiu ressucitar o conselhao cuja ultima reuniao havia sido no primeiro semestre de 2014 por dica do vice michel temer tambem foram convidados empresarios e personalidades como abilio diniz luiza trajano e o neurocientista petista miguel exoesqueleto nicolelis o portal g1 confirmou informa que o ator ja teria aceitado o convite
+1	dilma	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	convida	convidar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	pablo	pablo	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	escobar	escobar	NOUN	NOUN	_	3	flat	_	TokenRange=20:27
+5	para	_	ADP	ADP	_	6	mark	_	TokenRange=28:32
+6	compor	compor	VERB	VERB	_	2	advcl	_	TokenRange=33:39
+7	conselhao	conselhao	NOUN	NOUN	_	6	obj	_	TokenRange=40:49
+8-9	do	_	_	_	_	_	_	_	TokenRange=50:52
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	NOUN	_	7	nmod	_	TokenRange=53:60
+11	o	o	DET	DET	_	12	det	_	TokenRange=61:62
+12	governo	governo	NOUN	NOUN	_	13	nsubj	_	TokenRange=63:70
+13	acredita	acreditar	VERB	VERB	_	2	parataxis	_	TokenRange=71:79
+14	que	que	CCONJ	CONJ	_	17	mark	_	TokenRange=80:83
+15	o	o	DET	DET	_	16	det	_	TokenRange=84:85
+16	ator	ator	NOUN	NOUN	_	17	nsubj	_	TokenRange=86:90
+17	tem	ter	VERB	VERB	_	13	ccomp	_	TokenRange=91:94
+18	um	um	DET	DET	_	20	det	_	TokenRange=95:97
+19	importante	importante	ADJ	ADJ	_	20	amod	_	TokenRange=98:108
+20	trabalho	trabalho	NOUN	NOUN	_	17	obj	_	TokenRange=109:117
+21-22	na	_	_	_	_	_	_	_	TokenRange=118:120
+21	em	em	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sociedade	sociedade	NOUN	NOUN	_	20	nmod	_	TokenRange=121:130
+24	e	e	CCONJ	CONJ	_	26	cc	_	TokenRange=131:132
+25	pode	_	AUX	AUX	_	26	aux	_	TokenRange=133:137
+26	contribuir	contribuir	VERB	VERB	_	17	conj	_	TokenRange=138:148
+27	com	com	ADP	ADP	_	28	case	_	TokenRange=149:152
+28	propostas	_	NOUN	NOUN	_	26	nmod	_	TokenRange=153:162
+29	para	para	ADP	ADP	_	31	case	_	TokenRange=163:167
+30	o	o	DET	DET	_	31	det	_	TokenRange=168:169
+31	pais	_	NOUN	NOUN	_	26	nmod	_	TokenRange=170:174
+32	dilma	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=175:180
+33	decidiu	decidir	VERB	VERB	_	13	conj	_	TokenRange=181:188
+34	ressucitar	ressucitar	VERB	VERB	_	33	xcomp	_	TokenRange=189:199
+35	o	o	DET	DET	_	36	det	_	TokenRange=200:201
+36	conselhao	conselhao	NOUN	NOUN	_	34	obj	_	TokenRange=202:211
+37	cuja	_	DET	DET	_	39	det	_	TokenRange=212:216
+38	ultima	_	ADJ	ADJ	_	39	amod	_	TokenRange=217:223
+39	reuniao	reuniao	NOUN	NOUN	_	41	nsubj	_	TokenRange=224:231
+40	havia	haver	AUX	AUX	_	41	aux	_	TokenRange=232:237
+41	sido	ser	VERB	VERB	_	36	acl:relcl	_	TokenRange=238:242
+42-43	no	_	_	_	_	_	_	_	TokenRange=243:245
+42	em	em	ADP	ADP	_	45	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44	primeiro	primeiro	ADJ	ADJ	_	45	amod	_	TokenRange=246:254
+45	semestre	semestre	NOUN	NOUN	_	41	nmod	_	TokenRange=255:263
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=264:266
+47	2014	_	NUM	NUM	NumType=Card	45	nmod	_	TokenRange=267:271
+48	por	por	ADP	ADP	_	49	case	_	TokenRange=272:275
+49	dica	dica	NOUN	NOUN	_	41	nmod	_	TokenRange=276:280
+50-51	do	_	_	_	_	_	_	_	TokenRange=281:283
+50	de	de	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	vice	vice	NOUN	NOUN	_	49	nmod	_	TokenRange=284:288
+53	michel	michel	ADJ	ADJ	_	52	amod	_	TokenRange=289:295
+54	temer	temer	NOUN	NOUN	_	52	flat	_	TokenRange=296:301
+55	tambem	tambem	ADV	ADV	_	57	advmod	_	TokenRange=302:308
+56	foram	_	AUX	AUX	_	57	aux:pass	_	TokenRange=309:314
+57	convidados	convidar	VERB	VERB	_	33	conj	_	TokenRange=315:325
+58	empresarios	empresario	NOUN	NOUN	_	57	nsubj:pass	_	TokenRange=326:337
+59	e	e	CCONJ	CONJ	_	60	cc	_	TokenRange=338:339
+60	personalidades	personalidade	NOUN	NOUN	_	58	conj	_	TokenRange=340:354
+61	como	como	ADP	ADP	_	62	case	_	TokenRange=355:359
+62	abilio	abilio	NOUN	NOUN	_	58	nmod	_	TokenRange=360:366
+63	diniz	diniz	NOUN	NOUN	_	62	flat	_	TokenRange=367:372
+64	luiza	_	NOUN	NOUN	_	62	flat	_	TokenRange=373:378
+65	trajano	trajano	NOUN	NOUN	_	62	flat	_	TokenRange=379:386
+66	e	e	CCONJ	CONJ	_	68	cc	_	TokenRange=387:388
+67	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	TokenRange=389:390
+68	neurocientista	neurocientista	NOUN	NOUN	_	62	conj	_	TokenRange=391:405
+69	petista	petista	ADJ	ADJ	_	68	amod	_	TokenRange=406:413
+70	miguel	miguel	NOUN	NOUN	_	68	appos	_	TokenRange=414:420
+71	exoesqueleto	_	NOUN	NOUN	_	68	appos	_	TokenRange=421:433
+72	nicolelis	_	ADJ	ADJ	_	70	flat	_	TokenRange=434:443
+73	o	o	DET	DET	_	74	det	_	TokenRange=444:445
+74	portal	portal	NOUN	NOUN	_	76	nsubj	_	TokenRange=446:452
+75	g1	_	PROPN	PNOUN	_	74	appos	_	TokenRange=453:455
+76	confirmou	confirmar	VERB	VERB	_	57	conj	_	TokenRange=456:465
+77	informa	informar	VERB	VERB	_	76	ccomp	_	TokenRange=466:473
+78	que	que	CCONJ	CONJ	_	83	mark	_	TokenRange=474:477
+79	o	o	DET	DET	_	80	det	_	TokenRange=478:479
+80	ator	ator	NOUN	NOUN	_	83	nsubj	_	TokenRange=480:484
+81	ja	ja	ADV	ADV	_	83	advmod	_	TokenRange=485:487
+82	teria	ter	AUX	AUX	_	83	aux	_	TokenRange=488:493
+83	aceitado	aceitar	VERB	VERB	_	77	ccomp	_	TokenRange=494:502
+84	o	o	DET	DET	_	85	det	_	TokenRange=503:504
+85	convite	convite	NOUN	NOUN	_	83	obj	_	TokenRange=505:512
+

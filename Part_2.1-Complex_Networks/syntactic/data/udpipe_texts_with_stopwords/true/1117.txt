@@ -1,0 +1,90 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = incidente no metro e o quinto ataque terrorista no reino unido em 2017 relembre os atentados mais recentes no reino unido alerta terrorista segue no patamar grave segundo theresa may a explosao desta sextafeira 15 que deixou 23 feridos no metro de londres e o quinto incidente terrorista registrado no reino unido em 2017 acompanhe em tempo real a primeiraministra britanica theresa may informou nesta que o reino unido mantem
+1	incidente	incidente	NOUN	NOUN	_	16	nsubj	_	TokenRange=0:9
+2-3	no	_	_	_	_	_	_	_	TokenRange=10:12
+2	em	em	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	metro	metro	NOUN	NOUN	_	1	nmod	_	TokenRange=13:18
+5	e	e	CCONJ	CONJ	_	8	cc	_	TokenRange=19:20
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	TokenRange=21:22
+7	quinto	_	ADJ	ADJ	_	8	amod	_	TokenRange=23:29
+8	ataque	ataque	NOUN	NOUN	_	1	conj	_	TokenRange=30:36
+9	terrorista	terrorista	ADJ	ADJ	_	8	amod	_	TokenRange=37:47
+10-11	no	_	_	_	_	_	_	_	TokenRange=48:50
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	reino	reino	NOUN	NOUN	_	8	nmod	_	TokenRange=51:56
+13	unido	unido	ADJ	ADJ	_	12	amod	_	TokenRange=57:62
+14	em	em	ADP	ADP	_	15	case	_	TokenRange=63:65
+15	2017	_	NUM	NUM	NumType=Card	8	nmod	_	TokenRange=66:70
+16	relembre	relembrar	VERB	VERB	_	70	ccomp	_	TokenRange=71:79
+17	os	o	DET	DET	_	18	det	_	TokenRange=80:82
+18	atentados	atentado	NOUN	NOUN	_	16	obj	_	TokenRange=83:92
+19	mais	mais	ADV	ADV	_	20	advmod	_	TokenRange=93:97
+20	recentes	recente	ADJ	ADJ	_	18	amod	_	TokenRange=98:106
+21-22	no	_	_	_	_	_	_	_	TokenRange=107:109
+21	em	em	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	reino	reino	NOUN	NOUN	_	18	nmod	_	TokenRange=110:115
+24	unido	unido	ADJ	ADJ	_	23	amod	_	TokenRange=116:121
+25	alerta	alerta	NOUN	NOUN	_	27	nsubj	_	TokenRange=122:128
+26	terrorista	terrorista	ADJ	ADJ	_	25	amod	_	TokenRange=129:139
+27	segue	_	VERB	VERB	_	18	acl:relcl	_	TokenRange=140:145
+28-29	no	_	_	_	_	_	_	_	TokenRange=146:148
+28	em	em	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	patamar	patamar	NOUN	NOUN	_	27	nmod	_	TokenRange=149:156
+31	grave	grave	ADJ	ADJ	_	30	amod	_	TokenRange=157:162
+32	segundo	_	ADP	ADP	_	33	case	_	TokenRange=163:170
+33	theresa	_	PROPN	PNOUN	_	27	nmod	_	TokenRange=171:178
+34	may	_	PROPN	PNOUN	_	33	flat	_	TokenRange=179:182
+35	a	o	DET	DET	_	36	det	_	TokenRange=183:184
+36	explosao	explosao	NOUN	NOUN	_	27	nsubj	_	TokenRange=185:193
+37	desta	_	ADP	ADP	_	38	case	_	TokenRange=194:199
+38	sextafeira	sextafeira	NOUN	NOUN	_	36	nmod	_	TokenRange=200:210
+39	15	_	NUM	NUM	NumType=Card	38	appos	_	TokenRange=211:213
+40	que	_	PRON	PRON	_	41	nsubj	_	TokenRange=214:217
+41	deixou	deixar	VERB	VERB	_	36	acl:relcl	_	TokenRange=218:224
+42	23	_	NUM	NUM	NumType=Card	43	nummod	_	TokenRange=225:227
+43	feridos	ferido	NOUN	NOUN	_	41	obj	_	TokenRange=228:235
+44-45	no	_	_	_	_	_	_	_	TokenRange=236:238
+44	em	em	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	metro	metro	NOUN	NOUN	_	41	nmod	_	TokenRange=239:244
+47	de	de	ADP	ADP	_	48	case	_	TokenRange=245:247
+48	londres	londr	NOUN	NOUN	_	46	nmod	_	TokenRange=248:255
+49	e	e	CCONJ	CONJ	_	52	cc	_	TokenRange=256:257
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	TokenRange=258:259
+51	quinto	_	ADJ	ADJ	_	52	amod	_	TokenRange=260:266
+52	incidente	incidente	NOUN	NOUN	_	36	conj	_	TokenRange=267:276
+53	terrorista	terrorista	ADJ	ADJ	_	52	amod	_	TokenRange=277:287
+54	registrado	registrar	VERB	VERB	_	52	acl	_	TokenRange=288:298
+55-56	no	_	_	_	_	_	_	_	TokenRange=299:301
+55	em	em	ADP	ADP	_	57	case	_	_
+56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	reino	reino	NOUN	NOUN	_	54	nmod	_	TokenRange=302:307
+58	unido	unido	ADJ	ADJ	_	57	amod	_	TokenRange=308:313
+59	em	em	ADP	ADP	_	60	case	_	TokenRange=314:316
+60	2017	_	NUM	NUM	NumType=Card	54	nmod	_	TokenRange=317:321
+61	acompanhe	acompanhar	VERB	VERB	_	41	conj	_	TokenRange=322:331
+62	em	em	ADP	ADP	_	63	case	_	TokenRange=332:334
+63	tempo	tempo	NOUN	NOUN	_	61	nmod	_	TokenRange=335:340
+64	real	real	ADJ	ADJ	_	63	amod	_	TokenRange=341:345
+65	a	o	DET	DET	_	66	det	_	TokenRange=346:347
+66	primeiraministra	_	NOUN	NOUN	_	76	obj	_	TokenRange=348:364
+67	britanica	britanico	ADJ	ADJ	_	66	amod	_	TokenRange=365:374
+68	theresa	_	PROPN	PNOUN	_	66	appos	_	TokenRange=375:382
+69	may	_	PROPN	PNOUN	_	68	flat	_	TokenRange=383:386
+70	informou	informar	VERB	VERB	_	0	root	_	TokenRange=387:395
+71	nesta	_	ADP	ADP	_	76	mark	_	TokenRange=396:401
+72	que	que	CCONJ	CONJ	_	76	mark	_	TokenRange=402:405
+73	o	o	DET	DET	_	74	det	_	TokenRange=406:407
+74	reino	reino	NOUN	NOUN	_	76	nsubj	_	TokenRange=408:413
+75	unido	unido	ADJ	ADJ	_	74	amod	_	TokenRange=414:419
+76	mantem	mantar	VERB	VERB	_	70	ccomp	_	SpacesAfter=\s\s|TokenRange=420:426
+

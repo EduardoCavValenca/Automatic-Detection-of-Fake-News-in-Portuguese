@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = bovespa fecha em alta nesta quinta com exterior mais calmo depois de fechar a quartafeira 28 com relativa estabilidade indicador
+1	bovespa	bovespa	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	fecha	fechar	VERB	VERB	_	0	root	_	TokenRange=8:13
+3	em	em	ADP	ADP	_	4	case	_	TokenRange=14:16
+4	alta	_	NOUN	NOUN	_	2	nmod	_	TokenRange=17:21
+5	nesta	_	ADP	ADP	_	6	case	_	TokenRange=22:27
+6	quinta	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=28:34
+7	com	com	ADP	ADP	_	8	case	_	TokenRange=35:38
+8	exterior	exterior	NOUN	NOUN	_	2	nmod	_	TokenRange=39:47
+9	mais	mais	ADV	ADV	_	10	advmod	_	TokenRange=48:52
+10	calmo	calmo	ADJ	ADJ	_	8	amod	_	TokenRange=53:58
+11	depois	depois	ADV	ADV	_	13	mark	_	TokenRange=59:65
+12	de	_	ADP	ADP	_	11	fixed	_	TokenRange=66:68
+13	fechar	fechar	VERB	VERB	_	2	advcl	_	TokenRange=69:75
+14	a	o	DET	DET	_	15	det	_	TokenRange=76:77
+15	quartafeira	quartafeira	NOUN	NOUN	_	13	obj	_	TokenRange=78:89
+16	28	_	NUM	NUM	NumType=Card	15	appos	_	TokenRange=90:92
+17	com	com	ADP	ADP	_	19	case	_	TokenRange=93:96
+18	relativa	relativo	ADJ	ADJ	_	19	amod	_	TokenRange=97:105
+19	estabilidade	estabilidade	NOUN	NOUN	_	13	nmod	_	TokenRange=106:118
+20	indicador	indicador	ADJ	ADJ	_	19	amod	_	SpacesAfter=\s\s|TokenRange=119:128
+

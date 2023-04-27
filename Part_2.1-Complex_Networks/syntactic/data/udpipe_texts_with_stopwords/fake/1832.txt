@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = colunista do globo diz que delatores da odebrecht estao sofrendo ameacas de morte apos a primeira bomba lancada pelo exexecutivo da odebrecht claudio melo filho envolvendo 51 politicos e 11 partidos as ameacas comecaram a acontecer uma longa lista com diversos politicos envolvidos em recebimento de propinas seus respectivos apelidos e os valores recebidos foi divulgada em toda a rede a pf tem que cuidar da protecao desses delatores ou eles comecarao a sumir um a um
+1	colunista	colunista	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:9
+2-3	do	_	_	_	_	_	_	_	TokenRange=10:12
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	globo	globo	NOUN	NOUN	_	1	nmod	_	TokenRange=13:18
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=19:22
+6	que	que	CCONJ	CONJ	_	12	mark	_	TokenRange=23:26
+7	delatores	delator	NOUN	NOUN	_	12	nsubj	_	TokenRange=27:36
+8-9	da	_	_	_	_	_	_	_	TokenRange=37:39
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	odebrecht	_	NOUN	NOUN	_	7	nmod	_	TokenRange=40:49
+11	estao	_	AUX	AUX	_	12	aux	_	TokenRange=50:55
+12	sofrendo	sofrer	VERB	VERB	_	5	ccomp	_	TokenRange=56:64
+13	ameacas	ameaca	NOUN	NOUN	_	12	obj	_	TokenRange=65:72
+14	de	de	ADP	ADP	_	15	case	_	TokenRange=73:75
+15	morte	morte	NOUN	NOUN	_	13	nmod	_	TokenRange=76:81
+16	apos	_	ADP	ADP	_	19	case	_	TokenRange=82:86
+17	a	o	DET	DET	_	19	det	_	TokenRange=87:88
+18	primeira	primeiro	ADJ	ADJ	_	19	amod	_	TokenRange=89:97
+19	bomba	bomba	NOUN	NOUN	_	12	nmod	_	TokenRange=98:103
+20	lancada	lancar	VERB	VERB	_	19	acl	_	TokenRange=104:111
+21-22	pelo	_	_	_	_	_	_	_	TokenRange=112:116
+21	por	por	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	exexecutivo	exexecutivo	NOUN	NOUN	_	20	nmod	_	TokenRange=117:128
+24-25	da	_	_	_	_	_	_	_	TokenRange=129:131
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	odebrecht	_	NOUN	NOUN	_	23	nmod	_	TokenRange=132:141
+27	claudio	claudio	NOUN	NOUN	_	20	appos	_	TokenRange=142:149
+28	melo	melo	ADJ	NOUN	_	27	flat	_	TokenRange=150:154
+29	filho	filho	NOUN	NOUN	_	27	flat	_	TokenRange=155:160
+30	envolvendo	envolver	VERB	VERB	_	19	acl	_	TokenRange=161:171
+31	51	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=172:174
+32	politicos	politico	NOUN	NOUN	_	30	obj	_	TokenRange=175:184
+33	e	e	CCONJ	CONJ	_	35	cc	_	TokenRange=185:186
+34	11	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=187:189
+35	partidos	partido	NOUN	NOUN	_	32	conj	_	TokenRange=190:198
+36	as	o	DET	DET	_	37	det	_	TokenRange=199:201
+37	ameacas	ameaca	NOUN	NOUN	_	40	nsubj	_	TokenRange=202:209
+38	comecaram	comecar	AUX	AUX	_	40	aux	_	TokenRange=210:219
+39	a	_	ADP	ADP	_	40	mark	_	TokenRange=220:221
+40	acontecer	acontecer	VERB	VERB	_	5	ccomp	_	TokenRange=222:231
+41	uma	um	DET	DET	_	43	det	_	TokenRange=232:235
+42	longa	longo	ADJ	ADJ	_	43	amod	_	TokenRange=236:241
+43	lista	lista	NOUN	NOUN	_	40	nsubj	_	TokenRange=242:247
+44	com	com	ADP	ADP	_	46	case	_	TokenRange=248:251
+45	diversos	_	DET	DET	_	46	det	_	TokenRange=252:260
+46	politicos	politico	NOUN	NOUN	_	43	nmod	_	TokenRange=261:270
+47	envolvidos	envolver	VERB	VERB	_	46	acl	_	TokenRange=271:281
+48	em	em	ADP	ADP	_	49	case	_	TokenRange=282:284
+49	recebimento	recebimento	NOUN	NOUN	_	47	nmod	_	TokenRange=285:296
+50	de	de	ADP	ADP	_	51	case	_	TokenRange=297:299
+51	propinas	propina	NOUN	NOUN	_	49	nmod	_	TokenRange=300:308
+52	seus	_	DET	DET	_	54	det:poss	_	TokenRange=309:313
+53	respectivos	respectivo	ADJ	ADJ	_	54	amod	_	TokenRange=314:325
+54	apelidos	apelido	NOUN	NOUN	_	51	appos	_	TokenRange=326:334
+55	e	e	CCONJ	CONJ	_	60	cc	_	TokenRange=335:336
+56	os	o	DET	DET	_	57	det	_	TokenRange=337:339
+57	valores	_	NOUN	NOUN	_	60	nsubj:pass	_	TokenRange=340:347
+58	recebidos	receber	VERB	VERB	_	57	acl	_	TokenRange=348:357
+59	foi	_	AUX	AUX	_	60	aux:pass	_	TokenRange=358:361
+60	divulgada	divulgar	VERB	VERB	_	40	conj	_	TokenRange=362:371
+61	em	em	ADP	ADP	_	64	case	_	TokenRange=372:374
+62	toda	_	DET	DET	_	64	det	_	TokenRange=375:379
+63	a	o	DET	DET	_	64	det	_	TokenRange=380:381
+64	rede	rede	NOUN	NOUN	_	60	nmod	_	TokenRange=382:386
+65	a	o	DET	DET	_	66	det	_	TokenRange=387:388
+66	pf	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=389:391
+67	tem	ter	AUX	AUX	_	69	aux	_	TokenRange=392:395
+68	que	que	CCONJ	CONJ	_	69	mark	_	TokenRange=396:399
+69	cuidar	cuidar	VERB	VERB	_	5	ccomp	_	TokenRange=400:406
+70-71	da	_	_	_	_	_	_	_	TokenRange=407:409
+70	de	de	ADP	ADP	_	72	case	_	_
+71	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+72	protecao	protecao	NOUN	NOUN	_	69	nmod	_	TokenRange=410:418
+73	desses	_	ADP	ADP	_	74	case	_	TokenRange=419:425
+74	delatores	delator	NOUN	NOUN	_	72	nmod	_	TokenRange=426:435
+75	ou	ou	CCONJ	CONJ	_	79	cc	_	TokenRange=436:438
+76	eles	_	PRON	PRON	_	79	nsubj	_	TokenRange=439:443
+77	comecarao	comecar	AUX	AUX	_	79	aux	_	TokenRange=444:453
+78	a	_	ADP	ADP	_	79	mark	_	TokenRange=454:455
+79	sumir	sumir	VERB	VERB	_	69	conj	_	TokenRange=456:461
+80	um	_	PRON	PRON	_	79	obj	_	TokenRange=462:464
+81	a	_	ADP	ADP	_	82	case	_	TokenRange=465:466
+82	um	_	PRON	PRON	_	80	nmod	_	TokenRange=467:469
+

@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = perfil de lula no twitter ataca a revista veja central de fake news ainda nao sabemos se o expresidente esta realmente com raiva da revista ou se esse tipo de atitude e mais uma farsa combinada entre ele e a veja pelo twitter o petista condenado voltou a ameacar a midia lula disse que caso ele volte ao poder a midia sera regulada atitude tipica de regimes comunistas confira lula e uma ameaca a liberdade de expressao michel temer tambem
+1	perfil	perfil	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:6
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=7:9
+3	lula	lula	NOUN	NOUN	_	1	nmod	_	TokenRange=10:14
+4-5	no	_	_	_	_	_	_	_	TokenRange=15:17
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	twitter	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=18:25
+7	ataca	atacar	VERB	VERB	_	0	root	_	TokenRange=26:31
+8	a	o	DET	DET	_	9	det	_	TokenRange=32:33
+9	revista	revista	NOUN	NOUN	_	7	obj	_	TokenRange=34:41
+10	veja	veja	NOUN	NOUN	_	9	appos	_	TokenRange=42:46
+11	central	central	ADJ	ADJ	_	10	amod	_	TokenRange=47:54
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=55:57
+13	fake	_	NOUN	NOUN	_	9	nmod	_	TokenRange=58:62
+14	news	_	NOUN	NOUN	_	13	flat	_	TokenRange=63:67
+15	ainda	ainda	ADV	ADV	_	17	advmod	_	TokenRange=68:73
+16	nao	nao	ADV	ADV	Polarity=Neg	17	advmod	_	TokenRange=74:77
+17	sabemos	saber	VERB	VERB	_	7	parataxis	_	TokenRange=78:85
+18	se	_	CCONJ	CONJ	_	21	mark	_	TokenRange=86:88
+19	o	o	DET	DET	_	20	det	_	TokenRange=89:90
+20	expresidente	expresidente	NOUN	NOUN	_	21	nsubj	_	TokenRange=91:103
+21	esta	_	VERB	VERB	_	17	ccomp	_	TokenRange=104:108
+22	realmente	realmente	ADV	ADV	_	21	advmod	_	TokenRange=109:118
+23	com	com	ADP	ADP	_	24	case	_	TokenRange=119:122
+24	raiva	raiva	NOUN	NOUN	_	21	nmod	_	TokenRange=123:128
+25-26	da	_	_	_	_	_	_	_	TokenRange=129:131
+25	de	de	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	revista	revista	NOUN	NOUN	_	24	nmod	_	TokenRange=132:139
+28	ou	ou	CCONJ	CONJ	_	37	cc	_	TokenRange=140:142
+29	se	_	CCONJ	CONJ	_	37	mark	_	TokenRange=143:145
+30	esse	_	DET	DET	_	31	det	_	TokenRange=146:150
+31	tipo	tipo	NOUN	NOUN	_	21	nsubj	_	TokenRange=151:155
+32	de	de	ADP	ADP	_	33	case	_	TokenRange=156:158
+33	atitude	atitude	NOUN	NOUN	_	31	nmod	_	TokenRange=159:166
+34	e	e	CCONJ	CONJ	_	37	cc	_	TokenRange=167:168
+35	mais	mais	ADV	ADV	_	36	advmod	_	TokenRange=169:173
+36	uma	_	NUM	NUM	NumType=Card	37	nummod	_	TokenRange=174:177
+37	farsa	farsa	NOUN	NOUN	_	21	conj	_	TokenRange=178:183
+38	combinada	combinado	ADJ	ADJ	_	37	amod	_	TokenRange=184:193
+39	entre	_	ADP	ADP	_	40	case	_	TokenRange=194:199
+40	ele	_	PRON	PRON	_	37	nmod	_	TokenRange=200:203
+41	e	e	CCONJ	CONJ	_	43	cc	_	TokenRange=204:205
+42	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	TokenRange=206:207
+43	veja	veja	NOUN	NOUN	_	40	conj	_	TokenRange=208:212
+44-45	pelo	_	_	_	_	_	_	_	TokenRange=213:217
+44	por	por	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	twitter	_	PROPN	PNOUN	_	37	nmod	_	TokenRange=218:225
+47	o	o	DET	DET	_	48	det	_	TokenRange=226:227
+48	petista	petista	NOUN	NOUN	_	52	nsubj	_	TokenRange=228:235
+49	condenado	condenado	ADJ	ADJ	_	48	amod	_	TokenRange=236:245
+50	voltou	voltar	AUX	AUX	_	52	aux	_	TokenRange=246:252
+51	a	_	ADP	ADP	_	52	mark	_	TokenRange=253:254
+52	ameacar	ameacar	VERB	VERB	_	7	conj	_	TokenRange=255:262
+53	a	o	DET	DET	_	54	det	_	TokenRange=263:264
+54	midia	midia	NOUN	NOUN	_	52	obj	_	TokenRange=265:270
+55	lula	lula	NOUN	NOUN	_	56	nsubj	_	TokenRange=271:275
+56	disse	dizer	VERB	VERB	_	7	parataxis	_	TokenRange=276:281
+57	que	que	CCONJ	CONJ	_	67	mark	_	TokenRange=282:285
+58	caso	_	CCONJ	CONJ	_	60	mark	_	TokenRange=286:290
+59	ele	_	PRON	PRON	_	60	nsubj	_	TokenRange=291:294
+60	volte	voltar	VERB	VERB	_	67	advcl	_	TokenRange=295:300
+61-62	ao	_	_	_	_	_	_	_	TokenRange=301:303
+61	a	a	ADP	ADP	_	63	case	_	_
+62	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	poder	poder	NOUN	NOUN	_	60	nmod	_	TokenRange=304:309
+64	a	o	DET	DET	_	65	det	_	TokenRange=310:311
+65	midia	midia	NOUN	NOUN	_	60	obj	_	TokenRange=312:317
+66	sera	_	AUX	AUX	_	67	aux:pass	_	TokenRange=318:322
+67	regulada	regular	VERB	VERB	_	56	ccomp	_	TokenRange=323:331
+68	atitude	atitude	NOUN	NOUN	_	67	nsubj:pass	_	TokenRange=332:339
+69	tipica	tipico	ADJ	ADJ	_	68	amod	_	TokenRange=340:346
+70	de	de	ADP	ADP	_	71	case	_	TokenRange=347:349
+71	regimes	regime	NOUN	NOUN	_	68	nmod	_	TokenRange=350:357
+72	comunistas	comunista	ADJ	ADJ	_	71	amod	_	TokenRange=358:368
+73	confira	conferir	VERB	VERB	_	56	ccomp	_	TokenRange=369:376
+74	lula	lula	NOUN	NOUN	_	73	obj	_	TokenRange=377:381
+75	e	e	CCONJ	CONJ	_	77	cc	_	TokenRange=382:383
+76	uma	um	DET	DET	_	77	det	_	TokenRange=384:387
+77	ameaca	ameaca	NOUN	NOUN	_	74	conj	_	TokenRange=388:394
+78	a	_	ADP	ADP	_	79	case	_	TokenRange=395:396
+79	liberdade	liberdade	NOUN	NOUN	_	77	nmod	_	TokenRange=397:406
+80	de	de	ADP	ADP	_	81	case	_	TokenRange=407:409
+81	expressao	expressao	NOUN	NOUN	_	79	nmod	_	TokenRange=410:419
+82	michel	_	PROPN	PNOUN	_	77	appos	_	TokenRange=420:426
+83	temer	temer	PROPN	PNOUN	_	82	flat	_	TokenRange=427:432
+84	tambem	tambem	ADV	ADV	_	73	advmod	_	TokenRange=433:439
+

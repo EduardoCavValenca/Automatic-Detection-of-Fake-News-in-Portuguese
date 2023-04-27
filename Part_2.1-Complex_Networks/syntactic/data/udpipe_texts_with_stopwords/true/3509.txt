@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = como morte de jovem cujo cerebro parecia ser 2 vezes mais velho da pistas sobre doenca degenerativa exame mostrou que aaron hernandez que foi condenado por assassinato e cometeu suicidio sofria de doenca degenerativa comum em atletas mas muito avancada para sua idade colocado sobre uma mesa de laboratorio horas apos a morte de seu dono o cerebro de aaron hernandez tinha uma aparencia saudavel ele era afinal um jogador de futebol americano de apenas
+1	como	_	ADP	ADP	_	2	case	_	TokenRange=0:4
+2	morte	morte	NOUN	NOUN	_	20	nmod	_	TokenRange=5:10
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=11:13
+4	jovem	jovem	NOUN	NOUN	_	2	nmod	_	TokenRange=14:19
+5	cujo	_	DET	DET	_	6	det	_	TokenRange=20:24
+6	cerebro	cerebro	NOUN	NOUN	_	7	nsubj	_	TokenRange=25:32
+7	parecia	parecer	VERB	VERB	_	2	acl:relcl	_	TokenRange=33:40
+8	ser	ser	VERB	VERB	_	7	xcomp	_	TokenRange=41:44
+9	2	_	NUM	NUM	NumType=Card	10	nummod	_	TokenRange=45:46
+10	vezes	vez	NOUN	NOUN	_	12	nmod	_	TokenRange=47:52
+11	mais	mais	ADV	ADV	_	12	advmod	_	TokenRange=53:57
+12	velho	velho	ADJ	ADJ	_	8	xcomp	_	TokenRange=58:63
+13-14	da	_	_	_	_	_	_	_	TokenRange=64:66
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pistas	pista	NOUN	NOUN	_	8	nmod	_	TokenRange=67:73
+16	sobre	_	ADP	ADP	_	17	case	_	TokenRange=74:79
+17	doenca	doenca	NOUN	NOUN	_	15	nmod	_	TokenRange=80:86
+18	degenerativa	degenerativo	ADJ	ADJ	_	17	amod	_	TokenRange=87:99
+19	exame	exame	NOUN	NOUN	_	17	appos	_	TokenRange=100:105
+20	mostrou	mostrar	VERB	VERB	_	0	root	_	TokenRange=106:113
+21	que	que	CCONJ	CONJ	_	32	mark	_	TokenRange=114:117
+22	aaron	_	PROPN	PNOUN	_	32	nsubj	_	TokenRange=118:123
+23	hernandez	_	NOUN	NOUN	_	22	flat	_	TokenRange=124:133
+24	que	_	PRON	PRON	_	26	nsubj:pass	_	TokenRange=134:137
+25	foi	_	AUX	AUX	_	26	aux:pass	_	TokenRange=138:141
+26	condenado	condenar	VERB	VERB	_	22	acl:relcl	_	TokenRange=142:151
+27	por	por	ADP	ADP	_	28	case	_	TokenRange=152:155
+28	assassinato	assassinato	NOUN	NOUN	_	26	nmod	_	TokenRange=156:167
+29	e	e	CCONJ	CONJ	_	30	cc	_	TokenRange=168:169
+30	cometeu	cometer	VERB	VERB	_	26	conj	_	TokenRange=170:177
+31	suicidio	suicidio	NOUN	NOUN	_	30	obj	_	TokenRange=178:186
+32	sofria	sofrer	VERB	VERB	_	20	ccomp	_	TokenRange=187:193
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=194:196
+34	doenca	doenca	NOUN	NOUN	_	32	nmod	_	TokenRange=197:203
+35	degenerativa	degenerativo	ADJ	ADJ	_	34	amod	_	TokenRange=204:216
+36	comum	comum	ADJ	ADJ	_	34	amod	_	TokenRange=217:222
+37	em	em	ADP	ADP	_	38	case	_	TokenRange=223:225
+38	atletas	atleta	NOUN	NOUN	_	32	nmod	_	TokenRange=226:233
+39	mas	mas	CCONJ	CONJ	_	41	cc	_	TokenRange=234:237
+40	muito	muito	ADV	ADV	_	41	advmod	_	TokenRange=238:243
+41	avancada	avancado	ADJ	ADJ	_	34	amod	_	TokenRange=244:252
+42	para	para	ADP	ADP	_	44	case	_	TokenRange=253:257
+43	sua	_	DET	DET	_	44	det:poss	_	TokenRange=258:261
+44	idade	idade	NOUN	NOUN	_	41	nmod	_	TokenRange=262:267
+45	colocado	colocar	VERB	VERB	_	44	acl	_	TokenRange=268:276
+46	sobre	_	ADP	ADP	_	48	case	_	TokenRange=277:282
+47	uma	um	DET	DET	_	48	det	_	TokenRange=283:286
+48	mesa	mesa	NOUN	NOUN	_	45	nmod	_	TokenRange=287:291
+49	de	de	ADP	ADP	_	50	case	_	TokenRange=292:294
+50	laboratorio	laboratorio	NOUN	NOUN	_	48	nmod	_	TokenRange=295:306
+51	horas	hora	NOUN	NOUN	_	54	nmod	_	TokenRange=307:312
+52	apos	_	ADP	ADP	_	54	case	_	TokenRange=313:317
+53	a	o	DET	DET	_	54	det	_	TokenRange=318:319
+54	morte	morte	NOUN	NOUN	_	45	nmod	_	TokenRange=320:325
+55	de	de	ADP	ADP	_	57	case	_	TokenRange=326:328
+56	seu	_	DET	DET	_	57	det:poss	_	TokenRange=329:332
+57	dono	dono	NOUN	NOUN	_	54	nmod	_	TokenRange=333:337
+58	o	o	DET	DET	_	59	det	_	TokenRange=338:339
+59	cerebro	cerebro	NOUN	NOUN	_	63	nsubj	_	TokenRange=340:347
+60	de	de	ADP	ADP	_	61	case	_	TokenRange=348:350
+61	aaron	_	PROPN	PNOUN	_	59	nmod	_	TokenRange=351:356
+62	hernandez	_	PROPN	PNOUN	_	61	flat	_	TokenRange=357:366
+63	tinha	ter	VERB	VERB	_	20	ccomp	_	TokenRange=367:372
+64	uma	um	DET	DET	_	65	det	_	TokenRange=373:376
+65	aparencia	aparencia	NOUN	NOUN	_	63	obj	_	TokenRange=377:386
+66	saudavel	saudavel	ADJ	ADJ	_	65	amod	_	TokenRange=387:395
+67	ele	_	PRON	PRON	_	71	nsubj	_	TokenRange=396:399
+68	era	_	AUX	AUX	_	71	cop	_	TokenRange=400:403
+69	afinal	afinal	ADV	ADV	_	71	advmod	_	TokenRange=404:410
+70	um	um	DET	DET	_	71	det	_	TokenRange=411:413
+71	jogador	jogador	NOUN	NOUN	_	63	parataxis	_	TokenRange=414:421
+72	de	de	ADP	ADP	_	73	case	_	TokenRange=422:424
+73	futebol	futebol	NOUN	NOUN	_	71	nmod	_	TokenRange=425:432
+74	americano	americano	ADJ	ADJ	_	73	amod	_	TokenRange=433:442
+75	de	_	ADP	ADP	_	76	mark	_	TokenRange=443:445
+76	apenas	apenas	ADV	ADV	_	71	advmod	_	SpacesAfter=\s\s|TokenRange=446:452
+

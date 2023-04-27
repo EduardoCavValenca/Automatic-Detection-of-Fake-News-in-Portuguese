@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ministro celso de mello manda recado aos politicos marginais de republica e demagogos durante a posse da ministra carmen lucia como nova presidente do supremo o ministro celso de mello endureceu o discurso em referencia aos politicos brasileiros mello falou em profanadores da republica marginais da republica praticas delituosas organizacoes criminosas enfraquecimento das instituicoes e demagogos todos os caciques da politica estavam la ninguem se mexeu lula cocou o bigode
+1	ministro	ministro	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	celso	celso	ADJ	ADJ	_	1	amod	_	TokenRange=9:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	mello	mello	NOUN	NOUN	_	1	nmod	_	TokenRange=18:23
+5	manda	mandar	VERB	VERB	_	0	root	_	TokenRange=24:29
+6	recado	recado	NOUN	NOUN	_	5	obj	_	TokenRange=30:36
+7-8	aos	_	_	_	_	_	_	_	TokenRange=37:40
+7	a	a	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	politicos	politico	NOUN	NOUN	_	5	iobj	_	TokenRange=41:50
+10	marginais	marginal	ADJ	ADJ	_	9	amod	_	TokenRange=51:60
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=61:63
+12	republica	_	NOUN	NOUN	_	9	nmod	_	TokenRange=64:73
+13	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=74:75
+14	demagogos	demagogo	NOUN	NOUN	_	12	conj	_	TokenRange=76:85
+15	durante	_	ADP	ADP	_	17	case	_	TokenRange=86:93
+16	a	o	DET	DET	_	17	det	_	TokenRange=94:95
+17	posse	posse	NOUN	NOUN	_	5	nmod	_	TokenRange=96:101
+18-19	da	_	_	_	_	_	_	_	TokenRange=102:104
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ministra	_	NOUN	NOUN	_	17	nmod	_	TokenRange=105:113
+21	carmen	_	NOUN	NOUN	_	20	appos	_	TokenRange=114:120
+22	lucia	_	ADJ	ADJ	_	21	flat	_	TokenRange=121:126
+23	como	como	ADP	ADP	_	25	case	_	TokenRange=127:131
+24	nova	novo	ADJ	ADJ	_	25	amod	_	TokenRange=132:136
+25	presidente	presidente	NOUN	NOUN	_	20	nmod	_	TokenRange=137:147
+26-27	do	_	_	_	_	_	_	_	TokenRange=148:150
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	supremo	supremo	NOUN	NOUN	_	25	nmod	_	TokenRange=151:158
+29	o	o	DET	DET	_	30	det	_	TokenRange=159:160
+30	ministro	ministro	NOUN	NOUN	_	34	nsubj	_	TokenRange=161:169
+31	celso	celso	ADJ	ADJ	_	30	appos	_	TokenRange=170:175
+32	de	de	ADP	ADP	_	33	case	_	TokenRange=176:178
+33	mello	mello	NOUN	NOUN	_	31	nmod	_	TokenRange=179:184
+34	endureceu	endurecer	VERB	VERB	_	5	parataxis	_	TokenRange=185:194
+35	o	o	DET	DET	_	36	det	_	TokenRange=195:196
+36	discurso	discurso	NOUN	NOUN	_	34	obj	_	TokenRange=197:205
+37	em	em	ADP	ADP	_	38	case	_	TokenRange=206:208
+38	referencia	referencia	NOUN	NOUN	_	34	nmod	_	TokenRange=209:219
+39-40	aos	_	_	_	_	_	_	_	TokenRange=220:223
+39	a	a	ADP	ADP	_	41	case	_	_
+40	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	politicos	politico	NOUN	NOUN	_	38	nmod	_	TokenRange=224:233
+42	brasileiros	brasileiro	ADJ	ADJ	_	41	amod	_	TokenRange=234:245
+43	mello	mello	PRON	NOUN	_	44	nsubj	_	TokenRange=246:251
+44	falou	falar	VERB	VERB	_	34	parataxis	_	TokenRange=252:257
+45	em	em	ADP	ADP	_	46	case	_	TokenRange=258:260
+46	profanadores	profanador	NOUN	NOUN	_	44	nmod	_	TokenRange=261:273
+47-48	da	_	_	_	_	_	_	_	TokenRange=274:276
+47	de	de	ADP	ADP	_	49	case	_	_
+48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	republica	_	NOUN	NOUN	_	46	nmod	_	TokenRange=277:286
+50	marginais	marginal	ADJ	ADJ	_	46	amod	_	TokenRange=287:296
+51-52	da	_	_	_	_	_	_	_	TokenRange=297:299
+51	de	de	ADP	ADP	_	53	case	_	_
+52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	republica	_	NOUN	NOUN	_	46	nmod	_	TokenRange=300:309
+54	praticas	_	ADJ	ADJ	_	44	xcomp	_	TokenRange=310:318
+55	delituosas	delituoso	ADJ	ADJ	_	56	amod	_	TokenRange=319:329
+56	organizacoes	organizacoe	NOUN	NOUN	_	44	obj	_	TokenRange=330:342
+57	criminosas	criminoso	ADJ	ADJ	_	56	amod	_	TokenRange=343:353
+58	enfraquecimento	enfraquecimento	NOUN	NOUN	_	56	appos	_	TokenRange=354:369
+59-60	das	_	_	_	_	_	_	_	TokenRange=370:373
+59	de	de	ADP	ADP	_	61	case	_	_
+60	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	61	det	_	_
+61	instituicoes	instituicoe	NOUN	NOUN	_	58	nmod	_	TokenRange=374:386
+62	e	e	CCONJ	CONJ	_	63	cc	_	TokenRange=387:388
+63	demagogos	demagogo	NOUN	NOUN	_	61	conj	_	TokenRange=389:398
+64	todos	_	DET	DET	_	66	det	_	TokenRange=399:404
+65	os	o	DET	DET	_	66	det	_	TokenRange=405:407
+66	caciques	cacique	NOUN	NOUN	_	70	nsubj	_	TokenRange=408:416
+67-68	da	_	_	_	_	_	_	_	TokenRange=417:419
+67	de	de	ADP	ADP	_	69	case	_	_
+68	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	politica	_	NOUN	NOUN	_	66	nmod	_	TokenRange=420:428
+70	estavam	estar	VERB	VERB	_	44	parataxis	_	TokenRange=429:436
+71	la	_	PRON	PRON	_	70	nsubj	_	TokenRange=437:439
+72	ninguem	_	PRON	PRON	_	74	nsubj	_	TokenRange=440:447
+73	se	_	PRON	PRON	_	74	obj	_	TokenRange=448:450
+74	mexeu	mexer	VERB	VERB	_	70	csubj	_	TokenRange=451:456
+75	lula	_	NOUN	NOUN	_	74	obj	_	TokenRange=457:461
+76	cocou	cocar	VERB	VERB	_	70	ccomp	_	TokenRange=462:467
+77	o	o	DET	DET	_	78	det	_	TokenRange=468:469
+78	bigode	bigode	NOUN	NOUN	_	76	obj	_	TokenRange=470:476
+

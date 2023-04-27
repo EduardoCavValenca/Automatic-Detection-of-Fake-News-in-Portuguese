@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = reporter da globo news se revolta com fala de donald trump e solta ao vivo pqp carolina cimenti reporter da globo news nao se conformou com uma fala de donald trump e soltou o verbo a correspondente internacional nao percebeu que estava ao vivo colocou as maos no rosto e desabafou pqp valeu carolina voce tem toda razao por estar indignada
+1	reporter	reporter	NOUN	NOUN	_	7	nsubj	_	TokenRange=0:8
+2-3	da	_	_	_	_	_	_	_	TokenRange=9:11
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	globo	globo	NOUN	NOUN	_	1	nmod	_	TokenRange=12:17
+5	news	_	NOUN	NOUN	_	4	flat	_	TokenRange=18:22
+6	se	_	PRON	PRON	_	7	obj	_	TokenRange=23:25
+7	revolta	revoltar	VERB	VERB	_	0	root	_	TokenRange=26:33
+8	com	com	ADP	ADP	_	9	case	_	TokenRange=34:37
+9	fala	_	NOUN	NOUN	_	7	nmod	_	TokenRange=38:42
+10	de	de	ADP	ADP	_	11	case	_	TokenRange=43:45
+11	donald	donald	NOUN	NOUN	_	9	nmod	_	TokenRange=46:52
+12	trump	trump	NOUN	NOUN	_	11	flat	_	TokenRange=53:58
+13	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=59:60
+14	solta	soltar	VERB	VERB	_	7	conj	_	TokenRange=61:66
+15-16	ao	_	_	_	_	_	_	_	TokenRange=67:69
+15	a	a	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	vivo	vivo	NOUN	NOUN	_	14	nmod	_	TokenRange=70:74
+18	pqp	pqp	NOUN	NOUN	_	28	nsubj	_	TokenRange=75:78
+19	carolina	_	NOUN	NOUN	_	28	nsubj	_	TokenRange=79:87
+20	cimenti	cimenti	NOUN	NOUN	_	19	flat	_	TokenRange=88:95
+21	reporter	reporter	NOUN	NOUN	_	19	appos	_	TokenRange=96:104
+22-23	da	_	_	_	_	_	_	_	TokenRange=105:107
+22	de	de	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	globo	globo	NOUN	NOUN	_	21	nmod	_	TokenRange=108:113
+25	news	_	NOUN	NOUN	_	24	flat	_	TokenRange=114:118
+26	nao	nao	ADV	ADV	Polarity=Neg	28	advmod	_	TokenRange=119:122
+27	se	_	PRON	PRON	_	28	obj	_	TokenRange=123:125
+28	conformou	conformar	VERB	VERB	_	7	conj	_	TokenRange=126:135
+29	com	com	ADP	ADP	_	31	case	_	TokenRange=136:139
+30	uma	um	DET	DET	_	31	det	_	TokenRange=140:143
+31	fala	_	NOUN	NOUN	_	28	nmod	_	TokenRange=144:148
+32	de	de	ADP	ADP	_	33	case	_	TokenRange=149:151
+33	donald	donald	NOUN	NOUN	_	31	nmod	_	TokenRange=152:158
+34	trump	_	NOUN	NOUN	_	33	flat	_	TokenRange=159:164
+35	e	e	CCONJ	CONJ	_	36	cc	_	TokenRange=165:166
+36	soltou	soltar	VERB	VERB	_	28	conj	_	TokenRange=167:173
+37	o	o	DET	DET	_	38	det	_	TokenRange=174:175
+38	verbo	verbo	NOUN	NOUN	_	36	obj	_	TokenRange=176:181
+39	a	o	DET	DET	_	40	det	_	TokenRange=182:183
+40	correspondente	correspondente	NOUN	NOUN	_	36	nsubj	_	TokenRange=184:198
+41	internacional	internacional	ADJ	ADJ	_	40	amod	_	TokenRange=199:212
+42	nao	nao	ADV	ADV	Polarity=Neg	43	advmod	_	TokenRange=213:216
+43	percebeu	perceber	VERB	VERB	_	36	conj	_	TokenRange=217:225
+44	que	que	CCONJ	CONJ	_	45	mark	_	TokenRange=226:229
+45	estava	estar	VERB	VERB	_	43	ccomp	_	TokenRange=230:236
+46-47	ao	_	_	_	_	_	_	_	TokenRange=237:239
+46	a	a	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	vivo	vivo	NOUN	NOUN	_	45	nmod	_	TokenRange=240:244
+49	colocou	colocar	VERB	VERB	_	43	ccomp	_	TokenRange=245:252
+50	as	o	DET	DET	_	51	det	_	TokenRange=253:255
+51	maos	mao	NOUN	NOUN	_	49	obj	_	TokenRange=256:260
+52-53	no	_	_	_	_	_	_	_	TokenRange=261:263
+52	em	em	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	rosto	rosto	NOUN	NOUN	_	49	nmod	_	TokenRange=264:269
+55	e	e	CCONJ	CONJ	_	56	cc	_	TokenRange=270:271
+56	desabafou	desabafar	VERB	VERB	_	49	conj	_	TokenRange=272:281
+57	pqp	_	NOUN	NOUN	_	56	obj	_	TokenRange=282:285
+58	valeu	valer	VERB	VERB	_	61	conj	_	TokenRange=286:291
+59	carolina	_	NOUN	NOUN	_	61	obj	_	TokenRange=292:300
+60	voce	_	PRON	PRON	_	61	nsubj	_	TokenRange=301:305
+61	tem	ter	VERB	VERB	_	43	conj	_	TokenRange=306:309
+62	toda	_	DET	DET	_	63	det	_	TokenRange=310:314
+63	razao	razao	NOUN	NOUN	_	61	obj	_	TokenRange=315:320
+64	por	_	ADP	ADP	_	65	mark	_	TokenRange=321:324
+65	estar	estar	VERB	VERB	_	61	advcl	_	TokenRange=325:330
+66	indignada	indignado	ADJ	ADJ	_	65	xcomp	_	TokenRange=331:340
+

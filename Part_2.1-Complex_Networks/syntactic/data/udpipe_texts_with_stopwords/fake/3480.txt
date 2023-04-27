@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = advogada americana se diz embaixadora de jesus e quer processar todos os gays do mundo caso rejeitado no dia 1 de maio de 2015 a norteamericana sylvia ann driskell entrou com uma acao manuscrita de 7 paginas na corte de omaha em nebraska eua contra todos os homossexuais do mundo o juiz john m gerrard rejeitou o processo abaixo um trecho do memorando do juiz expedido no dia 06 de maio de 2015
+1	advogada	advogado	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:8
+2	americana	americano	ADJ	ADJ	_	1	amod	_	TokenRange=9:18
+3	se	_	PRON	PRON	_	5	expl:pv	_	TokenRange=19:21
+4	diz	dizer	AUX	AUX	_	5	cop	_	TokenRange=22:25
+5	embaixadora	embaixador	NOUN	NOUN	_	0	root	_	TokenRange=26:37
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=38:40
+7	jesus	jesus	NOUN	NOUN	_	5	nmod	_	TokenRange=41:46
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=47:48
+9	quer	querer	VERB	VERB	_	5	conj	_	TokenRange=49:53
+10	processar	processar	VERB	VERB	_	9	xcomp	_	TokenRange=54:63
+11	todos	_	DET	DET	_	13	det	_	TokenRange=64:69
+12	os	o	DET	DET	_	13	det	_	TokenRange=70:72
+13	gays	gay	NOUN	NOUN	_	10	obj	_	TokenRange=73:77
+14-15	do	_	_	_	_	_	_	_	TokenRange=78:80
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mundo	mundo	NOUN	NOUN	_	13	nmod	_	TokenRange=81:86
+17	caso	caso	NOUN	NOUN	_	10	obj	_	TokenRange=87:91
+18	rejeitado	rejeitar	VERB	VERB	_	17	acl	_	TokenRange=92:101
+19-20	no	_	_	_	_	_	_	_	TokenRange=102:104
+19	em	em	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	dia	dia	NOUN	NOUN	_	18	nmod	_	TokenRange=105:108
+22	1	_	NUM	NUM	NumType=Card	21	nmod	_	TokenRange=109:110
+23	de	de	ADP	ADP	_	24	case	_	TokenRange=111:113
+24	maio	_	PROPN	PNOUN	_	22	nmod	_	TokenRange=114:118
+25	de	de	ADP	ADP	_	26	case	_	TokenRange=119:121
+26	2015	_	NUM	NUM	NumType=Card	24	nmod	_	TokenRange=122:126
+27	a	o	DET	DET	_	28	det	_	TokenRange=127:128
+28	norteamericana	_	NOUN	NOUN	_	32	nsubj	_	TokenRange=129:143
+29	sylvia	sylvio	NOUN	NOUN	_	28	appos	_	TokenRange=144:150
+30	ann	_	NOUN	NOUN	_	29	flat	_	TokenRange=151:154
+31	driskell	_	NOUN	NOUN	_	29	flat	_	TokenRange=155:163
+32	entrou	entrar	VERB	VERB	_	5	conj	_	TokenRange=164:170
+33	com	com	ADP	ADP	_	35	case	_	TokenRange=171:174
+34	uma	um	DET	DET	_	35	det	_	TokenRange=175:178
+35	acao	acao	NOUN	NOUN	_	32	nmod	_	TokenRange=179:183
+36	manuscrita	manuscrito	ADJ	ADJ	_	35	amod	_	TokenRange=184:194
+37	de	de	ADP	ADP	_	39	case	_	TokenRange=195:197
+38	7	_	NUM	NUM	NumType=Card	39	nummod	_	TokenRange=198:199
+39	paginas	pagina	NOUN	NOUN	_	35	nmod	_	TokenRange=200:207
+40-41	na	_	_	_	_	_	_	_	TokenRange=208:210
+40	em	em	ADP	ADP	_	42	case	_	_
+41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	corte	corte	NOUN	NOUN	_	32	nmod	_	TokenRange=211:216
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=217:219
+44	omaha	omaha	NOUN	NOUN	_	42	nmod	_	TokenRange=220:225
+45	em	em	ADP	ADP	_	46	case	_	TokenRange=226:228
+46	nebraska	nebraska	NOUN	NOUN	_	42	nmod	_	TokenRange=229:237
+47	eua	_	PRON	PRON	_	32	parataxis	_	TokenRange=238:241
+48	contra	_	ADP	ADP	_	51	case	_	TokenRange=242:248
+49	todos	_	DET	DET	_	51	det	_	TokenRange=249:254
+50	os	o	DET	DET	_	51	det	_	TokenRange=255:257
+51	homossexuais	homossexual	NOUN	NOUN	_	32	nmod	_	TokenRange=258:270
+52-53	do	_	_	_	_	_	_	_	TokenRange=271:273
+52	de	de	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	mundo	mundo	NOUN	NOUN	_	51	nmod	_	TokenRange=274:279
+55	o	o	DET	DET	_	56	det	_	TokenRange=280:281
+56	juiz	juiz	NOUN	NOUN	_	60	nsubj	_	TokenRange=282:286
+57	john	_	NOUN	NOUN	_	56	appos	_	TokenRange=287:291
+58	m	_	NOUN	NOUN	_	57	flat	_	TokenRange=292:293
+59	gerrard	_	PROPN	PNOUN	_	57	flat	_	TokenRange=294:301
+60	rejeitou	rejeitar	VERB	VERB	_	5	conj	_	TokenRange=302:310
+61	o	o	DET	DET	_	62	det	_	TokenRange=311:312
+62	processo	processo	NOUN	NOUN	_	60	obj	_	TokenRange=313:321
+63	abaixo	abaixo	ADV	ADV	_	60	advmod	_	TokenRange=322:328
+64	um	um	DET	DET	_	65	det	_	TokenRange=329:331
+65	trecho	trecho	NOUN	NOUN	_	60	obj	_	TokenRange=332:338
+66-67	do	_	_	_	_	_	_	_	TokenRange=339:341
+66	de	de	ADP	ADP	_	68	case	_	_
+67	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+68	memorando	memorando	NOUN	NOUN	_	65	nmod	_	TokenRange=342:351
+69-70	do	_	_	_	_	_	_	_	TokenRange=352:354
+69	de	de	ADP	ADP	_	71	case	_	_
+70	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+71	juiz	juiz	NOUN	NOUN	_	68	nmod	_	TokenRange=355:359
+72	expedido	expedir	VERB	VERB	_	68	acl	_	TokenRange=360:368
+73-74	no	_	_	_	_	_	_	_	TokenRange=369:371
+73	em	em	ADP	ADP	_	75	case	_	_
+74	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
+75	dia	dia	NOUN	NOUN	_	72	nmod	_	TokenRange=372:375
+76	06	_	NUM	NUM	NumType=Card	75	nmod	_	TokenRange=376:378
+77	de	de	ADP	ADP	_	78	case	_	TokenRange=379:381
+78	maio	_	PROPN	PNOUN	_	76	nmod	_	TokenRange=382:386
+79	de	de	ADP	ADP	_	80	case	_	TokenRange=387:389
+80	2015	_	NUM	NUM	NumType=Card	78	nmod	_	TokenRange=390:394
+

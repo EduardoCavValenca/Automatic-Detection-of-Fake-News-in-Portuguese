@@ -1,0 +1,33 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = medico de hospital publico chora durante entrevista e comove o pais nao temos dinheiro pra nada vejam a que ponto chegamos no brasil
+1	medico	medico	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:6
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=7:9
+3	hospital	hospital	NOUN	NOUN	_	1	nmod	_	TokenRange=10:18
+4	publico	_	ADJ	ADJ	_	1	amod	_	TokenRange=19:26
+5	chora	chorar	VERB	VERB	_	0	root	_	TokenRange=27:32
+6	durante	_	ADP	ADP	_	7	case	_	TokenRange=33:40
+7	entrevista	entrevista	NOUN	NOUN	_	5	nmod	_	TokenRange=41:51
+8	e	e	CCONJ	CONJ	_	9	cc	_	TokenRange=52:53
+9	comove	comover	VERB	VERB	_	5	conj	_	TokenRange=54:60
+10	o	o	DET	DET	_	11	det	_	TokenRange=61:62
+11	pais	_	NOUN	NOUN	_	9	obj	_	TokenRange=63:67
+12	nao	nao	ADV	ADV	Polarity=Neg	13	advmod	_	TokenRange=68:71
+13	temos	ter	VERB	VERB	_	5	conj	_	TokenRange=72:77
+14	dinheiro	dinheiro	NOUN	NOUN	_	13	obj	_	TokenRange=78:86
+15	pra	_	ADP	ADP	_	16	case	_	TokenRange=87:90
+16	nada	_	PRON	PRON	_	17	nmod	_	TokenRange=91:95
+17	vejam	vejar	VERB	VERB	_	13	parataxis	_	TokenRange=96:101
+18	a	_	ADP	ADP	_	20	case	_	TokenRange=102:103
+19	que	_	DET	DET	_	20	det	_	TokenRange=104:107
+20	ponto	ponto	NOUN	NOUN	_	21	nmod	_	TokenRange=108:113
+21	chegamos	chegar	VERB	VERB	_	17	ccomp	_	TokenRange=114:122
+22-23	no	_	_	_	_	_	_	_	TokenRange=123:125
+22	em	em	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	brasil	brasil	NOUN	NOUN	_	21	nmod	_	SpacesAfter=\s\s|TokenRange=126:132
+

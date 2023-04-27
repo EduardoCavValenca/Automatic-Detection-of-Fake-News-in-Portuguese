@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = amizade mentiras raiva veja os trechos em que lula falou sobre o exministro palocci expresidente reservou parte do depoimento para falar sobre o relacionamento que tinha com o politico que ocupou os ministerios da fazenda e da casa civil em governos petistas
+1	amizade	amizade	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:7
+2	mentiras	mentiro	ADJ	ADJ	_	1	amod	_	TokenRange=8:16
+3	raiva	raiva	NOUN	NOUN	_	1	appos	_	TokenRange=17:22
+4	veja	ver	VERB	VERB	_	0	root	_	TokenRange=23:27
+5	os	o	DET	DET	_	6	det	_	TokenRange=28:30
+6	trechos	trecho	NOUN	NOUN	_	4	obj	_	TokenRange=31:38
+7	em	em	ADP	ADP	_	8	case	_	TokenRange=39:41
+8	que	_	PRON	PRON	_	10	nmod	_	TokenRange=42:45
+9	lula	_	NOUN	NOUN	_	10	nsubj	_	TokenRange=46:50
+10	falou	falar	VERB	VERB	_	6	acl:relcl	_	TokenRange=51:56
+11	sobre	_	ADP	ADP	_	13	case	_	TokenRange=57:62
+12	o	o	DET	DET	_	13	det	_	TokenRange=63:64
+13	exministro	exministro	NOUN	NOUN	_	10	nmod	_	TokenRange=65:75
+14	palocci	_	ADJ	ADJ	_	13	appos	_	TokenRange=76:83
+15	expresidente	expresidente	NOUN	NOUN	_	13	appos	_	TokenRange=84:96
+16	reservou	reservar	VERB	VERB	_	6	acl:relcl	_	TokenRange=97:105
+17	parte	parte	NOUN	NOUN	_	16	obj	_	TokenRange=106:111
+18-19	do	_	_	_	_	_	_	_	TokenRange=112:114
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	depoimento	depoimento	NOUN	NOUN	_	17	nmod	_	TokenRange=115:125
+21	para	_	ADP	ADP	_	22	mark	_	TokenRange=126:130
+22	falar	falar	VERB	VERB	_	16	advcl	_	TokenRange=131:136
+23	sobre	_	ADP	ADP	_	25	case	_	TokenRange=137:142
+24	o	o	DET	DET	_	25	det	_	TokenRange=143:144
+25	relacionamento	relacionamento	NOUN	NOUN	_	22	nmod	_	TokenRange=145:159
+26	que	_	PRON	PRON	_	27	obj	_	TokenRange=160:163
+27	tinha	ter	VERB	VERB	_	25	acl:relcl	_	TokenRange=164:169
+28	com	com	ADP	ADP	_	30	case	_	TokenRange=170:173
+29	o	o	DET	DET	_	30	det	_	TokenRange=174:175
+30	politico	politico	NOUN	NOUN	_	27	nmod	_	TokenRange=176:184
+31	que	_	PRON	PRON	_	32	nsubj	_	TokenRange=185:188
+32	ocupou	ocupar	VERB	VERB	_	30	acl:relcl	_	TokenRange=189:195
+33	os	o	DET	DET	_	34	det	_	TokenRange=196:198
+34	ministerios	ministerio	NOUN	NOUN	_	32	obj	_	TokenRange=199:210
+35-36	da	_	_	_	_	_	_	_	TokenRange=211:213
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	fazenda	fazenda	NOUN	NOUN	_	34	nmod	_	TokenRange=214:221
+38	e	e	CCONJ	CONJ	_	41	cc	_	TokenRange=222:223
+39-40	da	_	_	_	_	_	_	_	TokenRange=224:226
+39	de	de	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	casa	casa	NOUN	NOUN	_	37	conj	_	TokenRange=227:231
+42	civil	civil	ADJ	ADJ	_	41	amod	_	TokenRange=232:237
+43	em	em	ADP	ADP	_	44	case	_	TokenRange=238:240
+44	governos	governo	NOUN	NOUN	_	32	nmod	_	TokenRange=241:249
+45	petistas	petista	ADJ	ADJ	_	44	amod	_	SpacesAfter=\s\s|TokenRange=250:258
+

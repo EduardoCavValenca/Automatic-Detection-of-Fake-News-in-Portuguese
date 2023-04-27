@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = procurado pela operacao torrentes se apresenta a policia federal no recife daniel pereira da costa lucas foi ate a sede da corporacao nesta quarta 22 operacao investiga fraudes em acoes de reconstrucao de cidades castigadas pelas chuvas na zona da mata
+1	procurado	procurar	VERB	VERB	_	7	acl	_	TokenRange=0:9
+2-3	pela	_	_	_	_	_	_	_	TokenRange=10:14
+2	por	por	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	operacao	operacao	NOUN	NOUN	_	1	nmod	_	TokenRange=15:23
+5	torrentes	torrente	NOUN	NOUN	_	4	amod	_	TokenRange=24:33
+6	se	_	PRON	PRON	_	7	obj	_	TokenRange=34:36
+7	apresenta	apresentar	VERB	VERB	_	0	root	_	TokenRange=37:46
+8	a	_	ADP	ADP	_	9	case	_	TokenRange=47:48
+9	policia	policia	NOUN	NOUN	_	7	nmod	_	TokenRange=49:56
+10	federal	federal	ADJ	ADJ	_	9	amod	_	TokenRange=57:64
+11-12	no	_	_	_	_	_	_	_	TokenRange=65:67
+11	em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	recife	recife	NOUN	NOUN	_	7	nmod	_	TokenRange=68:74
+14	daniel	daniel	NOUN	NOUN	_	20	nsubj	_	TokenRange=75:81
+15	pereira	_	NOUN	NOUN	_	14	flat	_	TokenRange=82:89
+16-17	da	_	_	_	_	_	_	_	TokenRange=90:92
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	costa	costa	NOUN	NOUN	_	14	nmod	_	TokenRange=93:98
+19	lucas	luco	ADJ	ADJ	_	18	amod	_	TokenRange=99:104
+20	foi	_	VERB	VERB	_	7	conj	_	TokenRange=105:108
+21	ate	_	ADP	ADP	_	23	case	_	TokenRange=109:112
+22	a	o	DET	DET	_	23	det	_	TokenRange=113:114
+23	sede	sede	NOUN	NOUN	_	20	nmod	_	TokenRange=115:119
+24-25	da	_	_	_	_	_	_	_	TokenRange=120:122
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	corporacao	corporacao	NOUN	NOUN	_	23	nmod	_	TokenRange=123:133
+27	nesta	_	ADP	ADP	_	30	case	_	TokenRange=134:139
+28	quarta	_	PROPN	PNOUN	_	30	amod	_	TokenRange=140:146
+29	22	_	NUM	NUM	NumType=Card	30	nummod	_	TokenRange=147:149
+30	operacao	operacao	NOUN	NOUN	_	20	nmod	_	TokenRange=150:158
+31	investiga	investigar	VERB	VERB	_	20	parataxis	_	TokenRange=159:168
+32	fraudes	fraude	NOUN	NOUN	_	31	obj	_	TokenRange=169:176
+33	em	em	ADP	ADP	_	34	case	_	TokenRange=177:179
+34	acoes	acoe	NOUN	NOUN	_	32	nmod	_	TokenRange=180:185
+35	de	de	ADP	ADP	_	36	case	_	TokenRange=186:188
+36	reconstrucao	reconstrucao	NOUN	NOUN	_	34	nmod	_	TokenRange=189:201
+37	de	de	ADP	ADP	_	38	case	_	TokenRange=202:204
+38	cidades	cidade	NOUN	NOUN	_	36	nmod	_	TokenRange=205:212
+39	castigadas	castigar	VERB	VERB	_	38	acl	_	TokenRange=213:223
+40-41	pelas	_	_	_	_	_	_	_	TokenRange=224:229
+40	por	por	ADP	ADP	_	42	case	_	_
+41	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	chuvas	chuva	NOUN	NOUN	_	39	nmod	_	TokenRange=230:236
+43-44	na	_	_	_	_	_	_	_	TokenRange=237:239
+43	em	em	ADP	ADP	_	45	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	zona	zona	NOUN	NOUN	_	39	nmod	_	TokenRange=240:244
+46-47	da	_	_	_	_	_	_	_	TokenRange=245:247
+46	de	de	ADP	ADP	_	48	case	_	_
+47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	mata	mata	NOUN	NOUN	_	45	nmod	_	SpacesAfter=\s\s|TokenRange=248:252
+

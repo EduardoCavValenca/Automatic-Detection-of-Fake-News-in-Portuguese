@@ -1,0 +1,17 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = senhor x e transferido para o xilindro bangu 9
+1	senhor	senhor	NOUN	NOUN	_	0	root	_	TokenRange=0:6
+2	x	_	NUM	NUM	_	1	appos	_	TokenRange=7:8
+3	e	e	CCONJ	CONJ	_	4	cc	_	TokenRange=9:10
+4	transferido	transferir	VERB	VERB	_	1	conj	_	TokenRange=11:22
+5	para	para	ADP	ADP	_	7	case	_	TokenRange=23:27
+6	o	o	DET	DET	_	7	det	_	TokenRange=28:29
+7	xilindro	xilindro	NOUN	NOUN	_	4	nmod	_	TokenRange=30:38
+8	bangu	_	NOUN	NOUN	_	7	appos	_	TokenRange=39:44
+9	9	_	NUM	NUM	NumType=Card	8	appos	_	SpacesAfter=\s\s|TokenRange=45:46
+

@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = divulgada a segunda lista de janot com nomes de 22 politicos
+1	divulgada	divulgar	VERB	VERB	_	0	root	_	TokenRange=0:9
+2	a	o	DET	DET	_	4	det	_	TokenRange=10:11
+3	segunda	segundo	ADJ	ADJ	_	4	amod	_	TokenRange=12:19
+4	lista	lista	NOUN	NOUN	_	1	nsubj	_	TokenRange=20:25
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=26:28
+6	janot	_	NOUN	NOUN	_	4	nmod	_	TokenRange=29:34
+7	com	com	ADP	ADP	_	8	case	_	TokenRange=35:38
+8	nomes	nome	NOUN	NOUN	_	4	nmod	_	TokenRange=39:44
+9	de	de	ADP	ADP	_	11	case	_	TokenRange=45:47
+10	22	_	NUM	NUM	NumType=Card	11	nummod	_	TokenRange=48:50
+11	politicos	politico	NOUN	NOUN	_	8	nmod	_	SpacesAfter=\s\s|TokenRange=51:60
+

@@ -1,0 +1,23 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = presidente interino do psdb defende que aecio renuncie a presidencia do
+1	presidente	presidente	NOUN	NOUN	_	6	nsubj	_	TokenRange=0:10
+2	interino	interino	ADJ	ADJ	_	1	amod	_	TokenRange=11:19
+3-4	do	_	_	_	_	_	_	_	TokenRange=20:22
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	psdb	_	PROPN	PNOUN	_	1	nmod	_	TokenRange=23:27
+6	defende	defender	VERB	VERB	_	0	root	_	TokenRange=28:35
+7	que	que	CCONJ	CONJ	_	9	mark	_	TokenRange=36:39
+8	aecio	_	PROPN	PNOUN	_	9	nsubj	_	TokenRange=40:45
+9	renuncie	renunciar	VERB	VERB	_	6	ccomp	_	TokenRange=46:54
+10	a	o	DET	DET	_	11	det	_	TokenRange=55:56
+11	presidencia	presidencia	NOUN	NOUN	_	9	obj	_	TokenRange=57:68
+12-13	do	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=69:71
+12	de	de	ADP	ADP	_	5	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+

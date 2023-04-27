@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = golpista se passa por diacono para pedir dinheiro a catolicos de suzano padre da paroquia santa helena pede que devotos tenham cuidado suspeitos chegam as casas sabendo nomes das vitimas golpistas estao se passando por diaconos em suzano para pedir dinheiro aos
+1	golpista	golpista	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:8
+2	se	_	PRON	PRON	_	3	expl:pv	_	TokenRange=9:11
+3	passa	passar	VERB	VERB	_	0	root	_	TokenRange=12:17
+4	por	por	ADP	ADP	_	5	case	_	TokenRange=18:21
+5	diacono	diacono	NOUN	NOUN	_	3	nmod	_	TokenRange=22:29
+6	para	_	ADP	ADP	_	7	mark	_	TokenRange=30:34
+7	pedir	pedir	VERB	VERB	_	3	advcl	_	TokenRange=35:40
+8	dinheiro	dinheiro	NOUN	NOUN	_	7	obj	_	TokenRange=41:49
+9	a	_	ADP	ADP	_	10	case	_	TokenRange=50:51
+10	catolicos	_	NOUN	NOUN	_	7	iobj	_	TokenRange=52:61
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=62:64
+12	suzano	suzano	NOUN	NOUN	_	10	nmod	_	TokenRange=65:71
+13	padre	padre	NOUN	NOUN	_	19	nsubj	_	TokenRange=72:77
+14-15	da	_	_	_	_	_	_	_	TokenRange=78:80
+14	de	de	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	paroquia	paroquia	NOUN	NOUN	_	13	nmod	_	TokenRange=81:89
+17	santa	santo	ADJ	ADJ	_	16	amod	_	TokenRange=90:95
+18	helena	helena	NOUN	NOUN	_	16	appos	_	TokenRange=96:102
+19	pede	pedir	VERB	VERB	_	3	parataxis	_	TokenRange=103:107
+20	que	que	CCONJ	CONJ	_	22	mark	_	TokenRange=108:111
+21	devotos	devoto	NOUN	NOUN	_	22	nsubj	_	TokenRange=112:119
+22	tenham	ter	VERB	VERB	_	19	ccomp	_	TokenRange=120:126
+23	cuidado	cuidado	NOUN	NOUN	_	22	obj	_	TokenRange=127:134
+24	suspeitos	suspeito	ADJ	ADJ	_	23	amod	_	TokenRange=135:144
+25	chegam	chegar	VERB	VERB	_	19	ccomp	_	TokenRange=145:151
+26	as	o	DET	DET	_	27	det	_	TokenRange=152:154
+27	casas	casa	NOUN	NOUN	_	25	obj	_	TokenRange=155:160
+28	sabendo	saber	VERB	VERB	_	25	acl	_	TokenRange=161:168
+29	nomes	nome	NOUN	NOUN	_	28	obj	_	TokenRange=169:174
+30-31	das	_	_	_	_	_	_	_	TokenRange=175:178
+30	de	de	ADP	ADP	_	32	case	_	_
+31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	vitimas	vitima	NOUN	NOUN	_	29	nmod	_	TokenRange=179:186
+33	golpistas	golpista	ADJ	ADJ	_	32	amod	_	TokenRange=187:196
+34	estao	_	AUX	AUX	_	36	aux	_	TokenRange=197:202
+35	se	_	PRON	PRON	_	36	expl:pv	_	TokenRange=203:205
+36	passando	passar	VERB	VERB	_	25	parataxis	_	TokenRange=206:214
+37	por	por	ADP	ADP	_	38	case	_	TokenRange=215:218
+38	diaconos	diacono	NOUN	NOUN	_	36	nmod	_	TokenRange=219:227
+39	em	em	ADP	ADP	_	40	case	_	TokenRange=228:230
+40	suzano	suzano	NOUN	NOUN	_	36	nmod	_	TokenRange=231:237
+41	para	_	ADP	ADP	_	42	mark	_	TokenRange=238:242
+42	pedir	pedir	VERB	VERB	_	36	advcl	_	TokenRange=243:248
+43	dinheiro	dinheiro	NOUN	NOUN	_	42	obj	_	TokenRange=249:257
+44-45	aos	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=258:261
+44	a	a	ADP	ADP	_	42	case	_	_
+45	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+

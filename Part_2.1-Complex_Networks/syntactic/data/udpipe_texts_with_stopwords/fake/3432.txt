@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = nunca antes na historia desse pais um vice deu um pe no traseiro de um presidente na carta temer escreve que passou o primeiro mandato de dilma como um vice decorativo que perdeu todo protagonismo politico que teve no passado e que so era chamado para resolver as votacoes do pmdb e as crises politicas
+1	nunca	nunca	ADV	ADV	_	2	advmod	_	TokenRange=0:5
+2	antes	antes	ADV	ADV	_	10	advmod	_	TokenRange=6:11
+3-4	na	_	_	_	_	_	_	_	TokenRange=12:14
+3	em	em	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	historia	historia	NOUN	NOUN	_	10	nmod	_	TokenRange=15:23
+6	desse	_	ADP	ADP	_	7	case	_	TokenRange=24:29
+7	pais	_	NOUN	NOUN	_	5	nmod	_	TokenRange=30:34
+8	um	um	DET	DET	_	9	det	_	TokenRange=35:37
+9	vice	vice	NOUN	NOUN	_	10	nsubj	_	TokenRange=38:42
+10	deu	dar	VERB	VERB	_	0	root	_	TokenRange=43:46
+11	um	um	DET	DET	_	12	det	_	TokenRange=47:49
+12	pe	pe	NOUN	NOUN	_	10	obj	_	TokenRange=50:52
+13-14	no	_	_	_	_	_	_	_	TokenRange=53:55
+13	em	em	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	traseiro	traseiro	NOUN	NOUN	_	10	nmod	_	TokenRange=56:64
+16	de	de	ADP	ADP	_	18	case	_	TokenRange=65:67
+17	um	um	DET	DET	_	18	det	_	TokenRange=68:70
+18	presidente	presidente	NOUN	NOUN	_	15	nmod	_	TokenRange=71:81
+19-20	na	_	_	_	_	_	_	_	TokenRange=82:84
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	carta	carta	NOUN	NOUN	_	10	nmod	_	TokenRange=85:90
+22	temer	temer	NOUN	NOUN	_	21	appos	_	TokenRange=91:96
+23	escreve	escrever	VERB	VERB	_	10	parataxis	_	TokenRange=97:104
+24	que	que	CCONJ	CONJ	_	25	mark	_	TokenRange=105:108
+25	passou	passar	VERB	VERB	_	23	ccomp	_	TokenRange=109:115
+26	o	o	DET	DET	_	28	det	_	TokenRange=116:117
+27	primeiro	primeiro	ADJ	ADJ	_	28	amod	_	TokenRange=118:126
+28	mandato	mandato	NOUN	NOUN	_	25	obj	_	TokenRange=127:134
+29	de	de	ADP	ADP	_	30	case	_	TokenRange=135:137
+30	dilma	dilma	NOUN	NOUN	_	28	nmod	_	TokenRange=138:143
+31	como	como	ADP	ADP	_	33	case	_	TokenRange=144:148
+32	um	um	DET	DET	_	33	det	_	TokenRange=149:151
+33	vice	vice	NOUN	NOUN	_	25	nmod	_	TokenRange=152:156
+34	decorativo	decorativo	ADJ	ADJ	_	33	amod	_	TokenRange=157:167
+35	que	_	PRON	PRON	_	36	nsubj	_	TokenRange=168:171
+36	perdeu	perder	VERB	VERB	_	33	acl:relcl	_	TokenRange=172:178
+37	todo	_	DET	DET	_	38	det	_	TokenRange=179:183
+38	protagonismo	protagonismo	NOUN	NOUN	_	36	obj	_	TokenRange=184:196
+39	politico	politico	ADJ	ADJ	_	38	amod	_	TokenRange=197:205
+40	que	_	PRON	PRON	_	41	obj	_	TokenRange=206:209
+41	teve	ter	VERB	VERB	_	38	acl:relcl	_	TokenRange=210:214
+42-43	no	_	_	_	_	_	_	_	TokenRange=215:217
+42	em	em	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	passado	passado	NOUN	NOUN	_	41	nmod	_	TokenRange=218:225
+45	e	e	CCONJ	CONJ	_	49	cc	_	TokenRange=226:227
+46	que	_	PRON	PRON	_	49	nsubj:pass	_	TokenRange=228:231
+47	so	so	ADV	ADV	_	49	advmod	_	TokenRange=232:234
+48	era	_	AUX	AUX	_	49	aux:pass	_	TokenRange=235:238
+49	chamado	chamar	VERB	VERB	_	36	conj	_	TokenRange=239:246
+50	para	_	ADP	ADP	_	51	mark	_	TokenRange=247:251
+51	resolver	resolver	VERB	VERB	_	49	advcl	_	TokenRange=252:260
+52	as	o	DET	DET	_	53	det	_	TokenRange=261:263
+53	votacoes	votacoe	NOUN	NOUN	_	51	obj	_	TokenRange=264:272
+54-55	do	_	_	_	_	_	_	_	TokenRange=273:275
+54	de	de	ADP	ADP	_	56	case	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	pmdb	_	NOUN	NOUN	_	53	nmod	_	TokenRange=276:280
+57	e	e	CCONJ	CONJ	_	59	cc	_	TokenRange=281:282
+58	as	o	DET	DET	_	59	det	_	TokenRange=283:285
+59	crises	crise	NOUN	NOUN	_	56	conj	_	TokenRange=286:292
+60	politicas	politico	ADJ	ADJ	_	59	amod	_	TokenRange=293:302
+

@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lula elogiando geddel em 2010 foi o melhor ministro do pais em 500 anos palavras do senhor expresidente o ministro geddel hoje esta no ministerio da integracao e portanto e responsavel pela defesa civil eu falo sem medo de errar duvido que na historia de 500 anos deste pais as calamidades tiveram a resposta tao imediata que nos tivemos disse lula
+1	lula	lula	NOUN	NOUN	_	9	nsubj	_	TokenRange=0:4
+2	elogiando	elogiar	VERB	VERB	_	1	acl	_	TokenRange=5:14
+3	geddel	_	NOUN	NOUN	_	2	obj	_	TokenRange=15:21
+4	em	em	ADP	ADP	_	5	case	_	TokenRange=22:24
+5	2010	_	NUM	NUM	NumType=Card	2	nmod	_	TokenRange=25:29
+6	foi	_	AUX	AUX	_	9	cop	_	TokenRange=30:33
+7	o	o	DET	DET	_	9	det	_	TokenRange=34:35
+8	melhor	melhor	ADJ	ADJ	_	9	amod	_	TokenRange=36:42
+9	ministro	ministro	NOUN	NOUN	_	0	root	_	TokenRange=43:51
+10-11	do	_	_	_	_	_	_	_	TokenRange=52:54
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pais	_	NOUN	NOUN	_	9	nmod	_	TokenRange=55:59
+13	em	em	ADP	ADP	_	15	case	_	TokenRange=60:62
+14	500	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=63:66
+15	anos	ano	NOUN	NOUN	_	9	nmod	_	TokenRange=67:71
+16	palavras	palavra	NOUN	NOUN	_	9	appos	_	TokenRange=72:80
+17-18	do	_	_	_	_	_	_	_	TokenRange=81:83
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	senhor	senhor	NOUN	NOUN	_	16	nmod	_	TokenRange=84:90
+20	expresidente	expresidente	ADJ	ADJ	_	19	amod	_	TokenRange=91:103
+21	o	o	DET	DET	_	22	det	_	TokenRange=104:105
+22	ministro	ministro	NOUN	NOUN	_	25	nsubj	_	TokenRange=106:114
+23	geddel	_	NOUN	NOUN	_	22	appos	_	TokenRange=115:121
+24	hoje	hoje	ADV	ADV	_	25	advmod	_	TokenRange=122:126
+25	esta	_	VERB	VERB	_	9	parataxis	_	TokenRange=127:131
+26-27	no	_	_	_	_	_	_	_	TokenRange=132:134
+26	em	em	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ministerio	ministerio	NOUN	NOUN	_	25	nmod	_	TokenRange=135:145
+29-30	da	_	_	_	_	_	_	_	TokenRange=146:148
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	integracao	_	NOUN	NOUN	_	28	nmod	_	TokenRange=149:159
+32	e	e	CCONJ	CONJ	_	35	cc	_	TokenRange=160:161
+33	portanto	_	ADV	ADV	_	35	advmod	_	TokenRange=162:170
+34	e	e	CCONJ	CONJ	_	35	cc	_	TokenRange=171:172
+35	responsavel	responsavel	ADJ	ADJ	_	25	conj	_	TokenRange=173:184
+36-37	pela	_	_	_	_	_	_	_	TokenRange=185:189
+36	por	por	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	defesa	_	NOUN	NOUN	_	35	nmod	_	TokenRange=190:196
+39	civil	civil	ADJ	ADJ	_	38	amod	_	TokenRange=197:202
+40	eu	_	PRON	PRON	_	41	nsubj	_	TokenRange=203:205
+41	falo	_	VERB	VERB	_	25	conj	_	TokenRange=206:210
+42	sem	_	ADP	ADP	_	43	case	_	TokenRange=211:214
+43	medo	medo	NOUN	NOUN	_	41	nmod	_	TokenRange=215:219
+44	de	_	ADP	ADP	_	45	mark	_	TokenRange=220:222
+45	errar	errar	VERB	VERB	_	43	nmod	_	TokenRange=223:228
+46	duvido	duvido	VERB	VERB	_	45	xcomp	_	TokenRange=229:235
+47	que	que	CCONJ	CONJ	_	58	mark	_	TokenRange=236:239
+48-49	na	_	_	_	_	_	_	_	TokenRange=240:242
+48	em	em	ADP	ADP	_	50	case	_	_
+49	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	historia	historia	NOUN	NOUN	_	58	nmod	_	TokenRange=243:251
+51	de	de	ADP	ADP	_	53	case	_	TokenRange=252:254
+52	500	_	NUM	NUM	NumType=Card	53	nummod	_	TokenRange=255:258
+53	anos	ano	NOUN	NOUN	_	50	nmod	_	TokenRange=259:263
+54	deste	_	ADP	ADP	_	55	case	_	TokenRange=264:269
+55	pais	_	NOUN	NOUN	_	53	nmod	_	TokenRange=270:274
+56	as	o	DET	DET	_	57	det	_	TokenRange=275:277
+57	calamidades	calamidade	NOUN	NOUN	_	58	nsubj	_	TokenRange=278:289
+58	tiveram	ter	VERB	VERB	_	46	ccomp	_	TokenRange=290:297
+59	a	o	DET	DET	_	60	det	_	TokenRange=298:299
+60	resposta	resposta	NOUN	NOUN	_	58	obj	_	TokenRange=300:308
+61	tao	tao	ADV	ADV	_	62	advmod	_	TokenRange=309:312
+62	imediata	imediato	ADJ	ADJ	_	60	amod	_	TokenRange=313:321
+63	que	que	CCONJ	CONJ	_	67	mark	_	TokenRange=322:325
+64-65	nos	_	_	_	_	_	_	_	TokenRange=326:329
+64	em	em	ADP	ADP	_	66	case	_	_
+65	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	67	det	_	_
+66	tivemos	ter	NOUN	AUX	_	67	nmod	_	TokenRange=330:337
+67	disse	dizer	VERB	VERB	_	58	advcl	_	TokenRange=338:343
+68	lula	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=344:348
+

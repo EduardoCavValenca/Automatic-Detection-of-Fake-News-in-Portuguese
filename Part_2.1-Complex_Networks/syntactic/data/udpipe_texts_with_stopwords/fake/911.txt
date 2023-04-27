@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = em videolula confessa a gente fala uma coisa pra ganhar as eleicoesmas depois faz outra assista com atencao esse pequeno video e claro que esse tipo de atitude nao se restringe somente ao petista 90 dos politicos agem dessa maneira vergonhosa
+1	em	em	ADP	ADP	_	2	case	_	TokenRange=0:2
+2	videolula	_	NOUN	NOUN	_	3	nmod	_	TokenRange=3:12
+3	confessa	confessar	VERB	VERB	_	0	root	_	TokenRange=13:21
+4	a	o	DET	DET	_	5	det	_	TokenRange=22:23
+5	gente	gente	NOUN	NOUN	_	6	nsubj	_	TokenRange=24:29
+6	fala	_	VERB	VERB	_	3	ccomp	_	TokenRange=30:34
+7	uma	um	DET	DET	_	8	det	_	TokenRange=35:38
+8	coisa	coisa	NOUN	NOUN	_	6	obj	_	TokenRange=39:44
+9	pra	_	ADP	ADP	_	10	mark	_	TokenRange=45:48
+10	ganhar	ganhar	VERB	VERB	_	6	advcl	_	TokenRange=49:55
+11	as	o	DET	DET	_	12	det	_	TokenRange=56:58
+12	eleicoesmas	eleicoesma	NOUN	NOUN	_	10	obj	_	TokenRange=59:70
+13	depois	depois	ADV	ADV	_	14	advmod	_	TokenRange=71:77
+14	faz	fazer	VERB	VERB	_	6	conj	_	TokenRange=78:81
+15	outra	_	PRON	PRON	_	14	obj	_	TokenRange=82:87
+16	assista	assistir	VERB	VERB	_	3	parataxis	_	TokenRange=88:95
+17	com	com	ADP	ADP	_	18	case	_	TokenRange=96:99
+18	atencao	atencao	NOUN	NOUN	_	16	nmod	_	TokenRange=100:107
+19	esse	_	DET	DET	_	21	det	_	TokenRange=108:112
+20	pequeno	pequeno	ADJ	ADJ	_	21	amod	_	TokenRange=113:120
+21	video	video	NOUN	NOUN	_	16	obj	_	TokenRange=121:126
+22	e	e	CCONJ	CONJ	_	23	cc	_	TokenRange=127:128
+23	claro	claro	ADJ	ADJ	_	21	amod	_	TokenRange=129:134
+24	que	que	CCONJ	CONJ	_	31	mark	_	TokenRange=135:138
+25	esse	_	DET	DET	_	26	det	_	TokenRange=139:143
+26	tipo	tipo	NOUN	NOUN	_	31	nsubj	_	TokenRange=144:148
+27	de	de	ADP	ADP	_	28	case	_	TokenRange=149:151
+28	atitude	atitude	NOUN	NOUN	_	26	nmod	_	TokenRange=152:159
+29	nao	nao	ADV	ADV	Polarity=Neg	31	advmod	_	TokenRange=160:163
+30	se	_	PRON	PRON	_	31	expl:pv	_	TokenRange=164:166
+31	restringe	restringir	VERB	VERB	_	16	ccomp	_	TokenRange=167:176
+32	somente	somente	ADV	ADV	_	31	advmod	_	TokenRange=177:184
+33-34	ao	_	_	_	_	_	_	_	TokenRange=185:187
+33	a	a	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	petista	petista	NOUN	NOUN	_	31	nmod	_	TokenRange=188:195
+36	90	_	NUM	NUM	NumType=Card	35	appos	_	TokenRange=196:198
+37-38	dos	_	_	_	_	_	_	_	TokenRange=199:202
+37	de	de	ADP	ADP	_	39	case	_	_
+38	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	politicos	politico	NOUN	NOUN	_	35	nmod	_	TokenRange=203:212
+40	agem	agir	VERB	VERB	_	31	conj	_	TokenRange=213:217
+41	dessa	_	ADP	ADP	_	42	case	_	TokenRange=218:223
+42	maneira	maneira	NOUN	NOUN	_	40	nmod	_	TokenRange=224:231
+43	vergonhosa	vergonhoso	ADJ	ADJ	_	42	amod	_	TokenRange=232:242
+

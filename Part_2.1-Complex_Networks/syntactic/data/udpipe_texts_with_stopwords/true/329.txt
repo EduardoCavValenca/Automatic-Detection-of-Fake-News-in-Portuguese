@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = whindersson nunes e outros as 5 estrelas do youtube com mais seguidores no mundo conheca os youtubers com numero de assinantes superior a populacao de muitos paises eles atraem tanto fas quanto criticas a recente polemica protagonizada pelo americano logan paul que publicou um video no youtube mostrando uma pessoa que teria acabado de se suicidar evidenciou o alcance que um youtuber pode
+1	whindersson	_	NOUN	NOUN	_	17	nsubj	_	TokenRange=0:11
+2	nunes	_	NOUN	NOUN	_	1	flat	_	TokenRange=12:17
+3	e	e	CCONJ	CONJ	_	4	cc	_	TokenRange=18:19
+4	outros	_	PRON	PRON	_	1	conj	_	TokenRange=20:26
+5	as	o	DET	DET	_	7	det	_	TokenRange=27:29
+6	5	_	NUM	NUM	NumType=Card	7	nummod	_	TokenRange=30:31
+7	estrelas	estrela	NOUN	NOUN	_	17	nsubj	_	TokenRange=32:40
+8-9	do	_	_	_	_	_	_	_	TokenRange=41:43
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	youtube	_	PROPN	PNOUN	_	7	nmod	_	TokenRange=44:51
+11	com	com	ADP	ADP	_	13	case	_	TokenRange=52:55
+12	mais	_	DET	DET	_	13	det	_	TokenRange=56:60
+13	seguidores	seguidor	NOUN	NOUN	_	7	nmod	_	TokenRange=61:71
+14-15	no	_	_	_	_	_	_	_	TokenRange=72:74
+14	em	em	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mundo	mundo	NOUN	NOUN	_	13	nmod	_	TokenRange=75:80
+17	conheca	conhecar	VERB	VERB	_	0	root	_	TokenRange=81:88
+18	os	o	DET	DET	_	19	det	_	TokenRange=89:91
+19	youtubers	_	NOUN	NOUN	_	17	obj	_	TokenRange=92:101
+20	com	com	ADP	ADP	_	21	case	_	TokenRange=102:105
+21	numero	numero	NOUN	NOUN	_	17	nmod	_	TokenRange=106:112
+22	de	de	ADP	ADP	_	23	case	_	TokenRange=113:115
+23	assinantes	assinante	NOUN	NOUN	_	21	nmod	_	TokenRange=116:126
+24	superior	superior	ADJ	ADJ	_	23	amod	_	TokenRange=127:135
+25	a	_	ADP	ADP	_	26	case	_	TokenRange=136:137
+26	populacao	populacao	NOUN	NOUN	_	24	nmod	_	TokenRange=138:147
+27	de	de	ADP	ADP	_	29	case	_	TokenRange=148:150
+28	muitos	_	DET	DET	_	29	det	_	TokenRange=151:157
+29	paises	paise	NOUN	NOUN	_	26	nmod	_	TokenRange=158:164
+30	eles	_	PRON	PRON	_	31	nsubj	_	TokenRange=165:169
+31	atraem	atrair	VERB	VERB	_	17	parataxis	_	TokenRange=170:176
+32	tanto	_	DET	DET	_	33	det	_	TokenRange=177:182
+33	fas	fa	NOUN	NOUN	_	31	obj	_	TokenRange=183:186
+34	quanto	_	CCONJ	CONJ	_	35	cc	_	TokenRange=187:193
+35	criticas	_	NOUN	NOUN	_	33	conj	_	TokenRange=194:202
+36	a	o	DET	DET	_	38	det	_	TokenRange=203:204
+37	recente	recente	ADJ	ADJ	_	38	amod	_	TokenRange=205:212
+38	polemica	polemica	NOUN	NOUN	_	31	nsubj	_	TokenRange=213:221
+39	protagonizada	protagonizar	VERB	VERB	_	38	acl	_	TokenRange=222:235
+40-41	pelo	_	_	_	_	_	_	_	TokenRange=236:240
+40	por	por	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	americano	americano	NOUN	NOUN	_	39	nmod	_	TokenRange=241:250
+43	logan	_	NOUN	NOUN	_	42	appos	_	TokenRange=251:256
+44	paul	_	NOUN	NOUN	_	43	flat	_	TokenRange=257:261
+45	que	_	PRON	PRON	_	46	nsubj	_	TokenRange=262:265
+46	publicou	publicar	VERB	VERB	_	38	acl:relcl	_	TokenRange=266:274
+47	um	um	DET	DET	_	48	det	_	TokenRange=275:277
+48	video	video	NOUN	NOUN	_	46	obj	_	TokenRange=278:283
+49-50	no	_	_	_	_	_	_	_	TokenRange=284:286
+49	em	em	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	youtube	_	PROPN	PNOUN	_	46	nmod	_	TokenRange=287:294
+52	mostrando	mostrar	VERB	VERB	_	46	acl	_	TokenRange=295:304
+53	uma	um	DET	DET	_	54	det	_	TokenRange=305:308
+54	pessoa	pessoa	NOUN	NOUN	_	52	obj	_	TokenRange=309:315
+55	que	_	PRON	PRON	_	60	nsubj	_	TokenRange=316:319
+56	teria	ter	AUX	AUX	_	60	aux	_	TokenRange=320:325
+57	acabado	acabar	AUX	AUX	_	60	aux	_	TokenRange=326:333
+58	de	_	ADP	ADP	_	60	mark	_	TokenRange=334:336
+59	se	_	PRON	PRON	_	60	expl:pv	_	TokenRange=337:339
+60	suicidar	suicidar	VERB	VERB	_	54	acl:relcl	_	TokenRange=340:348
+61	evidenciou	evidenciar	VERB	VERB	_	54	acl:relcl	_	TokenRange=349:359
+62	o	o	DET	DET	_	63	det	_	TokenRange=360:361
+63	alcance	alcance	NOUN	NOUN	_	61	obj	_	TokenRange=362:369
+64	que	_	PRON	PRON	_	67	obj	_	TokenRange=370:373
+65	um	um	DET	DET	_	66	det	_	TokenRange=374:376
+66	youtuber	_	NOUN	NOUN	_	67	nsubj	_	TokenRange=377:385
+67	pode	_	AUX	AUX	_	61	aux	_	SpacesAfter=\s\s|TokenRange=386:390
+

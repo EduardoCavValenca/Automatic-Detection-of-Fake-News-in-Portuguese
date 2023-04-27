@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = cao acha drogas dentro de fogao durante megaoperacao contra o trafico em sp apreensao aconteceu durante a operacao praia limpa nesta quartafeira 7 no caminho da capela em santos no litoral paulista equipes da rota e do canil da policia militar que atuaram na operacao praia limpa deflagrada na madrugada desta quartafeira 7 na baixada santista encontraram drogas escondidas dentro do forno de um fogao
+1	cao	cao	PRON	NOUN	_	2	nsubj	_	TokenRange=0:3
+2	acha	achar	VERB	VERB	_	0	root	_	TokenRange=4:8
+3	drogas	droga	NOUN	NOUN	_	2	obj	_	TokenRange=9:15
+4	dentro	dentro	ADV	ADV	_	2	advmod	_	TokenRange=16:22
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=23:25
+6	fogao	fogao	NOUN	NOUN	_	4	nmod	_	TokenRange=26:31
+7	durante	_	ADP	ADP	_	8	case	_	TokenRange=32:39
+8	megaoperacao	megaoperacao	NOUN	NOUN	_	2	nmod	_	TokenRange=40:52
+9	contra	_	ADP	ADP	_	11	case	_	TokenRange=53:59
+10	o	o	DET	DET	_	11	det	_	TokenRange=60:61
+11	trafico	trafico	NOUN	NOUN	_	8	nmod	_	TokenRange=62:69
+12	em	em	ADP	ADP	_	13	case	_	TokenRange=70:72
+13	sp	_	ADJ	NOUN	_	2	nmod	_	TokenRange=73:75
+14	apreensao	apreensao	NOUN	NOUN	_	2	nsubj	_	TokenRange=76:85
+15	aconteceu	acontecer	VERB	VERB	_	2	parataxis	_	TokenRange=86:95
+16	durante	_	ADP	ADP	_	18	case	_	TokenRange=96:103
+17	a	o	DET	DET	_	18	det	_	TokenRange=104:105
+18	operacao	operacao	NOUN	NOUN	_	15	nmod	_	TokenRange=106:114
+19	praia	praia	NOUN	NOUN	_	18	appos	_	TokenRange=115:120
+20	limpa	limpo	ADJ	ADJ	_	19	amod	_	TokenRange=121:126
+21	nesta	_	ADP	ADP	_	22	case	_	TokenRange=127:132
+22	quartafeira	_	NOUN	NOUN	_	15	nmod	_	TokenRange=133:144
+23	7	_	NUM	NUM	NumType=Card	22	appos	_	TokenRange=145:146
+24-25	no	_	_	_	_	_	_	_	TokenRange=147:149
+24	em	em	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	caminho	caminho	NOUN	NOUN	_	15	nmod	_	TokenRange=150:157
+27-28	da	_	_	_	_	_	_	_	TokenRange=158:160
+27	de	de	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	capela	capela	NOUN	NOUN	_	26	nmod	_	TokenRange=161:167
+30	em	em	ADP	ADP	_	31	case	_	TokenRange=168:170
+31	santos	santo	NOUN	NOUN	_	26	nmod	_	TokenRange=171:177
+32-33	no	_	_	_	_	_	_	_	TokenRange=178:180
+32	em	em	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	litoral	litoral	NOUN	NOUN	_	31	nmod	_	TokenRange=181:188
+35	paulista	paulista	ADJ	ADJ	_	34	amod	_	TokenRange=189:197
+36	equipes	equipe	NOUN	NOUN	_	15	nsubj	_	TokenRange=198:205
+37-38	da	_	_	_	_	_	_	_	TokenRange=206:208
+37	de	de	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	rota	rota	NOUN	NOUN	_	36	nmod	_	TokenRange=209:213
+40	e	e	CCONJ	CONJ	_	43	cc	_	TokenRange=214:215
+41-42	do	_	_	_	_	_	_	_	TokenRange=216:218
+41	de	de	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	canil	canil	NOUN	NOUN	_	39	conj	_	TokenRange=219:224
+44-45	da	_	_	_	_	_	_	_	TokenRange=225:227
+44	de	de	ADP	ADP	_	46	case	_	_
+45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	policia	policia	NOUN	NOUN	_	43	nmod	_	TokenRange=228:235
+47	militar	militar	ADJ	ADJ	_	46	amod	_	TokenRange=236:243
+48	que	_	PRON	PRON	_	49	nsubj	_	TokenRange=244:247
+49	atuaram	atuar	VERB	VERB	_	36	acl:relcl	_	TokenRange=248:255
+50-51	na	_	_	_	_	_	_	_	TokenRange=256:258
+50	em	em	ADP	ADP	_	52	case	_	_
+51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	operacao	operacao	NOUN	NOUN	_	49	nmod	_	TokenRange=259:267
+53	praia	praia	NOUN	NOUN	_	52	appos	_	TokenRange=268:273
+54	limpa	limpo	ADJ	ADJ	_	53	amod	_	TokenRange=274:279
+55	deflagrada	deflagrar	VERB	VERB	_	52	acl	_	TokenRange=280:290
+56-57	na	_	_	_	_	_	_	_	TokenRange=291:293
+56	em	em	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	madrugada	madrugada	NOUN	NOUN	_	55	nmod	_	TokenRange=294:303
+59	desta	_	ADP	ADP	_	60	case	_	TokenRange=304:309
+60	quartafeira	quartafeira	NOUN	NOUN	_	58	nmod	_	TokenRange=310:321
+61	7	_	NUM	NUM	NumType=Card	60	appos	_	TokenRange=322:323
+62-63	na	_	_	_	_	_	_	_	TokenRange=324:326
+62	em	em	ADP	ADP	_	64	case	_	_
+63	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	baixada	baixada	NOUN	NOUN	_	49	nmod	_	TokenRange=327:334
+65	santista	santista	ADJ	ADJ	_	64	amod	_	TokenRange=335:343
+66	encontraram	encontrar	VERB	VERB	_	2	parataxis	_	TokenRange=344:355
+67	drogas	droga	NOUN	NOUN	_	66	obj	_	TokenRange=356:362
+68	escondidas	escondido	ADJ	ADJ	_	67	amod	_	TokenRange=363:373
+69	dentro	dentro	ADV	ADV	_	68	advmod	_	TokenRange=374:380
+70-71	do	_	_	_	_	_	_	_	TokenRange=381:383
+70	de	de	ADP	ADP	_	72	case	_	_
+71	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
+72	forno	forno	NOUN	NOUN	_	69	nmod	_	TokenRange=384:389
+73	de	de	ADP	ADP	_	75	case	_	TokenRange=390:392
+74	um	um	DET	DET	_	75	det	_	TokenRange=393:395
+75	fogao	fogao	NOUN	NOUN	_	72	nmod	_	SpacesAfter=\s\s|TokenRange=396:401
+

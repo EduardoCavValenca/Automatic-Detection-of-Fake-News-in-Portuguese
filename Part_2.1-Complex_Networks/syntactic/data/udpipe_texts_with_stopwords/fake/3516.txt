@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mais uma trapalhada dilma diz que governo cumpriu com as fiscalizacoes na barragem da samarco
+1	mais	mais	ADV	ADV	_	2	advmod	_	TokenRange=0:4
+2	uma	_	NUM	NUM	NumType=Card	3	nummod	_	TokenRange=5:8
+3	trapalhada	trapalhado	NOUN	NOUN	_	5	nsubj	_	TokenRange=9:19
+4	dilma	_	ADJ	ADJ	_	3	amod	_	TokenRange=20:25
+5	diz	dizer	VERB	VERB	_	0	root	_	TokenRange=26:29
+6	que	que	CCONJ	CONJ	_	8	mark	_	TokenRange=30:33
+7	governo	governo	NOUN	NOUN	_	8	nsubj	_	TokenRange=34:41
+8	cumpriu	cumprir	VERB	VERB	_	5	ccomp	_	TokenRange=42:49
+9	com	com	ADP	ADP	_	11	case	_	TokenRange=50:53
+10	as	o	DET	DET	_	11	det	_	TokenRange=54:56
+11	fiscalizacoes	fiscalizacoe	NOUN	NOUN	_	8	nmod	_	TokenRange=57:70
+12-13	na	_	_	_	_	_	_	_	TokenRange=71:73
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	barragem	barragem	NOUN	NOUN	_	8	nmod	_	TokenRange=74:82
+15-16	da	_	_	_	_	_	_	_	TokenRange=83:85
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	samarco	samarco	NOUN	NOUN	_	14	nmod	_	SpacesAfter=\s\s|TokenRange=86:93
+

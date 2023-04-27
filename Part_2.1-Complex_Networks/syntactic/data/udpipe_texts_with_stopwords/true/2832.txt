@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = veja o que candidatos e servidores do df sao impedidos de fazer nas eleicoes de 2018 maior parte das regras comeca a valer em 7 de julho e segue ate resultado das urnas
+1	veja	ver	VERB	VERB	_	0	root	_	TokenRange=0:4
+2	o	_	PRON	PRON	_	1	obj	_	TokenRange=5:6
+3	que	_	PRON	PRON	_	11	nsubj:pass	_	TokenRange=7:10
+4	candidatos	candidato	NOUN	NOUN	_	11	nsubj:pass	_	TokenRange=11:21
+5	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=22:23
+6	servidores	servidor	NOUN	NOUN	_	4	conj	_	TokenRange=24:34
+7-8	do	_	_	_	_	_	_	_	TokenRange=35:37
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	df	_	NOUN	NOUN	_	4	nmod	_	TokenRange=38:40
+10	sao	_	AUX	AUX	_	11	aux:pass	_	TokenRange=41:44
+11	impedidos	impedir	VERB	VERB	_	2	acl:relcl	_	TokenRange=45:54
+12	de	_	ADP	ADP	_	13	mark	_	TokenRange=55:57
+13	fazer	fazer	VERB	VERB	_	11	nmod	_	TokenRange=58:63
+14-15	nas	_	_	_	_	_	_	_	TokenRange=64:67
+14	em	em	ADP	ADP	_	16	case	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	eleicoes	eleicoe	NOUN	NOUN	_	13	nmod	_	TokenRange=68:76
+17	de	de	ADP	ADP	_	18	case	_	TokenRange=77:79
+18	2018	_	NUM	NUM	NumType=Card	16	nmod	_	TokenRange=80:84
+19	maior	maior	ADJ	ADJ	_	20	amod	_	TokenRange=85:90
+20	parte	parte	NOUN	NOUN	_	26	nsubj	_	TokenRange=91:96
+21-22	das	_	_	_	_	_	_	_	TokenRange=97:100
+21	de	de	ADP	ADP	_	23	case	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	regras	regra	NOUN	NOUN	_	20	nmod	_	TokenRange=101:107
+24	comeca	comecar	AUX	AUX	_	26	aux	_	TokenRange=108:114
+25	a	_	ADP	ADP	_	26	mark	_	TokenRange=115:116
+26	valer	valer	VERB	VERB	_	1	parataxis	_	TokenRange=117:122
+27	em	em	ADP	ADP	_	28	case	_	TokenRange=123:125
+28	7	_	NUM	NUM	NumType=Card	26	nmod	_	TokenRange=126:127
+29	de	de	ADP	ADP	_	30	case	_	TokenRange=128:130
+30	julho	_	PROPN	PNOUN	_	28	nmod	_	TokenRange=131:136
+31	e	e	CCONJ	CONJ	_	32	cc	_	TokenRange=137:138
+32	segue	_	VERB	VERB	_	26	conj	_	TokenRange=139:144
+33	ate	_	ADP	ADP	_	34	case	_	TokenRange=145:148
+34	resultado	resultado	NOUN	NOUN	_	32	nmod	_	TokenRange=149:158
+35-36	das	_	_	_	_	_	_	_	TokenRange=159:162
+35	de	de	ADP	ADP	_	37	case	_	_
+36	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	urnas	urna	NOUN	NOUN	_	34	nmod	_	SpacesAfter=\s\s|TokenRange=163:168
+

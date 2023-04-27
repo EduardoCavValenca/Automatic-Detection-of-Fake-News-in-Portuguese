@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mae de sambista e despejada de imovel por nao pagar aluguel quem informa e o colunista ancelmo gois do globo de acordo com a informacao a quinta vara civel do rj decretou o despejo da mae do sambista dona anita mora em um apartamento alugado no bairro do flamengo e a divida ja chega a r 92133 88 dudu e fiador do imovel e tambem foi condenado a pagar a divida
+1	mae	mae	NOUN	NOUN	_	5	nsubj:pass	_	TokenRange=0:3
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=4:6
+3	sambista	sambista	NOUN	NOUN	_	1	nmod	_	TokenRange=7:15
+4	e	_	AUX	AUX	_	5	aux:pass	_	TokenRange=16:17
+5	despejada	despejar	VERB	VERB	_	0	root	_	TokenRange=18:27
+6	de	de	ADP	ADP	_	7	case	_	TokenRange=28:30
+7	imovel	imovel	NOUN	NOUN	_	5	nmod	_	TokenRange=31:37
+8	por	_	ADP	ADP	_	10	mark	_	TokenRange=38:41
+9	nao	nao	ADV	ADV	Polarity=Neg	10	advmod	_	TokenRange=42:45
+10	pagar	pagar	VERB	VERB	_	5	advcl	_	TokenRange=46:51
+11	aluguel	aluguel	NOUN	NOUN	_	10	obj	_	TokenRange=52:59
+12	quem	_	PRON	PRON	_	13	nsubj	_	TokenRange=60:64
+13	informa	informar	VERB	VERB	_	11	acl:relcl	_	TokenRange=65:72
+14	e	e	CCONJ	CONJ	_	16	cc	_	TokenRange=73:74
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	TokenRange=75:76
+16	colunista	colunista	NOUN	NOUN	_	11	conj	_	TokenRange=77:86
+17	ancelmo	ancelmo	NOUN	NOUN	_	16	appos	_	TokenRange=87:94
+18	gois	gois	NOUN	NOUN	_	17	flat	_	TokenRange=95:99
+19-20	do	_	_	_	_	_	_	_	TokenRange=100:102
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	globo	globo	NOUN	NOUN	_	17	nmod	_	TokenRange=103:108
+22	de	de	ADP	ADP	_	23	case	_	TokenRange=109:111
+23	acordo	acordo	NOUN	NOUN	_	34	nmod	_	TokenRange=112:118
+24	com	com	ADP	ADP	_	26	case	_	TokenRange=119:122
+25	a	o	DET	DET	_	26	det	_	TokenRange=123:124
+26	informacao	informacao	NOUN	NOUN	_	23	nmod	_	TokenRange=125:135
+27	a	o	DET	DET	_	29	det	_	TokenRange=136:137
+28	quinta	_	ADJ	ADJ	_	29	amod	_	TokenRange=138:144
+29	vara	vara	NOUN	NOUN	_	34	nsubj	_	TokenRange=145:149
+30	civel	civel	ADJ	ADJ	_	29	amod	_	TokenRange=150:155
+31-32	do	_	_	_	_	_	_	_	TokenRange=156:158
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	rj	_	PROPN	PNOUN	_	29	nmod	_	TokenRange=159:161
+34	decretou	decretar	VERB	VERB	_	5	parataxis	_	TokenRange=162:170
+35	o	o	DET	DET	_	36	det	_	TokenRange=171:172
+36	despejo	despejo	NOUN	NOUN	_	34	obj	_	TokenRange=173:180
+37-38	da	_	_	_	_	_	_	_	TokenRange=181:183
+37	de	de	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	mae	mae	NOUN	NOUN	_	36	nmod	_	TokenRange=184:187
+40-41	do	_	_	_	_	_	_	_	TokenRange=188:190
+40	de	de	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	sambista	sambista	NOUN	NOUN	_	39	nmod	_	TokenRange=191:199
+43	dona	_	NOUN	NOUN	_	39	appos	_	TokenRange=200:204
+44	anita	anita	NOUN	NOUN	_	43	flat	_	TokenRange=205:210
+45	mora	mora	ADJ	ADJ	_	43	flat	_	TokenRange=211:215
+46	em	em	ADP	ADP	_	48	case	_	TokenRange=216:218
+47	um	um	DET	DET	_	48	det	_	TokenRange=219:221
+48	apartamento	apartamento	NOUN	NOUN	_	34	nmod	_	TokenRange=222:233
+49	alugado	alugar	VERB	VERB	_	48	acl	_	TokenRange=234:241
+50-51	no	_	_	_	_	_	_	_	TokenRange=242:244
+50	em	em	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	bairro	bairro	NOUN	NOUN	_	49	nmod	_	TokenRange=245:251
+53-54	do	_	_	_	_	_	_	_	TokenRange=252:254
+53	de	de	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	flamengo	flamengo	NOUN	NOUN	_	52	nmod	_	TokenRange=255:263
+56	e	e	CCONJ	CONJ	_	60	cc	_	TokenRange=264:265
+57	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	TokenRange=266:267
+58	divida	divida	NOUN	NOUN	_	60	nsubj	_	TokenRange=268:274
+59	ja	ja	ADV	ADV	_	60	advmod	_	TokenRange=275:277
+60	chega	chegar	VERB	VERB	_	34	conj	_	TokenRange=278:283
+61	a	_	ADP	ADP	_	62	case	_	TokenRange=284:285
+62	r	r	NOUN	NOUN	_	60	nmod	_	TokenRange=286:287
+63	92133	_	NUM	NUM	NumType=Card	64	nummod	_	TokenRange=288:293
+64	88	_	NUM	NUM	NumType=Card	62	nummod	_	TokenRange=294:296
+65	dudu	dudu	NOUN	NOUN	_	60	obj	_	TokenRange=297:301
+66	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=302:303
+67	fiador	fiador	NOUN	NOUN	_	65	conj	_	TokenRange=304:310
+68-69	do	_	_	_	_	_	_	_	TokenRange=311:313
+68	de	de	ADP	ADP	_	70	case	_	_
+69	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	imovel	imovel	NOUN	NOUN	_	67	nmod	_	TokenRange=314:320
+71	e	e	CCONJ	CONJ	_	74	cc	_	TokenRange=321:322
+72	tambem	tambem	ADV	ADV	_	74	advmod	_	TokenRange=323:329
+73	foi	_	AUX	AUX	_	74	aux:pass	_	TokenRange=330:333
+74	condenado	condenar	VERB	VERB	_	60	conj	_	TokenRange=334:343
+75	a	_	ADP	ADP	_	76	mark	_	TokenRange=344:345
+76	pagar	pagar	VERB	VERB	_	74	nmod	_	TokenRange=346:351
+77	a	o	DET	DET	_	78	det	_	TokenRange=352:353
+78	divida	divida	NOUN	NOUN	_	76	obj	_	TokenRange=354:360
+

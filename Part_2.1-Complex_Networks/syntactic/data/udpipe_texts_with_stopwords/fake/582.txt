@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = rene dotti 84 anos o advogado mito que humilhou a defesa de lula o advogado professor de direito e jurista rene dotti deu uma aula de bons modos para os advogados de lula dotti que e assessor de acusacao e representante da petrobras pediu a palavra durante o depoimento de lula e fez o dr cristiano zanin dancar o creu velocidade numero 5 repare na cara de paisagem do expresidente
+1	rene	rene	NOUN	NOUN	_	23	parataxis	_	TokenRange=0:4
+2	dotti	_	VERB	VERB	_	1	flat	_	TokenRange=5:10
+3	84	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=11:13
+4	anos	ano	NOUN	NOUN	_	1	appos	_	TokenRange=14:18
+5	o	o	DET	DET	_	6	det	_	TokenRange=19:20
+6	advogado	advogado	NOUN	NOUN	_	1	appos	_	TokenRange=21:29
+7	mito	mito	NOUN	NOUN	_	6	amod	_	TokenRange=30:34
+8	que	_	PRON	PRON	_	9	nsubj	_	TokenRange=35:38
+9	humilhou	humilhar	VERB	VERB	_	6	acl:relcl	_	TokenRange=39:47
+10	a	o	DET	DET	_	11	det	_	TokenRange=48:49
+11	defesa	_	NOUN	NOUN	_	9	obj	_	TokenRange=50:56
+12	de	de	ADP	ADP	_	13	case	_	TokenRange=57:59
+13	lula	lula	NOUN	NOUN	_	11	nmod	_	TokenRange=60:64
+14	o	o	DET	DET	_	15	det	_	TokenRange=65:66
+15	advogado	advogado	NOUN	NOUN	_	23	nsubj	_	TokenRange=67:75
+16	professor	professor	NOUN	NOUN	_	15	appos	_	TokenRange=76:85
+17	de	de	ADP	ADP	_	18	case	_	TokenRange=86:88
+18	direito	direito	NOUN	NOUN	_	16	nmod	_	TokenRange=89:96
+19	e	e	CCONJ	CONJ	_	20	cc	_	TokenRange=97:98
+20	jurista	jurista	NOUN	NOUN	_	18	conj	_	TokenRange=99:106
+21	rene	rene	NOUN	NOUN	_	15	appos	_	TokenRange=107:111
+22	dotti	_	PROPN	PNOUN	_	21	flat	_	TokenRange=112:117
+23	deu	dar	VERB	VERB	_	0	root	_	TokenRange=118:121
+24	uma	um	DET	DET	_	25	det	_	TokenRange=122:125
+25	aula	aula	NOUN	NOUN	_	23	obj	_	TokenRange=126:130
+26	de	de	ADP	ADP	_	28	case	_	TokenRange=131:133
+27	bons	bom	ADJ	ADJ	_	28	amod	_	TokenRange=134:138
+28	modos	modo	NOUN	NOUN	_	25	nmod	_	TokenRange=139:144
+29	para	para	ADP	ADP	_	31	case	_	TokenRange=145:149
+30	os	o	DET	DET	_	31	det	_	TokenRange=150:152
+31	advogados	advogado	NOUN	NOUN	_	23	nmod	_	TokenRange=153:162
+32	de	de	ADP	ADP	_	33	case	_	TokenRange=163:165
+33	lula	lula	NOUN	NOUN	_	31	nmod	_	TokenRange=166:170
+34	dotti	_	NOUN	NOUN	_	31	appos	_	TokenRange=171:176
+35	que	_	PRON	PRON	_	37	nsubj	_	TokenRange=177:180
+36	e	e	CCONJ	CONJ	_	37	cc	_	TokenRange=181:182
+37	assessor	assessor	NOUN	NOUN	_	34	conj	_	TokenRange=183:191
+38	de	de	ADP	ADP	_	39	case	_	TokenRange=192:194
+39	acusacao	acusacao	NOUN	NOUN	_	37	nmod	_	TokenRange=195:203
+40	e	e	CCONJ	CONJ	_	41	cc	_	TokenRange=204:205
+41	representante	representante	NOUN	NOUN	_	34	conj	_	TokenRange=206:219
+42-43	da	_	_	_	_	_	_	_	TokenRange=220:222
+42	de	de	ADP	ADP	_	44	case	_	_
+43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	petrobras	petrobra	NOUN	NOUN	_	41	nmod	_	TokenRange=223:232
+45	pediu	pedir	VERB	VERB	_	34	acl:relcl	_	TokenRange=233:238
+46	a	o	DET	DET	_	47	det	_	TokenRange=239:240
+47	palavra	palavra	NOUN	NOUN	_	45	obj	_	TokenRange=241:248
+48	durante	_	ADP	ADP	_	50	case	_	TokenRange=249:256
+49	o	o	DET	DET	_	50	det	_	TokenRange=257:258
+50	depoimento	depoimento	NOUN	NOUN	_	45	nmod	_	TokenRange=259:269
+51	de	de	ADP	ADP	_	52	case	_	TokenRange=270:272
+52	lula	lula	NOUN	NOUN	_	50	nmod	_	TokenRange=273:277
+53	e	e	CCONJ	CONJ	_	54	cc	_	TokenRange=278:279
+54	fez	fazer	VERB	VERB	_	45	conj	_	TokenRange=280:283
+55	o	o	DET	DET	_	56	det	_	TokenRange=284:285
+56	dr	dr	NOUN	NOUN	_	54	obj	_	TokenRange=286:288
+57	cristiano	_	NOUN	NOUN	_	56	appos	_	TokenRange=289:298
+58	zanin	_	NOUN	NOUN	_	56	flat	_	TokenRange=299:304
+59	dancar	dancar	VERB	VERB	_	56	acl:inf	_	TokenRange=305:311
+60	o	o	DET	DET	_	62	det	_	TokenRange=312:313
+61	creu	creu	NOUN	NOUN	_	59	obj	_	TokenRange=314:318
+62	velocidade	velocidade	NOUN	NOUN	_	59	obj	_	TokenRange=319:329
+63	numero	_	NOUN	NOUN	_	62	appos	_	TokenRange=330:336
+64	5	_	NUM	NUM	NumType=Card	63	appos	_	TokenRange=337:338
+65	repare	reparar	VERB	VERB	_	54	ccomp	_	TokenRange=339:345
+66-67	na	_	_	_	_	_	_	_	TokenRange=346:348
+66	em	em	ADP	ADP	_	68	case	_	_
+67	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
+68	cara	cara	NOUN	NOUN	_	65	nmod	_	TokenRange=349:353
+69	de	de	ADP	ADP	_	70	case	_	TokenRange=354:356
+70	paisagem	paisagem	NOUN	NOUN	_	68	nmod	_	TokenRange=357:365
+71-72	do	_	_	_	_	_	_	_	TokenRange=366:368
+71	de	de	ADP	ADP	_	73	case	_	_
+72	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
+73	expresidente	expresidente	NOUN	NOUN	_	68	nmod	_	TokenRange=369:381
+

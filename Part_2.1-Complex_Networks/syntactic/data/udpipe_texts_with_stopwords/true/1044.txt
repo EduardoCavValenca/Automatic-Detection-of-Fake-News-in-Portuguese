@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = de moto no himalaia como e rodar no topo do mundo g1 andou 1000 km pela regiao de ladakh na india a mais de 5 mil metros de altitude no caminho belas paisagens e um roteiro ao lado de precipicios com a 2 maior populacao do planeta e a economia emergente que mais cresce a india tambem e uma miscelanea de culturas e etnias mas
+1	de	de	ADP	ADP	_	2	case	_	TokenRange=0:2
+2	moto	moto	NOUN	NOUN	_	16	nmod	_	TokenRange=3:7
+3-4	no	_	_	_	_	_	_	_	TokenRange=8:10
+3	em	em	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	himalaia	himalaia	NOUN	NOUN	_	2	nmod	_	TokenRange=11:19
+6	como	_	CCONJ	CONJ	_	8	cc	_	TokenRange=20:24
+7	e	_	CCONJ	CONJ	_	8	cc	_	TokenRange=25:26
+8	rodar	rodar	VERB	VERB	_	2	conj	_	TokenRange=27:32
+9-10	no	_	_	_	_	_	_	_	TokenRange=33:35
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	topo	topo	NOUN	NOUN	_	8	nmod	_	TokenRange=36:40
+12-13	do	_	_	_	_	_	_	_	TokenRange=41:43
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mundo	mundo	NOUN	NOUN	_	11	nmod	_	TokenRange=44:49
+15	g1	_	NUM	NUM	_	16	nsubj	_	TokenRange=50:52
+16	andou	andar	VERB	VERB	_	0	root	_	TokenRange=53:58
+17	1000	_	NUM	NUM	NumType=Card	18	nummod	_	TokenRange=59:63
+18	km	km	NOUN	NOUN	_	16	obj	_	TokenRange=64:66
+19-20	pela	_	_	_	_	_	_	_	TokenRange=67:71
+19	por	por	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	regiao	regiao	NOUN	NOUN	_	16	nmod	_	TokenRange=72:78
+22	de	de	ADP	ADP	_	23	case	_	TokenRange=79:81
+23	ladakh	_	NOUN	NOUN	_	21	nmod	_	TokenRange=82:88
+24-25	na	_	_	_	_	_	_	_	TokenRange=89:91
+24	em	em	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	india	india	NOUN	NOUN	_	16	nmod	_	TokenRange=92:97
+27	a	_	ADP	ADP	_	32	case	_	TokenRange=98:99
+28	mais	mais	ADV	ADV	_	31	advmod	_	TokenRange=100:104
+29	de	de	ADP	ADP	_	28	case	_	TokenRange=105:107
+30	5	_	NUM	NUM	NumType=Card	31	nummod	_	TokenRange=108:109
+31	mil	_	NUM	NUM	NumType=Card	32	nummod	_	TokenRange=110:113
+32	metros	metro	NOUN	NOUN	_	16	nmod	_	TokenRange=114:120
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=121:123
+34	altitude	altitude	NOUN	NOUN	_	32	nmod	_	TokenRange=124:132
+35-36	no	_	_	_	_	_	_	_	TokenRange=133:135
+35	em	em	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	caminho	caminho	NOUN	NOUN	_	16	nmod	_	TokenRange=136:143
+38	belas	belo	ADJ	ADJ	_	39	amod	_	TokenRange=144:149
+39	paisagens	paisagem	NOUN	NOUN	_	16	nsubj	_	TokenRange=150:159
+40	e	e	CCONJ	CONJ	_	42	cc	_	TokenRange=160:161
+41	um	um	DET	DET	_	42	det	_	TokenRange=162:164
+42	roteiro	roteiro	NOUN	NOUN	_	16	conj	_	TokenRange=165:172
+43-44	ao	_	_	_	_	_	_	_	TokenRange=173:175
+43	a	a	ADP	ADP	_	45	case	_	_
+44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	lado	lado	NOUN	NOUN	_	42	nmod	_	TokenRange=176:180
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=181:183
+47	precipicios	_	NOUN	NOUN	_	45	nmod	_	TokenRange=184:195
+48	com	com	ADP	ADP	_	52	case	_	TokenRange=196:199
+49	a	o	DET	DET	_	52	det	_	TokenRange=200:201
+50	2	_	NUM	NUM	NumType=Card	52	nummod	_	TokenRange=202:203
+51	maior	maior	ADJ	ADJ	_	52	amod	_	TokenRange=204:209
+52	populacao	populacao	NOUN	NOUN	_	47	nmod	_	TokenRange=210:219
+53-54	do	_	_	_	_	_	_	_	TokenRange=220:222
+53	de	de	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	planeta	planeta	NOUN	NOUN	_	52	nmod	_	TokenRange=223:230
+56	e	e	CCONJ	CONJ	_	58	cc	_	TokenRange=231:232
+57	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	TokenRange=233:234
+58	economia	economia	NOUN	NOUN	_	52	conj	_	TokenRange=235:243
+59	emergente	emergente	ADJ	ADJ	_	58	amod	_	TokenRange=244:253
+60	que	_	PRON	PRON	_	62	nsubj	_	TokenRange=254:257
+61	mais	mais	ADV	ADV	_	62	advmod	_	TokenRange=258:262
+62	cresce	crescer	VERB	VERB	_	58	acl:relcl	_	TokenRange=263:269
+63	a	o	DET	DET	_	64	det	_	TokenRange=270:271
+64	india	india	NOUN	NOUN	_	62	nsubj	_	TokenRange=272:277
+65	tambem	tambem	ADV	ADV	_	16	advmod	_	TokenRange=278:284
+66	e	e	CCONJ	CONJ	_	68	cc	_	TokenRange=285:286
+67	uma	um	DET	DET	_	68	det	_	TokenRange=287:290
+68	miscelanea	miscelanea	NOUN	NOUN	_	16	conj	_	TokenRange=291:301
+69	de	de	ADP	ADP	_	70	case	_	TokenRange=302:304
+70	culturas	cultura	NOUN	NOUN	_	68	nmod	_	TokenRange=305:313
+71	e	e	CCONJ	CONJ	_	72	cc	_	TokenRange=314:315
+72	etnias	etnia	NOUN	NOUN	_	70	conj	_	TokenRange=316:322
+73	mas	mas	CCONJ	CONJ	_	68	cc	_	SpacesAfter=\s\s|TokenRange=323:326
+

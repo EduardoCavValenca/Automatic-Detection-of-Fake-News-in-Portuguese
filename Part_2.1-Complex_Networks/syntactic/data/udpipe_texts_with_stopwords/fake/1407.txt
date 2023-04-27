@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan compara temer a dunga renan calheiros cutucou o presidente michel temer mais uma vez o senador que acha que o brasileiro tem cara de idiota concedeu uma entrevista dizendo que o governo deve mudar desse jeito parece a selecao do dunga renan disse querer algo ao estilo tite novo treinador da selecao precisamos chegar em um porto seguro essa foi a comparacao mais absurda que um politico ja fez dunga nao roubou dinheiro publico
+1	renan	_	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	compara	comparar	VERB	VERB	_	0	root	_	TokenRange=6:13
+3	temer	temer	NOUN	NOUN	_	2	obj	_	TokenRange=14:19
+4	a	_	ADP	ADP	_	5	case	_	TokenRange=20:21
+5	dunga	_	NOUN	NOUN	_	2	iobj	_	TokenRange=22:27
+6	renan	_	NOUN	NOUN	_	8	nsubj	_	TokenRange=28:33
+7	calheiros	calheiro	NOUN	NOUN	_	6	flat	_	TokenRange=34:43
+8	cutucou	cutucar	VERB	VERB	_	2	ccomp	_	TokenRange=44:51
+9	o	o	DET	DET	_	10	det	_	TokenRange=52:53
+10	presidente	presidente	NOUN	NOUN	_	8	obj	_	TokenRange=54:64
+11	michel	michel	ADJ	ADJ	_	10	amod	_	TokenRange=65:71
+12	temer	temer	NOUN	NOUN	_	10	appos	_	TokenRange=72:77
+13	mais	mais	ADV	ADV	_	14	advmod	_	TokenRange=78:82
+14	uma	_	NUM	NUM	NumType=Card	15	nummod	_	TokenRange=83:86
+15	vez	vez	NOUN	NOUN	_	8	nmod	_	TokenRange=87:90
+16	o	o	DET	DET	_	17	det	_	TokenRange=91:92
+17	senador	senador	NOUN	NOUN	_	8	nsubj	_	TokenRange=93:100
+18	que	_	PRON	PRON	_	19	nsubj	_	TokenRange=101:104
+19	acha	achar	VERB	VERB	_	17	acl:relcl	_	TokenRange=105:109
+20	que	que	CCONJ	CONJ	_	23	mark	_	TokenRange=110:113
+21	o	o	DET	DET	_	22	det	_	TokenRange=114:115
+22	brasileiro	brasileiro	NOUN	NOUN	_	23	nsubj	_	TokenRange=116:126
+23	tem	ter	VERB	VERB	_	19	ccomp	_	TokenRange=127:130
+24	cara	cara	NOUN	NOUN	_	23	obj	_	TokenRange=131:135
+25	de	de	ADP	ADP	_	26	case	_	TokenRange=136:138
+26	idiota	idiota	NOUN	NOUN	_	24	nmod	_	TokenRange=139:145
+27	concedeu	conceder	VERB	VERB	_	19	ccomp	_	TokenRange=146:154
+28	uma	um	DET	DET	_	29	det	_	TokenRange=155:158
+29	entrevista	entrevista	NOUN	NOUN	_	27	obj	_	TokenRange=159:169
+30	dizendo	dizer	VERB	VERB	_	27	acl	_	TokenRange=170:177
+31	que	que	CCONJ	CONJ	_	35	mark	_	TokenRange=178:181
+32	o	o	DET	DET	_	33	det	_	TokenRange=182:183
+33	governo	governo	NOUN	NOUN	_	35	nsubj	_	TokenRange=184:191
+34	deve	dever	AUX	AUX	_	35	aux	_	TokenRange=192:196
+35	mudar	mudar	VERB	VERB	_	30	ccomp	_	TokenRange=197:202
+36	desse	_	ADP	ADP	_	37	case	_	TokenRange=203:208
+37	jeito	jeito	NOUN	NOUN	_	35	nmod	_	TokenRange=209:214
+38	parece	parecer	VERB	VERB	_	30	ccomp	_	TokenRange=215:221
+39	a	o	DET	DET	_	40	det	_	TokenRange=222:223
+40	selecao	selecao	NOUN	NOUN	_	38	nsubj	_	TokenRange=224:231
+41-42	do	_	_	_	_	_	_	_	TokenRange=232:234
+41	de	de	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	dunga	_	NOUN	NOUN	_	40	nmod	_	TokenRange=235:240
+44	renan	_	PROPN	NOUN	_	45	nsubj	_	TokenRange=241:246
+45	disse	dizer	VERB	VERB	_	38	parataxis	_	TokenRange=247:252
+46	querer	querer	VERB	VERB	_	45	xcomp	_	TokenRange=253:259
+47	algo	_	PRON	PRON	_	46	obj	_	TokenRange=260:264
+48-49	ao	_	_	_	_	_	_	_	TokenRange=265:267
+48	a	a	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	estilo	estilo	NOUN	NOUN	_	47	nmod	_	TokenRange=268:274
+51	tite	_	NOUN	NOUN	_	57	nsubj	_	TokenRange=275:279
+52	novo	novo	ADJ	ADJ	_	53	amod	_	TokenRange=280:284
+53	treinador	treinador	NOUN	NOUN	_	57	nsubj	_	TokenRange=285:294
+54-55	da	_	_	_	_	_	_	_	TokenRange=295:297
+54	de	de	ADP	ADP	_	56	case	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	selecao	selecao	NOUN	NOUN	_	53	nmod	_	TokenRange=298:305
+57	precisamos	precisar	VERB	VERB	_	45	parataxis	_	TokenRange=306:316
+58	chegar	chegar	VERB	VERB	_	57	xcomp	_	TokenRange=317:323
+59	em	em	ADP	ADP	_	61	case	_	TokenRange=324:326
+60	um	um	DET	DET	_	61	det	_	TokenRange=327:329
+61	porto	porto	NOUN	NOUN	_	58	nmod	_	TokenRange=330:335
+62	seguro	seguro	ADJ	ADJ	_	61	amod	_	TokenRange=336:342
+63	essa	_	PRON	PRON	_	66	nsubj	_	TokenRange=343:347
+64	foi	_	AUX	AUX	_	66	cop	_	TokenRange=348:351
+65	a	o	DET	DET	_	66	det	_	TokenRange=352:353
+66	comparacao	comparacao	NOUN	NOUN	_	45	parataxis	_	TokenRange=354:364
+67	mais	mais	ADV	ADV	_	68	advmod	_	TokenRange=365:369
+68	absurda	absurdo	ADJ	ADJ	_	66	amod	_	TokenRange=370:377
+69	que	_	PRON	PRON	_	76	obj	_	TokenRange=378:381
+70	um	um	DET	DET	_	71	det	_	TokenRange=382:384
+71	politico	politico	NOUN	NOUN	_	73	nsubj	_	TokenRange=385:393
+72	ja	ja	ADV	ADV	_	73	advmod	_	TokenRange=394:396
+73	fez	fazer	VERB	VERB	_	66	acl:relcl	_	TokenRange=397:400
+74	dunga	_	NOUN	NOUN	_	76	obj	_	TokenRange=401:406
+75	nao	nao	ADV	ADV	Polarity=Neg	76	advmod	_	TokenRange=407:410
+76	roubou	roubar	VERB	VERB	_	66	acl:relcl	_	TokenRange=411:417
+77	dinheiro	dinheiro	NOUN	NOUN	_	76	obj	_	TokenRange=418:426
+78	publico	_	ADJ	ADJ	_	77	amod	_	TokenRange=427:434
+

@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = delcidio abre o jogo desde o mensalao o pmdb e o principal aliado do pt vem muita bomba por ai em entrevista para o jornalista claudio tognolli da jovem pan o exsenador delcidio do amaral afirmou que as investigacoes contra o expresidente lula ja estao muito avancadas a defesa de lula continua usando aquela estrategia da vitimizacao disse o exsenador confira
+1	delcidio	delcidio	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:8
+2	abre	abrir	VERB	VERB	_	0	root	_	TokenRange=9:13
+3	o	o	DET	DET	_	4	det	_	TokenRange=14:15
+4	jogo	jogo	NOUN	NOUN	_	2	obj	_	TokenRange=16:20
+5	desde	_	ADP	ADP	_	7	case	_	TokenRange=21:26
+6	o	o	DET	DET	_	7	det	_	TokenRange=27:28
+7	mensalao	_	NOUN	NOUN	_	2	nmod	_	TokenRange=29:37
+8	o	o	DET	DET	_	9	det	_	TokenRange=38:39
+9	pmdb	pmdb	NOUN	NOUN	_	17	nsubj	_	TokenRange=40:44
+10	e	e	CCONJ	CONJ	_	13	cc	_	TokenRange=45:46
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	TokenRange=47:48
+12	principal	principal	ADJ	ADJ	_	13	amod	_	TokenRange=49:58
+13	aliado	aliado	NOUN	NOUN	_	9	conj	_	TokenRange=59:65
+14-15	do	_	_	_	_	_	_	_	TokenRange=66:68
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pt	_	NOUN	NOUN	_	13	nmod	_	TokenRange=69:71
+17	vem	vir	VERB	VERB	_	2	conj	_	TokenRange=72:75
+18	muita	_	DET	DET	_	19	det	_	TokenRange=76:81
+19	bomba	bomba	NOUN	NOUN	_	17	obj	_	TokenRange=82:87
+20	por	_	ADP	ADP	_	21	mark	_	TokenRange=88:91
+21	ai	ai	ADV	ADV	_	17	nmod	_	TokenRange=92:94
+22	em	em	ADP	ADP	_	23	case	_	TokenRange=95:97
+23	entrevista	entrevista	NOUN	NOUN	_	17	nmod	_	TokenRange=98:108
+24	para	para	ADP	ADP	_	26	case	_	TokenRange=109:113
+25	o	o	DET	DET	_	26	det	_	TokenRange=114:115
+26	jornalista	jornalista	NOUN	NOUN	_	23	nmod	_	TokenRange=116:126
+27	claudio	claudio	NOUN	NOUN	_	26	appos	_	TokenRange=127:134
+28	tognolli	_	NOUN	NOUN	_	27	flat	_	TokenRange=135:143
+29-30	da	_	_	_	_	_	_	_	TokenRange=144:146
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	jovem	jovem	NOUN	NOUN	_	26	nmod	_	TokenRange=147:152
+32	pan	_	NOUN	NOUN	_	31	flat	_	TokenRange=153:156
+33	o	o	DET	DET	_	34	det	_	TokenRange=157:158
+34	exsenador	exsenador	NOUN	NOUN	_	39	nsubj	_	TokenRange=159:168
+35	delcidio	delcidio	NOUN	NOUN	_	34	appos	_	TokenRange=169:177
+36-37	do	_	_	_	_	_	_	_	TokenRange=178:180
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	amaral	amaral	NOUN	NOUN	_	34	nmod	_	TokenRange=181:187
+39	afirmou	afirmar	VERB	VERB	_	2	parataxis	_	TokenRange=188:195
+40	que	que	CCONJ	CONJ	_	48	mark	_	TokenRange=196:199
+41	as	o	DET	DET	_	42	det	_	TokenRange=200:202
+42	investigacoes	investigacoe	NOUN	NOUN	_	48	nsubj	_	TokenRange=203:216
+43	contra	_	ADP	ADP	_	45	case	_	TokenRange=217:223
+44	o	o	DET	DET	_	45	det	_	TokenRange=224:225
+45	expresidente	expresidente	NOUN	NOUN	_	42	nmod	_	TokenRange=226:238
+46	lula	lula	ADJ	ADJ	_	45	amod	_	TokenRange=239:243
+47	ja	ja	ADV	ADV	_	48	advmod	_	TokenRange=244:246
+48	estao	_	VERB	VERB	_	39	ccomp	_	TokenRange=247:252
+49	muito	muito	ADV	ADV	_	50	advmod	_	TokenRange=253:258
+50	avancadas	avancado	ADJ	ADJ	_	48	xcomp	_	TokenRange=259:268
+51	a	o	DET	DET	_	52	det	_	TokenRange=269:270
+52	defesa	_	NOUN	NOUN	_	48	nsubj	_	TokenRange=271:277
+53	de	de	ADP	ADP	_	54	case	_	TokenRange=278:280
+54	lula	lula	NOUN	NOUN	_	52	nmod	_	TokenRange=281:285
+55	continua	continuar	AUX	AUX	_	56	aux	_	TokenRange=286:294
+56	usando	usar	VERB	VERB	_	48	conj	_	TokenRange=295:301
+57	aquela	_	DET	DET	_	58	det	_	TokenRange=302:308
+58	estrategia	estrategia	NOUN	NOUN	_	56	obj	_	TokenRange=309:319
+59-60	da	_	_	_	_	_	_	_	TokenRange=320:322
+59	de	de	ADP	ADP	_	61	case	_	_
+60	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	vitimizacao	vitimizacao	NOUN	NOUN	_	58	nmod	_	TokenRange=323:334
+62	disse	dizer	VERB	VERB	_	48	parataxis	_	TokenRange=335:340
+63	o	o	DET	DET	_	64	det	_	TokenRange=341:342
+64	exsenador	exsenador	NOUN	NOUN	_	65	nsubj	_	TokenRange=343:352
+65	confira	conferir	VERB	VERB	_	62	ccomp	_	TokenRange=353:360
+

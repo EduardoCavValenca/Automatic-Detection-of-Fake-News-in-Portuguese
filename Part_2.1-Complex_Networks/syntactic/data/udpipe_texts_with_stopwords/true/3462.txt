@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = quartafeira 29 de novembro bom dia aqui estao as principais noticias para voce comecar o dia beminformado o acidente aereo com o time da chapecoense faz 1 ano hoje a tragedia matou 71 pessoas entre jogadores diretores do clube jornalistas e tripulacao em chapeco sc parentes moradores e torcedores fazem vigilia e homenagens aos mortos alem da dor e da
+1	quartafeira	quartafeira	NOUN	NOUN	_	8	parataxis	_	TokenRange=0:11
+2	29	_	NUM	NUM	NumType=Card	1	appos	_	TokenRange=12:14
+3	de	de	ADP	ADP	_	4	case	_	TokenRange=15:17
+4	novembro	_	PROPN	PNOUN	_	2	nmod	_	TokenRange=18:26
+5	bom	bom	ADJ	ADJ	_	6	amod	_	TokenRange=27:30
+6	dia	dia	NOUN	NOUN	_	1	appos	_	TokenRange=31:34
+7	aqui	aqui	ADV	ADV	_	8	advmod	_	TokenRange=35:39
+8	estao	_	VERB	VERB	_	0	root	_	TokenRange=40:45
+9	as	o	DET	DET	_	11	det	_	TokenRange=46:48
+10	principais	principal	ADJ	ADJ	_	11	amod	_	TokenRange=49:59
+11	noticias	noticia	NOUN	NOUN	_	8	nsubj	_	TokenRange=60:68
+12	para	_	ADP	ADP	_	14	mark	_	TokenRange=69:73
+13	voce	_	PRON	PRON	_	14	nsubj	_	TokenRange=74:78
+14	comecar	comecar	VERB	VERB	_	11	nmod	_	TokenRange=79:86
+15	o	o	DET	DET	_	16	det	_	TokenRange=87:88
+16	dia	dia	NOUN	NOUN	_	14	obj	_	TokenRange=89:92
+17	beminformado	beminformado	ADJ	ADJ	_	16	amod	_	TokenRange=93:105
+18	o	o	DET	DET	_	19	det	_	TokenRange=106:107
+19	acidente	acidente	NOUN	NOUN	_	27	nsubj	_	TokenRange=108:116
+20	aereo	aereo	ADJ	ADJ	_	19	amod	_	TokenRange=117:122
+21	com	com	ADP	ADP	_	23	case	_	TokenRange=123:126
+22	o	o	DET	DET	_	23	det	_	TokenRange=127:128
+23	time	time	NOUN	NOUN	_	19	nmod	_	TokenRange=129:133
+24-25	da	_	_	_	_	_	_	_	TokenRange=134:136
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	chapecoense	chapecoense	NOUN	NOUN	_	23	nmod	_	TokenRange=137:148
+27	faz	fazer	VERB	VERB	_	8	parataxis	_	TokenRange=149:152
+28	1	_	NUM	NUM	NumType=Card	29	nummod	_	TokenRange=153:154
+29	ano	ano	NOUN	NOUN	_	30	nmod	_	TokenRange=155:158
+30	hoje	hoje	ADV	ADV	_	27	advmod	_	TokenRange=159:163
+31	a	o	DET	DET	_	32	det	_	TokenRange=164:165
+32	tragedia	tragedia	NOUN	NOUN	_	33	nsubj	_	TokenRange=166:174
+33	matou	matar	VERB	VERB	_	27	parataxis	_	TokenRange=175:180
+34	71	_	NUM	NUM	NumType=Card	35	nummod	_	TokenRange=181:183
+35	pessoas	pessoa	NOUN	NOUN	_	33	obj	_	TokenRange=184:191
+36	entre	_	ADP	ADP	_	37	case	_	TokenRange=192:197
+37	jogadores	jogador	NOUN	NOUN	_	33	nmod	_	TokenRange=198:207
+38	diretores	diretor	NOUN	NOUN	_	37	amod	_	TokenRange=208:217
+39-40	do	_	_	_	_	_	_	_	TokenRange=218:220
+39	de	de	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	clube	clube	NOUN	NOUN	_	38	nmod	_	TokenRange=221:226
+42	jornalistas	jornalista	NOUN	NOUN	_	37	appos	_	TokenRange=227:238
+43	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=239:240
+44	tripulacao	tripulacao	NOUN	NOUN	_	42	conj	_	TokenRange=241:251
+45	em	em	ADP	ADP	_	46	case	_	TokenRange=252:254
+46	chapeco	chapeco	NOUN	NOUN	_	42	nmod	_	TokenRange=255:262
+47	sc	_	X	X	_	46	appos	_	TokenRange=263:265
+48	parentes	parente	NOUN	NOUN	_	52	nsubj	_	TokenRange=266:274
+49	moradores	morador	NOUN	NOUN	_	52	nsubj	_	TokenRange=275:284
+50	e	e	CCONJ	CONJ	_	51	cc	_	TokenRange=285:286
+51	torcedores	torcedor	NOUN	NOUN	_	49	conj	_	TokenRange=287:297
+52	fazem	fazer	VERB	VERB	_	33	parataxis	_	TokenRange=298:303
+53	vigilia	vigilia	NOUN	NOUN	_	52	obj	_	TokenRange=304:311
+54	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=312:313
+55	homenagens	homenagem	NOUN	NOUN	_	53	conj	_	TokenRange=314:324
+56-57	aos	_	_	_	_	_	_	_	TokenRange=325:328
+56	a	a	ADP	ADP	_	58	case	_	_
+57	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
+58	mortos	morto	NOUN	NOUN	_	55	nmod	_	TokenRange=329:335
+59	alem	alem	ADV	ADV	_	52	advmod	_	TokenRange=336:340
+60-61	da	_	_	_	_	_	_	_	TokenRange=341:343
+60	de	de	ADP	ADP	_	62	case	_	_
+61	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+62	dor	dor	NOUN	NOUN	_	59	nmod	_	TokenRange=344:347
+63	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=348:349
+64-65	da	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=350:352
+64	de	de	ADP	ADP	_	58	case	_	_
+65	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+

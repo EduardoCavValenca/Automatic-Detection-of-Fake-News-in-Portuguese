@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lindbergh se pronuncia sobre briga em restaurante jogaram minha esposa no chao deixandoa com escoriacoes o senador lindbergh se pronunciou atraves das redes sociais a confusao aconteceu na porta de um restaurante na barra da tijuca rio de janeiro um jovem abordou o senador aos gritos de forapt fora lindbergh ladrao voce roubou o pais lindbergh nao se calou e chamou o rapaz de fascista e babaca foi ai que comecou a briga conforme o video abaixo
+1	lindbergh	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:9
+2	se	_	PRON	PRON	_	3	obj	_	TokenRange=10:12
+3	pronuncia	pronunciar	VERB	VERB	_	0	root	_	TokenRange=13:22
+4	sobre	_	ADP	ADP	_	5	case	_	TokenRange=23:28
+5	briga	briga	NOUN	NOUN	_	3	nmod	_	TokenRange=29:34
+6	em	em	ADP	ADP	_	7	case	_	TokenRange=35:37
+7	restaurante	restaurante	NOUN	NOUN	_	5	nmod	_	TokenRange=38:49
+8	jogaram	jogar	VERB	VERB	_	3	conj	_	TokenRange=50:57
+9	minha	_	DET	DET	_	10	det:poss	_	TokenRange=58:63
+10	esposa	esposo	NOUN	NOUN	_	8	obj	_	TokenRange=64:70
+11-12	no	_	_	_	_	_	_	_	TokenRange=71:73
+11	em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	chao	chao	NOUN	NOUN	_	8	nmod	_	TokenRange=74:78
+14	deixandoa	deixandoar	VERB	VERB	_	8	acl	_	TokenRange=79:88
+15	com	com	ADP	ADP	_	16	case	_	TokenRange=89:92
+16	escoriacoes	escoriacoe	NOUN	NOUN	_	14	nmod	_	TokenRange=93:104
+17	o	o	DET	DET	_	18	det	_	TokenRange=105:106
+18	senador	senador	NOUN	NOUN	_	21	nsubj	_	TokenRange=107:114
+19	lindbergh	_	NOUN	NOUN	_	18	appos	_	TokenRange=115:124
+20	se	_	PRON	PRON	_	21	obj	_	TokenRange=125:127
+21	pronunciou	pronunciar	VERB	VERB	_	3	parataxis	_	TokenRange=128:138
+22	atraves	atraves	ADV	ADV	_	21	advmod	_	TokenRange=139:146
+23-24	das	_	_	_	_	_	_	_	TokenRange=147:150
+23	de	de	ADP	ADP	_	25	case	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	redes	rede	NOUN	NOUN	_	22	nmod	_	TokenRange=151:156
+26	sociais	social	ADJ	ADJ	_	25	amod	_	TokenRange=157:164
+27	a	o	DET	DET	_	28	det	_	TokenRange=165:166
+28	confusao	confusao	NOUN	NOUN	_	29	nsubj	_	TokenRange=167:175
+29	aconteceu	acontecer	VERB	VERB	_	3	conj	_	TokenRange=176:185
+30-31	na	_	_	_	_	_	_	_	TokenRange=186:188
+30	em	em	ADP	ADP	_	32	case	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	porta	porta	NOUN	NOUN	_	29	nmod	_	TokenRange=189:194
+33	de	de	ADP	ADP	_	35	case	_	TokenRange=195:197
+34	um	um	DET	DET	_	35	det	_	TokenRange=198:200
+35	restaurante	restaurante	NOUN	NOUN	_	32	nmod	_	TokenRange=201:212
+36-37	na	_	_	_	_	_	_	_	TokenRange=213:215
+36	em	em	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	barra	barra	NOUN	NOUN	_	29	nmod	_	TokenRange=216:221
+39-40	da	_	_	_	_	_	_	_	TokenRange=222:224
+39	de	de	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	tijuca	tijuca	NOUN	NOUN	_	38	nmod	_	TokenRange=225:231
+42	rio	rio	NOUN	NOUN	_	29	parataxis	_	TokenRange=232:235
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=236:238
+44	janeiro	_	PROPN	PNOUN	_	42	nmod	_	TokenRange=239:246
+45	um	um	DET	DET	_	46	det	_	TokenRange=247:249
+46	jovem	jovem	NOUN	NOUN	_	47	nsubj	_	TokenRange=250:255
+47	abordou	abordar	VERB	VERB	_	29	parataxis	_	TokenRange=256:263
+48	o	o	DET	DET	_	49	det	_	TokenRange=264:265
+49	senador	senador	NOUN	NOUN	_	47	obj	_	TokenRange=266:273
+50-51	aos	_	_	_	_	_	_	_	TokenRange=274:277
+50	a	a	ADP	ADP	_	52	case	_	_
+51	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	gritos	grito	NOUN	NOUN	_	47	nmod	_	TokenRange=278:284
+53	de	_	ADP	ADP	_	54	mark	_	TokenRange=285:287
+54	forapt	_	NOUN	NOUN	_	52	nmod	_	TokenRange=288:294
+55	fora	fora	ADV	ADV	_	54	advmod	_	TokenRange=295:299
+56	lindbergh	_	NOUN	NOUN	_	54	appos	_	TokenRange=300:309
+57	ladrao	ladrao	NOUN	NOUN	_	56	flat	_	TokenRange=310:316
+58	voce	_	PRON	PRON	_	59	nsubj	_	TokenRange=317:321
+59	roubou	roubar	VERB	VERB	_	56	acl:relcl	_	TokenRange=322:328
+60	o	o	DET	DET	_	61	det	_	TokenRange=329:330
+61	pais	_	NOUN	NOUN	_	59	obj	_	TokenRange=331:335
+62	lindbergh	_	NOUN	NOUN	_	61	appos	_	TokenRange=336:345
+63	nao	nao	ADV	ADV	Polarity=Neg	65	advmod	_	TokenRange=346:349
+64	se	_	PRON	PRON	_	65	expl:pv	_	TokenRange=350:352
+65	calou	calar	VERB	VERB	_	59	ccomp	_	TokenRange=353:358
+66	e	e	CCONJ	CONJ	_	67	cc	_	TokenRange=359:360
+67	chamou	chamar	VERB	VERB	_	65	conj	_	TokenRange=361:367
+68	o	o	DET	DET	_	69	det	_	TokenRange=368:369
+69	rapaz	rapaz	NOUN	NOUN	_	67	obj	_	TokenRange=370:375
+70	de	de	ADP	ADP	_	71	case	_	TokenRange=376:378
+71	fascista	fascista	NOUN	NOUN	_	67	nmod	_	TokenRange=379:387
+72	e	e	CCONJ	CONJ	_	73	cc	_	TokenRange=388:389
+73	babaca	babaca	NOUN	NOUN	_	71	conj	_	TokenRange=390:396
+74	foi	_	VERB	VERB	_	65	conj	_	TokenRange=397:400
+75	ai	_	ADV	ADV	_	74	advmod	_	TokenRange=401:403
+76	que	que	CCONJ	CONJ	_	77	mark	_	TokenRange=404:407
+77	comecou	comecar	VERB	VERB	_	74	csubj	_	TokenRange=408:415
+78	a	o	DET	DET	_	79	det	_	TokenRange=416:417
+79	briga	briga	NOUN	NOUN	_	77	obj	_	TokenRange=418:423
+80	conforme	_	ADP	ADP	_	82	case	_	TokenRange=424:432
+81	o	o	DET	DET	_	82	det	_	TokenRange=433:434
+82	video	video	NOUN	NOUN	_	77	nmod	_	TokenRange=435:440
+83	abaixo	abaixo	ADV	ADV	_	77	advmod	_	TokenRange=441:447
+

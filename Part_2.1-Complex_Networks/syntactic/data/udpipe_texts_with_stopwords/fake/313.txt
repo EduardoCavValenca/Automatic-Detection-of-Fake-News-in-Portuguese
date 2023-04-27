@@ -1,0 +1,23 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = anonimo escreve obraprima literaria os erros de luiz autor desconhecido ate o momento autor desconhecido
+1	anonimo	anonimo	ADJ	ADJ	_	2	nsubj	_	TokenRange=0:7
+2	escreve	escrever	VERB	VERB	_	0	root	_	TokenRange=8:15
+3	obraprima	obraprima	NOUN	NOUN	_	2	obj	_	TokenRange=16:25
+4	literaria	literaria	ADJ	ADJ	_	3	amod	_	TokenRange=26:35
+5	os	o	DET	DET	_	6	det	_	TokenRange=36:38
+6	erros	erro	NOUN	NOUN	_	2	obj	_	TokenRange=39:44
+7	de	de	ADP	ADP	_	8	case	_	TokenRange=45:47
+8	luiz	luiz	NOUN	NOUN	_	6	nmod	_	TokenRange=48:52
+9	autor	autor	NOUN	NOUN	_	6	appos	_	TokenRange=53:58
+10	desconhecido	desconhecido	ADJ	ADJ	_	9	amod	_	TokenRange=59:71
+11	ate	_	ADP	ADP	_	13	case	_	TokenRange=72:75
+12	o	o	DET	DET	_	13	det	_	TokenRange=76:77
+13	momento	momento	NOUN	NOUN	_	14	nmod	_	TokenRange=78:85
+14	autor	autor	NOUN	NOUN	_	2	obj	_	TokenRange=86:91
+15	desconhecido	desconhecido	ADJ	ADJ	_	14	amod	_	TokenRange=92:104
+

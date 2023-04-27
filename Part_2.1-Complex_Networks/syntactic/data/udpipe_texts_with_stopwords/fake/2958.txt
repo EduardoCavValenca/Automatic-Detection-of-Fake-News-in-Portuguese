@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = maior jurista do pais faz alerta tenebroso se impeachment nao passar brasil vai virar uma venezuela o brasil e o maior candidato do mundo a ficar como a venezuela vai faltar tudo a economia vai afundar vai haver desemprego vai haver violencia disse o jurista ives gangra martins dilma nao tem condicoes de governar nao tem competencia e ainda esta barganhando o governo o depoimento e parte de uma entrevista concedida ao movimento nas ruas confira no video
+1	maior	maior	ADJ	ADJ	_	2	amod	_	TokenRange=0:5
+2	jurista	jurista	NOUN	NOUN	_	6	nsubj	_	TokenRange=6:13
+3-4	do	_	_	_	_	_	_	_	TokenRange=14:16
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pais	_	NOUN	NOUN	_	2	nmod	_	TokenRange=17:21
+6	faz	fazer	VERB	VERB	_	0	root	_	TokenRange=22:25
+7	alerta	alerta	NOUN	NOUN	_	6	obj	_	TokenRange=26:32
+8	tenebroso	tenebroso	ADJ	ADJ	_	7	amod	_	TokenRange=33:42
+9	se	_	CCONJ	CONJ	_	12	mark	_	TokenRange=43:45
+10	impeachment	impeachment	NOUN	NOUN	_	6	nsubj	_	TokenRange=46:57
+11	nao	nao	ADV	ADV	Polarity=Neg	12	advmod	_	TokenRange=58:61
+12	passar	passar	VERB	VERB	_	6	advcl	_	TokenRange=62:68
+13	brasil	brasil	NOUN	NOUN	_	12	obj	_	TokenRange=69:75
+14	vai	ir	AUX	AUX	_	17	aux	_	TokenRange=76:79
+15	virar	virar	AUX	AUX	_	17	cop	_	TokenRange=80:85
+16	uma	um	DET	DET	_	17	det	_	TokenRange=86:89
+17	venezuela	_	NOUN	NOUN	_	6	ccomp	_	TokenRange=90:99
+18	o	o	DET	DET	_	19	det	_	TokenRange=100:101
+19	brasil	brasil	NOUN	NOUN	_	17	nsubj	_	TokenRange=102:108
+20	e	e	CCONJ	CONJ	_	23	cc	_	TokenRange=109:110
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	TokenRange=111:112
+22	maior	maior	ADJ	ADJ	_	23	amod	_	TokenRange=113:118
+23	candidato	candidato	NOUN	NOUN	_	19	conj	_	TokenRange=119:128
+24-25	do	_	_	_	_	_	_	_	TokenRange=129:131
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	mundo	mundo	NOUN	NOUN	_	23	nmod	_	TokenRange=132:137
+27	a	_	ADP	ADP	_	28	mark	_	TokenRange=138:139
+28	ficar	ficar	VERB	VERB	_	23	nmod	_	TokenRange=140:145
+29	como	_	ADP	CONJ	_	33	mark	_	TokenRange=146:150
+30	a	o	DET	DET	_	31	det	_	TokenRange=151:152
+31	venezuela	_	NOUN	NOUN	_	33	nsubj	_	TokenRange=153:162
+32	vai	ir	AUX	AUX	_	33	aux	_	TokenRange=163:166
+33	faltar	faltar	VERB	VERB	_	28	advcl	_	TokenRange=167:173
+34	tudo	_	PRON	PRON	_	33	nsubj	_	TokenRange=174:178
+35	a	o	DET	DET	_	36	det	_	TokenRange=179:180
+36	economia	economia	NOUN	NOUN	_	38	nsubj	_	TokenRange=181:189
+37	vai	ir	AUX	AUX	_	38	aux	_	TokenRange=190:193
+38	afundar	afundar	VERB	VERB	_	33	ccomp	_	TokenRange=194:201
+39	vai	ir	AUX	AUX	_	40	aux	_	TokenRange=202:205
+40	haver	haver	VERB	VERB	_	33	ccomp	_	TokenRange=206:211
+41	desemprego	desemprego	NOUN	NOUN	_	40	obj	_	TokenRange=212:222
+42	vai	ir	AUX	AUX	_	43	aux	_	TokenRange=223:226
+43	haver	haver	VERB	VERB	_	33	ccomp	_	TokenRange=227:232
+44	violencia	violencia	NOUN	NOUN	_	43	obj	_	TokenRange=233:242
+45	disse	dizer	VERB	VERB	_	6	parataxis	_	TokenRange=243:248
+46	o	o	DET	DET	_	47	det	_	TokenRange=249:250
+47	jurista	jurista	NOUN	NOUN	_	45	nsubj	_	TokenRange=251:258
+48	ives	_	NOUN	NOUN	_	47	appos	_	TokenRange=259:263
+49	gangra	gangra	NOUN	NOUN	_	47	appos	_	TokenRange=264:270
+50	martins	_	NOUN	NOUN	_	49	flat	_	TokenRange=271:278
+51	dilma	_	NOUN	NOUN	_	49	flat	_	TokenRange=279:284
+52	nao	nao	ADV	ADV	Polarity=Neg	53	advmod	_	TokenRange=285:288
+53	tem	ter	VERB	VERB	_	45	ccomp	_	TokenRange=289:292
+54	condicoes	condicoe	NOUN	NOUN	_	53	obj	_	TokenRange=293:302
+55	de	_	ADP	ADP	_	56	mark	_	TokenRange=303:305
+56	governar	governar	VERB	VERB	_	54	nmod	_	TokenRange=306:314
+57	nao	nao	ADV	ADV	_	58	advmod	_	TokenRange=315:318
+58	tem	ter	VERB	VERB	_	53	conj	_	TokenRange=319:322
+59	competencia	competencia	NOUN	NOUN	_	58	obj	_	TokenRange=323:334
+60	e	e	CCONJ	CONJ	_	63	cc	_	TokenRange=335:336
+61	ainda	ainda	ADV	ADV	_	63	advmod	_	TokenRange=337:342
+62	esta	_	AUX	AUX	_	63	aux	_	TokenRange=343:347
+63	barganhando	barganhar	VERB	VERB	_	58	conj	_	TokenRange=348:359
+64	o	o	DET	DET	_	65	det	_	TokenRange=360:361
+65	governo	governo	NOUN	NOUN	_	63	obj	_	TokenRange=362:369
+66	o	o	DET	DET	_	67	det	_	TokenRange=370:371
+67	depoimento	depoimento	NOUN	NOUN	_	63	obj	_	TokenRange=372:382
+68	e	e	CCONJ	CONJ	_	69	cc	_	TokenRange=383:384
+69	parte	parte	NOUN	NOUN	_	67	conj	_	TokenRange=385:390
+70	de	de	ADP	ADP	_	72	case	_	TokenRange=391:393
+71	uma	um	DET	DET	_	72	det	_	TokenRange=394:397
+72	entrevista	entrevista	NOUN	NOUN	_	69	nmod	_	TokenRange=398:408
+73	concedida	conceder	VERB	VERB	_	72	acl	_	TokenRange=409:418
+74-75	ao	_	_	_	_	_	_	_	TokenRange=419:421
+74	a	a	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	movimento	movimento	NOUN	NOUN	_	73	nmod	_	TokenRange=422:431
+77-78	nas	_	_	_	_	_	_	_	TokenRange=432:435
+77	em	em	ADP	ADP	_	79	case	_	_
+78	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	79	det	_	_
+79	ruas	rua	NOUN	NOUN	_	76	nmod	_	TokenRange=436:440
+80	confira	conferir	VERB	VERB	_	45	ccomp	_	TokenRange=441:448
+81-82	no	_	_	_	_	_	_	_	TokenRange=449:451
+81	em	em	ADP	ADP	_	83	case	_	_
+82	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	83	det	_	_
+83	video	video	NOUN	NOUN	_	80	nmod	_	TokenRange=452:457
+

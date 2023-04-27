@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = boechat sobre as denuncias de lulapode ate ser absolvido pela justica mas a opiniao publica porque esta tudo mal explicado questionou boechat como pode o dono de uma mega empreiteira parar suas atividades no dia a dia para fazer papel de corretor de imoveis como e que o filho do lula recebeu r 25 milhoes e nao consegue provar de onde veio nem toda absolvicao corresponde a uma inocencia
+1	boechat	boechat	NOUN	NOUN	_	0	root	_	TokenRange=0:7
+2	sobre	_	ADP	ADP	_	4	case	_	TokenRange=8:13
+3	as	o	DET	DET	_	4	det	_	TokenRange=14:16
+4	denuncias	_	NOUN	NOUN	_	1	nmod	_	TokenRange=17:26
+5	de	de	ADP	ADP	_	6	case	_	TokenRange=27:29
+6	lulapode	_	NOUN	NOUN	_	4	nmod	_	TokenRange=30:38
+7	ate	_	ADP	ADP	_	9	mark	_	TokenRange=39:42
+8	ser	ser	AUX	AUX	_	9	aux:pass	_	TokenRange=43:46
+9	absolvido	absolver	VERB	VERB	_	1	advcl	_	TokenRange=47:56
+10-11	pela	_	_	_	_	_	_	_	TokenRange=57:61
+10	por	por	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	justica	_	NOUN	NOUN	_	9	nmod	_	TokenRange=62:69
+13	mas	mas	CCONJ	CONJ	_	15	cc	_	TokenRange=70:73
+14	a	o	DET	DET	_	15	det	_	TokenRange=74:75
+15	opiniao	opiniao	NOUN	NOUN	_	9	conj	_	TokenRange=76:83
+16	publica	publico	ADJ	ADJ	_	15	amod	_	TokenRange=84:91
+17	porque	_	CCONJ	CONJ	_	18	mark	_	TokenRange=92:98
+18	esta	_	PRON	PRON	_	21	nsubj	_	TokenRange=99:103
+19	tudo	_	PRON	PRON	_	21	nsubj	_	TokenRange=104:108
+20	mal	mal	ADV	ADV	_	21	advmod	_	TokenRange=109:112
+21	explicado	explicar	VERB	VERB	_	15	acl	_	TokenRange=113:122
+22	questionou	questionar	VERB	VERB	_	1	conj	_	TokenRange=123:133
+23	boechat	boechat	NOUN	NOUN	_	22	obj	_	TokenRange=134:141
+24	como	como	ADV	ADV	_	32	advmod	_	TokenRange=142:146
+25	pode	_	AUX	AUX	_	32	aux	_	TokenRange=147:151
+26	o	o	DET	DET	_	27	det	_	TokenRange=152:153
+27	dono	dono	NOUN	NOUN	_	32	nsubj	_	TokenRange=154:158
+28	de	de	ADP	ADP	_	31	case	_	TokenRange=159:161
+29	uma	um	DET	DET	_	31	det	_	TokenRange=162:165
+30	mega	mego	ADJ	ADJ	_	31	amod	_	TokenRange=166:170
+31	empreiteira	empreiteiro	NOUN	NOUN	_	27	nmod	_	TokenRange=171:182
+32	parar	parar	VERB	VERB	_	23	acl:inf	_	TokenRange=183:188
+33	suas	_	DET	DET	_	34	det:poss	_	TokenRange=189:193
+34	atividades	atividade	NOUN	NOUN	_	32	obj	_	TokenRange=194:204
+35-36	no	_	_	_	_	_	_	_	TokenRange=205:207
+35	em	em	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	dia	dia	NOUN	NOUN	_	32	nmod	_	TokenRange=208:211
+38	a	_	ADP	ADP	_	39	case	_	TokenRange=212:213
+39	dia	dia	NOUN	NOUN	_	37	nmod	_	TokenRange=214:217
+40	para	_	ADP	ADP	_	41	mark	_	TokenRange=218:222
+41	fazer	fazer	VERB	VERB	_	32	advcl	_	TokenRange=223:228
+42	papel	papel	NOUN	NOUN	_	41	obj	_	TokenRange=229:234
+43	de	de	ADP	ADP	_	44	case	_	TokenRange=235:237
+44	corretor	corretor	NOUN	NOUN	_	42	nmod	_	TokenRange=238:246
+45	de	de	ADP	ADP	_	46	case	_	TokenRange=247:249
+46	imoveis	imovel	NOUN	NOUN	_	44	nmod	_	TokenRange=250:257
+47	como	como	ADV	ADV	_	55	mark	_	TokenRange=258:262
+48	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=263:264
+49	que	que	CCONJ	CONJ	_	55	mark	_	TokenRange=265:268
+50	o	o	DET	DET	_	51	det	_	TokenRange=269:270
+51	filho	filho	NOUN	NOUN	_	55	nsubj	_	TokenRange=271:276
+52-53	do	_	_	_	_	_	_	_	TokenRange=277:279
+52	de	de	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	lula	lula	NOUN	NOUN	_	51	nmod	_	TokenRange=280:284
+55	recebeu	receber	VERB	VERB	_	32	conj	_	TokenRange=285:292
+56	r	r	NOUN	NOUN	_	55	obj	_	TokenRange=293:294
+57	25	_	NUM	NUM	NumType=Card	58	nummod	_	TokenRange=295:297
+58	milhoes	_	NUM	NUM	NumType=Card	56	nummod	_	TokenRange=298:305
+59	e	e	CCONJ	CONJ	_	61	cc	_	TokenRange=306:307
+60	nao	nao	ADV	ADV	Polarity=Neg	61	advmod	_	TokenRange=308:311
+61	consegue	conseguir	VERB	VERB	_	55	conj	_	TokenRange=312:320
+62	provar	provar	VERB	VERB	_	61	xcomp	_	TokenRange=321:327
+63	de	_	ADP	ADP	_	65	mark	_	TokenRange=328:330
+64	onde	onde	ADV	ADV	_	65	nmod	_	TokenRange=331:335
+65	veio	_	VERB	VERB	_	62	nmod	_	TokenRange=336:340
+66	nem	_	CCONJ	CONJ	_	69	cc	_	TokenRange=341:344
+67	toda	_	DET	DET	_	68	det	_	TokenRange=345:349
+68	absolvicao	_	NOUN	NOUN	_	69	nsubj	_	TokenRange=350:360
+69	corresponde	corresponder	VERB	VERB	_	55	conj	_	TokenRange=361:372
+70	a	_	ADP	ADP	_	72	case	_	TokenRange=373:374
+71	uma	um	DET	DET	_	72	det	_	TokenRange=375:378
+72	inocencia	inocencia	NOUN	NOUN	_	69	nmod	_	SpacesAfter=\s\s|TokenRange=379:388
+

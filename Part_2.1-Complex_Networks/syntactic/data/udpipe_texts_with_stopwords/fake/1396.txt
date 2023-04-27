@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = dilma vai escrever romance policial qual sera o nome do livro o enigma da mandioca dilma rousseff disse para o jornal folha de s paulo no ultimo dia 01 que ira escrever um romance policial a expresidente contou que tem uma colecao de livros do genero atualmente dilma vive recolhida em seu apartamento de 70 metros quadrados no bairro tristeza em porto alegre pois e nao e so a dilma que vive na tristeza o brasileiro tambem
+1	dilma	dilma	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	vai	ir	AUX	AUX	_	3	aux	_	TokenRange=6:9
+3	escrever	escrever	VERB	VERB	_	0	root	_	TokenRange=10:18
+4	romance	romance	NOUN	NOUN	_	3	obj	_	TokenRange=19:26
+5	policial	policial	ADJ	ADJ	_	4	amod	_	TokenRange=27:35
+6	qual	_	PRON	PRON	_	4	acl:relcl	_	TokenRange=36:40
+7	sera	_	AUX	AUX	_	9	cop	_	TokenRange=41:45
+8	o	o	DET	DET	_	9	det	_	TokenRange=46:47
+9	nome	nome	NOUN	NOUN	_	6	nsubj	_	TokenRange=48:52
+10-11	do	_	_	_	_	_	_	_	TokenRange=53:55
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	livro	livro	NOUN	NOUN	_	9	nmod	_	TokenRange=56:61
+13	o	o	DET	DET	_	14	det	_	TokenRange=62:63
+14	enigma	enigma	NOUN	NOUN	_	12	appos	_	TokenRange=64:70
+15-16	da	_	_	_	_	_	_	_	TokenRange=71:73
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mandioca	mandioca	NOUN	NOUN	_	14	nmod	_	TokenRange=74:82
+18	dilma	dilma	NOUN	NOUN	_	17	appos	_	TokenRange=83:88
+19	rousseff	rousseff	NOUN	NOUN	_	18	flat	_	TokenRange=89:97
+20	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=98:103
+21	para	para	ADP	ADP	_	23	case	_	TokenRange=104:108
+22	o	o	DET	DET	_	23	det	_	TokenRange=109:110
+23	jornal	jornal	NOUN	NOUN	_	20	nmod	_	TokenRange=111:117
+24	folha	folha	NOUN	NOUN	_	23	appos	_	TokenRange=118:123
+25	de	de	ADP	ADP	_	27	case	_	TokenRange=124:126
+26	s	s	NOUN	NOUN	_	27	nmod	_	TokenRange=127:128
+27	paulo	paulo	NOUN	NOUN	_	24	nmod	_	TokenRange=129:134
+28-29	no	_	_	_	_	_	_	_	TokenRange=135:137
+28	em	em	ADP	ADP	_	31	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	ultimo	_	ADJ	ADJ	_	31	amod	_	TokenRange=138:144
+31	dia	dia	NOUN	NOUN	_	20	nmod	_	TokenRange=145:148
+32	01	_	NUM	NUM	NumType=Card	31	nmod	_	TokenRange=149:151
+33	que	que	CCONJ	CONJ	_	35	mark	_	TokenRange=152:155
+34	ira	_	AUX	AUX	_	35	aux	_	TokenRange=156:159
+35	escrever	escrever	VERB	VERB	_	20	ccomp	_	TokenRange=160:168
+36	um	um	DET	DET	_	37	det	_	TokenRange=169:171
+37	romance	romance	NOUN	NOUN	_	35	obj	_	TokenRange=172:179
+38	policial	policial	ADJ	ADJ	_	37	amod	_	TokenRange=180:188
+39	a	o	DET	DET	_	40	det	_	TokenRange=189:190
+40	expresidente	expresidente	NOUN	NOUN	_	41	nsubj	_	TokenRange=191:203
+41	contou	contar	VERB	VERB	_	20	parataxis	_	TokenRange=204:210
+42	que	que	CCONJ	CONJ	_	43	mark	_	TokenRange=211:214
+43	tem	ter	VERB	VERB	_	41	ccomp	_	TokenRange=215:218
+44	uma	um	DET	DET	_	45	det	_	TokenRange=219:222
+45	colecao	colecao	NOUN	NOUN	_	43	obj	_	TokenRange=223:230
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=231:233
+47	livros	livro	NOUN	NOUN	_	45	nmod	_	TokenRange=234:240
+48-49	do	_	_	_	_	_	_	_	TokenRange=241:243
+48	de	de	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	genero	genero	NOUN	NOUN	_	45	nmod	_	TokenRange=244:250
+51	atualmente	atualmente	ADV	ADV	_	53	advmod	_	TokenRange=251:261
+52	dilma	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=262:267
+53	vive	_	VERB	VERB	_	41	ccomp	_	TokenRange=268:272
+54	recolhida	recolhido	ADJ	ADJ	_	53	xcomp	_	TokenRange=273:282
+55	em	em	ADP	ADP	_	57	case	_	TokenRange=283:285
+56	seu	_	DET	DET	_	57	det:poss	_	TokenRange=286:289
+57	apartamento	apartamento	NOUN	NOUN	_	54	nmod	_	TokenRange=290:301
+58	de	de	ADP	ADP	_	60	case	_	TokenRange=302:304
+59	70	_	NUM	NUM	NumType=Card	60	nummod	_	TokenRange=305:307
+60	metros	metro	NOUN	NOUN	_	57	nmod	_	TokenRange=308:314
+61	quadrados	quadrado	ADJ	ADJ	_	60	amod	_	TokenRange=315:324
+62-63	no	_	_	_	_	_	_	_	TokenRange=325:327
+62	em	em	ADP	ADP	_	64	case	_	_
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	bairro	bairro	NOUN	NOUN	_	57	nmod	_	TokenRange=328:334
+65	tristeza	tristeza	NOUN	NOUN	_	64	appos	_	TokenRange=335:343
+66	em	em	ADP	ADP	_	67	case	_	TokenRange=344:346
+67	porto	porto	NOUN	NOUN	_	57	nmod	_	TokenRange=347:352
+68	alegre	alegre	ADJ	ADJ	_	67	amod	_	TokenRange=353:359
+69	pois	_	CCONJ	CONJ	_	53	advmod	_	TokenRange=360:364
+70	e	e	CCONJ	CONJ	_	71	cc	_	TokenRange=365:366
+71	nao	nao	ADV	ADV	Polarity=Neg	69	conj	_	TokenRange=367:370
+72	e	e	CCONJ	CONJ	_	73	cc	_	TokenRange=371:372
+73	so	so	ADV	ADV	_	71	advmod	_	TokenRange=373:375
+74	a	o	DET	DET	_	75	det	_	TokenRange=376:377
+75	dilma	_	NOUN	NOUN	_	53	nsubj	_	TokenRange=378:383
+76	que	_	PRON	PRON	_	77	nsubj	_	TokenRange=384:387
+77	vive	_	VERB	VERB	_	75	acl:relcl	_	TokenRange=388:392
+78-79	na	_	_	_	_	_	_	_	TokenRange=393:395
+78	em	em	ADP	ADP	_	80	case	_	_
+79	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	80	det	_	_
+80	tristeza	tristeza	NOUN	NOUN	_	77	nmod	_	TokenRange=396:404
+81	o	o	DET	DET	_	82	det	_	TokenRange=405:406
+82	brasileiro	brasileiro	NOUN	NOUN	_	77	nsubj	_	TokenRange=407:417
+83	tambem	tambem	ADV	ADV	_	77	advmod	_	TokenRange=418:424
+

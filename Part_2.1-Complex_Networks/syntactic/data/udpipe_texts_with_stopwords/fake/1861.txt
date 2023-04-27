@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = lima duarte lula e um imbecil e dilma nunca esteve preparada para nos governar ela nao esta preparada para nos conduzir para um futuro melhor ela nao sabe o que e isso que ela seja feliz em outro canto o ator lima duarte juntamente com o jovem tome do movimento nas ruas gravou um video onde ele da sua opiniao sobre a situacao pela qual o pais esta passando lima destacou
+1	lima	lima	NOUN	NOUN	_	77	nsubj	_	TokenRange=0:4
+2	duarte	duarte	NOUN	NOUN	_	1	flat	_	TokenRange=5:11
+3	lula	_	NOUN	NOUN	_	1	appos	_	TokenRange=12:16
+4	e	e	CCONJ	CONJ	_	6	cc	_	TokenRange=17:18
+5	um	um	DET	DET	_	6	det	_	TokenRange=19:21
+6	imbecil	imbecil	NOUN	NOUN	_	1	conj	_	TokenRange=22:29
+7	e	e	CCONJ	CONJ	_	10	cc	_	TokenRange=30:31
+8	dilma	dilma	NOUN	NOUN	_	10	nsubj	_	TokenRange=32:37
+9	nunca	nunca	ADV	ADV	_	10	advmod	_	TokenRange=38:43
+10	esteve	_	VERB	VERB	_	6	conj	_	TokenRange=44:50
+11	preparada	preparado	ADJ	ADJ	_	10	xcomp	_	TokenRange=51:60
+12	para	_	ADP	ADP	_	15	mark	_	TokenRange=61:65
+13-14	nos	_	_	_	_	_	_	_	TokenRange=66:69
+13	em	em	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	governar	governar	VERB	VERB	_	10	advcl	_	TokenRange=70:78
+16	ela	_	PRON	PRON	_	18	nsubj	_	TokenRange=79:82
+17	nao	nao	ADV	ADV	Polarity=Neg	18	advmod	_	TokenRange=83:86
+18	esta	_	VERB	VERB	_	0	root	_	TokenRange=87:91
+19	preparada	preparado	ADJ	ADJ	_	18	xcomp	_	TokenRange=92:101
+20	para	_	ADP	ADP	_	23	mark	_	TokenRange=102:106
+21-22	nos	_	_	_	_	_	_	_	TokenRange=107:110
+21	em	em	ADP	ADP	_	23	case	_	_
+22	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	conduzir	conduzir	VERB	VERB	_	30	advcl	_	TokenRange=111:119
+24	para	para	ADP	ADP	_	26	case	_	TokenRange=120:124
+25	um	um	DET	DET	_	26	det	_	TokenRange=125:127
+26	futuro	futuro	NOUN	NOUN	_	23	nmod	_	TokenRange=128:134
+27	melhor	melhor	ADJ	ADJ	_	26	amod	_	TokenRange=135:141
+28	ela	_	PRON	PRON	_	30	nsubj	_	TokenRange=142:145
+29	nao	nao	ADV	ADV	Polarity=Neg	30	advmod	_	TokenRange=146:149
+30	sabe	saber	VERB	VERB	_	18	advcl	_	TokenRange=150:154
+31	o	o	PRON	DET	_	32	det	_	TokenRange=155:156
+32	que	_	PRON	PRON	_	30	obj	_	TokenRange=157:160
+33	e	e	CCONJ	CONJ	_	34	cc	_	TokenRange=161:162
+34	isso	_	PRON	PRON	_	32	conj	_	TokenRange=163:167
+35	que	_	PRON	PRON	_	37	mark	_	TokenRange=168:171
+36	ela	_	PRON	PRON	_	37	nsubj	_	TokenRange=172:175
+37	seja	ser	VERB	VERB	_	32	acl:relcl	_	TokenRange=176:180
+38	feliz	feliz	ADJ	ADJ	_	37	xcomp	_	TokenRange=181:186
+39	em	em	ADP	ADP	_	41	case	_	TokenRange=187:189
+40	outro	_	DET	DET	_	41	det	_	TokenRange=190:195
+41	canto	canto	NOUN	NOUN	_	37	nmod	_	TokenRange=196:201
+42	o	o	DET	DET	_	43	det	_	TokenRange=202:203
+43	ator	ator	NOUN	NOUN	_	57	nsubj	_	TokenRange=204:208
+44	lima	lima	NOUN	NOUN	_	43	appos	_	TokenRange=209:213
+45	duarte	duarte	ADJ	ADJ	_	44	amod	_	TokenRange=214:220
+46	juntamente	juntamente	ADV	ADV	_	57	advmod	_	TokenRange=221:231
+47	com	com	ADP	ADP	_	50	case	_	TokenRange=232:235
+48	o	o	DET	DET	_	50	det	_	TokenRange=236:237
+49	jovem	jovem	ADJ	ADJ	_	50	amod	_	TokenRange=238:243
+50	tome	tome	NOUN	NOUN	_	46	nmod	_	TokenRange=244:248
+51-52	do	_	_	_	_	_	_	_	TokenRange=249:251
+51	de	de	ADP	ADP	_	53	case	_	_
+52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	movimento	movimento	NOUN	NOUN	_	50	nmod	_	TokenRange=252:261
+54-55	nas	_	_	_	_	_	_	_	TokenRange=262:265
+54	em	em	ADP	ADP	_	56	case	_	_
+55	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	56	det	_	_
+56	ruas	rua	NOUN	NOUN	_	53	nmod	_	TokenRange=266:270
+57	gravou	gravar	VERB	VERB	_	30	parataxis	_	TokenRange=271:277
+58	um	um	DET	DET	_	59	det	_	TokenRange=278:280
+59	video	video	NOUN	NOUN	_	57	obj	_	TokenRange=281:286
+60	onde	onde	ADV	ADV	_	77	advmod	_	TokenRange=287:291
+61	ele	_	PRON	PRON	_	77	nsubj	_	TokenRange=292:295
+62-63	da	_	_	_	_	_	_	_	TokenRange=296:298
+62	de	de	ADP	ADP	_	65	case	_	_
+63	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+64	sua	_	DET	DET	_	65	det:poss	_	TokenRange=299:302
+65	opiniao	opiniao	NOUN	NOUN	_	59	nmod	_	TokenRange=303:310
+66	sobre	_	ADP	ADP	_	68	case	_	TokenRange=311:316
+67	a	o	DET	DET	_	68	det	_	TokenRange=317:318
+68	situacao	situacao	NOUN	NOUN	_	65	nmod	_	TokenRange=319:327
+69-70	pela	_	_	_	_	_	_	_	TokenRange=328:332
+69	por	por	ADP	ADP	_	71	case	_	_
+70	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
+71	qual	_	PRON	PRON	_	75	nmod	_	TokenRange=333:337
+72	o	o	DET	DET	_	73	det	_	TokenRange=338:339
+73	pais	_	NOUN	NOUN	_	75	nsubj	_	TokenRange=340:344
+74	esta	_	AUX	AUX	_	75	aux	_	TokenRange=345:349
+75	passando	passar	VERB	VERB	_	68	acl:relcl	_	TokenRange=350:358
+76	lima	lima	ADV	NOUN	_	77	obj	_	TokenRange=359:363
+77	destacou	destacar	VERB	VERB	_	59	acl:relcl	_	TokenRange=364:372
+

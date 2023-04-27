@@ -1,0 +1,83 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = renan calheiros anuncia que deixa lideranca do pmdb no senado expresidente do congresso renan passou a ocupar o posto no inicio deste ano e adotou postura contraria ao governo temer em discurso ele disse que nao serve para ser marionete o senador renan calheiros al anunciou nesta quartafeira 28 em plenario que decidiu deixar a lideranca do pmdb no senado a
+1	renan	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:5
+2	calheiros	calheiro	NOUN	NOUN	_	1	flat	_	TokenRange=6:15
+3	anuncia	anunciar	VERB	VERB	_	0	root	_	TokenRange=16:23
+4	que	que	CCONJ	CONJ	_	20	mark	_	TokenRange=24:27
+5	deixa	deixar	VERB	VERB	_	3	ccomp	_	TokenRange=28:33
+6	lideranca	lideranca	NOUN	NOUN	_	5	obj	_	TokenRange=34:43
+7-8	do	_	_	_	_	_	_	_	TokenRange=44:46
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	pmdb	_	NOUN	NOUN	_	6	nmod	_	TokenRange=47:51
+10-11	no	_	_	_	_	_	_	_	TokenRange=52:54
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	senado	senado	NOUN	NOUN	_	6	nmod	_	TokenRange=55:61
+13	expresidente	expresidente	NOUN	NOUN	_	20	nsubj	_	TokenRange=62:74
+14-15	do	_	_	_	_	_	_	_	TokenRange=75:77
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	congresso	congresso	NOUN	NOUN	_	13	nmod	_	TokenRange=78:87
+17	renan	renan	NOUN	NOUN	_	20	nsubj	_	TokenRange=88:93
+18	passou	passar	AUX	AUX	_	20	aux	_	TokenRange=94:100
+19	a	_	ADP	ADP	_	20	mark	_	TokenRange=101:102
+20	ocupar	ocupar	VERB	VERB	_	3	ccomp	_	TokenRange=103:109
+21	o	o	DET	DET	_	22	det	_	TokenRange=110:111
+22	posto	posto	NOUN	NOUN	_	20	obj	_	TokenRange=112:117
+23-24	no	_	_	_	_	_	_	_	TokenRange=118:120
+23	em	em	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	inicio	_	NOUN	NOUN	_	20	nmod	_	TokenRange=121:127
+26	deste	_	ADP	ADP	_	27	case	_	TokenRange=128:133
+27	ano	ano	NOUN	NOUN	_	25	nmod	_	TokenRange=134:137
+28	e	e	CCONJ	CONJ	_	29	cc	_	TokenRange=138:139
+29	adotou	adotar	VERB	VERB	_	20	conj	_	TokenRange=140:146
+30	postura	postura	NOUN	NOUN	_	29	obj	_	TokenRange=147:154
+31	contraria	contrario	ADJ	ADJ	_	30	amod	_	TokenRange=155:164
+32-33	ao	_	_	_	_	_	_	_	TokenRange=165:167
+32	a	a	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	governo	governo	NOUN	NOUN	_	31	nmod	_	TokenRange=168:175
+35	temer	temer	NOUN	NOUN	_	34	flat	_	TokenRange=176:181
+36	em	em	ADP	ADP	_	37	case	_	TokenRange=182:184
+37	discurso	discurso	NOUN	NOUN	_	29	nmod	_	TokenRange=185:193
+38	ele	_	PRON	PRON	_	39	nsubj	_	TokenRange=194:197
+39	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=198:203
+40	que	que	CCONJ	CONJ	_	42	mark	_	TokenRange=204:207
+41	nao	nao	ADV	ADV	Polarity=Neg	42	advmod	_	TokenRange=208:211
+42	serve	servir	VERB	VERB	_	39	ccomp	_	TokenRange=212:217
+43	para	_	ADP	ADP	_	45	mark	_	TokenRange=218:222
+44	ser	ser	AUX	AUX	_	45	cop	_	TokenRange=223:226
+45	marionete	marionete	ADJ	NOUN	_	42	nmod	_	TokenRange=227:236
+46	o	o	DET	DET	_	47	det	_	TokenRange=237:238
+47	senador	senador	NOUN	NOUN	_	51	nsubj	_	TokenRange=239:246
+48	renan	_	NOUN	NOUN	_	47	appos	_	TokenRange=247:252
+49	calheiros	calheiro	NOUN	NOUN	_	48	flat	_	TokenRange=253:262
+50	al	_	PROPN	PNOUN	_	47	appos	_	TokenRange=263:265
+51	anunciou	anunciar	VERB	VERB	_	3	parataxis	_	TokenRange=266:274
+52	nesta	_	ADP	ADP	_	53	case	_	TokenRange=275:280
+53	quartafeira	_	PROPN	PNOUN	_	51	nmod	_	TokenRange=281:292
+54	28	_	NUM	NUM	NumType=Card	53	nmod	_	TokenRange=293:295
+55	em	em	ADP	ADP	_	56	case	_	TokenRange=296:298
+56	plenario	plenario	NOUN	NOUN	_	51	nmod	_	TokenRange=299:307
+57	que	que	CCONJ	CONJ	_	58	mark	_	TokenRange=308:311
+58	decidiu	decidir	VERB	VERB	_	51	ccomp	_	TokenRange=312:319
+59	deixar	deixar	VERB	VERB	_	58	xcomp	_	TokenRange=320:326
+60	a	o	DET	DET	_	61	det	_	TokenRange=327:328
+61	lideranca	lideranca	NOUN	NOUN	_	59	obj	_	TokenRange=329:338
+62-63	do	_	_	_	_	_	_	_	TokenRange=339:341
+62	de	de	ADP	ADP	_	64	case	_	_
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	pmdb	pmdb	NOUN	NOUN	_	61	nmod	_	TokenRange=342:346
+65-66	no	_	_	_	_	_	_	_	TokenRange=347:349
+65	em	em	ADP	ADP	_	67	case	_	_
+66	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
+67	senado	senado	NOUN	NOUN	_	61	nmod	_	TokenRange=350:356
+68	a	_	ADP	ADP	_	67	case	_	SpacesAfter=\s\s|TokenRange=357:358
+

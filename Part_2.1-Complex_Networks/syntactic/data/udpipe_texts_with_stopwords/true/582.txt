@@ -1,0 +1,94 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = defesa de lula dispensa testemunhas na vespera de depoimentos apos mobilizar estrutura do judiciario para intimar 80 depoentes advogados de petista e de seu filho protocolam desistencia da oitiva de 40 deles brasilia o expresidente luiz inacio lula da silva e seu filho cacula o empresario luis claudio lula da silva adotaram o padrao de dispensar as vesperas dos depoimentos testemunhas que eles proprios arrolaram em processo no ambito da
+1	defesa	_	NOUN	NOUN	_	4	nsubj	_	TokenRange=0:6
+2	de	de	ADP	ADP	_	3	case	_	TokenRange=7:9
+3	lula	lula	NOUN	NOUN	_	1	nmod	_	TokenRange=10:14
+4	dispensa	dispensar	VERB	VERB	_	0	root	_	TokenRange=15:23
+5	testemunhas	testemunha	NOUN	NOUN	_	4	obj	_	TokenRange=24:35
+6-7	na	_	_	_	_	_	_	_	TokenRange=36:38
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vespera	vespera	NOUN	NOUN	_	4	nmod	_	TokenRange=39:46
+9	de	de	ADP	ADP	_	10	case	_	TokenRange=47:49
+10	depoimentos	depoimento	NOUN	NOUN	_	8	nmod	_	TokenRange=50:61
+11	apos	_	ADP	ADP	_	12	mark	_	TokenRange=62:66
+12	mobilizar	mobilizar	VERB	VERB	_	4	advcl	_	TokenRange=67:76
+13	estrutura	estrutura	NOUN	NOUN	_	12	obj	_	TokenRange=77:86
+14-15	do	_	_	_	_	_	_	_	TokenRange=87:89
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	judiciario	judiciario	NOUN	NOUN	_	13	nmod	_	TokenRange=90:100
+17	para	_	ADP	ADP	_	18	mark	_	TokenRange=101:105
+18	intimar	intimar	VERB	VERB	_	12	advcl	_	TokenRange=106:113
+19	80	_	NUM	NUM	NumType=Card	20	nummod	_	TokenRange=114:116
+20	depoentes	depoente	NOUN	NOUN	_	18	obj	_	TokenRange=117:126
+21	advogados	advogado	NOUN	NOUN	_	20	appos	_	TokenRange=127:136
+22	de	de	ADP	ADP	_	23	case	_	TokenRange=137:139
+23	petista	petista	NOUN	NOUN	_	21	nmod	_	TokenRange=140:147
+24	e	e	CCONJ	CONJ	_	27	cc	_	TokenRange=148:149
+25	de	de	ADP	ADP	_	27	case	_	TokenRange=150:152
+26	seu	_	DET	DET	_	27	det:poss	_	TokenRange=153:156
+27	filho	filho	NOUN	NOUN	_	23	conj	_	TokenRange=157:162
+28	protocolam	protocolar	VERB	VERB	_	4	conj	_	TokenRange=163:173
+29	desistencia	desistencia	NOUN	NOUN	_	28	obj	_	TokenRange=174:185
+30-31	da	_	_	_	_	_	_	_	TokenRange=186:188
+30	de	de	ADP	ADP	_	32	case	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	oitiva	_	NOUN	NOUN	_	29	nmod	_	TokenRange=189:195
+33	de	de	ADP	ADP	_	34	case	_	TokenRange=196:198
+34	40	_	NUM	NUM	NumType=Card	32	nmod	_	TokenRange=199:201
+35	deles	_	X	ADPPRON	_	34	nmod	_	TokenRange=202:207
+36	brasilia	brasilia	NOUN	NOUN	_	28	parataxis	_	TokenRange=208:216
+37	o	o	DET	DET	_	38	det	_	TokenRange=217:218
+38	expresidente	expresidente	NOUN	NOUN	_	57	nsubj	_	TokenRange=219:231
+39	luiz	luiz	ADJ	ADJ	_	38	appos	_	TokenRange=232:236
+40	inacio	_	NOUN	NOUN	_	39	flat	_	TokenRange=237:243
+41	lula	_	PROPN	PNOUN	_	39	flat	_	TokenRange=244:248
+42-43	da	_	_	_	_	_	_	_	TokenRange=249:251
+42	de	de	ADP	ADP	_	44	case	_	_
+43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	silva	silva	NOUN	NOUN	_	39	nmod	_	TokenRange=252:257
+45	e	e	CCONJ	CONJ	_	47	cc	_	TokenRange=258:259
+46	seu	_	DET	DET	_	47	det:poss	_	TokenRange=260:263
+47	filho	filho	NOUN	NOUN	_	38	conj	_	TokenRange=264:269
+48	cacula	cacula	NOUN	NOUN	_	47	appos	_	TokenRange=270:276
+49	o	o	DET	DET	_	50	det	_	TokenRange=277:278
+50	empresario	empresario	NOUN	NOUN	_	57	nsubj	_	TokenRange=279:289
+51	luis	_	ADJ	ADJ	_	50	appos	_	TokenRange=290:294
+52	claudio	claudio	ADJ	ADJ	_	51	flat	_	TokenRange=295:302
+53	lula	_	NOUN	NOUN	_	50	appos	_	TokenRange=303:307
+54-55	da	_	_	_	_	_	_	_	TokenRange=308:310
+54	de	de	ADP	ADP	_	56	case	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	silva	silva	NOUN	NOUN	_	51	nmod	_	TokenRange=311:316
+57	adotaram	adotar	VERB	VERB	_	4	conj	_	TokenRange=317:325
+58	o	o	DET	DET	_	59	det	_	TokenRange=326:327
+59	padrao	padrao	NOUN	NOUN	_	57	obj	_	TokenRange=328:334
+60	de	_	ADP	ADP	_	61	mark	_	TokenRange=335:337
+61	dispensar	dispensar	VERB	VERB	_	59	nmod	_	TokenRange=338:347
+62	as	o	DET	DET	_	63	det	_	TokenRange=348:350
+63	vesperas	vespera	NOUN	NOUN	_	61	obj	_	TokenRange=351:359
+64-65	dos	_	_	_	_	_	_	_	TokenRange=360:363
+64	de	de	ADP	ADP	_	66	case	_	_
+65	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	66	det	_	_
+66	depoimentos	depoimento	NOUN	NOUN	_	63	nmod	_	TokenRange=364:375
+67	testemunhas	testemunha	NOUN	NOUN	_	61	obj	_	TokenRange=376:387
+68	que	_	PRON	PRON	_	71	obj	_	TokenRange=388:391
+69	eles	_	PRON	PRON	_	71	nsubj	_	TokenRange=392:396
+70	proprios	proprio	ADJ	ADJ	_	69	amod	_	TokenRange=397:405
+71	arrolaram	arrolar	VERB	VERB	_	67	acl:relcl	_	TokenRange=406:415
+72	em	em	ADP	ADP	_	73	case	_	TokenRange=416:418
+73	processo	processo	NOUN	NOUN	_	71	nmod	_	TokenRange=419:427
+74-75	no	_	_	_	_	_	_	_	TokenRange=428:430
+74	em	em	ADP	ADP	_	76	case	_	_
+75	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
+76	ambito	ambito	NOUN	NOUN	_	71	nmod	_	TokenRange=431:437
+77-78	da	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=438:440
+77	de	de	ADP	ADP	_	32	case	_	_
+78	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+

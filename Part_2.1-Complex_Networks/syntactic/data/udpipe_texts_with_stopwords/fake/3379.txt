@@ -1,0 +1,78 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ciro gomes tira sarro da carta que temer enviou para dilma e video bomba nas redes sociais provavel candidato presidencial para as eleicoes de 2018 o exministro ciro gomes disse que o vicepresidente michel temer tenta se eximir de responsabilidades e criticou a alianca feita pela presidente dilma rousseff com a turma do ramo da esculhambacao do pmdb
+1	ciro	_	NOUN	NOUN	_	3	nsubj	_	TokenRange=0:4
+2	gomes	gome	NOUN	NOUN	_	1	flat	_	TokenRange=5:10
+3	tira	tirar	VERB	VERB	_	0	root	_	TokenRange=11:15
+4	sarro	sarro	NOUN	NOUN	_	3	obj	_	TokenRange=16:21
+5-6	da	_	_	_	_	_	_	_	TokenRange=22:24
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	carta	carta	NOUN	NOUN	_	3	nmod	_	TokenRange=25:30
+8	que	_	PRON	PRON	_	10	obj	_	TokenRange=31:34
+9	temer	temer	NOUN	NOUN	_	10	nsubj	_	TokenRange=35:40
+10	enviou	enviar	VERB	VERB	_	7	acl:relcl	_	TokenRange=41:47
+11	para	para	ADP	ADP	_	12	case	_	TokenRange=48:52
+12	dilma	dilma	NOUN	NOUN	_	10	nmod	_	TokenRange=53:58
+13	e	e	CCONJ	CONJ	_	14	cc	_	TokenRange=59:60
+14	video	video	NOUN	NOUN	_	7	conj	_	TokenRange=61:66
+15	bomba	bomba	NOUN	NOUN	_	14	flat	_	TokenRange=67:72
+16-17	nas	_	_	_	_	_	_	_	TokenRange=73:76
+16	em	em	ADP	ADP	_	18	case	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	redes	rede	NOUN	NOUN	_	14	nmod	_	TokenRange=77:82
+19	sociais	social	ADJ	ADJ	_	18	amod	_	TokenRange=83:90
+20	provavel	provavel	ADJ	ADJ	_	21	amod	_	TokenRange=91:99
+21	candidato	candidato	NOUN	NOUN	_	14	appos	_	TokenRange=100:109
+22	presidencial	presidencial	ADJ	ADJ	_	21	amod	_	TokenRange=110:122
+23	para	para	ADP	ADP	_	25	case	_	TokenRange=123:127
+24	as	o	DET	DET	_	25	det	_	TokenRange=128:130
+25	eleicoes	eleicoe	NOUN	NOUN	_	21	nmod	_	TokenRange=131:139
+26	de	de	ADP	ADP	_	27	case	_	TokenRange=140:142
+27	2018	_	NUM	NUM	NumType=Card	25	nmod	_	TokenRange=143:147
+28	o	o	DET	DET	_	29	det	_	TokenRange=148:149
+29	exministro	exministro	NOUN	NOUN	_	32	nsubj	_	TokenRange=150:160
+30	ciro	_	PROPN	NOUN	_	29	appos	_	TokenRange=161:165
+31	gomes	gomes	NOUN	NOUN	_	30	flat	_	TokenRange=166:171
+32	disse	dizer	VERB	VERB	_	3	parataxis	_	TokenRange=172:177
+33	que	que	CCONJ	CONJ	_	38	mark	_	TokenRange=178:181
+34	o	o	DET	DET	_	35	det	_	TokenRange=182:183
+35	vicepresidente	vicepresidente	NOUN	NOUN	_	38	nsubj	_	TokenRange=184:198
+36	michel	michel	ADJ	ADJ	_	35	amod	_	TokenRange=199:205
+37	temer	temer	NOUN	NOUN	_	35	appos	_	TokenRange=206:211
+38	tenta	tentar	VERB	VERB	_	32	ccomp	_	TokenRange=212:217
+39	se	_	PRON	PRON	_	40	obj	_	TokenRange=218:220
+40	eximir	eximir	VERB	VERB	_	38	xcomp	_	TokenRange=221:227
+41	de	de	ADP	ADP	_	42	case	_	TokenRange=228:230
+42	responsabilidades	responsabilidade	NOUN	NOUN	_	40	nmod	_	TokenRange=231:248
+43	e	e	CCONJ	CONJ	_	44	cc	_	TokenRange=249:250
+44	criticou	criticar	VERB	VERB	_	38	conj	_	TokenRange=251:259
+45	a	o	DET	DET	_	46	det	_	TokenRange=260:261
+46	alianca	alianca	NOUN	NOUN	_	44	obj	_	TokenRange=262:269
+47	feita	_	VERB	VERB	_	46	acl	_	TokenRange=270:275
+48-49	pela	_	_	_	_	_	_	_	TokenRange=276:280
+48	por	por	ADP	ADP	_	50	case	_	_
+49	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	presidente	presidente	NOUN	NOUN	_	47	nmod	_	TokenRange=281:291
+51	dilma	dilmo	ADJ	ADJ	_	50	appos	_	TokenRange=292:297
+52	rousseff	rousseff	ADJ	ADJ	_	51	amod	_	TokenRange=298:306
+53	com	com	ADP	ADP	_	55	case	_	TokenRange=307:310
+54	a	o	DET	DET	_	55	det	_	TokenRange=311:312
+55	turma	turma	NOUN	NOUN	_	47	nmod	_	TokenRange=313:318
+56-57	do	_	_	_	_	_	_	_	TokenRange=319:321
+56	de	de	ADP	ADP	_	58	case	_	_
+57	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	ramo	ramo	NOUN	NOUN	_	55	nmod	_	TokenRange=322:326
+59-60	da	_	_	_	_	_	_	_	TokenRange=327:329
+59	de	de	ADP	ADP	_	61	case	_	_
+60	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	esculhambacao	esculhambacao	NOUN	NOUN	_	58	nmod	_	TokenRange=330:343
+62-63	do	_	_	_	_	_	_	_	TokenRange=344:346
+62	de	de	ADP	ADP	_	64	case	_	_
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	pmdb	_	NOUN	NOUN	_	61	nmod	_	TokenRange=347:351
+

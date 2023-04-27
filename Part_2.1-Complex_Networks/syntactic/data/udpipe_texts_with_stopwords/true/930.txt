@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = mais de 100 mototaxistas foram autuados por bloquearem a estrada lagoabarra em manifestacao protesto seria pela paz na rocinha mas tinha objetivo de despistar forcas de seguranca diz policia civil mais de 100 mototaxistas que participaram de protesto na estrada lagoabarra que liga a
+1	mais	mais	ADV	ADV	_	3	advmod	_	TokenRange=0:4
+2	de	de	ADP	ADP	_	1	case	_	TokenRange=5:7
+3	100	_	NUM	NUM	NumType=Card	4	nummod	_	TokenRange=8:11
+4	mototaxistas	mototaxista	NOUN	NOUN	_	6	nsubj:pass	_	TokenRange=12:24
+5	foram	_	AUX	AUX	_	6	aux:pass	_	TokenRange=25:30
+6	autuados	autuar	VERB	VERB	_	0	root	_	TokenRange=31:39
+7	por	_	ADP	ADP	_	8	mark	_	TokenRange=40:43
+8	bloquearem	bloquear	VERB	VERB	_	6	advcl	_	TokenRange=44:54
+9	a	o	DET	DET	_	10	det	_	TokenRange=55:56
+10	estrada	estrada	NOUN	NOUN	_	8	obj	_	TokenRange=57:64
+11	lagoabarra	lagoabarra	NOUN	NOUN	_	10	appos	_	TokenRange=65:75
+12	em	em	ADP	ADP	_	13	case	_	TokenRange=76:78
+13	manifestacao	manifestacao	NOUN	NOUN	_	6	nmod	_	TokenRange=79:91
+14	protesto	protesto	NOUN	NOUN	_	15	nsubj	_	TokenRange=92:100
+15	seria	_	VERB	VERB	_	6	parataxis	_	TokenRange=101:106
+16-17	pela	_	_	_	_	_	_	_	TokenRange=107:111
+16	por	por	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	paz	paz	NOUN	NOUN	_	15	nmod	_	TokenRange=112:115
+19-20	na	_	_	_	_	_	_	_	TokenRange=116:118
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	rocinha	_	NOUN	NOUN	_	15	nmod	_	TokenRange=119:126
+22	mas	mas	CCONJ	CONJ	_	23	cc	_	TokenRange=127:130
+23	tinha	ter	VERB	VERB	_	15	conj	_	TokenRange=131:136
+24	objetivo	objetivo	NOUN	NOUN	_	23	obj	_	TokenRange=137:145
+25	de	_	ADP	ADP	_	26	mark	_	TokenRange=146:148
+26	despistar	despistar	VERB	VERB	_	24	nmod	_	TokenRange=149:158
+27	forcas	forca	NOUN	NOUN	_	26	obj	_	TokenRange=159:165
+28	de	de	ADP	ADP	_	29	case	_	TokenRange=166:168
+29	seguranca	_	NOUN	NOUN	_	27	nmod	_	TokenRange=169:178
+30	diz	dizer	VERB	VERB	_	6	parataxis	_	TokenRange=179:182
+31	policia	policia	NOUN	NOUN	_	30	nsubj	_	TokenRange=183:190
+32	civil	civil	ADJ	ADJ	_	31	amod	_	TokenRange=191:196
+33	mais	mais	ADV	ADV	_	35	advmod	_	TokenRange=197:201
+34	de	de	ADP	ADP	_	33	case	_	TokenRange=202:204
+35	100	_	NUM	NUM	NumType=Card	36	nummod	_	TokenRange=205:208
+36	mototaxistas	mototaxista	NOUN	NOUN	_	30	nsubj	_	TokenRange=209:221
+37	que	_	PRON	PRON	_	38	nsubj	_	TokenRange=222:225
+38	participaram	participar	VERB	VERB	_	36	acl:relcl	_	TokenRange=226:238
+39	de	de	ADP	ADP	_	40	case	_	TokenRange=239:241
+40	protesto	protesto	NOUN	NOUN	_	38	nmod	_	TokenRange=242:250
+41-42	na	_	_	_	_	_	_	_	TokenRange=251:253
+41	em	em	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	estrada	estrada	NOUN	NOUN	_	38	nmod	_	TokenRange=254:261
+44	lagoabarra	lagoabarra	ADJ	ADJ	_	43	amod	_	TokenRange=262:272
+45	que	_	PRON	PRON	_	46	nsubj	_	TokenRange=273:276
+46	liga	ligar	VERB	VERB	_	43	acl:relcl	_	TokenRange=277:281
+47	a	_	ADP	ADP	_	43	case	_	SpacesAfter=\s\s|TokenRange=282:283
+

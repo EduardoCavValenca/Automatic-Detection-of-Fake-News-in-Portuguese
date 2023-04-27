@@ -1,0 +1,95 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = galloro reune todas as condicoes para comandar pf diz entidade de delegados atual secretario nacional de justica substituira fernando segovia na chefia da policia federal associacao de peritos diz ver troca com atencao agentes manifestaram total apoio a associacao nacional dos delegados de policia federal adpf divulgou uma nota nesta tercafeira 27 na qual avaliou que o novo diretorgeral da pf rogerio galloro reune todas as condicoes tecnicas para comandar a corporacao tambem em nota a associacao
+1	galloro	galloro	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:7
+2	reune	reunar	VERB	VERB	_	0	root	_	TokenRange=8:13
+3	todas	_	DET	DET	_	5	det	_	TokenRange=14:19
+4	as	o	DET	DET	_	5	det	_	TokenRange=20:22
+5	condicoes	_	NOUN	NOUN	_	2	obj	_	TokenRange=23:32
+6	para	_	ADP	ADP	_	7	mark	_	TokenRange=33:37
+7	comandar	comandar	VERB	VERB	_	5	nmod	_	TokenRange=38:46
+8	pf	_	NOUN	NOUN	_	7	obj	_	TokenRange=47:49
+9	diz	dizer	VERB	VERB	_	2	parataxis	_	TokenRange=50:53
+10	entidade	entidade	NOUN	NOUN	_	18	nsubj	_	TokenRange=54:62
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=63:65
+12	delegados	delegado	NOUN	NOUN	_	10	nmod	_	TokenRange=66:75
+13	atual	atual	ADJ	ADJ	_	14	amod	_	TokenRange=76:81
+14	secretario	secretario	NOUN	NOUN	_	18	nsubj	_	TokenRange=82:92
+15	nacional	nacional	ADJ	ADJ	_	14	amod	_	TokenRange=93:101
+16	de	de	ADP	ADP	_	17	case	_	TokenRange=102:104
+17	justica	_	NOUN	NOUN	_	14	nmod	_	TokenRange=105:112
+18	substituira	substituir	VERB	VERB	_	9	ccomp	_	TokenRange=113:124
+19	fernando	fernando	NOUN	NOUN	_	18	obj	_	TokenRange=125:133
+20	segovia	segovia	NOUN	NOUN	_	19	flat	_	TokenRange=134:141
+21-22	na	_	_	_	_	_	_	_	TokenRange=142:144
+21	em	em	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	chefia	chefia	NOUN	NOUN	_	18	nmod	_	TokenRange=145:151
+24-25	da	_	_	_	_	_	_	_	TokenRange=152:154
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	policia	policia	NOUN	NOUN	_	23	nmod	_	TokenRange=155:162
+27	federal	federal	ADJ	ADJ	_	26	amod	_	TokenRange=163:170
+28	associacao	associacao	NOUN	NOUN	_	31	nsubj	_	TokenRange=171:181
+29	de	de	ADP	ADP	_	30	case	_	TokenRange=182:184
+30	peritos	perito	NOUN	NOUN	_	28	nmod	_	TokenRange=185:192
+31	diz	dizer	VERB	VERB	_	18	parataxis	_	TokenRange=193:196
+32	ver	ver	VERB	VERB	_	31	xcomp	_	TokenRange=197:200
+33	troca	_	NOUN	NOUN	_	32	obj	_	TokenRange=201:206
+34	com	com	ADP	ADP	_	35	case	_	TokenRange=207:210
+35	atencao	atencao	NOUN	NOUN	_	33	nmod	_	TokenRange=211:218
+36	agentes	agente	NOUN	NOUN	_	37	nsubj	_	TokenRange=219:226
+37	manifestaram	manifestar	VERB	VERB	_	31	parataxis	_	TokenRange=227:239
+38	total	total	ADJ	ADJ	_	39	amod	_	TokenRange=240:245
+39	apoio	apoio	NOUN	NOUN	_	37	obj	_	TokenRange=246:251
+40	a	_	ADP	ADP	_	41	case	_	TokenRange=252:253
+41	associacao	associacao	NOUN	NOUN	_	39	nmod	_	TokenRange=254:264
+42	nacional	nacional	ADJ	ADJ	_	41	amod	_	TokenRange=265:273
+43-44	dos	_	_	_	_	_	_	_	TokenRange=274:277
+43	de	de	ADP	ADP	_	45	case	_	_
+44	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+45	delegados	delegado	NOUN	NOUN	_	41	nmod	_	TokenRange=278:287
+46	de	de	ADP	ADP	_	47	case	_	TokenRange=288:290
+47	policia	policia	NOUN	NOUN	_	45	nmod	_	TokenRange=291:298
+48	federal	federal	ADJ	ADJ	_	47	amod	_	TokenRange=299:306
+49	adpf	_	NOUN	NOUN	_	50	nsubj	_	TokenRange=307:311
+50	divulgou	divulgar	VERB	VERB	_	2	parataxis	_	TokenRange=312:320
+51	uma	um	DET	DET	_	52	det	_	TokenRange=321:324
+52	nota	nota	NOUN	NOUN	_	50	obj	_	TokenRange=325:329
+53	nesta	_	ADP	ADP	_	54	case	_	TokenRange=330:335
+54	tercafeira	_	NOUN	NOUN	_	50	nmod	_	TokenRange=336:346
+55	27	_	NUM	NUM	NumType=Card	54	appos	_	TokenRange=347:349
+56-57	na	_	_	_	_	_	_	_	TokenRange=350:352
+56	em	em	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	qual	_	PRON	PRON	_	59	nmod	_	TokenRange=353:357
+59	avaliou	avaliar	VERB	VERB	_	54	acl:relcl	_	TokenRange=358:365
+60	que	que	CCONJ	CONJ	_	69	mark	_	TokenRange=366:369
+61	o	o	DET	DET	_	63	det	_	TokenRange=370:371
+62	novo	novo	ADJ	ADJ	_	63	amod	_	TokenRange=372:376
+63	diretorgeral	diretorgeral	NOUN	NOUN	_	69	nsubj	_	TokenRange=377:389
+64-65	da	_	_	_	_	_	_	_	TokenRange=390:392
+64	de	de	ADP	ADP	_	66	case	_	_
+65	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	pf	_	NOUN	NOUN	_	63	nmod	_	TokenRange=393:395
+67	rogerio	rogerio	ADJ	ADJ	_	63	appos	_	TokenRange=396:403
+68	galloro	galloro	NOUN	NOUN	_	63	appos	_	TokenRange=404:411
+69	reune	reunar	VERB	VERB	_	59	ccomp	_	TokenRange=412:417
+70	todas	_	DET	DET	_	72	det	_	TokenRange=418:423
+71	as	o	DET	DET	_	72	det	_	TokenRange=424:426
+72	condicoes	_	NOUN	NOUN	_	69	obj	_	TokenRange=427:436
+73	tecnicas	tecnico	ADJ	ADJ	_	72	amod	_	TokenRange=437:445
+74	para	_	ADP	ADP	_	75	mark	_	TokenRange=446:450
+75	comandar	comandar	VERB	VERB	_	72	nmod	_	TokenRange=451:459
+76	a	o	DET	DET	_	77	det	_	TokenRange=460:461
+77	corporacao	corporacao	NOUN	NOUN	_	75	obj	_	TokenRange=462:472
+78	tambem	tambem	ADV	ADV	_	69	advmod	_	TokenRange=473:479
+79	em	em	ADP	ADP	_	80	case	_	TokenRange=480:482
+80	nota	nota	NOUN	NOUN	_	69	nmod	_	TokenRange=483:487
+81	a	o	DET	DET	_	82	det	_	TokenRange=488:489
+82	associacao	associacao	NOUN	NOUN	_	75	obj	_	SpacesAfter=\s\s|TokenRange=490:500
+

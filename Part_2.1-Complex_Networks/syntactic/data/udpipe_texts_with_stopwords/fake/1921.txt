@@ -1,0 +1,88 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = exministro da cultura confirma a pf que o presidente da republica fez pressao no caso geddel a folha acabou de informar que o exminc marcelo calero confirmou a pf que o presidente temer o pressionou para resolver o caso geddel o intuito da pressao presidencial era encontrar uma saida para liberar a obra onde geddel possui um apartamento calero relatou que temer encarava esse tipo de pressao com normalidade 24/11/2016 2315 hs
+1	exministro	exministro	NOUN	NOUN	_	5	nsubj	_	TokenRange=0:10
+2-3	da	_	_	_	_	_	_	_	TokenRange=11:13
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cultura	cultura	NOUN	NOUN	_	1	nmod	_	TokenRange=14:21
+5	confirma	confirmar	VERB	VERB	_	0	root	_	TokenRange=22:30
+6	a	o	DET	DET	_	7	case	_	TokenRange=31:32
+7	pf	pf	NOUN	NOUN	_	5	iobj	_	TokenRange=33:35
+8	que	que	CCONJ	CONJ	_	14	mark	_	TokenRange=36:39
+9	o	o	DET	DET	_	10	det	_	TokenRange=40:41
+10	presidente	presidente	NOUN	NOUN	_	14	nsubj	_	TokenRange=42:52
+11-12	da	_	_	_	_	_	_	_	TokenRange=53:55
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	republica	_	NOUN	NOUN	_	10	nmod	_	TokenRange=56:65
+14	fez	fazer	VERB	VERB	_	5	ccomp	_	TokenRange=66:69
+15	pressao	pressao	NOUN	NOUN	_	14	obj	_	TokenRange=70:77
+16-17	no	_	_	_	_	_	_	_	TokenRange=78:80
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	caso	caso	NOUN	NOUN	_	14	nmod	_	TokenRange=81:85
+19	geddel	_	NOUN	NOUN	_	18	flat	_	TokenRange=86:92
+20	a	o	DET	DET	_	21	det	_	TokenRange=93:94
+21	folha	folha	NOUN	NOUN	_	24	nsubj	_	TokenRange=95:100
+22	acabou	acabar	AUX	AUX	_	24	aux	_	TokenRange=101:107
+23	de	_	ADP	ADP	_	24	mark	_	TokenRange=108:110
+24	informar	informar	VERB	VERB	_	5	conj	_	TokenRange=111:119
+25	que	que	CCONJ	CONJ	_	30	mark	_	TokenRange=120:123
+26	o	o	DET	DET	_	27	det	_	TokenRange=124:125
+27	exminc	exminc	NOUN	NOUN	_	30	nsubj	_	TokenRange=126:132
+28	marcelo	marcelo	NOUN	NOUN	_	27	appos	_	TokenRange=133:140
+29	calero	calero	ADJ	NOUN	_	28	flat	_	TokenRange=141:147
+30	confirmou	confirmar	VERB	VERB	_	24	ccomp	_	TokenRange=148:157
+31	a	_	ADP	ADP	_	32	case	_	TokenRange=158:159
+32	pf	pf	NOUN	NOUN	_	30	iobj	_	TokenRange=160:162
+33	que	que	CCONJ	CONJ	_	38	mark	_	TokenRange=163:166
+34	o	o	DET	DET	_	35	det	_	TokenRange=167:168
+35	presidente	presidente	NOUN	NOUN	_	38	nsubj	_	TokenRange=169:179
+36	temer	temer	ADJ	ADJ	_	35	amod	_	TokenRange=180:185
+37	o	_	PRON	PRON	_	38	obj	_	TokenRange=186:187
+38	pressionou	pressionar	VERB	VERB	_	30	ccomp	_	TokenRange=188:198
+39	para	_	ADP	ADP	_	40	mark	_	TokenRange=199:203
+40	resolver	resolver	VERB	VERB	_	38	advcl	_	TokenRange=204:212
+41	o	o	DET	DET	_	42	det	_	TokenRange=213:214
+42	caso	caso	NOUN	NOUN	_	40	obj	_	TokenRange=215:219
+43	geddel	_	NOUN	NOUN	_	42	appos	_	TokenRange=220:226
+44	o	o	DET	DET	_	45	det	_	TokenRange=227:228
+45	intuito	intuito	NOUN	NOUN	_	30	ccomp	_	TokenRange=229:236
+46-47	da	_	_	_	_	_	_	_	TokenRange=237:239
+46	de	de	ADP	ADP	_	48	case	_	_
+47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	pressao	pressao	NOUN	NOUN	_	45	nmod	_	TokenRange=240:247
+49	presidencial	presidencial	ADJ	ADJ	_	48	amod	_	TokenRange=248:260
+50	era	_	AUX	AUX	_	45	cop	_	TokenRange=261:264
+51	encontrar	encontrar	VERB	VERB	_	45	csubj	_	TokenRange=265:274
+52	uma	um	DET	DET	_	53	det	_	TokenRange=275:278
+53	saida	saida	NOUN	NOUN	_	51	obj	_	TokenRange=279:284
+54	para	_	ADP	ADP	_	55	mark	_	TokenRange=285:289
+55	liberar	liberar	VERB	VERB	_	53	nmod	_	TokenRange=290:297
+56	a	o	DET	DET	_	57	det	_	TokenRange=298:299
+57	obra	obra	NOUN	NOUN	_	55	obj	_	TokenRange=300:304
+58	onde	onde	ADV	ADV	_	60	advmod	_	TokenRange=305:309
+59	geddel	_	NOUN	NOUN	_	60	nsubj	_	TokenRange=310:316
+60	possui	possuir	VERB	VERB	_	57	acl:relcl	_	TokenRange=317:323
+61	um	um	DET	DET	_	62	det	_	TokenRange=324:326
+62	apartamento	apartamento	NOUN	NOUN	_	60	obj	_	TokenRange=327:338
+63	calero	calero	ADJ	ADJ	_	62	amod	_	TokenRange=339:345
+64	relatou	relatar	VERB	VERB	_	45	acl:relcl	_	TokenRange=346:353
+65	que	que	CCONJ	CONJ	_	67	mark	_	TokenRange=354:357
+66	temer	temer	NOUN	NOUN	_	67	nsubj	_	TokenRange=358:363
+67	encarava	encarar	VERB	VERB	_	64	ccomp	_	TokenRange=364:372
+68	esse	_	DET	DET	_	69	det	_	TokenRange=373:377
+69	tipo	tipo	NOUN	NOUN	_	67	obj	_	TokenRange=378:382
+70	de	de	ADP	ADP	_	71	case	_	TokenRange=383:385
+71	pressao	pressao	NOUN	NOUN	_	69	nmod	_	TokenRange=386:393
+72	com	com	ADP	ADP	_	73	case	_	TokenRange=394:397
+73	normalidade	normalidade	NOUN	NOUN	_	67	nmod	_	TokenRange=398:409
+74	24/11/2016	_	NUM	NUM	NumType=Card	73	nmod	_	TokenRange=410:420
+75	2315	_	NUM	NUM	NumType=Card	76	nummod	_	TokenRange=421:425
+76	hs	_	NOUN	NOUN	_	73	appos	_	TokenRange=426:428
+

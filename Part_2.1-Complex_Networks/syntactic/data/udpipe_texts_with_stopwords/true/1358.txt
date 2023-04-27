@@ -1,0 +1,93 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 5 seconds of summer tambem iria bem no dia de rock diz vocalista que vai abrir para lady gaga no rock in rio quarteto australiano foge do rotulo de boy band e se define como pop punk luke hemmings diz ao g1 que banda iria bem em qualquer dia e espera loucura ao lado de gaga e pet shop boys o 5 seconds of summer veio da australia e estourou nos
+1	5	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:1
+2	seconds	second	NOUN	NOUN	_	6	nsubj	_	TokenRange=2:9
+3	of	_	ADP	ADP	_	4	case	_	TokenRange=10:12
+4	summer	summer	NOUN	NOUN	_	2	nmod	_	TokenRange=13:19
+5	tambem	tambem	ADV	ADV	_	6	advmod	_	TokenRange=20:26
+6	iria	_	VERB	VERB	_	0	root	_	TokenRange=27:31
+7	bem	bem	ADV	ADV	_	6	advmod	_	TokenRange=32:35
+8-9	no	_	_	_	_	_	_	_	TokenRange=36:38
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dia	dia	NOUN	NOUN	_	6	nmod	_	TokenRange=39:42
+11	de	de	ADP	ADP	_	12	case	_	TokenRange=43:45
+12	rock	rock	NOUN	NOUN	_	10	nmod	_	TokenRange=46:50
+13	diz	dizer	VERB	VERB	_	6	parataxis	_	TokenRange=51:54
+14	vocalista	vocalista	NOUN	NOUN	_	13	obj	_	TokenRange=55:64
+15	que	que	PRON	CONJ	_	17	mark	_	TokenRange=65:68
+16	vai	ir	AUX	AUX	_	17	aux	_	TokenRange=69:72
+17	abrir	abrir	VERB	VERB	_	14	acl:relcl	_	TokenRange=73:78
+18	para	para	ADP	ADP	_	19	case	_	TokenRange=79:83
+19	lady	_	NOUN	NOUN	_	17	nmod	_	TokenRange=84:88
+20	gaga	gaga	NOUN	NOUN	_	19	flat	_	TokenRange=89:93
+21-22	no	_	_	_	_	_	_	_	TokenRange=94:96
+21	em	em	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	rock	rock	NOUN	NOUN	_	17	nmod	_	TokenRange=97:101
+24	in	_	ADP	ADP	_	25	case	_	TokenRange=102:104
+25	rio	rio	NOUN	NOUN	_	23	nmod	_	TokenRange=105:108
+26	quarteto	quarteto	NOUN	NOUN	_	28	nsubj	_	TokenRange=109:117
+27	australiano	australiano	ADJ	ADJ	_	26	amod	_	TokenRange=118:129
+28	foge	fugir	VERB	VERB	_	13	ccomp	_	TokenRange=130:134
+29-30	do	_	_	_	_	_	_	_	TokenRange=135:137
+29	de	de	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	rotulo	rotulo	NOUN	NOUN	_	28	nmod	_	TokenRange=138:144
+32	de	de	ADP	ADP	_	34	case	_	TokenRange=145:147
+33	boy	_	NOUN	NOUN	_	34	amod	_	TokenRange=148:151
+34	band	_	NOUN	NOUN	_	31	nmod	_	TokenRange=152:156
+35	e	e	CCONJ	CONJ	_	37	cc	_	TokenRange=157:158
+36	se	_	PRON	PRON	_	37	obj	_	TokenRange=159:161
+37	define	definir	VERB	VERB	_	28	conj	_	TokenRange=162:168
+38	como	como	ADP	ADP	_	39	case	_	TokenRange=169:173
+39	pop	pop	NOUN	NOUN	_	37	nmod	_	TokenRange=174:177
+40	punk	punk	NOUN	NOUN	_	39	amod	_	TokenRange=178:182
+41	luke	_	NOUN	NOUN	_	37	nsubj	_	TokenRange=183:187
+42	hemmings	hemming	NOUN	NOUN	_	41	flat	_	TokenRange=188:196
+43	diz	dizer	VERB	VERB	_	6	conj	_	TokenRange=197:200
+44-45	ao	_	_	_	_	_	_	_	TokenRange=201:203
+44	a	a	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	g1	_	NOUN	NOUN	_	43	iobj	_	TokenRange=204:206
+47	que	que	CCONJ	CONJ	_	49	mark	_	TokenRange=207:210
+48	banda	banda	NOUN	NOUN	_	49	nsubj	_	TokenRange=211:216
+49	iria	_	VERB	VERB	_	43	ccomp	_	TokenRange=217:221
+50	bem	bem	ADV	ADV	_	49	advmod	_	TokenRange=222:225
+51	em	em	ADP	ADP	_	53	case	_	TokenRange=226:228
+52	qualquer	_	DET	DET	_	53	det	_	TokenRange=229:237
+53	dia	dia	NOUN	NOUN	_	49	nmod	_	TokenRange=238:241
+54	e	e	CCONJ	CONJ	_	55	cc	_	TokenRange=242:243
+55	espera	esperar	VERB	VERB	_	49	conj	_	TokenRange=244:250
+56	loucura	loucura	NOUN	NOUN	_	55	obj	_	TokenRange=251:258
+57-58	ao	_	_	_	_	_	_	_	TokenRange=259:261
+57	a	a	ADP	ADP	_	59	case	_	_
+58	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	lado	lado	NOUN	NOUN	_	55	nmod	_	TokenRange=262:266
+60	de	de	ADP	ADP	_	61	case	_	TokenRange=267:269
+61	gaga	gaga	NOUN	NOUN	_	59	nmod	_	TokenRange=270:274
+62	e	e	CCONJ	CONJ	_	63	cc	_	TokenRange=275:276
+63	pet	pet	NOUN	NOUN	_	61	conj	_	TokenRange=277:280
+64	shop	_	NOUN	NOUN	_	63	flat	_	TokenRange=281:285
+65	boys	_	NOUN	NOUN	_	63	flat	_	TokenRange=286:290
+66	o	o	DET	DET	_	68	det	_	TokenRange=291:292
+67	5	_	NUM	NUM	NumType=Card	68	nummod	_	TokenRange=293:294
+68	seconds	_	NOUN	NOUN	_	71	nsubj	_	TokenRange=295:302
+69	of	_	ADP	ADP	_	70	case	_	TokenRange=303:305
+70	summer	summer	NOUN	NOUN	_	68	nmod	_	TokenRange=306:312
+71	veio	_	VERB	VERB	_	43	ccomp	_	TokenRange=313:317
+72-73	da	_	_	_	_	_	_	_	TokenRange=318:320
+72	de	de	ADP	ADP	_	74	case	_	_
+73	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
+74	australia	australia	NOUN	NOUN	_	71	nmod	_	TokenRange=321:330
+75	e	e	CCONJ	CONJ	_	76	cc	_	TokenRange=331:332
+76	estourou	estourar	VERB	VERB	_	71	conj	_	TokenRange=333:341
+77-78	nos	_	_	_	_	_	_	_	SpacesAfter=\s\s|TokenRange=342:345
+77	em	em	ADP	ADP	_	74	case	_	_
+78	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	74	det	_	_
+

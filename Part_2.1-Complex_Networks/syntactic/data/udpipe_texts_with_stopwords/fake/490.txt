@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = padre pede para fieis orarem pelo principe george vamos rezar para que ele seja gay os cristaos devem rezar para que o principe george seja gay para forcar a igreja da inglaterra a apoiar o casamento homossexual disse o ministro anglicano
+1	padre	padre	NOUN	NOUN	_	2	nsubj	_	TokenRange=0:5
+2	pede	pedir	VERB	VERB	_	40	ccomp	_	TokenRange=6:10
+3	para	_	ADP	ADP	_	5	mark	_	TokenRange=11:15
+4	fieis	_	NOUN	NOUN	_	5	nsubj	_	TokenRange=16:21
+5	orarem	orar	VERB	VERB	_	2	nmod	_	TokenRange=22:28
+6-7	pelo	_	_	_	_	_	_	_	TokenRange=29:33
+6	por	por	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	principe	principe	NOUN	NOUN	_	5	nmod	_	TokenRange=34:42
+9	george	george	NOUN	NOUN	_	8	flat	_	TokenRange=43:49
+10	vamos	ir	AUX	AUX	_	11	aux	_	TokenRange=50:55
+11	rezar	rezar	VERB	VERB	_	2	ccomp	_	TokenRange=56:61
+12	para	_	ADP	ADP	_	15	mark	_	TokenRange=62:66
+13	que	_	CCONJ	CONJ	_	12	fixed	_	TokenRange=67:70
+14	ele	_	PRON	PRON	_	15	nsubj	_	TokenRange=71:74
+15	seja	ser	VERB	VERB	_	11	advcl	_	TokenRange=75:79
+16	gay	gay	ADJ	ADJ	_	15	xcomp	_	TokenRange=80:83
+17	os	o	DET	DET	_	18	det	_	TokenRange=84:86
+18	cristaos	cristao	NOUN	NOUN	_	20	nsubj	_	TokenRange=87:95
+19	devem	_	AUX	AUX	_	20	aux	_	TokenRange=96:101
+20	rezar	rezar	VERB	VERB	_	2	conj	_	TokenRange=102:107
+21	para	_	ADP	ADP	_	26	mark	_	TokenRange=108:112
+22	que	_	CCONJ	CONJ	_	21	fixed	_	TokenRange=113:116
+23	o	o	DET	DET	_	24	det	_	TokenRange=117:118
+24	principe	principe	NOUN	NOUN	_	26	nsubj	_	TokenRange=119:127
+25	george	george	NOUN	NOUN	_	24	flat	_	TokenRange=128:134
+26	seja	ser	VERB	VERB	_	20	advcl	_	TokenRange=135:139
+27	gay	gay	ADJ	ADJ	_	26	xcomp	_	TokenRange=140:143
+28	para	_	ADP	ADP	_	29	mark	_	TokenRange=144:148
+29	forcar	forcar	VERB	VERB	_	26	advcl	_	TokenRange=149:155
+30	a	o	DET	DET	_	31	det	_	TokenRange=156:157
+31	igreja	igreja	NOUN	NOUN	_	29	obj	_	TokenRange=158:164
+32-33	da	_	_	_	_	_	_	_	TokenRange=165:167
+32	de	de	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	inglaterra	inglaterra	NOUN	NOUN	_	31	nmod	_	TokenRange=168:178
+35	a	_	ADP	ADP	_	36	mark	_	TokenRange=179:180
+36	apoiar	apoiar	VERB	VERB	_	29	nmod	_	TokenRange=181:187
+37	o	o	DET	DET	_	38	det	_	TokenRange=188:189
+38	casamento	casamento	NOUN	NOUN	_	36	obj	_	TokenRange=190:199
+39	homossexual	homossexual	ADJ	ADJ	_	38	amod	_	TokenRange=200:211
+40	disse	dizer	VERB	VERB	_	0	root	_	TokenRange=212:217
+41	o	o	DET	DET	_	42	det	_	TokenRange=218:219
+42	ministro	ministro	NOUN	NOUN	_	40	nsubj	_	TokenRange=220:228
+43	anglicano	anglicano	ADJ	ADJ	_	42	amod	_	SpacesAfter=\s\s|TokenRange=229:238
+

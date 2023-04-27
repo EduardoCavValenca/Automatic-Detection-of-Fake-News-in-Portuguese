@@ -1,0 +1,22 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-gsd-ud-2.10-220711
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = 6 fatos que comprovam que a viagem de temer a russia foi uma vergonha
+1	6	_	NUM	NUM	NumType=Card	2	nummod	_	TokenRange=0:1
+2	fatos	fato	NOUN	NOUN	_	0	root	_	TokenRange=2:7
+3	que	_	PRON	PRON	_	4	nsubj	_	TokenRange=8:11
+4	comprovam	comprovar	VERB	VERB	_	2	acl:relcl	_	TokenRange=12:21
+5	que	que	CCONJ	CONJ	_	14	mark	_	TokenRange=22:25
+6	a	o	DET	DET	_	7	det	_	TokenRange=26:27
+7	viagem	viagem	NOUN	NOUN	_	14	nsubj	_	TokenRange=28:34
+8	de	_	ADP	ADP	_	9	mark	_	TokenRange=35:37
+9	temer	temer	VERB	VERB	_	7	nmod	_	TokenRange=38:43
+10	a	o	DET	DET	_	11	det	_	TokenRange=44:45
+11	russia	russia	NOUN	NOUN	_	9	nmod	_	TokenRange=46:52
+12	foi	_	AUX	AUX	_	14	cop	_	TokenRange=53:56
+13	uma	um	DET	DET	_	14	det	_	TokenRange=57:60
+14	vergonha	vergonha	NOUN	NOUN	_	4	ccomp	_	SpacesAfter=\s\s|TokenRange=61:69
+
