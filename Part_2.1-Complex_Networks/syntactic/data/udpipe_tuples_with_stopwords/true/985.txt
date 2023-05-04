@@ -1,128 +1,128 @@
-1 2 2 NUM nummod
-2 fase 8 NOUN nsubj
-3 de 5 ADP case
-4 a 5 DET det
-5 operacao 2 NOUN nmod
-6 ouro 5 NOUN appos
-7 verde 5 ADJ amod
-8 cumpre 0 VERB root
-9 mandados 8 NOUN obj
-10 de 11 ADP case
-11 prisao 9 NOUN nmod
-12 e 13 CCONJ cc
-13 apreende 8 VERB conj
-14 veiculos 13 NOUN obj
-15 de 16 ADP case
-16 luxo 14 NOUN nmod
-17 em 18 ADP case
-18 campinas 13 NOUN nmod
-19 e 20 CCONJ cc
-20 rio 18 NOUN conj
-21 preto 20 ADJ amod
-22 em 23 ADP case
-23 campinas 13 NOUN nmod
-24 exdiretor 31 NOUN nsubj:pass
-25 de 27 ADP case
-26 a 27 DET det
-27 prefeitura 24 NOUN nmod
-28 e 29 CCONJ cc
-29 exservidor 27 NOUN conj
-30 foram 31 AUX aux:pass
-31 presos 8 VERB conj
-32 medico 31 NOUN nsubj:pass
-33 foi 34 AUX aux:pass
-34 preso 8 VERB parataxis
-35 em 37 ADP case
-36 sao 37 DET det
-37 jose 34 NOUN nmod
-38 de 40 ADP case
-39 o 40 DET det
-40 rio 37 NOUN nmod
-41 preto 40 ADJ amod
-42 e 43 CCONJ cc
-43 advogado 34 NOUN conj
-44 alvo 43 ADJ amod
-45 de 46 ADP case
-46 mandado 44 NOUN nmod
-47 de 48 ADP case
-48 prisao 46 NOUN nmod
-49 ainda 52 ADV advmod
-50 nao 52 ADV advmod
-51 foi 52 AUX aux:pass
-52 localizado 34 VERB conj
-53 todos 54 PRON nsubj
-54 tem 8 VERB conj
-55 ligacao 54 NOUN obj
-56 com 59 ADP case
-57 a 59 DET case
-58 os 59 DET det
-59 vitale 55 NOUN nmod
-60 que 61 PRON nsubj
-61 administrava 59 VERB acl:relcl
-62 o 63 DET det
-63 hospital 61 NOUN obj
-64 ouro 63 NOUN appos
-65 verde 64 ADJ amod
-66 o 67 DET det
-67 ministerio 73 NOUN nsubj
-68 publico 67 ADJ amod
-69 e 71 CCONJ cc
-70 a 71 DET det
-71 policia 67 NOUN conj
-72 militar 71 ADJ amod
-73 cumpriram 8 VERB conj
-74 em 76 ADP case
-75 a 76 DET det
-76 manha 73 NOUN nmod
-77 desta 78 ADP case
-78 quintafeira 76 NOUN nmod
-79 22 80 NUM nummod
-80 quatro 81 NUM nummod
-81 mandados 73 NOUN obj
-82 de 83 ADP case
-83 prisao 81 NOUN nmod
-84 temporaria 83 ADJ amod
-85 e 86 CCONJ cc
-86 cinco 81 NUM conj
-87 de 88 ADP case
-88 busca 86 NOUN nmod
-89 e 90 CCONJ cc
-90 apreensao 88 NOUN conj
-91 em 92 ADP case
-92 campinas 86 NOUN nmod
-93 sp 92 ADJ amod
-94 e 96 CCONJ cc
-95 sao 96 NOUN amod
-96 jose 92 NOUN conj
-97 de 99 ADP case
-98 o 99 DET det
-99 rio 96 NOUN nmod
-100 preto 99 ADJ amod
-101 sp 99 ADJ amod
-102 as 103 DET det
-103 acoes 104 NOUN nsubj
-104 fazem 8 VERB conj
-105 parte 104 NOUN obj
-106 de 109 ADP case
-107 a 109 DET det
-108 2 109 NUM nummod
-109 fase 105 NOUN nmod
-110 de 112 ADP case
-111 a 112 DET det
-112 operacao 109 NOUN nmod
-113 ouro 112 NOUN appos
-114 verde 113 ADJ amod
-115 batizada 112 VERB acl
-116 de 117 ADP case
-117 caduceu 115 NOUN nmod
-118 que 119 PRON nsubj
-119 investiga 112 VERB acl:relcl
-120 o 121 DET det
-121 desvio 119 NOUN obj
-122 de 126 ADP case
-123 a 125 ADP case
-124 o 125 DET det
-125 menos 128 ADV advmod
-126 r 121 NOUN nmod
-127 45 128 NUM nummod
-128 milhoes 126 NUM nummod
+1 2 2 2 NUM nummod
+2 fase fase 8 NOUN nsubj
+3 de de 5 ADP case
+4 a o 5 DET det
+5 operacao operacao 2 NOUN nmod
+6 ouro ouro 5 NOUN appos
+7 verde verde 5 ADJ amod
+8 cumpre cumprir 0 VERB root
+9 mandados mandado 8 NOUN obj
+10 de de 11 ADP case
+11 prisao prisao 9 NOUN nmod
+12 e e 13 CCONJ cc
+13 apreende apreender 8 VERB conj
+14 veiculos veiculo 13 NOUN obj
+15 de de 16 ADP case
+16 luxo luxo 14 NOUN nmod
+17 em em 18 ADP case
+18 campinas campina 13 NOUN nmod
+19 e e 20 CCONJ cc
+20 rio rio 18 NOUN conj
+21 preto preto 20 ADJ amod
+22 em em 23 ADP case
+23 campinas campina 13 NOUN nmod
+24 exdiretor exdiretor 31 NOUN nsubj:pass
+25 de de 27 ADP case
+26 a o 27 DET det
+27 prefeitura prefeitura 24 NOUN nmod
+28 e e 29 CCONJ cc
+29 exservidor exservidor 27 NOUN conj
+30 foram foram 31 AUX aux:pass
+31 presos prender 8 VERB conj
+32 medico medico 31 NOUN nsubj:pass
+33 foi foi 34 AUX aux:pass
+34 preso preso 8 VERB parataxis
+35 em em 37 ADP case
+36 sao sao 37 DET det
+37 jose jose 34 NOUN nmod
+38 de de 40 ADP case
+39 o o 40 DET det
+40 rio rio 37 NOUN nmod
+41 preto preto 40 ADJ amod
+42 e e 43 CCONJ cc
+43 advogado advogado 34 NOUN conj
+44 alvo alvo 43 ADJ amod
+45 de de 46 ADP case
+46 mandado mandado 44 NOUN nmod
+47 de de 48 ADP case
+48 prisao prisao 46 NOUN nmod
+49 ainda ainda 52 ADV advmod
+50 nao nao 52 ADV advmod
+51 foi foi 52 AUX aux:pass
+52 localizado localizar 34 VERB conj
+53 todos todos 54 PRON nsubj
+54 tem ter 8 VERB conj
+55 ligacao ligacao 54 NOUN obj
+56 com com 59 ADP case
+57 a a 59 DET case
+58 os o 59 DET det
+59 vitale vitale 55 NOUN nmod
+60 que que 61 PRON nsubj
+61 administrava administrar 59 VERB acl:relcl
+62 o o 63 DET det
+63 hospital hospital 61 NOUN obj
+64 ouro ouro 63 NOUN appos
+65 verde verde 64 ADJ amod
+66 o o 67 DET det
+67 ministerio ministerio 73 NOUN nsubj
+68 publico publico 67 ADJ amod
+69 e e 71 CCONJ cc
+70 a o 71 DET det
+71 policia policia 67 NOUN conj
+72 militar militar 71 ADJ amod
+73 cumpriram cumprir 8 VERB conj
+74 em em 76 ADP case
+75 a o 76 DET det
+76 manha manha 73 NOUN nmod
+77 desta desta 78 ADP case
+78 quintafeira quintafeira 76 NOUN nmod
+79 22 22 80 NUM nummod
+80 quatro quatro 81 NUM nummod
+81 mandados mandado 73 NOUN obj
+82 de de 83 ADP case
+83 prisao prisao 81 NOUN nmod
+84 temporaria temporar 83 ADJ amod
+85 e e 86 CCONJ cc
+86 cinco cinco 81 NUM conj
+87 de de 88 ADP case
+88 busca busca 86 NOUN nmod
+89 e e 90 CCONJ cc
+90 apreensao apreensao 88 NOUN conj
+91 em em 92 ADP case
+92 campinas campina 86 NOUN nmod
+93 sp sp 92 ADJ amod
+94 e e 96 CCONJ cc
+95 sao sao 96 NOUN amod
+96 jose jose 92 NOUN conj
+97 de de 99 ADP case
+98 o o 99 DET det
+99 rio rio 96 NOUN nmod
+100 preto preto 99 ADJ amod
+101 sp sp 99 ADJ amod
+102 as o 103 DET det
+103 acoes acoe 104 NOUN nsubj
+104 fazem fazer 8 VERB conj
+105 parte parte 104 NOUN obj
+106 de de 109 ADP case
+107 a o 109 DET det
+108 2 2 109 NUM nummod
+109 fase fase 105 NOUN nmod
+110 de de 112 ADP case
+111 a o 112 DET det
+112 operacao operacao 109 NOUN nmod
+113 ouro ouro 112 NOUN appos
+114 verde verde 113 ADJ amod
+115 batizada batizar 112 VERB acl
+116 de de 117 ADP case
+117 caduceu caduceu 115 NOUN nmod
+118 que que 119 PRON nsubj
+119 investiga investigar 112 VERB acl:relcl
+120 o o 121 DET det
+121 desvio desvio 119 NOUN obj
+122 de de 126 ADP case
+123 a a 125 ADP case
+124 o o 125 DET det
+125 menos menos 128 ADV advmod
+126 r r 121 NOUN nmod
+127 45 45 128 NUM nummod
+128 milhoes milhoes 126 NUM nummod

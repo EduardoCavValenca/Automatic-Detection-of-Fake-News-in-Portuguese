@@ -1,114 +1,114 @@
-1 trf4 2 NOUN nsubj
-2 nega 0 VERB root
-3 pedido 2 NOUN obj
-4 lula 3 ADJ amod
-5 suspender 3 VERB acl:inf
-6 processo 5 NOUN obj
-7 sobre 11 ADP mark
-8 triplex 9 NOUN amod
-9 defesa 11 NOUN nsubj
-10 expresidente 9 NOUN amod
-11 protocolou 3 VERB acl:relcl
-12 habeas 11 NOUN obj
-13 corpus 12 NOUN flat
-14 suspender 11 VERB xcomp
-15 processo 14 NOUN obj
-16 sobre 17 ADP case
-17 triplex 15 NOUN nmod
-18 oas 19 CCONJ cc
-19 depoimento 17 NOUN conj
-20 petista 19 ADJ amod
-21 juiz 19 NOUN appos
-22 sergio 21 NOUN appos
-23 moro 21 NOUN flat
-24 mantido 19 VERB acl
-25 quartafeira 21 NOUN appos
-26 10 27 NUM nummod
-27 tribunal 25 NOUN appos
-28 regional 27 ADJ amod
-29 federal 27 ADJ amod
-30 4 31 NUM nummod
-31 regiao 27 NOUN appos
-32 trf4 27 NOUN appos
-33 negou 2 VERB parataxis
-34 pedido 33 NOUN obj
-35 defesa 34 ADJ amod
-36 expresidente 34 NOUN appos
-37 luiz 36 ADJ appos
-38 inacio 37 NOUN flat
-39 lula 37 NOUN flat
-40 silva 37 ADJ flat
-41 sobre 43 ADP case
-42 suspensao 43 NOUN amod
-43 processo 34 NOUN nmod
-44 triplex 43 NOUN appos
-45 empreiteira 44 NOUN flat
-46 oas 19 CCONJ cc
-47 mantido 19 VERB acl
-48 depoimento 47 NOUN obj
-49 petista 48 ADJ amod
-50 juiz 48 NOUN appos
-51 sergio 50 NOUN appos
-52 moro 50 NOUN flat
-53 nesta 54 ADP case
-54 quarta 33 PROPN nmod
-55 10 54 NUM nmod
-56 curitiba 54 NOUN appos
-57 decisao 58 NOUN amod
-58 juiz 33 NOUN nsubj
-59 federal 58 ADJ amod
-60 nivaldo 58 NOUN appos
-61 brunoni 60 NOUN flat
-62 convocado 58 VERB acl
-63 substituir 62 VERB xcomp
-64 desembargador 63 NOUN obj
-65 federal 64 ADJ amod
-66 relator 64 NOUN appos
-67 lava 66 NOUN appos
-68 jato 67 NOUN flat
-69 8 70 NUM nummod
-70 turma 67 NOUN appos
-71 porto 70 NOUN appos
-72 alegre 70 ADJ amod
-73 joao 70 NOUN appos
-74 pedro 73 NOUN flat
-75 gebran 73 NOUN flat
-76 neto 73 ADJ amod
-77 g1 78 NOUN nsubj
-78 entrou 2 VERB conj
-79 contato 78 NOUN obj
-80 advogados 79 NOUN flat
-81 lula 60 NOUN flat
-82 aguarda 58 VERB acl:relcl
-83 posicao 82 NOUN obj
-84 defesa 64 NOUN amod
-85 expresidente 86 NOUN nsubj
-86 recorreu 82 VERB conj
-87 habeas 86 NOUN obj
-88 corpus 87 NOUN flat
-89 pedia 82 VERB conj
-90 liminarmente 89 ADV advmod
-91 suspensao 89 ADJ xcomp
-92 processo 89 NOUN obj
-93 sobre 95 ADP case
-94 triplex 95 NOUN amod
-95 empreiteira 92 NOUN nmod
-96 oas 97 DET det
-97 advogados 98 NOUN nsubj
-98 alegaram 89 VERB conj
-99 prejuizo 98 NOUN obj
-100 fato 99 NOUN flat
-101 haver 102 AUX aux
-102 juntada 99 VERB acl:inf
-103 documentos 102 NOUN obj
-104 petrobras 103 ADJ amod
-105 ultimas 106 ADJ amod
-106 semanas 109 NOUN nmod
-107 pedido 109 VERB acl
-108 defensores 109 NOUN nsubj
-109 solicitavam 98 VERB parataxis
-110 ainda 109 ADV advmod
-111 tempo 109 NOUN obj
-112 analise 109 NOUN obj
-113 documentos 109 NOUN obj
-114 decisao 109 NOUN appos
+1 trf4 trf4 2 NOUN nsubj
+2 nega negar 0 VERB root
+3 pedido pedido 2 NOUN obj
+4 lula lula 3 ADJ amod
+5 suspender suspender 3 VERB acl:inf
+6 processo processo 5 NOUN obj
+7 sobre sobre 11 ADP mark
+8 triplex triplex 9 NOUN amod
+9 defesa defesa 11 NOUN nsubj
+10 expresidente expresidente 9 NOUN amod
+11 protocolou protocolar 3 VERB acl:relcl
+12 habeas habeas 11 NOUN obj
+13 corpus corpus 12 NOUN flat
+14 suspender suspender 11 VERB xcomp
+15 processo processo 14 NOUN obj
+16 sobre sobre 17 ADP case
+17 triplex triplex 15 NOUN nmod
+18 oas oas 19 CCONJ cc
+19 depoimento depoimento 17 NOUN conj
+20 petista petista 19 ADJ amod
+21 juiz juiz 19 NOUN appos
+22 sergio sergio 21 NOUN appos
+23 moro moro 21 NOUN flat
+24 mantido manter 19 VERB acl
+25 quartafeira quartafeira 21 NOUN appos
+26 10 10 27 NUM nummod
+27 tribunal tribunal 25 NOUN appos
+28 regional regional 27 ADJ amod
+29 federal federal 27 ADJ amod
+30 4 4 31 NUM nummod
+31 regiao regiao 27 NOUN appos
+32 trf4 trf4 27 NOUN appos
+33 negou negar 2 VERB parataxis
+34 pedido pedido 33 NOUN obj
+35 defesa defesa 34 ADJ amod
+36 expresidente expresidente 34 NOUN appos
+37 luiz luiz 36 ADJ appos
+38 inacio inacio 37 NOUN flat
+39 lula lula 37 NOUN flat
+40 silva silva 37 ADJ flat
+41 sobre sobre 43 ADP case
+42 suspensao suspensao 43 NOUN amod
+43 processo processo 34 NOUN nmod
+44 triplex triplex 43 NOUN appos
+45 empreiteira empreiteiro 44 NOUN flat
+46 oas oas 19 CCONJ cc
+47 mantido manter 19 VERB acl
+48 depoimento depoimento 47 NOUN obj
+49 petista petista 48 ADJ amod
+50 juiz juiz 48 NOUN appos
+51 sergio sergio 50 NOUN appos
+52 moro moro 50 NOUN flat
+53 nesta nesta 54 ADP case
+54 quarta quarta 33 PROPN nmod
+55 10 10 54 NUM nmod
+56 curitiba curitiba 54 NOUN appos
+57 decisao decisao 58 NOUN amod
+58 juiz juiz 33 NOUN nsubj
+59 federal federal 58 ADJ amod
+60 nivaldo nivaldo 58 NOUN appos
+61 brunoni brunoni 60 NOUN flat
+62 convocado convocar 58 VERB acl
+63 substituir substituir 62 VERB xcomp
+64 desembargador desembargador 63 NOUN obj
+65 federal federal 64 ADJ amod
+66 relator relator 64 NOUN appos
+67 lava lava 66 NOUN appos
+68 jato jato 67 NOUN flat
+69 8 8 70 NUM nummod
+70 turma turma 67 NOUN appos
+71 porto porto 70 NOUN appos
+72 alegre alegre 70 ADJ amod
+73 joao joao 70 NOUN appos
+74 pedro pedro 73 NOUN flat
+75 gebran gebran 73 NOUN flat
+76 neto neto 73 ADJ amod
+77 g1 g1 78 NOUN nsubj
+78 entrou entrar 2 VERB conj
+79 contato contato 78 NOUN obj
+80 advogados advogado 79 NOUN flat
+81 lula lula 60 NOUN flat
+82 aguarda aguarda 58 VERB acl:relcl
+83 posicao posicao 82 NOUN obj
+84 defesa defesa 64 NOUN amod
+85 expresidente expresidente 86 NOUN nsubj
+86 recorreu recorrer 82 VERB conj
+87 habeas habeas 86 NOUN obj
+88 corpus corpus 87 NOUN flat
+89 pedia pedir 82 VERB conj
+90 liminarmente liminarmente 89 ADV advmod
+91 suspensao suspensao 89 ADJ xcomp
+92 processo processo 89 NOUN obj
+93 sobre sobre 95 ADP case
+94 triplex triplex 95 NOUN amod
+95 empreiteira empreiteiro 92 NOUN nmod
+96 oas oas 97 DET det
+97 advogados advogado 98 NOUN nsubj
+98 alegaram alegar 89 VERB conj
+99 prejuizo prejuizo 98 NOUN obj
+100 fato fato 99 NOUN flat
+101 haver haver 102 AUX aux
+102 juntada juntar 99 VERB acl:inf
+103 documentos documento 102 NOUN obj
+104 petrobras petrobra 103 ADJ amod
+105 ultimas ultimo 106 ADJ amod
+106 semanas semana 109 NOUN nmod
+107 pedido pedir 109 VERB acl
+108 defensores defensor 109 NOUN nsubj
+109 solicitavam solicitar 98 VERB parataxis
+110 ainda ainda 109 ADV advmod
+111 tempo tempo 109 NOUN obj
+112 analise analise 109 NOUN obj
+113 documentos documento 109 NOUN obj
+114 decisao decisao 109 NOUN appos

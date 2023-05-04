@@ -1,151 +1,151 @@
-1 o 2 DET det
-2 tribunal 13 NOUN nsubj
-3 regional 2 ADJ amod
-4 federal 2 ADJ amod
-5 de 8 ADP case
-6 a 8 DET det
-7 4 8 NUM nummod
-8 regiao 2 NOUN nmod
-9 trf4 8 NOUN appos
-10 em 11 ADP case
-11 porto 8 PROPN nmod
-12 alegre 11 ADJ amod
-13 negou 0 VERB root
-14 nesta 15 ADP case
-15 segundafeira 13 NOUN nmod
-16 26 15 NUM appos
-17 os 18 DET det
-18 embargos 13 NOUN obj
-19 de 20 ADP case
-20 declaracao 18 NOUN nmod
-21 de 22 ADP case
-22 luiz 20 NOUN nmod
-23 inacio 22 NOUN flat
-24 lula 22 NOUN flat
-25 de 27 ADP case
-26 a 27 DET det
-27 silva 22 NOUN nmod
-28 recurso 13 NOUN obj
-29 final 28 ADJ amod
-30 de 32 ADP case
-31 a 32 DET det
-32 defesa 28 NOUN nmod
-33 em 36 ADP case
-34 a 36 DET det
-35 segunda 36 ADJ amod
-36 instancia 28 NOUN nmod
-37 de 39 ADP case
-38 a 39 DET det
-39 operacao 36 NOUN nmod
-40 lava 39 NOUN appos
-41 jato 39 ADJ amod
-42 o 43 DET det
-43 resultado 44 NOUN nsubj
-44 confirma 13 VERB parataxis
-45 a 46 DET det
-46 decisao 44 NOUN obj
-47 colegiada 46 ADJ amod
-48 de 51 ADP case
-49 a 51 DET det
-50 oitava 51 ADJ amod
-51 turma 46 NOUN nmod
-52 de 54 ADP case
-53 a 54 DET det
-54 corte 51 NOUN nmod
-55 que 56 PRON nsubj
-56 condenou 46 VERB acl:relcl
-57 o 58 DET det
-58 expresidente 56 NOUN obj
-59 a 61 ADP case
-60 12 61 NUM nummod
-61 anos 56 NOUN nmod
-62 e 64 CCONJ cc
-63 um 64 NUM nummod
-64 mes 61 NOUN conj
-65 de 66 ADP case
-66 prisao 64 NOUN nmod
-67 e 69 CCONJ cc
-68 devera 69 AUX aux
-69 levar 56 VERB conj
-70 lula 69 NOUN obj
-71 a 73 ADP mark
-72 ser 73 AUX aux:pass
-73 considerado 69 VERB nmod
-74 fichasuja 69 ADJ xcomp
-75 por 77 ADP case
-76 a 77 DET det
-77 justica 74 NOUN nmod
-78 eleitoral 77 ADJ amod
-79 impedindo 69 VERB acl
-80 que 83 CCONJ mark
-81 ele 83 PRON nsubj
-82 se 83 PRON obj
-83 candidate 79 VERB ccomp
-84 novamente 83 ADV advmod
-85 a 86 ADP case
-86 presidencia 83 NOUN nmod
-87 de 89 ADP case
-88 a 89 DET det
-89 republica 86 NOUN nmod
-90 lula 83 NOUN nsubj
-91 pode 93 AUX aux
-92 se 93 PRON obj
-93 candidatar 69 VERB ccomp
-94 a 96 ADP case
-95 o 96 DET det
-96 negar 93 VERB advcl
-97 o 98 DET det
-98 recurso 96 NOUN obj
-99 o 100 DET det
-100 trf4 93 NOUN nsubj
-101 tambem 102 ADV advmod
-102 abriu 126 VERB ccomp
-103 caminho 102 NOUN obj
-104 para 106 ADP case
-105 o 106 DET det
-106 inicio 103 NOUN nmod
-107 de 109 ADP case
-108 a 109 DET det
-109 execucao 106 NOUN nmod
-110 de 112 ADP case
-111 a 112 DET det
-112 prisao 109 NOUN nmod
-113 imposta 46 VERB acl
-114 a 116 ADP case
-115 o 116 DET det
-116 petista 113 NOUN iobj
-117 uma 118 DET det
-118 liminar 113 NOUN nsubj
-119 concedida 118 VERB acl
-120 por 123 ADP case
-121 o 123 DET det
-122 supremo 123 ADJ amod
-123 tribunal 119 NOUN nmod
-124 federal 123 ADJ amod
-125 porem 126 ADV advmod
-126 determina 113 VERB conj
-127 que 133 CCONJ mark
-128 o 129 DET det
-129 expresidente 133 NOUN nsubj:pass
-130 nao 133 ADV advmod
-131 pode 133 AUX aux
-132 ser 133 AUX aux:pass
-133 preso 126 VERB ccomp
-134 ate 136 ADP case
-135 o 136 DET det
-136 dia 133 NOUN nmod
-137 04 136 NUM nmod
-138 de 139 ADP case
-139 abril 137 PROPN nmod
-140 antes 143 ADV case
-141 de 140 ADP case
-142 a 140 DET det
-143 analise 133 NOUN nmod
-144 de 146 ADP case
-145 o 146 DET det
-146 merito 143 NOUN nmod
-147 de 149 ADP case
-148 o 149 DET det
-149 habeas 146 NOUN nmod
-150 corpus 149 NOUN flat
-151 preventivo 149 ADJ amod
+1 o o 2 DET det
+2 tribunal tribunal 13 NOUN nsubj
+3 regional regional 2 ADJ amod
+4 federal federal 2 ADJ amod
+5 de de 8 ADP case
+6 a o 8 DET det
+7 4 4 8 NUM nummod
+8 regiao regiao 2 NOUN nmod
+9 trf4 trf4 8 NOUN appos
+10 em em 11 ADP case
+11 porto porto 8 PROPN nmod
+12 alegre alegre 11 ADJ amod
+13 negou negar 0 VERB root
+14 nesta nesta 15 ADP case
+15 segundafeira segundafeira 13 NOUN nmod
+16 26 26 15 NUM appos
+17 os o 18 DET det
+18 embargos embargo 13 NOUN obj
+19 de de 20 ADP case
+20 declaracao declaracao 18 NOUN nmod
+21 de de 22 ADP case
+22 luiz luiz 20 NOUN nmod
+23 inacio inacio 22 NOUN flat
+24 lula lula 22 NOUN flat
+25 de de 27 ADP case
+26 a o 27 DET det
+27 silva silva 22 NOUN nmod
+28 recurso recurso 13 NOUN obj
+29 final final 28 ADJ amod
+30 de de 32 ADP case
+31 a o 32 DET det
+32 defesa defesa 28 NOUN nmod
+33 em em 36 ADP case
+34 a o 36 DET det
+35 segunda segundo 36 ADJ amod
+36 instancia instancia 28 NOUN nmod
+37 de de 39 ADP case
+38 a o 39 DET det
+39 operacao operacao 36 NOUN nmod
+40 lava lava 39 NOUN appos
+41 jato jato 39 ADJ amod
+42 o o 43 DET det
+43 resultado resultado 44 NOUN nsubj
+44 confirma confirmar 13 VERB parataxis
+45 a o 46 DET det
+46 decisao decisao 44 NOUN obj
+47 colegiada colegiado 46 ADJ amod
+48 de de 51 ADP case
+49 a o 51 DET det
+50 oitava oitava 51 ADJ amod
+51 turma turma 46 NOUN nmod
+52 de de 54 ADP case
+53 a o 54 DET det
+54 corte corte 51 NOUN nmod
+55 que que 56 PRON nsubj
+56 condenou condenar 46 VERB acl:relcl
+57 o o 58 DET det
+58 expresidente expresidente 56 NOUN obj
+59 a a 61 ADP case
+60 12 12 61 NUM nummod
+61 anos ano 56 NOUN nmod
+62 e e 64 CCONJ cc
+63 um um 64 NUM nummod
+64 mes me 61 NOUN conj
+65 de de 66 ADP case
+66 prisao prisao 64 NOUN nmod
+67 e e 69 CCONJ cc
+68 devera dever 69 AUX aux
+69 levar levar 56 VERB conj
+70 lula lula 69 NOUN obj
+71 a a 73 ADP mark
+72 ser ser 73 AUX aux:pass
+73 considerado considerar 69 VERB nmod
+74 fichasuja fichasuja 69 ADJ xcomp
+75 por por 77 ADP case
+76 a o 77 DET det
+77 justica justica 74 NOUN nmod
+78 eleitoral eleitoral 77 ADJ amod
+79 impedindo impedir 69 VERB acl
+80 que que 83 CCONJ mark
+81 ele ele 83 PRON nsubj
+82 se se 83 PRON obj
+83 candidate candidatar 79 VERB ccomp
+84 novamente novamente 83 ADV advmod
+85 a a 86 ADP case
+86 presidencia presidencia 83 NOUN nmod
+87 de de 89 ADP case
+88 a o 89 DET det
+89 republica republica 86 NOUN nmod
+90 lula lula 83 NOUN nsubj
+91 pode pode 93 AUX aux
+92 se se 93 PRON obj
+93 candidatar candidatar 69 VERB ccomp
+94 a a 96 ADP case
+95 o o 96 DET det
+96 negar negar 93 VERB advcl
+97 o o 98 DET det
+98 recurso recurso 96 NOUN obj
+99 o o 100 DET det
+100 trf4 trf4 93 NOUN nsubj
+101 tambem tambem 102 ADV advmod
+102 abriu abrir 126 VERB ccomp
+103 caminho caminho 102 NOUN obj
+104 para para 106 ADP case
+105 o o 106 DET det
+106 inicio inicio 103 NOUN nmod
+107 de de 109 ADP case
+108 a o 109 DET det
+109 execucao execucao 106 NOUN nmod
+110 de de 112 ADP case
+111 a o 112 DET det
+112 prisao prisao 109 NOUN nmod
+113 imposta imposta 46 VERB acl
+114 a a 116 ADP case
+115 o o 116 DET det
+116 petista petista 113 NOUN iobj
+117 uma um 118 DET det
+118 liminar liminar 113 NOUN nsubj
+119 concedida conceder 118 VERB acl
+120 por por 123 ADP case
+121 o o 123 DET det
+122 supremo supremo 123 ADJ amod
+123 tribunal tribunal 119 NOUN nmod
+124 federal federal 123 ADJ amod
+125 porem porem 126 ADV advmod
+126 determina determinar 113 VERB conj
+127 que que 133 CCONJ mark
+128 o o 129 DET det
+129 expresidente expresidente 133 NOUN nsubj:pass
+130 nao nao 133 ADV advmod
+131 pode pode 133 AUX aux
+132 ser ser 133 AUX aux:pass
+133 preso preso 126 VERB ccomp
+134 ate ate 136 ADP case
+135 o o 136 DET det
+136 dia dia 133 NOUN nmod
+137 04 04 136 NUM nmod
+138 de de 139 ADP case
+139 abril abril 137 PROPN nmod
+140 antes antes 143 ADV case
+141 de de 140 ADP case
+142 a o 140 DET det
+143 analise analise 133 NOUN nmod
+144 de de 146 ADP case
+145 o o 146 DET det
+146 merito merito 143 NOUN nmod
+147 de de 149 ADP case
+148 o o 149 DET det
+149 habeas habeas 146 NOUN nmod
+150 corpus corpus 149 NOUN flat
+151 preventivo preventivo 149 ADJ amod

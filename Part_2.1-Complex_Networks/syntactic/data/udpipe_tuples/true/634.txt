@@ -1,109 +1,109 @@
-1 ultimos 3 ADJ amod
-2 dois 3 NUM nummod
-3 meses 10 NOUN nmod
-4 mundo 3 NOUN appos
-5 vitima 4 ADJ amod
-6 dois 7 NUM nummod
-7 ataques 4 NOUN appos
-8 ciberneticos 7 ADJ amod
-9 massa 4 NOUN appos
-10 pararam 0 VERB root
-11 empresas 10 NOUN obj
-12 instituicoes 11 ADJ amod
-13 governos 11 ADJ amod
-14 dois 15 NUM nummod
-15 casos 10 NOUN nsubj
-16 hackers 15 NOUN amod
-17 bloquearam 11 VERB acl:relcl
-18 computadores 17 NOUN obj
-19 pediram 10 VERB ccomp
-20 resgates 19 NOUN obj
-21 devolver 20 VERB acl:inf
-22 usuarios 21 NOUN obj
-23 acesso 21 NOUN obj
-24 dados 23 NOUN amod
-25 tipo 23 NOUN appos
-26 coisa 25 NOUN flat
-27 vemos 7 VERB acl:relcl
-28 noticiario 27 NOUN obj
-29 achamos 30 VERB csubj
-30 acontece 10 VERB parataxis
-31 outros 32 DET det
-32 verdade 34 NOUN nsubj
-33 pode 34 AUX aux
-34 estar 10 VERB parataxis
-35 vulneravel 34 ADJ xcomp
-36 algo 39 PRON nsubj
-37 assim 39 ADV advmod
-38 agora 39 ADV advmod
-39 sabe 34 VERB acl:relcl
-40 proteger 39 VERB xcomp
-41 disso 40 X nmod
-42 vale 39 VERB parataxis
-43 megacorporacoes 42 NOUN nsubj
-44 pequenas 45 ADJ amod
-45 empresas 42 NOUN nsubj
-46 usuarios 45 NOUN appos
-47 domesticos 46 ADJ amod
-48 jogo 42 NOUN nsubj
-49 gatoerato 48 ADJ amod
-50 interminavel 51 ADJ amod
-51 empresas 53 NOUN nsubj
-52 seguranca 51 ADJ amod
-53 tentam 48 VERB acl:relcl
-54 fechar 53 VERB xcomp
-55 portas 54 NOUN obj
-56 enquanto 58 CCONJ mark
-57 hackers 58 NOUN nsubj
-58 tentam 53 VERB advcl
-59 encontrar 58 VERB xcomp
-60 novas 61 ADJ amod
-61 brechas 59 NOUN obj
-62 extensao 63 ADJ amod
-63 problema 61 NOUN appos
-64 maior 63 ADJ amod
-65 imaginado 63 VERB acl
-66 john 73 NOUN nsubj
-67 chambers 66 NOUN flat
-68 presidente 66 NOUN appos
-69 cisco 66 NOUN flat
-70 chegou 53 VERB parataxis
-71 dizer 70 VERB xcomp
-72 2014 71 NUM nmod
-73 existem 71 VERB ccomp
-74 dois 75 NUM nummod
-75 tipos 73 NOUN nsubj
-76 empresas 73 NOUN nsubj
-77 invadidas 76 ADJ amod
-78 ainda 79 ADV advmod
-79 sabem 73 VERB parataxis
-80 invadidas 79 ADJ xcomp
-81 talvez 79 ADV advmod
-82 aspectos 79 NOUN nsubj
-83 crueis 82 ADJ amod
-84 desses 86 ADP case
-85 dois 86 NUM nummod
-86 ataques 82 NOUN nmod
-87 dirigidos 86 ADJ amod
-88 tudo 90 PRON nsubj
-89 todos 90 PRON nsubj
-90 impacto 86 VERB acl:relcl
-91 hospitais 90 NOUN obj
-92 mundo 91 NOUN appos
-93 inteiro 94 ADJ amod
-94 acesso 91 NOUN appos
-95 computadores 94 ADJ amod
-96 instituicoes 94 NOUN appos
-97 obrigadas 94 ADJ amod
-98 suspender 90 VERB ccomp
-99 atendimento 98 NOUN obj
-100 pacientes 99 ADJ amod
-101 menos 102 DET det
-102 sistemas 98 NOUN obj
-103 essenciais 102 ADJ amod
-104 restabelecidos 102 VERB acl
-105 prejuizo 102 ADJ amod
-106 saude 109 NOUN obj
-107 publica 106 ADJ amod
-108 evidente 106 ADJ amod
-109 colocando 90 VERB acl
+1 ultimos ultimo 3 ADJ amod
+2 dois dois 3 NUM nummod
+3 meses mês 10 NOUN nmod
+4 mundo mundo 3 NOUN appos
+5 vitima vitima 4 ADJ amod
+6 dois dois 7 NUM nummod
+7 ataques ataque 4 NOUN appos
+8 ciberneticos cibernetico 7 ADJ amod
+9 massa massa 4 NOUN appos
+10 pararam parar 0 VERB root
+11 empresas empresa 10 NOUN obj
+12 instituicoes instituicoe 11 ADJ amod
+13 governos governo 11 ADJ amod
+14 dois dois 15 NUM nummod
+15 casos caso 10 NOUN nsubj
+16 hackers hacker 15 NOUN amod
+17 bloquearam bloquear 11 VERB acl:relcl
+18 computadores computador 17 NOUN obj
+19 pediram pedir 10 VERB ccomp
+20 resgates resgate 19 NOUN obj
+21 devolver devolver 20 VERB acl:inf
+22 usuarios usuario 21 NOUN obj
+23 acesso acesso 21 NOUN obj
+24 dados dado 23 NOUN amod
+25 tipo tipo 23 NOUN appos
+26 coisa coisa 25 NOUN flat
+27 vemos ver 7 VERB acl:relcl
+28 noticiario noticiario 27 NOUN obj
+29 achamos achar 30 VERB csubj
+30 acontece acontecer 10 VERB parataxis
+31 outros outros 32 DET det
+32 verdade verdade 34 NOUN nsubj
+33 pode pode 34 AUX aux
+34 estar estar 10 VERB parataxis
+35 vulneravel vulneravel 34 ADJ xcomp
+36 algo algo 39 PRON nsubj
+37 assim assim 39 ADV advmod
+38 agora agora 39 ADV advmod
+39 sabe saber 34 VERB acl:relcl
+40 proteger proteger 39 VERB xcomp
+41 disso disso 40 X nmod
+42 vale vale 39 VERB parataxis
+43 megacorporacoes megacorporacoes 42 NOUN nsubj
+44 pequenas pequeno 45 ADJ amod
+45 empresas empresa 42 NOUN nsubj
+46 usuarios usuario 45 NOUN appos
+47 domesticos domestico 46 ADJ amod
+48 jogo jogo 42 NOUN nsubj
+49 gatoerato gatoerato 48 ADJ amod
+50 interminavel interminavel 51 ADJ amod
+51 empresas empresa 53 NOUN nsubj
+52 seguranca seguranca 51 ADJ amod
+53 tentam tentar 48 VERB acl:relcl
+54 fechar fechar 53 VERB xcomp
+55 portas porta 54 NOUN obj
+56 enquanto enquanto 58 CCONJ mark
+57 hackers hacker 58 NOUN nsubj
+58 tentam tentar 53 VERB advcl
+59 encontrar encontrar 58 VERB xcomp
+60 novas novo 61 ADJ amod
+61 brechas brecha 59 NOUN obj
+62 extensao extensao 63 ADJ amod
+63 problema problema 61 NOUN appos
+64 maior maior 63 ADJ amod
+65 imaginado imaginar 63 VERB acl
+66 john john 73 NOUN nsubj
+67 chambers chambers 66 NOUN flat
+68 presidente presidente 66 NOUN appos
+69 cisco cisco 66 NOUN flat
+70 chegou chegar 53 VERB parataxis
+71 dizer dizer 70 VERB xcomp
+72 2014 2014 71 NUM nmod
+73 existem existir 71 VERB ccomp
+74 dois dois 75 NUM nummod
+75 tipos tipo 73 NOUN nsubj
+76 empresas empresa 73 NOUN nsubj
+77 invadidas invadido 76 ADJ amod
+78 ainda ainda 79 ADV advmod
+79 sabem saber 73 VERB parataxis
+80 invadidas invadido 79 ADJ xcomp
+81 talvez talvez 79 ADV advmod
+82 aspectos aspecto 79 NOUN nsubj
+83 crueis cruel 82 ADJ amod
+84 desses desses 86 ADP case
+85 dois dois 86 NUM nummod
+86 ataques ataque 82 NOUN nmod
+87 dirigidos dirigido 86 ADJ amod
+88 tudo tudo 90 PRON nsubj
+89 todos todos 90 PRON nsubj
+90 impacto impacto 86 VERB acl:relcl
+91 hospitais hospital 90 NOUN obj
+92 mundo mundo 91 NOUN appos
+93 inteiro inteiro 94 ADJ amod
+94 acesso acesso 91 NOUN appos
+95 computadores computador 94 ADJ amod
+96 instituicoes instituicoe 94 NOUN appos
+97 obrigadas obrigado 94 ADJ amod
+98 suspender suspender 90 VERB ccomp
+99 atendimento atendimento 98 NOUN obj
+100 pacientes paciente 99 ADJ amod
+101 menos menos 102 DET det
+102 sistemas sistema 98 NOUN obj
+103 essenciais essencial 102 ADJ amod
+104 restabelecidos restabelecer 102 VERB acl
+105 prejuizo prejuizo 102 ADJ amod
+106 saude saude 109 NOUN obj
+107 publica publico 106 ADJ amod
+108 evidente evidente 106 ADJ amod
+109 colocando colocar 90 VERB acl

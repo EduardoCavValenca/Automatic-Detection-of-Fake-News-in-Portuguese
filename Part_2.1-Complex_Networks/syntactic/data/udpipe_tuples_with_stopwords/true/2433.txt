@@ -1,100 +1,100 @@
-1 cpf 7 NOUN nsubj
-2 em 3 ADP case
-3 troca 1 NOUN nmod
-4 de 5 ADP case
-5 desconto 3 NOUN nmod
-6 mp 1 NOUN appos
-7 investiga 0 VERB root
-8 venda 7 NOUN obj
-9 de 10 ADP case
-10 dados 8 NOUN nmod
-11 de 12 ADP case
-12 clientes 10 NOUN nmod
-13 por 14 ADP case
-14 farmacias 7 NOUN nmod
-15 orgao 7 NOUN parataxis
-16 suspeita 15 ADJ amod
-17 que 22 CCONJ mark
-18 lista 22 NOUN nsubj:pass
-19 de 20 ADP case
-20 compras 18 NOUN nmod
-21 seja 22 AUX aux:pass
-22 repassada 16 VERB dep
-23 a 24 ADP case
-24 empresas 22 NOUN nmod
-25 de 26 ADP case
-26 plano 24 NOUN nmod
-27 de 28 ADP case
-28 saude 26 NOUN nmod
-29 e 31 CCONJ cc
-30 de 31 ADP case
-31 analise 26 NOUN conj
-32 de 33 ADP case
-33 credito 31 NOUN nmod
-34 o 35 DET det
-35 ministerio 41 NOUN nsubj
-36 publico 35 ADJ amod
-37 de 39 ADP case
-38 o 39 DET det
-39 distrito 35 NOUN nmod
-40 federal 39 ADJ amod
-41 iniciou 7 VERB parataxis
-42 uma 43 DET det
-43 investigacao 41 NOUN obj
-44 para 45 ADP mark
-45 apurar 41 VERB advcl
-46 se 54 CCONJ mark
-47 redes 54 NOUN nsubj
-48 de 49 ADP case
-49 farmacias 47 NOUN nmod
-50 de 52 ADP case
-51 o 52 DET det
-52 pais 47 NOUN nmod
-53 estao 54 AUX aux
-54 repassando 45 VERB ccomp
-55 ou 56 CCONJ cc
-56 vendendo 54 VERB conj
-57 dados 56 NOUN obj
-58 sigilosos 57 ADJ amod
-59 de 60 ADP case
-60 clientes 57 NOUN nmod
-61 apos 62 ADP mark
-62 exigir 54 VERB advcl
-63 o 64 DET det
-64 cpf 62 NOUN obj
-65 deles 64 X det:poss
-66 em 67 ADP case
-67 troca 62 NOUN nmod
-68 de 69 ADP case
-69 desconto 67 NOUN nmod
-70 a 71 DET det
-71 suspeita 62 NOUN obj
-72 e 84 CCONJ cc
-73 de 84 ADP mark
-74 que 84 CCONJ mark
-75 a 76 DET det
-76 lista 84 NOUN nsubj:pass
-77 de 78 ADP case
-78 compra 76 NOUN nmod
-79 de 81 ADP case
-80 cada 81 DET det
-81 consumidor 76 NOUN nmod
-82 esteja 84 AUX aux
-83 sendo 84 AUX aux:pass
-84 divulgada 71 VERB conj
-85 para 86 ADP case
-86 empresas 84 NOUN nmod
-87 de 88 ADP case
-88 planos 86 NOUN nmod
-89 de 90 ADP case
-90 saude 88 NOUN nmod
-91 e 93 CCONJ cc
-92 de 93 ADP case
-93 analise 88 NOUN conj
-94 de 95 ADP case
-95 credito 93 NOUN nmod
-96 em 98 ADP case
-97 uma 98 DET det
-98 especie 84 NOUN nmod
-99 de 100 ADP case
-100 mercado 98 NOUN nmod
+1 cpf cpf 7 NOUN nsubj
+2 em em 3 ADP case
+3 troca troca 1 NOUN nmod
+4 de de 5 ADP case
+5 desconto desconto 3 NOUN nmod
+6 mp mp 1 NOUN appos
+7 investiga investigar 0 VERB root
+8 venda venda 7 NOUN obj
+9 de de 10 ADP case
+10 dados dado 8 NOUN nmod
+11 de de 12 ADP case
+12 clientes cliente 10 NOUN nmod
+13 por por 14 ADP case
+14 farmacias farmacia 7 NOUN nmod
+15 orgao orgao 7 NOUN parataxis
+16 suspeita suspeita 15 ADJ amod
+17 que que 22 CCONJ mark
+18 lista lista 22 NOUN nsubj:pass
+19 de de 20 ADP case
+20 compras compra 18 NOUN nmod
+21 seja ser 22 AUX aux:pass
+22 repassada repassar 16 VERB dep
+23 a a 24 ADP case
+24 empresas empresa 22 NOUN nmod
+25 de de 26 ADP case
+26 plano plano 24 NOUN nmod
+27 de de 28 ADP case
+28 saude saude 26 NOUN nmod
+29 e e 31 CCONJ cc
+30 de de 31 ADP case
+31 analise analise 26 NOUN conj
+32 de de 33 ADP case
+33 credito credito 31 NOUN nmod
+34 o o 35 DET det
+35 ministerio ministerio 41 NOUN nsubj
+36 publico publico 35 ADJ amod
+37 de de 39 ADP case
+38 o o 39 DET det
+39 distrito distrito 35 NOUN nmod
+40 federal federal 39 ADJ amod
+41 iniciou iniciar 7 VERB parataxis
+42 uma um 43 DET det
+43 investigacao investigacao 41 NOUN obj
+44 para para 45 ADP mark
+45 apurar apurar 41 VERB advcl
+46 se se 54 CCONJ mark
+47 redes rede 54 NOUN nsubj
+48 de de 49 ADP case
+49 farmacias farmacia 47 NOUN nmod
+50 de de 52 ADP case
+51 o o 52 DET det
+52 pais pais 47 NOUN nmod
+53 estao estao 54 AUX aux
+54 repassando repassar 45 VERB ccomp
+55 ou ou 56 CCONJ cc
+56 vendendo vender 54 VERB conj
+57 dados dado 56 NOUN obj
+58 sigilosos sigiloso 57 ADJ amod
+59 de de 60 ADP case
+60 clientes cliente 57 NOUN nmod
+61 apos apos 62 ADP mark
+62 exigir exigir 54 VERB advcl
+63 o o 64 DET det
+64 cpf cpf 62 NOUN obj
+65 deles deles 64 X det:poss
+66 em em 67 ADP case
+67 troca troca 62 NOUN nmod
+68 de de 69 ADP case
+69 desconto desconto 67 NOUN nmod
+70 a o 71 DET det
+71 suspeita suspeita 62 NOUN obj
+72 e e 84 CCONJ cc
+73 de de 84 ADP mark
+74 que que 84 CCONJ mark
+75 a o 76 DET det
+76 lista lista 84 NOUN nsubj:pass
+77 de de 78 ADP case
+78 compra compra 76 NOUN nmod
+79 de de 81 ADP case
+80 cada cada 81 DET det
+81 consumidor consumidor 76 NOUN nmod
+82 esteja estar 84 AUX aux
+83 sendo ser 84 AUX aux:pass
+84 divulgada divulgar 71 VERB conj
+85 para para 86 ADP case
+86 empresas empresa 84 NOUN nmod
+87 de de 88 ADP case
+88 planos plano 86 NOUN nmod
+89 de de 90 ADP case
+90 saude saude 88 NOUN nmod
+91 e e 93 CCONJ cc
+92 de de 93 ADP case
+93 analise analise 88 NOUN conj
+94 de de 95 ADP case
+95 credito credito 93 NOUN nmod
+96 em em 98 ADP case
+97 uma um 98 DET det
+98 especie especie 84 NOUN nmod
+99 de de 100 ADP case
+100 mercado mercado 98 NOUN nmod

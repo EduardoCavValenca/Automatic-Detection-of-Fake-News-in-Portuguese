@@ -1,383 +1,383 @@
-1 ciro 2 NUM amod
-2 gomes 4 NOUN nsubj
-3 lula 4 NOUN nsubj
-4 mistura 17 NOUN parataxis
-5 politica 4 ADJ amod
-6 com 7 ADP case
-7 dinheiro 4 NOUN nmod
-8 e 10 CCONJ cc
-9 2 10 NUM nummod
-10 milhoes 7 NUM conj
-11 para 13 ADP case
-12 um 13 DET det
-13 filho 4 NOUN nmod
-14 aqui 4 ADV advmod
-15 3 16 NUM nummod
-16 milhoes 17 NUM nsubj
-17 acola 0 VERB root
-18 trechos 17 NOUN obj
-19 de 21 ADP case
-20 uma 21 DET det
-21 entrevista 18 NOUN nmod
-22 dada 21 VERB acl
-23 por 25 ADP case
-24 o 25 DET det
-25 exministro 22 NOUN nmod
-26 ciro 25 NOUN appos
-27 gomes 26 NOUN flat
-28 pdt 30 NOUN appos
-29 a 30 DET det
-30 tv 22 NOUN nmod
-31 brasil 30 ADJ amod
-32 emissora 30 NOUN appos
-33 ligada 32 ADJ amod
-34 a 36 ADP case
-35 o 36 DET det
-36 governo 33 NOUN nmod
-37 federal 36 ADJ amod
-38 o 39 DET det
-39 eduardo 80 NOUN nsubj
-40 cunha 39 ADJ amod
-41 presidente 39 NOUN appos
-42 de 44 ADP case
-43 a 44 DET det
-44 camara 41 NOUN nmod
-45 federal 44 ADJ amod
-46 roubou 4 VERB parataxis
-47 algo 46 PRON obj
-48 a 53 ADP case
-49 o 53 DET det
-50 redor 48 NOUN fixed
-51 de 48 ADP fixed
-52 meio 53 NUM nummod
-53 bilhao 55 NUM nummod
-54 de 55 ADP case
-55 reais 46 NOUN nmod
-56 e 59 CCONJ cc
-57 deve 59 AUX aux
-58 ter 59 AUX aux
-59 distribuido 46 VERB conj
-60 uns 61 DET det
-61 r 59 NOUN obj
-62 350 63 NUM nummod
-63 milhoes 61 NUM nummod
-64 com 66 ADP case
-65 uns 66 DET det
-66 150 59 NUM nmod
-67 a 69 ADP case
-68 200 69 NUM nummod
-69 picaretas 66 NOUN nmod
-70 lula 149 NOUN nsubj
-71 esta 72 AUX aux
-72 falando 149 VERB parataxis
-73 demais 74 DET det
-74 expresidente 72 NOUN nsubj
-75 de 77 ADP case
-76 a 77 DET det
-77 republica 74 NOUN nmod
-78 tem 80 AUX aux
-79 que 80 CCONJ mark
-80 ficar 153 VERB conj
-81 calado 80 ADJ xcomp
-82 a 83 DET det
-83 administracao 80 NOUN nsubj
-84 de 85 ADP case
-85 dilma 83 NOUN nmod
-86 e 87 CCONJ cc
-87 ruinosa 244 ADJ conj
-88 ela 175 PRON nsubj
-89 e 90 CCONJ cc
-90 seria 244 VERB conj
-91 e 93 CCONJ cc
-92 nao 93 ADV advmod
-93 cometeu 175 VERB conj
-94 nenhum 95 DET det
-95 crime 93 NOUN obj
-96 que 97 PRON nsubj
-97 justifique 95 VERB acl:relcl
-98 o 100 DET det
-99 seu 100 DET det:poss
-100 impedimento 97 NOUN obj
-101 mas 105 CCONJ cc
-102 o 103 DET det
-103 governo 105 NOUN nsubj
-104 esta 105 AUX aux
-105 administrando 46 VERB conj
-106 muito 107 ADV advmod
-107 mal 105 ADV advmod
-108 a 109 DET det
-109 economia 105 NOUN obj
-110 e 113 CCONJ cc
-111 nao 113 ADV advmod
-112 esta 113 AUX aux
-113 passando 337 VERB conj
-114 o 115 DET det
-115 sinal 113 NOUN obj
-116 correto 115 ADJ amod
-117 de 118 ADP case
-118 decencia 115 NOUN nmod
-119 em 121 ADP case
-120 o 121 DET det
-121 manejo 115 NOUN nmod
-122 de 124 ADP case
-123 a 124 DET det
-124 coisa 121 NOUN nmod
-125 publica 124 ADJ amod
-126 sendo 355 AUX aux
-127 ela 128 PRON nsubj
-128 decente 4 ADJ conj
-129 uma 130 DET det
-130 parte 128 NOUN nsubj
-131 importante 130 ADJ amod
-132 de 134 ADP case
-133 as 134 DET det
-134 contradicoes 130 NOUN nmod
-135 de 136 ADP case
-136 dilma 134 NOUN nmod
-137 e 140 CCONJ cc
-138 que 140 CCONJ mark
-139 ela 140 PRON nsubj
-140 quer 355 VERB conj
-141 moralizar 140 VERB xcomp
-142 tendo 143 AUX aux
-143 herdado 22 VERB acl
-144 uma 145 DET det
-145 coisa 143 NOUN obj
-146 em 147 ADP case
-147 que 149 PRON nmod
-148 lula 149 NOUN nsubj
-149 era 145 VERB acl:relcl
-150 absolutamente 151 ADV advmod
-151 concessivo 149 ADJ xcomp
-152 a 153 DET det
-153 moral 149 NOUN nsubj
-154 de 155 ADP case
-155 lula 153 NOUN nmod
-156 e 157 CCONJ cc
-157 frouxa 155 ADJ conj
-158 a 157 PRON nmod
-159 dela 66 X nmod
-160 nao 80 ADV advmod
-161 e 164 CCONJ cc
-162 o 164 DET det
-163 lula 164 NOUN nsubj
-164 dizia 46 VERB conj
-165 mais 164 ADV advmod
-166 ou 167 CCONJ cc
-167 menos 165 ADV conj
-168 a 170 ADP case
-169 o 170 DET det
-170 povo 164 NOUN iobj
-171 eu 175 PRON nsubj
-172 vou 175 AUX aux
-173 ter 175 AUX aux
-174 que 175 CCONJ mark
-175 fazer 46 VERB conj
-176 aqui 175 ADV advmod
-177 uns 178 DET det
-178 trambiques 175 NOUN obj
-179 para 181 ADP mark
-180 poder 181 AUX aux
-181 aquietar 175 VERB advcl
-182 os 183 DET det
-183 caras 181 NOUN obj
-184 e 185 CCONJ cc
-185 tirar 181 VERB conj
-186 alguma 187 DET det
-187 coisa 185 NOUN obj
-188 pra 189 ADP case
-189 voces 185 NOUN nmod
-190 e 193 CCONJ cc
-191 o 193 DET det
-192 povo 193 NOUN nsubj
-193 percebia 46 VERB conj
-194 essa 195 DET det
-195 logica 193 NOUN obj
-196 o 197 DET det
-197 picaretamor 193 NOUN obj
-198 de 200 ADP case
-199 a 200 DET det
-200 republica 197 NOUN nmod
-201 eduardo 197 NOUN appos
-202 cunha 201 PROPN flat
-203 pmdbrj 201 PROPN flat
-204 que 205 PRON nsubj
-205 assina 201 VERB acl:relcl
-206 o 207 DET det
-207 impeachment 205 NOUN obj
-208 de 209 ADP case
-209 dilma 207 NOUN nmod
-210 e 211 CCONJ cc
-211 formador 207 NOUN conj
-212 de 213 ADP case
-213 quadrilha 211 NOUN nmod
-214 ladrao 213 ADJ amod
-215 o 216 DET det
-216 cacete 381 NOUN nsubj
-217 a 218 ADP case
-218 quatro 216 NUM nmod
-219 lula 221 NOUN nsubj
-220 ter 221 AUX aux
-221 empoderado 264 VERB conj
-222 o 223 DET det
-223 pmdb 221 NOUN obj
-224 e 226 CCONJ cc
-225 um 226 DET det
-226 erro 197 NOUN conj
-227 historico 226 ADJ amod
-228 por 229 ADP case
-229 isso 221 PRON nmod
-230 estamos 231 AUX aux
-231 pagando 248 VERB advcl
-232 caro 231 ADJ advmod
-233 lula 237 NOUN nsubj
-234 esta 237 AUX aux
-235 sendo 237 AUX cop
-236 uma 237 DET det
-237 figura 164 NOUN ccomp
-238 ruim 237 ADJ amod
-239 para 241 ADP case
-240 o 241 DET det
-241 pais 237 NOUN nmod
-242 falo 237 VERB acl:relcl
-243 isso 244 PRON nsubj
-244 respeitosa 242 ADJ xcomp
-245 e 248 CCONJ cc
-246 fraternalmente 248 ADV advmod
-247 ele 248 PRON nsubj
-248 perdeu 175 VERB conj
-249 a 250 DET det
-250 majestade 248 NOUN obj
-251 daqui 248 ADP nmod
-252 a 253 ADP mark
-253 pouco 251 ADV nmod
-254 o 255 DET det
-255 cara 256 NOUN nsubj
-256 passa 281 VERB advcl
-257 a 258 ADP case
-258 mao 256 NOUN nmod
-259 em 261 ADP case
-260 a 261 DET det
-261 bunda 256 NOUN nmod
-262 dele 261 X det:poss
-263 ele 264 PRON nsubj
-264 desceu 175 VERB conj
-265 de 267 ADP case
-266 o 267 DET det
-267 lugar 264 NOUN nmod
-268 dele 267 X det:poss
-269 e 164 CCONJ cc
-270 esta 264 PRON conj
-271 em 273 ADP case
-272 o 273 DET det
-273 mundanismo 211 NOUN nmod
-274 e 277 CCONJ cc
-275 em 277 ADP case
-276 o 277 DET det
-277 mundanismo 273 NOUN conj
-278 vale 175 VERB conj
-279 tudo 248 PRON nsubj
-280 lula 248 NOUN nsubj
-281 isola 164 VERB ccomp
-282 a 283 DET det
-283 dilma 281 NOUN obj
-284 e 285 CCONJ cc
-285 faz 281 VERB conj
-286 a 287 DET det
-287 tutela 285 NOUN obj
-288 publica 287 ADJ amod
-289 isso 290 PRON nsubj
-290 esta 164 VERB ccomp
-291 errado 290 ADJ xcomp
-292 o 264 PRON nsubj
-293 que 294 PRON nsubj
-294 resta 292 VERB acl:relcl
-295 de 297 ADP case
-296 a 297 DET det
-297 autoridade 294 NOUN nmod
-298 de 300 ADP case
-299 a 300 DET det
-300 dilma 297 NOUN nmod
-301 com 303 ADP case
-302 esse 303 DET det
-303 tipo 294 NOUN nmod
-304 de 305 ADP case
-305 comportamento 303 NOUN nmod
-306 de 308 ADP case
-307 o 308 DET det
-308 lula 310 NOUN nmod
-309 lula 310 NOUN nsubj
-310 mistura 237 VERB acl:relcl
-311 politica 310 NOUN amod
-312 com 313 ADP case
-313 dinheiro 310 NOUN nmod
-314 quer 242 VERB conj
-315 ser 314 VERB xcomp
-316 politico 315 ADJ xcomp
-317 e 318 CCONJ cc
-318 confrontar 315 VERB conj
-319 poderoso 318 ADJ advmod
-320 nao 323 ADV advmod
-321 e 322 CCONJ cc
-322 possivel 320 ADJ conj
-323 tem 175 VERB conj
-324 uma 325 DET det
-325 fortuna 323 NOUN obj
-326 em 328 ADP case
-327 a 328 DET det
-328 conta 323 NOUN nmod
-329 dele 328 X det:poss
-330 ninguem 323 NOUN nsubj
-331 e 332 CCONJ cc
-332 idiota 330 NOUN conj
-333 ainda 337 ADV advmod
-334 ciro 335 ADJ amod
-335 gomes 337 NOUN nsubj
-336 dilma 310 NOUN nsubj
-337 faz 323 VERB conj
-338 um 339 DET det
-339 governo 337 NOUN obj
-340 moralista 339 ADJ amod
-341 com 343 ADP case
-342 um 343 DET det
-343 governo 339 NOUN nmod
-344 que 97 PRON nsubj
-345 e 347 CCONJ cc
-346 todo 347 ADV advmod
-347 misturado 344 ADJ conj
-348 todo 349 DET det
-349 mestico 97 NOUN nsubj
-350 cheio 349 ADJ amod
-351 de 352 ADP case
-352 pilantras 350 NOUN nmod
-353 ela 355 PRON nsubj
-354 esta 355 AUX aux
-355 nomeando 337 VERB ccomp
-356 uma 357 DET det
-357 turma 355 NOUN obj
-358 agora 355 ADV advmod
-359 so 357 ADV advmod
-360 para 361 ADP mark
-361 roubar 355 VERB advcl
-362 e 364 CCONJ cc
-363 so 364 ADV advmod
-364 esperar 361 VERB conj
-365 eu 366 PRON nsubj
-366 sei 355 VERB conj
-367 o 366 PRON obj
-368 que 370 PRON obj
-369 estou 370 AUX aux
-370 falando 367 VERB acl:relcl
-371 fontes 370 NOUN nsubj
-372 diario 371 ADJ amod
-373 de 375 ADP case
-374 o 375 DET det
-375 brasil 371 NOUN nmod
-376 radiobras 381 NOUN nsubj
-377 jponline 376 NOUN flat
-378 e 379 CCONJ cc
-379 agencia 376 NOUN conj
-380 brasil 379 ADJ flat
-381 assista 337 VERB parataxis
-382 o 383 DET det
-383 video 381 NOUN obj
+1 ciro ciro 2 NUM amod
+2 gomes gome 4 NOUN nsubj
+3 lula lula 4 NOUN nsubj
+4 mistura mistura 17 NOUN parataxis
+5 politica politica 4 ADJ amod
+6 com com 7 ADP case
+7 dinheiro dinheiro 4 NOUN nmod
+8 e e 10 CCONJ cc
+9 2 2 10 NUM nummod
+10 milhoes milhoes 7 NUM conj
+11 para para 13 ADP case
+12 um um 13 DET det
+13 filho filho 4 NOUN nmod
+14 aqui aqui 4 ADV advmod
+15 3 3 16 NUM nummod
+16 milhoes milhoes 17 NUM nsubj
+17 acola acolar 0 VERB root
+18 trechos trecho 17 NOUN obj
+19 de de 21 ADP case
+20 uma um 21 DET det
+21 entrevista entrevista 18 NOUN nmod
+22 dada dar 21 VERB acl
+23 por por 25 ADP case
+24 o o 25 DET det
+25 exministro exministro 22 NOUN nmod
+26 ciro ciro 25 NOUN appos
+27 gomes gome 26 NOUN flat
+28 pdt pdt 30 NOUN appos
+29 a o 30 DET det
+30 tv tv 22 NOUN nmod
+31 brasil brasil 30 ADJ amod
+32 emissora emissora 30 NOUN appos
+33 ligada ligado 32 ADJ amod
+34 a a 36 ADP case
+35 o o 36 DET det
+36 governo governo 33 NOUN nmod
+37 federal federal 36 ADJ amod
+38 o o 39 DET det
+39 eduardo eduardo 80 NOUN nsubj
+40 cunha cunha 39 ADJ amod
+41 presidente presidente 39 NOUN appos
+42 de de 44 ADP case
+43 a o 44 DET det
+44 camara camara 41 NOUN nmod
+45 federal federal 44 ADJ amod
+46 roubou roubar 4 VERB parataxis
+47 algo algo 46 PRON obj
+48 a a 53 ADP case
+49 o o 53 DET det
+50 redor redor 48 NOUN fixed
+51 de de 48 ADP fixed
+52 meio meio 53 NUM nummod
+53 bilhao bilhao 55 NUM nummod
+54 de de 55 ADP case
+55 reais real 46 NOUN nmod
+56 e e 59 CCONJ cc
+57 deve dever 59 AUX aux
+58 ter ter 59 AUX aux
+59 distribuido distribuir 46 VERB conj
+60 uns uns 61 DET det
+61 r r 59 NOUN obj
+62 350 350 63 NUM nummod
+63 milhoes milhoes 61 NUM nummod
+64 com com 66 ADP case
+65 uns uns 66 DET det
+66 150 150 59 NUM nmod
+67 a a 69 ADP case
+68 200 200 69 NUM nummod
+69 picaretas picareta 66 NOUN nmod
+70 lula lula 149 NOUN nsubj
+71 esta esta 72 AUX aux
+72 falando falar 149 VERB parataxis
+73 demais demais 74 DET det
+74 expresidente expresidente 72 NOUN nsubj
+75 de de 77 ADP case
+76 a o 77 DET det
+77 republica republica 74 NOUN nmod
+78 tem ter 80 AUX aux
+79 que que 80 CCONJ mark
+80 ficar ficar 153 VERB conj
+81 calado calado 80 ADJ xcomp
+82 a o 83 DET det
+83 administracao administracao 80 NOUN nsubj
+84 de de 85 ADP case
+85 dilma dilma 83 NOUN nmod
+86 e e 87 CCONJ cc
+87 ruinosa ruinoso 244 ADJ conj
+88 ela ela 175 PRON nsubj
+89 e e 90 CCONJ cc
+90 seria seria 244 VERB conj
+91 e e 93 CCONJ cc
+92 nao nao 93 ADV advmod
+93 cometeu cometer 175 VERB conj
+94 nenhum nenhum 95 DET det
+95 crime crime 93 NOUN obj
+96 que que 97 PRON nsubj
+97 justifique justificar 95 VERB acl:relcl
+98 o o 100 DET det
+99 seu seu 100 DET det:poss
+100 impedimento impedimento 97 NOUN obj
+101 mas mas 105 CCONJ cc
+102 o o 103 DET det
+103 governo governo 105 NOUN nsubj
+104 esta esta 105 AUX aux
+105 administrando administrar 46 VERB conj
+106 muito muito 107 ADV advmod
+107 mal mal 105 ADV advmod
+108 a o 109 DET det
+109 economia economia 105 NOUN obj
+110 e e 113 CCONJ cc
+111 nao nao 113 ADV advmod
+112 esta esta 113 AUX aux
+113 passando passar 337 VERB conj
+114 o o 115 DET det
+115 sinal sinal 113 NOUN obj
+116 correto correto 115 ADJ amod
+117 de de 118 ADP case
+118 decencia decencia 115 NOUN nmod
+119 em em 121 ADP case
+120 o o 121 DET det
+121 manejo manejo 115 NOUN nmod
+122 de de 124 ADP case
+123 a o 124 DET det
+124 coisa coisa 121 NOUN nmod
+125 publica publico 124 ADJ amod
+126 sendo ser 355 AUX aux
+127 ela ela 128 PRON nsubj
+128 decente decente 4 ADJ conj
+129 uma um 130 DET det
+130 parte parte 128 NOUN nsubj
+131 importante importante 130 ADJ amod
+132 de de 134 ADP case
+133 as o 134 DET det
+134 contradicoes contradicoe 130 NOUN nmod
+135 de de 136 ADP case
+136 dilma dilma 134 NOUN nmod
+137 e e 140 CCONJ cc
+138 que que 140 CCONJ mark
+139 ela ela 140 PRON nsubj
+140 quer querer 355 VERB conj
+141 moralizar moralizar 140 VERB xcomp
+142 tendo tendo 143 AUX aux
+143 herdado herdar 22 VERB acl
+144 uma um 145 DET det
+145 coisa coisa 143 NOUN obj
+146 em em 147 ADP case
+147 que que 149 PRON nmod
+148 lula lula 149 NOUN nsubj
+149 era era 145 VERB acl:relcl
+150 absolutamente absolutamente 151 ADV advmod
+151 concessivo concessivo 149 ADJ xcomp
+152 a o 153 DET det
+153 moral moral 149 NOUN nsubj
+154 de de 155 ADP case
+155 lula lula 153 NOUN nmod
+156 e e 157 CCONJ cc
+157 frouxa frouxo 155 ADJ conj
+158 a a 157 PRON nmod
+159 dela dela 66 X nmod
+160 nao nao 80 ADV advmod
+161 e e 164 CCONJ cc
+162 o o 164 DET det
+163 lula lula 164 NOUN nsubj
+164 dizia dizer 46 VERB conj
+165 mais mais 164 ADV advmod
+166 ou ou 167 CCONJ cc
+167 menos menos 165 ADV conj
+168 a a 170 ADP case
+169 o o 170 DET det
+170 povo povo 164 NOUN iobj
+171 eu eu 175 PRON nsubj
+172 vou ir 175 AUX aux
+173 ter ter 175 AUX aux
+174 que que 175 CCONJ mark
+175 fazer fazer 46 VERB conj
+176 aqui aqui 175 ADV advmod
+177 uns uns 178 DET det
+178 trambiques trambique 175 NOUN obj
+179 para para 181 ADP mark
+180 poder poder 181 AUX aux
+181 aquietar aquietar 175 VERB advcl
+182 os o 183 DET det
+183 caras cara 181 NOUN obj
+184 e e 185 CCONJ cc
+185 tirar tirar 181 VERB conj
+186 alguma alguma 187 DET det
+187 coisa coisa 185 NOUN obj
+188 pra pra 189 ADP case
+189 voces voces 185 NOUN nmod
+190 e e 193 CCONJ cc
+191 o o 193 DET det
+192 povo povo 193 NOUN nsubj
+193 percebia perceber 46 VERB conj
+194 essa essa 195 DET det
+195 logica logica 193 NOUN obj
+196 o o 197 DET det
+197 picaretamor picaretamor 193 NOUN obj
+198 de de 200 ADP case
+199 a o 200 DET det
+200 republica republica 197 NOUN nmod
+201 eduardo eduardo 197 NOUN appos
+202 cunha cunha 201 PROPN flat
+203 pmdbrj pmdbrj 201 PROPN flat
+204 que que 205 PRON nsubj
+205 assina assinar 201 VERB acl:relcl
+206 o o 207 DET det
+207 impeachment impeachment 205 NOUN obj
+208 de de 209 ADP case
+209 dilma dilma 207 NOUN nmod
+210 e e 211 CCONJ cc
+211 formador formador 207 NOUN conj
+212 de de 213 ADP case
+213 quadrilha quadrilha 211 NOUN nmod
+214 ladrao ladrao 213 ADJ amod
+215 o o 216 DET det
+216 cacete cacete 381 NOUN nsubj
+217 a a 218 ADP case
+218 quatro quatro 216 NUM nmod
+219 lula lula 221 NOUN nsubj
+220 ter ter 221 AUX aux
+221 empoderado empoderar 264 VERB conj
+222 o o 223 DET det
+223 pmdb pmdb 221 NOUN obj
+224 e e 226 CCONJ cc
+225 um um 226 DET det
+226 erro erro 197 NOUN conj
+227 historico historico 226 ADJ amod
+228 por por 229 ADP case
+229 isso isso 221 PRON nmod
+230 estamos estar 231 AUX aux
+231 pagando pagar 248 VERB advcl
+232 caro caro 231 ADJ advmod
+233 lula lula 237 NOUN nsubj
+234 esta esta 237 AUX aux
+235 sendo ser 237 AUX cop
+236 uma um 237 DET det
+237 figura figura 164 NOUN ccomp
+238 ruim ruim 237 ADJ amod
+239 para para 241 ADP case
+240 o o 241 DET det
+241 pais pais 237 NOUN nmod
+242 falo falo 237 VERB acl:relcl
+243 isso isso 244 PRON nsubj
+244 respeitosa respeitoso 242 ADJ xcomp
+245 e e 248 CCONJ cc
+246 fraternalmente fraternalmente 248 ADV advmod
+247 ele ele 248 PRON nsubj
+248 perdeu perder 175 VERB conj
+249 a o 250 DET det
+250 majestade majestade 248 NOUN obj
+251 daqui daqui 248 ADP nmod
+252 a a 253 ADP mark
+253 pouco pouco 251 ADV nmod
+254 o o 255 DET det
+255 cara cara 256 NOUN nsubj
+256 passa passar 281 VERB advcl
+257 a a 258 ADP case
+258 mao mao 256 NOUN nmod
+259 em em 261 ADP case
+260 a o 261 DET det
+261 bunda bunda 256 NOUN nmod
+262 dele dele 261 X det:poss
+263 ele ele 264 PRON nsubj
+264 desceu descer 175 VERB conj
+265 de de 267 ADP case
+266 o o 267 DET det
+267 lugar lugar 264 NOUN nmod
+268 dele dele 267 X det:poss
+269 e e 164 CCONJ cc
+270 esta esta 264 PRON conj
+271 em em 273 ADP case
+272 o o 273 DET det
+273 mundanismo mundanismo 211 NOUN nmod
+274 e e 277 CCONJ cc
+275 em em 277 ADP case
+276 o o 277 DET det
+277 mundanismo mundanismo 273 NOUN conj
+278 vale vale 175 VERB conj
+279 tudo tudo 248 PRON nsubj
+280 lula lula 248 NOUN nsubj
+281 isola isolar 164 VERB ccomp
+282 a o 283 DET det
+283 dilma dilma 281 NOUN obj
+284 e e 285 CCONJ cc
+285 faz fazer 281 VERB conj
+286 a o 287 DET det
+287 tutela tutela 285 NOUN obj
+288 publica publico 287 ADJ amod
+289 isso isso 290 PRON nsubj
+290 esta esta 164 VERB ccomp
+291 errado errado 290 ADJ xcomp
+292 o o 264 PRON nsubj
+293 que que 294 PRON nsubj
+294 resta restar 292 VERB acl:relcl
+295 de de 297 ADP case
+296 a o 297 DET det
+297 autoridade autoridade 294 NOUN nmod
+298 de de 300 ADP case
+299 a o 300 DET det
+300 dilma dilma 297 NOUN nmod
+301 com com 303 ADP case
+302 esse esse 303 DET det
+303 tipo tipo 294 NOUN nmod
+304 de de 305 ADP case
+305 comportamento comportamento 303 NOUN nmod
+306 de de 308 ADP case
+307 o o 308 DET det
+308 lula lula 310 NOUN nmod
+309 lula lula 310 NOUN nsubj
+310 mistura mistura 237 VERB acl:relcl
+311 politica politica 310 NOUN amod
+312 com com 313 ADP case
+313 dinheiro dinheiro 310 NOUN nmod
+314 quer querer 242 VERB conj
+315 ser ser 314 VERB xcomp
+316 politico politico 315 ADJ xcomp
+317 e e 318 CCONJ cc
+318 confrontar confrontar 315 VERB conj
+319 poderoso poderoso 318 ADJ advmod
+320 nao nao 323 ADV advmod
+321 e e 322 CCONJ cc
+322 possivel possivel 320 ADJ conj
+323 tem ter 175 VERB conj
+324 uma um 325 DET det
+325 fortuna fortuna 323 NOUN obj
+326 em em 328 ADP case
+327 a o 328 DET det
+328 conta conta 323 NOUN nmod
+329 dele dele 328 X det:poss
+330 ninguem ninguem 323 NOUN nsubj
+331 e e 332 CCONJ cc
+332 idiota idiota 330 NOUN conj
+333 ainda ainda 337 ADV advmod
+334 ciro ciro 335 ADJ amod
+335 gomes gomes 337 NOUN nsubj
+336 dilma dilma 310 NOUN nsubj
+337 faz fazer 323 VERB conj
+338 um um 339 DET det
+339 governo governo 337 NOUN obj
+340 moralista moralista 339 ADJ amod
+341 com com 343 ADP case
+342 um um 343 DET det
+343 governo governo 339 NOUN nmod
+344 que que 97 PRON nsubj
+345 e e 347 CCONJ cc
+346 todo todo 347 ADV advmod
+347 misturado misturado 344 ADJ conj
+348 todo todo 349 DET det
+349 mestico mestico 97 NOUN nsubj
+350 cheio cheio 349 ADJ amod
+351 de de 352 ADP case
+352 pilantras pilantra 350 NOUN nmod
+353 ela ela 355 PRON nsubj
+354 esta esta 355 AUX aux
+355 nomeando nomear 337 VERB ccomp
+356 uma um 357 DET det
+357 turma turma 355 NOUN obj
+358 agora agora 355 ADV advmod
+359 so so 357 ADV advmod
+360 para para 361 ADP mark
+361 roubar roubar 355 VERB advcl
+362 e e 364 CCONJ cc
+363 so so 364 ADV advmod
+364 esperar esperar 361 VERB conj
+365 eu eu 366 PRON nsubj
+366 sei saber 355 VERB conj
+367 o o 366 PRON obj
+368 que que 370 PRON obj
+369 estou estar 370 AUX aux
+370 falando falar 367 VERB acl:relcl
+371 fontes fonte 370 NOUN nsubj
+372 diario diario 371 ADJ amod
+373 de de 375 ADP case
+374 o o 375 DET det
+375 brasil brasil 371 NOUN nmod
+376 radiobras radiobras 381 NOUN nsubj
+377 jponline jponline 376 NOUN flat
+378 e e 379 CCONJ cc
+379 agencia agencia 376 NOUN conj
+380 brasil brasil 379 ADJ flat
+381 assista assistir 337 VERB parataxis
+382 o o 383 DET det
+383 video video 381 NOUN obj

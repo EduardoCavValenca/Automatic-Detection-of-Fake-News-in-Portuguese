@@ -1,80 +1,80 @@
-1 tse 10 DET nsubj
-2 provas 10 NOUN nsubj
-3 suficientes 2 ADJ amod
-4 cassar 2 VERB acl:relcl
-5 michel 6 NOUN amod
-6 temer 4 NOUN obj
-7 novo 8 ADJ amod
-8 presidente 4 NOUN obj
-9 pode 10 AUX aux
-10 eleito 0 VERB root
-11 voto 10 NOUN obj
-12 indireto 11 ADJ amod
-13 tse 14 DET det
-14 indicios 10 NOUN nsubj
-15 suficientes 14 ADJ amod
-16 provar 2 VERB acl:relcl
-17 financiamento 16 NOUN obj
-18 campanha 17 NOUN flat
-19 chapa 17 NOUN appos
-20 dilma/temer 19 NOUN flat
-21 beneficiou 10 VERB parataxis
-22 verbas 21 NOUN obj
-23 desviadas 22 ADJ amod
-24 esquema 21 NOUN obj
-25 criminoso 24 ADJ amod
-26 proveniente 24 ADJ amod
-27 petrobras 24 NOUN appos
-28 nesse 29 ADP case
-29 caso 21 NOUN nmod
-30 dois 31 NUM nummod
-31 depostos 35 NOUN nsubj
-32 blog 35 NOUN nsubj
-33 josias 32 NOUN appos
-34 souza 33 NOUN flat
-35 informou 10 VERB parataxis
-36 tais 37 DET det
-37 evidencias 35 NOUN obj
-38 documentais 37 ADJ amod
-39 testemunhais 35 NOUN nsubj
-40 suficientes 39 ADJ amod
-41 cassar 35 VERB ccomp
-42 chapa 41 NOUN obj
-43 pt/pmdb 42 NOUN appos
-44 dilma 45 NOUN nsubj
-45 rolou 41 VERB parataxis
-46 rampa 45 NOUN nmod
-47 abaixo 45 ADV advmod
-48 planalto 46 NOUN amod
-49 bola 51 ADJ amod
-50 vez 51 NOUN nmod
-51 presidente 46 NOUN appos
-52 michel 53 ADJ amod
-53 temer 51 NOUN appos
-54 caso 55 ADP case
-55 chapa 45 NOUN nmod
-56 cassada 55 ADJ amod
-57 tse 62 PRON nsubj
-58 mes 59 NOUN case
-59 dezembro 62 PROPN nmod
-60 2016 59 NUM nmod
-61 podera 62 AUX aux
-62 haver 10 VERB parataxis
-63 novas 64 ADJ amod
-64 eleicoes 62 NOUN obj
-65 diretas 64 ADJ amod
-66 presidente 64 NOUN appos
-67 republica 64 ADJ amod
-68 julgamento 62 NOUN nsubj
-69 empurrado 68 ADJ amod
-70 2017 68 NUM nmod
-71 cabera 62 VERB parataxis
-72 congresso 71 NOUN nsubj
-73 nacional 72 ADJ amod
-74 apontar 71 VERB csubj
-75 nome 74 NOUN obj
-76 proximo 77 ADJ amod
-77 presidente 75 NOUN appos
-78 atraves 79 ADP case
-79 eleicao 74 NOUN nmod
-80 indireta 79 ADJ amod
+1 tse tse 10 DET nsubj
+2 provas prova 10 NOUN nsubj
+3 suficientes suficiente 2 ADJ amod
+4 cassar cassar 2 VERB acl:relcl
+5 michel michel 6 NOUN amod
+6 temer temer 4 NOUN obj
+7 novo novo 8 ADJ amod
+8 presidente presidente 4 NOUN obj
+9 pode pode 10 AUX aux
+10 eleito eleger 0 VERB root
+11 voto voto 10 NOUN obj
+12 indireto indireto 11 ADJ amod
+13 tse tse 14 DET det
+14 indicios indicio 10 NOUN nsubj
+15 suficientes suficiente 14 ADJ amod
+16 provar provar 2 VERB acl:relcl
+17 financiamento financiamento 16 NOUN obj
+18 campanha campanha 17 NOUN flat
+19 chapa chapa 17 NOUN appos
+20 dilma/temer dilma/temer 19 NOUN flat
+21 beneficiou beneficiar 10 VERB parataxis
+22 verbas verba 21 NOUN obj
+23 desviadas desviado 22 ADJ amod
+24 esquema esquema 21 NOUN obj
+25 criminoso criminoso 24 ADJ amod
+26 proveniente proveniente 24 ADJ amod
+27 petrobras petrobra 24 NOUN appos
+28 nesse nesse 29 ADP case
+29 caso caso 21 NOUN nmod
+30 dois dois 31 NUM nummod
+31 depostos deposto 35 NOUN nsubj
+32 blog blog 35 NOUN nsubj
+33 josias josias 32 NOUN appos
+34 souza souza 33 NOUN flat
+35 informou informar 10 VERB parataxis
+36 tais tais 37 DET det
+37 evidencias evidencias 35 NOUN obj
+38 documentais documental 37 ADJ amod
+39 testemunhais testemunhal 35 NOUN nsubj
+40 suficientes suficiente 39 ADJ amod
+41 cassar cassar 35 VERB ccomp
+42 chapa chapa 41 NOUN obj
+43 pt/pmdb pt/pmdb 42 NOUN appos
+44 dilma dilma 45 NOUN nsubj
+45 rolou rolar 41 VERB parataxis
+46 rampa rampa 45 NOUN nmod
+47 abaixo abaixo 45 ADV advmod
+48 planalto planalto 46 NOUN amod
+49 bola bola 51 ADJ amod
+50 vez vez 51 NOUN nmod
+51 presidente presidente 46 NOUN appos
+52 michel michel 53 ADJ amod
+53 temer temer 51 NOUN appos
+54 caso caso 55 ADP case
+55 chapa chapa 45 NOUN nmod
+56 cassada cassado 55 ADJ amod
+57 tse tse 62 PRON nsubj
+58 mes mes 59 NOUN case
+59 dezembro dezembro 62 PROPN nmod
+60 2016 2016 59 NUM nmod
+61 podera poder 62 AUX aux
+62 haver haver 10 VERB parataxis
+63 novas novo 64 ADJ amod
+64 eleicoes eleicoe 62 NOUN obj
+65 diretas direto 64 ADJ amod
+66 presidente presidente 64 NOUN appos
+67 republica republico 64 ADJ amod
+68 julgamento julgamento 62 NOUN nsubj
+69 empurrado empurrado 68 ADJ amod
+70 2017 2017 68 NUM nmod
+71 cabera caberar 62 VERB parataxis
+72 congresso congresso 71 NOUN nsubj
+73 nacional nacional 72 ADJ amod
+74 apontar apontar 71 VERB csubj
+75 nome nome 74 NOUN obj
+76 proximo proximo 77 ADJ amod
+77 presidente presidente 75 NOUN appos
+78 atraves atraves 79 ADP case
+79 eleicao eleicao 74 NOUN nmod
+80 indireta indireto 79 ADJ amod

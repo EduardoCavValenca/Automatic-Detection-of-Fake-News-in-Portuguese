@@ -1,129 +1,129 @@
-1 pf 2 NOUN nsubj
-2 ve 0 VERB root
-3 indicios 2 NOUN obj
-4 organizacao 3 NOUN appos
-5 criminosa 4 ADJ amod
-6 investigacao 3 ADJ amod
-7 sobre 8 ADP case
-8 pmdb 6 NOUN nmod
-9 camara 8 NOUN flat
-10 policia 8 NOUN appos
-11 federal 10 ADJ amod
-12 concluiu 2 VERB conj
-13 inquerito 12 NOUN obj
-14 remeteu 12 VERB ccomp
-15 stf 14 NOUN obj
-16 relatorio 17 NOUN nsubj
-17 atribui 12 VERB parataxis
-18 crimes 17 NOUN obj
-19 temer 18 NOUN appos
-20 moreira 19 NOUN appos
-21 padilha 19 NOUN flat
-22 geddel 19 NOUN appos
-23 cunha 22 NOUN flat
-24 alves 22 ADJ flat
-25 presidente 17 NOUN obj
-26 recebido 25 VERB acl
-27 r 26 NOUN obj
-28 315 29 NUM nummod
-29 milhoes 30 NUM nummod
-30 vantagens 26 NOUN obj
-31 nega 26 VERB conj
-32 policia 31 NOUN nsubj
-33 federal 32 ADJ amod
-34 pf 35 NOUN nsubj
-35 concluiu 2 VERB conj
-36 nesta 37 ADP case
-37 segundafeira 35 NOUN nmod
-38 11 39 NUM nummod
-39 inquerito 40 NOUN nsubj
-40 apura 2 VERB conj
-41 integrantes 113 NOUN obj
-42 pmdb 113 NOUN nsubj
-43 camara 44 NOUN nsubj
-44 formaram 113 VERB ccomp
-45 organizacao 47 NOUN obj
-46 criminosa 45 ADJ amod
-47 desviar 113 VERB xcomp
-48 recursos 47 NOUN obj
-49 orgaos 45 NOUN appos
-50 publicos 49 ADJ amod
-51 relatorio 47 NOUN obj
-52 conclusoes 47 NOUN obj
-53 inquerito 56 ADJ amod
-54 enviado 51 NOUN appos
-55 supremo 56 ADJ amod
-56 tribunal 47 NOUN obj
-57 federal 56 ADJ amod
-58 porque 59 CCONJ mark
-59 apontados 122 VERB advcl
-60 responsaveis 59 NOUN nsubj
-61 politicos 60 ADJ amod
-62 foro 60 NOUN appos
-63 privilegiado 62 VERB acl
-64 stf 65 NOUN appos
-65 acordo 122 NOUN nsubj
-66 relatorio 65 NOUN appos
-67 pf 65 X appos
-68 investigadores 69 NOUN nsubj
-69 encontraram 2 VERB parataxis
-70 indicios 69 NOUN obj
-71 formacao 72 ADJ amod
-72 organizacao 74 NOUN nsubj
-73 criminosa 72 ADJ amod
-74 envolve 70 VERB acl:relcl
-75 presidente 74 NOUN obj
-76 michel 75 ADJ amod
-77 temer 75 NOUN appos
-78 exdeputados 75 NOUN amod
-79 eduardo 75 NOUN appos
-80 cunha 79 NOUN flat
-81 henrique 79 NOUN appos
-82 alves 79 ADJ amod
-83 exministro 75 NOUN appos
-84 geddel 83 NOUN appos
-85 vieira 84 NOUN flat
-86 lima 84 ADJ amod
-87 ministros 75 NOUN appos
-88 moreira 87 NOUN appos
-89 franco 88 ADJ flat
-90 secretariageral 88 ADJ amod
-91 presidencia 88 NOUN appos
-92 eliseu 91 NOUN appos
-93 padilha 92 NOUN flat
-94 casa 92 NOUN appos
-95 civil 94 ADJ amod
-96 todos 97 DET det
-97 pmdb 98 NOUN nsubj
-98 veja 35 VERB parataxis
-99 abaixo 98 ADV advmod
-100 todos 102 PRON nsubj
-101 citados 100 ADJ amod
-102 disseram 98 VERB ccomp
-103 supremo 104 NOUN xcomp
-104 enviara 102 VERB ccomp
-105 inquerito 104 NOUN obj
-106 procuradoria 105 NOUN amod
-107 geral 106 ADJ amod
-108 republica 105 ADJ amod
-109 pgr 110 NOUN nsubj
-110 concordar 104 VERB ccomp
-111 argumentos 110 NOUN obj
-112 pf 111 X appos
-113 apresentara 98 VERB ccomp
-114 denuncia 113 NOUN obj
-115 contra 116 ADP case
-116 envolvidos 114 NOUN nmod
-117 stf 116 NOUN appos
-118 ultima 119 ADJ amod
-119 sextafeira 122 NOUN nsubj
-120 8 119 NUM appos
-121 pgr 122 NOUN nsubj
-122 apresentou 113 VERB parataxis
-123 denuncia 122 NOUN obj
-124 supremo 123 ADJ amod
-125 contra 126 ADP case
-126 integrantes 122 NOUN nmod
-127 pmdb 126 NOUN appos
-128 senado 127 NOUN flat
-129 segundo 122 ADJ amod
+1 pf pf 2 NOUN nsubj
+2 ve ve 0 VERB root
+3 indicios indicios 2 NOUN obj
+4 organizacao organizacao 3 NOUN appos
+5 criminosa criminoso 4 ADJ amod
+6 investigacao investigacao 3 ADJ amod
+7 sobre sobre 8 ADP case
+8 pmdb pmdb 6 NOUN nmod
+9 camara camara 8 NOUN flat
+10 policia policia 8 NOUN appos
+11 federal federal 10 ADJ amod
+12 concluiu concluir 2 VERB conj
+13 inquerito inquerito 12 NOUN obj
+14 remeteu remeter 12 VERB ccomp
+15 stf stf 14 NOUN obj
+16 relatorio relatorio 17 NOUN nsubj
+17 atribui atribuir 12 VERB parataxis
+18 crimes crime 17 NOUN obj
+19 temer temer 18 NOUN appos
+20 moreira moreira 19 NOUN appos
+21 padilha padilho 19 NOUN flat
+22 geddel geddel 19 NOUN appos
+23 cunha cunha 22 NOUN flat
+24 alves alves 22 ADJ flat
+25 presidente presidente 17 NOUN obj
+26 recebido receber 25 VERB acl
+27 r r 26 NOUN obj
+28 315 315 29 NUM nummod
+29 milhoes milhoes 30 NUM nummod
+30 vantagens vantagem 26 NOUN obj
+31 nega negar 26 VERB conj
+32 policia policia 31 NOUN nsubj
+33 federal federal 32 ADJ amod
+34 pf pf 35 NOUN nsubj
+35 concluiu concluir 2 VERB conj
+36 nesta nesta 37 ADP case
+37 segundafeira segundafeira 35 NOUN nmod
+38 11 11 39 NUM nummod
+39 inquerito inquerito 40 NOUN nsubj
+40 apura apurar 2 VERB conj
+41 integrantes integrantes 113 NOUN obj
+42 pmdb pmdb 113 NOUN nsubj
+43 camara camara 44 NOUN nsubj
+44 formaram formar 113 VERB ccomp
+45 organizacao organizacao 47 NOUN obj
+46 criminosa criminoso 45 ADJ amod
+47 desviar desviar 113 VERB xcomp
+48 recursos recurso 47 NOUN obj
+49 orgaos orgao 45 NOUN appos
+50 publicos publico 49 ADJ amod
+51 relatorio relatorio 47 NOUN obj
+52 conclusoes conclusoe 47 NOUN obj
+53 inquerito inquerito 56 ADJ amod
+54 enviado enviado 51 NOUN appos
+55 supremo supremo 56 ADJ amod
+56 tribunal tribunal 47 NOUN obj
+57 federal federal 56 ADJ amod
+58 porque porque 59 CCONJ mark
+59 apontados apontar 122 VERB advcl
+60 responsaveis responsavel 59 NOUN nsubj
+61 politicos politico 60 ADJ amod
+62 foro foro 60 NOUN appos
+63 privilegiado privilegiar 62 VERB acl
+64 stf stf 65 NOUN appos
+65 acordo acordo 122 NOUN nsubj
+66 relatorio relatorio 65 NOUN appos
+67 pf pf 65 X appos
+68 investigadores investigador 69 NOUN nsubj
+69 encontraram encontrar 2 VERB parataxis
+70 indicios indicio 69 NOUN obj
+71 formacao formacao 72 ADJ amod
+72 organizacao organizacao 74 NOUN nsubj
+73 criminosa criminoso 72 ADJ amod
+74 envolve envolver 70 VERB acl:relcl
+75 presidente presidente 74 NOUN obj
+76 michel michel 75 ADJ amod
+77 temer temer 75 NOUN appos
+78 exdeputados exdeputado 75 NOUN amod
+79 eduardo eduardo 75 NOUN appos
+80 cunha cunha 79 NOUN flat
+81 henrique henrique 79 NOUN appos
+82 alves alves 79 ADJ amod
+83 exministro exministro 75 NOUN appos
+84 geddel geddel 83 NOUN appos
+85 vieira vieira 84 NOUN flat
+86 lima lima 84 ADJ amod
+87 ministros ministro 75 NOUN appos
+88 moreira moreira 87 NOUN appos
+89 franco franco 88 ADJ flat
+90 secretariageral secretariageral 88 ADJ amod
+91 presidencia presidencia 88 NOUN appos
+92 eliseu eliseu 91 NOUN appos
+93 padilha padilha 92 NOUN flat
+94 casa casa 92 NOUN appos
+95 civil civil 94 ADJ amod
+96 todos todos 97 DET det
+97 pmdb pmdb 98 NOUN nsubj
+98 veja ver 35 VERB parataxis
+99 abaixo abaixo 98 ADV advmod
+100 todos todos 102 PRON nsubj
+101 citados citado 100 ADJ amod
+102 disseram dizer 98 VERB ccomp
+103 supremo supremo 104 NOUN xcomp
+104 enviara enviar 102 VERB ccomp
+105 inquerito inquerito 104 NOUN obj
+106 procuradoria procuradoria 105 NOUN amod
+107 geral geral 106 ADJ amod
+108 republica republico 105 ADJ amod
+109 pgr pgr 110 NOUN nsubj
+110 concordar concordar 104 VERB ccomp
+111 argumentos argumento 110 NOUN obj
+112 pf pf 111 X appos
+113 apresentara apresentar 98 VERB ccomp
+114 denuncia denuncia 113 NOUN obj
+115 contra contra 116 ADP case
+116 envolvidos envolvido 114 NOUN nmod
+117 stf stf 116 NOUN appos
+118 ultima ultima 119 ADJ amod
+119 sextafeira sextafeira 122 NOUN nsubj
+120 8 8 119 NUM appos
+121 pgr pgr 122 NOUN nsubj
+122 apresentou apresentar 113 VERB parataxis
+123 denuncia denuncia 122 NOUN obj
+124 supremo supremo 123 ADJ amod
+125 contra contra 126 ADP case
+126 integrantes integrantes 122 NOUN nmod
+127 pmdb pmdb 126 NOUN appos
+128 senado senado 127 NOUN flat
+129 segundo segundo 122 ADJ amod

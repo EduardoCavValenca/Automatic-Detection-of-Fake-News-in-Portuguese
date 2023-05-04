@@ -51,8 +51,8 @@ def generate_graph_udpipe(file_path):
         for line in lines:
             if line != '\n':
                 tuples = line.split()
-                G.add_node(int(tuples[0]), word=tuples[1], postag=tuples[3], deprel=tuples[4])
-                edges.append((int(tuples[2]), int(tuples[0])))
+                G.add_node(int(tuples[0]), word=tuples[1], postag=tuples[4], deprel=tuples[5])
+                edges.append((int(tuples[3]), int(tuples[0])))
     
     G.add_edges_from(edges)
     return G
@@ -129,9 +129,9 @@ def generate_graph_udpipe_word(file_path):
         for line in lines:
             if line != '\n':
                 tuples = line.split()
-                G.add_node(tuples[1], postag=tuples[3], deprel=tuples[4])
-                node_to_word[int(tuples[0])] = tuples[1]
-                edges_num.append((int(tuples[2]), int(tuples[0])))
+                G.add_node(tuples[2], postag=tuples[4], deprel=tuples[5])
+                node_to_word[int(tuples[0])] = tuples[2]
+                edges_num.append((int(tuples[3]), int(tuples[0])))
     
     for edge in edges_num:
         G.add_edge(node_to_word[edge[0]], node_to_word[edge[1]])

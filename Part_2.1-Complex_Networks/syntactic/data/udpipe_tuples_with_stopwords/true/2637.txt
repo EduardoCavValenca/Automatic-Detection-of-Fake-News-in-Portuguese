@@ -1,183 +1,183 @@
-1 roberto 8 NOUN nsubj
-2 teixeira 1 NOUN flat
-3 compadre 1 NOUN flat
-4 de 6 ADP case
-5 o 6 DET det
-6 expresidente 1 NOUN nmod
-7 lula 6 NOUN appos
-8 recebeu 0 VERB root
-9 ligacao 8 NOUN obj
-10 de 11 ADP case
-11 glaucos 9 NOUN nmod
-12 de 14 ADP case
-13 a 14 DET det
-14 costamarques 9 NOUN nmod
-15 um 16 NUM nummod
-16 dia 17 NOUN nmod
-17 antes 20 ADV case
-18 de 17 ADP case
-19 a 17 DET det
-20 conducao 8 NOUN nmod
-21 coercitiva 20 ADJ amod
-22 de 24 ADP case
-23 o 24 DET det
-24 petista 20 NOUN nmod
-25 em 26 ADP case
-26 marco 8 PROPN nmod
-27 de 28 ADP case
-28 2016 26 NUM nmod
-29 segundo 30 ADP case
-30 quebra 8 NOUN nmod
-31 de 32 ADP case
-32 sigilo 30 NOUN nmod
-33 telefonico 32 ADJ amod
-34 lula 35 NOUN nsubj
-35 prestou 8 VERB parataxis
-36 depoimento 35 NOUN obj
-37 em 39 ADP case
-38 o 39 DET det
-39 aeroporto 35 NOUN nmod
-40 de 41 ADP case
-41 congonhas 39 NOUN nmod
-42 em 44 ADP case
-43 a 44 DET det
-44 zona 119 NOUN nmod
-45 sul 44 ADJ amod
-46 de 47 ADP case
-47 sao 44 NOUN nmod
-48 paulo 47 ADJ flat
-49 em 51 ADP case
-50 o 51 DET det
-51 ambito 35 NOUN nmod
-52 de 54 ADP case
-53 a 54 DET det
-54 operacao 51 NOUN nmod
-55 aletheia 54 NOUN flat
-56 que 57 PRON nsubj
-57 investigava 54 VERB acl:relcl
-58 a 60 DET det
-59 suposta 60 ADJ amod
-60 titularidade 57 NOUN obj
-61 de 63 ADP case
-62 o 63 DET det
-63 triplex 60 NOUN nmod
-64 em 66 ADP case
-65 o 66 DET det
-66 condominio 60 NOUN nmod
-67 solaris 66 NOUN flat
-68 em 70 ADP case
-69 o 70 DET det
-70 guaruja 171 NOUN nmod
-71 imovel 70 ADJ amod
-72 pivo 70 NOUN appos
-73 de 75 ADP case
-74 a 75 DET det
-75 condenacao 72 NOUN nmod
-76 de 78 ADP case
-77 o 78 DET det
-78 expresidente 75 NOUN nmod
-79 a 81 ADP case
-80 9 81 NUM nummod
-81 anos 75 NOUN nmod
-82 e 84 CCONJ cc
-83 6 84 NUM nummod
-84 meses 81 NOUN conj
-85 de 86 ADP case
-86 prisao 84 NOUN nmod
-87 em 89 ADP case
-88 a 89 DET det
-89 lava 75 NOUN nmod
-90 jato 89 ADJ amod
-91 por 92 ADP case
-92 corrupcao 75 NOUN nmod
-93 passiva 92 ADJ amod
-94 e 95 CCONJ cc
-95 lavagem 81 NOUN conj
-96 de 97 ADP case
-97 dinheiro 95 NOUN nmod
-98 o 99 DET det
-99 vazamento 35 NOUN nsubj
-100 de 102 ADP case
-101 a 102 DET det
-102 informacao 99 NOUN nmod
-103 de 107 ADP mark
-104 que 107 CCONJ mark
-105 ele 107 PRON nsubj:pass
-106 seria 107 AUX aux:pass
-107 conduzido 102 VERB nmod
-108 coercitivamente 110 ADV advmod
-109 foi 110 AUX cop
-110 alvo 8 NOUN parataxis
-111 de 112 ADP case
-112 investigacao 110 NOUN nmod
-113 a 114 DET det
-114 informacao 35 NOUN nsubj
-115 de 119 ADP mark
-116 que 119 CCONJ mark
-117 lula 119 NOUN nsubj:pass
-118 foi 119 AUX aux:pass
-119 conduzido 114 VERB nmod
-120 coercitivamente 119 ADV advmod
-121 para 122 ADP mark
-122 falar 119 VERB advcl
-123 a 124 ADP case
-124 pf 122 NOUN obj
-125 sobre 127 ADP case
-126 o 127 DET det
-127 triplex 122 NOUN nmod
-128 vazou 35 VERB parataxis
-129 a 131 ADP case
-130 o 131 DET det
-131 blogueiro 128 NOUN iobj
-132 eduardo 131 NOUN appos
-133 guimaraes 132 NOUN flat
-134 que 137 PRON nsubj
-135 semanas 136 NOUN nmod
-136 antes 137 ADV advmod
-137 divulgou 131 VERB acl:relcl
-138 que 145 CCONJ mark
-139 o 140 DET det
-140 expresidente 145 NOUN nsubj
-141 e 143 CCONJ cc
-142 seu 143 DET det:poss
-143 instituto 140 NOUN conj
-144 seriam 145 AUX cop
-145 alvo 137 NOUN ccomp
-146 de 148 ADP case
-147 a 148 DET det
-148 lava 145 NOUN nmod
-149 jato 148 NOUN amod
-150 diante 153 ADV advmod
-151 disso 150 X nmod
-152 foi 153 AUX aux:pass
-153 aberta 137 VERB ccomp
-154 uma 155 DET det
-155 investigacao 153 NOUN nsubj:pass
-156 para 157 ADP mark
-157 apurar 155 VERB nmod
-158 o 159 DET det
-159 vazamento 157 NOUN obj
-160 de 161 ADP case
-161 dados 159 NOUN nmod
-162 sigilosos 161 ADJ amod
-163 de 165 ADP case
-164 a 165 DET det
-165 operacao 161 NOUN nmod
-166 o 167 DET det
-167 jornalista 171 NOUN nsubj:pass
-168 chegou 171 AUX aux
-169 a 171 ADP mark
-170 ser 171 AUX aux:pass
-171 conduzido 54 VERB acl:relcl
-172 coercitivamente 171 ADV advmod
-173 para 174 ADP mark
-174 prestar 171 VERB advcl
-175 esclarecimentos 174 NOUN obj
-176 moro 175 ADJ amod
-177 se 178 PRON expl:pv
-178 declarou 171 VERB parataxis
-179 suspeito 178 ADJ xcomp
-180 para 181 ADP mark
-181 conduzir 179 VERB nmod
-182 o 183 DET det
-183 caso 181 NOUN obj
+1 roberto roberto 8 NOUN nsubj
+2 teixeira teixeiro 1 NOUN flat
+3 compadre compadre 1 NOUN flat
+4 de de 6 ADP case
+5 o o 6 DET det
+6 expresidente expresidente 1 NOUN nmod
+7 lula lula 6 NOUN appos
+8 recebeu receber 0 VERB root
+9 ligacao ligacao 8 NOUN obj
+10 de de 11 ADP case
+11 glaucos glauco 9 NOUN nmod
+12 de de 14 ADP case
+13 a o 14 DET det
+14 costamarques costamarques 9 NOUN nmod
+15 um um 16 NUM nummod
+16 dia dia 17 NOUN nmod
+17 antes antes 20 ADV case
+18 de de 17 ADP case
+19 a o 17 DET det
+20 conducao conducao 8 NOUN nmod
+21 coercitiva coercitivo 20 ADJ amod
+22 de de 24 ADP case
+23 o o 24 DET det
+24 petista petista 20 NOUN nmod
+25 em em 26 ADP case
+26 marco marco 8 PROPN nmod
+27 de de 28 ADP case
+28 2016 2016 26 NUM nmod
+29 segundo segundo 30 ADP case
+30 quebra quebra 8 NOUN nmod
+31 de de 32 ADP case
+32 sigilo sigilo 30 NOUN nmod
+33 telefonico telefonico 32 ADJ amod
+34 lula lula 35 NOUN nsubj
+35 prestou prestar 8 VERB parataxis
+36 depoimento depoimento 35 NOUN obj
+37 em em 39 ADP case
+38 o o 39 DET det
+39 aeroporto aeroporto 35 NOUN nmod
+40 de de 41 ADP case
+41 congonhas congonha 39 NOUN nmod
+42 em em 44 ADP case
+43 a o 44 DET det
+44 zona zona 119 NOUN nmod
+45 sul sul 44 ADJ amod
+46 de de 47 ADP case
+47 sao sao 44 NOUN nmod
+48 paulo paulo 47 ADJ flat
+49 em em 51 ADP case
+50 o o 51 DET det
+51 ambito ambito 35 NOUN nmod
+52 de de 54 ADP case
+53 a o 54 DET det
+54 operacao operacao 51 NOUN nmod
+55 aletheia aletheia 54 NOUN flat
+56 que que 57 PRON nsubj
+57 investigava investigar 54 VERB acl:relcl
+58 a o 60 DET det
+59 suposta suposto 60 ADJ amod
+60 titularidade titularidade 57 NOUN obj
+61 de de 63 ADP case
+62 o o 63 DET det
+63 triplex triplex 60 NOUN nmod
+64 em em 66 ADP case
+65 o o 66 DET det
+66 condominio condominio 60 NOUN nmod
+67 solaris solaris 66 NOUN flat
+68 em em 70 ADP case
+69 o o 70 DET det
+70 guaruja guaruja 171 NOUN nmod
+71 imovel imovel 70 ADJ amod
+72 pivo pivo 70 NOUN appos
+73 de de 75 ADP case
+74 a o 75 DET det
+75 condenacao condenacao 72 NOUN nmod
+76 de de 78 ADP case
+77 o o 78 DET det
+78 expresidente expresidente 75 NOUN nmod
+79 a a 81 ADP case
+80 9 9 81 NUM nummod
+81 anos ano 75 NOUN nmod
+82 e e 84 CCONJ cc
+83 6 6 84 NUM nummod
+84 meses mês 81 NOUN conj
+85 de de 86 ADP case
+86 prisao prisao 84 NOUN nmod
+87 em em 89 ADP case
+88 a o 89 DET det
+89 lava lava 75 NOUN nmod
+90 jato jato 89 ADJ amod
+91 por por 92 ADP case
+92 corrupcao corrupcao 75 NOUN nmod
+93 passiva passivo 92 ADJ amod
+94 e e 95 CCONJ cc
+95 lavagem lavagem 81 NOUN conj
+96 de de 97 ADP case
+97 dinheiro dinheiro 95 NOUN nmod
+98 o o 99 DET det
+99 vazamento vazamento 35 NOUN nsubj
+100 de de 102 ADP case
+101 a o 102 DET det
+102 informacao informacao 99 NOUN nmod
+103 de de 107 ADP mark
+104 que que 107 CCONJ mark
+105 ele ele 107 PRON nsubj:pass
+106 seria seria 107 AUX aux:pass
+107 conduzido conduzir 102 VERB nmod
+108 coercitivamente coercitivamente 110 ADV advmod
+109 foi foi 110 AUX cop
+110 alvo alvo 8 NOUN parataxis
+111 de de 112 ADP case
+112 investigacao investigacao 110 NOUN nmod
+113 a o 114 DET det
+114 informacao informacao 35 NOUN nsubj
+115 de de 119 ADP mark
+116 que que 119 CCONJ mark
+117 lula lula 119 NOUN nsubj:pass
+118 foi foi 119 AUX aux:pass
+119 conduzido conduzir 114 VERB nmod
+120 coercitivamente coercitivamente 119 ADV advmod
+121 para para 122 ADP mark
+122 falar falar 119 VERB advcl
+123 a a 124 ADP case
+124 pf pf 122 NOUN obj
+125 sobre sobre 127 ADP case
+126 o o 127 DET det
+127 triplex triplex 122 NOUN nmod
+128 vazou vazar 35 VERB parataxis
+129 a a 131 ADP case
+130 o o 131 DET det
+131 blogueiro blogueiro 128 NOUN iobj
+132 eduardo eduardo 131 NOUN appos
+133 guimaraes guimaraes 132 NOUN flat
+134 que que 137 PRON nsubj
+135 semanas semana 136 NOUN nmod
+136 antes antes 137 ADV advmod
+137 divulgou divulgar 131 VERB acl:relcl
+138 que que 145 CCONJ mark
+139 o o 140 DET det
+140 expresidente expresidente 145 NOUN nsubj
+141 e e 143 CCONJ cc
+142 seu seu 143 DET det:poss
+143 instituto instituto 140 NOUN conj
+144 seriam seriam 145 AUX cop
+145 alvo alvo 137 NOUN ccomp
+146 de de 148 ADP case
+147 a o 148 DET det
+148 lava lava 145 NOUN nmod
+149 jato jato 148 NOUN amod
+150 diante diante 153 ADV advmod
+151 disso disso 150 X nmod
+152 foi foi 153 AUX aux:pass
+153 aberta abrir 137 VERB ccomp
+154 uma um 155 DET det
+155 investigacao investigacao 153 NOUN nsubj:pass
+156 para para 157 ADP mark
+157 apurar apurar 155 VERB nmod
+158 o o 159 DET det
+159 vazamento vazamento 157 NOUN obj
+160 de de 161 ADP case
+161 dados dado 159 NOUN nmod
+162 sigilosos sigiloso 161 ADJ amod
+163 de de 165 ADP case
+164 a o 165 DET det
+165 operacao operacao 161 NOUN nmod
+166 o o 167 DET det
+167 jornalista jornalista 171 NOUN nsubj:pass
+168 chegou chegar 171 AUX aux
+169 a a 171 ADP mark
+170 ser ser 171 AUX aux:pass
+171 conduzido conduzir 54 VERB acl:relcl
+172 coercitivamente coercitivamente 171 ADV advmod
+173 para para 174 ADP mark
+174 prestar prestar 171 VERB advcl
+175 esclarecimentos esclarecimento 174 NOUN obj
+176 moro moro 175 ADJ amod
+177 se se 178 PRON expl:pv
+178 declarou declarar 171 VERB parataxis
+179 suspeito suspeito 178 ADJ xcomp
+180 para para 181 ADP mark
+181 conduzir conduzir 179 VERB nmod
+182 o o 183 DET det
+183 caso caso 181 NOUN obj

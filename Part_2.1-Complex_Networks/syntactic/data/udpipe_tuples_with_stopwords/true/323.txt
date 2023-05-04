@@ -1,107 +1,107 @@
-1 trf4 2 NOUN nsubj
-2 julga 0 VERB root
-3 recurso 2 NOUN obj
-4 de 5 ADP case
-5 lula 3 NOUN nmod
-6 em 8 ADP case
-7 o 8 DET det
-8 caso 2 NOUN nmod
-9 triplex 8 NOUN flat
-10 nesta 11 ADP case
-11 segundafeira 2 NOUN nmod
-12 tribunal 13 NOUN nsubj
-13 aumentou 2 VERB parataxis
-14 pena 13 NOUN obj
-15 para 17 ADP case
-16 12 17 NUM nummod
-17 anos 13 NOUN nmod
-18 e 20 CCONJ cc
-19 1 20 NUM nummod
-20 mes 17 NOUN conj
-21 de 22 ADP case
-22 prisao 20 NOUN nmod
-23 mas 25 CCONJ cc
-24 defesa 25 NOUN nsubj
-25 entrou 2 VERB conj
-26 com 27 ADP case
-27 embargos 25 NOUN nmod
-28 de 29 ADP case
-29 declaracao 27 NOUN nmod
-30 por 31 ADP case
-31 decisao 25 NOUN nmod
-32 de 39 ADP case
-33 o 34 DET det
-34 stf 39 NOUN nsubj:pass
-35 expresidente 34 NOUN flat
-36 nao 39 ADV advmod
-37 podera 39 AUX aux
-38 ser 39 AUX aux:pass
-39 preso 31 VERB nmod
-40 antes 42 ADV case
-41 de 40 ADP fixed
-42 4 39 NUM nmod
-43 de 44 ADP case
-44 abril 42 PROPN nmod
-45 quando 48 CCONJ advmod
-46 ministros 48 NOUN nsubj
-47 vao 48 AUX aux
-48 julgar 39 VERB advcl
-49 pedido 48 NOUN obj
-50 de 51 ADP case
-51 habeas 49 NOUN nmod
-52 corpus 51 NOUN flat
-53 preventivo 51 ADJ amod
-54 o 55 DET det
-55 tribunal 68 NOUN nsubj
-56 regional 55 ADJ amod
-57 federal 55 ADJ amod
-58 de 61 ADP case
-59 a 61 DET det
-60 4 61 NUM nummod
-61 regiao 55 NOUN nmod
-62 trf4 55 NOUN appos
-63 com 64 ADP case
-64 sede 62 NOUN nmod
-65 em 66 ADP case
-66 porto 64 NOUN nmod
-67 alegre 66 ADJ amod
-68 julga 2 VERB parataxis
-69 a 70 ADP mark
-70 partir 68 VERB nmod
-71 de 73 ADP case
-72 as 73 DET det
-73 13h30 70 NUM nmod
-74 desta 75 ADP case
-75 segundafeira 73 NOUN nmod
-76 26 75 NUM appos
-77 o 78 DET det
-78 recurso 68 NOUN obj
-79 apresentado 78 VERB acl
-80 por 82 ADP case
-81 a 82 DET det
-82 defesa 79 NOUN nmod
-83 de 84 ADP case
-84 luiz 82 NOUN nmod
-85 inacio 84 ADJ flat
-86 lula 84 PROPN flat
-87 de 89 ADP case
-88 a 89 DET det
-89 silva 84 NOUN nmod
-90 contra 92 ADP case
-91 a 92 DET det
-92 decisao 79 NOUN nmod
-93 que 94 PRON obj
-94 condenou 92 VERB acl:relcl
-95 em 97 ADP case
-96 2 97 NUM nummod
-97 instancia 94 NOUN nmod
-98 e 99 CCONJ cc
-99 aumentou 94 VERB conj
-100 a 101 DET det
-101 pena 99 NOUN obj
-102 de 104 ADP case
-103 o 104 DET det
-104 expresidente 101 NOUN nmod
-105 em 107 ADP case
-106 o 107 DET det
-107 caso 101 NOUN nmod
+1 trf4 trf4 2 NOUN nsubj
+2 julga julgar 0 VERB root
+3 recurso recurso 2 NOUN obj
+4 de de 5 ADP case
+5 lula lula 3 NOUN nmod
+6 em em 8 ADP case
+7 o o 8 DET det
+8 caso caso 2 NOUN nmod
+9 triplex triplex 8 NOUN flat
+10 nesta nesta 11 ADP case
+11 segundafeira segundafeira 2 NOUN nmod
+12 tribunal tribunal 13 NOUN nsubj
+13 aumentou aumentar 2 VERB parataxis
+14 pena pena 13 NOUN obj
+15 para para 17 ADP case
+16 12 12 17 NUM nummod
+17 anos ano 13 NOUN nmod
+18 e e 20 CCONJ cc
+19 1 1 20 NUM nummod
+20 mes me 17 NOUN conj
+21 de de 22 ADP case
+22 prisao prisao 20 NOUN nmod
+23 mas mas 25 CCONJ cc
+24 defesa defesa 25 NOUN nsubj
+25 entrou entrar 2 VERB conj
+26 com com 27 ADP case
+27 embargos embargo 25 NOUN nmod
+28 de de 29 ADP case
+29 declaracao declaracao 27 NOUN nmod
+30 por por 31 ADP case
+31 decisao decisao 25 NOUN nmod
+32 de de 39 ADP case
+33 o o 34 DET det
+34 stf stf 39 NOUN nsubj:pass
+35 expresidente expresidente 34 NOUN flat
+36 nao nao 39 ADV advmod
+37 podera poder 39 AUX aux
+38 ser ser 39 AUX aux:pass
+39 preso preso 31 VERB nmod
+40 antes antes 42 ADV case
+41 de de 40 ADP fixed
+42 4 4 39 NUM nmod
+43 de de 44 ADP case
+44 abril abril 42 PROPN nmod
+45 quando quando 48 CCONJ advmod
+46 ministros ministro 48 NOUN nsubj
+47 vao ir 48 AUX aux
+48 julgar julgar 39 VERB advcl
+49 pedido pedido 48 NOUN obj
+50 de de 51 ADP case
+51 habeas habeas 49 NOUN nmod
+52 corpus corpus 51 NOUN flat
+53 preventivo preventivo 51 ADJ amod
+54 o o 55 DET det
+55 tribunal tribunal 68 NOUN nsubj
+56 regional regional 55 ADJ amod
+57 federal federal 55 ADJ amod
+58 de de 61 ADP case
+59 a o 61 DET det
+60 4 4 61 NUM nummod
+61 regiao regiao 55 NOUN nmod
+62 trf4 trf4 55 NOUN appos
+63 com com 64 ADP case
+64 sede sede 62 NOUN nmod
+65 em em 66 ADP case
+66 porto porto 64 NOUN nmod
+67 alegre alegre 66 ADJ amod
+68 julga julgar 2 VERB parataxis
+69 a a 70 ADP mark
+70 partir partir 68 VERB nmod
+71 de de 73 ADP case
+72 as o 73 DET det
+73 13h30 13h30 70 NUM nmod
+74 desta desta 75 ADP case
+75 segundafeira segundafeira 73 NOUN nmod
+76 26 26 75 NUM appos
+77 o o 78 DET det
+78 recurso recurso 68 NOUN obj
+79 apresentado apresentar 78 VERB acl
+80 por por 82 ADP case
+81 a o 82 DET det
+82 defesa defesa 79 NOUN nmod
+83 de de 84 ADP case
+84 luiz luiz 82 NOUN nmod
+85 inacio inacio 84 ADJ flat
+86 lula lula 84 PROPN flat
+87 de de 89 ADP case
+88 a o 89 DET det
+89 silva silva 84 NOUN nmod
+90 contra contra 92 ADP case
+91 a o 92 DET det
+92 decisao decisao 79 NOUN nmod
+93 que que 94 PRON obj
+94 condenou condenar 92 VERB acl:relcl
+95 em em 97 ADP case
+96 2 2 97 NUM nummod
+97 instancia instancia 94 NOUN nmod
+98 e e 99 CCONJ cc
+99 aumentou aumentar 94 VERB conj
+100 a o 101 DET det
+101 pena pena 99 NOUN obj
+102 de de 104 ADP case
+103 o o 104 DET det
+104 expresidente expresidente 101 NOUN nmod
+105 em em 107 ADP case
+106 o o 107 DET det
+107 caso caso 101 NOUN nmod

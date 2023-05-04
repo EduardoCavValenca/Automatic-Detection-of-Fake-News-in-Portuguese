@@ -1,309 +1,309 @@
-1 um 2 NUM nummod
-2 ano 10 NOUN nmod
-3 apos 5 ADP case
-4 1 5 NUM nummod
-5 caso 10 NOUN nmod
-6 oficial 5 ADJ amod
-7 de 8 ADP case
-8 zika 5 NOUN nmod
-9 microcefalia 10 NOUN nsubj
-10 faz 0 VERB root
-11 bebe 10 NOUN obj
-12 tomar 10 VERB xcomp
-13 ate 14 ADV advmod
-14 rivotril 12 NOUN obj
-15 diante 31 ADV advmod
-16 de 18 ADP case
-17 os 18 DET det
-18 desafios 15 NOUN nmod
-19 de 21 ADP case
-20 o 21 DET det
-21 tratamento 18 NOUN nmod
-22 para 24 ADP case
-23 uma 24 DET det
-24 anomalia 21 NOUN nmod
-25 ainda 26 ADV advmod
-26 pouco 27 ADV advmod
-27 conhecida 24 ADJ acl
-28 medicos 31 NOUN nsubj
-29 de 30 ADP case
-30 pernambuco 28 NOUN nmod
-31 testam 10 VERB parataxis
-32 remedios 31 NOUN obj
-33 para 34 ADP mark
-34 tentar 31 VERB advcl
-35 acalmar 34 VERB xcomp
-36 criancas 35 NOUN obj
-37 pais 36 NOUN amod
-38 nao 39 ADV advmod
-39 sabem 36 VERB acl:relcl
-40 como 41 ADV advmod
-41 reagir 39 VERB ccomp
-42 a 43 ADP case
-43 irritacao 41 NOUN nmod
-44 e 45 CCONJ cc
-45 convulsoes 43 NOUN conj
-46 tratamento 47 NOUN nsubj
-47 envolve 39 VERB ccomp
-48 peregrinacao 47 NOUN obj
-49 diaria 48 ADJ amod
-50 joao 51 NOUN nsubj
-51 chora 39 VERB ccomp
-52 chora 51 NOUN obj
-53 sem 54 ADP mark
-54 parar 52 VERB nmod
-55 molhado 54 VERB acl
-56 de 57 ADP case
-57 suor 55 NOUN nmod
-58 mesmo 59 ADV advmod
-59 usando 54 VERB acl
-60 apenas 61 ADV advmod
-61 uma 62 NUM nummod
-62 fraldinha 59 NOUN obj
-63 descartavel 62 ADJ amod
-64 parece 234 VERB ccomp
-65 inchado 64 ADJ xcomp
-66 chora 64 NOUN nsubj
-67 a 69 ADP case
-68 os 69 DET det
-69 berros 66 NOUN nmod
-70 em 72 ADP case
-71 a 72 DET det
-72 varanda 66 NOUN nmod
-73 de 75 ADP case
-74 a 75 DET det
-75 casa 72 NOUN nmod
-76 de 78 ADP case
-77 quatro 78 NUM nummod
-78 comodos 75 NOUN nmod
-79 onde 80 ADV advmod
-80 vive 72 VERB acl:relcl
-81 com 83 ADP case
-82 a 83 DET det
-83 mae 80 NOUN nmod
-84 o 85 DET det
-85 pai 80 NOUN nsubj
-86 e 88 CCONJ cc
-87 cinco 88 NUM nummod
-88 irmaos 85 NOUN conj
-89 em 91 ADP case
-90 a 91 DET det
-91 praia 173 NOUN nmod
-92 de 93 ADP case
-93 pau 91 NOUN nmod
-94 amarelo 93 ADJ amod
-95 em 96 ADP case
-96 paulista 80 NOUN nmod
-97 em 99 ADP case
-98 a 99 DET det
-99 regiao 173 NOUN nmod
-100 metropolitana 99 ADJ amod
-101 de 102 ADP case
-102 recife 99 NOUN nmod
-103 o 104 DET det
-104 calor 173 NOUN nsubj:pass
-105 e 106 CCONJ cc
-106 escaldante 85 ADJ conj
-107 sob 109 ADP case
-108 as 109 DET det
-109 telhas 106 NOUN nmod
-110 de 111 ADP case
-111 amianto 109 NOUN nmod
-112 nao 173 ADV advmod
-113 de 309 ADP case
-114 a 309 DET det
-115 para 116 ADP mark
-116 saber 173 VERB advcl
-117 se 120 CCONJ mark
-118 o 119 DET det
-119 choro 195 NOUN nsubj
-120 e 135 CCONJ cc
-121 por 122 ADP case
-122 calor 160 NOUN nmod
-123 fome 206 NOUN appos
-124 fralda 39 NOUN nsubj
-125 suja 124 ADJ amod
-126 ou 127 CCONJ cc
-127 dor 125 NOUN conj
-128 ja 129 ADV advmod
-129 sabem 234 VERB ccomp
-130 porem 237 ADV advmod
-131 como 132 ADV advmod
-132 aquietalo 237 NOUN nmod
-133 e 135 CCONJ cc
-134 so 135 ADV advmod
-135 dar 132 VERB conj
-136 o 137 DET det
-137 remedio 135 NOUN obj
-138 a 139 ADP case
-139 dose 135 NOUN nmod
-140 de 141 ADP case
-141 rivotril 139 NOUN nmod
-142 ele 64 PRON nsubj
-143 tem 39 VERB ccomp
-144 microcefalia 64 NOUN obj
-145 causada 144 VERB acl
-146 por 148 ADP case
-147 o 148 DET det
-148 zika 145 NOUN nmod
-149 virus 148 NOUN flat
-150 transmitido 148 VERB acl
-151 por 153 ADP case
-152 o 153 DET det
-153 aedes 150 NOUN nmod
-154 aegypti 153 NOUN flat
-155 o 157 DET det
-156 mesmo 157 ADJ amod
-157 vetor 195 NOUN obj
-158 de 160 ADP case
-159 a 160 DET det
-160 dengue 157 NOUN nmod
-161 e 164 CCONJ cc
-162 de 164 ADP case
-163 a 164 DET det
-164 chikungunya 160 NOUN conj
-165 os 167 DET det
-166 primeiros 167 ADJ amod
-167 casos 173 NOUN nsubj:pass
-168 de 170 ADP case
-169 a 170 DET det
-170 zika 167 NOUN nmod
-171 foram 173 AUX aux:pass
-172 oficialmente 173 ADV advmod
-173 notificados 10 VERB conj
-174 ha 176 VERB case
-175 um 176 NUM nummod
-176 ano 195 NOUN nmod
-177 em 178 ADP case
-178 abril 173 PROPN nmod
-179 de 180 ADP case
-180 2015 178 NUM nmod
-181 em 183 ADP case
-182 a 183 DET det
-183 bahia 195 NOUN nmod
-184 entre 185 ADP case
-185 setembro 173 PROPN nmod
-186 e 187 CCONJ cc
-187 outubro 185 PROPN conj
-188 gestantes 173 NOUN nsubj:pass
-189 que 190 PRON nsubj
-190 tiveram 188 VERB acl:relcl
-191 a 192 DET det
-192 virose 190 NOUN obj
-193 comecaram 195 AUX aux
-194 a 195 ADP mark
-195 dar 39 VERB ccomp
-196 a 197 ADP case
-197 luz 195 NOUN nmod
-198 bebes 195 NOUN obj
-199 com 200 ADP case
-200 cabecas 198 NOUN nmod
-201 menores 200 ADJ amod
-202 dezenas 203 NUM nummod
-203 centenas 200 NOUN appos
-204 segundo 206 ADP case
-205 o 206 DET det
-206 ministerio 195 NOUN nmod
-207 de 209 ADP case
-208 a 209 DET det
-209 saude 206 NOUN nmod
-210 1113 211 NUM nummod
-211 casos 309 NOUN nsubj
-212 de 213 ADP case
-213 maformacao 211 NOUN nmod
-214 foram 215 AUX aux:pass
-215 confirmados 10 VERB parataxis
-216 189 215 NUM nsubj:pass
-217 tem 234 VERB ccomp
-218 relacao 237 NOUN obj
-219 com 221 ADP case
-220 o 221 DET det
-221 zika 218 NOUN nmod
-222 nesta 223 ADP case
-223 semana 195 NOUN nmod
-224 o 225 DET det
-225 centro 215 NOUN nsubj:pass
-226 de 227 ADP case
-227 controle 225 NOUN nmod
-228 de 229 ADP case
-229 doencas 227 NOUN nmod
-230 cdc 225 NOUN appos
-231 de 233 ADP case
-232 os 233 DET det
-233 eua 211 NOUN nmod
-234 afirmou 10 VERB parataxis
-235 que 237 CCONJ mark
-236 nao 237 ADV advmod
-237 restam 234 VERB ccomp
-238 duvidas 237 NOUN nsubj
-239 de 241 ADP case
-240 a 241 DET det
-241 causa 238 NOUN nmod
-242 em 243 ADP case
-243 criancas 241 NOUN nmod
-244 como 245 ADP case
-245 joao 243 NOUN nmod
-246 de 248 ADP case
-247 7 248 NUM nummod
-248 meses 245 NOUN nmod
-249 quase 250 ADV advmod
-250 tudo 237 PRON nsubj
-251 e 253 CCONJ cc
-252 um 253 DET det
-253 enigma 66 NOUN conj
-254 para 256 ADP case
-255 a 256 DET det
-256 ciencia 253 NOUN nmod
-257 imagine 253 VERB csubj
-258 para 260 ADP case
-259 os 260 DET det
-260 pais 257 NOUN nmod
-261 o 262 DET det
-262 choro 64 NOUN nsubj
-263 aflitivo 262 ADJ amod
-264 e 266 CCONJ cc
-265 so 266 ADV advmod
-266 um 66 PRON conj
-267 de 269 ADP case
-268 os 269 DET det
-269 desafios 266 NOUN nmod
-270 o 271 DET det
-271 pai 64 NOUN nsubj
-272 fabio 271 PROPN appos
-273 de 275 ADP case
-274 a 275 DET det
-275 silva 272 NOUN nmod
-276 araujo 275 ADJ flat
-277 de 279 ADP case
-278 34 279 NUM nummod
-279 anos 271 NOUN nmod
-280 nem 281 ADV advmod
-281 sabe 66 VERB conj
-282 explicar 281 VERB xcomp
-283 como 285 ADV advmod
-284 vai 285 AUX aux
-285 criar 282 VERB ccomp
-286 o 287 DET det
-287 filho 285 NOUN obj
-288 esta 282 PRON ccomp
-289 sem 290 ADP case
-290 carteira 288 NOUN nmod
-291 assinada 290 ADJ amod
-292 ha 288 VERB advcl
-293 dois 294 NUM nummod
-294 anos 292 NOUN nmod
-295 e 296 CCONJ cc
-296 vive 80 VERB conj
-297 de 298 ADP case
-298 bicos 296 NOUN nmod
-299 a 300 DET det
-300 mae 309 NOUN nsubj
-301 neide 300 NOUN appos
-302 maria 301 NOUN flat
-303 ferreira 301 ADJ flat
-304 de 306 ADP case
-305 a 306 DET det
-306 silva 301 NOUN nmod
-307 de 308 ADP case
-308 41 301 NUM nmod
-309 diz 281 VERB parataxis
+1 um um 2 NUM nummod
+2 ano ano 10 NOUN nmod
+3 apos apos 5 ADP case
+4 1 1 5 NUM nummod
+5 caso caso 10 NOUN nmod
+6 oficial oficial 5 ADJ amod
+7 de de 8 ADP case
+8 zika zika 5 NOUN nmod
+9 microcefalia microcefalia 10 NOUN nsubj
+10 faz fazer 0 VERB root
+11 bebe bebe 10 NOUN obj
+12 tomar tomar 10 VERB xcomp
+13 ate ate 14 ADV advmod
+14 rivotril rivotril 12 NOUN obj
+15 diante diante 31 ADV advmod
+16 de de 18 ADP case
+17 os o 18 DET det
+18 desafios desafio 15 NOUN nmod
+19 de de 21 ADP case
+20 o o 21 DET det
+21 tratamento tratamento 18 NOUN nmod
+22 para para 24 ADP case
+23 uma um 24 DET det
+24 anomalia anomalia 21 NOUN nmod
+25 ainda ainda 26 ADV advmod
+26 pouco pouco 27 ADV advmod
+27 conhecida conhecido 24 ADJ acl
+28 medicos medico 31 NOUN nsubj
+29 de de 30 ADP case
+30 pernambuco pernambuco 28 NOUN nmod
+31 testam testar 10 VERB parataxis
+32 remedios remedio 31 NOUN obj
+33 para para 34 ADP mark
+34 tentar tentar 31 VERB advcl
+35 acalmar acalmar 34 VERB xcomp
+36 criancas crianca 35 NOUN obj
+37 pais pais 36 NOUN amod
+38 nao nao 39 ADV advmod
+39 sabem saber 36 VERB acl:relcl
+40 como como 41 ADV advmod
+41 reagir reagir 39 VERB ccomp
+42 a a 43 ADP case
+43 irritacao irritacao 41 NOUN nmod
+44 e e 45 CCONJ cc
+45 convulsoes convulso 43 NOUN conj
+46 tratamento tratamento 47 NOUN nsubj
+47 envolve envolver 39 VERB ccomp
+48 peregrinacao peregrinacao 47 NOUN obj
+49 diaria diario 48 ADJ amod
+50 joao joao 51 NOUN nsubj
+51 chora chorar 39 VERB ccomp
+52 chora chora 51 NOUN obj
+53 sem sem 54 ADP mark
+54 parar parar 52 VERB nmod
+55 molhado molhar 54 VERB acl
+56 de de 57 ADP case
+57 suor suor 55 NOUN nmod
+58 mesmo mesmo 59 ADV advmod
+59 usando usar 54 VERB acl
+60 apenas apenas 61 ADV advmod
+61 uma uma 62 NUM nummod
+62 fraldinha fraldinha 59 NOUN obj
+63 descartavel descartavel 62 ADJ amod
+64 parece parecer 234 VERB ccomp
+65 inchado inchado 64 ADJ xcomp
+66 chora chora 64 NOUN nsubj
+67 a a 69 ADP case
+68 os o 69 DET det
+69 berros berro 66 NOUN nmod
+70 em em 72 ADP case
+71 a o 72 DET det
+72 varanda varanda 66 NOUN nmod
+73 de de 75 ADP case
+74 a o 75 DET det
+75 casa casa 72 NOUN nmod
+76 de de 78 ADP case
+77 quatro quatro 78 NUM nummod
+78 comodos comodo 75 NOUN nmod
+79 onde onde 80 ADV advmod
+80 vive vive 72 VERB acl:relcl
+81 com com 83 ADP case
+82 a o 83 DET det
+83 mae mae 80 NOUN nmod
+84 o o 85 DET det
+85 pai pai 80 NOUN nsubj
+86 e e 88 CCONJ cc
+87 cinco cinco 88 NUM nummod
+88 irmaos irmao 85 NOUN conj
+89 em em 91 ADP case
+90 a o 91 DET det
+91 praia praia 173 NOUN nmod
+92 de de 93 ADP case
+93 pau pau 91 NOUN nmod
+94 amarelo amarelo 93 ADJ amod
+95 em em 96 ADP case
+96 paulista paulista 80 NOUN nmod
+97 em em 99 ADP case
+98 a o 99 DET det
+99 regiao regiao 173 NOUN nmod
+100 metropolitana metropolitano 99 ADJ amod
+101 de de 102 ADP case
+102 recife recife 99 NOUN nmod
+103 o o 104 DET det
+104 calor calor 173 NOUN nsubj:pass
+105 e e 106 CCONJ cc
+106 escaldante escaldante 85 ADJ conj
+107 sob sob 109 ADP case
+108 as o 109 DET det
+109 telhas telha 106 NOUN nmod
+110 de de 111 ADP case
+111 amianto amianto 109 NOUN nmod
+112 nao nao 173 ADV advmod
+113 de de 309 ADP case
+114 a o 309 DET det
+115 para para 116 ADP mark
+116 saber saber 173 VERB advcl
+117 se se 120 CCONJ mark
+118 o o 119 DET det
+119 choro choro 195 NOUN nsubj
+120 e e 135 CCONJ cc
+121 por por 122 ADP case
+122 calor calor 160 NOUN nmod
+123 fome fome 206 NOUN appos
+124 fralda fralda 39 NOUN nsubj
+125 suja sujo 124 ADJ amod
+126 ou ou 127 CCONJ cc
+127 dor dor 125 NOUN conj
+128 ja ja 129 ADV advmod
+129 sabem saber 234 VERB ccomp
+130 porem porem 237 ADV advmod
+131 como como 132 ADV advmod
+132 aquietalo aquietalo 237 NOUN nmod
+133 e e 135 CCONJ cc
+134 so so 135 ADV advmod
+135 dar dar 132 VERB conj
+136 o o 137 DET det
+137 remedio remedio 135 NOUN obj
+138 a a 139 ADP case
+139 dose dose 135 NOUN nmod
+140 de de 141 ADP case
+141 rivotril rivotril 139 NOUN nmod
+142 ele ele 64 PRON nsubj
+143 tem ter 39 VERB ccomp
+144 microcefalia microcefalia 64 NOUN obj
+145 causada causar 144 VERB acl
+146 por por 148 ADP case
+147 o o 148 DET det
+148 zika zika 145 NOUN nmod
+149 virus virus 148 NOUN flat
+150 transmitido transmitir 148 VERB acl
+151 por por 153 ADP case
+152 o o 153 DET det
+153 aedes aedes 150 NOUN nmod
+154 aegypti aegypti 153 NOUN flat
+155 o o 157 DET det
+156 mesmo mesmo 157 ADJ amod
+157 vetor vetor 195 NOUN obj
+158 de de 160 ADP case
+159 a o 160 DET det
+160 dengue dengue 157 NOUN nmod
+161 e e 164 CCONJ cc
+162 de de 164 ADP case
+163 a o 164 DET det
+164 chikungunya chikungunya 160 NOUN conj
+165 os o 167 DET det
+166 primeiros primeiro 167 ADJ amod
+167 casos caso 173 NOUN nsubj:pass
+168 de de 170 ADP case
+169 a o 170 DET det
+170 zika zika 167 NOUN nmod
+171 foram foram 173 AUX aux:pass
+172 oficialmente oficialmente 173 ADV advmod
+173 notificados notificar 10 VERB conj
+174 ha ha 176 VERB case
+175 um um 176 NUM nummod
+176 ano ano 195 NOUN nmod
+177 em em 178 ADP case
+178 abril abril 173 PROPN nmod
+179 de de 180 ADP case
+180 2015 2015 178 NUM nmod
+181 em em 183 ADP case
+182 a o 183 DET det
+183 bahia bahia 195 NOUN nmod
+184 entre entre 185 ADP case
+185 setembro setembro 173 PROPN nmod
+186 e e 187 CCONJ cc
+187 outubro outubro 185 PROPN conj
+188 gestantes gestante 173 NOUN nsubj:pass
+189 que que 190 PRON nsubj
+190 tiveram ter 188 VERB acl:relcl
+191 a o 192 DET det
+192 virose virose 190 NOUN obj
+193 comecaram comecar 195 AUX aux
+194 a a 195 ADP mark
+195 dar dar 39 VERB ccomp
+196 a a 197 ADP case
+197 luz luz 195 NOUN nmod
+198 bebes bebe 195 NOUN obj
+199 com com 200 ADP case
+200 cabecas cabeca 198 NOUN nmod
+201 menores menor 200 ADJ amod
+202 dezenas dezenas 203 NUM nummod
+203 centenas centena 200 NOUN appos
+204 segundo segundo 206 ADP case
+205 o o 206 DET det
+206 ministerio ministerio 195 NOUN nmod
+207 de de 209 ADP case
+208 a o 209 DET det
+209 saude saude 206 NOUN nmod
+210 1113 1113 211 NUM nummod
+211 casos caso 309 NOUN nsubj
+212 de de 213 ADP case
+213 maformacao maformacao 211 NOUN nmod
+214 foram foram 215 AUX aux:pass
+215 confirmados confirmar 10 VERB parataxis
+216 189 189 215 NUM nsubj:pass
+217 tem ter 234 VERB ccomp
+218 relacao relacao 237 NOUN obj
+219 com com 221 ADP case
+220 o o 221 DET det
+221 zika zika 218 NOUN nmod
+222 nesta nesta 223 ADP case
+223 semana semana 195 NOUN nmod
+224 o o 225 DET det
+225 centro centro 215 NOUN nsubj:pass
+226 de de 227 ADP case
+227 controle controle 225 NOUN nmod
+228 de de 229 ADP case
+229 doencas doenca 227 NOUN nmod
+230 cdc cdc 225 NOUN appos
+231 de de 233 ADP case
+232 os o 233 DET det
+233 eua eua 211 NOUN nmod
+234 afirmou afirmar 10 VERB parataxis
+235 que que 237 CCONJ mark
+236 nao nao 237 ADV advmod
+237 restam restar 234 VERB ccomp
+238 duvidas duvida 237 NOUN nsubj
+239 de de 241 ADP case
+240 a o 241 DET det
+241 causa causa 238 NOUN nmod
+242 em em 243 ADP case
+243 criancas crianca 241 NOUN nmod
+244 como como 245 ADP case
+245 joao joao 243 NOUN nmod
+246 de de 248 ADP case
+247 7 7 248 NUM nummod
+248 meses mês 245 NOUN nmod
+249 quase quase 250 ADV advmod
+250 tudo tudo 237 PRON nsubj
+251 e e 253 CCONJ cc
+252 um um 253 DET det
+253 enigma enigma 66 NOUN conj
+254 para para 256 ADP case
+255 a o 256 DET det
+256 ciencia ciencia 253 NOUN nmod
+257 imagine imaginar 253 VERB csubj
+258 para para 260 ADP case
+259 os o 260 DET det
+260 pais pais 257 NOUN nmod
+261 o o 262 DET det
+262 choro choro 64 NOUN nsubj
+263 aflitivo aflitivo 262 ADJ amod
+264 e e 266 CCONJ cc
+265 so so 266 ADV advmod
+266 um um 66 PRON conj
+267 de de 269 ADP case
+268 os o 269 DET det
+269 desafios desafio 266 NOUN nmod
+270 o o 271 DET det
+271 pai pai 64 NOUN nsubj
+272 fabio fabio 271 PROPN appos
+273 de de 275 ADP case
+274 a o 275 DET det
+275 silva silva 272 NOUN nmod
+276 araujo araujo 275 ADJ flat
+277 de de 279 ADP case
+278 34 34 279 NUM nummod
+279 anos ano 271 NOUN nmod
+280 nem nem 281 ADV advmod
+281 sabe saber 66 VERB conj
+282 explicar explicar 281 VERB xcomp
+283 como como 285 ADV advmod
+284 vai ir 285 AUX aux
+285 criar criar 282 VERB ccomp
+286 o o 287 DET det
+287 filho filho 285 NOUN obj
+288 esta esta 282 PRON ccomp
+289 sem sem 290 ADP case
+290 carteira carteira 288 NOUN nmod
+291 assinada assinado 290 ADJ amod
+292 ha ha 288 VERB advcl
+293 dois dois 294 NUM nummod
+294 anos ano 292 NOUN nmod
+295 e e 296 CCONJ cc
+296 vive vive 80 VERB conj
+297 de de 298 ADP case
+298 bicos bico 296 NOUN nmod
+299 a o 300 DET det
+300 mae mae 309 NOUN nsubj
+301 neide neide 300 NOUN appos
+302 maria maria 301 NOUN flat
+303 ferreira ferreira 301 ADJ flat
+304 de de 306 ADP case
+305 a o 306 DET det
+306 silva silva 301 NOUN nmod
+307 de de 308 ADP case
+308 41 41 301 NUM nmod
+309 diz dizer 281 VERB parataxis

@@ -1,130 +1,130 @@
-1 125 2 NUM nummod
-2 cientistas 100 NOUN nsubj
-3 internacionais 2 ADJ amod
-4 oxford 2 NOUN appos
-5 harvard 2 NOUN appos
-6 yale 5 PROPN flat
-7 sugerem 2 VERB acl:relcl
-8 cancelamento 7 NOUN obj
-9 imediato 8 ADJ amod
-10 olimpiadas 2 ADJ amod
-11 grupo 16 NOUN nsubj
-12 formado 11 VERB acl
-13 125 14 NUM nummod
-14 cientistas 16 NOUN nsubj
-15 internacionais 14 ADJ amod
-16 afirmaram 2 VERB acl:relcl
-17 jogos 16 NOUN obj
-18 olimpicos 17 ADJ amod
-19 rio 22 NOUN appos
-20 janeiro 19 PROPN flat
-21 deveriam 22 AUX cop
-22 adiados 16 ADJ xcomp
-23 cancelados 22 ADJ amod
-24 transferidos 22 ADJ amod
-25 devido 26 VERB case
-26 risco 21 NOUN nmod
-27 surto 28 ADJ amod
-28 virus 21 NOUN nmod
-29 zika 28 NOUN appos
-30 carta 21 NOUN nsubj
-31 aberta 30 ADJ amod
-32 enviada 30 VERB acl
-33 organizacao 30 NOUN appos
-34 mundial 30 ADJ amod
-35 saude 30 NOUN appos
-36 citando 30 VERB acl
-37 fracasso 36 NOUN obj
-38 programa 37 NOUN appos
-39 erradicacao 38 NOUN amod
-40 mosquito 41 ADJ amod
-41 sistema 38 NOUN appos
-42 saude 41 NOUN flat
-43 fragilizado 41 ADJ amod
-44 brasil 45 ADJ amod
-45 risco 87 NOUN obj
-46 desnecessario 45 ADJ amod
-47 colocado 45 VERB acl
-48 500 49 NUM nummod
-49 mil 50 NUM nummod
-50 turistas 47 NOUN obj
-51 estrangeiros 50 ADJ amod
-52 todos 53 DET det
-53 paises 54 NOUN nsubj
-54 acompanham 111 VERB acl:relcl
-55 jogos 54 NOUN obj
-56 potencialmente 57 ADV advmod
-57 adquirem 111 VERB acl:relcl
-58 virus 57 NOUN obj
-59 voltam 111 VERB acl:relcl
-60 casa 59 NOUN obj
-61 podendo 62 AUX cop
-62 tornalo 59 NOUN acl
-63 endemico 62 ADJ amod
-64 analise 123 NOUN nsubj
-65 especialistas 64 NOUN appos
-66 dizem 0 VERB root
-67 manutencao 129 NOUN obj
-68 jogos 67 NOUN appos
-69 rio 68 NOUN appos
-70 atitude 67 NOUN appos
-71 antietica 70 ADJ amod
-72 cientistas 73 NOUN nsubj
-73 pedem 28 VERB acl:relcl
-74 oms 75 PRON nsubj
-75 reveja 73 VERB ccomp
-76 urgentemente 75 ADV advmod
-77 recomendacoes 75 NOUN obj
-78 sobre 79 ADP case
-79 zika 77 NOUN nmod
-80 virus 79 NOUN appos
-81 relacionado 80 ADJ amod
-82 serie 83 NOUN appos
-83 problemas 79 NOUN appos
-84 nascimento 41 NOUN appos
-85 microcefalia 83 NOUN flat
-86 carta 84 NOUN flat
-87 destaca 36 VERB parataxis
-88 ainda 87 ADV advmod
-89 problema 100 NOUN obj
-90 zika 89 NOUN appos
-91 algo 87 PRON nsubj
-92 impossivel 91 ADJ amod
-93 resolver 89 VERB acl:inf
-94 aproximacao 93 NOUN obj
-95 jogos 93 NOUN obj
-96 coi 97 ADP case
-97 comite 95 NOUN nmod
-98 olimpico 97 ADJ amod
-99 internacional 97 ADJ amod
-100 declarou 66 VERB parataxis
-101 razoes 100 NOUN obj
-102 atrasar 101 VERB acl:inf
-103 transferir 102 VERB xcomp
-104 jogos 103 NOUN obj
-105 causa 103 NOUN nmod
-106 doenca 107 NOUN amod
-107 carta 103 NOUN appos
-108 aberta 107 ADJ amod
-109 assinada 107 VERB acl
-110 125 111 NUM nummod
-111 profissionais 103 NOUN nsubj
-112 cientistas 111 ADJ amod
-113 medicos 111 ADJ amod
-114 especialistas 111 ADJ amod
-115 etica 111 NOUN appos
-116 medica 115 ADJ amod
-117 instituicoes 123 NOUN nsubj
-118 oxford 117 NOUN appos
-119 harvard 118 NOUN flat
-120 yale 118 NOUN flat
-121 oms 123 PRON nsubj
-122 recentemente 123 ADV advmod
-123 classificou 47 VERB conj
-124 virus 123 NOUN obj
-125 emergencia 123 NOUN obj
-126 global 125 ADJ amod
-127 saude 129 NOUN nsubj
-128 publica 127 ADJ amod
-129 comentou 66 VERB parataxis
-130 carta 129 NOUN obj
+1 125 125 2 NUM nummod
+2 cientistas cientista 100 NOUN nsubj
+3 internacionais internacional 2 ADJ amod
+4 oxford oxford 2 NOUN appos
+5 harvard harvard 2 NOUN appos
+6 yale yale 5 PROPN flat
+7 sugerem sugerir 2 VERB acl:relcl
+8 cancelamento cancelamento 7 NOUN obj
+9 imediato imediato 8 ADJ amod
+10 olimpiadas olimpiado 2 ADJ amod
+11 grupo grupo 16 NOUN nsubj
+12 formado formar 11 VERB acl
+13 125 125 14 NUM nummod
+14 cientistas cientista 16 NOUN nsubj
+15 internacionais internacional 14 ADJ amod
+16 afirmaram afirmar 2 VERB acl:relcl
+17 jogos jogo 16 NOUN obj
+18 olimpicos olimpico 17 ADJ amod
+19 rio rio 22 NOUN appos
+20 janeiro janeiro 19 PROPN flat
+21 deveriam dever 22 AUX cop
+22 adiados adiado 16 ADJ xcomp
+23 cancelados cancelado 22 ADJ amod
+24 transferidos transferido 22 ADJ amod
+25 devido dever 26 VERB case
+26 risco risco 21 NOUN nmod
+27 surto surto 28 ADJ amod
+28 virus virus 21 NOUN nmod
+29 zika zika 28 NOUN appos
+30 carta carta 21 NOUN nsubj
+31 aberta aberto 30 ADJ amod
+32 enviada enviar 30 VERB acl
+33 organizacao organizacao 30 NOUN appos
+34 mundial mundial 30 ADJ amod
+35 saude saude 30 NOUN appos
+36 citando citar 30 VERB acl
+37 fracasso fracasso 36 NOUN obj
+38 programa programa 37 NOUN appos
+39 erradicacao erradicacao 38 NOUN amod
+40 mosquito mosquito 41 ADJ amod
+41 sistema sistema 38 NOUN appos
+42 saude saude 41 NOUN flat
+43 fragilizado fragilizado 41 ADJ amod
+44 brasil brasil 45 ADJ amod
+45 risco risco 87 NOUN obj
+46 desnecessario desnecessario 45 ADJ amod
+47 colocado colocar 45 VERB acl
+48 500 500 49 NUM nummod
+49 mil mil 50 NUM nummod
+50 turistas turista 47 NOUN obj
+51 estrangeiros estrangeiro 50 ADJ amod
+52 todos todos 53 DET det
+53 paises paise 54 NOUN nsubj
+54 acompanham acompanhar 111 VERB acl:relcl
+55 jogos jogo 54 NOUN obj
+56 potencialmente potencialmente 57 ADV advmod
+57 adquirem adquirir 111 VERB acl:relcl
+58 virus virus 57 NOUN obj
+59 voltam voltar 111 VERB acl:relcl
+60 casa casa 59 NOUN obj
+61 podendo poder 62 AUX cop
+62 tornalo tornalo 59 NOUN acl
+63 endemico endemico 62 ADJ amod
+64 analise analise 123 NOUN nsubj
+65 especialistas especialista 64 NOUN appos
+66 dizem dizer 0 VERB root
+67 manutencao manutencao 129 NOUN obj
+68 jogos jogo 67 NOUN appos
+69 rio rio 68 NOUN appos
+70 atitude atitude 67 NOUN appos
+71 antietica antietico 70 ADJ amod
+72 cientistas cientista 73 NOUN nsubj
+73 pedem pedir 28 VERB acl:relcl
+74 oms oms 75 PRON nsubj
+75 reveja rever 73 VERB ccomp
+76 urgentemente urgentemente 75 ADV advmod
+77 recomendacoes recomendacoe 75 NOUN obj
+78 sobre sobre 79 ADP case
+79 zika zika 77 NOUN nmod
+80 virus virus 79 NOUN appos
+81 relacionado relacionado 80 ADJ amod
+82 serie serie 83 NOUN appos
+83 problemas problema 79 NOUN appos
+84 nascimento nascimento 41 NOUN appos
+85 microcefalia microcefalia 83 NOUN flat
+86 carta carta 84 NOUN flat
+87 destaca destacar 36 VERB parataxis
+88 ainda ainda 87 ADV advmod
+89 problema problema 100 NOUN obj
+90 zika zika 89 NOUN appos
+91 algo algo 87 PRON nsubj
+92 impossivel impossivel 91 ADJ amod
+93 resolver resolver 89 VERB acl:inf
+94 aproximacao aproximacao 93 NOUN obj
+95 jogos jogo 93 NOUN obj
+96 coi coi 97 ADP case
+97 comite comite 95 NOUN nmod
+98 olimpico olimpico 97 ADJ amod
+99 internacional internacional 97 ADJ amod
+100 declarou declarar 66 VERB parataxis
+101 razoes razoe 100 NOUN obj
+102 atrasar atrasar 101 VERB acl:inf
+103 transferir transferir 102 VERB xcomp
+104 jogos jogo 103 NOUN obj
+105 causa causa 103 NOUN nmod
+106 doenca doenca 107 NOUN amod
+107 carta carta 103 NOUN appos
+108 aberta aberto 107 ADJ amod
+109 assinada assinar 107 VERB acl
+110 125 125 111 NUM nummod
+111 profissionais profissional 103 NOUN nsubj
+112 cientistas cientista 111 ADJ amod
+113 medicos medico 111 ADJ amod
+114 especialistas especialista 111 ADJ amod
+115 etica etica 111 NOUN appos
+116 medica medico 115 ADJ amod
+117 instituicoes instituicoe 123 NOUN nsubj
+118 oxford oxford 117 NOUN appos
+119 harvard harvard 118 NOUN flat
+120 yale yale 118 NOUN flat
+121 oms oms 123 PRON nsubj
+122 recentemente recentemente 123 ADV advmod
+123 classificou classificar 47 VERB conj
+124 virus virus 123 NOUN obj
+125 emergencia emergencia 123 NOUN obj
+126 global global 125 ADJ amod
+127 saude saude 129 NOUN nsubj
+128 publica publico 127 ADJ amod
+129 comentou comentar 66 VERB parataxis
+130 carta carta 129 NOUN obj

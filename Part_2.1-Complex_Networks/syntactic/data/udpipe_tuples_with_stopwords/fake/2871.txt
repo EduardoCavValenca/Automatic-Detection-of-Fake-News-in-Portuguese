@@ -1,145 +1,145 @@
-1 cnj 3 NOUN nsubj
-2 vai 3 AUX aux
-3 abrir 0 VERB root
-4 processo 3 NOUN obj
-5 contra 6 ADP case
-6 juiz 4 NOUN nmod
-7 que 8 PRON nsubj
-8 bloqueou 6 VERB acl:relcl
-9 whatsapp 8 NOUN obj
-10 em 12 ADP case
-11 todo 12 DET det
-12 brasil 8 NOUN nmod
-13 a 14 DET det
-14 ministra 19 NOUN nsubj
-15 corregedora 14 ADJ amod
-16 nacional 14 ADJ amod
-17 de 18 ADP case
-18 justica 14 NOUN nmod
-19 instaurou 3 VERB parataxis
-20 um 21 DET det
-21 processo 19 NOUN obj
-22 disciplinar 21 ADJ amod
-23 contra 25 ADP case
-24 o 25 DET det
-25 juiz 21 NOUN nmod
-26 marcel 25 NOUN appos
-27 maia 26 NOUN flat
-28 montalvao 26 ADJ flat
-29 de 30 ADP case
-30 sergipe 25 NOUN nmod
-31 que 32 PRON nsubj
-32 determinou 25 VERB acl:relcl
-33 o 34 DET det
-34 bloqueio 32 NOUN obj
-35 de 37 ADP case
-36 o 37 DET det
-37 whatsapp 34 NOUN nmod
-38 em 41 ADP case
-39 todo 41 DET det
-40 o 41 DET det
-41 brasil 32 NOUN nmod
-42 o 43 DET det
-43 jornal 19 NOUN nsubj
-44 nacional 43 ADJ amod
-45 de 46 ADP mark
-46 ontem 43 ADV nmod
-47 03 46 NUM nmod
-48 informou 3 VERB parataxis
-49 que 57 CCONJ mark
-50 o 51 DET det
-51 conselho 57 NOUN nsubj
-52 nacional 51 ADJ amod
-53 de 54 ADP case
-54 justica 51 NOUN nmod
-55 cnj 51 NOUN appos
-56 vai 57 AUX aux
-57 avaliar 48 VERB ccomp
-58 se 59 CCONJ mark
-59 houve 57 VERB ccomp
-60 abuso 59 NOUN obj
-61 de 62 ADP case
-62 poder 60 NOUN nmod
-63 por 64 ADP case
-64 parte 59 NOUN nmod
-65 de 67 ADP case
-66 o 67 DET det
-67 magistrado 64 NOUN nmod
-68 de 69 ADP case
-69 acordo 59 NOUN nmod
-70 com 72 ADP case
-71 o 72 DET det
-72 cnj 69 NOUN nmod
-73 a 74 DET det
-74 analise 76 NOUN nsubj
-75 vai 76 AUX aux
-76 levar 48 VERB ccomp
-77 em 78 ADP case
-78 conta 76 NOUN nmod
-79 se 99 CCONJ mark
-80 o 81 DET det
-81 dr 99 NOUN nsubj
-82 marcel 81 NOUN appos
-83 montalvao 81 ADJ flat
-84 extrapolou 57 VERB ccomp
-85 o 86 DET det
-86 limite 84 NOUN obj
-87 de 89 ADP case
-88 a 89 DET det
-89 razoabilidade 86 NOUN nmod
-90 a 92 ADP case
-91 o 92 DET det
-92 bloquear 99 VERB advcl
-93 o 94 DET det
-94 acesso 92 NOUN obj
-95 a 97 ADP case
-96 o 97 DET det
-97 whatsapp 94 NOUN nmod
-98 montalvao 97 NOUN appos
-99 tera 76 VERB ccomp
-100 um 101 DET det
-101 prazo 99 NOUN obj
-102 de 104 ADP case
-103 15 104 NUM nummod
-104 dias 101 NOUN nmod
-105 para 106 ADP mark
-106 dar 99 VERB advcl
-107 explicacoes 106 NOUN obj
-108 a 110 ADP case
-109 o 110 DET det
-110 conselho 106 NOUN iobj
-111 se 115 CCONJ mark
-112 o 113 DET det
-113 abuso 115 NOUN nsubj:pass
-114 for 115 AUX aux:pass
-115 constatado 99 VERB advcl
-116 a 117 DET det
-117 ministra 115 NOUN nsubj:pass
-118 corregedora 117 ADJ amod
-119 podera 120 AUX aux
-120 apresentar 76 VERB ccomp
-121 a 123 ADP case
-122 o 123 DET det
-123 cnj 120 NOUN iobj
-124 a 125 DET det
-125 abertura 120 NOUN obj
-126 de 127 ADP case
-127 processo 125 NOUN nmod
-128 administrativo 127 ADJ amod
-129 disciplinar 127 ADJ amod
-130 contra 132 ADP case
-131 o 132 DET det
-132 juiz 127 NOUN nmod
-133 a 134 DET det
-134 punicao 135 NOUN nsubj
-135 varia 76 VERB parataxis
-136 de 138 ADP case
-137 uma 138 DET det
-138 censura 135 NOUN nmod
-139 a 141 ADP case
-140 o 141 DET det
-141 juiz 138 NOUN nmod
-142 ate 144 ADP case
-143 sua 144 DET det:poss
-144 aposentadoria 135 NOUN nmod
-145 compulsoria 144 ADJ amod
+1 cnj cnj 3 NOUN nsubj
+2 vai ir 3 AUX aux
+3 abrir abrir 0 VERB root
+4 processo processo 3 NOUN obj
+5 contra contra 6 ADP case
+6 juiz juiz 4 NOUN nmod
+7 que que 8 PRON nsubj
+8 bloqueou bloquear 6 VERB acl:relcl
+9 whatsapp whatsapp 8 NOUN obj
+10 em em 12 ADP case
+11 todo todo 12 DET det
+12 brasil brasil 8 NOUN nmod
+13 a o 14 DET det
+14 ministra ministra 19 NOUN nsubj
+15 corregedora corregedor 14 ADJ amod
+16 nacional nacional 14 ADJ amod
+17 de de 18 ADP case
+18 justica justica 14 NOUN nmod
+19 instaurou instaurar 3 VERB parataxis
+20 um um 21 DET det
+21 processo processo 19 NOUN obj
+22 disciplinar disciplinar 21 ADJ amod
+23 contra contra 25 ADP case
+24 o o 25 DET det
+25 juiz juiz 21 NOUN nmod
+26 marcel marcel 25 NOUN appos
+27 maia maia 26 NOUN flat
+28 montalvao montalvao 26 ADJ flat
+29 de de 30 ADP case
+30 sergipe sergipe 25 NOUN nmod
+31 que que 32 PRON nsubj
+32 determinou determinar 25 VERB acl:relcl
+33 o o 34 DET det
+34 bloqueio bloqueio 32 NOUN obj
+35 de de 37 ADP case
+36 o o 37 DET det
+37 whatsapp whatsapp 34 NOUN nmod
+38 em em 41 ADP case
+39 todo todo 41 DET det
+40 o o 41 DET det
+41 brasil brasil 32 NOUN nmod
+42 o o 43 DET det
+43 jornal jornal 19 NOUN nsubj
+44 nacional nacional 43 ADJ amod
+45 de de 46 ADP mark
+46 ontem ontem 43 ADV nmod
+47 03 03 46 NUM nmod
+48 informou informar 3 VERB parataxis
+49 que que 57 CCONJ mark
+50 o o 51 DET det
+51 conselho conselho 57 NOUN nsubj
+52 nacional nacional 51 ADJ amod
+53 de de 54 ADP case
+54 justica justica 51 NOUN nmod
+55 cnj cnj 51 NOUN appos
+56 vai ir 57 AUX aux
+57 avaliar avaliar 48 VERB ccomp
+58 se se 59 CCONJ mark
+59 houve haver 57 VERB ccomp
+60 abuso abuso 59 NOUN obj
+61 de de 62 ADP case
+62 poder poder 60 NOUN nmod
+63 por por 64 ADP case
+64 parte parte 59 NOUN nmod
+65 de de 67 ADP case
+66 o o 67 DET det
+67 magistrado magistrado 64 NOUN nmod
+68 de de 69 ADP case
+69 acordo acordo 59 NOUN nmod
+70 com com 72 ADP case
+71 o o 72 DET det
+72 cnj cnj 69 NOUN nmod
+73 a o 74 DET det
+74 analise analise 76 NOUN nsubj
+75 vai ir 76 AUX aux
+76 levar levar 48 VERB ccomp
+77 em em 78 ADP case
+78 conta conta 76 NOUN nmod
+79 se se 99 CCONJ mark
+80 o o 81 DET det
+81 dr dr 99 NOUN nsubj
+82 marcel marcel 81 NOUN appos
+83 montalvao montalvao 81 ADJ flat
+84 extrapolou extrapolar 57 VERB ccomp
+85 o o 86 DET det
+86 limite limite 84 NOUN obj
+87 de de 89 ADP case
+88 a o 89 DET det
+89 razoabilidade razoabilidade 86 NOUN nmod
+90 a a 92 ADP case
+91 o o 92 DET det
+92 bloquear bloquear 99 VERB advcl
+93 o o 94 DET det
+94 acesso acesso 92 NOUN obj
+95 a a 97 ADP case
+96 o o 97 DET det
+97 whatsapp whatsapp 94 NOUN nmod
+98 montalvao montalvao 97 NOUN appos
+99 tera terar 76 VERB ccomp
+100 um um 101 DET det
+101 prazo prazo 99 NOUN obj
+102 de de 104 ADP case
+103 15 15 104 NUM nummod
+104 dias dia 101 NOUN nmod
+105 para para 106 ADP mark
+106 dar dar 99 VERB advcl
+107 explicacoes explicacoe 106 NOUN obj
+108 a a 110 ADP case
+109 o o 110 DET det
+110 conselho conselho 106 NOUN iobj
+111 se se 115 CCONJ mark
+112 o o 113 DET det
+113 abuso abuso 115 NOUN nsubj:pass
+114 for for 115 AUX aux:pass
+115 constatado constatar 99 VERB advcl
+116 a o 117 DET det
+117 ministra ministra 115 NOUN nsubj:pass
+118 corregedora corregedor 117 ADJ amod
+119 podera poder 120 AUX aux
+120 apresentar apresentar 76 VERB ccomp
+121 a a 123 ADP case
+122 o o 123 DET det
+123 cnj cnj 120 NOUN iobj
+124 a o 125 DET det
+125 abertura abertura 120 NOUN obj
+126 de de 127 ADP case
+127 processo processo 125 NOUN nmod
+128 administrativo administrativo 127 ADJ amod
+129 disciplinar disciplinar 127 ADJ amod
+130 contra contra 132 ADP case
+131 o o 132 DET det
+132 juiz juiz 127 NOUN nmod
+133 a o 134 DET det
+134 punicao punicao 135 NOUN nsubj
+135 varia variar 76 VERB parataxis
+136 de de 138 ADP case
+137 uma um 138 DET det
+138 censura censura 135 NOUN nmod
+139 a a 141 ADP case
+140 o o 141 DET det
+141 juiz juiz 138 NOUN nmod
+142 ate ate 144 ADP case
+143 sua sua 144 DET det:poss
+144 aposentadoria aposentadoria 135 NOUN nmod
+145 compulsoria compulsorio 144 ADJ amod

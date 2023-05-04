@@ -1,103 +1,103 @@
-1 dengue 5 NOUN nsubj
-2 mato 1 NOUN appos
-3 grosso 1 ADJ amod
-4 sul 1 ADJ amod
-5 declara 0 VERB root
-6 estado 5 NOUN obj
-7 emergencia 6 NOUN flat
-8 300 10 NUM nummod
-9 novos 10 ADJ amod
-10 casos 5 NOUN obj
-11 dia 10 NOUN nmod
-12 semana 11 NOUN flat
-13 secretaria 10 NOUN appos
-14 estado 13 NOUN flat
-15 saude 13 NOUN flat
-16 ses 17 PRON obj
-17 notificou 5 VERB parataxis
-18 2133 19 NUM nummod
-19 casos 17 NOUN obj
-20 dengue 19 NOUN flat
-21 conforme 22 CCONJ mark
-22 divulgado 17 VERB advcl
-23 ultima 24 ADJ amod
-24 quartafeira 22 NOUN nsubj
-25 27 26 NUM nummod
-26 estado 31 NOUN nsubj
-27 governo 26 NOUN appos
-28 mato 26 NOUN amod
-29 grosso 26 ADJ amod
-30 sul 26 ADJ amod
-31 decretou 5 VERB parataxis
-32 emergencia 31 NOUN obj
-33 estado 32 NOUN flat
-34 180 35 NUM nummod
-35 dias 32 NOUN appos
-36 devido 37 VERB case
-37 epidemia 32 NOUN nmod
-38 dengue 37 NOUN appos
-39 introducao 37 NOUN appos
-40 zika 39 NOUN obj
-41 virus 40 NOUN flat
-42 chikungunya 40 NOUN flat
-43 doencas 40 NOUN appos
-44 transmitidas 43 VERB acl
-45 aedes 39 NOUN appos
-46 aegypti 45 NOUN flat
-47 conforme 48 ADP case
-48 decreto 57 NOUN nmod
-49 publicado 48 VERB acl
-50 diario 48 NOUN appos
-51 oficial 50 ADJ amod
-52 estado 50 NOUN appos
-53 quintafeira 50 NOUN appos
-54 28 50 NUM appos
-55 situacao 56 ADJ amod
-56 emergencia 57 NOUN nsubj
-57 autoriza 5 VERB parataxis
-58 agentes 57 NOUN obj
-59 policiais 58 ADJ amod
-60 devidamente 61 ADV advmod
-61 identificados 58 ADJ amod
-62 entrar 58 VERB acl:inf
-63 imoveis 62 NOUN obj
-64 desocupados 63 ADJ amod
-65 abandonados 63 ADJ amod
-66 naqueles 65 X nmod
-67 recusa 62 VERB conj
-68 morador 67 NOUN nsubj
-69 realizar 67 VERB ccomp
-70 trabalho 69 NOUN obj
-71 combate 70 NOUN flat
-72 aedes 76 NOUN nsubj
-73 crianca 72 NOUN appos
-74 8 75 NUM nummod
-75 anos 72 NOUN appos
-76 morreu 70 VERB acl:relcl
-77 suspeita 78 ADJ amod
-78 dengue 76 NOUN obj
-79 dia 76 NOUN nmod
-80 12 79 NUM appos
-81 janeiro 79 PROPN nmod
-82 unidade 76 NOUN nsubj
-83 pronto 84 ADJ amod
-84 atendimento 82 NOUN appos
-85 upa 86 ADP appos
-86 vila 84 NOUN appos
-87 almeida 86 ADJ amod
-88 campo 86 NOUN appos
-89 grande 88 ADJ amod
-90 situacao 91 ADJ amod
-91 emergencia 93 NOUN nsubj
-92 governo 93 NOUN nsubj
-93 fica 57 VERB parataxis
-94 autorizado 93 ADJ xcomp
-95 fazer 93 VERB csubj
-96 compras 95 NOUN obj
-97 bens 96 NOUN flat
-98 contratacao 99 VERB acl:relcl
-99 servicos 95 NOUN obj
-100 licitacao 99 ADJ amod
-101 indispensaveis 102 ADJ amod
-102 combate 99 NOUN appos
-103 mosquito 102 NOUN flat
+1 dengue dengue 5 NOUN nsubj
+2 mato mato 1 NOUN appos
+3 grosso grosso 1 ADJ amod
+4 sul sul 1 ADJ amod
+5 declara declarar 0 VERB root
+6 estado estado 5 NOUN obj
+7 emergencia emergencia 6 NOUN flat
+8 300 300 10 NUM nummod
+9 novos novo 10 ADJ amod
+10 casos caso 5 NOUN obj
+11 dia dia 10 NOUN nmod
+12 semana semana 11 NOUN flat
+13 secretaria secretaria 10 NOUN appos
+14 estado estado 13 NOUN flat
+15 saude saude 13 NOUN flat
+16 ses ses 17 PRON obj
+17 notificou notificar 5 VERB parataxis
+18 2133 2133 19 NUM nummod
+19 casos caso 17 NOUN obj
+20 dengue dengue 19 NOUN flat
+21 conforme conforme 22 CCONJ mark
+22 divulgado divulgar 17 VERB advcl
+23 ultima ultima 24 ADJ amod
+24 quartafeira quartafeira 22 NOUN nsubj
+25 27 27 26 NUM nummod
+26 estado estado 31 NOUN nsubj
+27 governo governo 26 NOUN appos
+28 mato mato 26 NOUN amod
+29 grosso grosso 26 ADJ amod
+30 sul sul 26 ADJ amod
+31 decretou decretar 5 VERB parataxis
+32 emergencia emergencia 31 NOUN obj
+33 estado estado 32 NOUN flat
+34 180 180 35 NUM nummod
+35 dias dia 32 NOUN appos
+36 devido dever 37 VERB case
+37 epidemia epidemia 32 NOUN nmod
+38 dengue dengue 37 NOUN appos
+39 introducao introducao 37 NOUN appos
+40 zika zika 39 NOUN obj
+41 virus virus 40 NOUN flat
+42 chikungunya chikungunya 40 NOUN flat
+43 doencas doenca 40 NOUN appos
+44 transmitidas transmitir 43 VERB acl
+45 aedes aede 39 NOUN appos
+46 aegypti aegypti 45 NOUN flat
+47 conforme conforme 48 ADP case
+48 decreto decreto 57 NOUN nmod
+49 publicado publicar 48 VERB acl
+50 diario diario 48 NOUN appos
+51 oficial oficial 50 ADJ amod
+52 estado estado 50 NOUN appos
+53 quintafeira quintafeira 50 NOUN appos
+54 28 28 50 NUM appos
+55 situacao situacao 56 ADJ amod
+56 emergencia emergencia 57 NOUN nsubj
+57 autoriza autorizar 5 VERB parataxis
+58 agentes agente 57 NOUN obj
+59 policiais policial 58 ADJ amod
+60 devidamente devidamente 61 ADV advmod
+61 identificados identificado 58 ADJ amod
+62 entrar entrar 58 VERB acl:inf
+63 imoveis imovel 62 NOUN obj
+64 desocupados desocupado 63 ADJ amod
+65 abandonados abandonado 63 ADJ amod
+66 naqueles naqueles 65 X nmod
+67 recusa recusar 62 VERB conj
+68 morador morador 67 NOUN nsubj
+69 realizar realizar 67 VERB ccomp
+70 trabalho trabalho 69 NOUN obj
+71 combate combate 70 NOUN flat
+72 aedes aede 76 NOUN nsubj
+73 crianca crianca 72 NOUN appos
+74 8 8 75 NUM nummod
+75 anos ano 72 NOUN appos
+76 morreu morrer 70 VERB acl:relcl
+77 suspeita suspeito 78 ADJ amod
+78 dengue dengue 76 NOUN obj
+79 dia dia 76 NOUN nmod
+80 12 12 79 NUM appos
+81 janeiro janeiro 79 PROPN nmod
+82 unidade unidade 76 NOUN nsubj
+83 pronto pronto 84 ADJ amod
+84 atendimento atendimento 82 NOUN appos
+85 upa upa 86 ADP appos
+86 vila vila 84 NOUN appos
+87 almeida almeida 86 ADJ amod
+88 campo campo 86 NOUN appos
+89 grande grande 88 ADJ amod
+90 situacao situacao 91 ADJ amod
+91 emergencia emergencia 93 NOUN nsubj
+92 governo governo 93 NOUN nsubj
+93 fica ficar 57 VERB parataxis
+94 autorizado autorizado 93 ADJ xcomp
+95 fazer fazer 93 VERB csubj
+96 compras compra 95 NOUN obj
+97 bens bem 96 NOUN flat
+98 contratacao contratacao 99 VERB acl:relcl
+99 servicos servico 95 NOUN obj
+100 licitacao licitacao 99 ADJ amod
+101 indispensaveis indispensavel 102 ADJ amod
+102 combate combate 99 NOUN appos
+103 mosquito mosquito 102 NOUN flat

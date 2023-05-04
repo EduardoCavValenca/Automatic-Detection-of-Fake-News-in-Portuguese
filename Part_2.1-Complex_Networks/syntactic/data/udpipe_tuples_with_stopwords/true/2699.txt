@@ -1,138 +1,138 @@
-1 a 3 DET det
-2 10 3 NUM nummod
-3 camara 15 NOUN nsubj
-4 de 5 ADP case
-5 direito 3 NOUN nmod
-6 privado 5 ADJ amod
-7 de 9 ADP case
-8 o 9 DET det
-9 tribunal 3 NOUN nmod
-10 de 11 ADP case
-11 justica 9 NOUN nmod
-12 de 13 ADP case
-13 sao 9 NOUN nmod
-14 paulo 13 NOUN flat
-15 negou 0 VERB root
-16 recurso 15 NOUN obj
-17 de 19 ADP case
-18 o 19 DET det
-19 expresidente 16 NOUN nmod
-20 luiz 19 ADJ amod
-21 inacio 19 NOUN appos
-22 lula 20 NOUN flat
-23 de 25 ADP case
-24 a 25 DET det
-25 silva 21 NOUN nmod
-26 contra 28 ADP case
-27 a 28 DET det
-28 editora 15 NOUN nmod
-29 abril 28 PROPN appos
-30 por 34 ADP case
-31 causa 30 NOUN fixed
-32 de 30 ADP fixed
-33 uma 34 DET det
-34 capa 15 NOUN nmod
-35 de 37 ADP case
-36 a 37 DET det
-37 revista 34 NOUN nmod
-38 veja 37 NOUN appos
-39 que 43 PRON nsubj
-40 segundo 42 ADP case
-41 os 42 DET det
-42 defensores 43 NOUN nmod
-43 violou 34 VERB acl:relcl
-44 a 45 DET det
-45 honra 43 NOUN obj
-46 de 48 ADP case
-47 o 48 DET det
-48 petista 45 NOUN nmod
-49 a 50 DET det
-50 capa 59 NOUN nsubj
-51 de 53 ADP case
-52 a 53 DET det
-53 edicao 50 NOUN nmod
-54 publicada 53 VERB acl
-55 em 56 ADP case
-56 novembro 54 PROPN nmod
-57 de 58 ADP case
-58 2015 56 NUM nmod
-59 trazia 34 VERB acl:relcl
-60 uma 61 DET det
-61 montagem 59 NOUN obj
-62 de 64 ADP case
-63 a 64 DET det
-64 foto 61 NOUN nmod
-65 de 66 ADP case
-66 lula 64 NOUN nmod
-67 com 68 ADP case
-68 roupas 61 NOUN nmod
-69 de 70 ADP case
-70 presidiario 68 NOUN nmod
-71 as 72 DET det
-72 informacoes 74 NOUN nsubj:pass
-73 foram 74 AUX aux:pass
-74 divulgadas 15 VERB parataxis
-75 por 77 ADP case
-76 o 77 DET det
-77 site 74 NOUN nmod
-78 de 80 ADP case
-79 o 80 DET det
-80 tribunal 77 NOUN nmod
-81 de 82 ADP case
-82 justica 80 NOUN nmod
-83 de 84 ADP case
-84 sao 80 NOUN nmod
-85 paulo 84 ADJ flat
-86 a 87 DET det
-87 acao 91 NOUN nsubj
-88 de 90 ADP case
-89 o 90 DET det
-90 expresidente 87 NOUN nmod
-91 objetivava 15 VERB parataxis
-92 o 93 DET det
-93 pagamento 91 NOUN obj
-94 de 95 ADP case
-95 indenizacao 93 NOUN nmod
-96 por 97 ADP case
-97 danos 95 NOUN nmod
-98 morais 97 ADJ amod
-99 sob 101 ADP case
-100 o 101 DET det
-101 argumento 91 NOUN nmod
-102 de 107 ADP mark
-103 que 107 CCONJ mark
-104 a 105 DET det
-105 capa 107 NOUN nsubj
-106 teria 107 AUX aux
-107 violado 101 VERB nmod
-108 sua 109 DET det:poss
-109 honra 107 NOUN obj
-110 a 111 ADP case
-111 imagem 109 NOUN nmod
-112 e 114 CCONJ cc
-113 a 114 DET det
-114 dignidade 111 NOUN conj
-115 o 116 DET det
-116 relator 125 NOUN nsubj
-117 de 119 ADP case
-118 o 119 DET det
-119 recurso 116 NOUN nmod
-120 desembargador 119 NOUN amod
-121 ronnie 116 NOUN appos
-122 herbert 121 PROPN flat
-123 barros 121 NOUN flat
-124 soares 121 PROPN flat
-125 destacou 91 VERB parataxis
-126 em 128 ADP case
-127 seu 128 DET det:poss
-128 voto 125 NOUN nmod
-129 que 138 CCONJ mark
-130 a 133 ADP case
-131 o 133 DET det
-132 mesmo 133 ADJ amod
-133 tempo 138 NOUN nmod
-134 que 138 PRON mark
-135 um 136 DET det
-136 politico 138 NOUN nsubj
-137 se 138 PRON obj
-138 submete 125 VERB ccomp
+1 a o 3 DET det
+2 10 10 3 NUM nummod
+3 camara camara 15 NOUN nsubj
+4 de de 5 ADP case
+5 direito direito 3 NOUN nmod
+6 privado privado 5 ADJ amod
+7 de de 9 ADP case
+8 o o 9 DET det
+9 tribunal tribunal 3 NOUN nmod
+10 de de 11 ADP case
+11 justica justica 9 NOUN nmod
+12 de de 13 ADP case
+13 sao sao 9 NOUN nmod
+14 paulo paulo 13 NOUN flat
+15 negou negar 0 VERB root
+16 recurso recurso 15 NOUN obj
+17 de de 19 ADP case
+18 o o 19 DET det
+19 expresidente expresidente 16 NOUN nmod
+20 luiz luiz 19 ADJ amod
+21 inacio inacio 19 NOUN appos
+22 lula lula 20 NOUN flat
+23 de de 25 ADP case
+24 a o 25 DET det
+25 silva silva 21 NOUN nmod
+26 contra contra 28 ADP case
+27 a o 28 DET det
+28 editora editora 15 NOUN nmod
+29 abril abril 28 PROPN appos
+30 por por 34 ADP case
+31 causa causa 30 NOUN fixed
+32 de de 30 ADP fixed
+33 uma um 34 DET det
+34 capa capa 15 NOUN nmod
+35 de de 37 ADP case
+36 a o 37 DET det
+37 revista revista 34 NOUN nmod
+38 veja veja 37 NOUN appos
+39 que que 43 PRON nsubj
+40 segundo segundo 42 ADP case
+41 os o 42 DET det
+42 defensores defensor 43 NOUN nmod
+43 violou violar 34 VERB acl:relcl
+44 a o 45 DET det
+45 honra honra 43 NOUN obj
+46 de de 48 ADP case
+47 o o 48 DET det
+48 petista petista 45 NOUN nmod
+49 a o 50 DET det
+50 capa capa 59 NOUN nsubj
+51 de de 53 ADP case
+52 a o 53 DET det
+53 edicao edicao 50 NOUN nmod
+54 publicada publicar 53 VERB acl
+55 em em 56 ADP case
+56 novembro novembro 54 PROPN nmod
+57 de de 58 ADP case
+58 2015 2015 56 NUM nmod
+59 trazia trazer 34 VERB acl:relcl
+60 uma um 61 DET det
+61 montagem montagem 59 NOUN obj
+62 de de 64 ADP case
+63 a o 64 DET det
+64 foto foto 61 NOUN nmod
+65 de de 66 ADP case
+66 lula lula 64 NOUN nmod
+67 com com 68 ADP case
+68 roupas roupa 61 NOUN nmod
+69 de de 70 ADP case
+70 presidiario presidiario 68 NOUN nmod
+71 as o 72 DET det
+72 informacoes informacoe 74 NOUN nsubj:pass
+73 foram foram 74 AUX aux:pass
+74 divulgadas divulgar 15 VERB parataxis
+75 por por 77 ADP case
+76 o o 77 DET det
+77 site site 74 NOUN nmod
+78 de de 80 ADP case
+79 o o 80 DET det
+80 tribunal tribunal 77 NOUN nmod
+81 de de 82 ADP case
+82 justica justica 80 NOUN nmod
+83 de de 84 ADP case
+84 sao sao 80 NOUN nmod
+85 paulo paulo 84 ADJ flat
+86 a o 87 DET det
+87 acao acao 91 NOUN nsubj
+88 de de 90 ADP case
+89 o o 90 DET det
+90 expresidente expresidente 87 NOUN nmod
+91 objetivava objetivar 15 VERB parataxis
+92 o o 93 DET det
+93 pagamento pagamento 91 NOUN obj
+94 de de 95 ADP case
+95 indenizacao indenizacao 93 NOUN nmod
+96 por por 97 ADP case
+97 danos dano 95 NOUN nmod
+98 morais moral 97 ADJ amod
+99 sob sob 101 ADP case
+100 o o 101 DET det
+101 argumento argumento 91 NOUN nmod
+102 de de 107 ADP mark
+103 que que 107 CCONJ mark
+104 a o 105 DET det
+105 capa capa 107 NOUN nsubj
+106 teria ter 107 AUX aux
+107 violado violar 101 VERB nmod
+108 sua sua 109 DET det:poss
+109 honra honra 107 NOUN obj
+110 a a 111 ADP case
+111 imagem imagem 109 NOUN nmod
+112 e e 114 CCONJ cc
+113 a o 114 DET det
+114 dignidade dignidade 111 NOUN conj
+115 o o 116 DET det
+116 relator relator 125 NOUN nsubj
+117 de de 119 ADP case
+118 o o 119 DET det
+119 recurso recurso 116 NOUN nmod
+120 desembargador desembargador 119 NOUN amod
+121 ronnie ronnie 116 NOUN appos
+122 herbert herbert 121 PROPN flat
+123 barros barros 121 NOUN flat
+124 soares soares 121 PROPN flat
+125 destacou destacar 91 VERB parataxis
+126 em em 128 ADP case
+127 seu seu 128 DET det:poss
+128 voto voto 125 NOUN nmod
+129 que que 138 CCONJ mark
+130 a a 133 ADP case
+131 o o 133 DET det
+132 mesmo mesmo 133 ADJ amod
+133 tempo tempo 138 NOUN nmod
+134 que que 138 PRON mark
+135 um um 136 DET det
+136 politico politico 138 NOUN nsubj
+137 se se 138 PRON obj
+138 submete submeter 125 VERB ccomp

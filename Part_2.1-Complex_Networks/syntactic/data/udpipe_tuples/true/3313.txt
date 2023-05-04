@@ -1,130 +1,130 @@
-1 80 2 NUM nummod
-2 armas 4 NOUN nsubj
-3 fogo 2 NOUN flat
-4 lideram 0 VERB root
-5 estatisticas 4 NOUN obj
-6 homicidios 5 NOUN amod
-7 poem 4 VERB parataxis
-8 xeque 7 NOUN obj
-9 seguranca 8 NOUN amod
-10 pe 12 CCONJ mark
-11 g1 12 NOUN nsubj
-12 fez 4 VERB conj
-13 levantamento 12 NOUN obj
-14 todas 16 DET det
-15 106 16 NUM nummod
-16 mortes 12 NOUN obj
-17 violentas 16 ADJ amod
-18 ocorridas 16 VERB acl
-19 pernambuco 18 NOUN nmod
-20 21 61 NUM nmod
-21 27 64 NUM nmod
-22 agosto 64 PROPN appos
-23 desse 25 ADP case
-24 total 25 ADJ nmod
-25 registro 4 NOUN nmod
-26 uso 25 NOUN appos
-27 arma 26 NOUN flat
-28 fogo 26 NOUN flat
-29 85 30 NUM nummod
-30 casos 26 NOUN appos
-31 agosto 30 PROPN appos
-32 2017 34 NUM nummod
-33 maior 34 ADJ amod
-34 numero 109 NOUN obj
-35 assassinatos 34 NOUN appos
-36 pernambuco 34 NOUN appos
-37 comparacao 34 VERB appos
-38 mes 41 ADP case
-39 ultimos 41 ADJ amod
-40 dez 41 NUM nummod
-41 anos 37 NOUN nmod
-42 dados 48 NOUN nsubj
-43 oficiais 42 ADJ amod
-44 secretaria 42 NOUN appos
-45 defesa 44 NOUN flat
-46 social 45 ADJ amod
-47 sds 48 PRON nsubj
-48 mostram 4 VERB parataxis
-49 ocorrencia 48 NOUN obj
-50 413 51 NUM nummod
-51 homicidios 49 NOUN appos
-52 mes 53 DET det
-53 media 48 NOUN nsubj
-54 diaria 53 ADJ amod
-55 133 56 NUM nummod
-56 assassinatos 58 NOUN nsubj
-57 g1 56 ADJ appos
-58 fez 48 VERB parataxis
-59 levantamento 58 NOUN obj
-60 todos 61 DET det
-61 mortes 58 NOUN obj
-62 violentas 61 ADJ amod
-63 ocorridas 61 VERB acl
-64 dias 63 NOUN nmod
-65 21 64 NUM nmod
-66 27 65 NUM nmod
-67 partir 58 VERB parataxis
-68 disso 67 X nmod
-69 possivel 70 ADJ amod
-70 mostrar 58 VERB conj
-71 padrao 70 NOUN obj
-72 dessa 73 ADP case
-73 violencia 71 NOUN nmod
-74 sete 75 NUM nummod
-75 dias 76 NOUN nsubj
-76 aconteceram 16 VERB acl:relcl
-77 106 78 NUM nummod
-78 casos 76 NOUN nsubj
-79 quais 83 PRON det
-80 85 81 NUM nummod
-81 801 83 NUM nummod
-82 total 83 ADJ amod
-83 registro 76 NOUN nsubj
-84 uso 83 NOUN appos
-85 arma 84 NOUN flat
-86 fogo 85 NOUN flat
-87 homens 83 NOUN appos
-88 pardos 87 ADJ amod
-89 negros 87 ADJ amod
-90 moradores 87 NOUN amod
-91 capital 92 ADJ amod
-92 regiao 87 NOUN appos
-93 metropolitana 92 ADJ amod
-94 recife 92 ADJ amod
-95 representam 25 VERB acl:relcl
-96 maioria 95 NOUN obj
-97 dessas 98 ADP case
-98 vitimas 96 NOUN nmod
-99 levantamento 100 NOUN nsubj
-100 aponta 48 VERB parataxis
-101 dificuldades 100 NOUN obj
-102 enfrentadas 101 VERB acl
-103 pacto 104 ADJ amod
-104 vida 102 NOUN nmod
-105 politica 104 ADJ amod
-106 publica 104 ADJ amod
-107 lancada 104 VERB acl
-108 2007 107 NUM nmod
-109 cumprir 107 VERB xcomp
-110 meta 109 NOUN obj
-111 reducao 110 NOUN flat
-112 12 113 NUM nummod
-113 mortes 110 NOUN appos
-114 cada 115 DET det
-115 ano 109 NOUN nmod
-116 agosto 115 PROPN appos
-117 2017 116 NUM appos
-118 mes 120 NOUN case
-119 recente 120 ADJ amod
-120 divulgacao 116 NOUN appos
-121 estatisticas 124 ADJ amod
-122 51 123 NUM nummod
-123 362 124 NUM nummod
-124 assassinatos 48 NOUN nsubj
-125 notificados 124 VERB acl
-126 periodo 128 NOUN nmod
-127 2016 128 NUM nmod
-128 numero 48 NOUN parataxis
-129 atualizado 128 ADJ amod
-130 pernambuco 128 NOUN appos
+1 80 80 2 NUM nummod
+2 armas arma 4 NOUN nsubj
+3 fogo fogo 2 NOUN flat
+4 lideram liderar 0 VERB root
+5 estatisticas estatisticas 4 NOUN obj
+6 homicidios homicidio 5 NOUN amod
+7 poem poem 4 VERB parataxis
+8 xeque xeque 7 NOUN obj
+9 seguranca seguranca 8 NOUN amod
+10 pe pe 12 CCONJ mark
+11 g1 g1 12 NOUN nsubj
+12 fez fazer 4 VERB conj
+13 levantamento levantamento 12 NOUN obj
+14 todas todas 16 DET det
+15 106 106 16 NUM nummod
+16 mortes morte 12 NOUN obj
+17 violentas violento 16 ADJ amod
+18 ocorridas ocorrer 16 VERB acl
+19 pernambuco pernambuco 18 NOUN nmod
+20 21 21 61 NUM nmod
+21 27 27 64 NUM nmod
+22 agosto agosto 64 PROPN appos
+23 desse desse 25 ADP case
+24 total total 25 ADJ nmod
+25 registro registro 4 NOUN nmod
+26 uso uso 25 NOUN appos
+27 arma arma 26 NOUN flat
+28 fogo fogo 26 NOUN flat
+29 85 85 30 NUM nummod
+30 casos caso 26 NOUN appos
+31 agosto agosto 30 PROPN appos
+32 2017 2017 34 NUM nummod
+33 maior maior 34 ADJ amod
+34 numero numero 109 NOUN obj
+35 assassinatos assassinato 34 NOUN appos
+36 pernambuco pernambuco 34 NOUN appos
+37 comparacao comparacao 34 VERB appos
+38 mes mes 41 ADP case
+39 ultimos ultimos 41 ADJ amod
+40 dez dez 41 NUM nummod
+41 anos ano 37 NOUN nmod
+42 dados dado 48 NOUN nsubj
+43 oficiais oficial 42 ADJ amod
+44 secretaria secretaria 42 NOUN appos
+45 defesa defesa 44 NOUN flat
+46 social social 45 ADJ amod
+47 sds sds 48 PRON nsubj
+48 mostram mostrar 4 VERB parataxis
+49 ocorrencia ocorrencia 48 NOUN obj
+50 413 413 51 NUM nummod
+51 homicidios homicidio 49 NOUN appos
+52 mes mes 53 DET det
+53 media media 48 NOUN nsubj
+54 diaria diario 53 ADJ amod
+55 133 133 56 NUM nummod
+56 assassinatos assassinato 58 NOUN nsubj
+57 g1 g1 56 ADJ appos
+58 fez fazer 48 VERB parataxis
+59 levantamento levantamento 58 NOUN obj
+60 todos todos 61 DET det
+61 mortes morte 58 NOUN obj
+62 violentas violento 61 ADJ amod
+63 ocorridas ocorrer 61 VERB acl
+64 dias dia 63 NOUN nmod
+65 21 21 64 NUM nmod
+66 27 27 65 NUM nmod
+67 partir partir 58 VERB parataxis
+68 disso disso 67 X nmod
+69 possivel possivel 70 ADJ amod
+70 mostrar mostrar 58 VERB conj
+71 padrao padrao 70 NOUN obj
+72 dessa dessa 73 ADP case
+73 violencia violencia 71 NOUN nmod
+74 sete sete 75 NUM nummod
+75 dias dia 76 NOUN nsubj
+76 aconteceram acontecer 16 VERB acl:relcl
+77 106 106 78 NUM nummod
+78 casos caso 76 NOUN nsubj
+79 quais quais 83 PRON det
+80 85 85 81 NUM nummod
+81 801 801 83 NUM nummod
+82 total total 83 ADJ amod
+83 registro registro 76 NOUN nsubj
+84 uso uso 83 NOUN appos
+85 arma arma 84 NOUN flat
+86 fogo fogo 85 NOUN flat
+87 homens homem 83 NOUN appos
+88 pardos pardo 87 ADJ amod
+89 negros negro 87 ADJ amod
+90 moradores morador 87 NOUN amod
+91 capital capital 92 ADJ amod
+92 regiao regiao 87 NOUN appos
+93 metropolitana metropolitano 92 ADJ amod
+94 recife recife 92 ADJ amod
+95 representam representar 25 VERB acl:relcl
+96 maioria maioria 95 NOUN obj
+97 dessas dessas 98 ADP case
+98 vitimas vitima 96 NOUN nmod
+99 levantamento levantamento 100 NOUN nsubj
+100 aponta apontar 48 VERB parataxis
+101 dificuldades dificuldade 100 NOUN obj
+102 enfrentadas enfrentar 101 VERB acl
+103 pacto pacto 104 ADJ amod
+104 vida vida 102 NOUN nmod
+105 politica politico 104 ADJ amod
+106 publica publico 104 ADJ amod
+107 lancada lancar 104 VERB acl
+108 2007 2007 107 NUM nmod
+109 cumprir cumprir 107 VERB xcomp
+110 meta meta 109 NOUN obj
+111 reducao reducao 110 NOUN flat
+112 12 12 113 NUM nummod
+113 mortes morte 110 NOUN appos
+114 cada cada 115 DET det
+115 ano ano 109 NOUN nmod
+116 agosto agosto 115 PROPN appos
+117 2017 2017 116 NUM appos
+118 mes mes 120 NOUN case
+119 recente recente 120 ADJ amod
+120 divulgacao divulgacao 116 NOUN appos
+121 estatisticas estatistico 124 ADJ amod
+122 51 51 123 NUM nummod
+123 362 362 124 NUM nummod
+124 assassinatos assassinato 48 NOUN nsubj
+125 notificados notificar 124 VERB acl
+126 periodo periodo 128 NOUN nmod
+127 2016 2016 128 NUM nmod
+128 numero numero 48 NOUN parataxis
+129 atualizado atualizado 128 ADJ amod
+130 pernambuco pernambuco 128 NOUN appos

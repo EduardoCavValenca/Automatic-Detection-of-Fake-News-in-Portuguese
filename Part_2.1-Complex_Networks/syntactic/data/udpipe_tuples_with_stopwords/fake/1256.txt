@@ -1,113 +1,113 @@
-1 trf 2 NOUN nsubj
-2 nega 0 VERB root
-3 pedido 2 NOUN obj
-4 de 5 ADP case
-5 lula 3 NOUN nmod
-6 para 7 ADP mark
-7 adiar 2 VERB advcl
-8 depoimento 7 NOUN obj
-9 expresidente 12 NOUN nsubj
-10 tera 12 AUX aux
-11 que 12 CCONJ mark
-12 depor 2 VERB parataxis
-13 amanha 12 ADV advmod
-14 o 15 DET det
-15 tribunal 12 NOUN nsubj
-16 regional 15 ADJ amod
-17 federal 15 ADJ amod
-18 de 21 ADP case
-19 a 21 DET det
-20 4 21 NUM nummod
-21 regiao 15 NOUN nmod
-22 trf4 23 NOUN nsubj
-23 indeferiu 2 VERB parataxis
-24 agora 23 ADV advmod
-25 pouco 23 ADV advmod
-26 o 27 DET det
-27 pedido 23 NOUN obj
-28 de 29 ADP case
-29 suspensao 27 NOUN nmod
-30 de 32 ADP case
-31 o 32 DET det
-32 depoimento 29 NOUN nmod
-33 de 34 ADP case
-34 lula 32 NOUN nmod
-35 marcado 27 VERB acl
-36 para 37 ADP case
-37 amanha 35 NOUN nmod
-38 os 39 DET det
-39 advogados 43 NOUN nsubj
-40 de 42 ADP case
-41 o 42 DET det
-42 expresidente 39 NOUN nmod
-43 protocolaram 23 VERB parataxis
-44 ontem 43 ADV advmod
-45 um 46 DET det
-46 pedido 43 NOUN obj
-47 em 49 ADP case
-48 o 49 DET det
-49 trf4 46 NOUN nmod
-50 para 51 ADP mark
-51 suspender 43 VERB advcl
-52 o 53 DET det
-53 prazo 51 NOUN obj
-54 de 56 ADP case
-55 o 56 DET det
-56 processo 53 NOUN nmod
-57 para 59 ADP mark
-58 que 57 CCONJ fixed
-59 haja 43 VERB advcl
-60 tempo 59 NOUN obj
-61 de 62 ADP mark
-62 fazer 60 VERB nmod
-63 uma 65 DET det
-64 melhor 65 ADJ amod
-65 analise 62 NOUN obj
-66 de 68 ADP case
-67 os 68 DET det
-68 documentos 65 NOUN nmod
-69 e 89 CCONJ cc
-70 a 72 DET det
-71 segunda 72 ADJ amod
-72 vez 59 NOUN nmod
-73 que 79 CCONJ mark
-74 a 75 DET det
-75 defesa 79 NOUN nsubj
-76 de 78 ADP case
-77 o 78 DET det
-78 petista 75 NOUN nmod
-79 tenta 72 VERB acl:relcl
-80 adiar 79 VERB xcomp
-81 o 82 DET det
-82 depoimento 80 NOUN obj
-83 em 86 ADP case
-84 a 86 DET det
-85 primeira 86 ADJ amod
-86 ocasiao 79 NOUN nmod
-87 sergio 86 ADJ appos
-88 moro 87 NOUN flat
-89 negou 79 VERB conj
-90 o 91 DET det
-91 pedido 89 NOUN obj
-92 desta 93 ADP case
-93 vez 89 NOUN nmod
-94 a 95 DET det
-95 negativa 96 NOUN nsubj
-96 veio 89 VERB parataxis
-97 de 99 ADP case
-98 o 99 DET det
-99 juiz 96 NOUN nmod
-100 federal 99 ADJ amod
-101 nivaldo 99 NOUN appos
-102 bonini 101 NOUN flat
-103 esta 104 DET det
-104 confirmado 96 ADJ xcomp
-105 lula 108 NOUN nsubj
-106 tera 108 AUX aux
-107 que 108 CCONJ mark
-108 prestar 96 VERB conj
-109 depoimento 108 NOUN obj
-110 amanha 108 ADV advmod
-111 as 113 DET det
-112 14 113 NUM nummod
-113 hs 108 NOUN nmod
+1 trf trf 2 NOUN nsubj
+2 nega negar 0 VERB root
+3 pedido pedido 2 NOUN obj
+4 de de 5 ADP case
+5 lula lula 3 NOUN nmod
+6 para para 7 ADP mark
+7 adiar adiar 2 VERB advcl
+8 depoimento depoimento 7 NOUN obj
+9 expresidente expresidente 12 NOUN nsubj
+10 tera terar 12 AUX aux
+11 que que 12 CCONJ mark
+12 depor depor 2 VERB parataxis
+13 amanha amanha 12 ADV advmod
+14 o o 15 DET det
+15 tribunal tribunal 12 NOUN nsubj
+16 regional regional 15 ADJ amod
+17 federal federal 15 ADJ amod
+18 de de 21 ADP case
+19 a o 21 DET det
+20 4 4 21 NUM nummod
+21 regiao regiao 15 NOUN nmod
+22 trf4 trf4 23 NOUN nsubj
+23 indeferiu indeferir 2 VERB parataxis
+24 agora agora 23 ADV advmod
+25 pouco pouco 23 ADV advmod
+26 o o 27 DET det
+27 pedido pedido 23 NOUN obj
+28 de de 29 ADP case
+29 suspensao suspensao 27 NOUN nmod
+30 de de 32 ADP case
+31 o o 32 DET det
+32 depoimento depoimento 29 NOUN nmod
+33 de de 34 ADP case
+34 lula lula 32 NOUN nmod
+35 marcado marcar 27 VERB acl
+36 para para 37 ADP case
+37 amanha amanha 35 NOUN nmod
+38 os o 39 DET det
+39 advogados advogado 43 NOUN nsubj
+40 de de 42 ADP case
+41 o o 42 DET det
+42 expresidente expresidente 39 NOUN nmod
+43 protocolaram protocolar 23 VERB parataxis
+44 ontem ontem 43 ADV advmod
+45 um um 46 DET det
+46 pedido pedido 43 NOUN obj
+47 em em 49 ADP case
+48 o o 49 DET det
+49 trf4 trf4 46 NOUN nmod
+50 para para 51 ADP mark
+51 suspender suspender 43 VERB advcl
+52 o o 53 DET det
+53 prazo prazo 51 NOUN obj
+54 de de 56 ADP case
+55 o o 56 DET det
+56 processo processo 53 NOUN nmod
+57 para para 59 ADP mark
+58 que que 57 CCONJ fixed
+59 haja haver 43 VERB advcl
+60 tempo tempo 59 NOUN obj
+61 de de 62 ADP mark
+62 fazer fazer 60 VERB nmod
+63 uma um 65 DET det
+64 melhor melhor 65 ADJ amod
+65 analise analise 62 NOUN obj
+66 de de 68 ADP case
+67 os o 68 DET det
+68 documentos documento 65 NOUN nmod
+69 e e 89 CCONJ cc
+70 a o 72 DET det
+71 segunda segundo 72 ADJ amod
+72 vez vez 59 NOUN nmod
+73 que que 79 CCONJ mark
+74 a o 75 DET det
+75 defesa defesa 79 NOUN nsubj
+76 de de 78 ADP case
+77 o o 78 DET det
+78 petista petista 75 NOUN nmod
+79 tenta tentar 72 VERB acl:relcl
+80 adiar adiar 79 VERB xcomp
+81 o o 82 DET det
+82 depoimento depoimento 80 NOUN obj
+83 em em 86 ADP case
+84 a o 86 DET det
+85 primeira primeiro 86 ADJ amod
+86 ocasiao ocasiao 79 NOUN nmod
+87 sergio sergio 86 ADJ appos
+88 moro moro 87 NOUN flat
+89 negou negar 79 VERB conj
+90 o o 91 DET det
+91 pedido pedido 89 NOUN obj
+92 desta desta 93 ADP case
+93 vez vez 89 NOUN nmod
+94 a o 95 DET det
+95 negativa negativa 96 NOUN nsubj
+96 veio veio 89 VERB parataxis
+97 de de 99 ADP case
+98 o o 99 DET det
+99 juiz juiz 96 NOUN nmod
+100 federal federal 99 ADJ amod
+101 nivaldo nivaldo 99 NOUN appos
+102 bonini bonini 101 NOUN flat
+103 esta esta 104 DET det
+104 confirmado confirmado 96 ADJ xcomp
+105 lula lula 108 NOUN nsubj
+106 tera terar 108 AUX aux
+107 que que 108 CCONJ mark
+108 prestar prestar 96 VERB conj
+109 depoimento depoimento 108 NOUN obj
+110 amanha amanha 108 ADV advmod
+111 as o 113 DET det
+112 14 14 113 NUM nummod
+113 hs hs 108 NOUN nmod

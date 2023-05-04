@@ -1,138 +1,138 @@
-1 2 2 NUM nummod
-2 turma 10 NOUN nsubj
-3 de 5 ADP case
-4 o 5 DET det
-5 stf 2 NOUN nmod
-6 responsavel 2 ADJ amod
-7 por 9 ADP case
-8 a 9 DET det
-9 lavajato 6 NOUN nmod
-10 julga 0 VERB root
-11 caso 10 NOUN obj
-12 de 13 ADP case
-13 moca 11 NOUN nmod
-14 que 15 PRON nsubj
-15 furtou 2 VERB acl:relcl
-16 2 17 NUM nummod
-17 desodorantes 15 NOUN obj
-18 e 20 CCONJ cc
-19 5 20 NUM nummod
-20 chicletes 17 NOUN conj
-21 o 22 DET det
-22 caso 24 NOUN nsubj:pass
-23 foi 24 AUX aux:pass
-24 julgado 10 VERB parataxis
-25 por 28 ADP case
-26 a 28 DET det
-27 segunda 28 ADJ amod
-28 turma 24 NOUN nmod
-29 de 31 ADP case
-30 o 31 DET det
-31 supremo 28 NOUN nmod
-32 que 34 PRON nsubj
-33 e 34 CCONJ cc
-34 responsavel 28 NOUN acl:relcl
-35 por 37 ADP case
-36 os 37 DET det
-37 processos 34 NOUN nmod
-38 de 40 ADP case
-39 a 40 DET det
-40 operacao 37 NOUN nmod
-41 lavajato 40 NOUN flat
-42 em 43 ADP case
-43 18 34 NUM nmod
-44 de 45 ADP case
-45 fevereiro 43 PROPN nmod
-46 de 47 ADP case
-47 2011 45 NUM nmod
-48 georgina 50 NOUN nsubj
-49 goncalves 48 ADJ amod
-50 entrou 10 VERB parataxis
-51 em 53 ADP case
-52 um 53 DET det
-53 supermercado 50 NOUN nmod
-54 e 55 CCONJ cc
-55 furtou 50 VERB conj
-56 cinco 57 NUM nummod
-57 pacotes 55 NOUN obj
-58 de 59 ADP case
-59 chiclete 57 NOUN nmod
-60 e 62 CCONJ cc
-61 dois 62 NUM nummod
-62 frascos 57 NOUN conj
-63 de 64 ADP case
-64 desodorante 62 NOUN nmod
-65 o 66 DET det
-66 caso 67 NOUN nsubj
-67 aconteceu 50 VERB conj
-68 em 69 ADP case
-69 varginha 67 NOUN nmod
-70 mg 69 ADJ amod
-71 os 72 DET det
-72 produtos 67 NOUN nsubj
-73 roubados 72 ADJ amod
-74 somariam 86 VERB parataxis
-75 r 74 NOUN obj
-76 4200 75 NUM appos
-77 em 79 ADP case
-78 a 79 DET det
-79 epoca 74 NOUN nmod
-80 a 81 DET det
-81 policia 83 NOUN nsubj:pass
-82 foi 83 AUX aux:pass
-83 chamada 86 VERB conj
-84 georgina 83 NOUN nsubj:pass
-85 foi 86 AUX aux:pass
-86 presa 10 VERB parataxis
-87 e 91 CCONJ cc
-88 os 89 DET det
-89 produtos 91 NOUN nsubj:pass
-90 foram 91 AUX aux:pass
-91 devolvidos 86 VERB conj
-92 a 94 ADP case
-93 o 94 DET det
-94 supermercado 91 NOUN iobj
-95 ela 96 PRON nsubj
-96 ficou 86 VERB conj
-97 presa 96 ADJ xcomp
-98 ate 100 ADP case
-99 o 100 DET det
-100 dia 96 NOUN nmod
-101 07 100 NUM nmod
-102 de 103 ADP case
-103 fevereiro 101 PROPN nmod
-104 deste 105 ADP case
-105 ano 103 NOUN nmod
-106 apos 108 ADP case
-107 6 108 NUM nummod
-108 anos 91 NOUN nmod
-109 o 110 DET det
-110 stf 111 NOUN nsubj
-111 julgou 86 VERB conj
-112 o 113 DET det
-113 caso 111 NOUN obj
-114 e 115 CCONJ cc
-115 classificou 111 VERB conj
-116 o 117 DET det
-117 fato 115 NOUN obj
-118 como 119 ADP case
-119 crime 115 NOUN nmod
-120 de 121 ADP case
-121 bagatela 119 NOUN nmod
-122 delito 119 NOUN appos
-123 que 125 PRON nsubj
-124 nao 125 ADV advmod
-125 causa 122 VERB acl:relcl
-126 prejuizo 125 NOUN obj
-127 a 128 ADP case
-128 ninguem 125 NOUN iobj
-129 por 134 ADP case
-130 conta 129 NOUN fixed
-131 de 129 ADP case
-132 o 129 DET det
-133 baixo 134 ADJ amod
-134 valor 125 NOUN nmod
-135 de 137 ADP case
-136 os 137 DET det
-137 produtos 134 NOUN nmod
-138 furtados 137 VERB acl
+1 2 2 2 NUM nummod
+2 turma turma 10 NOUN nsubj
+3 de de 5 ADP case
+4 o o 5 DET det
+5 stf stf 2 NOUN nmod
+6 responsavel responsavel 2 ADJ amod
+7 por por 9 ADP case
+8 a o 9 DET det
+9 lavajato lavajato 6 NOUN nmod
+10 julga julgar 0 VERB root
+11 caso caso 10 NOUN obj
+12 de de 13 ADP case
+13 moca moca 11 NOUN nmod
+14 que que 15 PRON nsubj
+15 furtou furtar 2 VERB acl:relcl
+16 2 2 17 NUM nummod
+17 desodorantes desodorante 15 NOUN obj
+18 e e 20 CCONJ cc
+19 5 5 20 NUM nummod
+20 chicletes chiclete 17 NOUN conj
+21 o o 22 DET det
+22 caso caso 24 NOUN nsubj:pass
+23 foi foi 24 AUX aux:pass
+24 julgado julgar 10 VERB parataxis
+25 por por 28 ADP case
+26 a o 28 DET det
+27 segunda segundo 28 ADJ amod
+28 turma turma 24 NOUN nmod
+29 de de 31 ADP case
+30 o o 31 DET det
+31 supremo supremo 28 NOUN nmod
+32 que que 34 PRON nsubj
+33 e e 34 CCONJ cc
+34 responsavel responsavel 28 NOUN acl:relcl
+35 por por 37 ADP case
+36 os o 37 DET det
+37 processos processo 34 NOUN nmod
+38 de de 40 ADP case
+39 a o 40 DET det
+40 operacao operacao 37 NOUN nmod
+41 lavajato lavajato 40 NOUN flat
+42 em em 43 ADP case
+43 18 18 34 NUM nmod
+44 de de 45 ADP case
+45 fevereiro fevereiro 43 PROPN nmod
+46 de de 47 ADP case
+47 2011 2011 45 NUM nmod
+48 georgina georgina 50 NOUN nsubj
+49 goncalves goncalves 48 ADJ amod
+50 entrou entrar 10 VERB parataxis
+51 em em 53 ADP case
+52 um um 53 DET det
+53 supermercado supermercado 50 NOUN nmod
+54 e e 55 CCONJ cc
+55 furtou furtar 50 VERB conj
+56 cinco cinco 57 NUM nummod
+57 pacotes pacote 55 NOUN obj
+58 de de 59 ADP case
+59 chiclete chiclete 57 NOUN nmod
+60 e e 62 CCONJ cc
+61 dois dois 62 NUM nummod
+62 frascos frasco 57 NOUN conj
+63 de de 64 ADP case
+64 desodorante desodorante 62 NOUN nmod
+65 o o 66 DET det
+66 caso caso 67 NOUN nsubj
+67 aconteceu acontecer 50 VERB conj
+68 em em 69 ADP case
+69 varginha varginha 67 NOUN nmod
+70 mg mg 69 ADJ amod
+71 os o 72 DET det
+72 produtos produto 67 NOUN nsubj
+73 roubados roubar 72 ADJ amod
+74 somariam somar 86 VERB parataxis
+75 r r 74 NOUN obj
+76 4200 4200 75 NUM appos
+77 em em 79 ADP case
+78 a o 79 DET det
+79 epoca epoca 74 NOUN nmod
+80 a o 81 DET det
+81 policia policia 83 NOUN nsubj:pass
+82 foi foi 83 AUX aux:pass
+83 chamada chamar 86 VERB conj
+84 georgina georgina 83 NOUN nsubj:pass
+85 foi foi 86 AUX aux:pass
+86 presa presa 10 VERB parataxis
+87 e e 91 CCONJ cc
+88 os o 89 DET det
+89 produtos produto 91 NOUN nsubj:pass
+90 foram foram 91 AUX aux:pass
+91 devolvidos devolver 86 VERB conj
+92 a a 94 ADP case
+93 o o 94 DET det
+94 supermercado supermercado 91 NOUN iobj
+95 ela ela 96 PRON nsubj
+96 ficou ficar 86 VERB conj
+97 presa preso 96 ADJ xcomp
+98 ate ate 100 ADP case
+99 o o 100 DET det
+100 dia dia 96 NOUN nmod
+101 07 07 100 NUM nmod
+102 de de 103 ADP case
+103 fevereiro fevereiro 101 PROPN nmod
+104 deste deste 105 ADP case
+105 ano ano 103 NOUN nmod
+106 apos apos 108 ADP case
+107 6 6 108 NUM nummod
+108 anos ano 91 NOUN nmod
+109 o o 110 DET det
+110 stf stf 111 NOUN nsubj
+111 julgou julgar 86 VERB conj
+112 o o 113 DET det
+113 caso caso 111 NOUN obj
+114 e e 115 CCONJ cc
+115 classificou classificar 111 VERB conj
+116 o o 117 DET det
+117 fato fato 115 NOUN obj
+118 como como 119 ADP case
+119 crime crime 115 NOUN nmod
+120 de de 121 ADP case
+121 bagatela bagatela 119 NOUN nmod
+122 delito delito 119 NOUN appos
+123 que que 125 PRON nsubj
+124 nao nao 125 ADV advmod
+125 causa causar 122 VERB acl:relcl
+126 prejuizo prejuizo 125 NOUN obj
+127 a a 128 ADP case
+128 ninguem ninguem 125 NOUN iobj
+129 por por 134 ADP case
+130 conta conta 129 NOUN fixed
+131 de de 129 ADP case
+132 o o 129 DET det
+133 baixo baixo 134 ADJ amod
+134 valor valor 125 NOUN nmod
+135 de de 137 ADP case
+136 os o 137 DET det
+137 produtos produto 134 NOUN nmod
+138 furtados furtado 137 VERB acl

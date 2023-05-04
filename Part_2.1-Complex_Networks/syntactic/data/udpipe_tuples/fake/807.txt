@@ -1,108 +1,108 @@
-1 16 2 NUM nummod
-2 anos 5 NOUN nsubj
-3 tragedia 5 NOUN nsubj
-4 documentario 3 NOUN flat
-5 aponta 0 VERB root
-6 possivel 8 ADJ amod
-7 implosao 5 ADJ obj
-8 torres 5 NOUN obj
-9 gemeas 8 NOUN amod
-10 onze 11 NUM nummod
-11 setembro 8 PROPN nmod
-12 2001 11 NUM nummod
-13 data 14 NOUN nsubj
-14 marcou 11 VERB acl:relcl
-15 mundo 14 NOUN obj
-16 dois 17 NUM nummod
-17 avioes 18 NOUN nsubj
-18 chocam 5 VERB parataxis
-19 contra 20 ADP case
-20 torres 18 NOUN nmod
-21 gemeas 20 ADJ amod
-22 nova 23 ADJ amod
-23 york 18 NOUN appos
-24 causando 18 VERB acl
-25 morte 24 NOUN obj
-26 quase 27 ADV advmod
-27 3000 28 NUM nummod
-28 pessoas 24 NOUN obj
-29 epoca 30 NOUN amod
-30 lider 88 NOUN nsubj
-31 muculmano 30 ADJ amod
-32 osama 30 NOUN appos
-33 bin 32 NOUN flat
-34 laden 32 NOUN flat
-35 acusado 30 VERB acl
-36 mentor 37 NOUN amod
-37 atentado 35 NOUN obj
-38 noticias 37 NOUN appos
-39 diziam 14 VERB parataxis
-40 ataque 39 NOUN obj
-41 sido 42 AUX aux:pass
-42 perpetrado 43 VERB acl
-43 grupo 39 NOUN nsubj
-44 alqaeda 43 ADJ amod
-45 ato 43 NOUN appos
-46 guerra 43 NOUN appos
-47 contra 48 ADP case
-48 eua 46 PRON nmod
-49 informacoes 50 ADJ amod
-50 agencias 18 NOUN nsubj
-51 investigativas 50 ADJ amod
-52 orgaos 50 NOUN appos
-53 oficiais 50 ADJ amod
-54 americanos 52 ADJ amod
-55 apontaram 5 VERB parataxis
-56 19 57 NUM nummod
-57 militantes 55 NOUN obj
-58 alqaeda 57 NOUN amod
-59 participado 57 VERB acl
-60 ato 57 NOUN appos
-61 diabolico 60 ADJ amod
-62 novas 63 ADJ amod
-63 perguntas 64 NOUN nsubj
-64 surgem 55 VERB parataxis
-65 cada 66 DET det
-66 dia 64 NOUN nmod
-67 poucas 68 DET det
-68 respostas 64 NOUN nsubj
-69 existem 68 VERB acl:relcl
-70 conseguem 64 VERB ccomp
-71 convencer 70 VERB xcomp
-72 milhoes 73 NUM nummod
-73 pessoas 71 NOUN obj
-74 9/11 73 NUM appos
-75 permanece 71 VERB ccomp
-76 misterio 75 NOUN nsubj
-77 novas 78 ADJ amod
-78 teorias 64 NOUN nsubj
-79 conspiracao 78 ADJ amod
-80 oferecem 78 VERB acl:relcl
-81 versoes 80 NOUN obj
-82 alternativas 81 ADJ amod
-83 fazem 78 VERB acl:relcl
-84 refletir 83 VERB xcomp
-85 questionar 80 VERB xcomp
-86 ponto 85 NOUN obj
-87 humano 86 ADJ amod
-88 pode 83 VERB ccomp
-89 capaz 88 ADJ xcomp
-90 exterminar 89 VERB csubj
-91 propria 92 ADJ amod
-92 especie 90 NOUN obj
-93 busca 88 VERB conj
-94 poder 93 NOUN obj
-95 video 93 NOUN obj
-96 abaixo 100 ADV advmod
-97 2009 104 NUM nmod
-98 somente 99 ADV advmod
-99 agora 100 ADV advmod
-100 comecou 5 VERB parataxis
-101 espalhar 100 VERB xcomp
-102 redes 101 NOUN obj
-103 sociais 102 ADJ amod
-104 atingindo 101 VERB acl
-105 12 106 NUM nummod
-106 milhoes 107 NUM nummod
-107 views 104 NOUN obj
-108 leia 102 NOUN amod
+1 16 16 2 NUM nummod
+2 anos ano 5 NOUN nsubj
+3 tragedia tragedia 5 NOUN nsubj
+4 documentario documentario 3 NOUN flat
+5 aponta apontar 0 VERB root
+6 possivel possivel 8 ADJ amod
+7 implosao implosao 5 ADJ obj
+8 torres torres 5 NOUN obj
+9 gemeas gemea 8 NOUN amod
+10 onze onze 11 NUM nummod
+11 setembro setembro 8 PROPN nmod
+12 2001 2001 11 NUM nummod
+13 data data 14 NOUN nsubj
+14 marcou marcar 11 VERB acl:relcl
+15 mundo mundo 14 NOUN obj
+16 dois dois 17 NUM nummod
+17 avioes avioe 18 NOUN nsubj
+18 chocam chocar 5 VERB parataxis
+19 contra contra 20 ADP case
+20 torres torres 18 NOUN nmod
+21 gemeas gemeo 20 ADJ amod
+22 nova novo 23 ADJ amod
+23 york york 18 NOUN appos
+24 causando causar 18 VERB acl
+25 morte morte 24 NOUN obj
+26 quase quase 27 ADV advmod
+27 3000 3000 28 NUM nummod
+28 pessoas pessoa 24 NOUN obj
+29 epoca epoca 30 NOUN amod
+30 lider lider 88 NOUN nsubj
+31 muculmano muculmano 30 ADJ amod
+32 osama osama 30 NOUN appos
+33 bin bin 32 NOUN flat
+34 laden laden 32 NOUN flat
+35 acusado acusar 30 VERB acl
+36 mentor mentor 37 NOUN amod
+37 atentado atentado 35 NOUN obj
+38 noticias noticia 37 NOUN appos
+39 diziam dizer 14 VERB parataxis
+40 ataque ataque 39 NOUN obj
+41 sido ser 42 AUX aux:pass
+42 perpetrado perpetrar 43 VERB acl
+43 grupo grupo 39 NOUN nsubj
+44 alqaeda alqaeda 43 ADJ amod
+45 ato ato 43 NOUN appos
+46 guerra guerra 43 NOUN appos
+47 contra contra 48 ADP case
+48 eua eua 46 PRON nmod
+49 informacoes informacoe 50 ADJ amod
+50 agencias agencia 18 NOUN nsubj
+51 investigativas investigativo 50 ADJ amod
+52 orgaos orgao 50 NOUN appos
+53 oficiais oficial 50 ADJ amod
+54 americanos americano 52 ADJ amod
+55 apontaram apontar 5 VERB parataxis
+56 19 19 57 NUM nummod
+57 militantes militante 55 NOUN obj
+58 alqaeda alqaeda 57 NOUN amod
+59 participado participar 57 VERB acl
+60 ato ato 57 NOUN appos
+61 diabolico diabolico 60 ADJ amod
+62 novas novo 63 ADJ amod
+63 perguntas pergunta 64 NOUN nsubj
+64 surgem surgir 55 VERB parataxis
+65 cada cada 66 DET det
+66 dia dia 64 NOUN nmod
+67 poucas poucas 68 DET det
+68 respostas resposta 64 NOUN nsubj
+69 existem existir 68 VERB acl:relcl
+70 conseguem conseguir 64 VERB ccomp
+71 convencer convencer 70 VERB xcomp
+72 milhoes milhoes 73 NUM nummod
+73 pessoas pessoa 71 NOUN obj
+74 9/11 9/11 73 NUM appos
+75 permanece permanecer 71 VERB ccomp
+76 misterio misterio 75 NOUN nsubj
+77 novas novo 78 ADJ amod
+78 teorias teoria 64 NOUN nsubj
+79 conspiracao conspiracao 78 ADJ amod
+80 oferecem oferecer 78 VERB acl:relcl
+81 versoes versoe 80 NOUN obj
+82 alternativas alternativo 81 ADJ amod
+83 fazem fazer 78 VERB acl:relcl
+84 refletir refletir 83 VERB xcomp
+85 questionar questionar 80 VERB xcomp
+86 ponto ponto 85 NOUN obj
+87 humano humano 86 ADJ amod
+88 pode pode 83 VERB ccomp
+89 capaz capaz 88 ADJ xcomp
+90 exterminar exterminar 89 VERB csubj
+91 propria proprio 92 ADJ amod
+92 especie especie 90 NOUN obj
+93 busca buscar 88 VERB conj
+94 poder poder 93 NOUN obj
+95 video video 93 NOUN obj
+96 abaixo abaixo 100 ADV advmod
+97 2009 2009 104 NUM nmod
+98 somente somente 99 ADV advmod
+99 agora agora 100 ADV advmod
+100 comecou comecar 5 VERB parataxis
+101 espalhar espalhar 100 VERB xcomp
+102 redes rede 101 NOUN obj
+103 sociais social 102 ADJ amod
+104 atingindo atingir 101 VERB acl
+105 12 12 106 NUM nummod
+106 milhoes milhoes 107 NUM nummod
+107 views views 104 NOUN obj
+108 leia leia 102 NOUN amod

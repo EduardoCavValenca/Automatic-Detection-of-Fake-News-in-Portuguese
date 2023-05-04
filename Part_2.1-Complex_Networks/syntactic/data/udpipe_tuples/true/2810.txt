@@ -1,128 +1,128 @@
-1 lava 5 VERB csubj
-2 jato 1 NOUN obj
-3 defesa 5 NOUN nsubj
-4 bendine 1 NOUN nsubj
-5 pede 0 VERB root
-6 incompetencia 5 NOUN obj
-7 moro 8 NOUN nsubj
-8 julgar 5 VERB ccomp
-9 processo 8 NOUN obj
-10 reconhecida 9 ADJ amod
-11 expresidente 9 NOUN appos
-12 petrobras 11 ADJ amod
-13 acusado 11 VERB acl
-14 receber 13 VERB xcomp
-15 r 14 NOUN obj
-16 3 17 NUM nummod
-17 milhoes 18 NUM nummod
-18 propina 14 NOUN obj
-19 odebrecht 18 NOUN appos
-20 alegacoes 18 NOUN appos
-21 finais 20 ADJ amod
-22 protocoladas 20 ADJ amod
-23 segundafeira 20 NOUN appos
-24 26 25 NUM appos
-25 defesa 32 NOUN nsubj
-26 expresidente 25 NOUN appos
-27 petrobras 25 NOUN amod
-28 banco 25 NOUN appos
-29 brasil 28 ADJ amod
-30 aldemir 32 NOUN nsubj
-31 bendine 30 NOUN flat
-32 protocolou 5 VERB parataxis
-33 noite 32 NOUN obj
-34 segundafeira 33 NOUN appos
-35 26 36 NUM nummod
-36 argumentos 32 NOUN nsubj
-37 finais 36 ADJ amod
-38 processo 40 NOUN nsubj
-39 cliente 38 NOUN flat
-40 reu 5 VERB parataxis
-41 lava 40 NOUN obj
-42 jato 41 NOUN flat
-43 alegacoes 41 NOUN appos
-44 finais 43 ADJ amod
-45 advogados 43 NOUN appos
-46 pedem 41 VERB appos
-47 primeiro 48 ADV advmod
-48 reconhecida 46 ADJ amod
-49 incompetencia 48 NOUN nsubj
-50 13 51 NUM nummod
-51 vara 49 NOUN appos
-52 federal 51 ADJ amod
-53 curitiba 51 NOUN appos
-54 atua 55 ADJ amod
-55 juiz 51 NOUN appos
-56 sergio 55 NOUN appos
-57 moro 55 NOUN flat
-58 responsavel 55 ADJ amod
-59 processos 126 NOUN nsubj
-60 operacao 126 NOUN nsubj
-61 primeira 62 ADJ amod
-62 instancia 126 NOUN nsubj
-63 defesa 64 NOUN amod
-64 acao 126 NOUN nsubj
-65 penal 64 ADJ amod
-66 deve 67 AUX aux
-67 transferida 68 VERB acl
-68 varas 126 NOUN nsubj
-69 federais 68 ADJ amod
-70 subsecao 68 NOUN appos
-71 judiciaria 70 ADJ amod
-72 paulo 68 NOUN appos
-73 local 72 ADJ amod
-74 onde 75 ADV advmod
-75 consumou 72 VERB acl:relcl
-76 tese 75 NOUN obj
-77 solicitacao 78 ADJ amod
-78 vantagem 86 NOUN obj
-79 indevida 78 ADJ amod
-80 expresidente 32 NOUN nsubj
-81 petrobras 80 NOUN amod
-82 acusado 25 VERB acl
-83 forcatarefa 32 NOUN nsubj
-84 lava 32 VERB nsubj
-85 jato 84 NOUN flat
-86 receber 84 VERB ccomp
-87 r 86 NOUN obj
-88 3 89 NUM nummod
-89 milhoes 36 NUM nummod
-90 propina 86 NOUN obj
-91 odebrecht 90 NOUN appos
-92 facilitar 86 VERB ccomp
-93 contratos 92 NOUN obj
-94 empreiteira 93 ADJ amod
-95 estatal 94 ADJ amod
-96 leia 40 NOUN nsubj
-97 integra 98 ADJ amod
-98 denuncia 101 NOUN nsubj
-99 contra 100 ADP case
-100 bendine 98 NOUN nmod
-101 responde 96 VERB acl:relcl
-102 crimes 101 NOUN obj
-103 corrupcao 102 ADJ amod
-104 ativa 102 ADJ amod
-105 passiva 106 ADJ amod
-106 lavagem 101 NOUN obj
-107 dinheiro 106 NOUN flat
-108 pertinencia 109 ADJ amod
-109 organizacao 106 NOUN appos
-110 criminosa 109 ADJ amod
-111 obstrucao 109 ADJ amod
-112 justica 113 ADJ amod
-113 depoimento 109 NOUN appos
-114 moro 113 NOUN amod
-115 negou 5 VERB conj
-116 veementemente 115 ADV advmod
-117 acusacoes 115 NOUN obj
-118 caso 120 CCONJ mark
-119 moro 120 NOUN nsubj
-120 acolha 115 VERB advcl
-121 outros 122 DET det
-122 pedidos 120 NOUN obj
-123 feitos 122 VERB acl
-124 defesa 126 NOUN nsubj
-125 advogados 124 NOUN amod
-126 pedem 115 VERB parataxis
-127 cliente 128 NOUN nsubj
-128 absolvido 126 ADJ xcomp
+1 lava lavar 5 VERB csubj
+2 jato jato 1 NOUN obj
+3 defesa defesa 5 NOUN nsubj
+4 bendine bendine 1 NOUN nsubj
+5 pede pedir 0 VERB root
+6 incompetencia incompetencia 5 NOUN obj
+7 moro moro 8 NOUN nsubj
+8 julgar julgar 5 VERB ccomp
+9 processo processo 8 NOUN obj
+10 reconhecida reconhecido 9 ADJ amod
+11 expresidente expresidente 9 NOUN appos
+12 petrobras petrobra 11 ADJ amod
+13 acusado acusar 11 VERB acl
+14 receber receber 13 VERB xcomp
+15 r r 14 NOUN obj
+16 3 3 17 NUM nummod
+17 milhoes milhoes 18 NUM nummod
+18 propina propina 14 NOUN obj
+19 odebrecht odebrecht 18 NOUN appos
+20 alegacoes alegacoe 18 NOUN appos
+21 finais final 20 ADJ amod
+22 protocoladas protocolar 20 ADJ amod
+23 segundafeira segundafeira 20 NOUN appos
+24 26 26 25 NUM appos
+25 defesa defesa 32 NOUN nsubj
+26 expresidente expresidente 25 NOUN appos
+27 petrobras petrobra 25 NOUN amod
+28 banco banco 25 NOUN appos
+29 brasil brasil 28 ADJ amod
+30 aldemir aldemir 32 NOUN nsubj
+31 bendine bendine 30 NOUN flat
+32 protocolou protocolar 5 VERB parataxis
+33 noite noite 32 NOUN obj
+34 segundafeira segundafeira 33 NOUN appos
+35 26 26 36 NUM nummod
+36 argumentos argumento 32 NOUN nsubj
+37 finais final 36 ADJ amod
+38 processo processo 40 NOUN nsubj
+39 cliente cliente 38 NOUN flat
+40 reu reu 5 VERB parataxis
+41 lava lava 40 NOUN obj
+42 jato jato 41 NOUN flat
+43 alegacoes alegacoe 41 NOUN appos
+44 finais final 43 ADJ amod
+45 advogados advogado 43 NOUN appos
+46 pedem pedir 41 VERB appos
+47 primeiro primeiro 48 ADV advmod
+48 reconhecida reconhecido 46 ADJ amod
+49 incompetencia incompetencia 48 NOUN nsubj
+50 13 13 51 NUM nummod
+51 vara vara 49 NOUN appos
+52 federal federal 51 ADJ amod
+53 curitiba curitiba 51 NOUN appos
+54 atua atua 55 ADJ amod
+55 juiz juiz 51 NOUN appos
+56 sergio sergio 55 NOUN appos
+57 moro moro 55 NOUN flat
+58 responsavel responsavel 55 ADJ amod
+59 processos processo 126 NOUN nsubj
+60 operacao operacao 126 NOUN nsubj
+61 primeira primeiro 62 ADJ amod
+62 instancia instancia 126 NOUN nsubj
+63 defesa defesa 64 NOUN amod
+64 acao acao 126 NOUN nsubj
+65 penal penal 64 ADJ amod
+66 deve dever 67 AUX aux
+67 transferida transferir 68 VERB acl
+68 varas vara 126 NOUN nsubj
+69 federais federal 68 ADJ amod
+70 subsecao subsecao 68 NOUN appos
+71 judiciaria judiciario 70 ADJ amod
+72 paulo paulo 68 NOUN appos
+73 local local 72 ADJ amod
+74 onde onde 75 ADV advmod
+75 consumou consumar 72 VERB acl:relcl
+76 tese tese 75 NOUN obj
+77 solicitacao solicitacao 78 ADJ amod
+78 vantagem vantagem 86 NOUN obj
+79 indevida indevido 78 ADJ amod
+80 expresidente expresidente 32 NOUN nsubj
+81 petrobras petrobra 80 NOUN amod
+82 acusado acusar 25 VERB acl
+83 forcatarefa forcatarefa 32 NOUN nsubj
+84 lava lava 32 VERB nsubj
+85 jato jato 84 NOUN flat
+86 receber receber 84 VERB ccomp
+87 r r 86 NOUN obj
+88 3 3 89 NUM nummod
+89 milhoes milhoes 36 NUM nummod
+90 propina propina 86 NOUN obj
+91 odebrecht odebrecht 90 NOUN appos
+92 facilitar facilitar 86 VERB ccomp
+93 contratos contrato 92 NOUN obj
+94 empreiteira empreiteiro 93 ADJ amod
+95 estatal estatal 94 ADJ amod
+96 leia ler 40 NOUN nsubj
+97 integra integro 98 ADJ amod
+98 denuncia denuncia 101 NOUN nsubj
+99 contra contra 100 ADP case
+100 bendine bendine 98 NOUN nmod
+101 responde responder 96 VERB acl:relcl
+102 crimes crime 101 NOUN obj
+103 corrupcao corrupcao 102 ADJ amod
+104 ativa ativo 102 ADJ amod
+105 passiva passivo 106 ADJ amod
+106 lavagem lavagem 101 NOUN obj
+107 dinheiro dinheiro 106 NOUN flat
+108 pertinencia pertinencia 109 ADJ amod
+109 organizacao organizacao 106 NOUN appos
+110 criminosa criminoso 109 ADJ amod
+111 obstrucao obstrucao 109 ADJ amod
+112 justica justico 113 ADJ amod
+113 depoimento depoimento 109 NOUN appos
+114 moro moro 113 NOUN amod
+115 negou negar 5 VERB conj
+116 veementemente veementemente 115 ADV advmod
+117 acusacoes acusacoe 115 NOUN obj
+118 caso caso 120 CCONJ mark
+119 moro moro 120 NOUN nsubj
+120 acolha acolhar 115 VERB advcl
+121 outros outros 122 DET det
+122 pedidos pedido 120 NOUN obj
+123 feitos fazer 122 VERB acl
+124 defesa defesa 126 NOUN nsubj
+125 advogados advogado 124 NOUN amod
+126 pedem pedir 115 VERB parataxis
+127 cliente cliente 128 NOUN nsubj
+128 absolvido absolvido 126 ADJ xcomp

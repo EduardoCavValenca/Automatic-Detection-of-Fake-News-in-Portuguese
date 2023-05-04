@@ -1,106 +1,106 @@
-1 china 4 NOUN amod
-2 20 3 NUM nummod
-3 mil 4 NUM nummod
-4 instituicoes 28 NOUN nsubj
-5 atingidas 4 ADJ amod
-6 ciberataque 4 NOUN appos
-7 segundo 8 ADJ case
-8 empresa 4 NOUN nmod
-9 pais 8 NOUN appos
-10 asiatico 9 ADJ amod
-11 afetadas 4 VERB acl
-12 universidades 28 NOUN nsubj
-13 estacoes 12 NOUN appos
-14 ferroviarias 13 ADJ amod
-15 entregas 13 NOUN amod
-16 correio 13 NOUN appos
-17 postos 16 NOUN appos
-18 gasolina 17 NOUN flat
-19 hospitais 16 NOUN appos
-20 predios 21 ADJ amod
-21 escritorios 19 NOUN appos
-22 shoppings 21 ADJ amod
-23 servicos 21 NOUN amod
-24 governamentais 21 ADJ amod
-25 midia 21 NOUN appos
-26 estatal 25 ADJ amod
-27 chinesa 25 ADJ amod
-28 disse 0 VERB root
-29 29 30 NUM nummod
-30 mil 31 NUM nummod
-31 instituicoes 28 NOUN obj
-32 toda 33 DET det
-33 china 31 NOUN appos
-34 infectadas 31 ADJ acl
-35 ciberataque 34 NOUN nsubj
-36 global 35 ADJ amod
-37 iniciado 35 VERB acl
-38 sextafeira 37 NOUN nmod
-39 12 38 NUM appos
-40 agencia 38 NOUN appos
-41 noticias 40 ADJ amod
-42 xinhua 43 NOUN nsubj
-43 informou 28 VERB parataxis
-44 sabado 45 ADJ amod
-45 noite 51 NOUN nmod
-46 29372 47 NUM nummod
-47 instituicoes 50 NOUN nsubj:pass
-48 haviam 50 AUX aux
-49 sido 50 AUX aux:pass
-50 infectadas 54 VERB acl:relcl
-51 representa 28 VERB parataxis
-52 centenas 53 NUM nummod
-53 milhares 54 NUM nummod
-54 dispositivos 51 NOUN nsubj
-55 dados 54 VERB acl
-56 centro 55 NOUN appos
-57 inteligencia 56 ADJ amod
-58 ameacas 56 ADJ amod
-59 qihoo 56 NOUN appos
-60 360 61 NUM nummod
-61 empresa 56 NOUN appos
-62 chinesa 61 ADJ amod
-63 servicos 61 NOUN appos
-64 seguranca 61 NOUN appos
-65 internet 64 ADJ amod
-66 universidades 28 NOUN nsubj
-67 instituicoes 66 NOUN appos
-68 educacionais 67 ADJ amod
-69 atingidas 67 ADJ amod
-70 totalizando 67 VERB acl
-71 4341 74 NUM nummod
-72 cerca 30 ADV advmod
-73 15 74 NUM nummod
-74 enderecos 70 NOUN obj
-75 protocolo 74 NOUN appos
-76 internet 75 PROPN appos
-77 atacados 75 ADJ amod
-78 afetadas 79 ADJ amod
-79 estacoes 92 NOUN nsubj
-80 ferroviarias 79 ADJ amod
-81 entregas 79 NOUN amod
-82 correio 79 NOUN appos
-83 postos 82 NOUN appos
-84 gasolina 83 NOUN flat
-85 hospitais 82 NOUN appos
-86 predios 87 ADJ amod
-87 escritorios 82 NOUN appos
-88 shoppings 87 ADJ amod
-89 servicos 87 NOUN amod
-90 governamentais 87 ADJ amod
-91 xinhua 92 ADJ nsubj
-92 diz 28 VERB parataxis
-93 sistema 92 NOUN obj
-94 usado 93 VERB acl
-95 postos 94 NOUN obj
-96 gasolina 95 ADJ amod
-97 petrochina 102 NOUN nsubj
-98 atacado 97 VERB acl
-99 significa 92 VERB parataxis
-100 clientes 102 NOUN nsubj
-101 podiam 102 AUX aux
-102 usar 99 VERB ccomp
-103 cartoes 102 NOUN obj
-104 pagar 102 VERB ccomp
-105 maioria 104 NOUN obj
-106 postos 105 NOUN flat
+1 china china 4 NOUN amod
+2 20 20 3 NUM nummod
+3 mil mil 4 NUM nummod
+4 instituicoes instituicoe 28 NOUN nsubj
+5 atingidas atingido 4 ADJ amod
+6 ciberataque ciberataque 4 NOUN appos
+7 segundo segundo 8 ADJ case
+8 empresa empresa 4 NOUN nmod
+9 pais pais 8 NOUN appos
+10 asiatico asiatico 9 ADJ amod
+11 afetadas afetar 4 VERB acl
+12 universidades universidade 28 NOUN nsubj
+13 estacoes estacoe 12 NOUN appos
+14 ferroviarias ferroviario 13 ADJ amod
+15 entregas entrega 13 NOUN amod
+16 correio correio 13 NOUN appos
+17 postos posto 16 NOUN appos
+18 gasolina gasolina 17 NOUN flat
+19 hospitais hospital 16 NOUN appos
+20 predios predio 21 ADJ amod
+21 escritorios escritorio 19 NOUN appos
+22 shoppings shopping 21 ADJ amod
+23 servicos servico 21 NOUN amod
+24 governamentais governamental 21 ADJ amod
+25 midia midia 21 NOUN appos
+26 estatal estatal 25 ADJ amod
+27 chinesa chinês 25 ADJ amod
+28 disse dizer 0 VERB root
+29 29 29 30 NUM nummod
+30 mil mil 31 NUM nummod
+31 instituicoes instituicoe 28 NOUN obj
+32 toda toda 33 DET det
+33 china china 31 NOUN appos
+34 infectadas infectar 31 ADJ acl
+35 ciberataque ciberataque 34 NOUN nsubj
+36 global global 35 ADJ amod
+37 iniciado iniciar 35 VERB acl
+38 sextafeira sextafeira 37 NOUN nmod
+39 12 12 38 NUM appos
+40 agencia agencia 38 NOUN appos
+41 noticias noticia 40 ADJ amod
+42 xinhua xinhua 43 NOUN nsubj
+43 informou informar 28 VERB parataxis
+44 sabado sabado 45 ADJ amod
+45 noite noite 51 NOUN nmod
+46 29372 29372 47 NUM nummod
+47 instituicoes instituicoe 50 NOUN nsubj:pass
+48 haviam haver 50 AUX aux
+49 sido ser 50 AUX aux:pass
+50 infectadas infectar 54 VERB acl:relcl
+51 representa representar 28 VERB parataxis
+52 centenas centenas 53 NUM nummod
+53 milhares milhares 54 NUM nummod
+54 dispositivos dispositivo 51 NOUN nsubj
+55 dados dar 54 VERB acl
+56 centro centro 55 NOUN appos
+57 inteligencia inteligencia 56 ADJ amod
+58 ameacas ameaco 56 ADJ amod
+59 qihoo qihoo 56 NOUN appos
+60 360 360 61 NUM nummod
+61 empresa empresa 56 NOUN appos
+62 chinesa chinês 61 ADJ amod
+63 servicos servico 61 NOUN appos
+64 seguranca seguranca 61 NOUN appos
+65 internet internet 64 ADJ amod
+66 universidades universidade 28 NOUN nsubj
+67 instituicoes instituicoe 66 NOUN appos
+68 educacionais educacional 67 ADJ amod
+69 atingidas atingido 67 ADJ amod
+70 totalizando totalizar 67 VERB acl
+71 4341 4341 74 NUM nummod
+72 cerca cerca 30 ADV advmod
+73 15 15 74 NUM nummod
+74 enderecos endereco 70 NOUN obj
+75 protocolo protocolo 74 NOUN appos
+76 internet internet 75 PROPN appos
+77 atacados atacados 75 ADJ amod
+78 afetadas afetado 79 ADJ amod
+79 estacoes estacoe 92 NOUN nsubj
+80 ferroviarias ferroviario 79 ADJ amod
+81 entregas entrega 79 NOUN amod
+82 correio correio 79 NOUN appos
+83 postos posto 82 NOUN appos
+84 gasolina gasolina 83 NOUN flat
+85 hospitais hospital 82 NOUN appos
+86 predios predio 87 ADJ amod
+87 escritorios escritorio 82 NOUN appos
+88 shoppings shopping 87 ADJ amod
+89 servicos servico 87 NOUN amod
+90 governamentais governamental 87 ADJ amod
+91 xinhua xinhua 92 ADJ nsubj
+92 diz dizer 28 VERB parataxis
+93 sistema sistema 92 NOUN obj
+94 usado usar 93 VERB acl
+95 postos posto 94 NOUN obj
+96 gasolina gasolina 95 ADJ amod
+97 petrochina petrochina 102 NOUN nsubj
+98 atacado atacar 97 VERB acl
+99 significa significar 92 VERB parataxis
+100 clientes cliente 102 NOUN nsubj
+101 podiam poder 102 AUX aux
+102 usar usar 99 VERB ccomp
+103 cartoes cartoe 102 NOUN obj
+104 pagar pagar 102 VERB ccomp
+105 maioria maioria 104 NOUN obj
+106 postos posto 105 NOUN flat

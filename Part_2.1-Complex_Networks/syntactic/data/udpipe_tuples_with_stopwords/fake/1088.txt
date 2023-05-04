@@ -1,126 +1,126 @@
-1 aviao 7 NOUN nsubj
-2 com 4 ADP case
-3 500 4 NUM nummod
-4 kg 1 NOUN nmod
-5 de 6 ADP case
-6 cocaina 4 NOUN nmod
-7 decolou 0 VERB root
-8 de 9 ADP case
-9 fazenda 7 NOUN nmod
-10 arrendada 9 VERB acl
-11 por 12 ADP case
-12 ministro 10 NOUN nmod
-13 diz 7 VERB parataxis
-14 revista 7 NOUN parataxis
-15 em 18 ADP case
-16 o 18 DET det
-17 ultimo 18 ADJ amod
-18 domingo 7 PROPN nmod
-19 25 18 NUM nmod
-20 a 21 DET det
-21 forca 24 NOUN nsubj
-22 aerea 21 ADJ amod
-23 brasileira 21 ADJ amod
-24 interceptou 7 VERB conj
-25 um 26 DET det
-26 bimotor 24 NOUN obj
-27 que 28 PRON nsubj
-28 carregava 26 VERB acl:relcl
-29 pouco 30 ADV advmod
-30 mais 32 ADV advmod
-31 de 30 ADP case
-32 500 33 NUM nummod
-33 quilos 28 NOUN obj
-34 de 35 ADP case
-35 cocaina 33 NOUN nmod
-36 a 37 DET det
-37 fab 24 NOUN nsubj
-38 informou 7 VERB parataxis
-39 que 45 CCONJ mark
-40 o 41 DET det
-41 aviao 45 NOUN nsubj
-42 de 43 ADP case
-43 matricula 41 NOUN nmod
-44 ptiij 43 ADJ appos
-45 decolou 38 VERB ccomp
-46 de 48 ADP case
-47 a 48 DET det
-48 fazenda 45 NOUN nmod
-49 itamarati 48 NOUN appos
-50 norte 48 ADJ amod
-51 municipio 48 NOUN appos
-52 de 53 ADP case
-53 campo 51 NOUN nmod
-54 novo 53 ADJ amod
-55 de 57 ADP case
-56 o 57 DET det
-57 parecis 53 NOUN nmod
-58 mt 57 NOUN flat
-59 segundo 60 ADP case
-60 denuncia 45 NOUN nmod
-61 feita 60 VERB acl
-62 em 64 ADP case
-63 a 64 DET det
-64 revista 61 NOUN nmod
-65 carta 64 NOUN appos
-66 capital 65 ADJ amod
-67 a 68 DET det
-68 fazenda 72 NOUN nsubj:pass
-69 itamarati 68 NOUN appos
-70 norte 69 ADJ amod
-71 e 72 AUX aux:pass
-72 arrendada 60 VERB conj
-73 por 75 ADP case
-74 o 75 DET det
-75 grupo 72 NOUN nmod
-76 amaggi 75 NOUN appos
-77 de 78 ADP case
-78 propriedade 75 NOUN nmod
-79 de 82 ADP case
-80 o 82 DET det
-81 atual 82 ADJ amod
-82 ministro 78 NOUN nmod
-83 de 85 ADP case
-84 a 85 DET det
-85 agricultura 82 NOUN nmod
-86 blairo 82 NOUN appos
-87 maggi 86 NOUN flat
-88 pp 86 NOUN flat
-89 e 91 CCONJ cc
-90 seus 91 DET det:poss
-91 familiares 82 NOUN conj
-92 a 93 DET det
-93 aeronave 72 NOUN nsubj:pass
-94 por 98 ADP case
-95 o 98 DET det
-96 que 94 PRON fixed
-97 se 98 PRON expl:pv
-98 sabe 72 VERB advcl
-99 ate 101 ADP case
-100 o 101 DET det
-101 momento 98 NOUN nmod
-102 nao 103 ADV advmod
-103 tem 98 VERB advcl
-104 nenhuma 105 DET det
-105 ligacao 103 NOUN obj
-106 com 108 ADP case
-107 os 108 DET det
-108 donos 105 NOUN nmod
-109 de 111 ADP case
-110 a 111 DET det
-111 area 108 NOUN nmod
-112 ou 115 CCONJ cc
-113 com 115 ADP case
-114 os 115 DET det
-115 arrendatarios 111 NOUN conj
-116 o 117 DET det
-117 grupo 121 NOUN nsubj
-118 amaggi 117 PROPN appos
-119 ainda 121 ADV advmod
-120 nao 121 ADV advmod
-121 divulgou 103 VERB conj
-122 nenhuma 123 DET det
-123 nota 121 NOUN obj
-124 oficial 123 ADJ amod
-125 fonte 121 NOUN nmod
-126 link 125 NOUN flat
+1 aviao aviao 7 NOUN nsubj
+2 com com 4 ADP case
+3 500 500 4 NUM nummod
+4 kg kg 1 NOUN nmod
+5 de de 6 ADP case
+6 cocaina cocaina 4 NOUN nmod
+7 decolou decolar 0 VERB root
+8 de de 9 ADP case
+9 fazenda fazenda 7 NOUN nmod
+10 arrendada arrendar 9 VERB acl
+11 por por 12 ADP case
+12 ministro ministro 10 NOUN nmod
+13 diz dizer 7 VERB parataxis
+14 revista revista 7 NOUN parataxis
+15 em em 18 ADP case
+16 o o 18 DET det
+17 ultimo ultimo 18 ADJ amod
+18 domingo domingo 7 PROPN nmod
+19 25 25 18 NUM nmod
+20 a o 21 DET det
+21 forca forca 24 NOUN nsubj
+22 aerea aereo 21 ADJ amod
+23 brasileira brasileiro 21 ADJ amod
+24 interceptou interceptar 7 VERB conj
+25 um um 26 DET det
+26 bimotor bimotor 24 NOUN obj
+27 que que 28 PRON nsubj
+28 carregava carregar 26 VERB acl:relcl
+29 pouco pouco 30 ADV advmod
+30 mais mais 32 ADV advmod
+31 de de 30 ADP case
+32 500 500 33 NUM nummod
+33 quilos quilo 28 NOUN obj
+34 de de 35 ADP case
+35 cocaina cocaina 33 NOUN nmod
+36 a o 37 DET det
+37 fab fab 24 NOUN nsubj
+38 informou informar 7 VERB parataxis
+39 que que 45 CCONJ mark
+40 o o 41 DET det
+41 aviao aviao 45 NOUN nsubj
+42 de de 43 ADP case
+43 matricula matricula 41 NOUN nmod
+44 ptiij ptiij 43 ADJ appos
+45 decolou decolar 38 VERB ccomp
+46 de de 48 ADP case
+47 a o 48 DET det
+48 fazenda fazenda 45 NOUN nmod
+49 itamarati itamarati 48 NOUN appos
+50 norte norte 48 ADJ amod
+51 municipio municipio 48 NOUN appos
+52 de de 53 ADP case
+53 campo campo 51 NOUN nmod
+54 novo novo 53 ADJ amod
+55 de de 57 ADP case
+56 o o 57 DET det
+57 parecis parecis 53 NOUN nmod
+58 mt mt 57 NOUN flat
+59 segundo segundo 60 ADP case
+60 denuncia denuncia 45 NOUN nmod
+61 feita feita 60 VERB acl
+62 em em 64 ADP case
+63 a o 64 DET det
+64 revista revista 61 NOUN nmod
+65 carta carta 64 NOUN appos
+66 capital capital 65 ADJ amod
+67 a o 68 DET det
+68 fazenda fazenda 72 NOUN nsubj:pass
+69 itamarati itamarati 68 NOUN appos
+70 norte norte 69 ADJ amod
+71 e e 72 AUX aux:pass
+72 arrendada arrendar 60 VERB conj
+73 por por 75 ADP case
+74 o o 75 DET det
+75 grupo grupo 72 NOUN nmod
+76 amaggi amaggi 75 NOUN appos
+77 de de 78 ADP case
+78 propriedade propriedade 75 NOUN nmod
+79 de de 82 ADP case
+80 o o 82 DET det
+81 atual atual 82 ADJ amod
+82 ministro ministro 78 NOUN nmod
+83 de de 85 ADP case
+84 a o 85 DET det
+85 agricultura agricultura 82 NOUN nmod
+86 blairo blairo 82 NOUN appos
+87 maggi maggi 86 NOUN flat
+88 pp pp 86 NOUN flat
+89 e e 91 CCONJ cc
+90 seus seus 91 DET det:poss
+91 familiares familiar 82 NOUN conj
+92 a o 93 DET det
+93 aeronave aeronave 72 NOUN nsubj:pass
+94 por por 98 ADP case
+95 o o 98 DET det
+96 que que 94 PRON fixed
+97 se se 98 PRON expl:pv
+98 sabe saber 72 VERB advcl
+99 ate ate 101 ADP case
+100 o o 101 DET det
+101 momento momento 98 NOUN nmod
+102 nao nao 103 ADV advmod
+103 tem ter 98 VERB advcl
+104 nenhuma nenhuma 105 DET det
+105 ligacao ligacao 103 NOUN obj
+106 com com 108 ADP case
+107 os o 108 DET det
+108 donos dono 105 NOUN nmod
+109 de de 111 ADP case
+110 a o 111 DET det
+111 area area 108 NOUN nmod
+112 ou ou 115 CCONJ cc
+113 com com 115 ADP case
+114 os o 115 DET det
+115 arrendatarios arrendatario 111 NOUN conj
+116 o o 117 DET det
+117 grupo grupo 121 NOUN nsubj
+118 amaggi amaggi 117 PROPN appos
+119 ainda ainda 121 ADV advmod
+120 nao nao 121 ADV advmod
+121 divulgou divulgar 103 VERB conj
+122 nenhuma nenhuma 123 DET det
+123 nota nota 121 NOUN obj
+124 oficial oficial 123 ADJ amod
+125 fonte fonte 121 NOUN nmod
+126 link link 125 NOUN flat

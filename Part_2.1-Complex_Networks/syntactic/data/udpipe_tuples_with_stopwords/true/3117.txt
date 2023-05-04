@@ -1,188 +1,188 @@
-1 roberto 15 NOUN nsubj
-2 teixeira 1 NOUN flat
-3 e 4 CCONJ cc
-4 ouvido 1 VERB conj
-5 por 6 ADP case
-6 moro 4 NOUN nmod
-7 em 8 ADP case
-8 acao 4 NOUN nmod
-9 que 10 PRON nsubj
-10 envolve 8 VERB acl:relcl
-11 lula 10 NOUN obj
-12 nesta 13 ADP case
-13 tercafeira 10 NOUN nmod
-14 audiencia 15 NOUN nsubj
-15 foi 0 VERB root
-16 por 17 ADP case
-17 videoconferencia 15 NOUN nmod
-18 com 20 ADP case
-19 sao 20 NOUN nmod
-20 paulo 17 NOUN nmod
-21 nesta 22 ADP case
-22 tercafeira 15 NOUN nmod
-23 19 22 NUM appos
-24 o 25 DET det
-25 advogado 15 NOUN nsubj
-26 roberto 25 ADJ appos
-27 teixeira 26 PROPN flat
-28 que 30 PRON nsubj
-29 e 30 CCONJ cc
-30 reu 25 NOUN acl:relcl
-31 em 33 ADP case
-32 um 33 DET det
-33 processo 30 NOUN nmod
-34 de 36 ADP case
-35 a 36 DET det
-36 operacao 33 NOUN nmod
-37 lava 36 NOUN appos
-38 jato 36 NOUN flat
-39 que 40 PRON nsubj
-40 envolve 36 VERB acl:relcl
-41 o 42 DET det
-42 expresidente 40 NOUN obj
-43 luiz 42 NOUN appos
-44 inacio 43 NOUN flat
-45 lula 43 NOUN flat
-46 de 48 ADP case
-47 a 48 DET det
-48 silva 43 NOUN nmod
-49 foi 50 AUX aux:pass
-50 ouvido 15 VERB parataxis
-51 por 53 ADP case
-52 o 53 DET det
-53 juiz 50 NOUN nmod
-54 sergio 53 NOUN appos
-55 moro 53 NOUN flat
-56 em 58 ADP case
-57 a 58 DET det
-58 manha 50 NOUN nmod
-59 desta 60 ADP case
-60 tercafeira 58 NOUN nmod
-61 19 60 NUM appos
-62 a 63 DET det
-63 audiencia 50 NOUN nsubj:pass
-64 realizada 63 VERB acl
-65 por 66 ADP case
-66 videoconferencia 64 NOUN nmod
-67 com 68 ADP case
-68 sao 151 NOUN nmod
-69 paulo 68 NOUN flat
-70 durou 15 VERB parataxis
-71 aproximadamente 72 ADV advmod
-72 uma 73 NUM nummod
-73 hora 70 NOUN nmod
-74 e 75 CCONJ cc
-75 meia 73 NOUN conj
-76 a 77 DET det
-77 acao 166 NOUN nsubj
-78 penal 77 ADJ amod
-79 acusa 15 VERB conj
-80 teixeira 79 PROPN obj
-81 de 83 ADP mark
-82 ter 83 AUX aux
-83 ajudado 79 VERB nmod
-84 a 85 ADP mark
-85 intermediar 83 VERB nmod
-86 um 87 DET det
-87 pagamento 85 NOUN obj
-88 de 89 ADP case
-89 propina 87 NOUN nmod
-90 de 92 ADP case
-91 a 92 DET det
-92 odebrecht 89 NOUN nmod
-93 a 95 ADP case
-94 o 95 DET det
-95 expresidente 166 NOUN iobj
-96 lula 95 ADJ amod
-97 inicialmente 100 ADV advmod
-98 teixeira 176 PROPN nsubj
-99 seria 100 AUX aux:pass
-100 ouvido 79 VERB ccomp
-101 em 104 ADP case
-102 o 104 DET det
-103 mesmo 104 ADJ amod
-104 dia 100 NOUN nmod
-105 em 106 ADP case
-106 que 108 PRON nmod
-107 lula 108 NOUN nsubj
-108 prestou 104 VERB acl:relcl
-109 depoimento 108 NOUN obj
-110 a 111 ADP case
-111 sergio 108 NOUN iobj
-112 moro 111 NOUN flat
-113 em 116 ADP case
-114 o 116 DET det
-115 mesmo 116 ADJ amod
-116 processo 108 NOUN nmod
-117 em 119 ADP case
-118 o 119 DET det
-119 entanto 123 ADV nmod
-120 o 121 DET det
-121 advogado 123 NOUN nsubj:pass
-122 foi 123 AUX aux:pass
-123 internado 50 VERB conj
-124 em 126 ADP case
-125 o 126 DET det
-126 dia 123 NOUN nmod
-127 5 126 NUM nmod
-128 de 129 ADP case
-129 setembro 127 PROPN nmod
-130 vitima 123 NOUN appos
-131 de 132 ADP case
-132 insuficiencia 130 NOUN nmod
-133 cardiaca 132 ADJ amod
-134 a 135 DET det
-135 defesa 137 NOUN nsubj
-136 dele 135 X det:poss
-137 protocolou 15 VERB parataxis
-138 um 139 DET det
-139 pedido 137 NOUN obj
-140 a 142 ADP case
-141 o 142 DET det
-142 juiz 137 NOUN iobj
-143 para 145 ADP mark
-144 que 148 CCONJ fixed
-145 remarcasse 50 VERB advcl
-146 a 147 DET det
-147 oitiva 145 NOUN obj
-148 depois 151 ADV case
-149 de 148 ADP case
-150 o 148 DET det
-151 depoimento 156 NOUN nmod
-152 de 153 ADP case
-153 teixeira 151 NOUN nmod
-154 o 155 DET det
-155 processo 156 NOUN nsubj
-156 chegara 50 VERB advcl
-157 a 158 ADP case
-158 fase 156 NOUN nmod
-159 final 158 ADJ amod
-160 o 161 DET det
-161 mpf 156 NOUN nsubj
-162 e 166 CCONJ cc
-163 as 164 DET det
-164 defesas 166 NOUN nsubj
-165 poderao 166 AUX aux
-166 pedir 156 VERB conj
-167 as 169 DET det
-168 ultimas 169 ADJ amod
-169 diligencias 166 NOUN obj
-170 caso 173 CCONJ mark
-171 isso 173 PRON nsubj
-172 nao 173 ADV advmod
-173 ocorra 166 VERB advcl
-174 o 175 DET det
-175 juiz 173 NOUN nsubj
-176 determinara 166 VERB advcl
-177 os 178 DET det
-178 prazos 176 NOUN obj
-179 para 183 ADP mark
-180 que 179 CCONJ fixed
-181 as 182 DET det
-182 partes 183 PROPN nsubj
-183 apresentem 176 VERB advcl
-184 as 185 DET det
-185 alegacoes 183 NOUN obj
-186 finais 185 ADJ amod
-187 em 188 ADP case
-188 seguida 183 NOUN nmod
+1 roberto roberto 15 NOUN nsubj
+2 teixeira teixeiro 1 NOUN flat
+3 e e 4 CCONJ cc
+4 ouvido ouvir 1 VERB conj
+5 por por 6 ADP case
+6 moro moro 4 NOUN nmod
+7 em em 8 ADP case
+8 acao acao 4 NOUN nmod
+9 que que 10 PRON nsubj
+10 envolve envolver 8 VERB acl:relcl
+11 lula lula 10 NOUN obj
+12 nesta nesta 13 ADP case
+13 tercafeira tercafeira 10 NOUN nmod
+14 audiencia audiencia 15 NOUN nsubj
+15 foi foi 0 VERB root
+16 por por 17 ADP case
+17 videoconferencia videoconferencia 15 NOUN nmod
+18 com com 20 ADP case
+19 sao sao 20 NOUN nmod
+20 paulo paulo 17 NOUN nmod
+21 nesta nesta 22 ADP case
+22 tercafeira tercafeira 15 NOUN nmod
+23 19 19 22 NUM appos
+24 o o 25 DET det
+25 advogado advogado 15 NOUN nsubj
+26 roberto roberto 25 ADJ appos
+27 teixeira teixeira 26 PROPN flat
+28 que que 30 PRON nsubj
+29 e e 30 CCONJ cc
+30 reu reu 25 NOUN acl:relcl
+31 em em 33 ADP case
+32 um um 33 DET det
+33 processo processo 30 NOUN nmod
+34 de de 36 ADP case
+35 a o 36 DET det
+36 operacao operacao 33 NOUN nmod
+37 lava lava 36 NOUN appos
+38 jato jato 36 NOUN flat
+39 que que 40 PRON nsubj
+40 envolve envolver 36 VERB acl:relcl
+41 o o 42 DET det
+42 expresidente expresidente 40 NOUN obj
+43 luiz luiz 42 NOUN appos
+44 inacio inacio 43 NOUN flat
+45 lula lula 43 NOUN flat
+46 de de 48 ADP case
+47 a o 48 DET det
+48 silva silva 43 NOUN nmod
+49 foi foi 50 AUX aux:pass
+50 ouvido ouvir 15 VERB parataxis
+51 por por 53 ADP case
+52 o o 53 DET det
+53 juiz juiz 50 NOUN nmod
+54 sergio sergio 53 NOUN appos
+55 moro moro 53 NOUN flat
+56 em em 58 ADP case
+57 a o 58 DET det
+58 manha manha 50 NOUN nmod
+59 desta desta 60 ADP case
+60 tercafeira tercafeira 58 NOUN nmod
+61 19 19 60 NUM appos
+62 a o 63 DET det
+63 audiencia audiencia 50 NOUN nsubj:pass
+64 realizada realizar 63 VERB acl
+65 por por 66 ADP case
+66 videoconferencia videoconferencia 64 NOUN nmod
+67 com com 68 ADP case
+68 sao sao 151 NOUN nmod
+69 paulo paulo 68 NOUN flat
+70 durou durar 15 VERB parataxis
+71 aproximadamente aproximadamente 72 ADV advmod
+72 uma uma 73 NUM nummod
+73 hora hora 70 NOUN nmod
+74 e e 75 CCONJ cc
+75 meia meia 73 NOUN conj
+76 a o 77 DET det
+77 acao acao 166 NOUN nsubj
+78 penal penal 77 ADJ amod
+79 acusa acusar 15 VERB conj
+80 teixeira teixeira 79 PROPN obj
+81 de de 83 ADP mark
+82 ter ter 83 AUX aux
+83 ajudado ajudar 79 VERB nmod
+84 a a 85 ADP mark
+85 intermediar intermediar 83 VERB nmod
+86 um um 87 DET det
+87 pagamento pagamento 85 NOUN obj
+88 de de 89 ADP case
+89 propina propina 87 NOUN nmod
+90 de de 92 ADP case
+91 a o 92 DET det
+92 odebrecht odebrecht 89 NOUN nmod
+93 a a 95 ADP case
+94 o o 95 DET det
+95 expresidente expresidente 166 NOUN iobj
+96 lula lula 95 ADJ amod
+97 inicialmente inicialmente 100 ADV advmod
+98 teixeira teixeira 176 PROPN nsubj
+99 seria seria 100 AUX aux:pass
+100 ouvido ouvir 79 VERB ccomp
+101 em em 104 ADP case
+102 o o 104 DET det
+103 mesmo mesmo 104 ADJ amod
+104 dia dia 100 NOUN nmod
+105 em em 106 ADP case
+106 que que 108 PRON nmod
+107 lula lula 108 NOUN nsubj
+108 prestou prestar 104 VERB acl:relcl
+109 depoimento depoimento 108 NOUN obj
+110 a a 111 ADP case
+111 sergio sergio 108 NOUN iobj
+112 moro moro 111 NOUN flat
+113 em em 116 ADP case
+114 o o 116 DET det
+115 mesmo mesmo 116 ADJ amod
+116 processo processo 108 NOUN nmod
+117 em em 119 ADP case
+118 o o 119 DET det
+119 entanto entanto 123 ADV nmod
+120 o o 121 DET det
+121 advogado advogado 123 NOUN nsubj:pass
+122 foi foi 123 AUX aux:pass
+123 internado internar 50 VERB conj
+124 em em 126 ADP case
+125 o o 126 DET det
+126 dia dia 123 NOUN nmod
+127 5 5 126 NUM nmod
+128 de de 129 ADP case
+129 setembro setembro 127 PROPN nmod
+130 vitima vitima 123 NOUN appos
+131 de de 132 ADP case
+132 insuficiencia insuficiencia 130 NOUN nmod
+133 cardiaca cardiaco 132 ADJ amod
+134 a o 135 DET det
+135 defesa defesa 137 NOUN nsubj
+136 dele dele 135 X det:poss
+137 protocolou protocolar 15 VERB parataxis
+138 um um 139 DET det
+139 pedido pedido 137 NOUN obj
+140 a a 142 ADP case
+141 o o 142 DET det
+142 juiz juiz 137 NOUN iobj
+143 para para 145 ADP mark
+144 que que 148 CCONJ fixed
+145 remarcasse remarcar 50 VERB advcl
+146 a o 147 DET det
+147 oitiva oitiva 145 NOUN obj
+148 depois depois 151 ADV case
+149 de de 148 ADP case
+150 o o 148 DET det
+151 depoimento depoimento 156 NOUN nmod
+152 de de 153 ADP case
+153 teixeira teixeira 151 NOUN nmod
+154 o o 155 DET det
+155 processo processo 156 NOUN nsubj
+156 chegara chegar 50 VERB advcl
+157 a a 158 ADP case
+158 fase fase 156 NOUN nmod
+159 final final 158 ADJ amod
+160 o o 161 DET det
+161 mpf mpf 156 NOUN nsubj
+162 e e 166 CCONJ cc
+163 as o 164 DET det
+164 defesas defesas 166 NOUN nsubj
+165 poderao poder 166 AUX aux
+166 pedir pedir 156 VERB conj
+167 as o 169 DET det
+168 ultimas ultimo 169 ADJ amod
+169 diligencias diligencia 166 NOUN obj
+170 caso caso 173 CCONJ mark
+171 isso isso 173 PRON nsubj
+172 nao nao 173 ADV advmod
+173 ocorra ocorrer 166 VERB advcl
+174 o o 175 DET det
+175 juiz juiz 173 NOUN nsubj
+176 determinara determinar 166 VERB advcl
+177 os o 178 DET det
+178 prazos prazo 176 NOUN obj
+179 para para 183 ADP mark
+180 que que 179 CCONJ fixed
+181 as o 182 DET det
+182 partes partes 183 PROPN nsubj
+183 apresentem apresentar 176 VERB advcl
+184 as o 185 DET det
+185 alegacoes alegacoe 183 NOUN obj
+186 finais final 185 ADJ amod
+187 em em 188 ADP case
+188 seguida seguida 183 NOUN nmod

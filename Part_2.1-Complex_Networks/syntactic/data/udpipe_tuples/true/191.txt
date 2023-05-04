@@ -1,112 +1,112 @@
-1 brasil 2 NOUN nsubj
-2 bloqueia 0 VERB root
-3 91 4 NUM nummod
-4 milhoes 5 NUM nummod
-5 numeros 2 NOUN obj
-6 celulares 5 ADJ amod
-7 quantidade 5 NOUN appos
-8 refere 5 VERB acl
-9 periodo 8 NOUN nmod
-10 marco 9 NOUN appos
-11 2016 10 NUM appos
-12 novembro 9 PROPN appos
-13 deste 14 ADP case
-14 ano 12 NOUN nmod
-15 maioria 16 ADJ amod
-16 bloqueios 46 NOUN appos
-17 feita 16 VERB acl
-18 policia 17 NOUN nmod
-19 distrito 18 NOUN appos
-20 federal 18 ADJ amod
-21 numero 22 NOUN amod
-22 celulares 18 NOUN appos
-23 bloqueados 22 VERB acl
-24 brasil 22 NOUN appos
-25 marco 22 NOUN appos
-26 2016 25 NUM nmod
-27 novembro 30 PROPN nsubj
-28 deste 29 ADP case
-29 ano 27 NOUN nmod
-30 somou 2 VERB parataxis
-31 91 32 NUM nummod
-32 milhoes 30 NUM obj
-33 informou 2 VERB parataxis
-34 agencia 33 NOUN obj
-35 nacional 34 ADJ amod
-36 telecomunicacoes 34 ADJ amod
-37 anatel 34 NOUN appos
-38 nesta 39 ADP case
-39 sextafeira 2 NOUN nmod
-40 8 39 NUM appos
-41 apenas 42 ADV advmod
-42 2017 39 NUM nmod
-43 novembro 42 PROPN appos
-44 158 45 NUM nummod
-45 milhao 46 NUM nummod
-46 aparelhos 101 NOUN nsubj
-47 perdidos 46 ADJ amod
-48 furtados 46 ADJ amod
-49 roubados 46 ADJ amod
-50 bloqueados 46 ADJ amod
-51 alta 16 ADJ amod
-52 21 53 NUM nummod
-53 cento 16 NUM nummod
-54 relacao 2 NOUN parataxis
-55 periodo 56 ADJ amod
-56 ano 54 NOUN nmod
-57 anterior 56 ADJ amod
-58 segundo 59 ADP case
-59 cadastro 68 NOUN nmod
-60 nacional 59 ADJ amod
-61 estacoes 59 NOUN appos
-62 moveis 61 ADJ amod
-63 impedidas 61 ADJ amod
-64 cemi 65 ADP case
-65 sistema 61 NOUN appos
-66 supervisionado 65 ADJ amod
-67 anatel 65 NOUN amod
-68 entrou 2 VERB parataxis
-69 funcionamento 68 NOUN obj
-70 marco 69 NOUN appos
-71 2016 70 NUM nummod
-72 total 73 ADJ amod
-73 aparelhos 69 NOUN appos
-74 inutilizados 73 ADJ amod
-75 momento 68 NOUN nmod
-76 2017 78 NUM nummod
-77 8975 78 NUM nummod
-78 milhoes 75 NUM appos
-79 bloqueados 73 NOUN acl
-80 pedido 81 VERB acl
-81 usuarios 79 NOUN nmod
-82 diretamente 83 ADV advmod
-83 operadoras 81 ADJ amod
-84 demais 85 DET det
-85 bloqueios 81 NOUN appos
-86 feitos 85 VERB acl
-87 partir 86 VERB advcl
-88 boletins 87 NOUN obj
-89 ocorrencia 85 NOUN appos
-90 junto 91 ADV advmod
-91 policias 87 NOUN obj
-92 estaduais 91 ADJ amod
-93 distrito 91 NOUN appos
-94 federal 91 ADJ amod
-95 conjunto 96 ADJ amod
-96 empresas 91 NOUN appos
-97 telefonia 96 NOUN appos
-98 final 97 ADJ amod
-99 novembro 101 PROPN nsubj
-100 anatel 99 NOUN flat
-101 aprovou 2 VERB parataxis
-102 cronograma 101 NOUN obj
-103 implementar 102 VERB acl:inf
-104 bloqueio 103 NOUN obj
-105 celulares 104 ADJ amod
-106 irregulares 104 ADJ amod
-107 certificacao 108 ADJ amod
-108 agencia 101 NOUN parataxis
-109 imei 108 ADJ appos
-110 codigo 108 NOUN appos
-111 identificacao 110 NOUN flat
-112 internacional 110 ADJ amod
+1 brasil brasil 2 NOUN nsubj
+2 bloqueia bloquer 0 VERB root
+3 91 91 4 NUM nummod
+4 milhoes milhoes 5 NUM nummod
+5 numeros numero 2 NOUN obj
+6 celulares celular 5 ADJ amod
+7 quantidade quantidade 5 NOUN appos
+8 refere referir 5 VERB acl
+9 periodo periodo 8 NOUN nmod
+10 marco marco 9 NOUN appos
+11 2016 2016 10 NUM appos
+12 novembro novembro 9 PROPN appos
+13 deste deste 14 ADP case
+14 ano ano 12 NOUN nmod
+15 maioria maioria 16 ADJ amod
+16 bloqueios bloqueio 46 NOUN appos
+17 feita feita 16 VERB acl
+18 policia policia 17 NOUN nmod
+19 distrito distrito 18 NOUN appos
+20 federal federal 18 ADJ amod
+21 numero numero 22 NOUN amod
+22 celulares celulares 18 NOUN appos
+23 bloqueados bloquear 22 VERB acl
+24 brasil brasil 22 NOUN appos
+25 marco marco 22 NOUN appos
+26 2016 2016 25 NUM nmod
+27 novembro novembro 30 PROPN nsubj
+28 deste deste 29 ADP case
+29 ano ano 27 NOUN nmod
+30 somou somar 2 VERB parataxis
+31 91 91 32 NUM nummod
+32 milhoes milhoes 30 NUM obj
+33 informou informar 2 VERB parataxis
+34 agencia agencia 33 NOUN obj
+35 nacional nacional 34 ADJ amod
+36 telecomunicacoes telecomunicacoes 34 ADJ amod
+37 anatel anatel 34 NOUN appos
+38 nesta nesta 39 ADP case
+39 sextafeira sextafeira 2 NOUN nmod
+40 8 8 39 NUM appos
+41 apenas apenas 42 ADV advmod
+42 2017 2017 39 NUM nmod
+43 novembro novembro 42 PROPN appos
+44 158 158 45 NUM nummod
+45 milhao milhao 46 NUM nummod
+46 aparelhos aparelho 101 NOUN nsubj
+47 perdidos perdido 46 ADJ amod
+48 furtados furtado 46 ADJ amod
+49 roubados roubado 46 ADJ amod
+50 bloqueados bloqueado 46 ADJ amod
+51 alta alta 16 ADJ amod
+52 21 21 53 NUM nummod
+53 cento cento 16 NUM nummod
+54 relacao relacao 2 NOUN parataxis
+55 periodo periodo 56 ADJ amod
+56 ano ano 54 NOUN nmod
+57 anterior anterior 56 ADJ amod
+58 segundo segundo 59 ADP case
+59 cadastro cadastro 68 NOUN nmod
+60 nacional nacional 59 ADJ amod
+61 estacoes estacoe 59 NOUN appos
+62 moveis movel 61 ADJ amod
+63 impedidas impedido 61 ADJ amod
+64 cemi cemi 65 ADP case
+65 sistema sistema 61 NOUN appos
+66 supervisionado supervisionado 65 ADJ amod
+67 anatel anatel 65 NOUN amod
+68 entrou entrar 2 VERB parataxis
+69 funcionamento funcionamento 68 NOUN obj
+70 marco marco 69 NOUN appos
+71 2016 2016 70 NUM nummod
+72 total total 73 ADJ amod
+73 aparelhos aparelho 69 NOUN appos
+74 inutilizados inutilizado 73 ADJ amod
+75 momento momento 68 NOUN nmod
+76 2017 2017 78 NUM nummod
+77 8975 8975 78 NUM nummod
+78 milhoes milhoes 75 NUM appos
+79 bloqueados bloquear 73 NOUN acl
+80 pedido pedir 81 VERB acl
+81 usuarios usuario 79 NOUN nmod
+82 diretamente diretamente 83 ADV advmod
+83 operadoras operador 81 ADJ amod
+84 demais demais 85 DET det
+85 bloqueios bloqueio 81 NOUN appos
+86 feitos fazer 85 VERB acl
+87 partir partir 86 VERB advcl
+88 boletins boletim 87 NOUN obj
+89 ocorrencia ocorrencia 85 NOUN appos
+90 junto junto 91 ADV advmod
+91 policias policia 87 NOUN obj
+92 estaduais estadual 91 ADJ amod
+93 distrito distrito 91 NOUN appos
+94 federal federal 91 ADJ amod
+95 conjunto conjunto 96 ADJ amod
+96 empresas empresa 91 NOUN appos
+97 telefonia telefonia 96 NOUN appos
+98 final final 97 ADJ amod
+99 novembro novembro 101 PROPN nsubj
+100 anatel anatel 99 NOUN flat
+101 aprovou aprovar 2 VERB parataxis
+102 cronograma cronograma 101 NOUN obj
+103 implementar implementar 102 VERB acl:inf
+104 bloqueio bloqueio 103 NOUN obj
+105 celulares celulares 104 ADJ amod
+106 irregulares irregular 104 ADJ amod
+107 certificacao certificacao 108 ADJ amod
+108 agencia agencia 101 NOUN parataxis
+109 imei imei 108 ADJ appos
+110 codigo codigo 108 NOUN appos
+111 identificacao identificacao 110 NOUN flat
+112 internacional internacional 110 ADJ amod

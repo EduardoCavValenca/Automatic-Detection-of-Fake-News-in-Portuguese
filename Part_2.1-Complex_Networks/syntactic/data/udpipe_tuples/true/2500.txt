@@ -1,138 +1,138 @@
-1 sergio 3 NOUN nsubj
-2 moro 3 NOUN nsubj
-3 pede 0 VERB root
-4 apoiadores 3 NOUN obj
-5 lava 4 VERB appos
-6 jato 5 NOUN obj
-7 vao 8 ADP case
-8 curitiba 5 NOUN nmod
-9 dia 3 NOUN nmod
-10 interrogatorio 9 ADJ amod
-11 lula 14 NOUN nsubj
-12 expresidente 14 NOUN nsubj
-13 vai 14 AUX aux
-14 interrogado 3 VERB conj
-15 processo 14 NOUN obj
-16 lava 15 ADJ amod
-17 jato 16 NOUN flat
-18 quartafeira 15 NOUN appos
-19 10 18 NUM appos
-20 acusado 15 VERB acl
-21 lavagem 20 NOUN obj
-22 dinheiro 21 NOUN flat
-23 corrupcao 21 NOUN amod
-24 passiva 25 ADJ amod
-25 juiz 28 NOUN nsubj
-26 sergio 25 ADJ amod
-27 moro 25 NOUN flat
-28 pediu 3 VERB parataxis
-29 pessoas 30 NOUN obj
-30 apoiam 28 VERB ccomp
-31 operacao 30 NOUN obj
-32 lava 31 NOUN appos
-33 jato 32 NOUN flat
-34 vao 35 ADP case
-35 curitiba 31 NOUN nmod
-36 dia 30 NOUN nmod
-37 interrogatorio 36 ADJ amod
-38 expresidente 31 NOUN appos
-39 luiz 38 ADJ appos
-40 inacio 39 NOUN appos
-41 lula 39 NOUN flat
-42 silva 40 NOUN flat
-43 marcado 30 VERB acl
-44 quartafeira 43 NOUN obj
-45 10 46 NUM nummod
-46 pedido 30 NOUN obj
-47 feito 46 VERB acl
-48 video 30 NOUN obj
-49 divulgado 62 VERB acl
-50 redes 49 NOUN nsubj
-51 sociais 50 ADJ amod
-52 neste 53 ADP case
-53 sabado 43 PROPN nmod
-54 6 55 NUM nsubj
-55 assista 28 VERB parataxis
-56 video 55 NOUN obj
-57 acima 58 ADV advmod
-58 ouvido 56 ADJ amod
-59 muita 60 DET det
-60 gente 30 NOUN nsubj
-61 apoia 28 VERB ccomp
-62 operacao 30 NOUN obj
-63 lava 62 NOUN appos
-64 jato 93 NOUN flat
-65 pretende 38 VERB acl:relcl
-66 vir 65 VERB xcomp
-67 curitiba 66 NOUN obj
-68 manifestar 21 VERB acl:relcl
-69 apoio 68 NOUN obj
-70 pessoas 72 NOUN nsubj
-71 curitiba 25 NOUN amod
-72 pretendem 38 VERB acl:relcl
-73 vir 72 VERB xcomp
-74 aqui 73 ADV advmod
-75 manifestar 73 VERB ccomp
-76 apoio 87 NOUN obj
-77 diria 73 VERB ccomp
-78 seguinte 79 ADJ amod
-79 apoio 77 NOUN obj
-80 sempre 81 ADV advmod
-81 importante 79 ADJ amod
-82 nessa 83 ADP case
-83 data 81 NOUN nmod
-84 necessario 83 ADJ amod
-85 tudo 86 PRON nsubj
-86 quer 56 VERB acl:relcl
-87 evitar 86 VERB xcomp
-88 nessa 89 ADP case
-89 data 87 NOUN nmod
-90 alguma 91 DET det
-91 especie 87 NOUN obj
-92 confusao 91 ADJ amod
-93 conflito 92 NOUN nsubj
-94 acima 96 ADV advmod
-95 tudo 96 PRON nsubj
-96 quero 93 VERB acl:relcl
-97 ninguem 96 PRON obj
-98 machuque 99 NOUN nsubj
-99 afirmou 77 VERB parataxis
-100 juiz 99 NOUN obj
-101 responsavel 100 ADJ amod
-102 acoes 100 NOUN appos
-103 lava 100 NOUN appos
-104 jato 103 NOUN flat
-105 primeira 106 ADJ amod
-106 instancia 99 NOUN nsubj
-107 expresidente 106 NOUN appos
-108 lula 107 ADJ amod
-109 reu 106 VERB acl:relcl
-110 processo 111 NOUN obj
-111 abrange 109 VERB parataxis
-112 tres 113 NUM nummod
-113 contratos 111 NOUN obj
-114 oas 113 CCONJ cc
-115 petrobras 113 NOUN conj
-116 acordo 113 NOUN appos
-117 acusacao 116 NOUN amod
-118 r 121 NOUN appos
-119 37 120 NUM nummod
-120 milhoes 121 NUM nummod
-121 propinas 116 NOUN appos
-122 pagos 121 VERB acl
-123 lula 122 NOUN nsubj
-124 procuradores 121 NOUN flat
-125 ministerio 124 NOUN appos
-126 publico 125 ADJ amod
-127 federal 125 ADJ amod
-128 mpf 124 NOUN appos
-129 propina 128 NOUN flat
-130 deu 125 VERB acl:relcl
-131 meio 130 NOUN obj
-132 reserva 130 NOUN obj
-133 reforma 134 NOUN appos
-134 apartamento 130 NOUN obj
-135 triplex 134 NOUN flat
-136 guaruja 134 NOUN flat
-137 custeio 134 NOUN appos
-138 armazenamento 137 NOUN flat
+1 sergio sergio 3 NOUN nsubj
+2 moro moro 3 NOUN nsubj
+3 pede pedir 0 VERB root
+4 apoiadores apoiadores 3 NOUN obj
+5 lava lava 4 VERB appos
+6 jato jato 5 NOUN obj
+7 vao vao 8 ADP case
+8 curitiba curitiba 5 NOUN nmod
+9 dia dia 3 NOUN nmod
+10 interrogatorio interrogatorio 9 ADJ amod
+11 lula lula 14 NOUN nsubj
+12 expresidente expresidente 14 NOUN nsubj
+13 vai ir 14 AUX aux
+14 interrogado interrogar 3 VERB conj
+15 processo processo 14 NOUN obj
+16 lava lava 15 ADJ amod
+17 jato jato 16 NOUN flat
+18 quartafeira quartafeira 15 NOUN appos
+19 10 10 18 NUM appos
+20 acusado acusar 15 VERB acl
+21 lavagem lavagem 20 NOUN obj
+22 dinheiro dinheiro 21 NOUN flat
+23 corrupcao corrupcao 21 NOUN amod
+24 passiva passivo 25 ADJ amod
+25 juiz juiz 28 NOUN nsubj
+26 sergio sergio 25 ADJ amod
+27 moro moro 25 NOUN flat
+28 pediu pedir 3 VERB parataxis
+29 pessoas pessoa 30 NOUN obj
+30 apoiam apoiar 28 VERB ccomp
+31 operacao operacao 30 NOUN obj
+32 lava lava 31 NOUN appos
+33 jato jato 32 NOUN flat
+34 vao vao 35 ADP case
+35 curitiba curitiba 31 NOUN nmod
+36 dia dia 30 NOUN nmod
+37 interrogatorio interrogatorio 36 ADJ amod
+38 expresidente expresidente 31 NOUN appos
+39 luiz luiz 38 ADJ appos
+40 inacio inacio 39 NOUN appos
+41 lula lula 39 NOUN flat
+42 silva silva 40 NOUN flat
+43 marcado marcar 30 VERB acl
+44 quartafeira quartafeira 43 NOUN obj
+45 10 10 46 NUM nummod
+46 pedido pedido 30 NOUN obj
+47 feito feito 46 VERB acl
+48 video video 30 NOUN obj
+49 divulgado divulgar 62 VERB acl
+50 redes rede 49 NOUN nsubj
+51 sociais social 50 ADJ amod
+52 neste neste 53 ADP case
+53 sabado sabado 43 PROPN nmod
+54 6 6 55 NUM nsubj
+55 assista assistir 28 VERB parataxis
+56 video video 55 NOUN obj
+57 acima acima 58 ADV advmod
+58 ouvido ouvido 56 ADJ amod
+59 muita muita 60 DET det
+60 gente gente 30 NOUN nsubj
+61 apoia apoiar 28 VERB ccomp
+62 operacao operacao 30 NOUN obj
+63 lava lava 62 NOUN appos
+64 jato jato 93 NOUN flat
+65 pretende pretender 38 VERB acl:relcl
+66 vir vir 65 VERB xcomp
+67 curitiba curitiba 66 NOUN obj
+68 manifestar manifestar 21 VERB acl:relcl
+69 apoio apoio 68 NOUN obj
+70 pessoas pessoa 72 NOUN nsubj
+71 curitiba curitiba 25 NOUN amod
+72 pretendem pretender 38 VERB acl:relcl
+73 vir vir 72 VERB xcomp
+74 aqui aqui 73 ADV advmod
+75 manifestar manifestar 73 VERB ccomp
+76 apoio apoio 87 NOUN obj
+77 diria dir 73 VERB ccomp
+78 seguinte seguinte 79 ADJ amod
+79 apoio apoio 77 NOUN obj
+80 sempre sempre 81 ADV advmod
+81 importante importante 79 ADJ amod
+82 nessa nessa 83 ADP case
+83 data data 81 NOUN nmod
+84 necessario necessario 83 ADJ amod
+85 tudo tudo 86 PRON nsubj
+86 quer querer 56 VERB acl:relcl
+87 evitar evitar 86 VERB xcomp
+88 nessa nessa 89 ADP case
+89 data data 87 NOUN nmod
+90 alguma alguma 91 DET det
+91 especie especie 87 NOUN obj
+92 confusao confusao 91 ADJ amod
+93 conflito conflito 92 NOUN nsubj
+94 acima acima 96 ADV advmod
+95 tudo tudo 96 PRON nsubj
+96 quero querer 93 VERB acl:relcl
+97 ninguem ninguem 96 PRON obj
+98 machuque machuque 99 NOUN nsubj
+99 afirmou afirmar 77 VERB parataxis
+100 juiz juiz 99 NOUN obj
+101 responsavel responsavel 100 ADJ amod
+102 acoes acoes 100 NOUN appos
+103 lava lava 100 NOUN appos
+104 jato jato 103 NOUN flat
+105 primeira primeiro 106 ADJ amod
+106 instancia instancia 99 NOUN nsubj
+107 expresidente expresidente 106 NOUN appos
+108 lula lula 107 ADJ amod
+109 reu reu 106 VERB acl:relcl
+110 processo processo 111 NOUN obj
+111 abrange abranger 109 VERB parataxis
+112 tres tres 113 NUM nummod
+113 contratos contrato 111 NOUN obj
+114 oas oas 113 CCONJ cc
+115 petrobras petrobra 113 NOUN conj
+116 acordo acordo 113 NOUN appos
+117 acusacao acusacao 116 NOUN amod
+118 r r 121 NOUN appos
+119 37 37 120 NUM nummod
+120 milhoes milhoes 121 NUM nummod
+121 propinas propina 116 NOUN appos
+122 pagos pagar 121 VERB acl
+123 lula lula 122 NOUN nsubj
+124 procuradores procurador 121 NOUN flat
+125 ministerio ministerio 124 NOUN appos
+126 publico publico 125 ADJ amod
+127 federal federal 125 ADJ amod
+128 mpf mpf 124 NOUN appos
+129 propina propina 128 NOUN flat
+130 deu dar 125 VERB acl:relcl
+131 meio meio 130 NOUN obj
+132 reserva reserva 130 NOUN obj
+133 reforma reforma 134 NOUN appos
+134 apartamento apartamento 130 NOUN obj
+135 triplex triplex 134 NOUN flat
+136 guaruja guaruja 134 NOUN flat
+137 custeio custeio 134 NOUN appos
+138 armazenamento armazenamento 137 NOUN flat

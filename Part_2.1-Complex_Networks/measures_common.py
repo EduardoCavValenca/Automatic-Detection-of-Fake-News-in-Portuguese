@@ -60,6 +60,6 @@ def get_measures_from_text(text):
 
     for key, value in list(measures.items()):
         if  isinstance(value, dict):
-            measures[key] = statistics.mean(value.values())
+            measures[key] = max(value.values())
     
     return measures

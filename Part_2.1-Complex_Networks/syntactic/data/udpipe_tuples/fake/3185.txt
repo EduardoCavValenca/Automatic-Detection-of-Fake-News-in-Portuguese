@@ -1,117 +1,117 @@
-1 1 2 NUM nummod
-2 ano 5 NOUN nsubj
-3 numero 2 NOUN appos
-4 desempregados 3 NOUN amod
-5 aumenta 0 VERB root
-6 41 5 NUM obj
-7 5 5 NUM obj
-8 comparacao 5 NOUN parataxis
-9 periodo 8 NOUN appos
-10 2014 36 NUM nmod
-11 aumento 5 NOUN parataxis
-12 41 16 NUM nummod
-13 5 16 NUM nummod
-14 2 43 NUM nummod
-15 7 16 NUM nummod
-16 milhoes 11 NUM appos
-17 desempregados 11 NOUN appos
-18 segundo 19 ADP case
-19 ibge 29 NOUN nmod
-20 instituto 19 NOUN appos
-21 brasileiro 20 ADJ amod
-22 geografia 19 NOUN appos
-23 estatistica 22 ADJ amod
-24 uol 29 DET nsubj
-25 economia 29 NOUN nsubj
-26 numero 25 NOUN appos
-27 desempregados 25 ADJ amod
-28 brasil 25 NOUN appos
-29 chegou 5 VERB parataxis
-30 9 32 NUM nummod
-31 1 32 NUM nummod
-32 milhoes 33 NUM nummod
-33 trimestre 29 NOUN nmod
-34 setembro 33 PROPN appos
-35 novembro 34 PROPN flat
-36 ano 33 NOUN nmod
-37 passadoagosto 36 ADJ amod
-38 2015 36 NUM nmod
-39 alta 33 NOUN amod
-40 3 43 NUM nummod
-41 7 43 NUM nummod
-42 323 43 NUM nummod
-43 mil 44 NUM nummod
-44 pessoas 39 NOUN appos
-45 numero 46 NOUN appos
-46 pessoas 44 NOUN appos
-47 emprego 46 NOUN appos
-48 92 50 NUM nummod
-49 2 50 NUM nummod
-50 milhoes 46 NUM appos
-51 setembro 46 PROPN appos
-52 novembro 51 PROPN flat
-53 ano 55 NOUN nmod
-54 passado 53 ADJ amod
-55 ficou 11 VERB parataxis
-56 estavel 55 ADJ xcomp
-57 relacao 58 NOUN amod
-58 trimestre 60 NOUN nsubj
-59 anterior 58 ADJ amod
-60 caiu 55 VERB parataxis
-61 0 60 NUM nmod
-62 6 60 NUM nmod
-63 comparacao 60 NOUN nsubj
-64 periodo 60 NOUN nsubj
-65 2014 64 NUM appos
-66 significa 60 VERB parataxis
-67 ano 66 NOUN obj
-68 533 69 NUM nummod
-69 mil 70 NUM nummod
-70 empregos 66 NOUN obj
-71 menos 72 DET det
-72 dados 66 NOUN nsubj
-73 divulgados 72 VERB acl
-74 hoje 73 ADV advmod
-75 19 76 NUM nsubj
-76 fazem 60 VERB parataxis
-77 parte 76 NOUN obj
-78 pnad 77 ADJ amod
-79 pesquisa 60 NOUN nsubj
-80 nacional 79 ADJ amod
-81 amostra 83 NOUN nsubj
-82 domicilios 81 NOUN flat
-83 continua 79 VERB acl:relcl
-84 mensal 83 ADJ xcomp
-85 usa 83 VERB parataxis
-86 dados 85 NOUN obj
-87 trimestres 86 ADJ amod
-88 moveis 86 ADJ amod
-89 tres 90 NUM nummod
-90 meses 86 NOUN nmod
-91 pesquisa 66 NOUN nsubj
-92 informacoes 91 NOUN appos
-93 coletadas 92 VERB acl
-94 211344 95 NUM nummod
-95 domicilios 93 NOUN nsubj
-96 cerca 97 ADV advmod
-97 3500 98 NUM nummod
-98 cidades 95 NOUN appos
-99 ministerio 98 ADJ amod
-100 trabalho 98 NOUN flat
-101 divulgou 98 VERB acl:relcl
-102 brasil 101 NOUN obj
-103 perdeu 101 VERB ccomp
-104 1 106 NUM nummod
-105 54 106 NUM nummod
-106 milhao 107 NUM nummod
-107 vagas 103 NOUN obj
-108 trabalho 107 NOUN flat
-109 carteira 107 NOUN flat
-110 2015 112 NUM nummod
-111 pior 112 ADJ amod
-112 resultado 107 NOUN appos
-113 ano 112 NOUN appos
-114 desde 115 ADP case
-115 inicio 116 NOUN nmod
-116 pesquisa 103 NOUN parataxis
-117 1992 116 NUM nmod
+1 1 1 2 NUM nummod
+2 ano ano 5 NOUN nsubj
+3 numero numero 2 NOUN appos
+4 desempregados desempregado 3 NOUN amod
+5 aumenta aumentar 0 VERB root
+6 41 41 5 NUM obj
+7 5 5 5 NUM obj
+8 comparacao comparacao 5 NOUN parataxis
+9 periodo periodo 8 NOUN appos
+10 2014 2014 36 NUM nmod
+11 aumento aumento 5 NOUN parataxis
+12 41 41 16 NUM nummod
+13 5 5 16 NUM nummod
+14 2 2 43 NUM nummod
+15 7 7 16 NUM nummod
+16 milhoes milhoes 11 NUM appos
+17 desempregados desempregado 11 NOUN appos
+18 segundo segundo 19 ADP case
+19 ibge ibge 29 NOUN nmod
+20 instituto instituto 19 NOUN appos
+21 brasileiro brasileiro 20 ADJ amod
+22 geografia geografia 19 NOUN appos
+23 estatistica estatistico 22 ADJ amod
+24 uol uol 29 DET nsubj
+25 economia economia 29 NOUN nsubj
+26 numero numero 25 NOUN appos
+27 desempregados desempregado 25 ADJ amod
+28 brasil brasil 25 NOUN appos
+29 chegou chegar 5 VERB parataxis
+30 9 9 32 NUM nummod
+31 1 1 32 NUM nummod
+32 milhoes milhoes 33 NUM nummod
+33 trimestre trimestre 29 NOUN nmod
+34 setembro setembro 33 PROPN appos
+35 novembro novembro 34 PROPN flat
+36 ano ano 33 NOUN nmod
+37 passadoagosto passadoagosto 36 ADJ amod
+38 2015 2015 36 NUM nmod
+39 alta alta 33 NOUN amod
+40 3 3 43 NUM nummod
+41 7 7 43 NUM nummod
+42 323 323 43 NUM nummod
+43 mil mil 44 NUM nummod
+44 pessoas pessoa 39 NOUN appos
+45 numero numero 46 NOUN appos
+46 pessoas pessoa 44 NOUN appos
+47 emprego emprego 46 NOUN appos
+48 92 92 50 NUM nummod
+49 2 2 50 NUM nummod
+50 milhoes milhoes 46 NUM appos
+51 setembro setembro 46 PROPN appos
+52 novembro novembro 51 PROPN flat
+53 ano ano 55 NOUN nmod
+54 passado passado 53 ADJ amod
+55 ficou ficar 11 VERB parataxis
+56 estavel estavel 55 ADJ xcomp
+57 relacao relacao 58 NOUN amod
+58 trimestre trimestre 60 NOUN nsubj
+59 anterior anterior 58 ADJ amod
+60 caiu cair 55 VERB parataxis
+61 0 0 60 NUM nmod
+62 6 6 60 NUM nmod
+63 comparacao comparacao 60 NOUN nsubj
+64 periodo periodo 60 NOUN nsubj
+65 2014 2014 64 NUM appos
+66 significa significar 60 VERB parataxis
+67 ano ano 66 NOUN obj
+68 533 533 69 NUM nummod
+69 mil mil 70 NUM nummod
+70 empregos emprego 66 NOUN obj
+71 menos menos 72 DET det
+72 dados dado 66 NOUN nsubj
+73 divulgados divulgar 72 VERB acl
+74 hoje hoje 73 ADV advmod
+75 19 19 76 NUM nsubj
+76 fazem fazer 60 VERB parataxis
+77 parte parte 76 NOUN obj
+78 pnad pnad 77 ADJ amod
+79 pesquisa pesquisa 60 NOUN nsubj
+80 nacional nacional 79 ADJ amod
+81 amostra amostra 83 NOUN nsubj
+82 domicilios domicilio 81 NOUN flat
+83 continua continuar 79 VERB acl:relcl
+84 mensal mensal 83 ADJ xcomp
+85 usa usar 83 VERB parataxis
+86 dados dado 85 NOUN obj
+87 trimestres trimestre 86 ADJ amod
+88 moveis movel 86 ADJ amod
+89 tres tres 90 NUM nummod
+90 meses mês 86 NOUN nmod
+91 pesquisa pesquisa 66 NOUN nsubj
+92 informacoes informacoe 91 NOUN appos
+93 coletadas coletar 92 VERB acl
+94 211344 211344 95 NUM nummod
+95 domicilios domicilio 93 NOUN nsubj
+96 cerca cerca 97 ADV advmod
+97 3500 3500 98 NUM nummod
+98 cidades cidade 95 NOUN appos
+99 ministerio ministerio 98 ADJ amod
+100 trabalho trabalho 98 NOUN flat
+101 divulgou divulgar 98 VERB acl:relcl
+102 brasil brasil 101 NOUN obj
+103 perdeu perder 101 VERB ccomp
+104 1 1 106 NUM nummod
+105 54 54 106 NUM nummod
+106 milhao milhao 107 NUM nummod
+107 vagas vaga 103 NOUN obj
+108 trabalho trabalho 107 NOUN flat
+109 carteira carteira 107 NOUN flat
+110 2015 2015 112 NUM nummod
+111 pior pior 112 ADJ amod
+112 resultado resultado 107 NOUN appos
+113 ano ano 112 NOUN appos
+114 desde desde 115 ADP case
+115 inicio inicio 116 NOUN nmod
+116 pesquisa pesquisa 103 NOUN parataxis
+117 1992 1992 116 NUM nmod

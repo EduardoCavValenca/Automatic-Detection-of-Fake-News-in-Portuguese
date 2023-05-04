@@ -1,170 +1,170 @@
-1 apos 3 ADP case
-2 30 3 NUM nummod
-3 anos 10 NOUN nmod
-4 vitimas 10 NOUN nsubj
-5 de 7 ADP case
-6 o 7 DET det
-7 acidente 4 NOUN nmod
-8 com 9 ADP case
-9 cesio137 7 NOUN nmod
-10 dizem 0 VERB root
-11 sofrer 10 VERB xcomp
-12 com 14 ADP case
-13 a 14 DET det
-14 falta 11 NOUN nmod
-15 de 16 ADP case
-16 apoios 14 NOUN nmod
-17 medico 16 ADJ amod
-18 e 19 CCONJ cc
-19 financeiro 17 ADJ conj
-20 em 21 ADP case
-21 goiania 14 NOUN nmod
-22 radioacidentados 23 NOUN nsubj
-23 reclamam 10 VERB parataxis
-24 que 29 CCONJ mark
-25 mesmo 26 ADV mark
-26 ganhando 29 VERB advcl
-27 pensoes 26 NOUN obj
-28 nao 29 ADV advmod
-29 conseguem 23 VERB ccomp
-30 fechar 29 VERB xcomp
-31 as 32 DET det
-32 contas 30 NOUN obj
-33 secretaria 32 NOUN appos
-34 estadual 33 ADJ amod
-35 de 36 ADP case
-36 saude 33 NOUN nmod
-37 afirma 23 VERB ccomp
-38 que 39 CCONJ mark
-39 oferece 37 VERB ccomp
-40 atendimento 39 NOUN obj
-41 completo 40 ADJ amod
-42 as 43 ADP case
-43 vitimas 39 NOUN iobj
-44 mesmo 46 ADV advmod
-45 30 46 NUM nummod
-46 anos 39 NOUN nmod
-47 apos 49 ADP case
-48 o 49 DET det
-49 acidente 120 NOUN nmod
-50 com 52 ADP case
-51 o 52 DET det
-52 cesio137 49 NOUN nmod
-53 varias 54 DET det
-54 pessoas 120 NOUN nsubj
-55 afetadas 54 VERB acl
-56 direta 55 ADJ xcomp
-57 ou 58 CCONJ cc
-58 indiretamente 56 ADV conj
-59 apresentam 37 VERB ccomp
-60 problemas 59 NOUN obj
-61 de 62 ADP case
-62 saude 60 NOUN nmod
-63 e 64 CCONJ cc
-64 reclamam 137 VERB conj
-65 de 67 ADP case
-66 a 67 DET det
-67 falta 64 NOUN nmod
-68 de 69 ADP case
-69 oferta 67 NOUN nmod
-70 de 71 ADP case
-71 medicamentos 69 NOUN nmod
-72 em 73 ADP case
-73 goiania 69 NOUN nmod
-74 elas 75 PRON nsubj
-75 relatam 23 VERB parataxis
-76 que 169 CCONJ mark
-77 apesar 80 ADV case
-78 de 77 ADP case
-79 a 77 DET det
-80 cobertura 169 NOUN nmod
-81 de 83 ADP case
-82 o 83 DET det
-83 plano 80 NOUN nmod
-84 de 86 ADP case
-85 o 86 DET det
-86 instituto 83 NOUN nmod
-87 de 88 ADP case
-88 assistencia 86 NOUN nmod
-89 a 91 ADP case
-90 os 91 DET det
-91 servidores 88 NOUN nmod
-92 publicos 91 ADJ amod
-93 de 95 ADP case
-94 o 95 DET det
-95 estado 86 NOUN nmod
-96 de 97 ADP case
-97 goias 95 NOUN nmod
-98 ipasgo 86 VERB appos
-99 e 100 CCONJ cc
-100 recebendo 26 VERB conj
-101 pensoes 100 NOUN obj
-102 o 103 DET det
-103 atendimento 100 NOUN obj
-104 nao 29 ADV advmod
-105 e 37 VERB ccomp
-106 suficiente 29 ADJ xcomp
-107 o 108 DET det
-108 acidente 109 NOUN nsubj
-109 aconteceu 23 VERB ccomp
-110 em 111 ADP case
-111 setembro 109 PROPN nmod
-112 de 113 ADP case
-113 1987 111 NUM nmod
-114 quando 120 ADV advmod
-115 dois 116 NUM nummod
-116 catadores 120 NOUN nsubj
-117 de 118 ADP case
-118 material 116 NOUN nmod
-119 reciclavel 118 ADJ amod
-120 encontraram 111 VERB acl:relcl
-121 um 122 DET det
-122 aparelho 120 NOUN obj
-123 em 125 ADP case
-124 um 125 DET det
-125 predio 137 NOUN nmod
-126 abandonado 125 ADJ amod
-127 que 132 PRON nsubj
-128 ja 132 ADV advmod
-129 havia 132 AUX aux
-130 sido 132 AUX cop
-131 uma 132 DET det
-132 clinica 125 NOUN acl:relcl
-133 de 134 ADP case
-134 radiologia 132 NOUN nmod
-135 a 136 DET det
-136 dupla 137 NOUN nsubj
-137 vendeu 37 VERB ccomp
-138 o 139 DET det
-139 objeto 137 NOUN obj
-140 para 142 ADP case
-141 um 142 DET det
-142 ferrovelho 137 NOUN nmod
-143 onde 147 ADV advmod
-144 a 145 DET det
-145 capsula 147 NOUN nsubj:pass
-146 foi 147 AUX aux:pass
-147 aberta 142 VERB acl:relcl
-148 e 155 CCONJ cc
-149 o 155 DET det
-150 cesio137 155 NOUN nsubj
-151 um 152 DET det
-152 po 155 NOUN nsubj
-153 azul 152 ADJ amod
-154 brilhante 152 ADJ amod
-155 acabou 137 VERB conj
-156 exposto 155 ADJ xcomp
-157 segundo 158 ADP case
-158 informacoes 169 NOUN nmod
-159 de 161 ADP case
-160 a 161 DET det
-161 comissao 158 NOUN nmod
-162 nacional 161 ADJ amod
-163 de 164 ADP case
-164 energia 161 NOUN nmod
-165 nuclear 164 ADJ amod
-166 cnen 169 X nmod
-167 quatro 168 NUM nummod
-168 pessoas 169 NOUN nsubj
-169 morreram 75 VERB ccomp
-170 em 158 ADP case
+1 apos apos 3 ADP case
+2 30 30 3 NUM nummod
+3 anos ano 10 NOUN nmod
+4 vitimas vitima 10 NOUN nsubj
+5 de de 7 ADP case
+6 o o 7 DET det
+7 acidente acidente 4 NOUN nmod
+8 com com 9 ADP case
+9 cesio137 cesio137 7 NOUN nmod
+10 dizem dizer 0 VERB root
+11 sofrer sofrer 10 VERB xcomp
+12 com com 14 ADP case
+13 a o 14 DET det
+14 falta falta 11 NOUN nmod
+15 de de 16 ADP case
+16 apoios apoio 14 NOUN nmod
+17 medico medico 16 ADJ amod
+18 e e 19 CCONJ cc
+19 financeiro financeiro 17 ADJ conj
+20 em em 21 ADP case
+21 goiania goiania 14 NOUN nmod
+22 radioacidentados radioacidentados 23 NOUN nsubj
+23 reclamam reclamar 10 VERB parataxis
+24 que que 29 CCONJ mark
+25 mesmo mesmo 26 ADV mark
+26 ganhando ganhar 29 VERB advcl
+27 pensoes pensoe 26 NOUN obj
+28 nao nao 29 ADV advmod
+29 conseguem conseguir 23 VERB ccomp
+30 fechar fechar 29 VERB xcomp
+31 as o 32 DET det
+32 contas conta 30 NOUN obj
+33 secretaria secretaria 32 NOUN appos
+34 estadual estadual 33 ADJ amod
+35 de de 36 ADP case
+36 saude saude 33 NOUN nmod
+37 afirma afirmar 23 VERB ccomp
+38 que que 39 CCONJ mark
+39 oferece oferecer 37 VERB ccomp
+40 atendimento atendimento 39 NOUN obj
+41 completo completo 40 ADJ amod
+42 as as 43 ADP case
+43 vitimas vitimas 39 NOUN iobj
+44 mesmo mesmo 46 ADV advmod
+45 30 30 46 NUM nummod
+46 anos ano 39 NOUN nmod
+47 apos apos 49 ADP case
+48 o o 49 DET det
+49 acidente acidente 120 NOUN nmod
+50 com com 52 ADP case
+51 o o 52 DET det
+52 cesio137 cesio137 49 NOUN nmod
+53 varias varias 54 DET det
+54 pessoas pessoa 120 NOUN nsubj
+55 afetadas afetar 54 VERB acl
+56 direta direto 55 ADJ xcomp
+57 ou ou 58 CCONJ cc
+58 indiretamente indiretamente 56 ADV conj
+59 apresentam apresentar 37 VERB ccomp
+60 problemas problema 59 NOUN obj
+61 de de 62 ADP case
+62 saude saude 60 NOUN nmod
+63 e e 64 CCONJ cc
+64 reclamam reclamar 137 VERB conj
+65 de de 67 ADP case
+66 a o 67 DET det
+67 falta falta 64 NOUN nmod
+68 de de 69 ADP case
+69 oferta oferta 67 NOUN nmod
+70 de de 71 ADP case
+71 medicamentos medicamento 69 NOUN nmod
+72 em em 73 ADP case
+73 goiania goiania 69 NOUN nmod
+74 elas elas 75 PRON nsubj
+75 relatam relatar 23 VERB parataxis
+76 que que 169 CCONJ mark
+77 apesar apesar 80 ADV case
+78 de de 77 ADP case
+79 a o 77 DET det
+80 cobertura cobertura 169 NOUN nmod
+81 de de 83 ADP case
+82 o o 83 DET det
+83 plano plano 80 NOUN nmod
+84 de de 86 ADP case
+85 o o 86 DET det
+86 instituto instituto 83 NOUN nmod
+87 de de 88 ADP case
+88 assistencia assistencia 86 NOUN nmod
+89 a a 91 ADP case
+90 os o 91 DET det
+91 servidores servidor 88 NOUN nmod
+92 publicos publico 91 ADJ amod
+93 de de 95 ADP case
+94 o o 95 DET det
+95 estado estado 86 NOUN nmod
+96 de de 97 ADP case
+97 goias goia 95 NOUN nmod
+98 ipasgo ipasgo 86 VERB appos
+99 e e 100 CCONJ cc
+100 recebendo receber 26 VERB conj
+101 pensoes pensoe 100 NOUN obj
+102 o o 103 DET det
+103 atendimento atendimento 100 NOUN obj
+104 nao nao 29 ADV advmod
+105 e e 37 VERB ccomp
+106 suficiente suficiente 29 ADJ xcomp
+107 o o 108 DET det
+108 acidente acidente 109 NOUN nsubj
+109 aconteceu acontecer 23 VERB ccomp
+110 em em 111 ADP case
+111 setembro setembro 109 PROPN nmod
+112 de de 113 ADP case
+113 1987 1987 111 NUM nmod
+114 quando quando 120 ADV advmod
+115 dois dois 116 NUM nummod
+116 catadores catador 120 NOUN nsubj
+117 de de 118 ADP case
+118 material material 116 NOUN nmod
+119 reciclavel reciclavel 118 ADJ amod
+120 encontraram encontrar 111 VERB acl:relcl
+121 um um 122 DET det
+122 aparelho aparelho 120 NOUN obj
+123 em em 125 ADP case
+124 um um 125 DET det
+125 predio predio 137 NOUN nmod
+126 abandonado abandonado 125 ADJ amod
+127 que que 132 PRON nsubj
+128 ja ja 132 ADV advmod
+129 havia haver 132 AUX aux
+130 sido ser 132 AUX cop
+131 uma um 132 DET det
+132 clinica clinica 125 NOUN acl:relcl
+133 de de 134 ADP case
+134 radiologia radiologia 132 NOUN nmod
+135 a o 136 DET det
+136 dupla dupla 137 NOUN nsubj
+137 vendeu vender 37 VERB ccomp
+138 o o 139 DET det
+139 objeto objeto 137 NOUN obj
+140 para para 142 ADP case
+141 um um 142 DET det
+142 ferrovelho ferrovelho 137 NOUN nmod
+143 onde onde 147 ADV advmod
+144 a o 145 DET det
+145 capsula capsula 147 NOUN nsubj:pass
+146 foi foi 147 AUX aux:pass
+147 aberta abrir 142 VERB acl:relcl
+148 e e 155 CCONJ cc
+149 o o 155 DET det
+150 cesio137 cesio137 155 NOUN nsubj
+151 um um 152 DET det
+152 po po 155 NOUN nsubj
+153 azul azul 152 ADJ amod
+154 brilhante brilhante 152 ADJ amod
+155 acabou acabar 137 VERB conj
+156 exposto exposto 155 ADJ xcomp
+157 segundo segundo 158 ADP case
+158 informacoes informacoe 169 NOUN nmod
+159 de de 161 ADP case
+160 a o 161 DET det
+161 comissao comissao 158 NOUN nmod
+162 nacional nacional 161 ADJ amod
+163 de de 164 ADP case
+164 energia energia 161 NOUN nmod
+165 nuclear nuclear 164 ADJ amod
+166 cnen cnen 169 X nmod
+167 quatro quatro 168 NUM nummod
+168 pessoas pessoa 169 NOUN nsubj
+169 morreram morrer 75 VERB ccomp
+170 em em 158 ADP case

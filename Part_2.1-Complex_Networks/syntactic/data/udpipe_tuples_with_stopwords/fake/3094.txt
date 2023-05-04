@@ -1,148 +1,148 @@
-1 financial 2 ADJ amod
-2 times 9 NOUN nsubj
-3 maior 4 ADJ amod
-4 pais 9 NOUN nsubj
-5 de 7 ADP case
-6 a 7 DET det
-7 america 4 NOUN nmod
-8 latina 7 ADJ amod
-9 tem 0 VERB root
-10 a 12 DET det
-11 pior 12 ADJ amod
-12 recessao 9 NOUN obj
-13 desde 14 ADP case
-14 1930 9 NUM nmod
-15 o 16 DET det
-16 pib 23 NOUN nsubj
-17 produto 16 NOUN appos
-18 interno 17 ADJ amod
-19 bruto 17 ADJ amod
-20 de 22 ADP case
-21 o 22 DET det
-22 brasil 16 NOUN nmod
-23 caiu 9 VERB parataxis
-24 4 25 NUM nummod
-25 5 23 NUM nmod
-26 confirmando 23 VERB acl
-27 os 28 DET det
-28 temores 26 NOUN obj
-29 de 38 ADP mark
-30 que 38 CCONJ mark
-31 o 33 DET det
-32 maior 33 ADJ amod
-33 pais 38 NOUN nsubj
-34 de 36 ADP case
-35 a 36 DET det
-36 america 33 NOUN nmod
-37 latina 36 ADJ amod
-38 esta 28 VERB nmod
-39 em 41 ADP case
-40 o 41 DET det
-41 caminho 38 NOUN nmod
-42 certo 41 ADJ amod
-43 para 47 ADP case
-44 a 47 DET det
-45 sua 47 DET det:poss
-46 pior 47 ADJ amod
-47 recessao 41 NOUN nmod
-48 desde 50 ADP case
-49 a 50 DET det
-50 decada 38 NOUN nmod
-51 de 52 ADP case
-52 1930 50 NUM nmod
-53 a 54 DET det
-54 agencia 38 NOUN nsubj
-55 de 56 ADP case
-56 estatisticas 54 NOUN nmod
-57 de 59 ADP case
-58 o 59 DET det
-59 brasil 54 NOUN nmod
-60 o 61 DET det
-61 ibge 62 NOUN nsubj
-62 disse 9 VERB parataxis
-63 em 65 ADP case
-64 a 65 DET det
-65 tercafeira 62 NOUN nmod
-66 que 74 CCONJ mark
-67 o 68 DET det
-68 pib 74 NOUN nsubj
-69 em 73 ADP case
-70 os 73 DET det
-71 ultimos 73 ADJ amod
-72 tres 73 NUM nummod
-73 meses 68 NOUN nmod
-74 caiu 62 VERB ccomp
-75 1 76 NUM nummod
-76 7 74 NUM nmod
-77 pior 74 ADJ xcomp
-78 de 82 ADP case
-79 o 82 DET det
-80 que 78 ADP fixed
-81 as 82 DET det
-82 expectativas 74 NOUN nmod
-83 de 85 ADP case
-84 os 85 DET det
-85 analistas 82 NOUN nmod
-86 a 87 DET det
-87 queda 82 NOUN appos
-88 anoaano 87 ADJ amod
-89 e 91 CCONJ cc
-90 a 91 DET det
-91 maior 87 ADJ conj
-92 desde 94 ADP case
-93 o 94 DET det
-94 inicio 91 NOUN nmod
-95 de 97 ADP case
-96 a 97 DET det
-97 serie 94 NOUN nmod
-98 historica 97 ADJ amod
-99 em 100 ADP case
-100 1996 97 NUM nmod
-101 disse 62 VERB parataxis
-102 o 103 DET det
-103 ibge 101 NOUN nsubj
-104 a 105 DET det
-105 desaceleracao 107 NOUN nsubj
-106 esta 107 AUX aux
-107 gerando 101 VERB ccomp
-108 uma 109 DET det
-109 tempestade 107 NOUN obj
-110 de 111 ADP case
-111 dados 109 NOUN nmod
-112 economicos 111 ADJ amod
-113 negativos 111 ADJ amod
-114 o 115 DET det
-115 desemprego 116 NOUN nsubj
-116 subiu 101 VERB ccomp
-117 para 118 ADP case
-118 7 116 NUM nmod
-119 9 118 NUM nmod
-120 a 121 DET det
-121 inflacao 122 NOUN nsubj
-122 ultrapassou 101 VERB ccomp
-123 os 124 DET det
-124 10 122 NUM obj
-125 por 128 ADP case
-126 a 128 DET det
-127 primeira 128 ADJ amod
-128 vez 122 NOUN nmod
-129 desde 130 ADP case
-130 2002 128 NUM nmod
-131 e 139 CCONJ cc
-132 o 139 DET det
-133 deficit 139 NOUN nsubj
-134 orcamentario 133 ADJ amod
-135 de 137 ADP case
-136 o 137 DET det
-137 governo 133 NOUN nmod
-138 brasileiro 137 ADJ amod
-139 esta 122 VERB conj
-140 agora 139 ADV advmod
-141 em 143 ADP case
-142 9 143 NUM nummod
-143 5 139 NUM nmod
-144 de 146 ADP case
-145 o 146 DET det
-146 produto 143 NOUN nmod
-147 interno 146 ADJ amod
-148 bruto 146 ADJ amod
+1 financial financial 2 ADJ amod
+2 times time 9 NOUN nsubj
+3 maior maior 4 ADJ amod
+4 pais pais 9 NOUN nsubj
+5 de de 7 ADP case
+6 a o 7 DET det
+7 america america 4 NOUN nmod
+8 latina latino 7 ADJ amod
+9 tem ter 0 VERB root
+10 a o 12 DET det
+11 pior pior 12 ADJ amod
+12 recessao recessao 9 NOUN obj
+13 desde desde 14 ADP case
+14 1930 1930 9 NUM nmod
+15 o o 16 DET det
+16 pib pib 23 NOUN nsubj
+17 produto produto 16 NOUN appos
+18 interno interno 17 ADJ amod
+19 bruto bruto 17 ADJ amod
+20 de de 22 ADP case
+21 o o 22 DET det
+22 brasil brasil 16 NOUN nmod
+23 caiu cair 9 VERB parataxis
+24 4 4 25 NUM nummod
+25 5 5 23 NUM nmod
+26 confirmando confirmar 23 VERB acl
+27 os o 28 DET det
+28 temores temor 26 NOUN obj
+29 de de 38 ADP mark
+30 que que 38 CCONJ mark
+31 o o 33 DET det
+32 maior maior 33 ADJ amod
+33 pais pais 38 NOUN nsubj
+34 de de 36 ADP case
+35 a o 36 DET det
+36 america america 33 NOUN nmod
+37 latina latino 36 ADJ amod
+38 esta esta 28 VERB nmod
+39 em em 41 ADP case
+40 o o 41 DET det
+41 caminho caminho 38 NOUN nmod
+42 certo certo 41 ADJ amod
+43 para para 47 ADP case
+44 a o 47 DET det
+45 sua sua 47 DET det:poss
+46 pior pior 47 ADJ amod
+47 recessao recessao 41 NOUN nmod
+48 desde desde 50 ADP case
+49 a o 50 DET det
+50 decada decada 38 NOUN nmod
+51 de de 52 ADP case
+52 1930 1930 50 NUM nmod
+53 a o 54 DET det
+54 agencia agencia 38 NOUN nsubj
+55 de de 56 ADP case
+56 estatisticas estatisticas 54 NOUN nmod
+57 de de 59 ADP case
+58 o o 59 DET det
+59 brasil brasil 54 NOUN nmod
+60 o o 61 DET det
+61 ibge ibge 62 NOUN nsubj
+62 disse dizer 9 VERB parataxis
+63 em em 65 ADP case
+64 a o 65 DET det
+65 tercafeira tercafeira 62 NOUN nmod
+66 que que 74 CCONJ mark
+67 o o 68 DET det
+68 pib pib 74 NOUN nsubj
+69 em em 73 ADP case
+70 os o 73 DET det
+71 ultimos ultimo 73 ADJ amod
+72 tres tres 73 NUM nummod
+73 meses mês 68 NOUN nmod
+74 caiu cair 62 VERB ccomp
+75 1 1 76 NUM nummod
+76 7 7 74 NUM nmod
+77 pior pior 74 ADJ xcomp
+78 de de 82 ADP case
+79 o o 82 DET det
+80 que que 78 ADP fixed
+81 as o 82 DET det
+82 expectativas expectativa 74 NOUN nmod
+83 de de 85 ADP case
+84 os o 85 DET det
+85 analistas analista 82 NOUN nmod
+86 a o 87 DET det
+87 queda queda 82 NOUN appos
+88 anoaano anoaano 87 ADJ amod
+89 e e 91 CCONJ cc
+90 a o 91 DET det
+91 maior maior 87 ADJ conj
+92 desde desde 94 ADP case
+93 o o 94 DET det
+94 inicio inicio 91 NOUN nmod
+95 de de 97 ADP case
+96 a o 97 DET det
+97 serie serie 94 NOUN nmod
+98 historica historico 97 ADJ amod
+99 em em 100 ADP case
+100 1996 1996 97 NUM nmod
+101 disse dizer 62 VERB parataxis
+102 o o 103 DET det
+103 ibge ibge 101 NOUN nsubj
+104 a o 105 DET det
+105 desaceleracao desaceleracao 107 NOUN nsubj
+106 esta esta 107 AUX aux
+107 gerando gerar 101 VERB ccomp
+108 uma um 109 DET det
+109 tempestade tempestade 107 NOUN obj
+110 de de 111 ADP case
+111 dados dado 109 NOUN nmod
+112 economicos economico 111 ADJ amod
+113 negativos negativo 111 ADJ amod
+114 o o 115 DET det
+115 desemprego desemprego 116 NOUN nsubj
+116 subiu subir 101 VERB ccomp
+117 para para 118 ADP case
+118 7 7 116 NUM nmod
+119 9 9 118 NUM nmod
+120 a o 121 DET det
+121 inflacao inflacao 122 NOUN nsubj
+122 ultrapassou ultrapassar 101 VERB ccomp
+123 os o 124 DET det
+124 10 10 122 NUM obj
+125 por por 128 ADP case
+126 a o 128 DET det
+127 primeira primeiro 128 ADJ amod
+128 vez vez 122 NOUN nmod
+129 desde desde 130 ADP case
+130 2002 2002 128 NUM nmod
+131 e e 139 CCONJ cc
+132 o o 139 DET det
+133 deficit deficit 139 NOUN nsubj
+134 orcamentario orcamentario 133 ADJ amod
+135 de de 137 ADP case
+136 o o 137 DET det
+137 governo governo 133 NOUN nmod
+138 brasileiro brasileiro 137 ADJ amod
+139 esta esta 122 VERB conj
+140 agora agora 139 ADV advmod
+141 em em 143 ADP case
+142 9 9 143 NUM nummod
+143 5 5 139 NUM nmod
+144 de de 146 ADP case
+145 o o 146 DET det
+146 produto produto 143 NOUN nmod
+147 interno interno 146 ADJ amod
+148 bruto bruto 146 ADJ amod
