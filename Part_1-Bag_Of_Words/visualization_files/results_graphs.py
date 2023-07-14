@@ -50,6 +50,8 @@ def graph_compare_feature_num_train(df_plot: pd.DataFrame, title: str = None, ax
         ax.bar_label(container, label_type='edge', fmt='%1.2f', color='black', size=8)
 
     ax.set_title(title)
+    plt.ylabel("Number of words")
+    plt.xlabel("Time for prediction (s)")
     return ax
 
 def graph_compare_datasets_accuracy(df_plot: pd.DataFrame, title: str = None):
